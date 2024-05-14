@@ -494,7 +494,5 @@ plugins:
 
 # Project information 
 site_name: ' '
-site_author: 'JF Cartier'
-site_description: >-
-  Compendium des cours et des évaluations façon Timmomo
+site_url: "https://tim-montmorency.com/compendium/"
 copyright: Techniques d'intégration multimédia | Collège Montmorency
