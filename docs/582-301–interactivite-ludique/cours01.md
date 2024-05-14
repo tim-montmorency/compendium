@@ -1,4 +1,4 @@
-# Cours 1
+# Cours 1 - Bienvenue!
 
 ## Ordre du jour
 
@@ -9,6 +9,8 @@
 1. Pause ⏸️
 1. Exercices
 1. Devoir
+
+---
 
 ## Révision JavaScript
 
@@ -192,6 +194,8 @@ document.getElementById('submit').addEventListener('click', function() {
 });
 ```
 
+---
+
 ## Matière
 
 ### Présentation du cadriciel
@@ -242,9 +246,13 @@ NomDuJeu
 
 [^unity]: [Bonnes pratiques pour organiser votre jeu vidéo](https://unity.com/how-to/organizing-your-project) (En anglais)
 
+---
+
 ## Exercices
 
 À venir
+
+---
 
 ## Devoir
 
