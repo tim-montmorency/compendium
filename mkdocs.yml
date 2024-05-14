@@ -433,17 +433,17 @@ theme:
     - navigation.instant.prefetch
     - navigation.path
   palette:
-    - media: "(prefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: light)"
       primary: custom
       scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
         name: Mode clair
     - media: "(prefers-color-scheme: light)"
       primary: white
       scheme: default
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-4
         name: Mode sombre
 
 # Extensions
