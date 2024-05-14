@@ -437,13 +437,13 @@ theme:
       primary: indigo
       scheme: slate
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Mode clair
     - media: "(prefers-color-scheme: light)"
       primary: indigo
       scheme: default
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Mode sombre
 
 # Extensions
