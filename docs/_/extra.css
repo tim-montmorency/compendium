@@ -1,8 +1,8 @@
-:root {
+/* :root {
     --md-primary-fg-color: #ff003a;
     --md-primary-fg-color--light: #ff8095;
     --md-primary-fg-color--dark: #c2002e;
-}
+} */
 
 @media screen {
     [data-md-color-scheme=slate] {
