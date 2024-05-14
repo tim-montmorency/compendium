@@ -1,7 +1,3 @@
----
-title: "582-301"
----
-
 # Cours 1 - Bienvenue!
 
 ## Ordre du jour
