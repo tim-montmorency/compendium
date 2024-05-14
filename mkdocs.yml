@@ -493,6 +493,6 @@ plugins:
   - mkdocs-video
 
 # Project information 
-site_name: ' '
+site_name: 'TIM'
 site_url: "https://tim-montmorency.com/compendium/"
 copyright: Techniques d'intégration multimédia | Collège Montmorency
