@@ -1,2 +1,4 @@
-# compendium
-Outil dédié à la gestion des notes de cours en Markdown.
+# Syntaxe
+
+[Aide mémoire](https://tim-montmorency.com/compendium/aide-memoire)
+[Mkdocs material](https://squidfunk.github.io/mkdocs-material/reference/)
