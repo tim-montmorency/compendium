@@ -1,4 +1,4 @@
-# Cours 1 - Bienvenue au cours d'interactivité ludique !
+# Cours 1 - Bienvenue à toutes et à tous
 
 ## Ordre du jour
 
