@@ -1,0 +1,18 @@
+name: Déploiement de la documentation markdown en HTML
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Deploy mkdocs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+        
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REQUIREMENTS: requirements.txt
