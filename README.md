@@ -1,4 +1,4 @@
-# Tutoriel
+# Tutoriel en 5min
 
 [![Titre de la vidéo](http://img.youtube.com/vi/_UaFiCyzAQY/0.jpg)](http://www.youtube.com/watch?v=_UaFiCyzAQY)
 
