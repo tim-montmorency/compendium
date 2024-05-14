@@ -3,6 +3,7 @@
 ## Ordre du jour
 
 1. Présentations
+1. Plan de cours 
 1. Révision des notions acquises en JavaScript et retour sur le cours « 420 V11 MO – Programmation interactive »
 1. Pause ⏸️
 1. Matière
