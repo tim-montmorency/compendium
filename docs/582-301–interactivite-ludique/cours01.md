@@ -1,15 +1,14 @@
-# Cours 1 - Bienvenue à toutes et à tous
+# Cours 1
 
 ## Ordre du jour
 
 1. Présentations
-1. [🧠 Quiz ABCDEF](https://google.com)
 1. Révision des notions acquises en JavaScript et retour sur le cours « 420 V11 MO – Programmation interactive »
 1. Pause ⏸️
 1. Matière
 1. Pause ⏸️
 1. Exercices
-1. Devoir Yééé!
+1. Devoir
 
 ## Révision JavaScript
 
@@ -205,6 +204,8 @@ document.getElementById('submit').addEventListener('click', function() {
 À venir...
 
 ### Arborescence
+
+Voici à quoi pourrait et devrait ressembler la structure[^unity] de votre jeu.
 
 ```
 NomDuJeu
