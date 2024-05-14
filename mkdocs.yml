@@ -434,13 +434,13 @@ theme:
     - navigation.path
   palette:
     - media: "(prefers-color-scheme: light)"
-      primary: custom
+      primary: indigo
       scheme: slate
       toggle:
         icon: material/brightness-7
         name: Mode clair
     - media: "(prefers-color-scheme: light)"
-      primary: white
+      primary: indigo
       scheme: default
       toggle:
         icon: material/brightness-4
