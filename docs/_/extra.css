@@ -1,0 +1,53 @@
+:root {
+    --md-primary-fg-color: #ff003a;
+    --md-primary-fg-color--light: #ff8095;
+    --md-primary-fg-color--dark: #c2002e;
+}
+
+@media screen {
+    [data-md-color-scheme=slate] {
+        --md-default-bg-color: #111;
+    }
+}
+
+/* Cache les tabs en attendant le JS pour les retirer du DOM  */
+.md-container > .md-tabs {
+    display: none;
+}
+
+/* Retirer l'event click du lien logo avant que le JS le retire du DOM */
+.md-header__button.md-logo {
+    pointer-events: none;
+}
+
+.md-header__button.md-logo {
+    cursor: default;
+}
+
+.md-footer {
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+.md-footer-meta {
+    background-color: transparent;
+}
+
+.md-copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.md-copyright__highlight {
+    color: var(--md-typeset-color);
+    font-size: 0.5rem;
+}
+
+html .md-footer-meta.md-typeset a {
+    color: var(--md-typeset-color);
+    text-decoration: underline;
+}
+
+html .md-footer-meta.md-typeset a:hover {
+    color: var(--md-primary-fg-color);
+}
