@@ -437,13 +437,13 @@ theme:
       primary: indigo
       scheme: slate
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Mode clair
     - media: "(prefers-color-scheme: light)"
       primary: indigo
       scheme: default
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Mode sombre
 
 # Extensions
@@ -494,5 +494,5 @@ plugins:
 
 # Project information 
 site_name: 'TIM'
-site_url: "https://tim-montmorency.com/compendium/"
+site_url: "Notes de cours"
 copyright: Techniques d'intégration multimédia | Collège Montmorency
