@@ -2,3 +2,4 @@
 hide:
   - toc
 ---
+# Exercices
