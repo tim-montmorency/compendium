@@ -6,7 +6,7 @@
 [📁 Fichier Illustrator](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EY93NzitBkFBvc5QEKesEKgBbVa5HEn7REM0DIYWH4hXJg?e=xSnGfG){ .md-button }
 
 <p>Téléchargez le dossier de projet suivant:</p>
-[📁 Fichier Illustrator](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EksG2oDKsmRKoO2kmaOfTrABvtSbndJmam6s7aMaEpAFXg?e=y85pED){ .md-button }
+[📁 Dossier de projet](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EksG2oDKsmRKoO2kmaOfTrABvtSbndJmam6s7aMaEpAFXg?e=y85pED){ .md-button }
 
 
 ***
