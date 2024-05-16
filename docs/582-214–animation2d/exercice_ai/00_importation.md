@@ -1,5 +1,7 @@
-<p class="spacer"> Le but de cet exercice est de vous familiariser avec After Effects.</p>
-<dots></dots>
+# Exercice 00_importation
+<p > Le but de cet exercice est de vous familiariser avec After Effects.</p>
+
+***
 
 # Matériel
 
