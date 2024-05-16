@@ -6,12 +6,14 @@
 <p>Créez-vous un nouveau projet After Effects, puis importez la composition suivante dans celui-ci grâce aux étapes ci-bas:</p>
 [Fichier Illustrator](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYunWc2Q0SVPn7m-owM3EH8B_gYPAwQ54OioCTcwTpVziQ?e=o3H7kB){ .md-button }
 
+***
 
 # Étapes
-- [] Fichier > importer > fichier. Importer le document AI homme_et_plantes.ai. 
-- [] Sélectionner importer sous Composition - Conserver les tailles.
-- [] Cocher Créer une composition.
+- [ ] Fichier > importer > fichier. Importer le document AI homme_et_plantes.ai. 
+- [ ] Sélectionner importer sous Composition - Conserver les tailles.
+- [ ] Cocher Créer une composition.
 
+***
 
 # Tutoriel 📚
 [Importer un fichier Illustrator](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfRph-oNoVJCgZzQT0MDd1ABqDQJEIi0V7uNvuGGlF6DAg?e=5pEkaF){ .md-button }
