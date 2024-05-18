@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Vous devrez reproduire des formes à l'aide des outils de déformation.   
+Vous devrez reproduire des formes à l'aide des outils de déformation.   
 ***  
 
 
