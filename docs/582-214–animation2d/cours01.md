@@ -6,8 +6,8 @@
 [📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }
 
 ***
-<p># Illustrator</p>
-<p>### La base:
+# Illustrator\n 
+### La base:
 <li><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a> </li>
 <li><a href="https://helpx.adobe.com/ca_fr/illustrator/using/default-keyboard-shortcuts.html">Les raccourcis Illustrator</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES5ddJzsh91LrbRnu6N642EBaWL34-pCoxRj9pk49v7VGg?e=kCswfy">Création de projet</a></li>
@@ -19,11 +19,11 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVWn5aelFqpOv_9d1i0JF78BymFyM5Ss_7aDn8zNncEsLA?e=RKKLMO">Règles et repères</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
-</p>
+\n 
 [🛠️ ](../exercices/00_nouveau_doc){ .md-button }
 ***
 
-<p>### Notions
+### Notions
 <ul><li>
 <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaM75QxzM9pBg9iYuG01uo8BGFVDSQtsSrFA6fXz2j2Jsw?e=xVHOsn">Sélection (V)</a>
     <ul>
@@ -39,11 +39,11 @@
         
         
     </ul>
-</li></ul></p>
+</li></ul>\n 
 
 [🛠️ ](../exercices/00_transformations){ .md-button }
 ***
-<p>### Notions
+### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaDI5ZSDJzhEnBU3VXJ1zt8B47tGZ8ZoJeTMfisebov2BQ?e=328kHA">Baguette magique</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeMB16q9Y2ZFiWqmSSqHNegBE6-OskRpaw1nPyw1g-vFtw?e=lTym2X">Lasso</a></li>
@@ -51,23 +51,23 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr">Plume (P)</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a></li>
 
-</ul></p>
+</ul>\n 
 [🛠️ ](../exercices/01_plume){ .md-button }
 [🛠️ ](../exercices/01_vagues){ .md-button }
 [🛠️ ](../exercices/01_voiture){ .md-button }
 ***
 
-<p>### Notions
+### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie">Largeur (Shift + w)</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O">Déformation</a></li>
 
-</ul></p>
+</ul>\n 
 
 [🛠️ ](../exercices/02_largeur){ .md-button }
 [🛠️ ](../exercices/02_deformation){ .md-button }
 ***
-<p>### Notions
+### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Rectangle (M)</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Cercle</a></li>
@@ -78,17 +78,17 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Edkspx-v4p1PmUDZyI3cL1gBR6oyBkE1JzqiYCe5DbCy1w?e=lascoq">Spirale</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVvP-2-lo8xCpKIDD85Uq7oBptG0p31i7O2kOMlK_Zisuw?e=XXtB9F">Spirale Couleur</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a></li>
-</ul></p>
+</ul>\n 
 
 [🛠️ ](../exercices/03_formes){ .md-button }
 ***
-<p>### Notions
+### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a></li>
 ***
-<p>### Devoir
-</ul></p>
+### Devoir
+</ul>\n 
 [🛠️ ](../exercices/04_maison){ .md-button }
 [🛠️ ](../exercices/04_formes_simples){ .md-button }
 [🛠️ ](../exercices/04_devoir_1){ .md-button }
