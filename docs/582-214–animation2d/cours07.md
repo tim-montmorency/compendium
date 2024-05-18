@@ -5,9 +5,13 @@
 
 ### Typographie kinétique
 [🛠️ 09_experimentation_typo](exercice_ae/09_experimentation_typo){ .md-button }   <br>
+<br>
 [🛠️ 09_modes_couleur](exercice_ae/09_modes_couleur){ .md-button }   <br>
+<br>
 [🛠️ 09_typo_masque](exercice_ae/09_typo_masque){ .md-button }   <br>
+<br>
 [🛠️ 09_texturing](exercice_ae/09_texturing){ .md-button }   <br>
+<br>
 [🛠️ 09_3d_lettre](exercice_ae/09_3d_lettre){ .md-button }   <br>
 
 ***  
