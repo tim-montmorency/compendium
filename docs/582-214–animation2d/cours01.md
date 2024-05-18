@@ -20,7 +20,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
    
-[🛠️ 00_nouveau_doc](exercice_ai/00_nouveau_doc){ .md-button }   
+[🛠️ 00_nouveau_doc](exercice_ai/00_importation){ .md-button }   
 ***  
 
 ### Notions
