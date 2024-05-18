@@ -4,11 +4,11 @@
 ***  
 
 ### Typographie kinétique
-<exercice href="../exercices_ae/09_experimentation_typo"></exercice>
-<exercice href="../exercices_ae/09_modes_couleur"></exercice>
-<exercice href="../exercices_ae/09_typo_masque"></exercice>
-<exercice href="../exercices_ae/09_texturing"></exercice>
-<exercice href="../exercices_ae/09_3d_lettre"></exercice>
+[🛠️ 09_experimentation_typo](exercice_ae/09_experimentation_typo){ .md-button }   <br>
+[🛠️ 09_modes_couleur](exercice_ae/09_modes_couleur){ .md-button }   <br>
+[🛠️ 09_typo_masque](exercice_ae/09_typo_masque){ .md-button }   <br>
+[🛠️ 09_texturing](exercice_ae/09_texturing){ .md-button }   <br>
+[🛠️ 09_3d_lettre](exercice_ae/09_3d_lettre){ .md-button }   <br>
 
 ***  
 ### Les 12 principes de l'animation
@@ -17,4 +17,4 @@
 
 ***  
 ### Présentation du travail 2 et de ses effets   
-<intlink href="../exercices_ae/travail2"></intlink>   
+[🛠️ travail2](exercice_ae/travail2){ .md-button }   <br>   
