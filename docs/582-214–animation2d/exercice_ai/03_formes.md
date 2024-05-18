@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> L'objectif de cet exercice est de créer cette ampoule:   
+L'objectif de cet exercice est de créer cette ampoule:   
 <img src="images/ampoule.png">
 
 ***  
