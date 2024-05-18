@@ -52,7 +52,9 @@
 
 </ul>   
 [🛠️ 01_plume](exercice_ai/01_plume){ .md-button }   <br>
+<br>
 [🛠️ 01_vagues](exercice_ai/01_vagues){ .md-button }   <br>
+<br>
 [🛠️ 01_voiture](exercice_ai/01_voiture){ .md-button }   <br>
 ***  
 
@@ -64,6 +66,7 @@
 </ul>   
 
 [🛠️ 02_largeur](exercice_ai/02_largeur){ .md-button }   <br>
+<br>
 [🛠️ 02_deformation](exercice_ai/02_deformation){ .md-button }   <br>
 ***  
 ### Notions
