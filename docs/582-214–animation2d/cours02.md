@@ -1,7 +1,10 @@
 ## Retour sur le devoir   
-[🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   <br>
-[🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   <br>
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   <br>
+[🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   <br>  
+
+[🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   <br>   
+
+[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   <br>   
+
 
 ***  
 
