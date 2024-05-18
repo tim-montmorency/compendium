@@ -28,8 +28,12 @@
 [🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>   
 ***  
 # After Effects   
-!!! warning "Attention"<br><br>        TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.<br>
-!!! warning "Attention"<br><br>        TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.<br>
+!!! warning "Attention"
+
+    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
+!!! warning "Attention"
+
+    TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
 
 ### Notions
 Préparation des fichiers Illustrator pour Importation dans After Effects   
