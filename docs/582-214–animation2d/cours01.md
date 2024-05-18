@@ -1,8 +1,8 @@
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN){ .md-button }   
+[📁 Plan de cours](https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN){ .md-button }   <br>
 
 ## Introduction à l'animation - Lora
-[📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }   
+[📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }   <br>
 
 ***  
 # Illustrator   
@@ -19,7 +19,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
    
-[🛠️ 00_nouveau_doc](exercice_ai/00_importation){ .md-button }   
+[🛠️ 00_nouveau_doc](exercice_ai/00_nouveau_doc){ .md-button }   <br>
 ***  
 
 ### Notions
@@ -40,7 +40,7 @@
     </ul>
 </li></ul>   
 
-[🛠️ 00_transformations](exercice_ai/00_transformations){ .md-button }   
+[🛠️ 00_transformations](exercice_ai/00_transformations){ .md-button }   <br>
 ***  
 ### Notions
 <ul>
@@ -51,9 +51,9 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a></li>
 
 </ul>   
-[🛠️ 01_plume](exercice_ai/01_plume){ .md-button }   
-[🛠️ 01_vagues](exercice_ai/01_vagues){ .md-button }   
-[🛠️ 01_voiture](exercice_ai/01_voiture){ .md-button }   
+[🛠️ 01_plume](exercice_ai/01_plume){ .md-button }   <br>
+[🛠️ 01_vagues](exercice_ai/01_vagues){ .md-button }   <br>
+[🛠️ 01_voiture](exercice_ai/01_voiture){ .md-button }   <br>
 ***  
 
 ### Notions
@@ -63,8 +63,8 @@
 
 </ul>   
 
-[🛠️ 02_largeur](exercice_ai/02_largeur){ .md-button }   
-[🛠️ 02_deformation](exercice_ai/02_deformation){ .md-button }   
+[🛠️ 02_largeur](exercice_ai/02_largeur){ .md-button }   <br>
+[🛠️ 02_deformation](exercice_ai/02_deformation){ .md-button }   <br>
 ***  
 ### Notions
 <ul>
@@ -79,27 +79,15 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a></li>
 </ul>   
 
-[🛠️ 03_formes](exercice_ai/03_formes){ .md-button }   
+[🛠️ 03_formes](exercice_ai/03_formes){ .md-button }   <br>
 ***  
 ### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a></li>
-</ul>  
-***   
-   
+***  
 ### Devoir
- 
-[🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   
-[🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   
-
-## Test
-<li><u><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a></u> </li>
-
-## Exercices
-[🛠️ 00_importation](https://tim-montmorency.com/compendium/582-214%E2%80%93animation2d/exercice_ai/00_importation){ .md-button }
-[🛠️ 00_monstre](https://tim-montmorency.com/compendium/582-214%E2%80%93animation2d/exercice_ai/00_monstre){ .md-button }
-[🛠️ 00_plante](https://tim-montmorency.com/compendium/582-214%E2%80%93animation2d/exercice_ai/00_plante){ .md-button }
-
-
+</ul>   
+[🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   <br>
+[🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   <br>
+[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   <br>
