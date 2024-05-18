@@ -5,7 +5,7 @@
 ## Introduction à l'animation - Lora
 [📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }
 
-***
+***  
 # Illustrator   
 ### La base:
 <li><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a> </li>
@@ -20,8 +20,8 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
    
-[🛠️ ](../exercices/00_nouveau_doc){ .md-button }
-***
+[🛠️ exercices/00_nouveau_doc](00_nouveau_doc){ .md-button }
+***  
 
 ### Notions
 <ul><li>
@@ -41,8 +41,8 @@
     </ul>
 </li></ul>   
 
-[🛠️ ](../exercices/00_transformations){ .md-button }
-***
+[🛠️ exercices/00_transformations](00_transformations){ .md-button }
+***  
 ### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaDI5ZSDJzhEnBU3VXJ1zt8B47tGZ8ZoJeTMfisebov2BQ?e=328kHA">Baguette magique</a></li>
@@ -52,10 +52,10 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a></li>
 
 </ul>   
-[🛠️ ](../exercices/01_plume){ .md-button }
-[🛠️ ](../exercices/01_vagues){ .md-button }
-[🛠️ ](../exercices/01_voiture){ .md-button }
-***
+[🛠️ exercices/01_plume](01_plume){ .md-button }
+[🛠️ exercices/01_vagues](01_vagues){ .md-button }
+[🛠️ exercices/01_voiture](01_voiture){ .md-button }
+***  
 
 ### Notions
 <ul>
@@ -64,9 +64,9 @@
 
 </ul>   
 
-[🛠️ ](../exercices/02_largeur){ .md-button }
-[🛠️ ](../exercices/02_deformation){ .md-button }
-***
+[🛠️ exercices/02_largeur](02_largeur){ .md-button }
+[🛠️ exercices/02_deformation](02_deformation){ .md-button }
+***  
 ### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Rectangle (M)</a></li>
@@ -80,18 +80,18 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a></li>
 </ul>   
 
-[🛠️ ](../exercices/03_formes){ .md-button }
-***
+[🛠️ exercices/03_formes](03_formes){ .md-button }
+***  
 ### Notions
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a></li>
-***
+***  
 ### Devoir
 </ul>   
-[🛠️ ](../exercices/04_maison){ .md-button }
-[🛠️ ](../exercices/04_formes_simples){ .md-button }
-[🛠️ ](../exercices/04_devoir_1){ .md-button }
+[🛠️ exercices/04_maison](04_maison){ .md-button }
+[🛠️ exercices/04_formes_simples](04_formes_simples){ .md-button }
+[🛠️ exercices/04_devoir_1](04_devoir_1){ .md-button }
 
 ## Test
 <li><u><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a></u> </li>
