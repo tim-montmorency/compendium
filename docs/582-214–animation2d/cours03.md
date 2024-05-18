@@ -28,6 +28,11 @@
 [🛠️ travail1](exercice_ai/travail1){ .md-button }   \n\n   
 ***  
 # After Effects   
+
+!!! warning "Attention"
+
+    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
+
 !!! warning "Attention"   \nTOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
 !!! warning "Attention"   \nTOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
 
