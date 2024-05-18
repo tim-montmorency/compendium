@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Les outils plume et largeur vous permettront retracer le nuage.   
+Les outils plume et largeur vous permettront retracer le nuage.   
 ***  
 
 
