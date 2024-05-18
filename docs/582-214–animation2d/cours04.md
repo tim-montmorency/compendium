@@ -4,7 +4,9 @@
 
 ***  
 # After Effects   
-!!! warning "Attention"<br><br>        Rappel: TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.<br>
+!!! warning "Attention"
+
+    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
 
 ### Retour
 [🛠️ 00_plante](exercice_ae/00_plante){ .md-button }   <br>   
