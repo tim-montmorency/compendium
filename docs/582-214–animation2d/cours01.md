@@ -1,4 +1,3 @@
-# Cours 1 - Bienvenue!
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN){ .md-button }   
 
