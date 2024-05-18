@@ -43,6 +43,7 @@ Préparation des fichiers Illustrator pour Importation dans After Effects
 ### Exercice
 Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien nommés.   
 [🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   <br>
+<br>
 Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses calques:   
 [📁 Monstre](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EWi1_GaSvppBiCzFhWwRJ0oBXEHKaL-Eeuk9GKV11NlO1Q?e=hftzg5){ .md-button }   <br>
 ***  
@@ -79,5 +80,5 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 <exercice href="../exercices_ae/00_monstre"></exercice>   
 ***  
 ## Devoir
-Terminer le travail 1 partie 1
+Terminer le travail 1 partie 1 <br>
 [🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>  
