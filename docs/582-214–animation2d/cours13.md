@@ -4,5 +4,5 @@
 <li>Travail sur les génériques individuels</li>
 <li>Correction des animations du travail 2</li>
 </ul>   
-<intlink href="../exercices_ae/travail2"></intlink>   
+[🛠️ travail2](exercice_ae/travail2){ .md-button }   <br>   
 !!! info "Information"<br><br>       Cours conjoint avec vidéo<br>
