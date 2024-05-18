@@ -8,7 +8,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESzwupB5CgBMqzWMgS6_CXcBh5iB6h0wXK3QYmZCTALSvg?e=ZRHnrk">Texte captif horizontal</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbU9cAE0CrRLiPjL2sq9X_wBrzs3ey_2mCmVN8gjAmmGXQ?e=UtW8iM">Texte captif vertical</a></li>
 </ul>   
-[🛠️ 11_mise_page](exercice_ai/11_mise_page){ .md-button }   \n   
+[🛠️ 11_mise_page](exercice_ai/11_mise_page){ .md-button }   \   
 [🛠️ 11_typographie](exercice_ai/11_typographie){ .md-button }   \n\n   
 ***  
 ### Précisions sur le travail 1
