@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Le but de cet exercice est de vous familiariser avec Illustrator.   
+Le but de cet exercice est de vous familiariser avec Illustrator.   
 ***  
 
 ## Nouveau document
