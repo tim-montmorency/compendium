@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Dans cet exercice, vous devez retracer un monstre à l'aide de l'outil plume.    
+Dans cet exercice, vous devez retracer un monstre à l'aide de l'outil plume.    
 ***  
 
 
