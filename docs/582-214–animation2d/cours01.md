@@ -6,7 +6,7 @@
 [📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }
 
 ***
-# Illustrator\n 
+# Illustrator   
 ### La base:
 <li><a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a> </li>
 <li><a href="https://helpx.adobe.com/ca_fr/illustrator/using/default-keyboard-shortcuts.html">Les raccourcis Illustrator</a></li>
@@ -19,7 +19,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVWn5aelFqpOv_9d1i0JF78BymFyM5Ss_7aDn8zNncEsLA?e=RKKLMO">Règles et repères</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
-\n 
+   
 [🛠️ ](../exercices/00_nouveau_doc){ .md-button }
 ***
 
@@ -39,7 +39,7 @@
         
         
     </ul>
-</li></ul>\n 
+</li></ul>   
 
 [🛠️ ](../exercices/00_transformations){ .md-button }
 ***
@@ -51,7 +51,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr">Plume (P)</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a></li>
 
-</ul>\n 
+</ul>   
 [🛠️ ](../exercices/01_plume){ .md-button }
 [🛠️ ](../exercices/01_vagues){ .md-button }
 [🛠️ ](../exercices/01_voiture){ .md-button }
@@ -62,7 +62,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie">Largeur (Shift + w)</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O">Déformation</a></li>
 
-</ul>\n 
+</ul>   
 
 [🛠️ ](../exercices/02_largeur){ .md-button }
 [🛠️ ](../exercices/02_deformation){ .md-button }
@@ -78,7 +78,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Edkspx-v4p1PmUDZyI3cL1gBR6oyBkE1JzqiYCe5DbCy1w?e=lascoq">Spirale</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVvP-2-lo8xCpKIDD85Uq7oBptG0p31i7O2kOMlK_Zisuw?e=XXtB9F">Spirale Couleur</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a></li>
-</ul>\n 
+</ul>   
 
 [🛠️ ](../exercices/03_formes){ .md-button }
 ***
@@ -88,7 +88,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a></li>
 ***
 ### Devoir
-</ul>\n 
+</ul>   
 [🛠️ ](../exercices/04_maison){ .md-button }
 [🛠️ ](../exercices/04_formes_simples){ .md-button }
 [🛠️ ](../exercices/04_devoir_1){ .md-button }
