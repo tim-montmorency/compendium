@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Cet exercice vous permettra de retracez deux voitures à l'aide de l'outil plume.    
+Cet exercice vous permettra de retracez deux voitures à l'aide de l'outil plume.    
 ***  
 
 ## Matériel
