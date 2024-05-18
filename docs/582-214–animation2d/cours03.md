@@ -30,10 +30,10 @@
 ***  
 # After Effects   
 !!! warning "Attention"   
-TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
+    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
 
 !!! warning "Attention"   
-TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
+    TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
 
 ### Notions
 Préparation des fichiers Illustrator pour Importation dans After Effects   
