@@ -76,4 +76,4 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 ***  
 ## Devoir
 Terminer le travail 1 partie 1
-[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>
+[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>   
