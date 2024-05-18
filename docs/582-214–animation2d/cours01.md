@@ -86,9 +86,11 @@
 <ul>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a></li>
-***  
+</ul>  
+***   
+   
 ### Devoir
-</ul>   
+ 
 [🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   
 [🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   
 [🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   
