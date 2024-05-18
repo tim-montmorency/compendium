@@ -1,5 +1,5 @@
 ### Mini-Kino avec les illustrations du cours 8
-<intlink href="../exercices_ae/kino"></intlink>   
+[🛠️ kino](exercice_ae/kino){ .md-button }   <br>   
 
 ### Avancement du travail 2   
-<intlink href="../exercices_ae/travail2"></intlink>   
+[🛠️ travail2](exercice_ae/travail2){ .md-button }   <br>   
