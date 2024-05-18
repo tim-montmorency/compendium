@@ -28,8 +28,8 @@
 [🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>   
 ***  
 # After Effects   
-!!! warning "Attention"\n\n    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.\n\n
-!!! warning "Attention"\n\n    TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.\n\n
+!!! warning "Attention"<br>    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.<br>
+!!! warning "Attention"<br>    TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.<br>
 
 ### Notions
 Préparation des fichiers Illustrator pour Importation dans After Effects   
@@ -76,4 +76,4 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 ***  
 ## Devoir
 Terminer le travail 1 partie 1
-[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>   
+[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br> 
