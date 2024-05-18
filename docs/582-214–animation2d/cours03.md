@@ -1,4 +1,3 @@
-# Cours 3
 # Illustrator   
 ### Notions
 
@@ -9,8 +8,8 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESzwupB5CgBMqzWMgS6_CXcBh5iB6h0wXK3QYmZCTALSvg?e=ZRHnrk">Texte captif horizontal</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbU9cAE0CrRLiPjL2sq9X_wBrzs3ey_2mCmVN8gjAmmGXQ?e=UtW8iM">Texte captif vertical</a></li>
 </ul>   
-[🛠️ 11_mise_page](exercice_ai/11_mise_page){ .md-button }      
-[🛠️ 11_typographie](exercice_ai/11_typographie){ .md-button }      
+[🛠️ 11_mise_page](exercice_ai/11_mise_page){ .md-button }   \n\n   
+[🛠️ 11_typographie](exercice_ai/11_typographie){ .md-button }   \n\n   
 ***  
 ### Précisions sur le travail 1
 
@@ -26,14 +25,11 @@
     <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu">Fenêtre aspect pour modifier les effets</a></li>
     <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY">Vectorisation (cactus)</a></li>
 </ul>   
-<intlink href="../exercices/travail1"></intlink>   
+[🛠️ travail1](exercice_ai/travail1){ .md-button }   \n\n   
 ***  
 # After Effects   
-!!! warning "Attention"   
-    TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
-
-!!! warning "Attention"   
-    TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
+!!! warning "Attention"   \nTOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
+!!! warning "Attention"   \nTOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
 
 ### Notions
 Préparation des fichiers Illustrator pour Importation dans After Effects   
@@ -42,9 +38,9 @@ Préparation des fichiers Illustrator pour Importation dans After Effects
 
 ### Exercice
 Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien nommés.   
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   
+[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   \n\n
 Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses calques:   
-[📁 Monstre](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EWi1_GaSvppBiCzFhWwRJ0oBXEHKaL-Eeuk9GKV11NlO1Q?e=hftzg5){ .md-button }   
+[📁 Monstre](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EWi1_GaSvppBiCzFhWwRJ0oBXEHKaL-Eeuk9GKV11NlO1Q?e=hftzg5){ .md-button }   \n\n
 ***  
 ### Notions
 <ul>
@@ -80,4 +76,4 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 ***  
 ## Devoir
 Terminer le travail 1 partie 1
-<intlink href="../exercices/travail1"></intlink>   
+[🛠️ travail1](exercice_ai/travail1){ .md-button }   \n\n   
