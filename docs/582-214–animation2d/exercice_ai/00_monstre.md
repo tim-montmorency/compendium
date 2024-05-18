@@ -1,6 +1,3 @@
-
-
-
 ## Matériel
 
 Importez le fichier Illustrator du monstre que vous avez créé dans votre devoir 1 dans une composition After Effects.   
@@ -22,6 +19,8 @@ Téléchargez le dossier de projet suivant:
 - [ ] Liez tous les calques comme enfant du corps (colonne Parent et lien sur les calques dans la timeline).
 - [ ] Bougez le corps et tout le reste suivra.
 - [ ] Amusez-vous !
+
+***  
 
 ## Tutoriel 📚
 [📁 Capsule d'aide](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eb_kyJVYByNIvdjoE0UM1loBeb3hOO6SW_8WpTERvg2YQw?e=IVUL6C){ .md-button }   <br>
