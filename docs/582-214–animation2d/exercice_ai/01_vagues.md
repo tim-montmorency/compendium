@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Cet exercice vous permettra de tracer des vagues avec l'outil plume.   
+Cet exercice vous permettra de tracer des vagues avec l'outil plume.   
 ***  
 
 
