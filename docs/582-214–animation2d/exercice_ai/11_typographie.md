@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Dans cet exercice vous modifierez la typographie à l'aide des outils d'alignement.   
+Dans cet exercice vous modifierez la typographie à l'aide des outils d'alignement.   
 
 ***  
 
