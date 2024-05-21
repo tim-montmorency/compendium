@@ -19,6 +19,5 @@ Corrigez l'image de gauche en vous fiant au modèle à droite.
 
 ***  
 ## Tutoriel 📚
-<knowmore href="https://helpx.adobe.com/ca_fr/illustrator/how-to/edit-artwork-basics.html?playlist=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:get-started/set-header:ccx-designer/playlist:ccl-get-started-1/fr_CA.json&ref=helpx.adobe.com">
-Si vous avez de la difficulté avec un élément, consultez ce tutoriel. 
-</knowmore>
+[📖 Pour en savoir plus](https://helpx.adobe.com/ca_fr/illustrator/how-to/edit-artwork-basics.html?playlist=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:get-started/set-header:ccx-designer/playlist:ccl-get-started-1/fr_CA.json&ref=helpx.adobe.com){ .md-button }   <br>
+
