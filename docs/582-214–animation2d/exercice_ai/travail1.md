@@ -175,6 +175,7 @@ Vous serez évalués sur les criètres suivants:
 
 ## Liste de vérification
 Voici une liste pour vérifier si votre travail est complet:   
+
 - [ ] Est-ce que la nomenclature externe des dossiers est respectée ?
 - [ ] Est-ce que le fichier Illustrator se trouve dans le dossier 02_ai ?
 - [ ] Est-ce que le format du fichier Illustrator est à 6000 X 3375 pixels ?
