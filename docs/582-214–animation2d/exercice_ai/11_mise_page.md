@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Dans cet exercice, vous devrez mettre le code des pirates en page.    
+Dans cet exercice, vous devrez mettre le code des pirates en page.    
 
 ***  
 
