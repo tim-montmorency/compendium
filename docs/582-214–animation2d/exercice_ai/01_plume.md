@@ -10,6 +10,7 @@ Premièrement, téléchargez et ouvrez ce fichier Illustrator pour votre travail
 ***  
 ## Étapes
 Avec les outils plume ou courbure:   
+
 - [ ] Dessinez les dents.
 - [ ] Dessinez les antennes.
 - [ ] Dessinez la bouche.
@@ -17,6 +18,7 @@ Avec les outils plume ou courbure:
 ***  
 
 ## Tutoriel 📚
+
 <knowmore href="https://creativecloud.adobe.com/fr-CA/learn/illustrator/web/use-pen-tool?playlistPath=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:key-techniques/set-header:drawing/playlist:topic/fr_CA.json">
 Si vous avez de la difficulté avec un élément, consultez ce tutoriel. 
 </knowmore>
