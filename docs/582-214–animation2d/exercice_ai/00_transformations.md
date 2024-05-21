@@ -11,6 +11,7 @@ Téléchargez et ouvrez le fichier illustrator suivant:
 
 ## Étapes
 Corrigez l'image de gauche en vous fiant au modèle à droite.   
+
 - [ ] Assembler la fleur et la positionner
 - [ ] Tourner le toit du bâtiment
 - [ ] Assembler l'oiseau et le positionner
