@@ -18,7 +18,6 @@ Avec les outils plume ou courbure:
 ***  
 
 ## Tutoriel 📚
+[📖 Pour en savoir plus](https://creativecloud.adobe.com/fr-CA/learn/illustrator/web/use-pen-tool?playlistPath=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:key-techniques/set-header:drawing/playlist:topic/fr_CA.json){ .md-button }   <br>
 
-<knowmore href="https://creativecloud.adobe.com/fr-CA/learn/illustrator/web/use-pen-tool?playlistPath=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:key-techniques/set-header:drawing/playlist:topic/fr_CA.json">
-Si vous avez de la difficulté avec un élément, consultez ce tutoriel. 
-</knowmore>
+
