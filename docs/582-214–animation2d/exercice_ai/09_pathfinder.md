@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Dans cet exercice, vous utiliserez le pathfinder pour reproduire les formes du modèle.   
+Dans cet exercice, vous utiliserez le pathfinder pour reproduire les formes du modèle.   
 
 ***  
 
