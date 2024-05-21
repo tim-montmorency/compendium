@@ -182,7 +182,7 @@ Les tutoriels suivants peuvent vous aider pour les techniques:
 
 ***  
 
-## Contraintes de contenu de l'animation 2D - générique
+### Contraintes de contenu de l'animation 2D - générique
 Le générique doit contenir:   
 
 - [ ] Titre du film
