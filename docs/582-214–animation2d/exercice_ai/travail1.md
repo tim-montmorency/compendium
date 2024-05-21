@@ -116,6 +116,7 @@ Effets:
 
 ## Oiseaux
 - [ ] Tracer les oiseaux avec l'outil plume à partir de l'image de référence:
+
 [📁 Image de référence](https://cmontmorency365.sharepoint.com/:i:/s/TIM-582214-Animation2d77/EX_nDYqFYKdEoLgKvvyBShMBdlxZ2u5T4NgtkeLuphZerQ?e=3VDI1B){ .md-button }   <br>
 
 [📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX1NXV5W101Es3_pv-wMqGEBXs1AIWVu4mBG4lDbWVcgpA?e=FjvLY5){ .md-button }   <br>
