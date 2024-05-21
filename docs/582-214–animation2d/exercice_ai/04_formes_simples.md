@@ -1,15 +1,14 @@
+Cet exercice vous permettra de réaliser des formes simples grâce à l'outil plume.   
 
-
-
-
-<p class="spacer"> Cet exercice vous permettra de réaliser des formes simples grâce à l'outil plume.    
 ***  
 
 
 ## Matériel
 
 Premièrement, importez cette image dans un fichier Illustrator comme modèle pour votre travail.   
+
 [📁 Document de départ](https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EQNFa_VyhGJOipDJn8fzUZcBp8k2efCOFwU8Mv7JNJOwRA?e=yzquDH){ .md-button }   <br>
+
 ***  
 
 ## Étapes
