@@ -10,7 +10,7 @@ Voici la vidéo de référence pour la composition de travail.
 ## Vidéo obligatoire
 La vidéo suivante vous montre comment configurer votre projet.    
   
-    !!! note "Note"
+    !!! tip "Note"
 
     Lorsque vous importez le fichier illustrator dans After effects, choisissez Composition - Conserver la taille des calques (et non composition seulement).   
 
