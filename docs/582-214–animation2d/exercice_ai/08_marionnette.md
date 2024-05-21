@@ -16,7 +16,7 @@ Assurez-vous de masquer les éléments qui entourent l'homme.
 
 !!! info "Information"
 
-Avant d’utiliser l’outil marionnette, vous pouvez replacer les bras et jambes dans une certain position de base avec l’outil rotation (changer le point de rotation en cliquant articulations (épaules, hanches)).<br>
+    Avant d’utiliser l’outil marionnette, vous pouvez replacer les bras et jambes dans une certain position de base avec l’outil rotation (changer le point de rotation en cliquant articulations (épaules, hanches)).
 
 ***  
 
