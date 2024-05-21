@@ -19,6 +19,6 @@ Téléchargez cette ampoule et importez la comme modèle dans Illustrator:
 - [ ] Pour le reste utilisez l'outil rectangle.
 ***  
 ## Tutoriel 📚
-<knowmore href="https://creativecloud.adobe.com/fr-CA/learn/illustrator/web/use-shape-builder-to-combine-merge-shapes?playlist=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:key-techniques/playlist:topic/set-header:design/fr_CA.json&ref=helpx.adobe.com">
-Si vous avez de la difficulté avec un élément, consultez ce tutoriel. 
-</knowmore>
+
+[📖 Pour en savoir plus](https://creativecloud.adobe.com/fr-CA/learn/illustrator/web/use-shape-builder-to-combine-merge-shapes?playlist=/services/playlist.helpx/products:SG_ILLUSTRATOR_1_1/learn-path:key-techniques/playlist:topic/set-header:design/fr_CA.json&ref=helpx.adobe.com){ .md-button }   <br>
+
