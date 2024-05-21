@@ -21,7 +21,7 @@ La vidéo suivante vous montre comment configurer votre projet.
     Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.
     
 La vidéo fait référence à un modèle de projet pour classer vos dossiers dans After effects, le voici:    
-<doclink href ="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQB_2AuJ605GsE_vsQJ49aQBtxYRRxM_KdRwQjB1v-eQLQ?e=smXun3">Template ae</doclink>
+[📁 Template ae](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQB_2AuJ605GsE_vsQJ49aQBtxYRRxM_KdRwQjB1v-eQLQ?e=smXun3){ .md-button }   <br>
 
 
 ***  
