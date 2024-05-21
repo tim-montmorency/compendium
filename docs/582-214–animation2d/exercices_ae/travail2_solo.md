@@ -144,7 +144,7 @@ Au besoin consulter les tutoriels suivants:
 
 ***  
 
-## Contraintes visuelles de l'animation 2D - générique
+### Contraintes visuelles de l'animation 2D - générique
 
 - [ ] Réaliser et animer un générique de type carton et non un générique défilant, c'est à dire un carton (un texte) à la fois.
 - [ ] Vous devez utiliser des couleurs monochromes et respecter le style graphique de votre projet.
