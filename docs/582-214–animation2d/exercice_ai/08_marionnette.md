@@ -1,10 +1,9 @@
-
-
-<p class="spacer">Cet exercice vous permettra d'utiliser l'outil marionnette sur le dessin réalisé dans l'exercice l'homme.   
+Cet exercice vous permettra d'utiliser l'outil marionnette sur le dessin réalisé dans l'exercice l'homme.   
 ***  
 
 ## Matériel
 Utilisez le personnage que vous avez créé à l'exercice l'homme ou téléchargez et ouvrez le document suivant dans Illustrator:   
+
 [📁 Homme](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EU6g4HsANVVDkl_lfBlQZqoBul7pI0kfARwDunCfrS9Y8g?e=W3NQwC){ .md-button }   <br>
 Assurez-vous de masquer les éléments qui entourent l'homme.   
 ***  
@@ -15,7 +14,9 @@ Assurez-vous de masquer les éléments qui entourent l'homme.
 - [ ] Ensuite, vous devez créer deux copies de votre personnage.
 - [ ] Donnez une position différente à chaque personnage avec l’outil marionnette.
 
-!!! info "Information"<br><br>       Avant d’utiliser l’outil marionnette, vous pouvez replacer les bras et jambes dans une certain position de base avec l’outil rotation (changer le point de rotation en cliquant articulations (épaules, hanches)).<br>
+!!! info "Information"
+
+Avant d’utiliser l’outil marionnette, vous pouvez replacer les bras et jambes dans une certain position de base avec l’outil rotation (changer le point de rotation en cliquant articulations (épaules, hanches)).<br>
 
 ***  
 
