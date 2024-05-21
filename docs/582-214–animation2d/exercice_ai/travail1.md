@@ -124,10 +124,11 @@ Effets:
 
 ## Cactus noir et blanc
 - [ ] Vectorisation de l'image:
+
 [📁 Image de départ](https://cmontmorency365.sharepoint.com/:i:/s/TIM-582214-Animation2d77/EUDz5-di-BJHjipQQsiNyZYBU1h_RzoW1gH2f3BU-XD9IQ?e=M3yMGC){ .md-button }   <br>
 
-
 [📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUfTmxxPyZNPtigPD0p8yLcBFk3dPk7fdtPNkO9GTOtZtw?e=6RASLl){ .md-button }   <br>
+
 [📁 Capsule vidéo vectorisation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=sxDwNO){ .md-button }   <br>
    
 ***  
