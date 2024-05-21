@@ -1,13 +1,11 @@
-
-
-
-<p class="spacer">Voici les consignes pour le travail 1.    
+Voici les consignes pour le travail 1.    
 
 ***  
 
 ## Format
 - [ ] Taille de la zone de travail: 6000 x 3375 pixels
 - [ ] Taille des carrés: 3000 x 1687,5 pixels
+      
 [📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWMfmr2rfr5GhHz9Pp3BQn0BL7_tTTUTiWyHx7AYSDgxtQ?e=qwMtN2){ .md-button }   <br>
 
 ***  
@@ -22,7 +20,9 @@ Voici les références pour le projet:
 - [ ] Vous devez créer une copie du dossier de départ ci-bas, le mettre à votre nom et y classer vos dossiers.
 - [ ] Vous devez remettre votre projet au format AI dans le dossier 02_ai.
 - [ ] Vous devez remettre une exportation au format .jpg de votre travail dans le dossier 03_exportation.
+      
 [📁 Dossier de départ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EsmXVhhE_hVNqiwXq-FuFw0BIBTDD6fieAgnaikHtVS4eA?e=Wqn7wu){ .md-button }   <br>
+
 [📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ec7kjOsqMGlHjz_yoWseSvEBU5szXWgo8YLLzp_mL3ubjw?e=R519oM){ .md-button }   <br>
 
 
@@ -30,6 +30,7 @@ Voici les références pour le projet:
 ## Nom des calques
 - [ ] Nommer les calques avec c1_description (c1 = case 1, c2 = case 2). Attention: pas de majuscules, espaces ou caractères spéciaux. Respecter la nomenclature des captures d’écran ci-bas.
 - [ ] Assurez-vous d’avoir bien séparé vos calques, donc si dans les captures d’écran les cheveux et le visage du personnage sont séparés, vous devez faire de même dans votre projet!
+      
 [📁 Captures d'écran](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhybXt_0pfRPkQUo7WdCChwBnQv0KM2PSHOg9hjVoFsESg?e=m2uh4T){ .md-button }   <br>
 
 [📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdqfVWWGledFkjtOFjMsBOsBcScSk4he0kJGpiR5hQL95Q?e=GEr5n7){ .md-button }   <br>
@@ -72,17 +73,20 @@ Couleur : intérieur : jaune / contour : rouge à 10 pt
 OU   
 2. Si vous n'avez pas accès à la typo, la télécharger et l'ajouter à votre projet.   
 
+[📁 Typographie Filson bold](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EdL7Oc6IEAJFsIzZs-fYPcIBcrBZq7JId64h1nawWDkVKA?e=YVWzLi){ .md-button }   <br>
 
-<doclink href ="https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EdL7Oc6IEAJFsIzZs-fYPcIBcrBZq7JId64h1nawWDkVKA?e=YVWzLi">Typographie Filson bold</doclink>
 ***  
 
 ## Typographie 3D Isométrique
 Effets:    
 - [ ] Effet / 3D et matières / 3D (Classique) /Rotation (classique) / isométrique haut (attention l'effet a changé d'endroit).
 - [ ] Effet / Distorsion et transformation / Transformation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcDgSLdxIqFGtxtUf-NnYUIBydssqkdAZ7lnx6CHJUIw0A?e=P7jrUh){ .md-button }   <br>
-[📁 Capsule vidéo effet isométrique](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWhHJDR4d8dLqQk6Ydf5JwIByxBq09dSlQE-TyI3ey6nsQ?e=g8TQam){ .md-button }   <br>
-[📁 Modifier l'effet au besoin](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=uRYDJX){ .md-button }   <br>
+      
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcDgSLdxIqFGtxtUf-NnYUIBydssqkdAZ7lnx6CHJUIw0A?e=P7jrUh){ .md-button }   
+
+[📁 Capsule vidéo effet isométrique](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWhHJDR4d8dLqQk6Ydf5JwIByxBq09dSlQE-TyI3ey6nsQ?e=g8TQam){ .md-button } 
+
+[📁 Modifier l'effet au besoin](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=uRYDJX){ .md-button }   
 
 ***  
 
