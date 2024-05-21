@@ -63,7 +63,8 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERyofeISfvxKtZ8OKe8x4fsBd02slRMJeM6lhKMqr-Oc0Q?e=1z1l4P">Sauvegarder un projet</a></li>
 </ul>   
 
-<exercice href="../exercices_ae/00_Importation"></exercice>   
+[🛠️ 04_Importation](exercices_ae/00_Importation){ .md-button }   <br>
+
 ***  
 ### Notions
 <ul>
@@ -76,8 +77,10 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXiNcsHF3DdOro1QgYv5JzUBu2m3qFm7S_CI6t764SOcUg?e=hKjnBr">Raccourcis</a></li>
 </ul>   
 
-<exercice href="../exercices_ae/00_plante"></exercice>   
-<exercice href="../exercices_ae/00_monstre"></exercice>   
+[🛠️ 00_plante](exercices_ae/00_plante){ .md-button }   <br>
+
+[🛠️ 00_monstre](exercices_ae/00_monstre){ .md-button }   <br>
+
 ***  
 ## Devoir
 Terminer le travail 1 partie 1 <br>
