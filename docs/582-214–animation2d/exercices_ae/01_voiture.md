@@ -9,7 +9,8 @@
 
 
 ## Étapes
-<br>- [ ] Téléchargez le dossier contenant un projet After Effect ainsi que des images.
+
+- [ ] Téléchargez le dossier contenant un projet After Effect ainsi que des images.
 - [ ] Ouvrir le projet after effects.
 - [ ] Sélectionnez le calque background.
 - [ ] Utilisez l’outil plume pour tracer la route de la voiture. (Maximum de 4 points)
