@@ -5,6 +5,7 @@ Cet exercice vous permettra d'utiliser l'outil marionnette sur le dessin réalis
 Utilisez le personnage que vous avez créé à l'exercice l'homme ou téléchargez et ouvrez le document suivant dans Illustrator:   
 
 [📁 Homme](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EU6g4HsANVVDkl_lfBlQZqoBul7pI0kfARwDunCfrS9Y8g?e=W3NQwC){ .md-button }   <br>
+
 Assurez-vous de masquer les éléments qui entourent l'homme.   
 ***  
 
