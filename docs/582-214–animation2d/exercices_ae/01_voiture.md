@@ -26,7 +26,10 @@
 
 ***  
 
+## Tutoriel 📚
 
-<knowmore href="https://helpx.adobe.com/ca_fr/after-effects/how-to/animate-along-path.html?playlist=/services/playlist.helpx/products:SG_AFTEREFFECTS_1_1/learn-path:key-techniques/set-header:animating-essentials/playlist:topic/fr_CA.json&ref=helpx.adobe.com">
-    Ce tutoriel pourra vous aider si certaines étapes sont plus difficiles. 
-</knowmore>
+[📖 Pour en savoir plus](https://helpx.adobe.com/ca_fr/after-effects/how-to/animate-along-path.html?playlist=/services/playlist.helpx/products:SG_AFTEREFFECTS_1_1/learn-path:key-techniques/set-header:animating-essentials/playlist:topic/fr_CA.json&ref=helpx.adobe.com){ .md-button }   <br>
+
+
+
+
