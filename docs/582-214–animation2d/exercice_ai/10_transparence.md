@@ -4,10 +4,13 @@ Cet exercice vous permettra d'utiliser la fonction transparence pour appliquer u
 
 ## Document de départ
 Téléchargez la texture suivante pour l'exercice.   
+
 [📁 Document de départ](https://cmontmorency365.sharepoint.com/:i:/s/TIM-582214-Animation2d77/EV3MGsiPeAhPsvjv1KpaAaEBNnNmHVWBhFe2e47ND-FITQ?e=ytEzX8){ .md-button }   <br>
 
 Ouvrez aussi l'homme créé dans l'exercice l'homme ou téléchargez le document suivant:   
+
 [📁 Homme](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EU6g4HsANVVDkl_lfBlQZqoBul7pI0kfARwDunCfrS9Y8g?e=3GL4HE){ .md-button }   <br>
+
 Assurez-vous de masquer les éléments qui entourent l'homme.   
 ***  
 ## Étapes
