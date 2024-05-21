@@ -1,8 +1,4 @@
-
-
-
-
- Le but de cet exercice est de vous familiariser avec After Effects.   
+Le but de cet exercice est de vous familiariser avec After Effects.   
 ***  
 
 ## Matériel
@@ -16,9 +12,11 @@ Créez-vous un nouveau projet After Effects, puis importez la composition suivan
 
 
 ## Étapes
-<br>- [ ] Fichier > importer > fichier. Importer le document AI homme_et_plantes.ai.
+
+- [ ] Fichier > importer > fichier. Importer le document AI homme_et_plantes.ai.
 - [ ] Sélectionner importer sous Composition - Conserver les tailles.
 - [ ] Cocher Créer une composition.
+
 ***  
 ## Tutoriel 📚
 
