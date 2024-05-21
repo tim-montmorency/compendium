@@ -1,8 +1,4 @@
-
-
-
-
-<p class="spacer"> Cet exerice consiste à la création d'un nuancier, puis la modification des couleurs d'un exercice.    
+Cet exerice consiste à la création d'un nuancier, puis la modification des couleurs d'un exercice.    
 ***  
 
 
@@ -31,6 +27,7 @@ Ouvre ton exercice de paysage du cours 01 ou télécharge le document suivant et
 - [ ] Le jaune pour le jaune (E9C46A)
 - [ ] Le orange pour le orange (F4A261)
 - [ ] Le rouge pour du rose (E76F51)
+
 ***  
 
 ## Tutoriel 📚
