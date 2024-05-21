@@ -63,11 +63,11 @@ Voici les références pour le projet:
 
 ***  
 ## Typographie
-Typographie utilisée: <b>Filson bold</b>.   
-Taille de la typo: 1274.97   
-Couleur : intérieur : jaune / contour : rouge à 10 pt   
-Écrire les lettres A, O, Û, T   
-À la même place que les lettres août, écrire les lettres M, A, R, S. Vous pouvez masquer leur calque.   
+- [ ] Typographie utilisée: <b>Filson bold</b>.   
+- [ ] Taille de la typo: 1274.97   
+- [ ] Couleur : intérieur : jaune / contour : rouge à 10 pt   
+- [ ] Écrire les lettres A, O, Û, T   
+- [ ] À la même place que les lettres août, écrire les lettres M, A, R, S. Vous pouvez masquer leur calque.   
 
 1. <a href ="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EShlgqaZhONJkmNl81kxbx8Bl9jVH0iWfnlji4nEW6oUOA?e=iTNFdH">Activer</a>  la typographie via Adobe   
 OU   
@@ -79,6 +79,7 @@ OU
 
 ## Typographie 3D Isométrique
 Effets:    
+
 - [ ] Effet / 3D et matières / 3D (Classique) /Rotation (classique) / isométrique haut (attention l'effet a changé d'endroit).
 - [ ] Effet / Distorsion et transformation / Transformation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
       
