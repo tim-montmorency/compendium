@@ -16,7 +16,7 @@ Premièrement, importez cette image dans un fichier Illustrator comme modèle po
 - [ ] Dessiner à main levée avec le crayon pour faire les cheveux.
 - [ ] Utiliser l’outil shaper pour faire le rond sur la veste du personnage.
 - [ ] Utiliser la plume ou le crayon pour tracer le reste du personnage. Ses membres peuvent être moins droits si vous préférez.  Tracez-le au complet car vous allez en avoir besoin pour un exercice subséquent.
-- [ ] 
+
 ***  
 
 ## Tutoriel 📚
