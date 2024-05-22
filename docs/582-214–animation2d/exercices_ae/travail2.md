@@ -112,13 +112,11 @@ Les tutoriels suivants peuvent vous aider pour les techniques:
 [📁 Liquide](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkOtH_91pKlAsV4vzSlmOXwBavqbaGHD7lMQgkgxlsVeXw?e=n3979a){ .md-button }   <br>
 
 ![Liquide](images/larme.webp){: style="height:250px;width:250px"}       
-
 ![Liquide 2](images/vague.webp){: style="height:250px;width:250px"}       
 
 [📁 Onde progressive](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EtHtcvlNfNRGq9sUcwiMsEcBZpGyFpa0JVI7YoeEQ1Gh6A?e=48kYHX){ .md-button }   <br>
 
 ![Onde progressive](images/Onde3.webp){: style="height:250px;width:250px"}       
-
 ![Onde progressive 2](images/Onde02.webp){: style="height:250px;width:250px"}       
 
 [📁 Formes concentriques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Es_qhlnLNYFNvOUT_2yloAUB5yd_m9yUf6VfYQx6FMKDJA?e=sBcTAC){ .md-button }   <br>
