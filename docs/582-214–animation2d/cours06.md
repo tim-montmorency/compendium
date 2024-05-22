@@ -24,4 +24,4 @@
 
 ***  
 ### Continuer le travail 1 partie 2
-[🛠️ travail1](exercices_ae/travail1){ .md-button }   <br>   
+[💼 travail1](exercices_ae/travail1){ .md-button }   <br>   
