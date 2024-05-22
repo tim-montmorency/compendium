@@ -102,7 +102,7 @@ Les tutoriels suivants peuvent vous aider pour les techniques:
 
 [📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }   <br>
 
-![Masque](images/05_ae_masque_02.webp)   
+![Masque](images/05_ae_masque_02.webp){: style="height:150px;width:150px"}   
 
 
 [📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }   <br>
