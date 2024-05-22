@@ -25,7 +25,7 @@
     <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu">Fenêtre aspect pour modifier les effets</a></li>
     <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY">Vectorisation (cactus)</a></li>
 </ul>   
-[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>   
+[💼 travail1](exercice_ai/travail1){ .md-button }   <br>   
 ***  
 # After Effects   
 !!! warning "Attention"
@@ -84,4 +84,4 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 ***  
 ## Devoir
 Terminer le travail 1 partie 1 <br>
-[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>  
+[💼 travail1](exercice_ai/travail1){ .md-button }   <br>  
