@@ -98,8 +98,11 @@ Vous devez utiliser au moins 3 techniques d'animation parmis les suivantes:
 - [ ] Effet de réduction des tracés
 
 Les tutoriels suivants peuvent vous aider pour les techniques:   
+![Masque](images/05_ae_masque_02.webp)
 
 [📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }   <br>
+
+![Mode de fusion](images/fusion.webp)
 
 [📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }   <br>
 
@@ -114,7 +117,7 @@ Les tutoriels suivants peuvent vous aider pour les techniques:
 [📁 Tracer des lignes triples dans illustrator](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eu9eP62hzEpBsUWwqQbtwEIBrIxX0R5RNNcw-OwCk6SWPQ?e=sv3nOJ){ .md-button }   <br>
 
 <gallery>
-    images/05_ae_masque_02.webp
+    
     images/fusion.webp
     images/larme.webp
     images/vague.webp
