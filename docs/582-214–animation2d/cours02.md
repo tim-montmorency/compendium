@@ -81,4 +81,4 @@
 
 ***  
 ### Explication travail 1
-[🛠️ travail1](exercice_ai/travail1){ .md-button }   <br>
+[💼 travail1](exercice_ai/travail1){ .md-button }   <br>
