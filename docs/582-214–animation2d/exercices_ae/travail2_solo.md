@@ -104,27 +104,30 @@ Les tutoriels suivants peuvent vous aider pour les techniques:
 
 [📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }   <br>
 
+![Masque](images/05_ae_masque_02.webp){: style="height:250px;width:250px"}   
+
+
 [📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }   <br>
+
+![Mode de fusion](images/fusion.webp){: style="height:250px;width:250px"}     
 
 [📁 Liquide](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkOtH_91pKlAsV4vzSlmOXwBavqbaGHD7lMQgkgxlsVeXw?e=n3979a){ .md-button }   <br>
 
+![Liquide](images/larme.webp){: style="height:250px;width:250px"}  ![Liquide 2](images/vague.webp){: style="height:250px;width:250px"}       
+
 [📁 Onde progressive](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EtHtcvlNfNRGq9sUcwiMsEcBZpGyFpa0JVI7YoeEQ1Gh6A?e=48kYHX){ .md-button }   <br>
 
+![Onde progressive](images/Onde3.webp){: style="height:250px;width:250px"}  ![Onde progressive 2](images/Onde02.webp){: style="height:250px;width:250px"}   
+    
+
 [📁 Formes concentriques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Es_qhlnLNYFNvOUT_2yloAUB5yd_m9yUf6VfYQx6FMKDJA?e=sBcTAC){ .md-button }   <br>
+
+![Formes concentriques](images/Formes.webp){: style="height:250px;width:250px"}       
 
 [📁 Réduction des tracés](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek9uS3COSVxJqST6a3OE38ABQS2M_Y_Y_nsWIsjc6QaCPg?e=ROOaY4){ .md-button }   <br>
 
 [📁 Tracer des lignes triples dans illustrator](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eu9eP62hzEpBsUWwqQbtwEIBrIxX0R5RNNcw-OwCk6SWPQ?e=sv3nOJ){ .md-button }   <br>
 
-<gallery>
-    images/05_ae_masque_02.webp
-    images/fusion.webp
-    images/larme.webp
-    images/vague.webp
-    images/Onde3.webp
-    images/Onde02.webp
-    images/Formes.webp
-</gallery>
 
 ***  
 
