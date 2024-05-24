@@ -1,7 +1,7 @@
 # Markdown
 
 * [Syntaxe](https://tim-montmorency.com/compendium/aide-memoire)
-* [Exemple](https://stackedit.io/app)
+* [Documentation](https://squidfunk.github.io/mkdocs-material/reference/)
 
 # Tutoriel (~5min)
 
