@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 !!! Titres
 
     === "Résultat"
@@ -157,7 +162,7 @@
 
     === "Markdown"
 
-        ``` html
+        ```html
         <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
         ```
 
@@ -185,14 +190,14 @@
 
     === "Résultat"
         
-        !!! note "Titre facultatif"
+        !!! tip "Titre facultatif"
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
     === "Markdown"
 
         ``` markdown
-        !!! note "Titre facultatif"
+        !!! tip "Titre facultatif"
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         ```
