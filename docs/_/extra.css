@@ -11,6 +11,12 @@
 }
 */
 
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+
 /* Cache les tabs en attendant le JS pour les retirer du DOM  */
 .md-container > .md-tabs {
     display: none;
