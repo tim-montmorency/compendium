@@ -31,6 +31,18 @@
         **gras** ou *italic*
         ```
 
+!!! Hyperlien
+
+    === "Résultat"
+
+        [Google](https://google.ca)
+
+    === "Markdown"
+
+        ``` markdown
+        [Google](https://google.ca)
+        ```
+
 !!! Liste
 
     === "Résultat"
@@ -59,16 +71,20 @@
         1. Nulla tempor lobortis orci
         ```
 
-!!! Hyperlien
+!!! Cases à cocher
 
     === "Résultat"
 
-        [Google](https://google.ca)
+        * [ ] Sed sagittis eleifend rutrum
+        * [x] Donec vitae suscipit est
+        * [ ] Nulla tempor lobortis orci
 
     === "Markdown"
 
         ``` markdown
-        [Google](https://google.ca)
+        * [ ] Sed sagittis eleifend rutrum
+        * [x] Donec vitae suscipit est
+        * [ ] Nulla tempor lobortis orci
         ```
 
 !!! Image
@@ -111,9 +127,22 @@
         </audio>
         ```
 
+!!! Code
 
+    === "Résultat"
 
+        ``` css
+        .container {
+            width: 70vw;
+            margin: 0 auto;
+        }
+        ```
 
+    === "Markdown"
 
-
-
+        \`\`\` css
+        .container {
+            width: 70vw;
+            margin: 0 auto;
+        }
+        \`\`\`
