@@ -140,9 +140,11 @@
 
     === "Markdown"
 
-        \`\`\` css
+        ```
+        ``` css
         .container {
             width: 70vw;
             margin: 0 auto;
         }
-        \`\`\`
+        ```
+        ```
