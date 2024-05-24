@@ -132,6 +132,18 @@ hide:
         </audio>
         ```
 
+!!! Embed
+
+    === "Résultat"
+
+        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+
+    === "Markdown"
+
+        ```html
+        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        ```
+
 !!! Code
 
     === "Résultat"
@@ -153,18 +165,6 @@ hide:
         }
         ```
         ````
-
-!!! Embed (ex: Codepen)
-
-    === "Résultat"
-
-        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
-
-    === "Markdown"
-
-        ```html
-        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
-        ```
 
 !!! Tableau
 
