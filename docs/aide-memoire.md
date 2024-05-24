@@ -140,11 +140,61 @@
 
     === "Markdown"
 
-        ```
+        ````
         ``` css
         .container {
             width: 70vw;
             margin: 0 auto;
         }
         ```
+        ````
+
+!!! Embed (ex: Codepen)
+
+    === "Résultat"
+
+        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+
+    === "Markdown"
+
+        ``` html
+        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
         ```
+
+!!! Tableau
+
+    === "Résultat"
+
+        | Colonne 1   | Colonne 2   |
+        | ----------- | ----------- |
+        | Cellule A   | Cellule X   |
+        | Cellule B   | Cellule Y   |
+        | Cellule C   | Cellule Z   |
+
+    === "Markdown"
+
+        ``` markdown
+        | Colonne 1   | Colonne 2   |
+        | ----------- | ----------- |
+        | Cellule A   | Cellule X   |
+        | Cellule B   | Cellule Y   |
+        | Cellule C   | Cellule Z   |
+        ```
+
+!!! Message
+
+    === "Résultat"
+        
+        !!! note "Titre facultatif"
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    === "Markdown"
+
+        ``` markdown
+        !!! note "Titre facultatif"
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        ```
+
+        Types disponibles : `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote` 
