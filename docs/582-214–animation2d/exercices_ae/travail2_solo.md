@@ -22,6 +22,11 @@ Utilisez la structure de dossiers suivante pour votre projet:
 
 [📁 Structure de dossiers ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=vy436h){ .md-button }   <br>
 
+
+Utilisez le modèle de powerpoint suivant pour votre préproduction: 
+[📁 Modèle de présentation](https://cmontmorency365.sharepoint.com/:p:/s/TIM-582214-Animation2d77/EXK_6649KqhCoZBWpqaF8S8BPdOeiu7HLqh3EBOLW3qGTQ?e=clrGVJ){ .md-button }   <br>
+
+
 ***  
 
 
