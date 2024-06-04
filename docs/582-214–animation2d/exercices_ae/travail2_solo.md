@@ -37,6 +37,8 @@ Pour la préproduction, vous devez présenter un powerpoint contenant les inform
 
 - [ ] Un moodboard d'animation.
 - [ ] Scénarimage complet.
+- [ ] Une explication de votre style d'illustrations.
+- [ ] Une explication de votre style d'animation.
 - [ ] 2 de vos propres illustrations finales démontrant votre style graphique.
 
 En plus de présenter les éléments ci-haut, vous devez les remettre de la façon suivante:    
