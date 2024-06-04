@@ -20,7 +20,7 @@ Utilisez la structure de dossiers suivante pour votre projet:
 [📁 Structure de dossiers ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=vy436h){ .md-button }   <br>
 
     
-Voici le gabarit de powerpoint pour votre présentation orale: 
+Voici le gabarit de powerpoint pour votre présentation orale:     
 [📁 Modèle de présentation ](https://cmontmorency365.sharepoint.com/:p:/s/TIM-582214-Animation2d77/Ea_ZHPKtkI9Cvo2Htms154ABvjG2KmSUX8Z0CPJ06S3GWA?e=inPtve){ .md-button }   <br>
 
 
