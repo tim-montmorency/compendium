@@ -19,15 +19,22 @@ Utilisez la structure de dossiers suivante pour votre projet:
 
 [📁 Structure de dossiers ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=vy436h){ .md-button }   <br>
 
+    
+Voici le gabarit de powerpoint pour votre présentation orale: 
+[📁 Modèle de présentation ](https://cmontmorency365.sharepoint.com/:p:/s/TIM-582214-Animation2d77/Ea_ZHPKtkI9Cvo2Htms154ABvjG2KmSUX8Z0CPJ06S3GWA?e=inPtve){ .md-button }   <br>
+
+
 ***  
 
 
 
 ## 1. La préproduction
-Pour la préproduction, vous devez présenter un powerpoint contenant les informations suivantes (En plus de celles demandées en vidéo):
+Pour la préproduction, vous devez présenter un powerpoint contenant les informations suivantes pour l'animation (En plus de celles demandées en vidéo):
 
 - [ ] Un synopsis (le même que celui que vous rédigez pour le cours de vidéo).
 - [ ] Un moodboard d'animation (un seul par équipe).
+- [ ] Une explication de votre style d'illustrations.
+- [ ] Une explication de votre style d'animation.
 - [ ] Scénarimage complet (pour l’animation et la vidéo).
 - [ ] Note: Le scénarimage doit inclure les informations à savoir qui de l'équipe anime quelle case.
 - [ ] 2-3 de vos propres illustrations finales démontrant votre style graphique.
