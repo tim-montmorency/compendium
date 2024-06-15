@@ -491,7 +491,7 @@ extra_javascript:
 plugins:
   - offline
   - mkdocs-video
-  - plugins.mkdocs-audio
+  - mkdocs-audio
 
 # Project information 
 site_name: Notes de cours
