@@ -1,5 +1,4 @@
 mkdocs-material
 mkdocs-video
-mkdocs-audio
-git+https://github.com/jfcmontmorency/mkdocs-audio.git@main#egg=mkdocs-audio
 pymdown-extensions
+git+https://github.com/jfcmontmorency/mkdocs-audio.git@main#egg=mkdocs-audio
