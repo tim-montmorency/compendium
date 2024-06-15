@@ -124,6 +124,8 @@ hide:
             <source src="_/test.mp3">
         </audio>
 
+        ![type:audio](_/test.mp3)
+
     === "Markdown"
 
         ``` html
