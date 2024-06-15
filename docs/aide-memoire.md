@@ -120,18 +120,12 @@ hide:
 
     === "Résultat"
 
-        <audio controls>
-            <source src="_/test.mp3">
-        </audio>
-
         ![type:audio](_/test.mp3)
 
     === "Markdown"
 
         ``` html
-        <audio controls>
-            <source src="_/test.mp3">
-        </audio>
+        ![type:audio](_/test.mp3)
         ```
 
 !!! Embed
