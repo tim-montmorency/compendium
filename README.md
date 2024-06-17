@@ -1,13 +1,12 @@
-# Markdown
+# Compendium
 
-* [Syntaxe](https://tim-montmorency.com/compendium/aide-memoire)
-* [Documentation](https://squidfunk.github.io/mkdocs-material/reference/)
+## Utilisation
 
-# Tutoriel (~5min)
+Veuillez vous déplacer dans le répertoire `docs` puis dans le répertoire du cours à modifier (ex: `582-101-domaines-multimedias`). Vous y verrez la liste des cours que vous pouvez éditer en utilisant la [syntaxe markdown](https://tim-montmorency.com/compendium/aide-memoire). En cas de doute, référez vous à un exemple complet, soit le cours d'interactivité ludique.
 
-[![Titre de la vidéo](http://img.youtube.com/vi/_UaFiCyzAQY/0.jpg)](http://www.youtube.com/watch?v=_UaFiCyzAQY)
+L'URL associé au cours se mettera à jour au cours des 5 prochaines minutes. Toutefois, c'est généralement plus rapide, soit environ 1 minute.
 
-# Cours
+## Liens des cours
 
 * [582-101 | Domaines multimédias](https://tim-montmorency.com/compendium/582-101–domaines-multimedias)
 * [582-111 | Web 1](https://tim-montmorency.com/compendium/582-111–web1)
@@ -32,3 +31,15 @@
 * [582-531 | Objets interactifs](https://tim-montmorency.com/compendium/582-531–objets-interactifs)
 * [582-541 | Préparation au milieu de travail](https://tim-montmorency.com/compendium/582-541–preparation-milieu-travail)
 * [582-601 | Expérience multimédia](https://tim-montmorency.com/compendium/582-601–experience-multimedia)
+
+## Tutoriel (~5min)
+
+[![Titre de la vidéo](http://img.youtube.com/vi/_UaFiCyzAQY/0.jpg)](http://www.youtube.com/watch?v=_UaFiCyzAQY)
+
+## Technologies
+
+Le projet est basé sur une structure [mkdocs](https://www.mkdocs.org/), plus spécifiquement [mkdocs material](https://squidfunk.github.io/mkdocs-material/reference/) pour un affichage plus contemporain.
+
+Le déploiement est fait via un [workflow](https://github.com/tim-montmorency/compendium/blob/main/.github/workflows/main.yml) configuré pour utiliser les Actions de Github. L'Action Github [GitHub Pages action](https://github.com/marketplace/actions/github-pages-action) est utilisé pour simplifier le déploiement.
+
+Le projet utilise le plugin custom [mkdocs-audio](https://github.com/jfcmontmorency/mkdocs-audio) pour l'affichage d'une balise audio HTML5.
