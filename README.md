@@ -43,3 +43,7 @@ Le projet est basé sur une structure [mkdocs](https://www.mkdocs.org/), plus sp
 Le déploiement est fait via un [workflow](https://github.com/tim-montmorency/compendium/blob/main/.github/workflows/main.yml) configuré pour utiliser les Actions de Github. L'Action Github [GitHub Pages action](https://github.com/marketplace/actions/github-pages-action) est utilisée pour simplifier le déploiement.
 
 Le projet utilise le plugin custom [mkdocs-audio](https://github.com/jfcmontmorency/mkdocs-audio) pour l'affichage d'une balise audio HTML5.
+
+---
+
+Projet connexe : (timdoc)[https://github.com/tim-montmorency/timdoc]
