@@ -46,4 +46,4 @@ Le projet utilise le plugin custom [mkdocs-audio](https://github.com/jfcmontmore
 
 ---
 
-Projet connexe : (timdoc)[https://github.com/tim-montmorency/timdoc]
+Projet connexe : [timdoc](https://github.com/tim-montmorency/timdoc)
