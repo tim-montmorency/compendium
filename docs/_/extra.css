@@ -11,6 +11,14 @@
 }
 */
 
+.md-typeset h1 {
+    color: inherit;
+}
+
+.md-typeset h1, .md-typeset h2 {
+    font-weight: bolder;
+}
+
 .md-typeset .admonition,
 .md-typeset details {
   border-width: 0;
