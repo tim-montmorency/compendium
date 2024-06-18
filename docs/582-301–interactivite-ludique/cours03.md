@@ -1,5 +1,7 @@
 # Cours 3 - Interpolations
 
+![Interpolation](https://github.com/tim-montmorency/compendium/assets/142059735/25b41a50-5c26-467d-97fb-c6e09f3baeb4)
+
 ## Qu'est-ce qu'une interpolation ?
 
 Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux points pour obtenir une transition lisse.
