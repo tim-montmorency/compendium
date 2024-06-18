@@ -57,33 +57,22 @@ this.tweens.add({
 
 `rotation`: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI afficherait une rotation de 180 degrés.
 
+!!! Embed
 
-<iframe height="600" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
-  Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+    === "Résultat"
 
-```js
+        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-class Tween extends Phaser.Scene {
-  preload() {
-      this.load.image('snake', 'assets/images/snake.png');
-  }
-  
-  create() {
-    const kaa = this.add.image(136, 150, 'snake');
-    kaa.x = kaa.width;
-    kaa.y = config.height * 0.75;
-    
-    this.tweens.add({
-        targets: kaa,
-        x: config.width - kaa.width, 
-        duration: 2000,
-        yoyo: true,
-        repeat: -1
-    });
-  }
-}
+    === "Markdown"
 
-```
+        ```html
+        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        ```
+
+!!! Exemple
+
+    <iframe height="600" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
+      Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+      on <a href="https://codepen.io">CodePen</a>.
+    </iframe>
