@@ -1,6 +1,6 @@
 # Cours 3 - Interpolations
 
-![Interpolation](https://github.com/tim-montmorency/compendium/assets/142059735/25b41a50-5c26-467d-97fb-c6e09f3baeb4)
+![Interpolation](https://github.com/tim-montmorency/compendium/assets/142059735/bc85f55a-cebf-4eac-9b35-34c6ee13ade7)
 
 ## Qu'est-ce qu'une interpolation ?
 
