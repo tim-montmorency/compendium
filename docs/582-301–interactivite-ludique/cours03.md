@@ -8,8 +8,8 @@ Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux poi
 
 Imaginons un personnage qui doit se déplacer de la gauche (point A) vers la droite (point B) en trois secondes.
 
-Sans interpolation : Le personnage sauterait instantanément du point A au point B.
-Avec interpolation : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. C'est le même principe que le cinéma avec le nombre d'images par seconde.
+* **Sans interpolation** : Le personnage sauterait instantanément du point A au point B.
+* **Avec interpolation** : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. C'est le même principe que le cinéma avec le nombre d'images par seconde.
 
 ## Interpolation avec Phaser
 
