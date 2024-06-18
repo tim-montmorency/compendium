@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cours-3" class="md-skip">
+        <a href="#cours-3-interpolations" class="md-skip">
           Aller au contenu
         </a>
       
@@ -4281,6 +4281,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Cours 3
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="cours03.html" class="md-nav__link md-nav__link--active">
         
   
@@ -4290,6 +4301,67 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quest-ce-quune-interpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qu'est-ce qu'une interpolation ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interpolation-avec-phaser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpolation avec Phaser
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interpolation avec Phaser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-dinterpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types d'interpolation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#animation-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      Animation simple
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -10077,6 +10149,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quest-ce-quune-interpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qu'est-ce qu'une interpolation ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interpolation-avec-phaser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpolation avec Phaser
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interpolation avec Phaser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-dinterpolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types d'interpolation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#animation-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      Animation simple
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -10090,7 +10212,72 @@
                   
 
 
-<h1 id="cours-3">Cours 3<a class="headerlink" href="#cours-3" title="Permanent link">¶</a></h1>
+<div><h1 id="cours-3-interpolations">Cours 3 - Interpolations<a class="headerlink" href="#cours-3-interpolations" title="Permanent link">¶</a></h1>
+<h2 id="quest-ce-quune-interpolation">Qu'est-ce qu'une interpolation ?<a class="headerlink" href="#quest-ce-quune-interpolation" title="Permanent link">¶</a></h2>
+<p>Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux points pour obtenir une transition lisse.</p>
+<p>Imaginons un personnage qui doit se déplacer de la gauche (point A) vers la droite (point B) en trois secondes.</p>
+<p>Sans interpolation : Le personnage sauterait instantanément du point A au point B.
+Avec interpolation : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. C'est le même principe que le cinéma avec le nombre d'image par seconde.</p>
+<h2 id="interpolation-avec-phaser">Interpolation avec Phaser<a class="headerlink" href="#interpolation-avec-phaser" title="Permanent link">¶</a></h2>
+<p>Pour animer un élément du jeu, on peut utiliser le système d'interpolation de Phaser. Dans le langage Phaser, on le nomme <a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Tweens">Tweens</a>! Les Tweens nous permet grosso modo de facilement programmer des animations.</p>
+<h3 id="types-dinterpolation">Types d'interpolation<a class="headerlink" href="#types-dinterpolation" title="Permanent link">¶</a></h3>
+<ol>
+<li>Animation simple</li>
+<li>Séquence d'animations</li>
+<li>Animation avancée</li>
+</ol>
+<h3 id="animation-simple">Animation simple<a class="headerlink" href="#animation-simple" title="Permanent link">¶</a></h3>
+<p>Regardons ensemble un exemple pour connaître la syntaxe d'une animation simple dans Phaser.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">serpent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="mf">64</span><span class="p">,</span><span class="w"> </span><span class="mf">64</span><span class="p">,</span><span class="w"> </span><span class="s1">'serpent'</span><span class="p">);</span>
+
+<span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">serpent</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">400</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">500</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">scale</span><span class="o">:</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">alpha</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">angle</span><span class="o">:</span><span class="w"> </span><span class="mf">180</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">rotation</span><span class="o">:</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Linear'</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">2000</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span>
+<span class="p">});</span>
+</code></pre></div>
+<p><code>this.tweens.add</code> : Ajoute une nouvelle animation à la scène.</p>
+<p><code>targets</code> : Élément(s) à animer.</p>
+<p><code>x</code> : La nouvelle position à atteindre sur l'axe des X. L'image se déplacera horizontalement jusqu'à la destination spécifiée.</p>
+<p><code>y</code> : La nouvelle position à atteindre sur l'axe des Y. L'image se déplacera verticalement jusqu'à la destination spécifiée.</p>
+<p><code>scale</code> : Modifie la taille de l'image. La valeur par défaut est 1. Une valeur de 2 doublerait la taille de l'image, tandis que 0.5 la réduirait de moitiée.</p>
+<p><code>alpha</code> : Modifie l'opacité (alpha) de l'image. La valeur soit se trouver entre 1 (100% d'opacité) et 0 (0% d'opacité).</p>
+<p><code>angle</code>: La nouvelle valeur de l'angle en degrés. L'image effectuera une rotation de l'angle spécifié.</p>
+<p><code>rotation</code>: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI afficherait une rotation de 180 degrés.</p>
+<iframe height="600" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
+  Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<div class="highlight"><pre><span></span><code><span class="kd">class</span><span class="w"> </span><span class="nx">Tween</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">Phaser</span><span class="p">.</span><span class="nx">Scene</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">preload</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="k">this</span><span class="p">.</span><span class="nx">load</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="s1">'snake'</span><span class="p">,</span><span class="w"> </span><span class="s1">'assets/images/snake.png'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="nx">create</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">kaa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="mf">136</span><span class="p">,</span><span class="w"> </span><span class="mf">150</span><span class="p">,</span><span class="w"> </span><span class="s1">'snake'</span><span class="p">);</span>
+<span class="w">    </span><span class="nx">kaa</span><span class="p">.</span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">kaa</span><span class="p">.</span><span class="nx">width</span><span class="p">;</span>
+<span class="w">    </span><span class="nx">kaa</span><span class="p">.</span><span class="nx">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">config</span><span class="p">.</span><span class="nx">height</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.75</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">        </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">kaa</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="nx">config</span><span class="p">.</span><span class="nx">width</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">kaa</span><span class="p">.</span><span class="nx">width</span><span class="p">,</span><span class="w"> </span>
+<span class="w">        </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">2000</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span>
+<span class="w">    </span><span class="p">});</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 
 
