@@ -4352,6 +4352,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Animation simple">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Translation :
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rotation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#echelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Échelle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transparence
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -10190,6 +10232,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Animation simple">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Translation :
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rotation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#echelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Échelle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transparence
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -10232,18 +10316,18 @@
 <h3 id="animation-simple">Animation simple<a class="headerlink" href="#animation-simple" title="Permanent link">¶</a></h3>
 <iframe height="535" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=&amp;editable=true&amp;theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"><a href="https://codepen.io/tim-momo/pen/YzbePoR">Tween</a></iframe>
 
-<p>Une animation simple représente soit une modification d'attribut (taille,, soit une transformation géométrique. </p>
-<p>Translation : </p>
+<p>De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande this.tweens.add({}) dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : </p>
+<h4 id="translation">Translation :<a class="headerlink" href="#translation" title="Permanent link">¶</a></h4>
 <p><code>x</code> : La nouvelle position à atteindre sur l'axe des X. L'image se déplacera horizontalement jusqu'à la destination spécifiée.</p>
 <p><code>y</code> : La nouvelle position à atteindre sur l'axe des Y. L'image se déplacera verticalement jusqu'à la destination spécifiée.</p>
-<p>Rotation</p>
+<h4 id="rotation">Rotation<a class="headerlink" href="#rotation" title="Permanent link">¶</a></h4>
 <p><code>angle</code>: La nouvelle valeur de l'angle en degrés. L'image effectuera une rotation de l'angle spécifié.</p>
 <p><code>rotation</code>: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI afficherait une rotation de 180 degrés.</p>
-<p>Échelle</p>
+<h4 id="echelle">Échelle<a class="headerlink" href="#echelle" title="Permanent link">¶</a></h4>
 <p><code>scale</code> : Modifie la taille de l'image. La valeur par défaut est 1. Une valeur de 2 doublerait la taille de l'image, tandis que 0.5 la réduirait de moitiée.</p>
-<p>Autre</p>
+<h4 id="transparence">Transparence<a class="headerlink" href="#transparence" title="Permanent link">¶</a></h4>
 <p><code>alpha</code> : Modifie l'opacité (alpha) de l'image. La valeur soit se trouver entre 1 (100% d'opacité) et 0 (0% d'opacité).</p>
-<p>Regardons ensemble un exemple pour connaître la syntaxe d'une animation simple dans Phaser.</p>
+<p>Regardons ensemble un exemple pour mieux comprendre la syntaxe dans son contexte.</p>
 <div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">serpent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="mf">64</span><span class="p">,</span><span class="w"> </span><span class="mf">64</span><span class="p">,</span><span class="w"> </span><span class="s1">'serpent'</span><span class="p">);</span>
 
 <span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span><span class="w"> </span><span class="c1">// Ajoute une nouvelle animation à la scène.</span>
