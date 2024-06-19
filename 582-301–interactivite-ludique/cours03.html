@@ -4345,7 +4345,12 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#animation-simple" class="md-nav__link">
     <span class="md-ellipsis">
       Animation simple
@@ -4388,11 +4393,6 @@
       Transparence
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -10225,7 +10225,12 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#animation-simple" class="md-nav__link">
     <span class="md-ellipsis">
       Animation simple
@@ -10275,11 +10280,6 @@
     </nav>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
     </ul>
   
@@ -10313,39 +10313,32 @@
 <li>Séquence d'animations</li>
 <li>Animation avancée</li>
 </ol>
-<h3 id="animation-simple">Animation simple<a class="headerlink" href="#animation-simple" title="Permanent link">¶</a></h3>
+<h2 id="animation-simple">Animation simple<a class="headerlink" href="#animation-simple" title="Permanent link">¶</a></h2>
 <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
   Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<p>De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande <code>this.tweens.add({})</code> dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : </p>
-<h4 id="translation">Translation :<a class="headerlink" href="#translation" title="Permanent link">¶</a></h4>
-<p><code>x</code> : La nouvelle position à atteindre sur l'axe des X. L'image se déplacera horizontalement jusqu'à la destination spécifiée.</p>
-<p><code>y</code> : La nouvelle position à atteindre sur l'axe des Y. L'image se déplacera verticalement jusqu'à la destination spécifiée.</p>
-<h4 id="rotation">Rotation<a class="headerlink" href="#rotation" title="Permanent link">¶</a></h4>
-<p><code>angle</code>: La nouvelle valeur de l'angle en degrés. L'image effectuera une rotation de l'angle spécifié.</p>
-<p><code>rotation</code>: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI afficherait une rotation de 180 degrés.</p>
-<h4 id="echelle">Échelle<a class="headerlink" href="#echelle" title="Permanent link">¶</a></h4>
-<p><code>scale</code> : Modifie la taille de l'image. La valeur par défaut est 1. Une valeur de 2 doublerait la taille de l'image, tandis que 0.5 la réduirait de moitiée.</p>
-<h4 id="transparence">Transparence<a class="headerlink" href="#transparence" title="Permanent link">¶</a></h4>
-<p><code>alpha</code> : Modifie l'opacité (alpha) de l'image. La valeur soit se trouver entre 1 (100% d'opacité) et 0 (0% d'opacité).</p>
-<p>Regardons ensemble un exemple pour mieux comprendre la syntaxe dans son contexte.</p>
+<p>De manière générale, une animation simple représente une transformation géométrique 📐. Pour ajouter une animation, on doit écrire la commande <code>this.tweens.add({})</code> dans laquelle nous ajoutons un objet avec certaines propriétés. En voici quelques unes : </p>
+<h3 id="translation">Translation :<a class="headerlink" href="#translation" title="Permanent link">¶</a></h3>
+<p><code>x</code> : La nouvelle position sur l'axe des X. L'image se déplacera horizontalement jusqu'à cette position.</p>
+<p><code>y</code> : La nouvelle position sur l'axe des Y. L'image se déplacera verticalement jusqu'à cette position.</p>
+<h3 id="rotation">Rotation<a class="headerlink" href="#rotation" title="Permanent link">¶</a></h3>
+<p><code>angle</code>: La nouvelle valeur de l'angle en degrés. Par exemple, une valeur de 360 fera tourner l'objet d'un tour complet.</p>
+<p><code>rotation</code>: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI (3.14159...) équivaut à une rotation de 180 degrés.</p>
+<h3 id="echelle">Échelle<a class="headerlink" href="#echelle" title="Permanent link">¶</a></h3>
+<p><code>scale</code> : Modifie la taille de l'élément. Une valeur de 2 doublera la taille, tandis qu'une valeur de 0.5 la réduira de moitié.</p>
+<h3 id="transparence">Transparence<a class="headerlink" href="#transparence" title="Permanent link">¶</a></h3>
+<p><code>alpha</code> : Modifie l'opacité de l'élément. La valeur doit se situer entre 0 et 1. Une valeur de 1 signifie que l'élément est complètement opaque (100% d'opacité), tandis qu'une valeur de 0 le rend totalement transparent. Les valeurs entre 0 et 1 représentent différents niveaux de transparence.</p>
+<p>Regardons ensemble un exemple pour bien comprendre la syntaxe dans son contexte.</p>
 <div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">serpent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="mf">64</span><span class="p">,</span><span class="w"> </span><span class="mf">64</span><span class="p">,</span><span class="w"> </span><span class="s1">'serpent'</span><span class="p">);</span>
 
-<span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span><span class="w"> </span><span class="c1">// Ajoute une nouvelle animation à la scène.</span>
-
-<span class="w">    </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">serpent</span><span class="p">,</span><span class="w"> </span><span class="c1">// Élément(s) à animer.</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">serpent</span><span class="p">,</span><span class="w"> </span><span class="c1">// Élément à animer.</span>
 <span class="w">    </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">400</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">500</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">300</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">rotation</span><span class="o">:</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span>
-
-<span class="w">    </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Linear'</span><span class="p">,</span><span class="w"> </span>
-<span class="w">    </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">2000</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span>
-
 <span class="p">});</span>
 </code></pre></div></div>
 
