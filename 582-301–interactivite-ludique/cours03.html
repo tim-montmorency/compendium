@@ -4318,6 +4318,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#ordre-du-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ordre du jour
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#quest-ce-quune-interpolation" class="md-nav__link">
     <span class="md-ellipsis">
       Qu'est-ce qu'une interpolation ?
@@ -10198,6 +10207,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#ordre-du-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ordre du jour
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#quest-ce-quune-interpolation" class="md-nav__link">
     <span class="md-ellipsis">
       Qu'est-ce qu'une interpolation ?
@@ -10297,13 +10315,19 @@
 
 
 <div><h1 id="cours-3-interpolations">Cours 3 - Interpolations<a class="headerlink" href="#cours-3-interpolations" title="Permanent link">¶</a></h1>
-<p><img alt="Interpolation" src="https://github.com/tim-montmorency/compendium/assets/142059735/bc85f55a-cebf-4eac-9b35-34c6ee13ade7"></p>
+<h2 id="ordre-du-jour">Ordre du jour<a class="headerlink" href="#ordre-du-jour" title="Permanent link">¶</a></h2>
+<ul>
+<li>Wooclap</li>
+<li>Interpolations</li>
+<li>Exercices</li>
+<li>Devoir</li>
+</ul>
 <h2 id="quest-ce-quune-interpolation">Qu'est-ce qu'une interpolation ?<a class="headerlink" href="#quest-ce-quune-interpolation" title="Permanent link">¶</a></h2>
 <p>Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux points pour obtenir une transition lisse.</p>
-<p>Imaginons un personnage qui doit se déplacer de la gauche (point A) vers la droite (point B) en trois secondes.</p>
+<p>Imaginons un personnage qui doit se déplacer de la gauche (<strong>point A</strong>) vers la droite (<strong>point B</strong>) en trois secondes.</p>
 <ul>
-<li>❌ <strong>Sans interpolation</strong> : Le personnage sauterait instantanément du point A au point B.</li>
-<li>✅ <strong>Avec interpolation</strong> : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran.</li>
+<li>❌ <strong>Sans interpolation</strong> : Le personnage sauterait du point A au point B sans transition.</li>
+<li>✅ <strong>Avec interpolation</strong> : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. Voyez cela un peu comme les images par secondes au cinéma🍿.</li>
 </ul>
 <h2 id="interpolation-avec-phaser">Interpolation avec Phaser<a class="headerlink" href="#interpolation-avec-phaser" title="Permanent link">¶</a></h2>
 <p>Pour animer un élément du jeu, on peut utiliser le système d'interpolation de Phaser. Dans le langage Phaser, on le nomme <a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Tweens">Tweens</a>! Les Tweens nous permettent grosso modo de facilement programmer des animations.</p>
