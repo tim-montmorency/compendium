@@ -60,9 +60,6 @@ this.tweens.add({
 `rotation`: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI afficherait une rotation de 180 degrés.
 
 !!! Exemple
-
-    <iframe height="600" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-      See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
-      Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-      on <a href="https://codepen.io">CodePen</a>.
+    <iframe height="600" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=&editable=true&theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      <a href="https://codepen.io/tim-momo/pen/YzbePoR">Tween</a>
     </iframe>
