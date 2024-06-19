@@ -1,15 +1,20 @@
 # Cours 3 - Interpolations
 
-![Interpolation](https://github.com/tim-montmorency/compendium/assets/142059735/bc85f55a-cebf-4eac-9b35-34c6ee13ade7)
+## Ordre du jour
+
+* Wooclap
+* Interpolations
+* Exercices
+* Devoir
 
 ## Qu'est-ce qu'une interpolation ?
 
 Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux points pour obtenir une transition lisse.
 
-Imaginons un personnage qui doit se déplacer de la gauche (point A) vers la droite (point B) en trois secondes.
+Imaginons un personnage qui doit se déplacer de la gauche (**point A**) vers la droite (**point B**) en trois secondes.
 
-* ❌ **Sans interpolation** : Le personnage sauterait instantanément du point A au point B.
-* ✅ **Avec interpolation** : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran.
+* ❌ **Sans interpolation** : Le personnage sauterait du point A au point B sans transition.
+* ✅ **Avec interpolation** : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. Voyez cela un peu comme les images par secondes au cinéma🍿.
 
 ## Interpolation avec Phaser
 
