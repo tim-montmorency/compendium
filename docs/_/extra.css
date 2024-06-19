@@ -39,12 +39,17 @@ iframe {
     aspect-ratio: 2 / 1;
 }
 
+.md-typeset h1, .md-typeset h2 {
+    font-weight: bolder;
+}
+
 .md-typeset h1 {
     color: inherit;
 }
 
-.md-typeset h1, .md-typeset h2 {
-    font-weight: bolder;
+.md-typeset h2 {
+    border-top: 3px solid var(--md-code-bg-color);
+    padding-top: 1.6rem;
 }
 
 .md-typeset .admonition,
