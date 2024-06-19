@@ -11,10 +11,6 @@
 }
 */
 
-canvas {
-  object-fit: contain;
-}
-
 .md-typeset h1 {
     color: inherit;
 }
