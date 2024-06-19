@@ -25,29 +25,29 @@ Pour animer un élément du jeu, on peut utiliser le système d'interpolation de
 
 <iframe height="535" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=&editable=true&theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"><a href="https://codepen.io/tim-momo/pen/YzbePoR">Tween</a></iframe>
 
-Une animation simple représente soit une modification d'attribut (taille,, soit une transformation géométrique. 
+De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande this.tweens.add({}) dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : 
 
-Translation : 
+#### Translation : 
 
 `x` : La nouvelle position à atteindre sur l'axe des X. L'image se déplacera horizontalement jusqu'à la destination spécifiée.
 
 `y` : La nouvelle position à atteindre sur l'axe des Y. L'image se déplacera verticalement jusqu'à la destination spécifiée.
 
-Rotation
+#### Rotation
 
 `angle`: La nouvelle valeur de l'angle en degrés. L'image effectuera une rotation de l'angle spécifié.
 
 `rotation`: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI afficherait une rotation de 180 degrés.
 
-Échelle
+#### Échelle
 
 `scale` : Modifie la taille de l'image. La valeur par défaut est 1. Une valeur de 2 doublerait la taille de l'image, tandis que 0.5 la réduirait de moitiée.
 
-Autre
+#### Transparence
 
 `alpha` : Modifie l'opacité (alpha) de l'image. La valeur soit se trouver entre 1 (100% d'opacité) et 0 (0% d'opacité).
 
-Regardons ensemble un exemple pour connaître la syntaxe d'une animation simple dans Phaser.
+Regardons ensemble un exemple pour mieux comprendre la syntaxe dans son contexte.
 
 ```js
 const serpent = this.add.image(64, 64, 'serpent');
