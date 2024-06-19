@@ -11,6 +11,10 @@
 }
 */
 
+iframe {
+    border-radius: 0.5rem;
+}
+
 .md-typeset h1 {
     color: inherit;
 }
