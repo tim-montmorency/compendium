@@ -9,7 +9,7 @@ Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux poi
 Imaginons un personnage qui doit se déplacer de la gauche (point A) vers la droite (point B) en trois secondes.
 
 * ❌ **Sans interpolation** : Le personnage sauterait instantanément du point A au point B.
-* ✅ **Avec interpolation** : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. C'est le même principe que le cinéma avec le nombre d'images par seconde.
+* ✅ **Avec interpolation** : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran.
 
 ## Interpolation avec Phaser
 
@@ -23,7 +23,11 @@ Pour animer un élément du jeu, on peut utiliser le système d'interpolation de
 
 ### Animation simple
 
-<iframe height="535" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=&editable=true&theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"><a href="https://codepen.io/tim-momo/pen/YzbePoR">Tween</a></iframe>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
+  Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande this.tweens.add({}) dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : 
 
