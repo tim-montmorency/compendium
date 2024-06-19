@@ -15,6 +15,12 @@ iframe {
     border-radius: 0.5rem;
 }
 
+.ratio21 {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}
+
 .md-typeset h1 {
     color: inherit;
 }
