@@ -10303,7 +10303,7 @@
 <p>Imaginons un personnage qui doit se déplacer de la gauche (point A) vers la droite (point B) en trois secondes.</p>
 <ul>
 <li>❌ <strong>Sans interpolation</strong> : Le personnage sauterait instantanément du point A au point B.</li>
-<li>✅ <strong>Avec interpolation</strong> : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran. C'est le même principe que le cinéma avec le nombre d'images par seconde.</li>
+<li>✅ <strong>Avec interpolation</strong> : Le mouvement est décomposé en plusieurs petites étapes, faisant apparaître le personnage à diverses positions intermédiaires, donnant l'impression qu'il se déplace en douceur à travers l'écran.</li>
 </ul>
 <h2 id="interpolation-avec-phaser">Interpolation avec Phaser<a class="headerlink" href="#interpolation-avec-phaser" title="Permanent link">¶</a></h2>
 <p>Pour animer un élément du jeu, on peut utiliser le système d'interpolation de Phaser. Dans le langage Phaser, on le nomme <a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Tweens">Tweens</a>! Les Tweens nous permettent grosso modo de facilement programmer des animations.</p>
@@ -10314,7 +10314,11 @@
 <li>Animation avancée</li>
 </ol>
 <h3 id="animation-simple">Animation simple<a class="headerlink" href="#animation-simple" title="Permanent link">¶</a></h3>
-<iframe height="535" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=&amp;editable=true&amp;theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"><a href="https://codepen.io/tim-momo/pen/YzbePoR">Tween</a></iframe>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result&amp;editable=true&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
+  Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 <p>De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande this.tweens.add({}) dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : </p>
 <h4 id="translation">Translation :<a class="headerlink" href="#translation" title="Permanent link">¶</a></h4>
