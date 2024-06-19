@@ -23,20 +23,13 @@ Pour animer un élément du jeu, on peut utiliser le système d'interpolation de
 
 ### Animation simple
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="400" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
   Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<p class="codepen" data-height="300" data-theme-id="50173" data-default-tab="result" data-slug-hash="YzbePoR" data-pen-title="Tween" data-editable="true" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
-  Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande this.tweens.add({}) dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : 
+De manière générale, une animation simple représente une transformation géométrique. Pour ajouter une animation, on doit écrire la commande `this.tweens.add({})` dans laquelle nous ajoutons un objet avec certaines propriété. En voici quelques unes : 
 
 #### Translation : 
 
