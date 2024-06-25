@@ -12,6 +12,4 @@ Exercice sur le concept de séquence d'animations (Timeline) avec Phaser.
 
 ## Consignes
 
-:material-source-branch-plus:
-
-Fork https://codepen.io/tim-momo/pen/VwOQOjE
+1. Faire un fork :material-source-branch: de la [structure de base sur CodePen](https://codepen.io/tim-momo/pen/VwOQOjE)
