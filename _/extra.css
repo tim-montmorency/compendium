@@ -39,7 +39,37 @@ iframe {
     aspect-ratio: 2 / 1;
 }
 
-.md-typeset h1, .md-typeset h2 {
+/* Méthode approximative pour inclure le header et footer codepen dans l'Aspect Ratio CSS */
+/* 50 header, 30 footer, 10 pour la luck */
+.aspect-2-1-tabbed {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 800 / calc(400 + 50 + 30 + 10);
+}
+
+.aspect-4-1 {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 4 / 1;
+}
+
+a.stretched-link {
+    color: var(--md-typeset-color);
+}
+
+.stretched-link:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+}
+
+.md-typeset h1,
+.md-typeset h2 {
     font-weight: bolder;
 }
 
@@ -54,12 +84,118 @@ iframe {
 
 .md-typeset .admonition,
 .md-typeset details {
-  border-width: 0;
-  border-left-width: 4px;
+    border-width: 0;
+    border-left-width: 4px;
+}
+
+/* Grid */
+
+.md-typeset .grid {
+    grid-gap: .4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    margin: 1em 0;
+    position: relative;
+    align-items: center;
+}
+
+.md-typeset .grid.grid-1-2 {
+    grid-gap: 1.2rem;
+    grid-template-columns: 1fr;
+    padding: 0.4rem;
+    border-radius: .2rem;
+    background-color: var(--md-code-bg-color);
+}
+
+.md-typeset .grid.grid-1-2 img {
+    border-radius: .2rem;
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .md-typeset .grid.grid-1-2 {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.md-typeset .grid.cards>ol,
+.md-typeset .grid.cards>ul {
+    display: contents
+}
+
+.md-typeset .grid.cards>ol>li,
+.md-typeset .grid.cards>ul>li,
+.md-typeset .grid>.card {
+    border: .05rem solid var(--md-default-fg-color--lightest);
+    border-radius: .1rem;
+    display: block;
+    margin: 0;
+    padding: .8rem;
+    transition: border .25s, box-shadow .25s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.md-typeset .grid.cards>ol>li:focus-within,
+.md-typeset .grid.cards>ol>li:hover,
+.md-typeset .grid.cards>ul>li:focus-within,
+.md-typeset .grid.cards>ul>li:hover,
+.md-typeset .grid>.card:focus-within,
+.md-typeset .grid>.card:hover {
+    border-color: #0000;
+    box-shadow: var(--md-shadow-z2)
+}
+
+.md-typeset .grid.cards>ol>li>hr,
+.md-typeset .grid.cards>ul>li>hr,
+.md-typeset .grid>.card>hr {
+    margin-bottom: 1em;
+    margin-top: 1em
+}
+
+.md-typeset .grid.cards>ol>li>:first-child,
+.md-typeset .grid.cards>ul>li>:first-child,
+.md-typeset .grid>.card>:first-child {
+    margin-top: 0
+}
+
+.md-typeset .grid.cards>ol>li>:last-child,
+.md-typeset .grid.cards>ul>li>:last-child,
+.md-typeset .grid>.card>:last-child {
+    margin-bottom: 0
+}
+
+.md-typeset .grid>*,
+.md-typeset .grid>.admonition,
+.md-typeset .grid>.highlight>*,
+.md-typeset .grid>.highlighttable,
+.md-typeset .grid>.md-typeset details,
+.md-typeset .grid>details,
+.md-typeset .grid>pre {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.md-typeset .grid>.highlight>pre:only-child,
+.md-typeset .grid>.highlight>pre>code,
+.md-typeset .grid>.highlighttable,
+.md-typeset .grid>.highlighttable>tbody,
+.md-typeset .grid>.highlighttable>tbody>tr,
+.md-typeset .grid>.highlighttable>tbody>tr>.code,
+.md-typeset .grid>.highlighttable>tbody>tr>.code>.highlight,
+.md-typeset .grid>.highlighttable>tbody>tr>.code>.highlight>pre,
+.md-typeset .grid>.highlighttable>tbody>tr>.code>.highlight>pre>code {
+    height: 100%
+}
+
+.md-typeset .grid>.tabbed-set {
+    margin-bottom: 0;
+    margin-top: 0
 }
 
 /* Cache les tabs en attendant le JS pour les retirer du DOM  */
-.md-container > .md-tabs {
+.md-container>.md-tabs {
     display: none;
 }
 
