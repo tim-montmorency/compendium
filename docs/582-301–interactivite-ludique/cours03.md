@@ -139,9 +139,9 @@ https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js
 
 <div class="grid grid-1-2" markdown>
 
-  ![](assets/AmbulanceAmbulante.png)
+  ![](assets/AmbulanceAmbulante.png) 
 
   <small>Exercice - Séquence d'animations</small><br>
-  **[L'ambulance ambulante](exercices/ambulance.html){.stretched-link}**
+  **[L'ambulance ambulante](exercices/ambulance.md){.stretched-link}**
 
 </div>
