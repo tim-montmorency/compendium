@@ -1,3 +1,6 @@
+// https://skalman.github.io/UglifyJS-online/
+// https://obfuscator.io/
+
 // Retire la navigation principale sous forme de tabs 
 document.querySelector('.md-container > .md-tabs').outerHTML = '';
 
@@ -13,7 +16,7 @@ while (aElement.firstChild) {
 aElement.parentNode.replaceChild(spanElement, aElement);
 
 // Extlink
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     var currentDomain = window.location.hostname;
     var currentPath = window.location.pathname.split('/').slice(0, -1).join('/');
     var links = document.getElementsByTagName('a');
@@ -34,4 +37,56 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
+});
+
+// Checkbox memory
+document.addEventListener('DOMContentLoaded', (event) => {
+    const checkboxes = document.querySelectorAll('.task-list-control input[type="checkbox"]');
+    checkboxes.forEach((checkbox, index) => {
+        const isChecked = localStorage.getItem('checkbox-' + index) === 'true';
+        checkbox.checked = isChecked;
+        checkbox.addEventListener('change', (event) => {
+            localStorage.setItem('checkbox-' + index, event.target.checked);
+        });
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const taskLists = document.querySelectorAll('.task-list');
+
+    if (taskLists.length = 0) {
+        return;
+    }
+
+    const fireworksContainer = document.createElement('div');
+    fireworksContainer.id = 'fireworks';
+    document.body.appendChild(fireworksContainer);
+
+    const fireworks = new Fireworks.default(fireworksContainer, {
+        autoresize: true,
+        acceleration: 1.0,
+        opacity: 0.5,
+        particles: 150,
+        intensity: 60,
+        lineStyle: 'square',
+      });
+
+    const checkAllChecked = (checkboxes) => {
+        if (Array.from(checkboxes).every(cb => cb.checked)) {
+            fireworks.start();
+        } else {
+            fireworks.stop();
+        }
+    };
+
+    taskLists.forEach(taskList => {
+        const checkboxes = taskList.querySelectorAll('[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                checkAllChecked(checkboxes);
+            });
+        });
+        checkAllChecked(checkboxes);
+    });
 });

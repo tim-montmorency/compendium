@@ -1,1 +1,3 @@
-# Cours 6
+# Cours 6 - 1er octobre
+
+Sounds

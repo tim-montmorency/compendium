@@ -486,10 +486,12 @@ extra_css:
   - _/extra.css
 
 extra_javascript:
+  - https://unpkg.com/fireworks-js@2.x/dist/index.umd.js
   - _/extra.js
 
 plugins:
   - offline
+  - tags
   - mkdocs-video:
       is_video: True
       video_autoplay: True

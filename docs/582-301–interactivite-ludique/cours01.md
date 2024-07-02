@@ -1,4 +1,4 @@
-# Cours 1 - Bienvenue !
+# Cours 1 - 27 août Bienvenue !
 
 ## Ordre du jour
 
@@ -204,10 +204,6 @@ document.getElementById('submit').addEventListener('click', function() {
 [Phaser.js](https://phaser.io/)
 ![phaser](https://github.com/jfcmontmorency/jfcmontmorency.github.io/assets/142059735/7890bb14-8d94-44a1-a6f7-8c519adf4d28)
 
-### Installation
-
-À venir...
-
 ### Arborescence
 
 Voici à quoi pourrait et devrait ressembler la structure[^unity] de votre jeu.
@@ -247,7 +243,11 @@ NomDuJeu
 
 [^unity]: [Bonnes pratiques pour organiser votre jeu vidéo](https://unity.com/how-to/organizing-your-project) (En anglais)
 
----
+
+
+### /
+
+GDD
 
 ## Exercices
 

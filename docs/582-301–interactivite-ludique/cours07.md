@@ -1,1 +1,3 @@
-# Cours 7
+# Cours 7 - 8 octobre
+
+Ennemies et collision
