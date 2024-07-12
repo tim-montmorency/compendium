@@ -1,5 +1,13 @@
-# Cours 2 - 2 septembre Introduction à Phaser
+---
+tags:
+  - Cours 2
+  - Mardi 2 septembre
+---
 
+# Phaser
+
+[Phaser.js](https://phaser.io/)
+![phaser](https://github.com/jfcmontmorency/jfcmontmorency.github.io/assets/142059735/7890bb14-8d94-44a1-a6f7-8c519adf4d28)
 
 npm install
 
@@ -29,16 +37,31 @@ Scene + switch scene
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+## Game objets
 
-## La base
+https://labs.phaser.io/index.html?dir=geom/&q=
 
 Ligne
 Curve path
+
 Graphics
-Cercle
-Carré
+const graphics = this.add.graphics();
+https://labs.phaser.io/index.html?dir=game%20objects/graphics/&q=
+https://labs.phaser.io/index.html?dir=game%20objects/shapes/&q=
+
 Image
+this.load.image('eye', 'https://labs.phaser.io/assets/pics/lance-overdose-loader-eye.png');
+this.image1 = this.add.image(500, 200, 'eye');
+https://labs.phaser.io/index.html?dir=game%20objects/images/&q=
+Pixelart=true
+
 Texte
+this.add.text(100, 100, 'Phaser');
+https://labs.phaser.io/index.html?dir=game%20objects/text/&q=
+https://labs.phaser.io/index.html?dir=game%20objects/bitmaptext/static/&q=
+
+z-index : https://phaser.io/sandbox/?src=src\depth%20sorting\z%20index.js
+
 
 Setters
 
@@ -55,6 +78,7 @@ https://phaser.io/sandbox/?src=src\transform\flip%20x.js
 this.add.image(200, 400, 'card').setOrigin(1, 0.5);
 https://labs.phaser.io/view.html?src=src\transform\originX.js
 https://phaser.io/sandbox/?src=src\transform\originXY.js
+https://labs.phaser.io/index.html?dir=transform/&q=
 
 ### position 
 image2.x = 640;
@@ -69,3 +93,21 @@ https://phaser.io/sandbox/?src=src\transform\rotation%20and%20origin.js
 ### échelle
 .setScale(2);
 https://phaser.io/sandbox/?src=src\transform\scaleXY.js
+
+### alpha
+https://phaser.io/sandbox/?src=src\display\alpha\bottom%20alpha.js
+
+
+Aléatoire
+https://phaser.io/sandbox/?src=src\game%20config\game%20rng.js
+Phaser.Math.Between(7, 666);
+à la place de 
+Math.floor(Math.random() * (666 - 7 + 1) ) + 7;
+
+
+
+
+Data : 
+
+this.data.set('lives', 3);
+https://phaser.io/sandbox/?src=src\components\data\store%20scene%20data.js

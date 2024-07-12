@@ -1,4 +1,10 @@
-# Cours 3 - 10 septembre Interpolations
+---
+tags:
+  - Cours 3
+  - Mardi 10 septembre
+---
+
+# Animations programmées
 
 ## Ordre du jour
 
@@ -6,6 +12,9 @@
 * Interpolations
 * Exercices
 * Devoir
+
+
+
 
 ## Qu'est-ce qu'une interpolation ?
 

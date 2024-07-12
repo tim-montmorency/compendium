@@ -170,7 +170,9 @@ nav:
     - Cours 4: 582-311–web3/cours04.md
     - Cours 3: 582-311–web3/cours03.md
     - Cours 2: 582-311–web3/cours02.md
-    - Cours 1: 582-311–web3/cours01.md     
+    - Cours 1: 
+      - 582-311–web3/cours01.md
+      - Bootstrap: 582-311–web3/bootstrap.md
   - Video 2 :
     - 582-312–video2/index.md
     - Cours 15: 582-312–video2/cours15.md
@@ -423,7 +425,7 @@ theme:
     - content.tooltips
     - content.code.copy
     - toc.follow
-    - navigation.sections
+    # - navigation.sections
     - navigation.top
     - navigation.tabs
     - navigation.tracking
@@ -481,11 +483,15 @@ markdown_extensions:
 # Extras
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-BFKT7FS4P2
 
 extra_css:
   - _/extra.css
 
 extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - https://unpkg.com/fireworks-js@2.x/dist/index.umd.js
   - _/extra.js
 
@@ -499,6 +505,9 @@ plugins:
       video_controls: True
       video_loop: True
   - mkdocs-audio
+  - render-stopper:
+      tag: '[STOP]'
+      placeholder: '&lrm;'
 
 # Project information 
 site_name: Notes de cours

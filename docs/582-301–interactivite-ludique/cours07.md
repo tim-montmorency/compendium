@@ -1,3 +1,7 @@
-# Cours 7 - 8 octobre
+---
+tags:
+  - Cours 7
+  - Mardi 8 octobre
+---
 
-Ennemies et collision
+# HUD et scènes

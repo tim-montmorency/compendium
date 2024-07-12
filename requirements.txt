@@ -1,4 +1,5 @@
 mkdocs-material
 mkdocs-audio
+mkdocs-render-stopper
 mkdocs-video
 pymdown-extensions
