@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../_/favicon-32x32.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
     
     
       
@@ -55,6 +55,16 @@
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-BFKT7FS4P2"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-BFKT7FS4P2",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-BFKT7FS4P2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -78,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cours-3-interpolations" class="md-skip">
+        <a href="#animations-programmees" class="md-skip">
           Aller au contenu
         </a>
       
@@ -705,8 +715,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -1112,8 +1120,6 @@
     
     
       
-      
-        
       
     
     
@@ -1521,8 +1527,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -1928,8 +1932,6 @@
     
     
       
-      
-        
       
     
     
@@ -2337,8 +2339,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -2744,8 +2744,6 @@
     
     
       
-      
-        
       
     
     
@@ -3153,8 +3151,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -3560,8 +3556,6 @@
     
     
       
-      
-        
       
     
     
@@ -3974,8 +3968,6 @@
         
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
@@ -4361,6 +4353,16 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#proprietes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propriétés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Propriétés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#translation" class="md-nav__link">
     <span class="md-ellipsis">
       Translation
@@ -4397,9 +4399,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#exemple-danimation-interpolee" class="md-nav__link">
+  <a href="#fonctions-dacceleration" class="md-nav__link">
     <span class="md-ellipsis">
-      Exemple d'animation interpolée
+      Fonctions d'accélération
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autres-proprietes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autres propriétés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-complet-danimation-interpolee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple complet d'animation interpolée
     </span>
   </a>
   
@@ -4411,11 +4436,26 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sequence-danimations-timeline" class="md-nav__link">
+  <a href="#sequence-danimations" class="md-nav__link">
     <span class="md-ellipsis">
-      Séquence d'animations (Timeline)
+      Séquence d'animations
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Séquence d'animations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dune-sequence-danimations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'une séquence d'animations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -4541,8 +4581,6 @@
     
     
       
-      
-        
       
     
     
@@ -4881,16 +4919,89 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../582-311%E2%80%93web3/cours01.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_16" id="__nav_10_16_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Cours 1
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_16">
+            <span class="md-nav__icon md-icon"></span>
+            Cours 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-311%E2%80%93web3/cours01.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-311%E2%80%93web3/bootstrap.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bootstrap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -4949,8 +5060,6 @@
     
     
       
-      
-        
       
     
     
@@ -5358,8 +5467,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -5765,8 +5872,6 @@
     
     
       
-      
-        
       
     
     
@@ -6174,8 +6279,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -6581,8 +6684,6 @@
     
     
       
-      
-        
       
     
     
@@ -6990,8 +7091,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -7397,8 +7496,6 @@
     
     
       
-      
-        
       
     
     
@@ -7806,8 +7903,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -8213,8 +8308,6 @@
     
     
       
-      
-        
       
     
     
@@ -8622,8 +8715,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -9029,8 +9120,6 @@
     
     
       
-      
-        
       
     
     
@@ -9438,8 +9527,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -9845,8 +9932,6 @@
     
     
       
-      
-        
       
     
     
@@ -10277,6 +10362,16 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#proprietes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propriétés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Propriétés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#translation" class="md-nav__link">
     <span class="md-ellipsis">
       Translation
@@ -10313,9 +10408,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#exemple-danimation-interpolee" class="md-nav__link">
+  <a href="#fonctions-dacceleration" class="md-nav__link">
     <span class="md-ellipsis">
-      Exemple d'animation interpolée
+      Fonctions d'accélération
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autres-proprietes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autres propriétés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-complet-danimation-interpolee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple complet d'animation interpolée
     </span>
   </a>
   
@@ -10327,11 +10445,26 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sequence-danimations-timeline" class="md-nav__link">
+  <a href="#sequence-danimations" class="md-nav__link">
     <span class="md-ellipsis">
-      Séquence d'animations (Timeline)
+      Séquence d'animations
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Séquence d'animations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dune-sequence-danimations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'une séquence d'animations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -10366,9 +10499,26 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <span class="md-tag">Cours 3</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">Mardi 10 septembre</span>
+    
+  
+</nav>
 
 
-<div><h1 id="cours-3-interpolations">Cours 3 - Interpolations<a class="headerlink" href="#cours-3-interpolations" title="Permanent link">¶</a></h1>
+
+<div><h1 id="animations-programmees">Animations programmées<a class="headerlink" href="#animations-programmees" title="Permanent link">¶</a></h1>
 <h2 id="ordre-du-jour">Ordre du jour<a class="headerlink" href="#ordre-du-jour" title="Permanent link">¶</a></h2>
 <ul>
 <li>Wooclap</li>
@@ -10388,7 +10538,7 @@
 </iframe>
 
 <h3 id="interpolation-avec-phaser">Interpolation avec Phaser<a class="headerlink" href="#interpolation-avec-phaser" title="Permanent link">¶</a></h3>
-<p>Pour animer un élément de jeu, on peut utiliser le système d'interpolation de Phaser. Cela peut se faire par une <strong>animation interpolée</strong> (<a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Tweens">Tweens</a>), par une <strong>séquence d'animations</strong> (<a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Time.Timeline">Timeline</a>) ou par une <strong>animation de parcours</strong> (<a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.GameObjects.PathFollower">PathFollow</a>).</p>
+<p>Pour animer un élément de jeu, on peut utiliser le système d'interpolation de Phaser. Cela peut se faire par une <strong>animation interpolée</strong> (<a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Tweens">Tweens</a>), par une <strong>séquence d'animations</strong> (<a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.Time.Timeline">Timeline</a> / <a href="https://rexrainbow.github.io/phaser3-rex-notes/docs/site/tween/#chain">TweenChain</a>) ou par une <strong>animation de parcours</strong> (<a href="https://newdocs.phaser.io/docs/3.80.0/Phaser.GameObjects.PathFollower">PathFollow</a>).</p>
 <h2 id="animation-interpolee-tween">Animation interpolée (Tween)<a class="headerlink" href="#animation-interpolee-tween" title="Permanent link">¶</a></h2>
 <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Tween" src="https://codepen.io/tim-momo/embed/YzbePoR?default-tab=result&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/YzbePoR">
@@ -10396,20 +10546,170 @@
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<p>De manière générale, une animation interpolée représente une transformation géométrique 📐.</p>
-<p>Pour ajouter une animation, on doit écrire la commande <code>this.tweens.add({})</code> à laquelle nous ajouterons un objet avec des propriétés. En voici quelques unes : </p>
-<h3 id="translation">Translation<a class="headerlink" href="#translation" title="Permanent link">¶</a></h3>
-<p><code>x</code> : La nouvelle position sur l'axe des X. L'image se déplacera horizontalement jusqu'à cette position.</p>
+<p>De manière générale, une animation interpolée représente simplement une transformation géométrique 📐.</p>
+<p>Pour créer une nouvelle animation (Tween), on doit écrire la commande <code>this.tweens.add({});</code>. Cela indique à la scène Phaser qu'une animation doit être déclenchée. Voici la syntaxe d'un exemple très minimal, sans spécification sur l'animation : </p>
+<div class="highlight"><span class="filename">Syntaxe</span><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="c1">// elementGraphique est l'objet à animer</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">elementGraphique</span><span class="p">,</span>
+<span class="p">});</span>
+</code></pre></div>
+<h3 id="proprietes">Propriétés<a class="headerlink" href="#proprietes" title="Permanent link">¶</a></h3>
+<h4 id="translation">Translation<a class="headerlink" href="#translation" title="Permanent link">¶</a></h4>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">belleLune</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">700</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1500</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span>
+<span class="p">});</span>
+</code></pre></div>
+<div class="grid">
+<iframe allowfullscreen="true" allowtransparency="true" class="aspect-2-1" frameborder="no" height="300" loading="lazy" scrolling="no" src="https://codepen.io/tim-momo/embed/vYwwZaB?default-tab=result&amp;theme-id=50173" style="width: 100%;" title="Translation X">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/vYwwZaB">
+  Translation X</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+<p><code>x</code> : La nouvelle position sur l'axe des X. L'image se déplacera horizontalement jusqu'à cette position.    </p>
+</div>
+<hr>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">belleLune</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">300</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1500</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="p">});</span>
+</code></pre></div>
+<div class="grid">
+<iframe allowfullscreen="true" allowtransparency="true" class="aspect-2-1" frameborder="no" height="300" loading="lazy" scrolling="no" src="https://codepen.io/tim-momo/embed/GRaaEYJ?default-tab=result&amp;theme-id=50173" style="width: 100%;" title="Translation Y">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/GRaaEYJ">
+  Translation Y</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 <p><code>y</code> : La nouvelle position sur l'axe des Y. L'image se déplacera verticalement jusqu'à cette position.</p>
-<h3 id="rotation">Rotation<a class="headerlink" href="#rotation" title="Permanent link">¶</a></h3>
+</div>
+<h4 id="rotation">Rotation<a class="headerlink" href="#rotation" title="Permanent link">¶</a></h4>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">grainDeRiz</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">angle</span><span class="o">:</span><span class="w"> </span><span class="mf">360</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1500</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span>
+<span class="p">});</span>
+</code></pre></div>
+<div class="grid">
+<iframe allowfullscreen="true" allowtransparency="true" class="aspect-2-1" frameborder="no" height="300" loading="lazy" scrolling="no" src="https://codepen.io/tim-momo/embed/dyEERgB?default-tab=result&amp;theme-id=50173" style="width: 100%;" title="Rotation - Angle">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/dyEERgB">
+  Rotation - Angle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 <p><code>angle</code>: La nouvelle valeur de l'angle en degrés. Par exemple, une valeur de 360 fera tourner l'objet d'un tour complet.</p>
+</div>
+<hr>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">grainDeRiz</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">rotation</span><span class="o">:</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1500</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span>
+<span class="p">});</span>
+</code></pre></div>
+<div class="grid">
+<iframe allowfullscreen="true" allowtransparency="true" class="aspect-2-1" frameborder="no" height="300" loading="lazy" scrolling="no" src="https://codepen.io/tim-momo/embed/OJYYjLb?default-tab=result&amp;theme-id=50173" style="width: 100%;" title="Rotation">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/OJYYjLb">
+  Rotation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 <p><code>rotation</code>: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI (3.14159...) équivaut à une rotation de 180 degrés.</p>
-<h3 id="echelle">Échelle<a class="headerlink" href="#echelle" title="Permanent link">¶</a></h3>
+</div>
+<h4 id="echelle">Échelle<a class="headerlink" href="#echelle" title="Permanent link">¶</a></h4>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">belleLune</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">scale</span><span class="o">:</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="p">});</span>
+</code></pre></div>
+<div class="grid">
+<iframe allowfullscreen="true" allowtransparency="true" class="aspect-2-1" frameborder="no" height="300" loading="lazy" scrolling="no" src="https://codepen.io/tim-momo/embed/qBGGXWz?default-tab=result&amp;theme-id=50173" style="width: 100%;" title="Scale">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/qBGGXWz">
+  Scale</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 <p><code>scale</code> : Modifie la taille de l'élément. Une valeur de 2 doublera la taille, tandis qu'une valeur de 0.5 la réduira de moitié.</p>
-<h3 id="transparence">Transparence<a class="headerlink" href="#transparence" title="Permanent link">¶</a></h3>
+</div>
+<h4 id="transparence">Transparence<a class="headerlink" href="#transparence" title="Permanent link">¶</a></h4>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">belleLune</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">alpha</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1500</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="p">});</span>
+</code></pre></div>
+<div class="grid">
+<iframe allowfullscreen="true" allowtransparency="true" class="aspect-2-1" frameborder="no" height="300" loading="lazy" scrolling="no" src="https://codepen.io/tim-momo/embed/Exzzvxr?default-tab=result&amp;theme-id=50173" style="width: 100%;" title="Scale">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/Exzzvxr">
+  Scale</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 <p><code>alpha</code> : Modifie l'opacité de l'élément. La valeur doit se situer entre 0 et 1. Une valeur de 1 signifie que l'élément est complètement opaque (100% d'opacité), tandis qu'une valeur de 0 le rend totalement transparent. Les valeurs entre 0 et 1 représentent différents niveaux de transparence.</p>
-<h3 id="exemple-danimation-interpolee">Exemple d'animation interpolée<a class="headerlink" href="#exemple-danimation-interpolee" title="Permanent link">¶</a></h3>
-<p>Regardons ensemble un exemple complet pour bien comprendre la syntaxe dans son contexte.</p>
+</div>
+<h4 id="fonctions-dacceleration">Fonctions d'accélération<a class="headerlink" href="#fonctions-dacceleration" title="Permanent link">¶</a></h4>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">belleLune</span><span class="p">,</span><span class="w">    </span>
+<span class="w">  </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">700</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">5000</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Circ.easeOut'</span>
+<span class="p">});</span>
+</code></pre></div>
+<iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="Ease" src="https://codepen.io/tim-momo/embed/LYoKGZK?default-tab=result&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/LYoKGZK">
+  Ease</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<p><a href="https://rexrainbow.github.io/phaser3-rex-notes/docs/site/ease-function/">Liste des fonctions d'accélération Phaser</a></p>
+<h4 id="autres-proprietes">Autres propriétés<a class="headerlink" href="#autres-proprietes" title="Permanent link">¶</a></h4>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">tweens</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">sprite</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">         </span>
+<span class="w">  </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">         </span>
+<span class="w">  </span><span class="nx">alpha</span><span class="o">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w">     </span>
+<span class="w">  </span><span class="nx">scale</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w">       </span>
+<span class="w">  </span><span class="nx">angle</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">     </span>
+<span class="w">  </span><span class="nx">rotation</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">      </span><span class="c1">// Durée en millisecondes</span>
+<span class="w">  </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Linear'</span><span class="p">,</span><span class="w">   </span><span class="c1">// Fonction d'accélération</span>
+<span class="w">  </span><span class="nx">delay</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">         </span><span class="c1">// Délai avant l'animation</span>
+<span class="w">  </span><span class="nx">repeat</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">        </span><span class="c1">// Nombre de répétitions (-1 pour infini)</span>
+<span class="w">  </span><span class="nx">yoyo</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">      </span><span class="c1">// Revenir à l'état initial après chaque répétition</span>
+<span class="w">  </span><span class="nx">hold</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">          </span><span class="c1">// Temps de pause entre yoyo</span>
+<span class="w">  </span><span class="nx">repeatDelay</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w">   </span><span class="c1">// Délai entre chaque répétition</span>
+<span class="w">  </span><span class="nx">paused</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">    </span><span class="c1">// Commencer en pause</span>
+<span class="w">  </span><span class="nx">onStart</span><span class="o">:</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">tween</span><span class="p">,</span><span class="w"> </span><span class="nx">targets</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">    </span><span class="c1">// Fonction exécutée au début de l'animation</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Animation commencée'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">onComplete</span><span class="o">:</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">tween</span><span class="p">,</span><span class="w"> </span><span class="nx">targets</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">    </span><span class="c1">// Fonction exécutée à la fin de l'animation</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Animation terminée'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">onYoyo</span><span class="o">:</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">tween</span><span class="p">,</span><span class="w"> </span><span class="nx">targets</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">    </span><span class="c1">// Fonction exécutée au moment du yoyo</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Yoyo'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">onRepeat</span><span class="o">:</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">tween</span><span class="p">,</span><span class="w"> </span><span class="nx">targets</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">    </span><span class="c1">// Fonction exécutée à chaque répétition</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Répétition'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">onUpdate</span><span class="o">:</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">tween</span><span class="p">,</span><span class="w"> </span><span class="nx">targets</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">    </span><span class="c1">// Fonction exécutée à chaque mise à jour de l'animation</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Mise à jour'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div>
+<h3 id="exemple-complet-danimation-interpolee">Exemple complet d'animation interpolée<a class="headerlink" href="#exemple-complet-danimation-interpolee" title="Permanent link">¶</a></h3>
+<p>Regardons ensemble un exemple complet pour bien comprendre la syntaxe.</p>
 <div class="highlight"><span class="filename">./index.html</span><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
@@ -10464,11 +10764,133 @@
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<h2 id="sequence-danimations-timeline">Séquence d'animations (Timeline)<a class="headerlink" href="#sequence-danimations-timeline" title="Permanent link">¶</a></h2>
+<h2 id="sequence-danimations">Séquence d'animations<a class="headerlink" href="#sequence-danimations" title="Permanent link">¶</a></h2>
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Exemple Timeline" src="https://codepen.io/tim-momo/embed/preview/QWRrxEX?default-tab=result&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QWRrxEX">
+  Exemple Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<p>Pour définir une nouvelle séquence d'animations, on doit la déclarer dans une variable.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">timeline</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">timeline</span><span class="p">();</span>
+</code></pre></div>
+<p>On y ajoute ensuite des animations avec la structure suivante : </p>
+<div class="highlight"><pre><span></span><code><span class="nx">timeline</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">at</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">tween</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Paramètres de l'animation</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="p">});</span>
+</code></pre></div>
+<p><code>at</code> : Spécifie en millisecondes le moment où l'animation (Tween) doit commencer par rapport au début de sa séquence (Timeline).</p>
+<p>Finalement, pour démarrer la séquence, il faut simplement appeler la fonction <code>play()</code> :</p>
+<div class="highlight"><pre><span></span><code><span class="nx">timeline</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
+</code></pre></div>
+<h3 id="exemple-dune-sequence-danimations">Exemple d'une séquence d'animations<a class="headerlink" href="#exemple-dune-sequence-danimations" title="Permanent link">¶</a></h3>
+<div class="highlight"><span class="filename">./index.html</span><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"./node_modules/phaser/dist/phaser.min.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"./src/js/scenes/Exemple.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"./src/js/init.js"</span> <span class="na">defer</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">./src/js/init.js</span><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">Phaser</span><span class="p">.</span><span class="nx">AUTO</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">width</span><span class="o">:</span><span class="w"> </span><span class="mf">800</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">600</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">scene</span><span class="o">:</span><span class="w"> </span><span class="nx">Exemple</span>
+<span class="p">};</span>
+
+<span class="kd">const</span><span class="w"> </span><span class="nx">game</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Phaser</span><span class="p">.</span><span class="nx">Game</span><span class="p">(</span><span class="nx">config</span><span class="p">);</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">./src/js/scenes/Exemple.js</span><pre><span></span><code><span class="kd">class</span><span class="w"> </span><span class="nx">Exemple</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">Phaser</span><span class="p">.</span><span class="nx">Scene</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">preload</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="c1">// Assets : https://kenney.nl/</span>
+<span class="w">      </span><span class="k">this</span><span class="p">.</span><span class="nx">load</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="s1">'duck'</span><span class="p">,</span><span class="w"> </span><span class="s1">'assets/images/duck.png'</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">    </span><span class="nx">create</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">img</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">image</span><span class="p">(</span><span class="mf">136</span><span class="p">,</span><span class="w"> </span><span class="mf">136</span><span class="p">,</span><span class="w"> </span><span class="s1">'duck'</span><span class="p">);</span>
+<span class="w">        </span><span class="nx">img</span><span class="p">.</span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">100</span><span class="p">;</span>
+<span class="w">        </span><span class="nx">img</span><span class="p">.</span><span class="nx">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">200</span><span class="p">;</span>
+<span class="w">        </span><span class="nx">img</span><span class="p">.</span><span class="nx">alpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span>
+
+<span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="nx">timeline</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">timeline</span><span class="p">();</span>
+
+<span class="w">        </span><span class="nx">timeline</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">            </span><span class="nx">at</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">tween</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">img</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">400</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">angle</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mf">90</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Expo.easeOut'</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">        </span><span class="p">});</span>
+
+<span class="w">        </span><span class="nx">timeline</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">            </span><span class="nx">at</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">tween</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">img</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span><span class="w"> </span>
+<span class="w">                </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Sine.easeIn'</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">        </span><span class="p">});</span>
+
+<span class="w">        </span><span class="nx">timeline</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">            </span><span class="nx">at</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">tween</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">img</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">300</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Sine.easeIn'</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">        </span><span class="p">});</span>
+
+<span class="w">        </span><span class="nx">timeline</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">            </span><span class="nx">at</span><span class="o">:</span><span class="w"> </span><span class="mf">2000</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">tween</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">img</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">700</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">angle</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Expo.easeIn'</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">        </span><span class="p">});</span>
+
+<span class="w">        </span><span class="nx">timeline</span><span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+<span class="w">            </span><span class="nx">at</span><span class="o">:</span><span class="w"> </span><span class="mf">2000</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">tween</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nx">targets</span><span class="o">:</span><span class="w"> </span><span class="nx">img</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">200</span><span class="p">,</span><span class="w"> </span>
+<span class="w">                </span><span class="nx">ease</span><span class="o">:</span><span class="w"> </span><span class="s1">'Sine.easeOut'</span><span class="p">,</span>
+<span class="w">                </span><span class="nx">duration</span><span class="o">:</span><span class="w"> </span><span class="mf">1000</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">        </span><span class="p">});</span>
+
+
+<span class="w">        </span><span class="nx">timeline</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
+
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<iframe class="aspect-2-1-tabbed" height="300" style="width: 100%;" scrolling="no" title="Exemple Timeline" src="https://codepen.io/tim-momo/embed/preview/QWRrxEX?default-tab=result&amp;theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QWRrxEX">
+  Exemple Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 <h2 id="animation-de-parcours-pathfollow">Animation de parcours (PathFollow)<a class="headerlink" href="#animation-de-parcours-pathfollow" title="Permanent link">¶</a></h2>
-<p>https://codepen.io/tim-momo/pen/yLWvyra.css
-https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js</p>
 <h2 id="exercices">Exercices<a class="headerlink" href="#exercices" title="Permanent link">¶</a></h2>
+<div class="grid grid-1-2">
+<p><img alt="" src="assets/TeteNuages.png"> </p>
+<p><small>Exercice - Animation interpolée</small><br>
+  <strong><a class="stretched-link" href="exercices/nuages.html">La tête dans les nuages</a></strong></p>
+</div>
 <div class="grid grid-1-2">
 <p><img alt="" src="assets/AmbulanceAmbulante.png"> </p>
 <p><small>Exercice - Séquence d'animations</small><br>
@@ -10481,7 +10903,12 @@ https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js</p>
 
 
 
+  
+  
 
+
+
+  
 
 
 
@@ -10527,10 +10954,14 @@ https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js</p>
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.tooltips", "content.code.copy", "toc.follow", "navigation.sections", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch", "navigation.path"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tooltips", "content.code.copy", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch", "navigation.path"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
       
         <script src="../_/extra.js"></script>
       
