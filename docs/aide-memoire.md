@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-!!! Titres
+!!! note "Titres"
 
     === "Résultat"
 
@@ -24,7 +24,7 @@ hide:
         #### Titre 4
         ```
 
-!!! Gras et italic
+!!! note "Gras et italic"
 
     === "Résultat"
 
@@ -36,7 +36,7 @@ hide:
         **gras** ou *italic*
         ```
 
-!!! Hyperlien
+!!! note "Hyperlien"
 
     === "Résultat"
 
@@ -48,7 +48,9 @@ hide:
         [Google](https://google.ca)
         ```
 
-!!! Liste
+        Si c'est un lien externe, une icône s'affiche à côté du lien.
+
+!!! note "Liste"
 
     === "Résultat"
 
@@ -76,7 +78,7 @@ hide:
         1. Nulla tempor lobortis orci
         ```
 
-!!! Cases à cocher
+!!! note "Cases à cocher"
 
     === "Résultat"
 
@@ -92,7 +94,11 @@ hide:
         * [ ] Nulla tempor lobortis orci
         ```
 
-!!! Image
+        Le navigateur se souviens des cases cochées.
+
+        Aussi, il y a un effet spécial en cochant toutes les cases.
+
+!!! note "Image"
 
     === "Résultat"
 
@@ -104,7 +110,7 @@ hide:
         ![Texte alternatif de l'image](https://picsum.photos/200)
         ```
 
-!!! Vidéo
+!!! note "Vidéo"
 
     === "Résultat"
 
@@ -116,7 +122,7 @@ hide:
         ![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
         ```
 
-!!! Audio
+!!! note "Audio"
 
     === "Résultat"
 
@@ -128,19 +134,29 @@ hide:
         ![type:audio](_/test.mp3)
         ```
 
-!!! Embed
+!!! note "Embed"
 
     === "Résultat"
 
-        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Alert" src="https://codepen.io/tim-momo/embed/GRbpgjQ?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+            See the Pen <a href="https://codepen.io/tim-momo/pen/GRbpgjQ">
+            Alert</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+            on <a href="https://codepen.io">CodePen</a>.
+        </iframe>
 
     === "Markdown"
 
         ```html
-        <iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Alert" src="https://codepen.io/tim-momo/embed/GRbpgjQ?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+            See the Pen <a href="https://codepen.io/tim-momo/pen/GRbpgjQ">
+            Alert</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+            on <a href="https://codepen.io">CodePen</a>.
+        </iframe>
         ```
 
-!!! Code
+        On peut ajouter une classe aspect ratio pour controler la taille (ex: `.aspect-2-1`)
+
+!!! note "Code"
 
     === "Résultat"
 
@@ -162,7 +178,7 @@ hide:
         ```
         ````
 
-!!! Tableau
+!!! note "Tableau"
 
     === "Résultat"
 
@@ -182,7 +198,7 @@ hide:
         | Cellule C   | Cellule Z   |
         ```
 
-!!! Message
+!!! note "Message"
 
     === "Résultat"
         
@@ -199,3 +215,30 @@ hide:
         ```
 
         Types disponibles : `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote` 
+
+!!! note "Cacher du contenu (feature Stéphane)"
+
+    En ajoutant la mention <stop/> (entre crochet, en majuscule et sans espace), le contenu qui suit ne sera pas visible dans les notes de cours. 
+
+    === "Résultat"
+        
+        Cours #5
+
+    === "Markdown"
+
+        Cours #5
+
+        <stop/>
+        
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+        ```css
+        p {
+            border-style: solid;
+            border-top-width: 15px;
+        }
+        ``` 
+
+        Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+        Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna.
