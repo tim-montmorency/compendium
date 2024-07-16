@@ -23,6 +23,25 @@ while (aElement.firstChild) {
 }
 aElement.parentNode.replaceChild(spanElement, aElement);
 
+document.addEventListener("DOMContentLoaded", function() {
+    const iframes = document.querySelectorAll("iframe");
+
+    iframes.forEach(iframe => {
+        const url = new URL(iframe.src);
+        const editable = url.searchParams.get("editable");
+        const themeId = url.searchParams.get("theme-id");
+
+        if (editable === "true" && themeId === "50173") {
+            const link = document.createElement("a");
+            link.href = iframe.src;
+            link.className = "codepen-open";
+            link.textContent = "Ouvrir l’exemple";
+            link.target = "_blank";
+            iframe.parentNode.insertBefore(link, iframe.nextSibling);
+        }
+    });
+});
+
 // Extlink
 document.addEventListener('DOMContentLoaded', () => {
     var currentDomain = window.location.hostname;
@@ -98,3 +117,35 @@ document.addEventListener('DOMContentLoaded', () => {
         checkAllChecked(checkboxes);
     });
 });
+
+/* OpenDyslexic font switch */
+document.addEventListener("DOMContentLoaded", function() {
+    const dyslexicIcon = document.getElementById('icon-dyslexic');
+    const defaultIcon = document.getElementById('icon-default');
+    const toggleButton = document.querySelector('.md-header__opendyslexic');
+  
+    // Function to update the icon visibility based on localStorage
+    function updateIconVisibility() {
+      const body = document.body;
+      const isDyslexic = localStorage.getItem('isDyslexic') === 'true';
+      if (isDyslexic) {
+        dyslexicIcon.style.display = 'none';
+        defaultIcon.style.display = 'block';
+        body.style.setProperty('--md-text-font-family', '"OpenDyslexic", sans-serif');
+      } else {
+        dyslexicIcon.style.display = 'block';
+        defaultIcon.style.display = 'none';
+        body.style.removeProperty('--md-text-font-family');
+      }
+    }
+  
+    // Initial visibility based on localStorage
+    updateIconVisibility();
+  
+    // Add event listener to toggle button
+    toggleButton.addEventListener('click', function() {
+      const isDyslexic = localStorage.getItem('isDyslexic') === 'true';
+      localStorage.setItem('isDyslexic', !isDyslexic);
+      updateIconVisibility();
+    });
+  });

@@ -1,3 +1,65 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./fonts/opendyslexic/OpenDyslexic2-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./fonts/opendyslexic/OpenDyslexic2-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./fonts/opendyslexic/OpenDyslexic2-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./fonts/opendyslexic/OpenDyslexic2-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* @font-face {
+    font-family: 'OpenDyslexic Mono';
+    src: url('./fonts/opendyslexic/OpenDyslexicMono-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body {
+    transition: font-family 0.3s;
+}
+
+/* Colors */
+
+.text-primary {
+    color: var(--md-primary-fg-color);
+}
+
+.text-success {
+    color: var(--md-code-hl-string-color);
+}
+
+.text-danger {
+    color: var(--md-code-hl-number-color);
+}
+
+.text-warning {
+    color: var(--md-warning-bg-color);
+}
+
+.text-muted {
+    color: var(--md-accent-fg-color--transparent);
+}
+
+
 /* Tables */
 .md-typeset__table {
     display: block;
@@ -9,12 +71,16 @@
 
 /* Iframe */
 iframe {
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
 }
 
 /* Images */
 img {
-    border-radius: .2rem;
+    border-radius: .25rem;
+}
+
+body[data-md-color-scheme="slate"] img.invert {
+    filter: invert(0.9);
 }
 
 /* Proportions des conteneurs */
@@ -23,6 +89,12 @@ img {
     width: 100%;
     aspect-ratio: 1 / 1;
     /* pointer-events: none; */
+}
+
+.aspect-3-1 {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 3 / 1;
 }
 
 .aspect-4-3 {
@@ -180,6 +252,7 @@ a.stretched-link {
     transition: border .25s, box-shadow .25s;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     justify-content: start;
     height: 100%;
 }
@@ -275,7 +348,7 @@ a.stretched-link {
 
 .md-copyright__highlight {
     color: var(--md-typeset-color);
-    font-size: 0.5rem;
+    font-size: .64rem;
 }
 
 html .md-footer-meta.md-typeset a {
@@ -326,3 +399,10 @@ html .md-footer-meta.md-typeset a:hover {
     z-index: -1;
 }
 
+/* Codepen open link */
+
+a.codepen-open {
+    display: block;
+    text-align: center;
+    font-size: .64rem;
+}
