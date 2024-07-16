@@ -406,3 +406,7 @@ a.codepen-open {
     text-align: center;
     font-size: .64rem;
 }
+
+stop:before{
+    content: '[STOP]';
+}

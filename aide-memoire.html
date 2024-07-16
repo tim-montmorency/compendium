@@ -10192,7 +10192,7 @@
                   
 
 
-<div><div class="admonition titres">
+<div><div class="admonition note">
 <p class="admonition-title">Titres</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked id="résultat" name="__tabbed_1" type="radio"><input id="markdown" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="résultat">Résultat</label><label for="markdown">Markdown</label></div>
 <div class="tabbed-content">
@@ -10212,8 +10212,8 @@
 </div>
 </div>
 </div>
-<div class="admonition gras et italic">
-<p class="admonition-title">Gras</p>
+<div class="admonition note">
+<p class="admonition-title">Gras et italic</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked id="résultat_1" name="__tabbed_2" type="radio"><input id="markdown_1" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="résultat_1">Résultat</label><label for="markdown_1">Markdown</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -10226,7 +10226,7 @@
 </div>
 </div>
 </div>
-<div class="admonition hyperlien">
+<div class="admonition note">
 <p class="admonition-title">Hyperlien</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked id="résultat_2" name="__tabbed_3" type="radio"><input id="markdown_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="résultat_2">Résultat</label><label for="markdown_2">Markdown</label></div>
 <div class="tabbed-content">
@@ -10236,11 +10236,12 @@
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code>[<span class="nt">Google</span>](<span class="na">https://google.ca</span>)
 </code></pre></div>
+<p>Si c'est un lien externe, une icône s'affiche à côté du lien.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="admonition liste">
+<div class="admonition note">
 <p class="admonition-title">Liste</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked id="résultat_3" name="__tabbed_4" type="radio"><input id="markdown_3" name="__tabbed_4" type="radio"><div class="tabbed-labels"><label for="résultat_3">Résultat</label><label for="markdown_3">Markdown</label></div>
 <div class="tabbed-content">
@@ -10270,8 +10271,8 @@
 </div>
 </div>
 </div>
-<div class="admonition cases à cocher">
-<p class="admonition-title">Cases</p>
+<div class="admonition note">
+<p class="admonition-title">Cases à cocher</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked id="résultat_4" name="__tabbed_5" type="radio"><input id="markdown_4" name="__tabbed_5" type="radio"><div class="tabbed-labels"><label for="résultat_4">Résultat</label><label for="markdown_4">Markdown</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -10286,11 +10287,13 @@
 <span class="k">* [x]</span> Donec vitae suscipit est
 <span class="k">* [ ]</span> Nulla tempor lobortis orci
 </code></pre></div>
+<p>Le navigateur se souviens des cases cochées.</p>
+<p>Aussi, il y a un effet spécial en cochant toutes les cases.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="admonition image">
+<div class="admonition note">
 <p class="admonition-title">Image</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked id="résultat_5" name="__tabbed_6" type="radio"><input id="markdown_5" name="__tabbed_6" type="radio"><div class="tabbed-labels"><label for="résultat_5">Résultat</label><label for="markdown_5">Markdown</label></div>
 <div class="tabbed-content">
@@ -10304,7 +10307,7 @@
 </div>
 </div>
 </div>
-<div class="admonition vidéo">
+<div class="admonition note">
 <p class="admonition-title">Vidéo</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked id="résultat_6" name="__tabbed_7" type="radio"><input id="markdown_6" name="__tabbed_7" type="radio"><div class="tabbed-labels"><label for="résultat_6">Résultat</label><label for="markdown_6">Markdown</label></div>
 <div class="tabbed-content">
@@ -10318,7 +10321,7 @@
 </div>
 </div>
 </div>
-<div class="admonition audio">
+<div class="admonition note">
 <p class="admonition-title">Audio</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked id="résultat_7" name="__tabbed_8" type="radio"><input id="markdown_7" name="__tabbed_8" type="radio"><div class="tabbed-labels"><label for="résultat_7">Résultat</label><label for="markdown_7">Markdown</label></div>
 <div class="tabbed-content">
@@ -10332,21 +10335,30 @@
 </div>
 </div>
 </div>
-<div class="admonition embed">
+<div class="admonition note">
 <p class="admonition-title">Embed</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked id="résultat_8" name="__tabbed_9" type="radio"><input id="markdown_8" name="__tabbed_9" type="radio"><div class="tabbed-labels"><label for="résultat_8">Résultat</label><label for="markdown_8">Markdown</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><iframe height="300" style="width: 100%;" scrolling="no" title="EXERC Scss @function - Uno" src="https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe></p>
+<p><iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Alert" src="https://codepen.io/tim-momo/embed/GRbpgjQ?default-tab=html%2Cresult&amp;editable=true&amp;theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/tim-momo/pen/GRbpgjQ">
+    Alert</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+</iframe></p>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">height</span><span class="o">=</span><span class="s">"300"</span> <span class="na">style</span><span class="o">=</span><span class="s">"width: 100%;"</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">"no"</span> <span class="na">title</span><span class="o">=</span><span class="s">"EXERC Scss @function - Uno"</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://codepen.io/tim-momo/embed/ZEVOLpX?default-tab=html%2Cresult"</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">"no"</span> <span class="na">loading</span><span class="o">=</span><span class="s">"lazy"</span> <span class="na">allowtransparency</span><span class="o">=</span><span class="s">"true"</span> <span class="na">allowfullscreen</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">class</span><span class="o">=</span><span class="s">"aspect-2-1"</span> <span class="na">height</span><span class="o">=</span><span class="s">"300"</span> <span class="na">style</span><span class="o">=</span><span class="s">"width: 100%;"</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">"no"</span> <span class="na">title</span><span class="o">=</span><span class="s">"Alert"</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://codepen.io/tim-momo/embed/GRbpgjQ?default-tab=html%2Cresult&amp;editable=true&amp;theme-id=50210"</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">"no"</span> <span class="na">loading</span><span class="o">=</span><span class="s">"lazy"</span> <span class="na">allowtransparency</span><span class="o">=</span><span class="s">"true"</span> <span class="na">allowfullscreen</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>
+    See the Pen <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://codepen.io/tim-momo/pen/GRbpgjQ"</span><span class="p">&gt;</span>
+    Alert<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> by TIM Montmorency (<span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://codepen.io/tim-momo"</span><span class="p">&gt;</span>@tim-momo<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>)
+    on <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://codepen.io"</span><span class="p">&gt;</span>CodePen<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.
+<span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
 </code></pre></div>
+<p>On peut ajouter une classe aspect ratio pour controler la taille (ex: <code>.aspect-2-1</code>)</p>
 </div>
 </div>
 </div>
 </div>
-<div class="admonition code">
+<div class="admonition note">
 <p class="admonition-title">Code</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked id="résultat_9" name="__tabbed_10" type="radio"><input id="markdown_9" name="__tabbed_10" type="radio"><div class="tabbed-labels"><label for="résultat_9">Résultat</label><label for="markdown_9">Markdown</label></div>
 <div class="tabbed-content">
@@ -10369,7 +10381,7 @@
 </div>
 </div>
 </div>
-<div class="admonition tableau">
+<div class="admonition note">
 <p class="admonition-title">Tableau</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked id="résultat_10" name="__tabbed_11" type="radio"><input id="markdown_10" name="__tabbed_11" type="radio"><div class="tabbed-labels"><label for="résultat_10">Résultat</label><label for="markdown_10">Markdown</label></div>
 <div class="tabbed-content">
@@ -10408,7 +10420,7 @@
 </div>
 </div>
 </div>
-<div class="admonition message">
+<div class="admonition note">
 <p class="admonition-title">Message</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked id="résultat_11" name="__tabbed_12" type="radio"><input id="markdown_11" name="__tabbed_12" type="radio"><div class="tabbed-labels"><label for="résultat_11">Résultat</label><label for="markdown_11">Markdown</label></div>
 <div class="tabbed-content">
@@ -10424,6 +10436,29 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </code></pre></div>
 <p>Types disponibles : <code>note</code>, <code>abstract</code>, <code>info</code>, <code>tip</code>, <code>success</code>, <code>question</code>, <code>warning</code>, <code>failure</code>, <code>danger</code>, <code>bug</code>, <code>example</code>, <code>quote</code> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Cacher du contenu (feature Stéphane)</p>
+<p>En ajoutant la mention <stop></stop> (entre crochet, en majuscule et sans espace), le contenu qui suit ne sera pas visible dans les notes de cours. </p>
+<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked id="résultat_12" name="__tabbed_13" type="radio"><input id="markdown_12" name="__tabbed_13" type="radio"><div class="tabbed-labels"><label for="résultat_12">Résultat</label><label for="markdown_12">Markdown</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Cours #5</p>
+</div>
+<div class="tabbed-block">
+<p>Cours #5</p>
+<p><stop></stop></p>
+<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">p</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">border-style</span><span class="p">:</span><span class="w"> </span><span class="kc">solid</span><span class="p">;</span>
+<span class="w">    </span><span class="k">border-top-width</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
 </div>
 </div>
 </div>
