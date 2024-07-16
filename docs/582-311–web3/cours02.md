@@ -97,12 +97,12 @@ Syntaxe que l'on retrouve sur Github :material-github:
 === "Markdown"
 
     ```markdown
-    ![Texte alternative de mon image](https://picsum.photos/id/1/800/600)
+    ![Texte alternative de mon image](https://picsum.photos/800/600)
     ```
 
 === "Résultat"
 
-    ![Texte alternative de mon image](https://picsum.photos/id/1/800/600)
+    ![Texte alternative de mon image](https://picsum.photos/800/600)
 
 ### Citation
 

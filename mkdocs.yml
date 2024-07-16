@@ -1,5 +1,3 @@
-# Navigation
-
 nav:
   - Domaines multimédias :
     - 582-101–domaines-multimedias/index.md
@@ -172,6 +170,7 @@ nav:
     - Cours 2: 582-311–web3/cours02.md
     - Cours 1: 
       - 582-311–web3/cours01.md
+      - Javascript: 582-311–web3/javascript.md
       - Bootstrap: 582-311–web3/bootstrap.md
   - Video 2 :
     - 582-312–video2/index.md
@@ -413,11 +412,10 @@ nav:
   #   - Cours 1: 582-611–stage-entreprise/cours01.md  
 
 ###########################################################################
-###########################################################################
 
-# Theme (Material de Google) 
 theme:
   name: material
+  custom_dir: 'docs/_/overrides'
   language: fr
   logo: _/logo-tim.svg
   favicon: _/favicon-32x32.png
@@ -425,7 +423,6 @@ theme:
     - content.tooltips
     - content.code.copy
     - toc.follow
-    # - navigation.sections
     - navigation.top
     - navigation.tabs
     - navigation.tracking
@@ -448,7 +445,6 @@ theme:
         icon: material/weather-night
         name: Mode sombre
 
-# Extensions
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -479,15 +475,21 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: true
 
-    
-# Extras
 extra:
   generator: false
+  alternate:
+    - name: 'English'
+      url: 'https://example.com/en/'
+      code: 'en'
+    - name: 'Français'
+      url: 'https://example.com/fr/'
+      code: 'fr'
   analytics:
     provider: google
     property: G-BFKT7FS4P2
 
 extra_css:
+  - https://fonts.googleapis.com/css2?family=OpenDyslexic:wght@400&display=swap
   - _/extra.css
 
 extra_javascript:
@@ -509,7 +511,6 @@ plugins:
       tag: '[STOP]'
       placeholder: '&lrm;'
 
-# Project information 
 site_name: Notes de cours
 site_url: https://tim-montmorency.com/compendium/
 copyright: Techniques d’intégration multimédia | Collège Montmorency
