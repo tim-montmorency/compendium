@@ -415,7 +415,6 @@ nav:
 
 theme:
   name: material
-  custom_dir: 'docs/_/overrides'
   language: fr
   logo: _/logo-tim.svg
   favicon: _/favicon-32x32.png
@@ -489,7 +488,6 @@ extra:
     property: G-BFKT7FS4P2
 
 extra_css:
-  - https://fonts.googleapis.com/css2?family=OpenDyslexic:wght@400&display=swap
   - _/extra.css
 
 extra_javascript:
