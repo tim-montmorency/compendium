@@ -478,7 +478,7 @@ extra:
   generator: false
   analytics:
     provider: google
-    property: G-BFKT7FS4P2
+    property: G-BFKT7FS4P2 # JF
 
 extra_css:
   - _/extra.css

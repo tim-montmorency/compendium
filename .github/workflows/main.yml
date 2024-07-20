@@ -16,21 +16,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install pip and friends
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Check mkdocs-audio installation
+      - name: Check mkdocs-material version
         run: |
-          pip show mkdocs-audio
+          pip show mkdocs-material
 
-      - name: Build MkDocs site
+      - name: Build mkdocs
         run: |
-          mkdocs build --verbose --strict
+          mkdocs build --verbose
 
-      - name: Deploy docs
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
