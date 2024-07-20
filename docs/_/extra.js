@@ -1,6 +1,17 @@
 // https://skalman.github.io/UglifyJS-online/
 // https://obfuscator.io/
 
+// Fonction pour générer un hachage simple
+const hashCode = (str) => {
+    let hash = 0, i, chr;
+    for (i = 0; i < str.length; i++) {
+        chr   = str.charCodeAt(i);
+        hash  = ((hash << 5) - hash) + chr;
+        hash |= 0; // Convert to 32bit integer
+    }
+    return hash;
+};
+
 // ref: https://squidfunk.github.io/mkdocs-material/reference/data-tables/?h=table#sortable-tables-docsjavascriptstablesortjs
 document$.subscribe(function() {
     var tables = document.querySelectorAll("article table:not([class])")
@@ -75,6 +86,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         return;
     }
 
+    const getUrlKey = () => {
+        const url = new URL(window.location.href);
+        return hashCode(url.pathname).toString();
+    };
+
     const fireworksContainer = document.createElement('div');
     fireworksContainer.id = 'fireworks';
     document.body.appendChild(fireworksContainer);
@@ -86,7 +102,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         particles: 150,
         intensity: 60,
         lineStyle: 'square',
-      });
+    });
 
     const checkAllChecked = (checkboxes) => {
         if (Array.from(checkboxes).every(cb => cb.checked)) {
@@ -96,14 +112,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     };
 
-    taskLists.forEach((taskList, taskListIndex) => {
+    const urlKey = getUrlKey(); // Obtenez la clé unique basée sur l'URL
+
+    taskLists.forEach((taskList, taskListIndex) => { // Utilisation de taskListIndex
         const checkboxes = taskList.querySelectorAll('[type="checkbox"]');
-        checkboxes.forEach((checkbox, checkboxIndex) => {
-            const isChecked = localStorage.getItem(`checkbox-${taskListIndex}-${checkboxIndex}`) === 'true';
+        checkboxes.forEach((checkbox, checkboxIndex) => { // Utilisation de checkboxIndex
+            const localStorageKey = `checkbox-${urlKey}-${taskListIndex}-${checkboxIndex}`;
+            const isChecked = localStorage.getItem(localStorageKey) === 'true';
             checkbox.checked = isChecked;
             checkbox.addEventListener('change', (event) => {
                 checkAllChecked(checkboxes);
-                localStorage.setItem(`checkbox-${taskListIndex}-${checkboxIndex}`, event.target.checked);
+                localStorage.setItem(localStorageKey, event.target.checked);
             });
         });
         checkAllChecked(checkboxes);
