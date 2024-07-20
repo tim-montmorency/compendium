@@ -68,21 +68,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Checkbox memory
 document.addEventListener('DOMContentLoaded', (event) => {
-    const checkboxes = document.querySelectorAll('.task-list-control input[type="checkbox"]');
-    checkboxes.forEach((checkbox, index) => {
-        const isChecked = localStorage.getItem('checkbox-' + index) === 'true';
-        checkbox.checked = isChecked;
-        checkbox.addEventListener('change', (event) => {
-            localStorage.setItem('checkbox-' + index, event.target.checked);
-        });
-    });
-});
 
-
-document.addEventListener('DOMContentLoaded', () => {
     const taskLists = document.querySelectorAll('.task-list');
 
-    if (taskLists.length = 0) {
+    if (taskLists.length === 0) { // Correction de l'égalité
         return;
     }
 
@@ -107,45 +96,49 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    taskLists.forEach(taskList => {
+    taskLists.forEach((taskList, taskListIndex) => {
         const checkboxes = taskList.querySelectorAll('[type="checkbox"]');
-        checkboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', () => {
+        checkboxes.forEach((checkbox, checkboxIndex) => {
+            const isChecked = localStorage.getItem(`checkbox-${taskListIndex}-${checkboxIndex}`) === 'true';
+            checkbox.checked = isChecked;
+            checkbox.addEventListener('change', (event) => {
                 checkAllChecked(checkboxes);
+                localStorage.setItem(`checkbox-${taskListIndex}-${checkboxIndex}`, event.target.checked);
             });
         });
         checkAllChecked(checkboxes);
     });
+
 });
 
 /* OpenDyslexic font switch */
-document.addEventListener("DOMContentLoaded", function() {
-    const dyslexicIcon = document.getElementById('icon-dyslexic');
-    const defaultIcon = document.getElementById('icon-default');
-    const toggleButton = document.querySelector('.md-header__opendyslexic');
+// document.addEventListener("DOMContentLoaded", function() {
+//     const dyslexicIcon = document.getElementById('icon-dyslexic');
+//     const defaultIcon = document.getElementById('icon-default');
+//     const toggleButton = document.querySelector('.md-header__opendyslexic');
   
-    // Function to update the icon visibility based on localStorage
-    function updateIconVisibility() {
-      const body = document.body;
-      const isDyslexic = localStorage.getItem('isDyslexic') === 'true';
-      if (isDyslexic) {
-        dyslexicIcon.style.display = 'none';
-        defaultIcon.style.display = 'block';
-        body.style.setProperty('--md-text-font-family', '"OpenDyslexic", sans-serif');
-      } else {
-        dyslexicIcon.style.display = 'block';
-        defaultIcon.style.display = 'none';
-        body.style.removeProperty('--md-text-font-family');
-      }
-    }
+//     // Function to update the icon visibility based on localStorage
+//     function updateIconVisibility() {
+//       const body = document.body;
+//       const isDyslexic = localStorage.getItem('isDyslexic') === 'true';
+//       if (isDyslexic) {
+//         dyslexicIcon.style.display = 'none';
+//         defaultIcon.style.display = 'block';
+//         body.style.setProperty('--md-text-font-family', '"OpenDyslexic", sans-serif');
+//       } else {
+//         dyslexicIcon.style.display = 'block';
+//         defaultIcon.style.display = 'none';
+//         body.style.removeProperty('--md-text-font-family');
+//       }
+//     }
   
-    // Initial visibility based on localStorage
-    updateIconVisibility();
+//     // Initial visibility based on localStorage
+//     updateIconVisibility();
   
-    // Add event listener to toggle button
-    toggleButton.addEventListener('click', function() {
-      const isDyslexic = localStorage.getItem('isDyslexic') === 'true';
-      localStorage.setItem('isDyslexic', !isDyslexic);
-      updateIconVisibility();
-    });
-  });
+//     // Add event listener to toggle button
+//     toggleButton.addEventListener('click', function() {
+//       const isDyslexic = localStorage.getItem('isDyslexic') === 'true';
+//       localStorage.setItem('isDyslexic', !isDyslexic);
+//       updateIconVisibility();
+//     });
+//   });
