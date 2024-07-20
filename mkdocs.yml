@@ -476,13 +476,6 @@ markdown_extensions:
 
 extra:
   generator: false
-  alternate:
-    - name: 'English'
-      url: 'https://example.com/en/'
-      code: 'en'
-    - name: 'Français'
-      url: 'https://example.com/fr/'
-      code: 'fr'
   analytics:
     provider: google
     property: G-BFKT7FS4P2
