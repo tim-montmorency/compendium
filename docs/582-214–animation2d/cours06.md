@@ -15,13 +15,13 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=C4F33M">Expression</a></li>
 </ul>
 
-[🛠️ 08_effets](exercices_ae/08_effets){ .md-button }   <br>   
+[🛠️ 08_effets](exercices_ae/08_effets.md){ .md-button }   <br>   
 
 ***  
 ### Retour sur les exercices suivants:
-[🛠️ devoir_balle](exercices_ae/devoir_balle){ .md-button }   <br>   
-[🛠️ devoir_c4](exercices_ae/devoir_c4){ .md-button }   <br>
+[🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }   <br>   
+[🛠️ devoir_c4](exercices_ae/devoir_c4.md){ .md-button }   <br>
 
 ***  
 ### Continuer le travail 1 partie 2
-[💼 travail1](exercices_ae/travail1){ .md-button }   <br>   
+[💼 travail1](exercices_ae/travail1.md){ .md-button }   <br>   

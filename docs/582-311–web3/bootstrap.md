@@ -2,14 +2,15 @@
 
 ![](./assets/bootstrap_banner.png)
 
-Bootstrap est un cadriciel (*framework*) front-end qui offre une structure de styles et de mise en page permettant aux développeurs de ne pas réinventer la roue à chaque projet. Il fournit une [collection de composants](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) (*components*) préconçus et de classes CSS qui facilitent la création de sites web réactifs (*responsive*).
+Bootstrap est un cadriciel (*framework*) front-end qui offre une structure de styles et de mise en page permettant aux développeurs de ne pas réinventer la roue à chaque projet. Il fournit une [collection de composantes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) (*components*) ainsi que plusieurs classes CSS facilitant la création de sites Web réactifs (*responsive*).
 
 ## Installation
 
-Pour [installer Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download) sur votre site, vous n'avez qu'à inclure ces balises dans votre HTML.
+Pour [installer Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download), vous n'avez qu'à inclure ces balises dans votre HTML.
 
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 ```
 
@@ -17,7 +18,9 @@ Pour [installer Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/dow
     L’attribut `integrity` est utilisé pour des raisons de sécurité. C'est le hash (sommes de contrôle cryptographiques) du fichier original.
     L’attribut, `crossorigin` pour sa part, indique que la requête à cdn.jsdelivr.net doit être faite sans envoyer de témoins (cookies), identifiants ou autres informations de l’utilisateur.
 
-```html title="Aperçu du HTML de base"
+Voici un aperçu du HTML de départ.
+
+```html
 <!doctype html>
 <html lang="fr">
   <head>
@@ -36,7 +39,9 @@ Pour [installer Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/dow
 
 ## Couleurs
 
-Les [couleurs bootstrap](https://getbootstrap.com/docs/5.3/customize/color/) sont représentées par des identifiants auxquels sont assignées des couleurs prédéfinies. Voici la liste des identifiants par défaut : 
+Les [couleurs bootstrap](https://getbootstrap.com/docs/5.3/customize/color/) sont représentées par des identifiants auxquels sont assignées des couleurs prédéfinies. 
+
+Voici la liste des identifiants associés à leur couleur respective. 
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Couleur - Primary" src="https://codepen.io/tim-momo/embed/poXJXaO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/poXJXaO">
@@ -50,7 +55,6 @@ Ces identifiants sont utilisés dans des variables CSS, ce qui permet de personn
 
 Par exemple, si on souhaite changer la couleur associée à `Primary`, on peut tout simplement réécrire les variables concernées :
 
-<div class="grid" markdown>
 
 ```css
 :root {
@@ -59,20 +63,22 @@ Par exemple, si on souhaite changer la couleur associée à `Primary`, on peut t
 }
 ```
 
-<iframe class="aspect-3-1" height="300" style="width: 100%;" scrolling="no" title="Couleurs" src="https://codepen.io/tim-momo/embed/WNqvqKJ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Couleurs" src="https://codepen.io/tim-momo/embed/WNqvqKJ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/WNqvqKJ">
   Couleurs</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-</div>
 
-Pour connaitre les variables définies par Bootstrap, on peut soit consulter la [documentation officielle](https://getbootstrap.com/docs/5.3/customize/css-variables/), soit consulter l'inspecteur du navigateur; elles s'y trouvent toutes!
+
+Pour connaitre le nom des variables Bootstrap, il suffit de consulter la [documentation officielle](https://getbootstrap.com/docs/5.3/customize/css-variables/) ou encore, consulter l'inspecteur du navigateur.
 
 ![](./assets/bootstrap_inspector.png)
 
 ### Classes
 
-Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi. Par exemple, pour appliquer différents styles associés à la couleurs `Danger`, voici quelques-unes des classes les plus couramment utilisées :
+Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi. 
+
+Par exemple, pour appliquer différents styles associés à la couleurs `Danger`, voici quelques classes CSS disponibles.
 
 ```css
 .text-danger
@@ -86,7 +92,7 @@ Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi. Par ex
 .link-danger
 ```
 
-Dans l'exemple ci-dessous, on voit l'effet des classes Bootstrap sur du code HTML.
+Dans l'exemple ci-dessous, on voit l'effet des classes CSS Bootstrap sur du code HTML.
 
 <iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="Couleur - Danger" src="https://codepen.io/tim-momo/embed/MWMwYeY?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/MWMwYeY">
@@ -162,7 +168,7 @@ En Bootstrap, plusieurs points de rupture (breakpoints) sont prédéfinis. Porte
 
 ### Conteneurs
 
-Un conteneur Bootstrap c'est simplement une classe qu'on assigne à un `<div>` dans le but de définir sa largeur.
+Un conteneur Bootstrap c'est simplement une classe CSS qu'on assigne à un `<div>` dans le but de définir sa largeur.
 
 ```html
 <div class="container">
@@ -211,7 +217,7 @@ Bootstrap vient avec un système de grille à 12 colonnes. Il nous permet d'ajou
 </div>
 ```
 
-Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe `.col` et lui spécifier une proportion sur 12 colonnes. Voici un exemple : 
+Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe CSS `.col` et lui spécifier une proportion sur 12 colonnes. Voici un exemple : 
 
 <iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Grille CSS" src="https://codepen.io/tim-momo/embed/wvLKwWv?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/wvLKwWv">
@@ -232,7 +238,7 @@ On peut également utiliser les suffixes de point de rupture. Ainsi nos colonnes
 
 ### Image
 
-La classe `.img-fluid` est utilisée pour rendre les images réactives (responsive). Cette classe applique les styles CSS nécessaires pour que l’image s’adapte automatiquement à la largeur de son conteneur, tout en conservant son ratio original.
+La classe CSS `.img-fluid` est utilisée pour rendre les images réactives (responsive). Cette classe applique les styles nécessaires pour que l’image s’adapte automatiquement à la largeur de son conteneur, tout en conservant son ratio original.
 
 ```html
 <img src="image.jpg" alt="Texte alternatif" class="img-fluid">
@@ -249,7 +255,7 @@ La classe `.img-fluid` est utilisée pour rendre les images réactives (responsi
 
 La gestion des espacements en Bootstrap est beaucoup plus simple qu'il n'y parait. Il suffit de connaitre la syntaxe.
 
-Les classes sont construites de la façon suivante : `{propriété}{côté}-{taille}` et `{propriété}{côté}-{breakpoint}-{taille}`
+Les classes CSS sont construites de la façon suivante : `{propriété}{côté}-{taille}` et `{propriété}{côté}-{breakpoint}-{taille}`
 
 <div class="grid cards" markdown>
 
@@ -298,7 +304,7 @@ Les classes sont construites de la façon suivante : `{propriété}{côté}-{tai
 
 ### Display
 
-Les classes de type `display` sont construites de la façon suivante : `d-{affichage}` et `d-{breakpoint}-{affichage}`
+Les classes CSS de type `display` sont construites de la façon suivante : `d-{affichage}` et `d-{breakpoint}-{affichage}`
 
 <div class="grid cards" markdown>
 
@@ -374,8 +380,6 @@ align-items
 <button class="btn btn-primary" disabled>Bouton</button>
 ```
 
-
-
 ### [Alerte](https://getbootstrap.com/docs/5.3/components/alerts/)
 
 Nécessite javascript bootstrap d'ajouté dans la page.
@@ -389,8 +393,6 @@ Classe .alert-dismissible et
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-
-
 ### [Modal](https://getbootstrap.com/docs/5.3/components/modal/)
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Modal" src="https://codepen.io/tim-momo/embed/MWMaYoW?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -399,8 +401,6 @@ Classe .alert-dismissible et
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-
-
 ### [Accordéon](https://getbootstrap.com/docs/5.3/components/accordion/)
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Modal" src="https://codepen.io/tim-momo/embed/bGPVNMZ?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -408,8 +408,6 @@ Classe .alert-dismissible et
   Modal</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-
 
 ### [Navigation](https://getbootstrap.com/docs/5.3/components/navbar/)
 

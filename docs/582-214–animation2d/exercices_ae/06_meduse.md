@@ -35,4 +35,4 @@ Le but de l’exercice est d'utiliser l’outil marionnette pour faire bouger le
 
 
 ## Exercice suivant
-[🛠️ 06_homme](06_homme){ .md-button }   <br>
+[🛠️ 06_homme](06_homme.md){ .md-button }   <br>

@@ -30,4 +30,4 @@ Le but de l’exercice est d'expérimenter les expressions pour créer une anima
 
 
 ## Exercice suivant
-[🛠️ 07_expressions](07_expressions){ .md-button }   <br>
+[🛠️ 07_expressions](07_expressions.md){ .md-button }   <br>

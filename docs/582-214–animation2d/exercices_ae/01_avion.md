@@ -29,4 +29,4 @@
     
 ***  
 ## Exercice suivant
-[🛠️ 01_voiture](01_voiture){ .md-button }   <br>
+[🛠️ 01_voiture](01_voiture.md){ .md-button }   <br>

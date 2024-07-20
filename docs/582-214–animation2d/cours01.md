@@ -19,7 +19,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> </li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> </li>
    
-[🛠️ 00_nouveau_doc](exercice_ai/00_nouveau_doc){ .md-button }   <br>
+[🛠️ 00_nouveau_doc](./exercice_ai/00_nouveau_doc.md){ .md-button }   <br>
 ***  
 
 ### Notions
@@ -40,7 +40,7 @@
     </ul>
 </li></ul>   
 
-[🛠️ 00_transformations](exercice_ai/00_transformations){ .md-button }   <br>
+[🛠️ 00_transformations](./exercice_ai/00_transformations.md){ .md-button }   <br>
 ***  
 ### Notions
 <ul>
@@ -51,11 +51,11 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a></li>
 
 </ul>   
-[🛠️ 01_plume](exercice_ai/01_plume){ .md-button }   <br>
+[🛠️ 01_plume](./exercice_ai/01_plume.md){ .md-button }   <br>
 <br>
-[🛠️ 01_vagues](exercice_ai/01_vagues){ .md-button }   <br>
+[🛠️ 01_vagues](./exercice_ai/01_vagues.md){ .md-button }   <br>
 <br>
-[🛠️ 01_voiture](exercice_ai/01_voiture){ .md-button }   <br>
+[🛠️ 01_voiture](./exercice_ai/01_voiture.md){ .md-button }   <br>
 ***  
 
 ### Notions
@@ -65,9 +65,9 @@
 
 </ul>   
 
-[🛠️ 02_largeur](exercice_ai/02_largeur){ .md-button }   <br>
+[🛠️ 02_largeur](./exercice_ai/02_largeur.md){ .md-button }   <br>
 <br>
-[🛠️ 02_deformation](exercice_ai/02_deformation){ .md-button }   <br>
+[🛠️ 02_deformation](./exercice_ai/02_deformation.md){ .md-button }   <br>
 ***  
 ### Notions
 <ul>
@@ -82,7 +82,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a></li>
 </ul>   
 
-[🛠️ 03_formes](exercice_ai/03_formes){ .md-button }   <br>
+[🛠️ 03_formes](./exercice_ai/03_formes.md){ .md-button }   <br>
 ***  
 ### Notions
 <ul>
@@ -92,8 +92,8 @@
 ***  
 
 ### Devoir
-[🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   <br> 
+[🛠️ 04_maison](./exercice_ai/04_maison.md){ .md-button }   <br> 
 <br>
-[🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   <br>
+[🛠️ 04_formes_simples](./exercice_ai/04_formes_simples.md){ .md-button }   <br>
 <br>
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   <br>
+[🛠️ 04_devoir_1](./exercice_ai/04_devoir_1.md){ .md-button }   <br>

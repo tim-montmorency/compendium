@@ -33,4 +33,4 @@ Suivez les vidéos suivantes pour faire rebondir la balle:
     
 ***  
 ## Devoir suivant
-[🛠️ devoir_c4](devoir_c4){ .md-button }   <br>
+[🛠️ devoir_c4](devoir_c4.md){ .md-button }   <br>

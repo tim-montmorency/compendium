@@ -1,9 +1,9 @@
 ## Retour sur le devoir   
-[🛠️ 04_maison](exercice_ai/04_maison){ .md-button }   <br>  
+[🛠️ 04_maison](exercice_ai/04_maison.md){ .md-button }   <br>  
 <br>
-[🛠️ 04_formes_simples](exercice_ai/04_formes_simples){ .md-button }   <br>   
+[🛠️ 04_formes_simples](exercice_ai/04_formes_simples.md){ .md-button }   <br>   
 <br>
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1){ .md-button }   <br>   
+[🛠️ 04_devoir_1](exercice_ai/04_devoir_1.md){ .md-button }   <br>   
 
 
 ***  
@@ -18,7 +18,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVQXT9fceRlGie7B72m9r7kB2HO8KaT1kRVhvWu2yvV0QA?e=wEvZsD">Simplifier les contours</a></li>
 </ul>   
 
-[🛠️ 05_crayon_shaper](exercice_ai/05_crayon_shaper){ .md-button }   <br>   
+[🛠️ 05_crayon_shaper](exercice_ai/05_crayon_shaper.md){ .md-button }   <br>   
 
 ***  
 ### Notions
@@ -30,8 +30,8 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYJAvExXxTZMtSkvOcHpmY4BFB9vIRqNkXUIPnRLT8MG1w?e=d9i3S6">Cutter</a></li>
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVYeu9N1iG9MrndylAX0FCEBYlPJXMPRPQ5BPm0N4Jf6rw?e=uX8L5i">Vectoriser les contours</a></li>
 </ul>   
-[🛠️ 06_papillon](exercice_ai/06_papillon){ .md-button }   <br>   
-[🛠️ 06_pinceau](exercice_ai/06_pinceau){ .md-button }   <br>   
+[🛠️ 06_papillon](exercice_ai/06_papillon.md){ .md-button }   <br>   
+[🛠️ 06_pinceau](exercice_ai/06_pinceau.md){ .md-button }   <br>   
 ***  
 ### Notions
 
@@ -44,7 +44,7 @@
 
 </ul>   
 
-[🛠️ 07_nuancier](exercice_ai/07_nuancier){ .md-button }   <br>   
+[🛠️ 07_nuancier](exercice_ai/07_nuancier.md){ .md-button }   <br>   
 ***  
 ### Notions
 
@@ -57,7 +57,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbffAjE-YKVJgwiDrsyj6oUB5TwGqv1eoJH6DNpA_4F7TA?e=vAlCCc">Marionnette filet</a></li>
 </ul>   
 
-[🛠️ 08_marionnette](exercice_ai/08_marionnette){ .md-button }   <br>   
+[🛠️ 08_marionnette](exercice_ai/08_marionnette.md){ .md-button }   <br>   
 ***  
 ### Notions
 
@@ -67,7 +67,7 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXW12cP0Y7FAhWo7D1LXOKkBa6cCvPUSEfJ-bkwRD5iTyg?e=qElAnj">Répartition</a></li>
 </ul>   
 
-[🛠️ 09_pathfinder](exercice_ai/09_pathfinder){ .md-button }   <br>   
+[🛠️ 09_pathfinder](exercice_ai/09_pathfinder.md){ .md-button }   <br>   
 ***  
 ### Notions
 
@@ -76,9 +76,9 @@
 <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXK9TJqqjEFFn0Wc9ZgFZhIBGhOdfNSoxoXmJRJtQPJJkA?e=q9rtSz">Masque, Transparence</a></li>
 </ul>   
 
-[🛠️ 10_masques](exercice_ai/10_masques){ .md-button }   <br>   
-[🛠️ 10_transparence](exercice_ai/10_transparence){ .md-button }   <br>   
+[🛠️ 10_masques](exercice_ai/10_masques.md){ .md-button }   <br>   
+[🛠️ 10_transparence](exercice_ai/10_transparence.md){ .md-button }   <br>   
 
 ***  
 ### Explication travail 1
-[💼 travail1](exercice_ai/travail1){ .md-button }   <br>
+[💼 travail1](exercice_ai/travail1.md){ .md-button }   <br>

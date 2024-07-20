@@ -35,5 +35,5 @@ Importez les deux fichiers suivants dans un nouveau projet After Effects:
 
 ***  
 ## Exercice suivant
-[🛠️ 04_masque](04_masque){ .md-button }   <br>
+[🛠️ 04_masque](04_masque.md){ .md-button }   <br>
  
