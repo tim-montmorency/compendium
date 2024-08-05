@@ -21,6 +21,10 @@ tags:
 
 ## Parlons jeux vidéos
 
+Lexique 
+
+https://gamingcampus.fr/boite-a-outils/lexique-du-jeu-video-100-mots-du-jeu-video.html#:~:text=HUD%20%3A,traduit%20par%20Affichage%20T%C3%AAte%20Haute.
+
 ### Arborescence
 
 Voici à quoi pourrait et devrait ressembler la structure[^unity] de votre jeu.

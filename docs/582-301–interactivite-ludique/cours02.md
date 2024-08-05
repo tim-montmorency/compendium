@@ -11,6 +11,8 @@ tags:
 
 npm install
 
+`npm install phaser@v3.80.1`
+
 Vscode
   live server
 Intellisense
@@ -104,6 +106,15 @@ Phaser.Math.Between(7, 666);
 à la place de 
 Math.floor(Math.random() * (666 - 7 + 1) ) + 7;
 
+
+
+
+// Exercice
+        // this.load.image('debug_bg', 'assets/images/uv-grid-diag.png');
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(0, 0).setAlpha(0.1);
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(1, 0).setAlpha(0.1);
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(0, 1).setAlpha(0.1);
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(1, 1).setAlpha(0.1);
 
 
 

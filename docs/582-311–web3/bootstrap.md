@@ -143,6 +143,10 @@ toggleButton.addEventListener('click', () => {
 
 Un [breakpoint](https://blog.froont.com/9-basic-principles-of-responsive-web-design/) est une condition où la mise en page du site Web change pour s’adapter à différentes tailles d’écran. Voici un exemple traditionnel de gestion de breakpoint : 
 
+!!! info "Responsively App Downloads"
+    [Responsively App Downloads](https://responsively.app/download) est un outil intéressant pour visionner en un coup d'oeil le site sur plusiers appareils.
+
+
 ```scss
 .col {
   width: 50%;
@@ -249,7 +253,6 @@ La classe CSS `.img-fluid` est utilisée pour rendre les images réactives (resp
   Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
 
 ### Espacement
 

@@ -54,3 +54,5 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
   :material-codepen: [https://codepen.io/tim-momo](https://codepen.io/tim-momo)
 
 </div>
+
+<iframe frameborder="0" src="https://itch.io/embed/2686426" width="552" height="167"><a href="https://jfcmontmorency.itch.io/tutorial-phaser-io">Tutorial phaser.io by jfcmontmorency</a></iframe>
