@@ -31,7 +31,7 @@ Veuillez vous déplacer dans le répertoire `docs` puis dans le répertoire du c
 * [582-511 | Web 5](https://tim-montmorency.com/compendium/582-511–web5)
 * [582-521 | Illustration multimédia](https://tim-montmorency.com/compendium/582-521–installation-multimedia)
 * [582-531 | Objets interactifs](https://tim-montmorency.com/compendium/582-531–objets-interactifs)
-* [582-533 | Contrôle de la qualité](https://tim-montmorency.com/compendium/582-533–controle-qualite)
+* [582-533 | Contrôle de la qualité](https://tim-montmorency.com/compendium/582-533-controle-qualite)
 * [582-541 | Préparation au milieu de travail](https://tim-montmorency.com/compendium/582-541–preparation-milieu-travail)
 * [582-601 | Expérience multimédia](https://tim-montmorency.com/compendium/582-601–experience-multimedia)
 
