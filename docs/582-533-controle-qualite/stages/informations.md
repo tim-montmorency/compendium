@@ -132,10 +132,10 @@
  
 
 <p><q>Tu es responsable de te trouver un stage !  </q></p>
-
+     
 !!! info
 
-    Tu dois <b>trouver ton stage avant Noël</b> (avant la fin de la session 5), le <b>faire approuver par la responsable</b> et avoir signé ta convention avec l'employeur et le collège (contrat de stage).</p>
+    Tu dois <b>trouver ton stage avant Noël</b> (avant la fin de la session 5), le <b>faire approuver par la responsable</b> et avoir signé ta convention avec l'employeur et le collège (contrat de stage).
 
 
 <p>La réalisation du produit multimédia destiné au Web se fait lors d’un stage en milieu de travail <b>non-rémunéré d’une durée de 225 h.</b> Tu devras trouver toi-même ton milieu de stage où tu seras appelé à concevoir un produit en accord avec les besoins d’une employeuse ou d’un employeur, par exemple un site Web, une œuvre d’art interactive Web ou une production multimédia destinée au Web. </p>
