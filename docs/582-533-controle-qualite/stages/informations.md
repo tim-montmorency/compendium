@@ -142,13 +142,13 @@
 
 !!! info
 
-    <b>Aucune rémunération ne peut être exigée</b> pour le stage. Par ailleurs, certains stagiaires pourraient avoir une entente particulière avec certains employeurs qui souhaiteraient rémunérer leur stage. (Cette entente se fait entre l'employeur et l'étudiant uniquement. Il s'agit d'une entente séparée qui ne fait pas partie des modalités de la convention de stage avec l'institution d'enseignement.) 
+    <p><b>Aucune rémunération ne peut être exigée</b> pour le stage. Par ailleurs, certains stagiaires pourraient avoir une entente particulière avec certains employeurs qui souhaiteraient rémunérer leur stage. (Cette entente se fait entre l'employeur et l'étudiant uniquement. Il s'agit d'une entente séparée qui ne fait pas partie des modalités de la convention de stage avec l'institution d'enseignement.)</p> 
 
 <p>Guidé par l’employeuse ou l’employeur ainsi que par le professeur responsable de superviser le stage, tu réaliseras toutes les étapes de la production, de la planification jusqu’à la présentation d'un produit à l’entreprise. À l’aide des outils, des ressources fournies par le milieu et des compétences acquises au fil de sa formation, tu concevras un produit qui répondra aux attentes d'une clientèle. </p>
 
 !!! info
 
-    Ton stage se déroulera sur 7 semaines, entre la période du <b> 31 mars au 16 mai 2025</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  </info>
+    Ton stage se déroulera sur 7 semaines, entre la période du <b> 31 mars au 16 mai 2025</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  
 
 <p>Durant ton stage, tu devras documenter le processus de réalisation du produit multimédia dans un rapport de stage. Les sections du rapport couvriront notamment:</p> 
 
@@ -174,7 +174,7 @@
 
 !!! info
 
-    Tu devras être libre le <b>23 mai</b> pour la présentation finale du stage.</info>  
+    Tu devras être libre le <b>23 mai</b> pour la présentation finale du stage. 
 
 <p>Avant le mois de février, tu dois avoir identifié clairement tes disponibilités pour la période du stage et les avoir communiqués à ton employeur.</p> 
 
