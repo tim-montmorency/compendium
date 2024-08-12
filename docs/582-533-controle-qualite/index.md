@@ -1,7 +1,4 @@
----
-hide:
-  - toc
----
+
 
 # Contrôle de la qualité
 
