@@ -16,7 +16,8 @@
 <h2>Calendrier et échéancier hiver</h2>
 
 <table>
-    <tr>
+  <tr>   </tr>
+     <tr>
         <th>27 mars 2024 </th>
         <th>Rencontre préparatoire au stage de 13h à 16h au grand studio.</th>        
 </tr>
@@ -40,6 +41,7 @@
 <h2>Calendrier et échéancier automne</h2>
 
 <table>
+       <tr>   </tr>
     <tr>
         <th>Semaines 1 à 10 </th>
         <th>Préparer son portfolio, mettre à jour son cv et sa lettre de présentation.</th>        
@@ -177,6 +179,7 @@
 
 <h2>Répertoires spécialisés pour vous aider dans vos recherches</h2>
 <table>
+       <tr>   </tr>
 <tr>
         <th>Cultive</th>
         <th>Répertoire d'emplois dans le domaine culturel</th>
@@ -262,7 +265,7 @@
 <h2>Répertoire généraux</h2>
 <table>
 
-
+  <tr>   </tr>
 <tr>
         <th>Indeed </th>
         <th>Indeed est le 1er site d'emploi mondial1 enregistrant plus de 250 millions de visiteurs uniques2 chaque mois. Indeed s'efforce de faire des candidats une priorité en leur permettant de chercher un emploi, de publier leur CV et de se renseigner au sujet des employeurs, le tout gratuitement.  </th> 
