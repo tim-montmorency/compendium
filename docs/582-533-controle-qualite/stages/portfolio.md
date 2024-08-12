@@ -6,7 +6,10 @@
 
 <h2>Création du portfolio</h2>
 <p>Pour commencer, vous devrez créer un repository et le configurer.</p>
-<warning>Il est important de cocher Créer un fichier README.md lors de la création de votre repo.</p></warning>
+!!! warning "Attention"
+
+    Il est important de cocher Créer un fichier README.md lors de la création de votre repo.</p>
+    
 <p>Suivez les étapes 1 à 8 de la procédure suivante pour créer votre repo:</p>
 <a href="https://docs.github.com/fr/pages/quickstart">Procédure</a>
 
