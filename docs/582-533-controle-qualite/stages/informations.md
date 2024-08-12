@@ -146,7 +146,7 @@
 
 <p>Guidé par l’employeuse ou l’employeur ainsi que par le professeur responsable de superviser le stage, tu réaliseras toutes les étapes de la production, de la planification jusqu’à la présentation d'un produit à l’entreprise. À l’aide des outils, des ressources fournies par le milieu et des compétences acquises au fil de sa formation, tu concevras un produit qui répondra aux attentes d'une clientèle. </p>
 
-!!! info " "
+!!! info "Information"
 
     Ton stage se déroulera sur 7 semaines, entre la période du <b> 31 mars au 16 mai 2025</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  </info>
 
