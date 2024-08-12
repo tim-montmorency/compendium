@@ -131,7 +131,7 @@
 <p>Dans le cadre de ton épreuve synthèse, tu auras à réaliser un produit multimédia destiné au Web. </p> 
  
 
-<p><q>Tu es responsable de te trouver un stage !  </q></p>
+<p><q>Tu es responsable de te trouver un stage !  </q></p></p> 
      
 !!! info
 
@@ -142,7 +142,7 @@
 
 !!! info
 
-    <p><b>Aucune rémunération ne peut être exigée</b> pour le stage. Par ailleurs, certains stagiaires pourraient avoir une entente particulière avec certains employeurs qui souhaiteraient rémunérer leur stage. (Cette entente se fait entre l'employeur et l'étudiant uniquement. Il s'agit d'une entente séparée qui ne fait pas partie des modalités de la convention de stage avec l'institution d'enseignement.)</p> 
+    <b>Aucune rémunération ne peut être exigée</b> pour le stage. Par ailleurs, certains stagiaires pourraient avoir une entente particulière avec certains employeurs qui souhaiteraient rémunérer leur stage. (Cette entente se fait entre l'employeur et l'étudiant uniquement. Il s'agit d'une entente séparée qui ne fait pas partie des modalités de la convention de stage avec l'institution d'enseignement.)
 
 <p>Guidé par l’employeuse ou l’employeur ainsi que par le professeur responsable de superviser le stage, tu réaliseras toutes les étapes de la production, de la planification jusqu’à la présentation d'un produit à l’entreprise. À l’aide des outils, des ressources fournies par le milieu et des compétences acquises au fil de sa formation, tu concevras un produit qui répondra aux attentes d'une clientèle. </p>
 
