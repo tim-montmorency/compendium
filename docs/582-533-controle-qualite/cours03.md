@@ -4,7 +4,8 @@
 
 
  <h2>Portfolio</h2>
- <intlink href="../stages/portfolio/"></intlink>
+ [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }   <br>
+
 
  <h4>Aide pour le markdown</h4>
  <a href="https://www.markdownguide.org/cheat-sheet/">Cheatsheet Markdown</a>
