@@ -30,7 +30,7 @@
     <th>Fin du stage</th>
 </tr>
 <tr>
-    <th>22 mai 2025</th>
+    <th>23 mai 2025</th>
     <th>Présentation finale du stage de 10h à 16h au grand studio.</th>
 </tr>
 
@@ -166,7 +166,7 @@
 
 <p>Ton stage se terminera par une <b>présentation en classe</b> auprès de tes collègues. Dans ce contexte, tu seras appelé à présenter une synthèse du travail accompli et évaluer tes habiletés, compétences et les défis personnels à surmonter.</p>
 
-<info>Tu devras être libre le <b>22 mai</b> pour la présentation finale du stage.</info>  
+<info>Tu devras être libre le <b>23 mai</b> pour la présentation finale du stage.</info>  
 
 <p>Avant le mois de février, tu dois avoir identifié clairement tes disponibilités pour la période du stage et les avoir communiqués à ton employeur.</p> 
 
