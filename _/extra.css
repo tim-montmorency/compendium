@@ -2,6 +2,38 @@ body {
     transition: font-family 0.3s;
 }
 
+/* nav */
+
+p:has(.breadcrumb) {
+    margin-top: 0;
+    border-bottom: 1px solid var(--md-code-bg-color);
+}
+
+a.breadcrumb {
+    font-size: small;
+    font-weight: bold;
+}
+
+/* .md-nav--primary > .md-nav__list:not(:has(.md-nav__item--active)),*/
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav >.md-nav__title {
+    pointer-events: none;
+}
+
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav >.md-nav__title .md-nav__icon {
+    display: none;
+}
+
+/* Cache les tabs en attendant le JS pour les retirer du DOM */
+.md-container>.md-tabs {
+    display: none;
+}
+
+/* Retirer l'event click du lien logo avant que le JS le retire du DOM */
+.md-header__button.md-logo {
+    pointer-events: none;
+    cursor: default;
+}
+
 /* Colors */
 
 .text-primary {
@@ -23,7 +55,6 @@ body {
 .text-muted {
     color: var(--md-accent-fg-color--transparent);
 }
-
 
 /* Tables */
 .md-typeset__table {
@@ -99,6 +130,13 @@ body[data-md-color-scheme="slate"] img.invert {
     aspect-ratio: 800 / calc(400 + 50 + 30 + 10);
 }
 
+/* Méthode approximative pour inclure le header et footer codepen dans l'Aspect Ratio CSS */
+.aspect-4-1-tabbed {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 800 / calc(200 + 50 + 30 + 10);
+}
+
 /* Liens étendus */
 a.stretched-link {
     color: var(--md-typeset-color);
@@ -141,8 +179,11 @@ a.stretched-link {
 .md-typeset .mdx-pulse {
     animation: new 2s infinite
 }
+
 @keyframes new {
-    0%,to {
+
+    0%,
+    to {
         transform: scale(1) rotate(0deg)
     }
 
@@ -285,17 +326,6 @@ a.stretched-link {
     margin-top: 0;
 }
 
-/* Cache les tabs en attendant le JS pour les retirer du DOM */
-.md-container>.md-tabs {
-    display: none;
-}
-
-/* Retirer l'event click du lien logo avant que le JS le retire du DOM */
-.md-header__button.md-logo {
-    pointer-events: none;
-    cursor: default;
-}
-
 /* Pied de page */
 .md-footer {
     margin-top: 2rem;
@@ -372,6 +402,64 @@ a.codepen-open {
     font-size: .64rem;
 }
 
-stop:before{
+stop:before {
     content: '[STOP]';
+}
+
+.valign-bottom {
+    vertical-align: bottom !important;
+}
+
+/* Animations */
+
+.horizontal-anim {
+    animation: horanim 1s infinite;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+}
+
+@keyframes horanim {
+    0% {
+        transform: translateX(-0.125rem);
+      }
+      50% {
+        transform: translateX(0.125rem);
+      }
+      100% {
+        transform: translateX(-0.125rem);
+      }
+}
+
+/* image-zoom css */
+
+[data-zoom-backdrop] {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 900;
+	background-color: var(--md-default-bg-color);
+	opacity: 0;
+	transition: opacity 400ms ease;
+	pointer-events: none;
+}
+
+[data-zoom-backdrop='active'] {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+[data-zoom-image] {
+	position: relative;
+	/* z-index: 800; */
+	transform: none;
+	transition: transform 400ms ease, border-radius 400ms ease;
+	cursor: zoom-in;
+}
+
+[data-zoom-image='active'] {
+	z-index: 1000;
+	cursor: zoom-out;
+    border-radius: 0;
 }

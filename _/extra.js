@@ -5,25 +5,32 @@
 const hashCode = (str) => {
     let hash = 0, i, chr;
     for (i = 0; i < str.length; i++) {
-        chr   = str.charCodeAt(i);
-        hash  = ((hash << 5) - hash) + chr;
+        chr = str.charCodeAt(i);
+        hash = ((hash << 5) - hash) + chr;
         hash |= 0; // Convert to 32bit integer
     }
     return hash;
 };
 
 // ref: https://squidfunk.github.io/mkdocs-material/reference/data-tables/?h=table#sortable-tables-docsjavascriptstablesortjs
-document$.subscribe(function() {
+document$.subscribe(function () {
     var tables = document.querySelectorAll("article table:not([class])")
-    tables.forEach(function(table) {
+    tables.forEach(function (table) {
         new Tablesort(table)
     })
 })
 
-// Retire la navigation principale sous forme de tabs 
+// Retire la navigation principale sous forme de tabs
 document.querySelector('.md-container > .md-tabs').outerHTML = '';
 
-// Retrait du lien sur le logo 
+document.addEventListener("DOMContentLoaded", function () {
+    var tabsElement = document.querySelector('.md-tabs__item--active');
+    if (tabsElement === null) {
+        document.querySelector('.md-logo ~ .md-header__button').remove();
+    }
+});
+
+// Retrait du lien sur le logo
 var aElement = document.querySelector('.md-header__button.md-logo');
 var spanElement = document.createElement('span');
 Array.from(aElement.attributes).forEach(attr => {
@@ -34,7 +41,7 @@ while (aElement.firstChild) {
 }
 aElement.parentNode.replaceChild(spanElement, aElement);
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const iframes = document.querySelectorAll("iframe");
 
     iframes.forEach(iframe => {
