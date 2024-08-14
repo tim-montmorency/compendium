@@ -1,8 +1,17 @@
 # Portfolio
+
+
+<h2>Contenu de votre portfolio</h2>
+Les éléments suivants doivent être présents dans votre portfolio :
+<li>Identification (Nom et coordonnées - Minimum un courriel)</li>
+<li>Objectif de carrière (Dans quel domaine souhaitez-vous travailler?)</li>
+<li>Description de vos compétences (Une liste des logiciels ou tâches que vous savez utiliser/faire)</li>
+<li>Minimum de 4 projets avec pour chaque projet :<li>Une courte description qui explique ce qu’est le projet</li><li>Votre rôle</li><li>Les logiciels ou techniques utilisées.</li><li>Pour un des projets, mettre des photos du processus de création (Captures d’écran, photo du montage ou tournage, …)</li></li>
+
+
+
+<h2>Création du portfolio</h2>
 <p>Nous allons créer les portfolios dans GitHub pages. Création du portfolio et Modification du thème sont les sections à suivre si vous voulez créer votre portfolio de zéro. Sinon suivez la section Partir d'un thème.</p>
-
-
-    
 
 <h2>Création du portfolio</h2>
 <p>Pour commencer, vous devrez créer un repository et le configurer.</p>
