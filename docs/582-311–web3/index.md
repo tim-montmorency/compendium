@@ -24,13 +24,13 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
 <div class="grid cards" markdown>
 
 -   Les cours suivants sont préalables absolus au présent cours
- 
+
     * 420 V11 MO Programmation interactive
     * 582 211 MO Web 2
 
 
 -   Le présent cours est préalable absolu aux cours suivants
- 
+
     * 582 411 MO Web 4
     * 582 541 MO Préparation au milieu de travail
 
@@ -54,5 +54,3 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
   :material-codepen: [https://codepen.io/tim-momo](https://codepen.io/tim-momo)
 
 </div>
-
-<iframe frameborder="0" src="https://itch.io/embed/2686426" width="552" height="167"><a href="https://jfcmontmorency.itch.io/tutorial-phaser-io">Tutorial phaser.io by jfcmontmorency</a></iframe>
