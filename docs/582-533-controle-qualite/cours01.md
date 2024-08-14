@@ -1,4 +1,6 @@
 # Cours 1
+<h2>Se présenter avec wooclap</h2>
+
 <h2>Plan de cours</h2>
 <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcqCqA-qXuZIoCr18ERuHJoBxXxthafuzz1Zf4cRIkcGhw?e=gxqAFc">Plan de cours</a>
 
