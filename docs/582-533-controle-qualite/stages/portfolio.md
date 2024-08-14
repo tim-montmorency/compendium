@@ -63,11 +63,11 @@ description: Voici mon portfolio!
 
 
 <h2>Exemples de portfolios</h2>
-[💼 Portfolio de Antoine Haddad](https://yourantidote.github.io/Antoine-Portfolio){ .md-button }   <br>
-[💼 Portfolio de Jasmine Lapierre](https://jasmine-lapierre.github.io/portfolio_gameweb){ .md-button }   <br>
-[💼 Portfolio de Camélie Laprise](https://m-lie.github.io/portfolio){ .md-button }   <br>
-[💼 Portfolio de Félix Testa Radovanovic](https://im-boyo.github.io/testa_radovanovic_felix_portfolio){ .md-button }   <br>
-[💼 Portfolio de Nicolas St-Martin](https://vanounais.github.io/){ .md-button }   <br>
+[💼 Portfolio de Antoine Haddad](https://yourantidote.github.io/Antoine-Portfolio){ .md-button }   <br>      
+[💼 Portfolio de Jasmine Lapierre](https://jasmine-lapierre.github.io/portfolio_gameweb){ .md-button }   <br>      
+[💼 Portfolio de Camélie Laprise](https://m-lie.github.io/portfolio){ .md-button }   <br>     
+[💼 Portfolio de Félix Testa Radovanovic](https://im-boyo.github.io/testa_radovanovic_felix_portfolio){ .md-button }   <br>      
+[💼 Portfolio de Nicolas St-Martin](https://vanounais.github.io/){ .md-button }   <br>     
 
 
 
