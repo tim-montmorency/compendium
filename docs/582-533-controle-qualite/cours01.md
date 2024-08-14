@@ -11,3 +11,6 @@
  <h2>Questionnaire</h2>
   [🛠️ Accéder aux questions](https://forms.office.com/r/MUa8T3fCXa){ .md-button }   <br>
 
+  <h2>Journée carrière</h2>
+  Qu'est-ce qu'on doit prévoir? 
+
