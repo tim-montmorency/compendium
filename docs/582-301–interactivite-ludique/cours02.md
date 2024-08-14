@@ -4,6 +4,14 @@ tags:
   - Mardi 2 septembre
 ---
 
+[STOP]
+
+Outils de développement
+Éditeur de code : Visual Studio Code
+Navigateur Web : Chrome
+Serveur local : Live Server via Visual Studio Code
+Éditeur de tilemap : https://www.spritefusion.com/
+
 # Phaser
 
 [Phaser.js](https://phaser.io/)
@@ -11,11 +19,57 @@ tags:
 
 npm install
 
+`npm install phaser@v3.80.1`
+
 Vscode
   live server
 Intellisense
 
 Scene + switch scene
+
+
+### Structure des fichiers
+
+Le libellé des fichiers et des dossiers doivent être **courts**, en **minuscule** et **sans espace**.
+
+Évitez tant que possible les majuscule pour garantir la compatibilité sur les différents systèmes d’exploitation.
+
+Voici à quoi pourrait et devrait ressembler la structure de votre jeu.
+
+``` markdown
+nom-du-jeu
+│
+├── index.html
+├── assets
+│   ├── images
+│   │   ├── backgrounds
+│   │   ├── fx
+│   │   ├── characters
+│   │   ├── ui
+│   │   └── items
+│   ├── audio
+│   │   ├── music
+│   │   └── sfx
+│   └── fonts
+│       └── nes.ttf
+├── src
+│   ├── css
+│   |   └── main.css
+│   └── js
+│       ├── main.js
+│       ├── scenes
+│       │   ├── Game.js
+│       │   ├── GameOver.js
+│       │   ├── MainMenu.js
+│       │   └── Preloader.js
+│       └── characters
+│           ├── Player.js
+│           └── Enemy.js
+└── vendor
+    └── phaser.min.js
+```
+
+
 
 ## Maths
 
@@ -80,7 +134,7 @@ https://labs.phaser.io/view.html?src=src\transform\originX.js
 https://phaser.io/sandbox/?src=src\transform\originXY.js
 https://labs.phaser.io/index.html?dir=transform/&q=
 
-### position 
+### position
 image2.x = 640;
 image2.y = 200;
 ou .setPosition(320, 320);
@@ -101,13 +155,29 @@ https://phaser.io/sandbox/?src=src\display\alpha\bottom%20alpha.js
 Aléatoire
 https://phaser.io/sandbox/?src=src\game%20config\game%20rng.js
 Phaser.Math.Between(7, 666);
-à la place de 
+à la place de
 Math.floor(Math.random() * (666 - 7 + 1) ) + 7;
 
 
 
 
-Data : 
+// Exercice
+        // this.load.image('debug_bg', 'assets/images/uv-grid-diag.png');
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(0, 0).setAlpha(0.1);
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(1, 0).setAlpha(0.1);
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(0, 1).setAlpha(0.1);
+        // this.add.image(config.width/2, config.height/2, 'debug_bg').setOrigin(1, 1).setAlpha(0.1);
+
+
+
+Data :
 
 this.data.set('lives', 3);
 https://phaser.io/sandbox/?src=src\components\data\store%20scene%20data.js
+
+
+##
+
+Devoir
+
+Compléter la portion assets dans le GDD

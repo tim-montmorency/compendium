@@ -4,6 +4,8 @@ tags:
   - Mardi 26 novembre
 ---
 
+[STOP]
+
 # Itch.io
 
 ## Publication sur itch.io

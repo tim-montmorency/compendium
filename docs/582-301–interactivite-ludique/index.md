@@ -22,12 +22,11 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 <div class="grid cards" markdown>
 
 -   Les cours suivants sont préalables absolus au présent cours
- 
+
     * 420 V11 MO Programmation interactive
 
-
 -   Le présent cours est préalable absolu aux cours suivants
- 
+
     * 582 401 MO Réalité mixte
     * 582 541 MO Préparation au milieu de travail
 
@@ -41,7 +40,6 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 ## Enseignant 🌱
 
 <div class="grid grid-auto" markdown>
-
   ![](../_/profs/jfcartier.jpg)
 
   **Jean-François Cartier**<br>
@@ -49,5 +47,4 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
   :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br>
   :material-github: [https://github.com/jfcmontmorency](https://github.com/jfcmontmorency)<br>
   :material-codepen: [https://codepen.io/tim-momo](https://codepen.io/tim-momo)
-
 </div>

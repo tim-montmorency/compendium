@@ -4,12 +4,14 @@ tags:
   - Mardi 17 septembre
 ---
 
+[STOP]
+
 # Interactivité
 
 setInteractive
 
 https://labs.phaser.io/index.html?dir=input
 
-
+https://uvchecker.vinzi.xyz/ UV grid pour debug
 
 Destroy object

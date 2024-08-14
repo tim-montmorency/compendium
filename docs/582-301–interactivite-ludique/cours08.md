@@ -4,4 +4,6 @@ tags:
   - Mardi 22 octobre
 ---
 
+[STOP]
+
 # Examen 01

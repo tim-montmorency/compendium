@@ -4,5 +4,7 @@ tags:
   - Mardi 10 décembre
 ---
 
+[STOP]
+
 # Présentation des projets
 
