@@ -1,5 +1,5 @@
 # Portfolio
-<p>Nous allons créer les portfolio dans GitHub pages. Création du portfolio et Modification du thème sont à suivre si vous voulez créer votre portfolio de zéro. Sinon suivez Partir d'un thème.</p>
+<p>Nous allons créer les portfolios dans GitHub pages. Création du portfolio et Modification du thème sont à suivre si vous voulez créer votre portfolio de zéro. Sinon suivez Partir d'un thème.</p>
 
 
     
