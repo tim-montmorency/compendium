@@ -4,6 +4,8 @@ tags:
   - Mardi 5 novembre
 ---
 
+[STOP]
+
 # Faire un jeu
 
 Objectif : Shoot et frappe une cible : 

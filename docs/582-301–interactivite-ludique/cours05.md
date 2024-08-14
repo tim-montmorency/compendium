@@ -4,6 +4,8 @@ tags:
   - Mardi 24 septembre
 ---
 
+[STOP]
+
 # Tilemap, sprite et collision
 
 Tilemap

@@ -4,4 +4,6 @@ tags:
   - Mardi 3 décembre
 ---
 
+[STOP]
+
 # Examen 02

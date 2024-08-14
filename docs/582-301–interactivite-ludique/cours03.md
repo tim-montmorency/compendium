@@ -4,6 +4,8 @@ tags:
   - Mardi 10 septembre
 ---
 
+[STOP]
+
 # Animations programmées
 
 ## Ordre du jour

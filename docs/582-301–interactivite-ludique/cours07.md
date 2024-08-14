@@ -4,4 +4,6 @@ tags:
   - Mardi 8 octobre
 ---
 
+[STOP]
+
 # HUD et scènes
