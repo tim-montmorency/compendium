@@ -1,5 +1,5 @@
 # Cours 1
-## Se présenter avec wooclap
+## Se présenter
 
 ## Plan de cours
  
