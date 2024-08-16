@@ -49,7 +49,10 @@ description: Voici mon portfolio!
 * [ ] Nommez votre projet username.github.io. Remplacez username par votre nom d’utilisateur GitHub. Par exemple, si votre nom d’utilisateur est octocat, le nom du dépôt doit être octocat.github.io
 * [ ] Créez le projet
 * [ ] Une fois le projet créé, personnalisez les différentes pages en modifiant les pages existantes
-    
+
+
+ <h2>Aide pour le markdown</h2>
+ <a href="https://www.markdownguide.org/cheat-sheet/">Cheatsheet Markdown</a>
     
 <h2>Insérer une vidéo Youtube</h2>
 <p>Insérer une vidéo de vos projets est possible. Pour cela, deux options s'offrent à vous.</p>
