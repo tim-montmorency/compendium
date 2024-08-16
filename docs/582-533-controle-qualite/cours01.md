@@ -6,11 +6,11 @@
 
 ## Plan de cours
  
-[📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcqCqA-qXuZIoCr18ERuHJoBxXxthafuzz1Zf4cRIkcGhw?e=gxqAFc){ .md-button }         
+[📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcqCqA-qXuZIoCr18ERuHJoBxXxthafuzz1Zf4cRIkcGhw?e=gxqAFc){ .md-button }             
 
 
- ## Questionnaire     
-  [🛠️ Accéder aux questions](https://forms.office.com/r/MUa8T3fCXa){ .md-button }           
+## Questionnaire         
+[🛠️ Accéder aux questions](https://forms.office.com/r/MUa8T3fCXa){ .md-button }           
 
       
 ## Activité sur les forces et qualités
