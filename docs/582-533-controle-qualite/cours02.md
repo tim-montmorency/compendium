@@ -44,11 +44,6 @@
 </tr>
 
 
-<tr>
-        <th>Banque d’information industrielle d’Investissement Québec (ICRIQ) </th>
-        <th>Diffuse gratuitement, sur icriq.com, des données sur les produits fabriqués et distribués au Québec ainsi que sur les services offerts aux entreprises par des fournisseurs du Québec. </th> 
-        <th><p><a href="https://www.icriq.com/fr ">Site web</a></p></th>        
-</tr>
 
 <tr>
         <th>Communautique </th>
@@ -63,34 +58,29 @@
         <th><p><a href="https://raiq.ca/repertoire-des-membres-corporatifs/ ">Site web</a></p></th>        
 </tr>
 
-<tr>
-        <th>C2 Montréal </th>
-        <th>C2 unit les univers du commerce et de la créativité afin d’explorer les tendances, opportunités, bouleversements et mutations majeures qui se dessinent à l’horizon. Chaque année, plus de 5 000 décideurs et créatifs s’y rencontrent pour façonner, vivre et réinventer l’avenir des affaires. </th> 
-        <th><p><a href="www.c2montreal.com/ ">Site web</a></p></th>        
-</tr>
 
 <tr>
         <th>Indeed </th>
         <th>Indeed est le 1er site d'emploi mondial1 enregistrant plus de 250 millions de visiteurs uniques2 chaque mois. Indeed s'efforce de faire des candidats une priorité en leur permettant de chercher un emploi, de publier leur CV et de se renseigner au sujet des employeurs, le tout gratuitement.  </th> 
-        <th><p><a href="https://emplois.ca.indeed.com/ ">Site web</a></p></th>        
+        <th><p><a href="https://emplois.ca.indeed.com/">Site web</a></p></th>        
 </tr>
 
 <tr>
         <th>Grenier </th>
         <th>Tous les talents en communication, marketing, vente & web au Québec. </th> 
-        <th><p><a href="https://www.grenier.qc.ca/ ">Site web</a></p></th>        
+        <th><p><a href="https://www.grenier.qc.ca/">Site web</a></p></th>        
 </tr>
 
 <tr>
         <th>Jobboom </th>
         <th>Jobboom est la référence au Québec en matière d’emploi. Notre expérience de recrutement en ligne va de pair avec une expertise inégalée du marché du travail.</th> 
-        <th><p><a href="https://www.jobboom.com/fr/ ">Site web</a></p></th>        
+        <th><p><a href="https://www.jobboom.com/fr/">Site web</a></p></th>        
 </tr>
 
 <tr>
         <th>LinkedIn - Offres d'emplois </th>
         <th>Réseau social qui a pour mission de mettre en relation des professionnels du monde entier pour les rendre plus performants et productifs. Offre aussi une section d'offres d'emplois.</th> 
-        <th><p><a href="https://www.linkedin.com/jobs ">Site web</a></p></th>        
+        <th><p><a href="https://www.linkedin.com/jobs/">Site web</a></p></th>        
 </tr>
 
 
