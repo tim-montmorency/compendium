@@ -19,4 +19,7 @@
 Formation des comités      
 Répartition des tâches
 
+## Devoir
+Recherche de projets pour votre portfolio. Au prochain cours vous devez apporter les images, captures écrans et vidéos.
+
 
