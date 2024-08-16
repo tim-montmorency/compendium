@@ -1,8 +1,11 @@
 # Cours 7
-<h4>8h:00 Remise de la lettre de présentation</h4>
+## Présentation sur la e-réputation et LinkedIn
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
 
-<h2>Correction de la lettre et du cv</p>
-<h4>8h:50 Remise de la correction</h4>
+## Création d'un profil LinkedIn
+
+## Prise de photos
+
 
 <h2>Conférence de Sophie Daigle</h2>
 <p>9h: Début de la conférence </p>
