@@ -87,5 +87,8 @@
 </table>
 
  <h2>Portfolio</h2>
-  [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }   <br>
+  [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }       
+
+  ## Devoir    
+  Débuter votre portfolio
 
