@@ -2,7 +2,7 @@
 <h2>Présentation des stages</h2>
  [📁 Informations stages](./stages/informations.md){ .md-button }   <br>
 
-<h2>Présentation du cours</h2>
+<h2>Présentation sur la recherche de stage ou d'emploi</h2>
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }   <br>
 
 
@@ -86,8 +86,11 @@
 
 </table>
 
- <h2>Portfolio</h2>
-  [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }           
+<h2>Présentation sur le portfolio</h2>     
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }      
+
+<h2>Consignes pour le portfolio</h2>    
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }               
 
 ## Devoir     
 Trouver un modèle de portfolio
