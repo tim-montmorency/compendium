@@ -89,6 +89,6 @@
  <h2>Portfolio</h2>
   [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }           
 
- ## Devoir     
- Débuter votre portfolio
+## Devoir     
+Trouver un modèle de portfolio
 
