@@ -11,3 +11,6 @@
 
 <h2>Rencontres individuelles pour le CV</h2>
 
+## Devoir
+Avancer le cv et la lettre de présentation
+
