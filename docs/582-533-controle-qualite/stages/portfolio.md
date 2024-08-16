@@ -2,6 +2,8 @@
 
 
 <h2>Contenu de votre portfolio</h2>
+Votre portfolio doit être en lien avec vos intérêts. 
+
 Les éléments suivants doivent être présents dans votre portfolio :
 <li>Identification (Nom et coordonnées - Minimum un courriel)</li>
 <li>Objectif de carrière (Dans quel domaine souhaitez-vous travailler?)</li>
