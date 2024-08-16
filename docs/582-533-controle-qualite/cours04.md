@@ -7,4 +7,3 @@
 
 <h2>Rencontres individuelles pour le CV</h2>
 
-<h2>Séance photos</h2>
