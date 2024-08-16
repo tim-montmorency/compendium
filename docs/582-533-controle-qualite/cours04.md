@@ -5,5 +5,9 @@
 ## Exemples de cv
 À ajouter
 
+## Présentation sur la lettre de présentation     
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERrX846mpkdKu4CkXSbw1TYBDAUmeVdpkbbA89qHX-jchw?e=aiBfkj){ .md-button }  
+
+
 <h2>Rencontres individuelles pour le CV</h2>
 
