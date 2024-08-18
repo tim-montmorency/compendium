@@ -14,12 +14,18 @@ a.breadcrumb {
     font-weight: bold;
 }
 
+/* sera affiché en js */
+.md-logo ~ .md-header__button:not(.show) {
+    display: none;
+}
+
 /* .md-nav--primary > .md-nav__list:not(:has(.md-nav__item--active)),*/
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav >.md-nav__title {
     pointer-events: none;
 }
 
-.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav >.md-nav__title .md-nav__icon {
+/* Retrait de l'icone de flèche back dans le menu en mobile */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__title .md-nav__icon {
     display: none;
 }
 
