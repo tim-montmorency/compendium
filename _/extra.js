@@ -1,3 +1,4 @@
+// Liens pour les outils de minification et d'obfuscation de code JavaScript
 // https://skalman.github.io/UglifyJS-online/
 // https://obfuscator.io/
 
@@ -7,12 +8,12 @@ const hashCode = (str) => {
     for (i = 0; i < str.length; i++) {
         chr = str.charCodeAt(i);
         hash = ((hash << 5) - hash) + chr;
-        hash |= 0; // Convert to 32bit integer
+        hash |= 0; // Convertir en entier 32 bits
     }
     return hash;
 };
 
-// ref: https://squidfunk.github.io/mkdocs-material/reference/data-tables/?h=table#sortable-tables-docsjavascriptstablesortjs
+// Référence : https://squidfunk.github.io/mkdocs-material/reference/data-tables/?h=table#sortable-tables-docsjavascriptstablesortjs
 document$.subscribe(function () {
     var tables = document.querySelectorAll("article table:not([class])")
     tables.forEach(function (table) {
@@ -20,27 +21,35 @@ document$.subscribe(function () {
     })
 })
 
-// Retire la navigation principale sous forme de tabs
+// Retire la navigation principale sous forme d'onglets
 document.querySelector('.md-container > .md-tabs').outerHTML = '';
 
+// Action une fois que le DOM est entièrement chargé
 document.addEventListener("DOMContentLoaded", function () {
-    var tabsElement = document.querySelector('.md-tabs__item--active');
+    var tabsElement = document.querySelector('.md-nav__link--active');
+    // Si aucun onglet actif, retirer le bouton associé au logo
     if (tabsElement === null) {
         document.querySelector('.md-logo ~ .md-header__button').remove();
+    } else {
+        document.querySelector('.md-logo ~ .md-header__button').classList.add("show");
     }
 });
 
-// Retrait du lien sur le logo
+// Remplace le lien du logo par un élément non-cliquable
 var aElement = document.querySelector('.md-header__button.md-logo');
 var spanElement = document.createElement('span');
+// Copie tous les attributs de l'élément <a> vers <span>
 Array.from(aElement.attributes).forEach(attr => {
     spanElement.setAttribute(attr.name, attr.value);
 });
+// Transfère les enfants de l'élément <a> vers <span>
 while (aElement.firstChild) {
     spanElement.appendChild(aElement.firstChild);
 }
+// Remplace <a> par <span>
 aElement.parentNode.replaceChild(spanElement, aElement);
 
+// Ajout d'un lien "Ouvrir l'exemple" sous les iframes spécifiques
 document.addEventListener("DOMContentLoaded", function () {
     const iframes = document.querySelectorAll("iframe");
 
@@ -49,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const editable = url.searchParams.get("editable");
         const themeId = url.searchParams.get("theme-id");
 
+        // Condition spécifique pour ajouter le lien
         if (editable === "true" && themeId === "50173") {
             const link = document.createElement("a");
             link.href = iframe.src;
@@ -60,7 +70,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Extlink
+// ExtLink
+// Ajout d'icônes et de comportements spécifiques pour les liens externes
 document.addEventListener('DOMContentLoaded', () => {
     var currentDomain = window.location.hostname;
     var currentPath = window.location.pathname.split('/').slice(0, -1).join('/');
@@ -75,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 var linkPath = new URL(href).pathname.split('/').slice(0, -1).join('/');
                 isOtherDirectory = linkPath !== currentPath;
             }
+            // Ajoute des attributs spécifiques aux liens externes
             if (isExternal) {
                 link.setAttribute('target', '_blank');
                 link.setAttribute('rel', 'noopener noreferrer');
@@ -84,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Checkbox memory
+// Gestion de la mémoire des cases à cocher (checkboxes)
 document.addEventListener('DOMContentLoaded', (event) => {
 
     const taskLists = document.querySelectorAll('.task-list');
@@ -93,6 +105,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         return;
     }
 
+    // Génère une clé unique basée sur l'URL
     const getUrlKey = () => {
         const url = new URL(window.location.href);
         return hashCode(url.pathname).toString();
@@ -111,6 +124,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         lineStyle: 'square',
     });
 
+    // Vérifie si toutes les cases sont cochées pour déclencher l'effet de feu d'artifice
     const checkAllChecked = (checkboxes) => {
         if (Array.from(checkboxes).every(cb => cb.checked)) {
             fireworks.start();
