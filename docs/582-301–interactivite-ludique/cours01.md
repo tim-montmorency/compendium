@@ -10,7 +10,7 @@ tags:
 
 Présentation du plan de cours.
 
-[Plan de cours :material-download:](./assets/documents/plan-de-cousr){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/582-301MO-A2024-plan-de-cours.pdf){ .md-button .md-button--primary }
 
 ## Le ludisme
 

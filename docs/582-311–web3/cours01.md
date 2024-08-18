@@ -4,15 +4,17 @@ tags:
   - Vendredi 23 août
 ---
 
-# Introduction
+# Bienvenue
 
-## Présentations
+## Introduction
+
+Présentations
 
 ![](./assets/presentations.png)
 
-## Web 3
+Présentation du plan de cours.
 
-[Plan de cours](./assets/plan_de_cours.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/582-311MO-A2024-plan-de-cours.pdf){ .md-button .md-button--primary }
 
 ## Révision du cours Web2
 
