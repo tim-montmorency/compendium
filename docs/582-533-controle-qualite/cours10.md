@@ -1,5 +1,5 @@
 # Cours 10
-<h2>🚨 Remise du portfolio </h2>
+## 🚨 Remise du portfolio 
 
-<h2>Événement de rencontre avec les employeurs</h2>
+## Événement de rencontre avec les employeurs
 
