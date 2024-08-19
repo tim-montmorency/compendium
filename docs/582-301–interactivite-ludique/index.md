@@ -14,14 +14,6 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 | Heures d’enseignement | 60      |
 | Session               | 3       |
 
-``` mermaid
-%%{init: {"pie": {"textPosition": 0.5} }%%
-pie showData
-    "Heures de cours théoriques" : 2
-    "Heure de laboratoire ou d'atelier" : 2
-    "Heures de travail personnel" : 1
-```
-
 ## Objectifs
 
 * Intégrer des médias visuels et sonores dans une expérience ludique.

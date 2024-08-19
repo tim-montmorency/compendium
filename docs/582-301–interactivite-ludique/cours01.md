@@ -249,23 +249,47 @@ Voici une liste non exhaustive des différents types de jeux vidéo[^videogamest
 
 ### Plateformes
 
-``` mermaid
-mindmap
-  (Plateformes)
-    (Console)
-      (PlayStation)
-      (Xbox)
-      (Nintendo)
-    (PC)
-      (Windows)
-      (Mac)
-      (Linux)
-    (Mobile)
-      (iOS)
-      (Android)
-    (Réalité virtuelle)
-    (Réalité augmentée)
-```
+#### Console
+
+* PlayStation
+* Xbox
+* Nintendo
+
+#### PC
+
+* Windows
+* Mac
+* Linux
+* Steam Deck
+
+#### Mobile
+
+* iOS (Apple)
+* Android (Google)
+
+#### Réalité virtuelle (VR)
+
+* Meta Quest
+* PlayStation VR
+* HTC Vive
+* Valve Index
+
+#### Réalité augmentée (AR)
+
+* Microsoft HoloLens
+* Apple Vision Pro
+
+#### Jeux infonuagique
+
+* Xbox Cloud Gaming
+* NVIDIA GeForce Now
+* Amazon Luna
+* ~~Stadia~~ :fontawesome-solid-skull-crossbones:
+
+#### Navigateur Web :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom }
+
+* HTML5
+* WebGL / WebAssembly
 
 ### Contrôles de jeux vidéo
 
@@ -279,20 +303,6 @@ mindmap
 ### Prérequis
 
 Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à certains contenus, d'effectuer une action spécifique, ou simplement de progresser dans le jeu.
-
-<iframe class="aspect-4-1-tabbed" height="300" style="width: 100%;" scrolling="no" title="Prérequis" src="https://codepen.io/tim-momo/embed/xxoXazb?default-tab=result&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/xxoXazb">
-  Prérequis</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-#### À quoi ça sert ?
-
-* Structure la progression du joueur
-* Crée une courbe d'apprentissage
-* Récompense l'exploration et la curiosité
-* Ajoute de la profondeur à l'expérience
-* Encourage la rejouabilité
 
 #### Types de prérequis
 
@@ -308,6 +318,22 @@ Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à cer
 1. **Équipement spécifique** : Porter l'armure complète de chevalier permet d'entrer dans le château.
 1. **Conditions environnementales** : Le joueur doit attendre la nuit pour que certains monstres apparaissent.
 1. **Accomplissements ou trophées** : Débloquer 50% des trophés permet d'accéder au mode «difficile».
+
+#### À quoi ça sert ?
+
+* Structure la progression du joueur
+* Crée une courbe d'apprentissage
+* Récompense l'exploration et la curiosité
+* Ajoute de la profondeur à l'expérience
+* Encourage la rejouabilité
+
+#### Quel prérequis s'applique à l'exemple ci-dessous ?
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Prérequis" src="https://codepen.io/tim-momo/embed/xxoXazb?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/xxoXazb">
+  Prérequis</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Câdriciels (Framework)
 
