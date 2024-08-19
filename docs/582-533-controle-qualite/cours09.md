@@ -1,6 +1,6 @@
 # Cours 9
 
-<h2>Pas de cours</h2>
+## Pas de cours
 <p>Reprise pour l'événement.</p>
 
 ## Devoir
