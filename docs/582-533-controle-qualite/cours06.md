@@ -1,13 +1,14 @@
 # Cours 6
 
-<h4>8h:00 Remise de la lettre de présentation</h4>
+</h2> 🚨 Remise du cv et de la lettre de présentation</h2>
 
-<h2>Correction de la lettre et du cv</p>
-<h4>8h:50 Remise de la correction</h4>
+<h2>Création commmune d'une grille de correction</h2>
+
+<h2>🚨 Correction de la lettre et du cv</h2>
+Remise de l'évaluation avant la fin du cours
+
   
-<h2>Temps pour les comités</h2>
-<p>Design: Mise en page d'une invitation pour les employeurs et cartes d'affaire</p>
-<p>Communication: Départager les employeurs entre les gens</p>
-<p>Photo: Envoyer les photos</p>
-<p>Bouffe: Terminer le financement</p>
-<p>Studio: Rédaction des courriels pour l'emprunt de matériel</p>
+<h2>Temps pour les comités et l'avancement du portfolio</h2>
+Lorsque votre évaluation est terminée.    
+Semaine où on commence le contact des employeurs!
+
