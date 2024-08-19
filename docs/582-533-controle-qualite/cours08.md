@@ -1,5 +1,5 @@
 # Cours 8 
-<h2>Conférence du CJE</h2>
+## Conférence du CJE
 <p>Trucs et pratique pour les entrevues.</p>
 
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYSF6R0rBElAipQUUqUujhcBVCxCJiXL-z7E8giEUppB_w?e=gs6sGd){ .md-button }  
