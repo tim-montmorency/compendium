@@ -85,9 +85,9 @@ Votre nuage informatique
 
 ### Rejoindre les équipes:
 
-* TIM - Programme TIM - Code d’entrée : plzaqjq
+* TIM - Programme TIM - Code d’entrée : **plzaqjq**
 
-* TIM - 582 111 - Web 1 - Code d’entrée : ________
+* TIM - 582 111 - Web 1 - Code d’entrée : **________**
 
 1. Cliquez sur le bouton Équipes sur le côté gauche de l’application
 
