@@ -1,3 +1,10 @@
-# Cours 14 
-<p>8h à 9h30: Visite de la Guilde du jeu vidéo et de Synthèse</p>   
-<p>9h30 à 10h40: Visite de PixMob</p>    
+# Cours 14
+
+## Conférence sur l'entrepreunariat et le travail autonome
+[📁 Voir la présentation](lien){ .md-button }  
+
+## Guide du travailleur autonome 
+À ajouter
+
+## Avancer le projet final
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbORw7nH2j9Epj5s-m1xY58BtO5SrE7HiO0TXAMxanut8g?e=YAEyth){ .md-button }  
