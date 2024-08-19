@@ -16,3 +16,9 @@
 
 1. Quels sont vos projets ou objectifs actuels en lien avec vos études en multimédia ?
 
+### Les outils
+#### Procédure pour la rentrée
+
+![procedures](https://github.com/user-attachments/assets/0e77fb68-df94-4bd3-b7e5-8df3c9bade2e)
+
+[Procédure pour la rentrée]([https://google.ca](https://ccti.cmontmorency.qc.ca/la-rentree))
