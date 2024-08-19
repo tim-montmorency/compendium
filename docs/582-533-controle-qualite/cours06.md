@@ -1,6 +1,6 @@
 # Cours 6
 
-</h2> 🚨 Remise du cv et de la lettre de présentation</h2>
+<h2>🚨 Remise du cv et de la lettre de présentation</h2>
 
 <h2>Création commmune d'une grille de correction</h2>
 
