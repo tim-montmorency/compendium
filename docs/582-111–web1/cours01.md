@@ -37,11 +37,11 @@ Col.Net est le portail utilisé par les étudiants et les enseignants du collèg
 
 [Collège Montmorency](https://www.cmontmorency.qc.ca/)
 
-### **Procédure de connexion au système Col.NET**
+### Procédure de connexion au système Col.NET
 
 ![connexion](https://github.com/user-attachments/assets/ee6d5f8b-8ad8-4a58-a636-d8dfae52738b)
 
-### **Code d’usager ÉTUDIANT**
+### Code d’usager ÉTUDIANT
 
 Il s'agit du numéro de demande d'admission (DA) à 9 caractères. Le numéro de DA apparaît sur la carte d'identité, la lettre d'admission ou la confirmation d'inscription.
 
