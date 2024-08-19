@@ -84,7 +84,7 @@ Votre nuage informatique
 
 ![type:video](https://www.youtube.com/watch?v=yT12quWr01g)
 
-### Rejoindre les équipes:
+Rejoindre les équipes:
 
 * TIM - Programme TIM - Code d’entrée : **plzaqjq**
 * TIM - 582 111 - Web 1 - Code d’entrée : **________**
