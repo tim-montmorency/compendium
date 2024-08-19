@@ -21,4 +21,16 @@
 
 ![procedures](https://github.com/user-attachments/assets/0e77fb68-df94-4bd3-b7e5-8df3c9bade2e)
 
-[Procédure pour la rentrée]([https://google.ca](https://ccti.cmontmorency.qc.ca/la-rentree))
+[Procédure pour la rentrée](https://ccti.cmontmorency.qc.ca/la-rentree))
+
+### Écran
+
+![ecran](https://github.com/user-attachments/assets/18eec8e1-f7a7-4528-8f21-6648b9b898f8)
+
+[Écran - Services étudiants](https://www.cmontmorency.qc.ca/college/brip/brip/ecran/#ressources-en-ligne)
+
+### Col.net
+#### Qu’est-ce que COL.NET au juste?
+Col.Net est le portail utilisé par les étudiants et les enseignants du collège. On y retrouve l’horaire, les résultats en cours de session, le QAQ bulletin, les messages de l’administration et tout ce qui vous servira pendant toute la durée de vos études. Prenez l’habitude de vous y connecter souvent!
+
+![col-net](https://github.com/user-attachments/assets/b30f3cd2-603a-4867-b911-ecd26195b7ab)
