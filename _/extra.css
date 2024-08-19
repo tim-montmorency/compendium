@@ -1,9 +1,13 @@
+/* ---------------------------------- */
+/* Base Styling */
+/* ---------------------------------- */
 body {
     transition: font-family 0.3s;
 }
 
-/* nav */
-
+/* ---------------------------------- */
+/* Navigation */
+/* ---------------------------------- */
 p:has(.breadcrumb) {
     margin-top: 0;
     border-bottom: 1px solid var(--md-code-bg-color);
@@ -14,34 +18,37 @@ a.breadcrumb {
     font-weight: bold;
 }
 
-/* sera affiché en js */
+/* Logo Button Display (Controlled by JS) */
 .md-logo ~ .md-header__button:not(.show) {
     display: none;
 }
 
-/* .md-nav--primary > .md-nav__list:not(:has(.md-nav__item--active)),*/
-.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav >.md-nav__title {
+/* Disable Pointer Events on Navigation Items */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__title {
     pointer-events: none;
 }
 
-/* Retrait de l'icone de flèche back dans le menu en mobile */
+/* Hide Back Arrow Icon in Mobile Menu */
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__title .md-nav__icon {
     display: none;
 }
 
-/* Cache les tabs en attendant le JS pour les retirer du DOM */
-.md-container>.md-tabs {
+/* ---------------------------------- */
+/* Tabs and Logo Interaction */
+/* ---------------------------------- */
+.md-container > .md-tabs {
     display: none;
 }
 
-/* Retirer l'event click du lien logo avant que le JS le retire du DOM */
+/* Disable Logo Click (Controlled by JS) */
 .md-header__button.md-logo {
     pointer-events: none;
     cursor: default;
 }
 
-/* Colors */
-
+/* ---------------------------------- */
+/* Text Color Utility Classes */
+/* ---------------------------------- */
 .text-primary {
     color: var(--md-primary-fg-color);
 }
@@ -62,7 +69,9 @@ a.breadcrumb {
     color: var(--md-accent-fg-color--transparent);
 }
 
+/* ---------------------------------- */
 /* Tables */
+/* ---------------------------------- */
 .md-typeset__table {
     display: block;
 }
@@ -71,6 +80,9 @@ a.breadcrumb {
     display: table;
 }
 
+/* ---------------------------------- */
+/* Media Styling */
+/* ---------------------------------- */
 /* Iframe */
 iframe {
     border-radius: 0.1rem;
@@ -85,70 +97,40 @@ body[data-md-color-scheme="slate"] img.invert {
     filter: invert(0.9);
 }
 
-/* Proportions des conteneurs */
-.aspect-1-1 {
+/* ---------------------------------- */
+/* Aspect Ratios */
+/* ---------------------------------- */
+.aspect-1-1, .aspect-3-1, .aspect-4-3, .aspect-3-2, .aspect-16-9, .aspect-2-1, .aspect-4-1 {
     height: auto;
     width: 100%;
-    aspect-ratio: 1 / 1;
-    /* pointer-events: none; */
 }
 
-.aspect-3-1 {
+.aspect-1-1 { aspect-ratio: 1 / 1; }
+.aspect-3-1 { aspect-ratio: 3 / 1; }
+.aspect-4-3 { aspect-ratio: 4 / 3; }
+.aspect-3-2 { aspect-ratio: 3 / 2; }
+.aspect-16-9 { aspect-ratio: 16 / 9; }
+.aspect-2-1 { aspect-ratio: 2 / 1; }
+.aspect-4-1 { aspect-ratio: 4 / 1; }
+
+/* Special Aspect Ratios for Embedded Content */
+.aspect-2-1-tabbed, .aspect-4-1-tabbed {
     height: auto;
     width: 100%;
-    aspect-ratio: 3 / 1;
 }
 
-.aspect-4-3 {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 4 / 3;
-}
+.aspect-2-1-tabbed { aspect-ratio: 800 / calc(400 + 50 + 30 + 10); }
+.aspect-4-1-tabbed { aspect-ratio: 800 / calc(200 + 50 + 30 + 10); }
 
-.aspect-3-2 {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 3 / 2;
-}
-
-.aspect-16-9 {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-}
-
-.aspect-2-1 {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 2 / 1;
-}
-
-.aspect-4-1 {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 4 / 1;
-}
-
-/* Méthode approximative pour inclure le header et footer codepen dans l'Aspect Ratio CSS */
-.aspect-2-1-tabbed {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 800 / calc(400 + 50 + 30 + 10);
-}
-
-/* Méthode approximative pour inclure le header et footer codepen dans l'Aspect Ratio CSS */
-.aspect-4-1-tabbed {
-    height: auto;
-    width: 100%;
-    aspect-ratio: 800 / calc(200 + 50 + 30 + 10);
-}
-
-/* Liens étendus */
+/* ---------------------------------- */
+/* Links */
+/* ---------------------------------- */
 a.stretched-link {
     color: var(--md-typeset-color);
+    position: relative;
 }
 
-.stretched-link:after {
+.stretched-link::after {
     position: absolute;
     top: 0;
     right: 0;
@@ -159,7 +141,10 @@ a.stretched-link {
     content: "";
 }
 
-/* Titres */
+/* ---------------------------------- */
+/* Typography */
+/* ---------------------------------- */
+/* Headings */
 .md-typeset h1,
 .md-typeset h2 {
     font-weight: bolder;
@@ -174,35 +159,33 @@ a.stretched-link {
     padding-top: 1.6rem;
 }
 
-/* Admonitions et détails */
+/* ---------------------------------- */
+/* Admonitions and Details */
+/* ---------------------------------- */
 .md-typeset .admonition,
 .md-typeset details {
     border-width: 0;
     border-left-width: 4px;
 }
 
-/* Animation d'icone */
+/* ---------------------------------- */
+/* Icon Animations */
+/* ---------------------------------- */
 .md-typeset .mdx-pulse {
-    animation: new 2s infinite
+    animation: pulse 2s infinite;
 }
 
-@keyframes new {
-
-    0%,
-    to {
-        transform: scale(1) rotate(0deg)
-    }
-
-    50% {
-        transform: scale(1.15) rotate(10deg)
-    }
+@keyframes pulse {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.15) rotate(10deg); }
 }
 
-/* Grille */
+/* ---------------------------------- */
+/* Grid Layouts */
+/* ---------------------------------- */
 .md-typeset .grid {
-    grid-gap: .4rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    grid-gap: .4rem;
     margin: 1em 0;
     position: relative;
     align-items: center;
@@ -210,129 +193,58 @@ a.stretched-link {
 
 .md-typeset .grid.grid-1-2 {
     grid-gap: 1.2rem;
-    grid-template-columns: 1fr;
     padding: 0.4rem;
     border-radius: .2rem;
     background-color: var(--md-code-bg-color);
 }
 
-.md-typeset .grid.grid-1-2 img {
-    display: block;
+.md-typeset .grid-auto {
+    grid-gap: 1.2rem;
+    padding: 0.4rem;
+    border-radius: .2rem;
+    background-color: var(--md-code-bg-color);
 }
 
 @media (min-width: 576px) {
     .md-typeset .grid.grid-1-2 {
         grid-template-columns: 1fr 2fr;
     }
-}
-
-.md-typeset .grid-auto {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1.2rem;
-    margin: 1em 0;
-    position: relative;
-    align-items: center;
-    padding: 0.4rem;
-    border-radius: .2rem;
-    background-color: var(--md-code-bg-color);
-}
-
-.md-typeset .grid-auto img {
-    display: block;
-}
-
-@media (min-width: 576px) {
     .md-typeset .grid-auto {
         grid-template-columns: auto 1fr;
     }
 }
 
-.md-typeset .grid.cards>ol,
-.md-typeset .grid.cards>ul {
-    display: contents;
-}
-
-.md-typeset .grid.cards>ol>li,
-.md-typeset .grid.cards>ul>li,
-.md-typeset .grid>.card {
-    border: .05rem solid var(--md-default-fg-color--lightest);
-    border-radius: .1rem;
-    display: block;
-    margin: 0;
-    padding: .8rem;
-    transition: border .25s, box-shadow .25s;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    justify-content: start;
-    height: 100%;
-}
-
+/* Cards in Grid */
 .md-typeset .grid.cards {
     display: flex;
     align-items: stretch;
     gap: 1rem;
 }
 
-.md-typeset .grid.cards>ol>li:focus-within,
-.md-typeset .grid.cards>ol>li:hover,
-.md-typeset .grid.cards>ul>li:focus-within,
-.md-typeset .grid.cards>ul>li:hover,
-.md-typeset .grid>.card:focus-within,
-.md-typeset .grid>.card:hover {
-    border-color: #0000;
+/* Grid Card Styling */
+.md-typeset .grid.cards > ol > li,
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+    border: .05rem solid var(--md-default-fg-color--lightest);
+    border-radius: .1rem;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: start;
+    height: 100%;
+    transition: border .25s, box-shadow .25s;
+}
+
+.md-typeset .grid.cards > ol > li:hover,
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:hover {
     box-shadow: var(--md-shadow-z2);
 }
 
-.md-typeset .grid.cards>ol>li>hr,
-.md-typeset .grid.cards>ul>li>hr,
-.md-typeset .grid>.card>hr {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
-.md-typeset .grid.cards>ol>li>:first-child,
-.md-typeset .grid.cards>ul>li>:first-child,
-.md-typeset .grid>.card>:first-child {
-    margin-top: 0;
-}
-
-.md-typeset .grid.cards>ol>li>:last-child,
-.md-typeset .grid.cards>ul>li>:last-child,
-.md-typeset .grid>.card>:last-child {
-    margin-bottom: 0;
-}
-
-.md-typeset .grid>*,
-.md-typeset .grid>.admonition,
-.md-typeset .grid>.highlight>*,
-.md-typeset .grid>.highlighttable,
-.md-typeset .grid>.md-typeset details,
-.md-typeset .grid>details,
-.md-typeset .grid>pre {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.md-typeset .grid>.highlight>pre:only-child,
-.md-typeset .grid>.highlight>pre>code,
-.md-typeset .grid>.highlighttable,
-.md-typeset .grid>.highlighttable>tbody,
-.md-typeset .grid>.highlighttable>tbody>tr,
-.md-typeset .grid>.highlighttable>tbody>tr>.code,
-.md-typeset .grid>.highlighttable>tbody>tr>.code>.highlight,
-.md-typeset .grid>.highlighttable>tbody>tr>.code>.highlight>pre,
-.md-typeset .grid>.highlighttable>tbody>tr>.code>.highlight>pre>code {
-    height: 100%;
-}
-
-.md-typeset .grid>.tabbed-set {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-/* Pied de page */
+/* ---------------------------------- */
+/* Footer */
+/* ---------------------------------- */
 .md-footer {
     margin-top: 2rem;
     background-color: transparent;
@@ -361,13 +273,9 @@ html .md-footer-meta.md-typeset a:hover {
     color: var(--md-primary-fg-color);
 }
 
-/* Boîte de résultats */
-#result-box,
-#result-box iframe {
-    background-color: transparent;
-}
-
-/* Indicateurs de liste de tâches */
+/* ---------------------------------- */
+/* Task List Indicators */
+/* ---------------------------------- */
 [dir=ltr] .md-typeset .task-list-indicator:before {
     left: -2.25em;
     cursor: pointer;
@@ -377,7 +285,7 @@ html .md-footer-meta.md-typeset a:hover {
     background-color: var(--md-default-fg-color--lighter);
 }
 
-.md-typeset [type=checkbox]:checked+.task-list-indicator:hover:before {
+.md-typeset [type=checkbox]:checked + .task-list-indicator:hover:before {
     background-color: #00e676;
 }
 
@@ -390,7 +298,9 @@ html .md-footer-meta.md-typeset a:hover {
     left: -3em;
 }
 
-/* Feux d'artifice */
+/* ---------------------------------- */
+/* Fireworks Container */
+/* ---------------------------------- */
 #fireworks {
     position: fixed;
     left: 0;
@@ -400,24 +310,18 @@ html .md-footer-meta.md-typeset a:hover {
     z-index: -1;
 }
 
-/* Codepen open link */
-
+/* ---------------------------------- */
+/* Codepen Open Link */
+/* ---------------------------------- */
 a.codepen-open {
     display: block;
     text-align: center;
     font-size: .64rem;
 }
 
-stop:before {
-    content: '[STOP]';
-}
-
-.valign-bottom {
-    vertical-align: bottom !important;
-}
-
+/* ---------------------------------- */
 /* Animations */
-
+/* ---------------------------------- */
 .horizontal-anim {
     animation: horanim 1s infinite;
     padding-left: 0.125rem;
@@ -425,47 +329,62 @@ stop:before {
 }
 
 @keyframes horanim {
-    0% {
-        transform: translateX(-0.125rem);
-      }
-      50% {
-        transform: translateX(0.125rem);
-      }
-      100% {
-        transform: translateX(-0.125rem);
-      }
+    0% { transform: translateX(-0.125rem); }
+    50% { transform: translateX(0.125rem); }
+    100% { transform: translateX(-0.125rem); }
 }
 
-/* image-zoom css */
-
+/* ---------------------------------- */
+/* Image Zoom Styling */
+/* ---------------------------------- */
 [data-zoom-backdrop] {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	z-index: 900;
-	background-color: var(--md-default-bg-color);
-	opacity: 0;
-	transition: opacity 400ms ease;
-	pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 900;
+    background-color: var(--md-default-bg-color);
+    opacity: 0;
+    transition: opacity 400ms ease;
+    pointer-events: none
 }
 
 [data-zoom-backdrop='active'] {
-	opacity: 1;
-	pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 [data-zoom-image] {
-	position: relative;
-	/* z-index: 800; */
-	transform: none;
-	transition: transform 400ms ease, border-radius 400ms ease;
-	cursor: zoom-in;
+    position: relative;
+    transform: none;
+    transition: transform 400ms ease, border-radius 400ms ease;
+    cursor: zoom-in;
 }
 
 [data-zoom-image='active'] {
-	z-index: 1000;
-	cursor: zoom-out;
+    z-index: 1000;
+    cursor: zoom-out;
     border-radius: 0;
+}
+
+/* ---------------------------------- */
+/* Miscellaneous */
+/* ---------------------------------- */
+.stop:before {
+    content: '[STOP]';
+}
+
+.valign-bottom {
+    vertical-align: bottom !important;
+}
+
+/* Result Box Styling */
+#result-box,
+#result-box iframe {
+    background-color: transparent;
+}
+
+#__mermaid_0 .edge-depth-0 {
+    stroke-width: 1;
 }

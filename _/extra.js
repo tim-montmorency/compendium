@@ -3,63 +3,69 @@
 // https://obfuscator.io/
 
 // Fonction pour générer un hachage simple
-const hashCode = (str) => {
-    let hash = 0, i, chr;
-    for (i = 0; i < str.length; i++) {
-        chr = str.charCodeAt(i);
+// Utilisé pour donner un identifiant aux checkboxes dans une page
+const generateHash = (str) => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        const chr = str.charCodeAt(i);
         hash = ((hash << 5) - hash) + chr;
         hash |= 0; // Convertir en entier 32 bits
     }
     return hash;
 };
 
-// Référence : https://squidfunk.github.io/mkdocs-material/reference/data-tables/?h=table#sortable-tables-docsjavascriptstablesortjs
-document$.subscribe(function () {
-    var tables = document.querySelectorAll("article table:not([class])")
-    tables.forEach(function (table) {
-        new Tablesort(table)
-    })
-})
+// Initialisation des tableaux triables
+const initializeSortableTables = () => {
+    const tables = document.querySelectorAll("article table:not([class])");
+    tables.forEach(table => new Tablesort(table));
+};
 
-// Retire la navigation principale sous forme d'onglets
-document.querySelector('.md-container > .md-tabs').outerHTML = '';
+// Suppression de la navigation principale sous forme d'onglets
+// On retire en javascript parce qu'on veut conserver les onglets en mobile
+const removeMainTabsNavigation = () => {
+    const tabs = document.querySelector('.md-container > .md-tabs');
+    if (tabs) tabs.outerHTML = '';
+};
 
-// Action une fois que le DOM est entièrement chargé
-document.addEventListener("DOMContentLoaded", function () {
-    var tabsElement = document.querySelector('.md-nav__link--active');
-    // Si aucun onglet actif, retirer le bouton associé au logo
-    if (tabsElement === null) {
-        document.querySelector('.md-logo ~ .md-header__button').remove();
+// Gestion de l'affichage du bouton lié au logo
+// C'est surtout pour la logique en mobile.
+// Je cherche à éviter qu'on puisse consulter les autres cours dans compendium
+const toggleLogoButtonVisibility = () => {
+    const activeTab = document.querySelector('.md-nav__item--active');
+    const logoButton = document.querySelector('.md-logo ~ .md-header__button');
+
+    if (!activeTab) {
+        logoButton.classList.remove("show");
     } else {
-        document.querySelector('.md-logo ~ .md-header__button').classList.add("show");
+        logoButton.classList.add("show");
     }
-});
+};
 
-// Remplace le lien du logo par un élément non-cliquable
-var aElement = document.querySelector('.md-header__button.md-logo');
-var spanElement = document.createElement('span');
-// Copie tous les attributs de l'élément <a> vers <span>
-Array.from(aElement.attributes).forEach(attr => {
-    spanElement.setAttribute(attr.name, attr.value);
-});
-// Transfère les enfants de l'élément <a> vers <span>
-while (aElement.firstChild) {
-    spanElement.appendChild(aElement.firstChild);
-}
-// Remplace <a> par <span>
-aElement.parentNode.replaceChild(spanElement, aElement);
+// Remplacement du lien du logo par un élément non-cliquable
+// C'est surtout pour éviter que l'utilisateur sorte du contexte de son cours
+const replaceLogoLinkWithSpan = () => {
+    const logoLink = document.querySelector('.md-header__button.md-logo');
+    if (!logoLink) return;
 
-// Ajout d'un lien "Ouvrir l'exemple" sous les iframes spécifiques
-document.addEventListener("DOMContentLoaded", function () {
+    const spanElement = document.createElement('span');
+    Array.from(logoLink.attributes).forEach(attr => spanElement.setAttribute(attr.name, attr.value));
+    while (logoLink.firstChild) {
+        spanElement.appendChild(logoLink.firstChild);
+    }
+    logoLink.parentNode.replaceChild(spanElement, logoLink);
+};
+
+// Ajout d'un lien "Ouvrir l'exemple" sous les iframes spécifiques de codepen
+// Si le iframe est configuré à éditable et que le theme est celui sans tabs, on ajoute un lien vers l'exemple.
+const addOpenExampleLinks = () => {
     const iframes = document.querySelectorAll("iframe");
 
     iframes.forEach(iframe => {
         const url = new URL(iframe.src);
-        const editable = url.searchParams.get("editable");
-        const themeId = url.searchParams.get("theme-id");
+        const existingLink = iframe.parentNode.querySelector(".codepen-open");
 
-        // Condition spécifique pour ajouter le lien
-        if (editable === "true" && themeId === "50173") {
+        // Vérifie si le lien existe déjà pour cet iframe
+        if (url.searchParams.get("editable") === "true" && url.searchParams.get("theme-id") === "50173" && !existingLink) {
             const link = document.createElement("a");
             link.href = iframe.src;
             link.className = "codepen-open";
@@ -68,52 +74,61 @@ document.addEventListener("DOMContentLoaded", function () {
             iframe.parentNode.insertBefore(link, iframe.nextSibling);
         }
     });
-});
+};
 
-// ExtLink
-// Ajout d'icônes et de comportements spécifiques pour les liens externes
-document.addEventListener('DOMContentLoaded', () => {
-    var currentDomain = window.location.hostname;
-    var currentPath = window.location.pathname.split('/').slice(0, -1).join('/');
-    var links = document.getElementsByTagName('a');
-    for (var i = 0; i < links.length; i++) {
-        var link = links[i];
-        var href = link.href;
-        if (href && !href.startsWith('javascript:') && !href.startsWith('#') && !href.startsWith('mailto:') && !href.startsWith('tel:')) {
-            var isExternal = !href.includes(currentDomain);
-            var isOtherDirectory = false;
-            if (!isExternal) {
-                var linkPath = new URL(href).pathname.split('/').slice(0, -1).join('/');
-                isOtherDirectory = linkPath !== currentPath;
+// Gestion des liens externes et ajout d'icônes d'accessibilité
+const handleExternalLinks = () => {
+    const currentDomain = window.location.hostname;
+    const currentPath = window.location.pathname.split('/').slice(0, -1).join('/');
+
+    // Extensions des fichiers à inclure
+    const fileExtensions = [
+        // Fichiers de compression
+        '.zip', '.rar', '.7z', '.tar', '.gz', '.bz2',
+        // Documents
+        '.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx', '.txt', '.rtf', '.odt', '.ods', '.odp',
+        // Images
+        '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.svg', '.webp',
+        // Vidéos
+        '.mp4', '.avi', '.mov', '.wmv', '.flv', '.mkv', '.webm'
+    ];
+
+    const links = document.querySelectorAll('a[href]:not([href^="javascript:"]):not([href^="#"]):not([href^="mailto:"]):not([href^="tel:"])');
+
+    links.forEach(link => {
+        const href = link.href;
+        const isExternal = !href.includes(currentDomain);
+        const linkPath = new URL(href).pathname.split('/').slice(0, -1).join('/');
+        const isOtherDirectory = !isExternal && linkPath !== currentPath;
+
+        // Vérifie si le lien correspond à une des extensions de fichiers spécifiées
+        const hasFileExtension = fileExtensions.some(ext => href.toLowerCase().endsWith(ext));
+
+        if (isExternal || hasFileExtension) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+
+            // Forcer l'affichage de la boîte de dialogue de téléchargement pour les fichiers spécifiés
+            if (hasFileExtension) {
+                link.setAttribute('download', '');
             }
-            // Ajoute des attributs spécifiques aux liens externes
-            if (isExternal) {
-                link.setAttribute('target', '_blank');
-                link.setAttribute('rel', 'noopener noreferrer');
-                link.innerHTML += ' <svg style="vertical-align: middle; display: inline-block;" width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Interface / External_Link"><path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#4051b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>';
+
+            // Vérifier si le SVG est déjà présent pour les liens externes
+            if (isExternal && !link.querySelector('svg')) {
+                link.insertAdjacentHTML('beforeend', ' <svg style="vertical-align: middle; display: inline-block;" width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Interface / External_Link"><path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#4051b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>');
             }
         }
+    });
+};
+
+// Fonction pour l'instanciation et la configuration des feux d'artifice
+const initializeFireworks = () => {
+    let fireworksContainer = document.getElementById('fireworks');
+    if (!fireworksContainer) {
+        fireworksContainer = document.createElement('div');
+        fireworksContainer.id = 'fireworks';
+        document.body.appendChild(fireworksContainer);
     }
-});
-
-// Gestion de la mémoire des cases à cocher (checkboxes)
-document.addEventListener('DOMContentLoaded', (event) => {
-
-    const taskLists = document.querySelectorAll('.task-list');
-
-    if (taskLists.length === 0) {
-        return;
-    }
-
-    // Génère une clé unique basée sur l'URL
-    const getUrlKey = () => {
-        const url = new URL(window.location.href);
-        return hashCode(url.pathname).toString();
-    };
-
-    const fireworksContainer = document.createElement('div');
-    fireworksContainer.id = 'fireworks';
-    document.body.appendChild(fireworksContainer);
 
     const fireworks = new Fireworks.default(fireworksContainer, {
         autoresize: true,
@@ -124,29 +139,79 @@ document.addEventListener('DOMContentLoaded', (event) => {
         lineStyle: 'square',
     });
 
-    // Vérifie si toutes les cases sont cochées pour déclencher l'effet de feu d'artifice
+    fireworksContainer.style.display = 'none'; // Masque le container initialement
+    return { fireworks, fireworksContainer };
+};
+
+
+// Fonction pour vérifier les checkbox et afficher/masquer les feux d'artifice
+const handleCheckboxesWithFireworks = (fireworks, fireworksContainer) => {
+    const taskLists = document.querySelectorAll('ul.task-list');
+    if (taskLists.length === 0) {
+        fireworksContainer.style.display = 'none';
+        fireworks.stop();
+        return;
+    }
+
+    const urlKey = generateHash(window.location.pathname).toString();
+
     const checkAllChecked = (checkboxes) => {
-        if (Array.from(checkboxes).every(cb => cb.checked)) {
+        if ([...checkboxes].every(cb => cb.checked)) {
+            fireworksContainer.style.display = 'block';
             fireworks.start();
         } else {
+            fireworksContainer.style.display = 'none';
             fireworks.stop();
         }
     };
-
-    const urlKey = getUrlKey();
 
     taskLists.forEach((taskList, taskListIndex) => {
         const checkboxes = taskList.querySelectorAll('[type="checkbox"]');
         checkboxes.forEach((checkbox, checkboxIndex) => {
             const localStorageKey = `checkbox-${urlKey}-${taskListIndex}-${checkboxIndex}`;
-            const isChecked = localStorage.getItem(localStorageKey) === 'true';
-            checkbox.checked = isChecked;
+            checkbox.checked = localStorage.getItem(localStorageKey) === 'true';
             checkbox.addEventListener('change', (event) => {
-                checkAllChecked(checkboxes);
                 localStorage.setItem(localStorageKey, event.target.checked);
+                checkAllChecked(document.querySelectorAll('ul.task-list [type="checkbox"]'));
             });
         });
-        checkAllChecked(checkboxes);
+        checkAllChecked(document.querySelectorAll('ul.task-list [type="checkbox"]'));
     });
+};
+
+const { fireworks, fireworksContainer } = initializeFireworks();
+
+// Exécution de logique au chargement de la page
+document.addEventListener("DOMContentLoaded", () => {
+    runOnce();
+    runFunctions();
+
+    const targetNode = document.body;
+    const config = { childList: true, subtree: true };
+    const callback = function(mutationsList, observer) {
+        for(let mutation of mutationsList) {
+            if (mutation.type === 'childList') {
+                setTimeout(() => {
+                    runFunctions();
+                }, 50);
+                break;
+            }
+        }
+    };
+    const observer = new MutationObserver(callback);
+    observer.observe(targetNode, config);
 
 });
+
+function runFunctions() {
+    initializeSortableTables();
+    toggleLogoButtonVisibility();
+    addOpenExampleLinks();
+    handleExternalLinks();
+    handleCheckboxesWithFireworks(fireworks, fireworksContainer);
+}
+
+function runOnce() {
+    removeMainTabsNavigation();
+    replaceLogoLinkWithSpan();
+}
