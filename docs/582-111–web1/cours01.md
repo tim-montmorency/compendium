@@ -34,3 +34,20 @@
 Col.Net est le portail utilisé par les étudiants et les enseignants du collège. On y retrouve l’horaire, les résultats en cours de session, le QAQ bulletin, les messages de l’administration et tout ce qui vous servira pendant toute la durée de vos études. Prenez l’habitude de vous y connecter souvent!
 
 ![col-net](https://github.com/user-attachments/assets/b30f3cd2-603a-4867-b911-ecd26195b7ab)
+
+[Collège Montmorency](https://www.cmontmorency.qc.ca/)
+
+### Procédure de connexion au système Col.NET
+
+![connexion](https://github.com/user-attachments/assets/ee6d5f8b-8ad8-4a58-a636-d8dfae52738b)
+
+### Code d’usager ÉTUDIANT
+
+Il s'agit du numéro de demande d'admission (DA) à 9 caractères. Le numéro de DA apparaît sur la carte d'identité, la lettre d'admission ou la confirmation d'inscription.
+
+Lorsque le numéro de DA est à 7 caractères, il doit être précédé de :
+
+* 19 si le numéro se situe entre 6000000 et 9999999, ainsi 8912034 devient 198912034
+
+* 20 si le numéro se situe entre 0000000 et 5999999, ainsi 0812034 devient 200812034
+
