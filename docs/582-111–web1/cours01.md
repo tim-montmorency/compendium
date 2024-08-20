@@ -78,7 +78,7 @@ Démo OneDrive, création, édition, renommer, déplacement et partage de fichie
 
 ## Microsoft TEAMS
 
-![type:video](https://www.youtube.com/watch?v=yT12quWr01g)
+![type:video](https://www.youtube.com/embed/yT12quWr01g)
 
 Rejoindre les équipes:
 
@@ -211,7 +211,7 @@ Wooclap, l’outil pour interagir, capter l’attention et mesurer la compréhen
 
 L'histoire du web remonte aux années 1960, lorsque les premières notions d'un réseau informatique mondial ont été développées. Voici une brève chronologie des événements clés de l'histoire du web :
 
-![type:video](https://www.youtube.com/watch?v=hrzXdKvG1CY)
+![type:video](https://www.youtube.com/embed/hrzXdKvG1CY)
 
 ### 1960s
 
@@ -225,7 +225,7 @@ Dans les années 1960, les bases de l'informatique et des réseaux informatiques
 
 Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARPA (Advanced Research Projects Agency) du Département de la Défense des États-Unis a développé ARPANET, un réseau qui a permis aux chercheurs de diverses universités et instituts de recherche de communiquer et de partager des données.
 
-![type:video](https://www.youtube.com/watch?v=dW9Wi_ksoWI)
+![type:video](https://www.youtube.com/embed/dW9Wi_ksoWI)
 
 
 ### 1990
@@ -316,7 +316,7 @@ Ces composantes web peuvent être combinées et mises en œuvre de différentes 
     
     L’appel à l’action, ou « Call to Action (CTA) » en anglais, est l’élément visuel (bouton ou texte) qui indique aux visiteurs à cliquer. Il indique à l’utilisateur quoi faire, où cliquer, quoi           acheter. Il est censé le guider vers l’objectif du détenteur du site. Vendre des billets, informer, localiser un lieu, etc.
     <br>
-    <div style="text-align: center; height: 200px;">
+    <div style="text-align: center; width: 100px;">
     ![appel-a-laction](https://github.com/user-attachments/assets/45125a12-3a7d-4ebc-ba8a-e1f74b435ac3)
     </div>
     <br>
