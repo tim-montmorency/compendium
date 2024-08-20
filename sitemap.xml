@@ -1336,7 +1336,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/base.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/coroutine.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/fonctions.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/test.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html</loc>
          <lastmod>2024-08-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
