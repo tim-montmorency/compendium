@@ -6,6 +6,8 @@ tags:
 
 # Bienvenue
 
+[STOP]
+
 ## Introduction
 
 Présentation du plan de cours.
