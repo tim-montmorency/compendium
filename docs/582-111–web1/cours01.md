@@ -64,7 +64,7 @@ Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la f
 
 ![365](https://github.com/user-attachments/assets/4599fdfa-34dc-4832-982a-cbf6d136bf39)
 
-### Outils Microsoft 365, tous accessible via
+Outils Microsoft 365, tous accessible via
 
 ![carre](https://github.com/user-attachments/assets/d0aa06eb-e5f7-48c4-9a82-18a04f1fde96)
 
@@ -74,7 +74,7 @@ Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la f
 
 Votre nuage informatique
 
-### Démo OneDrive, création, édition, renommer, déplacement et partage de fichiers
+Démo OneDrive, création, édition, renommer, déplacement et partage de fichiers
 
 ![nuage](https://github.com/user-attachments/assets/c7b5fe62-4ae5-4159-9fae-2287e8ae4e88)
 
