@@ -231,16 +231,16 @@ L'invention du World Wide Web
 En 1990, le chercheur britannique Sir Tim Berners-Lee a inventé le World Wide Web (WWW) au CERN en Suisse. Il a créé le premier navigateur Web, le premier serveur Web et le premier langage de programmation pour le web, le HTML (HyperText Markup Language). Le premier site web a été mis en ligne en 1991.
 
 
-# Expérience Utilisateur
+## Expérience Utilisateur
 ![ux-ui](https://github.com/user-attachments/assets/ff5bc640-ab3b-4dc9-a9ef-aa404acfcde9)
 
-## UX vs UI
+### UX vs UI
 ![brain](https://github.com/user-attachments/assets/87cd57c7-84f0-40e9-a6e6-2fa560c3e112)
 
 UX (User Experience) et UI (User Interface) sont deux termes importants en web design et se réfèrent à des aspects différents mais complémentaires de la conception d'un site web ou d'une application.
 
 
-## UX
+### UX
 
 User Experience
 
@@ -259,7 +259,7 @@ Les principaux aspects de l'UX incluent :
 * Test utilisateur : Évaluer l'interface avec de vrais utilisateurs pour recueillir des commentaires et des insights pour améliorer l'expérience.
 
 
-## UI
+### UI
 
 User Interface
 
