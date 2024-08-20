@@ -12,7 +12,9 @@ Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:
 - [ ] Ensuite, à droite vous devez entrer le nom de votre projet et spécifier à quel endroit le sauvegarder.
 - [ ] Une fois que c'est fait appuyez sur Create project.
 
-!!! info "Information"       Voici un aperçu des types de projets disponibles:    
+!!! info "Information"
+
+    Voici un aperçu des types de projets disponibles:    
     2D (core) et 3D (core) sont respectivement pour les projets en 2D ou 3D. Ils utilisent la méthode de rendu par défaut de Unity.   
     2D (URP) et 3D (URP) sont aussi pour des projets en 2D ou 3D, leur méthode de rendu par défaut se nomme Universal Render Pipeline. Cette méthode de rendu est personnalisable et permet de créer des graphiques optimisés.   
     3D (HDRP) est la méthode que nous utiliserons pour la VR. La méthode de rendu est plus performante et a une meilleure résolution, mais elle est plus longue à traiter.   
