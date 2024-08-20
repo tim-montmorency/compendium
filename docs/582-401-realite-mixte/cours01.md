@@ -9,11 +9,13 @@
 [💼 Travail 1](./consignes/travail1.md){ .md-button }     
     
 ### Test d'exemples de travail 1
-Projets de:     
-- Quoc Huy Do
-- Felix Testa Radovanovic
-- Jacob Alarie-Brousseau
-- Antoine Haddad
+Projets de:       
+
+- Quoc Huy Do    
+- Felix Testa Radovanovic    
+- Jacob Alarie-Brousseau    
+- Antoine Haddad    
+  
        
 
 ### Réflexion sur la thématique de votre travail 1
