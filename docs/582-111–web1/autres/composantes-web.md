@@ -284,3 +284,41 @@ Les fenêtres modales peuvent être utilisées pour différentes raisons, notamm
 - **Faciliter la fermeture :** Assurez-vous que les utilisateurs peuvent facilement fermer la fenêtre modale en ajoutant un bouton de fermeture clair et accessible.
 - **Fréquence d'apparition :** Évitez d'utiliser trop fréquemment les fenêtres modales pour ne pas perturber l'expérience de navigation des utilisateurs.
 
+
+!!! info "Résumé"
+
+    En résumé, les fenêtres modales sont des superpositions contextuelles utiles pour attirer l'attention des utilisateurs sur des informations importantes ou pour demander une interaction spécifique. Elles sont couramment utilisées pour améliorer l'expérience utilisateur et faciliter les interactions sur les sites web. Cependant, leur utilisation doit être réfléchie et respectueuse de l'expérience de l'utilisateur pour éviter tout effet négatif sur le site web.
+
+## Accordéon
+
+Un accordéon web est un composant interactif qui permet d'organiser et de présenter du contenu de manière extensible et hiérarchique sur une page web. Il est souvent utilisé pour afficher des informations de manière concise et faciliter la navigation sur des sites web contenant beaucoup de contenu.
+
+**Utilisations des accordéons**
+
+Les accordéons sont souvent utilisés pour :
+
+Un accordéon web est un composant interactif qui permet d'organiser et de présenter du contenu de manière extensible et hiérarchique sur une page web. Il est souvent utilisé pour afficher des informations de manière concise et faciliter la navigation sur des sites web contenant beaucoup de contenu.
+
+**Utilisations des accordéons**
+
+Les accordéons sont souvent utilisés pour :
+
+- **Organiser du contenu :** Ils permettent de présenter du contenu organisé en sections, ce qui améliore la lisibilité et facilite l'accès à l'information.
+- **Réduire l'encombrement :** Ils permettent de réduire l'encombrement sur une page en masquant le contenu supplémentaire par défaut et en le rendant accessible sur demande.
+- **Afficher des FAQ :** Les accordéons sont couramment utilisés pour afficher des sections FAQ (Foire Aux Questions), où les questions sont les en-têtes et les réponses sont masquées jusqu'à ce que l'utilisateur les sélectionne.
+
+
+**Avantages des accordéons**
+
+- **Gain d'espace :** Les accordéons permettent d'économiser de l'espace sur la page en cachant le contenu jusqu'à ce qu'il soit nécessaire.
+- **Navigation conviviale :** Ils facilitent la navigation en présentant de manière organisée des sections de contenu qui peuvent être rapidement consultées.
+- **Amélioration de l'expérience utilisateur :** Les accordéons offrent une expérience interactive et engageante aux utilisateurs en leur permettant de contrôler l'affichage du contenu. Ils permettent de présenter du contenu organisé en sections, ce qui améliore la lisibilité et facilite l'accès à l'information.
+- **Réduire l'encombrement :** Ils permettent de réduire l'encombrement sur une page en masquant le contenu supplémentaire par défaut et en le rendant accessible sur demande.
+- **Afficher des FAQ :** Les accordéons sont couramment utilisés pour afficher des sections FAQ (Foire Aux Questions), où les questions sont les en-têtes et les réponses sont masquées jusqu'à ce que l'utilisateur les sélectionne.
+
+
+**Avantages des accordéons**
+
+- **Gain d'espace :** Les accordéons permettent d'économiser de l'espace sur la page en cachant le contenu jusqu'à ce qu'il soit nécessaire.
+- **Navigation conviviale :** Ils facilitent la navigation en présentant de manière organisée des sections de contenu qui peuvent être rapidement consultées.
+- **Amélioration de l'expérience utilisateur :** Les accordéons offrent une expérience interactive et engageante aux utilisateurs en leur permettant de contrôler l'affichage du contenu.
