@@ -40,3 +40,28 @@ Ces composantes web peuvent être combinées et mises en œuvre de différentes 
 
     * Utiliser une terminologie spécifique à une tâche (éviter soumettre ou cliquez ici)
 
+
+## Titre et Paragraphe
+
+![Titre-paragraphes](https://github.com/user-attachments/assets/9c568af3-6717-43a9-abdf-9f6508b0f8e7)
+
+Les titres et paragraphes sont des éléments de base essentiels en HTML pour structurer et organiser le contenu d'une page web. En utilisant correctement les titres et paragraphes, vous pouvez créer une structure logique et claire pour votre contenu web, ce qui améliore l'accessibilité, l'expérience utilisateur et le référencement du site.
+
+Il est important de choisir judicieusement le niveau des titres pour refléter l'organisation du contenu et d'utiliser les paragraphes pour séparer les différents blocs d'informations afin de rendre la lecture plus agréable.
+
+---
+
+## Liens hypertextes
+
+Texte et boutons
+
+![lien-hypertext](https://github.com/user-attachments/assets/d70ca13a-f338-4fae-ae0c-f16f43643ebc)
+
+Les liens hypertexte, que ce soit sous forme de texte ou de bouton, sont des éléments clés en HTML qui permettent de créer des hyperliens entre différentes pages web ou ressources sur Internet.
+
+En utilisant des liens hypertexte, que ce soit sous forme de texte ou de bouton, vous pouvez créer une navigation facile et permettre aux utilisateurs d'accéder rapidement à d'autres pages, sites web ou ressources connexes.
+
+Assurez-vous que les liens sont clairs, pertinents et bien formatés pour améliorer l'expérience utilisateur et la navigation sur votre site.
+
+
+
