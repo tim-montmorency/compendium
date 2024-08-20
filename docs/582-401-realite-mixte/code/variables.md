@@ -8,7 +8,7 @@ Plusieurs variables sont disponibles dans Unity et nous permettent de parler à 
 ## Variables traditionnelles
 Dans cette section, nous verrons les variables que vous connaissez déjà grâce à vos cours de programmation.   
 
-## Int
+### Int
 La variable int nous permet de compter des chiffres entiers. On la déclare de cette façon:   à
 
 ``` csharp
@@ -25,7 +25,7 @@ myInt = 10;
 
 
 
-## Float
+### Float
 La variable float nous permet de compter des chiffres décimaux. On la déclare de cette façon:    
 
 ``` csharp
@@ -40,7 +40,7 @@ myFloat = 1.5f;
 
 On comprends que pour assigner un float, on doit mettre un point entre les chiffres (et non une virgule!) et qu'il faut mettre un f à la fin.   
 
-## Bool
+### Bool
 La variable bool nous permet de créer un Boolean, donc une variable qui sera vraie ou fausse. On la déclare de cette façon:     
 
 ``` csharp
@@ -55,7 +55,7 @@ myBool = true;
 
 Pour la valeur faux, on écrirait false plutôt que true.   
 
-## Vector 2
+### Vector 2
 La variable Vector 2 nous permet de créer une variable avec une position en x et une en y. On la déclare de cette façon: 
 
 ``` csharp
@@ -70,7 +70,7 @@ myVector = new Vector2(0f, 0f);
 
 On est pas obligés de mettre les f si les nombres de la position sont entiers, mais c'est bon d'en faire une habitude.   
 
-## Vector 3
+### Vector 3
 La variable Vector 3 nous permet de créer une variable avec une position en x, une en y et une en z. On la déclare de cette façon:   
 
 ``` csharp
@@ -85,7 +85,7 @@ Pour assigner une valeur à cette variable, voici comment faire:
 
 On est pas obligés de mettre les f si les nombres de la position sont entiers, mais c'est bon d'en faire une habitude.   
 
-## Tableau (array)
+### Tableau (array)
 Chaque variable peut être un tableau. Pour cela, on doit l'écrire de la façon suivante:   
 
 ``` csharp
@@ -129,7 +129,7 @@ myInts[3] = 1;
 ## Variables Unity
 Unity a des variables qui lui sont propres. On peut les utiliser pour appeler certains objets et les modifier.   
 
-## GameObject
+### GameObject
 La variable GameObject nous permet de contrôler n'importe quel objet présent dans la fenêtre Hierarchy de notre scène.   
 
 ``` csharp
@@ -169,7 +169,7 @@ myGameObject.GetComponent<Transform>().position = new Vector3(0, 0, 0);
 
 Avec GetComponent, on peut chercher n'importe quelle composante du GameObject et changer ses paramètres. Par exemple, ici on cherche le transform pour modifier la position de l'objet.   
 
-## Transform
+### Transform
 La variable Transform nous permet de contrôler la position, la rotation et l'échelle d'un objet.  
 
 ``` csharp
@@ -195,7 +195,7 @@ Pour modifier la rotation d'un objet, on doit assigner un Quaternion. Cependant,
 Pour modifier la taille de l'objet, on doit modifier localScale et lui assigner un Vector 3 pour la taille en x, y et z.   
 
 
-## Camera
+### Camera
 La variable camera nous permet de contrôler certains paramètres de la Caméra.  
 
 ``` csharp
@@ -208,7 +208,7 @@ myCamera.fieldOfView = 50;
 
 Field of view permet de changer l'angle de vue de la caméra.   
 
-## Animator
+### Animator
 La variable Animator nous permet de contrôler la composante Animator d'un GameObject.   
 
 ``` csharp
@@ -227,7 +227,7 @@ myAnimator.SetBool("myBool", false);
     
 SetBool, SetInt et SetFloat nous permettent de modifier les paramètres que nous avons ajouté manuellement à nos animations. Dans tous les cas, entre parenthèse, on doit premièrement écrire le nom de notre paramètre et deuxièmement lui assigner une valeur.   
 
-## AudioClip
+### AudioClip
 La variable AudioClip permet d'assigner des clips Audio. 
 
 ``` csharp
@@ -235,7 +235,7 @@ public AudioClip myClip;
 ```
 
 
-## AudioSource
+### AudioSource
 La variable AudioSource permet de contrôler le son du jeu.  
 
 ``` csharp
@@ -254,7 +254,7 @@ myAudioSource.PlayOneShot(myClip);
 
 PlayOneShot nous permet d'assigner un clip à notre AudioSource pour le faire jouer une fois.   
 
-## Color
+### Color
 Lorsqu'elle est publique, la variable Color nous permet de sélectionner une couleur dans une palette de couleur dans l'inspecteur.   
 
 ``` csharp
@@ -262,7 +262,7 @@ public Color myColor;
 ```
 
 
-## Sprite
+### Sprite
 La variable Sprite permet d'assigner des sprite à des images.   
 
 ``` csharp
@@ -270,7 +270,7 @@ public Sprite mySprite;
 ```
 
 
-## Sprite Renderer
+### Sprite Renderer
 La variable Sprite Renderer permet de contrôler les images et la couleur des sprites.
 
 ``` csharp
