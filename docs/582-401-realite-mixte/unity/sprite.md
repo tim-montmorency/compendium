@@ -19,7 +19,10 @@ Ces tutoriels peuvent vous aider à débuter :
 
 ## Format et résolution
 Lorsque vous créez des sprites, deux choses sont à prendre en compte. La taille de votre sprite et son format d’exportation. Au niveau du format, je recommande d’exporter votre image en .jpg si elle ne contient pas de transparence. Si elle en contient, vous devriez utiliser le format .png.    
-Au niveau de la résolution, produire des images carrées est essentiel dans Unity. En effet, cela permettra à vos projets d’être optimisés et donc d’avoir des build plus légers. En plus de respecter le format carré, vous devriez toujours prendre des valeurs POT (power of two). Cette règle permet à l’ordinateur de rendre l’image plus rapidement. Voici des exemples de valeurs POT :    
+    
+Au niveau de la résolution, produire des images carrées est essentiel dans Unity. En effet, cela permettra à vos projets d’être optimisés et donc d’avoir des build plus légers. En plus de respecter le format carré, vous devriez toujours prendre des valeurs POT (power of two). Cette règle permet à l’ordinateur de rendre l’image plus rapidement. Voici des exemples de valeurs POT :   
+
+     
 -	16 x 16    
 -	32 x 32
 -	64 x 64     
@@ -29,7 +32,8 @@ Au niveau de la résolution, produire des images carrées est essentiel dans Uni
 -	1024 x 1024     
 -	2048 x 2048     
 -	4096 x 4096
--	
+
+      
 Habituellement, pour un sprite, on devrait prendre une valeur entre 64 et 512 selon la taille qu’il aura sur notre écran.    
 
    
