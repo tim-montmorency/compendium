@@ -2,8 +2,8 @@
 
 ## Présentation
 
-| ![380096_presentation_share_slide_slideshare_icon](https://github.com/user-attachments/assets/bd35263f-0e48-4e2c-bfaf-1052d3927119)  |
-[Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/presentation-web-1.html){ .md-button }  |
+![380096_presentation_share_slide_slideshare_icon](https://github.com/user-attachments/assets/bd35263f-0e48-4e2c-bfaf-1052d3927119)
+[Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/presentation-web-1.html){ .md-button .align-items-center}
 
 ## Les Outils
 
