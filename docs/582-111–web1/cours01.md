@@ -4,12 +4,6 @@
 
 ## Tour de classe
 
-   > :memo: **title**
-    >
-    > - list under lists
-    > - under lists
-
-
 ### Questions pour les étudiants
 
 1. Qu'est-ce qui vous a poussé à choisir une formation en multimédia ?
@@ -209,6 +203,7 @@ Wooclap, l’outil pour interagir, capter l’attention et mesurer la compréhen
 
 [Wooclap](https://www.wooclap.com/fr)
 
+<br>
 ## Histoire du Web
 
 L'histoire du web remonte aux années 1960, lorsque les premières notions d'un réseau informatique mondial ont été développées. Voici une brève chronologie des événements clés de l'histoire du web :
@@ -236,7 +231,7 @@ Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARP
 
 En 1990, le chercheur britannique Sir Tim Berners-Lee a inventé le World Wide Web (WWW) au CERN en Suisse. Il a créé le premier navigateur Web, le premier serveur Web et le premier langage de programmation pour le web, le HTML (HyperText Markup Language). Le premier site web a été mis en ligne en 1991.
 
-
+<br>
 ## Expérience Utilisateur
 ![ux-ui](https://github.com/user-attachments/assets/ff5bc640-ab3b-4dc9-a9ef-aa404acfcde9)
 
