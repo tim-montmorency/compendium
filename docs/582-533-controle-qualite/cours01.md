@@ -6,7 +6,7 @@
 
 ## Plan de cours
  
-[📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EcqCqA-qXuZIoCr18ERuHJoBxXxthafuzz1Zf4cRIkcGhw?e=gxqAFc){ .md-button }             
+[📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EemuQ3kwZA5PvPZ8UVqS9PMB-oBRf6a7-vW8BfDT6kjzqw?e=BJDl7i){ .md-button }             
 
 
 ## Questionnaire         
