@@ -14,7 +14,7 @@
 
       
 ## Activité sur les forces et qualités
-[ Liste de qualités ](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/cgilbert_cmontmorency_qc_ca/Ed54y-OA4jxFnSB44R5Ndj4BQCngXKjkL_gyfl3BJK6NVw?e=lg0aOi){ .md-button }   
+[🛠️ Liste de qualités](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/cgilbert_cmontmorency_qc_ca/Ed54y-OA4jxFnSB44R5Ndj4BQCngXKjkL_gyfl3BJK6NVw?e=lg0aOi){ .md-button }   
 
 ## Journée carrière     
 Formation des comités     
