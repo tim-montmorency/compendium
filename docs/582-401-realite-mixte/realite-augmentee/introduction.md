@@ -1,72 +1,44 @@
+Ici, nous verrons ce qu'est la réalité augmentée et nous nous créerons un compte pour le portail de développement que nous utiliserons pour notre jeu.
+
+## Réalité augmentée    
+La réalité augmentée est en fait la superposition d'éléments numériques sur la réalité. Elle nous permet de faire apparaître des éléments dans notre environnement comme s'ils y étaient. Un exemple connu de réalité augmentée est le jeu Pokémon Go. Dans ce jeu, des pokémons apparaissent dans l'environnement qui nous entoure. 
+
+    
+
+## Création de compte    
+Pour faire de la réalité augmentée dans Unity, on doit utiliser des Packages externes pour les outils de détection. Il en existe plusieurs. Unity a créé son propre paquet AR Foundation. Ce dernier est intégré à Unity lorsque vous créez un projet avec le modèle AR.    
+
+Pour notre cours, nous ne verrons pas le modèle de Unity, nous utiliserons plutôt Vuforia Engine qui est un développeur externe. Ils ont développé des outils très puissants qui fonctionnent dans Unity.    
+
+Rendez-vous sur le site suivant pour créer votre compte:    
+
+[🛠️ Vuforia Engine Developer Portal](https://developer.vuforia.com/vui/auth/register){ .md-button }    
+
+Dans le champ Company, entrez: Collège Montmorency.    
+
+Une fois votre compte créé, vous devrez aller le confirmer avec un courriel que vous recevrez. Cliquez sur le lien reçu.    
+
+Appuyez ensuite sur Login et entrez vos informations de connexion
+
+    
+
+## Création d'une license    
+Pour utiliser Vuforia, vous aurez besoin d'une license. Voici comment la créer:
+
+- [ ] Une fois connecté à votre compte, allez dans la section License Manager dans la barre de menu verte
+- [ ] Appuyez sur le bouton Get Basic à droite de l'écran.
+- [ ] Donnez un nom à votre license et cochez la boîte d'acceptation.
+- [ ] Appuyez sur Confirm.
+- [ ] Le nom de votre license apparaîtra alors, appuyez sur celui-ci pour voir votre license. La série de caractères dans la boîte grise est votre license. Vous aurez besoin de cette information dans Unity plus tard.   
 
 
-Voici un résumé des bases que vous apprendrez dans l'exercice au bas de la page.   
+    
+
+## Ajouter Vuforia à un projet    
+Pour ajouter Vuforia à votre projet, vous devrez ajouter un Asset depuis le Asset Store. Suivez la procédure des notes de cours d'introduction pour importer Vuforia Engine dans votre projet. 
+[📁 Asset Vuforia engine](https://assetstore.unity.com/packages/templates/packs/vuforia-engine-163598){ .md-button }    
+
+[🛠️ Importer des assets du asset store](https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#importer-des-assets-du-asset-store){ .md-button }  
 
 
-***  
 
-## Créer un projet
-Pour créer un nouveau projet dans Unity, on doit passer par le Unity Hub. Une fois que celui-ci est ouvert, assurez-vous d'être dans la section Projects du Hub. Ensuite, appuyez sur le bouton bleu New project.   
-Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:   
-<br>- [ ] Vérifier la version de l'éditeur. En haut de la fenêtre, vous avez une liste déroulante nommée Editor Version. Assurez-vous de prendre la version 2022.3.8f1.
-- [ ] Ensuite, vous devez spécifier à Unity quel type de projet vous souhaitez créer. Pour l'instant, nous créerons des projets 2D Core alors appuyez sur ce choix.
-- [ ] Ensuite, à droite vous devez entrer le nom de votre projet et spécifier à quel endroit le sauvegarder.
-- [ ] Une fois que c'est fait appuyez sur Create project.
-
-!!! info "Information"<br><br>       Voici un aperçu des types de projets disponibles:    
-    2D (core) et 3D (core) sont respectivement pour les projets en 2D ou 3D. Ils utilisent la méthode de rendu par défaut de Unity.   
-    2D (URP) et 3D (URP) sont aussi pour des projets en 2D ou 3D, leur méthode de rendu par défaut se nomme Universal Render Pipeline. Cette méthode de rendu est personnalisable et permet de créer des graphiques optimisés.   
-    3D (HDRP) est la méthode que nous utiliserons pour la VR. La méthode de rendu est plus performante et a une meilleure résolution, mais elle est plus longue à traiter.   
-    Il existe d'autre modèles, mais nous utiliserons principalement ceux ci-haut.   
-<br>
-
-***  
-
-## Fenêtres
-Explorons l'interface de Unity.   
-<img src="images/schema.jpg">
-1. Barre de menu <br>
-    Ici, vous pourrez sauvegarder votre projet, créer des objets, faire apparaître de nouvelles fenêtres...   
-2. Fenêtre Hierarchy <br>
-    Cette fenêtre contient une liste de tous les objets présents dans la scène ouverte dans la fenêtre Scene. C'est ici que vous gérer la hiérarchy de vos objets à la manière de calques.   
-3. Fenêtre Scene <br>
-    Cette fenêtre vous permet d'éditer votre jeu ainsi que de le tester lorsque vous allez dans l'onglet Game. La fenêtre Scene montre une scène (un niveau) à la fois.   
-4. Barre d'outils <br>
-    Ici, vous trouverez les outils nécessaires pour modifier les objets de la fenêtre Scene.   
-5. Fenêtre Inspector <br>
-    Cette fenêtre permet d'afficher les composantes des objets présents dans la Scene et de modifier leurs paramètres.   
-6. Fenêtre Project <br>
-    La fenêtre Project contient toutes les ressources externes que vous avez importé dans votre projet. Elle fonctionne à la manière d'un explorateur de fichiers pour vous permettre de classer vos ressources.   
-***  
-
-
-## Nomenclature
-Lorsque vous créez un nouveau projet, je vous conseille de tout de suite créer les dossiers suivants dans votre fenêtre Project. Ainsi, vous pourrez classer vos ressources dès que vous les importez:   
-<br>- [ ] Animation
-- [ ] Art
-- [ ] Audio
-- [ ] Font
-- [ ] Materials (en 3D seulement)
-- [ ] Prefabs
-- [ ] Rendering (Si nécessaire)
-- [ ] Scenes
-- [ ] Scripts 
-
-
-***  
-
-
-## Importer des Assets du Asset Store
-Unity a un magasin nommé le Asset Store qui nous permet d'ajouter des objets 2D, 3D, des scripts et des matériaux à nos projets. Bien que vous deviez créer tous les assets de vos projets, il pourrait arriver que vous ayez à télécharger des Assets depuis le magasin. Vous devrez premièrement, trouvez une ressource dans le magasin, puis ensuite utiliser le Package Manager de Unity pour importer les ressources dans votre projet. Pour ce faire, suivez la procédure suivante:   
-<br>- [ ] Dans Unity, dans la barre de menu en haut à gauche, appuyez sur Window, Asset Store. Une nouvelle fenêtre ouvrira. Appuyez ensuite sur Search Online.
-- [ ] Une page Web s'ouvrira, trouvez alors la ressource que vous souhaitez télécharger et appuyez sur celle-ci.
-- [ ] Appuyez sur Add to my assets, acceptez les conditions, et revenez dans Unity.
-- [ ] Cliquez à nouveau sur Window dans la barre de menu, puis choisissez Package Manager. Une fenêtre s'ouvrira. Celle-ci contient plusieurs éléments présents dans votre projet.
-- [ ] En haut à gauche, il y a un menu déroulant nommé Packages:In Project. Appuyez sur celui-ci et sélectionnez My Assets dans la liste. Vous verrez alors les éléments que vous avez ajouté à vos Assets depuis le Asset Store. Sélectionnez le paquet que vous venez d'ajouter depuis le Asset Store. Un résumé s'affichera à droite. Appuyez sur Download au bas de la page.
-- [ ] Une fois que c'est téléchargé, appuyez sur Import, cliquez ensuite sur Install/Upgrade, puis sur Import dans la nouvelle fenêtre qui s'ouvre.
-
-
-***  
-
-
-<exercice href="exercices/intro/"></exercice>
