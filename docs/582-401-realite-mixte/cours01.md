@@ -4,8 +4,10 @@
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUBSOd1XBz9FtlRAumIpoawBQ0eIzPaiSnY55lTuNJ2AIQ?e=Bo5TuD){ .md-button }   <br>
      
 
-## Sprite et travail 1
+## Sprite
 [📝 Sprite](./unity/sprite.md){ .md-button }       
+
+## Travail 1
     
 [💼 Travail 1](./consignes/travail1.md){ .md-button }     
     
