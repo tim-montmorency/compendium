@@ -13,21 +13,21 @@ Premièrement, la boîte qui contient le texte "Retourner au menu" est la boîte
 
     Vous pouvez utiliser des balises html pour modifier l'allure de votre texte.
     
-Le paramètre Font Asset vous permet de changer la police de caractère de votre texte, pour ce faire, vous devez créer des polices (Voir plus bas).    
+Le paramètre **Font Asset** vous permet de changer la police de caractère de votre texte, pour ce faire, vous devez créer des polices (Voir plus bas).    
 
-Font style vous permet de modifier l'allure de votre texte, gras, italique, majuscule,...     
+**Font style** vous permet de modifier l'allure de votre texte, gras, italique, majuscule,...     
 
-Font size vous permet de choisir la taille de votre texte. Vous pouvez cocher Auto Size si vous souhaitez avoir un texte adaptatif. Ainsi, le texte sera toujours ajusté au plus grand selon l'espace dont il dispose dans la fenêtre. Vous devez alors dicter une valeur minimum et maximum pour la taille du texte.      
+**Font size** vous permet de choisir la taille de votre texte. Vous pouvez cocher Auto Size si vous souhaitez avoir un texte adaptatif. Ainsi, le texte sera toujours ajusté au plus grand selon l'espace dont il dispose dans la fenêtre. Vous devez alors dicter une valeur minimum et maximum pour la taille du texte.      
 
-Vertex Color vous permet de choisir la couleur du texte. Vous pouvez cocher Color Gradient si vous voulez appliquer un dégradé de couleur à votre texte.    
+**Vertex Color** vous permet de choisir la couleur du texte. Vous pouvez cocher Color Gradient si vous voulez appliquer un dégradé de couleur à votre texte.    
 
-Spacing options vous permet de choisir l'espacement entre les caractères, les mots, les lignes et les paragraphes.    
+**Spacing options** vous permet de choisir l'espacement entre les caractères, les mots, les lignes et les paragraphes.    
 
-Alignment vous permet de choisir l'alignement de votre texte dans sa boîte.     
+**Alignment** vous permet de choisir l'alignement de votre texte dans sa boîte.     
 
-Wrapping, lorsque ce paramètre est actif (enabled), cela fait en sorte que votre texte fera un saut de ligne à chaque fois qu'il touchera l'extrémité de sa boîte.     
+**Wrapping**, lorsque ce paramètre est actif (enabled), cela fait en sorte que votre texte fera un saut de ligne à chaque fois qu'il touchera l'extrémité de sa boîte.     
 
-Overflow, ce paramètre détermine comment agira le texte qui dépasse de la boîte. Overflow: Afficher le texte. Ellipsis: Met trois petits points à la fin du texte pour indiquer qu'il se poursuit. Truncate: Coupe le texte qui dépasse.   
+**Overflow**, ce paramètre détermine comment agira le texte qui dépasse de la boîte. Overflow: Afficher le texte. Ellipsis: Met trois petits points à la fin du texte pour indiquer qu'il se poursuit. Truncate: Coupe le texte qui dépasse.   
       
 
 
@@ -54,11 +54,11 @@ Pour assigner votre nouveau matériel à votre texte, sélectionnez votre texte 
 
 <img src="../images/material.jpg">   
 
-Dans face, vous pouvez modifier la couleur de votre texte. Si vous insérez une texture, celle-ci agira comme motif pour votre texte.     
+Dans **face**, vous pouvez modifier la couleur de votre texte. Si vous insérez une texture, celle-ci agira comme motif pour votre texte.     
 
-Outline vous permet d'ajouter un contour à votre texte. N'oubliez pas d'augmenter le paramètre Thickness pour voir vos modifications!     
+**Outline** vous permet d'ajouter un contour à votre texte. N'oubliez pas d'augmenter le paramètre Thickness pour voir vos modifications!     
 
-Underlay vous permet d'ajouter une ombre à votre texte et glow d'ajouter un contour en dehors du contour pour donner un style plus lumineux.   
+**Underlay** vous permet d'ajouter une ombre à votre texte et glow d'ajouter un contour en dehors du contour pour donner un style plus lumineux.   
 
 
 
