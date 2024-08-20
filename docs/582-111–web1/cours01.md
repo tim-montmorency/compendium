@@ -3,12 +3,12 @@
 ## Présentation
 
 ![380096_presentation_share_slide_slideshare_icon](https://github.com/user-attachments/assets/bd35263f-0e48-4e2c-bfaf-1052d3927119)
-[Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/presentation-web-1.html){ .md-button .align-items-center}
+[Voir la présentation](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/presentation-web-1.html)
 
 ## Les Outils
 
 ![669939_adaptive_grid_layout_tools_icon](https://github.com/user-attachments/assets/ba7cc63f-a178-487e-a503-b8484c889f50)
-[Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/les-outils.html){ .md-button }
+[Voir les outils](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/les-outils.html)
 
 ## Histoire du Web
 
