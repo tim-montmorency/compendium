@@ -37,7 +37,8 @@ myAudio.PlayDelayed(2f);
 
 Si on ne veut pas faire jouer le son immédiatement, on peut utiliser PlayDelayed. On doit alors spécifier entre parenthèse le nombre de seconde de délais avant que notre son soit déclenché.
    
-``` csharp public AudioSource myAudio;
+``` csharp
+public AudioSource myAudio;
     public AudioClip myClip; 
 
     public void playAudio()
