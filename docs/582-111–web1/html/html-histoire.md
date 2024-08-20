@@ -45,12 +45,13 @@ Il est composé d'une équipe fixe et des membres (dont plusieurs centaines d'en
 
 ## Les années 2000
 
-- W3C
+## W3C
 - Abandonne l’HTML
 - Développe le XHTML
 - Structure uniquement
 - Mise en forme confiée au CSS
-- WHATWG
+
+## WHATWG
 - Poursuivre le développement de l’HTML
 - Conteste l’autorité et le fonctionnement du W3C
 
@@ -59,8 +60,9 @@ Il est composé d'une équipe fixe et des membres (dont plusieurs centaines d'en
 - 2007 : Abandon de l’XHTML par le W3C
 - Le w3C met en place un groupe de travail HTML5
 - Fin 2016 : Spécification officielle de l’HTML5 (17 ans après l’HTML 4 !!)
-- Spécificités de l’HTML 5
-- Lien copié ✓
+  
+## Spécificités de l’HTML 5
+
 - Plus de numéro de version au-delà de HTML 5
 - HTML 5 rétrocompatible avec toutes les versions précédentes
 - Nombreuses balises dépréciées toujours dans la norme officielle
