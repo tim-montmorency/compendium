@@ -1,6 +1,6 @@
 # Cours 3
 ## S'inscrire au Unity student plan
-[📁 Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
+[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
 
        
 ## Code
