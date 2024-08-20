@@ -58,7 +58,7 @@ Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la f
 
 ## Microsoft 365
 
-![type:video](https://www.youtube.com/watch?v=Fa9hCEg0tuM)
+![type:video](https://www.youtube.com/embed/Fa9hCEg0tuM)
 
 ![365](https://github.com/user-attachments/assets/4599fdfa-34dc-4832-982a-cbf6d136bf39)
 
