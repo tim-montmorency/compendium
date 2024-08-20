@@ -1,12 +1,10 @@
-# Cours 1 - Web 1
-
-## Présentation Web 1
-### Présentation du prof
+# Présentation Web 1
+## Présentation du prof
 ![prof](https://github.com/user-attachments/assets/a47c9774-11f3-479a-a652-29da0feda757)
 
-### Tour de classe
+## Tour de classe
 
-#### Questions pour les étudiants
+### Questions pour les étudiants
 
 1. Qu'est-ce qui vous a poussé à choisir une formation en multimédia ?
 1. Quels sont vos domaines d'intérêt particuliers en multimédia (design graphique, développement web, animation, etc.) ?
@@ -14,9 +12,7 @@
 1. Comment voyez-vous votre carrière future dans le domaine du multimédia ?
 1. Quels sont vos projets ou objectifs actuels en lien avec vos études en multimédia ?
 
-## Les outils
-
-### Procédure pour la rentrée
+## Procédure pour la rentrée
 
 ![procedures](https://github.com/user-attachments/assets/0e77fb68-df94-4bd3-b7e5-8df3c9bade2e)
 
@@ -54,9 +50,9 @@ Lorsque le numéro de DA est à 7 caractères, il doit être précédé de :
 
 ### Mot de passe
 
-Dans tous les cas, lors de la première connexion, la date de naissance est requise sous la forme AAAAMMJJ (exemple : 19510923 pour le 23 septembre 1951). Lors de la première identification, Col.NET demande de créer un mot de passe qui sera utilisé lors des connexions subséquentes.
+Dans tous les cas, lors de la première connexion, la date de naissance est requise sous la forme **AAAAMMJJ** (exemple : 19510923 pour le 23 septembre 1951). Lors de la première identification, Col.NET demande de créer un mot de passe qui sera utilisé lors des connexions subséquentes.
 
-Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la forme AAAA/MM/JJ) entrer votre nouveau mot de passe (entre 6 et 30 caractères, avec au moins une lettre minuscule, une lettre majuscule et un chiffre) et ensuite le saisir à nouveau pour le confirmer:
+Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la forme **AAAA/MM/JJ**) entrer votre nouveau mot de passe (entre 6 et 30 caractères, avec au moins **une lettre minuscule**, **une lettre majuscule** et **un chiffre**) et ensuite le saisir à nouveau pour le confirmer:
 
 [Procédure de connexion](https://www.cmontmorency.qc.ca/ColNET/etudiant/Messagesgeneraux/ColNET_procedure_connexion.pdf)
 
@@ -66,7 +62,7 @@ Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la f
 
 ![365](https://github.com/user-attachments/assets/4599fdfa-34dc-4832-982a-cbf6d136bf39)
 
-### Outils Microsoft 365, tous accessible via
+Outils Microsoft 365, tous accessible via
 
 ![carre](https://github.com/user-attachments/assets/d0aa06eb-e5f7-48c4-9a82-18a04f1fde96)
 
@@ -76,7 +72,7 @@ Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la f
 
 Votre nuage informatique
 
-### Démo OneDrive, création, édition, renommer, déplacement et partage de fichiers
+Démo OneDrive, création, édition, renommer, déplacement et partage de fichiers
 
 ![nuage](https://github.com/user-attachments/assets/c7b5fe62-4ae5-4159-9fae-2287e8ae4e88)
 
@@ -90,9 +86,205 @@ Rejoindre les équipes:
 * TIM - 582 111 - Web 1 - Code d’entrée : **________**
 
 1. Cliquez sur le bouton Équipes sur le côté gauche de l’application
-1. Puis cliquez sur « Se joindre ou créer une équipe » dans la liste des équipes
-1. Cliquez ensuite sur « Se joindre à une équipe à l’aide d’un code », collez le code dans la zone code de l’entrée, puis cliquez sur rejoindre.
+1. Puis cliquez sur **« Se joindre ou créer une équipe »** dans la liste des équipes
+1. Cliquez ensuite sur **« Se joindre à une équipe à l’aide d’un code »**, collez le code dans la zone code de l’entrée, puis cliquez sur rejoindre.
 
 ![teams-1](https://github.com/user-attachments/assets/1bddeeb5-f927-4255-9eaa-2bcf100ce104)
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
+<br>
+***
+<br>
+## Les outils
+
+
+### AUTONOMIE ET DÉBROUILLARDISE
+![autonomie](https://github.com/user-attachments/assets/c985c75c-9e74-4fb8-be83-34358f0dfcd6)
+
+
+
+## Google & Youtube
+
+![google](https://github.com/user-attachments/assets/71846a22-492f-4917-a62a-d5aae5de5411)
+
+Google et YouTube sont largement considérés comme parmi les meilleures plateformes pour trouver des explications et des informations sur une grande variété de sujets.
+
+
+### GOOGLE
+
+1. **Vaste indexation :** Google indexe une immense quantité de pages web provenant du monde entier, ce qui signifie qu'il a accès à une multitude d'informations sur pratiquement tous les sujets imaginables.
+1. **Algorithme de recherche avancé :** Google utilise un algorithme de recherche sophistiqué qui analyse et classe les pages en fonction de leur pertinence et de leur qualité. Cela permet de trouver rapidement des informations fiables et pertinentes.
+1. **Diversité des formats :** Google peut vous fournir différents types de ressources, tels que des articles, des tutoriels, des présentations, des forums de discussion et bien plus encore.
+1. **Fonctionnalités supplémentaires :** Google propose des fonctionnalités comme la recherche d'images, de vidéos, de nouvelles, de livres, etc., ce qui permet de trouver des informations dans divers formats.
+
+### YOUTUBE
+
+1. **Contenu visuel :** YouTube est une plateforme de partage de vidéos, ce qui signifie qu'elle offre des explications sous forme de vidéos. Les vidéos peuvent fournir des explications visuelles, des démonstrations, des tutoriels pas à pas et bien plus encore.
+1. **Variété des créateurs :** Des millions de créateurs de contenu du monde entier partagent leurs connaissances et leurs compétences sur YouTube. Cela signifie que vous pouvez trouver des explications dans une grande variété de domaines, du bricolage à la science en passant par la musique et la cuisine.
+1. **Moteur de recherche vidéo :** Le moteur de recherche de YouTube est spécialement optimisé pour trouver des vidéos pertinentes en fonction de vos requêtes.
+1. **Commentaires et interaction :** Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.
+
+!!! info 
+    Cependant, il est important de noter que, bien que Google et YouTube soient d'excellentes ressources pour trouver des explications, il est toujours conseillé de faire preuve de discernement et          de vérifier la crédibilité des sources, surtout pour des sujets complexes ou controversés.
+    Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.
+
+[Google](https://google.ca)
+ 
+[YouTube](https://youtube.com)
+
+
+## Draw.io
+
+![draw-io](https://github.com/user-attachments/assets/2be5053f-6e20-4630-90a4-e72e939a31e6)
+
+Draw.io est un outil en ligne de création de diagrammes et de schémas. Il permet aux utilisateurs de concevoir des diagrammes de flux, des organigrammes, des diagrammes de réseau, des schémas de base de données, des maquettes d'interface utilisateur, des plans d'architecture et bien d'autres types de graphiques visuels.
+
+L'outil offre une interface conviviale qui facilite la création de diagrammes professionnels, même pour les personnes qui ne sont pas des concepteurs expérimentés.
+
+[Draw.io](https://draw.io)
+
+
+
+## Virtual Studio Code (VS code)
+
+![vs-code](https://github.com/user-attachments/assets/56870a20-21fc-4f9a-a0b2-7f64caf96e87)
+
+
+Visual Studio Code, souvent abrégé en VS Code, est un éditeur de code source développé par Microsoft. Il est conçu pour être léger, rapide et extrêmement personnalisable, ce qui en fait un choix populaire parmi les développeurs pour écrire du code dans une variété de langages de programmation.
+
+VS Code est gratuit et open source, ce qui signifie que les utilisateurs peuvent l'utiliser, le personnaliser et contribuer à son développement.
+
+[VS Code](https://code.visualstudio.com)
+
+
+## W3Schools
+
+![W3Schools](https://github.com/user-attachments/assets/1b8b06aa-8666-4632-bb58-9f306e862942)
+
+
+W3Schools est un site web éducatif populaire qui propose des ressources et des tutoriels pour apprendre et comprendre les technologies liées au développement web et à la conception de sites web.
+
+Fondé en 1998, W3Schools est largement utilisé par les débutants et les développeurs expérimentés comme une ressource de référence pour apprendre, pratiquer et maîtriser divers langages de programmation et technologies web.
+
+[W3Schools](https://www.w3schools.com)
+
+
+## WIKI
+
+![Microsoft_Teams](https://github.com/user-attachments/assets/d50c6c94-11c7-4d82-8b74-f2ae29af9650)
+
+
+Le "Wiki" dans Microsoft Teams fait référence à une fonctionnalité de collaboration qui permet aux équipes de créer et de partager des pages de contenu, de notes et de documentation au sein de leur espace d'équipe. Cela permet aux membres de l'équipe de rassembler et d'organiser des informations importantes, de collaborer sur des documents et de conserver une base de connaissances partagée.
+
+## TIM-Doc
+
+TIM-Doc est une ressource en ligne qui regroupe l'ensemble des connaissances que vous allez apprendre au cours de la session. Cette ressource peut jouer un rôle crucial dans la préparation et la compréhension des matières enseignées.
+
+TIM-Doc est un point d'accès centralisé à une collection complète de documents, de supports de cours et de ressources pédagogiques spécifiques au cours de Web 1. Cela signifie que vous pouvez utiliser ce lien pour accéder à toutes les informations pertinentes dont vous aurez besoin pour étudier et réussir votre session académique.
+
+
+## Codepen
+![codepen](https://github.com/user-attachments/assets/2e73f3d1-87a4-431b-9682-a1cbde7b8a6d)
+
+CodePen est une plateforme en ligne populaire qui permet aux développeurs web de créer, expérimenter et partager du code HTML, CSS et JavaScript en temps réel. C'est un environnement de développement web interactif qui offre un espace de travail virtuel pour tester des idées, créer des maquettes, résoudre des problèmes et collaborer avec d'autres développeurs.
+
+CodePen est souvent utilisé pour la création de prototypes, la démonstration de concepts, l'apprentissage et la création de petites applications web.
+
+[Codepen](https://codepen.io)
+
+
+## Wooclap
+
+![wooclap](https://github.com/user-attachments/assets/363ba459-0565-46d2-be02-eedbaa52282f)
+
+
+Créez des expériences d’apprentissage mémorables avec Wooclap
+
+Wooclap, l’outil pour interagir, capter l’attention et mesurer la compréhension.
+
+[Wooclap](https://www.wooclap.com/fr)
+
+<br>
+## Histoire du Web
+
+L'histoire du web remonte aux années 1960, lorsque les premières notions d'un réseau informatique mondial ont été développées. Voici une brève chronologie des événements clés de l'histoire du web :
+
+![type:video](https://www.youtube.com/watch?v=hrzXdKvG1CY)
+
+### 1960s
+
+**Les prémices du réseau**
+
+Dans les années 1960, les bases de l'informatique et des réseaux informatiques ont été jetées. Des chercheurs et des scientifiques ont exploré la possibilité de connecter des ordinateurs entre eux pour partager des informations et des ressources.
+
+### 1980s
+
+**La création d'Internet**
+
+Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARPA (Advanced Research Projects Agency) du Département de la Défense des États-Unis a développé ARPANET, un réseau qui a permis aux chercheurs de diverses universités et instituts de recherche de communiquer et de partager des données.
+
+![type:video](https://www.youtube.com/watch?v=dW9Wi_ksoWI)
+
+
+### 1990
+
+**L'invention du World Wide Web**
+
+En 1990, le chercheur britannique Sir Tim Berners-Lee a inventé le World Wide Web (WWW) au CERN en Suisse. Il a créé le premier navigateur Web, le premier serveur Web et le premier langage de programmation pour le web, le HTML (HyperText Markup Language). Le premier site web a été mis en ligne en 1991.
+
+<br>
+## Expérience Utilisateur
+![ux-ui](https://github.com/user-attachments/assets/ff5bc640-ab3b-4dc9-a9ef-aa404acfcde9)
+
+### UX vs UI
+![brain](https://github.com/user-attachments/assets/87cd57c7-84f0-40e9-a6e6-2fa560c3e112)
+
+UX (User Experience) et UI (User Interface) sont deux termes importants en web design et se réfèrent à des aspects différents mais complémentaires de la conception d'un site web ou d'une application.
+
+
+### UX
+
+**User Experience**
+
+L'expérience utilisateur (UX) se concentre sur la satisfaction globale et l'émotion ressentie par les utilisateurs lorsqu'ils interagissent avec un site web ou une application. L'objectif de l'UX est de rendre l'expérience utilisateur agréable, intuitive et conviviale.
+
+Cela implique de comprendre les besoins, les attentes et les comportements des utilisateurs, puis de concevoir l'interface et le flux de navigation de manière à répondre à ces besoins de manière efficace.
+
+**Les principaux aspects de l'UX incluent :**
+
+* **Recherche utilisateur :** Comprendre les utilisateurs cibles, leurs motivations et leurs défis.
+
+* **Architecture de l'information :** Organiser le contenu de manière logique et hiérarchique pour faciliter la navigation.
+
+* **Conception de flux :** Concevoir des itinéraires d'interaction et des parcours utilisateur optimisés.
+
+* **Test utilisateur :** Évaluer l'interface avec de vrais utilisateurs pour recueillir des commentaires et des insights pour améliorer l'expérience.
+
+
+### UI
+
+**User Interface**
+
+L'interface utilisateur (UI) se concentre sur l'apparence visuelle et la convivialité des éléments interactifs d'un site web ou d'une application. L'objectif de l'UI est de créer une interface esthétiquement plaisante, cohérente et facile à utiliser.
+
+Cela implique de concevoir des éléments graphiques tels que les boutons, les icônes, les formulaires, les couleurs et les polices, en veillant à ce qu'ils soient alignés avec l'identité visuelle de la marque.
+
+**Les principaux aspects de l'UI incluent :**
+
+* **Design graphique :** Création d'éléments visuels tels que les icônes, les images et les illustrations.
+
+* **Typographie :** Sélection de polices lisibles et appropriées pour améliorer la lisibilité du contenu.
+
+* **Couleurs :** Utilisation de palettes de couleurs cohérentes et adaptées pour améliorer l'expérience visuelle.
+
+* **Composition :** Disposition des éléments pour une présentation harmonieuse et équilibrée.
+
+![difference](https://github.com/user-attachments/assets/fcdb0f14-5237-4f7b-a481-167edcb1ba4a)
+
+
+En résumé, UX se concentre sur la manière dont les utilisateurs interagissent avec un site web ou une application pour améliorer leur expérience globale, tandis que UI se concentre sur l'apparence visuelle et la convivialité des éléments interactifs pour rendre l'interface agréable et facile à utiliser.
+
+Les deux disciplines sont essentielles pour créer une expérience utilisateur réussie et harmonieuse.
+
+
+
