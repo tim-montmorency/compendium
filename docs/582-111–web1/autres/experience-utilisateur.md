@@ -1,10 +1,10 @@
-# Expérience Utilisateur
+# Expérience utilisateur
 ![ux-ui](https://github.com/user-attachments/assets/ff5bc640-ab3b-4dc9-a9ef-aa404acfcde9)
 
 ### UX vs UI
 ![brain](https://github.com/user-attachments/assets/87cd57c7-84f0-40e9-a6e6-2fa560c3e112)
 
-UX (User Experience) et UI (User Interface) sont deux termes importants en web design et se réfèrent à des aspects différents mais complémentaires de la conception d'un site web ou d'une application.
+UX (User Experience) et UI (User Interface) sont deux termes importants en web design et se réfèrent à des aspects différents, mais complémentaires de la conception d'un site web ou d'une application.
 
 
 ### UX
