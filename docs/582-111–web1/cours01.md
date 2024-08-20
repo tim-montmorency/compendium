@@ -132,7 +132,7 @@ Toujours croiser les informations provenant de différentes sources pour obtenir
 [YouTube](https://youtube.com)
 
 
-##Draw.io
+## Draw.io
 
 ![draw-io](https://github.com/user-attachments/assets/2be5053f-6e20-4630-90a4-e72e939a31e6)
 
@@ -144,7 +144,7 @@ L'outil offre une interface conviviale qui facilite la création de diagrammes p
 
 
 
-Virtual Studio Code (VS code)
+## Virtual Studio Code (VS code)
 
 ![vs-code](https://github.com/user-attachments/assets/56870a20-21fc-4f9a-a0b2-7f64caf96e87)
 
