@@ -141,6 +141,14 @@ a.stretched-link {
     content: "";
 }
 
+.ext-link-icon {
+    stroke: var(--md-primary-fg-color);
+}
+
+a:hover .ext-link-icon {
+    stroke: var(--md-accent-fg-color);
+}
+
 /* ---------------------------------- */
 /* Typography */
 /* ---------------------------------- */
@@ -371,7 +379,7 @@ a.codepen-open {
 /* ---------------------------------- */
 /* Miscellaneous */
 /* ---------------------------------- */
-.stop:before {
+stop:before {
     content: '[STOP]';
 }
 
