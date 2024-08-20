@@ -30,7 +30,7 @@ Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:
 
 ## Fenêtres
 Explorons l'interface de Unity.   
-<img src="../images/schema.jpg">
+<img src="../images/schema4.jpg">
     
 1. **Barre de menu**     
     Ici, vous pourrez sauvegarder votre projet, créer des objets, faire apparaître de nouvelles fenêtres...      
