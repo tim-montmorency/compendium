@@ -93,7 +93,7 @@ Rejoindre les équipes:
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
 
-
+***
 
 ## Les outils
 
