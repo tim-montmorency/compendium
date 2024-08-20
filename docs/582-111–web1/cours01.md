@@ -1,12 +1,10 @@
-# Cours 1 - Web 1
-
-## Présentation Web 1
-### Présentation du prof
+# Présentation Web 1
+## Présentation du prof
 ![prof](https://github.com/user-attachments/assets/a47c9774-11f3-479a-a652-29da0feda757)
 
-### Tour de classe
+## Tour de classe
 
-#### Questions pour les étudiants
+### Questions pour les étudiants
 
 1. Qu'est-ce qui vous a poussé à choisir une formation en multimédia ?
 1. Quels sont vos domaines d'intérêt particuliers en multimédia (design graphique, développement web, animation, etc.) ?
@@ -96,3 +94,5 @@ Rejoindre les équipes:
 ![teams-1](https://github.com/user-attachments/assets/1bddeeb5-f927-4255-9eaa-2bcf100ce104)
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
+
+#Les outils
