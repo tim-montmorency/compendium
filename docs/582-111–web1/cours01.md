@@ -175,7 +175,7 @@ Fondé en 1998, W3Schools est largement utilisé par les débutants et les déve
 
 Le "Wiki" dans Microsoft Teams fait référence à une fonctionnalité de collaboration qui permet aux équipes de créer et de partager des pages de contenu, de notes et de documentation au sein de leur espace d'équipe. Cela permet aux membres de l'équipe de rassembler et d'organiser des informations importantes, de collaborer sur des documents et de conserver une base de connaissances partagée.
 
-TIM-Doc
+## TIM-Doc
 
 TIM-Doc est une ressource en ligne qui regroupe l'ensemble des connaissances que vous allez apprendre au cours de la session. Cette ressource peut jouer un rôle crucial dans la préparation et la compréhension des matières enseignées.
 
