@@ -516,12 +516,7 @@ extra_javascript:
 plugins:
   - offline
   - tags
-  - mkdocs-video:
-      is_video: True
-      video_autoplay: True
-      video_muted: True
-      video_controls: True
-      video_loop: True
+  - mkdocs-video
   - mkdocs-audio
   - render-stopper:
       tag: '[STOP]'
