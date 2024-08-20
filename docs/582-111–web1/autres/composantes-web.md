@@ -274,19 +274,13 @@ Contrairement aux popups traditionnels, les fenêtres modales bloquent général
 Les fenêtres modales peuvent être utilisées pour différentes raisons, notamment:
 
 - **Afficher des informations importantes :** Elles permettent de mettre en évidence des messages importants, des avertissements ou des confirmations pour une action spécifique.
-- 
 - **Collecter des données :** Elles peuvent être utilisées pour afficher des formulaires d'inscription, des sondages ou des questionnaires.
-- 
 - **Afficher des médias :** Elles peuvent servir à afficher des images agrandies, des galeries d'images ou des vidéos.
-- 
 - **Demander une interaction spécifique :** Elles peuvent être utilisées pour demander à l'utilisateur de prendre une décision, de confirmer une action ou d'effectuer une tâche spécifique.
 
 
 **Conception et bonnes pratiques**
-- 
 - **Conception adaptée aux mobiles :** Les fenêtres modales doivent être conçues de manière réactive pour une expérience utilisateur cohérente sur différents appareils.
-- 
 - **Faciliter la fermeture :** Assurez-vous que les utilisateurs peuvent facilement fermer la fenêtre modale en ajoutant un bouton de fermeture clair et accessible.
-- 
 - **Fréquence d'apparition :** Évitez d'utiliser trop fréquemment les fenêtres modales pour ne pas perturber l'expérience de navigation des utilisateurs.
 
