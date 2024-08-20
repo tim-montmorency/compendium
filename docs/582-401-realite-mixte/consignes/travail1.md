@@ -1,13 +1,17 @@
 
 
 Pour le travail 1, vous devrez produire une application simple en réalité augmentée. Celle-ci devra contenir une scène menu et une scène de détection. Vous devrez produire une image détectable par votre application. Lorsque celle-ci sera détectée, des sprites devront s'animer et émettre des sons. Vous devrez produire deux animations différentes et les alterner.   
-!!! warning "Attention"<br><br>        Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux que vous créez vous-même! Vous ne pouvez même pas utiliser les médias fournis en exemple par l’enseignant! <br>
+
+!!! warning "Attention"
+
+    Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux que vous créez vous-même! Vous ne pouvez même pas utiliser les médias fournis en exemple par l’enseignant!    
+    
 
 
-***  
+       
 ## Contenus essentiels
 Votre travail devra contenir les éléments suivants:   
-<br>- [ ] L’expérience doit commencer avec un écran d’introduction qui affiche le nom de l’expérience ainsi que votre propre nom. Il doit y avoir un bouton pour démarrer l’expérience, un pour la quitter et un pour accéder aux consignes.
+- [ ] L’expérience doit commencer avec un écran d’introduction qui affiche le nom de l’expérience ainsi que votre propre nom. Il doit y avoir un bouton pour démarrer l’expérience, un pour la quitter et un pour accéder aux consignes.
 - [ ] Dans votre écran d’introduction, vous devez créer un menu consignes avec un texte qui explique les règles et les contrôles.
 - [ ] Lorsqu’on clique sur le bouton pour démarrer le jeu, une nouvelle scène doit être chargée.
 - [ ] Dans la scène de jeu, on doit avoir un bouton qui charge la scène menu.
@@ -19,40 +23,40 @@ Votre travail devra contenir les éléments suivants:
 - [ ] Langue : votre expérience doit être en français.
 - [ ] La remise doit être en format exporté (i.e. built).
 
-***  
+       
 ## Thématique
 La thématique est libre. L'important est que vous créiez vos propres sprites animés et vos sons. Vos sprite sheet doivent contenir au minimum neuf images. La fonctionnalité ainsi que le design du jeu seront évalués.    
 
-***  
+       
 ## Exemple
 Voici un exemple de l'expérience que vous allez produire:    
 
 [📁 Exemple](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXwveboROyxFq0rp66c0XRABPnYf7xWcl9rvjNnrsKVN5Q?e=EdHGgK){ .md-button }   <br>
 
 
-***  
+       
 ## Contenus à produire
-<br>- [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
+- [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
 - [ ] 2 sons qui accompagneront les SpriteSheet animées.
 - [ ] 1 image qu'on pourra scanner avec un appareil mobile.
 - [ ] Des visuels pour les boutons.
 - [ ] Des visuels pour le menu.
 - [ ] Trouver une police de caractère qui vous plaît et la télécharger (pour le menu).
 
-***  
+       
 ## Plan de travail détaillé
 Voici étape par étape comment créer votre travail 1. Les notes de cours reliées à chaque étape vous expliquerons plus en détail comment faire. Elles sont disponibles via les mots soulignés en rouge.   
 
 ### Création du projet
 
-<br>- [ ] Créez un projet 2D core à partir du Unity Hub. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/introduction/#creer-un-projet">Créer le projet</a>
+- [ ] Créez un projet 2D core à partir du Unity Hub. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/introduction/#creer-un-projet">Créer le projet</a>
 - [ ] Modifiez la plateforme de développement pour Android. <a href="https://tim-montmorency.com/timdoc/582-434MO/installation/configuration/#developper-pour-android">Changer de plateforme</a>
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/introduction/#nomenclature">Nomenclature</a>
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene. Une scene sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
 
 ### Création de la scène Jeu - détection AR
 
-<br>- [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
+- [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
 - [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/introduction/#importer-des-assets-du-asset-store">Package Manager</a>
 - [ ] Assurez-vous d'avoir créé une license Vuforia pour votre projet. <a href="https://tim-montmorency.com/timdoc/582-434MO/realite-augmentee/introduction/#creation-dune-license">License</a>
 - [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/timdoc/582-434MO/realite-augmentee/detection/#creation-dune-base-de-donnees-dimages">Base de données</a>
@@ -63,7 +67,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 ### Création de la scène Jeu - Animations
 
-<br>- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/animation/#importer-la-sprite-sheet">Importation SpriteSheet</a>
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/animation/#importer-la-sprite-sheet">Importation SpriteSheet</a>
 - [ ] Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/animation/#animator-controller">Animator Controller</a>
 - [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/animation/#animator">GameObject Animator</a>
 - [ ] Créez une animation pour chaque Sprite Sheet. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/animation/#creation-danimations-de-sprite-sheet">Créer une animation</a>
@@ -76,12 +80,12 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 ### Création de la scène Jeu - Script
 
-<br>- [ ] Suivez le tutoriel suivant pour créer le script de votre Scene Jeu.
+- [ ] Suivez le tutoriel suivant pour créer le script de votre Scene Jeu.
 <youtube src="v4OD6PwHGIw"></youtube>
 
 ### Création de la scène Menu - UI
 
-<br>- [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la Scene Jeu avant de la quitter! Vous pouvez maitenant lui apporter des modifications.
+- [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la Scene Jeu avant de la quitter! Vous pouvez maitenant lui apporter des modifications.
 - [ ] Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/UI/#canvas">Créer un canvas</a>
 - [ ] Dans la fenêtre Game, modifier le format de votre Scene de Free Aspect à 1920 x 1080 Landscape.
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
@@ -102,6 +106,6 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
 
 ### Création de l'application
-<br>- [ ] Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/timdoc/582-434MO/unity/build/#preparer-lexportation">Préparer</a>
+- [ ] Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/timdoc/582-434MO/unity/build/#preparer-lexportation">Préparer</a>
 - [ ] Suivez le tutoriel suivant pour exporter l'application. <a href ="https://tim-montmorency.com/timdoc/582-434MO/unity/build/#exporter-pour-android">Préparer</a>
 
