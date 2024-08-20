@@ -6,10 +6,9 @@ Voici la procédure d'installation de Unity.
 
 Rendez-vous sur le site suivant pour télécharger le Unity Hub:   
 [📁 Unity](https://unity.com/download){ .md-button }   <br>
-
 !!! info "Information"
 
-  Le Unity Hub est une application qui vous permet d'installer les différentes versions du logiciel Unity et de gérer tous vos projets au même endroit.<br>
+    Le Unity Hub est une application qui vous permet d'installer les différentes versions du logiciel Unity et de gérer tous vos projets au même endroit.<br>
       
 ## Installation du logiciel
 
@@ -24,8 +23,8 @@ Rendez-vous sur le site suivant pour télécharger le Unity Hub:
 - [ ] Lorsque Visual Studio Code est prêt, fermez-le sans ouvrir de projet. 
 
 !!! warning "Attention"
-  
-  Assurez-vous de prendre la bonne version du logiciel, sinon cela pourrait entrer des problèmes de correspondance lors de travaux d'équipe!<br>
+
+    Assurez-vous de prendre la bonne version du logiciel, sinon cela pourrait entrer des problèmes de correspondance lors de travaux d'équipe!<br>
 
       
 
