@@ -5,15 +5,15 @@
      
 
 ## Sprite et travail 1
-    <intlink href="../unity/sprite/"></intlink>
-    <intlink href="../consignes/travail1/"></intlink>
+[📝 Sprite](./unity/sprite.md){ .md-button }    
+[💼 Travail 1](./consignes/travail1.md){ .md-button }     
     
 ### Test d'exemples de travail 1
-    Projets de: 
-      <li>Quoc Huy Do</li>
-      <li>Felix Testa Radovanovic</li>
-      <li>Jacob Alarie-Brousseau</li>
-      <li>Antoine Haddad</li>
+Projets de:     
+- Quoc Huy Do
+- Felix Testa Radovanovic
+- Jacob Alarie-Brousseau
+- Antoine Haddad
        
 
 ### Réflexion sur la thématique de votre travail 1
@@ -21,11 +21,13 @@
            
 
 ## Installation et base de Unity
-    <intlink href="../installation/compte/"></intlink>
-    <intlink href="../installation/telechargement/"></intlink>
+[📝 Création d'un compte Unity](./installation/compte.md){ .md-button }    
+[📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
+
            
 
 ## Intro à l'éditeur 
+    [🛠️ Création d'un compte Unity](./installation/compte.md){ .md-button }   
     <exercice href="../unity/introduction/exercices/intro/"></exercice>
  
            
@@ -34,4 +36,5 @@
     À l'extérieur et dans les livres.   
            
 ## Retour en groupe 
-    <intlink href="../unity/introduction/"></intlink>   
+[📝 Introduction à Unity](./unity/introduction.md){ .md-button }  
+
