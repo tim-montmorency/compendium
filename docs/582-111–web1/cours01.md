@@ -211,13 +211,13 @@ L'histoire du web remonte aux années 1960, lorsque les premières notions d'un 
 
 ### 1960s
 
-Les prémices du réseau
+**Les prémices du réseau**
 
 Dans les années 1960, les bases de l'informatique et des réseaux informatiques ont été jetées. Des chercheurs et des scientifiques ont exploré la possibilité de connecter des ordinateurs entre eux pour partager des informations et des ressources.
 
 ### 1980s
 
-La création d'Internet
+**La création d'Internet**
 
 Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARPA (Advanced Research Projects Agency) du Département de la Défense des États-Unis a développé ARPANET, un réseau qui a permis aux chercheurs de diverses universités et instituts de recherche de communiquer et de partager des données.
 
@@ -226,7 +226,7 @@ Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARP
 
 ### 1990
 
-L'invention du World Wide Web
+**L'invention du World Wide Web**
 
 En 1990, le chercheur britannique Sir Tim Berners-Lee a inventé le World Wide Web (WWW) au CERN en Suisse. Il a créé le premier navigateur Web, le premier serveur Web et le premier langage de programmation pour le web, le HTML (HyperText Markup Language). Le premier site web a été mis en ligne en 1991.
 
@@ -242,40 +242,40 @@ UX (User Experience) et UI (User Interface) sont deux termes importants en web d
 
 ### UX
 
-User Experience
+**User Experience**
 
 L'expérience utilisateur (UX) se concentre sur la satisfaction globale et l'émotion ressentie par les utilisateurs lorsqu'ils interagissent avec un site web ou une application. L'objectif de l'UX est de rendre l'expérience utilisateur agréable, intuitive et conviviale.
 
 Cela implique de comprendre les besoins, les attentes et les comportements des utilisateurs, puis de concevoir l'interface et le flux de navigation de manière à répondre à ces besoins de manière efficace.
 
-Les principaux aspects de l'UX incluent :
+**Les principaux aspects de l'UX incluent :**
 
-* Recherche utilisateur : Comprendre les utilisateurs cibles, leurs motivations et leurs défis.
+* **Recherche utilisateur :** Comprendre les utilisateurs cibles, leurs motivations et leurs défis.
 
-* Architecture de l'information : Organiser le contenu de manière logique et hiérarchique pour faciliter la navigation.
+* **Architecture de l'information :** Organiser le contenu de manière logique et hiérarchique pour faciliter la navigation.
 
-* Conception de flux : Concevoir des itinéraires d'interaction et des parcours utilisateur optimisés.
+* **Conception de flux :** Concevoir des itinéraires d'interaction et des parcours utilisateur optimisés.
 
-* Test utilisateur : Évaluer l'interface avec de vrais utilisateurs pour recueillir des commentaires et des insights pour améliorer l'expérience.
+* **Test utilisateur :** Évaluer l'interface avec de vrais utilisateurs pour recueillir des commentaires et des insights pour améliorer l'expérience.
 
 
 ### UI
 
-User Interface
+**User Interface**
 
 L'interface utilisateur (UI) se concentre sur l'apparence visuelle et la convivialité des éléments interactifs d'un site web ou d'une application. L'objectif de l'UI est de créer une interface esthétiquement plaisante, cohérente et facile à utiliser.
 
 Cela implique de concevoir des éléments graphiques tels que les boutons, les icônes, les formulaires, les couleurs et les polices, en veillant à ce qu'ils soient alignés avec l'identité visuelle de la marque.
 
-Les principaux aspects de l'UI incluent :
+**Les principaux aspects de l'UI incluent :**
 
-* Design graphique : Création d'éléments visuels tels que les icônes, les images et les illustrations.
+* **Design graphique :** Création d'éléments visuels tels que les icônes, les images et les illustrations.
 
-* Typographie : Sélection de polices lisibles et appropriées pour améliorer la lisibilité du contenu.
+* **Typographie :** Sélection de polices lisibles et appropriées pour améliorer la lisibilité du contenu.
 
-* Couleurs : Utilisation de palettes de couleurs cohérentes et adaptées pour améliorer l'expérience visuelle.
+* **Couleurs :** Utilisation de palettes de couleurs cohérentes et adaptées pour améliorer l'expérience visuelle.
 
-* Composition : Disposition des éléments pour une présentation harmonieuse et équilibrée.
+* **Composition :** Disposition des éléments pour une présentation harmonieuse et équilibrée.
 
 ![difference](https://github.com/user-attachments/assets/fcdb0f14-5237-4f7b-a481-167edcb1ba4a)
 
