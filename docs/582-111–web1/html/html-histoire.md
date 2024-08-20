@@ -8,7 +8,7 @@ Il représente en fait une des trois technologies de base que tout développeur 
 
 On parle de langage de balisage et non de langage de programmation, car le but du HTML est d’encadrer les différents éléments présents dans une page (images, titres, paragraphes...) par des balises pour leur donner du sens et aussi leur permettre d’être mis en forme via une feuille de style.
 
-** Histoire du html**
+**Histoire du html**
 
 L'origine du HTML remonte au début du Web.
 En effet, il a été inventé vers les années 1990 afin qu'il puisse présenter les documents qui circulent sur la toile et établir des liens entre eux à travers les liens hypertextes (ou hyperliens).
