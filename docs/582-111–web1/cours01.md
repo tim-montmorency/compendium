@@ -289,5 +289,23 @@ Cela implique de concevoir des éléments graphiques tels que les boutons, les i
 
     Les deux disciplines sont essentielles pour créer une expérience utilisateur réussie et harmonieuse.
 
+<br>
+<br>
+## Composantes Web
+
+Les composantes web sont les éléments qui composent un site web ou une application web. Ils sont utilisés pour créer la structure, le contenu, le style et les fonctionnalités d'un site web. Voici quelques-unes des principales composantes web :
+
+1. **HTML (Hypertext Markup Language) :** C'est le langage de balisage standard utilisé pour créer la structure et le contenu d'une page web. Il permet de définir les titres, les paragraphes, les images, les liens, les tableaux et autres éléments de base.
+1. **CSS (Cascading Style Sheets) :** C'est un langage de style utilisé pour définir la présentation et l'apparence visuelle d'une page web. Il permet de définir les couleurs, les polices, les marges, les positions, les animations, etc.
+1. **JavaScript :** C'est un langage de programmation utilisé pour ajouter des fonctionnalités interactives et dynamiques à un site web. Il permet de créer des menus déroulants, des carrousels, des formulaires interactifs, des animations, etc.
+1. **Images :** Les images, telles que les photos, les icônes et les graphiques, sont utilisées pour enrichir le contenu visuel d'un site web.
+1. **Vidéos et audios :** Les vidéos et les fichiers audio peuvent être incorporés dans une page web pour fournir du contenu multimédia.
+1. **Liens :** Les liens (ou hyperliens) permettent de relier différentes pages web entre elles. Ils sont essentiels pour naviguer à travers un site web.
+1. **Formulaires :** Les formulaires permettent aux utilisateurs de soumettre des données et des informations sur un site web, par exemple lors de la création de comptes ou du remplissage de questionnaires.
+1. **Boutons et éléments interactifs :** Les boutons et autres éléments interactifs permettent aux utilisateurs d'effectuer des actions spécifiques, comme soumettre un formulaire, ouvrir des menus, etc.
+1. **Contenu multimédia intégré :** Les contenus provenant de services tiers, tels que des vidéos YouTube intégrées, des cartes Google Maps, des publications sur les réseaux sociaux, etc.
+1. **Effets spéciaux et animations :** Les effets spéciaux et animations CSS ou JavaScript peuvent être utilisés pour rendre le site web plus attrayant et interactif.
+
+Ces composantes web peuvent être combinées et mises en œuvre de différentes manières pour créer des sites web avec une grande variété de fonctionnalités et de styles.
 
 
