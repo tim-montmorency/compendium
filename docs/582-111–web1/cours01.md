@@ -80,7 +80,7 @@ Votre nuage informatique
 
 ## Microsoft TEAMS
 
-![type:video](https://www.youtube.com/embed/yT12quWr01g?si=5X40_mR_tzkX9Xqc)
+![type:video](https://www.youtube.com/watch?v=yT12quWr01g)
 
 Rejoindre les équipes:
 
@@ -95,4 +95,4 @@ Rejoindre les équipes:
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
 
-#Les outils
+# Les outils
