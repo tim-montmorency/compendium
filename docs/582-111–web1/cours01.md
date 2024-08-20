@@ -22,4 +22,4 @@
 
 ## HTML - Histoire
 
-[Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/html-histoire.html){ .md-button }
+[Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/html-histoire.html){ .md-button }
