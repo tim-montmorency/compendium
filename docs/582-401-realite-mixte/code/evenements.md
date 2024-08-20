@@ -1,9 +1,6 @@
-
-
 Dans Unity, les événements nous permettent de déclencher des scripts ou encore de modifier des GameObjects facilement lorsqu'ils sont déclenchés. Certains objets contiennent des événements par défaut. Par exemple, les boutons contiennent l'événement On Click, les Image Target contiennent l'événement détection d'image... Dans ce chapitre, nous allons voir les possibilités que créent les événements.    
 
-
-***  
+     
 
 ## Événement
 Les événements sont des boîtes qui ressemblent à ceci dans l'inspecteur:    
@@ -25,7 +22,7 @@ Dans l'image ci-haut, j'ai assigné l'objet Square à l'événement. Ensuite, da
 
 <warning>Lorsque vous crééz une fonction dans un script et que vous souhaitez l'appeler à partir d'un événement assurez vous que votre fonction est publique (Public void).</warning>
 
-***  
+      
 
 ## Composante Event Trigger
 Dans Unity, il est possible d'ajouter un événement à nos GameObjects pour détecter les touches sur lequel le joueur appuie ou les mouvements qu'il fait avec sa souris. Cela nous permet de faire des déclenchements lorsque des modifications sont détectées.   
