@@ -97,29 +97,29 @@ Rejoindre les équipes:
 
 # Les outils
 
-## AUTONOMIE ET DÉBROUILLARDISE
+### AUTONOMIE ET DÉBROUILLARDISE
 ![autonomie](https://github.com/user-attachments/assets/c985c75c-9e74-4fb8-be83-34358f0dfcd6)
 
 
-Google & Youtube
+## Google & Youtube
 
 ![google](https://github.com/user-attachments/assets/71846a22-492f-4917-a62a-d5aae5de5411)
 
 Google et YouTube sont largement considérés comme parmi les meilleures plateformes pour trouver des explications et des informations sur une grande variété de sujets.
 
-## GOOGLE
+### GOOGLE
 
-**Vaste indexation :** Google indexe une immense quantité de pages web provenant du monde entier, ce qui signifie qu'il a accès à une multitude d'informations sur pratiquement tous les sujets imaginables.
-**Algorithme de recherche avancé :** Google utilise un algorithme de recherche sophistiqué qui analyse et classe les pages en fonction de leur pertinence et de leur qualité. Cela permet de trouver rapidement des informations fiables et pertinentes.
-**Diversité des formats :** Google peut vous fournir différents types de ressources, tels que des articles, des tutoriels, des présentations, des forums de discussion et bien plus encore.
-**Fonctionnalités supplémentaires :** Google propose des fonctionnalités comme la recherche d'images, de vidéos, de nouvelles, de livres, etc., ce qui permet de trouver des informations dans divers formats.
+1. **Vaste indexation :** Google indexe une immense quantité de pages web provenant du monde entier, ce qui signifie qu'il a accès à une multitude d'informations sur pratiquement tous les sujets imaginables.
+1. **Algorithme de recherche avancé :** Google utilise un algorithme de recherche sophistiqué qui analyse et classe les pages en fonction de leur pertinence et de leur qualité. Cela permet de trouver rapidement des informations fiables et pertinentes.
+1. **Diversité des formats :** Google peut vous fournir différents types de ressources, tels que des articles, des tutoriels, des présentations, des forums de discussion et bien plus encore.
+1. **Fonctionnalités supplémentaires :** Google propose des fonctionnalités comme la recherche d'images, de vidéos, de nouvelles, de livres, etc., ce qui permet de trouver des informations dans divers formats.
 
-## YOUTUBE
+### YOUTUBE
 
-**Contenu visuel :** YouTube est une plateforme de partage de vidéos, ce qui signifie qu'elle offre des explications sous forme de vidéos. Les vidéos peuvent fournir des explications visuelles, des démonstrations, des tutoriels pas à pas et bien plus encore.
-**Variété des créateurs :** Des millions de créateurs de contenu du monde entier partagent leurs connaissances et leurs compétences sur YouTube. Cela signifie que vous pouvez trouver des explications dans une grande variété de domaines, du bricolage à la science en passant par la musique et la cuisine.
-**Moteur de recherche vidéo :** Le moteur de recherche de YouTube est spécialement optimisé pour trouver des vidéos pertinentes en fonction de vos requêtes.
-**Commentaires et interaction :** Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.
+1. **Contenu visuel :** YouTube est une plateforme de partage de vidéos, ce qui signifie qu'elle offre des explications sous forme de vidéos. Les vidéos peuvent fournir des explications visuelles, des démonstrations, des tutoriels pas à pas et bien plus encore.
+1. **Variété des créateurs :** Des millions de créateurs de contenu du monde entier partagent leurs connaissances et leurs compétences sur YouTube. Cela signifie que vous pouvez trouver des explications dans une grande variété de domaines, du bricolage à la science en passant par la musique et la cuisine.
+1. **Moteur de recherche vidéo :** Le moteur de recherche de YouTube est spécialement optimisé pour trouver des vidéos pertinentes en fonction de vos requêtes.
+1. **Commentaires et interaction :** Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.
 
 !!! info Cependant, il est important de noter que, bien que Google et YouTube soient d'excellentes ressources pour trouver des explications, il est toujours conseillé de faire preuve de discernement et de vérifier la crédibilité des sources, surtout pour des sujets complexes ou controversés.
 Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.
@@ -127,6 +127,8 @@ Toujours croiser les informations provenant de différentes sources pour obtenir
 Google
  
 YouTube
+
+
 Draw.io
 Lien copié ✓
 
