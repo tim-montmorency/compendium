@@ -30,7 +30,7 @@ public class script2 : MonoBehaviour
 ```
 
 
-     La première section est celle des NameSpace. On la remarque par l'utilisation de using avant chaque terme. Elle détermine quelles classes seront utilisées dans ce script. On laisse celles qui sont présentes par défaut. D'autres peuvent être ajoutées au besoin:   
+La première section est celle des NameSpace. On la remarque par l'utilisation de using avant chaque terme. Elle détermine quelles classes seront utilisées dans ce script. On laisse celles qui sont présentes par défaut. D'autres peuvent être ajoutées au besoin:   
 
 - **using UnityEngine.UI;** Permet de modifier certaines composantes comme les boutons.
 - **using UnityEngine.Video;** Permet de modifier les composantes reliées à la lecture de vidéos.
