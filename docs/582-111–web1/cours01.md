@@ -125,6 +125,7 @@ Google et YouTube sont largement considérés comme parmi les meilleures platefo
 1. **Commentaires et interaction :** Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.
 
 !!! info 
+    
     Cependant, il est important de noter que, bien que Google et YouTube soient d'excellentes ressources pour trouver des explications, il est toujours conseillé de faire preuve de discernement et          de vérifier la crédibilité des sources, surtout pour des sujets complexes ou controversés.
     Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.
 
@@ -282,9 +283,11 @@ Cela implique de concevoir des éléments graphiques tels que les boutons, les i
 ![difference](https://github.com/user-attachments/assets/fcdb0f14-5237-4f7b-a481-167edcb1ba4a)
 
 
-En résumé, UX se concentre sur la manière dont les utilisateurs interagissent avec un site web ou une application pour améliorer leur expérience globale, tandis que UI se concentre sur l'apparence visuelle et la convivialité des éléments interactifs pour rendre l'interface agréable et facile à utiliser.
+!!! info
 
-Les deux disciplines sont essentielles pour créer une expérience utilisateur réussie et harmonieuse.
+    En résumé, UX se concentre sur la manière dont les utilisateurs interagissent avec un site web ou une application pour améliorer leur expérience globale, tandis que UI se concentre sur                  l'apparence visuelle et la convivialité des éléments interactifs pour rendre l'interface agréable et facile à utiliser.
+
+    Les deux disciplines sont essentielles pour créer une expérience utilisateur réussie et harmonieuse.
 
 
 
