@@ -10,7 +10,8 @@ Pour le travail 1, vous devrez produire une application simple en réalité augm
 
        
 ## Contenus essentiels
-Votre travail devra contenir les éléments suivants:   
+Votre travail devra contenir les éléments suivants:      
+
 - [ ] L’expérience doit commencer avec un écran d’introduction qui affiche le nom de l’expérience ainsi que votre propre nom. Il doit y avoir un bouton pour démarrer l’expérience, un pour la quitter et un pour accéder aux consignes.
 - [ ] Dans votre écran d’introduction, vous devez créer un menu consignes avec un texte qui explique les règles et les contrôles.
 - [ ] Lorsqu’on clique sur le bouton pour démarrer le jeu, une nouvelle scène doit être chargée.
