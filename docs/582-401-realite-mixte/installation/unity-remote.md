@@ -1,13 +1,9 @@
-
-
 Il est possible de tester avec un appareil mobile depuis Unity sans avoir à Exporter notre jeu à chaque fois. Nous allons voir comment utiliser l'application Unity remote pour faire cela.   
 
 
-***  
-
 
 ## Installer Unity Remote
-<br>- [ ] Pour pouvoir tester sur mobile, on doit ajouter l'application Unity Remote sur notre téléphone. Elle est disponible dans le Play store ou l'app store gratuitement.
+- [ ] Pour pouvoir tester sur mobile, on doit ajouter l'application Unity Remote sur notre téléphone. Elle est disponible dans le Play store ou l'app store gratuitement.
 - [ ] Une fois l'app installée, connectez votre téléphone à l'ordinateur avec un câble USB.
 - [ ] Ensuite, allez dans le menu Edit, Project Settings, puis ouvrez l'onglet Editor.
 - [ ] Maintenant, dans Device, sélectionnez Any Android Device.
