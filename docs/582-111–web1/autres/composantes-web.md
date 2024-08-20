@@ -15,7 +15,7 @@ Les composantes web sont les éléments qui composent un site web ou une applica
 
 Ces composantes web peuvent être combinées et mises en œuvre de différentes manières pour créer des sites web avec une grande variété de fonctionnalités et de styles.
 
----
+## Appel à l’action
 
 !!! info "Appel à l’action"
     
