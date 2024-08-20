@@ -5,7 +5,8 @@
      
 
 ## Sprite et travail 1
-[📝 Sprite](./unity/sprite.md){ .md-button }    
+[📝 Sprite](./unity/sprite.md){ .md-button }       
+    
 [💼 Travail 1](./consignes/travail1.md){ .md-button }     
     
 ### Test d'exemples de travail 1
@@ -23,7 +24,8 @@ Projets de:
            
 
 ## Installation et base de Unity
-[📝 Création d'un compte Unity](./installation/compte.md){ .md-button }    
+[📝 Création d'un compte Unity](./installation/compte.md){ .md-button }       
+     
 [📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
 
            
