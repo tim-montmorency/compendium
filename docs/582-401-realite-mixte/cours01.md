@@ -27,10 +27,9 @@ Projets de:
            
 
 ## Intro à l'éditeur 
-    [🛠️ Création d'un compte Unity](./installation/compte.md){ .md-button }   
-    <exercice href="../unity/introduction/exercices/intro/"></exercice>
- 
-           
+[🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }   
+
+            
     
 ## Test d'expériences AR
     À l'extérieur et dans les livres.   
