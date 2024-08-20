@@ -92,8 +92,8 @@ Rejoindre les équipes:
 ![teams-1](https://github.com/user-attachments/assets/1bddeeb5-f927-4255-9eaa-2bcf100ce104)
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
+
 <br>
-***
 <br>
 ## Les outils
 
@@ -206,6 +206,7 @@ Wooclap, l’outil pour interagir, capter l’attention et mesurer la compréhen
 [Wooclap](https://www.wooclap.com/fr)
 
 <br>
+<br>
 ## Histoire du Web
 
 L'histoire du web remonte aux années 1960, lorsque les premières notions d'un réseau informatique mondial ont été développées. Voici une brève chronologie des événements clés de l'histoire du web :
@@ -233,6 +234,7 @@ Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARP
 
 En 1990, le chercheur britannique Sir Tim Berners-Lee a inventé le World Wide Web (WWW) au CERN en Suisse. Il a créé le premier navigateur Web, le premier serveur Web et le premier langage de programmation pour le web, le HTML (HyperText Markup Language). Le premier site web a été mis en ligne en 1991.
 
+<br>
 <br>
 ## Expérience Utilisateur
 ![ux-ui](https://github.com/user-attachments/assets/ff5bc640-ab3b-4dc9-a9ef-aa404acfcde9)
@@ -308,4 +310,24 @@ Les composantes web sont les éléments qui composent un site web ou une applica
 
 Ces composantes web peuvent être combinées et mises en œuvre de différentes manières pour créer des sites web avec une grande variété de fonctionnalités et de styles.
 
+---
 
+!!! info "Appel à l’action"
+    
+    L’appel à l’action, ou « Call to Action (CTA) » en anglais, est l’élément visuel (bouton ou texte) qui indique aux visiteurs à cliquer. Il indique à l’utilisateur quoi faire, où cliquer, quoi           acheter. Il est censé le guider vers l’objectif du détenteur du site. Vendre des billets, informer, localiser un lieu, etc.
+    <br>
+    ![appel-a-laction](https://github.com/user-attachments/assets/45125a12-3a7d-4ebc-ba8a-e1f74b435ac3){text-align: center;}
+    <br>
+    **Fonctions**
+    * Guider l’utilisateur vers un parcours qu’on définit (par exemple on souhaite que les visiteurs consultent les promotions)
+
+    * Amener l’utilisateur à la prochaine étape dans un processus plus complexe.
+    Le bouton « appel à l’action » doit avoir une taille convenable pour attirer l’attention de l’utilisateur, pensez aussi aux appareils tactiles.
+
+    La couleur de ce bouton peut être déterminée en fonction de celles de votre logo et de votre site internet. Cependant, il peut être judicieux de le démarquer du reste de la page : si vous utilisez      la couleur orange, cherchez à différencier votre appel à l’action afin qu’il ressorte davantage et attire l’attention de l’utilisateur.
+
+    Le texte du bouton vise à expliquer à l'utilisateur à quoi il sert.
+    
+    * Utiliser des verbes d’action
+
+    * Utiliser une terminologie spécifique à une tâche (éviter soumettre ou cliquez ici)
