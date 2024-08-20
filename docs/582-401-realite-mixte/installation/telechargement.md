@@ -5,7 +5,7 @@ Voici la procédure d'installation de Unity.
 ## Téléchargement
 
 Rendez-vous sur le site suivant pour télécharger le Unity Hub:   
-[📁 Unity](https://unity.com/download){ .md-button }   <br>
+[🛠️ Unity](https://unity.com/download){ .md-button }   <br>
 !!! info "Information"
 
     Le Unity Hub est une application qui vous permet d'installer les différentes versions du logiciel Unity et de gérer tous vos projets au même endroit.
