@@ -95,10 +95,14 @@ Rejoindre les équipes:
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
 
+
+
 # Les outils
+
 
 ### AUTONOMIE ET DÉBROUILLARDISE
 ![autonomie](https://github.com/user-attachments/assets/c985c75c-9e74-4fb8-be83-34358f0dfcd6)
+
 
 
 ## Google & Youtube
@@ -106,6 +110,7 @@ Rejoindre les équipes:
 ![google](https://github.com/user-attachments/assets/71846a22-492f-4917-a62a-d5aae5de5411)
 
 Google et YouTube sont largement considérés comme parmi les meilleures plateformes pour trouver des explications et des informations sur une grande variété de sujets.
+
 
 ### GOOGLE
 
