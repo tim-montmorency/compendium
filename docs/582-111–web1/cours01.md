@@ -80,7 +80,7 @@ Votre nuage informatique
 
 ## Microsoft TEAMS
 
-![type:video](https://www.youtube.com/watch?v=yT12quWr01g)
+![type:video](https://www.youtube.com/embed/yT12quWr01g?si=5X40_mR_tzkX9Xqc)
 
 Rejoindre les équipes:
 
