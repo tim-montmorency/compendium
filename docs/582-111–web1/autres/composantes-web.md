@@ -457,7 +457,7 @@ Ils sont utilisés pour communiquer des informations essentielles aux utilisateu
 
 - **Messages d'alerte :** Les messages d'alerte sont utilisés pour avertir les utilisateurs d'une situation importante ou urgente qui nécessite leur attention. Ils peuvent être utilisés pour informer les utilisateurs sur des problèmes temporaires du site, des mises à jour importantes ou des changements qui peuvent affecter leur expérience.
 - **Messages d'erreur :** Les messages d'erreur sont affichés lorsque l'utilisateur a effectué une action incorrecte ou a fourni des informations incorrectes dans un formulaire. Ces messages informent les utilisateurs sur les erreurs spécifiques qu'ils ont commises et fournissent des instructions pour les corriger.
-- **Messages de notification :** Les messages de notification sont utilisés pour informer les utilisateurs sur des événements ou des actions qui ont été réalisés avec succès. Ils peuvent être utilisés pour confirmer qu'une opération a été effectuée, comme l'envoi d'un formulaire, la confirmation d'un paiement, ou la réussite d'une action.
+- **Messages de notification :** Les messages de notification sont utilisés pour informer les utilisateurs sur des événements ou des actions qui ont été réalisées avec succès. Ils peuvent être utilisés pour confirmer qu'une opération a été effectuée, comme l'envoi d'un formulaire, la confirmation d'un paiement, ou la réussite d'une action.
 
 
 **Conception et bonnes pratiques**
