@@ -78,6 +78,26 @@ hide:
         1. Nulla tempor lobortis orci
         ```
 
+!!! note "Espacement (hr)"
+
+    === "Résultat"
+
+        Texte avant
+
+        ---
+
+        Texte après
+
+    === "Markdown"
+
+        ``` markdown
+        Texte avant
+
+        ---
+
+        Texte après
+        ```
+
 !!! note "Cases à cocher"
 
     === "Résultat"
