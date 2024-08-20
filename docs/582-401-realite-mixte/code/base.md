@@ -69,7 +69,7 @@ Voici une liste des opérateurs courants dans Unity:
 - **-=** (myInt -= 2;) soustrait 2 à myInt
 - **++** (myInt ++;) additionne 1 à myInt
 - **--** (myInt --;) soustrait 1 à myInt
-- ** *=** (myInt *= 2;) multiplie myInt par 2
+- *= (myInt *= 2;) multiplie myInt par 2
 - **/=** (myInt /= 2;) divise myInt en 2
 - **%=** (myInt %= 2;) calcule le reste de la division de myInt par 2
 - +, -, * et / peuvent aussi être utilisés entre 2 nombres
