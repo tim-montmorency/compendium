@@ -10494,39 +10494,41 @@
 
   <h1>Son</h1>
 
-<div><hr>
-<h2 id="audio-listener">Audio Listener<a class="headerlink" href="#audio-listener" title="Permanent link">¶</a></h2>
+<div><h2 id="audio-listener">Audio Listener<a class="headerlink" href="#audio-listener" title="Permanent link">¶</a></h2>
 <p>La composante Audio Listener est présente par défaut sur la caméra de votre jeu. Si ce n'est pas le cas, vous devriez l'ajouter. Elle vous permettra d'entendre les sons de votre jeu. Par défaut, le listener est sur la caméra puisque la vue du joueur suit celle de la caméra. Ainsi, il est logique qu'on entende les même bruits que la caméra.   </p>
-<hr>
 <h2 id="audio-source">Audio Source<a class="headerlink" href="#audio-source" title="Permanent link">¶</a></h2>
-<p>La composante Audio Source est celle qui vous permet de jouer des sons. Habituellement on met cette composante sur les objets qui émettent les sons. Si vous préférez avoir un son général pour votre jeu, vous pouvez faire un clic droit dans la fenêtre hierarchy, puis sélectionner Audio, Audio Source. Ainsi, votre son ne sera pas rattaché à un objet. <br>
-<img src="images/son.jpg">
-Pour fonctionner, la composante Audio Source a premièrement besoin d'un AudioClip, c'est à dire d'une piste sonore. Vous devrez donc importer vos sons dans Unity. Je vous suggère d'importer des fichiers .mp3 dans un dossier nommé Audio. Une fois vos fichiers importés, vous pourrez les glisser dans la boîte AudioClip de la composante AudioSource. <br>
-Le paramètre Mute permet de ne plus entendre le son, mais on devrait l'arrêter de jouer plutôt que le muter. <br>
-Par défaut, le paramètre Play on awake est coché, il fait en sorte que notre son jouera dès qu'on partira notre jeu. Si on veut le déclencher manuellement à un autre moment, on peut décocher cette boîte. <br>
-Le paramètre Loop permet de jouer l'audio en boucle lorsqu'il est coché. <br>
-Le paramètre Volume vous permet d'ajuster le volume de votre audio.    </p>
-<hr>
+<p>La composante Audio Source est celle qui vous permet de jouer des sons. Habituellement on met cette composante sur les objets qui émettent les sons. Si vous préférez avoir un son général pour votre jeu, vous pouvez faire un clic droit dans la fenêtre hierarchy, puis sélectionner Audio, Audio Source. Ainsi, votre son ne sera pas rattaché à un objet.     </p>
+<p><img src="../images/son.jpg">   </p>
+<p>Pour fonctionner, la composante Audio Source a premièrement besoin d'un AudioClip, c'est à dire d'une piste sonore. Vous devrez donc importer vos sons dans Unity. Je vous suggère d'importer des fichiers .mp3 dans un dossier nommé Audio. Une fois vos fichiers importés, vous pourrez les glisser dans la boîte AudioClip de la composante AudioSource.     </p>
+<p>Le paramètre Mute permet de ne plus entendre le son, mais on devrait l'arrêter de jouer plutôt que le muter.      </p>
+<p>Par défaut, le paramètre Play on awake est coché, il fait en sorte que notre son jouera dès qu'on partira notre jeu. Si on veut le déclencher manuellement à un autre moment, on peut décocher cette boîte.       </p>
+<p>Le paramètre Loop permet de jouer l'audio en boucle lorsqu'il est coché.     </p>
+<p>Le paramètre Volume vous permet d'ajuster le volume de votre audio.    </p>
 <h2 id="jouer-un-son-avec-le-code">Jouer un son avec le code<a class="headerlink" href="#jouer-un-son-avec-le-code" title="Permanent link">¶</a></h2>
-<p><highlight lang="csharp"><br>
-public AudioSource myAudio; </highlight></p>
-<p>public void playAudio()
-{
-    myAudio.Play(); 
-} 
-Ci-haut, on a un exemple de code simple pour jouer une AudioSource manuellement. En créant un objet public AudioSource, on peut glisser n'importe quel AudioSource de notre jeu dans ce script. Ensuite, lorsqu'on appelle la fonction playAudio, notre son sera joué. <br>
-<highlight lang="csharp"> myAudio.PlayDelayed(2f);</highlight>
-Si on ne veut pas faire jouer le son immédiatement, on peut utiliser PlayDelayed. On doit alors spécifier entre parenthèse le nombre de seconde de délais avant que notre son soit déclenché. <br>
-<highlight lang="csharp"> public AudioSource myAudio;
-    public AudioClip myClip; </highlight></p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">AudioSource</span><span class="w"> </span><span class="n">myAudio</span><span class="p">;</span><span class="w"> </span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">playAudio</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">myAudio</span><span class="p">.</span><span class="n">Play</span><span class="p">();</span><span class="w"> </span>
+<span class="p">}</span><span class="w"> </span><span class="err">```</span>
+
+<span class="n">Ci</span><span class="o">-</span><span class="n">haut</span><span class="p">,</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">un</span><span class="w"> </span><span class="n">exemple</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="n">simple</span><span class="w"> </span><span class="n">pour</span><span class="w"> </span><span class="n">jouer</span><span class="w"> </span><span class="n">une</span><span class="w"> </span><span class="n">AudioSource</span><span class="w"> </span><span class="n">manuellement</span><span class="p">.</span><span class="w"> </span><span class="n">En</span><span class="w"> </span><span class="n">créant</span><span class="w"> </span><span class="n">un</span><span class="w"> </span><span class="n">objet</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">AudioSource</span><span class="p">,</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">peut</span><span class="w"> </span><span class="n">glisser</span><span class="w"> </span><span class="n">n</span><span class="err">'</span><span class="n">importe</span><span class="w"> </span><span class="n">quel</span><span class="w"> </span><span class="n">AudioSource</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">notre</span><span class="w"> </span><span class="n">jeu</span><span class="w"> </span><span class="n">dans</span><span class="w"> </span><span class="n">ce</span><span class="w"> </span><span class="n">script</span><span class="p">.</span><span class="w"> </span><span class="n">Ensuite</span><span class="p">,</span><span class="w"> </span><span class="n">lorsqu</span><span class="err">'</span><span class="k">on</span><span class="w"> </span><span class="n">appelle</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">fonction</span><span class="w"> </span><span class="n">playAudio</span><span class="p">,</span><span class="w"> </span><span class="n">notre</span><span class="w"> </span><span class="n">son</span><span class="w"> </span><span class="n">sera</span><span class="w"> </span><span class="n">joué</span><span class="p">.</span>
+
+<span class="err">```</span><span class="w"> </span><span class="n">csharp</span>
+<span class="n">myAudio</span><span class="p">.</span><span class="n">PlayDelayed</span><span class="p">(</span><span class="m">2f</span><span class="p">);</span>
+</code></pre></div>
+<p>Si on ne veut pas faire jouer le son immédiatement, on peut utiliser PlayDelayed. On doit alors spécifier entre parenthèse le nombre de seconde de délais avant que notre son soit déclenché.</p>
+<p>``` csharp public AudioSource myAudio;
+    public AudioClip myClip; </p>
 <pre><code>public void playAudio()
 {
     myAudio.PlayOneShot(myClip); 
-}&lt;/highlight&gt;
+}
 </code></pre>
-<p>L'exemple ci-haut montre de quelle façon on peut faire jouer un clip avec la composante AudioSource. Ce qui est intéressant avec PlayOneShot, c'est qu'on doit spécifier à la source quel clip jouer, ainsi, on peut faire jouer des clips différents grâce à cette source. Play one shot comme son nom l'indique, jouera le clip une seule fois. <br>
-<highlight lang="csharp"> myAudio.Pause();</highlight>
-Ce code permet de mettre l'audio sur pause.   </p></div>
+<p><code>L'exemple ci-haut montre de quelle façon on peut faire jouer un clip avec la composante AudioSource. Ce qui est intéressant avec PlayOneShot, c'est qu'on doit spécifier à la source quel clip jouer, ainsi, on peut faire jouer des clips différents grâce à cette source. Play one shot comme son nom l'indique, jouera le clip une seule fois.</code> csharp
+myAudio.Pause();
+```</p>
+<p>Ce code permet de mettre l'audio sur pause.   </p></div>
 
 
 
