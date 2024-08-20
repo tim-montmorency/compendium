@@ -2,7 +2,7 @@
 
 ## Présentation
 
-![196758_analytics_bars_chart_graph_presentation_icon](https://github.com/user-attachments/assets/5607b417-ff0d-4038-b85b-7231986554d2)
+![380096_presentation_share_slide_slideshare_icon](https://github.com/user-attachments/assets/bd35263f-0e48-4e2c-bfaf-1052d3927119)
 [Présentation Web 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/presentation-web-1.html){ .md-button }
 
 ## Les Outils
