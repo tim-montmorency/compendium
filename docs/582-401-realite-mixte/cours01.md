@@ -26,8 +26,12 @@ Projets de:
            
 
 ## Installation et base de Unity
-[📝 Création d'un compte Unity](./installation/compte.md){ .md-button }       
-     
+### Création de compte
+
+Rendez-vous sur le site suivant pour créer votre compte:   
+[📁 Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
+
+### Téléchargement de Unity
 [📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
 
            
