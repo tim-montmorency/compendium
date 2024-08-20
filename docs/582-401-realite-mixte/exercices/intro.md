@@ -11,7 +11,7 @@ Pour débuter, télécharger le projet vous pouvez trouver via le lien suivant:
 [📁 Micro-game](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EkCzBYoXwONMrTIsORjtMfIB6ilPKiFSz7Su7kiIdV3nbw?e=EZbO3E){ .md-button }   <br>
 
 Téléchargez ensuite cette image, vous en aurez besoin plus tard:    
-![chat](../images/Chat.png) { width: 200px; }
+<img src="../images/Chat.png" width="100" height="200">
 
       
 
