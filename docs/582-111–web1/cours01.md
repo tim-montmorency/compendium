@@ -316,7 +316,9 @@ Ces composantes web peuvent être combinées et mises en œuvre de différentes 
     
     L’appel à l’action, ou « Call to Action (CTA) » en anglais, est l’élément visuel (bouton ou texte) qui indique aux visiteurs à cliquer. Il indique à l’utilisateur quoi faire, où cliquer, quoi           acheter. Il est censé le guider vers l’objectif du détenteur du site. Vendre des billets, informer, localiser un lieu, etc.
     <br>
-    ![appel-a-laction](https://github.com/user-attachments/assets/45125a12-3a7d-4ebc-ba8a-e1f74b435ac3){text-align: center;}
+    <div style="text-align: center;">
+    ![appel-a-laction](https://github.com/user-attachments/assets/45125a12-3a7d-4ebc-ba8a-e1f74b435ac3)
+    </div>
     <br>
     **Fonctions**
     
