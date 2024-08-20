@@ -1336,6 +1336,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/Importation3D.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html</loc>
          <lastmod>2024-08-20</lastmod>
          <changefreq>daily</changefreq>
@@ -1362,6 +1367,31 @@
     </url>
     <url>
          <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/configuration_vr.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/deplacement_vr.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/eau.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/eclairage.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html</loc>
+         <lastmod>2024-08-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/github.html</loc>
          <lastmod>2024-08-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
