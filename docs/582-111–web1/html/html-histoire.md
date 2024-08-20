@@ -45,13 +45,13 @@ Il est composé d'une équipe fixe et des membres (dont plusieurs centaines d'en
 
 ## Les années 2000
 
-## W3C
+# W3C
 - Abandonne l’HTML
 - Développe le XHTML
 - Structure uniquement
 - Mise en forme confiée au CSS
 
-## WHATWG
+# WHATWG
 - Poursuivre le développement de l’HTML
 - Conteste l’autorité et le fonctionnement du W3C
 
