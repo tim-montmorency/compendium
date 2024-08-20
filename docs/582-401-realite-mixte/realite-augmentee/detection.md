@@ -3,15 +3,15 @@
 Une des étapes primordiales de la Réalité augmentée est la détection d'image à l'aide d'une caméra. C'est à partir de l'image détectée dans le monde réel qu'on saura quel contenu doit être affiché. De plus, l'image nous servira à savoir à quel emplacement les objets doivent apparaître.   
 
 
-***  
+      
 
 ## Création d'une base de données d'images
 Pour détecter des images dans Unity avec Vuforia, vous devrez vous créer une base de données contenant les images à détecter.   
 Avant de commencer, assurez-vous d'être connecté à votre compte Vuforia sur le portail de développement. Vous pouvez y accéder via le site suivant: 
 
-    [📁 Vuforia Engine Developer Portal]( https://developer.vuforia.com/vui/auth/login){ .md-button }   <br> 
+[📁 Vuforia Engine Developer Portal]( https://developer.vuforia.com/vui/auth/login){ .md-button }    
 
-<br>- [ ] Une fois connecté, assurez-vous d'être dans l'onglet develop du menu gris, puis allez dans l'onglet Target Manager du menu vert.
+- [ ] Une fois connecté, assurez-vous d'être dans l'onglet develop du menu gris, puis allez dans l'onglet Target Manager du menu vert.
 - [ ] Maintenant, cliquez sur Add Database pour créer une base de données.
 - [ ] Donnez un nom à votre base de données et sélectionnez Device puisque l'on souhaite que la base de données se sauvegarde dans l'appareil mobile sur lequel l'expérience fonctionne. De cette façon, le wifi ne sera pas nécessaire pour faire fonctionner votre jeu.
 - [ ] Appuyez sur Create.
@@ -25,11 +25,12 @@ Avant de commencer, assurez-vous d'être connecté à votre compte Vuforia sur l
 - [ ] Procédez de la même façon pour ajouter toutes vos images. Vous pourrez revenir en ajouter plus tard au besoin.
 - [ ] Rafraichissez la page et observez le Rating de vos images. Il s'exprime en terme d'étoiles. Plus votre image a d'étoiles, plus elle sera facile à détecter. Si votre image n'a pas d'étoiles ou seulement une, vous devriez penser à lui apporter des modifications.
 
-***  
+      
 
 ## Créer des bonnes images pour la détection
-Quatre paramètres sont à considérer pour créer une bonne image pour la détection:   
-<br>- [ ] La richesse des détails
+Quatre paramètres sont à considérer pour créer une bonne image pour la détection:    
+
+- [ ] La richesse des détails
 - [ ] Le contraste
 - [ ] Les motifs non répétitifs
 - [ ] Le format
@@ -41,30 +42,32 @@ Quatre paramètres sont à considérer pour créer une bonne image pour la déte
     Les motifs jouent un grand rôle dans la détection. Idéalement, ils doivent être bien répartis dans l'espace et ils ne doivent pas être répétitifs.   
     Finalement, le format a une importance. Nos images ne doivent pas être trop petites pour éviter qu'elles soient floues, mais elles ne doivent pas être trop grosses pour que notre jeu reste léger.   
 
-    ***  
+          
 
 ## Télécharger la base de données
 Une fois que toutes vos images ont été ajoutées à votre base de données, vous pouvez la télécharger pour l'apporter dans Unity.    
-<br>- [ ] Pour ce faire, appuyez sur le bouton Download Database (All).
+
+- [ ] Pour ce faire, appuyez sur le bouton Download Database (All).
 - [ ] Choisissez ensuite Unity Editor, puis appuyez sur Download.
 
-***  
+      
 
 ## Importer les images
 Dans Unity, nous voulons maintenant importer les images qui nous servirons à faire la détection dans la réalité. La base de données que nous avons téléchargé est au format Package de Unity. 
 
-<br>- [ ] Faites un clic-droit dans la fenêtre Project.
+- [ ] Faites un clic-droit dans la fenêtre Project.
 - [ ] Dans la liste, sélectionnez Import Package, Custom Package.
 - [ ] Dans l'explorateur de fichier, trouvez le package Unity que vous avez téléchargé plus tôt. Appuyez sur ouvrir.
 - [ ] Une fenêtre s'ouvrira, vous devez appuyer sur Import.
 - [ ] Par défaut, vos Images seront importées dans le dossier Editor, Vuforia, Image Target,...
 
-***  
+      
 
 ## Caméra de détection
 Pour pouvoir détecter des Images dans le monde réel, nous aurons besoin d'une caméra qui filme l'environnement qui nous entoure. C'est celle-ci qui analysera ce qu'elle voit et qui nous indiquera si elle détecte les images que nous lui demandons de surveiller. Vuforia a créé un objet caméra qui permet d'avoir ces fonctionnalités sans code.   
 Voici comment changer la caméra de votre projet et préparer celui-ci pour la détection d'images:   
-<br>- [ ] Choisissez une scène ou créez-en une nouvelle pour la détection.
+
+- [ ] Choisissez une scène ou créez-en une nouvelle pour la détection.
 - [ ] Une fois dans la scène choisie, supprimez l'objet Main Camera dans la fenêtre Hierarchy.
 - [ ] Dans cette même fenêtre, faites un clic-droit, sélectionnez Vuforia Engine, Ar Camera dans la liste.
 - [ ] Une fois votre caméra créée, appuyez sur celle-ci dans la Hierarchy.
@@ -74,11 +77,12 @@ Voici comment changer la caméra de votre projet et préparer celui-ci pour la d
 
 <warning>Vous devez avoir une seule caméra dans votre projet pour éviter les conflits.</warning>
 
-***  
+      
 
 ## Détecter une image
 Maintenant, nous allons créer des objets de détection d'images. Nous utiliserons l'objet Image Target de Vuforia. Celui-ci contient la composante Image Target Behaviour, qui nous permet de détecter des images qu'on importe directement depuis Unity ou à partir d'une base de données.    
-<br>- [ ] Dans la fenêtre Hierarchy, faites un clic-droit. Sélectionnez ensuite Vuforia Engine, Image Target.
+
+- [ ] Dans la fenêtre Hierarchy, faites un clic-droit. Sélectionnez ensuite Vuforia Engine, Image Target.
 - [ ] Vous pouvez donner un nom à votre image, puis appuyer sur Enter.
 - [ ] Appuyez sur votre objet dans la Hierarchy.
 - [ ] Dans la fenêtre Inspector, dans la composante Image Target Behaviour, sélectionnez From Database dans le menu Type.
@@ -87,9 +91,9 @@ Maintenant, nous allons créer des objets de détection d'images. Nous utilisero
 - [ ] Pour voir l'image que vous venez d'ajouter, deux manipulations seront nécessaires, premièrement, dans la composante Transform, la rotation en X de l'objet doit être de -90. Si vous ne voyez toujours pas l'image, appuyez sur la touche F avec la souris au-dessus de la fenêtre Scene pour focusser sur votre objet.
 - [ ] Vous pouvez maintenant appuyer sur Play pour tester. Lorsque la caméra verra votre image, Unity imprimera un message de détection dans la console. Cela signifie que votre détection fonctionne.
 
-!!! info "Information"<br><br>       Si votre projet contient peu d'images à détecter, vous pourriez utiliser le type From Image dans la composante Image Target Behaviour et utiliser des images que vous importer dans Unity comme Target.<br>
+!!! info "Information"       Si votre projet contient peu d'images à détecter, vous pourriez utiliser le type From Image dans la composante Image Target Behaviour et utiliser des images que vous importer dans Unity comme Target.
 
-***  
+      
 
 ## Déclencher à partir d'une détection
 Nous avons créé un objet Image Target qui nous permet de détecter une image. Le Image Target contient aussi la composante Default Observer Event Handler qui nous permet de déclencher des événements si l'image est détectée ou encore si la détection prend fin. Nous allons voir comment.   
