@@ -92,9 +92,9 @@ Rejoindre les équipes:
 ![teams-1](https://github.com/user-attachments/assets/1bddeeb5-f927-4255-9eaa-2bcf100ce104)
 
 ![teams-2](https://github.com/user-attachments/assets/d199a066-25d4-4b04-9fa2-38cbacc977b6)
-
+<br>
 ***
-
+<br>
 ## Les outils
 
 
@@ -124,8 +124,8 @@ Google et YouTube sont largement considérés comme parmi les meilleures platefo
 1. **Moteur de recherche vidéo :** Le moteur de recherche de YouTube est spécialement optimisé pour trouver des vidéos pertinentes en fonction de vos requêtes.
 1. **Commentaires et interaction :** Les vidéos sur YouTube sont souvent accompagnées de sections de commentaires où vous pouvez poser des questions et interagir avec les créateurs et d'autres spectateurs pour obtenir des éclaircissements supplémentaires.
 
->[! info] Cependant, il est important de noter que, bien que Google et YouTube soient d'excellentes ressources pour trouver des explications, il est toujours conseillé de faire preuve de discernement > et de vérifier la crédibilité des sources, surtout pour des sujets complexes ou controversés.
-> Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.
+[! info] Cependant, il est important de noter que, bien que Google et YouTube soient d'excellentes ressources pour trouver des explications, il est toujours conseillé de faire preuve de discernement et de vérifier la crédibilité des sources, surtout pour des sujets complexes ou controversés.
+Toujours croiser les informations provenant de différentes sources pour obtenir une vue d'ensemble précise.
 
 [Google](https://google.ca)
  
