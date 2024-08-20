@@ -10516,16 +10516,17 @@
 <div class="highlight"><pre><span></span><code><span class="n">myAudio</span><span class="p">.</span><span class="n">PlayDelayed</span><span class="p">(</span><span class="m">2f</span><span class="p">);</span>
 </code></pre></div>
 <p>Si on ne veut pas faire jouer le son immédiatement, on peut utiliser PlayDelayed. On doit alors spécifier entre parenthèse le nombre de seconde de délais avant que notre son soit déclenché.</p>
-<p>``` csharp public AudioSource myAudio;
-    public AudioClip myClip; </p>
-<pre><code>public void playAudio()
-{
-    myAudio.PlayOneShot(myClip); 
-}
-</code></pre>
-<p><code>L'exemple ci-haut montre de quelle façon on peut faire jouer un clip avec la composante AudioSource. Ce qui est intéressant avec PlayOneShot, c'est qu'on doit spécifier à la source quel clip jouer, ainsi, on peut faire jouer des clips différents grâce à cette source. Play one shot comme son nom l'indique, jouera le clip une seule fois.</code> csharp
-myAudio.Pause();
-```</p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">AudioSource</span><span class="w"> </span><span class="n">myAudio</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">AudioClip</span><span class="w"> </span><span class="n">myClip</span><span class="p">;</span><span class="w"> </span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">playAudio</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">myAudio</span><span class="p">.</span><span class="n">PlayOneShot</span><span class="p">(</span><span class="n">myClip</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+<p>L'exemple ci-haut montre de quelle façon on peut faire jouer un clip avec la composante AudioSource. Ce qui est intéressant avec PlayOneShot, c'est qu'on doit spécifier à la source quel clip jouer, ainsi, on peut faire jouer des clips différents grâce à cette source. Play one shot comme son nom l'indique, jouera le clip une seule fois.    </p>
+<div class="highlight"><pre><span></span><code><span class="n">myAudio</span><span class="p">.</span><span class="n">Pause</span><span class="p">();</span>
+</code></pre></div>
 <p>Ce code permet de mettre l'audio sur pause.   </p></div>
 
 
