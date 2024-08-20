@@ -60,11 +60,11 @@ Dans Unity, la fenêtre animation nous permettra de visualiser nos animations et
 
 <img src="../images/schema.jpg">   
 
-1. Barre de contrôle     
+1. **Barre de contrôle**     
     La barre de contrôle vous permet de vous déplacer dans l'animation, de la faire jouer et d'enregistrer de nouvelles images clés.   
-2. Fenêtre propriétés     
+2. **Fenêtre propriétés**     
     Cette fenêtre vous permet de choisir les paramètres que vous voulez contrôler dans votre animation et de leur attribuer des valeurs. Elle vous permet aussi de créer de nouveaux clips d'animation ou encore d'ajouter des Keyframes. Les paramètres animables sont nombreux, ce peut être la position, la couleur, la rotation...   
-3. Ligne du temps     
+3. **Ligne du temps**     
     Cette fenêtre est une ligne du temps qui affiche vos keyframes dans le temps. L'unité utilisé est le frame. Par défaut, 60 frames équivalent à 1 seconde dans Unity. Il est possible de changer l'unité avec les trois petits points à la droite de la fenêtre.    
 
       
@@ -106,10 +106,11 @@ Dans Unity, la fenêtre Animatior nous permet de visualiser les animations déj�
 
     Habituellement, la fenêtre Animator est un onglet de la fenêtre Scene.
 
-<img src="../images/schema2.jpg">
-1. Paramètres    
+<img src="../images/schema2.jpg">    
+
+1. **Paramètres**    
     Dans cette section, nous pourrons créer des paramètres pour modifier les transitions de nos animations.     
-2. Fenêtre Animator     
+2. **Fenêtre Animator**     
     Cette fenêtre permet de visualiser les animations qui ont déjà été créées. Les animations sont affichées en gris, sauf une qui est orange. L'animation qui est orange est celle qui sera appliqué par défaut sur votre objet. Les boîtes Entry, Any State et Exit nous permettent d'animer les transitions à des moments clés. Dans cette fenêtre, les flèches représentent les transitions.     
 
       
@@ -124,7 +125,8 @@ Dans Unity, la fenêtre Animatior nous permet de visualiser les animations déj�
 - [ ] Établissez alors la condition pour que votre transition s'enclenche. Premièrement, choisissez le bon paramètre, s'il est plus grand ou plus petit et la valeur. Par exemple, la transition se fait si speed est plus grand que 0.01, donc si je me déplace.
 - [ ] Vous pouvez maintenant tester votre transition. Appuyez sur Play pour passer en mode test. Votre animation de base devrait alors jouer. Allez changer la valeur de votre paramètre dans la fenêtre Animator. Retournez dans la fenêtre Game pour voir si l'animation a changé. Vous pouvez sortir du mode Test.
 - [ ] Maintenant, vous pourriez vouloir faire la même transition, mais dans l'autre sens. Répétez les étapes 2 à 7 pour créer la transition inverse.
-- [ ] Si jamais vous voulez créer une transition qui peut partir à tout moment, par exemple, un saut de personnage. Plutôt que de partir de l'animation de base, vous devriez partir votre animation de la boîte Any State. Cette boîte fait en sorte que dès que la condition est respectée, peu importe l'animation qui est en train de jouer, on passera à l'animation appelée. Ainsi, que je sois en Idle ou en train de courir, je pourrai sauter. Attention! La transition de retour, ne se fera pas vers le AnyState, ainsi vous aurez plus qu'une transition de fin à créer. Par exemple, si le paramètre Speed est à 0, je créerai une transition pour retourner à Idle, mais si il est plus grand que 0.01, j'irai en mode course.  Exemple: <img src="images/schema3.jpg">
+- [ ] Si jamais vous voulez créer une transition qui peut partir à tout moment, par exemple, un saut de personnage. Plutôt que de partir de l'animation de base, vous devriez partir votre animation de la boîte Any State. Cette boîte fait en sorte que dès que la condition est respectée, peu importe l'animation qui est en train de jouer, on passera à l'animation appelée. Ainsi, que je sois en Idle ou en train de courir, je pourrai sauter. Attention! La transition de retour, ne se fera pas vers le AnyState, ainsi vous aurez plus qu'une transition de fin à créer. Par exemple, si le paramètre Speed est à 0, je créerai une transition pour retourner à Idle, mais si il est plus grand que 0.01, j'irai en mode course.
+Exemple: <img src="../images/schema3.jpg">
 
 !!! info "Information"
 
@@ -134,7 +136,7 @@ Dans Unity, la fenêtre Animatior nous permet de visualiser les animations déj�
 
 ## Coder l'Animator Controller
 Maintenant, il serait utile de savoir comment modifier les paramètres qu'on a créé dans notre Animator Controller directement dans le code plutôt que de le faire manuellement.   
-``` 
+``` csharp
 public class PlayerController : MonoBehaviour{
     public Animator animator; 
     private float moveX; 
@@ -149,6 +151,9 @@ public class PlayerController : MonoBehaviour{
 
 
 Explication   
-On doit créer un paramètre public de type Animator pour pouvoir parler à notre Animator Controller. Une fois le script créé, on devra aller glisser notre Animator dans le paramètre de ce Script.   
-Ici, moveX est un paramètre aléatoire qui devrait être modifié selon les touches du clavier sur lesquelles le joueur appuie.   
+On doit créer un paramètre public de type Animator pour pouvoir parler à notre Animator Controller. Une fois le script créé, on devra aller glisser notre Animator dans le paramètre de ce Script. 
+
+      
+Ici, moveX est un paramètre aléatoire qui devrait être modifié selon les touches du clavier sur lesquelles le joueur appuie.     
+
 Dans le Update, on modifie la valeur du paramètre de type float nommé "Speed" pour lui donner la valeur de moveX. Ici, le paramètre SetFloat, peut aussi être SetInt ou SetBool selon le type de variable que vous avez choisi. Le nom entre "" doit être EXACTEMENT le même que celui que vous avez écrit dans votre Animator Controller. Portez attention aux majuscules! Finalement, la valeur moveX peut être remplacée par ce que vous souhaitez, elle doit avoir le même type que la variable de votre Animator Controller et être modifiée par les actions du joueur.   
