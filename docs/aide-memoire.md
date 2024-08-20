@@ -201,7 +201,7 @@ hide:
 !!! note "Message"
 
     === "Résultat"
-        
+
         !!! tip "Titre facultatif"
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -214,14 +214,14 @@ hide:
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         ```
 
-        Types disponibles : `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote` 
+        Types disponibles : `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote`
 
 !!! note "Cacher du contenu (feature Stéphane)"
 
-    En ajoutant la mention <stop/> (entre crochet, en majuscule et sans espace), le contenu qui suit ne sera pas visible dans les notes de cours. 
+    En ajoutant la mention <stop></stop> (entre crochet, en majuscule et sans espace), le contenu qui suit ne sera pas visible dans les notes de cours.
 
     === "Résultat"
-        
+
         Cours #5
 
     === "Markdown"
@@ -229,7 +229,7 @@ hide:
         Cours #5
 
         <stop/>
-        
+
         Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
         ```css
@@ -237,7 +237,7 @@ hide:
             border-style: solid;
             border-top-width: 15px;
         }
-        ``` 
+        ```
 
         Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
