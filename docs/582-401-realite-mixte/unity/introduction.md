@@ -4,7 +4,8 @@ Voici un résumé des bases que vous apprendrez dans l'exercice au bas de la pag
       
 
 ## Créer un projet
-Pour créer un nouveau projet dans Unity, on doit passer par le Unity Hub. Une fois que celui-ci est ouvert, assurez-vous d'être dans la section Projects du Hub. Ensuite, appuyez sur le bouton bleu New project.   
+Pour créer un nouveau projet dans Unity, on doit passer par le Unity Hub. Une fois que celui-ci est ouvert, assurez-vous d'être dans la section Projects du Hub. Ensuite, appuyez sur le bouton bleu New project.      
+
 Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:      
 
 - [ ] Vérifier la version de l'éditeur. En haut de la fenêtre, vous avez une liste déroulante nommée Editor Version. Assurez-vous de prendre la version 2022.3.8f1.
@@ -14,10 +15,14 @@ Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:
 
 !!! info "Information"
 
-    Voici un aperçu des types de projets disponibles:    
+    Voici un aperçu des types de projets disponibles:     
+    
     2D (core) et 3D (core) sont respectivement pour les projets en 2D ou 3D. Ils utilisent la méthode de rendu par défaut de Unity.   
+    
     2D (URP) et 3D (URP) sont aussi pour des projets en 2D ou 3D, leur méthode de rendu par défaut se nomme Universal Render Pipeline. Cette méthode de rendu est personnalisable et permet de créer des graphiques optimisés.   
+    
     3D (HDRP) est la méthode que nous utiliserons pour la VR. La méthode de rendu est plus performante et a une meilleure résolution, mais elle est plus longue à traiter.   
+    
     Il existe d'autre modèles, mais nous utiliserons principalement ceux ci-haut.   
 
 
