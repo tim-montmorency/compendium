@@ -154,10 +154,7 @@ nav:
     - Cours 15: 582-301-interactivite-ludique/cours15.md
   - Web 3 :
     - 582-311-web3/index.md
-    - Cours 1:
-      - 582-311-web3/cours01.md
-      - Javascript: 582-311-web3/javascript.md
-      - Bootstrap: 582-311-web3/bootstrap.md
+    - Cours 1: 582-311-web3/cours01.md
     - Cours 2: 582-311-web3/cours02.md
     - Cours 3: 582-311-web3/cours03.md
     - Cours 4: 582-311-web3/cours04.md
