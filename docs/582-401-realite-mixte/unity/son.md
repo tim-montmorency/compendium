@@ -26,7 +26,8 @@ public AudioSource myAudio;
 public void playAudio()
 {
     myAudio.Play(); 
-} ```
+}
+```
 
 Ci-haut, on a un exemple de code simple pour jouer une AudioSource manuellement. En créant un objet public AudioSource, on peut glisser n'importe quel AudioSource de notre jeu dans ce script. Ensuite, lorsqu'on appelle la fonction playAudio, notre son sera joué.
 
