@@ -6,6 +6,8 @@ tags:
 
 # Cours 2
 
+[STOP]
+
 ## Markdown (révision?)
 
 Syntaxe que l'on retrouve sur Github :material-github:
@@ -109,15 +111,15 @@ Syntaxe que l'on retrouve sur Github :material-github:
 === "Markdown"
 
     ```markdown
-    > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme. 
-    > 
+    > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme.
+    >
     > — Giacomo Leopardi
     ```
 
 === "Résultat"
 
-    > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme. 
-    > 
+    > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme.
+    >
     > — Giacomo Leopardi
 
 ### Code
@@ -176,5 +178,4 @@ Syntaxe que l'on retrouve sur Github :material-github:
 
 ## Git
 
-## NodeJS 
-
+## NodeJS

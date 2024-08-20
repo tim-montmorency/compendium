@@ -5,3 +5,5 @@ tags:
 ---
 
 # Cours 6
+
+[STOP]
