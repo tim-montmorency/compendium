@@ -449,7 +449,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: dark)"
       primary: red
-      accent: amber
+      accent: red
       scheme: slate
       toggle:
         icon: material/weather-sunny
