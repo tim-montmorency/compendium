@@ -319,6 +319,7 @@ Ces composantes web peuvent être combinées et mises en œuvre de différentes 
     ![appel-a-laction](https://github.com/user-attachments/assets/45125a12-3a7d-4ebc-ba8a-e1f74b435ac3){text-align: center;}
     <br>
     **Fonctions**
+    
     * Guider l’utilisateur vers un parcours qu’on définit (par exemple on souhaite que les visiteurs consultent les promotions)
 
     * Amener l’utilisateur à la prochaine étape dans un processus plus complexe.
