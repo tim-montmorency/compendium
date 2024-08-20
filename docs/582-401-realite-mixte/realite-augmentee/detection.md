@@ -38,7 +38,8 @@ Quatre paramètres sont à considérer pour créer une bonne image pour la déte
 
 Premièrement, les détails sont importants. Une image trop simple est difficile à distinguer d'une autre. De plus, la détection fonctionne sur les bouts pointus. Ainsi, si les images sont trop rondes elles sont difficiles à détecter.
 
-Dans cet exemple, on voit que pour un carré, Vuforia détectera 4 coins alors qu'il ne détectera rien sur le rond. 
+Dans cet exemple, on voit que pour un carré, Vuforia détectera 4 coins alors qu'il ne détectera rien sur le rond.    
+
 <img src="../images/exemple.jpg" width="150" height="200">
 
 
@@ -70,7 +71,8 @@ Dans Unity, nous voulons maintenant importer les images qui nous servirons à fa
       
 
 ## Caméra de détection
-Pour pouvoir détecter des Images dans le monde réel, nous aurons besoin d'une caméra qui filme l'environnement qui nous entoure. C'est celle-ci qui analysera ce qu'elle voit et qui nous indiquera si elle détecte les images que nous lui demandons de surveiller. Vuforia a créé un objet caméra qui permet d'avoir ces fonctionnalités sans code.   
+Pour pouvoir détecter des Images dans le monde réel, nous aurons besoin d'une caméra qui filme l'environnement qui nous entoure. C'est celle-ci qui analysera ce qu'elle voit et qui nous indiquera si elle détecte les images que nous lui demandons de surveiller. Vuforia a créé un objet caméra qui permet d'avoir ces fonctionnalités sans code.     
+
 Voici comment changer la caméra de votre projet et préparer celui-ci pour la détection d'images:   
 
 - [ ] Choisissez une scène ou créez-en une nouvelle pour la détection.
@@ -81,7 +83,9 @@ Voici comment changer la caméra de votre projet et préparer celui-ci pour la d
 - [ ] Dans la fenêtre de texte App License Key, vous devez coller la License que vous avez créée plus tôt. Si vous ne l'avez pas avec vous, appuyez sur Add License. Vous serez redirigé vers le site de Vuforia. Vous pourrez alors trouver votre license et la coller dans le champ approprié dans Unity.
 - [ ] Appuyez sur Play pour tester votre projet. Si une caméra est connectée à votre ordinateur, vous devriez voir son image. De plus, il ne devrait pas y avoir d'erreur dans la console.
 
-<warning>Vous devez avoir une seule caméra dans votre projet pour éviter les conflits.</warning>
+!!! warning "Attention"
+
+    Vous devez avoir une seule caméra dans votre projet pour éviter les conflits.
 
       
 
@@ -97,14 +101,19 @@ Maintenant, nous allons créer des objets de détection d'images. Nous utilisero
 - [ ] Pour voir l'image que vous venez d'ajouter, deux manipulations seront nécessaires, premièrement, dans la composante Transform, la rotation en X de l'objet doit être de -90. Si vous ne voyez toujours pas l'image, appuyez sur la touche F avec la souris au-dessus de la fenêtre Scene pour focusser sur votre objet.
 - [ ] Vous pouvez maintenant appuyer sur Play pour tester. Lorsque la caméra verra votre image, Unity imprimera un message de détection dans la console. Cela signifie que votre détection fonctionne.
 
-!!! info "Information"       Si votre projet contient peu d'images à détecter, vous pourriez utiliser le type From Image dans la composante Image Target Behaviour et utiliser des images que vous importer dans Unity comme Target.
+!!! info "Information"
+
+    Si votre projet contient peu d'images à détecter, vous pourriez utiliser le type From Image dans la composante Image Target Behaviour et utiliser des images que vous importer dans Unity comme Target.
 
       
 
 ## Déclencher à partir d'une détection
-Nous avons créé un objet Image Target qui nous permet de détecter une image. Le Image Target contient aussi la composante Default Observer Event Handler qui nous permet de déclencher des événements si l'image est détectée ou encore si la détection prend fin. Nous allons voir comment.   
-Dans la composante Default Observer Event Handler de votre Image Target, le premier paramètre vous permet de choisir la méthode avec laquelle vous détectez votre objet. Si vous sélectionnez seulement Tracked, dès que l'objet sera moyennement visible ou tout simplement absent de l'écran, l'événement de fin de détection se déclenchera. Si vous utilisez plutôt la méthode Tracked or Extended Tracked, la détection sera plus longue avant de prendre fin, par exemple, si on voit encore un coin de votre image, Vuforia prendra encore en compte qu'on la voit. Les deux méthodes fonctionnent, vous utiliserez l'une ou l'autre selon vos besoins.   
+Nous avons créé un objet Image Target qui nous permet de détecter une image. Le Image Target contient aussi la composante Default Observer Event Handler qui nous permet de déclencher des événements si l'image est détectée ou encore si la détection prend fin. Nous allons voir comment.     
+
+Dans la composante Default Observer Event Handler de votre Image Target, le premier paramètre vous permet de choisir la méthode avec laquelle vous détectez votre objet. Si vous sélectionnez seulement Tracked, dès que l'objet sera moyennement visible ou tout simplement absent de l'écran, l'événement de fin de détection se déclenchera. Si vous utilisez plutôt la méthode Tracked or Extended Tracked, la détection sera plus longue avant de prendre fin, par exemple, si on voit encore un coin de votre image, Vuforia prendra encore en compte qu'on la voit. Les deux méthodes fonctionnent, vous utiliserez l'une ou l'autre selon vos besoins.     
+
 Après la méthode de détection, vous avez deux boîtes d'événements, la première se déclenche lorsque l'image est détectée et la deuxième lorsqu'on perd l'image. Les boîtes d'événement fonctionnent comme habituellement, ainsi vous pouvez glisser un GameObject et l'activer ou le désactiver ou encore déclencer un script... Si vous souhaitez faire apparaître un objet et qu'il suive votre image, vous devez placer cet objet comme enfant de votre Image Target. Pour ce faire, vous devez glisser votre objet sur le target dans la fenêtre Hierarchy. Une fois que c'est fait, ajustez la position de votre objet par rapport à l'image. Ce que vous voyez est ce qui sera affiché par-dessus l'image lorsqu'elle sera détectée.   
 
-<intlink href="../../code/evenements/index.html#evenement"></intlink>
+[📝 Événements](https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement){ .md-button }    
+
 
