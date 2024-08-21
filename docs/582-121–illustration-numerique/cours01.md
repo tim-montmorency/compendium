@@ -14,3 +14,4 @@
    * [Wiki](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/)
    * [Guide de l'étuidant](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
 
+## Présentation du plan de cours
