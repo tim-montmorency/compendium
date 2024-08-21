@@ -20,28 +20,34 @@
   *  Porte-folio
 * Connexion aux ordinateurs
 * Remise des travaux et Grilles d’évaluation
-* Nomenclature
+  * Nomenclature
 * Absence à une évaluation
 * Retard et départ avant la fin du cours
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
-* Règles du laboratoire (6h00 à 22h00)
-  * Casques
-  * Nourriture
-  * Liquide
-  * Bruit
-  * Portes
-    * Fermer les portes lorsque vous quittez
-  * Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
+* Achat de matériel
+
+##  Règles de Laboratoire (6h00 à 22h00)
+* Casques
+* Nourriture
+* Liquide
+* Bruit
+* Portes
+  * Fermer les portes lorsque vous quittez
+* Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
   * Carte magnétique
     * Voir sécurité
-* Achat de matériel
-* Messages et courriels
-    * On me contacte uniquement par TEAMS, je ne vais pas répondre via Col.net
+
+## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
-* Technicien en travaux pratiques
-  * William Racine
-  * Antoine Allard
+* On me contacte uniquement par Teams, je ne vais pas répondre via Col.net
+* Local : C-1651
+
+## Contact des techniciens en travaux pratiques
+* William Racine
+* Antoine Allard
+  * On les contacte uniquement par Teams
+  * Local : C1647 ou C1706
 
 ## Exercice
 * La valise
