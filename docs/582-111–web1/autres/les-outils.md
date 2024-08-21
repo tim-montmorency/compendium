@@ -72,20 +72,13 @@ Fondé en 1998, W3Schools est largement utilisé par les débutants et les déve
 
 [W3Schools](https://www.w3schools.com)
 
-
-## WIKI
-
-![Microsoft_Teams](https://github.com/user-attachments/assets/d50c6c94-11c7-4d82-8b74-f2ae29af9650)
-
-
-Le "Wiki" dans Microsoft Teams fait référence à une fonctionnalité de collaboration qui permet aux équipes de créer et de partager des pages de contenu, de notes et de documentation au sein de leur espace d'équipe. Cela permet aux membres de l'équipe de rassembler et d'organiser des informations importantes, de collaborer sur des documents et de conserver une base de connaissances partagée.
-
-## TIM-Doc
+## TIM-Doc (Wiki)
 
 TIM-Doc est une ressource en ligne qui regroupe l'ensemble des connaissances que vous allez apprendre au cours de la session. Cette ressource peut jouer un rôle crucial dans la préparation et la compréhension des matières enseignées.
 
 TIM-Doc est un point d'accès centralisé à une collection complète de documents, de supports de cours et de ressources pédagogiques spécifiques au cours de Web 1. Cela signifie que vous pouvez utiliser ce lien pour accéder à toutes les informations pertinentes dont vous aurez besoin pour étudier et réussir votre session académique.
 
+![Tim-doc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1)
 
 ## Codepen
 ![codepen](https://github.com/user-attachments/assets/2e73f3d1-87a4-431b-9682-a1cbde7b8a6d)
