@@ -13,7 +13,7 @@
   * [Wiki](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/)
   * [Guide de l'étudiant](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
   * Messages et courriels
-   * On me contacte uniquement par TEAMS, je ne vais pas répondre via Col.net
+    * On me contacte uniquement par TEAMS, je ne vais pas répondre via Col.net
 
 ## Présentation du plan de cours et règles
 * Importance du cours dans le cadre du programme
