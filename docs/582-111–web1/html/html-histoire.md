@@ -36,7 +36,7 @@ Il est composé d'une équipe fixe et des membres (dont plusieurs centaines d'en
 
 ## Les années 90
 
-- Chaque navigateur implémente son propre HTML > incompatibilité
+- Chaque navigateur implémente son propre HTML ==> **incompatibilité**
 - Octobre 1994 : Création du W3C
 - Mars 1995 : HTML 2
 - 1997 : HTML 3.2 puis HTML 4
