@@ -78,7 +78,7 @@ TIM-Doc est une ressource en ligne qui regroupe l'ensemble des connaissances que
 
 TIM-Doc est un point d'accès centralisé à une collection complète de documents, de supports de cours et de ressources pédagogiques spécifiques au cours de Web 1. Cela signifie que vous pouvez utiliser ce lien pour accéder à toutes les informations pertinentes dont vous aurez besoin pour étudier et réussir votre session académique.
 
-![Tim-doc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1)
+[Tim-doc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1)
 
 ## Codepen
 ![codepen](https://github.com/user-attachments/assets/2e73f3d1-87a4-431b-9682-a1cbde7b8a6d)
