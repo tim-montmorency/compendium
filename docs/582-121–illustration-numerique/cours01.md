@@ -5,7 +5,6 @@
 ## Parcours professeure 
 [📁 Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww?e=XOgz9G%22%20\t%20%22_blank){ .md-button }   <br>
 ## Informations essentielles pour le cours
-
 * Importance du cours dans le cadre du programme
 * Porte-folio
 * Connexion aux ordinateurs
@@ -16,12 +15,15 @@
   * Messages et courriels
    * On me contacte uniquement par TEAMS, je ne vais pas répondre via Col.net
 
-## Présentation du plan de cours
+## Présentation du plan de cours et règles
 * Importance du cours dans le cadre du programme
-* Porte-folio
+  *  Importance de l'esprit de cohorte, cohésion
+  *  Porte-folio
 * Connexion aux ordinateurs
 * Remise des travaux et Grilles d’évaluation
+* Nomenclature
 * Absence à une évaluation
+* Retard et départ avant la fin du cours
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Règles du laboratoire
@@ -31,6 +33,4 @@
   * Bruit
 * Achat de matériel
 * Technicien en travaux pratiques
-* Départ avant la fin du cours
-* Nomenclature
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
