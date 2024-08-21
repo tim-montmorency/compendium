@@ -34,38 +34,29 @@ Dans ce deuxième cours de vidéo, l’élève explore le processus de productio
   
 
 ## Set up ordinateur pour Da Vinci 
-[One Drive]
-[Drivers] 
-[Da Vinci 18.5.1]
+* [One Drive](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EhNBfilME3xAiU3-iMZ6huwB9LxUBFyyN7NDQvFZfOPBjg?e=QcCewX)
+* [Drivers](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EhNBfilME3xAiU3-iMZ6huwB9LxUBFyyN7NDQvFZfOPBjg?e=QcCewX)
+* [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/)
 
  
 
-Tutorat 
-
+## Tutorat 
 Horaire 
-
 Tutorat en ligne 
-
 Tutorat sur rendez-vous  
 
   
 
 Capsules - Da Vinci   
-
 Les bases de Da Vinci 
-
 La synchro dans Da Vinci 
-
 La colorisation dans Da Vinci 
-
 Les effets avancés dans Da Vinci 
-
 Les effets fusions dans Da Vinci 
 
   
 
 Capsules sur la théorie de la vidéo 
-
 Les bases de la vidéo 
 
   
