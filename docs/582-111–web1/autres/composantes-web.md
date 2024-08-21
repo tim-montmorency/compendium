@@ -65,7 +65,7 @@ Assurez-vous que les liens sont clairs, pertinents et bien formatés pour améli
 
 
 
-Les images
+## Les images
 
 ![images](https://github.com/user-attachments/assets/f83064f8-b5c8-418c-9c7c-f108f8016e12)
 
@@ -83,7 +83,7 @@ Utilisez des images appropriées et pertinentes pour illustrer le contenu, et n'
 
 Les icônes web sont de petites images ou symboles utilisés pour représenter des actions, des objets ou des concepts de manière visuelle. Elles jouent un rôle important en web design car elles améliorent l'expérience utilisateur en fournissant des informations et des indications visuelles de manière concise et intuitive.
 
-Rôles des icônes
+**Rôles des icônes**
 
 Les icônes sont utilisées pour diverses raisons sur un site web :
 
@@ -158,7 +158,7 @@ Les carrousels d'images sont couramment utilisés sur les sites web pour diverse
 
 
 
-Galerie de photo
+## Galerie de photo
 
 ![galerie](https://github.com/user-attachments/assets/c8b40a85-e105-4b48-a578-583bcfc98956)
 
