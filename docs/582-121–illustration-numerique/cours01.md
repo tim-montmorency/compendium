@@ -5,8 +5,12 @@
 ## Parcours professeure 
 [📁 Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww?e=XOgz9G%22%20\t%20%22_blank){ .md-button }   <br>
 ## Informations essentielles pour le cours
-[📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }   <br>
 
- <li>Importance du cours dans le cadre du programme</li>
- <li>Connexion aux ordinateurs </li>
- <li>TEAMS</li>
+ * Importance du cours dans le cadre du programme
+ * Porte-folio
+ * Connexion aux ordinateurs
+ * TEAMS
+  * [Tim programme TIM] (https://teams.microsoft.com/l/team/19%3A0df14bbe83b542679a319fb4fa0dcea8%40thread.tacv2/conversations?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d)
+  * [Wiki]
+  * [Guide de l'étuidant]  
+
