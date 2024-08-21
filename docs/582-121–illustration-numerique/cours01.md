@@ -32,10 +32,10 @@
   * Liquide
   * Bruit
   * Portes
-    * Fermer les portes lorsque vous quitter.
+    * Fermer les portes lorsque vous quittez
   * Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
   * Carte magnétique
-    * voir sécurité
+    * Voir sécurité
 * Achat de matériel
 * Technicien en travaux pratiques
   * William Racine
