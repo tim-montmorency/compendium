@@ -32,16 +32,18 @@
 * Résolution des conflits
 * Achat de matériel
 
-##  Règles de Laboratoire (6h00 à 22h00)
+##  Règles des laboratoires 
+* Heures d'ouvertures (6h00 à 22h00)
+* Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
+  * Carte magnétique
+    * Voir sécurité
+* Portes
+  * Fermer les portes lorsque vous quittez
 * Casques
 * Nourriture
 * Liquide
 * Bruit
-* Portes
-  * Fermer les portes lorsque vous quittez
-* Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
-  * Carte magnétique
-    * Voir sécurité
+
 
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
