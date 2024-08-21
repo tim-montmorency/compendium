@@ -14,7 +14,7 @@ Dans les années 1960, les bases de l'informatique et des réseaux informatiques
 
 **La création d'Internet**
 
-Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARPA (Advanced Research Projects Agency) du Département de la Défense des États-Unis a développé ARPANET, un réseau qui a permis aux chercheurs de diverses universités et instituts de recherche de communiquer et de partager des données.
+Dans les années 1980, le concept d'Internet a commencé à prendre forme. L'ARPA **(Advanced Research Projects Agency)** du Département de la Défense des États-Unis a développé **ARPANET**, un réseau qui a permis aux chercheurs de diverses universités et instituts de recherche de communiquer et de partager des données.
 
 ![type:video](https://www.youtube.com/embed/dW9Wi_ksoWI)
 
