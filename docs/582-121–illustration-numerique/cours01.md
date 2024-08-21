@@ -33,7 +33,7 @@
 ##  Règles des locaux [(Voir guide étudiant)](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
 * Heures d'ouvertures
 * Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
-  * Réservation via [Teams up] (https://teamup.com/ks5tb2ed4b9yetgo9v)
+  * Réservation via [Teams up](https://teamup.com/ks5tb2ed4b9yetgo9v)
   * Carte magnétique
     * Voir sécurité
 * Portes
