@@ -12,8 +12,7 @@
   * [Tim programme TIM](https://teams.microsoft.com/l/team/19%3A0df14bbe83b542679a319fb4fa0dcea8%40thread.tacv2/conversations?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d)
   * [Wiki](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/)
   * [Guide de l'étudiant](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
-  * Messages et courriels
-    * On me contacte uniquement par TEAMS, je ne vais pas répondre via Col.net
+  
 
 ## Présentation du plan de cours et règles
 * Importance du cours dans le cadre du programme
@@ -37,10 +36,12 @@
   * Carte magnétique
     * Voir sécurité
 * Achat de matériel
+* Messages et courriels
+    * On me contacte uniquement par TEAMS, je ne vais pas répondre via Col.net
+* Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
 * Technicien en travaux pratiques
   * William Racine
   * Antoine Allard
-* Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
 
 ## Exercice
 * La valise
