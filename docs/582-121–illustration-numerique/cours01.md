@@ -26,11 +26,24 @@
 * Retard et départ avant la fin du cours
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
-* Règles du laboratoire
+* Règles du laboratoire (6h00 à 22h00)
   * Casques
   * Nourriture
   * Liquide
   * Bruit
+  * Portes
+    * Fermer les portes lorsque vous quitter.
+  * Les laboratoires, centre d'aide et cubicules sont unquiement vous les étudiants de TIM  
+  * Carte magnétique
+    * voir sécurité
 * Achat de matériel
 * Technicien en travaux pratiques
+  * William Racine
+  * Antoine Allard
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
+
+## Exercice
+* La valise
+
+## Devoir
+* [Installer la suite Adobe](https://www.adobe.com/ca/creativecloud/plans.html?gclid=EAIaIQobChMIs5G7p-iGiAMV6U5HAR1GRxe7EAAYASAAEgKu1_D_BwE&sdid=39JWBGYD&mv=search&mv2=paidsearch&ef_id=EAIaIQobChMIs5G7p-iGiAMV6U5HAR1GRxe7EAAYASAAEgKu1_D_BwE:G:s&s_kwcid=AL!3085!3!558730303399!p!!g!!subscribe%20adobe!15156934695!131017413484&mv=search&gad_source=1)
