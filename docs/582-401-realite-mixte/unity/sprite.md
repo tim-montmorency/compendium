@@ -62,5 +62,5 @@ Vous pouvez créer une animation dans after effects et ensuite l'exporter vers u
 Si vous préférez utiliser Procreate, ce tutoriel vous aidera. Cependant, une fois vos dessins créés, n'oubliez pas de les mettre dans une grille pour les exporter.   
 [📁 Exemple avec Procreate](https://www.youtube.com/watch?v=vwgacGe-ei0&ab_channel=IttaiManero){ .md-button }   <br>
 
-Pour exporter une animation After effects et la transformer en Sprite Sheet dans Photoshop, vous pouvez utiliser le tutoriel suivant:    
-[📁 Exemple avec Procreate](https://youtu.be/MLlw0IOpC4o){ .md-button }   <br>  
+
+  
