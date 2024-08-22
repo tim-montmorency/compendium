@@ -17,7 +17,6 @@
   
 
 ## Présentation du plan de cours et règles
-* Connexion aux ordinateurs
 * Importance du cours dans le cadre du programme
   *  Importance de l'esprit de cohorte, cohésion
   *  Porte-folio
