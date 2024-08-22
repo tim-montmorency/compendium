@@ -85,7 +85,7 @@ Les timelines permettent également de contrôler facilement la lecture avec des
 
 ## Pratique guidée
 
-[Pratique guidée GSAP](./exercices/intro-gsap-prof.md)
+[Pratique guidée GSAP](./exercices/gsap-animation.md)
 
 ## Exercices
 

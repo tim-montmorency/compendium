@@ -7,8 +7,8 @@ Nous allons créer une animation où :
 - [ ] Un rectangle se déplace de gauche à droite.
 - [ ] Un cercle apparaît avec une transition d’opacité.
 - [ ] Une boîte tourne pendant que les autres éléments bougent.
+- [ ] Le tout doit être controllable par des boutons «Pause», «Reprise», «Inverser» et «Redémarrer» l’animation.
 
-Ensuite, nous allons ajouter des contrôles pour mettre en pause, reprendre, inverser et redémarrer l’animation.
 
 <!--
 
