@@ -10605,8 +10605,7 @@
 <p>Créer une coroutine est simple. Plutôt que d'utiliser void, on doit écrire IEnumerator, ensuite on donne un nom à notre Coroutine. Avant IEnumerator on peut aussi inscrire public ou private selon ce qu'on souhaite pour notre coroutine.    </p>
 <p>À l'intérieur de ma Coroutine, j'ai inscris yield break;. Si vous ne le faites pas, Unity indiquera une erreur. Dans ce cas-ci, yield break permet à la coroutine de prendre fin. Ainsi, si vous inscrivez du code après yield break, il ne sera pas exécuté.   </p>
 <h2 id="mettre-sur-pause">Mettre sur pause<a class="headerlink" href="#mettre-sur-pause" title="Permanent link">¶</a></h2>
-<pre><code>Une coroutine fonctionne comme une fonction, ainsi, on peut inscrire notre code en haut de yield break comme on le ferait habituellement. En plus, on peut inscrire des combinaisons qui nous permettent de mettre notre code sur pause.
-</code></pre>
+<p>Une coroutine fonctionne comme une fonction, ainsi, on peut inscrire notre code en haut de yield break comme on le ferait habituellement. En plus, on peut inscrire des combinaisons qui nous permettent de mettre notre code sur pause.   </p>
 <div class="highlight"><pre><span></span><code><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="m">3f</span><span class="p">);</span>
 </code></pre></div>
 <p>Lorsque l'on inscrit le code ci-haut sur une ligne, cela met la coroutine sur pause pendant 3 secondes. Une fois les 3 secondes écoulées, le code qui suit sera exécuté.   </p>
