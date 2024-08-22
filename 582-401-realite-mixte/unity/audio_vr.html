@@ -10587,24 +10587,25 @@
   <h1>Audio vr</h1>
 
 <div><p>Dans Unity, il est possible de spatialiser l'audio.   </p>
-<hr>
 <h2 id="declencher-un-son-avec-les-manettes">Déclencher un son avec les manettes<a class="headerlink" href="#declencher-un-son-avec-les-manettes" title="Permanent link">¶</a></h2>
 <p>Sur vos manettes, peu importe la méthode de sélection (XR Ray Interactor ou XR Direct Interactor), vous avez plusieurs événements en bas de la composante. Les Audio events vous permettent de déclencher des sons précis lorsque certaines actions surviennent. Par exemple, vous pouvez faire jouer un son à chaque fois qu'un objet est amassé. Pour permettre cet effet, cochez la case associée à l'action. Ensuite, glissez votre son dans la boîte AudioClip to play.   </p>
-<hr>
 <h2 id="assigner-un-son-a-un-objet">Assigner un son à un objet<a class="headerlink" href="#assigner-un-son-a-un-objet" title="Permanent link">¶</a></h2>
-<p>Dans votre expérience, il peut être intéressant de donner des sons à certains objets. Par exemple, s'il y a une chute d'eau dans ma scène il serait bien que j'entende la chute plus ou moins fort selon la distance à laquelle je me trouve de celle-ci. Suivez les étapes suivantes pour ajouter un son qui sera assigné à un objet précis: <br>
-<br>- [ ] Importez le son désiré dans Unity.
-- [ ] Sur l'objet qui émettra le son, ajoutez la composante Audio Source (New component, audioSource).
-- [ ] Dans la boîte AudioClip, glissez le son que vous avez importé.
-- [ ] Assurez-vous que Play on Awake et Loop sont cochés sur l'audio source de votre objet, ainsi le son jouera en boucle dès que vous entrerez dans votre scène. Si vous préférez que le son soit déclenché seulement quand vous entrez dans une zone précise, vous devez créer une fonction qui fera Play() à votre composante lorsque le collider de la zone détectera OnTriggerEnter.
-- [ ] Pour que le son joue uniquement à l'endroit de l'objet, on doit prendre le slider du paramètre Spatial Blend de l'audio Source et le mettre à 3D.
-- [ ] Dans 3D sound settings de la composante Audio Source, vous pouvez ajuster la distance min et max à laquelle on entend le son.</p>
-<hr>
+<p>Dans votre expérience, il peut être intéressant de donner des sons à certains objets. Par exemple, s'il y a une chute d'eau dans ma scène il serait bien que j'entende la chute plus ou moins fort selon la distance à laquelle je me trouve de celle-ci. Suivez les étapes suivantes pour ajouter un son qui sera assigné à un objet précis:   </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Importez le son désiré dans Unity.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet qui émettra le son, ajoutez la composante Audio Source (New component, audioSource).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la boîte AudioClip, glissez le son que vous avez importé.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que Play on Awake et Loop sont cochés sur l'audio source de votre objet, ainsi le son jouera en boucle dès que vous entrerez dans votre scène. Si vous préférez que le son soit déclenché seulement quand vous entrez dans une zone précise, vous devez créer une fonction qui fera Play() à votre composante lorsque le collider de la zone détectera OnTriggerEnter.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour que le son joue uniquement à l'endroit de l'objet, on doit prendre le slider du paramètre Spatial Blend de l'audio Source et le mettre à 3D.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans 3D sound settings de la composante Audio Source, vous pouvez ajuster la distance min et max à laquelle on entend le son.</li>
+</ul>
 <h2 id="zone-de-reverberation">Zone de réverbération<a class="headerlink" href="#zone-de-reverberation" title="Permanent link">¶</a></h2>
-<p>Dans Unity, il est possible de créer des zones de réverbération pour modifier la manière dont le son sonne selon la position de notre personnage. Si on est à l'intérieur ou à l'extérieur, le son ne résonne pas de la même façon. <br>
-<br>- [ ] Dans la hierarchy, créez une composante Audio -&gt; Audio Reverb zone. Rangez-là à un endroit approprié.
-- [ ] Dans la composante Audio Reverb zone, assurez-vous que la minDistance corresponde à la zone dans laquelle votre son devrait sonner d'une certaine façon. Pour la max distance, essayer de la positionner pour qu'il y ait un fade entre vos zones. Elle ne doit pas être trop petite pour éviter que la réverbération coupe complètement. Vous pouvez ajuster ce paramètre avec les chiffres ou dans votre scène directement si les gizmos sont ouverts.
-- [ ] Dans le paramètre ReverbPreset, sélectionnez le paramètre qui fonctionne le mieux avec votre environnement. Sélectionnez User si vous désirez changer vos paramètres manuellement pour créer votre propre sonorité.</p></div>
+<p>Dans Unity, il est possible de créer des zones de réverbération pour modifier la manière dont le son sonne selon la position de notre personnage. Si on est à l'intérieur ou à l'extérieur, le son ne résonne pas de la même façon.   </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la hierarchy, créez une composante Audio -&gt; Audio Reverb zone. Rangez-là à un endroit approprié.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la composante Audio Reverb zone, assurez-vous que la minDistance corresponde à la zone dans laquelle votre son devrait sonner d'une certaine façon. Pour la max distance, essayer de la positionner pour qu'il y ait un fade entre vos zones. Elle ne doit pas être trop petite pour éviter que la réverbération coupe complètement. Vous pouvez ajuster ce paramètre avec les chiffres ou dans votre scène directement si les gizmos sont ouverts.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre ReverbPreset, sélectionnez le paramètre qui fonctionne le mieux avec votre environnement. Sélectionnez User si vous désirez changer vos paramètres manuellement pour créer votre propre sonorité.</li>
+</ul></div>
 
 
 
