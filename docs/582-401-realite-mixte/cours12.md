@@ -9,16 +9,18 @@
 <intlink href="../unity/vr_mains/"></intlink>
 
 ## Saut
-<intlink href="../unity/deplacement_vr/#sauter"></intlink>   
-***  
+[📝 Déplacement en VR](unity/deplacement_vr.html#sauter){ .md-button }   
+
+      
 ## Plateforme en mouvement
-<intlink href="../unity/deplacement_vr/#ascenseur"></intlink>   
-***  
+[📝 Déplacement en VR](unity/deplacement_vr.html#ascenseur){ .md-button }   
+      
 ## Aléatoire
-<intlink href="../code/base/#aleatoire"></intlink>   
-***  
+[📝 Bases du code](code/base.html#aleatoire){ .md-button }  
+      
 ## Tir de projectile
-<intlink href="../unity/tir"></intlink>   
-***  
+[📝 Tir](unity/tir.md){ .md-button }  
+
+      
 ## Physique Pont et porte
 <intlink href="../unity/physique"></intlink>   
