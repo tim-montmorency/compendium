@@ -1,4 +1,4 @@
-Cet exercice vous aidera à vous familiariser avec les principes de la 3D dans Unity.    
+Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Unity.    
      
 
 ## Préparer le projet
