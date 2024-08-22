@@ -13,12 +13,12 @@
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Achat de matériel
-* 
+  
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
 * On me contacte uniquement par Teams, je ne vais pas répondre via Col.net
 * Local : C-1651
-* 
+  
 ## Projet 1 
 * Explication du [projet 1](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZMj7dktXu5PjGhgHdN8XRsBlUMZumxb3tXLzAbIhz9mxQ?e=xTZ7hV)
 * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EQgpWSSXSqFNu4jZFArMR_MBzw0ZKzsCVkVr0l1j7GLQVw?e=aPDlKr)
