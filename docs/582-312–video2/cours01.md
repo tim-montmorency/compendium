@@ -56,16 +56,3 @@ TEAMS
 
 * Installer la version de [Da Vinci 18.5.1](https://www.blackmagicdesign.com/support/) à la maison
 
-Cours 2 – 28 août
-
-Revoir vos plages de tournage dans le calendrier :  [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v) (6 équipes par studio)
-
-8h00 à 12h00
-
-13h00 à 17h00
-
-18h00 à 22h00
-
-N'oubliez pas d'aller parler de votre projet au TTP.
-
-&nbsp;
