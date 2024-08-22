@@ -14,8 +14,8 @@
 
 
 ## Débuter le travail 2
-[🛠️ Travail 2](../exercices/scene.md){ .md-button } 
+[🛠️ Travail 2](./exercices/scene.md){ .md-button } 
 
 
 ## Test d'expériences VR
-[🔎 Expériences VR](../installation/experiences.md){ .md-button } 
+[🔎 Expériences VR](./installation/experiences.md){ .md-button } 
