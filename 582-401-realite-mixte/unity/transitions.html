@@ -10578,45 +10578,46 @@
   <h1>Transitions</h1>
 
 <div><p>Dans Unity, il est possible de créer des transitions entre les scènes. En VR, cela peut aider pour ceux qui ont du motion Sickness.   </p>
-<hr>
 <h2 id="tutoriel-video">Tutoriel vidéo<a class="headerlink" href="#tutoriel-video" title="Permanent link">¶</a></h2>
-<p><youtube src="48Nk8qGfrmA"></youtube></p>
-<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/48Nk8qGfrmA?si=OmcLt2G9ZMjN-Va1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <h2 id="tutoriel-ecrit">Tutoriel écrit<a class="headerlink" href="#tutoriel-ecrit" title="Permanent link">¶</a></h2>
-<p><br>- [ ] Créez un objet vide nommé ChargementScene.
-- [ ] Créez un canvas dans ce nouvel objet. (Create, UI, canvas)
-- [ ] Dans le canvas, choisissez Screen-Space camera comme Render mode et glissez votre main Camera dans le paramètre Render Camera.
-- [ ] Changez le Plane distance pour 0.4 et le order in layer pour 1.
-- [ ] Dans l'objet Canvas, créez une image. Clic droit sur le canvas, UI, Image.
-- [ ] Changez la couleur de l'image pour qu'elle soit noire et opaque.
-- [ ] Assurez-vous que l'image est de la même taille que le canvas.
-- [ ] Sur votre image, ajoutez la composante Canvas Group.
-- [ ] Sur le canvas, ajoutez la composante Animator.
-- [ ] Créez un nouvel animator controller dans votre dossier animation (Clic droit, create, animator controller) et glissez le dans le paramètre controller de l'animator du canvas.
-- [ ] Créez une nouvelle animation nommée transitionFin.
-- [ ] Pour l'animation transitionFin, à 0 frame, le paramètre Alpha du canvas Group de l'image doit être à 1 et à 60 frames, à 0.
-- [ ] Créez une nouvelle animation nommée transitionDebut.
-- [ ] Pour l'animation transitionDebut, à 0 frame, le paramètre Alpha du canvas Group de l'image doit être à 0 et à 60 frames, à 1.
-- [ ] Dans le dossier animation (fenêtre project), trouvez vos deux animations, cliquez sur celles-ci et désactivez le loop time en décochant la case dans la fenêtre Inspector.
-- [ ] Assurez-vous dans la fenêtre Animator que transitionFin est celle qui est en orange. Sinon, cliquez droit sur celle-ci et sélectionnez Set as layer default state.
-- [ ] Cliquez droit sur la transitionFin et sélectionnez Make Transition, Appuyez sur transitionDebut pour faire une transition vers celui-ci.
-- [ ] Dans Parametres en haut à gauche de la fenêtre animator, appuyez sur le + et sélectionnez Trigger dans la liste. Nommez le paramètre Debut.
-- [ ] Cliquez sur la flèche blanche entre les deux animations. Dans conditions(fenêtre inspector), appuyez sur +. Assurez-vous que la condition est Debut.
-- [ ] Dans settings, toujours dans la fenêtre Inspector, assurez-vous de décocher Has exit time, puis de mettre la transition duration à 0.
-- [ ] Maintenant, créez un script sur l'objet ChargementScene.
-- [ ] Assurez vous d'ajouter la librairie pour les scènes: using UnityEngine.SceneManagement;
-- [ ] Créez un Animator public pour contenir l'animator de votre canvas.
-- [ ] Créez une coroutine qui part l'animation (Animator.SetTrigger("Start");).
-- [ ] Ensuite, attendez le temps désiré.
-- [ ] Puis, chargez la prochaine scène.
-- [ ] Finalement, sortez de la coroutine.
-- [ ] Créez une fonction qui appelle la coroutine.
-- [ ] Sortez du script et glissez-lui le canva dans le paramètre Animator.
-- [ ] Créez un prefab avec votre ChargementScene.
-- [ ] Allez dans votre deuxième scène et glissez le prefab ChargementScene dans la hiérarchie.
-- [ ] Assurez-vous que le canva est dans le paramètre Animator du script.
-- [ ] Assurez-vous dans File, Build Settings que vos scènes font partie de Scenes in Build, sinon ajoutez-les.
-- [ ] Les transitions devraient fonctionner maintenant!</p></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet vide nommé ChargementScene.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un canvas dans ce nouvel objet. (Create, UI, canvas)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le canvas, choisissez Screen-Space camera comme Render mode et glissez votre main Camera dans le paramètre Render Camera.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez le Plane distance pour 0.4 et le order in layer pour 1.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans l'objet Canvas, créez une image. Clic droit sur le canvas, UI, Image.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez la couleur de l'image pour qu'elle soit noire et opaque.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que l'image est de la même taille que le canvas.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur votre image, ajoutez la composante Canvas Group.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le canvas, ajoutez la composante Animator.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un nouvel animator controller dans votre dossier animation (Clic droit, create, animator controller) et glissez le dans le paramètre controller de l'animator du canvas.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une nouvelle animation nommée transitionFin.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour l'animation transitionFin, à 0 frame, le paramètre Alpha du canvas Group de l'image doit être à 1 et à 60 frames, à 0.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une nouvelle animation nommée transitionDebut.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour l'animation transitionDebut, à 0 frame, le paramètre Alpha du canvas Group de l'image doit être à 0 et à 60 frames, à 1.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le dossier animation (fenêtre project), trouvez vos deux animations, cliquez sur celles-ci et désactivez le loop time en décochant la case dans la fenêtre Inspector.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous dans la fenêtre Animator que transitionFin est celle qui est en orange. Sinon, cliquez droit sur celle-ci et sélectionnez Set as layer default state.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit sur la transitionFin et sélectionnez Make Transition, Appuyez sur transitionDebut pour faire une transition vers celui-ci.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans Parametres en haut à gauche de la fenêtre animator, appuyez sur le + et sélectionnez Trigger dans la liste. Nommez le paramètre Debut.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur la flèche blanche entre les deux animations. Dans conditions(fenêtre inspector), appuyez sur +. Assurez-vous que la condition est Debut.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans settings, toujours dans la fenêtre Inspector, assurez-vous de décocher Has exit time, puis de mettre la transition duration à 0.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Maintenant, créez un script sur l'objet ChargementScene.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez vous d'ajouter la librairie pour les scènes: using UnityEngine.SceneManagement;</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un Animator public pour contenir l'animator de votre canvas.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une coroutine qui part l'animation (Animator.SetTrigger("Start");).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, attendez le temps désiré.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Puis, chargez la prochaine scène.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Finalement, sortez de la coroutine.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une fonction qui appelle la coroutine.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sortez du script et glissez-lui le canva dans le paramètre Animator.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un prefab avec votre ChargementScene.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Allez dans votre deuxième scène et glissez le prefab ChargementScene dans la hiérarchie.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que le canva est dans le paramètre Animator du script.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous dans File, Build Settings que vos scènes font partie de Scenes in Build, sinon ajoutez-les.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Les transitions devraient fonctionner maintenant!</li>
+</ul></div>
 
 
 
