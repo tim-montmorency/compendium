@@ -1,10 +1,11 @@
 # Cours 11
 
 ## Grimper
-<intlink href="../unity/deplacement_vr/"></intlink>   
+[📝 Déplacement en VR](unity/deplacement_vr.html#grimper){ .md-button }   
       
 ## Autres   
-<intlink href="../unity/UI/#canvas-en-vr"></intlink>
+[📝 Canvas en VR](unity/UI.html#canvas-en-vr){ .md-button }   
+
 <intlink href="../unity/audio_vr/"></intlink>
 <intlink href="../unity/transitions/"></intlink>
 <intlink href="../unity/materiaux/"></intlink>
