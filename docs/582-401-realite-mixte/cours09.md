@@ -1,5 +1,6 @@
 # Cours 9
 ## 🚨 Présentation des plans de projet
+[🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
 
 ## Prêt des caques oculus
