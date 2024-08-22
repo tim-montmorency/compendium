@@ -17,6 +17,8 @@ Dans ce deuxième cours de vidéo, l’élève explore le processus de productio
 | Heures d’enseignement | 60      |
 | Session               | 3       |
 
+# Références
+
 ## Références générales 
 * [Guide étudiant](https://teams.microsoft.com/_#/school/tab::9a8e708c-0d50-445f-8661-476b729789eb/G%C3%A9n%C3%A9ral?threadId=19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2&ctx=channel)
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
