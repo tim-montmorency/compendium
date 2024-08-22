@@ -7,7 +7,8 @@ Accueil
 TEAMS 
 
 ## Présentation du plan de cours et règles
-* Remise des travaux et Grilles d’évaluation
+* Remise des travaux
+  * Grilles d’évaluation
   * Nomenclature
 * Absence à une évaluation
 * Absence à un cours en studio
