@@ -1,8 +1,11 @@
 # Cours 10
 
-[📝 Configuration VR](unity/configuration_vr.md){ .md-button } 
-[📝 Déplacement en VR](unity/deplacement_vr.md){ .md-button } 
-[📝 Interaction en VR](unity/interaction_vr.md){ .md-button } 
+[📝 Configuration VR](unity/configuration_vr.md){ .md-button }     
+
+[📝 Déplacement en VR](unity/deplacement_vr.md){ .md-button }     
+
+[📝 Interaction en VR](unity/interaction_vr.md){ .md-button }     
+
 [📝 Importation 3D](unity/Importation3D.md){ .md-button } 
 
 
