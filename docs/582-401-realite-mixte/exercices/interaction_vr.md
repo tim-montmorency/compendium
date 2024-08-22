@@ -16,4 +16,10 @@ Vous pourriez faire le même exercice, mais allumer une torche (point light) plu
 
 
 ## Notes de cours 📚
+[📁 Créer une télévision](../consignes/travail2.html#creer-une-television){ .md-button }    
 
+[📁 Prendre la manette](../exercices/interaction_vr.html#xr-grab){ .md-button }    
+
+[📁 Partir une vidéo avec la détection](../consignes/travail2.html#partir-ou-arreter-une-video-avec-la-detection){ .md-button }    
+
+[📁 Déclencher un script avec le trigger](../unity/interaction_vr.html#declencher-un-evenement-lorsquun-objet-est-selectionne){ .md-button }
