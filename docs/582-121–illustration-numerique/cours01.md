@@ -42,7 +42,6 @@
 * Liquide
 * Bruit
 
-
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
 * On me contacte uniquement par Teams, je ne vais pas répondre via Col.net
