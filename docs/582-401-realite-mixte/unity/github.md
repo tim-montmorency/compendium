@@ -22,7 +22,7 @@ Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même proj
 ### Méthode de travail
 Une fois que votre projet est prêt, vous pouvez le modifier en même temps. Avant de faire un commit, appuyez toujours sur Fetch Origin, si Pull apparaît, vous devez faire un Pull. Ensuite, vous pourrez faire votre commit, puis le push.   
 
-!!! warning "Attention"         
+!!! warning "Attention"
 
     L'ordre est toujours Pull, puis Push!!
 
