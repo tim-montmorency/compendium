@@ -1,10 +1,7 @@
 # Cours 1 - Bienvenue!
-
-
-
 Accueil 
 
-TEAMS 
+
 
 ## Présentation du plan de cours et règles
 * Remise des travaux
@@ -16,17 +13,13 @@ TEAMS
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Achat de matériel
-
-
+* 
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
 * On me contacte uniquement par Teams, je ne vais pas répondre via Col.net
 * Local : C-1651
-
-
-
+* 
 ## Projet 1 
-  
 * Explication du projet 1 voir [Devoir]()
 * [Exemples de projets](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgSYbGnEhoBFq6-kOrwWAE8BlZ1JRb3pfWl5kyvD20UV0Q?e=1CV4B3)
 * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EQgpWSSXSqFNu4jZFArMR_MBzw0ZKzsCVkVr0l1j7GLQVw?e=aPDlKr)
@@ -40,13 +33,9 @@ TEAMS
 * [Équipe et étapes de production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ?e=hwqIaq)
 * [La caméra et les settings](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETcDqse5CwlGi2FD-pF9RTUB38DuY9r-ZPDg-AE0bWkw1Q?e=WwcC5d)
 
-
-
 ## Devoir
-
 * Scénarisation de votre projet
   * Moodboard
   * Listes des choses que vous allez tourner
 * Réviser [Les bases de la vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EsS5H-R9oIZGpS_T2LlU9sgB8p_AnoTlfrmvkf6aAoBrzA?e=cZqVH6)
 * Installer la version de [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/) à la maison
-
