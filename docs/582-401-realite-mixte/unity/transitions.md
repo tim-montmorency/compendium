@@ -1,16 +1,14 @@
-
-
 Dans Unity, il est possible de créer des transitions entre les scènes. En VR, cela peut aider pour ceux qui ont du motion Sickness.   
 
-***  
+      
 
 ## Tutoriel vidéo
-<youtube src="48Nk8qGfrmA"></youtube>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/48Nk8qGfrmA?si=OmcLt2G9ZMjN-Va1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-***  
+      
 
 ## Tutoriel écrit
-<br>- [ ] Créez un objet vide nommé ChargementScene.
+- [ ] Créez un objet vide nommé ChargementScene.
 - [ ] Créez un canvas dans ce nouvel objet. (Create, UI, canvas)
 - [ ] Dans le canvas, choisissez Screen-Space camera comme Render mode et glissez votre main Camera dans le paramètre Render Camera.
 - [ ] Changez le Plane distance pour 0.4 et le order in layer pour 1.
