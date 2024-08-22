@@ -38,20 +38,25 @@ Voici un exemple de l'expérience que vous allez produire:
        
 ## Contenus à produire
 **Visuel en mouvement**
+
 - [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
 
 OU
+
 - [ ] 2 vidéos de 5 à 10 secondes qui peuvent jouer en boucle.
 
 **Visuel statique**
+
 - [ ] 1 image qu'on pourra scanner avec un appareil mobile.
 - [ ] Des visuels pour les boutons.
 - [ ] Des visuels pour le menu.
 
 **Police de caractère**
+
 - [ ] Trouver une police de caractère qui vous plaît et la télécharger (pour le menu).
 
 **Sonore**
+
 - [ ] 2 sons qui accompagneront les animations.
 
 
