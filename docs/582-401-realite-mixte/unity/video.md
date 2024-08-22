@@ -1,7 +1,7 @@
 ## Résolution
 Lorsque vous créez des vidéos pour Unity, vous devrez faire attention à la résolution.
 
-Au niveau de la résolution, produire des images carrées est essentiel dans Unity. En effet, cela permettra à vos projets d’être optimisés et donc d’avoir des build plus légers. En plus de respecter le format carré, vous devriez toujours prendre des valeurs POT (power of two). Cette règle permet à l’ordinateur de rendre l’image plus rapidement. Voici des exemples de valeurs POT :
+Au niveau de la résolution, produire des images carrées est essentiel dans Unity. En effet, cela permettra à vos projets d’être optimisés et donc d’avoir des build plus légers. En plus de respecter le format carré, vous devriez toujours prendre des valeurs POT (power of two). Cette règle permet à l’ordinateur de rendre l’image plus rapidement. Voici des exemples de valeurs POT:
 
 - 16 x 16
 - 32 x 32
