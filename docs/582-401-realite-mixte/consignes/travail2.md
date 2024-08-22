@@ -56,8 +56,10 @@ Nous allons modifier la Skybox de votre scene.
        
 
 ## Déplacement du personnage
-Pour configurer le déplacement de votre caméra, vous devez télécharger ces scripts:   
-[📁 Scripts](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU){ .md-button }   
+Pour configurer le déplacement de votre caméra, vous devez télécharger ces scripts:      
+
+[📁 Scripts](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU){ .md-button }      
+
 - [ ] Suivez ensuite la vidéo suivante pour bien configurer votre joueur et ses déplacements:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J1zJ__tEtho?si=M0Fb65VN4E_ERDEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
