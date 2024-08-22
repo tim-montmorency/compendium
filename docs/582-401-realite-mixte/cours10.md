@@ -1,11 +1,15 @@
 # Cours 10
 
+## Configurer la VR dans votre projet
 [📝 Configuration VR](unity/configuration_vr.md){ .md-button }     
 
+## Se déplacer en réalité virtuelle
 [📝 Déplacement en VR](unity/deplacement_vr.md){ .md-button }     
 
+## Interagir avec les manettes et l'environnement
 [📝 Interaction en VR](unity/interaction_vr.md){ .md-button }     
 
+## Importer des modèles Maya dans Unity
 [📝 Importation 3D](unity/Importation3D.md){ .md-button } 
 
 
