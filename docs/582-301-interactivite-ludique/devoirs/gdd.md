@@ -12,7 +12,7 @@ Le devoir consiste à créer le document de conception pour le projet de jeu vid
 
 [Gabarit de départ :material-download:](../assets/documents/gdd-gabarit.docx){ .md-button .md-button--primary }
 
-[:neutral_face: Panne d'inspiration ?](https://www.reddit.com/r/IndieDev/)
+:neutral_face: [Panne d'inspiration ?](https://www.reddit.com/r/IndieDev/)
 
 Voici deux exemples remplis :
 
