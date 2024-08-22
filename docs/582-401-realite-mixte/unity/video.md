@@ -16,8 +16,13 @@ Au niveau de la résolution, produire des images carrées est essentiel dans Uni
 Si vous désirez faire une vidéo rectangulaire, prenez deux valeurs de la liste. Par exemple 1024 x 2048. 
 
 
+## Créer des vidéos avec After Effects
+Si vous avez oublié comment créer des animatons avec After Effects, voici quelques vidéos pour vous aider: 
 
-## Importer la vidéo
+[📁 Capsules vidéos](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Erk_c-zhioRHvUq5W2lHFTwBGmQB3be35rla3wlET-5rYw?e=msibxX){ .md-button }   
+
+
+## Importer la vidéo dans Unity
 - [ ] Dans le dossier Art de la fenêtre Project, créez un dossier nommé Video s'il n'existe pas encore.
 - [ ] Entrez dans le nouveau dossier, faites un clic-droit, puis choisissez Import New Asset et sélectionnez la vidéo à importer depuis l'explorateur de fichier. Ou encore cliquez et glissez la dans la fenêtre Project.
 
