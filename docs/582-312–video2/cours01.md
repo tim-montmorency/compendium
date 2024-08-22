@@ -20,8 +20,7 @@
 * Local : C-1651
 * 
 ## Projet 1 
-* Explication du projet 1 voir [Devoir]()
-* [Exemples de projets](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgSYbGnEhoBFq6-kOrwWAE8BlZ1JRb3pfWl5kyvD20UV0Q?e=1CV4B3)
+* Explication du [projet 1](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZMj7dktXu5PjGhgHdN8XRsBlUMZumxb3tXLzAbIhz9mxQ?e=xTZ7hV)
 * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EQgpWSSXSqFNu4jZFArMR_MBzw0ZKzsCVkVr0l1j7GLQVw?e=aPDlKr)
 * Choisir journée de tournage (entre le 9 septembre après votre cours et avant le 23 septembre)
   * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
@@ -38,6 +37,6 @@
 ## Devoir
 * Scénarisation de votre projet
   * Moodboard
-  * Listes des choses que vous allez tourner
+  * Listes des choses que vous allez tourner et enregistrer
 * Réviser [Les bases de la vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EsS5H-R9oIZGpS_T2LlU9sgB8p_AnoTlfrmvkf6aAoBrzA?e=cZqVH6)
 * Installer la version de [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/) à la maison
