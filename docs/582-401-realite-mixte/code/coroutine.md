@@ -18,7 +18,7 @@ Créer une coroutine est simple. Plutôt que d'utiliser void, on doit écrire IE
           
 
 ## Mettre sur pause
-    Une coroutine fonctionne comme une fonction, ainsi, on peut inscrire notre code en haut de yield break comme on le ferait habituellement. En plus, on peut inscrire des combinaisons qui nous permettent de mettre notre code sur pause.   
+Une coroutine fonctionne comme une fonction, ainsi, on peut inscrire notre code en haut de yield break comme on le ferait habituellement. En plus, on peut inscrire des combinaisons qui nous permettent de mettre notre code sur pause.   
 
 
 ``` csharp
