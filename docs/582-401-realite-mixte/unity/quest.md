@@ -18,7 +18,7 @@ Dans le cadre du cours, des casques Quest ou Quest 2 vous serons prêtés.
 ## Guardian - information
 Le "Guardian" est la zone de jeu dont vous disposez avec votre casque. Il est important de le configurer chaque fois que vous changez d'endroit avec votre casque. En effet, c'est grâce à lui que vous verrez quelles sont les limites de votre zone de jeu et que vous éviterez des blessures ou des bris d'équipement. Le "Guardian" s'affichera uniquement si vous vous approchez trop de la limite de votre zone de jeu. Sinon vous ne le verrez pas.   
 
-<img src="images/guardian.jpg">
+<img src="../images/guardian.jpg">
 
 Comme vous le voyez sur l'image, il est important de laisser un peu d'espace entre les murs ou objet et le guardian. Ainsi, si vous dépassez un peu vous aurez le temps de voir que vous êtes sortis de la zone avant de toucher un objet.   
 
@@ -41,7 +41,7 @@ Il existe plusieurs modes "Guardian", le premier est la limite **Roomscale**. C'
 Avant de commencer, assurez-vous que le logiciel <b>Oculus</b> est installé sur votre ordinateur.   
 [📁 Installer Oculus link](https://www.meta.com/ca/fr/quest/setup/){ .md-button }   <br>
 
-<img src="images/link.jpg">
+<img src="../images/link.jpg">
 
 Assurez-vous d'être sur la bonne version de casque (Quest ou Quest 2), puis appuyez sur télécharger le logiciel.   
 
@@ -52,7 +52,7 @@ Assurez-vous de brancher votre casque avec le USB-C dans l'ordinateur.
 
 Dans le logiciel Oculus, ouvrez l'onglet appareil. Vous devriez maintenant voir votre casque en vert:   
 
-<img src="images/detection.jpg">
+<img src="../images/detection.jpg">
 
 - [ ] Enfilez votre casque.
 - [ ] Pour démarrer le lien Oculus, appuyez sur le bouton Oculus de votre manette droite.
