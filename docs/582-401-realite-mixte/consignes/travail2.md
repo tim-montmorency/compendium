@@ -4,7 +4,7 @@ Cet exercice vous aidera à vous familiariser avec les principes de la 3D dans U
 ## Préparer le projet
 
 - [ ] Premièrement, créez un nouveau projet à l'aide du modèle 3D core.
-- [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project. <a href="https://tim-montmorency.com/timdoc/582-434MO/unity/introduction/#nomenclature">Nomenclature</a>
+- [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#nomenclature">Nomenclature</a>
 - [ ] Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jaqGgmCTjPI?si=ygy8YXiUjzRxEadI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
