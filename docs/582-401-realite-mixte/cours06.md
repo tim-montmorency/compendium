@@ -1,6 +1,6 @@
 # Cours 6
 
-## Évaluation méthode de travail
+## Évaluation formative méthode de travail
 Ouvrir votre projet 1 sur votre ordinateur prêt à être corrigé.   
 
 ## Continuer le travail 2
