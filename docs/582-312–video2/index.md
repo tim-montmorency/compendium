@@ -66,17 +66,17 @@ Dans ce deuxième cours de vidéo, l’élève explore le processus de productio
 * [Litepanel](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EqCm22Q2t9lJlm8X8TgGtycBTf9jBRFqcmy26ZS0rzYhkQ?e=EBsE3O)
 * [Magic arm et câble de sécurité](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eks98KgNF4dMjImKve2EfrYBviYcwqfV-wqead7m4AzLZg?e=lMn8Vx)
 * [Ronin](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EuuRVKaNZNNKviAsoyQO4q4B_Lbbi8Lqjwv9ybVh1t1GEw?e=sqPnGs) et [Settings de la Ronin](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)
-*[Shape](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EmqbU30QyL9CtUModbn14dgBxouqqJZxyzLWoPbhmd3Fqg?e=HclbbP)
-*[Slider](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eru7cOt2O35EqiZiLw_iLxYBUF6vbCuISjIeTXXn1iXJKQ?e=97bhpd)
+* [Shape](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EmqbU30QyL9CtUModbn14dgBxouqqJZxyzLWoPbhmd3Fqg?e=HclbbP)
+* [Slider](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eru7cOt2O35EqiZiLw_iLxYBUF6vbCuISjIeTXXn1iXJKQ?e=97bhpd)
 
   
 
 ## Powerpoint 
-*[La caméra et les settings](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETcDqse5CwlGi2FD-pF9RTUB38DuY9r-ZPDg-AE0bWkw1Q?e=WwcC5d)
-*[Le son et protocole de tournage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/Ef03A9FT-YdOiXknjJVdRkQBlzZ3r3HL9orQbhAi1inuQg?e=Mdbw1f)  
-*[Settings du sound device](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/flpilote_cmontmorency_qc_ca/ETwfhWoZO9hDtR_y5sIoNXkBgIV9SDHDmEBRo6yGlO-6MQ?e=xeJPGM)
-*[Green screen](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)  
-*[Settings de la Ronin](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4) 
+* [La caméra et les settings](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETcDqse5CwlGi2FD-pF9RTUB38DuY9r-ZPDg-AE0bWkw1Q?e=WwcC5d)
+* [Le son et protocole de tournage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/Ef03A9FT-YdOiXknjJVdRkQBlzZ3r3HL9orQbhAi1inuQg?e=Mdbw1f)  
+* [Settings du sound device](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/flpilote_cmontmorency_qc_ca/ETwfhWoZO9hDtR_y5sIoNXkBgIV9SDHDmEBRo6yGlO-6MQ?e=xeJPGM)
+* [Green screen](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)  
+* [Settings de la Ronin](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4) 
 
   
 
