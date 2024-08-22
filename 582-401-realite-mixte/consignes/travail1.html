@@ -10617,18 +10617,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#animations-avec-des-sprites" class="md-nav__link">
+  <a href="#animations-avec-des-sprites-choisir-sprite-ou-video" class="md-nav__link">
     <span class="md-ellipsis">
-      Animations avec des sprites
+      Animations avec des sprites (Choisir sprite ou vidéo)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#animations-avec-des-videos" class="md-nav__link">
+  <a href="#animations-avec-des-videos-choisir-sprite-ou-video" class="md-nav__link">
     <span class="md-ellipsis">
-      Animations avec des vidéos
+      Animations avec des vidéos (Choisir sprite ou vidéo)
     </span>
   </a>
   
@@ -10733,8 +10733,14 @@
 <p><a class="md-button" href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EXwveboROyxFq0rp66c0XRABPnYf7xWcl9rvjNnrsKVN5Q?e=EdHGgK">📁 Exemple</a>   <br></p>
 <h2 id="contenus-a-produire">Contenus à produire<a class="headerlink" href="#contenus-a-produire" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> 2 SpriteSheet carrées contenant au moins 9 images chaque.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> 2 sons qui accompagneront les SpriteSheet animées.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> 2 SpriteSheet carrées contenant au moins 9 images chaque.
+OU</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> 2 vidéos de 5 à 10 secondes qui peuvent jouer en boucle.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> 2 sons qui accompagneront les animations.</p>
+</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> 1 image qu'on pourra scanner avec un appareil mobile.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Des visuels pour les boutons.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Des visuels pour le menu.</li>
@@ -10761,7 +10767,7 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#detecter-une-image">Image Target</a></li>
 </ul>
 <h3 id="creation-de-la-scene-jeu-animations">Création de la scène Jeu - Animations<a class="headerlink" href="#creation-de-la-scene-jeu-animations" title="Permanent link">¶</a></h3>
-<h4 id="animations-avec-des-sprites">Animations avec des sprites<a class="headerlink" href="#animations-avec-des-sprites" title="Permanent link">¶</a></h4>
+<h4 id="animations-avec-des-sprites-choisir-sprite-ou-video">Animations avec des sprites (Choisir sprite ou vidéo)<a class="headerlink" href="#animations-avec-des-sprites-choisir-sprite-ou-video" title="Permanent link">¶</a></h4>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#importer-la-sprite-sheet">Importation SpriteSheet</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator-controller">Animator Controller</a></li>
@@ -10771,14 +10777,12 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.</li>
 </ul>
-<h4 id="animations-avec-des-videos">Animations avec des vidéos<a class="headerlink" href="#animations-avec-des-videos" title="Permanent link">¶</a></h4>
+<h4 id="animations-avec-des-videos-choisir-sprite-ou-video">Animations avec des vidéos (Choisir sprite ou vidéo)<a class="headerlink" href="#animations-avec-des-videos-choisir-sprite-ou-video" title="Permanent link">¶</a></h4>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Toujours dans la scène jeu, nous allons maintenant importer les deux vidéos de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#importer-la-sprite-sheet">Importation SpriteSheet</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator-controller">Animator Controller</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator">GameObject Animator</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une animation pour chaque Sprite Sheet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#creation-danimations-de-sprite-sheet">Créer une animation</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Redimensionner vos animations et positionnez-les au-dessus de votre Image de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Toujours dans la scène jeu, nous allons maintenant importer les deux vidéos de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/video#importer-la-video">Importation Vidéo</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un GameObject par vidéo avec la composante Video Player pour pouvoir jouer un clip. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/video#creer-un-gameobject-pour-faire-jouer-la-video">GameObject Animator</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Redimensionner vos vidéos et positionnez-les au-dessus de votre Image de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget. Si jamais vos vidéos ne sont plus visibles, ajouter leur 90 degrés dans le paramètre Rotation X dans le transform de la fenêtre Inspecteur.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.</li>
 </ul>
 <h3 id="creation-de-la-scene-jeu-sons">Création de la scène Jeu - Sons<a class="headerlink" href="#creation-de-la-scene-jeu-sons" title="Permanent link">¶</a></h3>
