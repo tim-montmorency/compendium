@@ -3,7 +3,7 @@
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
 
-## Présentation du plan de cours et règles
+## Présentation des règles du cours
 * Remise des travaux
   * Grilles d’évaluation
   * Nomenclature
