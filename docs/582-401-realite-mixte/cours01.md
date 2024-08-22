@@ -11,7 +11,7 @@
     
 [💼 Travail 1](./consignes/travail1.md){ .md-button }     
     
-### Test d'exemples de travail 1
+### Test d'exemples de travail 1 et de livres en AR
 Projets de:       
 
 - Quoc Huy Do    
@@ -40,9 +40,6 @@ Rendez-vous sur le site suivant pour créer votre compte:
 [🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }   
 
             
-    
-## Test d'expériences AR
-Dans des livres.   
            
 ## Retour en groupe 
 [📝 Introduction à Unity](./unity/introduction.md){ .md-button }  
