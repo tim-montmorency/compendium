@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Réalité mixte
+# Réalité Virtuelle
 
 ## Descriptif du cours
 
@@ -13,8 +13,8 @@ Ce cours permet à l’élève de se familiariser avec les outils de la réalit�
 
 | Spécifications        | Valeur  |
 | --------------------- | ------- |
-| Code                  | 582-401 |
-| Pondération           | 2-2-2   |
+| Code                  | 582-434 |
+| Pondération           | 1-3-2   |
 | Unités                | 2       |
 | Heures d’enseignement | 60      |
-| Session               | 4       |
+| Session               | 5       |
