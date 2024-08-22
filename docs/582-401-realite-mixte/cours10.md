@@ -23,3 +23,6 @@
 
 ## Exercice
 [🛠️ Manette interactive](exercices/interaction_vr.md){ .md-button } 
+
+## Devoir
+[🛠️ Travail 3](./consignes/travail3.md){ .md-button } 
