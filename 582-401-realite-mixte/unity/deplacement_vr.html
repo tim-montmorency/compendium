@@ -10647,111 +10647,118 @@
   <h1>Deplacement vr</h1>
 
 <div><p>Nous allons voir différentes méthodes de déplacement en VR dans Unity.   </p>
-<hr>
 <h2 id="deplacement-avec-le-joystick-des-manettes">Déplacement avec le joystick des manettes<a class="headerlink" href="#deplacement-avec-le-joystick-des-manettes" title="Permanent link">¶</a></h2>
-<p><br>- [ ] Appuyez sur le Locomotion System dans la hiérarchie pour l'ouvrir dans l'inspecteur.
-- [ ] Décochez la téléportation si vous ne souhaitez pas l'utiliser.
-- [ ] Ajouter la composante Continuous Move Provider (Action based) au Locomotion System.
-- [ ] Dans le paramètre System, glissez lui-même donc le locomotion System.
-- [ ] Pour utiliser une seule main, décochez la boîte Use Reference de la main non voulue. Je recommande de mettre le snap turn sur une main et le continuous move sur l'autre.
-- [ ] Appuyez sur le XR Origin dans la hiérarchie pour l'ouvrir dans l'inspecteur.
-- [ ] Ajoutez la composante Character controller à cet objet. Ajustez son collider.
-- [ ] Ajoutez aussi la composante Character Controller Driver.
-- [ ] Dans les paramètres de cette nouvelles composante, glissez votre Locomotion System sur le paramètre Locomotion Provider.
-Le tout en vidéo: <br>
-<youtube src="F6ETKU5e_5M"></youtube></p>
-<hr>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez sur le Locomotion System dans la hiérarchie pour l'ouvrir dans l'inspecteur.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Décochez la téléportation si vous ne souhaitez pas l'utiliser.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter la composante Continuous Move Provider (Action based) au Locomotion System.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre System, glissez lui-même donc le locomotion System.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour utiliser une seule main, décochez la boîte Use Reference de la main non voulue. Je recommande de mettre le snap turn sur une main et le continuous move sur l'autre.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez sur le XR Origin dans la hiérarchie pour l'ouvrir dans l'inspecteur.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez la composante Character controller à cet objet. Ajustez son collider.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi la composante Character Controller Driver.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans les paramètres de cette nouvelles composante, glissez votre Locomotion System sur le paramètre Locomotion Provider.</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F6ETKU5e_5M?si=MQMvl-P4ga1D_zLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <h2 id="teleportation">Téléportation<a class="headerlink" href="#teleportation" title="Permanent link">¶</a></h2>
-<p><br>- [ ] S'assurer que Teleportation Provider est coché dans le Locomotion System et décochez le continuous move provider au besoin.
-- [ ] Dans la hiérarchie, clic-droit, XR, ajoutez Teleportation Anchor ou Teleportation Area. Teleportation anchor: On est mieux de créer les zones de téléportation (ex: pastilles) et ensuite de leur ajouter la composante Teleportation anchor. Teleportation area: Zone dans laquelle on peut se téléporter.
-- [ ] Dans les paramètres de ces composantes, glissez votre XR Interaction Manager dans le paramètre Interaction Manager.
-- [ ] Custom reticle = un objet qui apparaît pour montrer que la téléportation est possible.
-- [ ] Teleportation provider: Glissez Locomotion System pour qu'on puisse se téléporter.
-Le tout en vidéo: <br>
-<youtube src="vx27jJdFB-k"></youtube></p>
-<pre><code>***
-</code></pre>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> S'assurer que Teleportation Provider est coché dans le Locomotion System et décochez le continuous move provider au besoin.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la hiérarchie, clic-droit, XR, ajoutez Teleportation Anchor ou Teleportation Area. Teleportation anchor: On est mieux de créer les zones de téléportation (ex: pastilles) et ensuite de leur ajouter la composante Teleportation anchor. Teleportation area: Zone dans laquelle on peut se téléporter.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans les paramètres de ces composantes, glissez votre XR Interaction Manager dans le paramètre Interaction Manager.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Custom reticle = un objet qui apparaît pour montrer que la téléportation est possible.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Teleportation provider: Glissez Locomotion System pour qu'on puisse se téléporter.</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vx27jJdFB-k?si=493BRpnCvvzsneXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <h2 id="grimper">Grimper<a class="headerlink" href="#grimper" title="Permanent link">¶</a></h2>
 <h3 id="climb-provider">Climb Provider<a class="headerlink" href="#climb-provider" title="Permanent link">¶</a></h3>
-<p><br>- [ ] Sur le GameObject Locomotion System, ajouter la composante Climb Provider.
-- [ ] Glissez le locomotion System dans le paramètre System du Climb Provider.</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le GameObject Locomotion System, ajouter la composante Climb Provider.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le locomotion System dans le paramètre System du Climb Provider.</li>
+</ul>
 <h3 id="systeme-dinteraction-direct-pour-les-mains">Système d'interaction direct pour les mains<a class="headerlink" href="#systeme-dinteraction-direct-pour-les-mains" title="Permanent link">¶</a></h3>
-<p><br>- [ ] Créer un objet vide comme enfant d'une des manettes, le nommer DirectInteractor.
-- [ ] Ajouter la composante XR Direct Interactor sur cet objet vide.
-- [ ] Glissez votre XR Interaction Manager dans le paramètre Interaction Manager de votre composante.
-- [ ] Cocher Improve Accuracy With Sphere Collider.
-- [ ] Ajouter un Sphere Collider sur l'objet pour représenter votre main.
-- [ ] Ajuster le radius du Collider pour qu'il aie la bonne taille.
-- [ ] Répéter ces étapes pour l'autre main.</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un objet vide comme enfant d'une des manettes, le nommer DirectInteractor.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter la composante XR Direct Interactor sur cet objet vide.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez votre XR Interaction Manager dans le paramètre Interaction Manager de votre composante.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cocher Improve Accuracy With Sphere Collider.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter un Sphere Collider sur l'objet pour représenter votre main.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajuster le radius du Collider pour qu'il aie la bonne taille.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Répéter ces étapes pour l'autre main.</li>
+</ul>
 <h3 id="creer-un-mur-descalade">Créer un mur d'escalade<a class="headerlink" href="#creer-un-mur-descalade" title="Permanent link">¶</a></h3>
-<p><br>- [ ] Créer un objet vide nommé Prises.
-- [ ] Créez une prise d'escalade dans l'objet Prises. (Assurez-vous que chacune de vos prises est un objet individuel.)
-- [ ] Assurez-vous de mettre un sphere collider ou un box collider sur votre prise.
-- [ ] Sur le parent des prises, soit l'objet Prises, ajoutez la composante Climb Interactable.
-- [ ] Sur le nouveau Rigidbody, décochez use Gravity pour éviter que vos prises tombent au sol. Cochez isKinematic.
-- [ ] Dans la composante Climb Interactable, dans le paramètre Interaction Manager, glissez votre XR Interaction Manager.
-- [ ] Dans le paramètre Climb Provider, glissez votre Locomotion System.
-- [ ] Toujours sur l'objet Prises, ajoutez la composante XR Interactable Affordance State Provider.
-- [ ] Maintenant, allez dans l'enfant de Prises, soit une prise. Créez un enfant à cette prise.
-- [ ] Ajoutez la composante Material Property Block Helper sur ce nouvel objet.
-- [ ] Dans le paramètre Renderer, glissez son parent.
-- [ ] Ajoutez aussi la composante Color Material Property Affordance Receiver.
-- [ ] Dans le paramètre Affordance Theme Datum, appuyez sur la cible et sélectionnez le seul choix possible.
-- [ ] Créez un prefab avec votre prise.
-- [ ] Glissez ensuite votre prefab dans la scène pour avoir plus d'une prise.</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un objet vide nommé Prises.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une prise d'escalade dans l'objet Prises. (Assurez-vous que chacune de vos prises est un objet individuel.)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous de mettre un sphere collider ou un box collider sur votre prise.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le parent des prises, soit l'objet Prises, ajoutez la composante Climb Interactable.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le nouveau Rigidbody, décochez use Gravity pour éviter que vos prises tombent au sol. Cochez isKinematic.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la composante Climb Interactable, dans le paramètre Interaction Manager, glissez votre XR Interaction Manager.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Climb Provider, glissez votre Locomotion System.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Toujours sur l'objet Prises, ajoutez la composante XR Interactable Affordance State Provider.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Maintenant, allez dans l'enfant de Prises, soit une prise. Créez un enfant à cette prise.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez la composante Material Property Block Helper sur ce nouvel objet.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Renderer, glissez son parent.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi la composante Color Material Property Affordance Receiver.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Affordance Theme Datum, appuyez sur la cible et sélectionnez le seul choix possible.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un prefab avec votre prise.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez ensuite votre prefab dans la scène pour avoir plus d'une prise.</li>
+</ul>
 <h3 id="physique-du-personnage">Physique du personnage<a class="headerlink" href="#physique-du-personnage" title="Permanent link">¶</a></h3>
-<p><br>- [ ] Sur le GameObject XR Origin, ajoutez une composante Character Controller.
-- [ ] Ajoutez aussi un Character Controller Driver.
-- [ ] Dans son paramètre Locomotion Provider, glissez le Locomotion System.</p>
-<p><youtube src="Fg1I0DrB8K8"></youtube></p>
-<hr>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le GameObject XR Origin, ajoutez une composante Character Controller.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi un Character Controller Driver.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans son paramètre Locomotion Provider, glissez le Locomotion System.</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fg1I0DrB8K8?si=eWkfWPBNIpK5Hd1n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <h2 id="sauter">Sauter<a class="headerlink" href="#sauter" title="Permanent link">¶</a></h2>
-<p>Voici le tutoriel qui vous montera comment créer le saut en VR: <br>
-<youtube src="vvfZbVfikJ8"></youtube></p>
-<p><br>
-Voici le code pour sauter (si le code est nommé jump): <br>
-<highlight lang="csharp">
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.InputSystem;</highlight></p>
-<p>public class jump : MonoBehaviour
-{
-    [SerializeField] private InputActionProperty jumpButton;
-    [SerializeField] private float jumpHeight = 3f;
-    [SerializeField] private CharacterController joueur;
-    [SerializeField] private LayerMask groundLayer;</p>
-<pre><code>private float gravity = Physics.gravity.y;
-private Vector3 mouvement;
+<p>Voici le tutoriel qui vous montera comment créer le saut en VR:   </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vvfZbVfikJ8?si=OUAw6Xw-yF1c-dm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-private void Update()
-{
-    bool _isGrounded = isGrounded();
+<p>Voici le code pour sauter (si le code est nommé jump): <br>
+</p><div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine.InputSystem</span><span class="p">;</span>
 
-    if(jumpButton.action.WasPressedThisFrame()&amp;&amp; _isGrounded)
-    {
-        Jump();
-    }
+<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">jump</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">InputActionProperty</span><span class="w"> </span><span class="n">jumpButton</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">jumpHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3f</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">CharacterController</span><span class="w"> </span><span class="n">joueur</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">LayerMask</span><span class="w"> </span><span class="n">groundLayer</span><span class="p">;</span>
 
-    mouvement.y += gravity * Time.deltaTime;
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">gravity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Physics</span><span class="p">.</span><span class="n">gravity</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="n">Vector3</span><span class="w"> </span><span class="n">mouvement</span><span class="p">;</span>
 
-    joueur.Move(mouvement * Time.deltaTime);
-}
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Update</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">bool</span><span class="w"> </span><span class="n">_isGrounded</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">isGrounded</span><span class="p">();</span><span class="w"> </span>
+
+<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">jumpButton</span><span class="p">.</span><span class="n">action</span><span class="p">.</span><span class="n">WasPressedThisFrame</span><span class="p">()</span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">_isGrounded</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="n">Jump</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="n">mouvement</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">gravity</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">;</span>
+
+<span class="w">        </span><span class="n">joueur</span><span class="p">.</span><span class="n">Move</span><span class="p">(</span><span class="n">mouvement</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
 
 
-private void Jump()
-{
-    mouvement.y = Mathf.Sqrt(jumpHeight * -3.0f * gravity); 
-}
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Jump</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">mouvement</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">jumpHeight</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="o">-</span><span class="m">3.0f</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">gravity</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="p">}</span>
 
-private bool isGrounded()
-{
-    return Physics.CheckSphere(transform.position, 0.2f, groundLayer); 
-}
-</code></pre>
-<p>}</p>
-<p></p>
-<hr>
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">isGrounded</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Physics</span><span class="p">.</span><span class="n">CheckSphere</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span><span class="w"> </span><span class="m">0.2f</span><span class="p">,</span><span class="w"> </span><span class="n">groundLayer</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="ascenseur">Ascenseur<a class="headerlink" href="#ascenseur" title="Permanent link">¶</a></h2>
 <p>Voici le tutoriel qui vous aidera à créer une plateforme en mouvement:   </p>
 <p><youtube src="eJCu7YEFBu4"></youtube></p></div>
