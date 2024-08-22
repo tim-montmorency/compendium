@@ -4,4 +4,4 @@
 Ouvrir votre projet 1 sur votre ordinateur prêt à être corrigé.   
 
 ## Continuer le travail 2
-[🛠️ scene/](exercice_ai/scene/){ .md-button }   <br>
+[🛠️ Travail 2](./exercices/scene.md){ .md-button } 
