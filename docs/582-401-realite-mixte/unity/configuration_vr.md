@@ -1,10 +1,8 @@
-
-
 Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer un projet en VR.   
 
-***  
+      
 ## Ajouter la VR au projet
-<br>- [ ] Ouvrir le package manager (window, package manager).
+- [ ] Ouvrir le package manager (window, package manager).
 - [ ] Assurez-vous d'être dans Unity Registry et trouvez XR Plugin Management dans la liste.
 - [ ] Installez ce paquet.
 - [ ] Edit, project settings, puis trouvez l'onglet XR Plug-in Management. Acceptez de redémarrer votre projet.
@@ -18,15 +16,15 @@ Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer
 - [ ] Tous les éléments avec 3 sliders doivent être sélectionnez, puis vous appuyez sur Add to ActionBasedController ou autre choix sur ce bouton en haut.
 - [ ] Edit, Project Settings, preset manager. Les actions qu'on vient d'ajouter y sont disponible.
 - [ ] Dans Action Based Controller, on écrit Right pour le controlleur droit et Left pour le controlleur gauche.
-En vidéo:   
-<youtube src="Kk90hhsdOq0"></youtube>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Kk90hhsdOq0?si=rM0lg8wosODma5d-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
 
-***  
+      
 ## Créer une scène et intégrer le casque de VR
-<br>- [ ] File, new scene, puis choisir un modèle HDRP pour créer votre nouvelle scène. (Un GameObject Sky and Fog Volume apparaîtra dans votre scène si vous avez le bon modèle.)
+- [ ] File, new scene, puis choisir un modèle HDRP pour créer votre nouvelle scène. (Un GameObject Sky and Fog Volume apparaîtra dans votre scène si vous avez le bon modèle.)
 - [ ] Sauvegardez votre scène dans le dossier Scene.
 - [ ] Créez un objet Empty et nommez le joueur.
 - [ ] Dans le joueur, ajouter un objet: Xr, XR Origin.
@@ -39,13 +37,13 @@ En vidéo:
 - [ ] Glissez le GameObject XR Interaction Manager dans le Joueur.
 - [ ] Créez un prefab de votre joueur pour pouvoir l'utiliser dans d'autres scènes.
 
-Le tout en vidéo:    
-<youtube src="uwBccDZznHo"></youtube>
 
-***  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uwBccDZznHo?si=qSoK_7j9G2zzsbwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      
 
 ## Tester avec un clavier et une souris
-<br>- [ ] Mettre un plane dans votre scène pour éviter que votre joueur tombe.
+- [ ] Mettre un plane dans votre scène pour éviter que votre joueur tombe.
 - [ ] Ouvrir le package manager (window, package manager).
 - [ ] Assurez-vous d'être dans Unity Registry et trouvez XR Interaction ToolKit dans la liste.
 - [ ] Dans samples, importez le XR Device Simulator.
@@ -54,15 +52,17 @@ Le tout en vidéo:
 - [ ] Vous pouvez maintenant tester avec votre clavier et souris, quand vous faites Play, vous pourrez tester avec vos manettes.
 - [ ] Décochez XR Device Simulator quand vous voulez tester avec le casque.
 
-Cette vidéo vous explique comment tester avec une souris et un clavier:   
-<youtube src="K9oU2pxeSyw"></youtube>
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K9oU2pxeSyw?si=UbADrRadKkjFEyP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-***  
+      
 
 ## Automatiser la détection du casque
 Si vous voulez que Unity active ou désactive les tests souris-clavier lorsque vous connectez votre casque à l'ordinateur, vous pouvez suivre la vidéo suivante. Sinon, cochez ou décochez le Device simulator pour tester avec le casque ou la souris.   
-<youtube src="hnxy-QOiGAo"></youtube>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hnxy-QOiGAo?si=UsGTIlLYPFKOGDUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Vidéo d'inspiration:    
-[📁 Justin P. Barnett](https://youtu.be/ImPZyIM6XNs){ .md-button }   <br>
+[📁 Justin P. Barnett](https://youtu.be/ImPZyIM6XNs){ .md-button }   
 
