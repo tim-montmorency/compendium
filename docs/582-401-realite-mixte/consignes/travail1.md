@@ -38,6 +38,7 @@ Voici un exemple de l'expérience que vous allez produire:
        
 ## Contenus à produire
 - [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
+
 OU
 - [ ] 2 vidéos de 5 à 10 secondes qui peuvent jouer en boucle.
 
