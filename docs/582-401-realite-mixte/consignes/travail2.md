@@ -118,7 +118,8 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
        
 ## Défis
-Avant de terminer, vous devez réaliser un des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!   
+Avant de terminer, vous devez réaliser un des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
+
 - [ ] Créer une animation sur votre prefab pour que tous ses duplicatas soient animés.
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
 - [ ] Ajustez le script de votre personnage pour qu'il apparaisse au même endroit à chaque fois que le jeu recommence.
@@ -140,6 +141,6 @@ Avant de terminer, vous devez réaliser un des défis suivants. Il n'y a pas d'i
        
 
 ## Notes de cours 📚
-[📝 Prefabs](./unity/prefabs.md){ .md-button }
-[📝 Coroutine](./code/coroutine.md){ .md-button }
+[📝 Prefabs](../unity/prefabs.md){ .md-button }
+[📝 Coroutine](../code/coroutine.md){ .md-button }
 
