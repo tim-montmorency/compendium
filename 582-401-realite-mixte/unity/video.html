@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#importer-la-video" class="md-skip">
+        <a href="#resolution" class="md-skip">
           Aller au contenu
         </a>
       
@@ -10543,6 +10543,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Résolution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#importer-la-video" class="md-nav__link">
     <span class="md-ellipsis">
       Importer la vidéo
@@ -10577,7 +10586,22 @@
 
   <h1>Video</h1>
 
-<div><h2 id="importer-la-video">Importer la vidéo<a class="headerlink" href="#importer-la-video" title="Permanent link">¶</a></h2>
+<div><h2 id="resolution">Résolution<a class="headerlink" href="#resolution" title="Permanent link">¶</a></h2>
+<p>Lorsque vous créez des vidéos pour Unity, vous devrez faire attention à la résolution.</p>
+<p>Au niveau de la résolution, produire des images carrées est essentiel dans Unity. En effet, cela permettra à vos projets d’être optimisés et donc d’avoir des build plus légers. En plus de respecter le format carré, vous devriez toujours prendre des valeurs POT (power of two). Cette règle permet à l’ordinateur de rendre l’image plus rapidement. Voici des exemples de valeurs POT :</p>
+<ul>
+<li>16 x 16</li>
+<li>32 x 32</li>
+<li>64 x 64</li>
+<li>128 x 128</li>
+<li>256 x 256</li>
+<li>512 x 512</li>
+<li>1024 x 1024</li>
+<li>2048 x 2048</li>
+<li>4096 x 4096</li>
+</ul>
+<p>Si vous désirez faire une vidéo rectangulaire, prenez deux valeurs de la liste. Par exemple 1024 x 2048. </p>
+<h2 id="importer-la-video">Importer la vidéo<a class="headerlink" href="#importer-la-video" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le dossier Art de la fenêtre Project, créez un dossier nommé Video s'il n'existe pas encore.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Entrez dans le nouveau dossier, faites un clic-droit, puis choisissez Import New Asset et sélectionnez la vidéo à importer depuis l'explorateur de fichier. Ou encore cliquez et glissez la dans la fenêtre Project.</li>
