@@ -62,5 +62,5 @@ Dans le logiciel Oculus, ouvrez l'onglet appareil. Vous devriez maintenant voir 
 - [ ] Dans la nouvelle fenêtre, ouvrez le moniteur de votre ordinateur.
 - [ ] Appuyez sur play dans votre projet Unity, vous pourrez alors le tester.
 
-Le tout en vidéo:   
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ta09UeUbT5s?si=iDjIcWSqUZKP0MZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
