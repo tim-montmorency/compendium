@@ -22,7 +22,7 @@ Projets de:
        
 
 ### Réflexion sur la thématique de votre travail 1
-    Tempête d'idées   
+Tempête d'idées   
            
 
 ## Installation et base de Unity
@@ -42,7 +42,7 @@ Rendez-vous sur le site suivant pour créer votre compte:
             
     
 ## Test d'expériences AR
-    À l'extérieur et dans les livres.   
+Dans des livres.   
            
 ## Retour en groupe 
 [📝 Introduction à Unity](./unity/introduction.md){ .md-button }  
