@@ -4,7 +4,7 @@
 
 * [Guide de l'étudiant](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
 
-[Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
+* [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
 
 * [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EW-KVl3hVv9OsRRmgxnJorYBlF64OwfAGxVT9Laz_Ym-Cg?e=90ICic)
 
@@ -34,4 +34,4 @@ Set up ordinateur
 
 * [One Drive](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EhNBfilME3xAiU3-iMZ6huwB9LxUBFyyN7NDQvFZfOPBjg?e=QcCewX)
 
-*  [Drivers](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EvnG9PpcpMlGsdB1DZ1KFXkBYN-AlleIUajsfuJnYIa6uQ?e=AcOnk6)
+* [Drivers](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EvnG9PpcpMlGsdB1DZ1KFXkBYN-AlleIUajsfuJnYIa6uQ?e=AcOnk6)
