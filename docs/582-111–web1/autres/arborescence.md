@@ -84,11 +84,11 @@ Conseils de voyage
 
 Destination<br>
   Europe<br>
--       France
--       Espagne
--       Italie
--       Allemagne
--       Royaume-Uni
+-       France<br>
+-       Espagne<br>
+-       Italie<br>
+-       Allemagne<br>
+-       Royaume-Uni<br>
 
 
 Conseils de voyage<br>
@@ -98,16 +98,16 @@ Conseils de voyage<br>
 -         Documents de voyage importants<br>
 
 Destination<br>
-    Europe<br>
-    -----> France<br>
--             Paris<br>
--             Nice<br>
--             Lyon<br>
--             Marseille<br>
--         Espagne<br>
--         Italie<br>
--         Allemagne<br>
--         Royaume-Uni<br>
+       Europe<br>
+    ------ France<br>
+-   ----------* Paris<br>
+-   ----------* Nice<br>
+-   ----------* Lyon<br>
+-   ----------* Marseille<br>
+-   ------ Espagne<br>
+-   ------ Italie<br>
+-   ------ Allemagne<br>
+-   ------ Royaume-Uni<br>
 
 Conseils de voyage<br>
     Activités et loisirs<br>
