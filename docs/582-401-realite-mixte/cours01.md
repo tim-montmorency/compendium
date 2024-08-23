@@ -9,6 +9,21 @@
 
 [📝 Vidéo](./unity/video.md){ .md-button }       
 
+
+## Installation et base de Unity
+### Création de compte
+
+Rendez-vous sur le site suivant pour créer votre compte:   
+[🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
+
+### Téléchargement de Unity
+[📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
+
+           
+
+## Intro à l'éditeur 
+[🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }   
+
 ## Travail 1
     
 [💼 Travail 1](./consignes/travail1.md){ .md-button }     
@@ -25,24 +40,8 @@ Projets de:
 
 ### Réflexion sur la thématique de votre travail 1
 Tempête d'idées   
+                     
            
-
-## Installation et base de Unity
-### Création de compte
-
-Rendez-vous sur le site suivant pour créer votre compte:   
-[🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
-
-### Téléchargement de Unity
-[📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
-
-           
-
-## Intro à l'éditeur 
-[🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }   
-
-            
-           
-## Retour en groupe 
+## Retour en groupe sur Unity
 [📝 Introduction à Unity](./unity/introduction.md){ .md-button }  
 
