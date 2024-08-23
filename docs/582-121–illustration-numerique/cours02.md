@@ -15,8 +15,8 @@
 
 
 * Le courant artistique 
-Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez : 
-  * [Les différents courants artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+  * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez : 
+    * [Les différents courants artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
 Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique. Pour faire votre recherche vous allez où ? Questions à poser ?
 Quels sont les artistes en design graphique qui ont influencé par le mouvement minimaliste. 
 Quels sont les artistes en design graphique qui ont fait de la typographie minimaliste ?
