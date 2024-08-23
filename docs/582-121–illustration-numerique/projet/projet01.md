@@ -28,14 +28,14 @@
 
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 
-- [ ] **Deux moodboards**
+* Deux moodboards
   - [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
   - [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
   - [ ] Vos mooodboard doivent inclure :
           - [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
           - [ ] Une palette de couleurs
           - [ ] Des typographies (si nécessaire)
-- [ ] **Une musique**
+* Une musique
   - [ ] Choisissez une musique qui accompagnera votre présentation.
 
 Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
@@ -56,14 +56,14 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
 
-- [ ] **Présentation de votre projet dans Powerpoint**
+* Présentation de votre projet dans Powerpoint
   - [ ] Présentez dans Powerpoint vos six autoportraits et votre signature sans commenter
   - [ ] Une musique continue doit accompagner la présentation Powerpoint
-- [ ] **Exposé oral**
+* Exposé oral
   - [ ] Décrivez votre démarche artistique grâce à vos moodboard et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée. 
-* Commentaires des étudiants**
+* Commentaires des étudiants
   * Les autres étudiants auront 3 minutes pour faire des commentaires.
-* Commentaires du professeur**
+* Commentaires du professeur
   * Le professeur disposera également de 3 minutes pour faire des commentaires.
 
 **Durée totale de la présentation :** 12 minutes
