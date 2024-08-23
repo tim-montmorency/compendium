@@ -26,11 +26,11 @@
 * [Logo et informations pour le générique](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Etv8yNIevcdHmg8R-gTlWNUB-K1cQ9_20EFgkTDVOTEgOg?e=o7hw9C)
 
 
-Capsules
+## Capsules
 
 * [Capsules Photoshop](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjCo9zny37xKs5wHT3zy05oBpqYCZVALQRQIbgL584lfAg?e=b7Zxyw)
 
-Set up ordinateur
+## Set up ordinateur
 
 * [One Drive](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EhNBfilME3xAiU3-iMZ6huwB9LxUBFyyN7NDQvFZfOPBjg?e=QcCewX)
 
