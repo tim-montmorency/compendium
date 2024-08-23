@@ -118,9 +118,9 @@ Conseils de voyage
 !!! note
 
     Dans cet exemple:
--     le niveau 1 représente les sections principales du site
--     le niveau 2 représente les sous-sections qui détaillent davantage les sujets principaux
--     le niveau 3 représente les pages individuelles qui contiennent le contenu spécifique pour chaque destination ou sujet
+-         le niveau 1 représente les sections principales du site
+-         le niveau 2 représente les sous-sections qui détaillent davantage les sujets principaux
+-         le niveau 3 représente les pages individuelles qui contiennent le contenu spécifique pour chaque destination ou sujet
 
       Avec cette arborescence, les utilisateurs peuvent facilement naviguer entre les différentes sections du site et trouver des informations spécifiques sur les destinations qu'ils souhaitent explorer ou les conseils de voyage qui les intéressent.
   
