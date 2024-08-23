@@ -82,10 +82,10 @@ Conseils de voyage
 
 **Niveau 3 (Pages individuelles)**
 
-Destination<br>
-  Europe<br>
--       France<br>
--       Espagne<br>
+<u>Destination</u><br>
+  **Europe**<br>
+** France<br>
+** Espagne<br>
 -       Italie<br>
 -       Allemagne<br>
 -       Royaume-Uni<br>
@@ -117,12 +117,12 @@ Conseils de voyage<br>
 
 !!! note
 
-    Dans cet exemple:
-    * le niveau 1 représente les sections principales du site
-    * le niveau 2 représente les sous-sections qui détaillent davantage les sujets principaux
-    * le niveau 3 représente les pages individuelles qui contiennent le contenu spécifique pour chaque destination ou sujet
+    Dans cet exemple:<br>
+    * le niveau 1 représente les sections principales du site<br>
+    * le niveau 2 représente les sous-sections qui détaillent davantage les sujets principaux<br>
+    * le niveau 3 représente les pages individuelles qui contiennent le contenu spécifique pour chaque destination ou sujet<br>
 
-    Avec cette arborescence, les utilisateurs peuvent facilement naviguer entre les différentes sections du site et trouver des informations spécifiques sur les destinations qu'ils souhaitent explorer ou les conseils de voyage qui les intéressent.
+    Avec cette arborescence, les utilisateurs peuvent facilement naviguer entre les différentes sections du site et trouver des informations spécifiques sur les destinations qu'ils souhaitent explorer ou les conseils de voyage qui les intéressent.<br>
   
     Les URL des pages reflètent également l'organisation hiérarchique, ce qui permet aux visiteurs et aux moteurs de recherche de comprendre la structure du site.
 
