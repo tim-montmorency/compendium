@@ -23,12 +23,6 @@
 - [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
 - [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
-## Consignes Présentation
-- [ ] **Exportation**
-    - [ ] Exportez toutes vos images en format JPG.
-- [ ] **Format de Présentation**
-    - [ ] Présentez votre projet sous forme de PowerPoint ou de fichier vidéo.
-    - [ ] Ajoutez de la musique pour accompagner la présentation.
 
 ---
 
