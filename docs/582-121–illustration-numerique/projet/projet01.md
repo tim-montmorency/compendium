@@ -33,7 +33,7 @@
 * Deux moodboards
   * [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
   * [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
-  * [ ] Vos mooodboard doivent inclure :
+  * [ ] Vos mooodboards doivent inclure :
       * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
       * [ ] Une palette de couleurs
       * [ ] Des typographies (si nécessaire)
