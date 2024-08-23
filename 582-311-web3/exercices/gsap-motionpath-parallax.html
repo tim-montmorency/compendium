@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://tim-montmorency.com/compendium/582-311-web3/exercices/intro-gsap-prof.html">
+        <link rel="canonical" href="https://tim-montmorency.com/compendium/582-311-web3/exercices/gsap-motionpath-parallax.html">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Intro gsap prof - Notes de cours</title>
+        <title>Gsap motionpath parallax - Notes de cours</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#creation-dune-animation-en-sequence-avec-controle-de-lecture" class="md-skip">
+        <a href="#combinaison-parallaxe-et-motionpath" class="md-skip">
           Aller au contenu
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro gsap prof
+              Gsap motionpath parallax
             
           </span>
         </div>
@@ -4449,16 +4449,112 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../cours01.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Cours 1
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cours 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cours01.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javascript.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JavaScript
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../command-line.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ligne de commande
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -10597,18 +10693,12 @@
                   
 
 
-<div><p><a class="breadcrumb" href="../cours08.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M20 13.5a6.5 6.5 0 0 1-6.5 6.5H6v-2h7.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7h5.67a6.5 6.5 0 0 1 6.5 6.5Z"></path></svg></span> Cours 8</a></p>
-<h1 id="creation-dune-animation-en-sequence-avec-controle-de-lecture">Création d'une animation en séquence avec contrôle de lecture<a class="headerlink" href="#creation-dune-animation-en-sequence-avec-controle-de-lecture" title="Permanent link">¶</a></h1>
-<p>Nous allons créer une animation où :</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Un rectangle se déplace de gauche à droite.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Un cercle apparaît avec une transition d’opacité.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Une boîte tourne pendant que les autres éléments bougent.</li>
-</ul>
-<p>Ensuite, nous allons ajouter des contrôles pour mettre en pause, reprendre, inverser et redémarrer l’animation.</p>
+<div><p><a class="breadcrumb" href="../cours11.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M20 13.5a6.5 6.5 0 0 1-6.5 6.5H6v-2h7.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7h5.67a6.5 6.5 0 0 1 6.5 6.5Z"></path></svg></span> Cours 11</a></p>
+<h1 id="combinaison-parallaxe-et-motionpath">Combinaison parallaxe et MotionPath<a class="headerlink" href="#combinaison-parallaxe-et-motionpath" title="Permanent link">¶</a></h1>
+<p>Nous allons combiner l’effet parallaxe et le plugin MotionPath pour créer une animation plus complexe. L’élément va à la fois suivre un chemin personnalisé tout en étant synchronisé avec le défilement.</p>
 <!--
 
-https://codepen.io/tim-momo/pen/WNqzrdx/cd62a59c7dbe381a547dd414e636c345
+https://codepen.io/tim-momo/pen/ZEdxOBz/0b4dbe9cd97360280c229c486e2fb215?editors=1111
 
 --></div>
 

@@ -1061,6 +1061,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/command-line.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://tim-montmorency.com/compendium/582-311-web3/cours01.html</loc>
          <lastmod>2024-08-23</lastmod>
          <changefreq>daily</changefreq>
@@ -1141,7 +1146,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/intro-gsap-prof.html</loc>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/cli-mandala.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/gsap-animation.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/gsap-drawsvg.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/gsap-motionpath-parallax.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/gsap-scrolltrigger-intermediaire.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/gsap-sprite-scrolltrigger.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/js-100ans.html</loc>
          <lastmod>2024-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -1472,6 +1507,11 @@
     </url>
     <url>
          <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/exercices/intro.html</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-401-realite-mixte/exercices/scene.html</loc>
          <lastmod>2024-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
