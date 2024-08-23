@@ -36,7 +36,7 @@
 
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 
-- [ ] **Deux moodboards distinctes d’inspiration (moodboard)**
+- [ ] **Deux moodboards**
   - [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
   - [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
   - [ ] Vos mooodboard doivent inclure :
