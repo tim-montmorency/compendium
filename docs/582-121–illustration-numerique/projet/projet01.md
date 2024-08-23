@@ -1,6 +1,6 @@
 ## Consignes Signature
 
-- [ ] **Création de la Signature**
+**Création de la Signature**
     - [ ] **Nombre :** Créez 1 signature dans Photoshop.
     - [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
     - [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
@@ -33,38 +33,40 @@
 
 ---
 
-### [PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT](#projet-1-partie-1--le-moodboard--lautoportrait)
+## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 
-- [ ] **Deux planches distinctes d’inspiration (moodboard)**
-  - [ ] Créez ces planches dans Photoshop.
-  - [ ] Une planche doit être dédiée à l’autoportrait et l’autre à la signature.
-  - [ ] Chaque planche doit refléter le courant artistique choisi.
-  - [ ] Incluez une palette de couleurs, une typographie (si nécessaire), ainsi que plusieurs exemples d'œuvres représentatives du courant artistique sélectionné. Ces exemples doivent servir d’inspiration pour votre projet d’autoportrait.
+- [ ] **Deux moodboards distinctes d’inspiration (moodboard)**
+  - [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
+  - [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
+  - [ ] Vos mooodboard doivent inclure :
+          - [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
+          - [ ] Une palette de couleurs
+          - [ ] Des typographies (si nécessaire)
 - [ ] **Une musique**
   - [ ] Choisissez une musique qui accompagnera votre présentation.
 
 Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
-### [TRAVAIL 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT](#travail-1-partie-2--pre-approbation--lautoportrait)
+## TRAVAIL 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos projets individuellement au professeur. Celui-ci vous fournira des commentaires que vous devrez utiliser pour améliorer votre travail en vue de la présentation finale.
 
-Lors de la rencontre avec le professeur, veillez à avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
+Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
 
 ### [TRAVAIL 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT](#travail-1--presentation-finale--lautoportrait)
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
 
 - [ ] **Présentation des projets**
-  - [ ] Présentez vos projets sans commentaires. Durée maximale : 3 minutes.
+  - [ ] Présentez vos projets sans commentaires 
 - [ ] **Exposé oral**
-  - [ ] Décrivez votre démarche artistique et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation doit être concise et bien articulée. Durée maximale : 3 minutes.
-- [ ] **Commentaires des étudiants**
-  - [ ] Les autres étudiants auront 3 minutes pour faire des commentaires.
-- [ ] **Commentaires du professeur**
-  - [ ] Le professeur disposera également de 3 minutes pour faire des commentaires.
+  - [ ] Décrivez votre démarche artistique et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée. 
+-  **Commentaires des étudiants**
+  -  Les autres étudiants auront 3 minutes pour faire des commentaires.
+-  **Commentaires du professeur**
+  -  Le professeur disposera également de 3 minutes pour faire des commentaires.
 
 **Durée totale de la présentation :** 12 minutes
 
