@@ -56,7 +56,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
 
-- [ ] **Présentation des projets**
+- [ ] **Présentation de votre projet dans Powerpoint**
   - [ ] Présentez dans Powerpoint vos six autoportraits et votre signature sans commenter
   - [ ] Une musique continue doit accompagner la présentation Powerpoint
 - [ ] **Exposé oral**
