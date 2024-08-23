@@ -1,5 +1,5 @@
 ## Consignes / Signature
-
+* Autoportrait
 - [ ] **Nombre :** Créez 1 signature dans Photoshop.
 - [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
 - [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
@@ -13,7 +13,7 @@
 - [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
 ## Consignes / Autoportrait
-
+* Autoportrait
 - [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
 - [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
 - [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 10 calques d’images découpées.
@@ -42,7 +42,7 @@ Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents
 
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
-À ce stade, vous devez présenter au professeur
+À ce stade, vous devez présenter au professeur : 
 - [ ] **Deux moodboards**
 - [ ] **Une signature**
 - [ ] **Six autoportraits**
@@ -68,9 +68,8 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 
 **Durée totale de la présentation :** 12 minutes
 
-**Instructions supplémentaires :**
-
-- [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
-- [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
-- [ ] Utilisez un fond blanc ou noir et évitez les transitions.
-- [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
+* Instructions supplémentaires :
+    - [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
+    - [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
+    - [ ] Utilisez un fond blanc ou noir et évitez les transitions.
+    - [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
