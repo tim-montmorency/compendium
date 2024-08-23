@@ -16,12 +16,12 @@
 
 ## CONSIGNES / AUTOPORTRAIT
 * Autoportrait
-   * [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
-   * [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
-   * [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 10 calques d’images découpées.
-   * [ ] **Calques Optionnels :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
-   * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
-   * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
+    * [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
+    * [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
+    * [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 10 calques d’images découpées.
+    * [ ] **Calques Optionnels :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
+    * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
+    * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
 
 ---
