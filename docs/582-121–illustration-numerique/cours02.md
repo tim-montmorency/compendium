@@ -21,9 +21,9 @@ Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant arti
 
 ## DEVOIR
 
-- [ ] Pour votre autoportrait, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
-- [ ] Pour votre signature, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
-- [ ] Notez le nom des artistes qui ont réalisé les illustrations.
-- [ ] Notez le courant artistique auquel appartiennent ces artistes.
-- [ ] Assurez-vous que les images téléchargées sont aux dimensions suivantes : 1920 pixels X 1080 pixels.
-- [ ] Trouver et télécharger votre [musique](https://ytmp3.cc/en13/).
+* [ ] Pour votre autoportrait, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
+* [ ] Pour votre signature, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
+* [ ] Notez le nom des artistes qui ont réalisé les illustrations.
+* [ ] Notez le courant artistique auquel appartiennent ces artistes.
+* [ ] Assurez-vous que les images téléchargées sont aux dimensions suivantes : 1920 pixels X 1080 pixels.
+* [ ] Trouver et télécharger votre [musique](https://ytmp3.cc/en13/).
