@@ -5,6 +5,10 @@ body {
     transition: font-family 0.3s;
 }
 
+.w-100 {
+    width: 100% !important;
+}
+
 /* ---------------------------------- */
 /* Navigation */
 /* ---------------------------------- */
@@ -197,6 +201,10 @@ a:hover .ext-link-icon {
     margin: 1em 0;
     position: relative;
     align-items: center;
+}
+
+.md-typeset .grid img {
+    display: block;
 }
 
 .md-typeset .grid.grid-1-2 {

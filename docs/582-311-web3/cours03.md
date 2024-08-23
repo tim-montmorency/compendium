@@ -4,6 +4,6 @@ tags:
   - Vendredi 6 septembre
 ---
 
-# Cours 3
-
 [STOP]
+
+# Cours 3

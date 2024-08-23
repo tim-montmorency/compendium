@@ -4,6 +4,6 @@ tags:
   - Vendredi 27 septembre
 ---
 
-# Cours 6
-
 [STOP]
+
+# Cours 6

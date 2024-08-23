@@ -49,38 +49,38 @@ let obj = {};       // Objet (object)
 let fn = () => {}   // Fonction (function)
 ```
 
-### Opérateurs 
+### Opérateurs
 
 ```js
-let sum = 10 + 5;        
-let difference = 10 - 5; 
-let product = 10 * 5;    
-let quotient = 10 / 5;   
+let sum = 10 + 5;
+let difference = 10 - 5;
+let product = 10 * 5;
+let quotient = 10 / 5;
 ```
 
 !!! tip "L’opérateur modulo"
     L’opérateur modulo `%` en JavaScript renvoie le reste de la division entière de deux nombres.
     ```js
-    let modulo = 10 % 3; 
+    let modulo = 10 % 3;
     ```
 
 ```js
-let isEqual = 5 == '5';           
-let isStrictEqual = 5 === '5';    
+let isEqual = 5 == '5';
+let isStrictEqual = 5 === '5';
 
-let isNotEqual = 5 != '5';        
-let isStrictNotEqual = 5 !== '5'; 
+let isNotEqual = 5 != '5';
+let isStrictNotEqual = 5 !== '5';
 
-let isGreater = 10 > 5;           
-let isLess = 10 < 5;              
-let isGreaterOrEqual = 10 >= 5;   
-let isLessOrEqual = 10 <= 5;      
+let isGreater = 10 > 5;
+let isLess = 10 < 5;
+let isGreaterOrEqual = 10 >= 5;
+let isLessOrEqual = 10 <= 5;
 ```
 
 ```js
-let andOperator = true && false;  
-let orOperator = true || false;   
-let notOperator = !true;          
+let andOperator = true && false;
+let orOperator = true || false;
+let notOperator = !true;
 ```
 
 ### Conditions :material-directions-fork:
@@ -105,7 +105,7 @@ console.log(score);
 
 ### Tableaux et objets :material-table:
 
-```js 
+```js
 let fruits = ['Pomme', 'Banane', 'Cerise'];
 console.log(fruits[1]);
 ```
@@ -168,7 +168,7 @@ const greet = (name) => {
 };
 ```
 
-### Manipulation du DOM :material-code-tags:{ .mdx-pulse } 
+### Manipulation du DOM :material-code-tags:{ .mdx-pulse }
 
 ```js
 let element = document.getElementById('demo');
@@ -229,7 +229,7 @@ document.getElementById('champ').addEventListener('change', function(event) {
 
 ### this 🤯
 
-'this' fait référence à son contexte
+`this` fait référence au contexte dans lequel la fonction est exécutée
 
 ```html
 <button id="submit">Télécharger</button>
@@ -301,3 +301,59 @@ video.currentTime = 0;
 
 !!! warning "Lecture automatique"
     De nombreux navigateurs imposent des restrictions sur la lecture automatique (*autoplay*) des médias en raison de préoccupations concernant l’expérience utilisateur et la consommation de données. Par conséquent, l'utilisateur doit souvent interagir avec la page pour déclencher une lecture. Cependant, il est généralement possible de contourner cette restriction en coupant initialement le son du média à l'aide de l'attribut `muted`.
+
+---
+
+## Introduction aux classes
+
+### Qu’est-ce qu’une classe ?
+
+Une classe en JavaScript, c’est un peu comme une « recette » pour créer plusieurs objets similaires.
+
+Imaginez que vous devez créer plusieurs personnages dans un jeu.
+
+Au lieu de répéter le même code pour chaque personnage, vous pouvez utiliser une classe pour définir une « recette de personnage » et créer autant de personnages que vous voulez.
+
+### Pourquoi utiliser des classes ?
+
+Sans les classes, chaque fois que vous voulez créer un nouvel objet avec les mêmes propriétés (ex: un personnage), vous devez tout réécrire pour chaque personnage: son nom, sa couleur de cheveux, sa grandeur, son poid, son QI, etc.
+
+Avec une classe, vous écrivez le code une seule fois et pouvez ensuite l’utiliser pour créer plusieurs objets!
+
+### Comment ça fonctionne ?
+
+```js
+class Person {
+
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet()
+    console.log(`Salut, je m'appelle ${this.name} et j'ai ${this.age} ans.`);
+  }
+}
+
+const person1 = new Person('Jeanne', 25);
+person1.greet();
+// Affiche "Salut, je m'appelle Jeanne et j'ai 25 ans."
+
+const person2 = new Person('Félix', 641);
+person2.greet();
+// Affiche "Salut, je m'appelle Félix et j'ai 641 ans."
+```
+
+Quelques observations importantes dans l'exemple ci-dessus :
+
+* Le nom d'une classe doit commencer par une majuscule. C'est une norme.
+* Une fonction à l'intérieur d'une classe s'appelle une méthode.
+* La fonction `constructor` est comme un modèle de départ qui assigne les variables de la classes.
+* Les variables ne sont pas définies comme à l'habiture avec `let`, `var` ou `const`.
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/cent-ans.jpg)
+
+  <small>Exercice - JavaScript</small><br>
+  **[La guerre de 100 ans](./exercices/js-100ans.md){.stretched-link}**
+</div>

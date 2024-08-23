@@ -4,9 +4,9 @@ tags:
   - Vendredi 22 novembre
 ---
 
-# Cours 13
+[STOP]
 
-[STOP ]
+# Cours 13
 
 ## MorphSVG et transitions de formes
 

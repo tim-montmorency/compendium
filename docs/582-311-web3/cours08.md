@@ -4,9 +4,9 @@ tags:
   - Vendredi 18 octobre
 ---
 
-# Cours 8
-
 [STOP]
+
+# Cours 8
 
 [GSAP](https://gsap.com/) (GreenSock Animation Platform) est une bibliothèque JavaScript pour créer des animations web. Elle est utilisée pour créer des animations complexes et interactives.
 
