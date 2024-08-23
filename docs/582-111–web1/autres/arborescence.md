@@ -97,17 +97,17 @@ Conseils de voyage<br>
 -         Conseils pour l'emballage<br>
 -         Documents de voyage importants<br>
 
-Destination<br>
+<u>Destination<u><br>
        Europe<br>
-    ------ France<br>
--   ----------* Paris<br>
--   ----------* Nice<br>
--   ----------* Lyon<br>
--   ----------* Marseille<br>
--   ------ Espagne<br>
--   ------ Italie<br>
--   ------ Allemagne<br>
--   ------ Royaume-Uni<br>
+        ------ France<br>
+    -   ----------*  Paris<br>
+    -   ----------*  Nice<br>
+    -   ----------*  Lyon<br>
+    -   ----------*  Marseille<br>
+    -   ------ Espagne<br>
+    -   ------ Italie<br>
+    -   ------ Allemagne<br>
+    -   ------ Royaume-Uni<br>
 
 Conseils de voyage<br>
     Activités et loisirs<br>
