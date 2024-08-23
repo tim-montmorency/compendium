@@ -66,7 +66,6 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 * Exposé oral
   * [ ] Décrivez votre démarche artistique grâce à vos moodboard et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
 
-
 * Instructions supplémentaires :
    * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
    * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
