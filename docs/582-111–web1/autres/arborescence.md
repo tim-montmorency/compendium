@@ -128,3 +128,10 @@ Conseils de voyage
 
 ---
 
+<div class="grid grid-auto" markdown>
+  ![](../_/profs/jfcartier.jpg)
+
+  **Arborescence Exercice #1**<br>
+  _Créer l'arborescence suivante._
+  
+</div>
