@@ -41,6 +41,7 @@ Habituellement, pour un sprite, on devrait prendre une valeur entre 64 et 512 se
 ## Sprite Sheet
 Lorsque l’on souhaite créer l’animation d’un sprite, c’est un sprite sheet que nous devrons utiliser. Il s’agit d’une image plus grosse qui contient tous les sprites dont nous aurons besoin pour faire l’animation de l’élément. Idéalement, ces images sont placées dans une grille.    
 
+### Photoshop
 Voici un tutoriel qui peut vous aider :    
 [📁 Tutoriel écrit](https://amphibistudio.sg/sprite-sheets/ ){ .md-button }    
 
@@ -53,9 +54,13 @@ Une fois vos images créées, plutôt que d'exporter le tout en gif, vous pourri
 
 [📁 Modèle Photoshop](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWDNEYJez2BFgiIzLZXo3MsBqnHle1knqJ9c5xrXLo5vgg?e=lDnowT){ .md-button }     
 
+### After effects
+Vous pouvez créer une animation dans after effects et ensuite l'exporter vers une sprite sheet: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MLlw0IOpC4o?si=IQ5HDrM2YZkkRv6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Procreate
 Si vous préférez utiliser Procreate, ce tutoriel vous aidera. Cependant, une fois vos dessins créés, n'oubliez pas de les mettre dans une grille pour les exporter.   
 [📁 Exemple avec Procreate](https://www.youtube.com/watch?v=vwgacGe-ei0&ab_channel=IttaiManero){ .md-button }   <br>
 
-Pour exporter une animation After effects et la transformer en Sprite Sheet dans Photoshop, vous pouvez utiliser le tutoriel suivant:    
-[📁 Exemple avec Procreate](https://youtu.be/MLlw0IOpC4o){ .md-button }   <br>  
+
+  

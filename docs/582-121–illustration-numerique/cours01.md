@@ -17,7 +17,6 @@
   
 
 ## Présentation du plan de cours et règles
-* Connexion aux ordinateurs
 * Importance du cours dans le cadre du programme
   *  Importance de l'esprit de cohorte, cohésion
   *  Porte-folio
@@ -42,7 +41,6 @@
 * Nourriture
 * Liquide
 * Bruit
-
 
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis

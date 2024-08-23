@@ -15,9 +15,10 @@
 [📝 Détection](./realite-augmentee/detection.md){ .md-button }   
 
        
-## Calques et animation
+## Calques
 [📝 Calques](./unity/sorting_layers.md){ .md-button }       
 
+## Animation
 [📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
        
 ## Avancement du travail 1

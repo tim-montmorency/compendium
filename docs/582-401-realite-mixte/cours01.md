@@ -4,14 +4,16 @@
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUBSOd1XBz9FtlRAumIpoawBQ0eIzPaiSnY55lTuNJ2AIQ?e=Bo5TuD){ .md-button }   <br>
      
 
-## Sprite
+## Création de visuels
 [📝 Sprite](./unity/sprite.md){ .md-button }       
+
+[📝 Vidéo](./unity/video.md){ .md-button }       
 
 ## Travail 1
     
 [💼 Travail 1](./consignes/travail1.md){ .md-button }     
     
-### Test d'exemples de travail 1
+### Test d'exemples de travail 1 et de livres en AR
 Projets de:       
 
 - Quoc Huy Do    
@@ -22,7 +24,7 @@ Projets de:
        
 
 ### Réflexion sur la thématique de votre travail 1
-    Tempête d'idées   
+Tempête d'idées   
            
 
 ## Installation et base de Unity
@@ -40,9 +42,6 @@ Rendez-vous sur le site suivant pour créer votre compte:
 [🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }   
 
             
-    
-## Test d'expériences AR
-    À l'extérieur et dans les livres.   
            
 ## Retour en groupe 
 [📝 Introduction à Unity](./unity/introduction.md){ .md-button }  
