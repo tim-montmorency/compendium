@@ -1,6 +1,5 @@
 ## Consignes / Signature
 
-**Création de la Signature**
 - [ ] **Nombre :** Créez 1 signature dans Photoshop.
 - [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
 - [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
@@ -15,7 +14,6 @@
 
 ## Consignes / Autoportrait
 
-**Création des Autoportraits**
 - [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
 - [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
 - [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 10 calques d’images découpées.
@@ -42,7 +40,7 @@
 
 Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
-## TRAVAIL 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
+## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter au professeur
 - [ ] **Deux moodboards**
@@ -54,7 +52,7 @@ Le professeur vous fournira des commentaires que vous devrez utiliser pour amél
 
 Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
 
-## TRAVAIL 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
+## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
 
