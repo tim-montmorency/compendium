@@ -60,7 +60,7 @@ Lors de la rencontre avec le professeur, veillez à avoir tous vos documents ouv
 - [ ] **Présentation des projets**
   - [ ] Présentez vos projets sans commentaires. Durée maximale : 3 minutes.
 - [ ] **Exposé oral**
-  - [ ] Décrivez votre démarche artistique et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.
+  - [ ] Décrivez votre démarche artistique et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation doit être concise et bien articulée. Durée maximale : 3 minutes.
 - [ ] **Commentaires des étudiants**
   - [ ] Les autres étudiants auront 3 minutes pour faire des commentaires.
 - [ ] **Commentaires du professeur**
