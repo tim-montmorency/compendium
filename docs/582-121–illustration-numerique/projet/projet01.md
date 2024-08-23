@@ -45,10 +45,11 @@ Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter au professeur : 
-   * [ ] **Deux moodboards :**
-   * [ ] **Une signature :**
-   * [ ] **Six autoportraits :**
-   * [ ] **Une musique :**
+
+* [ ] **Deux moodboards :**
+* [ ] **Une signature :**
+* [ ] **Six autoportraits :**
+* [ ] **Une musique :**
 
 
 Le professeur vous fournira des commentaires que vous devrez utiliser pour améliorer votre travail en vue de la présentation finale. Si aucune modification n'est effectué, votre note finale risque d'être grandement affectée. 
