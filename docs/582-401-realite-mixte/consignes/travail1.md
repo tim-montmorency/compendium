@@ -26,7 +26,22 @@ Votre travail devra contenir les éléments suivants:
 
        
 ## Thématique
-La thématique est libre. L'important est que vous créiez vos propres sprites animés et vos sons. Vos sprite sheet doivent contenir au minimum neuf images. La fonctionnalité ainsi que le design du jeu seront évalués.    
+La thématique est libre. L'important est que vous créiez vos propres sprites ou vidéos animés et vos sons. Vos sprite sheet doivent contenir au minimum neuf images et vos vidéos doivent être de 5 à 10 secondes. La fonctionnalité ainsi que le design du jeu seront évalués.    
+
+Voici quelques pistes d'inspiration: 
+Générer une palette dans Coolors et créer un projet à partir de celle-ci: 
+
+[📁 Coolors](https://coolors.co/){ .md-button }   <br>
+
+Créer une affiche animée à partir de ces inspirations: 
+
+[📁 Pinterest](https://pin.it/5dXguOqAu){ .md-button }   <br>
+
+Voici un site qui donne des idées de thématiques: 
+
+[📁 Inspiration](https://davebirss.com/inspiration/){ .md-button }   <br>
+
+
 
        
 ## Exemple
