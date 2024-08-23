@@ -19,7 +19,7 @@
 Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
 
 
-##DEVOIR
+## DEVOIR
 
 - [ ] Pour votre autoportrait, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
 - [ ] Pour votre signature, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
