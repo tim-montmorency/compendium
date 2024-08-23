@@ -67,7 +67,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
   * Les autres étudiants auront 3 minutes pour faire des commentaires.
 * Commentaires du professeur
   * Le professeur disposera également de 3 minutes pour faire des commentaires.
-            Durée totale de la présentation : 12 minutes
+        * Durée totale de la présentation : 12 minutes
 
 * Instructions supplémentaires :
     - [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
