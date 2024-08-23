@@ -128,12 +128,15 @@ Conseils de voyage
 
 ---
 
+## Exercices
+
 <div class="grid grid-auto" markdown>
   ![thumb](https://github.com/user-attachments/assets/81dd0e1a-e595-4f45-805c-f42bef803c0e)
 
 
 
   **Arborescence Exercice #1**<br>
-  _Créer l'arborescence suivante._
+  _Créer l'arborescence suivante._<br>
+  [Exercice 1](https://google.ca)
   
 </div>
