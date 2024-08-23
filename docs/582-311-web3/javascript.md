@@ -6,10 +6,6 @@
 
 ![Statistic: Most used programming languages among developers worldwide as of 2024 | Statista](https://www.statista.com/graphic/1/793628/worldwide-developer-survey-most-used-languages.jpg)
 
-Front-end vs. Back-end
-
-Python est pasmal plus backend que JavaScript.
-
 ## La base de la base
 
 ```js title="Commentaires"
