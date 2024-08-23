@@ -129,7 +129,8 @@ Conseils de voyage
 ---
 
 <div class="grid grid-auto" markdown>
-  ![](../_/profs/jfcartier.jpg)
+  ![thumb](https://github.com/user-attachments/assets/137553de-d5f6-40f7-b951-62c5836a976e)
+
 
   **Arborescence Exercice #1**<br>
   _Créer l'arborescence suivante._
