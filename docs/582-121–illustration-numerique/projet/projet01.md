@@ -1,4 +1,6 @@
-## Consignes / Signature
+# PROJET 1
+
+## CONSIGNES / SIGNATURE
 * Signature
     - [ ] **Nombre :** Créez 1 signature dans Photoshop.
     - [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
@@ -12,7 +14,7 @@
     - [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     - [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
-## Consignes / Autoportrait
+## CONSIGNES / AUTOPORTRAIT
 * Autoportrait
     - [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
     - [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
@@ -66,7 +68,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 * Commentaires du professeur
   * Le professeur disposera également de 3 minutes pour faire des commentaires.
 
-**Durée totale de la présentation :** 12 minutes
+        **Durée totale de la présentation :** 12 minutes
 
 * Instructions supplémentaires :
     - [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
