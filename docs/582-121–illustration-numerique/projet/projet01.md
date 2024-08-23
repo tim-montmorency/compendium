@@ -1,4 +1,4 @@
-## Consignes Signature
+## Consignes / Signature
 
 **Création de la Signature**
 - [ ] **Nombre :** Créez 1 signature dans Photoshop.
@@ -13,7 +13,7 @@
 - [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
 - [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
-## Consignes Autoportrait
+## Consignes / Autoportrait
 
 **Création des Autoportraits**
 - [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
