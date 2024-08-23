@@ -93,27 +93,27 @@ Destination<br>
 
 Conseils de voyage<br>
     Préparation avant le départ<br>
--         Liste de contrôle pour les voyages
--         Conseils pour l'emballage
--         Documents de voyage importants
+-         Liste de contrôle pour les voyages<br>
+-         Conseils pour l'emballage<br>
+-         Documents de voyage importants<br>
 
 Destination<br>
     Europe<br>
--         France
--             Paris
--             Nice
--             Lyon
--             Marseille
--         Espagne
--         Italie
--         Allemagne
--         Royaume-Uni
+    -----> France<br>
+-             Paris<br>
+-             Nice<br>
+-             Lyon<br>
+-             Marseille<br>
+-         Espagne<br>
+-         Italie<br>
+-         Allemagne<br>
+-         Royaume-Uni<br>
 
 Conseils de voyage<br>
     Activités et loisirs<br>
--         Randonnée en montagne
--         Plongée sous-marine
--         Excursions culturelles
+-         Randonnée en montagne<br>
+-         Plongée sous-marine<br>
+-         Excursions culturelles<br>
 
 !!! note
 
