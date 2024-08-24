@@ -6,11 +6,11 @@
     * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
     * [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
     * [ ] **Effets :** Intégrez au moins un des effets suivants :
-       * [ ] Perspective
-       * [ ] 3D
-       * [ ] Ligne brisée
-       * [ ] Fluide
-       * [ ] Vent
+        * [ ] Perspective
+        * [ ] 3D
+        * [ ] Ligne brisée
+        * [ ] Fluide
+        * [ ] Vent
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
@@ -65,4 +65,3 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 * **Exposé oral et présentation de votre moodboard**
     * [ ] Une fois la présentation de votre projet terminé, présentez dans Powerpoint vos moodboards.
     * [ ] Décrivez votre démarche artistique grâce à vos moodboards et expliquer comment votre travail est influencé par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
-
