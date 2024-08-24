@@ -31,6 +31,7 @@
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
+
 * **Deux moodboards**
     * [ ] Présentez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
     * [ ] Présentez un moodboard pour la signature afin donner une ligne directrice pour votre projet
@@ -38,6 +39,7 @@
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
         * [ ] Une palette de couleurs
         * [ ] Des typographies (si nécessaire)
+              
  * **Une musique**
     * [ ] Présentez la musique qui accompagnera votre présentation.
 
@@ -60,6 +62,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 ## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
+
 * **Présentation de vos illustrations**
    * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature.
         * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
@@ -67,6 +70,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
         * [ ] Utilisez un fond blanc ou noir et évitez les transitions.  
         * [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
     * [ ] À cette étape, vous ne devez pas commenter votre projet.
+          
 * **Exposé oral et présentation de votre moodboard**
     * [ ] Une fois la présentation de votre projet terminé, présentez dans Powerpoint vos moodboards.
     * [ ] Décrivez votre démarche artistique grâce à vos moodboards et expliquer comment votre travail est influencé par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.
