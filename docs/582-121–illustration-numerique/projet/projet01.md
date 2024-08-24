@@ -61,7 +61,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
         * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
         * [ ] Utilisez un fond blanc ou noir et évitez les transitions.  
         * [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
-    * [ ] À cette étape, vous n'avez pas à commenter votre projet.
+    * [ ] À cette étape, vous ne devez pas commenter votre projet.
 * **Exposé oral et présentation de votre moodboard**
     * [ ] Une fois la présentation de votre projet terminé, présentez dans Powerpoint vos moodboards.
     * [ ] Décrivez votre démarche artistique grâce à vos moodboards et expliquer comment votre travail est influencé par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
