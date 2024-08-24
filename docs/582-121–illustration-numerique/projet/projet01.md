@@ -1,6 +1,7 @@
 # PROJET 1
 
 ## CONSIGNES / SIGNATURE
+
 * **Signature**
    * [ ] **Nombre :** Créez 1 signature dans Photoshop.
     * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
@@ -15,6 +16,7 @@
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
 ## CONSIGNES / AUTOPORTRAIT
+
 * **Autoportrait**
     * [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
     * [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
@@ -27,6 +29,7 @@
 ---
 
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
+
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 * **Deux moodboards**
     * [ ] Présentez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
@@ -41,8 +44,8 @@
 Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
-À ce stade, vous devez présenter vos illustrations terminées au professeur. 
 
+À ce stade, vous devez présenter vos illustrations terminées au professeur. 
 * Voici la liste des choses à présenter
     * [ ] **Deux moodboards**
     * [ ] **Une signature**
@@ -54,9 +57,10 @@ Le professeur vous fournira des commentaires que vous devrez utiliser pour amél
 Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
 
 ## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
+
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
 * **Présentation de vos illustrations**
-    * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature.
+   * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature.
         * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
         * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
         * [ ] Utilisez un fond blanc ou noir et évitez les transitions.  
