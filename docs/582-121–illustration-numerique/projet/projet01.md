@@ -30,15 +30,15 @@
 
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 
-* Deux moodboards
-   * [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
-   * [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
-   * [ ] Vos mooodboards doivent inclure :
-      * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
-      * [ ] Une palette de couleurs
-      * [ ] Des typographies (si nécessaire)
-* Une musique
-   * [ ] Choisissez une musique qui accompagnera votre présentation.
+ * Deux moodboards
+    * [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
+    * [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
+    * [ ] Vos mooodboards doivent inclure :
+       * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
+       * [ ] Une palette de couleurs
+       * [ ] Des typographies (si nécessaire)
+ * Une musique
+    * [ ] Choisissez une musique qui accompagnera votre présentation.
 
 Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
