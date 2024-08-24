@@ -32,9 +32,9 @@
     * [ ] Présentez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
     * [ ] Présentez un moodboard pour la signature afin donner une ligne directrice pour votre projet
     * [ ] Vos mooodboards doivent inclure :
-       * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
-       * [ ] Une palette de couleurs
-       * [ ] Des typographies (si nécessaire)
+        * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
+        * [ ] Une palette de couleurs
+        * [ ] Des typographies (si nécessaire)
  * **Une musique**
     * [ ] Présentez la musique qui accompagnera votre présentation.
 
