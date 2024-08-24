@@ -46,6 +46,7 @@ Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos illustrations terminées au professeur. 
+
 * Voici la liste des choses à présenter
     * [ ] **Deux moodboards**
     * [ ] **Une signature**
