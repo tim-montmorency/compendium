@@ -22,6 +22,8 @@ Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant arti
 * 03_Interface Photoshop
 * 04_Importer des images
 * 05_Enregistrer des images
+* 07_recadrage
+* Alignement
 * 15_Typographie
 
 
