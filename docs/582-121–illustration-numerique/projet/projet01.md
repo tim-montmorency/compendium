@@ -3,7 +3,7 @@
 ## CONSIGNES / SIGNATURE
 
 * **Signature**
-   * [ ] **Nombre :** Créez 1 signature dans Photoshop.
+    * [ ] **Nombre :** Créez 1 signature dans Photoshop.
     * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
     * [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
     * [ ] **Effets :** Intégrez au moins un des effets suivants :
