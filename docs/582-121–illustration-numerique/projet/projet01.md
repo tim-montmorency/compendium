@@ -46,10 +46,10 @@ Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents
 
 À ce stade, vous devez présenter au professeur :  
 
-* [ ] **Deux moodboards :**
-* [ ] **Une signature :**
-* [ ] **Six autoportraits :**
-* [ ] **Une musique :**
+    * [ ] **Deux moodboards :**
+    * [ ] **Une signature :**
+    * [ ] **Six autoportraits :**
+    * [ ] **Une musique :**
 
 
 Le professeur vous fournira des commentaires que vous devrez utiliser pour améliorer votre travail en vue de la présentation finale. Si aucune modification n'est effectué, votre note finale risque d'être grandement affectée. 
@@ -61,13 +61,13 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
 
 * Présentation de votre projet dans Powerpoint
-   * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature sans commenter
-   * [ ] Une musique continue doit accompagner la présentation Powerpoint
+    * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature sans commenter
+    * [ ] Une musique continue doit accompagner la présentation Powerpoint
 * Exposé oral
-  * [ ] Décrivez votre démarche artistique grâce à vos moodboard et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
+   * [ ] Décrivez votre démarche artistique grâce à vos moodboard et expliquez comment elle est influencée par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
 
 * Instructions supplémentaires :
-   * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
-   * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
-   * [ ] Utilisez un fond blanc ou noir et évitez les transitions.
-   * [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
+    * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
+    * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
+    * [ ] Utilisez un fond blanc ou noir et évitez les transitions.
+    * [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
