@@ -29,8 +29,8 @@
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 * **Deux moodboards**
-* [ ] Présentez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
-* [ ] Présentez un moodboard pour la signature afin donner une ligne directrice pour votre projet
+    * [ ] Présentez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
+    * [ ] Présentez un moodboard pour la signature afin donner une ligne directrice pour votre projet
     * [ ] Vos mooodboards doivent inclure :
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
         * [ ] Une palette de couleurs
