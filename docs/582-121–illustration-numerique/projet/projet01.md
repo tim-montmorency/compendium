@@ -2,17 +2,17 @@
 
 ## CONSIGNES / SIGNATURE
 * **Signature**
-    * [ ] **Nombre :** Créez 1 signature dans Photoshop.
-    * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
-    * [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
-    * [ ] **Effets :** Intégrez au moins un des effets suivants :
-        * [ ] Perspective
-        * [ ] 3D
-        * [ ] Ligne brisée
-        * [ ] Fluide
-        * [ ] Vent
-    * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
-    * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
+   * [ ] **Nombre :** Créez 1 signature dans Photoshop.
+   * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
+   * [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
+   * [ ] **Effets :** Intégrez au moins un des effets suivants :
+   * [ ] Perspective
+      * [ ] 3D
+      * [ ] Ligne brisée
+      * [ ] Fluide
+      * [ ] Vent
+   * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
+   * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
 ## CONSIGNES / AUTOPORTRAIT
 * **Autoportrait**
