@@ -58,16 +58,16 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 
 ## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
-À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
+À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
 
-* Présentation de votre projet dans Powerpoint
+* Présentation de vos illustrations
     * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature.
         * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
         * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
         * [ ] Utilisez un fond blanc ou noir et évitez les transitions.  
         * [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
     * [ ] À cette étape, vous n'avez pas à commenter votre projet.
-
-* Exposé oral
-    * [ ] Une fois la présentation de votre projet terminé, vous allez décrire votre démarche artistique grâce à vos moodboards. Vous allez expliquer comment votre travail est influencé par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
+* Exposé oral et présentation de votre moodboard
+    * [ ] Une fois la présentation de votre projet terminé, présentez dans Powerpoint vos moodboards.
+    * [ ] Décrivez votre démarche artistique grâce à vos moodboards et expliquer comment votre travail est influencé par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.   
 
