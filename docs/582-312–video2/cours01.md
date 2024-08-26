@@ -13,8 +13,8 @@
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Achat de matériel
- * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
- * Obligatoirement avoir avoir cette SD.
+  * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
+  * Obligatoirement avoir avoir cette SD.
 
   
 ## Contact et disponibilité du professeure
@@ -39,7 +39,7 @@
 
 ## Devoir
 * Scénarisation de votre projet
-  * Moodboard
+  * Moodboard : un moodboard pour la direction du projet et un moodboard pour la lumière. 
   * Listes des choses que vous allez tourner et enregistrer
 * Réviser [Les bases de la vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EsS5H-R9oIZGpS_T2LlU9sgB8p_AnoTlfrmvkf6aAoBrzA?e=cZqVH6)
 * Installer la version de [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/) à la maison
