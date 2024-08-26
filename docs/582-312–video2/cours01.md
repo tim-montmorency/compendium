@@ -14,7 +14,8 @@
 * Résolution des conflits
 * Achat de matériel
  * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
- * Obligatoirement avoir avoir cette SD. 
+ * Obligatoirement avoir avoir cette SD.
+ * 
   
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
