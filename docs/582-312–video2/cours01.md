@@ -28,7 +28,7 @@
 * Choisir journée de tournage (entre le 10 septembre après votre cours et avant le 22 septembre)
   * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
     * 1 équipe par studio
-    * 3, 4 ou 5 par équipe
+      * 3, 4 ou 5 par équipe
     * Plage de tournage
       * 7h00 à 14h00
       * 15h00 à 22h00
