@@ -13,6 +13,8 @@
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Achat de matériel
+ * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
+ * Obligatoirement avoir avoir cette SD. 
   
 ## Contact et disponibilité du professeure
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
@@ -40,3 +42,5 @@
   * Listes des choses que vous allez tourner et enregistrer
 * Réviser [Les bases de la vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EsS5H-R9oIZGpS_T2LlU9sgB8p_AnoTlfrmvkf6aAoBrzA?e=cZqVH6)
 * Installer la version de [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/) à la maison
+* Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
+* Obligatoirement avoir avoir cette SD. 
