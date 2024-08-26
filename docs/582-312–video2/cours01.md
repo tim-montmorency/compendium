@@ -26,7 +26,7 @@
 * Explication du [projet 1](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZMj7dktXu5PjGhgHdN8XRsBlUMZumxb3tXLzAbIhz9mxQ?e=xTZ7hV)
 * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EQgpWSSXSqFNu4jZFArMR_MBzw0ZKzsCVkVr0l1j7GLQVw?e=aPDlKr)
 * Choisir journée de tournage (entre le 10 septembre après votre cours et avant le 22 septembre)
-  * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
+* [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
     * 1 équipe par studio (3, 4 ou 5 par équipe)
     * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00)
 
