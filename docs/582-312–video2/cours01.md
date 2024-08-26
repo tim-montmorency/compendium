@@ -5,16 +5,16 @@
 
 ## Présentation des règles du cours
 * Remise des travaux
-  * Grilles d’évaluation
-  * Nomenclature
+    * Grilles d’évaluation
+    * Nomenclature
 * Absence à une évaluation
 * Absence à un cours en studio
 * Retard et départ avant la fin du cours
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Achat de matériel
-  * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
-  * Obligatoirement avoir avoir cette SD.
+    * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
+    * Obligatoirement avoir avoir cette SD.
 
   
 ## Contact et disponibilité du professeure
