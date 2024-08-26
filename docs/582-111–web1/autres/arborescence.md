@@ -65,7 +65,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 **Niveau 2 (Sous-sections)**
 
-Destinations
+Destinations<br>
   - Europe
   - Asie
   - Amérique du Nord
@@ -73,7 +73,7 @@ Destinations
   - Afrique
   - Océanie
 
-Conseils de voyage
+Conseils de voyage<br>
   - Préparation avant le départ
   - Hébergement
   - Transport
