@@ -34,13 +34,13 @@
 
 * **Deux moodboards**
     * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-    * [ ] [Faites une recherche dans Pinterest pour trouver vos inspirations pour la signature et l'autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * [ ] Faites une recherche dans [Pinterest](https://www.pinterest.com/) pour trouver vos inspirations pour la signature et l'autoportrait
     * [ ] Créez votre moodboard dans Photoshop à partir des [templates suivants](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
     * [ ] Vos mooodboards doivent inclure :
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
         * [ ] Une palette de couleurs
         * [ ] Des typographies (si nécessaire)
-    * [ ] [Téléchargez le document de nomenclature et déposez vos deux moodboards dans le dossier références](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
+    * [ ] Téléchargez le document de [nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR) et déposez vos deux moodboards dans le dossier références
 
  * **Une musique**
     * [ ] Choisir et [Téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
