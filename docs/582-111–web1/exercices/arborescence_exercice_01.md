@@ -12,7 +12,7 @@ Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Co
 - À propos de nous
 - Contact
 ---
-**Boissons** :
+- **Boissons** :
     - Café
         - Expresso
         - Café au lait
