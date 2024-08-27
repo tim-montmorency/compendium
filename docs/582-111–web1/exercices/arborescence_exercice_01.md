@@ -3,6 +3,7 @@
 Concevoir l'arborescence web d'un site pour un café en ligne qui propose une variété de boissons, de collations et d'informations sur l'entreprise.
 
 ## Instructions
+---
 
 Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Commencez par la page d'accueil du café, puis créez des sections et des pages en fonction des éléments suivants :
 ---
@@ -58,6 +59,6 @@ Cet exercice vous aidera à mieux comprendre comment organiser l'information de 
 
 ## Notes de cours
 
-![icon](https://github.com/user-attachments/assets/ec332313-d76b-42e2-ae95-01ca1c7a2f70)Arborescence<br>
+![icon](https://github.com/user-attachments/assets/ec332313-d76b-42e2-ae95-01ca1c7a2f70)Arborescence 
 Sitemap
 
