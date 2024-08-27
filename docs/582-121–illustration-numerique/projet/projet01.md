@@ -1,5 +1,5 @@
 # PROJET 1
-*** 
+
 ## CONSIGNES / SIGNATURE
 
 * **Signature**
@@ -26,7 +26,7 @@
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
-***
+
 
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
 
@@ -48,7 +48,7 @@
 
 Déposez tous ces documents dans la remise sur Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
-***
+
 
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
@@ -64,7 +64,7 @@ Le professeur vous fournira des commentaires que vous devrez utiliser pour amél
 
 Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
 
-***
+
 
 ## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
