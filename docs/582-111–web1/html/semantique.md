@@ -2,7 +2,7 @@
 
 Lors de la création d'une page, plusieurs balises HTML sont utilisées. Certaines de ces balises ont une valeur sémantique, tandis que d'autres non. On dit d'une balise qu'elle a une valeur sémantique lorsqu'elle permet de mieux comprendre son contenu ou encore son contexte.
 
-Par exemple, les balises <div>**<div>**</div> et **<span>** sont des balises non sémantiques. En les apercevant, il est impossible de deviner la nature de leur contenu ou encore leur rôle dans la page. Cependant, si une balise **<header>** est utilisée à la place d'une balise **<div>**, il devient soudainement plus évident que l'intention derrière cette balise est de regrouper les éléments constituant un entête.
+Par exemple, les balises `**<div>**` et **<span>** sont des balises non sémantiques. En les apercevant, il est impossible de deviner la nature de leur contenu ou encore leur rôle dans la page. Cependant, si une balise **<header>** est utilisée à la place d'une balise **<div>**, il devient soudainement plus évident que l'intention derrière cette balise est de regrouper les éléments constituant un entête.
 
 ## Pourquoi?
 
