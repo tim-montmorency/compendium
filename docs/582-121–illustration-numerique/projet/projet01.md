@@ -33,8 +33,8 @@
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 
 * **Deux moodboards**
-    * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait et notez le nom de l'artiste](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-    * [ ] [Choisir votre courant artistique pour votre autoportrait et notez le nom de l'artiste](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * [ ] [Faites une recherche dans Pinterest pour trouver vos inspirations pour la signature et l'autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
     * [ ] [Créez votre moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
     * [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
     * [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
@@ -42,7 +42,7 @@
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
         * [ ] Une palette de couleurs
         * [ ] Des typographies (si nécessaire)
-    * [ ] [Téléchargez le document de nomenclature et déposer vos deux moodboards dans le dossier références](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
+    * [ ] [Téléchargez le document de nomenclature et déposez vos deux moodboards dans le dossier références](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
 
  * **Une musique**
     * [ ] [Téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
