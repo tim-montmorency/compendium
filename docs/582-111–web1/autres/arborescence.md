@@ -82,7 +82,7 @@ Conseils de voyage<br>
 
 **Niveau 3 (Pages individuelles)**
 
-Destination
+**Destination**
 
 - Europe
     - France
@@ -92,23 +92,24 @@ Destination
     - Royaume-Uni
   
 
-Conseils de voyage<br>
-    Préparation avant le départ<br>
--         Liste de contrôle pour les voyages<br>
--         Conseils pour l'emballage<br>
--         Documents de voyage importants<br>
+**Conseils de voyage**
 
-<u>Destination</u><br>
-       **Europe**<br>
-        ------ France<br>
-    -   ---------->  Paris<br>
-    -   ---------->  Nice<br>
-    -   ---------->  Lyon<br>
-    -   ---------->  Marseille<br>
-    -   ------ Espagne<br>
-    -   ------ Italie<br>
-    -   ------ Allemagne<br>
-    -   ------ Royaume-Uni<br>
+- Préparation avant le départ<br>
+    - Liste de contrôle pour les voyages<br>
+    - Conseils pour l'emballage<br>
+    - Documents de voyage importants<br>
+
+- Destination
+    - Europe
+        - France
+        - Paris
+        - Nice
+        - Lyon
+        - Marseille
+    - Espagne
+    - Italie
+    - Allemagne
+    - Royaume-Uni
 
 Conseils de voyage<br>
     Activités et loisirs<br>
