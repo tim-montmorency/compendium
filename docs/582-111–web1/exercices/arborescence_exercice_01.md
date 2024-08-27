@@ -8,32 +8,32 @@ Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Co
 
 1. Accueil : Boissons, Collations, À propos de nous, Contact
 1. Boissons :
-- Café
-- Expresso
-- Café au lait
-- Cappuccino
-- Thé
-- Thé noir
-- Thé vert
-- Infusions
-1. Boissons froides
-- Café glacé
-- Thé glacé
-- Limonade
-1. Collations :
-- Pâtisseries
-- Croissants
-- Muffins
-- Biscuits
-- Snacks
-- Chips
-- Barres énergétiques
-1. À propos de nous :
-- Notre histoire
-- Notre équipe
-- Nos valeurs
-1. Contact :
-- Formulaire de contact
+    - Café
+    - Expresso
+    - Café au lait
+    - Cappuccino
+    - Thé
+    - Thé noir
+    - Thé vert
+    - Infusions
+3. Boissons froides
+    - Café glacé
+    - Thé glacé
+    - Limonade
+4. Collations :
+    - Pâtisseries
+    - Croissants
+    - Muffins
+    - Biscuits
+    - Snacks
+    - Chips
+    - Barres énergétiques
+5. À propos de nous :
+    - Notre histoire
+    - Notre équipe
+    - Nos valeurs
+6. Contact :
+    - Formulaire de contact
 
 !!! warning
 
@@ -42,7 +42,7 @@ Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Co
     De même, les sous-pages sous "Thé" et "Boissons froides" peuvent contenir des informations spécifiques sur chaque variété.
 
     Utiliser l'image suivante pour indiquer qu'il y a plusieurs fichiers.
-![multiple_files](https://github.com/user-attachments/assets/38903686-cca9-41d3-8c32-967de45220f4)
+    ![multiple_files](https://github.com/user-attachments/assets/38903686-cca9-41d3-8c32-967de45220f4)
 
 
 Cet exercice vous aidera à mieux comprendre comment organiser l'information de manière logique et intuitive dans une structure de site web.
