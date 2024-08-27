@@ -43,15 +43,15 @@
 <table>
        <tr>   </tr>
     <tr>
-        <th>Semaines 1 à 10 </th>
+        <th>Semaines 1 à 9 </th>
         <th>Préparer son portfolio, mettre à jour son cv et sa lettre de présentation.</th>        
 </tr>
 <tr>
-    <th>Semaine 11</th>
-    <th>8 novembre: Événement de rencontre des employeurs</th>
+    <th>Semaine 10</th>
+    <th>30 octobre : Journée Carrière : Événement de rencontre des employeurs</th>
 </tr>
 <tr>
-    <th>Semaine 12 à 15</th>
+    <th>Semaine 11 à 15</th>
     <th>Finir sa recherche de stage, remettre les informations de ton milieu pour la signature du contrat</th>
 </tr>
 
