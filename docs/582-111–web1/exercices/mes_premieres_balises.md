@@ -39,5 +39,5 @@ Après avoir terminé l'exercice, votre texte devrait être structuré à l'aide
 
 ![icon (1)](https://github.com/user-attachments/assets/177c8f2a-2c04-48d3-897a-23b72d90ecd1)<br> Les Balises <br> [`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/balises.html)
 
-![104453_html5_html_5_icon](https://github.com/user-attachments/assets/d6b22665-cfe7-4004-8f78-492858dbad8e)<br> Sémantique <br> [header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
+![logo-2582748_640](https://github.com/user-attachments/assets/dc16dcc8-7e47-45f3-9099-76022f158c48)<br> Sémantique <br> [header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
 
