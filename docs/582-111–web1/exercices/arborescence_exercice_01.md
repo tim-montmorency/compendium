@@ -5,7 +5,7 @@ Concevoir l'arborescence web d'un site pour un café en ligne qui propose une va
 ## Instructions
 
 Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Commencez par la page d'accueil du café, puis créez des sections et des pages en fonction des éléments suivants :
-
+<br>
 - **Accueil** :
     - Boissons
     - Collations
@@ -42,7 +42,8 @@ Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Co
 ---
 - **Contact** :
     - Formulaire de contact
-
+<br>
+<br>
 !!! warning
 
     Les pages "Expresso", "Café au lait", "Cappuccino", etc., sous "Café", peuvent contenir des informations détaillées sur chaque type de café ainsi que des images.
