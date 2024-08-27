@@ -24,7 +24,7 @@ Rendez-vous sur le site suivant pour télécharger le Unity Hub:
 
 !!! warning "Attention"
 
-    Assurez-vous de prendre la bonne version du logiciel, sinon cela pourrait entrer des problèmes de correspondance lors de travaux d'équipe!<br>
+    Assurez-vous de prendre la bonne version du logiciel, sinon cela pourrait entrer des problèmes de correspondance lors de travaux d'équipe!
 
       
 
