@@ -49,133 +49,148 @@ Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayan
 
 Elle pourrait aussi être utilisée pour représenter l'entête d'un article incluant le nom de l'article, son auteur, sa date de publication, etc.
 
-Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises <header> sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
+Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises `<header>` sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
 
-header
- 
-header
-Footer
-Lien copié ✓
-La balise <footer> représente le pied de page de son contexte.
+[Mozilla Header](https://developer.mozilla.org/fr/docs/Web/HTML/Element/header)  [W3Schools Header](https://www.w3schools.com/tags/tag_header.asp)
+
+## Footer
+
+La balise `<footer>` représente le pied de page de son contexte.
 
 Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise aillant une valeur sémantique, elle représente le pied de page du site. Elle pourrait contenir entre autre les informations de contact, la mention de droits d'auteur, le plan du site, etc.
 
+```
 <footer>
+
   <div class="contact">infos@site.com</div>
   <span class="copy">©2021 Nom du site</span>
-  ...
+
   </footer>
+```
+
 Elle pourrait aussi être utilisée pour représenter le pied de page d'un article incluant des liens de partage sur les réseaux sociaux, un rappel de l'auteur, etc.
 
-Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises <footer> sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise <div>.
+Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises `<footer>` sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
 
-footer
- 
-footer
-Nav
-Lien copié ✓
-Comme son nom l'indique, la balise <nav> représente un élément de navigation. Elle contient donc un groupe de liens permettant de naviguer sur le site ou encore sur la page actuelle.
+[Mozilla Footer](https://developer.mozilla.org/fr/docs/Web/HTML/Element/footer)  [W3Schools Footer](https://www.w3schools.com/tags/tag_footer.asp)
 
-Un menu
-Une table des matières
-Un fil d'Ariane
-Etc.
+## Nav
+
+Comme son nom l'indique, la balise `<nav>` représente un élément de navigation. Elle contient donc un groupe de liens permettant de naviguer sur le site ou encore sur la page actuelle.
+
+- Un menu
+- Une table des matières
+- Un fil d'Ariane
+- Etc.
+
+```
 <nav>
   <ul>
-  <li><a href="./accueil.html">Accueil</a></li>
-  <li><a href="./produits.html">Produits</a></li>
-  <li><a href="./contact.html">Contact</a></li>
+    <li><a href="./accueil.html">Accueil</a></li>
+    <li><a href="./produits.html">Produits</a></li>
+    <li><a href="./contact.html">Contact</a></li>
   </ul>
-  </nav>
-Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise <div>.
+</nav>
+```
+Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise `<div>`.
 
-nav
- 
-nav
-Main
-Lien copié ✓
-La balise <main> représente le contenu principal d'une page. Elle ne doit pas contenir les éléments qui se répètent d'une page à l'autre, par exemple l'entête et le pied de page d'un site.
+[Mozilla Nav](https://developer.mozilla.org/fr/docs/Web/HTML/Element/nav)  [W3Schools Nav](https://www.w3schools.com/tags/tag_nav.asp)
 
-Il est impossible d'avoir plus d'une balise <main> sur une même page, puisqu'il ne peut y avoir qu'un seul contenu principal.
+## Main
 
+La balise `<main>` représente le contenu principal d'une page. Elle ne doit pas contenir les éléments qui se répètent d'une page à l'autre, par exemple l'entête et le pied de page d'un site.
+
+Il est impossible d'avoir plus d'une balise `<main>` sur une même page, puisqu'il ne peut y avoir qu'un seul contenu principal.
+
+```
 <header>
   <h1>Nom du site</h1>
   ...
-  </header>
+</header>
 
-  <main>
+<main>
   <h2>Sujet principal du site</h2>
   <img src="sujet.png" alt="Sujet">
   ...
-  </main>
+</main>
 
-  <footer>
+<footer>
   <div class="contact">infos@site.com</div>
   ...
-  </footer>
-Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise <div>.
+</footer>
+```
 
-La balise <main> ne devrait pas être enfant des balises sémantique <article>, <aside>, <footer>, <header> ou <nav>.
-main
- 
-main
-Section
-Lien copié ✓
-La balise <section> représente un groupe d'éléments étant liés par un thème.
+Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
 
-Par exemple, sur la page d'accueil d'un journal, plusieurs aperçus d'articles sont disponibles. Ces articles sont souvent regroupés en thèmes (actualités, international, sports, etc.). Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise <div>.
+!!! warning
+
+    La balise `<main>` ne devrait pas être enfant des balises sémantique `<article>`, `<aside>`, `<footer>`, `<header>` ou `<nav>`.
+
+    
+[Mozilla Main](https://developer.mozilla.org/fr/docs/Web/HTML/Element/main)  [W3Schools Main](https://www.w3schools.com/tags/tag_main.asp)
+
+## Section
+
+La balise `<section>` représente un groupe d'éléments étant liés par un thème.
+
+Par exemple, sur la page d'accueil d'un journal, plusieurs aperçus d'articles sont disponibles. Ces articles sont souvent regroupés en thèmes **(actualités, international, sports, etc.)**. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
 
 Une structure comme celle-ci 👇 serait donc possible.
 
+```
 <section>
   <h2>Actualités</h2>
   <a href="page-1.html">Québec se rectifie</a>
   <a href="page-2.html">Deux députés sanctionnés</a>
   ...
-  </section>
+</section>
 
-  <section>
+<section>
   <h2>Sports</h2>
   <a href="page-3.html">Le Canadien l'emporte</a>
   <a href="page-4.html">Le onze montréalais triomphe</a>
   ...
-  </section>
-section
- 
-section
-Article
-Lien copié ✓
-La balise <article> représente, comme son nom l'indique, un article ou encore un billet de blog. Plus précisément, une entité qui pourrait consommée seule, sans le contexte du reste du site et néanmoins faire du sens.
+</section>
+```
+[Mozilla Section](https://developer.mozilla.org/fr/docs/Web/HTML/Element/section)  [W3Schools Section](https://www.w3schools.com/tags/tag_section.asp)
 
-Par exemple, un billet sur les réseaux sociaux pourrait être un <article>, puisqu'il n'est pas nécessaire de lire les autres billets dans un fil d'actualité afin de le comprendre.
+
+## Article
+
+La balise `<article>` représente, comme son nom l'indique, un article ou encore un billet de blog. Plus précisément, une entité qui pourrait consommée seule, sans le contexte du reste du site et néanmoins faire du sens.
+
+Par exemple, un billet sur les réseaux sociaux pourrait être un `<article>`, puisqu'il n'est pas nécessaire de lire les autres billets dans un fil d'actualité afin de le comprendre.
 
 Une structure comme celle-ci 👇 serait donc possible.
 
+```
 <article>
   <header>
-  <h2>Le Canadien l'emporte</h2>
+    <h2>Le Canadien l'emporte</h2>
   </header>
   <p>Le CH a remporté une victoire in extrémis hier...</p>
-  </article>
-Comme les précédentes balises, il s'agit d'une balise de type bloc, elle se comporte donc exactement comme une balise <div>.
+</article>
+```
+Comme les précédentes balises, il s'agit d'une balise de type bloc, elle se comporte donc exactement comme une balise `<div>`.
 
-article
- 
-article
-Aside
-Lien copié ✓
-La balise <aside> est utilisée pour contenir du contenu qui est lié de manière indirecte au contenu principal de la page. Par exemple, dans un article, le <aside> pourrait contenir des informations supplémentaires, des citations, des publicités, ou des liens vers des articles connexes.
 
-Exemple simple
+[Mozilla Article](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article)  [W3Schools Article](https://www.w3schools.com/tags/tag_article.asp)
 
-Dans un article sur les chats, un <aside> pourrait inclure une petite section sur les meilleures marques de nourriture pour chats. Ce n'est pas le sujet principal, mais c'est lié et peut être intéressant pour le lecteur.
 
-En résumé
+## Aside
 
-Contenu secondaire : Le contenu de <aside> est lié, mais pas essentiel, au contenu principal.
-Exemples d'utilisation : Informations supplémentaires, liens connexes, citations, publicités.
-Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise <div>.
+La balise `<aside>` est utilisée pour contenir du contenu qui est lié de manière indirecte au contenu principal de la page. Par exemple, dans un article, le `<aside>` pourrait contenir des informations supplémentaires, des citations, des publicités, ou des liens vers des articles connexes.
 
-aside
- 
-aside
+### Exemple simple
+
+Dans un article sur les chats, un `<aside>` pourrait inclure une petite section sur les meilleures marques de nourriture pour chats. Ce n'est pas le sujet principal, mais c'est lié et peut être intéressant pour le lecteur.
+
+### En résumé
+
+- **Contenu secondaire :** Le contenu de <aside> est lié, mais pas essentiel, au contenu principal.
+- **Exemples d'utilisation :** Informations supplémentaires, liens connexes, citations, publicités.
+
+Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise `<div>`.
+
+[Mozilla Aside](https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside)  [W3Schools Aside](https://www.w3schools.com/tags/tag_aside.asp)
+
