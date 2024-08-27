@@ -14,7 +14,7 @@ tags:
 
 ## Plan de cours
 
-[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024_v3.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary }
 
 ## Le ludisme
 
