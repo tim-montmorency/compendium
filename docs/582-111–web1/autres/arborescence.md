@@ -55,7 +55,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 ![Blog-voyage](https://github.com/user-attachments/assets/e9a70e4e-9684-429f-8e56-da6e3a6990d0)
 
-**Niveau 1 (Racine)**
+### Niveau 1 (Racine)
 
 - Accueil
 - Destinations
@@ -65,7 +65,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 ---
 
-**Niveau 2 (Sous-sections)**
+### Niveau 2 (Sous-sections)
 
 **Destinations**
 
@@ -88,7 +88,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 ---
 
-**Niveau 3 (Pages individuelles)**
+### Niveau 3 (Pages individuelles)
 
 **Destination**
 
@@ -110,11 +110,11 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 ---
 
-**Niveau 4 (Sous-sections + Pages individuelles)**
+### Niveau 4 (Sous-sections + Pages individuelles)
 
 **Destination**
 
-<u>Europe</u>
+- Europe
     - France
         - Paris
         - Nice
