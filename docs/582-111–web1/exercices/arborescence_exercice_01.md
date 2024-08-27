@@ -51,12 +51,16 @@ Dessinez l'arborescence web du site en utilisant une structure hiérarchique. Co
     De même, les sous-pages sous "Thé" et "Boissons froides" peuvent contenir des informations spécifiques sur chaque variété.
 
     Utiliser l'image suivante pour indiquer qu'il y a plusieurs fichiers.<br>
-    <div style= "display: block; margin: auto;" >![multiple_files](https://github.com/user-attachments/assets/38903686-cca9-41d3-8c32-967de45220f4)</div>
+    <div style=" display: block; margin-left: auto; margin-right: auto; >![multiple_files](https://github.com/user-attachments/assets/38903686-cca9-41d3-8c32-967de45220f4)</div>
 
 
 Cet exercice vous aidera à mieux comprendre comment organiser l'information de manière logique et intuitive dans une structure de site web.
 
 ## Notes de cours
+
+| ![icon](https://github.com/user-attachments/assets/ec332313-d76b-42e2-ae95-01ca1c7a2f70)   | Arborescence   |
+| ------------------------------------------------------------------------------------------ | ----------- |
+|    | Sitemap  |
 
 ![icon](https://github.com/user-attachments/assets/ec332313-d76b-42e2-ae95-01ca1c7a2f70)Arborescence 
 Sitemap
