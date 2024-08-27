@@ -22,7 +22,7 @@
 
 ## Sémantique
 
-![logo-2582748_640](https://github.com/user-attachments/assets/2ce412a3-c813-4f1b-a851-0b8168c56abc)
+![logo-2582748_640](https://github.com/user-attachments/assets/41d98834-b49e-453d-857e-830ac6c4dbaa)
 [header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
 
 ## Les Balises
