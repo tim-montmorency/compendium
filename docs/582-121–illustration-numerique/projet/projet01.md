@@ -14,6 +14,10 @@
         * [ ] Vent
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
+    * [Le choix du courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
+Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
+
 
 ## CONSIGNES / AUTOPORTRAIT
 
@@ -24,6 +28,10 @@
     * [ ] **Calques Optionnels :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
+    * [Le choix du courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
+Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
+
 
 
 ---
