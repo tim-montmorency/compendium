@@ -18,8 +18,8 @@
 
 ## Présentation du plan de cours et règles
 * Importance du cours dans le cadre du programme
-      *  Importance de l'esprit de cohorte, cohésion
-      *  Porte-folio
+     *  Importance de l'esprit de cohorte, cohésion
+     *  Porte-folio
 * Connexion aux ordinateurs
 * Remise des travaux et Grilles d’évaluation
      * Nomenclature
