@@ -63,6 +63,9 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 - À propos
 - Contact
 
+  <br>
+  <br>
+
 **Niveau 2 (Sous-sections)**
 
 **Destinations**
@@ -75,7 +78,6 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 - Océanie
 
   <br>
-  <br>
 
 **Conseils de voyage**
 
@@ -84,6 +86,9 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 - Transport
 - Alimentation et restaurants
 - Activités et loisirs
+
+  <br>
+  <br>
 
 **Niveau 3 (Pages individuelles)**
 
@@ -97,19 +102,21 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
     - Royaume-Uni
 
   <br>
-  <br>
 
 **Conseils de voyage**
 
-- Préparation avant le départ<br>
-    - Liste de contrôle pour les voyages<br>
-    - Conseils pour l'emballage<br>
-    - Documents de voyage importants<br>
+- Préparation avant le départ
+    - Liste de contrôle pour les voyages
+    - Conseils pour l'emballage
+    - Documents de voyage importants
+
+  <br>
+  <br>
 
 **Niveau 4 (Sous-sections + Pages individuelles)**
 
 **Destination**
-- Europe
+<u>Europe</u>
     - France
         - Paris
         - Nice
@@ -120,7 +127,6 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
     - Allemagne
     - Royaume-Uni
 
-  <br>
   <br>
 
 **Conseils de voyage**
