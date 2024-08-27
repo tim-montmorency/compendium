@@ -10,13 +10,13 @@ Par exemple, les balises `<div>` et **<span>** sont des balises non sémantiques
 
 Une bonne sémantique permet d'améliorer l'expérience de ses usagers de plusieurs façons.
 
-Par exemple, certaines personnes ont recours à un assistant vocal **(Siri, Alexa, L'assistant Google, etc.) **leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches **(cuisine, conduite, ménage, etc.)**. D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran **(Jaws, VoiceOver, eSpeak, etc.)** afin de leur permettre de naviguer de façon auditive le web 🔊.
+Par exemple, certaines personnes ont recours à un assistant vocal **(Siri, Alexa, L'assistant Google, etc.)** leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches **(cuisine, conduite, ménage, etc.)**. D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran **(Jaws, VoiceOver, eSpeak, etc.)** afin de leur permettre de naviguer de façon auditive le web 🔊.
 
 Imaginons un instant que nous sommes l'une de ces personnes et que nous consultons tous les matins **LaPresse.ca**📰. Heureusement pour nous, les assistants vocaux et lecteurs d'écran reconnaissent les balises `<header>` et nous offrent de les sauter. Cette option serait impossible si une balise `<div>` était utilisée. Il faudrait donc écouter en entier la narration de l'entête de La Presse à chaque fois que nous consultons un article 😩.
 
 ### Performance sur les moteurs de recherche
 
-Une sémantique adéquate permet aux différents moteurs de recherche (Google, Bing, Yahoo, etc.) de mieux comprendre et d'analyser le contenu d'une page afin de mieux l'indexer.
+Une sémantique adéquate permet aux différents moteurs de recherche **(Google, Bing, Yahoo, etc.)** de mieux comprendre et d'analyser le contenu d'une page afin de mieux l'indexer.
 
 Par exemple, il est possible de modifier l'apparence d'un texte dans un `<div>` avec du CSS afin de l'afficher en plus gros que le texte régulier. Bien que cette approche permette aux lecteurs de comprendre qu'il s'agit d'un titre, il n'en va pas de même pour les moteurs de recherche qui ne seront pas à même de faire cette nuance. Parcontre, si une balise `<h1>` est utilisée à la place d'une balise `<div>`, il devient soudainement plus évident pour ces moteurs que cet extrait de texte devrait être utilisé pour présenter cette page dans un résultat de recherche.
 
