@@ -27,9 +27,9 @@ Rendez-vous sur le site suivant pour créer votre compte:
 
 ## Travail 1
     
-[💼 Travail 1](./consignes/travail1.md){ .md-button }     
+[💼 Travail 1](./consignes/travail1.md){ .md-button }   
 
-## Création de visuels
+### Création de visuels
 [📝 Sprite](./unity/sprite.md){ .md-button }       
 
 [📝 Vidéo](./unity/video.md){ .md-button }       
