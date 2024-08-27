@@ -37,11 +37,13 @@ La balise `<header>` représente un entête dans son contexte.
 
 Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayant une valeur sémantique, elle représente l'entête du site. Elle pourrait contenir entre autres un logo, un titre, une barre de recherche, etc.
 
-<header>
+```<header>
   <img src="logo-du-site.png" alt="Logo">
   <h1>Nom du site</h1>
   ...
-  </header>
+  </header>```
+
+
 Elle pourrait aussi être utilisée pour représenter l'entête d'un article incluant le nom de l'article, son auteur, sa date de publication, etc.
 
 Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises <header> sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
