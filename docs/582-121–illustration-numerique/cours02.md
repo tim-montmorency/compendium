@@ -15,10 +15,5 @@
 
 
 ## DEVOIR
-* [ ] Pour votre autoportrait, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
-* [ ] Pour votre signature, trouver et télécharger des illustrations pour votre moodboard en lien avec le courant artistique choisi.
-* [ ] Notez le nom des artistes qui ont réalisé les illustrations.
-* [ ] Notez le courant artistique auquel appartiennent ces artistes.
-* [ ] Assurez-vous que les images téléchargées ont minimalement les dimensions suivantes : 1920 pixels X 1080 pixels.
-* [ ] Trouver et télécharger votre [musique](https://ytmp3.cc/en13/).
-* [ ] Mettez tous les fichiers dans un dossier. Déposez le tout sur votre One Drive. 
+Terminer projet 1 partie 1
+[📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
