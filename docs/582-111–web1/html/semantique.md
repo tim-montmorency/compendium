@@ -29,7 +29,7 @@ Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il
 ![semantic](https://github.com/user-attachments/assets/16ad9411-b0f4-45e1-ba7d-4f5b0133ab82)
 
 <div style="text-align: center;">À gauche, sans balises sémantiques.</div>
-<div style="text-align: center;">À droite, avec balises sémantiques.
+<div style="text-align: center;">À droite, avec balises sémantiques.</div>
 
 ## Header
 
