@@ -10,7 +10,7 @@
 Rendez-vous sur le site suivant pour créer votre compte:   
 [🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
 
-## S'inscrire au Unity student plan
+### S'inscrire au Unity student plan
 [🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
 
 ### Téléchargement de Unity
