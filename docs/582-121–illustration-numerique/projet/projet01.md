@@ -43,6 +43,7 @@
     * [Le choix du courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
         * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
 Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
+    * [La création du moodboard]
 
  * **Une musique**
     * [ ] Présentez la musique qui accompagnera votre présentation.
