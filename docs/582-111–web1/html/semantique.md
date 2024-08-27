@@ -37,7 +37,8 @@ La balise `<header>` représente un entête dans son contexte.
 
 Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayant une valeur sémantique, elle représente l'entête du site. Elle pourrait contenir entre autres un logo, un titre, une barre de recherche, etc.
 
-```<header>
+```
+  <header>
   <img src="logo-du-site.png" alt="Logo">
   <h1>Nom du site</h1>
   ...
