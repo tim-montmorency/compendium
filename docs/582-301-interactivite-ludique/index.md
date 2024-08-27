@@ -14,6 +14,8 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 | Heures d’enseignement | 60      |
 | Session               | 3       |
 
+[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary }
+
 ## Objectifs
 
 * Intégrer des médias visuels et sonores dans une expérience ludique.

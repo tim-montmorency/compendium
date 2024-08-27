@@ -4,15 +4,17 @@ tags:
   - Mardi 27 août
 ---
 
-[STOP]
-
 # Bienvenue
 
-## Introduction
+<style>
+  nav.md-nav--secondary > ul > li > nav > ul > li > nav {
+    display: none;
+  }
+</style>
 
-Présentation du plan de cours.
+## Plan de cours
 
-[Plan de cours :material-download:](./assets/documents/582-301MO-A2024-plan-de-cours.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024_v3.pdf){ .md-button .md-button--primary }
 
 ## Le ludisme
 
@@ -24,7 +26,7 @@ Présentation du plan de cours.
 
 [^ludisme]: [Définition du mot ludisme selon Larousse](https://www.larousse.fr/dictionnaires/francais/ludisme/48009)
 
-Le ludisme se caractérise par l’engagement et l'ensemble des comportements d'une personne vis-à-vis un jeu. La notion d’amusement et d'expérimentation est essentielle au développement de l’aspect ludique de l'expérience.
+Le ludisme se caractérise par l’**engagement** et l'ensemble des **comportements** d'une personne vis-à-vis un **jeu**. La notion d’**amusement** et d'**expérimentation** est essentielle au développement de l’aspect ludique de l'expérience.
 
 Ci-bas, quelques aspects permettant de construire une expérience ludique.
 
@@ -57,7 +59,7 @@ C'est ce qui détermine l’identité visuelle et l’ambiance du jeu.
 <div class="grid grid-1-2" markdown>
 ![Thank Goodness You’re Here!](./assets/images/games/thank-goodness-youre-here.webp){data-zoom-image}
 
-Dans le jeu [Thank Goodness You’re Here! (2024)](https://store.steampowered.com/app/2366980/Thank_Goodness_Youre_Here/), les dessins à eux seuls transportent les utilisateurs dans un univers grotesque.
+Dans le jeu [Thank Goodness You’re Here! (2024)](https://store.steampowered.com/app/2366980/Thank_Goodness_Youre_Here/), les dessins, à eux seuls, transportent les utilisateurs dans un univers grotesque.
 </div>
 
 ### :musical_note: **Design sonore**
@@ -90,7 +92,7 @@ Récompenses générales (achievements) ou liées à une mécanique du jeu (upgr
 <div class="grid grid-1-2" markdown>
 ![(the) Gnorp Apologue](./assets/images/games/gnorp.jpg){data-zoom-image}
 
-Dans le jeu [(the) Gnorp Apologue (2023)](https://store.steampowered.com/app/1473350/the_Gnorp_Apologue/), les accomplissements sont récompensés par des compétences permanentes ce qui engage la rejouabilité.
+Dans le jeu [(the) Gnorp Apologue (2023)](https://store.steampowered.com/app/1473350/the_Gnorp_Apologue/), les accomplissements sont récompensés par des compétences permanentes, ce qui engage la rejouabilité.
 </div>
 
 ### :material-arrow-decision: **Agentivité**
@@ -118,7 +120,7 @@ Dans le jeu [Keep Talking and Nobody Explodes (2015)](https://store.steampowered
 
 ![](./assets/images/videogame-types-heading.jpg)
 
-### Quelques ressources de base
+### Quelques ressources
 
 #### Distributeurs
 
@@ -138,7 +140,7 @@ Dans le jeu [Keep Talking and Nobody Explodes (2015)](https://store.steampowered
 
 Ressources utilisées pour créer le contenu visuel et sonore d'un jeu.
 
-Voici une petite liste de sources offrant des assets gratuits.
+Voici une petite liste de sources offrant des assets 2D gratuits.
 
 * [Itch.io](https://itch.io/game-assets/free/tag-2d)
 * [Craftpix](https://craftpix.net/freebies/)
@@ -148,6 +150,14 @@ Voici une petite liste de sources offrant des assets gratuits.
 * [Gamedevmarket](https://www.gamedevmarket.net/)
 * [Gameart2d](https://www.gameart2d.com/freebies.html)
 * [Reddit](https://www.reddit.com/r/gameassets/)
+
+#### Inspirations
+
+* [Reddit: r/gamedevscreens](https://www.reddit.com/r/gamedevscreens/)
+* [Reddit : r/destroymygame](https://www.reddit.com/r/DestroyMyGame/)
+* [Reddit : r/indiedev](https://www.reddit.com/r/IndieDev/)
+* [Reddit : r/gamedesign](https://www.reddit.com/r/gamedesign/)
+* [Itch.io : 2d](https://itch.io/games/tag-2d)
 
 ### Vocabulaire
 
@@ -168,7 +178,7 @@ En prendre connaissance facilite non seulement la compréhension de la culture, 
 
 Voici une liste non exhaustive des différents types de jeux vidéo[^videogamestypes].
 
-[^videogamestypes]: [Types de jeux vidéo](https://en.wikipedia.org/wiki/List_of_video_game_genres) (En anglais)
+[^videogamestypes]: [Types de jeux vidéo](https://en.wikipedia.org/wiki/List_of_video_game_genres) (en anglais)
 
 #### Action
 
@@ -246,7 +256,7 @@ Voici une liste non exhaustive des différents types de jeux vidéo[^videogamest
 
 * Jeu de société (Jackbox Party Pack)
 * Jeu de cartes (Baltro)
-* Incrémental ((the) Gnorp Apologue)
+* Incrémentiel ((the) Gnorp Apologue)
 * Dactylographie (Epistory)
 
 ### Plateformes
@@ -281,7 +291,7 @@ Voici une liste non exhaustive des différents types de jeux vidéo[^videogamest
 * Microsoft HoloLens
 * Apple Vision Pro
 
-#### Jeux infonuagique
+#### Jeux infonuagiques
 
 * Xbox Cloud Gaming
 * NVIDIA GeForce Now
@@ -302,11 +312,11 @@ Voici une liste non exhaustive des différents types de jeux vidéo[^videogamest
 
 [Aperçu non exhaustif des contrôles en jeux vidéo](https://en.wikipedia.org/wiki/List_of_game_controllers)
 
-### Prérequis
+## Prérequis
 
 Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à certains contenus, d'effectuer une action spécifique, ou simplement de progresser dans le jeu.
 
-#### Types de prérequis
+### Types de prérequis
 
 1. **Niveau du personnage requis** : Le joueur doit atteindre le niveau 10 avant de pouvoir accéder à un donjon.
 1. **Possession d'un objet spécifique** : Une clé est nécessaire pour ouvrir une porte.
@@ -319,9 +329,9 @@ Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à cer
 1. **Choix narratifs précédents** : Choisir de sauver un personnage plus tôt dans l'histoire ouvre une nouvelle branche narrative.
 1. **Équipement spécifique** : Porter l'armure complète de chevalier permet d'entrer dans le château.
 1. **Conditions environnementales** : Le joueur doit attendre la nuit pour que certains monstres apparaissent.
-1. **Accomplissements ou trophées** : Débloquer 50% des trophés permet d'accéder au mode «difficile».
+1. **Accomplissements ou trophées** : Débloquer 50% des trophées permet d'accéder au mode «difficile».
 
-#### À quoi ça sert ?
+### À quoi ça sert ?
 
 * Structure la progression du joueur
 * Crée une courbe d'apprentissage
@@ -329,7 +339,7 @@ Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à cer
 * Ajoute de la profondeur à l'expérience
 * Encourage la rejouabilité
 
-#### Quel prérequis s'applique à l'exemple ci-dessous ?
+### Quel prérequis s'applique à l'exemple ci-dessous ?
 
 <iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Prérequis" src="https://codepen.io/tim-momo/embed/xxoXazb?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/xxoXazb">
@@ -337,15 +347,15 @@ Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à cer
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Câdriciels (Framework)
+## Cadriciels (Framework)
 
-Un cadriciel est une bibliothèque d'outils et de fonctionnalités destinés à aider les développeurs.
+Un cadriciel est une bibliothèque d'outils et de fonctionnalités fdestinés à aider les développeurs.
 
 Au lieu de tout construire à partir de zéro, les cadriciels offrent une structure déjà prête, ce qui permet de gagner du temps et de rester organisé.
 
 Par exemple, un cadriciel de jeux vidéo évite de devoir programmer un système de physique, de gestionnaire audio ou d'animation.
 
-| Câdriciel | 2D | 3D | Langages de programmation | Produits |
+| Cadriciel | 2D | 3D | Langages de programmation | Produits |
 |-----------|----|----|---------------------------|----------|
 | Unreal Engine[^unreal_showcase] | :material-check-circle:{ .text-success } | :material-check-circle:{ .text-success } | C++ | Fortnite, Borderlands 3 |
 | Unity[^unity_showcase] | :material-check-circle:{ .text-success } | :material-check-circle:{ .text-success } | C# | Among Us, RimWorld, Hollow Knight |
@@ -353,15 +363,15 @@ Par exemple, un cadriciel de jeux vidéo évite de devoir programmer un système
 | Phaser[^phaser_showcase] :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom } | :material-check-circle:{ .text-success } | | JavaScript | Slay the Spire, Vampire Survivors[^vampire_survivor_x] |
 | GameMaker Studio[^gms_showcase] | :material-check-circle:{ .text-success } | | GML (GameMaker Language) | Hyper Light Drifter, Undertale, Forager |
 
-[^unreal_showcase]: [Liste de jeux réalisés avec Unreal Engine selon SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Unreal) (En anglais)
-[^unity_showcase]: [Liste de jeux réalisés avec Unity](https://unity.com/fr/made-with-unity) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Unity) (En anglais)
-[^godot_showcase]: [Liste de jeux réalisés avec Godot](https://godotengine.org/showcase/) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Godot) (En anglais)
-[^phaser_showcase]: [Liste de jeux réalisés avec Phaser](https://phaser.io/news/category/game) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Phaser) (En anglais)
-[^gms_showcase]: [Liste de jeux réalisés avec GameMaker Studio](https://gamemaker.io/fr/showcase) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.GameMaker) (En anglais)
+[^unreal_showcase]: [Liste de jeux réalisés avec Unreal Engine selon SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Unreal) (en anglais)
+[^unity_showcase]: [Liste de jeux réalisés avec Unity](https://unity.com/fr/made-with-unity) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Unity) (en anglais)
+[^godot_showcase]: [Liste de jeux réalisés avec Godot](https://godotengine.org/showcase/) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Godot) (en anglais)
+[^phaser_showcase]: [Liste de jeux réalisés avec Phaser](https://phaser.io/news/category/game) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.Phaser) (en anglais)
+[^gms_showcase]: [Liste de jeux réalisés avec GameMaker Studio](https://gamemaker.io/fr/showcase) | [SteamDB](https://steamdb.info/instantsearch/?refinementList%5Btechnologies%5D%5B0%5D=Engine.GameMaker) (en anglais)
 
 [^vampire_survivor_x]: [Gazouillis sur Vampire Survivors](https://x.com/phaser_/status/1488191403125522436?lang=fr)
 
-### Document de conception de jeu (GDD)
+## Document de conception de jeu (GDD)
 
 *[GDD]: Document de conception de jeu (Game Design Document)
 
@@ -369,13 +379,13 @@ Document qui décrit tous les aspects fondamentaux d’un jeu vidéo.
 
 Il fait partie de la phase de conceptualisation et sera utile tout au long du développement.
 
-On y décrit entre autres le concept du jeu, les mécaniques, l’histoire, les personnages, le design graphique, le design sonore, les niveaux, l’interface utilisateur et la technologie utilisée.
+On y décrit entre autres le **concept du jeu**, les **mécaniques**, l’**histoire**, les **personnages**, le **design graphique**, le **design sonore**, les **niveaux**, l’**interface utilisateur** et la **technologie utilisée**.
 
-Voici un [exemple](./assets/documents/gdd-perihelie.pdf) pour le jeu [Périhélie](https://www.ican-design.fr/actualites/16042021-perihelie-jeu-video).
+Voici un [exemple complet](./assets/documents/gdd-perihelie.pdf) d'un document de conception.
 
 !!! question "Est-ce un document définitif ?"
 
-    Probablement pas :person_shrugging: Pendant le processus de création, certains concepts sont parfois mis de côté, d'autres s'ajoutent et c'est tout à fait normal.
+    Probablement pas :person_shrugging: Pendant le processus de création, certains concepts sont parfois mis de côté, d'autres s'ajoutent et c'est tout à fait normal. Toutefois, ça reste un document de référence. Il ne devrait pas changer continuellement.
 
 ## Devoir
 
@@ -385,3 +395,7 @@ Voici un [exemple](./assets/documents/gdd-perihelie.pdf) pour le jeu [Périhéli
   <small>Devoir - Document de conception</small><br>
   **[Création d'un document de conception de jeu vidéo](devoirs/gdd.md){.stretched-link}**
 </div>
+
+---
+
+Si on a l'temps :octicons-arrow-right-16: [Introduction Phaser](./phaser-intro.md)

@@ -6,27 +6,7 @@ tags:
 
 [STOP]
 
-Outils de développement
-Éditeur de code : Visual Studio Code
-Navigateur Web : Chrome
-Serveur local : Live Server via Visual Studio Code
 Éditeur de tilemap : https://www.spritefusion.com/
-
-# Phaser
-
-[Phaser.js](https://phaser.io/)
-![phaser](https://github.com/jfcmontmorency/jfcmontmorency.github.io/assets/142059735/7890bb14-8d94-44a1-a6f7-8c519adf4d28)
-
-npm install
-
-`npm install phaser@v3.80.1`
-
-Vscode
-  live server
-Intellisense
-
-Scene + switch scene
-
 
 ### Structure des fichiers
 

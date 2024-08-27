@@ -74,10 +74,44 @@ class ImageZoom {
 	}
 }
 
+// document.addEventListener("DOMContentLoaded", function() {
+//     document.querySelectorAll('[data-zoom-image="data-zoom-image"]').forEach((img) => {
+//         if (img instanceof HTMLImageElement) {
+//             new ImageZoom(img);
+//         }
+//     });
+// });
+
 document.addEventListener("DOMContentLoaded", function() {
+    // Initialisation sur les images déjà présentes au chargement de la page
+    initializeZoom();
+
+    // Utilisation de MutationObserver pour détecter les nouvelles images ajoutées dynamiquement
+    const observer = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+            if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                mutation.addedNodes.forEach(node => {
+                    if (node instanceof HTMLImageElement && node.getAttribute('data-zoom-image') === 'data-zoom-image') {
+                        new ImageZoom(node);
+                    } else if (node.nodeType === Node.ELEMENT_NODE) {
+                        // Recherche d'images à l'intérieur du nouvel élément
+                        node.querySelectorAll('img[data-zoom-image="data-zoom-image"]').forEach(img => {
+                            new ImageZoom(img);
+                        });
+                    }
+                });
+            }
+        }
+    });
+
+    // Configurer l'observateur pour surveiller les ajouts d'éléments
+    observer.observe(document.body, { childList: true, subtree: true });
+});
+
+function initializeZoom() {
     document.querySelectorAll('[data-zoom-image="data-zoom-image"]').forEach((img) => {
         if (img instanceof HTMLImageElement) {
             new ImageZoom(img);
         }
     });
-});
+}
