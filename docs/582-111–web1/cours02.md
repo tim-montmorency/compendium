@@ -7,7 +7,7 @@
 
 ## Arborescence Exercice 01
 
-![arbo2](https://github.com/user-attachments/assets/94d19293-4572-4085-ab5d-b555e6510424)
+![Arborescence](https://github.com/user-attachments/assets/de89e315-72ea-48cd-b7f4-fa565fc1eed5)
 [Créer l'arborescence suivante](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
 
 ## Arborescence Exercice 02
