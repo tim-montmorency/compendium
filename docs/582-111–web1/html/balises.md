@@ -111,7 +111,7 @@ L'ordre des balises est important dans cette structure de base. Les balises s'ou
 
 !!! danger
 
-    La syntaxe <html> <body> </html> </body> est incorrecte : les balises s'entremêlent.
+    La syntaxe `<html>` `<body>` `</html>` `</body>` est incorrecte : les balises s'entremêlent.
 
 !!! note
 
@@ -166,5 +166,5 @@ Dans Visual Studio Code, par exemple, vous pouvez sélectionner une ligne (ou pl
 
 Cela commentera la ligne de code en un seul clic.
 
-https://github.com/user-attachments/assets/4a03abb8-abfc-4b02-bf75-a800d2108e01
+![type:video](https://github.com/user-attachments/assets/4a03abb8-abfc-4b02-bf75-a800d2108e01)
 
