@@ -25,8 +25,7 @@
     * [ ] **Autres calques :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
-
-
+  
 
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
 
@@ -47,7 +46,6 @@
     * [ ] Déposez la musique dans le dossier références dans la nomenclature téléchargée plutôt
 
 Déposez tous ces documents sur Teams via Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
-
 
 
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
