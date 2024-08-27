@@ -217,11 +217,11 @@ Ajoutez-y le code suivant.
 }
 ```
 
-## Exercice
+<!-- ## Exercice
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/phaser-preview.png)
 
   <small>Exercice - Phaser</small><br>
   **[Installation de base pour le PS](exercices/phaser-intro.md){.stretched-link}**
-</div>
+</div> -->
