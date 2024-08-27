@@ -42,7 +42,8 @@ Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayan
   <img src="logo-du-site.png" alt="Logo">
   <h1>Nom du site</h1>
   ...
-  </header>```
+  </header>
+```
 
 
 Elle pourrait aussi être utilisée pour représenter l'entête d'un article incluant le nom de l'article, son auteur, sa date de publication, etc.
