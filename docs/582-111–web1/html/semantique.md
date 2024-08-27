@@ -65,7 +65,7 @@ Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise aill
   <div class="contact">infos@site.com</div>
   <span class="copy">©2021 Nom du site</span>
 
-  </footer>
+</footer>
 ```
 
 Elle pourrait aussi être utilisée pour représenter le pied de page d'un article incluant des liens de partage sur les réseaux sociaux, un rappel de l'auteur, etc.
