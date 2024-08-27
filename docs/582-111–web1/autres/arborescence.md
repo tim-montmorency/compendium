@@ -65,20 +65,25 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 **Niveau 2 (Sous-sections)**
 
-Destinations<br>
-* Europe
-* Asie
-* Amérique du Nord
-* Amérique du Sud
-*  Afrique
-* Océanie
+**Destinations**
 
-Conseils de voyage<br>
-  - Préparation avant le départ
-  - Hébergement
-  - Transport
-  - Alimentation et restaurants
-  - Activités et loisirs
+- Europe
+- Asie
+- Amérique du Nord
+- Amérique du Sud
+- Afrique
+- Océanie
+
+  <br>
+  <br>
+
+**Conseils de voyage**
+
+- Préparation avant le départ
+- Hébergement
+- Transport
+- Alimentation et restaurants
+- Activités et loisirs
 
 **Niveau 3 (Pages individuelles)**
 
@@ -90,7 +95,9 @@ Conseils de voyage<br>
     - Italie
     - Allemagne
     - Royaume-Uni
-  
+
+  <br>
+  <br>
 
 **Conseils de voyage**
 
@@ -99,9 +106,11 @@ Conseils de voyage<br>
     - Conseils pour l'emballage<br>
     - Documents de voyage importants<br>
 
-- Destination
-    - Europe
-        - France
+**Niveau 4 (Sous-sections + Pages individuelles)**
+
+**Destination**
+- Europe
+    - France
         - Paris
         - Nice
         - Lyon
@@ -111,11 +120,15 @@ Conseils de voyage<br>
     - Allemagne
     - Royaume-Uni
 
-Conseils de voyage<br>
-    Activités et loisirs<br>
--         Randonnée en montagne<br>
--         Plongée sous-marine<br>
--         Excursions culturelles<br>
+  <br>
+  <br>
+
+**Conseils de voyage**
+
+- Activités et loisirs
+    - Randonnée en montagne
+    - Plongée sous-marine
+    - Excursions culturelles
 
 !!! note
 
