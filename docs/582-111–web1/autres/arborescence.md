@@ -110,7 +110,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 ---
 
-### Niveau 4 (Sous-sections + Pages individuelles)
+### Niveau 4
 
 **Destination**
 
