@@ -33,24 +33,22 @@
 À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
 
 * **Deux moodboards**
-    * [ ] Présentez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
-    * [ ] Présentez un moodboard pour la signature afin donner une ligne directrice pour votre projet
+    * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait et notez le nom de l'artiste](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * [ ] [Choisir votre courant artistique pour votre autoportrait et notez le nom de l'artiste](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+    * [ ] [Créez votre moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
+    * [ ] Créez un moodboard pour l'autoportrait afin donner une ligne directrice pour votre projet
+    * [ ] Créez un moodboard pour la signature afin donner une ligne directrice pour votre projet
     * [ ] Vos mooodboards doivent inclure :
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
         * [ ] Une palette de couleurs
         * [ ] Des typographies (si nécessaire)
-
-    * [ ] [Choisir votre courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-        * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
-Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
-
-    * [ ] [Téléchargez le document de nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
-    * [ ] [Créez votre moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
+    * [ ] [Téléchargez le document de nomenclature et déposer vos deux moodboards dans le dossier références](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
 
  * **Une musique**
     * [ ] [Téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
+    * [ ] [Déposez la musique dans le dossier références dans la nomenclature téléchargée plutôt]
 
-Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
+Déposez tous ces documents dans la remise sur Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
