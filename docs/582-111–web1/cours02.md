@@ -7,24 +7,30 @@
 
 ## Arborescence Exercice 01
 
-![arbo](https://github.com/user-attachments/assets/43f972af-b924-444d-92f8-5726caa661ad)
+![arbo2](https://github.com/user-attachments/assets/94d19293-4572-4085-ab5d-b555e6510424)
 [Créer l'arborescence suivante](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
 
-## Histoire du Web
+## Arborescence Exercice 02
 
-![669948_html_code_coding_programming_web_icon](https://github.com/user-attachments/assets/4d3856ff-a0fa-4aec-b4b0-e76135da579a)
-[Voir l'histoire du Web](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/histoire-du-web.html)
-## Expérience utilisateur
+![arbo](https://github.com/user-attachments/assets/88eeae29-8ce2-429e-84b4-6092b9092b32)
+[Créer l'arborescence du site web MAC Montréal](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_02.html)
 
-![667353_brain_mind_process_think_icon](https://github.com/user-attachments/assets/0512cc2b-7623-4cfa-bf35-ce4de2d98e97)
-[UX vs UI](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/experience-utilisateur.html)
+## Relation Parent-Enfant
 
-## Composantes Web
+![icon (3)](https://github.com/user-attachments/assets/3572f2cb-dc55-41c3-96bd-c86f72bbc8e7)
+[Parent, enfant](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/parents-enfants.html)
 
-![532723_browser_content_internet_page_web_icon](https://github.com/user-attachments/assets/17380806-2597-45c9-8235-a780f1de38cd)
-[Voir les composantes](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/composantes-web.html)
+## Sémantique
 
-## HTML - Histoire
+![logo-2582748_640](https://github.com/user-attachments/assets/2ce412a3-c813-4f1b-a851-0b8168c56abc)
+[header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
 
-![2541661_coding_markup_html_icon](https://github.com/user-attachments/assets/e302c4d2-f53a-44e9-be2b-311ac3c28281)
-[Voir l'histoire du HTML](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/html-histoire.html)
+## Les Balises
+
+![icon (1)](https://github.com/user-attachments/assets/f9117e39-9d2b-457c-adfa-bd33d2447c36)
+[<html>, <head>, <body>, <p>, etc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/balises.html)
+
+## Mes premières balises
+
+![balises](https://github.com/user-attachments/assets/a773a145-b0d6-4a81-b67f-92b942cb75dd)
+[Exercice sur les balises sémantiques HTML](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/mes_premieres_balises.html)
