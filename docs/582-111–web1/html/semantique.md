@@ -18,7 +18,7 @@ Imaginons un instant que nous sommes l'une de ces personnes et que nous consulto
 
 Une sémantique adéquate permet aux différents moteurs de recherche (Google, Bing, Yahoo, etc.) de mieux comprendre et d'analyser le contenu d'une page afin de mieux l'indexer.
 
-Par exemple, il est possible de modifier l'apparence d'un texte dans un **<div>** avec du CSS afin de l'afficher en plus gros que le texte régulier. Bien que cette approche permette aux lecteurs de comprendre qu'il s'agit d'un titre, il n'en va pas de même pour les moteurs de recherche qui ne seront pas à même de faire cette nuance. Parcontre, si une balise `<h1>` est utilisée à la place d'une balise `<div>`, il devient soudainement plus évident pour ces moteurs que cet extrait de texte devrait être utilisé pour présenter cette page dans un résultat de recherche.
+Par exemple, il est possible de modifier l'apparence d'un texte dans un `<div>` avec du CSS afin de l'afficher en plus gros que le texte régulier. Bien que cette approche permette aux lecteurs de comprendre qu'il s'agit d'un titre, il n'en va pas de même pour les moteurs de recherche qui ne seront pas à même de faire cette nuance. Parcontre, si une balise `<h1>` est utilisée à la place d'une balise `<div>`, il devient soudainement plus évident pour ces moteurs que cet extrait de texte devrait être utilisé pour présenter cette page dans un résultat de recherche.
 
 ### Simplification du développement
 
