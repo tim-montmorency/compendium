@@ -4,21 +4,23 @@
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUBSOd1XBz9FtlRAumIpoawBQ0eIzPaiSnY55lTuNJ2AIQ?e=Bo5TuD){ .md-button }   <br>
      
 
-## Création de visuels
-[📝 Sprite](./unity/sprite.md){ .md-button }       
-
-[📝 Vidéo](./unity/video.md){ .md-button }       
-
-
 ## Installation et base de Unity
 ### Création de compte
 
 Rendez-vous sur le site suivant pour créer votre compte:   
 [🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
 
+## S'inscrire au Unity student plan
+[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
+
 ### Téléchargement de Unity
 [📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
 
+
+## Création de visuels
+[📝 Sprite](./unity/sprite.md){ .md-button }       
+
+[📝 Vidéo](./unity/video.md){ .md-button }       
            
 
 ## Intro à l'éditeur 
