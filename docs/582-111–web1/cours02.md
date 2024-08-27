@@ -33,7 +33,7 @@
 ## Les Balises
 
 ![icon (1)](https://github.com/user-attachments/assets/f9117e39-9d2b-457c-adfa-bd33d2447c36)
-[<html>, <head>, <body>, <p>, etc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/balises.html)
+[`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/balises.html)
 <br>
 <br>
 ## Mes premières balises
