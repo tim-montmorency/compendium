@@ -30,7 +30,7 @@
 
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
 
-À ce stade, vous devez présenter les éléments suivants individuellement au professeur :
+À ce stade, vous devez présenter les éléments suivants individuellement au professeur. Voici les étapes à effecturer pour la remise. 
 
 * **Deux moodboards**
     * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
@@ -45,8 +45,8 @@
     * [ ] [Téléchargez le document de nomenclature et déposez vos deux moodboards dans le dossier références](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
 
  * **Une musique**
-    * [ ] [Téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
-    * [ ] [Déposez la musique dans le dossier références dans la nomenclature téléchargée plutôt]
+    * [ ] Choisir et [Téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
+    * [ ] Déposez la musique dans le dossier références dans la nomenclature téléchargée plutôt
 
 Déposez tous ces documents dans la remise sur Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
