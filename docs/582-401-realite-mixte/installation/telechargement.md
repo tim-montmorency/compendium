@@ -18,7 +18,7 @@ Rendez-vous sur le site suivant pour télécharger le Unity Hub:
 - [ ] Dans la liste, cherchez maintenant la version 2022.3.2f1 du logiciel. Appuyez sur Install lorsque vous l'avez.
 - [ ] Dans la nouvelle fenêtre qui s'ouvre, assurez-vous que Microsoft Visual Studio... est coché, puis appuyez sur continue.
 - [ ] Lorsque le logiciel sera installé, la fenêtre de Visual studio community s'ouvrira. Appuyez sur continue.
-- [ ] Une liste d'ajouts apparaîtra alors, cherchez Game development with Unity, cochez la bopite, puis appuyez sur Install.
+- [ ] Une liste d'ajouts apparaîtra alors, cherchez Game development with Unity, cochez la boîte, puis appuyez sur Install.
 - [ ] Connectez-vous à Visual Studio code avec le même compte que pour le Hub Unity.
 - [ ] Lorsque Visual Studio Code est prêt, fermez-le sans ouvrir de projet. 
 
