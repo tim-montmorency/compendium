@@ -14,9 +14,6 @@
         * [ ] Vent
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
-    * [Le choix du courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-    * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
-Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
 
 
 ## CONSIGNES / AUTOPORTRAIT
@@ -24,15 +21,10 @@ Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant arti
 * **Autoportrait**
     * [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
     * [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
-    * [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 10 calques d’images découpées.
-    * [ ] **Calques Optionnels :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
+    * [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 4 calques d’images découpées.
+    * [ ] **Autres calques :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
     * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
     * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
-    * [Le choix du courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-    * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
-Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
-
-
 
 ---
 
@@ -47,7 +39,11 @@ Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant arti
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
         * [ ] Une palette de couleurs
         * [ ] Des typographies (si nécessaire)
-              
+
+    * [Le choix du courant artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+        * Pour votre moodboard, vous devrez choisir un courant artistique que vous aimez.
+Par la suite, vous devez trouver un artiste qui s’inscrit dans ce courant artistique et vous devez l'insérer dans le moodboard.
+
  * **Une musique**
     * [ ] Présentez la musique qui accompagnera votre présentation.
 
