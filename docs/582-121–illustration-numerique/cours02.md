@@ -15,5 +15,5 @@
 
 
 ## DEVOIR
-Terminer projet 1 partie 1  <br>
+Terminer projet 1 partie 1 sauf la remise sur Teams  <br>
 [📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
