@@ -65,7 +65,6 @@ Le professeur vous fournira des commentaires que vous devrez utiliser pour amél
 Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
 
 
-
 ## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
