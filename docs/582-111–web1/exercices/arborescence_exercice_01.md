@@ -58,7 +58,7 @@ Cet exercice vous aidera à mieux comprendre comment organiser l'information de 
 
 ## Notes de cours
 
-![icon](https://github.com/user-attachments/assets/6ce2b1e3-0805-4dce-8f82-cf0bab66df69)<br> Arborescence <br> [Sitemap]([https://google.ca](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/arborescence.html))
+![icon](https://github.com/user-attachments/assets/6ce2b1e3-0805-4dce-8f82-cf0bab66df69)<br> Arborescence <br> [Sitemap](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/arborescence.html)
 
   
 
