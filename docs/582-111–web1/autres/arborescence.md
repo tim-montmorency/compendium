@@ -134,6 +134,9 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
     - Plongée sous-marine
     - Excursions culturelles
 
+<br>
+<br>
+
 !!! note
 
     Dans cet exemple:<br>
@@ -145,7 +148,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
   
     Les URL des pages reflètent également l'organisation hiérarchique, ce qui permet aux visiteurs et aux moteurs de recherche de comprendre la structure du site.
 
----
+
 
 ## Exercices
 
