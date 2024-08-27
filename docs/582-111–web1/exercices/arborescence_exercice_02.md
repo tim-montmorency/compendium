@@ -8,5 +8,5 @@ Votre tâche consiste à créer la structure d'arborescence pour le site web **"
 [MAC Montréal](https://macm.org/)
 
 * [ ] Débuter par le menu de la page d'accueil.
-* [x] N'oubliez pas d'ajouter le menu du footer.
+* [ ] N'oubliez pas d'ajouter le menu du footer.
 
