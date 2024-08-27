@@ -153,7 +153,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 ## Exercices
 
 <div class="grid grid-auto" markdown>
-  ![thumb](https://github.com/user-attachments/assets/81dd0e1a-e595-4f45-805c-f42bef803c0e)
+![Arborescence](https://github.com/user-attachments/assets/0aa86179-aea8-4a3a-b08e-cde3d18c7e1e)
 
 
 
@@ -163,7 +163,8 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 </div>
 
 <div class="grid grid-auto" markdown>
- ![MAC Montreal](https://github.com/user-attachments/assets/5fe2ffc5-968c-4e3b-84fd-656b8163266d)
+![Mac Montreal 2](https://github.com/user-attachments/assets/e8d20b4d-3d64-4c90-aa3e-7e19d774aa55)
+
  
 
 
