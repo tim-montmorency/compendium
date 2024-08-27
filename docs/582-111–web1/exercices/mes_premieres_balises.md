@@ -34,3 +34,8 @@ En conclusion, prendre soin de sa santé physique et mentale devrait inclure une
 Après avoir terminé l'exercice, votre texte devrait être structuré à l'aide des balises sémantiques HTML appropriées pour refléter la hiérarchie et le type de contenu décrit dans les instructions.
 
 ## Notes de cours
+
+![icon (1)](https://github.com/user-attachments/assets/177c8f2a-2c04-48d3-897a-23b72d90ecd1)<br> Les Balises <br> [`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/balises.html)
+
+![icon (2)](https://github.com/user-attachments/assets/35d109ad-ef98-406f-bb5a-e4c133a1f729)<br> Sémantique <br> [header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
+
