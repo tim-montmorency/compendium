@@ -16,20 +16,25 @@ Rendez-vous sur le site suivant pour créer votre compte:
 ### Téléchargement de Unity
 [📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
 
+           
+
+## Intro à l'éditeur 
+[🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }       
+
+## Retour en groupe sur Unity
+[📝 Introduction à Unity](./unity/introduction.md){ .md-button }      
+
+
+## Travail 1
+    
+[💼 Travail 1](./consignes/travail1.md){ .md-button }     
 
 ## Création de visuels
 [📝 Sprite](./unity/sprite.md){ .md-button }       
 
 [📝 Vidéo](./unity/video.md){ .md-button }       
-           
 
-## Intro à l'éditeur 
-[🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }   
 
-## Travail 1
-    
-[💼 Travail 1](./consignes/travail1.md){ .md-button }     
-    
 ### Test d'exemples de travail 1 et de livres en AR
 Projets de:       
 
@@ -44,6 +49,5 @@ Projets de:
 Tempête d'idées   
                      
            
-## Retour en groupe sur Unity
-[📝 Introduction à Unity](./unity/introduction.md){ .md-button }  
+
 
