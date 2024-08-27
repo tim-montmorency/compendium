@@ -171,6 +171,6 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
   **Arborescence Exercice #2**<br>
   _Créer l'arborescence du site web MAC Montréal._<br>
-  [Exercice 1](https://google.ca)
+  [Exercice 2](https://google.ca)
 </div>
 
