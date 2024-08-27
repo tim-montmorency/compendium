@@ -189,7 +189,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const targetNode = document.body;
     const config = { childList: true, subtree: true };
     const callback = function(mutationsList, observer) {
+
         for(let mutation of mutationsList) {
+            console.log(mutation);
             if (mutation.type === 'childList') {
                 setTimeout(() => {
                     runFunctions();
