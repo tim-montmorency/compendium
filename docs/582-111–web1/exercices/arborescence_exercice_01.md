@@ -58,7 +58,7 @@ Cet exercice vous aidera à mieux comprendre comment organiser l'information de 
 
 ## Notes de cours
 
-![icon](https://github.com/user-attachments/assets/ec332313-d76b-42e2-ae95-01ca1c7a2f70)   Arborescence   
+<div style="vertical-align: middle;">![icon](https://github.com/user-attachments/assets/ec332313-d76b-42e2-ae95-01ca1c7a2f70)</div>div>   Arborescence   
 
   
 
