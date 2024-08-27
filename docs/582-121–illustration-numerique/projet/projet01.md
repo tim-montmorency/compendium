@@ -33,7 +33,10 @@
 
 * **Deux moodboards**
     * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-    * [ ] Faites une recherche dans [Pinterest](https://www.pinterest.com/) pour trouver vos inspirations pour la signature et l'autoportrait
+    * [ ] Faites une recherche dans [Pinterest](https://www.pinterest.com/) pour trouver vos inspirations pour la signature et l'autoportrait.
+    * [ ] Notez le nom des artistes qui ont réalisé les illustrations.
+    * [ ] Notez le courant artistique auquel appartiennent ces artistes.
+    * [ ] Téléchargez vos images d'inspirations avec un format minimal de 1920 X 1080. 
     * [ ] Créez votre moodboard dans Photoshop à partir des [templates suivants](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
     * [ ] Vos mooodboards doivent inclure :
         * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
