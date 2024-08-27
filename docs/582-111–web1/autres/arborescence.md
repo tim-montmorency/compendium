@@ -84,12 +84,12 @@ Conseils de voyage<br>
 
 Destination
 
-    * Europe
-        * France
-        * Espagne
-        * Italie
-        * Allemagne
-        * Royaume-Uni
+- Europe
+- France
+- Espagne
+- Italie
+- Allemagne
+- Royaume-Uni
   
 
 Conseils de voyage<br>
