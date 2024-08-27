@@ -15,7 +15,6 @@
 * [Tim programme TIM](https://teams.microsoft.com/l/team/19%3A0df14bbe83b542679a319fb4fa0dcea8%40thread.tacv2/conversations?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d)
 * [Wiki](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/)
   
-
 ## Présentation du plan de cours et règles
 * Importance du cours dans le cadre du programme
      *  Importance de l'esprit de cohorte, cohésion
@@ -53,9 +52,11 @@
   * On les contacte uniquement par Teams
   * Local : C1647 ou C1706
 
-
 ## Vous et moi...
 * La valise
+
+## Explication du projet 1
+[📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01)
 
 ## Devoir
 * [Installer la suite Adobe complète sur vos ordinateurs personnels](https://www.adobe.com/ca/creativecloud/plans.html?gclid=EAIaIQobChMIs5G7p-iGiAMV6U5HAR1GRxe7EAAYASAAEgKu1_D_BwE&sdid=39JWBGYD&mv=search&mv2=paidsearch&ef_id=EAIaIQobChMIs5G7p-iGiAMV6U5HAR1GRxe7EAAYASAAEgKu1_D_BwE:G:s&s_kwcid=AL!3085!3!558730303399!p!!g!!subscribe%20adobe!15156934695!131017413484&mv=search&gad_source=1)
