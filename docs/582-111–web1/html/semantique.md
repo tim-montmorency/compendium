@@ -24,7 +24,7 @@ Par exemple, il est possible de modifier l'apparence d'un texte dans un `<div>` 
 
 Une bonne sémantique permet de simplifier le développement pour soi et pour les individus qui pourraient être amenés à interagir avec notre code. Il est plus simple de repérer des ouverture et fermeture de balises lorsquelles correspondent à des éléments tangibles dans une page.
 
-Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il peut-être ardu au premier regard de déterminer laquelle correspond à la fin de l'entête d'un site si toutes ces balises sont des `</div>. Cependant, si dans le lot une fermeture de balise **</header>** est utilisée, il devient soudainement évident où l'entête se termine.
+Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il peut-être ardu au premier regard de déterminer laquelle correspond à la fin de l'entête d'un site si toutes ces balises sont des `</div>`. Cependant, si dans le lot une fermeture de balise **</header>** est utilisée, il devient soudainement évident où l'entête se termine.
 
 ![semantic](https://github.com/user-attachments/assets/16ad9411-b0f4-45e1-ba7d-4f5b0133ab82)
 
