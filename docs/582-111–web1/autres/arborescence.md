@@ -63,8 +63,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 - À propos
 - Contact
 
-  <br>
-  <br>
+---
 
 **Niveau 2 (Sous-sections)**
 
@@ -87,8 +86,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 - Alimentation et restaurants
 - Activités et loisirs
 
-  <br>
-  <br>
+---
 
 **Niveau 3 (Pages individuelles)**
 
@@ -110,12 +108,12 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
     - Conseils pour l'emballage
     - Documents de voyage importants
 
-  <br>
-  <br>
+---
 
 **Niveau 4 (Sous-sections + Pages individuelles)**
 
 **Destination**
+
 <u>Europe</u>
     - France
         - Paris
