@@ -12,7 +12,7 @@ Une bonne sémantique permet d'améliorer l'expérience de ses usagers de plusie
 
 Par exemple, certaines personnes ont recours à un assistant vocal **(Siri, Alexa, L'assistant Google, etc.) **leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches **(cuisine, conduite, ménage, etc.)**. D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran **(Jaws, VoiceOver, eSpeak, etc.)** afin de leur permettre de naviguer de façon auditive le web 🔊.
 
-Imaginons un instant que nous sommes l'une de ces personnes et que nous consultons tous les matins **LaPresse.ca**📰. Heureusement pour nous, les assistants vocaux et lecteurs d'écran reconnaissent les balises `<header> et nous offrent de les sauter. Cette option serait impossible si une balise **<div>** était utilisée. Il faudrait donc écouter en entier la narration de l'entête de La Presse à chaque fois que nous consultons un article 😩.
+Imaginons un instant que nous sommes l'une de ces personnes et que nous consultons tous les matins **LaPresse.ca**📰. Heureusement pour nous, les assistants vocaux et lecteurs d'écran reconnaissent les balises `<header>` et nous offrent de les sauter. Cette option serait impossible si une balise `<div>` était utilisée. Il faudrait donc écouter en entier la narration de l'entête de La Presse à chaque fois que nous consultons un article 😩.
 
 ### Performance sur les moteurs de recherche
 
