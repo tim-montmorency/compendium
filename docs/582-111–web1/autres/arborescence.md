@@ -85,12 +85,12 @@ Conseils de voyage<br>
 Destination
 
     * Europe
-      * France
-      * Espagne
-      * Italie
-      * Allemagne
-      * Royaume-Uni
-
+        * France
+        * Espagne
+        * Italie
+        * Allemagne
+        * Royaume-Uni
+  
 
 Conseils de voyage<br>
     Préparation avant le départ<br>
