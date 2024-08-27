@@ -2,7 +2,7 @@
 
 Lors de la création d'une page, plusieurs balises HTML sont utilisées. Certaines de ces balises ont une valeur sémantique, tandis que d'autres non. On dit d'une balise qu'elle a une valeur sémantique lorsqu'elle permet de mieux comprendre son contenu ou encore son contexte.
 
-Par exemple, les balises `<div>` et **<span>** sont des balises non sémantiques. En les apercevant, il est impossible de deviner la nature de leur contenu ou encore leur rôle dans la page. Cependant, si une balise **<header>** est utilisée à la place d'une balise **<div>**, il devient soudainement plus évident que l'intention derrière cette balise est de regrouper les éléments constituant un entête.
+Par exemple, les balises `<div>` et **<span>** sont des balises non sémantiques. En les apercevant, il est impossible de deviner la nature de leur contenu ou encore leur rôle dans la page. Cependant, si une balise **<header>** est utilisée à la place d'une balise `<div>`, il devient soudainement plus évident que l'intention derrière cette balise est de regrouper les éléments constituant un entête.
 
 ## Pourquoi?
 
@@ -12,28 +12,28 @@ Une bonne sémantique permet d'améliorer l'expérience de ses usagers de plusie
 
 Par exemple, certaines personnes ont recours à un assistant vocal **(Siri, Alexa, L'assistant Google, etc.) **leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches **(cuisine, conduite, ménage, etc.)**. D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran **(Jaws, VoiceOver, eSpeak, etc.)** afin de leur permettre de naviguer de façon auditive le web 🔊.
 
-Imaginons un instant que nous sommes l'une de ces personnes et que nous consultons tous les matins **LaPresse.ca **📰. Heureusement pour nous, les assistants vocaux et lecteurs d'écran reconnaissent les balises **<header>** et nous offrent de les sauter. Cette option serait impossible si une balise **<div>** était utilisée. Il faudrait donc écouter en entier la narration de l'entête de La Presse à chaque fois que nous consultons un article 😩.
+Imaginons un instant que nous sommes l'une de ces personnes et que nous consultons tous les matins **LaPresse.ca**📰. Heureusement pour nous, les assistants vocaux et lecteurs d'écran reconnaissent les balises `<header> et nous offrent de les sauter. Cette option serait impossible si une balise **<div>** était utilisée. Il faudrait donc écouter en entier la narration de l'entête de La Presse à chaque fois que nous consultons un article 😩.
 
 ### Performance sur les moteurs de recherche
 
 Une sémantique adéquate permet aux différents moteurs de recherche (Google, Bing, Yahoo, etc.) de mieux comprendre et d'analyser le contenu d'une page afin de mieux l'indexer.
 
-Par exemple, il est possible de modifier l'apparence d'un texte dans un **<div>** avec du CSS afin de l'afficher en plus gros que le texte régulier. Bien que cette approche permette aux lecteurs de comprendre qu'il s'agit d'un titre, il n'en va pas de même pour les moteurs de recherche qui ne seront pas à même de faire cette nuance. Parcontre, si une balise **<h1>** est utilisée à la place d'une balise **<div>**, il devient soudainement plus évident pour ces moteurs que cet extrait de texte devrait être utilisé pour présenter cette page dans un résultat de recherche.
+Par exemple, il est possible de modifier l'apparence d'un texte dans un **<div>** avec du CSS afin de l'afficher en plus gros que le texte régulier. Bien que cette approche permette aux lecteurs de comprendre qu'il s'agit d'un titre, il n'en va pas de même pour les moteurs de recherche qui ne seront pas à même de faire cette nuance. Parcontre, si une balise `<h1>` est utilisée à la place d'une balise `<div>`, il devient soudainement plus évident pour ces moteurs que cet extrait de texte devrait être utilisé pour présenter cette page dans un résultat de recherche.
 
 ### Simplification du développement
 
 Une bonne sémantique permet de simplifier le développement pour soi et pour les individus qui pourraient être amenés à interagir avec notre code. Il est plus simple de repérer des ouverture et fermeture de balises lorsquelles correspondent à des éléments tangibles dans une page.
 
-Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il peut-être ardu au premier regard de déterminer laquelle correspond à la fin de l'entête d'un site si toutes ces balises sont des **</div>**. Cependant, si dans le lot une fermeture de balise **</header>** est utilisée, il devient soudainement évident où l'entête se termine.
+Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il peut-être ardu au premier regard de déterminer laquelle correspond à la fin de l'entête d'un site si toutes ces balises sont des `</div>. Cependant, si dans le lot une fermeture de balise **</header>** est utilisée, il devient soudainement évident où l'entête se termine.
 
 ![semantic](https://github.com/user-attachments/assets/16ad9411-b0f4-45e1-ba7d-4f5b0133ab82)
 
 <div style="text-align: center;">À gauche, sans balises sémantiques.</div>
-À droite, avec balises sémantiques.
+<div style="text-align: center;">À droite, avec balises sémantiques.
 
 ## Header
 
-La balise <header> représente un entête dans son contexte.
+La balise `<header>` représente un entête dans son contexte.
 
 Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayant une valeur sémantique, elle représente l'entête du site. Elle pourrait contenir entre autres un logo, un titre, une barre de recherche, etc.
 
@@ -44,7 +44,7 @@ Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayan
   </header>
 Elle pourrait aussi être utilisée pour représenter l'entête d'un article incluant le nom de l'article, son auteur, sa date de publication, etc.
 
-Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises <header> sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise <div>.
+Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises <header> sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
 
 header
  
