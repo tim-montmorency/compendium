@@ -22,7 +22,7 @@
       *  Porte-folio
 * Connexion aux ordinateurs
 * Remise des travaux et Grilles d’évaluation
-   * Nomenclature
+     * Nomenclature
 * Absence à une évaluation
 * Retard et départ avant la fin du cours
 * Utilisation du téléphone cellulaire
