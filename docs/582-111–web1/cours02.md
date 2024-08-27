@@ -32,5 +32,5 @@
 
 ## Mes premières balises
 
-![balises](https://github.com/user-attachments/assets/a773a145-b0d6-4a81-b67f-92b942cb75dd)
+![balises](https://github.com/user-attachments/assets/dc60993a-4390-4485-a20d-a008d2f3551e)
 [Exercice sur les balises sémantiques HTML](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/mes_premieres_balises.html)
