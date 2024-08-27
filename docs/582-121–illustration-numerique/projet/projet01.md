@@ -46,7 +46,7 @@
     * [ ] Choisir et [Téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
     * [ ] Déposez la musique dans le dossier références dans la nomenclature téléchargée plutôt
 
-Déposez tous ces documents dans la remise sur Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
+Déposez tous ces documents sur Teams via Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
 
 
 
