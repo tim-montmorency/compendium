@@ -83,12 +83,13 @@ Conseils de voyage<br>
 **Niveau 3 (Pages individuelles)**
 
 Destination
-- **Europe**
-  - France
-  - Espagne
-  - Italie
-  - Allemagne
-  - Royaume-Uni
+
+    - **Europe**
+      - France
+      - Espagne
+      - Italie
+      - Allemagne
+      - Royaume-Uni
 
 
 Conseils de voyage<br>
