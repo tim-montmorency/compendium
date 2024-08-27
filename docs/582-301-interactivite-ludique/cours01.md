@@ -312,6 +312,8 @@ Voici une liste non exhaustive des différents types de jeux vidéo[^videogamest
 
 [Aperçu non exhaustif des contrôles en jeux vidéo](https://en.wikipedia.org/wiki/List_of_game_controllers)
 
+<!-- 0.85 -->
+
 ## Prérequis
 
 Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à certains contenus, d'effectuer une action spécifique, ou simplement de progresser dans le jeu.
