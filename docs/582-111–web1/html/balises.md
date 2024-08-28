@@ -3,7 +3,7 @@
 
 ## Les balises
 
-Le langage HTML utilise des balises pour structurer le contenu d'une page. Ces balises sont écrites entre les symboles chevrons `<` et `>`:
+Le langage HTML utilise des balises pour structurer le contenu d'une page. Ces balises sont écrites entre les symboles chevrons `<` et `>`:<br>
 ![balises](https://github.com/user-attachments/assets/3c856f4d-64db-4492-932f-8c6e1ff10e94)
 
 
