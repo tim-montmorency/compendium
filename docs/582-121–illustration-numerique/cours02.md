@@ -39,6 +39,9 @@
 [🛠️ 07_Recadrer avec contenu ou ai](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>
 
 
+### Notions 
+* Ne pas utiliser les outils de tranche 🔪
+
 ### Notions  
 * [Recadrer avec la perspective](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ed5u2tgMxG9GjtowaJFYfRMBw5tWVHH6PC09k3UYEGk2Vg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zqXIwr)  <br>   
  
