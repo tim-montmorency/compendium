@@ -1,4 +1,4 @@
-Le but de cet exercice est d'installer une typographie
+Le but de cet exercice est d'installer une typographie téléchargeable
 ***  
 
 ## Matériel
