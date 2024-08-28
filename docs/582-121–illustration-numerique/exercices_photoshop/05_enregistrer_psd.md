@@ -16,7 +16,7 @@ Changer la dimension de l'image en 1920px X 1080px en 72dpi
 - [ ] Créez deux nouveaux calques
 - [ ] Sur le premier calque, avec l'outil pinceau (b), écrivez le mot "safari" et renommer le calque "safari"
 - [ ] Sur le deuxième calque, avec l'outil pinceau (b), écrivez le mot "solitaire"  et renommer le calque "solitaire"
-- [ ] Sauvegardez l'image en psd sur le cloud et sur votre bureau. 
+- [ ] Sauvegardez l'image en psd (Ctrl + S) sur le cloud
 
 
 ***  
