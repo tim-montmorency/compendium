@@ -1,5 +1,5 @@
 Le but de cet exercice est de changer le format d'une image:   
-<img src="images/resultat_final.png">
+<img src="images/anthony_cantin.jpg">
 ***  
 
 ## Matériel
