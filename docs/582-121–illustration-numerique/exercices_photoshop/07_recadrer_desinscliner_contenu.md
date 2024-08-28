@@ -4,10 +4,8 @@ Le but de cet exercice est de désincliner l'image:
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier suivant:   
-
-[📁 Document de départ](https://tim-montmorency.com/compendium582-121–illustration-numerique/exercices_photoshop/images
-/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
+Téléchargez et ouvrez le fichier Photoshop suivant:   
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
 
 
 
