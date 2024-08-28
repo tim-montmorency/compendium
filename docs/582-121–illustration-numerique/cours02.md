@@ -34,8 +34,8 @@
 [🛠️ 07_Recadrer et désincliner avec contenu.md](./exercices_photoshop/07_recadrer_desinscliner_contenu.md){ .md-button }   <br>    
 
 ### Notions  
-* [Recadrer et désincliner avec contenu pris en compte](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbnE68gSWHpBnmw4AvG4CTUB__EffVCs-eea_Ui6xUEorw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=07tIXr)  <br>    
-[🛠️ 07_Recadrer et avec contenu ou ai.md](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>   
+* [Recadrer avec contenu pris en compte ou ai](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbnE68gSWHpBnmw4AvG4CTUB__EffVCs-eea_Ui6xUEorw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=07tIXr)  <br>    
+[🛠️ 07_Recadrer avec contenu ou ai.md](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>   
 
 
 * Alignement
