@@ -1,4 +1,4 @@
-Le but de cet exercice est de changer le format d'une image:   
+Le but de cet exercice est de sauvegarder une image en GIF:
 <img src="images/vecteur_rompre.jpg">
 ***  
 
@@ -11,13 +11,8 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 
 ## Étapes
-Changer la dimension de l'image en 1920px X 1080px en 72dpi
 
-- [ ] Créez deux nouveaux calques
-- [ ] Sur le premier calque, avec l'outil pinceau (b), écrivez le mot "safari" et renommer le calque "safari"
-- [ ] Sur le deuxième calque, avec l'outil pinceau (b), écrivez le mot "solitaire"  et renommer le calque "solitaire"
-- [ ] Sauvegardez l'image en PSD ((Maj + Ctrl + S)) sur le cloud
-- [ ] Pour sauvegardez à nouveau le PSD, vous pouvez uniquement faire un (ctrl + s)
+- [ ] Sauvegardez l'image en GIF (Option + Maj + Ctrl + S) sur le bureau
 
 
 ***  
