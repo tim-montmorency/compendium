@@ -13,7 +13,7 @@ Notions
 * [Raccourcis](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQUADFGtiGBNtLoOnaTdb_IBOmNvV0p6JCe9GrEUefls5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KJKjNt) <br>
 * Interface Photoshop <br>
     * [Presentation interface, outils, panneau d'option, menu, fenêtre, calques.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaWZefFDQdxHoDTp56vcNy4BLmvEYTnW7YpFFtLOmm-NMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnrmW4) <br>
-* Importer des images 
+* Importer des images   <br>
     * [Importer les images du web et recadrer](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW-j3aga9SFBiAtC8gBjViUBmZ2HR9NZiCIdAyUKekTCsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M0ZDtZ)  
 
 [🛠️ 00_Recadrer](./exercice/04_importer_recadrer.md){ .md-button }   <br>
