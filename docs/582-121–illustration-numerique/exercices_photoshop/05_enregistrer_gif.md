@@ -5,7 +5,7 @@ Le but de cet exercice est de sauvegarder une image en GIF:
 ## Matériel
 Téléchargez et ouvrez le fichier Photoshop suivant:   
 
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images/vecteur_rompre.pds
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/vecteur_rompre.psd
 ){ .md-button }   <br>
 
 
