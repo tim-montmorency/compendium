@@ -1,4 +1,4 @@
-Le but de cet exercice est d'installer deux polices
+Le but de cet exercice est d'installer une typographie
 ***  
 
 ## Matériel
