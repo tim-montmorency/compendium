@@ -11,7 +11,6 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 
 ## Étapes
-Changer la dimension de l'image en 1920px X 1080px en 72dpi
 
 - [ ] Créez deux nouveaux calques
 - [ ] Sur le premier calque, avec l'outil pinceau (b), écrivez le mot "safari" et renommer le calque "safari"
