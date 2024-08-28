@@ -49,8 +49,8 @@
 
 
 ### Notions
-* [Typographie à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
-* [Typographie à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
+* [Typographies à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
+* [Typographies Creative Cloud](https://fonts.adobe.com/)
 * Vous vous rendez sur le site et vous activez vos polices via Creative Cloud sur votre ordinateur. 
 
 * Alignement
