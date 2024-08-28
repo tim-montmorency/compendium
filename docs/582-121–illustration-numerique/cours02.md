@@ -14,12 +14,12 @@
 * [Presentation interface, outils, panneau d'option, menu, fenêtre, calques.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaWZefFDQdxHoDTp56vcNy4BLmvEYTnW7YpFFtLOmm-NMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnrmW4)  <br>
 * [Importer les images du web et recadrer](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW-j3aga9SFBiAtC8gBjViUBmZ2HR9NZiCIdAyUKekTCsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M0ZDtZ)  <br>
 
-[🛠️ 00_Recadrer](./exercice/04_importer_recadrer.md){ .md-button }   
+[🛠️ 00_Recadrer](./exercices_photoshop/04_importer_recadrer.md){ .md-button }   
    
 ### Notions  
 * [Enregistrer des images](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUHqTCjYyMVCkeIahHqiHHQBQ07BrCDjnLlFiHMkZadSIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bqiSFG)  /  [Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EcWfT_2It2ZHnBGBeZDYkaYBvRr-Ckm7Zr9Qjbb1hKPWZw?e=dn5k2t)  <br>
 * 
-[🛠️ 00_Recadrer](./exercice/04_importer_recadrer.md){ .md-button }   
+[🛠️ 00_Recadrer](./exercices_photoshop/04_importer_recadrer.md){ .md-button }   
 
 
 * 07_recadrage
