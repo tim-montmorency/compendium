@@ -21,18 +21,18 @@ Par exemple, certaines personnes ont recours à un assistant vocal **(Siri, Alex
 D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran **(Jaws, VoiceOver, eSpeak, etc.)** afin de leur permettre de naviguer de façon auditive le web 🔊.
 
 Les assistants vocaux et lecteurs d'écran reconnaissent les balises `<header>` et nous offrent de les sauter. Cette option serait impossible sans balise `<header>`. Il faudrait donc écouter en entier la narration de l'entête lorsque nous consultons un article 😩.
-
+<br>
+<br>
 ### Performance sur les moteurs de recherche
 
 Une sémantique adéquate permet aux différents moteurs de recherche **(Google, Bing, Yahoo, etc.)** de mieux comprendre et d'analyser le contenu d'une page afin de mieux l'indexer.
 
-Par exemple, il est possible de modifier l'apparence d'un texte dans un `<div>` avec du CSS afin de l'afficher en plus gros que le texte régulier. Bien que cette approche permette aux lecteurs de comprendre qu'il s'agit d'un titre, il n'en va pas de même pour les moteurs de recherche qui ne seront pas à même de faire cette nuance. Parcontre, si une balise `<h1>` est utilisée à la place d'une balise `<div>`, il devient soudainement plus évident pour ces moteurs que cet extrait de texte devrait être utilisé pour présenter cette page dans un résultat de recherche.
-
+<br>
+<br>
 ### Simplification du développement
 
-Une bonne sémantique permet de simplifier le développement pour soi et pour les individus qui pourraient être amenés à interagir avec notre code. Il est plus simple de repérer des ouverture et fermeture de balises lorsquelles correspondent à des éléments tangibles dans une page.
+Une bonne sémantique permet de simplifier le développement pour soi et pour les individus qui pourraient être amenés à interagir avec notre code. 
 
-Par exemple, si une dizaine de balises se ferment une à la suite de l'autre, il peut-être ardu au premier regard de déterminer laquelle correspond à la fin de l'entête d'un site si toutes ces balises sont des `</div>`. Cependant, si dans le lot une fermeture de balise **</header>** est utilisée, il devient soudainement évident où l'entête se termine.
 
 ![semantic](https://github.com/user-attachments/assets/16ad9411-b0f4-45e1-ba7d-4f5b0133ab82)
 
@@ -57,13 +57,13 @@ Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise ayan
 
 Elle pourrait aussi être utilisée pour représenter l'entête d'un article incluant le nom de l'article, son auteur, sa date de publication, etc.
 
-Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises `<header>` sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
+Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises `<header>` sur une même page. 
 
 [Mozilla Header](https://developer.mozilla.org/fr/docs/Web/HTML/Element/header)  [W3Schools Header](https://www.w3schools.com/tags/tag_header.asp)
 
 ## Footer
 
-La balise `<footer>` représente le pied de page de son contexte.
+La balise `<footer>` représente le pied de page.
 
 Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise aillant une valeur sémantique, elle représente le pied de page du site. Elle pourrait contenir entre autre les informations de contact, la mention de droits d'auteur, le plan du site, etc.
 
@@ -78,7 +78,7 @@ Par exemple, si elle n'est pas utilisée à l'intérieur d'une autre balise aill
 
 Elle pourrait aussi être utilisée pour représenter le pied de page d'un article incluant des liens de partage sur les réseaux sociaux, un rappel de l'auteur, etc.
 
-Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises `<footer>` sur une même page. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
+Bref, plusieurs possibilités existent. Il est donc possible d'avoir plusieurs balises `<footer>` sur une même page. 
 
 [Mozilla Footer](https://developer.mozilla.org/fr/docs/Web/HTML/Element/footer)  [W3Schools Footer](https://www.w3schools.com/tags/tag_footer.asp)
 
@@ -100,7 +100,6 @@ Comme son nom l'indique, la balise `<nav>` représente un élément de navigatio
   </ul>
 </nav>
 ```
-Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise `<div>`.
 
 [Mozilla Nav](https://developer.mozilla.org/fr/docs/Web/HTML/Element/nav)  [W3Schools Nav](https://www.w3schools.com/tags/tag_nav.asp)
 
@@ -108,7 +107,7 @@ Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comm
 
 La balise `<main>` représente le contenu principal d'une page. Elle ne doit pas contenir les éléments qui se répètent d'une page à l'autre, par exemple l'entête et le pied de page d'un site.
 
-Il est impossible d'avoir plus d'une balise `<main>` sur une même page, puisqu'il ne peut y avoir qu'un seul contenu principal.
+Il est **impossible** d'avoir plus d'une balise `<main>` sur une même page, puisqu'il ne peut y avoir qu'un seul contenu principal.
 
 ```
 <header>
@@ -141,7 +140,7 @@ Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme un
 
 La balise `<section>` représente un groupe d'éléments étant liés par un thème.
 
-Par exemple, sur la page d'accueil d'un journal, plusieurs aperçus d'articles sont disponibles. Ces articles sont souvent regroupés en thèmes **(actualités, international, sports, etc.)**. Puisqu'il s'agit d'une balise de type bloc, elle se comporte exactement comme une balise `<div>`.
+Par exemple, sur la page d'accueil d'un journal, plusieurs aperçus d'articles sont disponibles. Ces articles sont souvent regroupés en thèmes **(actualités, international, sports, etc.)**. 
 
 Une structure comme celle-ci 👇 serait donc possible.
 
@@ -179,7 +178,6 @@ Une structure comme celle-ci 👇 serait donc possible.
   <p>Le CH a remporté une victoire in extrémis hier...</p>
 </article>
 ```
-Comme les précédentes balises, il s'agit d'une balise de type bloc, elle se comporte donc exactement comme une balise `<div>`.
 
 
 [Mozilla Article](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article)  [W3Schools Article](https://www.w3schools.com/tags/tag_article.asp)
@@ -198,7 +196,6 @@ Dans un article sur les chats, un `<aside>` pourrait inclure une petite section 
 - **Contenu secondaire :** Le contenu de <aside> est lié, mais pas essentiel, au contenu principal.
 - **Exemples d'utilisation :** Informations supplémentaires, liens connexes, citations, publicités.
 
-Il s'agit aussi d'une balise de type bloc, elle se comporte donc exactement comme une balise `<div>`.
 
 [Mozilla Aside](https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside)  [W3Schools Aside](https://www.w3schools.com/tags/tag_aside.asp)
 
