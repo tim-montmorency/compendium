@@ -14,8 +14,8 @@
 * [Presentation interface, outils, panneau d'option, menu, fenêtre, calques.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaWZefFDQdxHoDTp56vcNy4BLmvEYTnW7YpFFtLOmm-NMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnrmW4)  <br>
 * [Importer les images du web et recadrer](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW-j3aga9SFBiAtC8gBjViUBmZ2HR9NZiCIdAyUKekTCsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M0ZDtZ)  <br>
 
-[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_importer_recadrer_petite.md){ .md-button }   <br>   
-[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_importer_recadrer_grande.md){ .md-button }   <br>   
+[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_importer_recadrer_petite_image.md){ .md-button }   <br>   
+[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_importer_recadrer_grande_image.md){ .md-button }   <br>   
 
 
 ***  
