@@ -10,6 +10,8 @@ Téléchargez le dossier de police "unique":
 ## Étapes
 
 - [ ] Ouvrir le dossier téléchargé
+- [ ] Téléchargé le dossier de police "unique"
+- [ ] Ouvrir le dossier téléchargé
 - [ ] Rechercher les polices avec des extensions .ttf ou .oft
 - [ ] Clic droit les polices
 - [ ] Installer les polices
@@ -20,7 +22,8 @@ Téléchargez le dossier de police "unique":
   - [ ] Taille : 900 pt
   - [ ] Couleur : #ffba36
   - [ ] Tracking : 80
-- [ ] Assurez vous de ne pas écrire dans le safe title
+- [ ] Assurez-vous de ne pas écrire dans le safe title
+- [ ] Assurez-vous de toujours avoir les typographies avec vous dans votre disque dur. Vous devrez les réinstaller si vous changé d'ordinatuer. 
       
       
 
