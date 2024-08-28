@@ -37,7 +37,7 @@ Lorsque vous spécifiez un chemin d'accès à un fichier dans VS Code, le point 
 
 **Cependant, il peut y avoir des cas où l'utilisation de . / peut être appropriée :**
 
-- **Chemin relatif + clair : **Si vous voulez rendre le chemin d'accès relatif plus explicite, vous pouvez ajouter . / pour indiquer que le chemin d'accès est relatif et non absolu.
+- **Chemin relatif + clair :** Si vous voulez rendre le chemin d'accès relatif plus explicite, vous pouvez ajouter . / pour indiquer que le chemin d'accès est relatif et non absolu.
 - **Chemin à partir d'un emplacement différent :** Si vous travaillez à partir d'un sous-dossier ou d'un emplacement différent dans votre projet, l'ajout de . / peut être nécessaire pour spécifier explicitement que le chemin d'accès commence à partir du répertoire actuel.
 - **Éviter les conflits :** Dans certains cas, des noms de fichiers peuvent coïncider avec des noms de dossiers, ce qui pourrait provoquer des conflits. Dans de tels cas, l'ajout de ./ peut aider à éviter toute confusion.
 
