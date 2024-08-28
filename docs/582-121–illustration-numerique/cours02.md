@@ -48,6 +48,11 @@
 [🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_recadrer_perspective.md){ .md-button }   <br>    
 
 
+### Notions
+* [Typographie à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
+* [Typographie à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
+* Vous vous rendez sur le site et vous activez vos polices via Creative Cloud sur votre ordinateur. 
+
 * Alignement
 * 15_Typographie
 
