@@ -21,7 +21,6 @@
   
 [🛠️ 05_Enregistrer un psd](./exercices_photoshop/05_enregistrer_psd.md){ .md-button }   
 
-
 * 07_recadrage
 * Alignement
 * 15_Typographie
