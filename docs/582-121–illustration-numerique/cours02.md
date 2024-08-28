@@ -32,6 +32,7 @@
 * [Recadrer et désincliner avec contenu pris en compte](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ee3Gmwbq6xFCjD5qV47wwKYBtD_Fjw86v87ejTjPlIOnXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7njGaw)  <br>
   
 [🛠️ 07_Recadrer et désincliner avec contenu.md](./exercices_photoshop/07_recadrer_desinscliner_contenu.md){ .md-button }   <br>   
+[🛠️ 07_Recadrer et avec contenu.md](./exercices_photoshop/07_recadrer_desinscliner_contenu.md){ .md-button }   <br>   
 
 
 * Alignement
