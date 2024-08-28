@@ -2,7 +2,7 @@ Le but de cet exercice est d'installer deux polices
 ***  
 
 ## Matériel
-Téléchargez le dossier de police "unique"
+Téléchargez le dossier de police "unique" <br>    
 [📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=veL2bB){ .md-button }   <br>
 
 
