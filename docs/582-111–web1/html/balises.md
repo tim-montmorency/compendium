@@ -90,7 +90,7 @@ L'attribut **src** (pour source) est situé dans la balise **img**. Il est suivi
     - Certains attributs sont globaux = peuvent se mettre sur n’importe quelle balises. Par exemple id.
     - Attributs spécifiques à une ou quelques balises. Par exemple src sur les balises `<img>`.
     - La plupart des attributs sont facultatifs.
-    - Mais certains sont obligatoires. Par exemples href sur les balises <a>.
+    - Mais certains sont obligatoires. Par exemples href sur les balises `<a>`.
 
 
 ## Structure de base HTML
