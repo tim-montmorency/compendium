@@ -1,5 +1,5 @@
 Le but de cet exercice est de couper une image à même une image
-<img src="images/07_over_busy_png">
+<img src="images/07_over_busy.png">
 ***  
 
 ## Matériel
