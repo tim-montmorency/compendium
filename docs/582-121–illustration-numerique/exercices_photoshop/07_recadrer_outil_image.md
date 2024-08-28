@@ -11,10 +11,9 @@ Téléchargez et ouvrez le fichier suivant:
 ## Étapes
 
 - [ ] Choisir l'outil image (k)
-- [ ] Sélectionner une section de l'image du premier calque
-- [ ] Sélectionner une section de l'image du deuxième calque
-- [ ] Bouger l'image à l'intérieur du cadre en cliquant sur l'image et en utilisant l'outil de déplacement (v)
-- [ ] Bouger l'image dans l'image en cliquant sur l'extérieur de l'image et en utilisant l'outil de déplacement (v)
+- [ ] Sélectionner la bouche de la femme du premier calque
+- [ ] Bouger l'image de la femme à l'intérieur du cadre. Cliquer sur l'image de la femme et utiliser l'outil de déplacement (v)
+- [ ] Bouger l'image de la femme dans l'image. Cliquer à l'extérieur de l'image de la femme et utiliser l'outil de déplacement (v)
 
 
 
