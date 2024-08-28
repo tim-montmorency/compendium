@@ -5,8 +5,7 @@ Le but de cet exercice est de changer le format d'une image:
 ## Matériel
 Téléchargez et ouvrez le fichier Photoshop suivant:   
 
-[📁 Document de départ](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESYbthj7WYtGv_RxyR4nAA0BNrpXLvswMnxJ1ztSHJ7nww?e=xjat2Z](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images
-/anthony_cantin.jpg){ .md-button }   <br>
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121-illustration-numerique/exercice/images/anthony_cantin.jpg){ .md-button }   <br>
 
 
 https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images
