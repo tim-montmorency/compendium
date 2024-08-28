@@ -54,11 +54,13 @@
 * [Typographies à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
 * [Typographies Creative Cloud](https://fonts.adobe.com/)
   * Vous vous rendez sur le site et vous activez vos polices via Creative Cloud sur votre ordinateur.
-
+[🛠️ 15_Installer une typographie](./exercices_photoshop/15_installer_typographie.md){ .md-button }   <br>    
 
 * Alignement
-* 15_Typographie
 
+### Travail en classe
+
+[📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
 
 ## Devoir
 
