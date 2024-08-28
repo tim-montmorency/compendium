@@ -1,12 +1,12 @@
 
-Le but de cet exercice est de sauvegarder une image en PSD: 
-<img src="images/2_desincliner_contenu_pris_compte.jpg">
+Le but de cet exercice est de désincliner l'image: 
+<img src="images/07_desincliner_contenu_pris_compte.jpg">
 ***  
 
 ## Matériel
 Téléchargez et ouvrez le fichier suivant:   
 
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images/2_desincliner_contenu_pris_compte.jpg
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images/07_desincliner_contenu_pris_compte.jpg
 ){ .md-button }   <br>
 
 
