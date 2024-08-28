@@ -14,7 +14,7 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 Changer la dimension de l'image en 1920px X 1080px en 72dpi
 
 - [ ] Ouvrir l'image
-- [ ] Choisir l'outil crop
+- [ ] Choisir l'outil crop (c)
 - [ ] Changer les dimensions de l'image en 1920px X 1080px en 72dpi
 
 
