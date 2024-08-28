@@ -36,7 +36,7 @@
 ### Notions  
 * [Recadrer avec contenu pris en compte ou ai](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbnE68gSWHpBnmw4AvG4CTUB__EffVCs-eea_Ui6xUEorw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=07tIXr)  <br>    
 
-[🛠️ 07_Recadrer avec contenu ou ai](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>
+[🛠️ 07_Recadrer avec contenu ou génératif](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>
 
 
 ### Notions 
@@ -51,7 +51,9 @@
 ### Notions
 * [Typographies à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
 * [Typographies Creative Cloud](https://fonts.adobe.com/)
-* Vous vous rendez sur le site et vous activez vos polices via Creative Cloud sur votre ordinateur. 
+* Vous vous rendez sur le site et vous activez vos polices via Creative Cloud sur votre ordinateur.
+
+[📹 Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA){ .md-button }   <br>
 
 * Alignement
 * 15_Typographie
