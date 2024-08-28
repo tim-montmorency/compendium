@@ -1,4 +1,4 @@
-Le but de cet exercice est de changer le format d'une image:   
+Le but de cet exercice est de sauvegarder une image en PSD: 
 <img src="images/anthony_cantin.jpg">
 ***  
 
