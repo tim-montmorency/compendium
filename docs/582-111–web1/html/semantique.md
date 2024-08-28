@@ -12,6 +12,10 @@ Une bonne sémantique permet d'améliorer l'expérience de ses usagers de plusie
 ![54015-108808-Siri-icon-xl](https://github.com/user-attachments/assets/f79a7ccd-f715-413a-92a3-a400ba046bc2)
 
 Par exemple, certaines personnes ont recours à un assistant vocal **(Siri, Alexa, L'assistant Google, etc.)** leur permettant de se faire narrer le contenu des pages sur lesquelles ils naviguent alors qu'ils s'adonnent à d'autres tâches **(cuisine, conduite, ménage, etc.)**. 
+
+<br>
+<br>
+
 ![jaws-for-windows](https://github.com/user-attachments/assets/04d6d1d6-3f17-40fd-b91a-ede242eae821)
 
 D'autres, atteints d'une déficience visuelle, utilisent pour leur part un lecteur d'écran **(Jaws, VoiceOver, eSpeak, etc.)** afin de leur permettre de naviguer de façon auditive le web 🔊.
