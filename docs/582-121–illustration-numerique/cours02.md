@@ -36,7 +36,8 @@
 
 * [Recadrer avec la perspective](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ed5u2tgMxG9GjtowaJFYfRMBw5tWVHH6PC09k3UYEGk2Vg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zqXIwr)  <br>   
 
-  
+* Ne pas utiliser les outils de tranche 🔪   <br>  
+
 [🛠️ 07_Recadrer et désincliner avec contenu](./exercices_photoshop/07_recadrer_desinscliner_contenu.md){ .md-button }   <br>    
 
 [🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>
@@ -44,14 +45,8 @@
 [🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_recadrer_perspective.md){ .md-button }   <br>    
 
 
-
-### Notions 
-* Ne pas utiliser les outils de tranche 🔪
-
-
-
 ### Notions
-* Théorie
+* Théorie typographie
   * [🎥 Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  <br>
   * [Les bases de la typographie](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
 
