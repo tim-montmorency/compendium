@@ -1,5 +1,5 @@
 Le but de cet exercice est de sauvegarder une image en GIF:
-<img src="images/vecteur_rompre.jpg">
+<img src="images/vecteur_rompre.png">
 ***  
 
 ## Matériel
