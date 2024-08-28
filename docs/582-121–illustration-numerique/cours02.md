@@ -17,15 +17,14 @@
 [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_importer_recadrer_petite.md){ .md-button }   <br>   
 [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_importer_recadrer_grande.md){ .md-button }   <br>   
 
-[🛠️ 06_meduse](exercices_ae/06_meduse.md){ .md-button }   <br>   
-[🛠️ 06_homme](exercices_ae/06_homme.md){ .md-button }   <br>   
+
 ***  
 ### Notions  
 * [Enregistrer des images](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUHqTCjYyMVCkeIahHqiHHQBQ07BrCDjnLlFiHMkZadSIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bqiSFG)  /  [Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EcWfT_2It2ZHnBGBeZDYkaYBvRr-Ckm7Zr9Qjbb1hKPWZw?e=dn5k2t)  <br>
   
-[🛠️ 05_Enregistrer un psd.md](./exercices_photoshop/05_enregistrer_psd.md){ .md-button }   <br>
-[🛠️ 05_Enregistrer un jpg.md](./exercices_photoshop/05_enregistrer_jpg.md){ .md-button }   <br>
-[🛠️ 05_Enregistrer un jpg.md](./exercices_photoshop/05_enregistrer_gif.md){ .md-button }   <br>
+[🛠️ 05_Enregistrer un psd.md](./exercices_photoshop/05_enregistrer_psd.md){ .md-button }   <br>   
+[🛠️ 05_Enregistrer un jpg.md](./exercices_photoshop/05_enregistrer_jpg.md){ .md-button }   <br>   
+[🛠️ 05_Enregistrer un jpg.md](./exercices_photoshop/05_enregistrer_gif.md){ .md-button }   <br>   
 
 
 
