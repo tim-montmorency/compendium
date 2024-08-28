@@ -13,8 +13,8 @@ Téléchargez et ouvrez le fichier suivant:
 ## Étapes
 
 - [ ] Choisir l'outil crop (c)
-- [ ] Sélectionner l'outil de règle pour désincliner le panneau d'option
-- [ ] Choisir remplissage d'après le contenu dans le panneau d'options dans l'option "fond"
+- [ ] Dans le panneau d'option, sélectionner l'outil de règle pour désincliner
+- [ ] Dans le panneau d'option, aller dans l'option de "fond", choisir "remplissage d'après le contenu"
 - [ ] Sélectionner la queue du requin
 - [ ] Sélectionner terminer
 
