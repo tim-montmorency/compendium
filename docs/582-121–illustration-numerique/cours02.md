@@ -61,7 +61,10 @@ Banques de typographies
 
 [🛠️ 15_Installer une typographie](./exercices_photoshop/15_installer_typographie.md){ .md-button }   <br>    
 
-* Alignement
+
+### Notions
+* Travailler avec la grille et les règles
+* Travailler avec les alignements
 
 ### Travail en classe
 
