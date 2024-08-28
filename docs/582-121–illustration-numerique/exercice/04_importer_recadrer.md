@@ -7,6 +7,8 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 [📁 Document de départ](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESYbthj7WYtGv_RxyR4nAA0BNrpXLvswMnxJ1ztSHJ7nww?e=xjat2Z){ .md-button }   <br>
 
+582-121–illustration-numerique/exercice/images
+/anthony_cantin.jpg
 ***  
 
 ## Étapes
