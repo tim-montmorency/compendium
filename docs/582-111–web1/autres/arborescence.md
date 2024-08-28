@@ -12,7 +12,7 @@ Voici quelques éléments importants pour comprendre les arborescences de site w
 
 ## Hiérarchie
 
-L'arborescence suit une structure en cascade, avec une page d'accueil (racine) qui est au sommet de la **hiérarchie**. À partir de cette page, des branches se développent pour représenter les différentes **catégories, sous-catégories **et **pages individuelles** du site.
+L'arborescence suit une structure en cascade, avec une page d'accueil (racine) qui est au sommet de la **hiérarchie**. À partir de cette page, des branches se développent pour représenter les différentes **catégories, sous-catégories** et **pages individuelles** du site.
 
 ## Niveaux
 
