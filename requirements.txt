@@ -3,3 +3,4 @@ mkdocs-audio
 mkdocs-render-stopper
 mkdocs-video
 pymdown-extensions
+mdx-truly-sane-lists
