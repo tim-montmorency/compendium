@@ -3,8 +3,8 @@
 Imaginez que vous organisez des fichiers sur votre ordinateur pour créer un site web. Vous avez un dossier principal pour votre site, et à l'intérieur de ce dossier, vous avez des sous-dossiers et des fichiers.
 
 ## Parent-Enfant
-![parent-enfant](https://github.com/user-attachments/assets/2cd04847-530b-4923-ae6f-17c9505d24e9)
 
+![parent-enfant](https://github.com/user-attachments/assets/2cd04847-530b-4923-ae6f-17c9505d24e9)
 
 - **Parent et Enfant :** Pensez aux dossiers comme des « parents » et aux fichiers qu'ils contiennent comme des « enfants ».
 - **Hiérarchie :** Les dossiers et les fichiers sont organisés en une hiérarchie, où certains dossiers sont au niveau supérieur et d'autres sont à des niveaux inférieurs. Les dossiers supérieurs (parents) contiennent les fichiers et les dossiers inférieurs (enfants).
@@ -19,10 +19,9 @@ Imaginez que vous organisez des fichiers sur votre ordinateur pour créer un sit
 - **"Catégorie A"** est le parent de **"Sous-catégorie B"**.
 - Et enfin, **"Sous-catégorie B"** est le parent de la **"Page de produit"**.
 
-
 ## Questions
 
-[Questionnaire Wooclap]([https://google.ca](https://app.wooclap.com/BNNHKJ?from=event-page))
+[Questionnaire Wooclap](https://app.wooclap.com/BNNHKJ?from=event-page)
 
 Lorsque vous référencez des fichiers dans le code de vos pages web (comme HTML, CSS, JavaScript), vous spécifiez le chemin d'accès pour indiquer où se trouvent ces fichiers par rapport à la page actuelle.
 
@@ -50,13 +49,11 @@ Lorsque vous spécifiez un chemin d'accès à un fichier dans VS Code, le point 
 
     Pour éviter les conflits, dans le cadre du cours, nous allons toujours utiliser . / devant les fichiers pour indiquer que le chemin d'accès commence à partir du répertoire actuel.
 
-
 ## Remonter de niveau . . /
 ![remonter-dossier (1)](https://github.com/user-attachments/assets/7139925d-b3a6-4933-a8f1-b9857f6b5de5)
 
-
-Lorsque vous désirez remonter d'un niveau comme par exemple : vous êtes au niveau d'un fichier enfant et que vous désirez remonter au dossier parent d'utiliser un autre fichier dans le dossier parent, on l'écrit** . . / nom_du_fichier**
+Lorsque vous désirez remonter d'un niveau comme par exemple : vous êtes au niveau d'un fichier enfant et que vous désirez remonter au dossier parent d'utiliser un autre fichier dans le dossier parent, on l'écrit `../nom_du_fichier`
 
     Dans le cas présent : . . / index.html
-    
-Si vous devez remonter de 2 niveau alors suffit d'écrire : **. . / . . / nom_du_fichier**
+
+Si vous devez remonter de 2 niveau alors suffit d'écrire : `../../nom_du_fichier`

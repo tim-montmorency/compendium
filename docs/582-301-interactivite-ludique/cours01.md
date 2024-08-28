@@ -227,6 +227,7 @@ Voici une liste non exhaustive des différents types de jeux vidéo[^videogamest
 * Vie (The Sims)
 * Gestion et construction (Stardew Valley)
 * Conduite (American Truck Simulator)
+* Carré de sable (Minecraft)
 
 #### Stratégie
 
