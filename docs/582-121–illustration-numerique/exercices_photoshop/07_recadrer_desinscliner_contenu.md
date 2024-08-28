@@ -6,8 +6,7 @@ Le but de cet exercice est de désincliner l'image:
 ## Matériel
 Téléchargez et ouvrez le fichier suivant:   
 
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images/07_desincliner_contenu_pris_compte.jpg
-){ .md-button }   <br>
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercice/images/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
 
 
 
