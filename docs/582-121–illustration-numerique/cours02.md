@@ -17,8 +17,7 @@
 
 * [Importer les images du web et recadrer](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW-j3aga9SFBiAtC8gBjViUBmZ2HR9NZiCIdAyUKekTCsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M0ZDtZ)  <br>
 
-[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_importer_recadrer_petite_image.md){ .md-button }   <br>   
-[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_importer_recadrer_grande_image.md){ .md-button }   <br>   
+
 
 
 * [Recadrer et désincliner avec contenu pris en compte](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ee3Gmwbq6xFCjD5qV47wwKYBtD_Fjw86v87ejTjPlIOnXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gafjhl)  <br>
@@ -28,7 +27,11 @@
 
 * [Recadrer avec la perspective](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ed5u2tgMxG9GjtowaJFYfRMBw5tWVHH6PC09k3UYEGk2Vg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zqXIwr)  <br>   
 
-* Ne pas utiliser les outils de tranche 🔪   <br>  
+* Ne pas utiliser les outils de tranche 🔪   <br>
+
+[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_importer_recadrer_petite_image.md){ .md-button }   <br>  
+
+[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_importer_recadrer_grande_image.md){ .md-button }   <br>   
 
 [🛠️ 07_Recadrer et désincliner avec contenu](./exercices_photoshop/07_recadrer_desinscliner_contenu.md){ .md-button }   <br>    
 
