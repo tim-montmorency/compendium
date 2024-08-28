@@ -49,14 +49,14 @@
 
 
 ### Notions
-Théorie
-* [🎥 Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  <br>
-* [Les bases de la typographie](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
+* Théorie
+  * [🎥 Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  <br>
+  * [Les bases de la typographie](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
 
-Banques de typographies
-* [Banque de typographies](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
-* [Typographies Creative Cloud](https://fonts.adobe.com/)
-* [Awwward free font](https://www.awwwards.com/awwwards/collections/free-fonts/)
+*  Banques de typographies
+  * [Banque de typographies](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF)
+  * [Typographies Creative Cloud](https://fonts.adobe.com/)
+  * [Awwward free font](https://www.awwwards.com/awwwards/collections/free-fonts/)
   
 
 [🛠️ 15_Installer une typographie](./exercices_photoshop/15_installer_typographie.md){ .md-button }   <br>    
