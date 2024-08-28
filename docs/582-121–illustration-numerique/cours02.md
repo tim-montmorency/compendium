@@ -19,10 +19,10 @@ Notions
 [🛠️ 00_Recadrer](./exercice/04_importer_recadrer.md){ .md-button }   <br>
    
    
-   * 05_Enregistrer des images
-   * 07_recadrage
-   * Alignement
-   * 15_Typographie
+* 05_Enregistrer des images
+* 07_recadrage
+* Alignement
+* 15_Typographie
 
 
 ## Devoir
