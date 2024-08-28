@@ -31,8 +31,6 @@ Lorsque vous référencez des fichiers dans le code de vos pages web (comme HTML
 
 ## Chemin d'accès . /
 
-Dans Visual Studio Code (VS Code) et dans de nombreux autres environnements de développement, l'ajout de . / devant les chemins d'accès aux fichiers n'est généralement pas nécessaire, sauf dans certaines situations particulières.
-
 Lorsque vous spécifiez un chemin d'accès à un fichier dans VS Code, le point de départ par défaut est le dossier dans lequel se trouve le fichier que vous avez ouvert. Par conséquent, si le fichier que vous ouvrez est déjà dans le même dossier que les fichiers auxquels vous faites référence, l'ajout de . / n'est pas nécessaire et peut être omis.
 
 **Cependant, il peut y avoir des cas où l'utilisation de . / peut être appropriée :**
@@ -49,11 +47,11 @@ Lorsque vous spécifiez un chemin d'accès à un fichier dans VS Code, le point 
 
     Pour éviter les conflits, dans le cadre du cours, nous allons toujours utiliser . / devant les fichiers pour indiquer que le chemin d'accès commence à partir du répertoire actuel.
 
-## Remonter de niveau . . /
+## Remonter de niveau ../
 ![remonter-dossier (1)](https://github.com/user-attachments/assets/7139925d-b3a6-4933-a8f1-b9857f6b5de5)
 
 Lorsque vous désirez remonter d'un niveau comme par exemple : vous êtes au niveau d'un fichier enfant et que vous désirez remonter au dossier parent d'utiliser un autre fichier dans le dossier parent, on l'écrit `../nom_du_fichier`
 
-    Dans le cas présent : . . / index.html
+    Dans le cas présent : ../ index.html
 
 Si vous devez remonter de 2 niveau alors suffit d'écrire : `../../nom_du_fichier`
