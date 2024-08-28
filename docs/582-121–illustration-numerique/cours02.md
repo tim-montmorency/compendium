@@ -22,7 +22,7 @@
    * Importer des images 
       * [Importer les images du web et recadrer](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW-j3aga9SFBiAtC8gBjViUBmZ2HR9NZiCIdAyUKekTCsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M0ZDtZ)  
 
-      [🛠️ 00_Recadrer](./exercice/04_importer_recadrer.md){ .md-button }   <br>
+[🛠️ 00_Recadrer](./exercice/04_importer_recadrer.md){ .md-button }   <br>
    
    
    * 05_Enregistrer des images
