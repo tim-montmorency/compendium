@@ -5,6 +5,18 @@
 
 ## Photoshop
 
+### Notions  
+<ul><li>
+<a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=rZfdd6">Nomenclature: (V)</a>
+    <ul>
+         <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaZRkD8yyZxKjHLwzrjosvcBiqekxjsvFSqdn1JwwkwSrA?e=JxSc1w">Isoler un calque</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERskOIzx8thBu_Z6Tom8z9EBd4UsYweOJA5eEjBLhsZ-8g?e=qdnQ6D">Sélection groupe</a></li>
+        <li><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYw6eGTqZcZIkydVYmrKIQcBihC_ALXe1E0nPVuDnDN5fg?e=2peWP9">Raccourci</a></li>
+    </ul>
+</li>
+<li>
+
+
 ##Notions  
 * [Nomenclature:](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=rZfdd6) téléchargez la nomenclature 
 * Démarrage Photoshop 
