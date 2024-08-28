@@ -159,7 +159,7 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
   **Arborescence Exercice #1**<br>
   _Créer l'arborescence suivante._<br>
-  [Exercice 1](https://google.ca)
+  [Exercice 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
 </div>
 
 <div class="grid grid-auto" markdown>
@@ -171,6 +171,6 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
   **Arborescence Exercice #2**<br>
   _Créer l'arborescence du site web MAC Montréal._<br>
-  [Exercice 2](https://google.ca)
+  [Exercice 2](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_02.html)
 </div>
 
