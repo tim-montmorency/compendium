@@ -12,7 +12,7 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 ## Étapes
 
-- [ ] Sauvegardez l'image en GIF (Option + Maj + Ctrl + S) sur le bureau
+- [ ] Sauvegardez l'image en GIF (Option + Maj + Ctrl + S) sur le bureau avec le nom "vecteur_rompre.gif"
 
 
 ***  
