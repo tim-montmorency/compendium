@@ -1,4 +1,4 @@
-Le but de cet exercice est d'utiliser une typographie
+Le but de cet exercice est d'utiliser formater du texte grâce à une typographie
 ***  
 
 ## Matériel
