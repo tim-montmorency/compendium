@@ -1,7 +1,7 @@
 # Cours 2
 
 ## Explication du projet 1
-* [📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
+  [📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
 
 ## Photoshop
 
@@ -36,18 +36,18 @@
 
 * Ne pas utiliser les outils de tranche 🔪   <br>
 
-[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button }   <br>  
+  [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button }   <br>  
 
-[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button }   <br>   
+  [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button }   <br>   
 
-[🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_Recadrer_et_désinscliner.md){ .md-button }   <br>    
+  [🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_Recadrer_et_désinscliner.md){ .md-button }   <br>    
 
-[🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }   <br>
+  [🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }   <br>
 
-[🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_Recadrer_avec_la_perspective.md){ .md-button }   <br>    
+  [🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_Recadrer_avec_la_perspective.md){ .md-button }   <br>    
 
 
-[🛠️ 07_Recadrer avec l'outil image](./exercices_photoshop/07_Recadrer_avec_l'outil_image.md){ .md-button }   <br>    
+  [🛠️ 07_Recadrer avec l'outil image](./exercices_photoshop/07_Recadrer_avec_l'outil_image.md){ .md-button }   <br>    
 
 
 ### Notions
@@ -61,8 +61,8 @@
   * [Awwward free font](https://www.awwwards.com/awwwards/collections/free-fonts/)  
   
 
-[🛠️ 15_Installer une typographie](./exercices_photoshop/15_Installer_une_typographie.md){ .md-button }   <br>    
-[🛠️ 15_Installer une typographie Adobe](./exercices_photoshop/15_Installer_une_typographie_Adobe.md){ .md-button }   <br>  
+  [🛠️ 15_Installer une typographie](./exercices_photoshop/15_Installer_une_typographie.md){ .md-button }   <br>    
+  [🛠️ 15_Installer une typographie Adobe](./exercices_photoshop/15_Installer_une_typographie_Adobe.md){ .md-button }   <br>  
 
 ### Notions
 * Travailler avec la grille et les règles
@@ -71,8 +71,8 @@
 
 ## Travail en classe
 
-[📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
+  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
 
 ## Devoir
 
-[📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
+  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
