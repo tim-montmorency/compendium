@@ -17,9 +17,9 @@
 ### Notions  
 * [Enregistrer des images](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUHqTCjYyMVCkeIahHqiHHQBQ07BrCDjnLlFiHMkZadSIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bqiSFG)  /  [Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EcWfT_2It2ZHnBGBeZDYkaYBvRr-Ckm7Zr9Qjbb1hKPWZw?e=dn5k2t)  <br>
   
-[🛠️ 05_Enregistrer un PSD.md](./exercices_photoshop/05_enregistrer_psd.md){ .md-button }   <br>   
-[🛠️ 05_Enregistrer un JPG.md](./exercices_photoshop/05_enregistrer_jpg.md){ .md-button }   <br>   
-[🛠️ 05_Enregistrer un GIF.md](./exercices_photoshop/05_enregistrer_gif.md){ .md-button }   <br>  
+[🛠️ 05_Enregistrer un PSD.md](./exercices_photoshop/05_Enregistrer_un_psd.md){ .md-button }   <br>   
+[🛠️ 05_Enregistrer un JPG.md](./exercices_photoshop/05_Enregistrer_un_jpg.md){ .md-button }   <br>   
+[🛠️ 05_Enregistrer un GIF.md](./exercices_photoshop/05_Enregistrer_un_gif.md){ .md-button }   <br>  
 
 ### Notions  
 
@@ -33,15 +33,18 @@
 
 * Ne pas utiliser les outils de tranche 🔪   <br>
 
-[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_recadrer_une_petite_image.md){ .md-button }   <br>  
+[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button }   <br>  
 
-[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_recadrer_une_grande_image.md){ .md-button }   <br>   
+[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button }   <br>   
 
-[🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_recadrer_et_désinscliner.md){ .md-button }   <br>    
+[🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_Recadrer_et_désinscliner.md){ .md-button }   <br>    
 
-[🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }   <br>
+[🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }   <br>
 
-[🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_recadrer_avec_la_perspective.md){ .md-button }   <br>    
+[🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_Recadrer_avec_la_perspective.md){ .md-button }   <br>    
+
+
+[🛠️ 07_Recadrer avec l'outil image](./exercices_photoshop/07_Recadrer_avec_l'outil_image.md){ .md-button }   <br>    
 
 
 ### Notions
@@ -55,7 +58,7 @@
   * [Awwward free font](https://www.awwwards.com/awwwards/collections/free-fonts/)  
   
 
-[🛠️ 15_Installer une typographie](./exercices_photoshop/15_installer_typographie.md){ .md-button }   <br>    
+[🛠️ 15_Installer une typographie](./exercices_photoshop/15_Installer_une_typographie.md){ .md-button }   <br>    
 
 
 ### Notions
