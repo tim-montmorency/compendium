@@ -3,7 +3,7 @@ Le but de cet exercice est d'installer une typographie d'Abode
 
 ## Matériel
 Pour installer une typographie Adobe, vous devez avoir un compte payant. Rendez-vous sur le site web suivant.   <br>
-[🌐 Adobe Creative Cloud]([https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=veL2bB](https://fonts.adobe.com/)){ .md-button }   <br>
+[🌐 Adobe Creative Cloud](https://fonts.adobe.com/){ .md-button }   <br>
 
 
 
