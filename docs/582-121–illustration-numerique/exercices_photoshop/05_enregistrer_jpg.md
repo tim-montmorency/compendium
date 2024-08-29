@@ -3,7 +3,7 @@ Le but de cet exercice est de sauvegarder une image en JPG:
 ***  
 
 ## Matériel
-Ouvrez le fichier Photoshop créé dans l'exercice précédent. 
+Ouvrez le PSD (antony_cantin.psd) créé dans l'exercice précédent. 
 [📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/05_enregistrer_psd.html){ .md-button }   <br>
 
 ## Étapes
