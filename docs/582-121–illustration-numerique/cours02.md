@@ -35,7 +35,7 @@
 
 [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_recadrer_une_petite_image.md){ .md-button }   <br>  
 
-[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_recadrer_une grande_image.md){ .md-button }   <br>   
+[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_recadrer_une_grande_image.md){ .md-button }   <br>   
 
 [🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_recadrer_et_désinscliner.md){ .md-button }   <br>    
 
