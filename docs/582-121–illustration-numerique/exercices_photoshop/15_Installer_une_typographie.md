@@ -17,6 +17,7 @@ Téléchargez le dossier de police "unique":
 - [ ] Installer les polices
 - [ ] Retourner dans Photoshop
 - [ ] Trouver la police
+Assurez-vous de toujours avoir les typographies téléchargeables avec vous dans votre disque dur. Vous devrez les réinstaller si vous changez d'ordinateur.
       
       
 
