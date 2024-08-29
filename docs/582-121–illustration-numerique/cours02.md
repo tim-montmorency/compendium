@@ -33,15 +33,15 @@
 
 * Ne pas utiliser les outils de tranche 🔪   <br>
 
-[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_importer_recadrer_petite_image.md){ .md-button }   <br>  
+[🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_recadrer_une_petite_image.md){ .md-button }   <br>  
 
-[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_importer_recadrer_grande_image.md){ .md-button }   <br>   
+[🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_recadrer_une grande_image.md){ .md-button }   <br>   
 
-[🛠️ 07_Recadrer et désincliner avec contenu](./exercices_photoshop/07_recadrer_desinscliner_contenu.md){ .md-button }   <br>    
+[🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_recadrer_et_désinscliner.md){ .md-button }   <br>    
 
-[🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_echelle_base_sur_le_contenu.md){ .md-button }   <br>
+[🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }   <br>
 
-[🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_recadrer_perspective.md){ .md-button }   <br>    
+[🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_recadrer_avec_la_perspective.md){ .md-button }   <br>    
 
 
 ### Notions
