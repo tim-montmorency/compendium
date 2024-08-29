@@ -11,10 +11,10 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 - [ ] Sélectionner avec shift et clic tous les calques du corps de la petite fille. 
-- [ ] Activer la transformation avec les touches ctrl t
-- [ ] Agrandir la petite fille en appuyant sur shift
+- [ ] Activer la transformation avec les touches Ctrl + t
+- [ ] Agrandir la petite fille en appuyant sur Shift
 - [ ] Sélection le mot "allo"
-- [ ] Activer la transformation avec les touches ctrl t
+- [ ] Activer la transformation avec les touches Ctrl + t
 - [ ] Faire une rotation du mot "allo". 
 
 À noter: pour faire une transformation d'un calque vous pouvez aussi aller dans le menu édition. Pour faire une rotation de toute l'image aller dans menu image. 
