@@ -68,13 +68,14 @@
   [🛠️ 15_Formater du texte sur un path](./exercices_photoshop/15_Formater_du_texte_sur_un_path.md){ .md-button }  <br>    
   <br>  
 ### Notions
-* Travailler avec la grille et les règles
-* Travailler avec les alignements
+
  
 
 ## Travail en classe
 
   [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
+  * Travailler avec la grille et les règles
+  * Travailler avec les alignements
 
 ## Devoir
 
