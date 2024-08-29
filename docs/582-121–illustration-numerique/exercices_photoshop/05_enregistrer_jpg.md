@@ -8,7 +8,7 @@ Ouvrez le PSD (antony_cantin.psd) créé dans l'exercice précédent.
 
 ## Étapes
 
-- [ ] Sauvegardez l'image en JPG (Maj + Ctrl + S) sur le bureau sous le nom "antony_cantin_02"
+- [ ] Sauvegardez l'image en JPG (Maj + Ctrl + S) sur le bureau sous le nom "antony_cantin_02.jpg"
 - [ ] Qu'arrive-t-il aux calques de l'image ?
 
 
