@@ -1,16 +1,15 @@
 Le but de cet exercice est de sauvegarder une image en JPG:   
-<img src="images/anthony_cantin.jpg">
+
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier Photoshop suivant:   
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/anthony_cantin.jpg){ .md-button }   <br>
+Ouvrez le fichier Photoshop créé dans l'exercice précédent. 
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/05_enregistrer_psd.html){ .md-button }   <br>
+
 ## Étapes
 
-- [ ] Créez deux nouveaux calques
-- [ ] Sur le premier calque, avec l'outil pinceau (b), écrivez le mot "safari" et renommer le calque "safari"
-- [ ] Sur le deuxième calque, avec l'outil pinceau (b), écrivez le mot "solitaire"  et renommer le calque "solitaire"
-- [ ] Sauvegardez l'image en JPG (Maj + Ctrl + S) sur le bureau
+- [ ] Sauvegardez l'image en JPG (Maj + Ctrl + S) sur le bureau sous le nom "antony_cantin_02"
+- [ ] Qu'arrive-t-il aux calques de l'image ?
 
 
 ***  
