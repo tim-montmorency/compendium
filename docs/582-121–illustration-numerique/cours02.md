@@ -1,7 +1,7 @@
 # Cours 2
 
 ## Explication du projet 1
-[📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
+* [📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
 
 ## Photoshop
 
