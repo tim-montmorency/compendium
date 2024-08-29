@@ -9,13 +9,13 @@ Pour installer une typographie Adobe, vous devez avoir un compte payant. Rendez-
 
 ## Étapes
 
-- [ ] Choisir la police Plakato
+- [ ] Choisir la police "Plakato"
 - [ ] Cliquer sur "ajouter la famille"
 - [ ] Une fois la famille activée retournez dans Photoshop. 
 - [ ] Dans Photoshop créer un document en 1920 X 1080 en format vidéo
 - [ ] Avec l'outil de texte (t) écrivez le mot BOOM en majuscules
 - [ ] Voici les caratéristiques que doit avoir la typographie :
-  - [ ] Typographie : Plakato pro
+  - [ ] Typographie : "Plakato pro"
   - [ ] Taille : 400 pt
   - [ ] Couleur : #ea0052
   - [ ] Tracking : 300
