@@ -1,4 +1,4 @@
-Le but de cet exercice est de changer le format d'une image:   
+dLe but de cet exercice est de changer le format d'une image:   
 <img src="images/illus-lotus.jpg">
 ***  
 
