@@ -17,8 +17,7 @@ Téléchargez le dossier de police "unique":
   - [ ] Couleur : #ffba36
   - [ ] Tracking : 80
 - [ ] Assurez-vous de ne pas écrire dans le safe title
-- [ ] Assurez-vous de toujours avoir les typographies avec vous dans votre disque dur. Vous devrez les réinstaller si vous changez d'ordinateur. 
-      
+
       
 
 
