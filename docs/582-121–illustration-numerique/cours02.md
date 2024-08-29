@@ -63,7 +63,7 @@
 
   [🛠️ 15_Installer une typographie](./exercices_photoshop/15_Installer_une_typographie.md){ .md-button }   <br>    
   [🛠️ 15_Installer une typographie Adobe](./exercices_photoshop/15_Installer_une_typographie_Adobe.md){ .md-button }   <br>  
-
+  [🛠️ 15_Formater du texte avec une typographie](./exercices_photoshop/15_Formater_du_texte_avec_une_typographie.md){ .md-button }   <br>  
 ### Notions
 * Travailler avec la grille et les règles
 * Travailler avec les alignements
