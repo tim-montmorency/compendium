@@ -50,10 +50,13 @@
   [🛠️ 07_Recadrer avec l'outil image](./exercices_photoshop/07_Recadrer_avec_l'outil_image.md){ .md-button }   <br>    
 
 
+
+
+
 ### Notions
 * Théorie typographie
   * [🎥 Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)
-  * [![image](https://github.com/user-attachments/assets/153c7ce2-be4a-4326-998f-1d9a79667c24)
+  * [![image](https://github.com/user-attachments/assets/5a54d735-88a2-40e0-ae2e-f4a6393dcdf9)
 Les bases de la typographie](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
   * [🎥 Installer une typographie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY9E_od0N_RAkXPuA25134QB1Md_l5bCWuzIIHh7N-I7fw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gXAay8)
   * [🎥 Formater du texte avec une typographie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcDOsZrLm2RLs9sElLYQaGkBTOMTfZS7uAs0s5ofUORH0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c0BSza)
