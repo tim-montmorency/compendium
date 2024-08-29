@@ -15,6 +15,8 @@ Téléchargez le dossier de police "unique":
 - [ ] Rechercher les polices avec des extensions .ttf ou .oft
 - [ ] Clic droit les polices
 - [ ] Installer les polices
+- [ ] Retourner dans Photoshop
+- [ ] Trouver la police
       
       
 
