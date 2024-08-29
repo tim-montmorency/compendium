@@ -9,7 +9,7 @@ Téléchargez le dossier de police "unique":
 
 ## Étapes
 
-- [ ] Dans Photoshop créer un document en 1920 X 1080 en format vidéo
+- [ ] Dans Photoshop, créer un document en 1920 X 1080 en format vidéo
 - [ ] Avec l'outil de texte (t) écrivez le mot DÉSERT en majuscules
 - [ ] Voici les caratéristiques que doit avoir la typographie :
   - [ ] Typographie : "Unique", bold
