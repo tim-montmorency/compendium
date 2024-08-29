@@ -13,7 +13,7 @@ Avant de commencer, assurez-vous d'être connecté à votre compte Vuforia sur l
 [📁 Vuforia Engine Developer Portal]( https://developer.vuforia.com/vui/auth/login){ .md-button }    
 
 - [ ] Une fois connecté, assurez-vous d'être dans l'onglet develop du menu gris, puis allez dans l'onglet Target Manager du menu vert.
-- [ ] Maintenant, cliquez sur Add Database pour créer une base de données.
+- [ ] Maintenant, cliquez sur Generate Database pour créer une base de données.
 - [ ] Donnez un nom à votre base de données et sélectionnez Device puisque l'on souhaite que la base de données se sauvegarde dans l'appareil mobile sur lequel l'expérience fonctionne. De cette façon, le wifi ne sera pas nécessaire pour faire fonctionner votre jeu.
 - [ ] Appuyez sur Create.
 - [ ] Vous pouvez maintenant cliquer sur le nom de votre base de données pour l'ouvrir.
