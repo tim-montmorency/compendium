@@ -17,15 +17,16 @@
 - <a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew">Nomenclature des calques</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWhHJDR4d8dLqQk6Ydf5JwIByxBq09dSlQE-TyI3ey6nsQ?e=aE9ct2">Effet isométrique</a> 
     
-    Précisions: 
-        - Police: Filson bold
-        - Rotation 3d - Isométrique haut
-        - Distorsion et transformation: Transformation de l'image avec 15 copies et un décalage vertical de 16 pixels.
+ - Précisions: 
+  - Police: Filson bold
+  - Rotation 3d - Isométrique haut
+  - Distorsion et transformation: Transformation de l'image avec 15 copies et un décalage vertical de 16 pixels.
     
-    - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu">Fenêtre aspect pour modifier les effets</a>
-    - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY">Vectorisation (cactus)</a>
+- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu">Fenêtre aspect pour modifier les effets</a>
+- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY">Vectorisation (cactus)</a>
  
 [💼 travail1](exercice_ai/travail1.md){ .md-button }          
+
       
 # After Effects   
 !!! warning "Attention"
@@ -35,7 +36,8 @@
 
     TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
 
-### Notions
+
+### Préparer illustrator pour After Effects
 Préparation des fichiers Illustrator pour Importation dans After Effects   
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt">Séparer les éléments animables en calques</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay">Nommer les calques Illustrator avant l'importation</a>
@@ -47,7 +49,7 @@ Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien
 Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses calques:   
 [📁 Monstre](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EWi1_GaSvppBiCzFhWwRJ0oBXEHKaL-Eeuk9GKV11NlO1Q?e=hftzg5){ .md-button }       
       
-### Notions
+### L'interface
 
 - Création d'un projet
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcMGT9eItHpIrAroQIcSz3cBdRNQ7siTwaSilei1uwz6gg?e=25YsK4">Panneaux principaux et paramètres de composition</a>
@@ -66,7 +68,7 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 [🛠️ 04_Importation](exercices_ae/00_Importation.md){ .md-button }       
 
       
-### Notions
+### Navigation et images clés
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebwcl7LCRlRKiL7GZ1TAP9gB3LT88_R0WBzXY6ml32ESTw?e=26w8t5">Navigation</a>
 - <a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EuxCIZHPf3dBuAk_nP5l7UwB1S4ff0POT6PLr9e4287F1Q?e=XkndTq">Timeline</a>
