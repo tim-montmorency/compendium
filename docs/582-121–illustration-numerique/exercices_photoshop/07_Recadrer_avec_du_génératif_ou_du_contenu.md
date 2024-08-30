@@ -10,11 +10,12 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Choisir l'outil crop (c)
-- [ ] Dans le panneau d'option, choisir l X H X Résolution. 1920 px X 1080 px X 72 dpi
-- [ ] Sélectionner une zone plus grande de l'image
-- [ ] Dans le panneau d'option, aller dans l'option de "fond", choisir "remplissage d'après le contenu" ou "développement génératif"
-- [ ] Sélectionner terminer
+- [ ] Choisissez l'outil de recadrage (C).
+- [ ] Dans le panneau d'options, sélectionnez "L × H × Résolution" et définissez les dimensions à 1920 px de large, 1080 px de haut, et une résolution de 72 dpi.
+- [ ] Sélectionnez une zone plus grande que l'image originale à l'aide de l'outil de recadrage.
+- [ ] Dans le panneau d'options, allez dans l'option "Contenu" et choisissez soit "Remplissage d'après le contenu" soit "Développement génératif" pour remplir les zones supplémentaires.
+- [ ] cliquer sur "terminer" pour finaliser le recadrage. 
+
 
 
 ***  
