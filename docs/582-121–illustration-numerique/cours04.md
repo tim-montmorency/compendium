@@ -15,7 +15,7 @@
 * [▶️ Masque d'écrétage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdXyaO31Gt5LmwGv2pYw8BcBsBqHgLyBFupN7IFpgkAAIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tfl3b8)  <br>
 
   [🛠️ 08_Outil de sélection circulaire](./exercices_photoshop/08_Outil_de_sélection_circulaire){ .md-button }  <br>    
-  [🛠️ 08_Outil de sélection d'objet](./exercices_photoshop/08_Sélectionner_sujet)et_améliorer_le_contour.md){ .md-button }  <br>  
+  [🛠️ 08_Outil de sélection d'objet](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>  
   [🛠️ 08_Outil de sélection d'objet](./exercices_photoshop/08_Outil_de_sélection_d'objet.md){ .md-button }  <br>  
 
   
