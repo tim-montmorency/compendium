@@ -1,5 +1,5 @@
 # After Effects   
-### Notions:
+### Parents/enfants
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EY-8k89r4P1NgcdK18MCTGsBAhEwbQXREf3mEv0L5ASQJA?e=BlSqqP">Objet nul</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQY8fcpmVsVHoDc_hLujmNgBzdWN_q5tzNlgFtG01WO_AA?e=fZc941">Parent/enfant</a>
@@ -7,7 +7,7 @@
 
 [🛠️ 05_objet_nul_parent](exercices_ae/05_objet_nul_parent.md){ .md-button }   <br>   
       
-### Marionnette:
+### Marionnette
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcxU1YfNI-5Jv3W-kbM47yUBnsNBxFYjq4uvBbY3ihaGLg?e=Ixxm8J">Marionnette</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbwIa3V4m5dEpattp9VY7AABBGizbCeEnxvn8iBYMNXc6g?e=V4oxdw">Coin</a>
@@ -18,7 +18,7 @@
 [🛠️ 06_meduse](exercices_ae/06_meduse.md){ .md-button }   <br>   
 [🛠️ 06_homme](exercices_ae/06_homme.md){ .md-button }   <br>   
       
-### Expressions:
+### Expressions
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERfo6EK5c0FHhW9JricGkIQBFeFnX6_-npLcTO8uqqJ4_w?e=eVerR2">La base</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=wLXP8A">Loop Out</a>
@@ -28,7 +28,7 @@
 [🛠️ 07_expressions](exercices_ae/07_expressions.md){ .md-button }   <br>   
 
       
-### Effets: 
+### Effets
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y">Onde progressive</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=eX4SL2">Bend it</a>
