@@ -7,6 +7,6 @@
 
 ## 🚨 Remise finale du travail 2     
 
-## Présentation des projets finaux au grand studio     
+## 🚨 Présentation des projets finaux au grand studio     
 
 
