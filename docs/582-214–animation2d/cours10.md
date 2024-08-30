@@ -1,8 +1,10 @@
-# 🚨 Remise et présentation de la préproduction du travail 2      
+# Cours 10    
 
-# 🚨 Remise de la partie 1 du travail 2 (Illustrations)       
+## 🚨 Remise et présentation de la préproduction du travail 2      
 
-### Présentation de la préproduction du travail 2      
+## 🚨 Remise de la partie 1 du travail 2 (Illustrations)       
+
+## Présentation de la préproduction du travail 2      
 
 [💼 travail2](exercices_ae/travail2.md){ .md-button }   
 
