@@ -11,10 +11,9 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 
 ## Étapes
-Changer la dimension de l'image en 1920px X 1080px en 72dpi
 
-- [ ] Choisir l'outil crop (c)
-- [ ] Changer les dimensions de l'image en 1920px X 1080px en 72dpi
+- [ ] Sélectionnez l'outil de recadrage (c) pour ajuster la taille de l'image.
+- [ ] Modifiez les dimensions de l'image à 1920 pixels de large par 1080 pixels de haut avec une résolution de 72 dpi.
 
 
 ***  
