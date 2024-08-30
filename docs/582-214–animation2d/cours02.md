@@ -1,3 +1,5 @@
+# Cours 2      
+
 ## Retour sur le devoir   
 [🛠️ 04_maison](exercice_ai/04_maison.md){ .md-button }   
     
