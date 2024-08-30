@@ -10,10 +10,10 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Choisir l'outil image (k)
-- [ ] Sélectionner la bouche de la femme du premier calque
-- [ ] Bouger l'image de la femme à l'intérieur du cadre. Cliquer sur l'image de la femme et utiliser l'outil de déplacement (v)
-- [ ] Bouger l'image de la femme dans l'image. Cliquer à l'extérieur de l'image de la femme et utiliser l'outil de déplacement (v)
+- [ ] Choisissez l'outil de sélection d'image (K).
+- [ ] Sélectionnez la bouche de la femme sur le premier calque.
+- [ ] Pour déplacer l'image de la femme à l'intérieur du cadre, cliquez sur l'image de la femme et utilisez l'outil de déplacement (V).
+- [ ] Pour déplacer l'image de la femme dans l'ensemble de la composition, cliquez à l'extérieur de l'image de la femme et utilisez l'outil de déplacement (V).
 
 
 
