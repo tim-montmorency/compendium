@@ -1,4 +1,4 @@
-Le but de cet exercice est de faire une sélection circulaire avec un dégradé. 
+Le but de cet exercice est de faire une sélection d'objet. 
 <img src="images/08_mesange_orange.png">
 ***  
 
@@ -10,8 +10,7 @@ Téléchargez et ouvrez le fichier suivant:
 ## Étapes
 
 - [ ] Cliquez sur l'icône de sélection d'objet (W) dans la barre d'outils.
-- [ ] En haut de l'écran, dans le panneau d'options, définissez la valeur de contour progressif (feather) à 20 px.
-- [ ] Utilisez l'outil de sélection d'objet pour entourer la mésange orange de manière à la sélectionner. 
+- [ ] Utilisez l'outil de sélection d'objet pour entourer la mésange orange de manière à la sélectionner.
 - [ ] Dans le panneau d'option, aller dans sélectionner et masquer. Aller améliorer le contour de la sélection. Lorsque c'est terminé cliquez sur ok. 
 - [ ] Dans le panneau de calques, cliquez sur l'icône de masque de fusion située en bas pour masquer les zones en dehors de la sélection.
 - [ ] Double-cliquez sur le nom du calque pour nommer "oiseau_orange".
@@ -21,7 +20,13 @@ Téléchargez et ouvrez le fichier suivant:
 
 ***  
 ## Tutoriel 📚
-[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERykK6yyvu1Mo-UT8CVtgg0BUTW4K7PYD929XCOrHTaQbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SzYUcZ){ .md-button }   <br>
+[📖 Pour en savoir plus - sélection d'objet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERykK6yyvu1Mo-UT8CVtgg0BUTW4K7PYD929XCOrHTaQbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SzYUcZ){ .md-button }   <br>
+
+[📖 Pour en savoir plus - améliorez le contour](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcTPTAucQzVJiqSlfidXeI4B0ykDSHYiE1bFgZZtL2cTXA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9lnLW5){ .md-button }   <br>
+
+[📖 Pour en savoir plus - améliorez le contour](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXRRqrVopYhPlZTDKnrufKIBITEMur7d0MSw73orq-DKnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AbXGmu){ .md-button }   <br>
+
+[📖 Pour en savoir plus - masque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eeb-ZmD_E4BKmbmU8lwqJAwBIxdy1OwMdEZlxGG_qWk4rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OegB3Y){ .md-button }   <br>
 
 
 
