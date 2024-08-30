@@ -30,5 +30,5 @@
 ## Devoir 
 * Vous m'envoyez par message via Teams : 
   * Votre moodboard Pinterest.
-  * La liste de choses que vous allez tourner.<br>    
+  * La liste de choses que vous allez tourner.<br>     
 Remarque : Tous les membres de votre équipe, Antoine Allard et William Racine doivent être copiés dans le message.
