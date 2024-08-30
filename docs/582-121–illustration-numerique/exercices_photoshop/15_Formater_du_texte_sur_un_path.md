@@ -9,18 +9,16 @@ Téléchargez le dossier de police "unique":
 
 ## Étapes
 
-- [ ] Installer la police 'unique"
-- [ ] Dans Photoshop, créer un document en 1920 X 1080 en format vidéo
-- [ ] Créer un Path avec l'outil plume (p)
-- [ ] Avec l'outil de texte (t) écrivez le mot BOOOM en majuscules
-- [ ] Voici les caratéristiques que doit avoir la typographie :
+- [ ] Installez la police "Unique" sur votre ordinateur.
+- [ ] Dans Photoshop, créez un nouveau document avec les dimensions 1920 x 1080 pixels, en sélectionnant le format vidéo.
+- [ ] Utilisez l'outil Plume (P) pour créer un tracé (Path) sur lequel le texte sera aligné.
+- [ ] Avec l'outil de texte (T), écrivez le mot "BOOOM" en majuscules le long du tracé.
+- [ ] Appliquez les caractéristiques suivantes à la typographie :
   - [ ] Typographie : "Unique", bold
   - [ ] Taille : 200 pt
   - [ ] Couleur : #ea0052
-  - [ ] Tracking : 200
-- [ ] Assurez-vous de ne pas écrire dans le safe title
-
-      
+  - [ ] Espacement des lettres (Tracking) : 200
+- [ ] Assurez-vous que le texte reste à l'intérieur de la zone de sécurité des titres ("safe title") pour garantir une bonne lisibilité dans le format vidéo.
 
 
 ***  
