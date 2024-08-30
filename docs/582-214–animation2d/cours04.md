@@ -1,14 +1,16 @@
 # 🚨 Remise du travail 1 partie 1 avant le cours     
 
-### Correction en groupe de ce travail   
+### Correction en groupe de ce travail      
 
       
-# After Effects   
+# After Effects     
+
 !!! warning "Attention"
 
     TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
 
-### Retour sur les exercices
+### Retour sur les exercices   
+
 [🛠️ 00_plante](exercices_ae/00_plante.md){ .md-button }          
 [🛠️ 00_monstre](exercices_ae/00_monstre.md){ .md-button }          
       
