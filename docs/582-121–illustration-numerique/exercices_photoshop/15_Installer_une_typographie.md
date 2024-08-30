@@ -9,17 +9,14 @@ Téléchargez le dossier de police "unique":
 
 ## Étapes
 
-- [ ] Ouvrir le dossier téléchargé
-- [ ] Téléchargé le dossier de police "Unique"
-- [ ] Ouvrir le dossier téléchargé
-- [ ] Rechercher les polices avec des extensions .ttf ou .oft
+- [ ] Ouvrez le dossier téléchargé.
+- [ ] Recherchez les fichiers de police avec les extensions .ttf ou .oft
 - [ ] Clic droit les polices
-- [ ] Installer les polices
-- [ ] Retourner dans Photoshop
-- [ ] Trouver la police
-Assurez-vous de toujours avoir les typographies téléchargeables avec vous dans votre disque dur. Vous devrez les réinstaller si vous changez d'ordinateur.
-      
-      
+- [ ] Sélectionnez "Installer" pour ajouter les polices à votre système.
+- [ ] Retournez dans Photoshop.
+- [ ] Trouvez et sélectionnez la police "Unique" dans la liste des polices.
+Remarque : Assurez-vous de toujours conserver une copie des polices téléchargées sur votre disque dur. Vous devrez les réinstaller si vous changez d'ordinateur.
+
 
 ***  
 ## Tutoriel 📚
