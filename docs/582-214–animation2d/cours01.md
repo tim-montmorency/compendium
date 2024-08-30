@@ -22,7 +22,7 @@
 [🛠️ 00_nouveau_doc](./exercice_ai/00_nouveau_doc.md){ .md-button }   
       
 
-### Notions
+### Sélection simple
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaM75QxzM9pBg9iYuG01uo8BGFVDSQtsSrFA6fXz2j2Jsw?e=xVHOsn">Sélection (V)</a>
    - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaZRkD8yyZxKjHLwzrjosvcBiqekxjsvFSqdn1JwwkwSrA?e=JxSc1w">Isoler un calque</a>
    - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERskOIzx8thBu_Z6Tom8z9EBd4UsYweOJA5eEjBLhsZ-8g?e=qdnQ6D">Sélection groupe</a>
@@ -36,7 +36,7 @@
 
 [🛠️ 00_transformations](./exercice_ai/00_transformations.md){ .md-button }   
       
-### Notions
+### Sélection complexe et outil plume
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaDI5ZSDJzhEnBU3VXJ1zt8B47tGZ8ZoJeTMfisebov2BQ?e=328kHA">Baguette magique</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeMB16q9Y2ZFiWqmSSqHNegBE6-OskRpaw1nPyw1g-vFtw?e=lTym2X">Lasso</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EadRHPzIucxFlI28D5gO0RgBIs3IZJ5KfBvqZThd9ODvNQ?e=8N6CPd">Importation d'images</a>
@@ -50,7 +50,7 @@
 [🛠️ 01_voiture](./exercice_ai/01_voiture.md){ .md-button }   
       
 
-### Notions
+### Largeur et déformation
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie">Largeur (Shift + w)</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O">Déformation</a>
@@ -61,7 +61,7 @@
 
 [🛠️ 02_deformation](./exercice_ai/02_deformation.md){ .md-button }   
       
-### Notions
+### Formes
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Rectangle (M)</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Cercle</a>
@@ -76,7 +76,7 @@
 
 [🛠️ 03_formes](./exercice_ai/03_formes.md){ .md-button }   
       
-### Notions
+### Ciseaux et sauvegarde
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a>
