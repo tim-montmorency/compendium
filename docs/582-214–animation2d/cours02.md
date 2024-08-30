@@ -33,7 +33,8 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYJAvExXxTZMtSkvOcHpmY4BFB9vIRqNkXUIPnRLT8MG1w?e=d9i3S6">Cutter</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVYeu9N1iG9MrndylAX0FCEBYlPJXMPRPQ5BPm0N4Jf6rw?e=uX8L5i">Vectoriser les contours</a>
    
-[🛠️ 06_papillon](exercice_ai/06_papillon.md){ .md-button }    
+[🛠️ 06_papillon](exercice_ai/06_papillon.md){ .md-button }      
+
 [🛠️ 06_pinceau](exercice_ai/06_pinceau.md){ .md-button }    
       
 ### Couleurs
@@ -79,7 +80,8 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXK9TJqqjEFFn0Wc9ZgFZhIBGhOdfNSoxoXmJRJtQPJJkA?e=q9rtSz">Masque, Transparence</a>
    
 
-[🛠️ 10_masques](exercice_ai/10_masques.md){ .md-button }    
+[🛠️ 10_masques](exercice_ai/10_masques.md){ .md-button }        
+
 [🛠️ 10_transparence](exercice_ai/10_transparence.md){ .md-button }    
 
       
