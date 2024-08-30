@@ -1,6 +1,5 @@
 # 🚨 Remise du travail 1 partie 1 avant le cours     
-
-### Correction en groupe de ce travail      
+Correction en groupe de ce travail      
 
       
 # After Effects     
@@ -11,7 +10,8 @@
 
 ### Retour sur les exercices   
 
-[🛠️ 00_plante](exercices_ae/00_plante.md){ .md-button }          
+[🛠️ 00_plante](exercices_ae/00_plante.md){ .md-button }        
+
 [🛠️ 00_monstre](exercices_ae/00_monstre.md){ .md-button }          
       
 
