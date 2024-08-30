@@ -5,6 +5,8 @@
 
 ## Rencontres individuelles pour le CV
 
+## Temps pour les comités
+
 ## Devoir
 Avancer le cv et la lettre de présentation
 

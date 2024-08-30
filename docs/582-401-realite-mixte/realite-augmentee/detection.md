@@ -13,14 +13,14 @@ Avant de commencer, assurez-vous d'être connecté à votre compte Vuforia sur l
 [📁 Vuforia Engine Developer Portal]( https://developer.vuforia.com/vui/auth/login){ .md-button }    
 
 - [ ] Une fois connecté, assurez-vous d'être dans l'onglet develop du menu gris, puis allez dans l'onglet Target Manager du menu vert.
-- [ ] Maintenant, cliquez sur Add Database pour créer une base de données.
+- [ ] Maintenant, cliquez sur Generate Database pour créer une base de données.
 - [ ] Donnez un nom à votre base de données et sélectionnez Device puisque l'on souhaite que la base de données se sauvegarde dans l'appareil mobile sur lequel l'expérience fonctionne. De cette façon, le wifi ne sera pas nécessaire pour faire fonctionner votre jeu.
-- [ ] Appuyez sur Create.
+- [ ] Appuyez sur Generate.
 - [ ] Vous pouvez maintenant cliquer sur le nom de votre base de données pour l'ouvrir.
 - [ ] Pour ajouter une image, appuyez sur Add Target.
-- [ ] Conservez le type Image pour votre iamge, on pourrait aussi détecter des objets 3D ou plusieurs images, mais ces fonctionnalités sont payantes.
-- [ ] Appuyez sur Browse dans la catégorie File pour télécharger l'image que vous souhaitez détecter. Idéalement, nous utiliserons des .jpg pour que notre jeu soit le plus léger possible.
+- [ ] Appuyez sur Choisir un fichier dans la catégorie Target Image File pour télécharger l'image que vous souhaitez détecter. Idéalement, nous utiliserons des .jpg carrés pour que notre jeu soit le plus léger possible.
 - [ ] Ensuite, donnez la largeur de votre image en mètres. Je vous recommande d'avoir la même largeur pour toutes vos images. Par exemple, utilisez 0.5 partout.
+- [ ] Ne modifiez pas la section Metadata Package. 
 - [ ] Dans la catégorie Name, vous pouvez garder le nom de votre image ou le modifier au besoin.
 - [ ] Appuyez sur Add.
 - [ ] Procédez de la même façon pour ajouter toutes vos images. Vous pourrez revenir en ajouter plus tard au besoin.

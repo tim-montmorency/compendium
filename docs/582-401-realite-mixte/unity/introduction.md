@@ -9,7 +9,7 @@ Pour créer un nouveau projet dans Unity, on doit passer par le Unity Hub. Une f
 Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:      
 
 - [ ] Vérifier la version de l'éditeur. En haut de la fenêtre, vous avez une liste déroulante nommée Editor Version. Assurez-vous de prendre la version 2022.3.2f1.
-- [ ] Ensuite, vous devez spécifier à Unity quel type de projet vous souhaitez créer. Pour l'instant, nous créerons des projets 2D Core alors appuyez sur ce choix.
+- [ ] Ensuite, vous devez spécifier à Unity quel type de projet vous souhaitez créer. Pour l'instant, nous créerons des projets 2D Built-in Render Pipeline alors appuyez sur ce choix.
 - [ ] Ensuite, à droite vous devez entrer le nom de votre projet et spécifier à quel endroit le sauvegarder.
 - [ ] Une fois que c'est fait appuyez sur Create project.
 
