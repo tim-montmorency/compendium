@@ -1,8 +1,10 @@
-# 🚨 Remise du travail 1 partie 1 avant le cours     
+# Cours 4    
+
+## 🚨 Remise du travail 1 partie 1 avant le cours     
 Correction en groupe de ce travail      
 
       
-# After Effects     
+## After Effects     
 
 !!! warning "Attention"
 
