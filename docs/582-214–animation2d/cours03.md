@@ -50,7 +50,8 @@ Préparation des fichiers Illustrator pour Importation dans After Effects
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt">Séparer les éléments animables en calques</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay">Nommer les calques Illustrator avant l'importation</a>
 
-### Exercice
+Exercice:     
+
 Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien nommés.   
 [🛠️ 04_devoir_1](exercice_ai/04_devoir_1.md){ .md-button }       
     
