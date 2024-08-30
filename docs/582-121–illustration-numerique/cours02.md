@@ -28,7 +28,6 @@
   [🛠️ 05_Enregistrer un GIF.md](./exercices_photoshop/05_Enregistrer_un_gif.md){ .md-button }  <br>    
 
 ### Notions  
-
 * [▶️ Importer les images du web et recadrer](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW-j3aga9SFBiAtC8gBjViUBmZ2HR9NZiCIdAyUKekTCsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M0ZDtZ)  <br>
 * [▶️ Recadrer et désincliner](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ee3Gmwbq6xFCjD5qV47wwKYBtD_Fjw86v87ejTjPlIOnXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gafjhl)   <br>
 * [▶️ Recadrer avec du génératif ou du contenu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbnE68gSWHpBnmw4AvG4CTUB__EffVCs-eea_Ui6xUEorw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=07tIXr)  <br> 
@@ -61,7 +60,7 @@
 
 ## Travail en classe
   [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
-  * Travailler avec la grille et les règles
+  * Travailler avec la grille et les règles<br>
   * Travailler avec les alignements
 
 ## Devoir
