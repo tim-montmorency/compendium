@@ -8,7 +8,7 @@ tags:
 
 ## Présentations
 
-![](./assets/presentations.png)
+![](./assets/images/presentations.png)
 
 ## Annonce
 

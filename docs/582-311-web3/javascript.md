@@ -1,6 +1,6 @@
 # Révision JavaScript
 
-![](./assets/javascript_banner.png)
+![](./assets/images/javascript_banner.png)
 
 ## Pourquoi JavaScript ?
 

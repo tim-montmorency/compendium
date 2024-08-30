@@ -1,6 +1,6 @@
 # Bootstrap
 
-![](./assets/bootstrap_banner.png)
+![](./assets/images/bootstrap_banner.png)
 
 Bootstrap est un cadriciel (*framework*) front-end qui offre une structure de styles et de mise en page permettant aux développeurs de ne pas réinventer la roue à chaque projet. Il fournit une [collection de composantes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) (*components*) ainsi que plusieurs classes CSS facilitant la création de sites Web réactifs (*responsive*).
 
@@ -14,7 +14,7 @@ Pour [installer Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/dow
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 ```
 
-!!! question "integrity & crossorigin 🤔" 
+!!! question "integrity & crossorigin 🤔"
     L’attribut `integrity` est utilisé pour des raisons de sécurité. C'est le hash (sommes de contrôle cryptographiques) du fichier original.
     L’attribut, `crossorigin` pour sa part, indique que la requête à cdn.jsdelivr.net doit être faite sans envoyer de témoins (cookies), identifiants ou autres informations de l’utilisateur.
 
@@ -39,9 +39,9 @@ Voici un aperçu du HTML de départ.
 
 ## Couleurs
 
-Les [couleurs bootstrap](https://getbootstrap.com/docs/5.3/customize/color/) sont représentées par des identifiants auxquels sont assignées des couleurs prédéfinies. 
+Les [couleurs bootstrap](https://getbootstrap.com/docs/5.3/customize/color/) sont représentées par des identifiants auxquels sont assignées des couleurs prédéfinies.
 
-Voici la liste des identifiants associés à leur couleur respective. 
+Voici la liste des identifiants associés à leur couleur respective.
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Couleur - Primary" src="https://codepen.io/tim-momo/embed/poXJXaO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/poXJXaO">
@@ -72,11 +72,11 @@ Par exemple, si on souhaite changer la couleur associée à `Primary`, on peut t
 
 Pour connaitre le nom des variables Bootstrap, il suffit de consulter la [documentation officielle](https://getbootstrap.com/docs/5.3/customize/css-variables/) ou encore, consulter l'inspecteur du navigateur.
 
-![](./assets/bootstrap_inspector.png)
+![](./assets/images/bootstrap_inspector.png)
 
 ### Classes
 
-Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi. 
+Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi.
 
 Par exemple, pour appliquer différents styles associés à la couleurs `Danger`, voici quelques classes CSS disponibles.
 
@@ -84,11 +84,11 @@ Par exemple, pour appliquer différents styles associés à la couleurs `Danger`
 .text-danger
 .bg-danger
 .border-danger
-.btn-danger         
+.btn-danger
 .btn-outline-danger
 .alert-danger
 .badge-danger
-.table-danger 
+.table-danger
 .link-danger
 ```
 
@@ -101,12 +101,12 @@ Dans l'exemple ci-dessous, on voit l'effet des classes CSS Bootstrap sur du code
 </iframe>
 
 !!! example "Exercice rapide"
-    Change le nom des classes CSS avec différents identifiants Bootstrap. 
+    Change le nom des classes CSS avec différents identifiants Bootstrap.
     Par exemple, remplace les mentions `danger` par `primary` ou `warning` et observe le résultat.
 
 ### Mode sombre (darkmode)
 
-![Mode sombre](./assets/darkmode.png)
+![Mode sombre](./assets/images/darkmode.png)
 
 Pour activer le mode sombre, il suffit d’ajouter l'attribut `data-bs-theme="dark"` à l'élément `<html>` ou `<body>` de votre page :
 
@@ -137,11 +137,11 @@ toggleButton.addEventListener('click', () => {
 
 ### Point de rupture
 
-![](./assets/Breakpoints_91f297d81dfe896f.gif){.invert} [^breakpoint]
+![](./assets/images/Breakpoints_91f297d81dfe896f.gif){.invert} [^breakpoint]
 
 [^breakpoint]: Illustration breakpoint : https://webandcrafts.com/blog/beginners-guide-to-responsive-web-design
 
-Un [breakpoint](https://blog.froont.com/9-basic-principles-of-responsive-web-design/) est une condition où la mise en page du site Web change pour s’adapter à différentes tailles d’écran. Voici un exemple traditionnel de gestion de breakpoint : 
+Un [breakpoint](https://blog.froont.com/9-basic-principles-of-responsive-web-design/) est une condition où la mise en page du site Web change pour s’adapter à différentes tailles d’écran. Voici un exemple traditionnel de gestion de breakpoint :
 
 !!! info "Responsively App Downloads"
     [Responsively App Downloads](https://responsively.app/download) est un outil intéressant pour visionner en un coup d'oeil le site sur plusiers appareils.
@@ -165,7 +165,7 @@ En Bootstrap, plusieurs points de rupture (breakpoints) sont prédéfinis. Porte
 |-------------------|-------------------|------------|-----------------------------------|
 | Extra petit       | `xs`              | `<576px`   | `@media (max-width: 575.98px) {}` |
 | Petit             | `sm`              | `≥576px`   | `@media (min-width: 576px) {}`    |
-| Moyen             | `md`              | `≥768px`   | `@media (min-width: 768px) {}`    | 
+| Moyen             | `md`              | `≥768px`   | `@media (min-width: 768px) {}`    |
 | Large             | `lg`              | `≥992px`   | `@media (min-width: 992px) {}`    |
 | Extra large       | `xl`              | `≥1200px`  | `@media (min-width: 1200px) {}`   |
 | Extra extra large | `xxl`             | `≥1400px`  | `@media (min-width: 1400px) {}`   |
@@ -221,7 +221,7 @@ Bootstrap vient avec un système de grille à 12 colonnes. Il nous permet d'ajou
 </div>
 ```
 
-Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe CSS `.col` et lui spécifier une proportion sur 12 colonnes. Voici un exemple : 
+Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe CSS `.col` et lui spécifier une proportion sur 12 colonnes. Voici un exemple :
 
 <iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Grille CSS" src="https://codepen.io/tim-momo/embed/wvLKwWv?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/wvLKwWv">
@@ -274,7 +274,7 @@ Les classes CSS sont construites de la façon suivante : `{propriété}{côté}-
     ---
 
     `t` = top<br>
-    `b` = bottom<br> 
+    `b` = bottom<br>
     `s` = left (start)<br>
     `e` = right (end)<br>
     `x` = l'axe des x<br>
@@ -387,7 +387,7 @@ align-items
 
 Nécessite javascript bootstrap d'ajouté dans la page.
 
-Classe .alert-dismissible et 
+Classe .alert-dismissible et
 `<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>`
 
 <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Alert" src="https://codepen.io/tim-momo/embed/GRbpgjQ?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
