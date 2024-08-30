@@ -10936,7 +10936,7 @@
 
 
 <div><h1 id="bootstrap">Bootstrap<a class="headerlink" href="#bootstrap" title="Permanent link">¶</a></h1>
-<p><img alt="" src="assets/bootstrap_banner.png"></p>
+<p><img alt="" src="assets/images/bootstrap_banner.png"></p>
 <p>Bootstrap est un cadriciel (<em>framework</em>) front-end qui offre une structure de styles et de mise en page permettant aux développeurs de ne pas réinventer la roue à chaque projet. Il fournit une <a href="https://getbootstrap.com/docs/5.3/examples/cheatsheet/">collection de composantes</a> (<em>components</em>) ainsi que plusieurs classes CSS facilitant la création de sites Web réactifs (<em>responsive</em>).</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
 <p>Pour <a href="https://getbootstrap.com/docs/5.3/getting-started/download">installer Bootstrap</a>, vous n'avez qu'à inclure ces balises dans votre HTML.</p>
@@ -10966,8 +10966,8 @@ L’attribut, <code>crossorigin</code> pour sa part, indique que la requête à 
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></div>
 <h2 id="couleurs">Couleurs<a class="headerlink" href="#couleurs" title="Permanent link">¶</a></h2>
-<p>Les <a href="https://getbootstrap.com/docs/5.3/customize/color/">couleurs bootstrap</a> sont représentées par des identifiants auxquels sont assignées des couleurs prédéfinies. </p>
-<p>Voici la liste des identifiants associés à leur couleur respective. </p>
+<p>Les <a href="https://getbootstrap.com/docs/5.3/customize/color/">couleurs bootstrap</a> sont représentées par des identifiants auxquels sont assignées des couleurs prédéfinies.</p>
+<p>Voici la liste des identifiants associés à leur couleur respective.</p>
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Couleur - Primary" src="https://codepen.io/tim-momo/embed/poXJXaO?default-tab=result&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/poXJXaO">
   Couleur - Primary</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -10989,18 +10989,18 @@ L’attribut, <code>crossorigin</code> pour sa part, indique que la requête à 
 </iframe>
 
 <p>Pour connaitre le nom des variables Bootstrap, il suffit de consulter la <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/">documentation officielle</a> ou encore, consulter l'inspecteur du navigateur.</p>
-<p><img alt="" src="assets/bootstrap_inspector.png"></p>
+<p><img alt="" src="assets/images/bootstrap_inspector.png"></p>
 <h3 id="classes">Classes<a class="headerlink" href="#classes" title="Permanent link">¶</a></h3>
-<p>Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi. </p>
+<p>Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi.</p>
 <p>Par exemple, pour appliquer différents styles associés à la couleurs <code>Danger</code>, voici quelques classes CSS disponibles.</p>
 <div class="highlight"><pre><span></span><code><span class="p">.</span><span class="nc">text-danger</span>
 <span class="p">.</span><span class="nc">bg-danger</span>
 <span class="p">.</span><span class="nc">border-danger</span>
-<span class="p">.</span><span class="nc">btn-danger</span><span class="w">         </span>
+<span class="p">.</span><span class="nc">btn-danger</span>
 <span class="p">.</span><span class="nc">btn-outline-danger</span>
 <span class="p">.</span><span class="nc">alert-danger</span>
 <span class="p">.</span><span class="nc">badge-danger</span>
-<span class="p">.</span><span class="nc">table-danger</span><span class="w"> </span>
+<span class="p">.</span><span class="nc">table-danger</span>
 <span class="p">.</span><span class="nc">link-danger</span>
 </code></pre></div>
 <p>Dans l'exemple ci-dessous, on voit l'effet des classes CSS Bootstrap sur du code HTML.</p>
@@ -11012,11 +11012,11 @@ L’attribut, <code>crossorigin</code> pour sa part, indique que la requête à 
 
 <div class="admonition example">
 <p class="admonition-title">Exercice rapide</p>
-<p>Change le nom des classes CSS avec différents identifiants Bootstrap. 
+<p>Change le nom des classes CSS avec différents identifiants Bootstrap.
 Par exemple, remplace les mentions <code>danger</code> par <code>primary</code> ou <code>warning</code> et observe le résultat.</p>
 </div>
 <h3 id="mode-sombre-darkmode">Mode sombre (darkmode)<a class="headerlink" href="#mode-sombre-darkmode" title="Permanent link">¶</a></h3>
-<p><img alt="Mode sombre" src="assets/darkmode.png"></p>
+<p><img alt="Mode sombre" src="assets/images/darkmode.png"></p>
 <p>Pour activer le mode sombre, il suffit d’ajouter l'attribut <code>data-bs-theme="dark"</code> à l'élément <code>&lt;html&gt;</code> ou <code>&lt;body&gt;</code> de votre page :</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">html</span> <span class="na">data-bs-theme</span><span class="o">=</span><span class="s">"dark"</span><span class="p">&gt;</span>
 </code></pre></div>
@@ -11036,8 +11036,8 @@ Par exemple, remplace les mentions <code>danger</code> par <code>primary</code> 
 </code></pre></div>
 <h2 id="mise-en-page">Mise en page<a class="headerlink" href="#mise-en-page" title="Permanent link">¶</a></h2>
 <h3 id="point-de-rupture">Point de rupture<a class="headerlink" href="#point-de-rupture" title="Permanent link">¶</a></h3>
-<p><img alt="" class="invert" src="assets/Breakpoints_91f297d81dfe896f.gif"> <sup id="fnref:breakpoint"><a class="footnote-ref" href="#fn:breakpoint">1</a></sup></p>
-<p>Un <a href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">breakpoint</a> est une condition où la mise en page du site Web change pour s’adapter à différentes tailles d’écran. Voici un exemple traditionnel de gestion de breakpoint : </p>
+<p><img alt="" class="invert" src="assets/images/Breakpoints_91f297d81dfe896f.gif"> <sup id="fnref:breakpoint"><a class="footnote-ref" href="#fn:breakpoint">1</a></sup></p>
+<p>Un <a href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">breakpoint</a> est une condition où la mise en page du site Web change pour s’adapter à différentes tailles d’écran. Voici un exemple traditionnel de gestion de breakpoint :</p>
 <div class="admonition info">
 <p class="admonition-title">Responsively App Downloads</p>
 <p><a href="https://responsively.app/download">Responsively App Downloads</a> est un outil intéressant pour visionner en un coup d'oeil le site sur plusiers appareils.</p>
@@ -11202,7 +11202,7 @@ Par exemple, remplace les mentions <code>danger</code> par <code>primary</code> 
   <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </code></pre></div>
-<p>Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe CSS <code>.col</code> et lui spécifier une proportion sur 12 colonnes. Voici un exemple : </p>
+<p>Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe CSS <code>.col</code> et lui spécifier une proportion sur 12 colonnes. Voici un exemple :</p>
 <iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Grille CSS" src="https://codepen.io/tim-momo/embed/wvLKwWv?default-tab=result&amp;editable=true&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/wvLKwWv">
   Grille CSS</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -11240,7 +11240,7 @@ Par exemple, remplace les mentions <code>danger</code> par <code>primary</code> 
 <ul>
 <li><strong>Côté</strong><hr>
 <p><code>t</code> = top<br>
-  <code>b</code> = bottom<br> 
+  <code>b</code> = bottom<br>
   <code>s</code> = left (start)<br>
   <code>e</code> = right (end)<br>
   <code>x</code> = l'axe des x<br>
@@ -11378,7 +11378,7 @@ align-items</p>
 </code></pre></div>
 <h3 id="alerte"><a href="https://getbootstrap.com/docs/5.3/components/alerts/">Alerte</a><a class="headerlink" href="#alerte" title="Permanent link">¶</a></h3>
 <p>Nécessite javascript bootstrap d'ajouté dans la page.</p>
-<p>Classe .alert-dismissible et 
+<p>Classe .alert-dismissible et
 <code>&lt;button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"&gt;&lt;/button&gt;</code></p>
 <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Alert" src="https://codepen.io/tim-momo/embed/GRbpgjQ?default-tab=html%2Cresult&amp;editable=true&amp;theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/GRbpgjQ">
