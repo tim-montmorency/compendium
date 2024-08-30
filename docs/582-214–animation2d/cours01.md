@@ -87,7 +87,7 @@
 
       
 
-### Devoir
+## Devoir
 [🛠️ 04_maison](./exercice_ai/04_maison.md){ .md-button }    
 
 [🛠️ 04_formes_simples](./exercice_ai/04_formes_simples.md){ .md-button }   
