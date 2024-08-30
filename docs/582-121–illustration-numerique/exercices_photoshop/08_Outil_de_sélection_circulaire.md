@@ -9,7 +9,7 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Sélectionnez l'outil de sélection elliptique (M). Assurez-vous de sélectionner l'outil de sélection elliptique dans la barre d'outils (touche raccourci : M).
+- [ ] Cliquez sur l'icône de sélection (M) dans la barre d'outils, puis maintenez le clic pour accéder à l'outil de sélection elliptique (si l'outil de sélection rectangulaire est visible par défaut). Sélectionnez l'outil elliptique dans le menu déroulant.
 - [ ] En haut de l'écran, dans le panneau d'options, définissez la valeur de contour progressif (feather) à 20 px.
 - [ ] Utilisez l'outil de sélection elliptique pour entourer la mésange orange de manière à la sélectionner.
 - [ ] Dans le panneau de calques, cliquez sur l'icône de masque de fusion située en bas pour masquer les zones en dehors de la sélection.
