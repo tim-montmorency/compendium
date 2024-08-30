@@ -9,7 +9,7 @@
 * [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EW-KVl3hVv9OsRRmgxnJorYBlF64OwfAGxVT9Laz_Ym-Cg?e=90ICic)
 
 
-# Locaux
+## Locaux
 
 * Bureaux du personnel 
 
