@@ -54,10 +54,12 @@ Correction en groupe de ce travail
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYyhwkByNIdBlxmqi1SU_WwBWgllOZVpAFtPxtrccaIGsg?e=h92keV">Masque</a>
    
 
-[🛠️ 04_cinema](exercices_ae/04_cinema.md){ .md-button }          
+[🛠️ 04_cinema](exercices_ae/04_cinema.md){ .md-button }       
+
 [🛠️ 04_masque](exercices_ae/04_masque.md){ .md-button }          
       
 ### Devoir
 Faire les exercices suivants en devoir:   
-[🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }          
+[🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }       
+
 [🛠️ devoir_c4](exercices_ae/devoir_c4.md){ .md-button }       
