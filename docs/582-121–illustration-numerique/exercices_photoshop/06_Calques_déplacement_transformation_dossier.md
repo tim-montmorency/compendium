@@ -1,4 +1,4 @@
-Le but de déplacer, transformer des calques afin d'obtenir l'image ci-dessous. 
+Le but de cet exercice est de déplacer et transformer les calques de manière à reproduire fidèlement l'image de référence donnée. 
 <img src="images/vecteur_rompre.png">
 ***  
 
