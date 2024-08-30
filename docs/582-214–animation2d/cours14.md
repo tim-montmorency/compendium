@@ -1,5 +1,10 @@
 # Cours 14     
 
+!!! info "Information"
+
+    Cours conjoint avec vidéo
+
+
 ## 🚨 Remise et évaluation des génériques du travail 2     
 - Évaluation des génériques
 - Choix du générique final de chaque équipe
@@ -10,8 +15,4 @@
 
 Si vous n'avez pas le cours de vidéo, fiez-vous aux consignes suivantes: 
 [💼 travail2_solo](exercices_ae/travail2_solo.md){ .md-button }      
-
-!!! info "Information"
-
-    Cours conjoint avec vidéo
 
