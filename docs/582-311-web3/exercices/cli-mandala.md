@@ -20,6 +20,6 @@ Outre l'ouverture du terminal, toutes les instructions doivent être accomplies 
 - [ ] Entrer dans le dossier « Mandala » avec la commande cd
 - [ ] Créer deux fichiers nommés index.html, style.css
 - [ ] Affichez la liste des documents dans le dossier en cours
-- [ ] Dans index.html, écrire le html requis pour charger le fichier style.css : `<link rel='stylesheet' type='text/css' href='styles.css'>`
+- [ ] Dans index.html, écrire le html requis pour charger le fichier style.css : `<link rel='stylesheet' type='text/css' href='style.css'>`
 - [ ] Dans style.css, écrire le css nécessaire pour rendre le background-color en noir. Si vous êtes curieux, vous pouvez ouvrir index.html dans le navigateur pour voir le résultat!
 - [ ] Supprimez le dossier « Mandala »
