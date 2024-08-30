@@ -21,4 +21,4 @@
 * [Exercices vidéo ](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EU6f2e3ScKBOg3Nekice69EB0a_KK-Ix4qf0iRW7HZ5eNg?e=8YQcoi)
 
 
-## Section rangement (15 minutes)
+## Rangement de l'équipement (15 minutes)
