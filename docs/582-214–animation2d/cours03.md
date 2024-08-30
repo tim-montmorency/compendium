@@ -27,7 +27,8 @@
  
 [💼 travail1](exercice_ai/travail1.md){ .md-button }          
 
-      
+
+         
 # After Effects   
 !!! warning "Attention"
 
