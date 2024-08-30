@@ -9,12 +9,12 @@ Pour installer une typographie Adobe, vous devez avoir un compte payant. Rendez-
 
 ## Étapes
 
-- [ ] Choisir la police "Plakato"
-- [ ] Cliquer sur "ajouter la famille"
-- [ ] Une fois la famille activée retournez dans Photoshop.
-- [ ] Trouver la typographie 
+- [ ] Choisissez la police "Plakato".
+- [ ] Cliquez sur "Ajouter la famille" pour installer toutes les variantes de cette police.
+- [ ] Une fois la famille de polices activée, retournez dans Photoshop.
+- [ ] Recherchez et sélectionnez la police "Plakato" dans la liste des typographies disponibles.
 
-      
+
 
 ***  
 ## Tutoriel 📚
