@@ -9,15 +9,15 @@ Téléchargez le dossier de police "unique":
 
 ## Étapes
 
-- [ ] Installer la police 'unique"
-- [ ] Dans Photoshop, créer un document en 1920 X 1080 en format vidéo
-- [ ] Avec l'outil de texte (t) écrivez le mot DÉSERT en majuscules
-- [ ] Voici les caratéristiques que doit avoir la typographie :
+- [ ] Installez la police "Unique" sur votre ordinateur.
+- [ ] Dans Photoshop, créez un nouveau document avec les dimensions 1920 x 1080 pixels, en sélectionnant le format vidéo.
+- [ ] Avec l'outil de texte (T), écrivez le mot "DÉSERT" en majuscules.
+- [ ] Appliquez les caractéristiques suivantes à la typographie :
   - [ ] Typographie : "Unique", bold
   - [ ] Taille : 900 pt
   - [ ] Couleur : #ffba36
-  - [ ] Tracking : 80
-- [ ] Assurez-vous de ne pas écrire dans le safe title
+  - [ ] Espacement des lettres (Tracking) : 80
+- [ ] Assurez-vous que le texte reste à l'intérieur de la zone de sécurité des titres ("safe title") pour garantir une bonne lisibilité dans le format vidéo.
 
       
 
