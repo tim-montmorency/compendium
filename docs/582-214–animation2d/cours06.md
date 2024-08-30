@@ -1,4 +1,6 @@
-# After Effects   
+# Cours 6     
+
+## After Effects   
 ### Audio et exportation
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYbpj09zkD1GhDBl7317eG0BPrqEIQO99a4xpBsyZSaCHw?e=c5fFq5">Niveaux audio</a>
@@ -19,10 +21,10 @@
 [🛠️ 08_effets](exercices_ae/08_effets.md){ .md-button }          
 
       
-### Retour sur les exercices suivants:
+## Retour sur les exercices suivants:
 [🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }          
 [🛠️ devoir_c4](exercices_ae/devoir_c4.md){ .md-button }       
 
       
-### Continuer le travail 1 partie 2
+## Continuer le travail 1 partie 2
 [💼 travail1](exercices_ae/travail1.md){ .md-button }          
