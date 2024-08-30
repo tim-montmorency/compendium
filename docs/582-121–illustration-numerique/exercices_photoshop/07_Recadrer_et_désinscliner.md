@@ -11,11 +11,11 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 ## Étapes
 
-- [ ] Choisir l'outil crop (c)
-- [ ] Dans le panneau d'option, sélectionner l'outil de règle pour désincliner
-- [ ] Dans le panneau d'option, aller dans l'option de "fond", choisir "remplissage d'après le contenu"
-- [ ] Sélectionner la queue du requin
-- [ ] Sélectionner terminer
+- [ ] Choisissez l'outil de recadrage (C).
+- [ ] Dans le panneau d'option, sélectionnez l'outil de règle pour désincliner
+- [ ] Dans le panneau d'options, allez dans l'option "Fond" et choisissez "Remplissage d'après le contenu" pour remplir les zones vides après redressement.
+- [ ] Sélectionnez la queue du requin dans l'image pour l'inclure dans la zone de recadrage.
+- [ ] Sélectionnez terminer
 
 
 ***  
