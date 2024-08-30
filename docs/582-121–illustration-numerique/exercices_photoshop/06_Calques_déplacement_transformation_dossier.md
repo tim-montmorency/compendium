@@ -12,14 +12,12 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Identifiez et donnez un nom à tous les calques qui n'ont pas encore été nommés.
+- [ ] Identifiez tous les calques sans nom et attribuez-leur un nom approprié.
 - [ ] Réorganisez les calques pour qu'ils soient dans l'ordre approprié.
-- [ ] Regroupez toutes les images de la jeune fille dans un nouveau dossier pour mieux organiser votre projet.
+- [ ] Créez un nouveau dossier et déplacez-y toutes les images de la jeune fille pour organiser votre projet de manière plus structurée.
 
-- [ ] Utilisez l'outil de déplacement (v) pour repositionner correctement les images dans la composition.
-- [ ] Ajustez la taille ou la rotation des images en utilisant l'outil de transformation pour les placer dans la bonne position.
-
-
+- [ ] Utilisez l'outil de déplacement (V) pour repositionner correctement les images dans la composition.
+- [ ] Ajustez la taille ou la rotation des images à l'aide de l'outil de transformation (Ctrl + T) pour les placer correctement dans la composition.
 
 
 ***  
