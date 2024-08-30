@@ -12,7 +12,6 @@
     * [ ] Ligne brisée
     * [ ] Fluide
     * [ ] Vent
-    * [ ]
   * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
   * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
 
