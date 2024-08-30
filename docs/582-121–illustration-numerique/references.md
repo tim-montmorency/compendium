@@ -8,6 +8,40 @@
 
 * [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EW-KVl3hVv9OsRRmgxnJorYBlF64OwfAGxVT9Laz_Ym-Cg?e=90ICic)
 
+
+# Locaux
+
+* Bureaux du personnel 
+
+  * C1649 et C1651 - Professeurs 
+
+  * C1647 - Professeurs et TTP 
+
+* Locaux informatiques 
+
+  * B1387 - Pc 01 
+
+  * C1639 - Pc 02 
+
+  * C1577 - Pc03 
+
+  * C1586 - Cubicule Pc 
+
+  * C1588 et C1590 - Cubicules Mac 
+
+  * C1602 et C1606 - Centre d'aide et salle de rencontre 
+
+* Studios et magasin : 
+
+  * C1706 - Magasin de matériel (emprunts) 
+
+  * C1710 - Petit studio 
+
+  * C1712 - Grand studio 
+
+  * C1708 - Matrice 
+
+
 ## Tutorat
 
 * [Horaire](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/)
