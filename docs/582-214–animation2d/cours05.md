@@ -17,7 +17,8 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXojd77PpYRGocpyKz4ac9MBWROuC2PqKW0SyqbcQ9k4yg?e=JIvfX6">Mouvement continu</a>
 
 
-[🛠️ 06_meduse](exercices_ae/06_meduse.md){ .md-button }      
+[🛠️ 06_meduse](exercices_ae/06_meduse.md){ .md-button }        
+
 [🛠️ 06_homme](exercices_ae/06_homme.md){ .md-button }      
       
 ### Expressions
@@ -26,7 +27,8 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=wLXP8A">Loop Out</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXPup2WiGjlNqT7tguOtZwsBMcTmzJwpHC-sFfDGUw2dcg?e=RD7Zs5">Wiggle</a>
 
-[🛠️ 07_loopOut](exercices_ae/07_loopOut.md){ .md-button }      
+[🛠️ 07_loopOut](exercices_ae/07_loopOut.md){ .md-button }       
+
 [🛠️ 07_expressions](exercices_ae/07_expressions.md){ .md-button }      
 
       
@@ -35,7 +37,8 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y">Onde progressive</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=eX4SL2">Bend it</a>
 
-[🛠️ 08_ondeProgressive](exercices_ae/08_ondeProgressive.md){ .md-button }      
+[🛠️ 08_ondeProgressive](exercices_ae/08_ondeProgressive.md){ .md-button }       
+
 [🛠️ 08_bendIt](exercices_ae/08_bendIt.md){ .md-button }      
       
 
