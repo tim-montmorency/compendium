@@ -60,7 +60,7 @@ Correction en groupe de ce travail
 
 [🛠️ 04_masque](exercices_ae/04_masque.md){ .md-button }          
       
-### Devoir
+## Devoir
 Faire les exercices suivants en devoir:   
 [🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }       
 
