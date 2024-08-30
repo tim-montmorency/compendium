@@ -1,5 +1,8 @@
-# Illustrator   
-### Notions
+# Cours 3     
+
+## Illustrator     
+
+### Typographie   
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EY32kr9fiIBKk6377mmLce4B0_gSdA9FPrqZuup9MkJIAw?e=1TF1SI">Typographie (T)</a>
@@ -9,6 +12,7 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbU9cAE0CrRLiPjL2sq9X_wBrzs3ey_2mCmVN8gjAmmGXQ?e=UtW8iM">Texte captif vertical</a>
  
 [🛠️ 11_mise_page](exercice_ai/11_mise_page.md){ .md-button }          
+
 [🛠️ 11_typographie](exercice_ai/11_typographie.md){ .md-button }          
       
 ### Précisions sur le travail 1
@@ -25,11 +29,12 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu">Fenêtre aspect pour modifier les effets</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY">Vectorisation (cactus)</a>
  
-[💼 travail1](exercice_ai/travail1.md){ .md-button }          
+[💼 travail1](exercice_ai/travail1.md){ .md-button }           
 
 
          
-# After Effects   
+## After Effects      
+
 !!! warning "Attention"
 
     TOUJOURS TRAVAILLER SUR LA PARTITION MAC DE VOTRE SSD pour éviter la perte de votre projet ou sa corruption.
@@ -38,8 +43,10 @@
     TOUJOURS TRAVAILLER SUR LA MÊME VERSION AFTER EFFECTS À LA MAISON ET À L'ÉCOLE.
 
 
-### Préparer illustrator pour After Effects
+### Préparer illustrator pour After Effects   
+
 Préparation des fichiers Illustrator pour Importation dans After Effects   
+
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt">Séparer les éléments animables en calques</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay">Nommer les calques Illustrator avant l'importation</a>
 
