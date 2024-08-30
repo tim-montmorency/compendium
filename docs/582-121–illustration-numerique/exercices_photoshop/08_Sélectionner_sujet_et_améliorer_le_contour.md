@@ -11,8 +11,7 @@ Téléchargez et ouvrez le fichier suivant:
 
 - [ ] Cliquez sur l'icône de sélection d'objet (W) dans la barre d'outils.
 - [ ] Dans le panneau d'option, cliquez sur sélectionner un sujet.
-- [ ] Dans le panneau d'option, cliquez sur améliorer le contour.
-- [ ]  
+- [ ]  Dans le panneau d'option, aller dans sélectionner et masquer. Aller améliorer le contour de la sélection. Lorsque c'est terminé cliquez sur ok.
 - [ ] Double-cliquez sur le nom du calque pour nommer "oiseau_orange".
 - [ ] Créez un calque de fond uni avec la couleur #ff7758. Allez dans le menu Calque > Nouveau calque de remplissage > Couleur unie, puis entrez le code couleur #ffed94.
 - [ ] Double-cliquez sur le nom du calque pour nommer "#ff7758".
