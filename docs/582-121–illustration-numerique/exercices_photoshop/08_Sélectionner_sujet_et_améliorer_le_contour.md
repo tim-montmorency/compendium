@@ -10,11 +10,11 @@ Téléchargez et ouvrez le fichier suivant:
 ## Étapes
 
 - [ ] Cliquez sur l'icône de sélection d'objet (W) dans la barre d'outils.
-- [ ] En haut de l'écran, dans le panneau d'options, cliquez sur le bouton Sélectionner un sujet pour permettre à Photoshop de détecter et sélectionner automatiquement le sujet principal de l'image.
+- [ ] En haut de l'écran, dans le panneau d'options, cliquez sur le bouton "Sélectionner un sujet" pour permettre à Photoshop de détecter et sélectionner automatiquement le sujet principal de l'image.
 - [ ]  Cliquez sur Sélectionner et masquer dans le panneau d'options pour affiner la sélection.
 - [ ]  Dans l'espace de travail Sélectionner et masquer, utilisez les outils disponibles pour améliorer les contours de la sélection selon vos besoins. Une fois satisfait, cliquez sur OK pour appliquer les modifications.
 - [ ]   Dans le panneau de calques, cliquez sur l'icône de masque de fusion en bas pour masquer les zones extérieures à la sélection.
-- [ ]  Double-cliquez sur le nom du calque actuel et renommez-le femme pour une meilleure identification.
+- [ ]  Double-cliquez sur le nom du calque actuel et renommez-le "femme" pour une meilleure identification.
 
 
 
