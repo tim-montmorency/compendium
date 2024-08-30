@@ -21,8 +21,9 @@
 [🛠️ 08_effets](exercices_ae/08_effets.md){ .md-button }          
 
       
-## Retour sur les exercices suivants:
-[🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }          
+## Retour sur les exercices
+[🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }       
+
 [🛠️ devoir_c4](exercices_ae/devoir_c4.md){ .md-button }       
 
       
