@@ -9,7 +9,7 @@
       
 
 # Illustrator   
-### Notions
+### Exportation et crayon
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERSReehDFyBBhkRuuu-IZuAB3g1PvdYW3C3dVaeMAA4rwQ?e=DAE16t">Exportation</a>
@@ -21,7 +21,7 @@
 [🛠️ 05_crayon_shaper](exercice_ai/05_crayon_shaper.md){ .md-button }    
 
       
-### Notions
+### Pinceau, découpe et vectorisation
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeAcTCH7CUZKk6CTkwhG8-8B371RWYGBXqiUseW9LAPJlw?e=jmHAt8">Pinceau (B)</a>
@@ -33,7 +33,7 @@
 [🛠️ 06_papillon](exercice_ai/06_papillon.md){ .md-button }    
 [🛠️ 06_pinceau](exercice_ai/06_pinceau.md){ .md-button }    
       
-### Notions
+### Couleurs
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ea783BGLQzRBgjwFvcAyOJwBYcbMshlxCp12LoJcARYxSw?e=oQGVWK">Palettes de couleur</a>
@@ -46,7 +46,7 @@
 
 [🛠️ 07_nuancier](exercice_ai/07_nuancier.md){ .md-button }    
       
-### Notions
+### Transformations et marionnette
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdBWqucj7k9Dh5_jn3fYoCMB0_qZHEyl9ACh9kt5m8bF2w?e=NMhSBa">Rotation (R)</a>
@@ -59,7 +59,7 @@
 
 [🛠️ 08_marionnette](exercice_ai/08_marionnette.md){ .md-button }    
       
-### Notions
+### Alignement
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZj0BIRpahBOhBFsRbp5bhsB3Tqi7PdKLrqhN1uFF16M0Q?e=OTxr5u">Pathfinder</a>
@@ -69,7 +69,7 @@
 
 [🛠️ 09_pathfinder](exercice_ai/09_pathfinder.md){ .md-button }    
       
-### Notions
+### Masques
 
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeeL6EuK-iBFpZI-Jt3RcBgBxRHPRwgJkhDs-hjFkU0hKA?e=AQ2U2G">Écrêtage</a>
