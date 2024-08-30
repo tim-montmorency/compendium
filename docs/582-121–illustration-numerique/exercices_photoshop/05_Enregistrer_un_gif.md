@@ -8,12 +8,9 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 [📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/vecteur_rompre.psd
 ){ .md-button }   <br>
 
-
-
 ## Étapes
 
 - [ ] Sauvegardez l'image au format GIF (Alt + Maj + Ctrl + S) sur le bureau avec le nom "vecteur_rompre.gif".
-
 
 ***  
 ## Tutoriel 📚
