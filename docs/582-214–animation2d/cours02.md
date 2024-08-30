@@ -85,5 +85,5 @@
 [🛠️ 10_transparence](exercice_ai/10_transparence.md){ .md-button }    
 
       
-### Explication travail 1
+## Explication travail 1
 [💼 travail1](exercice_ai/travail1.md){ .md-button }       
