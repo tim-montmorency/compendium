@@ -10,11 +10,9 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Choisir l'outil crop (c), appuyer longtemps pour sélectionner outil de correction de perspective par recadrage
-- [ ] Sélectionner l'intérieur du cadre pour le recadrer. 
-- [ ] Sélectionner une zone plus grande de l'image
-- [ ] Dans le panneau d'option, aller dans l'option de "fond", choisir "remplissage d'après le contenu" ou "développement génératif"
-- [ ] Sélectionner terminer
+- [ ] Choisissez l'outil de recadrage (C). Maintenez le clic sur l'outil pour accéder à l'outil de correction de perspective par recadrage.
+- [ ] Sélectionnez l'intérieur du cadre pour ajuster la perspective et recadrer l'image.
+- [ ] Recadrez 
 
 
 ***  
