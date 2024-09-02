@@ -1,6 +1,6 @@
 
-Le but de cet exercice est de faire une sélection d'objet. 
-<img src="images/08_mesange_orange.png">
+Le but de cet exercice est d'appliquer un effet sur un calque uniquement grâce à un masque d'écrétage
+<img src="images/08_masque_d'ecretage_final.png">
 ***  
 
 ## Matériel
