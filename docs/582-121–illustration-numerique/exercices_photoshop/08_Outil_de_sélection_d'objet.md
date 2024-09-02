@@ -5,7 +5,7 @@ Le but de cet exercice est de faire une sélection d'objet.
 ## Matériel
 Téléchargez et ouvrez le fichier suivant:   
 
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/mesange.jpg){ .md-button }   <br>
+[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/08_mesange.jpg){ .md-button }   <br>
 
 ## Étapes
 
