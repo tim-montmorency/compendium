@@ -17,7 +17,7 @@
   [🛠️ 08_Outil de sélection circulaire](./exercices_photoshop/08_Outil_de_sélection_circulaire){ .md-button }  <br>    
   [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>  
   [🛠️ 08_Outil de sélection d'objet](./exercices_photoshop/08_Outil_de_sélection_d'objet.md){ .md-button }  <br>  
-
+  [🛠️ 08_Masque d'écrétage](./exercices_photoshop/08_Masque_d'écrétage.md){ .md-button }  <br>  
   
 ## Devoir
   [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
