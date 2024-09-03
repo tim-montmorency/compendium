@@ -43,7 +43,7 @@
 * **Projet 1**
   * [ ] Choisir votre [courant artistique]((https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)) pour votre autoportrait. Il est possible que votre courant artisque ne soit pas répertorié dans le Powerpoint. 
   * [ ] Notez le nom des artistes qui ont réalisé les illustrations et notez le courant artistique auquel appartiennent ces artistes.
-  * [ ] Créer un moodboard dans [Pinterest](https://www.pinterest.com/) l'autoportrait (matriciel).
-  * [ ] Choisir l'effet pour votre signature.
-  * [ ] Créer un moodboard dans [Pinterest](https://www.pinterest.com/) pour la signature (vectoriel).
+  * [ ] Créez un moodboard dans [Pinterest](https://www.pinterest.com/) l'autoportrait (matriciel).
+  * [ ] Choisissez l'effet pour votre signature.
+  * [ ] Créez un moodboard dans [Pinterest](https://www.pinterest.com/) pour la signature (vectoriel).
 
