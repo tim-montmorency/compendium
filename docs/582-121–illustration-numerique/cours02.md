@@ -56,9 +56,9 @@
 
 
 ## Travail en classe
-  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
+  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
   * Travailler avec la grille et les règles<br>
   * Travailler avec les alignements
 
 ## Devoir
-  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
+  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
