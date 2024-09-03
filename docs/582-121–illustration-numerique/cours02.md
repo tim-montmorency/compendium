@@ -59,3 +59,9 @@
 
 ## Devoir
   [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
+  Deux moodboards
+Choisir votre courant artistique pour votre signature et votre autoportrait 
+Faites une recherche dans Pinterest  pour trouver vos inspirations pour la signature et l'autoportrait.
+Notez le nom des artistes qui ont réalisé les illustrations.
+Notez le courant artistique auquel appartiennent ces artistes.
+Téléchargez vos images d'inspirations avec un format minimal de 1920 X 1080.
