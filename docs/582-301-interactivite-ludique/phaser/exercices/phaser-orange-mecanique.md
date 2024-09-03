@@ -16,25 +16,6 @@ Le positionnement exact des éléments graphiques n'est pas requis, mais le visa
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Code de départ
-
-```js
-class OrangeMecanique extends Phaser.Scene {
-  create() {
-    // ...
-  }
-}
-
-const config = {
-  type: Phaser.AUTO,
-  width: 800,
-  height: 400,
-  scene: OrangeMecanique
-};
-
-const game = new Phaser.Game(config);
-```
-
 ## Consignes
 
 - [ ] En CSS, changer la couleur de fond du site en orange (`#e18437`)
