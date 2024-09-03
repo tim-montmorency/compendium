@@ -401,4 +401,4 @@ Voici un [exemple complet](./assets/documents/gdd-perihelie.pdf) d'un document d
 
 ---
 
-Si on a l'temps :octicons-arrow-right-16: [Introduction Phaser](./phaser-intro.md)
+Si on a l'temps :octicons-arrow-right-16: [Introduction Phaser](./phaser/phaser-intro.md)

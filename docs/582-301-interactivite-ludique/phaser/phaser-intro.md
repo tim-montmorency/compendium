@@ -2,7 +2,7 @@
 
 # Phaser
 
-![phaser](./assets/images/phaser.png)
+![phaser](../assets/images/phaser.png)
 
 [Phaser](https://phaser.io/) est un cadriciel open-source destiné au développement de jeux en 2D, principalement pour les navigateurs web. Il est écrit en JavaScript et utilise [WebGL](https://get.webgl.org/) ou [canvas](https://www.w3schools.com/html/html5_canvas.asp) pour le rendu graphique. Il fournit des fonctionnalités pour la gestion des **scènes**, de **physique**, d'**animations**, des **contrôles**, et plus encore.
 
@@ -103,6 +103,8 @@ Pour connaître la compatibilité WebGL. [CanIUse WebGL ?](https://caniuse.com/?
 
 ### Structure de fichiers
 
+Le libellé des fichiers et des dossiers doivent être **courts**, en **minuscule** et **sans espace**.
+
 ```markdown
 jeu
 │
@@ -193,7 +195,7 @@ class Homepage extends Phaser.Scene {
 
     preload() {}
 
-    function create() {
+    create() {
       this.add.text(20, 20, 'Salut !');
     }
 
@@ -217,11 +219,9 @@ Ajoutez-y le code suivant.
 }
 ```
 
-<!-- ## Exercice
-
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/phaser-preview.png)
+  ![](../assets/images/phaser-preview.png)
 
   <small>Exercice - Phaser</small><br>
-  **[Installation de base pour le PS](exercices/phaser-intro.md){.stretched-link}**
-</div> -->
+  **[Installation de base](exercices/phaser-intro.md){.stretched-link}**
+</div>

@@ -48,7 +48,7 @@ Pour animer un élément de jeu, on peut utiliser le système d'interpolation de
 
 De manière générale, une animation interpolée représente simplement une transformation géométrique 📐.
 
-Pour créer une nouvelle animation (Tween), on doit écrire la commande `this.tweens.add({});`. Cela indique à la scène Phaser qu'une animation doit être déclenchée. Voici la syntaxe d'un exemple très minimal, sans spécification sur l'animation : 
+Pour créer une nouvelle animation (Tween), on doit écrire la commande `this.tweens.add({});`. Cela indique à la scène Phaser qu'une animation doit être déclenchée. Voici la syntaxe d'un exemple très minimal, sans spécification sur l'animation :
 
 ```js title="Syntaxe"
 this.tweens.add({
@@ -76,7 +76,7 @@ this.tweens.add({
   Translation X</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-`x` : La nouvelle position sur l'axe des X. L'image se déplacera horizontalement jusqu'à cette position.    
+`x` : La nouvelle position sur l'axe des X. L'image se déplacera horizontalement jusqu'à cette position.
 </div>
 
 ---
@@ -186,7 +186,7 @@ this.tweens.add({
 
 ```js
 this.tweens.add({
-  targets: belleLune,    
+  targets: belleLune,
   x: 700,
   duration: 5000,
   repeat: -1,
@@ -207,11 +207,11 @@ this.tweens.add({
 ```js
 this.tweens.add({
   targets: sprite,
-  x: 0,         
-  y: 0,         
-  alpha: 1.0,     
-  scale: 1,       
-  angle: 0,     
+  x: 0,
+  y: 0,
+  alpha: 1.0,
+  scale: 1,
+  angle: 0,
   rotation: 0,
   duration: 0,      // Durée en millisecondes
   ease: 'Linear',   // Fonction d'accélération
@@ -221,23 +221,23 @@ this.tweens.add({
   hold: 0,          // Temps de pause entre yoyo
   repeatDelay: 0,   // Délai entre chaque répétition
   paused: false,    // Commencer en pause
-  onStart: function (tween, targets) { 
+  onStart: function (tween, targets) {
     // Fonction exécutée au début de l'animation
     console.log('Animation commencée');
   },
-  onComplete: function (tween, targets) { 
+  onComplete: function (tween, targets) {
     // Fonction exécutée à la fin de l'animation
     console.log('Animation terminée');
   },
-  onYoyo: function (tween, targets) { 
+  onYoyo: function (tween, targets) {
     // Fonction exécutée au moment du yoyo
     console.log('Yoyo');
   },
-  onRepeat: function (tween, targets) { 
+  onRepeat: function (tween, targets) {
     // Fonction exécutée à chaque répétition
     console.log('Répétition');
   },
-  onUpdate: function (tween, targets) { 
+  onUpdate: function (tween, targets) {
     // Fonction exécutée à chaque mise à jour de l'animation
     console.log('Mise à jour');
   }
@@ -322,7 +322,7 @@ Pour définir une nouvelle séquence d'animations, on doit la déclarer dans une
 let timeline = this.add.timeline();
 ```
 
-On y ajoute ensuite des animations avec la structure suivante : 
+On y ajoute ensuite des animations avec la structure suivante :
 
 ```js
 timeline.add({
@@ -372,7 +372,7 @@ class Exemple extends Phaser.Scene {
       // Assets : https://kenney.nl/
       this.load.image('duck', 'assets/images/duck.png');
   }
-    
+
     create() {
         const img = this.add.image(136, 136, 'duck');
         img.x = 100;
@@ -380,7 +380,7 @@ class Exemple extends Phaser.Scene {
         img.alpha = 1;
 
         let timeline = this.add.timeline();
-        
+
         timeline.add({
             at: 0,
             tween: {
@@ -396,7 +396,7 @@ class Exemple extends Phaser.Scene {
             at: 0,
             tween: {
                 targets: img,
-                y: 100, 
+                y: 100,
                 ease: 'Sine.easeIn',
                 duration: 1000
             },
@@ -427,12 +427,12 @@ class Exemple extends Phaser.Scene {
             at: 2000,
             tween: {
                 targets: img,
-                y: 200, 
+                y: 200,
                 ease: 'Sine.easeOut',
                 duration: 1000
             },
         });
-        
+
 
         timeline.play();
 
@@ -458,7 +458,7 @@ class Exemple extends Phaser.Scene {
 
 <div class="grid grid-1-2" markdown>
 
-  ![](assets/TeteNuages.png) 
+  ![](assets/TeteNuages.png)
 
   <small>Exercice - Animation interpolée</small><br>
   **[La tête dans les nuages](exercices/nuages.md){.stretched-link}**
@@ -467,13 +467,9 @@ class Exemple extends Phaser.Scene {
 
 <div class="grid grid-1-2" markdown>
 
-  ![](assets/AmbulanceAmbulante.png) 
+  ![](assets/AmbulanceAmbulante.png)
 
   <small>Exercice - Séquence d'animations</small><br>
   **[L'ambulance ambulante](exercices/ambulance.md){.stretched-link}**
 
 </div>
-
-
-
-

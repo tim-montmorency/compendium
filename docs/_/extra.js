@@ -62,12 +62,17 @@ const addOpenExampleLinks = () => {
 
     iframes.forEach(iframe => {
         const url = new URL(iframe.src);
-        const existingLink = iframe.parentNode.querySelector(".codepen-open");
+        const existingLink = iframe.nextElementSibling && iframe.nextElementSibling.classList.contains("codepen-open");
 
         // Vérifie si le lien existe déjà pour cet iframe
         if (url.searchParams.get("editable") === "true" && url.searchParams.get("theme-id") === "50173" && !existingLink) {
+            // Extrait l'identifiant du Pen de l'URL du iframe
+            const penId = url.pathname.split('/').pop();
+            // Construit l'URL correcte
+            const penUrl = `https://codepen.io${url.pathname.replace('/embed/', '/pen/')}`;
+
             const link = document.createElement("a");
-            link.href = iframe.src;
+            link.href = penUrl;
             link.className = "codepen-open";
             link.textContent = "Ouvrir l’exemple";
             link.target = "_blank";
