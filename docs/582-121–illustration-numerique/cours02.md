@@ -3,6 +3,7 @@
 ## Photoshop
 
 ### Notions
+  [🛠️ Créer un compte Adobe](https://helpx.adobe.com/ca_fr/manage-account/using/create-update-adobe-id.html#email-address){ .md-button }  <br>   
 * [▶️ Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=rZfdd6) <br>
 * [▶️ Partir un projet: resolution / bit / profil / safe title ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXVIr3_1hmJGuKBg15q3YnQByaVHJOQN97epCasGV-Tn0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vqTuvd)  /  [📑 Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EcWfT_2It2ZHnBGBeZDYkaYBvRr-Ckm7Zr9Qjbb1hKPWZw?e=dn5k2t)  <br>
 * [▶️ Modification du nombre de bits et du rvb](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWTmszzhgURGpLkDseroGo8Bw_Ohp9BSfRxiimFAw0jVBg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oTEWGj)  <br>
