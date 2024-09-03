@@ -40,7 +40,6 @@
 
 
 ## Devoir
-  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
   * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
   * [ ] Créer deux moodboards dans [Pinterest](https://www.pinterest.com/) pour la signature (vectoriel) et l'autoportrait (matriciel).
   * [ ] Notez le nom des artistes qui ont réalisé les illustrations.
