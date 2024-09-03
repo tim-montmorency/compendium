@@ -77,6 +77,10 @@ class Intro extends Phaser.Scene {
 }
 ```
 
+## Structure finale
+
+Modele
+
 ## Consignes
 
 - [ ] Créer un nouveau dossier nommé « Modele »
