@@ -29,8 +29,8 @@
 * [▶️ Recadrer avec l'outil image](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZ06CjTduu5CsIMX2EfSKM8BqeXMRjVvM7BbWHB1wXwz3A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=s8vQ9X)  <br>
 * Ne pas utiliser les outils de tranche 🔪   <br>
 
+  [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button }  <br>  
   [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button }  <br>    
-  [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button }  <br>    
   [🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_Recadrer_et_désinscliner.md){ .md-button }  <br>    
   [🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }  <br>    
   [🛠️ 07_Recadrer avec la perspective](./exercices_photoshop/07_Recadrer_avec_la_perspective.md){ .md-button }  <br>    
