@@ -13,10 +13,13 @@ Installer un projet Phaser de base
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Jeu</title>
+
+    <title>Modèle</title>
     <meta name="description" content="">
     <meta name="author" content="">
+
     <link href="./src/css/styles.css" rel="stylesheet">
+
     <script src="./node_modules/phaser/dist/phaser.min.js"></script>
     <script src="./src/js/scenes/Intro.js"></script>
     <script src="./src/js/init.js" defer></script>
