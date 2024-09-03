@@ -21,4 +21,4 @@
   
 ## Devoir
 ## Explication du projet 1
-  [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>{ .md-button }   <br>
+  [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>
