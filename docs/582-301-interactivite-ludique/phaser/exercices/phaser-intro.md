@@ -81,6 +81,22 @@ class Intro extends Phaser.Scene {
 
 Modele
 
+Modele
+│
+├── index.html
+├── node_module/
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+└── src/
+    ├── css/
+    |   └── styles.css
+    └── js/
+        ├── init.js
+        └── scenes/
+            └── Intro.js
+
+
 ## Consignes
 
 - [ ] Créer un nouveau dossier nommé « Modele »
