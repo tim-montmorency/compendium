@@ -46,4 +46,5 @@
 * [ ] Créez un moodboard dans [Pinterest](https://www.pinterest.com/) l'autoportrait (matriciel).
 * [ ] Choisissez l'effet pour votre signature.
 * [ ] Créez un moodboard dans [Pinterest](https://www.pinterest.com/) pour la signature (vectoriel).
+* [ ] Explorez pour votre fun la création d'images par [Klingai](https://klingai.com/)
 
