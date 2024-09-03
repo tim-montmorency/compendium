@@ -6,6 +6,10 @@ tags:
 
 [STOP]
 
+Exercice tilemap important
+
+
+
 # Animations programmées
 
 ## Ordre du jour
@@ -14,9 +18,6 @@ tags:
 * Interpolations
 * Exercices
 * Devoir
-
-
-
 
 ## Qu'est-ce qu'une interpolation ?
 
