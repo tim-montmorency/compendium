@@ -20,4 +20,5 @@
   [🛠️ 08_Masque d'écrétage](./exercices_photoshop/08_Masque_d'écrétage.md){ .md-button }  <br>  
   
 ## Devoir
-  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01.md){ .md-button }   <br>
+## Explication du projet 1
+  [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>{ .md-button }   <br>
