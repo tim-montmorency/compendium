@@ -22,4 +22,5 @@
   * Travailler avec les alignements
 
 ## Devoir
-  [📁 Projet 1/partie 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projet/projet01){ .md-button }   <br>
+ ## Explication du projet 1
+  [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>
