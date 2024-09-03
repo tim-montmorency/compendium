@@ -40,7 +40,8 @@
 
 
 ## Devoir
-  * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+  * [ ] [Choisir votre courant artistique pour votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3) Il est possible que votre courant artistique ne soit par dans les courants artistiques inscrits.
+  * [ ] Choisir l'effet pour votre signature
   * [ ] Créer deux moodboards dans [Pinterest](https://www.pinterest.com/) pour la signature (vectoriel) et l'autoportrait (matriciel).
   * [ ] Notez le nom des artistes qui ont réalisé les illustrations.
   * [ ] Notez le courant artistique auquel appartiennent ces artistes.
