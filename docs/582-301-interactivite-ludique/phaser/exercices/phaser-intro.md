@@ -79,8 +79,7 @@ class Intro extends Phaser.Scene {
 
 ## Structure finale
 
-Modele
-
+```
 Modele
 │
 ├── index.html
@@ -95,7 +94,7 @@ Modele
         ├── init.js
         └── scenes/
             └── Intro.js
-
+```
 
 ## Consignes
 
