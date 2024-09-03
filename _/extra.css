@@ -9,6 +9,11 @@ body {
     width: 100% !important;
 }
 
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
 /* ---------------------------------- */
 /* Navigation */
 /* ---------------------------------- */
@@ -201,6 +206,10 @@ a:hover .ext-link-icon {
     margin: 1em 0;
     position: relative;
     align-items: center;
+}
+
+.md-typeset .grid.align-items-top{
+    align-items: flex-start;
 }
 
 .md-typeset .grid img {
