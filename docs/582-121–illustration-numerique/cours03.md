@@ -1,8 +1,5 @@
 # Cours 3
 
-## Explication du projet 1
-  [📁 Projet 1](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/projets/projet01){ .md-button }   <br>
-
 
 ### Notions
 * [▶️ Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  /  [📑 Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
