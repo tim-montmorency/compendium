@@ -16,26 +16,6 @@ Le tout doit être réalité avec des boucles `for`.
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Code de départ
-
-```js
-class Damier extends Phaser.Scene {
-  create() {
-    // Dessiner le plateau de jeu
-    // Dessiner les pièces
-  }
-}
-
-const config = {
-  type: Phaser.AUTO,
-  width: 800,
-  height: 800,
-  scene: Damier
-};
-
-const game = new Phaser.Game(config);
-```
-
 ## Consignes
 
 - [ ] Créer une grille de 8x8 avec des carrés (`graphics.fillRect()`)
