@@ -97,5 +97,6 @@ La différence est que `sin` commence à **0**, tandis que `cos` commence à **1
 
 ## Devoir
 
-* Complétez la portion assets dans votre document de conception
+* Complétez la portion assets dans votre document de conception en y insérant les URLs des assets choisis
+  * Pour les personnages, assurez vous de pouvoir les animer en au moins 2 états (idle, marche)
 * Créez l'installation de base de votre PS
