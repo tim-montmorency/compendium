@@ -9,17 +9,17 @@
 
 ## Section magistrale (90 minutes)
 * [Les bases de la caméra et de l'éclairage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ES3aENrFd3xGo4k-LG6Ga-YBZVk1bE-HDOUN2gRRFoPdUQ?e=7ydfsn)
-    * Montage d'un trépied
-    * Installation d'une caméra
-    * Installation d'un écran
-    * Réglages de la caméra :
-      * Mode manuel
-      * Blance des blancs
-      * ISO
-      * Ouverture
-      * Vitesse d'obturationo
-      * Mise au point
-      * Profondeur de champ
+  * Montage d'un trépied
+  * Installation d'une caméra
+  * Installation d'un écran
+  * Réglages de la caméra :
+    * Mode manuel
+    * Blance des blancs
+    * ISO
+    * Ouverture
+    * Vitesse d'obturationo
+    * Mise au point
+    * Profondeur de champ
 
 ## Section pratique (115 minutes)
 * [Réglages de la caméra](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EW5jW5Ntgi5In550PfE6lFUBrUIB5feoOGXfF5yQ0SxXMw?e=jJAC7d)
