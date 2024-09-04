@@ -28,7 +28,8 @@
 ## Rangement de l'équipement (15 minutes)
 
 ## Devoir 
-* Vous m'envoyez par message via Teams : 
+* Vous faites parvenir par TEAMS : 
   * Votre moodboard Pinterest.
-  * La liste de choses que vous allez tourner.<br>     
-Remarque : Tous les membres de votre équipe, Antoine Allard et William Racine doivent être copiés dans le message.
+  * La liste de choses que vous allez tourner.<br>
+ Tous les membres de votre équipe, Antoine Allard, William Racine et moi doivent recevoir le message. 
+
