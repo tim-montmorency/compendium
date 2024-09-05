@@ -2,8 +2,8 @@ Le but de cet exercice est d'importer un pinceau
 ***  
 
 ## Matériel
-Téléchargez un pinceau .abr 
-[📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EmDx4PPQpcVFm1RitVhvtBwBxbttiBqgWalVD3Blf9HLDQ?e=iW6k8O){ .md-button }   <br>
+Téléchargez un pinceau .abr  <br>
+[📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjTovTEwij5BtymW2Q1Gk9YBZGKkOx5sT8k0pYhJrxNNOg?e=0CzEnQ){ .md-button }   <br>
 
 
 
