@@ -12,7 +12,7 @@
 * [▶️ Créer un dossier dans Photoshop](https://cmontmorency365-my.sharepoint.com/personal/flpilote_cmontmorency_qc_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2Fflpilote%5Fcmontmorency%5Fqc%5Fca%2FDocuments%2F01%5Fcours%2F01%5Fcollege%2Fcours%5Fillustration%2Fcours%5F04%5F06%5Fphotoshop%2F19%5Fcreation%5Fdossier%2F01%5Fcreation%5Fdossier%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eed5d7231%2Dc654%2D46e7%2D8446%2Ddc9a62e9ec1b)  <br>
 * [▶️ Outil de déplacement](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXTHpLTfSCtBg5qT3TA3JNgBamh1ZfrfnF2408RhUJspMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PNBr6z)  <br>
 * [▶️ Transformations d'un calque ou d'image](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcdAqDGXjx1Iq6sfj6U6c1YBmEAb3fkLS0I5JUIlqlNIYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6I4L6Z)  <br>   
-  [🛠️ 06_Déplacez, transformez des calques, dossier](./exercices_photoshop/06_Déplacez_et_transformez_des_calques.md){ .md-button }  <br>    
+  [🛠️ 06_Déplacer, transformer des calques, dossier](./exercices_photoshop/06_Déplacer_et_transformer_des_calques.md){ .md-button }  <br>    
 
   
 ### Notions  
