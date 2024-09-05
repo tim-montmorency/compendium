@@ -6,7 +6,7 @@ Le but de cet exercice est de fusionner deux calques grâce au mode de fusion.
 ## Matériel
 Téléchargez et ouvrez les fichiers suivants:   
 
-[📁 Document de départ_01](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/12_lucho-renolfi-gyRxYFlxI-Q-unsplash.jpg{ .md-button }   <br>
+[📁 Document de départ_01](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/12_lucho-renolfi-gyRxYFlxI-Q-unsplash.jpg){ .md-button }   <br>
 [📁 Document de départ_02](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/12_john-westrock-638048-unsplash.jpg){ .md-button }   <br>
 ## Étapes
 
