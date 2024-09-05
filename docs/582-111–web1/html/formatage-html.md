@@ -12,7 +12,7 @@ L'élément HTML `<u>` permet d'afficher un fragment de texte qui est annoté av
 
 <br>
 
-**`<b>`** - Texte en gras
+### **`<b>`** - Texte en gras
 
 ex. Ce texte est en **gras**.
 
@@ -24,7 +24,7 @@ Si l'élément est d'une importance particulière, on utilisera l'élément HTML
 
 <br>
 
-**`<strong>`** - Texte important
+### **`<strong>`** - Texte important
 
 ex. Ce texte est <strong>important</strong>.
 
@@ -32,7 +32,7 @@ L'élément HTML `<strong>` indique que le texte a une importance particulière 
 
 <br>
 
-**`<i>`** - Texte en italique
+### **`<i>`** - Texte en italique
 
 ex. Ce texte est en *italique*.
 
@@ -40,7 +40,7 @@ L'élément HTML `<i>` représente un morceau de texte qui se différencie du te
 
 <br>
 
-**`<em>`** - Mettre l'accent sur le texte (emphase)
+### **`<em>`** - Mettre l'accent sur le texte (emphase)
 
 ex. On met l'accent sur le <em>texte</em>.
 
@@ -48,7 +48,7 @@ L'élément HTML <em> (pour emphase) est utilisé afin de marquer un texte sur l
 
 <br>
 
-**`<mark>`** - Texte marqué
+### **`<mark>`** - Texte marqué
 
 ex. Ce texte est <mark>surligné</mark>.
 
@@ -56,7 +56,7 @@ L'élément HTML `<mark>` représente un texte marqué ou surligné à cause de 
 
 <br>
 
-**`<small>`** - Texte plus petit
+### **`<small>`** - Texte plus petit
 
 ex. Ce texte est <small>petit</small>.
 
@@ -64,7 +64,7 @@ L'élément HTML `<small>` permet de représenter des commentaires ou des textes
 
 <br>
 
-**`<del>`** - Texte supprimé
+### **`<del>`** - Texte supprimé
 
 ex. Ce texte est <del>supprimé</del>.
 
@@ -72,7 +72,7 @@ L'élément HTML `<del>` représente une portion de texte ayant été supprimée
 
 <br>
 
-**`<ins>`** - Texte inséré
+### **`<ins>`** - Texte inséré
 
 ex. Ce texte est <ins>inséré</ins> dans la phrase.
 
@@ -80,7 +80,7 @@ L'élément HTML `<ins>` représente un fragment de texte qui a été ajouté da
 
 <br>
 
-`<sub>` - Texte d'indice (sous la ligne de base et généralement plus petit)
+### `<sub>` - Texte d'indice (sous la ligne de base et généralement plus petit)
 
 ex. Voici un <sub>texte</sub> qui apparaît sous la phrase.
 
@@ -88,7 +88,7 @@ L'élément HTML `<sub>` est utilisé, pour des raisons typographiques, afin d'a
 
 <br>
 
-`<sup>` - Texte en exposant
+### `<sup>` - Texte en exposant
 
 ex. Voici un <sup>texte</sup> qui apparaît au-dessus de la phrase.
 
