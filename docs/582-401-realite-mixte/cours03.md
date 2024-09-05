@@ -18,7 +18,3 @@
 [📝 UI](./unity/UI.md){ .md-button }    
 
 [📝 Police de caractère](./unity/font.md){ .md-button }
-
-       
-## Animation paramètre
-[📝 Animation d'objet 2D](./unity/animation.md){ .md-button }
