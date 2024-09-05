@@ -18,7 +18,8 @@ Exemple d'utilisation de la balise `<div>`
         <h1>Titre</h1>
         <p>Contenu du paragraphe.</p>
 
-</div> ```
+</div>
+```
 
 En bloc (block)
 Un élément de niveau bloc commence toujours sur une nouvelle ligne et occupe toute la largeur disponible.
