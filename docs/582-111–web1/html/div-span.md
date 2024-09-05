@@ -1,10 +1,10 @@
 # Les Balises Div et Span
 
-Les balises '<div>' et '<span>' sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web. Elles n'ont pas de signification sémantique propre comme les balises de titre, de paragraphe, de liste, etc.
+Les balises `<div>` et `<span>` sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web. Elles n'ont pas de signification sémantique propre comme les balises de titre, de paragraphe, de liste, etc.
 
 Au lieu de cela, elles sont utilisées pour appliquer des styles, créer des agencements et regrouper des éléments à des fins de présentation et de mise en forme.
 
-##Div
+## Div
 
 La balise `<div>` est utilisée pour créer des conteneurs génériques ou des blocs de contenu. Elle permet de regrouper des éléments connexes, de diviser une page en sections ou de créer des mises en page complexes.
 
@@ -12,12 +12,13 @@ La balise `<div>` est souvent utilisée pour appliquer des styles CSS, ajouter d
 
 Exemple d'utilisation de la balise `<div>`
 
-```<div id="conteneur">
+```
+<div id="conteneur">
 
         <h1>Titre</h1>
         <p>Contenu du paragraphe.</p>
 
-    </div> ```
+</div> ```
 
 En bloc (block)
 Un élément de niveau bloc commence toujours sur une nouvelle ligne et occupe toute la largeur disponible.
