@@ -87,10 +87,16 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#nomenclature">Nomenclature</a>
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene. Une scene sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
 
+#### Tutoriel 🎥
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=biMaznc0AHKAlgpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Préparation de Vuforia
 - [ ] Créez votre compte sur le site de Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/introduction.html#creation-de-compte">Créer un compte</a>
 - [ ] Créez une license Vuforia pour votre projet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/introduction.html#creation-dune-license">License</a>
 - [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#importer-des-assets-du-asset-store">Package Manager</a>
+
+#### Tutoriel 🎥
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IChbRlhdONM?si=FAI2FPKYwgwOBWEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Création de la scène Jeu - détection AR
 - [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
@@ -99,6 +105,9 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Importez les images de détection dans Unity. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#importer-les-images">Importer</a>
 - [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ArCamera). Vous devez aussi vous assurez de mettre la license sur la caméra. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#camera-de-detection">ArCamera</a>
 - [ ] Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#detecter-une-image">Image Target</a>
+
+#### Tutoriel 🎥
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-5awHGHMQ7g?si=o5qleI-0IZfVK_Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Création de la scène Jeu - Animations
 
@@ -111,6 +120,9 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
 
+#### Tutoriel 🎥
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=10cZ0tSH82XY-MKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### Animations avec des vidéos (Choisir sprite ou vidéo)
 - [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux vidéos de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/video-creation#importer-la-video-dans-unity">Importation Vidéo</a>
 - [ ] Créer un GameObject par vidéo avec la composante Video Player pour pouvoir jouer un clip. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/video-creation#creer-un-gameobject-pour-faire-jouer-la-video">GameObject Animator</a>
@@ -118,6 +130,8 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget. Si jamais vos vidéos ne sont plus visibles, ajouter leur 90 degrés dans le paramètre Rotation X dans le transform de la fenêtre Inspecteur.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
 
+#### Tutoriel 🎥
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FIUuC5i8BXw?si=J_17e5MabmCRQN9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Création de la scène Jeu - Sons
 - [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
@@ -125,8 +139,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/son.html#audio-source">Son</a>
 
 ### Création de la scène Jeu - Script
-
-- [ ] Suivez le tutoriel suivant pour créer le script de votre Scene Jeu.
+#### Tutoriel 🎥
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v4OD6PwHGIw?si=GXRGBzEp96a_gDBi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Création de la scène Menu - UI
