@@ -48,9 +48,9 @@ Un élément en ligne ne commence pas sur une nouvelle ligne et il n'occupe que 
 Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… `<em>, <strong>, <span>`, etc.
 
 !!! note
-
-        En résumé, les balises `<div>` et `<span>` sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web.
-        La balise `<div>` est utilisée pour créer des conteneurs de blocs et des structures de mise en page, tandis que la balise `<span>` est utilisée pour appliquer des styles à des parties                    spécifiques du texte.
+        
+    En résumé, les balises `<div>` et `<span>` sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web.
+    La balise `<div>` est utilisée pour créer des conteneurs de blocs et des structures de mise en page, tandis que la balise `<span>` est utilisée pour appliquer des styles à des parties                    spécifiques du texte.
 
 ## Exercices
 
