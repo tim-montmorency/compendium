@@ -28,7 +28,7 @@ Un élément de niveau bloc commence toujours sur une nouvelle ligne et occupe t
 
 Nommez d’autres éléments en block qu’on a vus aujourd’hui… `<p> <div> <h1> <h2> <ul> <li> <header> <footer> <nav>` ...
 
-##Span
+## Span
 
 La balise `<span>` est utilisée pour appliquer des styles ou formater une partie spécifique d'un texte. Elle peut être utilisée pour cibler une portion de texte à l'aide de CSS ou pour appliquer des modifications spécifiques à des parties de contenu.
 
@@ -40,13 +40,15 @@ Exemple d'utilisation de la balise
 
 Dans cet exemple, la balise <span> est utilisée pour appliquer un style particulier au prix affiché.
 
-En ligne (inline)
+## En ligne (inline)
 Un élément en ligne ne commence pas sur une nouvelle ligne et il n'occupe que la largeur nécessaire
 
 `<span>` est un conteneur en ligne utilisé pour baliser une partie d'un texte ou une partie d'un document.
 
 Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… `<em>, <strong>, <span>`, etc.
 
-En résumé, les balises `<div>` et `<span>` sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web.
-La balise `<div>` est utilisée pour créer des conteneurs de blocs et des structures de mise en page, tandis que la balise `<span>` est utilisée pour appliquer des styles à des parties spécifiques du texte.
+!!! note
+
+        En résumé, les balises `<div>` et `<span>` sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web.
+        La balise `<div>` est utilisée pour créer des conteneurs de blocs et des structures de mise en page, tandis que la balise `<span>` est utilisée pour appliquer des styles à des parties spécifiques du texte.
 
