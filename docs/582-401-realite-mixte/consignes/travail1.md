@@ -109,9 +109,9 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-5awHGHMQ7g?si=o5qleI-0IZfVK_Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 4. Création de la scène Jeu - Animations
+### 4 ou 5. Création de la scène Jeu - Animations
 
-#### Animations avec des sprites (Choisir sprite ou vidéo)
+#### 4. Animations avec des sprites (Choisir sprite ou vidéo)
 - [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#importer-la-sprite-sheet">Importation SpriteSheet</a>
 - [ ] Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator-controller">Animator Controller</a>
 - [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator">GameObject Animator</a>
