@@ -1,7 +1,6 @@
 # Cours 2
 
 ## Bloc 1
-### Matière
 #### Base de Unity
 [📝 Composantes](./unity/composantes.md){ .md-button }           
 
@@ -13,7 +12,6 @@
 [💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-creation-projet.html){ .md-button }     
 
 ## Bloc 2
-### Matière
 #### Configuration
 [📝 Unity remote](./installation/unity-remote.md){ .md-button }   
        
@@ -25,7 +23,6 @@
 [💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-preparation-vuforia){ .md-button }     
 
 ## Bloc 3
-### Matière
 #### Détection en réalité augmentée
 [📝 Détection](./realite-augmentee/detection.md){ .md-button }   
 
@@ -35,7 +32,6 @@
 
 
 ## Bloc 4  
-### Matière
 #### Calques
 [📝 Calques](./unity/sorting_layers.md){ .md-button }       
 
