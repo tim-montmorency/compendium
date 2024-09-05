@@ -1,0 +1,5 @@
+<a href="https://www.example.com" target="_blank" style="text-decoration:none;">
+  <button style="padding:10px 20px; background-color:#4CAF50; color:white; border:none; border-radius:5px; cursor:pointer;">
+    Aller vers Example
+  </button>
+</a>
