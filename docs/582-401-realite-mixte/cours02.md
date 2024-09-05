@@ -39,9 +39,10 @@
 [📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
 
 ### Avancement du travail 1       
-#### Animations
+#### Animations de sprite
 [💼 Travail 1 - Sprite](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-sprite){ .md-button }       
 
-**OU**
+**OU**     
 
+#### Animations de vidéos
 [💼 Travail 1 - Video](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-video){ .md-button }     
