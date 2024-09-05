@@ -1,3 +1,5 @@
+# Création d'un objet vidéo    
+
 ## Importer la vidéo dans Unity
 - [ ] Dans le dossier Art de la fenêtre Project, créez un dossier nommé Video s'il n'existe pas encore.
 - [ ] Entrez dans le nouveau dossier, faites un clic-droit, puis choisissez Import New Asset et sélectionnez la vidéo à importer depuis l'explorateur de fichier. Ou encore cliquez et glissez la dans la fenêtre Project.
