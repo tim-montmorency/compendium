@@ -3,7 +3,12 @@ Utiliser correctement les balises `<div>` et `<span>` pour grouper et styliser d
 ![div-span](https://github.com/user-attachments/assets/ea7fc8ad-d07d-4efb-929f-be2957798b87)
 
 
-Fichier de départ
+!!! important
+
+    Fichier de départ <br> [Exercice Div-Span.zip](https://github.com/user-attachments/files/16900323/Exercice.Div-Span.zip)
+
+
+  
 ## Instructions
 
 Considérez le paragraphe de texte suivant et suivez les instructions pour appliquer les balises <div> et <span> de manière appropriée.
