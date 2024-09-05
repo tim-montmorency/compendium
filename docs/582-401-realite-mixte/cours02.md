@@ -44,8 +44,8 @@
 
 ### Avancement du travail 1       
 #### Animations
-[💼 Travail 1 - Sprite](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-aniamtion-sprite){ .md-button }       
+[💼 Travail 1 - Sprite](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-sprite){ .md-button }       
 
 **OU**
 
-[💼 Travail 1 - Video](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-aniamtion-video){ .md-button }     
+[💼 Travail 1 - Video](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-video){ .md-button }     
