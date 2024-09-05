@@ -1,4 +1,4 @@
-Le but de cet exercice est d'importer un pinceau
+Le but de cet exercice est d'importer un pinceau et de dessiner avec celui-ci. 
 ***  
 
 ## Matériel
