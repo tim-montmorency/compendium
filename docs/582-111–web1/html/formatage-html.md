@@ -80,7 +80,9 @@ L'élément HTML `<ins>` représente un fragment de texte qui a été ajouté da
 
 <br>
 
-### `<sub>` - Texte d'indice (sous la ligne de base et généralement plus petit)
+### `<sub>` - Texte d'indice 
+
+(sous la ligne de base et généralement plus petit)
 
 ex. Voici un <sub>texte</sub> qui apparaît sous la phrase.
 
