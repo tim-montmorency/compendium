@@ -17,4 +17,4 @@
 
 ## Prochaine section
 
-[➡️ Prochaine section](https://davebirss.com/inspiration/){ .md-button }
+[➡️ Prochaine section](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-detection-ar){ .md-button }
