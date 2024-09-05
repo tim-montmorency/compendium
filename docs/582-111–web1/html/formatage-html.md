@@ -42,7 +42,7 @@ L'élément HTML `<i>` représente un morceau de texte qui se différencie du te
 
 ### **`<em>`** - Mettre l'accent sur le texte (emphase)
 
-ex. On met l'accent sur le <em>texte</em>.
+ex. On met l'accent sur le **texte**.
 
 L'élément HTML <em> (pour emphase) est utilisé afin de marquer un texte sur lequel on veut insister.
 
