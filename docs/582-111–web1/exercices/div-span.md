@@ -1,5 +1,5 @@
 # Exercice sur Div & Span
-Utiliser correctement les balises <div> et <span> pour grouper et styliser des parties spécifiques du contenu d'une page web.
+Utiliser correctement les balises `<div>` et `<span>` pour grouper et styliser des parties spécifiques du contenu d'une page web.
 ![div-span](https://github.com/user-attachments/assets/ea7fc8ad-d07d-4efb-929f-be2957798b87)
 
 
