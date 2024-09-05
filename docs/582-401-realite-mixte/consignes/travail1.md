@@ -80,7 +80,7 @@ OU
 ## Plan de travail détaillé
 Voici étape par étape comment créer votre travail 1. Les notes de cours reliées à chaque étape vous expliquerons plus en détail comment faire. Elles sont disponibles via les mots soulignés en rouge.   
 
-### Création du projet
+### 1. Création du projet
 
 - [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#creer-un-projet">Créer le projet</a>
 - [ ] Modifiez la plateforme de développement pour Android. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/installation/configuration.html#developper-pour-android">Changer de plateforme</a>
@@ -90,7 +90,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=biMaznc0AHKAlgpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Préparation de Vuforia
+### 2. Préparation de Vuforia
 - [ ] Créez votre compte sur le site de Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/introduction.html#creation-de-compte">Créer un compte</a>
 - [ ] Créez une license Vuforia pour votre projet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/introduction.html#creation-dune-license">License</a>
 - [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#importer-des-assets-du-asset-store">Package Manager</a>
@@ -98,7 +98,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IChbRlhdONM?si=FAI2FPKYwgwOBWEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Création de la scène Jeu - détection AR
+### 3. Création de la scène Jeu - détection AR
 - [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
 - [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#creation-dune-base-de-donnees-dimages">Base de données</a>
 - [ ] Téléchargez la base de données que vous venez de créer. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#telecharger-la-base-de-donnees">Télécharger</a>
@@ -109,7 +109,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-5awHGHMQ7g?si=o5qleI-0IZfVK_Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Création de la scène Jeu - Animations
+### 4. Création de la scène Jeu - Animations
 
 #### Animations avec des sprites (Choisir sprite ou vidéo)
 - [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#importer-la-sprite-sheet">Importation SpriteSheet</a>
@@ -123,7 +123,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=10cZ0tSH82XY-MKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Animations avec des vidéos (Choisir sprite ou vidéo)
+#### 5. Animations avec des vidéos (Choisir sprite ou vidéo)
 - [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux vidéos de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/video-creation#importer-la-video-dans-unity">Importation Vidéo</a>
 - [ ] Créer un GameObject par vidéo avec la composante Video Player pour pouvoir jouer un clip. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/video-creation#creer-un-gameobject-pour-faire-jouer-la-video">GameObject Animator</a>
 - [ ] Redimensionner vos vidéos et positionnez-les au-dessus de votre Image de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
@@ -133,16 +133,16 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FIUuC5i8BXw?si=J_17e5MabmCRQN9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Création de la scène Jeu - Sons
+### 6. Création de la scène Jeu - Sons
 - [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
 - [ ] Ajouter une composante AudioSource sur vos GameObject animations.
 - [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/son.html#audio-source">Son</a>
 
-### Création de la scène Jeu - Script
+### 7. Création de la scène Jeu - Script
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v4OD6PwHGIw?si=GXRGBzEp96a_gDBi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Création de la scène Menu - UI
+### 8. Création de la scène Menu - UI
 
 - [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la Scene Jeu avant de la quitter! Vous pouvez maitenant lui apporter des modifications.
 - [ ] Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
@@ -164,11 +164,11 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
 
-### Création de l'application
+### 9. Création de l'application
 - [ ] Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Préparer</a>
 - [ ] Suivez le tutoriel suivant pour exporter l'application. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#exporter-pour-android">Préparer</a>
 
-### Remise du travail 1
+### 10. Remise du travail 1
 Remettre votre travail dans le dossier suivant: 
 
 [📁 Remise Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ej08AbeAuVhJhy4sr6J6nd4Bqd9CWc_odGOKQpqHi-JcEg?e=S9gzuK){ .md-button }   
