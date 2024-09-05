@@ -1,4 +1,5 @@
-# Création du projet
+# Travail 1
+## Création du projet
 
 - [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#creer-un-projet">Créer le projet</a>
 - [ ] Modifiez la plateforme de développement pour Android. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/installation/configuration.html#developper-pour-android">Changer de plateforme</a>
