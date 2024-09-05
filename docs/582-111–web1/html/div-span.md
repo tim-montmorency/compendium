@@ -52,3 +52,19 @@ Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… `<em>, <str
         En résumé, les balises `<div>` et `<span>` sont des éléments HTML utilisés pour structurer et formater le contenu d'une page web.
         La balise `<div>` est utilisée pour créer des conteneurs de blocs et des structures de mise en page, tandis que la balise `<span>` est utilisée pour appliquer des styles à des parties spécifiques du texte.
 
+## Exercices
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+
+
+  **Exercice sur Div & Span**<br>
+  _Utiliser correctement les balises `<div>` et `<span>`_<br>
+  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
+</div>
+
+
+
+ 
+
