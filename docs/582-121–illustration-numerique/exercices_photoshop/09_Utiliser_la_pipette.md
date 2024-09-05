@@ -3,7 +3,7 @@ Le but de cet exercice est de sélectionner une couleur de cette image et de la 
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier suivant:   
+Télécharger et ouvrer le fichier suivant:   
 [📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/07_over_busy.psd){ .md-button }   <br>
 
 
