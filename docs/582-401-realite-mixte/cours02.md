@@ -36,4 +36,8 @@
 [📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
        
 ### Animations
-[💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1.html#creation-de-la-scene-jeu-animations){ .md-button }     
+[💼 Travail 1 - Sprite](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-aniamtion-sprite){ .md-button }       
+
+**OU**
+
+[💼 Travail 1 - Video](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-aniamtion-video){ .md-button }     
