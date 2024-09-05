@@ -34,3 +34,7 @@ En résumé, la balise `<div>` est utilisée pour regrouper des éléments, tand
 
 Après avoir terminé l'exercice, votre texte devrait contenir des balises `<div>` autour des parties correspondantes et des balises `<span>` utilisées pour appliquer des styles à certaines parties du texte.
 
+## Notes de cours
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/div-span.html)
+
