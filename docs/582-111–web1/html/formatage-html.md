@@ -4,7 +4,7 @@
 
 Les éléments de formatage ont été conçus pour afficher des types de texte spéciaux :
 
-**`<u>`** - Texte souligné
+### **`<u>`** - Texte souligné
 
 ex. Ce texte est <u>souligné</u>.
 
@@ -97,7 +97,7 @@ L'élément HTML `<sup>` est utilisé, pour des raisons typographiques, afin d'a
 ## Éléments HTML de titre
 Les éléments HTML `<h1>` à `<h6>` représentent les six niveaux de titre de section. `<h1> `correspond au niveau de section le plus haut et `<h6>` correspond au niveau le plus faible.
 
-### LA BALISE H1
+### Les balises H1
 
 La balise H1 est la plus importante. Toutes vos pages, même celles ne présentant pas de contenu long, comme les pages d’accueil, par exemple, doivent contenir un titre H1 indiquant le sujet principal de la page Web.
 
