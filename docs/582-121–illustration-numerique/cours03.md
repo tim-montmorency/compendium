@@ -35,7 +35,7 @@
 * [▶️ Masque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eeb-ZmD_E4BKmbmU8lwqJAwBIxdy1OwMdEZlxGG_qWk4rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bdhrgS)  <br>
 * [▶️ Masque d'écrétage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdXyaO31Gt5LmwGv2pYw8BcBsBqHgLyBFupN7IFpgkAAIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tfl3b8)  <br>
 *  [▶️ Outil pipette](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYCAP3HOYBxLsVkq3V8REnMB1TjJ1_VtXO-02OcHzTnszw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=L6fO8u) <br>      
-  [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Outil_de_sélection_circulaire){ .md-button }  <br>    
+  [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Outil_de_sélection_circulaire.md){ .md-button }  <br>    
   [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>  
   [🛠️ 08_Sélectionner un objet](./exercices_photoshop/08_Outil_de_sélection_d'objet.md){ .md-button }  <br>  
   [🛠️ 08_Masque d'écrétage](./exercices_photoshop/08_Masque_d'écrétage.md){ .md-button }  <br>  
