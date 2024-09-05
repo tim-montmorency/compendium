@@ -21,7 +21,6 @@ Rendez-vous sur le site suivant pour créer votre compte:
 ## Intro à l'éditeur 
 [🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }       
 
-**Modifier le nom du package 2d begginer dans le jeu Unity** Unity Learn | 2D Beginner: Adventure Game Complete Project | URP (Vérifier si compatible car URP)
 
 ## Retour en groupe sur Unity
 [📝 Introduction à Unity](./unity/introduction.md){ .md-button }      
