@@ -23,6 +23,7 @@
   * Faire des rectangles
 
 
+### Notions
 *  [▶️ Outil pipette](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYCAP3HOYBxLsVkq3V8REnMB1TjJ1_VtXO-02OcHzTnszw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=L6fO8u)
 
 
