@@ -1,5 +1,5 @@
 # Cours 3
-## ⚠️ Heures des cours modifiée
+## ⚠️ Heure des cours modifiée
 Cours Lora: 12h40 à 15h20
 
 Cours Charlène: 14h20 à 17h
@@ -16,8 +16,11 @@ Démonstration CV de l'an dernier
 
 
 ## Ajouter des compagnies à la liste
+[🛠️ Liste de compagnies](https://teams.microsoft.com/l/entity/26bc2873-6023-480c-a11b-76b66605ce8c/_djb2_msteams_prefix_4081842536?context=%7B%22channelId%22%3A%2219%3AFh6bIgyplnX5mZYg_4Nl9AY15oUn63sZrUo3hadfFx01%40thread.tacv2%22%7D&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d
+){ .md-button }     
 
 ## Temps pour avancer votre CV
+[🛠️ Consignes cv](./stages/cv.md){ .md-button }     
 
 ## Conférence de Sid Lee
 **De 14h20 à 15h20**     
@@ -26,7 +29,9 @@ Sujet: Le cv, la lettre de présentation et le portfolio
 
 
 ## Devoir     
-### Avancer le Portfolio    
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }     
+### Avancer le Portfolio ou le CV    
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
 
+[🛠️ Consignes cv](./stages/cv.md){ .md-button }     
+ 
 
