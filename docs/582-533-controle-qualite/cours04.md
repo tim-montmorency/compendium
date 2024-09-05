@@ -8,5 +8,8 @@
 
 
 ## Devoir
-Avancer le cv, le portfolio et la lettre de présentation
+### Avancer le Portfolio, la lettre ou le CV    
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+
+[🛠️ Consignes cv](./stages/cv.md){ .md-button }     
 
