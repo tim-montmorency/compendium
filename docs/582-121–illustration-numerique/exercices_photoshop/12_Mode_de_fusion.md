@@ -1,5 +1,5 @@
 
-Le but de cet exercice est de créer un fusionner deux calques grâce au mode de fusion. 
+Le but de cet exercice est de fusionner deux calques grâce au mode de fusion. 
 <img src="images/12_mode_fusion.png">
 ***  
 
