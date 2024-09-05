@@ -17,9 +17,16 @@
 ### Réalité augmentée
 [📝 Introduction à la AR](./realite-augmentee/introduction.md){ .md-button }       
 
+### Travail 1 - Section Préparation de Vuforia
+[💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1.html#preparation-de-vuforia){ .md-button }     
+
 ## Bloc 3
 ### Détection en réalité augmentée
 [📝 Détection](./realite-augmentee/detection.md){ .md-button }   
+
+### Travail 1 - Section Création de la scène Jeu - détection AR
+[💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1.html#creation-de-la-scene-jeu-detection-ar){ .md-button }     
+
 
 ## Bloc 4    
 ## Calques
@@ -28,5 +35,5 @@
 ## Animation de sprite sheet
 [📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
        
-## Avancement du travail 1 section Création de la scène Jeu - Animations
+## Travail 1 - section Création de la scène Jeu - Animations
 [💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1.html#creation-de-la-scene-jeu-animations){ .md-button }     
