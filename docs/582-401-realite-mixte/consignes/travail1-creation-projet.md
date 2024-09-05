@@ -5,4 +5,7 @@
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#nomenclature">Nomenclature</a>
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene. Une scene sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
 
-[➡️ Prochaine étape](https://davebirss.com/inspiration/){ .md-button }   <br>
+
+## Prochaine section
+
+[➡️ Prochaine section](https://davebirss.com/inspiration/){ .md-button }
