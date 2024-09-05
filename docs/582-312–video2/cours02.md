@@ -1,6 +1,7 @@
 # Cours 2
 
 ## Consignes tournage (10 minutes)
+* Présentation de la liste d'équipement
 * Discutez avec les TTP de vos projets pour discuter de vos besoins surtout :
   * si vous avez des éléments qui peuvent tacher
   * Si vous avec besoin d'accrocher des choses au plafond
