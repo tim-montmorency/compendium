@@ -29,11 +29,11 @@
 
 
 ## Bloc 4    
-## Calques
+### Calques
 [📝 Calques](./unity/sorting_layers.md){ .md-button }       
 
-## Animation de sprite sheet
+### Animation de sprite sheet
 [📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
        
-## Travail 1 - section Création de la scène Jeu - Animations
+### Travail 1 - section Création de la scène Jeu - Animations
 [💼 Travail 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1.html#creation-de-la-scene-jeu-animations){ .md-button }     
