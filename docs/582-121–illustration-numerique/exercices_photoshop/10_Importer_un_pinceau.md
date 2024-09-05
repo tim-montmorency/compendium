@@ -13,7 +13,7 @@ Téléchargez un pinceau .abr
 - [ ] Choisir "Importer des pinceaux" dans le menu déroulant.
 - [ ] Naviguer vers le fichier de pinceau (.abr) sur votre ordinateur.
 - [ ] Sélectionner le fichier et cliquer sur "Ouvrir".
-- [ ] Utiliser les nouveaux pinceaux dans la palette de pinceaux.    <br>    
+- [ ] Utiliser les nouveaux pinceaux dans la palette de pinceaux.    <br> 
 Remarque : Ranger le pinceau .abr téléchargé dans votre dossier de pinceaux. 
 
 
