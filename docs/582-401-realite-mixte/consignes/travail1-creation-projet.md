@@ -6,7 +6,9 @@
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#nomenclature">Nomenclature</a>
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene. Une scene sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
 
+## Tutoriel 🎥
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=2SN1X3EXbtqTrq07" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Prochaine section
 
-[➡️ Prochaine section](https://davebirss.com/inspiration/){ .md-button }
+[➡️ Prochaine section](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-preparation-vuforia){ .md-button }
