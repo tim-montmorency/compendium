@@ -1,7 +1,4 @@
 # Cours 3
-## S'inscrire au Unity student plan
-[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
-
        
 ## Code
 [📝 Variables](./code/variables.md){ .md-button }      
@@ -21,7 +18,3 @@
 [📝 UI](./unity/UI.md){ .md-button }    
 
 [📝 Police de caractère](./unity/font.md){ .md-button }
-
-       
-## Animation paramètre
-[📝 Animation d'objet 2D](./unity/animation.md){ .md-button }

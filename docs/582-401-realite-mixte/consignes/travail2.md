@@ -1,7 +1,7 @@
 Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Unity.    
      
 
-## Préparer le projet
+## 1. Préparer le projet
 
 - [ ] Premièrement, créez un nouveau projet à l'aide du modèle 3D core.
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#nomenclature">Nomenclature</a>
@@ -12,7 +12,7 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
        
 
 
-## Préparer la première Scène
+## 2. Préparer la première Scène
 
 - [ ] Créez une nouvelle scène à votre nom.
 - [ ] Dans les dossiers Synty studio, sélectionnez un Prefab de sol que vous placerez en position (0,0,0).
@@ -26,7 +26,7 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
 
        
 
-## Créer une télévision
+## 3. Créer une télévision
 
 Nous allons créer une télé à l'aide des objets 3D de Unity.   
 
@@ -41,7 +41,7 @@ Nous allons créer une télé à l'aide des objets 3D de Unity.
 
        
 
-## Modifier le ciel (Skybox)
+## 4. Modifier le ciel (Skybox)
 
 Nous allons modifier la Skybox de votre scene.   
 
@@ -55,7 +55,7 @@ Nous allons modifier la Skybox de votre scene.
 
        
 
-## Déplacement du personnage
+## 5. Déplacement du personnage
 Pour configurer le déplacement de votre caméra, vous devez télécharger ces scripts:      
 
 [📁 Scripts](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU){ .md-button }      
@@ -66,50 +66,50 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
        
 
-## Éclairage de la scène
+## 6. Éclairage de la scène
 - [ ] Suivez ensuite la vidéo suivante pour configurer l'éclairage de votre bâtiment:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eVzF0QE1zFE?si=G9Ca0fWpnw0XFrYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Création de zones
+## 7. Création de zones
 - [ ] Créez un objet vide avec un box collider pour chaque pièce de la maison. Assurez-vous que les colliders ont la bonne taille pour couvrir toute la pièce.
 - [ ] Activez la fonction is Trigger de chaque collider pour permettre à votre personnage de se promener entre les pièces.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=b9CxZ64HDYmdPUd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Allumer ou éteindre une lumière avec la détection
+## 8. Allumer ou éteindre une lumière avec la détection
 - [ ] Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Partir ou arrêter une vidéo avec la détection
+## 9. Partir ou arrêter une vidéo avec la détection
 - [ ] Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=iBgchBjInUY2wa73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Animer un paramètre sur une lumière
+## 10. Animer un paramètre sur une lumière
 - [ ] Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Créer des prefabs
+## 11. Créer des prefabs
 - [ ] Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HmLe22qIjAM?si=9YAWA3zfWbnKtqCy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Amasser des objets
+## 12. Amasser des objets
 - [ ] Suivez la vidéo suivante pour amasser des objets et les compter:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=wFWQL9AsoRv9aB_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## Canvas et réussite
+## 13. Canvas et réussite
 - [ ] Suivez la vidéo suivante pour terminer votre exercice:
 - [ ] Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a des bons.
 
@@ -117,8 +117,8 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 
        
-## Défis
-Avant de terminer, vous devez réaliser un des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
+## 14. Défis
+Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
 
 - [ ] Créer une animation sur votre prefab pour que tous ses duplicatas soient animés.
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
@@ -131,7 +131,7 @@ Avant de terminer, vous devez réaliser un des défis suivants. Il n'y a pas d'i
 
        
 
-## Exporter le jeu
+## 15. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
 - [ ] Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
 

@@ -19,3 +19,5 @@ Afin de développer pour Android, nous devrons suivre quelques étapes.
 - [ ] Dans la liste de vos installs, cherchez la version sur laquelle votre projet est. Appuyez ensuite sur l'engrenage, puis sur Add modules.
 - [ ] Dans la liste, cochez Android Build Support et ses sous-composantes, puis appuyez sur Install.
 - [ ] Revenez dans Unity, puis assurez vous que la fenêtre Build Settings est ouverte.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVuzmtxxbfc?si=_RzrfdqzrJ3F1ocp&amp;start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -5,15 +5,18 @@
      
 
 ## Installation et base de Unity
-### Création de compte
+#### Création de compte
 
 Rendez-vous sur le site suivant pour créer votre compte:   
 [🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
 
-### S'inscrire au Unity student plan
+#### S'inscrire au Unity student plan
+
+Appuyer sur enseignement supérieur:     
+
 [🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
 
-### Téléchargement de Unity
+#### Téléchargement de Unity
 [📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
 
            
@@ -21,7 +24,6 @@ Rendez-vous sur le site suivant pour créer votre compte:
 ## Intro à l'éditeur 
 [🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }       
 
-**Modifier le nom du package 2d begginer dans le jeu Unity** Unity Learn | 2D Beginner: Adventure Game Complete Project | URP (Vérifier si compatible car URP)
 
 ## Retour en groupe sur Unity
 [📝 Introduction à Unity](./unity/introduction.md){ .md-button }      
@@ -31,13 +33,13 @@ Rendez-vous sur le site suivant pour créer votre compte:
     
 [💼 Travail 1](./consignes/travail1.md){ .md-button }   
 
-### Création de visuels
+#### Création de visuels
 [📝 Sprite](./unity/sprite.md){ .md-button }       
 
 [📝 Vidéo](./unity/video.md){ .md-button }       
 
 
-### Test d'exemples de travail 1 et de livres en AR
+#### Test d'exemples de travail 1 et de livres en AR
 Projets de:       
 
 - Quoc Huy Do    
@@ -47,7 +49,7 @@ Projets de:
   
        
 
-### Réflexion sur la thématique de votre travail 1
+#### Réflexion sur la thématique de votre travail 1
 Tempête d'idées   
                      
            

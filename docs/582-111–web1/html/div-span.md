@@ -61,7 +61,7 @@ Nommez d’autres éléments en ligne qu’on a vus aujourd’hui… `<em>, <str
 
   **Exercice sur Div & Span**<br>
   _Utiliser correctement les balises `<div>` et `<span>`_<br>
-  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
+  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
 </div>
 
 

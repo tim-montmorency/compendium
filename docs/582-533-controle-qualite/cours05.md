@@ -1,3 +1,2 @@
 # Cours 5
-
-## Sortie chez Moment Factory
+## Temps pour les comités
