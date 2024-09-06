@@ -238,7 +238,7 @@ On peut également utiliser les suffixes de point de rupture. Ainsi nos colonnes
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-Moins fréquent, mais très pratique, la notion d'[offset](https://getbootstrap.com/docs/5.3/layout/columns/#offsetting-columns) permet de d'espacer les colonnes de la gauche.
+Enfin, la notion d'[offset](https://getbootstrap.com/docs/5.3/layout/columns/#offsetting-columns) permet d'espacer les colonnes par la gauche.
 
 ## Ordre CSS
 
