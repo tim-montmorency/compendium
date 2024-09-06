@@ -9,21 +9,22 @@ Considérez le texte suivant et suivez les instructions pour appliquer les balis
 
 ## Texte
 <div style="color: red";>
-Bienvenue sur le site de notre musée virtuel consacré à l'histoire de l'art.
+Bienvenue sur le site de notre musée virtuel consacré à l'histoire de l'art.<br>
 
-Découvrez des œuvres d'artistes célèbres et plongez dans les différentes époques artistiques qui ont façonné notre culture.
+Découvrez des œuvres d'artistes célèbres et plongez dans les différentes époques artistiques qui ont façonné notre culture.<br>
 
-**Table des matières**
+**Table des matières**<br>
 
 1. Introduction
 
-2. L'Art de la Renaissance
+1. L'Art de la Renaissance
 
-3. Impressionnisme et Post-Impressionnisme
+1. Impressionnisme et Post-Impressionnisme
 
-4. Mouvements du 20e siècle
+1. Mouvements du 20e siècle
 
-5. Artistes Contemporains
+1. Artistes Contemporains
+<br>
 
 Visitez notre page sur **L'Art de la Renaissance** pour en savoir plus sur les œuvres de léonard de Vinci et de Michel-Ange.
 
