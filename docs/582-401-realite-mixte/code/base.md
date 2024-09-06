@@ -92,13 +92,14 @@ if(myInt == 2)
 
 Si ma condition est vrai, donc que la variable myInt est égale à 2, on exécutera le code qui est entre les {}; 
    
-Outre les ==, il existe d'autres opérateurs pour valider si une fonction est vraie:    
+Outre les ==, il existe d'autres opérateurs pour valider si une fonction est vraie:       
 
-   - **!=** (Pas égal à)
-   - **<** (plus petit que)
-   - **>** (plus grand que)
-   - **<=** (plus petit ou égal)
-   - **>=** (plus grand ou égal)
+
+- **!=** (Pas égal à)
+- **<** (plus petit que)
+- **>** (plus grand que)
+- **<=** (plus petit ou égal)
+- **>=** (plus grand ou égal)
 
 
 Il est possible de vérifier plus d'une condition grâce à &&:   
