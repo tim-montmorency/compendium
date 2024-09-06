@@ -57,7 +57,7 @@ Le `PNG` **(Portable Network Graphics)** est un format de fichiers sorti en 1996
 Le format `WebP` est le plus jeune des formats parmi ceux mentionnés.** Il fut développé en 2010 par Google** dans le but de réduire la quantité de données circulant sur le web. C'est un format de compression d'image avec ou sans perte, selon la configuration choisie. En moyenne, une image `WebP` pèse 30% de moins qu'une image compressée en `JPEG` et offre une meilleure qualité d'image.
 
 - Comparaison avec des JPEG
-- Comparaison avec des PNG<br>
+- Comparaison avec des PNG<br><br><br>
 ➕ Contrôle sur la qualité.<br>
 ➕ Garde les textes et lignes droites nettes.<br>
 ➕ Supporte les animations.<br>
