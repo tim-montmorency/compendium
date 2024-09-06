@@ -358,7 +358,9 @@ Les classes CSS sont construites de la façon suivante : `{propriété}{côté}-
   **[Casse-grille](exercices/bs-casse-tete.md){.stretched-link}**
 </div>
 
-## Devoir 1 formatif - remise 12 septembre minuit
+## Devoir
+
+Devoir 1 formatif - remise 12 septembre minuit
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/tarte-pomme.jpg)
