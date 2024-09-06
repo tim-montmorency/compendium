@@ -48,7 +48,7 @@ Lorsque vous spécifiez un chemin d'accès à un fichier dans VS Code, le point 
     Pour éviter les conflits, dans le cadre du cours, nous allons toujours utiliser . / devant les fichiers pour indiquer que le chemin d'accès commence à partir du répertoire actuel.
 
 ## Remonter de niveau ../
-![remonter-dossier (1)](https://github.com/user-attachments/assets/7139925d-b3a6-4933-a8f1-b9857f6b5de5)
+![remonter-dossier (1)](https://github.com/user-attachments/assets/7139925d-b3a6-4933-a8f1-b9857f6b5de5){ style="display: block; margin: 0 auto" }
 
 Lorsque vous désirez remonter d'un niveau comme par exemple : vous êtes au niveau d'un fichier enfant et que vous désirez remonter au dossier parent d'utiliser un autre fichier dans le dossier parent, on l'écrit `../nom_du_fichier`
 
