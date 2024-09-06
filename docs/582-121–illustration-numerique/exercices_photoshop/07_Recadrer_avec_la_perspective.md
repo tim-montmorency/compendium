@@ -4,15 +4,15 @@ Le but de cet exercice est corriger la perspective d'une image
 
 ## Matériel
 Téléchargez et ouvrez le fichier suivant:   
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/07_recadrer_perspective.jpg){ .md-button }   <br>
+[📁 Document de départ](.images/07_recadrer_perspective.jpg){ .md-button }   <br>
 
 
 
 ## Étapes
 
-- [ ] Choisissez l'outil de recadrage (C). Maintenez le clic sur l'outil pour accéder à l'outil de correction de perspective par recadrage.
-- [ ] Sélectionnez l'intérieur du cadre pour ajuster la perspective et recadrer l'image.
-- [ ] Recadrez 
+- [ ] Choisisser l'outil de recadrage (C). Maintener le clic sur l'outil pour accéder à l'outil de correction de perspective par recadrage.
+- [ ] Sélectionner l'intérieur du cadre pour ajuster la perspective et recadrer l'image.
+- [ ] Recadrer 
 
 
 ***  
