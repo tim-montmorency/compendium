@@ -1,6 +1,8 @@
 # Cours 4
 ## Code
-[📝 Quitter le jeu](./code/quitter_jeu.md){ .md-button }    
+[📝 Quitter le jeu](./code/quitter_jeu.md){ .md-button }       
+
+[📝 Changement de scène](./code/changement_scene.md){ .md-button }      
 
 ## Police de caractères
 [📝 Police de caractères](./unity/font.md){ .md-button }   
