@@ -12,9 +12,9 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Sélectionnez l'outil de déplacement (v)
-- [ ] Dans le panneau d'options, activez l'option "Sélection automatique".
-- [ ] Sélectionnez un calque et déplacez-le dans la composition.
+- [ ] Sélectionner l'outil de déplacement (v)
+- [ ] Dans le panneau d'options, activer l'option "Sélection automatique".
+- [ ] Sélectionnez un calque et déplacer dans la composition.
 - [ ] Dans le panneau d'options, désactivez l'option "Sélection automatique".
 - [ ] Sélectionnez un calque spécifique et déplacez-le manuellement.
 
