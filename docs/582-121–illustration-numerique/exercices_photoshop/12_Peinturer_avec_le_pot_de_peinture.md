@@ -9,19 +9,15 @@ Téléchargez et ouvrez les fichiers suivants:
 [📁 Document de départ_01](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/12_andy-visage_femme.jpg){ .md-button }   <br>
 
 ## Étapes
-- [ ] Importer les deux images dans un seul document en les plaçant sur des calques distincts.
-- [ ] Sélectionner le calque supérieur dans la palette des calques.
-- [ ] Aller en haut de la palette des calques et cliquer sur le menu déroulant des "Modes de fusion" (à côté de l'option "Opacité").
-- [ ] Choisir un mode de fusion (comme Multiplier, Incrustation, Lumière douce, etc.) pour voir comment le calque supérieur interagit avec le calque en dessous.
-- [ ] Ajuster l’opacité du calque supérieur si nécessaire pour adoucir ou intensifier l’effet de fusion.
-- [ ] Expérimenter avec différents modes de fusion jusqu'à obtenir l'effet désiré.
-- [ ] Enregistrer votre travail une fois satisfait du résultat.
-
+- [ ] Sélectionner l'outil Pot de peinture (G).
+- [ ] Remplir chaque zone sélectionnée avec une couleur distincte en cliquant dans les zones désirées.
+- [ ] Continuer à peindre les différentes parties du visage avec des couleurs pop jusqu'à obtenir le résultat souhaité.
+- [ ] Une fois satisfait, enregistrer le fichier.
 
 
 ***  
 ## Tutoriel 📚
-[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ec_kskJqT0ZGhEajpRFLEfQBVRRq-sWtWILnrIDRO9ia6A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eOqsel){ .md-button }   <br>
+[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWX7DvXI8zJAo3tnzJWORoUBs5s1s5lqi3_KBjniY0LHjQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f8aeS0){ .md-button }   <br>
 
 
 
