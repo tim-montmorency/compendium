@@ -83,6 +83,20 @@ Par exemple:
 <a href="tel:5551234567">Appelez-moi!</a>
 ```
 
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-09-06 à 11 06 28](https://github.com/user-attachments/assets/1bdcd3c7-0c1c-4bab-bacf-7510542e5c91)
+
+
+
+  **Exercice sur les balises**<br>
+  _Pour cet exercice, vous devez recréer un site web._<br>
+  [Exercice sur les ancres](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+</div>
+
+
 !!! note
 
     Surtout pratique pour les appareils mobiles 📱
