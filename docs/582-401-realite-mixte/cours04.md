@@ -1,8 +1,5 @@
 # Cours 4
 
-## Son
-[📝 Son](./unity/son.md){ .md-button }   
-
 ## Police de caractères
 [📝 Police de caractères](./unity/font.md){ .md-button }   
 
