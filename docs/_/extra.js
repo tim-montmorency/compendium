@@ -69,7 +69,7 @@ const addOpenExampleLinks = () => {
             // Extrait l'identifiant du Pen de l'URL du iframe
             const penId = url.pathname.split('/').pop();
             // Construit l'URL correcte
-            const penUrl = `https://codepen.io${url.pathname.replace('/embed/', '/pen/')}`;
+            const penUrl = `https://codepen.io${url.pathname.replace('/embed/', '/full/')}`;
 
             const link = document.createElement("a");
             link.href = penUrl;
