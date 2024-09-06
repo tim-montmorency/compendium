@@ -30,7 +30,7 @@ Visitez notre page sur **L'Art de la Renaissance** pour en savoir plus sur les �
 
 Pour en apprendre davantage sur les peintres impressionnistes tels que Monet et Renoir, rendez-vous à la section sur **Impressionnisme et Post-Impressionnisme**.<br><br>
 
-Si vous êtes intéressé par les mouvements artistiques du 20e siècle comme le surréalisme et l'expressionnisme, explorez la page dédiée aux **Mouvements du 20e siècle**.<br><br>
+Si vous êtes intéressé par les mouvements artistiques du 20e siècle comme le surréalisme et l'expressionnisme, explorez la page dédiée aux <b>Mouvements du 20e siècle</b>.<br><br>
 
 Enfin, ne manquez pas notre sélection d'œuvres contemporaines et les profils d'**Artistes Contemporains**.<br><br>
 
@@ -118,8 +118,8 @@ Création de la structure de base du document HTML
 
 ## Ajout des liens de navigation interne
 
-* [ ]À l'intérieur de la balise nav, écrivez des liens a pour chaque section du contenu.
-* [ ]Utilisez l'attribut href à l'aide du préfixe #. Par exemple : href="#intro".
+* [ ] À l'intérieur de la balise nav, écrivez des liens a pour chaque section du contenu.
+* [ ] Utilisez l'attribut href à l'aide du préfixe #. Par exemple : href="#intro".
 
 ##Ajout des sections de contenu avec des ancres
 
