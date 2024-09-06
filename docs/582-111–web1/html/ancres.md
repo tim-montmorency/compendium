@@ -70,7 +70,8 @@ L'attribut href peut aussi contenir une adresse courriel préfixée par: mailto:
 Par exemple:
 
 ```
-<a href="mailto:exemple@gmail.com">Écrivez-moi!</a>```
+<a href="mailto:exemple@gmail.com">Écrivez-moi!</a>
+```
 
 ## Démarrer un appel 📞
 
@@ -82,4 +83,6 @@ Par exemple:
 <a href="tel:5551234567">Appelez-moi!</a>
 ```
 
-Surtout pratique pour les appareils mobiles 📱
+!!! note
+
+    Surtout pratique pour les appareils mobiles 📱
