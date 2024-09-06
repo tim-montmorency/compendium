@@ -12,6 +12,7 @@
 1. Quelles variables sont nécessaires?    
 2. Quelles fonctions seront utilisées?    
 3. À quoi ressemblera le code?    
+
 (Écriture du code à la main) 
 
 #### Démonstration du code de détection     
