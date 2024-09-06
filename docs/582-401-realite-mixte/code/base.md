@@ -1,5 +1,5 @@
 
-Dans Unity, le langage de programmation est le C#. Les srcipts sont les composantes qui contiennent le code.   
+Dans Unity, le langage de programmation est le C#. Les scripts sont les composantes qui contiennent le code.   
 
        
 
