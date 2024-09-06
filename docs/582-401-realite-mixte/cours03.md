@@ -6,17 +6,20 @@
 
 [📝 Bases du code](./code/base.md){ .md-button }       
 
-[📝 Fonctions](./code/fonctions.md){ .md-button }     
+[📝 Fonctions](./code/fonctions.md){ .md-button }        
+
 
 #### Réflexion sur le code de détection
 1. Quelles variables sont nécessaires?    
 2. Quelles fonctions seront utilisées?    
 3. À quoi ressemblera le code?    
 
-(Écriture du code à la main) 
+(Écriture du code à la main)     
+
 
 #### Code
-[📝 Événements](./code/evenements.md){ .md-button }     
+[📝 Événements](./code/evenements.md){ .md-button }         
+
 
 #### Démonstration du code de détection     
 
