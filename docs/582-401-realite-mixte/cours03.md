@@ -25,12 +25,8 @@
 [💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-script.html){ .md-button }     
 
 
+
 ## Bloc 2
-[📝 Changement de scène](./code/changement_scene.md){ .md-button }      
-
-
-
-## Bloc 3
 #### Son
 [📝 Son](./unity/son.md){ .md-button }   
 
