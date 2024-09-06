@@ -52,3 +52,17 @@ Par exemple, pour remonter de deux dossiers:
 ```
 <img src="../../a.png">
 ```
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-06 à 14 31 57](https://github.com/user-attachments/assets/f53a8759-1526-4c60-b3c5-9b28a37530c4)
+
+
+
+
+  **AChemin de fichiers - Pokémon**<br>
+  _Trouve les bons chemins de fichiers des Pokémon_<br>
+  [Exercice 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
+</div>
+
