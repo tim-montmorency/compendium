@@ -152,24 +152,32 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Créez 3 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#composante">Modifier le texte des boutons</a>
 - [ ] Créez un objet texte dans votre panel pour inscrire le titre de votre expérience.
 - [ ] Créez un objet texte dans le panel pour inscrire votre nom.
-- [ ] Si désiré, créez une nouvelle police pour vos textes. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#creer-une-police">Créer une police</a>
+- [ ] Créez une nouvelle police pour vos textes. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#creer-une-police">Créer une police</a>
 - [ ] Ajustez l'ancrage de tous vos objets. Le panneau devrait être en bleu pour s'étirer et les autres objets en rouge pour s'ancrer à des positions précises. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#rect-transform">Rect Transform</a>
+
+
+### 9. Création de la scène Menu - Consignes
+- [ ] Dans le canvas, créez un nouveau Panel pour les consignes.
+- [ ] Dans ce panel, créez un panel par étape de vos consignes.
+- [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes.
+
+### 10. Création de la scène Menu - Script UI
 - [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
 - [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
 - [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html#changement-de-scene">Script Scene</a>
 - [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
 - [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
-- [ ] Dans le canvas, créez un nouveau Panel pour les consignes.
-- [ ] Dans ce panel, créez un panel par étape de vos consignes.
-- [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes.
+
+### 11. Création de la scène Menu - Script consignes
 - [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
 
-### 9. Création de l'application
+
+### 12. Création de l'application
 - [ ] Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Préparer</a>
 - [ ] Suivez le tutoriel suivant pour exporter l'application. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#exporter-pour-android">Préparer</a>
 
-### 10. Remise du travail 1
+### 13. Remise du travail 1
 Remettre votre travail dans le dossier suivant: 
 
 [📁 Remise Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ej08AbeAuVhJhy4sr6J6nd4Bqd9CWc_odGOKQpqHi-JcEg?e=S9gzuK){ .md-button }   
