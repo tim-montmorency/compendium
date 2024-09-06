@@ -5,7 +5,7 @@ Le but de cet exercice est de déplacer et transformer les calques de manière �
 ## Matériel
 Téléchargez et ouvrez le fichier suivant:   
 
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/vecteur_rompre_a_corriger.psd
+[📁 Document de départ](.images/vecteur_rompre_a_corriger.psd
 ){ .md-button }   <br>
 
 
