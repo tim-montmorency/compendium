@@ -3,7 +3,7 @@
 ## Vectoriel
 
 Comme leur nom l'indique, les images vectorielles sont constituées de vecteurs. Ces vecteurs peuvent prendre la forme de rectangle, cercle, polygone, etc. Bref, de toutes formes géométriques pouvant être définies avec des coordonnées, des lignes droites ou des courbes de Béziers.<br>
-![svg-vectorielle]{margin: 0 auto"}(https://github.com/user-attachments/assets/45b1bd2a-dc6f-46f6-87b1-2c34fdb57d6c)
+![svg-vectorielle](https://github.com/user-attachments/assets/45b1bd2a-dc6f-46f6-87b1-2c34fdb57d6c){style="display: block; margin: 0 auto"}
 
 
 Ces images sont produites à l'aide des logiciels:
