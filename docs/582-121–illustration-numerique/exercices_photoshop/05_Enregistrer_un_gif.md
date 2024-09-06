@@ -3,7 +3,7 @@ Le but de cet exercice est de sauvegarder une image en GIF:
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier Photoshop suivant:   
+Télécharger et ouvrer le fichier Photoshop suivant:   
 
 [📁 Document de départ](./images/vecteur_rompre.psd
 ){ .md-button }   <br>
