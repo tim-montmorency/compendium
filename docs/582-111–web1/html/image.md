@@ -10,7 +10,7 @@ Par exemple:
 
 ## Alt
 
-L'attribut alt, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description alternative dans le cas où l'image ne puisse être chargée **(chemin brisé)**.
+L'attribut `alt`, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description alternative dans le cas où l'image ne puisse être chargée **(chemin brisé)**.
 
 Par exemple:
 <iframe height="300" style="width: 100%;" scrolling="no" title="Img - Alt" src="https://codepen.io/tim-momo/embed/bGjONPe?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
