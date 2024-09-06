@@ -3,7 +3,7 @@ Le but de cet exercice est de déplacer et transformer les calques de manière �
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier suivant:   
+Télécharger et ouvrer le fichier suivant:   
 
 [📁 Document de départ](.images/vecteur_rompre_a_corriger.psd
 ){ .md-button }   <br>
@@ -12,12 +12,12 @@ Téléchargez et ouvrez le fichier suivant:
 
 ## Étapes
 
-- [ ] Identifiez tous les calques sans nom et attribuez-leur un nom approprié.
-- [ ] Réorganisez les calques pour qu'ils soient dans l'ordre approprié.
-- [ ] Créez un nouveau dossier et déplacez-y toutes les images de la jeune fille pour organiser votre projet de manière plus structurée.
+- [ ] Identifier tous les calques sans nom et attribuez-leur un nom approprié.
+- [ ] Réorganiser les calques pour qu'ils soient dans l'ordre approprié.
+- [ ] Créer un nouveau dossier et déplacez-y toutes les images de la jeune fille pour organiser votre projet de manière plus structurée.
 
-- [ ] Utilisez l'outil de déplacement (V) pour repositionner correctement les images dans la composition.
-- [ ] Ajustez la taille ou la rotation des images à l'aide de l'outil de transformation (Ctrl + T) pour les placer correctement dans la composition.
+- [ ] Utiliser l'outil de déplacement (V) pour repositionner correctement les images dans la composition.
+- [ ] Ajuster la taille ou la rotation des images à l'aide de l'outil de transformation (Ctrl + T) pour les placer correctement dans la composition.
 
 
 ***  
