@@ -3,17 +3,17 @@ Le but de cet exercice est de couper une image à même une image
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier suivant:   
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/07_over_busy.psd){ .md-button }   <br>
+Télécharger et ouvrer le fichier suivant:   
+[📁 Document de départ](.images/07_over_busy.psd){ .md-button }   <br>
 
 
 
 ## Étapes
 
-- [ ] Choisissez l'outil de sélection d'image (K).
-- [ ] Sélectionnez la bouche de la femme sur le premier calque.
-- [ ] Pour déplacer l'image de la femme à l'intérieur du cadre, cliquez sur l'image de la femme et utilisez l'outil de déplacement (V).
-- [ ] Pour déplacer l'image de la femme dans l'ensemble de la composition, cliquez à l'extérieur de l'image de la femme et utilisez l'outil de déplacement (V).
+- [ ] Choisisser l'outil de sélection d'image (K).
+- [ ] Sélectionner la bouche de la femme sur le premier calque.
+- [ ] Pour déplacer l'image de la femme à l'intérieur du cadre, cliquer sur l'image de la femme et utiliser l'outil de déplacement (V).
+- [ ] Pour déplacer l'image de la femme dans l'ensemble de la composition, cliquer à l'extérieur de l'image de la femme et utiliser l'outil de déplacement (V).
 
 
 
