@@ -57,12 +57,11 @@ Par exemple:
 Par défaut, lorsque l'on pointe vers une section de page, le navigateur saute directement au id ciblé. Cependant, il est possible de faire en sorte que la page défile vers le id en question en spécifiant la propriété scroll-behavior: smooth à l'élément HTML.
 
 Par exemple, cliquez sur les boutons 1 et 2 pour sauter d'une section à l'autre et refaite le, mais en changeant la valeur de scroll-behavior.
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWzpajX" data-pen-title="Scroll-behavior: smooth" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWzpajX">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Scroll-behavior: smooth" src="https://codepen.io/tim-momo/embed/MWzpajX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/MWzpajX">
   Scroll-behavior: smooth</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Composer un courriel ✉️
 
