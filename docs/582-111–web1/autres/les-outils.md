@@ -2,13 +2,13 @@
 
 
 ### AUTONOMIE ET DÉBROUILLARDISE
-![autonomie](https://github.com/user-attachments/assets/c985c75c-9e74-4fb8-be83-34358f0dfcd6)
+![autonomie](https://github.com/user-attachments/assets/c985c75c-9e74-4fb8-be83-34358f0dfcd6){ style="display: block; margin: 0 auto" }
 
 
 
 ## Google & Youtube
 
-![google](https://github.com/user-attachments/assets/71846a22-492f-4917-a62a-d5aae5de5411)
+![google](https://github.com/user-attachments/assets/71846a22-492f-4917-a62a-d5aae5de5411){ style="display: block; margin: 0 auto" }
 
 Google et YouTube sont largement considérés comme parmi les meilleures plateformes pour trouver des explications et des informations sur une grande variété de sujets.
 
