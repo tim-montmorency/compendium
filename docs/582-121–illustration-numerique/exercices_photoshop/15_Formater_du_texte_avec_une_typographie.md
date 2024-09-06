@@ -2,7 +2,7 @@ Le but de cet exercice est d'utiliser formater du texte grâce à une typographi
 ***  
 
 ## Matériel
-Téléchargez le dossier de police "unique":      
+Télécharger le dossier de police "unique":      
 [📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=veL2bB){ .md-button }   <br>
 
 
@@ -10,7 +10,7 @@ Téléchargez le dossier de police "unique":
 ## Étapes
 
 - [ ] Installer la police "Unique" sur votre ordinateur.
-- [ ] Dans Photoshop, créez un nouveau document avec les dimensions 1920 x 1080 pixels, en sélectionnant le format vidéo.
+- [ ] Dans Photoshop, créer un nouveau document avec les dimensions 1920 x 1080 pixels, en sélectionnant le format vidéo.
 - [ ] Avec l'outil de texte (T), écriver le mot "DÉSERT" en majuscules.
 - [ ] Appliquer les caractéristiques suivantes à la typographie :
   - [ ] Typographie : "Unique", bold
