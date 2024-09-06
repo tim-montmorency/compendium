@@ -4,7 +4,7 @@
 
 ## Matériel
 Téléchargez et ouvrez le fichier Photoshop suivant:   
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/anthony_cantin.jpg){ .md-button }   <br>
+[📁 Document de départ](.images/anthony_cantin.jpg){ .md-button }   <br>
 ## Étapes
 - [ ] Créez deux nouveaux calques.
 - [ ] Sur le premier calque, avec l'outil pinceau (B), écrivez le mot "safari" et renommer le calque "safari".
