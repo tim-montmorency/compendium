@@ -4,18 +4,18 @@ Le but de cet exercice est de désincliner l'image:
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier Photoshop suivant:   
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
+Télécharger et ouvrer le fichier Photoshop suivant:   
+[📁 Document de départ](.images/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
 
 
 
 ## Étapes
 
-- [ ] Choisissez l'outil de recadrage (C).
-- [ ] Dans le panneau d'option, sélectionnez l'outil de règle pour désincliner
-- [ ] Dans le panneau d'options, allez dans l'option "Fond" et choisissez "Remplissage d'après le contenu" pour remplir les zones vides après redressement.
-- [ ] Sélectionnez la queue du requin dans l'image pour l'inclure dans la zone de recadrage.
-- [ ] Sélectionnez terminer
+- [ ] Choisissrz l'outil de recadrage (C).
+- [ ] Dans le panneau d'option, sélectionner l'outil de règle pour désincliner
+- [ ] Dans le panneau d'options, aller dans l'option "Fond" et choisisser "Remplissage d'après le contenu" pour remplir les zones vides après redressement.
+- [ ] Sélectionner la queue du requin dans l'image pour l'inclure dans la zone de recadrage.
+- [ ] Terminer
 
 
 ***  
