@@ -4,7 +4,7 @@ Le but de cet exercice est de recréer l'image suivante.
 
 ## Matériel
 Télécharger et ouvrer le fichier suivant:   
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/10_symetrie.png){ .md-button }   <br>
+[📁 Document de départ](.images/10_symetrie.png){ .md-button }   <br>
 
 
 
