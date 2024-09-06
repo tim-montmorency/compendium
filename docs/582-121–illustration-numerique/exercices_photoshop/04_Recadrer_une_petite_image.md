@@ -10,9 +10,9 @@ Téléchargez et ouvrez le fichier Photoshop suivant:
 
 ## Étapes
 
-- [ ] Sélectionnez l'outil de recadrage (c) pour ajuster la taille de l'image.
-- [ ] Modifiez les dimensions de l'image à 1920 pixels de large par 1080 pixels de haut avec une résolution de 72 dpi.
-- [ ] Réfléchissez à ce qui se passe après avoir changé les dimensions de l'image. Quels sont les effets sur l'image et pourquoi ces changements se produisent-ils ?
+- [ ] Sélectionner l'outil de recadrage (c) pour ajuster la taille de l'image.
+- [ ] Modifier les dimensions de l'image à 1920 pixels de large par 1080 pixels de haut avec une résolution de 72 dpi.
+- [ ] Réfléchisser à ce qui se passe après avoir changé les dimensions de l'image. Quels sont les effets sur l'image et pourquoi ces changements se produisent-ils ?
   
 ***  
 ## Tutoriel 📚
