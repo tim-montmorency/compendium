@@ -6,7 +6,7 @@ Le but de cet exercice est de peinturer une image grâce à un pot de peinture.
 ## Matériel
 Téléchargez et ouvrez les fichiers suivants:   
 
-[📁 Document de départ_01](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/12_andy-visage femme.jpg){ .md-button }   <br>
+[📁 Document de départ_01](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/12_andy-visage_femme.jpg){ .md-button }   <br>
 
 ## Étapes
 - [ ] Importer les deux images dans un seul document en les plaçant sur des calques distincts.
