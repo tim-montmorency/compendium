@@ -44,6 +44,13 @@
 #### Police de caractères
 [📝 Police de caractères](./unity/font.md){ .md-button }   
 
+### Avancement du travail 1
+#### Menu UI
+[💼 Travail 1 - Étape 8](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-menu-ui.html){ .md-button }     
+
+#### Menu consignes
+[💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-menu-consignes.html){ .md-button }     
+
 
 ## Devoir 
 #### Avancer le travail 1
