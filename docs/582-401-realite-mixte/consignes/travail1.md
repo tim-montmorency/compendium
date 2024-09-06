@@ -135,6 +135,8 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 
 ### 6. Création de la scène Jeu - Script
+- [ ] Suivez le tutoriel suivant pour créer votre script.
+
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v4OD6PwHGIw?si=GXRGBzEp96a_gDBi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
