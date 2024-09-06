@@ -12,7 +12,7 @@
 
 [📝 Changement de scène](./code/changement_scene.md){ .md-button }      
 
-[📝 Quitter le jeu](./code/quitter_jeu.md){ .md-button }    
+
 
 ## Bloc 2
 #### Son
