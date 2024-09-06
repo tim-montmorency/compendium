@@ -1,6 +1,6 @@
 
 Le but de cet exercice est de peinturer une image grâce à un pot de peinture. 
-<img src="images/12_mode_fusion.png">
+<img src="images/12_pot_peinture.png">
 ***  
 
 ## Matériel
