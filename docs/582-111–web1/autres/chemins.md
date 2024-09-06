@@ -63,6 +63,6 @@ Par exemple, pour remonter de deux dossiers:
 
   **Chemin de fichiers - Pokémon**<br>
   _Trouve les bons chemins de fichiers des Pokémon_<br>
-  [Exercice 1](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/arborescence_exercice_01.html)
+  [Exercice Pokémon](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/pokemon.html)
 </div>
 
