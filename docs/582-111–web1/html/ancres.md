@@ -98,7 +98,7 @@ Par exemple:
 
   **Exercice sur les balises**<br>
   _Pour cet exercice, vous devez recréer un site web._<br>
-  [Exercice sur les ancres](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+  [Exercice sur les ancres](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/ancres.html)
 </div>
 
 
