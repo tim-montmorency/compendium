@@ -1,14 +1,7 @@
 # Cours 3
 ## Bloc 1
-#### Son
-[📝 Son](./unity/son.md){ .md-button }   
-
-### Avancement du travail 1
-#### Sons
-[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-creation-projet.html){ .md-button }     
-
-       
-## Code
+ 
+#### Code
 [📝 Variables](./code/variables.md){ .md-button }      
 
 [📝 Fonctions](./code/fonctions.md){ .md-button }      
@@ -21,6 +14,14 @@
 
 [📝 Quitter le jeu](./code/quitter_jeu.md){ .md-button }    
 
+## Bloc 2
+#### Son
+[📝 Son](./unity/son.md){ .md-button }   
+
+### Avancement du travail 1
+#### Sons
+[💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-son.html){ .md-button }     
+
        
 ## Menus
 [📝 UI](./unity/UI.md){ .md-button }    
@@ -30,4 +31,4 @@
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 1 à 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }   
+[💼 Travail 1 - Étapes 6 à 8](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }   
