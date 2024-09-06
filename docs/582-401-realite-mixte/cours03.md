@@ -54,4 +54,4 @@
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 6 à 8](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }   
+[💼 Travail 1 - Étapes 6 à 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }   
