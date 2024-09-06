@@ -17,11 +17,13 @@ Ces images sont produites à l'aide des logiciels:
 
 À l'opposée les images dites matricielles **(jpg, png, gif, webp, etc.)** sont constituées d'une matrice de pixels permettant de reproduire une image.
 
-![svg-matricelle](https://github.com/user-attachments/assets/c9bbb472-0a6e-4c37-91f3-31c7f47d2cee)
+![svg-matricelle](https://github.com/user-attachments/assets/c9bbb472-0a6e-4c37-91f3-31c7f47d2cee){ style="display: block; margin: 0 auto" }
+
 
 Plus une image est en haute définition, plus elle contient de pixels dans un même espace. Cependant, plus une image contient de pixels, plus sont poids augmente.
 
-![batman-hd-4k](https://github.com/user-attachments/assets/041f251e-c19a-45c2-a9ad-86ba79671225)
+![batman-hd-4k](https://github.com/user-attachments/assets/041f251e-c19a-45c2-a9ad-86ba79671225){ style="display: block; margin: 0 auto" }
+
 
 Ces images sont produites à l'aide des logiciels:
 
