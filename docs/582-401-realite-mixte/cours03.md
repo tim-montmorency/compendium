@@ -37,10 +37,12 @@
 #### Sons
 [💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-son.html){ .md-button }     
 
-       
-## Menus
-[📝 UI](./unity/UI.md){ .md-button }    
+## Bloc 3       
+#### Menus
+[📝 UI](./unity/UI.md){ .md-button }      
 
+#### Police de caractères
+[📝 Police de caractères](./unity/font.md){ .md-button }   
 
 
 ## Devoir 
