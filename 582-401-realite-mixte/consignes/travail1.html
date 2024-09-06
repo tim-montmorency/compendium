@@ -10818,18 +10818,45 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#9-creation-de-lapplication" class="md-nav__link">
+  <a href="#9-creation-de-la-scene-menu-consignes" class="md-nav__link">
     <span class="md-ellipsis">
-      9. Création de l'application
+      9. Création de la scène Menu - Consignes
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#10-remise-du-travail-1" class="md-nav__link">
+  <a href="#10-creation-de-la-scene-menu-script-ui" class="md-nav__link">
     <span class="md-ellipsis">
-      10. Remise du travail 1
+      10. Création de la scène Menu - Script UI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-creation-de-la-scene-menu-script-consignes" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Création de la scène Menu - Script consignes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-creation-de-lapplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Création de l'application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-remise-du-travail-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Remise du travail 1
     </span>
   </a>
   
@@ -10989,25 +11016,34 @@ Générer une palette dans Coolors et créer un projet à partir de celle-ci: </
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez 3 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#composante">Modifier le texte des boutons</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet texte dans votre panel pour inscrire le titre de votre expérience.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet texte dans le panel pour inscrire votre nom.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si désiré, créez une nouvelle police pour vos textes. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#creer-une-police">Créer une police</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une nouvelle police pour vos textes. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#creer-une-police">Créer une police</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajustez l'ancrage de tous vos objets. Le panneau devrait être en bleu pour s'étirer et les autres objets en rouge pour s'ancrer à des positions précises. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#rect-transform">Rect Transform</a></li>
+</ul>
+<h3 id="9-creation-de-la-scene-menu-consignes">9. Création de la scène Menu - Consignes<a class="headerlink" href="#9-creation-de-la-scene-menu-consignes" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le canvas, créez un nouveau Panel pour les consignes.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans ce panel, créez un panel par étape de vos consignes.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes.</li>
+</ul>
+<h3 id="10-creation-de-la-scene-menu-script-ui">10. Création de la scène Menu - Script UI<a class="headerlink" href="#10-creation-de-la-scene-menu-script-ui" title="Permanent link">¶</a></h3>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet vide, créez un nouveau script et donnez lui un nom.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez la fonction changement de scène dans votre nouveau script. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html#changement-de-scene">Script Scene</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi la fonction pour quitter le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le canvas, créez un nouveau Panel pour les consignes.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans ce panel, créez un panel par étape de vos consignes.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes.</li>
+</ul>
+<h3 id="11-creation-de-la-scene-menu-script-consignes">11. Création de la scène Menu - Script consignes<a class="headerlink" href="#11-creation-de-la-scene-menu-script-consignes" title="Permanent link">¶</a></h3>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -&gt; SetActive). <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.</li>
 </ul>
-<h3 id="9-creation-de-lapplication">9. Création de l'application<a class="headerlink" href="#9-creation-de-lapplication" title="Permanent link">¶</a></h3>
+<h3 id="12-creation-de-lapplication">12. Création de l'application<a class="headerlink" href="#12-creation-de-lapplication" title="Permanent link">¶</a></h3>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Préparer</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez le tutoriel suivant pour exporter l'application. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#exporter-pour-android">Préparer</a></li>
 </ul>
-<h3 id="10-remise-du-travail-1">10. Remise du travail 1<a class="headerlink" href="#10-remise-du-travail-1" title="Permanent link">¶</a></h3>
+<h3 id="13-remise-du-travail-1">13. Remise du travail 1<a class="headerlink" href="#13-remise-du-travail-1" title="Permanent link">¶</a></h3>
 <p>Remettre votre travail dans le dossier suivant: </p>
 <p><a class="md-button" href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ej08AbeAuVhJhy4sr6J6nd4Bqd9CWc_odGOKQpqHi-JcEg?e=S9gzuK">📁 Remise Travail 1</a>   </p></div>
 
