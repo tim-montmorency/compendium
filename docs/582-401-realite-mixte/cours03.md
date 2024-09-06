@@ -2,11 +2,11 @@
 ## Bloc 1
  
 #### Code
-[📝 Variables](./code/variables.md){ .md-button }      
+[📝 Variables](./code/variables.md){ .md-button }          
 
-[📝 Fonctions](./code/fonctions.md){ .md-button }      
+[📝 Bases du code](./code/base.md){ .md-button }       
 
-[📝 Bases du code](./code/base.md){ .md-button }     
+[📝 Fonctions](./code/fonctions.md){ .md-button }     
 
 [📝 Événements](./code/evenements.md){ .md-button }      
 
