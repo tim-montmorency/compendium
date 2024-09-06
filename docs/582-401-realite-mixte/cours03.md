@@ -15,17 +15,17 @@
 
 (Écriture du code à la main) 
 
+#### Code
+[📝 Événements](./code/evenements.md){ .md-button }     
+
 #### Démonstration du code de détection     
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-son.html){ .md-button }     
+[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-script.html){ .md-button }     
 
 
 ## Bloc 2
-#### Code
-[📝 Événements](./code/evenements.md){ .md-button }      
-
 [📝 Changement de scène](./code/changement_scene.md){ .md-button }      
 
 
