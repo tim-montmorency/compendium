@@ -65,7 +65,7 @@ Vous devez : entrer votre ancien mot de passe (votre date de naissance sous la f
 Outils Microsoft 365, tous accessible via
 <br>
 
-![carre](https://github.com/user-attachments/assets/bd334ee1-af7c-4534-aadf-7aa98145d845)
+![carre](https://github.com/user-attachments/assets/bd334ee1-af7c-4534-aadf-7aa98145d845){ style="display: block; margin: 0 auto" }
 
 <br>
 
