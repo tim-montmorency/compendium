@@ -3,18 +3,18 @@ Le but de cet exercice est de faire la sélection d'un sujet, d'améliorer le co
 ***  
 
 ## Matériel
-Téléchargez et ouvrez le fichier suivant:   
+Télécharger et ouvrer le fichier suivant:   
 
-[📁 Document de départ](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/exercices_photoshop/images/07_over_busy.psd){ .md-button }   <br>
+[📁 Document de départ](.images/07_over_busy.psd){ .md-button }   <br>
 
 ## Étapes
 
-- [ ] Cliquez sur l'icône de sélection d'objet (W) dans la barre d'outils.
-- [ ] En haut de l'écran, dans le panneau d'options, cliquez sur le bouton "Sélectionner un sujet" pour permettre à Photoshop de détecter et sélectionner automatiquement le sujet principal de l'image.
-- [ ]  Cliquez sur Sélectionner et masquer dans le panneau d'options pour affiner la sélection.
-- [ ]  Dans l'espace de travail Sélectionner et masquer, utilisez les outils disponibles pour améliorer les contours de la sélection selon vos besoins. Une fois satisfait, cliquez sur OK pour appliquer les modifications.
-- [ ]   Dans le panneau de calques, cliquez sur l'icône de masque de fusion en bas pour masquer les zones extérieures à la sélection.
-- [ ]  Double-cliquez sur le nom du calque actuel et renommez-le "femme" pour une meilleure identification.
+- [ ] Cliquer sur l'icône de sélection d'objet (W) dans la barre d'outils.
+- [ ] En haut de l'écran, dans le panneau d'options, cliquer sur le bouton "Sélectionner un sujet" pour permettre à Photoshop de détecter et sélectionner automatiquement le sujet principal de l'image.
+- [ ]  Cliquer sur Sélectionner et masquer dans le panneau d'options pour affiner la sélection.
+- [ ]  Dans l'espace de travail Sélectionner et masquer, utiliser les outils disponibles pour améliorer les contours de la sélection selon vos besoins. Une fois satisfait, cliquer sur OK pour appliquer les modifications.
+- [ ]   Dans le panneau de calques, cliquer sur l'icône de masque de fusion en bas pour masquer les zones extérieures à la sélection.
+- [ ]  Double-cliquer sur le nom du calque actuel pour lui donner le nom "femme" pour une meilleure identification.
 
 
 
