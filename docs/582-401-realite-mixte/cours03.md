@@ -8,13 +8,16 @@
 
 [📝 Fonctions](./code/fonctions.md){ .md-button }     
 
+
+## Bloc 2
+#### Code
 [📝 Événements](./code/evenements.md){ .md-button }      
 
 [📝 Changement de scène](./code/changement_scene.md){ .md-button }      
 
 
 
-## Bloc 2
+## Bloc 3
 #### Son
 [📝 Son](./unity/son.md){ .md-button }   
 
