@@ -8,6 +8,18 @@
 
 [📝 Fonctions](./code/fonctions.md){ .md-button }     
 
+#### Réflexion sur le code de détection
+1. Quelles variables sont nécessaires?    
+2. Quelles fonctions seront utilisées?    
+3. À quoi ressemblera le code?    
+(Écriture du code à la main) 
+
+#### Démonstration du code de détection     
+
+### Avancement du travail 1
+#### Script
+[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-son.html){ .md-button }     
+
 
 ## Bloc 2
 #### Code
