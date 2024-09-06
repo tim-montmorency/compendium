@@ -9,11 +9,11 @@ Considérez le texte suivant et suivez les instructions pour appliquer les balis
 
 ## Texte
 <div style="color: red";>
-Bienvenue sur le site de notre musée virtuel consacré à l'histoire de l'art.<br>
+Bienvenue sur le site de notre musée virtuel consacré à l'histoire de l'art.<br><br>
 
-Découvrez des œuvres d'artistes célèbres et plongez dans les différentes époques artistiques qui ont façonné notre culture.<br><br>
+Découvrez des œuvres d'artistes célèbres et plongez dans les différentes époques artistiques qui ont façonné notre culture.<br><br><br>
 
-**Table des matières**<br>
+**Table des matières**<br><br>
 
 1. Introduction<br>
 
@@ -24,17 +24,17 @@ Découvrez des œuvres d'artistes célèbres et plongez dans les différentes é
 4. Mouvements du 20e siècle<br>
 
 5. Artistes Contemporains<br>
-<br>
+<br><br>
 
-Visitez notre page sur **L'Art de la Renaissance** pour en savoir plus sur les œuvres de léonard de Vinci et de Michel-Ange.<br>
+Visitez notre page sur **L'Art de la Renaissance** pour en savoir plus sur les œuvres de léonard de Vinci et de Michel-Ange.<br><br>
 
-Pour en apprendre davantage sur les peintres impressionnistes tels que Monet et Renoir, rendez-vous à la section sur **Impressionnisme et Post-Impressionnisme**.<br>
+Pour en apprendre davantage sur les peintres impressionnistes tels que Monet et Renoir, rendez-vous à la section sur **Impressionnisme et Post-Impressionnisme**.<br><br>
 
-Si vous êtes intéressé par les mouvements artistiques du 20e siècle comme le surréalisme et l'expressionnisme, explorez la page dédiée aux **Mouvements du 20e siècle**.<br>
+Si vous êtes intéressé par les mouvements artistiques du 20e siècle comme le surréalisme et l'expressionnisme, explorez la page dédiée aux **Mouvements du 20e siècle**.<br><br>
 
-Enfin, ne manquez pas notre sélection d'œuvres contemporaines et les profils d'**Artistes Contemporains**.<br>
+Enfin, ne manquez pas notre sélection d'œuvres contemporaines et les profils d'**Artistes Contemporains**.<br><br>
 
-N'hésitez pas à nous contacter pour toute question ou pour planifier une visite guidée virtuelle.<br>
+N'hésitez pas à nous contacter pour toute question ou pour planifier une visite guidée virtuelle.<br><br>
 
 </div>
 
