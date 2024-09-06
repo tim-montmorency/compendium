@@ -993,11 +993,11 @@
          <lastmod>2024-09-06</lastmod>
     </url>
     <url>
-         <loc>https://tim-montmorency.com/compendium/582-301-interactivite-ludique/phaser/phaser-medias.html</loc>
+         <loc>https://tim-montmorency.com/compendium/582-301-interactivite-ludique/phaser/phaser-objects.html</loc>
          <lastmod>2024-09-06</lastmod>
     </url>
     <url>
-         <loc>https://tim-montmorency.com/compendium/582-301-interactivite-ludique/phaser/phaser-objects.html</loc>
+         <loc>https://tim-montmorency.com/compendium/582-301-interactivite-ludique/phaser/phaser-tilemap.html</loc>
          <lastmod>2024-09-06</lastmod>
     </url>
     <url>
@@ -1022,10 +1022,6 @@
     </url>
     <url>
          <loc>https://tim-montmorency.com/compendium/582-311-web3/index.html</loc>
-         <lastmod>2024-09-06</lastmod>
-    </url>
-    <url>
-         <loc>https://tim-montmorency.com/compendium/582-311-web3/bootstrap.html</loc>
          <lastmod>2024-09-06</lastmod>
     </url>
     <url>
@@ -1097,6 +1093,22 @@
          <lastmod>2024-09-06</lastmod>
     </url>
     <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/devoir/bs-devoir1.html</loc>
+         <lastmod>2024-09-06</lastmod>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/bs-casse-tete.html</loc>
+         <lastmod>2024-09-06</lastmod>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/bs-darkmode.html</loc>
+         <lastmod>2024-09-06</lastmod>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/bs-imagecachee.html</loc>
+         <lastmod>2024-09-06</lastmod>
+    </url>
+    <url>
          <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/cli-mandala.html</loc>
          <lastmod>2024-09-06</lastmod>
     </url>
@@ -1122,6 +1134,10 @@
     </url>
     <url>
          <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/js-100ans.html</loc>
+         <lastmod>2024-09-06</lastmod>
+    </url>
+    <url>
+         <loc>https://tim-montmorency.com/compendium/582-311-web3/exercices/js-dark-mode.html</loc>
          <lastmod>2024-09-06</lastmod>
     </url>
     <url>

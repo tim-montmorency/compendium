@@ -134,9 +134,12 @@ body[data-md-color-scheme="slate"] img.invert {
 /* ---------------------------------- */
 /* Links */
 /* ---------------------------------- */
+.grid:has(.stretched-link){
+    position: relative;
+}
+
 a.stretched-link {
     color: var(--md-typeset-color);
-    position: relative;
 }
 
 .stretched-link::after {
