@@ -83,6 +83,11 @@ Par exemple:
 <a href="tel:5551234567">Appelez-moi!</a>
 ```
 
+!!! note
+
+    Surtout pratique pour les appareils mobiles 📱
+
+
 ## Exercices
 
 <div class="grid grid-auto" markdown>
@@ -97,6 +102,3 @@ Par exemple:
 </div>
 
 
-!!! note
-
-    Surtout pratique pour les appareils mobiles 📱
