@@ -1,6 +1,6 @@
 # Exercice sur les balises
 
-Utiliser les balises sémantiques pour structurer le contenu, appliquer le formatage HTML pour styliser le texte et créer des ancres <a> pour la navigation interne.
+Utiliser les balises sémantiques pour structurer le contenu, appliquer le formatage HTML pour styliser le texte et créer des ancres `<a>` pour la navigation interne.
 
 
 ## Intructions
@@ -11,30 +11,30 @@ Considérez le texte suivant et suivez les instructions pour appliquer les balis
 <div style="color: red";>
 Bienvenue sur le site de notre musée virtuel consacré à l'histoire de l'art.<br>
 
-Découvrez des œuvres d'artistes célèbres et plongez dans les différentes époques artistiques qui ont façonné notre culture.<br>
+Découvrez des œuvres d'artistes célèbres et plongez dans les différentes époques artistiques qui ont façonné notre culture.<br><br>
 
 **Table des matières**<br>
 
-1. Introduction
+1. Introduction<br>
 
-1. L'Art de la Renaissance
+2. L'Art de la Renaissance<br>
 
-1. Impressionnisme et Post-Impressionnisme
+3. Impressionnisme et Post-Impressionnisme<br>
 
-1. Mouvements du 20e siècle
+4. Mouvements du 20e siècle<br>
 
-1. Artistes Contemporains
+5. Artistes Contemporains<br>
 <br>
 
-Visitez notre page sur **L'Art de la Renaissance** pour en savoir plus sur les œuvres de léonard de Vinci et de Michel-Ange.
+Visitez notre page sur **L'Art de la Renaissance** pour en savoir plus sur les œuvres de léonard de Vinci et de Michel-Ange.<br>
 
-Pour en apprendre davantage sur les peintres impressionnistes tels que Monet et Renoir, rendez-vous à la section sur **Impressionnisme et Post-Impressionnisme**.
+Pour en apprendre davantage sur les peintres impressionnistes tels que Monet et Renoir, rendez-vous à la section sur **Impressionnisme et Post-Impressionnisme**.<br>
 
-Si vous êtes intéressé par les mouvements artistiques du 20e siècle comme le surréalisme et l'expressionnisme, explorez la page dédiée aux **Mouvements du 20e siècle**.
+Si vous êtes intéressé par les mouvements artistiques du 20e siècle comme le surréalisme et l'expressionnisme, explorez la page dédiée aux **Mouvements du 20e siècle**.<br>
 
-Enfin, ne manquez pas notre sélection d'œuvres contemporaines et les profils d'**Artistes Contemporains**.
+Enfin, ne manquez pas notre sélection d'œuvres contemporaines et les profils d'**Artistes Contemporains**.<br>
 
-N'hésitez pas à nous contacter pour toute question ou pour planifier une visite guidée virtuelle.
+N'hésitez pas à nous contacter pour toute question ou pour planifier une visite guidée virtuelle.<br>
 
 </div>
 
