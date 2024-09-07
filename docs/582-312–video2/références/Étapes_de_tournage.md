@@ -48,7 +48,7 @@
 
 - [ ] **Balance des blancs**  
   - Utilisez le bouton **FN** pour accéder aux réglages de la balance des blancs (AWB).
-  - Choisissez une température en Kelvin (K) pour ajuster la balance des couleurs selon l’éclairage ambiant.
+  - Choisissez une température en Kelvin (K) pour ajuster la balance des couleurs selon l’éclairage ambiant soit la température de couleur des lumières. 
 
 ---
 
