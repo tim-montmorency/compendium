@@ -43,7 +43,8 @@
 
 ---
 
-# Consignes pour la Sony A6500
+# Réglages en fonction de l'**éclairage terminé**
+
 
 - [ ] **Régler la balance des blancs (K)**  
   - Utilisez le **bouton FN** (situé à l'arrière de la caméra).
