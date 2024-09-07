@@ -52,8 +52,4 @@
 
 ---
 
-## Ajustements finaux
-
-- [ ] **Aide MF**  
-  - Notez que l’assistance pour la mise au point manuelle (MF) n’est pas disponible en mode vidéo. Cette option se trouve dans **Menu** > **1** (Page 13).
 
