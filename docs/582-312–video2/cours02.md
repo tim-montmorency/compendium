@@ -23,8 +23,10 @@
     * Profondeur de champ
 
 ## Section pratique (115 minutes)
-* [Réglages de la caméra](\references\caméra.md)
+* [Réglages de la caméra](./references/caméra.md)
 * [Exercices vidéo ](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EU6f2e3ScKBOg3Nekice69EB0a_KK-Ix4qf0iRW7HZ5eNg?e=8YQcoi)
+
+
 
 ## Rangement de l'équipement (15 minutes)
 
