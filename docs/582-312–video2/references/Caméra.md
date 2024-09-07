@@ -40,6 +40,7 @@
   - **Important :** Activez **SteadyShot** uniquement si vous filmez à main levée, car cela peut créer un flou si utilisé sur un trépied ou un stabilisateur.
 
 
+# * [Réglages de la lumière](./references/Lumière.md)
 
 ---
 
