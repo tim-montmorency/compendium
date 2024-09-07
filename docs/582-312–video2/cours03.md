@@ -1,6 +1,8 @@
 # Cours 3
   
 
+Présentation de la liste d'équipement
+
 
 * [Réglages de la caméra](./references/Caméra.md)
 * [Réglages du moniteur](./references/Moniteur.md)
