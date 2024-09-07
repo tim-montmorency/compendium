@@ -39,18 +39,41 @@
   - Allez dans **Menu** > **2** (Page 4) pour désactiver **SteadyShot** si vous utilisez un trépied ou un stabilisateur comme la Ronin.  
   - **Important :** Activez **SteadyShot** uniquement si vous filmez à main levée, car cela peut créer un flou si utilisé sur un trépied ou un stabilisateur.
 
+
+# Consignes 
+
+
+
+
 ---
 
-# Mise au point et balance des blancs
+# Consignes pour la Sony A6500
+
+- [ ] **Régler la balance des blancs (K)**  
+  - Utilisez le **bouton FN** (situé à l'arrière de la caméra).
+  - Sélectionnez **AWB** dans le menu, puis ajustez la température en Kelvin (K) en fonction de la lumière ambiante.
+  - Validez la balance des blancs pour obtenir une cohérence avec les sources lumineuses disponibles.
 
 - [ ] **Mise au point manuelle (MF)**  
-  - Appuyez sur le bouton **FN** à l'arrière de la caméra pour basculer en mode **MF** (Mise au point manuelle).
-  - Si nécessaire, appuyez sur le bouton **AF/MF** pour réactiver l'autofocus ponctuellement en mode manuel.
+  - Revenez dans le **menu FN** pour régler la mise au point sur **manuel (MF)**.
+  - Utilisez la fonction **loupe de mise au point** (Focus Magnifier) pour zoomer sur le sujet et vous assurer de sa netteté.
+  - Vérifiez la mise au point sur l'écran ou le moniteur externe.
 
-- [ ] **Balance des blancs**  
-  - Utilisez le bouton **FN** pour accéder aux réglages de la balance des blancs (AWB).
-  - Choisissez une température en Kelvin (K) pour ajuster la balance des couleurs selon l’éclairage ambiant soit la température de couleur des lumières. 
+- [ ] **Régler la vitesse d’obturation**  
+  - Utilisez la **molette située en haut à droite** pour ajuster la vitesse d’obturation.
+  - Pour une capture à **24 images par seconde**, réglez la vitesse d'obturation à **1/48** pour obtenir un rendu cinématographique naturel.
+  - **Effet de flou de mouvement** : Baissez la vitesse d’obturation à **1/30** ou moins pour obtenir un effet de flou sur les objets en mouvement.
+  - **Image plus nette** : Augmentez la vitesse d’obturation à **1/100** ou plus pour figer les objets en mouvement et obtenir une image plus nette.
 
----
+- [ ] **Régler les ISO**  
+  - Utilisez le **bouton FN** pour accéder au menu ISO.
+  - L’ISO maximum recommandé est **6400** pour éviter l'apparition de bruit numérique dans l'image.
+
+- [ ] **Régler l’ouverture (f-stop)**  
+  - Utilisez la **molette située à l'arrière de la caméra** pour ajuster l’ouverture.
+  - Cela permet de contrôler la profondeur de champ et la quantité de lumière entrant dans l'objectif.
+
+- [ ] **Enregistrement vidéo**  
+  - Pour démarrer l'enregistrement, appuyez sur le **bouton rouge** situé en **haut à droite** de l'appareil.
 
 
