@@ -8,6 +8,7 @@
 
 ## Montage de l'équipement (30 minutes)
 * [Réglages de la caméra](./references/Caméra.md)
+* [Montage du slider](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eru7cOt2O35EqiZiLw_iLxYBUF6vbCuISjIeTXXn1iXJKQ?e=0OoiDH)
 * [Réglages du moniteur](./references/Moniteur.md)
 
 ## Exercices de vidéo (130 minutes)
