@@ -1,4 +1,4 @@
-# Démarrage rapide de la caméra Sony A6500
+# Réglage caméra A6500
 
 - [ ] **Branchement et alimentation**  
   - Branchez la caméra à l'aide de la batterie connectée au mur ou utilisez une batterie autonome si vous filmez à l'extérieur.
