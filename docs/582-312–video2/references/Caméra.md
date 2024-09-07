@@ -23,6 +23,9 @@
 
 # Réglages dans les menus
 
+---
+
+
 - [ ] **Réinitialisation des réglages**  
   - Allez dans **Menu** > **Valise** (Page 7) pour rétablir les réglages d'usine.
 
