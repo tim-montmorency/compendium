@@ -1,7 +1,7 @@
 # Cours 3
   
 
-Présentation de la liste d'équipement
+[Présentation de la liste d'équipement](https://cmontmorency365.sharepoint.com/:x:/r/sites/TIM-programmeTIM752/Documents%20partages/TTP%20-%20R%C3%A9servations/582_312mo_video2_formulaire_emprunt.xlsx?d=w019db52437614b10bf53adea44e0ea16&csf=1&web=1&e=YGIkyg)
 
 * Revoir le focus manuel
 
