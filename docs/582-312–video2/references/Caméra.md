@@ -39,7 +39,7 @@
   - Allez dans **Menu** > **2** (Page 4) pour désactiver **SteadyShot** si vous utilisez un trépied ou un stabilisateur comme la Ronin.  
   - **Important :** Activez **SteadyShot** uniquement si vous filmez à main levée, car cela peut créer un flou si utilisé sur un trépied ou un stabilisateur.
 
-# * [Réglages de la caméra](./references/Lumière.md)
+* [Ici vous devez éclairer votre scène](./references/Lumière.md)
 
 ---
 
