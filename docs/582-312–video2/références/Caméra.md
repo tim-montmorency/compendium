@@ -1,5 +1,5 @@
-# ÉTAPES DE TOURNAGE
-## Réglage caméra A6500
+
+# Réglage caméra A6500
 
 - [ ] **Branchement et alimentation**  
   - Branchez la caméra à l'aide de la batterie connectée au mur ou utilisez une batterie autonome si vous filmez à l'extérieur.
@@ -21,7 +21,7 @@
 
 ---
 
-## Réglages dans les menus
+# Réglages dans les menus
 
 - [ ] **Réinitialisation des réglages**  
   - Allez dans **Menu** > **Valise** (Page 7) pour rétablir les réglages d'usine.
@@ -41,7 +41,7 @@
 
 ---
 
-## Mise au point et balance des blancs
+# Mise au point et balance des blancs
 
 - [ ] **Mise au point manuelle (MF)**  
   - Appuyez sur le bouton **FN** à l'arrière de la caméra pour basculer en mode **MF** (Mise au point manuelle).
