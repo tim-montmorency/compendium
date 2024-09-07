@@ -40,10 +40,6 @@
   - **Important :** Activez **SteadyShot** uniquement si vous filmez à main levée, car cela peut créer un flou si utilisé sur un trépied ou un stabilisateur.
 
 
-# Consignes 
-
-
-
 
 ---
 
@@ -75,5 +71,4 @@
 
 - [ ] **Enregistrement vidéo**  
   - Pour démarrer l'enregistrement, appuyez sur le **bouton rouge** situé en **haut à droite** de l'appareil.
-
 
