@@ -1,6 +1,6 @@
 Dans cet exercice, vous devrez mettre le code des pirates en page.    
 
-***  
+      
 
 
 ## Texte de départ
@@ -16,7 +16,7 @@ Il est interdit de gager de l'argent aux jeux de dés ou de cartes.
 Pas de combats entre les membres de l'équipage.     
 
 Signature: Tous les pirates pourront bénéficier de parts égales de nourriture et de boisson.    
-***  
+      
 ## Étapes
 
 - [ ] Créez une courbe et inscrire le titre à l'aide de l'outil curviligne.
@@ -29,7 +29,8 @@ Signature: Tous les pirates pourront bénéficier de parts égales de nourriture
 
 Aperçu du résultat:   
 <img src="images/code.jpg">
-***  
+      
 ## Tutoriel 📚
-[📁 Outil curviligne](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESzwupB5CgBMqzWMgS6_CXcBh5iB6h0wXK3QYmZCTALSvg?e=Rmrp5H){ .md-button }   <br>
+[📁 Outil curviligne](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESzwupB5CgBMqzWMgS6_CXcBh5iB6h0wXK3QYmZCTALSvg?e=Rmrp5H){ .md-button }      
+
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=90baf02c-0a79-4c00-ab35-8c812ebf0977&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="04_texte_captif_curviligne_horizontal.mp4"></iframe>
