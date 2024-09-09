@@ -1,6 +1,5 @@
-Cet exercice porte sur le lissage.    
-
-      
+# Lissage
+Cet exercice porte sur le lissage.      
 
 
 ## Étapes
