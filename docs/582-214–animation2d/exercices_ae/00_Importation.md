@@ -1,3 +1,4 @@
+# Importation
 Le but de cet exercice est de vous familiariser avec After Effects.   
       
 
