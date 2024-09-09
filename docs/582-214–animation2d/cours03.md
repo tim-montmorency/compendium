@@ -11,9 +11,9 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESzwupB5CgBMqzWMgS6_CXcBh5iB6h0wXK3QYmZCTALSvg?e=ZRHnrk">Texte captif horizontal</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbU9cAE0CrRLiPjL2sq9X_wBrzs3ey_2mCmVN8gjAmmGXQ?e=UtW8iM">Texte captif vertical</a>
  
-[🛠️ 11_mise_page](exercice_ai/11_mise_page.md){ .md-button }          
+[🛠️ Mise en page](exercice_ai/11_mise_page.md){ .md-button }          
 
-[🛠️ 11_typographie](exercice_ai/11_typographie.md){ .md-button }          
+[🛠️ Typographie](exercice_ai/11_typographie.md){ .md-button }          
       
 ### Précisions sur le travail 1
 
@@ -29,7 +29,7 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu">Fenêtre aspect pour modifier les effets</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY">Vectorisation (cactus)</a>
  
-[💼 travail1](exercice_ai/travail1.md){ .md-button }           
+[💼 Travail 1](exercice_ai/travail1.md){ .md-button }           
 
 
          
@@ -53,7 +53,7 @@ Préparation des fichiers Illustrator pour Importation dans After Effects
 Exercice:     
 
 Vérifier que le monstre créé dans le devoir 1 a ses calques séparés et bien nommés.   
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1.md){ .md-button }       
+[🛠️ Devoir 1](exercice_ai/04_devoir_1.md){ .md-button }       
     
 Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses calques:   
 [📁 Monstre](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EWi1_GaSvppBiCzFhWwRJ0oBXEHKaL-Eeuk9GKV11NlO1Q?e=hftzg5){ .md-button }       
@@ -74,7 +74,7 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERyofeISfvxKtZ8OKe8x4fsBd02slRMJeM6lhKMqr-Oc0Q?e=1z1l4P">Sauvegarder un projet</a>
  
 
-[🛠️ 04_Importation](exercices_ae/00_Importation.md){ .md-button }       
+[🛠️ Importation](exercices_ae/00_Importation.md){ .md-button }       
 
       
 ### Navigation et images clés
@@ -88,11 +88,11 @@ Si vous ne l'avez pas fait, téléchargez le monstre suivant et arrangez ses cal
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXiNcsHF3DdOro1QgYv5JzUBu2m3qFm7S_CI6t764SOcUg?e=hKjnBr">Raccourcis</a>
  
 
-[🛠️ 00_plante](exercices_ae/00_plante.md){ .md-button }       
+[🛠️ Plante](exercices_ae/00_plante.md){ .md-button }       
 
-[🛠️ 00_monstre](exercices_ae/00_monstre.md){ .md-button }       
+[🛠️ Monstre](exercices_ae/00_monstre.md){ .md-button }       
 
       
 ## Devoir
 Terminer le travail 1 partie 1     
-[💼 travail1](exercice_ai/travail1.md){ .md-button }         
+[💼 Travail 1](exercice_ai/travail1.md){ .md-button }         
