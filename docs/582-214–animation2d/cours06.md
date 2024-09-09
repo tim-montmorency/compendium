@@ -24,7 +24,7 @@
 ## Retour sur les exercices
 [🛠️ Devoir balle](exercices_ae/devoir_balle.md){ .md-button }       
 
-[🛠️ Devoir](exercices_ae/devoir_c4.md){ .md-button }       
+[🛠️ Devoir 4](exercices_ae/devoir_c4.md){ .md-button }       
 
       
 ## Continuer le travail 1 partie 2
