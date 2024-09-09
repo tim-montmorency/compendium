@@ -8,6 +8,9 @@
 
 ## Montage de l'équipement (30 minutes)
 * [Réglages de la caméra](./references/Caméra.md)
+* [Réglages de la lumière](./references/Lumière.md)
+* [Réglages du moniteur](./references/Moniteur.md)
+
 
 
 
