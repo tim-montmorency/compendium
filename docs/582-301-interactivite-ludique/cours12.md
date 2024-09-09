@@ -8,7 +8,11 @@ tags:
 
 # Sauvegarde et chargement
 
+Sauvegardes et chargement de partie
+—IndexedDB
+— JSON
+— LocalStorage
 
 ## Snap shot
 
-https://labs.phaser.io/index.html?dir=snapshot/&q=
+<https://labs.phaser.io/index.html?dir=snapshot/&q=>

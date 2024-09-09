@@ -1,11 +1,10 @@
 Le but de cet exercice est d'utiliser formater du texte grâce à une typographie
-***  
+***
 
 ## Matériel
-Télécharger le dossier de police "unique":      
+
+Télécharger le dossier de police "unique":
 [📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=veL2bB){ .md-button }   <br>
-
-
 
 ## Étapes
 
@@ -19,15 +18,8 @@ Télécharger le dossier de police "unique":
   - [ ] Espacement des lettres (Tracking) : 80
 - [ ] Faites en sorte que le texte reste à l'intérieur de la zone de sécurité des titres ("safe title") pour garantir une bonne lisibilité dans le format vidéo.
 
-      
+***
 
-
-***  
 ## Tutoriel 📚
+
 [📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcDOsZrLm2RLs9sElLYQaGkBTOMTfZS7uAs0s5ofUORH0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Gfhu3w){ .md-button }   <br>
-
-
-
-
-
-

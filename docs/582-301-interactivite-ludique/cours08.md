@@ -6,4 +6,7 @@ tags:
 
 [STOP]
 
-# Examen 01
+# Collisions
+
+Gestion de collision entre objets dynamiques
+Transition fluide d'états

@@ -6,8 +6,6 @@ tags:
 
 [STOP]
 
-
-
-# Effets (Fx)
-
-https://labs.phaser.io/index.html?dir=fx/&q=
+Implémentation de prérequis
+— Niveau, possession, compétense, quête, temps, choix,
+équipement, condition ou accomplissement

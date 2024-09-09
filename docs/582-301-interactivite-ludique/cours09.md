@@ -8,10 +8,10 @@ tags:
 
 # Faire un jeu
 
+Création d'une expérience complète, interactive et ludique
+
 Objectif : Shoot et frappe une cible :
-https://phaser.io/sandbox/?src=src\game%20objects\particle%20emitter\particle%20physics%20body%20overlap.js
-
-
+<https://phaser.io/sandbox/?src=src\game%20objects\particle%20emitter\particle%20physics%20body%20overlap.js>
 
 Éléments d'un jeu
 HP

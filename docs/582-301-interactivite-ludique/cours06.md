@@ -6,10 +6,12 @@ tags:
 
 [STOP]
 
-# Audio
+# Matrice d'images & états
 
-https://phaser.io/sandbox/?src=src\audio\HTML5%20Audio\basic%20playback%20and%20events.js
+Animations sprite
 
-Sprite audio
+play
+<https://phaser.io/sandbox/?src=src\animation\aseprite%20animation.js>
 
-https://phaser.io/sandbox/?src=src\audio\HTML5%20Audio\markers%20play.js
+Gestion des états et vélocités relatives
+— Marche, saut, attaque, attente, etc.
