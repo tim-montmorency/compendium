@@ -1,3 +1,4 @@
+# Transparence
 Cet exercice vous permettra d'utiliser la fonction transparence pour appliquer un motif.   
 
       
