@@ -46,7 +46,7 @@
 * [Réglages du Sound Device](./references/Sound_device.md)
 
 ## Powerpoint 
-[Les bases de la caméra et de l'éclairage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ES3aENrFd3xGo4k-LG6Ga-YBZVk1bE-HDOUN2gRRFoPdUQ?e=7ydfsn)
+* [Les bases de la caméra et de l'éclairage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ES3aENrFd3xGo4k-LG6Ga-YBZVk1bE-HDOUN2gRRFoPdUQ?e=7ydfsn)
 * [Le son et protocole de tournage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/Ef03A9FT-YdOiXknjJVdRkQBlzZ3r3HL9orQbhAi1inuQg?e=Mdbw1f)  
 * [Settings du sound device](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/flpilote_cmontmorency_qc_ca/ETwfhWoZO9hDtR_y5sIoNXkBgIV9SDHDmEBRo6yGlO-6MQ?e=xeJPGM)
 * [Green screen](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)  
