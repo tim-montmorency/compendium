@@ -1,11 +1,7 @@
-
-
-
-
 ## Matériel
-[📁 Dossier avec un projet After Effects](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Em3ka70GpaFItPtze4lQHTMBGxgavowVxGJ61L9_9mpfUQ?e=V2oGhw){ .md-button }   <br>
+[📁 Dossier avec un projet After Effects](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Em3ka70GpaFItPtze4lQHTMBGxgavowVxGJ61L9_9mpfUQ?e=V2oGhw){ .md-button }       
 
-***  
+      
 
 
 ## Étapes
@@ -24,11 +20,11 @@
 - [ ] Refaites la même procédure pour la seconde voiture.
 
 
-***  
+      
 
 ## Tutoriel 📚
 
-[📖 Pour en savoir plus](https://helpx.adobe.com/ca_fr/after-effects/how-to/animate-along-path.html?playlist=/services/playlist.helpx/products:SG_AFTEREFFECTS_1_1/learn-path:key-techniques/set-header:animating-essentials/playlist:topic/fr_CA.json&ref=helpx.adobe.com){ .md-button }   <br>
+[📖 Pour en savoir plus](https://helpx.adobe.com/ca_fr/after-effects/how-to/animate-along-path.html?playlist=/services/playlist.helpx/products:SG_AFTEREFFECTS_1_1/learn-path:key-techniques/set-header:animating-essentials/playlist:topic/fr_CA.json&ref=helpx.adobe.com){ .md-button }       
 
 
 
