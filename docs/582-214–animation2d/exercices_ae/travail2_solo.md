@@ -1,3 +1,4 @@
+# Travail 2 solo
 Pour les étudiants qui ne suivent pas le cours de vidéo, voici les consignes du travail final.    
 
 Vous devez réaliser une animation de style Bauhaus d'une durée de 60 à 120 secondes en format 1920 x 1080. Vous devez animer à partir d'une musique choisie ou de votre propre composition sonore.   
