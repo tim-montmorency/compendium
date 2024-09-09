@@ -2,9 +2,9 @@
 
 Importez le fichier Illustrator suivant dans un nouveau projet After Effects:  
 
-[📁 Fichier Illustrator à importer](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EePOiuJkHTpCq85Df3b9YDUBf6WSSBiVP6oZ783lUHX52A?e=hBBsqs){ .md-button }   <br>
+[📁 Fichier Illustrator à importer](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EePOiuJkHTpCq85Df3b9YDUBf6WSSBiVP6oZ783lUHX52A?e=hBBsqs){ .md-button }       
 
-***  
+      
 
 
 ## Étapes
@@ -17,11 +17,11 @@ Le but de l’exercice est d'utiliser l’outil marionnette pour animer la jambe
 - [ ] Animer la rotation du genou pour que le personnage donne un coup de pied.
 
 
-***  
+      
 
 
 ## Tutoriel 📚
 
-[📁 Coin et empoin](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbwIa3V4m5dEpattp9VY7AABBGizbCeEnxvn8iBYMNXc6g?e=gqQtdH){ .md-button }   <br>
+[📁 Coin et empoin](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbwIa3V4m5dEpattp9VY7AABBGizbCeEnxvn8iBYMNXc6g?e=gqQtdH){ .md-button }       
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=756b08bc-9b78-4497-a5ab-6da7d558ec00&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_marionnette_coin_empoi_et_avance.mov"></iframe>
