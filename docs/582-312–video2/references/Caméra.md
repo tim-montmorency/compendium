@@ -46,6 +46,29 @@
   - **Important :** Activez **SteadyShot** uniquement si vous filmez à main levée, car cela peut créer un flou si utilisé sur un trépied ou un stabilisateur.
 
 
+# Utilisation du moniteur Feelworld 4K avec fonction Peaking
+
+- [ ] **Branchement et alimentation**  
+  - Branchez le moniteur à l'aide de la batterie connectée au mur ou utilisez une batterie autonome si vous êtes à l'extérieur.
+  - Fixez l'alimentation du moniteur avec du velcro sur le trépied et utilisez une powerbar pour sécuriser les câbles. Assurez-vous qu'aucun fil ne traîne dans les airs pour éviter tout risque de chute ou d'endommagement.
+
+- [ ] **Fixation du moniteur**  
+  - Fixez solidement le moniteur sur un trépied ou directement sur la caméra, selon vos besoins.
+
+- [ ] **Connexion à la caméra**  
+  - Connectez le moniteur à la caméra à l'aide d'un câble HDMI pour assurer une transmission d'image fluide.
+
+- [ ] **Réglage du volume**  
+  - Accédez au **menu** du moniteur, puis utilisez les **flèches** pour descendre le volume à un niveau minimal ou à votre convenance.
+
+- [ ] **Activation du Peaking**  
+  - Accédez au **menu d'outils** du moniteur.
+  - Recherchez l'option **Peaking** dans le menu.
+  - Réglez la couleur du **Peaking** sur **vert** pour une meilleure visibilité de la mise au point.
+  - Activez la fonction **Peaking** en appuyant sur le bouton **F2** du moniteur. Ce bouton permet d'activer ou de désactiver rapidement le Peaking.
+
+
+
 
 # Consignes pour la gestion de l'éclairage
 
@@ -62,13 +85,14 @@
   - Partagez votre vision avec votre équipe, en expliquant le "feeling" que vous souhaitez obtenir avec la lumière. Comment la lumière aidera-t-elle à raconter l'histoire et à dramatiser la photographie que vous voulez réaliser ?
 
 - [ ] **Placer la première source lumineuse (Key Light)**  
-  - Installez la **Key Light**, la lumière principale qui éclairera le plus le sujet. Elle peut être placée devant ou derrière le mannequin, en fonction de l'effet recherché et des intentions du photographe.
+  - Installez la **Key Light**, la lumière principale qui éclairera le plus le sujet. Elle peut être placée devant ou derrière le mannequin, en fonction de l'effet recherché et des intentions du photographe. Réglez les kelvins et ajoutez un gel si désiré. 
+     
 
 - [ ] **Ajouter la deuxième source lumineuse (Fill Light)**  
-  - Ajoutez une **Fill Light** (lumière d'ambiance) pour éclairer les zones d'ombre créées par la **Key Light**. Le **Fill Light** réduit le contraste entre les zones claires et sombres sur le mannequin.
+  - Ajoutez une **Fill Light** (lumière d'ambiance) pour éclairer les zones d'ombre créées par la **Key Light**. Le **Fill Light** réduit le contraste entre les zones claires et sombres sur le mannequin. Réglez les kelvins et ajoutez un gel si désiré. 
 
 - [ ] **Ajouter une Back Light (lumière de décrochage)**  
-  - Installez une **Back Light** pour détacher le sujet du fond et découper sa silhouette. Cela permet de créer un effet visuel plus dramatique et de bien séparer le sujet de l'arrière-plan.
+  - Installez une **Back Light** pour détacher le sujet du fond et découper sa silhouette. Cela permet de créer un effet visuel plus dramatique et de bien séparer le sujet de l'arrière-plan. Réglez les kelvins et ajoutez un gel si désiré. 
 
 
 
@@ -84,7 +108,6 @@
 
 - [ ] **Mise au point manuelle (MF)**  
   - Revenez dans le **menu FN** pour régler la mise au point sur **manuel (MF)**.
-  - Utilisez la fonction **loupe de mise au point** (Focus Magnifier) pour zoomer sur le sujet et vous assurer de sa netteté.
   - Vérifiez la mise au point sur l'écran ou le moniteur externe.
 
 - [ ] **Régler la vitesse d’obturation**  
