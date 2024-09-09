@@ -41,7 +41,7 @@
 
 ## Tout pour vos tournage - les réglages
 * [Réglages de la caméra](./references/Caméra.md)
-* [Réglages du lumière](./references/Lumière.md)
+* [Réglages de la lumière](./references/Lumière.md)
 * [Réglages du moniteur](./references/Moniteur.md)
 * [Réglages du Sound Device](./references/Sound_device.md)
 
