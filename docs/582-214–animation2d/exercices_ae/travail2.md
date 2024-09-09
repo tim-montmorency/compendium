@@ -1,30 +1,31 @@
 Créer un sixtyque où l’on retrouve six vidéos qui sont présentées sous forme de mosaïque (3 vidéos – 3 animations). Dans le cadre du cours d’animation 2D, vous devez réaliser les 3 vidéos d’animations vectorielles et un générique d’animation. Le stop motion et les animations doivent se répondre mutuellement au sein d’une même unité visuelle.       
 
-***  
+      
 
 ## Références
 Voici un moodboard de références visuelles pour l'esthétique Bauhaus que vous devez respecter dans votre projet.   
 
-[📁 Esthétique Bauhaus Françoise ](https://pin.it/1ncLa2VPO){ .md-button }   <br>
+[📁 Esthétique Bauhaus Françoise ](https://pin.it/1ncLa2VPO){ .md-button }       
 
-[📁 Esthétique Bauhaus Lora ](https://pin.it/2x4UvHcUo){ .md-button }   <br>
+[📁 Esthétique Bauhaus Lora ](https://pin.it/2x4UvHcUo){ .md-button }       
 
 Vous trouverez ici des références de courtes animations:   
 
-[📁 9 squares](https://9-squares.tumblr.com/){ .md-button }   <br>
-***  
+[📁 9 squares](https://9-squares.tumblr.com/){ .md-button }       
+      
 
 ## Gabarit de projet
 Utilisez la structure de dossiers suivante pour votre projet:   
 
-[📁 Structure de dossiers ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=vy436h){ .md-button }   <br>
+[📁 Structure de dossiers ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=vy436h){ .md-button }       
 
     
-Voici le gabarit de powerpoint pour votre présentation orale:     
-[📁 Modèle de présentation ](https://cmontmorency365.sharepoint.com/:p:/s/TIM-582214-Animation2d77/Ea_ZHPKtkI9Cvo2Htms154ABvjG2KmSUX8Z0CPJ06S3GWA?e=inPtve){ .md-button }   <br>
+Voici le gabarit de powerpoint pour votre présentation orale:       
+
+[📁 Modèle de présentation ](https://cmontmorency365.sharepoint.com/:p:/s/TIM-582214-Animation2d77/Ea_ZHPKtkI9Cvo2Htms154ABvjG2KmSUX8Z0CPJ06S3GWA?e=inPtve){ .md-button }       
 
 
-***  
+      
 
 
 
@@ -47,7 +48,7 @@ En plus de présenter les éléments ci-haut, vous devez les remettre de la faç
 - [ ] Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe par Françoise et moi, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo).
 
 
-***  
+      
 
 ## 2. Les illustrations
 Voici les critères du livrable:   
@@ -58,14 +59,15 @@ Voici les critères du livrable:
 - [ ] Bien nommer tous les calques.
 - [ ] Séparer les éléments animables inviduellement sur leur propre calque.
 
-Au besoin consulter les tutoriels suivants:   
-[📁 Sauvegarde](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=OpgCHb){ .md-button }   <br>
+Au besoin consulter les tutoriels suivants:     
 
-[📁 Séparer éléments en calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=o0eVt7){ .md-button }   <br>
+[📁 Sauvegarde](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=OpgCHb){ .md-button }       
 
-[📁 Nommer calques avant l'import dans AE](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=dZd7LI){ .md-button }   <br>
+[📁 Séparer éléments en calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=o0eVt7){ .md-button }       
 
-***  
+[📁 Nommer calques avant l'import dans AE](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=dZd7LI){ .md-button }       
+
+      
 
 ## 3. Les animations
 Voici le contenu du livrable:   
@@ -80,11 +82,12 @@ Voici le contenu du livrable:
 - [ ] Attention. L’exportation prend beaucoup de temps alors prévoyez quelques heures pour cette étape avant la remise.
 - [ ] Dans le dossier 03_exportation, créez un dossier au nom de chaque co-équipier. Chaque personne doit remettre ses exportations dans le dossier à son nom.
 - [ ] Déposez votre dossier de projet à l'endroit indiqué par votre enseignante (une seule remise par équipe).
+ 
+Au besoin consulter les tutoriels suivants:     
 
-Au besoin consulter les tutoriels suivants:   
-[📁 01_Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=AbtBEt){ .md-button }   <br>
+[📁 01_Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=AbtBEt){ .md-button }       
 
-***  
+      
 
 ### Contraintes visuelles de l'animation 2D - mosaïque
 
@@ -92,7 +95,7 @@ Au besoin consulter les tutoriels suivants:
 - [ ] Vous devez respecter l'esthétique Bauhaus donnée dans les références.
 - [ ] Les éléments animés doivent être abstraits.
 
-***  
+      
 
 ### Contraintes techniques de l'animation 2D - mosaïque
 Vous devez utiliser au moins 3 techniques d'animation parmis les suivantes:   
@@ -107,34 +110,34 @@ Vous devez utiliser au moins 3 techniques d'animation parmis les suivantes:
 Les tutoriels suivants peuvent vous aider pour les techniques:      
 
 
-[📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }   <br>
+[📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }       
 
 ![Masque](images/05_ae_masque_02.webp){: style="height:250px;width:250px"}   
 
 
-[📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }   <br>
+[📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }       
 
 ![Mode de fusion](images/fusion.webp){: style="height:250px;width:250px"}     
 
-[📁 Liquide](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkOtH_91pKlAsV4vzSlmOXwBavqbaGHD7lMQgkgxlsVeXw?e=n3979a){ .md-button }   <br>
+[📁 Liquide](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkOtH_91pKlAsV4vzSlmOXwBavqbaGHD7lMQgkgxlsVeXw?e=n3979a){ .md-button }       
 
 ![Liquide](images/larme.webp){: style="height:250px;width:250px"}  ![Liquide 2](images/vague.webp){: style="height:250px;width:250px"}       
 
-[📁 Onde progressive](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EtHtcvlNfNRGq9sUcwiMsEcBZpGyFpa0JVI7YoeEQ1Gh6A?e=48kYHX){ .md-button }   <br>
+[📁 Onde progressive](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EtHtcvlNfNRGq9sUcwiMsEcBZpGyFpa0JVI7YoeEQ1Gh6A?e=48kYHX){ .md-button }       
 
 ![Onde progressive](images/Onde3.webp){: style="height:250px;width:250px"}  ![Onde progressive 2](images/Onde02.webp){: style="height:250px;width:250px"}   
     
 
-[📁 Formes concentriques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Es_qhlnLNYFNvOUT_2yloAUB5yd_m9yUf6VfYQx6FMKDJA?e=sBcTAC){ .md-button }   <br>
+[📁 Formes concentriques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Es_qhlnLNYFNvOUT_2yloAUB5yd_m9yUf6VfYQx6FMKDJA?e=sBcTAC){ .md-button }       
 
 ![Formes concentriques](images/Formes.webp){: style="height:250px;width:250px"}       
 
-[📁 Réduction des tracés](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek9uS3COSVxJqST6a3OE38ABQS2M_Y_Y_nsWIsjc6QaCPg?e=ROOaY4){ .md-button }   <br>
+[📁 Réduction des tracés](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek9uS3COSVxJqST6a3OE38ABQS2M_Y_Y_nsWIsjc6QaCPg?e=ROOaY4){ .md-button }       
 
-[📁 Tracer des lignes triples dans illustrator](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eu9eP62hzEpBsUWwqQbtwEIBrIxX0R5RNNcw-OwCk6SWPQ?e=sv3nOJ){ .md-button }   <br>
+[📁 Tracer des lignes triples dans illustrator](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eu9eP62hzEpBsUWwqQbtwEIBrIxX0R5RNNcw-OwCk6SWPQ?e=sv3nOJ){ .md-button }       
 
 
-*** 
+     
 
 ## 4. Les génériques (INDIVIDUEL)
 Voici le contenu du livrable:   
@@ -149,9 +152,9 @@ Voici le contenu du livrable:
 
 Au besoin consulter les tutoriels suivants:   
 
-[📁 01_Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=AbtBEt){ .md-button }   <br>
+[📁 01_Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=AbtBEt){ .md-button }       
 
-***  
+      
 
 
 ### Contraintes visuelles de l'animation 2D - générique
@@ -162,7 +165,7 @@ Au besoin consulter les tutoriels suivants:
 - [ ] Vous devez animer l’arrière-plan.
 - [ ] Respecter les safe title.
 
-***  
+      
 ### Contraintes techniques de l'animation 2D - générique
 
 Vous devez utiliser au moins 2 techniques d'animation parmis les suivantes (différentes de vos techniques pour la mosaïque):   
@@ -177,21 +180,21 @@ Vous devez utiliser au moins 2 techniques d'animation parmis les suivantes (diff
 
 Les tutoriels suivants peuvent vous aider pour les techniques:   
 
-[📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }   <br>
+[📁 Masque ](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek7FYbr7q-hHg7Qa841ss4IBCVLPRBhKHlmagOIWBltWpQ?e=f8psc0){ .md-button }       
 
-[📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }   <br>
+[📁 Mode de fusion](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ7goNzRxF1Os89y3U15jF4BLavg3yHNz5357WyT-L2eUQ?e=HRYc0g){ .md-button }       
 
-[📁 Liquide](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkOtH_91pKlAsV4vzSlmOXwBavqbaGHD7lMQgkgxlsVeXw?e=n3979a){ .md-button }   <br>
+[📁 Liquide](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EkOtH_91pKlAsV4vzSlmOXwBavqbaGHD7lMQgkgxlsVeXw?e=n3979a){ .md-button }       
 
-[📁 Onde progressive](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EtHtcvlNfNRGq9sUcwiMsEcBZpGyFpa0JVI7YoeEQ1Gh6A?e=48kYHX){ .md-button }   <br>
+[📁 Onde progressive](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EtHtcvlNfNRGq9sUcwiMsEcBZpGyFpa0JVI7YoeEQ1Gh6A?e=48kYHX){ .md-button }       
 
-[📁 Formes concentriques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Es_qhlnLNYFNvOUT_2yloAUB5yd_m9yUf6VfYQx6FMKDJA?e=sBcTAC){ .md-button }   <br>
+[📁 Formes concentriques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Es_qhlnLNYFNvOUT_2yloAUB5yd_m9yUf6VfYQx6FMKDJA?e=sBcTAC){ .md-button }       
 
-[📁 Réduction des tracés](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek9uS3COSVxJqST6a3OE38ABQS2M_Y_Y_nsWIsjc6QaCPg?e=ROOaY4){ .md-button }   <br>
+[📁 Réduction des tracés](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Ek9uS3COSVxJqST6a3OE38ABQS2M_Y_Y_nsWIsjc6QaCPg?e=ROOaY4){ .md-button }       
 
-[📁 Tracer des lignes triples dans illustrator](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eu9eP62hzEpBsUWwqQbtwEIBrIxX0R5RNNcw-OwCk6SWPQ?e=sv3nOJ){ .md-button }   <br>
+[📁 Tracer des lignes triples dans illustrator](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eu9eP62hzEpBsUWwqQbtwEIBrIxX0R5RNNcw-OwCk6SWPQ?e=sv3nOJ){ .md-button }       
 
-***  
+      
 
 ### Contraintes de contenu de l'animation 2D - générique
 Le générique doit contenir:   
@@ -205,7 +208,7 @@ Le générique doit contenir:
 - [ ] Avant-dernier carton: Un merci aux TTP William Racine et Antoine Allard
 - [ ] Dernier carton: le logo TIM: logo_tim (animer le logo en style motion design)
 
-***  
+      
 
 ## 5. La remise finale
 Voici le contenu du livrable:   
@@ -217,7 +220,7 @@ Voici le contenu du livrable:
 - [ ] Vous devez être présent le jour de la remise, c'est comme un examen. Vous serez évalués en classe par moi et Françoise, conjointement (moi pour la partie 2d et Françoise pour la partie vidéo).
 - [ ] Déposez votre dossier de projet NON-COMPRESSÉ à l'endroit indiqué par l'enseignante (une seule remise par équipe).
 
-***  
+      
 
 ## Méthode de travail
 
