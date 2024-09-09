@@ -1,5 +1,5 @@
 Cet exercice vous permettra de créer un effet de 3d sur vos textes.     
-***  
+      
 
 
 ## Étapes
@@ -15,10 +15,10 @@ Cet exercice vous permettra de créer un effet de 3d sur vos textes.
 - [ ] Finalement, animez le nombre de copie ainsi que la position des deux lettres pour créer un effet de trois dimension.
 
 
-***  
+      
 
 
 ## Tutoriel 📚
-[📁 Lettre en 3D](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVdQNho5RytFh6UUKRjBA3wBEe4o7k5f4S6gdjQcBsi56w?e=3H46lj){ .md-button }   <br>   
+[📁 Lettre en 3D](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVdQNho5RytFh6UUKRjBA3wBEe4o7k5f4S6gdjQcBsi56w?e=3H46lj){ .md-button }          
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=1a365057-4739-452b-87a5-142918c1037c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="effet_3d_lettre.mp4"></iframe>
