@@ -38,7 +38,7 @@
         
 
 
-[🛠️ 00_transformations](./exercice_ai/00_transformations.md){ .md-button }   
+[🛠️ Transformations](./exercice_ai/00_transformations.md){ .md-button }   
       
 ### Sélection complexe et outil plume
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaDI5ZSDJzhEnBU3VXJ1zt8B47tGZ8ZoJeTMfisebov2BQ?e=328kHA">Baguette magique</a>
@@ -47,11 +47,11 @@
 - <a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr">Plume (P)</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a>
   
-[🛠️ 01_plume](./exercice_ai/01_plume.md){ .md-button }   
+[🛠️ Plume](./exercice_ai/01_plume.md){ .md-button }   
 
-[🛠️ 01_vagues](./exercice_ai/01_vagues.md){ .md-button }   
+[🛠️ Vagues](./exercice_ai/01_vagues.md){ .md-button }   
 
-[🛠️ 01_voiture](./exercice_ai/01_voiture.md){ .md-button }   
+[🛠️ Voiture](./exercice_ai/01_voiture.md){ .md-button }   
       
 
 ### Largeur et déformation
@@ -61,9 +61,9 @@
 
  
 
-[🛠️ 02_largeur](./exercice_ai/02_largeur.md){ .md-button }   
+[🛠️ Largeur](./exercice_ai/02_largeur.md){ .md-button }   
 
-[🛠️ 02_deformation](./exercice_ai/02_deformation.md){ .md-button }   
+[🛠️ Déformation](./exercice_ai/02_deformation.md){ .md-button }   
       
 ### Formes
 
@@ -78,7 +78,7 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a>
  
 
-[🛠️ 03_formes](./exercice_ai/03_formes.md){ .md-button }   
+[🛠️ Formes](./exercice_ai/03_formes.md){ .md-button }   
       
 ### Ciseaux et sauvegarde
 
@@ -88,8 +88,8 @@
       
 
 ## Devoir
-[🛠️ 04_maison](./exercice_ai/04_maison.md){ .md-button }    
+[🛠️ Maison](./exercice_ai/04_maison.md){ .md-button }    
 
-[🛠️ 04_formes_simples](./exercice_ai/04_formes_simples.md){ .md-button }   
+[🛠️ Formes simples](./exercice_ai/04_formes_simples.md){ .md-button }   
 
-[🛠️ 04_devoir_1](./exercice_ai/04_devoir_1.md){ .md-button }   
+[🛠️ Devoir 1](./exercice_ai/04_devoir_1.md){ .md-button }   
