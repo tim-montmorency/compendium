@@ -1,11 +1,11 @@
 # Cours 2      
 
 ## Retour sur le devoir   
-[🛠️ 04_maison](exercice_ai/04_maison.md){ .md-button }   
+[🛠️ Maison](exercice_ai/04_maison.md){ .md-button }   
     
-[🛠️ 04_formes_simples](exercice_ai/04_formes_simples.md){ .md-button }    
+[🛠️ Formes simples](exercice_ai/04_formes_simples.md){ .md-button }    
     
-[🛠️ 04_devoir_1](exercice_ai/04_devoir_1.md){ .md-button }    
+[🛠️ Devoir 1](exercice_ai/04_devoir_1.md){ .md-button }    
 
 
     
@@ -21,7 +21,7 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVQXT9fceRlGie7B72m9r7kB2HO8KaT1kRVhvWu2yvV0QA?e=wEvZsD">Simplifier les contours</a>
    
 
-[🛠️ 05_crayon_shaper](exercice_ai/05_crayon_shaper.md){ .md-button }    
+[🛠️ Crayon et shaper](exercice_ai/05_crayon_shaper.md){ .md-button }    
 
       
 ### Pinceau, découpe et vectorisation
@@ -33,9 +33,9 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYJAvExXxTZMtSkvOcHpmY4BFB9vIRqNkXUIPnRLT8MG1w?e=d9i3S6">Cutter</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVYeu9N1iG9MrndylAX0FCEBYlPJXMPRPQ5BPm0N4Jf6rw?e=uX8L5i">Vectoriser les contours</a>
    
-[🛠️ 06_papillon](exercice_ai/06_papillon.md){ .md-button }      
+[🛠️ Papillon](exercice_ai/06_papillon.md){ .md-button }      
 
-[🛠️ 06_pinceau](exercice_ai/06_pinceau.md){ .md-button }    
+[🛠️ Pinceau](exercice_ai/06_pinceau.md){ .md-button }    
       
 ### Couleurs
 
@@ -48,7 +48,7 @@
 
    
 
-[🛠️ 07_nuancier](exercice_ai/07_nuancier.md){ .md-button }    
+[🛠️ Nuancier](exercice_ai/07_nuancier.md){ .md-button }    
       
 ### Transformations et marionnette
 
@@ -61,7 +61,7 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbffAjE-YKVJgwiDrsyj6oUB5TwGqv1eoJH6DNpA_4F7TA?e=vAlCCc">Marionnette filet</a>
    
 
-[🛠️ 08_marionnette](exercice_ai/08_marionnette.md){ .md-button }    
+[🛠️ Marionnette](exercice_ai/08_marionnette.md){ .md-button }    
       
 ### Alignement
 
@@ -71,7 +71,7 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXW12cP0Y7FAhWo7D1LXOKkBa6cCvPUSEfJ-bkwRD5iTyg?e=qElAnj">Répartition</a>
    
 
-[🛠️ 09_pathfinder](exercice_ai/09_pathfinder.md){ .md-button }    
+[🛠️ Pathfinder](exercice_ai/09_pathfinder.md){ .md-button }    
       
 ### Masques
 
@@ -80,10 +80,10 @@
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXK9TJqqjEFFn0Wc9ZgFZhIBGhOdfNSoxoXmJRJtQPJJkA?e=q9rtSz">Masque, Transparence</a>
    
 
-[🛠️ 10_masques](exercice_ai/10_masques.md){ .md-button }        
+[🛠️ Masques](exercice_ai/10_masques.md){ .md-button }        
 
-[🛠️ 10_transparence](exercice_ai/10_transparence.md){ .md-button }    
+[🛠️ Transparence](exercice_ai/10_transparence.md){ .md-button }    
 
       
 ## Explication travail 1
-[💼 travail1](exercice_ai/travail1.md){ .md-button }       
+[💼 Travail 1](exercice_ai/travail1.md){ .md-button }       
