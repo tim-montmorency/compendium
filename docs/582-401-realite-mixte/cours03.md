@@ -30,6 +30,9 @@
 
 
 ## Bloc 2
+#### Exploration du son dans Unity (15 minutes)
+Quelles conclusions pouvez-vous faire? 
+
 #### Son
 [📝 Son](./unity/son.md){ .md-button }   
 
