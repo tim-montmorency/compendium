@@ -1,3 +1,4 @@
+# Modes de couleur
 Cet exercice vous permettra de modifier les couleurs de votre texte grâce aux modes de fusion.     
       
 
