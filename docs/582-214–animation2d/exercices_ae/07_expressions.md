@@ -1,9 +1,9 @@
 ## Matériel
 Importez le fichier illustrator suivant.   
 
-[📁 Fichier de départ](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESzWagam7JhDs2D5o7URAL4BctXk-kYhPgvdisH3tiveHA?e=nIO4lT){ .md-button }   <br> 
+[📁 Fichier de départ](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/ESzWagam7JhDs2D5o7URAL4BctXk-kYhPgvdisH3tiveHA?e=nIO4lT){ .md-button }        
 
-***  
+      
 
 
 ## Étapes dans les deux axes
@@ -28,11 +28,11 @@ Le but de l’exercice est de faire bouger l'autre abeille de façon aléatoire 
 - [ ] Animez la position en X pour que l'abeille avance pendant son wiggle.
 - [ ] N'oubliez pas le flou de mouvement!
 
-***  
+      
 
 
 ## Tutoriel 📚
 
-[📁 Wiggle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXPup2WiGjlNqT7tguOtZwsBMcTmzJwpHC-sFfDGUw2dcg?e=9ved45){ .md-button }   <br>   
+[📁 Wiggle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXPup2WiGjlNqT7tguOtZwsBMcTmzJwpHC-sFfDGUw2dcg?e=9ved45){ .md-button }          
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=65a7ee73-1aa2-4d39-a93e-ed82e3ad670b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="03_wiggle.mp4"></iframe>
