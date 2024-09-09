@@ -6,15 +6,15 @@ Correction en groupe de ce travail
       
 ## After Effects
 ### Typographie kinétique
-[🛠️ 09_experimentation_typo](exercices_ae/09_experimentation_typo.md){ .md-button }       
+[🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }       
     
-[🛠️ 09_modes_couleur](exercices_ae/09_modes_couleur.md){ .md-button }       
+[🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }       
     
-[🛠️ 09_typo_masque](exercices_ae/09_typo_masque.md){ .md-button }       
+[🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }       
     
-[🛠️ 09_texturing](exercices_ae/09_texturing.md){ .md-button }       
+[🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }       
     
-[🛠️ 09_3d_lettre](exercices_ae/09_3d_lettre.md){ .md-button }       
+[🛠️ Lettres en 3D](exercices_ae/09_3d_lettre.md){ .md-button }       
 
       
 ## Les 12 principes de l'animation
@@ -23,8 +23,8 @@ Correction en groupe de ce travail
 
       
 ## Présentation du travail 2 et de ses effets   
-[💼 travail2](exercices_ae/travail2.md){ .md-button }          
+[💼 Travail 2](exercices_ae/travail2.md){ .md-button }          
 
 Si vous n'avez pas le cours de vidéo, fiez-vous aux consignes suivantes:     
 
-[💼 travail2_solo](exercices_ae/travail2_solo.md){ .md-button }          
+[💼 Travail 2 solo](exercices_ae/travail2_solo.md){ .md-button }          
