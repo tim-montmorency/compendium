@@ -12,9 +12,9 @@ Correction en groupe de ce travail
 
 ### Retour sur les exercices   
 
-[🛠️ 00_plante](exercices_ae/00_plante.md){ .md-button }        
+[🛠️ Plante](exercices_ae/00_plante.md){ .md-button }        
 
-[🛠️ 00_monstre](exercices_ae/00_monstre.md){ .md-button }          
+[🛠️ Monstre](exercices_ae/00_monstre.md){ .md-button }          
       
 
 ### Gestion des calques
@@ -39,9 +39,9 @@ Correction en groupe de ce travail
 
 
 
-[🛠️ 01_avion](exercices_ae/01_avion.md){ .md-button }       
+[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
     
-[🛠️ 01_voiture](exercices_ae/01_voiture.md){ .md-button }       
+[🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }       
       
 
 ### Lissage
@@ -49,19 +49,19 @@ Correction en groupe de ce travail
 - <a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EuAJDVpPdTNDsK8cu5wm6vkB3ZlSxs0gTjWx2GY7BSxQig?e=ahNASr">Lissage (Démonstration)</a>
    
 
-[🛠️ 03_lissage](exercices_ae/03_lissage.md){ .md-button }          
+[🛠️ Lissage](exercices_ae/03_lissage.md){ .md-button }          
       
 ### Masques
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYyhwkByNIdBlxmqi1SU_WwBWgllOZVpAFtPxtrccaIGsg?e=h92keV">Masque</a>
    
 
-[🛠️ 04_cinema](exercices_ae/04_cinema.md){ .md-button }       
+[🛠️ Cinéma](exercices_ae/04_cinema.md){ .md-button }       
 
-[🛠️ 04_masque](exercices_ae/04_masque.md){ .md-button }          
+[🛠️ Masque](exercices_ae/04_masque.md){ .md-button }          
       
 ## Devoir
 Faire les exercices suivants en devoir:   
-[🛠️ devoir_balle](exercices_ae/devoir_balle.md){ .md-button }       
+[🛠️ Devoir balle](exercices_ae/devoir_balle.md){ .md-button }       
 
-[🛠️ devoir_c4](exercices_ae/devoir_c4.md){ .md-button }       
+[🛠️ Devoir](exercices_ae/devoir_c4.md){ .md-button }       
