@@ -1,3 +1,4 @@
+# Typograhie et masque
 Cet exercice vous permettra d'utiliser les masques et la réduction de tracer pour couper vos lettres et vos mots.    
 
        
