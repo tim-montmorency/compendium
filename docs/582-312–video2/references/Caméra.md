@@ -30,7 +30,7 @@
   - Allez dans **Menu** > **Valise** (Page 7) pour rétablir les réglages d'usine.
   - 
 - [ ] **Film/ralenti+accéleré**  
-  - Allez dans **Menu** > **2** (Page 1) Sélectionnez l'exposition manuelle: **Exposition Manuel** 
+  - Allez dans **Menu** > **2** (Page 1) Sélectionnez l'exposition manuelle: **Exposition Manuelle** 
 
 - [ ] **Format de fichier**  
   - Allez dans **Menu** > **2** (Page 1) et sélectionnez le format de fichier selon vos besoins : **XAVC S 4K** ou **HD**.
