@@ -31,6 +31,8 @@
 
 ## Bloc 2
 #### Exploration du son dans Unity (15 minutes)
+Défi: Faire jouer un son sur un GameObject. 
+
 Quelles conclusions pouvez-vous faire? 
 
 #### Son
