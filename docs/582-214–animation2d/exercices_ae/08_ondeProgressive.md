@@ -1,3 +1,4 @@
+# Onde progressive
 Le but de l’exercice est d'utiliser l’effet onde progressive pour animer les cheveux de l'homme comme s’ils étaient dans le vent.    
       
 ## Matériel
