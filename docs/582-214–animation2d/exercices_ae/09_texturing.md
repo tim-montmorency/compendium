@@ -1,3 +1,4 @@
+# Texturing
 Cet exercice vous permettra de faire jouer une animation dans les lettres d'un texte.     
       
 ## Matériel
