@@ -1,8 +1,7 @@
+# Mise en page
 Dans cet exercice, vous devrez mettre le code des pirates en page.    
 
       
-
-
 ## Texte de départ
 Titre: Code des pirates    
 

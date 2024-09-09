@@ -1,3 +1,4 @@
+# Typographie
 Dans cet exercice vous modifierez la typographie à l'aide des outils d'alignement.   
 
       
