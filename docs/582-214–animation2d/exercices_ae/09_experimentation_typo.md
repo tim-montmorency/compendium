@@ -1,3 +1,4 @@
+# Expérimentation typographie
 Cet exercice vous permettra d'explorer l'animation de typographie dans After Effects.      
 
       
