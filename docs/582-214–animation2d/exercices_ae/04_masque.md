@@ -1,3 +1,4 @@
+# Masque
 Le but de l’exercice est de dévoiler des objets grâce au déplacement de la loupe.   
       
 
