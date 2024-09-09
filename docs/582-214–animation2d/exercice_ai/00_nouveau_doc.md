@@ -1,3 +1,4 @@
+# Création d'un nouveau document
 Le but de cet exercice est de vous familiariser avec Illustrator.   
       
 
