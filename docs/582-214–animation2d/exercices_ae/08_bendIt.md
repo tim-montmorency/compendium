@@ -2,9 +2,9 @@
 
 Importez le fichier Illustrator suivant dans un nouveau projet After Effects: 
 
-[📁 Homme et plante](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESz1fLdIdnpOmwPS67Hp6tYBaEf4S9LIdNb1Y2zBKnWtNA?e=EvDAtL){ .md-button }   <br>
+[📁 Homme et plante](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESz1fLdIdnpOmwPS67Hp6tYBaEf4S9LIdNb1Y2zBKnWtNA?e=EvDAtL){ .md-button }       
 
-***  
+      
 
 ## Étapes arbre
 Le but de l’exercice est d'utiliser l’effet bend it pour animer un arbre qui plie à gauche et à droite. Il faudra également appliquer une rotation décalée par rapport au bend pour rendre le tout plus naturel.     
@@ -25,7 +25,7 @@ Le but de l’exercice est d'utiliser l’effet bend it pour animer un arbre qui
 - [ ] Utiliser l’expression loopOut(‘’pingpong’’) pour que cette rotation soit en continu elle aussi.
 - [ ] Sélectionner les keyframes de rotation et les décaler par rapport à ceux du bend.
 
-***  
+      
 
 ## Étapes copie sapin
 Une fois que l’animation de bend créée, la copier sur le sapin. 
@@ -36,11 +36,11 @@ Une fois que l’animation de bend créée, la copier sur le sapin.
 - [ ] Ajuster les points de bend et d’ancrage pour que l’animation fonctionne.
 
 
-***  
+      
 
 
 ## Tutoriel 📚
 
-[📁 Bend it](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }   <br>   
+[📁 Bend it](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }          
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=8e658622-2942-4640-bc79-768ba16d0124&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_vent_dans_arbres_bend_it.mov"></iframe>
