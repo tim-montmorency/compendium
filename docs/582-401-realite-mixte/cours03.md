@@ -14,7 +14,9 @@
 2. Quelles fonctions seront utilisées?    
 3. À quoi ressemblera le code?    
 
-(Écriture du code à la main)     
+Créer un schéma de programmation     
+
+Partage des schémas    
 
 
 #### Code
