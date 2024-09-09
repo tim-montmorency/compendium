@@ -1,3 +1,4 @@
+# Travail 2
 Créer un sixtyque où l’on retrouve six vidéos qui sont présentées sous forme de mosaïque (3 vidéos – 3 animations). Dans le cadre du cours d’animation 2D, vous devez réaliser les 3 vidéos d’animations vectorielles et un générique d’animation. Le stop motion et les animations doivent se répondre mutuellement au sein d’une même unité visuelle.       
 
       
