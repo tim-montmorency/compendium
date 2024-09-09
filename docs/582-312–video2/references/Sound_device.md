@@ -11,7 +11,7 @@
 ## RÉGLAGES
 
 - [ ] **Menu "hamburger" (trois lignes horizontales)**  
-  - **Presets** > **Load preset** > **Factory default**  
+  - **Presets** > **Load preset** > **Factory default** Pour activer le setting, il faut cliquer sur bouton sur le coté doit du Sound Device. 
   - Le **Factory default** est déjà configuré en **48 kHz**, **24 bits**, avec le limiteur activé par défaut.
 
 - [ ] **Menu "écouteurs"**  
