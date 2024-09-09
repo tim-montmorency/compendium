@@ -1,7 +1,7 @@
 ## Matériel
 Créez une nouvelle composition avec un cercle dedans. 
 
-***  
+      
 
 
 
@@ -18,16 +18,16 @@ Le but de l’exercice est d'expérimenter les expressions pour créer une anima
 - [ ] Ensuite, changer le texte pour le suivant : loopOut(‘’pingpong’’).
 
 
-***  
+      
 
 
 ## Tutoriel 📚
-[📁 Loop Out](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=23RGPG){ .md-button }   <br>   
+[📁 Loop Out](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=23RGPG){ .md-button }       
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=0825b6f7-ca97-4d44-9a64-cd93188f67ee&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="02_loop_out_ping_pong.mp4"></iframe>
 
-***  
+      
 
 
 ## Exercice suivant
-[🛠️ 07_expressions](07_expressions.md){ .md-button }   <br>
+[🛠️ 07_expressions](07_expressions.md){ .md-button }      
