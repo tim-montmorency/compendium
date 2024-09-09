@@ -1,35 +1,37 @@
 Voici les consignes pour la partie 2 du travail 1.    
 
-***  
+      
 ## Références
 Voici la vidéo de référence pour la composition de travail.   
 
-[📁 Vidéo de référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZigptqxGDFLuqCp7ZnqNOABc1tS5Zxa7Dpmn7x8RFDNQw?e=G9oOu8){ .md-button }   <br>
+[📁 Vidéo de référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZigptqxGDFLuqCp7ZnqNOABc1tS5Zxa7Dpmn7x8RFDNQw?e=G9oOu8){ .md-button }       
 
-***  
+      
 ## Vidéo obligatoire
-La vidéo suivante vous montre comment configurer votre projet.    
+La vidéo suivante vous montre comment configurer votre projet.     
+
 !!! info "Info"
 
     Lorsque vous importez le fichier illustrator dans After effects, choisissez Composition - Conserver la taille des calques (et non composition seulement).   
 
-[📁 Tutoriel explicatif](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV2wGhwKjstFn8bKoaa8oRkBV48akJFPByqmxeXwjBsTPw?e=5QAPKf){ .md-button }   <br>
+[📁 Tutoriel explicatif](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV2wGhwKjstFn8bKoaa8oRkBV48akJFPByqmxeXwjBsTPw?e=5QAPKf){ .md-button }       
 
 !!! warning "Attention"
 
     Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.
     
-La vidéo fait référence à un modèle de projet pour classer vos dossiers dans After effects, le voici:    
-[📁 Template ae](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQB_2AuJ605GsE_vsQJ49aQBtxYRRxM_KdRwQjB1v-eQLQ?e=smXun3){ .md-button }   <br>
+La vidéo fait référence à un modèle de projet pour classer vos dossiers dans After effects, le voici:      
+
+[📁 Template ae](https://cmontmorency365.sharepoint.com/:u:/s/TIM-582214-Animation2d77/EQB_2AuJ605GsE_vsQJ49aQBtxYRRxM_KdRwQjB1v-eQLQ?e=smXun3){ .md-button }       
 
 
-***  
+      
 ## Nomenclature externe
 Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-vous d'entregistrer vos cache dans le dossier 02_ae/cache.   
 
-[📁 Nomenclature externe](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=6641D6){ .md-button }   <br>
+[📁 Nomenclature externe](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhzUB0lTSO9Ehv18Q2naNSMBikNXXcw6-kzL57D-53bdPw?e=6641D6){ .md-button }       
 
-***  
+      
 
 ## Configuration de votre projet
 
@@ -39,7 +41,7 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Importez votre fichier Illustrator.
 - [ ] Créez une composition.
 
-***  
+      
 
 ## Composition de travail
 
@@ -47,31 +49,31 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Taille de l'exporation: 1920 x 1080 pixels
 - [ ] Durée: 28 secondes
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYWL-65wFlJOoaogTLxEL2YBtiKMXBnflO_q3b4K5AazQQ?e=gxITEv){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYWL-65wFlJOoaogTLxEL2YBtiKMXBnflO_q3b4K5AazQQ?e=gxITEv){ .md-button }       
 
 
 
 
-***  
+      
 ## Pluie
 
 - [ ] Rainfall
 - [ ] Pluie avec lignes et splash
 
-[📁 Vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbJ6mfvZbBpFo7I7J3KwfjgB9M0DBcp_QiHW4l2Mw3ekWA?e=H7qCey){ .md-button }   <br>
+[📁 Vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbJ6mfvZbBpFo7I7J3KwfjgB9M0DBcp_QiHW4l2Mw3ekWA?e=H7qCey){ .md-button }       
 
-[📁 Tutoriel](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EpH52uObCLVGt60wn-Zv0VYBlVrZ4LMAFhLgoXXnkW2WUQ?e=hB8Fbs){ .md-button }   <br>
+[📁 Tutoriel](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EpH52uObCLVGt60wn-Zv0VYBlVrZ4LMAFhLgoXXnkW2WUQ?e=hB8Fbs){ .md-button }       
 
-***  
+      
 
 ## Vélo
 
 - [ ] Rotation des roues et des pédales.
 - [ ] Déplacement du vélo de gauche à droite dans la case 02.
 
-[📁 Vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ6JY26grlZItuNeCgc9zAoBTxObV0t5HH-oL83IHhHDGg?e=tCPzy5){ .md-button }   <br>
+[📁 Vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZ6JY26grlZItuNeCgc9zAoBTxObV0t5HH-oL83IHhHDGg?e=tCPzy5){ .md-button }       
 
-***  
+      
 
 ## Oiseaux
 
@@ -79,17 +81,17 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Les mettre en parent enfant.
 - [ ] Créer un déplacement du groupe vers le coin supérieur droit.
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcHS22S74zxIhu60Xs_DVO0BuUxmWyPAC8VusN_Pp1mCWw?e=aNwpoC){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcHS22S74zxIhu60Xs_DVO0BuUxmWyPAC8VusN_Pp1mCWw?e=aNwpoC){ .md-button }       
 
-***  
+      
 
 ## Cactus noir et blanc
 
 - [ ] Appliquer un effet Bend it.
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXKnbJ0p8XNDsi3HMnaRxh4Bq5rdtlIZwga5XHdWI-znNA?e=BOA4rq){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXKnbJ0p8XNDsi3HMnaRxh4Bq5rdtlIZwga5XHdWI-znNA?e=BOA4rq){ .md-button }       
 
-***  
+      
 
 ## Cactus couleur
 
@@ -97,9 +99,9 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Les cactus par groupe de deux doivent être animés de façon symétrique.
 - [ ] Il doit y avoir un décalage entre les groupes de cactus.
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXokmWe0WGhOtcsj48M4bawBzoZ4ZQxnrBL7WlUa7WrxJQ?e=czLvpS){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXokmWe0WGhOtcsj48M4bawBzoZ4ZQxnrBL7WlUa7WrxJQ?e=czLvpS){ .md-button }       
 
-***  
+      
 
 ## Plantes
 
@@ -107,9 +109,9 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Utilisez également la rotation.
 - [ ] Vous assurez que les fleurs ont des mouvements différents les unes des autres.
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETG7FZac5wJHobkgqglNXDMB1dw7TROv7qFNxnBRKuvcYw?e=Z6KXW6){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETG7FZac5wJHobkgqglNXDMB1dw7TROv7qFNxnBRKuvcYw?e=Z6KXW6){ .md-button }       
 
-***  
+      
 
 ## Femme géante
 
@@ -120,9 +122,9 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Onde progressive pour les cheveux.
 
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETCSEcuktCNNri1L4lOJrlkB7kvZfQ60U5Kg2IuGcSF4oA?e=3rHzpO){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETCSEcuktCNNri1L4lOJrlkB7kvZfQ60U5Kg2IuGcSF4oA?e=3rHzpO){ .md-button }       
 
-***  
+      
 
 ## Femme parapluie
 
@@ -131,9 +133,9 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Parapluie enfant du bras.
 
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ee99_M5Xm45FgEBuXO6pCk0BW1-VBOVpBBXXc34IpwZhHQ?e=59TwpN){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ee99_M5Xm45FgEBuXO6pCk0BW1-VBOVpBBXXc34IpwZhHQ?e=59TwpN){ .md-button }       
 
-***  
+      
 
 ## Oeil
 
@@ -141,9 +143,9 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Déplacer l’oeil au complet: Lissage de vitesse, contrôle de la vitesse.
 - [ ] Fermer l’oeil
 
-[📁 Tutoriel](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EngXPJOAjptNpzmV8yhebgYBiTtM1Gw_ligcy_MS3LaYIw?e=yX8jqM){ .md-button }   <br>
+[📁 Tutoriel](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EngXPJOAjptNpzmV8yhebgYBiTtM1Gw_ligcy_MS3LaYIw?e=yX8jqM){ .md-button }       
 
-***  
+      
 
 ## Balle
 
@@ -152,13 +154,13 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Hauteur du rebond
 - [ ] Aspect de la balle
 
-[📁 Vidéo de référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV71ClsyvLVErIvyBRQAV4UBePbn3jCe3KzoshtZB2eW1Q?e=gXEdwL){ .md-button }   <br>
+[📁 Vidéo de référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV71ClsyvLVErIvyBRQAV4UBePbn3jCe3KzoshtZB2eW1Q?e=gXEdwL){ .md-button }       
 
-[📁 Tutoriels balle](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Etz-o1zduz1Gn0my4A7KfswBO6U7skRC3bGNTSMEsB3QTQ?e=gjt1L5){ .md-button }   <br>
+[📁 Tutoriels balle](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Etz-o1zduz1Gn0my4A7KfswBO6U7skRC3bGNTSMEsB3QTQ?e=gjt1L5){ .md-button }       
 
-[📁 Tutoriels lissage de vitesse](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EuAJDVpPdTNDsK8cu5wm6vkB3ZlSxs0gTjWx2GY7BSxQig?e=zB8BAT){ .md-button }   <br>
+[📁 Tutoriels lissage de vitesse](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EuAJDVpPdTNDsK8cu5wm6vkB3ZlSxs0gTjWx2GY7BSxQig?e=zB8BAT){ .md-button }       
 
-***  
+      
 
 ## Typographie
 
@@ -168,9 +170,9 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Dupliquer les calques M et A (calques illustrator) pour les 12 calques et replacer un à un avec l’expression pour y voir 2 couches visibles.
 - [ ] Dévoiler MA en 3D en séquence.
 
-[📁 Tutoriels](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EpXRXNNwZPhAucGglaHk1QcBGTTnEWR1z2bcOW1gxeJ9XQ?e=UvxN7h){ .md-button }   <br>
+[📁 Tutoriels](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EpXRXNNwZPhAucGglaHk1QcBGTTnEWR1z2bcOW1gxeJ9XQ?e=UvxN7h){ .md-button }       
 
-***  
+      
 
 ## Musique
 
@@ -181,13 +183,13 @@ Vous devez classer vos fichiers dans la structure de dossier suivante. Assurez-v
 - [ ] Ajouter un effet sonore de bang nommé LOW-HIT_Turner_Round.wav au moment où la femme géante dépose son pied au sol lorsqu’elle fait son pas.
 - [ ] Ajuster le niveau afin que ce ne soit pas trop présent et que le son se marie bien avec le reste.
 
-[📁 Vidéo de référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES9y7AbPIeNAthUw_g0abnMB2ZQ1zjquqwRvltnByMHtig?e=hjVT0u){ .md-button }   <br>
+[📁 Vidéo de référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES9y7AbPIeNAthUw_g0abnMB2ZQ1zjquqwRvltnByMHtig?e=hjVT0u){ .md-button }       
 
 Vous trouverez ici les fichiers audio à télécharger dans les différents dossiers (02 à 05). Classez-les dans les même dans votre nomenclature.   
 
-[📁 Fichiers audios](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhZltWv8gDdAid4zwoJxF1sBLJYz_nUtgS1fFxuG5y14Zg?e=WRRSDz){ .md-button }   <br>
+[📁 Fichiers audios](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhZltWv8gDdAid4zwoJxF1sBLJYz_nUtgS1fFxuG5y14Zg?e=WRRSDz){ .md-button }       
 
-***  
+      
 
 
 ## Composition finale
@@ -196,11 +198,11 @@ Vous trouverez ici les fichiers audio à télécharger dans les différents doss
 - [ ] Dans votre nouvelle composition, glissez votre composition de travail.
 - [ ] Regardez la vidéo Référence visuelle du master et assurez-vous d'ajuster l'échelle de votre composition aux bons moments.
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES2W_-EYAd9GutheQBskMh0BKFJf6HDusmwitrLqms94Vw?e=JuL8as){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES2W_-EYAd9GutheQBskMh0BKFJf6HDusmwitrLqms94Vw?e=JuL8as){ .md-button }       
 
-[📁 Référence visuelle du master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERuc2pqgzRREv84dnkpVMGMBrC65dbHKauhpSuA9X0hotQ?e=xDWj7w){ .md-button }   <br>
+[📁 Référence visuelle du master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERuc2pqgzRREv84dnkpVMGMBrC65dbHKauhpSuA9X0hotQ?e=xDWj7w){ .md-button }       
 
-***  
+      
 
 ## Rendu
 Vous devez créer deux rendus de la composition master en 1920 x 1080:   
@@ -208,16 +210,16 @@ Vous devez créer deux rendus de la composition master en 1920 x 1080:
 - [ ] Pour le Web: H264 - Vimeo 1080p
 - [ ] Haute résolution: Quicktime – Apple ProRes 4444 (ou si exportation sur PC: 1080p DNxHD HQ 8bits)
 
-[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUGTzvyLGuZKpR0g3TkfN9MBZ5W_Sw-3Yd5q3-c3HE35tQ?e=6V0diy){ .md-button }   <br>
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUGTzvyLGuZKpR0g3TkfN9MBZ5W_Sw-3Yd5q3-c3HE35tQ?e=6V0diy){ .md-button }       
 
-[📁 Tutoriel exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=Qgy56O){ .md-button }   <br>
+[📁 Tutoriel exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=Qgy56O){ .md-button }       
 
 
 !!! warning "Attention"
 
-    Prévoyez du temps pour cette étape! L'exportation ne se fait pas en cinq minutes!<br>
+    Prévoyez du temps pour cette étape! L'exportation ne se fait pas en cinq minutes!    
 
-***  
+      
 
 
 ## Remise
@@ -225,20 +227,20 @@ Vous devez créer deux rendus de la composition master en 1920 x 1080:
 - [ ] Purger le cache de votre projet pour diminuer sa taille avant la remise.
 - [ ] Remettre un fichier .zip de votre travail sur moodle.
 
-[📁 Purger le cache](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbLi3fJWfn1No3RxbE2knl0BzVm6miqw-X61FG0bRRBqJA?e=u8su7z){ .md-button }   <br>
+[📁 Purger le cache](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbLi3fJWfn1No3RxbE2knl0BzVm6miqw-X61FG0bRRBqJA?e=u8su7z){ .md-button }       
 
-***  
+      
 
 ## Transférer des fichiers AE 2023 dans un projet 2024
 Pour ceux qui ont After Effects 2024 à la maison et qui ont fait des éléments dans le after effects 2023 à l'école, voici comment les transférer d'un projet à l'autre.
 
-[📁 Transfert de 2023 à projet 2024 existant](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcKB0e1_KQBLk3AY3WvXKiMB2js8WJXRiA8pclA8OFWeMA?e=eYC8ll){ .md-button }   <br>
+[📁 Transfert de 2023 à projet 2024 existant](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcKB0e1_KQBLk3AY3WvXKiMB2js8WJXRiA8pclA8OFWeMA?e=eYC8ll){ .md-button }       
 
 !!! info "Info"
 
-    Si vous avez un seul projet, vous pouvez simplement l'ouvrir dans After effects 2024 ou encore mieux, installer le 2023 et l'ouvrir dans la même version qu'à l'école. <br>
+    Si vous avez un seul projet, vous pouvez simplement l'ouvrir dans After effects 2024 ou encore mieux, installer le 2023 et l'ouvrir dans la même version qu'à l'école.     
 
-***  
+      
 
 
 
