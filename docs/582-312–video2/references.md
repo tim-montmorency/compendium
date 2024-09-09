@@ -39,6 +39,12 @@
 * [Shape](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EmqbU30QyL9CtUModbn14dgBxouqqJZxyzLWoPbhmd3Fqg?e=HclbbP)
 * [Slider](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eru7cOt2O35EqiZiLw_iLxYBUF6vbCuISjIeTXXn1iXJKQ?e=97bhpd)
 
+
+* [Réglages de la caméra](./references/Caméra.md)
+* [Réglages du lumière](./references/Lumière.md)
+* [Réglages du moniteur](./references/Moniteur.md)
+* [Réglages du Sound Device](./references/Sound_device.md)
+
 ## Powerpoint 
 * [Réglages de la caméra](./references/Caméra.md)
 * [Réglages du moniteur](./references/Moniteur.md)
