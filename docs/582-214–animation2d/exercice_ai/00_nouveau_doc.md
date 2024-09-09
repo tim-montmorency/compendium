@@ -4,17 +4,15 @@ Le but de cet exercice est de vous familiariser avec Illustrator.
 
 ## Nouveau document
 
-Créez-vous un nouveau fichier Illustrator qui vous permettra d’illustrer votre scène qui sera animée plus tard.  L’animation finale sera exportée en vidéo en format HDTV, soit en 1920x1080.  La scène illustrée devra donc être le même format que la vidéo finale.    
+Créez-vous un nouveau fichier Illustrator qui vous permettra d’illustrer votre scène qui sera animée plus tard.  L’animation finale sera exportée en vidéo en format **HDTV, soit en 1920x1080**.  La scène illustrée devra donc être le même format que la vidéo finale.    
 
 
       
 
 ## Modifiez l'espace de travail 
-Dans la bare de menu, sélectionnez Fenêtre -> Espace de travail -> Les indispensables classiques pour avoir accès à tous les outils.      
-
-Personnalisez l’espace de travail en bougeant votre panneau de Calques au-dessus du panneau Propriétés (Cliquez, bougez et, avant de relâcher, assurez-vous que la barre bleue est au-dessus du panneau de Propriétés et non tout autour).  En cas d’erreur, vous pouvez réinitialiser Les indispensables classiques.     
-
-Sauvegardez votre espace de travail à votre nom.    
+- [ ] Dans la bare de menu, sélectionnez Fenêtre -> Espace de travail -> Les indispensables classiques pour avoir accès à tous les outils.
+- [ ] Personnalisez l’espace de travail en bougeant votre panneau de Calques au-dessus du panneau Propriétés (Cliquez, bougez et, avant de relâcher, assurez-vous que la barre bleue est au-dessus du panneau de Propriétés et non tout autour).  En cas d’erreur, vous pouvez réinitialiser Les indispensables classiques.
+- [ ] Sauvegardez votre espace de travail à votre nom.    
 
 
       
