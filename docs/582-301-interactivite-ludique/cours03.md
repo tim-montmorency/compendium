@@ -48,7 +48,7 @@ npm update --save
 
 La demo sur la création d'une Tilemap ira malheureusement à la semaine prochaine.
 
-Il y a présentement un soucis avec l'exportation de Sprite Fusion 🫠.
+Il y a présentement un souci avec l'exportation de Sprite Fusion 🫠.
 
 Une discussion est en cours avec les développeurs de l'application 💪, il se peut que j'aille à développer un plugin.
 
@@ -236,7 +236,7 @@ Touches de fonction (F1, F2, etc.)
 
 ## Gestion des scènes
 
-Jusqu'à maintenant, nous avons travaillé avec une seule scène à la fois, mais un jeu vidéo comprends habituellement plusieurs scènes. Par exemple, une scène pour l'accueil, quelques unes pour les interfaces du jeu, une pour la page des crédits, etc.
+Jusqu'à maintenant, nous avons travaillé avec une seule scène à la fois, mais un jeu vidéo comprend habituellement plusieurs scènes. Par exemple, une scène pour l'accueil, quelques-unes pour les interfaces du jeu, une pour la page des crédits, etc.
 
 Voici un exemple qui contient deux scènes.
 
@@ -250,7 +250,7 @@ Voici un exemple qui contient deux scènes.
 
 Le changement de scène se produit après un **événement**. Il se peut que cet événement soit une **action** du joueur ou simplement, une **condition** dans le jeu!
 
-Par exemple, si le temps de la partie est écoulé, le jeu s'arrète automatiquement et le joueur est dirigé vers la scène "Fin de partie".
+Par exemple, si le temps de la partie est écoulé, le jeu s'arrête automatiquement et le joueur est dirigé vers la scène "Fin de partie".
 
 Voici comment faire tout ça en programmation.
 
@@ -300,7 +300,7 @@ class GameOver extends Phaser.Scene {
 }
 ```
 
-Important! Il ne faut pas oblier d'ajouter nos nouvelles scènes dans le fichier `index.html` ainsi que dans `init.js`.
+Important! Il ne faut pas oublier d'ajouter nos nouvelles scènes dans le fichier `index.html` ainsi que dans `init.js`.
 
 ```js title="./index.html"
 <script src="./src/js/scenes/GameOver.js"></script>
