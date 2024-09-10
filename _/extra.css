@@ -283,7 +283,7 @@ a:hover .ext-link-icon {
 }
 
 /* Cacher le footer uniquement sur les pages contenant "edm3840" dans l'URL */
-body[data-path*="edm3840"] footer {
+body[data-path*="edm3840"] md-footer {
     display: none;
 }
 
