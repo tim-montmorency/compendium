@@ -11666,7 +11666,7 @@
 <h2 id="tilemap">Tilemap<a class="headerlink" href="#tilemap" title="Permanent link">¶</a></h2>
 <p><img alt="" src="assets/images/unfortunate.webp"></p>
 <p>La demo sur la création d'une Tilemap ira malheureusement à la semaine prochaine.</p>
-<p>Il y a présentement un soucis avec l'exportation de Sprite Fusion 🫠.</p>
+<p>Il y a présentement un souci avec l'exportation de Sprite Fusion 🫠.</p>
 <p>Une discussion est en cours avec les développeurs de l'application 💪, il se peut que j'aille à développer un plugin.</p>
 <h2 id="crop">Crop<a class="headerlink" href="#crop" title="Permanent link">¶</a></h2>
 <p>Si on veut afficher juste une partie d'une image, on peut y arriver avec la fonction setCrop.</p>
@@ -11827,7 +11827,7 @@
 <li>etc.</li>
 </ul>
 <h2 id="gestion-des-scenes">Gestion des scènes<a class="headerlink" href="#gestion-des-scenes" title="Permanent link">¶</a></h2>
-<p>Jusqu'à maintenant, nous avons travaillé avec une seule scène à la fois, mais un jeu vidéo comprends habituellement plusieurs scènes. Par exemple, une scène pour l'accueil, quelques unes pour les interfaces du jeu, une pour la page des crédits, etc.</p>
+<p>Jusqu'à maintenant, nous avons travaillé avec une seule scène à la fois, mais un jeu vidéo comprend habituellement plusieurs scènes. Par exemple, une scène pour l'accueil, quelques-unes pour les interfaces du jeu, une pour la page des crédits, etc.</p>
 <p>Voici un exemple qui contient deux scènes.</p>
 <iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Phaser - Scene Switch" src="https://codepen.io/tim-momo/embed/GRbzdjV/c4058b765ff82517a969d316a4cc4040?default-tab=&amp;editable=true&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/GRbzdjV/c4058b765ff82517a969d316a4cc4040">
@@ -11837,7 +11837,7 @@
 
 <h3 id="comment-ca-marche">Comment ça marche<a class="headerlink" href="#comment-ca-marche" title="Permanent link">¶</a></h3>
 <p>Le changement de scène se produit après un <strong>événement</strong>. Il se peut que cet événement soit une <strong>action</strong> du joueur ou simplement, une <strong>condition</strong> dans le jeu!</p>
-<p>Par exemple, si le temps de la partie est écoulé, le jeu s'arrète automatiquement et le joueur est dirigé vers la scène "Fin de partie".</p>
+<p>Par exemple, si le temps de la partie est écoulé, le jeu s'arrête automatiquement et le joueur est dirigé vers la scène "Fin de partie".</p>
 <p>Voici comment faire tout ça en programmation.</p>
 <div class="highlight"><span class="filename">Attribution d’une clé</span><pre><span></span><code><span class="kd">class</span><span class="w"> </span><span class="nx">Niveau1</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">Phaser</span><span class="p">.</span><span class="nx">Scene</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="kr">constructor</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
@@ -11876,7 +11876,7 @@
 <span class="w">  </span><span class="nx">update</span><span class="p">()</span><span class="w"> </span><span class="p">{}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Important! Il ne faut pas oblier d'ajouter nos nouvelles scènes dans le fichier <code>index.html</code> ainsi que dans <code>init.js</code>.</p>
+<p>Important! Il ne faut pas oublier d'ajouter nos nouvelles scènes dans le fichier <code>index.html</code> ainsi que dans <code>init.js</code>.</p>
 <div class="highlight"><span class="filename">./index.html</span><pre><span></span><code><span class="o">&lt;</span><span class="nx">script</span><span class="w"> </span><span class="nx">src</span><span class="o">=</span><span class="s2">"./src/js/scenes/GameOver.js"</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
 <span class="o">&lt;</span><span class="nx">script</span><span class="w"> </span><span class="nx">src</span><span class="o">=</span><span class="s2">"./src/js/scenes/Niveau1.js"</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
 </code></pre></div>
