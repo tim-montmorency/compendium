@@ -1,5 +1,21 @@
 # PROJET 1
 
+## CONSIGNES / SIGNATURE
+
+* **Signature**
+  * [ ] **Nombre :** Créez 1 signature dans Photoshop.
+  * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
+  * [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
+  * [ ] **Effets :** Intégrez au moins un des effets suivants :
+    * [ ] Perspective
+    * [ ] 3D
+    * [ ] Ligne brisée
+    * [ ] Fluide
+    * [ ] Vent
+  * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
+  * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
+
+
 ## CONSIGNES / AUTOPORTRAIT
 
 * **Autoportrait**
@@ -11,7 +27,31 @@
   * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
   
 
-## PROJET 1 : PARTIE 1 : PRÉ-APPROBATION – L’AUTOPORTRAIT
+## PROJET 1 – PARTIE 1 : LE MOODBOARD – L’AUTOPORTRAIT
+
+À ce stade, vous devez présenter les éléments suivants individuellement au professeur. Voici les étapes à effecturer pour la remise. 
+
+* **Deux moodboards**
+  * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+  * [ ] Faites une recherche dans [Pinterest](https://www.pinterest.com/) pour trouver vos inspirations pour la signature et l'autoportrait.
+  * [ ] Notez le nom des artistes qui ont réalisé les illustrations.
+  * [ ] Notez le courant artistique auquel appartiennent ces artistes.
+  * [ ] Téléchargez vos images d'inspirations avec un format minimal de 1920 X 1080. 
+  * [ ] Créez votre moodboard dans Photoshop à partir des [templates suivants](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
+  * [ ] Vos mooodboards doivent inclure :
+      * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
+      * [ ] Une palette de couleurs
+      * [ ] Des typographies (si nécessaire)
+  * [ ] Téléchargez le document de [nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR) et déposez vos deux moodboards dans le dossier références
+
+ * **Une musique**
+    * [ ] Choisir et [téléchargez la musique](https://ytmp3.cc/en13/) qui accompagnera votre présentation.
+    * [ ] Déposez la musique dans le dossier références dans la nomenclature téléchargée plutôt
+
+Déposez tous ces documents sur Teams via Devoir. Lors de la rencontre avec le professeur, assurez-vous d'avoir tous vos documents ouverts et que vos écouteurs fonctionnent correctement.
+
+
+## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos illustrations terminées au professeur. 
 
@@ -26,7 +66,7 @@ Le professeur vous fournira des commentaires que vous devrez utiliser pour amél
 Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
 
 
-## PROJET 1 : PARTIE 2 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
+## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
 
