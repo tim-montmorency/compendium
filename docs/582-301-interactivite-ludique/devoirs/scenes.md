@@ -1,0 +1,51 @@
+[:material-arrow-u-left-top: Cours 3](../cours03.md){.breadcrumb}
+
+# Devoir 3 : Ludus2024
+
+Le devoir consiste à créer les différentes scènes de votre jeu vidéo et d'y ajouter les éléments nécessaires pour naviguer entre elles. Le tout devra être enregistré sur GitHub.
+
+``` mermaid
+flowchart LR
+    J[Jeu] ----> A[Accueil]
+    A ----> C["Crédit"]
+    J -...-> E["Partie terminée"]
+    J -...-> V[Victoire]
+    E ----> A
+    E ----> J
+    V ----> A
+    V ----> J
+    C ----> A
+    A ----> D["Comment jouer?"]
+    D ----> A
+    A ----> J
+```
+
+## Consignes
+
+* [ ] À partir de votre modèle de base, **faites un duplicat** pour créer le code de base de votre PS
+
+* [ ] **Créer une scène** « Accueil »
+* [ ] Dans la scène « Accueil », **ajouter un logo et une image de fond**
+* [ ] Dans la scène « Accueil », **ajouter un bouton** "Commencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu »
+* [ ] Dans la scène « Accueil », **ajouter un bouton** "Crédit". Lorsque cliqué, ce bouton envoie à la scène « Crédit »
+* [ ] Dans la scène « Accueil », **ajouter un bouton** "Comment jouer ?". Lorsque cliqué, ce bouton envoie à la scène « Comment jouer? »
+* [ ] Dans la scène « Accueil », **ajouter un bouton** pour activer/désactiver l'audio. Pour le moment, ce bouton ne fera rien.
+
+* [ ] **Créer une scène** « Jeu »
+* [ ] Dans la scène « Jeu », **ajouter un bouton** "Quitter". Lorsque cliqué, ce bouton envoie à la scène « Accueil »
+
+* [ ] **Créer une scène** « Comment jouer ? »
+* [ ] Dans la scène « Comment jouer ? », **ajouter un bouton** "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil »
+
+* [ ] **Créer une scène** « Crédits »
+* [ ] Dans la scène « Crédits », **ajouter un bouton** "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil »
+
+* [ ] **Créer une scène** « Partie terminée »
+* [ ] Dans la scène « Partie terminée », **ajouter un bouton** "Recommencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu »
+* [ ] Dans la scène « Partie terminée », **ajouter un bouton** "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil »
+
+* [ ] **Créer une scène** « Victoire »
+* [ ] Dans la scène « Victoire », **ajouter un bouton** "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil »
+
+* [ ] **Créer un répertoire GitHub** nommé Ludus2024
+* [ ] **Sauvegardez** les fichiers de votre PS dans le répertoire Ludus2024 sur GitHub
