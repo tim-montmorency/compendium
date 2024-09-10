@@ -1,6 +1,7 @@
 # Exercice sur les balises
 
 Utiliser les balises sémantiques pour structurer le contenu, appliquer le formatage HTML pour styliser le texte et créer des ancres `<a>` pour la navigation interne.
+![ancres](https://github.com/user-attachments/assets/1b32f0e2-5214-4b75-bcc0-ccc4ef2ef2d4)
 
 
 ## Intructions
