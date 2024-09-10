@@ -12,9 +12,11 @@ Sujet: Le cv, la lettre de présentation et le portfolio
 ){ .md-button }     
 
 ## Temps pour avancer votre portfolio
-[🛠️ Consignes cv](./stages/cv.md){ .md-button }     
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }       
 
+Au besoin:      
 
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
 
 ## Devoir     
