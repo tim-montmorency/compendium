@@ -11,7 +11,7 @@
   * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
   
 
-## PROJET 1 – PARTIE 1 : PRÉ-APPROBATION – L’AUTOPORTRAIT
+## PROJET 1 : PARTIE 1 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 À ce stade, vous devez présenter vos illustrations terminées au professeur. 
 
