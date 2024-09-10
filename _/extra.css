@@ -282,6 +282,11 @@ a:hover .ext-link-icon {
     background-color: transparent;
 }
 
+/* Cacher le copyright uniquement pour la page edm3840 */
+body[data-path*="edm3840"] .md-footer-copyright {
+    display: none;
+}
+
 .md-copyright {
     width: 100%;
     text-align: center;
