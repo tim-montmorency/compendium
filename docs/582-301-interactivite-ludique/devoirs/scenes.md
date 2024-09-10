@@ -36,26 +36,26 @@ flowchart LR
 
 * [ ] **Créer une scène** « Accueil »
 * [ ] Dans la scène « Accueil », **ajouter un logo et une image de fond**
-* [ ] Dans la scène « Accueil », **ajouter un bouton** "Commencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu ».
-* [ ] Dans la scène « Accueil », **ajouter un bouton** "Crédit". Lorsque cliqué, ce bouton envoie à la scène « Crédit ».
-* [ ] Dans la scène « Accueil », **ajouter un bouton** "Comment jouer ?". Lorsque cliqué, ce bouton envoie à la scène « Comment jouer? »
-* [ ] Dans la scène « Accueil », **ajouter un bouton** pour activer/désactiver l'audio. Pour le moment, ce bouton ne fera rien.
+* [ ] Dans la scène « Accueil », **ajouter un bouton (image cliquable)** "Commencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu ».
+* [ ] Dans la scène « Accueil », **ajouter un bouton (image cliquable)** "Crédit". Lorsque cliqué, ce bouton envoie à la scène « Crédit ».
+* [ ] Dans la scène « Accueil », **ajouter un bouton (image cliquable)** "Comment jouer ?". Lorsque cliqué, ce bouton envoie à la scène « Comment jouer? »
+* [ ] Dans la scène « Accueil », **ajouter un bouton (image cliquable)** pour activer/désactiver l'audio. Pour le moment, ce bouton ne fera rien.
 
 * [ ] **Créer une scène** « Jeu »
-* [ ] Dans la scène « Jeu », **ajouter un bouton** "Quitter". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
+* [ ] Dans la scène « Jeu », **ajouter un bouton (image cliquable)** "Quitter". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
 
 * [ ] **Créer une scène** « Comment jouer ? »
-* [ ] Dans la scène « Comment jouer ? », **ajouter un bouton** "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
+* [ ] Dans la scène « Comment jouer ? », **ajouter un bouton (image cliquable)** "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
 
 * [ ] **Créer une scène** « Crédits »
-* [ ] Dans la scène « Crédits », **ajouter un bouton** "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
+* [ ] Dans la scène « Crédits », **ajouter un bouton (image cliquable)** "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
 
 * [ ] **Créer une scène** « Partie terminée »
-* [ ] Dans la scène « Partie terminée », **ajouter un bouton** "Recommencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu ».
-* [ ] Dans la scène « Partie terminée », **ajouter un bouton** "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
+* [ ] Dans la scène « Partie terminée », **ajouter un bouton (image cliquable)** "Recommencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu ».
+* [ ] Dans la scène « Partie terminée », **ajouter un bouton (image cliquable)** "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
 
 * [ ] **Créer une scène** « Victoire »
-* [ ] Dans la scène « Victoire », **ajouter un bouton** "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
+* [ ] Dans la scène « Victoire », **ajouter un bouton (image cliquable)** "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».
 
 * [ ] **Créer un répertoire GitHub** nommé Ludus2024
 * [ ] **Sauvegardez** les fichiers de votre PS dans le répertoire Ludus2024 sur GitHub
