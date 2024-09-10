@@ -44,6 +44,6 @@
   
 ## Devoir
  ### Projet 1 - partie 1
-  [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>
+  [📁 Projet 1 - partie 1](./projets/projet01.md){ .md-button }   <br>
 
   
