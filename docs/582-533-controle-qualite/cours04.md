@@ -6,6 +6,13 @@
 ## Rencontres individuelles pour le CV et la lettre
 
 
+## Exemples de lettres 
+Ajouter
+  
+
+## Temps pour avancer votre lettre
+Ajouter consignes lettre  
+
 
 ## Devoir
 ### Avancer le Portfolio, la lettre ou le CV    
