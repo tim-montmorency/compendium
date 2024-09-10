@@ -38,7 +38,7 @@
   * [ ] Notez le courant artistique auquel appartiennent ces artistes.
   * [ ] Téléchargez vos images d'inspirations avec un format minimal de 1920 X 1080. 
   * [ ] Créez votre moodboard dans Photoshop à partir des [templates suivants](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
-  * [ ] * Utilisez la typographie de la [🌐 Banque de typographies](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF) <br>
+  * [ ] Utilisez la typographie de la [🌐 Banque de typographies](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=a4AuuF) <br>
   * [ ] Vos mooodboards doivent inclure :
       * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
       * [ ] Une palette de couleurs
