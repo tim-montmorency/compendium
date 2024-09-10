@@ -282,8 +282,8 @@ a:hover .ext-link-icon {
     background-color: transparent;
 }
 
-/* Cacher le copyright pour les pages avec la classe 'no-copyright' */
-.no-copyright .md-footer-copyright {
+/* Cacher le footer uniquement sur les pages contenant "edm3840" dans l'URL */
+body[data-path*="edm3840"] footer {
     display: none;
 }
 
