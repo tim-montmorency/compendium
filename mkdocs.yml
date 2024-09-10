@@ -453,9 +453,6 @@ nav:
   #   - Cours 15: 582-611–stage-entreprise/cours15.md
 
 ###########################################################################
-attributes:
-  class: no-copyright
-
 
 theme:
   name: material
