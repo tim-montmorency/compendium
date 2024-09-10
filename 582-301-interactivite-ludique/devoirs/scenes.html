@@ -11144,6 +11144,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#remise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remise
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11161,7 +11170,12 @@
 
 <div><p><a class="breadcrumb" href="../cours03.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M20 13.5a6.5 6.5 0 0 1-6.5 6.5H6v-2h7.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7h5.67a6.5 6.5 0 0 1 6.5 6.5"></path></svg></span> Cours 3</a></p>
 <h1 id="devoir-3-ludus2024">Devoir 3 : Ludus2024<a class="headerlink" href="#devoir-3-ludus2024" title="Permanent link">¶</a></h1>
-<p>Le devoir consiste à créer les différentes scènes de votre jeu vidéo et d'y ajouter les éléments nécessaires pour naviguer entre elles. Le tout devra être enregistré sur GitHub.</p>
+<p>Le devoir consiste à créer les différentes scènes de votre jeu vidéo et d'y ajouter les éléments nécessaires pour naviguer entre elles.</p>
+<p>L'usage d'assets à cette étape est pertinent afin de débuter le design graphique de vos interfaces.</p>
+<p>Le tout doit être enregistré sur GitHub.</p>
+<p>Ce devoir compte pour <code>10%</code> de votre note finale.</p>
+<hr>
+<p>Aperçu des liens entre les scènes (voir consignes)</p>
 <pre class="mermaid"><code>flowchart LR
     J[Jeu] ----&gt; A[Accueil]
     A ----&gt; C["Crédit"]
@@ -11177,41 +11191,48 @@
     A ----&gt; J</code></pre>
 <h2 id="consignes">Consignes<a class="headerlink" href="#consignes" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> À partir de votre modèle de base, <strong>faites un duplicat</strong> pour créer le code de base de votre PS</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> À partir de votre modèle de base, <strong>faites un duplicata</strong> pour créer le code de base de votre PS</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer une scène</strong> « Accueil »</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un logo et une image de fond</strong></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un bouton</strong> "Commencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un bouton</strong> "Crédit". Lorsque cliqué, ce bouton envoie à la scène « Crédit »</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un bouton</strong> "Commencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu ».</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un bouton</strong> "Crédit". Lorsque cliqué, ce bouton envoie à la scène « Crédit ».</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un bouton</strong> "Comment jouer ?". Lorsque cliqué, ce bouton envoie à la scène « Comment jouer? »</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Accueil », <strong>ajouter un bouton</strong> pour activer/désactiver l'audio. Pour le moment, ce bouton ne fera rien.</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer une scène</strong> « Jeu »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Jeu », <strong>ajouter un bouton</strong> "Quitter". Lorsque cliqué, ce bouton envoie à la scène « Accueil »</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Jeu », <strong>ajouter un bouton</strong> "Quitter". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer une scène</strong> « Comment jouer ? »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Comment jouer ? », <strong>ajouter un bouton</strong> "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil »</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Comment jouer ? », <strong>ajouter un bouton</strong> "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer une scène</strong> « Crédits »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Crédits », <strong>ajouter un bouton</strong> "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil »</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Crédits », <strong>ajouter un bouton</strong> "Retour" ou "Fermer". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer une scène</strong> « Partie terminée »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Partie terminée », <strong>ajouter un bouton</strong> "Recommencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Partie terminée », <strong>ajouter un bouton</strong> "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil »</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Partie terminée », <strong>ajouter un bouton</strong> "Recommencer". Lorsque cliqué, ce bouton envoie à la scène « Jeu ».</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Partie terminée », <strong>ajouter un bouton</strong> "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer une scène</strong> « Victoire »</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Victoire », <strong>ajouter un bouton</strong> "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil »</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la scène « Victoire », <strong>ajouter un bouton</strong> "Menu principal". Lorsque cliqué, ce bouton envoie à la scène « Accueil ».</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer un répertoire GitHub</strong> nommé Ludus2024</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Sauvegardez</strong> les fichiers de votre PS dans le répertoire Ludus2024 sur GitHub</li>
-</ul></div>
+</ul>
+<h2 id="remise">Remise<a class="headerlink" href="#remise" title="Permanent link">¶</a></h2>
+<p>3 septembre à 23h59</p>
+<p>Identifiez votre travail avec la nomenclature suivante</p>
+<ul>
+<li><code>[nom de famille]-[prénom]_devoir_03_582-301MO</code></li>
+</ul>
+<p>Déposez votre dossier en format <code>.zip</code>, <code>.rar</code> ou <code>.7z</code> dans le Devoir #3 sur Teams.</p></div>
 
 
 
