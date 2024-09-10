@@ -122,7 +122,7 @@ create() {
   // Rendre l'image interactive pour qu'elle puisse détecter les clics
   this.image.setInteractive();
 
-  this.image.on('pointerdown', function (pointer) {
+  this.image.on('pointerdown', (pointer) => {
     console.log('Image cliquée');
   });
 
