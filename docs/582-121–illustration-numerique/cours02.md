@@ -1,7 +1,7 @@
 # Cours 2
-[STOP]
+
 ## Photoshop
-[STOP]
+
 ### Notions
   [🛠️ Créer un compte Adobe](https://helpx.adobe.com/ca_fr/manage-account/using/create-update-adobe-id.html#email-address){ .md-button }  <br>   
 * [▶️ Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=rZfdd6) <br>
