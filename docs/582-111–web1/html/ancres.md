@@ -32,8 +32,10 @@ L'identifiant unique ou ID permet de cibler un élément en fonction de son id.
 
 Exemple:
 ```
-<div id="section 1">
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, quisquam. Fuga corrupti obcaecati veniam accusantium dolor at ipsum eos cumque aliquid commodi. Sit nemo dignissimos laborum officia architecto ea beatae.</p>
+<div id="section1">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, quisquam.
+Fuga corrupti obcaecati veniam accusantium dolor at ipsum eos cumque aliquid commodi.
+Sit nemo dignissimos laborum officia architecto ea beatae.</p>
 </div>
 ```
 
