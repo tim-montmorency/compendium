@@ -4,8 +4,9 @@
 
 
 ## Exemples de lettres 
-Ajouter
-  
+[🔍 Montmorency p.10-11](https://www.cmontmorency.qc.ca/wp-content/uploads/2023/11/Petit-guide-de-recherche-demploi.pdf){ .md-button }      
+
+
 
 ## Temps pour avancer votre lettre
 [🛠️ Consignes lettre](./stages/lettre.md){ .md-button }        
