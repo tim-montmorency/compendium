@@ -1,6 +1,6 @@
 # Cours 3
 
-Vérification des devoirs Arborescence et 1ère balises
+Vérification des devoirs Arborescence et 1ère balises<br><br>
 ![icon](https://github.com/user-attachments/assets/6541edcc-ae55-4317-893e-0ccbe9cce778)
 ![balises](https://github.com/user-attachments/assets/931683cd-8075-4cfc-8dec-33438a68706a)
 
