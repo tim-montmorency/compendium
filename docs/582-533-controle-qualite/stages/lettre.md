@@ -23,7 +23,7 @@ Votre lettre doit contenir les sections suivantes:
 - [ ] Vous signez ensuite votre lettre
 
 
-Vous serez également évalués sur les éléments suivants:     
+**Vous serez également évalués sur les éléments suivants:**     
 
 - [ ] Rédaction (La lettre est personnalisée et est sérieuse. Elle est honnête et vous met bien en valeur.)
 - [ ] Qualité du français
