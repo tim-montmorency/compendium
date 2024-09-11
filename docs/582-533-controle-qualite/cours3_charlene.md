@@ -7,6 +7,8 @@ Cours Charlène: 14h20 à 17h
 
 Sujet: Le cv, la lettre de présentation et le portfolio
 
+## S'assurer d'être dans l'équipe Teams des stages: rbtnhxk
+
 ## Temps pour avancer votre portfolio
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }       
 
