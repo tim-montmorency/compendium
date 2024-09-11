@@ -41,7 +41,7 @@ Voici quelques logiciels pouvant être utilisés pour la lettre:
 **Rappel: Gardez le tout simple, une lettre word suffit! On ne veut pas pleins de couleurs ou de fioritures.**
 
 ## Exemples de lettre
-[🔍 Montmorency p.5 à 9](https://www.cmontmorency.qc.ca/wp-content/uploads/2023/11/Petit-guide-de-recherche-demploi.pdf){ .md-button }      
+[🔍 Montmorency p.10-11](https://www.cmontmorency.qc.ca/wp-content/uploads/2023/11/Petit-guide-de-recherche-demploi.pdf){ .md-button }      
 
 
 
