@@ -1,5 +1,5 @@
 
-# Curriculum vitae
+# Lettre de présentation
 ## Contenu de votre lettre   
 
 Votre lettre doit contenir les sections suivantes:     
@@ -11,13 +11,16 @@ Votre lettre doit contenir les sections suivantes:
 - [ ] Objet de la lettre
 - [ ] Date et lieu
   
-**Premier paragraphe**
+**Premier paragraphe**    
+
 - [ ] Ce paragraphe sert d'ouverture, il présente pourquoi la compagnie vous intéresse et les connaissances que vous avez de l'entreprise. Vous parlez du poste pour lequel vous appliquez et de ce que vous pouvez apporter à l'entreprise.
 
-**Deuxième et troisième paragraphes (vous décidez si vous en faites 1 ou 2 et comment les séparer)**
+**Deuxième et troisième paragraphes (vous décidez si vous en faites 1 ou 2 et comment les séparer)**    
+
 - [ ] Ce paragraphe met en valeur vos compétences et vos connaissances. Vous expliquez quels sont vos atouts et comment ils sont utiles pour une équipe de travail.
 
-**Dernier paragraphe**
+**Dernier paragraphe**    
+
 - [ ] Il sert de fermeture, vous parlez d'une perspective d'entrevues et que vous êtes prêt pour les prochaines démarches.
 - [ ] Le paragraphe est terminé par une formule de politesse.
 - [ ] Vous signez ensuite votre lettre
