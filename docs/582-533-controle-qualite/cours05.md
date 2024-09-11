@@ -2,6 +2,8 @@
 ## Temps pour les comités
 
 ## Avancer le Portfolio, la lettre ou le CV    
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
+
+[🛠️ Consignes lettre](./stages/lettre.md){ .md-button }      
 
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
