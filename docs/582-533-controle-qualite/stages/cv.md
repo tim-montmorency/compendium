@@ -28,6 +28,7 @@ Voici quelques logiciels pouvant être utilisés pour le CV:
 - Figma
 - Canva
 - Word
+- <https://www.hellowork.com/fr-fr/outil/cv.html> 
 
 ## Exemples de CV
 [🔍 Carolyn Stransky](https://carolstran.github.io/cv/){ .md-button }      
