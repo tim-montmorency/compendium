@@ -50,8 +50,8 @@
 
   [🛠️ 05_Enregistrer un PSD.md](./exercices_photoshop/05_Enregistrer_un_psd.md){ .md-button }  <br>    
   [🛠️ 05_Enregistrer un JPG.md](./exercices_photoshop/05_Enregistrer_un_jpg.md){ .md-button }  <br>    
+  [🛠️ 05_Enregistrer un GIF.md](./exercices_photoshop/05_Enregistrer_un_gif.md){ .md-button }  <br>  
 
-  
 
 ## Devoir
 * Créez un moodboard pour votre projet d'autoportrait [Pinterest](https://www.pinterest.com/). Afin de vous donner des idées, voici le résultat de ma recherche effectuée sur Pinterest: [tableau Pinterest](https://pin.it/6Qv4DFKkP). Ça peut vous donner des idées.
