@@ -1,5 +1,5 @@
 Le but de cet exercice est de sauvegarder une image en JPG:   
-
+<style>.md-footer{display:none;}</style>
 ***  
 
 ## Matériel
