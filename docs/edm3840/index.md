@@ -3,18 +3,15 @@ hide:
   - toc
 ---
 
-# Illustration numérique
+# Technologie des médias
 
 ## Descriptif du cours
 
-Dans ce cours, l’élève traite des images numériques et développe sa créativité en manipulant et en transformant des images vectorielles et matricielles dans le cadre d’ateliers pratiques.
+Études des technologies de communication analogique et numérique utilisées pour la médiatisation audiovisuelle et cybernétique. Notions de base en physique de la lumière et du son. L'architecture de l'ordinateur, la numérisation, la résolution, la compression, les formats de fichiers, les protocoles de transfert et de contrôle.
 
-Grâce à des notions théoriques et pratiques relatives à l’image numérique, l’élève acquiert les compétences nécessaires pour appliquer différentes méthodes de traitement des images destinées à divers médias ou à des productions multimédias.
 
-| Spécifications        | Valeur  |
-| --------------------- | ------- |
-| Code                  | 582-121 |
-| Pondération           | 2-2-2   |
-| Unités                | 2       |
-| Heures d’enseignement | 60      |
-| Session               | 1       |
+
+Cycle : 1
+Type de cours : Magistral
+Nombre de crédits : 3
+Discipline : Communication
