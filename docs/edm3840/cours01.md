@@ -11,7 +11,7 @@
   *  Importance de l'esprit de cohorte, cohésion
   *  Porte-folio
 * Achat de matériel
-   * Samsumg T6 ou T7
+   * Samsumg T7 ou T9
 
 ##  Règles des locaux 
 * Casques
@@ -54,5 +54,6 @@
   
 
 ## Devoir
-* Créer un moodboard sur pour votre projet d'autoportrait [Pinterest](https://www.pinterest.com/). Voici une recherche sur [Pinterest](https://pin.it/6Qv4DFKkP) que j'ai déjà effectuée en lien avec le projet, ça peut vous donner des idées. 
+* Créer un moodboard sur pour votre projet d'autoportrait [Pinterest](https://www.pinterest.com/). Voici une recherche sur [Pinterest](https://pin.it/6Qv4DFKkP) que j'ai déjà effectuée en lien avec le projet, ça peut vous donner des idées.
+* Exporez le site [Kling AI](https://klingai.com/)
 
