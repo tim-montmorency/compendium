@@ -2,6 +2,8 @@
 
 <style>.md-footer{display:none;}</style>
 
+[STOP]
+
 ## Photoshop
 
 ### Notions
