@@ -41,8 +41,9 @@
 * [▶️ Transformations, rotations d'un calque ou d'image](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETPC6NeIxzpLv0wtkqkLkcUBqyRSl2p639oEDisVIsuzVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QbYyqP)  <br>   
   [🛠️ 06_Déplacer, transformer des calques, dossier](./exercices_photoshop/06_Déplacer_et_transformer_des_calques.md){ .md-button }  <br>    
 ### Notions: enregistrement des images  
-* [▶️ Enregistrer des images](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcavsLtE0Y5Pk3GMxsWD-ssBC9P1z57Dx9FekQbGze7_8g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GQke8a)  /  [📑 Powerpoint](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/El-TrEXH1jpAntr4QWJ8D3gByUFXmjinhhEj8qDeGKn7gQ?e=2XoEXt)  <br>
-  [🛠️ 05_Enregistrer un PSD.md](./exercices_photoshop/05_Enregistrer_un_psd.md){ .md-button }  <br>    
+* [▶️ Enregistrer des images](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcavsLtE0Y5Pk3GMxsWD-ssBC9P1z57Dx9FekQbGze7_8g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GQke8a)  /  [📑 Powerpoint](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/El-TrEXH1jpAntr4QWJ8D3gByUFXmjinhhEj8qDeGKn7gQ?e=2XoEXt)    <br>    
+
+   [🛠️ 05_Enregistrer un PSD.md](./exercices_photoshop/05_Enregistrer_un_psd.md){ .md-button }  <br>    
   [🛠️ 05_Enregistrer un JPG.md](./exercices_photoshop/05_Enregistrer_un_jpg.md){ .md-button }  <br>    
   [🛠️ 05_Enregistrer un GIF.md](./exercices_photoshop/05_Enregistrer_un_gif.md){ .md-button }  <br>    
   
