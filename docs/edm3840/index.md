@@ -11,7 +11,10 @@ hide:
 
 
 
-Cycle : 1
+Cycle : 1 
+
 Type de cours : Magistral
+
 Nombre de crédits : 3
+
 Discipline : Communication
