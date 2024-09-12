@@ -17,6 +17,8 @@
   [🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_Recadrer_et_désinscliner.md){ .md-button }  <br>    
   [🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button }  <br>     
 
+### Notions: outils de masquage
+* [▶️ Masque de calque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eeb-ZmD_E4BKmbmU8lwqJAwBIxdy1OwMdEZlxGG_qWk4rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bdhrgS)  <br>
 
 ### Notions: outils de sélection
 * [▶️ Outil de sélection rectangulaire](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUIRW4pQSMpBtjKbTmMVQukBEivertajTWLyRGHdfiU5GA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tnT6zj) <br>
@@ -26,15 +28,16 @@
 * [▶️ Outil de sélection d'objet, sélection rapide, ou baguette magique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERykK6yyvu1Mo-UT8CVtgg0BUTW4K7PYD929XCOrHTaQbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j8MCbY) \ [⬇️ Gradient](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/flpilote_cmontmorency_qc_ca/EdifwUxxYFlFtojk-NA4ZDsBjbnrbZIcAxud1EVeI2K3tg?e=icaMfF) <br>
 * [▶️ Commande pour inverser la sélection](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXaZjlULzVdInWfOPqSdr4EB5FIfSPvj0pfdh3AZvG0pPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GpJt5a)  <br>
 * [▶️ Fonctionnalité pour améliorer les contours](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcTPTAucQzVJiqSlfidXeI4B0ykDSHYiE1bFgZZtL2cTXA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=apJVtq)  <br>
-* [▶️ Fonctionnalité pour améliorer les contours des cheveux ou d'objets](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXRRqrVopYhPlZTDKnrufKIBITEMur7d0MSw73orq-DKnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DCsthN)  <br>
-* [▶️ Masque de calque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eeb-ZmD_E4BKmbmU8lwqJAwBIxdy1OwMdEZlxGG_qWk4rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bdhrgS)  <br>
-* [▶️ Masque d'écrêtage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdXyaO31Gt5LmwGv2pYw8BcBsBqHgLyBFupN7IFpgkAAIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tfl3b8)  <br>   
+* [▶️ Fonctionnalité pour améliorer les contours des cheveux ou d'objets](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXRRqrVopYhPlZTDKnrufKIBITEMur7d0MSw73orq-DKnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DCsthN)  <br>   
 
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>
   [🛠️ 08_Sélectionner un objet](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>  
   [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>  
-  [🛠️ 08_Créer un masque d'écrétage](./exercices_photoshop/08_Créer_un_masque_d'écrétage.md){ .md-button }  <br>  
 
+
+### Notions: outils d'ajustements
+* [▶️ Masque d'écrêtage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdXyaO31Gt5LmwGv2pYw8BcBsBqHgLyBFupN7IFpgkAAIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tfl3b8)  <br>   
+  [🛠️ 08_Créer un masque d'écrétage](./exercices_photoshop/08_Créer_un_masque_d'écrétage.md){ .md-button }  <br>  
 
 
 
