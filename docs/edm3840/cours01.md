@@ -53,6 +53,6 @@
   
 
 ## Devoir
-* Créer un moodboard sur pour votre projet d'autoportrait [Pinterest](https://www.pinterest.com/). Voici une recherche sur [Pinterest](https://pin.it/6Qv4DFKkP) que j'ai déjà effectuée en lien avec le projet, ça peut vous donner des idées.
+* Créer un moodboard sur pour votre projet d'autoportrait [Pinterest](https://www.pinterest.com/). Voici [ma recherche](https://pin.it/6Qv4DFKkP) Pinterest que j'ai effectuée en lien avec le projet, ça peut vous donner des idées.
 * Créez-vous un compte et exporez le site [Kling AI](https://klingai.com/).
 
