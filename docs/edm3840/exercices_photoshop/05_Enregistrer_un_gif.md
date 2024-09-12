@@ -1,5 +1,6 @@
 Le but de cet exercice est de sauvegarder une image en GIF:
 ![](../assets/image/vecteur_rompre.png)
+<style>.md-footer{display:none;}</style>
 ***
 
 ## Matériel
