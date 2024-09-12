@@ -1,5 +1,7 @@
 # Cours 4
 [STOP]
+
+<style>.md-footer{display:none;}</style>
 ## Photoshop
 
 ### Notions
