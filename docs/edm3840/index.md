@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+<style>.md-footer{display:none;}</style>
+
 # Technologie des médias
 
 ## Descriptif du cours
