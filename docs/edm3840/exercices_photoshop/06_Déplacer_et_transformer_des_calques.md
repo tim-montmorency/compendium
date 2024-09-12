@@ -1,4 +1,6 @@
+<style>.md-footer{display:none;}</style>
 Le but de cet exercice est de déplacer et transformer les calques de manière à reproduire fidèlement l'image de référence donnée.
+
 
 ![](../assets/image/vecteur_rompre.png)
 
