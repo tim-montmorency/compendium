@@ -33,7 +33,7 @@
 - [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
 - [ ] Aucune explication n'est nécessaire durant la présentation des images.
 
-- **Exposé oral et présentation du moodboard**
+### **Exposé oral et présentation du moodboard**
 - [ ] Après la présentation des autoportraits, présentez vos moodboards dans PowerPoint.
 - [ ] Décrivez votre démarche artistique et expliquez en quoi votre travail est influencé par le courant artistique choisi.
 - [ ] Utilisez des outils en ligne comme Chat GPT pour identifier le mouvement artistique associé à vos inspirations.
