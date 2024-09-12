@@ -19,7 +19,7 @@
 * Liquide
 
 ## Contact et disponibilité du professeure
-* On me contacte par courriel
+* On me contacte par courriel et possibilité de me rencontrer sur Teams. 
 
 
  
