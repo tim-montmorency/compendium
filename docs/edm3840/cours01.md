@@ -13,7 +13,7 @@
 * Achat de matériel
    * Samsumg T7 ou T9
 
-##  Règles des locaux 
+## Règles des locaux 
 * Casques
 * Nourriture
 * Liquide
@@ -26,7 +26,6 @@
 ## Parcours professeure 
 [📁 Démo](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUJBDySwcXlHiT8XS4AEQRAByo170a64FjiwUu2p1dYQQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yFeOLR){ .md-button }   <br>
 
-
 ## Explication du projet 1
   [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>
 
@@ -34,19 +33,19 @@
 
 ## Photoshop
 [Créer un compte Adobe](https://helpx.adobe.com/ca_fr/manage-account/using/create-update-adobe-id.html#email-address){ .md-button }  <br>   
-### Notions
+### Notions:Création et gestion de projet
 * [▶️ Créer un projet: resolution / bit / profil / safe title ](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQaSUE17y5NPkMaoMwymaYQBywZqFVBv_AC8dn8SGO9qwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bTxmjf)  /  [📑 Powerpoint](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/El-TrEXH1jpAntr4QWJ8D3gByUFXmjinhhEj8qDeGKn7gQ?e=2XoEXt)  <br>
+### Notions:Raccourcis et productivité
 * [▶️ Raccourcis clavier](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXJX9EHpW7tPl3pqmGXLMjgBHL-uon3NG8BUZsybT9WUyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=raGWdG)  <br>
+### Notions:Interface et outils
 * [▶️ Présentation de l'interface : outils, panneau d'option, menu, fenêtre, calques.](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXykzz6iWJpOhU2dxcFze6IBMOuddkwlC0dWb5rjm9SAUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AL4C2i)  <br>
 * [▶️ Créer un dossier dans Photoshop](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EarNK_o0m2tBoauu0Gih_-IBUdum7wt_-y3jY5cx5Y5kIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2tj8LG)  <br>
+### Notions: Outils de déplacement et transformation
 * [▶️ Outil de déplacement](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQzn2afTUIFPmzXswdx2DC4BGYNRSkEQdpMfPK_TQro54A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hcL5MV)  <br>
 * [▶️ Transformations, rotations d'un calque ou d'image](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETPC6NeIxzpLv0wtkqkLkcUBqyRSl2p639oEDisVIsuzVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QbYyqP)  <br>   
   [🛠️ 06_Déplacer, transformer des calques, dossier](./exercices_photoshop/06_Déplacer_et_transformer_des_calques.md){ .md-button }  <br>    
-
-  
-### Notions  
+### Notions:enregistrement des images  
 * [▶️ Enregistrer des images](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcavsLtE0Y5Pk3GMxsWD-ssBC9P1z57Dx9FekQbGze7_8g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GQke8a)  /  [📑 Powerpoint](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/El-TrEXH1jpAntr4QWJ8D3gByUFXmjinhhEj8qDeGKn7gQ?e=2XoEXt)  <br>
-  
   [🛠️ 05_Enregistrer un PSD.md](./exercices_photoshop/05_Enregistrer_un_psd.md){ .md-button }  <br>    
   [🛠️ 05_Enregistrer un JPG.md](./exercices_photoshop/05_Enregistrer_un_jpg.md){ .md-button }  <br>    
   [🛠️ 05_Enregistrer un GIF.md](./exercices_photoshop/05_Enregistrer_un_gif.md){ .md-button }  <br>    
