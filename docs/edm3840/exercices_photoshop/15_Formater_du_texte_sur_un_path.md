@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est de formater du texte sur un path.
 ***  
 
