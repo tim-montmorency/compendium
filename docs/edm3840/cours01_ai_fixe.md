@@ -6,7 +6,7 @@
 
 - [ ] **Utiliser des termes précis** pour décrire la composition et les éléments visuels (par exemple, "une rue pavée sous la pluie" plutôt que "une rue").
 - [ ] **Mentionner l'angle de vue** pour orienter la caméra (par exemple, "plan rapproché", "plongée", "contre-plongée", "vue aérienne").
-- [ ] **Définir l'ambiance et le style** de l'image en fonction du ressenti souhaité (par exemple, "atmosphère lumineuse", "sombre", "surréaliste", "cinématographique").
+- [ ] **Définir l'ambiance et le style** de l'image en fonction du ressenti souhaité (par exemple, "atmosphère lumineuse", "sombre", "surréaliste", "cinématographique", "un photographe connu", "un mouvement artistique", "un style").
 - [ ] **Décrire en détail les personnages ou objets principaux**, leur position, expression, taille, vêtements et textures (par exemple, "un homme en costume, avec une expression déterminée, tenant un livre").
 - [ ] **Spécifier les couleurs ou palettes chromatiques** importantes pour la composition (par exemple, "teintes saturées", "nuances pastel", "contraste élevé").
 - [ ] **Indiquer l'éclairage**, qu'il soit naturel ou artificiel, et s'il est doux, fort, directionnel ou diffus (par exemple, "éclairage doux venant de la gauche, lumière naturelle").
