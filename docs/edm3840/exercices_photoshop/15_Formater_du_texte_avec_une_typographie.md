@@ -1,3 +1,5 @@
+
+<style>.md-footer{display:none;}</style>
 Le but de cet exercice est d'utiliser formater du texte grâce à une typographie
 ***
 
