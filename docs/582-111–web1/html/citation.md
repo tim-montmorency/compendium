@@ -2,13 +2,14 @@
 Différentes balises HTML permettent de démarquer une citation selon le contexte. Voyons les plus courantes.
 
 ## Q
+
+La balise `<q>` permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.
+
 <iframe height="300" style="width: 100%;" scrolling="no" title="Q" src="https://codepen.io/tim-momo/embed/oNPvxXX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/oNPvxXX">
   Q</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-La balise `<q>` permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.
 
 
 Par défaut, la majorité des navigateurs ajoutent des guillemets autour de la balise `<q>` afin de la faire ressortir du texte régulier.
