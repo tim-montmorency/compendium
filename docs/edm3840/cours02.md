@@ -4,12 +4,7 @@
 [STOP]
 
 
-### Intelligence artificielle - image fixe
-
-
-### [Kling AI](https://klingai.com/), [midjourney](https://www.midjourney.com/), [runway](https://app.runwayml.com/)
-
-
+### [Intelligence artificielle - image fixe](/cours01_ai_fixe.md)
 
 ### Retour sur la matière du dernier cours
 
