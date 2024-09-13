@@ -9,6 +9,7 @@ Télécharger et ouvrer le fichier suivant:
 
 ## Étapes
 
+- [ ] Importer l'image. 
 - [ ] Sélectionner l'outil Pinceau (B).
 - [ ] Utiliser l'outil Pipette (I) pour prélever la couleur de l'image originale directement à partir de votre document.
 - [ ] Aller dans la barre des options en haut et cliquer sur l'icône de papillon (Symétrie).
