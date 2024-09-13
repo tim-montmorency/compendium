@@ -21,3 +21,8 @@ Aperçu du résultat 👇
 * [ ] Créez-vous un Pen sur CodePen et faites en sorte que l'image d'arrière-plan fournie recouvre entièrement la page et que le focus soit mis sur la partie du bas de l'image afin que celle-ci ne soit jamais rognée.
 * [ ] Créez ensuite un iFrame de 400x300px positionné dans le coin supérieur droit de la page ↗️ et faites en sorte qu'il contienne cette page web.
 * [ ] Remplacez le iFrame actuel par la trame sonore du film réalisé par le groupe québécois Le Matos. Pour ce faire, allez sur la page Soundcloud de la chanson et choisissez l'option "Share" suivie de "Embed" afin d'obtenir le code d'un nouveau iFrame.
+
+## Notes de cours
+
+![icon (4)](![icon](https://github.com/user-attachments/assets/2ddbf16c-f0d2-4ecd-b104-02446066a9c1)
+)<br>[iframe](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/iframe.html)
