@@ -117,7 +117,7 @@ A vibrant street scene in the style of Vivian Maier, captured in rich colors. A 
 
 A powerful, monochrome documentary-style photograph inspired by Sebastião Salgado. The image shows a group of workers in a remote, harsh environment, their faces and bodies marked by the physical toll of their labor. The lighting is stark, highlighting the rough textures of their clothing and the land around them. The overall tone is dramatic and dignified, capturing both the struggle and the resilience of the subjects.
 
-A stunning aerial photograph of a vast landscape in the style of Yann Arthus-Bertrand. The image captures a bird’s-eye view of a winding river cutting through a green valley, with mountains in the background. The lighting is soft and natural, emphasizing the colors and textures of the land. The scene
+A stunning aerial photograph of a vast landscape in the style of Yann Arthus-Bertrand. The image captures a bird’s-eye view of a winding river cutting through a green valley, with mountains in the background. The lighting is soft and natural, emphasizing the colors and textures of the land. 
 
 A stunning aerial photograph of a vast landscape in the style of Yann Arthus-Bertrand. The image captures a bird’s-eye view of a winding river cutting through a green valley, with mountains in the background. The lighting is soft and natural, emphasizing the colors and textures of the land. The scene is expansive, highlighting the beauty and scale of the natural world.
 
