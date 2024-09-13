@@ -5,13 +5,13 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **MP3** **(MPEG Audio Layer III)** Le format MP3 est l'un des formats audio les plus répandus sur le web. Il offre une bonne qualité sonore tout en ayant une taille de fichier relativement petite, ce qui le rend idéal pour le streaming en ligne et le téléchargement.
 
-➕ Taille de fichier réduite
-➕ Compatibilité universelle
-➕ Diffusion en continu
-
-➖ Perte de qualité
-➖ Qualité variable
-➖ Dégradation successive
+➕ Taille de fichier réduite<br>
+➕ Compatibilité universelle<br>
+➕ Diffusion en continu<br>
+<br>
+➖ Perte de qualité<br>
+➖ Qualité variable<br>
+➖ Dégradation successive<br>
 
 !!! info
 
@@ -24,14 +24,14 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **AAC** **(Advanced Audio Coding)** L'AAC est un format audio de haute qualité qui offre une meilleure compression que le MP3, ce qui permet d'obtenir une meilleure qualité sonore à des débits binaires plus bas. Il est couramment utilisé pour la diffusion en continu et les services de musique en ligne.
 
-➕ Qualité audio supérieure
-➕ Meilleure compression
-➕ Économie d'espace
-➕ Meilleure gestion des hautes fréquences
-
-➖ Complexité
-➖ Moins largement utilisé
-➖ Dégradation successive
+➕ Qualité audio supérieure<br>
+➕ Meilleure compression<br>
+➕ Économie d'espace<br>
+➕ Meilleure gestion des hautes fréquences<br>
+<br>
+➖ Complexité<br>
+➖ Moins largement utilisé<br>
+➖ Dégradation successive<br>
 
 !!! info
 
@@ -43,14 +43,14 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **OGG** **(Ogg Vorbis)** Le format OGG est un format audio open source qui offre une bonne qualité sonore à des débits binaires plus bas. Il est souvent utilisé pour les flux audio en direct et le téléchargement de fichiers audio.
 
-➕ Qualité sonore
-➕ Format ouvert
-➕ Compression efficace
-➕ Compatibilité
-➕ Meilleure gestion des hautes fréquences
-
-➖ Moins largement utilisé
-➖ Moins de contenus disponibles
+➕ Qualité sonore<br>
+➕ Format ouvert<br>
+➕ Compression efficace<br>
+➕ Compatibilité<br>
+➕ Meilleure gestion des hautes fréquences<br>
+<br>
+➖ Moins largement utilisé<br>
+➖ Moins de contenus disponibles<br>
 
 !!! info
 
@@ -62,16 +62,16 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **WAV** **(Waveform Audio File Format)** Le format WAV est un format audio sans perte qui offre une excellente qualité sonore, mais il produit généralement des fichiers de grande taille. Il est parfois utilisé pour les enregistrements audio de haute qualité, mais il n'est pas aussi courant pour le streaming en ligne en raison de sa taille.
 
-➕ Qualité audio non altérée
-➕ Qualité sonore élevée
-➕ Stockage des détails sonores
-➕ Compatibilité
-
-➖ Taille de fichier élevée
-➖ Inefficace pour le streaming
-➖ Non adapté aux appareils avec peu d'espace
-➖ Compression inexistante
-➖ Moins couramment utilisé pour le web
+➕ Qualité audio non altérée<br>
+➕ Qualité sonore élevée<br>
+➕ Stockage des détails sonores<br>
+➕ Compatibilité<br>
+<br>
+➖ Taille de fichier élevée<br>
+➖ Inefficace pour le streaming<br>
+➖ Non adapté aux appareils avec peu d'espace<br>
+➖ Compression inexistante<br>
+➖ Moins couramment utilisé pour le web<br>
 
 !!! info
 
@@ -83,13 +83,13 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **FLAC** **(Free Lossless Audio Codec)** Le format FLAC est un autre format audio sans perte qui préserve la qualité sonore d'origine tout en compressant les fichiers pour réduire leur taille. Il est principalement utilisé par les audiophiles et les amateurs de musique de haute qualité.
 
-➕ Qualité audio non altérée
-➕ Compression efficace
-➕ Flexibilité des débits binaires
-
-➖ Taille de fichier
-➖ Moins largement pris en charge
-➖ Traitement plus intensif
+➕ Qualité audio non altérée<br>
+➕ Compression efficace<br>
+➕ Flexibilité des débits binaires<br>
+<br>
+➖ Taille de fichier<br>
+➖ Moins largement pris en charge<br>
+➖ Traitement plus intensif<br>
 
 !!! info
 
@@ -101,14 +101,14 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **WebM** **(Web Media)** Le format WebM est un format audio et vidéo open source développé pour le web. Il utilise le codec audio Vorbis pour l'audio et est souvent utilisé pour les vidéos et les fichiers audio HTML5.
 
-➕ Format ouvert
-➕ Compression efficace
-➕ Qualité sonore décente
-➕ Idéal pour le web
-
-➖ Traitement intensif
-➖ Moins largement pris en charge
-➖ Traitement plus intensif
+➕ Format ouvert<br>
+➕ Compression efficace<br>
+➕ Qualité sonore décente<br>
+➕ Idéal pour le web<br>
+<br>
+➖ Traitement intensif<br>
+➖ Moins largement pris en charge<br>
+➖ Traitement plus intensif<br>
 
 !!! info
 
@@ -120,15 +120,15 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
 **M4A** Le format M4A est associé à des fichiers audio au format MPEG-4. Il utilise le codec AAC pour la compression audio et est souvent utilisé pour les fichiers audio téléchargés depuis iTunes.
 
-➕ Qualité audio décente
-➕ Taille de fichier réduite
-➕ Compatibilité
-➕ Qualité sonore variable
-➕ Support de métadonnées
-
-➖ Qualité variable
-➖ Moins adapté aux audiophiles
-➖ Moins de qualité que les formats sans perte
+➕ Qualité audio décente<br>
+➕ Taille de fichier réduite<br>
+➕ Compatibilité<br>
+➕ Qualité sonore variable<br>
+➕ Support de métadonnées<br>
+<br>
+➖ Qualité variable<br>
+➖ Moins adapté aux audiophiles<br>
+➖ Moins de qualité que les formats sans perte<br>
 
 !!! info
 
