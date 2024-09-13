@@ -37,9 +37,9 @@ Comme toute balise HTML, il est possible d'attribuer une classe ou un id à un i
 
 L'attribut loading permet d'indiquer la priorité de chargement d'un iFrame. Par défaut, le navigateur tente de charger tous les iFrames en accordant une légère priorité à ceux visibles au chargement de la page dans la fenêtre. Cependant il est possible de lui spécifier différentes valeurs:
 
-- auto comportement normal, soit l'équivalent de ne pas mettre l'attribut.
-- lazy attendre que le iFrame soit sur le point d'être visible avant de le chargé. Donc si un usager ne fait jamais défiler la page jusqu'à celui-ci, le iFrame ne sera jamais chargé. Cette option permet d'accélérer le chargement de la page 🏁.
-- eager indique de charger le iFrame le plus rapidement possible, peu importe sa position dans la page.
+- **auto** comportement normal, soit l'équivalent de ne pas mettre l'attribut.
+- **lazy** attendre que le iFrame soit sur le point d'être visible avant de le chargé. Donc si un usager ne fait jamais défiler la page jusqu'à celui-ci, le iFrame ne sera jamais chargé. Cette option permet d'accélérer le chargement de la page 🏁.
+- **eager** indique de charger le iFrame le plus rapidement possible, peu importe sa position dans la page.
 ```
 <iframe src="https://site.com" loading="lazy"></iframe>
 ```
@@ -54,7 +54,5 @@ Les iFrames sont particulièrement utiles afin d'incorporer certains éléments 
 
 Par exemple, le code suivant imbrique une carte situant le collège Montmorency:
 
-```
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.5485899861956!2d-73.72064708431346!3d45.559405635106366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9223815890e79%3A0xe7408a77564697c4!2sColl%C3%A8ge%20Montmorency!5e0!3m2!1sfr!2sca!4v1617136763120!5m2!1sfr!2sca" width="600" height="450" loading="lazy">
 </iframe>
-```
