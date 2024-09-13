@@ -18,7 +18,7 @@
     
     
       
-        <title>Cours01 ai fixe - Notes de cours</title>
+        <title>Guide pour la création d'images fixes dans des modules d'intelligence artificielle - Notes de cours</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#intelligence-artificielle-image-fixe" class="md-skip">
+        <a href="#guide-pour-la-creation-dimages-fixes-dans-des-modules-dintelligence-artificielle" class="md-skip">
           Aller au contenu
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cours01 ai fixe
+              Guide pour la création d'images fixes dans des modules d'intelligence artificielle
             
           </span>
         </div>
@@ -11172,6 +11172,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -11180,9 +11182,60 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#intelligence-artificielle-image-fixe" class="md-nav__link">
+  <a href="#structure-des-prompts" class="md-nav__link">
     <span class="md-ellipsis">
-      Intelligence artificielle - image fixe
+      Structure des prompts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestion-des-images-de-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion des images de référence
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestion des images de référence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemples-dutilisation-dune-image-de-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemples d'utilisation d'une image de référence :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creativite-vs-pertinence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Créativité vs Pertinence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invites-negatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Invites négatives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemples-de-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemples de prompts
     </span>
   </a>
   
@@ -11203,28 +11256,44 @@
                   
 
 
-  <h1>Cours01 ai fixe</h1>
-
-<div><h3 id="intelligence-artificielle-image-fixe">Intelligence artificielle - image fixe<a class="headerlink" href="#intelligence-artificielle-image-fixe" title="Permanent link">¶</a></h3>
-<p><a href="https://klingai.com/">klingai</a> <a href="https://www.midjourney.com/">Midjourney</a> <a href="https://runwayml.com/">Runway</a></p>
-<p>Dans les prompts : 
-- [ ] <strong>Utiliser des termes précis</strong> pour décrire la composition et les éléments visuels.
-- [ ] <strong>Mentionner l'angle de vue</strong> (par exemple, plan rapproché, plongée, contre-plongée, vue aérienne).
-- [ ] <strong>Définir l'ambiance et le style</strong> de l'image (par exemple, atmosphère lumineuse, sombre, surréaliste, cinématographique).
-- [ ] <strong>Décrire en détail les personnages ou objets principaux</strong> (position, expression, taille, vêtements, texture).
-- [ ] <strong>Spécifier les couleurs ou palettes chromatiques</strong> importantes (par exemple, couleurs douces, contraste élevé, teintes saturées).
-- [ ] <strong>Indiquer l’éclairage</strong> (par exemple, lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce).
-- [ ] <strong>Ajouter des détails sur l'arrière-plan et le décor</strong> (par exemple, nature, ville, intérieur minimaliste).
-- [ ] <strong>Inclure des modificateurs de style</strong> (par exemple, réaliste, abstrait, rétro, futuriste).
-- [ ] <strong>Préciser la profondeur de champ</strong> (par exemple, flou artistique en arrière-plan, mise au point nette sur l'objet principal).
-- [ ] <strong>Vérifier la cohérence générale du prompt</strong>, en s'assurant que tous les éléments se complètent bien.</p>
-<p>Dans Creativité versus pertinence
-Pertinence = Fidèle
-Créativité = AI va vous surprendre</p>
-<p>Dans les invites négatives
-Vous pouvez spécifier ce que vous ne voulez pas dans votre vidéo</p>
-<p>Exemples de prompts 
-Close-up portrait of a woman with soft, natural lighting. Her face is illuminated by a warm, golden glow from a window. She has a thoughtful expression, her eyes slightly downcast. The background is blurred with bokeh, showing faint outlines of city lights. Her hair is tousled and falls naturally over her shoulders. Colors are muted, with a strong emphasis on the play of light and shadow.</p>
+<div><h1 id="guide-pour-la-creation-dimages-fixes-dans-des-modules-dintelligence-artificielle">Guide pour la création d'images fixes dans des modules d'intelligence artificielle<a class="headerlink" href="#guide-pour-la-creation-dimages-fixes-dans-des-modules-dintelligence-artificielle" title="Permanent link">¶</a></h1>
+<p><a href="https://klingai.com/">klingai</a> | <a href="https://www.midjourney.com/">Midjourney</a> | <a href="https://runwayml.com/">Runway</a></p>
+<h2 id="structure-des-prompts">Structure des prompts<a class="headerlink" href="#structure-des-prompts" title="Permanent link">¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utiliser des termes précis</strong> pour décrire la composition et les éléments visuels (par exemple, "une rue pavée sous la pluie" plutôt que "une rue").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Mentionner l'angle de vue</strong> pour orienter la caméra (par exemple, "plan rapproché", "plongée", "contre-plongée", "vue aérienne").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Définir l'ambiance et le style</strong> de l'image en fonction du ressenti souhaité (par exemple, "atmosphère lumineuse", "sombre", "surréaliste", "cinématographique").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Décrire en détail les personnages ou objets principaux</strong>, leur position, expression, taille, vêtements et textures (par exemple, "un homme en costume, avec une expression déterminée, tenant un livre").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Spécifier les couleurs ou palettes chromatiques</strong> importantes pour la composition (par exemple, "teintes saturées", "nuances pastel", "contraste élevé").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Indiquer l'éclairage</strong>, qu'il soit naturel ou artificiel, et s'il est doux, fort, directionnel ou diffus (par exemple, "éclairage doux venant de la gauche, lumière naturelle").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter des détails sur l'arrière-plan et le décor</strong> (par exemple, "arrière-plan urbain", "forêt luxuriante", "intérieur minimaliste").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Inclure des modificateurs de style</strong> qui influencent l'esthétique générale (par exemple, "réaliste", "abstrait", "rétro", "futuriste").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Préciser la profondeur de champ</strong>, en indiquant si l'arrière-plan doit être flou ou bien net (par exemple, "flou artistique en arrière-plan, mise au point sur l'objet principal").</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Vérifier la cohérence générale du prompt</strong>, en s'assurant que tous les éléments se complètent bien pour créer une image harmonieuse.</li>
+</ul>
+<h2 id="gestion-des-images-de-reference">Gestion des images de référence<a class="headerlink" href="#gestion-des-images-de-reference" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Ajouter une image de référence</strong> dans le prompt pour aider l'IA à mieux comprendre l'atmosphère ou les éléments visuels souhaités.</li>
+<li><strong>Modifier l'image de référence</strong> en fonction des détails supplémentaires que vous incluez dans votre prompt, comme l'éclairage, les couleurs ou l'ambiance générale que vous souhaitez obtenir.</li>
+<li><strong>Utiliser une image générée précédemment</strong> comme nouvelle référence. Cela permet de créer une série d'images cohérentes en réutilisant une génération précédente comme point de départ.</li>
+<li><strong>Être précis dans le prompt</strong> si vous ne voulez pas que l'image de référence soit trop modifiée pour que l'IA reste fidèle à l'image originale.</li>
+</ul>
+<h3 id="exemples-dutilisation-dune-image-de-reference">Exemples d'utilisation d'une image de référence :<a class="headerlink" href="#exemples-dutilisation-dune-image-de-reference" title="Permanent link">¶</a></h3>
+<ul>
+<li><em>"Inspiré de cette image (fichier d'image), ajouter un éclairage dramatique avec des ombres profondes et une atmosphère sombre. Atténuer les couleurs avec des teintes bleues dominantes."</em></li>
+<li><em>"Utiliser cette image de référence (fichier d'image), mais changer le personnage principal pour un homme plus jeune et remplacer le fond par une forêt brumeuse."</em></li>
+</ul>
+<h2 id="creativite-vs-pertinence">Créativité vs Pertinence<a class="headerlink" href="#creativite-vs-pertinence" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Pertinence :</strong> Créer des visuels <strong>fidèles</strong> à la description donnée ou à l'image de référence.</li>
+<li><strong>Créativité :</strong> Laisser l'IA <strong>vous surprendre</strong> avec des résultats inattendus en laissant plus de place à l'interprétation.</li>
+</ul>
+<h2 id="invites-negatives">Invites négatives<a class="headerlink" href="#invites-negatives" title="Permanent link">¶</a></h2>
+<ul>
+<li>Dans certains cas, <strong>spécifier ce que vous ne voulez pas</strong> dans l'image pour mieux contrôler le résultat final et éliminer des éléments indésirables.</li>
+</ul>
+<h2 id="exemples-de-prompts">Exemples de prompts<a class="headerlink" href="#exemples-de-prompts" title="Permanent link">¶</a></h2>
+<p>Close-up portrait of a woman with soft, natural lighting. Her face is illuminated by a warm, golden glow from a window. She has a thoughtful expression, her eyes slightly downcast. The background is blurred with bokeh, showing faint outlines of city lights. Her hair is tousled and falls naturally over her shoulders. Colors are muted, with a strong emphasis on the play of light and shadow.</p>
 <p>Wide-angle view of a rugged mountain landscape at dawn. The sky is a mix of soft pink and orange hues, with clouds hovering over the peaks. A river cuts through the valley, reflecting the morning light. Foreground features tall, dark pine trees in silhouette. The scene is serene but with a touch of drama due to the sharp mountain ridges and the mist in the distance. Colors are rich and slightly desaturated, with a high level of detail in the shadows.</p>
 <p>A bustling city street at night, with neon lights reflecting off wet pavement. The architecture is a blend of retro and futuristic elements, with towering skyscrapers, flying cars, and vintage shop signs. People in futuristic clothing walk by, their silhouettes blurred to convey motion. The scene is bathed in blue and purple neon lights, creating a cyberpunk atmosphere. The overall style is highly detailed with sharp contrasts between light and shadow.</p>
 <p>Full-body shot of a model wearing avant-garde fashion in an industrial setting. The model stands against a background of rusted metal and exposed pipes. She is wearing a structured, metallic outfit with sharp angles and bold accessories. Her pose is dramatic, with one arm raised, casting a long shadow. The lighting is harsh, with deep shadows and sharp highlights, giving the image a high-contrast, editorial feel. The color palette is cool, dominated by shades of grey, silver, and a pop of vibrant red.</p>
