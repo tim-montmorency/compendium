@@ -12,7 +12,7 @@ Aperçu du résultat 👇
  
 Arrière-plan
 
-![Arrière-plan]([bg.webp.zip](https://github.com/user-attachments/files/16998961/bg.webp.zip))
+![Arrière-plan.zip](https://github.com/user-attachments/files/16998961/bg.webp.zip))
 
 ## Requis
 
