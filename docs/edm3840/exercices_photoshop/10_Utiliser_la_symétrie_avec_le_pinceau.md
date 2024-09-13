@@ -14,6 +14,8 @@ Télécharger et installer des brosses
 - [ ] Importer l'image. 
 - [ ] Sélectionner l'outil Pinceau (B).
 - [ ] Utiliser l'outil Pipette (I) pour prélever la couleur de l'image originale directement à partir de votre document.
+- [ ] Ajuster la taille du pinceau en utilisant les touches [ et ] pour réduire ou augmenter la taille du pinceau. **(à valider car ne semble pas fonctionner)**
+- [ ] Ajuster dureté du pinceau Maintenez la touche Alt (Option sur Mac) enfoncée, puis faites glisser le curseur de la souris pour ajuster la dureté.
 - [ ] Aller dans la barre des options en haut et cliquer sur l'icône de papillon (Symétrie).
 - [ ] Choisir un type de symétrie (verticale, horizontale, circulaire, etc.) dans le menu déroulant.
 - [ ] Ajuster la ligne de symétrie sur votre document selon vos besoins.
