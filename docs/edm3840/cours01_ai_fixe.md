@@ -4,7 +4,7 @@
 
 ## Structure des prompts
 
-- [ ] **Préciser le contenu à générer**: Une femme de 45 ans à la peau de porcelaine, très blanche, se tient immobile au milieu d'une rue pavée sous une légère pluie. Sa peau délicate brille doucement dans la lumière des réverbères. Elle regarde droit vers le ciel, figée dans une posture contemplative. Une voiture, toujours en marche, avec ses lumières allumées, est arrêtée un peu plus loin, la porte du conducteur ouverte, suggérant une présence absente.
+- [ ] **Préciser le contenu à générer**: Une femme de 35 ans à la peau de porcelaine, très blanche, se tient immobile au milieu d'une rue pavée sous une légère pluie. Sa peau délicate brille doucement dans la lumière des réverbères. Elle regarde droit vers le ciel, figée dans une posture contemplative. Une voiture, toujours en marche, avec ses lumières allumées, est arrêtée un peu plus loin, la porte du conducteur ouverte, suggérant une présence absente.
 - [ ] **Définir le lieu**: La scène se déroule dans une rue calme d'Allemagne, en 1949, de nuit. Les pavés scintillent sous la pluie, entourés de vieux bâtiments imposants.
 - [ ] **Indiquer le moment**: Il est juste après minuit. Les réverbères diffusent des ombres longues et créent une atmosphère cinématographique teintée de mélancolie.
 - [ ] **Expliquer l’intention**: L’image cherche à évoquer un sentiment d’introspection profonde et de mélancolie, comme si la femme était perdue dans ses pensées, face à son avenir incertain.
