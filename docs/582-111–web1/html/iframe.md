@@ -56,3 +56,17 @@ Par exemple, le code suivant imbrique une carte situant le collège Montmorency:
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.5485899861956!2d-73.72064708431346!3d45.559405635106366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9223815890e79%3A0xe7408a77564697c4!2sColl%C3%A8ge%20Montmorency!5e0!3m2!1sfr!2sca!4v1617136763120!5m2!1sfr!2sca" width="600" height="450" loading="lazy">
 </iframe>
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+<img width="183" alt="Capture d’écran, le 2024-09-13 à 15 54 18" src="https://github.com/user-attachments/assets/b1313d6b-3bac-448d-a2ff-cfbb3a069e99">
+
+
+
+
+  **Exercice sur iframe**<br>
+  _iFrame - Turbo Kid_<br>
+  [Pour cet exercice, vous devrez utiliser un iFrame afin de réaliser une page promotionnelle du film québécois Turbo Kid.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+</div>
