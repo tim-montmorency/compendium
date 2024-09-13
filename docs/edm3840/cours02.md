@@ -14,7 +14,6 @@
 
   [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button } <br>   
   [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button } <br>   
-  [🛠️ 07_Recadrer et désincliner](./exercices_photoshop/07_Recadrer_et_désinscliner.md){ .md-button } <br>   
   [🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button } <br>   
 
 ### Notions: outils de masquage
