@@ -1,6 +1,6 @@
 
 Le but de cet exercice est de peinturer une image grâce à un pot de peinture.
-![](../assets/image/12_pot_peinture.png)
+![](../assets/image/12_andy-visage_femme.png)
 ***
 
 ## Matériel
