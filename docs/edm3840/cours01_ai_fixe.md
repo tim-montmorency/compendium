@@ -4,12 +4,12 @@
 
 ## Structure des prompts
 
-- [ ] **Préciser le contenu à générer**: Une femme de 35 ans à la peau de porcelaine, très blanche, se tient immobile au milieu d'une rue pavée sous une légère pluie. Sa peau délicate brille doucement dans la lumière des réverbères. Elle regarde droit vers le ciel, figée dans une posture contemplative. Une voiture, toujours en marche, avec ses lumières allumées, est arrêtée un peu plus loin, la porte du conducteur ouverte, suggérant une présence absente.
+- [ ] **Préciser le contenu à générer**: Une femme de 35 ans à la peau de porcelaine, très blanche, se tient immobile au milieu d'une rue pavée sous une légère pluie. Sa peau délicate brille doucement dans la lumière des réverbères. Elle regarde droit vers le ciel, figée dans une posture contemplative. Une vieille voiture (Mercedes), toujours en marche, avec ses lumières allumées, est arrêtée un peu plus loin, la porte du conducteur ouverte, suggérant une présence absente.
 - [ ] **Définir le lieu**: La scène se déroule dans une rue calme d'Allemagne, en 1949, de nuit. Les pavés scintillent sous la pluie, entourés de vieux bâtiments imposants.
 - [ ] **Indiquer le moment**: Il est juste après minuit. Les réverbères diffusent des ombres longues et créent une atmosphère cinématographique teintée de mélancolie.
 - [ ] **Expliquer l’intention**: L’image cherche à évoquer un sentiment d’introspection profonde et de mélancolie, comme si la femme était perdue dans ses pensées, face à son avenir incertain.
-- [ ] **Décrire l’action**: La caméra est placée en contre-plongée, cadrant la femme en pied, pour accentuer l'impression de solitude face à l'immensité du ciel et des bâtiments autour.
-- [ ] **Mentionner l'angle de vue**: Un plan large en contre-plongée, capturant la pluie qui tombe doucement autour de la femme. Une brume légère flotte dans l'air, ajoutant une touche de mystère.
+- [ ] **Décrire l’action**: La caméra est placée en plongée, cadrant la femme en pied, pour accentuer l'impression de solitude face à l'immensité du ciel et des bâtiments autour.
+- [ ] **Mentionner l'angle de vue**: Un plan large en plongée, capturant la pluie qui tombe doucement autour de la femme. Une brume légère flotte dans l'air, ajoutant une touche de mystère.
 - [ ] **Définir l'ambiance et le style**: Créer une ambiance sombre et légèrement surréaliste, rappelant les œuvres de Gregory Crewdson. Le style cinématographique met en valeur un éclairage dramatique et une scène minutieusement orchestrée.
 - [ ] **Décrire les personnages ou objets principaux**: La femme, immobile, porte un long manteau sombre qui contraste avec sa peau pâle. Ses cheveux, humides, collent à son visage, renforçant l'idée de vulnérabilité et de réflexion. La voiture, avec ses phares allumés et sa porte ouverte, est un élément clé de la composition, suggérant une histoire non racontée.
 - [ ] **Spécifier les couleurs ou palettes chromatiques**: Utiliser des tons atténués avec des nuances de bleu doux et de gris profonds, rehaussés par les reflets dorés des réverbères sur les pavés mouillés.
@@ -20,7 +20,7 @@
 - [ ] **Vérifier la cohérence générale**: Tous les éléments doivent s’unir pour former une image harmonieuse, introspective, capturant la solitude et la fugacité d’un moment sous la pluie, avec une mise en scène complexe et captivante typique du style Crewdson.
 
 
-
+Pour l'instant, il semble mieux d'entrer les Prompts en anglais. 
 
 
 ## Gestion des images de référence
