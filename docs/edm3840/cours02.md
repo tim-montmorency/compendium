@@ -4,7 +4,7 @@
 [STOP]
 
 
-### [Intelligence artificielle - image fixe](/cours01_ai_fixe.md)
+### [Intelligence artificielle - image fixe](cours01_ai_fixe.md)
 
 ### Retour sur la matière du dernier cours
 
