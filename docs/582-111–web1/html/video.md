@@ -1,5 +1,5 @@
 # Video
-La balise <video> permet d'intégrer un contenu vidéo dans une page.
+La balise `<video> `permet d'intégrer un contenu vidéo dans une page.
 
 ## Src & Source
 
