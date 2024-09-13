@@ -14,6 +14,7 @@ Il existe plusieurs formats vidéo couramment utilisés sur le web pour diffuser
 ➖ Qualité variable<br>
 ➖ Options de configuration limitées<br>
 
+
 !!! info
 
     Le format MP4 est un choix populaire pour la diffusion en ligne de vidéos en raison de sa compatibilité étendue, de sa qualité vidéo élevée et de sa taille de fichier réduite.
