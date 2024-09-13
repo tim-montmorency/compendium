@@ -3,7 +3,7 @@
 <style>.md-footer{display:none;}</style>
 [STOP]
 
-### [Kling AI](https://klingai.com/), midjourney, [runway](https://app.runwayml.com/)
+### [Kling AI](https://klingai.com/), [midjourney](https://www.midjourney.com/), [runway](https://app.runwayml.com/)
 
 - [ ] **Utiliser des termes précis** pour décrire la composition et les éléments visuels.
 - [ ] **Mentionner l'angle de vue** (par exemple, plan rapproché, plongée, contre-plongée, vue aérienne).
