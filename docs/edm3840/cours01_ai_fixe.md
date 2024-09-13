@@ -1,3 +1,6 @@
+### Intelligence artificielle - image fixe
+
+[klingai](https://klingai.com/) [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
 
 Dans les prompts : 
 - [ ] **Utiliser des termes précis** pour décrire la composition et les éléments visuels.
