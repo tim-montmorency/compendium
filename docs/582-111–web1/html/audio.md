@@ -57,6 +57,3 @@ Indique au navigateur de démarrer l'audio si possible dès le chargement de la 
 
 Les navigateurs bloquent presque tous cette option à moins qu'ils aient détecté un engagement de la part de l'utilisateur. Par exemple: avoir déjà déclenché manuellement un son, etc.
 
-audio
- 
-audio
