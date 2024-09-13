@@ -54,7 +54,10 @@
 * [▶️ Importer ou créer des pinceaux personnalisées](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUgt8SN-vbFMhM-2GabSd1UBMSJ5v3F07eO3dUluXIKAEg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2C8Zs7)   <br>    
 
   [🛠️ 10_Importer_un_pinceau](./exercices_photoshop/10_Importer_un_pinceau.md){ .md-button }  <br>   
-  [🛠️ 10_Utiliser la symétrie avec le pinceau](./exercices_photoshop/10_Utiliser_la_symétrie_avec_le_pinceau.md){ .md-button }  <br>   
+  [🛠️ 10_Utiliser la symétrie avec le pinceau](./exercices_photoshop/10_Utiliser_la_symétrie_avec_le_pinceau.md){ .md-button }  <br>
+
+
+  
 
 
 
