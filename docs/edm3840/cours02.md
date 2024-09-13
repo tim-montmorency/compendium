@@ -5,6 +5,7 @@
 
 ### [Kling AI](https://klingai.com/), [midjourney](https://www.midjourney.com/), [runway](https://app.runwayml.com/)
 
+Dans les prompts : 
 - [ ] **Utiliser des termes précis** pour décrire la composition et les éléments visuels.
 - [ ] **Mentionner l'angle de vue** (par exemple, plan rapproché, plongée, contre-plongée, vue aérienne).
 - [ ] **Définir l'ambiance et le style** de l'image (par exemple, atmosphère lumineuse, sombre, surréaliste, cinématographique).
@@ -16,15 +17,15 @@
 - [ ] **Préciser la profondeur de champ** (par exemple, flou artistique en arrière-plan, mise au point nette sur l'objet principal).
 - [ ] **Vérifier la cohérence générale du prompt**, en s'assurant que tous les éléments se complètent bien.
 
-Creativité versus pertinence
+Dans Creativité versus pertinence
 Pertinence = Fidèle
 Créativité = AI va vous surprendre
 
 
-invite négative
+Dans les invites négatives
 Vous pouvez spécifier ce que vous ne voulez pas dans votre vidéo
 
-
+Exemples de prompts 
 Close-up portrait of a woman with soft, natural lighting. Her face is illuminated by a warm, golden glow from a window. She has a thoughtful expression, her eyes slightly downcast. The background is blurred with bokeh, showing faint outlines of city lights. Her hair is tousled and falls naturally over her shoulders. Colors are muted, with a strong emphasis on the play of light and shadow.
 
 Wide-angle view of a rugged mountain landscape at dawn. The sky is a mix of soft pink and orange hues, with clouds hovering over the peaks. A river cuts through the valley, reflecting the morning light. Foreground features tall, dark pine trees in silhouette. The scene is serene but with a touch of drama due to the sharp mountain ridges and the mist in the distance. Colors are rich and slightly desaturated, with a high level of detail in the shadows.
