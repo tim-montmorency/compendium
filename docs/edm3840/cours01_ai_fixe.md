@@ -44,6 +44,17 @@ Pour l'instant, il semble mieux d'entrer les Prompts en anglais.
 
 - Dans certains cas, **spécifier ce que vous ne voulez pas** dans l'image pour mieux contrôler le résultat final et éliminer des éléments indésirables.
 
+
+## As references
+
+Une fois qu'une image est générée, tu peux l'enregistrer en tant que référence pour guider la création de futurs prompts. En utilisant cette image de référence, le système peut s'inspirer de ses caractéristiques visuelles, thèmes ou styles pour générer d'autres prompts ou images dans le même esprit. Lorsque tu crées des prompts ultérieurs, tu peux spécifier que la nouvelle génération doit s'inspirer de l'image de référence, ce qui aide à maintenir une cohérence dans le style ou l'ambiance.
+
+Par exemple, après avoir enregistré une image de la femme de 35 ans debout dans une rue pavée, tu pourrais générer un nouveau prompt comme celui-ci :
+
+"En utilisant l'image de référence enregistrée, crée une nouvelle scène où la même femme se tient près d'une gare vintage sous la pluie. Conserve l'atmosphère mélancolique, l'éclairage naturel des réverbères, et les tons atténués de bleu et de gris. La femme tient maintenant un parapluie, et un train arrive au loin, ajoutant une touche de mystère à la scène."
+
+Cette technique permet de construire des récits cohérents ou des séries d'images avec un langage visuel constant.
+
 ## Exemples de prompts
 
 Close-up portrait of a woman with soft, natural lighting. Her face is illuminated by a warm, golden glow from a window. She has a thoughtful expression, her eyes slightly downcast. The background is blurred with bokeh, showing faint outlines of city lights. Her hair is tousled and falls naturally over her shoulders. Colors are muted, with a strong emphasis on the play of light and shadow.
