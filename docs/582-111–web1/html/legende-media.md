@@ -39,4 +39,4 @@ La balise `<figcaption>` peut être avant ou après l'élément quelle décrit, 
 !!! tip
 
     📖 EN SAVOIR PLUS
-    Article MDN à propos de la balise figure.
+    [Article MDN à propos de la balise figure.](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure)
