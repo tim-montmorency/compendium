@@ -24,5 +24,4 @@ Aperçu du résultat 👇
 
 ## Notes de cours
 
-![icon (4)](![icon](https://github.com/user-attachments/assets/2ddbf16c-f0d2-4ecd-b104-02446066a9c1)
-)<br>[iframe](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/iframe.html)
+![icon](https://github.com/user-attachments/assets/961615e7-297f-487b-8f60-32da7e647e86)<br>[iframe](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/iframe.html)
