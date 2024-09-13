@@ -6,6 +6,8 @@ Le but de cet exercice est de recréer l'image suivante.
 
 Télécharger et ouvrer le fichier suivant:
 [📁 Document de départ](../assets/image/10_symetrie.png){ .md-button }   <br>
+Télécharger et installer des brosses 
+[[Brosses](https://uqam-my.sharepoint.com/:f:/r/personal/lavoie-pilote_francoise_uqam_ca/Documents/01_cours/_cours_pour_tous_diverses_references/01_typo_brosses/brosses/adobe?csf=1&web=1&e=gEBSSM)]()   <br>
 
 ## Étapes
 
