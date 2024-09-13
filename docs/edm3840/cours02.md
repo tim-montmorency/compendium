@@ -3,6 +3,10 @@
 <style>.md-footer{display:none;}</style>
 [STOP]
 
+### Ouverture des Pinterest
+
+### Retour sur la matière du dernier cours
+
 
 ### Notions: recadrage d'images  
 * [▶️ Importer les images du web et recadrer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXcl-DbOTXNEqBjHETGbBooBcK6n3OkxzttphLLWKQ_pwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ac2lTc)  <br>
