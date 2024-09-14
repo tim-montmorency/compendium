@@ -90,3 +90,8 @@ Créer un article de blog à l'aide de balises HTML.
 
 ![logo-2582748_640](https://github.com/user-attachments/assets/dc16dcc8-7e47-45f3-9099-76022f158c48)<br> Sémantique <br> [header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
 
+![icon (7)](https://github.com/user-attachments/assets/9df648d3-4cdb-4f2e-a112-ce1a0ed2b019)<br> Formatage HTML <br> [`<u>`, `<b>`, `<strong>`, `<em>`, `<i>`, etc.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formatage-html.html)
+
+![icon (6)](https://github.com/user-attachments/assets/36099f0f-6c70-4b5c-91d9-841778462395)<br> Chemins d'accès <br> [Absolue, relatif](
+
+
