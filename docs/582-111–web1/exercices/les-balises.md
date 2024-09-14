@@ -1,23 +1,26 @@
 # Exercice sur les balises HTML
 Créer un article de blog à l'aide de balises HTML.
+
+
 ![1-290880aa](https://github.com/user-attachments/assets/9ae774df-3fcc-4587-aaa7-fcced9686b7a)
 
 [Hideo Kojima](https://github.com/user-attachments/files/17001047/7394ef47.zip)
 
-
+<br>
+<br>
 **Tâches**
 
 ## Préparation des documents
 
 * [ ] Pour débuter, dans VS Code, ajouter un fichier index.html + un dossier images
 (et non img).
-* [ ] Dans le dossier images, ajouter l'image de Hideo Kojima.
+* [ ] Dans le dossier images, ajouter l'image de **Hideo Kojima**.
 * [ ] Ensuite, sélectionner le fichier index.html et commencer à coder.
 
 ## L'en-tête de la page
 
-* [ ] Ajoutez la déclaration **DOCTYPE** et la balise html pour définir le début du document HTML.
-* [ ] Par la suite, ajouter vos balises head et body.
+* [ ] Ajoutez la déclaration **!DOCTYPE** et la balise html pour définir le début du document HTML.
+* [ ] Par la suite, ajouter vos balises **head** et **body**.
 * [ ] Maintenant, ajouter le titre de la page: **Article de blog**.
 * [ ] Ensuite, ajouter le titre de votre page dans l'en-tête avec des balises `<h1>` : **La légende Hideo Kojima**.
 * [ ] Suivi d'une balise `<p>` pour la date en incluant à l'intérieur de celle-ci une balise `<a>` ayant pour lien un # et en ajoutant le nom: **Jeffrey Morris**.
@@ -27,9 +30,9 @@ Créer un article de blog à l'aide de balises HTML.
 
 * [ ] Débuter avec une balise `<br>`.
 * [ ] Créer un en-tête pour l'article.
-* [ ] Insérer à l'intérieur de l'en-tête avec des balises `<h2>` le nom de Hideo Kojima.
+* [ ] Insérer à l'intérieur de l'en-tête avec des balises `<h2>` le nom de **Hideo Kojima**.
 * [ ] À la suite des balises `<h2>`, ajouter une balise `<br>`.
-* [ ] Maintenant, ajouter l'image de Hideo Kojima ainsi qu'une légende à l'aide d'une légende média :
+* [ ] Maintenant, ajouter **l'image de Hideo Kojima** ainsi qu'une légende à l'aide d'une légende média :
 
 !!! note
 
@@ -58,14 +61,14 @@ Créer un article de blog à l'aide de balises HTML.
     Il déménagea à l'âge de trois ans et fut élevé dans le Kansai, région japonaise méridionale. Grand fan de cinéma, il réalise plusieurs petits courts métrages en 8 mm au collège. Étant un jeune japonais fan de manga et de robots, il s'intéresse rapidement au jeu vidéo.
     
 * [ ] Ajouter une vidéo à partir de ce lien : [Hideo Kojima YouTube](https://www.youtube.com/watch?v=AfjElfbj_mo)
-* [ ] Ajouter un autre titre avec les balises `<h2>` Les débuts chez Konami.
+* [ ] Ajouter un autre titre avec les balises `<h2>` **Les débuts chez Konami**.
 * [ ] Ajouter un nouveau paragraphe :
 
 !!! note
 
     Il rentre chez Konami en 1986 et commence directement au poste de game planner (chef de projet). Metal Gear sur MSX est sa première production. Jeu d'action, Metal Gear est le précurseur du genre désormais très prisé du jeu d'infiltration.
     
-* [ ] Ajouter un sous-titre avec des balises `<h3>` Succès planétaire de la saga Metal Gear Solid.
+* [ ] Ajouter un sous-titre avec des balises `<h3>` **Succès planétaire de la saga Metal Gear Solid**.
 * [ ] Ajouter 3 paragraphes avec les textes suivants :
 
 !!! note
