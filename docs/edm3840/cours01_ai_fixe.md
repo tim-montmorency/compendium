@@ -1,6 +1,6 @@
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
-[klingai](https://klingai.com/) | [Runway](https://runwayml.com/)
+[klingai](https://klingai.com/) | [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
 
 ## Structure des prompts
 
@@ -20,8 +20,11 @@
 - [ ] **Vérifier la cohérence générale**: Tous les éléments doivent s’unir pour former une image harmonieuse, introspective, capturant la solitude et la fugacité d’un moment sous la pluie, avec une mise en scène complexe et captivante typique du style Crewdson.
 
 
+
 Pour l'instant, il semble mieux d'entrer les Prompts en anglais. 
 
+## Création d'un green screen 
+- [ ] **Pour créer un green screen** : Si on veut créer un green screen on doit le préciser dans le prompt comme suit : Generate a photo-realistic fish swimming with a vibrant green screen background, centered in the frame, with perfect lighting for keying out the background.
 
 ## Gestion des images de référence
 
