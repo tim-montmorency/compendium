@@ -56,7 +56,7 @@
   [🛠️ 10_Importer_un_pinceau](./exercices_photoshop/10_Importer_un_pinceau.md){ .md-button }  <br>   
   [🛠️ 10_Utiliser la symétrie avec le pinceau](./exercices_photoshop/10_Utiliser_la_symétrie_avec_le_pinceau.md){ .md-button }  <br>
 
-### Ouverture des Pinterest
+
 
 ## Devoir
 
