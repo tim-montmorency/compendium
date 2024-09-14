@@ -20,7 +20,7 @@
 
 
 ### Notions: les settings de davinci
-* [▶️ paramètres du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbydqyrRFvNNkNaQBvrkY7IB2M5MMLn8D5E0rqz4B5cO4w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=I0ugbJ)
+* [▶️ Paramètres du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbydqyrRFvNNkNaQBvrkY7IB2M5MMLn8D5E0rqz4B5cO4w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=I0ugbJ)
   * Résolution : 1920 x 1080
   * Fréquence d’images : 23,976 fps
   * Cache et préférences de stockage
