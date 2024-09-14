@@ -81,3 +81,9 @@ Créer un article de blog à l'aide de balises HTML.
 
 * [ ] Finalement, ajouter un bas de page à votre article avec **Source : et un lien (utiliser # pour remplacer le lien) appelé Wikipédia**.
 * [ ] Pour terminer, créer un bas de page à votre page et insérer l'inscription : **Copyright © 2023 - Aucun droit réservé**.
+
+## Notes de cours
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency.com/compendium/582-111%E2
+![image](https://github.com/user-attachments/assets/f41ec831-65f6-41fd-a456-451aea381a48)
+
