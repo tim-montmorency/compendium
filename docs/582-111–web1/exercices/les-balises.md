@@ -84,6 +84,9 @@ Créer un article de blog à l'aide de balises HTML.
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency.com/compendium/582-111%E2
-![image](https://github.com/user-attachments/assets/f41ec831-65f6-41fd-a456-451aea381a48)
+![ancres](https://github.com/user-attachments/assets/de0b1215-1177-4f74-bf95-b0606a85cbbb)<br> Les Ancres <br> [`<a>`](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/ancres.html)
+
+![icon (1)](https://github.com/user-attachments/assets/177c8f2a-2c04-48d3-897a-23b72d90ecd1)<br> Les Balises <br> [`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/balises.html)
+
+![logo-2582748_640](https://github.com/user-attachments/assets/dc16dcc8-7e47-45f3-9099-76022f158c48)<br> Sémantique <br> [header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/semantique.html)
 
