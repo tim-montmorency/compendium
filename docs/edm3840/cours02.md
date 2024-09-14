@@ -60,7 +60,7 @@
 
 ## Devoir
 
- [Devoirs à faire](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhVMDoqELARNlJPwOUVgatcBFzwjcosEhpdI77PmedAtXA?e=cEQVLo)  Prévoir 3 h. Plus vous travailler plus vous aimerez Photoshop !!!
+ [Devoir à faire](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhVMDoqELARNlJPwOUVgatcBFzwjcosEhpdI77PmedAtXA?e=cEQVLo)  Prévoir 3 h. Plus vous travailler plus vous aimerez Photoshop !!!
 
  
   
