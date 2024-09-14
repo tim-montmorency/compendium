@@ -12,13 +12,13 @@
 - [ ] **Mentionner l'angle de vue**: Un plan large en plongée, capturant la pluie qui tombe doucement autour de la femme. Une brume légère flotte dans l'air, ajoutant une touche de mystère.
 - [ ] **Définir l'ambiance et le style**: Créer une ambiance sombre et légèrement surréaliste, rappelant les œuvres de Gregory Crewdson. Le style cinématographique met en valeur un éclairage dramatique et une scène minutieusement orchestrée.
 - [ ] **Décrire les personnages ou objets principaux**: La femme, immobile, porte un long manteau sombre qui contraste avec sa peau pâle. Ses cheveux, humides, collent à son visage, renforçant l'idée de vulnérabilité et de réflexion. La voiture, avec ses phares allumés et sa porte ouverte, est un élément clé de la composition, suggérant une histoire non racontée.
+- [ ] **Créer un fond green screen** : Si l'on souhaite isoler les personnages ou objets pour un travail ultérieur, on peut spécifier un fond vert dans le prompt comme suit : *"Générer une scène photo-réaliste d'une femme debout au milieu d'une rue pavée la nuit, avec un fond vert vibrant, parfait pour détacher le fond en post-production."* Cela permet de faciliter l'insertion dans un autre décor.
 - [ ] **Spécifier les couleurs ou palettes chromatiques**: Utiliser des tons atténués avec des nuances de bleu doux et de gris profonds, rehaussés par les reflets dorés des réverbères sur les pavés mouillés.
 - [ ] **Indiquer l'éclairage**: L’éclairage est principalement naturel, provenant des réverbères au-dessus. Il éclaire doucement le visage de la femme, tandis que le reste de la scène baigne dans des ombres diffuses.
 - [ ] **Ajouter des détails sur l'arrière-plan et le décor**: En arrière-plan, les vieux bâtiments européens et une légère brume renforcent l'ambiance mystérieuse sans détourner l’attention du sujet principal.
 - [ ] **Inclure des modificateurs de style**: Le style doit être réaliste, mais légèrement onirique, avec un soupçon de surréalisme, créant une impression de temps suspendu, comme dans les compositions photographiques de Gregory Crewdson.
 - [ ] **Préciser la profondeur de champ**: L’accent peut être mis sur la femme en utilisant une légère mise au point sur elle, tandis que l’arrière-plan reste net, permettant de maintenir la profondeur et la clarté de l’ensemble de la scène.
 - [ ] **Vérifier la cohérence générale**: Tous les éléments doivent s’unir pour former une image harmonieuse, introspective, capturant la solitude et la fugacité d’un moment sous la pluie, avec une mise en scène complexe et captivante typique du style Crewdson.
-
 
 
 Pour l'instant, il semble mieux d'entrer les Prompts en anglais. 
