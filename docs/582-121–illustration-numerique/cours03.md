@@ -1,7 +1,7 @@
 # Cours 3
 
 
-### Notions
+### Notions : outils de typographie
 * [▶️ Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  /  [📑 Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
 * [▶️ Installer une typographie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY9E_od0N_RAkXPuA25134QB1Md_l5bCWuzIIHh7N-I7fw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gXAay8)  <br>
 * [▶️ Formater du texte avec une typographie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcDOsZrLm2RLs9sElLYQaGkBTOMTfZS7uAs0s5ofUORH0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c0BSza)  <br>
@@ -24,7 +24,7 @@ Ouverture des Pinterest
   * Faire des rectangles
 
 
-### Notions
+### Notions: outils de sélection
 * [▶️ Outil de sélection rectangulaire](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUIRW4pQSMpBtjKbTmMVQukBEivertajTWLyRGHdfiU5GA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tnT6zj) <br>
 * [▶️ Outil de sélection elliptique (circulaire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZd7q9svWmpBiU4DtveYlq8B7jew9aOFR7vlbAEC5c9Evg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0rhfqg
 ) <br>
