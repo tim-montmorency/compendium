@@ -92,6 +92,21 @@ Créer un article de blog à l'aide de balises HTML.
 
 ![icon (7)](https://github.com/user-attachments/assets/9df648d3-4cdb-4f2e-a112-ce1a0ed2b019)<br> Formatage HTML <br> [`<u>`, `<b>`, `<strong>`, `<em>`, `<i>`, etc.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formatage-html.html)
 
-![icon (6)](https://github.com/user-attachments/assets/36099f0f-6c70-4b5c-91d9-841778462395)<br> Chemins d'accès <br> [Absolue, relatif](
+![icon (6)](https://github.com/user-attachments/assets/36099f0f-6c70-4b5c-91d9-841778462395)<br> Chemins d'accès <br> [Absolue, relatif](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/chemins.html)
+
+![icon (9)](https://github.com/user-attachments/assets/7eb3c952-a705-49bd-9529-ceaf60bf5bbd)<br> Formats d'image <br>[gif, jpeg, png, webp](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/format-image.html)
+
+![icon (8)](https://github.com/user-attachments/assets/60f93034-34b0-4c92-8a76-b4229949b17d)<br> Image <br>[La balise <img> permet d'afficher une image](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/image.html)
+
+![icon (11)](https://github.com/user-attachments/assets/37171a27-8ac6-4dd8-a663-a73df1fca78b)<br> Légende de média <br>[figure, figcaption](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/legende-media.html)
+
+![icon (12)](https://github.com/user-attachments/assets/174b6e7d-5565-4066-991e-dab09780b6d5)<br> Légende de média <br>[youtube, vimeo, google map, etc.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/iframe.html)
+
+![icon (13)](https://github.com/user-attachments/assets/c3675110-35cc-4ab7-a9cc-ec29d6ebe520)<br> Citation <br>[q, blockquote, cite](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/citation.html)
+
+
+
+
+
 
 
