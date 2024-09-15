@@ -6,7 +6,7 @@
 ## DA VINCI
 
 ### 
-[Les capsules Da Vinci](Da_VINCI)
+* [Les capsules Da Vinci](Da_vinci)
 
 
 
