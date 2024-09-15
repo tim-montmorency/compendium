@@ -7,7 +7,7 @@
 * [Révision Da Vinci](Da_Vinci)
 
 ## Udio
-Utilisation d'* [Udio](Udio) dans vos projets
+Utilisation d'[Udio](Udio.md) dans vos projets
 
 ## Proposition de modification du plan de cours. 
 Fusion de deux devoirs. 
