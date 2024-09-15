@@ -4,7 +4,7 @@
 ## Examen (60 minutes)
 
 ## Da Vinci (60 minutes)
-* [Révision Da Vinci](da_vinci)
+* [Révision Da Vinci](da_vinci.md)
 
 ## Udio
 Utilisation d'[Udio](ai_udio.md) dans vos projets
