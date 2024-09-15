@@ -1,6 +1,7 @@
 <style>.md-header{display:none;}</style>
 
-Guide pour la création d'images fixes
+#  Guide pour la création de musique via un module d'intelligence artificielle
+
 Pour structurer efficacement des prompts pour la génération de musique avec une IA comme Udio, il est utile d'inclure des éléments spécifiques liés au style musical, aux émotions à véhiculer, aux instruments, et à l'atmosphère générale. Voici une structure de base pour t'aider à formuler un prompt clair et efficace pour la génération musicale :
 
 - [ ] **Style et Genre**  
@@ -41,4 +42,6 @@ Pour structurer efficacement des prompts pour la génération de musique avec un
 ### Exemple complet :
 **Prompt :**  
 _"Create a slow, melancholic folk song in the style of Leonard Cohen. The track should evoke a sense of longing and quiet reflection, featuring deep, gravelly vocals and acoustic guitar as the primary instruments. The arrangement should be minimalistic, with occasional subtle piano chords and a light string accompaniment. The song should build slowly, with a gentle crescendo towards the end, conveying both vulnerability and resignation. Lyrics should explore themes of love, loss, and the passage of time."_
+
+
 
