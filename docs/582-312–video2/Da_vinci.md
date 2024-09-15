@@ -40,7 +40,7 @@
 ### Notions: l'onglet montage
 * [▶️ Présentation des différents onglets de Davinci ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EROcXiTqDIhCon7AopZhYQ4BkoB8HJSEha37J4jESD_7oA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yqhvGy)
 
-### Notions: présentation de l'onglet montage
+### Notions: Présentation de l'onglet montage
 * [▶️ Création d'un timeline](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW0qYkLbAMNAu6i8EwxClcYBW9zMJnLTDJXER8sMKPoiOA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GOX0og)
 * [▶️ Présentation générale de l'onglet montage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZs7YWt7rRpHuanRkNkT53UB5cNBe11p1rU5-Xqi0djMGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=45smcv)
 * [▶️ Présentation de la fenêtre de visionnement et de la fenêtre de montage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ESRNqSnOL65GhniwhoRG-w8BOWkrGMWQii1xUAnBh3ev7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LwhmWB)
@@ -63,15 +63,15 @@
 * [▶️ Keyframe panoramique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY8KmAleO-VPn3TBTEnZ9OYBZ7upASoFTHbMaxvANa62nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trWKxK)
 * [▶️ keyframe pitch son](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWTF7KJwz99EqqnOjNSMjMYBa7zEhZvetVDbIzkaBMAkSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zZfch)
 
-### Notions:l'inspecteur 
+### Notions: L'inspecteur 
 * [▶️ Utilisation de l'inspecteur 1](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_video/_capsules_montage/_capsules_da_vinci/01_capsules_da_vinci/01_da_vinci_de_base/16_montage_video/04_onglet_montage_inspecteur_1.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rN6LMZ)
 * [▶️ Utilisation de l'inspecteur 2](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ed1bZq74SjtCtb-SpS5RDFEBR5TBonsT9DAi2KvzTG9pYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=syujLB)
 
 
-### Notions:Rendus
+### Notions: Rendus
 * [▶️ Rendus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ed1Dalo2wONNnuonrlT0IzsBuaGe85t1zZaoujcY35-Y1A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=s8Q2ds)
 
 
-### Notions: l'exportation des projets
+### Notions: L'exportation des projets
 * [▶️ Exportation vidéo et audio ](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_video/_capsules_montage/_capsules_da_vinci/01_capsules_da_vinci/01_da_vinci_de_base/26_exportation/01_exportation_video_audio.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WkjifX)
 * [▶️ Exportation audio](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbwwYHFcorNNvN0mMjFIK-oBhngodo_2cUp1IlotSg_JbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zO8cat)
