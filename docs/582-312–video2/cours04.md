@@ -1,19 +1,18 @@
 
 # COURS 04 
 
-
 ## Examen (60 minutes)
-
 
 ## Da Vinci (60 minutes)
 * [Révision Da Vinci](Da_Vinci)
 
+## Udio
+Utilisation d'Udio dans vos projets
 
-## Montage de votre projet dans Da Vinci
-
-
+## Proposition de modification du plan de cours. 
+Fusion de deux devoirs. 
 
 ## Devoir
-Terminer le montage le offline pour la semaine prochaine, car la semaine prochaine vous avez un gros devoir à terminer. 
+Travail sur le montage offline. 
 
 
