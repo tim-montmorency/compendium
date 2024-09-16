@@ -7,7 +7,7 @@
 ### **Autoportrait**
 - [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
 - [ ] **Lien visuel :** Assurez-vous que les images sont artistiquement cohérentes en suivant le courant artistique que vous avez choisi. Utilisez la répétition d'éléments visuels comme les couleurs, les formes, les textures ou les motifs pour créer une harmonie esthétique entre toutes les œuvres.
-- [ ] **Calques obligatoires :** Chaque image doit comporter au moins 4 calques d’images découpées (**si vous animez un calque, il compte pour un calque découpé**), ainsi que des calques de dessin et/ou des calques vectoriels (**la typographie compte pour du vectoriel**).
+- [ ] **Calques obligatoires :** Chaque image doit comporter au moins 4 calques d’images découpées (**si vous manipulez un calque pour l'animer, il compte pour un calque découpé**), ainsi que des calques de dessin et/ou des calques vectoriels (**la typographie compte pour du vectoriel**).
 - [ ] **Dimensions :** Format 1920 x 1080 pixels, orientation horizontale.
 - [ ] **Langue :** Tous les éléments doivent être réalisés en français.
 
