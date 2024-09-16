@@ -5,7 +5,10 @@
 * [Révision Da Vinci](da_vinci.md)
 
 ## Udio (30 minutes)
-Utilisation d'[Udio](ai_udio.md) dans vos projets
+* Utilisation de l'[AI](ai_musique.md) pour la création de musique dans vos projets
+* Voici deux sites pour la création de musique :
+  * [Udio](https://www.udio.com/)
+  * [Suno](https://suno.com/)
 
 Pause
 
