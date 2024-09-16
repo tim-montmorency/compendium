@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+<style>.md-header{display:none;}</style>
 # PROJET 1
 
 ## **CONSIGNES / AUTOPORTRAIT**
