@@ -9,6 +9,8 @@
 
 ### Retour sur les achats
 
+### Retour sur le travail 1 / option supplémentaires
+
 ### Notions: recadrage d'images  
 * [▶️ Importer les images du web et recadrer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXcl-DbOTXNEqBjHETGbBooBcK6n3OkxzttphLLWKQ_pwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ac2lTc)  <br>
 * [▶️ Recadrer et désinclinez](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ea3DyfqjdfhAk6jjNzmFB1UBKag7Rm6YQSrjFgtWeyXn5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XuM64Z)   <br>
