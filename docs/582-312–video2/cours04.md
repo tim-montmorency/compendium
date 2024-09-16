@@ -12,7 +12,7 @@
 
 Pause
 
-## Importation médias devoir 1 (15 minutes)
+## Importation des médias pour le devoir 1 (15 minutes)
 Télécharger [le dossier](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EqtuUkymY9VKpLkVw1MkYz0B7OK_fwOFEz05lc3ItRowQA?e=HJm9PG) suivant. Mettre le dossier dans "mes projets". Importer les médias dans Da Vinci. 
 
 
