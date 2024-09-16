@@ -19,7 +19,6 @@
 * Importer les médias dans Da Vinci. 
 
 
-
 ## Examen (60 minutes)
 
 ## Devoir
