@@ -1,7 +1,7 @@
 # Cours 5
 
 
-## Da Vinci (90 minutes)
+## Da Vinci (30  minutes)
 * [Révision Da Vinci](da_vinci.md)
 
 * Pour le cours am - retour sur le son
