@@ -11,7 +11,7 @@
   * [Udio](https://www.udio.com/)
 
 
-Pause
+## Pause
 
 ## Importation des médias pour le devoir 1 (15 minutes)
 * Télécharger [le dossier](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EqtuUkymY9VKpLkVw1MkYz0B7OK_fwOFEz05lc3ItRowQA?e=HJm9PG) suivant.
