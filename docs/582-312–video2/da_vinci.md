@@ -9,7 +9,7 @@
 ### Notions: les disques et stockage
 * [▶️ Disque dur (Mac et PC, formaté en exFAT)](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EkkmPlf02DFPksOLkJ3dn3MBPTo2pHYwE3LKOhTQV3OyzQ?e=KKUKa0)
 * [▶️ Nomenclature](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EeVA3XWXEnxHnvPZ2RZxBPUBAH0C6pS_xcWQw0P4Nl4zrg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=16LvMg)
-* [Nomenclature à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=JvgeIF)
+* [📁 Nomenclature à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=JvgeIF)
 
 ### Notions: la base sur la vidéo
 * [📑 Notions de base sur la vidéo](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EcBqBM3-BDVMkUkaBlcHtZEBP-BVzWQBfZb-4mQt8ZEm4A?e=VdaTsS)
