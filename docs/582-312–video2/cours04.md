@@ -4,7 +4,7 @@
 ## Da Vinci (90 minutes)
 * [Révision Da Vinci](da_vinci.md)
 
-## Intelligence artificielle pour création de musique (30 minutes)
+## Intelligence artificielle pour création de musique (15 minutes)
 * Utilisation de l'[AI](ai_musique.md) pour la création de musique dans vos projets
 * Voici deux sites pour la création de musique :
   * [Suno](https://suno.com/)
