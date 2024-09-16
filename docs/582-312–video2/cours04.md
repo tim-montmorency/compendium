@@ -19,7 +19,7 @@
 * Importer les médias dans Da Vinci. 
 
 
-## Examen (40 minutes + 15 minutes de temps supplémentaire)
+## Examen (30 minutes + 15 minutes de temps supplémentaire)
 
 ## Devoir
 Explication du [Devoir #1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtSsnjizF69FmpQw0IiuP-cBYGyVbcfRz1Uz9C1vd_jSYw?e=UZRWbR)
