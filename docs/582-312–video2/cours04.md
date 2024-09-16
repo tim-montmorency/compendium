@@ -4,8 +4,6 @@
 ## Da Vinci (90 minutes)
 * [Révision Da Vinci](da_vinci.md)
 
-
-
 ## Pause (10 minutes)
 
 ## Importation des médias pour le devoir 1 (15 minutes)
