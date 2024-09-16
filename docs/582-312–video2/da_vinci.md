@@ -12,6 +12,7 @@
 * [Nomenclature à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=JvgeIF)
 
 ### Notions: la base sur la vidéo
+* [📑 Notions de base sur la vidéo](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EcBqBM3-BDVMkUkaBlcHtZEBP-BVzWQBfZb-4mQt8ZEm4A?e=VdaTsS)
 * [▶️ Images par seconde (fps)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYu_BgcpGjNIta_c1cCdTRABQyFr-2t7FwjqaWhc--ClPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QIzqe4)
 * [▶️ Progressif vs Interlacé](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EU9BzudwcH9Hgh61xbWYPgIBMPZcfGn3ZCGY4VpcE7POtg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UTTD2E)
 * [▶️ Résolution](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EeaVH-yC7vVEpS3tEGPToIYBafNfn-5anli52Ba7rGCCTQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WO7mx5)
