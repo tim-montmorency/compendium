@@ -22,6 +22,5 @@
 ## Examen (60 minutes)
 
 ## Devoir
-Faire le devoir 1
 Explication du [Devoir #1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtSsnjizF69FmpQw0IiuP-cBYGyVbcfRz1Uz9C1vd_jSYw?e=UZRWbR)
 
