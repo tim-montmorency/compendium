@@ -61,12 +61,12 @@ Ajouter cette ligne dans le `<head>` de votre HTML
 ![](./assets/images/icomoon7.png){data-zoom-image}
 ![](./assets/images/icomoon8.png){data-zoom-image}
 
-#### Installation
+#### Installation icomoon
 
 1. Placez le dossier de votre police icomoon dans le répertoire `assets/fonts/`
 1. Ajouter cette ligne dans le `<head>` de votre HTML : `<link rel="stylesheet" href="assets/fonts/icomoon-v01/style.css">`
 
-#### Utilisation
+#### Utilisation icomoon
 
 ```html
 <i class="icomoon-heart"></i>
