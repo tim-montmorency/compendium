@@ -32,7 +32,7 @@ Ouverture des Pinterest
 * [▶️ Outil de sélection d'objet, sélection rapide, ou baguette magique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERykK6yyvu1Mo-
 
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>    
-  [🛠️ 08_Sélectionner un objet](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>  
+  [🛠️ 08_Sélectionner un objet avec sélection d'objet, sélection rapide et baguette magique](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>  
 
 
 
