@@ -91,18 +91,20 @@ Tous les éléments de la scène se complètent harmonieusement pour créer une 
 
 Pour l'instant, il semble mieux d'entrer les Prompts en anglais. Prompts en anglais
 
+A huge, fluffy white cat is walking down an urban street, towering over the buildings and cars. A woman in a white dress calmly crosses the street, unaffected by the massive creature’s presence. The scene takes place in a busy Japanese city street, with narrow buildings, kanji signs, and parked cars lining the sidewalks. It is midday, with soft, diffused light.
 
-Generate a photorealistic scene of a 35-year-old woman with very pale porcelain skin, standing motionless in the middle of a cobblestone street. It’s lightly raining, and her delicate skin glows softly under the streetlights. She is looking up at the sky, frozen in a contemplative posture. An old car (Mercedes) is parked a little further away, engine running, with the headlights on and the driver’s door open, suggesting a mysterious absence.
+The image should convey a surreal sense of calm, where the fantastical blends harmoniously with everyday urban life. The woman walks peacefully down the street, while the giant cat moves slowly behind her. A wide, slightly low-angle shot captures both the woman and the giant cat within the same frame.
 
-The scene takes place on a quiet street in Germany in 1949, at night, under light rain. The cobblestones glisten under the streetlight, and old, imposing European buildings surround the street. It’s just after midnight, and the streetlights cast long, dramatic shadows, adding to the cinematic atmosphere tinged with melancholy.
+The atmosphere is surreal and cinematic, reminiscent of Studio Ghibli films and the techniques used in big-budget movies, where supernatural elements are seamlessly integrated into realistic environments. The style echoes the surrealist art movement.
 
-The scene’s intention is to evoke a deep sense of introspection and melancholy, with a feeling of suspended time. The camera is positioned in a bird’s-eye view, capturing the woman from head to toe to emphasize her isolation against the vastness of the sky and the surrounding buildings.
+The cat is enormous, with fluffy white fur. The woman, dressed in a flowing white dress, appears small in comparison and walks serenely, paying no attention to the cat. The scene uses vintage tones with desaturated colors: shades of green and beige predominate, creating a nostalgic impression.
 
-The mood is dark, slightly surreal, reminiscent of Gregory Crewdson’s work, with a cinematic style and dramatic lighting. The woman wears a long, dark coat contrasting with her pale skin, and her wet hair clings to her face, highlighting her vulnerability. The car, with its headlights on and door open, plays a key role in the composition, enhancing the scene's mystery.
+The lighting is soft and diffuse, with minimal shadows, emphasizing the calm and otherworldly atmosphere. In the background, you can see typical Japanese urban architecture, commercial signs, and electric cables crossing the street.
 
-The lighting mainly comes from the streetlights, casting soft, diffuse light on the woman’s face, while the rest of the scene is bathed in subtle shadows. In the background, the old European buildings and a thin mist float in the air, adding a touch of mystery.
+The visual style should be realistic but with a dreamlike touch, reminiscent of the fantastical animation style of Studio Ghibli and the surrealist compositions of the art movement. The focus is on the woman and the giant cat, with a slightly blurred background to draw attention to the main subjects.
 
-The colors are muted, with soft blue and deep gray tones, highlighted by golden reflections from the streetlights on the wet cobblestones. The scene should have a realistic yet slightly dreamlike style, with a depth of field that focuses on the woman while keeping the background sharp and detailed.
+All elements of the scene come together harmoniously to create an atmosphere of surreal calm, where the fantastical and the ordinary coexist fluidly and naturally.
+
 
 
 
