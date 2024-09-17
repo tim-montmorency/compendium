@@ -1,7 +1,7 @@
 # Utilisation de Kling AI
 
 ## Étape 1 : Rédiger un prompt
-- **Consultez [la page suivante](prompt) pour plus d’informations sur la rédaction de prompts efficaces.
+- **Consultez [la page suivante](prompt)** pour plus d’informations sur la rédaction de prompts efficaces.
 
 ---
 
