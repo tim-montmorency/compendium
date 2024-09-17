@@ -6,8 +6,6 @@
 
 ### Comment rédiger un prompt pour une scène visuelle
 
-### Prompt pour générer une scène surréaliste cinématographique
-
 - [x] **Préciser le contenu à générer :** 
     (Décrivez ce que vous voulez voir dans la scène) 
     *Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature.*
@@ -72,7 +70,7 @@
 ---
 
 
-Prompts en français
+### Prompts en français
 
 Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature. La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji et des voitures garées le long des trottoirs. La scène se passe en milieu de journée, avec une lumière douce et diffuse.
 
@@ -88,8 +86,9 @@ Le style visuel doit être réaliste mais avec une touche onirique, rappelant l'
 
 Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.
 
+### Prompts en anglais
 
-Pour l'instant, il semble mieux d'entrer les Prompts en anglais. Prompts en anglais
+Pour l'instant, il semble mieux d'entrer les Prompts en anglais.
 
 A huge, fluffy white cat is walking down an urban street, towering over the buildings and cars. A woman in a white dress calmly crosses the street, unaffected by the massive creature’s presence. The scene takes place in a busy Japanese city street, with narrow buildings, kanji signs, and parked cars lining the sidewalks. It is midday, with soft, diffused light.
 
