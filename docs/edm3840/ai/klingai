@@ -1,14 +1,14 @@
 # Utilisation de Kling AI
 
 ## Étape 1 : Rédiger un prompt
-- **Consultez * [la page suivante](prompt)** pour plus d’informations sur la rédaction de prompts efficaces.
+- **Consultez [la page suivante](prompt) pour plus d’informations sur la rédaction de prompts efficaces.
 
 ---
 
 ## Étape 2 : Gestion des images de référence (optionnel)
 
 Si vous décidez **d'ajouter une image de référence**, les étapes suivantes vous permettront de mieux orienter l'IA. Si vous ne mettez **pas d'image**, cette étape n'est pas nécessaire.
-
+˚˚
 1. **Ajouter une image de référence** : Utilisez une image pour guider l'IA dans la compréhension de l'atmosphère ou des éléments visuels souhaités.
 2. **Modifier l'image de référence** : Ajustez l'image en fonction des détails que vous souhaitez intégrer dans le prompt, comme l'éclairage, les couleurs ou l'ambiance.
 3. **Utiliser une image générée précédemment** : Vous pouvez prendre une image que vous avez déjà générée comme référence pour en créer d'autres, garantissant ainsi une cohérence visuelle.
