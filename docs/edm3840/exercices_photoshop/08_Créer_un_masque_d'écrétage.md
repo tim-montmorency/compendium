@@ -1,4 +1,5 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
 Le but de cet exercice est d'appliquer un effet sur un calque uniquement grâce à un masque d'écrétage
 
 ![](../assets/image/08_masque_d'ecretage_final.png)

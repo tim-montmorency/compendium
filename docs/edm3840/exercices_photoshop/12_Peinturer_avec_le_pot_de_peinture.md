@@ -1,4 +1,5 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
 Le but de cet exercice est de peinturer une image grâce à un pot de peinture.
 ![](../assets/image/12_andy-visage_femme.png)
 ***

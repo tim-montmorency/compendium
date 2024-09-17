@@ -1,4 +1,5 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
 
 Le but de cet exercice est de faire la sélection d'un sujet, d'améliorer le contour et de masquer l'arrière plan.
 
