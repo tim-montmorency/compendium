@@ -16,7 +16,7 @@ Pour construire un tableau ligne par ligne, on indique pour chaque ligne,`<tr>` 
 
 
 
-On a une balise de ligne **<tr>** qui englobe un groupe de cellules **<td>**.
+On a une balise de ligne **<tr>** qui englobe un groupe de cellules `<td>`.
 
 
 Par exemple, si je veux faire un tableau à deux lignes, avec trois cellules par ligne (donc trois colonnes), je devrai taper ceci :
