@@ -3,7 +3,7 @@
 <style>.md-footer{display:none;}</style>
 [STOP]
 
-### [Intelligence artificielle - image fixe](AI.md)
+### [Intelligence artificielle - image fixe](../ai../klingai.md)
 
 ### Retour sur la matière du dernier cours
 
