@@ -1,6 +1,5 @@
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
-| [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
 
 ## Structure des prompts
 
