@@ -1,5 +1,8 @@
 
 # Lettre de présentation
+
+Votre lettre de présentation est écrite pour une compagnie précise. À cet effet, choisissez une compagnie qui vous intéresse dans le cadre des stages et adressez-leur votre lettre. 
+
 ## Contenu de votre lettre   
 
 Votre lettre doit contenir les sections suivantes:     

@@ -243,6 +243,10 @@ On fait un peu de JavaScript.
 
 Pour ceux et celles qui auraient besoin de se pratiquer en JavaScript, veuillez faire ces exercices à la maison : <https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1>
 
+Un aide-mémoire est également disponible sur mon GitHub : <https://github.com/jfcmontmorency/aide-memoire>
+
+Finalement, réviser au besoin la [portion JavaScript du cours 1](./javascript.md)
+
 ## Exercices
 
 <div class="grid grid-1-2" markdown>

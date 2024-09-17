@@ -24,6 +24,7 @@ En n'ajoutant que des classes au HTML et uniquement aux endroits où il est insc
 - [ ] `container`
 - [ ] `row`
 - [ ] `col`
+- [ ] `col-8`
 - [ ] `col-4`
 - [ ] `col-2`
 - [ ] `offset-1`

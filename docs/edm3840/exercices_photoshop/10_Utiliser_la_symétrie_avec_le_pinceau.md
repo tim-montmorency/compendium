@@ -6,11 +6,16 @@ Le but de cet exercice est de recréer l'image suivante.
 
 Télécharger et ouvrer le fichier suivant:
 [📁 Document de départ](../assets/image/10_symetrie.png){ .md-button }   <br>
+Télécharger et installer des brosses 
+[[Brosses](https://uqam-my.sharepoint.com/:f:/r/personal/lavoie-pilote_francoise_uqam_ca/Documents/01_cours/_cours_pour_tous_diverses_references/01_typo_brosses/brosses/adobe?csf=1&web=1&e=gEBSSM)]()   <br>
 
 ## Étapes
 
+- [ ] Importer l'image. 
 - [ ] Sélectionner l'outil Pinceau (B).
 - [ ] Utiliser l'outil Pipette (I) pour prélever la couleur de l'image originale directement à partir de votre document.
+- [ ] Ajuster la taille du pinceau en utilisant les touches [ et ] pour réduire ou augmenter la taille du pinceau. **(à valider car ne semble pas fonctionner)**
+- [ ] Ajuster dureté du pinceau Maintenez la touche Alt (Option sur Mac) enfoncée, puis faites glisser le curseur de la souris pour ajuster la dureté.
 - [ ] Aller dans la barre des options en haut et cliquer sur l'icône de papillon (Symétrie).
 - [ ] Choisir un type de symétrie (verticale, horizontale, circulaire, etc.) dans le menu déroulant.
 - [ ] Ajuster la ligne de symétrie sur votre document selon vos besoins.

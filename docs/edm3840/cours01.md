@@ -25,7 +25,7 @@
 [📁 Démo](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUJBDySwcXlHiT8XS4AEQRAByo170a64FjiwUu2p1dYQQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yFeOLR){ .md-button }   <br>
 
 ## Explication du projet 1
-  [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>
+  [📁 Projet 1](projet01.md){ .md-button }   <br>
 
 ## Photoshop
 [Créer un compte Adobe](https://helpx.adobe.com/ca_fr/manage-account/using/create-update-adobe-id.html#email-address){ .md-button }  <br>   

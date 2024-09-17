@@ -54,7 +54,8 @@ nav:
   - edm3840 :
     - edm3840/index.md
     - Références: edm3840/references.md
-    - Projet 1: edm3840/projets/projet01.md
+    - Projet 1: edm3840/projet01.md
+    
     - Cours 1: edm3840/cours01.md
     - Cours 2: edm3840/cours02.md
     - Cours 3: edm3840/cours03.md
@@ -195,6 +196,7 @@ nav:
   - Video 2 :
     - 582-312–video2/index.md
     - Références: 582-312–video2/references.md
+    - Capsules Da Vinci: 582-312–video2/da_vinci.md
     - Cours 1: 582-312–video2/cours01.md
     - Cours 2: 582-312–video2/cours02.md
     - Cours 3: 582-312–video2/cours03.md
