@@ -1,5 +1,6 @@
 # Cours 3
 
+*Ouverture des Pinterest  <br>
 
 ### Notions : outils de typographie
 * [▶️ Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  /  [📑 Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
@@ -17,7 +18,6 @@
 
 
 ## Travail en classe
-*Ouverture des Pinterest  <br>
   [📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
   * Travailler avec la grille et les règles<br>
   * Travailler avec les alignements
