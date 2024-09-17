@@ -7,6 +7,7 @@ La balise en paire `<table>` `</table>` indique le début et la fin d'un tableau
 **Indiquez les valeurs du tableau avec les balises HTML `<tr>` et `<td>`**
 
 Pour construire un tableau ligne par ligne, on indique pour chaque ligne,`<tr>` (pour **table row** ou "**rangée du tableau**"), le contenu des différentes cellules, `<td>` (pour **table data** ou "**donnée**" ou "**entrée**"):
+
 - `<tr>` `</tr>` indique le début et la fin d'une ligne du tableau
 - `<td>` `</td>` indique le début et la fin du contenu d'une cellule
 ![cellule](https://github.com/user-attachments/assets/5e46aa52-68bb-40c9-a64e-d13f22fbfe00)
