@@ -1,4 +1,4 @@
-# Utilisation de Kling AI
+# Utilisation de [Kling AI](https://klingai.com/)
 
 ## Étape 1 : Rédiger un prompt
 - **Consultez [la page suivante](prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
