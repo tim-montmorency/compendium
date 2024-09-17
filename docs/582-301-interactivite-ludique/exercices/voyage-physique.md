@@ -15,3 +15,4 @@ Exercice sur le déplacement par vélocité et la gestion d'attribut (scale) rel
 ## Consignes
 
 - [ ] Veuillez effectuer un fork du [Codepen de départ](https://codepen.io/tim-momo/pen/WNqqvGr)
+- [ ] Suivez les instructions dans les commentaires
