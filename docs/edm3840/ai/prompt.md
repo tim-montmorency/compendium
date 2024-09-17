@@ -1,6 +1,6 @@
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
-[klingai](https://klingai.com/) | [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
+| [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
 
 ## Structure des prompts
 
