@@ -110,7 +110,7 @@ Cette balise doit être placée au début du tableau, juste avant l'en-tête. So
 
 ## Un grand tableau avec des balises HTML
 
-Divisez un tableau avec les balises HTML thead, tbody et tfoot
+Divisez un tableau avec les balises HTML **thead**, **tbody** et **tfoot**
 
 Si votre tableau est assez gros, vous aurez tout intérêt à le découper en plusieurs parties. Pour cela, il existe des balises HTML qui permettent de définir les trois “zones” du tableau:
 
@@ -123,6 +123,8 @@ Si votre tableau est assez gros, vous aurez tout intérêt à le découper en pl
     Vous vous servirez de ces balises, surtout si votre tableau est assez gros, et que vous avez besoin de l'organiser plus clairement. Pour les “petits” tableaux, vous pouvez garder sans problème l'organisation plus simple que nous avons vue au début.
 
 Vous pouvez par exemple y mettre un résumé, ou un total. Le pied de tableau se mettra, comme l'en-tête, par défaut, en **gras**:
+
+
 <img width="581" alt="grand-tableau" src="https://github.com/user-attachments/assets/a7465c0c-e320-4647-b99f-a5106b91ed9d">
 
 
@@ -144,6 +146,8 @@ II existe deux attributs pour deux types de fusions différentes:
 - **L'attribut `rowspan` permet de fusionner des lignes:** là, deux lignes seront groupées entre elles. La fusion s'effectuera verticalement.
 
 Voyons tout de suite à quoi cela peut ressembler:
+
+
 <img width="598" alt="fusion-cellule" src="https://github.com/user-attachments/assets/10d45a01-0e15-47a9-8dd3-8469bbe03fc5">
 
 
