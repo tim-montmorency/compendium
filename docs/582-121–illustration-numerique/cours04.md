@@ -1,5 +1,5 @@
 # Cours 4
-[STOP]
+
 ## Photoshop
 
 * [▶️ Formater du texte sur un path](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZPWW1J0wQBIsHyKJMhDY7wBbyCRmuQ_JYAJMfgcek0qFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1EPWSV) <br>
