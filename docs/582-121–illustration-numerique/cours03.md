@@ -17,7 +17,7 @@
 
 
 ## Travail en classe
-Ouverture des Pinterest
+*Ouverture des Pinterest  <br>
   [📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
   * Travailler avec la grille et les règles<br>
   * Travailler avec les alignements
