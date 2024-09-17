@@ -10,13 +10,13 @@
 * [▶️ Masque d'écrêtage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdXyaO31Gt5LmwGv2pYw8BcBsBqHgLyBFupN7IFpgkAAIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tfl3b8)  <br>
 *  [▶️ Outil pipette (pour sélectionner des couleurs)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYCAP3HOYBxLsVkq3V8REnMB1TjJ1_VtXO-02OcHzTnszw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=L6fO8u) <br>   
 
-  [🛠️ 08_Sélectionner avec l'outil objet](./exercices_photoshop/08_selection_objet.md){ .md-button }  <br>  
-  [🛠️ 08_Sélectionner avec l'outil de sélection rapide ](./exercices_photoshop/08_selection_rapide.md){ .md-button }  <br>  
-  [🛠️ 08_Sélectionner avec l'outil de sélection baguette ](./exercices_photoshop/08_selection_baguette.md){ .md-button }  <br> 
-  [🛠️ 08_Sélectionner avec l'outil de pipette ](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>  
-  [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>  
-  [🛠️ 08_Créer un masque d'écrétage](./exercices_photoshop/08_Créer_un_masque_d'écrétage.md){ .md-button }  <br>  
-  [🛠️ 09_Utiliser la pipette](./exercices_photoshop/09_Utiliser_la_pipette.md){ .md-button }  <br>    
+  [🛠️ 08_Sélectionner avec l'outil objet](./exercices_photoshop/08_selection_objet.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil de sélection rapide ](./exercices_photoshop/08_selection_rapide.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil de sélection baguette ](./exercices_photoshop/08_selection_baguette.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil de pipette ](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>   
+  [🛠️ 08_Créer un masque d'écrétage](./exercices_photoshop/08_Créer_un_masque_d'écrétage.md){ .md-button }  <br>   
+  [🛠️ 09_Utiliser la pipette](./exercices_photoshop/09_Utiliser_la_pipette.md){ .md-button }  <br>   
 
 
 
