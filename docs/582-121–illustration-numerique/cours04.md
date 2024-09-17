@@ -37,3 +37,6 @@
   
 ## Devoir
 
+Faire [le devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) suivant pour la semaine prochaine. 
+
+
