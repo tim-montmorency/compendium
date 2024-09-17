@@ -67,7 +67,6 @@ La ligne d'en-tête se crée avec un `<tr>` mais les cellules qu'elle contient s
 La ligne d'en-tête est très facile à reconnaître pour deux raisons:
 
 - Les cellules sont des <th>au lieu des `<td>` habituels
-  
 - C'est la première ligne du tableau
 
 !!! note
@@ -110,7 +109,7 @@ Cette balise doit être placée au début du tableau, juste avant l'en-tête. So
 Divisez un tableau avec les balises HTML thead, tbody et tfoot
 
 Si votre tableau est assez gros, vous aurez tout intérêt à le découper en plusieurs parties. Pour cela, il existe des balises HTML qui permettent de définir les trois “zones” du tableau:
-- 
+
 - **L'en-tête du tableau** (en haut) se définit avec les balises `<thead>` `</thead>`
 - **Le corps du tableau** (au centre) se définit avec les balises `<tbody>` `</tbody>`
 - **Le pied du tableau** (en bas) se définit avec les balises `<tfoot>` `</tfoot>`
