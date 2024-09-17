@@ -24,7 +24,7 @@ Matériel
 * [ ] À l'intérieur de thead, utilisez des balises `<tr>` et `<th>` pour créer les en-têtes de colonne du tableau.
 * [ ] À l'intérieur des des balises `<th>` ajouter: titre01, titre02, etc
 * [ ] À l'intérieur du tableau, ajoutez la balise `<tbody>`
-* [ ] À l'intérieur de `<tbody>`, utilisez des balises tr et td pour créer les cellules du tableau.
+* [ ] À l'intérieur de `<tbody>`, utilisez des balises `<tr>` et `<td>` pour créer les cellules du tableau.
 
 !!! note
 
