@@ -106,39 +106,3 @@ All elements of the scene come together harmoniously to create an atmosphere of 
 
 
 
-
-
-## Gestion des images de référence
-
-- **Ajouter une image de référence** dans le prompt pour aider l'IA à mieux comprendre l'atmosphère ou les éléments visuels souhaités.
-- **Modifier l'image de référence** en fonction des détails supplémentaires que vous incluez dans votre prompt, comme l'éclairage, les couleurs ou l'ambiance générale que vous souhaitez obtenir.
-- **Utiliser une image générée précédemment** comme nouvelle référence. Cela permet de créer une série d'images cohérentes en réutilisant une génération précédente comme point de départ.
-- **Être précis dans le prompt** si vous ne voulez pas que l'image de référence soit trop modifiée pour que l'IA reste fidèle à l'image originale.
-
-### Exemples d'utilisation d'une image de référence :
-
-- *"Inspiré de cette image (fichier d'image), ajouter un éclairage dramatique avec des ombres profondes et une atmosphère sombre. Atténuer les couleurs avec des teintes bleues dominantes."*
-- *"Utiliser cette image de référence (fichier d'image), mais changer le personnage principal pour un homme plus jeune et remplacer le fond par une forêt brumeuse."*
-
-## Créativité vs Pertinence
-
-- **Pertinence :** Créer des visuels **fidèles** à la description donnée ou à l'image de référence.
-- **Créativité :** Laisser l'IA **vous surprendre** avec des résultats inattendus en laissant plus de place à l'interprétation.
-
-## Invites négatives
-
-- Dans certains cas, **spécifier ce que vous ne voulez pas** dans l'image pour mieux contrôler le résultat final et éliminer des éléments indésirables.
-
-
-## As references
-
-Une fois qu'une image est générée, tu peux l'enregistrer en tant que référence pour guider la création de futurs prompts. En utilisant cette image de référence, le système peut s'inspirer de ses caractéristiques visuelles, thèmes ou styles pour générer d'autres prompts ou images dans le même esprit. Lorsque tu crées des prompts ultérieurs, tu peux spécifier que la nouvelle génération doit s'inspirer de l'image de référence, ce qui aide à maintenir une cohérence dans le style ou l'ambiance.
-
-Par exemple, après avoir enregistré une image de la femme de 35 ans debout dans une rue pavée, tu pourrais générer un nouveau prompt comme celui-ci :
-
-"En utilisant l'image de référence enregistrée, crée une nouvelle scène où la même femme se tient près d'une gare vintage sous la pluie. Conserve l'atmosphère mélancolique, l'éclairage naturel des réverbères, et les tons atténués de bleu et de gris. La femme tient maintenant un parapluie, et un train arrive au loin, ajoutant une touche de mystère à la scène."
-
-Cette technique permet de construire des récits cohérents ou des séries d'images avec un langage visuel constant.
-
-
-
