@@ -57,7 +57,7 @@
 
 ## Exercice tableaux no1
 
-![thumb](https://github.com/user-attachments/assets/5496f795-594f-4d37-8bcf-431eda02350d)
+![thumb](https://github.com/user-attachments/assets/83a77663-69f8-4820-bb66-8caec52d955f)
 [Pour cet exercice, vous devez recréer un tableau.](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau1.html)
 
 ## Exercice tableaux no2
