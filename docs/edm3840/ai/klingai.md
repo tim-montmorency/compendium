@@ -34,3 +34,6 @@ Une fois que vous avez **généré des images**, vous pouvez les utiliser comme 
 - *"En utilisant l'image de référence enregistrée, crée une nouvelle scène où la même femme se tient près d'une gare vintage sous la pluie. Conserve l'atmosphère mélancolique, l'éclairage naturel des réverbères, et les tons atténués de bleu et de gris. La femme tient maintenant un parapluie, et un train arrive au loin, ajoutant une touche de mystère à la scène."*
 
 Cette technique permet de créer des récits visuels cohérents ou des séries d'images avec un style unifié.
+
+
+| [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
