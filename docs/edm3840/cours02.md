@@ -35,7 +35,9 @@
 * [▶️ Fonctionnalité pour améliorer les contours](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUZv77XVWNtLjaBvLUPOBCwBJWcDbb2olClNEiOK_ecmVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4ZY1Ii)  <br>   
 * [▶️ Fonctionnalité pour améliorer les contours des cheveux ou d'objets](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQ-OZkBqfw1OpfXoyoOkICQBf8mGz8GaW3G_nogEjJv5BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NwJfu4)  <br>   
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>   
-  [🛠️ 08_Sélectionner un objet](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil objet](./exercices_photoshop/08_selection_objet.md){ .md-button }  <br>  
+  [🛠️ 08_Sélectionner avec l'outil de sélection rapide ](./exercices_photoshop/08_selection_rapide.md){ .md-button }  <br>  
+  [🛠️ 08_Sélectionner avec l'outil de sélection baguette ](./exercices_photoshop/08_selection_baguette.md){ .md-button }  <br>   
   [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>   
 
 
