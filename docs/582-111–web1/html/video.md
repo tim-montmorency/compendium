@@ -27,7 +27,8 @@ Cette méthode offre l'avantage de définir plusieurs sources. Ainsi, si le navi
 ```
 !!! info
     
-    Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. caniuse.com/mp4
+    Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. <br>
+   [ caniuse.com/mp4](https://caniuse.com/mpeg4)
 
 ## Poster
 
@@ -41,9 +42,9 @@ Par défaut, une balise vidéo affichera le premier frame de sa source. Néanmoi
 
 Si présent, cet attribut indique au navigateur d’afficher les contrôles de base de la vidéo.
 
-play/pause
-volume
-etc.
+- play/pause
+- volume
+- etc.
 
 À moins de définir ses propres boutons, il est préférable dans la majorité des cas d'ajouter cet attribut.
 
@@ -77,7 +78,7 @@ Indique au navigateur de démarrer la vidéo si possible dès le chargement de l
 
 !!! warning
 
-    Les navigateurs bloquent presque tous cette option si la vidéo n’est pas en sourdine aka muted. Si l’utilisateur a déjà déclenché manuellement d’autres vidéos avec de l’audio sur le site, le navigateur peut choisir d’honorer l’autoplay.
+    Les navigateurs bloquent presque tous cette option si la vidéo n’est pas en sourdine. Si l’utilisateur a déjà déclenché manuellement d’autres vidéos avec de l’audio sur le site, le navigateur peut choisir d’honorer l’autoplay.
 
 ## Playsinline
 
