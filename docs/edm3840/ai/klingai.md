@@ -1,3 +1,4 @@
+<style>.md-footer{display:none;}</style>
 # Utilisation de [Kling AI](https://klingai.com/)
 
 ## Étape 1 : Rédiger un prompt
