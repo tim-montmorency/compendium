@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est de couper une image à même une image
 
 ![](../assets/image/07_over_busy.png)
