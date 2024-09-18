@@ -181,8 +181,8 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 
 ### 12. Création de l'application
-- [ ] Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Préparer</a>
-- [ ] Suivez le tutoriel suivant pour exporter l'application. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#exporter-pour-android">Exporter pour Android</a>
+- [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Exporter pour Android</a>
+
 
 ### 13. Défi (Sera évalué)
 - [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu. 
