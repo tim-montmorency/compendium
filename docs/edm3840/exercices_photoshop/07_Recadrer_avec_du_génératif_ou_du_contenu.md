@@ -8,7 +8,7 @@ Le but de cet exercice est d'agrangir d'image sur les cotés et de combler le vi
 
 ## Matériel
 
-Télécharger et ouvrer le fichier suivant:
+Télécharger et ouvrer le fichier suivant: <br>
 [📁 Document de départ](../assets/image/07_echelle_base_sur_le_contenu.jpg){ .md-button }   <br>
 
 ## Étapes
@@ -23,4 +23,4 @@ Télécharger et ouvrer le fichier suivant:
 
 ## Tutoriel 📚
 
-[📖 Pour en savoir plus](https://uqam-my.sharepoint.com/:v:/r/personal/lavoie-pilote_francoise_uqam_ca/Documents/01_cours/edm_3840_3841/cours_05-09_photoshop/07_outils_recadrage/03_recadrer_echelle_sur_du_contenu_generatif.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bbhXaX{ .md-button }   <br>
+[📖 Pour en savoir plus](https://uqam-my.sharepoint.com/:v:/r/personal/lavoie-pilote_francoise_uqam_ca/Documents/01_cours/edm_3840_3841/cours_05-09_photoshop/07_outils_recadrage/03_recadrer_echelle_sur_du_contenu_generatif.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bbhXaX) { .md-button }   <br>
