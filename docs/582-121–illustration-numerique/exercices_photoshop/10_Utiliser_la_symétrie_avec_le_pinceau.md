@@ -1,3 +1,7 @@
+
+<style>.md-footer{display:none;}</style>
+
+
 Le but de cet exercice est de recréer l'image suivante.
 ![](../assets/image/10_symetrie.png)
 ***
