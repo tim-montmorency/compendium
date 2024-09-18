@@ -21,7 +21,8 @@
 ### Avancement du travail 1
 #### Création de l'application
 
-**Étape 12 - Défi (Sera évalué)**
+**Étape 12 - Défi (Sera évalué)**     
+
 - [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu. 
 
 
