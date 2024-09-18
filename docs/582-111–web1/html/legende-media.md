@@ -25,9 +25,9 @@ La balise `<figcaption>` peut être avant ou après l'élément quelle décrit, 
 ```
 <figure>
   <img src="image.png">
-  **<div>**
+  <div>
     <figcaption>...</figcaption>
-  **</div>**
+  </div>
 </figure>
 ```
 
