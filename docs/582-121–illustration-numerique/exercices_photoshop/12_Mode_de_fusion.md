@@ -23,6 +23,21 @@ Téléchargez et ouvrez les fichiers suivants:
 - [ ] Enregistrer votre travail une fois satisfait du résultat.
 
 ***
+Nous allons faire une variation de l'exercice 
+![](../assets/image/12_mode_fusion.png)
+***
+
+## Étapes
+
+- [ ] Fermer le calque de l'image de la femme
+- [ ] Créer un calque avec un gradient. Le gradient doit être un gradient prédéfini rouge.
+- [ ] Sur calque, en haut de la palette des calques et cliquer sur le menu déroulant des "Modes de fusion" (à côté de l'option "Opacité").
+- [ ] Choisir un mode de fusion (comme Multiplier, Incrustation, Lumière douce, etc.) pour voir comment le calque supérieur interagit avec le calque en dessous.
+- [ ] Ajuster l’opacité du calque supérieur si nécessaire pour adoucir ou intensifier l’effet de fusion.
+- [ ] Expérimenter avec différents modes de fusion jusqu'à obtenir l'effet désiré.
+- [ ] Enregistrer votre travail une fois satisfait du résultat.
+
+
 
 ## Tutoriel 📚
 
