@@ -68,5 +68,5 @@ Par exemple, le code suivant imbrique une carte situant le collège Montmorency:
 
   **Exercice sur iframe**<br>
   _iFrame - Turbo Kid_<br>
-  [Pour cet exercice, vous devrez utiliser un iFrame afin de réaliser une page promotionnelle du film québécois Turbo Kid.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+  [Pour cet exercice, vous devrez utiliser un iFrame afin de réaliser une page promotionnelle du film québécois Turbo Kid.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/turbo-kid.html)
 </div>
