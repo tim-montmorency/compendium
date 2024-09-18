@@ -11237,24 +11237,16 @@
 <p class="admonition-title">Information</p>
 <p>Vous pouvez cliquez et glisser les scènes dans la fenêtre Build Settings pour les réorganiser. La scène qui porte le numéro 0 est celle qui sera chargée à l'ouverture de votre jeu. Assurez-vous qu'il s'agit de votre menu!    </p>
 </div>
-<ol>
-<li>Pour faire une transition entre deux scènes, nous allons créer une fonction que nous pourrons appeler. Voici le code: </li>
-</ol>
-<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
-<span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
-<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
-<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine.SceneManagement</span><span class="p">;</span><span class="w"> </span>
-
-<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">menuControl</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
-<span class="p">{</span>
-
-<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">jouer</span><span class="p">()</span>
+<p>Pour faire une transition entre deux scènes, nous allons créer une fonction que nous pourrons appeler.</p>
+<p>Premièrement, vous devez ajouter la mention using UnityEngine.SceneManagement; en haut de votre code:     </p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine.SceneManagement</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
+<p>Ensuite, nous allons créer une nouvelle fonction, vous pouvez inscrire le code SceneManager.LoadScene("maScene"); pour faire le changement. Ici, il est important de remplacer maScene par le nom de la scène que vous souhaitez télécharger. Vous pourriez aussi utiliser le numéro de la scène qui se trouve dans la fenêtre Build Settings plutôt que le nom de celle-ci.       </p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">jouer</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
 <span class="w">        </span><span class="n">SceneManager</span><span class="p">.</span><span class="n">LoadScene</span><span class="p">(</span><span class="s">"maScene"</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<p>Dans le code précédent, certains éléments sont essentiels pour que votre transition soit réussie. Premièrement, vous devez ajouter la mention using UnityEngine.SceneManagement; en haut de votre code. Ensuite, dans votre fonction, vous pouvez inscrire le code SceneManager.LoadScene("maScene"); pour faire le changement. Ici, il est important de remplacer maScene par le nom de la scène que vous souhaitez télécharger. Vous pourriez aussi utiliser le numéro de la scène qui se trouve dans la fenêtre Build Settings plutôt que le nom de celle-ci.   </p></div>
+</code></pre></div></div>
 
 
 
