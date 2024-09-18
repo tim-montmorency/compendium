@@ -17,8 +17,7 @@ Il existe plusieurs formats Audio supportées dans les navigateurs.
 
     Le **MP3** est un format audio largement utilisé en raison de sa taille de fichier réduite et de sa compatibilité universelle, ce qui le rend pratique pour la diffusion en continu et le stockage de musique.
 
-    Cependant, il présente des compromis en termes de qualité audio par rapport aux formats sans perte. Le choix d'utiliser le **MP3**Formats Audio
-    Il existe plusieurs formats Audio supportées dans les navigateurs.
+    Cependant, il présente des compromis en termes de qualité audio par rapport aux formats sans perte. Le choix d'utiliser le **MP3** dépend des besoins spécifiques et des préférences en matière de qualité audio.
 
 ## AAC
 
