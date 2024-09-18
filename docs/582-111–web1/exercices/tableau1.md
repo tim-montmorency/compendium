@@ -30,7 +30,6 @@ Matériel
 
     Texte: Cellule simple.
 
-* [ ] Fermez la balise `<tbody>`
 * [ ] Les 2 premières cellules de la ligne 2 du body doivent être jumeler.
 
 !!! note
