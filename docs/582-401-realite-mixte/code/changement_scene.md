@@ -9,24 +9,23 @@ Changer de scène est utile dans Unity. En effet, on pourrait créer un scène p
 
     Vous pouvez cliquez et glisser les scènes dans la fenêtre Build Settings pour les réorganiser. La scène qui porte le numéro 0 est celle qui sera chargée à l'ouverture de votre jeu. Assurez-vous qu'il s'agit de votre menu!    
     
-2. Pour faire une transition entre deux scènes, nous allons créer une fonction que nous pourrons appeler. Voici le code: 
-   
+Pour faire une transition entre deux scènes, nous allons créer une fonction que nous pourrons appeler.
+
+Premièrement, vous devez ajouter la mention using UnityEngine.SceneManagement; en haut de votre code:     
+
+``` csharp
+using UnityEngine.SceneManagement; 
+```
+
+Ensuite, nous allons créer une nouvelle fonction, vous pouvez inscrire le code SceneManager.LoadScene("maScene"); pour faire le changement. Ici, il est important de remplacer maScene par le nom de la scène que vous souhaitez télécharger. Vous pourriez aussi utiliser le numéro de la scène qui se trouve dans la fenêtre Build Settings plutôt que le nom de celle-ci.       
+
+
 ``` csharp
 
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement; 
-
-public class menuControl : MonoBehaviour
-{
-   
     public void jouer()
     {
         SceneManager.LoadScene("maScene");
     }
-}
 ```
 
-Dans le code précédent, certains éléments sont essentiels pour que votre transition soit réussie. Premièrement, vous devez ajouter la mention using UnityEngine.SceneManagement; en haut de votre code. Ensuite, dans votre fonction, vous pouvez inscrire le code SceneManager.LoadScene("maScene"); pour faire le changement. Ici, il est important de remplacer maScene par le nom de la scène que vous souhaitez télécharger. Vous pourriez aussi utiliser le numéro de la scène qui se trouve dans la fenêtre Build Settings plutôt que le nom de celle-ci.   
+
