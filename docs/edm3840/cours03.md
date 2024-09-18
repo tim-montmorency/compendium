@@ -37,7 +37,6 @@
   [🛠️ 08_Sélectionner avec l'outil objet](./exercices_photoshop/08_selection_objet.md){ .md-button }  <br>   
   [🛠️ 08_Sélectionner avec l'outil de sélection rapide ](./exercices_photoshop/08_selection_rapide.md){ .md-button }  <br>   
   [🛠️ 08_Sélectionner avec l'outil de sélection baguette ](./exercices_photoshop/08_selection_baguette.md){ .md-button }  <br>   
-  [🛠️ 08_Sélectionner avec l'outil de pipette ](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>   
   [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>   
 
 
