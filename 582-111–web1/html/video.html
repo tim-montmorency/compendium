@@ -11302,17 +11302,20 @@ Cette méthode offre l'avantage de définir plusieurs sources. Ainsi, si le navi
 </code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. caniuse.com/mp4</p>
+<p>Si vous ne désirez pas avoir à fournir plusieurs sources, les mp4 sont maintenant supportés sur tous les navigateurs majeurs. <br></p>
 </div>
+<p><a href="https://caniuse.com/mpeg4"> caniuse.com/mp4</a></p>
 <h2 id="poster">Poster<a class="headerlink" href="#poster" title="Permanent link">¶</a></h2>
 <p>Par défaut, une balise vidéo affichera le premier frame de sa source. Néanmoins, il est possible d’ajouter un attribut poster pour définir une image à utiliser à la place.</p>
 <div class="highlight"><pre><span></span><code>&lt;video src="video.mp4" poster=”image.jpg”&gt;&lt;/video&gt;
 </code></pre></div>
 <h2 id="controls">Controls<a class="headerlink" href="#controls" title="Permanent link">¶</a></h2>
 <p>Si présent, cet attribut indique au navigateur d’afficher les contrôles de base de la vidéo.</p>
-<p>play/pause
-volume
-etc.</p>
+<ul>
+<li>play/pause</li>
+<li>volume</li>
+<li>etc.</li>
+</ul>
 <p>À moins de définir ses propres boutons, il est préférable dans la majorité des cas d'ajouter cet attribut.</p>
 <div class="highlight"><pre><span></span><code>&lt;video src="video.mp4" controls&gt;&lt;/video&gt;
 </code></pre></div>
@@ -11330,7 +11333,7 @@ etc.</p>
 </code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Les navigateurs bloquent presque tous cette option si la vidéo n’est pas en sourdine aka muted. Si l’utilisateur a déjà déclenché manuellement d’autres vidéos avec de l’audio sur le site, le navigateur peut choisir d’honorer l’autoplay.</p>
+<p>Les navigateurs bloquent presque tous cette option si la vidéo n’est pas en sourdine. Si l’utilisateur a déjà déclenché manuellement d’autres vidéos avec de l’audio sur le site, le navigateur peut choisir d’honorer l’autoplay.</p>
 </div>
 <h2 id="playsinline">Playsinline<a class="headerlink" href="#playsinline" title="Permanent link">¶</a></h2>
 <p>Certains appareils, notamment plusieurs mobiles 📱, démarrent automatiquement les vidéos en plein écran. Pour contrer ce comportement, il est possible de spécifier de jouer la vidéo dans son cadre d’origine avec playsinline.</p>
