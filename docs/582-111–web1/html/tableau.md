@@ -45,7 +45,7 @@ On peut embellir le résultat avec du CSS mais continuons sans CSS.
 
 ## En-tête d’un tableau
 
-La ligne d'en-tête se crée avec un `<tr>` mais les cellules qu'elle contient sont, cette fois, encadrées par des balises <th> (pour table header ou "en-tête de tableau" en français) et non pas `<td>`
+La ligne d'en-tête se crée avec un `<tr>` mais les cellules qu'elle contient sont, cette fois, encadrées par des balises `<th>` (pour table header ou "en-tête de tableau" en français) et non pas `<td>`
 
 ```
 <table>
@@ -70,7 +70,7 @@ La ligne d'en-tête se crée avec un `<tr>` mais les cellules qu'elle contient s
 
 La ligne d'en-tête est très facile à reconnaître pour deux raisons:
 
-- Les cellules sont des <th>au lieu des `<td>` habituels
+- Les cellules sont des `<th>` au lieu des `<td>` habituels
 - C'est la première ligne du tableau
 
 !!! note
