@@ -46,9 +46,14 @@
  [Devoir à faire](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhVMDoqELARNlJPwOUVgatcBFzwjcosEhpdI77PmedAtXA?e=cEQVLo)  Prévoir 2 h. Plus vous travailler plus vous aimerez Photoshop !!!
 
 Achat [Samsumg](https://www.amazon.ca/s?k=samsung+t6) 
-SAMSUNG T6 Shield SSD portable, jusqu'à 1050 Mo/s, USB 3.2 Gen2 
-SAMSUNG T7 Shield SSD portable, jusqu'à 1050 Mo/s, USB 3.2 Gen2 
-SAMSUNG T9 SSD portable, jusqu'à 2000 Mo/s, USB 3.2 Gen 2 x 2 (20 Gbit/s) 
+MARQUE T6 T7 T9
+SPECTRE
+TAILLE : 500 Go ou 1 To
+SSD
+VITESSE : 1050 Mo/s ou plus
+CONNEXION : USB 3.2 Gen2 ou USB-C
+
+
   
 
 
