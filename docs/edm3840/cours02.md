@@ -1,7 +1,7 @@
 # Cours 2
 
 <style>.md-footer{display:none;}</style>
-[STOP]
+
 
 ### [Intelligence artificielle - image fixe](ai/klingai.md)
 
