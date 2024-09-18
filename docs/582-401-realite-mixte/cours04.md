@@ -23,7 +23,7 @@
 [💼 Travail 1 - Étape 12](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-creation-app.html){ .md-button }     
 
 
-## Bloc 3
+## Devoir
 
-### Avancement du travail 1
+### Terminer les étapes 1 à 14 du travail 1
 [💼 Travail 1](./consignes/travail1.md){ .md-button }    
