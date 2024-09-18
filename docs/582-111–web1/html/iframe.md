@@ -1,4 +1,4 @@
-iFrame
+# iFrame
 La balise `<iframe>` **(inline frame)** permet d'afficher une page HTML à l'intérieur d'une autre page. Bien que visible à l'écran, cette page imbriquée bénéficie de son propre contexte d'exécution. Ainsi, les styles et scripts de la page parent n'ont aucun effet sur la page enfant et vice versa.
 
 ## Src
