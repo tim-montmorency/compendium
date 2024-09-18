@@ -1,7 +1,5 @@
 # Cours 2
 
-# Cours 2
-
 <style>.md-footer{display:none;}</style>
 
 Plan de cours
