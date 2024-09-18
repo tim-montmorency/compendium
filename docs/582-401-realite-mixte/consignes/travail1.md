@@ -184,7 +184,11 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Suivez le tutoriel suivant pour préparer l'exportation de votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Préparer</a>
 - [ ] Suivez le tutoriel suivant pour exporter l'application. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#exporter-pour-android">Exporter pour Android</a>
 
-### 13. Remise du travail 1
+### 13. Défi
+- [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu. 
+
+
+### 14. Remise du travail 1
 Remettre votre travail dans le dossier suivant: 
 
 [📁 Remise Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ej08AbeAuVhJhy4sr6J6nd4BXUBnfE5B-S1Gh5k6FiS8zg?e=mzN0hL){ .md-button }   
