@@ -1,10 +1,5 @@
 # Cours 3
 
-
-<style>.md-footer{display:none;}</style>
-[STOP]
-# Cours 2
-
 <style>.md-footer{display:none;}</style>
 
 ### Retour sur le [travail 1](projet01.md) : options supplémentaires
