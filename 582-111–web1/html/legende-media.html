@@ -11227,19 +11227,21 @@
   &lt;figcaption&gt;...&lt;/figcaption&gt;
 &lt;/figure&gt;
 </code></pre></div>
+<br>
+<br>
 🚫
 <div class="highlight"><pre><span></span><code>&lt;figure&gt;
   &lt;img src="image.png"&gt;
-  &lt;div&gt;
+  **&lt;div&gt;**
     &lt;figcaption&gt;...&lt;/figcaption&gt;
-  &lt;/div&gt;
+  **&lt;/div&gt;**
 &lt;/figure&gt;
 </code></pre></div>
 <div class="admonition danger">
 <p class="admonition-title">Danger</p>
-<p>ERREUR FRÉQUENTE
+<p><strong>ERREUR FRÉQUENTE</strong>
 Si un espace indésirable affiche entre une image et sa légende (figcaption), il est probable que cet espace soit créé par le display: inline; par défaut de l’image.</p>
-<p>Pour s’en débarrasser, il suffit de changer son display à display: block; dans le CSS.</p>
+<p>Pour s’en débarrasser, il suffit de changer son display à block; dans le CSS.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
