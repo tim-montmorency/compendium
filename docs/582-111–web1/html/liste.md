@@ -20,7 +20,7 @@ Actuellement au nombre de 3, les différents types de listes vont vous servir po
 
 Les listes non-ordonnées pourront vous servir à énumérer une suite d’informations ne nécessitant pas forcément de classement alphabétique ou numérique.
 
-Pour créer une liste en HTML, on utilise les balises HTML <ul> </ul> et pour remplir cette liste d’éléments on utilise les balises <li> </li> pour définir un élément de la liste.
+Pour créer une liste en HTML, on utilise les balises HTML `<ul>` `</ul>` et pour remplir cette liste d’éléments, on utilise les balises `<li>` `</li>` pour définir un élément de la liste.
 
 Exemple de liste non-ordonnée:
 
@@ -37,9 +37,8 @@ Exemple de liste non-ordonnée:
 
 Les listes ordonnées servent à classer des informations pour les lister dans un ordre précis qui ne peut pas être changé.
 
-Une liste ordonnée en HTML se crée par l’utilisation des balises
+Une liste ordonnée en HTML se crée par l’utilisation des balises `<ol>` `</ol>` et tout comme pour les listes non-ordonnées vous pouvez remplir les listes ordonnées d’éléments par l’utilisation des balises `<li>` `</li>`.
 
-et tout comme pour les listes non-ordonnées vous pouvez remplir les listes ordonnées d’éléments par l’utilisation des balises <li> </li>.
 Exemple de liste ordonnée:
 
 ```
