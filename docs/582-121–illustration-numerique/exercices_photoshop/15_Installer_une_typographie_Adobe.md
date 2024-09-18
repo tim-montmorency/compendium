@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est d'installer une typographie d'Abode
 ***  
 
