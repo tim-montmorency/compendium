@@ -14,7 +14,8 @@ Dans Unity, il est possible d'exporter son jeu pour pouvoir y jouer sans ouvrir 
 - [ ] Maintenant, nous allons vérifier la qualité de notre projet. Pour ce faire, vous pouvez appuyer sur Player Settings en bas à gauche de la fenêtre. Dans la fenêtre qui s'ouvre, appuyez sur Quality dans la liste à gauche. Vous verrez alors le graphique suivant:    
 <img src="../images/quality.png">
 
-Les crochets verts représentent le niveau de qualité qui est actuellement sélectionné. Vous pouvez changer ce niveau pour chaque plateforme. Pour ce faire, appuyez sur la flèche de la plateforme souhaitée dans la colonne Default et sélectionnez la qualité que vous désirez dans la liste. Vous pouvez supprimer des niveaux de qualité ou encore ajuster leurs paramètres, ils seront sauvegardés.
+Les crochets verts représentent le niveau de qualité qui est actuellement sélectionné. Vous pouvez changer ce niveau pour chaque plateforme. Pour ce faire, appuyez sur la flèche de la plateforme souhaitée dans la colonne Default et sélectionnez la qualité que vous désirez dans la liste. Vous pouvez supprimer des niveaux de qualité ou encore ajuster leurs paramètres, ils seront sauvegardés.    
+
 - [ ] Dans la liste à gauche, appuyez maintenant sur Player. Dans le champ Company Name, inscrivez votre nom. Dans le champ Product name, le nom du travail que vous remettez.
 - [ ] Dans la section icon, vous devez changer toutes les images pour le logo que vous voulez pour votre application. Assurez-vous que le logo est un sprite!
 - [ ] Dans la section Resolution and Presentation le paramètre Orientation, vous permet de décider si vous laissez le joueur tourner son téléphone (autoRotate) ou si vous l'obligez à le mettre en portrait ou paysage. À noter qu'il est souvent plus simple de privilégié une orientation et de faire notre UI en fonction de celle-ci.      
