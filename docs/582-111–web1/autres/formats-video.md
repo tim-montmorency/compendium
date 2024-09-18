@@ -3,7 +3,7 @@ Il existe plusieurs formats vidéo couramment utilisés sur le web pour diffuser
 
 ## MP4
 
-**MP4 (MPEG-4 Part 14)** Le format MP4 est l'un des formats vidéo les plus répandus sur le web. Il utilise le codec de compression vidéo H.264 (ou H.265/HEVC) pour offrir une bonne qualité vidéo à des taux de compression efficaces. Le MP4 est largement pris en charge par de nombreux navigateurs, lecteurs vidéo et plateformes de streaming.
+**MP4 (MPEG-4)** Le format MP4 est l'un des formats vidéo les plus répandus sur le web. Il utilise le codec de compression vidéo H.264 (ou H.265/HEVC) pour offrir une bonne qualité vidéo à des taux de compression efficaces. Le MP4 est largement pris en charge par de nombreux navigateurs, lecteurs vidéo et plateformes de streaming.
 
 ➕ Compatibilité étendue<br>
 ➕ Qualité vidéo élevée<br>
