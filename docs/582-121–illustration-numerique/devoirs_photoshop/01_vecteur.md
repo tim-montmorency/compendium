@@ -43,4 +43,4 @@ Télécharger et ouvrer le fichier suivant:
 
 ## Sauvegarde du travail :
 
-- [ ] Sauvegarder le fichier final au format **.psd** pour conserver les calques et permettre les modifications ultérieures.
+- [ ] Sauvegarder le fichier final au format **.psd** pour conserver les calques et permettre l'évaluation. 
