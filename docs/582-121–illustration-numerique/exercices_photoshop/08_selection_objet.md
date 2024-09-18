@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est de faire une sélection d'objet avec la sélection d'objet.
 ![](../assets/image/08_mesange_orange.png)
 ***
