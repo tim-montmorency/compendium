@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est de faire une sélection avec la sélection rapide.
 ![](../assets/image/08_mesange_orange.png)
 ***
