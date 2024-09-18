@@ -16,19 +16,21 @@ Il est aussi possible, de l’afficher avec une ou des balises enfants de type s
 <audio>
     <source src="audio.mp3">
     <source src="audio.webm">
-    </audio>
+</audio>
 ```
 !!! info
     
-    Si vous ne désirez pas avoir à fournir plusieurs sources, les mp3 sont supportés sur tous les navigateurs modernes. caniuse.com/mp3
+    Si vous ne désirez pas avoir à fournir plusieurs sources, les mp3 sont supportés sur tous les navigateurs modernes. <br>
+    **MP3 audio format : ** [caniuse.com/mp3](https://caniuse.com/mp3)
 
 ## Controls
 
 Si présent, cet attribut indique au navigateur d’afficher les contrôles de base du lecteur audio.
 
-play/pause
-volume
-etc.
+- play/pause
+- volume
+- etc.
+
 À moins de définir ses propres boutons, il est préférable dans la majorité des cas d'ajouter cet attribut.
 
 ```
@@ -41,7 +43,7 @@ etc.
 
 ## Loop
 
-Indique au navigateur de jouer l'udio en boucle 🔁
+Indique au navigateur de jouer l'audio en boucle 🔁
 
 ```
 <audio src="audio.mp3" loop></audio>
