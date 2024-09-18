@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est corriger la perspective d'une image
 
 ![](../assets/image/07_recadrer_perspective.jpg)
