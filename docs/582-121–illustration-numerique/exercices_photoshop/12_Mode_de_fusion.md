@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 
 Le but de cet exercice est de fusionner deux calques grâce au mode de fusion.
 ![](../assets/image/12_mode_fusion.png)
