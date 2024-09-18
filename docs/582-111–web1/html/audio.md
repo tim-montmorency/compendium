@@ -21,7 +21,7 @@ Il est aussi possible, de l’afficher avec une ou des balises enfants de type s
 !!! info
     
     Si vous ne désirez pas avoir à fournir plusieurs sources, les mp3 sont supportés sur tous les navigateurs modernes. <br>
-    **MP3 audio format : ** [caniuse.com/mp3](https://caniuse.com/mp3)
+    **MP3 audio format :** [caniuse.com/mp3](https://caniuse.com/mp3)
 
 ## Controls
 
