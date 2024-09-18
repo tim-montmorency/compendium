@@ -4,7 +4,8 @@ Créer un article de blog à l'aide de balises HTML.
 
 ![1-290880aa](https://github.com/user-attachments/assets/9ae774df-3fcc-4587-aaa7-fcced9686b7a)
 
-[Hideo Kojima](https://github.com/user-attachments/files/17001047/7394ef47.zip)
+[Hideo Kojima]([hideo-kojima.zip](https://github.com/user-attachments/files/17045296/hideo-kojima.zip)
+)
 
 <br>
 <br>
