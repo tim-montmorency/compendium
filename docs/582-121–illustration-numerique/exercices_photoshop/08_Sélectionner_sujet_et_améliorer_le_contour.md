@@ -1,3 +1,5 @@
+<style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est de faire la sélection d'un sujet, d'améliorer le contour et de masquer l'arrière plan.
 
 ![](../assets/image/08_selectionner_sujet_ameliorer_le_contour.png)
