@@ -18,23 +18,25 @@ La balise `<figcaption>` peut être avant ou après l'élément quelle décrit, 
   <figcaption>...</figcaption>
 </figure>
 ```
+<br>
+<br>
 🚫
 
 ```
 <figure>
   <img src="image.png">
-  <div>
+  **<div>**
     <figcaption>...</figcaption>
-  </div>
+  **</div>**
 </figure>
 ```
 
 !!! danger
 
-    ERREUR FRÉQUENTE
+    **ERREUR FRÉQUENTE**
     Si un espace indésirable affiche entre une image et sa légende (figcaption), il est probable que cet espace soit créé par le display: inline; par défaut de l’image.
 
-    Pour s’en débarrasser, il suffit de changer son display à display: block; dans le CSS.
+    Pour s’en débarrasser, il suffit de changer son display à block; dans le CSS.
 
 !!! tip
 
