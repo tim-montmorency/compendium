@@ -37,4 +37,4 @@ Une fois que vous avez **généré des images**, vous pouvez les utiliser comme 
 Cette technique permet de créer des récits visuels cohérents ou des séries d'images avec un style unifié.
 
 
-| [Midjourney](https://www.midjourney.com/) [Runway](https://runwayml.com/)
+
