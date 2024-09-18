@@ -20,7 +20,7 @@ Aperçu du résultat 👇
 
 * [ ] Dans VS Code ajouter l'image fournie.
 * [ ] Créez ensuite un iFrame de 400x300px positionné sous l'image et faites en sorte qu'il contienne cette page web. [Turbo-Kid](https://tim-montmorency.com/timdoc/582-111MO/html/iframe/exercices/turbo-kid/frame/)
-* [ ] Remplacez le iFrame actuel par la trame sonore du film réalisé par le groupe québécois Le Matos. Pour ce faire, allez sur la page Soundcloud de la chanson et choisissez l'option "Share" suivie de "Embed" afin d'obtenir le code d'un nouveau iFrame.
+* [ ] Remplacez le iFrame actuel par la trame sonore du film réalisé par le groupe québécois Le Matos. Pour ce faire, allez sur la page Soundcloud de la chanson et choisissez l'option "Share" suivie de "Embed" afin d'obtenir le code d'un nouveau iFrame. [Turbo-kid-le-Matos](https://soundcloud.com/lematos/rise-of-turbo-kid)
 
 ## Notes de cours
 
