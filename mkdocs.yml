@@ -18,7 +18,8 @@ nav:
     - Cours 15: 582-101–domaines-multimedias/cours15.md
   - Web 1 :
     - 582-111–web1/index.md
-
+    - Cours 1: 582-111–web1/cours01.md
+    - Cours 2: 582-111–web1/cours02.md
     - Cours 2: 582-111–web1/cours02.md
     - Cours 3: 582-111–web1/cours03.md
     - Cours 4: 582-111–web1/cours04.md
@@ -56,7 +57,7 @@ nav:
     - Références: edm3840/references.md
     - Projet 1: edm3840/projet01.md
     
-    - Cours 1: edm3840/cours01.md
+
     - Cours 2: edm3840/cours02.md
     - Cours 3: edm3840/cours03.md
     - Cours 4: edm3840/cours04.md
