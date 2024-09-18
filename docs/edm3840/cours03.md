@@ -3,14 +3,16 @@
 
 <style>.md-footer{display:none;}</style>
 [STOP]
+# Cours 2
 
-### [Intelligence artificielle - image fixe](AI.md)
+<style>.md-footer{display:none;}</style>
 
-### Retour sur la matière du dernier cours
+### Retour sur le [travail 1](projet01.md) : options supplémentaires
+
 
 ### Retour sur les achats
 
-### Retour sur le travail 1 
+### [Intelligence artificielle - image fixe](ai/klingai.md)
 
 ### Notions: recadrage d'images  
 * [▶️ Importer les images du web et recadrer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXcl-DbOTXNEqBjHETGbBooBcK6n3OkxzttphLLWKQ_pwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ac2lTc)  <br>
@@ -34,9 +36,13 @@
 * [▶️ Outil de sélection d'objet, sélection rapide, ou baguette magique](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ET9NSGc2Ts5Ctdr63yH28n0BdkoE6fvHdtZIkcsjqBv2dQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4HcA9) \ [⬇️ Gradient](https://uqam-my.sharepoint.com/:i:/g/personal/lavoie-pilote_francoise_uqam_ca/ES_57sNOaPRFlYd4OzZraqsBx5A5-4ydiIiXshl_OXYcoQ?e=9OugZs) <br>   
 * [▶️ Commande pour inverser la sélection](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EckRoep3-MhEqrVlmRhimpgBgKWQWlMlsLXRFl8ttDf1UA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iJebco) <br>   
 * [▶️ Fonctionnalité pour améliorer les contours](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUZv77XVWNtLjaBvLUPOBCwBJWcDbb2olClNEiOK_ecmVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4ZY1Ii)  <br>   
-* [▶️ Fonctionnalité pour améliorer les contours des cheveux ou d'objets](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQ-OZkBqfw1OpfXoyoOkICQBf8mGz8GaW3G_nogEjJv5BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NwJfu4)  <br>   
+* [▶️ Fonctionnalité pour améliorer les contours des cheveux ou d'objets](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQ-OZkBqfw1OpfXoyoOkICQBf8mGz8GaW3G_nogEjJv5BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NwJfu4)  <br>
+
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>   
-  [🛠️ 08_Sélectionner un objet](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil objet](./exercices_photoshop/08_selection_objet.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil de sélection rapide ](./exercices_photoshop/08_selection_rapide.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil de sélection baguette ](./exercices_photoshop/08_selection_baguette.md){ .md-button }  <br>   
+  [🛠️ 08_Sélectionner avec l'outil de pipette ](./exercices_photoshop/08_Sélectionner_un_objet.md){ .md-button }  <br>   
   [🛠️ 08_Sélectionner un sujet et améliorer le contour](./exercices_photoshop/08_Sélectionner_sujet_et_améliorer_le_contour.md){ .md-button }  <br>   
 
 
@@ -48,7 +54,7 @@
 
 ### Notions: outils d'échantillonnage
 *  [▶️ Outil pipette (pour sélectionner des couleurs)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYCAP3HOYBxLsVkq3V8REnMB1TjJ1_VtXO-02OcHzTnszw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=L6fO8u) <br>   
-*    [🛠️ 09_Utiliser la pipette](./exercices_photoshop/09_Utiliser_la_pipette.md){ .md-button }  <br>
+*    [🛠️ 09_Utiliser la pipette](./exercices_photoshop/09_Utiliser_la_pipette.md){ .md-button }  <br>   
 
 ### Notions: outils pinceau
 
@@ -58,15 +64,13 @@
 * [▶️ Importer ou créer des pinceaux personnalisées](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUgt8SN-vbFMhM-2GabSd1UBMSJ5v3F07eO3dUluXIKAEg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2C8Zs7)   <br>    
 
   [🛠️ 10_Importer_un_pinceau](./exercices_photoshop/10_Importer_un_pinceau.md){ .md-button }  <br>   
-  [🛠️ 10_Utiliser la symétrie avec le pinceau](./exercices_photoshop/10_Utiliser_la_symétrie_avec_le_pinceau.md){ .md-button }  <br>
+  [🛠️ 10_Utiliser la symétrie avec le pinceau](./exercices_photoshop/10_Utiliser_la_symétrie_avec_le_pinceau.md){ .md-button }  <br>   
 
 
 
 ## Devoir
 
- [Devoir à faire](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhVMDoqELARNlJPwOUVgatcBFzwjcosEhpdI77PmedAtXA?e=cEQVLo)  Prévoir 3 h. Plus vous travailler plus vous aimerez Photoshop !!!
-
- 
+ [Devoir à faire](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhVMDoqELARNlJPwOUVgatcBFzwjcosEhpdI77PmedAtXA?e=cEQVLo)  Prévoir 2 h. Plus vous travailler plus vous aimerez Photoshop !!!
   
 
 
