@@ -2,14 +2,12 @@
 
 <style>.md-footer{display:none;}</style>
 
+### Retour sur le [travail 1](projet01.md) : options supplémentaires
 
-### [Intelligence artificielle - image fixe](ai/klingai.md)
-
-### Retour sur la matière du dernier cours
 
 ### Retour sur les achats
 
-### Retour sur le [travail 1](projet01.md) : options supplémentaires
+### [Intelligence artificielle - image fixe](ai/klingai.md)
 
 ### Notions: recadrage d'images  
 * [▶️ Importer les images du web et recadrer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXcl-DbOTXNEqBjHETGbBooBcK6n3OkxzttphLLWKQ_pwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ac2lTc)  <br>
