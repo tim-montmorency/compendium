@@ -37,7 +37,7 @@ Nous allons faire une variation de l'exercice
 - [ ] Expérimenter avec différents modes de fusion jusqu'à obtenir l'effet désiré.
 - [ ] Enregistrer votre travail une fois satisfait du résultat.
 
-
+[stop]
 
 ## Tutoriel 📚
 
