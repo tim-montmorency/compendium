@@ -3,7 +3,7 @@ Changer de scène est utile dans Unity. En effet, on pourrait créer un scène p
      
 
 ## Changement de scène
-1. La première étape pour un changement de scène dans Unity est de s'assurer que les scènes entre lesquelles on souhaite faire une transition sont disponibles dans le Build. Pour ce faire, on va dans la barre de menu File et on ouvre la fenêtre Build Settings. Alors, dans le carré en haut (Scenes in Build), on devrait voir le nom des scènes entre lesquelles on veut faire des transitions et elles devraient être cochées. Si vous ne voyez pas la scène, double cliquer sur celle-ci dans la fenêtre Project pour l'ouvrir dans la fenêtre Scene, puis appuyez sur le bouton Add Open Scenes dans la fenêtre Build Settings. Une fois que toutes vos Scenes sont présentes, vous pouvez passer à la prochaine étape.
+La première étape pour un changement de scène dans Unity est de s'assurer que les scènes entre lesquelles on souhaite faire une transition sont disponibles dans le Build. Pour ce faire, on va dans la barre de menu File et on ouvre la fenêtre Build Settings. Alors, dans le carré en haut (Scenes in Build), on devrait voir le nom des scènes entre lesquelles on veut faire des transitions et elles devraient être cochées. Si vous ne voyez pas la scène, double cliquer sur celle-ci dans la fenêtre Project pour l'ouvrir dans la fenêtre Scene, puis appuyez sur le bouton Add Open Scenes dans la fenêtre Build Settings. Une fois que toutes vos Scenes sont présentes, vous pouvez passer à la prochaine étape.
 
 !!! info "Information"
 
