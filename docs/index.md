@@ -42,7 +42,7 @@
 
 [Objets interactifs](./582-531–objets-interactifs/)
 
-[Controle qualité](./582-533–controle-qualite/)
+[Controle qualité](./582-533-controle-qualite/)
 
 [Préparation en milieu de travail](./582-541–preparation-milieu-travail/)
 
