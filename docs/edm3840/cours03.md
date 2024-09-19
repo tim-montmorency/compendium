@@ -10,7 +10,7 @@
 ### [Intelligence artificielle - image fixe](ai/klingai.md)
 
 ### Notions: recadrage d'images  
-* [▶️ Importer les images du web et recadrer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXcl-DbOTXNEqBjHETGbBooBcK6n3OkxzttphLLWKQ_pwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ac2lTc)  <br>
+* [▶️ Importer les images du web et recadrer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EXcl-DbOTXNEqBjHETGbBooBcK6n3OkxzttphLLWKQ_pwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ac2lTc)  <br>   
   [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button } <br>   
   [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button } <br> 
 
