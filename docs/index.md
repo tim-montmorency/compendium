@@ -18,7 +18,7 @@
 
 [Animation 2D](./582-214–animation2d/)
 
-[WInteractivité ludique](./582-301–interactivite-ludique/)
+[Interactivité ludique](./582-301–interactivite-ludique/)
 
 [Web 3](./582-311–web3/)
 
@@ -42,7 +42,7 @@
 
 [Objets interactifs](./582-531–objets-interactifs/)
 
-[Control qualité](./582-533–control-qualite/)
+[Controle qualité](./582-533–controle-qualite/)
 
 [Préparation en milieu de travail](./582-541–preparation-milieu-travail/)
 
