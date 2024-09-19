@@ -22,6 +22,11 @@ Télécharger et ouvrer les fichiers suivants:
 - [ ] **Fermer le tracé** en cliquant sur le premier point d'ancrage pour former une boucle.
 - [ ] Assure-toi que **chaque point d'ancrage** a bien deux poignées et qu'il n'y a pas de points sans poignées dans ton tracé.
 
+### Appliquer le Contour et la Couleur
+- [ ] Sélectionner la forme (Ctrl+clic ou Cmd+clic sur le calque).
+- [ ] Régler le **Contour** à **4 points**.
+- [ ] Appliquer la couleur du contour : `#5791b9` ou `699c4f`
+- [ ] Définir le **Remplissage** sur **Aucun** (case blanche barrée de rouge).
 
 
 ## Tutoriel 📚
