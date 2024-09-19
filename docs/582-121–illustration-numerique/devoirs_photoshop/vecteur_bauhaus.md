@@ -1,14 +1,14 @@
 ## Le but de ce devoir est de reproduire une image avec l'outil plume
 <style>.md-headher{display:none;}</style>
 <style>.md-footer{display:none;}</style>
-![](../assets/image/devoir_vecteur.jpg)
+![](../assets/image/devoir_bauhaus.jpg)
 
 
 ## Matériel
 
 Télécharger et ouvrer le fichier suivant:
 
-[📁 Document de départ](../assets/image/bauhaus.jpg){ .md-button }   <br>
+[📁 Document de départ](../assets/image/devoir_bauhaus.jpg){ .md-button }   <br>
 
 **Reproduire précisément l’image suivante en utilisant les techniques de création vectorielle enseignées. Suivez chaque étape avec attention pour respecter les consignes techniques.**
 
