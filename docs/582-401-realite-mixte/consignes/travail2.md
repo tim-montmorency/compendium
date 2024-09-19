@@ -6,12 +6,12 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
 - [ ] Premièrement, créez un nouveau projet à l'aide du modèle 3D (Built-In Render Pipeline).
 - [ ] Créez les dossiers suivants pour ranger vos fichiers dans la fenêtre project:
 
-    - Animation
-    - Art
-    - Audio
-    - Font
-    - Prefabs
-    - Scripts
+    - Animation    
+    - Art    
+    - Audio    
+    - Font    
+    - Prefabs    
+    - Scripts    
 
 - [ ] Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager.
 
