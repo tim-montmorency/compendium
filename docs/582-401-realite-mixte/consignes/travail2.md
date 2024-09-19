@@ -23,9 +23,9 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
 ## 2. Préparer la première Scène
 
 - [ ] Créez une nouvelle scène à votre nom.
-- [ ] Dans les dossiers Synty studio, sélectionnez un Prefab de sol que vous placerez en position (0,0,0).
-- [ ] Dans les mêmes dossiers, sélectionnez un bâtiment qui comprend un intérieur et un extérieur. Positionnez celui-ci sur le terrain. Ajustez la taille du bâtiment au besoin.
-- [ ] Agrémentez la maison et son extérieur de quelques prefabs. Tentez de diviser l'intérieur de votre bâtiment en trois zones grâce aux objets.
+- [ ] Dans les dossiers Synty studio, sélectionnez un Prefab de sol que vous placerez en position (0,0,0). Au besoin, utilisez plusieurs tuiles pour créer un assez gros terrain. 
+- [ ] Dans les mêmes dossiers, sélectionnez un bâtiment qui comprend un intérieur et un extérieur. Positionnez celui-ci sur le terrain. Si le terrain est trop petit pour la maison, agrandissez-le. On va essayer de laisser la taille de la maison à (1,1,1).
+- [ ] Agrémentez la maison et son extérieur de quelques prefabs. Divisez l'intérieur de votre bâtiment en trois zones grâce aux objets. *Note: Vous pouvez aussi créer trois zones à l'extérieur et ne pas avoir de bâtiment ou encore avoir un bâtiment qui est une zone et deux zones à l'extérieur ou l'inverse. C'est à votre choix!*
 - [ ] Dans le dossier Assets-> SyntyStudios-> PolygonStarter-> PolygonPrototype-> Prefabs-> Icons, trouvez les objets point light et spot light, mettez-les dans deux zones différentes de votre bâtiment.
 
 
