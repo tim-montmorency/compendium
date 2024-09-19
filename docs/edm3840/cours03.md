@@ -42,7 +42,7 @@
 * [Devoir à faire](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhVMDoqELARNlJPwOUVgatcBFzwjcosEhpdI77PmedAtXA?e=cEQVLo)  Prévoir 2 h. Plus vous travailler plus vous aimerez Photoshop !!!
 
 * Achat [Samsumg](https://www.amazon.ca/s?k=samsung+t6) 
-  * MARQUE T6 T7 T9<br>
+  * MARQUE = T6, T7 ou T9<br>
   * SPECTRE<br>
   * TAILLE : 500 Go ou 1 To<br>
   * SSD<br>
