@@ -1,4 +1,4 @@
-# Le but de ce devoir est de reproduire une image avec l'outil plume
+## Le but de ce devoir est de reproduire une image avec l'outil plume
 <style>.md-headher{display:none;}</style>
 <style>.md-footer{display:none;}</style>
 ![](../assets/image/devoir_vecteur.jpg)
