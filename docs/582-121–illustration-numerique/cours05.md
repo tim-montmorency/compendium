@@ -26,9 +26,13 @@
 
 *  [▶️ Outil plume : créer une forme avec points d'ancrage à une poignée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eb65s1th8U9FoGBpmu9yTToB_45yfkIM7UVjm99n67PRDg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9YvnBA)
 
+[🛠️ Créer une forme avec points d'ancrage à une poignée](./exercices_photoshop/14_vecteur_une_poignee.md){ .md-button }  <br>  
+
 *  [▶️ Outil de plume libre : créer une forme à main levée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbBC0cDYpOBGmPmA3qaxqrIBFGD0bkkLnJ1zvzlHQFr3Rw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7LQZ68)
 
 *  [▶️ Outil de plume courbe: créer des courbes lisses](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdkhBVH5d7tIpCDFSbal0gIB3b_N0qd_TmzJWNZ0DS0o7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZI4lj)
+
+[🛠️ Créer des courbes lisses](./exercices_photoshop/14_vecteur_courbe.md){ .md-button }  <br>  
 
 *  [▶️ Outil de formes : créer des formes de base](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYJNUp8MqYlMs16Z_V7YpSUB8ZVSWRoF-xP_D1Z2hW5MWA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BbWWWG)
 
