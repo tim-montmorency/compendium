@@ -1,14 +1,14 @@
 <style>.md-footer{display:none;}</style>
 
 Le but de cet exercice est de recréer des formes avec l'outils (P) avec toutes les notions vues précédemment. 
-![](../assets/image/14_vecteur_chat.jpg)
+![](../assets/image/devoir_gym.jpg)
 ***
 
 ## Matériel
 
 Télécharger et ouvrer le fichier suivant:
 
-[📁 Document de départ_01](../assets/image/14_vecteur_chat.jpg){ .md-button }   <br>   
+[📁 Document de départ_01](../assets/image/devoir_gym.jpg){ .md-button }   <br>   
 
 
 ## Étapes
@@ -17,7 +17,7 @@ Télécharger et ouvrer le fichier suivant:
 
 - [ ] **Amener l'image dans Photoshop, agrandisser l'image. 
 - [ ] **Sélectionner l'outil Plume (P)** dans la barre d'outils ou appuyer sur la touche **P**.
-- [ ] **Commencer à tracer** en cliquant pour créer des points d'ancrage. Relie les points pour former les contours des formes.
+- [ ] **Commencer à tracer** en cliquant pour créer des points d'ancrage. Relie les points pour former les contours des formes en suivant l'image de référence. Vous ne devez pas avoir plus de points ou de poignées que l'image de référence. 
 - [ ] Pour créer des courbes, **cliquer et faire glisser** à chaque point pour tirer des poignées et contrôler la courbure.
   - Utilise les poignées pour ajuster la courbe de manière précise.
 - [ ] **Si tu veux une courbe plus subtile**, utilise l'outil **Courbure** (Maj + P) :
