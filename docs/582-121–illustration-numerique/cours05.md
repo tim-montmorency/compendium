@@ -40,4 +40,6 @@
 *  [▶️ Combiner et soustraire des formes vertorielles](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdeqgT2QzypEgK_g4y4zG5ABUiaBufO1IYy8zgEnXOpJ5w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JXJ3K7
 )
 
+[🛠️ Créer une image plus complexe en vectorielle](./exercices_photoshop/14_vecteur_avance.md){ .md-button }  <br>  
+
 
