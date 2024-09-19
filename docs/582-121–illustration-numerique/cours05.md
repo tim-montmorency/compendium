@@ -1,5 +1,4 @@
 # Cours 5
-[stop]
 
 ### Notions : Outils de remplissage et d'application de couleurs
 * [▶️ Outil dégradé](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETI21UOhr3lHrulnzpmdzOABFfTSXIJEb3ccDoYg4R7QwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QDc8CR)   <br>  
