@@ -25,10 +25,7 @@
 * [▶️ Outil de sélection rectangulaire](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZv5MOrMvxpCs3AVAfkro6ABT322UvzmZGdeXkLZJcNckg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AJlJwl) <br>   
 * [▶️ Outil de sélection circulaire](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EfuKV4EK4cVKkANB08qW4NUBpMFNm07GCtUlyj5yuA-Lqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ewjeZJ) <br>   
 [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>   
-
-
 * [▶️ Outil lasso pour sélections libres](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQg9sYZTdetAjjHgP2jP2_kB2sFwBKx1Kiim6pu8OScGyg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ch1U6a) <br>   
-
 * [▶️ Outil de sélection d'objet, sélection rapide, ou baguette magique](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ET9NSGc2Ts5Ctdr63yH28n0BdkoE6fvHdtZIkcsjqBv2dQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4HcA9) \ [⬇️ Gradient](https://uqam-my.sharepoint.com/:i:/g/personal/lavoie-pilote_francoise_uqam_ca/ES_57sNOaPRFlYd4OzZraqsBx5A5-4ydiIiXshl_OXYcoQ?e=9OugZs) <br>   
 [🛠️ 08_Sélectionner avec l'outil objet](./exercices_photoshop/08_selection_objet.md){ .md-button }  <br>   
 [🛠️ 08_Sélectionner avec l'outil de sélection rapide ](./exercices_photoshop/08_selection_rapide.md){ .md-button }  <br>   
