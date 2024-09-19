@@ -1,7 +1,6 @@
 # Cours 11
 ## Retour sur l'événement
 
-## Rédiger une candidature
 
 ## Création en groupe d'une grille de validation d'un portfolio
 
