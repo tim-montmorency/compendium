@@ -31,7 +31,7 @@ Télécharger et ouvrer le fichier suivant:
   - [ ] Appliquer les couleurs aux bonnes formes pour correspondre à l’image d’origine.
 
 - [ ] **Organisation des calques :**
-  - [ ] Chaque forme doit être sur un calque séparé.
+  - [ ] Chaque forme doit être sur un calque séparé. 
   - [ ] Nommer correctement chaque calque en fonction de l’élément (ex. : *Contour visage*, *Fond*).
   - [ ] Organiser les calques pour faciliter d’éventuelles modifications.
 
