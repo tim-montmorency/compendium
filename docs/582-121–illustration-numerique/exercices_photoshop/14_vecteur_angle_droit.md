@@ -1,7 +1,7 @@
 <style>.md-footer{display:none;}</style>
 
 Le but de cet exercice est de recréer un carré et un triangle avec l'outil plume (P).
-![](../assets/image/14_vecteur_angle_droit.jpg)
+![](../assets/image/14_vecteur_angle_droit.png)
 ***
 
 ## Matériel
