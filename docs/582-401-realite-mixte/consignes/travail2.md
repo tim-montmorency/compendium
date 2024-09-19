@@ -3,7 +3,7 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
 
 ## 1. Préparer le projet
 
-- [ ] Premièrement, créez un nouveau projet à l'aide du modèle 3D core.
+- [ ] Premièrement, créez un nouveau projet à l'aide du modèle 3D (Built-In Render Pipeline).
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#nomenclature">Nomenclature</a>
 - [ ] Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager.
 
