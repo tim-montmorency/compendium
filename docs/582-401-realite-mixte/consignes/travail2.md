@@ -62,8 +62,8 @@ Nous allons créer une télé à l'aide des objets 3D de Unity.
 Nous allons modifier la Skybox de votre scene.   
 
 - [ ] Créez un nouveau matériel. Comme shader, sélectionnez Skybox, procedural.
-- [ ] Ouvrez la fenêtre lighting à partir du menu window, rendering.
-- [ ] Glissez votre nouveau ciel comme Skybox material dans la section Environnement de la fenêtre Lighting.
+- [ ] Ouvrez la fenêtre lighting. (Window -> Rendering -> Lighting)
+- [ ] Glissez votre nouveau ciel comme Skybox material dans la section Environnement, Skybox Material de la fenêtre Lighting.
 - [ ] Dans l'inspecteur, modifiez les paramètres de votre ciel pour lui donner les couleurs de votre choix.
  
 
