@@ -9,7 +9,7 @@ Le but de cet exercice est de fusionner deux calques grâce au mode de fusion.
 
 Téléchargez et ouvrez les fichiers suivants:
 
-[📁 Document de départ_01](../assets/image/12_lucho-renolfi-gyRxYFlxI-Q-unsplash.jpg){ .md-button }   <br>
+[📁 Document de départ_01](../assets/image/12_lucho-renolfi-gyRxYFlxI-Q-unsplash.jpg){ .md-button }   <br>   
 [📁 Document de départ_02](../assets/image/12_john-westrock-638048-unsplash.jpg){ .md-button }   <br>
 
 ## Étapes
@@ -24,7 +24,7 @@ Téléchargez et ouvrez les fichiers suivants:
 
 ***
 Nous allons faire une variation de l'exercice 
-![](../assets/image/12_mode_fusion.png)
+![](../assets/image/12_mode_fusion_gradient.png)
 ***
 
 ## Étapes
