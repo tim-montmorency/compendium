@@ -14,7 +14,6 @@
   [🛠️ 04_Recadrer une grande image](./exercices_photoshop/04_Recadrer_une_grande_image.md){ .md-button } <br>   
   [🛠️ 04_Recadrer une petite image](./exercices_photoshop/04_Recadrer_une_petite_image.md){ .md-button } <br> 
 
-* [▶️ Recadrer et désinclinez](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ea3DyfqjdfhAk6jjNzmFB1UBKag7Rm6YQSrjFgtWeyXn5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XuM64Z)   <br>
 * [▶️ Recadrer avec du génératif ou du contenu](https://uqam-my.sharepoint.com/:v:/r/personal/lavoie-pilote_francoise_uqam_ca/Documents/01_cours/edm_3840_3841/cours_05-09_photoshop/07_outils_recadrage/03_recadrer_echelle_sur_du_contenu_generatif.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bbhXaX)   <br>
   [🛠️ 07_Recadrer avec du génératif ou du contenu](./exercices_photoshop/07_Recadrer_avec_du_génératif_ou_du_contenu.md){ .md-button } <br> 
 
