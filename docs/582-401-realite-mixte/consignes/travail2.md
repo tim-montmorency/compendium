@@ -48,8 +48,8 @@ Nous allons créer une télé à l'aide des objets 3D de Unity.
 
 - [ ] Créez un objet vide à une position de (0,0,0) nommé tele, les parties de votre télévision iront à l'intérieur de celui-ci. (Hierarchy -> Clic droit -> Create Empty)
 - [ ] Créez un cube, puis redimensionnez-le au format de votre télévision. (Hierarchy -> Clic droit -> 3D Object -> Cube)
-- [ ] Créez ensuite un plane qui sera votre écran et positionnez-le au-dessus du cadre de votre télévision.
-- [ ] Créez un matériel pour le cadre de votre télé et choisissez sa couleur.
+- [ ] Créez ensuite un plane qui sera votre écran et positionnez-le au-dessus du cadre de votre télévision. (Hierarchy -> Clic droit -> 3D Object -> Plane)
+- [ ] Créez un matériel pour le cadre de votre télé et choisissez sa couleur. (Project -> Materials -> Clic droit -> Create -> Material)
 - [ ] Créez également un matériel pour votre écran et choisissez une image par défaut.
  
 
