@@ -23,6 +23,7 @@ Télécharger et ouvrer le fichier suivant:
 - [ ] **Outils autorisés :**
   - [ ] **Interdiction** d’utiliser les formes automatiques (cercles, rectangles, etc.).
   - [ ] Utiliser uniquement l'outil **Plume (Pen Tool)** pour tracer les formes.
+  - [ ] Utiliser uniquement le nombre nécessaire de points d'ancrage pour tracer les courbes et les angles droits, en évitant d'ajouter des points superflus.
 
 - [ ] **Couleurs :**
   - [ ] Utiliser uniquement les couleurs présentes dans l’image fournie.
