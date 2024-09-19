@@ -22,6 +22,8 @@
 
 *  [▶️ Outil plume : créer une forme avec points d'ancrage à deux poignées](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQUSfqgn9V5Gjzza6OfKu3oBVX6E3eoq9bgtoF3lzNuusA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UM5Ust)
 
+[🛠️ Créer une forme avec points d'ancrage à deux poignées](./exercices_photoshop/14_vecteur_deux_poignees.md){ .md-button }  <br>  
+
 *  [▶️ Outil plume : créer une forme avec points d'ancrage à une poignée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eb65s1th8U9FoGBpmu9yTToB_45yfkIM7UVjm99n67PRDg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9YvnBA)
 
 *  [▶️ Outil de plume libre : créer une forme à main levée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbBC0cDYpOBGmPmA3qaxqrIBFGD0bkkLnJ1zvzlHQFr3Rw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7LQZ68)
