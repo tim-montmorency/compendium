@@ -1,6 +1,6 @@
 # Compendium
 
-## Compendium
+## Liste des cours en TIM
 
 [Domaines du multimédia](./582-101/)
 
