@@ -2,6 +2,9 @@
 
 ## 🚨 Remise du travail 1
 
+## Proposition de sortie
+Cafés numériques
+
 ## Exploration des travail 1
 
 ## Ouvrir et vérifier votre projet Unity en vue de l'évaluation sur la nomenclature
