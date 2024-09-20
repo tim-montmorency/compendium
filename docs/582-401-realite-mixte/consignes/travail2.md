@@ -42,7 +42,7 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
 ## 3. Créer une télévision
 !!! info "Information"
 
-    Assurez-vous d'être dans la zone qui ne contient ni le spot light, ni le point light.     
+    Assurez-vous d'être dans la zone qui ne contient ni le spot light, ni le point light. Vous pouvez créer une télévision ou tout autre objet. L'important est qu'éventuellement une vidéo jouera sur la surface.      
     
 Nous allons créer une télé à l'aide des objets 3D de Unity.   
 
