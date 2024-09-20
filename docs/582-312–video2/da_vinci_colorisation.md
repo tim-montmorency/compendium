@@ -1,5 +1,5 @@
 
-### Da Vinci - Colorisation
+### Da Vinci - La colorisation
 
 
 ### Notions: Présentation des scopes
