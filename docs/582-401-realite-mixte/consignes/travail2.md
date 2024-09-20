@@ -151,7 +151,6 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
 - [ ] Ajustez le script de votre personnage pour qu'il apparaisse au même endroit à chaque fois que le jeu recommence OU ajustez le script pour que peu importe la position de votre personnage au début, la bonne zone est détectée, puis animée.
-- [ ] Créez une "zone de téléportation", lorsque votre personnage entre dedans, il est amené à l'extérieur de votre bâtiment. Ensuite, de l'extérieur, assurez-vous que lorsque le personnage revient à sa zone de téléportation, il soit ramené à l'intérieur.
 - [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change. 
 
    
