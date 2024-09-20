@@ -1,7 +1,7 @@
 
 # COURS 04 
 
-## Da Vinci (90 minutes)
+## [Da Vinci - La base](da_vinci_base.md) (90 minutes)
 * [Révision Da Vinci](da_vinci_les_bases.md)
 
 ## Pause (10 minutes)
