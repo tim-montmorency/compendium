@@ -21,4 +21,4 @@
 
 ## Devoir
 * Montage offline de votre projet
-  * Le montage vidéo et son doit être terminé pour la semaine prochaine. Vous pouvez faire votre montage à deux. 
+  * Le montage vidéo/son doit être terminé pour la semaine prochaine. Vous pouvez faire votre montage à deux. 
