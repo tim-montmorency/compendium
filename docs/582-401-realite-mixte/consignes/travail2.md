@@ -144,6 +144,7 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 ## 14. Colliders
 - [ ] Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.
+- [ ] Assurez-vous aussi qu'on puisse entrer et sortir de votre maison. 
 
        
 ## 15. Défis
