@@ -83,7 +83,7 @@ Ajouter cette ligne dans le `<head>` de votre HTML
 </iframe>
 
 ```html
-<div class="card" style="width: 18rem;">
+<div class="card">
 
   <img src="https://picsum.photos/800/450" class="card-img-top" alt="">
 
