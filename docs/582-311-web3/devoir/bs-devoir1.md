@@ -5,25 +5,25 @@ tags:
 
 [:material-arrow-u-left-top: Cours 3](../cours03.md){.breadcrumb}
 
-# Devoir 1
+# Devoir 1 (formatif)
 
 ## Résultat attendu
 
 <div class="grid cards" markdown>
 
--   Bureau
+- Bureau
 
     ---
 
     ![](../assets/images/MacBookPro-1725597084228.jpeg){data-zoom-image}
 
--   Tablette
+- Tablette
 
     ---
 
     ![](../assets/images/iPad-1725597084179.jpeg){data-zoom-image}
 
--   Téléphone
+- Téléphone
 
     ---
 
@@ -39,24 +39,24 @@ tags:
 
 > Ingrédients
 
-> * 5 belles grosses pommes
-> * 1 pâte feuilletée
-> * 50g de sucre
-> * 50g de cassonade
-> * 2 cuillères à thé de cannelle moulue
-> * 1 cuillères à thé de muscade moulue
-> * 20g de beurre
-> * 1 jaune d'œuf
+> - 5 belles grosses pommes
+> - 1 pâte feuilletée
+> - 50g de sucre
+> - 50g de cassonade
+> - 2 cuillères à thé de cannelle moulue
+> - 1 cuillères à thé de muscade moulue
+> - 20g de beurre
+> - 1 jaune d'œuf
 
 > Préparation
 
-> * Préchauffez le four à 375°F
-> * Épluchez et découpez les pommes en fines tranches
-> * Déroulez la pâte feuilletée dans un moule à tarte et piquez-la avec une fourchette
-> * Disposez les tranches de pommes en rosace sur la pâte
-> * Saupoudrez de sucre et de cannelle, puis déposez quelques noisettes de beurre
-> * Badigeonnez les bords de la pâte avec le jaune d'œuf
-> * Enfournez pendant 1 heure jusqu'à ce que la tarte soit croustillante et dorée
+> - Préchauffez le four à 375°F
+> - Épluchez et découpez les pommes en fines tranches
+> - Déroulez la pâte feuilletée dans un moule à tarte et piquez-la avec une fourchette
+> - Disposez les tranches de pommes en rosace sur la pâte
+> - Saupoudrez de sucre et de cannelle, puis déposez quelques noisettes de beurre
+> - Badigeonnez les bords de la pâte avec le jaune d'œuf
+> - Enfournez pendant 1 heure jusqu'à ce que la tarte soit croustillante et dorée
 
 > © 2024 Recettes Gourmandes. Tous droits réservés.
 
