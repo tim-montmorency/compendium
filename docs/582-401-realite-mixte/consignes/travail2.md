@@ -80,7 +80,10 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J1zJ__tEtho?si=M0Fb65VN4E_ERDEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-       
+!!! warning "Attention"
+
+    Assurez-vous que le scale de votre personnage n'est pas inférieur à (0.1, 0.1, 0.1). Cela nous assurera du bon fonctionnement des colliders.
+         
 
 ## 6. Éclairage de la scène
 - [ ] Suivez ensuite la vidéo suivante pour configurer l'éclairage de votre bâtiment:
