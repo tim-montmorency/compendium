@@ -12,7 +12,7 @@
 
 ### Notions: Fonctionnement des nodes
 * [▶️ Gestion des Nodes : Entrée, Effets, et Sortie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ec0ErYbLdX1Oky3qyTBzZVwBtGofPVJiv5JYJXf-wDaFRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KaBWMJ)
-* [▶️ Renommer et créer les Nodes : Séries (S), Parallèles (P), Layers (L), Outside (O) et splitter et combine.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERFUFrB6J9FIpAKQYgXQoMwBm57kEYrqGHrelqT6fRMDeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FERg9r)
+* [▶️ Renommer et créer les Nodes : Séries (atl S), Parallèles (atl P), Layers (alt L), Outside (atl O) et splitter et combine (alt Y).](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERFUFrB6J9FIpAKQYgXQoMwBm57kEYrqGHrelqT6fRMDeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FERg9r)
 
 
 ### Notions: Les Nodes
