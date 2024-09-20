@@ -1,8 +1,14 @@
 <style>.md-footer{display:none;}</style>
 # Utilisation de [Kling AI](https://klingai.com/)
 
+[▶️ Présentation générale de Kling](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV5Ic0c8k6VHhlbi7GwxzYkBWkdsxvcztGvHLh0RQxymSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gogPiv)  <br>    
+
+
+
 ## Étape 1 : Rédiger un prompt
 - **Consultez [la page suivante](prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
+
+[▶️ Rédiger un prompt](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUvnBbs6zzRBlNVJxRSGRmoBYe7v159c2Kbz--Rstez_0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfZuUo)  <br>    
 
 ---
 
@@ -15,6 +21,8 @@ Si vous décidez **d'ajouter une image de référence**, les étapes suivantes v
 3. **Utiliser une image générée précédemment** : Vous pouvez prendre une image que vous avez déjà générée comme référence pour en créer d'autres, garantissant ainsi une cohérence visuelle.
 4. **Préciser le niveau de fidélité à l'image originale** : Si vous ne voulez pas que l'IA s'éloigne trop de l'image de référence, soyez explicite dans votre prompt pour que celle-ci reste proche de l'image initiale.
 
+[▶️ Gestion des images de références](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcsgD28ZWIdHntlxFD9BsckBrkWSKmkGkRO5UcWUqUhnbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dj39Wq)  <br>    
+
 ---
 
 ## Étape 3 : Créativité vs Pertinence (optionnel)
@@ -24,11 +32,16 @@ Cette étape est **pertinente uniquement si vous utilisez une image de référen
 1. **Pertinence** : Indiquez à l'IA de produire des visuels fidèles à la description donnée ou à l'image de référence.
 2. **Créativité** : Laissez une part d'interprétation à l'IA, ce qui peut donner des résultats inattendus et plus artistiques.
 
+
+
 ---
 
 ## Étape 4 : Utilisation des images générées comme références
 
 Une fois que vous avez **généré des images**, vous pouvez les utiliser comme références pour guider la création de futurs prompts. En réutilisant ces images, l'IA peut s'inspirer de leurs caractéristiques visuelles, thèmes ou styles pour générer des visuels cohérents.
+
+[▶️ [Gestion des images de références](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV402VaTN_tHnpaBpyW_zggBoXW8oguQ-EKFi0d54eEIUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g93qgE))  <br>    
+
 
 ### Exemples d'utilisation d'images de référence pour générer de nouvelles scènes :
 
