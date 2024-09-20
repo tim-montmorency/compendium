@@ -123,13 +123,15 @@ body[data-md-color-scheme="slate"] img.invert {
 .aspect-4-1 { aspect-ratio: 4 / 1; }
 
 /* Special Aspect Ratios for Embedded Content */
-.aspect-2-1-tabbed, .aspect-4-1-tabbed {
+.aspect-2-1-tabbed, .aspect-4-1-tabbed, .aspect-1-1-tabbed, .aspect-4-3-tabbed {
     height: auto;
     width: 100%;
 }
 
+.aspect-1-1-tabbed { aspect-ratio: 800 / calc(800 + 50 + 30 + 10); }
 .aspect-2-1-tabbed { aspect-ratio: 800 / calc(400 + 50 + 30 + 10); }
 .aspect-4-1-tabbed { aspect-ratio: 800 / calc(200 + 50 + 30 + 10); }
+.aspect-4-3-tabbed { aspect-ratio: 400 / calc(300 + 50 + 30 + 10); }
 
 /* ---------------------------------- */
 /* Links */
