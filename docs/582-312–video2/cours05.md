@@ -1,20 +1,22 @@
 # Cours 5
+## Da Vinci - La bas (15  minutes)
 
-## Da Vinci (30  minutes)
-* [Révision Da Vinci](da_vinci.md)
+* Les fades
 
+## Da Vinci - La colorisation (90  minutes)
+* [La colorisation dans Da Vinci](da_vinci_colorisation.md)
 
-Nodes 
-Correction de couleur 
-Mixer rgb 
-Courbes 
-Color wraper 
-Qualifier 
-Power window / tracker 
-Stabilisation 
-Flou 
-Keyframe 
-Copier des effets 
+* Nodes (Alt + S), Parallèle (Alt + P), Layer (Alt + L), Outside (Alt + O) et Splitter & Combine (Alt + Y).
+* Correction de couleur 
+* Mixer rgb 
+* Courbes 
+* Color wraper 
+* Qualifier 
+* Power window / tracker 
+* Stabilisation 
+* Flou 
+* Keyframe
+* Copier des effets 
 
 
 
