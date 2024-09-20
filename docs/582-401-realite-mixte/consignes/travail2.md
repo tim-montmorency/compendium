@@ -143,21 +143,19 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h0uvCte0Lq4?si=CB0radcWYP3eApq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## 14. Colliders
+- [ ] Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.
 
        
 ## 14. Défis
 Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
 
-- [ ] Créer une animation sur votre prefab pour que tous ses duplicatas soient animés.
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
-- [ ] Ajustez le script de votre personnage pour qu'il apparaisse au même endroit à chaque fois que le jeu recommence.
-- [ ] Ou ajustez le script pour que peu importe la position de votre personnage au début, la bonne zone est détectée, puis animée.
-- [ ] Créez une "zone de téléportation", lorsque votre personnage entre dedans, il est amené à l'extérieur de votre bâtiment. Ensuite, de l'extérieur, assurez-vous que lorsque le personnage revient à sa zone de téléportation, il soit ramené à l'intérieur. Assurez-vous aussi que le personnage ne puisse pas tomber dans le vide.
+- [ ] Ajustez le script de votre personnage pour qu'il apparaisse au même endroit à chaque fois que le jeu recommence OU ajustez le script pour que peu importe la position de votre personnage au début, la bonne zone est détectée, puis animée.
+- [ ] Créez une "zone de téléportation", lorsque votre personnage entre dedans, il est amené à l'extérieur de votre bâtiment. Ensuite, de l'extérieur, assurez-vous que lorsque le personnage revient à sa zone de téléportation, il soit ramené à l'intérieur.
+- [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change. 
 
-
-
-
-       
+   
 
 ## 15. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
