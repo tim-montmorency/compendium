@@ -20,7 +20,16 @@
 * Keyframe
 * Copier des effets
 
+## Pause (25  minutes)
 
+## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90  minutes)
+
+* Correction de couleur polaroid 
+* Correction en arrière plan mais qui n'affecte pas la peau des personnage
+* Correction de couleur duotone
+* Effect avec des canaux de couleurs décalés
+* Effets avec du flou en arrière plan
+* Faire un keying
 
 
 ## Devoir
