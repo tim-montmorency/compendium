@@ -146,7 +146,7 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 - [ ] Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.
 
        
-## 14. Défis
+## 15. Défis
 Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
@@ -156,7 +156,7 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
    
 
-## 15. Exporter le jeu
+## 16. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
 - [ ] Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
 
