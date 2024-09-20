@@ -90,6 +90,9 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eVzF0QE1zFE?si=G9Ca0fWpnw0XFrYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+!!! info "Note"
+
+    Si vous ne voulez aucune ombre, vous pouvez aller dans le paramètre Shadow Type de votre éclairage et sélectionner No Shadows.   
        
 ## 7. Création de zones
 - [ ] Créez un objet vide avec un box collider pour chaque pièce de la maison. Assurez-vous que les colliders ont la bonne taille pour couvrir toute la pièce.
