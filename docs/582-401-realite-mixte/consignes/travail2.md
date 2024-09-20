@@ -128,8 +128,7 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 ## 11. Créer des prefabs
 - [ ] Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HmLe22qIjAM?si=9YAWA3zfWbnKtqCy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        
 ## 12. Amasser des objets
 - [ ] Suivez la vidéo suivante pour amasser des objets et les compter:
