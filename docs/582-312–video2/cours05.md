@@ -16,7 +16,9 @@
 * Stabilisation 
 * Flou 
 * Keyframe
-* Copier des effets 
+* Copier des effets
+
+
 
 
 ## Devoir
