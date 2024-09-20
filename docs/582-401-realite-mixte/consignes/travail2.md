@@ -86,7 +86,9 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
          
 
 ## 6. Éclairage de la scène
-- [ ] Suivez ensuite la vidéo suivante pour configurer l'éclairage de votre bâtiment:
+- [ ] Ajustez le directionnal light à votre goût.
+- [ ] Créez une point light sur le bulbe que vous avez inséré plus tôt.
+- [ ] Créez un spot light sur le spot que vous avez inséré plus tôt. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eVzF0QE1zFE?si=G9Ca0fWpnw0XFrYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
