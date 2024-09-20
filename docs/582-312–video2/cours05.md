@@ -1,11 +1,11 @@
 # Cours 5
-## Da Vinci - La bas (15  minutes)
+## [Da Vinci - La base](da_vinci_base.md) (15  minutes)
+* Retour le son
+  * fades
+  * panoramiques
+  * sychnonisation
 
-* Les fades
-
-## Da Vinci - La colorisation (90  minutes)
-* [La colorisation dans Da Vinci](da_vinci_colorisation.md)
-
+## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90  minutes)
 * Nodes (Alt + S), Parallèle (Alt + P), Layer (Alt + L), Outside (Alt + O) et Splitter & Combine (Alt + Y).
 * Correction de couleur 
 * Mixer rgb 
@@ -19,9 +19,6 @@
 * Copier des effets 
 
 
-
-
-
-
-
-Explication du [Devoir #2] (https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgybpcUvVmFEhXVMMOMTE0UB7_LKAi_2FAq8kYd0efkxBQ?e=nz6GHe)
+## Devoir
+* Montage offline de votre projet
+  * Le montage vidéo et son doit être terminé pour la semaine prochaine. Vous pouvez faire votre montage à deux. 
