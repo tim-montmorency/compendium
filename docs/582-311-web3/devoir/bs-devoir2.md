@@ -34,6 +34,7 @@ Pour le contenu textuel, vous pouvez le copier/coller du « Site Web référence
 * [ ] Dans `index.html`, créer une structure HTML de base
 * [ ] Importez le CSS et le JavaScript de Bootstrap 5
 * [ ] Importez le CSS et le JavaScript de Swiper
+* [ ] Ajoutez le css suivant : `.swiper-slide { width: 100% !important; }` à votre projet
 * [ ] Dans le `<body>`, ajoutez une barre de navigation Bootstrap
 * [ ] Dans le `<body>`, ajoutez une zone pour le titre centré avec un fond de couleur de type danger
 * [ ] Dans le `<body>`, ajoutez 3 produits dans une grille Bootstrap
