@@ -97,6 +97,10 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
     Si vous ne voulez aucune ombre, vous pouvez aller dans le paramètre Shadow Type de votre éclairage et sélectionner No Shadows.   
        
 ## 7. Création de zones
+!!! info "Note"
+
+    Rappel, vous avez besoin de 3 zones, une avec une télévision (ou un objet qui joue une vidéo), une avec un spotlight et une avec un pointlight. Les zones peuvent être à l'extérieur ou l'intérieur, mais elles doivent être faciles à trouver. 
+
 - [ ] Créez un objet vide avec un box collider pour chaque pièce de la maison. Assurez-vous que les colliders ont la bonne taille pour couvrir toute la pièce.
 - [ ] Activez la fonction is Trigger de chaque collider pour permettre à votre personnage de se promener entre les pièces.
 
