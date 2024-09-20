@@ -1,9 +1,11 @@
 # Cours 5
 ## [Da Vinci - La base](da_vinci_base.md) (15  minutes)
 * Retour le son
-  * fades
-  * panoramiques
-  * sychnonisation
+  * Fades
+    * Sur des bruits de pas
+    * Sur une musique
+  * Panoramiques
+  * Sychnonisation image et son
 
 ## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90  minutes)
 * Nodes (Alt + S), Parallèle (Alt + P), Layer (Alt + L), Outside (Alt + O) et Splitter & Combine (Alt + Y).
