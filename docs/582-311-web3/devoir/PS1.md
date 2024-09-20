@@ -15,25 +15,16 @@ Vous devrez créer la page d'une critique sur un sujet de votre choix, comme si 
 
 L’accent de la correction sera mis sur l’usage des composants de Bootstrap 5, puis sur l’esthétisme, mais aucunement sur le contenu de la critique. Seuls des points de français pourraient être retirés jusqu’à concurrence de 10 %.
 
-## Consignes
-
-Votre page Web devra inclure les éléments suivants :
-
-1. Une structure de page correspondant à un site de critiques (par exemple : une critique de livre, de film, ou autre, accompagnée d’une note ou évaluation visuelle).
-1. Une critique du sujet choisi accompagné d'une note.
-1. Un design responsive en utilisant Bootstrap.
-1. Des composants Bootstrap, utilisés de manière pertinente pour organiser et styliser la page.
-
 ## Critères d’évaluation
 
 Votre travail sera évalué en fonction des critères suivants :
 
-1. Usage d’au moins un breakpoint Bootstrap (4 points)
-1. Usage du système de grille (colonnes) (4 points)
-1. Usage d’un modal ou d’un accordéon (4 points)
-1. Usage d’icônes Bootstrap (2 points)
-1. Esthétisme (4 points). Évaluation de la qualité visuelle de la page, y compris le choix des couleurs, des typographies, des images, et la mise en page. Le site doit être esthétiquement plaisant et bien structuré.
-1. Respect des consignes (2 points)
+* Usage d’au moins un breakpoint Bootstrap (4 points)
+* Usage du système de grille (colonnes) (4 points)
+* Usage d’un modal ou d’un accordéon (4 points)
+* Usage d’icônes Bootstrap (2 points)
+* Esthétisme (4 points). Évaluation de la qualité visuelle de la page, y compris le choix des couleurs, des typographies, des images, et la mise en page. Le site doit être esthétiquement plaisant et bien structuré.
+* Respect des consignes (2 points)
 
 Ce projet compte pour **20% de votre note finale**.
 
@@ -49,3 +40,14 @@ Votre PS1 devra contenir au minimum :
 Compressez votre dossier en format .`.zip` et déposez-le dans le devoir PS1 sur le groupe Teams.
 
 Date de remise : **3 octobre 2024 à 23h59**.
+
+[STOP]
+
+## Consignes
+
+Votre page Web devra inclure les éléments suivants :
+
+1. Une structure de page correspondant à un site de critiques (par exemple : une critique de livre, de film, ou autre, accompagnée d’une note ou évaluation visuelle).
+1. Une critique du sujet choisi accompagné d'une note.
+1. Un design responsive en utilisant Bootstrap.
+1. Des composants Bootstrap, utilisés de manière pertinente pour organiser et styliser la page.
