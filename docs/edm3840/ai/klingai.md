@@ -1,15 +1,16 @@
 <style>.md-footer{display:none;}</style>
 # Utilisation de [Kling AI](https://klingai.com/)
 
-[▶️ Présentation générale de Kling](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV5Ic0c8k6VHhlbi7GwxzYkBWkdsxvcztGvHLh0RQxymSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gogPiv)  <br>    
+## Explication vidéo de Kling
 
+* [▶️ Présentation générale de Kling](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV5Ic0c8k6VHhlbi7GwxzYkBWkdsxvcztGvHLh0RQxymSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gogPiv)  <br>    
+* [▶️ Rédiger un prompt](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUvnBbs6zzRBlNVJxRSGRmoBYe7v159c2Kbz--Rstez_0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfZuUo)  <br>    
+* [▶️ Gestion des images de références et créativité vs pertince](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcsgD28ZWIdHntlxFD9BsckBrkWSKmkGkRO5UcWUqUhnbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dj39Wq)  <br>    
 
+* [▶️ [Utilisation des images comme référence](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV402VaTN_tHnpaBpyW_zggBoXW8oguQ-EKFi0d54eEIUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g93qgE))  <br>    
 
 ## Étape 1 : Rédiger un prompt
 - **Consultez [la page suivante](prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
-
-[▶️ Rédiger un prompt](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUvnBbs6zzRBlNVJxRSGRmoBYe7v159c2Kbz--Rstez_0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bfZuUo)  <br>    
-
 ---
 
 ## Étape 2 : Gestion des images de référence (optionnel)
@@ -21,7 +22,6 @@ Si vous décidez **d'ajouter une image de référence**, les étapes suivantes v
 3. **Utiliser une image générée précédemment** : Vous pouvez prendre une image que vous avez déjà générée comme référence pour en créer d'autres, garantissant ainsi une cohérence visuelle.
 4. **Préciser le niveau de fidélité à l'image originale** : Si vous ne voulez pas que l'IA s'éloigne trop de l'image de référence, soyez explicite dans votre prompt pour que celle-ci reste proche de l'image initiale.
 
-[▶️ Gestion des images de références et créativité vs pertince](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcsgD28ZWIdHntlxFD9BsckBrkWSKmkGkRO5UcWUqUhnbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dj39Wq)  <br>    
 
 ---
 
@@ -40,7 +40,6 @@ Cette étape est **pertinente uniquement si vous utilisez une image de référen
 
 Une fois que vous avez **généré des images**, vous pouvez les utiliser comme références pour guider la création de futurs prompts. En réutilisant ces images, l'IA peut s'inspirer de leurs caractéristiques visuelles, thèmes ou styles pour générer des visuels cohérents.
 
-[▶️ [Utilisation des images comme référence](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV402VaTN_tHnpaBpyW_zggBoXW8oguQ-EKFi0d54eEIUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g93qgE))  <br>    
 
 
 ### Exemples d'utilisation d'images de référence pour générer de nouvelles scènes :
