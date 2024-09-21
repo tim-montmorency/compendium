@@ -1,4 +1,6 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
+
 
 Le but de cet exercice est de recréer des formes avec l'outils (P) avec des points d'ancrage à deux poignées. 
 ![](../assets/image/14_vecteur_deux_poignees.jpg)
