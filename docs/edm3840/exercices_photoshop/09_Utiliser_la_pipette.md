@@ -7,7 +7,7 @@ Le but de cet exercice est de sélectionner une couleur de cette image et de la 
 
 ## Matériel
 
-Télécharger et ouvrer le fichier suivant:
+Télécharger et ouvrer le fichier suivant: <br>
 [📁 Document de départ](../assets/image/07_over_busy.psd){ .md-button }   <br>
 
 ## Étapes
