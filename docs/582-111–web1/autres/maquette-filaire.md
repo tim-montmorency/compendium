@@ -17,7 +17,7 @@ Le zoning est une technique de squelette qui permet d'organiser le contenu d'une
 
 
 Vidéo explicative
-![type:video]([https://www.youtube.com/watch?v=bRzQx_qJaXw](https://www.youtube.com/embed/bRzQx_qJaXw?si=nvKTib7_qtKci400))
+![type:video](https://www.youtube.com/embed/bRzQx_qJaXw?si=nvKTib7_qtKci400))
 
 
 ## Maquette filaire + Draw.io
