@@ -1,3 +1,7 @@
+<style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
+
+
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
 
