@@ -1,4 +1,6 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
+
 # Utilisation de [Kling AI](https://klingai.com/)
 
 ## Explication vidéo de Kling
