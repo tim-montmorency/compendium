@@ -12,12 +12,12 @@ Elles fournissent un aperçu clair de la structure de la page, de la mise en pag
 
 ## Zoning
 
-Le zoning est une technique de squelette qui permet d'organiser le contenu d'une page web en la divisant en différentes zones.
+Le zoning est une technique de squelette qui permet d'organiser le contenu d'une page web en la divisant en différentes zones.<br><br>
 ![zoning](https://github.com/user-attachments/assets/2d3e14ba-ca1c-4a31-a530-2d964b0b3fc8)
 
 
 Vidéo explicative
-![video](https://www.youtube.com/watch?v=bRzQx_qJaXw)
+![type:video](https://www.youtube.com/watch?v=bRzQx_qJaXw)
 
 ## Maquette filaire + Draw.io
 
