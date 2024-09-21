@@ -22,8 +22,10 @@ La maquette doit être pour un écran en version large et non la version mobile.
 - Une section texte comprenant un titre et un paragraphe.<br>
 - Une galerie photo dans un carrousel (grand bloc et petites vignettes en dessous).<br>
 - Une section qui présente les logos des clients les plus prestigieux.<br>
-- Une section avec onglets, présentant un produit différent par onglet, on doit y mettre 4 onglets. > Dans la boite qui est visible par défaut, je veux voir une image à gauche et du texte à droite.<br>
-- Une section qui comporte 3 cartes en grille, sur la même ligne. C’est la section “témoignages”. > Chaque carte contient une photo, en dessous le nom de la personne, la compagnie pour laquelle elle travaille et encore en dessous, un court témoignage (court paragraphe).
+- Une section avec onglets, présentant un produit différent par onglet, on doit y mettre 4 onglets.<br>
+- Dans la boite qui est visible par défaut, je veux voir une image à gauche et du texte à droite.<br>
+- Une section qui comporte 3 cartes en grille, sur la même ligne. C’est la section “témoignages”.<br>
+- Chaque carte contient une photo, en dessous le nom de la personne, la compagnie pour laquelle elle travaille et encore en dessous, un court témoignage (court paragraphe).
 
 
 ## Pied de page
