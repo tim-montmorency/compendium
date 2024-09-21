@@ -1,7 +1,7 @@
 <style>.md-footer{display:none;}</style>
 # Utilisation de [Midjourney](https://www.midjourney.com/explore?tab=hot)
 
-## Explication vidéo de Kling
+## Explication vidéo de Midjourney
 
 * [▶️ Présentation de Midjourney](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EazuclSjZ-ZCuGuE9PL8hCsB5q6MVTts5pVDAfdZtzXS0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AjMi4h)  <br>    
 * [▶️ Le Prompt](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETX6abkXz0VEmN4NR-sHIo0BfZuv9Zdd0U2x-qo4Ob9D2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C1lMV2)  <br>    
