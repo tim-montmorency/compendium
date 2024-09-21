@@ -16,7 +16,7 @@ Le zoning est une technique de squelette qui permet d'organiser le contenu d'une
 ![zoning](https://github.com/user-attachments/assets/2d3e14ba-ca1c-4a31-a530-2d964b0b3fc8)
 
 
-Vidéo explicative
+## Vidéo explicative
 ![type:video](https://www.youtube.com/embed/bRzQx_qJaXw?si=nvKTib7_qtKci400))
 
 
