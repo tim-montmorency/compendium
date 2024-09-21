@@ -13,7 +13,7 @@
  [🛠️ 09_Utiliser la pipette](./exercices_photoshop/09_Utiliser_la_pipette.md){ .md-button }  <br>
 
 
- ### Notions: outils pinceau
+### Notions: outils pinceau
 * [▶️ Pinceau, taille, opacité, flux](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERnWppm8npJBp6hFzH9ArtgBZEM5W10HPqtJH8zOG8y0lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dxlGOM)   <br>
 * [▶️ Pinceau, lissage, pression, opacité, taille, symétrie](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQDs-snoTChAq-zAsep3rZQBTPYWWmGChw2ENdP7fI4acw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RlhkMW)   <br>
 * [▶️ Paramètres du pinceau (réglages avancés de la brosse)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Eez_-4cA7elMm_cQoOW3g04BecfetVkp1jilUa4yzfcn0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EmcnyH)   <br>
