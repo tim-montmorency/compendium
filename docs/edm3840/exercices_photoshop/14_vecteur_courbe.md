@@ -1,4 +1,6 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
+
 
 Le but de cet exercice est de retracer une image avec l'outil Courbure dans la Plume (P).
 ![](../assets/image/14_vecteur_courbe.jpg)
