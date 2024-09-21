@@ -1,4 +1,6 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-Headher{display:none;}</style>
+
 
 Le but de cet exercice est de recréer des formes avec l'outils (P) avec toutes les notions vues précédemment. 
 ![](../assets/image/14_vecteur_chat.jpg)
