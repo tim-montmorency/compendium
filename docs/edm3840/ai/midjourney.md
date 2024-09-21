@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-# Utilisation de [Mid Journey](https://www.midjourney.com/explore?tab=hot)
+# Utilisation de [Midjourney](https://www.midjourney.com/explore?tab=hot)
 
 ## Explication vidéo de Kling
 
