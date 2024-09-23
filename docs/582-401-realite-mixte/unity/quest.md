@@ -47,7 +47,7 @@ Assurez-vous d'être sur la bonne version de casque (Quest 3 ou Quest 2), puis a
 
       
 
-## Lier le casque à votre ordinateur - Quest link
+## Lier le casque à votre ordinateur - Quest link filaire
 Assurez-vous de brancher votre casque avec le USB-C dans l'ordinateur.   
 
 Dans le logiciel Oculus, ouvrez l'onglet appareil. Vous devriez maintenant voir votre casque en vert:   
