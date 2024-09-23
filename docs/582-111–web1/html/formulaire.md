@@ -13,7 +13,7 @@ Génère un champ texte sur une seule ligne. Ce champ est parfait pour les infor
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-Plusieurs attributs sont disponibles sur les champs texte. Voyons quelques-uns des plus populaires.
+## Plusieurs attributs sont disponibles sur les champs texte. Voyons quelques-uns des plus populaires.
 
 ## Value
 **L'attribut `value` permet de définir la valeur par défaut d'un champ.**
@@ -98,10 +98,10 @@ Par exemple, les deux méthodes suivantes de définition de libellé sont valide
 
 
 #### Attributs de form
-- action permets de spécifier l'url où les informations du formulaire doivent être soumises.
-- method méthode http utilisée par le navigateur afin de soumettre le formulaire. Ses valeurs peuvent-être
--     GET (par défaut) stock les informations du formulaire dans l'URL après le symbole ?.
--     POST envois les informations du formulaire dans la requête soumise à la page. Les informations ne sont donc pas visibles.
+- `action` permets de spécifier l'url où les informations du formulaire doivent être soumises.
+- `method` méthode http utilisée par le navigateur afin de soumettre le formulaire. Ses valeurs peuvent-être
+-   `GET` (par défaut) stock les informations du formulaire dans l'URL après le symbole ?.
+-   `POST` envois les informations du formulaire dans la requête soumise à la page. Les informations ne sont donc pas visibles.
 
 !!! warning
 
