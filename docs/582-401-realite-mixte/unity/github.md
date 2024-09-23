@@ -7,7 +7,7 @@ Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même proj
 ### Coéquipier 1
 - [ ] Créer un repository public par équipe dans GitHub. Inclure le Gitignore Unity dedans.
 - [ ] Cloner votre repo dans GitHub desktop pour travailler dessus.
-- [ ] Créer un projet unity (3D HDPR pour travail VR, version 2022.3.8) dans le dossier de votre repo GitHub.
+- [ ] Créer un projet unity (3D HDPR pour travail VR, version 2022.3.45) dans le dossier de votre repo GitHub.
 - [ ] Déplacer le .gitignore dans le dossier de projet Unity.
 - [ ] Faire un commit dans GitHub desktop pour inclure notre projet Unity.
 - [ ] Ensuite, push to origin pour envoyer notre projet en ligne.
