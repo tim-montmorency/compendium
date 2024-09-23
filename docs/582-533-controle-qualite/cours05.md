@@ -16,6 +16,9 @@ Cours Charlène: 14h20 à 17h
 
 ## Création d'un profil LinkedIn
 
+## Préparation salon de l'emploi
+[🛠️ Consulter le guide](https://www.calameo.com/read/0071663373c74d5e28209?page=1){ .md-button }     
+
 ## Avancer le Portfolio, la lettre ou le CV    
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
 
