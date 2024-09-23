@@ -37,13 +37,13 @@ Il existe plusieurs modes "Guardian", le premier est la limite **Roomscale**. C'
 
       
 
-## Lier le casque à votre ordinateur - Installer Oculus
-Avant de commencer, assurez-vous que le logiciel <b>Oculus</b> est installé sur votre ordinateur.   
-[📁 Installer Oculus link](https://www.meta.com/ca/fr/quest/setup/){ .md-button }   <br>
+## Lier le casque à votre ordinateur - Installer Meta quest link
+Avant de commencer, assurez-vous que le logiciel <b>Meta quest link</b> est installé sur votre ordinateur.   
+[📁 Installer Meta quest link](https://www.meta.com/ca/fr/quest/setup/){ .md-button }   <br>
 
 <img src="../images/link.jpg">
 
-Assurez-vous d'être sur la bonne version de casque (Quest ou Quest 2), puis appuyez sur télécharger le logiciel.   
+Assurez-vous d'être sur la bonne version de casque (Quest 3 ou Quest 2), puis appuyez sur télécharger l'application.   
 
       
 
