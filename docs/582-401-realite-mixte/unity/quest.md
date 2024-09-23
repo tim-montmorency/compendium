@@ -1,4 +1,4 @@
-Dans le cadre du cours, des casques Quest ou Quest 2 vous serons prêtés.   
+Dans le cadre du cours, des casques Quest 3 ou Quest 2 vous serons prêtés.   
 
 
 !!! info "Information"
