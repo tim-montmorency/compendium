@@ -24,12 +24,11 @@ Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer
 
       
 ## Créer une scène et intégrer le casque de VR
-- [ ] File, new scene, puis choisir un modèle HDRP pour créer votre nouvelle scène. (Un GameObject Sky and Fog Volume apparaîtra dans votre scène si vous avez le bon modèle.)
+- [ ] Barre de menu: File, new scene, puis choisir un modèle HDRP pour créer votre nouvelle scène. (Un GameObject Sky and Fog Volume apparaîtra dans votre scène si vous avez le bon modèle.)
 - [ ] Sauvegardez votre scène dans le dossier Scene.
 - [ ] Créez un objet Empty et nommez le joueur.
 - [ ] Dans le joueur, ajouter un objet: Xr, XR Origin.
 - [ ] Supprimez la MainCamera qui était dans votre projet au début.
-- [ ] Vérifier dans XR Origin que dans Input Action Manager, l'élément choisi est XRI Default Input Actions.
 - [ ] Ouvrez l'objet XR Origin et trouvez le controlleur Gauche. Dans la fenêtre Inspector sur la composante XR Controller, appuyez sur l'icône de sliders en haut à droite. Sélectionnez ensuite Left Controller dans la liste.
 - [ ] Répétez cette étape pour le controlleur droit et choisissez Right controller.
 - [ ] Dans le joueur, ajoutez un objet: XR, Locomotion System.
@@ -47,7 +46,7 @@ Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer
 - [ ] Ouvrir le package manager (window, package manager).
 - [ ] Assurez-vous d'être dans Unity Registry et trouvez XR Interaction ToolKit dans la liste.
 - [ ] Dans samples, importez le XR Device Simulator.
-- [ ] Recherchez device simulator dans Assets.
+- [ ] Recherchez device simulator dans le dossier Assets de la fenêtre projet.
 - [ ] Glissez le Prefab nommé XR Device Simulator dans votre scène.
 - [ ] Vous pouvez maintenant tester avec votre clavier et souris, quand vous faites Play, vous pourrez tester avec vos manettes.
 - [ ] Décochez XR Device Simulator quand vous voulez tester avec le casque.
