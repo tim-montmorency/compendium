@@ -9,7 +9,7 @@ Cours Charlène: 14h20 à 17h
 14h20 à 15h20 au local B3428
 
 ## Rédiger une candidature
-[🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y)){ .md-button }      
+[🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y){ .md-button }     
 
 ## Présentation sur la e-réputation et LinkedIn
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
