@@ -12,6 +12,10 @@ Nous allons voir différentes méthodes de déplacement en VR dans Unity.
 - [ ] Ajoutez aussi la composante Character Controller Driver.
 - [ ] Dans les paramètres de cette nouvelles composante, glissez votre Locomotion System sur le paramètre Locomotion Provider.
 
+!!! warning "Attention"
+
+    Attention pour tester le vrai déplacement avec les manettes et l'interaction avec les colliders, vos manettes doivent être sélectionnées en mode clavier souris. Ne pas sélectionner HMD, c'est controller qui doit être en bleu!
+    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F6ETKU5e_5M?si=MQMvl-P4ga1D_zLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       
