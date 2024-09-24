@@ -27,8 +27,8 @@ La page de résultat s'attend à recevoir les informations suivantes: `credit-ca
 - Premièrement, créer une forme <u>avec la classe</u> **"form"** ainsi que l'action écrite ci-dessus.
 - À l'intérieur de la forme, ajouter 2 `<div>`.
 - Dans la première `<div>` (numéro de carte de crédit), ajouter un champ texte avec
--   • **id** : credit-card-number
--   • **attribut** "name" : credit-card-number.
+  * **id** : credit-card-number
+  * **attribut** "name" : credit-card-number.
 - Pour la deuxième `<div>`, donner lui la classe ; colonne.
 - À l'intérieur de cette `<div>`, vous allez créer deux autres `<div>`.
 - Une `<div>`, dois avoir la classe : colonne1 et l'autre la classe : colonne2.
@@ -36,12 +36,12 @@ La page de résultat s'attend à recevoir les informations suivantes: `credit-ca
   * id : expiry-date
   * attribut "name" : expiry-date
 - La deuxième (code de sécurité de la carte) est aussi un champ texte avec
-    • id : security-code
-    •attribut "name" : security-code .
+  * id : security-code
+  * attribut "name" : security-code .
 - Chaque champ doit avoir un libellé cliquable attribuant le focus au champ qui lui est associé.
-    • Numéro de carte
-    • Expiration
-    • Sécurité
+  * Numéro de carte
+  * Expiration
+  * Sécurité
 - Les champs de numéro de carte de crédit, date d'expiration et de code de sécurité doivent afficher les textes indicatifs "4242 4242 4242 4242", "10/24" et "123".
 - Le code de sécurité doit avoir une longueur de 3 caractères. Ni plus ni moins.
 - Un bouton avec la classe : bouton, affichant la mention "Acheter maintenant" doit permettre de soumettre le formulaire lorsque cliqué.
