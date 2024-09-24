@@ -4773,7 +4773,7 @@
           <li class="md-nav__item">
   <a href="#demo" class="md-nav__link">
     <span class="md-ellipsis">
-      Démo
+      Demo
     </span>
   </a>
   
@@ -11518,7 +11518,7 @@
           <li class="md-nav__item">
   <a href="#demo" class="md-nav__link">
     <span class="md-ellipsis">
-      Démo
+      Demo
     </span>
   </a>
   
@@ -11640,7 +11640,10 @@
 </iframe>
 
 <p>Si le joueur (this.player) entre en collision avec this.platforms (par exemple, en atterrissant sur une plateforme), une fonction de rappel (callback) sera exécutée.</p>
-<div class="highlight"><span class="filename">create()</span><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">physics</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">collider</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">player</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">platforms</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<div class="highlight"><span class="filename">create()</span><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">jumpCount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">jumpKeyReleased</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+
+<span class="k">this</span><span class="p">.</span><span class="nx">physics</span><span class="p">.</span><span class="nx">add</span><span class="p">.</span><span class="nx">collider</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">player</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">platforms</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="nx">jumpCount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
 <span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="nx">jumpKeyReleased</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
 <span class="p">});</span>
@@ -11841,7 +11844,7 @@
 <span class="c1">// Par la suite on peut appliquer une collision avec le layer</span>
 <span class="c1">// Ex: this.physics.add.collider(this.player, collisionLayer);</span>
 </code></pre></div>
-<h3 id="demo">Démo<a class="headerlink" href="#demo" title="Permanent link">¶</a></h3>
+<h3 id="demo">Demo<a class="headerlink" href="#demo" title="Permanent link">¶</a></h3>
 <h2 id="exercice">Exercice<a class="headerlink" href="#exercice" title="Permanent link">¶</a></h2>
 <div class="grid grid-1-2">
 <p><img alt="" src="assets/images/bridges.png"></p>
