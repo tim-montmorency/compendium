@@ -9,7 +9,9 @@ Aperçu du résultat 👇
 
 ## Matériel
 
-[Pen de départ](https://codepen.io/pen?template=mdaqyOm)
+!!! info
+
+    [Pen de départ](https://codepen.io/pen?template=mdaqyOm)
 
 ### Action
 ```
