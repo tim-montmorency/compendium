@@ -25,7 +25,8 @@ Aperçu du résultat 👇
 ## Requis
 
 - Ajouter une `<div>` avec une classe : **wrapper**.
-- À l'intérieur de la `<div>`, ajouter **4 "input"** de type radio, l'attribut **"name"** est action et les classe : `radio radio-top`, `radio radio-right`, `radio radio-bottom`, `radio radio-left`.
+- À l'intérieur de la `<div>`, ajouter **4 "inputs"** de type radio ayant l'attribut **"name"** = action.
+- Ajouter les classe : `radio radio-top`, `radio radio-right`, `radio radio-bottom`, `radio radio-left` à vos `inputs`.
 - Ensuite, ajouter les images avec les classes : `image image-top`, `image image-right`, `image image-bottom`, `image radio-left`
 
 !!! warning
