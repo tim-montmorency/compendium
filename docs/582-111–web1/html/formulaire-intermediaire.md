@@ -40,10 +40,14 @@ Par exemple, si seulement une option de pizza 🍕 peut-être sélectionnée:
 ### Attributs de radio
 * `name` tous les boutons radio partageant le même name font partie d'un même groupe. Seul une option/un bouton radio parmi ce groupe peut être sélectionnée à la fois.
 
-Par exemple, il est impossible de sélectionner les options **Végétarienne** et **Toute garnie** en même temps, puisqu'elles font toutes deux partie du groupe pizza.
+!!! example
+
+    Par exemple, il est impossible de sélectionner les options **Végétarienne** et **Toute garnie** en même temps, puisqu'elles font toutes deux partie du groupe pizza.
 * `checked` permet de spécifier à l'aide d'un booléen **(true/false)** si l'élément doit-être sélectionné. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
 
 * `value` indique la valeur associée au bouton radio. Ainsi lorsque le formulaire est soumis, la valeur associée au name est celle de l'élément checked.
 
-Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera pizza: "toute-garnie".
+!!! example
+
+    Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera pizza: "toute-garnie".
 * `disabled` permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.
