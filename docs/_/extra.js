@@ -2,6 +2,7 @@
 // https://skalman.github.io/UglifyJS-online/
 // https://obfuscator.io/
 
+
 // Fonction pour générer un hachage simple
 // Utilisé pour donner un identifiant aux checkboxes dans une page
 const generateHash = (str) => {
@@ -193,9 +194,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const targetNode = document.body;
     const config = { childList: true, subtree: true };
-    const callback = function(mutationsList, observer) {
+    const callback = function (mutationsList, observer) {
 
-        for(let mutation of mutationsList) {
+        for (let mutation of mutationsList) {
             console.log(mutation);
             if (mutation.type === 'childList') {
                 setTimeout(() => {
@@ -216,6 +217,7 @@ function runFunctions() {
     addOpenExampleLinks();
     handleExternalLinks();
     handleCheckboxesWithFireworks(fireworks, fireworksContainer);
+    // selectIframe();
 }
 
 function runOnce() {
