@@ -32,9 +32,9 @@ La page de résultat s'attend à recevoir les informations suivantes: `credit-ca
 - Pour la deuxième `<div>`, donner lui la classe ; colonne.
 - À l'intérieur de cette `<div>`, vous allez créer deux autres `<div>`.
 - Une `<div>`, dois avoir la classe : colonne1 et l'autre la classe : colonne2.
-- La première div (date d'expiration), est un champ texte avec
-    • id : expiry-date
-    •attribut "name" : expiry-date
+* La première div (date d'expiration), est un champ texte avec
+  * id : expiry-date
+  * attribut "name" : expiry-date
 - La deuxième (code de sécurité de la carte) est aussi un champ texte avec
     • id : security-code
     •attribut "name" : security-code .
