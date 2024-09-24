@@ -100,13 +100,9 @@ Par exemple, les deux méthodes suivantes de définition de libellé sont valide
 #### Attributs de form
 - `action` permets de spécifier l'url où les informations du formulaire doivent être soumises.
 - `method` méthode http utilisée par le navigateur afin de soumettre le formulaire. Ses valeurs peuvent-être
-!!! tip
+  * `GET` **(par défaut)** stock les informations du formulaire dans l'URL après le symbole `?`.
 
-      `GET` **(par défaut)** stock les informations du formulaire dans l'URL après le symbole `?`.
-
-!!! tip
-
-    `POST` envois les informations du formulaire dans la requête soumise à la page. Les informations ne sont donc pas visibles.
+  * `POST` envois les informations du formulaire dans la requête soumise à la page. Les informations ne sont donc pas visibles.
 
 !!! warning
 
