@@ -52,6 +52,21 @@ Par exemple, si seulement une option de pizza 🍕 peut-être sélectionnée:
     Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera pizza: "toute-garnie".
 * `disabled` permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.
 
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-09-24 à 17 30 03](https://github.com/user-attachments/assets/e03d3919-871b-4220-85ed-ac64ea1be91e)
+
+
+
+  **Exercice Dragonball**<br>
+  _Pour cet exercice, nous allons modifier l’action performée par Goku, le personnage principal de Dragonball, en fonction du bouton radio sélectionné._<br>
+  [Dragonball](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/dragonball.html)
+</div>
+
+
+
 ## Select
 
 Les `<select>` permettent de choisir une seule option parmi un groupe 🔽. Leur usage est approprié lorsque plusieurs options sont disponibles et qu'il n'est pas nécessaire pour l'usager de tous les voir.
@@ -72,6 +87,21 @@ Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessai
 `value` indique la valeur associée au `<select>`. Ainsi lorsque le formulaire est soumis, la valeur associée au `name` est celle de l'option sélectionnée.
 `selected` permet de spécifier à l'aide d'un booléen **(true/false)** si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
 `disabled` permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-24 à 17 32 35](https://github.com/user-attachments/assets/3c6180f1-136b-4c38-b722-b7693a6aca60)
+
+
+  **Exercice Twitter**<br>
+  _Pour cet exercice, vous devrez compléter le formulaire de Twitter demandant la date de naissance de son nouveau membre._<br>
+  [Exercice Twitter](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/twitter.html)
+</div>
+
+
+
+
 
 
 
