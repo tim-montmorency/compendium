@@ -35,3 +35,10 @@ https://tim-montmorency.com/timdoc/582-215MO/html/formulaire-intermediaire/exerc
 !!! note
 
     Si votre formulaire fonctionne bien, vous devriez obtenir un message vous donnant l’âge de l’usager.
+
+
+## Notes de cours
+
+![icon (1)](https://github.com/user-attachments/assets/31abb701-aee0-4d99-a87b-a80292358920)<br> Formulaire  <br> [Formulaire ](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire.html)
+
+![icon (2)](https://github.com/user-attachments/assets/f7167ff2-c80e-4594-a297-7c394aeb7b0e)<br> Formulaire intermédiaire <br> [Formulaire intermédiaire](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire-intermediaire.html)
