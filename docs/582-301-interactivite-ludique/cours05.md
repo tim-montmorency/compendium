@@ -77,6 +77,9 @@ const config = {
 Si le joueur (this.player) entre en collision avec this.platforms (par exemple, en atterrissant sur une plateforme), une fonction de rappel (callback) sera exécutée.
 
 ```js title="create()"
+this.jumpCount = 0;
+this.jumpKeyReleased = true;
+
 this.physics.add.collider(this.player, this.platforms, () => {
     this.jumpCount = 0;
     this.jumpKeyReleased = true;
@@ -326,7 +329,7 @@ collisionLayer.setCollisionByProperty({ collision: true });
 // Ex: this.physics.add.collider(this.player, collisionLayer);
 ```
 
-### Démo
+### Demo
 
 ## Exercice
 
