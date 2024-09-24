@@ -11292,6 +11292,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#select" class="md-nav__link">
+    <span class="md-ellipsis">
+      Select
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Select">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attributs-de-select" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs de select
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributs-doption" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs d'option
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11358,7 +11391,24 @@
 </div>
 <ul>
 <li><code>disabled</code> permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.</li>
-</ul></div>
+</ul>
+<h2 id="select">Select<a class="headerlink" href="#select" title="Permanent link">¶</a></h2>
+<p>Les <code>&lt;select&gt;</code> permettent de choisir une seule option parmi un groupe 🔽. Leur usage est approprié lorsque plusieurs options sont disponibles et qu'il n'est pas nécessaire pour l'usager de tous les voir.</p>
+<p>Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessaire une fois sa plage trouvée de voir les autres options:</p>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Select" src="https://codepen.io/tim-momo/embed/JjBgmeb?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/JjBgmeb">
+  Select</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<h3 id="attributs-de-select">Attributs de select<a class="headerlink" href="#attributs-de-select" title="Permanent link">¶</a></h3>
+<p><code>name</code> nom de référence lorsque le formulaire est soumis.
+<code>multiple</code> permet la sélection de plusieurs options.
+<code>disabled</code> permet d'afficher en lecture seule le <select>.</select></p>
+<h3 id="attributs-doption">Attributs d'option<a class="headerlink" href="#attributs-doption" title="Permanent link">¶</a></h3>
+<p><code>value</code> indique la valeur associée au <code>&lt;select&gt;</code>. Ainsi lorsque le formulaire est soumis, la valeur associée au <code>name</code> est celle de l'option sélectionnée.
+<code>selected</code> permet de spécifier à l'aide d'un booléen <strong>(true/false)</strong> si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
+<code>disabled</code> permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.</p></div>
 
 
 
