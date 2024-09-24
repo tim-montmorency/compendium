@@ -51,3 +51,24 @@ Par exemple, si seulement une option de pizza 🍕 peut-être sélectionnée:
 
     Par exemple, si le formulaire est soumis sans que les boutons radio soient touchés, la valeur reçue sera pizza: "toute-garnie".
 * `disabled` permet d'afficher en lecture seule une option afin d'indiquer que bien qu'elle soit normalement disponible, celle-ci ne l'est pas en ce moment.
+
+## Select
+
+Les `<select>` permettent de choisir une seule option parmi un groupe 🔽. Leur usage est approprié lorsque plusieurs options sont disponibles et qu'il n'est pas nécessaire pour l'usager de tous les voir.
+
+Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessaire une fois sa plage trouvée de voir les autres options:
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Select" src="https://codepen.io/tim-momo/embed/JjBgmeb?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/JjBgmeb">
+  Select</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Attributs de select
+`name` nom de référence lorsque le formulaire est soumis.
+`multiple` permet la sélection de plusieurs options.
+`disabled` permet d'afficher en lecture seule le <select>.
+### Attributs d'option
+`value` indique la valeur associée au `<select>`. Ainsi lorsque le formulaire est soumis, la valeur associée au `name` est celle de l'option sélectionnée.
+`selected` permet de spécifier à l'aide d'un booléen **(true/false)** si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
+`disabled` permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.
