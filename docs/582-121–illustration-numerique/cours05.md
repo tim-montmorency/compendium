@@ -43,3 +43,12 @@
   [🛠️ Créer une image plus complexe en vectorielle](./exercices_photoshop/14_vecteur_avance.md){ .md-button }  <br>  
 
 
+  
+## Devoir
+
+Faire [le devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) suivant pour la semaine prochaine. 
+En plus faire le devoir suivant pour la semaine prochaine
+Déposer le tout via Devoir
+
+Apporter tous les photographies qui vont vous servir pour votre travail pour la semaine prochaine
+
