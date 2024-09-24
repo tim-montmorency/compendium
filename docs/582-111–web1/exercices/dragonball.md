@@ -32,3 +32,9 @@ Aperçu du résultat 👇
 !!! warning
 
     Une seule image de Goku doit être visible à la fois.
+
+
+## Notes de cours
+
+![icon (2)](https://github.com/user-attachments/assets/f7167ff2-c80e-4594-a297-7c394aeb7b0e)<br> Formulaire intermédiaire <br> [Formulaire intermédiaire](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire-intermediaire.html)
+
