@@ -9,7 +9,9 @@ Aperçu du résultat 👇
 
 ## Matériel
 
-[Pen de départ](https://codepen.io/pen?template=XWozWyy)
+!!! info
+
+    [Pen de départ](https://codepen.io/pen?template=XWozWyy)
 
 ## Champs
 Lorsque le formulaire est soumis, ses informations doivent-être envoyés en utilisant la méthode `get` à l'adresse suivante:
