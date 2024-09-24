@@ -123,3 +123,18 @@ Par exemple, les deux méthodes suivantes de définition de libellé sont valide
 Value
 L'attribut `value` définit le texte à l'intérieur du bouton généré.
 
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-24 à 17 23 47](https://github.com/user-attachments/assets/ad4d7ab2-9865-46af-b536-8e4d0da593cd)
+
+
+
+
+  **Exercice Carte de crédit**<br>
+  _Pour cet exercice vous devrez compléter un formulaire de carte de crédit déjà entamé._<br>
+  [Carte de crédit](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/carte-de-credit.html)
+</div>
+
+
