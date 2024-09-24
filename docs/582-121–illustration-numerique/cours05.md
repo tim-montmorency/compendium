@@ -46,11 +46,11 @@
   
 ## Devoir
 
-Faire les 3 [le devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) 
+Faire les 3 devoirs [🛠️ andy, poisson et crane]{ .md-button } (https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) 
  
 
 
-Faire le devoir de vecteurs pour la semaine prochaine  <br>   
+Faire le devoir de vecteur   
 [🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
 Déposer le tout via Devoir
 
