@@ -37,5 +37,6 @@ Télécharger et ouvrer le fichier suivant:
 
 ## Sauvegarde du travail :
 
-- [ ] Sauvegarder le fichier final au format **.psd** pour conserver les calques et permettre l'évaluation. 
+- [ ] Sauvegarder le fichier final au format **.psd** pour conserver les calques et permettre l'évaluation.
+- [ ] Déposer le tout sur Teams dans Devoir.
 
