@@ -58,5 +58,5 @@ La page de résultat s'attend à recevoir les informations suivantes: `credit-ca
 
 ## Notes de cours
 
-![icon (1)](https://github.com/user-attachments/assets/afe398fa-a062-42e6-89b1-f49e17412a5f)<br>Formulaire<br> [Formulaire](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/div-span.html)
+![icon (1)](https://github.com/user-attachments/assets/afe398fa-a062-42e6-89b1-f49e17412a5f)<br>Formulaire<br> [Formulaire](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire.html)
 
