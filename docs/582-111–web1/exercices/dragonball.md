@@ -7,7 +7,10 @@ Aperçu du résultat 👇
 
 ## Matériel
 
-[Pen de départ](https://codepen.io/pen?template=gOZXbXX)
+!!! note
+
+    [Pen de départ](https://codepen.io/pen?template=gOZXbXX)
+
 !!! warning
 
     Vous n’avez qu’à écrire du HTML (nul besoin d’ajouter du JavaScript ou de modifier le CSS).
