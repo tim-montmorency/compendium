@@ -72,3 +72,20 @@ Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessai
 `value` indique la valeur associée au `<select>`. Ainsi lorsque le formulaire est soumis, la valeur associée au `name` est celle de l'option sélectionnée.
 `selected` permet de spécifier à l'aide d'un booléen **(true/false)** si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
 `disabled` permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.
+
+
+
+## Textarea
+
+Similaire au champ texte de base, `<textarea>` permet de définir une zone de texte sur plusieurs lignes, permettant ainsi à l'usager d'inscrire un contenu plus long. Au besoin, cette boite de texte peut être redimensionée grâce à sa poignée dans le coin inférieur droit.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Textarea" src="https://codepen.io/tim-momo/embed/qByeLZQ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/qByeLZQ">
+  Textarea</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Attributs de textarea
+`cols` définit la largeur de base du textarea.
+`rows` définit la hauteur de base du textarea.
+Cette balise accepte aussi les mêmes attributs qu'un champ texte régulier, tel que: `readonly`, `placeholder`, `required`, `minlength`, `maxlength`, etc.
