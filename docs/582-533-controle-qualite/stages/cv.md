@@ -28,7 +28,8 @@ Voici quelques logiciels pouvant être utilisés pour le CV:
 - Figma
 - Canva
 - Word
-- <https://www.hellowork.com/fr-fr/outil/cv.html> 
+- <https://www.hellowork.com/fr-fr/outil/cv.html>
+- Doit pouvoir être imprimé au format lettre 8 1/2 x 11.
 
 ## Exemples de CV
 [🔍 Carolyn Stransky](https://carolstran.github.io/cv/){ .md-button }      
