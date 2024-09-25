@@ -45,7 +45,8 @@ Voici quelques logiciels pouvant être utilisés pour la lettre:
 - Figma
 - Canva
 - Word
-
+- Doit pouvoir être imprimé au format lettre 8 1/2 x 11.
+- 
 **Rappel: Gardez le tout simple, une lettre word suffit! On ne veut pas pleins de couleurs ou de fioritures.**
 
 ## Exemples de lettre
