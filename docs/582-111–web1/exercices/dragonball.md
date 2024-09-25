@@ -4,6 +4,7 @@ Pour cet exercice, nous allons modifier l’action performée par Goku, le perso
 Aperçu du résultat 👇
 
 ![video](https://github.com/user-attachments/assets/2ad40369-24e2-4ec8-939f-015ad3a092b6){ style="display: block; margin: 0 auto" }
+<small>Exercice créé par : Simon Arnold</small>
 
 ## Matériel
 
