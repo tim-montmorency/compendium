@@ -1,2 +1,6 @@
 # 15 octobre
-Pas de cours. Journée pédagogique.
+Sortie au café numérique
+
+Heures
+Gr 1: 
+Gr 2: 
