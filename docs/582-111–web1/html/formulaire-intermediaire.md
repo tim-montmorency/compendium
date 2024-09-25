@@ -22,7 +22,7 @@ Par exemple, si des options en extra sont offertes sur une pizza 🍕
 
 !!! warning
 
-    Contrairement aux autres <input>, les boîtes à cocher ne sont incluses dans les soumissions du formulaire uniquement si celles-ci sont cochées ✅.
+    Contrairement aux autres `<input>`, les boîtes à cocher ne sont incluses dans les soumissions du formulaire uniquement si celles-ci sont cochées ✅.
 
 
 ## Radio
