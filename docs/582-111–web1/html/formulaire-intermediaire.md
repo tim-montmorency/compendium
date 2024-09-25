@@ -80,13 +80,13 @@ Par exemple, pour choisir une plage horaire de livraison, il n'est pas nécessai
 </iframe>
 
 ### Attributs de select
-`name` nom de référence lorsque le formulaire est soumis.
-`multiple` permet la sélection de plusieurs options.
-`disabled` permet d'afficher en lecture seule le <select>.
+- `name` nom de référence lorsque le formulaire est soumis.
+- `multiple` permet la sélection de plusieurs options.
+- `disabled` permet d'afficher en lecture seule le <select>.
 ### Attributs d'option
-`value` indique la valeur associée au `<select>`. Ainsi lorsque le formulaire est soumis, la valeur associée au `name` est celle de l'option sélectionnée.
-`selected` permet de spécifier à l'aide d'un booléen **(true/false)** si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
-`disabled` permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.
+- `value` indique la valeur associée au `<select>`. Ainsi lorsque le formulaire est soumis, la valeur associée au `name` est celle de l'option sélectionnée.
+- `selected` permet de spécifier à l'aide d'un booléen **(true/false)** si l'option devrait être sélectionnée. Si aucune valeur n'est attribuée, la simple présence de l'attribut suffit à sélectionner l'élément.
+- `disabled` permet d'afficher en lecture seule une option en particulier. Par exemple, la page horaire 15h dans l'exemple précédent est visible, mais n'est pas sélectionnable.
 
 ## Exercices
 
