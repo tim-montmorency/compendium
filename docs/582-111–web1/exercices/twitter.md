@@ -5,7 +5,7 @@ Aperçu du résultat 👇
 
 
 ![video](https://github.com/user-attachments/assets/eeb2e2fc-f7b8-4825-9b92-77a06f382524)
-<small>Exercice créé par : Simon Arnold    https://smnarnold.com/ {style="text-align:center;"}</small>
+<small>Exercice créé par : Simon Arnold</small>
 
 
 ## Matériel
