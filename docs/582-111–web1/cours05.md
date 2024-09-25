@@ -1,11 +1,11 @@
-# Cours 4
+# Cours 5
 
 ## Arborescence exercice 3
 
 ![thumb](https://github.com/user-attachments/assets/1d0921c0-3bc8-4749-9c37-e006b1ddca43)
 
 
-[Créer l'arborescence du site web dela Tohu](https://tim-montmorency.com/compendium/582-111–web1/exercices/arborescence_reproduction_ex3.html)
+[Créer l'arborescence du site web de la Tohu](https://tim-montmorency.com/compendium/582-111–web1/exercices/arborescence_reproduction_ex3.html)
 <br>
 <br>
 ## Maquette filaire
