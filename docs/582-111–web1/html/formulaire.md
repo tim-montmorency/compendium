@@ -138,3 +138,4 @@ L'attribut `value` définit le texte à l'intérieur du bouton généré.
 </div>
 
 
+<small>Crédits : Simon Arnold</small>
