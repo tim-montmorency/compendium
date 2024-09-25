@@ -95,7 +95,11 @@ Par exemple, les deux méthodes suivantes de définition de libellé sont valide
 ## Form
 
 **La balise `<form>` regroupe tous les éléments d'un formulaire.**
-
+<iframe height="300" style="width: 100%;" scrolling="no" title="Form" src="https://codepen.io/tim-momo/embed/GRBaoqW?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/GRBaoqW">
+  Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 #### Attributs de form
 1. `action` permets de spécifier l'url où les informations du formulaire doivent être soumises.
@@ -114,9 +118,9 @@ Par exemple, les deux méthodes suivantes de définition de libellé sont valide
 
 **Génère un bouton permettant de soumettre un formulaire.**
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Label" src="https://codepen.io/tim-momo/embed/BaPejjd?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/BaPejjd">
-  Label</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<iframe height="300" style="width: 100%;" scrolling="no" title="Input Submit" src="https://codepen.io/tim-momo/embed/BaPeLpm?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/BaPeLpm">
+  Input Submit</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
