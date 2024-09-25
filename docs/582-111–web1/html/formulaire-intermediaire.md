@@ -119,3 +119,6 @@ Similaire au champ texte de base, `<textarea>` permet de définir une zone de te
 - `cols` définit la largeur de base du textarea.
 - `rows` définit la hauteur de base du textarea.
 - Cette balise accepte aussi les mêmes attributs qu'un champ texte régulier, tel que: `readonly`, `placeholder`, `required`, `minlength`, `maxlength`, etc.
+
+
+<small>Crédits : Simon Arnold</small>
