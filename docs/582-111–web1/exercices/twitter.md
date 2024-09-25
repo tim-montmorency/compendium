@@ -5,7 +5,7 @@ Aperçu du résultat 👇
 
 
 ![video](https://github.com/user-attachments/assets/eeb2e2fc-f7b8-4825-9b92-77a06f382524)
-###### Exercice créé par : Simon Arnold    https://smnarnold.com/ 
+
 
 
 ## Matériel
@@ -43,3 +43,6 @@ https://tim-montmorency.com/timdoc/582-215MO/html/formulaire-intermediaire/exerc
 ![icon (1)](https://github.com/user-attachments/assets/31abb701-aee0-4d99-a87b-a80292358920)<br> Formulaire  <br> [Formulaire ](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire.html)
 
 ![icon (2)](https://github.com/user-attachments/assets/f7167ff2-c80e-4594-a297-7c394aeb7b0e)<br> Formulaire intermédiaire <br> [Formulaire intermédiaire](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire-intermediaire.html)
+
+
+###### Exercice créé par : Simon Arnold    https://smnarnold.com/ {style="display:block; margin:0; auto"}
