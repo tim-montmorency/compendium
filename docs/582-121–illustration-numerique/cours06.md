@@ -35,12 +35,11 @@
 
 
 ## Devoir
-🛠️ le bauhaus{ .md-button }
-🛠️ l'oiseau{ .md-button }
-🛠️ les poignées{ .md-button }
-🛠️ la poignée{ .md-button }
-🛠️ les sinus{ .md-button }
-🛠️ l'oiseau{ .md-button }
+🛠️ le bauhaus{ .md-button } <br>
+🛠️ l'oiseau{ .md-button } <br>
+🛠️ la poignée{ .md-button } <br>
+🛠️ les sinus{ .md-button } <br>
+🛠️ l'oiseau{ .md-button } <br>
 
 
 
