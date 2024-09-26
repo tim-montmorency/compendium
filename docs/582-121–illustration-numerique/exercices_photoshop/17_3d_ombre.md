@@ -11,7 +11,7 @@ Télécharger et installer la typographie suivante:
 
 [📁 Document de départ_01](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgiqlSbmKVdKnk12Tjq_5NUBf0EQZLQLri7i2ZJbnZJ7XQ?e=0AM8Xe){ .md-button }   <br>   
 
-Télécharger et ouvrer le document suivant : 
+Télécharger et ouvrer le document suivant il vous servira de guide : 
 
 [📁 Document de départ_02](../assets/image/17_3d_ombre_model){ .md-button }   <br>   
 
