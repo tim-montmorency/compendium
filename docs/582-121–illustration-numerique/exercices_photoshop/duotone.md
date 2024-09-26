@@ -2,7 +2,7 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-headher{display:none;}</style>
 
-Le but de cet exercice est de créer une image duone
+Le but de cet exercice est de créer une image duotone
 ![](../assets/image/17_femme_duotone.png)
 ***
 
