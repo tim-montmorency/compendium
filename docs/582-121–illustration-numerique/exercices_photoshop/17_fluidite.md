@@ -2,7 +2,7 @@
 <style>.md-headher{display:none;}</style>
 
 Le but de cet exercice est de jouer avec l'outil Fluidité dans Photoshop en sculptant les traits du visage, modifiant les proportions du corps, transformant le paysage en arrière-plan, exagérant ou réduisant les vêtements, ou en créant des distorsions artistiques. Cela te permettra d'explorer des ajustements subtils et créatifs tout en développant ta maîtrise technique et ton sens artistique.
-![](../assets/image/17_femme_dore.png)
+![](../assets/image/17_femme_fluidite.png)
 ***
 
 ## Matériel
