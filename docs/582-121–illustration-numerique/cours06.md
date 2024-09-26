@@ -36,11 +36,10 @@
 
 ## Devoir
 
-
+ [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }  <br> 
  [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }  <br> 
  [🛠️ l'oiseau](./devoirs_photoshop/vecteur_courbe.md){ .md-button }  <br> 
  [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }  <br> 
-
 
 
 
