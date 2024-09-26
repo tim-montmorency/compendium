@@ -317,7 +317,7 @@ this.load.image("imageDuTileset", "./destination/de/votre/image.png");
 const maCarte = this.make.tilemap({ key: "clefDuTilemap" });
 
 // Tileset
-const tileset = maCarte.addTilesetImage("nomDuTilesetDansTiles", "imageDuTileset");
+const tileset = maCarte.addTilesetImage("nomDuTilesetDansTiled", "imageDuTileset");
 
 // Calques
 const bgLayer = maCarte.createLayer("nomDuCalque1", [tileset], 0, 0);
