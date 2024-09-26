@@ -8,5 +8,5 @@
 
 **Heures**    
 
-Gr 1: 
-Gr 2: 
+Gr 1 (PM): 12h30 à 14h    
+Gr 2 (AM): 11h à 12h30
