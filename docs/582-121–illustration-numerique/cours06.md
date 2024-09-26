@@ -35,12 +35,11 @@
 
 
 ## Devoir
-🛠️ le bauhaus{ .md-button } <br>
-🛠️ l'oiseau{ .md-button } <br>
-🛠️ la poignée{ .md-button } <br>
-🛠️ les sinus{ .md-button } <br>
-🛠️ l'oiseau{ .md-button } <br>
 
+
+ [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }  <br> 
+ [🛠️ l'oiseau](./devoirs_photoshop/vecteur_courbe.md){ .md-button }  <br> 
+ [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }  <br> 
 
 
 
