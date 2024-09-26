@@ -11,45 +11,65 @@ Télécharger et installer la typographie suivante:
 
 [📁 Document de départ_01](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgiqlSbmKVdKnk12Tjq_5NUBf0EQZLQLri7i2ZJbnZJ7XQ?e=0AM8Xe){ .md-button }   <br>   
 
-Télécharger et ouvrer le document suivant il vous servira de guide : 
+Télécharger et ouvrer les documents suivants ils vous serviront de guide : 
 
 [📁 Document de départ_02](../assets/image/17_3d_ombre_model){ .md-button }   <br>   
+[📁 Document de départ_02](../assets/image/17_ombre_info){ .md-button }   <br>   
+
 
 
 ## Étapes
 
-## Exploration des outils dans Fluidité
-
-- [ ] **Utiliser l'outil Déformation avancée (W)** : commence par utiliser cet outil pour déplacer ou étirer les pixels dans l'image. Explore comment il permet de sculpter des formes et ajuster des parties spécifiques du visage ou du corps.
-  - **Exemple** : Tu peux agrandir les yeux, affiner la mâchoire ou même ajuster subtilement l'angle des sourcils pour changer l'expression faciale.
-
-- [ ] **Explorer l'outil Tourbillon (C)** : cet outil permet de faire tourner les pixels autour d’un point donné. Expérimente en ajoutant des effets tourbillonnants aux cheveux, aux vêtements ou à l'arrière-plan.
-  - **Exemple** : Utilise cet outil pour créer des effets surréalistes dans les nuages ou ajouter un mouvement fluide aux cheveux.
-
-- [ ] **Essayer l'outil Repli (S)** : cet outil permet de contracter ou d’affiner une zone spécifique. Essaye de l'utiliser pour affiner des détails du visage ou du corps.
-  - **Exemple** : Tu pourrais affiner le cou ou la taille pour ajuster les proportions ou pour accentuer des éléments du visage comme le nez ou les pommettes.
-
-- [ ] **Utiliser l'outil Dilatation (B)** : cet outil permet d'élargir ou d'agrandir des zones spécifiques. Expérimente sur des parties du visage comme les lèvres ou les yeux, ou même sur des éléments de l'arrière-plan pour jouer avec les proportions.
-  - **Exemple** : Agrandis les yeux pour un effet exagéré ou donne plus de volume aux cheveux ou aux vêtements pour créer une silhouette plus marquée.
-
-- [ ] **Appliquer l'outil Pli (F)** : cet outil permet de tirer les pixels vers l’intérieur. Il est utile pour réduire des éléments visuels, comme affiner une zone ou resserrer certains éléments.
-  - **Exemple** : Rétrécis les épaules ou affine certaines parties des vêtements pour leur donner une apparence plus ajustée.
-
-- [ ] **Expérimenter avec l'outil Refroidissement (A)** : cet outil permet de restaurer les pixels déplacés dans leur position d’origine. Utilise-le pour annuler partiellement les modifications sur des zones où tu veux un rendu plus naturel après des ajustements plus extrêmes.
-  - **Exemple** : Après avoir exagéré les traits du visage, tu peux utiliser cet outil pour adoucir subtilement les changements et retrouver un effet plus équilibré.
-
-- [ ] **Utiliser le masque Fluidité (M)** : cet outil te permet de masquer certaines zones de l'image que tu ne veux pas déformer. Protège les zones que tu veux laisser intactes pendant que tu travailles sur d'autres parties de l'image.
-  - **Exemple** : Si tu veux travailler uniquement sur le visage sans affecter l'arrière-plan ou le corps, applique un masque pour protéger ces zones avant de commencer.
-
-- [ ] **Jouer avec la densité et la pression du pinceau** : dans le panneau Fluidité, ajuste la densité et la pression du pinceau pour obtenir des déformations plus douces ou plus fortes, selon l'effet que tu souhaites atteindre.
-  - **Exemple** : Une pression plus élevée créera des changements plus radicaux, tandis qu'une pression plus faible te permettra de faire des ajustements subtils pour un rendu plus naturel.
-
-- [ ] **Expérimenter les différents masques et filtres** : utilise les masques pour cibler des zones spécifiques et joue avec les filtres pour affiner ou adoucir certaines parties de l'image sans tout affecter d'un coup.
-  - **Exemple** : Protéger les yeux pendant que tu modifies la forme du visage ou les vêtements te permet d'apporter des ajustements plus précis à une zone donnée.
+- [ ] **Ouvrir un nouveau document** dans Photoshop en allant dans **Fichier > Nouveau** et créer un document avec les dimensions souhaitées.
+- [ ] **Créer un arrière-plan avec la couleur #AFB8A7** :
+  - Dans la palette des calques, clique sur l'icône **Créer un calque de remplissage ou de réglage** (cercle moitié blanc/moitié noir en bas).
+  - Sélectionne **Couleur unie** dans le menu et choisis la couleur **#AFB8A7** pour l'arrière-plan.
+  - Ce calque de fond doit être positionné en bas de la pile des calques.
+- [ ] **Créer une ligne noire pour aligner les mots** :
+  - Sélectionner l'outil **Ligne (U)** dans la barre d'outils.
+  - Dessiner une ligne horizontale noire (couleur **#000000**) de quelques pixels d'épaisseur à l'endroit où tu veux aligner les mots.
+  - Cette ligne servira de guide pour bien aligner les deux instances de texte.
+- [ ] **Ajouter du texte** :
+  - Sélectionner l'outil Texte (**T**) dans la barre d'outils.
+  - Choisir la typographie **Franklin Gothic Heavy** dans la barre d'options en haut.
+  - Régler la taille de la typographie à **490 points**.
+  - Taper le mot "Arts" et le positionner en l'alignant soigneusement avec la ligne noire.
+- [ ] **Décaler les typographies** :
+  - Créer une deuxième instance du texte et la **décaler légèrement** par rapport à la première tout en la gardant alignée avec la ligne noire.
+- [ ] **Tracer l'espace entre les typographies avec l'outil Plume** :
+  - Sélectionner l'outil **Plume (P)** et tracer une forme qui remplit l'espace entre les deux typographies décalées.
+  - Assigner une **couleur de remplissage #ED6161** à cette forme.
+  - Ajouter un **outline de 1 px** en choisissant une couleur de contour dans les options de forme.
+- [ ] **Cacher la ligne créée au début** :
+  - Dans la palette des calques, localiser le calque contenant la ligne noire.
+  - Cliquer sur l'**icône d'œil** à gauche du calque pour masquer la ligne.
+- [ ] **Changer l'arrière-plan en noir** :
+  - Une fois que les mots sont bien positionnés, retourne dans la palette des calques.
+  - Clique sur le calque de remplissage de couleur unie existant (le calque d'arrière-plan #AFB8A7).
+  - Double-clique sur l'icône du calque et change la couleur en **#000000** (noir).
+- [ ] **Fusionner tous les calques du mot "Arts"** :
+  - Sélectionner tous les calques contenant les instances de texte "Arts" et le tracé de l'outil Plume.
+  - Fais un clic droit sur les calques sélectionnés et choisis **Fusionner les calques** pour regrouper tous les éléments du mot "Arts" en un seul calque.
+- [ ] **Créer une ombre portée** :
+  - Fais un **clic droit** sur le calque fusionné du mot "Arts" et choisis **Options de fusion**.
+  - Sélectionner **Ombre portée** et entrer les paramètres suivants :
+    - **Mode de fusion** : Densité linéaire (Ajout)
+    - **Couleur** : #ED6161
+    - **Opacité** : 100%
+    - **Angle** : 60°
+    - **Distance** : 0
+    - **Grossi** : 0
+    - **Taille** : 60
+    - **Contour** : Ligne droite
+    - **Bruit** : 0
+- [ ] **Vérifier la mise en page** :
+  - Ajuster les éléments visuels pour s'assurer que les typographies décalées et les tracés avec l'outil Plume sont bien harmonisés.
+- [ ] **Enregistrer ton fichier** avec le texte fusionné, l'ombre portée et l'arrière-plan noir appliqués.
 
 
 
 
 ## Tutoriel 📚
 
-[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtFXe8zaC1NLngzBrKiGCDsBhNBSJYcn4aX0xHeCSZkbVg?e=IE8E8m){ .md-button }   <br>
+[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVfPGz2cag1LvgxN1gCMr3gBiKFb4UdcWI4HJl-vB2T9mg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E68oAM){ .md-button }   <br>
+
