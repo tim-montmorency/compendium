@@ -19,35 +19,55 @@ Télécharger et ouvrer le fichier suivant:
 - [ ] **Ouvrir les deux fichiers** dans Photoshop :
   - Va dans **Fichier > Ouvrir** et sélectionne les fichiers **femme dorée** et **poisson suspendu** pour les ouvrir dans deux onglets séparés.
 - [ ] **Détourer le poisson suspendu avec la sélection d'objet** :
-  - Dans l'onglet du poisson suspendu, sélectionne l'outil **Sélection d'objet (W)** dans la barre d'outils.
-  - Clique et fais glisser sur le poisson pour le sélectionner automatiquement.
-  - Si nécessaire, ajuste la sélection avec les outils **Lasso** ou **Sélection rapide** pour un contour plus précis.
+  - Dans l'onglet du poisson suspendu, sélectionne l'outil **Sélection d'objet (W)**.
+  - Clique et fais glisser sur le poisson pour le sélectionner.
 - [ ] **Copier la sélection du poisson** :
   - Une fois le poisson sélectionné, appuie sur **Ctrl + C** / **Cmd + C** pour copier la sélection.
-- [ ] **Coller le poisson dans le projet de la femme dorée** :
-  - Va dans l'onglet de l'image de la femme dorée.
-  - Appuie sur **Ctrl + V** / **Cmd + V** pour coller le poisson dans l'image. Il apparaîtra sur un nouveau calque.
+- [ ] **Coller le poisson dans l'image de la femme dorée** :
+  - Va dans l'onglet de l'image de la femme dorée et colle le poisson (**Ctrl + V** / **Cmd + V**). Il apparaîtra sur un nouveau calque.
+
+### Déplacer les pupilles et le poisson
+
+#### Déplacer les pupilles
+- [ ] **Sélectionner les pupilles** :
+  - Utilise l'outil **Lasso (L)** pour faire une sélection autour des pupilles des yeux de la femme dorée.
+- [ ] **Utiliser l'option Fluidité** :
+  - Va dans **Filtre > Fluidité** (ou appuie sur **Shift + Ctrl + X** / **Shift + Cmd + X** sur Mac).
+  - Utilise l'outil **Déformation avancée (W)** dans la fenêtre Fluidité pour **déplacer les pupilles** légèrement dans la direction du poisson.
+  - Clique sur **OK** pour valider.
+
+#### Animer le déplacement des pupilles
 - [ ] **Ouvrir la fenêtre d'animation** :
   - Va dans **Fenêtre > Montage**, puis sélectionne **Créer une animation d'image**.
-  - Photoshop va créer une timeline simple où tu pourras ajouter plusieurs images fixes pour l'animation.
-- [ ] **Animer l'image** :
-  - Dans la timeline, clique sur la première image pour la sélectionner. Fais un **duplicate frame** en cliquant sur l'icône du double carré en bas de la timeline pour ajouter une deuxième image.
-  - Dans cette deuxième image, **déplace le poisson** vers un nouvel emplacement dans l'image de la femme dorée en utilisant l'outil **Déplacement (V)**.
-  - **Répète cette étape** plusieurs fois, en créant de nouvelles images (duplicate frames) et en ajustant la position du poisson dans chaque image pour simuler un mouvement.
+- [ ] **Créer des images clés** :
+  - Sur la timeline, crée une première image avec les pupilles dans leur position initiale.
+  - Duplique cette image clé pour en créer une deuxième.
+  - **Déplacer les pupilles** : sur chaque nouvelle image clé, ajuste la position des pupilles avec **Fluidité** pour qu'elles suivent le déplacement du poisson.
+  - Continue à ajuster la position des pupilles au fur et à mesure du déplacement du poisson.
+
+#### Déplacer le poisson
+- [ ] **Créer des images clés pour animer le poisson** :
+  - Sur la timeline, crée une première image avec le poisson dans sa position initiale.
+  - Duplique cette image clé pour en créer une deuxième.
+  - **Déplacer le poisson** : sur chaque nouvelle image clé, utilise l'outil **Déplacement (V)** pour faire avancer le poisson dans l'image.
+  - Répète l'opération à chaque nouvelle image clé pour créer un mouvement fluide.
+
+### Prévisualiser et ajuster
+
 - [ ] **Ajuster la durée de chaque image** :
-  - Sous chaque image dans la timeline, tu peux définir une durée pour le temps d'affichage de cette image. Choisis un temps qui permet un mouvement fluide, par exemple 0,1 seconde.
+  - Sous chaque image dans la timeline, tu peux définir une durée pour le temps d'affichage. Choisis une durée comme 0,1 seconde pour un mouvement fluide.
 - [ ] **Prévisualiser l'animation** :
-  - Utilise le bouton **Lecture** (Play) pour visualiser ton animation en temps réel et t'assurer que le mouvement du poisson est fluide.
-  - Si nécessaire, ajuste les positions du poisson dans certaines images pour corriger le mouvement.
+  - Utilise le bouton **Lecture** (Play) pour visualiser ton animation et vérifier que les mouvements des pupilles et du poisson sont bien synchronisés.
+
+### Exportation
 
 - [ ] **Exporter l'animation en vidéo H.264 - 1920x1080 à 24 fps** :
-  - Une fois satisfait de l'animation, va dans **Fichier > Exporter > Rendu vidéo**.
-  - Dans la fenêtre de rendu vidéo, sélectionne **Adobe Media Encoder** comme moteur de rendu.
-  - Sous **Format**, choisis **H.264** pour générer une vidéo en haute qualité.
-  - Sous **Taille d'image**, sélectionne **1920 x 1080** pour une résolution Full HD.
-  - Dans la section **Image par seconde**, choisis **24 fps** pour assurer un rendu fluide.
-  - Vérifie que le **nom du fichier** et le **dossier de destination** sont corrects.
+  - Va dans **Fichier > Exporter > Rendu vidéo**.
+  - Choisis **Adobe Media Encoder** comme moteur de rendu.
+  - Sous **Format**, sélectionne **H.264** et sous **Taille d'image**, choisis **1920x1080**.
+  - Sous **Image par seconde**, sélectionne **24 fps**.
   - Clique sur **Rendu** pour exporter la vidéo.
+
 
 ### Conseils pour les étudiants :
 - **Planifier les mouvements** : Réfléchis à la trajectoire du poisson pour créer une animation fluide et harmonieuse.
