@@ -2,7 +2,7 @@
 <style>.md-headher{display:none;}</style>
 
 Le but de cet exercice est créer une typographie en 3d et d'ajouter une ombre.
-![](../assets/image/17_3d_ombre_final)
+![](../assets/image/17_3d_ombre_final.png)
 ***
 
 ## Matériel
@@ -13,8 +13,8 @@ Télécharger et installer la typographie suivante:
 
 Télécharger et ouvrer les documents suivants ils vous serviront de guide : 
 
-[📁 Document de départ_02](../assets/image/17_3d_ombre_model){ .md-button }   <br>   
-[📁 Document de départ_02](../assets/image/17_ombre_info){ .md-button }   <br>   
+[📁 Document de départ_02](../assets/image/17_3d_ombre_model.png){ .md-button }   <br>   
+[📁 Document de départ_02](../assets/image/17_ombre_info.png){ .md-button }   <br>   
 
 
 
