@@ -31,7 +31,17 @@
 ### Notions : Animation
 *  [▶️ Animation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EX3yLB0keWpGo4crMYC7iAsBOyB-yeutvLAAA_ovHFllqQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3oXPB3
 )   <br>   
-  [🛠️ Animation](./exercices_photoshop/18_animation.md){ .md-button }  <br>  
+  [🛠️ Animation](./exercices_photoshop/18_animation.md){ .md-button }  <br>
+
+
+## Devoir
+🛠️ le bauhaus{ .md-button }
+🛠️ l'oiseau{ .md-button }
+🛠️ les poignées{ .md-button }
+🛠️ la poignée{ .md-button }
+🛠️ les sinus{ .md-button }
+🛠️ l'oiseau{ .md-button }
+
 
 
 
