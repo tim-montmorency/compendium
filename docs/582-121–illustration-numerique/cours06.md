@@ -1,6 +1,5 @@
 # Cours 6
 
-[Stop]
 
 ### Notions : Outils de fluidité
 * [▶️ Modifier/corps](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfmL5aZ-UGtDpPr8aEZY3QABKlJMRD7Fp7o-eDjYK4aBGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8VZUx4)   <br>   
