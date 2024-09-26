@@ -57,82 +57,82 @@ Avant de créer l'arborescence, il est important de planifier le contenu du site
 
 ### Niveau 1 (Racine)
 
-- Accueil
-- Destinations
-- Conseils de voyage
-- À propos
-- Contact
+* Accueil
+* Destinations
+* Conseils de voyage
+* À propos
+* Contact
 
 ---
 
 ### Niveau 2 (Sous-sections)
 
-**Destinations**
+* **Destinations**
 
-- Europe
-- Asie
-- Amérique du Nord
-- Amérique du Sud
-- Afrique
-- Océanie
+  * Europe
+  * Asie
+  * Amérique du Nord
+  * Amérique du Sud
+  * Afrique
+  * Océanie
 
   <br>
 
-**Conseils de voyage**
+* **Conseils de voyage**
 
-- Préparation avant le départ
-- Hébergement
-- Transport
-- Alimentation et restaurants
-- Activités et loisirs
+  * Préparation avant le départ
+  * Hébergement
+  * Transport
+  * Alimentation et restaurants
+  * Activités et loisirs
 
 ---
 
-### Niveau 3 (Pages individuelles)
+* ### Niveau 3 (Pages individuelles)
 
-**Destination**
+*  **Destination**
 
-- Europe
-    - France
-    - Espagne
-    - Italie
-    - Allemagne
-    - Royaume-Uni
+  * Europe
+  * France
+  * Espagne
+  * Italie
+  * Allemagne
+  * Royaume-Uni
 
   <br>
 
-**Conseils de voyage**
+* **Conseils de voyage**
 
-- Préparation avant le départ
-    - Liste de contrôle pour les voyages
-    - Conseils pour l'emballage
-    - Documents de voyage importants
+  * Préparation avant le départ
+    * Liste de contrôle pour les voyages
+    * Conseils pour l'emballage
+    * Documents de voyage importants
 
 ---
 
 ### Niveau 4
 
-**Destination**
+* **Destination**
 
-- Europe
-    - France
-        - Paris
-        - Nice
-        - Lyon
-        - Marseille
-    - Espagne
-    - Italie
-    - Allemagne
-    - Royaume-Uni
+  * Europe
+    * France
+      * Paris
+      * Nice
+      * Lyon
+      * Marseille
+    * Espagne
+    * Italie
+    * Allemagne
+    * Royaume-Uni
 
   <br>
 
 **Conseils de voyage**
 
-- Activités et loisirs
-    - Randonnée en montagne
-    - Plongée sous-marine
-    - Excursions culturelles
+* **Activités et loisirs**
+  * Randonnée en montagne
+  * Plongée sous-marine
+  * Excursions culturelles
 
 <br>
 <br>
