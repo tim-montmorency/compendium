@@ -8,9 +8,6 @@
   [🛠️ Fusionner les calques avec un mode de fusion](./exercices_photoshop/12_Mode_de_fusion.md){ .md-button }  <br>        
   [🛠️ Peinturer avec le pot de peinture](./exercices_photoshop/12_Peinturer_avec_le_pot_de_peinture.md){ .md-button }  <br>   
 
-### Notions : Décalage de canaux de couleurs
-*  [▶️ Décalage de couleurs](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EU9puFR9Mx9Ok00iZupYKmQBL3kxm21EVk120mzQcGcT-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qb8nX0)   <br>
-
 
 ### Notions : Décalage des canaux de couleurs : option de fusion
 *  [▶️ Décalage de couleurs](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EU9puFR9Mx9Ok00iZupYKmQBL3kxm21EVk120mzQcGcT-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qb8nX0)   <br>
