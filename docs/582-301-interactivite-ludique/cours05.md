@@ -331,6 +331,8 @@ collisionLayer.setCollisionByProperty({ collision: true });
 
 ### Demo
 
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/jfcartier_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0ba0efc8-07b1-4a6a-9762-9a044dfac1ce&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="tiled.mp4"></iframe>
+
 ## Exercice
 
 <div class="grid grid-1-2" markdown>
