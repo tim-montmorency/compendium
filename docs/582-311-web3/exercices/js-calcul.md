@@ -19,7 +19,7 @@ En JavaScript, calculez la somme, le plus grand et le plus petit nombre à parti
 
 ## Instructions
 
-- [ ] Effectuer un fork du [Codepen de départ](https://codepen.io/tim-momo/pen/YzoMEoY??editors=1000)
+- [ ] Effectuer un fork du [Codepen de départ](https://codepen.io/tim-momo/pen/PoMqbzj)
 - [ ] Crée un `addEventListener()` pour l'événement « click » du bouton « Calculer »
 - [ ] Utilise `document.getElementById()` pour récupérer les valeurs des champs de saisie de chaque nombre
 - [ ] Convertis les valeurs récupérées en nombres entiers avec la méthode `parseInt()` de JavaScript
