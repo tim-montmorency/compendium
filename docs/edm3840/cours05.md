@@ -2,7 +2,7 @@
 
 <style>.md-footer{display:none;}</style>
 
-  ### Notions : outils de typographie
+### Notions : outils de typographie
 * [▶️ Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  <br>
 * [▶️ Installer une typographie](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQzM8QvWTJJLhD-wYPK36xoBrGtFJUZbNf34yYMH7mGDlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kVzkir)  <br>
 * [▶️ Formater du texte avec une typographie](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EfqcjTErJodNi95SkQ9M4zYBzuf8lBibcTAGRRhOvOZyUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wGyIG7)  <br>
