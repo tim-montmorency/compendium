@@ -2,17 +2,16 @@
 ## Le but de ce devoir est de reproduire une image avec l'outil plume
 <style>.md-headher{display:none;}</style>
 <style>.md-footer{display:none;}</style>
-![](../assets/image/devoir_elephant.png)
+![](../assets/image/devoir_dali.png)
 
 
 ## Matériel
 
 Télécharger et ouvrer le fichier suivant:
 
-[📁 Document de départ](../assets/image/devoir_elephant.png){ .md-button }   <br>
+[📁 Document de départ](../assets/image/devoir_dali.png){ .md-button }   <br>
 
 **Reproduire précisément l’image suivante en utilisant les techniques de création vectorielle enseignées. Suivez chaque étape avec attention pour respecter les consignes techniques.**
-
 
 ## Liste des consignes à suivre :
 
@@ -20,11 +19,16 @@ Télécharger et ouvrer le fichier suivant:
   - [ ] Les points d’ancrage doivent être utilisés uniquement pour tracer des courbes.
   - [ ] Ajuster les poignées pour des lignes fluides et précises.
   - [ ] Pour les lignes droites, utiliser des segments sans courbe.
-
-- [ ] **Outils autorisés :**
-  - [ ] **Interdiction** d’utiliser les formes automatiques (cercles, rectangles, etc.).
-  - [ ] Utiliser uniquement l'outil **Plume (Pen Tool)** pour tracer les formes.
-  - [ ] Utiliser uniquement le nombre nécessaire de points d'ancrage pour tracer les courbes et les angles droits, en évitant d'ajouter des points superflus.
+  - [ ] **Ne pas utiliser de formes prédéfinies.**
+  - [ ] **Détails spécifiques sur les points d’ancrage :**
+    - [ ] Pour la lèvre supérieure : 10 points d’ancrage.
+    - [ ] Pour la lèvre inférieure : 4 points d’ancrage.
+    - [ ] Pour le cercle entre les lèvres : 4 points d’ancrage.
+    - [ ] Pour la goutte : 2 points d’ancrage.
+    - [ ] Pour l’œil :
+      - [ ] 4 points d’ancrage pour le cercle le plus intérieur.
+      - [ ] 4 points d’ancrage pour le deuxième cercle.
+      - [ ] 4 points d’ancrage pour le contour de l’œil.
 
 - [ ] **Couleurs :**
   - [ ] Utiliser uniquement les couleurs présentes dans l’image fournie.
@@ -42,6 +46,9 @@ Télécharger et ouvrer le fichier suivant:
 
 - [ ] **Validation finale :**
   - [ ] Comparer votre travail à l’image de référence pour vérifier la correspondance des couleurs, des formes, et des détails.
+
+
+
 
 ## Sauvegarde du travail :
 
