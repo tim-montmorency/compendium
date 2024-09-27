@@ -6,7 +6,7 @@ Le but de cet exercice est d'importer un pinceau et de dessiner avec celui-ci.
 
 ## Matériel
 Téléchargez un pinceau .abr    
-[📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjTovTEwij5BtymW2Q1Gk9YBZGKkOx5sT8k0pYhJrxNNOg?e=0CzEnQ){ .md-button }   <br>
+[📁 Document de départ](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/Et1lgDg4bRBHuW6IFSjTui0BhygFkCKCIps3cOuucvNn-w?e=QisNIt){ .md-button }   <br>
 
 
 
