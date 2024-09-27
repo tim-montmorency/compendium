@@ -6,6 +6,4 @@ tags:
 
 [STOP]
 
-# Cours 7
-
-Examen 1
+# Examen 1

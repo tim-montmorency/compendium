@@ -532,6 +532,8 @@ extra:
   analytics:
     provider: google
     property: G-BFKT7FS4P2 # JF
+  include:
+    - robots.txt
 
 extra_css:
   - _/extra.css

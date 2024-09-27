@@ -8,6 +8,8 @@ tags:
 
 # Matrice d'images & états
 
+Finalement, ca me dérange les jeux en anglais. Je trouve que dans la majorité des cas, l'anglais n'est pas justifié, car l'image est trop simple.
+
 — Caméra
 — Zone morte (deadzone)
 
