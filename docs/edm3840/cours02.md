@@ -3,7 +3,7 @@
 <style>.md-footer{display:none;}</style>
 
 ## Plan de cours
-[📁 Plan de cours](https://uqam-my.sharepoint.com/:w:/g/personal/lavoie-pilote_francoise_uqam_ca/EbTC0HRxc-lJnhm2HplODg0BbRFM858IHUJCAPIXDK1XBA?e=ADlT9X){ .md-button }   <br>
+[📁 Plan de cours](https://uqam-my.sharepoint.com/:w:/g/personal/lavoie-pilote_francoise_uqam_ca/ESHNAKioUAdMlTC3Qr6S5fMBYlqt7JgrbHqx2OIZFSjiAQ?e=U2jKy4){ .md-button }   <br>
 
 
 ## Présentation du plan de cours et règles
