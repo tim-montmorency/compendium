@@ -17,7 +17,7 @@ Aperçu du résultat 👇
 Lorsque le formulaire est soumis, ses informations doivent-être envoyés en utilisant la méthode `get` à l'adresse suivante:
 
 ```html
-https://tim-montmorency.com/timdoc/582-215MO/html/formulaire/exercices/carte-de-credit/submit/
+https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/submit/carte-de-credit.html
 ```
 
 
