@@ -48,4 +48,4 @@ Télécharger et ouvrer les fichiers suivants:
 
 ## Tutoriel 📚
 
-[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtFXe8zaC1NLngzBrKiGCDsBhNBSJYcn4aX0xHeCSZkbVg?e=IE8E8m){ .md-button }   <br>
+[📖 Pour en savoir plus](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EmmeRkiSKgpBq2tWHMlgyhYBuash2fpZK9bxHCJQRcqs_w?e=uzgDzk){ .md-button }   <br>
