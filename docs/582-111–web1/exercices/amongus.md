@@ -7,6 +7,10 @@ Aperçu du résultat 👇
 
 ![formulaire-among-us](https://github.com/user-attachments/assets/8cb79668-f0fd-4836-8de8-2737a8b918cc)
 
+!!! note
+
+[Pen de départ](https://codepen.io/tim-momo/pen/oNKXyXN)
+
 ## Requis fonctionnels
 
 
@@ -26,8 +30,8 @@ Par défaut, l'option **"Aucun"** doit-être sélectionné.
 1. Ajoutez finalement un bouton avec la mention "Créer mon personnage" permettant de soumettre le formulaire et d'envoyer ses informations via une méthode get à l'adresse suivante:
 !!! tip
 
-        https://tim-montmorency.com/timdoc/582-215MO/html/formulaire-avance/exercices/among-us/submit/
+        https://tim-montmorency.com/compendium/582-111–web1/exercices/submit/amongus.html
 Vous devriez maintenant être capable de créer des personnages similaires à ceux-ci en soumettant votre formulaire:
 
-https://github.com/user-attachments/assets/58e9af6c-0b57-4811-ba4f-bef11fee0639
+![video](https://github.com/user-attachments/assets/58e9af6c-0b57-4811-ba4f-bef11fee0639)
 
