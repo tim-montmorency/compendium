@@ -10,6 +10,11 @@ Télécharger et ouvrer le fichier suivant:
 
 [📁 Document de départ](../assets/image/devoir_japanti.png){ .md-button }   <br>
 
+Télécharger et installer la typographie suivante : 
+[📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTE7xoawStBnC8GLD4wR2UBj9jqUkp97MKSAMwLR-hlXg?e=DQuPa4)  <br>
+
+
+
 **Reproduire précisément l’image suivante en utilisant les techniques de création vectorielle enseignées. Suivez chaque étape avec attention pour respecter les consignes techniques.**
 
 
