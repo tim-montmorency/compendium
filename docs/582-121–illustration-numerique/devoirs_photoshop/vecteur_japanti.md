@@ -13,22 +13,39 @@ Télécharger et ouvrer le fichier suivant:
 **Reproduire précisément l’image suivante en utilisant les techniques de création vectorielle enseignées. Suivez chaque étape avec attention pour respecter les consignes techniques.**
 
 
-## Liste des consignes à suivre :
+
+### Consignes :
 
 - [ ] **Utilisation des points d’ancrage :**
   - [ ] Les points d’ancrage doivent être utilisés uniquement pour tracer des courbes.
   - [ ] Ajuster les poignées pour des lignes fluides et précises.
   - [ ] Pour les lignes droites, utiliser des segments sans courbe.
+  - [ ] Utiliser au maximum **16 points d'ancrage** par forme.
 
 - [ ] **Outils autorisés :**
-  - [ ] **Interdiction** d’utiliser les formes automatiques (cercles, rectangles, etc.).
-  - [ ] Utiliser uniquement l'outil **Plume (Pen Tool)** pour tracer les formes.
+  - [ ] Utiliser les formes automatiques (cercles, rectangles, etc.) selon les besoins du projet.
+  - [ ] Utiliser uniquement l'outil **Plume (Pen Tool)** pour tracer les formes complexes.
   - [ ] Utiliser uniquement le nombre nécessaire de points d'ancrage pour tracer les courbes et les angles droits, en évitant d'ajouter des points superflus.
 
-- [ ] **Couleurs :**
-  - [ ] Utiliser uniquement les couleurs présentes dans l’image fournie.
-  - [ ] Utiliser l'outil **Pipette** pour échantillonner les couleurs précises.
-  - [ ] Appliquer les couleurs aux bonnes formes pour correspondre à l’image d’origine.
+- [ ] **Retracer les formes :**
+  - [ ] Retracer exactement les formes roses en suivant parfaitement le contour.
+  - [ ] Ajouter une ombre portée sur les formes en vecteur.
+
+- [ ] **Inscription du texte :**
+  - [ ] Inscrire le mot **"Japanti"**.
+  - [ ] **Police :** Innovative Bold
+  - [ ] **Taille :** 60 pt
+  - [ ] **Rotation :** -90 degrés
+
+- [ ] **Création d'un rectangle arrondi :**
+  - [ ] **Dimensions :** 
+    - [ ] Largeur (L) : 1536 px 
+    - [ ] Hauteur (H) : 972 px 
+    - [ ] **Coins arrondis** : ajuster le rayon selon le design souhaité.
+  - [ ] **Contour :** 20 px.
+  - [ ] **Position :** 
+    - [ ] X : 182 px 
+    - [ ] Y : 44 px 
 
 - [ ] **Organisation des calques :**
   - [ ] Chaque forme doit être sur un calque séparé.
@@ -41,6 +58,7 @@ Télécharger et ouvrer le fichier suivant:
 
 - [ ] **Validation finale :**
   - [ ] Comparer votre travail à l’image de référence pour vérifier la correspondance des couleurs, des formes, et des détails.
+
 
 ## Sauvegarde du travail :
 
