@@ -1,8 +1,6 @@
 #Formulaire - Among Us
 Pour cet exercice nous allons créer un formulaire permettant de générer un personnage du célèbre jeu Among Us.
 
-Aucun fichier de départ ne vous est fourni. Vous allez devoir créer votre propre fichier HTML.
-
 Aperçu du résultat 👇
 
 ![formulaire-among-us](https://github.com/user-attachments/assets/8cb79668-f0fd-4836-8de8-2737a8b918cc)
@@ -32,3 +30,10 @@ Vous devriez maintenant être capable de créer des personnages similaires à ce
 
 ![video](https://github.com/user-attachments/assets/58e9af6c-0b57-4811-ba4f-bef11fee0639)
 
+## Notes de cours
+
+![icon (1)](https://github.com/user-attachments/assets/31abb701-aee0-4d99-a87b-a80292358920)<br> Formulaire  <br> [Formulaire ](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire.html)
+
+![icon (2)](https://github.com/user-attachments/assets/f7167ff2-c80e-4594-a297-7c394aeb7b0e)<br> Formulaire intermédiaire <br> [Formulaire intermédiaire](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/formulaire-intermediaire.html)
+
+![icon (14)](https://github.com/user-attachments/assets/489fcdf8-fe57-413e-9809-0d30701186d8)<br> Formulaire avancé <br> [Formulaire avancé](https://tim-montmorency.com/compendium/582-111–web1/html/formulaire-avance.html)
