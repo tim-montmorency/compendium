@@ -152,7 +152,8 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
 - [ ] Ajustez le script de votre personnage pour qu'il apparaisse au même endroit à chaque fois que le jeu recommence OU ajustez le script pour que peu importe la position de votre personnage au début, la bonne zone est détectée, puis animée.
-- [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change. 
+- [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change.
+- [ ] Lorsqu'on appuie sur la touche esc. un menu apparaît et nous permet de fermer le jeu.
 
    
 
