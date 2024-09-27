@@ -173,5 +173,18 @@ Permet de choisir une couleur à l'aide d'un sélecteur de couleurs **(colors pi
 - `value` code de la couleur par défaut. Si cet attribut est omis, la couleur utilisée par défaut sera **(noir ⬛️).**
 - `disabled` permet d'afficher en lecture seule l'outil de sélection de couleur.
 
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="183" alt="Capture d’écran, le 2024-09-27 à 15 38 54" src="https://github.com/user-attachments/assets/39016596-2f63-4041-a0e2-0ef834c46894">
+
+
+
+  **Exercice Among Us**<br>
+  _Pour cet exercice nous allons créer un formulaire permettant de générer un personnage du célèbre jeu Among Us._<br>
+  [Exercice Among Us](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/amongus.html)
+</div>
+
 
 <small>Crédits : Simon Arnold</small>
