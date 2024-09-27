@@ -36,8 +36,7 @@
 
 ## Devoir
 
- [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }   <br>   
- [🛠️ l'oiseau](./devoirs_photoshop/vecteur_courbe.md){ .md-button }   <br>   
+ [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }   <br>     
  [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }   <br>  
  [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
  [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
