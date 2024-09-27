@@ -172,3 +172,6 @@ Permet de choisir une couleur à l'aide d'un sélecteur de couleurs **(colors pi
 - `name` nom de référence lorsque le formulaire est soumis.
 - `value` code de la couleur par défaut. Si cet attribut est omis, la couleur utilisée par défaut sera **(noir ⬛️).**
 - `disabled` permet d'afficher en lecture seule l'outil de sélection de couleur.
+
+
+Crédits : Simon Arnold
