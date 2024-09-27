@@ -19,7 +19,6 @@ Télécharger et ouvrer le fichier suivant:
   - [ ] Les points d’ancrage doivent être utilisés uniquement pour tracer des courbes.
   - [ ] Ajuster les poignées pour des lignes fluides et précises.
   - [ ] Pour les lignes droites, utiliser des segments sans courbe.
-  - [ ] **Ne pas utiliser de formes prédéfinies.**
   - [ ] **Détails spécifiques sur les points d’ancrage :**
     - [ ] Pour la lèvre supérieure : 10 points d’ancrage.
     - [ ] Pour la lèvre inférieure : 4 points d’ancrage.
@@ -29,6 +28,11 @@ Télécharger et ouvrer le fichier suivant:
       - [ ] 4 points d’ancrage pour le cercle le plus intérieur.
       - [ ] 4 points d’ancrage pour le deuxième cercle.
       - [ ] 4 points d’ancrage pour le contour de l’œil.
+
+- [ ] **Outils autorisés :**
+  - [ ] **Interdiction** d’utiliser les formes automatiques (cercles, rectangles, etc.).
+  - [ ] Utiliser uniquement l'outil **Plume (Pen Tool)** pour tracer les formes.
+  - [ ] Utiliser uniquement le nombre nécessaire de points d'ancrage pour tracer les courbes et les angles droits, en évitant d'ajouter des points superflus.
 
 - [ ] **Couleurs :**
   - [ ] Utiliser uniquement les couleurs présentes dans l’image fournie.
