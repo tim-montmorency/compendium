@@ -19,7 +19,8 @@ Télécharger et ouvrer le fichier suivant:
   - [ ] Les points d’ancrage doivent être utilisés uniquement pour tracer des courbes.
   - [ ] Ajuster les poignées pour des lignes fluides et précises.
   - [ ] Pour les lignes droites, utiliser des segments sans courbe.
-  - [ ] 
+  - [ ] **Détails spécifiques sur les points d’ancrage :**
+    - [ ] Utiliser uniquement 5 points d’ancrage pour l'exercice.
 
 - [ ] **Outils autorisés :**
   - [ ] **Interdiction** d’utiliser les formes automatiques (cercles, rectangles, etc.).
