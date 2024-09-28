@@ -12,8 +12,8 @@ Couleurs 🎨
 `#02efee`
 
 ## Médias
-![Mega Man]([image.png.zip](https://github.com/user-attachments/files/17174893/image.png.zip)
-)
+[Mega Man]([image.png.zip](https://github.com/user-attachments/files/17174893/image.png.zip)
+
 
  
 ## Mega Man
