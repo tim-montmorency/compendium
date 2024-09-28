@@ -11412,8 +11412,21 @@
 </ul>
 <h3 id="affichage">Affichage<a class="headerlink" href="#affichage" title="Permanent link">¶</a></h3>
 <p>Afin de lier un favicon à une page web, il faut ajouter un extrait de code dans sa balise </p> indiquant où se trouve le fichier favicon à utiliser.
+<p>Pour ajouter une favicon à votre site web, enregistrez l’image de la favicon dans le répertoire racine de votre site web ou créez un dossier dans le répertoire racine appelé images et enregistrez l’image du favicon dans ce dossier. Un nom courant pour une image de favicon est "favicon.ico". Ensuite, ajoutez un élément <code>&lt;link&gt;</code> à votre fichier <strong>"index.html"</strong>, après l’élément <code>&lt;title&gt;</code>.</p>
 <p>Par exemple:</p>
-<div class="highlight"><pre><span></span><code>&lt;link rel="shortcut icon" href="http://example.com/favicon.ico" /&gt;
+<div class="highlight"><pre><span></span><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page Title&lt;/title&gt;
+  &lt;link rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
 </code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
