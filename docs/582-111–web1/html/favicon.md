@@ -46,10 +46,24 @@ Par exemple:
 
 Afin de lier un favicon à une page web, il faut ajouter un extrait de code dans sa balise <head> indiquant où se trouve le fichier favicon à utiliser.
 
+Pour ajouter une favicon à votre site web, enregistrez l’image de la favicon dans le répertoire racine de votre site web ou créez un dossier dans le répertoire racine appelé images et enregistrez l’image du favicon dans ce dossier. Un nom courant pour une image de favicon est "favicon.ico". Ensuite, ajoutez un élément `<link>` à votre fichier **"index.html"**, après l’élément `<title>`.
+
 Par exemple:
 
 ```
-<link rel="shortcut icon" href="http://example.com/favicon.ico" />
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
 ```
 
 !!! warning
