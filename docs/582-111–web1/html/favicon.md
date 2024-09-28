@@ -39,8 +39,8 @@ Puisque les tailles optimales de favicon tendent à changer avec l’évolution 
 
 Par exemple:
 
-- RealFaviconGenerator.net
-- Favicon.cc
+- [RealFaviconGenerator.net](https://realfavicongenerator.net)
+- [Favicon.cc](https://www.favicon.cc)
 
 ### Affichage
 
