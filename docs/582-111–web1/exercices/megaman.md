@@ -8,7 +8,7 @@ Aperçu du résultat 👇
 
 ## Matériel
 
-Couleurs 🎨
+Couleurs bleu flash 🎨
 `#02efee`
 
 ## Médias
