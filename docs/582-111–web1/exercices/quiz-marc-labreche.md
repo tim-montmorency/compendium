@@ -34,15 +34,15 @@ Aperçu du résultat 👇
 ## Questions
 
 * Quels personnages des Simpsons sont doublés par Marc Labrèche?
-  * Quel est le nom du personnage de Marc Labrèche dans la série les Bobos?
-  * Quelle tortue ninja était doublé par Marc Labrèche?
-  * Pour quelle barre chocolatée Marc Labrèche a-t-il déjà fait une publicité?
-  * Combien de personnages Marc Labrèche joue-t-il dans le cœur a ses raisons?
+* Quel est le nom du personnage de Marc Labrèche dans la série les Bobos?
+* Quelle tortue ninja était doublé par Marc Labrèche?
+* Pour quelle barre chocolatée Marc Labrèche a-t-il déjà fait une publicité?
+* Combien de personnages Marc Labrèche joue-t-il dans le cœur a ses raisons?
 
 ## Réponses
 
 * Image des Simpsons
-  * Étienne Maxou
-  * Image de Donatello
-  * iFrame d'une publicité de Caramilk .
-  * 4
+* Étienne Maxou
+* Image de Donatello
+* iFrame d'une publicité de Caramilk .
+* 4
