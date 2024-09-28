@@ -69,3 +69,13 @@ Par exemple:
 !!! warning
 
     Ce code ne permet d’afficher qu’une version du favicon. Pour obtenir toutes les variantes, il est suggéré d’utiliser un **générateur de favicons**.
+
+
+!!! note
+
+    ## Types MIME
+    Les types MIME sont un moyen de communiquer le format d’un fichier ou de données à un navigateur. Pour les favicons, ils sont utilisés dans l’attribut type="" dans la balise .
+    
+    Le type MIME utilisé aujourd’hui est image/x-icon.
+    
+    De nos jours, vous n’êtes pas limité à utiliser uniquement le format ICO. Vous pouvez utiliser les GIF non animés, des PNG et des SVG.  
