@@ -9,10 +9,11 @@ Aperçu du résultat 👇
 ## Matériel
 
 Couleurs 🎨
-#02efee
+`#02efee`
 
 ## Médias
-(![Mega Man](https://github.com/user-attachments/assets/67f06f47-bb4a-427d-b98d-927311f0bd47)
+![Mega Man]([image.png.zip](https://github.com/user-attachments/files/17174893/image.png.zip)
+)
 
  
 ## Mega Man
@@ -20,7 +21,6 @@ Couleurs 🎨
 
 ### Requis
 
-- 
 - Créez un dossier de projet à l'intérieur duquel un fichier nommé **index.html** sera présent ainsi qu'un dossier **img** 📁.
 - Faites en sorte que le titre du fichier index.html soit: **"Mega Man"**.
 - À l'aide du site [RealFaviconGenerator.net](https://realfavicongenerator.net), créez toutes les déclinaisons de favicons nécessaires à partir de l'image source de Mega Man fournie. Assurez-vous aussi que dès qu'une couleur est demandée que le bleu flash en référence soit utilisé et que l'app soit connue sous le nom de "Mega Man".
