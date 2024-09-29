@@ -30,19 +30,21 @@ Vidéo
 * [ ] Ajouter l’en-tête du site web : 
 
   * [ ] Insérer une balise `<header>` avec un titre principal pour le site.
-    !!! note
-
+```
         Bienvenue dans le Monde du Cirque
-
+```
 * [ ] Créer la navigation principale : 
 
  * [ ] Ajouter une balise `<nav>` contenant une liste non ordonnée avec des liens vers différentes sections du site.
    !!! note
 
-       Histoire du Cirque<br>
-       Artistes et Performances<br>
-       Galerie<br>
-       Contact<br>
+       Histoire du Cirque
+       
+       Artistes et Performances
+       
+       Galerie
+       
+       Contact
    
 
 * [ ] Ajouter le contenu principal : 
@@ -130,10 +132,10 @@ Vidéo
 
       Pour toute question ou réservation, veuillez nous contacter via le formulaire ci-dessus.
 
-Ajouter le pied de page : 
+* [ ] Ajouter le pied de page : 
 
-Ajouter une balise `<footer>` avec un texte de copyright : **© 2024 Le Monde du Cirque**. 
+* [ ] Ajouter une balise `<footer>` avec un texte de copyright : **© 2024 Le Monde du Cirque**. 
 
-Assembler le tout : 
+* [ ] Assembler le tout : 
 
-Combiner toutes les sections dans la balise <body> pour former la structure complète du site web. 
+* [ ] Combiner toutes les sections dans la balise <body> pour former la structure complète du site web. 
