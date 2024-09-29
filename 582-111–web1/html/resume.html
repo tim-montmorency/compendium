@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../../_/favicon-32x32.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.38">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
     
     
       
@@ -11660,7 +11660,7 @@
 
 <div><h1 id="resume-du-html-5">Résumé du HTML 5<a class="headerlink" href="#resume-du-html-5" title="Permanent link">¶</a></h1>
 <h2 id="balises-en-paires">Balises en paires<a class="headerlink" href="#balises-en-paires" title="Permanent link">¶</a></h2>
-<p>balise d’ouverture + texte + balise de fermeture</p>
+<p>balise d’ouverture <code>&lt;title&gt;</code>+ texte + balise de fermeture <code>&lt;/title&gt;</code></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><code>&lt;title&gt;</code> Ceci est le titre de ma 1ère page Web <code>&lt;/title&gt;</code></p>
@@ -11672,11 +11672,11 @@
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Exemple: Les balises images, <code>&lt;img&gt;</code></p>
+<p><strong>Exemple</strong>: Les balises images, <code>&lt;img&gt;</code></p>
 </div>
 <h2 id="balises-avec-attributs">Balises avec attributs<a class="headerlink" href="#balises-avec-attributs" title="Permanent link">¶</a></h2>
 <p>Une balise peut avoir des attributs avec ou sans valeurs
-</p><div class="highlight"><pre><span></span><code>&lt;img src="images/blocnotes.png" alt="Bloc-Notes"&gt;
+</p><div class="highlight"><pre><span></span><code>&lt;img **src**="images/blocnotes.png" **alt**="Bloc-Notes"&gt;
 </code></pre></div>
 <h2 id="structure-de-base-html">Structure de base HTML<a class="headerlink" href="#structure-de-base-html" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>&lt;!DOCTYPE html&gt;
@@ -11708,14 +11708,14 @@
 <p><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code> : <strong>h1</strong> étant le niveau le titre le plus haut et <strong>h6</strong> le sous-titre le plus bas</p>
 <h2 id="balises-de-texte">Balises de texte<a class="headerlink" href="#balises-de-texte" title="Permanent link">¶</a></h2>
 <ul>
-<li><code>&lt;p&gt;``&lt;/p&gt;</code> : paragraphe</li>
+<li><code>&lt;p&gt;</code> <code>&lt;/p&gt;</code> : paragraphe</li>
 <li><code>&lt;br&gt;</code> : saut de ligne</li>
 <li><code>&lt;hr&gt;</code> : ligne horizontale</li>
 </ul>
 <h2 id="les-commentaires">Les commentaires<a class="headerlink" href="#les-commentaires" title="Permanent link">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>&lt;!– Ceci est un commentaire --&gt;</p>
+<p><strong>&lt;!–**Ceci est un commentaire **--&gt;</strong></p>
 </div>
 <h2 id="les-citations">Les citations<a class="headerlink" href="#les-citations" title="Permanent link">¶</a></h2>
 <ul>
@@ -11730,7 +11730,7 @@
 <li><code>&lt;strong&gt;</code> - Texte important</li>
 <li><code>&lt;i&gt;</code> - Texte en italique</li>
 <li><code>&lt;em&gt;</code> - Mettre l'accent sur le texte (emphase)</li>
-<li><code>&lt;mark&gt;</code> - Texte marqué</li>
+<li><code>&lt;mark&gt;</code> - Texte marqué (surligné)</li>
 <li><code>&lt;small&gt;</code> - Texte plus petit</li>
 <li><code>&lt;del&gt;</code> - Texte supprimé</li>
 <li><code>&lt;ins&gt;</code> - Texte inséré</li>
@@ -11739,35 +11739,33 @@
 </ul>
 <h2 id="liste-non-ordonnee">Liste non-ordonnée<a class="headerlink" href="#liste-non-ordonnee" title="Permanent link">¶</a></h2>
 <ul>
-<li><code>&lt;ul&gt;``&lt;/ul&gt;</code> : : indique que c’est une liste non ordonnée</li>
-<li><code>&lt;li&gt;``&lt;/li&gt;</code>: définit les différents élements de la liste</li>
+<li><code>&lt;ul&gt;</code> <code>&lt;/ul&gt;</code> : : indique que c’est une liste non ordonnée</li>
+<li><code>&lt;li&gt;</code> <code>&lt;/li&gt;</code>: définit les différents élements de la liste</li>
 </ul>
 <p>Liste ordonnée</p>
 <ul>
-<li><code>&lt;ol&gt;``&lt;/ol&gt;</code> : : : indique que c’est une liste ordonnée</li>
-<li><code>&lt;li&gt;``&lt;/li&gt;</code>: définit les différents élements de la liste</li>
+<li><code>&lt;ol&gt;</code> <code>&lt;/ol&gt;</code> : indique que c’est une liste ordonnée</li>
+<li><code>&lt;li&gt;</code> <code>&lt;/li&gt;</code>: définit les différents élements de la liste</li>
 </ul>
 <h2 id="ancre">Ancre<a class="headerlink" href="#ancre" title="Permanent link">¶</a></h2>
-<p>Lien vers une page Web</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><a href="https://www.google.ca">Google</a></p>
-</div>
+<p>Lien vers une page Web
+</p><div class="highlight"><pre><span></span><code>    &lt;a href="https://www.google.ca"&gt;Google&lt;/a&gt;
+</code></pre></div>
 <h2 id="tableau">Tableau<a class="headerlink" href="#tableau" title="Permanent link">¶</a></h2>
-<p>Tableau se construit ligne par ligne
-Chaque ligne doit contenir la liste des cellules
-- <code>&lt;table&gt;``&lt;/table&gt;</code> : indique que ce qui suit est un tableau
-- <code>&lt;caption&gt;``&lt;/caption&gt;</code> : indique titre du tableau
-- <code>&lt;tr&gt;``&lt;/tr&gt;</code> : indique que c’est une ligne du tableau
-- <code>&lt;th&gt;``&lt;/th&gt;</code> : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
-- <code>&lt;td&gt;``&lt;/td&gt;</code> : indique que c’est une cellule/case du tableau</p>
+<p>Tableau se construit ligne par ligne.
+Chaque ligne doit contenir la liste des cellules.
+- <code>&lt;table&gt;</code> <code>&lt;/table&gt;</code> : indique que ce qui suit est un tableau
+- <code>&lt;caption&gt;</code> <code>&lt;/caption&gt;</code> : indique titre du tableau
+- <code>&lt;tr&gt;</code> <code>&lt;/tr&gt;</code> : indique que c’est une ligne du tableau
+- <code>&lt;th&gt;</code> <code>&lt;/th&gt;</code> : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
+- <code>&lt;td&gt;</code> <code>&lt;/td&gt;</code> : indique que c’est une cellule/case du tableau</p>
 <h2 id="tableau-structure">Tableau structuré<a class="headerlink" href="#tableau-structure" title="Permanent link">¶</a></h2>
-<p>Division en 3 parties: en-tête, corps et pied du tableau
-- <code>&lt;thead&gt;``&lt;/thead&gt;</code> : indique que c’est l’en-tête du tableau
-- <code>&lt;tbody&gt;``&lt;/tbody&gt;</code>: : indique que c’est le corps tableau
-- <code>&lt;tfoot&gt;``&lt;/tfoot&gt;</code> : indique que c’est le pied du tableau
-- <code>&lt;th&gt;``&lt;/th&gt;</code> : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
-- <code>&lt;td&gt;``&lt;/td&gt;</code> : indique que c’est une cellule/case du tableau</p>
+<p>Division en 3 parties: en-tête, corps et pied du tableau.
+- <code>&lt;thead&gt;</code> <code>&lt;/thead&gt;</code> : indique que c’est l’en-tête du tableau
+- <code>&lt;tbody&gt;</code> <code>&lt;/tbody&gt;</code>: : indique que c’est le corps tableau
+- <code>&lt;tfoot&gt;</code> <code>&lt;/tfoot&gt;</code> : indique que c’est le pied du tableau
+- <code>&lt;th&gt;</code> <code>&lt;/th&gt;</code> : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
+- <code>&lt;td&gt;</code> <code>&lt;/td&gt;</code> : indique que c’est une cellule/case du tableau</p>
 <h2 id="fusion-de-cellules">Fusion de cellules<a class="headerlink" href="#fusion-de-cellules" title="Permanent link">¶</a></h2>
 <ul>
 <li><strong>Fusion Horizontale</strong> : fusion de colonnes en utilisant <strong>colspan</strong></li>
@@ -12017,7 +12015,7 @@ Chaque ligne doit contenir la liste des cellules
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
