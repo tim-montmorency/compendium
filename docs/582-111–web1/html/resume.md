@@ -144,7 +144,8 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 ## Images
 
-* `<img>` : indique que l’on va insérer une image
+`<img>` : indique que l’on va insérer une image
+
   * **src** : indique source de l’image (i.e. où se trouve l’image)
   * **alt** : indique un texte alternatif pour décrire l’image
   * **height** et **width** : hauteur et largeur de l’image
@@ -157,7 +158,7 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 ## Audio
 
-`<audio>``</audio>` : indique l’insertion d’un élément de type audio
+`<audio>` `</audio>` : indique l’insertion d’un élément de type audio
 
 * Attribut de base :
   * **src** : source de l’audio
@@ -167,7 +168,7 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 ## Vidéo
 
-`<video>``</video>` : indique l’insertion d’un élément de type video
+`<video>` `</video>` : indique l’insertion d’un élément de type video
 
 * Attribut de base : 
   * **src** : source de la vidéo
@@ -184,14 +185,14 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 Balise de base pour création d’un formulaire
 
-`<form>``</form> `: indique que l’on va insérer un formulaire
+`<form>` `</form> `: indique que l’on va insérer un formulaire
 
 Attributs de base
 
 * **method** : indique comment envoyer les informations
   * **GET** (par défaut) stock les informations du formulaire dans l'URL après le symbole ?.
   * **POST** envois les informations du formulaire dans la requête soumise à la page.
-  * **action** : indique l’adresse de la page ou du programme qui va traiter les informations.
+* **action** : indique l’adresse de la page ou du programme qui va traiter les informations.
 
 
 
@@ -199,7 +200,7 @@ Attributs de base
 
 - `<input type="text">`
 - `<input>` : indique que l’on va créer une zone de texte
-- `<label>``</label>` : indique le libellé de la zone de texte
+- `<label>` `</label>` : indique le libellé de la zone de texte
 
 Attributs pour zone de texte
 
@@ -225,9 +226,11 @@ Attributs pour zone de texte
 
 Génère un bouton permettant de soumettre un formulaire.
 
- !!! note
+```
  
      <input type="submit" value="Soumettre">
+```
+
 
 ## Checkbox
 
