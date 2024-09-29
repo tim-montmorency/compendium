@@ -11776,21 +11776,17 @@
 <li><strong>Fusion Verticale</strong>; fusion de lignes en utilisant <strong>rowspan</strong></li>
 </ul>
 <h2 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h2>
-<ul>
-<li><code>&lt;img&gt;</code> : indique que l’on va insérer une image<ul>
-<li><strong>src</strong> : indique source de l’image (i.e. où se trouve l’image)</li>
-<li><strong>alt</strong> : indique un texte alternatif pour décrire l’image</li>
-<li><strong>height</strong> et <strong>width</strong> : hauteur et largeur de l’image</li>
-</ul>
-</li>
-</ul>
+<p><code>&lt;img&gt;</code> : indique que l’on va insérer une image</p>
+<p>* <strong>src</strong> : indique source de l’image (i.e. où se trouve l’image)
+  * <strong>alt</strong> : indique un texte alternatif pour décrire l’image
+  * <strong>height</strong> et <strong>width</strong> : hauteur et largeur de l’image</p>
 <h2 id="legende-de-media">Légende de média<a class="headerlink" href="#legende-de-media" title="Permanent link">¶</a></h2>
 <ul>
 <li>La balise <code>&lt;figure&gt;</code> permet d'associer un élément <strong>(image, vidéo, diagramme, etc.)</strong></li>
 <li>La légende de la figure utilise la balise <code>&lt;figcaption&gt;</code></li>
 </ul>
 <h2 id="audio">Audio<a class="headerlink" href="#audio" title="Permanent link">¶</a></h2>
-<p><code>&lt;audio&gt;``&lt;/audio&gt;</code> : indique l’insertion d’un élément de type audio</p>
+<p><code>&lt;audio&gt;</code> <code>&lt;/audio&gt;</code> : indique l’insertion d’un élément de type audio</p>
 <ul>
 <li>Attribut de base :<ul>
 <li><strong>src</strong> : source de l’audio</li>
@@ -11801,7 +11797,7 @@
 </li>
 </ul>
 <h2 id="video">Vidéo<a class="headerlink" href="#video" title="Permanent link">¶</a></h2>
-<p><code>&lt;video&gt;``&lt;/video&gt;</code> : indique l’insertion d’un élément de type video</p>
+<p><code>&lt;video&gt;</code> <code>&lt;/video&gt;</code> : indique l’insertion d’un élément de type video</p>
 <ul>
 <li>Attribut de base : <ul>
 <li><strong>src</strong> : source de la vidéo</li>
@@ -11818,21 +11814,21 @@
 </ul>
 <h2 id="formulaire">Formulaire<a class="headerlink" href="#formulaire" title="Permanent link">¶</a></h2>
 <p>Balise de base pour création d’un formulaire</p>
-<p><code>&lt;form&gt;``&lt;/form&gt;</code>: indique que l’on va insérer un formulaire</p>
+<p><code>&lt;form&gt;</code> <code>&lt;/form&gt;</code>: indique que l’on va insérer un formulaire</p>
 <p>Attributs de base</p>
 <ul>
 <li><strong>method</strong> : indique comment envoyer les informations<ul>
 <li><strong>GET</strong> (par défaut) stock les informations du formulaire dans l'URL après le symbole ?.</li>
 <li><strong>POST</strong> envois les informations du formulaire dans la requête soumise à la page.</li>
-<li><strong>action</strong> : indique l’adresse de la page ou du programme qui va traiter les informations.</li>
 </ul>
 </li>
+<li><strong>action</strong> : indique l’adresse de la page ou du programme qui va traiter les informations.</li>
 </ul>
 <h2 id="input-text">Input text<a class="headerlink" href="#input-text" title="Permanent link">¶</a></h2>
 <ul>
 <li><code>&lt;input type="text"&gt;</code></li>
 <li><code>&lt;input&gt;</code> : indique que l’on va créer une zone de texte</li>
-<li><code>&lt;label&gt;``&lt;/label&gt;</code> : indique le libellé de la zone de texte</li>
+<li><code>&lt;label&gt;</code> <code>&lt;/label&gt;</code> : indique le libellé de la zone de texte</li>
 </ul>
 <p>Attributs pour zone de texte</p>
 <ul>
@@ -11853,9 +11849,8 @@
 </code></pre></div>
 <h2 id="input-submit">Input submit<a class="headerlink" href="#input-submit" title="Permanent link">¶</a></h2>
 <p>Génère un bouton permettant de soumettre un formulaire.</p>
-<p>!!! note</p>
-<pre><code> &lt;input type="submit" value="Soumettre"&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code>     &lt;input type="submit" value="Soumettre"&gt;
+</code></pre></div>
 <h2 id="checkbox">Checkbox<a class="headerlink" href="#checkbox" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>&lt;label&gt;
   &lt;input type="checkbox" name="olives"&gt; Olives &lt;/label&gt;&lt;br&gt;
