@@ -45,6 +45,12 @@ Par exemple:
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="182" alt="Capture d’écran, le 2024-09-29 à 10 38 23" src="https://github.com/user-attachments/assets/cd52c585-eb4a-4bce-a023-6dd025d005ed">
+
 
   **Exercice Quiz Marc Labrèche**<br>
   _Les balises `<details>` et `<summary>`_<br>
