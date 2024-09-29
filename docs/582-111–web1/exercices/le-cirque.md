@@ -86,7 +86,7 @@ Vidéo
 
 * [ ] Ajouter une balise `<h2>` pour les **Artistes et Performances**. 
 
-* [ ] Insérer un tableau <table> avec des en-têtes <thead>, des lignes <tr>, des cellules <td>, et des cellules fusionnées avec colspan et rowspan.
+* [ ] Insérer un tableau `<table>` avec des en-têtes `<thead>`, des lignes `<tr>`, des cellules `<td>`, et des cellules fusionnées avec **colspan** et **rowspan**.
   !!! note
 
       Titre : Artistes de Cirque Célèbres<br>
@@ -96,17 +96,17 @@ Vidéo
       P.T. Barnum   -   	Impresario   -   	19ème siècle<br>
       James A. Bailey                    	19ème siècle<br>
 
-* [ ] Ajouter une image avec une balise <figure> et une légende <figcaption>.
+* [ ] Ajouter une image avec une balise `<figure>` et une légende `<figcaption>`.
   !!! note
 
       Un spectacle de cirque en action
 
-* [ ] Insérer un élément audio avec une balise <iframe> 
+* [ ] Insérer un élément audio avec une balise `<iframe>` 
 !!! note
 
     [Soundcloud - Clouds](https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1864473270&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true)
 
-* [ ] Insérer une vidéo avec une balise <video>. 
+* [ ] Insérer une vidéo avec une balise `<video>`. 
 
 * [ ] Ajouter un formulaire de contact avec une balise `<form>` et des champs de saisie `<input>`. 
 
