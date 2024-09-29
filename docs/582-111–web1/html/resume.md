@@ -162,10 +162,10 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 Attribut de base :
 
-  * **src** : source de l’audio
-  * **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
-  * **loop** : indique de jouer le morceau audio en boucle
-  * **autoplay** : indique que le morceau audio démarrera dès le début
+* **src** : source de l’audio
+* **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
+* **loop** : indique de jouer le morceau audio en boucle
+* **autoplay** : indique que le morceau audio démarrera dès le début
 
 ## Vidéo
 
@@ -173,15 +173,15 @@ Attribut de base :
 
 Attribut de base : 
 
-  * **src** : source de la vidéo
-  * **poster** : indique l’image à afficher en attendant que la video soit chargée
-  * **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
-  * **width** : indique la largeur du lecteur vidéo si l’on veut la modifier
-  * **height** : indique la hauteur du lecteur vidéo si l’on veut la modifier
-  * **loop** : indique de jouer le morceau audio en boucle
-  * **autoplay** : indique que le morceau audio démarrera dès le début
-  * **muted** : indique au navigateur de jouer la vidéo en mode silencieux
-  * **playsinline** : spécifie de jouer la vidéo dans son cadre d’origine
+* **src** : source de la vidéo
+* **poster** : indique l’image à afficher en attendant que la video soit chargée
+* **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
+* **width** : indique la largeur du lecteur vidéo si l’on veut la modifier
+* **height** : indique la hauteur du lecteur vidéo si l’on veut la modifier
+* **loop** : indique de jouer le morceau audio en boucle
+* **autoplay** : indique que le morceau audio démarrera dès le début
+* **muted** : indique au navigateur de jouer la vidéo en mode silencieux
+* **playsinline** : spécifie de jouer la vidéo dans son cadre d’origine
 
 ## Formulaire
 
