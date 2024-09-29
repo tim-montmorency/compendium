@@ -160,7 +160,8 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 `<audio>` `</audio>` : indique l’insertion d’un élément de type audio
 
-* Attribut de base :
+Attribut de base :
+
   * **src** : source de l’audio
   * **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
   * **loop** : indique de jouer le morceau audio en boucle
@@ -170,7 +171,8 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 `<video>` `</video>` : indique l’insertion d’un élément de type video
 
-* Attribut de base : 
+Attribut de base : 
+
   * **src** : source de la vidéo
   * **poster** : indique l’image à afficher en attendant que la video soit chargée
   * **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
@@ -315,7 +317,7 @@ Attributs pour les textarea
 
 Attributs pour les number
 
-- **min & max **: permettent de spécifier un nombre minimal et maximal à respecter.
+- **min & max**: permettent de spécifier un nombre minimal et maximal à respecter.
 - **name** : nom de la zone de texte
 - **disabled** : permet d'afficher en lecture seule le champ number
 - **step** : définit le saut entre chaque valeur.
@@ -356,7 +358,7 @@ Attributs pour les range
 
 Attributs pour les number
 
-- **inputmode="decimal" **: affichent un pavé numérique agrémenté des symboles +*# sur les appareils mobile afin de simplifier la vie de l'usager.
+- **inputmode="decimal"**: affichent un pavé numérique agrémenté des symboles +*# sur les appareils mobile afin de simplifier la vie de l'usager.
 - **disabled** : permet d'afficher en lecture seule le champ de téléphone
 
 ## Search
