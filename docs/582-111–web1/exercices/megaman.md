@@ -30,3 +30,9 @@ Voir la référence 👇
 ![favicons-megaman-ref](https://github.com/user-attachments/assets/2ac61f98-d1e5-4cf8-8824-983c84fc2a71)
 
 Toutes les images générées doivent aller dans le dossier **"img"** que vous avez créé. Ajustez donc vos chemins de fichiers en conséquence.
+
+## Notes de cours
+
+![icon (15)](https://github.com/user-attachments/assets/fc7ac4f8-4727-4499-803a-4b125736cfab)<br> Favicon <br> [Favicon](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/favicon.html)
+
+
