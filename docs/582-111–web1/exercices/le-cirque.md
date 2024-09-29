@@ -1,9 +1,13 @@
+# Le Monde du Cirque
 
 Pour cet exercice, vous devrez recréer un mini quiz portant sur Marc Labrèche à l’aide des balises <details> et <summary>.
 
 Aperçu du résultat 👇
 
-type:video
+* ![Capture d’écran, le 2024-09-29 à 10 48 47](https://github.com/user-attachments/assets/6ad77ebb-3a55-4896-b271-50dab1d5e312)
+* ![Capture d’écran, le 2024-09-29 à 10 49 00](https://github.com/user-attachments/assets/9f556f6c-b226-447d-865a-66e458974b91)
+* ![Capture d’écran, le 2024-09-29 à 10 49 18](https://github.com/user-attachments/assets/4f70516d-6149-4a6c-aaee-094fcfb64d42)
+* ![Capture d’écran, le 2024-09-29 à 10 49 25](https://github.com/user-attachments/assets/02821f73-b4c8-43c8-9d55-90a03694dff3)
 
 Matériel
 
