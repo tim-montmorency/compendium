@@ -118,6 +118,7 @@ Lien vers une page Web
 ## Tableau
 
 Tableau se construit ligne par ligne.
+
 Chaque ligne doit contenir la liste des cellules.
 
 - `<table>` `</table>` : indique que ce qui suit est un tableau
@@ -143,10 +144,10 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 ## Images
 
-`<img>` : indique que l’on va insérer une image
-* **src** : indique source de l’image (i.e. où se trouve l’image)
-* **alt** : indique un texte alternatif pour décrire l’image
-* **height** et **width** : hauteur et largeur de l’image
+* `<img>` : indique que l’on va insérer une image
+  * **src** : indique source de l’image (i.e. où se trouve l’image)
+  * **alt** : indique un texte alternatif pour décrire l’image
+  * **height** et **width** : hauteur et largeur de l’image
 
 
 ## Légende de média
@@ -157,6 +158,7 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 ## Audio
 
 `<audio>``</audio>` : indique l’insertion d’un élément de type audio
+
 * Attribut de base :
   * **src** : source de l’audio
   * **controls** : indique qu’il faut la barre de défilement + boutons Lecture & Pause
@@ -166,6 +168,7 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 ## Vidéo
 
 `<video>``</video>` : indique l’insertion d’un élément de type video
+
 * Attribut de base : 
   * **src** : source de la vidéo
   * **poster** : indique l’image à afficher en attendant que la video soit chargée
