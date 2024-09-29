@@ -2,7 +2,7 @@
 
 ## Balises en paires
 
-balise d’ouverture + texte + balise de fermeture
+balise d’ouverture `<title>`+ texte + balise de fermeture `</title>`
 
 !!! note
 
@@ -18,7 +18,7 @@ balise d’ouverture + texte + balise de fermeture
 
 !!! note
 
-    Exemple: Les balises images, `<img>`
+    **Exemple**: Les balises images, `<img>`
 
 
 
@@ -26,7 +26,7 @@ balise d’ouverture + texte + balise de fermeture
 
 Une balise peut avoir des attributs avec ou sans valeurs
 ```
-<img src="images/blocnotes.png" alt="Bloc-Notes">
+<img **src**="images/blocnotes.png" **alt**="Bloc-Notes">
 ```
 
 
@@ -66,7 +66,7 @@ Une balise peut avoir des attributs avec ou sans valeurs
 
 ## Balises de texte
 
-- `<p>``</p>` : paragraphe
+- `<p>` `</p>` : paragraphe
 - `<br>` : saut de ligne
 - `<hr>` : ligne horizontale
 
@@ -74,7 +74,7 @@ Une balise peut avoir des attributs avec ou sans valeurs
 !!! note
 
 
-    <!– Ceci est un commentaire -->
+    **<!–**Ceci est un commentaire **-->**
 
 
 ## Les citations
@@ -90,7 +90,7 @@ Une balise peut avoir des attributs avec ou sans valeurs
 - `<strong>` - Texte important
 - `<i>` - Texte en italique
 - `<em>` - Mettre l'accent sur le texte (emphase)
-- `<mark>` - Texte marqué
+- `<mark>` - Texte marqué (surligné)
 - `<small>` - Texte plus petit
 - `<del>` - Texte supprimé
 - `<ins>` - Texte inséré
@@ -99,39 +99,40 @@ Une balise peut avoir des attributs avec ou sans valeurs
 
 ## Liste non-ordonnée
 
-- `<ul>``</ul>` : : indique que c’est une liste non ordonnée
-- `<li>``</li>`: définit les différents élements de la liste
+- `<ul>` `</ul>` : : indique que c’est une liste non ordonnée
+- `<li>` `</li>`: définit les différents élements de la liste
 
 Liste ordonnée
 
-- `<ol>``</ol>` : : : indique que c’est une liste ordonnée
-- `<li>``</li>`: définit les différents élements de la liste
+- `<ol>` `</ol>` : indique que c’est une liste ordonnée
+- `<li>` `</li>`: définit les différents élements de la liste
 
 ## Ancre
 
 Lien vers une page Web
-!!! note
-
+```
     <a href="https://www.google.ca">Google</a>
+```
+
 
 ## Tableau
 
-Tableau se construit ligne par ligne
-Chaque ligne doit contenir la liste des cellules
-- `<table>``</table>` : indique que ce qui suit est un tableau
-- `<caption>``</caption>` : indique titre du tableau
-- `<tr>``</tr>` : indique que c’est une ligne du tableau
-- `<th>``</th>` : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
-- `<td>``</td>` : indique que c’est une cellule/case du tableau
+Tableau se construit ligne par ligne.
+Chaque ligne doit contenir la liste des cellules.
+- `<table>` `</table>` : indique que ce qui suit est un tableau
+- `<caption>` `</caption>` : indique titre du tableau
+- `<tr>` `</tr>` : indique que c’est une ligne du tableau
+- `<th>` `</th>` : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
+- `<td>` `</td>` : indique que c’est une cellule/case du tableau
 
 ## Tableau structuré
 
-Division en 3 parties: en-tête, corps et pied du tableau
-- `<thead>``</thead>` : indique que c’est l’en-tête du tableau
-- `<tbody>``</tbody>`: : indique que c’est le corps tableau
-- `<tfoot>``</tfoot>` : indique que c’est le pied du tableau
-- `<th>``</th>` : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
-- `<td>``</td>` : indique que c’est une cellule/case du tableau
+Division en 3 parties: en-tête, corps et pied du tableau.
+- `<thead>` `</thead>` : indique que c’est l’en-tête du tableau
+- `<tbody>` `</tbody>`: : indique que c’est le corps tableau
+- `<tfoot>` `</tfoot>` : indique que c’est le pied du tableau
+- `<th>` `</th>` : indique que c’est l’en-tête du tableau (1ère ligne du tableau)
+- `<td>` `</td>` : indique que c’est une cellule/case du tableau
 
 ## Fusion de cellules
 
