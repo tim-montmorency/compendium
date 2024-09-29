@@ -4,10 +4,10 @@ Pour cet exercice, vous devrez recréer un mini quiz portant sur Marc Labrèche 
 
 Aperçu du résultat 👇
 
-* ![Capture d’écran, le 2024-09-29 à 10 48 47](https://github.com/user-attachments/assets/6ad77ebb-3a55-4896-b271-50dab1d5e312)
-* ![Capture d’écran, le 2024-09-29 à 10 49 00](https://github.com/user-attachments/assets/9f556f6c-b226-447d-865a-66e458974b91)
-* ![Capture d’écran, le 2024-09-29 à 10 49 18](https://github.com/user-attachments/assets/4f70516d-6149-4a6c-aaee-094fcfb64d42)
-* ![Capture d’écran, le 2024-09-29 à 10 49 25](https://github.com/user-attachments/assets/02821f73-b4c8-43c8-9d55-90a03694dff3)
+![Capture d’écran, le 2024-09-29 à 10 55 07](https://github.com/user-attachments/assets/b86798da-6a7d-45da-b056-197b21757d7f)
+![Capture d’écran, le 2024-09-29 à 10 49 00](https://github.com/user-attachments/assets/9f556f6c-b226-447d-865a-66e458974b91)
+![Capture d’écran, le 2024-09-29 à 10 49 18](https://github.com/user-attachments/assets/4f70516d-6149-4a6c-aaee-094fcfb64d42)
+![Capture d’écran, le 2024-09-29 à 10 49 25](https://github.com/user-attachments/assets/02821f73-b4c8-43c8-9d55-90a03694dff3)
 
 Matériel
 
@@ -22,13 +22,13 @@ Donatello
 
 ## Vos tâches
 
-1. Créer la structure de base du document HTML : 
+* [ ] Créer la structure de base du document HTML : 
 
-  * Définir le type de document comme HTML5. 
+  * [ ] Définir le type de document comme HTML5. 
 
-  * Spécifier la langue du document. 
+  * [ ] Spécifier la langue du document. 
 
-  *Ajouter les balises <head> et <body>. 
+  * [ ] Ajouter les balises `<head>` et `<body>`. 
 
 2. Ajouter l’en-tête du site web : 
 
