@@ -44,3 +44,11 @@ Par exemple:
   Details+ Summary</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+
+  **Exercice Quiz Marc Labrèche**<br>
+  _Les balises `<details>` et `<summary>`_<br>
+  [Exercice Quiz - Marc Labrèche](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/quiz-marc-labreche.html)
+</div>
+
+
