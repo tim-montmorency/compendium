@@ -1,5 +1,5 @@
 # Cours 6
-[stop]
+
 
 ## Formulaire avancé
 ![icon (14)](https://github.com/user-attachments/assets/eceb7f15-970e-47d5-b4a4-c9d8e9f791a2)
@@ -38,7 +38,7 @@
 ![icon (16)](https://github.com/user-attachments/assets/23e746a9-068a-4678-9540-b2e69fd91792)
 
 
-[Les balises <details> et <summary>](https://tim-montmorency.com/compendium/582-111–web1/html/details-summary.html)
+[Les balises `<details>` et `<summary>`](https://tim-montmorency.com/compendium/582-111–web1/html/details-summary.html)
 <br>
 <br>
 
