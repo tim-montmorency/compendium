@@ -79,3 +79,18 @@ Par exemple:
     Le type MIME utilisé aujourd’hui est image/x-icon.
     
     De nos jours, vous n’êtes pas limité à utiliser uniquement le format ICO. Vous pouvez utiliser les GIF non animés, des PNG et des SVG.  
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="183" alt="Capture d’écran, le 2024-09-29 à 10 24 05" src="https://github.com/user-attachments/assets/60d078f9-25a5-400d-bba0-f2617ef16b77">
+
+
+  **Exercice Favicon - Mega Man**<br>
+  _Pour cet exercice, vous devrez créer un fichier HTML affichant dans l’onglet de votre navigateur un favicon de Mega Man._<br>
+  [Exercice Favicon - Mega Man](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/megaman.html)
+</div>
+
+
