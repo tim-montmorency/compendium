@@ -57,33 +57,37 @@ Vidéo
 
  * [ ] Ajouter une balise `<section>` et ensuite une balise `<h2>` pour l’**Histoire du cirque**. 
 
- * [ ] Inclure plusieurs paragraphes <p> pour décrire l’histoire.
-   !!! note
+ * [ ] Inclure plusieurs paragraphes `<p>` pour décrire l’histoire.
+```
 
        Le cirque a une histoire riche et fascinante qui remonte à des siècles. Les premiers cirques étaient des spectacles itinérants qui combinaient des performances d'acrobates, de jongleurs et d'animaux dressés.
        
        Au 19ème siècle, le cirque moderne a commencé à prendre forme avec l'introduction de la tente de cirque et des numéros de clowns. Les spectacles sont devenus plus élaborés et ont attiré un public de plus en plus large.
        
        Au 20ème siècle, le cirque a continué d'évoluer avec l'apparition de nouvelles disciplines comme le trapèze volant et les numéros de haute voltige. Aujourd'hui, le cirque est un art reconnu et apprécié dans le monde entier.
+```
 
 * [ ] Ajouter un paragraphe : mettre en gras le texte Origine et l'emphase sur écolution.
-  !!! note
+```
 
       Origines et évolution du cirque à travers le temps.
-
+```
 * [ ] Insérer une citation avec une balise <blockquote>.
-  !!! note
+```
 
       "Le cirque est le seul endroit où l'on peut voir des miracles." - Anonyme
-
+```
 * [ ] Ajouter une liste non ordonnée et une liste ordonnée.
-!!! note
+```
 
       Les premiers cirques
-      Le cirque moderne
-      Évolution au 19ème siècle
-      Évolution au 20ème siècle
 
+      Le cirque moderne
+
+      Évolution au 19ème siècle
+
+      Évolution au 20ème siècle
+```
 * [ ] Créer la deuxième section sémantique `<section>` : 
 
 * [ ] Ajouter une balise `<h2>` pour les **Artistes et Performances**. 
@@ -91,18 +95,22 @@ Vidéo
 * [ ] Insérer un tableau `<table>` avec des en-têtes `<thead>`, des lignes `<tr>`, des cellules `<td>`, et des cellules fusionnées avec **colspan** et **rowspan**.
   !!! note
 
-      Titre : Artistes de Cirque Célèbres<br>
-      Nom	 -  Spécialité  -  	Époque<br>
-      Jules Léotard  -  	Trapéziste  -  	19ème siècle<br>
-      Les Frères Ringling   -  	20ème siècle<br>
-      P.T. Barnum   -   	Impresario   -   	19ème siècle<br>
-      James A. Bailey                    	19ème siècle<br>
+      Artistes de Cirque Célèbres
+      
+      Nom	 -  Spécialité  -  	Époque
+      
+      Jules Léotard  -  	Trapéziste  -  	19ème siècle
+      
+      Les Frères Ringling   -  	20ème siècle
+      P.T. Barnum   -   	Impresario   -   	19ème siècle
+      
+      James A. Bailey                    	19ème siècle
 
 * [ ] Ajouter une image avec une balise `<figure>` et une légende `<figcaption>`.
-  !!! note
+```
 
       Un spectacle de cirque en action
-
+```
 * [ ] Insérer un élément audio avec une balise `<iframe>` 
 !!! note
 
@@ -128,10 +136,10 @@ Vidéo
 * [ ] La section message doit avoir 30 colonnes et 10 rangées.
 
 * [ ] Inclure un paragraphe `<p>` pour les informations de contact.
-  !!! note
+```
 
       Pour toute question ou réservation, veuillez nous contacter via le formulaire ci-dessus.
-
+```
 * [ ] Ajouter le pied de page : 
 
 * [ ] Ajouter une balise `<footer>` avec un texte de copyright : **© 2024 Le Monde du Cirque**. 
