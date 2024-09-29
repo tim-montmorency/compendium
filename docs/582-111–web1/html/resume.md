@@ -401,6 +401,6 @@ Attributs pour time
 
 Attributs pour color
 
-**name** : nom de référence lorsque le formulaire est soumis.
-**value** : code de la couleur par défaut.
-**disabled** :permet d'afficher en lecture seule l'outil de sélection de couleur.
+- **name** : nom de référence lorsque le formulaire est soumis.
+- **value** : code de la couleur par défaut.
+- **disabled** :permet d'afficher en lecture seule l'outil de sélection de couleur.
