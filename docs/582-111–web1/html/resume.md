@@ -119,6 +119,7 @@ Lien vers une page Web
 
 Tableau se construit ligne par ligne.
 Chaque ligne doit contenir la liste des cellules.
+
 - `<table>` `</table>` : indique que ce qui suit est un tableau
 - `<caption>` `</caption>` : indique titre du tableau
 - `<tr>` `</tr>` : indique que c’est une ligne du tableau
@@ -128,6 +129,7 @@ Chaque ligne doit contenir la liste des cellules.
 ## Tableau structuré
 
 Division en 3 parties: en-tête, corps et pied du tableau.
+
 - `<thead>` `</thead>` : indique que c’est l’en-tête du tableau
 - `<tbody>` `</tbody>`: : indique que c’est le corps tableau
 - `<tfoot>` `</tfoot>` : indique que c’est le pied du tableau
