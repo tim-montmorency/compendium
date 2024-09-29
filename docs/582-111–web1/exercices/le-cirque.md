@@ -139,7 +139,7 @@ James A. Bailey                    	19ème siècle
 * [ ] Inclure un paragraphe `<p>` pour les informations de contact.
 ```
 
-      Pour toute question ou réservation, veuillez nous contacter via le formulaire ci-dessus.
+Pour toute question ou réservation, veuillez nous contacter via le formulaire ci-dessus.
 ```
 * [ ] Ajouter le pied de page : 
 
@@ -147,4 +147,4 @@ James A. Bailey                    	19ème siècle
 
 * [ ] Assembler le tout : 
 
-* [ ] Combiner toutes les sections dans la balise <body> pour former la structure complète du site web. 
+* [ ] Combiner toutes les sections dans la balise `<body>` pour former la structure complète du site web. 
