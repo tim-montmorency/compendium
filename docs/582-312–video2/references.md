@@ -10,7 +10,7 @@
 * [Banques de typographies et de brosses](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
 * [Banque sonore #1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EuoQmY1AZSRDhoU86zpeEKcBCTqcRGj6W1jfdmEU7iOEdg?e=L0ICKW)
 * [Banque sonore #2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=LMtZvF)
-* [Logo et informations pour le générique](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=LMtZvF)
+* [Logo et informations pour le générique](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Etv8yNIevcdHmg8R-gTlWNUB-K1cQ9_20EFgkTDVOTEgOg?e=o7hw9C)
 
 ## Set up ordinateur pour Da Vinci 
 * [One Drive](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EhNBfilME3xAiU3-iMZ6huwB9LxUBFyyN7NDQvFZfOPBjg?e=QcCewX)
