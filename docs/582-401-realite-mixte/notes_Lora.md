@@ -16,3 +16,5 @@ Bloc 3: Détection
 Bloc 4: Calques et anim 2d, ajouter vidéo dans anim 2d, changer calques de cour? 
 
 Cours 6: Vérif si oculus fonctionne avec casque
+
+travail 2: Emplacement des point light bulb dans synty a changé (video) 
