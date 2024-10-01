@@ -60,6 +60,14 @@ const config = {
 };
 ```
 
+!!! warning "refreshBody()"
+
+    Dans un groupe static, si on change l'attribut d'une image (ex: son origine, son scale), il faut appeler la fonction `refreshBody()` pour appliquer les changements.
+
+    ```js
+    this.platforms.create(600, 300, "ground").setScale(3).refreshBody();
+    ```
+
 !!! info "blocked vs. touching"
 
     `this.monBonhomme.body.blocked.down` est spécifique aux collisions avec des objets statiques ou les bordures du monde (par exemple, le sol ou un mur solide).

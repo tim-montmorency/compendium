@@ -12,6 +12,10 @@ tags:
 
 — Transitions
 — Caméra
+   Effet de transition
+   this.cameras.main.fadeIn(1000)  // fondu en 1 seconde
+   Effet de tremblement
+   this.cameras.main.shake(500, 0.05)
 — Filtres
 
 Rotate : <https://labs.phaser.io/view.html?src=src\camera\rotate%20camera.js>
