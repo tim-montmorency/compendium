@@ -12,7 +12,7 @@
 * Importer les médias dans Da Vinci.
 
 ## Intelligence artificielle pour création de musique (15 minutes)
-* Utilisation de l'[AI](.ai/ai_musique.md) pour la création de musique dans vos projets
+* Utilisation de l'[AI](ai/ai_musique.md) pour la création de musique dans vos projets
 * Voici deux sites pour la création de musique :
   * [Suno](https://suno.com/)
   * [Udio](https://www.udio.com/)
