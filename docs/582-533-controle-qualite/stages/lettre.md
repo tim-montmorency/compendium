@@ -38,15 +38,14 @@ Votre lettre doit contenir les sections suivantes:
 - [ ] Mise en page (Les sections sont clairement identifiées et bien séparées, l'interligne est présent et la mise en page est épurée)
 
 ## Création de la lettre
-Vous pouvez créer votre dans le logiciel de votre choix, elle devra ensuite être remise au format .pdf. 
+Vous pouvez créer votre dans le logiciel de votre choix, elle devra ensuite être remise au format .pdf et pouvoir être imprimé au format 8 1/2 x 11. 
 
 Voici quelques logiciels pouvant être utilisés pour la lettre:     
 
 - Figma
 - Canva
 - Word
-- Doit pouvoir être imprimé au format lettre 8 1/2 x 11.
-- 
+  
 **Rappel: Gardez le tout simple, une lettre word suffit! On ne veut pas pleins de couleurs ou de fioritures.**
 
 ## Exemples de lettre
