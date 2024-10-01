@@ -21,7 +21,7 @@ Vous serez également évalués sur les éléments suivants:
 - [ ] Mise en page (Les sections sont clairement identifiées et bien séparées, le cv est agréable visuellement)
 
 ## Création du CV
-Vous pouvez créer le cv dans le logiciel de votre choix, il devra ensuite être remis au format .pdf. 
+Vous pouvez créer le cv dans le logiciel de votre choix, il devra ensuite être remis au format .pdf et pouvoir être imprimé au format 8 1/2 x 11. 
 
 Voici quelques logiciels pouvant être utilisés pour le CV:     
 
@@ -29,7 +29,6 @@ Voici quelques logiciels pouvant être utilisés pour le CV:
 - Canva
 - Word
 - <https://www.hellowork.com/fr-fr/outil/cv.html>
-- Doit pouvoir être imprimé au format lettre 8 1/2 x 11.
 
 ## Exemples de CV
 [🔍 Carolyn Stransky](https://carolstran.github.io/cv/){ .md-button }      
