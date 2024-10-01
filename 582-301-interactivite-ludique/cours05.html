@@ -11742,6 +11742,12 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">};</span>
 </code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">refreshBody()</p>
+<p>Dans un groupe static, si on change l'attribut d'une image (ex: son origine, son scale), il faut appeler la fonction <code>refreshBody()</code> pour appliquer les changements.</p>
+<div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">platforms</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="mf">600</span><span class="p">,</span><span class="w"> </span><span class="mf">300</span><span class="p">,</span><span class="w"> </span><span class="s2">"ground"</span><span class="p">).</span><span class="nx">setScale</span><span class="p">(</span><span class="mf">3</span><span class="p">).</span><span class="nx">refreshBody</span><span class="p">();</span>
+</code></pre></div>
+</div>
 <div class="admonition info">
 <p class="admonition-title">blocked vs. touching</p>
 <p><code>this.monBonhomme.body.blocked.down</code> est spécifique aux collisions avec des objets statiques ou les bordures du monde (par exemple, le sol ou un mur solide).</p>
