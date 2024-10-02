@@ -28,7 +28,7 @@ Aperçu du résultat 👇
         https://tim-montmorency.com/compendium/582-111–web1/exercices/submit/amongus.html
 Vous devriez maintenant être capable de créer des personnages similaires à ceux-ci en soumettant votre formulaire:
 
-![video](https://github.com/user-attachments/assets/58e9af6c-0b57-4811-ba4f-bef11fee0639)
+![type:video](https://github.com/user-attachments/assets/58e9af6c-0b57-4811-ba4f-bef11fee0639)
 
 ## Notes de cours
 
