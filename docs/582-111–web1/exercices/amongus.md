@@ -23,6 +23,7 @@ Aperçu du résultat 👇
 <br><br>Par défaut, l'option **"Aucun"** doit-être sélectionné.
 1. Ajoutez une boite à cocher avec la mention **"Imposteur 🗡"** permettant de sélectionner si le personnage est un imposteur ou non ✅.
 1. Ajoutez finalement un bouton avec la mention **"Créer mon personnage"** permettant de soumettre le formulaire et d'envoyer ses informations via une méthode **get** à l'adresse suivante:
+
 !!! tip
 
         https://tim-montmorency.com/compendium/582-111–web1/exercices/submit/amongus.html
