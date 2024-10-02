@@ -16,9 +16,15 @@ Aperçu du résultat 👇
 
 ## Médias
 
-[Simpsons]([https://github.com/user-attachments/files/17175377/simpsons.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/simpsons.webp))
+Simpsons
+!!! note
 
-[Donatello]([https://github.com/user-attachments/files/17175378/donatello.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/donatello.webp))
+    https://github.com/user-attachments/files/17175377/simpsons.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/simpsons.webp
+
+Donatello
+!!! note
+
+    https://github.com/user-attachments/files/17175378/donatello.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/donatello.webp
 
 
 
@@ -44,7 +50,7 @@ Aperçu du résultat 👇
 * Image des Simpsons
 * Étienne Maxou
 * Image de Donatello
-* iFrame d'une publicité de [Caramilk](https://www.youtube.com/watch?v=GIGozijEnHQ) .
+* iFrame d'une publicité de Caramilk    https://www.youtube.com/watch?v=GIGozijEnHQ 
 * 4
 
 ## Notes de cours
