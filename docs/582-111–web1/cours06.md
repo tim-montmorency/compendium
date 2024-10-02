@@ -1,5 +1,4 @@
 # Cours 6
-[stop]
 
 ## Formulaire avancé
 ![icon (14)](https://github.com/user-attachments/assets/eceb7f15-970e-47d5-b4a4-c9d8e9f791a2)
