@@ -19,12 +19,12 @@ Aperçu du résultat 👇
 Simpsons
 !!! note
 
-    https://github.com/user-attachments/files/17175377/simpsons.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/simpsons.webp
+      https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/simpsons.webp
 
 Donatello
 !!! note
 
-    https://github.com/user-attachments/files/17175378/donatello.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/donatello.webp
+     https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/donatello.webp
 
 
 
