@@ -21,7 +21,7 @@ Aperçu du résultat 👇
 ```https://github.com/user-attachments/assets/9430058b-2432-46c5-ab41-fe7c082c2227```
 ```https://github.com/user-attachments/assets/897a1095-4f41-44dc-9343-18db355e643f```
 ```https://github.com/user-attachments/assets/46a0041d-8b39-4e09-8a36-5e069e2ff550```
-```https://github.com/user-attachments/assets/e71d56a3-3b14-4aef-a2a9-de2441af7704)```
+```https://github.com/user-attachments/assets/e71d56a3-3b14-4aef-a2a9-de2441af7704```
 
 ## Requis
 
