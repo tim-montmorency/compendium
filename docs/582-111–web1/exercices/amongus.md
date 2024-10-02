@@ -12,7 +12,7 @@ Aperçu du résultat 👇
 ## Requis fonctionnels
 
 
-1. La page de résultat s'attend à recevoir les informations suivantes: `name`, `color`, `hat` et `impostor`. Il faudra donc nommer vos champs de formulaire en conséquence. Le formulaire doit avoir la classe : personnage.
+1. La page de résultat s'attend à recevoir les informations suivantes: `name`, `color`, `hat` et `impostor`. Il faudra donc nommer vos champs de formulaire en conséquence. Le formulaire doit avoir la classe : **personnage**.
 1. Créez un champ de texte permettant d'entrer un nom de personnage. Ce champ doit être obligatoire et limiter l'utilisateur à un nom entre 2 et 20 caractères.<br><br>À titre indicatif, affichez le texte **"Red**" en attendant que l'usager insère le nom de son choix.
 1. Créez ensuite un champ permettant de choisir la couleur du personnage 🎨.
 1. À l'aide de boutons radio, offrez une sélection de chapeaux 🎩. Notez la valeur à passer lorsque cette option est sélectionnée, suivie du texte à afficher à l'écran:
