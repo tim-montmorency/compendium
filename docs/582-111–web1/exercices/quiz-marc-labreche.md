@@ -16,9 +16,9 @@ Aperçu du résultat 👇
 
 ## Médias
 
-[Simpsons](https://github.com/user-attachments/files/17175377/simpsons.webp.zip)
+[Simpsons]([https://github.com/user-attachments/files/17175377/simpsons.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/simpsons.webp))
 
-[Donatello](https://github.com/user-attachments/files/17175378/donatello.webp.zip)
+[Donatello]([https://github.com/user-attachments/files/17175378/donatello.webp.zip](https://tim-montmorency.com/timdoc/582-111MO/html/details-et-summary/exercices/quiz-marc-labreche/images/donatello.webp))
 
 
 
