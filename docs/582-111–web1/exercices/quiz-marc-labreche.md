@@ -44,7 +44,7 @@ Aperçu du résultat 👇
 * Image des Simpsons
 * Étienne Maxou
 * Image de Donatello
-* iFrame d'une publicité de Caramilk .
+* iFrame d'une publicité de [Caramilk](https://www.youtube.com/watch?v=GIGozijEnHQ) .
 * 4
 
 ## Notes de cours
