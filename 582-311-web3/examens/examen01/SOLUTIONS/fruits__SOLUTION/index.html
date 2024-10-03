@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<!-- ======================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+
+▗▖  ▗▖▗▄▄▄▖    ▗▄▄▖  ▗▄▖  ▗▄▄▖    ▗▖  ▗▖ ▗▄▖ ▗▄▄▄ ▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖▗▄▄▖
+▐▛▚▖▐▌▐▌       ▐▌ ▐▌▐▌ ▐▌▐▌       ▐▛▚▞▜▌▐▌ ▐▌▐▌  █  █  ▐▌     █  ▐▌   ▐▌ ▐▌
+▐▌ ▝▜▌▐▛▀▀▘    ▐▛▀▘ ▐▛▀▜▌ ▝▀▚▖    ▐▌  ▐▌▐▌ ▐▌▐▌  █  █  ▐▛▀▀▘  █  ▐▛▀▀▘▐▛▀▚▖
+▐▌  ▐▌▐▙▄▄▖    ▐▌   ▐▌ ▐▌▗▄▄▞▘    ▐▌  ▐▌▝▚▄▞▘▐▙▄▄▀▗▄█▄▖▐▌   ▗▄█▄▖▐▙▄▄▖▐▌ ▐▌
+
+Ce fichier doit être consulté, mais pas modifié.
+
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+======================================================================= -->
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 1 - Les fruits</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script defer src="./scripts.js"></script>
+</head>
+
+<body data-bs-theme="dark">
+
+    <div class="container">
+        <div class="row g-4 text-center">
+            <div class="col-6 col-sm-4 col-md">
+                <span class="label" id="apple-label">0</span>
+                <div class="sprite" id="apple"></div>
+            </div>
+            <div class="col-6 col-sm-4 col-md">
+                <span class="label" id="orange-label">0</span>
+                <div class="sprite" id="orange"></div>
+            </div>
+            <div class="col-6 col-sm-4 col-md">
+                <span class="label" id="cherries-label">0</span>
+                <div class="sprite" id="cherries"></div>
+            </div>
+            <div class="col-6 col-sm-4 col-md">
+                <span class="label" id="kiwi-label">0</span>
+                <div class="sprite" id="kiwi"></div>
+            </div>
+            <div class="col-6 col-sm-4 col-md">
+                <span class="label" id="melon-label">0</span>
+                <div class="sprite" id="melon"></div>
+            </div>
+            <div class="col-6 col-sm-4 col-md">
+                <span class="label" id="banana-label">0</span>
+                <div class="sprite" id="banana"></div>
+            </div>
+            <div class="col-12">
+                <hr>
+                <span class="total" id="total">0 fruits</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast m-2" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <span class="me-2">🏆</span>
+            <strong class="me-auto">Nouvel accomplissement</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Vous avez cliqué sur tous les fruits
+        </div>
+    </div>
+
+</body>
+
+</html>
