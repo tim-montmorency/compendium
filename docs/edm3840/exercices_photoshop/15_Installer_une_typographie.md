@@ -6,7 +6,7 @@ Le but de cet exercice est d'installer une typographie téléchargeable.
 
 ## Matériel
 Télécharger le dossier de police "unique":      
-[📁 Document de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjI_vOcd3nNJoxX-YMvtzr0BvAJGrpnArev0RWH74MjVwQ?e=veL2bB){ .md-button }   <br>
+[📁 Document de départ](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/EhPZryCzibJClHRIO2ec2V8BFnHMHXRSjkskd-HlEK5jxA?e=CRGUZ8){ .md-button }   <br>
 
 
 
