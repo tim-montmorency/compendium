@@ -26,7 +26,7 @@ balise d’ouverture `<title>`+ texte + balise de fermeture `</title>`
 
 Une balise peut avoir des attributs avec ou sans valeurs
 ```
-<img **src**="images/blocnotes.png" **alt**="Bloc-Notes">
+<img src="images/blocnotes.png" alt="Bloc-Notes">
 ```
 
 
@@ -74,7 +74,7 @@ Une balise peut avoir des attributs avec ou sans valeurs
 !!! note
 
 
-    **<!–**Ceci est un commentaire **-->**
+    <!–- Ceci est un commentaire -->
 
 
 ## Les citations
@@ -146,9 +146,9 @@ Division en 3 parties: en-tête, corps et pied du tableau.
 
 `<img>` : indique que l’on va insérer une image
 
-  * **src** : indique source de l’image (i.e. où se trouve l’image)
-  * **alt** : indique un texte alternatif pour décrire l’image
-  * **height** et **width** : hauteur et largeur de l’image
+* **src** : indique source de l’image (i.e. où se trouve l’image)
+* **alt** : indique un texte alternatif pour décrire l’image
+* **height** et **width** : hauteur et largeur de l’image
 
 
 ## Légende de média
