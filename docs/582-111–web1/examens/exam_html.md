@@ -98,13 +98,15 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 * [ ] Ajoutez un saut de ligne, suivi d'un paragraphe en caractère gras : **Ce qui fait de notre communauté un endroit spécial :**
 * [ ] Maintenant, ajoutez une liste ordonnée séparée par des sauts de ligne après chaque élément de la liste.
 * [ ] Ajoutez les paragraphes ci-dessus.
-* [ ] Dans chacun des paragraphe, les termes : Diversité des Jeux :
+* [ ] Dans chacun des paragraphe, les termes :
+-       Diversité des Jeux :
 -       Tous Niveaux Confondus :
 -       Événements Communautaires :
 -       Actualités et Discussions : 
 -       Respect et Tolérance :
 
 sont formattés en Texte important (indique que le texte a une importance particulière ou un certain sérieux voire un caractère urgent.)
+
 * [ ] Dans le 3e élément de la liste, ajoutez le texte : **nouer des amitiés** c'est un texte mis en exposant.
 * [ ] Dans le 5e élément de la liste, ajoutez le texte : **respect** c'est un texte mis en caractère gras.
 * [ ] Dans le 6e élément de la liste, ajoutez le texte : **plongez dans un univers où le jeu vidéo devient une expérience sociale inoubliable** c'est un span et à l'intérieur de ce texte, **expérience sociale** est souligné.
