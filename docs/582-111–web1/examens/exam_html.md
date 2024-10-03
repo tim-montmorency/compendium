@@ -82,7 +82,7 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 * [ ] Dans la `<div>`, ajouter une balise représentant un groupe d'éléments ayant un lien indirect avec le sujet principal de la page.
 * [ ] Écrivez le titre en `<h2>` : **Nos jeux**.
 * [ ] Ajoutez une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le **#** comme lien href) **Hordes, Kingdom Rush, Happy Wheels, Forge of Empires, Dofus et Slither**.
-* [ ]Maintenant, créez un bloc de citation contenant le texte suivant : **Rien n'est vrai. Tout est permis** et citez l'auteur :** Assassin’s Creed**. (Assurez-vous de bien vérifier comment écrire un bloc de citation)
+* [ ] Maintenant, créez un bloc de citation contenant le texte suivant : **Rien n'est vrai. Tout est permis** et citez l'auteur :**Assassin’s Creed**. (Assurez-vous de bien vérifier comment écrire un bloc de citation)
 * [ ] Suivi de la vidéo YouTube ci-dessus avec une largeur de 350 et une hauteur de 197
 * [ ] Fermez votre groupe d'éléments ayant un lien indirect avec le sujet à l'aide de sa balise fermante.
 
@@ -90,35 +90,44 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 ## La colonne de droite
 
 * [ ] Créez une section.
-* [ ] Dans votre section, ajoutez un titre `<h3>` avec le texte : Bienvenue dans notre Communauté de Jeux Vidéo : Où les Mondes Virtuels Deviennent Réalité!
-* [ ] Suivi d'un paragraphe : Chez nous, les jeux vidéo ne sont pas seulement un passe-temps, ils sont une passion partagée qui nous unit. Notre communauté est un espace dynamique où les joueurs du monde entier se réunissent pour célébrer leur amour pour les jeux vidéo, quels que soient leurs genres, plateformes ou niveaux d'expérience. Nous sommes bien plus qu'un simple groupe de joueurs, nous sommes une famille virtuelle, unie par notre dévouement à l'univers des jeux vidéo.
-* [ ] Ajoutez un saut de ligne, suivi d'un paragraphe en caractère gras : Ce qui fait de notre communauté un endroit spécial :
+* [ ] Dans votre section, ajoutez un titre `<h3>` avec le texte : **Bienvenue dans notre Communauté de Jeux Vidéo : Où les Mondes Virtuels Deviennent Réalité!**
+* [ ] Suivi d'un paragraphe :
+      !!! note
+
+      Chez nous, les jeux vidéo ne sont pas seulement un passe-temps, ils sont une passion partagée qui nous unit. Notre communauté est un espace dynamique où les joueurs du monde entier se réunissent pour célébrer leur amour pour les jeux vidéo, quels que soient leurs genres, plateformes ou niveaux d'expérience. Nous sommes bien plus qu'un simple groupe de joueurs, nous sommes une famille virtuelle, unie par notre dévouement à l'univers des jeux vidéo.
+* [ ] Ajoutez un saut de ligne, suivi d'un paragraphe en caractère gras : **Ce qui fait de notre communauté un endroit spécial :**
 * [ ] Maintenant, ajoutez une liste ordonnée séparée par des sauts de ligne après chaque élément de la liste.
 * [ ] Ajoutez les paragraphes ci-dessus.
-* [ ] Dans chacun des paragraphe, les termes : Diversité des Jeux : Tous Niveaux Confondus : Événements Communautaires : Actualités et Discussions : et Respect et Tolérance : sont formattés en Texte important (indique que le texte a une importance particulière ou un certain sérieux voire un caractère urgent.)
-* [ ] Dans le 3e élément de la liste, ajoutez le texte : nouer des amitiés c'est un texte mis en exposant.
-* [ ] Dans le 5e élément de la liste, ajoutez le texte : respect c'est un texte mis en caractère gras.
-* [ ] Dans le 6e élément de la liste, ajoutez le texte : plongez dans un univers où le jeu vidéo devient une expérience sociale inoubliable c'est un span et à l'intérieur de ce texte, expérience sociale est souligné.
-* [ ] Une fois la liste terminée, ajoutez un paragraphe avec le texte : N'oubliez pas de vous présenter sur notre forum et de partager votre histoire de joueur. Vous êtes sur le point de rejoindre une communauté passionnée qui comprend votre amour pour les jeux vidéo. Bienvenue chez vous !
-* [ ] N'oubliez pas de fermer votre section et votre div.
+* [ ] Dans chacun des paragraphe, les termes : Diversité des Jeux :
+-       Tous Niveaux Confondus :
+-       Événements Communautaires :
+-       Actualités et Discussions : 
+-       Respect et Tolérance :
+
+sont formattés en Texte important (indique que le texte a une importance particulière ou un certain sérieux voire un caractère urgent.)
+* [ ] Dans le 3e élément de la liste, ajoutez le texte : **nouer des amitiés** c'est un texte mis en exposant.
+* [ ] Dans le 5e élément de la liste, ajoutez le texte : **respect** c'est un texte mis en caractère gras.
+* [ ] Dans le 6e élément de la liste, ajoutez le texte : **plongez dans un univers où le jeu vidéo devient une expérience sociale inoubliable** c'est un span et à l'intérieur de ce texte, **expérience sociale** est souligné.
+* [ ] Une fois la liste terminée, ajoutez un paragraphe avec le texte : **N'oubliez pas de vous présenter sur notre forum et de partager votre histoire de joueur. Vous êtes sur le point de rejoindre une communauté passionnée qui comprend votre amour pour les jeux vidéo. Bienvenue chez vous !**
+* [ ] N'oubliez pas de fermer votre `<section>` et votre `<div>`.
 
 
 ## L'infolettre
 
 * [ ] Ajoutez un titre en `<h2>` et le texte est : **Inscrivez-vous à notre infolettre**
 * [ ] Ajoutez une forme avec l'action ci-dessus.
-* [ ] Ajoutez un champ de texte **"requis"** avec le libellé : Prénom ainsi qu'un **id="prenom"**, **name="prenom"** et **placeholder="Entrez votre prénom"**
-* [ ] Ajoutez un champ de texte **"requis"** avec le libellé : Nom ainsi qu'un **id="nom"**, **name="nom"** et **placeholder="Entrez votre nom"**
-* [ ] Ajoutez un champ de courriel **"requis"** avec le libellé : Courriel ainsi qu'un **id="email"**, **name="email"** et **placeholder="Entrez votre courriel"**
-* [ ] Ajoutez un champ date avec le libellé : Date ainsi qu'un **id="date"**, **name="date"**, un **minimum "1980-01-01"** et un **maximum "2000-01-01"**
-* [ ] Ajoutez une boîtes à cocher avec le libellé : Je veux recevoir l'infolettre. **name="remember"**, **id="remember"**
-* [ ] Finalement, ajoutez un bouton afin de soumettre le formulaire avec le texte : Soumettre et **id="bouton"**
+* [ ] Ajoutez un champ de texte **"requis"** avec le libellé : **Prénom** ainsi qu'un **id="prenom"**, **name="prenom"** et **placeholder="Entrez votre prénom"**
+* [ ] Ajoutez un champ de texte **"requis"** avec le libellé : **Nom** ainsi qu'un **id="nom"**, **name="nom"** et **placeholder="Entrez votre nom"**
+* [ ] Ajoutez un champ de courriel **"requis"** avec le libellé : **Courriel** ainsi qu'un **id="email"**, **name="email"** et **placeholder="Entrez votre courriel"**
+* [ ] Ajoutez un champ date avec le libellé : **Date** ainsi qu'un **id="date"**, **name="date"**, un **minimum "1980-01-01"** et un **maximum "2000-01-01"**
+* [ ] Ajoutez une boîtes à cocher avec le libellé : **Je veux recevoir l'infolettre**. **name="remember"**, **id="remember"**
+* [ ] Finalement, ajoutez un bouton afin de soumettre le formulaire avec le texte : **Soumettre** et **id="bouton"**
 
 
 ## Le pied de page
 
 * [ ] Finalement, ajouter au pied de page la phrase suivante : **Tous droits réservés Collège Montmorency 2023**.
-* [ ] Suivi d'une navigation à l'aide d'une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le **#** comme lien href)** Jeux, Produit, Tous les NFT, Réseau social, Support d'aide et Contact**.
+* [ ] Suivi d'une navigation à l'aide d'une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le **#** comme lien href)**Jeux, Produit, Tous les NFT, Réseau social, Support d'aide et Contact**.
 
 
 ## Remise
