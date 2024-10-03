@@ -33,7 +33,7 @@ Bienvenue dans le Monde du Cirque
 ```
 * [ ] Créer la navigation principale : 
 
- * [ ] Ajouter une balise `<nav>` contenant une liste non ordonnée avec des liens vers différentes sections du site.
+ * [ ] Ajouter une balise `<nav>` contenant une liste non ordonnée avec des liens vers différentes sections du site. (Utiliser les id)
 ```
 
 Histoire du Cirque
@@ -71,8 +71,8 @@ Au 20ème siècle, le cirque a continué d'évoluer avec l'apparition de nouvell
 Origines et évolution du cirque à travers le temps.
 ```
 * [ ] Insérer une citation avec une balise <blockquote>.
-```
 
+```
 "Le cirque est le seul endroit où l'on peut voir des miracles." - Anonyme
 ```
 * [ ] Ajouter une liste non ordonnée et une liste ordonnée.
