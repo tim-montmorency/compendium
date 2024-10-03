@@ -65,7 +65,7 @@ Au 19ème siècle, le cirque moderne a commencé à prendre forme avec l'introdu
 Au 20ème siècle, le cirque a continué d'évoluer avec l'apparition de nouvelles disciplines comme le trapèze volant et les numéros de haute voltige. Aujourd'hui, le cirque est un art reconnu et apprécié dans le monde entier.
 ```
 
-* [ ] Ajouter un paragraphe : mettre en gras le texte Origine et l'emphase sur écolution.
+* [ ] Ajouter un paragraphe : mettre en gras le texte Origine et l'emphase sur évolution.
 ```
 
 Origines et évolution du cirque à travers le temps.
@@ -90,7 +90,7 @@ Le cirque moderne
 
 * [ ] Ajouter une balise `<h2>` pour les **Artistes et Performances**. 
 
-* [ ] Insérer un tableau `<table>` avec des en-têtes `<thead>`, des lignes `<tr>`, des cellules `<td>`, et des cellules fusionnées avec **colspan** et **rowspan**.
+* [ ] Insérer un tableau `<table>` avec un titre, des en-têtes `<thead>`, des lignes `<tr>`, des cellules `<td>`, et des cellules fusionnées avec **colspan** et **rowspan**.
 ```
 
 Artistes de Cirque Célèbres
@@ -117,7 +117,7 @@ James A. Bailey                    	19ème siècle
 
 * [ ] Insérer une vidéo avec une balise `<video>`. 
 
-* [ ] Ajouter un formulaire de contact avec une balise `<form>` et des champs de saisie `<input>`. 
+* [ ] Ajouter un formulaire de contact avec une balise `<form>` et des champs de saisie `<input>`. N'oublier pas vos id et name (name, ville et pays) 
 
 * [ ] Ajouter la section Galerie : 
 
@@ -131,7 +131,7 @@ James A. Bailey                    	19ème siècle
 
 * [ ] Ajouter une balise `<section>` pour le contact.
 * [ ] Ajouter un titre avec une balise `<h2>` **Contact**.
-* [ ] Ajouter une `<form>` avec des balises `<input>`
+* [ ] Ajouter une `<form>` avec des balises `<input>`, vos id et name sont name, message et date.
 * [ ] La section message doit avoir 30 colonnes et 10 rangées.
 
 * [ ] Inclure un paragraphe `<p>` pour les informations de contact.
