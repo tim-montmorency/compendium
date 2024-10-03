@@ -92,7 +92,7 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 * [ ] Créez une section.
 * [ ] Dans votre section, ajoutez un titre `<h3>` avec le texte : **Bienvenue dans notre Communauté de Jeux Vidéo : Où les Mondes Virtuels Deviennent Réalité!**
 * [ ] Suivi d'un paragraphe :
-      !!! note
+!!! note
 
       Chez nous, les jeux vidéo ne sont pas seulement un passe-temps, ils sont une passion partagée qui nous unit. Notre communauté est un espace dynamique où les joueurs du monde entier se réunissent pour célébrer leur amour pour les jeux vidéo, quels que soient leurs genres, plateformes ou niveaux d'expérience. Nous sommes bien plus qu'un simple groupe de joueurs, nous sommes une famille virtuelle, unie par notre dévouement à l'univers des jeux vidéo.
 * [ ] Ajoutez un saut de ligne, suivi d'un paragraphe en caractère gras : **Ce qui fait de notre communauté un endroit spécial :**
@@ -121,7 +121,7 @@ sont formattés en Texte important (indique que le texte a une importance partic
 * [ ] Ajoutez un champ de texte **"requis"** avec le libellé : **Prénom** ainsi qu'un **id="prenom"**, **name="prenom"** et **placeholder="Entrez votre prénom"**
 * [ ] Ajoutez un champ de texte **"requis"** avec le libellé : **Nom** ainsi qu'un **id="nom"**, **name="nom"** et **placeholder="Entrez votre nom"**
 * [ ] Ajoutez un champ de courriel **"requis"** avec le libellé : **Courriel** ainsi qu'un **id="email"**, **name="email"** et **placeholder="Entrez votre courriel"**
-* [ ] Ajoutez un champ date avec le libellé : **Date** ainsi qu'un **id="date"**, **name="date"**, un **minimum "1980-01-01"** et un **maximum "2000-01-01"**
+* [ ] Ajoutez un champ date avec le libellé : **Date** ainsi qu'un **id="date"**, **name="date"**, un **minimum "1980-01-01"** et un **maximum "2025-01-01"**
 * [ ] Ajoutez une boîtes à cocher avec le libellé : **Je veux recevoir l'infolettre**. **name="remember"**, **id="remember"**
 * [ ] Finalement, ajoutez un bouton afin de soumettre le formulaire avec le texte : **Soumettre** et **id="bouton"**
 
