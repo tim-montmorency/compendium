@@ -6,7 +6,7 @@ hide:
 # Réalité Virtuelle
 
 ## Vue synoptique
-<img src="images/vueSynoptique.jpg" =400x>
+<img src="images/vueSynoptique.jpg" height="400" />
 
 ## Descriptif du cours
 
