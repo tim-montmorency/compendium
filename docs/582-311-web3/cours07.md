@@ -15,6 +15,10 @@ Vous devrez compléter deux exercices en respectant les consignes de chaque part
 
 Toute modification non autorisée du code ou toute structure incorrecte du projet peut entraîner une perte de points.
 
+Vous êtes autorisés à utiliser Internet et vos notes de cours, mais l’utilisation d’intelligences artificielles (ChatGPT, Copilot, Claude, Gemini, etc.) est strictement interdite.
+
+Tout plagiat ou partage de documents entraînera une note de 0.
+
 ## Durée
 
 La durée de l'examen est de **2h30**
@@ -34,6 +38,7 @@ Vous devez reproduire le comportement visible dans la vidéo ci-dessous :
 ### Code de départ
 
 [fruits.zip :material-download:](./examens/examen01/fruits.zip){ .md-button .md-button--primary }
+<!-- PM examen_01 -->
 
 ### Consignes
 
@@ -48,6 +53,7 @@ Vous devez réaliser cette partie en rédigeant **uniquement du JavaScript**. Au
 ### Code de départ
 
 [vieille_guerriere.zip :material-download:](./examens/examen01/vieille_guerriere.zip){ .md-button .md-button--primary }
+<!-- PM examen_01 -->
 
 ### Consignes
 
