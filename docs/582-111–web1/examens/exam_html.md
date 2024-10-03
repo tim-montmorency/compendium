@@ -1,11 +1,15 @@
 # EXAMEN HTML partie 2 (pratique).
 Pour cet EXAMEN vous allez reproduire un site web d'une communauté de gamers.
 
-![Capture d’écran, le 2024-10-03 à 13 28 03](https://github.com/user-attachments/assets/edd2aca4-27b9-42c1-bece-5588019b06a8)
-![Capture d’écran, le 2024-10-03 à 13 27 56](https://github.com/user-attachments/assets/eee929ba-979f-4741-a026-09dcbc2ad3be)
-![Capture d’écran, le 2024-10-03 à 13 27 45](https://github.com/user-attachments/assets/f27d5843-4bc8-428f-8de5-a7eb31d8a008)
-![Capture d’écran, le 2024-10-03 à 13 27 34](https://github.com/user-attachments/assets/ef4abdd8-81a2-4108-a10e-35b8e2ab6c8d)
 ![Capture d’écran, le 2024-10-03 à 13 27 19](https://github.com/user-attachments/assets/25e41692-6636-4306-a048-b42b9093d990)
+![Capture d’écran, le 2024-10-03 à 13 27 34](https://github.com/user-attachments/assets/ef4abdd8-81a2-4108-a10e-35b8e2ab6c8d)
+![Capture d’écran, le 2024-10-03 à 13 27 45](https://github.com/user-attachments/assets/f27d5843-4bc8-428f-8de5-a7eb31d8a008)
+![Capture d’écran, le 2024-10-03 à 13 27 56](https://github.com/user-attachments/assets/eee929ba-979f-4741-a026-09dcbc2ad3be)
+![Capture d’écran, le 2024-10-03 à 13 28 03](https://github.com/user-attachments/assets/edd2aca4-27b9-42c1-bece-5588019b06a8)
+
+
+
+
 
 
 
