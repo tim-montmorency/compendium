@@ -5,7 +5,7 @@ Pour cet exercice, vous devrez recréer un mini quiz portant sur Marc Labrèche 
 Aperçu du résultat 👇
 
 ![Capture d’écran, le 2024-09-29 à 10 55 07](https://github.com/user-attachments/assets/b86798da-6a7d-45da-b056-197b21757d7f)
-![Capture d’écran, le 2024-09-29 à 10 49 00](https://github.com/user-attachments/assets/9f556f6c-b226-447d-865a-66e458974b91)
+![Capture d’écran, le 2024-10-03 à 11 16 47](https://github.com/user-attachments/assets/7e2b5cfb-7d0e-4144-9e97-35531986f589)
 ![Capture d’écran, le 2024-09-29 à 10 49 18](https://github.com/user-attachments/assets/4f70516d-6149-4a6c-aaee-094fcfb64d42)
 ![Capture d’écran, le 2024-09-29 à 11 38 22](https://github.com/user-attachments/assets/785dbb47-c16e-4c08-a4ce-3c6467e7798d)
 
