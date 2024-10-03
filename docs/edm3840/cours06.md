@@ -5,4 +5,4 @@
   [📁 Projet 1](projet01.md){ .md-button }   <br>
 
 ## Évaluation
-  * Si je ne suis pas capable de passer tout le monde, je prendrai des rendez-vous. 
+  * Ceux qui peuvent rester à la période du dîner, je vais vous rencontrer à ce moment pour mes commentaires.
