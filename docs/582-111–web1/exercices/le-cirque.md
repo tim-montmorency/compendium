@@ -23,8 +23,6 @@ Vidéo
 
 * [ ] Créer la structure de base du document HTML : 
 
-  * [ ] Spécifier la langue du document. 
-
   * [ ] Ajouter les balises `<head>` et `<body>`. 
 
 * [ ] Ajouter l’en-tête du site web : 
