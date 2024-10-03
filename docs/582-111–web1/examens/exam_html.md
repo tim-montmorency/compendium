@@ -59,7 +59,7 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 
 * [ ] Ouvrez le document de départ.
 * [ ] Dans le fichier index.html, ajouter les balises de départ nécessaire pour un document HTML.
-* [ ] Dans la tête de votre fichier index.html, ajouter le titre : MYKD à votre page.
+* [ ] Dans la tête de votre fichier index.html, ajouter le titre : **MYKD** à votre page.
 * [ ] Et n'oubliez pas de lié le fichier style.css à votre fichier index.html.
 * [ ] Maintenant, dans le body, ajouter les trois balises principales.
 
@@ -69,20 +69,20 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 * [ ] Dans l'en-tête, ajoutez l'image logo.png.
 * [ ] Suivi d'une navigation (n'oubliez pas les balises de navigation) à l'aide d'une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le # comme lien href) Accueil, À propos de nous, Tournoi, Pages, Nouvelles et Contact.
 * [ ] Maintenant, dans la partie principale (le contenu), ajouter l'image banner.webp.
-* [ ] Ajoutez un titre h5 avec le texte suivant : Membre de notre équipe.
-* [ ] Ajoutez un titre h2 avec le texte suivant : Membre actif de notre équipe.
+* [ ] Ajoutez un titre `<h5>` avec le texte suivant : **Membre de notre équipe**.
+* [ ] Ajoutez un titre `<h2>` avec le texte suivant : **Membre actif de notre équipe**.
 * [ ] Ensuite, ajouter un tableau qui aura 2 rangées. La première rangée contient 4 colonnes avec les images : team01, team02, team03 et team04.
-* [ ] La 2e rangée contient 2 colonnes fusionnées. Les deux premières colonnes fusionnées contiennent le texte : Notre meilleur joueur ➠ en h2.
+* [ ] La 2e rangée contient 2 colonnes fusionnées. Les deux premières colonnes fusionnées contiennent le texte : **Notre meilleur joueur ➠** en `<h2>`.
 * [ ] Les 2 dernières colonnes fusionnées contiennent l'image : meilleur.webp
 * [ ] Par la suite, créer une div.
 
 
 ## La colonne de gauche
 
-* [ ] Dans la div, ajouter une balise représentant un groupe d'éléments ayant un lien indirect avec le sujet principal de la page.
-* [ ] Écrivez le titre en h2 : Nos jeux.
-* [ ] Ajoutez une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le # comme lien href) Hordes, Kingdom Rush, Happy Wheels, Forge of Empires, Dofus et Slither.
-* [ ]Maintenant, créez un bloc de citation contenant le texte suivant entre des balises q : Rien n'est vrai. Tout est permis et citez l'auteur : Assassin’s Creed. (Assurez-vous de bien vérifier comment écrire un bloc de citation)
+* [ ] Dans la `<div>`, ajouter une balise représentant un groupe d'éléments ayant un lien indirect avec le sujet principal de la page.
+* [ ] Écrivez le titre en `<h2>` : **Nos jeux**.
+* [ ] Ajoutez une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le **#** comme lien href) **Hordes, Kingdom Rush, Happy Wheels, Forge of Empires, Dofus et Slither**.
+* [ ]Maintenant, créez un bloc de citation contenant le texte suivant : **Rien n'est vrai. Tout est permis** et citez l'auteur :** Assassin’s Creed**. (Assurez-vous de bien vérifier comment écrire un bloc de citation)
 * [ ] Suivi de la vidéo YouTube ci-dessus avec une largeur de 350 et une hauteur de 197
 * [ ] Fermez votre groupe d'éléments ayant un lien indirect avec le sujet à l'aide de sa balise fermante.
 
@@ -90,7 +90,7 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 ## La colonne de droite
 
 * [ ] Créez une section.
-* [ ] Dans votre section, ajoutez un titre h3 avec le texte : Bienvenue dans notre Communauté de Jeux Vidéo : Où les Mondes Virtuels Deviennent Réalité!
+* [ ] Dans votre section, ajoutez un titre `<h3>` avec le texte : Bienvenue dans notre Communauté de Jeux Vidéo : Où les Mondes Virtuels Deviennent Réalité!
 * [ ] Suivi d'un paragraphe : Chez nous, les jeux vidéo ne sont pas seulement un passe-temps, ils sont une passion partagée qui nous unit. Notre communauté est un espace dynamique où les joueurs du monde entier se réunissent pour célébrer leur amour pour les jeux vidéo, quels que soient leurs genres, plateformes ou niveaux d'expérience. Nous sommes bien plus qu'un simple groupe de joueurs, nous sommes une famille virtuelle, unie par notre dévouement à l'univers des jeux vidéo.
 * [ ] Ajoutez un saut de ligne, suivi d'un paragraphe en caractère gras : Ce qui fait de notre communauté un endroit spécial :
 * [ ] Maintenant, ajoutez une liste ordonnée séparée par des sauts de ligne après chaque élément de la liste.
@@ -105,20 +105,20 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 
 ## L'infolettre
 
-* [ ] Ajoutez un titre en h2 et le texte est : Inscrivez-vous à notre infolettre
+* [ ] Ajoutez un titre en `<h2>` et le texte est : **Inscrivez-vous à notre infolettre**
 * [ ] Ajoutez une forme avec l'action ci-dessus.
-* [ ] Ajoutez un champ de texte "requis" avec le libellé : Prénom ainsi qu'unid="prenom", name="prenom" et placeholder="Entrez votre prénom"
-* [ ] Ajoutez un champ de texte "requis" avec le libellé : Nom ainsi qu'unid="nom", name="nom" et placeholder="Entrez votre nom"
-* [ ] Ajoutez un champ de courriel "requis" avec le libellé : Courriel ainsi qu'unid="email", name="email" et placeholder="Entrez votre courriel"
-* [ ] Ajoutez un champ date avec le libellé : Date ainsi qu'unid="date", name="date", un minimum "1980-01-01" et un maximum "2000-01-01"
-* [ ] Ajoutez une boîtes à cocher avec le libellé : Je veux recevoir l'infolettre. name="remember", id="remember"
-* [ ] Finalement, ajoutez un bouton afin de soumettre le formulaire avec le texte : Soumettre et id="bouton"
+* [ ] Ajoutez un champ de texte **"requis"** avec le libellé : Prénom ainsi qu'un **id="prenom"**, **name="prenom"** et **placeholder="Entrez votre prénom"**
+* [ ] Ajoutez un champ de texte **"requis"** avec le libellé : Nom ainsi qu'un **id="nom"**, **name="nom"** et **placeholder="Entrez votre nom"**
+* [ ] Ajoutez un champ de courriel **"requis"** avec le libellé : Courriel ainsi qu'un **id="email"**, **name="email"** et **placeholder="Entrez votre courriel"**
+* [ ] Ajoutez un champ date avec le libellé : Date ainsi qu'un **id="date"**, **name="date"**, un **minimum "1980-01-01"** et un **maximum "2000-01-01"**
+* [ ] Ajoutez une boîtes à cocher avec le libellé : Je veux recevoir l'infolettre. **name="remember"**, **id="remember"**
+* [ ] Finalement, ajoutez un bouton afin de soumettre le formulaire avec le texte : Soumettre et **id="bouton"**
 
 
 ## Le pied de page
 
-* [ ] Finalement, ajouter au pied de page la phrase suivante : Tous droits réservés Collège Montmorency 2023.
-* [ ] Suivi d'une navigation à l'aide d'une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le # comme lien href) Jeux, Produit, Tous les NFT, Réseau social, Support d'aide et Contact.
+* [ ] Finalement, ajouter au pied de page la phrase suivante : **Tous droits réservés Collège Montmorency 2023**.
+* [ ] Suivi d'une navigation à l'aide d'une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le **#** comme lien href)** Jeux, Produit, Tous les NFT, Réseau social, Support d'aide et Contact**.
 
 
 ## Remise
