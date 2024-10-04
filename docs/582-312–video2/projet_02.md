@@ -72,6 +72,6 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 - Raconter une histoire cohérente qui exploite ces médiums.
 
 ### Exemple de projet
-[Pinterest](https://pin.it/77S2ohipa)
-[Vallée et Duhamel](http://valleeduhamel.com )
-[Photo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eg1BaJN7AnpGhTMNOu8r73gBKZsDRcGm0D8HiZZFIkJALQ?e=tJXZH9) 
+* [Pinterest](https://pin.it/77S2ohipa) 
+* [Vallée et Duhamel](http://valleeduhamel.com )
+* [Photo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eg1BaJN7AnpGhTMNOu8r73gBKZsDRcGm0D8HiZZFIkJALQ?e=tJXZH9) 
