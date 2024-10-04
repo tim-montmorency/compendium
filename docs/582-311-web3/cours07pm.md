@@ -7,8 +7,6 @@ tags:
 
 # Examen 01
 
-[STOP]
-
 Cet examen représente **20% de votre note finale**.
 
 Vous devrez compléter deux exercices en respectant les consignes de chaque partie.
