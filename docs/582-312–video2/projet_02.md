@@ -1,4 +1,4 @@
-# Consignes du Projet : Installation Immersive Multi-écrans avec Intelligence Artificielle
+# Installation Immersive Multi-écrans avec Intelligence Artificielle
 
 ## Objectif du projet :
 Raconter une histoire immersive en utilisant trois écrans, une télévision au sol, des speakers et des lumières interactives. Vous devez filmer vos propres séquences, intégrer **trois vidéos générées par l’intelligence artificielle (IA)**, et synchroniser certaines séquences vidéo avec le son.
@@ -59,4 +59,19 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
    Vous devez montrer une **synchronisation précise** entre les vidéos et le son pour créer des moments narratifs forts.
 
 4. **Interaction des lumières :**  
-   Les lumières doivent **réagir en fonction des vidéos et du son**, ajoutant une couche d'immersion à
+   Les lumières doivent **réagir en fonction des vidéos et du son**, ajoutant une couche d'immersion à votre projet.
+
+---
+
+### Résumé des attentes :
+
+- Tourner des vidéos originales.
+- Intégrer **trois vidéos créées par l’IA**.
+- Créer une bande sonore synchronisée avec certaines séquences vidéo.
+- Utiliser les lumières interactives pour renforcer l’expérience.
+- Raconter une histoire cohérente qui exploite ces médiums.
+
+### Exemple de projet
+[Pinterest](https://pin.it/77S2ohipa)
+[Vallée et Duhamel](http://valleeduhamel.com )
+[Photo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eg1BaJN7AnpGhTMNOu8r73gBKZsDRcGm0D8HiZZFIkJALQ?e=tJXZH9) 
