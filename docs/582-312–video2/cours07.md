@@ -4,7 +4,8 @@
 
 
 * ## Projet 2
-* Explication du [projet 2]
+
+* Explication du [projet 2](projet_02.md)
   * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EWARe1xWaRBKjEki4WRvD0UBga173W95fjX9bzgzUINTXA?e=y2hwrM)
   * Choisir journée de tournage (entre le 29 octobre au 17 novembre 2024).
   * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
