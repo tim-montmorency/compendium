@@ -1,7 +1,8 @@
 # Projet 2 : Installation Immersive Multi-écrans avec Intelligence Artificielle
 
 
-![](image/installation_01.png)
+![](assets/image/installation_01.png)
+
 
 ## Objectif du projet :
 Raconter une histoire immersive en utilisant trois écrans, une télévision au sol, des speakers et des lumières interactives. Vous devez filmer vos propres séquences, intégrer **trois vidéos générées par l’intelligence artificielle (IA)**, et synchroniser certaines séquences vidéo avec le son.
