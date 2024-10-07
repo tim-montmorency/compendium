@@ -18,5 +18,6 @@
   *  Excelle pour les humains et les émotions
   *  Texture, eau, lumière, paysage
   *  Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
-* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci. 
+* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.
+* Vous devez avoir une idée claire ce que ce que vous voulez produire dans Midjourney pour le prochain cours. 
   
