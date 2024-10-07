@@ -1,5 +1,7 @@
 # Cours 7
 
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
+
 ## Présentation du projet 1
 
 ## Explication du [projet 2](projet_02.md)
