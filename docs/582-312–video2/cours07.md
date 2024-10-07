@@ -15,7 +15,7 @@
 
 * Midjourney et RunWay
   *  Avoir les droits des images
-  *  Excelle pour humain et émotion
+  *  Excelle pour les humains et les émotions
   *  Texture, eau, lumière, paysage
   *  Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
 * Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci. 
