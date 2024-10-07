@@ -13,11 +13,12 @@
     * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00)
     * 1 équipe par studio
 
-* Midjourney et RunWay
-  *  Avoir les droits des images
-  *  Excelle pour les humains et les émotions
-  *  Texture, eau, lumière, paysage
-  *  Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
-* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.
-* Vous devez avoir une idée claire ce que ce que vous voulez produire dans Midjourney pour le prochain cours. 
+* Production du AI
+  * Midjourney et RunWay
+    *  Avoir les droits des images
+    *  Excelle pour les humains et les émotions
+    *  Texture, eau, lumière, paysage
+    *  Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
+  * Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.
+  * Vous devez avoir une idée claire ce que ce que vous voulez produire dans Midjourney pour le prochain cours. 
   
