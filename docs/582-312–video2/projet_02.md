@@ -19,7 +19,7 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 ### 2. Tournage et montage vidéo :
 
 - **Filmez vos propres séquences :**
-  - Vous devez filmer au moins **5 séquences vidéo originales** pour alimenter les écrans et la télévision.
+  - Vous devez filmer au moins **20 séquences vidéo originales** pour alimenter les écrans et la télévision.
   - **Synchronisation avec le son :** Quelques-unes de vos séquences doivent être **synchronisées avec des éléments sonores** spécifiques.
 
 - **Intégration des vidéos générées par IA :**
@@ -43,7 +43,7 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
   - Les lumières doivent être programmées pour **réagir aux vidéos et à la bande sonore**. Elles doivent renforcer l’impact de l’histoire racontée, par exemple en changeant d’intensité ou de couleur.
 
 - **Interaction :**
-  - Les lumières peuvent aussi être programmées pour réagir aux mouvements du public ou à certains moments spécifiques dans la narration.
+  - Les lumières peuvent aussi être programmées pour réagir à certains moments spécifiques dans la narration.
 
 ---
 
@@ -73,5 +73,5 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 ### Exemple de projet
 * [Pinterest](https://pin.it/77S2ohipa) 
-* [Vallée et Duhamel](http://valleeduhamel.com )
-* [Photo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eg1BaJN7AnpGhTMNOu8r73gBKZsDRcGm0D8HiZZFIkJALQ?e=tJXZH9) 
+
+
