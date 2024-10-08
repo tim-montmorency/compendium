@@ -32,13 +32,6 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 ## Texte
 
 !!! note
-
-    Bienvenue dans notre Communauté de Jeux Vidéo : Où les Mondes Virtuels Deviennent Réalité!
-    
-    Chez nous, les jeux vidéo ne sont pas seulement un passe-temps, ils sont une passion partagée qui nous unit. Notre communauté est un espace dynamique où les joueurs du monde entier se réunissent pour célébrer leur amour pour les jeux vidéo, quels que soient leurs genres, plateformes ou niveaux d'expérience. Nous sommes bien plus qu'un simple groupe de joueurs, nous sommes une famille virtuelle, unie par notre dévouement à l'univers des jeux vidéo.
-    
-    
-    Ce qui fait de notre communauté un endroit spécial :
     
     1. Diversité des Jeux : Notre communauté embrasse la richesse de l'univers des jeux vidéo. Que vous soyez fan de RPG, de jeux de tir, de jeux de stratégie, de simulations, de jeux indépendants, ou de tout ce qui se trouve entre les deux, il y a toujours une place pour vous ici. Nous partageons nos expériences, nos découvertes et nos astuces pour explorer ensemble les vastes mondes virtuels qui s'offrent à nous.
     
@@ -52,8 +45,6 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
     
     1. Rejoignez-nous dès aujourd'hui et plongez dans un univers où le jeu vidéo devient une expérience sociale inoubliable. Qu'il s'agisse de partager des stratégies, de discuter de la narration d'un jeu, de créer des liens avec des joueurs du monde entier ou de simplement s'amuser, notre communauté vous attend les bras ouverts.
     
-    N'oubliez pas de vous présenter sur notre forum et de partager votre histoire de joueur. Vous êtes sur le point de rejoindre une communauté passionnée qui comprend votre amour pour les jeux vidéo. Bienvenue chez vous !
-
 
 ## Les balises principales
 
@@ -79,7 +70,7 @@ https://tim-montmorency.com/timdoc/582-111MO/html/examens/exam_html/submit/
 
 ## La colonne de gauche
 
-* [ ] Dans la `<div>`, ajouter une balise représentant un groupe d'éléments ayant un lien indirect avec le sujet principal de la page.
+* [ ] Dans la `<div>`, ajouter une balise représentant un groupe d'éléments ayant un **lien indirect avec le sujet principal** de la page.
 * [ ] Écrivez le titre en `<h2>` : **Nos jeux**.
 * [ ] Ajoutez une liste non ordonnée qui contiendra 6 balises ancres (a). (N'oubliez pas de mettre le **#** comme lien href) **Hordes, Kingdom Rush, Happy Wheels, Forge of Empires, Dofus et Slither**.
 * [ ] Maintenant, créez un bloc de citation contenant le texte suivant : **Rien n'est vrai. Tout est permis** et citez l'auteur :**Assassin’s Creed**. (Assurez-vous de bien vérifier comment écrire un bloc de citation)
