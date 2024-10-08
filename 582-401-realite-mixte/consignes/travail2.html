@@ -11747,9 +11747,10 @@
 <div class="admonition warning">
 <p class="admonition-title">Attention</p>
 <p>Si vous voulez que votre personnage puisse se téléporter, vous aurez besoin d'activer et de désactiver le Character controller de votre joueur. Voici un extrait de code pour vous aider:    <br>
-joueur.GetComponent<charactercontroller>().enabled = false;  <br>
-joueur.transform.position = zoneTeleport.transform.position;    <br>
-joueur.GetComponent<charactercontroller>().enabled = true;     </charactercontroller></charactercontroller></p>
+</p><div class="highlight"><pre><span></span><code><span class="n">joueur</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">CharacterController</span><span class="o">&gt;</span><span class="p">().</span><span class="n">enabled</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">false</span><span class="p">;</span><span class="w">    </span>
+<span class="n">joueur</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">zoneTeleport</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">;</span><span class="w">      </span>
+<span class="n">joueur</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">CharacterController</span><span class="o">&gt;</span><span class="p">().</span><span class="n">enabled</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">true</span><span class="p">;</span><span class="w">   </span>
+</code></pre></div>
 </div>
 <h2 id="16-exporter-le-jeu">16. Exporter le jeu<a class="headerlink" href="#16-exporter-le-jeu" title="Permanent link">¶</a></h2>
 <ul class="task-list">
