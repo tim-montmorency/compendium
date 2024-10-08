@@ -4909,15 +4909,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#controler-les-animations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contrôler les animations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#creer-une-animation-a-partir-du-spritesheet" class="md-nav__link">
     <span class="md-ellipsis">
       Créer une animation à partir du spritesheet
@@ -4930,6 +4921,15 @@
   <a href="#detection-de-la-fin-dune-animation" class="md-nav__link">
     <span class="md-ellipsis">
       Détection de la fin d'une animation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controler-les-animations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrôler les animations
     </span>
   </a>
   
@@ -11815,15 +11815,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#controler-les-animations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contrôler les animations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#creer-une-animation-a-partir-du-spritesheet" class="md-nav__link">
     <span class="md-ellipsis">
       Créer une animation à partir du spritesheet
@@ -11836,6 +11827,15 @@
   <a href="#detection-de-la-fin-dune-animation" class="md-nav__link">
     <span class="md-ellipsis">
       Détection de la fin d'une animation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controler-les-animations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrôler les animations
     </span>
   </a>
   
@@ -12061,13 +12061,6 @@
 <p>Pour sélectionner et afficher un frame spécifique sans animation, on peut le faire de la manière suivante :</p>
 <div class="highlight"><pre><span></span><code><span class="k">this</span><span class="p">.</span><span class="nx">player</span><span class="p">.</span><span class="nx">setFrame</span><span class="p">(</span><span class="mf">3</span><span class="p">);</span>
 </code></pre></div>
-<h3 id="controler-les-animations">Contrôler les animations<a class="headerlink" href="#controler-les-animations" title="Permanent link">¶</a></h3>
-<ul>
-<li><code>player.anims.play('walk', true)</code> : Démarre l’animation “walk”. Le true répond au paramêtre ignoreIfPlaying. Si une animation est déjà en cours d’exécution, cette option permet d’ignorer la demande de rejouer l’animation</li>
-<li><code>player.anims.stop()</code> : Arrête l’animation</li>
-<li><code>player.anims.pause()</code> : Met en pause l’animation</li>
-<li><code>player.anims.resume()</code> : Relance l’animation après une pause</li>
-</ul>
 <h3 id="creer-une-animation-a-partir-du-spritesheet">Créer une animation à partir du spritesheet<a class="headerlink" href="#creer-une-animation-a-partir-du-spritesheet" title="Permanent link">¶</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nx">create</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="k">this</span><span class="p">.</span><span class="nx">anims</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span>
@@ -12094,6 +12087,14 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">})</span>
 </code></pre></div>
+<h3 id="controler-les-animations">Contrôler les animations<a class="headerlink" href="#controler-les-animations" title="Permanent link">¶</a></h3>
+<ul>
+<li><code>player.anims.play('walk', true)</code> : Démarre l’animation “walk”. Le true répond au paramêtre ignoreIfPlaying. Si une animation est déjà en cours d’exécution, cette option permet d’ignorer la demande de rejouer l’animation</li>
+<li><code>player.anims.stop()</code> : Arrête l’animation</li>
+<li><code>player.anims.pause()</code> : Met en pause l’animation</li>
+<li><code>player.anims.resume()</code> : Relance l’animation après une pause</li>
+</ul>
+<p>Chaine d’animation : <a href="https://phaser.io/sandbox/?src=src\animation\chained%20animation.js">https://phaser.io/sandbox/?src=src\animation\chained%20animation.js</a></p>
 <h3 id="recadrer-la-collision-au-besoin">Recâdrer la collision au besoin<a class="headerlink" href="#recadrer-la-collision-au-besoin" title="Permanent link">¶</a></h3>
 <p>On peut redimensionner et de repositionner la zone de collision d’un sprite indépendamment de la taille réelle de son image ou de son animation. Cela peut être utile si l’image contient des éléments qui ne doivent pas affecter la détection de collision.</p>
 <p>La méthode <code>setSize()</code> permet de définir les dimensions de la zone de collision pour le sprite, sans modifier la taille de l’image.</p>
