@@ -40,7 +40,11 @@
 
 ### Notions : Ombre portée
 *  [▶️ Ombre portée](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQWl4rKVdtpDuQgd1NTvmiwB0xenFfOQ98lGDu2exIXxPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WBTavk)   <br>   
-  [🛠️ Ombre portée](./exercices_photoshop/17_3d_ombre.md){ .md-button }  <br>  
+  [🛠️ Ombre portée](./exercices_photoshop/17_3d_ombre.md){ .md-button }  <br>
+
+
+### Notions : Masque vecteur
+*  [▶️ Masque vecteur](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ET-eQHpHQ85Hhr7VAv-UIDABafoQ_JM3KRkJo4op10Ztlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jXKoWm)   <br>  
 
 
 ### Notions : Animation
