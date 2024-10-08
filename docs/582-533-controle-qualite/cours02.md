@@ -25,6 +25,12 @@
         <th>Répertoire d'emplois dans le domaine culturel</th>
         <th><p><a href="https://cultive.ca/emplois/ ">Site web</a></p></th>        
 </tr>
+
+ <tr>
+        <th>Synthèse</th>
+        <th>Répertoire d'emplois dans la créativité numérique</th>
+        <th><p><a href="https://polesynthese.com/repertoire/entreprises">Site web</a></p></th>        
+</tr>
 <tr>
         <th>Le lien multimédia (Guide de l'industrie numérique) </th>
         <th>Bien plus qu’un simple bottin d’adresses, le Guide de l’industrie NUMÉRIQUE est actualisé en continu et présente en détail plus de 2500 entreprises, 6000 contacts du milieu ainsi que leurs fournisseurs : éditeurs/producteurs multimédia, concepteurs de sites Web, spécialistes en commerce électronique, réalité virtuelle, studios de jeux vidéo, hébergement de sites Web, ergonomes, avocats spécialisés, distributeurs, fournisseurs d’équipements, studios de design, d’animation, d’infographie 2D/3D, espaces de coworking, incubateurs et accélérateurs, prestataires de services de télécommunications, éditeurs de logiciels spécialisés, firmes-conseils en informatique, intégrateurs de systèmes, studio de postproduction audiovisuelle...  </th> 
