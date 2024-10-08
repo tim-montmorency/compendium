@@ -1,12 +1,15 @@
 # Projet 2 : Installation Immersive Multi-écrans avec Intelligence Artificielle
 
-## Objectif du projet
 
+![](assets/image/installation_01.png)
+
+
+## Objectif du projet :
 Raconter une histoire immersive en utilisant trois écrans, une télévision au sol, des speakers et des lumières interactives. Vous devez filmer vos propres séquences, intégrer **trois vidéos générées par l’intelligence artificielle (IA)**, et synchroniser certaines séquences vidéo avec le son.
 
 ---
 
-### 1. Les écrans et la télévision
+### 1. Les écrans et la télévision :
 
 - **Trois écrans sur le cyclorama :**
   - Tournez des séquences vidéos qui seront projetées sur les trois écrans.
@@ -17,7 +20,7 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 ---
 
-### 2. Tournage et montage vidéo
+### 2. Tournage et montage vidéo :
 
 - **Filmez vos propres séquences :**
   - Vous devez filmer au moins **20 séquences vidéo originales** pour alimenter les écrans et la télévision.
@@ -28,7 +31,7 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 ---
 
-### 3. Son et synchronisation audio
+### 3. Son et synchronisation audio :
 
 - **Création de la bande sonore :**
   - Vous devez composer ou enregistrer une **bande sonore originale** qui sera diffusée par les speakers. Le son doit être **synchronisé avec les vidéos**, particulièrement lors de moments clés pour créer une expérience immersive.
@@ -38,7 +41,7 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 ---
 
-### 4. Lumières interactives
+### 4. Lumières interactives :
 
 - **Programmation des lumières :**
   - Les lumières doivent être programmées pour **réagir aux vidéos et à la bande sonore**. Elles doivent renforcer l’impact de l’histoire racontée, par exemple en changeant d’intensité ou de couleur.
@@ -48,23 +51,23 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 ---
 
-### Critères de réussite
+### Critères de réussite :
 
-1. **Cohérence visuelle et sonore :**
+1. **Cohérence visuelle et sonore :**  
    Les trois écrans, la télévision, le son et les lumières doivent fonctionner ensemble pour **raconter une histoire cohérente** et immersive.
 
-2. **Intégration des vidéos IA :**
+2. **Intégration des vidéos IA :**  
    Les **trois vidéos générées par l’IA** doivent être **parfaitement intégrées** dans le récit visuel, en complément de vos propres séquences.
 
-3. **Synchronisation audio-vidéo :**
+3. **Synchronisation audio-vidéo :**  
    Vous devez montrer une **synchronisation précise** entre les vidéos et le son pour créer des moments narratifs forts.
 
-4. **Interaction des lumières :**
+4. **Interaction des lumières :**  
    Les lumières doivent **réagir en fonction des vidéos et du son**, ajoutant une couche d'immersion à votre projet.
 
 ---
 
-### Résumé des attentes
+### Résumé des attentes :
 
 - Tourner des vidéos originales.
 - Intégrer **trois vidéos créées par l’IA**.
@@ -73,5 +76,6 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 - Raconter une histoire cohérente qui exploite ces médiums.
 
 ### Exemple de projet
+* [Pinterest](https://pin.it/77S2ohipa) 
 
-* [Pinterest](https://pin.it/77S2ohipa)
+
