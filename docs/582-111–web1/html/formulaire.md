@@ -79,11 +79,11 @@ Par exemple, un champ de code postal acceptant de 3 à 6 caractères:
 
 Par exemple, les deux méthodes suivantes de définition de libellé sont valides:
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Label" src="https://codepen.io/tim-momo/embed/BaPejjd?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+[<iframe height="300" style="width: 100%;" scrolling="no" title="Label" src="https://codepen.io/tim-momo/embed/BaPejjd?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/BaPejjd">
   Label</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+</iframe>](https://codepen.io/Le-prof-de-Momo/pen/MWNjzzB)
 
 ### For
 **L'attribut `for` permet d'associer un élément avec son libellé.** Pour se faire, sa valeur doit correspondre au `id` de l'élément qu'il désigne.
