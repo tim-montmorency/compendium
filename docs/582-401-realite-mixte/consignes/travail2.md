@@ -158,9 +158,11 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 !!! warning "Attention"
 
     Si vous voulez que votre personnage puisse se téléporter, vous aurez besoin d'activer et de désactiver le Character controller de votre joueur. Voici un extrait de code pour vous aider:      
+    ``` c#
     joueur.GetComponent<CharacterController>().enabled = false;    
     joueur.transform.position = zoneTeleport.transform.position;      
-    joueur.GetComponent<CharacterController>().enabled = true;     
+    joueur.GetComponent<CharacterController>().enabled = true;   
+    ```
 
 ## 16. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
