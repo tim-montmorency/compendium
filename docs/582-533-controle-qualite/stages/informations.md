@@ -195,6 +195,12 @@
 </tr>
 
 <tr>
+        <th>Synthèse</th>
+        <th>Répertoire d'emplois dans la créativité numérique</th>
+        <th><p><a href="https://polesynthese.com/repertoire/entreprises">Site web</a></p></th>        
+</tr>
+
+<tr>
         <th>Répertoire culturel de signé Laval </th>
         <th>Réseau d'organismes culturels et d'artistes de Laval.</th>
         <th><p><a href="https://signelaval.com/fr/repertoire-culturel">Site web</a></p></th>        
