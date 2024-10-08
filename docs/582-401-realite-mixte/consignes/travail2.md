@@ -155,7 +155,12 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 - [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change.
 - [ ] Lorsqu'on appuie sur la touche esc. un menu apparaît et nous permet de fermer le jeu.
 
-   
+!!! warning "Attention"
+
+    Si vous voulez que votre personnage puisse se téléporter, vous aurez besoin d'activer et de désactiver le Character controller de votre joueur. Voici un extrait de code pour vous aider: 
+    joueur.GetComponent<CharacterController>().enabled = false;
+    joueur.transform.position = zoneTeleport.transform.position;
+    joueur.GetComponent<CharacterController>().enabled = true;
 
 ## 16. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
