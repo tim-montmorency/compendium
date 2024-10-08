@@ -4,26 +4,9 @@ tags:
   - Mardi 8 octobre
 ---
 
-[STOP]
-
 # Animations programmées
 
-Propriétés de transformation
-Animations programmées
-— Animations interpolées
-— Séquence d'animations
-
-Chain animation
-<https://phaser.io/sandbox/?src=src\animation\chained%20animation.js>
-
-## Ordre du jour
-
-* Wooclap
-* Interpolations
-* Exercices
-* Devoir
-
-## Qu'est-ce qu'une interpolation ?
+## Interpolation
 
 Une interpolation c'est ce qui nous permet de "remplir les trous" entre deux points pour obtenir une transition lisse.
 
@@ -57,22 +40,22 @@ Pour créer une nouvelle animation (Tween), on doit écrire la commande `this.tw
 
 ```js title="Syntaxe"
 this.tweens.add({
-  // elementGraphique est l'objet à animer
-  targets: elementGraphique,
+  targets: objet_à_animer,
 });
 ```
 
-### Propriétés
+### Translation
 
-#### Translation
-
-```js
-this.tweens.add({
-  targets: belleLune,
-  x: 700,
-  duration: 1500,
-  repeat: -1
-});
+```js hl_lines="5"
+create() {
+  const circle = this.add.circle(100, config.height / 2, 10, 0xffffff);
+  this.tweens.add({
+    targets: circle,
+    x: 600,
+    duration: 3000,
+    repeat: -1
+  });
+}
 ```
 
 <div class="grid" markdown>
@@ -86,14 +69,17 @@ this.tweens.add({
 
 ---
 
-```js
-this.tweens.add({
-  targets: belleLune,
-  y: 300,
-  duration: 1500,
-  repeat: -1,
-  yoyo: true
-});
+```js hl_lines="5 8"
+create() {
+  const circle = this.add.circle(config.width / 2, 50, 10, 0xffffff);
+  this.tweens.add({
+    targets: circle,
+    y: 300,
+    duration: 1500,
+    repeat: -1,
+    yoyo: true
+  });
+}
 ```
 
 <div class="grid" markdown>
@@ -105,15 +91,18 @@ this.tweens.add({
 `y` : La nouvelle position sur l'axe des Y. L'image se déplacera verticalement jusqu'à cette position.
 </div>
 
-#### Rotation
+### Rotation
 
-```js
-this.tweens.add({
-  targets: grainDeRiz,
-  angle: 360,
-  duration: 1500,
-  repeat: -1
-});
+```js hl_lines="5"
+create() {
+  const ellipse = this.add.ellipse(config.width / 2, config.height / 2, 50, 20, 0xffffff)
+  this.tweens.add({
+    targets: ellipse,
+    angle: 360,
+    duration: 1500,
+    repeat: -1
+  })
+}
 ```
 
 <div class="grid" markdown>
@@ -127,13 +116,16 @@ this.tweens.add({
 
 ---
 
-```js
-this.tweens.add({
-  targets: grainDeRiz,
-  rotation: Math.PI * 2,
-  duration: 1500,
-  repeat: -1
-});
+```js hl_lines="5"
+create() {
+  const ellipse = this.add.ellipse(config.width / 2, config.height / 2, 50, 20, 0xffffff)
+  this.tweens.add({
+    targets: ellipse,
+    rotation: Math.PI * 2,
+    duration: 1500,
+    repeat: -1
+  })
+}
 ```
 
 <div class="grid" markdown>
@@ -145,16 +137,19 @@ this.tweens.add({
 `rotation`: La nouvelle valeur de la rotation en radians. Une valeur de Math.PI (3.14159...) équivaut à une rotation de 180 degrés.
 </div>
 
-#### Échelle
+### Échelle
 
-```js
-this.tweens.add({
-  targets: belleLune,
-  scale: 3,
-  duration: 1000,
-  repeat: -1,
-  yoyo: true
-});
+```js hl_lines="5"
+create() {
+  const circle = this.add.circle(config.width / 2, config.height / 2, 10, 0xffffff);
+  this.tweens.add({
+    targets: circle,
+    scale: 3,
+    duration: 1000,
+    repeat: -1,
+    yoyo: true
+  });
+}
 ```
 
 <div class="grid" markdown>
@@ -166,16 +161,19 @@ this.tweens.add({
 `scale` : Modifie la taille de l'élément. Une valeur de 2 doublera la taille, tandis qu'une valeur de 0.5 la réduira de moitié.
 </div>
 
-#### Transparence
+### Transparence
 
-```js
-this.tweens.add({
-  targets: belleLune,
-  alpha: 0,
-  duration: 1500,
-  repeat: -1,
-  yoyo: true
-});
+```js hl_lines="5"
+create() {
+  const circle = this.add.circle(config.width / 2, config.height / 2, 10, 0xffffff)
+  this.tweens.add({
+    targets: circle,
+    alpha: 0,
+    duration: 1500,
+    repeat: -1,
+    yoyo: true
+  })
+}
 ```
 
 <div class="grid" markdown>
@@ -187,9 +185,9 @@ this.tweens.add({
 `alpha` : Modifie l'opacité de l'élément. La valeur doit se situer entre 0 et 1. Une valeur de 1 signifie que l'élément est complètement opaque (100% d'opacité), tandis qu'une valeur de 0 le rend totalement transparent. Les valeurs entre 0 et 1 représentent différents niveaux de transparence.
 </div>
 
-#### Fonctions d'accélération
+### Fonctions d'accélération
 
-```js
+```js hl_lines="6"
 this.tweens.add({
   targets: belleLune,
   x: 700,
@@ -207,7 +205,7 @@ this.tweens.add({
 
 [Liste des fonctions d'accélération Phaser](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/ease-function/)
 
-#### Autres propriétés
+### Autres propriétés
 
 ```js
 this.tweens.add({
@@ -218,110 +216,82 @@ this.tweens.add({
   scale: 1,
   angle: 0,
   rotation: 0,
-  duration: 0,      // Durée en millisecondes
-  ease: 'Linear',   // Fonction d'accélération
+  duration: 0,
+  ease: 'Linear',
   delay: 0,         // Délai avant l'animation
   repeat: 0,        // Nombre de répétitions (-1 pour infini)
-  yoyo: false,      // Revenir à l'état initial après chaque répétition
-  hold: 0,          // Temps de pause entre yoyo
+  yoyo: false,
+  hold: 0,          // Temps de pause entre les yoyo
   repeatDelay: 0,   // Délai entre chaque répétition
   paused: false,    // Commencer en pause
   onStart: function (tween, targets) {
-    // Fonction exécutée au début de l'animation
     console.log('Animation commencée');
   },
   onComplete: function (tween, targets) {
-    // Fonction exécutée à la fin de l'animation
     console.log('Animation terminée');
   },
   onYoyo: function (tween, targets) {
-    // Fonction exécutée au moment du yoyo
     console.log('Yoyo');
   },
   onRepeat: function (tween, targets) {
-    // Fonction exécutée à chaque répétition
     console.log('Répétition');
   },
   onUpdate: function (tween, targets) {
-    // Fonction exécutée à chaque mise à jour de l'animation
     console.log('Mise à jour');
   }
 });
 ```
 
-### Exemple complet d'animation interpolée
+## Séquence d'animations
 
-Regardons ensemble un exemple complet pour bien comprendre la syntaxe.
+### Chaine d'animation
 
-```html title="./index.html"
-<!DOCTYPE html>
-<html>
-  <head>
-      <script src="./node_modules/phaser/dist/phaser.min.js"></script>
-      <script src="./src/js/scenes/Exemple.js"></script>
-      <script src="./src/js/init.js" defer></script>
-  </head>
-  <body></body>
-</html>
-```
+La chaine n'animation déclenche un tween après l'autre tout simplement. Voici la syntaxe :
 
-```js title="./src/js/init.js"
-const config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    scene: Exemple
-};
-
-const game = new Phaser.Game(config);
-```
-
-```js title="./src/js/scenes/Exemple.js"
-class Exemple extends Phaser.Scene {
-  preload() {
-    // Assets : https://kenney.nl/
-    this.load.image("snake", "https://assets.codepen.io/9367036/snake.png");
-  }
-
-  create() {
-    const img = this.add.image(178, 136, "snake");
-    img.x = 100;
-    img.y = 200;
-    img.scale = 0.5;
-
-    this.tweens.add({
-      // Élément à animer
-      targets: img,
-
-      // Nouvelles valeurs à atteindre
-      x: 600,
-      scale: 1,
-      angle: 360,
-
-      // Règles de l'animation
-      duration: 4000,
-      yoyo: true,
-      repeat: -1 // -1 = infini
-    });
-  }
+```js
+create() {
+  this.tweens.chain({
+    targets: img,
+    loop: -1, // infini
+    tweens: [
+      {
+        x: 400,
+        angle: -90,
+        duration: 1500
+      },
+      {
+        y: 100,
+        duration: 1500
+      },
+      {
+        x: 100,
+        y: 200,
+        angle: 360,
+        duration: 1000,
+        onComplete: () => {
+          // Callback
+        }
+      }
+    ]
+  });
 }
 ```
 
-<iframe class="aspect-2-1-tabbed" height="300" style="width: 100%;" scrolling="no" title="Exemple Tween" src="https://codepen.io/tim-momo/embed/preview/NWVMMyB?default-tab=result&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/NWVMMyB">
-  Exemple Tween</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+#### Exemple complet
+
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Timeline simple" src="https://codepen.io/tim-momo/embed/gOVwaWM?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/gOVwaWM">
+  Phaser - Timeline simple</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Séquence d'animations
+### Ligne du temps (timeline)
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Exemple Timeline" src="https://codepen.io/tim-momo/embed/preview/QWRrxEX?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/QWRrxEX">
-  Exemple Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+L'usage de ligne du temps sert à spécifier plus précisément à quel moment une animation dans une séquence s'animations doit s'activer.
 
-Pour définir une nouvelle séquence d'animations, on doit la déclarer dans une variable.
+Cette méthode permet de superposer des animations au lieu de les déclencher séquentiellement (chain).
+
+Pour définir une nouvelle séquence d'animations de type timeline, on doit la déclarer dans une variable.
 
 ```js
 let timeline = this.add.timeline();
@@ -336,6 +306,20 @@ timeline.add({
         // Paramètres de l'animation
     },
 });
+
+timeline.add({
+    at: 1500,
+    tween: {
+        // Paramètres de l'animation
+    },
+});
+
+timeline.add({
+    at: 5400,
+    tween: {
+        // Paramètres de l'animation
+    },
+});
 ```
 
 `at` : Spécifie en millisecondes le moment où l'animation (Tween) doit commencer par rapport au début de sa séquence (Timeline).
@@ -346,131 +330,150 @@ Finalement, pour démarrer la séquence, il faut simplement appeler la fonction 
 timeline.play();
 ```
 
-### Exemple d'une séquence d'animations
+Pour répéter l'animation, il ne suffit que d'appeler la fonction `repeat()` :
 
-```html title="./index.html"
-<!DOCTYPE html>
-<html>
-  <head>
-      <script src="./node_modules/phaser/dist/phaser.min.js"></script>
-      <script src="./src/js/scenes/Exemple.js"></script>
-      <script src="./src/js/init.js" defer></script>
-  </head>
-  <body></body>
-</html>
+```js
+timeline.play().repeat();
 ```
 
-```js title="./src/js/init.js"
-const config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    scene: Exemple
-};
+#### Exemple complet
 
-const game = new Phaser.Game(config);
-```
-
-```js title="./src/js/scenes/Exemple.js"
-class Exemple extends Phaser.Scene {
-  preload() {
-      // Assets : https://kenney.nl/
-      this.load.image('duck', 'assets/images/duck.png');
-  }
-
-    create() {
-        const img = this.add.image(136, 136, 'duck');
-        img.x = 100;
-        img.y = 200;
-        img.alpha = 1;
-
-        let timeline = this.add.timeline();
-
-        timeline.add({
-            at: 0,
-            tween: {
-                targets: img,
-                x: 400,
-                angle: -90,
-                ease: 'Expo.easeOut',
-                duration: 1000
-            },
-        });
-
-        timeline.add({
-            at: 0,
-            tween: {
-                targets: img,
-                y: 100,
-                ease: 'Sine.easeIn',
-                duration: 1000
-            },
-        });
-
-        timeline.add({
-            at: 1000,
-            tween: {
-                targets: img,
-                y: 300,
-                ease: 'Sine.easeIn',
-                duration: 1000
-            },
-        });
-
-        timeline.add({
-            at: 2000,
-            tween: {
-                targets: img,
-                x: 700,
-                angle: 0,
-                ease: 'Expo.easeIn',
-                duration: 1000
-            },
-        });
-
-        timeline.add({
-            at: 2000,
-            tween: {
-                targets: img,
-                y: 200,
-                ease: 'Sine.easeOut',
-                duration: 1000
-            },
-        });
-
-
-        timeline.play();
-
-    }
-}
-```
-
-<iframe class="aspect-2-1-tabbed" height="300" style="width: 100%;" scrolling="no" title="Exemple Timeline" src="https://codepen.io/tim-momo/embed/preview/QWRrxEX?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Timeline" src="https://codepen.io/tim-momo/embed/QWRrxEX?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/QWRrxEX">
-  Exemple Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  Phaser - Timeline</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Animation de parcours (PathFollow)
+## Animation de parcours (follower)
 
-À venir
+Pour créer une animation de parcours le plus simplement possible, il faut créer un chemin vectoriel.
+
+```js
+const cheminVectoriel = new Phaser.Curves.Path();
+```
+
+Ensuite, on assigne des coordonnées. Par exemple, une simple ligne comporte 2 coordonnées; le départ et la fin.
+
+```js
+cheminVectoriel.moveTo(200, 100);
+cheminVectoriel.lineTo(600, 300);
+```
+
+Finalement, il faut créer un `follower` et appeler sa fonction `startFollow`. Voici un exemple :
+
+```js  hl_lines="7 13-19"
+class Example extends Phaser.Scene {
+  preload() {
+    this.load.image("img", "chemin/vers/mon/image.png");
+  }
+
+  create() {
+    const cheminVectoriel = new Phaser.Curves.Path(200, 100).lineTo(600, 300);
+
+    const graphics = this.add.graphics(); // Facultatif
+    graphics.lineStyle(3, 0xffffff, 1); // Facultatif
+    cheminVectoriel.draw(graphics); // Facultatif
+
+    this.add.follower(cheminVectoriel, 0, 0, "img").startFollow({
+      positionOnPath: true,
+      duration: 2000,
+      yoyo: true,
+      repeat: -1,
+      rotateToPath: true
+    });
+  }
+}
+```
+
+### Exemple simple
+
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - PathFollow 1" src="https://codepen.io/tim-momo/embed/rNXMxgL?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/rNXMxgL">
+  Phaser - PathFollow 1</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Exemple intermédiaire
+
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - PathFollow 3" src="https://codepen.io/tim-momo/embed/GRVjZpw?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/GRVjZpw">
+  Phaser - PathFollow 3</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Exemple avancé
+
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - PathFollow Avancé" src="https://codepen.io/tim-momo/embed/mdNrPez?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/mdNrPez">
+  Phaser - PathFollow Avancé</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Exemple avec physique
+
+Le système de physique et des animations programmées sont complètement différents et ne fonctionne normalement pas ensemble. Toutefois, il est possible de simuler l'animation désirée et d'applique les coordonnées de cette animation à la vélocité d'un objet.
+
+Autrement dit, exécute ces trois étapes :
+
+1. On défini le chemin d'animation
+1. On exécute mathématiquement l'animation
+1. On applique une vélocité en fonction des coordonnées de l'animation
+
+```js
+update(time, delta) {
+  // Supposons que 't' est mis à jour par un tween ou un calcul du temps
+  const t = (time % duration) / duration;
+
+  // Position cible sur le chemin
+  const targetPosition = path.getPoint(t);
+
+  // Calcul de la direction vers la position cible
+  const direction = new Phaser.Math.Vector2(
+    targetPosition.x - sprite.x,
+    targetPosition.y - sprite.y
+  ).normalize();
+
+  // Application de la vélocité en fonction de la direction
+  sprite.body.setVelocity(
+    direction.x * speed,
+    direction.y * speed
+  );
+}
+```
+
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - PathFollow + Physique" src="https://codepen.io/tim-momo/embed/oNKzLVj?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/oNKzLVj">
+  Phaser - PathFollow + Physique</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
+  ![](./assets/images/sssss.png)
 
-  ![](assets/TeteNuages.png)
-
-  <small>Exercice - Animation interpolée</small><br>
-  **[La tête dans les nuages](exercices/nuages.md){.stretched-link}**
-
+  <small>Exercice - Phaser</small><br>
+  **[Sssssss](exercices/sssss.md){.stretched-link}**
 </div>
 
 <div class="grid grid-1-2" markdown>
+  ![](./assets/images/AmbulanceAmbulante.png)
 
-  ![](assets/AmbulanceAmbulante.png)
-
-  <small>Exercice - Séquence d'animations</small><br>
+  <small>Exercice - Phaser</small><br>
   **[L'ambulance ambulante](exercices/ambulance.md){.stretched-link}**
-
 </div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/TeteNuages.png)
+
+  <small>Exercice - Phaser</small><br>
+  **[La tête dans les nuages](exercices/nuages.md){.stretched-link}**
+</div>
+
+## Devoir
+
+Devoir 6 | Partie 1/2
+
+Ajouter au moins une animation programmée dans votre jeu. Cela peut être exécuté dans n'importe quelle scène, pas seulement la scène jeu, même si ce serait sans doute la plus pertinente.
+
+Remise : 28 octobre à 23h59

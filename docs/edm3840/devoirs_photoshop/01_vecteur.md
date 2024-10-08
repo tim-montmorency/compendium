@@ -1,19 +1,18 @@
 # Le but de ce devoir est de reproduire une image avec l'outil plume
+
 <style>.md-headher{display:none;}</style>
 <style>.md-footer{display:none;}</style>
 ![](../assets/image/devoir_vecteur.jpg)
-
 
 ## Matériel
 
 Télécharger et ouvrer le fichier suivant:
 
-[📁 Document de départ](../assets/image/bauhaus.jpg){ .md-button }   <br>
+[📁 Document de départ](../assets/image/devoir_bauhaus.jpg){ .md-button }   <br>
 
 **Reproduire précisément l’image suivante en utilisant les techniques de création vectorielle enseignées. Suivez chaque étape avec attention pour respecter les consignes techniques.**
 
-
-## Liste des consignes à suivre :
+## Liste des consignes à suivre
 
 - [ ] **Utilisation des points d’ancrage :**
   - [ ] Les points d’ancrage doivent être utilisés uniquement pour tracer des courbes.
@@ -41,6 +40,6 @@ Télécharger et ouvrer le fichier suivant:
 - [ ] **Validation finale :**
   - [ ] Comparer votre travail à l’image de référence pour vérifier la correspondance des couleurs, des formes, et des détails.
 
-## Sauvegarde du travail :
+## Sauvegarde du travail
 
-- [ ] Sauvegarder le fichier final au format **.psd** pour conserver les calques et permettre l'évaluation. 
+- [ ] Sauvegarder le fichier final au format **.psd** pour conserver les calques et permettre l'évaluation.

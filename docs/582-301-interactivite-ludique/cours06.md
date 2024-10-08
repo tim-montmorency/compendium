@@ -205,13 +205,6 @@ Pour sélectionner et afficher un frame spécifique sans animation, on peut le f
 this.player.setFrame(3);
 ```
 
-### Contrôler les animations
-
-* `player.anims.play('walk', true)` : Démarre l’animation “walk”. Le true répond au paramêtre ignoreIfPlaying. Si une animation est déjà en cours d’exécution, cette option permet d’ignorer la demande de rejouer l’animation
-* `player.anims.stop()` : Arrête l’animation
-* `player.anims.pause()` : Met en pause l’animation
-* `player.anims.resume()` : Relance l’animation après une pause
-
 ### Créer une animation à partir du spritesheet
 
 ```js
@@ -242,6 +235,15 @@ player.on('animationcomplete', function(animation, frame) {
   }
 })
 ```
+
+### Contrôler les animations
+
+* `player.anims.play('walk', true)` : Démarre l’animation “walk”. Le true répond au paramêtre ignoreIfPlaying. Si une animation est déjà en cours d’exécution, cette option permet d’ignorer la demande de rejouer l’animation
+* `player.anims.stop()` : Arrête l’animation
+* `player.anims.pause()` : Met en pause l’animation
+* `player.anims.resume()` : Relance l’animation après une pause
+
+Chaine d’animation : <https://phaser.io/sandbox/?src=src\animation\chained%20animation.js>
 
 ### Recâdrer la collision au besoin
 

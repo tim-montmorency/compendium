@@ -1,16 +1,15 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-Headher{display:none;}</style>
 
-Le but de cet exercice est de recréer des formes avec l'outils (P) avec des points d'ancrage à deux poignées. 
-![](../assets/image/14_vecteur_une_poignee.png)
+Le but de cet exercice est de recréer des formes avec l'outils (P) avec des points d'ancrage à deux poignées.
+![](../assets/image/14_vecteur_une_poignee.jpg)
 ***
 
 ## Matériel
 
 Télécharger et ouvrer les fichiers suivants:
 
-[📁 Document de départ_01](../assets/image/14_vecteur_une_poignee.jpg){ .md-button }   <br>   
-
+[📁 Document de départ_01](../assets/image/14_vecteur_une_poignee.jpg){ .md-button }   <br>
 
 ## Étapes
 
@@ -24,11 +23,11 @@ Télécharger et ouvrer les fichiers suivants:
 - [ ] **Fermer le tracé** en cliquant sur le premier point d'ancrage pour boucler la forme.
 - [ ] Vérifie que chaque point d'ancrage n'a **qu'une seule poignée** pour garder un tracé cohérent.
 
-
 ### Appliquer le Contour et la Couleur
+
 - [ ] Sélectionner la forme (Ctrl+clic ou Cmd+clic sur le calque).
 - [ ] Régler le **Contour** à **4 points**.
-- [ ] Appliquer la couleur du contour : `#5791b9` 
+- [ ] Appliquer la couleur du contour : `#5791b9`
 - [ ] Définir le **Remplissage** sur **Aucun** (case blanche barrée de rouge).
 
 ## Tutoriel 📚
