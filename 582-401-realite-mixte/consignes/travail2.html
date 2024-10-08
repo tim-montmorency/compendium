@@ -11744,6 +11744,13 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Lorsqu'on appuie sur la touche esc. un menu apparaît et nous permet de fermer le jeu.</li>
 </ul>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>Si vous voulez que votre personnage puisse se téléporter, vous aurez besoin d'activer et de désactiver le Character controller de votre joueur. Voici un extrait de code pour vous aider: 
+joueur.GetComponent<charactercontroller>().enabled = false;
+joueur.transform.position = zoneTeleport.transform.position;
+joueur.GetComponent<charactercontroller>().enabled = true;</charactercontroller></charactercontroller></p>
+</div>
 <h2 id="16-exporter-le-jeu">16. Exporter le jeu<a class="headerlink" href="#16-exporter-le-jeu" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Exporter le jeu à l'aide du bouton build dans File, build settings.</li>
