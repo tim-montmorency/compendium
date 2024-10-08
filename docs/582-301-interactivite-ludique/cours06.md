@@ -282,6 +282,8 @@ this.player.setOffset(32, 18);
   **[Ti chat](./exercices/tichat.md){.stretched-link}**
 </div>
 
+Corrigé : https://codepen.io/tim-momo/pen/dyxYgmo
+
 ## Devoir
 
 Vous devez ajouter toutes les animations sprite à votre jeu.
