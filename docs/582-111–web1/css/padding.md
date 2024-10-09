@@ -18,10 +18,11 @@ Par exemple:
 
 Pour plus de contrôle, il est possible d'attribuer une valeur différente à chaque côté en utilisant les sous-propriétés suivantes:
 
-`padding-top`
-`padding-right`
-`padding-bottom`
-`padding-left`
+*`padding-top`
+*`padding-right`
+*`padding-bottom`
+*`padding-left`
+
 Par exemple:
 <iframe height="300" style="width: 100%;" scrolling="no" title="Padding - Sub-properties" src="https://codepen.io/tim-momo/embed/OJwEWbV?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/OJwEWbV">
