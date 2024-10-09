@@ -1,5 +1,5 @@
 # Flux
-Le flux ou encore ce que les anglophones appellent le** “flow”** consiste en l’affichage de base des éléments dans une page avant que des styles ne leur soient appliqués. Par défaut, les éléments sont **“respectueux”** les uns des autres. C'est-à-dire qu’ils s’affichent les uns à côté ou un en dessous des autres sans jamais se superposer, gardant ainsi l’ensemble du contenu visible, peu importe la dimension dudit contenu ou encore de la page.
+Le flux ou encore ce que les anglophones appellent le **“flow”** consiste en l’affichage de base des éléments dans une page avant que des styles ne leur soient appliqués. Par défaut, les éléments sont **“respectueux”** les uns des autres. C'est-à-dire qu’ils s’affichent les uns à côté ou un en dessous des autres sans jamais se superposer, gardant ainsi l’ensemble du contenu visible, peu importe la dimension dudit contenu ou encore de la page.
 
 Bref, le flux d’une page web est conçu afin de générer une mise en page sur une colonne responsive.
 
