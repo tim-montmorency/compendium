@@ -11504,10 +11504,10 @@
 
 
 <div><h1 id="anatomie-dune-regle">Anatomie d'une règle<a class="headerlink" href="#anatomie-dune-regle" title="Permanent link">¶</a></h1>
-<p>Le but du CSS est d'indiquer au navigateur comment afficher différents éléments sur une page (couleur, dimension, position, etc.). Pour ce faire, des règles CSS indiquant quels éléments devraient avoir quelle apparence sont utilisées.</p>
+<p>Le but du CSS est d'indiquer au navigateur comment afficher différents éléments sur une page <strong>(couleur, dimension, position, etc.)</strong>. Pour ce faire, des règles CSS indiquant quels éléments devraient avoir quelle apparence sont utilisées.</p>
 <p>Cet aspect peut paraitre simple, mais une règle CSS se découpe en divers sous-éléments. Afin d'éviter toute confusion et d'avoir des bases solide en CSS, il est préférable de connaitre la terminologie associée à ces sous-éléments.</p>
 <h2 id="regle-css">Règle CSS<a class="headerlink" href="#regle-css" title="Permanent link">¶</a></h2>
-<p>Une règle CSS est constituée d'un sélecteur CSS, d'accolades {…} et de tout ce qui se trouve entre elles.</p>
+<p>Une règle CSS est constituée d'un sélecteur CSS, d'accolades <code>{…}</code> et de tout ce qui se trouve entre elles.</p>
 <p>Par exemple, voici une règle CSS simple:</p>
 <div class="highlight"><pre><span></span><code>p {
   font-size: 16px;
@@ -11516,7 +11516,7 @@
 </code></pre></div>
 <h2 id="selecteur">Sélecteur<a class="headerlink" href="#selecteur" title="Permanent link">¶</a></h2>
 <p>Le sélecteur est ce qui se trouve avant l'accolade ouvrante. Il permet d'identifier quels éléments dans la page devraient être affectés par les styles se trouvant à l'intérieur desdites accolades.</p>
-<p>Dans l'exemple précédent, <code>p</code> est le sélecteur indiquant que tous les paragraphes de la page devraient avoir une taille de police de 16px et utiliser la police Arial.</p>
+<p>Dans l'exemple précédent, <code>p</code> est le sélecteur indiquant que tous les paragraphes de la page devraient avoir une taille de police de <code>16px</code> et utiliser la police <code>Arial</code>.</p>
 <h2 id="groupe-de-selecteurs">Groupe de sélecteurs<a class="headerlink" href="#groupe-de-selecteurs" title="Permanent link">¶</a></h2>
 <p>Un groupe de sélecteurs est le nom donné lorsque plusieurs sélecteurs sont présents avant une accolade.</p>
 <p>Par exemple:</p>
@@ -11541,7 +11541,7 @@
 &lt;/div&gt;
 </code></pre></div>
 <p>Dans la même lignée, un ancêtre peut être <strong>grands-parents si un seul élément les sépares</strong>.</p>
-<p>Par exemple, la classe .intro est le parent et la classe .article est le grands-parents du paragraphe. Cependant .intro et .article sont tous deux des ancêtres du paragraphe.</p>
+<p>Par exemple, la classe <code>.intro</code> est le parent et la classe <code>.article</code> est le grands-parents du paragraphe. Cependant <code>.intro</code> et <code>.article</code> sont tous deux des ancêtres du paragraphe.</p>
 <div class="highlight"><pre><span></span><code>&lt;div class="article"&gt;
     &lt;div class="intro"&gt;
         &lt;p&gt;Lorem ipsum&lt;/p&gt;
