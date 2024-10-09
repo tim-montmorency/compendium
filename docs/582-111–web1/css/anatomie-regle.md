@@ -1,11 +1,11 @@
 # Anatomie d'une règle
-Le but du CSS est d'indiquer au navigateur comment afficher différents éléments sur une page (couleur, dimension, position, etc.). Pour ce faire, des règles CSS indiquant quels éléments devraient avoir quelle apparence sont utilisées.
+Le but du CSS est d'indiquer au navigateur comment afficher différents éléments sur une page **(couleur, dimension, position, etc.)**. Pour ce faire, des règles CSS indiquant quels éléments devraient avoir quelle apparence sont utilisées.
 
 Cet aspect peut paraitre simple, mais une règle CSS se découpe en divers sous-éléments. Afin d'éviter toute confusion et d'avoir des bases solide en CSS, il est préférable de connaitre la terminologie associée à ces sous-éléments.
 
 ## Règle CSS
 
-Une règle CSS est constituée d'un sélecteur CSS, d'accolades {…} et de tout ce qui se trouve entre elles.
+Une règle CSS est constituée d'un sélecteur CSS, d'accolades `{…}` et de tout ce qui se trouve entre elles.
 
 Par exemple, voici une règle CSS simple:
 
@@ -19,7 +19,7 @@ p {
 
 Le sélecteur est ce qui se trouve avant l'accolade ouvrante. Il permet d'identifier quels éléments dans la page devraient être affectés par les styles se trouvant à l'intérieur desdites accolades.
 
-Dans l'exemple précédent, `p` est le sélecteur indiquant que tous les paragraphes de la page devraient avoir une taille de police de 16px et utiliser la police Arial.
+Dans l'exemple précédent, `p` est le sélecteur indiquant que tous les paragraphes de la page devraient avoir une taille de police de `16px` et utiliser la police `Arial`.
 
 ## Groupe de sélecteurs
 Un groupe de sélecteurs est le nom donné lorsque plusieurs sélecteurs sont présents avant une accolade.
@@ -58,7 +58,7 @@ Par exemple:
 
 Dans la même lignée, un ancêtre peut être **grands-parents si un seul élément les sépares**.
 
-Par exemple, la classe .intro est le parent et la classe .article est le grands-parents du paragraphe. Cependant .intro et .article sont tous deux des ancêtres du paragraphe.
+Par exemple, la classe `.intro` est le parent et la classe `.article` est le grands-parents du paragraphe. Cependant `.intro` et `.article` sont tous deux des ancêtres du paragraphe.
 
 ```
 <div class="article">
