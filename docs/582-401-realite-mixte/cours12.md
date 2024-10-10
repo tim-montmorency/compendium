@@ -22,11 +22,11 @@
 
 ## Saut
 
-[📝 Déplacement en VR](unity/deplacement_vr.md#sauter){ .md-button }
+[📝 Sauter en VR](unity/sauter.md){ .md-button }
 
 ## Plateforme en mouvement
 
-[📝 Déplacement en VR](unity/deplacement_vr.md#ascenseur){ .md-button }
+[📝 Ascenseur en VR](unity/ascenseur.md){ .md-button }
 
 ## Aléatoire
 
