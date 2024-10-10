@@ -2,7 +2,7 @@
 
 ## Grimper
 
-[📝 Déplacement en VR](unity/deplacement_vr.md#grimper){ .md-button }
+[📝 Grimper en VR](unity/grimper.md){ .md-button }
 
 ## Canvas
 
