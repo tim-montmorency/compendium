@@ -32,7 +32,7 @@ La propriété `background-image` permet de définir une image d'arrière-plan �
 Afin d'illustrer les différents comportements associés aux images d'arrière-plan, l'image ci-dessous 👇 sera utilisée dans les exemples suivants.
 
 
-![square](https://github.com/user-attachments/assets/5dea1be8-8d24-4deb-b979-f88a4cf29764)
+![square](https://github.com/user-attachments/assets/5dea1be8-8d24-4deb-b979-f88a4cf29764){ style="display: block; margin: 0 auto" }
 
 
 ## Image
