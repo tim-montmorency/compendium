@@ -1,5 +1,5 @@
 # Cours 8
-
+[stop]
 ## Anatomie d'une règle
 ![icon (18)](https://github.com/user-attachments/assets/712da69d-b3cd-4078-b777-14f6b06be142)
 
