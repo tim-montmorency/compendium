@@ -1,5 +1,9 @@
 Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même projet Unity. Ici nous verrons comment configurer votre projet.   
 
+
+!!! warning "Attention"
+
+    On parle ici de projet HDRP, cependant si vous souhaitez faire un build sur votre casque et non sur l'ordinateur à la fin de votre projet, vous devriez travailler en 3D built-in render pipeline. Si vous avez des objets MAYA, les rendus seront beaucoup mieux en HDRP, donc c'est ok de travailler sur l'ordinateur.  
       
 
 ## Étapes résumées
