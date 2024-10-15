@@ -11505,20 +11505,20 @@
 
 <div><h1 id="definition-des-commandes-dans-midjourney">Définition des commandes dans MidJourney<a class="headerlink" href="#definition-des-commandes-dans-midjourney" title="Permanent link">¶</a></h1>
 <h2 id="1-sw-style-weight">1. <code>--sw</code> (style weight) :<a class="headerlink" href="#1-sw-style-weight" title="Permanent link">¶</a></h2>
-<p><strong>Définition</strong> : Le <code>--sw</code> ou "style weight" contrôle combien de liberté artistique MidJourney prend pour styliser l'image en fonction du texte du prompt.<br>
+<p><strong>Définition</strong> : Le <code>--sw</code> ou "style weight" contrôle combien de liberté artistique MidJourney prend pour styliser l'image en fonction du texte du <strong>prompt</strong>.  C'est utilisé pour guider le style de l'image générée en fonction du <strong>prompt</strong> que tu fournis.<br>
 <strong>Plus la valeur est élevée</strong>, plus l'image sera stylisée de manière artistique, souvent en s'éloignant du texte littéral pour un rendu plus abstrait ou créatif.<br>
 <strong>Valeurs typiques</strong> : Tu peux ajuster le <code>--sw</code> entre une valeur basse (comme <code>--sw 250</code> pour une image très fidèle au texte) et une valeur haute (comme <code>--sw 1000</code> pour un rendu plus créatif et artistique).<br>
 <strong>Exemple</strong> : <code>--sw 1000</code> donne une grande liberté à l'IA pour styliser l'image de manière artistique.</p>
 <h2 id="2-sref-style-reference-weight">2. <code>--sref</code> (style reference weight) :<a class="headerlink" href="#2-sref-style-reference-weight" title="Permanent link">¶</a></h2>
-<p><strong>Définition</strong> : Le <code>--sref</code> contrôle combien d'influence une image de référence donnée aura sur la génération de l'image. C'est utilisé pour guider le style de l'image générée en fonction d'une image visuelle que tu fournis.<br>
+<p><strong>Définition</strong> : Le <code>--sref</code> contrôle combien d'influence une image de référence donnée aura sur la génération de l'image. C'est utilisé pour guider le style de l'image générée en fonction d'une <strong>image référence</strong> que tu fournis.<br>
 <strong>Plus la valeur est élevée</strong>, plus l'image générée ressemblera stylistiquement à l'image de référence, en s'appuyant sur ses couleurs, textures, ou composition.<br>
 <strong>Valeurs typiques</strong> : Le <code>--sref</code> peut varier en fonction de l'influence que tu veux que l'image de référence ait. Par exemple, <code>--sref 1000</code> donnerait une forte influence à l'image de référence.<br>
 <strong>Exemple</strong> : <code>--sref 1000</code> signifie que l'image générée sera fortement influencée par l'image de référence que tu as donnée.</p>
 <h2 id="3-stylize-stylization">3. <code>--stylize</code> (stylization) :<a class="headerlink" href="#3-stylize-stylization" title="Permanent link">¶</a></h2>
-<p><strong>Définition</strong> : Le <code>--stylize</code> contrôle le degré de créativité que MidJourney applique en interprétant le texte du prompt. Cette commande définit combien de liberté l'IA prend pour styliser l'image.<br>
+<p><strong>Définition</strong> : Le <code>--stylize</code> contrôle le degré de créativité que MidJourney applique en interprétant le texte du <strong>prompt</strong>. Cette commande définit combien de liberté l'IA prend pour styliser l'image.<br>
 <strong>Plus la valeur est élevée</strong>, plus l'image sera artistique et stylisée. À des valeurs élevées, l'image peut devenir moins fidèle à une description littérale.<br>
 <strong>Valeurs typiques</strong> : Tu peux utiliser des valeurs comme <code>--stylize 100</code> pour plus de précision, et des valeurs plus élevées comme <code>--stylize 1000</code> ou plus pour un rendu très stylisé.<br>
-<strong>Exemple</strong> : <code>--stylize 1000</code> donne à l'IA une certaine liberté pour embellir et styliser l'image, tout en restant reconnaissable par rapport au prompt.</p>
+<strong>Exemple</strong> : <code>--stylize 1000</code> donne à l'IA une certaine liberté pour embellir et styliser l'image, tout en restant reconnaissable par rapport au <strong>prompt</strong>.</p>
 <h2 id="4-seed-graine-de-generation">4. <code>--seed</code> (graine de génération) :<a class="headerlink" href="#4-seed-graine-de-generation" title="Permanent link">¶</a></h2>
 <p><strong>Définition</strong> : Le <code>--seed</code> contrôle la graine aléatoire utilisée pour générer l'image. Chaque graine produit une composition unique, et en réutilisant la même graine, tu peux générer des images qui sont similaires ou répétables.<br>
 <strong>Si tu utilises la même valeur de seed</strong>, tu obtiendras des images similaires à chaque fois, ce qui permet de créer des variations tout en gardant une cohérence.<br>
@@ -11526,10 +11526,10 @@
 <hr>
 <h2 id="resume-des-commandes">Résumé des commandes :<a class="headerlink" href="#resume-des-commandes" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong><code>--sw 1000</code></strong> : Permet une grande liberté artistique à l'IA pour styliser l'image en fonction du texte. Plus la valeur est élevée, plus l'image sera abstraite et créative.</li>
-<li><strong><code>--sref 1000</code></strong> : Donne une forte influence à une image de référence. L'image générée sera très stylisée d'après l'image de référence.</li>
+<li><strong><code>--sw 1000</code></strong> : Permet une grande liberté artistique à l'IA pour styliser l'image en fonction du <strong>prompt</strong>. Plus la valeur est élevée, plus l'image sera abstraite et créative.</li>
+<li><strong><code>--sref 1000</code></strong> : Donne une forte influence à une image de référence. L'image générée sera très stylisée d'après l'<strong>image de référence.</strong></li>
 <li><strong><code>--sref</code> (général)</strong> : Utilisé pour contrôler l'influence d'une image de référence dans le processus de génération.</li>
-<li><strong><code>--stylize 1000</code></strong> : Définit à quel point l'image sera stylisée. Une valeur de 1000 permet une stylisation modérée, créative, mais toujours reconnaissable par rapport au prompt.</li>
+<li><strong><code>--stylize 1000</code></strong> : Définit à quel point l'image sera stylisée. Une valeur de 1000 permet une stylisation modérée, créative, mais toujours reconnaissable par rapport au <strong>prompt</strong>.</li>
 <li><strong><code>--seed</code></strong> : Fixe la graine aléatoire de génération. Utiliser la même graine permet de générer des images similaires.</li>
 </ul>
 <h2 id="differences-cles">Différences clés :<a class="headerlink" href="#differences-cles" title="Permanent link">¶</a></h2>
