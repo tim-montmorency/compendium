@@ -4,7 +4,7 @@ Le but de cet exercice est de créer une image à partir d'un prompt.
 ***
 
 ## Étapes
-  * Consultez [la page suivante](..ai/prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
+  * Consultez [la page suivante](../ai/prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
 - [ ] 
 - [ ] 
 
