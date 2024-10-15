@@ -113,11 +113,12 @@ Cependant, plusieurs balises auraient pu séparer `.group` de ses descendants `.
 
 <div class="grid grid-auto" markdown>
 
+  <img width="178" alt="Capture d’écran, le 2024-10-15 à 09 46 39" src="https://github.com/user-attachments/assets/529da087-cb93-440c-ba49-8645f0c3f2fa">
+
   **Selectors explained**<br>
   _Traduire ses sélecteurs CSS en texte humainement lisible afin de valider leur portée._<br>
   [Selectors explained](https://kittygiraudel.github.io/selectors-explained/)
 
-  <img width="178" alt="Capture d’écran, le 2024-10-15 à 09 46 39" src="https://github.com/user-attachments/assets/529da087-cb93-440c-ba49-8645f0c3f2fa">
   
 </div>
 
