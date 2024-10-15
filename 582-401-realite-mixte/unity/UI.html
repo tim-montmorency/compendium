@@ -11442,15 +11442,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#canvas-en-vr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Canvas en VR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#rect-transform" class="md-nav__link">
     <span class="md-ellipsis">
       Rect Transform
@@ -11538,12 +11529,6 @@
 <p>Le gameobject Canvas a plusieurs paramètres que nous pouvons ajuster. Vous remarquerez que vous ne pouvez pas modifier son Rect Transform. En effet, c'est avec les composantes Canvas et Canvas scaler que vous pourrez modifier la taille de votre Canvas.     </p>
 <p><strong>Composante Canvas:</strong> Pour cette composante, nous pouvons ajuster le paramètre Render mode au besoin. Ce mode détermine de quelle façon le Canvas sera rendu. Par défaut, c'est Screen Space - Overlay qui sera choisi. Cela signifie que le Canvas sera rendu par-dessus la scène et que si la taille de l'écran est modifié, il sera modifié lui aussi. Screen space - camera est assez similaire, plutôt que de rendre le canvas sur la fenêtre, on le rend sur la caméra. Ainsi, le canvas suivra la position et la taille de la caméra. Finalement, World space fera en sorte que le canvas se comporte comme les autres objets de la scène. Ainsi, il restera à l'emplacement qu'on lui assigne et sa taille ne sera pas modifiée par l'écran.     </p>
 <p><strong>Composante Canvas Scaler:</strong> C'est grâce à cette composante qu'on déterminera la taille de notre Canvas. Constant pixel size fait en sorte que le canvas sera toujours de la même taille en pixels peut importe la taille de notre écran. Scale with screen size permet au canvas de s'adapter à la taille de l'écran. On donne une référence de résolution (exemple: 1920 x 1080) et ensuite on indique de quelle façon on souhaite que le canvas s'ajuste à l'écran. On peut déterminer si on considère la largeur ou la longeur comme point de référence. Sinon on peut dire de rapetisser ou d'agrandir dans l'écran.     </p>
-<h2 id="canvas-en-vr">Canvas en VR<a class="headerlink" href="#canvas-en-vr" title="Permanent link">¶</a></h2>
-<p>Créer un les éléments de UI en VR est très similaire, voici les différences!     </p>
-<p>Pour créer un canvas, dans XR, on a un UI Canvas. Celui-ci sera alors positionné toujours au même endroit dans le monde. Le canvas est très gros par défaut, on peut le diminuer de taille. Ces canvas peuvent être utiles pour positionner des instruction au-dessus des objets.    </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rR4dcvoYjOE?si=C4gcFpWXdgzw8ed8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p><a class="md-button" href="https://learn.unity.com/tutorial/2-4-user-interface-1?uv=2020.3&amp;courseId=60183276edbc2a2e6c4c7dae&amp;projectId=601834b9edbc2a4418546660#">📁 Pour en savoir plus</a>   <br></p>
 <h2 id="rect-transform">Rect Transform<a class="headerlink" href="#rect-transform" title="Permanent link">¶</a></h2>
 <p>Les objets qui font partie du UI n'ont pas de Transform, mais ont une composante Rect Transform. Celui-ci est similaire au Transform, mais il a quelques paramètres supplémentaires pour le placement des éléments dans le Canvas.   </p>
 <p><img src="../images/rect.jpg"></p>
