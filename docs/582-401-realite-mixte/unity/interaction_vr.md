@@ -68,7 +68,7 @@ Vous avez peut-être remarqué, par défaut, on peut bouger l'objet qu'on tient 
       
 
 ## Cacher les mains lorsqu'un objet est sélectionné
-Peu importe la méthode de sélection (XR Ray Interactor ou XR Direct Interactor), vous avez un bouton que vous pouvez cocher sur leur composante qui est: Hide Controller On Select. Celui-ci permet de cacher vos mains lorsque vous prenez un objet. Cela peut être pratique si vos mains n'ont pas l'air de bien agripper les objets.    
+Peu importe la méthode de sélection (XR Ray Interactor ou XR Direct Interactor), vous avez un bouton que vous pouvez cocher sur leur composante qui est: Hide Controller On Select. (Dans la section Selection Configuration pour le Ray Interactor) Celui-ci permet de cacher vos mains lorsque vous prenez un objet. Cela peut être pratique si vos mains n'ont pas l'air de bien agripper les objets.    
       
 
 ## Déclencher un événement lorsqu'un objet est sélectionné
