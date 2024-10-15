@@ -28,7 +28,6 @@
 ## Résumé des commandes :
 - **`--sw 1000`** : Permet une grande liberté artistique à l'IA pour styliser l'image en fonction du **prompt**. Plus la valeur est élevée, plus l'image sera abstraite et créative.
 - **`--sref 1000`** : Donne une forte influence à une image de référence. L'image générée sera très stylisée d'après l'**image de référence.**
-- **`--sref` (général)** : Utilisé pour contrôler l'influence d'une image de référence dans le processus de génération.
 - **`--stylize 1000`** : Définit à quel point l'image sera stylisée. Une valeur de 1000 permet une stylisation modérée, créative, mais toujours reconnaissable par rapport au **prompt**.
 - **`--seed`** : Fixe la graine aléatoire de génération. Utiliser la même graine permet de générer des images similaires.
 
