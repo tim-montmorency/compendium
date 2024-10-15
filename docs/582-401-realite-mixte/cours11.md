@@ -6,7 +6,7 @@
 
 ## Canvas
 
-[📝 Canvas en VR](unity/UI.md#canvas-en-vr){ .md-button }
+[📝 Canvas en VR](unity/ui_vr.md){ .md-button }
 
 ## Audio
 
