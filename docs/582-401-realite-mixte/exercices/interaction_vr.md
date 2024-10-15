@@ -22,6 +22,6 @@ Vous pourriez faire le même exercice, mais allumer une torche (point light) plu
 
 [📁 Prendre la manette](../unity/interaction_vr.md#xr-grab){ .md-button }
 
-[📁 Partir une vidéo avec la détection](../consignes/travail2.md){ .md-button }
+[📁 Partir une vidéo avec la détection](../consignes/travail2.md#9-partir-ou-arreter-une-video-avec-la-detection){ .md-button }
 
 [📁 Déclencher un script avec le trigger](../unity/interaction_vr.md#declencher-un-evenement-lorsquun-objet-est-selectionne){ .md-button }
