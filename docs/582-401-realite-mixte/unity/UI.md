@@ -14,18 +14,6 @@ Le gameobject Canvas a plusieurs paramètres que nous pouvons ajuster. Vous rema
 
 **Composante Canvas Scaler:** C'est grâce à cette composante qu'on déterminera la taille de notre Canvas. Constant pixel size fait en sorte que le canvas sera toujours de la même taille en pixels peut importe la taille de notre écran. Scale with screen size permet au canvas de s'adapter à la taille de l'écran. On donne une référence de résolution (exemple: 1920 x 1080) et ensuite on indique de quelle façon on souhaite que le canvas s'ajuste à l'écran. On peut déterminer si on considère la largeur ou la longeur comme point de référence. Sinon on peut dire de rapetisser ou d'agrandir dans l'écran.     
 
-
-## Canvas en VR
-Créer un les éléments de UI en VR est très similaire, voici les différences!     
-
-Pour créer un canvas, dans XR, on a un UI Canvas. Celui-ci sera alors positionné toujours au même endroit dans le monde. Le canvas est très gros par défaut, on peut le diminuer de taille. Ces canvas peuvent être utiles pour positionner des instruction au-dessus des objets.    
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rR4dcvoYjOE?si=C4gcFpWXdgzw8ed8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[📁 Pour en savoir plus](https://learn.unity.com/tutorial/2-4-user-interface-1?uv=2020.3&courseId=60183276edbc2a2e6c4c7dae&projectId=601834b9edbc2a4418546660#){ .md-button }   <br>
-
-   
-
       
 ## Rect Transform
 Les objets qui font partie du UI n'ont pas de Transform, mais ont une composante Rect Transform. Celui-ci est similaire au Transform, mais il a quelques paramètres supplémentaires pour le placement des éléments dans le Canvas.   
