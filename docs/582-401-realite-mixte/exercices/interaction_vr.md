@@ -18,7 +18,7 @@ Vous pourriez faire le même exercice, mais allumer une torche (point light) plu
 
 ## Notes de cours 📚
 
-[📁 Créer une télévision](../consignes/travail2.md){ .md-button }
+[📁 Créer une télévision](../consignes/travail2.md#3-creer-une-television){ .md-button }
 
 [📁 Prendre la manette](../unity/interaction_vr.md#xr-grab){ .md-button }
 
