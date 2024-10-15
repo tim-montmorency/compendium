@@ -107,3 +107,28 @@ Permet de sélectionner les éléments avec la classe `.element`, mais uniquemen
 Dans l'exemple précédent, `.group` est ce que l'on appel le parent de `.element`.
 
 Cependant, plusieurs balises auraient pu séparer `.group` de ses descendants `.element` sans problème. Tout comme plusieurs générations peuvent séparer une personne de ses ancètres, elle n'en reste pas moins sa descendance.
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+  **Selectors explained**<br>
+  _Traduire ses sélecteurs CSS en texte humainement lisible afin de valider leur portée._<br>
+  [Selectors explained](https://kittygiraudel.github.io/selectors-explained/)
+
+  <img width="178" alt="Capture d’écran, le 2024-10-15 à 09 46 39" src="https://github.com/user-attachments/assets/529da087-cb93-440c-ba49-8645f0c3f2fa">
+  
+</div>
+
+<div class="grid grid-auto" markdown>
+
+<img width="181" alt="Capture d’écran, le 2024-10-15 à 09 49 29" src="https://github.com/user-attachments/assets/ff759039-c907-48bd-8125-f5c119227e91">
+
+
+
+  **CSS Diner - Niveaux 1 à 8**<br>
+  _Complétez les 8 premiers niveaux de CSS Diner 🍎_<br>
+  [CSS Diner - Niveaux 1 à 8](https://flukeout.github.io/)
+</div>
+
