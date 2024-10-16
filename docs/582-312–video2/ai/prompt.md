@@ -73,23 +73,23 @@
 ---
 **Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
 - [x] **Pour un look plus cinématographique, vous pouvez ajouter :**
-    - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
-    - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
-    - [x] *Kodak Ektar 100* – Pour des couleurs vibrantes et une haute saturation.
-    - [x] *Ilford HP5 400* – Pour un style noir et blanc avec un grain distinctif.
-    - [x] *Cinestill 800T* – Pour un look cinématographique avec des teintes légèrement bleutées dans les zones de lumière artificielle.
-    - [x] *Kodak Tri-X 400* – Pour un rendu noir et blanc classique avec un grain visible.
+  - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
+  - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
+  - [x] *Kodak Ektar 100* – Pour des couleurs vibrantes et une haute saturation.
+  - [x] *Ilford HP5 400* – Pour un style noir et blanc avec un grain distinctif.
+  - [x] *Cinestill 800T* – Pour un look cinématographique avec des teintes légèrement bleutées dans les zones de lumière artificielle.
+  - [x] *Kodak Tri-X 400* – Pour un rendu noir et blanc classique avec un grain visible.
 - [x] **Pour un look Polaroid :**
-    - [x] *Polaroid 600* – Pour des images vintage avec des couleurs un peu délavées.
-    - [x] *Polaroid SX-70* – Pour un rendu doux, lumineux et un peu flou, avec des couleurs subtiles.
-    - [x] *Instant film* – Pour obtenir un effet général de film instantané avec un cadre blanc typique des Polaroids.
-    - [x] *Expired Polaroid Film* – Pour un look encore plus vintage avec des couleurs imprévisibles et des artefacts visuels.
+  - [x] *Polaroid 600* – Pour des images vintage avec des couleurs un peu délavées.
+  - [x] *Polaroid SX-70* – Pour un rendu doux, lumineux et un peu flou, avec des couleurs subtiles.
+  - [x] *Instant film* – Pour obtenir un effet général de film instantané avec un cadre blanc typique des Polaroids.
+  - [x] *Expired Polaroid Film* – Pour un look encore plus vintage avec des couleurs imprévisibles et des artefacts visuels.
 - [x] **Effets supplémentaires :**
-    - [x] *Cross Processed Film* – Pour un effet de développement chimique alternatif, donnant des couleurs inattendues et un contraste élevé.
-    - [x] *Light Leaks* – Pour simuler des fuites de lumière, souvent présentes dans les vieux appareils photo ou les films mal enroulés.
-    - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.
-    - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.
-    - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
+  - [x] *Cross Processed Film* – Pour un effet de développement chimique alternatif, donnant des couleurs inattendues et un contraste élevé.
+  - [x] *Light Leaks* – Pour simuler des fuites de lumière, souvent présentes dans les vieux appareils photo ou les films mal enroulés.
+  - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.
+  - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.
+  - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
 
 ### Prompts en français
 
