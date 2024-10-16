@@ -44,7 +44,7 @@ Fond
 
 !!!note
 
-    https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/6.png
+    https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/bg.png
 
 ## Requis
 
