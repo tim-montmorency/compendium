@@ -15,6 +15,9 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 - [ ] **Attacher l'image comme référence** :
    - Colle le lien de l'image dans le prompt pour que MidJourney prenne en compte l'image comme base.
 
+- [ ] **Attacher l'image comme style** (optionnel):
+   - Colle le lien de l'image dans le prompt pour que MidJourney prenne en compte l'image comme style.
+
 - [ ] **Écrire un prompt qui décrit la personne de l'image** :
    - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress").
 
