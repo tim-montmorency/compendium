@@ -61,8 +61,7 @@ Par exemple, un **"popup"** ne devrait pas être affiché tant qu'un utilisateur
 
 <div class="grid grid-auto" markdown>
 
-<img width="181" alt="Capture d’écran, le 2024-10-15 à 09 49 29" src="https://github.com/user-attachments/assets/ff759039-c907-48bd-8125-f5c119227e91">
-
+![Capture d’écran, le 2024-10-15 à 20 43 52](https://github.com/user-attachments/assets/b755524d-9fdc-4be9-bbbe-8efcb4bbb821)
 
 
   **Display - Celeste**<br>
