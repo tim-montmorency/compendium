@@ -23,7 +23,7 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 
 - [ ] **Créer des prompts avec le personnage sous différents angles** :
    - Utilise des commandes pour demander des variations comme :
-     - `side view`, `back view`, `low view`, `high view`.
+     - `side view`, `back view`, `low shot`, `high shot`.
 
 - [ ] **Faire varier les lumières dans tes prompts** :
    - Ajoute des variations dans l'éclairage, par exemple :
