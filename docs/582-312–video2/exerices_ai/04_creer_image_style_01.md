@@ -1,9 +1,9 @@
 <style>.md-footer{display:none;}</style>
 Le but de cet exercice est de créer une image à partir d'un style. 
-<img src="../assets/image/04_rosie_plastique.png">
+<img src="../assets/image/04_rosie_pieuvre_02.png">
 ***
 
-[📁 Document de départ](../assets/image/04_pot_rose.png){ .md-button }   <br>
+[📁 Document de départ](../assets/image/04_clown.png){ .md-button }   <br>
 [📁 Document de départ](../assets/image/04_rosie_pieuvre.png){ .md-button }   <br>
 
 ## Étapes
@@ -14,7 +14,10 @@ Le but de cet exercice est de créer une image à partir d'un style.
    - Sélectionne l'icône de trombone dans le Prompt. 
 
 - [ ] **Écrire un prompt l'image** :
-   - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic...."). 
+   - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic....").
+     
+- [ ] **Pour appliquer plus fortement le style "vary strong** :
+   - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic....").
 
 - [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
 ***
