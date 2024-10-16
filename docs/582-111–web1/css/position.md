@@ -2,9 +2,16 @@
 
 Le flux normal, ou ce que les anglophones appellent le **“flow”**, est la façon dont les éléments sont affichés dans une page web lorsqu’aucun style ne leur est appliqué.
 
-Dans le flux normal, les éléments block **(div, p, section, etc.)** sont positionnés un à la suite de l’autre, tandis que les éléments inline **(span, strong, em, etc.)**, sont positionnés un à côté de l’autre en fonction de leur ordre d’apparition dans le code HTML.
+## Flux normal
+- éléments block **(div, p, section, etc.)** ==>  positionnés un à la suite de l’autre
+- éléments inline **(span, strong, em, etc.)** ==> positionnés un à côté de l’autre 
 
-À titre de base comparative, chaque exemple sur cette page utilise le gabarit suivant 👇 composé d'éléments en `display: block`; placés un en dessous de l’autre. Seule la propriété `position` de ces boites fluctue d'un exemple à l'autre afin d'illustrer la différence engendrée par cette propriété. Un `top: 15vmin`; a aussi été attribué à la boite afin de mettre en évidence l'impact de `position`.
+À titre de base comparative, chaque exemple sur cette page utilise le gabarit suivant 👇 
+- composé d'éléments en `display: block`;
+- placés un en dessous de l’autre
+- la propriété `position` de ces boites fluctue d'un exemple à l'autre afin d'illustrer la différence engendrée par cette propriété.
+
+Un `top: 15vmin`; a aussi été attribué à la boite afin de mettre en évidence l'impact de `position`.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Position: reference" src="https://codepen.io/tim-momo/embed/PoBRxKb?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/PoBRxKb">
