@@ -7,10 +7,7 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 
 ## Étapes
 - [ ] **Télécharger l'image de référence** :
-   - Télécharge l'image de la personne que tu veux utiliser sur Discord (dans le serveur ou canal où MidJourney est intégré).
-
-- [ ] **Insérer cette image dans MidJourney** :
-   - Télécharge l'image, puis copie le lien de l'image pour l'utiliser dans le prompt.
+   - Télécharge l'image de la personne que tu veux utiliser dans Midjourney.
 
 - [ ] **Attacher l'image comme référence** :
    - Colle le lien de l'image dans le prompt pour que MidJourney prenne en compte l'image comme base.
