@@ -31,5 +31,5 @@
 ## Différences clés :
 - **`--sw` et `--stylize`** influencent tous les deux la créativité artistique, mais `--sw` est plus spécifique pour l'application de style basé sur le texte, alors que `--stylize` influence l'approche créative globale.
 - **`--sref`** est utilisé spécifiquement avec une image de référence.
-- 
+  
 Ces paramètres te permettent de contrôler avec précision le degré de créativité, d'influence de référence et de cohérence dans les résultats générés dans MidJourney.
