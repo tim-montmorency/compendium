@@ -73,3 +73,15 @@ Dans l'exemple ci-dessous, la boite 2 n'est à priori pas affectée par la propr
   Position: sticky</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-10-15 à 21 08 49](https://github.com/user-attachments/assets/0a4e7d2b-0a9e-4d93-b45f-6b314bbbd486)
+
+  **Cat in the box - Niveaux 1 à 13**<br>
+  _Utilisez la propriété position afin de déplacer les chats dans leurs boites respectives._<br>
+  [Cat in the box - Niveaux 1 à 13](https://cdpn.io/smnarnold/debug/ZEpZWPB)
+</div>
