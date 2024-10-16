@@ -109,3 +109,10 @@ Le HTML et le CSS de base est fournis dans le Pen de départ. Pour chaque mise e
 Attention de faire en sorte de respecter la dimension et la position de l'image de fond. Fiez-vous à la position du bateau dans l'image.
 
 ![candy-crush-10](https://github.com/user-attachments/assets/68c37665-8718-4080-b104-6d8c4f820b71)
+
+
+
+## Notes de cours
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Background <br> [color,image,gradient](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/background.html)
+
