@@ -4,10 +4,10 @@ Le but de cet exercice est de créer une image représentant une femme rousse à
 ***
 
 ## Étapes
-  * Rédiger un prompt. 
-  * Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
-    
-***
+
+- [X] Rédiger un prompt.
+- [X] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
+
 
 ## Tutoriel 📚
 
