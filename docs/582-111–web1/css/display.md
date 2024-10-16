@@ -32,7 +32,7 @@ Les éléments `display: inline`; en bref:
 
 ## inline-block
 
-Les éléments en d`isplay: inline-block`; sont en quelque sorte des hybrides entre <u>inline</u> et <u>block</u>.
+Les éléments en `display: inline-block`; sont en quelque sorte des hybrides entre <u>inline</u> et <u>block</u>.
 
 Par exemple, les balises `<button>`, `<select>` ou `<input>` s'affichent l'une à la suite de l'autre, mais peuvent avoir une largeur et une hauteur **(width/height)** de définies, car leur propriété display est à inline-block par défaut.
 
