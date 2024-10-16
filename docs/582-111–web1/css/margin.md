@@ -78,10 +78,10 @@ Les marges sont régulièrement utilisées afin de centrer horizontalement ↔
 
 ## Combinaison de marges
 
-À l'occasion certaines marges sont combinées. C'est ce que les anglophones appellent **"margin collapse"**. Ce comportement peut paraitre étrange à première vue, mais il respecte le concept de marge qui est de générer un espace vide entre un élément et ceux l'entourant.
+À l'occasion, certaines marges sont combinées. C'est ce que les anglophones appellent **"margin collapse"**. Ce comportement peut paraître étrange à première vue, mais il respecte le concept de marge qui est de générer un espace vide entre un élément et ceux l'entourant.
 
-L'exemple le plus commun est celui des paragraphes **(p)** qui ont un `margin-top` et un `margin-bottom` équivalent à la hauteur d'une lettre **(1em)**, soit une ligne. Si une image est insérée après un paragraphe, le `margin-bottom` de ce dernier s'assuere qu'un espace équivalent à une ligne les sépare. Cependant, que se passe-t-il lorsque deux paragraphes se suivent?
+L'exemple le plus commun est celui des paragraphes **(p)** qui ont un `margin-top` et un `margin-bottom` équivalent à la hauteur d'une lettre **(1em)**, soit une ligne. Si une image est insérée après un paragraphe, le `margin-bottom` de ce dernier s'assure qu'un espace équivalent à une ligne les sépare. Cependant, que se passe-t-il lorsque deux paragraphes se suivent?
 
 Un espace équivalent à une seule ligne les sépare, car leurs marges sont combinées plutôt qu'additionnées.
 
-Cependant, ce ne sont pas toutes les marges qui sont combinée. Seulement celles verticales ↕️.
+Cependant, ce ne sont pas toutes les marges qui sont combinées. Seulement celles verticales ↕️.
