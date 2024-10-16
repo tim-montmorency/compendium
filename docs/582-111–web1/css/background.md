@@ -185,3 +185,26 @@ Est équivalent à:
   background: url('image.png') 100px 100px no-repeat;
 }
 ```
+
+
+## Outils
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-10-15 à 20 30 37](https://github.com/user-attachments/assets/889b6bdf-7326-4486-9888-f08d44b4b2e4)
+
+  **CSS3 Patterns Gallery**<br>
+  _Collection d’arrière-plans CSS réalisés à partir de dégradés pouvant être utilisés sur des projets._<br>
+  [CSS3 Patterns Gallery](https://projects.verou.me/css3patterns/)
+
+  
+</div>
+
+## Exercices
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-10-15 à 20 32 41](https://github.com/user-attachments/assets/390d5d87-792e-4f09-b1ec-1832f0029b14)
+
+  **Background - Candy Crush**<br>
+  _Pour cet exercice, vous devrez recréer des mises en page inspirées du jeux Candy Crush en mettant à profit vos connaissances sur la propriété CSS background._<br>
+  [Background - Candy Crush](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/candy-crush.html)
+</div>
