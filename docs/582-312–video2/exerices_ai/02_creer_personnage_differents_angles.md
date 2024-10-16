@@ -6,26 +6,25 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
-[x] **Télécharger l'image de référence** :
+- [ ] **Télécharger l'image de référence** :
    - Télécharge l'image de la personne que tu veux utiliser sur Discord (dans le serveur ou canal où MidJourney est intégré).
 
-[x] **Insérer cette image dans MidJourney** :
+- [ ] **Insérer cette image dans MidJourney** :
    - Télécharge l'image, puis copie le lien de l'image pour l'utiliser dans le prompt.
 
-[x] **Attacher l'image comme référence** :
+- [ ] **Attacher l'image comme référence** :
    - Colle le lien de l'image dans le prompt pour que MidJourney prenne en compte l'image comme base.
 
-[x] **Écrire un prompt qui décrit la personne de l'image** :
+- [ ] **Écrire un prompt qui décrit la personne de l'image** :
    - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress").
 
-[x] **Créer des prompts avec le personnage sous différents angles** :
+- [ ] **Créer des prompts avec le personnage sous différents angles** :
    - Utilise des commandes pour demander des variations comme :
      - `side view`, `back view`, `low view`, `high view`.
 
-[x] **Faire varier les lumières dans tes prompts** :
+- [ ] **Faire varier les lumières dans tes prompts** :
    - Ajoute des variations dans l'éclairage, par exemple :
      - `under sunlight`, `studio lighting`.
-
 
     
 ***
