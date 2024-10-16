@@ -114,5 +114,5 @@ Attention de faire en sorte de respecter la dimension et la position de l'image 
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Background <br> [color,image,gradient](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/background.html)
+![icon (23)](https://github.com/user-attachments/assets/d4d9acbc-ccea-41f1-ba16-bdf2806e4183)<br> Background <br> [color,image,gradient](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/background.html)
 
