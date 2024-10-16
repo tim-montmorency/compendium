@@ -38,11 +38,7 @@ Afin d'illustrer les différents comportements associés aux images d'arrière-p
 ## Image
 L'option la plus simple consiste à afficher une image.
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Background-image" src="https://codepen.io/tim-momo/embed/jOpZRmj?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/jOpZRmj">
-  Background-image</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+
 
 !!!note
 
@@ -119,7 +115,6 @@ Tandis qu'à droite, `background-repeat: repeat-y`; indique à l'opposé de rép
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-
 ## background-position
 
 La propriété `background-position` permet de définir la position d'un arrière-plan. Il est possible de définir deux valeurs correspondant à la position X et Y dudit arrière-plan dans son élément. Ces valeurs peuvent-être n'importe quelle unité CSS **(px, %, em, etc.)**, ainsi que certains mots-clés **(top, bottom, left, right)**.
@@ -133,7 +128,6 @@ Tandis qu'à droite, `background-position: center bottom`; positionne l'arrière
   Background-position</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
 
 ## background-size
 
@@ -150,6 +144,7 @@ Tandis qu'à droite, `background-size: 50%` auto; indique à l'image d'arrière-
   Background-size: CSS unites</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
 
 Mots-clé
 En plus des unités CSS, la propriété `background-size` accepte aussi des mots-clé.
