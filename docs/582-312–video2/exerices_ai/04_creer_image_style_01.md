@@ -10,7 +10,7 @@ Le but de cet exercice est de créer une image à partir d'un style.
 - [ ] **Télécharger l'image de référence** :
    - Sélectionne l'icône d'image dans le Prompt. 
 
-- [ ] **Télécharger l'image de référence** :
+- [ ] **Télécharger l'image de style** :
    - Sélectionne l'icône de trombone dans le Prompt. 
 
 - [ ] **Écrire un prompt l'image** :
