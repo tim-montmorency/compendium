@@ -10,7 +10,7 @@ Le but de cet exercice est de créer un personnage avec un background différent
    - Télécharge l'image de la personne que tu veux utiliser sur Midjourney.
 
 - [ ] **Insérer cette image dans MidJourney** :
-   - Télécharge l'image dans le l'espace du prompt
+   - Télécharge l'image dans l'espace du prompt.
 
 - [ ] **Attacher l'image comme référence** :
    - Sélectionne l'icône d'image dans le Prompt. 
