@@ -22,3 +22,11 @@ Aperçu du résultat 👇
 - Ciblez les différents éléments de la carte en CSS afin de changer leur affichage dans le flux de la page et ainsi recréer l'aperçu visible plus haut ☝️. Pour ce faire, il faudra modifier leur `propriété display`.
 - Utilisez la propriété `vertical-align` lorsque nécessaire afin de respecter l'affichage demandé.
 
+
+
+## Notes de cours
+
+![icon (24)](https://github.com/user-attachments/assets/639aa696-ec45-49f3-95ff-1d7642c2e57a)<br> Display <br> [block, inline, inline-block, none](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/display.html)
+
+
+![icon (25)](https://github.com/user-attachments/assets/66a9991b-b291-44c2-abb8-eabb39b82b78)<br> Vertical-align <br> [baseline. top, middle, bottom, super, sub](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/vertical-align.html)
