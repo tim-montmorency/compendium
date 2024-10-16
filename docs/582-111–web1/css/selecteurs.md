@@ -109,7 +109,7 @@ Dans l'exemple précédent, `.group` est ce que l'on appel le parent de `.elemen
 Cependant, plusieurs balises auraient pu séparer `.group` de ses descendants `.element` sans problème. Tout comme plusieurs générations peuvent séparer une personne de ses ancètres, elle n'en reste pas moins sa descendance.
 
 
-## Exercices
+## Outils
 
 <div class="grid grid-auto" markdown>
 
@@ -121,6 +121,8 @@ Cependant, plusieurs balises auraient pu séparer `.group` de ses descendants `.
 
   
 </div>
+
+## Exercices
 
 <div class="grid grid-auto" markdown>
 
