@@ -3,10 +3,12 @@
 Le flux normal, ou ce que les anglophones appellent le **“flow”**, est la façon dont les éléments sont affichés dans une page web lorsqu’aucun style ne leur est appliqué.
 
 ## Flux normal
+
 - éléments block **(div, p, section, etc.)** ==>  positionnés un à la suite de l’autre
 - éléments inline **(span, strong, em, etc.)** ==> positionnés un à côté de l’autre 
 
 À titre de base comparative, chaque exemple sur cette page utilise le gabarit suivant 👇 
+
 - composé d'éléments en `display: block`;
 - placés un en dessous de l’autre
 - la propriété `position` de ces boites fluctue d'un exemple à l'autre afin d'illustrer la différence engendrée par cette propriété.
