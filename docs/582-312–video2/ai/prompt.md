@@ -71,7 +71,7 @@
 
 
 ---
-**Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
+### Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
 - [x] **Pour un look plus cinématographique, vous pouvez ajouter :**
   - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
   - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
