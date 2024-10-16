@@ -16,8 +16,7 @@ Le but de cet exercice est de créer un personnage avec un background différent
    - Sélectionne l'icône d'image dans le Prompt. 
 
 - [ ] **Écrire un prompt l'image** :
-   - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress"). Ajoute une description du background que tu désires.
-
+   - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress"). Ajoute une description du background que tu désires. Ajoute une description de la pellicule que tu désires. 
 
 - [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
 ***
