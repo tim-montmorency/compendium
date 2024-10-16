@@ -1,6 +1,6 @@
 <style>.md-footer{display:none;}</style>
 Le but de cet exercice est de créer une image avec une femme rousse à la peau blanche avec une pieuvre autour du cou. Elle est dans une gare allemande des années 50. 
-<img src="../assets/image/rosie.png">
+<img src="../assets/image/01_prompt_pieuvre">
 ***
 
 ## Étapes
