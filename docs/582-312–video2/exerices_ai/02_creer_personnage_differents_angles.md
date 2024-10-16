@@ -40,4 +40,4 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 
 
 
-A young woman with slightly wavy, short auburn hair. She has a gentle face with delicate features, blue eyes, a diaphanous complexion, and rosy cheeks. Her expression is calm and serene, and she is simply dressed in a dark top.
+A young woman with slightly wavy, short auburn hair. She has a gentle face with delicate features, blue eyes, a diaphanous complexion, and rosy cheeks. Her expression is calm and serene, and she is simply dressed in a dark top. Behind her the background is bleu. 
