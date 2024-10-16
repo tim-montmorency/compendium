@@ -24,7 +24,7 @@ Un `top: 15vmin`; a aussi été attribué à la boite afin de mettre en évidenc
 
 Par défaut, le navigateur attribue la position `static` à tous les éléments. La particularité principale de cette position est que les propriétés `top`, `right`, `bottom`, `left` ou encore `z-index` n’ont aucun impact sur ces éléments 🚫.
 
-Cette valeur de position à pour objectif de positionner les éléments comme le ferait le code HTML sans l’intervention du CSS. On remarque donc que la propriété `top` n'affecte aucunement la boite
+<small>Cette valeur de position à pour objectif de positionner les éléments comme le ferait le code HTML sans l’intervention du CSS. On remarque donc que la propriété `top` n'affecte aucunement la boite</samll>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Position: static" src="https://codepen.io/tim-momo/embed/abjYQLx?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/abjYQLx">
@@ -36,7 +36,7 @@ Cette valeur de position à pour objectif de positionner les éléments comme le
 
 Les éléments en `position: relative`; se positionnent d'abord en fonction du flux normal de la page. Ils sont ensuite déplacés relativement à cet emplacement, d'où leur nom `position: relative`;.
 
-On remarque donc dans l'exemple ci-dessous que la boite est décalée d'une demi-hauteur de boite par rapport à sa position normale dans le flux.
+<small>On remarque donc dans l'exemple ci-dessous que la boite est décalée d'une demi-hauteur de boite par rapport à sa position normale dans le flux.</small>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Position: relative" src="https://codepen.io/tim-momo/embed/qByoQVe?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/qByoQVe">
@@ -48,7 +48,7 @@ On remarque donc dans l'exemple ci-dessous que la boite est décalée d'une demi
 
 Les éléments en `position: absolute`; ignorent complètement le flux de la page et se positionnent en fonction du parent le plus près aillant une position autre que static.
 
-On remarque dans l'exemple ci-dessous que les éléments respectant le flux se positionnent exactement comme si la boite 2 n'existait pas **(aucun espace vide entre la boite 1 et la 3)**. La boite 2 quant à elle se positionne par rapport au `<body>` qui en l'absence de parent avec une position devient sont point de référence.
+<small>On remarque dans l'exemple ci-dessous que les éléments respectant le flux se positionnent exactement comme si la boite 2 n'existait pas **(aucun espace vide entre la boite 1 et la 3)**. La boite 2 quant à elle se positionne par rapport au `<body>` qui en l'absence de parent avec une position devient sont point de référence.</small>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Position: absolute" src="https://codepen.io/tim-momo/embed/wvxmQye?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/wvxmQye">
@@ -61,7 +61,7 @@ On remarque dans l'exemple ci-dessous que les éléments respectant le flux se p
 
 Les éléments en `position: fixed`; ressemblent aux éléments en <u>position absolute</u>. Tout comme eux, ils ignorent le flux de la page. Cependant, plutôt que de se positionner en fonction d'un parent, ils se positionnent en fonction de la fenêtre **(viewport)**.
 
-On remarque dans l'exemple ci-dessous que les éléments respectant le flux se positionnent exactement comme si la boite 2 n'existait pas **(aucun espace vide entre la boite 1 et la 3)**. La boite 2 quant à elle se positionne par rapport à la fenêtre, donc même si la page défile, la boite reste fixe.
+<small>On remarque dans l'exemple ci-dessous que les éléments respectant le flux se positionnent exactement comme si la boite 2 n'existait pas **(aucun espace vide entre la boite 1 et la 3)**. La boite 2 quant à elle se positionne par rapport à la fenêtre, donc même si la page défile, la boite reste fixe.</small>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Position: fixed" src="https://codepen.io/tim-momo/embed/JjBLeLg?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/JjBLeLg">
@@ -73,7 +73,7 @@ On remarque dans l'exemple ci-dessous que les éléments respectant le flux se p
 
 Les éléments en `position: sticky`; ressemblent aux éléments en <u>position static</u>. Tout comme eux, ils se positionnent d'abord en fonction du flux normal de la page. Cependant, lorsqu'une de leurs propriétés `top`, `right`, `bottom` ou `left` correspond au défilement de la page, l'élément devient fixe.
 
-Dans l'exemple ci-dessous, la boite 2 n'est à priori pas affectée par la propriété `top`. Cependant, lorsque la page défile et que la boite se trouve à une distance du sommet équivalente à la valeur de sa propriété `top`, celle-ci devient fixe et arrête de défiler avec le reste de la page.
+<small>Dans l'exemple ci-dessous, la boite 2 n'est à priori pas affectée par la propriété `top`. Cependant, lorsque la page défile et que la boite se trouve à une distance du sommet équivalente à la valeur de sa propriété `top`, celle-ci devient fixe et arrête de défiler avec le reste de la page.</small>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Position: sticky" src="https://codepen.io/tim-momo/embed/xxJWQzv?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/xxJWQzv">
