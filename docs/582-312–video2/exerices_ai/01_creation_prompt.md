@@ -5,8 +5,14 @@ Le but de cet exercice est de créer une image semble à l'image ci-dessous.
 
 ## Étapes
 
-- [ ] Rédiger un prompt.
+- [ ] Rédiger un prompt en incluant les aspects suivants :
+   - Une femme rousse à la peau claire, avec une pieuvre enroulée autour de son cou.
+   - La scène se déroule dans une gare allemande des années 50, où des gens sont malades.
+   - Le style doit être inspiré de l'œuvre de Gregory Crewdson.
+   - L'esthétique de l'image doit évoquer une photographie Polaroid.
+
 - [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
+
 
 
 ## Tutoriel 📚
