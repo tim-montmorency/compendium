@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer une image représentant une femme rousse à la peau claire, avec une pieuvre enroulée autour de son cou. La scène se déroule dans une gare allemande des années 50, où des gens sont malades. L'esthétique de l'image doit évoquer une photographie Polaroid, avec un style inspiré de l'œuvre de Gregory Crewdson. 
+Le but de cet exercice est de créer une image semble à l'image ci-dessous. 
 <img src="../assets/image/01_prompt_pieuvre.png">
 ***
 
