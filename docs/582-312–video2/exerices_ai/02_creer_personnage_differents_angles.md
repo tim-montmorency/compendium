@@ -3,6 +3,8 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 <img src="../assets/image/02_rosie.png">
 ***
 
+[📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
+
 ## Étapes
 1. [x] **Télécharger l'image de référence** :
    - Télécharge l'image de la personne que tu veux utiliser sur Discord (dans le serveur ou canal où MidJourney est intégré).
