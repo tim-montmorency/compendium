@@ -56,3 +56,16 @@ Par exemple, un **"popup"** ne devrait pas être affiché tant qu'un utilisateur
   display: none;
 }
 ```
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="181" alt="Capture d’écran, le 2024-10-15 à 09 49 29" src="https://github.com/user-attachments/assets/ff759039-c907-48bd-8125-f5c119227e91">
+
+
+
+  **Display - Celeste**<br>
+  _Pour cet exercice, vous devrez complétez la carte de présentation de Madeline, l’héroine du jeu Celeste._<br>
+  [Display - Celeste](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/celeste.html)
+</div>
