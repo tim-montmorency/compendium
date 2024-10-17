@@ -12,3 +12,13 @@
 ## Devoir 2
 * [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUOExTWUlHWTVNRVVGOUo2TkEzQjFMRkNGOS4u)  <br>  
 * [groupe pm](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUOUNBVTdaWktOV1ZSMExUWjg5OVZQRTNXMi4u)  <br> 
+
+
+  [🛠️ 01_Création d'un prompt](./exercices_ai/01_creation_prompt.md){ .md-button }  <br>
+  [🛠️ 02_Créer un personnage sous différents angles](./exercices_ai/02_personnage_differents_angles.md){ .md-button }  <br>
+  [🛠️ 03_Créer un personnage sous différents angles](./exercices_ai/03_personnage_different_background.md){ .md-button }  <br>
+  [🛠️ 04_Créer différents image avec différents styles](./exercices_ai/04_creer_image_style_01.md){ .md-button }  <br>
+  [🛠️ 04_Créer différents image avec différents styles](./exercices_ai/04_creer_image_style_02.md){ .md-button }  <br>
+  [🛠️ 05_Pan](./exercices_ai/05_pan.md){ .md-button }  <br>
+  [🛠️ 06_Editor](./exercices_ai/06_editor.md){ .md-button }  <br>
+  [🛠️ 07_Editor](./exercices_ai/07_upscale_telecharger){ .md-button }  <br>
