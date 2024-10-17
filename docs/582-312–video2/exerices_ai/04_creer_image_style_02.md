@@ -17,6 +17,11 @@ Le but de cet exercice est de créer une image à partir d'un style.
 - [ ] **Écrire un prompt pour l'image** :
    - Rédige un prompt détaillé : ex. : A pale-skinned redheaded woman with vibrant, flowing hair stands in a 1950s German train station. A large, intricately detailed octopus wraps its tentacles around her neck and shoulders. The station, with its post-war architecture--large windows, stone walls, and vintage signage--has an eerie and oppressive atmosphere. Around her, people are collapsed on the ground, some visibly ill, others dead, their bodies contorted in dramatic, unsettling poses. Trains emerge from the station's doors, their metal exteriors weathered and grimy, releasing thick clouds of smoke that swirl ominously through the space. The entire scene is bathed in dim, cinematic lighting, casting long, surreal shadows. In the style of Gregory Crewdson, the composition is meticulously staged, with hyperrealistic details and a dreamlike, unsettling quality that heightens the haunting, mysterious mood.
 
+- [ ] **--sw (poids du style basé sur l'image de référence)** :
+  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
+  * ex : --sw 1000
+     
+    
 - [ ] **Pour appliquer plus fortement le style ("vary strong")** :
    - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
 
