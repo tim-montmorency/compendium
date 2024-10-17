@@ -8,16 +8,17 @@ Le but de cet exercice est de créer une image à partir d'un style.
 
 ## Étapes
 - [ ] **Télécharger l'image de référence** :
-   - Sélectionne l'icône d'image dans le Prompt. 
+   - Sélectionne l'icône d'image dans le Prompt pour télécharger l'image de référence.
 
 - [ ] **Télécharger l'image de style** :
-   - Sélectionne l'icône de trombone dans le Prompt. 
+   - Sélectionne l'icône de trombone dans le Prompt pour attacher l'image de style.
 
-- [ ] **Écrire un prompt l'image** :
-   - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic....").
-     
-- [ ] **Pour appliquer plus fortement le style "vary strong** :
-   - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic....").
+- [ ] **Écrire un prompt pour l'image** :
+   - Rédige un prompt détaillé (ex. : "A realistic portrait of a young woman, her face covered in shiny pink plastic...").
+
+- [ ] **Pour appliquer plus fortement le style ("vary strong")** :
+   - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
+
 
 - [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
 ***
