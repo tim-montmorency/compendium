@@ -52,6 +52,3 @@
 
 
 
- * Keep the facial features, body structure, and overall appearance of the woman.
-  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
-  * --sw 1000 
