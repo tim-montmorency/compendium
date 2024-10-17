@@ -13,6 +13,10 @@
     (Décrivez ce que vous voulez voir dans la scène) 
     *Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature.*
 
+- [x] **Mentionner l'angle de vue :** 
+    (De quel point de vue la scène est-elle capturée ?) (ex : plan rapproché, plongée, contre-plongée, vue aérienne)
+    *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
+
 - [x] **Définir le lieu :** 
     (Où se passe la scène ?) 
     *La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji et des voitures garées le long des trottoirs.*
@@ -28,10 +32,6 @@
 - [x] **Décrire l’action :** 
     (Y a-t-il une action ou un mouvement dans la scène ?) 
     *La femme marche tranquillement dans la rue, tandis que le chat géant se déplace lentement derrière elle.*
-
-- [x] **Mentionner l'angle de vue :** 
-    (De quel point de vue la scène est-elle capturée ?) (ex : plan rapproché, plongée, contre-plongée, vue aérienne)
-    *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
 
 - [x] **Définir l'ambiance et le style :** 
     (Quel type d'ambiance voulez-vous ?) (par exemple, atmosphère lumineuse, sombre, surréaliste, polaroid, cinématographique)
@@ -72,19 +72,19 @@
 
 ---
 ### Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
-- [x] **Pour un look plus cinématographique, vous pouvez ajouter :**
+- [x] **Préciser le look cinématographique :**
   - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
   - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
   - [x] *Kodak Ektar 100* – Pour des couleurs vibrantes et une haute saturation.
   - [x] *Ilford HP5 400* – Pour un style noir et blanc avec un grain distinctif.
   - [x] *Cinestill 800T* – Pour un look cinématographique avec des teintes légèrement bleutées dans les zones de lumière artificielle.
   - [x] *Kodak Tri-X 400* – Pour un rendu noir et blanc classique avec un grain visible.
-- [x] **Pour un look Polaroid :**
+- [x] **Préciser le look polaroid :**
   - [x] *Polaroid 600* – Pour des images vintage avec des couleurs un peu délavées.
   - [x] *Polaroid SX-70* – Pour un rendu doux, lumineux et un peu flou, avec des couleurs subtiles.
   - [x] *Instant film* – Pour obtenir un effet général de film instantané avec un cadre blanc typique des Polaroids.
   - [x] *Expired Polaroid Film* – Pour un look encore plus vintage avec des couleurs imprévisibles et des artefacts visuels.
-- [x] **Effets supplémentaires :**
+- [x] **Préciser les effets supplémentaires :**
   - [x] *Cross Processed Film* – Pour un effet de développement chimique alternatif, donnant des couleurs inattendues et un contraste élevé.
   - [x] *Light Leaks* – Pour simuler des fuites de lumière, souvent présentes dans les vieux appareils photo ou les films mal enroulés.
   - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.
