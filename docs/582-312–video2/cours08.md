@@ -1,7 +1,7 @@
 # Cours 8
 
 
-[Stop]
+
 ## Devoir 1
 * [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUMEZYREJBS1dVR0tBWFRISFJVNEg0OVlBOS4u
 )  <br>  
