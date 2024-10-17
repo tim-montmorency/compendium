@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer un personnage avec un background différent.  
+Le but de cet exercice est de créer un personnage avec un background différent. Imagine un univers qui ressemble à celui-ci.   
 <img src="../assets/image/03_rosie_detective.png">
 ***
 
