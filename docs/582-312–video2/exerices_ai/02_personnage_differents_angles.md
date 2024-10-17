@@ -16,7 +16,8 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
    - Si tu souhaites que l'image influence uniquement le style visuel (couleurs, ambiance, etc.), colle le lien de l'image dans le prompt, en précisant que l'image doit être utilisée comme une référence stylistique.
 
 - [ ] **Rédiger un prompt décrivant la personne de l'image** :
-   - Ajoute une description détaillée du personnage en te basant sur ses traits physiques visibles dans l'image (exemple : couleur des cheveux, vêtements, posture). Mentionne également l'arrière-plan souhaité (exemple : ville, nature, intérieur minimaliste).
+   - Ajoute une description détaillée du personnage en te basant sur ses traits physiques visibles dans l'image (exemple : couleur des cheveux, vêtements, posture).
+   - Mentionne également l'arrière-plan souhaité (exemple : ville, nature, intérieur minimaliste).
 
 - [ ] **Créer des variations d'angles du personnage** :
    - Utilise des commandes spécifiques dans MidJourney pour demander différentes vues ou perspectives du personnage, telles que :
