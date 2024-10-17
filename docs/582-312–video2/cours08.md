@@ -17,7 +17,7 @@
 ### Notions : Utilisation des Prompts
 * [▶️ Présentation de Midjourney](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVq7pf3WggRPhQhX8kitNyABo-AbADJZpkvP5AV21QmClg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpVaBW)  <br>
 * [▶️ Le Prompt](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETzCAu57XttDuv6AdQeAA3kBd0g6XNA0YkuiFFM0-lfHAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Yn6Wob)  <br>    
-  [🛠️ 01_Création d'un prompt](./exerices_ai/01_creation_prompt.md){ .md-button }  <br>
+[🛠️ 01_Création d'un prompt](./exerices_ai/01_creation_prompt.md){ .md-button }  <br>
 
 
 ## Notions : Introduction à MidJourney
@@ -26,13 +26,13 @@
 
 ## Notions : Création de personnages
 * [▶️ Image](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZwnDl9Wwe9GsCbtAYRbas8B9Ho2tVB0m_eGaWyx1-GRBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y2Seq7)  <br> 
-  [🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>
-  [🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>
+[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>
+[🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>
 
 ## Notions : Application de styles
 * [▶️ Style](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EV1gSzxV02dCnk8Zq_cDqoIBrhgU_jAXSPZF3OLHJnRIXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q7u73c)  <br>
-  [🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>
-  [🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>
 
 
 ## Notions : Paramètres créatifs
@@ -42,14 +42,14 @@
 
 ## Notions : Agrandissement, amélioration visuelle et exportation
 * [▶️ Pan](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbagVz766-JKgMKEpijyU-EB-bEpw-k8_i0nM8nbTJo1nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gPMhjS)  <br>  
-  [🛠️ 05_Pan](./exerices_ai/05_pan.md){ .md-button }  <br>
+[🛠️ 05_Pan](./exerices_ai/05_pan.md){ .md-button }  <br>
 
   * [▶️ Run / éditor](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY9dtF_-ufRCjjN1VH3iur8BQdCxPXhcGceQbxaFUzU7YA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=a3axj0)  <br>  
-  [🛠️ 06_Editer](./exerices_ai/06_editor.md){ .md-button }  <br>
+[🛠️ 06_Editer](./exerices_ai/06_editor.md){ .md-button }  <br>
 
   * [▶️ L'option upscale](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eai9ufslH1dMgF7GKs_WTksBg1BkGo7xvs19OL6X2lD-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eKIovm)  <br>  
  
-  [🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger){ .md-button }  <br>
+[🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger){ .md-button }  <br>
 
 
 
