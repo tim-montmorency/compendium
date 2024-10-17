@@ -14,11 +14,15 @@ Le but de cet exercice est de créer une image à partir d'un style.
    - Sélectionne l'icône de trombone dans le Prompt pour attacher l'image de style.
 
 - [ ] **Écrire un prompt pour l'image** :
-   - Rédige un prompt détaillé (ex. : "A realistic portrait of a young woman, her face covered in shiny pink plastic...").
+   - Rédige un prompt détaillé (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic...").
      
 - [ ] **--sw (poids du style basé sur l'image de référence)** :
   * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
-  * ex : --sw 1000 
+  * ex : --sw 1000
+     
+- [ ] **--cw (poids du personnage basé sur l'image de référence)** :
+  * Le code suivant permet de gérer le niveau d'intensité du personnage appliqué : 100 is default, 0 is off, and 100 is maximum
+  * ex : --cw 100
 
 - [ ] **Pour appliquer plus fortement le style ("vary strong")** :
    - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
