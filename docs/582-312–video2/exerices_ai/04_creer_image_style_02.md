@@ -16,7 +16,6 @@ Le but de cet exercice est de créer une image à partir d'un style.
 - [ ] **Écrire un prompt l'image** :
    - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic...."). 
 
-- [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
 ***
 
 ## Tutoriel 📚
