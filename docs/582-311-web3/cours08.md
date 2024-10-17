@@ -16,7 +16,7 @@ Notes et corrigé
   ![](./assets/images/gijane.jpg)
 
   <small>Exercice - JavaScript</small><br>
-  **[Bootcamp](./exercices/js-bootcamp.md){.stretched-link}**
+  **[Camp d'entrainement](./exercices/js-bootcamp.md){.stretched-link}**
 </div>
 
 ## GSAP
