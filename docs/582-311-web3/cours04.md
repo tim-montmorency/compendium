@@ -245,7 +245,7 @@ Pour ceux et celles qui auraient besoin de se pratiquer en JavaScript, veuillez 
 
 Un aide-mémoire est également disponible sur mon GitHub : <https://github.com/jfcmontmorency/aide-memoire>
 
-Finalement, réviser au besoin la [portion JavaScript du cours 1](./javascript.md)
+Finalement, réviser au besoin la [portion JavaScript du cours 1](./cours01.md)
 
 ## Exercices
 

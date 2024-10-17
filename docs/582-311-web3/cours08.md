@@ -4,9 +4,22 @@ tags:
   - Vendredi 18 octobre
 ---
 
-[STOP]
-
 # Cours 8
+
+## Retour sur l'examen
+
+Notes et corrigé
+
+## Bootcamp JavaScript
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/gijane.jpg)
+
+  <small>Exercice - JavaScript</small><br>
+  **[Bootcamp](./exercices/js-bootcamp.md){.stretched-link}**
+</div>
+
+## GSAP
 
 [GSAP](https://gsap.com/) (GreenSock Animation Platform) est une bibliothèque JavaScript pour créer des animations web. Elle est utilisée pour créer des animations complexes et interactives.
 
