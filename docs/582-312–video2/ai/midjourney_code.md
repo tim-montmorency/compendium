@@ -1,5 +1,6 @@
 # Définition des commandes dans MidJourney
 
+
 ## 1. --stylize (stylisation générale)
 **Définition** : Le paramètre **--stylize** contrôle l'intensité de la créativité que MidJourney applique lors de l'interprétation du texte du prompt. Il influence la manière dont l'image est globalement stylisée. Une valeur plus élevée entraîne un rendu plus artistique, mais potentiellement moins fidèle à la description textuelle initiale.
 
@@ -11,7 +12,8 @@
 ## 2. --cw (poids du personnage basé sur l'image de référence)
 **Définition** : Le paramètre **--cw** (Character Weight) est utilisé spécifiquement en combinaison avec le paramètre **--cref** pour générer des personnages cohérents. Il indique à l'IA le poids à donner à l'image de référence de personnage fournie. Plus la valeur est élevée, plus l'IA prendra en compte les détails du personnage, comme les vêtements, le visage et la coiffure.
 
-- **Valeurs typiques** : Le paramètre **--cw** accepte des valeurs entre **0 et 100**. Par défaut, il est à son niveau maximum, ce qui signifie que l'IA se concentre fortement sur la référence du personnage. Une valeur plus faible permet d'apporter plus de variations, notamment dans les vêtements ou les autres aspects du personnage.
+- **Valeur par défaut** : La valeur par défaut de **--cw** est **100**, ce qui signifie que l'IA suit strictement les caractéristiques du personnage dans l'image de référence (visage, vêtements, etc.).
+- **Valeurs typiques** : Le paramètre **--cw** accepte des valeurs entre **0 et 100**. Une valeur plus faible permet d'apporter plus de variations, notamment dans les vêtements ou les autres aspects du personnage.
 - **Exemple** : `--cw 10` permet d'ajouter plus de liberté dans la génération du personnage, tandis que `--cw 100` conserve plus strictement les caractéristiques de la référence.
 
 ---
@@ -27,7 +29,7 @@
 # Résumé des commandes
 
 - **--stylize 1000** : Définit le degré de stylisation artistique appliqué à l'interprétation du prompt texte, offrant un rendu plus artistique tout en maintenant une certaine cohérence avec le prompt.
-- **--cw 100** : Contrôle la fidélité de l'IA à un personnage généré via une image de référence, offrant un rendu précis du personnage selon la référence fournie.
+- **--cw 100** : Par défaut, contrôle la fidélité de l'IA à un personnage généré via une image de référence, offrant un rendu précis du personnage selon la référence fournie.
 - **--sw 1000** : Accentue l'influence artistique sur l'image, en fonction d'une référence ou d'un style prédéfini, s'éloignant du réalisme pour aller vers un rendu créatif.
 
 ---
@@ -35,5 +37,6 @@
 # Différences clés
 
 - **--stylize** : Influence le degré global de stylisation basé sur le texte du prompt.
-- **--cw** : Gère le poids des caractéristiques d'un personnage à partir d'une référence visuelle.
+- **--cw** : Gère le poids des caractéristiques d'un personnage à partir d'une référence visuelle, avec une valeur par défaut de 100 pour une fidélité maximale à la référence.
 - **--sw** : Contrôle la force de stylisation basée sur une influence artistique ou un style prédéfini.
+
