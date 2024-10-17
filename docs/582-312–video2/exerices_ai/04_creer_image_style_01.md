@@ -19,8 +19,6 @@ Le but de cet exercice est de créer une image à partir d'un style.
 - [ ] **Pour appliquer plus fortement le style ("vary strong")** :
    - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
 
-
-- [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
 ***
 
 ## Tutoriel 📚
