@@ -17,8 +17,9 @@ Le but de cet exercice est de créer un personnage avec un background différent
 
 - [ ] **Écrire un prompt pour l'image** :
    - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress").  
-   - Ajoute une description du background que tu désires (ex. : "beach at sunset, cityscape, forest").  
-   - Ajoute une description de la pellicule que tu souhaites (ex. : "Kodak Portra 800, desaturated tones, cinematic look").
+   - Ajoute une description du background que tu vois dans l'image (ex. : "beach at sunset, cityscape, forest").
+   - Ajoute une description de la lumière que tu vois dans l'image. (ex. : "diffuse, contrast, sunset").
+   - Ajoute une description de la pellicule que tu vois dans l'image (ex. : "Kodak Portra 800, desaturated tones, cinematic look").
 
 ***
 
