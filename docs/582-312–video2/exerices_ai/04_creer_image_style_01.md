@@ -1,9 +1,9 @@
 <style>.md-footer{display:none;}</style>
 Le but de cet exercice est de créer une image à partir d'un style. 
-<img src="../assets/image/04_rosie_pieuvre_01.png">
+<img src="../assets/image/04_rosie_plastique.png">
 ***
 
-[📁 Document de départ](../assets/image/04_clown.png){ .md-button }   <br>
+[📁 Document de départ](../assets/image/04_pot_rose){ .md-button }   <br>
 [📁 Document de départ](../assets/image/04_rosie_pieuvre.png){ .md-button }   <br>
 
 ## Étapes
