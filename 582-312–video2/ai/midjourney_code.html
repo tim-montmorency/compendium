@@ -11510,7 +11510,8 @@
 <h2 id="2-cw-poids-du-personnage-base-sur-limage-de-reference">2. --cw (poids du personnage basé sur l'image de référence)<a class="headerlink" href="#2-cw-poids-du-personnage-base-sur-limage-de-reference" title="Permanent link">¶</a></h2>
 <p><strong>Définition</strong> : Le paramètre <strong>--cw</strong> (Character Weight) est utilisé spécifiquement en combinaison avec le paramètre <strong>--cref</strong> pour générer des personnages cohérents. Il indique à l'IA le poids à donner à l'image de référence de personnage fournie. Plus la valeur est élevée, plus l'IA prendra en compte les détails du personnage, comme les vêtements, le visage et la coiffure.</p>
 <ul>
-<li><strong>Valeurs typiques</strong> : Le paramètre <strong>--cw</strong> accepte des valeurs entre <strong>0 et 100</strong>. Par défaut, il est à son niveau maximum, ce qui signifie que l'IA se concentre fortement sur la référence du personnage. Une valeur plus faible permet d'apporter plus de variations, notamment dans les vêtements ou les autres aspects du personnage.</li>
+<li><strong>Valeur par défaut</strong> : La valeur par défaut de <strong>--cw</strong> est <strong>100</strong>, ce qui signifie que l'IA suit strictement les caractéristiques du personnage dans l'image de référence (visage, vêtements, etc.).</li>
+<li><strong>Valeurs typiques</strong> : Le paramètre <strong>--cw</strong> accepte des valeurs entre <strong>0 et 100</strong>. Une valeur plus faible permet d'apporter plus de variations, notamment dans les vêtements ou les autres aspects du personnage.</li>
 <li><strong>Exemple</strong> : <code>--cw 10</code> permet d'ajouter plus de liberté dans la génération du personnage, tandis que <code>--cw 100</code> conserve plus strictement les caractéristiques de la référence.</li>
 </ul>
 <hr>
@@ -11524,14 +11525,14 @@
 <h1 id="resume-des-commandes">Résumé des commandes<a class="headerlink" href="#resume-des-commandes" title="Permanent link">¶</a></h1>
 <ul>
 <li><strong>--stylize 1000</strong> : Définit le degré de stylisation artistique appliqué à l'interprétation du prompt texte, offrant un rendu plus artistique tout en maintenant une certaine cohérence avec le prompt.</li>
-<li><strong>--cw 100</strong> : Contrôle la fidélité de l'IA à un personnage généré via une image de référence, offrant un rendu précis du personnage selon la référence fournie.</li>
+<li><strong>--cw 100</strong> : Par défaut, contrôle la fidélité de l'IA à un personnage généré via une image de référence, offrant un rendu précis du personnage selon la référence fournie.</li>
 <li><strong>--sw 1000</strong> : Accentue l'influence artistique sur l'image, en fonction d'une référence ou d'un style prédéfini, s'éloignant du réalisme pour aller vers un rendu créatif.</li>
 </ul>
 <hr>
 <h1 id="differences-cles">Différences clés<a class="headerlink" href="#differences-cles" title="Permanent link">¶</a></h1>
 <ul>
 <li><strong>--stylize</strong> : Influence le degré global de stylisation basé sur le texte du prompt.</li>
-<li><strong>--cw</strong> : Gère le poids des caractéristiques d'un personnage à partir d'une référence visuelle.</li>
+<li><strong>--cw</strong> : Gère le poids des caractéristiques d'un personnage à partir d'une référence visuelle, avec une valeur par défaut de 100 pour une fidélité maximale à la référence.</li>
 <li><strong>--sw</strong> : Contrôle la force de stylisation basée sur une influence artistique ou un style prédéfini.</li>
 </ul></div>
 
