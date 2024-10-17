@@ -4,7 +4,7 @@ Le but de cet exercice est de créer une image à partir d'un style.
 ***
 
 [📁 Document de départ](../assets/image/04_pot_rose){ .md-button }   <br>
-[📁 Document de départ](../assets/image/04_rosie_pieuvre.png){ .md-button }   <br>
+[📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
 - [ ] **Télécharger l'image de référence** :
