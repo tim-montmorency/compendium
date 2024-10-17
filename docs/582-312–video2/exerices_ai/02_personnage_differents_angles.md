@@ -28,15 +28,14 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
      - `under sunlight`, `studio lighting`.
 
 
-- [ ] Consulter [la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
-    
+
 ***
 
 ## Tutoriel 📚
 
 [📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZwnDl9Wwe9GsCbtAYRbas8B9Ho2tVB0m_eGaWyx1-GRBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=grtPVC){ .md-button }   <br>
 
-
+[📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.
 
 
 
