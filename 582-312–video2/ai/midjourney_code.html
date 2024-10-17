@@ -11435,27 +11435,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-sw-style-weight-text" class="md-nav__link">
+  <a href="#1-sw-poids-du-style-base-sur-le-texte" class="md-nav__link">
     <span class="md-ellipsis">
-      1. --sw (style weight) (text):
+      1. --sw (poids du style basé sur le texte) :
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-stylize-stylization-general" class="md-nav__link">
+  <a href="#2-stylize-stylisation-generale" class="md-nav__link">
     <span class="md-ellipsis">
-      2. --stylize (stylization) (général):
+      2. --stylize (stylisation générale) :
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-sref-style-reference-weight-image-reference" class="md-nav__link">
+  <a href="#3-sref-poids-du-style-de-limage-de-reference" class="md-nav__link">
     <span class="md-ellipsis">
-      3. --sref (style reference weight) (image référence):
+      3. --sref (poids du style de l'image de référence) :
     </span>
   </a>
   
@@ -11495,34 +11495,38 @@
 
 
 <div><h1 id="definition-des-commandes-dans-midjourney">Définition des commandes dans MidJourney<a class="headerlink" href="#definition-des-commandes-dans-midjourney" title="Permanent link">¶</a></h1>
-<h2 id="1-sw-style-weight-text">1. <code>--sw</code> (style weight) (text):<a class="headerlink" href="#1-sw-style-weight-text" title="Permanent link">¶</a></h2>
-<p><strong>Définition</strong> : Le <code>--sw</code> ou "style weight" contrôle combien de liberté artistique MidJourney prend pour styliser l'image en fonction du texte du <strong>prompt</strong>.  C'est utilisé pour guider le style de l'image générée en fonction du <strong>prompt</strong> que tu fournis.<br>
-<strong>Plus la valeur est élevée</strong>, plus l'image sera stylisée de manière artistique, souvent en s'éloignant du texte littéral pour un rendu plus abstrait ou créatif.<br>
-<strong>Valeurs typiques</strong> : Tu peux ajuster le <code>--sw</code> entre une valeur basse (comme <code>--sw 250</code> pour une image très fidèle au texte) et une valeur haute (comme <code>--sw 1000</code> pour un rendu plus créatif et artistique).<br>
-<strong>Exemple</strong> : <code>--sw 1000</code> donne une grande liberté à l'IA pour styliser l'image de manière artistique.</p>
-<h2 id="2-stylize-stylization-general">2. <code>--stylize</code> (stylization) (général):<a class="headerlink" href="#2-stylize-stylization-general" title="Permanent link">¶</a></h2>
-<p><strong>Définition</strong> : Le <code>--stylize</code> contrôle le degré de créativité que MidJourney applique en interprétant le texte du <strong>prompt</strong>. Cette commande définit combien de liberté l'IA prend pour styliser l'image.<br>
-<strong>Plus la valeur est élevée</strong>, plus l'image sera artistique et stylisée. À des valeurs élevées, l'image peut devenir moins fidèle à une description littérale.<br>
-<strong>Valeurs typiques</strong> : Tu peux utiliser des valeurs comme <code>--stylize 100</code> pour plus de précision, et des valeurs plus élevées comme <code>--stylize 1000</code> ou plus pour un rendu très stylisé.<br>
-<strong>Exemple</strong> : <code>--stylize 1000</code> donne à l'IA une certaine liberté pour embellir et styliser l'image, tout en restant reconnaissable par rapport au <strong>prompt</strong>.</p>
-<h2 id="3-sref-style-reference-weight-image-reference">3. <code>--sref</code> (style reference weight) (image référence):<a class="headerlink" href="#3-sref-style-reference-weight-image-reference" title="Permanent link">¶</a></h2>
-<p><strong>Définition</strong> : Le <code>--sref</code> contrôle combien d'influence une image de référence donnée aura sur la génération de l'image. C'est utilisé pour guider le style de l'image générée en fonction d'une <strong>image référence</strong> que tu fournis.<br>
-<strong>Plus la valeur est élevée</strong>, plus l'image générée ressemblera stylistiquement à l'image de référence, en s'appuyant sur ses couleurs, textures, ou composition.<br>
-<strong>Valeurs typiques</strong> : Le <code>--sref</code> peut varier en fonction de l'influence que tu veux que l'image de référence ait. Par exemple, <code>--sref 1000</code> donnerait une forte influence à l'image de référence.<br>
-<strong>Exemple</strong> : <code>--sref 1000</code> signifie que l'image générée sera fortement influencée par l'image de référence que tu as donnée.</p>
+<h3 id="1-sw-poids-du-style-base-sur-le-texte">1. --sw (poids du style basé sur le texte) :<a class="headerlink" href="#1-sw-poids-du-style-base-sur-le-texte" title="Permanent link">¶</a></h3>
+<p><strong>Définition</strong> : Le <strong>--sw</strong> ou "style weight" contrôle combien de liberté artistique MidJourney prend pour styliser l'image en fonction du texte du prompt. C’est utilisé pour guider le style de l'image générée <strong>à partir du texte que tu fournis</strong>. Plus la valeur est élevée, plus l'image sera stylisée de manière artistique, souvent en s'éloignant du texte littéral pour un rendu plus abstrait ou créatif.</p>
+<ul>
+<li><strong>Valeurs typiques</strong> : Tu peux ajuster le --sw entre une valeur basse (comme --sw 250 pour une image très fidèle au texte) et une valeur haute (comme --sw 1000 pour un rendu plus créatif et artistique).</li>
+<li><strong>Exemple</strong> : --sw 1000 donne une grande liberté à l'IA pour styliser l'image de manière artistique.</li>
+</ul>
+<h3 id="2-stylize-stylisation-generale">2. --stylize (stylisation générale) :<a class="headerlink" href="#2-stylize-stylisation-generale" title="Permanent link">¶</a></h3>
+<p><strong>Définition</strong> : Le <strong>--stylize</strong> contrôle le degré de créativité que MidJourney applique en interprétant le texte du prompt. Cette commande définit combien de liberté l'IA prend pour styliser l'image. Plus la valeur est élevée, plus l'image sera artistique et stylisée. À des valeurs élevées, l'image peut devenir moins fidèle à une description littérale.</p>
+<ul>
+<li><strong>Valeurs typiques</strong> : Tu peux utiliser des valeurs comme --stylize 100 pour plus de précision, et des valeurs plus élevées comme --stylize 1000 ou plus pour un rendu très stylisé.</li>
+<li><strong>Exemple</strong> : --stylize 1000 donne à l'IA une certaine liberté pour embellir et styliser l'image, tout en restant reconnaissable par rapport au prompt.</li>
+</ul>
+<h3 id="3-sref-poids-du-style-de-limage-de-reference">3. --sref (poids du style de l'image de référence) :<a class="headerlink" href="#3-sref-poids-du-style-de-limage-de-reference" title="Permanent link">¶</a></h3>
+<p><strong>Définition</strong> : Le <strong>--sref</strong> contrôle combien d'influence une <strong>image de référence</strong> donnée aura sur la génération de l'image. C’est utilisé pour guider le style de l'image générée en fonction d'une image de référence que tu fournis. Plus la valeur est élevée, plus l'image générée ressemblera stylistiquement à l'image de référence, en s'appuyant sur ses couleurs, textures ou composition.</p>
+<ul>
+<li><strong>Valeurs typiques</strong> : Le <strong>--sref</strong> peut varier en fonction de l'influence que tu veux que l'image de référence ait. Par exemple, --sref 1000 donnerait une forte influence à l'image de référence.</li>
+<li><strong>Exemple</strong> : --sref 1000 signifie que l'image générée sera fortement influencée par l'image de référence que tu as donnée.</li>
+</ul>
 <hr>
-<h2 id="resume-des-commandes">Résumé des commandes :<a class="headerlink" href="#resume-des-commandes" title="Permanent link">¶</a></h2>
+<h3 id="resume-des-commandes"><strong>Résumé des commandes</strong> :<a class="headerlink" href="#resume-des-commandes" title="Permanent link">¶</a></h3>
 <ul>
-<li><strong><code>--sw 1000</code></strong> : Permet une grande liberté artistique à l'IA pour styliser l'image en fonction du <strong>prompt</strong>. Plus la valeur est élevée, plus l'image sera abstraite et créative.</li>
-<li><strong><code>--stylize 1000</code></strong> : Définit à quel point l'image sera stylisée. Une valeur de 1000 permet une stylisation modérée, créative, mais toujours reconnaissable par rapport au <strong>prompt</strong>.</li>
-<li><strong><code>--sref 1000</code></strong> : Donne une forte influence à une image de référence. L'image générée sera très stylisée d'après l'<strong>image de référence.</strong></li>
+<li><strong>--sw 1000</strong> : Permet une grande liberté artistique à l'IA pour styliser l'image en fonction du <strong>texte</strong> du prompt. Plus la valeur est élevée, plus l'image sera abstraite et créative.</li>
+<li><strong>--stylize 1000</strong> : Définit à quel point l'image sera stylisée. Une valeur de 1000 permet une stylisation créative, mais toujours reconnaissable par rapport au prompt.</li>
+<li><strong>--sref 1000</strong> : Donne une forte influence au <strong>style</strong> de l'image générée d'après une image de référence.</li>
 </ul>
-<h2 id="differences-cles">Différences clés :<a class="headerlink" href="#differences-cles" title="Permanent link">¶</a></h2>
+<hr>
+<h3 id="differences-cles"><strong>Différences clés</strong> :<a class="headerlink" href="#differences-cles" title="Permanent link">¶</a></h3>
 <ul>
-<li><strong><code>--sw</code> et <code>--stylize</code></strong> influencent tous les deux la créativité artistique, mais <code>--sw</code> est plus spécifique pour l'application de style basé sur le texte, alors que <code>--stylize</code> influence l'approche créative globale.</li>
-<li><strong><code>--sref</code></strong> est utilisé spécifiquement avec une image de référence.</li>
+<li><strong>--sw</strong> et <strong>--stylize</strong> influencent tous les deux la créativité artistique, mais <strong>--sw</strong> est plus spécifique pour l'application de style <strong>basé sur le texte</strong>, alors que <strong>--stylize</strong> influence l'approche créative globale.</li>
+<li><strong>--sref</strong> est utilisé spécifiquement avec <strong>une image de référence</strong> pour guider le style de la création.</li>
 </ul>
-<p>Ces paramètres te permettent de contrôler avec précision le degré de créativité, d'influence de référence et de cohérence dans les résultats générés dans MidJourney.</p></div>
+<p>Ces paramètres te permettent de contrôler avec précision le degré de créativité, d'influence de référence, et de cohérence dans les résultats générés dans MidJourney.</p></div>
 
 
 
