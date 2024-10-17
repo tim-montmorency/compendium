@@ -7,14 +7,15 @@ Le but de cet exercice est de créer une image à partir d'un style.
 [📁 Document de départ](../assets/image/04_rosie_pieuvre.png){ .md-button }   <br>
 
 ## Étapes
+
 - [ ] **Télécharger l'image de référence** :
-   - Sélectionne l'icône d'image dans le Prompt. 
+   - Sélectionne l'icône d'image dans le prompt pour télécharger l'image de référence.
 
 - [ ] **Télécharger l'image de style** :
-   - Sélectionne l'icône de trombone dans le Prompt. 
+   - Sélectionne l'icône de trombone dans le prompt pour attacher l'image de style.
 
-- [ ] **Écrire un prompt l'image** :
-   - Rédige un prompt (ex. : "A realistic portrait of a young woman including her face is covered shiny pink plastic...."). 
+- [ ] **Écrire un prompt pour l'image** :
+   - Rédige un prompt détaillé (ex. : A pale-skinned redheaded woman with vibrant, flowing hair stands in a 1950s German train station. A large, intricately detailed octopus wraps its tentacles around her neck and shoulders. The station, with its post-war architecture--large windows, stone walls, and vintage signage--has an eerie and oppressive atmosphere. Around her, people are collapsed on the ground, some visibly ill, others dead, their bodies contorted in dramatic, unsettling poses. Trains emerge from the station's doors, their metal exteriors weathered and grimy, releasing thick clouds of smoke that swirl ominously through the space. The entire scene is bathed in dim, cinematic lighting, casting long, surreal shadows. In the style of Gregory Crewdson, the composition is meticulously staged, with hyperrealistic details and a dreamlike, unsettling quality that heightens the haunting, mysterious mood.
 
 ***
 
