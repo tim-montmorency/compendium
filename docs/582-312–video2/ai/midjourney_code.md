@@ -14,7 +14,7 @@
 
 - **Valeur par défaut** : La valeur par défaut de **--cw** est **100**, ce qui signifie que l'IA suit strictement les caractéristiques du personnage dans l'image de référence (visage, vêtements, etc.).
 - **Valeurs typiques** : Le paramètre **--cw** accepte des valeurs entre **0 et 100**. Une valeur plus faible permet d'apporter plus de variations, notamment dans les vêtements ou les autres aspects du personnage.
-- **Exemple** : `--cw 10` permet d'ajouter plus de liberté dans la génération du personnage, tandis que `--cw 100` conserve plus strictement les caractéristiques de la référence.
+- **Exemple** : `--cw 10` permet d'ajouter plus de liberté dans la génération du personnage si vous voulez changer ses vêtements, tandis que `--cw 100` conserve plus strictement les caractéristiques de la référence.
 
 ---
 
