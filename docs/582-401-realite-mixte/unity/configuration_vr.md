@@ -17,8 +17,7 @@ Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer
 - [ ] Edit, Project Settings, preset manager. Les actions qu'on vient d'ajouter y sont disponible.
 - [ ] Dans Action Based Controller, on écrit Right pour le controlleur droit et Left pour le controlleur gauche dans la section Filter.
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/Kk90hhsdOq0?si=rM0lg8wosODma5d-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M2hMiALFGpQ?si=CLPY7A5nzDQYmYk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
@@ -56,7 +55,7 @@ Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer
 
       
 
-## Automatiser la détection du casque
+## Automatiser la détection du casque - Optionnel
 Si vous voulez que Unity active ou désactive les tests souris-clavier lorsque vous connectez votre casque à l'ordinateur, vous pouvez suivre la vidéo suivante. Sinon, cochez ou décochez le Device simulator pour tester avec le casque ou la souris.   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hnxy-QOiGAo?si=UsGTIlLYPFKOGDUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

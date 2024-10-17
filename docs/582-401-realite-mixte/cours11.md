@@ -2,11 +2,11 @@
 
 ## Grimper
 
-[📝 Déplacement en VR](unity/deplacement_vr.md#grimper){ .md-button }
+[📝 Grimper en VR](unity/grimper.md){ .md-button }
 
 ## Canvas
 
-[📝 Canvas en VR](unity/UI.md#canvas-en-vr){ .md-button }
+[📝 Canvas en VR](unity/ui_vr.md){ .md-button }
 
 ## Audio
 
