@@ -7,20 +7,20 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 
 ## Étapes
 - [ ] **Télécharger l'image de référence** :
-   - Télécharge l'image de la personne que tu veux utiliser dans Midjourney.
+   - Télécharge l'image de la personne que tu souhaites utiliser comme référence dans MidJourney.
 
 - [ ] **Attacher l'image comme référence** :
-   - Colle le lien de l'image dans le prompt pour que MidJourney prenne en compte l'image comme base.
+   - Insère le lien de l'image téléchargée dans le prompt pour que MidJourney l'utilise comme référence pour générer de nouvelles images.
 
-- [ ] **Attacher l'image comme style** (optionnel):
-   - Colle le lien de l'image dans le prompt pour que MidJourney prenne en compte l'image comme style.
+- [ ] **Attacher l'image comme style** (optionnel) :
+   - Si tu souhaites que l'image influence uniquement le style visuel (couleurs, ambiance, etc.), colle le lien de l'image dans le prompt, en précisant que l'image doit être utilisée comme une référence stylistique.
 
-- [ ] **Écrire un prompt qui décrit la personne de l'image** :
-   - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress").
+- [ ] **Rédiger un prompt décrivant la personne de l'image** :
+   - Ajoute une description détaillée du personnage en te basant sur ses traits physiques visibles dans l'image (exemple : couleur des cheveux, vêtements, posture). Mentionne également l'arrière-plan souhaité (exemple : ville, nature, intérieur minimaliste).
 
-- [ ] **Créer des prompts avec le personnage sous différents angles** :
-   - Utilise des commandes pour demander des variations comme :
-     - `side view`, `back view`, `low shot`, `high shot`.
+- [ ] **Créer des variations d'angles du personnage** :
+   - Utilise des commandes spécifiques dans MidJourney pour demander différentes vues ou perspectives du personnage, telles que :
+     - `side view` (vue de côté), `back view` (vue de dos), `low shot` (contre-plongée), `high shot` (vue en plongée).
 
 - [ ] **Faire varier les lumières dans tes prompts** :
    - Ajoute des variations dans l'éclairage, par exemple :
