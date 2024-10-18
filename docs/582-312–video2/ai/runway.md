@@ -1,3 +1,6 @@
+<style>.md-header{display:none;}</style>
+
+
 ## Gen-3 et la cohérence des prompts
 
 Le modèle **Gen-3 Alpha** fonctionne différemment des modèles de langage comme ChatGPT. Il ne traite pas les descriptions de manière approfondie, mais se concentre sur les **mots-clés** pour générer les vidéos. Cela signifie que les descriptions peuvent être courtes mais doivent être précises. Gardez à l’esprit que **500 caractères** est la limite pour les prompts, donc chaque mot compte.
