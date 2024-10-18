@@ -64,7 +64,9 @@ Les étapes à suivre pour compléter l'exercice :
 
 ## Animation de base
 
-Qu'est-ce qu'on peut animer avec GSAP ?
+
+
+### On anime quoi?
 
 * **Positionnements** (x, y, left, right, top, bottom)
 * **Espacements** (margin, padding)
@@ -74,15 +76,17 @@ Qu'est-ce qu'on peut animer avec GSAP ?
 * **Typographie**
 * **Transformations** (scale, rotate, skew)
 
-https://gsap.com/resources/get-started/#transform-shorthand
+Ces propriétés sont animées par [interpolation (tween)](https://gsap.com/docs/v3/GSAP/Tween) selon une [fonction d'assouplissement (ease)]( https://gsap.com/docs/v3/Eases/).
 
-Les fonctionnalités de base pour les animations GSAP sont les suivantes :
+### Fonctionnalités de base
+
+Les fonctions de base pour les animations GSAP sont les suivantes :
 
 * `to()` : Crée une animation où les propriétés de l’élément évoluent jusqu’aux valeurs spécifiées.
 * `from()` : Crée une animation où les propriétés de l’élément commencent à une certaine valeur puis reviennent à leur état initial.
 * `fromTo()` : Permet de spécifier les valeurs de départ et d’arrivée pour une animation.
 
-### Fonction to()
+#### to()
 
 ```js title="Syntaxe"
 gsap.to(sélecteur, {
@@ -94,6 +98,8 @@ gsap.to(sélecteur, {
 * **sélecteur** : Sélecteur CSS qui sélectionne 1 ou plusieurs éléments (ex.: ".dot").
 * **configurations** : Configurations GSAP (ex.: duration).
 * **Propriétés CSS** à animer (ex.: x, opacité, ...).
+
+
 
 ```js title="Exemple exhaustif"
 gsap.to('.dot', {
@@ -137,7 +143,7 @@ gsap.to('.dot', {
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Fonction from()
+#### from()
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - to()" src="https://codepen.io/tim-momo/embed/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f">
@@ -145,7 +151,7 @@ gsap.to('.dot', {
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Fonction fromTo()
+#### fromTo()
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - from()" src="https://codepen.io/tim-momo/embed/ExqXNrx/7f1f9010b174671e88f5f671802891a4?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/ExqXNrx/7f1f9010b174671e88f5f671802891a4">
@@ -153,9 +159,9 @@ gsap.to('.dot', {
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### *Delay*
+#### *Delay*
 
-Tout comme la propriété [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay) en CSS, la propriété delay de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.
+Tout comme la propriété [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay) en CSS, la propriété [delay](https://gsap.com/docs/v3/GSAP/Timeline/delay()) de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.
 
 ```js
 gsap.to('.element', {
@@ -164,9 +170,9 @@ gsap.to('.element', {
 });
 ```
 
-### *Stagger*
+#### *Stagger*
 
-Similaire à *Delay*, *Stagger* fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.
+Similaire à *Delay*, [*Stagger*](https://gsap.com/resources/getting-started/Staggers/) fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.
 
 ```js
 gsap.to('.elements', {
