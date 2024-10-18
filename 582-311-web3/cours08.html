@@ -5311,27 +5311,46 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fonction-to" class="md-nav__link">
+  <a href="#on-anime-quoi" class="md-nav__link">
     <span class="md-ellipsis">
-      Fonction to()
+      On anime quoi?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#fonction-from" class="md-nav__link">
+  <a href="#fonctionnalites-de-base" class="md-nav__link">
     <span class="md-ellipsis">
-      Fonction from()
+      Fonctionnalités de base
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fonctionnalités de base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to" class="md-nav__link">
+    <span class="md-ellipsis">
+      to()
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#fonction-fromto" class="md-nav__link">
+  <a href="#from" class="md-nav__link">
     <span class="md-ellipsis">
-      Fonction fromTo()
+      from()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fromto" class="md-nav__link">
+    <span class="md-ellipsis">
+      fromTo()
     </span>
   </a>
   
@@ -5352,6 +5371,11 @@
       Stagger
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -11612,27 +11636,46 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fonction-to" class="md-nav__link">
+  <a href="#on-anime-quoi" class="md-nav__link">
     <span class="md-ellipsis">
-      Fonction to()
+      On anime quoi?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#fonction-from" class="md-nav__link">
+  <a href="#fonctionnalites-de-base" class="md-nav__link">
     <span class="md-ellipsis">
-      Fonction from()
+      Fonctionnalités de base
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fonctionnalités de base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to" class="md-nav__link">
+    <span class="md-ellipsis">
+      to()
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#fonction-fromto" class="md-nav__link">
+  <a href="#from" class="md-nav__link">
     <span class="md-ellipsis">
-      Fonction fromTo()
+      from()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fromto" class="md-nav__link">
+    <span class="md-ellipsis">
+      fromTo()
     </span>
   </a>
   
@@ -11653,6 +11696,11 @@
       Stagger
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -11747,7 +11795,7 @@
 <p>Il est recommandé d’utiliser des fichiers CDN, car ils sont mis en cache et se chargent rapidement. Avec des millions de sites utilisant GSAP, il est probable que vos visiteurs aient déjà la bibliothèque en cache, ce qui réduit la bande passante et accélère le chargement.</p>
 </div>
 <h2 id="animation-de-base">Animation de base<a class="headerlink" href="#animation-de-base" title="Permanent link">¶</a></h2>
-<p>Qu'est-ce qu'on peut animer avec GSAP ?</p>
+<h3 id="on-anime-quoi">On anime quoi?<a class="headerlink" href="#on-anime-quoi" title="Permanent link">¶</a></h3>
 <ul>
 <li><strong>Positionnements</strong> (x, y, left, right, top, bottom)</li>
 <li><strong>Espacements</strong> (margin, padding)</li>
@@ -11757,14 +11805,15 @@
 <li><strong>Typographie</strong></li>
 <li><strong>Transformations</strong> (scale, rotate, skew)</li>
 </ul>
-<p>https://gsap.com/resources/get-started/#transform-shorthand</p>
-<p>Les fonctionnalités de base pour les animations GSAP sont les suivantes :</p>
+<p>Ces propriétés sont animées par <a href="https://gsap.com/docs/v3/GSAP/Tween">interpolation (tween)</a> selon une <a href="https://gsap.com/docs/v3/Eases/">fonction d'assouplissement (ease)</a>.</p>
+<h3 id="fonctionnalites-de-base">Fonctionnalités de base<a class="headerlink" href="#fonctionnalites-de-base" title="Permanent link">¶</a></h3>
+<p>Les fonctions de base pour les animations GSAP sont les suivantes :</p>
 <ul>
 <li><code>to()</code> : Crée une animation où les propriétés de l’élément évoluent jusqu’aux valeurs spécifiées.</li>
 <li><code>from()</code> : Crée une animation où les propriétés de l’élément commencent à une certaine valeur puis reviennent à leur état initial.</li>
 <li><code>fromTo()</code> : Permet de spécifier les valeurs de départ et d’arrivée pour une animation.</li>
 </ul>
-<h3 id="fonction-to">Fonction to()<a class="headerlink" href="#fonction-to" title="Permanent link">¶</a></h3>
+<h4 id="to">to()<a class="headerlink" href="#to" title="Permanent link">¶</a></h4>
 <div class="highlight"><span class="filename">Syntaxe</span><pre><span></span><code><span class="nx">gsap</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="nx">sélecteur</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="c1">// configurations</span>
 <span class="w">  </span><span class="c1">// propriété: valeur,</span>
@@ -11815,29 +11864,29 @@
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<h3 id="fonction-from">Fonction from()<a class="headerlink" href="#fonction-from" title="Permanent link">¶</a></h3>
+<h4 id="from">from()<a class="headerlink" href="#from" title="Permanent link">¶</a></h4>
 <iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - to()" src="https://codepen.io/tim-momo/embed/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f?default-tab=result&amp;editable=true&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f">
   GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<h3 id="fonction-fromto">Fonction fromTo()<a class="headerlink" href="#fonction-fromto" title="Permanent link">¶</a></h3>
+<h4 id="fromto">fromTo()<a class="headerlink" href="#fromto" title="Permanent link">¶</a></h4>
 <iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - from()" src="https://codepen.io/tim-momo/embed/ExqXNrx/7f1f9010b174671e88f5f671802891a4?default-tab=result&amp;editable=true&amp;theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/ExqXNrx/7f1f9010b174671e88f5f671802891a4">
   GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<h3 id="delay"><em>Delay</em><a class="headerlink" href="#delay" title="Permanent link">¶</a></h3>
-<p>Tout comme la propriété <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay">animation-delay</a> en CSS, la propriété delay de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.</p>
+<h4 id="delay"><em>Delay</em><a class="headerlink" href="#delay" title="Permanent link">¶</a></h4>
+<p>Tout comme la propriété <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay">animation-delay</a> en CSS, la propriété <a href="https://gsap.com/docs/v3/GSAP/Timeline/delay()">delay</a> de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.</p>
 <div class="highlight"><pre><span></span><code><span class="nx">gsap</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">'.element'</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">delay</span><span class="o">:</span><span class="w"> </span><span class="mf">0.2</span>
 <span class="p">});</span>
 </code></pre></div>
-<h3 id="stagger"><em>Stagger</em><a class="headerlink" href="#stagger" title="Permanent link">¶</a></h3>
-<p>Similaire à <em>Delay</em>, <em>Stagger</em> fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.</p>
+<h4 id="stagger"><em>Stagger</em><a class="headerlink" href="#stagger" title="Permanent link">¶</a></h4>
+<p>Similaire à <em>Delay</em>, <a href="https://gsap.com/resources/getting-started/Staggers/"><em>Stagger</em></a> fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.</p>
 <div class="highlight"><pre><span></span><code><span class="nx">gsap</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">'.elements'</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">stagger</span><span class="o">:</span><span class="w"> </span><span class="mf">0.2</span>
