@@ -6,9 +6,14 @@ tags:
 
 # Cours 8
 
-## Retour sur l'examen
+## Retour sur la partie Bootstrap de l'examen
 
-Notes et corrigé
+* [`col-sm-4`](./cours03.md#systeme-de-grille-grid-system)
+* [`order-last`](./cours03.md#ordre-css)
+* [`d-none`](./cours04.md#display)
+* [`d-sm-block`](./cours04.md#display)
+
+[Codepen](https://codepen.io/tim-momo/pen/BaXZLqK)
 
 ## Bootcamp JavaScript
 
@@ -19,27 +24,57 @@ Notes et corrigé
   **[Camp d'entrainement](./exercices/js-bootcamp.md){.stretched-link}**
 </div>
 
+## Retour sur la partie JavaScript de l'examen
+
+1. On ajoute des variables qui nous servent à compter.
+1. On fait juste un fruit pour commencer
+1. On ajoute une fonction pour les tâches répétitives (incrémentation du total et validation du clique de chaque fruit)
+1. Finalement, on copie/colle l'eventListener pour chaque fruit.
+
 ## GSAP
 
+![](./assets/images/gsap_banner.png)
+
 [GSAP](https://gsap.com/) (GreenSock Animation Platform) est une bibliothèque JavaScript pour créer des animations web. Elle est utilisée pour créer des animations complexes et interactives.
+
+### Exemples
+
+![type:video](https://www.youtube.com/embed/TG67UXmf6mc)
+
+* [Gsap.com](https://gsap.com/showcase/)
+* [Codepen](https://codepen.io/collection/ANaOod?grid_type=grid)
 
 ## Installation
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-
-<script>
- document.addEventListener("DOMContentLoaded", (event) => {
-  // Votre code ici
- });
-</script>
+<head>
+  <!-- ... -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="path/to/your/script.js" defer></script>
+</head>
 ```
 
 [Documentation officielle pour la version 3](https://gsap.com/docs/v3/Installation)
 
+!!! info "CDN : Content Delivery Network"
+
+    Il est recommandé d’utiliser des fichiers CDN, car ils sont mis en cache et se chargent rapidement. Avec des millions de sites utilisant GSAP, il est probable que vos visiteurs aient déjà la bibliothèque en cache, ce qui réduit la bande passante et accélère le chargement.
+
 ## Animation de base
 
-Les fonctionnalités de base pour les animations sont les suivantes.
+Qu'est-ce qu'on peut animer avec GSAP ?
+
+* **Positionnements** (x, y, left, right, top, bottom)
+* **Espacements** (margin, padding)
+* **Dimensions** (width, height)
+* **Opacité**
+* **Couleurs**
+* **Typographie**
+* **Transformations** (scale, rotate, skew)
+
+https://gsap.com/resources/get-started/#transform-shorthand
+
+Les fonctionnalités de base pour les animations GSAP sont les suivantes :
 
 * `to()` : Crée une animation où les propriétés de l’élément évoluent jusqu’aux valeurs spécifiées.
 * `from()` : Crée une animation où les propriétés de l’élément commencent à une certaine valeur puis reviennent à leur état initial.
@@ -47,61 +82,116 @@ Les fonctionnalités de base pour les animations sont les suivantes.
 
 ### Fonction to()
 
-Modifie les propriétés d’un élément vers les valeurs définies.
-
-```javascript
-// .box se déplace de 100 pixels sur l’axe x en 2 secondes.
-gsap.to(".box", { x: 100, duration: 2 });
+```js title="Syntaxe"
+gsap.to(sélecteur, {
+  // configurations
+  // propriété: valeur,
+});
 ```
+
+* **sélecteur** : Sélecteur CSS qui sélectionne 1 ou plusieurs éléments (ex.: ".dot").
+* **configurations** : Configurations GSAP (ex.: duration).
+* **Propriétés CSS** à animer (ex.: x, opacité, ...).
+
+```js title="Exemple exhaustif"
+gsap.to('.dot', {
+
+  // Propriétés css
+  x: 300,
+  y: -150,
+  rotation: 360,
+  scale: 1.5,
+  opacity: 0.7,
+  backgroundColor: '#e74c3c',
+  borderRadius: '25%',
+  skewX: 20,
+  skewY: 10,
+  scaleX: 2,
+  scaleY: 0.5,
+
+  // Configurations
+  duration: 3,
+  ease: 'power2.inOut',
+  delay: 0.5,
+  repeat: 2,
+  yoyo: true,
+
+  // Callbacks
+  onStart: () => {
+    console.log('Animation démarrée')
+  },
+  onUpdate: () => {
+    console.log('Animation en cours')
+  },
+  onComplete: () => {
+    console.log('Animation terminée')
+  }
+});
+```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - to()" src="https://codepen.io/tim-momo/embed/zYgzoEX/89bb58bd6ed29bc7a703a1ce460ff161?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/zYgzoEX/89bb58bd6ed29bc7a703a1ce460ff161">
+  GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Fonction from()
 
-Les propriétés de l’élément commencent à une valeur définie et reviennent à leur état normal.
-
-```javascript
-// .box commence avec une opacité de 0 (invisible) et devient progressivement visible en 1 seconde.
-gsap.from(".box", { opacity: 0, duration: 1 });
-```
+<iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - to()" src="https://codepen.io/tim-momo/embed/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f">
+  GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Fonction fromTo()
 
-Spécifie à la fois les valeurs de départ et d’arrivée.
+<iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - from()" src="https://codepen.io/tim-momo/embed/ExqXNrx/7f1f9010b174671e88f5f671802891a4?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ExqXNrx/7f1f9010b174671e88f5f671802891a4">
+  GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
-```javascript
-// Le cercle passe d’une taille réduite (0.5) à une taille agrandie (1.5) sur une durée de 2 secondes.
-gsap.fromTo(".circle", { scale: 0.5 }, { scale: 1.5, duration: 2 });
+### *Delay*
+
+Tout comme la propriété [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay) en CSS, la propriété delay de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.
+
+```js
+gsap.to('.element', {
+  x: 100,
+  delay: 0.2
+});
 ```
 
-## Ligne du temps (timeline)
+### *Stagger*
 
-La gestion des animations peut devenir complexe avec plusieurs éléments à animer en séquence. Pour cela, GSAP propose les timelines via `gsap.timeline()`.
+Similaire à *Delay*, *Stagger* fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.
 
-Instanciation
-
-```javascript
-const tl = gsap.timeline();
+```js
+gsap.to('.elements', {
+  x: 100,
+  stagger: 0.2
+});
 ```
 
-Ajout d'une séquence d'animations
+## Exercice
+à
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/auto-yellow.png)
 
-```javascript
-tl.to(".box", { x: 100, duration: 2 })
-  .to(".circle", { y: 50, duration: 1 }, "-=1")
-  .from(".box", { opacity: 0, duration: 1 });
-```
+  <small>Exercice - GSAP</small><br>
+  **[Automobile jaune](./exercices/gsap-auto1.md){.stretched-link}**
+</div>
 
-* Le premier .to() anime .box de 100 pixels sur l’axe x.
-* Le deuxième .to() anime .circle sur l’axe y, mais commence 1 seconde avant la fin de la première animation grâce à "-=1".
-* Le .from() final fait apparaître .box à nouveau avec une transition d’opacité.
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/auto-teal.png)
 
-Les timelines permettent également de contrôler facilement la lecture avec des méthodes comme `.pause()`, .`play()`, `.reverse()`, et `.restart()`.
+  <small>Exercice - GSAP</small><br>
+  **[Automobile turquoise](./exercices/gsap-auto2.md){.stretched-link}**
+</div>
 
-## Pratique guidée
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/domino.png)
 
-[Pratique guidée GSAP](./exercices/gsap-animation.md)
-
-## Exercices
-
-1. Exercice 1 : Animation d’introduction de site web : Créez une animation d’introduction pour une page web où un logo, un titre, et un slogan apparaissent séquentiellement.
-1. Exercice 2 : Animation d’une interface utilisateur : Animez l’apparition d’éléments d’une interface utilisateur, comme des boutons ou des cartes d’information, en les synchronisant avec une timeline.
-1. Exercice 3 : Animation d’un scénario créatif : Imaginez une petite histoire visuelle où plusieurs éléments se déplacent et interagissent. Utilisez gsap.timeline() pour structurer l’animation et raconter votre histoire.
+  <small>Exercice - GSAP</small><br>
+  **[Domino](./exercices/gsap-domino.md){.stretched-link}**
+</div>
