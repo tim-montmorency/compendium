@@ -91,7 +91,7 @@ L'ajout de mots-clés spécifiques aide à personnaliser les détails visuels et
 
 ## Résumé
 
-Pour bien utiliser **Gen-3 Alpha** et créer des vidéos cohérentes et stylisées :
-- **Structurez vos prompts** selon les étapes : Mouvement de la caméra, Sujet, Action, Cadre et ambiance, Style visuel.
-- **Utilisez des mots-clés spécifiques** pour contrôler l’apparence et le style de la vidéo.
-- **Restez concis** (500 caractères maximum) et précis dans vos descriptions.
+Pour bien utiliser **Gen-3 Alpha** et créer des vidéos cohérentes et stylisées :<br> 
+- **Structurez vos prompts** selon les étapes : Mouvement de la caméra, Sujet, Action, Cadre et ambiance, Style visuel.<br> 
+- **Utilisez des mots-clés spécifiques** pour contrôler l’apparence et le style de la vidéo.<br> 
+- **Restez concis** (500 caractères maximum) et précis dans vos descriptions.<br> 
