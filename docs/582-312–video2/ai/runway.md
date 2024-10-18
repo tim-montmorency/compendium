@@ -22,7 +22,7 @@ Le modèle **Gen-3 Alpha** fonctionne différemment des modèles de langage comm
 
 Si vous utilisez une image comme point de départ, concentrez-vous sur la **description du mouvement ou de l’action** plutôt que de simplement décrire l'image. Si la description diverge trop de l'image, le résultat peut être imprévisible.
 
-## Mots-clés pour les Prompts
+## [Mots-clés pour les Prompts](https://help.runwayml.com/hc/en-us/articles/30586818553107-Gen-3-Alpha-Prompting-Guide)
 
 L'ajout de mots-clés spécifiques aide à personnaliser les détails visuels et techniques de vos vidéos. Voici des catégories de mots-clés à inclure dans vos prompts pour obtenir le style désiré :
 
