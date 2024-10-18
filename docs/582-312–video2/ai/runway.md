@@ -15,7 +15,7 @@ Le modèle **Gen-3 Alpha** fonctionne différemment des modèles de langage comm
      
 3. **La scène**  
    - **Sujet** : Décrivez le personnage, l'objet ou le lieu principal de la scène. Qui ou quoi est au centre de l'action ? Il faut décrire des éléments marquants du personnage.
-   - **Action** : Expliquez ce que fait le sujet dans la scène, on peut exprimer des sentiments (Ex. : *la femme semble un peu triste*, *la femme pense*).
+   - **Action** : Expliquez ce que fait le sujet dans la scène, on peut exprimer des sentiments (Ex. : *la femme semble un peu triste*, *la femme pense*). Les élémens les plus difficiles à animer sont : les mains, les lunettes, les cigarettes, les images avec des colorisations trop étranges.
 
 4. **Cadre et ambiance**  
    Décrivez où la scène se déroule et l'atmosphère. Cela inclut des informations sur le lieu et l'ambiance (Ex. : *Le train est en mouvement*).
