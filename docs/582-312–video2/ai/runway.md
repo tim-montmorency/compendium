@@ -59,6 +59,7 @@ L'ajout de mots-clés spécifiques aide à personnaliser les détails visuels et
 - Side lit
 - [Color] gel lighting
 - Venetian lighting
+- Clean studio green screen shot
 
 ### **Vitesses de Mouvement**
 - Dynamic motion
@@ -85,6 +86,8 @@ L'ajout de mots-clés spécifiques aide à personnaliser les détails visuels et
 - Iridescent
 - Home video VHS
 - Glitchcore
+- An animated film
+
 
 ### **Styles de Texte**
 - Bold
