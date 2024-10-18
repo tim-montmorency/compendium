@@ -26,6 +26,8 @@ tags:
 
 ## Retour sur la partie JavaScript de l'examen
 
+Les étapes à suivre pour compléter l'exercice :
+
 1. On ajoute des variables qui nous servent à compter.
 1. On fait juste un fruit pour commencer
 1. On ajoute une fonction pour les tâches répétitives (incrémentation du total et validation du clique de chaque fruit)
@@ -174,7 +176,7 @@ gsap.to('.elements', {
 ```
 
 ## Exercice
-à
+
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/auto-yellow.png)
 
