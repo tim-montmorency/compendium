@@ -27,6 +27,7 @@ Si vous utilisez une image comme point de départ, concentrez-vous sur la **desc
 L'ajout de mots-clés spécifiques aide à personnaliser les détails visuels et techniques de vos vidéos. Voici des catégories de mots-clés à inclure dans vos prompts pour obtenir le style désiré :
 
 ### **Styles de Caméra**
+- Static shot
 - Low angle
 - High angle
 - Overhead
