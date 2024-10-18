@@ -1,0 +1,93 @@
+## Gen-3 et la cohérence des prompts
+
+Le modèle **Gen-3 Alpha** fonctionne différemment des modèles de langage comme ChatGPT. Il ne traite pas les descriptions de manière approfondie, mais se concentre sur les **mots-clés** pour générer les vidéos. Cela signifie que les descriptions peuvent être courtes mais doivent être précises. Gardez à l’esprit que **500 caractères** est la limite pour les prompts, donc chaque mot compte.
+
+## Comment structurer un prompt pour Gen-3 Alpha
+
+1. **Mouvement de la caméra et type de prise de vue**  
+   Indiquez le mouvement de la caméra et le type de plan souhaité. Cela définit la manière dont la scène est filmée (Ex. : *Wide angle* pour un plan large, *Close up* pour un gros plan).
+
+2. **La scène**  
+   - **Sujet** : Décrivez le personnage, l'objet ou le lieu principal de la scène. Qui ou quoi est au centre de l'action ?
+   - **Action** : Expliquez ce que fait le sujet dans la scène (Ex. : *Marchant avec colère*, *Dansant joyeusement*).
+
+3. **Cadre et ambiance**  
+   Décrivez où la scène se déroule et l'atmosphère. Cela inclut des informations sur le lieu et l'ambiance (Ex. : *Un château*, *Une rue animée de la ville*).
+
+4. **Style visuel**  
+   Ajoutez des éléments stylistiques pour définir l'apparence de la vidéo (Ex. : *Film cinématographique*, *Film d’action des années 80*).  
+   - **Astuce** : Mentionnez **Desaturated colors, muted tones, and low contrast** (couleurs désaturées, tons atténués, faible contraste) pour éviter une saturation excessive des images.
+
+## Prompt avec Image + Texte
+
+Si vous utilisez une image comme point de départ, concentrez-vous sur la **description du mouvement ou de l’action** plutôt que de simplement décrire l'image. Si la description diverge trop de l'image, le résultat peut être imprévisible.
+
+## Mots-clés pour les Prompts
+
+L'ajout de mots-clés spécifiques aide à personnaliser les détails visuels et techniques de vos vidéos. Voici des catégories de mots-clés à inclure dans vos prompts pour obtenir le style désiré :
+
+### **Styles de Caméra**
+- Low angle
+- High angle
+- Overhead
+- FPV (First-Person View)
+- Hand held
+- Wide angle
+- Close up
+- Macro cinematography
+- Over the shoulder
+- Tracking
+- Establishing wide
+- 50mm lens
+- SnorriCam
+- Realistic documentary
+- Camcorder
+
+### **Styles d'Éclairage**
+- Diffused lighting
+- Silhouette
+- Lens flare
+- Back lit
+- Side lit
+- [Color] gel lighting
+- Venetian lighting
+
+### **Vitesses de Mouvement**
+- Dynamic motion
+- Slow motion
+- Fast motion
+- Timelapse
+
+### **Types de Mouvement**
+- Grows
+- Emerges
+- Explodes
+- Ascends
+- Undulates
+- Warps
+- Transforms
+- Ripples
+- Shatters
+- Unfolds
+- Vortex
+
+### **Style et Esthétique**
+- Moody
+- Cinematic
+- Iridescent
+- Home video VHS
+- Glitchcore
+
+### **Styles de Texte**
+- Bold
+- Graffiti
+- Neon
+- Varsity
+- Embroidery
+
+## Résumé
+
+Pour bien utiliser **Gen-3 Alpha** et créer des vidéos cohérentes et stylisées :
+- **Structurez vos prompts** selon les étapes : Mouvement de la caméra, Sujet, Action, Cadre et ambiance, Style visuel.
+- **Utilisez des mots-clés spécifiques** pour contrôler l’apparence et le style de la vidéo.
+- **Restez concis** (500 caractères maximum) et précis dans vos descriptions.
