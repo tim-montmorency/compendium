@@ -8,16 +8,19 @@ Le modèle **Gen-3 Alpha** fonctionne différemment des modèles de langage comm
 ## Comment structurer un prompt pour Gen-3 Alpha
 
 1. **Mouvement de la caméra et type de prise de vue**  
-   Indiquez le mouvement de la caméra et le type de plan souhaité. Cela définit la manière dont la scène est filmée (Ex. : *Wide angle* pour un plan large, *Close up* pour un gros plan).
+   Indiquez le mouvement de la caméra et le type de plan souhaité. Cela définit la manière dont la scène est filmée
+   - **Mouvement de caméra** :  *Travelling backward* shot pour un travelling arrière. Pour une image qu'on peut fixe, il faut indiquer *Static camera. The camera is still.*
+   - **Caméra** : *Wide shot* pour un plan large
+   - **Vitesse de mouvement** : *Slow motion* pour un ralenti
+     
+3. **La scène**  
+   - **Sujet** : Décrivez le personnage, l'objet ou le lieu principal de la scène. Qui ou quoi est au centre de l'action ? Il faut décrire des éléments marquants du personnage.
+   - **Action** : Expliquez ce que fait le sujet dans la scène, on peut exprimer des sentiments (Ex. : *la femme semble un peu triste*, *la femme pense*).
 
-2. **La scène**  
-   - **Sujet** : Décrivez le personnage, l'objet ou le lieu principal de la scène. Qui ou quoi est au centre de l'action ?
-   - **Action** : Expliquez ce que fait le sujet dans la scène (Ex. : *Marchant avec colère*, *Dansant joyeusement*).
+4. **Cadre et ambiance**  
+   Décrivez où la scène se déroule et l'atmosphère. Cela inclut des informations sur le lieu et l'ambiance (Ex. : *Le train est en mouvement*).
 
-3. **Cadre et ambiance**  
-   Décrivez où la scène se déroule et l'atmosphère. Cela inclut des informations sur le lieu et l'ambiance (Ex. : *Un château*, *Une rue animée de la ville*).
-
-4. **Style visuel**  
+5. **Style visuel**  
    Ajoutez des éléments stylistiques pour définir l'apparence de la vidéo (Ex. : *Film cinématographique*, *Film d’action des années 80*).  
    - **Astuce** : Mentionnez **Desaturated colors, muted tones, and low contrast** (couleurs désaturées, tons atténués, faible contraste) pour éviter une saturation excessive des images.
 
