@@ -63,5 +63,14 @@ Mot de passe : Framboise5687% <br>
 * [▶️ Agradissement](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eai9ufslH1dMgF7GKs_WTksBg1BkGo7xvs19OL6X2lD-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eKIovm)  <br>     
 [🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger){ .md-button }  <br>   
 
+### Faire les prompts pour vos projets
+Faire les prompts pours vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées. 
 
+### Vous devez terminer votre pré-production dans le cours
+Terminer votre préproduction 
+Intégrer vos images de Midjourney dans la préproduction dans le storyboard
+Passer tout les textes dans ChatGPT
 
+## Devoir
+Terminer votre pré-production pour le prochain cours. 
+Vous devez pratiquer votre préproduction
