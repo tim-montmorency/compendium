@@ -4,10 +4,9 @@
 
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
-
 ### Structure des prompts
 
-#### Comment rédiger un prompt pour une scène visuelle
+### Comment rédiger un prompt pour une scène visuelle
 
 - [x] **Préciser le contenu à générer :** 
     (Décrivez ce que vous voulez voir dans la scène) 
@@ -60,18 +59,9 @@
 - [x] **Inclure des modificateurs de style :** 
     (Quel style artistique ou visuel voulez-vous ?) (par exemple, réaliste, abstrait, rétro, futuriste). 
     *Le style visuel doit être réaliste mais avec une touche onirique, rappelant l'esthétique des films d'animation fantastique de Studio Ghibli et les compositions surréalistes du mouvement artistique.*
-
 - [x] **Préciser la profondeur de champ :** 
     (Où doit être la mise au point ?) (par exemple, flou artistique en arrière-plan, mise au point nette sur l'objet principal)
     *L'accent est mis sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.*
-
-- [x] **Vérifier la cohérence générale :** 
-    (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante) 
-    *Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.*
-
-
----
-* Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
 - [x] **Préciser le look cinématographique :**
   - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
   - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
@@ -90,6 +80,12 @@
   - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.
   - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.
   - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
+- [x] **Vérifier la cohérence générale :** 
+    (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante) 
+    *Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.*
+
+---
+
 
 ### Prompts en français
 
