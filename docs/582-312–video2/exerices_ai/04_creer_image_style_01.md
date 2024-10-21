@@ -1,9 +1,9 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer une image à partir d'un style. 
+Le but de cet exercice est de créer une image à partir d'un style.
 <img src="../assets/image/04_rosie_plastique.png">
 ***
 
-[📁 Document de départ](../assets/image/04_pot_rose){ .md-button }   <br>
+[📁 Document de départ](../assets/image/04_pot_rose.png){ .md-button }   <br>
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
@@ -15,11 +15,11 @@ Le but de cet exercice est de créer une image à partir d'un style.
 
 - [ ] **Écrire un prompt pour l'image** :
    - Rédige un prompt détaillé (ex. : "Front view. A realistic portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. She is looking straight ahead with a neutral expression. The background is a solid pink color.").
-     
+
 - [ ] **--sw (poids du style basé sur l'image de référence)** :
   * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
   * ex : --sw 1000
-     
+
 - [ ] **--cw (poids du personnage basé sur l'image de référence)** :
   * Le code suivant permet de gérer le niveau d'intensité du personnage appliqué : 100 is default, 0 is off, and 100 is maximum
   * ex : --cw 100
@@ -35,6 +35,3 @@ Le but de cet exercice est de créer une image à partir d'un style.
 
 [📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 [📖 Consulter la page suivante](../ai/midjourney_code.md) pour plus d’informations sur la rédaction de code dans Midjourney. <br>
-
-
-
