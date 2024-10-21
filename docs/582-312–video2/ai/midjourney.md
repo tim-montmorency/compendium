@@ -10,9 +10,9 @@
   * Consultez [la page suivante](prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
 * [▶️ Comment personnaliser Midjourney](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ESiXMMu86cVHs2ZzL4jTwBEBSB42lpqh0OmH7snE-YtP3w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IwcFSu)  <br>    
 * [▶️ Personalize](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXfGOeCbRxFLu2227RAy9_QBxdFoAIEIn98o9APepCobPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6x0rDf)  <br>
-  * When using --p,
-  * the --stylize (--s) parameter controls how much of your personalization is applied to the image.
-  * A lower --s value will limit the personalization, while a higher --s value will increase it. The stylize parameter accepts values from 0 to 1000. The default is 100.
+  * Lorsque vous utilisez --p,
+  * le paramètre --stylize (--s) contrôle dans quelle mesure votre personnalisation est appliquée à l'image.
+  * Une valeur plus basse pour --s limitera la personnalisation, tandis qu'une valeur plus élevée l'augmentera. Le paramètre de stylisation accepte des valeurs allant de 0 à 1000. La valeur par défaut est de 100.
 * [▶️ Stylization](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ES4_KGnEQfpAq6r8Lp2dtZsBM7ohE-BTOjqFslhBSI8N2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aC7ywi)  <br>
 * [▶️ Weirdness](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZ1JGWWh3GpMlRQpCCrJlhMB_HQoGxJJmACJrMa3zL9qbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YpXkIk)  <br>    
 * [▶️ Variety](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EX2SCRdGt-VAotEqIJthicsBL8dhhPUxAq5Qir58pWKDlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mURz4)  <br>    
