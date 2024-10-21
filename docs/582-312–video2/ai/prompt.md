@@ -5,9 +5,9 @@
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
 
-## Structure des prompts
+### Structure des prompts
 
-### Comment rédiger un prompt pour une scène visuelle
+#### Comment rédiger un prompt pour une scène visuelle
 
 - [x] **Préciser le contenu à générer :** 
     (Décrivez ce que vous voulez voir dans la scène) 
@@ -71,7 +71,7 @@
 
 
 ---
-### Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
+* Afin de définir le look visuel de l'image, nous pouvons choisir le type de pellicule à utiliser. Il suffit d'indiquer le type de pellicule dans le prompt pour obtenir l'effet souhaité. 
 - [x] **Préciser le look cinématographique :**
   - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
   - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
