@@ -19,12 +19,12 @@
 
 
 ## [Midjourney](https://www.midjourney.com/)
-Connexion via google : attention un membre de l'équipe se connecte à la fois
-projetfrancoise01@gmail.com
-Framboise5687%
+Connexion via google : attention un membre de l'équipe se connecte à la fois <br>  
+User : projetfrancoise01@gmail.com <br>  
+Mot de passe : Framboise5687% <br>  
 
-projetfrancoise02@gmail.com
-Framboise5687%
+User : projetfrancoise02@gmail.com <br>  
+Mot de passe : Framboise5687% <br>  
 
 
 ### Notions : Utilisation des Prompts
