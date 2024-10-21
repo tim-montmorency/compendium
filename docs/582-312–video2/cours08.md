@@ -18,7 +18,15 @@
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
 
 
-## Midjourney
+## [Midjourney](https://www.midjourney.com/)
+Connexion via google : attention un membre de l'équipe se connecte à la fois
+projetfrancoise01@gmail.com
+Framboise5687%
+
+projetfrancoise02@gmail.com
+Framboise5687%
+
+
 ### Notions : Utilisation des Prompts
 * [▶️ Présentation de Midjourney](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVq7pf3WggRPhQhX8kitNyABo-AbADJZpkvP5AV21QmClg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpVaBW)  <br>
 * [▶️ Le Prompt](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETzCAu57XttDuv6AdQeAA3kBd0g6XNA0YkuiFFM0-lfHAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Yn6Wob)  <br>    
