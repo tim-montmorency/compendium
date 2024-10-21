@@ -16,7 +16,7 @@
 
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
-
+[🛠️ 01_Création d'un prompt](./projet_02/son.md){ .md-button }  <br>
 
 ## [Midjourney](https://www.midjourney.com/)
 Connexion via google : attention un membre de l'équipe se connecte à la fois <br>
