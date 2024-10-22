@@ -45,7 +45,7 @@ Mot de passe : Framboise5687% <br>
 ### Notions : Application de styles
 * [▶️ Style](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EV1gSzxV02dCnk8Zq_cDqoIBrhgU_jAXSPZF3OLHJnRIXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q7u73c)  <br>
 [🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>   
-[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>   
 
 
 ### Notions : Paramètres créatifs
