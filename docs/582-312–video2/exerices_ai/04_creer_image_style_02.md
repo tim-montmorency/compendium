@@ -21,11 +21,6 @@ Le but de cet exercice est de créer une image à partir d'un style.
   * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
   * ex : --sw 1000
      
-   
-- [ ] **--cw (poids du personnage basé sur l'image de référence)** :
-  * Le code suivant permet de gérer le niveau d'intensité du personnage appliqué : 100 is default, 0 is off, and 100 is maximum
-  * ex : --cw 100
-     
     
 - [ ] **Pour appliquer plus fortement le style ("vary strong")** :
    - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
