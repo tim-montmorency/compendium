@@ -8,7 +8,7 @@ Le but de cet exercice est de créer un personnage avec un background différent
 ## Étapes
 
 - [ ] **Insérer cette image dans MidJourney** 
-   - Sélectionne l'icône de personnage dans le Prompt pour attacher l'image en tant que caratère
+   - Sélectionne l'icône de personnage dans le Prompt pour attacher l'image en tant que caractère.
 
 - [ ] **Écrire un prompt pour l'image** :
    - Ajoute une description précise du personnage en te basant sur les caractéristiques visibles dans l'image (ex. : "young girl with long blonde hair, wearing a summer dress").  
