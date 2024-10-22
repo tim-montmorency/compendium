@@ -11438,8 +11438,10 @@
 }</code></p>
 <p>Puisque <code>min-width</code> a préséance sur <code>width</code>, l'élément adoptera alors sa largeur.</p>
 <p>Si l'élément est dans un parent ayant un width de:</p>
-<p><code>1000px: 400px &lt; 500px **(50%)** ➡️ 500px
-500px: 400px &gt; 250px **(50%)** ➡️ 400px</code></p>
+<ul>
+<li><code>1000px:</code> 400px &lt; 500px <b>(50%)</b> ➡️ 500px</li>
+<li><code>500px:</code> 400px &gt; 250px <b>(50%)</b> ➡️ 400px</li>
+</ul>
 <h2 id="max-width-max-height">max-width &amp; max-height<a class="headerlink" href="#max-width-max-height" title="Permanent link">¶</a></h2>
 <p>Les propriétés <code>max-width</code> et <code>max-height</code> permettent de définir une largeur et une hauteur maximale à un élément.</p>
 <p>Par exemple, pour s'assurer qu'un élément ne soit jamais plus grand que 400px, il est possible d'utiliser:</p>
@@ -11449,8 +11451,10 @@
 }</code></p>
 <p>Puisque <code>max-width</code> a préséance sur <code>width</code>, l'élément adoptera alors sa largeur.</p>
 <p>Si l'élément est dans un parent ayant un <code>width</code> de:</p>
-<p><code>1000px: 400px &lt; 500px **(50%)** ➡️ 400px
-500px: 400px &gt; 250px **(50%)** ➡️ 250px</code></p>
+<ul>
+<li><code>1000px:</code> 400px &lt; 500px <b>(50%)</b> ➡️ 400px</li>
+<li><code>500px:</code> 400px &gt; 250px <b>(50%)</b> ➡️ 250px</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><code>max-width:</code> 100% est régulièrement appliqué aux images. Ainsi, les images prennent leur largeur normale, mais ne dépassent jamais de l’écran.</p>
