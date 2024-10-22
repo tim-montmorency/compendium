@@ -29,7 +29,7 @@ Ou encore une liste de polices:
 
 <ol>
   <li>Fournir une police de substitution si une police est indisponible. Par exemple, les appareils Windows n'ayant pas la fonte Helvetica par défaut, ces appareils utiliseront la prochaine police dans la liste compatible, soit Arial.</li>
-  <li>Si un caractère est manquant dans la police `("é", "ë", "ç", etc.)` le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
+  <li>Si un caractère est manquant dans la police <b>("é", "ë", "ç", etc.)</b> le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
 </ol>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Font-family" src="https://codepen.io/tim-momo/embed/QWBBNPW?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
