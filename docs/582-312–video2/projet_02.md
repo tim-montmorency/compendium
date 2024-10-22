@@ -35,6 +35,8 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 - **Création de la bande sonore :**
   - Vous devez composer ou enregistrer une **bande sonore originale** qui sera diffusée par les speakers. Le son doit être **synchronisé avec les vidéos**, particulièrement lors de moments clés pour créer une expérience immersive.
+[Idées pour la prise de son](./projet_02/son.md) <br>
+
 
 - **Effets sonores :**
   - Expérimentez avec des effets comme l’inversion, l’accélération, ou le ralentissement des sons pour accentuer l'impact de certaines scènes.

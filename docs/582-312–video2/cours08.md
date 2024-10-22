@@ -1,21 +1,8 @@
 # Cours 8
 
 
-
-## Devoir 1
-* [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUMEZYREJBS1dVR0tBWFRISFJVNEg0OVlBOS4u
-)  <br>
-* [groupe pm](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUNkYwSkdGVU1DTk1PTDlaM0VZMVk2ODFWRC4u
-)  <br>
-
-
-## Devoir 2
-* [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUOExTWUlHWTVNRVVGOUo2TkEzQjFMRkNGOS4u)  <br>
-* [groupe pm](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUOUNBVTdaWktOV1ZSMExUWjg5OVZQRTNXMi4u)  <br>
-
-
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }<br>
 
 
 ## [Midjourney](https://www.midjourney.com/)
@@ -39,13 +26,13 @@ Mot de passe : Framboise5687% <br>
 
 ### Notions : Création de personnages
 * [▶️ Image](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZwnDl9Wwe9GsCbtAYRbas8B9Ho2tVB0m_eGaWyx1-GRBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y2Seq7)  <br>
-[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>
-[🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>
+[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>    
+[🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>   
 
 ### Notions : Application de styles
 * [▶️ Style](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EV1gSzxV02dCnk8Zq_cDqoIBrhgU_jAXSPZF3OLHJnRIXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q7u73c)  <br>
-[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>
-[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>   
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>   
 
 
 ### Notions : Paramètres créatifs
@@ -63,14 +50,14 @@ Mot de passe : Framboise5687% <br>
 * [▶️ Agradissement](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eai9ufslH1dMgF7GKs_WTksBg1BkGo7xvs19OL6X2lD-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eKIovm)  <br>
 [🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger.md){ .md-button }  <br>
 
-### Faire les prompts pour vos projets
-Faire les prompts pours vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées.
+### Faire les prompts pour vos projets <br> 
+Faire les prompts pours vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées. <br> 
 
-### Vous devez terminer votre pré-production dans le cours
-Terminer votre préproduction
-Intégrer vos images de Midjourney dans la préproduction dans le storyboard
-Passer tout les textes dans ChatGPT
+### Vous devez terminer votre pré-production dans le cours <br> 
+Terminer votre préproduction <br> 
+Intégrer vos images de Midjourney dans la préproduction dans le storyboard <br> 
+Passer tout les textes dans ChatGPT <br> 
 
 ## Devoir
-Terminer votre pré-production pour le prochain cours.
-Vous devez pratiquer votre préproduction
+Terminer votre pré-production pour le prochain cours. <br> 
+Vous devez pratiquer votre préproduction <br> 

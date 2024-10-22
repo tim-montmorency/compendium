@@ -173,9 +173,11 @@ a:hover .ext-link-icon {
 /* ---------------------------------- */
 /* Headings */
 .md-typeset h1,
-.md-typeset h2 {
+.md-typeset h2,
+.md-typeset h3 {
     font-weight: bolder;
 }
+
 
 .md-typeset h1 {
     color: inherit;

@@ -10,7 +10,7 @@ Le but de cet exercice d'agrandir et de télécharger une image.
 ## Étapes
 
 - [ ] **Aller dans Upscale** :
-   - Sélectionne "Subtle".
+   - Sélectionne "Subtle" ou "creative".
 
 - [ ] **Aller dans l'image et télécharger** :
    - Télécharge l'image
