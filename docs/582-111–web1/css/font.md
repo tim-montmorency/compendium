@@ -1,10 +1,10 @@
-# Fonte
+# Font
 
 Plusieurs propriétés CSS permettent de contrôler l'apparence d'un texte. Voici quelques-unes des propriétés les plus courantes.</p>
 
 ## color
 
-La propriété `color` permet de définir la couleur du texte. Cette propriété accepte toutes les `unités de couleur`.
+La propriété `color` permet de définir la couleur du texte. Cette propriété accepte toutes les <a href="https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unites-de-couleur.html">unités de couleur</a>.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Color" src="https://codepen.io/tim-momo/embed/XWBBdGp?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/XWBBdGp">
@@ -17,7 +17,7 @@ La propriété `color` permet de définir la couleur du texte. Cette propriété
 
 La propriété `font-family` permet de spécifier la police de caractères pour afficher du texte dans un élément.
 
-Cette propriété accepte le nom d'une police:
+**Cette propriété accepte le nom d'une police:**
 
 `font-family: Helvetica;`
 
@@ -25,11 +25,11 @@ Ou encore une liste de polices:
 
 `font-family: Helvetica, Arial, sans-serif;`
 
-Cette dernière possibilité présente deux avantages:
+**Cette dernière possibilité présente deux avantages:**
 
 <ol>
   <li>Fournir une police de substitution si une police est indisponible. Par exemple, les appareils Windows n'ayant pas la fonte Helvetica par défaut, ces appareils utiliseront la prochaine police dans la liste compatible, soit Arial.</li>
-  <li>Si un caractère est manquant dans la police **("é", "ë", "ç", etc.)** le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
+  <li>Si un caractère est manquant dans la police `("é", "ë", "ç", etc.)` le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
 </ol>
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Font-family" src="https://codepen.io/tim-momo/embed/QWBBNPW?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
