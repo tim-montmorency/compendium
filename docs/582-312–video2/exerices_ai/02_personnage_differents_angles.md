@@ -27,8 +27,7 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
    - Ajoute des variations dans l'éclairage, par exemple :
      - `under sunlight`, `studio lighting`.
 
-📖 Consulter la page suivante pour plus d’informations sur la rédaction d'un prompt efficace.
-
+[📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 ***
 
 ## Tutoriel 📚
