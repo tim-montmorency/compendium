@@ -11485,7 +11485,10 @@
 
 <div><p>L'unité CSS permet de dire au navigateur l'échelle à utiliser pour une valeur de taille donnée.</p>
 <p>Par exemple, si je souhaite donner une marge à mes paragraphes, je pourrais utiliser le code suivant:</p>
-<p><code>p { margin: 20px; }</code></p>
+<div class="highlight"><pre><span></span><code>p { 
+    margin: 20px;
+}
+</code></pre></div>
 <p>Dans ce cas, j'ai:</p>
 <ul>
 <li>Un sélecteur: <code>p</code></li>
@@ -11520,13 +11523,22 @@
 <p>Voici quelques exemples où une unité est préférable à une autre.</p>
 <h3 id="_1">%<a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
 <p>Pour qu'un élément prenne la moitié de la largeur de son parent, peu importe la largeur du parent en question.</p>
-<p><code>.element { width: 50%; }</code></p>
+<div class="highlight"><pre><span></span><code>.element {
+    width: 50%;
+}
+</code></pre></div>
 <h3 id="em">em<a class="headerlink" href="#em" title="Permanent link">¶</a></h3>
 <p>Pour qu'un texte ayant la classe <code>.small</code> ait une taille équivalente à la moitié du texte courant, peu importe la taille du texte courant.</p>
-<p><code>.small { font-size: 0.5em; }</code></p>
+<div class="highlight"><pre><span></span><code>.small {
+    font-size: 0.5em;
+}
+</code></pre></div>
 <h3 id="rem">rem<a class="headerlink" href="#rem" title="Permanent link">¶</a></h3>
 <p>Pour que nos éléments de titre affichent toujours de la même taille, soit 2x celle de notre texte de base, peu importe la taille du texte courant.</p>
-<p><code>.title { font-size: 2rem; }</code></p>
+<div class="highlight"><pre><span></span><code>.title {
+     font-size: 2rem;
+}
+</code></pre></div>
 <h2 id="en-resume">En résumé<a class="headerlink" href="#en-resume" title="Permanent link">¶</a></h2>
 <p>Pour choisir la bonne unité CSS vous devrez vous poser les questions suivantes:</p>
 <ul>
