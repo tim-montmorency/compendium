@@ -8,7 +8,7 @@
 
 ### Comment rédiger un prompt pour une scène visuelle
 
-- [x] **Tu peux utliser les [] pour mettre l'accent sur certains mots** 
+- [x] **Tu peux utliser les [ ] pour mettre l'accent sur certains mots** 
 
 - [x] **Préciser le contenu à générer :** 
     (Décrivez ce que vous voulez voir dans la scène) 
