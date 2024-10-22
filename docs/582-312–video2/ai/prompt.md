@@ -8,6 +8,8 @@
 
 ### Comment rédiger un prompt pour une scène visuelle
 
+- [x] **Tu peux utliser les [] pour mettre l'accent sur certains mots** 
+
 - [x] **Préciser le contenu à générer :** 
     (Décrivez ce que vous voulez voir dans la scène) 
     *Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature.*
