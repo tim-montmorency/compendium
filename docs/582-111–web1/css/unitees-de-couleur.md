@@ -18,6 +18,7 @@ Pour visualiser les 147 noms de couleurs disponibles.
 !!!note
 
     En 2014, une 148e couleur CSS fut été ajoutée afin de rendre un hommage à Eric Meyer.
+    Il est surtout connu pour son travail de plaidoyer en faveur des normes Web, notamment les feuilles de style en cascade (CSS).
 
 
 ## Hexadécimal
