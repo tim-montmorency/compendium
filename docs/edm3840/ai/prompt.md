@@ -8,11 +8,7 @@
 ## Structure des prompts
 
 ### Comment rédiger un prompt pour une scène visuelle
-<input type="text">
 
-<textarea>
-    cmhgvjg
-</textarea>
 
 - [x] **Préciser le contenu à générer :** 
     (Décrivez ce que vous voulez voir dans la scène) 
