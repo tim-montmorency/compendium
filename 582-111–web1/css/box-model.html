@@ -11394,17 +11394,25 @@
 <div><h1 id="box-model">Box-model<a class="headerlink" href="#box-model" title="Permanent link">¶</a></h1>
 <p>En CSS, chaque élément constituant une page est une boîte rectangulaire</p>
 <p>Qu’il s’agisse d’un texte, d'une image ou encore de n’importe quel autre élément, une boîte rectangulaire l’englobe toujours. Ce concept est appelé le Box model 📦.</p>
-<p>Par exemple, voici un extrait du site de Radio-Canada. Afin de démontrer que chaque élément est bel et bien une boite rectangulaire, une bordure jaune a été ajoutée en CSS à tous les éléments de ladite page.
-<img alt="box-model-radio-canada" src="https://github.com/user-attachments/assets/bdeea9e9-4f3d-410a-aca1-f367d639bee9"></p>
+<p>Par exemple, voici un extrait du site de Radio-Canada. Afin de démontrer que chaque élément est bel et bien une boite rectangulaire, une bordure jaune a été ajoutée en CSS à tous les éléments de ladite page.</p>
+<p><br>
+<br>
+<img alt="box-model-radio-canada" src="https://github.com/user-attachments/assets/bdeea9e9-4f3d-410a-aca1-f367d639bee9">
+<br>
+<br></p>
 <p>La boite en CSS est constituée de 4 parties:</p>
 <ul>
 <li>Le contenu la zone de base définie par le texte/image ou encore le <code>width</code> et le <code>height</code>.</li>
 <li>La marge intérieure <code>padding</code> l’espace vide entre le contenu et sa bordure.</li>
 <li>La bordure <code>border</code> la bordure entourant l’élément.</li>
-<li>La marge extérieure <code>margin</code> l’espace entre la boîte et celles à proximité.</li>
+<li>La marge extérieure <code>margin</code> l’espace entre la boîte et celles à proximité.
+<br>
+<br>
+<img alt="box-model" src="https://github.com/user-attachments/assets/06889571-176c-4c7d-98f3-4c1033c4ce39">
+<br>
+<br>
+Par défaut, lorsque les propriétés <code>width</code> ou <code>height</code> sont attribuées à un élément, seules la largeur et la hauteur du contenu de l'élément sont impactées. Autrement dit, pour obtenir la dimension réelle de l'élément, il faut ajouter la marge intérieure <b>(padding)</b> et la bordure <b>(border)</b>.</li>
 </ul>
-<p><img alt="box-model" src="https://github.com/user-attachments/assets/06889571-176c-4c7d-98f3-4c1033c4ce39"></p>
-<p>Par défaut, lorsque les propriétés <code>width</code> ou <code>height</code> sont attribuées à un élément, seules la largeur et la hauteur du contenu de l'élément sont impactées. Autrement dit, pour obtenir la dimension réelle de l'élément, il faut ajouter la marge intérieure <b>(padding)</b> et la bordure <b>(border)</b>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>La marge extérieure n’affecte pas la dimension réelle d’un élément puisque cet espace se trouve à l’extérieur de celui-ci.</p>
@@ -11413,7 +11421,7 @@
 <table>
 <thead>
 <tr>
-<th>Valeur</th>
+<th style="background-color: red;">Valeur</th>
 <th>Propriété</th>
 </tr>
 </thead>
