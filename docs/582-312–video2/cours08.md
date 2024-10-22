@@ -39,12 +39,12 @@ Mot de passe : Framboise5687% <br>
 
 ### Notions : Création de personnages
 * [▶️ Image](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZwnDl9Wwe9GsCbtAYRbas8B9Ho2tVB0m_eGaWyx1-GRBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y2Seq7)  <br>
-[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>
-[🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>
+[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>    
+[🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>   
 
 ### Notions : Application de styles
 * [▶️ Style](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EV1gSzxV02dCnk8Zq_cDqoIBrhgU_jAXSPZF3OLHJnRIXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q7u73c)  <br>
-[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>   
 [🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>
 
 
