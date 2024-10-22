@@ -20,8 +20,10 @@ Puisque `min-width` a préséance sur `width`, l'élément adoptera alors sa lar
 
 Si l'élément est dans un parent ayant un width de:
 
-`1000px: 400px < 500px **(50%)** ➡️ 500px
-500px: 400px > 250px **(50%)** ➡️ 400px`
+
+- `1000px:` 400px < 500px <b>(50%)</b> ➡️ 500px
+- `500px:` 400px > 250px <b>(50%)</b> ➡️ 400px
+
 
 ## max-width & max-height
 
@@ -38,8 +40,8 @@ Puisque `max-width` a préséance sur `width`, l'élément adoptera alors sa lar
 
 Si l'élément est dans un parent ayant un `width` de:
 
-`1000px: 400px < 500px **(50%)** ➡️ 400px
-500px: 400px > 250px **(50%)** ➡️ 250px`
+- `1000px:` 400px < 500px <b>(50%)</b> ➡️ 400px
+- `500px:` 400px > 250px <b>(50%)</b> ➡️ 250px
 
 !!!note
 
