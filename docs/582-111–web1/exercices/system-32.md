@@ -10,9 +10,9 @@ Aperçu du résultat 👇
 ## Matériel
 
 ### Couleurs
-#fafafa
+`#fafafa`
 
-Médias
+### Médias
  
 Case 1
 
