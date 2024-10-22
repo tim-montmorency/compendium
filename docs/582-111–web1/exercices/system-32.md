@@ -11,6 +11,8 @@ Aperçu du résultat 👇
 
 ### Couleurs
 
+blanc cassé
+
 ```#fafafa```
 
 ### Médias
