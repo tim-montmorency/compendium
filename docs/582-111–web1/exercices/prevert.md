@@ -11,8 +11,8 @@ Aperçu du résultat 👇
 [Pen de départ](https://codepen.io/tim-momo/pen/abjKVaQ?editors=1100)
 
 ## Couleurs
- Fond rose = #d6c3c9
- Fond blanc du poème = #fff
+-  Fond rose = #d6c3c9
+-  Fond blanc du poème = #fff
 
 ## Requis
 
