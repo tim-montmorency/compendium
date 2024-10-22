@@ -16,7 +16,7 @@ Le but de cet exercice est de créer un personnage avec un background différent
    - Ajoute une description de la lumière que tu vois dans l'image. (ex. : "diffuse, contrast, sunset").
    - Ajoute une description de la pellicule que tu vois dans l'image (ex. : "Kodak Portra 800, desaturated tones, cinematic look").
 
-📖 Consulter la page suivante pour plus d’informations sur la rédaction d'un prompt efficace.
+[📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 
 ***
 
