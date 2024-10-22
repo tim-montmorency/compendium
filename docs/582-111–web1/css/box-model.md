@@ -7,7 +7,6 @@ Qu’il s’agisse d’un texte, d'une image ou encore de n’importe quel autre
 Par exemple, voici un extrait du site de Radio-Canada. Afin de démontrer que chaque élément est bel et bien une boite rectangulaire, une bordure jaune a été ajoutée en CSS à tous les éléments de ladite page.
 
 <br>
-<br>
 ![box-model-radio-canada](https://github.com/user-attachments/assets/bdeea9e9-4f3d-410a-aca1-f367d639bee9)
 <br>
 <br>
