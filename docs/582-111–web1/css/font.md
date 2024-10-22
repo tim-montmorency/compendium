@@ -1,53 +1,53 @@
-p class="spacer">Plusieurs propriétés CSS permettent de contrôler l'apparence d'un texte. Voici quelques-unes des propriétés les plus courantes.</p>
+# Fonte
 
-<grostitre>color</grostitre>
+Plusieurs propriétés CSS permettent de contrôler l'apparence d'un texte. Voici quelques-unes des propriétés les plus courantes.</p>
 
-<p>La propriété <span class="inline-code">color</span> permet de définir la couleur du texte. Cette propriété accepte toutes les <a href="../unites-de-couleur/">unités de couleur</a>.</p>
+## color
 
-<codepen id="XWBBdGp" tab="result" height="280"></codepen>
+La propriété `color` permet de définir la couleur du texte. Cette propriété accepte toutes les `unités de couleur`.
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/color">color</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_text_color.asp">color</doclink>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Color" src="https://codepen.io/tim-momo/embed/XWBBdGp?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/XWBBdGp">
+  Color</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
-<dots></dots>
 
+## font-family
 
-<grostitre>font-family</grostitre>
+La propriété `font-family` permet de spécifier la police de caractères pour afficher du texte dans un élément.
 
-<p>La propriété <span class="inline-code">font-family</span> permet de spécifier la police de caractères pour afficher du texte dans un élément.</p>
+Cette propriété accepte le nom d'une police:
 
-<p>Cette propriété accepte le nom d'une police:</p>
+`font-family: Helvetica;`
 
-<highlight lang="css">font-family: Helvetica;</highlight>
+Ou encore une liste de polices:
 
-<p>Ou encore une liste de polices:</p>
+`font-family: Helvetica, Arial, sans-serif;`
 
-<highlight lang="css">font-family: Helvetica, Arial, sans-serif;</highlight>
-
-<p>Cette dernière possibilité présente deux avantages:</p>
+Cette dernière possibilité présente deux avantages:
 
 <ol>
   <li>Fournir une police de substitution si une police est indisponible. Par exemple, les appareils Windows n'ayant pas la fonte Helvetica par défaut, ces appareils utiliseront la prochaine police dans la liste compatible, soit Arial.</li>
-  <li>Si un caractère est manquant dans la police <em>("é", "ë", "ç", etc.)</em> le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
+  <li>Si un caractère est manquant dans la police **("é", "ë", "ç", etc.)** le navigateur utilisera un caractère de la prochaine police afin de le remplacer.</li>
 </ol>
 
-<codepen id="QWBBNPW" tab="result" height="280"></codepen>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Font-family" src="https://codepen.io/tim-momo/embed/QWBBNPW?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QWBBNPW">
+  Font-family</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-family">font-family</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_font_font-family.asp">font-family</doclink>
 
-<dots></dots>
+## font-weight
 
+La propriété `font-weight` permet de définir la graisse d'un texte.
 
-<grostitre>font-weight</grostitre>
+Par exemple:
 
-<p>La propriété <span class="inline-code">font-weight</span> permet de définir la graisse d'un texte.</p>
+`font-weight: bold;`
 
-<p>Par exemple:</p>
-
-<highlight lang="css">font-weight: bold;</highlight>
-
-<p>Plusieurs graisses sont généralement disponibles. Ces graisses peuvent être spécifiées via leur valeur numérique ou encore leur nom.</p>
+Plusieurs graisses sont généralement disponibles. Ces graisses peuvent être spécifiées via leur valeur numérique ou encore leur nom.
 
 <table>
   <tr>
@@ -92,86 +92,86 @@ p class="spacer">Plusieurs propriétés CSS permettent de contrôler l'apparence
   </tr>
 </table>
 
-<p>Par défaut, si aucune graisse n'est spécifiée, le texte est en normal <em>(400)</em>. Il est aussi possible de spécifier au texte d'être légèrement plus fin que sont texte courant grâce au mot-clé <span class="inline-code">lighter</span> ou encore plus gras, grâce à <span class="inline-code">bolder</span>.</p>
+Par défaut, si aucune graisse n'est spécifiée, le texte est en normal **(400)**. Il est aussi possible de spécifier au texte d'être légèrement plus fin que sont texte courant grâce au mot-clé `lighter` ou encore plus gras, grâce à `bolder`.
 
-<codepen id="LYBBNoQ" tab="result" height="280"></codepen>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-weight">font-weight</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_font_weight.asp">font-weight</doclink>
-
-<dots></dots>
-
-
-<grostitre>font-size</grostitre>
-
-<p>La propriété <span class="inline-code">font-size</span> permet de définir la taille du texte. Bien que l'unité la plus courante soit les pixels, toutes les <a href="../unites-de-mesure/">unités de mesure</a> sont acceptées.</p>
-
-<highlight lang="css">font-size: 16px;</highlight>
-
-<p>Par défaut, si aucune taille n'est spécifiée, la majorité des navigateurs lui attribueront la taille de 16px. Il est aussi possible de spécifier à un texte d'être légèrement plus petite que sont texte courant grâce au mot-clé <span class="inline-code">smaller</span> ou encore plus gros, grâce à <span class="inline-code">larger</span>.</p>
-
-<p>Bien que les px soient très répandus, il ne faut pas sous-estimer les avantages offerts par les <span class="inline-code">rem</span> et <span class="inline-code">em</span>.</p>
-
-<codepen id="xxJJVoX" tab="result" height="280"></codepen>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-size">font-size</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_font_font-size.asp">font-size</doclink>
-
-<dots></dots>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Font-weight" src="https://codepen.io/tim-momo/embed/LYBBNoQ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/LYBBNoQ">
+  Font-weight</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 
-<grostitre>font-style</grostitre>
+## font-size
 
-<p>La propriété <span class="inline-code">font-style</span> permet de définir si un texte devrait apparaitre en italique ou non, grâce aux valeurs:</p>
+La propriété `font-size` permet de définir la taille du texte. Bien que l'unité la plus courante soit les pixels, toutes les `unités de mesure` sont acceptées.
+
+`font-size: 16px;`
+
+Par défaut, si aucune taille n'est spécifiée, la majorité des navigateurs lui attribueront la taille de 16px. Il est aussi possible de spécifier à un texte d'être légèrement plus petite que sont texte courant grâce au mot-clé `smaller` ou encore plus gros, grâce à `larger`.
+
+Bien que les px soient très répandus, il ne faut pas sous-estimer les avantages offerts par les `rem` et `em`.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Font-size" src="https://codepen.io/tim-momo/embed/xxJJVoX?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/xxJJVoX">
+  Font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+
+## font-style
+
+La propriété `font-style` permet de définir si un texte devrait apparaitre en italique ou non, grâce aux valeurs:
 
 <ul>
-  <li>normal <em>(par défaut)</em></li>
+  <li>normal **(par défaut)**</li>
   <li>italic</li>
 </ul>
 
-<codepen id="rNrreXj" tab="result" height="280"></codepen>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/font-style">font-style</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_font_font-style.asp">font-style</doclink>
-
-<dots></dots>
-
-
-<grostitre>line-height</grostitre>
-
-<p>La propriété <span class="inline-code">line-height</span> indique la hauteur de chacune des lignes de texte. Bien que cette propriété accepte les valeurs en pixel, la valeur la plus répandue et la plus polyvalente consiste en un ratio basé sur la taille du texte.</p>
-
-<p>Par exemple:</p>
-
-<highlight lang="css">line-height: 1.5;</highlight>
-
-<p>Définit une hauteur de ligne de 24px si la taille de texte est de 16px, puisque: 16px * 1.5 = 24px.</p>
-
-<p>Généralement, un <span class="inline-code">line-height</span> de base est définie sur la balise <span class="inline-code">&lt;body&gt;</span>. Ainsi il affecte tous les éléments de la page.</p>
-
-<codepen id="ZEjjOzB" tab="result" height="280"></codepen>
-
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/line-height">line-height</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_dim_line-height.asp">line-height</doclink>
-
-<dots></dots>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Font-style" src="https://codepen.io/tim-momo/embed/rNrreXj?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/rNrreXj">
+  Font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 
-<grostitre>letter-spacing</grostitre>
 
-<p>La propriété <span class="inline-code">letter-spacing</span> permet de spécifier l'espacement entre chacune des lettres d'un texte. Cette propriété accepte toutes les unités de mesure CSS, mais est particulièrement efficace avec les <span class="inline-code">em</span>.</p>
+## line-height
 
-<p>Par exemple:</p>
+La propriété `line-height` indique la hauteur de chacune des lignes de texte. Bien que cette propriété accepte les valeurs en pixel, la valeur la plus répandue et la plus polyvalente consiste en un ratio basé sur la taille du texte.
 
-<highlight lang="css">letter-spacing: 0.5em;</highlight>
+Par exemple:
 
-<p>Définis un espacement entre les lettres équivalent à une demi-largeur de lettre. Bref, si la taille de texte est de 16px, puisque: 16px * 0.5em = 8px, un espace de 8px sera ajouté entre chaque lettre.</p>
+`line-height: 1.5;`
 
-<codepen id="yLqqJLJ" tab="result" height="280"></codepen>
+Définit une hauteur de ligne de 24px si la taille de texte est de 16px, puisque: 16px * 1.5 = 24px.
 
-<info>Les valeurs négatives sont permises.</info>
+Généralement, un `line-height` de base est définie sur la balise `<body>`. Ainsi il affecte tous les éléments de la page.
 
-<doclink href="https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing">letter-spacing</doclink>
-<doclink href="https://www.w3schools.com/cssref/pr_text_letter-spacing.asp">letter-spacing</doclink>
+<iframe height="300" style="width: 100%;" scrolling="no" title="line-height" src="https://codepen.io/tim-momo/embed/ZEjjOzB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ZEjjOzB">
+  line-height</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
-<dots></dots>
+
+## letter-spacing
+
+La propriété `letter-spacing` permet de spécifier l'espacement entre chacune des lettres d'un texte. Cette propriété accepte toutes les unités de mesure CSS, mais est particulièrement efficace avec les `em`.
+
+Par exemple:
+
+`letter-spacing: 0.5em;`
+
+Définis un espacement entre les lettres équivalent à une demi-largeur de lettre. Bref, si la taille de texte est de 16px, puisque: 16px * 0.5em = 8px, un espace de 8px sera ajouté entre chaque lettre.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="letter-spacing" src="https://codepen.io/tim-momo/embed/yLqqJLJ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/yLqqJLJ">
+  letter-spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+!!!note
+
+    Les valeurs négatives sont permises.</info>
+
+
