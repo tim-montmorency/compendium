@@ -123,7 +123,7 @@ Bien que les px soient très répandus, il ne faut pas sous-estimer les avantage
 La propriété `font-style` permet de définir si un texte devrait apparaitre en italique ou non, grâce aux valeurs:
 
 <ul>
-  <li>normal **(par défaut)**</li>
+  <li>normal <b>(par défaut)</b></li>
   <li>italic</li>
 </ul>
 
