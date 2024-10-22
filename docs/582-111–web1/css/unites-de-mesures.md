@@ -2,7 +2,7 @@ L'unité CSS permet de dire au navigateur l'échelle à utiliser pour une valeur
 
 Par exemple, si je souhaite donner une marge à mes paragraphes, je pourrais utiliser le code suivant:
 
-`p { margin: 20px; }`
+```p { margin: 20px; }```
 
 Dans ce cas, j'ai:
 
@@ -52,19 +52,19 @@ Voici quelques exemples où une unité est préférable à une autre.
 
 Pour qu'un élément prenne la moitié de la largeur de son parent, peu importe la largeur du parent en question.
 
-`.element { width: 50%; }`
+```.element { width: 50%; }```
 
 ### em
 
 Pour qu'un texte ayant la classe `.small` ait une taille équivalente à la moitié du texte courant, peu importe la taille du texte courant.
 
-`.small { font-size: 0.5em; }`
+```.small { font-size: 0.5em; }```
 
 ### rem
 
 Pour que nos éléments de titre affichent toujours de la même taille, soit 2x celle de notre texte de base, peu importe la taille du texte courant.
 
-`.title { font-size: 2rem; }` 
+```.title { font-size: 2rem; }```
 
 ## En résumé
 
