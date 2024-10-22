@@ -11,11 +11,11 @@ Aperçu du résultat 👇
 
 ## Couleurs 🎨
 
- blanche ⚪ = #ffffff
- noire ⚫️   = #000000
- vert menthe = #9afba6
- vert = #7adda1
- turquoise = #59b6b3
+-  blanche ⚪ = #ffffff
+-  noire ⚫️   = #000000
+-  vert menthe = #9afba6
+-  vert = #7adda1
+-  turquoise = #59b6b3
  
 ## Requis
 
