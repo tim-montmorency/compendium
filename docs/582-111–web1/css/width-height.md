@@ -11,12 +11,12 @@ Les propriétés `min-width` et `min-height` permettent de définir une largeur 
 
 Par exemple, pour s'assurer qu'un élément ne soit jamais plus petit que 400px, il est possible d'utiliser:
 
-`
+```
 .element {
   width: 50%;
   min-width: 400px;
 }
-`
+```
 
 Puisque `min-width` a préséance sur `width`, l'élément adoptera alors sa largeur.
 
@@ -33,12 +33,12 @@ Les propriétés `max-width` et `max-height` permettent de définir une largeur 
 
 Par exemple, pour s'assurer qu'un élément ne soit jamais plus grand que 400px, il est possible d'utiliser:
 
-`
+```
 .element {
   width: 50%;
   max-width: 400px;
 }
-`
+```
 
 Puisque `max-width` a préséance sur `width`, l'élément adoptera alors sa largeur.
 
