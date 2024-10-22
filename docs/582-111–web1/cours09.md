@@ -123,7 +123,7 @@
 
 ![icon (34)](https://github.com/user-attachments/assets/33391f82-c560-4ff9-b4ed-5eef66a32820)
 
-[hex, rgb, hsl, etc.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unites-de-couleur.html)
+[hex, rgb, hsl, etc.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unitees-de-couleur.html)
 <br>
 <br>
 
