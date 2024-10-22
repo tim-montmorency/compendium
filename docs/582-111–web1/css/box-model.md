@@ -12,7 +12,7 @@ Par exemple, voici un extrait du site de Radio-Canada. Afin de démontrer que ch
 <br>
 <br>
 
-La boite en CSS est constituée de 4 parties:
+**La boite en CSS est constituée de 4 parties:**
 
 - Le contenu la zone de base définie par le texte/image ou encore le `width` et le `height`.
 - La marge intérieure `padding` l’espace vide entre le contenu et sa bordure.
@@ -31,9 +31,9 @@ Par défaut, lorsque les propriétés `width` ou `height` sont attribuées à un
 
 Par exemple, si le contenu d'un élément a une largeur 200px et une marge intérieure <b>(padding)</b> de 50px, sa dimension réelle est donc de 300px.
 
-| Valeur {style="background-color: red;"}| Propriété |
+| Valeur {style="background-color: red;"}| Propriété {style="background-color: red;"}|
 | --- | --- |
-| 200px | width |
+| 200px {style="background-color: rgba(0,0,0,.05)"}| width {style="background-color: rgba(0,0,0,.05)"}|
 | 50px | padding-left |
-| 50px | padding-right |
+| 50px {style="background-color: rgba(0,0,0,.05)"}| padding-right {style="background-color: rgba(0,0,0,.05)"}|
 | **300px** | **Total** |
