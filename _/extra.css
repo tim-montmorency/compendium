@@ -177,6 +177,11 @@ a:hover .ext-link-icon {
     font-weight: bolder;
 }
 
+.md-typeset h3 {
+    font-weight: 600;
+}
+
+
 .md-typeset h1 {
     color: inherit;
 }
