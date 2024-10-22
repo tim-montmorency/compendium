@@ -1,13 +1,10 @@
 # Cours 8
 
-
-
 ## Devoir 1
 * [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUMEZYREJBS1dVR0tBWFRISFJVNEg0OVlBOS4u
 )  <br>
 * [groupe pm](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUNkYwSkdGVU1DTk1PTDlaM0VZMVk2ODFWRC4u
 )  <br>
-
 
 ## Devoir 2
 * [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUOExTWUlHWTVNRVVGOUo2TkEzQjFMRkNGOS4u)  <br>
@@ -15,7 +12,7 @@
 
 
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }<br>
 
 
 ## [Midjourney](https://www.midjourney.com/)
