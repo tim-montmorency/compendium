@@ -43,6 +43,6 @@ Case 4
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (24)](https://github.com/user-attachments/assets/6ad340a9-d537-42a6-8298-7c1fa8a7a8ba)<br> Display <br> [block, inline, inline-block, none](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/display.html)
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (30)](https://github.com/user-attachments/assets/bdeb4223-7be3-4dde-bd56-e93e7ee6c1d3)<br> Width & Height <br> [Width & Height](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)
