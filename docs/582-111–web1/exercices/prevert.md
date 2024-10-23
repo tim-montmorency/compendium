@@ -28,3 +28,10 @@ Aperçu du résultat 👇
 * [ ] Attribuez des coins ronds au portrait de Prévert 🌄 de sorte que l'image semble circulaire et positionnez-là à 10px du bas et de la droite du poème ↘️.
 
 Si tout fonctionne, vous devriez être en mesure de modifier la taille de police de base et de voir tous les textes s'ajuster proportionnellement en fonction de cette nouvelle taille, sans avoir à modifier quoi que ce soit d'autre.
+
+
+## Notes de cours
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
