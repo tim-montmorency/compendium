@@ -24,6 +24,5 @@ Aperçu du résultat 👇
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (31)](https://github.com/user-attachments/assets/39570309-653e-4897-98d2-e2e4b5da6e50)<br> Border <br> [border, border-radius](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/border.html)
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
