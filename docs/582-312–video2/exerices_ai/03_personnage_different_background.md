@@ -1,13 +1,11 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer un personnage avec un background différent. Imagine un univers qui ressemble à celui-ci.   
+Le but de cet exercice de prendre un personnage et de générer un background. 
 <img src="../assets/image/03_rosie_detective.png">
 ***
 
-[📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
-
 ## Étapes
 
-- [ ] **Insérer cette image dans MidJourney** 
+- [ ] **Insérer l'image de ton personnage** 
    - Sélectionne l'icône de personnage dans le Prompt pour attacher l'image en tant que caractère.
 
 - [ ] **Écrire un prompt pour l'image** :
