@@ -33,7 +33,7 @@
 
 6. **Montage vidéo (30 secondes)** :
    - Le montage doit être réalisé en équipe de **2 personnes** dans **Da Vinci**.
-   - La durée finale de la vidéo doit être **exactement de 30 secondes**.
+   - La durée finale de la vidéo doit être d'environ **30 secondes**.
 
 ---
 
