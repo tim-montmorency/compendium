@@ -36,3 +36,28 @@ Par exemple, si le contenu d'un élément a une largeur 200px et une marge inté
 | 50px | padding-left |
 | 50px {style="background-color: rgba(0,0,0,.05)"}| padding-right {style="background-color: rgba(0,0,0,.05)"}|
 | **300px** | **Total** |
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="179" alt="Capture d’écran, le 2024-10-22 à 20 59 45" src="https://github.com/user-attachments/assets/7e85234a-c8aa-4dd2-a886-0df9340f5b73">
+
+
+  **Box-model - Marc Séguin**<br>
+  _Pour cet exercice, vous devez mettre en valeur des toiles de l’artiste peintre québécois Marc Séguin en ajoutant uniquement du CSS._<br>
+  [Box-model - Marc Séguin](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/marc-seguin.html)
+</div>
+
+
+
+<div class="grid grid-auto" markdown>
+
+<img width="180" alt="Capture d’écran, le 2024-10-22 à 20 59 21" src="https://github.com/user-attachments/assets/2d9bc978-ade3-4d16-89be-876c403619ec">
+
+
+  **Box-model - Broforce**<br>
+  _Pour cet exercice, vous devez complétez en CSS une interface permettant à deux joueurs de sélectionner leurs personnages en mode versus à Broforce._<br>
+  [Box-model - Broforce](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/broforce.html)
+</div>
