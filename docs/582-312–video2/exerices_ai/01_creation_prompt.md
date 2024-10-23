@@ -18,7 +18,7 @@ Le but de cet exercice est de créer une image semble à l'image ci-dessous.
 
 [STOP]
 <details>
-  <summary>Cliquer pour afficher les détails</summary>
+  <summary></summary>
 
    - Une femme rousse à la peau claire, avec une pieuvre enroulée autour de son cou.
    - La scène se déroule dans une gare allemande des années 50, où des gens sont malades.
