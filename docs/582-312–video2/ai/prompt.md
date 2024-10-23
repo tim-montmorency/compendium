@@ -11,50 +11,43 @@
 
 ### Comment rédiger un prompt pour une scène visuelle
 
+- [x] **Mentionner la valeur de plan et l'angle de vue** :  
+   (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  
+   *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
 
-- [x] **Définir les personnages et leur présence dans la scène** :  
+- [x] **Définir les personnages, l’action et les émotions des personnages** :  
    (Décrivez ce que vous voulez voir dans la scène)  
    *Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature.*
 
-- [x] **Mentionner l'angle de vue** :  
-   (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  
-   *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
+- [x] **Décrire les personnages ou objets principaux** :
+- [x] **Décrire les costumes des personnages** : 
+   (Quels sont les détails des personnages ou objets clés ?)  
+   *Le chat est immense, avec un pelage blanc et duveteux. La femme, vêtue d'une robe blanche fluide, semble petite en comparaison et marche sereinement, sans prêter attention au chat.*
+
 
 - [x] **Définir le lieu** :  
    (Où se passe la scène ?)  
    *La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji et des voitures garées le long des trottoirs.*
 
-- [x] **Indiquer le moment** :  
-   (Quelle est l'heure ou le moment de la journée ?)  
-   *La scène se passe en milieu de journée, avec une lumière douce et diffuse.*
-
-- [x] **Décrire l’action et les émotions des personnages** :  
-   (Y a-t-il une action ou un mouvement dans la scène ?)  
-   *La femme marche tristement dans la rue, tandis que le chat géant se déplace lentement derrière elle.*
-
-- [x] **Décrire les personnages ou objets principaux** :  
-   (Quels sont les détails des personnages ou objets clés ?)  
-   *Le chat est immense, avec un pelage blanc et duveteux. La femme, vêtue d'une robe blanche fluide, semble petite en comparaison et marche sereinement, sans prêter attention au chat.*
-
-- [x] **Créer un fond green screen (optionnel)** :  
-   (Si vous souhaitez isoler certains éléments pour un travail de post-production, mentionnez-le)  
-   *Non applicable pour cette scène.*
-
-- [x] **Spécifier les couleurs ou palettes chromatiques** :  
-   (Quelles couleurs dominent la scène ? Exemple : couleurs douces, contraste élevé, teintes saturées)  
-   *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique.*
-
-- [x] **Indiquer l’éclairage** :  
-   (Quel type d'éclairage souhaitez-vous ? Exemple : lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce)  
-   *L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène.*
-
-- [x] **Ajouter des détails sur l'arrière-plan** :  
+- [x] **Ajouter des détails sur le décor** :  
    (Décrivez ce qu'il y a en arrière-plan. Exemple : nature, ville, intérieur minimaliste.)  
    *En arrière-plan, on voit des bâtiments typiques de l'architecture urbaine japonaise, des enseignes commerciales, et des câbles électriques qui traversent la rue.*
 
 - [x] **Préciser la profondeur de champ** :  
    (Où doit être la mise au point ? Exemple : flou artistique en arrière-plan, mise au point nette sur l'objet principal)  
    *L'accent est mis sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.*
+
+- [x] **Indiquer le moment** :  
+   (Quelle est l'heure ou le moment de la journée ?)  
+   *La scène se passe en milieu de journée, avec une lumière douce et diffuse.*
+
+- [x] **Indiquer l’éclairage** :  
+   (Quel type d'éclairage souhaitez-vous ? Exemple : lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce)  
+   *L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène.*
+
+- [x] **Spécifier les couleurs ou palettes chromatiques** :  
+   (Quelles couleurs dominent la scène ? Exemple : couleurs douces, contraste élevé, teintes saturées)  
+   *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique.*
 
 - [x] **Inclure des modificateurs de style** :  
    (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste.)  
@@ -78,6 +71,10 @@
    - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.  
    - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.  
    - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
+
+- [x] **Préciser s'il y a utilisation d'un fond green screen (optionnel)** :  
+   (Si vous souhaitez isoler certains éléments pour un travail de post-production, mentionnez-le)  
+   *Non applicable pour cette scène.*
 
 - [x] **Vérifier la cohérence générale** :  
    (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante)  
