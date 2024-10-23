@@ -32,6 +32,6 @@ Si tout fonctionne, vous devriez être en mesure de modifier la taille de police
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
-
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (27)](https://github.com/user-attachments/assets/49b2296c-e8b5-4fd3-a964-9ff011fb69c4)<br> Unités de mesure <br> [vw, vh, vmin, vmax, calc, min, max, clamp](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unites-de-mesures.html)
+![icon (30)](https://github.com/user-attachments/assets/598704e7-21b0-4b1d-b31b-f553b0c4e2d8)<br> Width & Height <br> [min-width/height, max-width/height](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)
+![icon (26)](https://github.com/user-attachments/assets/c9bb1178-37aa-4a3e-bbcd-d40cddf45e66)<br> Position <br> [static, relative, absolute, fixed, sticky](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/position.html)
