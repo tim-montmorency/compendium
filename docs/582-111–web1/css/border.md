@@ -94,6 +94,22 @@ Ou encore de spécifier les multiples valeurs à même la propriété. Les coins
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+## Outils
+
+<div class="grid grid-auto" markdown>
+
+<img width="184" alt="Capture d’écran, le 2024-10-22 à 20 55 48" src="https://github.com/user-attachments/assets/dcde1942-65d7-4f5f-acb0-83451d56769a">
+
+
+
+  **Fancy border-radius**<br>
+  _Générateur de border-radius._<br>
+  [Fancy border-radius](https://9elements.github.io/fancy-border-radius/)
+</div>
+
+
+
+
 
 ## Exercices
 
