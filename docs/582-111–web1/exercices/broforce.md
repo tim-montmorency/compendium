@@ -40,7 +40,7 @@ Aperçu du résultat 👇
 
 ![icon (22)](https://github.com/user-attachments/assets/18f5981d-3ef4-470d-96ee-47518959bed1)<br> Margin <br> [marge extérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/margin.html)
 
-![icon (21)](https://github.com/user-attachments/assets/4b36afe2-d51c-4acb-8621-4bc68a7e8dca)<br> Paddingt <br> [marge intérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/padding.html)
+![icon (21)](https://github.com/user-attachments/assets/4b36afe2-d51c-4acb-8621-4bc68a7e8dca)<br> Padding <br> [marge intérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/padding.html)
 
 ![icon (31)](https://github.com/user-attachments/assets/eaa7ea2b-fd52-435a-8588-57c604c684ef)<br> Border <br> [border, border-radius](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/border.html)
 
