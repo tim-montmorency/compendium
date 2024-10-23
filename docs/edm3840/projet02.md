@@ -1,11 +1,11 @@
 ### Projet 2 – Vidéo d'art / Vidéoclip (30 secondes)
 
 #### Objectifs :
-- Expérimenter visuellement en utilisant des outils d'intelligence artificielle pour générer des visuels et des animations.
+- Travailler avec un **moodboard** pour guider l'esthétique et la direction artistique de la vidéo.
+- Expérimenter visuellement en utilisant des outils d'intelligence artificielle pour générer des visuels. 
 - Apprendre à monter une vidéo dans **Da Vinci**.
 - Créer une vidéo d'art ou un vidéoclip de 30 secondes en explorant une émotion ou une ambiance.
-- Travailler avec un **moodboard** pour guider l'esthétique et la direction artistique de la vidéo.
-
+  
 #### Consignes :
 
 1. **Moodboard et création des visuels avec IA en équipe** :
