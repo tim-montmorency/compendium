@@ -7,10 +7,10 @@ Le but de cet exercice est de créer une image à partir d'un style.
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
-- [ ] **Télécharger l'image de référence** (la femme):
+- [ ] **Télécharger l'image de référence** (Rosie):
    - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère. 
 
-- [ ] **Télécharger l'image de référence** (le pot):
+- [ ] **Télécharger l'image de référence** (le pot rose):
    - Sélectionne l'icône de trombone dans le Prompt pour télécharger l'image en tant que style. 
 
 - [ ] **Écrire un prompt pour l'image** :
