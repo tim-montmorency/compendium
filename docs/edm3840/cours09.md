@@ -12,5 +12,5 @@
   * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
   * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
 
-Présentation du travail 2 et tous les livrables <br>
-[Travail 2](projet02.md) 
+* Présentation du travail 2 et tous les livrables <br>
+  * [Travail 2](projet02.md) 
