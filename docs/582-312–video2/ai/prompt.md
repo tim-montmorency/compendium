@@ -6,10 +6,11 @@
 
 ### Structure des prompts
 
-### Comment rédiger un prompt pour une scène visuelle
-
 - [x] **Utiliser les [ ] pour mettre l'accent sur certains mots** :  
    Les crochets peuvent être utilisés pour mettre en évidence certains mots ou phrases spécifiques afin de souligner des détails importants dans la description. Cela permet à l'IA de prêter une attention particulière à ces éléments.
+
+### Comment rédiger un prompt pour une scène visuelle
+
 
 - [x] **Définir les personnages et leur présence dans la scène** :  
    (Décrivez ce que vous voulez voir dans la scène)  
