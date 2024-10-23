@@ -9,9 +9,9 @@ Le but de cet exercice de prendre un personnage de l'exercice précédent et de 
    - Sélectionne l'icône représentant un personnage dans l'interface de MidJourney, ou là où tu crées le prompt, pour ajouter l'image que tu souhaites utiliser comme référence. Cela permet à l'IA de prendre cette image comme base pour générer une nouvelle version de ton personnage.
 
 - [ ] **Écrire un prompt pour l'image** :
-   - Décrire le personnage : Rédige une description précise de ce que tu vois sur l'image.  (ex. : "young girl with long blonde hair, wearing a summer dress").  
-   - Décrire le décor (background) Ajoute une description de l'arrière-plan que tu souhaites que l'IA génére l'IA génère (ex. : "beach at sunset, cityscape, forest").
-   - Décrire la lumière : Spécifie le type d'éclairage visible ou désiré. Par exemple : "éclairage diffus", "contraste marqué", ou "lumière de coucher de soleil".
+   - Décrire le personnage : Rédige une description précise du personnage (ex. : "young girl with long blonde hair, wearing a summer dress").  
+   - Décrire le décor (background) Ajoute une description de l'arrière-plan que tu souhaites que l'IA génére  (ex. : "beach at sunset, cityscape, forest").
+   - Décrire la lumière : Spécifie le type d'éclairage désiré. Par exemple : "éclairage diffus", "contraste marqué", ou "lumière de coucher de soleil".
    - Décrire l'esthétique de la pellicule : Ajoute la description du style visuel, par exemple un look cinématographique ou un effet de pellicule spécifique, décris-le. Par exemple : "look cinématographique, Kodak Portra 800, tons désaturés".
      
 [📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
