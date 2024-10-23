@@ -6,18 +6,18 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
-- [ ] **Télécharger l'image de référence** :
-   - Télécharge l'image de la personne que tu souhaites utiliser comme référence dans MidJourney.
 
-- [ ] **Attacher l'image comme référence** :
-   - Insère le lien de l'image téléchargée dans le prompt pour que MidJourney l'utilise comme référence pour générer de nouvelles images.
 
-- [ ] **Attacher l'image comme style** (optionnel) :
-   - Si tu souhaites que l'image influence uniquement le style visuel (couleurs, ambiance, etc.), colle le lien de l'image dans le prompt, en précisant que l'image doit être utilisée comme une référence stylistique.
+- [ ] **Télécharger l'image de référence** (Rosie) :
+   - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère.
+
+- [ ] **Attacher l'image de référence** (Rosie) : (optionnel)
+   - Sélectionne l'icône de trombone dans le prompt pour attacher l'image de style.
+   - Si tu souhaite qu'on respecte le style de départ de l'image tu peux coller le style. 
 
 - [ ] **Rédiger un prompt décrivant la personne de l'image** :
    - Ajoute une description détaillée du personnage en te basant sur ses traits physiques visibles dans l'image (exemple : couleur des cheveux, vêtements, posture).
-   - Mentionne également l'arrière-plan souhaité (exemple : ville, nature, intérieur minimaliste).
+   - Mentionne également l'arrière-plan souhaité, dans ce cas-ci un fond uni. 
 
 - [ ] **Créer des variations d'angles du personnage** :
    - Utilise des commandes spécifiques dans MidJourney pour demander différentes vues ou perspectives du personnage, telles que :
