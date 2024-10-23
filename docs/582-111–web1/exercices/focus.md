@@ -30,6 +30,7 @@ Aperçu du résultat 👇
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (28)](https://github.com/user-attachments/assets/30b2d046-39f3-4d7e-8fb4-c1c959ca024d)<br> Font <br> [color, family, weight, size, style, line-height](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/font.html)
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (29)](https://github.com/user-attachments/assets/adf7875d-ce9f-404e-bf7f-a9e994e7d311)<br> Text <br> [
+align, decoration, transform, stroke, shadow](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/text.html)
