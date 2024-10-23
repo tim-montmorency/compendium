@@ -11,10 +11,11 @@
   * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
   * Exemple
     * J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien.
-    * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004) 
   * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
 
 * Présentation du travail 2 et tous les livrables <br> (30 minutes)
   * [Travail 2](projet02.md) 
 
 * Midjourney 
+
+ * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004) 
