@@ -86,5 +86,5 @@ Il est possible d'ajouter plusieurs ombres à un même texte si désiré en sép
 
   **Text - Focus**<br>
   _Pour cet exercice, vous devez manipuler les propriétés de texte en CSS afin de recréer un effet typographique._<br>
-  [Text - Focus](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/text.html)
+  [Text - Focus](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/focus.html)
 </div>
