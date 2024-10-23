@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer un personnage sous différents angles : side view, back view, low view, high view. 
+Le but de cet exercice est de créer un personnage sous différents angles : side view, back view, low shot, high shot. 
 <img src="../assets/image/02_rosie.png">
 ***
 
@@ -34,8 +34,11 @@ Le but de cet exercice est de créer un personnage sous différents angles : sid
 
 [📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZwnDl9Wwe9GsCbtAYRbas8B9Ho2tVB0m_eGaWyx1-GRBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=grtPVC){ .md-button }   <br>
 
-
-
-
+<details>
+  <summary></summary>
 
 A young woman with slightly wavy, short auburn hair. She has a gentle face with delicate features, blue eyes, a diaphanous complexion, and rosy cheeks. Her expression is calm and serene, and she is simply dressed in a dark top. Behind her the background is bleu. 
+
+</details>
+
+
