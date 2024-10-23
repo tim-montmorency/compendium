@@ -7,18 +7,23 @@ Le but de cet exercice est de créer une image à partir d'un style.
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
-- [ ] **Télécharger l'image de référence** ( la femme):
-   - Sélectionne l'icône d'image dans le Prompt pour télécharger l'image de référence.
+- [ ] **Télécharger l'image de référence** (la femme):
+   - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère. 
 
 - [ ] **Télécharger l'image de référence** (le pot):
-   - Sélectionne l'icône d'image dans le Prompt pour télécharger l'image de référence.
+   - Sélectionne l'icône de trombone dans le Prompt pour télécharger l'image en tant que style. 
 
 - [ ] **Écrire un prompt pour l'image** :
-   - Rédige un prompt détaillé (ex. : "Front view. A realistic portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. She is looking straight ahead with a neutral expression. The background is a solid pink color.").
+   - Rédige un prompt détaillé (ex. : "Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color.").
 
 - [ ] **--sw (poids du style basé sur l'image de référence)** :
   * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
   * ex : --sw 1000
+     
+- [ ] **--cw (poids du personnage basé sur l'image de référence)** :
+  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 100 is maximum
+  * ex : --cw 40 (pour appliquer plus de style)
+
 
 - [ ] **Pour appliquer plus fortement le style ("vary strong")** :
    - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
