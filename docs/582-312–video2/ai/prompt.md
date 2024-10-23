@@ -11,47 +11,51 @@
 
 ### Comment rédiger un prompt pour une scène visuelle
 
-- [x] **Mentionner la valeur de plan et l'angle de vue** :  
-   (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  
-   *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
+## Détails de la Scène
 
-- [x] **Définir les personnages, l’action et les émotions des personnages** :  
-   (Décrivez ce que vous voulez voir dans la scène)  
-   *Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature.*
+- [x] **Mentionner la valeur de plan et l'angle de vue**  
+  (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  
+  *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
 
-- [x] **Décrire les personnages ou objets principaux** :
-- [x] **Décrire les costumes des personnages** : 
-   (Quels sont les détails des personnages ou objets clés ?)  
-   *Le chat est immense, avec un pelage blanc et duveteux. La femme, vêtue d'une robe blanche fluide, semble petite en comparaison et marche sereinement, sans prêter attention au chat.*
+- [x] **Définir les personnages, l’action et les émotions des personnages**  
+  (Décrivez ce que vous voulez voir dans la scène. Incluez les actions et émotions des personnages.)  
+  *Un énorme chat blanc et duveteux marche lentement dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme, vêtue d'une robe blanche, traverse tristement la rue, indifférente à la présence imposante de l'immense créature.*
 
+- [x] **Décrire les personnages ou objets principaux**  
+  (Quels sont les détails des personnages ou objets clés ?)  
+  *Le chat est immense, avec un pelage blanc et duveteux. Il dégage une aura tranquille malgré sa taille colossale. La femme, petite en comparaison, porte une robe blanche fluide et marche sereinement, sans prêter attention au chat.*
 
-- [x] **Définir le lieu** :  
-   (Où se passe la scène ?)  
-   *La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji et des voitures garées le long des trottoirs.*
+- [x] **Décrire les costumes et le maquillage des personnages**  
+  (Quels sont les détails vestimentaires et esthétiques des personnages ?)  
+  *La femme est vêtue d'une robe blanche fluide, légère et simple. Elle n'a pas de maquillage visible, renforçant l'aspect naturel et sobre de son apparence. Le chat n'a pas d'accessoires particuliers, son pelage blanc et duveteux étant sa caractéristique principale.*
 
-- [x] **Ajouter des détails sur le décor** :  
-   (Décrivez ce qu'il y a en arrière-plan. Exemple : nature, ville, intérieur minimaliste.)  
-   *En arrière-plan, on voit des bâtiments typiques de l'architecture urbaine japonaise, des enseignes commerciales, et des câbles électriques qui traversent la rue.*
+- [x] **Définir le lieu**  
+  (Où se passe la scène ?)  
+  *La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji, et des voitures garées le long des trottoirs.*
 
-- [x] **Préciser la profondeur de champ** :  
-   (Où doit être la mise au point ? Exemple : flou artistique en arrière-plan, mise au point nette sur l'objet principal)  
-   *L'accent est mis sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.*
+- [x] **Ajouter des détails sur le décor**  
+  (Décrivez ce qu'il y a en arrière-plan. Exemple : nature, ville, intérieur minimaliste.)  
+  *En arrière-plan, on distingue des bâtiments typiques de l'architecture urbaine japonaise, des enseignes commerciales en kanji, et des câbles électriques qui traversent la rue. Les trottoirs sont bordés de petites boutiques et de voitures garées.*
 
-- [x] **Indiquer le moment** :  
-   (Quelle est l'heure ou le moment de la journée ?)  
-   *La scène se passe en milieu de journée, avec une lumière douce et diffuse.*
+- [x] **Préciser la profondeur de champ**  
+  (Où doit être la mise au point ? Exemple : flou artistique en arrière-plan, mise au point nette sur l'objet principal)  
+  *La mise au point est nette sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.*
 
-- [x] **Indiquer l’éclairage** :  
-   (Quel type d'éclairage souhaitez-vous ? Exemple : lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce)  
-   *L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène.*
+- [x] **Indiquer le moment**  
+  (Quelle est l'heure ou le moment de la journée ?)  
+  *La scène se passe en milieu de journée, avec une lumière douce et diffuse, créant une atmosphère calme et sereine.*
 
-- [x] **Spécifier les couleurs ou palettes chromatiques** :  
-   (Quelles couleurs dominent la scène ? Exemple : couleurs douces, contraste élevé, teintes saturées)  
-   *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique.*
+- [x] **Indiquer l’éclairage**  
+  (Quel type d'éclairage souhaitez-vous ? Exemple : lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce)  
+  *L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène. La lumière naturelle enveloppe la rue, créant une ambiance paisible.*
 
-- [x] **Inclure des modificateurs de style** :  
-   (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste.)  
-   *L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme.*
+- [x] **Spécifier les couleurs ou palettes chromatiques**  
+  (Quelles couleurs dominent la scène ? Exemple : couleurs douces, contraste élevé, teintes saturées)  
+  *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique. Les couleurs sont subtiles, évoquant un passé lointain ou un rêve doux.*
+
+- [x] **Inclure des modificateurs de style**  
+  (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste.)  
+  *L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme, où le fantastique et le quotidien se mêlent harmonieusement.*
 
 - [x] **Préciser le type de pellicule** :
    - [x] *Kodak Portra 800* – Pour des couleurs douces et chaudes.  
