@@ -13,8 +13,8 @@
     * J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien.
   * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
 
-* Présentation du travail 2 et tous les livrables <br> (30 minutes)
-  * [Travail 2](projet02.md) 
+* Présentation du [Travail 2](projet02.md) et tous les livrables <br> (30 minutes)
+
 
 * Midjourney 
 
