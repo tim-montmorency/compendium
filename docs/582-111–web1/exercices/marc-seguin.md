@@ -27,3 +27,11 @@ Aperçu du résultat 👇
 ## Bonus
 
 * [ ] Faites en sorte que toutes les toiles soient alignées verticalement ensemble.
+
+
+
+## Notes de cours
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
