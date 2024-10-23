@@ -1,4 +1,5 @@
 <style>.md-footer{display:none;}</style>
+<style>.md-headher{display:none;}</style>
 Le but de cet exercice est de créer une image semble à l'image ci-dessous. 
 <img src="../assets/image/01_prompt_pieuvre.png">
 ***
