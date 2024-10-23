@@ -32,6 +32,10 @@ Aperçu du résultat 👇
 
 ## Notes de cours
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+![icon (24)](https://github.com/user-attachments/assets/d90f3a08-d565-4b20-9d4e-679673679d00)<br> Display <br> [block, inline, inline-block, none](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/display.html)
+![icon (30)](https://github.com/user-attachments/assets/598704e7-21b0-4b1d-b31b-f553b0c4e2d8)<br> Width & Height <br> [min-width/height, max-width/height](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)
+![icon (22)](https://github.com/user-attachments/assets/18f5981d-3ef4-470d-96ee-47518959bed1)<br> Margin <br> [marge extérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/margin.html)
+![icon (21)](https://github.com/user-attachments/assets/4b36afe2-d51c-4acb-8621-4bc68a7e8dca)<br> Padding <br> [marge intérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/padding.html)
+![icon (31)](https://github.com/user-attachments/assets/eaa7ea2b-fd52-435a-8588-57c604c684ef)<br> Border <br> [border, border-radius](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/border.html)
 
-![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+
