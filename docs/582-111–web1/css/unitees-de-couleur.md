@@ -15,6 +15,20 @@ OUTIL
 Pour visualiser les 147 noms de couleurs disponibles.
 
 
+## OUTIL
+
+<div class="grid grid-auto" markdown>
+
+<img width="183" alt="Capture d’écran, le 2024-10-22 à 21 03 26" src="https://github.com/user-attachments/assets/eb8cc32d-7be9-4d83-bfd7-4e94e3af5e56">
+
+
+
+  **147 colors**<br>
+  _Pour visualiser les 147 noms de couleurs disponibles._<br>
+  [147 colors](https://147colors.com/)
+</div>
+
+
 !!!note
 
     En 2014, une 148e couleur CSS fut été ajoutée afin de rendre un hommage à Eric Meyer.
@@ -89,3 +103,16 @@ Par exemple, le rouge pur de l'exemple précédent s'écrirait ainsi `hsl(0, 100
 Les couleurs `hsla()` fonctionnent sur le même principe, mais une 4e valeur comprise entre 0 et 1 permet de spécifier l'alpha de la couleur.
 
 Par exemple, pour obtenir un rouge pur semi-transparent, il est possible d'écrire `hsla(0, 100%, 50%, 0.5)`.
+
+## OUTIL
+
+<div class="grid grid-auto" markdown>
+
+<img width="183" alt="Capture d’écran, le 2024-10-22 à 21 03 26" src="https://github.com/user-attachments/assets/eb8cc32d-7be9-4d83-bfd7-4e94e3af5e56">
+
+
+
+  **Convert A Color**<br>
+  _Outil permettant de convertir un format de couleurs vers un autre._<br>
+  [Convert A Color](https://convertacolor.com/)
+</div>
