@@ -50,3 +50,23 @@ Si l'élément est dans un parent ayant un `width` de:
 !!!note
 
     `max-width:` 100% est régulièrement appliqué aux images. Ainsi, les images prennent leur largeur normale, mais ne dépassent jamais de l’écran.
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="183" alt="Capture d’écran, le 2024-10-22 à 20 47 43" src="https://github.com/user-attachments/assets/278ce129-7bec-424b-8424-9457b6b89c67">
+
+
+  **Width/Height - System32**<br>
+  _Pour cet exercice, vous devez créer en HTML et CSS une page présentant une bande dessinée d’Andrew AKA system32comics._<br>
+  [Width/Height - System32](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)
+</div>
+
+<div class="grid grid-auto" markdown>
+
+  **Width/Height - Prévert**<br>
+  _Pour cet exercice vous devrez en CSS compléter l’affichage du célèbre poème: Le cancre, du français Jacques Prévert._<br>
+  [Width/Height - Prévert](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)</div>
+
