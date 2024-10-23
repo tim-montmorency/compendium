@@ -65,8 +65,8 @@ Si l'élément est dans un parent ayant un `width` de:
 </div>
 
 <div class="grid grid-auto" markdown>
-<img width="185" alt="Capture d’écran, le 2024-10-22 à 21 07 06" src="https://github.com/user-attachments/assets/3ff79dd6-f40c-4878-af51-9f5a2f7503cf">
-
+<img width="183" alt="Capture d’écran, le 2024-10-22 à 21 08 11" src="https://github.com/user-attachments/assets/e70938d2-739c-4023-b776-5fa01195ebb7">
+  
   **Width/Height - Prévert**<br>
   _Pour cet exercice vous devrez en CSS compléter l’affichage du célèbre poème: Le cancre, du français Jacques Prévert._<br>
   [Width/Height - Prévert](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/prevert.html)</div>
