@@ -74,3 +74,17 @@ Il est possible d'ajouter plusieurs ombres à un même texte si désiré en sép
 `.element {
   text-shadow: 2px 2px red, 4px 4px blue;
 }`
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="185" alt="Capture d’écran, le 2024-10-22 à 20 42 18" src="https://github.com/user-attachments/assets/6d289ff1-3dae-4e1e-9c30-848ef57998e9">
+
+
+
+  **Text - Focus**<br>
+  _Pour cet exercice, vous devez manipuler les propriétés de texte en CSS afin de recréer un effet typographique._<br>
+  [Text - Focus](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/text.html)
+</div>
