@@ -61,12 +61,12 @@ Si l'élément est dans un parent ayant un `width` de:
 
   **Width/Height - System32**<br>
   _Pour cet exercice, vous devez créer en HTML et CSS une page présentant une bande dessinée d’Andrew AKA system32comics._<br>
-  [Width/Height - System32](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)
+  [Width/Height - System32](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/system-32.html)
 </div>
 
 <div class="grid grid-auto" markdown>
 
   **Width/Height - Prévert**<br>
   _Pour cet exercice vous devrez en CSS compléter l’affichage du célèbre poème: Le cancre, du français Jacques Prévert._<br>
-  [Width/Height - Prévert](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)</div>
+  [Width/Height - Prévert](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/prevert.html)</div>
 
