@@ -26,3 +26,10 @@ Aperçu du résultat 👇
 * [ ] Transformez le texte en majuscules.
 * [ ] Ajoutez plusieurs ombres au texte toutes décalées de 5px de plus les unes des autres vers la droite et le bas du mot original ↘️ avec les couleurs vert menthe, vert et turquoise.
 * [ ] Ajoutez entre chacune des ombres une ombre noire ⚫️ supplémentaire à peine plus décalée de 1px que la précédente afin de générer une ligne noire entre chaque ombre de couleur.
+
+
+## Notes de cours
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
+
+![icon (4)](https://github.com/user-attachments/assets/c79d45ef-87d7-4096-ab1f-7e80b0c2c5e3)<br> Les Balises Div et Span <br> [`<Div>` `<Span>`](https://tim-montmorency
