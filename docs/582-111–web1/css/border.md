@@ -93,3 +93,16 @@ Ou encore de spécifier les multiples valeurs à même la propriété. Les coins
   Border-radius - Multiple values</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+<img width="183" alt="Capture d’écran, le 2024-10-22 à 20 53 32" src="https://github.com/user-attachments/assets/c14b13a9-1243-480e-addb-fa8fb0133798">
+
+
+  **Border-radius - Q-bitz**<br>
+  _Pour cet exercice vous devez recréer un motif à partir de tuiles contenant des formes, comme dans le célèbre jeu de scociété Q-bitz._<br>
+  [Border-radius - Q-bitz](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/q-bitz.html)
+</div>
