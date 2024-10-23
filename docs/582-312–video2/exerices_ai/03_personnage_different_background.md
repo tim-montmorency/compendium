@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice de prendre un personnage et de générer un background. 
+Le but de cet exercice de prendre un personnage de l'exercice précédent et de générer un background. 
 <img src="../assets/image/03_rosie_detective.png">
 ***
 
