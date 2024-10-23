@@ -31,6 +31,9 @@ Aperçu du résultat 👇
 * [ ] Toujours pour les joueurs 1 et 2, écrasez la règle masquant leurs noms. Attention, l'alignement vertical des bros devra être corrigé suite à cette manipulation.
 
 
+
+## Notes de cours
+
 ![icon (27)](https://github.com/user-attachments/assets/49b2296c-e8b5-4fd3-a964-9ff011fb69c4)<br> Unités de mesure <br> [vw, vh, vmin, vmax, calc, min, max, clamp](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unites-de-mesures.html)
 ![icon (30)](https://github.com/user-attachments/assets/598704e7-21b0-4b1d-b31b-f553b0c4e2d8)<br> Width & Height <br> [min-width/height, max-width/height](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/width-height.html)
 ![icon (22)](https://github.com/user-attachments/assets/18f5981d-3ef4-470d-96ee-47518959bed1)<br> Margin <br> [marge extérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/margin.html)
