@@ -75,6 +75,8 @@
    - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.  
    - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.  
    - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
+   - [x] *Old expired film material* – Pour des images avec un effet de vieux film brisé.
+   - [x] *light leaks* - Pour un effet de lumière qui entre sur la pellicule
 
 - [x] **Préciser s'il y a utilisation d'un fond green screen (optionnel)** :  
    (Si vous souhaitez isoler certains éléments pour un travail de post-production, mentionnez-le)  
