@@ -44,7 +44,7 @@
 [🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger.md){ .md-button }  <br>
 
 ### Faire les prompts pour vos projets <br> 
-Faire les prompts pours vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées. <br> 
+Faire les prompts pour vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées. <br> 
 
 ### Vous devez terminer votre pré-production dans le cours <br> 
 Terminer votre préproduction <br> 
