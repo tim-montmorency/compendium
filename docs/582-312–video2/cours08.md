@@ -56,7 +56,7 @@ Faire les prompts pours vos projets et faire approuver vos images. Attention, vo
 ### Vous devez terminer votre pré-production dans le cours <br> 
 Terminer votre préproduction <br> 
 Intégrer vos images de Midjourney dans la préproduction dans le storyboard <br> 
-Passer tout les textes dans ChatGPT <br> 
+Passer tous les textes dans ChatGPT <br> 
 
 ## Devoir
 Terminer votre pré-production pour le prochain cours. <br> 
