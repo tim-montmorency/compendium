@@ -9,10 +9,10 @@
     * L'influence du moodboard ne sera pas noté. <br>
 ## L'importance du moodboard dans l'industrie (30 minutes)
   * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
-  * Exemple
+  * En cinéma/télévision : l'importance du moodboard
+    * Exemple
     * J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien.
-  * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
-
+    * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
 ## Présentation du [Travail 2](projet02.md) et tous les livrables (30 minutes)
 
 
