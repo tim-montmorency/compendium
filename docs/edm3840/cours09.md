@@ -14,6 +14,10 @@
     * J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien.
     * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
 ## Présentation du [Travail 2](projet02.md) et tous les livrables (30 minutes)
+* RunWay
+  * Excelle pour les humains et les émotions
+  * Texture, eau, lumière, paysage
+  * Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
 
 
 
@@ -58,8 +62,7 @@
 
 
 ## Devoir
-Terminer votre pré-production pour le prochain cours. <br> 
-Vous devez pratiquer votre préproduction <br> 
+* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.  <br> 
 
 
 <details>
