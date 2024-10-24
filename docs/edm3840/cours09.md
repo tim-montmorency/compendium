@@ -62,5 +62,8 @@ Terminer votre pré-production pour le prochain cours. <br>
 Vous devez pratiquer votre préproduction <br> 
 
 
-
+<details>
+  <summary></summary>
  * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004) 
+</details>
+
