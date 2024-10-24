@@ -5,10 +5,9 @@
 * [Explication green](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/Ef03A9FT-YdOiXknjJVdRkQBlzZ3r3HL9orQbhAi1inuQg?e=Mdbw1f
 ) 
 
-## Présentation pré-production
-
+## Présentation pré-production (30 mimutes)
 ## Midjourney (110 minutes)
-## Runway (55 minutes)
+## Runway (30 minutes)
 
 ## Devoir 1
 * [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUMEZYREJBS1dVR0tBWFRISFJVNEg0OVlBOS4u
