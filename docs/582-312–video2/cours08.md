@@ -6,13 +6,6 @@
 
 
 ## [Midjourney](https://www.midjourney.com/)
-Connexion via google : attention un membre de l'équipe se connecte à la fois <br>
-User : projetfrancoise01@gmail.com <br>
-Mot de passe : Framboise5687% <br>
-
-User : projetfrancoise02@gmail.com <br>
-Mot de passe : Framboise5687% <br>
-
 
 ### Notions : Utilisation des Prompts
 * [▶️ Présentation de Midjourney](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVq7pf3WggRPhQhX8kitNyABo-AbADJZpkvP5AV21QmClg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpVaBW)  <br>
