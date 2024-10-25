@@ -26,6 +26,12 @@ tags:
   - [ ] Les deux morceaux du E doivent s'afficher en même temps.
   - [ ] Il faut animer l'image de fond.
 
+## Remise
+
+Joindre le lien url de votre fork dans le devoir 3 sur Teams.
+
+31 octobre à 23h59
+
 [STOP]
 
 https://www.roboleary.net/2024/05/15/alien-title-sequence.html
