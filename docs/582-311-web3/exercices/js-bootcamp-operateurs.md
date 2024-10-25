@@ -48,7 +48,7 @@ Quotient : 2.1153846153846154
 * [ ] En utilisant vos deux variables, calculez leur somme (addition), leur différence (soustraction), leur produit (multiplication) et leur quotient (division). Créez une variable pour chaque opération afin de rendre le code plus propre et lisible.
 * [ ] Affichez les informations dans la console.
 
-[STOP]
+## Solution
 
 ```js
 let premiereVariable = 11;
