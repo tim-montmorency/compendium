@@ -92,7 +92,7 @@ Code de départ :
 - [ ] À l'aide d'une troisième boucle `for` et d'une variable, trouvez le moyen de supprimer le film le plus vieux de la liste.
 - [ ] Contemplez glorieusement votre accomplissement.
 
-[STOP]
+## Solution
 
 ```js
 const films = document.querySelectorAll('#films .film');
