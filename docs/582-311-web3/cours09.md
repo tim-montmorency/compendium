@@ -296,16 +296,14 @@ gsap.timeline()
 
 ## Devoir
 
+Remise du devoir 3 (Formatif) : 31 octobre
+
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/alien.png)
 
   <small>Devoir - GSAP</small><br>
   **[Alien](./devoir/gsap-devoir3.md){.stretched-link}**
 </div>
-
-https://www.roboleary.net/2024/05/15/alien-title-sequence.html
-Remise du devoir 3 (Formatif)
-
 
 [STOP]
 
