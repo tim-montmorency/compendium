@@ -168,6 +168,10 @@ a:hover .ext-link-icon {
     stroke: var(--md-accent-fg-color);
 }
 
+.md-typeset figure {
+    width: auto;
+}
+
 /* ---------------------------------- */
 /* Typography */
 /* ---------------------------------- */
