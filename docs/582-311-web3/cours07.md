@@ -7,6 +7,53 @@ tags:
 
 # Examen 01
 
+Cet examen représente **20% de votre note finale**.
+
+Vous devrez compléter deux exercices en respectant les consignes de chaque partie.
+
+Toute modification non autorisée du code ou toute structure incorrecte du projet peut entraîner une perte de points.
+
+Vous êtes autorisés à utiliser Internet et vos notes de cours, mais l’utilisation d’intelligences artificielles (ChatGPT, Copilot, Claude, Gemini, etc.) est strictement interdite.
+
+Tout plagiat ou partage de documents entraînera une note de 0.
+
+## Durée
+
+La durée de l'examen est de **2h30**
+
+> Services adaptés 25% : 3h10<br>
+> Services adaptés 33% : 3h20<br>
+> Services adaptés 50% : 3h45
+
+## Instructions de remise
+
+Créez un dossier parent avec la nomenclature suivante : **[nom de famille]-[prénom]_examen_01_582-311MO**
+
+À l’intérieur de ce dossier parent, ajoutez vos dossiers « fruits » et « vieille_guerriere ».
+
+!!! warning "Structure à respecter"
+
+    ```
+    📁 edison-thomas_examen_01_582-314MO
+    │
+    ├── 📁 fruits
+    │   │
+    │   ├── 📁 assets
+    │   ├── index.html
+    │   ├── scripts.js
+    │   └── styles.css
+    │
+    └── 📁 vieille_guerriere
+        │
+        ├── 📁 assets
+        ├── index.html
+        └── styles.css
+    ```
+
+Une fois la structure complétée, compressez le dossier parent au format .zip.
+
+Déposez le fichier compressé sur Teams dans l’espace dédié à cet examen.
+
 [STOP]
 
 Cet examen représente **20% de votre note finale**.
@@ -79,32 +126,3 @@ Général
 
 * [ ] Respect des consignes (**1 point**)
 * [ ] Qualité et clarté du code (lisibilité, organisation, bonne pratique) (**1 point**)
-
-## Instructions de remise
-
-Créez un dossier parent avec la nomenclature suivante : **[nom de famille]-[prénom]_examen_01_582-311MO**
-
-À l’intérieur de ce dossier parent, ajoutez vos dossiers « fruits » et « vieille_guerriere ».
-
-!!! warning "Structure à respecter"
-
-    ```
-    📁 edison-thomas_examen_01_582-314MO
-    │
-    ├── 📁 fruits
-    │   │
-    │   ├── 📁 assets
-    │   ├── index.html
-    │   ├── scripts.js
-    │   └── styles.css
-    │
-    └── 📁 vieille_guerriere
-        │
-        ├── 📁 assets
-        ├── index.html
-        └── styles.css
-    ```
-
-Une fois la structure complétée, compressez le dossier parent au format .zip.
-
-Déposez le fichier compressé sur Teams dans l’espace dédié à cet examen.

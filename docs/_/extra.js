@@ -65,8 +65,8 @@ const addOpenExampleLinks = () => {
   iframes.forEach((iframe) => {
     const url = new URL(iframe.src);
     const existingLink =
-      iframe.nextElementSibling &&
-      iframe.nextElementSibling.classList.contains("codepen-open");
+      iframe.parentNode.tagName === "FIGURE" &&
+      iframe.parentNode.querySelector("figcaption a.codepen-open");
 
     // Vérifie si le lien existe déjà pour cet iframe
     if (
@@ -87,12 +87,23 @@ const addOpenExampleLinks = () => {
       // Construit l'URL complète
       const fullPenUrl = `https://codepen.io${penUrl}`;
 
+      // Création de l'élément figure
+      const figure = document.createElement("figure");
+
+      // Déplacement de l'iframe dans le figure
+      iframe.parentNode.insertBefore(figure, iframe);
+      figure.appendChild(iframe);
+
+      // Création du figcaption avec le lien
+      const figcaption = document.createElement("figcaption");
       const link = document.createElement("a");
       link.href = fullPenUrl;
       link.className = "codepen-open";
       link.textContent = "Ouvrir l’exemple";
       link.target = "_blank";
-      iframe.parentNode.insertBefore(link, iframe.nextSibling);
+
+      figcaption.appendChild(link);
+      figure.appendChild(figcaption);
     }
   });
 };
