@@ -71,7 +71,7 @@ Code de départ :
 * [ ] Chaque sélection doit être placée dans une variable.
 * [ ] Ajoutez une gestion d'événement sur le bouton pour que lorsque vous le cliquez, il affiche votre prénom et nom dans les balises `div`.
 
-[STOP]
+## Solution
 
 ```js
 const bouton = document.getElementById('toto');
