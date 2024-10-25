@@ -190,7 +190,7 @@ gsap.set("selecteur", {
 * `yoyo` : Si défini sur true, l’animation revient à son état initial après chaque répétition, créant un effet de va-et-vient.
 * `delay` : Tout comme la propriété [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay) en CSS, la propriété delay de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.
 * `repeatDelay` : Délai entre chaque répétition.
-* `stagger` : Similaire à Delay, Stagger fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.
+* `stagger` : Similaire à Delay, [Stagger](https://www.gsap.com/resources/getting-started/Staggers/) fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.
 * `paused` : Si défini sur true, l’animation commence en pause.
 
 ### [Callbacks](https://gsap.com/docs/v3/GSAP/Tween/eventCallback()/)
