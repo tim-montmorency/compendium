@@ -6,13 +6,6 @@
 
 
 ## [Midjourney](https://www.midjourney.com/)
-Connexion via google : attention un membre de l'équipe se connecte à la fois <br>
-User : projetfrancoise01@gmail.com <br>
-Mot de passe : Framboise5687% <br>
-
-User : projetfrancoise02@gmail.com <br>
-Mot de passe : Framboise5687% <br>
-
 
 ### Notions : Utilisation des Prompts
 * [▶️ Présentation de Midjourney](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVq7pf3WggRPhQhX8kitNyABo-AbADJZpkvP5AV21QmClg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpVaBW)  <br>
@@ -51,12 +44,12 @@ Mot de passe : Framboise5687% <br>
 [🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger.md){ .md-button }  <br>
 
 ### Faire les prompts pour vos projets <br> 
-Faire les prompts pours vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées. <br> 
+Faire les prompts pour vos projets et faire approuver vos images. Attention, vous devez éviter les images clichées. <br> 
 
 ### Vous devez terminer votre pré-production dans le cours <br> 
 Terminer votre préproduction <br> 
 Intégrer vos images de Midjourney dans la préproduction dans le storyboard <br> 
-Passer tout les textes dans ChatGPT <br> 
+Passer tous les textes dans ChatGPT <br> 
 
 ## Devoir
 Terminer votre pré-production pour le prochain cours. <br> 

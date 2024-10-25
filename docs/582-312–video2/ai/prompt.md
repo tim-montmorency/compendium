@@ -6,94 +6,93 @@
 
 ### Structure des prompts
 
+- [x] **Utiliser les [ ] pour mettre l'accent sur certains mots** :  
+   Les crochets peuvent être utilisés pour mettre en évidence certains mots ou phrases spécifiques afin de souligner des détails importants dans la description. Cela permet à l'IA de prêter une attention particulière à ces éléments.
+
 ### Comment rédiger un prompt pour une scène visuelle
 
-- [x] **Tu peux utliser les [ ] pour mettre l'accent sur certains mots** 
+## Détails de la Scène
 
-- [x] **Préciser le contenu à générer :** 
-    (Décrivez ce que vous voulez voir dans la scène) 
-    *Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature.*
+- [x] **Mentionner la valeur de plan et l'angle de vue**  
+  (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  
+  *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
 
-- [x] **Mentionner l'angle de vue :** 
-    (De quel point de vue la scène est-elle capturée ?) (ex : plan rapproché, plongée, contre-plongée, vue aérienne)
-    *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
+- [x] **Définir les personnages, l’action et les émotions des personnages**  
+  (Décrivez ce que vous voulez voir dans la scène. Incluez les actions et émotions des personnages.)  
+  *Un énorme chat blanc et duveteux marche lentement dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme, vêtue d'une robe blanche, traverse tristement la rue, indifférente à la présence imposante de l'immense créature.*
 
-- [x] **Définir le lieu :** 
-    (Où se passe la scène ?) 
-    *La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji et des voitures garées le long des trottoirs.*
+- [x] **Décrire les personnages ou objets principaux**  
+  (Quels sont les détails des personnages ou objets clés ?)  
+  *Le chat est immense, avec un pelage blanc et duveteux. Il dégage une aura tranquille malgré sa taille colossale. La femme, petite en comparaison, porte une robe blanche fluide et marche sereinement, sans prêter attention au chat.*
 
-- [x] **Indiquer le moment :** 
-    (Quelle est l'heure ou le moment de la journée ?) 
-    *La scène se passe en milieu de journée, avec une lumière douce et diffuse.*
+- [x] **Décrire les costumes et le maquillage des personnages**  
+  (Quels sont les détails vestimentaires et esthétiques des personnages ?)  
+  *La femme est vêtue d'une robe blanche fluide, légère et simple. Elle n'a pas de maquillage visible, renforçant l'aspect naturel et sobre de son apparence. Le chat n'a pas d'accessoires particuliers, son pelage blanc et duveteux étant sa caractéristique principale.*
 
-- [x] **Expliquer l’intention :** 
-    (Quel sentiment voulez-vous transmettre avec cette scène ?) 
-    *L'image doit transmettre un sentiment de calme surréaliste, où le fantastique se fond harmonieusement dans le quotidien urbain.*
+- [x] **Définir le lieu**  
+  (Où se passe la scène ?)  
+  *La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji, et des voitures garées le long des trottoirs.*
 
-- [x] **Décrire l’action :** 
-    (Y a-t-il une action ou un mouvement dans la scène ?) 
-    *La femme marche tranquillement dans la rue, tandis que le chat géant se déplace lentement derrière elle.*
+- [x] **Ajouter des détails sur le décor**  
+  (Décrivez ce qu'il y a en arrière-plan. Exemple : nature, ville, intérieur minimaliste.)  
+  *En arrière-plan, on distingue des bâtiments typiques de l'architecture urbaine japonaise, des enseignes commerciales en kanji, et des câbles électriques qui traversent la rue. Les trottoirs sont bordés de petites boutiques et de voitures garées.*
 
-- [x] **Définir l'ambiance et le style :** 
-    (Quel type d'ambiance voulez-vous ?) (par exemple, atmosphère lumineuse, sombre, surréaliste, polaroid, cinématographique)
-    *L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme.*
+- [x] **Préciser la profondeur de champ**  
+  (Où doit être la mise au point ? Exemple : flou artistique en arrière-plan, mise au point nette sur l'objet principal)  
+  *La mise au point est nette sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.*
 
-- [x] **Décrire les personnages ou objets principaux :** 
-    (Quels sont les détails des personnages ou objets clés ?) 
-    *Le chat est immense, avec un pelage blanc et duveteux. La femme, vêtue d'une robe blanche fluide, semble petite en comparaison et marche sereinement, sans prêter attention au chat.*
+- [x] **Indiquer le moment**  
+  (Quelle est l'heure ou le moment de la journée ?)  
+  *La scène se passe en milieu de journée, avec une lumière douce et diffuse, créant une atmosphère calme et sereine.*
 
-- [x] **Créer un fond green screen (optionnel) :** 
-    (Si vous souhaitez isoler certains éléments pour un travail de post-production, mentionnez-le) 
-    *Non applicable pour cette scène.*
+- [x] **Indiquer l’éclairage**  
+  (Quel type d'éclairage souhaitez-vous ? Exemple : lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce)  
+  *L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène. La lumière naturelle enveloppe la rue, créant une ambiance paisible.*
 
-- [x] **Spécifier les couleurs ou palettes chromatiques :** 
-    (Quelles couleurs dominent la scène ?) (par exemple, couleurs douces, contraste élevé, teintes saturées)
-    *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique.*
+- [x] **Spécifier les couleurs ou palettes chromatiques**  
+  (Quelles couleurs dominent la scène ? Exemple : couleurs douces, contraste élevé, teintes saturées)  
+  *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique. Les couleurs sont subtiles, évoquant un passé lointain ou un rêve doux.*
 
-- [x] **Indiquer l’éclairage :** 
-    (Quel type d'éclairage souhaitez-vous ?) (par exemple, lumière naturelle, artificielle, diffuse, directionnelle, forte ou douce)
-    *L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène.*
+- [x] **Inclure des modificateurs de style**  
+  (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste.)  
+  *L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme, où le fantastique et le quotidien se mêlent harmonieusement.*
 
-- [x] **Ajouter des détails sur l'arrière-plan :** 
-    (Décrivez ce qu'il y a en arrière-plan) (par exemple, nature, ville, intérieur minimaliste). 
-    *En arrière-plan, on voit des bâtiments typiques de l'architecture urbaine japonaise, des enseignes commerciales, et des câbles électriques qui traversent la rue.*
+- [x] **Préciser le type de pellicule** :
+   - [x] *Kodak Portra 800* – Pour des couleurs douces et chaudes.  
+   - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.  
+   - [x] *Kodak Ektar 100* – Pour des couleurs vibrantes et une haute saturation.  
+   - [x] *Ilford HP5 400* – Pour un style noir et blanc avec un grain distinctif.  
+   - [x] *Cinestill 800T* – Pour un look cinématographique avec des teintes légèrement bleutées dans les zones de lumière artificielle.  
+   - [x] *Kodak Tri-X 400* – Pour un rendu noir et blanc classique avec un grain visible.  
+   - [x] *Polaroid 600* – Pour des images vintage avec des couleurs un peu délavées.  
+   - [x] *Polaroid SX-70* – Pour un rendu doux, lumineux et un peu flou, avec des couleurs subtiles.  
+   - [x] *Instant film* – Pour obtenir un effet général de film instantané avec un cadre blanc typique des Polaroids.  
+   - [x] *Expired Polaroid Film* – Pour un look encore plus vintage avec des couleurs imprévisibles et des artefacts visuels.
 
-- [x] **Inclure des modificateurs de style :** 
-    (Quel style artistique ou visuel voulez-vous ?) (par exemple, réaliste, abstrait, rétro, futuriste). 
-    *Le style visuel doit être réaliste mais avec une touche onirique, rappelant l'esthétique des films d'animation fantastique de Studio Ghibli et les compositions surréalistes du mouvement artistique.*
-- [x] **Préciser la profondeur de champ :** 
-    (Où doit être la mise au point ?) (par exemple, flou artistique en arrière-plan, mise au point nette sur l'objet principal)
-    *L'accent est mis sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.*
-- [x] **Préciser le look cinématographique :**
-  - [x] *Kodak portra 800* – Pour couleurs douces et chaudes. 
-  - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.
-  - [x] *Kodak Ektar 100* – Pour des couleurs vibrantes et une haute saturation.
-  - [x] *Ilford HP5 400* – Pour un style noir et blanc avec un grain distinctif.
-  - [x] *Cinestill 800T* – Pour un look cinématographique avec des teintes légèrement bleutées dans les zones de lumière artificielle.
-  - [x] *Kodak Tri-X 400* – Pour un rendu noir et blanc classique avec un grain visible.
-- [x] **Préciser le look polaroid :**
-  - [x] *Polaroid 600* – Pour des images vintage avec des couleurs un peu délavées.
-  - [x] *Polaroid SX-70* – Pour un rendu doux, lumineux et un peu flou, avec des couleurs subtiles.
-  - [x] *Instant film* – Pour obtenir un effet général de film instantané avec un cadre blanc typique des Polaroids.
-  - [x] *Expired Polaroid Film* – Pour un look encore plus vintage avec des couleurs imprévisibles et des artefacts visuels.
-- [x] **Préciser les effets supplémentaires :**
-  - [x] *Cross Processed Film* – Pour un effet de développement chimique alternatif, donnant des couleurs inattendues et un contraste élevé.
-  - [x] *Light Leaks* – Pour simuler des fuites de lumière, souvent présentes dans les vieux appareils photo ou les films mal enroulés.
-  - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.
-  - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.
-  - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
-- [x] **Vérifier la cohérence générale :** 
-    (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante) 
-    *Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.*
+- [x] **Préciser les effets supplémentaires** :
+   - [x] *Cross Processed Film* – Pour un effet de développement chimique alternatif, donnant des couleurs inattendues et un contraste élevé.  
+   - [x] *Light Leaks* – Pour simuler des fuites de lumière, souvent présentes dans les vieux appareils photo ou les films mal enroulés.  
+   - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.  
+   - [x] *Film Grain* – Pour ajouter une texture granuleuse typique des films anciens.  
+   - [x] *Desaturated Vintage Film* – Pour des images avec des couleurs délavées et un look vieilli.
+   - [x] *Old expired film material* – Pour des images avec un effet de vieux film brisé.
+   - [x] *light leaks* - Pour un effet de lumière qui entre sur la pellicule
+
+- [x] **Préciser s'il y a utilisation d'un fond green screen (optionnel)** :  
+   (Si vous souhaitez isoler certains éléments pour un travail de post-production, mentionnez-le)  
+   *Non applicable pour cette scène.*
+
+- [x] **Vérifier la cohérence générale** :  
+   (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante)  
+   *Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.*
 
 ---
-
 
 ### Prompts en français
 
 Un énorme chat blanc et duveteux marche dans une rue urbaine, surplombant les bâtiments et les voitures. Une femme en robe blanche traverse la rue, indifférente à la présence de l'immense créature. La scène se déroule dans une rue animée d'une ville japonaise, avec des bâtiments étroits, des enseignes en kanji et des voitures garées le long des trottoirs. La scène se passe en milieu de journée, avec une lumière douce et diffuse.
 
-L'image doit transmettre un sentiment de calme surréaliste, où le fantastique se fond harmonieusement dans le quotidien urbain. La femme marche tranquillement dans la rue, tandis que le chat géant se déplace lentement derrière elle. Un plan large en légère contre-plongée capture à la fois la femme et le chat géant dans le même cadre. 
+L'image doit transmettre un sentiment de calme surréaliste, où le fantastique se fond harmonieusement dans le quotidien urbain. La femme marche tranquillement dans la rue, tandis que le chat géant se déplace lentement derrière elle. Un plan large en légère contre-plongée capture à la fois la femme et le chat géant dans le même cadre.
 
 L'ambiance est surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme.
 
@@ -105,6 +104,7 @@ Le style visuel doit être réaliste mais avec une touche onirique, rappelant l'
 
 Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.
 
+---
 
 
 

@@ -2,7 +2,7 @@
 
 #  Guide pour la création de musique via un module d'intelligence artificielle
 
-Pour structurer efficacement des prompts pour la génération de musique avec une IA comme Udio, il est utile d'inclure des éléments spécifiques liés au style musical, aux émotions à véhiculer, aux instruments, et à l'atmosphère générale. Voici une structure de base pour t'aider à formuler un prompt clair et efficace pour la génération musicale :
+Pour structurer efficacement des prompts pour la génération de musique avec une IA comme Udio ou Suno, il est utile d'inclure des éléments spécifiques liés au style musical, aux émotions à véhiculer, aux instruments, et à l'atmosphère générale. Voici une structure de base pour t'aider à formuler un prompt clair et efficace pour la génération musicale :
 
 - [ ] **Style et Genre**  
    Indique clairement le style musical ou le genre que tu souhaites, comme « folk acoustique », « électronique atmosphérique », ou « ballade pop ». Mentionne également un artiste ou un groupe pour servir de référence.  
