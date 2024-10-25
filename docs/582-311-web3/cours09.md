@@ -185,7 +185,7 @@ gsap.set("selecteur", {
 ### Configurations GSAP
 
 * `duration` : Durée de l’animation en secondes.
-* `ease` : Fonction d’assouplissement qui définit la vitesse de l’animation tout au long de sa durée (ex : ‘power2.inOut’ pour une accélération/décélération progressive).
+* `ease` : Fonction d’assouplissement qui définit la vitesse de l’animation tout au long de sa durée (ex : "power2.inOut" pour une accélération/décélération progressive).
 * `repeat` : Nombre de fois que l’animation se répète.
 * `yoyo` : Si défini sur true, l’animation revient à son état initial après chaque répétition, créant un effet de va-et-vient.
 * `delay` : Tout comme la propriété [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay) en CSS, la propriété delay de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.
