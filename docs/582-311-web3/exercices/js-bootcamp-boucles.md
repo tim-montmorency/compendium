@@ -102,6 +102,34 @@ marie.tremblay@cmontmorency.qc.ca, jean.gagnon@cmontmorency.qc.ca, lucie.boucher
 
 ## Solution
 
+```js
+let courriels = [
+    "marie.tremblay@cmontmorency.qc.ca",
+    "jean.gagnon@cmontmorency.qc.ca",
+    "lucie.boucher@cmontmorency.qc.ca",
+    "maxime.dubois@cmontmorency.qc.ca",
+    "sophie.lemieux@cmontmorency.qc.ca",
+    "nicolas.fortier@cmontmorency.qc.ca",
+    "emma.caron@cmontmorency.qc.ca",
+    "olivier.mercier@cmontmorency.qc.ca",
+    "isabelle.bellefeuille@cmontmorency.qc.ca",
+    "quentin.bergeron@cmontmorency.qc.ca"
+];
+
+let listeDestinataires = "";
+
+for (let i = 0; i < courriels.length; i++) {
+    if (i !== 0) {
+        listeDestinataires += ", ";
+    }
+    listeDestinataires += courriels[i];
+}
+
+console.log(listeDestinataires);
+```
+
+[STOP]
+
 !!! example "Boucle for..in"
 
     En programmation, il existe plusieurs façons d’effectuer des boucles.
@@ -140,29 +168,3 @@ marie.tremblay@cmontmorency.qc.ca, jean.gagnon@cmontmorency.qc.ca, lucie.boucher
     // age : 25
     // profession : Étudiante
     ```
-
-```js
-let courriels = [
-    "marie.tremblay@cmontmorency.qc.ca",
-    "jean.gagnon@cmontmorency.qc.ca",
-    "lucie.boucher@cmontmorency.qc.ca",
-    "maxime.dubois@cmontmorency.qc.ca",
-    "sophie.lemieux@cmontmorency.qc.ca",
-    "nicolas.fortier@cmontmorency.qc.ca",
-    "emma.caron@cmontmorency.qc.ca",
-    "olivier.mercier@cmontmorency.qc.ca",
-    "isabelle.bellefeuille@cmontmorency.qc.ca",
-    "quentin.bergeron@cmontmorency.qc.ca"
-];
-
-let listeDestinataires = "";
-
-for (let i = 0; i < courriels.length; i++) {
-    if (i !== 0) {
-        listeDestinataires += ", ";
-    }
-    listeDestinataires += courriels[i];
-}
-
-console.log(listeDestinataires);
-```
