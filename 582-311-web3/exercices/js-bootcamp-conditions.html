@@ -11466,6 +11466,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11569,7 +11578,41 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez une condition en utilisant les variables données. La condition doit valider les critères spécifiés.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Afficher dans la console un message pour chaque conditions.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Tester la condition en changeant la valeur des variables.</li>
-</ul></div>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">25</span><span class="p">;</span>
+<span class="kd">let</span><span class="w"> </span><span class="nx">estEtudiante</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+
+<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">estEtudiante</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">age</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mf">18</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Admissible au programme"</span><span class="p">);</span>
+<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"N'est pas admissible au programme"</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// age = 20;</span>
+<span class="c1">// estEtudiante = true;</span>
+<span class="c1">// if (estEtudiante &amp;&amp; age &gt;= 18) {</span>
+<span class="c1">//     console.log("Admissible au programme");</span>
+<span class="c1">// } else {</span>
+<span class="c1">//     console.log("N'est pas admissible au programme");</span>
+<span class="c1">// }</span>
+
+<span class="c1">// age = 16;</span>
+<span class="c1">// estEtudiante = true;</span>
+<span class="c1">// if (estEtudiante &amp;&amp; age &gt;= 18) {</span>
+<span class="c1">//     console.log("Admissible au programme");</span>
+<span class="c1">// } else {</span>
+<span class="c1">//     console.log("N'est pas admissible au programme");</span>
+<span class="c1">// }</span>
+
+<span class="c1">// age = 22;</span>
+<span class="c1">// estEtudiante = false;</span>
+<span class="c1">// if (estEtudiante &amp;&amp; age &gt;= 18) {</span>
+<span class="c1">//     console.log("Admissible au programme");</span>
+<span class="c1">// } else {</span>
+<span class="c1">//     console.log("N'est pas admissible au programme");</span>
+<span class="c1">// }</span>
+</code></pre></div></div>
 
 
 
