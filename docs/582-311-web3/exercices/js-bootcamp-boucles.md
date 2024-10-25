@@ -100,7 +100,7 @@ marie.tremblay@cmontmorency.qc.ca, jean.gagnon@cmontmorency.qc.ca, lucie.boucher
 - [ ] Ajoutez une boucle `for` pour parcourir chaque courriel du tableau et construire une chaîne de caractères où les adresses sont séparées par une virgule. Attention, il ne doit pas y avoir de virgule après le dernier courriel.
 - [ ] Affichez dans la console la chaine de caractère des courriels séparés par une virgule.
 
-[STOP]
+## Solution
 
 !!! example "Boucle for..in"
 
