@@ -11466,6 +11466,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11564,7 +11573,32 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez à votre code le tableau contenant une liste de courriels des destinataires.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez une boucle <code>for</code> pour parcourir chaque courriel du tableau et construire une chaîne de caractères où les adresses sont séparées par une virgule. Attention, il ne doit pas y avoir de virgule après le dernier courriel.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affichez dans la console la chaine de caractère des courriels séparés par une virgule.</li>
-</ul></div>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">courriels</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">"marie.tremblay@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"jean.gagnon@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"lucie.boucher@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"maxime.dubois@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"sophie.lemieux@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"nicolas.fortier@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"emma.caron@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"olivier.mercier@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"isabelle.bellefeuille@cmontmorency.qc.ca"</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"quentin.bergeron@cmontmorency.qc.ca"</span>
+<span class="p">];</span>
+
+<span class="kd">let</span><span class="w"> </span><span class="nx">listeDestinataires</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span><span class="p">;</span>
+
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">courriels</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">i</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">listeDestinataires</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">", "</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="nx">listeDestinataires</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="nx">courriels</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">listeDestinataires</span><span class="p">);</span>
+</code></pre></div></div>
 
 
 
