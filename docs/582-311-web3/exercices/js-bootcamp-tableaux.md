@@ -57,7 +57,7 @@ Ajoutez et manipulez les valeurs d’un tableau.
 * [ ] Supprimez "Pluton" du tableau à l'aide d'une **méthode** (choisissez la bonne)
 * [ ] Affichez le tableau dans la console
 
-[STOP]
+## Solution
 
 ```js
 let planetes = [
