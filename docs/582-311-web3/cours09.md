@@ -133,7 +133,9 @@ Dans l'exemple ci-dessous, l'animation s'effectue sur la position **x**, **y**, 
 <div class="grid" markdown>
 ```js title="Syntaxe"
 gsap.fromTo("selecteur", {
-  // configurations
+  // configurations from
+}, {
+  // configurations to
   // propriété: valeur
 });
 ```
