@@ -11466,6 +11466,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11559,7 +11568,31 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Afficher le total de la facture dans la console.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Maintenant, utilisez une boucle <code>for</code> pour effectuer l'addition des totaux.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Afficher le total de la facture dans la console.</li>
-</ul></div>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">TPS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.05</span><span class="p">;</span><span class="w"> </span><span class="c1">// 5%</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">TVQ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.09975</span><span class="p">;</span><span class="w"> </span><span class="c1">// 9,975%</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">facture</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nx">item</span><span class="o">:</span><span class="w"> </span><span class="s2">"Costume d'Halloween"</span><span class="p">,</span><span class="w"> </span><span class="nx">cout</span><span class="o">:</span><span class="w"> </span><span class="mf">58.99</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nx">item</span><span class="o">:</span><span class="w"> </span><span class="s2">"Bonbons"</span><span class="p">,</span><span class="w"> </span><span class="nx">cout</span><span class="o">:</span><span class="w"> </span><span class="mf">185.49</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nx">item</span><span class="o">:</span><span class="w"> </span><span class="s2">"Décorations d'Halloween"</span><span class="p">,</span><span class="w"> </span><span class="nx">cout</span><span class="o">:</span><span class="w"> </span><span class="mf">94.00</span><span class="w"> </span><span class="p">},</span>
+<span class="p">];</span>
+
+<span class="kd">function</span><span class="w"> </span><span class="nx">calculerLesTaxes</span><span class="p">(</span><span class="nx">cout</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">totalTps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">cout</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">TPS</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">totalTVQ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">cout</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">TVQ</span><span class="p">;</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">cout</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">totalTps</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">totalTVQ</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">let</span><span class="w"> </span><span class="nx">totalFacture</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">facture</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">cout</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">facture</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">cout</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">totalAvecTaxes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">calculerLesTaxes</span><span class="p">(</span><span class="nx">cout</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">totalFacture</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="nx">totalAvecTaxes</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Total de la facture : "</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">totalFacture</span><span class="p">.</span><span class="nx">toFixed</span><span class="p">(</span><span class="mf">2</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">"$"</span><span class="p">);</span>
+</code></pre></div></div>
 
 
 
