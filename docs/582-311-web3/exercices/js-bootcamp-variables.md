@@ -72,7 +72,7 @@ Est étudiante : true
 - [ ] Déclarez une variable de type booléen (boolean) pour indiquer si vous êtes étudiant.
 - [ ] Affichez, une ligne à la fois, chacune des variables dans la console.
 
-[STOP]
+## Solution
 
 ```js
 let nom = "Alice";
