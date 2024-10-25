@@ -11457,6 +11457,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11527,7 +11536,25 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affichez le tableau dans la console</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Supprimez "Pluton" du tableau à l'aide d'une <strong>méthode</strong> (choisissez la bonne)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affichez le tableau dans la console</li>
-</ul></div>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">planetes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="s2">"Mercure"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Vénus"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Terre"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Mars"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Jupiter"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Saturne"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Uranus"</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">"Neptune"</span>
+<span class="p">];</span>
+<span class="nx">planetes</span><span class="p">[</span><span class="mf">2</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">planetes</span><span class="p">[</span><span class="mf">2</span><span class="p">].</span><span class="nx">toUpperCase</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">planetes</span><span class="p">);</span>
+<span class="nx">planetes</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s2">"Pluton"</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">planetes</span><span class="p">);</span>
+<span class="nx">planetes</span><span class="p">.</span><span class="nx">pop</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">planetes</span><span class="p">);</span>
+</code></pre></div></div>
 
 
 
