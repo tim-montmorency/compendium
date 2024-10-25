@@ -11457,6 +11457,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11531,7 +11540,17 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez chacun des éléments du DOM, soit les balises <code>div</code> et le bouton.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Chaque sélection doit être placée dans une variable.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez une gestion d'événement sur le bouton pour que lorsque vous le cliquez, il affiche votre prénom et nom dans les balises <code>div</code>.</li>
-</ul></div>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">bouton</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'toto'</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">divPrenom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'.prenom'</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">divNom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'nom'</span><span class="p">);</span>
+
+<span class="nx">bouton</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="p">(){</span>
+<span class="w">  </span><span class="nx">divPrenom</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'JF'</span><span class="p">;</span>
+<span class="w">  </span><span class="nx">divNom</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Cartier'</span><span class="p">;</span>
+<span class="p">});</span>
+</code></pre></div></div>
 
 
 
