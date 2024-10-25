@@ -11439,6 +11439,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11503,7 +11512,20 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affichez l’objet dans la console.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Supprimez</strong> la propriété anneaux de l’objet.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affichez l’objet dans la console.</li>
-</ul></div>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">planete</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">nom</span><span class="o">:</span><span class="w"> </span><span class="s2">"Terre"</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">rayon</span><span class="o">:</span><span class="w"> </span><span class="mf">6378</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">masse</span><span class="o">:</span><span class="w"> </span><span class="mf">6.0e24</span><span class="w"> </span><span class="c1">// 6000000000000000000000000</span>
+<span class="p">};</span>
+<span class="nx">planete</span><span class="p">.</span><span class="nx">nom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">planete</span><span class="p">.</span><span class="nx">nom</span><span class="p">.</span><span class="nx">toUpperCase</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">planete</span><span class="p">);</span>
+<span class="nx">planete</span><span class="p">.</span><span class="nx">anneaux</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">planete</span><span class="p">);</span>
+<span class="ow">delete</span><span class="w"> </span><span class="nx">planete</span><span class="p">.</span><span class="nx">anneaux</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">planete</span><span class="p">);</span>
+</code></pre></div></div>
 
 
 
