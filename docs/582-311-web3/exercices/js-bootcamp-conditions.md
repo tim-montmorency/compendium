@@ -105,7 +105,7 @@ N'est pas admissible au programme
 - [ ] Afficher dans la console un message pour chaque conditions.
 - [ ] Tester la condition en changeant la valeur des variables.
 
-[STOP]
+## Solution
 
 ```js
 let age = 25;
