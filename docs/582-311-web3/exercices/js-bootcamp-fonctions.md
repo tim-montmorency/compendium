@@ -95,7 +95,7 @@ Si votre résultat donne `Total de la facture : 389.16738000000004$` c'est que v
 - [ ] Maintenant, utilisez une boucle `for` pour effectuer l'addition des totaux.
 - [ ] Afficher le total de la facture dans la console.
 
-[STOP]
+## Solution
 
 ```js
 const TPS = 0.05; // 5%
