@@ -57,7 +57,7 @@ Créez et manipulez un objet représentant une planète du système solaire.
 * [ ] **Supprimez** la propriété anneaux de l’objet.
 * [ ] Affichez l’objet dans la console.
 
-[STOP]
+## Solution
 
 ```js
 let planete = {
