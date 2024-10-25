@@ -21,7 +21,7 @@ tags:
 
 - [ ] Si vous n'avez jamais vu Alien (1979), regardez le!
 - [ ] Effectuez un fork du [codepen de départ](https://codepen.io/tim-momo/pen/qBeVyJd/d89b2efcd3df34cf7c921b45e40bc0e0)
-- [ ] Reproduire l'animations observées dans le résultat attendu avec des animations GSAP. Attention, observez bien ! Les morceaux s'affichent d'abord avec une couleur bleue, puis transitionnent vers le blanc. Aussi, n'oubliez pas d'animer l'image de fond !
+- [ ] Reproduire l'animations observées dans le résultat attendu avec des animations GSAP. Attention, observez bien ! Les morceaux s'affichent d'abord avec une couleur bleue (#08146d), puis transitionnent vers le blanc. Aussi, n'oubliez pas d'animer l'image de fond !
 
 [STOP]
 
