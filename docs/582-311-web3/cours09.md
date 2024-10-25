@@ -298,7 +298,9 @@ gsap.timeline()
 
 ## Devoir
 
-Remise du devoir 3 (Formatif) : 31 octobre
+Remise du devoir 3 (Formatif) : 31 octobre à 23h59
+
+Joindre le lien url de votre fork dans le devoir 3 sur Teams.
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/alien.png)
