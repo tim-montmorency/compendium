@@ -5,7 +5,8 @@
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
 * [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=dlZtok)
 * [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
-
+* [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
+  
 ## Banques et logos 
 * [Banques de typographies et de brosses](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
 * [Banque sonore #1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EuoQmY1AZSRDhoU86zpeEKcBCTqcRGj6W1jfdmEU7iOEdg?e=L0ICKW)
