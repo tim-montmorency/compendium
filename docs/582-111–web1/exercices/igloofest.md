@@ -27,3 +27,10 @@ Aperçu du résultat 👇
 * [ ] Ajoutez un dégradé partant du coin supérieur gauche vers le coin inférieur droit ↘️ de la carte. Ce dégradé doit partir de rose à bleu avant de revenir rose afin de créer des coins rosâtres.
 * [ ] Ajoutez le logo de l'Igloofest comme 2e arrière-plan à la carte, par-dessus le dégradé que vous venez de créer. Faites en sorte que celui-ci prenne 85% de la largeur de la carte (sans pour autant affecter la taille du dégradé). Qu'il se répète à la verticale seulement et qu'il s'affiche au centre de la carte.
 
+
+## Notes de cours
+
+![icon (23)](https://github.com/user-attachments/assets/021c266b-fdb2-4952-bbee-7c909419c52c)<br> Background <br> [color, image, gradient](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/background.html)
+
+![icon (35)](https://github.com/user-attachments/assets/e18bbec3-a417-41d4-a48d-c408934e7eb0)<br> Linear-gradient <br> [Générer un dégradé.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/linear-gradient.html)
+
