@@ -10,13 +10,13 @@ Aperçu du résultat 👇
 
 [Pen de départ](https://codepen.io/tim-momo/pen/poZZgQQ?editors=1100)
 
-Couleurs 🎨
-  Rose pâle = #e8b9ff
-  Rose = #e2a6f8
-  Bleu = #5638f9
+## Couleurs 🎨
+-   Rose pâle = #e8b9ff
+-   Rose = #e2a6f8
+-   Bleu = #5638f9
 
   
-Médias
+## Médias
 
 `https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/logo-igloofest.png`
  
@@ -27,6 +27,3 @@ Médias
 * [ ] Ajoutez un dégradé partant du coin supérieur gauche vers le coin inférieur droit ↘️ de la carte. Ce dégradé doit partir de rose à bleu avant de revenir rose afin de créer des coins rosâtres.
 * [ ] Ajoutez le logo de l'Igloofest comme 2e arrière-plan à la carte, par-dessus le dégradé que vous venez de créer. Faites en sorte que celui-ci prenne 85% de la largeur de la carte (sans pour autant affecter la taille du dégradé). Qu'il se répète à la verticale seulement et qu'il s'affiche au centre de la carte.
 
-
-## Bonus
-* [ ] Au survole de la carte, inversez son dégradé de sorte qu'il parte de bleu à rose avant de redevenir bleu.
