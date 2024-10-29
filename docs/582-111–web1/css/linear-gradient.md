@@ -78,3 +78,41 @@ Il est cependant possible de définir un point d'arrêt après une couleur afin 
   Linear-gradient - Point d'arrêt</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+
+
+
+
+## OUTILS
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+
+
+  **Exercice sur Div & Span**<br>
+  _Utiliser correctement les balises `<div>` et `<span>`_<br>
+  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+</div>
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+
+
+  **Exercice sur Div & Span**<br>
+  _Utiliser correctement les balises `<div>` et `<span>`_<br>
+  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+</div>
+
+## EXERCICE
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+
+
+  **Exercice sur Div & Span**<br>
+  _Utiliser correctement les balises `<div>` et `<span>`_<br>
+  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+</div>
