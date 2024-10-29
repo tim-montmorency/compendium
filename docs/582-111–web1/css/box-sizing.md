@@ -9,7 +9,7 @@ Afin d'illustrer l'impact de cette propriété, une boite de 200x200px contenant
 
 Par exemple, la boite ayant le contenu **(A - B - C - D - E)** ne change pas la disposition de son contenu même si un padding de 40px lui est ajouté. En contrepartie, la boite mesure maintenant réellement 280px **(40px + 200px + 40px)**.
 
-![content-box](https://github.com/user-attachments/assets/25f0043c-c921-444a-b0d1-a322efaa2da9){style="margin:"}
+![content-box](https://github.com/user-attachments/assets/25f0043c-c921-444a-b0d1-a322efaa2da9){ style="display: block; margin: 0 auto" }
 
 
 <p style="text-align: center;">À gauche, sans padding.</p>
@@ -22,7 +22,7 @@ Ce mode sert à donner priorité à la dimension réelle de la boite. Évitant a
 
 Par exemple, la boite ayant le contenu **(A - B - C - D - E)** ne change jamais de dimension **(200x200px)**. En contrepartie, Le contenu **(A - B - C - D - E)** doit ajuster sa disposition lorsqu'un padding de 40px est ajouté à la boite, puisque l'espace alloué au contenu se trouve réduit afin de ne pas modifier la dimension réelle de la boite.
 
-![border-box](https://github.com/user-attachments/assets/dddb1870-f64d-4dbf-a30c-73f0252ba766)
+![border-box](https://github.com/user-attachments/assets/dddb1870-f64d-4dbf-a30c-73f0252ba766){ style="display: block; margin: 0 auto" }
 
 <p style="text-align: center;">À gauche, sans padding.</p>
 <p style="text-align: center;">À droite, avec un padding de 40px.</p>
