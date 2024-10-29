@@ -9,11 +9,11 @@ Afin d'illustrer l'impact de cette propriété, une boite de 200x200px contenant
 
 Par exemple, la boite ayant le contenu **(A - B - C - D - E)** ne change pas la disposition de son contenu même si un padding de 40px lui est ajouté. En contrepartie, la boite mesure maintenant réellement 280px **(40px + 200px + 40px)**.
 
-![content-box](https://github.com/user-attachments/assets/25f0043c-c921-444a-b0d1-a322efaa2da9)
+![content-box](https://github.com/user-attachments/assets/25f0043c-c921-444a-b0d1-a322efaa2da9){style="margin:"}
 
 
-À gauche, sans padding.
-À droite, avec un padding de 40px.
+<p style="text-align: center;">À gauche, sans padding.</p>
+<p style="text-align: center;">À droite, avec un padding de 40px.</p>
 
 
 ## border-box
@@ -25,7 +25,7 @@ Par exemple, la boite ayant le contenu **(A - B - C - D - E)** ne change jamais 
 ![border-box](https://github.com/user-attachments/assets/dddb1870-f64d-4dbf-a30c-73f0252ba766)
 
 <p style="text-align: center;">À gauche, sans padding.</p>
-À droite, avec un padding de 40px.
+<p style="text-align: center;">À droite, avec un padding de 40px.</p>
 
 `border-box `est particulièrement utile lorsque des éléments ont une dimension en %.
 
@@ -49,6 +49,10 @@ Tandis qu'en `box-sizing: border-box`, puisque les marges intérieures **(paddin
 
 De nos jours, la majorité des développeurs convertissent toutes les boites de leurs pages en `border-box` via le code suivant placé en début de feuille CSS:
 
-`* { box-sizing: border-box; }`
+```
+* {
+ box-sizing: border-box;
+}
+```
 
 Ceci permet de simplifier la réalisation de mises en page.
