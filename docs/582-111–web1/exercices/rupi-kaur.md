@@ -14,7 +14,7 @@ Aperçu du résultat 👇
  
 ### Coeur
 
-https://tim-montmorency.com/timdoc/582-111MO/css/float/exercices/rupi-kaur/images/heart.webp
+
  
 ### Fleurs
 
