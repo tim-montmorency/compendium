@@ -1,5 +1,8 @@
 # Cours 10
 
+## Rappels
+Bourses et gamejam
+
 ## Configurer la VR dans votre projet
 [📝 Configuration VR](unity/configuration_vr.md){ .md-button }     
 
