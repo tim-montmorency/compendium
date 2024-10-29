@@ -6,7 +6,7 @@
   * Qualité des travaux <br>
     * Commentaires <br>
   * Moodboard en ai-je parlé ? <br>
-## L'importance du moodboard dans l'industrie (30 minutes)
+## L'importance du moodboard dans l'industrie (15 minutes)
   * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
   * En cinéma/télévision : l'importance du moodboard
     * Exemple : J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien. Un homme se tient au milieu d'une rue avec une voiture la nuit. 
