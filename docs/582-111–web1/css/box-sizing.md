@@ -66,11 +66,10 @@ Ceci permet de simplifier la réalisation de mises en page.
 ## EXERCICE
 
 <div class="grid grid-auto" markdown>
-![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
 
+![Capture d’écran, le 2024-10-29 à 17 47 28](https://github.com/user-attachments/assets/e5445557-8982-4f9f-960b-e21095cabea0)
 
-
-  **Exercice sur Div & Span**<br>
-  _Utiliser correctement les balises `<div>` et `<span>`_<br>
-  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+  **Box-sizing - Illustrator**<br>
+  _Pour cet exercice vous devez compléter une mise en page déjà entamée d’un écran de démarrage du logiciel Adobe Illustrator._<br>
+  [Box-sizing - Illustrator](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/illustrator.html)
 </div>
