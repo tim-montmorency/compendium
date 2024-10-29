@@ -19,3 +19,17 @@ Gris = #f3f5f7
 * [ ] Modifiez l'apparence du badge Adobe afin de lui attribuer un fond gris, une taille de police de 14px, des coins arrondis de 8px, ainsi qu'une marge intérieure d'une demi-lettre verticalement ↕️ et d'une lettre et demi horizontalement ↔️.
 * [ ] Attribuez au titre une taille de police de 50px et une marge verticale de 15px.
 * [ ] Positionnez le logo d'Illustrator à 20px du haut et de la gauche du .wrapper et attribuez-lui une largeur équivalente à 6% de la zone de texte.
+
+
+
+
+## Notes de cours
+
+![icon (24)](https://github.com/user-attachments/assets/d90f3a08-d565-4b20-9d4e-679673679d00)<br> Display <br> [block, inline, inline-block, none](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/display.html)
+
+![icon (22)](https://github.com/user-attachments/assets/18f5981d-3ef4-470d-96ee-47518959bed1)<br> Margin <br> [marge extérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/margin.html)
+
+![icon (21)](https://github.com/user-attachments/assets/4b36afe2-d51c-4acb-8621-4bc68a7e8dca)<br> Padding <br> [marge intérieur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/padding.html)
+
+![icon (36)](https://github.com/user-attachments/assets/1c10b442-f61a-403e-b7b1-39c0db54d55b)<br> Box-sizing <br> [border-box, content-box](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/box-sizing.html)
+
