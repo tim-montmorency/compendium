@@ -47,16 +47,20 @@ Quant à elle, l'accolade fermante devrait être seule sur la ligne suivant la d
 
 👌
 
-`.carte {
+```
+.carte {
   display: block;
   width: 100%;
-}`
+}
+```
 
 <br><br>
 🚫
 
-`.carte{display: block;
-  width: 100%;}`
+```
+.carte{display: block;
+  width: 100%;}
+```
 
 
 ## Espaces
@@ -65,16 +69,20 @@ Lorsque vous écrivez vos propriétés, elles devraient normalement être indent
 
 👌
 
-`sélecteur {
+```
+sélecteur {
   propriété: valeur;
-}`
+}
+```
 
 <br><br>
 🚫
 
-`sélecteur {
+```
+sélecteur {
 propriété: valeur;
-}`
+}
+```
 !!!note
 
     Actuellement, deux espaces est l’indentation la plus courante en CSS.
@@ -83,20 +91,24 @@ L'important est de garder une indentation cohérente d'une ligne à l'autre.
 
 👌
 
-`.carte {
+```
+.carte {
   display: block;
   width: 100%;
   padding: 20px;
-}`
+}
+```
 
 <br><br>
 🚫
 
-`.carte {
+```
+.carte {
   display: block;
 width: 100%;
     padding: 20px;
-}`
+}
+```
 
 
 ## Formatage automatique
