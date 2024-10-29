@@ -11469,15 +11469,17 @@
 <h2 id="content-box">content-box<a class="headerlink" href="#content-box" title="Permanent link">¶</a></h2>
 <p><strong>Est la valeur par défaut</strong> attribué à la propriété <code>box-sizing</code>. Par défaut, tous les éléments d'une page utilisent ce <u>box-model</u>. Ce mode donne priorité au contenu. Évitant ainsi que l'espace alloué au contenu change de dimension lorsqu'une marge intérieure <strong>(padding)</strong> ou une bordure <strong>(border)</strong> lui est ajoutée.</p>
 <p>Par exemple, la boite ayant le contenu <strong>(A - B - C - D - E)</strong> ne change pas la disposition de son contenu même si un padding de 40px lui est ajouté. En contrepartie, la boite mesure maintenant réellement 280px <strong>(40px + 200px + 40px)</strong>.</p>
-<p><img alt="content-box" src="https://github.com/user-attachments/assets/25f0043c-c921-444a-b0d1-a322efaa2da9"></p>
-<p>À gauche, sans padding.
-À droite, avec un padding de 40px.</p>
+<p><img alt="content-box" src="https://github.com/user-attachments/assets/25f0043c-c921-444a-b0d1-a322efaa2da9" style="margin:"></p>
+<p style="text-align: center;">À gauche, sans padding.</p>
+<p style="text-align: center;">À droite, avec un padding de 40px.</p>
+
 <h2 id="border-box">border-box<a class="headerlink" href="#border-box" title="Permanent link">¶</a></h2>
 <p>Ce mode sert à donner priorité à la dimension réelle de la boite. Évitant ainsi qu'elle change de dimension lorsqu'une marge intérieure <strong>(padding)</strong> ou une bordure <strong>(border)</strong> lui est ajoutée.</p>
 <p>Par exemple, la boite ayant le contenu <strong>(A - B - C - D - E)</strong> ne change jamais de dimension <strong>(200x200px)</strong>. En contrepartie, Le contenu <strong>(A - B - C - D - E)</strong> doit ajuster sa disposition lorsqu'un padding de 40px est ajouté à la boite, puisque l'espace alloué au contenu se trouve réduit afin de ne pas modifier la dimension réelle de la boite.</p>
 <p><img alt="border-box" src="https://github.com/user-attachments/assets/dddb1870-f64d-4dbf-a30c-73f0252ba766"></p>
 <p style="text-align: center;">À gauche, sans padding.</p>
-<p>À droite, avec un padding de 40px.</p>
+<p style="text-align: center;">À droite, avec un padding de 40px.</p>
+
 <p><code>border-box</code>est particulièrement utile lorsque des éléments ont une dimension en %.</p>
 <p>Par exemple, une boite prenant toute la largeur de la fenêtre et ayant une marge intérieure de 20px:</p>
 <p></p><div class="highlight"><pre><span></span><code>.box {
@@ -11494,7 +11496,10 @@ En <code>box-sizing: content-box</code>, la taille réelle de cette boite dépas
 </iframe>
 
 <p>De nos jours, la majorité des développeurs convertissent toutes les boites de leurs pages en <code>border-box</code> via le code suivant placé en début de feuille CSS:</p>
-<p><code>* { box-sizing: border-box; }</code></p>
+<div class="highlight"><pre><span></span><code>* {
+ box-sizing: border-box;
+}
+</code></pre></div>
 <p>Ceci permet de simplifier la réalisation de mises en page.</p></div>
 
 
