@@ -26,11 +26,10 @@ Pour que le contenu en ligne soit en mesure de s'enrouler autour de l'élément 
 ## EXERCICE
 
 <div class="grid grid-auto" markdown>
-![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
 
+![Capture d’écran, le 2024-10-29 à 17 49 10](https://github.com/user-attachments/assets/5fe24628-51df-4f55-aaf2-e1479117a4a5)
 
-
-  **Exercice sur Div & Span**<br>
-  _Utiliser correctement les balises `<div>` et `<span>`_<br>
-  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+  **Float - Rupi Kaur**<br>
+  _Pour cet exercice vous devrez mettre en forme un poème de Rupi Kaur: une poétesse, écrivaine et féministe canadienne, née en Inde._<br>
+  [Float - Rupi Kaur](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/rupi-kaur.html)
 </div>
