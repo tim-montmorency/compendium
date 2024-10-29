@@ -1,7 +1,7 @@
 # Linear-gradient
 La propriété `background-image` accepte la fonction `linear-gradient()`. Comme son nom l'indique, celle-ci permet de définir un dégradé. Pour générer un dégradé, il faut minimalement attribuer deux couleurs en paramètre à la fonction.
 
-Par exemple, pour définir un dégradé de vert à bleu:
+**Par exemple, pour définir un dégradé de vert à bleu:**
 
 `background-image: linear-gradient(#00c774, #3c38ba);`
 
@@ -17,11 +17,11 @@ Par défaut, les dégradés sont verticaux. Cependant, il est possible de spéci
 
 Le plus simple est d'utiliser en début de fonction des mots-clés indiquant la direction.
 
-Par exemple:
+**Par exemple:**
 
 - `to top`
 - `to right`
-- `to bottom **(par défaut)**`
+- `to bottom <b>(par défaut)</b>`
 - `to left`
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Linear-gradient - Direction" src="https://codepen.io/tim-momo/embed/rNrrxGP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -32,7 +32,7 @@ Par exemple:
 
 Pour créer des dégradés diagonaux, il est possible de spécifier une deuxième direction dans le mot-clé.
 
-Par exemple:
+**Par exemple:**
 
 - `to top left`
 - `to top right`
@@ -49,7 +49,7 @@ Par exemple:
 
 Il est aussi possible de spécifier une rotation en termes de degrés pour plus de précision.
 
-Par exemple:
+**Par exemple:**
 
 `background-image: linear-gradient(90deg, #00c774, #3c38ba);`
 
@@ -59,7 +59,7 @@ Serait l'équivalent de `to right`. Donc il serait possible de spécifier au deg
 
 Par défaut, lorsqu'aucun point d'arrêt n'est spécifié, les couleurs sont distribuées de façon égale.
 
-Par exemple un dégradé à trois couleurs, sans point d'arrêt, donc égales, génère de 0 à 50% une fusion du vert vers le bleu et de 50% à 100% une fusion de bleu vert le rouge.
+**Par exemple un dégradé à trois couleurs, sans point d'arrêt, donc égales, génère de 0 à 50% une fusion du vert vers le bleu et de 50% à 100% une fusion de bleu vert le rouge.**
 
 `background: linear-gradient(to right, #00c774, #3c38ba, #ff8487);`
 
@@ -71,7 +71,7 @@ Par exemple un dégradé à trois couleurs, sans point d'arrêt, donc égales, g
 
 Il est cependant possible de définir un point d'arrêt après une couleur afin de spécifier à partir de quel point cette couleur doit commencer à fusionner avec la suivante.
 
-Par exemple, pour contrôler la distribution du vert:
+**Par exemple, pour contrôler la distribution du vert:**
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Linear-gradient - Point d'arrêt" src="https://codepen.io/tim-momo/embed/rNrrxJR?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/rNrrxJR">
