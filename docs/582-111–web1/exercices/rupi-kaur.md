@@ -14,11 +14,11 @@ Aperçu du résultat 👇
  
 ### Coeur
 
-
+`https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/heart.webp`
  
 ### Fleurs
 
-https://tim-montmorency.com/timdoc/582-111MO/css/float/exercices/rupi-kaur/images/flowers.webp
+`https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/flowers.webp`
 
 
 ## Requis
