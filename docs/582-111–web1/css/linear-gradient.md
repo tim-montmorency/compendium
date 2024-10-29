@@ -21,7 +21,7 @@ Le plus simple est d'utiliser en début de fonction des mots-clés indiquant la 
 
 - `to top`
 - `to right`
-- `to bottom <b>(par défaut)</b>`
+- `to bottom (par défaut)`
 - `to left`
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Linear-gradient - Direction" src="https://codepen.io/tim-momo/embed/rNrrxGP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
