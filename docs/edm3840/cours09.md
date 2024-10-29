@@ -61,7 +61,8 @@
 
 ## Devoir
 * Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.  <br>
-* Créer un compte et acheter une licence par équipe de Runway :  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée la semaine prochaine. 
+* Créer un compte et acheter une licence par équipe de Runway :  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée la semaine prochaine.
+* S'assurer que les disques durs sont formatés pour MAC et EXFAT pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. 
   
 
 
