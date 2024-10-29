@@ -1,5 +1,5 @@
 # Box-sizing - Illustrator
-Pour cet exercice vous devez compléter une mise en page déjà entamée d’un écran de démarrage du logiciel Adobe Illustrator.
+Pour cet exercice vous devez compléter une mise en page déjà entamée d’un écran de démarrage du logiciel **Adobe Illustrator**.
 
 Aperçu du résultat 👇
 
@@ -9,7 +9,7 @@ Aperçu du résultat 👇
 
 [Pen de départ](https://codepen.io/smnarnold/pen/rNYeWJZ?editors=1100)
 
-Couleurs 🎨
+## Couleurs 🎨
 Gris = #f3f5f7
 
 ## Requis
