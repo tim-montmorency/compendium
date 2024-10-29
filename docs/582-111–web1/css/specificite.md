@@ -116,3 +116,16 @@ Les sélecteurs ci-dessous auront tous deux une valeur de spécificité équival
 Cependant, les styles du sélecteur `.no1` auront priorité sur ceux de `.element` puisque `.no1` est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.
 
 Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de `.element` au détriment de ceux de `.no1`.
+
+
+## EXERCICE
+
+<div class="grid grid-auto" markdown>
+![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+
+
+  **Exercice sur Div & Span**<br>
+  _Utiliser correctement les balises `<div>` et `<span>`_<br>
+  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+</div>
