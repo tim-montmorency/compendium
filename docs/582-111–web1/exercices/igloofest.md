@@ -17,6 +17,8 @@ Couleurs 🎨
 
   
 Médias
+
+`https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/logo-igloofest.png`
  
 ## Requis
 * [ ] Faites en sorte que la couleur de fond de la page soit rose pâle.
