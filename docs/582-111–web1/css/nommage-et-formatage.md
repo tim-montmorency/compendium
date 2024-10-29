@@ -51,6 +51,8 @@ Quant à elle, l'accolade fermante devrait être seule sur la ligne suivant la d
   display: block;
   width: 100%;
 }`
+
+<br><br>
 🚫
 
 `.carte{display: block;
@@ -66,6 +68,8 @@ Lorsque vous écrivez vos propriétés, elles devraient normalement être indent
 `sélecteur {
   propriété: valeur;
 }`
+
+<br><br>
 🚫
 
 `sélecteur {
@@ -84,6 +88,8 @@ L'important est de garder une indentation cohérente d'une ligne à l'autre.
   width: 100%;
   padding: 20px;
 }`
+
+<br><br>
 🚫
 
 `.carte {
@@ -99,6 +105,7 @@ width: 100%;
 Lorsqu'un code est sélectionné, VS Code permet de le formater automatiquement à l'aide d'un raccourcis clavier:
 
 Windows: `Shift` + `Alt` + `F`
+<br><br>
 Mac: `Shift` + `Options` + `F`
 
 ### CodePen
