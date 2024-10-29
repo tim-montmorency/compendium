@@ -3,7 +3,7 @@ Chaque sélecteur en CSS se voit attribuer un pointage. Lorsque deux sélecteurs
 
 En règle générale, il est conseillé de garder le pointage de ses sélecteurs le plus faible possible. Ainsi, si l’apparence d’un élément doit changer dans un contexte spécifique, il sera facilement possible d’écraser ses styles de bases avec un sélecteur doté d’un plus grand pointage.
 
-##b Pointage par sélecteurs
+## Pointage par sélecteurs
 
 ### Universel *
 Le sélecteur universel `*` est le plus faible des sélecteurs avec une valeur de **0 point**. Il peut donc être écrasé par tout autre sélecteur.
@@ -105,7 +105,7 @@ Lorsque deux sélecteurs ont un pointage identique.
 
 Par exemple pour l’élément HTML suivant:
 
-**<div class=”element no1”>**
+`<div class=”element no1”>`
 
 Les sélecteurs ci-dessous auront tous deux une valeur de spécificité équivalente à **10 points**.
 
