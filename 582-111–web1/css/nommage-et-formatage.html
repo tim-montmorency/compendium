@@ -11549,43 +11549,49 @@
 <p>Un espace entre le sélecteur et l'accolade ouvrante devrait toujours être présent et elle devrait être suivi d'un retour de chariot Enter ↵ afin de simplifier la lisibilité du code.</p>
 <p>Quant à elle, l'accolade fermante devrait être seule sur la ligne suivant la dernière propriété et sont indentation devrait correspondre à celle de son sélecteur. Une ligne vide devrait ensuite la suivre afin de délimiter proprement chaque bloc.</p>
 <p>👌</p>
-<p><code>.carte {
+<div class="highlight"><pre><span></span><code>.carte {
   display: block;
   width: 100%;
-}</code></p>
+}
+</code></pre></div>
 <p><br><br>
 🚫</p>
-<p><code>.carte{display: block;
-  width: 100%;}</code></p>
+<div class="highlight"><pre><span></span><code>.carte{display: block;
+  width: 100%;}
+</code></pre></div>
 <h2 id="espaces">Espaces<a class="headerlink" href="#espaces" title="Permanent link">¶</a></h2>
 <p>Lorsque vous écrivez vos propriétés, elles devraient normalement être indentées à l'intérieur de vos accolades</p>
 <p>👌</p>
-<p><code>sélecteur {
+<div class="highlight"><pre><span></span><code>sélecteur {
   propriété: valeur;
-}</code></p>
+}
+</code></pre></div>
 <p><br><br>
 🚫</p>
-<p><code>sélecteur {
+<div class="highlight"><pre><span></span><code>sélecteur {
 propriété: valeur;
-}</code></p>
+}
+</code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Actuellement, deux espaces est l’indentation la plus courante en CSS.</p>
 </div>
 <p>L'important est de garder une indentation cohérente d'une ligne à l'autre.</p>
 <p>👌</p>
-<p><code>.carte {
+<div class="highlight"><pre><span></span><code>.carte {
   display: block;
   width: 100%;
   padding: 20px;
-}</code></p>
+}
+</code></pre></div>
 <p><br><br>
 🚫</p>
-<p><code>.carte {
+<div class="highlight"><pre><span></span><code>.carte {
   display: block;
 width: 100%;
     padding: 20px;
-}</code></p>
+}
+</code></pre></div>
 <h2 id="formatage-automatique">Formatage automatique<a class="headerlink" href="#formatage-automatique" title="Permanent link">¶</a></h2>
 <h3 id="vs-code">VS Code<a class="headerlink" href="#vs-code" title="Permanent link">¶</a></h3>
 <p>Lorsqu'un code est sélectionné, VS Code permet de le formater automatiquement à l'aide d'un raccourcis clavier:</p>
