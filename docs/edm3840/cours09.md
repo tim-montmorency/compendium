@@ -60,7 +60,8 @@
 
 
 ## Devoir
-* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.  <br> 
+* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.  <br>
+* Acheter une licence par équipe de Runway :  Unlimited $95/monthly.
 
 
 <details>
