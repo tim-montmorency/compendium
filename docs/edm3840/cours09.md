@@ -5,8 +5,7 @@
 ## Retour sur le travail 1 (15 minutes)
   * Qualité des travaux <br>
     * Commentaires <br>
-  * Une partie dont je n'ai pas assez parlé <br>
-    * L'influence du moodboard ne sera pas noté. <br>
+  * Moodboard en ai-je parlé ? <br>
 ## L'importance du moodboard dans l'industrie (30 minutes)
   * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
   * En cinéma/télévision : l'importance du moodboard
