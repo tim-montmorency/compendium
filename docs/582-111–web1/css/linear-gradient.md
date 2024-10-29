@@ -86,33 +86,36 @@ Il est cependant possible de définir un point d'arrêt après une couleur afin 
 ## OUTILS
 
 <div class="grid grid-auto" markdown>
-![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+![Capture d’écran, le 2024-10-29 à 17 42 14](https://github.com/user-attachments/assets/933a6fbb-0bfa-489e-be38-400aa9c2de6f)
 
 
 
-  **Exercice sur Div & Span**<br>
-  _Utiliser correctement les balises `<div>` et `<span>`_<br>
-  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+  **uiGradients**<br>
+  _Collection de dégradés prêts à être utilisés._<br>
+  [uiGradients](https://uigradients.com/#Dawn)
 </div>
 
 <div class="grid grid-auto" markdown>
-![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+![Capture d’écran, le 2024-10-29 à 17 42 21](https://github.com/user-attachments/assets/5f3bd4e4-82cc-44d4-8c00-dbfefc5e8da8)
 
 
 
-  **Exercice sur Div & Span**<br>
-  _Utiliser correctement les balises `<div>` et `<span>`_<br>
-  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+
+  **CSS Gradient**<br>
+  _Générateur de dégradés._<br>
+  [CSS Gradient](https://cssgradient.io/)
 </div>
 
 ## EXERCICE
 
 <div class="grid grid-auto" markdown>
-![Capture d’écran, le 2024-09-04 à 21 47 30](https://github.com/user-attachments/assets/4fb54bdc-c219-4cde-a08c-04906eb84116)
+
+![Capture d’écran, le 2024-10-29 à 17 42 31](https://github.com/user-attachments/assets/4b8c8b2d-9516-410d-a63f-111d4d495cf0)
 
 
 
-  **Exercice sur Div & Span**<br>
-  _Utiliser correctement les balises `<div>` et `<span>`_<br>
-  [Exercice Div-Span](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/div-span.html)
+  **Linear-gradient - Igloofest**<br>
+  _Pour cet exercice, vous devez compléter la mise en page d’un carton promotionnel de l’Igloofest._<br>
+  [Linear-gradient - Igloofest](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/igloofest.html)
 </div>
