@@ -11431,13 +11431,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#b-pointage-par-selecteurs" class="md-nav__link">
+  <a href="#pointage-par-selecteurs" class="md-nav__link">
     <span class="md-ellipsis">
-      b Pointage par sélecteurs
+      Pointage par sélecteurs
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="b Pointage par sélecteurs">
+    <nav class="md-nav" aria-label="Pointage par sélecteurs">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -11577,7 +11577,7 @@
 <div><h1 id="specificite">Spécificité<a class="headerlink" href="#specificite" title="Permanent link">¶</a></h1>
 <p>Chaque sélecteur en CSS se voit attribuer un pointage. Lorsque deux sélecteurs ciblent les mêmes propriétés d’un même élément, le sélecteur avec le plus haut pointage l’emporte. Le style de sa propriété est donc attribué à l’élément ciblé au détriment de celui du sélecteur plus faible.</p>
 <p>En règle générale, il est conseillé de garder le pointage de ses sélecteurs le plus faible possible. Ainsi, si l’apparence d’un élément doit changer dans un contexte spécifique, il sera facilement possible d’écraser ses styles de bases avec un sélecteur doté d’un plus grand pointage.</p>
-<h2 id="b-pointage-par-selecteurs">b Pointage par sélecteurs<a class="headerlink" href="#b-pointage-par-selecteurs" title="Permanent link">¶</a></h2>
+<h2 id="pointage-par-selecteurs">Pointage par sélecteurs<a class="headerlink" href="#pointage-par-selecteurs" title="Permanent link">¶</a></h2>
 <h3 id="universel">Universel *<a class="headerlink" href="#universel" title="Permanent link">¶</a></h3>
 <p>Le sélecteur universel <code>*</code> est le plus faible des sélecteurs avec une valeur de <strong>0 point</strong>. Il peut donc être écrasé par tout autre sélecteur.</p>
 <p><code>* { ... }</code></p>
@@ -11637,13 +11637,13 @@ Puisque <code>!important</code> est ajouté à une propriété directement, sa p
 <h2 id="egalite-de-pointage">Égalité de pointage<a class="headerlink" href="#egalite-de-pointage" title="Permanent link">¶</a></h2>
 <p>Lorsque deux sélecteurs ont un pointage identique.</p>
 <p>Par exemple pour l’élément HTML suivant:</p>
-<p><strong><div class="”element" no1>
+<p><code>&lt;div class=”element no1”&gt;</code></p>
 <p>Les sélecteurs ci-dessous auront tous deux une valeur de spécificité équivalente à <strong>10 points</strong>.</p>
 <p></p><div class="highlight"><pre><span></span><code>.element { … }
 .no1 { … }
 </code></pre></div>
 Cependant, les styles du sélecteur <code>.no1</code> auront priorité sur ceux de <code>.element</code> puisque <code>.no1</code> est écrit en dernier et est donc considéré comme étant la définition la plus récente, donc celle prioritaire en cas d’égalité.
-<p>Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de <code>.element</code> au détriment de ceux de <code>.no1</code>.</p></div></strong></p></div>
+<p>Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité aux styles de <code>.element</code> au détriment de ceux de <code>.no1</code>.</p></div>
 
 
 
