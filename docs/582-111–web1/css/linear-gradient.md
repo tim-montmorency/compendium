@@ -97,6 +97,7 @@ Il est cependant possible de définir un point d'arrêt après une couleur afin 
 </div>
 
 <div class="grid grid-auto" markdown>
+  
 ![Capture d’écran, le 2024-10-29 à 17 42 21](https://github.com/user-attachments/assets/5f3bd4e4-82cc-44d4-8c00-dbfefc5e8da8)
 
 
