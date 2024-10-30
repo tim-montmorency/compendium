@@ -87,6 +87,8 @@
    (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante)  
    *Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.*
 
+- [x] voici des exemples de prompts qui précisent l'aspect photographique : Photography, shot by [camera brand], in the style of [photographer], ASA 20, prime [xx] mm lenses, [type of lighting such as ring flash, natural lighting etc.] Or --- portrait photography, natural skin, clean detailed eyes, insane detail, detailed hair, dslr photography, detailed natural skin, no makeup, 8k Or --- extremely intricate design, photorealistic, epic composition, golden ratio, mist, breathtaking, UHD, 8k, dramatic lighting, volumetric rays, Zeiss 35mm photograph
+
 ---
 
 ### Prompts en français
