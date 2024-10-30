@@ -4,11 +4,7 @@
 
 ## Retour sur le travail 1 (15 minutes)
   * Qualité des travaux <br>
-## Le moodboard un guide (15 minutes)
-  * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
-  * En cinéma/télévision : l'importance du moodboard
-    * Exemple : J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien. Un homme se tient au milieu d'une rue avec une voiture la nuit. 
-  * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
+
 ## Présentation du [Travail 2](projet02.md) et tous les livrables (30 minutes)
 * RunWay
   * Excelle pour les humains et les émotions
