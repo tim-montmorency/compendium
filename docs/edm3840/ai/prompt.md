@@ -57,11 +57,12 @@
   *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique. Les couleurs sont subtiles, évoquant un passé lointain ou un rêve doux.*
 
 - [x] **Inclure des modificateurs de style**  
-  (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste, tel que tel réalisateur, tel que tel directeur photo.)  
-  *L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme, où le fantastique et le quotidien se mêlent harmonieusement.*
-
-- [x] Voici des exemples de structures pour les modificateurs de style : Photography, shot by [camera brand], in the style of [photographer], ASA 20, prime [xx] mm lenses, [type of lighting such as ring flash, natural lighting etc.] Or --- portrait photography, natural skin, clean detailed eyes, insane detail, detailed hair, dslr photography, detailed natural skin, no makeup, 8k Or --- extremely intricate design, photorealistic, epic composition, golden ratio, mist, breathtaking, UHD, 8k, dramatic lighting, volumetric rays, Zeiss 35mm photograph
-
+  (Quel style artistique ou visuel voulez-vous ? Pour créer une image avec un style visuel spécifique, il est essentiel d’ajouter des modificateurs de style. Ceux-ci permettent de définir l’esthétique artistique, qui peut être réaliste, abstraite, rétro, futuriste, ou inspirée d’un réalisateur ou d’un directeur de la photographie. Pour une précision accrue, vous pouvez inclure des détails techniques comme la caméra, le type de pellicule, l’objectif, et même le nom d’un photographe pour guider l’inspiration.)
+  * Exemple : L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, capturés avec une caméra ARRI Alexa et une pellicule Kodak Portra 800, dans le style de Gregory Crewdson. Des éléments surnaturels s’intègrent dans des décors réalistes, créant une atmosphère immersive. Le style fait écho au mouvement artistique du surréalisme, où le fantastique et le quotidien se mêlent harmonieusement, donnant vie à des scènes qui semblent à la fois familières et extraordinaires.
+  * Exemple : Photography, shot by [camera brand], in the style of [photographer], ASA 20, prime [xx] mm lenses, [type of lighting such as ring flash, natural lighting etc.]
+  * Exemple : Or --- portrait photography, natural skin, clean detailed eyes, insane detail, detailed hair, dslr photography, detailed natural skin, no makeup, 8k
+  * Exemple : Or --- portrait photography, natural skin, clean detailed eyes, insane detail, detailed hair, dslr photography, detailed natural skin, no makeup, 8k
+  * Exemple : Or --- extremely intricate design, photorealistic, epic composition, golden ratio, mist, breathtaking, UHD, 8k, dramatic lighting, volumetric rays, Zeiss 35mm photograph
 
 - [x] **Exemples du type de caméra** :
    - [x] Canon EOS 5D Mark IV or Nikon D850: These create high-quality, realistic images with a clean, professional look. Use them for natural, crisp imagery with shallow depth of field.
@@ -113,7 +114,7 @@ Le chat est immense, avec un pelage blanc et duveteux. La femme, vêtue d'une ro
 
 L'éclairage est doux et diffus, sans ombres marquées, accentuant l'atmosphère tranquille et irréelle de la scène. En arrière-plan, on voit des bâtiments typiques de l'architecture urbaine japonaise, des enseignes commerciales, et des câbles électriques qui traversent la rue.
 
-Le style visuel doit être réaliste mais avec une touche onirique, rappelant l'esthétique des films d'animation fantastique de Studio Ghibli et les compositions surréalistes du mouvement artistique. L'accent est mis sur la femme et le chat géant, avec un arrière-plan légèrement flou pour concentrer l'attention sur les personnages principaux.
+L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, capturés avec une caméra ARRI Alexa et une pellicule Kodak Portra 800, dans le style de Gregory Crewdson. Des éléments surnaturels s’intègrent dans des décors réalistes, créant une atmosphère immersive. Le style fait écho au mouvement artistique du surréalisme, où le fantastique et le quotidien se mêlent harmonieusement, donnant vie à des scènes qui semblent à la fois familières et extraordinaires.
 
 Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.
 
