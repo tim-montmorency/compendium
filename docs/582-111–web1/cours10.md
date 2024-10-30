@@ -70,7 +70,7 @@
 
 ![icon (39)](https://github.com/user-attachments/assets/7149bf9d-c686-4b85-999a-0989e4ac22b4)
 
-[Chaque sélecteur en CSS se voit attribuer un pointage.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/specifite.html)
+[Chaque sélecteur en CSS se voit attribuer un pointage.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/specificite.html)
 <br>
 <br>
 
