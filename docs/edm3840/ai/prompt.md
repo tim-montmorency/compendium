@@ -57,10 +57,20 @@
   *Utiliser des tons vintage avec des couleurs désaturées : des nuances de vert et de beige prédominent, donnant une impression nostalgique. Les couleurs sont subtiles, évoquant un passé lointain ou un rêve doux.*
 
 - [x] **Inclure des modificateurs de style**  
-  (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste.)  
+  (Quel style artistique ou visuel voulez-vous ? Exemple : réaliste, abstrait, rétro, futuriste, tel que tel réalisateur, tel que tel directeur photo.)  
   *L'ambiance doit être surréaliste et cinématographique, rappelant les films de Studio Ghibli et les techniques des grands films à gros budgets, où des éléments surnaturels sont intégrés dans des décors réalistes. Le style fait écho au mouvement artistique du surréalisme, où le fantastique et le quotidien se mêlent harmonieusement.*
 
-- [x] **Préciser le type de pellicule** :
+- [x] Voici des exemples de structures pour les modificateurs de style : Photography, shot by [camera brand], in the style of [photographer], ASA 20, prime [xx] mm lenses, [type of lighting such as ring flash, natural lighting etc.] Or --- portrait photography, natural skin, clean detailed eyes, insane detail, detailed hair, dslr photography, detailed natural skin, no makeup, 8k Or --- extremely intricate design, photorealistic, epic composition, golden ratio, mist, breathtaking, UHD, 8k, dramatic lighting, volumetric rays, Zeiss 35mm photograph
+
+
+- [x] **Exemples du type de caméra** :
+   - [x] Canon EOS 5D Mark IV or Nikon D850: These create high-quality, realistic images with a clean, professional look. Use them for natural, crisp imagery with shallow depth of field.
+   - [x] Sony Alpha A7III: Known for vibrant colors and excellent low-light performance. Perfect for moody or atmospheric images with a cinematic touch.
+   - [x] Kodak Portra 400 (Film): Adds a vintage, grainy texture with warmer tones and a more nostalgic aesthetic. Mentioning “film” with this can also adjust the look.
+   - [x] Polaroid SX-70: Adds a soft, dreamy vibe with muted colors and a vintage touch. Excellent for retro-themed prompts.
+   - [x] Leica M6: Known for a classic filmic look with high detail, often used in street photography. Adds elegance and timelessness.
+
+- [x] **Exemples du type de pellicule** :
    - [x] *Kodak Portra 800* – Pour des couleurs douces et chaudes.  
    - [x] *FujiFilm 400H* – Pour des tons pastels doux et un aspect cinématographique.  
    - [x] *Kodak Ektar 100* – Pour des couleurs vibrantes et une haute saturation.  
@@ -72,7 +82,7 @@
    - [x] *Instant film* – Pour obtenir un effet général de film instantané avec un cadre blanc typique des Polaroids.  
    - [x] *Expired Polaroid Film* – Pour un look encore plus vintage avec des couleurs imprévisibles et des artefacts visuels.
 
-- [x] **Préciser les effets supplémentaires** :
+- [x] **Exemples d'effets supplémentaires** :
    - [x] *Cross Processed Film* – Pour un effet de développement chimique alternatif, donnant des couleurs inattendues et un contraste élevé.  
    - [x] *Light Leaks* – Pour simuler des fuites de lumière, souvent présentes dans les vieux appareils photo ou les films mal enroulés.  
    - [x] *Double Exposure* – Pour superposer deux images avec un effet analogue typique.  
@@ -87,7 +97,7 @@
    (Assurez-vous que tous les éléments se complètent bien pour créer une scène harmonieuse et captivante)  
    *Tous les éléments de la scène se complètent harmonieusement pour créer une atmosphère de calme surréaliste, où le fantastique côtoie le quotidien de manière fluide et naturelle.*
 
-- [x] voici des exemples de prompts qui précisent l'aspect photographique : Photography, shot by [camera brand], in the style of [photographer], ASA 20, prime [xx] mm lenses, [type of lighting such as ring flash, natural lighting etc.] Or --- portrait photography, natural skin, clean detailed eyes, insane detail, detailed hair, dslr photography, detailed natural skin, no makeup, 8k Or --- extremely intricate design, photorealistic, epic composition, golden ratio, mist, breathtaking, UHD, 8k, dramatic lighting, volumetric rays, Zeiss 35mm photograph
+
 
 ---
 
