@@ -54,8 +54,9 @@
 
 
 ## Devoir
-* Faire un moodboard sur shot deck ou Pinterest.  <br>
+* Faire un moodboard sur shotdeck ou Pinterest.  <br>
 * Créer un compte et acheter une licence par équipe de Runway :  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée la semaine prochaine.
+* Écouter les vidéos sur Midjourney. 
 * S'assurer que les disques durs sont formatés pour MAC et EXFAT pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs. 
   
 
