@@ -34,7 +34,7 @@
 ![icon (36)](https://github.com/user-attachments/assets/d48189c1-ac34-44c2-a55d-04ea8afb3bb1)
 
 
-[border-box, content-box](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/box-sizing.html)
+[border-box, content-box](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/box-sizing.html)
 <br>
 <br>
 
