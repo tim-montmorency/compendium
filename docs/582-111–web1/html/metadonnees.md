@@ -27,7 +27,7 @@ QuÃ©bec
 
 !!!warning
 
-    Cette balise doit être placée au tout début de la balise <head> afin de spécifier l’encodage des caractères avant l’apparition d’une première valeur textuelle (title, description, etc.)
+    Cette balise doit être placée au tout début de la balise `<head>` afin de spécifier l’encodage des caractères avant l’apparition d’une première valeur textuelle (title, description, etc.)
 
 
 ## Viewport
@@ -59,7 +59,7 @@ La partie `initial-scale=1` contenu dans la valeur de cette balise indique que l
 Ces parties permettent de définir le zoom minimal ou maximal permis sur une page.
 
 ### User-scalable
-Lorsque cette partie est présente et qu'elle est définie à no, par exemple user-scalable: no, il est impossible pour l'usager d'agrandir ou de rapetisser la page en utilisant les fonctionnalités de zoom.
+Lorsque cette partie est présente et qu'elle est définie à `no`, par exemple user-scalable: no, il est impossible pour l'usager d'agrandir ou de rapetisser la page en utilisant les fonctionnalités de zoom.
 
 !!!warning
 
