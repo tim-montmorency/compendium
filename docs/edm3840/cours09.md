@@ -4,7 +4,6 @@
 
 ## Retour sur le travail 1 (15 minutes)
   * Qualité des travaux <br>
-  * Commentaires
 ## Le moodboard un guide (15 minutes)
   * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
   * En cinéma/télévision : l'importance du moodboard
@@ -59,11 +58,10 @@
 
 
 ## Devoir
-* Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.  <br>
+* Faire un moodboard sur shot deck ou Pinterest.  <br>
 * Créer un compte et acheter une licence par équipe de Runway :  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée la semaine prochaine.
-* S'assurer que les disques durs sont formatés pour MAC et EXFAT pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. 
+* S'assurer que les disques durs sont formatés pour MAC et EXFAT pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs. 
   
-
 
 <details>
   <summary></summary>
