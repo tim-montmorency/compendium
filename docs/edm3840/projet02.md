@@ -13,8 +13,6 @@
    - Créez un **moodboard** représentant l'esthétique, les émotions ou les idées que vous souhaitez explorer dans la vidéo.
    - Utilisez **MidJourney** pour générer les images nécessaires à la vidéo, tout en respectant l'esthétique définie dans votre moodboard.
    - Assurez-vous que ces images illustrent bien l'émotion ou l'ambiance que vous souhaitez transmettre.
-   - Ce moodboard servira de base pour la création des visuels et doit être **validé avant de débuter la production**.
-   - **Important** : Si vous trouvez un style intéressant lors de votre exploration dans MidJourney, vous pouvez me contacter pour discuter d'un éventuel changement du moodboard en cours de route.
 
 2. **Expérimentation visuelle** :
    - Que vous choisissiez de réaliser un vidéoclip ou un vidéo d'art, l'accent sera mis sur l'exploration visuelle. Utilisez des couleurs, des formes, des textures et des compositions pour créer une esthétique unique.
@@ -40,7 +38,6 @@
 ### PROJET 2 – PARTIE 1 : ÉVALUATION DU MONTAGE
 
 #### Rencontre individuelle avec le professeur :
-- Présentez votre **moodboard validé** qui a servi de base à la création des images.
 - Présentez également le montage en cours dans Da Vinci.
 - Le professeur évaluera :
   - La qualité du montage.
