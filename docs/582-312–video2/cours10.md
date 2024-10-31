@@ -17,7 +17,10 @@ Reset des mots de passe à chaque utilisateur
 
 
 ## Midjourney
+Travail sur vos projets de AI.
+
 ## Runway 
 Écouter les vidéos de Runway
+Travail sur vos projets de AI.
 
 Les vidéos d'AI doivent être terminés en majorité la semaine prochaine. 
