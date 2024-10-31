@@ -12,7 +12,6 @@
   * Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
 
 
-
 ## [Midjourney](https://www.midjourney.com/)
 
 
@@ -55,21 +54,14 @@
 
 ## Devoir
 * Faire un moodboard sur shotdeck ou Pinterest.  <br>
+* Trouver une musique, vous pourriez la générer sur [Udio](https://www.udio.com/create) ou sur [Suno](https://suno.com/) en AI. <br>
 * Écouter les vidéos sur [Midjourney](ai/midjourney.md)
   
-* Durant le prochain cours, avoir une carte de crédit avec vous, pour acheter une licence de Runway:  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée à la place de votre carte.
-* S'assurer que les disques durs sont formatés pour MAC et EXFAT pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs. 
-  
 
+* Durant le prochain cours, avoir une carte de crédit avec vous, pour acheter une licence de Runway:  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée à la place de votre carte. 
+* S'assurer que les disques durs sont formatés pour MAC et EXFAT d'ici deux semaines. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs. 
 <details>
   <summary></summary>
  * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004) 
-
-## Le moodboard un guide (15 minutes)
-  * [En design](https://www.makerandmoxie.com/blog/moodboards) <br>
-  * En cinéma/télévision : l'importance du moodboard
-    * Exemple : J'aimerais avoir un univers surréaliste, lumière dramatique, dissonance avec le quotidien. Un homme se tient au milieu d'une rue avec une voiture la nuit. 
-  * [En cinéma/télévision](https://www.youtube.com/watch?v=p03cRSbIQFU) <br>
- 
 </details>
 
