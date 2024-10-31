@@ -31,7 +31,12 @@
 ### Notions : Animation
 *  [▶️ Animation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EX3yLB0keWpGo4crMYC7iAsBOyB-yeutvLAAA_ovHFllqQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3oXPB3
 )   <br>   
-  [🛠️ Animation](./exercices_photoshop/18_animation.md){ .md-button }  <br>   
+  [🛠️ Animation](./exercices_photoshop/18_animation.md){ .md-button }  <br>
+
+
+### CRAP
+* [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EaXDO17xGqVPmf_gAqTsmhABbvSnAlNnr8OZR8UK1Ayirg?e=5HYJ6B) 
+
 
 
 ## Devoir
