@@ -46,6 +46,11 @@ Avant de commencer, assurez-vous que le logiciel <b>Meta quest link</b> est inst
 Appuyez sur télécharger l'application.   
 
 ## Lier le casque à votre ordinateur - D-Link
+
+!!! warning "Attention"
+
+    Au collège, la configuration du VR air bridge s'arrêtera à 2%, débranchez le câble, puis rebranchez le pour régler ce problème. 
+
 - [ ] Avec les quest 2 et 3, vous recevrez une clé usb D-link ainsi qu'un câble usb avec une base. Ces deux objets vous permettront d'utiliser votre casque sans fil. Assurez-vous de connecter le câble dans l'ordinateur et la clé usb sur le socle. 
 - [ ] Dans le logiciel Oculus, un onglet s'ouvrira lorsque vous brancherez le câble. Choisissez un mot de passe pour votre VR air bridge.
 - [ ] Enfilez votre casque.
