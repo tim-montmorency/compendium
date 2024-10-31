@@ -19,7 +19,7 @@ Reset des mots de passe à chaque utilisateur
 ## Midjourney
 Travail sur vos projets de AI.
 
-## Runway 
+## [Runway](ai/runway.md) 
 Écouter les vidéos de Runway
 Travail sur vos projets de AI.
 
