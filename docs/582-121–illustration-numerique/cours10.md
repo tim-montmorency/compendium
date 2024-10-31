@@ -16,8 +16,14 @@
 * [Typographie à l'écran](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=owYvBA) 
 
 
-*  [▶️ Modifier/visage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWHPl4gHk2hHoqPuG_ZTGLABK4fG6eCCHq8EhPfy_MFfvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dfOGDD)   <br>   
-  [🛠️ Modifier un visage](./exercices_photoshop/17_fluidite.md){ .md-button }  <br>        
+## Courants artistiques
+* [Courants artistiques](https://cmontmorency365-my.sharepoint.com/:p:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_02_creation_moodboard/04_courant_design/courant_design_vecteur.pptx?d=wd9c991b764b5430ab6f451fd0e199fdb&csf=1&web=1&e=OAXRhi)
+
+## Synopsis
+* [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EZVIYRt62_5ItWVUsDlonGUBgBfSLdBljZ9ZJj4dcbPZ_g?e=03AxC4)
+
+
+
 
 
 ## Devoir 
@@ -29,6 +35,7 @@ Pour le prochain cours :
 
   * Palette de Couleurs : La palette doit comporter les couleurs principales que les étudiants souhaitent utiliser dans leur projet. Elle servira de guide pour harmoniser les visuels et donner une identité cohérente aux images. La palette devrait idéalement inclure des nuances spécifiques et complémentaires qui reflètent l’ambiance du projet.
 
+* [Modèle pour la création du moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABPDKZHLCARN5Qdml6RytL8Q?e=MHXmhL)
 
 * Rédaction d'un **Synopsis** : 5 lignes maximum, décrivant brièvement le thème de votre film.
 
