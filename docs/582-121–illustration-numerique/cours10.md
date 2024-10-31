@@ -37,6 +37,6 @@ Pour le prochain cours :
 
 * [Modèle pour la création du moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABPDKZHLCARN5Qdml6RytL8Q?e=MHXmhL)
 
-* Rédaction d'un **Synopsis** : 5 lignes maximum, décrivant brièvement le thème de votre film.
+* Rédaction d'un **[Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EZVIYRt62_5ItWVUsDlonGUBgBfSLdBljZ9ZJj4dcbPZ_g?e=03AxC4)** : 5 lignes maximum, décrivant brièvement le thème de votre film.
 
 
