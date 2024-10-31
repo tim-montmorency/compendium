@@ -1,7 +1,17 @@
 # PROJET 2 – LE GÉNÉRIQUE
 
 ## OBJECTIF
-Créer 12 planches représentant un générique de film en pause. **Les images doivent être vectorielles et conserver une cohérence visuelle entre elles.**
+Créer **12 planches** représentant un générique de film en pause. Les images doivent être **vectorielles** et conserver une **cohérence visuelle** entre elles.
+
+## CONSIGNES / GÉNÉRIQUE
+
+* **Projet de Générique**
+  * [ ] **Nombre :** Créez 12 planches pour le générique de film.
+  * [ ] **Cohérence Visuelle :** Les planches doivent présenter une cohérence visuelle forte.
+  * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
+  * [ ] **Typographie :** Utilisez deux graisses différentes pour la typographie.
+  * [ ] **Éléments Textuels :** Ajoutez un titre du projet sur une planche et les noms ou postes sur les autres.
+  * [ ] **Calques Vectoriels :** Chaque planche doit inclure environ 10 calques vectoriels.
 
 ## ÉTAPES D'APPROBATION
 
@@ -9,27 +19,28 @@ Créer 12 planches représentant un générique de film en pause. **Les images d
 
 À cette première étape, vous devrez présenter individuellement au professeur les éléments suivants :
 
-- **Synopsis** : 5 lignes maximum, décrivant brièvement le thème de votre film.
-- **Planche d’Inspiration (Moodboard)** : Comprend une palette de couleurs, des typographies, et des exemples de génériques inspirants tirés de [Art of the Title](http://www.artofthetitle.com) ou de Pinterest. Voici un moodboard [Pinterest](https://pin.it/72P9mgeuc) à titre de référence. 
+- **Synopsis**
+  * [ ] Maximum **5 lignes** décrivant brièvement le thème de votre film.
 
-Chaque moodboard doit inclure :
-  - Une **palette de couleurs**
-  - Une **typographie**
-  - Des exemples visuels d’artistes reconnus, qui serviront d’inspiration pour votre projet.
-
-**Lors de la rencontre avec le professeur** : assurez-vous que tous vos documents sont ouverts et que vos écouteurs sont fonctionnels.
+- **Planche d’Inspiration (Moodboard)**
+  * [ ] Inclure une **palette de couleurs**.
+  * [ ] Inclure une **typographie**.
+  * [ ] Inclure des exemples visuels d’artistes reconnus tirés de [Art of the Title](http://www.artofthetitle.com) ou Pinterest.
+  * [ ] Créer un moodboard qui inclut des œuvres représentatives et inspirantes pour votre projet.
+  * [ ] Soyez prêts à présenter les documents avec des **écouteurs fonctionnels**.
 
 ---
 
 ### PROJET 2 – PARTIE 2 : PRÉ-APPROBATION – GÉNÉRIQUE
 
-À ce stade, vous devez présenter vos illustrations terminées au professeur. Voici la liste des éléments à fournir :
+À ce stade, vous devez présenter vos **illustrations terminées** au professeur. Voici la liste des éléments à fournir :
 
-- **Un moodboard**
-- **Six images de générique**
-- **Une musique**
+- **Illustrations et Moodboard**
+  * [ ] Un **moodboard**.
+  * [ ] Six **images de générique**.
+  * [ ] Une **musique**.
 
-Le professeur vous fournira des commentaires pour améliorer votre travail en vue de la présentation finale. Si aucune modification n'est effectuée, votre note finale risque d'être impactée. **Lors de la rencontre, veuillez avoir tous vos documents ouverts et assurez-vous que vos écouteurs sont fonctionnels.**
+Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts et vos écouteurs fonctionnels**.
 
 ---
 
@@ -37,12 +48,16 @@ Le professeur vous fournira des commentaires pour améliorer votre travail en vu
 
 À ce stade, vous présenterez vos projets en classe de la manière suivante :
 
-**Présentation des illustrations**  
-   - Montrez dans PowerPoint vos six images de générique et votre signature.
-   - Sauvegardez vos fichiers Photoshop au format **JPG** et conservez les copies **PSD**.
-   - Importez les JPG dans un document **PowerPoint** (ou autre support) au format **16/9**, avec un fond blanc ou noir, sans transitions.
-   - Une **musique** doit accompagner votre présentation, jouant tout au long de l'exposé. À cette étape, vous ne devez pas commenter votre projet.
+#### Présentation des Illustrations
+- **PowerPoint**
+  * [ ] Importez vos six images de générique et votre signature.
+  * [ ] Sauvegardez vos fichiers en **JPG** et conservez également vos copies **PSD**.
+  * [ ] Importez les JPG dans un document **PowerPoint** ou autre support au format **16/9**, avec un **fond blanc ou noir**, sans transitions.
+  * [ ] Intégrez une **musique** qui jouera tout au long de l'exposé.
+  * [ ] À cette étape, ne commentez pas votre projet.
 
-**Exposé oral et présentation du moodboard**  
-   - Une fois la présentation visuelle terminée, présentez vos moodboards dans PowerPoint.
-   - Décrivez votre démarche artistique en lien avec vos moodboards et expliquez comment votre travail s’inspire du courant artistique choisi. La présentation doit être concise et bien articulée, avec une durée de **3 minutes** maximum.
+#### Exposé Oral et Présentation du Moodboard
+- **Présentation du Moodboard**
+  * [ ] Une fois la présentation visuelle terminée, présentez votre moodboard dans PowerPoint.
+  * [ ] Décrivez votre **démarche artistique** en lien avec le moodboard et expliquez comment votre travail s’inspire du **courant artistique** choisi.
+  * [ ] La présentation doit être **concise** et bien **articulée**, avec une durée de **3 minutes** maximum.
