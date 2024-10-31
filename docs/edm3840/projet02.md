@@ -2,7 +2,7 @@
 
 #### Objectifs :
 - Travailler avec un **moodboard** pour guider l'esthétique et la direction artistique de la vidéo.
-- Expérimenter visuellement en utilisant des outils d'intelligence artificielle pour générer des visuels. 
+- Expérimenter visuellement en utilisant des outils d'intelligence artificielle pour générer des visuels.
 - Apprendre à monter une vidéo dans **Da Vinci**.
 - Créer une vidéo d'art ou un vidéoclip de 30 secondes en explorant une émotion ou une ambiance.
   
@@ -32,6 +32,7 @@
 6. **Montage vidéo (30 secondes)** :
    - Le montage doit être réalisé en équipe de **2 personnes** dans **Da Vinci**.
    - La durée finale de la vidéo doit être d'environ **30 secondes**.
+   - Le tout peut être monté sur une musique. Vous pouvez créer la musique avec des outils d'intelligence artificielle comme **Udio** ou **Suno** pour enrichir l'expérience sonore de votre vidéo.
 
 ---
 
@@ -43,7 +44,6 @@
   - La qualité du montage.
   - Les réglages et paramètres dans Da Vinci.
   - Le rangement des sessions.
-  - L'esthétique des images en lien avec le moodboard.
 
 ---
 
