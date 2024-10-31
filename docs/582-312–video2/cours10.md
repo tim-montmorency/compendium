@@ -22,4 +22,7 @@
 ## [Runway](ai/runway.md) 
 *Écouter les vidéos de Runway
 *Travail sur vos projets de AI.
-*Les vidéos d'AI doivent être terminés en majorité la semaine prochaine. 
+
+
+## Devoir
+*Mardi prochain à la fin du cours, les vidéos d'AI doivent être terminés en majorité.
