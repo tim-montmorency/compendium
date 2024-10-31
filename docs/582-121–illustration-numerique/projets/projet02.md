@@ -11,7 +11,6 @@ Créer 12 planches représentant un générique de film en pause. **Les images d
 
 - **Synopsis** : 5 lignes maximum, décrivant brièvement le thème de votre film.
 - **Planche d’Inspiration (Moodboard)** : Comprend une palette de couleurs, des typographies, et des exemples de génériques inspirants tirés de [Art of the Title](http://www.artofthetitle.com) ou de Pinterest. Voici un moodboard [Pinterest](https://pin.it/72P9mgeuc) à titre de référence. 
-- **Musique** : Choisissez une musique d’ambiance pour votre générique.
 
 Chaque moodboard doit inclure :
   - Une **palette de couleurs**
