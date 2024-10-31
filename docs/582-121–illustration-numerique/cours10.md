@@ -21,7 +21,15 @@
 
 
 ## Devoir 
+Pour le prochain cours : 
 * Création du Moodboard avec images, typographie et palette de couleurs
-  * Faire la recherche du moodboard sur [Art of the title](https://www.artofthetitle.com/), [Pinterest ](https://ca.pinterest.com/). Vous pouvez regarer
-  * [Modèle pour création du moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABPDKZHLCARN5Qdml6RytL8Q?e=MHXmhL)
-* Rédaction du synopsis
+  * Exemples Visuels d’Artistes : En s’inspirant de [Art of the Title](http://www.artofthetitle.com) ou de [Pinterest](https://ca.pinterest.com/), les étudiants doivent sélectionner des exemples visuels de génériques et autres créations d’artistes reconnus. Ces exemples doivent illustrer les styles ou techniques qu'ils envisagent pour leur propre projet. Cela peut inclure des exemples de montage, de traitement d’image ou d’approches graphiques qui capturent l’essence ou l’esthétique qu'ils veulent explorer. Voici des idées pour votre moodboard [Pinterest](https://pin.it/72P9mgeuc).
+
+  * Typographie : Les étudiants doivent choisir une typographie qui s'accorde avec l'esthétique et le ton du générique qu'ils créent. La typographie est cruciale pour établir l’ambiance et le style, notamment dans un générique de film où le texte joue un rôle visuel important. Deux graisses de la même famille de police sont recommandées pour garder une cohérence dans le design et créer des contrastes subtils.
+
+  * Palette de Couleurs : La palette doit comporter les couleurs principales que les étudiants souhaitent utiliser dans leur projet. Elle servira de guide pour harmoniser les visuels et donner une identité cohérente aux images. La palette devrait idéalement inclure des nuances spécifiques et complémentaires qui reflètent l’ambiance du projet.
+
+
+* Rédaction d'un **Synopsis** : 5 lignes maximum, décrivant brièvement le thème de votre film.
+
+
