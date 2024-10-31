@@ -20,8 +20,8 @@
 *Travail sur vos projets de AI.
 
 ## [Runway](ai/runway.md) 
-*Écouter les vidéos de Runway
-*Travail sur vos projets de AI.
+*Écouter les vidéos de Runway <br>
+*Travail sur vos projets de AI.<br>
 
 
 ## Devoir
