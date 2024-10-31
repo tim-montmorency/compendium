@@ -8,7 +8,7 @@
 ## Formation des équipes
 
 
-## Crap
+## CRAP
 * [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EaXDO17xGqVPmf_gAqTsmhABbvSnAlNnr8OZR8UK1Ayirg?e=5HYJ6B) 
 
 
