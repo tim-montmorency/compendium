@@ -16,7 +16,7 @@
 Reset des mots de passe à chaque utilisateur 
 
 
-## Midjourney
+## Midjourney(ai/midjourney.md)
 Travail sur vos projets de AI.
 
 ## [Runway](ai/runway.md) 
