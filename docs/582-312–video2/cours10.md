@@ -13,14 +13,13 @@
 
 
 ## Réservation [Midjourney et Runway](https://teamup.com/ks3j4jwsg8wvik7eh5)
-Reset des mots de passe à chaque utilisateur 
+*Reset des mots de passe à chaque utilisateur 
 
 
 ## [Midjourney](ai/midjourney.md)
-Travail sur vos projets de AI.
+*Travail sur vos projets de AI.
 
 ## [Runway](ai/runway.md) 
-Écouter les vidéos de Runway
-Travail sur vos projets de AI.
-
-Les vidéos d'AI doivent être terminés en majorité la semaine prochaine. 
+*Écouter les vidéos de Runway
+*Travail sur vos projets de AI.
+*Les vidéos d'AI doivent être terminés en majorité la semaine prochaine. 
