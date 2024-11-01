@@ -3,6 +3,8 @@
 ## Rappels
 Bourses et gamejam
 
+[📝 Sondage](https://outlook.office.com/mail/inbox/id/AAQkADQ1ZGUyZWZkLTFmODEtNDY1OS04YWQ4LTQ0MGQ1NmZlZDBkZgAQACFrj6Nae6hNtfqucZYtexk%3D){ .md-button }   
+
 ## Configurer la VR dans votre projet
 [📝 Configuration VR](unity/configuration_vr.md){ .md-button }     
 
@@ -13,15 +15,7 @@ Bourses et gamejam
 [📝 Interaction en VR](unity/interaction_vr.md){ .md-button }     
 
 ## Importer des modèles Maya dans Unity
-[📝 Importation 3D](unity/Importation3D.md){ .md-button } 
-
-
-## Discussion Optimisation
-- [ ] Low poly
-- [ ] Compression textures et ui
-- [ ] FPS (Stats)
-- [ ] Nombre et type de particules
-- [ ] Éclairage statique ou dynamique   
+[📝 Importation 3D](unity/Importation3D.md){ .md-button }  
 
 
 ## Exercice
