@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-<script>h1{display:none;}</script>
+# Exercice
 Le but de cet exercice est d'appliquer un style avec des images de Référence 
 <img src="../assets/image/04_rosie_pieuvre_02.png">
 ***
