@@ -7,7 +7,6 @@ Le but de cet exercice est de créer une image à partir d'un style.
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
-## Étapes pour Appliquer un Style à une Image
 
 - [ ] **Télécharger l'image de référence (Rosie)** :
    - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que référence de **caractère**. Cela indique à l’IA de s’inspirer des caractéristiques de cette image pour le sujet principal.
