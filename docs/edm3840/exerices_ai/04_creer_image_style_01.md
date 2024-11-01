@@ -1,3 +1,4 @@
+# Exercice
 <style>.md-footer{display:none;}</style>
 <script>h1{display:none;}</script>
 Le but de cet exercice est d'appliquer un Style avec des Images de Référence.
