@@ -12,7 +12,8 @@ Pour commencer, utilisez l’outil [Glibatree Consistent Character Assistant](ht
   - [ ] **Description détaillée** : Décrivez le personnage en fonction des traits physiques souhaités. Mentionnez des éléments comme la couleur et la texture des cheveux, le teint, la couleur des yeux, l’âge, les vêtements et une description subtile de la posture ou de l’expression.
   - [ ] **Création du collage de référence** : Utilisez un prompt pour générer un collage de six portraits, avec des variations d'expressions, d'angles et de légères différences de posture. Cela servira de référence visuelle pour maintenir la cohérence dans d’autres images.
 
-      **Exemple de prompt pour le collage** :
+**Exemple de prompt pour le collage** :
+
       ```Midjourney
       A six-panel photo collage of a woman, 30 years old, red hair, freckles on her face, wearing simple everyday clothes. Standing in front of a plain solid background with studio lighting. Candid cell-phone photography, highlighting the beauty of imperfections. The person is moving, turning, and getting slightly happier in each frame. Closeup photos. ::3 
       Painting, artistic, bokeh with beautiful ambience ::-1 
