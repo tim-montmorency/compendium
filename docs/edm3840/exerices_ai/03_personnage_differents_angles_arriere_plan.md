@@ -1,6 +1,6 @@
 <style>.md-footer{display:none;}</style>
 Le but de cet exercice est de créer un personnage sous différents angles.
-<img src="../assets/image/02_rosie.png">
+<img src="../assets/image/03_nina_differents_angles.png">
 ***
 
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
@@ -30,7 +30,7 @@ Pour commencer, utilisez l’outil [Glibatree Consistent Character Assistant](ht
    - [ ] **Préparer les références pour une utilisation future** : Conservez les images découpées dans une bibliothèque de référence que vous pourrez utiliser dans les étapes suivantes.
 
 Le but de cet exercice est de créer un arrière plan
-<img src="../assets/image/02_rosie.png">
+<img src="../assets/image/03_nina_differents_backgrounds.png">
 ***
 
 ### 4. **Réinsérer les images dans Midjourney et générer un prompt avec un arrière-plan**
