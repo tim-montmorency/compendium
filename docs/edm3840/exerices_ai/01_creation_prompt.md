@@ -1,6 +1,6 @@
 <style>.md-header{display:none;}</style> 
 <style>.md-footer{display:none;}</style>
-# Exercices
+# Exercice
 Le but de cet exercice est de créer un prompt afin de créer l'image ci-dessous. 
 <img src="../assets/image/01_prompt_pieuvre.png">
 ***
