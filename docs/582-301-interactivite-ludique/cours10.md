@@ -6,6 +6,8 @@ tags:
 
 [STOP]
 
+Hitbox pour un attack d'épée.
+
 Implémentation de prérequis
 — Niveau, possession, compétense, quête, temps, choix,
 équipement, condition ou accomplissement
