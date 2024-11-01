@@ -43,7 +43,7 @@ Le but de cet exercice est de créer un arrière plan
 - [ ] **Créer un prompt pour un arrière-plan spécifique** : Rédigez un prompt pour situer le personnage dans un contexte ou un décor particulier. Assurez-vous de rester simple dans la description physique du personnage (par exemple, "femme de 30 ans aux cheveux roux et aux yeux verts"). Les images de référence maintiendront la cohérence visuelle.<br>
 
 - [ ] **Utiliser un seed commun** : Pour assurer une cohérence visuelle entre plusieurs images de la même scène, ajoutez un seed spécifique à la fin de chaque prompt. Par exemple, utilisez `--seed 1500`. Ce seed aide à conserver des éléments visuels communs entre les images, tout en permettant une variation naturelle dans les détails.
-- [ ] **Utiliser le style raw** L’option --style raw permet d’obtenir un rendu plus réaliste et fidèle.
+- [ ] **Utiliser le style raw** : L’option --style raw permet d’obtenir un rendu plus réaliste et fidèle.
 
    **Exemple de prompt avec arrière-plan et seed commun, en mode raw** :<br>
    ```Midjourney
