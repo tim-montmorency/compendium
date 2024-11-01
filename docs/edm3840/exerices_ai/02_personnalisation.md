@@ -1,6 +1,7 @@
 
 <style>.md-header{display:none;}</style> 
 <style>.md-footer{display:none;}</style>
+<script>h1{display:none;}</script>
 Le but de cet exercice est d'utiliser un code de personnalisation pour la création de Prompts
 
 ***
