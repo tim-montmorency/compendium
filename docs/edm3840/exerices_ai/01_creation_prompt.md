@@ -8,8 +8,9 @@ Le but de cet exercice est de créer une image semble à l'image ci-dessous.
 
 - [ ] Écris un prompt pour générer cette image.
 - [ ] [📖 Consulte la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
-- [ ] Tu peux utiliser ChatGPT pour t'aider à écrire ton prompt. 
+- [ ] Tu peux utiliser ChatGPT ou [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant) pour t'aider à écrire ton prompt. 
 - [ ] Si tu utilises la version payante de ChatGPT, tu peux soumettre l'image et demander une description esthétique de celle-ci.
+
 
 ## Tutoriel 📚
 
