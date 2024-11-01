@@ -5,7 +5,7 @@
 Le but de cet exercice est d'utiliser un code de personnalisation pour la création de Prompts
 
 ***
-## Étape
+## Étapes
 
 - [ ] **Écris un prompt** : Rédige un prompt qui décrit précisément les éléments visuels souhaités dans l’image, comme les caractéristiques physiques du personnage, le décor, l’éclairage, et l’ambiance. Cette description détaillée permet d’obtenir un rendu fidèle aux attentes.
 
