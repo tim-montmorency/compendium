@@ -56,4 +56,17 @@ Ces étapes vous permettront de générer un personnage cohérent et fidèle à 
 ***
 
 
+### **Variation pour la création d'une image initiale pour obtenir plusieurs angles**
+
+- [ ] **Ajuster le ratio pour un affichage côte à côte des images** : Dans l’éditeur, définissez le ratio de l’image de manière à faciliter l’affichage côte à côte des différentes vues (par exemple, `--ar 16:9` pour un format paysage large qui permet de juxtaposer les images). Ce ratio rendra plus simple la création de variations d’angle et d’arrière-plan tout en gardant les images alignées.
+
+- [ ] **Utiliser un prompt pour des vues sous différents angles** : Employez un prompt qui génère plusieurs perspectives de votre personnage afin d’obtenir des vues alignées.
+
+   **Prompt recommandé** :
+   ```Midjourney
+   High-res photo of the same woman seen from multiple angles: front and side view. --style raw --ar [votre ratio]
+
+   ```
+
+
 
