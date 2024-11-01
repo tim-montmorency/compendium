@@ -106,11 +106,10 @@ gsap.to('.ton-selecteur', {
     // Fixe l'élément à l'écran pendant que l'animation se déroule. Pratique pour des effets de défilement "parallax".
     pin: true,
 
-    // Maintient l'espace occupé par l'élément pendant qu'il est fixé. Si false, l'espace n'est pas réservé, et d'autres éléments peuvent bouger en fonction.
+    // Maintient l'espace occupé par l'élément pendant qu'il est fixé.
     pinSpacing: true,
 
-    // Définit ce qui se passe à chaque étape de l'animation (lorsqu'on entre, sort, et retourne à l'état initial) :
-    // ici "play" quand on entre, "pause" quand on sort, "resume" en réentrant, et "reset" pour retourner au début.
+    // Définit ce qui se passe à chaque étape de l'animation
     toggleActions: 'play pause resume reset',
 
     // Applique une classe CSS à l'élément déclencheur une fois l'animation démarrée, ce qui peut être utile pour des effets de style conditionnels.
