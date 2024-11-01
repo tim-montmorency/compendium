@@ -1,10 +1,10 @@
 
 <style>.md-header{display:none;}</style> 
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est d'utiliser un code de personnalisation. 
+Le but de cet exercice est d'utiliser un code de personnalisation pour la création de Prompts
 
 ***
-## Explication de la Personnalisation pour la Création de Prompts
+## Étape
 
 - [ ] **Écris un prompt** : Rédige un prompt qui décrit précisément les éléments visuels souhaités dans l’image, comme les caractéristiques physiques du personnage, le décor, l’éclairage, et l’ambiance. Cette description détaillée permet d’obtenir un rendu fidèle aux attentes.
 
