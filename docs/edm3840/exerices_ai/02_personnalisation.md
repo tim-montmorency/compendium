@@ -13,9 +13,13 @@ Le but de cet exercice est d'utiliser le code de personnalisation d'une autre pe
 
 - [ ] **Utilise ChatGPT ou [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant) pour t'aider à écrire ton prompt** : Ces outils peuvent fournir des conseils sur la création de prompts cohérents, en vous guidant dans les choix de détails visuels, de style, et de narration.
 
-- [ ] **Ajouter le code de personnalisation** : À la fin de votre prompt, ajoutez le code suivant pour personnaliser davantage les résultats : `--personalize 61vkr5d`. Ce code de personnalisation influence les caractéristiques visuelles ou stylistiques en s’adaptant à vos préférences, garantissant une continuité et une cohérence dans les images générées.
+- [ ] **Ajouter le code de personnalisation** : À la fin de votre prompt, ajoutez un code de personnalisation pour adapter les résultats à vos préférences. Vous pouvez utiliser votre propre code ou celui d’un autre créateur pour obtenir des caractéristiques visuelles ou stylistiques spécifiques. Voici deux exemples de codes : 
+    - Votre propre code de personnalisation : `--personalize [votre code ici]`
+    - Un code de personnalisation exemple : `--personalize 61vkr5d`
 
-- [ ] **Ajuster la stylisation pour un équilibre entre style et personnalisation** : Utilisez le paramètre `--stylize` pour ajuster le niveau de style artistique appliqué. Des valeurs basses de stylisation (par exemple, `--stylize 100`) garderont les détails personnalisés précis et réalistes, tandis que des valeurs élevées (comme `--stylize 1000`) accentueront le côté artistique du rendu. Un niveau intermédiaire permet de conserver l’essence de la personnalisation tout en ajoutant une touche esthétique spécifique.
+   Ce code garantit une continuité et une cohérence dans les images générées, en s'adaptant à des préférences visuelles spécifiques.
+
+- [ ] **Ajuster la stylisation pour un équilibre entre style et personnalisation** : Utilisez le paramètre `--stylize` pour ajuster le niveau de style artistique appliqué. Des valeurs basses de stylisation (par exemple, `--stylize 100`) garderont les détails personnalisés précis et réalistes, tandis que des valeurs élevées (comme `--stylize 1000`) accentueront le côté artistique du rendu. Un niveau intermédiaire (par exemple, `--stylize 500`) permet de conserver l’essence de la personnalisation tout en ajoutant une touche esthétique spécifique.
 
    **Exemple de prompt avec code de personnalisation et stylisation** :
    ```Midjourney
