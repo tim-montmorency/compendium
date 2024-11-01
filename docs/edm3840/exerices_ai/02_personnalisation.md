@@ -1,7 +1,7 @@
 
 <style>.md-header{display:none;}</style> 
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est d'utiliser le code de personnalisation d'une autre personne. 
+Le but de cet exercice est d'utiliser un code de personnalisation. 
 
 ***
 ## Explication de la Personnalisation pour la Création de Prompts
