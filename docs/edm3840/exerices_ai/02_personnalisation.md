@@ -13,10 +13,9 @@ Le but de cet exercice est d'utiliser un code de personnalisation.
 - [ ] **Utilise ChatGPT ou [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant) pour t'aider à écrire ton prompt** : Ces outils peuvent fournir des conseils sur la création de prompts cohérents, en vous guidant dans le choix des détails visuels, du style et de la narration.
 
 - [ ] **Ajoute un code de personnalisation** : À la fin de votre prompt, ajoutez un code de personnalisation pour adapter les résultats à vos préférences. Vous pouvez utiliser votre propre code ou celui d’un autre créateur pour obtenir des caractéristiques visuelles ou stylistiques spécifiques. Voici deux exemples de codes :
-    - **Votre propre code de personnalisation** : `--personalize [votre code ici]`
-    - **Un code de personnalisation exemple** : `--personalize 61vkr5d`
-
-   Ce code garantit une continuité et une cohérence dans les images générées, en s'adaptant à des préférences visuelles spécifiques.
+  - **Votre propre code de personnalisation** : `--personalize [votre code ici]`<br>
+  - **Un code de personnalisation exemple** : `--personalize 61vkr5d`<br>
+  - Ce code garantit une continuité et une cohérence dans les images générées, en s'adaptant à des préférences visuelles spécifiques.<br>
 
 - [ ] **Ajustez la stylisation pour un équilibre entre style et personnalisation** : Utilisez le paramètre `--stylize` pour ajuster le niveau de style artistique appliqué. Des valeurs basses de stylisation (par exemple, `--stylize 100`) garderont les détails personnalisés précis et réalistes, tandis que des valeurs élevées (comme `--stylize 1000`) accentueront le côté artistique du rendu. Un niveau intermédiaire (par exemple, `--stylize 500`) permet de conserver l’essence de la personnalisation tout en ajoutant une touche esthétique spécifique.
 
