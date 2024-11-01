@@ -17,6 +17,13 @@
 
 
 ## [Midjourney](ai/midjourney.md)
+Créer un prompt de scratch : https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
+Recette pour créer des personnages
+Conserver le Seed
+Mettre en RAW
+Réutiliser ma personnalisation
+Travailler avec le --cw
+
 *Travail sur vos projets de AI.
 
 ## [Runway](ai/runway.md) 
