@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer une image à partir d'un style.
+Le but de cet exercice est d'appliquer un Style avec des Images de Référence.
 <img src="../assets/image/04_rosie_plastique.png">
 ***
 
