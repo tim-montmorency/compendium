@@ -73,7 +73,7 @@ gsap.to('.box2', {
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-Voici l'éventail des possibilités
+Voici une exemple avec plusieurs possibilités (non-exhaustif) :
 
 ```js title="script.js" hl_lines="1"
 gsap.registerPlugin(ScrollTrigger);
