@@ -13,6 +13,7 @@
 ### Notions : Introduction à MidJourney
 * [▶️ Comment personnaliser Midjourney](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ERntCzjL9LpAhNqouJFu1HEBH-O5_0GYLgO4PbrGADo0CA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S2vIiF)  <br>
 * [▶️ Personalize](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWMVxD7yH3FJoTFaSNL2c5oBjFJ6Hu8fxbCtXtRl56BOGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XHFN16)  <br>
+[🛠️ 01_utiliser_ma_personnalisation](./exerices_ai/01_personnalisation.md){ .md-button }  <br>  
 
 ### Notions : Création de personnages
 * [▶️ Image](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUB08iH6So5LtxO1VE4FCaMBAQm-SO2GZrEQI9puh5FTYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1w1V49)  <br>
