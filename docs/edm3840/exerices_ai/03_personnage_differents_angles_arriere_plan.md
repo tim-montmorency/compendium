@@ -1,7 +1,7 @@
 # Exercices
 <style>.md-footer{display:none;}</style>
 <style>.md-header{display:none;}</style>
-<script>h1{display:none;}</script>
+
 Le but de cet exercice est de générer un personnage consistant dans Midjourney. 
 <img src="../assets/image/03_nina_differents_angles.png">
 ***
