@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer un personnage sous différents angles : side view, back view, low shot, high shot. 
+Le but de cet exercice est de créer un personnage sous différents angles puis créer des arrières plans. 
 <img src="../assets/image/02_rosie.png">
 ***
 
