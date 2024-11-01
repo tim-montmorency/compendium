@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer un personnage sous différents angles puis créer des arrières plans. 
+Le but de cet exercice est de créer un personnage sous différents angles.
 <img src="../assets/image/02_rosie.png">
 ***
 
@@ -28,6 +28,10 @@ Pour commencer, utilisez l’outil [Glibatree Consistent Character Assistant](ht
 ### 3. **Découper les images dans Midjourney**
    - [ ] **Découpage des portraits individuels** : Sélectionnez chaque portrait du collage pour capturer les variations distinctes du personnage. Cela peut se faire en **enregistrant chaque image** individuellement ou en utilisant un outil de capture d’écran pour isoler les portraits.
    - [ ] **Préparer les références pour une utilisation future** : Conservez les images découpées dans une bibliothèque de référence que vous pourrez utiliser dans les étapes suivantes.
+
+Le but de cet exercice est de créer un arrière plan
+<img src="../assets/image/02_rosie.png">
+***
 
 ### 4. **Réinsérer les images dans Midjourney et générer un prompt avec un arrière-plan**
    - [ ] **Insérer les images de référence** : Dans Midjourney, insérez trois à cinq images découpées du personnage en tant que références visuelles. Cela peut se faire en ajoutant les liens d’URL des images après le prompt.
