@@ -11522,6 +11522,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#variation-pour-la-creation-dune-image-initiale-pour-obtenir-plusieurs-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variation pour la création d'une image initiale pour obtenir plusieurs angles
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -11587,7 +11596,7 @@ evenly-spaced photo grid with deep color tone ::1 --style raw --ar 16:9
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utiliser un seed commun</strong> : Pour assurer une cohérence visuelle entre plusieurs images de la même scène, ajoutez un seed spécifique à la fin de chaque prompt. Par exemple, utilisez <code>--seed 1500</code>. Ce seed aide à conserver des éléments visuels communs entre les images, tout en permettant une variation naturelle dans les détails.</li>
 <li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utiliser le style raw</strong> L’option --style raw permet d’obtenir un rendu plus réaliste et fidèle.</p>
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utiliser le style raw</strong> : L’option --style raw permet d’obtenir un rendu plus réaliste et fidèle.</p>
 <p><strong>Exemple de prompt avec arrière-plan et seed commun, en mode raw</strong> :<br>
  </p><div class="highlight"><pre><span></span><code>A cinematic nighttime scene in a vintage Argentinian kitchen, with low-light and colorful, repetitive tile patterns. A red-haired woman in her 30s with freckles, wearing a slightly worn olive-green fur coat, stands near an open refrigerator, bathed in its soft glow as she drinks milk with a vacant expression. The kitchen is subtly illuminated by the strange glow of a streetlamp casting shadows through a window, creating a disturbing atmospheric tension. Shot on an Arri camera, ultra-realistic composition with sharp focus, shallow depth of field, and desaturated colors, resembling the meticulous, cinematic realism of Gregory Crewdson’s photography. --style raw --ar 16:9 --seed 1500
 </code></pre></div>
@@ -11595,7 +11604,19 @@ evenly-spaced photo grid with deep color tone ::1 --style raw --ar 16:9
 </ul>
 <p>Ces étapes vous permettront de générer un personnage cohérent et fidèle à vos attentes dans diverses scènes. Pour toute assistance supplémentaire, utilisez l’outil <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree Consistent Character Assistant</a>.</p>
 <p><a href="../ai/prompt.html">📖 Consulter la page suivante</a> pour plus d’informations sur la rédaction d'un prompt efficace.<br></p>
-<hr></div>
+<hr>
+<h3 id="variation-pour-la-creation-dune-image-initiale-pour-obtenir-plusieurs-angles"><strong>Variation pour la création d'une image initiale pour obtenir plusieurs angles</strong><a class="headerlink" href="#variation-pour-la-creation-dune-image-initiale-pour-obtenir-plusieurs-angles" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajuster le ratio pour un affichage côte à côte des images</strong> : Dans l’éditeur, définissez le ratio de l’image de manière à faciliter l’affichage côte à côte des différentes vues (par exemple, <code>--ar 16:9</code> pour un format paysage large qui permet de juxtaposer les images). Ce ratio rendra plus simple la création de variations d’angle et d’arrière-plan tout en gardant les images alignées.</li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utiliser un prompt pour des vues sous différents angles</strong> : Employez un prompt qui génère plusieurs perspectives de votre personnage afin d’obtenir des vues alignées.</p>
+<p><strong>Prompt recommandé</strong> :
+ </p><div class="highlight"><pre><span></span><code>High-res photo of the same woman seen from multiple angles: front and side view. --style raw --ar [votre ratio]
+</code></pre></div>
+</li>
+</ul></div>
 
 
 
