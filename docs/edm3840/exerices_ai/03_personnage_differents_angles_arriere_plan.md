@@ -3,7 +3,6 @@ Le but de cet exercice est de créer un personnage sous différents angles.
 <img src="../assets/image/03_nina_differents_angles.png">
 ***
 
-[📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes pour Générer un Personnage Consistant dans Midjourney
 
