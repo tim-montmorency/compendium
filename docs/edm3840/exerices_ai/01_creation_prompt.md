@@ -1,12 +1,10 @@
 <style>.md-header{display:none;}</style> 
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer une image semble à l'image ci-dessous. 
+Le but de cet exercice est de créer un prompt afin de créer l'image ci-dessous. 
 <img src="../assets/image/01_prompt_pieuvre.png">
 ***
 
 ## Étapes
-
-## Étapes pour la Création d'un Prompt
 
 - [ ] **Écris un prompt pour générer cette image** : Rédige un prompt qui décrit précisément les éléments visuels de l’image souhaitée, comme les traits du personnage, le décor, l’éclairage, et l’ambiance générale.
   
