@@ -7,26 +7,30 @@ Le but de cet exercice est de créer une image à partir d'un style.
 [📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
 
 ## Étapes
-- [ ] **Télécharger l'image de référence** (Rosie):
-   - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère. 
+## Étapes pour Appliquer un Style à une Image
 
-- [ ] **Télécharger l'image de référence** (le pot rose):
-   - Sélectionne l'icône de trombone dans le Prompt pour télécharger l'image en tant que style. 
+- [ ] **Télécharger l'image de référence (Rosie)** :
+   - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que référence de **caractère**. Cela indique à l’IA de s’inspirer des caractéristiques de cette image pour le sujet principal.
+
+- [ ] **Télécharger l'image de référence (le pot rose)** :
+   - Sélectionne l'icône de trombone dans le prompt pour attacher l'image en tant que **style**. Cela permettra à l’IA de s’inspirer du style visuel ou des couleurs de cette image.
 
 - [ ] **Écrire un prompt pour l'image** :
-   - Rédige un prompt détaillé (ex. : "Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color.").
+   - Rédige un prompt détaillé pour guider l’IA dans la création de l’image. Par exemple :
+     - *"Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color."*
 
-- [ ] **--sw (poids du style basé sur l'image de référence)** :
-  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
-  * ex : --sw 1000
-     
-- [ ] **--cw (poids du personnage basé sur l'image de référence)** :
-  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 100 is maximum
-  * ex : --cw 40 (pour appliquer plus de style)
+- [ ] **Appliquer le poids du style avec le paramètre `--sw`** :
+  - Le code `--sw` permet de gérer l’intensité du style appliqué, basé sur l’image de référence. La valeur par défaut est 100. 
+    - **0** désactive le style, **100** est le niveau normal, et **1000** est l'intensité maximale.
+    - **Exemple** : `--sw 1000` pour appliquer un style très fort.
 
+- [ ] **Appliquer le poids du personnage avec le paramètre `--cw`** :
+  - Le code `--cw` permet de gérer l’intensité d'influence de l'image du personnage de référence. La valeur par défaut est également 100.
+    - **0** désactive l'influence du personnage, **100** est le niveau standard, et **1000** est l'influence maximale.
+    - **Exemple** : `--cw 40` pour appliquer plus de style et moins de caractéristiques de l'image du personnage.
 
-- [ ] **Pour appliquer plus fortement le style ("vary strong")** :
-   - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
+- [ ] **Appliquer le style de façon plus intense ("Vary Strong")** :
+   - Après avoir généré l'image, cliquez sur l'option **"Vary (Strong)"** pour renforcer le style appliqué à l’image sélectionnée.
 
 
 [📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
