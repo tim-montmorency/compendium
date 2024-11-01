@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#etapes" class="md-skip">
+        <a href="#explication-de-la-personnalisation-pour-la-creation-de-prompts" class="md-skip">
           Aller au contenu
         </a>
       
@@ -11475,9 +11475,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#etapes" class="md-nav__link">
+  <a href="#explication-de-la-personnalisation-pour-la-creation-de-prompts" class="md-nav__link">
     <span class="md-ellipsis">
-      Étapes
+      Explication de la Personnalisation pour la Création de Prompts
     </span>
   </a>
   
@@ -11513,15 +11513,29 @@
 <style>.md-footer{display:none;}</style>
 </head><body><p>Le but de cet exercice est d'utiliser le code de personnalisation d'une autre personne. </p>
 <hr>
-<h2 id="etapes">Étapes<a class="headerlink" href="#etapes" title="Permanent link">¶</a></h2>
+<h2 id="explication-de-la-personnalisation-pour-la-creation-de-prompts">Explication de la Personnalisation pour la Création de Prompts<a class="headerlink" href="#explication-de-la-personnalisation-pour-la-creation-de-prompts" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Écris un prompt.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <a href="../ai/prompt.html">📖 Consulte la page suivante</a> pour plus d’informations sur la rédaction d'un prompt efficace.<br></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Tu peux utiliser ChatGPT ou <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree</a> pour t'aider à écrire ton prompt. </li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Au bout du prompt ajoute un code comme celui-ci. --personalize 61vkr5d</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Écris un prompt</strong> : Rédige un prompt qui décrit précisément les éléments visuels souhaités dans l’image, comme les caractéristiques physiques du personnage, le décor, l’éclairage, et l’ambiance. Cette description détaillée permet d’obtenir un rendu fidèle aux attentes.</li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <a href="../ai/prompt.html">📖 <strong>Consulte la page suivante</strong></a> <strong>pour plus d’informations sur la rédaction d'un prompt efficace</strong> : Cette ressource offre des astuces et bonnes pratiques pour structurer et affiner votre prompt afin d'obtenir des résultats plus précis et conformes à votre vision.</li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utilise ChatGPT ou <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree</a> pour t'aider à écrire ton prompt</strong> : Ces outils peuvent fournir des conseils sur la création de prompts cohérents, en vous guidant dans les choix de détails visuels, de style, et de narration.</li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter le code de personnalisation</strong> : À la fin de votre prompt, ajoutez le code suivant pour personnaliser davantage les résultats : <code>--personalize 61vkr5d</code>. Ce code de personnalisation influence les caractéristiques visuelles ou stylistiques en s’adaptant à vos préférences, garantissant une continuité et une cohérence dans les images générées.</li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajuster la stylisation pour un équilibre entre style et personnalisation</strong> : Utilisez le paramètre <code>--stylize</code> pour ajuster le niveau de style artistique appliqué. Des valeurs basses de stylisation (par exemple, <code>--stylize 100</code>) garderont les détails personnalisés précis et réalistes, tandis que des valeurs élevées (comme <code>--stylize 1000</code>) accentueront le côté artistique du rendu. Un niveau intermédiaire permet de conserver l’essence de la personnalisation tout en ajoutant une touche esthétique spécifique.</p>
+<p><strong>Exemple de prompt avec code de personnalisation et stylisation</strong> :
+ ```Midjourney
+ A cinematic close-up portrait of a 35-year-old woman with red hair, freckles, and green eyes, standing in soft indoor lighting with a vintage color palette. High-detail texture on skin and eyes, realistic light capturing natural imperfections. --personalize 61vkr5d --stylize 500</p>
+</li>
 </ul>
 <h2 id="tutoriel">Tutoriel 📚<a class="headerlink" href="#tutoriel" title="Permanent link">¶</a></h2>
-<p><a class="md-button" href="https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWMVxD7yH3FJoTFaSNL2c5oBjFJ6Hu8fxbCtXtRl56BOGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=5zF2Lu">📖 Pour en savoir plus</a>   <br></p></body></html>
+<p><a class="md-button" href="https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWMVxD7yH3FJoTFaSNL2c5oBjFJ6Hu8fxbCtXtRl56BOGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=XHFN16">📖 Pour en savoir plus</a>   <br></p></body></html>
 
 
 
