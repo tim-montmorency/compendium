@@ -11549,29 +11549,29 @@
 <h2 id="etapes-pour-generer-un-personnage-consistant-dans-midjourney">Étapes pour Générer un Personnage Consistant dans Midjourney<a class="headerlink" href="#etapes-pour-generer-un-personnage-consistant-dans-midjourney" title="Permanent link">¶</a></h2>
 <p>Pour commencer, utilisez l’outil <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree Consistent Character Assistant</a> pour générer des prompts optimisés et créer un personnage cohérent. Suivez chaque étape pour obtenir des résultats uniformes et réalistes.</p>
 <h3 id="1-rediger-un-prompt-decrivant-le-personnage-pour-le-collage-initial">1. <strong>Rédiger un prompt décrivant le personnage pour le collage initial</strong><a class="headerlink" href="#1-rediger-un-prompt-decrivant-le-personnage-pour-le-collage-initial" title="Permanent link">¶</a></h3>
-<p>- [ ] <strong>Description détaillée</strong> : Décrivez le personnage en fonction des traits physiques souhaités. Mentionnez des éléments comme la couleur et la texture des cheveux, le teint, la couleur des yeux, l’âge, les vêtements et une description subtile de la posture ou de l’expression.
-  - [ ] <strong>Création du collage de référence</strong> : Utilisez un prompt pour générer un collage de six portraits, avec des variations d'expressions, d'angles et de légères différences de posture. Cela servira de référence visuelle pour maintenir la cohérence dans d’autres images.</p>
-<p><strong>Exemple de prompt pour le collage</strong> :</p>
+<p>- [ ] <strong>Description détaillée</strong> : Décrivez le personnage en fonction des traits physiques souhaités. Mentionnez des éléments comme la couleur et la texture des cheveux, le teint, la couleur des yeux, l’âge, les vêtements et une description subtile de la posture ou de l’expression.<br>
+  - [ ] <strong>Création du collage de référence</strong> : Utilisez un prompt pour générer un collage de six portraits, avec des variations d'expressions, d'angles et de légères différences de posture. Cela servira de référence visuelle pour maintenir la cohérence dans d’autres images.<br></p>
+<p><strong>Exemple de prompt pour le collage</strong> :<br></p>
 <pre><code>  ```Midjourney
   A six-panel photo collage of a woman, 30 years old, red hair, freckles on her face, wearing simple everyday clothes. Standing in front of a plain solid background with studio lighting. Candid cell-phone photography, highlighting the beauty of imperfections. The person is moving, turning, and getting slightly happier in each frame. Closeup photos. ::3 
   Painting, artistic, bokeh with beautiful ambience ::-1 
   evenly-spaced photo grid with deep color tone ::1 --style raw --ar 16:9
   ```
 </code></pre>
-<p>- <strong>Remarque</strong> : Assurez-vous que le style est en mode <code>--style raw</code> pour un rendu réaliste.</p>
+<p>- <strong>Remarque</strong> : Assurez-vous que le style est en mode <code>--style raw</code> pour un rendu réaliste.<br></p>
 <h3 id="2-generer-le-prompt-dans-midjourney">2. <strong>Générer le prompt dans Midjourney</strong><a class="headerlink" href="#2-generer-le-prompt-dans-midjourney" title="Permanent link">¶</a></h3>
-<p>- [ ] <strong>Vérifier les réglages</strong> : Confirmez que le style est bien défini sur <code>--style raw</code> pour conserver la netteté et les détails réalistes.
-  - [ ] <strong>Lancer la génération</strong> : Utilisez le prompt dans Midjourney pour obtenir le collage. Choisissez l’option de <strong>Subtle Upscale</strong> sur l’image la plus réussie pour améliorer la qualité sans trop de changements.</p>
+<p>- [ ] <strong>Vérifier les réglages</strong> : Confirmez que le style est bien défini sur <code>--style raw</code> pour conserver la netteté et les détails réalistes.<br>
+  - [ ] <strong>Lancer la génération</strong> : Utilisez le prompt dans Midjourney pour obtenir le collage. Choisissez l’option de <strong>Subtle Upscale</strong> sur l’image la plus réussie pour améliorer la qualité sans trop de changements.<br></p>
 <h3 id="3-decouper-les-images-dans-midjourney">3. <strong>Découper les images dans Midjourney</strong><a class="headerlink" href="#3-decouper-les-images-dans-midjourney" title="Permanent link">¶</a></h3>
-<p>- [ ] <strong>Découpage des portraits individuels</strong> : Sélectionnez chaque portrait du collage pour capturer les variations distinctes du personnage. Cela peut se faire en <strong>enregistrant chaque image</strong> individuellement ou en utilisant un outil de capture d’écran pour isoler les portraits.
-  - [ ] <strong>Préparer les références pour une utilisation future</strong> : Conservez les images découpées dans une bibliothèque de référence que vous pourrez utiliser dans les étapes suivantes.</p>
+<p>- [ ] <strong>Découpage des portraits individuels</strong> : Sélectionnez chaque portrait du collage pour capturer les variations distinctes du personnage. Cela peut se faire en <strong>enregistrant chaque image</strong> individuellement ou en utilisant un outil de capture d’écran pour isoler les portraits.<br>
+  - [ ] <strong>Préparer les références pour une utilisation future</strong> : Conservez les images découpées dans une bibliothèque de référence que vous pourrez utiliser dans les étapes suivantes.<br></p>
 <p>Le but de cet exercice est de créer un arrière plan
 <img src="../assets/image/03_nina_differents_backgrounds.png"></p>
 <hr>
-<h3 id="4-reinserer-les-images-dans-midjourney-et-generer-un-prompt-avec-un-arriere-plan">4. <strong>Réinsérer les images dans Midjourney et générer un prompt avec un arrière-plan</strong><a class="headerlink" href="#4-reinserer-les-images-dans-midjourney-et-generer-un-prompt-avec-un-arriere-plan" title="Permanent link">¶</a></h3>
-<p>- [ ] <strong>Insérer les images de référence</strong> : Dans Midjourney, insérez trois à cinq images découpées du personnage en tant que références visuelles. Cela peut se faire en ajoutant les liens d’URL des images après le prompt.
-  - [ ] <strong>Créer un prompt pour un arrière-plan spécifique</strong> : Rédigez un prompt pour situer le personnage dans un contexte ou un décor particulier. Assurez-vous de rester simple dans la description physique du personnage (par exemple, "femme de 30 ans aux cheveux roux et aux yeux verts"). Les images de référence maintiendront la cohérence visuelle.</p>
-<pre><code>  **Exemple de prompt avec arrière-plan** :
+<h3 id="4-reinserer-les-images-dans-midjourney-et-generer-un-prompt-avec-un-arriere-plan">4. <strong>Réinsérer les images dans Midjourney et générer un prompt avec un arrière-plan</strong><br><a class="headerlink" href="#4-reinserer-les-images-dans-midjourney-et-generer-un-prompt-avec-un-arriere-plan" title="Permanent link">¶</a></h3>
+<p>- [ ] <strong>Insérer les images de référence</strong> : Dans Midjourney, insérez trois à cinq images découpées du personnage en tant que références visuelles. Cela peut se faire en ajoutant les liens d’URL des images après le prompt.<br>
+  - [ ] <strong>Créer un prompt pour un arrière-plan spécifique</strong> : Rédigez un prompt pour situer le personnage dans un contexte ou un décor particulier. Assurez-vous de rester simple dans la description physique du personnage (par exemple, "femme de 30 ans aux cheveux roux et aux yeux verts"). Les images de référence maintiendront la cohérence visuelle.<br></p>
+<pre><code>  **Exemple de prompt avec arrière-plan** :&lt;br&gt;
   ```Midjourney
   A cinematic nighttime scene in a vintage Argentinian kitchen, with low-light and colorful, repetitive tile patterns. A red-haired woman in her 30s with freckles, wearing a slightly worn olive-green fur coat, stands near an open refrigerator, bathed in its soft glow as she drinks milk with a vacant expression. The kitchen is subtly illuminated by the strange glow of a streetlamp casting shadows through a window, creating a disturbing atmospheric tension. Shot on an Arri camera, ultra-realistic composition with sharp focus, shallow depth of field, and desaturated colors, resembling the meticulous, cinematic realism of Gregory Crewdson’s photography. --style raw --ar 16:9
   ```
