@@ -23,7 +23,7 @@ Le but de cet exercice est d'utiliser le code de personnalisation d'une autre pe
    **Exemple de prompt avec code de personnalisation et stylisation** :
    ```Midjourney
    A cinematic close-up portrait of a 35-year-old woman with red hair, freckles, and green eyes, standing in soft indoor lighting with a vintage color palette. High-detail texture on skin and eyes, realistic light capturing natural imperfections. --personalize 61vkr5d --stylize 500
-
+   ```
 
 
 ## Tutoriel 📚
