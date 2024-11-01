@@ -1,5 +1,5 @@
 <style>.md-footer{display:none;}</style>
-<script>h1{display:none;}</script>
+# Exercice
 Le but de cet exercice est d'utiliser le mode pan dans Midjourney. 
 <img src="../assets/image/04_rosie_pieuvre.png">
 ***
