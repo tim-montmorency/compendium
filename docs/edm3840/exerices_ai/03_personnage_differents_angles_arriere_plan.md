@@ -1,3 +1,4 @@
+# Exercices
 <style>.md-footer{display:none;}</style>
 <style>.md-header{display:none;}</style>
 <script>h1{display:none;}</script>
