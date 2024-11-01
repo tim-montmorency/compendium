@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#etapes" class="md-skip">
+        <a href="#etapes-pour-generer-un-personnage-consistant-dans-midjourney" class="md-skip">
           Aller au contenu
         </a>
       
@@ -11475,15 +11475,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#etapes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Étapes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#etapes-pour-generer-un-personnage-consistant-dans-midjourney" class="md-nav__link">
     <span class="md-ellipsis">
       Étapes pour Générer un Personnage Consistant dans Midjourney
@@ -11556,18 +11547,19 @@
 <img src="../assets/image/02_rosie.png"></p>
 <hr>
 <p><a class="md-button" href="../assets/image/02_rosie.png">📁 Document de départ</a>   <br></p>
-<h2 id="etapes">Étapes<a class="headerlink" href="#etapes" title="Permanent link">¶</a></h2>
 <h2 id="etapes-pour-generer-un-personnage-consistant-dans-midjourney">Étapes pour Générer un Personnage Consistant dans Midjourney<a class="headerlink" href="#etapes-pour-generer-un-personnage-consistant-dans-midjourney" title="Permanent link">¶</a></h2>
-<p>Pour commencer, utilisez l’outil <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree Consistent Character Assistant</a> pour générer des prompts adaptés pour un personnage cohérent. Cet outil vous guidera dans l’écriture de prompts et l’optimisation pour obtenir des résultats uniformes et réalistes.</p>
+<p>Pour commencer, utilisez l’outil <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree Consistent Character Assistant</a> pour générer des prompts optimisés et créer un personnage cohérent. Suivez chaque étape pour obtenir des résultats uniformes et réalistes.</p>
 <h3 id="1-rediger-un-prompt-decrivant-le-personnage-pour-le-collage-initial">1. <strong>Rédiger un prompt décrivant le personnage pour le collage initial</strong><a class="headerlink" href="#1-rediger-un-prompt-decrivant-le-personnage-pour-le-collage-initial" title="Permanent link">¶</a></h3>
-<p>- [ ] <strong>Description détaillée</strong> : Décrivez le personnage en vous basant sur les traits physiques souhaités. Indiquez des éléments comme la couleur et la texture des cheveux, le teint, la couleur des yeux, l’âge, les vêtements et une description subtile de la posture ou de l’expression.
-   - [ ] <strong>Création du collage de référence</strong> : Utilisez un prompt pour générer une série de six portraits dans un collage. Cela crée une base avec des variations d'expressions, d'angles et de légères différences de posture, qui servira de référence visuelle pour maintenir la cohérence dans d’autres images.</p>
+<p>- [ ] <strong>Description détaillée</strong> : Décrivez le personnage en fonction des traits physiques souhaités. Mentionnez des éléments comme la couleur et la texture des cheveux, le teint, la couleur des yeux, l’âge, les vêtements et une description subtile de la posture ou de l’expression.
+   - [ ] <strong>Création du collage de référence</strong> : Utilisez un prompt pour générer un collage de six portraits, avec des variations d'expressions, d'angles et de légères différences de posture. Cela servira de référence visuelle pour maintenir la cohérence dans d’autres images.</p>
 <pre><code>  **Exemple de prompt pour le collage** :
   ```Midjourney
-  A six-panel photo collage of a 35-year-old woman with an atypical face, black hair, fair skin, green eyes, wearing simple, modern clothing. She stands against a plain solid background with studio lighting. Each frame captures slight changes in her expression and pose, from neutral to subtly expressive, highlighting unique facial details. Closeup photos with a candid, cell-phone photography style, emphasizing natural imperfections and texture. Deep, even color tones and slight bokeh. --style raw --ar 16:9
+  A six-panel photo collage of a woman, 30 years old, red hair, freckles on her face, wearing simple everyday clothes. Standing in front of a plain solid background with studio lighting. Candid cell-phone photography, highlighting the beauty of imperfections. The person is moving, turning, and getting slightly happier in each frame. Closeup photos. ::3 
+  Painting, artistic, bokeh with beautiful ambience ::-1 
+  evenly-spaced photo grid with deep color tone ::1 --style raw --ar 16:9
   ```
 </code></pre>
-<p>- <strong>Remarque</strong> : Assurez-vous que le style est en mode “raw” pour un rendu réaliste.</p>
+<p>- <strong>Remarque</strong> : Assurez-vous que le style est en mode <code>--style raw</code> pour un rendu réaliste.</p>
 <h3 id="2-generer-le-prompt-dans-midjourney">2. <strong>Générer le prompt dans Midjourney</strong><a class="headerlink" href="#2-generer-le-prompt-dans-midjourney" title="Permanent link">¶</a></h3>
 <p>- [ ] <strong>Vérifier les réglages</strong> : Confirmez que le style est bien défini sur <code>--style raw</code> pour conserver la netteté et les détails réalistes.
    - [ ] <strong>Lancer la génération</strong> : Utilisez le prompt dans Midjourney pour obtenir le collage. Choisissez l’option de <strong>Subtle Upscale</strong> sur l’image la plus réussie pour améliorer la qualité sans trop de changements.</p>
@@ -11576,10 +11568,10 @@
    - [ ] <strong>Préparer les références pour une utilisation future</strong> : Conservez les images découpées dans une bibliothèque de référence que vous pourrez utiliser dans les étapes suivantes.</p>
 <h3 id="4-reinserer-les-images-dans-midjourney-et-generer-un-prompt-avec-un-arriere-plan">4. <strong>Réinsérer les images dans Midjourney et générer un prompt avec un arrière-plan</strong><a class="headerlink" href="#4-reinserer-les-images-dans-midjourney-et-generer-un-prompt-avec-un-arriere-plan" title="Permanent link">¶</a></h3>
 <p>- [ ] <strong>Insérer les images de référence</strong> : Dans Midjourney, insérez trois à cinq images découpées du personnage en tant que références visuelles. Cela peut se faire en ajoutant les liens d’URL des images après le prompt.
-   - [ ] <strong>Créer un prompt pour un arrière-plan spécifique</strong> : Rédigez un prompt pour situer le personnage dans un contexte ou un décor particulier. Assurez-vous de rester simple dans la description physique du personnage (par exemple, "femme de 35 ans aux cheveux noirs, aux yeux verts et à la peau claire"). Les images de référence maintiendront la cohérence visuelle.</p>
+   - [ ] <strong>Créer un prompt pour un arrière-plan spécifique</strong> : Rédigez un prompt pour situer le personnage dans un contexte ou un décor particulier. Assurez-vous de rester simple dans la description physique du personnage (par exemple, "femme de 30 ans aux cheveux roux et aux yeux verts"). Les images de référence maintiendront la cohérence visuelle.</p>
 <pre><code>  **Exemple de prompt avec arrière-plan** :
   ```Midjourney
-  A midday closeup photo of a woman in her 30s with black hair, green eyes, and fair skin. She stands in a bustling 1950s Berlin train station, with vintage architecture and large windows casting natural light across the scene. Candid cell-phone photography, capturing the beauty of imperfections. f/1.4 wide aperture, sharp background details. Centered composition with a warm, nostalgic color tone. --style raw --cref
+  A midday closeup photo of a woman in her 30s with red hair and green eyes, standing in a bustling 1950s Berlin train station, with vintage architecture and large windows casting natural light across the scene. Candid cell-phone photography, capturing the beauty of imperfections. f/1.4 wide aperture, sharp background details. Centered composition with a warm, nostalgic color tone. --style raw --cref
   ```
 </code></pre>
 <p>Ces étapes vous permettront de générer un personnage cohérent et fidèle à vos attentes dans diverses scènes. Pour toute assistance supplémentaire, utilisez l’outil <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree Consistent Character Assistant</a>.</p>
