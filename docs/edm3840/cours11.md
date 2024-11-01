@@ -4,6 +4,7 @@
 
 ## [Midjourney](https://www.midjourney.com/)
 
+
 ### Outils en ligne
 
 [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
@@ -13,7 +14,9 @@
 
 - [x] **Utiliser des :: suivie d'un chiffre permet d'ajuster l'importance relative de certains éléments.** Par exemple, ::3 rend un mot ou une phrase trois fois plus importante pour le rendu de l’image, alors qu’un ::-1 réduit son importance. Cette technique est particulièrement utile pour orienter l’IA vers certains détails sans alourdir la description.
 
+### Rappel
 
+- [x] Mettre le réglage à Raw.
 
 ### Notions : Utilisation des Prompts
 * [▶️ Présentation de Midjourney](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcaPMjz7MVRLr93gJgVVtl4Bv4ex0nA5oUvdHb7i_Lheqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y5krSA)  <br>
