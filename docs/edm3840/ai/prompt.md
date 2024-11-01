@@ -22,8 +22,6 @@
 
 ### Comment rédiger un prompt pour une scène visuelle
 
-## Détails de la Scène
-
 - [x] **Mentionner la valeur de plan et l'angle de vue**  
   (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  
   *Un plan large en légère contre-plongée, capturant à la fois la femme et le chat géant dans le même cadre.*
