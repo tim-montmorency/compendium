@@ -11510,47 +11510,56 @@
   <h1>04 creer image style 02</h1>
 
 <html><head><style>.md-footer{display:none;}</style>
-</head><body><p>Le but de cet exercice est de créer une image à partir d'un style. 
+</head><body><p>Le but de cet exercice est d'appliquer un Style avec des Images de Référence 
 <img src="../assets/image/04_rosie_pieuvre_02.png"></p>
 <hr>
 <p><a class="md-button" href="../assets/image/04_clown.png">📁 Document de départ</a>   <br>
 <a class="md-button" href="../assets/image/04_rosie_pieuvre.png">📁 Document de départ</a>   <br></p>
 <h2 id="etapes">Étapes<a class="headerlink" href="#etapes" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de pieuvre</strong> :<ul>
-<li>Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (pieuvre)</strong> :<ul>
+<li>Sélectionne l'icône de personnage dans le prompt pour attacher l'image de la pieuvre en tant que <strong>caractère</strong>. Cela permet à l’IA d’intégrer les caractéristiques visuelles de la pieuvre pour le sujet principal.</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de clown</strong> :<ul>
-<li>Sélectionne l'icône de trombone dans le prompt pour attacher l'image de style.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (clown)</strong> :<ul>
+<li>Sélectionne l'icône de trombone dans le prompt pour attacher l'image du clown en tant que <strong>style</strong>. Cette image sert de référence stylistique pour influencer l'ambiance, les textures, et les couleurs de la scène.</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Écrire un prompt pour l'image</strong> :<ul>
-<li>Rédige un prompt détaillé : ex. : A pale-skinned redheaded woman with vibrant, flowing hair stands in a 1950s German train station. A large, intricately detailed octopus wraps its tentacles around her neck and shoulders. The station, with its post-war architecture--large windows, stone walls, and vintage signage--has an eerie and oppressive atmosphere. Around her, people are collapsed on the ground, some visibly ill, others dead, their bodies contorted in dramatic, unsettling poses. Trains emerge from the station's doors, their metal exteriors weathered and grimy, releasing thick clouds of smoke that swirl ominously through the space. The entire scene is bathed in dim, cinematic lighting, casting long, surreal shadows. In the style of Gregory Crewdson, the composition is meticulously staged, with hyperrealistic details and a dreamlike, unsettling quality that heightens the haunting, mysterious mood.</li>
+<li>Rédige un prompt détaillé pour guider l’IA dans la création de l’image. Par exemple :<ul>
+<li><em>"A pale-skinned redheaded woman with vibrant, flowing hair stands in a 1950s German train station. A large, intricately detailed octopus wraps its tentacles around her neck and shoulders. The station, with its post-war architecture--large windows, stone walls, and vintage signage--has an eerie and oppressive atmosphere. Around her, people are collapsed on the ground, some visibly ill, others dead, their bodies contorted in dramatic, unsettling poses. Trains emerge from the station's doors, their metal exteriors weathered and grimy, releasing thick clouds of smoke that swirl ominously through the space. The entire scene is bathed in dim, cinematic lighting, casting long, surreal shadows. In the style of Gregory Crewdson, the composition is meticulously staged, with hyperrealistic details and a dreamlike, unsettling quality that heightens the haunting, mysterious mood."</em></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>--sw (poids du style basé sur l'image de référence)</strong> :<ul>
-<li>Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum</li>
-<li>ex : --sw 1000 (pour appliquer plus de style)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le poids du style avec le paramètre <code>--sw</code></strong> :<ul>
+<li>Utilisez le code <code>--sw</code> pour gérer l’intensité du style appliqué par l'image du clown en tant que référence stylistique.<ul>
+<li><strong>100</strong> est la valeur par défaut, <strong>0</strong> désactive le style, et <strong>1000</strong> est l'intensité maximale.</li>
+<li><strong>Exemple</strong> : <code>--sw 1000</code> pour appliquer un style plus fort.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>--cw (poids du personnage basé sur l'image de référence)</strong> :<ul>
-<li>Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 100 is maximum</li>
-<li>ex : --cw 40 (pour appliquer plus de style)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le poids du personnage avec le paramètre <code>--cw</code></strong> :<ul>
+<li>Utilisez le code <code>--cw</code> pour contrôler l’intensité de l'influence de l'image de la pieuvre en tant que personnage principal.<ul>
+<li><strong>100</strong> est la valeur par défaut, <strong>0</strong> désactive le personnage, et <strong>100</strong> est l'influence maximale.</li>
+<li><strong>Exemple</strong> : <code>--cw 40</code> pour accorder davantage de poids au style.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Pour appliquer plus fortement le style ("vary strong")</strong> :<ul>
-<li>Cliquer uniquement sur l'image que tu aimes sur "vary strong"</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Pour appliquer plus fortement le style ("Vary Strong")</strong> :<ul>
+<li>Une fois l’image générée, cliquez sur <strong>"Vary (Strong)"</strong> pour intensifier l'effet stylistique. Cette option accentue les éléments artistiques de l’image mais peut aussi atténuer certains détails précis du prompt.</li>
 </ul>
 </li>
 </ul>
