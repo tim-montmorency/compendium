@@ -11484,6 +11484,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#etapes-pour-appliquer-un-style-a-une-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étapes pour Appliquer un Style à une Image
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#tutoriel" class="md-nav__link">
     <span class="md-ellipsis">
       Tutoriel 📚
@@ -11516,41 +11525,51 @@
 <p><a class="md-button" href="../assets/image/04_pot_rose.png">📁 Document de départ</a>   <br>
 <a class="md-button" href="../assets/image/02_rosie.png">📁 Document de départ</a>   <br></p>
 <h2 id="etapes">Étapes<a class="headerlink" href="#etapes" title="Permanent link">¶</a></h2>
+<h2 id="etapes-pour-appliquer-un-style-a-une-image">Étapes pour Appliquer un Style à une Image<a class="headerlink" href="#etapes-pour-appliquer-un-style-a-une-image" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence</strong> (Rosie):<ul>
-<li>Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (Rosie)</strong> :<ul>
+<li>Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que référence de <strong>caractère</strong>. Cela indique à l’IA de s’inspirer des caractéristiques de cette image pour le sujet principal.</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence</strong> (le pot rose):<ul>
-<li>Sélectionne l'icône de trombone dans le Prompt pour télécharger l'image en tant que style. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (le pot rose)</strong> :<ul>
+<li>Sélectionne l'icône de trombone dans le prompt pour attacher l'image en tant que <strong>style</strong>. Cela permettra à l’IA de s’inspirer du style visuel ou des couleurs de cette image.</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Écrire un prompt pour l'image</strong> :<ul>
-<li>Rédige un prompt détaillé (ex. : "Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color.").</li>
+<li>Rédige un prompt détaillé pour guider l’IA dans la création de l’image. Par exemple :<ul>
+<li><em>"Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color."</em></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>--sw (poids du style basé sur l'image de référence)</strong> :<ul>
-<li>Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum</li>
-<li>ex : --sw 1000</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le poids du style avec le paramètre <code>--sw</code></strong> :<ul>
+<li>Le code <code>--sw</code> permet de gérer l’intensité du style appliqué, basé sur l’image de référence. La valeur par défaut est 100. <ul>
+<li><strong>0</strong> désactive le style, <strong>100</strong> est le niveau normal, et <strong>1000</strong> est l'intensité maximale.</li>
+<li><strong>Exemple</strong> : <code>--sw 1000</code> pour appliquer un style très fort.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>--cw (poids du personnage basé sur l'image de référence)</strong> :<ul>
-<li>Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 100 is maximum</li>
-<li>ex : --cw 40 (pour appliquer plus de style)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le poids du personnage avec le paramètre <code>--cw</code></strong> :<ul>
+<li>Le code <code>--cw</code> permet de gérer l’intensité d'influence de l'image du personnage de référence. La valeur par défaut est également 100.<ul>
+<li><strong>0</strong> désactive l'influence du personnage, <strong>100</strong> est le niveau standard, et <strong>1000</strong> est l'influence maximale.</li>
+<li><strong>Exemple</strong> : <code>--cw 40</code> pour appliquer plus de style et moins de caractéristiques de l'image du personnage.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Pour appliquer plus fortement le style ("vary strong")</strong> :<ul>
-<li>Cliquer uniquement sur l'image que tu aimes sur "vary strong"</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le style de façon plus intense ("Vary Strong")</strong> :<ul>
+<li>Après avoir généré l'image, cliquez sur l'option <strong>"Vary (Strong)"</strong> pour renforcer le style appliqué à l’image sélectionnée.</li>
 </ul>
 </li>
 </ul>
