@@ -1,12 +1,12 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-header{display:none;}</style>
 <script>h1{display:none;}</script>
-Le but de cet exercice est de créer un personnage sous différents angles.
+Le but de cet exercice est de générer un personnage consistant dans Midjourney. 
 <img src="../assets/image/03_nina_differents_angles.png">
 ***
 
 
-## Étapes pour Générer un Personnage Consistant dans Midjourney
+## Étapes
 
 Pour commencer, utilisez l’outil [Glibatree Consistent Character Assistant](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant) pour générer des prompts optimisés et créer un personnage cohérent. Suivez chaque étape pour obtenir des résultats uniformes et réalistes.
 
