@@ -11524,11 +11524,16 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Utilise ChatGPT ou <a href="https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant">Glibatree</a> pour t'aider à écrire ton prompt</strong> : Ces outils peuvent fournir des conseils sur la création de prompts cohérents, en vous guidant dans les choix de détails visuels, de style, et de narration.</li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter le code de personnalisation</strong> : À la fin de votre prompt, ajoutez le code suivant pour personnaliser davantage les résultats : <code>--personalize 61vkr5d</code>. Ce code de personnalisation influence les caractéristiques visuelles ou stylistiques en s’adaptant à vos préférences, garantissant une continuité et une cohérence dans les images générées.</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter le code de personnalisation</strong> : À la fin de votre prompt, ajoutez un code de personnalisation pour adapter les résultats à vos préférences. Vous pouvez utiliser votre propre code ou celui d’un autre créateur pour obtenir des caractéristiques visuelles ou stylistiques spécifiques. Voici deux exemples de codes : 
+    - Votre propre code de personnalisation : <code>--personalize [votre code ici]</code>
+    - Un code de personnalisation exemple : <code>--personalize 61vkr5d</code></p>
+<p>Ce code garantit une continuité et une cohérence dans les images générées, en s'adaptant à des préférences visuelles spécifiques.</p>
+</li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajuster la stylisation pour un équilibre entre style et personnalisation</strong> : Utilisez le paramètre <code>--stylize</code> pour ajuster le niveau de style artistique appliqué. Des valeurs basses de stylisation (par exemple, <code>--stylize 100</code>) garderont les détails personnalisés précis et réalistes, tandis que des valeurs élevées (comme <code>--stylize 1000</code>) accentueront le côté artistique du rendu. Un niveau intermédiaire permet de conserver l’essence de la personnalisation tout en ajoutant une touche esthétique spécifique.</p>
+<p><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajuster la stylisation pour un équilibre entre style et personnalisation</strong> : Utilisez le paramètre <code>--stylize</code> pour ajuster le niveau de style artistique appliqué. Des valeurs basses de stylisation (par exemple, <code>--stylize 100</code>) garderont les détails personnalisés précis et réalistes, tandis que des valeurs élevées (comme <code>--stylize 1000</code>) accentueront le côté artistique du rendu. Un niveau intermédiaire (par exemple, <code>--stylize 500</code>) permet de conserver l’essence de la personnalisation tout en ajoutant une touche esthétique spécifique.</p>
 <p><strong>Exemple de prompt avec code de personnalisation et stylisation</strong> :
  ```Midjourney
  A cinematic close-up portrait of a 35-year-old woman with red hair, freckles, and green eyes, standing in soft indoor lighting with a vintage color palette. High-detail texture on skin and eyes, realistic light capturing natural imperfections. --personalize 61vkr5d --stylize 500</p>
