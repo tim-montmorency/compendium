@@ -39,11 +39,10 @@ Le but de cet exercice est de créer un arrière plan
 
       **Exemple de prompt avec arrière-plan** :
       ```Midjourney
-      A midday closeup photo of a woman in her 30s with red hair and green eyes, standing in a bustling 1950s Berlin train station, with vintage architecture and large windows casting natural light across the scene. Candid cell-phone photography, capturing the beauty of imperfections. f/1.4 wide aperture, sharp background details. Centered composition with a warm, nostalgic color tone. --style raw --cref
+      A cinematic nighttime scene in a vintage Argentinian kitchen, with low-light and colorful, repetitive tile patterns. A red-haired woman in her 30s with freckles, wearing a slightly worn olive-green fur coat, stands near an open refrigerator, bathed in its soft glow as she drinks milk with a vacant expression. The kitchen is subtly illuminated by the strange glow of a streetlamp casting shadows through a window, creating a disturbing atmospheric tension. Shot on an Arri camera, ultra-realistic composition with sharp focus, shallow depth of field, and desaturated colors, resembling the meticulous, cinematic realism of Gregory Crewdson’s photography. --style raw --ar 16:9
       ```
 
 Ces étapes vous permettront de générer un personnage cohérent et fidèle à vos attentes dans diverses scènes. Pour toute assistance supplémentaire, utilisez l’outil [Glibatree Consistent Character Assistant](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant).
-
 
 [📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 ***
