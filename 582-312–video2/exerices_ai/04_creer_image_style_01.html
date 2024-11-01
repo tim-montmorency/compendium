@@ -11511,28 +11511,28 @@
 
 <html><head><style>.md-footer{display:none;}</style>
 <script>h1{display:none;}</script>
-</head><body><p>Le but de cet exercice est d'appliquer un Style avec des Images de Référence.
-<img src="../assets/image/04_rosie_plastique.png"></p>
+</head><body><p>Le but de cet exercice est d'appliquer un style avec des images de Référence 
+<img src="../assets/image/04_rosie_pieuvre_02.png"></p>
 <hr>
-<p><a class="md-button" href="../assets/image/04_pot_rose.png">📁 Document de départ</a>   <br>
-<a class="md-button" href="../assets/image/02_rosie.png">📁 Document de départ</a>   <br></p>
+<p><a class="md-button" href="../assets/image/04_clown.png">📁 Document de départ</a>   <br>
+<a class="md-button" href="../assets/image/04_rosie_pieuvre.png">📁 Document de départ</a>   <br></p>
 <h2 id="etapes">Étapes<a class="headerlink" href="#etapes" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (Rosie)</strong> :<ul>
-<li>Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que référence de <strong>caractère</strong>. Cela indique à l’IA de s’inspirer des caractéristiques de cette image pour le sujet principal.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (pieuvre)</strong> :<ul>
+<li>Sélectionne l'icône de personnage dans le prompt pour attacher l'image de la pieuvre en tant que <strong>caractère</strong>. Cela permet à l’IA d’intégrer les caractéristiques visuelles de la pieuvre pour le sujet principal.</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (le pot rose)</strong> :<ul>
-<li>Sélectionne l'icône de trombone dans le prompt pour attacher l'image en tant que <strong>style</strong>. Cela permettra à l’IA de s’inspirer du style visuel ou des couleurs de cette image.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Télécharger l'image de référence (clown)</strong> :<ul>
+<li>Sélectionne l'icône de trombone dans le prompt pour attacher l'image du clown en tant que <strong>style</strong>. Cette image sert de référence stylistique pour influencer l'ambiance, les textures, et les couleurs de la scène.</li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Écrire un prompt pour l'image</strong> :<ul>
 <li>Rédige un prompt détaillé pour guider l’IA dans la création de l’image. Par exemple :<ul>
-<li><em>"Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color."</em></li>
+<li><em>"A pale-skinned redheaded woman with vibrant, flowing hair stands in a 1950s German train station. A large, intricately detailed octopus wraps its tentacles around her neck and shoulders. The station, with its post-war architecture--large windows, stone walls, and vintage signage--has an eerie and oppressive atmosphere. Around her, people are collapsed on the ground, some visibly ill, others dead, their bodies contorted in dramatic, unsettling poses. Trains emerge from the station's doors, their metal exteriors weathered and grimy, releasing thick clouds of smoke that swirl ominously through the space. The entire scene is bathed in dim, cinematic lighting, casting long, surreal shadows. In the style of Gregory Crewdson, the composition is meticulously staged, with hyperrealistic details and a dreamlike, unsettling quality that heightens the haunting, mysterious mood."</em></li>
 </ul>
 </li>
 </ul>
@@ -11540,9 +11540,9 @@
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le poids du style avec le paramètre <code>--sw</code></strong> :<ul>
-<li>Le code <code>--sw</code> permet de gérer l’intensité du style appliqué, basé sur l’image de référence. La valeur par défaut est 100. <ul>
-<li><strong>0</strong> désactive le style, <strong>100</strong> est le niveau normal, et <strong>1000</strong> est l'intensité maximale.</li>
-<li><strong>Exemple</strong> : <code>--sw 1000</code> pour appliquer un style très fort.</li>
+<li>Utilisez le code <code>--sw</code> pour gérer l’intensité du style appliqué par l'image du clown en tant que référence stylistique.<ul>
+<li><strong>100</strong> est la valeur par défaut, <strong>0</strong> désactive le style, et <strong>1000</strong> est l'intensité maximale.</li>
+<li><strong>Exemple</strong> : <code>--sw 1000</code> pour appliquer un style plus fort.</li>
 </ul>
 </li>
 </ul>
@@ -11550,23 +11550,22 @@
 </ul>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le poids du personnage avec le paramètre <code>--cw</code></strong> :<ul>
-<li>Le code <code>--cw</code> permet de gérer l’intensité d'influence de l'image du personnage de référence. La valeur par défaut est également 100.<ul>
-<li><strong>0</strong> désactive l'influence du personnage, <strong>100</strong> est le niveau standard, et <strong>1000</strong> est l'influence maximale.</li>
-<li><strong>Exemple</strong> : <code>--cw 40</code> pour appliquer plus de style et moins de caractéristiques de l'image du personnage.</li>
+<li>Utilisez le code <code>--cw</code> pour contrôler l’intensité de l'influence de l'image de la pieuvre en tant que personnage principal.<ul>
+<li><strong>100</strong> est la valeur par défaut, <strong>0</strong> désactive le personnage, et <strong>100</strong> est l'influence maximale.</li>
+<li><strong>Exemple</strong> : <code>--cw 40</code> pour accorder davantage de poids au style.</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Appliquer le style de façon plus intense ("Vary Strong")</strong> :<ul>
-<li>Après avoir généré l'image, cliquez sur l'option <strong>"Vary (Strong)"</strong> pour renforcer le style appliqué à l’image sélectionnée.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Pour appliquer plus fortement le style ("Vary Strong")</strong> :<ul>
+<li>Une fois l’image générée, cliquez sur <strong>"Vary (Strong)"</strong> pour intensifier l'effet stylistique. Cette option accentue les éléments artistiques de l’image mais peut aussi atténuer certains détails précis du prompt.</li>
 </ul>
 </li>
 </ul>
 <p><a href="../ai/prompt.html">📖 Consulter la page suivante</a> pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 <a href="../ai/midjourney_code.html">📖 Consulter la page suivante</a> pour plus d’informations sur la rédaction de code dans Midjourney. <br></p>
-<hr>
 <h2 id="tutoriel">Tutoriel 📚<a class="headerlink" href="#tutoriel" title="Permanent link">¶</a></h2>
 <p><a class="md-button" href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EV1gSzxV02dCnk8Zq_cDqoIBrhgU_jAXSPZF3OLHJnRIXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=C9CAYc">📖 Pour en savoir plus</a>   <br></p></body></html>
 
