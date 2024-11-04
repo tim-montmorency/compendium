@@ -29,5 +29,9 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 ## Exercice
 [🛠️ Manette interactive](exercices/interaction_vr.md){ .md-button } 
 
+## Grimper
+
+[📝 Grimper en VR](unity/grimper.md){ .md-button }
+
 ## Devoir
 [🛠️ Travail 3](./consignes/travail3.md){ .md-button } 
