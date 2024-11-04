@@ -13,10 +13,7 @@
 
 
 ## Réservation [Midjourney et Runway](https://teamup.com/ks3j4jwsg8wvik7eh5)
-* projetfrancoise01@gmail.com
-* projetfrancoise01@gmail.com
-* projetfrancoise01@gmail.com
-* projetfrancoise01@gmail.com
+
 
 ## [Midjourney](ai/midjourney.md)
 * Créer un prompt de scratch : https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant<br>
