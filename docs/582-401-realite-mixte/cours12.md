@@ -40,6 +40,13 @@
 
 [📝 Pont et porte](unity/physique.md){ .md-button }
 
+## Discussion Optimisation
+- [ ] Low poly
+- [ ] Compression textures et ui
+- [ ] FPS (Stats)
+- [ ] Nombre et type de particules
+- [ ] Éclairage statique ou dynamique  
+
 ## Devoir
 
 [🛠️ Travail 3](./consignes/travail3.md){ .md-button }
