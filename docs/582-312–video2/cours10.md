@@ -16,13 +16,13 @@
 
 
 ## [Midjourney](ai/midjourney.md)
-* Créer un prompt de scratch : https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant<br>
+* Créer un [prompt de scratch](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant) : <br>
 * Recette pour créer des personnages<br>
   * Découper et zoomer
   * Conserver le Seed<br>
   * Mettre en RAW<br>
 * Zoom
-* Réutiliser ma personnalisation<br>
+* Réutiliser ma personnalisation : --personalize 3vh38al<br>
 * Travailler avec le --cw<br>
 
 *Travail sur vos projets de AI.<br>
