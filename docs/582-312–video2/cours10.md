@@ -20,7 +20,7 @@
 
 ## [Midjourney](ai/midjourney.md)
 * Créer un prompt de scratch : https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant<br>
-  * Recette pour créer des personnages<br>
+* Recette pour créer des personnages<br>
   * Découper et zoomer
   * Conserver le Seed<br>
   * Mettre en RAW<br>
