@@ -9,7 +9,7 @@ Dans Unity, il est possible de créer des transitions entre les scènes. En VR, 
 
 ## Tutoriel écrit
 - [ ] Créez un objet vide nommé ChargementScene.
-- [ ] Créez un canvas dans ce nouvel objet. (Create, UI, canvas)
+- [ ] Créez un canvas dans ce nouvel objet. (Clic droit, UI, canvas)
 - [ ] Dans le canvas, choisissez Screen-Space camera comme Render mode et glissez votre main Camera dans le paramètre Render Camera.
 - [ ] Changez le Plane distance pour 0.4 et le order in layer pour 1.
 - [ ] Dans l'objet Canvas, créez une image. Clic droit sur le canvas, UI, Image.
@@ -25,13 +25,13 @@ Dans Unity, il est possible de créer des transitions entre les scènes. En VR, 
 - [ ] Dans le dossier animation (fenêtre project), trouvez vos deux animations, cliquez sur celles-ci et désactivez le loop time en décochant la case dans la fenêtre Inspector.
 - [ ] Assurez-vous dans la fenêtre Animator que transitionFin est celle qui est en orange. Sinon, cliquez droit sur celle-ci et sélectionnez Set as layer default state.
 - [ ] Cliquez droit sur la transitionFin et sélectionnez Make Transition, Appuyez sur transitionDebut pour faire une transition vers celui-ci.
-- [ ] Dans Parametres en haut à gauche de la fenêtre animator, appuyez sur le + et sélectionnez Trigger dans la liste. Nommez le paramètre Debut.
+- [ ] Cliquez sur Parametres en haut à gauche de la fenêtre animator, appuyez sur le + et sélectionnez Trigger dans la liste. Nommez le paramètre Debut.
 - [ ] Cliquez sur la flèche blanche entre les deux animations. Dans conditions(fenêtre inspector), appuyez sur +. Assurez-vous que la condition est Debut.
-- [ ] Dans settings, toujours dans la fenêtre Inspector, assurez-vous de décocher Has exit time, puis de mettre la transition duration à 0.
+- [ ] Dans settings, toujours dans la fenêtre Inspector, assurez-vous de décocher Has exit time, puis de mettre la transition duration à 0 (cliquer sur la flèche pour développer Settings).
 - [ ] Maintenant, créez un script sur l'objet ChargementScene.
 - [ ] Assurez vous d'ajouter la librairie pour les scènes: using UnityEngine.SceneManagement;
 - [ ] Créez un Animator public pour contenir l'animator de votre canvas.
-- [ ] Créez une coroutine qui part l'animation (Animator.SetTrigger("Start");).
+- [ ] Créez une coroutine qui part l'animation (Animator.SetTrigger("Debut");).
 - [ ] Ensuite, attendez le temps désiré.
 - [ ] Puis, chargez la prochaine scène.
 - [ ] Finalement, sortez de la coroutine.
