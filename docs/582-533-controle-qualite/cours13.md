@@ -7,15 +7,15 @@
 ## Visite de certaines universités
 Local à venir...
 
-##Horaires
-# Groupe AM - Lora : 
-1. 12h15 - Conseillère d'orientation - Sophie
-2. 13h00 - UQAM
-3. 13h30 - UQAT 2 campus
-4. 14h30 - NAD
-5. 15h00 - ETS
+## Horaires
+## Groupe AM - Lora : 
+- 12h15 - Conseillère d'orientation - Sophie
+- 13h00 - UQAM
+- 13h30 - UQAT 2 campus
+- 14h30 - NAD
+- 15h00 - ETS
 
-# Groupe PM - Charlène :
+## Groupe PM - Charlène :
 - 14h30 - NAD
 - 15h00 - ETS
 - 15h30 - UQAT 2 campus
