@@ -14,6 +14,7 @@ Local à venir...
 - 13h30 - UQAT 2 campus
 - 14h30 - NAD
 - 15h00 - ETS
+  
 
 ## Groupe PM - Charlène :
 - 14h30 - NAD
