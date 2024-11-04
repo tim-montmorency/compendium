@@ -25,13 +25,6 @@
 [📝 Particules](unity/particules.md){ .md-button }
 
 
-## Discussion Optimisation
-- [ ] Low poly
-- [ ] Compression textures et ui
-- [ ] FPS (Stats)
-- [ ] Nombre et type de particules
-- [ ] Éclairage statique ou dynamique  
-
 ## Discussion et recherche sur les shaders
 
 ## Rencontres pour voir les besoins individuels
