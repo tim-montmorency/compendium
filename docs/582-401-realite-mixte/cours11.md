@@ -1,9 +1,5 @@
 # Cours 11
 
-## Grimper
-
-[📝 Grimper en VR](unity/grimper.md){ .md-button }
-
 ## Canvas
 
 [📝 Canvas en VR](unity/ui_vr.md){ .md-button }
