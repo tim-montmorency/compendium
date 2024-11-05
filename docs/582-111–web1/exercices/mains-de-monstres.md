@@ -50,7 +50,10 @@ https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/the
 !!! note
 
     Toutes les images ont la même dimension, soit: 600x600px
-Aucun Pen ne vous est fourni pour cet exercice. Vous devrez vous en créer un sur CodePen et écrire l'ensemble du HTML et du CSS.
+
+!!!warning
+
+    Aucun Pen ne vous est fourni pour cet exercice. Vous devrez vous en créer un sur CodePen et écrire l'ensemble du HTML et du CSS.
 
 ## Requis
 * [ ] Créez un dégradé de beige à rouge 🔴 couvrant l'ensemble de l'arrière-plan de votre page HTML.
