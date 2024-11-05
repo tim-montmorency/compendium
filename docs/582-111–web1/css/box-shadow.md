@@ -60,7 +60,5 @@ Par exemple:
 
 L'inspecteur est d'une aide précieuse lorsque l'on manipule un élément avec une ombre. Lorsque l'on examine la propriété CSS `box-shadow` dans l'inspecteur, on remarque à sa droite un icône de carré sous un autre carré rappelant une ombre. Lorsque cliqué, cet icône affiche une interface visuelle permettant de modifier facilement les valeurs de cette propriété.
 
-<video src="[video.mp4](https://github.com/user-attachments/assets/90289e99-978f-445d-98c6-be2a57041d25)" autoplay loop></video>
-
 ![type:video](https://github.com/user-attachments/assets/90289e99-978f-445d-98c6-be2a57041d25)
 
