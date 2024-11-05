@@ -32,19 +32,19 @@ https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/fre
 Nosferatu
 
 ```
-https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/mains-de-monstres/images/nosferatu.webp
+https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/nosferatu.webp
 ```
 
 Créature du Lac
 
 ```
-https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/mains-de-monstres/images/creature-from-the-black-lagoon.webp
+https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/creature-from-the-black-lagoon.webp
 ```
 
 La momie
 
 ```
-https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/mains-de-monstres/images/the-mummy.webp
+https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/the-mummy.webp
 ```
 
 !!! note
