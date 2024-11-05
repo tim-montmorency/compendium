@@ -15,7 +15,8 @@ Tester les Grab Interactable objects
 [📝 Interaction en VR](unity/interaction_vr.md){ .md-button }     
 
 ## Casse-tête d'experts
-En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, Samples, XR Interaction Toolkit, 2.X.X, Starter Assets. 
+En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, Samples, XR Interaction Toolkit, 2.X.X, Starter Assets.     
+
 - Déplacement continu
 - Déplacement par téléportation
 - Poke interaction
