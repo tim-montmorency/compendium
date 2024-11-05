@@ -1,4 +1,6 @@
+# Exercice
 <style>.md-footer{display:none;}</style>
+
 Le but de cet exercice est d'éditer une image dans Midjourney
 <img src="../assets/image/04_rosie_pieuvre.png">
 ***

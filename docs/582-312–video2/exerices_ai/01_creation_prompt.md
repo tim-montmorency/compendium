@@ -1,4 +1,5 @@
-<style>.md-header{display:none;}</style> 
+# Exercice
+
 <style>.md-footer{display:none;}</style>
 Le but de cet exercice est de créer un prompt afin de créer l'image ci-dessous.
 <img src="../assets/image/01_prompt_pieuvre.png">

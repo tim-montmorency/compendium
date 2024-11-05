@@ -1,5 +1,7 @@
+# Exercice
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est d'agrandir une image. 
+<script>h1{display:none;}</script>
+Le but de cet exercice est d'utiliser le mode pan dans Midjourney. 
 <img src="../assets/image/04_rosie_pieuvre.png">
 ***
 
@@ -7,8 +9,16 @@ Le but de cet exercice est d'agrandir une image.
 
 ## Étapes
 
-- [ ] **Aller dans Pan** :
-   - Sélectionner une flèche pour agrandir l'image. 
+- [ ] **Accéder au mode Pan** : Après avoir généré une image, l'option **"Pan"** apparaît sous l'image. Cette fonction permet d’étendre l’image en ajoutant des détails au-delà des bords actuels.
+
+- [ ] **Sélectionner une flèche** : Cliquez sur une des flèches (haut, bas, gauche, droite) pour indiquer la direction vers laquelle l'image sera agrandie :
+   - [ ] **Flèche vers le haut** : ajoute du contenu au-dessus de l'image.
+   - [ ] **Flèche vers la droite** : étend l'image vers la droite, et ainsi de suite.
+
+- [ ] **Vérifier le résultat du Pan** : Midjourney génère une version élargie de l'image avec de nouveaux détails dans la direction choisie. Ce mode est idéal pour explorer ou développer un environnement.
+
+- [ ] **Continuer l’extension si souhaité** : Répétez ces étapes pour agrandir l’image dans plusieurs directions et créer une scène plus large autour de l’image initiale.
+
 
 ***
 

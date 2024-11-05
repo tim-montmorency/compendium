@@ -1,12 +1,13 @@
+# Exercice
 <style>.md-footer{display:none;}</style>
 <style>.md-header{display:none;}</style>
-<script>h1{display:none;}</script>
-Le but de cet exercice est de créer un personnage sous différents angles.
+
+Le but de cet exercice est de générer un personnage consistant dans Midjourney. 
 <img src="../assets/image/03_nina_differents_angles.png">
 ***
 
 
-## Étapes pour Générer un Personnage Consistant dans Midjourney
+## Étapes
 
 Pour commencer, utilisez l’outil [Glibatree Consistent Character Assistant](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant) pour générer des prompts optimisés et créer un personnage cohérent. Suivez chaque étape pour obtenir des résultats uniformes et réalistes.
 
@@ -41,15 +42,31 @@ Le but de cet exercice est de créer un arrière plan
 - [ ] **Insérer les images de référence** : Dans Midjourney, insérez trois à cinq images découpées du personnage en tant que références visuelles. Cela peut se faire en ajoutant les liens d’URL des images après le prompt.<br>
 - [ ] **Créer un prompt pour un arrière-plan spécifique** : Rédigez un prompt pour situer le personnage dans un contexte ou un décor particulier. Assurez-vous de rester simple dans la description physique du personnage (par exemple, "femme de 30 ans aux cheveux roux et aux yeux verts"). Les images de référence maintiendront la cohérence visuelle.<br>
 
-   **Exemple de prompt avec arrière-plan** :<br>
+- [ ] **Utiliser un seed commun** : Pour assurer une cohérence visuelle entre plusieurs images de la même scène, ajoutez un seed spécifique à la fin de chaque prompt. Par exemple, utilisez `--seed 1500`. Ce seed aide à conserver des éléments visuels communs entre les images, tout en permettant une variation naturelle dans les détails.
+- [ ] **Utiliser le style raw** : L’option --style raw permet d’obtenir un rendu plus réaliste et fidèle.
+
+   **Exemple de prompt avec arrière-plan et seed commun, en mode raw** :<br>
    ```Midjourney
-   A cinematic nighttime scene in a vintage Argentinian kitchen, with low-light and colorful, repetitive tile patterns. A red-haired woman in her 30s with freckles, wearing a slightly worn olive-green fur coat, stands near an open refrigerator, bathed in its soft glow as she drinks milk with a vacant expression. The kitchen is subtly illuminated by the strange glow of a streetlamp casting shadows through a window, creating a disturbing atmospheric tension. Shot on an Arri camera, ultra-realistic composition with sharp focus, shallow depth of field, and desaturated colors, resembling the meticulous, cinematic realism of Gregory Crewdson’s photography. --style raw --ar 16:9
+   A cinematic nighttime scene in a vintage Argentinian kitchen, with low-light and colorful, repetitive tile patterns. A red-haired woman in her 30s with freckles, wearing a slightly worn olive-green fur coat, stands near an open refrigerator, bathed in its soft glow as she drinks milk with a vacant expression. The kitchen is subtly illuminated by the strange glow of a streetlamp casting shadows through a window, creating a disturbing atmospheric tension. Shot on an Arri camera, ultra-realistic composition with sharp focus, shallow depth of field, and desaturated colors, resembling the meticulous, cinematic realism of Gregory Crewdson’s photography. --style raw --ar 16:9 --seed 1500
    ```
 
 Ces étapes vous permettront de générer un personnage cohérent et fidèle à vos attentes dans diverses scènes. Pour toute assistance supplémentaire, utilisez l’outil [Glibatree Consistent Character Assistant](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant).
 
 [📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 ***
+
+
+### **Variation pour la création d'une image initiale pour obtenir plusieurs angles**
+
+- [ ] **Ajuster le ratio pour un affichage côte à côte des images** : Dans l’éditeur, définissez le ratio de l’image de manière à faciliter l’affichage côte à côte des différentes vues (par exemple, `--ar 16:9` pour un format paysage large qui permet de juxtaposer les images). Ce ratio rendra plus simple la création de variations d’angle et d’arrière-plan tout en gardant les images alignées.
+
+- [ ] **Utiliser un prompt pour des vues sous différents angles** : Employez un prompt qui génère plusieurs perspectives de votre personnage afin d’obtenir des vues alignées.
+
+   **Prompt recommandé** :
+   ```Midjourney
+   High-res photo of the same woman seen from multiple angles: front and side view. --style raw --ar [votre ratio]
+
+   ```
 
 
 

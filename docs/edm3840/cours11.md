@@ -48,6 +48,7 @@
 ### Notions : Agrandissement, amélioration visuelle et télécharger
 * [▶️ Pan](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQxANuxPsDlCgoufVYkoOnABQUAFRuXF6hBMzAbcjW2I5w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlnXta)  <br>
 [🛠️ 05_Pan](./exerices_ai/05_pan.md){ .md-button }  <br>
+[🛠️ 05_zoom](./exerices_ai/05_zoom.md){ .md-button }  <br>
 
 * [▶️ Run / éditer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Efk4CQI5dChFvGu74obP5IEB82LdAIGY_vFOQHHdcXNTrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=03hkjm)  <br>
 [🛠️ 06_Editer](./exerices_ai/06_editor.md){ .md-button }  <br>

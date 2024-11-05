@@ -4,14 +4,20 @@
 
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
+### Outils en ligne
+
+[Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
+)
+
 ### Structure des prompts
+
+- [x] **Utiliser des :: suivie d'un chiffre permet d'ajuster l'importance relative de certains éléments.** Par exemple, ::3 rend un mot ou une phrase trois fois plus importante pour le rendu de l’image, alors qu’un ::-1 réduit son importance. Cette technique est particulièrement utile pour orienter l’IA vers certains détails sans alourdir la description.
 
 - [x] **Utiliser les [ ] pour mettre l'accent sur certains mots** :  
    Les crochets peuvent être utilisés pour mettre en évidence certains mots ou phrases spécifiques afin de souligner des détails importants dans la description. Cela permet à l'IA de prêter une attention particulière à ces éléments.
 
-### Comment rédiger un prompt pour une scène visuelle
 
-## Détails de la Scène
+### Comment rédiger un prompt pour une scène visuelle
 
 - [x] **Mentionner la valeur de plan et l'angle de vue**  
   (De quel point de vue la scène est-elle capturée ? Exemple : plan rapproché, plongée, contre-plongée, vue aérienne)  

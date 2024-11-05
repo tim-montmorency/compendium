@@ -1,37 +1,43 @@
 <style>.md-footer{display:none;}</style>
-Le but de cet exercice est de créer une image à partir d'un style.
-<img src="../assets/image/04_rosie_plastique.png">
+# Exercice
+Le but de cet exercice est d'appliquer un style avec des images de Référence 
+<img src="../assets/image/04_rosie_pieuvre_02.png">
 ***
 
-[📁 Document de départ](../assets/image/04_pot_rose.png){ .md-button }   <br>
-[📁 Document de départ](../assets/image/02_rosie.png){ .md-button }   <br>
+[📁 Document de départ](../assets/image/04_clown.png){ .md-button }   <br>
+[📁 Document de départ](../assets/image/04_rosie_pieuvre.png){ .md-button }   <br>
 
-## Étapes
-- [ ] **Télécharger l'image de référence** (Rosie):
-   - Sélectionne l'icône de personnage dans le prompt pour attacher l'image en tant que caractère de référence. 
 
-- [ ] **Télécharger l'image de référence** (le pot rose):
-   - Sélectionne l'icône de trombone dans le Prompt pour télécharger l'image en tant que style. 
+## Étapes 
+
+- [ ] **Télécharger l'image de référence (pieuvre)** :
+   - Sélectionne l'icône de personnage dans le prompt pour attacher l'image de la pieuvre en tant que **caractère**. Cela permet à l’IA d’intégrer les caractéristiques visuelles de la pieuvre pour le sujet principal.
+
+- [ ] **Télécharger l'image de référence (clown)** :
+   - Sélectionne l'icône de trombone dans le prompt pour attacher l'image du clown en tant que **style**. Cette image sert de référence stylistique pour influencer l'ambiance, les textures, et les couleurs de la scène.
 
 - [ ] **Écrire un prompt pour l'image** :
-   - Rédige un prompt détaillé (ex. : "Front view. A portrait of a young woman, with her face, skin, hair, and shoulders completely covered in shiny pink plastic. The background is a solid pink color.").
+   - Rédige un prompt détaillé pour guider l’IA dans la création de l’image. Par exemple :
+     - *"A pale-skinned redheaded woman with vibrant, flowing hair stands in a 1950s German train station. A large, intricately detailed octopus wraps its tentacles around her neck and shoulders. The station, with its post-war architecture--large windows, stone walls, and vintage signage--has an eerie and oppressive atmosphere. Around her, people are collapsed on the ground, some visibly ill, others dead, their bodies contorted in dramatic, unsettling poses. Trains emerge from the station's doors, their metal exteriors weathered and grimy, releasing thick clouds of smoke that swirl ominously through the space. The entire scene is bathed in dim, cinematic lighting, casting long, surreal shadows. In the style of Gregory Crewdson, the composition is meticulously staged, with hyperrealistic details and a dreamlike, unsettling quality that heightens the haunting, mysterious mood."*
 
-- [ ] **--sw (poids du style basé sur l'image de référence)** :
-  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 1000 is maximum
-  * ex : --sw 1000
-     
-- [ ] **--cw (poids du personnage basé sur l'image de référence)** :
-  * Le code suivant permet de gérer le niveau d'intensité du style appliqué : 100 is default, 0 is off, and 100 is maximum
-  * ex : --cw 40 (pour appliquer plus de style)
+- [ ] **Appliquer le poids du style avec le paramètre `--sw`** :
+  - Utilisez le code `--sw` pour gérer l’intensité du style appliqué par l'image du clown en tant que référence stylistique.
+    - **100** est la valeur par défaut, **0** désactive le style, et **1000** est l'intensité maximale.
+    - **Exemple** : `--sw 1000` pour appliquer un style plus fort.
 
+- [ ] **Appliquer le poids du personnage avec le paramètre `--cw`** :
+  - Utilisez le code `--cw` pour contrôler l’intensité de l'influence de l'image de la pieuvre en tant que personnage principal.
+    - **100** est la valeur par défaut, **0** désactive le personnage, et **100** est l'influence maximale.
+    - **Exemple** : `--cw 40` pour accorder davantage de poids au style.
 
-- [ ] **Pour appliquer plus fortement le style ("vary strong")** :
-   - Cliquer uniquement sur l'image que tu aimes sur "vary strong"
+- [ ] **Pour appliquer plus fortement le style ("Vary Strong")** :
+   - Une fois l’image générée, cliquez sur **"Vary (Strong)"** pour intensifier l'effet stylistique. Cette option accentue les éléments artistiques de l’image mais peut aussi atténuer certains détails précis du prompt.
 
 
 [📖 Consulter la page suivante](../ai/prompt.md) pour plus d’informations sur la rédaction d'un prompt efficace.<br>
 [📖 Consulter la page suivante](../ai/midjourney_code.md) pour plus d’informations sur la rédaction de code dans Midjourney. <br>
-***
+
+
 
 ## Tutoriel 📚
 

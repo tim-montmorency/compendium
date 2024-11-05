@@ -1,4 +1,6 @@
 <style>.md-footer{display:none;}</style>
+
+# Exercice
 Le but de cet exercice d'agrandir et de télécharger une image dans Midjourney 
 
 <img src="../assets/image/04_rosie_pieuvre.png">
