@@ -10,7 +10,7 @@ Aperçu du résultat 👇
 [Pen de départ](https://codepen.io/tim-momo/pen/LYBBdBX?editors=1100)
 
 ## Couleurs 🎨
-- Bleu {style="background-color: #4285f4;"}
+- Bleu <button class="button button2">Blue</button>
 ```
 #4285f4
 ```
