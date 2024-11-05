@@ -29,6 +29,8 @@
 
 
 ## Discussion et recherche sur les shaders
+[📝 Liquides](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s ){ .md-button }
+
 
 ## Rencontres pour voir les besoins individuels
 
