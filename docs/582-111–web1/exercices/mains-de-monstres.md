@@ -22,7 +22,9 @@ Rouge
  
 Freddy Krueger
 
-https://tim-montmorency.com/timdoc/582-111MO/css/z-index/exercices/mains-de-monstres/images/freddy-krueger.webp
+```
+https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/freddy-krueger.webp
+```
  
 Nosferatu
 
