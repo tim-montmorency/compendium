@@ -11484,9 +11484,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#requis" class="md-nav__link">
+  <a href="#requis-television" class="md-nav__link">
     <span class="md-ellipsis">
-      Requis
+      Requis Télévision
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requis-torche" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requis Torche
     </span>
   </a>
   
@@ -11530,13 +11539,20 @@
 <div><p>Vous devrez allumer une télévision avec une manette ou la lumière d'une torche en appuyant sur le trigger de votre controlleur.</p>
 <h2 id="materiel">Matériel<a class="headerlink" href="#materiel" title="Permanent link">¶</a></h2>
 <p>Téléchargez une vidéo libre de droits depuis Internet.</p>
-<h2 id="requis">Requis<a class="headerlink" href="#requis" title="Permanent link">¶</a></h2>
+<h2 id="requis-television">Requis Télévision<a class="headerlink" href="#requis-television" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une télévision avec les objets 3D de Unity. L'écran doit être un Plane séparé de la structure de la télé.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'écran, vous devez mettre une composante Video Player pour faire jouer votre vidéo.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet 3D qui représente une manette.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> On doit pouvoir récupérer la manette en vr, pour cela vous aurez besoin d'une composante XR Grab Interactable.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un script, dans celui-ci, vous devez créer une fonction qui activera (enable) la vidéo de la télévision lorsque le trigger de votre manette est enfoncé (Quand on tient la manette), explorer les interactor events sur la composante XR Grab Interactable.</li>
+</ul>
+<h2 id="requis-torche">Requis Torche<a class="headerlink" href="#requis-torche" title="Permanent link">¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une torche avec un objet 3D de Unity (Un objet 3D + un point light).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> La lumière doit suivre la torche (Enfant).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> On doit pouvoir récupérer la torche,  pour cela vous aurez besoin d'une composante XR Grab Interactable.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Lorsque le trigger de votre manette est enfoncé, GameObject, SetActive de la torche dans la composante trigger du XR Grab</li>
 </ul>
 <h2 id="alternative">Alternative<a class="headerlink" href="#alternative" title="Permanent link">¶</a></h2>
 <p>Vous pourriez faire le même exercice, mais allumer une torche (point light) plutôt que partir une vidéo sur une télévision.</p>
