@@ -29,7 +29,9 @@
 
 
 ## Discussion et recherche sur les shaders
-[📝 Liquides](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s ){ .md-button }
+[📝 Liquides dans un contenant](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s ){ .md-button }      
+
+[📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s){ .md-button }
 
 
 ## Rencontres pour voir les besoins individuels
