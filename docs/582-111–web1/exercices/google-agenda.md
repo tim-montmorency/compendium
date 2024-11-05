@@ -20,6 +20,16 @@ Aperçu du résultat 👇
 #fbbc04
 ```
 
+- Rouge
+```
+#ea4335
+```
+
+- Vert
+```
+#34a853
+```
+
 ## Requis
 * [ ] Attribuez à chaque ligne la couleur lui correspondant ainsi qu'une longueur de 600px et une épaisseur de 120px.
 * [ ] Positionnez chaque ligne à 50px de chaque extrémité du carré afin de recréer les bordures de l'agenda 📅.
