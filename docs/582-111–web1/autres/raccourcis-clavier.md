@@ -3,6 +3,7 @@
 ## Navigation
 
 Par mot
+
 - Mot suivant: `CTRL` + `Flèche droite`
 - Mot précédent: `CTRL` + `Flèche gauche`
 
@@ -23,6 +24,7 @@ Par mot
 ## Selection
 
 Par mot
+
 - Mot suivant: `CTRL` + `SHIFT` **(Maj.)** + `Flèche droite`
 - Mot précédent: `CTRL` + `SHIFT` **(Maj.)** + `Flèche gauche`
 
