@@ -99,5 +99,5 @@ L'inspecteur est d'une aide précieuse lorsque l'on manipule un élément avec u
 
   **Box-shadow - Réseaux Sociaux**<br>
   _Pour cet exercice, vous devez compléter le CSS d’une barre de pastilles permettant d’accéder à divers réseaux sociaux._<br>
-  [Box-shadow - Réseaux Sociaux](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/reseau-sociaux.html)
+  [Box-shadow - Réseaux Sociaux](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/reseaux-sociaux.html)
 </div>
