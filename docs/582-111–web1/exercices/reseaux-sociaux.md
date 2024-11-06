@@ -34,3 +34,8 @@ Chaque icône que vous voyez dans le Pen de départ est en fait un caractère te
 * [ ] Faites en sorte que chaque icône affiche une à côté de l'autre dans des pastilles blanches ⚪️ de 80x80px ayant une marge de 10px horizontalement ↔️.
 * [ ] Chaque icône doit avoir une taille de 40px, être grise et être centrée horizontalement ↔️ et verticalement ↕️ dans sa pastille.
 * [ ] Attribuez une ombre de 20px décalée de 10px vers le bas de couleur gris foncé à chaque pastille.
+
+
+## Notes de cours
+
+![icon (42)](https://github.com/user-attachments/assets/fcaa4107-1183-4b73-ac3b-9c3b15c93e1d)<br> Box Shadow <br> [Ombrage d'un élément.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/box-shadow.html)
