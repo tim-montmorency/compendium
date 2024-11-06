@@ -11483,6 +11483,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Contexte d'empilement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imagine-un-exemple-avec-trois-carres-transparents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Imagine un exemple avec trois carrés transparents :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -11526,8 +11541,27 @@
 </iframe>
 
 <h2 id="contexte-dempilement">Contexte d'empilement<a class="headerlink" href="#contexte-dempilement" title="Permanent link">¶</a></h2>
-<p>Les éléments partageant un même parent peuvent être déplacés en avant ou en arrière les uns des autres grâce à <code>z-index</code>, c'est ce que l'on appelle le contexte d'empilement.</p>
-<p>Cependant, quand un parent à une position autre que <code>static</code> de défini, il créer un nouveau contexte d'empilement pour ses enfants. Ce contexte limite la portée du <code>z-index</code> des enfants à ce parent. Autrement dit, si le carré bleu est par-dessus le carré vert et que ce dernier contient un carré rouge, même si ce carré avait un z-index d'un million, celui-ci resterait sous le carré bleu puisque son contexte d'empilement est limité à son parent, soit le carré vert.</p>
+<p>Le concept de <strong>contexte d'empilement</strong> est un peu comme des <strong>« couches »</strong> dans une pile de papiers transparents. Imagine que chaque élément (ou bloc) sur une page est comme un morceau de papier dans cette pile.</p>
+<ul>
+<li>z-index nous aide à décider quel morceau de papier est au-dessus ou en-dessous d’un autre.</li>
+<li>Contexte d’empilement : Certains morceaux de papier agissent comme des « groupes » et définissent leurs propres petites piles internes. Ils limitent le z-index de tous les éléments qu’ils contiennent.</li>
+</ul>
+<h3 id="imagine-un-exemple-avec-trois-carres-transparents">Imagine un exemple avec trois carrés transparents :<a class="headerlink" href="#imagine-un-exemple-avec-trois-carres-transparents" title="Permanent link">¶</a></h3>
+<ul>
+<li>Carré bleu (A) : En haut de la pile.</li>
+<li>Carré vert (B) : Sous le bleu, mais il a un carré rouge en lui.</li>
+<li>Carré rouge (C) : Contenu dans le carré vert.</li>
+</ul>
+<p><strong>Dans cet exemple :</strong></p>
+<ol>
+<li>Carré bleu est au-dessus de tout le reste, donc on le voit en premier.</li>
+<li>Carré vert est juste en-dessous du carré bleu. En tant que parent du carré rouge, il crée un nouveau contexte d’empilement, un peu comme une petite pile à l'intérieur de la grande pile.</li>
+<li>Carré rouge est dans le contexte limité du carré vert, donc il ne peut jamais dépasser le carré bleu, même si on lui donne un z-index très élevé. C'est parce que le z-index ne peut jouer que dans sa « petite pile », qui est limitée au carré vert.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En résumé : Un parent avec une position autre que static crée une petite pile (ou un contexte d’empilement) pour ses enfants, qui limite leur z-index à ce contexte, peu importe leur valeur de z-index par rapport aux éléments de l’extérieur.</p>
+</div>
 <h2 id="exercices">Exercices<a class="headerlink" href="#exercices" title="Permanent link">¶</a></h2>
 <div class="grid grid-auto">
 <p><img alt="Capture d’écran, le 2024-11-05 à 19 47 14" src="https://github.com/user-attachments/assets/1888bd99-1c7c-420d-b77f-a047ab3a94a7"></p>
