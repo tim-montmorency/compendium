@@ -6,7 +6,8 @@
 
 ## Évaluation feuille (5 minutes)
 
-## Combien d'équipes ?
+## Équipes
+[Mettre vos noms d'équipes](https://uqam-my.sharepoint.com/:w:/g/personal/lavoie-pilote_francoise_uqam_ca/ESryujk6mwZDlFqTTdJRiTMBjJtZYxIynomvxmxD6uRDUQ?e=b7B2MT)
 
 
 ## [Midjourney](https://www.midjourney.com/)
