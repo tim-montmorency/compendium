@@ -18,6 +18,8 @@
 
 - [x] Mettre le réglage à Raw.
 
+
+
 ### Notions : Utilisation des Prompts
 * [▶️ Présentation de Midjourney](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EcaPMjz7MVRLr93gJgVVtl4Bv4ex0nA5oUvdHb7i_Lheqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y5krSA)  <br>   
 * [▶️ Le Prompt](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EULYGYB4HM1Il9_jciwBVqcB9CaNRa31VnuZUFvJmR41eA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=a2vmor)  <br>   
@@ -56,4 +58,14 @@
 [🛠️ 06_Editer](./exerices_ai/06_editor.md){ .md-button }  <br>   
 
 * [▶️ Agradissement](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EYtyqTqaJUNLnZ57HANQVXYBqaKnwez9nFeiRW2vh98dKQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9GHIeO)  <br>   
-[🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger.md){ .md-button }  <br>   
+[🛠️ 07_Agrandir et télécharger](./exerices_ai/07_upscale_telecharger.md){ .md-button }  <br>
+
+
+## Devoir 
+
+* [Runway](ai/runway.md) 
+  * Écouter les vidéos de Runway <br>
+  
+* Avancer Midjourney et Runway.<br>
+
+* Prochain cours, je vais arriver à 13h00 le mardi.
