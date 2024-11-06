@@ -7,7 +7,8 @@ Le but de cet exercice est de créer un prompt afin de créer l'image ci-dessous
 
 ## Étapes
 
-- [ ] **Écris un prompt pour générer cette image** : Rédige un prompt qui décrit précisément les éléments visuels de l’image souhaitée, comme les traits du personnage, le décor, l’éclairage, et l’ambiance générale.
+- [ ] **Écris un prompt pour générer cette image** : 
+  Rédige un prompt qui décrit précisément les éléments visuels de l’image souhaitée, comme les traits du personnage, le décor, l’éclairage, et l’ambiance générale.
   
 - [ ] [📖 **Consulte la page suivante**](../ai/prompt.md) **pour plus d’informations sur la rédaction d'un prompt efficace** : Cette ressource vous guidera sur les meilleures pratiques pour structurer et affiner un prompt afin d’obtenir des résultats plus précis et réalistes.
 
