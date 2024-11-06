@@ -12,3 +12,15 @@ La propriété `opacity` affecte l'ensemble de l'élément **(incluant son conte
 !!! warning
 
     Certains navigateurs acceptent les valeurs en pourcentages, mais afin d’éviter des problèmes compatibilité, il est suggéré d’utiliser une valeur entre 0 et 1.
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-11-05 à 19 43 50](https://github.com/user-attachments/assets/cdf15145-3b72-48f5-aa62-edc8203b7956)
+
+  **Opacity - Google Agenda**<br>
+  _Pour cet exercice, vous devez recréer une icône inspirée de celle de Google Agenda._<br>
+  [Opacity - Google Agenda](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/google-agenda.html)
+</div>
