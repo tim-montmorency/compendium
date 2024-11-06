@@ -65,3 +65,10 @@ https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/images/the
 4. La momie
 * [ ] Toutes les images de mains ont la même taille, superposez-les en CSS. Leur ordre d'apparition devrait être différent en ce moment de celui sur l'aperçu du résultat ci-dessus ☝️
 * [ ] En l'aide du CSS seulement, changer l'ordre d'empilement des mains, de sorte que celle de Nosferatu soit sur le dessus, suivi de celle de la momie, de Freddy et finalement de la créature.
+
+## Notes de cours
+
+![icon (35)](https://github.com/user-attachments/assets/e5e1f9a4-9fba-4b83-90d8-c70902c3cc73)<br> Linear Gradient <br> [Générer un dégradé.](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/linear-gradient.html)
+
+
+![icon (41)](https://github.com/user-attachments/assets/42844c15-087b-4b97-a60e-4fa6134aba51)<br>Z-index <br> [Ordre d'apparition des éléments dans le flux](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/z-index.html)
