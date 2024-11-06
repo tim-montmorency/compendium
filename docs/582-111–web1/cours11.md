@@ -48,16 +48,6 @@
 <br>
 <br>
 
-
-## Float
-
-![icon (37)](https://github.com/user-attachments/assets/0548380f-c082-4d8d-a0df-03a73b7ead0a)
-
-[Permet à un élément de flotter à gauche ou à droite](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/float.html)
-<br>
-<br>
-
-
 ## Box-shadow - Réseaux Sociaux
 
 ![thumb (21)](https://github.com/user-attachments/assets/8ee62c0e-7f48-4223-8e62-1e62cad413ba)
