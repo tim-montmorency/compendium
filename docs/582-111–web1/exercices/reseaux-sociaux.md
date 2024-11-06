@@ -9,6 +9,7 @@ Aperçu du résultat 👇
 [Pen de départ](https://codepen.io/tim-momo/pen/xxJJzVZ?editors=1100)
 
 Couleurs 🎨
+
 Blanc
 
 ```
