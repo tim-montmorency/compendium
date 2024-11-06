@@ -22,3 +22,15 @@ Dans l'exemple ci-dessous, `z-index: 1` est ajouté à l'élément vert 🟩. 
 Les éléments partageant un même parent peuvent être déplacés en avant ou en arrière les uns des autres grâce à `z-index`, c'est ce que l'on appelle le contexte d'empilement.
 
 Cependant, quand un parent à une position autre que `static` de défini, il créer un nouveau contexte d'empilement pour ses enfants. Ce contexte limite la portée du `z-index` des enfants à ce parent. Autrement dit, si le carré bleu est par-dessus le carré vert et que ce dernier contient un carré rouge, même si ce carré avait un z-index d'un million, celui-ci resterait sous le carré bleu puisque son contexte d'empilement est limité à son parent, soit le carré vert.
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-11-05 à 19 47 14](https://github.com/user-attachments/assets/1888bd99-1c7c-420d-b77f-a047ab3a94a7)
+
+  **Z-index - Mains de Monstres**<br>
+  _Pour cet exercice, vous devez recréer une scène où des monstres jouent au jeu d’enfants d’empilement des mains._<br>
+  [Z-index - Mains de Monstres](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/mains-de-monstres.html)
+</div>
