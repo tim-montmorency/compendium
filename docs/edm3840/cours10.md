@@ -75,4 +75,4 @@
 
 * Prochain cours, je vais arriver à 13h00 le mardi.
 
-* S'assurer que les disques durs sont formatés pour MAC d'ici deux semaines. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une MAC (Mac OS étendu) et une EXFAT.
+* S'assurer que les disques durs sont formatés pour MAC pour la semaine prochain. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une MAC (Mac OS étendu) et une EXFAT.
