@@ -21,19 +21,19 @@ Dans l'exemple ci-dessous, `z-index: 1` est ajouté à l'élément vert 🟩. 
 
 Le concept de **contexte d'empilement** est un peu comme des **« couches »** dans une pile de papiers transparents. Imagine que chaque élément (ou bloc) sur une page est comme un morceau de papier dans cette pile.
 
-- z-index nous aide à décider quel morceau de papier est au-dessus ou en-dessous d’un autre.
-- Contexte d’empilement : Certains morceaux de papier agissent comme des « groupes » et définissent leurs propres petites piles internes. Ils limitent le z-index de tous les éléments qu’ils contiennent.
+- **z-index** nous aide à décider quel morceau de papier est au-dessus ou en-dessous d’un autre.
+- **Contexte d’empilement :** Certains morceaux de papier agissent comme des « groupes » et définissent leurs propres petites piles internes. Ils limitent le z-index de tous les éléments qu’ils contiennent.
 
 ### Imagine un exemple avec trois carrés transparents :
-- Carré bleu (A) : En haut de la pile.
-- Carré vert (B) : Sous le bleu, mais il a un carré rouge en lui.
-- Carré rouge (C) : Contenu dans le carré vert.
+- **Carré bleu (A)** : En haut de la pile.
+- **Carré vert (B)** : Sous le bleu, mais il a un carré rouge en lui.
+- **Carré rouge (C)** : Contenu dans le carré vert.
 
 **Dans cet exemple :**
 
-1. Carré bleu est au-dessus de tout le reste, donc on le voit en premier.
-2. Carré vert est juste en-dessous du carré bleu. En tant que parent du carré rouge, il crée un nouveau contexte d’empilement, un peu comme une petite pile à l'intérieur de la grande pile.
-3. Carré rouge est dans le contexte limité du carré vert, donc il ne peut jamais dépasser le carré bleu, même si on lui donne un z-index très élevé. C'est parce que le z-index ne peut jouer que dans sa « petite pile », qui est limitée au carré vert.
+1. **Carré bleu** est au-dessus de tout le reste, donc on le voit en premier.
+2. **Carré vert** est juste en-dessous du carré bleu. En tant que parent du carré rouge, il crée un nouveau contexte d’empilement, un peu comme une petite pile à l'intérieur de la grande pile.
+3. **Carré rouge** est dans le contexte limité du carré vert, donc il ne peut jamais dépasser le carré bleu, même si on lui donne un z-index très élevé. C'est parce que le z-index ne peut jouer que dans sa « petite pile », qui est limitée au carré vert.
 
 !!!note
 
