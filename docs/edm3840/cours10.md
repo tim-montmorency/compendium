@@ -1,5 +1,5 @@
 # Cours 10
-[Stop]
+
 
 <style>.md-footer{display:none;}</style>
 
