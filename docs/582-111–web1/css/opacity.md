@@ -22,5 +22,5 @@ La propriété `opacity` affecte l'ensemble de l'élément **(incluant son conte
 
   **Opacity - Google Agenda**<br>
   _Pour cet exercice, vous devez recréer une icône inspirée de celle de Google Agenda._<br>
-  [pacity - Google Agenda](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/google-agenda.html)
+  [Opacity - Google Agenda](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/google-agenda.html)
 </div>
