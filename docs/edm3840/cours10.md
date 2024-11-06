@@ -6,6 +6,8 @@
 
 ## Évaluation feuille (5 minutes)
 
+## Combien d'équipes ?
+
 
 ## [Midjourney](https://www.midjourney.com/)
 
