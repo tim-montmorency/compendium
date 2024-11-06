@@ -74,7 +74,9 @@
 * [Runway](ai/runway.md) 
   * Écouter les vidéos de Runway <br>
   
-* Avancer Midjourney et Runway.<br>
+* Avancer Midjourney.<br>
+
+Réserver [les licences ](https://teamup.com/ks3j4jwsg8wvik7eh5)
 
 * Prochain cours, je vais arriver à 13h00 le mardi.
 
