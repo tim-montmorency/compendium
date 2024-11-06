@@ -62,3 +62,42 @@ L'inspecteur est d'une aide précieuse lorsque l'on manipule un élément avec u
 
 ![type:video](https://github.com/user-attachments/assets/90289e99-978f-445d-98c6-be2a57041d25)
 
+
+## OUTILS
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-11-05 à 19 50 09](https://github.com/user-attachments/assets/9aa872f7-7a91-4a57-b61f-d2616d20b7dd)
+
+
+  **Smooth Shadow**<br>
+  _Générateur de box-shadow._<br>
+  [Smooth Shadow](https://shadows.brumm.af/)
+</div>
+
+
+<div class="grid grid-auto" markdown>
+
+  ![Capture d’écran, le 2024-11-05 à 19 49 49](https://github.com/user-attachments/assets/189b4630-4a6b-45ac-b3d6-0c83819a42d1)
+
+
+
+  **Keyframes - Box-shadow**<br>
+  _Générateur de box-shadow._<br>
+  [Keyframes - Box-shadow](https://keyframes.app/shadows/)
+</div>
+
+
+
+
+## Exercices
+
+<div class="grid grid-auto" markdown>
+
+![Capture d’écran, le 2024-11-05 à 19 49 25](https://github.com/user-attachments/assets/3d0d20d3-f0ea-4c3f-8d4c-23f85d855208)
+
+
+  **Box-shadow - Réseaux Sociaux**<br>
+  _Pour cet exercice, vous devez compléter le CSS d’une barre de pastilles permettant d’accéder à divers réseaux sociaux._<br>
+  [Box-shadow - Réseaux Sociaux](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/reseau-sociaux.html)
+</div>
