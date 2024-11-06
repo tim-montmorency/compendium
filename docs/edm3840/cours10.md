@@ -71,12 +71,16 @@
 
 ## Devoir 
   
-* Avancer Midjourney.<br>
+* Avancer vos images dans Midjourney .<br>
 
-Réserver [les licences ](https://teamup.com/ks3j4jwsg8wvik7eh5)
-
-* [Runway](ai/runway.md) 
-  * Écouter les vidéos de Runway <br>
+* Réserver avant de la utiliser  [les licences ](https://teamup.com/ks3j4jwsg8wvik7eh5)
+* Licences
+  * projetfrancoise01@gmail.com
+  * projetfrancoise02@gmail.com
+  * projetfrancoise04@gmail.com
+  * projetfrancoise05@gmail.com
+  * Mot de passe 
+  * Framboise2002@
 
 * Prochain cours, je vais arriver à 12h30 le mardi.
 
