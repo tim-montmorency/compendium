@@ -5,7 +5,7 @@
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdZ4ebdwqp9PjwpMx9Ee38gB2LUsm4zZsBa3hNZxZhMaEQ?e=fyq6OX){ .md-button }       
 
 ## Visite de certaines universités
-Local à venir...
+Local B3428
 
 ## Horaires
 ## Groupe AM - Lora : 
