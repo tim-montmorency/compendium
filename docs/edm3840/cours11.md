@@ -2,4 +2,4 @@
 
 ## [Runway](./ai/runway.md)
 
-## [Davinci](/davinci.md)
+## [Davinci](/da_vinci_base.md)
