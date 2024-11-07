@@ -45,7 +45,8 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 [🚀 Espace](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYK1_f5Y22NHoiYN-gaHTSQBsiP2sA3XKSFIpavqGjlWgg?e=46Aeov){ .md-button }
 
 **Si vous avez des problèmes avec les matériaux des paquest:**
-Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation: 
+Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation:     
+
 - [ ] Dans la barre de menu sélectionnez Edit -> Rendering -> Materials -> Convert all Built-in materials to HDRP 
 
 ## Devoir
