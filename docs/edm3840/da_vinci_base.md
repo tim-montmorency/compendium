@@ -9,7 +9,7 @@
 ### Notions: les disques et stockage
 * [▶️ Disque dur (Mac et PC, formaté en exFAT)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EREIe5dktP1Oly9ADyZbSZIBqwFmYbHbwd-SePQsq6huYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KKAaJb)
 * [▶️ Nomenclature](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EevH_2_Qlp9Fmibb4uJRqpUBbrHn6C6hYoY651izNtY5vQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KDoAn3)
-* [📁 Nomenclature à télécharger](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=JvgeIF)
+* [📁 Nomenclature à télécharger](https://uqam-my.sharepoint.com/:f:/g/personal/lavoie-pilote_francoise_uqam_ca/Es6y26Zz5YRDhyjnxOIyttIBT9N0jIasaZx1k-scRLD3Lw?e=wvmLcO)
 
 ### Notions: la base sur la vidéo
 * [📑 Notions de base sur la vidéo](https://uqam-my.sharepoint.com/:p:/g/personal/lavoie-pilote_francoise_uqam_ca/EdWht77OdxFFq2TkZzCQoB0B3L9LK5S8eBXjmbyDaXVOjQ?e=lcz4x1)
