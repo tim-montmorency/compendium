@@ -6,7 +6,7 @@
 
 ## Évaluation feuille (5 minutes)
 
-## Équipes
+## Formation des équipes
 [Mettre vos noms d'équipes](https://uqam-my.sharepoint.com/:w:/g/personal/lavoie-pilote_francoise_uqam_ca/ESryujk6mwZDlFqTTdJRiTMBjJtZYxIynomvxmxD6uRDUQ?e=b7B2MT)
 
 
@@ -15,17 +15,11 @@
 
 ### Outils en ligne
 
-[Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
-)
+[Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant)
 
 ### Structure des prompts
 
 - [x] **Utiliser des :: suivie d'un chiffre permet d'ajuster l'importance relative de certains éléments.** Par exemple, ::3 rend un mot ou une phrase trois fois plus importante pour le rendu de l’image, alors qu’un ::-1 réduit son importance. Cette technique est particulièrement utile pour orienter l’IA vers certains détails sans alourdir la description.
-
-### Rappel
-
-- [x] Mettre le réglage à Raw.
-
 
 
 ### Notions : Utilisation des Prompts
@@ -73,7 +67,7 @@
   
 * Avancer vos images dans Midjourney .<br>
 
-* Réserver avant de les utiliser  [les licences ](https://teamup.com/ks3j4jwsg8wvik7eh5)
+* Réserver les licences Midjourney avant de les utiliser  [les licences ](https://teamup.com/ks3j4jwsg8wvik7eh5)
 * Licences
   * projetfrancoise01@gmail.com
   * projetfrancoise02@gmail.com
@@ -84,4 +78,4 @@
 
 * Prochain cours, je vais arriver à 12h30 le mardi.
 
-* S'assurer que les disques durs sont formatés pour MAC pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération J-1300. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une Mac OS étendu journalisé (HFS+) et une EXFAT.
+* Ne pas oublier vos disques durs pour le prochain cours. S'assurer que les disques durs sont formatés pour MAC pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération J-1300. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une Mac OS étendu journalisé (HFS+) et une EXFAT.
