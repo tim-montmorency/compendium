@@ -13,7 +13,8 @@ Nous verrons ici les matériaux dans Unity.
 
 
 ## Problème de matériel
-Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation: 
+Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation:     
+
 - [ ] Dans la barre de menu sélectionnez Edit -> Rendering -> Materials -> Convert all Built-in materials to HDRP 
 
 ## Matériel physique
