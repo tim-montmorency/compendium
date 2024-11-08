@@ -20,7 +20,7 @@ Les couleurs de références fonctionnent de gauche à droite #1 à #10
 | #1a083e     | #0c0223     | #aa77cc    |
           
 ## Famille de police
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+Verdana, Geneva, Tahoma, sans-serif;
 
 ## Document de départ
 Legend
