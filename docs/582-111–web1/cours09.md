@@ -5,7 +5,7 @@
 ![icon (27)](https://github.com/user-attachments/assets/b31cd86a-995e-4437-8694-d82f492b3c92)
 
 
-[vw, vh, vmin, vmax, calc, min, max, clamp](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unites-de-mesures.html)
+[absolue, relative, %, em, rem](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/css/unites-de-mesures.html)
 <br>
 <br>
 

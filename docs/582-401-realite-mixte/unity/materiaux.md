@@ -12,7 +12,10 @@ Nous verrons ici les matériaux dans Unity.
 - [ ] Le paramètre Emission permet au matériel d'émettre de la lumière.
 
 
-      
+## Problème de matériel
+Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation:     
+
+- [ ] Dans la barre de menu sélectionnez Edit -> Rendering -> Materials -> Convert all Built-in materials to HDRP 
 
 ## Matériel physique
 Les matériels physiques permettent de donner des propriétés aux objets ou aux surfaces. Par exemple, ils peuvent être rebondissants ou glissants.  

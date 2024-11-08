@@ -3,10 +3,13 @@ Dans ce tutoriel, nous explorerons comment créer des particules dans Unity.
 ## Paramètres des particules
 [📁 Paramètres détaillés des particules](https://learn.unity.com/tutorial/introduction-to-particle-systems#6025fdd9edbc2a112d4f0136){ .md-button }   <br>
 
-Création de particules et explication des paramètres:   
+Note: La vidéo n'a pas de son, mais vous pouvez voir des paramètre modifiés dans l'inspecteur et leur résultat.    
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4DZIaZ_BZ2E?si=turLE4hUrhKFQOeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Animation de sprite sheet
-Ici, on utilise l'animation de Sprite Sheet pour créer un feu dans Unity.   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A8XM4jscBcM?si=pIHBPkXNRSvb_dCd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eub9QMYbS0U?si=4LhGsPcKw2-sWfc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[📁 Fichier de base Photoshop](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef8BiNB-HThNlw4ECnKykfMBOJoLYdTIP1aEh30nMRkL2w?e=zhyxSc){ .md-button }   <br>

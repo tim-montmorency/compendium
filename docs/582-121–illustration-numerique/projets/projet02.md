@@ -25,9 +25,7 @@ Créer **12 planches** représentant un générique de film en pause. Les images
 - **Planche d’Inspiration (Moodboard)**
   * [ ] Inclure une **palette de couleurs**.
   * [ ] Inclure une **typographie**.
-  * [ ] Inclure des exemples visuels d’artistes reconnus tirés de [Art of the Title](http://www.artofthetitle.com) ou Pinterest.
-  * [ ] Créer un moodboard qui inclut des œuvres représentatives et inspirantes pour votre projet.
-  * [ ] Soyez prêts à présenter les documents avec des **écouteurs fonctionnels**.
+  * [ ] Créer un moodboard qui inclut des œuvres représentatives et inspirantes pour votre projet. Vous pouvez vous inspirer pour votre moodboard [Pinterest](https://pin.it/72P9mgeuc).
 
 ---
 
@@ -38,9 +36,8 @@ Créer **12 planches** représentant un générique de film en pause. Les images
 - **Illustrations et Moodboard**
   * [ ] Un **moodboard**.
   * [ ] Six **images de générique**.
-  * [ ] Une **musique**.
 
-Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts et vos écouteurs fonctionnels**.
+Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts**.
 
 ---
 

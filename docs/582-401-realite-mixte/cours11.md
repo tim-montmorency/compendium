@@ -1,4 +1,7 @@
 # Cours 11
+## Grimper
+
+[📝 Grimper en VR](unity/grimper.md){ .md-button }
 
 ## Canvas
 
@@ -21,11 +24,16 @@
 [📝 Miroir](unity/miroir.md){ .md-button }
 
 ## Particules
+Exploration du système de particules: Qu'est-ce que ça permet de faire? 
 
 [📝 Particules](unity/particules.md){ .md-button }
 
 
 ## Discussion et recherche sur les shaders
+[📝 Liquides dans un contenant](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s ){ .md-button }      
+
+[📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s){ .md-button }
+
 
 ## Rencontres pour voir les besoins individuels
 

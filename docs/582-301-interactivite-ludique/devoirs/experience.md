@@ -1,4 +1,4 @@
-[:material-arrow-u-left-top: Cours 5](../cours05.md){.breadcrumb}
+[:material-arrow-u-left-top: Cours 10](../cours10.md){.breadcrumb}
 
 # Devoir 7 | Ludus2024 | Expérience ludique et interactive
 

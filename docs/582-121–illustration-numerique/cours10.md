@@ -31,16 +31,13 @@
 
 
 ## Devoir 
-Pour le prochain cours : 
-* Création du Moodboard avec images, typographie et palette de couleurs
-  * Exemples Visuels d’Artistes : En s’inspirant de [Art of the Title](http://www.artofthetitle.com) ou de [Pinterest](https://ca.pinterest.com/), les étudiants doivent sélectionner des exemples visuels de génériques et autres créations d’artistes reconnus. Ces exemples doivent illustrer les styles ou techniques qu'ils envisagent pour leur propre projet. Cela peut inclure des exemples de montage, de traitement d’image ou d’approches graphiques qui capturent l’essence ou l’esthétique qu'ils veulent explorer. Voici des idées pour votre moodboard [Pinterest](https://pin.it/72P9mgeuc).
+* [ ] Création du Moodboard avec images, typographie et palette de couleurs
+  * [ ] Exemples Visuels d’Artistes : En s’inspirant de [Pinterest](https://ca.pinterest.com/), les étudiants doivent sélectionner des exemples visuels de génériques et autres créations d’artistes reconnus. Ces exemples doivent illustrer les styles ou techniques qu'ils envisagent pour leur propre projet. Voici des idées pour votre moodboard [Pinterest](https://pin.it/72P9mgeuc).
+  * [ ] Typographie : Les étudiants doivent choisir une typographie qui s'accorde avec l'esthétique et le ton du générique qu'ils créent. La typographie est cruciale pour établir l’ambiance et le style, notamment dans un générique de film où le texte joue un rôle visuel important. Deux graisses de la même famille de police sont recommandées pour garder une cohérence dans le design et créer des contrastes subtils.
+  * [ ] Palette de Couleurs : La palette doit comporter les couleurs principales que les étudiants souhaitent utiliser dans leur projet. Elle servira de guide pour harmoniser les visuels et donner une identité cohérente aux images. La palette devrait idéalement inclure des nuances spécifiques et complémentaires qui reflètent l’ambiance du projet.
 
-  * Typographie : Les étudiants doivent choisir une typographie qui s'accorde avec l'esthétique et le ton du générique qu'ils créent. La typographie est cruciale pour établir l’ambiance et le style, notamment dans un générique de film où le texte joue un rôle visuel important. Deux graisses de la même famille de police sont recommandées pour garder une cohérence dans le design et créer des contrastes subtils.
+* [ ] [Modèle pour la création du moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABPDKZHLCARN5Qdml6RytL8Q?e=MHXmhL)
 
-  * Palette de Couleurs : La palette doit comporter les couleurs principales que les étudiants souhaitent utiliser dans leur projet. Elle servira de guide pour harmoniser les visuels et donner une identité cohérente aux images. La palette devrait idéalement inclure des nuances spécifiques et complémentaires qui reflètent l’ambiance du projet.
-
-* [Modèle pour la création du moodboard](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABPDKZHLCARN5Qdml6RytL8Q?e=MHXmhL)
-
-* Rédaction d'un **[Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EZVIYRt62_5ItWVUsDlonGUBgBfSLdBljZ9ZJj4dcbPZ_g?e=03AxC4)** : 5 lignes maximum, décrivant brièvement le thème de votre film.
+* [ ] Rédaction d'un **[Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EZVIYRt62_5ItWVUsDlonGUBgBfSLdBljZ9ZJj4dcbPZ_g?e=03AxC4)** : 5 lignes maximum, décrivant brièvement le thème de votre film.
 
 
