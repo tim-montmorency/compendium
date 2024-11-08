@@ -11,14 +11,11 @@ Pour cet examen vous allez reproduire le site web Legend.
 ## Couleurs
 Les couleurs de références fonctionnent de gauche à droite #1 à #10
 
-| #1          | #2          | #3          | #4          |
-| ----------- | ----------- | ----------- | ----------- |
+| #1 {style="background-color: red;"}         | #2  {style="background-color: red;"}        | #3   {style="background-color: red;"}       | #4     {style="background-color: red;"}     |
 | #fff        | #09002a     | #19002a     | #b154f0     |
-| #5          | #6          | #7          | #8          |
-| ----------- | ----------- | ----------- | ----------- |
+| #5  {style="background-color: red;"}        | #6  {style="background-color: red;"}        | #7     {style="background-color: red;"}     | #8     {style="background-color: red;"}     |
 | #371152     | #ff71ac     | #3a75e9     | #120434     |
-| #9          |#10          | #11         | 
-| ----------- | ----------- | ----------- | ----------- |
+| #9   {style="background-color: red;"}       |#10  {style="background-color: red;"}        | #11    {style="background-color: red;"}     | 
 | #1a083e     | #0c0223     | #aa77cc    |
           
 ## Famille de police
