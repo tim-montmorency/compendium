@@ -11793,13 +11793,13 @@
 <h3 id="correction-de-la-profondeur">Correction de la profondeur<a class="headerlink" href="#correction-de-la-profondeur" title="Permanent link">¶</a></h3>
 <p>Dans une animation parallax en CSS, les éléments plus éloignés de l’observateur apparaissent naturellement plus petits. Ce comportement, bien que fidèle à la perspective, peut nuire à l’effet souhaité dans le cadre d’une animation parallax. Pour corriger cette apparence, il est nécessaire d’agrandir ces éléments à l’aide de la fonction <code>scale()</code> afin qu’ils retrouvent leur taille d’origine relative à la scène.</p>
 <p>Pour déterminer le scale approprié, la formule suivante peut être utilisée :</p>
-<p>$$
+<div class="arithmatex">\[
 \text{scale} = \left( \frac{\text{translateZ} \times -1}{\text{perspective}} \right) + 1
-$$</p>
+\]</div>
 <p>Et pour l’exemple donné, l'élément <code>.back</code> avec un <code>translateZ</code> de -100px:</p>
-<p>$$
+<div class="arithmatex">\[
 \text{scale} = \left( \frac{-100 \times -1}{100} \right) + 1 = 2
-$$</p>
+\]</div>
 <p>Donc,</p>
 <div class="highlight"><pre><span></span><code><span class="p">.</span><span class="nc">back</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="k">transform</span><span class="p">:</span><span class="w"> </span><span class="nb">translateZ</span><span class="p">(</span><span class="mi">-100</span><span class="kt">px</span><span class="p">)</span><span class="w"> </span><span class="nb">scale</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
@@ -11971,6 +11971,10 @@ $$</p>
     
     
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../_/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
