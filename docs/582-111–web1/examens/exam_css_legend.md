@@ -11,12 +11,12 @@ Pour cet examen vous allez reproduire le site web Legend.
 ## Couleurs
 Les couleurs de références fonctionnent de gauche à droite #1 à #10
 
-| #1 {style="background-color: red;"}         | #2  {style="background-color: red;"}        | #3   {style="background-color: red;"}       | #4     {style="background-color: red;"}     |
+| #1 {style="background-color: red; color: #fff;"}         | #2  {style="background-color: red; color: #fff;"}        | #3   {style="background-color: red; color: #fff;"}       | #4     {style="background-color: red; color: #fff;"}     |
 | ----------- | ----------- | ----------- | ----------- |
 | #fff        | #09002a     | #19002a     | #b154f0     |
-| #5  {style="background-color: red;"}        | #6  {style="background-color: red;"}        | #7     {style="background-color: red;"}     | #8     {style="background-color: red;"}     |
+| #5  {style="background-color: red; color: #fff;"}        | #6  {style="background-color: red; color: #fff;"}        | #7     {style="background-color: red; color: #fff;"}     | #8     {style="background-color: red; color: #fff;"}     |
 | #371152     | #ff71ac     | #3a75e9     | #120434     |
-| #9   {style="background-color: red;"}       |#10  {style="background-color: red;"}        | #11    {style="background-color: red;"}     | 
+| #9   {style="background-color: red; color: #fff;"}       |#10  {style="background-color: red; color: #fff;"}        | #11    {style="background-color: red; color: #fff;"}     | 
 | #1a083e     | #0c0223     | #aa77cc    |
           
 ## Famille de police
@@ -71,7 +71,7 @@ Legend
 ## Sections
 
 ### La bannière
-* [ ] Définir l'image d'arrière-plan de la bannière. (b6170f4f-bg-image-1.jpeg)
+* [ ] Définir l'image d'arrière-plan de la bannière. (image-banner.jpeg)
 * [ ] Faites en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
 * [ ] Positionner l'image d'arrière-plan au centre.
 * [ ] Définir la hauteur de la bannière à 100% (100vh) de la hauteur de la fenêtre.
@@ -146,7 +146,7 @@ Legend
 
 ## Jeux multijoueurs en ligne
 
-* [ ] Définir l'image d'arrière-plan de la section "Jeux multijoueurs en ligne". (5dadd873-bg-image-3.jpeg)
+* [ ] Définir l'image d'arrière-plan de la section "Jeux multijoueurs en ligne". (image-multiplayer.jpeg)
 * [ ] Faites en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
 * [ ] Définir la hauteur de la section de 70 fois la taille à la racine du document.
 * [ ] Ajoutez une marge intérieure en haut de la section de 5 fois la taille à la racine du document.
@@ -185,7 +185,7 @@ Legend
 
 ## Zone de jeu
 
-* [ ] Définir l'image d'arrière-plan de la section "Zone de jeu". (41f47927-bg-image-4.jpeg)
+* [ ] Définir l'image d'arrière-plan de la section "Zone de jeu". (image-zone-jeu.jpeg)
 * [ ] Faites en sorte que l'image d'arrière-plan couvre toute la zone, en maintenant son ratio.
 * [ ] Définir la hauteur de la section de 50 fois la taille à la racine du document.
 * [ ] Ajoutez une marge intérieure en haut de la section de 5 fois la taille à la racine du document.
