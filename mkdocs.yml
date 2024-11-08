@@ -538,6 +538,8 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: true
   - mdx_truly_sane_lists
+  - pymdownx.arithmatex:
+      generic: true
 
 extra:
   generator: false
@@ -551,6 +553,8 @@ extra_css:
   - _/extra.css
 
 extra_javascript:
+  - _/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - https://unpkg.com/fireworks-js@2.x/dist/index.umd.js
   - _/extra.js
