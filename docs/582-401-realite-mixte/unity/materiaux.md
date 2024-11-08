@@ -25,3 +25,7 @@ Les matériels physiques permettent de donner des propriétés aux objets ou aux
 - [ ] En modifiant les différents paramètres, vous pourrez rendre le matériel plus ou moins glissant ou rebondissant.
 - [ ] Pour assigner le matériel à un objet, ouvrez celui-ci dans l'inspecteur.
 - [ ] Ensuite, dans le paramètre Material du collider de l'objet, glissez le matériel que vous avez créé.
+
+## Modifier un matériel avec le script
+Voici un exemple de code qui pourra vous aider à comprendre comment modifier les paramètres d'un matériel dans le script:     
+
