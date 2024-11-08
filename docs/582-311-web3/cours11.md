@@ -124,7 +124,7 @@ Si vous souhaitez la centrer horizontalement, définissez la position horizontal
 
 !!! note "background-attachment"
 
-  La propriété [background-attachment](https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment) est réglée sur scroll pour animer l’arrière-plan lors du défilement.
+    La propriété [background-attachment](https://developer.mozilla.org/fr/docs/Web/CSS/background-attachment) est réglée sur scroll pour animer l’arrière-plan lors du défilement.
 
 Le code JavaScript suivant utilise GSAP pour animer la position de l’arrière-plan de l’élément `#section-parallax` :
 
