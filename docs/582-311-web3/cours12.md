@@ -6,7 +6,50 @@ tags:
 
 [STOP]
 
-# Cours 12
+# Cours 12 - Plugins
+
+[text](https://tim-montmorency.com/timdoc/582-424MO/gsap/text-plugin/)
+[motionpath](https://tim-montmorency.com/timdoc/582-424MO/gsap/parcours-mouvement/)
+[morphage](https://tim-montmorency.com/timdoc/582-424MO/gsap/morphage-svg/)
+[drawsvg](https://tim-montmorency.com/timdoc/582-424MO/gsap/dessiner-svg/)
+
+### MotionPath
+
+Le plugin MotionPath permet d’animer un élément en suivant une trajectoire personnalisée définie par un chemin SVG ou un chemin CSS.
+
+Concepts clés :
+
+*	Créer un chemin à suivre pour un élément.
+*	Utiliser des courbes et des formes personnalisées pour un mouvement fluide.
+
+```javascript
+gsap.registerPlugin(MotionPathPlugin);
+
+gsap.to(".ball", {
+  motionPath: {
+    path: "#path", // Le chemin SVG que l'élément suivra
+    align: "#path", // Aligne l'élément avec le chemin
+    autoRotate: true, // Fait pivoter l'élément en fonction du chemin
+    start: 0,
+    end: 1
+  },
+  duration: 5,
+  ease: "power1.inOut"
+});
+```
+
+*	L’élément .ball suit le chemin SVG défini par l’élément #path.
+*	Le mouvement est fluide grâce à l’alignement et à la rotation automatique.
+
+## Pratique guidée
+
+[Pratique guidé](./exercices/gsap-motionpath-parallax.md)
+
+## Exercices
+
+1. Exercice 1 : Animation complexe combinant parallaxe et MotionPath : Les étudiants créent une animation où plusieurs éléments se déplacent selon des chemins spécifiques tout en appliquant des effets de parallaxe.
+1. Exercice 2 : Projet visuel - Page défilante animée : Application des techniques vues pour créer une page où les éléments se déplacent, se déforment et changent de vitesse en fonction du scroll, créant une expérience visuelle fluide et interactive.
+
 
 ## DrawSVG
 

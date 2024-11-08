@@ -47,7 +47,7 @@ Puis, dans votre script, vous devez attacher le plugiciel avec la commande : `gs
 
 ### Usage
 
-Pour déclencher une animation  en fonction du scroll, il faut créer un objet `ScrollTrigger` et lui passer des paramètres, comme `trigger` par exemple. 
+Pour déclencher une animation  en fonction du scroll, il faut créer un objet `ScrollTrigger` et lui passer des paramètres, comme `trigger` par exemple.
 
 Ce paramètre désigne l'élément qui déclenchera l'animation. Encore une fois, l'élément est un **sélecteur CSS**.
 
