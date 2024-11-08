@@ -10,6 +10,7 @@ Pour cet examen vous allez reproduire le site web Legend.
 
 ## Couleurs
 Les couleurs de références fonctionnent de gauche à droite #1 à #10
+
 | #1          | #2          | #3          | #4          |
 | ----------- | ----------- | ----------- | ----------- |
 | #fff        | #09002a     | #19002a     | #b154f0     |
