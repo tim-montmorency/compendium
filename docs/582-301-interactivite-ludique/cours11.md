@@ -7,8 +7,9 @@ tags:
 [STOP]
 
 # Effets spéciaux
-
 <https://labs.phaser.io/index.html?dir=fx/&q=>
+
+https://docs.phaser.io/phaser/concepts/cameras#effects
 
 — Transitions
 — Caméra
