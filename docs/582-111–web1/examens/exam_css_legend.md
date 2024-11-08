@@ -12,6 +12,7 @@ Pour cet examen vous allez reproduire le site web Legend.
 Les couleurs de références fonctionnent de gauche à droite #1 à #10
 
 | #1 {style="background-color: red;"}         | #2  {style="background-color: red;"}        | #3   {style="background-color: red;"}       | #4     {style="background-color: red;"}     |
+| ----------- | ----------- | ----------- | ----------- |
 | #fff        | #09002a     | #19002a     | #b154f0     |
 | #5  {style="background-color: red;"}        | #6  {style="background-color: red;"}        | #7     {style="background-color: red;"}     | #8     {style="background-color: red;"}     |
 | #371152     | #ff71ac     | #3a75e9     | #120434     |
