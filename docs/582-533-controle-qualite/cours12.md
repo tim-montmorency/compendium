@@ -1,7 +1,7 @@
 # Cours 12
 
 ## Activité sur le contrôle de la qualité en jeu vidéo
-Téléchargez le dossier suivant, il contient le jeu à tester ainsi que ses dépendances.     
+Téléchargez le dossier suivant, il contient le jeu à tester ainsi que ses dépendances. Ouvrez ensuite le .exe pour tester le tout.     
 
 [📁 Jeu](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eqc0RbqR1dpJoJWRuF2wUQoBI0fwS_Q6bD8Nbie4NokFJQ?e=bivfUR){ .md-button }  
 
