@@ -14,4 +14,4 @@ Dans ce tutoriel, nous explorerons le fonctionnement du Hinge joint qui est un j
 
 Dans ce tutoriel, nous explorerons le fonctionnement du Hinge joint pour créer un pont avec des planches indépendantes reliées entre elles.   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P0reCAMHNrY?si=yvQCysuL_zEggysf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_j9J9VltPj4?si=n2c0SWbqyPC7kvHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
