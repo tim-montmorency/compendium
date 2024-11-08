@@ -15,4 +15,4 @@
 ## Instructions
 
 - [ ] Veuillez effectuer un fork du [codepen de départ](https://codepen.io/tim-momo/pen/KKOrKYJ)
-- [ ] Modifiez le CSS et le JavaScript afin de créer les 3 effets parallax du résultat attendu. Vous aurez besoin d'animer les attributs suivants : `opacity`, `top`/`bottom`, `backgroundPositionX`, `y`, `letterSpacing`.
+- [ ] Ajoutez le JavaScript nécessaire afin de créer les 3 effets parallax du résultat attendu. Vous aurez besoin d'animer les attributs suivants : `opacity`, `top`/`bottom`, `backgroundPositionX`, `y`, `letterSpacing`.
