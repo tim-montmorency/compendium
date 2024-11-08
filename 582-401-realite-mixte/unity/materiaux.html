@@ -11575,7 +11575,23 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, dans le paramètre Material du collider de l'objet, glissez le matériel que vous avez créé.</li>
 </ul>
 <h2 id="modifier-un-materiel-avec-le-script">Modifier un matériel avec le script<a class="headerlink" href="#modifier-un-materiel-avec-le-script" title="Permanent link">¶</a></h2>
-<p>Voici un exemple de code qui pourra vous aider à comprendre comment modifier les paramètres d'un matériel dans le script:     </p></div>
+<p>Voici un exemple de code qui pourra vous aider à comprendre comment modifier les paramètres d'un matériel dans le script:   <br>
+</p><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">GameObject</span><span class="w"> </span><span class="n">cube</span><span class="p">;</span>
+<span class="k">public</span><span class="w"> </span><span class="n">Color</span><span class="w"> </span><span class="n">couleurRouge</span><span class="p">;</span><span class="w"> </span>
+
+<span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">OnTriggerEnter</span><span class="p">(</span><span class="n">Collider</span><span class="w"> </span><span class="n">other</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">tag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">"Player"</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="c1">//Modifier la couleur de l'objet</span>
+<span class="w">            </span><span class="n">cube</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Renderer</span><span class="o">&gt;</span><span class="p">().</span><span class="n">material</span><span class="p">.</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">couleurRouge</span><span class="p">;</span>
+
+<span class="w">            </span><span class="c1">//Modifier l'émission du matériel de l'objet</span>
+<span class="w">            </span><span class="n">cube</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Renderer</span><span class="o">&gt;</span><span class="p">().</span><span class="n">material</span><span class="p">.</span><span class="n">SetVector</span><span class="p">(</span><span class="s">"_EmissiveColor"</span><span class="p">,</span><span class="w"> </span><span class="n">couleurRouge</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">2.0f</span><span class="p">);</span><span class="w"> </span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div></div>
 
 
 
