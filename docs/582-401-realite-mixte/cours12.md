@@ -45,7 +45,9 @@
 - [ ] Compression textures et ui
 - [ ] FPS (Stats)
 - [ ] Nombre et type de particules
-- [ ] Éclairage statique ou dynamique  
+- [ ] Éclairage statique ou dynamique
+
+[📝 Ressource](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#5ff8ce16edbc2a0023134676){ .md-button }
 
 ## Devoir
 
