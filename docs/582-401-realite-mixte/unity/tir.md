@@ -2,7 +2,7 @@ Ici, nous verrons comment configurer le lancer d'un objet dans Unity.
 
 
 
-## Tir
+## Cible et projectile
 
 Voici les scripts:   
 
@@ -10,4 +10,4 @@ Voici les scripts:
 
 
 Et le tutoriel:   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1tVGDj0aks?si=5ilU1pd5IXVzoTJx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p9BQZbpFJpc?si=uYeEnwEreT_9_sPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
