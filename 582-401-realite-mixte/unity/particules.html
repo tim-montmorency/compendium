@@ -11598,15 +11598,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#9-creer-une-variation-naturelle" class="md-nav__link">
-    <span class="md-ellipsis">
-      9. Créer une Variation Naturelle :
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#10-tester-et-finaliser" class="md-nav__link">
     <span class="md-ellipsis">
       10. Tester et Finaliser :
@@ -11674,31 +11665,28 @@
 <h3 id="5-importer-la-sprite-sheet-dans-unity">5. Importer la Sprite Sheet dans Unity :<a class="headerlink" href="#5-importer-la-sprite-sheet-dans-unity" title="Permanent link">¶</a></h3>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Importez votre PNG dans Unity (par glisser-déposer dans un dossier).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez le fichier et définissez-le comme <strong>Sprite (Multiple)</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez le fichier et définissez son Texture type comme <strong>Sprite</strong> dans l'inspecteur ainsi que son Sprite Mode à <strong>Multiple</strong>.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur <strong>Apply</strong> pour appliquer les paramètres.</li>
 </ul>
 <h3 id="6-creer-un-materiel-pour-les-particules">6. Créer un Matériel pour les Particules :<a class="headerlink" href="#6-creer-un-materiel-pour-les-particules" title="Permanent link">¶</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit dans Unity &gt; <strong>Create &gt; Material</strong> et nommez-le (ex. : “Particules Fumée”).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Définissez le type du matériel en tant que <strong>Particle</strong> et choisissez le mode <strong>Additive</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit dans la fenêtre Project &gt; <strong>Create &gt; Material</strong> et nommez-le (ex. : “Particules Fumée”).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Définissez le type du matériel en tant que <strong>Particles &gt; Standard Unlit</strong> et choisissez le mode <strong>Additive</strong> dans Rendering mode.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Faites glisser votre sprite sheet dans le champ “Albedo” du matériel.</li>
 </ul>
 <h3 id="7-creer-un-systeme-de-particules">7. Créer un Système de Particules :<a class="headerlink" href="#7-creer-un-systeme-de-particules" title="Permanent link">¶</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit dans Unity &gt; <strong>Effects &gt; Particle System</strong>.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez le matériel du système de particules pour celui que vous venez de créer.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Accédez à l’option <strong>Texture Sheet Animation</strong>, cochez “Grid”, et entrez 4x4 si votre sprite sheet contient 16 images.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit dans la fenêtre Hiérarchie &gt; <strong>Effects &gt; Particle System</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans l'inspecteur, dans la section Renderer, changez le matériel (Material) du système de particules pour celui que vous venez de créer.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Accédez à l’option <strong>Texture Sheet Animation</strong>, choisissez “Grid” dans le champ Mode, et entrez 4x4 dans la section Tiles si votre sprite sheet contient 16 images.</li>
 </ul>
 <h3 id="8-ajuster-les-parametres-du-systeme-de-particules">8. Ajuster les Paramètres du Système de Particules :<a class="headerlink" href="#8-ajuster-les-parametres-du-systeme-de-particules" title="Permanent link">¶</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Shape</strong> : Modifiez la dispersion en ajustant l'angle et la direction pour que la fumée reste dans une zone précise.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Start Speed</strong> : Diminuez la vitesse pour ralentir les particules.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Shape</strong> : Modifiez la dispersion en ajustant l'angle et la direction pour que la fumée reste dans une zone précise. (Shape: Cone, Angle: 1, Radius: 0.1)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Start Speed</strong> : Diminuez la vitesse pour ralentir les particules. (0.02)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Max Particles</strong> : Limitez à 20 pour optimiser les performances.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Size Over Lifetime</strong> : Cochez cette option pour faire varier la taille des particules au cours de leur durée de vie.</li>
-</ul>
-<h3 id="9-creer-une-variation-naturelle">9. Créer une Variation Naturelle :<a class="headerlink" href="#9-creer-une-variation-naturelle" title="Permanent link">¶</a></h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans <strong>Texture Sheet Animation</strong>, changez “Whole Sheet” en “Random Between Two Constants” pour éviter la répétition et rendre l’effet plus naturel.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Texture Sheet Animation</strong>, changez “Frame Over Time” en “Random Between Two Constants” pour éviter la répétition et rendre l’effet plus naturel. Le premier frame sera 0 et le second 15.999.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Color Over Lifetime</strong> : Ajoutez des couleurs variées (ex. : dégradé de rose et violet) pour personnaliser la couleur de la fumée.</li>
 </ul>
 <h3 id="10-tester-et-finaliser">10. Tester et Finaliser :<a class="headerlink" href="#10-tester-et-finaliser" title="Permanent link">¶</a></h3>
