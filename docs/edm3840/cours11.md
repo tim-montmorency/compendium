@@ -6,4 +6,6 @@
 
 ## [Davinci](da_vinci_base.md)
 
-Télécharger les fichiers suivants
+Télécharger et ouvrer le dossier suivant:
+
+[📁 Document de départ_01](../assets/image/17_femme_dore.png){ .md-button }   <br>   
