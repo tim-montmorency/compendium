@@ -27,7 +27,7 @@ Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.
 
 - [ ] Créez un calque de fond et remplissez-le en noir.
 - [ ] Ajoutez un calque par-dessus pour peindre vos effets spéciaux.
-- [ ] Téléchargez des brosses de fumée ou de flamme en ligne, extrayez-les, puis importez-les dans Photoshop (Outil Pinceau > Flèche > Engrenage > Importer des Pinceaux).
+- [ ] Téléchargez des brosses de fumée ou de flamme en ligne, (Recommandation: Brusheezy) extrayez-les, puis importez-les dans Photoshop (Outil Pinceau > Flèche > Engrenage > Importer des Pinceaux).
 
 ### 3. Peindre les Éléments d'Animation :
 - [ ] Assurez-vous que la couleur de votre pinceau est blanche.
