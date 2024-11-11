@@ -9,10 +9,13 @@ Note: La vidéo n'a pas de son, mais vous pouvez voir des paramètre modifiés d
 
 
 ## Animation de sprite sheet
-Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.   
+Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity. Vous aurez besoin du canva suivant pour créer votre feuille animée dans Photoshop:       
+
+[📁 Fichier de base Photoshop](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef8BiNB-HThNlw4ECnKykfMBOJoLYdTIP1aEh30nMRkL2w?e=zhyxSc){ .md-button }   
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eub9QMYbS0U?si=4LhGsPcKw2-sWfc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[📁 Fichier de base Photoshop](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef8BiNB-HThNlw4ECnKykfMBOJoLYdTIP1aEh30nMRkL2w?e=zhyxSc){ .md-button }   <br>
+
 
 ### Tutoriel écrit: 
 
