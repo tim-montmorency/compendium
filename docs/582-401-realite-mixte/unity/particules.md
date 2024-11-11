@@ -61,7 +61,7 @@ Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.
 - [ ] **Texture Sheet Animation**, changez “Frame Over Time” en “Random Between Two Constants” pour éviter la répétition et rendre l’effet plus naturel. Le premier frame sera 0 et le second 15.999.
 - [ ] **Color Over Lifetime** : Ajoutez des couleurs variées (ex. : dégradé de rose et violet) pour personnaliser la couleur de la fumée.
 
-### 10. Tester et Finaliser :
+### 9. Tester et Finaliser :
 - [ ] Jouez avec les paramètres pour obtenir l’effet souhaité (ex. : arrêter le système après une certaine durée ou choisir une animation en boucle).
 - [ ] Appuyez sur Play dans Unity pour voir votre animation de particules.
 
