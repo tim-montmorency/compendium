@@ -20,8 +20,8 @@ Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.
 ### Tutoriel écrit: 
 
 ### 1. Créer un Fichier de Base dans Photoshop :
-- [ ] Ouvrez Photoshop avec un fichier de 512x512 pixels en 72 dpi.
-- [ ] Divisez le document en 16 cases égales avec des règles, chaque case étant destinée à un élément de l'animation.
+- [ ] Ouvrez Photoshop avec un fichier de 512x512 pixels en 72 dpi. 
+- [ ] Divisez le document en 16 cases égales avec des règles, chaque case étant destinée à un élément de l'animation. (Déjà fait dans le fichier fourni ci-haut).
 
 ### 2. Préparer les Calques et les Brosses :    
 
