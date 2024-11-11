@@ -40,27 +40,25 @@ Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.
 
 ### 5. Importer la Sprite Sheet dans Unity :
 - [ ] Importez votre PNG dans Unity (par glisser-déposer dans un dossier).
-- [ ] Sélectionnez le fichier et définissez-le comme **Sprite (Multiple)**.
+- [ ] Sélectionnez le fichier et définissez son Texture type comme **Sprite** dans l'inspecteur ainsi que son Sprite Mode à **Multiple**.
 - [ ] Cliquez sur **Apply** pour appliquer les paramètres.
 
 ### 6. Créer un Matériel pour les Particules :
-- [ ] Cliquez droit dans Unity > **Create > Material** et nommez-le (ex. : “Particules Fumée”).
-- [ ] Définissez le type du matériel en tant que **Particle** et choisissez le mode **Additive**.
+- [ ] Cliquez droit dans la fenêtre Project > **Create > Material** et nommez-le (ex. : “Particules Fumée”).
+- [ ] Définissez le type du matériel en tant que **Particles > Standard Unlit** et choisissez le mode **Additive** dans Rendering mode.
 - [ ] Faites glisser votre sprite sheet dans le champ “Albedo” du matériel.
 
 ### 7. Créer un Système de Particules :
-- [ ] Cliquez droit dans Unity > **Effects > Particle System**.
-- [ ] Changez le matériel du système de particules pour celui que vous venez de créer.
-- [ ] Accédez à l’option **Texture Sheet Animation**, cochez “Grid”, et entrez 4x4 si votre sprite sheet contient 16 images.
+- [ ] Cliquez droit dans la fenêtre Hiérarchie > **Effects > Particle System**.
+- [ ] Dans l'inspecteur, dans la section Renderer, changez le matériel (Material) du système de particules pour celui que vous venez de créer.
+- [ ] Accédez à l’option **Texture Sheet Animation**, choisissez “Grid” dans le champ Mode, et entrez 4x4 dans la section Tiles si votre sprite sheet contient 16 images.
 
 ### 8. Ajuster les Paramètres du Système de Particules :
-- [ ] **Shape** : Modifiez la dispersion en ajustant l'angle et la direction pour que la fumée reste dans une zone précise.
-- [ ] **Start Speed** : Diminuez la vitesse pour ralentir les particules.
+- [ ] **Shape** : Modifiez la dispersion en ajustant l'angle et la direction pour que la fumée reste dans une zone précise. (Shape: Cone, Angle: 1, Radius: 0.1)
+- [ ] **Start Speed** : Diminuez la vitesse pour ralentir les particules. (0.02)
 - [ ] **Max Particles** : Limitez à 20 pour optimiser les performances.
 - [ ] **Size Over Lifetime** : Cochez cette option pour faire varier la taille des particules au cours de leur durée de vie.
-
-### 9. Créer une Variation Naturelle :
-- [ ] Dans **Texture Sheet Animation**, changez “Whole Sheet” en “Random Between Two Constants” pour éviter la répétition et rendre l’effet plus naturel.
+- [ ] **Texture Sheet Animation**, changez “Frame Over Time” en “Random Between Two Constants” pour éviter la répétition et rendre l’effet plus naturel. Le premier frame sera 0 et le second 15.999.
 - [ ] **Color Over Lifetime** : Ajoutez des couleurs variées (ex. : dégradé de rose et violet) pour personnaliser la couleur de la fumée.
 
 ### 10. Tester et Finaliser :
