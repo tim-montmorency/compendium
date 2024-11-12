@@ -19,9 +19,6 @@ Cafés numériques
 ## Débuter le travail 2
 [🛠️ Travail 2](./consignes/travail2.md){ .md-button } 
 
-## Test
-[🛠️ Nom du bouton](Lien vers le bouton){ .md-button } 
-
 
 ## Test d'expériences VR
 [🔎 Expériences VR](./installation/experiences.md){ .md-button } 
