@@ -24,6 +24,8 @@ Les éléments suivants doivent être présents dans votre portfolio :
 <p>Suivez les étapes 1 à 8 de la procédure suivante pour créer votre repo:</p>
 <a href="https://docs.github.com/fr/pages/quickstart">Procédure</a>
 
+<iframe src="https://scribehow.com/embed/Create_and_Deploy_a_GitHub_Pages_Repository__vr2BY4kHTJeO060RDoqx2A" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 <h2>Modification du thème</h2>
 <p>Pour pouvoir modifier le thème de votre site, vous devrez créer un fichier se nommant _config.yml </p>
 <p>Dans le fichier, inscrivez les trois lignes suivantes:</p>

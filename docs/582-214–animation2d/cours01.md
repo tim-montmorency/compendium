@@ -3,7 +3,7 @@
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN){ .md-button }   
 
-## Introduction à l'animation - Lora
+## Introduction à l'animation 
 [📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }   
 
 

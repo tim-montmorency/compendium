@@ -6,7 +6,7 @@ Modifier l'apparence des mains dans Unity est très simple. Pour se faire, suive
 
 - [ ] Sélectionnez le Left Controller ou Right Controller dans la hiérarchy.
 - [ ] Dans la composante XR Controller, trouvez le paramètre Model Prefab qui est tout en bas.
-- [ ] Glissez le modèle que vous voulez utiliser pour vos mains dans cette boîte.
+- [ ] Glissez le modèle que vous voulez utiliser pour vos mains dans cette boîte, je vous recommande de vous créer un prefab et d'utiliser celui-ci. Assurez-vous que votre prefab dispose d'un collider.
 - [ ] C'est tout!
 
 

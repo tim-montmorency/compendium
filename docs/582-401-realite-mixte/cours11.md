@@ -1,5 +1,6 @@
 # Cours 11
 ## Grimper
+Reproduire le tout en équipes. 
 
 [📝 Grimper en VR](unity/grimper.md){ .md-button }
 
@@ -7,13 +8,19 @@
 
 [📝 Canvas en VR](unity/ui_vr.md){ .md-button }
 
+## Transitions entre les scènes
+
+[📝 Transitions](unity/transitions.md){ .md-button }
+
 ## Audio
 
 [📝 Audio en VR](unity/audio_vr.md){ .md-button }
 
-## Transitions entre les scènes
 
-[📝 Transitions](unity/transitions.md){ .md-button }
+## Particules
+Exploration du système de particules: Qu'est-ce que ça permet de faire? 
+
+[📝 Particules](unity/particules.md){ .md-button }
 
 ## Matériaux
 
@@ -22,11 +29,6 @@
 ## Miroir
 
 [📝 Miroir](unity/miroir.md){ .md-button }
-
-## Particules
-Exploration du système de particules: Qu'est-ce que ça permet de faire? 
-
-[📝 Particules](unity/particules.md){ .md-button }
 
 
 ## Discussion et recherche sur les shaders
