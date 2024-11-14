@@ -412,3 +412,9 @@ Pour que l’activité de co-évaluation se maintienne dans un climat de respect
 - [ ] Dans le formulaire, ajouter un champ obligatoire de type Paragraph nommé «Critique».
 - [ ] Récupérer le lien du formulaire par le bouton Envoyer et utilisez le sur un autre onglet.
 - [ ] Laissez le formulaire allumé pour que chaque joueurs puissent l'utiliser.
+
+## Exercice
+
+- [ ] Ajoutez 2 effets spéciaux à votre jeu. 
+- [ ] Consultez les commentaires de vos collègues et faites une liste de tâches à partir de ceux-ci.
+ 
