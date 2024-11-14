@@ -20,7 +20,7 @@ this.cameras.main.flash(250);
 * **Force** : Force le démarrage immédiat de l’effet, même s’il est déjà en cours. Par défaut à `false`.
 * **Callback** : Fonction appelée pendant l'effet.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Flash" src="https://codepen.io/tim-momo/embed/WNVYjmp?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Flash" src="https://codepen.io/tim-momo/embed/WNVYjmp?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/WNVYjmp">
   Phaser - Fx - Flash</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -38,7 +38,7 @@ this.cameras.main.shake(100);
 * **Force** : Force le démarrage immédiat de l’effet, même s’il est déjà en cours. Par défaut à `false`.
 * **Callback** : Fonction appelée pendant l'effet.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Shake" src="https://codepen.io/tim-momo/embed/GRVPBQZ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Shake" src="https://codepen.io/tim-momo/embed/GRVPBQZ?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/GRVPBQZ">
   Phaser - Fx - Shake</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -64,7 +64,7 @@ this.cameras.main.fadeIn(0);
 
     Il est également possible de connaître la valeur du fade appliqué à la caméra avec la ligne suivante : `this.cameras.main.fadeEffect.progress`.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Shake" src="https://codepen.io/tim-momo/embed/PoMXdya?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Shake" src="https://codepen.io/tim-momo/embed/PoMXdya?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/PoMXdya">
   Phaser - Fx - Shake</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -84,7 +84,7 @@ this.cameras.main.pan(400, 300, 1000);
 * **Force** : Force le démarrage immédiat de l’effet, même s’il est déjà en cours. Par défaut à `false`.
 * **Callback** : Fonction appelée pendant l'effet.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx 2" src="https://codepen.io/tim-momo/embed/KKOrXem?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx 2" src="https://codepen.io/tim-momo/embed/KKOrXem?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/KKOrXem">
   Phaser - Fx 2</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -121,7 +121,7 @@ Le paramètre amount contrôle l’intensité de cette distorsion :
 
 Il est recommandé de maintenir ce paramètre entre -1 et 1 pour des résultats optimaux. La valeur par défaut est 1.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Pan" src="https://codepen.io/tim-momo/embed/RwXEexE?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Pan" src="https://codepen.io/tim-momo/embed/RwXEexE?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/RwXEexE">
   Phaser - Fx - Pan</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -142,7 +142,7 @@ this.cameras.main.postFX.addBloom(1.5, 1.0, 1.0, 1.0, 1.0, 4);
 * **strength** : Contrôle la force globale de l’effet de lueur. Valeur par défaut : 1.0.
 * **steps** : Nombre d’étapes pour le rendu de la lueur. Valeur par défaut : 4.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Barrel" src="https://codepen.io/tim-momo/embed/vYovVMM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Barrel" src="https://codepen.io/tim-momo/embed/vYovVMM?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/vYovVMM">
   Phaser - Fx - Barrel</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -163,7 +163,7 @@ this.cameras.main.postFX.addBlur(0, 2, 2, 1, 0xffffff, 4);
 * **color** : Couleur du flou, en valeur hexadécimale. Valeur par défaut : 0xffffff.
 * **steps** : Nombre d’étapes pour le rendu du flou. Valeur par défaut : 4.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Blur" src="https://codepen.io/tim-momo/embed/VwoqEJR?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Blur" src="https://codepen.io/tim-momo/embed/VwoqEJR?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/VwoqEJR">
   Phaser - Fx - Blur</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -184,7 +184,7 @@ this.cameras.main.postFX.addCircle(8, 0xfeedb6, 0xff0000, 1, 0.005);
 * **scale** : Échelle du cercle. Valeur par défaut : 1.
 * **feather** : Quantité de flou appliqué au bord du cercle. Valeur par défaut : 0.005.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Bokeh" src="https://codepen.io/tim-momo/embed/NWQeOQr?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Bokeh" src="https://codepen.io/tim-momo/embed/NWQeOQr?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/NWQeOQr">
   Phaser - Fx - Bokeh</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -236,7 +236,7 @@ this.cameras.main.postFX.addDisplacement('textureKey', 0.005, 0.005);
 * **texture** : Clé de la texture de déplacement chargée dans le gestionnaire de textures.
 * **x** et **y** : Quantité de déplacement horizontal et vertical. Valeurs par défaut : 0.005.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Circle" src="https://codepen.io/tim-momo/embed/yLmZVQa?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Circle" src="https://codepen.io/tim-momo/embed/yLmZVQa?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/yLmZVQa">
   Phaser - Fx - Circle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -258,7 +258,7 @@ this.cameras.main.postFX.addGlow(0xffffff, 4, 0, false, 0.1, 10);
 * **quality** : Qualité de l’effet de lueur. Valeur par défaut : 0.1.
 * **distance** : Distance de la lueur. Valeur par défaut : 10.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Flash" src="https://codepen.io/tim-momo/embed/RwXvKbO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Flash" src="https://codepen.io/tim-momo/embed/RwXvKbO?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/RwXvKbO">
   Phaser - Fx - Glow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -280,7 +280,7 @@ this.cameras.main.postFX.addGradient(0xff0000, 0x0000ff, 0.5, 0, 0, 1, 1, 0);
 * **toX** et **toY** : Position de fin du dégradé (valeurs normalisées entre 0 et 1).
 * **size** : Nombre de segments dans le dégradé (0 pour un dégradé lisse).
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Gradient" src="https://codepen.io/tim-momo/embed/mdNvWmm?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Gradient" src="https://codepen.io/tim-momo/embed/mdNvWmm?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/mdNvWmm">
   Phaser - Fx - Gradient</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -297,7 +297,7 @@ this.cameras.main.postFX.addPixelate(10);
 
 * **amount** : Taille des pixels appliqués.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Gradient" src="https://codepen.io/tim-momo/embed/dyxaZdB?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Gradient" src="https://codepen.io/tim-momo/embed/dyxaZdB?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/dyxaZdB">
   Phaser - Fx - Gradient</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -317,7 +317,7 @@ this.cameras.main.postFX.addShine(0.5, 0.5, 3, false);
 * **gradient** : Intensité du dégradé de la brillance.
 * **reveal** : Si true, la brillance révèle l’objet ; sinon, elle s’ajoute à l’objet.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Pixelate" src="https://codepen.io/tim-momo/embed/JjgxOBz?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Pixelate" src="https://codepen.io/tim-momo/embed/JjgxOBz?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/JjgxOBz">
   Phaser - Fx - Pixelate</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -340,7 +340,7 @@ this.player.main.postFX.addShadow(10, 10, 0.1, 1, 0x000000, 6, 1);
 * **samples** : Nombre d’échantillons pour l’effet d’ombre (entier entre 1 et 12). Par défaut: 6
 * **intensity** : Intensité de l’ombre. Par défaut : 1
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Circle" src="https://codepen.io/tim-momo/embed/QWeYOZM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Circle" src="https://codepen.io/tim-momo/embed/QWeYOZM?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/QWeYOZM">
   Phaser - Fx - Circle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -360,7 +360,7 @@ this.cameras.main.postFX.addVignette(0.5, 0.5, 0.5, 0.5);
 * **radius** : Rayon de l’effet de vignette, exprimé en valeur relative, qui détermine à quelle distance du centre l’assombrissement commence. Une valeur de 0.5 signifie que l’assombrissement commence à mi-distance entre le centre et le bord de l’écran.
 * **strength** : Intensité de l’assombrissement appliqué par l’effet de vignette. Une valeur comprise entre 0 et 1, où 0 signifie aucun assombrissement et 1 représente l’assombrissement maximal.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Vignette" src="https://codepen.io/tim-momo/embed/yLmZpyq?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Vignette" src="https://codepen.io/tim-momo/embed/yLmZpyq?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/yLmZpyq">
   Phaser - Fx - Vignette</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -383,7 +383,7 @@ this.cameras.main.postFX.addWipe(0.1, 0, 0);
   * **0** : Axe horizontal.
   * **1** : Axe vertical.
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Vignette" src="https://codepen.io/tim-momo/embed/rNXPpdX?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Fx - Vignette" src="https://codepen.io/tim-momo/embed/rNXPpdX?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/rNXPpdX">
   Phaser - Fx - Vignette</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
