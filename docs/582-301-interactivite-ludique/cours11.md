@@ -3,7 +3,7 @@ tags:
   - Cours 11
   - Jeudi 14 novembre
 ---
-[STOP]
+
 # Effets spéciaux
 
 ## Flash
