@@ -21,7 +21,7 @@
 
 
 ## Courants artistiques
-* [Courants artistiques](https://cmontmorency365-my.sharepoint.com/:p:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_02_creation_moodboard/04_courant_design/courant_design_vecteur.pptx?d=wd9c991b764b5430ab6f451fd0e199fdb&csf=1&web=1&e=OAXRhi)
+* [Courants artistiques](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbeRydm1ZApDtvRR_Q4Zn9sBATF6_jX7MIQCEuFurwYOiA?e=zl03hb)
 
 ## Synopsis
 * [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EZVIYRt62_5ItWVUsDlonGUBgBfSLdBljZ9ZJj4dcbPZ_g?e=03AxC4)
