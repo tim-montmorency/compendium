@@ -16,4 +16,4 @@ PS. Si vous n'avez pas vu [Everything Everywhere All at Once](https://www.imdb.c
 
 ## Remise
 
-12 novembre 2024 à 23h59
+21 novembre 2024 à 23h59
