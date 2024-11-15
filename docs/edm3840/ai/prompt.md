@@ -11,6 +11,7 @@
 
 [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
 )
+[Midlibrary](https://midlibrary.io/)
 
 ### Structure des prompts
 
