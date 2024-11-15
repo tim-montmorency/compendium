@@ -61,6 +61,7 @@ nav:
       - Références: edm3840/references.md
       - Projet 1: edm3840/projet01.md
       - Projet 2: edm3840/projet02.md
+      - Prompt: edm3840/ai/prompt.md
       - Kling: edm3840/ai/klingai.md
       - Midjourney: edm3840/ai/midjourney.md
       - Midjourney code: edm3840/ai/midjourney_code.md
@@ -205,6 +206,7 @@ nav:
       - Capsules Da Vinci / La base: 582-312–video2/da_vinci_base.md
       - Capsules Da Vinci / La colo: 582-312–video2/da_vinci_colorisation.md
       - AI: 582-312–video2/ai/ai.md
+      - Prompt: 582-312–video2/ai/prompt.md
       - Midjourney: 582-312–video2/ai/midjourney.md
       - Midjourney code: 582-312–video2/ai/midjourney_code.md
       - Runway: 582-312–video2/ai/runway.md
