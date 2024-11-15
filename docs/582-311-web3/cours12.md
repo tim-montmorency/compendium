@@ -65,6 +65,10 @@ gsap.to(".box", {
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+!!! success "SVG"
+
+    Vous pouvez trouver des SVG gratuit ici : https://www.svgrepo.com/collection/free-animals/
+
 ### Text
 
 Le plugiciel [Text](https://gsap.com/docs/v3/Plugins/TextPlugin/) permet d’animer le contenu textuel d’un élément DOM, en remplaçant progressivement le texte existant par un nouveau.
