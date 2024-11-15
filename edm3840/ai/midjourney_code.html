@@ -2374,6 +2374,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#4-iw-poids-de-limage-de-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. --iw (poids de l'image de référence)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11650,6 +11659,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#4-iw-poids-de-limage-de-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. --iw (poids de l'image de référence)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11688,11 +11706,28 @@
 <li><strong>Exemple</strong> : <code>--sw 1000</code> donne une grande liberté à l'IA pour styliser l'image de manière fortement influencée par un style ou une référence artistique, avec un rendu très artistique.</li>
 </ul>
 <hr>
+<h2 id="4-iw-poids-de-limage-de-reference">4. --iw (poids de l'image de référence)<a class="headerlink" href="#4-iw-poids-de-limage-de-reference" title="Permanent link">¶</a></h2>
+<p><strong>Définition</strong> : Le paramètre <strong>--iw</strong> (Image Weight) contrôle l'importance de l'image de référence par rapport au texte du prompt. Il permet de donner plus ou moins de poids à une image utilisée comme référence, influençant ainsi directement le rendu final.</p>
+<ul>
+<li><strong>Valeur par défaut</strong> : La valeur par défaut de <strong>--iw</strong> est <strong>1</strong>, ce qui signifie une influence équilibrée entre l'image de référence et le texte.</li>
+<li><strong>Valeurs typiques</strong> : Les valeurs pour <strong>--iw</strong> vont de <strong>0 à 3</strong>.<ul>
+<li>Une valeur proche de <strong>0</strong> privilégie le texte et minimise l'influence de l'image.</li>
+<li>Une valeur proche de <strong>3</strong> maximise l'influence de l'image, en réduisant l'impact du texte.</li>
+</ul>
+</li>
+<li><strong>Exemple</strong> :<ul>
+<li><code>--iw 0.5</code> : donne plus de flexibilité à l'IA pour interpréter le prompt texte.</li>
+<li><code>--iw 3</code> : impose strictement les caractéristiques de l'image de référence dans le rendu final.</li>
+</ul>
+</li>
+</ul>
+<hr>
 <h1 id="resume-des-commandes">Résumé des commandes<a class="headerlink" href="#resume-des-commandes" title="Permanent link">¶</a></h1>
 <ul>
 <li><strong>--stylize 1000</strong> : Définit le degré de stylisation artistique appliqué à l'interprétation du prompt texte, offrant un rendu plus artistique tout en maintenant une certaine cohérence avec le prompt.</li>
 <li><strong>--cw 100</strong> : Par défaut, contrôle la fidélité de l'IA à un personnage généré via une image de référence, offrant un rendu précis du personnage selon la référence fournie.</li>
 <li><strong>--sw 1000</strong> : Accentue l'influence artistique sur l'image, en fonction d'une référence ou d'un style prédéfini, s'éloignant du réalisme pour aller vers un rendu créatif.</li>
+<li><strong>--iw 3</strong> : Contrôle l'importance relative de l'image de référence, offrant un équilibre par défaut avec le texte.</li>
 </ul>
 <hr>
 <h1 id="differences-cles">Différences clés<a class="headerlink" href="#differences-cles" title="Permanent link">¶</a></h1>
@@ -11700,6 +11735,7 @@
 <li><strong>--stylize</strong> : Influence le degré global de stylisation basé sur le texte du prompt.</li>
 <li><strong>--cw</strong> : Gère le poids des caractéristiques d'un personnage à partir d'une référence visuelle, avec une valeur par défaut de 100 pour une fidélité maximale à la référence.</li>
 <li><strong>--sw</strong> : Contrôle la force de stylisation basée sur une influence artistique ou un style prédéfini.</li>
+<li><strong>--iw</strong> : Contrôle l'équilibre entre texte et image de référence pour déterminer leur importance relative.</li>
 </ul></div>
 
 
