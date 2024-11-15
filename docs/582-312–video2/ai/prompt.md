@@ -8,7 +8,7 @@
 
 - [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
 )
-- [Midlibrairy](https://midlibrary.io/)
+- [Midlibrary](https://midlibrary.io/)
 
 ### Structure des prompts
 
