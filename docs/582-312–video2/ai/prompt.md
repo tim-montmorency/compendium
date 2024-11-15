@@ -6,9 +6,9 @@
 
 ### Outils en ligne
 
-[Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
+- [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
 )
-[Midlibrairy](https://midlibrary.io/)
+- [Midlibrairy](https://midlibrary.io/)
 
 ### Structure des prompts
 
