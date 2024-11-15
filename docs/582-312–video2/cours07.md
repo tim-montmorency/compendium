@@ -4,7 +4,8 @@
 
 ## Présentation du projet 1
 
-[Moodboard](https://www.youtube.com/watch?v=p03cRSbIQFU) 
+[Moodboard 1](https://www.youtube.com/watch?v=p03cRSbIQFU) 
+[Moodboard 2](https://www.youtube.com/watch?v=PnZnjSFHSzY)
 
 ## Explication du [projet 2](projet_02.md)
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
