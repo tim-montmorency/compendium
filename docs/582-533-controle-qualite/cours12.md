@@ -10,7 +10,8 @@ Téléchargez le dossier suivant, il contient le jeu à tester ainsi que ses dé
 [📁 Jeu](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eqc0RbqR1dpJoJWRuF2wUQoBI0fwS_Q6bD8Nbie4NokFJQ?e=bivfUR){ .md-button }  
 
 ## Présentation du projet final
-Voir instructions sur Teams. 
+Voir instructions sur Teams.     
+
 [📁 Exemple de projet final](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQIw4Mej8vtKjdsqyHPpBcYBkDEVVlVX60VEMO6wj1CBog?e=9rjo7F){ .md-button }  
 
 
