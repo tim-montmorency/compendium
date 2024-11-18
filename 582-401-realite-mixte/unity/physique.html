@@ -11680,25 +11680,25 @@
 </ul>
 <h3 id="etape-2-parametrer-le-cadre">Étape 2 : Paramétrer le cadre<a class="headerlink" href="#etape-2-parametrer-le-cadre" title="Permanent link">¶</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Rigidbody au cadre</strong> : Le cadre doit avoir un Rigidbody avec l'option <strong>Is Kinematic</strong> activée pour qu'il ne soit pas affecté par la gravité. Cela permettra à la porte de rester fixe pendant que le reste du mécanisme bouge.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Rigidbody au cadre</strong> : Le cadre doit avoir un Rigidbody avec l'option <strong>Is Kinematic</strong> activée. Décocher <strong>Use gravity</strong> pour qu'il ne soit pas affecté par la gravité. Cela permettra à la porte de rester fixe pendant que le reste du mécanisme bouge.</li>
 </ul>
 <h3 id="etape-3-configurer-la-porte">Étape 3 : Configurer la porte<a class="headerlink" href="#etape-3-configurer-la-porte" title="Permanent link">¶</a></h3>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Rigidbody à la porte</strong> : La porte aura également un Rigidbody, mais cette fois-ci, la gravité doit être activée pour qu'elle puisse se déplacer.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Hinge Joint à la porte</strong> : Ce joint permettra à la porte de s'ouvrir et se fermer comme une porte classique. Lorsque vous ajoutez un Hinge Joint, Unity le relie automatiquement au Rigidbody de la porte.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Hinge Joint à la porte</strong> : Ce joint permettra à la porte de s'ouvrir et se fermer comme une porte classique. Glissez le cadre de la porte dans la section <strong>Connected body</strong> du hinge joint.</li>
 </ul>
 <h3 id="etape-4-configurer-laxe-de-rotation">Étape 4 : Configurer l'axe de rotation<a class="headerlink" href="#etape-4-configurer-laxe-de-rotation" title="Permanent link">¶</a></h3>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Aligner l'axe de la porte</strong> : Pour que la porte s'ouvre correctement, vous devez ajuster l'axe de rotation. <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le bouton <strong>Edit Collider</strong> du Hinge Joint pour afficher la flèche de rotation.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez l'axe de rotation pour qu'il corresponde à celui du cadre, en ajustant les axes <strong>X</strong>, <strong>Y</strong>, ou <strong>Z</strong> selon la direction que vous souhaitez pour l'ouverture de la porte.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le bouton <strong>Edit angular limits</strong> du Hinge Joint pour afficher la flèche de rotation. Activez aussi les <strong>gizmos</strong> si ce n'est pas fait.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez l'axe de rotation pour qu'il corresponde à celui du cadre, en ajustant les axes <strong>X</strong>, <strong>Y</strong>, ou <strong>Z</strong> selon la direction que vous souhaitez pour l'ouverture de la porte. Assurez-vous aussi de modifier la position du <strong>anchor</strong> pour que la flèche soit au point de rotation de la porte. </li>
 </ul>
 </li>
 </ul>
 <h3 id="etape-5-definir-les-limites-de-mouvement">Étape 5 : Définir les limites de mouvement<a class="headerlink" href="#etape-5-definir-les-limites-de-mouvement" title="Permanent link">¶</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter des limites de rotation</strong> : Vous pouvez définir jusqu'où la porte peut s'ouvrir en activant les options <strong>Angular Limits</strong> dans le Hinge Joint.<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajustez les limites pour restreindre l'ouverture de la porte. Cela empêchera la porte de tourner librement et assurera qu'elle ne dépasse pas la zone souhaitée.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter des limites de rotation</strong> : Vous pouvez définir jusqu'où la porte peut s'ouvrir en activant les options <strong>Use Limits</strong> dans le Hinge Joint.<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajustez les limites pour restreindre l'ouverture de la porte avec les poignées oranges. Cela empêchera la porte de tourner librement et assurera qu'elle ne dépasse pas la zone souhaitée.</li>
 </ul>
 </li>
 </ul>
