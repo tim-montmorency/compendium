@@ -49,6 +49,11 @@
 
 [📝 Ressource](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#5ff8ce16edbc2a0023134676){ .md-button }
 
+## Remplir la fiche d'autoévaluation et d'évaluation par les pairs
+
+## Rencontre des équipes
+Analyse de l'évaluation. Discussion sur les prochaines étapes. Choisir les objectifs à atteindre d'ici la semaine 13. 
+
 ## Devoir
 
 [🛠️ Travail 3](./consignes/travail3.md){ .md-button }
