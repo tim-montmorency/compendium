@@ -11553,6 +11553,93 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tutoriel-ecrit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutoriel écrit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutoriel écrit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-creer-les-objets-necessaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Créer les objets nécessaires
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-parametrer-le-cadre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Paramétrer le cadre
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-configurer-la-porte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Configurer la porte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-4-configurer-laxe-de-rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 4 : Configurer l'axe de rotation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-5-definir-les-limites-de-mouvement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 5 : Définir les limites de mouvement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-6-tester-la-porte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 6 : Tester la porte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-7-ajouter-linteraction-avec-le-joueur" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 7 : Ajouter l’interaction avec le joueur
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-8-finaliser-et-tester-avec-la-manette" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 8 : Finaliser et tester avec la manette
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#pont-hinge-joint" class="md-nav__link">
     <span class="md-ellipsis">
       Pont - Hinge joint
@@ -11580,9 +11667,63 @@
 
 <div><p>Dans Unity, il existe un système de physique qui peut nous aider à controller nos objets.   </p>
 <h2 id="portes-hinge-joint">Portes - Hinge joint<a class="headerlink" href="#portes-hinge-joint" title="Permanent link">¶</a></h2>
-<p>Dans ce tutoriel, nous explorerons le fonctionnement du Hinge joint qui est un joint qui permet de faire bouger des éléments tel qu'une porte. </p>
+<p>Dans ce tutoriel, nous allons explorer la mécanique d'une porte avec un <strong>Hinge Joint</strong> pour permettre à la porte de s'ouvrir et se fermer.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o4wmlcrBF74?si=Q35INM4N8A0oL5-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<h2 id="tutoriel-ecrit">Tutoriel écrit<a class="headerlink" href="#tutoriel-ecrit" title="Permanent link">¶</a></h2>
+<p>Voici les étapes à suivre :</p>
+<h3 id="etape-1-creer-les-objets-necessaires">Étape 1 : Créer les objets nécessaires<a class="headerlink" href="#etape-1-creer-les-objets-necessaires" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer l'objet vide pour la porte</strong> : Commencez par créer un objet vide qui contiendra votre porte.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un cube pour la porte</strong> : Ajoutez un cube, qui servira de porte.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer un cadre</strong> : Placez également un cadre autour de la porte. Vous pouvez utiliser n'importe quel objet comme cadre, mais il est important qu'il possède des <strong>Box Colliders</strong> pour la détection de collision.</li>
+</ul>
+<h3 id="etape-2-parametrer-le-cadre">Étape 2 : Paramétrer le cadre<a class="headerlink" href="#etape-2-parametrer-le-cadre" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Rigidbody au cadre</strong> : Le cadre doit avoir un Rigidbody avec l'option <strong>Is Kinematic</strong> activée pour qu'il ne soit pas affecté par la gravité. Cela permettra à la porte de rester fixe pendant que le reste du mécanisme bouge.</li>
+</ul>
+<h3 id="etape-3-configurer-la-porte">Étape 3 : Configurer la porte<a class="headerlink" href="#etape-3-configurer-la-porte" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Rigidbody à la porte</strong> : La porte aura également un Rigidbody, mais cette fois-ci, la gravité doit être activée pour qu'elle puisse se déplacer.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter un Hinge Joint à la porte</strong> : Ce joint permettra à la porte de s'ouvrir et se fermer comme une porte classique. Lorsque vous ajoutez un Hinge Joint, Unity le relie automatiquement au Rigidbody de la porte.</li>
+</ul>
+<h3 id="etape-4-configurer-laxe-de-rotation">Étape 4 : Configurer l'axe de rotation<a class="headerlink" href="#etape-4-configurer-laxe-de-rotation" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Aligner l'axe de la porte</strong> : Pour que la porte s'ouvre correctement, vous devez ajuster l'axe de rotation. <ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le bouton <strong>Edit Collider</strong> du Hinge Joint pour afficher la flèche de rotation.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez l'axe de rotation pour qu'il corresponde à celui du cadre, en ajustant les axes <strong>X</strong>, <strong>Y</strong>, ou <strong>Z</strong> selon la direction que vous souhaitez pour l'ouverture de la porte.</li>
+</ul>
+</li>
+</ul>
+<h3 id="etape-5-definir-les-limites-de-mouvement">Étape 5 : Définir les limites de mouvement<a class="headerlink" href="#etape-5-definir-les-limites-de-mouvement" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter des limites de rotation</strong> : Vous pouvez définir jusqu'où la porte peut s'ouvrir en activant les options <strong>Angular Limits</strong> dans le Hinge Joint.<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajustez les limites pour restreindre l'ouverture de la porte. Cela empêchera la porte de tourner librement et assurera qu'elle ne dépasse pas la zone souhaitée.</li>
+</ul>
+</li>
+</ul>
+<h3 id="etape-6-tester-la-porte">Étape 6 : Tester la porte<a class="headerlink" href="#etape-6-tester-la-porte" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Testez l'ouverture de la porte</strong> : Appuyez sur Play pour voir si la porte fonctionne comme prévu.<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> La porte devrait pouvoir tourner autour de l'axe que vous avez configuré et se fermer ou s'ouvrir en fonction de l'interaction.</li>
+</ul>
+</li>
+</ul>
+<h3 id="etape-7-ajouter-linteraction-avec-le-joueur">Étape 7 : Ajouter l’interaction avec le joueur<a class="headerlink" href="#etape-7-ajouter-linteraction-avec-le-joueur" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Configurer l’interaction avec le joueur</strong> : Pour que la porte puisse être poussée par le joueur, vous devez ajouter un système d'interaction.<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez des <strong>Direct Interactions</strong> pour que le joueur puisse pousser la porte avec ses mains. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez un Rigidbody cinématique à la main du joueur et désactivez l'option <strong>Use Gravity</strong> pour éviter que les mains soient affectées par la gravité.</li>
+</ul>
+</li>
+</ul>
+<h3 id="etape-8-finaliser-et-tester-avec-la-manette">Étape 8 : Finaliser et tester avec la manette<a class="headerlink" href="#etape-8-finaliser-et-tester-avec-la-manette" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Testez avec la manette</strong> : Une fois l’interaction configurée, utilisez la manette pour tester l’ouverture de la porte.<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> La porte devrait s’ouvrir lorsque vous interagissez avec elle. Vous pouvez ajuster la limite de rotation si nécessaire pour modifier l’angle d’ouverture.</li>
+</ul>
+</li>
+</ul>
 <h2 id="pont-hinge-joint">Pont - Hinge joint<a class="headerlink" href="#pont-hinge-joint" title="Permanent link">¶</a></h2>
 <p>Dans ce tutoriel, nous explorerons le fonctionnement du Hinge joint pour créer un pont avec des planches indépendantes reliées entre elles.   </p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_j9J9VltPj4?si=n2c0SWbqyPC7kvHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
