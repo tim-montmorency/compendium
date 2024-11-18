@@ -18,20 +18,20 @@ Voici les étapes à suivre :
 - [ ] **Créer un cadre** : Placez également un cadre autour de la porte. Vous pouvez utiliser n'importe quel objet comme cadre, mais il est important qu'il possède des **Box Colliders** pour la détection de collision.
 
 ### Étape 2 : Paramétrer le cadre
-- [ ] **Ajouter un Rigidbody au cadre** : Le cadre doit avoir un Rigidbody avec l'option **Is Kinematic** activée pour qu'il ne soit pas affecté par la gravité. Cela permettra à la porte de rester fixe pendant que le reste du mécanisme bouge.
+- [ ] **Ajouter un Rigidbody au cadre** : Le cadre doit avoir un Rigidbody avec l'option **Is Kinematic** activée. Décocher **Use gravity** pour qu'il ne soit pas affecté par la gravité. Cela permettra à la porte de rester fixe pendant que le reste du mécanisme bouge.
 
 ### Étape 3 : Configurer la porte
 - [ ] **Ajouter un Rigidbody à la porte** : La porte aura également un Rigidbody, mais cette fois-ci, la gravité doit être activée pour qu'elle puisse se déplacer.
-- [ ] **Ajouter un Hinge Joint à la porte** : Ce joint permettra à la porte de s'ouvrir et se fermer comme une porte classique. Lorsque vous ajoutez un Hinge Joint, Unity le relie automatiquement au Rigidbody de la porte.
+- [ ] **Ajouter un Hinge Joint à la porte** : Ce joint permettra à la porte de s'ouvrir et se fermer comme une porte classique. Glissez le cadre de la porte dans la section **Connected body** du hinge joint.
 
 ### Étape 4 : Configurer l'axe de rotation
 - [ ] **Aligner l'axe de la porte** : Pour que la porte s'ouvre correctement, vous devez ajuster l'axe de rotation. 
-   - [ ] Cliquez sur le bouton **Edit Collider** du Hinge Joint pour afficher la flèche de rotation.
-   - [ ] Changez l'axe de rotation pour qu'il corresponde à celui du cadre, en ajustant les axes **X**, **Y**, ou **Z** selon la direction que vous souhaitez pour l'ouverture de la porte.
+   - [ ] Cliquez sur le bouton **Edit angular limits** du Hinge Joint pour afficher la flèche de rotation. Activez aussi les **gizmos** si ce n'est pas fait.
+   - [ ] Changez l'axe de rotation pour qu'il corresponde à celui du cadre, en ajustant les axes **X**, **Y**, ou **Z** selon la direction que vous souhaitez pour l'ouverture de la porte. Assurez-vous aussi de modifier la position du **anchor** pour que la flèche soit au point de rotation de la porte. 
 
 ### Étape 5 : Définir les limites de mouvement
-- [ ] **Ajouter des limites de rotation** : Vous pouvez définir jusqu'où la porte peut s'ouvrir en activant les options **Angular Limits** dans le Hinge Joint.
-   - [ ] Ajustez les limites pour restreindre l'ouverture de la porte. Cela empêchera la porte de tourner librement et assurera qu'elle ne dépasse pas la zone souhaitée.
+- [ ] **Ajouter des limites de rotation** : Vous pouvez définir jusqu'où la porte peut s'ouvrir en activant les options **Use Limits** dans le Hinge Joint.
+   - [ ] Ajustez les limites pour restreindre l'ouverture de la porte avec les poignées oranges. Cela empêchera la porte de tourner librement et assurera qu'elle ne dépasse pas la zone souhaitée.
 
 ### Étape 6 : Tester la porte
 - [ ] **Testez l'ouverture de la porte** : Appuyez sur Play pour voir si la porte fonctionne comme prévu.
