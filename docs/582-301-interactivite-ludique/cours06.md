@@ -117,7 +117,7 @@ this.cameras.main.setBounds(0, 0, this.worldWidth, this.worldHeight)
 
 ### Qu’est-ce qu’une animation sprite ?
 
-Une **animation sprite** consiste à afficher une série d’images (ou **frames**) dans un ordre spécifique pour donner l’illusion de mouvement. Chaque image représente une étape de l’animation, et lorsqu’elles sont montrées rapidement les unes après les autres, cela crée une animation fluide.
+Une **animation sprite** consiste à afficher une série d’images (ou **frames**) dans un ordre spécifique pour donner l’illusion de mouvement. Chaque image représente une étape de l’animation et lorsqu’elles sont montrées rapidement les unes après les autres, cela crée une animation fluide.
 
 <figure markdown>
   ![](./assets/images/Eadweard-Muybridge.webp){.w-100}

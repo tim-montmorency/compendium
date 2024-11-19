@@ -307,7 +307,7 @@ class Example extends Phaser.Scene {
 
 Grâce au système de physique, il est très facile d’empêcher un objet de sortir des limites du jeu en utilisant la fonction `setCollideWorldBounds()`.
 
-Cette méthode permet de faire en sorte que l’objet se heurte aux bords du monde défini, et reste à l’intérieur des limites.
+Cette méthode permet de faire en sorte que l’objet se heurte aux bords du monde défini et reste à l’intérieur des limites.
 
 <iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - Déplacement B1 - Physique" src="https://codepen.io/tim-momo/embed/MWMLQMN/0325679fba015b092381ec553d6f8d49?default-tab=&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/MWMLQMN/0325679fba015b092381ec553d6f8d49">
