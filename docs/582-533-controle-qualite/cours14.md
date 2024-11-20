@@ -5,7 +5,7 @@ Cours Lora: 12h40 à 15h20
 Cours Charlène: 14h20 à 17h
 
 ## Conférence de la guilde du jeu vidéo et de Synthèse
-14h20 à 15h20: C-1712
+14h20 à 15h20: C-1712 
 
 ## Guide du travailleur autonome
 [📁 Accéder au guide](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edg24C6YapVOiRO9agjLVsoBkFHpwhdj7osLAUoZNOf7jA?e=VFV52N){ .md-button }
