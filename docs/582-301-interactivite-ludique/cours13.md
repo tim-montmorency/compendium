@@ -9,3 +9,5 @@ tags:
 Tests et optimisation
 — Réusinage
 — Compression des médias
+
+https://dev.to/balrajola/how-to-write-clean-code-refactoring-and-best-practices-1mo

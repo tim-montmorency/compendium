@@ -1,6 +1,5 @@
 # Définition des commandes dans MidJourney
 
-
 ## 1. --stylize (stylisation générale)
 **Définition** : Le paramètre **--stylize** contrôle l'intensité de la créativité que MidJourney applique lors de l'interprétation du texte du prompt. Il influence la manière dont l'image est globalement stylisée. Une valeur plus élevée entraîne un rendu plus artistique, mais potentiellement moins fidèle à la description textuelle initiale.
 
@@ -26,11 +25,25 @@
 
 ---
 
+## 4. --iw (poids de l'image de référence)
+**Définition** : Le paramètre **--iw** (Image Weight) contrôle l'importance de l'image de référence par rapport au texte du prompt. Il permet de donner plus ou moins de poids à une image utilisée comme référence, influençant ainsi directement le rendu final.
+
+- **Valeur par défaut** : La valeur par défaut de **--iw** est **1**, ce qui signifie une influence équilibrée entre l'image de référence et le texte.
+- **Valeurs typiques** : Les valeurs pour **--iw** vont de **0 à 3**.
+  - Une valeur proche de **0** privilégie le texte et minimise l'influence de l'image.
+  - Une valeur proche de **3** maximise l'influence de l'image, en réduisant l'impact du texte.
+- **Exemple** :
+  - `--iw 0.5` : donne plus de flexibilité à l'IA pour interpréter le prompt texte.
+  - `--iw 3` : impose strictement les caractéristiques de l'image de référence dans le rendu final.
+
+---
+
 # Résumé des commandes
 
 - **--stylize 1000** : Définit le degré de stylisation artistique appliqué à l'interprétation du prompt texte, offrant un rendu plus artistique tout en maintenant une certaine cohérence avec le prompt.
 - **--cw 100** : Par défaut, contrôle la fidélité de l'IA à un personnage généré via une image de référence, offrant un rendu précis du personnage selon la référence fournie.
 - **--sw 1000** : Accentue l'influence artistique sur l'image, en fonction d'une référence ou d'un style prédéfini, s'éloignant du réalisme pour aller vers un rendu créatif.
+- **--iw 3** : Contrôle l'importance relative de l'image de référence, offrant un équilibre par défaut avec le texte.
 
 ---
 
@@ -39,4 +52,4 @@
 - **--stylize** : Influence le degré global de stylisation basé sur le texte du prompt.
 - **--cw** : Gère le poids des caractéristiques d'un personnage à partir d'une référence visuelle, avec une valeur par défaut de 100 pour une fidélité maximale à la référence.
 - **--sw** : Contrôle la force de stylisation basée sur une influence artistique ou un style prédéfini.
-
+- **--iw** : Contrôle l'équilibre entre texte et image de référence pour déterminer leur importance relative.

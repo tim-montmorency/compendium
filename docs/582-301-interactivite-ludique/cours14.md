@@ -57,7 +57,7 @@ Soyez prêt à recevoir des retours des joueurs. Cela peut inclure des suggestio
 
 8. Promotion
 
-Utilisez les réseaux sociaux, forums de développeurs, et autres plateformes pour promouvoir votre jeu. Partagez votre processus de développement et engagez avec la communauté pour attirer plus de joueurs.
+Utilisez les réseaux sociaux, forums de développeurs et autres plateformes pour promouvoir votre jeu. Partagez votre processus de développement et engagez avec la communauté pour attirer plus de joueurs.
 
 Voici un résumé des étapes :
 
