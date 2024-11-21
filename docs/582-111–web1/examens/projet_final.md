@@ -1,5 +1,6 @@
 # Projet Final
-![2400-ai-generated-examine-the-significance-of-debugging-tools-and-techniques-in-the-programming-workflow-and-evaluate-how-they-contribute-to-improving-code-quality-and-efficiency](https://github.com/user-attachments/assets/3b9ca150-e0a5-4def-9813-f728da2970e4)
+![1920-ai-generated-sleek-minimalist-coding-interface-on-laptop-flat-design-illustration](https://github.com/user-attachments/assets/3b5122b0-a76f-44ab-b609-8734c97bb1ef)
+
 
 ## Instructions  
 
