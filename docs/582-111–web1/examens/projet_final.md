@@ -46,9 +46,9 @@ Créer un site web interactif de type **"histoire dont vous êtes le héros"**.
 9. **Remise Finale**  
    - Remettre le dossier contenant **le site web**, **l’arborescence**, et **la maquette filaire**.  
    - Renommer le dossier :  
-     **`exam_final_[prenom1]_[nom_de_famille]`**.  
+     **`exam_final_[prenom]_[nom_de_famille]`**.  
    - Compresser le dossier au format **`.zip`** :  
-     **`exam_final_[prenom1]_[prenom2]_[prenom3].zip`**.  
+     **`exam_final_[prenom]_[nom_de_famille].zip`**.  
    - Soumettre le fichier `.zip` dans le devoir intitulé **"Projet Final"**.  
 
 ---
