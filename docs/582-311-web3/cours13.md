@@ -181,7 +181,7 @@ La balise track permet l'ajout de sous-titre pour améliorer l’accessibilité 
 Preload (version lazyload de la balise vidéo)
 
 * **none** : Aucun chargement avant l’interaction
-* **metadata** : Charge uniquement les informations nécessaires
+* **metadata** : Charge uniquement les informations nécessaires (durée et dimensions)
 * **auto** : Charge entièrement la vidéo (par défaut)
 
 ```html
