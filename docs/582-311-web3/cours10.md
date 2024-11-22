@@ -277,7 +277,6 @@ gsap
 
 Exercices supplémentaires de l'ancien cours : [Zelda](https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/scrolltrigger-historique-zelda/), [Scrub](https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-scrub/), [Pin](https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-pin-marvel/)
 
-
 ## Devoir 4 (formatif)
 
 <div class="grid grid-1-2" markdown>
