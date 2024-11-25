@@ -51,3 +51,67 @@ public class jump : MonoBehaviour
 }
 ```
 
+
+
+
+
+Voici un deuxième code pour sauter qui est le même, mais qui peut régler le problème du climb (si le code est nommé jump):   
+``` csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+ 
+public class PlayerJump : MonoBehaviour
+{
+    [SerializeField] private InputActionProperty jumpButton;
+    [SerializeField] private float jumpHeigt = 3f;
+    [SerializeField] private CharacterController cc;
+    [SerializeField] private LayerMask groundLayers;
+ 
+    private bool timer;
+ 
+    private float gravity = Physics.gravity.y;
+ 
+    private Vector3 movement;
+ 
+    private void Update()
+    {
+        bool _IsGrounded = IsGrounded();
+ 
+        if (jumpButton.action.WasPressedThisFrame() && _IsGrounded)
+        {
+            Jump();
+            StartCoroutine("sautTest"); 
+        }
+ 
+        
+ 
+        if (timer == true)
+        {
+            movement.y += gravity * Time.deltaTime;
+            cc.Move(movement * Time.deltaTime);
+ 
+        }
+
+ 
+    }
+        private void Jump()
+    {
+        movement.y = Mathf.Sqrt(jumpHeigt * -3.0f * gravity);
+    }
+ 
+    private bool IsGrounded()
+    {
+        return Physics.CheckSphere(transform.position, 0.2f, groundLayers);
+    }
+ 
+    public IEnumerator sautTest()
+    {
+        timer = true;
+        yield return new WaitForSeconds(2f);
+        timer = false; 
+        yield break; 
+    }
+}
+```
