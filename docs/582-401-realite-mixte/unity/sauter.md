@@ -1,4 +1,7 @@
+!!! warning "Attention"
 
+    Si vous configurez le saut, vous ne serez plus capable de grimper avec votre joueur. 
+    
 Voici le tutoriel qui vous montera comment créer le saut en VR:   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vvfZbVfikJ8?si=OUAw6Xw-yF1c-dm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
