@@ -4,6 +4,8 @@ tags:
   - Mardi 3 décembre
 ---
 
+![](./assets/images/itch.io_game-development_frameworks.png)
+
 [STOP]
 
 # Itch.io
@@ -79,3 +81,5 @@ Réduction des médias au maximum.
 ## Devoir
 
 Publication sur itch.io
+
+Préparaction à l'exposé
