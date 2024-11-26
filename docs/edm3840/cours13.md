@@ -42,7 +42,7 @@
   * Lens distortion
  * Colorisation
   * Nodes série : correction de couleur générale
-  * Nodes parralèle : pour une correction plus précise et indépendent, afin éviter les risques de conflits entre les corrections
+  * Nodes parralèle : pour une correction plus précise et indépendant, afin éviter les risques de conflits entre les corrections
   * Nodes Layers : correction en layer qui isole des sections
   * Nodes Splitters : séparer les canaux 
 * Render
