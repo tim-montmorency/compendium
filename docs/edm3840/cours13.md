@@ -14,7 +14,7 @@
 * Effets 
 * Générateur de couleurs.
 * <details>
-<summary></summary>
+<summary>"</summary>
 Utiliser le clip de fumée.
 </details>
 * Render
