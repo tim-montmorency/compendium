@@ -12,7 +12,8 @@
 * Typographie
 * Animation typographie
 * Effets 
-* Générateur de couleurs.<details>
+* Générateur de couleurs.
+* <details>
 <summary></summary>
 Utiliser le clip de fumée.
 </details>
