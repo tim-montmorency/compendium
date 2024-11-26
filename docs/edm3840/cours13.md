@@ -10,7 +10,7 @@
 
 ## Da vinci
 * Importer des images
-* Typographie
+* [Typographie](https://uqam-my.sharepoint.com/:p:/g/personal/lavoie-pilote_francoise_uqam_ca/EZOvjr6idJ9CqxT2XqE1d_8B4DlcVjqMIh6dQ5Dp1M0PRA?e=Yjg0IK)
 * Animation typographie, safe title
   * Texte plus
   * Texte animé
@@ -42,8 +42,8 @@
   * Lens distortion
  * Colorisation
   * Nodes série : correction de couleur générale
-  * Nodes parralèle : pour éviter les risques de conflits entre les corrections
-  * Nodes Layers : corriger la peau 
+  * Nodes parralèle : pour une correction plus précise et indépendent, afin éviter les risques de conflits entre les corrections
+  * Nodes Layers : correction en layer qui isole des sections
   * Nodes Splitters : séparer les canaux 
 * Render
 * Exportation
