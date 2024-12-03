@@ -97,6 +97,10 @@ Il se peut que votre projet contienne [trop de fichiers](./assets/images/toomany
 
 Assurez-vous toujours de charger les ressources avec un chemin relatif commençant par `./`
 
+### La casse c'est la classe
+
+Lors de la mise en ligne sur itch.io, la casse est un élément crucial à prendre en compte.
+
 ## Exercice
 
 Vous devez mettre en ligne votre jeu sur itch.io, configurer votre page et l'esthétiser.
