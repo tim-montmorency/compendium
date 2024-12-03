@@ -27,13 +27,12 @@
 
 ### Notions : Création de personnages
 * [▶️ Image](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUB08iH6So5LtxO1VE4FCaMBAQm-SO2GZrEQI9puh5FTYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1w1V49)  <br>
-[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/02_personnage_differents_angles.md){ .md-button }  <br>    
-[🛠️ 03_Créer un personnage avec différents backgrounds](./exerices_ai/03_personnage_different_background.md){ .md-button }  <br>   
+[🛠️ 02_Créer un personnage sous différents angles](./exerices_ai/03_personnage_differents_angles_arriere_plan.md){ .md-button }  <br>
 
 ### Notions : Application de styles
 * [▶️ Style](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ecu9NoX_fEROjM1zxQVqLFYBunRYcSSKgtZ3_plSaRe2Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cucILZ)  <br>
-[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>   
-[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>   
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_02.md){ .md-button }  <br>
+[🛠️ 04_Créer différents image avec différents styles](./exerices_ai/04_creer_image_style_01.md){ .md-button }  <br>
 
 
 ### Notions : Paramètres créatifs
@@ -56,12 +55,11 @@
 * Faire un moodboard sur shotdeck ou Pinterest.  <br>
 * Trouver une musique, vous pourriez la générer sur [Udio](https://www.udio.com/create) ou sur [Suno](https://suno.com/) en AI. <br>
 * Écouter les vidéos sur [Midjourney](ai/midjourney.md)
-  
 
-* Durant le prochain cours, avoir une carte de crédit avec vous, pour acheter une licence de Runway:  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée à la place de votre carte. 
+
+* Durant le prochain cours, avoir une carte de crédit avec vous, pour acheter une licence de Runway:  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée à la place de votre carte.
 * S'assurer que les disques durs sont formatés pour MAC d'ici deux semaines. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une MAC (Mac OS étendu) et une EXFAT.
 <details>
   <summary></summary>
- * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004) 
+ * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004)
 </details>
-
