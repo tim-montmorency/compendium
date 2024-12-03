@@ -8,7 +8,7 @@
 
 * [Moodboard 1](https://www.youtube.com/watch?v=p03cRSbIQFU) 
 * [Moodboard 2](https://www.youtube.com/watch?v=PnZnjSFHSzY)
-* 
+  
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
 * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EWARe1xWaRBKjEki4WRvD0UBga173W95fjX9bzgzUINTXA?e=y2hwrM)
   * 4 ou 5 par équipe
