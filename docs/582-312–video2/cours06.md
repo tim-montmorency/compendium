@@ -1,3 +1,4 @@
 # Cours 6
 
-## Présentation du projet 1
+## Présentation et correction du offline 
+
