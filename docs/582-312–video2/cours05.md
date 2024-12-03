@@ -1,7 +1,6 @@
 # Cours 5
 
-##
-Correction devoir 1
+## Correction devoir 1
 
 ## [Da Vinci - La base](da_vinci_base.md) (15  minutes)
 * Retour le son
