@@ -1,4 +1,8 @@
 # Cours 5
+
+##
+Correction devoir 1
+
 ## [Da Vinci - La base](da_vinci_base.md) (15  minutes)
 * Retour le son
   * Fades
@@ -34,4 +38,4 @@
 
 ## Devoir
 * Montage offline de votre projet
-  * Le montage vidéo/son doit être terminé pour la semaine prochaine. Vous pouvez faire votre montage à deux. 
+  * Le montage vidéo/son doit être terminé pour la semaine prochaine. 
