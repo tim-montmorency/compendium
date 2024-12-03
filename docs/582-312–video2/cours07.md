@@ -1,13 +1,14 @@
 # Cours 7
 
+## Présentation du projet 1
+
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
 
-## Présentation du projet 1
+## Explication du [projet 2](projet_02.md)
 
 * [Moodboard 1](https://www.youtube.com/watch?v=p03cRSbIQFU) 
 * [Moodboard 2](https://www.youtube.com/watch?v=PnZnjSFHSzY)
-
-## Explication du [projet 2](projet_02.md)
+* 
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
 * [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EWARe1xWaRBKjEki4WRvD0UBga173W95fjX9bzgzUINTXA?e=y2hwrM)
   * 4 ou 5 par équipe
