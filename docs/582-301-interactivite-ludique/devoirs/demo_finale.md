@@ -27,7 +27,7 @@ Déposez le lien vers votre jeu sur itch.io dans le devoir sur Teams.
 ### Critères de remise (10%)
 
 - [ ] Le jeu doit être **fonctionnel** et n'être affecté par **aucun bogue majeur**[^major].
-- [ ] Le jeu doit être publié sur le site **itch.io**.
+- [ ] Le jeu doit être publié **publiquement** sur le site **itch.io**.
 - [ ] Retrait obligatoire du mode debug.
 
 [^major]: Ce qui est considéré comme un bogue majeur est un problème ou une anomalie qui empêche la progression du jouer.
