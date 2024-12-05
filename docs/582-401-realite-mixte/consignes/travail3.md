@@ -12,3 +12,7 @@
 - [ ] Le projet doit être recherché, on doit essayer de se distinguer de ce qui existe déjà et qui a déjà été vu.
 - [ ] Vous devez remettre le projet au format exporté en plus d'une capture vidéo de l'expérience.
 - [ ] La complexité, la richesse, la variété des idées seront des critères évalués. 
+
+Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
+[📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ErjO5R5kyc5EpdCmPZZK5tABlD4iTHlJ-afHn1F5ypOqeA?e=zIqQj4){ .md-button }   
+
