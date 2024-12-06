@@ -1,11 +1,11 @@
 ---
 tags:
   - Cours 15
-  - Vendredi 6 décembre
+  - Vendredi 13 décembre
 ---
 
 [STOP]
 
 # Cours 15
 
-Examen
+Examen Jason vendredi 13
