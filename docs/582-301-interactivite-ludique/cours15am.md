@@ -24,11 +24,11 @@ tags:
 - [ ] Lu, Ting Yung [Gluttony | itch.io](https://lung2.itch.io/gluttony)
 - [ ] Saavedra-Torrano, Dana [Nelly | itch.io](https://d-saavedra-t.itch.io/nelly)
 - [ ] Willett, Mathieu [Fou de vitesse | itch.io](https://ekiwillow.itch.io/fou-de-vitesse)
-- [ ] Yaya, Manel [Démon la porte | itch.io](https://manelyxoxo.itch.io/dmon-la-porte)
+- [ ] Yaya, Manel [Démon à la porte | itch.io](https://manelyxoxo.itch.io/dmon-la-porte)
 
 !!! important "Communauté"
 
-    Par respect du temps investi par vos amis et collègues de classe, connectez-vous et commentez chaque projet ! Vos pages seront beaucoup plus dynamiques et vivantes.
+    Par respect du temps investi par vos amis et collègues de classe, connectez-vous et commentez chaque projet sur le site itch.io ! Vos pages seront beaucoup plus dynamiques et vivantes.
 
 [STOP]
 

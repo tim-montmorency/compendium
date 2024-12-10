@@ -31,7 +31,7 @@ tags:
 
 !!! important "Communauté"
 
-    Par respect du temps investi par vos amis et collègues de classe, connectez-vous et commentez chaque projet ! Vos pages seront beaucoup plus dynamiques et vivantes.
+    Par respect du temps investi par vos amis et collègues de classe, connectez-vous et commentez chaque projet sur le site itch.io ! Vos pages seront beaucoup plus dynamiques et vivantes.
 
 [STOP]
 
