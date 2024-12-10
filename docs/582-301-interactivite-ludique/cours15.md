@@ -4,8 +4,8 @@ tags:
   - Mardi 10 décembre
 ---
 
-[STOP]
+# Présentations orales
 
-# Présentation des projets
+[Groupe AM](./cours15am.md)
 
-Présentations orales du PS
+[Groupe PM](./cours15pm.md)
