@@ -4,7 +4,7 @@ tags:
   - Mardi 10 décembre
 ---
 
-[:material-arrow-u-left-top: Cours 3](../cours15.md){.breadcrumb}
+[:material-arrow-u-left-top: Cours 3](./cours15.md){.breadcrumb}
 
 # Présentations orales AM[^won]
 
