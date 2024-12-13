@@ -14,12 +14,12 @@ tags:
 - [ ] Boussetta, Mohamed-Amine [Protecteur | itch.io](https://m-ab.itch.io/protecteur)
 - [ ] Daher, Elie [The lost friend | itch.io](https://edhr07.itch.io/the-lost-friend)
 - [ ] Dufault, Ryan [Phan-tomes | itch.io](https://ryandufault.itch.io/phan-tomes)
-- [ ] Gagné, Sabrina [La forteresse](https://saephiravelara.itch.io/la-forteresse-des-mes-perdues)
+- [ ] Gagné, Sabrina [La forteresse| itch.io](https://saephiravelara.itch.io/la-forteresse-des-mes-perdues)
 - [ ] Hébert, Jade [Down in the arctic | itch.io](https://jadoooooou.itch.io/down-in-the-arctic)
-- [ ] Jean, Sandrine
+- [ ] Jean, Sandrine (_aucun lien_)
 - [ ] Kaïssoumi, Ahmed [Eclipse hunter | itch.io](https://donpatchi.itch.io/eclipse-hunter)
 - [ ] Kordan, Radhouane [Le devoir du chevalier | itch.io](https://merlinfoxwiz.itch.io/le-devoir-du-chevalier)
-- [ ] Lach, Thearylou [L'épée oubliée](https://ntrace.itch.io/lepee-oubliee)
+- [ ] Lach, Thearylou [L'épée oubliée | itch.io](https://ntrace.itch.io/lepee-oubliee)
 - [ ] Laprise, Marie-Lili [Highfish | itch.io](https://lapriseml.itch.io/highfish)
 - [ ] Lu, Ting Yung [Gluttony | itch.io](https://lung2.itch.io/gluttony)
 - [ ] Saavedra-Torrano, Dana [Nelly | itch.io](https://d-saavedra-t.itch.io/nelly)
@@ -31,6 +31,8 @@ tags:
     Par respect du temps investi par vos amis et collègues de classe, connectez-vous et commentez chaque projet sur le site itch.io ! Vos pages seront beaucoup plus dynamiques et vivantes.
 
 [STOP]
+
+Pour la wheelofnames :
 
 Rafaël
 Mohamed-Amine

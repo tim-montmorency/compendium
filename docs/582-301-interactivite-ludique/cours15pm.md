@@ -11,7 +11,7 @@ tags:
 [^won]: <https://wheelofnames.com/fr/j4h-cas>
 
 - [ ] Arseneau, Mikaël [Vertigo | itch.io](https://oursgarou.itch.io/vertigo)
-- [ ] Atai, Meena
+- [ ] Atai, Meena [Écho du ciel | itch.io](https://biscruit.itch.io/echo-du-ciel)
 - [ ] Bélisle, Émeryk [Combat trials | itch.io](https://mraosix.itch.io/combattrials)
 - [ ] Chamberland, Yannick [Donjon master | itch.io](https://yannick15.itch.io/donjon-master)
 - [ ] Cheour, Walid [Knight of the wind | itch.io](https://walee97.itch.io/knight-of-the-wind)
@@ -34,6 +34,8 @@ tags:
     Par respect du temps investi par vos amis et collègues de classe, connectez-vous et commentez chaque projet sur le site itch.io ! Vos pages seront beaucoup plus dynamiques et vivantes.
 
 [STOP]
+
+Pour la wheelofnames :
 
 Mikaël
 Meena
