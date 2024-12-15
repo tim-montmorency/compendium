@@ -33,6 +33,7 @@
    - Le montage doit être réalisé en équipe de **2 personnes** dans **Da Vinci**.
    - La durée finale de la vidéo doit être d'environ **30 secondes**.
    - Le tout peut être monté sur une musique. Vous pouvez créer la musique avec des outils d'intelligence artificielle comme **Udio** ou **Suno** pour enrichir l'expérience sonore de votre vidéo.
+   - Vous devez inclure un générique pour votre film, comprenant un titre ainsi que les postes et les noms associés. Voir dans les références pour les postes. 
 
 ---
 
