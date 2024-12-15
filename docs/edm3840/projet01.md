@@ -7,14 +7,22 @@
 ### **Autoportrait**
 - [ ] **Nombre :** Créez 4 images distinctes dans Photoshop.
 - [ ] **Lien visuel :** Assurez-vous que les images sont artistiquement cohérentes en suivant le courant artistique que vous avez choisi. Utilisez la répétition d'éléments visuels comme les couleurs, les formes, les textures ou les motifs pour créer une harmonie esthétique entre toutes les œuvres.
-- [ ] **Calques obligatoires :** Chaque image doit comporter au moins 4 calques d’images découpées (**si vous manipulez un calque pour l'animer, il compte pour un calque découpé**), ainsi que des calques de dessin et/ou des calques vectoriels (**Vous pourriez faire une typographie en vectorielle**).
-- [ ] Le vectoriel et les dessins doivent être exécutés par vous. 
+- [ ] **Calques obligatoires :** Chaque image doit comporter au moins 6 calques. 
+- [ ] Le vectoriel et les dessins doivent être exécutés par vous.
 - [ ] **Dimensions :** Format 1920 x 1080 pixels, orientation horizontale.
 - [ ] **Langue :** Tous les éléments doivent être réalisés en français.
 
 ---
 
-## PROJET 1 – PARTIE 1 : PRÉ-APPROBATION – L’AUTOPORTRAIT
+## PROJET 1 – PARTIE 1 : MOODBOARD – L’AUTOPORTRAIT
+
+### **Rencontre individuelle avec le professeur**
+- À ce stade, vous aurez une rencontre individuelle avec le professeur pour présenter votre moodboard :
+  - [ ] **Un moodboard**
+
+---
+
+## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
 ### **Rencontre individuelle avec le professeur**
 - À ce stade, vous aurez une rencontre individuelle avec le professeur pour présenter :
