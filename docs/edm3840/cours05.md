@@ -16,8 +16,6 @@
   [🛠️ 15_Formater du texte avec une typographie](./exercices_photoshop/15_Formater_du_texte_avec_une_typographie.md){ .md-button }  <br>    
   [🛠️ 15_Formater du texte sur un path](./exercices_photoshop/15_Formater_du_texte_sur_un_path.md){ .md-button }  <br>    
 
-
-
 ### Notions : Outils de fluidité
 * [▶️ Modifier/corps](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ET27guqBv99PhHbajqbevnYBXbMHjbtVho6mIH7-vnUgsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g5h2tW)   <br>   
 *  [▶️ Modifier/visage](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EUQRIkfZBItKm-GV1xnNwdoBpTnjEzE-6jskvkFjtquakw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zRh8CN)   <br>   
@@ -52,6 +50,11 @@
   [🛠️ Animation](./exercices_photoshop/18_animation.md){ .md-button }  <br>   
 
 
+## Prochain cours
+Rencontre sur rendez-vous de 9h00 à 13h00. 
+
+## À faire à la maison
+Exécution de 2 images sur 4. 
 
 
 
