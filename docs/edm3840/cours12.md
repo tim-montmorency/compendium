@@ -57,8 +57,8 @@
 * [▶️ keyframe pitch son](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EchNon1-yLJOsqB-94x47EYBYrPVecBJOw5e6x67O-Qp3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0AuHhz)
 
  * 🛠️ Intégrer un son sur la bonne piste sonore en fonction du mono et stéréo. <br>
- * 🛠️ Monter et descendre le volume. <br>
- * 🛠️ Ajouter des effets sonores en utiliser les transitions fade out, fade in. <br>
+ * 🛠️ Monter et descendre le volume grâce des keyframes. <br>
+ * 🛠️ Ajouter des effets sonores en utiliser les transitions fade in, fade out. <br>
  * 🛠️ Créer des panoramiques. <br>
 
 
