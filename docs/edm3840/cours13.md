@@ -39,7 +39,7 @@
   * Lens flare
   * Mirror
   * Stop motion
-  * analog damage
+  * Analog damage
   * Lens distortion
  * Colorisation
   * Nodes série : correction de couleur générale
