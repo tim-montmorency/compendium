@@ -16,9 +16,13 @@
   * Langue et utilisateur
   * Son
 
+* 🛠️ Faire les réglages des settings et preference. <br>
+
 ### Notions: l'importation et gestion des médias
 * [▶️ Importation de médias](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ee6Dl0FNl8tIpitNLFkinr4B9ziXBn4jYY3F0uev0ARAHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hr5bMd)
 * [▶️ Organisation du chutier](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETJ6LwnEhMxMj9SYzP_WL1UBlJdSBDKVljxRK2ohGNrSHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ci2st3)
+
+* 🛠️ Importer les clips. <br>
 
 
 ### Notions: l'onglet montage
@@ -39,6 +43,11 @@
 * [▶️ Outil d'édition : sélection, trim, lame (A, B, T)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQWpKNuJ7jNGqwgT2PKrnhoBEhxsTVs8UFtratl58KeIIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9whu3a)
 * [▶️ Sélection de clips avant et après la tête de lecture (Alt+Y, Ctrl+Alt+Y)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EROGda2EtABJuZB0BMcSgDcB-wnkzFYq58XLv-Z_PZSLvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fAIJHa)
 
+ * 🛠️ Monter des clips sur le tempo en changeant les dimensions de l'image, celle-ci doit devenir plus petite. <br>
+ * 🛠️ Monter des clips sur le tempo en créant des mosaïques en diminuant la taille des images. <br>
+ * 🛠️ Monter des clips sur le tempo en créant des mosaïques croppant des images. <br>
+ * 🛠️ Monter des clips en superposant deux clips avec la transparence et les masques de fusion. <br>  
+
 ### Notions: le montage audio
 * [▶️ Montage sonore track mono et stéréo 
 ](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EW9XKALbEvRHqIf9nEXKsOEBnmf8J8HT5ZulGghxgB1LrQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v5s1Ag)
@@ -47,6 +56,12 @@
 * [▶️ Keyframe panoramique](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EbMpKMyLgpFOoVPZLNjsus0BiWR5TKBo9Jxo9o3sW8GW0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QMAsRm)
 * [▶️ keyframe pitch son](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EchNon1-yLJOsqB-94x47EYBYrPVecBJOw5e6x67O-Qp3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0AuHhz)
 
+ * 🛠️ Intégrer un son sur une bonne piste sonore . <br>
+ * 🛠️ Monter et descendre le volume. <br>
+ * 🛠️ Ajouter des effets sonores en utiliser les transitions fade out, fade in. <br>
+ * 🛠️ Créer des panoramiques. <br>
+
+
 ### Notions: l'inspecteur 
 * [▶️ Utilisation de l'inspecteur 1](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV7tZk4iihRNoWrA8FtNI1UBcyS-uYCpjkxB94qdEN82CA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kYABYj)
 * [▶️ Utilisation de l'inspecteur 2](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ebw39VQTyIJOpXKFmxQe2DUBcxRrUGafllunkjPUJO6Jow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PuNHEo)
@@ -54,3 +69,6 @@
 
 ### Notions: rendus
 * [▶️ Rendus](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EX377JfAZ4lMvwklBSNGS2sBHwgr_uoFt3Z3cEVym88vrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tKMfEb)
+
+* 🛠️ Partir un rendu en mode smart. <br>
+* 🛠️ Partir un rendu en mode user.  <br>
