@@ -13,6 +13,7 @@
    - Créez un **moodboard** représentant l'esthétique, les émotions ou les idées que vous souhaitez explorer dans la vidéo.
    - Utilisez **MidJourney** pour générer les images nécessaires à la vidéo, tout en respectant l'esthétique définie dans votre moodboard.
    - Assurez-vous que ces images illustrent bien l'émotion ou l'ambiance que vous souhaitez transmettre.
+N.B. : Vous ne pouvez pas animer des images préexistantes. Les images doivent être créées par vous dans MidJourney et ne doivent pas être une copie exacte de votre moodboard. Vous devez vous assurer de mélanger les genres afin d'éviter de reproduire des styles existants de manière trop similaire.
 
 2. **Expérimentation visuelle** :
    - Que vous choisissiez de réaliser un vidéoclip ou un vidéo d'art, l'accent sera mis sur l'exploration visuelle. Utilisez des couleurs, des formes, des textures et des compositions pour créer une esthétique unique.
@@ -42,22 +43,27 @@
 #### Rencontre individuelle avec le professeur :
 - Présentez également le montage en cours dans Da Vinci.
 - Le professeur évaluera :
-  - La qualité du montage.
   - Les réglages et paramètres dans Da Vinci.
-  - Le rangement des sessions.
+  - L'organisation et le rangement des sessions.
+  - Le rythme et la qualité du montage.
+  - L'unité visuelle du projet.
+  - L'esthétique des images en lien avec le moodboard.
+  - La conception du générique et le choix typographique.
 
 ---
 
 ### PROJET 2 – PARTIE 2 : PRÉSENTATION FINALE
 
 #### Le professeur évaluera :
-  - La qualité et le rythme du montage.
+  - Le rythme et la qualité du montage.
+  - L'unité visuelle du projet.
   - L'esthétique des images en lien avec le moodboard.
+  - La conception du générique et le choix typographique.
 
 1. **Livrables** :
    - Deux fichiers vidéo de **30 secondes** :
-     - Un fichier en **H264 1920 x 1080**.
-     - Un fichier en **ProRes 1920 x 1080**.
+     - Un fichier en **H264 1280 x 720**.
+     - Un fichier en **ProRes 1280 x 720**.
    
 2. **Exposé oral et présentation du moodboard** :
    - Présentez le moodboard qui a guidé la création de vos visuels.
