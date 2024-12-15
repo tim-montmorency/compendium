@@ -2,6 +2,8 @@
 
 <style>.md-footer{display:none;}</style>
 
+## [Davinci](da_vinci_base.md)
+
 ### Notions: les settings de davinci
 * [▶️ Paramètres du projet](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWBV4LjnFBNDpgfAtfXSD4kBVGD2tkkn9ZlYRyiGD_a2vw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9YVxo)
   * Résolution : 1920 x 1080
