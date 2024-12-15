@@ -73,6 +73,3 @@
 * Mot de passe 
   * Framboise2002@
 
-* Prochain cours, je vais arriver à 12h30 le mardi.
-
-* Ne pas oublier vos disques durs pour le prochain cours. S'assurer que les disques durs sont formatés pour MAC pour la semaine prochaine. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération J-1300. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une Mac OS étendu journalisé (HFS+) et une EXFAT.
