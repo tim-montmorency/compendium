@@ -6,6 +6,7 @@
 * Montage dans Da vinci
   * Évaluation settings
   * Évaluation montage et rythme
+  * Évaluation unité visuelle
 
 
 ## Da vinci
