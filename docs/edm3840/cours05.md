@@ -53,7 +53,7 @@
 ## Prochain cours
 Rencontre sur rendez-vous de 9h00 à 13h00. 
 
-## À faire à la maison
+## Devoir 
 Exécution de 2 images sur 4. 
 
 
