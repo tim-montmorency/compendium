@@ -56,7 +56,7 @@
 * [▶️ Keyframe panoramique](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EbMpKMyLgpFOoVPZLNjsus0BiWR5TKBo9Jxo9o3sW8GW0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QMAsRm)
 * [▶️ keyframe pitch son](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EchNon1-yLJOsqB-94x47EYBYrPVecBJOw5e6x67O-Qp3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0AuHhz)
 
- * 🛠️ Intégrer un son sur une bonne piste sonore . <br>
+ * 🛠️ Intégrer un son sur la bonne piste sonore en fonction du mono et stéréo. <br>
  * 🛠️ Monter et descendre le volume. <br>
  * 🛠️ Ajouter des effets sonores en utiliser les transitions fade out, fade in. <br>
  * 🛠️ Créer des panoramiques. <br>
