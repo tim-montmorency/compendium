@@ -1,5 +1,8 @@
 # 3 mars
 
+Pas de cours. Journées de rattrapage.
+
+
 ## Sortie au café numérique
 **Lieu**: Complexe Desjardins (Dôme près de la fontaine centrale)    
 
