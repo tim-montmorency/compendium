@@ -569,8 +569,9 @@ plugins:
   - tags:       
       listings_map:
         custom-id:
-          include:
-            - Unity
+          exclude:
+            - Cours 1
+            - Cours 2
       tags_file: 582-401-realite-mixte/ressources.md
   - mkdocs-video
   - mkdocs-audio
