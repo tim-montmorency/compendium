@@ -45,7 +45,7 @@
 
  * 🛠️ Monter des clips sur le tempo en changeant les dimensions de l'image, celle-ci doit devenir plus petite. <br>
  * 🛠️ Monter des clips sur le tempo en créant des mosaïques en diminuant la taille des images. <br>
- * 🛠️ Monter des clips sur le tempo en créant des mosaïques croppant des images. <br>
+ * 🛠️ Monter des clips sur le tempo en créant des mosaïques croppant des images. Flipper les vidéos. <br>
  * 🛠️ Monter des clips en superposant deux clips avec la transparence et les masques de fusion. <br>  
 
 ### Notions: le montage audio
