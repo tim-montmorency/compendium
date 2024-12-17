@@ -1,4 +1,4 @@
 # Répertoire de ressources
 
-<!-- material/tags { include: [Unity] } -->            
+<!-- material/tags { scope: true } -->          
 
