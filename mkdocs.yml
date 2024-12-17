@@ -569,7 +569,7 @@ plugins:
   - tags: 
       tags_file: 582-401-realite-mixte/ressources.md
       listings_map:
-        custom-id:
+        custom-id: vr
           include:
             - Unity
   - mkdocs-video
