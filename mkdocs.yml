@@ -568,6 +568,9 @@ plugins:
   - offline
   - tags:       
       tags_file: 582-401-realite-mixte/ressources.md
+      listings_map:
+        scoped:
+          scope: true
   - mkdocs-video
   - mkdocs-audio
   - render-stopper:
