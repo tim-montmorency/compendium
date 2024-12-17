@@ -1,5 +1,5 @@
-# 15 octobre
-## 🚨 Remise du travail 2
+# 3 mars
+## 
 
 ## Sortie au café numérique
 **Lieu**: Complexe Desjardins (Dôme près de la fontaine centrale)    
