@@ -1,3 +1,8 @@
+---
+tags:
+  - Unity
+---
+
 Dans Unity, il est possible d'animer des Sprites avec ce qu'on appelle des Sprite Sheets. Les Sprite Sheets sont en fait une image contenant plusieurs petites images qui une fois mises bout à bout créent une animation.    
 
       
