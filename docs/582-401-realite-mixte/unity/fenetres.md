@@ -1,4 +1,4 @@
-## Fenêtres
+# Fenêtres
 Explorons l'interface de Unity.   
 <img src="../images/schema4.jpg">
     
