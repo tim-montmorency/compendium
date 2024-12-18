@@ -1,5 +1,6 @@
 # Ajouter Vuforia à un projet Unity    
-Pour ajouter Vuforia à votre projet, vous devrez ajouter un Asset depuis le Asset Store. Suivez la procédure pour importer Vuforia Engine dans votre projet. 
+Pour ajouter Vuforia à votre projet, vous devrez ajouter un Asset depuis le Asset Store. Suivez la procédure pour importer Vuforia Engine dans votre projet.       
+
 [📁 Asset Vuforia engine](https://assetstore.unity.com/packages/templates/packs/vuforia-engine-163598){ .md-button }    
 
 ## Importer le paquet ci haut: 
