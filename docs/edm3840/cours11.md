@@ -14,6 +14,8 @@ Télécharger les dossiers suivants:
 
 ### Notions: optimisation de la rapidité de travail
 * [▶️ Raccourcis clavier](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWyRmuM_yDlHvNQXy5M3l3MBDE6-fL6bWpM3xFa9YocwPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e9OiuY)
+* [▶️ Raccourcis clavier](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EfddaKaq_WRPgzdG4ERYb2AB_8irVrVGd9FdrJ2s5Mv4tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlGRiR)
+
 
 
 ### Notions: les disques et stockage
