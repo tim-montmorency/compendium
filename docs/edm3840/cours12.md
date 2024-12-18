@@ -51,6 +51,7 @@
   * A : Sélectionner et déplacer les clips dans la timeline.
   * B : Découper les clips avec précision à l'aide de l'outil lame.
   * T : Ajuster les points d'entrée et de sortie des clips avec l'outil trim.
+🛠️ **Utilisation de l'outil Trim** : Glissez le clip 10678415-uhd_4096_2160_25fps.mp4 à l'intérieur de sa zone dans la timeline pour ajuster son contenu tout en conservant sa durée et sa position initiales.
 * 🛠️ **Sélection de clips** avec la tête de lecture :
   * Alt+Y : Sélectionner tous les clips après la tête de lecture.
   * Ctrl+Alt+Y : Sélectionner tous les clips avant la tête de lecture.
