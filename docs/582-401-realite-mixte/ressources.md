@@ -13,7 +13,10 @@
 - [Fenêtres](unity/fenetres.md)
 - [Nomenclature](unity/nomenclature.md)
 - [Importer des *Assets* depuis le *Asset store*](unity/creer_projet.md)
+
+#### Développer sur Android
 - [Changer sa plateforme de développement pour Android](installation/configuration.md)
+- [Utiliser Unity remote pour visualiser le résultat sur son téléphone](installation/unity-remote.md)
 
 #### Notions de base
 - [Les composantes](unity/composantes.md)
@@ -30,3 +33,6 @@
 ## Création de visuels
 - [Sprites](unity/sprite.md)
 - [Vidéos](unity/video.md)
+
+## Vuforia
+
