@@ -1,6 +1,5 @@
-
-## Importer des Assets du Asset Store
-Unity a un magasin nommé le Asset Store qui nous permet d'ajouter des objets 2D, 3D, des scripts et des matériaux à nos projets. Bien que vous deviez créer tous les assets de vos projets, il pourrait arriver que vous ayez à télécharger des Assets depuis le magasin. Vous devrez premièrement, trouvez une ressource dans le magasin, puis ensuite utiliser le Package Manager de Unity pour importer les ressources dans votre projet. Pour ce faire, suivez la procédure suivante:      
+# Importer des *Assets* du *Asset Store*
+Unity a un magasin nommé le *Asset Store* qui nous permet d'ajouter des objets 2D, 3D, des scripts et des matériaux à nos projets. Bien que vous deviez créer tous les assets de vos projets, il pourrait arriver que vous ayez à télécharger des Assets depuis le magasin. Vous devrez premièrement, trouvez une ressource dans le magasin, puis ensuite utiliser le Package Manager de Unity pour importer les ressources dans votre projet. Pour ce faire, suivez la procédure suivante:      
 
 - [ ] Dans Unity, dans la barre de menu en haut à gauche, appuyez sur Window, Asset Store. Une nouvelle fenêtre ouvrira. Appuyez ensuite sur Search Online.
 - [ ] Une page Web s'ouvrira, trouvez alors la ressource que vous souhaitez télécharger et appuyez sur celle-ci.
