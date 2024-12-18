@@ -16,7 +16,7 @@ Appuyer sur enseignement supérieur:
 [🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
 
 #### Téléchargement de Unity
-[📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }       
+[📝 Installation du logiciel](./installation/telechargement.md){ .md-button }       
 
 [📝 Ajout de modules](./installation/modules.md){ .md-button }       
 
