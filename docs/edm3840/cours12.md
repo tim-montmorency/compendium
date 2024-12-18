@@ -7,7 +7,7 @@
 ### Notions: les settings de davinci
 * [▶️ Paramètres du projet](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWBV4LjnFBNDpgfAtfXSD4kBVGD2tkkn9ZlYRyiGD_a2vw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9YVxo)
   * Résolution : 1920 x 1080
-  * Fréquence d’images : 23,976 fps
+  * Fréquence d’images : 23,976 fps ou 24 fps
   * Cache et préférences de stockage
 * [▶️ Réglages des préférences](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EULJ9EWvo61AltO2edEmCwUBaTUjW59HvjZ0eyN7qYCeyg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2q7SnG)
   * Mémoire
@@ -16,7 +16,7 @@
   * Langue et utilisateur
   * Son
 
-* 🛠️ Configuration des réglages : Ajuster les paramètres et préférences selon les besoins du projet.
+* 🛠️ **Configuration des réglages** : Ajuster les paramètres et préférences selon les besoins du projet.
  <br>
 
 ### Notions: l'importation et gestion des médias
@@ -24,7 +24,7 @@
 * [▶️ Importation jpg, png, psd](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ee06IDhRkOhEmYyT3WDF-acBSSMiaHir6Ed6IM9JC4H1EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kfRzKs)
 * [▶️ Organisation du chutier](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETJ6LwnEhMxMj9SYzP_WL1UBlJdSBDKVljxRK2ohGNrSHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ci2st3)
 
-* 🛠️ Importation des clips : Ajouter les clips nécessaires dans le projet. <br>
+* 🛠️ **Importation des clips** : Ajouter les clips nécessaires dans le projet. <br>
 
 
 ### Notions: l'onglet montage
@@ -40,12 +40,20 @@
 * [▶️ Création des pistes dans le timeline](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETonaphLAWdBvXcHuRruG7UB7wRBQtszGS5dy6gjdlo2EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=333lzI) / [Organisation des pistes sonores](https://uqam-my.sharepoint.com/:p:/g/personal/lavoie-pilote_francoise_uqam_ca/ERCnxTuikTJFl4hBACjsP_kBumXL5HuhF1Pb5_lXB3_CAA?e=WAU7bt)
 * [▶️ Présentation du timeline](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EWsiJUL38ftDiGuXDFCvh-cBRgf7_qtr0IJwYl4wcZsoIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ewIkZz)
 
+* 🛠️ **Création d'une timeline** : Configurer une timeline en définissant les paramètres tels que la résolution, le format d'image, la fréquence d'images, et organiser les pistes pour le montage. <br>
+
 ### Notions: le montage vidéo
 * [▶️ Écraser, remplacer](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EVQnKy0k5-9EhX9YsS-eSL0BFaxuBu15nGFOH4_gsplmmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BWe8gL)
-* [▶️ Outil d'édition : sélection, trim, lame (A, B, T)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQWpKNuJ7jNGqwgT2PKrnhoBEhxsTVs8UFtratl58KeIIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9whu3a)
+* [▶️ Outil d'édition : sélection, lame, trim, (A, B, T)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQWpKNuJ7jNGqwgT2PKrnhoBEhxsTVs8UFtratl58KeIIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9whu3a)
 * [▶️ Sélection de clips avant et après la tête de lecture (Alt+Y, Ctrl+Alt+Y)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EROGda2EtABJuZB0BMcSgDcB-wnkzFYq58XLv-Z_PZSLvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fAIJHa)
 
-
+* 🛠️ **Utilisation des outils** : Travailler avec les outils Sélection, Trim, et Lame (A, B, T) pour manipuler les clips :
+  * A : Sélectionner et déplacer les clips dans la timeline.
+  * B : Découper les clips avec précision à l'aide de l'outil lame.
+  * T : Ajuster les points d'entrée et de sortie des clips avec l'outil trim.
+* 🛠️ **Sélection de clips** avec la tête de lecture :
+  * Alt+Y : Sélectionner tous les clips après la tête de lecture.
+  * Ctrl+Alt+Y : Sélectionner tous les clips avant la tête de lecture.
 
 ### Notions: le montage audio
 * [▶️ Montage sonore track mono et stéréo 
@@ -55,10 +63,10 @@
 * [▶️ Keyframe panoramique](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EbMpKMyLgpFOoVPZLNjsus0BiWR5TKBo9Jxo9o3sW8GW0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QMAsRm)
 * [▶️ keyframe pitch son](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EchNon1-yLJOsqB-94x47EYBYrPVecBJOw5e6x67O-Qp3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0AuHhz)
 
- * 🛠️ Gestion des pistes sonores : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). <br>
- * 🛠️ Ajustement du volume : Monter ou descendre le volume en utilisant des keyframes pour créer des transitions sonores fluides.
- * 🛠️ Effets sonores avec transitions : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
- * 🛠️ Création de panoramiques : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
+ * 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). <br>
+ * 🛠️ **Ajustement du volume** : Monter ou descendre le volume en utilisant des keyframes pour créer des transitions sonores fluides.
+ * 🛠️ **Effets sonores avec transitions** : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
+ * 🛠️ **Création de panoramiques** : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
 
 
 ### Notions: l'inspecteur 
@@ -73,12 +81,14 @@
 
 ### Notions: transitions visuelles et sonores
 
-* [▶️ Keyframe in et out](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQy_Dk1k3ORJheOmpbMEcIUBF7K2YxyZx6gZyIgRh4n-Dw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MdLTm3
+* [▶️ fade in et fade out via Keyframe in et out](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQy_Dk1k3ORJheOmpbMEcIUBF7K2YxyZx6gZyIgRh4n-Dw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MdLTm3
 )
 * [▶️ Transition vidéo et audio](
 https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZKV75IMFEFHrs4LfPE1B6QB1HFMje3uF0dluO2VVcqYKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HYv5jO
 )
 
+* 🛠️ Transition en fondu : Utiliser des keyframes pour créer des transitions de type fade in (apparition progressive) et fade out (disparition progressive).
+* 
 
 ### Notions: effets visuels - vitesse
 * [▶️ Application d'une vitesse créée au tournage](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETBybwGBVyhNpuOc9R7HEBYBeIXk3DzCAd87Xd0E6plLWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=l6rcJO)
