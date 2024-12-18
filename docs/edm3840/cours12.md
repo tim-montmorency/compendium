@@ -56,8 +56,7 @@
   * Ctrl+Alt+Y : Sélectionner tous les clips avant la tête de lecture.
 
 ### Notions: le montage audio
-* [▶️ Montage sonore track mono et stéréo 
-](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EW9XKALbEvRHqIf9nEXKsOEBnmf8J8HT5ZulGghxgB1LrQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v5s1Ag)
+* [▶️ Montage sonore track mono et stéréo](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EW9XKALbEvRHqIf9nEXKsOEBnmf8J8HT5ZulGghxgB1LrQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v5s1Ag)
 * [▶️ Normalisation du son](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EYP0uulS05FDhCwXjQQFrZsB7yY6R2k_x8DO29GA5WU1Uw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=otRv8b)
 * [▶️ Keyframe volume](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQJeDGtbtXRFng6s_51zorMBY6oQGYMmP5a9hDzzs2ElSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aZzIiO)
 * [▶️ Keyframe panoramique](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EbMpKMyLgpFOoVPZLNjsus0BiWR5TKBo9Jxo9o3sW8GW0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QMAsRm)
@@ -65,8 +64,12 @@
 
  * 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). <br>
  * 🛠️ **Ajustement du volume** : Monter ou descendre le volume en utilisant des keyframes pour créer des transitions sonores fluides.
- * 🛠️ **Effets sonores avec transitions** : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
  * 🛠️ **Création de panoramiques** : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
+ * 🛠️ **Effets sonores avec transitions** : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
+   * Utiliser le clip coton (3250224-hd_1920_1080_30fps.mp4) comme ambiance sonore et ajouter des transitions fade in et fade out.
+   * Insérer le fichier sonore LOW-HIT_Turner_Round.wav pour marquer une transition, avec des fade in et fade out pour fluidifier l’effet.
+      
+
 
 
 ### Notions: l'inspecteur 
@@ -88,7 +91,7 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 )
 
 * 🛠️ Transition en fondu : Utiliser des keyframes pour créer des transitions de type fade in (apparition progressive) et fade out (disparition progressive).
-* 
+  
 
 ### Notions: effets visuels - vitesse
 * [▶️ Application d'une vitesse créée au tournage](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETBybwGBVyhNpuOc9R7HEBYBeIXk3DzCAd87Xd0E6plLWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=l6rcJO)
@@ -145,6 +148,10 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 * [▶️ Application d'une réverbération](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EbdVBH2p30dGopGVFop8aYwB_mdBNUx13n0JfsazkwP2tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cPkTu7)
 
 * [▶️ Application d'effets créatifs](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZEjpHRlgZtFv4tDN-VZ9MYBvKUB4xtM3ZSapJapryUSjg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9hpuZa)
+
+* 🛠️ **Réverbération** : Appliquer une réverbération pour enrichir l'ambiance sonore.
+  * Ajouter une réverbération au clip sonore LOW-HIT_Turner_Round.wav pour renforcer l'effet.
+
 
 ### Notions: rendus
 * [▶️ Rendus](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EX377JfAZ4lMvwklBSNGS2sBHwgr_uoFt3Z3cEVym88vrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tKMfEb)
