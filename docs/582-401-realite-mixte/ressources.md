@@ -18,13 +18,14 @@
 - [Changer sa plateforme de développement pour Android](installation/configuration.md)
 - [Utiliser Unity remote pour visualiser le résultat sur son téléphone](installation/unity-remote.md)
 
-#### Notions de base
+#### Notions
 - [Les composantes](unity/composantes.md)
   - [Transform](unity/composantes.md#transform)
   - [Sprite renderer](unity/composantes.md#sprite-renderer)
   - [Collider](unity/composantes.md#collider-2d)
   - [Rigidbody](unity/composantes.md#rigidbody-2d)
   - [Video player](unity/composantes.md#video-player)
+- [Calques - *Sorting layers*](unity/sorting_layers.md)
  
 #### Réalité augmentée
 - [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
