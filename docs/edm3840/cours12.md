@@ -43,9 +43,6 @@
 * [▶️ Outil d'édition : sélection, trim, lame (A, B, T)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQWpKNuJ7jNGqwgT2PKrnhoBEhxsTVs8UFtratl58KeIIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9whu3a)
 * [▶️ Sélection de clips avant et après la tête de lecture (Alt+Y, Ctrl+Alt+Y)](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EROGda2EtABJuZB0BMcSgDcB-wnkzFYq58XLv-Z_PZSLvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fAIJHa)
 
- * 🛠️ Montage avec changement de dimensions : Synchroniser les clips au tempo et réduire progressivement la taille de l'image pour créer un effet visuel dynamique. <br>
- * 🛠️ Montage mosaïque : Synchroniser les clips au tempo en réduisant leur taille pour créer un arrangement en mosaïque. <br>
- * 🛠️ Montage superposé avec rotation : Couper les clips au tempo et les superposer en couches multiples. Ajouter des effets de rotation (flipping) sur certains clips pour varier les transitions. <br>
 
 
 ### Notions: le montage audio
@@ -65,7 +62,9 @@
 ### Notions: l'inspecteur 
 * [▶️ Utilisation de l'inspecteur 1](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV7tZk4iihRNoWrA8FtNI1UBcyS-uYCpjkxB94qdEN82CA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kYABYj)
 * [▶️ Utilisation de l'inspecteur 2](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ebw39VQTyIJOpXKFmxQe2DUBcxRrUGafllunkjPUJO6Jow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PuNHEo)
-
+ * 🛠️ Montage avec changement de dimensions : Synchroniser les clips au tempo et réduire progressivement la taille de l'image pour créer un effet visuel dynamique. <br>
+ * 🛠️ Montage mosaïque : Synchroniser les clips au tempo en réduisant leur taille pour créer un arrangement en mosaïque. <br>
+ * 🛠️ Montage superposé avec rotation : Couper les clips au tempo et les superposer en couches multiples. Ajouter des effets de rotation (flipping) sur certains clips pour varier les transitions. <br>
 
 ### Notions: transitions visuelles et sonores
 
@@ -75,8 +74,8 @@
 https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZKV75IMFEFHrs4LfPE1B6QB1HFMje3uF0dluO2VVcqYKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HYv5jO
 )
 
-### Notions: effets visuels - vitesse
 
+### Notions: effets visuels - vitesse
 * [▶️ Application d'une vitesse créée au tournage](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETBybwGBVyhNpuOc9R7HEBYBeIXk3DzCAd87Xd0E6plLWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=l6rcJO)
 
 * [▶️ Modification de la vitesse créée en post-prod](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZq5eneFFhNPshRnWZU1470B2oEwV6HHuW7ytXI17Q5gtw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1wIFQo
@@ -92,6 +91,10 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 
 * [▶️ Utilisation d'un générateur pour créer un arrière plan de couleur](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV6F9BkeKGBDsi-zON5O3pQB8Lts2kiCaTgBOONXKBNCUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=euXFPU)
 
+* 🛠️ Effet de flicker : Couper des séquences dans une vidéo et superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker).
+* 🛠️ Effet de flou progressif : Appliquer un flou sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
+
+* 
 ### Notions: effets visuels - mosaïques
 
 * [▶️ Importation jpg, png, psd](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ee06IDhRkOhEmYyT3WDF-acBSSMiaHir6Ed6IM9JC4H1EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kfRzKs)
