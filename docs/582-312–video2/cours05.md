@@ -148,7 +148,9 @@ Le **keying** permet d’isoler une zone de l’image en fonction de sa couleur 
 4. Remplacez le fond ou appliquez des effets supplémentaires dans des nodes séparés.
 
 ---
-
+## 8. Fusion
+1. Création d’animation de texte 
+https://www.youtube.com/watch?v=rXA7JBzmlWI
 
 ## Devoir
 * Montage offline de votre projet
