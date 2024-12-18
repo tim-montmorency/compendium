@@ -17,6 +17,10 @@
 #### Notions de base
 - [Les composantes](unity/composantes.md)
   - [Transform](unity/composantes.md#transform)
+  - [Sprite renderer](unity/composantes.md#sprite-renderer)
+  - [Collider](unity/composantes.md#collider-2d)
+  - [Rigidbody](unity/composantes.md#rigidbody-2d)
+  - [Video player](unity/composantes.md#video-player)
 
 ## Maya
 
