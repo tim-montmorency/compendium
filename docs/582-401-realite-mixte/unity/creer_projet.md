@@ -1,4 +1,4 @@
-## Créer un projet
+# Créer un projet
 Pour créer un nouveau projet dans Unity, on doit passer par le Unity Hub. Une fois que celui-ci est ouvert, assurez-vous d'être dans la section Projects du Hub. Ensuite, appuyez sur le bouton bleu New project.      
 
 Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:      
