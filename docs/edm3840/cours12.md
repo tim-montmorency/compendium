@@ -134,7 +134,7 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 * 🛠️ **Insertion de texte avec vidéo intégrée** : Ajouter un texte dans lequel la vidéo est visible à l'intérieur des lettres, en utilisant des masques ou des outils de fusion pour intégrer la vidéo dans la typographie.
 
 * <details>
-  <summary>Insérer une vidéo dans un texte (DaVinci Resolve)</summary>
+  <summary>🛠️ **Insertion de texte avec vidéo intégrée** : Ajouter un texte dans lequel la vidéo est visible à l'intérieur des lettres, en utilisant des masques ou des outils de fusion pour intégrer la vidéo dans la typographie.</summary>
 
 ### Étapes
 
