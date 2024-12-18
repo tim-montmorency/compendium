@@ -35,4 +35,6 @@
 - [Vidéos](unity/video.md)
 
 ## Vuforia
-
+- [Création de compte](realite-augmentee/compte_vuforia.md)
+- [Création d'une license](realite-augmentee/license_vuforia.md)
+- [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
