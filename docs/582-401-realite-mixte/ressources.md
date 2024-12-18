@@ -14,6 +14,10 @@
 - [Nomenclature](unity/nomenclature.md)
 - [Importer des *Assets* depuis le *Asset store*](unity/creer_projet.md)
 
+#### Notions de base
+- [Les composantes](unity/composantes.md)
+  - [Transform](unity/composantes.md#transform)
+
 ## Maya
 
 - [Importation d'objets 3D dans Unity](unity/Importation3D.md)
