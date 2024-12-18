@@ -13,6 +13,7 @@
 - [Fenêtres](unity/fenetres.md)
 - [Nomenclature](unity/nomenclature.md)
 - [Importer des *Assets* depuis le *Asset store*](unity/creer_projet.md)
+- [Changer sa plateforme de développement pour Android](installation/configuration.md)
 
 #### Notions de base
 - [Les composantes](unity/composantes.md)
