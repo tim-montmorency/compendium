@@ -199,3 +199,9 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 
 * 🛠️ **Rendu en mode Smart** : Lancer un rendu avec les paramètres optimisés automatiquement en mode Smart.
 * 🛠️ **Rendu en mode User** : Lancer un rendu en mode User, permettant de personnaliser les paramètres selon les besoins du projet.
+
+### Notions: l'exportation des projets
+* [▶️ Exportation vidéo et audio ](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_video/_capsules_montage/_capsules_da_vinci/01_capsules_da_vinci/01_da_vinci_de_base/26_exportation/01_exportation_video_audio.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WkjifX)
+* [▶️ Exportation audio](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbwwYHFcorNNvN0mMjFIK-oBhngodo_2cUp1IlotSg_JbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zO8cat)
+
+🛠️ **Exportation des fichiers** : Exporter les fichiers en formats H.264 pour une compression optimale et en DNxHD ou ProRes pour une qualité professionnelle.
