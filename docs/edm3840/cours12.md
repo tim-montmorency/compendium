@@ -90,7 +90,8 @@
 https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZKV75IMFEFHrs4LfPE1B6QB1HFMje3uF0dluO2VVcqYKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HYv5jO
 )
 
-* 🛠️ **Transition en fondu** : Utiliser des keyframes pour créer des transitions de type fade in (apparition progressive) et fade out (disparition progressive).
+🛠️ **Transition audio en fondu** : Utiliser des keyframes pour créer des transitions sonores de type fade in (augmentation progressive du volume) et fade out (diminution progressive du volume).
+* 🛠️ **Transition Stretch Blur (image)** : Ajouter une transition stretch blur pour créer un effet de flou étiré entre deux clips.
   
 
 ### Notions: effets visuels - vitesse
@@ -99,6 +100,12 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 * [▶️ Modification de la vitesse créée en post-prod](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZq5eneFFhNPshRnWZU1470B2oEwV6HHuW7ytXI17Q5gtw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1wIFQo
 )
 * [▶️ Modification de la vitesse grâce à des courbes](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EbgmGEqxB8lOi9kHr3px8I4BLF8f8ZXSbxTcXPLnL_jUBg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=brJJ8G)
+
+
+🛠️ **Changement de vitesse accéléré** : Modifier la vitesse du clip 10677317-uhd_4096_2160_25fps.mp4 pour ajuster son rythme selon les besoins du projet.
+
+🛠️ **Changement de vitesse ralenti** : Modifier la vitesse du clip 08132018_192402.mov pour ajuster son rythme selon les besoins du projet. Le clip a été tourné au ralenti. 
+
 
 ### Notions: effets visuels - filtres
 
@@ -123,6 +130,39 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 * [▶️ Animation d'un texte pour un générique/nom et personne](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EQEsUcYhAnhOtSfk3d64aWEBeX74EfPHrAHrQm5FxoWDnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k7cXJ8)
 
 * [▶️ Animation d'un texte avec les options de fusion](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETNBQgMDfzdHr-4YUz49CYYBPf7y8su8A3G4ciqVKYXCfg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VhkF3C)
+
+* 🛠️ **Insertion de texte avec vidéo intégrée** : Ajouter un texte dans lequel la vidéo est visible à l'intérieur des lettres, en utilisant des masques ou des outils de fusion pour intégrer la vidéo dans la typographie.
+
+* <details>
+  <summary>Insérer une vidéo dans un texte (DaVinci Resolve)</summary>
+
+### Étapes
+
+1. **Positionner les clips dans la timeline :**
+   - Placez la **vidéo** sur la **piste supérieure**.
+   - Ajoutez un titre (**Text+**) sur la **piste inférieure**.
+
+2. **Configurer le texte en mode Alpha :**
+   - Sélectionnez le clip de texte (piste inférieure).
+   - Dans **Inspector**, sous l’onglet *Composite*, changez le **Mode de Fusion** (Blend Mode) à **Alpha**.
+
+3. **Configurer la vidéo en mode Foreground :**
+   - Sélectionnez le clip vidéo (piste supérieure).
+   - Dans **Inspector**, sous l’onglet *Composite*, changez le **Mode de Fusion** (Blend Mode) à **Foreground**.
+
+4. **Ajuster la position et l’échelle du texte :**
+   - Sélectionnez le clip de texte.
+   - Dans **Inspector**, utilisez les paramètres *Transform* pour ajuster la taille, la position ou la rotation du texte.
+
+5. **Ajouter un fond (optionnel) :**
+   - Insérez une autre vidéo ou une couleur unie sur une **troisième piste inférieure** pour remplir les zones hors du texte.
+
+6. **Prévisualiser et ajuster :**
+   - Visionnez l’effet dans la fenêtre de lecture.
+   - Affinez les paramètres de taille, position ou espacement du texte dans **Inspector**, si nécessaire.
+
+</details>
+
 
 
 ### Notions: effets visuels - stop motion
