@@ -90,7 +90,7 @@
 https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZKV75IMFEFHrs4LfPE1B6QB1HFMje3uF0dluO2VVcqYKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HYv5jO
 )
 
-🛠️ **Transition audio en fondu** : Utiliser des keyframes pour créer des transitions sonores de type fade in (augmentation progressive du volume) et fade out (diminution progressive du volume).
+* 🛠️ **Transition audio en fondu** : Utiliser des keyframes pour créer des transitions sonores de type fade in (augmentation progressive du volume) et fade out (diminution progressive du volume).
 * 🛠️ **Transition Stretch Blur (image)** : Ajouter une transition stretch blur pour créer un effet de flou étiré entre deux clips.
   
 
@@ -131,10 +131,10 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 
 * [▶️ Animation d'un texte avec les options de fusion](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETNBQgMDfzdHr-4YUz49CYYBPf7y8su8A3G4ciqVKYXCfg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VhkF3C)
 
-
+**Insertion de texte avec vidéo intégrée** : Ajouter un texte dans lequel la vidéo est visible à l'intérieur des lettres, en utilisant des masques ou des outils de fusion pour intégrer la vidéo dans la typographie.
 
 * <details>
-  <summary>🛠️ **Insertion de texte avec vidéo intégrée** : Ajouter un texte dans lequel la vidéo est visible à l'intérieur des lettres, en utilisant des masques ou des outils de fusion pour intégrer la vidéo dans la typographie.</summary>
+  <summary>🛠️ Méthode </summary>
 
 ### Étapes
 
