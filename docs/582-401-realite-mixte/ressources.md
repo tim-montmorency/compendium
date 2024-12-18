@@ -25,6 +25,14 @@
   - [Collider](unity/composantes.md#collider-2d)
   - [Rigidbody](unity/composantes.md#rigidbody-2d)
   - [Video player](unity/composantes.md#video-player)
+ 
+#### Réalité augmentée
+- [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
+- [Importer les images de détection dans Unity](realite-augmentee/importer_detection.md)
+- [Créer une caméra de détection dans Unity](realite-augmentee/camera_detection.md)
+- [Détecter une image dans Unity](realite-augmentee/detecter_image.md)
+- [Déclencher des éléments à partir d'une détection](realite-augmentee/declencher_detection.md)
+
 
 ## Maya
 
@@ -37,4 +45,7 @@
 ## Vuforia
 - [Création de compte](realite-augmentee/compte_vuforia.md)
 - [Création d'une license](realite-augmentee/license_vuforia.md)
-- [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
+- [Créer de bonnes images de détection](realite-augmentee/detection.md)
+- [Créer une base de données avec les images](realite-augmentee/base_donnees.md)
+
+
