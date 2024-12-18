@@ -17,3 +17,7 @@
 ## Maya
 
 - [Importation d'objets 3D dans Unity](unity/Importation3D.md)
+
+## Création de visuels
+- [Sprites](unity/sprite.md)
+- [Vidéos](unity/video.md)
