@@ -28,7 +28,17 @@
 
 ## Bloc 3
 #### Détection en réalité augmentée
-[📝 Détection](./realite-augmentee/detection.md){ .md-button }   
+[📝 Créer de bonnes images de détection](./realite-augmentee/detection.md){ .md-button }      
+
+[📝 Créer une base de données avec les images](./realite-augmentee/base_donnees.md){ .md-button }      
+
+[📝 Importer les images de détection dans Unity](./realite-augmentee/importer_detection.md){ .md-button }      
+
+[📝 Créer une caméra de détection dans Unity](./realite-augmentee/camera_detection.md){ .md-button }   
+
+[📝 Détecter une image dans Unity](./realite-augmentee/detecter_image.md){ .md-button }     
+
+[📝 Déclencher des éléments à partir d'une détection](./realite-augmentee/declencher_detection.md){ .md-button }   
 
 ### Avancement du travail 1
 #### Détection AR
