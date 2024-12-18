@@ -15,7 +15,7 @@ Rendez-vous sur le site suivant pour télécharger le Unity Hub:
 - [ ] Une fois le Unity Hub installé, ouvrez l'application.
 - [ ] Vous devez ensuite cliquer sur Installs dans la liste à gauche.
 - [ ] À droite, un bouton bleu avec la mention Install Editor est apparu, appuyez sur celui-ci.
-- [ ] Dans la liste, cherchez maintenant la version 2022.3.2f1 du logiciel. Appuyez sur Install lorsque vous l'avez.
+- [ ] Dans la liste, cherchez maintenant la version 2022.3.45f1 du logiciel. Appuyez sur Install lorsque vous l'avez.
 - [ ] Dans la nouvelle fenêtre qui s'ouvre, assurez-vous que Microsoft Visual Studio... est coché, puis appuyez sur continue.
 - [ ] Lorsque le logiciel sera installé, la fenêtre de Visual studio community s'ouvrira. Appuyez sur continue.
 - [ ] Une liste d'ajouts apparaîtra alors, cherchez Game development with Unity, cochez la boîte, puis appuyez sur Install.
