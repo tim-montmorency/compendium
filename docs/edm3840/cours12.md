@@ -78,9 +78,9 @@
 
 * [▶️ Création d'une mosaïque](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETSNMjkvNtJGv9dkMJCYUUcB0DJlGdgf0yxSZOgOr62LrQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1jJWud)
  
- * 🛠️ Montage avec changement de dimensions : Synchroniser les clips au tempo et réduire progressivement la taille de l'image pour créer un effet visuel dynamique. <br>
- * 🛠️ Montage mosaïque : Synchroniser les clips au tempo en réduisant leur taille pour créer un arrangement en mosaïque. <br>
- * 🛠️ Montage superposé avec rotation : Couper les clips au tempo et les superposer en couches multiples. Ajouter des effets de rotation (flipping) sur certains clips pour varier les transitions. <br>
+ * 🛠️ **Montage avec changement de dimensions** : Synchroniser les clips au tempo et réduire progressivement la taille de l'image pour créer un effet visuel dynamique. <br>
+ * 🛠️ **Montage mosaïque** : Synchroniser les clips au tempo en réduisant leur taille pour créer un arrangement en mosaïque. <br>
+ * 🛠️ **Montage superposé avec rotation** : Couper les clips au tempo et les superposer en couches multiples. Ajouter des effets de rotation (flipping) sur certains clips pour varier les transitions. <br>
 
 ### Notions: transitions visuelles et sonores
 
@@ -156,5 +156,5 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 ### Notions: rendus
 * [▶️ Rendus](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EX377JfAZ4lMvwklBSNGS2sBHwgr_uoFt3Z3cEVym88vrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tKMfEb)
 
-* 🛠️ Partir un rendu en mode smart. <br>
-* 🛠️ Partir un rendu en mode user.  <br>
+* 🛠️ **Rendu en mode Smart** : Lancer un rendu avec les paramètres optimisés automatiquement en mode Smart.
+* 🛠️ **Rendu en mode User** : Lancer un rendu en mode User, permettant de personnaliser les paramètres selon les besoins du projet.
