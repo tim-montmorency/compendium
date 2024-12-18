@@ -16,7 +16,11 @@
 [📝 Unity remote](./installation/unity-remote.md){ .md-button }   
        
 #### Réalité augmentée
-[📝 Introduction à la AR](./realite-augmentee/introduction.md){ .md-button }       
+[📝 Création de compte Vuforia](./realite-augmentee/compte_vuforia.md){ .md-button }       
+
+[📝 Création d'une license Vuforia](./realite-augmentee/license_vuforia.md){ .md-button }      
+
+[📝 Ajout de Vuforia dans le projet Unity](./realite-augmentee/vuforia_unity.md){ .md-button }   
 
 ### Avancement du travail 1
 #### Préparation de Vuforia
