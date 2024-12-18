@@ -566,8 +566,7 @@ extra_javascript:
 
 plugins:
   - offline
-  - tags:       
-      tags_file: 582-401-realite-mixte/ressources.md
+  - tags       
   - mkdocs-video
   - mkdocs-audio
   - render-stopper:
