@@ -6019,15 +6019,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#devoir" class="md-nav__link">
-    <span class="md-ellipsis">
-      Devoir
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -11741,15 +11732,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#devoir" class="md-nav__link">
-    <span class="md-ellipsis">
-      Devoir
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -11800,14 +11782,161 @@
 </ul>
 <h2 id="pause-25-minutes">Pause (25  minutes)<a class="headerlink" href="#pause-25-minutes" title="Permanent link">¶</a></h2>
 <h2 id="da-vinci-la-colorisation-90-minutes_1"><a href="da_vinci_colorisation.html">Da Vinci - La colorisation</a> (90  minutes)<a class="headerlink" href="#da-vinci-la-colorisation-90-minutes_1" title="Permanent link">¶</a></h2>
-<ul>
-<li>Correction de couleur polaroid </li>
-<li>Correction en arrière plan mais qui n'affecte pas la peau des personnage</li>
-<li>Correction de couleur duotone</li>
-<li>Effect avec des canaux de couleurs décalés</li>
-<li>Effets avec du flou en arrière plan</li>
-<li>Faire un keying</li>
+<h1 id="techniques-de-correction-et-effets-dans-davinci-resolve">Techniques de Correction et Effets dans DaVinci Resolve<a class="headerlink" href="#techniques-de-correction-et-effets-dans-davinci-resolve" title="Permanent link">¶</a></h1>
+<h2 id="1-creer-un-look-polaroid-avec-le-mode-log">1. Créer un look Polaroid avec le mode Log<a class="headerlink" href="#1-creer-un-look-polaroid-avec-le-mode-log" title="Permanent link">¶</a></h2>
+<p>Le mode <strong>Log</strong> permet d'obtenir des ajustements précis pour reproduire le style Polaroid, caractérisé par des teintes pastel et une saturation équilibrée.</p>
+<h3 id="etapes">Étapes :<a class="headerlink" href="#etapes" title="Permanent link">¶</a></h3>
+<ol>
+<li>Passez en mode <strong>Log Wheels</strong> dans la palette des roues de couleur.</li>
+<li>Ajustez les paramètres :<ul>
+<li><strong>Highlights</strong> : augmentez légèrement pour adoucir les hautes lumières.</li>
+<li><strong>Midtones</strong> : appliquez une teinte pastel (ex. rose ou cyan).</li>
+<li><strong>Shadows</strong> : conservez les ombres légères pour préserver un faible contraste.</li>
 </ul>
+</li>
+<li>Ajoutez une légère saturation pour renforcer l’effet Polaroid.</li>
+</ol>
+<hr>
+<h2 id="2-creer-un-look-duotone">2. Créer un look Duotone<a class="headerlink" href="#2-creer-un-look-duotone" title="Permanent link">¶</a></h2>
+<p>Le look <strong>Duotone</strong> applique deux teintes dominantes à une image, souvent dans les ombres et les hautes lumières, pour un effet artistique.</p>
+<h3 id="etapes_1">Étapes :<a class="headerlink" href="#etapes_1" title="Permanent link">¶</a></h3>
+<ol>
+<li>
+<p><strong>Désaturez dans le RGB Mixer</strong> :</p>
+<ul>
+<li>Ouvrez le <strong>RGB Mixer</strong> dans la <strong>Color Page</strong>.</li>
+<li>Décochez <strong>Preserve Luminance</strong> et cochez <strong>monochrome</strong></li>
+<li>Réglez les canaux pour obtenir une image en niveaux de gris.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ajoutez des couleurs dans le mode Log</strong> :</p>
+<ul>
+<li>Dans les <strong>Shadows</strong>, appliquez une teinte pour les ombres (ex. bleu ou violet).</li>
+<li>Dans les <strong>Highlights</strong>, ajoutez une teinte pour les hautes lumières (ex. orange ou rouge).</li>
+<li>Ajustez les <strong>Midtones</strong> pour équilibrer la transition entre les deux teintes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Affinez les contrastes</strong> :</p>
+<ul>
+<li>Utilisez les <strong>Curves</strong> pour ajuster les contrastes et obtenir un rendu harmonieux.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-utilisation-des-layer-nodes">3. Utilisation des Layer Nodes<a class="headerlink" href="#3-utilisation-des-layer-nodes" title="Permanent link">¶</a></h2>
+<p>Les <strong>Layer Nodes</strong> permettent de superposer des corrections avec une hiérarchie définissant la priorité des effets.</p>
+<h3 id="exemples-dutilisation">Exemples d’utilisation :<a class="headerlink" href="#exemples-dutilisation" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Correction d’arrière-plan sans affecter la peau</strong> :<ol>
+<li>Utilisez un <strong>qualifier</strong> pour isoler les tons de peau.</li>
+<li>Appliquez des corrections distinctes sur l’arrière-plan dans un node séparé.</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li><strong>Colorisation ciblée avec une Power Window</strong> :<ol>
+<li>Dessinez une Power Window en forme de triangle, rond ou autre.</li>
+<li>Appliquez une correction colorimétrique uniquement à l’intérieur ou à l’extérieur de cette zone.</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="4-utilisation-des-parallel-nodes">4. Utilisation des Parallel Nodes<a class="headerlink" href="#4-utilisation-des-parallel-nodes" title="Permanent link">¶</a></h2>
+<p>Les <strong>Parallel Nodes</strong> permettent d'appliquer plusieurs corrections indépendantes, qui sont ensuite combinées sans hiérarchie.</p>
+<h3 id="exemples-dutilisation_1">Exemples d’utilisation :<a class="headerlink" href="#exemples-dutilisation_1" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Assombrir les arbres</strong> :<ul>
+<li>Sélectionnez les arbres avec une <strong>Power Window</strong> et réduisez leur luminosité.</li>
+</ul>
+</li>
+<li><strong>Saturer le ciel sans affecter le reste</strong> :<ul>
+<li>Isolez le ciel avec un <strong>qualifier</strong> et augmentez la saturation.</li>
+</ul>
+</li>
+<li><strong>Appliquer deux dégradés distincts</strong> :<ul>
+<li>Utilisez deux Power Windows avec des dégradés différents pour créer des effets de transition complexes.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-creer-un-effet-de-separation-des-couleurs-combine-node">5. Créer un effet de séparation des couleurs (Combine Node)<a class="headerlink" href="#5-creer-un-effet-de-separation-des-couleurs-combine-node" title="Permanent link">¶</a></h2>
+<p>Bien qu’un <strong>Combine Node</strong> ne soit pas officiel, vous pouvez simuler un effet de séparation RVB en manipulant les canaux de couleurs.</p>
+<h3 id="etapes_2">Étapes :<a class="headerlink" href="#etapes_2" title="Permanent link">¶</a></h3>
+<ol>
+<li><strong>Séparer les canaux</strong> :<ul>
+<li>Créez des nodes distincts pour isoler les canaux rouge, vert et bleu.</li>
+</ul>
+</li>
+<li><strong>Décaler les canaux</strong> :<ul>
+<li>Appliquez un décalage spatial sur chaque canal pour créer un effet de séparation.</li>
+</ul>
+</li>
+<li><strong>Recombiner les canaux</strong> :<ul>
+<li>Utilisez un <strong>Layer Mixer</strong> pour recombiner les canaux et finaliser l’effet.</li>
+</ul>
+</li>
+</ol>
+<h2 id="6-colorisation-dynamique-avec-des-keyframes">6. Colorisation dynamique avec des Keyframes<a class="headerlink" href="#6-colorisation-dynamique-avec-des-keyframes" title="Permanent link">¶</a></h2>
+<p>Les <strong>Keyframes</strong> permettent d’animer des corrections colorimétriques au fil du temps, créant des transitions fluides ou des effets visuels progressifs.</p>
+<h3 id="exemples-dutilisation_2">Exemples d’utilisation :<a class="headerlink" href="#exemples-dutilisation_2" title="Permanent link">¶</a></h3>
+<ul>
+<li>Transition d’une ambiance froide à une ambiance chaude.</li>
+<li>Passage progressif du noir et blanc à la couleur.</li>
+<li>Animation de la saturation ou de la luminosité d’un élément spécifique.</li>
+</ul>
+<h3 id="etapes_3">Étapes :<a class="headerlink" href="#etapes_3" title="Permanent link">¶</a></h3>
+<ol>
+<li>Ajoutez un <strong>Keyframe</strong> dans la <strong>Color Page</strong> pour les paramètres à animer.</li>
+<li>Modifiez les réglages (teinte, saturation, luminosité) entre les keyframes.</li>
+<li>Prévisualisez et ajustez pour assurer une transition fluide.</li>
+</ol>
+<hr>
+<h2 id="7-isoler-un-personnage-et-flouter-larriere-plan">7. Isoler un personnage et flouter l’arrière-plan<a class="headerlink" href="#7-isoler-un-personnage-et-flouter-larriere-plan" title="Permanent link">¶</a></h2>
+<p>Cet effet consiste à garder le personnage ou le sujet principal net tout en floutant l’arrière-plan, avec suivi des mouvements grâce au <strong>tracking</strong>.</p>
+<h3 id="etapes_4">Étapes :<a class="headerlink" href="#etapes_4" title="Permanent link">¶</a></h3>
+<ol>
+<li>
+<p><strong>Créer une Power Window</strong> :</p>
+<ul>
+<li>Dessinez une Power Window autour du personnage ou du sujet principal.</li>
+<li>Ajustez sa taille et sa forme pour bien correspondre au sujet.</li>
+</ul>
+</li>
+<li>
+<p><strong>Effectuer un Tracking</strong> :</p>
+<ul>
+<li>Passez à l’onglet <strong>Tracker</strong> dans la <strong>Color Page</strong>.</li>
+<li>Activez le <strong>Tracking</strong> pour suivre les mouvements du sujet tout au long de la vidéo.</li>
+</ul>
+</li>
+<li>
+<p><strong>Appliquer un flou à l’arrière-plan</strong> :</p>
+<ul>
+<li>Inversez la sélection avec le bouton <strong>Invert</strong> dans la Power Window.</li>
+<li>Appliquez un effet de <strong>Blur</strong> (gaussien ou radial) pour flouter l’arrière-plan.</li>
+</ul>
+</li>
+<li>
+<p><strong>Affiner les bords</strong> :</p>
+<ul>
+<li>Augmentez la <strong>Softness</strong> dans la Power Window pour rendre la transition plus naturelle.</li>
+<li>Corrigez les imperfections du tracking si nécessaire.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="8-keying-pour-isoler-une-couleur">8. Keying pour isoler une couleur<a class="headerlink" href="#8-keying-pour-isoler-une-couleur" title="Permanent link">¶</a></h2>
+<p>Le <strong>keying</strong> permet d’isoler une zone de l’image en fonction de sa couleur dominante, souvent utilisé pour les fonds verts.</p>
+<h3 id="etapes_5">Étapes :<a class="headerlink" href="#etapes_5" title="Permanent link">¶</a></h3>
+<ol>
+<li>Accédez à l’outil <strong>Qualifier</strong> dans la <strong>Color Page</strong>.</li>
+<li>Sélectionnez la couleur cible (ex. fond vert ou bleu).</li>
+<li>Affinez les réglages avec <strong>Threshold</strong>, <strong>Clean Black/White</strong>, et <strong>Denoise</strong> pour supprimer les imperfections.</li>
+<li>Remplacez le fond ou appliquez des effets supplémentaires dans des nodes séparés.</li>
+</ol>
+<hr>
 <h2 id="devoir">Devoir<a class="headerlink" href="#devoir" title="Permanent link">¶</a></h2>
 <ul>
 <li>Montage offline de votre projet<ul>
