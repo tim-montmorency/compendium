@@ -13,7 +13,7 @@ Afin de développer pour Android, nous devrons suivre quelques étapes.
 
 !!! warning "Important"
 
-    Si vous n'avez pas le module Android sur votre ordinateur, vous ne pourrez pas le sélectionner pour changer de plateforme. Vous devez alors suivre la procédure suivant pour l'installer: 
+    Si vous n'avez pas le module Android sur votre ordinateur, vous ne pourrez pas le sélectionner pour changer de plateforme. Vous devez alors suivre la procédure ci-bas pour l'installer: 
     
 ## Ajouter un module
 - [ ] Ouvrez le Unity hub, puis allez dans l'onglet Installs.
