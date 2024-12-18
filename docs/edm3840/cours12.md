@@ -16,13 +16,15 @@
   * Langue et utilisateur
   * Son
 
-* 🛠️ Faire les réglages des settings et préférences. <br>
+* 🛠️ Configuration des réglages : Ajuster les paramètres et préférences selon les besoins du projet.
+ <br>
 
 ### Notions: l'importation et gestion des médias
 * [▶️ Importation de médias](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ee6Dl0FNl8tIpitNLFkinr4B9ziXBn4jYY3F0uev0ARAHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hr5bMd)
+* [▶️ Importation jpg, png, psd](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ee06IDhRkOhEmYyT3WDF-acBSSMiaHir6Ed6IM9JC4H1EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kfRzKs)
 * [▶️ Organisation du chutier](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETJ6LwnEhMxMj9SYzP_WL1UBlJdSBDKVljxRK2ohGNrSHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ci2st3)
 
-* 🛠️ Importer les clips. <br>
+* 🛠️ Importation des clips : Ajouter les clips nécessaires dans le projet. <br>
 
 
 ### Notions: l'onglet montage
@@ -62,6 +64,9 @@
 ### Notions: l'inspecteur 
 * [▶️ Utilisation de l'inspecteur 1](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV7tZk4iihRNoWrA8FtNI1UBcyS-uYCpjkxB94qdEN82CA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kYABYj)
 * [▶️ Utilisation de l'inspecteur 2](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ebw39VQTyIJOpXKFmxQe2DUBcxRrUGafllunkjPUJO6Jow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PuNHEo)
+
+* [▶️ Création d'une mosaïque](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETSNMjkvNtJGv9dkMJCYUUcB0DJlGdgf0yxSZOgOr62LrQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1jJWud)
+ 
  * 🛠️ Montage avec changement de dimensions : Synchroniser les clips au tempo et réduire progressivement la taille de l'image pour créer un effet visuel dynamique. <br>
  * 🛠️ Montage mosaïque : Synchroniser les clips au tempo en réduisant leur taille pour créer un arrangement en mosaïque. <br>
  * 🛠️ Montage superposé avec rotation : Couper les clips au tempo et les superposer en couches multiples. Ajouter des effets de rotation (flipping) sur certains clips pour varier les transitions. <br>
@@ -93,13 +98,6 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 
 * 🛠️ Effet de flicker : Couper des séquences dans une vidéo et superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker).
 * 🛠️ Effet de flou progressif : Appliquer un flou sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
-
-* 
-### Notions: effets visuels - mosaïques
-
-* [▶️ Importation jpg, png, psd](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/Ee06IDhRkOhEmYyT3WDF-acBSSMiaHir6Ed6IM9JC4H1EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kfRzKs)
-
-* [▶️ Création d'une mosaïque](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/ETSNMjkvNtJGv9dkMJCYUUcB0DJlGdgf0yxSZOgOr62LrQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1jJWud)
 
 
 
