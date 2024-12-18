@@ -90,7 +90,7 @@
 https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZKV75IMFEFHrs4LfPE1B6QB1HFMje3uF0dluO2VVcqYKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HYv5jO
 )
 
-* 🛠️ Transition en fondu : Utiliser des keyframes pour créer des transitions de type fade in (apparition progressive) et fade out (disparition progressive).
+* 🛠️ **Transition en fondu** : Utiliser des keyframes pour créer des transitions de type fade in (apparition progressive) et fade out (disparition progressive).
   
 
 ### Notions: effets visuels - vitesse
@@ -109,8 +109,8 @@ https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZ
 
 * [▶️ Utilisation d'un générateur pour créer un arrière plan de couleur](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV6F9BkeKGBDsi-zON5O3pQB8Lts2kiCaTgBOONXKBNCUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=euXFPU)
 
-* 🛠️ Effet de flicker : Couper des séquences dans une vidéo et superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker).
-* 🛠️ Effet de flou progressif : Appliquer un flou sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
+* 🛠️ **Effet de flicker** : Couper des séquences dans une vidéo et superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker). Ajuster les effets de fusion et de transparence pour enrichir l'impact visuel.
+* 🛠️ **Effet de flou** : Appliquer un gaussian blur sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
 
 
 
