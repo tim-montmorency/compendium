@@ -1,9 +1,5 @@
-
-
 Dans Unity, il est possible de choisir la plateforme pour laquelle on développe notre jeu. Par défaut, la plateforme sélectionnée est PC.   
 
-
-       
 
 ## Développer pour Android
 Afin de développer pour Android, nous devrons suivre quelques étapes.    
@@ -14,7 +10,12 @@ Afin de développer pour Android, nous devrons suivre quelques étapes.
 - [ ] Le changement prendra un certain temps selon la taille de votre projet.
 - [ ] Vous devrez ensuite fermer, puis réouvrir votre projet.
 
-### Ajouter un module
+
+!!! warning "Important"
+
+    Si vous n'avez pas le module Android sur votre ordinateur, vous ne pourrez pas le sélectionner pour changer de plateforme. Vous devez alors suivre la procédure suivant pour l'installer: 
+    
+## Ajouter un module
 - [ ] Ouvrez le Unity hub, puis allez dans l'onglet Installs.
 - [ ] Dans la liste de vos installs, cherchez la version sur laquelle votre projet est. Appuyez ensuite sur l'engrenage, puis sur Add modules.
 - [ ] Dans la liste, cochez Android Build Support et ses sous-composantes, puis appuyez sur Install.
