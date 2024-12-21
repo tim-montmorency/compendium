@@ -46,12 +46,10 @@
   
 ## Devoir
 
-Faire le devoir [andy, poisson et crane](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) 
- 
-
-
-Faire le devoir de vecteur   
+Faire le devoir 
 [🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
+[andy, poisson et crane](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) 
+
 
 Déposer tous les devoirs dans Devoir sur TEAMS avant mardi. 
 
