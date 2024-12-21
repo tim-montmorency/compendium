@@ -47,7 +47,14 @@
 ## Devoir
 
 Faire le devoir 
-[🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
+* [🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
+* [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }   <br>     
+* [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }   <br>  
+* [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
+* [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
+* [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>   
+
+
 
 Déposer tous les devoirs dans Devoir sur TEAMS avant mardi. 
 
