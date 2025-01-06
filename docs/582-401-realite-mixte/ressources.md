@@ -88,6 +88,9 @@
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
 
+#### Faire jouer une vidéo
+- [Jouer une vidéo](unity/video-creation.md#creer-un-gameobject-pour-faire-jouer-la-video)
+
 
 ## Maya
 
