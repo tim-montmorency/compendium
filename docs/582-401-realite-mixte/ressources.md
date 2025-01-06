@@ -18,7 +18,7 @@
 - [Changer sa plateforme de développement pour Android](installation/configuration.md)
 - [Utiliser Unity remote pour visualiser le résultat sur son téléphone](installation/unity-remote.md)
 
-#### Notions
+#### L'inspecteur
 - [Les composantes](unity/composantes.md)
   - [Transform](unity/composantes.md#transform)
   - [Sprite renderer](unity/composantes.md#sprite-renderer)
@@ -34,6 +34,12 @@
 - [Détecter une image dans Unity](realite-augmentee/detecter_image.md)
 - [Déclencher des éléments à partir d'une détection](realite-augmentee/declencher_detection.md)
 
+#### Animation de sprite sheet
+- [Importer la *sprite sheet*](unity/anim_import.md)
+- [*Animator controller*](unity/anim_controller.md)
+- [*Animator*](./unity/anim_animator.md)
+- [Fenêtre animation](./unity/fenetre_anim.md)
+- [Animation de *Sprite sheet*](./unity/animation.md)
 
 ## Maya
 
