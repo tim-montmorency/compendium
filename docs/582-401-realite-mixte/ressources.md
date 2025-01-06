@@ -79,6 +79,8 @@
 - [Fonctions](code/fonctions.md)        
 - [Événements](code/evenements.md)
 - [Son](unity/son.md)
+- [Quitter l'application](code/quitter_jeu.md)
+- [Changer de scène](code/changement_scene.md)
      
 
 
