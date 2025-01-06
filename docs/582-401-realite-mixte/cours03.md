@@ -3,7 +3,12 @@
  
 #### Code
 - [📝 Variables](./code/variables.md)
-- [📝 Bases du code](./code/base.md)
+- [📝 Structure d'un script](./code/structure_script.md)
+- [📝 Console](./code/console.md)
+- [📝 Opérateurs](./code/operateur.md)
+- [📝 Conditions](./code/condition.md)
+- [📝 Boucle](./code/boucle.md)
+- [📝 Aléatoire](./code/aleatoire.md)
 - [📝 Fonctions](./code/fonctions.md)        
 
 
