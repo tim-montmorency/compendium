@@ -25,6 +25,8 @@
   - [Collider](unity/composantes.md#collider-2d)
   - [Rigidbody](unity/composantes.md#rigidbody-2d)
   - [Video player](unity/composantes.md#video-player)
+  - [Audio Listener](unity/composantes.md#audio-listener)
+  - [Audio Source](unity/composantes.md#audio-source)
 - [Calques - *Sorting layers*](unity/sorting_layers.md)
  
 #### Réalité augmentée
@@ -43,21 +45,22 @@
 
 ### Code
 #### Variables
-- [Int](code/variables.md#int)
-- [Float](code/variables.md#float)
-- [Bool](code/variables.md#bool)
-- [Vector 2](code/variables.md#vector-2)
-- [Vector 3](code/variables.md#vector-3)
-- [Tableau](code/variables.md#tableau-array)
-- [GameObject](code/variables.md#gameobject)
-- [Transform](code/variables.md#transform)
-- [Camera](code/variables.md#camera)
-- [Animator](code/variables.md#animator)
-- [Audio Clip](code/variables.md#audioclip)
-- [Audio Source](code/variables.md#audiosource)
-- [Color](code/variables.md#color)
-- [Sprite](code/variables.md#sprite)
-- [Sprite Renderer](code/variables.md#sprite-renderer)
+- [Les variables](code/variables.md)
+  - [Int](code/variables.md#int)
+  - [Float](code/variables.md#float)
+  - [Bool](code/variables.md#bool)
+  - [Vector 2](code/variables.md#vector-2)
+  - [Vector 3](code/variables.md#vector-3)
+  - [Tableau](code/variables.md#tableau-array)
+  - [GameObject](code/variables.md#gameobject)
+  - [Transform](code/variables.md#transform)
+  - [Camera](code/variables.md#camera)
+  - [Animator](code/variables.md#animator)
+  - [Audio Clip](code/variables.md#audioclip)
+  - [Audio Source](code/variables.md#audiosource)
+  - [Color](code/variables.md#color)
+  - [Sprite](code/variables.md#sprite)
+  - [Sprite Renderer](code/variables.md#sprite-renderer)
 
 ### Structure
 - [📝 Structure d'un script](code/structure_script.md)
