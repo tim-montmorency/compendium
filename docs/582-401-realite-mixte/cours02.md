@@ -26,17 +26,12 @@
 
 ## Bloc 3
 #### Détection en réalité augmentée
-[📝 Créer de bonnes images de détection](./realite-augmentee/detection.md){ .md-button }      
-
-[📝 Créer une base de données avec les images](./realite-augmentee/base_donnees.md){ .md-button }      
-
-[📝 Importer les images de détection dans Unity](./realite-augmentee/importer_detection.md){ .md-button }      
-
-[📝 Créer une caméra de détection dans Unity](./realite-augmentee/camera_detection.md){ .md-button }   
-
-[📝 Détecter une image dans Unity](./realite-augmentee/detecter_image.md){ .md-button }     
-
-[📝 Déclencher des éléments à partir d'une détection](./realite-augmentee/declencher_detection.md){ .md-button }   
+- [📝 Créer de bonnes images de détection](./realite-augmentee/detection.md)
+- [📝 Créer une base de données avec les images](./realite-augmentee/base_donnees.md)
+- [📝 Importer les images de détection dans Unity](./realite-augmentee/importer_detection.md)
+- [📝 Créer une caméra de détection dans Unity](./realite-augmentee/camera_detection.md)
+- [📝 Détecter une image dans Unity](./realite-augmentee/detecter_image.md)
+- [📝 Déclencher des éléments à partir d'une détection](./realite-augmentee/declencher_detection.md)
 
 ### Avancement du travail 1
 #### Détection AR
@@ -45,18 +40,14 @@
 
 ## Bloc 4  
 #### Calques
-[📝 Calques](./unity/sorting_layers.md){ .md-button }       
+- [📝 Calques](./unity/sorting_layers.md)     
 
 #### Animation de sprite sheet
-[📝 Importer la *sprite sheet*](./unity/anim_import.md){ .md-button }      
-
-[📝 *Animator controller*](./unity/anim_controller.md){ .md-button }       
-
-[📝 *Animator*](./unity/anim_animator.md){ .md-button }    
-
-[📝 Fenêtre animation](./unity/fenetre_anim.md){ .md-button }    
-
-[📝 Animation de *Sprite sheet*](./unity/animation.md){ .md-button }    
+- [📝 Importer la *sprite sheet*](./unity/anim_import.md)
+- [📝 *Animator controller*](./unity/anim_controller.md)
+- [📝 *Animator*](./unity/anim_animator.md)
+- [📝 Fenêtre animation](./unity/fenetre_anim.md)
+- [📝 Animation de *Sprite sheet*](./unity/animation.md)
 
 
 
