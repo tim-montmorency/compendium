@@ -41,6 +41,26 @@
 - [Fenêtre animation](./unity/fenetre_anim.md)
 - [Animation de *Sprite sheet*](./unity/animation.md)
 
+### Code
+#### Variables
+- [Int](code/variables.md#int)
+- [Float](code/variables.md#float)
+- [Bool](code/variables.md#bool)
+- [Vector 2](code/variables.md#vector-2)
+- [Vector 3](code/variables.md#vector-3)
+- [Tableau](code/variables.md#tableau-array)
+- [GameObject](code/variables.md#gameobject)
+- [Transform](code/variables.md#transform)
+- [Camera](code/variables.md#camera)
+- [Animator](code/variables.md#animator)
+- [Audio Clip](code/variables.md#audioclip)
+- [Audio Source](code/variables.md#audiosource)
+- [Color](code/variables.md#color)
+- [Sprite](code/variables.md#sprite)
+- [Sprite Renderer](code/variables.md#sprite-renderer)
+
+
+
 ## Maya
 
 - [Importation d'objets 3D dans Unity](unity/Importation3D.md)
