@@ -1,3 +1,4 @@
+# Transition entre les scènes
 Changer de scène est utile dans Unity. En effet, on pourrait créer un scène pour chaque niveau de notre jeu en plus d'une scène de menu et ensuite passer de l'une à l'autre.   
 
      
