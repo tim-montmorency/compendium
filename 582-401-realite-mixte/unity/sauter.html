@@ -11609,7 +11609,7 @@
 <span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">jump</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
 <span class="p">{</span>
 <span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">InputActionProperty</span><span class="w"> </span><span class="n">jumpButton</span><span class="p">;</span>
-<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">jumpHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3f</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">jumpHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">3f</span><span class="p">;</span>
 <span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">CharacterController</span><span class="w"> </span><span class="n">joueur</span><span class="p">;</span>
 <span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">LayerMask</span><span class="w"> </span><span class="n">groundLayer</span><span class="p">;</span>
 
@@ -11633,12 +11633,12 @@
 
 <span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Jump</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">mouvement</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">jumpHeight</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="o">-</span><span class="m">3.0f</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">gravity</span><span class="p">);</span><span class="w"> </span>
+<span class="w">        </span><span class="n">mouvement</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">jumpHeight</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="o">-</span><span class="mf">3.0f</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">gravity</span><span class="p">);</span><span class="w"> </span>
 <span class="w">    </span><span class="p">}</span>
 
 <span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">isGrounded</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Physics</span><span class="p">.</span><span class="n">CheckSphere</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span><span class="w"> </span><span class="m">0.2f</span><span class="p">,</span><span class="w"> </span><span class="n">groundLayer</span><span class="p">);</span><span class="w"> </span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Physics</span><span class="p">.</span><span class="n">CheckSphere</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span><span class="w"> </span><span class="mf">0.2f</span><span class="p">,</span><span class="w"> </span><span class="n">groundLayer</span><span class="p">);</span><span class="w"> </span>
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
@@ -11651,7 +11651,7 @@
 <span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">PlayerJump</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
 <span class="p">{</span>
 <span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">InputActionProperty</span><span class="w"> </span><span class="n">jumpButton</span><span class="p">;</span>
-<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">jumpHeigt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3f</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">jumpHeigt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">3f</span><span class="p">;</span>
 <span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">CharacterController</span><span class="w"> </span><span class="n">cc</span><span class="p">;</span>
 <span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="k">private</span><span class="w"> </span><span class="n">LayerMask</span><span class="w"> </span><span class="n">groundLayers</span><span class="p">;</span>
 
@@ -11684,18 +11684,18 @@
 <span class="w">    </span><span class="p">}</span>
 <span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Jump</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">movement</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">jumpHeigt</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="o">-</span><span class="m">3.0f</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">gravity</span><span class="p">);</span>
+<span class="w">        </span><span class="n">movement</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">jumpHeigt</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="o">-</span><span class="mf">3.0f</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">gravity</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
 
 <span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">IsGrounded</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Physics</span><span class="p">.</span><span class="n">CheckSphere</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span><span class="w"> </span><span class="m">0.2f</span><span class="p">,</span><span class="w"> </span><span class="n">groundLayers</span><span class="p">);</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Physics</span><span class="p">.</span><span class="n">CheckSphere</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span><span class="w"> </span><span class="mf">0.2f</span><span class="p">,</span><span class="w"> </span><span class="n">groundLayers</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
 
 <span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">IEnumerator</span><span class="w"> </span><span class="nf">sautTest</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
 <span class="w">        </span><span class="n">timer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">true</span><span class="p">;</span>
-<span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="m">2f</span><span class="p">);</span>
+<span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="mf">2f</span><span class="p">);</span>
 <span class="w">        </span><span class="n">timer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">false</span><span class="p">;</span><span class="w"> </span>
 <span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">break</span><span class="p">;</span><span class="w"> </span>
 <span class="w">    </span><span class="p">}</span>

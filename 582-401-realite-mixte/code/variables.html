@@ -11784,14 +11784,14 @@
 </code></pre></div>
 <p>On peut mettre la variable public ou private selon notre préférence. Si on la mets publique, on pourra changer sa valeur directement dans l'inspecteur. On comprend que myInt est le nom que je donne à ma variable, ainsi vous pouvez mettre le nom de votre choix tant qu'il n'y a pas d'accent.    </p>
 <p>Voici commment assigner une valeur à notre variable int: </p>
-<div class="highlight"><pre><span></span><code><span class="n">myInt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="n">myInt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
 </code></pre></div>
 <h3 id="float">Float<a class="headerlink" href="#float" title="Permanent link">¶</a></h3>
 <p>La variable float nous permet de compter des chiffres décimaux. On la déclare de cette façon:    </p>
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">myFloat</span><span class="p">;</span>
 </code></pre></div>
 <p>Dans Unity, il y a une particularité pour les Float dans le code. Lorsque je change la valeur d'un float et qu'elle n'est pas entière, je dois mettre un f après celui-ci pour spécifier à Unity que c'est un float. Voici un exemple:     </p>
-<div class="highlight"><pre><span></span><code><span class="n">myFloat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1.5f</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="n">myFloat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.5f</span><span class="p">;</span>
 </code></pre></div>
 <p>On comprends que pour assigner un float, on doit mettre un point entre les chiffres (et non une virgule!) et qu'il faut mettre un f à la fin.   </p>
 <h3 id="bool">Bool<a class="headerlink" href="#bool" title="Permanent link">¶</a></h3>
@@ -11807,7 +11807,7 @@
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Vector2</span><span class="w"> </span><span class="n">myVector</span><span class="p">;</span><span class="w"> </span>
 </code></pre></div>
 <p>Pour assigner une valeur à cette variable, voici comment faire:   </p>
-<div class="highlight"><pre><span></span><code><span class="n">myVector</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector2</span><span class="p">(</span><span class="m">0f</span><span class="p">,</span><span class="w"> </span><span class="m">0f</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">myVector</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector2</span><span class="p">(</span><span class="mf">0f</span><span class="p">,</span><span class="w"> </span><span class="mf">0f</span><span class="p">);</span>
 </code></pre></div>
 <p>On est pas obligés de mettre les f si les nombres de la position sont entiers, mais c'est bon d'en faire une habitude.   </p>
 <h3 id="vector-3">Vector 3<a class="headerlink" href="#vector-3" title="Permanent link">¶</a></h3>
@@ -11815,7 +11815,7 @@
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Vector3</span><span class="w"> </span><span class="n">myVector</span><span class="p">;</span>
 </code></pre></div>
 <p>Pour assigner une valeur à cette variable, voici comment faire:   </p>
-<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">myVector</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="m">0f</span><span class="p">,</span><span class="w"> </span><span class="m">0f</span><span class="p">,</span><span class="m">0f</span><span class="p">);</span><span class="w"> </span>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">myVector</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="mf">0f</span><span class="p">,</span><span class="w"> </span><span class="mf">0f</span><span class="p">,</span><span class="mf">0f</span><span class="p">);</span><span class="w"> </span>
 </code></pre></div>
 <p>On est pas obligés de mettre les f si les nombres de la position sont entiers, mais c'est bon d'en faire une habitude.   </p>
 <h3 id="tableau-array">Tableau (array)<a class="headerlink" href="#tableau-array" title="Permanent link">¶</a></h3>
@@ -11824,21 +11824,21 @@
 </code></pre></div>
 <p>Ainsi, c'est tout de suite après le nom de la variable qu'on doit inscrire les [] qui indiqueront que notre objet est un array.     </p>
 <p>Une fois le tableau créé, on doit lui indiquer combien d'objets il comporte et leur donner une valeur. Pour cela deux options sont possibles.</p>
-<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="p">[]</span><span class="w"> </span><span class="n">myInts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">3</span><span class="w"> </span><span class="p">};</span>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="p">[]</span><span class="w"> </span><span class="n">myInts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="p">};</span>
 </code></pre></div>
 <p>Ici, on a créé un tableau de 3 variables int. On a assigné les valeurs dès qu'on a créé la variable.   </p>
-<div class="highlight"><pre><span></span><code><span class="n">myInts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="p">[</span><span class="m">4</span><span class="p">];</span><span class="w"> </span>
-<span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">4</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="n">myInts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span><span class="w"> </span>
+<span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
 <span class="p">{</span>
-<span class="w">    </span><span class="n">myInts</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span>
+<span class="w">    </span><span class="n">myInts</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span>
 <span class="p">}</span>
 </code></pre></div>
 <p>Ici, on a créé un tableau avec 4 int, puis on a donné la valeur 0 à chacun de ces int grâce à une boucle. On aurait aussi pu donner une valeur différente à chacun avec la méthode suivante:   </p>
-<div class="highlight"><pre><span></span><code><span class="n">myInts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="p">[</span><span class="m">4</span><span class="p">];</span>
-<span class="n">myInts</span><span class="p">[</span><span class="m">0</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span>
-<span class="n">myInts</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4</span><span class="p">;</span>
-<span class="n">myInts</span><span class="p">[</span><span class="m">2</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">5</span><span class="p">;</span>
-<span class="n">myInts</span><span class="p">[</span><span class="m">3</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="n">myInts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span>
+<span class="n">myInts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="n">myInts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
+<span class="n">myInts</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+<span class="n">myInts</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
 </code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Information</p>
@@ -11863,27 +11863,27 @@
 <div class="highlight"><pre><span></span><code><span class="n">myGameObject</span><span class="p">.</span><span class="n">SetActive</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
 </code></pre></div>
 <p>On utilise SetActive pour activer (true) ou désactiver (false) le GameObject.   </p>
-<div class="highlight"><pre><span></span><code><span class="n">myGameObject</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Transform</span><span class="o">&gt;</span><span class="p">().</span><span class="n">position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">myGameObject</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Transform</span><span class="o">&gt;</span><span class="p">().</span><span class="n">position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
 </code></pre></div>
 <p>Avec GetComponent, on peut chercher n'importe quelle composante du GameObject et changer ses paramètres. Par exemple, ici on cherche le transform pour modifier la position de l'objet.   </p>
 <h3 id="transform">Transform<a class="headerlink" href="#transform" title="Permanent link">¶</a></h3>
 <p>La variable Transform nous permet de contrôler la position, la rotation et l'échelle d'un objet.  </p>
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Transform</span><span class="w"> </span><span class="n">myTransform</span><span class="p">;</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="n">myTransform</span><span class="p">.</span><span class="n">position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="m">0f</span><span class="p">,</span><span class="w"> </span><span class="m">0f</span><span class="p">,</span><span class="w"> </span><span class="m">0f</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">myTransform</span><span class="p">.</span><span class="n">position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="mf">0f</span><span class="p">,</span><span class="w"> </span><span class="mf">0f</span><span class="p">,</span><span class="w"> </span><span class="mf">0f</span><span class="p">);</span>
 </code></pre></div>
 <p>Pour modifier la position d'un Transform, on doit créer un Vecteur contenant 3 chiffres, respectivement x, y et z. </p>
-<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">myTransform</span><span class="p">.</span><span class="n">rotation</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Quaternion</span><span class="p">.</span><span class="n">Euler</span><span class="p">(</span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">myTransform</span><span class="p">.</span><span class="n">rotation</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Quaternion</span><span class="p">.</span><span class="n">Euler</span><span class="p">(</span><span class="mi">90</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
 </code></pre></div>
 <p>Pour modifier la rotation d'un objet, on doit assigner un Quaternion. Cependant, cette notion est assez complexe, ainsi on peut utiliser .Euler pour donner une rotation en x, y et z à notre objet.   </p>
-<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">myTransform</span><span class="p">.</span><span class="n">localScale</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">myTransform</span><span class="p">.</span><span class="n">localScale</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vector3</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span>
 </code></pre></div>
 <p>Pour modifier la taille de l'objet, on doit modifier localScale et lui assigner un Vector 3 pour la taille en x, y et z.   </p>
 <h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permanent link">¶</a></h3>
 <p>La variable camera nous permet de contrôler certains paramètres de la Caméra.  </p>
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Camera</span><span class="w"> </span><span class="n">myCamera</span><span class="p">;</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="n">myCamera</span><span class="p">.</span><span class="n">fieldOfView</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">50</span><span class="p">;</span><span class="w"> </span>
+<div class="highlight"><pre><span></span><code><span class="n">myCamera</span><span class="p">.</span><span class="n">fieldOfView</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="p">;</span><span class="w"> </span>
 </code></pre></div>
 <p>Field of view permet de changer l'angle de vue de la caméra.   </p>
 <h3 id="animator">Animator<a class="headerlink" href="#animator" title="Permanent link">¶</a></h3>
@@ -11931,7 +11931,7 @@
 <div class="highlight"><pre><span></span><code><span class="n">mySpriteRend</span><span class="p">.</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Color</span><span class="p">.</span><span class="n">green</span><span class="p">;</span>
 </code></pre></div>
 <p>On peut utiliser les couleurs par défaut de Unity au besoin. Il suffit d'inscrire Color. puis le nom de la couleur qu'on souhaite. Si elle est répertoriée, cela fonctionnera.   </p>
-<div class="highlight"><pre><span></span><code><span class="n">mySpriteRend</span><span class="p">.</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="m">255</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">155</span><span class="p">,</span><span class="w"> </span><span class="m">255</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">mySpriteRend</span><span class="p">.</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">155</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">);</span>
 </code></pre></div>
 <p>Finalement, on peut créer de nouvelles couleurs avec des valeurs entre 0 et 255 pour 4 paramètres, soit le rouge, le vert, le bleu et l'alpha.   </p></div>
 

@@ -11722,7 +11722,7 @@
 </div>
 <h2 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">¶</a></h2>
 <p>Dans Unity, on utilise fréquemment les conditions pour vérifier si un élément est vrai avant d'exécuter une portion de code. Une condition s'écrit de la façon suivante:   </p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="p">(</span><span class="n">myInt</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">2</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="p">(</span><span class="n">myInt</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
 <span class="p">{</span>
 
 <span class="p">}</span><span class="w"> </span>
@@ -11737,13 +11737,13 @@
 <li><strong>&gt;=</strong> (plus grand ou égal)</li>
 </ul>
 <p>Il est possible de vérifier plus d'une condition grâce à &amp;&amp;:   </p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="p">(</span><span class="n">myInt</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">myInt</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="p">(</span><span class="n">myInt</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">myInt</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">)</span>
 <span class="p">{</span>
 
 <span class="p">}</span>
 </code></pre></div>
 <p>Ici, on vérifie si myInt est plus grand ou égal à deux et plus petit que 10. Si c'est le cas, le code sera exécuté.   </p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="p">(</span><span class="n">myInt</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">myInt</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">0</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="p">(</span><span class="n">myInt</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">myInt</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
 <span class="p">{</span>
 
 <span class="p">}</span>
@@ -11751,21 +11751,21 @@
 <p>On peut utiliser || pour choisir l'une ou l'autre des conditions, ainsi si myInt est plus grand ou égal à deux ou égal à 0, le code entre {} sera exécuté.   </p>
 <h2 id="boucle">Boucle<a class="headerlink" href="#boucle" title="Permanent link">¶</a></h2>
 <p>Dans Unity, les boucles sont souvent utilisées pour compter des éléments ou interagir avec les tableaux.   </p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">3</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
 <span class="p">{</span>
 
 <span class="p">}</span>
 </code></pre></div>
 <p>Ci-haut, on crée une boucle dont le code sera exécuté 3 fois avant que le code qui le suit s'exécute.   </p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">myInts</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">myInts</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
 <span class="p">{</span>
-<span class="w">        </span><span class="n">myInts</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="m">0</span><span class="p">;</span><span class="w"> </span>
+<span class="w">        </span><span class="n">myInts</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span>
 <span class="p">}</span>
 </code></pre></div>
 <p>Dans Unity, une pratique courante lorsqu'on crée une boucle est d'utiliser la longueur d'un tableau plutôt qu'un chiffre fixe. Ainsi, ci-haut ma boucle sera répétée autant de fois qu'il y a de chiffres dans le tableau myInts[]. Cela permet de ne pas avoir à changer le code à chaque fois que notre tableau change en longueur.   </p>
 <h2 id="aleatoire">Aléatoire<a class="headerlink" href="#aleatoire" title="Permanent link">¶</a></h2>
 <p>Voici comment obtenir une valeur aléatoire dans Unity:</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">xcount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">6</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">xcount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">);</span>
 </code></pre></div>
 <p>Le code précédent générera un nombre entier qui sera 1, 2, 3, 4 ou 5. Le deuxième chiffre est exclu.   </p></div>
 
