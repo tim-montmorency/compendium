@@ -1,3 +1,5 @@
+# Police de caractère et Matériel
+
 Dans Unity, la composante Text Mesh Pro permet d'afficher du texte. En plus de choisir notre texte, on peut lui assigner une police de caractère et jouer avec l'alignement. Unity a aussi une composante Text, mais Text Mesh Pro offre beaucoup plus d'options intéressantes donc nous la prioriserons.   
 
 ## Créer une police
