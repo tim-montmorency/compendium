@@ -93,18 +93,18 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 2. Préparation de Vuforia
 - [ ] Créez votre compte sur le site de Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/compte_vuforia.html">Créer un compte</a>
 - [ ] Créez une license Vuforia pour votre projet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/license_vuforia.html">License</a>
-- [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#importer-des-assets-du-asset-store">Package Manager</a>
+- [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/vuforia_unity.html">Package Manager</a>
 
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IChbRlhdONM?si=FAI2FPKYwgwOBWEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 3. Création de la scène Jeu - détection AR
 - [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
-- [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#creation-dune-base-de-donnees-dimages">Base de données</a>
-- [ ] Téléchargez la base de données que vous venez de créer. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#telecharger-la-base-de-donnees">Télécharger</a>
-- [ ] Importez les images de détection dans Unity. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#importer-les-images">Importer</a>
-- [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ArCamera). Vous devez aussi vous assurez de mettre la license sur la caméra. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#camera-de-detection">ArCamera</a>
-- [ ] Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detection.html#detecter-une-image">Image Target</a>
+- [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html">Base de données</a>
+- [ ] Téléchargez la base de données que vous venez de créer. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html#telecharger-la-base-de-donnees">Télécharger</a>
+- [ ] Importez les images de détection dans Unity. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/importer_detection.html">Importer</a>
+- [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ArCamera). Vous devez aussi vous assurez de mettre la license sur la caméra. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/camera_detection.html">ArCamera</a>
+- [ ] Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detecter_image.html">Image Target</a>
 
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-5awHGHMQ7g?si=o5qleI-0IZfVK_Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -112,10 +112,10 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 4 ou 5. Création de la scène Jeu - Animations
 
 #### 4. Animations avec des sprites (Choisir sprite ou vidéo)
-- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#importer-la-sprite-sheet">Importation SpriteSheet</a>
-- [ ] Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator-controller">Animator Controller</a>
-- [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#animator">GameObject Animator</a>
-- [ ] Créez une animation pour chaque Sprite Sheet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html#creation-danimations-de-sprite-sheet">Créer une animation</a>
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_import.html">Importation SpriteSheet</a>
+- [ ] Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_controller.html">Animator Controller</a>
+- [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_animator.html">GameObject Animator</a>
+- [ ] Créez une animation pour chaque Sprite Sheet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html">Créer une animation</a>
 - [ ] Redimensionner vos animations et positionnez-les au-dessus de votre Image de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
