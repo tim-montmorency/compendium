@@ -63,15 +63,15 @@
   - [Sprite Renderer](code/variables.md#sprite-renderer)
 
 ### Structure
-- [📝 Structure d'un script](code/structure_script.md)
-- [📝 Console](code/console.md)
-- [📝 Opérateurs](code/operateur.md)
-- [📝 Conditions](code/condition.md)
-- [📝 Boucle](code/boucle.md)
-- [📝 Aléatoire](code/aleatoire.md)
-- [📝 Fonctions](code/fonctions.md)        
-- [📝 Événements](code/evenements.md)
-- [📝 Son](unity/son.md)
+- [Structure d'un script](code/structure_script.md)
+- [Console](code/console.md)
+- [Opérateurs](code/operateur.md)
+- [Conditions](code/condition.md)
+- [Boucle](code/boucle.md)
+- [Aléatoire](code/aleatoire.md)
+- [Fonctions](code/fonctions.md)        
+- [Événements](code/evenements.md)
+- [Son](unity/son.md)
      
 
 
