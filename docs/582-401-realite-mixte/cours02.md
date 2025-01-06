@@ -2,10 +2,10 @@
 
 ## Bloc 1
 #### Base de Unity
-[📝 Composantes](./unity/composantes.md){ .md-button }           
+- [📝 Composantes](./unity/composantes.md)       
 
 #### Configuration
-[📝 Plateforme de développement](./installation/configuration.md){ .md-button }     
+- [📝 Plateforme de développement](./installation/configuration.md) 
 
 ### Avancement du travail 1
 #### Création du projet
@@ -13,14 +13,12 @@
 
 ## Bloc 2
 #### Configuration
-[📝 Unity remote](./installation/unity-remote.md){ .md-button }   
+- [📝 Unity remote](./installation/unity-remote.md)   
        
 #### Réalité augmentée
-[📝 Création de compte Vuforia](./realite-augmentee/compte_vuforia.md){ .md-button }       
-
-[📝 Création d'une license Vuforia](./realite-augmentee/license_vuforia.md){ .md-button }      
-
-[📝 Ajout de Vuforia dans le projet Unity](./realite-augmentee/vuforia_unity.md){ .md-button }   
+- [📝 Création de compte Vuforia](./realite-augmentee/compte_vuforia.md)
+- [📝 Création d'une license Vuforia](./realite-augmentee/license_vuforia.md)
+- [📝 Ajout de Vuforia dans le projet Unity](./realite-augmentee/vuforia_unity.md)
 
 ### Avancement du travail 1
 #### Préparation de Vuforia
