@@ -43,8 +43,7 @@
 - [Fenêtre animation](./unity/fenetre_anim.md)
 - [Animation de *Sprite sheet*](./unity/animation.md)
 
-### Code
-#### Variables
+#### Code
 - [Les variables](code/variables.md)
   - [Int](code/variables.md#int)
   - [Float](code/variables.md#float)
@@ -61,8 +60,6 @@
   - [Color](code/variables.md#color)
   - [Sprite](code/variables.md#sprite)
   - [Sprite Renderer](code/variables.md#sprite-renderer)
-
-### Structure
 - [Structure d'un script](code/structure_script.md)
 - [Console](code/console.md)
 - [Opérateurs](code/operateur.md)
