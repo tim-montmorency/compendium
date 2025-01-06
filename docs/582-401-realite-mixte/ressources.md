@@ -36,6 +36,7 @@
   - [Toggle](unity/UI.md#toggle)
   - [Slider](unity/UI.md#slider)
   - [Text Mesh Pro](unity/UI.md#text-mesh-pro)
+- [Modifier la police](unity/font.md)
 - [Calques - *Sorting layers*](unity/sorting_layers.md)
  
 #### Réalité augmentée
