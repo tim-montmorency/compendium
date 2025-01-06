@@ -98,4 +98,4 @@ Le paramètre **Font Asset** vous permet de changer la police de caractère de v
       
 Pour modifier la police:      
 
-[📁 Texte](./font.md){ .md-button }
+[📁 Police](./font.md){ .md-button }
