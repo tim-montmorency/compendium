@@ -18,7 +18,7 @@
     
     
       
-        <title>Son - Notes de cours</title>
+        <title>Jouer un son avec le code - Notes de cours</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#audio-listener" class="md-skip">
+        <a href="#jouer-un-son-avec-le-code" class="md-skip">
           Aller au contenu
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Son
+              Jouer un son avec le code
             
           </span>
         </div>
@@ -11582,41 +11582,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#audio-listener" class="md-nav__link">
-    <span class="md-ellipsis">
-      Audio Listener
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#audio-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      Audio Source
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#jouer-un-son-avec-le-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Jouer un son avec le code
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -11631,19 +11598,7 @@
                   
 
 
-  <h1>Son</h1>
-
-<div><h2 id="audio-listener">Audio Listener<a class="headerlink" href="#audio-listener" title="Permanent link">¶</a></h2>
-<p>La composante Audio Listener est présente par défaut sur la caméra de votre jeu. Si ce n'est pas le cas, vous devriez l'ajouter. Elle vous permettra d'entendre les sons de votre jeu. Par défaut, le listener est sur la caméra puisque la vue du joueur suit celle de la caméra. Ainsi, il est logique qu'on entende les même bruits que la caméra.   </p>
-<h2 id="audio-source">Audio Source<a class="headerlink" href="#audio-source" title="Permanent link">¶</a></h2>
-<p>La composante Audio Source est celle qui vous permet de jouer des sons. Habituellement on met cette composante sur les objets qui émettent les sons. Si vous préférez avoir un son général pour votre jeu, vous pouvez faire un clic droit dans la fenêtre hierarchy, puis sélectionner Audio, Audio Source. Ainsi, votre son ne sera pas rattaché à un objet.     </p>
-<p><img src="../images/son.jpg">   </p>
-<p>Pour fonctionner, la composante Audio Source a premièrement besoin d'un AudioClip, c'est à dire d'une piste sonore. Vous devrez donc importer vos sons dans Unity. Je vous suggère d'importer des fichiers .mp3 dans un dossier nommé Audio. Une fois vos fichiers importés, vous pourrez les glisser dans la boîte AudioClip de la composante AudioSource.     </p>
-<p>Le paramètre Mute permet de ne plus entendre le son, mais on devrait l'arrêter de jouer plutôt que le muter.      </p>
-<p>Par défaut, le paramètre Play on awake est coché, il fait en sorte que notre son jouera dès qu'on partira notre jeu. Si on veut le déclencher manuellement à un autre moment, on peut décocher cette boîte.       </p>
-<p>Le paramètre Loop permet de jouer l'audio en boucle lorsqu'il est coché.     </p>
-<p>Le paramètre Volume vous permet d'ajuster le volume de votre audio.    </p>
-<h2 id="jouer-un-son-avec-le-code">Jouer un son avec le code<a class="headerlink" href="#jouer-un-son-avec-le-code" title="Permanent link">¶</a></h2>
+<div><h1 id="jouer-un-son-avec-le-code">Jouer un son avec le code<a class="headerlink" href="#jouer-un-son-avec-le-code" title="Permanent link">¶</a></h1>
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">AudioSource</span><span class="w"> </span><span class="n">myAudio</span><span class="p">;</span><span class="w"> </span>
 
 <span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">playAudio</span><span class="p">()</span>
