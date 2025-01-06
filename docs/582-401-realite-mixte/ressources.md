@@ -12,7 +12,7 @@
 - [Créer un projet](unity/creer_projet.md)
 - [Fenêtres](unity/fenetres.md)
 - [Nomenclature](unity/nomenclature.md)
-- [Importer des *Assets* depuis le *Asset store*](unity/creer_projet.md)
+- [Importer des *Assets* depuis le *Asset store*](unity/importer_asset_store.md)
 
 #### Développer sur Android
 - [Changer sa plateforme de développement pour Android](installation/configuration.md)
