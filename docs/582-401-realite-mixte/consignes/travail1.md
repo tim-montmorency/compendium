@@ -143,7 +143,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 7. Création de la scène Jeu - Sons
 - [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
 - [ ] Ajouter une composante AudioSource sur vos GameObject animations.
-- [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/son.html#audio-source">Son</a>
+- [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html#audiosource">Son</a>
 
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -171,7 +171,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 10. Création de la scène Menu - Script UI
 - [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
 - [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
-- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html#changement-de-scene">Script Scene</a>
+- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
 - [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
 - [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 
@@ -184,7 +184,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 
 ### 13. Création de l'application
-- [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html#preparer-lexportation">Exporter pour Android</a>
+- [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html">Exporter pour Android</a>
 
 
 ### 14. Remise du travail 1
