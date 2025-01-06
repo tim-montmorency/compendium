@@ -17,6 +17,7 @@
 #### Développer sur Android
 - [Changer sa plateforme de développement pour Android](installation/configuration.md)
 - [Utiliser Unity remote pour visualiser le résultat sur son téléphone](installation/unity-remote.md)
+- [Exporter son jeu sur Android](unity/build.md)
 
 #### L'inspecteur
 - [Les composantes](unity/composantes.md)
