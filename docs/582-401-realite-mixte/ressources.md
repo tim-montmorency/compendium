@@ -27,6 +27,15 @@
   - [Video player](unity/composantes.md#video-player)
   - [Audio Listener](unity/composantes.md#audio-listener)
   - [Audio Source](unity/composantes.md#audio-source)
+- [Les composantes du menu](unity/UI.md)
+  - [Canvas](unity/UI.md#canvas)
+  - [Rect Transform](unity/UI.md#rect-transform)
+  - [Panel](unity/UI.md#panel)
+  - [Image](unity/UI.md#image)
+  - [Button](unity/UI.md#button)
+  - [Toggle](unity/UI.md#toggle)
+  - [Slider](unity/UI.md#slider)
+  - [Text Mesh Pro](unity/font.md#composante)
 - [Calques - *Sorting layers*](unity/sorting_layers.md)
  
 #### Réalité augmentée
