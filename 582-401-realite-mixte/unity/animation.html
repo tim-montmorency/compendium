@@ -18,7 +18,7 @@
     
     
       
-        <title>Animation - Notes de cours</title>
+        <title>Création d'animations de Sprite Sheet - Notes de cours</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#importer-la-sprite-sheet" class="md-skip">
+        <a href="#creation-danimations-de-sprite-sheet" class="md-skip">
           Aller au contenu
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Animation
+              Création d'animations de Sprite Sheet
             
           </span>
         </div>
@@ -11582,57 +11582,14 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table des matières
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#importer-la-sprite-sheet" class="md-nav__link">
-    <span class="md-ellipsis">
-      Importer la Sprite Sheet
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#animator-controller" class="md-nav__link">
-    <span class="md-ellipsis">
-      Animator Controller
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#animator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Animator
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fenetre-animation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fenêtre animation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#creation-danimations-de-sprite-sheet" class="md-nav__link">
-    <span class="md-ellipsis">
-      Création d'animations de Sprite Sheet
-    </span>
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#tutoriel" class="md-nav__link">
@@ -11656,78 +11613,9 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
-<nav class="md-tags" >
-  
-    
-    
-    
-      <span class="md-tag">Unity</span>
-    
-  
-</nav>
 
 
-
-  <h1>Animation</h1>
-
-<div><p>Dans Unity, il est possible d'animer des Sprites avec ce qu'on appelle des Sprite Sheets. Les Sprite Sheets sont en fait une image contenant plusieurs petites images qui une fois mises bout à bout créent une animation.    </p>
-<h2 id="importer-la-sprite-sheet">Importer la Sprite Sheet<a class="headerlink" href="#importer-la-sprite-sheet" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le dossier Art de la fenêtre Project, créez un dossier nommé Sprite s'il n'existe pas encore.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Entrez dans le nouveau dossier, faites un clic-droit, puis choisissez Import New Asset et sélectionnez la Sprite Sheet à importer depuis l'explorateur de fichier. Ou encore cliquez et glissez la Sprite Sheet dans la fenêtre Project.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur l'élément que vous venez d'importer, puis assurez-vous dans la fenêtre Inspector que le Texture type de votre image est Sprite(2D and UI).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, dans le champ Sprite Mode, vous devez sélectionner Multiple puisqu'on a plusieurs petites images.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez sur Apply au bas de la fenêtre Inspector.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Maintenant, nous devons dire au logiciel combien il y a de dessins et s'assurer de bien les séparer, pour cela nous appuyons sur le bouton Sprite Editor.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Une nouvelle fenêtre s'ouvre alors. En haut à gauche, appuyez sur le menu Slice et dans le paramètre Type, choisissez Grid by Cell Count.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Column &amp; Row, entrez le nombre de colonnes (c) et de rangées (r) de votre Sprite Sheet.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Des carrés rouges devraient maintenant entourer vos dessins. Si tous les dessins sont parfaitement centrés dans un carré, appuyez sur Slice.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si jamais des carrés sont vides sélectionnez les et appuyez sur delete.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Lorsque vous avez terminé, appuyez sur Apply en haut à droite et fermez la fenêtre.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre Project, appuyez sur la flèche à droite de votre Sprite Sheet. Normalement, cela devrait ouvrir de petits icones des dessins de votre feuille.</li>
-</ul>
-<h2 id="animator-controller">Animator Controller<a class="headerlink" href="#animator-controller" title="Permanent link">¶</a></h2>
-<p>Lorsque l'on souhaite créer une animation dans Unity, la création d'une composante Animator Controller est obligatoire. Cette composante permet de gérer les différentes animation d'un objet ou d'un groupe d'objet.     </p>
-<p>Voici comment créer un Animator Controller:    </p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Rendez-vous dans le dossier Animation dans la fenêtre Project.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, faites un clic droit dans cette fenêtre, puis choisissez Create, Animator Controller. Vous pouvez aussi aller dans la barre de Menu et faire Assets, Create, Animator Controller.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Donner un nom à votre Controller et appuyez sur enter.</li>
-</ul>
-<h2 id="animator">Animator<a class="headerlink" href="#animator" title="Permanent link">¶</a></h2>
-<p>Une fois qu'on a créé un Animator Controller, il n'est pas encore en mesure de faire bouger un objet. Pour cela, on doit assigner le Animator Controller à l'objet qu'il animera.   </p>
-<div class="admonition info">
-<p class="admonition-title">Information</p>
-<p>Un animator peut animer plus d'un objet. En fait, il peut animer un objet et ses enfants. Ainsi, vous pourriez regrouper plusieurs objets dans un parent et animer tous les enfants grâce à la composante Animator qui est sur le parent.</p>
-</div>
-<p>Voici comment faire:     </p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet qui sera animé dans la fenêtre Hierarchy ou créez en un nouveau avec un clic droit, puis Create Empty.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre Inspector, appuyez sur le bouton Add Component.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Recherchez la composante Animator à l'aide de la barre de recherche et appuyuez sur celui-ci pour l'ajouter à votre objet.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, appuyez sur la cible à droite du champ Controller. Vous verrez alors une liste de tous les Animator Controller disponibles. Appuyez sur celui que vous avez créé pour cet objet. Alternative: Glissez votre Animator Controller depuis la fenêtre Project jusqu'au champ Controller de la composante Animator dans la fenêtre Inspector.</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">Information</p>
-<p>Truc de pro: Pour sauver du temps, vous pouvez aussi simplement cliquer et glisser le Controller Animator de la fenêtre Project à votre objet ouvert dans la fenêtre Inspector. </p>
-</div>
-<h2 id="fenetre-animation">Fenêtre animation<a class="headerlink" href="#fenetre-animation" title="Permanent link">¶</a></h2>
-<p>Dans Unity, la fenêtre animation nous permettra de visualiser nos animations et de les créer plus facilement. Pour l'ouvrir, allez dans la barre de menu, dans l'onglet Window, Animation, Animation. Une fois la fenêtre ouverte, vous pouvez la positionner à l'emplacement de votre choix en appuyant sur son nom en haut à gauche de la fenêtre et en maintenant votre clic enfoncé.    </p>
-<div class="admonition info">
-<p class="admonition-title">Information</p>
-<p>Habituellement, la fenêtre animation est un onglet de la fenêtre Project.</p>
-</div>
-<p><img src="../images/schema.jpg">   </p>
-<ol>
-<li><strong>Barre de contrôle</strong>   <br>
-    La barre de contrôle vous permet de vous déplacer dans l'animation, de la faire jouer et d'enregistrer de nouvelles images clés.   </li>
-<li><strong>Fenêtre propriétés</strong>   <br>
-    Cette fenêtre vous permet de choisir les paramètres que vous voulez contrôler dans votre animation et de leur attribuer des valeurs. Elle vous permet aussi de créer de nouveaux clips d'animation ou encore d'ajouter des Keyframes. Les paramètres animables sont nombreux, ce peut être la position, la couleur, la rotation...   </li>
-<li><strong>Ligne du temps</strong>   <br>
-    Cette fenêtre est une ligne du temps qui affiche vos keyframes dans le temps. L'unité utilisé est le frame. Par défaut, 60 frames équivalent à 1 seconde dans Unity. Il est possible de changer l'unité avec les trois petits points à la droite de la fenêtre.    </li>
-</ol>
-<h2 id="creation-danimations-de-sprite-sheet">Création d'animations de Sprite Sheet<a class="headerlink" href="#creation-danimations-de-sprite-sheet" title="Permanent link">¶</a></h2>
+<div><h1 id="creation-danimations-de-sprite-sheet">Création d'animations de Sprite Sheet<a class="headerlink" href="#creation-danimations-de-sprite-sheet" title="Permanent link">¶</a></h1>
 <p>Une fois que notre objet est en mesure de controller les animations, il faut en créer! Pour cette étape, je vous recommande d'avoir les fenêtres Project et Animation ouvertes et séparées.    </p>
 <p>Voici comment faire:     </p>
 <ul class="task-list">
@@ -11748,9 +11636,6 @@
 
 
 
-
-  
-  
 
 
 
