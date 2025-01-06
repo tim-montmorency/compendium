@@ -83,6 +83,7 @@
 - [Quitter l'application](code/quitter_jeu.md)
 - [Changer de scène](code/changement_scene.md)
 - [Coroutine](code/coroutine.md)
+- [Déplacement de la caméra et du joueur](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU)
      
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
