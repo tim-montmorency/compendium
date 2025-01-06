@@ -50,7 +50,17 @@
 [📝 Calques](./unity/sorting_layers.md){ .md-button }       
 
 #### Animation de sprite sheet
-[📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
+[📝 Importer la *sprite sheet*](./unity/anim_import.md){ .md-button }      
+
+[📝 *Animator controller*](./unity/anim_controller.md){ .md-button }       
+
+[📝 *Animator*](./unity/anim_animator.md){ .md-button }    
+
+[📝 Fenêtre animation](./unity/fenetre_anim.md){ .md-button }    
+
+[📝 Animation de *Sprite sheet*](./unity/animation.md){ .md-button }    
+
+
 
 ### Avancement du travail 1       
 #### Animations de sprite
