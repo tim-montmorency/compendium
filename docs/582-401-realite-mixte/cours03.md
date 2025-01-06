@@ -41,7 +41,9 @@ Défi: Faire jouer un son sur un GameObject.
 Quelles conclusions pouvez-vous faire? 
 
 #### Son
-- [📝 Son](./unity/son.md)  
+- [📝 Audio Listener](./unity/composantes.md#audio-listener) 
+- [📝 Audio Source](./unity/composantes.md#audio-source) 
+- [📝 Code et son](./unity/son.md)  
 
 ### Avancement du travail 1
 #### Sons
