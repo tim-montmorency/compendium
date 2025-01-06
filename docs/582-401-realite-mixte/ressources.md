@@ -35,7 +35,7 @@
   - [Button](unity/UI.md#button)
   - [Toggle](unity/UI.md#toggle)
   - [Slider](unity/UI.md#slider)
-  - [Text Mesh Pro](unity/font.md#composante)
+  - [Text Mesh Pro](unity/UI.md#text-mesh-pro)
 - [Calques - *Sorting layers*](unity/sorting_layers.md)
  
 #### Réalité augmentée
