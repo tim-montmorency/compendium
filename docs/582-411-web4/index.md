@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Web 4
 
 ## Descriptif du cours
@@ -18,3 +13,30 @@ Au terme de ce cours, l’élève programme l’interactivité d’un site Web �
 | Unités                | 2       |
 | Heures d’enseignement | 60      |
 | Session               | 4       |
+
+## Objectif intégrateur
+
+Produire un site Web à l’aide d’un système de gestion de contenu (CMS).
+
+## Attitudes professionnelles
+
+* Esprit d’équipe
+* Autonomie
+* Adaptation
+* Débrouillardise
+
+## Enseignant 🌱
+
+<div class="grid grid-auto" markdown>
+  ![](../_/profs/jfcartier.jpg)
+
+  **Jean-François Cartier**<br>
+  _Enseignant en Techniques d'intégration multimédia_<br>
+  :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br>
+  :material-github: [https://github.com/jfcmontmorency](https://github.com/jfcmontmorency)<br>
+  :material-codepen: [https://codepen.io/tim-momo](https://codepen.io/tim-momo)
+</div>
+
+[STOP]
+
+[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary }
