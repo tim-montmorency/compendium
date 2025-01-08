@@ -1,35 +1,6 @@
+# Police de caractère et Matériel
+
 Dans Unity, la composante Text Mesh Pro permet d'afficher du texte. En plus de choisir notre texte, on peut lui assigner une police de caractère et jouer avec l'alignement. Unity a aussi une composante Text, mais Text Mesh Pro offre beaucoup plus d'options intéressantes donc nous la prioriserons.   
-      
-
-## Composante
-Par défaut, la composante TextMeshPro est utilisé lorsqu'on ajoute un bouton. Pour ajouter un bouton, on clique droit dans la hierarchy, on appuie sur UI, puis button. On peut aussi ajouter seulement un texte avec un clic droit dans la fenêtre Hierarchy, puis UI, puis Text - TextMeshPro. Si c'est la première fois que vous utilisez la composante, il est possible que Unity ouvre la fenêtre TMP Importer. Si c'est le cas, appuyez sur Import TMP Essentials, puis refermez la fenêtre une fois que tout est importé. Vous pourrez maintenant utiliser TextMeshPro.     
-
-Commençons par explorer les paramètres de la composante TextMeshPro.   
-
-<img src="../images/tmpro.jpg">
-
-Premièrement, la boîte qui contient le texte "Retourner au menu" est la boîte de texte, c'est à cet endroit qu'on écrit le texte que l'on souhaite afficher.     
-!!! info "Information"
-
-    Vous pouvez utiliser des balises html pour modifier l'allure de votre texte.
-    
-Le paramètre **Font Asset** vous permet de changer la police de caractère de votre texte, pour ce faire, vous devez créer des polices (Voir plus bas).    
-
-**Font style** vous permet de modifier l'allure de votre texte, gras, italique, majuscule,...     
-
-**Font size** vous permet de choisir la taille de votre texte. Vous pouvez cocher Auto Size si vous souhaitez avoir un texte adaptatif. Ainsi, le texte sera toujours ajusté au plus grand selon l'espace dont il dispose dans la fenêtre. Vous devez alors dicter une valeur minimum et maximum pour la taille du texte.      
-
-**Vertex Color** vous permet de choisir la couleur du texte. Vous pouvez cocher Color Gradient si vous voulez appliquer un dégradé de couleur à votre texte.    
-
-**Spacing options** vous permet de choisir l'espacement entre les caractères, les mots, les lignes et les paragraphes.    
-
-**Alignment** vous permet de choisir l'alignement de votre texte dans sa boîte.     
-
-**Wrapping**, lorsque ce paramètre est actif (enabled), cela fait en sorte que votre texte fera un saut de ligne à chaque fois qu'il touchera l'extrémité de sa boîte.     
-
-**Overflow**, ce paramètre détermine comment agira le texte qui dépasse de la boîte. Overflow: Afficher le texte. Ellipsis: Met trois petits points à la fin du texte pour indiquer qu'il se poursuit. Truncate: Coupe le texte qui dépasse.   
-      
-
 
 ## Créer une police
 Pour créer une police de caractère utilisable, vous devez premièrement importer un fichier avec la police désirée dans votre projet. Vous pouvez télécharger des polices au format .ttf ou .otf en ligne. Une fois que c'est fait, dans la fenêtre Project, créez un dossier Font, puis ouvrez-le. À l'intérieur de ce dossier, faites un clic droit puis sélectionnez Import New Asset. Vous devez maitenant trouver le fichier .ttf ou .otf qui contient votre font dans votre explorateur de fichier. Appuyez sur Import lorsque vous avez le bon fichier.      

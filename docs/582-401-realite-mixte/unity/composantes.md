@@ -97,3 +97,23 @@ La boîte **Skip on Drop** permet au vidéo de jouer en temps réel, quitte à n
 **Render mode** est un paramètre qui peut être modifié selon à quel endroit vous voulez faire jouer la vidéo, habituellement, on garde material Override pour jouer le vidéo sur la texture de l'objet sur lequel il est. Renderer qui est le paramètre en dessous fait justement habituellement référence au Renderer de l'objet sur lequel on rend la vidéo, donc lui-même.     
 
 **Audio Output mode** nous permet de sélectionner si notre vidéo joue de l'audio ou non.   
+
+
+## Audio Listener
+La composante Audio Listener est présente par défaut sur la caméra de votre jeu. Si ce n'est pas le cas, vous devriez l'ajouter. Elle vous permettra d'entendre les sons de votre jeu. Par défaut, le listener est sur la caméra puisque la vue du joueur suit celle de la caméra. Ainsi, il est logique qu'on entende les même bruits que la caméra.   
+      
+
+## Audio Source
+La composante Audio Source est celle qui vous permet de jouer des sons. Habituellement on met cette composante sur les objets qui émettent les sons. Si vous préférez avoir un son général pour votre jeu, vous pouvez faire un clic droit dans la fenêtre hierarchy, puis sélectionner Audio, Audio Source. Ainsi, votre son ne sera pas rattaché à un objet.     
+
+<img src="../images/son.jpg">   
+
+Pour fonctionner, la composante Audio Source a premièrement besoin d'un AudioClip, c'est à dire d'une piste sonore. Vous devrez donc importer vos sons dans Unity. Je vous suggère d'importer des fichiers .mp3 dans un dossier nommé Audio. Une fois vos fichiers importés, vous pourrez les glisser dans la boîte AudioClip de la composante AudioSource.     
+
+Le paramètre Mute permet de ne plus entendre le son, mais on devrait l'arrêter de jouer plutôt que le muter.      
+
+Par défaut, le paramètre Play on awake est coché, il fait en sorte que notre son jouera dès qu'on partira notre jeu. Si on veut le déclencher manuellement à un autre moment, on peut décocher cette boîte.       
+
+Le paramètre Loop permet de jouer l'audio en boucle lorsqu'il est coché.     
+
+Le paramètre Volume vous permet d'ajuster le volume de votre audio. 

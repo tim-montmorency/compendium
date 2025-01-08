@@ -16,7 +16,9 @@ Appuyer sur enseignement supérieur:
 [🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
 
 #### Téléchargement de Unity
-[📝 Téléchargement de Unity](./installation/telechargement.md){ .md-button }    
+- [📝 Installation du logiciel](./installation/telechargement.md)
+- [📝 Ajout de modules](./installation/modules.md)
+- [📝 Activer une licence](./installation/license.md)    
 
            
 
@@ -25,7 +27,10 @@ Appuyer sur enseignement supérieur:
 
 
 ## Retour en groupe sur Unity
-[📝 Introduction à Unity](./unity/introduction.md){ .md-button }      
+- [📝 Créer un projet](./unity/creer_projet.md)
+- [📝 Fenêtres](./unity/fenetres.md)
+- [📝 Nomenclature](./unity/nomenclature.md)
+- [📝 Importer des *Assets* depuis le *Asset store*](./unity/creer_projet.md)        
 
 
 ## Travail 1
@@ -33,9 +38,8 @@ Appuyer sur enseignement supérieur:
 [💼 Travail 1](./consignes/travail1.md){ .md-button }   
 
 #### Création de visuels
-[📝 Sprite](./unity/sprite.md){ .md-button }       
-
-[📝 Vidéo](./unity/video.md){ .md-button }       
+- [📝 Sprite](./unity/sprite.md)
+- [📝 Vidéo](./unity/video.md)     
 
 
 #### Test d'exemples de travail 1 et de livres en AR

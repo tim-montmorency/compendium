@@ -1,9 +1,8 @@
 # Cours 4
 ## Bloc 1
 #### Code
-[📝 Quitter le jeu](./code/quitter_jeu.md){ .md-button }       
-
-[📝 Changement de scène](./code/changement_scene.md){ .md-button }      
+- [📝 Quitter le jeu](./code/quitter_jeu.md)
+- [📝 Changement de scène](./code/changement_scene.md)
 
 ### Avancement du travail 1
 #### Script UI
@@ -16,7 +15,7 @@
 
 ## Bloc 2
 #### Exportation
-[📝 Exportation](./unity/build.md){ .md-button }   
+- [📝 Exportation](./unity/build.md)  
 
 ### Avancement du travail 1
 #### Création de l'application

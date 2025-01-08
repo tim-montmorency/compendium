@@ -57,9 +57,4 @@
 * Écouter les vidéos sur [Midjourney](ai/midjourney.md)
 
 
-* Durant le prochain cours, avoir une carte de crédit avec vous, pour acheter une licence de Runway:  Unlimited $95/monthly. Je pourrai mettre une carte de crédit pré-payée à la place de votre carte.
-* S'assurer que les disques durs sont formatés pour MAC d'ici deux semaines. Vous pouvez aller voir Guillaume au comptoir pour faire l'opération. Vous devrez vider vos disques durs s'il y a du contenu dans celui-ci. Si vous avez un PC à la maison faire deux partitions une MAC (Mac OS étendu) et une EXFAT.
-<details>
-  <summary></summary>
- * [Gregory Crewdson](https://www.dansloeilduphotographe.fr/articles/gregory-crewdson-untitled-summer-summer-rain-from-the-series-nbspbeneath-the-rosesnbsp-2004)
-</details>
+

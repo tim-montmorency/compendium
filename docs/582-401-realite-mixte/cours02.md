@@ -2,10 +2,10 @@
 
 ## Bloc 1
 #### Base de Unity
-[📝 Composantes](./unity/composantes.md){ .md-button }           
+- [📝 Composantes](./unity/composantes.md)       
 
 #### Configuration
-[📝 Plateforme de développement](./installation/configuration.md){ .md-button }     
+- [📝 Plateforme de développement](./installation/configuration.md) 
 
 ### Avancement du travail 1
 #### Création du projet
@@ -13,10 +13,12 @@
 
 ## Bloc 2
 #### Configuration
-[📝 Unity remote](./installation/unity-remote.md){ .md-button }   
+- [📝 Unity remote](./installation/unity-remote.md)   
        
 #### Réalité augmentée
-[📝 Introduction à la AR](./realite-augmentee/introduction.md){ .md-button }       
+- [📝 Création de compte Vuforia](./realite-augmentee/compte_vuforia.md)
+- [📝 Création d'une license Vuforia](./realite-augmentee/license_vuforia.md)
+- [📝 Ajout de Vuforia dans le projet Unity](./realite-augmentee/vuforia_unity.md)
 
 ### Avancement du travail 1
 #### Préparation de Vuforia
@@ -24,7 +26,12 @@
 
 ## Bloc 3
 #### Détection en réalité augmentée
-[📝 Détection](./realite-augmentee/detection.md){ .md-button }   
+- [📝 Créer de bonnes images de détection](./realite-augmentee/detection.md)
+- [📝 Créer une base de données avec les images](./realite-augmentee/base_donnees.md)
+- [📝 Importer les images de détection dans Unity](./realite-augmentee/importer_detection.md)
+- [📝 Créer une caméra de détection dans Unity](./realite-augmentee/camera_detection.md)
+- [📝 Détecter une image dans Unity](./realite-augmentee/detecter_image.md)
+- [📝 Déclencher des éléments à partir d'une détection](./realite-augmentee/declencher_detection.md)
 
 ### Avancement du travail 1
 #### Détection AR
@@ -33,10 +40,16 @@
 
 ## Bloc 4  
 #### Calques
-[📝 Calques](./unity/sorting_layers.md){ .md-button }       
+- [📝 Calques](./unity/sorting_layers.md)     
 
 #### Animation de sprite sheet
-[📝 Animation d'objets 2D](./unity/animation.md){ .md-button }   
+- [📝 Importer la *sprite sheet*](./unity/anim_import.md)
+- [📝 *Animator controller*](./unity/anim_controller.md)
+- [📝 *Animator*](./unity/anim_animator.md)
+- [📝 Fenêtre animation](./unity/fenetre_anim.md)
+- [📝 Animation de *Sprite sheet*](./unity/animation.md)
+
+
 
 ### Avancement du travail 1       
 #### Animations de sprite

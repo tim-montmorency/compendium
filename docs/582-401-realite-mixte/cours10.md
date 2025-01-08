@@ -1,10 +1,5 @@
 # Cours 10
 
-## Rappels
-Bourses et gamejam
-
-[📝 Sondage](https://outlook.office.com/mail/inbox/id/AAQkADQ1ZGUyZWZkLTFmODEtNDY1OS04YWQ4LTQ0MGQ1NmZlZDBkZgAQACFrj6Nae6hNtfqucZYtexk%3D){ .md-button }   
-
 ## Configurer la VR dans votre projet
 [📝 Configuration VR](unity/configuration_vr.md){ .md-button }     
 

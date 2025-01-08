@@ -46,12 +46,15 @@
   
 ## Devoir
 
-Faire le devoir [andy, poisson et crane](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBd30QhFTRKrWmB-e0B5mcBPh_rgm1QTi5Zi0Hu83qAnw?e=mx4hx5) 
- 
+Faire le devoir 
+* [🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
+* [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }   <br>     
+* [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }   <br>  
+* [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
+* [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
+* [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>   
 
 
-Faire le devoir de vecteur   
-[🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
 
 Déposer tous les devoirs dans Devoir sur TEAMS avant mardi. 
 

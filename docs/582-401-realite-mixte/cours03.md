@@ -2,11 +2,14 @@
 ## Bloc 1
  
 #### Code
-[📝 Variables](./code/variables.md){ .md-button }          
-
-[📝 Bases du code](./code/base.md){ .md-button }       
-
-[📝 Fonctions](./code/fonctions.md){ .md-button }        
+- [📝 Variables](./code/variables.md)
+- [📝 Structure d'un script](./code/structure_script.md)
+- [📝 Console](./code/console.md)
+- [📝 Opérateurs](./code/operateur.md)
+- [📝 Conditions](./code/condition.md)
+- [📝 Boucle](./code/boucle.md)
+- [📝 Aléatoire](./code/aleatoire.md)
+- [📝 Fonctions](./code/fonctions.md)        
 
 
 #### Réflexion sur le code de détection
@@ -20,7 +23,7 @@ Partage des schémas
 
 
 #### Code
-[📝 Événements](./code/evenements.md){ .md-button }         
+- [📝 Événements](./code/evenements.md)        
 
 
 #### Démonstration du code de détection     
@@ -38,7 +41,9 @@ Défi: Faire jouer un son sur un GameObject.
 Quelles conclusions pouvez-vous faire? 
 
 #### Son
-[📝 Son](./unity/son.md){ .md-button }   
+- [📝 Audio Listener](./unity/composantes.md#audio-listener) 
+- [📝 Audio Source](./unity/composantes.md#audio-source) 
+- [📝 Code et son](./unity/son.md)  
 
 ### Avancement du travail 1
 #### Sons
@@ -46,10 +51,10 @@ Quelles conclusions pouvez-vous faire?
 
 ## Bloc 3       
 #### Menus
-[📝 UI](./unity/UI.md){ .md-button }      
+- [📝 Composantes menu](./unity/UI.md)     
 
 #### Police de caractères
-[📝 Police de caractères](./unity/font.md){ .md-button }   
+- [📝 Police de caractères](./unity/font.md)   
 
 ### Avancement du travail 1
 #### Menu UI
