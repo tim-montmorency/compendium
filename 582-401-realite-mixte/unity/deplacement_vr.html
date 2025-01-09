@@ -18,7 +18,7 @@
     
     
       
-        <title>Déplacement avec le joystick des manettes - Notes de cours</title>
+        <title>Deplacement vr - Notes de cours</title>
       
     
     
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Déplacement avec le joystick des manettes
+              Deplacement vr
             
           </span>
         </div>
@@ -11584,8 +11584,32 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deplacement-avec-le-joystick-des-manettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Déplacement avec le joystick des manettes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleportation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Téléportation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -11600,7 +11624,10 @@
                   
 
 
-<div><h1 id="deplacement-avec-le-joystick-des-manettes">Déplacement avec le joystick des manettes<a class="headerlink" href="#deplacement-avec-le-joystick-des-manettes" title="Permanent link">¶</a></h1>
+  <h1>Deplacement vr</h1>
+
+<div><p>Nous allons voir différentes méthodes de déplacement en VR dans Unity.   </p>
+<h2 id="deplacement-avec-le-joystick-des-manettes">Déplacement avec le joystick des manettes<a class="headerlink" href="#deplacement-avec-le-joystick-des-manettes" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez sur le Locomotion System dans la hiérarchie pour l'ouvrir dans l'inspecteur.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Décochez la téléportation si vous ne souhaitez pas l'utiliser.</li>
@@ -11616,7 +11643,17 @@
 <p class="admonition-title">Attention</p>
 <p>Attention pour tester le vrai déplacement avec les manettes et l'interaction avec les colliders, vos manettes doivent être sélectionnées en mode clavier souris. Ne pas sélectionner HMD, c'est controller qui doit être en bleu!</p>
 </div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F6ETKU5e_5M?si=MQMvl-P4ga1D_zLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F6ETKU5e_5M?si=MQMvl-P4ga1D_zLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h2 id="teleportation">Téléportation<a class="headerlink" href="#teleportation" title="Permanent link">¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> S'assurer que Teleportation Provider est coché dans le Locomotion System et décochez le continuous move provider au besoin.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la hiérarchie, clic-droit, XR, ajoutez Teleportation Anchor ou Teleportation Area. Teleportation anchor: On est mieux de créer les zones de téléportation (ex: pastilles) et ensuite de leur ajouter la composante Teleportation anchor. Teleportation area: Zone dans laquelle on peut se téléporter.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans les paramètres de ces composantes, glissez votre XR Interaction Manager dans le paramètre Interaction Manager.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Custom reticle = un objet qui apparaît pour montrer que la téléportation est possible.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Teleportation provider: Glissez Locomotion System pour qu'on puisse se téléporter.</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vx27jJdFB-k?si=493BRpnCvvzsneXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
 
