@@ -2,7 +2,7 @@
 ## Grimper
 Reproduire le tout en équipes. 
 
-[📝 Grimper en VR](unity/grimper.md){ .md-button }
+- [📝 Grimper en VR](unity/grimper.md)
 
 ## Canvas
 
