@@ -122,6 +122,7 @@
 ##### Configurer la VR dans votre projet
 - [Importer les paquets pour la VR](unity/configuration_vr.md)
 - [Intégrer le casque de VR à une scène](unity/xr_origin.md)
+- [Problèmes de joueur](https://youtu.be/prcvO0z74hg?si=Sp3bYpGNY5YHsDeP)
 - [Tester avec un clavier et une souris](unity/test_clavier.md)     
 
 ##### Interagir avec les manettes et l'environnement
