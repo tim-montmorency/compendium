@@ -18,7 +18,7 @@
     
     
       
-        <title>Materiaux - Notes de cours</title>
+        <title>Créer un matériel - Notes de cours</title>
       
     
     
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Materiaux
+              Créer un matériel
             
           </span>
         </div>
@@ -11584,6 +11584,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -11592,36 +11594,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#creer-un-materiel" class="md-nav__link">
-    <span class="md-ellipsis">
-      Créer un matériel
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#probleme-de-materiel" class="md-nav__link">
     <span class="md-ellipsis">
       Problème de matériel
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#materiel-physique" class="md-nav__link">
-    <span class="md-ellipsis">
-      Matériel physique
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modifier-un-materiel-avec-le-script" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modifier un matériel avec le script
     </span>
   </a>
   
@@ -11642,10 +11617,7 @@
                   
 
 
-  <h1>Materiaux</h1>
-
-<div><p>Nous verrons ici les matériaux dans Unity.   </p>
-<h2 id="creer-un-materiel">Créer un matériel<a class="headerlink" href="#creer-un-materiel" title="Permanent link">¶</a></h2>
+<div><h1 id="creer-un-materiel">Créer un matériel<a class="headerlink" href="#creer-un-materiel" title="Permanent link">¶</a></h1>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour créer un matériel, faites un clic-droit dans la fenêtre projet, puis Create, material.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Nommez ensuite le matériel.</li>
@@ -11658,34 +11630,7 @@
 <p>Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation:     </p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la barre de menu sélectionnez Edit -&gt; Rendering -&gt; Materials -&gt; Convert all Built-in materials to HDRP </li>
-</ul>
-<h2 id="materiel-physique">Matériel physique<a class="headerlink" href="#materiel-physique" title="Permanent link">¶</a></h2>
-<p>Les matériels physiques permettent de donner des propriétés aux objets ou aux surfaces. Par exemple, ils peuvent être rebondissants ou glissants.  </p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Clic droit la la fenêtre project, Create, Physic Material.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Nommez ensuite le matériel.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> En modifiant les différents paramètres, vous pourrez rendre le matériel plus ou moins glissant ou rebondissant.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour assigner le matériel à un objet, ouvrez celui-ci dans l'inspecteur.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, dans le paramètre Material du collider de l'objet, glissez le matériel que vous avez créé.</li>
-</ul>
-<h2 id="modifier-un-materiel-avec-le-script">Modifier un matériel avec le script<a class="headerlink" href="#modifier-un-materiel-avec-le-script" title="Permanent link">¶</a></h2>
-<p>Voici un exemple de code qui pourra vous aider à comprendre comment modifier les paramètres d'un matériel dans le script:   <br>
-</p><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">GameObject</span><span class="w"> </span><span class="n">cube</span><span class="p">;</span>
-<span class="k">public</span><span class="w"> </span><span class="n">Color</span><span class="w"> </span><span class="n">couleurRouge</span><span class="p">;</span><span class="w"> </span>
-
-<span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">OnTriggerEnter</span><span class="p">(</span><span class="n">Collider</span><span class="w"> </span><span class="n">other</span><span class="p">)</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">tag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">"Player"</span><span class="p">)</span>
-<span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="c1">//Modifier la couleur de l'objet</span>
-<span class="w">            </span><span class="n">cube</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Renderer</span><span class="o">&gt;</span><span class="p">().</span><span class="n">material</span><span class="p">.</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">couleurRouge</span><span class="p">;</span>
-
-<span class="w">            </span><span class="c1">//Modifier l'émission du matériel de l'objet</span>
-<span class="w">            </span><span class="n">cube</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Renderer</span><span class="o">&gt;</span><span class="p">().</span><span class="n">material</span><span class="p">.</span><span class="n">SetVector</span><span class="p">(</span><span class="s">"_EmissiveColor"</span><span class="p">,</span><span class="w"> </span><span class="n">couleurRouge</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">2.0f</span><span class="p">);</span><span class="w"> </span>
-<span class="w">        </span><span class="p">}</span>
-
-<span class="w">    </span><span class="p">}</span>
-</code></pre></div></div>
+</ul></div>
 
 
 
