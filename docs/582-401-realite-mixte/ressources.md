@@ -91,17 +91,31 @@
 #### Faire jouer une vidéo
 - [Jouer une vidéo](unity/video-creation.md#creer-un-gameobject-pour-faire-jouer-la-video)
 
+#### Réalité virtuelle
+##### Configurer la VR dans votre projet
+- [Importer les paquets pour la VR](unity/configuration_vr.md)
+- [Intégrer le casque de VR à une scène](unity/xr_origin.md)
+- [Tester avec un clavier et une souris](unity/test_clavier.md)     
+
+##### Interagir avec les manettes et l'environnement
+- [Prendre et lancer des objets](unity/interaction_vr.md)
+- [Méthode de sélection des objets](unity/methode_selection.md)
+- [XR socket - Socle pour les objets](unity/xr_socket.md)   
+
+##### Se déplacer en réalité virtuelle
+- [Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
+- [Téléportation](unity/teleportation.md) 
+
+
+
+
 ## Quest
 - [Le casque de VR](unity/quest.md)
 - [Guardian - Créer une limite de jeu](unity/guardian.md)
 - [Meta Quest Link - Relier le casque et l'ordinateur](unity/meta_quest_link.md)
 
 ## GitHub
-- [Collaboration sur un projet Unity avec Github](unity/github.md)  
-
-## Maya
-
-- [Importation d'objets 3D dans Unity](unity/Importation3D.md)
+- [Collaboration sur un projet Unity avec Github](unity/github.md)
 
 ## Création de visuels
 - [Sprites](unity/sprite.md)
@@ -112,5 +126,16 @@
 - [Création d'une license](realite-augmentee/license_vuforia.md)
 - [Créer de bonnes images de détection](realite-augmentee/detection.md)
 - [Créer une base de données avec les images](realite-augmentee/base_donnees.md)
+
+## Maya
+
+- [Importation d'objets 3D dans Unity](unity/Importation3D.md)
+
+## Modèles 3D
+- [Donjon](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVbP42OTXHxIi2BA4lpLO-0Br1QqZyi6_HFFBJTFf4Er0g?e=Dy174s)
+- [Fantaisie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESAhgRY5NWVMssSuucGOJK4BD2jhRTc06G0cH6XRp6nmjw?e=8i1izP)
+- [Espace](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYK1_f5Y22NHoiYN-gaHTSQBsiP2sA3XKSFIpavqGjlWgg?e=46Aeov)
+
+
 
 
