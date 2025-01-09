@@ -95,15 +95,28 @@
 #### Faire jouer une vidéo
 - [Jouer une vidéo](unity/video-creation.md#creer-un-gameobject-pour-faire-jouer-la-video)
 
+#### Éclairage
+- [Éclairage](unity/eclairage.md)
+
 #### Matériaux
 - [Matériaux](unity/materiaux.md)
-- [Matériaux physiques](unity/physique_material.md)
 - [Miroir](unity/miroir.md)
+
+#### Physique
+- [Matériaux physiques](unity/physique_material.md)
+- [Hinge joint - Pont et porte](unity/physique.md)
 
 #### Particules
 - [Paramètres des particules](unity/particules.md)
 - [Animation d'une sprite sheet avec des particules](unity/particules_sprite.md)
 
+#### Effets spéciaux
+- [Post processing](unity/postprocessing.md)
+- [VFX](unity/vfx.md)
+- [Eau](unity/eau.md)
+
+#### Tir de projectile
+- [Tir](unity/tir.md)
   
 #### Réalité virtuelle
 ##### Configurer la VR dans votre projet
@@ -114,19 +127,21 @@
 ##### Interagir avec les manettes et l'environnement
 - [Prendre et lancer des objets](unity/interaction_vr.md)
 - [Méthode de sélection des objets](unity/methode_selection.md)
-- [XR socket - Socle pour les objets](unity/xr_socket.md)   
+- [XR socket - Socle pour les objets](unity/xr_socket.md)
+- [Mains VR](unity/vr_mains.md) 
 
 ##### Se déplacer en réalité virtuelle
 - [Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
 - [Téléportation](unity/teleportation.md) 
 - [Grimper](unity/grimper.md)
+- [Sauter](unity/sauter.md)
+- [Ascenseur](unity/ascenseur.md)
 
 ##### Canvas
 - [Canvas en VR](unity/ui_vr.md)
 
 ##### Audio
 - [Audio en VR](unity/audio_vr.md)
-
 
 
 ## Quest
