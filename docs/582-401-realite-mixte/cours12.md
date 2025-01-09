@@ -1,44 +1,39 @@
 # Cours 12
 
 ## Éclairage
-
-[📝 Éclairage](unity/eclairage.md){ .md-button }
+- [📝 Éclairage](unity/eclairage.md)
 
 ## Post processing
-
-[📝 Post processing](unity/postprocessing.md){ .md-button }
+- [📝 Post processing](unity/postprocessing.md)
 
 ## VFX
-
-[📝 VFX](unity/vfx.md){ .md-button }
+- [📝 VFX](unity/vfx.md)
 
 ## Eau
-
-[📝 Eau](unity/eau.md){ .md-button }
+- [📝 Eau](unity/eau.md)
 
 ## Mains en VR
 
-[📝 Mains VR](unity/vr_mains.md){ .md-button }
+- [📝 Mains VR](unity/vr_mains.md)
 
 ## Saut
 
-[📝 Sauter en VR](unity/sauter.md){ .md-button }
+- [📝 Sauter en VR](unity/sauter.md)
 
 ## Plateforme en mouvement
 
-[📝 Ascenseur en VR](unity/ascenseur.md){ .md-button }
+- [📝 Ascenseur en VR](unity/ascenseur.md)
 
 ## Aléatoire
 
-[📝 Bases du code](code/base.md#aleatoire){ .md-button }
-
+- [📝 Bases du code](code/aleatoire.md)
 ## Tir de projectile
 
-[📝 Tir](unity/tir.md){ .md-button }
+- [📝 Tir](unity/tir.md)
 
 ## Physique Pont et porte
 
-[📝 Pont et porte](unity/physique.md){ .md-button }
+- [📝 Pont et porte](unity/physique.md)
 
 ## Discussion Optimisation
 - [ ] Low poly
