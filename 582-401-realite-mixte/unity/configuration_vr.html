@@ -11600,24 +11600,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#creer-une-scene-et-integrer-le-casque-de-vr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Créer une scène et intégrer le casque de VR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tester-avec-un-clavier-et-une-souris" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tester avec un clavier et une souris
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -11653,36 +11635,7 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Edit, Project Settings, preset manager. Les actions qu'on vient d'ajouter y sont disponible.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans Action Based Controller, on écrit Right pour le controlleur droit et Left pour le controlleur gauche dans la section Filter.</li>
 </ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M2hMiALFGpQ?si=CLPY7A5nzDQYmYk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<h2 id="creer-une-scene-et-integrer-le-casque-de-vr">Créer une scène et intégrer le casque de VR<a class="headerlink" href="#creer-une-scene-et-integrer-le-casque-de-vr" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Barre de menu: File, new scene, puis choisir un modèle HDRP pour créer votre nouvelle scène. (Un GameObject Sky and Fog Volume apparaîtra dans votre scène si vous avez le bon modèle.)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez votre scène dans le dossier Scene.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet Empty et nommez le joueur.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le joueur, ajouter un objet: Xr, XR Origin.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Supprimez la MainCamera qui était dans votre projet au début.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez l'objet XR Origin et trouvez le controlleur Gauche. Dans la fenêtre Inspector sur la composante XR Controller, appuyez sur l'icône de sliders en haut à droite. Sélectionnez ensuite Left Controller dans la liste.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Répétez cette étape pour le controlleur droit et choisissez Right controller.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le joueur, ajoutez un objet: XR, Locomotion System.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez votre XR Origin dans la boîte XR Origin de la composante Locomotion System de votre GameObject Locomotion System.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le GameObject XR Interaction Manager dans le Joueur.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un prefab de votre joueur pour pouvoir l'utiliser dans d'autres scènes.</li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uwBccDZznHo?si=qSoK_7j9G2zzsbwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<h2 id="tester-avec-un-clavier-et-une-souris">Tester avec un clavier et une souris<a class="headerlink" href="#tester-avec-un-clavier-et-une-souris" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Mettre un plane dans votre scène pour éviter que votre joueur tombe.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrir le package manager (window, package manager).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous d'être dans Unity Registry et trouvez XR Interaction ToolKit dans la liste.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans samples, importez le XR Device Simulator.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Recherchez device simulator dans le dossier Assets de la fenêtre projet.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le Prefab nommé XR Device Simulator dans votre scène.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Vous pouvez maintenant tester avec votre clavier et souris, quand vous faites Play, vous pourrez tester avec vos manettes.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Décochez XR Device Simulator quand vous voulez tester avec le casque.</li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K9oU2pxeSyw?si=UbADrRadKkjFEyP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M2hMiALFGpQ?si=CLPY7A5nzDQYmYk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
 
