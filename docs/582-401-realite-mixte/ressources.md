@@ -92,6 +92,9 @@
 - [Jouer une vidéo](unity/video-creation.md#creer-un-gameobject-pour-faire-jouer-la-video)
 
 
+## GitHub
+- [Collaboration sur un projet Unity avec Github](unity/github.md)  
+
 ## Maya
 
 - [Importation d'objets 3D dans Unity](unity/Importation3D.md)
