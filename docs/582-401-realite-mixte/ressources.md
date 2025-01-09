@@ -39,6 +39,9 @@
   - [Text Mesh Pro](unity/UI.md#text-mesh-pro)
 - [Modifier la police](unity/font.md)
 - [Calques - *Sorting layers*](unity/sorting_layers.md)
+
+#### Fenêtre animation
+- [Transitions entre les scènes](unity/transitions.md)
  
 #### Réalité augmentée
 - [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
@@ -84,6 +87,7 @@
 - [Changer de scène](code/changement_scene.md)
 - [Coroutine](code/coroutine.md)
 - [Déplacement de la caméra et du joueur](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU)
+- [Modifier un matériel avec le script](code/materiel_code.md)
      
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
@@ -91,6 +95,16 @@
 #### Faire jouer une vidéo
 - [Jouer une vidéo](unity/video-creation.md#creer-un-gameobject-pour-faire-jouer-la-video)
 
+#### Matériaux
+- [Matériaux](unity/materiaux.md)
+- [Matériaux physiques](unity/physique_material.md)
+- [Miroir](unity/miroir.md)
+
+#### Particules
+- [Paramètres des particules](unity/particules.md)
+- [Animation d'une sprite sheet avec des particules](unity/particules_sprite.md)
+
+  
 #### Réalité virtuelle
 ##### Configurer la VR dans votre projet
 - [Importer les paquets pour la VR](unity/configuration_vr.md)
@@ -105,7 +119,13 @@
 ##### Se déplacer en réalité virtuelle
 - [Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
 - [Téléportation](unity/teleportation.md) 
+- [Grimper](unity/grimper.md)
 
+##### Canvas
+- [Canvas en VR](unity/ui_vr.md)
+
+##### Audio
+- [Audio en VR](unity/audio_vr.md)
 
 
 
