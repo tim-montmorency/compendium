@@ -24,8 +24,9 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 - [📝 Animation d'une sprite sheet avec des particules](unity/particules_sprite.md)
 
 ## Matériaux
-
-[📝 Matériaux](unity/materiaux.md){ .md-button }
+- [📝 Matériaux](unity/materiaux.md)
+- [📝 Matériaux physiques](unity/physique_material.md)
+- [📝 Modifier un matériel avec le script](code/materiel_code.md)
 
 ## Miroir
 
