@@ -20,7 +20,8 @@ Reproduire le tout en équipes.
 ## Particules
 Exploration du système de particules: Qu'est-ce que ça permet de faire? 
 
-[📝 Particules](unity/particules.md){ .md-button }
+- [📝 Particules](unity/particules.md)
+- [📝 Animation d'une sprite sheet avec des particules](unity/particules_sprite.md)
 
 ## Matériaux
 
