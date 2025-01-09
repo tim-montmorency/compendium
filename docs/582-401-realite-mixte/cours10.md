@@ -9,7 +9,9 @@
 Tester les Grab Interactable objects
 
 ## Interagir avec les manettes et l'environnement
-[📝 Interaction en VR](unity/interaction_vr.md){ .md-button }     
+- [📝 Prendre et lancer des objets](unity/interaction_vr.md)
+- [📝 Méthode de sélection des objets](unity/methode_selection.md)
+- [📝 XR socket - Socle pour les objets](unity/xr_socket.md)   
 
 ## Casse-tête d'experts
 En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, Samples, XR Interaction Toolkit, 2.X.X, Starter Assets.     
