@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/particules.html">
+        <link rel="canonical" href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/particules_sprite.html">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Paramètres des particules - Notes de cours</title>
+        <title>Animation de sprite sheet et particules - Notes de cours</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#parametres-des-particules" class="md-skip">
+        <a href="#animation-de-sprite-sheet-et-particules" class="md-skip">
           Aller au contenu
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Paramètres des particules
+              Animation de sprite sheet et particules
             
           </span>
         </div>
@@ -11587,6 +11587,104 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tutoriel-ecrit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutoriel écrit:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-creer-un-fichier-de-base-dans-photoshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Créer un Fichier de Base dans Photoshop :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-preparer-les-calques-et-les-brosses" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Préparer les Calques et les Brosses :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-peindre-les-elements-danimation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Peindre les Éléments d'Animation :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-exporter-le-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Exporter le Document :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-importer-la-sprite-sheet-dans-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Importer la Sprite Sheet dans Unity :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-creer-un-materiel-pour-les-particules" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Créer un Matériel pour les Particules :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-creer-un-systeme-de-particules" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Créer un Système de Particules :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-ajuster-les-parametres-du-systeme-de-particules" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Ajuster les Paramètres du Système de Particules :
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-tester-et-finaliser" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Tester et Finaliser :
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -11600,10 +11698,66 @@
                   
 
 
-<div><h1 id="parametres-des-particules">Paramètres des particules<a class="headerlink" href="#parametres-des-particules" title="Permanent link">¶</a></h1>
-<p><a class="md-button" href="https://learn.unity.com/tutorial/introduction-to-particle-systems#6025fdd9edbc2a112d4f0136">📁 Paramètres détaillés des particules</a>   <br></p>
-<p>Note: La vidéo n'a pas de son, mais vous pouvez voir des paramètre modifiés dans l'inspecteur et leur résultat.    </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4DZIaZ_BZ2E?si=turLE4hUrhKFQOeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div><h1 id="animation-de-sprite-sheet-et-particules">Animation de sprite sheet et particules<a class="headerlink" href="#animation-de-sprite-sheet-et-particules" title="Permanent link">¶</a></h1>
+<p>Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity. Vous aurez besoin du canva suivant pour créer votre feuille animée dans Photoshop:       </p>
+<p><a class="md-button" href="https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef8BiNB-HThNlw4ECnKykfMBOJoLYdTIP1aEh30nMRkL2w?e=zhyxSc">📁 Fichier de base Photoshop</a>   </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eub9QMYbS0U?si=4LhGsPcKw2-sWfc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3 id="tutoriel-ecrit">Tutoriel écrit:<a class="headerlink" href="#tutoriel-ecrit" title="Permanent link">¶</a></h3>
+<h3 id="1-creer-un-fichier-de-base-dans-photoshop">1. Créer un Fichier de Base dans Photoshop :<a class="headerlink" href="#1-creer-un-fichier-de-base-dans-photoshop" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez Photoshop avec un fichier de 512x512 pixels en 72 dpi. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Divisez le document en 16 cases égales avec des règles, chaque case étant destinée à un élément de l'animation. (Déjà fait dans le fichier fourni ci-haut).</li>
+</ul>
+<h3 id="2-preparer-les-calques-et-les-brosses">2. Préparer les Calques et les Brosses :<a class="headerlink" href="#2-preparer-les-calques-et-les-brosses" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un calque de fond et remplissez-le en noir.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez un calque par-dessus pour peindre vos effets spéciaux.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Téléchargez des brosses de fumée ou de flamme en ligne, (Recommandation: Brusheezy) extrayez-les, puis importez-les dans Photoshop (Outil Pinceau &gt; Flèche sur la brosse &gt; Engrenage &gt; Importer des Pinceaux).</li>
+</ul>
+<h3 id="3-peindre-les-elements-danimation">3. Peindre les Éléments d'Animation :<a class="headerlink" href="#3-peindre-les-elements-danimation" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que la couleur de votre pinceau est blanche.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Peignez chaque case avec des effets de fumée ou de flammes en utilisant différentes brosses pour varier le style.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que chaque élément reste dans sa case et que l'ensemble est uniforme.</li>
+</ul>
+<h3 id="4-exporter-le-document">4. Exporter le Document :<a class="headerlink" href="#4-exporter-le-document" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Supprimez le calque de fond pour conserver la transparence.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Exportez le fichier au format PNG 24 avec transparence.</li>
+</ul>
+<h3 id="5-importer-la-sprite-sheet-dans-unity">5. Importer la Sprite Sheet dans Unity :<a class="headerlink" href="#5-importer-la-sprite-sheet-dans-unity" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Importez votre PNG dans Unity (par glisser-déposer dans un dossier).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez le fichier et définissez son Texture type comme <strong>Sprite</strong> dans l'inspecteur ainsi que son Sprite Mode à <strong>Multiple</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur <strong>Apply</strong> pour appliquer les paramètres.</li>
+</ul>
+<h3 id="6-creer-un-materiel-pour-les-particules">6. Créer un Matériel pour les Particules :<a class="headerlink" href="#6-creer-un-materiel-pour-les-particules" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit dans la fenêtre Project &gt; <strong>Create &gt; Material</strong> et nommez-le (ex. : “Particules Fumée”).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Définissez le type du matériel en tant que <strong>Particles &gt; Standard Unlit</strong> et choisissez le mode <strong>Additive</strong> dans Rendering mode.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Faites glisser votre sprite sheet dans le champ “Albedo” du matériel.</li>
+</ul>
+<h3 id="7-creer-un-systeme-de-particules">7. Créer un Système de Particules :<a class="headerlink" href="#7-creer-un-systeme-de-particules" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez droit dans la fenêtre Hiérarchie &gt; <strong>Effects &gt; Particle System</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans l'inspecteur, dans la section Renderer, changez le matériel (Material) du système de particules pour celui que vous venez de créer.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Accédez à l’option <strong>Texture Sheet Animation</strong>, choisissez “Grid” dans le champ Mode, et entrez 4x4 dans la section Tiles si votre sprite sheet contient 16 images.</li>
+</ul>
+<h3 id="8-ajuster-les-parametres-du-systeme-de-particules">8. Ajuster les Paramètres du Système de Particules :<a class="headerlink" href="#8-ajuster-les-parametres-du-systeme-de-particules" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Shape</strong> : Modifiez la dispersion en ajustant l'angle et la direction pour que la fumée reste dans une zone précise. (Shape: Cone, Angle: 1, Radius: 0.1)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Start Speed</strong> : Diminuez la vitesse pour ralentir les particules. (0.02)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Max Particles</strong> : Limitez à 20 pour optimiser les performances.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Size Over Lifetime</strong> : Cochez cette option pour faire varier la taille des particules au cours de leur durée de vie.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Texture Sheet Animation</strong>, changez “Frame Over Time” en “Random Between Two Constants” pour éviter la répétition et rendre l’effet plus naturel. Le premier frame sera 0 et le second 15.999.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Color Over Lifetime</strong> : Ajoutez des couleurs variées (ex. : dégradé de rose et violet) pour personnaliser la couleur de la fumée.</li>
+</ul>
+<h3 id="9-tester-et-finaliser">9. Tester et Finaliser :<a class="headerlink" href="#9-tester-et-finaliser" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Jouez avec les paramètres pour obtenir l’effet souhaité (ex. : arrêter le système après une certaine durée ou choisir une animation en boucle).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez sur Play dans Unity pour voir votre animation de particules.</li>
+</ul></div>
 
 
 
