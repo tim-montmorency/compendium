@@ -55,12 +55,4 @@ Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer
 
       
 
-## Automatiser la détection du casque - Optionnel
-Si vous voulez que Unity active ou désactive les tests souris-clavier lorsque vous connectez votre casque à l'ordinateur, vous pouvez suivre la vidéo suivante. Sinon, cochez ou décochez le Device simulator pour tester avec le casque ou la souris.   
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hnxy-QOiGAo?si=UsGTIlLYPFKOGDUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-Vidéo d'inspiration:    
-[📁 Justin P. Barnett](https://youtu.be/ImPZyIM6XNs){ .md-button }   
 
