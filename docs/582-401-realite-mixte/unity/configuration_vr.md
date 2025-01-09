@@ -1,7 +1,4 @@
-Nous allons voir quelles composantes ajouter à votre projet pour pouvoir créer un projet en VR.   
-
-      
-## Ajouter la VR au projet
+# Ajouter la VR au projet
 - [ ] Ouvrir le package manager (window, package manager).
 - [ ] Assurez-vous d'être dans Unity Registry et trouvez XR Plugin Management dans la liste.
 - [ ] Installez ce paquet.
