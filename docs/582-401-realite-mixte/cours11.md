@@ -6,15 +6,15 @@ Reproduire le tout en équipes.
 
 ## Canvas
 
-[📝 Canvas en VR](unity/ui_vr.md){ .md-button }
+- [📝 Canvas en VR](unity/ui_vr.md)
 
 ## Transitions entre les scènes
 
-[📝 Transitions](unity/transitions.md){ .md-button }
+- [📝 Transitions](unity/transitions.md)
 
 ## Audio
 
-[📝 Audio en VR](unity/audio_vr.md){ .md-button }
+- [📝 Audio en VR](unity/audio_vr.md)
 
 
 ## Particules
@@ -28,13 +28,12 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 
 ## Miroir
 
-[📝 Miroir](unity/miroir.md){ .md-button }
+- [📝 Miroir](unity/miroir.md)
 
 
 ## Discussion et recherche sur les shaders
-[📝 Liquides dans un contenant](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s ){ .md-button }      
-
-[📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s){ .md-button }
+- [📝 Liquides dans un contenant](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s )
+- [📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s)
 
 
 ## Rencontres pour voir les besoins individuels
