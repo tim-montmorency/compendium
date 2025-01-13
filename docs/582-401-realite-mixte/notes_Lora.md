@@ -27,3 +27,5 @@ Idées:
 - Faire un peu de CQ pour critère 015W
 
 - Évaluer GitHub et nomenclaute: 015w = 7
+
+- Utiliser Gabarit JF pour création Jeu puisque élèves habitués
