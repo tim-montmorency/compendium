@@ -23,3 +23,5 @@ Idées:
 - Travailler avec Touch + Unity via spout ou OSC
 
 - Donner un scénario ou schéma + assets et donner une période aux étudiants pour intégrer le contenu: Formatif? Ou après le TP2 style exam pour valider compréhension. 
+
+- Faire un peu de CQ pour critère 015W
