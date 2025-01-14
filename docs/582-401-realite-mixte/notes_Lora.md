@@ -18,3 +18,14 @@ Bloc 4: Calques et anim 2d, ajouter vidéo dans anim 2d, changer calques de cour
 Cours 6: Vérif si oculus fonctionne avec casque
 
 travail 2: Emplacement des point light bulb dans synty a changé (video) 
+
+Idées: 
+- Travailler avec Touch + Unity via spout ou OSC
+
+- Donner un scénario ou schéma + assets et donner une période aux étudiants pour intégrer le contenu: Formatif? Ou après le TP2 style exam pour valider compréhension. 
+
+- Faire un peu de CQ pour critère 015W
+
+- Évaluer GitHub et nomenclaute: 015w = 7
+
+- Utiliser Gabarit JF pour création Jeu puisque élèves habitués
