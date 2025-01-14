@@ -11,7 +11,7 @@
 ## Illustrator     
 
 ### La base:
-- <a href="https://www.apple.com/xf/shop/product/MK293FC/A/magic-keyboard-avec-touch-id-pour-mac-%C3%A0-puce-apple-fran%C3%A7ais">Rappel: le clavier MAC</a> 
+
 - <a href="https://helpx.adobe.com/ca_fr/illustrator/using/default-keyboard-shortcuts.html">Les raccourcis Illustrator</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES5ddJzsh91LrbRnu6N642EBaWL34-pCoxRj9pk49v7VGg?e=kCswfy">Création de projet</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcWxaKyOey9FiYqmafpdPz8B9hVhRJb88p_nxjLAEDctPA?e=FyjWXf">Présentation de l'interface</a>
