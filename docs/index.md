@@ -8,6 +8,8 @@
 * [Web 2](./582-211-web2/index.md)
 * [Vidéo 1](./582-212-video1/index.md)
 * [Animation 2D](./582-214–animation2d/index.md)
+* [Animation 2D MM](./582-214–animation2d-mm/index.md)
+* [Animation 2D JF](./582-214–animation2d-jf/index.md)
 * [Interactivité ludique](./582-301-interactivite-ludique/index.md)
 * [Web 3](./582-311-web3/index.md)
 * [Vidéo 2](./582-312–video2/index.md)

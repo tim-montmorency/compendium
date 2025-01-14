@@ -1,16 +1,89 @@
-# Cours 1
+# Bienvenue en Web 4
 
+*[CMS]: Content Management System
 *[BD]: Base de données
+
+![bienvenue](../assets/images/welcome.webp){.w-100}
 
 ## Système de gestion de contenu (CMS)
 
-Un CMS (Content Management System) permet de créer, organiser et gérer des contenus sans coder.
+Un CMS (Content Management System) c'est un outil qui permet de créer, organiser et gérer des contenus sans programmation !
 
-Quelques CMS populaires: WordPress, Joomla, Drupal, Magento, Shopify.
+Voici une liste non exhautive de CMS populaires[^cms] :
+
+[^cms]: [Liste des 15 CMS les plus populaires](https://www.wpbeginner.com/showcase/best-cms-platforms-compared/)
+
+* :simple-wordpress: Wordpress (open-source)
+* :simple-drupal: Drupal (open-source)
+* :simple-joomla: Joomla (open-source)
+* :simple-hubspot: Hubspot
+* :simple-shopify: Shopify
+* :simple-ghost: Ghost (open-source)
+* :simple-typo3: Typo3 (open-source)
+* :simple-blogger: Blogger
+* :simple-wix: Wix
+
+Aperçu rapide de ce à quoi ressemble un CMS :
+
+<div class="grid grid-1-2" markdown>
+  ![](../assets/images/wp-dashboard.png){data-zoom-image}
+
+  Interface administrative où les utilisateurs gèrent le contenu, les paramètres et les fonctionnalités du site (back-end)
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](../assets/images/wp-inline-edition.png){data-zoom-image}
+
+  Édition du contenu en ligne (inline editing)
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](../assets/images/wp-front.png){data-zoom-image}
+
+  Aperçu du résultat final (front-end)
+</div>
+
+### Fonctionnalités d'un CMS
+
+Voici quelques-unes des fonctionnalités clés que l’on retrouve généralement dans un CMS :
+
+* **Interface conviviale (UI)** : Une interface utilisateur intuitive permet aux administrateurs et aux éditeurs de naviguer facilement dans le système, de créer et de modifier du contenu sans nécessiter de compétences techniques avancées. ￼
+* **Gestion de contenu** : Les CMS permettent une gestion efficace du contenu, offrant des fonctionnalités pour ajouter, modifier et supprimer des pages, des articles, des images et d’autres types de médias.
+* **Personnalisation de l’apparence** : La possibilité de personnaliser l’apparence du site grâce à des **thèmes**.
+* **Optimisation pour les moteurs de recherche (SEO)**
+* **Gestion des utilisateurs et des permissions** : La possibilité de gérer plusieurs utilisateurs avec des rôles et des permissions spécifiques, facilitant la collaboration tout en maintenant la sécurité et le contrôle sur le contenu publié. ￼
+* **Sécurité** : Des fonctionnalités de sécurité robustes, y compris des mises à jour régulières, la gestion des permissions et le support SSL, sont essentielles pour protéger les informations sensibles et assurer la fiabilité du site.
+* **Support multilingue**
+* **Optimisation pour les appareils mobiles** : En bonne partie lié au thème choisi.
+* **Gestion des versions et historique des révisions**
+* **Intégration avec des outils tiers** : La possibilité d’intégrer des **plugins** et des extensions pour ajouter des fonctionnalités supplémentaires et des fonctionnalités avancées.
+
+### Bon, comment ça marche ?
+
+Ça prends une base de données, un langage de programmation serveur, un serveur et le CMS choisi.
+
+Une manière de gérer le contenu. Soit par wysiwyg, inline editing ou par formulaire admin.
+
+### Pourquoi utiliser un CMS ?
+
+Créer un site Web entièrement à la main peut être long et compliqué, surtout si l’on doit maîtriser plusieurs langages de programmation (HTML, CSS, PHP, JavaScript). Les CMS offrent plusieurs avantages :
+
+* Gain en temps
+* Mises à jour
+  * Gérer et mettre à jour un site est plus rapide avec une interface conviviale.
+  * La communauté est toujours plus au parfum des mises à jour importantes et des vulnérabilités.
+  * Les CMS opensource ont souvent une large communauté d'entraide.
+* Sécurité
+  * Les CMS sont souvent mis à jour pour combler les failles de sécurité.
+  * Les CMS opensource sont très populaires et donc bien testés.
+  * Les besoins du marché sont souvent strict à cet effet.
+* Accessibilité
+* Design
+* Flexibilité
 
 ## WordPress
 
-![](../assets/images/wordpress-banner.png)
+![](../assets/images/wp-banner.png)
 
 WordPress est un CMS open-source permettant de créer et de gérer des sites Web sans nécessiter de connaissances approfondies en programmation.
 
@@ -48,7 +121,6 @@ WordPress est sous licence GPL. Voici les trois avantages principaux :
 
 ## Lexique à connaître
 
-* **CMS**
 * **Thèmes** : Un thème détermine l’apparence visuelle et la mise en page d’un site. Il peut être modifié sans affecter le contenu.
 * **Plugins** : Les plugins ajoutent des fonctionnalités (ex. : formulaires, SEO, sécurité). Exemple : Yoast SEO pour le référencement, WooCommerce pour l’e-commerce.
 
@@ -65,6 +137,13 @@ Outils courants
 * XAMPP (Windows / Mac / Linux)
 * MAMP (Windows / Mac)
 * WAMP (Windows)
+
+### Serveur
+
+Qu’est-ce qu’un serveur ?
+
+[:octicons-broadcast-24: Go live](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
 
 ### Base de données
 
@@ -115,6 +194,13 @@ Choisir la bonne *collation* :material-food: (miam miam) est primordiale. Une *c
 | **utf8mb4_unicode_ci** | Meilleure précision linguistique et compatibilité complète. | Un peu plus lent pour de grandes BD.        |
 
 ## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](../assets/images/mamp-install-preview.png)
+
+  <small>Exercice - MAMP</small><br>
+  **[Installation de base](./mamp-install.md){.stretched-link}**
+</div>
 
 <div class="grid grid-1-2" markdown>
   ![](../assets/images/wp-install-preview.png)

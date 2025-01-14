@@ -1,21 +1,21 @@
 nav:
-  - Domaines multimédias:
-      - 582-101–domaines-multimedias/index.md
-      - Cours 1: 582-101–domaines-multimedias/cours01.md
-      - Cours 2: 582-101–domaines-multimedias/cours02.md
-      - Cours 3: 582-101–domaines-multimedias/cours03.md
-      - Cours 4: 582-101–domaines-multimedias/cours04.md
-      - Cours 5: 582-101–domaines-multimedias/cours05.md
-      - Cours 6: 582-101–domaines-multimedias/cours06.md
-      - Cours 7: 582-101–domaines-multimedias/cours07.md
-      - Cours 8: 582-101–domaines-multimedias/cours08.md
-      - Cours 9: 582-101–domaines-multimedias/cours09.md
-      - Cours 10: 582-101–domaines-multimedias/cours10.md
-      - Cours 11: 582-101–domaines-multimedias/cours11.md
-      - Cours 12: 582-101–domaines-multimedias/cours12.md
-      - Cours 13: 582-101–domaines-multimedias/cours13.md
-      - Cours 14: 582-101–domaines-multimedias/cours14.md
-      - Cours 15: 582-101–domaines-multimedias/cours15.md
+  #- Domaines multimédias:
+  #    - 582-101–domaines-multimedias/index.md
+  #    - Cours 1: 582-101–domaines-multimedias/cours01.md
+  #    - Cours 2: 582-101–domaines-multimedias/cours02.md
+  #    - Cours 3: 582-101–domaines-multimedias/cours03.md
+  #    - Cours 4: 582-101–domaines-multimedias/cours04.md
+  #    - Cours 5: 582-101–domaines-multimedias/cours05.md
+  #    - Cours 6: 582-101–domaines-multimedias/cours06.md
+  #    - Cours 7: 582-101–domaines-multimedias/cours07.md
+  #    - Cours 8: 582-101–domaines-multimedias/cours08.md
+  #    - Cours 9: 582-101–domaines-multimedias/cours09.md
+  #    - Cours 10: 582-101–domaines-multimedias/cours10.md
+  #    - Cours 11: 582-101–domaines-multimedias/cours11.md
+  #    - Cours 12: 582-101–domaines-multimedias/cours12.md
+  #    - Cours 13: 582-101–domaines-multimedias/cours13.md
+  #    - Cours 14: 582-101–domaines-multimedias/cours14.md
+  #    - Cours 15: 582-101–domaines-multimedias/cours15.md
   - Web 1:
       - 582-111–web1/index.md
       - Cours 1: 582-111–web1/cours01.md
@@ -82,40 +82,40 @@ nav:
       - Cours 13: edm3840/cours13.md
       - Cours 14: edm3840/cours14.md
       - Cours 15: edm3840/cours15.md
-  - Audio 1:
-      - 582-131–audio1/index.md
-      - Cours 1: 582-131–audio1/cours01.md
-      - Cours 2: 582-131–audio1/cours02.md
-      - Cours 3: 582-131–audio1/cours03.md
-      - Cours 4: 582-131–audio1/cours04.md
-      - Cours 5: 582-131–audio1/cours05.md
-      - Cours 6: 582-131–audio1/cours06.md
-      - Cours 7: 582-131–audio1/cours07.md
-      - Cours 8: 582-131–audio1/cours08.md
-      - Cours 9: 582-131–audio1/cours09.md
-      - Cours 10: 582-131–audio1/cours10.md
-      - Cours 11: 582-131–audio1/cours11.md
-      - Cours 12: 582-131–audio1/cours12.md
-      - Cours 13: 582-131–audio1/cours13.md
-      - Cours 14: 582-131–audio1/cours14.md
-      - Cours 15: 582-131–audio1/cours15.md
-  - Design graphique:
-      - 582-201–design-graphique/index.md
-      - Cours 1: 582-201–design-graphique/cours01.md
-      - Cours 2: 582-201–design-graphique/cours02.md
-      - Cours 3: 582-201–design-graphique/cours03.md
-      - Cours 4: 582-201–design-graphique/cours04.md
-      - Cours 5: 582-201–design-graphique/cours05.md
-      - Cours 6: 582-201–design-graphique/cours06.md
-      - Cours 7: 582-201–design-graphique/cours07.md
-      - Cours 8: 582-201–design-graphique/cours08.md
-      - Cours 9: 582-201–design-graphique/cours09.md
-      - Cours 10: 582-201–design-graphique/cours10.md
-      - Cours 11: 582-201–design-graphique/cours11.md
-      - Cours 12: 582-201–design-graphique/cours12.md
-      - Cours 13: 582-201–design-graphique/cours13.md
-      - Cours 14: 582-201–design-graphique/cours14.md
-      - Cours 15: 582-201–design-graphique/cours15.md
+  #- Audio 1:
+  #    - 582-131–audio1/index.md
+  #    - Cours 1: 582-131–audio1/cours01.md
+  #    - Cours 2: 582-131–audio1/cours02.md
+  #    - Cours 3: 582-131–audio1/cours03.md
+  #    - Cours 4: 582-131–audio1/cours04.md
+  #    - Cours 5: 582-131–audio1/cours05.md
+  #    - Cours 6: 582-131–audio1/cours06.md
+  #    - Cours 7: 582-131–audio1/cours07.md
+  #    - Cours 8: 582-131–audio1/cours08.md
+  #    - Cours 9: 582-131–audio1/cours09.md
+  #    - Cours 10: 582-131–audio1/cours10.md
+  #    - Cours 11: 582-131–audio1/cours11.md
+  #    - Cours 12: 582-131–audio1/cours12.md
+  #    - Cours 13: 582-131–audio1/cours13.md
+  #    - Cours 14: 582-131–audio1/cours14.md
+  #    - Cours 15: 582-131–audio1/cours15.md
+  #- Design graphique:
+  #    - 582-201–design-graphique/index.md
+  #    - Cours 1: 582-201–design-graphique/cours01.md
+  #    - Cours 2: 582-201–design-graphique/cours02.md
+  #    - Cours 3: 582-201–design-graphique/cours03.md
+  #    - Cours 4: 582-201–design-graphique/cours04.md
+  #    - Cours 5: 582-201–design-graphique/cours05.md
+  #    - Cours 6: 582-201–design-graphique/cours06.md
+  #    - Cours 7: 582-201–design-graphique/cours07.md
+  #    - Cours 8: 582-201–design-graphique/cours08.md
+  #    - Cours 9: 582-201–design-graphique/cours09.md
+  #    - Cours 10: 582-201–design-graphique/cours10.md
+  #    - Cours 11: 582-201–design-graphique/cours11.md
+  #    - Cours 12: 582-201–design-graphique/cours12.md
+  #    - Cours 13: 582-201–design-graphique/cours13.md
+  #    - Cours 14: 582-201–design-graphique/cours14.md
+  #    - Cours 15: 582-201–design-graphique/cours15.md
   - Web 2:
       - 582-211-web2/index.md
       - Cours 1: 582-211-web2/cours01.md
@@ -133,23 +133,23 @@ nav:
       - Cours 13: 582-211-web2/cours13.md
       - Cours 14: 582-211-web2/cours14.md
       - Cours 15: 582-211-web2/cours15.md
-  - Video 1:
-      - 582-212-video1/index.md
-      - Cours 1: 582-212-video1/cours01.md
-      - Cours 2: 582-212-video1/cours02.md
-      - Cours 3: 582-212-video1/cours03.md
-      - Cours 4: 582-212-video1/cours04.md
-      - Cours 5: 582-212-video1/cours05.md
-      - Cours 6: 582-212-video1/cours06.md
-      - Cours 7: 582-212-video1/cours07.md
-      - Cours 8: 582-212-video1/cours08.md
-      - Cours 9: 582-212-video1/cours09.md
-      - Cours 10: 582-212-video1/cours10.md
-      - Cours 11: 582-212-video1/cours11.md
-      - Cours 12: 582-212-video1/cours12.md
-      - Cours 13: 582-212-video1/cours13.md
-      - Cours 14: 582-212-video1/cours14.md
-      - Cours 15: 582-212-video1/cours15.md
+  #- Video 1:
+  #    - 582-212-video1/index.md
+  #    - Cours 1: 582-212-video1/cours01.md
+  #    - Cours 2: 582-212-video1/cours02.md
+  #    - Cours 3: 582-212-video1/cours03.md
+  #    - Cours 4: 582-212-video1/cours04.md
+  #    - Cours 5: 582-212-video1/cours05.md
+  #    - Cours 6: 582-212-video1/cours06.md
+  #    - Cours 7: 582-212-video1/cours07.md
+  #    - Cours 8: 582-212-video1/cours08.md
+  #    - Cours 9: 582-212-video1/cours09.md
+  #    - Cours 10: 582-212-video1/cours10.md
+  #    - Cours 11: 582-212-video1/cours11.md
+  #    - Cours 12: 582-212-video1/cours12.md
+  #    - Cours 13: 582-212-video1/cours13.md
+  #    - Cours 14: 582-212-video1/cours14.md
+  #    - Cours 15: 582-212-video1/cours15.md
   - Animation 2D:
       - 582-214–animation2d/index.md
       - Cours 1: 582-214–animation2d/cours01.md
@@ -167,6 +167,40 @@ nav:
       - Cours 13: 582-214–animation2d/cours13.md
       - Cours 14: 582-214–animation2d/cours14.md
       - Cours 15: 582-214–animation2d/cours15.md
+  - Animation 2D:
+      - 582-214–animation2d-mm/index.md
+      - Cours 1: 582-214–animation2d-mm/cours01.md
+      - Cours 2: 582-214–animation2d-mm/cours02.md
+      - Cours 3: 582-214–animation2d-mm/cours03.md
+      - Cours 4: 582-214–animation2d-mm/cours04.md
+      - Cours 5: 582-214–animation2d-mm/cours05.md
+      - Cours 6: 582-214–animation2d-mm/cours06.md
+      - Cours 7: 582-214–animation2d-mm/cours07.md
+      - Cours 8: 582-214–animation2d-mm/cours08.md
+      - Cours 9: 582-214–animation2d-mm/cours09.md
+      - Cours 10: 582-214–animation2d-mm/cours10.md
+      - Cours 11: 582-214–animation2d-mm/cours11.md
+      - Cours 12: 582-214–animation2d-mm/cours12.md
+      - Cours 13: 582-214–animation2d-mm/cours13.md
+      - Cours 14: 582-214–animation2d-mm/cours14.md
+      - Cours 15: 582-214–animation2d-mm/cours15.md
+  - Animation 2D:
+      - 582-214–animation2d-jf/index.md
+      - Cours 1: 582-214–animation2d-jf/cours01.md
+      - Cours 2: 582-214–animation2d-jf/cours02.md
+      - Cours 3: 582-214–animation2d-jf/cours03.md
+      - Cours 4: 582-214–animation2d-jf/cours04.md
+      - Cours 5: 582-214–animation2d-jf/cours05.md
+      - Cours 6: 582-214–animation2d-jf/cours06.md
+      - Cours 7: 582-214–animation2d-jf/cours07.md
+      - Cours 8: 582-214–animation2d-jf/cours08.md
+      - Cours 9: 582-214–animation2d-jf/cours09.md
+      - Cours 10: 582-214–animation2d-jf/cours10.md
+      - Cours 11: 582-214–animation2d-jf/cours11.md
+      - Cours 12: 582-214–animation2d-jf/cours12.md
+      - Cours 13: 582-214–animation2d-jf/cours13.md
+      - Cours 14: 582-214–animation2d-jf/cours14.md
+      - Cours 15: 582-214–animation2d-jf/cours15.md
   - Interactivité ludique:
       - 582-301-interactivite-ludique/index.md
       - Cours 1: 582-301-interactivite-ludique/cours01.md
@@ -228,23 +262,23 @@ nav:
       - Cours 13: 582-312–video2/cours13.md
       - Cours 14: 582-312–video2/cours14.md
       - Cours 15: 582-312–video2/cours15.md
-  - Modélisation 3D:
-      - 582-314–modelisation3d/index.md
-      - Cours 1: 582-314–modelisation3d/cours01.md
-      - Cours 2: 582-314–modelisation3d/cours02.md
-      - Cours 3: 582-314–modelisation3d/cours03.md
-      - Cours 4: 582-314–modelisation3d/cours04.md
-      - Cours 5: 582-314–modelisation3d/cours05.md
-      - Cours 6: 582-314–modelisation3d/cours06.md
-      - Cours 7: 582-314–modelisation3d/cours07.md
-      - Cours 8: 582-314–modelisation3d/cours08.md
-      - Cours 9: 582-314–modelisation3d/cours09.md
-      - Cours 10: 582-314–modelisation3d/cours10.md
-      - Cours 11: 582-314–modelisation3d/cours11.md
-      - Cours 12: 582-314–modelisation3d/cours12.md
-      - Cours 13: 582-314–modelisation3d/cours13.md
-      - Cours 14: 582-314–modelisation3d/cours14.md
-      - Cours 15: 582-314–modelisation3d/cours15.md
+  #- Modélisation 3D:
+  #    - 582-314–modelisation3d/index.md
+  #    - Cours 1: 582-314–modelisation3d/cours01.md
+  #    - Cours 2: 582-314–modelisation3d/cours02.md
+  #    - Cours 3: 582-314–modelisation3d/cours03.md
+  #    - Cours 4: 582-314–modelisation3d/cours04.md
+  #    - Cours 5: 582-314–modelisation3d/cours05.md
+  #    - Cours 6: 582-314–modelisation3d/cours06.md
+  #    - Cours 7: 582-314–modelisation3d/cours07.md
+  #    - Cours 8: 582-314–modelisation3d/cours08.md
+  #    - Cours 9: 582-314–modelisation3d/cours09.md
+  #    - Cours 10: 582-314–modelisation3d/cours10.md
+  #    - Cours 11: 582-314–modelisation3d/cours11.md
+  #    - Cours 12: 582-314–modelisation3d/cours12.md
+  #    - Cours 13: 582-314–modelisation3d/cours13.md
+  #    - Cours 14: 582-314–modelisation3d/cours14.md
+  #    - Cours 15: 582-314–modelisation3d/cours15.md
   - Réalité mixte:
       - 582-401-realite-mixte/index.md
       - Cours 1: 582-401-realite-mixte/cours01.md
@@ -254,10 +288,10 @@ nav:
       - Cours 5: 582-401-realite-mixte/cours05.md
       - 3 mars: 582-401-realite-mixte/3mars.md
       - Cours 6: 582-401-realite-mixte/cours06.md
-      - Cours 7: 582-401-realite-mixte/cours07.md     
+      - Cours 7: 582-401-realite-mixte/cours07.md
       - Cours 8: 582-401-realite-mixte/cours08.md
       - Cours 9: 582-401-realite-mixte/cours09.md
-      - Cours 10: 582-401-realite-mixte/cours10.md      
+      - Cours 10: 582-401-realite-mixte/cours10.md
       - Cours 11: 582-401-realite-mixte/cours11.md
       - 21 avril: 582-401-realite-mixte/21avril.md
       - Cours 12 - 23 avril: 582-401-realite-mixte/cours12.md
@@ -267,89 +301,92 @@ nav:
       - Ressources: 582-401-realite-mixte/ressources.md
   - Web 4:
       - 582-411-web4/index.md
-      - Cours 1: 582-411-web4/cours01/index.md
-      - Cours 2: 582-411-web4/cours02.md
-      - Cours 3: 582-411-web4/cours03.md
-      - Cours 4: 582-411-web4/cours04.md
-      - Cours 5: 582-411-web4/cours05.md
-      - Cours 6: 582-411-web4/cours06.md
-      - Cours 7: 582-411-web4/cours07.md
-      - Cours 8: 582-411-web4/cours08.md
-      - Cours 9: 582-411-web4/cours09.md
-      - Cours 10: 582-411-web4/cours10.md
-      - Cours 11: 582-411-web4/cours11.md
-      - Cours 12: 582-411-web4/cours12.md
-      - Cours 13: 582-411-web4/cours13.md
-      - Cours 14: 582-411-web4/cours14.md
-      - Cours 15: 582-411-web4/cours15.md
-  - Traitement audiovisuel:
-      - 582-412–traitement-audiovisuel/index.md
-      - Cours 1: 582-412–traitement-audiovisuel/cours01.md
-      - Cours 2: 582-412–traitement-audiovisuel/cours02.md
-      - Cours 3: 582-412–traitement-audiovisuel/cours03.md
-      - Cours 4: 582-412–traitement-audiovisuel/cours04.md
-      - Cours 5: 582-412–traitement-audiovisuel/cours05.md
-      - Cours 6: 582-412–traitement-audiovisuel/cours06.md
-      - Cours 7: 582-412–traitement-audiovisuel/cours07.md
-      - Cours 8: 582-412–traitement-audiovisuel/cours08.md
-      - Cours 9: 582-412–traitement-audiovisuel/cours09.md
-      - Cours 10: 582-412–traitement-audiovisuel/cours10.md
-      - Cours 11: 582-412–traitement-audiovisuel/cours11.md
-      - Cours 12: 582-412–traitement-audiovisuel/cours12.md
-      - Cours 13: 582-412–traitement-audiovisuel/cours13.md
-      - Cours 14: 582-412–traitement-audiovisuel/cours14.md
-      - Cours 15: 582-412–traitement-audiovisuel/cours15.md
-  - Animation 3D:
-      - 582-414–animation3d/index.md
-      - Cours 1: 582-414–animation3d/cours01.md
-      - Cours 2: 582-414–animation3d/cours02.md
-      - Cours 3: 582-414–animation3d/cours03.md
-      - Cours 4: 582-414–animation3d/cours04.md
-      - Cours 5: 582-414–animation3d/cours05.md
-      - Cours 6: 582-414–animation3d/cours06.md
-      - Cours 7: 582-414–animation3d/cours07.md
-      - Cours 8: 582-414–animation3d/cours08.md
-      - Cours 9: 582-414–animation3d/cours09.md
-      - Cours 10: 582-414–animation3d/cours10.md
-      - Cours 11: 582-414–animation3d/cours11.md
-      - Cours 12: 582-414–animation3d/cours12.md
-      - Cours 13: 582-414–animation3d/cours13.md
-      - Cours 14: 582-414–animation3d/cours14.md
-      - Cours 15: 582-414–animation3d/cours15.md
-  - Audio 2:
-      - 582-431–audio2/index.md
-      - Cours 1: 582-431–audio2/cours01.md
-      - Cours 2: 582-431–audio2/cours02.md
-      - Cours 3: 582-431–audio2/cours03.md
-      - Cours 4: 582-431–audio2/cours04.md
-      - Cours 5: 582-431–audio2/cours05.md
-      - Cours 6: 582-431–audio2/cours06.md
-      - Cours 7: 582-431–audio2/cours07.md
-      - Cours 8: 582-431–audio2/cours08.md
-      - Cours 9: 582-431–audio2/cours09.md
-      - Cours 10: 582-431–audio2/cours10.md
-      - Cours 11: 582-431–audio2/cours11.md
-      - Cours 12: 582-431–audio2/cours12.md
-      - Cours 13: 582-431–audio2/cours13.md
-      - Cours 14: 582-431–audio2/cours14.md
-      - Cours 15: 582-431–audio2/cours15.md
-  - Conception d’une expérience multimédia:
-      - 582-501–conception-experience-multimedia/index.md
-      - Cours 1: 582-501–conception-experience-multimedia/cours01.md
-      - Cours 2: 582-501–conception-experience-multimedia/cours02.md
-      - Cours 3: 582-501–conception-experience-multimedia/cours03.md
-      - Cours 4: 582-501–conception-experience-multimedia/cours04.md
-      - Cours 5: 582-501–conception-experience-multimedia/cours05.md
-      - Cours 6: 582-501–conception-experience-multimedia/cours06.md
-      - Cours 7: 582-501–conception-experience-multimedia/cours07.md
-      - Cours 8: 582-501–conception-experience-multimedia/cours08.md
-      - Cours 9: 582-501–conception-experience-multimedia/cours09.md
-      - Cours 10: 582-501–conception-experience-multimedia/cours10.md
-      - Cours 11: 582-501–conception-experience-multimedia/cours11.md
-      - Cours 12: 582-501–conception-experience-multimedia/cours12.md
-      - Cours 13: 582-501–conception-experience-multimedia/cours13.md
-      - Cours 14: 582-501–conception-experience-multimedia/cours14.md
-      - Cours 15: 582-501–conception-experience-multimedia/cours15.md
+      - Cours 1:
+          - 582-411-web4/cours01/index.md
+          - Installation MAMP: 582-411-web4/cours01/mamp-install.md
+          - Installation WordPress: 582-411-web4/cours01/wp-install.md
+      - Cours 2: 582-411-web4/cours02/index.md
+      - Cours 3: 582-411-web4/cours03/index.md
+      - Cours 4: 582-411-web4/cours04/index.md
+      - Cours 5: 582-411-web4/cours05/index.md
+      - Cours 6: 582-411-web4/cours06/index.md
+      - Cours 7: 582-411-web4/cours07/index.md
+      - Cours 8: 582-411-web4/cours08/index.md
+      - Cours 9: 582-411-web4/cours09/index.md
+      - Cours 10: 582-411-web4/cours10/index.md
+      - Cours 11: 582-411-web4/cours11/index.md
+      - Cours 12: 582-411-web4/cours12/index.md
+      - Cours 13: 582-411-web4/cours13/index.md
+      - Cours 14: 582-411-web4/cours14/index.md
+      - Cours 15: 582-411-web4/cours15/index.md
+  #- Traitement audiovisuel:
+  #    - 582-412–traitement-audiovisuel/index.md
+  #    - Cours 1: 582-412–traitement-audiovisuel/cours01.md
+  #    - Cours 2: 582-412–traitement-audiovisuel/cours02.md
+  #    - Cours 3: 582-412–traitement-audiovisuel/cours03.md
+  #    - Cours 4: 582-412–traitement-audiovisuel/cours04.md
+  #    - Cours 5: 582-412–traitement-audiovisuel/cours05.md
+  #    - Cours 6: 582-412–traitement-audiovisuel/cours06.md
+  #    - Cours 7: 582-412–traitement-audiovisuel/cours07.md
+  #    - Cours 8: 582-412–traitement-audiovisuel/cours08.md
+  #    - Cours 9: 582-412–traitement-audiovisuel/cours09.md
+  #    - Cours 10: 582-412–traitement-audiovisuel/cours10.md
+  #    - Cours 11: 582-412–traitement-audiovisuel/cours11.md
+  #    - Cours 12: 582-412–traitement-audiovisuel/cours12.md
+  #    - Cours 13: 582-412–traitement-audiovisuel/cours13.md
+  #    - Cours 14: 582-412–traitement-audiovisuel/cours14.md
+  #    - Cours 15: 582-412–traitement-audiovisuel/cours15.md
+  #- Animation 3D:
+  #    - 582-414–animation3d/index.md
+  #    - Cours 1: 582-414–animation3d/cours01.md
+  #    - Cours 2: 582-414–animation3d/cours02.md
+  #    - Cours 3: 582-414–animation3d/cours03.md
+  #    - Cours 4: 582-414–animation3d/cours04.md
+  #    - Cours 5: 582-414–animation3d/cours05.md
+  #    - Cours 6: 582-414–animation3d/cours06.md
+  #    - Cours 7: 582-414–animation3d/cours07.md
+  #    - Cours 8: 582-414–animation3d/cours08.md
+  #    - Cours 9: 582-414–animation3d/cours09.md
+  #    - Cours 10: 582-414–animation3d/cours10.md
+  #    - Cours 11: 582-414–animation3d/cours11.md
+  #    - Cours 12: 582-414–animation3d/cours12.md
+  #    - Cours 13: 582-414–animation3d/cours13.md
+  #    - Cours 14: 582-414–animation3d/cours14.md
+  #    - Cours 15: 582-414–animation3d/cours15.md
+  #- Audio 2:
+  #    - 582-431–audio2/index.md
+  #    - Cours 1: 582-431–audio2/cours01.md
+  #    - Cours 2: 582-431–audio2/cours02.md
+  #    - Cours 3: 582-431–audio2/cours03.md
+  #    - Cours 4: 582-431–audio2/cours04.md
+  #    - Cours 5: 582-431–audio2/cours05.md
+  #    - Cours 6: 582-431–audio2/cours06.md
+  #    - Cours 7: 582-431–audio2/cours07.md
+  #    - Cours 8: 582-431–audio2/cours08.md
+  #    - Cours 9: 582-431–audio2/cours09.md
+  #    - Cours 10: 582-431–audio2/cours10.md
+  #    - Cours 11: 582-431–audio2/cours11.md
+  #    - Cours 12: 582-431–audio2/cours12.md
+  #    - Cours 13: 582-431–audio2/cours13.md
+  #    - Cours 14: 582-431–audio2/cours14.md
+  #    - Cours 15: 582-431–audio2/cours15.md
+  #- Conception d’une expérience multimédia:
+  #    - 582-501–conception-experience-multimedia/index.md
+  #    - Cours 1: 582-501–conception-experience-multimedia/cours01.md
+  #    - Cours 2: 582-501–conception-experience-multimedia/cours02.md
+  #    - Cours 3: 582-501–conception-experience-multimedia/cours03.md
+  #    - Cours 4: 582-501–conception-experience-multimedia/cours04.md
+  #    - Cours 5: 582-501–conception-experience-multimedia/cours05.md
+  #    - Cours 6: 582-501–conception-experience-multimedia/cours06.md
+  #    - Cours 7: 582-501–conception-experience-multimedia/cours07.md
+  #    - Cours 8: 582-501–conception-experience-multimedia/cours08.md
+  #    - Cours 9: 582-501–conception-experience-multimedia/cours09.md
+  #    - Cours 10: 582-501–conception-experience-multimedia/cours10.md
+  #    - Cours 11: 582-501–conception-experience-multimedia/cours11.md
+  #    - Cours 12: 582-501–conception-experience-multimedia/cours12.md
+  #    - Cours 13: 582-501–conception-experience-multimedia/cours13.md
+  #    - Cours 14: 582-501–conception-experience-multimedia/cours14.md
+  #    - Cours 15: 582-501–conception-experience-multimedia/cours15.md
   - Web 5:
       - 582-511–web5/index.md
       - Cours 1: 582-511–web5/cours01.md
@@ -367,40 +404,40 @@ nav:
       - Cours 13: 582-511–web5/cours13.md
       - Cours 14: 582-511–web5/cours14.md
       - Cours 15: 582-511–web5/cours15.md
-  - Installation multimédia:
-      - 582-521–installation-multimedia/index.md
-      - Cours 1: 582-521–installation-multimedia/cours01.md
-      - Cours 2: 582-521–installation-multimedia/cours02.md
-      - Cours 3: 582-521–installation-multimedia/cours03.md
-      - Cours 4: 582-521–installation-multimedia/cours04.md
-      - Cours 5: 582-521–installation-multimedia/cours05.md
-      - Cours 6: 582-521–installation-multimedia/cours06.md
-      - Cours 7: 582-521–installation-multimedia/cours07.md
-      - Cours 8: 582-521–installation-multimedia/cours08.md
-      - Cours 9: 582-521–installation-multimedia/cours09.md
-      - Cours 10: 582-521–installation-multimedia/cours10.md
-      - Cours 11: 582-521–installation-multimedia/cours11.md
-      - Cours 12: 582-521–installation-multimedia/cours12.md
-      - Cours 13: 582-521–installation-multimedia/cours13.md
-      - Cours 14: 582-521–installation-multimedia/cours14.md
-      - Cours 15: 582-521–installation-multimedia/cours15.md
-  - Objets interactifs:
-      - 582-531–objets-interactifs/index.md
-      - Cours 1: 582-531–objets-interactifs/cours01.md
-      - Cours 2: 582-531–objets-interactifs/cours02.md
-      - Cours 3: 582-531–objets-interactifs/cours03.md
-      - Cours 4: 582-531–objets-interactifs/cours04.md
-      - Cours 5: 582-531–objets-interactifs/cours05.md
-      - Cours 6: 582-531–objets-interactifs/cours06.md
-      - Cours 7: 582-531–objets-interactifs/cours07.md
-      - Cours 8: 582-531–objets-interactifs/cours08.md
-      - Cours 9: 582-531–objets-interactifs/cours09.md
-      - Cours 10: 582-531–objets-interactifs/cours10.md
-      - Cours 11: 582-531–objets-interactifs/cours11.md
-      - Cours 12: 582-531–objets-interactifs/cours12.md
-      - Cours 13: 582-531–objets-interactifs/cours13.md
-      - Cours 14: 582-531–objets-interactifs/cours14.md
-      - Cours 15: 582-531–objets-interactifs/cours15.md
+  #- Installation multimédia:
+  #    - 582-521–installation-multimedia/index.md
+  #    - Cours 1: 582-521–installation-multimedia/cours01.md
+  #    - Cours 2: 582-521–installation-multimedia/cours02.md
+  #    - Cours 3: 582-521–installation-multimedia/cours03.md
+  #    - Cours 4: 582-521–installation-multimedia/cours04.md
+  #    - Cours 5: 582-521–installation-multimedia/cours05.md
+  #    - Cours 6: 582-521–installation-multimedia/cours06.md
+  #    - Cours 7: 582-521–installation-multimedia/cours07.md
+  #    - Cours 8: 582-521–installation-multimedia/cours08.md
+  #    - Cours 9: 582-521–installation-multimedia/cours09.md
+  #    - Cours 10: 582-521–installation-multimedia/cours10.md
+  #    - Cours 11: 582-521–installation-multimedia/cours11.md
+  #    - Cours 12: 582-521–installation-multimedia/cours12.md
+  #    - Cours 13: 582-521–installation-multimedia/cours13.md
+  #    - Cours 14: 582-521–installation-multimedia/cours14.md
+  #    - Cours 15: 582-521–installation-multimedia/cours15.md
+  #- Objets interactifs:
+  #    - 582-531–objets-interactifs/index.md
+  #    - Cours 1: 582-531–objets-interactifs/cours01.md
+  #    - Cours 2: 582-531–objets-interactifs/cours02.md
+  #    - Cours 3: 582-531–objets-interactifs/cours03.md
+  #    - Cours 4: 582-531–objets-interactifs/cours04.md
+  #    - Cours 5: 582-531–objets-interactifs/cours05.md
+  #    - Cours 6: 582-531–objets-interactifs/cours06.md
+  #    - Cours 7: 582-531–objets-interactifs/cours07.md
+  #    - Cours 8: 582-531–objets-interactifs/cours08.md
+  #    - Cours 9: 582-531–objets-interactifs/cours09.md
+  #    - Cours 10: 582-531–objets-interactifs/cours10.md
+  #    - Cours 11: 582-531–objets-interactifs/cours11.md
+  #    - Cours 12: 582-531–objets-interactifs/cours12.md
+  #    - Cours 13: 582-531–objets-interactifs/cours13.md
+  #    - Cours 14: 582-531–objets-interactifs/cours14.md
+  #    - Cours 15: 582-531–objets-interactifs/cours15.md
   - Contrôle de la qualité:
       - 582-533-controle-qualite/index.md
       - Cours 1: 582-533-controle-qualite/cours01.md
@@ -421,40 +458,40 @@ nav:
       - Cours 13: 582-533-controle-qualite/cours13.md
       - Cours 14: 582-533-controle-qualite/cours14.md
       - Cours 15: 582-533-controle-qualite/cours15.md
-  - Préparation au milieu de travail:
-      - 582-541–preparation-milieu-travail/index.md
-      - Cours 1: 582-541–preparation-milieu-travail/cours01.md
-      - Cours 2: 582-541–preparation-milieu-travail/cours02.md
-      - Cours 3: 582-541–preparation-milieu-travail/cours03.md
-      - Cours 4: 582-541–preparation-milieu-travail/cours04.md
-      - Cours 5: 582-541–preparation-milieu-travail/cours05.md
-      - Cours 6: 582-541–preparation-milieu-travail/cours06.md
-      - Cours 7: 582-541–preparation-milieu-travail/cours07.md
-      - Cours 8: 582-541–preparation-milieu-travail/cours08.md
-      - Cours 9: 582-541–preparation-milieu-travail/cours09.md
-      - Cours 10: 582-541–preparation-milieu-travail/cours10.md
-      - Cours 11: 582-541–preparation-milieu-travail/cours11.md
-      - Cours 12: 582-541–preparation-milieu-travail/cours12.md
-      - Cours 13: 582-541–preparation-milieu-travail/cours13.md
-      - Cours 14: 582-541–preparation-milieu-travail/cours14.md
-      - Cours 15: 582-541–preparation-milieu-travail/cours15.md
-  - Expérience multimédia:
-      - 582-601–experience-multimedia/index.md
-      - Cours 1: 582-601–experience-multimedia/cours01.md
-      - Cours 2: 582-601–experience-multimedia/cours02.md
-      - Cours 3: 582-601–experience-multimedia/cours03.md
-      - Cours 4: 582-601–experience-multimedia/cours04.md
-      - Cours 5: 582-601–experience-multimedia/cours05.md
-      - Cours 6: 582-601–experience-multimedia/cours06.md
-      - Cours 7: 582-601–experience-multimedia/cours07.md
-      - Cours 8: 582-601–experience-multimedia/cours08.md
-      - Cours 9: 582-601–experience-multimedia/cours09.md
-      - Cours 10: 582-601–experience-multimedia/cours10.md
-      - Cours 11: 582-601–experience-multimedia/cours11.md
-      - Cours 12: 582-601–experience-multimedia/cours12.md
-      - Cours 13: 582-601–experience-multimedia/cours13.md
-      - Cours 14: 582-601–experience-multimedia/cours14.md
-      - Cours 15: 582-601–experience-multimedia/cours15.md
+  #- Préparation au milieu de travail:
+  #    - 582-541–preparation-milieu-travail/index.md
+  #    - Cours 1: 582-541–preparation-milieu-travail/cours01.md
+  #    - Cours 2: 582-541–preparation-milieu-travail/cours02.md
+  #    - Cours 3: 582-541–preparation-milieu-travail/cours03.md
+  #    - Cours 4: 582-541–preparation-milieu-travail/cours04.md
+  #    - Cours 5: 582-541–preparation-milieu-travail/cours05.md
+  #    - Cours 6: 582-541–preparation-milieu-travail/cours06.md
+  #    - Cours 7: 582-541–preparation-milieu-travail/cours07.md
+  #    - Cours 8: 582-541–preparation-milieu-travail/cours08.md
+  #    - Cours 9: 582-541–preparation-milieu-travail/cours09.md
+  #    - Cours 10: 582-541–preparation-milieu-travail/cours10.md
+  #    - Cours 11: 582-541–preparation-milieu-travail/cours11.md
+  #    - Cours 12: 582-541–preparation-milieu-travail/cours12.md
+  #    - Cours 13: 582-541–preparation-milieu-travail/cours13.md
+  #    - Cours 14: 582-541–preparation-milieu-travail/cours14.md
+  #    - Cours 15: 582-541–preparation-milieu-travail/cours15.md
+  #- Expérience multimédia:
+  #    - 582-601–experience-multimedia/index.md
+  #    - Cours 1: 582-601–experience-multimedia/cours01.md
+  #    - Cours 2: 582-601–experience-multimedia/cours02.md
+  #    - Cours 3: 582-601–experience-multimedia/cours03.md
+  #    - Cours 4: 582-601–experience-multimedia/cours04.md
+  #    - Cours 5: 582-601–experience-multimedia/cours05.md
+  #    - Cours 6: 582-601–experience-multimedia/cours06.md
+  #    - Cours 7: 582-601–experience-multimedia/cours07.md
+  #    - Cours 8: 582-601–experience-multimedia/cours08.md
+  #    - Cours 9: 582-601–experience-multimedia/cours09.md
+  #    - Cours 10: 582-601–experience-multimedia/cours10.md
+  #    - Cours 11: 582-601–experience-multimedia/cours11.md
+  #    - Cours 12: 582-601–experience-multimedia/cours12.md
+  #    - Cours 13: 582-601–experience-multimedia/cours13.md
+  #    - Cours 14: 582-601–experience-multimedia/cours14.md
+  #    - Cours 15: 582-601–experience-multimedia/cours15.md
   # - Stage en entreprise :
   #   - 582-611–stage-entreprise/index.md
   #   - Cours 1: 582-611–stage-entreprise/cours01.md
@@ -555,18 +592,21 @@ extra:
 
 extra_css:
   - _/extra.css
+  - https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css
 
 extra_javascript:
   - _/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - https://unpkg.com/fireworks-js@2.x/dist/index.umd.js
+  - https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js
   - _/extra.js
   - _/image-zoom.js
+  - _/gallery.js
 
 plugins:
   - offline
-  - tags       
+  - tags
   - mkdocs-video
   - mkdocs-audio
   - render-stopper:

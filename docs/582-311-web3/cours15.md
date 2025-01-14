@@ -12,8 +12,6 @@ Vous ne devez modifier que le JavaScript. Toutes autre modifications entrainera 
 
 Vous êtes autorisés à utiliser Internet et vos notes de cours, mais l’utilisation d’intelligences artificielles (ChatGPT, Copilot, Claude, Gemini, etc.) est strictement interdite. Tout plagiat ou partage de documents / liens entraînera une note de 0.
 
-[Énoncé de l'examen :octicons-arrow-up-right-24:](./examens){ .md-button .md-button--primary }
-
 ## Durée
 
 La durée de l'examen est de **2h30**
@@ -41,3 +39,7 @@ Créez un dossier parent avec la nomenclature suivante : **nomdefamille-prenom_e
 Une fois la structure complétée, compressez le dossier parent au format .zip (ex: edison-thomas_examen_02_582-311MO.zip).
 
 Déposez le fichier compressé sur Teams dans l’espace dédié à l'examen 2.
+
+[STOP]
+
+[Énoncé de l'examen :octicons-arrow-up-right-24:](./examens/examen000002.md){ .md-button .md-button--primary }

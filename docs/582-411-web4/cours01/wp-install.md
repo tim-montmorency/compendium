@@ -21,3 +21,6 @@ L'objectif de cet exercice est d'installer le CMSWordPress localement avec un se
 Finaliser l’installation :
 	•	Choisissez un nom de site.
 	•	Créez un utilisateur administrateur (nom et mot de passe).
+
+
+	•	Exploration du tableau de bord WordPress : menus, réglages généraux, création rapide de contenu.
