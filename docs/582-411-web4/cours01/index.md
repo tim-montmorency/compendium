@@ -8,6 +8,7 @@
 ## Système de gestion de contenu (CMS)
 
 Un CMS (Content Management System) c'est un outil qui permet de créer, organiser et gérer des contenus sans programmation !
+Il est composé d'un gros paquet de fichiers de programmation qui permet d'exécuter plein de fonctionnalités.
 
 Voici une liste non exhautive de CMS populaires[^cms] :
 
@@ -23,7 +24,7 @@ Voici une liste non exhautive de CMS populaires[^cms] :
 * :simple-blogger: Blogger
 * :simple-wix: Wix
 
-Aperçu rapide de ce à quoi ressemble un CMS :
+Voici un aperçu rapide de ce à quoi ressemble un CMS :
 
 <div class="grid grid-1-2" markdown>
   ![](../assets/images/wp-dashboard.png){data-zoom-image}
@@ -34,7 +35,7 @@ Aperçu rapide de ce à quoi ressemble un CMS :
 <div class="grid grid-1-2" markdown>
   ![](../assets/images/wp-inline-edition.png){data-zoom-image}
 
-  Édition du contenu en ligne (inline editing)
+  Édition du contenu en ligne (inline editing)*
 </div>
 
 <div class="grid grid-1-2" markdown>
@@ -43,7 +44,9 @@ Aperçu rapide de ce à quoi ressemble un CMS :
   Aperçu du résultat final (front-end)
 </div>
 
-### Fonctionnalités d'un CMS
+<!-- Une manière de gérer le contenu. Soit par wysiwyg, inline editing ou par formulaire admin. -->
+
+## Fonctionnalités d'un CMS
 
 Voici quelques-unes des fonctionnalités clés que l’on retrouve généralement dans un CMS :
 
@@ -58,28 +61,59 @@ Voici quelques-unes des fonctionnalités clés que l’on retrouve généralemen
 * **Gestion des versions et historique des révisions**
 * **Intégration avec des outils tiers** : La possibilité d’intégrer des **plugins** et des extensions pour ajouter des fonctionnalités supplémentaires et des fonctionnalités avancées.
 
-### Bon, comment ça marche ?
+## Pourquoi utiliser un CMS ?
 
-Ça prends une base de données, un langage de programmation serveur, un serveur et le CMS choisi.
+> ... plutôt que d'utiliser le bon vieux duo HTML et CSS?
 
-Une manière de gérer le contenu. Soit par wysiwyg, inline editing ou par formulaire admin.
+C'est que créer un site Web complet, entièrement à la main, peut être long et compliqué. De plus, pour faire la gestion d'une site, ne serait-ce que pour changer une virgule, il faut être capable de lire le code ainsi que savoir comment programmer. Les CMS démocratisent la gestion de site Web, car ils offrent une interface compréensible pour le commun des mortels.
 
-### Pourquoi utiliser un CMS ?
-
-Créer un site Web entièrement à la main peut être long et compliqué, surtout si l’on doit maîtriser plusieurs langages de programmation (HTML, CSS, PHP, JavaScript). Les CMS offrent plusieurs avantages :
+Voici quelques avantages à l'usage de CMS :
 
 * Gain en temps
-* Mises à jour
-  * Gérer et mettre à jour un site est plus rapide avec une interface conviviale.
-  * La communauté est toujours plus au parfum des mises à jour importantes et des vulnérabilités.
-  * Les CMS opensource ont souvent une large communauté d'entraide.
+* Architecture logique
+* Mises à jour : pour ajouter des fonctionnalités, mais aussi régler certains bogues ou vulnérabilités
 * Sécurité
-  * Les CMS sont souvent mis à jour pour combler les failles de sécurité.
-  * Les CMS opensource sont très populaires et donc bien testés.
-  * Les besoins du marché sont souvent strict à cet effet.
-* Accessibilité
+* Expérience utilisateur (UX)
 * Design
 * Flexibilité
+* Accessibilité
+
+## Bon, comment ça marche ?
+
+### Le serveur
+
+Un serveur est un ordinateur configuré pour fournir des ressources via un réseau, comme Internet. Dans le cas d’un serveur web, son rôle est de traiter les requêtes des utilisateurs et de fournir les réponses correspondantes, comme les pages web, les fichiers ou les médias.
+
+### CMS et langage de programmation
+
+Sur le serveur, on peut installer un CMS. Cependant, il est également nécessaire d’installer le langage de programmation utilisé par le CMS. Par exemple, WordPress est écrit en PHP.
+
+### Le logiciel serveur
+
+Pour permettre les communications via Internet et afficher un site web, vous devez installer un serveur web comme **Apache** ou **Nginx**.
+
+### Base de données
+
+Une base de données est un logiciel serveur conçu pour stocker, organiser et gérer des données de manière structurée. Un peu comme Excel, mais sur les stéroïdes. Il existe plusieurs sortes de base de données. Chacune a ses propres avantages et inconvénients[^db]. Pour sa part, WordPress fonctionne avec MySQL ou MariaDB.
+
+[^db]: [Comparatif des différentes bases de données](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems) (en)
+
+### Nom de domaine
+
+Il est également préférable d’acquérir un nom de domaine pour que les visiteurs puissent accéder facilement à votre site (par exemple, recettes.qc.ca) plutôt que par une adresse IP (par exemple: 24.71.1.221). Ce domaine doit être configuré pour pointer vers votre serveur !
+
+### Cycle complet
+
+
+1. La requête initiale du client
+	•	Action :
+Un utilisateur saisit “recette courge poivrée” dans son navigateur et appuie sur “Entrée”.
+	•	Résultat :
+Une requête HTTP/HTTPS est envoyée à l’adresse recettes.qc.ca. Cette requête inclut des informations comme :
+	•	Le type de requête (GET, POST, etc.).
+	•	L’URL demandée (par exemple, https://recettes.qc.ca/?s=recette+courge+poivrée).
+	•	Les en-têtes (headers) avec des informations sur le navigateur et le client.
+
 
 ## WordPress
 
@@ -144,41 +178,23 @@ Qu’est-ce qu’un serveur ?
 
 [:octicons-broadcast-24: Go live](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-
 ### Base de données
 
+![](../assets/images/db-basics.png){data-zoom-image}
+
+Plus concrètement :
+
+![](../assets/images/db-basics-example.png){data-zoom-image}
+
+Encore plus concrètement :
+
 [Exemple de base de données](https://docs.google.com/spreadsheets/d/1UrpLz3xW8v7MJjuDbJq8beKEzivx062v6dDO_5OvQRA/edit?usp=sharing)
-
-```mermaid
-erDiagram
-    LIVRES {
-        int ID_Livre PK
-        string Titre
-        string Genre
-        int ID_Auteur FK
-    }
-    AUTEURS {
-        int ID_Auteur PK
-        string Nom
-        string Nationalite
-    }
-    EMPRUNTS {
-        int ID_Emprunt PK
-        int ID_Livre FK
-        date Date_Emprunt
-        date Date_Retour
-    }
-
-    LIVRES ||--o{ AUTEURS : "écrit par"
-    LIVRES ||--o{ EMPRUNTS : "emprunté"
-```
 
 ### MAMP
 
 Téléchargement et Installation
 
 Ajoutez vos fichiers dans ... (htdocs)
-
 
 Création de base de donnée
 	•	Ouvrez phpMyAdmin via l’interface de votre outil AMP.
