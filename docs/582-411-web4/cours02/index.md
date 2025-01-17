@@ -1,7 +1,5 @@
-[STOP]
-
 # Cours 2
-
+[STOP]
 Semaine 2 : Installation et configuration avancée
 	•	Matière à enseigner :
 	•	Installation de WordPress sur un serveur distant via un hébergeur.

@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 4
-
+[STOP]
 Semaine 4 : Personnalisation avec les thèmes
 	•	Matière à enseigner :
 	•	Concepts des thèmes : qu’est-ce qu’un thème et comment il fonctionne ?

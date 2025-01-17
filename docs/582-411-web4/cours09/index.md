@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 9
-
+[STOP]
 Semaine 9 : Sécurisation et sauvegarde
 	•	Matière à enseigner :
 	•	Notions de sécurité : mots de passe, mises à jour, protection contre les attaques.

@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 10
-
+[STOP]
 Semaine 10 : Utilisation des APIs et intégrations avancées
 	•	Matière à enseigner :
 	•	Introduction aux APIs REST de WordPress.

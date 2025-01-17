@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 14
-
+[STOP]
 Semaine 14 : Maintenance et gestion continue
 	•	Matière à enseigner :
 	•	Stratégies de maintenance continue : sauvegardes, mises à jour régulières, audits de performance.

@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 5
-
+[STOP]
 Semaine 5 : Introduction aux plugins
 	•	Matière à enseigner :
 	•	Qu’est-ce qu’un plugin et pourquoi l’utiliser ?

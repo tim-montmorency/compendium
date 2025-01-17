@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 6
-
+[STOP]
 Semaine 6 : SEO et optimisation de performance
 	•	Matière à enseigner :
 	•	Introduction au SEO : balises méta, mots-clés, contenu optimisé.

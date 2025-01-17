@@ -1,6 +1,6 @@
-[STOP]
 
 # Cours 11
+[STOP]
 
 Semaine 11 : Mise en ligne et gestion post-publication
 	•	Matière à enseigner :

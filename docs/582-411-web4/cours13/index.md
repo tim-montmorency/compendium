@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 13
-
+[STOP]
 Semaine 13 : Présentation professionnelle d’un site
 	•	Matière à enseigner :
 	•	Structurer une présentation pour un client ou une équipe.

@@ -1,6 +1,6 @@
-[STOP]
 
 # Cours 7
+[STOP]
 
 Semaine 7 : Sites multilingues et accessibilité
 	•	Matière à enseigner :

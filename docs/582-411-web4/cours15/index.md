@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 15
-
+[STOP]
 Semaine 15 : Perfectionnement et questions ouvertes
 	•	Matière à enseigner :
 	•	Analyse des tendances actuelles dans WordPress (nouveaux plugins, Gutenberg).

@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 3
-
+[STOP]
 Semaine 3 : Gestion des contenus
 	•	Matière à enseigner :
 	•	Différences entre pages et articles.

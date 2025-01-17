@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 8
-
+[STOP]
 Semaine 8 : Gestion avancée des médias
 	•	Matière à enseigner :
 	•	Gestion de la bibliothèque multimédia.

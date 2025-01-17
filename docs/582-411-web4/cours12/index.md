@@ -1,7 +1,7 @@
-[STOP]
+
 
 # Cours 12
-
+[STOP]
 Semaine 12 : Extensions et personnalisation avancées
 	•	Matière à enseigner :
 	•	Personnalisation via un thème enfant.
