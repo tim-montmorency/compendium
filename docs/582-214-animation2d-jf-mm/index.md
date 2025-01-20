@@ -16,3 +16,33 @@ L’élève crée des images vectorielles qu’il anime à l’aide d’un logic
 | Unités                | 1⅔      |
 | Heures d’enseignement | 60      |
 | Session               | 2       |
+
+## Objectif intégrateur
+
+Réaliser des animations 2D.
+
+## Attitudes professionnelles
+
+- Créativité
+- Esprit d’équipe
+- Sens esthétique
+
+## Enseignants 🌱
+
+<div class="grid grid-auto" markdown>
+  ![](../_/profs/jfcartier.jpg)
+
+  **Jean-François Cartier**<br>
+  _Enseignant en Techniques d'intégration multimédia_<br>
+  :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br><br>
+  [Plan de cours :material-download:](./assets/documents/582-214_Animation2D_H2025_JFC.pdf){ .md-button .md-button--primary }
+</div>
+
+<div class="grid grid-auto" markdown>
+  ![](../_/profs/mmouellet.jpg)
+
+  **Marie-Michelle Ouellet**<br>
+  _Enseignante en Techniques d'intégration multimédia_<br>
+  :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
+  [Plan de cours :material-download:](./assets/documents/582-214_Animation2D_H2025_MMO.pdf){ .md-button .md-button--primary }
+</div>

@@ -5,10 +5,11 @@
 
 ![bienvenue](../assets/images/welcome.webp){.w-100}
 
+## Retour sur Web 3
+
 ## Système de gestion de contenu (CMS)
 
-Un CMS (Content Management System) c'est un outil qui permet de créer, organiser et gérer des contenus sans programmation !
-Il est composé d'un gros paquet de fichiers de programmation qui permet d'exécuter plein de fonctionnalités.
+Un CMS (Content Management System) c'est un outil qui permet de créer, organiser et gérer des contenus sans programmation ! Il est composé d'un gros paquet de fichiers de programmation qui permet d'exécuter plein de fonctionnalités.
 
 Voici une liste non exhautive de CMS populaires[^cms] :
 
