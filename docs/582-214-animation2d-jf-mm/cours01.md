@@ -1,95 +1,168 @@
-# Cours 1    
+# Bienvenue
 
-## Plan de cours
-[📁 Plan de cours](https://cmontmorency365.sharepoint.com/:b:/s/TIM-582214-Animation2d77/EWeZmextzqlJsAGqh4mi7tsBscrwtlhW3QrCd_CzIuInQA?e=sV13NN){ .md-button }   
+*[FPS]: Frames Per Second
 
-## Introduction à l'animation 
-[📁 Présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec_RF5ZJ5A5EksrsMxbaea8BhOe1vZTRc_xzGgMddNq_BQ?e=H6mjL1){ .md-button }   
+## Présentations
 
+![](./assets/images/presentations.png)
 
-        
-## Illustrator     
+## Rappel des règlements
 
-### La base:
+* Pas de nourriture et boissons
+* On travaille calmement, on peut chuchoter pour s'aider
+* Replacer les chaises et écouteurs à la fin du cours
 
-- <a href="https://helpx.adobe.com/ca_fr/illustrator/using/default-keyboard-shortcuts.html">Les raccourcis Illustrator</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES5ddJzsh91LrbRnu6N642EBaWL34-pCoxRj9pk49v7VGg?e=kCswfy">Création de projet</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcWxaKyOey9FiYqmafpdPz8B9hVhRJb88p_nxjLAEDctPA?e=FyjWXf">Présentation de l'interface</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EU9vhuwP9-FChhvKBO4eAkYBkOffUVN3oSVgvquohjvP-Q?e=pbtden">Espace de travail</a> 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdzZLfIhGG9GmDUD2nGWcgMBHbPFCwI8MMfUV5dnha9fEA?e=HNhpXb">Navigation dans l'espace</a>  
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EW_j7oaAnARLhmrcNtRhtg8BdoRPKLmP0eUcaETmwtS-2w?e=NjbWbt">Panneau de propriété</a> 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETw2wfv38RlKsRFtHQip1aEB9x3zN4ainpbDqGPK9q-ImQ?e=ta4Dgu">Format du plan de travail</a> 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVWn5aelFqpOv_9d1i0JF78BymFyM5Ss_7aDn8zNncEsLA?e=RKKLMO">Règles et repères</a> 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXbsq2fkhm9Ls9JeLlNmDhoBkZR8xBtMFOQl2qPzn7TNkQ?e=WF6FvR">Calques</a> 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVevKy3jqq5KjV1rBFfBoGkBrFqKDurwihI2ObQDx-kIxw?e=6fCpJ5">Naviguer sous les calques</a> 
-   
-[🛠️ Création d'un nouveau document](./exercice_ai/00_nouveau_doc.md){ .md-button }   
-      
+## Introduction à l’animation 2D
 
-### Sélection simple
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaM75QxzM9pBg9iYuG01uo8BGFVDSQtsSrFA6fXz2j2Jsw?e=xVHOsn">Sélection (V)</a>
-   - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaZRkD8yyZxKjHLwzrjosvcBiqekxjsvFSqdn1JwwkwSrA?e=JxSc1w">Isoler un calque</a>
-   - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERskOIzx8thBu_Z6Tom8z9EBd4UsYweOJA5eEjBLhsZ-8g?e=qdnQ6D">Sélection groupe</a>
-   - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYw6eGTqZcZIkydVYmrKIQcBihC_ALXe1E0nPVuDnDN5fg?e=2peWP9">Raccourci</a>
+Création d'une illusion de mouvement.
 
+Technique qui consiste à agencer des images pour créer une impression de mouvement et de vie.
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQbG5xgPIDlFh8gKp_bCcVcBDbhXN4hySTLMdBt-QKJP4g?e=iSHEmI">Sélection directe (A)</a>
-   - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESVH-vYG0LhOvJF1E-1TfNEBBnzLVTHqTm8ULnFC1B_X3w?e=Myy2SJ">Sélection progressive</a>
-        
+Le mouvement est représenté dans une succession d'images fixes dont la vision donne l'illusion d'un mouvement continu.
 
+<div class="grid" markdown>
+![](./assets/images/1878-Eadweard-Muybridge.webp){ .w-100 }
 
-[🛠️ Transformations](./exercice_ai/00_transformations.md){ .md-button }   
-      
-### Sélection complexe et outil plume
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaDI5ZSDJzhEnBU3VXJ1zt8B47tGZ8ZoJeTMfisebov2BQ?e=328kHA">Baguette magique</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeMB16q9Y2ZFiWqmSSqHNegBE6-OskRpaw1nPyw1g-vFtw?e=lTym2X">Lasso</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EadRHPzIucxFlI28D5gO0RgBIs3IZJ5KfBvqZThd9ODvNQ?e=8N6CPd">Importation d'images</a>
-- <a href="https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr">Plume (P)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F">Courbure</a>
-  
-[🛠️ Plume](./exercice_ai/01_plume.md){ .md-button }   
+![](./assets/images/1878-Eadweard-Muybridge2.webp){ .w-100 }
+</div>
 
-[🛠️ Vagues](./exercice_ai/01_vagues.md){ .md-button }   
+---
 
-[🛠️ Voiture](./exercice_ai/01_voiture.md){ .md-button }   
-      
+L'animation ce n'est pas juste à l'ordinateur !
 
-### Largeur et déformation
+![](./assets/images/candy-corn.gif){ .w-100 }
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie">Largeur (Shift + w)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O">Déformation</a>
+## Types d'animations 2D
 
- 
+### Animation traditionnelle
 
-[🛠️ Largeur](./exercice_ai/02_largeur.md){ .md-button }   
+Aussi appelée animation dessinée à la main, elle consiste à dessiner chaque image individuellement pour créer une séquence animée fluide. (ex. Disney, Ghibli)
 
-[🛠️ Déformation](./exercice_ai/02_deformation.md){ .md-button }   
-      
-### Formes
+Exemple célèbre : le film [Steamboat Willie](https://youtu.be/BBgghnQF6E4?feature=shared&t=30).
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Rectangle (M)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7">Cercle</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZX2hwnkga5Gs40mBRIsmoQBsl7C88Qf5870TUvM2Gjyeg?e=MF0Bze">Étoile</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERjFIyvRbdxIqUXUJpZVPcUBtV3y_unzAOcQfgW_wkPMuA?e=aTTyb3">Polygone</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXEsMNgXyytBmvfM-W-rAU0BlKyCj0UZ6NrlleE5KkscPA?e=J5oJJS">Trait</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EfarjMb3n4lAmQ9Txg6PEzIBBe1vFkONITW7pvHF-ozADg?e=nDRVjK">Arc</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Edkspx-v4p1PmUDZyI3cL1gBR6oyBkE1JzqiYCe5DbCy1w?e=lascoq">Spirale</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVvP-2-lo8xCpKIDD85Uq7oBptG0p31i7O2kOMlK_Zisuw?e=XXtB9F">Spirale Couleur</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at">Grille</a>
- 
+![](./assets/images/ghibli.gif){ .w-100 }
 
-[🛠️ Formes](./exercice_ai/03_formes.md){ .md-button }   
-      
-### Ciseaux et sauvegarde
+### Animation en rotoscopie
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng">Ciseaux</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U">Sauvegarde</a>
+Technique où des séquences vidéo réelles sont utilisées comme référence pour tracer les mouvements image par image.
 
-      
+Exemple célèbre : le film [A Scanner Darkly](https://www.imdb.com/fr/title/tt0405296/).
 
-## Devoir
-[🛠️ Maison](./exercice_ai/04_maison.md){ .md-button }    
+![](./assets/images/rotoscopie.gif){ .w-100 }
 
-[🛠️ Formes simples](./exercice_ai/04_formes_simples.md){ .md-button }   
+### Stop Motion 2D
 
-[🛠️ Devoir 1](./exercice_ai/04_devoir_1.md){ .md-button }   
+Consiste à capturer des images d'éléments physiques (papier découpé, dessins) et à les assembler pour créer une animation.
+
+Exemple célèbre : le film [The Nightmare Before Christmas](https://www.imdb.com/fr/title/tt0107688/).
+
+![](./assets/images/stopmotion.gif){ .w-100 }
+
+### Animation par interpolation (tweening)
+
+Utilisée dans des logiciels comme Adobe After Effects, où des images-clés sont définies et l'ordinateur génère les images intermédiaires.
+
+Le nombre d'image de l'animation n'est pas limité, car cette dernière est virtuelle.
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Interpolation" src="https://codepen.io/tim-momo/embed/qBGxwQP?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/qBGxwQP">
+  Interpolation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+Les types d'interpolation : 
+
+* Position (déplacement)
+* Rotation
+* Mise à l’échelle (scaling)
+* Opacité
+
+### Animation de marionnettes (cut-out)
+
+Basée sur des éléments prédécoupés (bras, jambes, tête) qui sont animés en utilisant des squelettes ou des pivots.
+
+Exemple célèbre : l'émission [South Park](https://www.imdb.com/fr/title/tt0121955/).
+
+![](./assets/images/cutout.gif){ .w-100 }
+
+### Animation par morphing
+
+Technique permettant de transformer progressivement une forme en une autre (ex. transformation de visage).
+
+![](./assets/images/morphing.gif){ .w-100 }
+
+### Animation en boucle (looping)
+
+Cette technique consiste à créer une séquence qui se répète de manière continue, comme une marche cyclique ou une vague en mouvement. Elle est fréquemment utilisée pour les GIFs, les bannières publicitaires et les jeux vidéo.
+
+Exemple célèbre : [Danseuse en rotation](https://en.wikipedia.org/wiki/Spinning_dancer)
+
+![](./assets/images/loop.gif){ .w-100 }
+
+### Animation basée sur la physique (dynamique)
+
+Ce type d’animation repose sur l’application de principes physiques tels que la gravité, l’inertie ou les collisions pour rendre les mouvements plus réalistes.
+
+![](./assets/images/fire-particles.gif){ .w-100 }
+
+### Animation en motion graphics 
+
+L'animation motion design consiste à animer des éléments graphiques tels que du texte, des formes et des icônes dans le cadre de présentations, de vidéos explicatives ou de contenus marketing.
+
+![](./assets/images/david-stanfield.gif){ .w-100 }
+
+Crédit : [David Stanfield](https://dribbble.com/shots/1701919-Ideas)
+
+[Autre exemple d'animation motion design](https://www.behance.net/gallery/164356671/Google-Icons-Animated?tracking_source=search_projects|google+motion&l=1)
+
+## Lexique 
+
+**Image par seconde (FPS)** : Le nombre d'image qui s'affiche à l'intérieur d'une seconde.
+
+**Persistance rétinienne** : Notre œil garde en mémoire ce qu'il voit pendant une fraction de secondes.
+
+> La persistance rétinienne est une particularité du fonctionnement de l'œil qui nous donne l'illusion du mouvement lorsque l'on regarde un dessin animé par exemple. En effet, les cellules de la rétine gardent en mémoire une image pendant 16 à 20 millisecondes (1/60e de seconde) après sont apparition. Ainsi, si l'on fait défiler très rapidement une séquence d'images, au rythme de 24 par seconde, l'œil a en permanence en mémoire les images et ne peut distinguer 2 images successives[^persis].
+
+[^persis]: [Qu'est-ce que la persistance rétinienne ?](https://www.espace-sciences.org/archives/qu-est-ce-que-la-persistance-retinienne#:~:text=La%20persistance%20r%C3%A9tinienne%20est%20une,de%20seconde%20apr%C3%A8s%20sont%20apparition%20.)
+
+!!! example "Combien d'image seconde pour le cours ?"
+
+    Nous veillerons à toujours utiliser un taux supérieur à 24 FPS dans nos animations afin d'assurer une fluidité optimale.
+
+## Images vectorielles vs matricielles
+
+Les images vectorielles, basées sur des formules mathématiques, sont redimensionnables sans perte de qualité, idéales pour les logos et les illustrations. Les images matricielles, composées de pixels, conviennent mieux aux photos, mais perdent en qualité lorsqu'elles sont agrandies. Le choix entre les deux dépend de l'usage et des besoins en résolution.
+
+![](./assets/images/difference-image-matricielle-vectorielle.jpg){ .w-100 }
+
+[Source de l'image](https://ipcm.fr/comprendre-les-images-numeriques-matricielles-et-vectorielles-pour-mieux-les-utiliser/) 
+
+### Logiciel d'édition d'images matricielles
+
+<div class="grid grid-auto" markdown>
+  ![](./assets/images/logo-photoshop.png)
+
+  Adobe Photoshop est conçu pour manipuler des images matricielles, composées de pixels, ce qui le rend parfait pour la retouche photo et les visuels riches en détails, mais provoque une perte de qualité lors de l'agrandissement.
+</div>
+
+Formats de fichiers : `.psd` | `.jpg` `.png` `.gif`
+
+### Logiciel d'édition d'images vectorielles 
+
+<div class="grid grid-auto" markdown>
+  ![](./assets/images/logo-illustrator.png)
+
+  Adobe Illustrator est un logiciel spécialisé dans la création d'images vectorielles, permettant de concevoir des illustrations redimensionnables sans perte de qualité, idéales pour les logos et les graphiques complexes.
+</div>
+
+Formats de fichiers : `.ai` | `.svg` `.eps`
+
+## Adobe After Effects 
+
+### Espace de travail et interfaces
+
+### Composition et ligne du temps
+
+### Propriétés des calques
+
+## Exercices
