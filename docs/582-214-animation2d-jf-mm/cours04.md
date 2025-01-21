@@ -1,9 +1,10 @@
 # Cours 4    
 
+[STOP]
+
 ## 🚨 Remise du travail 1 partie 1 avant le cours     
 Correction en groupe de ce travail      
 
-      
 ## After Effects     
 
 !!! warning "Attention"
