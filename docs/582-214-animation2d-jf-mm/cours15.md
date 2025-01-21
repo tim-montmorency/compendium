@@ -1,5 +1,7 @@
 # Cours 15
 
+[STOP]
+
 !!! info "Information"
 
     Cours conjoint avec vidéo | Horaire: Mardi 14 mai au trou à l'horaire
