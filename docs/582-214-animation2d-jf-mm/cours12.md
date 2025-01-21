@@ -1,5 +1,7 @@
 # Cours 12    
 
+[STOP]
+
 ## 🚨 Remise des animations du travail 2 à la fin du cours     
 
 Pré-évaluation des animations du travail 2 si désiré      
