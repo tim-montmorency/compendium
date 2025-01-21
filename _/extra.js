@@ -192,6 +192,79 @@ const handleExternalLinks = () => {
   });
 };
 
+const handleDestinations = () => {
+  var destination = window.location.pathname;
+  console.log('Processing destination:', destination);
+
+  var backLinks = document.querySelectorAll('.back');
+
+  backLinks.forEach(function(link) {
+      var url = new URL(link.href);
+      if (!url.searchParams.has('destination')) {
+          var separator = link.href.includes('?') ? '&' : '?';
+          link.href += separator + 'destination=' + encodeURIComponent(destination);
+      }
+  });
+};
+
+const addBreadcrumb = () => {
+  // Vérifie si le breadcrumb existe déjà pour éviter les doublons
+  if (document.querySelector('.breadcrumb-container')) {
+    return;
+  }
+
+  // Récupérer les paramètres de l'URL actuelle
+  var urlParams = new URLSearchParams(window.location.search);
+
+  if (urlParams.has('destination')) {
+      var destination = urlParams.get('destination');
+
+      // Créer un élément <p> contenant le breadcrumb
+      var breadcrumbContainer = document.createElement('p');
+      breadcrumbContainer.classList.add('breadcrumb-container');
+
+      // Créer le lien avec la classe breadcrumb
+      var breadcrumbLink = document.createElement('a');
+      breadcrumbLink.classList.add('breadcrumb');
+      breadcrumbLink.href = destination;
+
+      // Ajouter l'icône SVG
+      var svgContainer = document.createElement('span');
+      svgContainer.classList.add('twemoji');
+      svgContainer.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M20 13.5a6.5 6.5 0 0 1-6.5 6.5H6v-2h7.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7h5.67a6.5 6.5 0 0 1 6.5 6.5"></path>
+        </svg>
+      `;
+
+      // Ajouter le texte du lien (extraire la dernière partie de l'URL pour le titre)
+      var linkText = document.createTextNode(' Cours ' + extractCourseNumber(destination));
+
+      // Ajouter les éléments dans le lien
+      breadcrumbLink.appendChild(svgContainer);
+      breadcrumbLink.appendChild(linkText);
+
+      // Ajouter le lien dans le paragraphe
+      breadcrumbContainer.appendChild(breadcrumbLink);
+
+      // Trouver le premier élément <h1> dans la page
+      var firstH1 = document.querySelector('h1');
+      if (firstH1) {
+          // Insérer le breadcrumb juste avant le premier <h1>
+          firstH1.parentNode.insertBefore(breadcrumbContainer, firstH1);
+      } else {
+          // Si aucun <h1> n'est trouvé, ajouter en haut du body
+          document.body.prepend(breadcrumbContainer);
+      }
+  }
+};
+
+// Fonction pour extraire le numéro de cours depuis l'URL
+const extractCourseNumber = (url) => {
+  var match = url.match(/cours(\d+)/i);
+  return match ? match[1] : '';
+};
+
 // Fonction pour l'instanciation et la configuration des feux d'artifice
 const initializeFireworks = () => {
   let fireworksContainer = document.getElementById("fireworks");
@@ -282,6 +355,8 @@ function runFunctions() {
   toggleLogoButtonVisibility();
   addOpenExampleLinks();
   handleExternalLinks();
+  handleDestinations();
+  addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
   // selectIframe();
 }
