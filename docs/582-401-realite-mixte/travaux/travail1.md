@@ -99,12 +99,12 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IChbRlhdONM?si=FAI2FPKYwgwOBWEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 3. Création de la scène Jeu - détection AR
-- [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
-- [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html">Base de données</a>
+- [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maintenant lui apporter des modifications.
+- [ ] Créez une base de données pour les images de détection de votre projet (Les images qui seront balayées avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html">Base de données</a>
 - [ ] Téléchargez la base de données que vous venez de créer. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html#telecharger-la-base-de-donnees">Télécharger</a>
 - [ ] Importez les images de détection dans Unity. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/importer_detection.html">Importer</a>
 - [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ArCamera). Vous devez aussi vous assurez de mettre la license sur la caméra. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/camera_detection.html">ArCamera</a>
-- [ ] Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detecter_image.html">Image Target</a>
+- [ ] Maintenant, créez deux GameObjects Image target. Ceux-ci vous permettront de détecter les images que vous avez mises dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detecter_image.html">Image Target</a>
 
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-5awHGHMQ7g?si=o5qleI-0IZfVK_Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -114,29 +114,15 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_controller.html">Animator Controller</a>
 - [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_animator.html">GameObject Animator</a>
 - [ ] Créez une animation pour chaque Sprite Sheet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html">Créer une animation</a>
-- [ ] Redimensionner vos animations et positionnez-les au-dessus de votre Image de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
-- [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget.
+- [ ] Redimensionner vos animations et positionnez-les au-dessus de vos images de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
+- [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. (Assurez-vous que chaque animation correspond au bon Image target) Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
 
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=10cZ0tSH82XY-MKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-### 5. Création de la scène Jeu - Script
-- [ ] Suivez le tutoriel suivant pour créer votre script.
-
-**Tutoriel 🎥**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v4OD6PwHGIw?si=GXRGBzEp96a_gDBi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### 6. Création de la scène Jeu - Sons
-- [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
-- [ ] Ajouter une composante AudioSource sur vos GameObject animations.
-- [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html#audiosource">Son</a>
-
-**Tutoriel 🎥**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### 7. Création de la scène Menu - UI
+### 5. Création de la scène Menu - UI
 
 - [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la Scene Jeu avant de la quitter! Vous pouvez maitenant lui apporter des modifications.
 - [ ] Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
@@ -151,24 +137,42 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**    
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jjTNyBJHOcA?si=k3Q491l4Uiec0Z4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 8. Création de la scène Menu - Consignes
+### 6. Création de la scène Menu - Consignes
 - [ ] Dans le canvas, créez un nouveau Panel pour les consignes.
 - [ ] Dans ce panel, créez un panel par étape de vos consignes.
 - [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes et des images pour appuyer vos consignes au besoin.
 
-### 9. Création de la scène Menu - Script UI
+### 7. Création de la scène Menu - Script UI
 - [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
 - [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
 - [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
 - [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
 - [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 
-### 10. Création de la scène Menu - Script consignes
+### 8. Création de la scène Menu - Script consignes
 - [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
 
+### 9. Création de la scène Jeu - Sons
+- [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
+- [ ] Ajouter une composante AudioSource sur vos GameObject animations.
+- [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html#audiosource">Son</a>
+
+### 10. Création de la scène Jeu - Script
+Un exemple vous sera montré en classe. Votre script devra comprendre les éléments suivants:     
+
+- [ ] La scène jeu montre une nouvelle image à balayer à chaque 5 secondes. 
+- [ ] Lorsque la bonne image est détectée, elle s'anime et un point s'ajoute à votre pointage.
+- [ ] Lorsque le joueur atteint 5 points, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu.  
+- [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
+- [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
+
+**Tutoriel 🎥**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 11. Défi (Sera évalué)
-- [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu. 
+- [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu.
+- [ ] Dans la scène jeu, créez des boutons qui permettent d'ajuster la difficulté du jeu: Facile = l'image change à chaque 5 secondes, moyen = l'image change à chaque 4 secondes, difficile = l'image change à chaque 3 secondes. 
 
 
 ### 12. Création de l'application
@@ -178,6 +182,6 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 13. Remise du travail 1
 Remettre votre travail dans le dossier suivant: 
 
-[📁 Remise Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ej08AbeAuVhJhy4sr6J6nd4BXUBnfE5B-S1Gh5k6FiS8zg?e=mzN0hL){ .md-button }   
+[📁 Remise Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EqD3pun06hRMg_pJF1EHOx8Bb4YBZCGASLu_OV1PRCOwlg?e=bVj2Nu){ .md-button }   
 
 
