@@ -7,13 +7,20 @@
 #### Création de compte
 
 Rendez-vous sur le site suivant pour créer votre compte:   
-[🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }   <br>
+[🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }  
 
 #### S'inscrire au Unity student plan
 
 Appuyer sur enseignement supérieur:     
 
-[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }   <br>
+[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }  
+
+#### Ajouter le Sampler pack de synty studio à vos assets     
+
+Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibliothèque gratuitement:     
+
+[🛠️ Polygon Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-207048){ .md-button }     
+
 
 #### Téléchargement de Unity
 - [📝 Installation du logiciel](./installation/telechargement.md)
