@@ -169,7 +169,10 @@ nav:
       - Cours 15: 582-214–animation2d/cours15.md
   - Animation 2D:
       - 582-214-animation2d-jf-mm/index.md
-      - Cours 1: 582-214-animation2d-jf-mm/cours01.md
+      - Cours 1:
+          - 582-214-animation2d-jf-mm/cours01/index.md
+          - Les animations: 582-214-animation2d-jf-mm/cours01/animations.md
+          - After Effects: 582-214-animation2d-jf-mm/cours01/after-effects.md
       - Cours 2: 582-214-animation2d-jf-mm/cours02.md
       - Cours 3: 582-214-animation2d-jf-mm/cours03.md
       - Cours 4: 582-214-animation2d-jf-mm/cours04.md
