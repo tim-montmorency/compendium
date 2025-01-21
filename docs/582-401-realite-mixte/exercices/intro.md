@@ -8,7 +8,7 @@ Cet exercice vous permettra de vous familiarisez avec la navigation et la créat
 
 Pour débuter, télécharger le projet vous pouvez trouver via le lien suivant:    
 
-[📁 Micro-game](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EkCzBYoXwONMrTIsORjtMfIB6ilPKiFSz7Su7kiIdV3nbw?e=EZbO3E){ .md-button }   <br>
+[📁 Micro-game](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Erg3wE7WztdOj40pIqZBFEABlfohnVFDhipPNjSIATmPCw?e=VKcnuR){ .md-button }   <br>
 
 Téléchargez ensuite cette image, vous en aurez besoin plus tard:    
 <img src="../images/Chat.png" width="150" height="200">
