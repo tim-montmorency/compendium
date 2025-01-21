@@ -42,7 +42,7 @@ Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibli
 
 ## Travail 1
     
-[💼 Travail 1](./consignes/travail1.md){ .md-button }   
+[💼 Travail 1](./travaux/travail1.md){ .md-button }   
 
 #### Création de visuels
 - [📝 Sprite](./unity/sprite.md)
