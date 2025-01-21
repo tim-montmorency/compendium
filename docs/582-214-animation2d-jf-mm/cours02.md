@@ -1,15 +1,13 @@
 # Cours 2      
 
+[STOP]
+
 ## Retour sur le devoir   
 [🛠️ Maison](exercice_ai/04_maison.md){ .md-button }   
     
 [🛠️ Formes simples](exercice_ai/04_formes_simples.md){ .md-button }    
     
 [🛠️ Devoir 1](exercice_ai/04_devoir_1.md){ .md-button }    
-
-
-    
-      
 
 ## Illustrator     
 ### Exportation et crayon
