@@ -12,7 +12,6 @@
 
 ## Matière
 
-
 <div class="grid grid-1-2" markdown>
   ![](../assets/images/animation-preview.gif)
 
