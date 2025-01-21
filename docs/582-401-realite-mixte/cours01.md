@@ -46,7 +46,6 @@ Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibli
 
 #### Création de visuels
 - [📝 Sprite](./unity/sprite.md)
-- [📝 Vidéo](./unity/video.md)     
 
 
 #### Test d'exemples de travail 1 et de livres en AR
