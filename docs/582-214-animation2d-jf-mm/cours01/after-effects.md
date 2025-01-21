@@ -75,7 +75,6 @@ Voici la liste des différents panneaux et leur utilité.
 
 ### Panneau de montage
 
-render
 * Permet d’ajouter les compositions en file d'attente pour le rendu final.
 * Réglages des formats d'exportation.
 
@@ -91,8 +90,8 @@ render
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/cosmos-preview.jpg)
+  ![](../exercices_ae/cosmos/cosmos-preview.jpg)
 
   <small>Exercice - After Effects</small><br>
-  **[Cosmos](../exercices_ae/cosmos/cosmos.md){.stretched-link}**
+  **[Cosmos](../exercices_ae/cosmos/cosmos.md){.stretched-link .back}**
 </div>

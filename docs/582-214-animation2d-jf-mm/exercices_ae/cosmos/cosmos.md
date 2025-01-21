@@ -1,12 +1,12 @@
 # Cosmos
 
-L'objectif de cet exercice est d'introduire la notion de composition, d'assets de projet et d'animations simples.
+L'objectif de cet exercice est d'introduire, à l'aide des images[^src] du Dossier de départ, la notion de composition, d'assets de projet et d'animations simples. 
 
 [Dossier de départ :material-download:](./cosmos.zip){ .md-button .md-button--primary }
 
 ## Résultat
 
-![type:video](./cosmos.mp4)
+![type:video](./cosmos.mp4) 
 
 ## Consignes générales
 
@@ -16,9 +16,9 @@ La mise en place
 - [ ] Ouvrez After Effects, créez une nouvelle composition. Nommez la « cosmos » et configurez la durée à 10 secondes. 
 - [ ] Sauvegardez votre projet dans le Dossier de départ téléchargé.
 - [ ] Dans le panneau « Projet », ajoutez les images du dossier assets situé à l'intérieur du Dossier de départ.
-- [ ] Dans le panneau « Projet », crééez un dossier « assets » et déplacez-y les images.
+- [ ] Dans le panneau « Projet », créez un dossier « assets » et déplacez-y les images.
 - [ ] Dans le panneau « Projet », sélectionnez la composition « cosmos » si ce n'est déjà fait.
-- [ ] Dans le panneau « Composition, ajoutez l'image `cosmos.png` puis ajustez la de sorte à ce qu'elle ai la même même dimension que la composition.
+- [ ] Dans le panneau « Composition, ajoutez l'image `cosmos.png` puis ajustez-la de sorte à ce qu'elle ait la même même dimension que la composition.
 - [ ] Placez ensuite les images `terre.png`, `jupiter.png` et `lune.png` dans la composition. Choisissez leur emplacement à votre guise.
 - [ ] Sauvegardez votre travail.
 
