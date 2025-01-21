@@ -1,5 +1,7 @@
 # Cours 9    
 
+[STOP]
+
 ## Mini-Kino avec les illustrations du cours 8
 [🛠️ Kino](exercices_ae/kino.md){ .md-button }          
 
