@@ -138,15 +138,17 @@ Racourci clavier : ++t++ (comme dans _Transparency_)
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](../exercices_ae/images/exerc-monstre-preview.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[Monstre](../exercices_ae/00_monstre.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
   ![](../exercices_ae/wazowski/wazowski-preview.jpg)
 
   <small>Exercice - After Effects</small><br>
   **[Wazowski](../exercices_ae/wazowski/wazowski.md){.stretched-link .back}**
+</div>
+
+[STOP]
+
+<div class="grid grid-1-2" markdown>
+  ![](../exercices_ae/images/exerc-monstre-preview.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[Monstre](../exercices_ae/00_monstre.md){.stretched-link .back}**
 </div>
