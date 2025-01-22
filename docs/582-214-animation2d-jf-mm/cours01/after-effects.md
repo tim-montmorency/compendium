@@ -66,6 +66,49 @@ Voici la liste des différents panneaux et leur utilité.
 * Marqueurs de temps et gestion des images clés (Keyframes).
 ![](../assets/images/ae/fenetre-ligne-du-temps.png)
 
+
+## Navigation dans l'interface et raccourcis clavier
+[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmariem%5Fouellet%5Fcmontmorency%5Fqc%5Fca%2FDocuments%2F01%5Fcours%2FCours%20Animation%202D%2Fanimation%202D%20H2023%2F02%5Fcapsules%5Fvideo%2F02%5Fcapsules%5Fafter%5Feffects%2F12%5Fraccourcis%5Fnavigation%5Fet%5Fgestionnaire%2F01%5Fraccourcis%5Fnavigation%5Finterface%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E90431d98%2Dc107%2D4538%2Db553%2D701425435720)
+
+
+## Composition
+************
+[Capsule vidéo]()
+
+
+## Ligne du temps (timeline)
+[Capsule vidéo: panneau ligne du temps](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ebt5l3luOeJHk-_ObGGHM8kBPlQatfpj2DYQ_aHe-b7J0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0a3T2N)
+[Capsule vidéo: zoomer dans la ligne du temps](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EfUgunKfJT5ArP5YmucXUGwB_6WriuGrXRDLOMW4PiKxyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H1Pqf5)
+
+### Lecture et rendu de l'animation
+[Capsule vidéo: Rendu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb3L11GVrj5EvtTqhBUS6GUBPZU0Aq5qfvjt1Eai5ia5og?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=goejrl)
+
+[Capsule vidéo: Prévisualisation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdLWCI2PmzBCnSrk4C6vw9oBDHhgrUrIyvEpelObisZntw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yHeBYo)
+
+
+
+
+
+
+## Propriétés des calques (ou paramètres animables)
+### 
+Raccourci clavier: r pour roration
+[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWLYftRT-rdEpopnWr38_2cBWbWNdh-zcVryMekPMaO53g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5HZpYQ)
+
+### Point d'ancrage et animation de l'échelle
+Racourci clavier: s pour scale (échelle en anglais)
+[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdszNQFXOqJCiVVHqIcw03oBHR5RbtoFGITmTJWnIZvaTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VdwpLx)
+
+### Animation de l'opacité et animation de la position
+Racourci clavier: o pour opacité | p pour position
+[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EaeGspgw0H1Fll--0CTsXdQBEp05rZljpx4x2Xf-fmMVqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SlUija)
+
+### Raccourcis clavier pour les keyframes
+[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZBL1r-zSalHt4V57J1Bx2IByFrGJ3d6_M2qZYH4qxeb1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDjPfj)
+
+
+
+
 ### Les panneaux auxilières
 [Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EQ3kun7rslBPu6b4e6ovOEsBEkH56isjd_y20KK2GgzRxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4VjrJW)
 
@@ -85,16 +128,8 @@ Voici la liste des différents panneaux et leur utilité.
 * Paramètres de texte (polices, tailles, interlignage, alignement).
 * Gestion du texte animé.
 
-## Navigation dans l'interface et raccourcis clavier
-[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmariem%5Fouellet%5Fcmontmorency%5Fqc%5Fca%2FDocuments%2F01%5Fcours%2FCours%20Animation%202D%2Fanimation%202D%20H2023%2F02%5Fcapsules%5Fvideo%2F02%5Fcapsules%5Fafter%5Feffects%2F12%5Fraccourcis%5Fnavigation%5Fet%5Fgestionnaire%2F01%5Fraccourcis%5Fnavigation%5Finterface%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E90431d98%2Dc107%2D4538%2Db553%2D701425435720)
 
-## Composition et ligne du temps
-[Capsule vidéo]()
-### Ligne du temps (timeline)
-[Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ebt5l3luOeJHk-_ObGGHM8kBPlQatfpj2DYQ_aHe-b7J0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0a3T2N)
 
-## Propriétés des calques
-[Capsule vidéo]()
 
 ## Exercices
 <div class="grid grid-1-2" markdown>
