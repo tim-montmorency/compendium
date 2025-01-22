@@ -5,7 +5,7 @@
 
 ## Exploration des travail 1
 
-## Ouvrir et vérifier votre projet Unity en vue de l'évaluation sur la nomenclature
+## Ouvrir et vérifier votre projet Unity en vue de l'évaluation formative sur la nomenclature
 
 - [ ] Classement des fichiers
 - [ ] Classement des GameObject
