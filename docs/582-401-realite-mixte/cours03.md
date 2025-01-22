@@ -66,4 +66,4 @@ Quelles conclusions pouvez-vous faire?
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 5 à 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }   
+[💼 Travail 1 - Étapes 5-6 et 9-10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }   
