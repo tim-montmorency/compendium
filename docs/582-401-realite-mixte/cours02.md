@@ -22,7 +22,7 @@
 
 ### Avancement du travail 1
 #### Préparation de Vuforia
-[💼 Travail 1 - Étape 2](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-preparation-vuforia){ .md-button }     
+[💼 Travail 1 - Étape 2](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#2-preparation-de-vuforia){ .md-button }     
 
 ## Bloc 3
 #### Détection en réalité augmentée
@@ -35,7 +35,7 @@
 
 ### Avancement du travail 1
 #### Détection AR
-[💼 Travail 1 - Étape 3](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-detection-ar){ .md-button }     
+[💼 Travail 1 - Étape 3](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#3-creation-de-la-scene-jeu-detection-ar){ .md-button }     
 
 
 ## Bloc 4  
@@ -53,13 +53,9 @@
 
 ### Avancement du travail 1       
 #### Animations de sprite
-[💼 Travail 1  - Étape 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-sprite){ .md-button }       
-
-**OU**     
-
-#### Animations de vidéos
-[💼 Travail 1  - Étape 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-video){ .md-button }     
+[💼 Travail 1  - Étape 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#4-creation-de-la-scene-jeu-animations){ .md-button }       
+ 
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 1 à 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }    
+[💼 Travail 1 - Étapes 1 à 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }    
