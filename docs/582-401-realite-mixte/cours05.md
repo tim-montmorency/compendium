@@ -2,8 +2,6 @@
 
 ## 🚨 Remise du travail 1
 
-## Proposition de sortie
-Cafés numériques
 
 ## Exploration des travail 1
 
