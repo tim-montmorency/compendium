@@ -158,6 +158,9 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Ajouter une composante AudioSource sur vos GameObject animations.
 - [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html#audiosource">Son</a>
 
+**Tutoriel 🎥**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 10. Création de la scène Jeu - Script
 Un exemple vous sera montré en classe. Votre script devra comprendre les éléments suivants:     
 
@@ -167,8 +170,7 @@ Un exemple vous sera montré en classe. Votre script devra comprendre les élém
 - [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
 - [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
 
-**Tutoriel 🎥**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### 11. Défi (Sera évalué)
 - [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu.
