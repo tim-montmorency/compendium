@@ -49,7 +49,12 @@ Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibli
 
 
 #### Test d'exemples de travail 1 et de livres en AR
-Projets de:       
+Livres:      
+- Slush le lutin
+- Tracé de voyage
+- Bandits des mers
+
+Projets de:     
 
 - Quoc Huy Do    
 - Felix Testa Radovanovic    
