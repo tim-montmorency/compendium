@@ -71,13 +71,10 @@ Voici la liste des différents panneaux et leur utilité.
 [Capsule vidéo](https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmariem%5Fouellet%5Fcmontmorency%5Fqc%5Fca%2FDocuments%2F01%5Fcours%2FCours%20Animation%202D%2Fanimation%202D%20H2023%2F02%5Fcapsules%5Fvideo%2F02%5Fcapsules%5Fafter%5Feffects%2F12%5Fraccourcis%5Fnavigation%5Fet%5Fgestionnaire%2F01%5Fraccourcis%5Fnavigation%5Finterface%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E90431d98%2Dc107%2D4538%2Db553%2D701425435720)
 
 
-## Composition
-************
-[Capsule vidéo]()
-
 
 ## Ligne du temps (timeline)
 [Capsule vidéo: panneau ligne du temps](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ebt5l3luOeJHk-_ObGGHM8kBPlQatfpj2DYQ_aHe-b7J0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0a3T2N)
+
 [Capsule vidéo: zoomer dans la ligne du temps](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EfUgunKfJT5ArP5YmucXUGwB_6WriuGrXRDLOMW4PiKxyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H1Pqf5)
 
 ### Lecture et rendu de l'animation
@@ -91,7 +88,10 @@ Voici la liste des différents panneaux et leur utilité.
 
 
 ## Propriétés des calques (ou paramètres animables)
-### 
+### Image-clé (keyframe)
+[Capsule vidéo: Images-clé et interpolation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdLYhQVh1H5BqMkMFhwrggoBLu_O6EweDl91UaHLAXfEcw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0SGj8y)
+
+### Animation de la rotation
 Raccourci clavier: r pour roration
 [Capsule vidéo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWLYftRT-rdEpopnWr38_2cBWbWNdh-zcVryMekPMaO53g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5HZpYQ)
 
