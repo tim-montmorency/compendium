@@ -1,8 +1,8 @@
 # Wazowski
 
-L'objectif de cet exercice est de parfaire la méthode de gestion de documents, d'explorer les possibilités des paramètres d'animation et d'être créatif dans la démarche.
+L'objectif de cet exercice est de perfectionner la gestion de documents, d'explorer les paramètres d'animation et de faire preuve de créativité.
 
-Les images (cc0) de l'exercice sont tirés du site Web Kenney.nl[^kenney].
+Les images utilisées dans cet exercice (sous licence CC0) proviennent du site Kenney.nl[^kenney].
 
 [^kenney]: [Monster Builder Pack](https://www.kenney.nl/assets/monster-builder-pack) (kenney.nl)
 
@@ -14,5 +14,19 @@ Les images (cc0) de l'exercice sont tirés du site Web Kenney.nl[^kenney].
 
 ## Consignes générales
 
+La mise en place
+
 - [ ] Téléchargez le Dossier de départ
-- [ ] 
+- [ ] Ouvrez After Effects, créez une nouvelle composition. Nommez la « wazowski » et configurez la durée à 6 secondes. 
+- [ ] Sauvegardez votre projet dans le Dossier de départ téléchargé.
+- [ ] Dans le panneau « Projet », créez un dossier « assets »
+- [ ] Dans le panneau « Projet », dans le dossier « assets », créez un dossier « bouches », « bras », « corps », « details », « jambes », « nez » et « yeux ».
+- [ ] Catégorisez les images dans le Dossier de départ à l'intérieur de votre projet After Effect.
+- [ ] Sauvegardez votre travail.
+
+La création
+
+- [ ] Ajoutez les images que vous désirez dans votre composition. 
+- [ ] Ajustez l'ordre d'affichage des calques au besoin. 
+- [ ] Animez maintenant vos images. Soyez créatif, amusez vous et surtout, expérimentez ! 
+- [ ] Sauvegardez votre travail.
