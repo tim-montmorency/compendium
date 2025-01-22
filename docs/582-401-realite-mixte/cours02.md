@@ -9,7 +9,7 @@
 
 ### Avancement du travail 1
 #### Création du projet
-[💼 Travail 1 - Étape 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-creation-projet.html){ .md-button }     
+[💼 Travail 1 - Étape 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#1-creation-du-projet){ .md-button }     
 
 ## Bloc 2
 #### Configuration
