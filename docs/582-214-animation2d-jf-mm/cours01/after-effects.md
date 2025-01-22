@@ -132,6 +132,14 @@ Racourci clavier: o pour opacité | p pour position
 
 
 ## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](../exercices_ae/undeuxtroisquatre/un-deux-trois-quatre-preview.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[Un, deux, trois et quatre !](../exercices_ae/undeuxtroisquatre/un-deux-trois-quatre.md){.stretched-link .back}**
+</div>
+
 <div class="grid grid-1-2" markdown>
   ![](../exercices_ae/images/exerc-monstre-preview.png)
 
@@ -139,10 +147,16 @@ Racourci clavier: o pour opacité | p pour position
   **[Monstre](../exercices_ae/00_monstre.md){.stretched-link .back}**
 </div>
 
-
 <div class="grid grid-1-2" markdown>
   ![](../exercices_ae/cosmos/cosmos-preview.jpg)
 
   <small>Exercice - After Effects</small><br>
   **[Cosmos](../exercices_ae/cosmos/cosmos.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](../exercices_ae/wazowski/wazowski-preview.jpg)
+
+  <small>Exercice - After Effects</small><br>
+  **[Wazowski](../exercices_ae/wazowski/wazowski.md){.stretched-link .back}**
 </div>
