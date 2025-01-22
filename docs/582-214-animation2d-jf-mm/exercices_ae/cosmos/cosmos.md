@@ -18,7 +18,7 @@ La mise en place
 - [ ] Dans le panneau « Projet », ajoutez les images du dossier assets situé à l'intérieur du Dossier de départ.
 - [ ] Dans le panneau « Projet », créez un dossier « assets » et déplacez-y les images.
 - [ ] Dans le panneau « Projet », sélectionnez la composition « cosmos » si ce n'est déjà fait.
-- [ ] Dans le panneau « Composition, ajoutez l'image `cosmos.png` puis ajustez-la de sorte à ce qu'elle ait la même même dimension que la composition.
+- [ ] Dans le panneau « Composition », ajoutez l'image `cosmos.png` puis ajustez-la de sorte à ce qu'elle ait la même même dimension que la composition.
 - [ ] Placez ensuite les images `terre.png`, `jupiter.png` et `lune.png` dans la composition. Choisissez leur emplacement à votre guise.
 - [ ] Sauvegardez votre travail.
 
