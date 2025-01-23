@@ -40,27 +40,19 @@ Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibli
 - [📝 Importer des *Assets* depuis le *Asset store*](./unity/creer_projet.md)        
 
 
+## Réalité augmentée
+#### Test d'exemples de livres en AR
+Livres:      
+- Slush le lutin
+- Tracé de voyage
+- Bandits des mers
+
 ## Travail 1
     
 [💼 Travail 1](./travaux/travail1.md){ .md-button }   
 
 #### Création de visuels
 - [📝 Sprite](./unity/sprite.md)
-
-
-#### Test d'exemples de travail 1 et de livres en AR
-Livres:      
-- Slush le lutin
-- Tracé de voyage
-- Bandits des mers
-
-Projets de:     
-
-- Quoc Huy Do    
-- Felix Testa Radovanovic    
-- Jacob Alarie-Brousseau    
-- Antoine Haddad    
-  
        
 
 #### Réflexion sur la thématique de votre travail 1
