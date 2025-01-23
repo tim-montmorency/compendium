@@ -42,13 +42,24 @@
 - [📝 Fenêtre animation](./unity/fenetre_anim.md)
 - [📝 Animation de *Sprite sheet*](./unity/animation.md)
 
+## Bloc 4     
+(Si le temps le permets)         
+
+#### Menus
+- [📝 Composantes menu](./unity/UI.md)     
+
+#### Police de caractères
+- [📝 Police de caractères](./unity/font.md)   
+
+### Avancement du travail 1
+#### Menu UI
+[💼 Travail 1 - Étape 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#5-creation-de-la-scene-menu-ui){ .md-button }     
+
+#### Menu consignes
+[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#6-creation-de-la-scene-menu-consignes){ .md-button }     
 
 
-### Avancement du travail 1       
-#### Animations de sprite
-[💼 Travail 1  - Étape 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#4-creation-de-la-scene-jeu-animations){ .md-button }       
- 
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 1 à 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }    
+[💼 Travail 1 - Étapes 1 à 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }    
