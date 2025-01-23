@@ -6,13 +6,6 @@
 
 #### Configuration
 - [📝 Plateforme de développement](./installation/configuration.md) 
-
-### Avancement du travail 1
-#### Création du projet
-[💼 Travail 1 - Étape 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#1-creation-du-projet){ .md-button }     
-
-## Bloc 2
-#### Configuration
 - [📝 Unity remote](./installation/unity-remote.md)   
        
 #### Réalité augmentée
@@ -24,7 +17,7 @@
 #### Préparation de Vuforia
 [💼 Travail 1 - Étape 2](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#2-preparation-de-vuforia){ .md-button }     
 
-## Bloc 3
+## Bloc 2
 #### Détection en réalité augmentée
 - [📝 Créer de bonnes images de détection](./realite-augmentee/detection.md)
 - [📝 Créer une base de données avec les images](./realite-augmentee/base_donnees.md)
@@ -38,7 +31,7 @@
 [💼 Travail 1 - Étape 3](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#3-creation-de-la-scene-jeu-detection-ar){ .md-button }     
 
 
-## Bloc 4  
+## Bloc 3   
 #### Calques
 - [📝 Calques](./unity/sorting_layers.md)     
 
