@@ -165,15 +165,8 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
 
 
-### 10. Création de la scène Menu - Script UI
-- [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
-- [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
-- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
-- [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
-- [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 
-
-### 11. Création de la scène Jeu - Script
+### 10. Création de la scène Jeu - Script
 Un exemple vous sera montré en classe. Votre script devra comprendre les éléments suivants:     
 
 - [ ] La scène jeu montre une nouvelle image à balayer à chaque 5 secondes. 
@@ -182,6 +175,12 @@ Un exemple vous sera montré en classe. Votre script devra comprendre les élém
 - [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
 - [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
 
+### 11. Création de la scène Menu - Script UI
+- [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
+- [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
+- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
+- [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
+- [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 
 
 ### 12. Défi (Sera évalué)
