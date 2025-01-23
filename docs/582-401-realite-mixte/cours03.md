@@ -16,7 +16,15 @@ Quelles conclusions pouvez-vous faire?
 
 
 ## Bloc 2
- 
+#### Code
+- [📝 Événements](./code/evenements.md)        
+
+### Avancement du travail 1
+#### Configuration des boutons
+[💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-menu-script-consignes){ .md-button }     
+
+
+## Bloc 3
 #### Code
 - [📝 Variables](./code/variables.md)
 - [📝 Structure d'un script](./code/structure_script.md)
@@ -27,6 +35,7 @@ Quelles conclusions pouvez-vous faire?
 - [📝 Aléatoire](./code/aleatoire.md)
 - [📝 Fonctions](./code/fonctions.md)        
 
+#### Exercices de programmation
 
 #### Réflexion sur le code de détection
 1. Quelles variables sont nécessaires?    
@@ -38,17 +47,11 @@ Créer un schéma de programmation
 Partage des schémas    
 
 
-#### Code
-- [📝 Événements](./code/evenements.md)        
-
-
 #### Démonstration du code de détection     
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }     
-
-
+[💼 Travail 1 - Étape 11](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#11-creation-de-la-scene-jeu-script){ .md-button }     
 
 
 
