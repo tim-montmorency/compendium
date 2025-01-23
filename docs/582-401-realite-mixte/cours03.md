@@ -1,5 +1,21 @@
 # Cours 3
 ## Bloc 1
+#### Exploration du son dans Unity (15 minutes)
+Défi: Faire jouer un son sur un GameObject. 
+
+Quelles conclusions pouvez-vous faire? 
+
+#### Son
+- [📝 Audio Listener](./unity/composantes.md#audio-listener) 
+- [📝 Audio Source](./unity/composantes.md#audio-source) 
+- [📝 Code et son](./unity/son.md)  
+
+### Avancement du travail 1
+#### Sons
+[💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-jeu-sons){ .md-button }     
+
+
+## Bloc 1
  
 #### Code
 - [📝 Variables](./code/variables.md)
@@ -34,34 +50,6 @@ Partage des schémas
 
 
 
-## Bloc 2
-#### Exploration du son dans Unity (15 minutes)
-Défi: Faire jouer un son sur un GameObject. 
-
-Quelles conclusions pouvez-vous faire? 
-
-#### Son
-- [📝 Audio Listener](./unity/composantes.md#audio-listener) 
-- [📝 Audio Source](./unity/composantes.md#audio-source) 
-- [📝 Code et son](./unity/son.md)  
-
-### Avancement du travail 1
-#### Sons
-[💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-jeu-sons){ .md-button }     
-
-## Bloc 3       
-#### Menus
-- [📝 Composantes menu](./unity/UI.md)     
-
-#### Police de caractères
-- [📝 Police de caractères](./unity/font.md)   
-
-### Avancement du travail 1
-#### Menu UI
-[💼 Travail 1 - Étape 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#5-creation-de-la-scene-menu-ui){ .md-button }     
-
-#### Menu consignes
-[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#6-creation-de-la-scene-menu-consignes){ .md-button }     
 
 
 ## Devoir 
