@@ -167,7 +167,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 
 ### 10. Création de la scène Jeu - Script
-Un exemple vous sera montré en classe. Votre script devra comprendre les éléments suivants:     
+Un schéma de programmation sera créé en classe. Votre script devra comprendre les éléments suivants:     
 
 - [ ] La scène jeu montre une nouvelle image à balayer à chaque 5 secondes. 
 - [ ] Lorsque la bonne image est détectée, elle s'anime et un point s'ajoute à votre pointage.
