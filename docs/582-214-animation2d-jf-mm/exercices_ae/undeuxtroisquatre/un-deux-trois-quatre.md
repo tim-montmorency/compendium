@@ -1,4 +1,4 @@
-# Un deux trois quatre
+# Un, deux, trois et quatre !
 
 L'objectif de cet exercice est de mettre en pratique l'ajout d'image séquentielle dans la ligne de temps sur After Effects. 
 

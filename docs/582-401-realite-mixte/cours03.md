@@ -30,7 +30,7 @@ Partage des schémas
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-script.html){ .md-button }     
+[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }     
 
 
 
@@ -47,7 +47,7 @@ Quelles conclusions pouvez-vous faire?
 
 ### Avancement du travail 1
 #### Sons
-[💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-son.html){ .md-button }     
+[💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-jeu-sons){ .md-button }     
 
 ## Bloc 3       
 #### Menus
@@ -58,12 +58,12 @@ Quelles conclusions pouvez-vous faire?
 
 ### Avancement du travail 1
 #### Menu UI
-[💼 Travail 1 - Étape 8](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-menu-ui.html){ .md-button }     
+[💼 Travail 1 - Étape 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#5-creation-de-la-scene-menu-ui){ .md-button }     
 
 #### Menu consignes
-[💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-menu-consignes.html){ .md-button }     
+[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#6-creation-de-la-scene-menu-consignes){ .md-button }     
 
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 6 à 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }   
+[💼 Travail 1 - Étapes 5-6 et 9-10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }   
