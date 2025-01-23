@@ -6809,18 +6809,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#10-creation-de-la-scene-menu-script-ui" class="md-nav__link">
+  <a href="#10-creation-de-la-scene-jeu-script" class="md-nav__link">
     <span class="md-ellipsis">
-      10. Création de la scène Menu - Script UI
+      10. Création de la scène Jeu - Script
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#11-creation-de-la-scene-jeu-script" class="md-nav__link">
+  <a href="#11-creation-de-la-scene-menu-script-ui" class="md-nav__link">
     <span class="md-ellipsis">
-      11. Création de la scène Jeu - Script
+      11. Création de la scène Menu - Script UI
     </span>
   </a>
   
@@ -7021,15 +7021,7 @@ Générer une palette dans Coolors et créer un projet à partir de celle-ci: </
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -&gt; SetActive). <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.</li>
 </ul>
-<h3 id="10-creation-de-la-scene-menu-script-ui">10. Création de la scène Menu - Script UI<a class="headerlink" href="#10-creation-de-la-scene-menu-script-ui" title="Permanent link">¶</a></h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet vide, créez un nouveau script et donnez lui un nom.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez la fonction changement de scène dans votre nouveau script. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi la fonction pour quitter le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a></li>
-</ul>
-<h3 id="11-creation-de-la-scene-jeu-script">11. Création de la scène Jeu - Script<a class="headerlink" href="#11-creation-de-la-scene-jeu-script" title="Permanent link">¶</a></h3>
+<h3 id="10-creation-de-la-scene-jeu-script">10. Création de la scène Jeu - Script<a class="headerlink" href="#10-creation-de-la-scene-jeu-script" title="Permanent link">¶</a></h3>
 <p>Un exemple vous sera montré en classe. Votre script devra comprendre les éléments suivants:     </p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> La scène jeu montre une nouvelle image à balayer à chaque 5 secondes. </li>
@@ -7037,6 +7029,14 @@ Générer une palette dans Coolors et créer un projet à partir de celle-ci: </
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Lorsque le joueur atteint 5 points, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu.  </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. </li>
+</ul>
+<h3 id="11-creation-de-la-scene-menu-script-ui">11. Création de la scène Menu - Script UI<a class="headerlink" href="#11-creation-de-la-scene-menu-script-ui" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet vide, créez un nouveau script et donnez lui un nom.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez la fonction changement de scène dans votre nouveau script. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi la fonction pour quitter le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a></li>
 </ul>
 <h3 id="12-defi-sera-evalue">12. Défi (Sera évalué)<a class="headerlink" href="#12-defi-sera-evalue" title="Permanent link">¶</a></h3>
 <ul class="task-list">
