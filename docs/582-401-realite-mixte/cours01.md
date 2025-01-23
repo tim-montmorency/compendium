@@ -68,6 +68,9 @@ Tempête d'idées
 
 
 ## Devoir 
+## Réaliser l'étape 1 du travail 1
+[💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){ .md-button }   
+
 ## Créer les contenus de votre travail 1
 **Visuel en mouvement**
 
