@@ -51,7 +51,7 @@ Partage des schémas
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#11-creation-de-la-scene-jeu-script){ .md-button }     
+[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#10-creation-de-la-scene-jeu-script){ .md-button }     
 
 
 
