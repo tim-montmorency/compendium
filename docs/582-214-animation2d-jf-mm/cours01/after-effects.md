@@ -31,7 +31,7 @@ Le panneau des projets dans After Effects est l'espace où sont organisés et g�
 ### Panneau de montage (ligne du temps, _timeline_)
 
 * Organisation des calques et gestion du temps.
-* Affichage des propriétés des calques (Position, Opacité, Rotation).
+* Affichage des propriétés des calques (Position, Opacité, Rotation, Échelle).
 * Marqueurs de temps et gestion des images clés (Keyframes).
 
 ![](../assets/images/ae/fenetre-ligne-du-temps.png){ data-zoom-image }
