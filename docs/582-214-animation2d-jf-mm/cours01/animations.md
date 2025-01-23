@@ -37,6 +37,7 @@ Exemple célèbre : le film [Steamboat Willie](https://youtu.be/BBgghnQF6E4?feat
 Technique où des séquences vidéo réelles sont utilisées comme référence pour tracer les mouvements image par image.
 
 Exemple célèbre : le film [A Scanner Darkly](https://www.imdb.com/fr/title/tt0405296/).
+
 Coup de coeur de Marie-Michelle : le film [Waking Life](https://www.youtube.com/watch?v=uk2DeTet98o).
 
 ![](../assets/images/rotoscopie.gif){ .w-100 }
