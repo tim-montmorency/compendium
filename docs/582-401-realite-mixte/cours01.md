@@ -65,6 +65,29 @@ Projets de:
 
 #### Réflexion sur la thématique de votre travail 1
 Tempête d'idées   
+
+
+## Devoir 
+## Créer les contenus de votre travail 1
+**Visuel en mouvement**
+
+- [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
+
+
+**Visuel statique**
+
+- [ ] 2 images qu'on pourra scanner avec un appareil mobile.
+- [ ] Des visuels pour les boutons.
+- [ ] Des visuels pour le menu.
+
+**Police de caractère**
+
+- [ ] Trouver une police de caractère qui vous plaît et la télécharger (pour le menu et les messages).
+
+**Sonore**
+
+- [ ] 2 sons qui accompagneront les animations.
+
                      
            
 
