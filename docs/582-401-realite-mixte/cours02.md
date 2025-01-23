@@ -58,8 +58,10 @@
 #### Menu consignes
 [💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#6-creation-de-la-scene-menu-consignes){ .md-button }     
 
+#### Menu Jeu
+[💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#7-creation-de-la-scene-jeu-ui){ .md-button }     
 
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 1 à 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }    
+[💼 Travail 1 - Étapes 1 à 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }    
