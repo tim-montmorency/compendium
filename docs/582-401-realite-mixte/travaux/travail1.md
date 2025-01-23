@@ -142,18 +142,17 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 - [ ] Dans ce panel, créez un panel par étape de vos consignes.
 - [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes et des images pour appuyer vos consignes au besoin.
 
-### 7. Création de la scène Menu - Script UI
-- [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
-- [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
-- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
-- [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
-- [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
+### 7. Création de la scène Jeu - UI
+- [ ]  Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
+- [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
+- [ ] Ajoutez un texte qui affichera le pointage.
+- [ ] Créez un bouton qui permettra de retourner au menu principal.
+- [ ] Affichez trois images qui représenteront les vies.
+- [ ] Insérez le cadre qui servira à balayer les images.
+- [ ] Ajoutez une image qui indiquera l'élément à balayer.
+- [ ] Pour le défi: Ajoutez trois boutons qui contrôleront le niveau de difficulté. 
 
-### 8. Création de la scène Menu - Script consignes
-- [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
-- [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
-
-### 9. Création de la scène Jeu - Sons
+### 8. Création de la scène Jeu - Sons
 - [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
 - [ ] Ajouter une composante AudioSource sur vos GameObject animations.
 - [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html#audiosource">Son</a>
@@ -161,7 +160,20 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 10. Création de la scène Jeu - Script
+### 9. Création de la scène Menu - Script consignes
+- [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
+- [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
+
+
+### 10. Création de la scène Menu - Script UI
+- [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
+- [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
+- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
+- [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
+- [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
+
+
+### 11. Création de la scène Jeu - Script
 Un exemple vous sera montré en classe. Votre script devra comprendre les éléments suivants:     
 
 - [ ] La scène jeu montre une nouvelle image à balayer à chaque 5 secondes. 
@@ -172,16 +184,16 @@ Un exemple vous sera montré en classe. Votre script devra comprendre les élém
 
 
 
-### 11. Défi (Sera évalué)
+### 12. Défi (Sera évalué)
 - [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu.
 - [ ] Dans la scène jeu, créez des boutons qui permettent d'ajuster la difficulté du jeu: Facile = l'image change à chaque 5 secondes, moyen = l'image change à chaque 4 secondes, difficile = l'image change à chaque 3 secondes. 
 
 
-### 12. Création de l'application
+### 13. Création de l'application
 - [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html">Exporter pour Android</a>
 
 
-### 13. Remise du travail 1
+### 14. Remise du travail 1
 Remettre votre travail dans le dossier suivant: 
 
 [📁 Remise Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EqD3pun06hRMg_pJF1EHOx8Bb4YBZCGASLu_OV1PRCOwlg?e=bVj2Nu){ .md-button }   
