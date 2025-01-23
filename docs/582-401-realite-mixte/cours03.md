@@ -12,10 +12,10 @@ Quelles conclusions pouvez-vous faire?
 
 ### Avancement du travail 1
 #### Sons
-[💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-jeu-sons){ .md-button }     
+[💼 Travail 1 - Étape 8](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#8-creation-de-la-scene-jeu-sons){ .md-button }     
 
 
-## Bloc 1
+## Bloc 2
  
 #### Code
 - [📝 Variables](./code/variables.md)
