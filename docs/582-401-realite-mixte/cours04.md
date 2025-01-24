@@ -6,29 +6,29 @@
 
 ### Avancement du travail 1
 #### Script UI
-[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-script-ui.html){ .md-button }     
-
-#### Script consignes
-[💼 Travail 1 - Étape 11](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-script-consignes.html){ .md-button }     
-
+[💼 Travail 1 - Étape 11](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#11-creation-de-la-scene-menu-script-ui){ .md-button }     
 
 
 ## Bloc 2
+#### Contrôle de la qualité et défis     
+
+### Test de l'application
+Répertorier les problèmes, trouver des solutions.
+
+### Avancement du travail 1
+[💼 Travail 1 - Étape 12](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#12-defi-sera-evalue){ .md-button }     
+
+
+## Bloc 3
 #### Exportation
 - [📝 Exportation](./unity/build.md)  
 
 ### Avancement du travail 1
 #### Création de l'application
-
-**Étape 12 - Défi (Sera évalué)**     
-
-- [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu. 
-
-
-[💼 Travail 1 - Étape 13](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-creation-app.html){ .md-button }     
+[💼 Travail 1 - Étape 13](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#13-creation-de-lapplication){ .md-button }     
 
 
 ## Devoir
 
 ### Terminer les étapes 1 à 14 du travail 1
-[💼 Travail 1](./consignes/travail1.md){ .md-button }    
+[💼 Travail 1](./travaux/travail1.md){ .md-button }    

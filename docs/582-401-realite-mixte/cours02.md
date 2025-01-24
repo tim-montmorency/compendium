@@ -6,13 +6,6 @@
 
 #### Configuration
 - [📝 Plateforme de développement](./installation/configuration.md) 
-
-### Avancement du travail 1
-#### Création du projet
-[💼 Travail 1 - Étape 1](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-creation-projet.html){ .md-button }     
-
-## Bloc 2
-#### Configuration
 - [📝 Unity remote](./installation/unity-remote.md)   
        
 #### Réalité augmentée
@@ -22,9 +15,9 @@
 
 ### Avancement du travail 1
 #### Préparation de Vuforia
-[💼 Travail 1 - Étape 2](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-preparation-vuforia){ .md-button }     
+[💼 Travail 1 - Étape 2](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#2-preparation-de-vuforia){ .md-button }     
 
-## Bloc 3
+## Bloc 2
 #### Détection en réalité augmentée
 - [📝 Créer de bonnes images de détection](./realite-augmentee/detection.md)
 - [📝 Créer une base de données avec les images](./realite-augmentee/base_donnees.md)
@@ -35,10 +28,10 @@
 
 ### Avancement du travail 1
 #### Détection AR
-[💼 Travail 1 - Étape 3](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-detection-ar){ .md-button }     
+[💼 Travail 1 - Étape 3](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#3-creation-de-la-scene-jeu-detection-ar){ .md-button }     
 
 
-## Bloc 4  
+## Bloc 3   
 #### Calques
 - [📝 Calques](./unity/sorting_layers.md)     
 
@@ -49,17 +42,26 @@
 - [📝 Fenêtre animation](./unity/fenetre_anim.md)
 - [📝 Animation de *Sprite sheet*](./unity/animation.md)
 
+## Bloc 4     
+(Si le temps le permets)         
 
+#### Menus
+- [📝 Composantes menu](./unity/UI.md)     
 
-### Avancement du travail 1       
-#### Animations de sprite
-[💼 Travail 1  - Étape 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-sprite){ .md-button }       
+#### Police de caractères
+- [📝 Police de caractères](./unity/font.md)   
 
-**OU**     
+### Avancement du travail 1
+#### Menu UI
+[💼 Travail 1 - Étape 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#5-creation-de-la-scene-menu-ui){ .md-button }     
 
-#### Animations de vidéos
-[💼 Travail 1  - Étape 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1-animation-video){ .md-button }     
+#### Menu consignes
+[💼 Travail 1 - Étape 6](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#6-creation-de-la-scene-menu-consignes){ .md-button }     
+
+#### Menu Jeu
+[💼 Travail 1 - Étape 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#7-creation-de-la-scene-jeu-ui){ .md-button }     
+
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 1 à 5](https://tim-montmorency.com/compendium/582-401-realite-mixte/consignes/travail1){ .md-button }    
+[💼 Travail 1 - Étapes 1 à 7](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }    

@@ -38,6 +38,8 @@ Technique où des séquences vidéo réelles sont utilisées comme référence p
 
 Exemple célèbre : le film [A Scanner Darkly](https://www.imdb.com/fr/title/tt0405296/).
 
+Coup de coeur de Marie-Michelle : le film [Waking Life](https://www.youtube.com/watch?v=uk2DeTet98o).
+
 ![](../assets/images/rotoscopie.gif){ .w-100 }
 
 ### Stop Motion 2D

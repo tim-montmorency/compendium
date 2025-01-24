@@ -40,26 +40,50 @@ Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibli
 - [📝 Importer des *Assets* depuis le *Asset store*](./unity/creer_projet.md)        
 
 
+## Réalité augmentée
+#### Test d'exemples de livres en AR
+Livres:      
+
+- Slush le lutin
+- Tracé de voyage
+- Bandits des mers
+
 ## Travail 1
     
 [💼 Travail 1](./travaux/travail1.md){ .md-button }   
 
 #### Création de visuels
 - [📝 Sprite](./unity/sprite.md)
-
-
-#### Test d'exemples de travail 1 et de livres en AR
-Projets de:       
-
-- Quoc Huy Do    
-- Felix Testa Radovanovic    
-- Jacob Alarie-Brousseau    
-- Antoine Haddad    
-  
        
 
 #### Réflexion sur la thématique de votre travail 1
 Tempête d'idées   
+
+
+## Devoir 
+#### Réaliser l'étape 1 du travail 1
+[💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){ .md-button }   
+
+#### Créer les contenus de votre travail 1
+**Visuel en mouvement**
+
+- [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
+
+
+**Visuel statique**
+
+- [ ] 2 images qu'on pourra scanner avec un appareil mobile.
+- [ ] Des visuels pour les boutons.
+- [ ] Des visuels pour le menu.
+
+**Police de caractère**
+
+- [ ] Trouver une police de caractère qui vous plaît et la télécharger (pour le menu et les messages).
+
+**Sonore**
+
+- [ ] 2 sons qui accompagneront les animations.
+
                      
            
 
