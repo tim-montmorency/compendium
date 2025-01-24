@@ -64,7 +64,7 @@ Voici le processus d'installation étape par étape en capture d'écran.
 
 ## Configuration
 
-Par défaut, les sites Web en local doivent être inclus dans le dossier suivant : `C:\MAMP\htdocs`. 
+Par défaut, les sites Web en local doivent être inclus dans le dossier suivant : `C:\MAMP\htdocs`.
 
 Afin de s'assurer qu'il n'y ait pas de problème de persmission, je vous suggère de vous choisir un autre emplacement. Par exemple : `C:\Users\<NOM_UTILISATEUR>\Sites`.
 
@@ -81,7 +81,7 @@ Dans l'interface [PhpMyAdmin](http://localhost:81/MAMP/phpmyadmin.php), vous dev
 
 Créez une nouvelle base de données et donnez lui un nom (ex. : mon_premier_cms).
 
-Concernant le menu déroulant situé juste à côté du nom de la base de données, celui-ci désigne la bonne *collation* (:material-food: miam miam) de votre BD. 
+Concernant le menu déroulant situé juste à côté du nom de la base de données, celui-ci désigne la bonne *collation* (:material-food: miam miam) de votre BD.
 
 Une *collation* est un ensemble de règles qui détermine comment les caractères sont comparés, triés, et recherchés dans une base de données. Pour WordPress, il est recommandé d'utiliser `utf8mb4_unicode_ci`. Voici pourquoi :
 

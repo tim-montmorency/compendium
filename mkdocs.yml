@@ -287,10 +287,7 @@ nav:
       - Ressources: 582-401-realite-mixte/ressources.md
   - Web 4:
       - 582-411-web4/index.md
-      - Cours 1:
-          - 582-411-web4/cours01/index.md
-          - Installation MAMP: 582-411-web4/cours01/mamp-install.md
-          - Installation WordPress: 582-411-web4/cours01/wp-install.md
+      - Cours 1: 582-411-web4/cours01.md
       - Cours 2: 582-411-web4/cours02/index.md
       - Cours 3: 582-411-web4/cours03/index.md
       - Cours 4: 582-411-web4/cours04/index.md

@@ -3,7 +3,7 @@
 *[CMS]: Content Management System
 *[BD]: Base de données
 
-![bienvenue](../assets/images/welcome.webp){.w-100}
+![bienvenue](./assets/images/welcome.webp){.w-100}
 
 ## Système de gestion de contenu (CMS)
 
@@ -26,19 +26,19 @@ Voici une liste non exhautive de CMS populaires[^cms] :
 Voici un aperçu rapide de ce à quoi ressemble le CMS wordpress :
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/wp-dashboard.png){data-zoom-image}
+  ![](./assets/images/wp-dashboard.png){data-zoom-image}
 
   Interface administrative où les utilisateurs gèrent le contenu, les paramètres et les fonctionnalités du site (back-end)
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/wp-inline-edition.png){data-zoom-image}
+  ![](./assets/images/wp-inline-edition.png){data-zoom-image}
 
   Édition du contenu en ligne (inline editing)*
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/wp-front.png){data-zoom-image}
+  ![](./assets/images/wp-front.png){data-zoom-image}
 
   Aperçu du résultat final (front-end)
 </div>
@@ -103,7 +103,7 @@ Il est également préférable d’acquérir un nom de domaine pour que les visi
 
 ## WordPress
 
-![](../assets/images/wp-banner.png)
+![](./assets/images/wp-banner.png)
 
 WordPress est un CMS open-source permettant de créer et de gérer des sites Web sans nécessiter de connaissances approfondies en programmation.
 
@@ -168,36 +168,43 @@ Qu’est-ce qu’un serveur ?
 
 Un serveur est un **ordinateur** ou un **programme** qui **fournit des services** à d'autres **ordinateurs**, appelés clients, via un **réseau** (souvent internet).
 
-!!! info "Le saviez vous?" 
+!!! info "Le saviez vous?"
 
-    Lorsque vous utilisez l'extension Live Server dans Visual Studio Code (VS Code) 
-    
+    Lorsque vous utilisez l'extension Live Server dans Visual Studio Code (VS Code)
+
     [:octicons-broadcast-24: Go live](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-    
+
     vous créez en réalité un serveur local. Cela signifie que votre ordinateur agit temporairement comme un serveur web, permettant d'afficher et de tester vos pages HTML, CSS et JavaScript dans un navigateur web, comme si elles étaient hébergées en ligne.
 
 ### Base de données
 
 Une base de données est un système qui permet de stocker, organiser et gérer des informations de manière structurée.
 
-![](../assets/images/db-basics.png){data-zoom-image}
+![](./assets/images/db-basics.png){data-zoom-image}
 
-Plus concrètement : 
+Plus concrètement :
 
-![](../assets/images/db-basics-example.png){data-zoom-image}
+![](./assets/images/db-basics-example.png){data-zoom-image}
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/mamp-install-preview.png)
+  ![](./assets/images/mamp-install-preview.png)
 
   <small>Exercice - MAMP</small><br>
-  **[Installation de base](./mamp-install.md){.stretched-link}**
+  **[Installation de base](./exercices/mamp-install.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/wp-install-preview.png)
+  ![](./assets/images/wp-install-preview.png)
 
   <small>Exercice - Wordpress</small><br>
-  **[Installation de base](./wp-install.md){.stretched-link}**
+  **[Installation de base](./exercices/wp-install.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/wp-install-preview.png)
+
+  <small>Exercice - Wordpress</small><br>
+  **[Installation de base](./exercices/wp-install.md){.stretched-link .back}**
 </div>
