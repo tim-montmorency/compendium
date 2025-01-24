@@ -6725,18 +6725,33 @@
 
 
 <div><h1 id="installation-de-wordpress">Installation de WordPress<a class="headerlink" href="#installation-de-wordpress" title="Permanent link">¶</a></h1>
-<p>L'objectif de cet exercice est d'installer le CMSWordPress localement avec un serveur AMP via MAMP.</p>
+<p>L'objectif de cet exercice est d'installer le CMS WordPress localement avec un serveur AMP.</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si ce n'est déjà fait, télécharger et installer MAMP sur l'ordinateur. (Les ordinateurs en TIM devraient disposer de MAMP par défaut)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer une base de données pour WordPress.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Télécharger WordPress et extraire les fichiers.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Copiez les fichiers extraits dans le dossier htdocs de MAMP.
-    •   Accédez à http://localhost/nom_du_dossier dans votre navigateur.
-    •   Suivez l’assistant d’installation :
-    •   Nom de la base de données : wordpress_db.
-    •   Utilisateur : root.
-    •   Mot de passe : (laisser vide si non configuré).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si ce n'est déjà fait, créez une nouvelle base de données pour votre site Wordpress.</li>
 </ul>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <a href="https://fr-ca.wordpress.org/download/">Télécharger WordPress</a> et extraire les fichiers dans le dossier des sites de MAMP (htdocs ou autrement précifié).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Renommez le dossier wordpress par le nom de votre projet. Ex: mon_premier_wp</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Accédez à http://localhost/mon_premier_wp dans votre navigateur (ça peut prendre un certain temps)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez l’assistant d’installation :</li>
+</ul>
+<hr>
+<p>Bienvenue sur WordPress. Avant de commencer, vous aurez besoin de connaître les éléments suivants.</p>
+<ol>
+<li>Nom de la base de données</li>
+<li>Nom d’utilisateur MySQL</li>
+<li>Mot de passe de l’utilisateur</li>
+<li>Adresse de la base de données</li>
+<li>Préfixe de table (si vous souhaitez avoir plusieurs WordPress sur une même base de données)</li>
+</ol>
+<p>Ces informations sont utilisées pour créer un fichier <code>wp-config.php</code>. <strong>Si pour une raison ou pour une autre la création automatique du fichier ne fonctionne pas, ne vous inquiétez pas. Sa seule action est d’ajouter les informations de la base de données dans un fichier de configuration. Vous pouvez aussi simplement ouvrir</strong> <code>wp-config-sample.php</code> <strong>dans un éditeur de texte, y remplir vos informations et l’enregistrer sous le nom de</strong> <code>wp-config.php</code>. Besoin d’une aide complémentaire ? Lisez l’article de soutien sur <code>wp-config.php</code>.</p>
+<p>Vous devriez normalement avoir reçu ces informations de la part de votre hébergeur. Si vous ne les avez pas, il vous faudra contacter votre hébergeur afin de continuer. Si vous avez tout le nécessaire, alors…</p>
+<hr>
+<pre><code>•   Nom de la base de données : wordpress_db.
+•   Utilisateur : root.
+•   Mot de passe : (laisser vide si non configuré).
+</code></pre>
 <p>Finaliser l’installation :
     •   Choisissez un nom de site.
     •   Créez un utilisateur administrateur (nom et mot de passe).</p>

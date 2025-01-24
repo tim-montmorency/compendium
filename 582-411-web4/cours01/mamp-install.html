@@ -5500,9 +5500,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation-en-windows" class="md-nav__link">
+  <a href="#installation-sur-windows" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation en Windows
+      Installation sur Windows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#urls" class="md-nav__link">
+    <span class="md-ellipsis">
+      URLs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creation-dune-base-de-donnees-bd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Création d'une base de données (BD)
     </span>
   </a>
   
@@ -6764,9 +6791,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation-en-windows" class="md-nav__link">
+  <a href="#installation-sur-windows" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation en Windows
+      Installation sur Windows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#urls" class="md-nav__link">
+    <span class="md-ellipsis">
+      URLs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creation-dune-base-de-donnees-bd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Création d'une base de données (BD)
     </span>
   </a>
   
@@ -6801,8 +6855,8 @@
 <div><h1 id="installation-de-mamp">Installation de Mamp<a class="headerlink" href="#installation-de-mamp" title="Permanent link">¶</a></h1>
 <h2 id="telechargement">Téléchargement<a class="headerlink" href="#telechargement" title="Permanent link">¶</a></h2>
 <p>Mamp est gratuit, mais il est possible de payer pour obtenir des fonctionnalités supplémentaires. Dans le cadre du cours, nous utiliserons la version gratuite.</p>
-<p><a class="md-button md-button--primary" href="https://www.mamp.info/en/downloads/">Télécharger l'application MAMP</a></p>
-<h2 id="installation-en-windows">Installation en Windows<a class="headerlink" href="#installation-en-windows" title="Permanent link">¶</a></h2>
+<p><a class="md-button md-button--primary" href="https://www.mamp.info/en/downloads/">Télécharger l'application MAMP <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"></path></svg></span></a></p>
+<h2 id="installation-sur-windows">Installation sur Windows<a class="headerlink" href="#installation-sur-windows" title="Permanent link">¶</a></h2>
 <p>Voici le processus d'installation étape par étape en capture d'écran.</p>
 <figure>
 <p><img alt="" class="w-100" src="../assets/images/mamp-install-a.png">
@@ -6848,7 +6902,52 @@
 <p><img alt="" class="w-100" src="../assets/images/mamp-install-i.png">
   </p>
 <figcaption>L'installation est complétée. Cliquez sur le bouton « Finish »</figcaption>
-</figure></div>
+</figure>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">¶</a></h2>
+<p>Par défaut, les sites Web en local doivent être inclus dans le dossier suivant : <code>C:\MAMP\htdocs</code>. </p>
+<p>Afin de s'assurer qu'il n'y ait pas de problème de persmission, je vous suggère de vous choisir un autre emplacement. Par exemple : <code>C:\Users\&lt;NOM_UTILISATEUR&gt;\Sites</code>.</p>
+<h2 id="urls">URLs<a class="headerlink" href="#urls" title="Permanent link">¶</a></h2>
+<p>Losque votre serveur MAMP est démarré, vous pourrez ensuite accéder à ces adresses :</p>
+<ul>
+<li>Sites en local : <a href="http://localhost:81/">http://localhost:81/</a></li>
+<li>Base de données (PhpMyAdmin) : <a href="http://localhost:81/MAMP/phpmyadmin.php">http://localhost:81/MAMP/phpmyadmin.php</a></li>
+</ul>
+<h2 id="creation-dune-base-de-donnees-bd">Création d'une base de données (<abbr title="Base de données">BD</abbr>)<a class="headerlink" href="#creation-dune-base-de-donnees-bd" title="Permanent link">¶</a></h2>
+<p>Dans l'interface <a href="http://localhost:81/MAMP/phpmyadmin.php">PhpMyAdmin</a>, vous devrez créer une base de donnée. Celle-ci sera le conteneur de toutes les tables nécessaires à l'usage d'un site Wordpress en particulier. Si vous faites un autre site Web, il vous faudra une autre base de données.</p>
+<p>Créez une nouvelle base de données et donnez lui un nom (ex. : mon_premier_cms).</p>
+<p>Concernant le menu déroulant situé juste à côté du nom de la base de données, celui-ci désigne la bonne <em>collation</em> (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18.06 23h1.66c.84 0 1.53-.65 1.63-1.47L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29zM1 22v-1h15.03v1c0 .54-.45 1-1.03 1H2c-.55 0-1-.46-1-1m15.03-7C16.03 7 1 7 1 15zM1 17h15v2H1z"></path></svg></span> miam miam) de votre <abbr title="Base de données">BD</abbr>. </p>
+<p>Une <em>collation</em> est un ensemble de règles qui détermine comment les caractères sont comparés, triés, et recherchés dans une base de données. Pour WordPress, il est recommandé d'utiliser <code>utf8mb4_unicode_ci</code>. Voici pourquoi :</p>
+<table>
+<thead>
+<tr>
+<th><em>Collation</em></th>
+<th>Avantages</th>
+<th>Inconvénients</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>utf8_general_ci</td>
+<td>Plus rapide pour des cas simples.</td>
+<td>Limité aux caractères UTF-8 (pas d’émojis).</td>
+</tr>
+<tr>
+<td>utf8_unicode_ci</td>
+<td>Bonne gestion des langues.</td>
+<td>Ne prend pas en charge les émojis.</td>
+</tr>
+<tr>
+<td>utf8mb4_general_ci</td>
+<td>Compatible avec tous les caractères modernes.</td>
+<td>Tri simplifié, moins précis.</td>
+</tr>
+<tr>
+<td><strong>utf8mb4_unicode_ci</strong></td>
+<td>Meilleure précision linguistique et compatibilité complète.</td>
+<td>Un peu plus lent pour de grandes <abbr title="Base de données">BD</abbr>.</td>
+</tr>
+</tbody>
+</table></div>
 
 
 
