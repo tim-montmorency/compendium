@@ -32,11 +32,6 @@ Produire un site Web à l’aide d’un système de gestion de contenu (CMS).
 
   **Jean-François Cartier**<br>
   _Enseignant en Techniques d'intégration multimédia_<br>
-  :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br>
-  :material-github: [https://github.com/jfcmontmorency](https://github.com/jfcmontmorency)<br>
-  :material-codepen: [https://codepen.io/tim-momo](https://codepen.io/tim-momo)
+  :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br><br>
+  [Plan de cours :material-download:](./assets/documents/582-411_Web4_H2025_JFC.pdf){ .md-button .md-button--primary }
 </div>
-
-[STOP]
-
-[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary }

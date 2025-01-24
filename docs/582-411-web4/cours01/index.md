@@ -5,8 +5,6 @@
 
 ![bienvenue](../assets/images/welcome.webp){.w-100}
 
-## Retour sur Web 3
-
 ## Système de gestion de contenu (CMS)
 
 Un CMS (Content Management System) c'est un outil qui permet de créer, organiser et gérer des contenus sans programmation ! Il est composé d'un gros paquet de fichiers de programmation qui permet d'exécuter plein de fonctionnalités.
@@ -25,7 +23,7 @@ Voici une liste non exhautive de CMS populaires[^cms] :
 * :simple-blogger: Blogger
 * :simple-wix: Wix
 
-Voici un aperçu rapide de ce à quoi ressemble un CMS :
+Voici un aperçu rapide de ce à quoi ressemble le CMS wordpress :
 
 <div class="grid grid-1-2" markdown>
   ![](../assets/images/wp-dashboard.png){data-zoom-image}
@@ -51,11 +49,11 @@ Voici un aperçu rapide de ce à quoi ressemble un CMS :
 
 Voici quelques-unes des fonctionnalités clés que l’on retrouve généralement dans un CMS :
 
-* **Interface conviviale (UI)** : Une interface utilisateur intuitive permet aux administrateurs et aux éditeurs de naviguer facilement dans le système, de créer et de modifier du contenu sans nécessiter de compétences techniques avancées. ￼
+* **Interface conviviale (UI)** : Une interface utilisateur intuitive permet aux administrateurs et aux éditeurs de naviguer facilement dans le système, de créer et de modifier du contenu sans nécessiter de compétences techniques avancées.
 * **Gestion de contenu** : Les CMS permettent une gestion efficace du contenu, offrant des fonctionnalités pour ajouter, modifier et supprimer des pages, des articles, des images et d’autres types de médias.
 * **Personnalisation de l’apparence** : La possibilité de personnaliser l’apparence du site grâce à des **thèmes**.
 * **Optimisation pour les moteurs de recherche (SEO)**
-* **Gestion des utilisateurs et des permissions** : La possibilité de gérer plusieurs utilisateurs avec des rôles et des permissions spécifiques, facilitant la collaboration tout en maintenant la sécurité et le contrôle sur le contenu publié. ￼
+* **Gestion des utilisateurs et des permissions** : La possibilité de gérer plusieurs utilisateurs avec des rôles et des permissions spécifiques, facilitant la collaboration tout en maintenant la sécurité et le contrôle sur le contenu publié.
 * **Sécurité** : Des fonctionnalités de sécurité robustes, y compris des mises à jour régulières, la gestion des permissions et le support SSL, sont essentielles pour protéger les informations sensibles et assurer la fiabilité du site.
 * **Support multilingue**
 * **Optimisation pour les appareils mobiles** : En bonne partie lié au thème choisi.
@@ -103,19 +101,6 @@ Une base de données est un logiciel serveur conçu pour stocker, organiser et g
 
 Il est également préférable d’acquérir un nom de domaine pour que les visiteurs puissent accéder facilement à votre site (par exemple, recettes.qc.ca) plutôt que par une adresse IP (par exemple: 24.71.1.221). Ce domaine doit être configuré pour pointer vers votre serveur !
 
-### Cycle complet
-
-
-1. La requête initiale du client
-	•	Action :
-Un utilisateur saisit “recette courge poivrée” dans son navigateur et appuie sur “Entrée”.
-	•	Résultat :
-Une requête HTTP/HTTPS est envoyée à l’adresse recettes.qc.ca. Cette requête inclut des informations comme :
-	•	Le type de requête (GET, POST, etc.).
-	•	L’URL demandée (par exemple, https://recettes.qc.ca/?s=recette+courge+poivrée).
-	•	Les en-têtes (headers) avec des informations sur le navigateur et le client.
-
-
 ## WordPress
 
 ![](../assets/images/wp-banner.png)
@@ -140,24 +125,28 @@ WordPress est un CMS open-source permettant de créer et de gérer des sites Web
 
 WordPress est sous licence GPL. Voici les trois avantages principaux :
 
-* Vous pouvez utiliser WordPress comme bon vous semble sans aucune restriction.
+* Vous pouvez utiliser WordPress comme bon vous semble **sans aucune restriction**.
 * Vous pouvez personnaliser, ajouter ou supprimer tout ce que vous n’aimez pas dans WordPress sans aucune restriction.
 * Vous pouvez reconditionner, renommer, vendre et distribuer WordPress sans aucune restriction, sauf qu’il est également publié sous licence GPL.
 
 ## WordPress.com / WordPress.org
 
-| Critère          | WordPress.com                                                      | WordPress.org |
-| ---------------- | ------------------------------------------------------------------ | ------------- |
-| Hébergement      | Hébergé par [Automattic](https://en.wikipedia.org/wiki/Automattic) | Hébergé par vous-même (auto-hébergé) |
-| Coût             | Gratuit avec options payantes.                                     | 100% gratuit, mais vous payez pour l’hébergement |
-| Personnalisation | Limitée (certains thèmes et plugins restreints)                    | Totale (tous les thèmes et plugins disponibles) |
+WordPress.org appartient à la communauté open-source et est supervisé par la WordPress Foundation.
+
+WordPress.com appartient à Automattic, une société privée dirigée par Matt Mullenweg.
+
+| Critère          | WordPress.com                                                      | WordPress.org                                           |
+| ---------------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
+| Hébergement      | Hébergé par [Automattic](https://en.wikipedia.org/wiki/Automattic) | Hébergé par vous-même (auto-hébergé)                    |
+| Coût             | Gratuit avec options payantes.                                     | 100% gratuit, mais vous payez pour l’hébergement        |
+| Personnalisation | Limitée (certains thèmes et plugins restreints)                    | Totale (tous les thèmes et plugins disponibles)         |
 | Nom de domaine   | Sous-domaine gratuit (ex. : votresite.wordpress.com)               | Nécessite un domaine personnalisé (ex. : votresite.com) |
-| Publicité        | Publicité imposée sur les plans gratuits                           | Pas de publicité imposée |
+| Publicité        | Publicité imposée sur les plans gratuits                           | Pas de publicité imposée                                |
 
 ## Lexique à connaître
 
 * **Thèmes** : Un thème détermine l’apparence visuelle et la mise en page d’un site. Il peut être modifié sans affecter le contenu.
-* **Plugins** : Les plugins ajoutent des fonctionnalités (ex. : formulaires, SEO, sécurité). Exemple : Yoast SEO pour le référencement, WooCommerce pour l’e-commerce.
+* **Plugins** : Les plugins ajoutent des fonctionnalités (ex. : formulaires, SEO, sécurité). Exemple : [Yoast SEO](https://en-ca.wordpress.org/plugins/wordpress-seo/) pour le référencement, [WooCommerce](https://en-ca.wordpress.org/plugins/woocommerce/) pour l’e-commerce.
 
 ## Introduction à l’environnement AMP (Apache, MySQL, PHP)
 
@@ -170,45 +159,32 @@ AMP : Acronyme pour Apache, MySQL et PHP, utilisé pour simuler un serveur sur s
 Outils courants
 
 * XAMPP (Windows / Mac / Linux)
-* MAMP (Windows / Mac)
+* **MAMP** (Windows / Mac)
 * WAMP (Windows)
 
 ### Serveur
 
 Qu’est-ce qu’un serveur ?
 
-[:octicons-broadcast-24: Go live](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+Un serveur est un **ordinateur** ou un **programme** qui **fournit des services** à d'autres **ordinateurs**, appelés clients, via un **réseau** (souvent internet).
+
+!!! info "Le saviez vous?" 
+
+    Lorsque vous utilisez l'extension Live Server dans Visual Studio Code (VS Code) 
+    
+    [:octicons-broadcast-24: Go live](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+    
+    vous créez en réalité un serveur local. Cela signifie que votre ordinateur agit temporairement comme un serveur web, permettant d'afficher et de tester vos pages HTML, CSS et JavaScript dans un navigateur web, comme si elles étaient hébergées en ligne.
 
 ### Base de données
 
+Une base de données est un système qui permet de stocker, organiser et gérer des informations de manière structurée.
+
 ![](../assets/images/db-basics.png){data-zoom-image}
 
-Plus concrètement :
+Plus concrètement : 
 
 ![](../assets/images/db-basics-example.png){data-zoom-image}
-
-Encore plus concrètement :
-
-[Exemple de base de données](https://docs.google.com/spreadsheets/d/1UrpLz3xW8v7MJjuDbJq8beKEzivx062v6dDO_5OvQRA/edit?usp=sharing)
-
-### MAMP
-
-Téléchargement et Installation
-
-Ajoutez vos fichiers dans ... (htdocs)
-
-Création de base de donnée
-	•	Ouvrez phpMyAdmin via l’interface de votre outil AMP.
-	•	Créez une nouvelle base de données (ex. : wordpress_db).
-
-Choisir la bonne *collation* :material-food: (miam miam) est primordiale. Une *collation* est un ensemble de règles qui détermine comment les caractères sont comparés, triés, et recherchés dans une base de données. Pour WordPress, il est fortement recommandée d'utiliser `utf8mb4_unicode_ci`.
-
-| *Collation*            | Avantages                                                   | Inconvénients                               |
-| ---------------------- | ----------------------------------------------------------- | ------------------------------------------- |
-| utf8_general_ci        | Plus rapide pour des cas simples.                           | Limité aux caractères UTF-8 (pas d’émojis). |
-| utf8_unicode_ci        | Bonne gestion des langues.                                  | Ne prend pas en charge les émojis.          |
-| utf8mb4_general_ci     | Compatible avec tous les caractères modernes.               | Tri simplifié, moins précis.                |
-| **utf8mb4_unicode_ci** | Meilleure précision linguistique et compatibilité complète. | Un peu plus lent pour de grandes BD.        |
 
 ## Exercices
 
