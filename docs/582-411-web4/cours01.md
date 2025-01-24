@@ -203,8 +203,8 @@ Plus concrètement :
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/wp-install-preview.png)
+  ![](./assets/images/mysterieuses-cites-or-preview.png)
 
   <small>Exercice - Wordpress</small><br>
-  **[Installation de base](./exercices/wp-install.md){.stretched-link .back}**
+  **[Les mysterieuses cités d'or](./exercices/wp-cites-dor.md){.stretched-link .back}**
 </div>
