@@ -1,4 +1,16 @@
 # Cours 3     
+* Gestion des calques et des animations 
+    - Solides 
+    - Formes 
+    - Texte
+* Animation par déformation (l’outil marionnette) 
+[:material-play-circle: Utiliser l'outil marionnette (puppet) - 4 capules vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=u6gtvD)
+* Morphage
+* Orientation automatique
+
+
+## Animation par déformation (l’outil marionnette) 
+[:material-play-circle: Utiliser l'outil marionnette (puppet) - 4 capules vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=u6gtvD)
 
 [STOP]
 

@@ -10,6 +10,16 @@
 * Lissage de vitesse de base (ease)
 * Prévisualisation et flux de travail
 
+## Animation en arc (courbe)
+[:material-play-circle: Animation en arc (courber la trajectoire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zpluG)
+
+## Hiérarchies et relations d'objets (nul, parent, enfant)
+[:material-play-circle: Lier les calque parents et enfants](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EevYZli_buxNscVZ_P9WGzcBg2U7J6mYkKW5KvQfZRJjwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=encRsV)
+
+
+### Outil marionnette
+
+
 ## Les 12 principes de l’animation
 
 ### L'origine
