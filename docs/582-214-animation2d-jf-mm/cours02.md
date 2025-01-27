@@ -1,87 +1,123 @@
 # Cours 2      
 
-[STOP]
+## Bases de l’animation
 
-## Retour sur le devoir   
-[🛠️ Maison](exercice_ai/04_maison.md){ .md-button }   
-    
-[🛠️ Formes simples](exercice_ai/04_formes_simples.md){ .md-button }    
-    
-[🛠️ Devoir 1](exercice_ai/04_devoir_1.md){ .md-button }    
+* Animation en courbe
+* Hiérarchies et relations d'objets (nul, parent, enfant)
 
-## Illustrator     
-### Exportation et crayon
+? : carré, cercle
 
+* Lissage de vitesse de base (ease)
+* Prévisualisation et flux de travail
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERSReehDFyBBhkRuuu-IZuAB3g1PvdYW3C3dVaeMAA4rwQ?e=DAE16t">Exportation</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdlQKYC_ZdNFlN6W7cq54kQBx3evpB7o0TitXQJEt3PhJA?e=yDenP2">Crayon (N)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ef1TjjvjbjhAtZ8e69VC-UcByeZDRGWB510iZODaHbimuA?e=AYxsmx">Shaper</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVQXT9fceRlGie7B72m9r7kB2HO8KaT1kRVhvWu2yvV0QA?e=wEvZsD">Simplifier les contours</a>
-   
+## Les 12 principes de l’animation
 
-[🛠️ Crayon et shaper](exercice_ai/05_crayon_shaper.md){ .md-button }    
+### L'origine
 
-      
-### Pinceau, découpe et vectorisation
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/illusion-of-life.png)
 
+  Disney Animation: The Illusion of Life[^disneyanim] (1981)<br><br>
+  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://archive.org/details/disney-animation-the-illusion-of-life/mode/2up)
+</div>
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeAcTCH7CUZKk6CTkwhG8-8B371RWYGBXqiUseW9LAPJlw?e=jmHAt8">Pinceau (B)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eaj8dcdB3IlEvz_zXQ6QmxQBUiJDGSGWzRMFp95_vIWiCg?e=Fr2HLA">Jonction</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESwTH2I8Do9MkjRnKNnodHABW-DFUVG36G02AtTJyBw7GA?e=Vn0DiO">Gomme (Maj +E)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYJAvExXxTZMtSkvOcHpmY4BFB9vIRqNkXUIPnRLT8MG1w?e=d9i3S6">Cutter</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVYeu9N1iG9MrndylAX0FCEBYlPJXMPRPQ5BPm0N4Jf6rw?e=uX8L5i">Vectoriser les contours</a>
-   
-[🛠️ Papillon](exercice_ai/06_papillon.md){ .md-button }      
+Dans ce livre, les auteurs ont étudié les principes d'animation des années 1930 et ont classé les différentes approches en 12 principes fondamentaux.
 
-[🛠️ Pinceau](exercice_ai/06_pinceau.md){ .md-button }    
-      
-### Couleurs
+[^disneyanim]: Disney Animation: The Illusion of Life (Wikipedia, en anglais) : <https://en.wikipedia.org/wiki/Disney_Animation:_The_Illusion_of_Life>
 
+### Écrasement et étirement (_Squash & Stretch_)
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ea783BGLQzRBgjwFvcAyOJwBYcbMshlxCp12LoJcARYxSw?e=oQGVWK">Palettes de couleur</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZNNl0cu2UFNjXKl-TvCnLYBXAmQNyVYQieAOLXZ1tL3oA?e=ZNElRZ">Dégradé linéaire</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETebMpCBOyNMucE0tQ2Fk9wBZ3QxjLDA_IE6lofPqVHnEw?e=SxmJfe">Dégradé point ligne</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQ3-rGmHAAZBgEp60EqLqEYBsnU2yMeGLbnd6PqUscIx3g?e=SCfPT1">Filet</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdohoqrJg_BKkGef_AdV5cYBGI4ULInbsE701imTzFYpXQ?e=dbjH0E">Pipette (I)</a>
+![](./assets/images/1_Squash-and-stretch.gif){.w-100}
 
-   
+Sans doute le plus fondamental des 12 principes de l'animation.
 
-[🛠️ Nuancier](exercice_ai/07_nuancier.md){ .md-button }    
-      
-### Transformations et marionnette
+Donne une impression de **poids** ou de **flexibilité** aux objets ou aux personnes. 
 
+Par exemple, une balle rebondissante. Lorsqu'elle touche le sol, vous pouvez écraser la balle pour l'aplatir et l'élargir.
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdBWqucj7k9Dh5_jn3fYoCMB0_qZHEyl9ACh9kt5m8bF2w?e=NMhSBa">Rotation (R)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVA2GDg_Ry5OqiqITnUHteIBIqhtsjnvK2Tn-dDnhCVm7w?e=ESdBKh">Miroir (O)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZrlGGsydSFGvRTQiMmKk2sBOBh-CVRvqsgl064-3y1xwA?e=EygQh5">Mise à l'échelle</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EezPmr0wvPZOngNTrsMfL-cB_W0o5dfSxYFgOG4ukwH1yw?e=KNXifs">Transformation manuelle (E)</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeGkbYSu5qhKpEkrqKIeTFEBbDaJ8iIOuG_Bwd1RErqSrg?e=4AyZ7D">Marionnette</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbffAjE-YKVJgwiDrsyj6oUB5TwGqv1eoJH6DNpA_4F7TA?e=vAlCCc">Marionnette filet</a>
-   
+[:simple-youtube: Vidéo explicative](https://www.youtube.com/watch?v=haa7n3UGyDc&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=1) (en anglais)
 
-[🛠️ Marionnette](exercice_ai/08_marionnette.md){ .md-button }    
-      
-### Alignement
+### Anticipation (_Anticipation_)
+
+![](./assets/images/1_Anticipation.gif){.w-100}
+
+Utilisation d'une petite action pour indiquer qu'une action majeure est sur le point de se produire.
+
+La technique d'anticipation **prépare** subtilement le spectateur à la suite d'un mouvement.
+
+[:simple-youtube: Vidéo explicative](https://www.youtube.com/watch?v=F8OtE60T8yU&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=2) (en anglais)
+
+### Conséquence et chevauchement (_Follow Through & Overlap_)
+
+![](./assets/images/5_Follow-Through-and-Overlapping.gif){.w-100}
+
+Ajout de mouvements après une action pour créer un sentiment de réalisme
 
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZj0BIRpahBOhBFsRbp5bhsB3Tqi7PdKLrqhN1uFF16M0Q?e=OTxr5u">Pathfinder</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXc4p7G-tdtLib26nMAzxdABOWhH7mXFBMbFxPMWZTZ4KQ?e=xQgc5c">Alignement</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXW12cP0Y7FAhWo7D1LXOKkBa6cCvPUSEfJ-bkwRD5iTyg?e=qElAnj">Répartition</a>
-   
+### Arcs de mouvement (_Arcs_)
 
-[🛠️ Pathfinder](exercice_ai/09_pathfinder.md){ .md-button }    
-      
-### Masques
+![](./assets/images/7_Arcs.gif){.w-100}
+
+Mouvement le long de lignes courbes pour respecter le mouvement naturel
+
+### _Slow In & Slow Out_
+
+![](./assets/images/6_Slow-In-Slow-Out.gif){.w-100}
+
+Ralentissement progressif en début et fin d'action pour créer un sentiment réaliste d'accélération et de décélération
+
+### Rythme et synchronisation (_Timing_)
+
+![](./assets/images/9_Timing.gif){.w-100}
+
+L'ajustement du nombre d'images pour modifier la perception de la vitesse d'une animation
+
+### Action secondaire (_Secondary Action_)
+
+![](./assets/images/8_Secondary-Action.gif){.w-100}
+
+Actions secondaires qui enrichissent l'action principale
+
+### Exagération (_Exaggeration_)
+
+![](./assets/images/10_Exaggeration.gif){.w-100}
+
+Dramatise une action pour lui donner de l'importance
+
+### Mise en scène (_Staging_)
+
+![](./assets/images/3_Staging.gif){.w-100}
+
+La mise en scène est la présentation d'une idée de manière à la rendre parfaitement **claire** pour le spectateur.
+
+C'est l'art de **diriger l'attention** du spectateur vers l'élément essentiel de la scène.
+
+[:simple-youtube: Vidéo explicative](https://www.youtube.com/watch?v=u-SXLaQGg50&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=3) (en anglais)
+
+### Animation directe et pose clé (_Straight Ahead & Pose to Pose_)
+
+![](./assets/images/4_Pose-to-Pose.gif){.w-100}
+
+Deux techniques d'animation : enchaînement fluide image par image ou travail à partir de positions clés.
+
+Animation directe : Mieux adapté aux actions fluides et réalistes
+
+Pose clé : Plus efficace pour les scènes dramatiques ou émotionnelles où l'objectif est de transmettre une idée plutôt qu'un réalisme absolu
+
+### Dessin de volume (_Solid Drawings_)
+
+![](./assets/images/11_Solid-Drawings.gif){.w-100}
+
+Représenter des formes avec du volume et du poids pour donner l'illusion de la 3D
+
+### Attrait visuel (_Appeal_)
+
+![](./assets/images/12_Appeal.gif){.w-100}
+
+Captiver le public en créant une animation simple, claire et attrayante
 
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeeL6EuK-iBFpZI-Jt3RcBgBxRHPRwgJkhDs-hjFkU0hKA?e=AQ2U2G">Écrêtage</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXK9TJqqjEFFn0Wc9ZgFZhIBGhOdfNSoxoXmJRJtQPJJkA?e=q9rtSz">Masque, Transparence</a>
-   
 
-[🛠️ Masques](exercice_ai/10_masques.md){ .md-button }        
 
-[🛠️ Transparence](exercice_ai/10_transparence.md){ .md-button }    
 
-      
-## Explication travail 1
-[💼 Travail 1](exercice_ai/travail1.md){ .md-button }       
+
