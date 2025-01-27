@@ -3,12 +3,13 @@
 ## Bases de l’animation
 
 * Prévisualisation et flux de travail
-* Animation en courbe
+* Calque de forme
+* Animation en arc
 * Hiérarchies et relations d'objets (nul, parent, enfant)
 
-? : carré, cercle
-
 * Lissage de vitesse de base (ease)
+
+---
 
 ## Prévisualisation et flux de travail
 [:material-play-circle: Rendu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb3L11GVrj5EvtTqhBUS6GUBPZU0Aq5qfvjt1Eai5ia5og?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vSKFXw)
@@ -19,7 +20,7 @@
 
 [:material-play-circle: Qualité et performance de prévisualition et autres options du panneau de composition](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRIe5w3zY9Ngn9htiZ3sWsBSzQn_IFllHHL-5Fn7ZPQzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ahW3T4)
 
-## Types de calque
+## Types de calque (calque de forme)
 [:material-play-circle: Types de calque de base dont le calque de forme](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlPXJW)
 
 ## Animation en arc (courbe)
@@ -47,6 +48,7 @@
 
 [:material-play-circle: "Explode out" et "Into the wall"]()
 
+---
 
 ## Les 12 principes de l’animation
 
