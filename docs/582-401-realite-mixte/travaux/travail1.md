@@ -4,7 +4,7 @@ Pour le travail 1, vous devrez produire une application simple en réalité augm
 
 !!! warning "Attention"
 
-    Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux disponibles sur le site web [kenney.nl](kenney.nl) ou ce que vous créez vous-même! Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
+    Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux disponibles sur le site web [kenney.nl](https://kenney.nl/) ou ce que vous créez vous-même! Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
 
 
        
