@@ -61,30 +61,18 @@ Tempête d'idées
 
 
 ## Devoir 
+#### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
+[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels){ .md-button }   
+
 #### Réaliser l'étape 1 du travail 1
 [💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){ .md-button }   
 
-#### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
-[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels){ .md-button }       
+#### S'inscrire au Unity student plan
 
-**Visuel en mouvement**
+Appuyer sur enseignement supérieur:     
 
-- [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
-
-
-**Visuel statique**
-
-- [ ] 2 images qu'on pourra scanner avec un appareil mobile.
-- [ ] Des visuels pour les boutons.
-- [ ] Des visuels pour le menu.
-
-**Police de caractère**
-
-- [ ] Trouver une police de caractère qui vous plaît et la télécharger (pour le menu et les messages).
-
-**Sonore**
-
-- [ ] 2 sons qui accompagneront les animations.
+[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }  
+    
 
                      
            
