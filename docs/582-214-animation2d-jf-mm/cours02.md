@@ -26,6 +26,7 @@
 ## Types de calque (surtout pour calque de forme)
 [:material-play-circle: Types de calque de base (démarrez la vidéo à 0:35)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlPXJW)
 
+### Exercice 1
 [🛠️ Exercice : utiliser l'outil de forme ](https://www.adobe.com/ca_fr/learn/after-effects/web/add-animate-shapes?learnIn=1){ .md-button } 
 
 
@@ -35,6 +36,7 @@
 ## Animation en arc (courbe)
 [:material-play-circle: Animation en arc (courber la trajectoire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zpluG)
 
+### Exercice 2
 [🛠️ Exercice trajectoire en courbe ](https://www.adobe.com/ca_fr/learn/after-effects/web/keyframe-animation?learnIn=1){ .md-button }    
 
 
@@ -45,7 +47,7 @@
 
 [:material-play-circle: Animer avec un objet nul](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETV8FnKoJgxHmJEWQvZwFU0B6h6HTaUbxv3KMsHVJUE5kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p8ERLb)
 
-
+### Exercice 3
 [🛠️ Exercice robot: Contrôle de l’animation de plusieurs calques avec les liens de parenté](https://www.adobe.com/ca_fr/learn/after-effects/web/animating-with-parenting?learnIn=1){ .md-button }  
 
 
@@ -189,7 +191,8 @@ Captiver le public en créant une animation simple, claire et attrayante
 [:simple-youtube: _Appeal_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=_SplEuWp0Yw&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=12) (en anglais)
 
 
-
+---
+### Exercice 4
 [🛠️ Exercice balle : "Arcs de mouvement" et "Écrasement et étirement" ](exercices_ae/devoir_balle.md){ .md-button }    
 
 
