@@ -64,7 +64,9 @@ Tempête d'idées
 #### Réaliser l'étape 1 du travail 1
 [💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){ .md-button }   
 
-#### Créer les contenus de votre travail 1
+#### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
+[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels){ .md-button }       
+
 **Visuel en mouvement**
 
 - [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
