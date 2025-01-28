@@ -42,6 +42,11 @@
 - [📝 Fenêtre animation](./unity/fenetre_anim.md)
 - [📝 Animation de *Sprite sheet*](./unity/animation.md)
 
+### Avancement du travail 1
+#### Animations
+[💼 Travail 1 - Étape 4](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#4-creation-de-la-scene-jeu-animations){ .md-button }     
+
+
 ## Bloc 4     
 (Si le temps le permets)         
 
