@@ -26,11 +26,18 @@
 ## Animation en arc (courbe)
 [:material-play-circle: Animation en arc (courber la trajectoire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zpluG)
 
+[🛠️ Exercice trajectoire en courbe ](https://www.adobe.com/ca_fr/learn/after-effects/web/keyframe-animation?learnIn=1){ .md-button }    
+
+
+
+
 ## Hiérarchies et relations d'objets (nul, parent, enfant)
 [:material-play-circle: Lier les calque parents et enfants](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EevYZli_buxNscVZ_P9WGzcBg2U7J6mYkKW5KvQfZRJjwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=encRsV)
 
 [:material-play-circle: Animer avec un objet nul](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETV8FnKoJgxHmJEWQvZwFU0B6h6HTaUbxv3KMsHVJUE5kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p8ERLb)
 
+
+[🛠️ Exercice robot: Contrôle de l’animation de plusieurs calques avec les liens de parenté](https://www.adobe.com/ca_fr/learn/after-effects/web/animating-with-parenting?learnIn=1){ .md-button }  
 
 ## Lissage de vitesse de base (ease)
 [:material-play-circle: Lissage de vitesse à l'eloignement (ease_out) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXQMoOiHLCNJsolStgZMgT0B_fnURMX4YZ_IQvkJVAsDcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4MjUnb)
@@ -177,7 +184,7 @@ Captiver le public en créant une animation simple, claire et attrayante
 
 [:simple-youtube: _Appeal_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=_SplEuWp0Yw&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=12) (en anglais)
 
----
+
 
 [🛠️ Exercice balle : "Arcs de mouvement" et "Écrasement et étirement" ](exercices_ae/devoir_balle.md){ .md-button }    
 

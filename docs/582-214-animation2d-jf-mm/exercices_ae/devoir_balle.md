@@ -3,12 +3,14 @@ L'objectif de l'exercice est de faire rebondir la balle naturellement.
       
 
 ## Étapes
-Suivez les vidéos suivantes pour faire rebondir la balle:   
-
+Suivez les vidéos suivantes pour faire rebondir la balle: 
+  
+- [ ] <a href="https://www.schoolofmotion.com/blog/understanding-the-principles-of-anticipation">Ajout du phénomène d'anticipation avant que la balle ne fasse son premier bond.</a>.
 - [ ] <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXActwLkUrBJgzJrphjnyIIBzrBu01peIdb6hRtmSqtC9g?e=hbzgCx">Animer la base de la balle</a>.
 - [ ] <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZXj5OIEDH5LstWFo5-q7xwB4_6s704Iv8kYw_9feAsfEA?e=HZBOci">Perte d'énergie de la balle</a>.
 - [ ] <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETWb-SABvMxAvHdHNLijNBQBlJwVBuI4DGm4cX2z9b0J7g?e=81lCZx">Compression et étirement</a>.
 - [ ] <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUJdghwuKA9BqMpLR_K0VesBrqzYUOcqsBKvhXH_-Hls4A?e=Z55cek">Texture et rotation</a>.
+
 
 
       
