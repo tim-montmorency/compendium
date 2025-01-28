@@ -62,7 +62,7 @@ Tempête d'idées
 
 ## Devoir 
 #### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
-[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels){ .md-button }   
+[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels-et-recherche-de-contenu){ .md-button }   
 
 #### Réaliser l'étape 1 du travail 1
 [💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){ .md-button }   
