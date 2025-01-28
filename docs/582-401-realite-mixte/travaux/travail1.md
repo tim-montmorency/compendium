@@ -84,12 +84,16 @@ _Rappel_ : Pour les médias sonores (musique, effets sonores, échantillons sono
 Voici étape par étape comment créer votre travail 1. Les notes de cours reliées à chaque étape vous expliquerons plus en détail comment faire. Elles sont disponibles via les mots soulignés en rouge.   
 
 ### 0. Création des éléments visuels
+- [ ] Téléchargez le modèle illustrator suivant:    
+[📁 Modèle TP1](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef0Aoqi7gUBKsiMOzLyTfmwBFaCH06hkjcFkerENbBs9sw?e=d0JAnG){ .md-button }      
+
 - [ ] 2 animations avec une durée de au moins 9 frames chaque.
 - [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile.
 - [ ] Des visuels pour les boutons.
 - [ ] Des visuels pour le menu.
 
 **Tutoriel 🎥**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_GDZf-k5oV8?si=OOCTZ1Rc2fMEF75N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. Création du projet
 
