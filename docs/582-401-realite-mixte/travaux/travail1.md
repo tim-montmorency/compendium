@@ -83,6 +83,14 @@ _Rappel_ : Pour les médias sonores (musique, effets sonores, échantillons sono
 ## Plan de travail détaillé
 Voici étape par étape comment créer votre travail 1. Les notes de cours reliées à chaque étape vous expliquerons plus en détail comment faire. Elles sont disponibles via les mots soulignés en rouge.   
 
+### 0. Création des éléments visuels
+- [ ] 2 animations avec une durée de au moins 9 frames chaque.
+- [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile.
+- [ ] Des visuels pour les boutons.
+- [ ] Des visuels pour le menu.
+
+**Tutoriel 🎥**
+
 ### 1. Création du projet
 
 - [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/creer_projet.html">Créer le projet</a>
