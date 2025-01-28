@@ -26,7 +26,9 @@
 ## Types de calque (surtout pour calque de forme)
 [:material-play-circle: Types de calque de base (démarrez la vidéo à 0:35)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlPXJW)
 
-[🛠️ Exercice création de forme avec l'outil plume ](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1){ .md-button }  
+[🛠️ Exercice : utiliser l'outil de forme ](https://www.adobe.com/ca_fr/learn/after-effects/web/add-animate-shapes?learnIn=1){ .md-button } 
+
+
 
 
 

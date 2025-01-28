@@ -9,10 +9,22 @@
 * Orientation automatique
 
 
+[STOP]
+# Marie a ajouté ces 2 exercice ici le 27 janvier 2025 en prévision du cours 03 qui s'en vient
+
 ## Animation par déformation (l’outil marionnette) 
 [:material-play-circle: Utiliser l'outil marionnette (puppet) - 4 capules vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=u6gtvD)
 
-[STOP]
+## Formes
+[🛠️ Exercice création de forme complexe avec l'outil plume ](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1){ .md-button }  
+
+
+
+
+
+
+
+# Cours 03 version 2024
 
 ## Illustrator     
 
