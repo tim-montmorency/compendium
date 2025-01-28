@@ -32,6 +32,3 @@ Suivez les vidéos suivantes pour faire rebondir la balle:
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=1c825d42-282e-410f-a8ca-4b47f2b455eb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="04_texture_et_rotation.mov"></iframe>
     
-      
-## Devoir suivant
-[🛠️ devoir_c4](devoir_c4.md){ .md-button }       
