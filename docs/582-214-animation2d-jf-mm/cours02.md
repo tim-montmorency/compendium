@@ -20,8 +20,15 @@
 
 [:material-play-circle: Qualité et performance de prévisualition et autres options du panneau de composition](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRIe5w3zY9Ngn9htiZ3sWsBSzQn_IFllHHL-5Fn7ZPQzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ahW3T4)
 
+
+
+
 ## Types de calque (surtout pour calque de forme)
 [:material-play-circle: Types de calque de base (démarrez la vidéo à 0:35)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlPXJW)
+
+[🛠️ Exercice création de forme avec l'outil plume ](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1){ .md-button }  
+
+
 
 ## Animation en arc (courbe)
 [:material-play-circle: Animation en arc (courber la trajectoire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zpluG)
@@ -39,6 +46,9 @@
 
 [🛠️ Exercice robot: Contrôle de l’animation de plusieurs calques avec les liens de parenté](https://www.adobe.com/ca_fr/learn/after-effects/web/animating-with-parenting?learnIn=1){ .md-button }  
 
+
+
+
 ## Lissage de vitesse de base (ease)
 [:material-play-circle: Lissage de vitesse à l'eloignement (ease_out) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXQMoOiHLCNJsolStgZMgT0B_fnURMX4YZ_IQvkJVAsDcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4MjUnb)
 
@@ -46,14 +56,6 @@
 
 [:material-play-circle: Lissage de vitesse combiné (easy ease) ]()
 
-
-### Note à JF: les 3 suivants je pense que c'est pour le cours 9 ?
-[Éditeur de graphiques expliqué par Adobe](https://helpx.adobe.com/ca_fr/after-effects/using/animation-basics.html#the_graph_editor)
-[:material-play-circle: Éditeur de graphiques]()
-
-[:material-play-circle: Éditer les courbes de vitesse]()
-
-[:material-play-circle: "Explode out" et "Into the wall"]()
 
 ---
 
