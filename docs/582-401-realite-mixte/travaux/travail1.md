@@ -58,7 +58,7 @@ Voici un exemple de l'expérience que vous allez produire:
 
 - [ ] 2 animations avec une durée de au moins 9 frames chaque.
 
-Pour composer ces animations, vous pouvez utiliser (et modifier) les images de personnage disponibles sur [kenney.nl](kenney.nl).
+Pour composer ces animations, vous pouvez utiliser (et modifier) les images de personnage disponibles sur [kenney.nl](https://kenney.nl/).
 
 **Visuel statique**
 
@@ -66,7 +66,7 @@ Pour composer ces animations, vous pouvez utiliser (et modifier) les images de p
 - [ ] Des visuels pour les boutons.
 - [ ] Des visuels pour le menu.
 
-Pour les images à scanner, vous pouvez combiner et modifier différentes images disponibles à l'adresse [kenney.nl](kenney.nl). Par exemple, vous pouvez faire un collage pour placer un personnage dans un certain environnement.
+Pour les images à scanner, vous pouvez combiner et modifier différentes images disponibles à l'adresse [kenney.nl](https://kenney.nl/). Par exemple, vous pouvez faire un collage pour placer un personnage dans un certain environnement.
 
 **Police de caractère**
 
