@@ -2,13 +2,53 @@
 
 ## Bases de l’animation
 
-* Animation en courbe
+* Prévisualisation et flux de travail
+* Calque de forme
+* Animation en arc
 * Hiérarchies et relations d'objets (nul, parent, enfant)
 
-? : carré, cercle
-
 * Lissage de vitesse de base (ease)
-* Prévisualisation et flux de travail
+
+---
+
+## Prévisualisation et flux de travail
+[:material-play-circle: Rendu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb3L11GVrj5EvtTqhBUS6GUBPZU0Aq5qfvjt1Eai5ia5og?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vSKFXw)
+
+[:material-play-circle: Prévisualisation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdLWCI2PmzBCnSrk4C6vw9oBDHhgrUrIyvEpelObisZntw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o6O9uY)
+
+[:material-play-circle: Problème de visualisation? Vider la cache](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETbHfBwIK2NMkV0MvapZll4BV1MqjmRvmzq7WwNN9my2ZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rUSWwS)
+
+[:material-play-circle: Qualité et performance de prévisualition et autres options du panneau de composition](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRIe5w3zY9Ngn9htiZ3sWsBSzQn_IFllHHL-5Fn7ZPQzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ahW3T4)
+
+## Types de calque (surtout pour calque de forme)
+[:material-play-circle: Types de calque de base (démarrez la vidéo à 0:35)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlPXJW)
+
+## Animation en arc (courbe)
+[:material-play-circle: Animation en arc (courber la trajectoire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zpluG)
+
+## Hiérarchies et relations d'objets (nul, parent, enfant)
+[:material-play-circle: Lier les calque parents et enfants](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EevYZli_buxNscVZ_P9WGzcBg2U7J6mYkKW5KvQfZRJjwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=encRsV)
+
+[:material-play-circle: Animer avec un objet nul](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETV8FnKoJgxHmJEWQvZwFU0B6h6HTaUbxv3KMsHVJUE5kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p8ERLb)
+
+
+## Lissage de vitesse de base (ease)
+[:material-play-circle: Lissage de vitesse à l'eloignement (ease_out) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXQMoOiHLCNJsolStgZMgT0B_fnURMX4YZ_IQvkJVAsDcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4MjUnb)
+
+[:material-play-circle: Lissage de vitesse à l'approche (ease_in) ]()
+
+[:material-play-circle: Lissage de vitesse combiné (easy ease) ]()
+
+
+### Note à JF: les 3 suivants je pense que c'est pour le cours 9 ?
+[Éditeur de graphiques expliqué par Adobe](https://helpx.adobe.com/ca_fr/after-effects/using/animation-basics.html#the_graph_editor)
+[:material-play-circle: Éditeur de graphiques]()
+
+[:material-play-circle: Éditer les courbes de vitesse]()
+
+[:material-play-circle: "Explode out" et "Into the wall"]()
+
+---
 
 ## Les 12 principes de l’animation
 
@@ -136,6 +176,11 @@ Représenter des formes avec du volume et du poids pour donner l'illusion de 3D
 Captiver le public en créant une animation simple, claire et attrayante
 
 [:simple-youtube: _Appeal_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=_SplEuWp0Yw&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=12) (en anglais)
+
+---
+
+[🛠️ Exercice balle : "Arcs de mouvement" et "Écrasement et étirement" ](exercices_ae/devoir_balle.md){ .md-button }    
+
 
 
 [STOP]

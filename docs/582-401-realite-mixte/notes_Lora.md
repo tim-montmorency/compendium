@@ -29,3 +29,5 @@ Idées:
 - Évaluer GitHub et nomenclaute: 015w = 7
 
 - Utiliser Gabarit JF pour création Jeu puisque élèves habitués
+
+- Cours 01: Enlever image publish webgl du tuto
