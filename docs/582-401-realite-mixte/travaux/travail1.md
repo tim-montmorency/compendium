@@ -93,7 +93,8 @@ Créez ensuite les contenus suivants à l'aide de la vidéo:
 - [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile. (Exports en JPG)
 - [ ] Des visuels pour les boutons et le menu. (Exports en PNG24)
 
-Recherchez ensuite les éléments suivants (Libres de droit): 
+Recherchez ensuite les éléments suivants (Libres de droit):     
+
 - [ ] Trouver une police de caractère et la télécharger (pour le menu et les messages).
 - [ ] 2 sons qui accompagneront les animations.
 
