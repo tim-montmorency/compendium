@@ -8,10 +8,10 @@ Pour vous aider, vous pouvez consulter les vidéos explicatives ci-dessous.
 
 ## Vidéos
 
-* [:material-play-circle: Animer la balle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXActwLkUrBJgzJrphjnyIIBzrBu01peIdb6hRtmSqtC9g?e=hbzgCx)
-* [:material-play-circle: Simuler la perte d'énergie](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZXj5OIEDH5LstWFo5-q7xwB4_6s704Iv8kYw_9feAsfEA?e=HZBOci)
-* [:material-play-circle: Compression et étirement](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETWb-SABvMxAvHdHNLijNBQBlJwVBuI4DGm4cX2z9b0J7g?e=81lCZx)
-* [:material-play-circle: Texture et rotation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUJdghwuKA9BqMpLR_K0VesBrqzYUOcqsBKvhXH_-Hls4A?e=Z55cek)
+1. [:material-play-circle: Animer la balle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXActwLkUrBJgzJrphjnyIIBzrBu01peIdb6hRtmSqtC9g?e=hbzgCx)
+2. [:material-play-circle: Simuler la perte d'énergie](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZXj5OIEDH5LstWFo5-q7xwB4_6s704Iv8kYw_9feAsfEA?e=HZBOci)
+3. [:material-play-circle: Compression et étirement](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETWb-SABvMxAvHdHNLijNBQBlJwVBuI4DGm4cX2z9b0J7g?e=81lCZx)
+4. [:material-play-circle: Texture et rotation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUJdghwuKA9BqMpLR_K0VesBrqzYUOcqsBKvhXH_-Hls4A?e=Z55cek)
 
 ## Consignes
 
