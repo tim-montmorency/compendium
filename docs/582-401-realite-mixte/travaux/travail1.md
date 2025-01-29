@@ -4,8 +4,7 @@ Pour le travail 1, vous devrez produire une application simple en réalité augm
 
 !!! warning "Attention"
 
-    Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux que vous créez vous-même! Vous ne pouvez même pas utiliser les médias fournis en exemple par l’enseignant!    
-    
+    Attention : les seuls médias (assets, modèles, sons, échantillons sonores, textures, images, etc.) permis dans vos projets sont ceux disponibles sur le site web [kenney.nl](https://kenney.nl/) ou ce que vous créez vous-même! Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
 
 
        
@@ -54,31 +53,53 @@ Voici un exemple de l'expérience que vous allez produire:
 
 
        
-## Contenus à produire
+## Contenus à inclure
 **Visuel en mouvement**
 
-- [ ] 2 SpriteSheet carrées contenant au moins 9 images chaque.
+- [ ] 2 animations avec une durée de au moins 9 frames chaque.
 
+Pour composer ces animations, vous pouvez utiliser (et modifier) les images de personnage disponibles sur [kenney.nl](https://kenney.nl/).
 
 **Visuel statique**
 
-- [ ] 2 images qu'on pourra scanner avec un appareil mobile.
+- [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile.
 - [ ] Des visuels pour les boutons.
 - [ ] Des visuels pour le menu.
 
+Pour les images à scanner, vous pouvez combiner et modifier différentes images disponibles à l'adresse [kenney.nl](https://kenney.nl/). Par exemple, vous pouvez faire un collage pour placer un personnage dans un certain environnement.
+
 **Police de caractère**
 
-- [ ] Trouver une police de caractère qui vous plaît et la télécharger (pour le menu et les messages).
+- [ ] Trouver une police de caractère libre de droits qui vous plaît et la télécharger (pour le menu et les messages).
 
 **Sonore**
 
 - [ ] 2 sons qui accompagneront les animations.
 
+_Rappel_ : Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
 
 
        
 ## Plan de travail détaillé
 Voici étape par étape comment créer votre travail 1. Les notes de cours reliées à chaque étape vous expliquerons plus en détail comment faire. Elles sont disponibles via les mots soulignés en rouge.   
+
+### 0. Création des éléments visuels et recherche de contenu
+- [ ] Téléchargez le modèle illustrator suivant:    
+[📁 Modèle TP1](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef0Aoqi7gUBKsiMOzLyTfmwBFaCH06hkjcFkerENbBs9sw?e=d0JAnG){ .md-button }      
+
+Créez ensuite les contenus suivants à l'aide de la vidéo:     
+
+- [ ] 2 animations avec une durée de au moins 9 frames chaque. (Exports en PNG24)
+- [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile. (Exports en JPG)
+- [ ] Des visuels pour les boutons et le menu. (Exports en PNG24)
+
+Recherchez ensuite les éléments suivants (Libres de droit):     
+
+- [ ] Trouver une police de caractère et la télécharger (pour le menu et les messages).
+- [ ] 2 sons qui accompagneront les animations.
+
+**Tutoriel 🎥**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_GDZf-k5oV8?si=OOCTZ1Rc2fMEF75N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. Création du projet
 
