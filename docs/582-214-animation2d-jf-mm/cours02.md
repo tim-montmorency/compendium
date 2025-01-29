@@ -2,64 +2,63 @@
 
 ## Bases de l’animation
 
-* Prévisualisation et flux de travail
-* Calque de forme
-* Animation en arc
-* Hiérarchies et relations d'objets (nul, parent, enfant)
+### Prévisualisation et flux de travail
 
-* Lissage de vitesse de base (ease)
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/render.png){ data-zoom-image }
 
----
+  [:material-play-circle: Le rendu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb3L11GVrj5EvtTqhBUS6GUBPZU0Aq5qfvjt1Eai5ia5og)
+</div>
 
-## Prévisualisation et flux de travail
-[:material-play-circle: Rendu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb3L11GVrj5EvtTqhBUS6GUBPZU0Aq5qfvjt1Eai5ia5og?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vSKFXw)
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/previsualisation.png){ data-zoom-image }
 
-[:material-play-circle: Prévisualisation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdLWCI2PmzBCnSrk4C6vw9oBDHhgrUrIyvEpelObisZntw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o6O9uY)
+  [:material-play-circle: La prévisualisation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdLWCI2PmzBCnSrk4C6vw9oBDHhgrUrIyvEpelObisZntw)
+</div>
 
-[:material-play-circle: Problème de visualisation? Vider la cache](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETbHfBwIK2NMkV0MvapZll4BV1MqjmRvmzq7WwNN9my2ZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rUSWwS)
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/purge-cache.png){ data-zoom-image }
 
-[:material-play-circle: Qualité et performance de prévisualition et autres options du panneau de composition](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRIe5w3zY9Ngn9htiZ3sWsBSzQn_IFllHHL-5Fn7ZPQzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ahW3T4)
+  [:material-play-circle: Le cache](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETbHfBwIK2NMkV0MvapZll4BV1MqjmRvmzq7WwNN9my2ZA)
+</div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/composition-params.png){ data-zoom-image }
 
+  [:material-play-circle: Les paramètres de composition](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbRIe5w3zY9Ngn9htiZ3sWsBSzQn_IFllHHL-5Fn7ZPQzA)
+</div>
 
+### Formes
 
-## Types de calque (surtout pour calque de forme)
-[:material-play-circle: Types de calque de base (démarrez la vidéo à 0:35)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlPXJW)
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/type-calque.png){ data-zoom-image }
 
-[🛠️ Exercice : utiliser l'outil de forme ](https://www.adobe.com/ca_fr/learn/after-effects/web/add-animate-shapes?learnIn=1){ .md-button } 
+  [:material-play-circle: Les types de calque](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/02_capsules_video/02_capsules_after_effects/16_types_de_calques/01_types_calques.mp4?csf=1&web=1&e=cgh4pw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNDl9fQ%3D%3D)
+</div>
 
+### Animation courbée
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/curve-trajectory.png){ data-zoom-image }
 
+  [:material-play-circle: Courber une trajectoire](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA)
+</div>
 
+### Hiérarchies
 
-## Animation en arc (courbe)
-[:material-play-circle: Animation en arc (courber la trajectoire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXbVPmLILVJFrZ2aQw7P0ckBR6_qlTP_tIPyLVveMI4YlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zpluG)
+![](./assets/images/parentr.png){ data-zoom-image }
 
-[🛠️ Exercice trajectoire en courbe ](https://www.adobe.com/ca_fr/learn/after-effects/web/keyframe-animation?learnIn=1){ .md-button }    
+[:material-play-circle: Les calque parents et enfants](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EevYZli_buxNscVZ_P9WGzcBg2U7J6mYkKW5KvQfZRJjwQ)
 
+[:material-play-circle: L'objet nul](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETV8FnKoJgxHmJEWQvZwFU0B6h6HTaUbxv3KMsHVJUE5kg)
 
+### Lissage
 
+Le lissage de vitesse (_ease_) est une fonction qui permet de lisser la vitesse d'une animation en créant une transition fluide entre les mouvements, en ralentissant le début (_ease in_) ou la fin (_ease out_) d'une interpolation pour un rendu plus naturel et agréable.
 
-## Hiérarchies et relations d'objets (nul, parent, enfant)
-[:material-play-circle: Lier les calque parents et enfants](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EevYZli_buxNscVZ_P9WGzcBg2U7J6mYkKW5KvQfZRJjwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=encRsV)
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Phaser - ease" src="https://codepen.io/tim-momo/embed/LYoKGZK?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-[:material-play-circle: Animer avec un objet nul](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETV8FnKoJgxHmJEWQvZwFU0B6h6HTaUbxv3KMsHVJUE5kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p8ERLb)
-
-
-[🛠️ Exercice robot: Contrôle de l’animation de plusieurs calques avec les liens de parenté](https://www.adobe.com/ca_fr/learn/after-effects/web/animating-with-parenting?learnIn=1){ .md-button }  
-
-
-
-
-## Lissage de vitesse de base (ease)
-[:material-play-circle: Lissage de vitesse à l'eloignement (ease_out) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXQMoOiHLCNJsolStgZMgT0B_fnURMX4YZ_IQvkJVAsDcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4MjUnb)
-
-[:material-play-circle: Lissage de vitesse à l'approche (ease_in) ]()
-
-[:material-play-circle: Lissage de vitesse combiné (easy ease) ]()
-
-
----
+[:material-play-circle: Le lissage de vitesse](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXQMoOiHLCNJsolStgZMgT0B_fnURMX4YZ_IQvkJVAsDcQ)
 
 ## Les 12 principes de l’animation
 
@@ -98,7 +97,7 @@ La technique d'anticipation **prépare** subtilement le spectateur à la suite d
 
 [:simple-youtube: _Anticipation_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=F8OtE60T8yU&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=2) (en anglais)
 
-### 3.Mise en scène
+### 3. Mise en scène
 
 ![](./assets/images/3_Staging.gif){.w-100}
 
@@ -188,11 +187,37 @@ Captiver le public en créant une animation simple, claire et attrayante
 
 [:simple-youtube: _Appeal_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=_SplEuWp0Yw&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=12) (en anglais)
 
+## Exercices
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/adobe-preview.png)
 
-[🛠️ Exercice balle : "Arcs de mouvement" et "Écrasement et étirement" ](exercices_ae/devoir_balle.md){ .md-button }    
+  <small>Exercices - After Effects | Adobe.com</small><br>
+  1. **[Trajectoire courbe](https://www.adobe.com/ca_fr/learn/after-effects/web/keyframe-animation)**<br>
+  2. **[Outil de forme](https://www.adobe.com/ca_fr/learn/after-effects/web/add-animate-shapes)**<br>
+  3. **[Liaison parent-enfant](https://www.adobe.com/ca_fr/learn/after-effects/web/animating-with-parenting)**
+</div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/12principles/12principles-preview.gif)
 
+  <small>Exercice - After Effects</small><br>
+  **[3 principes de l'animations](./exercices_ae/12principles/part1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/squash-stretch-preview.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[La balle de tennis](./exercices_ae/devoir_balle.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/legototem/legototem-preview.jpg)
+
+  <small>Exercice - After Effects</small><br>
+  **[Le totem en LEGO](./exercices_ae/legototem/legototem.md){.stretched-link .back}**
+</div>
 
 [STOP]
 
