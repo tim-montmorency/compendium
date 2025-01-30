@@ -1,4 +1,7 @@
 # Cours 3     
+
+[STOP]
+
 * Gestion des calques et des animations 
     - Solides 
     - Formes 
@@ -9,7 +12,6 @@
 * Orientation automatique
 
 
-[STOP]
 # Marie a ajouté ces 2 exercice ici le 27 janvier 2025 en prévision du cours 03 qui s'en vient
 
 ## Animation par déformation (l’outil marionnette) 
