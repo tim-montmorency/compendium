@@ -83,8 +83,8 @@ Les emplacements des différents menus sont différents d'un thème à l'autre. 
 1. **Cliquez** sur dans le site, peu importe l'endroit (cela le rendra éditable)
 1. **Cliquez** sur le menu une première fois (cela devrait sélectionner l'entête)
 1. **Cliquez** sur le menu une seconde fois (cela devrait sélectionner le menu)
-1. Dans la colonne de droite, vous pouvez faire la gestion de vos éléments de menu<br>![](../assets/images/wp-menu.png){ data-zoom-image }
-1. Testez les différentes options offertes dans le sous menu d'un élément de menu (représenté par trois points verticals :material-dots-vertical:), particulièrement, l'option d'imbriquer un autre élément de menu afin de créer une arborescence<br>![](../assets/images/wp-sous-menu.png)
+1. Dans la colonne de droite, vous pouvez faire la gestion de vos éléments de menu<br>![](./assets/images/wp-menu.png){ data-zoom-image }
+1. Testez les différentes options offertes dans le sous menu d'un élément de menu (représenté par trois points verticals :material-dots-vertical:), particulièrement, l'option d'imbriquer un autre élément de menu afin de créer une arborescence<br>![](./assets/images/wp-sous-menu.png)
 1. **Enregistrez** vos modifications
 
 ### Exemples de menus
