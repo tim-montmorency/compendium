@@ -85,7 +85,7 @@ Donne une impression de **poids** ou de **flexibilité** aux objets ou aux perso
 
 Par exemple, une balle rebondissante. Lorsqu'elle touche le sol, vous pouvez écraser la balle pour l'aplatir et l'élargir.
 
-[:simple-youtube: _Squash & Stretch_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=haa7n3UGyDc&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=1) (en anglais)
+[:simple-youtube: _Squash & Stretch_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=haa7n3UGyDc&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=1&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 2. Anticipation
 
@@ -95,7 +95,7 @@ Utilisation d'une petite action pour indiquer qu'une action majeure est sur le p
 
 La technique d'anticipation **prépare** subtilement le spectateur à la suite d'un mouvement.
 
-[:simple-youtube: _Anticipation_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=F8OtE60T8yU&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=2) (en anglais)
+[:simple-youtube: _Anticipation_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=F8OtE60T8yU&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=2&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 3. Mise en scène
 
@@ -105,7 +105,7 @@ La mise en scène est la présentation d'une idée de manière à la rendre parf
 
 C'est l'art de **diriger l'attention** du spectateur vers l'élément essentiel de la scène et d'amplifier une émotion.
 
-[:simple-youtube: _Staging_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=u-SXLaQGg50&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=3) (en anglais)
+[:simple-youtube: _Staging_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=u-SXLaQGg50&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=3&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 4. Animation directe et pose clé
 
@@ -117,7 +117,7 @@ Deux techniques d'animation : enchaînement fluide image par image ou travail à
 
 **Pose clé** (_Pose to Pose_) : Cette méthode implique de dessiner d'abord les poses clés principales de l'animation, puis d'ajouter les images intermédiaires, offrant un meilleur contrôle du rythme et de la cohérence du mouvement.
 
-[:simple-youtube: _Straight Ahead & Pose to Pose_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=v8quCbt4C-c&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=4) (en anglais)
+[:simple-youtube: _Straight Ahead & Pose to Pose_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=v8quCbt4C-c&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=4&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 5. Conséquence et chevauchement
 
@@ -127,7 +127,7 @@ Ajout de mouvements secondaires qui continuent **après** l'arrêt du mouvement 
 
 Le **décalage** dans le rythme des différentes parties d'un sujet (chevauchement) crée ainsi un sentiment de réalisme et simule l'inertie/masse.
 
-[:simple-youtube: _Follow Through & Overlapping Action_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=4OxphYV8W3E&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=5) (en anglais)
+[:simple-youtube: _Follow Through & Overlapping Action_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=4OxphYV8W3E&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=5&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 6. Lissage
 
@@ -135,7 +135,7 @@ Le **décalage** dans le rythme des différentes parties d'un sujet (chevaucheme
 
 **Ralentissement progressif** en début et fin d'action pour créer un sentiment réaliste d'accélération et de décélération.
 
-[:simple-youtube: _Slow In & Slow Out_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=fQBFsTqbKhY&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=6) (en anglais)
+[:simple-youtube: _Slow In & Slow Out_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=fQBFsTqbKhY&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=6&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 7. Arcs de mouvement
 
@@ -143,7 +143,7 @@ Le **décalage** dans le rythme des différentes parties d'un sujet (chevaucheme
 
 **Trajectoires courbes** suivies par les objets ou les personnages en mouvement, reflétant les lois **naturelles** du mouvement et permettant d'obtenir des animations plus **fluides** et réalistes.
 
-[:simple-youtube: _Arcs_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=I1_tZ9LhJD4&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=7) (en anglais)
+[:simple-youtube: _Arcs_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=I1_tZ9LhJD4&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=7&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 8. Action secondaire
 
@@ -151,7 +151,7 @@ Le **décalage** dans le rythme des différentes parties d'un sujet (chevaucheme
 
 Actions secondaires qui enrichissent l'action principale.
 
-[:simple-youtube: _Secondary Action_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=MjBHWw1TbP4&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=8) (en anglais)
+[:simple-youtube: _Secondary Action_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=MjBHWw1TbP4&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=8&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 9. Rythme et synchronisation
 
@@ -161,7 +161,7 @@ L'ajustement du nombre d'images pour modifier la perception de la vitesse d'une 
 
 > La personnalité et la nature d'une animation sont grandement influencées par le nombre d'images insérées entre chaque action principale.
 
-[:simple-youtube: _Timing_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=BarOk2p38LQ&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=9) (en anglais)
+[:simple-youtube: _Timing_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=BarOk2p38LQ&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=9&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 10. Exagération
 
@@ -169,7 +169,7 @@ L'ajustement du nombre d'images pour modifier la perception de la vitesse d'une 
 
 Dramatise ou intensifie une action afin de la rendre plus expressive et compréhensible pour le spectateur.
 
-[:simple-youtube: _Exaggeration_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=HfFj-VQKiAM&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=10) (en anglais)
+[:simple-youtube: _Exaggeration_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=HfFj-VQKiAM&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=10&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 11. Dessin de volume
 
@@ -177,7 +177,7 @@ Dramatise ou intensifie une action afin de la rendre plus expressive et compréh
 
 Représenter des formes avec du volume et du poids pour donner l'illusion de 3D
 
-[:simple-youtube: _Solid Drawing_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=7An0jukOkCI&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=11) (en anglais)
+[:simple-youtube: _Solid Drawing_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=7An0jukOkCI&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=11&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ### 12. Attrait visuel
 
@@ -185,7 +185,7 @@ Représenter des formes avec du volume et du poids pour donner l'illusion de 3D
 
 Captiver le public en créant une animation simple, claire et attrayante
 
-[:simple-youtube: _Appeal_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=_SplEuWp0Yw&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=12) (en anglais)
+[:simple-youtube: _Appeal_ | AlanBeckerTutorials](https://www.youtube.com/watch?v=_SplEuWp0Yw&list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd&index=12&t=7s) (en anglais mais possibilité de sous-titrer en français)
 
 ## Exercices
 
