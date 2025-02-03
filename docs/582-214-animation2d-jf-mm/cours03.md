@@ -1,6 +1,7 @@
 # Cours 3     
 
-[STOP]
+
+* Retour [12 principes (groupe Marie-Michelle)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours02.html#les-12-principes-de-lanimation) <!-- JF ceci est pour moi seulement, tu peux le laisser sous le stop -->
 
 * Gestion des calques et des animations 
     - Solides 
@@ -10,7 +11,7 @@
 [:material-play-circle: Utiliser l'outil marionnette (puppet) - 4 capules vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=u6gtvD)
 * Morphage
 * Orientation automatique
-
+[STOP]
 
 # Marie a ajouté ces 2 exercice ici le 27 janvier 2025 en prévision du cours 03 qui s'en vient
 
