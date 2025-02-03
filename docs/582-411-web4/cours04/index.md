@@ -1,11 +1,7 @@
-
-
 # Cours 4
-[STOP]
-Semaine 4 : Personnalisation avec les thèmes
-	•	Matière à enseigner :
-	•	Concepts des thèmes : qu’est-ce qu’un thème et comment il fonctionne ?
-	•	Installation et activation d’un thème.
-	•	Personnalisation avec l’outil Personnaliser.
-	•	Pratique :
-	•	Choisir un thème adapté et le personnaliser : couleurs, polices, menus, widgets.
+
+Mise en ligne sur un serveur distant (FTP)
+
+Les thèmes WordPress
+
+Présentation du devoir 01 et période de travail accordé à sa réalisation.
