@@ -1,22 +1,26 @@
 # Cours 3     
 
-
-* Retour [12 principes (groupe Marie-Michelle)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours02.html#les-12-principes-de-lanimation) <!-- JF ceci est pour moi seulement, tu peux le laisser sous le stop -->
-
+<!--
+* Retour [12 principes (groupe Marie-Michelle)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours02.html#les-12-principes-de-lanimation) --> 
 * Gestion des calques et des animations 
     - Solides 
     - Formes 
     - Texte
 * Animation par déformation (l’outil marionnette) 
-[:material-play-circle: Utiliser l'outil marionnette (puppet) - 4 capules vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=u6gtvD)
 * Morphage
 * Orientation automatique
 [STOP]
 
-# Marie a ajouté ces 2 exercice ici le 27 janvier 2025 en prévision du cours 03 qui s'en vient
 
-## Animation par déformation (l’outil marionnette) 
-[:material-play-circle: Utiliser l'outil marionnette (puppet) - 4 capules vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=u6gtvD)
+
+# Animation par déformation (l’outil marionnette) 
+[:material-play-circle: 1- L'outil marionnette (puppet) - La base](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWhxb1HKHIJCs0qwlgzWmkUBpul9N1b1ChknjZ4r81Z_6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6DxXDO)
+
+[:material-play-circle: 2- L'outil marionnette (puppet) - Coin, empoi et avance](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcNnPZC9UNhAjUbYGNQvhrsBhd7adgupio04CS6sO3L6Aw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qSu95i)
+
+[:material-play-circle: 3- L'outil marionnette (puppet) - Ne pas activer "Pixeliser en continu"](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUAv17Pgv4BNkihPBgcox10BPdKy43CBge9f29luTku0eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=O9nY1H)
+
+[:material-play-circle: 4- Enregistrement du mouvement en continu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Efn8VA_uCv9Fj2ltLMI6ZK0BbrAmRgpt7a2ql4g1b84oKg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rw05Di)
 
 ## Formes
 [🛠️ Exercice création de forme complexe avec l'outil plume ](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1){ .md-button }  
