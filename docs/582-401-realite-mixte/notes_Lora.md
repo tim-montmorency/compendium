@@ -55,7 +55,7 @@ pair
 else
 impair
 
-Après, demander que ce soit une méthode.
+Après, demander que ce soit une méthode. (méthode avec valeur de retour)
 void update()
 somme += time.deltaTime;
 if(check(somme))
