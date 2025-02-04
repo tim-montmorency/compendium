@@ -19,6 +19,8 @@ Quelles conclusions pouvez-vous faire?
 #### Code
 - [📝 Événements](./code/evenements.md)        
 
+Créer un schéma de programmation pour la scène menu  
+
 ### Avancement du travail 1
 #### Configuration des boutons
 [💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-menu-script-consignes){ .md-button }     
@@ -42,7 +44,7 @@ Quelles conclusions pouvez-vous faire?
 2. Quelles fonctions seront utilisées?    
 3. À quoi ressemblera le code?    
 
-Créer un schéma de programmation     
+Créer un schéma de programmation
       
 
 ### Avancement du travail 1
