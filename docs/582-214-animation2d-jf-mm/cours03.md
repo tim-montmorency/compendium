@@ -28,9 +28,17 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
 
 [^txtlayer]: [Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
 
-![Panneau Caractère](./assets/images/ae/panneau-caractere.png)
+<div class="grid grid-1-2" markdown>
+  ![Panneau Caractère](./assets/images/ae/panneau-caractere.png){ data-zoom-image }
 
-![Panneau Paragraphe](./assets/images/ae/panneau-paragraphe.png)
+  Panneau de caratère
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![Panneau Paragraphe](./assets/images/ae/panneau-paragraphe.png){ data-zoom-image }
+
+  Panneau de paragraphe
+</div>
 
 Quelques tutoriels intéressants : 
 
@@ -60,7 +68,7 @@ https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmor
 
 La technique d'animation de morphage vectoriel est très simple. 
 
-1. D'abord on cré 2 formes sur 2 calques différents.
+1. D'abord on crée 2 formes sur 2 calques différents.
 1. Ensuite, on sélectionne le tracé (path) de chaque forme et on ajoute pour chacun, un _keyframe_.
 1. On sélectionne le _keyframe_ de la forme de destination et on fait un **copier**.
 1. Enfin, on sélectionne la forme de départ, on avance le **repère d'instant courant** de quelques _frames_ et on fait un **coller**.
