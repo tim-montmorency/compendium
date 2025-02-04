@@ -8,7 +8,9 @@
 
 Les solides sont de simples fonds de couleur. 
 
-La plupart du temps, ils sont utiles pour créer un fond de couleur à une scène ou simplement pour faire un _fade out_ ou un _fade in_.
+Ils peuvent être utiles pour créer un fond de couleur à une scène ou pour faire un _fade out_ ou un _fade in_, mais principalement, les solides servent de support pour appliquer des effets et des modes de fusion. Bref, on y reviendra!
+
+[:simple-youtube: Usage d'un solide (2:24 à 3:24) | MotionCafe](https://www.youtube.com/watch?v=TLKC3xwGz8Y&t=124s)
 
 !!! info "Le saviez-vous ?"
 
@@ -16,19 +18,41 @@ La plupart du temps, ils sont utiles pour créer un fond de couleur à une scèn
 
 ### Formes 
 
-Les formes plus complexes demande de connaitre certains raccourcis.
+Les formes plus complexes demande de connaitre certains **raccourcis**. Par exemple, l'étoile peut être modifiée avant de relacher le bouton de la souris lorsqu'on la créé. Essayez les flèches pour constater les propriétées modifiées.
 
-Par exemple, l'étoile peut être modifiée avant de relacher le bouton de la souris lorsqu'on la créé. Essayez les flèches pour constater les propriétées modifiées.
-
-Il est possible également de fabriquer toutes sortes de forme avec l'outil Plume :fontawesome-solid-pen-nib:. Assurez vous simplement de bien refermer vos formes vectorielles pour les utiliser proprement.
+Il est possible également de fabriquer toutes sortes de forme avec l'outil **Plume** :fontawesome-solid-pen-nib:. Assurez vous simplement de bien refermer vos formes vectorielles pour les utiliser proprement.
 
 ### Texte
 
-[Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
+Le panneau **Caractère** permet de modifier l'apparence du texte (police, taille, interlignage, etc.), tandis que le panneau **Paragraph** gère l'alignement et la disposition des blocs de texte. Ensemble, ils offrent un contrôle précis sur la typographie[^txtlayer].
 
-!!! info "Le saviez-vous 2 ?"
+[^txtlayer]: [Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
 
-    Vous pouvez facilement replacer l'ancre d'un objet à son centre en tenant enfoncé ctrl puis double clic sur l'icone de Point d'ancrage.
+![Panneau Caractère](./assets/images/ae/panneau-caractere.png)
+
+![Panneau Paragraphe](./assets/images/ae/panneau-paragraphe.png)
+
+Quelques tutoriels intéressants : 
+
+* [Tutoriel - Lʼécriture cursive](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
+* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared) par [animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png)
+
+<!-- ![Menu Animation/Animer texte](./assets/images/ae/anim-texte.png) 
+
+Animations prédéfinies de texte
+
+![panneau anims prédéfinies](./assets/images/ae/animation-predefinies-de-texte.png)
+
+Ressources utile: traduction des effets AE de l'anglais à français [Repaire.net](https://www.repaire.net/forums/articles/after-effects-traduction-des-noms-des-effets-anglais-vers-francais.234/)
+
+
+Animation mot par mot
+
+![type:video](./assets/videos/ae/flou-apparition-motparmot.mp4)
+-->
+
+<!-- Fichier animation_predefinies_texte_2d-fichier_demo2025.aep composition The Blur Presets
+https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/03_contenu_de_cours/demo-anim-texte/animation_predefinies_texte_2d-fichier_demo2025.aep?csf=1&web=1&e=OHY2ii -->
 
 ## Morphage vectoriel
 
@@ -42,6 +66,31 @@ La technique d'animation de morphage vectoriel est très simple.
 1. Enfin, on sélectionne la forme de départ, on avance le **repère d'instant courant** de quelques _frames_ et on fait un **coller**.
 
 Datsit Datsow
+
+!!! info "Le saviez-vous 2 ?"
+
+    Vous pouvez facilement replacer l'ancre d'un objet à son centre en tenant enfoncé ctrl puis double clic sur l'icone de Point d'ancrage.
+
+[:material-play-circle: Le morphage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYpViBMu9W1MpTwChd72VfcBGPF2eF8lZY-XhDba_mUcPw)
+
+<!-- 
+## Morphing à partir du tracé
+[:material-play-circle: 1 - Morphing d'une forme à une autre](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYpViBMu9W1MpTwChd72VfcBGPF2eF8lZY-XhDba_mUcPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q0zAvZ)
+
+[:material-play-circle: 2- Morphing typographique (une lettre à une autre) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERDWRjfNthdPhDsArEswgB0BSEmX2erD4TrnSZLcY_UNYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jJPtar)
+
+
+## Morphing forme et coupure (shape - cut)
+[:material-play-circle: Étape 1 - Effet morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERY6c65kLK1Mo2LnsZfyRs4Bi8I0xySw4kj9CrIatlkhwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FtmDn2)
+
+[:material-play-circle: Étape 2 - Déplacement forme ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EewB85yKZtJBsrr41_1mcc8Byitc849uNdzUKBZGqudA2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QaYTg9)
+
+[:material-play-circle: Étape 3 - Morphing carré-triangle ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWA83Z7PtUVKsELB85N4EycBBbSpdqyJ2xxz1X1CK_I4rw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poOqJ2)
+
+[:material-play-circle: Étape 4 - Amélioration transition morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVsUJAo9AWhMhfNeoMD2l7QB41ICoi291uF_0xKfKFOStA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BjnDYp)
+
+[:material-play-circle: Étape 5 - Ajouter une texture sur le morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EaV094ruE5pAkF2lxZyH9AEBBEO0mAydtFsf21NtKy5gIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=azpMkV)
+-->
 
 ## Animation sur une trajectoire
 
@@ -60,6 +109,14 @@ Lorsqu'un calque suit déjà une trajectoire, on peut ajuster sa rotation en fon
 `Calque > Géométrie > Orientation automatique`
 
 Si la rotation n'est pas tout à fait correcte, on peut corriger la rotation initiale de l'objet animé tout simplement.
+
+[:material-play-circle: Orientation automatique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbiSTgq5TPJKoYCPD7Kk5LsBQ7QuS5jVJOXUEesXmqdVPw)
+
+## Gestion du rythme
+
+[:material-play-circle: Le séquençage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXLI0Z36AAhNvjQZcU3nvBcB0pYrLPEYPH1LIL56CGvcBQ)
+
+[:material-play-circle: _Time stretch_](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUqKO4P5OotDuxeQKwbDftsB1zWa6whp9V4T6itVkG99og)
 
 ## L'outil Marionnette
 
@@ -103,7 +160,16 @@ Définit l’ordre des couches dans l’animation, par exemple pour s’assurer 
 
 ## Exercices
 
-[🛠️ Exercice création de forme complexe avec l'outil plume ](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1){ .md-button }  
+[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
+    
+[🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/adobe-preview.png)
+
+  <small>Exercices - After Effects | Adobe.com</small><br>
+  **[Forme complexe](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1)**
+</div>
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/transmutation/transmutation-preview.png)
