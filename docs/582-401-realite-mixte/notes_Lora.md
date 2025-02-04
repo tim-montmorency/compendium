@@ -72,6 +72,9 @@ Avoir un schéma de prog pour les premiers exercices, ensuite le faire en classe
 
 Imprimer grille correction cours 4
 
+
+GITHUB cours 4 - préparer notes
+
 **Travail 2:** 
 - travailler ennemis ou personnages avec 2 états (prefb = ennemi?)
 - Retirer canvas
