@@ -43,11 +43,7 @@ Quelles conclusions pouvez-vous faire?
 3. À quoi ressemblera le code?    
 
 Créer un schéma de programmation     
-
-Partage des schémas    
-
-
-#### Démonstration du code de détection     
+      
 
 ### Avancement du travail 1
 #### Script
