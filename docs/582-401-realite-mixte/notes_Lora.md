@@ -70,7 +70,7 @@ Démo: Coroutine: quand le compte arrive à 5 secondes, activer un élément du 
 
 Avoir un schéma de prog pour les premiers exercices, ensuite le faire en classe avec eux et après leur faire faire 
 
-
+Imprimer grille correction cours 4
 
 
 
