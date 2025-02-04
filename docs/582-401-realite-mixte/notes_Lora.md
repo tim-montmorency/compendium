@@ -31,3 +31,5 @@ Idées:
 - Utiliser Gabarit JF pour création Jeu puisque élèves habitués
 
 - Cours 01: Enlever image publish webgl du tuto
+
+- Cours 01: Refaire tutoriel étape 0 dans figma plutôt que Illustrator.
