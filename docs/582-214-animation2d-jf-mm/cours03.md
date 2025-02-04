@@ -45,6 +45,8 @@ Les solides sont souvent utilisées comme support pour appliquer des effets e*/o
 ### Animations prédéfinies de texte
 ![panneau anims prédéfinies](assets/images/ae/animation-predefinies-de-texte.png)
 
+Ressources utile: traduction des effets AE de l'anglais à français [Repaire.net](https://www.repaire.net/forums/articles/after-effects-traduction-des-noms-des-effets-anglais-vers-francais.234/)
+
 Demo en classe 
 assets/videos/ae/flou-apparition-motparmot.mp4 
 
@@ -67,13 +69,43 @@ https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmor
 
 
 
+
+
 ---
 # Morphage (morphing)
+## Morphing à partir du tracé
+[:material-play-circle: 1 - Morphing d'une forme à une autre](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYpViBMu9W1MpTwChd72VfcBGPF2eF8lZY-XhDba_mUcPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q0zAvZ)
+
+[:material-play-circle: 2- Morphing typographique (une lettre à une autre) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERDWRjfNthdPhDsArEswgB0BSEmX2erD4TrnSZLcY_UNYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jJPtar)
+
+
+## Morphing forme et coupure (shape - cut)
+[:material-play-circle: Étape 1 - Effet morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERY6c65kLK1Mo2LnsZfyRs4Bi8I0xySw4kj9CrIatlkhwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FtmDn2)
+
+[:material-play-circle: Étape 2 - Déplacement forme ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EewB85yKZtJBsrr41_1mcc8Byitc849uNdzUKBZGqudA2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QaYTg9)
+
+[:material-play-circle: Étape 3 - Morphing carré-triangle ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWA83Z7PtUVKsELB85N4EycBBbSpdqyJ2xxz1X1CK_I4rw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poOqJ2)
+
+[:material-play-circle: Étape 4 - Amélioration transition morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVsUJAo9AWhMhfNeoMD2l7QB41ICoi291uF_0xKfKFOStA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BjnDYp)
+
+[:material-play-circle: Étape 5 - Ajouter une texture sur le morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EaV094ruE5pAkF2lxZyH9AEBBEO0mAydtFsf21NtKy5gIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=azpMkV)
+
+
+
 
 ---
-# Orientation automatique
+
+# Temps et orientation automatique
+
+- <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXLI0Z36AAhNvjQZcU3nvBcB0pYrLPEYPH1LIL56CGvcBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FfRRqC">Séquencer</a>
+- <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUqKO4P5OotDuxeQKwbDftsB1zWa6whp9V4T6itVkG99og?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N0OOXT">Time stretch</a>
+- <a href="(https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbiSTgq5TPJKoYCPD7Kk5LsBQ7QuS5jVJOXUEesXmqdVPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2LHYMQ">Orientation automatique</a>
 
 
+
+[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
+    
+[🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }       
 
 
 
