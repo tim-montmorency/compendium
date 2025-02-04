@@ -82,7 +82,8 @@ GITHUB cours 4 - préparer notes
 - Avoir des déplacements
 - Détection espace (Change élément)
 - Faire version initiale de la dynamique du projet 3: On choisi un jeu de base et on demande aux étudiants d'adapter au contexte 3D. (Ex: frogger)
-- Mouvement interpolate ou tween.  
+- Mouvement interpolate ou tween.
+- Partager données entre les scènes.
 
 
 
