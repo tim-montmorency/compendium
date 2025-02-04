@@ -1,4 +1,4 @@
-# Transmutation
+# Gaïa
 
 L'objectif de cet exercice est de mettre en pratique les notions suivantes : 
 
@@ -6,17 +6,22 @@ L'objectif de cet exercice est de mettre en pratique les notions suivantes :
 * Animation textuelle
 * Outil Marionette
 
-[Dossier de départ :material-download:](./bg.jpg){ .md-button .md-button--primary }
+[Dossier de départ :material-download:](./gaia.zip){ .md-button .md-button--primary }
 
 ## Résultat du prof
 
-![type:video](./transmutation.mp4) 
+![type:video](./gaia.mp4) 
 
 ## Consignes générales
 
-- [ ] Téléchargez l'image de départ
-- [ ] Ouvrez After Effects, créez une nouvelle composition. Nommez la « transmutation » et configurez la durée à 2 secondes. 
-- [ ] Sauvegardez votre projet dans un dossier nommé « transmutation ».
-- [ ] Crééez deux formes de votre choix et effectuez un morphage entre les deux.
-- [ ] (défi facultatif) Appliquez le mode **incrustation** à votre forme
+- [ ] Téléchargez le Dossier de départ
+- [ ] Ouvrez After Effects, créez une nouvelle composition. Nommez la « transmutation » et configurez la durée à 9 secondes. 
+- [ ] Sauvegardez votre projet dans le Dossier de départ.
+- [ ] Ajoutez et ajustez la vidéo dans la composition.
+- [ ] Installez la police de caractères.
+- [ ] Crééz un calque pour la lettre G et un autre pour la lettre O.
+- [ ] Ajoutez un calque solide noir pour créer l'effet de _fade in_ / _fade out_.
+- [ ] Animez les lettres en modifiant la position, la transparence et l'échelle.
+- [ ] Animez l'escargot avec l'outil Marionette.
+- [ ] Animez la coquille de l'escargot pour qu'elle suive l'escargot.
 - [ ] Sauvegardez votre travail.
