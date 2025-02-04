@@ -60,6 +60,8 @@ Le lissage de vitesse (_ease_) est une fonction qui permet de lisser la vitesse 
 
 [:material-play-circle: Le lissage de vitesse](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXQMoOiHLCNJsolStgZMgT0B_fnURMX4YZ_IQvkJVAsDcQ)
 
+Pour retirer le lissage de vitesse d'une image-clé
+
 ## Les 12 principes de l’animation
 
 ### L'origine

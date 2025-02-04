@@ -43,7 +43,7 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
 Quelques tutoriels intéressants : 
 
 * [Tutoriel - Lʼécriture cursive](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
-* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared) par [animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png)
+* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared) par ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
 
 <!-- ![Menu Animation/Animer texte](./assets/images/ae/anim-texte.png) 
 
