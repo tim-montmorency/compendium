@@ -6877,8 +6877,22 @@ Compter: Accumuler des valeurs de update (voir dans inspecteur ou debog.log) ini
 <p>Compter des secondes et montrer nombre sur texte</p>
 <p>Défi: 1 clic de bouton et voir le chiffre en haut changer</p>
 <p>Décision dans update (leur faire réaliser le schéma ou faire avec eux): If seconde impaire activer un objet et quand paire, activer un autre.
-% pour vérifier si 0 ou non avec somme qui s'additionne. time.realtime ou time.time  </p>
-<p>Après, demander que ce soit une fonction séparée qu'on appelle dans start. </p>
+% pour vérifier si 0 ou non avec somme qui s'additionne. time.realtime ou time.time<br>
+void Update()
+somme += time.deltaTime;</p>
+<p>if(somme %2­ 0)
+pair 
+else
+impair</p>
+<p>Après, demander que ce soit une méthode.
+void update()
+somme += time.deltaTime;
+if(check(somme))
+impair
+else
+pair</p>
+<p>bool check(float valeur)
+return valeur % 2 ­plus grand 0f;</p>
 <p>Démo: Coroutine: quand le compte arrive à 5 secondes, activer un élément du canevas, partir dans le start pour qu'ils sachent comment</p>
 <p>Avoir un schéma de prog pour les premiers exercices, ensuite le faire en classe avec eux et après leur faire faire </p></div>
 
