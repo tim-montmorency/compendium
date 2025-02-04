@@ -47,8 +47,24 @@ Défi: 1 clic de bouton et voir le chiffre en haut changer
 
 Décision dans update (leur faire réaliser le schéma ou faire avec eux): If seconde impaire activer un objet et quand paire, activer un autre.
 % pour vérifier si 0 ou non avec somme qui s'additionne. time.realtime ou time.time  
+void Update()
+somme += time.deltaTime;
 
-Après, demander que ce soit une fonction séparée qu'on appelle dans start. 
+if(somme %2­ 0)
+pair 
+else
+impair
+
+Après, demander que ce soit une méthode.
+void update()
+somme += time.deltaTime;
+if(check(somme))
+impair
+else
+pair
+
+bool check(float valeur)
+return valeur % 2 ­plus grand 0f;
 
 Démo: Coroutine: quand le compte arrive à 5 secondes, activer un élément du canevas, partir dans le start pour qu'ils sachent comment
 
