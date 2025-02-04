@@ -33,3 +33,29 @@ Idées:
 - Cours 01: Enlever image publish webgl du tuto
 
 - Cours 01: Refaire tutoriel étape 0 dans figma plutôt que Illustrator.
+
+Exercice cours 3: 
+Compter: Accumuler des valeurs de update (voir dans inspecteur ou debog.log) init variable dans start
+
+Tester différentes fonctions (Start, update et personnalisé)
+
+Compter des secondes et montrer nombre (Ou 1 clic de bouton et voir le chiffre en haut changer)
+
+Coroutine: quand le compte arrive à 5 secondes, activer un élément du canevas
+
+Décision dans update: If seconde impaire activer un objet et quand paire, activer un autre. 
+
+Avoir un schéma de prog pour les premiers exercices, ensuite le faire en classe avec eux et après leur faire faire 
+
+
+
+
+
+
+
+
+
+
+
+
+
