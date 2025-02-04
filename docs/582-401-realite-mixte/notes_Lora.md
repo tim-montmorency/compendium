@@ -72,6 +72,14 @@ Avoir un schéma de prog pour les premiers exercices, ensuite le faire en classe
 
 Imprimer grille correction cours 4
 
+**Travail 2:** 
+- travailler ennemis ou personnages avec 2 états (prefb = ennemi?)
+- Retirer canvas
+- Code sur animator - modifier animation
+- Avoir des déplacements
+- Détection espace (Change élément)
+- Faire version initiale de la dynamique du projet 3: On choisi un jeu de base et on demande aux étudiants d'adapter au contexte 3D. (Ex: frogger)
+- Mouvement interpolate ou tween.  
 
 
 
