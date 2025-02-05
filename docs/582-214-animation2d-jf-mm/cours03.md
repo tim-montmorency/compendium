@@ -60,8 +60,9 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
    
 </div>
 
-Quelques effets intéressants : 
-* [Tutoriel intéressant - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
+#### Quelques turoriels intéressants : 
+
+* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
 * [Tutoriel - Lʼécriture cursive - Ligne qui se trace](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
 
 
