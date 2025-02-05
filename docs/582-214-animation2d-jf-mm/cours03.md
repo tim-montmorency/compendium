@@ -42,9 +42,9 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
 
 
 <div class="grid grid-1-2" markdown>
-  <img src="assets/images/ae/acceder-a-librairie-polices-adobe.png" alt="drawing" width="200" data-zoom-image="data-zoom-image">
+  ![Librairie de polices Adobe via panneau de caractère](./assets/images/ae/acceder-a-librairie-polices-adobe.png){ data-zoom-image }
 
-  Pour avoir accès à d'avantange de polices de caratères, vous pouvez accéder à la librairie de police d'Abobe en haut à gauche de la liste déroulante des polices courantes dans le panneau de caractères.
+  Pour avoir accès à d'avantange de polices de caratères, vous pouvez accéder à la librairie de polices d'Abobe en haut à droite de la liste déroulante des polices courantes.
 </div>
 
 
