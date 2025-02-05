@@ -7,7 +7,7 @@ Retour sur les notions du dernier cours.
 
 !!! warning "Attention"
 
-    Attention à bien aligner vos éléments dans votre sprite sheet! 
+    Attention à bien aligner vos éléments et à avoir une bonne résolution pour votre sprite sheet! 
 
 #### UI
 
