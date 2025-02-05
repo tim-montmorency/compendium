@@ -51,7 +51,7 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
 #### Animation de texte
 Il existe plusieurs applications pour les calques de texte animés : titres animés, tiers inférieurs, génériques de fin et typographie dynamique.
 
-##### Voici quelques façons d'animer le texte
+#### Voici quelques façons d'animer le texte
 
 
 <div class="grid grid-1-2" markdown>
@@ -74,7 +74,7 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
   Dans la panneau **Effets et paramètres prédéfinis** > **Animations prédéfinis** > **Text**, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.  
 </div>
 
-##### Quelques turoriels intéressants : 
+#### Quelques turoriels intéressants : 
 * [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
 * [Tutoriel - Lʼécriture cursive - Ligne qui se trace](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
 
