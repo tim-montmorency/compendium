@@ -23,5 +23,5 @@ L'objectif de cet exercice est de mettre en pratique les notions suivantes :
 - [ ] Ajoutez un calque solide noir pour créer l'effet de _fade in_ / _fade out_.
 - [ ] Animez les lettres en modifiant la position, la transparence et l'échelle.
 - [ ] Animez l'escargot avec l'outil Marionette.
-- [ ] Animez la coquille de l'escargot pour qu'elle suive l'escargot (principe du parent/enfant).
+- [ ] Animez la coquille de l'escargot pour qu'elle suive l'escargot.
 - [ ] Sauvegardez votre travail.
