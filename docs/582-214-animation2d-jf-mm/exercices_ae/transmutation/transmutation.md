@@ -10,7 +10,7 @@ L'objectif de cet exercice est de mettre en pratique la notion de morphage vecto
 
 ## Résultat du prof
 
-![type:video](./transmutation.mp4) 
+![type:video](./transmutation.mp4){ loop } 
 
 ## Consignes générales
 
