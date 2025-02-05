@@ -40,9 +40,18 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
   Panneau de paragraphe
 </div>
 
+
+<div class="grid grid-1-2" markdown>
+  <img src="assets/images/ae/acceder-a-librairie-polices-adobe.png" alt="drawing" width="200" data-zoom-image="data-zoom-image">
+
+  Pour avoir accès à d'avantange de polices de caratères, vous pouvez accéder à la librairie de police d'Abobe en haut à gauche de la liste déroulante des polices courantes dans le panneau de caractères.
+</div>
+
+
+#### Animation de texte
 Il existe plusieurs applications pour les calques de texte animés : titres animés, tiers inférieurs, génériques de fin et typographie dynamique.
 
-#### Voici quelques façons d'animer le texte
+##### Voici quelques façons d'animer le texte
 
 
 <div class="grid grid-1-2" markdown>
@@ -54,6 +63,10 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
 </div>
 
 
+
+   
+    
+
 <div class="grid grid-1-2" markdown>
   ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
 
@@ -61,7 +74,7 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
   Dans la panneau **Effets et paramètres prédéfinis** > **Animations prédéfinis** > **Text**, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.  
 </div>
 
-#### Quelques turoriels intéressants : 
+##### Quelques turoriels intéressants : 
 * [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
 * [Tutoriel - Lʼécriture cursive - Ligne qui se trace](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
 
@@ -189,8 +202,12 @@ Gère la **position**, la **rotation** et la **mise à l’échelle**. Par exemp
 
 Définit l’ordre des couches dans l’animation, par exemple pour s’assurer qu’un bras passe devant ou derrière un corps.
 
-## Exercices
+<!--
+## QUIZ FIN COURS 3 OU DÉBUT COURS 4 EN RÉVISION DU COURS 3
+[Quiz en classe](https://app.wooclap.com/HRCHUY)
+-->
 
+## Exercices
 [🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
     
 [🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  
