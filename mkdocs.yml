@@ -288,8 +288,8 @@ nav:
   - Web 4:
       - 582-411-web4/index.md
       - Cours 1: 582-411-web4/cours01.md
-      - Cours 2: 582-411-web4/cours02/index.md
-      - Cours 3: 582-411-web4/cours03/index.md
+      - Cours 2: 582-411-web4/cours02.md
+      - Cours 3: 582-411-web4/cours03.md
       - Cours 4: 582-411-web4/cours04/index.md
       - Cours 5: 582-411-web4/cours05/index.md
       - Cours 6: 582-411-web4/cours06/index.md
@@ -590,7 +590,11 @@ extra_javascript:
 plugins:
   - offline
   - tags
-  - mkdocs-video
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: True
+      video_loop: True
+      video_muted: True
   - mkdocs-audio
   - render-stopper:
       tag: "[STOP]"
