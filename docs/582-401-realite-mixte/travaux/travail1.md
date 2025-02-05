@@ -158,10 +158,15 @@ Recherchez ensuite les éléments suivants (Libres de droit):
 **Tutoriel 🎥**    
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jjTNyBJHOcA?si=k3Q491l4Uiec0Z4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+**Tutoriel 2 - Images personnalisées 🎥**    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TplC8o_9L9o?si=4MTAfuSANpN7WoZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 6. Création de la scène Menu - Consignes
 - [ ] Dans le canvas, créez un nouveau Panel pour les consignes.
 - [ ] Dans ce panel, créez un panel par étape de vos consignes.
 - [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes et des images pour appuyer vos consignes au besoin.
+
+
 
 ### 7. Création de la scène Jeu - UI
 - [ ]  Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
