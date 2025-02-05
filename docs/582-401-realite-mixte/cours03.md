@@ -10,6 +10,9 @@ Retour sur les notions du dernier cours.
     Attention à bien aligner vos éléments et à avoir une bonne résolution pour votre sprite sheet! 
 
 #### UI
+[💼 Exercice sur l'interface utilisateur](./unity/exercice_ui.md){ .md-button }     
+
+
 
 ## Bloc 2
 #### Exploration du son dans Unity (15 minutes)
