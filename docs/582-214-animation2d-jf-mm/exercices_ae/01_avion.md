@@ -26,6 +26,8 @@ Cet exercice vous permettra de faire voler un avion et de lui donner la bonne or
 [📁 Orientation automatique](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaQt7_SXPe1Ao869Xauz6wABhfpe2xhKiCb7kFVFfhgcnw?e=W3mc1x){ .md-button }      
 
 <iframe src="https://cmontmorency365.sharepoint.com/sites/TIM-582214-Animation2d77/_layouts/15/embed.aspx?UniqueId=f4ef2da4-3d97-40ed-a3ce-bd5dabb3eb00&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_orientaion_automatique.mov"></iframe>
+
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0a4e92b8-4cb9-4af2-a180-8f0fb2a4e4bb&nav=%7B%22playbackOptions%22%3A%7B%22startTimeInSeconds%22%3A0%7D%7D&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="01_orientaion_automatique.mov"></iframe>
     
       
 ## Exercice suivant
