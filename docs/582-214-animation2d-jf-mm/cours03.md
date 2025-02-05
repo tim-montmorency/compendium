@@ -28,14 +28,58 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
 
 [^txtlayer]: [Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
 
-![Panneau Caractère](./assets/images/ae/panneau-caractere.png)
+<div class="grid grid-1-2" markdown>
+  ![Panneau Caractère](./assets/images/ae/panneau-caractere.png){ data-zoom-image }
 
-![Panneau Paragraphe](./assets/images/ae/panneau-paragraphe.png)
+  Panneau de caratère
+</div>
 
-Quelques tutoriels intéressants : 
+<div class="grid grid-1-2" markdown>
+  ![Panneau Paragraphe](./assets/images/ae/panneau-paragraphe.png){ data-zoom-image }
 
-* [Tutoriel - Lʼécriture cursive](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
-* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared) par [animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png)
+  Panneau de paragraphe
+</div>
+
+
+<div class="grid grid-1-2" markdown>
+  ![Librairie de polices Adobe via panneau de caractère](./assets/images/ae/acceder-a-librairie-polices-adobe.png){ data-zoom-image }
+
+  Pour avoir accès à d'avantange de polices de caratères, vous pouvez accéder à la librairie de polices d'Abobe en haut à droite de la liste déroulante des polices courantes.
+</div>
+
+
+#### Animation de texte
+Il existe plusieurs applications pour les calques de texte animés : titres animés, tiers inférieurs, génériques de fin et typographie dynamique.
+
+#### Voici quelques façons d'animer le texte
+
+
+<div class="grid grid-1-2" markdown>
+  ![propriété animables](./assets/images/ae/propriete-animable-texte.png){ data-zoom-image }
+  
+  **ANIMATION MANUELLE DE PROPRIÉTÉS DE TEXTE ANIMABLES**
+  Dans le panneau de montage (timeline), sélectionnez le calque texte à animer. Clic-droit sur celui-ci.
+  Dans le menu du haut **Animation > Animer texte** et sélectionnez une propriété animable parmi celles présentées.
+</div>
+
+
+
+   
+    
+
+<div class="grid grid-1-2" markdown>
+  ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
+
+  **ANIMATIONS PRÉDÉFINIES DE TEXTE**
+  Dans la panneau **Effets et paramètres prédéfinis** > **Animations prédéfinis** > **Text**, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.  
+</div>
+
+#### Quelques turoriels intéressants : 
+* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
+* [Tutoriel - Lʼécriture cursive - Ligne qui se trace](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
+
+
+
 
 <!-- ![Menu Animation/Animer texte](./assets/images/ae/anim-texte.png) 
 
@@ -60,7 +104,7 @@ https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmor
 
 La technique d'animation de morphage vectoriel est très simple. 
 
-1. D'abord on cré 2 formes sur 2 calques différents.
+1. D'abord on crée 2 formes sur 2 calques différents.
 1. Ensuite, on sélectionne le tracé (path) de chaque forme et on ajoute pour chacun, un _keyframe_.
 1. On sélectionne le _keyframe_ de la forme de destination et on fait un **copier**.
 1. Enfin, on sélectionne la forme de départ, on avance le **repère d'instant courant** de quelques _frames_ et on fait un **coller**.
@@ -158,8 +202,12 @@ Gère la **position**, la **rotation** et la **mise à l’échelle**. Par exemp
 
 Définit l’ordre des couches dans l’animation, par exemple pour s’assurer qu’un bras passe devant ou derrière un corps.
 
-## Exercices
+<!--
+## QUIZ FIN COURS 3 OU DÉBUT COURS 4 EN RÉVISION DU COURS 3
+[Quiz en classe](https://app.wooclap.com/HRCHUY)
+-->
 
+## Exercices
 [🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
     
 [🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  

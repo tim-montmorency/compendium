@@ -10,6 +10,18 @@ Gestion et interprétation des statistiques de consultation
 
 [STOP]
 
+## Les plugiciels
+
+Anatomie d'un plugin
+
+Précautions à prendre : mise à jour, compatibilité et sécurité
+
+Comment installer un plugin via wordpress (zip et builtin widget) et installation manuelle
+
+## Multilingue
+
+Polylang
+
 ## Fil d'Ariane
 
 Communément appelé _breadcrumb_, le fil d'Ariane indique le chemin de navigation d'un utilisateur sur un site web. Il n'y en a pas par défaut dans WordPress.
