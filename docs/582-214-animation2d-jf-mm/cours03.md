@@ -40,10 +40,32 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
   Panneau de paragraphe
 </div>
 
-Quelques tutoriels intéressants : 
+Il existe plusieurs applications pour les calques de texte animés : titres animés, tiers inférieurs, génériques de fin et typographie dynamique.
 
-* [Tutoriel - Lʼécriture cursive](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
-* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared) par ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
+#### Voici quelques façons d'animer le texte
+
+
+<div class="grid grid-1-2" markdown>
+  ![propriété animables](./assets/images/ae/propriete-animable-texte.png){ data-zoom-image }
+  
+  Dans le panneau de montage (timeline), sélectionnez le calque texte à animer. Clic-droit sur celui-ci.
+  Dans le menu du haut **Animation > Animer texte** et sélectionnez une propriété animable parmi celles présentées.
+</div>
+
+
+<div class="grid grid-1-2" markdown>
+  ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
+
+  Animations prédéfinies de texte (effet prédéfinis de texte)
+   
+</div>
+
+Quelques effets intéressants : 
+* [Tutoriel intéressant - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
+* [Tutoriel - Lʼécriture cursive - Ligne qui se trace](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
+
+
+
 
 <!-- ![Menu Animation/Animer texte](./assets/images/ae/anim-texte.png) 
 
