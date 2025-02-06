@@ -17,6 +17,8 @@ Cet exercice vous permettra de faire voler un avion et de lui donner la bonne or
 - [ ] Appliquer des lissages pour que l’avion monte plus lentement et qu’elle redescende plus rapidement.
 - [ ] Une fois le tracé fait, aller dans calque, géométrie, orientation automatique.
 - [ ] Ajuster la rotation par défaut de l’avion.
+- [ ] Sauvegardez votre travail bien classé dans un dossier du cours.
+- [ ] Présentez le résultat à votre enseignant.e.
 
 
       

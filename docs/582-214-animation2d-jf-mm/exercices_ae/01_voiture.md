@@ -19,6 +19,8 @@
 - [ ] Ajuster la rotation de base de votre voiture
 - [ ] Voilà! La voiture suit la route.
 - [ ] Refaites la même procédure pour la seconde voiture.
+- [ ] Sauvegardez votre travail bien classé dans un dossier du cours.
+- [ ] Présentez le résultat à votre enseignant.e.
 
 
       
