@@ -34,7 +34,13 @@ Quelles conclusions pouvez-vous faire?
 #### Code
 - [📝 Événements](./code/evenements.md)        
 
-Créer un schéma de programmation pour la scène menu  
+
+#### Schéma de programmation
+À partir de l'image suivante, créez un schéma de programmation pour la scène menu:      
+
+[📁 Fichier de travail](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee-LXDldCVFIov1ACJGkmEoBhqrJd0oQh0RV7K8zOrR-CA?e=cPq9id){ .md-button }    
+
+
 
 ### Avancement du travail 1
 #### Configuration des boutons
