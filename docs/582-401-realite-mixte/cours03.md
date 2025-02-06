@@ -60,12 +60,16 @@ Quelles conclusions pouvez-vous faire?
 
 #### Exercices de programmation
 
+
+
 #### Réflexion sur le code de détection
 1. Quelles variables sont nécessaires?    
 2. Quelles fonctions seront utilisées?    
 3. À quoi ressemblera le code?    
 
-Créer un schéma de programmation
+#### Schéma de programmation
+1. Créer un schéma de programmation pour votre travail 1.
+2. Partagez vos schémas en équipe pour les améliorer.
       
 
 ### Avancement du travail 1
