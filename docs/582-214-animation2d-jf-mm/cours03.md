@@ -50,6 +50,10 @@ Le panneau **Caractère** permet de modifier l'apparence du texte (police, taill
   Pour avoir accès à d'avantange de polices de caratères, vous pouvez accéder à la librairie de polices d'Abobe en haut à droite de la liste déroulante des polices courantes.
 </div>
 
+!!! info "Installer une police de caractère sur votre ordinateur"
+
+    Téléchargez la police et double-cliqez sur le fichier .ttf ou .otf, une fenêtre de dialogue vous offrira de l'installer, cliquez sur "Installer". Cette police deviendra active dans vos applications locales (sur l'ordinateur en cours).
+
 
 #### Animation de texte
 Il existe plusieurs applications pour les calques de texte animés : titres animés, tiers inférieurs, génériques de fin et typographie dynamique.
