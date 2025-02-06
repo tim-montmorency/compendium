@@ -1,4 +1,7 @@
-# Cours 3     
+# Cours 3 
+
+## Les 12 principes d'animation
+[Révision 12 principes](./cours02.html)
 
 ## Les calques (la suite)
 
@@ -109,21 +112,17 @@ La technique d'animation de morphage vectoriel est très simple.
 1. On sélectionne le _keyframe_ de la forme de destination et on fait un **copier**.
 1. Enfin, on sélectionne la forme de départ, on avance le **repère d'instant courant** de quelques _frames_ et on fait un **coller**.
 
-Datsit Datsow
-
 !!! info "Le saviez-vous 2 ?"
 
     Vous pouvez facilement replacer l'ancre d'un objet à son centre en tenant enfoncé ctrl puis double clic sur l'icone de Point d'ancrage.
 
-[:material-play-circle: Le morphage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYpViBMu9W1MpTwChd72VfcBGPF2eF8lZY-XhDba_mUcPw)
 
-<!-- 
-## Morphing à partir du tracé
+### Morphing à partir du tracé
 [:material-play-circle: 1 - Morphing d'une forme à une autre](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYpViBMu9W1MpTwChd72VfcBGPF2eF8lZY-XhDba_mUcPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q0zAvZ)
 
 [:material-play-circle: 2- Morphing typographique (une lettre à une autre) ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERDWRjfNthdPhDsArEswgB0BSEmX2erD4TrnSZLcY_UNYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jJPtar)
 
-
+<!--
 ## Morphing forme et coupure (shape - cut)
 [:material-play-circle: Étape 1 - Effet morphing ](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ERY6c65kLK1Mo2LnsZfyRs4Bi8I0xySw4kj9CrIatlkhwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FtmDn2)
 
@@ -174,23 +173,23 @@ L'outil Marionnette permet d'ajouter des points de contrôle (appelés "épingle
 
 [:material-play-circle: L'outil Marionnette - Enregistrement interactif](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Efn8VA_uCv9Fj2ltLMI6ZK0BbrAmRgpt7a2ql4g1b84oKg)
 
-### Positionnement des coins de marionnette
+### POSITIONNEMENT des coins de marionnette
 
 ![](./assets/images/ae-puppet-positionnement.png){ data-zoom-image }
 
 Ajoute des points de contrôle fixes permettant des déformations autour d’eux, comme pour placer des articulations sur un personnage (ex. genoux, coudes).
 
-### Emploi des coins de marionnette
+### EMPOI des coins de marionnette
 
 ![](./assets/images/ae-puppet-emploi.png){ data-zoom-image }
 
 Permet des sélectionner des zones plus rigides entre les points de controles.
 
-### Courbure des coins de marionnette
+### COURBURE des coins de marionnette
 
 Ajoute une flexion avancée pour des mouvements plus fluides, pour animer un drapeau qui ondule par exemple.
 
-### Coin de marionnette avancé
+### Coin de marionnette AVANCÉ
 
 ![](./assets/images/ae-puppet-avance.png){ data-zoom-image }
 
@@ -212,13 +211,14 @@ Définit l’ordre des couches dans l’animation, par exemple pour s’assurer 
     
 [🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  
 
+<!--
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/adobe-preview.png)
 
   <small>Exercices - After Effects | Adobe.com</small><br>
   **[Forme complexe](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1)**
 </div>
-
+-->
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/transmutation/transmutation-preview.png)
 
