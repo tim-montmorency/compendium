@@ -32,6 +32,7 @@ Quelles conclusions pouvez-vous faire?
 
 ## Bloc 3
 #### Code
+- [📝 Configuration de Visual studio Community](./installation/telechargement.md)
 - [📝 Événements](./code/evenements.md)        
 
 
