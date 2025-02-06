@@ -1,13 +1,13 @@
 # Voiture
 ## Matériel
-[📁 Dossier avec un projet After Effects](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Em3ka70GpaFItPtze4lQHTMBGxgavowVxGJ61L9_9mpfUQ?e=V2oGhw){ .md-button }       
+[📁 Dossier avec un projet After Effects](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Em3ka70GpaFItPtze4lQHTMBGxgavowVxGJ61L9_9mpfUQ?e=TTmH4p){ .md-button }       
 
       
 
 
 ## Étapes
 
-- [ ] Téléchargez le dossier contenant un projet After Effect ainsi que des images.
+- [ ] Téléchargez le dossier exercice-voiture_fichiers-de-depart
 - [ ] Ouvrir le projet after effects.
 - [ ] Sélectionnez le calque background.
 - [ ] Utilisez l’outil plume pour tracer la route de la voiture. (Maximum de 4 points)
