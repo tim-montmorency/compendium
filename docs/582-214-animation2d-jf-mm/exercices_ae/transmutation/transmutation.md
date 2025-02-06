@@ -17,7 +17,7 @@ L'objectif de cet exercice est de mettre en pratique la notion de morphage vecto
 - [ ] Téléchargez l'image de départ
 - [ ] Ouvrez After Effects, créez une nouvelle composition: 1920x1080 à 24 image/s. Nommez la « transmutation » et configurez la durée à 2 secondes. 
 - [ ] Sauvegardez votre projet dans un dossier nommé « transmutation ».
-- [ ] Créez deux formes de votre choix et effectuez un morphage entre les deux. S'il n'y a pas le même nombre de points vectoriels, recréez les points manquant sur l'autre forme et **définir le premier sommet**
+- [ ] Créez deux formes de votre choix et effectuez un morphage entre les deux. S'il n'y a pas le même nombre de points vectoriels, recréez les points manquant sur l'autre forme et **définir le premier sommet** (voir capsule vidéo ci-bas au besoin)
 - [ ] (défi facultatif) Appliquez le mode **incrustation** à votre forme
 - [ ] Sauvegardez votre travail.
 
