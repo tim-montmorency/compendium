@@ -47,6 +47,11 @@ Au tableau, créez un schéma de programmation pour l'exercice 3. Écrivez ensui
 - [ ] Créez deux images de couleur différentes et désactivez-les.
 - [ ] Modifiez votre code précédent. Lorsque le temps est pair, l'image 1 est activée et la 2 désactivée. Lorsque le temps est impair, l'image 1 est désactivée et l'image 2 est activée. 
 
+Pour activer ou désactiver un objet:
+
+``` c#
+gameObject.SetActive(false);
+```
 
 ## Exercice 4
 
