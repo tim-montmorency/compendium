@@ -26,36 +26,7 @@ Résultat attendu:
 
 ![Image](../images/resultat_debug.jpg)
 
-## Démonstration
-On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: 
-
-``` c#
-public int temps;
-private float compteur; 
-
-compteur += Time.deltaTime;
-
-if (compteur > 1)
-{
-  temps++; 
-  compteur = 0; 
-}
-```
-
 ## Exercice 2
-Au tableau, créez un schéma de programmation pour l'exercice 3. Écrivez ensuite votre code à la main. 
-
-## Exercice 3
-- [ ] Créez deux images de couleur différentes et désactivez-les.
-- [ ] Modifiez votre code précédent. Lorsque le temps est pair, l'image 1 est activée et la 2 désactivée. Lorsque le temps est impair, l'image 1 est désactivée et l'image 2 est activée. 
-
-Pour activer ou désactiver un objet:
-
-``` c#
-gameObject.SetActive(false);
-```
-
-## Exercice 4
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton.
@@ -75,3 +46,35 @@ public TextMeshProUGUI pointage;
 ``` c#
 nombre.ToString()
 ```
+
+## Démonstration
+On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: 
+
+``` c#
+public int temps;
+private float compteur; 
+
+compteur += Time.deltaTime;
+
+if (compteur > 1)
+{
+  temps++; 
+  compteur = 0; 
+}
+```
+
+
+## Exercice 3
+Au tableau, créez un schéma de programmation pour l'exercice 4. Écrivez ensuite votre code à la main. 
+
+## Exercice 4
+- [ ] Créez deux images de couleur différentes et désactivez-les.
+- [ ] Modifiez votre code précédent. Lorsque le temps est pair, l'image 1 est activée et la 2 désactivée. Lorsque le temps est impair, l'image 1 est désactivée et l'image 2 est activée. 
+
+Pour activer ou désactiver un objet:
+
+``` c#
+gameObject.SetActive(false);
+```
+
+
