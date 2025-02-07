@@ -9,5 +9,13 @@
 - [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente de 1 la valeur du chiffre qui est affiché sur votre écran. 
 
 ``` c#
-using TMP; 
+using TMPro;
+```
+
+``` c#
+public TextMeshProUGUI pointage;
+```
+
+``` c#
+nombre.ToString()
 ```
