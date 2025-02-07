@@ -18,7 +18,9 @@ Debug.Log(message);
 - [ ] Créez une variable qui change grâce à Time.time.
 - [ ] Imprimez un message dans la console qui contient un message écrit en plus de votre chiffre qui change.
 
-Exemple: 
+Résultat attendu:     
+
+![Image](./images/resultat_debug.jpg)
 
 ## Exercice 2
 
