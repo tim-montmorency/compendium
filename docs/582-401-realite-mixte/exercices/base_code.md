@@ -14,7 +14,11 @@ Debug.Log(message);
 ```
 
 ## Exercice 1
+- [ ] Créez un nouveau script.
+- [ ] Créez une variable qui change grâce à Time.time.
+- [ ] Imprimez un message dans la console qui contient un message écrit en plus de votre chiffre qui change.
 
+Exemple: 
 
 ## Exercice 2
 
