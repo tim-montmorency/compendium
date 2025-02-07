@@ -22,6 +22,22 @@ Résultat attendu:
 
 ![Image](../images/resultat_debug.jpg)
 
+## Démonstration
+On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: 
+
+``` c#
+public int temps;
+private float compteur; 
+
+compteur += Time.deltaTime;
+
+if (compteur > 1)
+{
+  temps++; 
+  compteur = 0; 
+}
+```
+
 ## Exercice 2
 
 - [ ] Créez une nouvelle scène.
