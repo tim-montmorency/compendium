@@ -20,7 +20,7 @@ Debug.Log(message);
 
 Résultat attendu:     
 
-![Image](./images/resultat_debug.jpg)
+![Image](../images/resultat_debug.jpg)
 
 ## Exercice 2
 
