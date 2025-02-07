@@ -14,6 +14,8 @@ Debug.Log(message);
 ```
 
 ## Exercice 1
+Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main. 
+
 - [ ] Créez un nouveau script.
 - [ ] Créez une variable qui change grâce à Time.time.
 - [ ] Imprimez un message dans la console qui contient un message écrit en plus de votre chiffre qui change.
@@ -39,6 +41,14 @@ if (compteur > 1)
 ```
 
 ## Exercice 2
+Au tableau, créez un schéma de programmation pour l'exercice 3. Écrivez ensuite votre code à la main. 
+
+## Exercice 3
+- [ ] Créez deux images de couleur différentes et désactivez-les.
+- [ ] Modifiez votre code précédent. Lorsque le temps est pair, l'image 1 est activée et la 2 désactivée. Lorsque le temps est impair, l'image 1 est désactivée et l'image 2 est activée. 
+
+
+## Exercice 4
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton.
