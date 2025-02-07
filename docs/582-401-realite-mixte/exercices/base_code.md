@@ -3,9 +3,9 @@
 public float compte;
 
 private void Update()
- {
-   compte = Time.deltaTime; 
- }
+{
+ compte = Time.deltaTime; 
+}
 ```
 
 ## Exercice 1
