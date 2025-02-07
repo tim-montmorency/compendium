@@ -57,7 +57,8 @@ Quelles conclusions pouvez-vous faire?
 - [📝 Conditions](./code/condition.md)
 - [📝 Boucle](./code/boucle.md)
 - [📝 Aléatoire](./code/aleatoire.md)
-- [📝 Fonctions](./code/fonctions.md)        
+- [📝 Fonctions](./code/fonctions.md)     
+- [📝 Coroutine](./code/coroutine.md)        
 
 #### Exercices de programmation
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
