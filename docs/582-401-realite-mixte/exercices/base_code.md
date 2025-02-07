@@ -1,5 +1,17 @@
+## Démonstration
+``` c#
+public float compte;
+
+private void Update()
+ {
+   compte = Time.deltaTime; 
+ }
+```
 
 ## Exercice 1
+
+
+## Exercice 2
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton.
