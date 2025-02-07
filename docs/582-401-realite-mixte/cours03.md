@@ -60,7 +60,7 @@ Quelles conclusions pouvez-vous faire?
 - [📝 Fonctions](./code/fonctions.md)        
 
 #### Exercices de programmation
-
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
 
 
 #### Réflexion sur le code de détection
