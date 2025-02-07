@@ -4,8 +4,13 @@ public float compte;
 
 private void Update()
 {
- compte = Time.deltaTime; 
+ compte = Time.time; 
 }
+```
+
+Pour imprimer une valeur dans unity vous devez remplacer le mot message par ce que vous souhaitez imprimer.: 
+``` c#
+Debug.Log(message); 
 ```
 
 ## Exercice 1
