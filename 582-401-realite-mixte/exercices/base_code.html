@@ -6887,6 +6887,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#demonstration_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Démonstration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercice 5
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6961,6 +6979,26 @@
 </ul>
 <p>Pour activer ou désactiver un objet:</p>
 <div class="highlight"><pre><span></span><code><span class="n">gameObject</span><span class="p">.</span><span class="n">SetActive</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+</code></pre></div>
+<h2 id="demonstration_2">Démonstration<a class="headerlink" href="#demonstration_2" title="Permanent link">¶</a></h2>
+<p>Comment transformer la vérification en méthode avec une valeur de retour. </p>
+<h2 id="exercice-5">Exercice 5<a class="headerlink" href="#exercice-5" title="Permanent link">¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un nouveau script. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.</li>
+</ul>
+<p>Voici un exemple de Coroutine: </p>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">IEnumerator</span><span class="w"> </span><span class="nf">maCoroutine</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Pour appliquer un délais à la coroutine</span>
+<span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="mf">1f</span><span class="p">);</span>
+
+<span class="w">        </span><span class="c1">// Pour arrêter la coroutine</span>
+<span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">break</span><span class="p">;</span><span class="w"> </span>
+
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+<p>Vous aurez besoin de ce script pour partir votre coroutine:    </p>
+<div class="highlight"><pre><span></span><code><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">"maCoroutine"</span><span class="p">);</span>
 </code></pre></div></div>
 
 
