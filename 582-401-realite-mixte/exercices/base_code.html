@@ -6850,6 +6850,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#demonstration_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Démonstration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercice-2" class="md-nav__link">
     <span class="md-ellipsis">
       Exercice 2
@@ -6895,6 +6904,19 @@
 </ul>
 <p>Résultat attendu:     </p>
 <p><img alt="Image" src="../images/resultat_debug.jpg"></p>
+<h2 id="demonstration_1">Démonstration<a class="headerlink" href="#demonstration_1" title="Permanent link">¶</a></h2>
+<p>On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: </p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">temps</span><span class="p">;</span>
+<span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">compteur</span><span class="p">;</span><span class="w"> </span>
+
+<span class="n">compteur</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">;</span>
+
+<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">compteur</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="n">temps</span><span class="o">++</span><span class="p">;</span><span class="w"> </span>
+<span class="w">  </span><span class="n">compteur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="exercice-2">Exercice 2<a class="headerlink" href="#exercice-2" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une nouvelle scène.</li>
