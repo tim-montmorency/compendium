@@ -78,3 +78,35 @@ gameObject.SetActive(false);
 ```
 
 
+## Démonstration
+
+Comment transformer la vérification en méthode avec une valeur de retour. 
+
+
+## Exercice 5
+
+- [ ] Créez un nouveau script. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.
+
+
+
+Voici un exemple de Coroutine: 
+
+``` c#
+ public IEnumerator maCoroutine()
+    {
+        // Pour appliquer un délais à la coroutine
+        yield return new WaitForSeconds(1f);
+        
+        // Pour arrêter la coroutine
+        yield break; 
+
+    }
+```
+
+Vous aurez besoin de ce script pour partir votre coroutine:    
+
+``` c#
+StartCoroutine("maCoroutine");
+```
+
+
