@@ -95,7 +95,7 @@ Pour faire cette logique, on va utiliser une fonctionalité qui s'appelle **coro
 // Dans un script MonoBehavior
 public IEnumerator MaCoroutine()
 {
- Debug.Log("Intruction imédiate");
+ Debug.Log("Instruction immédiate");
 
  // Pour appliquer une pause avec un délai à la coroutine
  yield return new WaitForSeconds(1f);
@@ -111,7 +111,7 @@ StartCoroutine("MaCoroutine");
 
 - [ ] Planifiez votre script comme un schéma.
 - [ ] Créez un nouveau script.
-- [ ] Créez des variables pour se réferer à les objets d'image.
+- [ ] Créez des variables pour se réferer aux objets (image).
 - [ ] Utilisez une coroutine pour alterner entre une image et l'autre.
 
 
