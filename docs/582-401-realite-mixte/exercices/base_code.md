@@ -87,9 +87,9 @@ Comment transformer la vérification en méthode avec une valeur de retour.
 
 ## Exercice 5
 
-On veut créer un script que alterne entre deux images. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.
+On veut créer un script qui alterne entre deux images. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.
 
-Pour faire cette logique, on va utiliser une fonctionalité que s'appelle **coroutine** que nous premettre de "pauser" une méthode et le continuer après un délai. Voici un exemple : 
+Pour faire cette logique, on va utiliser une fonctionalité qui s'appelle **coroutine**. Elle va nous premettre de "pauser" une méthode et de la continuer après un délai. Voici un exemple : 
 
 ``` c#
 // Dans un script MonoBehavior
