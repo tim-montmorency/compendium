@@ -6923,21 +6923,22 @@
 
 <div><h1 id="introduction-au-c"><strong>Introduction au C#</strong><a class="headerlink" href="#introduction-au-c" title="Permanent link">¶</a></h1>
 <h2 id="demonstration">Démonstration<a class="headerlink" href="#demonstration" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">compte</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="c1">// dans la classe, mais hors la méthode Update()</span>
+<span class="k">public</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">compte</span><span class="p">;</span>
 
 <span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Update</span><span class="p">()</span>
 <span class="p">{</span>
 <span class="w"> </span><span class="n">compte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Time</span><span class="p">.</span><span class="n">time</span><span class="p">;</span><span class="w"> </span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Pour imprimer une valeur dans unity vous devez remplacer le mot message par ce que vous souhaitez imprimer.: 
-</p><div class="highlight"><pre><span></span><code><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">message</span><span class="p">);</span><span class="w"> </span>
+<p>Pour imprimer une valeur dans Unity vous devez remplacer le mot message par ce que vous souhaitez imprimer.: </p>
+<div class="highlight"><pre><span></span><code><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">message</span><span class="p">);</span><span class="w"> </span>
 </code></pre></div>
 <h2 id="exercice-1">Exercice 1<a class="headerlink" href="#exercice-1" title="Permanent link">¶</a></h2>
-<p>Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main. </p>
+<p>Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main comme un schéma. </p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un nouveau script.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une variable qui change grâce à Time.time.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un nouveau script sur un GameObject vide.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une variable qui change grâce à <code>Time.time</code>.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Imprimez un message dans la console qui contient un message écrit en plus de votre chiffre qui change.</li>
 </ul>
 <p>Résultat attendu:     </p>
@@ -6945,9 +6946,9 @@
 <h2 id="exercice-2">Exercice 2<a class="headerlink" href="#exercice-2" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une nouvelle scène.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un bouton.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un texte qui affiche le chiffre 0.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet vide nommé compteur. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un bouton (UI &gt; Button).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un texte (UI &gt;  qui affiche le chiffre 0.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet vide nommé <code>Compteur</code>. </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un script sur ce nouvel objet. </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente de 1 la valeur du chiffre qui est affiché sur votre écran. </li>
 </ul>
@@ -6955,13 +6956,15 @@
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">TextMeshProUGUI</span><span class="w"> </span><span class="n">pointage</span><span class="p">;</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="n">nombre</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><code><span class="n">nombre</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
 </code></pre></div>
 <h2 id="demonstration_1">Démonstration<a class="headerlink" href="#demonstration_1" title="Permanent link">¶</a></h2>
 <p>On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: </p>
-<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">temps</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="c1">// dans la classe, mais hors la méthode</span>
+<span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">temps</span><span class="p">;</span>
 <span class="k">private</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">compteur</span><span class="p">;</span><span class="w"> </span>
 
+<span class="c1">// dans la méthode Update()</span>
 <span class="n">compteur</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">;</span>
 
 <span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">compteur</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
@@ -6974,7 +6977,7 @@
 <p>Au tableau, créez un schéma de programmation pour l'exercice 4. Écrivez ensuite votre code à la main. </p>
 <h2 id="exercice-4">Exercice 4<a class="headerlink" href="#exercice-4" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez deux images de couleur différentes et désactivez-les.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez deux GameObjects à une nouvelle scène avec Sprites de couleur différentes et désactivez-les.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Modifiez votre code précédent. Lorsque le temps est pair, l'image 1 est activée et la 2 désactivée. Lorsque le temps est impair, l'image 1 est désactivée et l'image 2 est activée. </li>
 </ul>
 <p>Pour activer ou désactiver un objet:</p>
@@ -6983,23 +6986,27 @@
 <h2 id="demonstration_2">Démonstration<a class="headerlink" href="#demonstration_2" title="Permanent link">¶</a></h2>
 <p>Comment transformer la vérification en méthode avec une valeur de retour. </p>
 <h2 id="exercice-5">Exercice 5<a class="headerlink" href="#exercice-5" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un nouveau script. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.</li>
-</ul>
-<p>Voici un exemple de Coroutine: </p>
-<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">IEnumerator</span><span class="w"> </span><span class="nf">maCoroutine</span><span class="p">()</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="c1">// Pour appliquer un délais à la coroutine</span>
-<span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="mf">1f</span><span class="p">);</span>
+<p>On veut créer un script que alterne entre deux images. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.</p>
+<p>Pour faire cette logique, on va utiliser une fonctionalité que s'appelle <strong>coroutine</strong> que nous premettre de "pauser" une méthode et le continuer après un délai. Voici un exemple : </p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Dans un script MonoBehavior</span>
+<span class="k">public</span><span class="w"> </span><span class="n">IEnumerator</span><span class="w"> </span><span class="nf">MaCoroutine</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w"> </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"Intruction imédiate"</span><span class="p">);</span>
 
-<span class="w">        </span><span class="c1">// Pour arrêter la coroutine</span>
-<span class="w">        </span><span class="k">yield</span><span class="w"> </span><span class="k">break</span><span class="p">;</span><span class="w"> </span>
-
-<span class="w">    </span><span class="p">}</span>
+<span class="w"> </span><span class="c1">// Pour appliquer une pause avec un délai à la coroutine</span>
+<span class="w"> </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="mf">1f</span><span class="p">);</span>
+<span class="w"> </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"Instruction après la pause"</span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>Vous aurez besoin de ce script pour partir votre coroutine:    </p>
-<div class="highlight"><pre><span></span><code><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">"maCoroutine"</span><span class="p">);</span>
-</code></pre></div></div>
+<div class="highlight"><pre><span></span><code><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">"MaCoroutine"</span><span class="p">);</span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Planifiez votre script comme un schéma.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un nouveau script.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez des variables pour se réferer à les objets d'image.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Utilisez une coroutine pour alterner entre une image et l'autre.</li>
+</ul></div>
 
 
 
