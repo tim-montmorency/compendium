@@ -33,7 +33,7 @@ Résultat attendu:
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton (UI > Button).
-- [ ] Créez un texte (UI >  qui affiche le chiffre 0.
+- [ ] Créez un texte (UI > Text - TextMeshPro)  qui affiche le chiffre 0.
 - [ ] Créez un objet vide nommé `Compteur`. 
 - [ ] Créez un script sur ce nouvel objet. 
 - [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente de 1 la valeur du chiffre qui est affiché sur votre écran. 
