@@ -82,7 +82,8 @@ GITHUB cours 4 - préparer notes
 - Mouvement interpolate ou tween.
 - Partager données entre les scènes. (Valeur du dernier HighScore: player prefs).
 - Améliorer section sur l'éclairage?
-- Allumer ou éteindre une lumière: Mettre après la télé et retirer vidéo pour défi? 
+- Allumer ou éteindre une lumière: Mettre après la télé et retirer vidéo pour défi?
+- Retirer étape 13 - Fait dans TP1
 
 
 
