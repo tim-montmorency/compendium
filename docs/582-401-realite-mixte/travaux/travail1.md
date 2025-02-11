@@ -11,8 +11,9 @@ Pour le travail 1, vous devrez produire une application simple en réalité augm
 ## Contenus essentiels
 Votre travail devra contenir les éléments suivants:      
 
-- [ ] L’expérience doit commencer avec un écran d’introduction qui affiche le nom de l’expérience ainsi que votre propre nom. Il doit y avoir un bouton pour démarrer l’expérience, un pour la quitter et un pour accéder aux consignes.
-- [ ] Dans votre écran d’introduction, vous devez créer un menu consignes avec au moins deux pages qui contiennent du texte qui explique les règles et les contrôles. Vous devez pouvoir alterner entre ces pages. 
+- [ ] L’expérience doit commencer avec un écran d’introduction qui affiche le nom de l’expérience ainsi que votre propre nom. Il doit y avoir un bouton pour démarrer l’expérience, un pour la quitter, un pour accéder aux crédits et un pour accéder aux consignes.
+- [ ] Dans votre écran d’introduction, vous devez créer un menu consignes avec au moins deux pages qui contiennent du texte qui explique les règles et les contrôles. Vous devez pouvoir alterner entre ces pages.
+- [ ] Lorsqu'on clique sur le bouton crédits, les crédits de votre jeu doivent apparaître. 
 - [ ] Lorsqu’on clique sur le bouton pour démarrer le jeu, une nouvelle scène doit être chargée.
 - [ ] Dans la scène de jeu, on doit avoir un bouton qui charge la scène menu.
 - [ ] Vous devez dessiner vos propres visuels pour les boutons ainsi qu'un fond pour votre menu principal.
@@ -149,7 +150,7 @@ Recherchez ensuite les éléments suivants (Libres de droit):
 - [ ] Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
 - [ ] Dans la fenêtre Game, modifier le format de votre Scene de Free Aspect à 1920 x 1080 Landscape.
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
-- [ ] Créez 3 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#composante">Modifier le texte des boutons</a>
+- [ ] Créez 4 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir les crédits et un pour ouvrir le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#composante">Modifier le texte des boutons</a>
 - [ ] Créez un objet texte dans votre panel pour inscrire le titre de votre expérience.
 - [ ] Créez un objet texte dans le panel pour inscrire votre nom.
 - [ ] Créez une nouvelle police pour vos textes. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#creer-une-police">Créer une police</a>
@@ -161,14 +162,17 @@ Recherchez ensuite les éléments suivants (Libres de droit):
 **Tutoriel 2 - Images personnalisées 🎥**    
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TplC8o_9L9o?si=4MTAfuSANpN7WoZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 6. Création de la scène Menu - Consignes
+### 6. Création de la scène Menu - Consignes et crédits
 - [ ] Dans le canvas, créez un nouveau Panel pour les consignes.
 - [ ] Dans ce panel, créez un panel par étape de vos consignes.
 - [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes et des images pour appuyer vos consignes au besoin.
+- [ ] Dans le canvas, créez un nouveau Panel pour les crédits.
+- [ ] Dans ce panel, insérez du texte pour vos crédits et un bouton pour retourner au menu principal. 
 
 
 
 ### 7. Création de la scène Jeu - UI
+- [ ] Assurez-vous d'être dans la scène Jeu. 
 - [ ]  Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
 - [ ] Ajoutez un texte qui affichera le pointage.
@@ -186,10 +190,10 @@ Recherchez ensuite les éléments suivants (Libres de droit):
 **Tutoriel 🎥**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 9. Création de la scène Menu - Script consignes
+### 9. Création de la scène Menu - Script consignes et crédits
 - [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
-
+- [ ] Créez aussi un bouton fermeture pour le panel crédits. 
 
 
 ### 10. Création de la scène Jeu - Script
