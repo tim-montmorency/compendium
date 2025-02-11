@@ -1,12 +1,12 @@
 # Cours 4
 
-![](./assets/images/illustrator_banner.png)
-
 ## Adobe Illustrator
 
+![](./assets/images/illustrator_banner.png)
 
+[Adobe Illustrator](https://www.adobe.com/ca_fr/products/illustrator.html) est un logiciel de dessin **vectoriel** utilisé dans les domaines du design graphique, de l’illustration et de la conception d’interfaces. Contrairement aux images matricielles, les images vectorielles peuvent être **agrandies ou réduites à l’infini sans perte de qualité** !
 
-
+L'outil permet de créer des **logos**, des **illustrations**, des **icônes**, des **infographies** et bien plus encore.
 
 ## Interface
 
@@ -104,14 +104,52 @@
   <br>Raccourci : ++q++
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/ai-spirale-epaisseur.png){ data-zoom-image }
+
+  [:material-play-circle: Épaisseur de trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie)
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/ai-deform.png){ data-zoom-image }
+
+  [:material-play-circle: Déformation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O)
+</div>
+
 <!-- [:material-play-circle: Importation d'images](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EadRHPzIucxFlI28D5gO0RgBIs3IZJ5KfBvqZThd9ODvNQ?e=8N6CPd) -->
+    
+## Formes
 
-* [:material-play-circle: Plume (P)](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr)
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/ai-formes.png){ data-zoom-image }
 
-* [:material-play-circle: Courbure](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F)
+  [:material-play-circle: Rectangle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7)<br>
+  [:material-play-circle: Cercle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7)<br>
+  [:material-play-circle: Étoile](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZX2hwnkga5Gs40mBRIsmoQBsl7C88Qf5870TUvM2Gjyeg?e=MF0Bze)<br>
+  [:material-play-circle: Polygone](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERjFIyvRbdxIqUXUJpZVPcUBtV3y_unzAOcQfgW_wkPMuA?e=aTTyb3)<br>
+</div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/vector-edit.png){ data-zoom-image }
 
-### Raccourcis
+  [:material-play-circle: Plume (P)](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr)<br>
+  [:material-play-circle: Courbure](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F)<br>
+  [:material-play-circle: Trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXEsMNgXyytBmvfM-W-rAU0BlKyCj0UZ6NrlleE5KkscPA?e=J5oJJS)<br>
+  [:material-play-circle: Arc](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EfarjMb3n4lAmQ9Txg6PEzIBBe1vFkONITW7pvHF-ozADg?e=nDRVjK)<br>
+  [:material-play-circle: Ciseaux](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng)
+</div>
+
+### La décomposition
+
+La décomposition permet de convertir une forme en une structure vectorielle indépendante des outils dynamiques d’Illustrator.
+
+⚠️ Attention : Cette méthode est destructive, ce qui signifie qu’il est impossible de revenir en arrière une fois l’action effectuée. Il est donc fortement recommandé de dupliquer votre calque avant d’appliquer cette transformation.
+
+![](./assets/images/egg.png)
+
+Par exemple, le jeune d'oeuf a initialement été créé avec une forme ovale puis décomposée et ajustée par la suite.
+
+## Raccourcis
 
 | Action                        | Raccourci (Windows) |
 |-------------------------------|---------------------|
@@ -131,72 +169,60 @@
 
 [Liste complète des raccourcis](https://helpx.adobe.com/ca_fr/illustrator/using/default-keyboard-shortcuts.html)
 
-## Largeur et déformation
+<!-- 
+[:material-play-circle: Spirale](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Edkspx-v4p1PmUDZyI3cL1gBR6oyBkE1JzqiYCe5DbCy1w?e=lascoq)
 
-* [:material-play-circle: Largeur (Shift + w)](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie)
-* [:material-play-circle: Déformation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O)
-    
-## Formes
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/ai-formes.png){ data-zoom-image }
-
-  [:material-play-circle: Rectangle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7)<br>
-  [:material-play-circle: Cercle](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQxYAeW4G51FsiXGcDGOIP8B93DnMnndzRLxt_a8R8zBRA?e=h0kTU7)<br>
-  [:material-play-circle: Étoile](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZX2hwnkga5Gs40mBRIsmoQBsl7C88Qf5870TUvM2Gjyeg?e=MF0Bze)<br>
-  [:material-play-circle: Polygone](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERjFIyvRbdxIqUXUJpZVPcUBtV3y_unzAOcQfgW_wkPMuA?e=aTTyb3)<br>
-</div>
-
-### La décomposition
-
-La décomposition permet de convertir une forme en une structure vectorielle indépendante des outils dynamiques d’Illustrator.
-
-⚠️ Attention : Cette méthode est destructive, ce qui signifie qu’il est impossible de revenir en arrière une fois l’action effectuée. Il est donc fortement recommandé de dupliquer votre calque avant d’appliquer cette transformation.
-
-![](./assets/images/egg.png)
-
-Par exemple, le jeune d'oeuf a initialement été créé avec une forme ovale puis décomposée et ajustée par la suite.
-
-     
-[:material-play-circle: Trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXEsMNgXyytBmvfM-W-rAU0BlKyCj0UZ6NrlleE5KkscPA?e=J5oJJS)<br>
-[:material-play-circle: Arc](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EfarjMb3n4lAmQ9Txg6PEzIBBe1vFkONITW7pvHF-ozADg?e=nDRVjK)<br>
-[:material-play-circle: Spirale](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Edkspx-v4p1PmUDZyI3cL1gBR6oyBkE1JzqiYCe5DbCy1w?e=lascoq)<br>
-[:material-play-circle: Spirale Couleur](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVvP-2-lo8xCpKIDD85Uq7oBptG0p31i7O2kOMlK_Zisuw?e=XXtB9F)<br>
 [:material-play-circle: Grille](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZxC7yf3LLJOoTvcyrN8-goBY7ikG1LdrwOMO_LEQFI55Q?e=3gB2at)
 
-### Ciseaux et sauvegarde
-
-* [:material-play-circle: Ciseaux](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng)
-
-<!-- [:material-play-circle: Sauvegarde](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U) -->
+[:material-play-circle: Sauvegarde](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Ebuc6WA8nGRMsnv43au4gMoBDTC54PbZ3yWDyaoZYMl4Rw?e=M3af7U)
+-->
 
 ## Exercices
 
-[🛠️ Transformations](./exercice_ai/00_transformations.md){ .md-button }   
+<!-- 
 
-[🛠️ Création d'un nouveau document](./exercice_ai/00_nouveau_doc.md){ .md-button }   
-
-[🛠️ Plume](./exercice_ai/01_plume.md){ .md-button }   
-
-[🛠️ Vagues](./exercice_ai/01_vagues.md){ .md-button }   
-
-[🛠️ Voiture](./exercice_ai/01_voiture.md){ .md-button }   
-
-[🛠️ Largeur](./exercice_ai/02_largeur.md){ .md-button }   
-
-[🛠️ Déformation](./exercice_ai/02_deformation.md){ .md-button }   
-
-[🛠️ Formes](./exercice_ai/03_formes.md){ .md-button }   
-
-[🛠️ Maison](./exercice_ai/04_maison.md){ .md-button }    
-
-[🛠️ Formes simples](./exercice_ai/04_formes_simples.md){ .md-button }   
-
-[🛠️ Devoir 1](./exercice_ai/04_devoir_1.md){ .md-button }   
+[Création d'un nouveau document](./exercice_ai/00_nouveau_doc.md){ .md-button }  
+[Maison](./exercice_ai/04_maison.md){.back} 
+[Formes simples](./exercice_ai/04_formes_simples.md){.back}<br>    
+[Vagues](./exercice_ai/01_vagues.md){.back}<br>
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercice_ai/kawaii/kawaii-preview.png?v=1)
+  ![](./exercice_ai/envrac.webp)
+
+  <small>Exercices en vrac - Illustrator</small><br>
+  [Largeur](./exercice_ai/02_largeur.md){.back}<br>
+  [Déformation](./exercice_ai/02_deformation.md){.back}<br>
+  [Formes](./exercice_ai/03_formes.md){.back} <br>
+</div>
+
+  -->
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercice_ai/transform.png)
+
+  <small>Exercice - Illustrator</small><br>
+  [Istanbul](./exercice_ai/00_transformations.md){.stretched-link .back}
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercice_ai/plume.png)
+
+  <small>Exercice - Illustrator</small><br>
+  [Plume](./exercice_ai/01_plume.md){.stretched-link .back}
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercice_ai/voiture.png)
+
+  <small>Exercice - Illustrator</small><br>
+  [Voiture](./exercice_ai/01_voiture.md){.stretched-link .back}
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercice_ai/kawaii/kawaii-preview.png)
 
   <small>Exercice - Illustrator</small><br>
   **[(づ｡◕‿‿◕｡)づ](./exercice_ai/kawaii/kawaii.md){.stretched-link .back}**
 </div>
+
+<!-- [🛠️ Devoir 1](./exercice_ai/04_devoir_1.md){ .md-button }    -->
