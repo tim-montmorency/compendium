@@ -9,8 +9,8 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
     - Animation    
     - Art    
     - Audio    
-    - Font
-    - Materials   
+    - Font    
+    - Materials       
     - Prefabs    
     - Scripts    
 
