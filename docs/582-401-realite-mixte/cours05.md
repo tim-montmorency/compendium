@@ -15,7 +15,7 @@
 
 
 ## Débuter le travail 2
-[🛠️ Travail 2](./consignes/travail2.md){ .md-button } 
+[🛠️ Travail 2](./travaux/travail2.md){ .md-button } 
 
 
 ## Test d'expériences VR
