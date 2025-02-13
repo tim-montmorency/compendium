@@ -6970,7 +6970,7 @@
 <p>Voici le résultat au <strong>Console</strong> (notez les timecodes) : </p>
 <p><img alt="Screenshot 2025-02-13 142923" src="https://github.com/user-attachments/assets/b1763940-b5d8-439b-a317-75e3388c520f"></p>
 <h3 id="coroutines">Coroutines<a class="headerlink" href="#coroutines" title="Permanent link">¶</a></h3>
-<p>Les <a href="./code/coroutines.md">coroutines</a> vont nous permettre de "pauser" une méthode dans le même script et de la continuer après un délai. Les étapes pour les utiliser sont:</p>
+<p>Les <a href="coroutines.md">coroutines</a> vont nous permettre de "pauser" une méthode dans le même script et de la continuer après un délai. Les étapes pour les utiliser sont:</p>
 <ol>
 <li>Il faut déclarer une méthode du type <code>IEnumerator</code>.</li>
 <li>Après, on peut l'exécuter avec la méthode <code>StartCoroutine()</code>.</li>
@@ -7007,12 +7007,12 @@
 <p><img alt="Screenshot 2025-02-13 122836" src="https://github.com/user-attachments/assets/774caa55-5617-4462-86b5-6b9f4c7c0623"></p>
 <h2 id="controle-dui-et-menus">Contrôle d'UI et menus<a class="headerlink" href="#controle-dui-et-menus" title="Permanent link">¶</a></h2>
 <h3 id="evenement-avec-methode-preexistante">Événement avec méthode préexistante<a class="headerlink" href="#evenement-avec-methode-preexistante" title="Permanent link">¶</a></h3>
-<p>On peut utiliser les <a href="code/evenements.md">événements</a> pour exécuter différents méthodes déjà disponibles sur un <strong>GameObject</strong> dela scène. Un exemple important est la activation (ou désactivation) d'un <strong>GameObject</strong>. Pour faire ça, on connecte le GameObject avec le champ en dessous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et cpondigurer ses paramètres (ex. le checkbox). </p>
+<p>On peut utiliser les <a href="evenements.html">événements</a> pour exécuter différents méthodes déjà disponibles sur un <strong>GameObject</strong> dela scène. Un exemple important est la activation (ou désactivation) d'un <strong>GameObject</strong>. Pour faire ça, on connecte le GameObject avec le champ en dessous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et cpondigurer ses paramètres (ex. le checkbox). </p>
 <p>Voice l'événement sur l'<strong>Inspector</strong> (dans une composante <strong>Button</strong> d'un bouton à mon <strong>Canvas</strong>) : </p>
 <p><img alt="Screenshot 2025-02-13 120845" src="https://github.com/user-attachments/assets/9165991f-5770-42b7-a1a6-d42fef537676"></p>
 <p>Cette configuration va exécuter la méthode <code>SetActive()</code> du GameObject  <strong>MonObjetExemple</strong> avec un valeur de <code>true</code> (checkbox est coché). Le objet va être activé sur la scène.</p>
 <h3 id="evenement-avec-methode-originale">Événement avec méthode originale<a class="headerlink" href="#evenement-avec-methode-originale" title="Permanent link">¶</a></h3>
-<p>Pour exécuter une méthode originale (c.à.d. créer dans un de nos scripts) dans un <a href="code/evenements.md">événement</a> au <strong>Inspector</strong>, il faut que 1) le script avec la méthode est attaché a un <strong>GameObject</strong> de la scène, et 2) que cette méthode soit publique.</p>
+<p>Pour exécuter une méthode originale (c.à.d. créer dans un de nos scripts) dans un <a href="evenements.html">événement</a> au <strong>Inspector</strong>, il faut que 1) le script avec la méthode est attaché a un <strong>GameObject</strong> de la scène, et 2) que cette méthode soit publique.</p>
 <p>Voici mon script (appelé <code>MonScriptExemple</code> et attaché à un objet <strong>MonObjetExemple</strong> à la scène) : </p>
 <div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
 <span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
