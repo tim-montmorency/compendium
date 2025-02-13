@@ -14,7 +14,7 @@ Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Uni
     - Prefabs    
     - Scripts    
 
-- [ ] Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager.
+- [ ] Ensuite, importez le paquet Polygon - Sampler Pack de Synty studio à l'aide du Package Manager. Si vous n'êtes pas capable d'y avoir accès, vous pouvez le récupérer ici: [Student pack](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfKwHJ4FR8xAsVfA8vjB_FsBkbTmx5G78a1C6vRmuAFBfg?e=YtAR6h) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jaqGgmCTjPI?si=ygy8YXiUjzRxEadI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
