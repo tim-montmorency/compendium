@@ -1,5 +1,3 @@
-# Bibliothèque d'exemples de programmation en Unity et C\#
-
 Tous les exemples montrés ici sont disponibles sur le projet disponible ici. Vous pouvez le télécharger et explorer avec les sujets en dessous.
 
 ## Décomptes et timers
