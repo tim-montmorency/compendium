@@ -89,11 +89,17 @@
 - [Déplacement de la caméra et du joueur](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU)
 - [Modifier un matériel avec le script](code/materiel_code.md)
 
-#### Bibliothèque d'exemples de code
+#### Bibliothèque d'exemples de code en Unity
 
-- [Projet avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
-- [Décomptes et timers](code/bibliotheque_exemples.md#d%C3%A9comptes-et-timers)
-- [Contrôle d'UI et menus](code/bibliotheque_exemples.md#contr%C3%B4le-dui-et-menus)
+- [Projet Unity avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
+- [Décomptes et timers](code/bibliotheque_exemples.md#decomptes-et-timers)
+  - [Méthode Invoke() et InvokeRepeating()](code/bibliotheque_exemples.html#methode-invoke-et-invokerepeating)
+  - [Coroutines](code/bibliotheque_exemples.html#coroutines)
+- [Contrôle d'UI et menus](code/bibliotheque_exemples.md#controle-dui-et-menus)
+  - [Événement avec méthode préexistante](code/bibliotheque_exemples.html#evenement-avec-methode-preexistante)
+  - [Événement avec méthode originale](code/bibliotheque_exemples.html#evenement-avec-methode-originale)
+  - [Activation simple d'élement d'UI](code/bibliotheque_exemples.html#activation-simple-delement-dui)
+  - [Changer les propriétés de l'UI à partir d'un script](code/bibliotheque_exemples.html#changer-les-proprietes-de-lui-a-partir-dun-script)
      
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
