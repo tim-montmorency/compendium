@@ -1,17 +1,22 @@
 # Cours 5
 
+#### Contrôle de la qualité et défis     
+
+### Test de l'application
+Répertorier les problèmes, trouver des solutions.
+
+### Avancement du travail 1
+[💼 Travail 1 - Étape 12](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#12-defi-sera-evalue){ .md-button }     
+
+
+#### Exportation
+- [📝 Exportation](./unity/build.md)  
+
+### Avancement du travail 1
+#### Création de l'application
+[💼 Travail 1 - Étape 13](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#13-creation-de-lapplication){ .md-button }    
+
 ## 🚨 Remise du travail 1
-
-
-## Exploration des travail 1
-
-## Ouvrir et vérifier votre projet Unity en vue de l'évaluation formative sur la nomenclature
-
-- [ ] Classement des fichiers
-- [ ] Classement des GameObject
-- [ ] Nomenclature des fichiers
-- [ ] Nomenclature des GameObject
-- [ ] Propreté des scripts   
 
 
 ## S'assurer d'avoir le paquet gratuit de Synty studio
@@ -23,6 +28,3 @@ Vous devez trouver le code dans vos courriels et ensuite le rentrer dans la case
 ## Débuter le travail 2
 [🛠️ Travail 2](./travaux/travail2.md){ .md-button } 
 
-
-## Test d'expériences VR
-[🔎 Expériences VR](./installation/experiences.md){ .md-button } 
