@@ -88,6 +88,7 @@
 - [Coroutine](code/coroutine.md)
 - [Déplacement de la caméra et du joueur](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU)
 - [Modifier un matériel avec le script](code/materiel_code.md)
+- [Exemples de code](code/bibliotheques-exemples.md)
      
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
