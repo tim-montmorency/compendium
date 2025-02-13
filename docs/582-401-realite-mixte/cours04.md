@@ -22,10 +22,33 @@ Assurez-vous de bien télécharger les documents de votre session (Bureau, docum
 [💼 Travail 1 - Étape 11](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#11-creation-de-la-scene-menu-script-ui){ .md-button }     
 
 
- 
+## Bloc 4
+#### Code 
+- [📝 Coroutine](./code/coroutine.md)        
+
+#### Exercices de programmation
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+
+
+#### Réflexion sur le code de détection
+1. Quelles variables sont nécessaires?    
+2. Quelles fonctions seront utilisées?    
+3. À quoi ressemblera le code?    
+
+#### Schéma de programmation
+1. Créer un schéma de programmation pour votre travail 1.
+2. Partagez vos schémas en équipe pour les améliorer.
+
+#### Code travail 1
+Écrivez votre code pour le travail 1 à la main. Validez le ensuite avec votre enseignant. 
+
+
+### Avancement du travail 1
+#### Script
+[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#10-creation-de-la-scene-jeu-script){ .md-button }     
 
 
 ## Devoir
 
-### Terminer les étapes 1 à 14 du travail 1
+### Terminer les étapes 1 à 11 du travail 1
 [💼 Travail 1](./travaux/travail1.md){ .md-button }    
