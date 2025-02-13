@@ -88,7 +88,12 @@
 - [Coroutine](code/coroutine.md)
 - [Déplacement de la caméra et du joueur](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU)
 - [Modifier un matériel avec le script](code/materiel_code.md)
-- [Exemples de code](code/bibliotheques-exemples.md)
+
+#### Bibliothèque d'exemples de code
+
+- [Projet avec exemples](#)
+- [Décomptes et timers](code/bibliotheque_exemples.md#d%C3%A9comptes-et-timers)
+- [Contrôle d'UI et menus](code/bibliotheque_exemples.md#contr%C3%B4le-dui-et-menus)
      
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
