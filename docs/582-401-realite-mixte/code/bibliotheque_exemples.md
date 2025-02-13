@@ -48,7 +48,7 @@ Voici le résultat au **Console** (notez les timecodes) :
 
 ### Coroutines
 
-Les [coroutines](./code/coroutines.md) vont nous permettre de "pauser" une méthode dans le même script et de la continuer après un délai. Les étapes pour les utiliser sont:
+Les [coroutines](coroutines.md) vont nous permettre de "pauser" une méthode dans le même script et de la continuer après un délai. Les étapes pour les utiliser sont:
 
 1. Il faut déclarer une méthode du type `IEnumerator`.
 2. Après, on peut l'exécuter avec la méthode `StartCoroutine()`.
@@ -92,7 +92,7 @@ Le résultat de cette coroutine sur notre **Console** (notez les timecodes) :
 
 ### Événement avec méthode préexistante
 
-On peut utiliser les [événements](code/evenements.md) pour exécuter différents méthodes déjà disponibles sur un **GameObject** dela scène. Un exemple important est la activation (ou désactivation) d'un **GameObject**. Pour faire ça, on connecte le GameObject avec le champ en dessous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et cpondigurer ses paramètres (ex. le checkbox). 
+On peut utiliser les [événements](evenements.md) pour exécuter différents méthodes déjà disponibles sur un **GameObject** dela scène. Un exemple important est la activation (ou désactivation) d'un **GameObject**. Pour faire ça, on connecte le GameObject avec le champ en dessous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et cpondigurer ses paramètres (ex. le checkbox). 
 
 Voice l'événement sur l'**Inspector** (dans une composante **Button** d'un bouton à mon **Canvas**) : 
 
@@ -102,7 +102,7 @@ Cette configuration va exécuter la méthode `SetActive()` du GameObject  **MonO
 
 ### Événement avec méthode originale
 
-Pour exécuter une méthode originale (c.à.d. créer dans un de nos scripts) dans un [événement](code/evenements.md) au **Inspector**, il faut que 1) le script avec la méthode est attaché a un **GameObject** de la scène, et 2) que cette méthode soit publique.
+Pour exécuter une méthode originale (c.à.d. créer dans un de nos scripts) dans un [événement](evenements.md) au **Inspector**, il faut que 1) le script avec la méthode est attaché a un **GameObject** de la scène, et 2) que cette méthode soit publique.
 
 Voici mon script (appelé `MonScriptExemple` et attaché à un objet **MonObjetExemple** à la scène) : 
 
