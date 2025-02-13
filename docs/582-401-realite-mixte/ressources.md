@@ -91,7 +91,7 @@
 
 #### Bibliothèque d'exemples de code
 
-- [Projet avec exemples](#)
+- [Projet avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
 - [Décomptes et timers](code/bibliotheque_exemples.md#d%C3%A9comptes-et-timers)
 - [Contrôle d'UI et menus](code/bibliotheque_exemples.md#contr%C3%B4le-dui-et-menus)
      
