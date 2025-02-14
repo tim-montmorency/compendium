@@ -80,7 +80,10 @@ GITHUB cours 4 - préparer notes
 - Détection espace (Change élément)
 - Faire version initiale de la dynamique du projet 3: On choisi un jeu de base et on demande aux étudiants d'adapter au contexte 3D. (Ex: frogger)
 - Mouvement interpolate ou tween.
-- Partager données entre les scènes. (Valeur du dernier HighScore: player prefs). 
+- Partager données entre les scènes. (Valeur du dernier HighScore: player prefs).
+- Améliorer section sur l'éclairage?
+- Allumer ou éteindre une lumière: Mettre après la télé et retirer vidéo pour défi?
+- Retirer étape 13 - Fait dans TP1
 
 
 

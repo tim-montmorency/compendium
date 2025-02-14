@@ -249,8 +249,8 @@ function afficher_les_ingredients($atts) {
         foreach ($fields as $field) {
             echo '<li>';
 
-        if (!empty($field['_quantité'])) {
-                echo '<span>' . esc_html($field['_qty']) . '</span>';
+        if (!empty($field['_quantite'])) {
+                echo '<span>' . esc_html($field['_quantite']) . '</span>';
             }
 
             if (!empty($field['_mesure'])) {
