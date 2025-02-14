@@ -1,3 +1,5 @@
+# Bibliothèque d'exemples
+
 Tous les exemples montrés ici sont disponibles sur le [projet disponible ici](https://github.com/tim-montmorency/bibliotheque-exemples). Vous pouvez le télécharger et explorer avec les sujets en dessous.
 
 [Projet Unity de la bibliothèque](https://github.com/tim-montmorency/bibliotheque-exemples){ .md-button }
@@ -6,9 +8,9 @@ Tous les exemples montrés ici sont disponibles sur le [projet disponible ici](h
 
 ### Méthode `Invoke()` et `InvokeRepeating()`
 
-La méthode `Invoke()` nous permet des exécuter une méthode dans le même script après un délai initial. Avec la méthode `InvokeRepeating()` on peut choisir un délai initiale et un interval pour répéter l'exécution.
+La méthode `Invoke()` nous permet d'exécuter une méthode dans le même script après un délai initial. Avec la méthode `InvokeRepeating()` on peut choisir un délai initial et un intervalle pour répéter l'exécution.
 
-Voici un exemple d'utilisation de ses 2 méthodes au `Start()`.
+Voici un exemple d'utilisation de ces 2 méthodes au `Start()`.
 
 ```csharp
 using System.Collections;
@@ -22,10 +24,10 @@ public class MonScriptInvoke : MonoBehaviour
         // Exécution initiale après 3s seulement
         Invoke("MonMethodeExemple", 3f);
 
-        // Exécution initiale après 5s avec repétitions à chaque 10s
+        // Exécution initiale après 5s avec repétition à chaque 10s
         InvokeRepeating("MonMethodeExempleRepetee", 5f, 10f);
 
-        // La méthode en dessous cancelle tous les 
+        // La méthode en dessous annule toutes les 
         // exécutions faites avec Invoke() ou InvokeRepeating()
         // CancelInvoke();
     }
@@ -42,7 +44,7 @@ public class MonScriptInvoke : MonoBehaviour
 }
 ```
 
-Voici le résultat au **Console** (notez les timecodes) : 
+Voici le résultat dans la **Console** (notez les timecodes) : 
 
 ![Screenshot 2025-02-13 142923](https://github.com/user-attachments/assets/b1763940-b5d8-439b-a317-75e3388c520f)
 
@@ -65,9 +67,9 @@ public class MaCoroutineSimple : MonoBehaviour
 	{
 	    Debug.Log("Message avant d'exécuter la coroutine");
 	    
-	    // Appel de la coroutine que j'ai defini
-	    // en-dessous le moment que mon script
-	    // est activé en scène.
+	    // Appel de la coroutine que j'ai définie
+	    // en-dessous au moment où mon script
+	    // est activé dans la scène.
 	    StartCoroutine("MaCoroutine");
 	
 	    Debug.Log("Message pendant la pause");
@@ -92,17 +94,17 @@ Le résultat de cette coroutine sur notre **Console** (notez les timecodes) :
 
 ### Événement avec méthode préexistante
 
-On peut utiliser les [événements](evenements.md) pour exécuter différents méthodes déjà disponibles sur un **GameObject** dela scène. Un exemple important est la activation (ou désactivation) d'un **GameObject**. Pour faire ça, on connecte le GameObject avec le champ en dessous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et cpondigurer ses paramètres (ex. le checkbox). 
+On peut utiliser les [événements](evenements.md) pour exécuter différents méthodes déjà disponibles sur un **GameObject** de la scène. Un exemple important est l'activation (ou désactivation) d'un **GameObject**. Pour faire ça, on connecte le GameObject avec le champ sous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et configurer ses paramètres (ex. le checkbox). 
 
-Voice l'événement sur l'**Inspector** (dans une composante **Button** d'un bouton à mon **Canvas**) : 
+Voici l'événement sur l'**Inspector** (dans une composante **Button** d'un bouton à mon **Canvas**) : 
 
 ![Screenshot 2025-02-13 120845](https://github.com/user-attachments/assets/9165991f-5770-42b7-a1a6-d42fef537676)
 
-Cette configuration va exécuter la méthode `SetActive()` du GameObject  **MonObjetExemple** avec un valeur de `true` (checkbox est coché). Le objet va être activé sur la scène.
+Cette configuration va exécuter la méthode `SetActive()` du GameObject  **MonObjetExemple** avec une valeur de `true` (checkbox est coché). L'objet va être activé sur la scène.
 
 ### Événement avec méthode originale
 
-Pour exécuter une méthode originale (c.à.d. créer dans un de nos scripts) dans un [événement](evenements.md) au **Inspector**, il faut que 1) le script avec la méthode est attaché a un **GameObject** de la scène, et 2) que cette méthode soit publique.
+Pour exécuter une méthode originale (c.à.d. créée dans un de nos scripts) dans un [événement](evenements.md) de l'**Inspector**, il faut que 1) le script avec la méthode soit attaché a un **GameObject** de la scène, et 2) que cette méthode soit publique.
 
 Voici mon script (appelé `MonScriptExemple` et attaché à un objet **MonObjetExemple** à la scène) : 
 
@@ -113,8 +115,8 @@ using UnityEngine;
 
 public class MonScriptExemple : MonoBehaviour
 {
-    // Ce méthode va être disponible sur la boite 
-    // d'événement parce qu'il est publique
+    // Cette méthode va être disponible sur la boite 
+    // d'événement parce qu'elle est publique
     public void MonMethodeExemple()
     {
         Debug.Log("La méthode exemple a executé.");
@@ -128,7 +130,7 @@ Voici l'événement sur l'Inspector (dans une composante **Button** d'un bouton 
 
 ### Activation simple d'élement d'UI
 
-On peut utiliser le [Événement avec méthode préexistante](<#Événement avec méthode préexistante>) pour créer des boutons pour activer et désactiver des panneaux et d'autres éléments de l'interface utilisateur.
+On peut utiliser l'[Événement avec méthode préexistante](<#Événement avec méthode préexistante>) pour créer des boutons pour activer et désactiver des panneaux et d'autres éléments de l'interface utilisateur.
 
 Voici un exemple de **Canvas** avec différents boutons (**Activer**, **Désactiver** et **X**) qui utilisent les événements et la méthode `GameObject.SetActive()` pour contrôler le **Panel** à droite.
 
@@ -144,7 +146,7 @@ Voici la configuration des événements pour chaque **Button** :
 
 ### Changer les propriétés de l'UI à partir d'un script
 
-De façon générale, le processus pour changer une propriété d'UI à partir dún script a la structure suivante :
+De façon générale, le processus pour changer une propriété d'UI à partir d'un script a la structure suivante :
 
 1. Déclarer une variable publique du type de la composante ciblée (ex. `TextMeshProUGUI` pour texte, `Image` pour une image, etc).
 2. Dans l'**Inspector**, connecter la variable du script avec le **GameObject** de l'élement d'UI à l'**Hierarchy**.
@@ -167,22 +169,22 @@ using UnityEngine.UI;
 
 public class MonScriptChangerUI : MonoBehaviour
 {
-    // Cettes variables vont être configurées
-    // au Inspector
+    // Ces variables vont être configurées
+    // dans l'Inspector
     public TextMeshProUGUI textChrono;
     public Slider sliderOnde;
     public Image imageAlternance;
 
     void Update()
     {
-        // Montrer le temps depuis démarrage comme text
+        // Montrer le temps depuis le démarrage sous forme de texte
         textChrono.text = Time.time.ToString("00.0");
 
         // Montrer la valeur d'une onde avec un slider
         sliderOnde.value = Mathf.Sin(Time.time) * 0.5f + 0.5f;
 
-        // Changer la propriété color de l'Image pour donner un tint
-        // à partir du valeur du slider
+        // Changer la propriété color de l'Image pour donner une teinte
+        // à partir de la valeur du slider
         if(sliderOnde.value < 0.5f )
         {
             imageAlternance.color = Color.red;
