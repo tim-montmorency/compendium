@@ -204,6 +204,9 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 - [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
 - [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
 
+Voici une ressource pour vous aider à créer votre code: 
+[📝 Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }     
+
 ### 11. Création de la scène Menu - Script UI
 - [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
 - [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
