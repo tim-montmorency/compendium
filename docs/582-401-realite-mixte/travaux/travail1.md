@@ -50,8 +50,7 @@ Voici un site qui donne des idées de thématiques:
 ## Exemple
 Voici un exemple de l'expérience que vous allez produire:    
 
-[📁 Exemple](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/EbLeAD_o9BBAtIn_fSW0MkIBvDw9UZ4eY_S976iUWkCZng?e=A9aSNG){ .md-button }   
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t9dXH39bxjg?si=mguphPcpF2VTraW1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
 ## Contenus à inclure
