@@ -18,7 +18,7 @@
     
     
       
-        <title>Bibliotheque exemples - Notes de cours</title>
+        <title>Bibliothèque d'exemples - Notes de cours</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#decomptes-et-timers" class="md-skip">
+        <a href="#bibliotheque-dexemples" class="md-skip">
           Aller au contenu
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bibliotheque exemples
+              Bibliothèque d'exemples
             
           </span>
         </div>
@@ -6822,6 +6822,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -6929,14 +6931,13 @@
 
 
 
-  <h1>Bibliotheque exemples</h1>
-
-<div><p>Tous les exemples montrés ici sont disponibles sur le <a href="https://github.com/tim-montmorency/bibliotheque-exemples">projet disponible ici</a>. Vous pouvez le télécharger et explorer avec les sujets en dessous.</p>
+<div><h1 id="bibliotheque-dexemples">Bibliothèque d'exemples<a class="headerlink" href="#bibliotheque-dexemples" title="Permanent link">¶</a></h1>
+<p>Tous les exemples montrés ici sont disponibles sur le <a href="https://github.com/tim-montmorency/bibliotheque-exemples">projet disponible ici</a>. Vous pouvez le télécharger et explorer avec les sujets en dessous.</p>
 <p><a class="md-button" href="https://github.com/tim-montmorency/bibliotheque-exemples">Projet Unity de la bibliothèque</a></p>
 <h2 id="decomptes-et-timers">Décomptes et timers<a class="headerlink" href="#decomptes-et-timers" title="Permanent link">¶</a></h2>
 <h3 id="methode-invoke-et-invokerepeating">Méthode <code>Invoke()</code> et <code>InvokeRepeating()</code><a class="headerlink" href="#methode-invoke-et-invokerepeating" title="Permanent link">¶</a></h3>
-<p>La méthode <code>Invoke()</code> nous permet des exécuter une méthode dans le même script après un délai initial. Avec la méthode <code>InvokeRepeating()</code> on peut choisir un délai initiale et un interval pour répéter l'exécution.</p>
-<p>Voici un exemple d'utilisation de ses 2 méthodes au <code>Start()</code>.</p>
+<p>La méthode <code>Invoke()</code> nous permet d'exécuter une méthode dans le même script après un délai initial. Avec la méthode <code>InvokeRepeating()</code> on peut choisir un délai initial et un intervalle pour répéter l'exécution.</p>
+<p>Voici un exemple d'utilisation de ces 2 méthodes au <code>Start()</code>.</p>
 <div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
 <span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
 <span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
@@ -6948,10 +6949,10 @@
 <span class="w">        </span><span class="c1">// Exécution initiale après 3s seulement</span>
 <span class="w">        </span><span class="n">Invoke</span><span class="p">(</span><span class="s">"MonMethodeExemple"</span><span class="p">,</span><span class="w"> </span><span class="mf">3f</span><span class="p">);</span>
 
-<span class="w">        </span><span class="c1">// Exécution initiale après 5s avec repétitions à chaque 10s</span>
+<span class="w">        </span><span class="c1">// Exécution initiale après 5s avec repétition à chaque 10s</span>
 <span class="w">        </span><span class="n">InvokeRepeating</span><span class="p">(</span><span class="s">"MonMethodeExempleRepetee"</span><span class="p">,</span><span class="w"> </span><span class="mf">5f</span><span class="p">,</span><span class="w"> </span><span class="mf">10f</span><span class="p">);</span>
 
-<span class="w">        </span><span class="c1">// La méthode en dessous cancelle tous les </span>
+<span class="w">        </span><span class="c1">// La méthode en dessous annule toutes les </span>
 <span class="w">        </span><span class="c1">// exécutions faites avec Invoke() ou InvokeRepeating()</span>
 <span class="w">        </span><span class="c1">// CancelInvoke();</span>
 <span class="w">    </span><span class="p">}</span>
@@ -6967,7 +6968,7 @@
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Voici le résultat au <strong>Console</strong> (notez les timecodes) : </p>
+<p>Voici le résultat dans la <strong>Console</strong> (notez les timecodes) : </p>
 <p><img alt="Screenshot 2025-02-13 142923" src="https://github.com/user-attachments/assets/b1763940-b5d8-439b-a317-75e3388c520f"></p>
 <h3 id="coroutines">Coroutines<a class="headerlink" href="#coroutines" title="Permanent link">¶</a></h3>
 <p>Les <a href="coroutines.md">coroutines</a> vont nous permettre de "pauser" une méthode dans le même script et de la continuer après un délai. Les étapes pour les utiliser sont:</p>
@@ -6985,9 +6986,9 @@
 <span class="w">    </span><span class="p">{</span>
 <span class="w">        </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"Message avant d'exécuter la coroutine"</span><span class="p">);</span>
 
-<span class="w">        </span><span class="c1">// Appel de la coroutine que j'ai defini</span>
-<span class="w">        </span><span class="c1">// en-dessous le moment que mon script</span>
-<span class="w">        </span><span class="c1">// est activé en scène.</span>
+<span class="w">        </span><span class="c1">// Appel de la coroutine que j'ai définie</span>
+<span class="w">        </span><span class="c1">// en-dessous au moment où mon script</span>
+<span class="w">        </span><span class="c1">// est activé dans la scène.</span>
 <span class="w">        </span><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">"MaCoroutine"</span><span class="p">);</span>
 
 <span class="w">        </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"Message pendant la pause"</span><span class="p">);</span>
@@ -7007,12 +7008,12 @@
 <p><img alt="Screenshot 2025-02-13 122836" src="https://github.com/user-attachments/assets/774caa55-5617-4462-86b5-6b9f4c7c0623"></p>
 <h2 id="controle-dui-et-menus">Contrôle d'UI et menus<a class="headerlink" href="#controle-dui-et-menus" title="Permanent link">¶</a></h2>
 <h3 id="evenement-avec-methode-preexistante">Événement avec méthode préexistante<a class="headerlink" href="#evenement-avec-methode-preexistante" title="Permanent link">¶</a></h3>
-<p>On peut utiliser les <a href="evenements.html">événements</a> pour exécuter différents méthodes déjà disponibles sur un <strong>GameObject</strong> dela scène. Un exemple important est la activation (ou désactivation) d'un <strong>GameObject</strong>. Pour faire ça, on connecte le GameObject avec le champ en dessous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et cpondigurer ses paramètres (ex. le checkbox). </p>
-<p>Voice l'événement sur l'<strong>Inspector</strong> (dans une composante <strong>Button</strong> d'un bouton à mon <strong>Canvas</strong>) : </p>
+<p>On peut utiliser les <a href="evenements.html">événements</a> pour exécuter différents méthodes déjà disponibles sur un <strong>GameObject</strong> de la scène. Un exemple important est l'activation (ou désactivation) d'un <strong>GameObject</strong>. Pour faire ça, on connecte le GameObject avec le champ sous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et configurer ses paramètres (ex. le checkbox). </p>
+<p>Voici l'événement sur l'<strong>Inspector</strong> (dans une composante <strong>Button</strong> d'un bouton à mon <strong>Canvas</strong>) : </p>
 <p><img alt="Screenshot 2025-02-13 120845" src="https://github.com/user-attachments/assets/9165991f-5770-42b7-a1a6-d42fef537676"></p>
-<p>Cette configuration va exécuter la méthode <code>SetActive()</code> du GameObject  <strong>MonObjetExemple</strong> avec un valeur de <code>true</code> (checkbox est coché). Le objet va être activé sur la scène.</p>
+<p>Cette configuration va exécuter la méthode <code>SetActive()</code> du GameObject  <strong>MonObjetExemple</strong> avec une valeur de <code>true</code> (checkbox est coché). L'objet va être activé sur la scène.</p>
 <h3 id="evenement-avec-methode-originale">Événement avec méthode originale<a class="headerlink" href="#evenement-avec-methode-originale" title="Permanent link">¶</a></h3>
-<p>Pour exécuter une méthode originale (c.à.d. créer dans un de nos scripts) dans un <a href="evenements.html">événement</a> au <strong>Inspector</strong>, il faut que 1) le script avec la méthode est attaché a un <strong>GameObject</strong> de la scène, et 2) que cette méthode soit publique.</p>
+<p>Pour exécuter une méthode originale (c.à.d. créée dans un de nos scripts) dans un <a href="evenements.html">événement</a> de l'<strong>Inspector</strong>, il faut que 1) le script avec la méthode soit attaché a un <strong>GameObject</strong> de la scène, et 2) que cette méthode soit publique.</p>
 <p>Voici mon script (appelé <code>MonScriptExemple</code> et attaché à un objet <strong>MonObjetExemple</strong> à la scène) : </p>
 <div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
 <span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
@@ -7020,8 +7021,8 @@
 
 <span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MonScriptExemple</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
 <span class="p">{</span>
-<span class="w">    </span><span class="c1">// Ce méthode va être disponible sur la boite </span>
-<span class="w">    </span><span class="c1">// d'événement parce qu'il est publique</span>
+<span class="w">    </span><span class="c1">// Cette méthode va être disponible sur la boite </span>
+<span class="w">    </span><span class="c1">// d'événement parce qu'elle est publique</span>
 <span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">MonMethodeExemple</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
 <span class="w">        </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"La méthode exemple a executé."</span><span class="p">);</span>
@@ -7031,7 +7032,7 @@
 <p>Voici l'événement sur l'Inspector (dans une composante <strong>Button</strong> d'un bouton à mon <strong>Canvas</strong>) : </p>
 <p><img alt="Screenshot 2025-02-13 170726" src="https://github.com/user-attachments/assets/3fd98783-c0a8-455b-871e-2d6ae272bdf3"></p>
 <h3 id="activation-simple-delement-dui">Activation simple d'élement d'UI<a class="headerlink" href="#activation-simple-delement-dui" title="Permanent link">¶</a></h3>
-<p>On peut utiliser le <a href="#%C3%89v%C3%A9nement%20avec%20m%C3%A9thode%20pr%C3%A9existante">Événement avec méthode préexistante</a> pour créer des boutons pour activer et désactiver des panneaux et d'autres éléments de l'interface utilisateur.</p>
+<p>On peut utiliser l'<a href="#%C3%89v%C3%A9nement%20avec%20m%C3%A9thode%20pr%C3%A9existante">Événement avec méthode préexistante</a> pour créer des boutons pour activer et désactiver des panneaux et d'autres éléments de l'interface utilisateur.</p>
 <p>Voici un exemple de <strong>Canvas</strong> avec différents boutons (<strong>Activer</strong>, <strong>Désactiver</strong> et <strong>X</strong>) qui utilisent les événements et la méthode <code>GameObject.SetActive()</code> pour contrôler le <strong>Panel</strong> à droite.</p>
 <p><img alt="Screenshot 2025-02-13 144819" src="https://github.com/user-attachments/assets/7a46d3e5-c3c3-46a4-8929-26cdc75c0d4e"></p>
 <p>Voici la configuration des événements pour chaque <strong>Button</strong> : </p>
@@ -7039,7 +7040,7 @@
 <p><img alt="Screenshot 2025-02-13 145039" src="https://github.com/user-attachments/assets/57d5f234-ed9f-4b87-bcc9-fe5b14053d0f"></p>
 <p><img alt="Screenshot 2025-02-13 145051" src="https://github.com/user-attachments/assets/d2194b19-267f-4fad-b11b-c6aba2336d25"></p>
 <h3 id="changer-les-proprietes-de-lui-a-partir-dun-script">Changer les propriétés de l'UI à partir d'un script<a class="headerlink" href="#changer-les-proprietes-de-lui-a-partir-dun-script" title="Permanent link">¶</a></h3>
-<p>De façon générale, le processus pour changer une propriété d'UI à partir dún script a la structure suivante :</p>
+<p>De façon générale, le processus pour changer une propriété d'UI à partir d'un script a la structure suivante :</p>
 <ol>
 <li>Déclarer une variable publique du type de la composante ciblée (ex. <code>TextMeshProUGUI</code> pour texte, <code>Image</code> pour une image, etc).</li>
 <li>Dans l'<strong>Inspector</strong>, connecter la variable du script avec le <strong>GameObject</strong> de l'élement d'UI à l'<strong>Hierarchy</strong>.</li>
@@ -7057,22 +7058,22 @@
 
 <span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MonScriptChangerUI</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
 <span class="p">{</span>
-<span class="w">    </span><span class="c1">// Cettes variables vont être configurées</span>
-<span class="w">    </span><span class="c1">// au Inspector</span>
+<span class="w">    </span><span class="c1">// Ces variables vont être configurées</span>
+<span class="w">    </span><span class="c1">// dans l'Inspector</span>
 <span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">TextMeshProUGUI</span><span class="w"> </span><span class="n">textChrono</span><span class="p">;</span>
 <span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">Slider</span><span class="w"> </span><span class="n">sliderOnde</span><span class="p">;</span>
 <span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">Image</span><span class="w"> </span><span class="n">imageAlternance</span><span class="p">;</span>
 
 <span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Update</span><span class="p">()</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="c1">// Montrer le temps depuis démarrage comme text</span>
+<span class="w">        </span><span class="c1">// Montrer le temps depuis le démarrage sous forme de texte</span>
 <span class="w">        </span><span class="n">textChrono</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Time</span><span class="p">.</span><span class="n">time</span><span class="p">.</span><span class="n">ToString</span><span class="p">(</span><span class="s">"00.0"</span><span class="p">);</span>
 
 <span class="w">        </span><span class="c1">// Montrer la valeur d'une onde avec un slider</span>
 <span class="w">        </span><span class="n">sliderOnde</span><span class="p">.</span><span class="k">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sin</span><span class="p">(</span><span class="n">Time</span><span class="p">.</span><span class="n">time</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.5f</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">0.5f</span><span class="p">;</span>
 
-<span class="w">        </span><span class="c1">// Changer la propriété color de l'Image pour donner un tint</span>
-<span class="w">        </span><span class="c1">// à partir du valeur du slider</span>
+<span class="w">        </span><span class="c1">// Changer la propriété color de l'Image pour donner une teinte</span>
+<span class="w">        </span><span class="c1">// à partir de la valeur du slider</span>
 <span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">sliderOnde</span><span class="p">.</span><span class="k">value</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mf">0.5f</span><span class="w"> </span><span class="p">)</span>
 <span class="w">        </span><span class="p">{</span>
 <span class="w">            </span><span class="n">imageAlternance</span><span class="p">.</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Color</span><span class="p">.</span><span class="n">red</span><span class="p">;</span>
