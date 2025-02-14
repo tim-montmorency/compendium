@@ -7,7 +7,7 @@ tags:
 
 *[FSE]: Full Site Editing
 
-![](../assets/images/the-substance-2024-mubi.gif){.w-100}
+![](../assets/images/demi.jpg){.w-100}
 
 L'objectif de cet exercice est d'explorer les différentes fonctionnalités qu'on retrouve dans différents thèmes FSE. Les attentes sont les suivantes :
 
@@ -32,10 +32,38 @@ Bien que la fin, à mon avis, soit de très mauvais goût et dénote beaucoup tr
 
 ## Consignes
 
-- [ ] Créez une nouvelle base de données.
-- [ ] Installez un nouveau site WordPress en local (avec MAMP).
-- [ ] Conservez le thème par défaut (*Twenty Twenty quelque chose*).
-- [ ] Ajoutez **deux articles**, chacun portant sur un des personnages principaux du film :
-  - La **première partie** de l’article doit présenter le personnage joué, avec une description, des images et une séquence vidéo.
-  - La **seconde partie** doit être consacrée à l’actrice : son parcours professionnel, quelques films de sa filmographie et des images illustrant son travail.
-- [ ] Modifiez le menu principal.
+### Créer une nouvelle instance WordPress
+
+- [ ] Installez WordPress avec une **base de données propre**.
+- [ ] Configurez les éléments de base (nom du site, permaliens, etc.).
+
+### Trouver et installer 3 thèmes FSE
+
+- [ ] Recherchez et installez **trois thèmes FSE**
+- [ ] Explorez leurs paramètres et testez différentes compositions (patterns) disponibles dans l’éditeur de site.
+
+### Créer une page promotionnelle
+
+Doit contenir :
+
+- [ ] Une **image principale**
+- [ ] Une **image d’affiche du film**
+- [ ] Une **description abrégée (extrait)**
+- [ ] Une **catégorie**
+- [ ] Des **étiquettes**
+
+- [ ] Un **bloc texte** décrivant le film
+- [ ] Une **citation impactante**
+- [ ] Une **section multi-colonnes** listant trois thèmes du film
+- [ ] Un **bouton dirigeant vers IMDb**
+- [ ] **Au moins 2 compositions (patterns)**
+
+### Tester et comparer les thèmes
+
+Le contenu doit rester le même, mais la mise en forme peut changer en fonction des options du thème.
+
+- [ ] Pour chaque thème, veiller à ce que la page s'affiche bien et soit esthétique.
+
+### Choisir un thème gagnant
+
+- [ ] En équipe de **deux**, discutez de votre choix et partagez vos découvertes.

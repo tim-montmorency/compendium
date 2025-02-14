@@ -68,7 +68,7 @@ Les thèmes classiques utilisent la structure traditionnelle de WordPress avec u
 
 L'avantage des thèmes classiques est que la personnalisation est plus fine et plus proche d'une **perspective de programmeur**. Les thèmes classiques offrent également une meilleure compatibilité avec certains plugins et permettent une maîtrise plus approfondie du code PHP, ce qui est utile pour les **sites complexes**.
 
-## Patterns
+## Compositions (Patterns)
 
 Les **patterns** sont des modèles de blocs prédéfinis qui permettent de créer des mises en page rapidement.
 
@@ -88,15 +88,17 @@ Un pattern **not synced** permet de modifier une instance sans affecter les autr
 
 ## Modèles de page (Templates)
 
-Les modèles de page sont des mise en forme de page assigné à des type de pages.
+![](./assets/images/templates.png){data-zoom-image}
 
-Faites attentions à ne pas ajouter le contenu de votre site dans les modèles de page. Il faut être vigilent pour cela.
+Dans un thème FSE, les modèles de page sont entièrement modifiables depuis l’éditeur de site. Cela permet aux utilisateurs de créer et de personnaliser des mises en page spécifiques pour des types de contenu particuliers (ex: page d’accueil, articles, archives, etc.).
+
+Les modèles de page créés dans l’éditeur de site sont automatiquement enregistrés en tant que fichiers HTML dans le répertoire du thème (`/wp-content/themes/nom-du-theme/templates/`).
 
 !!! warning "Attention"
 
-    N'ajoutez pas de contenu dans l'éditeur du site. Ça porte à confusion, car on met souvent du contenu dans les templates pour simuler ce que pourrait être le contenu, mais idéalement il n'en aurait pas. Tout le contenu se trouverait dans les pages et les posts.
+    **N'ajoutez pas de contenu statique dans un template**, car cela lui fait perdre sa raison d'être. Tout le contenu ajouté manuellement devrait se trouver dans les pages et les articles.
 
-    Si on est pas administrateur, on n'a pas accès au site editor.
+    De plus, il est important de noter que certains rôles utilisateurs ne disposent pas des permissions nécessaires pour accéder à l’éditeur de site. Il est donc préférable de structurer le contenu de manière standard pour éviter toute confusion.
 
 ### Bonne pratique
 
