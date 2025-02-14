@@ -26,8 +26,10 @@ Assurez-vous de bien télécharger les documents de votre session (Bureau, docum
 #### Code 
 - [📝 Coroutine](./code/coroutine.md)        
 
-#### Exercices de programmation
+#### Retour sur les exercices de programmation
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+
+[💼 Ressource additionnelle](./code/bibliotheque_exemples.md){ .md-button }  
 
 
 #### Réflexion sur le code de détection
