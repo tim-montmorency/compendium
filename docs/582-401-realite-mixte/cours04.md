@@ -12,6 +12,10 @@ Inscrivez-vous à l'aide de ce lien pour participer! [E-SPORT ET JEUX VIDÉOS - 
 ### Migration de serveurs
 Assurez-vous de bien télécharger les documents de votre session (Bureau, documents, téléchargements). Il est possible qu'ils disparaissent la fin de semaine prochaine. 
 
+### Modification travail 1
+Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront vus au prochain cours. Vous devez avoir terminé les étapes 1 à 11 avant le cours de la semaine prochaine.
+
+
 ## Bloc 1
 #### Code
 - [📝 Quitter le jeu](./code/quitter_jeu.md)
