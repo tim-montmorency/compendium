@@ -18,6 +18,7 @@ Création de l'application
 [💼 Travail 1 - Étape 13](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#13-creation-de-lapplication){ .md-button }    
 
 ## 🚨 Remise du travail 1
+À la fin du cours
 
 
 ## S'assurer d'avoir le paquet gratuit de Synty studio
