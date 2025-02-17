@@ -23,6 +23,9 @@ Création de l'application
 [💼 Travail 1 - Étape 14](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EqD3pun06hRMg_pJF1EHOx8Bb4YBZCGASLu_OV1PRCOwlg?e=bVj2Nu){ .md-button }    
 
 
+## Test d'expériences VR
+[🔎 Expériences VR](./installation/experiences.md){ .md-button } 
+
 
 ## S'assurer d'avoir le paquet gratuit de Synty studio
 [🛠️ Paquet Synty studio](https://assetstore.unity.com/educator-plan-pack1?srsltid=AfmBOoobZmMq_DCimglNLnM-q7gkVvjz6uhdSiFNExs7wygqmvBIEleh){ .md-button } 
