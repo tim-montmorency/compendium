@@ -2,8 +2,7 @@
 
 ## Illustrator     
 
-### Typographie   
-
+### Typographie
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EY32kr9fiIBKk6377mmLce4B0_gSdA9FPrqZuup9MkJIAw?e=1TF1SI">Typographie (T)</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EaKBbLH7h-FDiwKI-FGe5AkBqraWHZlF1Ec0192Ctjw3eg?e=shhqmb">Paragraphe</a>
