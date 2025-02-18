@@ -14,7 +14,7 @@ L'objectif de ce travail pratique est la mise en pratique de plusieurs concepts 
 
 - [ ] Écouter la vidéo sur la [:material-play-circle: préparation des calques Illustrator](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EV2wGhwKjstFn8bKoaa8oRkBV48akJFPByqmxeXwjBsTPw?e=5QAPKf)
 - [ ] Chaque lettre doit être sur son propre calque (total de 8 calques : `A` `O` `Û` `T` `M` `A` `R` `S`)
-- [ ] Cacher ou supprimer les effets de répétition et ne conserver qu’une seule couche par lettre.
+- [ ] Cacher ou supprimer les effets de répétition et ne conserver qu’une seule couche par lettre (Aspect)
 
 ## Consignes After Effects
 

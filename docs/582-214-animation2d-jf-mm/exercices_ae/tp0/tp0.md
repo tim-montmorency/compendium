@@ -13,10 +13,12 @@ Nomenclature
 - [ ] Nommer les calques **sans** majuscule, espace ou caracteres spéciaux
 - [ ] Nommer les calques avec le motif suivant : c1_description. (c1 = case 1, c2 = case 2, etc.).
 
+[Nomenclature des calques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew)
+
 Typographie
 
 - [ ] Activer la police Adobe : Filson Bold (ou similaire)
-- [ ] Créer l'effet isométrique 3D
+- [ ] Créer l'effet isométrique 3D   
 - [ ] Créer l'effet de distorsion et de transformation avec 15 copies et un décalage vertical de 16 pixels.
 
 La flore
