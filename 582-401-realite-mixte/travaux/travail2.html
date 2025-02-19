@@ -6875,81 +6875,81 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#6-eclairage-de-la-scene" class="md-nav__link">
+  <a href="#6-colliders" class="md-nav__link">
     <span class="md-ellipsis">
-      6. Éclairage de la scène
+      6. Colliders
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#7-creation-de-zones" class="md-nav__link">
+  <a href="#7-eclairage-de-la-scene" class="md-nav__link">
     <span class="md-ellipsis">
-      7. Création de zones
+      7. Éclairage de la scène
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#8-allumer-ou-eteindre-une-lumiere-avec-la-detection" class="md-nav__link">
+  <a href="#8-creation-de-zones" class="md-nav__link">
     <span class="md-ellipsis">
-      8. Allumer ou éteindre une lumière avec la détection
+      8. Création de zones
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#9-partir-ou-arreter-une-video-avec-la-detection" class="md-nav__link">
+  <a href="#9-allumer-ou-eteindre-une-lumiere-avec-la-detection" class="md-nav__link">
     <span class="md-ellipsis">
-      9. Partir ou arrêter une vidéo avec la détection
+      9. Allumer ou éteindre une lumière avec la détection
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#10-animer-un-parametre-sur-une-lumiere" class="md-nav__link">
+  <a href="#10-partir-ou-arreter-une-video-avec-la-detection" class="md-nav__link">
     <span class="md-ellipsis">
-      10. Animer un paramètre sur une lumière
+      10. Partir ou arrêter une vidéo avec la détection
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#11-creer-des-prefabs" class="md-nav__link">
+  <a href="#11-animer-un-parametre-sur-une-lumiere" class="md-nav__link">
     <span class="md-ellipsis">
-      11. Créer des prefabs
+      11. Animer un paramètre sur une lumière
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#12-amasser-des-objets" class="md-nav__link">
+  <a href="#12-creer-des-prefabs" class="md-nav__link">
     <span class="md-ellipsis">
-      12. Amasser des objets
+      12. Créer des prefabs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#13-canvas-et-reussite" class="md-nav__link">
+  <a href="#13-amasser-des-objets" class="md-nav__link">
     <span class="md-ellipsis">
-      13. Canvas et réussite
+      13. Amasser des objets
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#14-colliders" class="md-nav__link">
+  <a href="#14-pointage-et-meilleur-pointage" class="md-nav__link">
     <span class="md-ellipsis">
-      14. Colliders
+      14. Pointage et meilleur pointage
     </span>
   </a>
   
@@ -7078,7 +7078,12 @@
 <p class="admonition-title">Attention</p>
 <p>Assurez-vous que le scale de votre personnage n'est pas inférieur à (0.1, 0.1, 0.1). Cela nous assurera du bon fonctionnement des colliders.</p>
 </div>
-<h2 id="6-eclairage-de-la-scene">6. Éclairage de la scène<a class="headerlink" href="#6-eclairage-de-la-scene" title="Permanent link">¶</a></h2>
+<h2 id="6-colliders">6. Colliders<a class="headerlink" href="#6-colliders" title="Permanent link">¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous aussi qu'on puisse entrer et sortir de vos bâtiments. </li>
+</ul>
+<h2 id="7-eclairage-de-la-scene">7. Éclairage de la scène<a class="headerlink" href="#7-eclairage-de-la-scene" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajustez le directionnal light à votre goût.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une point light sur le bulbe que vous avez inséré plus tôt.</li>
@@ -7090,7 +7095,7 @@
 <p class="admonition-title">Note</p>
 <p>Si vous ne voulez aucune ombre, vous pouvez aller dans le paramètre Shadow Type de votre éclairage et sélectionner No Shadows.   </p>
 </div>
-<h2 id="7-creation-de-zones">7. Création de zones<a class="headerlink" href="#7-creation-de-zones" title="Permanent link">¶</a></h2>
+<h2 id="8-creation-de-zones">8. Création de zones<a class="headerlink" href="#8-creation-de-zones" title="Permanent link">¶</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Note</p>
 <p>Rappel, vous avez besoin de 3 zones, une avec une télévision (ou un objet qui joue une vidéo), une avec un spotlight et une avec un pointlight. Les zones peuvent être à l'extérieur ou l'intérieur, mais elles doivent être faciles à trouver. </p>
@@ -7101,48 +7106,37 @@
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=b9CxZ64HDYmdPUd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="8-allumer-ou-eteindre-une-lumiere-avec-la-detection">8. Allumer ou éteindre une lumière avec la détection<a class="headerlink" href="#8-allumer-ou-eteindre-une-lumiere-avec-la-detection" title="Permanent link">¶</a></h2>
+<h2 id="9-allumer-ou-eteindre-une-lumiere-avec-la-detection">9. Allumer ou éteindre une lumière avec la détection<a class="headerlink" href="#9-allumer-ou-eteindre-une-lumiere-avec-la-detection" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="9-partir-ou-arreter-une-video-avec-la-detection">9. Partir ou arrêter une vidéo avec la détection<a class="headerlink" href="#9-partir-ou-arreter-une-video-avec-la-detection" title="Permanent link">¶</a></h2>
+<h2 id="10-partir-ou-arreter-une-video-avec-la-detection">10. Partir ou arrêter une vidéo avec la détection<a class="headerlink" href="#10-partir-ou-arreter-une-video-avec-la-detection" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=iBgchBjInUY2wa73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="10-animer-un-parametre-sur-une-lumiere">10. Animer un paramètre sur une lumière<a class="headerlink" href="#10-animer-un-parametre-sur-une-lumiere" title="Permanent link">¶</a></h2>
+<h2 id="11-animer-un-parametre-sur-une-lumiere">11. Animer un paramètre sur une lumière<a class="headerlink" href="#11-animer-un-parametre-sur-une-lumiere" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="11-creer-des-prefabs">11. Créer des prefabs<a class="headerlink" href="#11-creer-des-prefabs" title="Permanent link">¶</a></h2>
+<h2 id="12-creer-des-prefabs">12. Créer des prefabs<a class="headerlink" href="#12-creer-des-prefabs" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="12-amasser-des-objets">12. Amasser des objets<a class="headerlink" href="#12-amasser-des-objets" title="Permanent link">¶</a></h2>
+<h2 id="13-amasser-des-objets">13. Amasser des objets<a class="headerlink" href="#13-amasser-des-objets" title="Permanent link">¶</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour amasser des objets et les compter:</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=wFWQL9AsoRv9aB_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="13-canvas-et-reussite">13. Canvas et réussite<a class="headerlink" href="#13-canvas-et-reussite" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour terminer votre exercice:</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a des bons.</li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h0uvCte0Lq4?si=CB0radcWYP3eApq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<h2 id="14-colliders">14. Colliders<a class="headerlink" href="#14-colliders" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous aussi qu'on puisse entrer et sortir de votre maison. </li>
-</ul>
+<h2 id="14-pointage-et-meilleur-pointage">14. Pointage et meilleur pointage<a class="headerlink" href="#14-pointage-et-meilleur-pointage" title="Permanent link">¶</a></h2>
 <h2 id="15-defis">15. Défis<a class="headerlink" href="#15-defis" title="Permanent link">¶</a></h2>
 <p>Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      </p>
 <ul class="task-list">
