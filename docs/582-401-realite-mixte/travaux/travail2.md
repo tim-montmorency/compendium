@@ -1,4 +1,10 @@
 Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Unity.    
+
+## Exemple de travail 2
+Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé ControleQualite.exe pour jouer à un exemple de travail 2: 
+
+[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eo-SZVlsOelKqB7pun1uX3QB_j5VDtW5u4Pp8w0rKkNTgA?e=DzY1C7){ .md-button }      
+
      
 
 ## 1. Préparer le projet
@@ -181,7 +187,7 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
 - [ ] Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
 
-[📁 Remise Travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EnRFbzMcF0RAm9tgW8u1s4YBeiT9IApUdxrHGn1W8g9a9Q?e=skEahb){ .md-button }   
+[📁 Remise Travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Etxrw-BcDyBIiQBwBSHKIIAB5nD74_l8FJF2CNYIjjQPbw?e=JYEvdE){ .md-button }   
 
 
        
