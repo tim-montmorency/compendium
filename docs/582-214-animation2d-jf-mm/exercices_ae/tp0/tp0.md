@@ -91,6 +91,6 @@ Reproduire en vectoriel le résultat observé dans `reference_tp01_02.jpg` à pa
 
 Compresser le dossier `votre-nom-prenom_tp_0_582-214MO` en .zip
 
-Déposer sur Teams dans le devoir TP0
+Déposer sur Teams dans le devoir TP0 (à valider)
 
 Date limite : **25 février à 23 h 59**
