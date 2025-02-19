@@ -8,7 +8,7 @@ Le poème critique cette oppression linguistique et l'élargit pour inclure d’
 
 Lalonde joue sur le contraste entre l’anglais, associé au pouvoir, à l’économie et à la domination, et le français, qui devient dans ce contexte la langue des opprimés, des travailleurs et des laissés-pour-compte. Le poème exprime une revendication identitaire et une dénonciation de l’impérialisme culturel, réaffirmant que les Québécois ne sont "pas seuls" dans leur lutte, en écho aux mouvements de libération et de résistance ailleurs dans le monde.
 
-![type:video](https://youtu.be/Nt6VzbPsQgc)
+[Résonances - Savoir Média](https://youtu.be/Nt6VzbPsQgc)
 
 [Michèle Lalonde - Speak White](https://www.youtube.com/watch?v=0hsifsVi2po)
 
