@@ -124,6 +124,8 @@ Projet
 
     Prévoyez du temps pour l'exportation. L'encodage peut facilement prendre plus d’une heure par vidéo.
 
+[STOP]
+
 ## Évaluation
 
 Ce travail pratique est **individuel** et représente **30 %** de la note finale.
