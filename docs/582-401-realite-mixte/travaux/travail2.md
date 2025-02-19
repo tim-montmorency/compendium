@@ -35,6 +35,7 @@ Utilisateurs GitHub de vos enseignants:
 - [ ] Dans les mêmes dossiers, sélectionnez un bâtiment qui comprend un intérieur et un extérieur. Positionnez celui-ci sur le terrain. Si le terrain est trop petit pour la maison, agrandissez-le. On va essayer de laisser la taille de la maison à (1,1,1).
 - [ ] Agrémentez la maison et son extérieur de quelques prefabs. Divisez l'intérieur de votre bâtiment en trois zones grâce aux objets. *Note: Vous pouvez aussi créer trois zones à l'extérieur et ne pas avoir de bâtiment ou encore avoir un bâtiment qui est une zone et deux zones à l'extérieur ou l'inverse. C'est à votre choix!*
 - [ ] Dans le dossier Assets-> SyntyStudios-> PolygonPrototype-> Prefabs-> Icons, trouvez les objets point light et spot light, mettez-les dans deux zones différentes de votre bâtiment.
+- [ ] Insérez quelques petits objets qu'on pourrait prendre facilement (Exemple: livre, nourriture, ...) 
 
 !!! info "Bonne pratique"
 
