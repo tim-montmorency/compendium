@@ -90,9 +90,13 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 !!! warning "Attention"
 
     Assurez-vous que le scale de votre personnage n'est pas inférieur à (0.1, 0.1, 0.1). Cela nous assurera du bon fonctionnement des colliders.
-         
 
-## 6. Éclairage de la scène
+## 6. Colliders
+- [ ] Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.
+- [ ] Assurez-vous aussi qu'on puisse entrer et sortir de vos bâtiments. 
+
+
+## 7. Éclairage de la scène
 - [ ] Ajustez le directionnal light à votre goût.
 - [ ] Créez une point light sur le bulbe que vous avez inséré plus tôt.
 - [ ] Créez un spot light sur le spot que vous avez inséré plus tôt. 
@@ -103,7 +107,7 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
     Si vous ne voulez aucune ombre, vous pouvez aller dans le paramètre Shadow Type de votre éclairage et sélectionner No Shadows.   
        
-## 7. Création de zones
+## 8. Création de zones
 !!! info "Note"
 
     Rappel, vous avez besoin de 3 zones, une avec une télévision (ou un objet qui joue une vidéo), une avec un spotlight et une avec un pointlight. Les zones peuvent être à l'extérieur ou l'intérieur, mais elles doivent être faciles à trouver. 
@@ -114,44 +118,35 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=b9CxZ64HDYmdPUd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## 8. Allumer ou éteindre une lumière avec la détection
+## 9. Allumer ou éteindre une lumière avec la détection
 - [ ] Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## 9. Partir ou arrêter une vidéo avec la détection
+## 10. Partir ou arrêter une vidéo avec la détection
 - [ ] Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=iBgchBjInUY2wa73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## 10. Animer un paramètre sur une lumière
+## 11. Animer un paramètre sur une lumière
 - [ ] Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
-## 11. Créer des prefabs
+## 12. Créer des prefabs
 - [ ] Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        
-## 12. Amasser des objets
+## 13. Amasser des objets
 - [ ] Suivez la vidéo suivante pour amasser des objets et les compter:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=wFWQL9AsoRv9aB_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-       
-## 13. Canvas et réussite
-- [ ] Suivez la vidéo suivante pour terminer votre exercice:
-- [ ] Vous pouvez télécharger votre son de réussite depuis internet, pixabay en a des bons.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h0uvCte0Lq4?si=CB0radcWYP3eApq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## 14. Colliders
-- [ ] Assurez-vous que le personnage ne puisse pas tomber dans le vide en disposant des box colliders autour de votre terrain.
-- [ ] Assurez-vous aussi qu'on puisse entrer et sortir de votre maison. 
+## 14. Pointage et meilleur pointage
 
        
 ## 15. Défis
