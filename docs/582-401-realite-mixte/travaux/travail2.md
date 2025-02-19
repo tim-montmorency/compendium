@@ -147,6 +147,9 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=wFWQL9AsoRv9aB_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 14. Pointage et meilleur pointage
+- [ ] Pour configurer le pointage, vous devez télécharger et importer dans votre jeu ce paquet personnalisé dans votre projet:      
+
+[📁 Pointage](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWEV07uUq1JJoHfK1ALCmMwBvrEaXVA3Cb8p1C5p1MV6Kw?e=eqP3CM){ .md-button }      
 
        
 ## 15. Défis
