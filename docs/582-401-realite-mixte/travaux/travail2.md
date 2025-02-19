@@ -154,8 +154,19 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 - [ ] Suivez ensuite cette vidéo pour créer des variables de pointage et de meilleur pointage qui vont se mettre à jour:     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AlMWnTkihvk?si=zqATKfYjvwWOHk9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-       
-## 15. Défis
+
+
+## 15. Minuterie
+- [ ] Pour configurer la minuterie, vous devez télécharger et importer dans votre jeu ce paquet personnalisé dans votre projet:      
+
+[📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
+
+- [ ] Suivez ensuite cette vidéo pour créer votre minuterie:     
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AlMWnTkihvk?si=zqATKfYjvwWOHk9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## 16. Défis
 Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
@@ -172,7 +183,7 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
     joueur.GetComponent<CharacterController>().enabled = true;   
     ```
 
-## 16. Exporter le jeu
+## 17. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
 - [ ] Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
 
