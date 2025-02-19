@@ -163,25 +163,18 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 - [ ] Suivez ensuite cette vidéo pour créer votre minuterie:     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AlMWnTkihvk?si=zqATKfYjvwWOHk9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4HjRzJdY0Ws?si=_AjXtztvvCEiqHyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 ## 16. Défis
 Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'y a pas d'indications sur comment les réussir, faites des tests!      
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
-- [ ] Ajustez le script de votre personnage pour qu'il apparaisse au même endroit à chaque fois que le jeu recommence OU ajustez le script pour que peu importe la position de votre personnage au début, la bonne zone est détectée, puis animée.
 - [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change.
 - [ ] Un bouton X nous permet de fermer le jeu.
+- [ ] Lorsque votre minuterie se termine, plutôt que de recommencer le jeu tout de suite, affichez un menu avec le score actuel, le meilleur score, un bouton pour quitter le jeu et un bouton pour le redémarrer. (Expliqué partiellement dans le tutoriel de minuterie)
 
-!!! warning "Attention"
-
-    Si vous voulez que votre personnage puisse se téléporter, vous aurez besoin d'activer et de désactiver le Character controller de votre joueur. Voici un extrait de code pour vous aider:      
-    ``` C#
-    joueur.GetComponent<CharacterController>().enabled = false;    
-    joueur.transform.position = zoneTeleport.transform.position;      
-    joueur.GetComponent<CharacterController>().enabled = true;   
-    ```
 
 ## 17. Exporter le jeu
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
