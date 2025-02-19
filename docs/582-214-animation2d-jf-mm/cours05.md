@@ -180,6 +180,20 @@ Précisions:
   **[Typographie](exercice_ai/11_typographie.md){.back}** 
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercice_ai/pinceau/pinceau.png)
+
+  <small>Exercice - Illustrator</small><br>
+  **[Pinceau](./exercice_ai/pinceau/pinceau.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercice_ai/speakwhite/speak-white-preview.png)
+
+  <small>Exercice - Illustrator</small><br>
+  **[Speak White](./exercice_ai/speakwhite/speak-white.md){.stretched-link .back}**
+</div>
+
 ## Devoir
 
 <div class="grid grid-1-2" markdown>
