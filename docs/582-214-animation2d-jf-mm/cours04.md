@@ -55,6 +55,8 @@ L'outil permet de créer des **logos**, des **illustrations**, des **icônes**, 
   [:material-play-circle: Grouper les calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERskOIzx8thBu_Z6Tom8z9EBd4UsYweOJA5eEjBLhsZ-8g?e=qdnQ6D)
   <br>Grouper : `Objet > Associer`
   <br>Raccourci : ++ctrl+g++
+
+  [:material-play-circle: Préparer les calques pour After Effects](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ElTl7pNn_atGuWTh-HcDxo4B97E_Oxew0e4rEDeGrE1-5A?e=uEFfJD)
 </div>
 
 <div class="grid grid-1-2" markdown>
@@ -226,3 +228,14 @@ Par exemple, le jeune d'oeuf a initialement été créé avec une forme ovale pu
 </div>
 
 <!-- [🛠️ Devoir 1](./exercice_ai/04_devoir_1.md){ .md-button }    -->
+
+
+<hr> 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp1/tp1-preview.png)
+
+  <small>Devoir sommatif - 27 février</small><br>
+  **[TP1](./exercices_ae/tp1a/tp1a.md){.stretched-link .back}**
+</div>
+
+
