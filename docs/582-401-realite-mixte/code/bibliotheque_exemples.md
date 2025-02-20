@@ -4,6 +4,79 @@ Tous les exemples montrés ici sont disponibles sur le [projet disponible ici](h
 
 [Projet Unity de la bibliothèque](https://github.com/tim-montmorency/bibliotheque-exemples){ .md-button }
 
+## Persistance de données
+
+Différents scenarios dans le jeux vidéo exigent que certaines variables sont enregistrées entre une scène et l'autre. Par exemple, quand on veut charger une session de jeu antérieure ou le progrès du jeu. Il y a différent façons de planifier et implementer cette fonctionnalités. 
+
+### High Score persistant ou record de meilleurs scores
+
+Unity a un système de persistance appelé **PlayerPrefs** pour préserver des données simples (comme des variable **floats** ou de **string**) entre différents sessions de jeu. Le **PlayerPrefs** est une classe avec de paires de méthodes pour lire et pour écrire des valeurs à la base de données persistantes, associés à une clef (c.à.d. un id en texte). Par exemple `GetInt()` et `SetInt()`, `GetString()` et `SetString()`, etc. 
+
+Avec cette système, on a crée une composante **HighScorePresistant** qui montre le valeur du record et de la pontage actuel à l'écran. Quand le pointage est plus grand que le record, son valeur est enregistrée sur le **PlayerPrefs** avec la clé `HIGHSCORE` (mais qui peu être customisé). Cette vérification est faite chaque foi que le pointage change à travers de la méthode publique `OnChangerPointage(int nouvellePointage)`. Dans la scène exemple, on utilise une etiquette en rouge pour montrer le record et une en noir pour montrer la pointage actuel. 
+
+![Screenshot 2025-02-20 153036](https://github.com/user-attachments/assets/f2fc403f-73c5-4d8b-b9c8-dc73eb136796)
+
+Dans cet exemple, les points sont changés à chaque second passé, comme aux jeux arcade de survie et évasions. Le code pour cette comportement de exemple est sur le script `ExemplePointage`.
+
+Voici le code pour la composante **HighScorePresistant**. 
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+
+public class HighScorePersistant : MonoBehaviour
+{
+    // etiquettes UI utilisés pour montrer 
+    // le pointage plus élévé et l'actuel
+    public TextMeshProUGUI texteHighScore;
+    public TextMeshProUGUI textePointage;
+
+    // clé utilisé pour enregistrer le pointage dans
+    // la base du PlayerPrefs
+    public string highscoreClef = "HIGHSCORE";
+
+    // variables pour le record et le pointage actuel
+    private int _highScoreActuel = 0;
+    private int _pointageActuel = 0;
+
+    void Start()
+    {
+        // initialisation de pointage
+        _pointageActuel = 0;
+        // chargement du record enregistré avec la highscoreClef
+        // si il n'y a pas de record, la valeur sera 0
+        _highScoreActuel = PlayerPrefs.GetInt(highscoreClef, 0);
+
+        // actualise les etiquettes de l'UI
+        texteHighScore.text = _highScoreActuel.ToString();
+        textePointage.text = _pointageActuel.ToString();
+    }
+
+    // cette méthode est publique, donc elle peut être
+    // appellé à partir d'autres composantes
+    public void OnChangerPointage(int nouvellePointage)
+    {
+        // changer le pointage actuel
+        _pointageActuel = nouvellePointage;
+
+        // si c'est le nouveau record
+        if (_pointageActuel > _highScoreActuel)
+        {
+            _highScoreActuel = _pointageActuel;
+            // enregistrement du nouveau record
+            PlayerPrefs.SetInt(highscoreClef, _highScoreActuel);
+        }
+
+        // actualise les etiquettes de l'
+        textePointage.text = _pointageActuel.ToString();
+        texteHighScore.text = _highScoreActuel.ToString();
+    }
+}
+
+```
+
 ## Décomptes et timers
 
 ### Méthode `Invoke()` et `InvokeRepeating()`
@@ -89,6 +162,65 @@ public class MaCoroutineSimple : MonoBehaviour
 Le résultat de cette coroutine sur notre **Console** (notez les timecodes) : 
 
 ![Screenshot 2025-02-13 122836](https://github.com/user-attachments/assets/774caa55-5617-4462-86b5-6b9f4c7c0623)
+
+### Minuterie avec événements
+
+La composante **MinuterieEvents** nous permet de configurer 2 [événements](<#evenement-avec-methode-originale) différents au **Inspector** : un exécute à chaque second (`OnChaqueSecond(int secondActuel)`) et l'autre quand le comptage termine (`OnTermine()`). Avec cette composante et le prefab **MinuterieAvecEvenements**, la scène montre un **Text** dynamique à l'écrán et on peut configurer multiples comportements pour ces deux événements avec nos scripts.
+
+![Screenshot 2025-02-20 153433](https://github.com/user-attachments/assets/a7eb9660-b4d6-488b-aa01-7c1bf566d000)
+
+Voici le code pour la composante. Il utilise une [coroutine](#Coroutines) qui active les méthodes configurés aux moments adéquats.
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class MinuterieEvents : MonoBehaviour
+{
+    public int duration = 60;
+    public bool compterLeZero = false;
+    private TextMeshProUGUI _texte;
+    private int _compteur;
+
+    public UnityEvent<int> onChaqueSecond;
+    public UnityEvent onTermine;
+
+    void Start()
+    {
+        _texte = GetComponentInChildren<TextMeshProUGUI>();
+        StartCoroutine("CommencerMinuterie");
+    }
+
+    IEnumerator CommencerMinuterie()
+    {
+        _compteur = duration;
+        _texte.text = _compteur.ToString();
+
+        while (_compteur >= 1)
+        {
+            yield return new WaitForSeconds(1f);
+            _compteur -= 1;
+            onChaqueSecond.Invoke(_compteur);
+            _texte.text = _compteur.ToString();
+        }
+
+        if (compterLeZero == false) { 
+            yield return new WaitForSeconds(1f);
+        }
+        onTermine.Invoke();
+    }
+
+}
+```
+
+### Minuterie avec redémarrage
+
+Le prefab **MinuteRedemarrage** combine la composante [MinuterieAvecEvents](<#Minuterie avec événements>) avec un script que redémarre la scène actuel quand le comptage termine. Pour utiliser le prefab, il faut juste l'ajouter à la scène. Voici sa configuration base. 
+
+![Screenshot 2025-02-20 144925](https://github.com/user-attachments/assets/37f23e29-8595-4ecb-b8a1-9aaa1fb65e16)
 
 ## Contrôle d'UI et menus
 
