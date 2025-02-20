@@ -1,6 +1,6 @@
-# TP1 a (illuatrations)
+# TP1a (illuatrations)
 
-Ce **TP1 a** est **évalué** et vaut 15% de la session. 
+Ce **TP1a** est **évalué** et vaut 15% de la session. 
 C'est la partie où on crée les images utilisées dans le [TP1 b](resultat-final.webm).
 
 ## Téléchargement
@@ -62,10 +62,19 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 [Nomenclature des calques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew)
 
 **Typographie**
-
 - [ ] Installer la police Filson Bold (FilsonProBold.otf)
-- [ ] Créer l'effet isométrique 3D   
-- [ ] Créer l'effet de distorsion et de transformation avec 15 copies et un décalage vertical de 16 pixels.
+
+### Typographie 3D Isométrique   
+
+- [ ] Effet / 3D et matières / 3D (Classique) /Rotation (classique) / isométrique haut (attention l'effet a changé d'endroit).
+- [ ] Effet / Distorsion et transformation / Transformation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
+      
+[📁 Capsule vidéo référence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcDgSLdxIqFGtxtUf-NnYUIBydssqkdAZ7lnx6CHJUIw0A?e=KoepdA){ .md-button }   
+
+[📁 Capsule vidéo effet isométrique](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWhHJDR4d8dLqQk6Ydf5JwIByxBq09dSlQE-TyI3ey6nsQ?e=6DPhiI){ .md-button } 
+
+[📁 Modifier l'effet au besoin](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=MFbF0p){ .md-button }   
+
 
 **La flore**
 
@@ -91,8 +100,8 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 ## Remise
 
-Compresser le dossier `votre-nom-prenom_tp_0_582-214MO` en .zip
+Compresser le dossier `votre-nom-prenom_tp1_582-214MO` en .zip
 
-Déposer sur Teams dans le devoir tp1a (à valider)
+Déposer sur Moodle (instructions spécifiques pour la remise à venir)
 
-Date limite : **25 février à 23 h 59**
+Date limite : **27 février à 23h59**
