@@ -232,12 +232,8 @@ Par exemple, le jeune d'oeuf a initialement été créé avec une forme ovale pu
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/tp1/tp1-preview.png)
 
-  <small>Devoir sommatif - 20 mars</small><br>
-  **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
+  <small>Devoir sommatif - 27 février</small><br>
+  **[TP1](./exercices_ae/tp1a/tp1a.md){.stretched-link .back}**
 </div>
 
-## Partie 1 remise le 27 février (le jour de votre cours)
-[TP1a : Partie 1 illustrations (Illustrator)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercice_ai/travail1.html)
 
-## Partie 2 remise le 20 mars (le jour de votre cours)
-[TP1b : Partie 2 animations (After effects)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercices_ae/travail1.html) 

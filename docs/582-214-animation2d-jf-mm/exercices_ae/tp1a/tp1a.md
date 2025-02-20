@@ -11,7 +11,7 @@ C'est la partie où on crée les images utilisées dans le [TP1 b](resultat-fina
 votre-nom-et-prenom_tp_0_582-214MO
 │
 ├──📁 00_references
-│   └──📄 reference_tp01_02.jpg
+│   └──📄 reference_tp1_basse-qualite.jpg
 ├──📁 01_medias
 │   ├──📁 01_images
 │   │   ├──📁 01_illustrator
