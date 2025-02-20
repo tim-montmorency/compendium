@@ -6832,6 +6832,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#persistance-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persistance de données
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Persistance de données">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-score-persistant-ou-record-de-meilleurs-scores" class="md-nav__link">
+    <span class="md-ellipsis">
+      High Score persistant ou record de meilleurs scores
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#decomptes-et-timers" class="md-nav__link">
     <span class="md-ellipsis">
       Décomptes et timers
@@ -6854,6 +6878,24 @@
   <a href="#coroutines" class="md-nav__link">
     <span class="md-ellipsis">
       Coroutines
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minuterie-avec-evenements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minuterie avec événements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minuterie-avec-redemarrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minuterie avec redémarrage
     </span>
   </a>
   
@@ -6934,6 +6976,68 @@
 <div><h1 id="bibliotheque-dexemples">Bibliothèque d'exemples<a class="headerlink" href="#bibliotheque-dexemples" title="Permanent link">¶</a></h1>
 <p>Tous les exemples montrés ici sont disponibles sur le <a href="https://github.com/tim-montmorency/bibliotheque-exemples">projet disponible ici</a>. Vous pouvez le télécharger et explorer avec les sujets en dessous.</p>
 <p><a class="md-button" href="https://github.com/tim-montmorency/bibliotheque-exemples">Projet Unity de la bibliothèque</a></p>
+<h2 id="persistance-de-donnees">Persistance de données<a class="headerlink" href="#persistance-de-donnees" title="Permanent link">¶</a></h2>
+<p>Différents scenarios dans le jeux vidéo exigent que certaines variables sont enregistrées entre une scène et l'autre. Par exemple, quand on veut charger une session de jeu antérieure ou le progrès du jeu. Il y a différent façons de planifier et implementer cette fonctionnalités. </p>
+<h3 id="high-score-persistant-ou-record-de-meilleurs-scores">High Score persistant ou record de meilleurs scores<a class="headerlink" href="#high-score-persistant-ou-record-de-meilleurs-scores" title="Permanent link">¶</a></h3>
+<p>Unity a un système de persistance appelé <strong>PlayerPrefs</strong> pour préserver des données simples (comme des variable <strong>floats</strong> ou de <strong>string</strong>) entre différents sessions de jeu. Le <strong>PlayerPrefs</strong> est une classe avec de paires de méthodes pour lire et pour écrire des valeurs à la base de données persistantes, associés à une clef (c.à.d. un id en texte). Par exemple <code>GetInt()</code> et <code>SetInt()</code>, <code>GetString()</code> et <code>SetString()</code>, etc. </p>
+<p>Avec cette système, on a crée une composante <strong>HighScorePresistant</strong> qui montre le valeur du record et de la pontage actuel à l'écran. Quand le pointage est plus grand que le record, son valeur est enregistrée sur le <strong>PlayerPrefs</strong> avec la clé <code>HIGHSCORE</code> (mais qui peu être customisé). Cette vérification est faite chaque foi que le pointage change à travers de la méthode publique <code>OnChangerPointage(int nouvellePointage)</code>. Dans la scène exemple, on utilise une etiquette en rouge pour montrer le record et une en noir pour montrer la pointage actuel. </p>
+<p><img alt="Screenshot 2025-02-20 153036" src="https://github.com/user-attachments/assets/f2fc403f-73c5-4d8b-b9c8-dc73eb136796"></p>
+<p>Dans cet exemple, les points sont changés à chaque second passé, comme aux jeux arcade de survie et évasions. Le code pour cette comportement de exemple est sur le script <code>ExemplePointage</code>.</p>
+<p>Voici le code pour la composante <strong>HighScorePresistant</strong>. </p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">TMPro</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">HighScorePersistant</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="c1">// etiquettes UI utilisés pour montrer </span>
+<span class="w">    </span><span class="c1">// le pointage plus élévé et l'actuel</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">TextMeshProUGUI</span><span class="w"> </span><span class="n">texteHighScore</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">TextMeshProUGUI</span><span class="w"> </span><span class="n">textePointage</span><span class="p">;</span>
+
+<span class="w">    </span><span class="c1">// clé utilisé pour enregistrer le pointage dans</span>
+<span class="w">    </span><span class="c1">// la base du PlayerPrefs</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">highscoreClef</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"HIGHSCORE"</span><span class="p">;</span>
+
+<span class="w">    </span><span class="c1">// variables pour le record et le pointage actuel</span>
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">_highScoreActuel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">_pointageActuel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// initialisation de pointage</span>
+<span class="w">        </span><span class="n">_pointageActuel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">// chargement du record enregistré avec la highscoreClef</span>
+<span class="w">        </span><span class="c1">// si il n'y a pas de record, la valeur sera 0</span>
+<span class="w">        </span><span class="n">_highScoreActuel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">GetInt</span><span class="p">(</span><span class="n">highscoreClef</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+
+<span class="w">        </span><span class="c1">// actualise les etiquettes de l'UI</span>
+<span class="w">        </span><span class="n">texteHighScore</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_highScoreActuel</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+<span class="w">        </span><span class="n">textePointage</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_pointageActuel</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="c1">// cette méthode est publique, donc elle peut être</span>
+<span class="w">    </span><span class="c1">// appellé à partir d'autres composantes</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">OnChangerPointage</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">nouvellePointage</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// changer le pointage actuel</span>
+<span class="w">        </span><span class="n">_pointageActuel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nouvellePointage</span><span class="p">;</span>
+
+<span class="w">        </span><span class="c1">// si c'est le nouveau record</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">_pointageActuel</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">_highScoreActuel</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="n">_highScoreActuel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_pointageActuel</span><span class="p">;</span>
+<span class="w">            </span><span class="c1">// enregistrement du nouveau record</span>
+<span class="w">            </span><span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">SetInt</span><span class="p">(</span><span class="n">highscoreClef</span><span class="p">,</span><span class="w"> </span><span class="n">_highScoreActuel</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="c1">// actualise les etiquettes de l'</span>
+<span class="w">        </span><span class="n">textePointage</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_pointageActuel</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+<span class="w">        </span><span class="n">texteHighScore</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_highScoreActuel</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="decomptes-et-timers">Décomptes et timers<a class="headerlink" href="#decomptes-et-timers" title="Permanent link">¶</a></h2>
 <h3 id="methode-invoke-et-invokerepeating">Méthode <code>Invoke()</code> et <code>InvokeRepeating()</code><a class="headerlink" href="#methode-invoke-et-invokerepeating" title="Permanent link">¶</a></h3>
 <p>La méthode <code>Invoke()</code> nous permet d'exécuter une méthode dans le même script après un délai initial. Avec la méthode <code>InvokeRepeating()</code> on peut choisir un délai initial et un intervalle pour répéter l'exécution.</p>
@@ -7006,6 +7110,56 @@
 </code></pre></div>
 <p>Le résultat de cette coroutine sur notre <strong>Console</strong> (notez les timecodes) : </p>
 <p><img alt="Screenshot 2025-02-13 122836" src="https://github.com/user-attachments/assets/774caa55-5617-4462-86b5-6b9f4c7c0623"></p>
+<h3 id="minuterie-avec-evenements">Minuterie avec événements<a class="headerlink" href="#minuterie-avec-evenements" title="Permanent link">¶</a></h3>
+<p>La composante <strong>MinuterieEvents</strong> nous permet de configurer 2 <a href="&lt;#evenement-avec-methode-originale">événements</a> différents au <strong>Inspector</strong> : un exécute à chaque second (<code>OnChaqueSecond(int secondActuel)</code>) et l'autre quand le comptage termine (<code>OnTermine()</code>). Avec cette composante et le prefab <strong>MinuterieAvecEvenements</strong>, la scène montre un <strong>Text</strong> dynamique à l'écrán et on peut configurer multiples comportements pour ces deux événements avec nos scripts.</p>
+<p><img alt="Screenshot 2025-02-20 153433" src="https://github.com/user-attachments/assets/a7eb9660-b4d6-488b-aa01-7c1bf566d000"></p>
+<p>Voici le code pour la composante. Il utilise une <a href="#Coroutines">coroutine</a> qui active les méthodes configurés aux moments adéquats.</p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">TMPro</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine.Events</span><span class="p">;</span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MinuterieEvents</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">duration</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">60</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">compterLeZero</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">false</span><span class="p">;</span>
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="n">TextMeshProUGUI</span><span class="w"> </span><span class="n">_texte</span><span class="p">;</span>
+<span class="w">    </span><span class="k">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">_compteur</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">UnityEvent</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">onChaqueSecond</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">UnityEvent</span><span class="w"> </span><span class="n">onTermine</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">_texte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GetComponentInChildren</span><span class="o">&lt;</span><span class="n">TextMeshProUGUI</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">        </span><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">"CommencerMinuterie"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">IEnumerator</span><span class="w"> </span><span class="nf">CommencerMinuterie</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">_compteur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">duration</span><span class="p">;</span>
+<span class="w">        </span><span class="n">_texte</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_compteur</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">_compteur</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="mf">1f</span><span class="p">);</span>
+<span class="w">            </span><span class="n">_compteur</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">            </span><span class="n">onChaqueSecond</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">_compteur</span><span class="p">);</span>
+<span class="w">            </span><span class="n">_texte</span><span class="p">.</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_compteur</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">compterLeZero</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="k">false</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">            </span><span class="k">yield</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">WaitForSeconds</span><span class="p">(</span><span class="mf">1f</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">onTermine</span><span class="p">.</span><span class="n">Invoke</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="minuterie-avec-redemarrage">Minuterie avec redémarrage<a class="headerlink" href="#minuterie-avec-redemarrage" title="Permanent link">¶</a></h3>
+<p>Le prefab <strong>MinuteRedemarrage</strong> combine la composante <a href="#Minuterie%20avec%20%C3%A9v%C3%A9nements">MinuterieAvecEvents</a> avec un script que redémarre la scène actuel quand le comptage termine. Pour utiliser le prefab, il faut juste l'ajouter à la scène. Voici sa configuration base. </p>
+<p><img alt="Screenshot 2025-02-20 144925" src="https://github.com/user-attachments/assets/37f23e29-8595-4ecb-b8a1-9aaa1fb65e16"></p>
 <h2 id="controle-dui-et-menus">Contrôle d'UI et menus<a class="headerlink" href="#controle-dui-et-menus" title="Permanent link">¶</a></h2>
 <h3 id="evenement-avec-methode-preexistante">Événement avec méthode préexistante<a class="headerlink" href="#evenement-avec-methode-preexistante" title="Permanent link">¶</a></h3>
 <p>On peut utiliser les <a href="evenements.html">événements</a> pour exécuter différents méthodes déjà disponibles sur un <strong>GameObject</strong> de la scène. Un exemple important est l'activation (ou désactivation) d'un <strong>GameObject</strong>. Pour faire ça, on connecte le GameObject avec le champ sous "Runtime Only" et après on peut choisir une méthode liste sur le dropdown à droite et configurer ses paramètres (ex. le checkbox). </p>
