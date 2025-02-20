@@ -2,6 +2,7 @@
 
 Ce **TP1a** est **évalué** et vaut 15% de la session. 
 C'est la partie où on crée les images utilisées dans le [TP1 b](resultat-final.webm).
+![type:video](resultat-final.webm){ loop } 
 
 ## Téléchargement
 
