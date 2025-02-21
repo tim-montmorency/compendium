@@ -199,8 +199,15 @@ Précisions:
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/tp0/tp0-preview.png)
 
-  <small>Devoir formatif - 25 février</small><br>
+  <small>Devoir formatif groupe Jean-François - 25 février</small><br>
   **[TP0](./exercices_ae/tp0/tp0.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp1/tp1-preview.png)
+
+  <small>TP1a Groupe Marie-Michelle - 13 mars</small><br>
+  **[TP1a](./exercices_ae/tp1a/tp1a.md){.stretched-link .back}**
 </div>
 
 [STOP]
@@ -208,9 +215,12 @@ Précisions:
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/tp1/tp1-preview.png)
 
-  <small>Devoir sommatif - 18 mars</small><br>
+  <small>Devoir sommatif groupe Jean-François - 18 mars</small><br>
   **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
 </div>
+
+
+
 
 ## Partie 1 remise le 26-27 février (le jour de votre cours)
 [TP1 : Partie 1 illustrations (Illustrator)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercice_ai/travail1.html)
