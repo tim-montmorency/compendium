@@ -1,12 +1,26 @@
 # Cours 5
 
-![](./assets/images/php-banner-01.png)
+## Annonce
 
-## Syntaxe
+![](./assets/images/wow.gif){.w-100}
 
-PHP est un langage interprété côté serveur !
+!!! warning "Sauvegarde !"
 
-Tout code PHP s’écrit entre les balises suivantes :
+    Il y aura une maintenance qui sera faite sur le serveur et pour ne pas perdre de données, il faudra faire une sauvegarde de votre devoir WOW.
+
+## PHP
+
+![](./assets/images/php-banner.jpg)
+
+PHP est un **langage interprété côté serveur** utilisé principalement pour générer du contenu dynamique sur le web.
+
+WordPress utilise PHP pour générer des contenus et les récupérer dans une base de données.
+
+### Exécuter du PHP
+
+* Un fichier PHP doit avoir l’extension `.php`.
+* Le fichier principal d’un site est souvent `index.php` (comme en html).
+* Un code PHP est toujours entouré des balises PHP :
 
 ```php
 <?php
@@ -16,7 +30,7 @@ Tout code PHP s’écrit entre les balises suivantes :
 
 ## Hello world
 
-Afficher du texte dans la page HTML
+Pour afficher du texte dans la page HTML, on utilise la fonction `echo`.
 
 === "PHP"
 
@@ -32,41 +46,9 @@ Afficher du texte dans la page HTML
     document.write("Bonjour monsieur PHP !");
     ```
 
-Afficher du texte dans la console
+!!! example "Go on essaye !"
 
-=== "PHP"
-
-    ```php
-    <?php
-    error_log("Salut JS !");
-    ?>
-    ```
-
-=== "JavaScript"
-
-    ``` js
-    console.log("Bonjour monsieur PHP !");
-    ```
-
-!!! info "Console serveur ?"
-
-    Du côté serveur, il n'existe pas de console. Ce qui remplace le concept s'appelle _log_.
-
-    Il existe des _logs_ pour PHP, pour Apache, pour MYSQL, etc.
-
-    Lorsque vous faites un `error_log("allo");` en PHP, vous pourrez voir son contenu dans `php_error.log` qui devrait se situer sous `C:\MAMP\logs`
-
-    Toutefois, vous trouverez sans doute plus pratique d'utiliser simplement `echo` pour imprimer la chaine de caractères sur votre page directement.
-
-### Tests
-
-```php
-<?php
-$data = ["Hello", "World"];
-var_dump($data);  // Affiche le type et la structure de la variable
-print_r($data);   // Affiche uniquement la structure
-?>
-```
+    Affichons notre fameux et tout premier "Hello world" en PHP !
 
 ## Commentaires
 
@@ -94,6 +76,8 @@ print_r($data);   // Affiche uniquement la structure
 
 ## Variables
 
+![](./assets/images/fun-coupon.gif){.w-100}
+
 En PHP, les variables commencent par le symbole `$`.
 
 === "PHP"
@@ -104,6 +88,7 @@ En PHP, les variables commencent par le symbole `$`.
         $publication_year = 1949; // Nombre entier
         $price = 9.99;            // Nombre flottant
         $recommended = true;      // Booléen
+        $genres = ["science-fiction", "dystopique"]; // Tableau
     ?>
     ```
 
@@ -114,6 +99,7 @@ En PHP, les variables commencent par le symbole `$`.
     let publication_year = 1949; // Nombre entier
     let price = 9.99;            // Nombre flottant
     let recommended = true;      // Booléen
+    let genres = ["science-fiction", "dystopique"]; // Tableau
     ```
 
 ### Les tableaux associatifs
@@ -142,7 +128,25 @@ En PHP, les variables commencent par le symbole `$`.
     console.log(livre.titre); // 1984
     ```
 
-## Concaténation 
+### Les constantes
+
+=== "PHP"
+
+    ```php
+    <?php
+    const PI = 3.14159;
+    echo PI; // 3.14159
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ``` js
+    const PI = 3.14159;
+    console.log(PI); // 3.14159
+    ```
+
+## Concaténation
 
 La concaténation permet d'assembler plusieurs chaînes de caractères pour former un texte complet.
 
@@ -193,7 +197,7 @@ PHP permet d’insérer une variable directement dans une chaîne avec les guill
 
     En JavaScript on appelle le concept _template literals_.
 
-## Les opérateurs 
+## Les opérateurs
 
 ### Opérateurs mathématiques
 
@@ -255,9 +259,9 @@ Les opérateurs de comparaison sont souvent utilisés dans les conditions (`if`)
     a > b   // Vrai si a est supérieur à b.
     ```
 
-## Structures de contrôle
+## Structures conditionnelles
 
-### Conditions
+### if
 
 === "PHP"
 
@@ -289,7 +293,7 @@ Les opérateurs de comparaison sont souvent utilisés dans les conditions (`if`)
     }
     ```
 
-### Switch
+### switch
 
 === "PHP"
 
@@ -329,9 +333,7 @@ Les opérateurs de comparaison sont souvent utilisés dans les conditions (`if`)
 
 ## PHP :heart: HTML
 
-PHP peut être intégré directement dans du HTML :scream:
-
-Il faut juste que le document php inclus la structure html de base.
+PHP s'intègre carrément dans du HTML :scream:
 
 ```php title="Code serveur (index.php)"
 <?php $nom = "JF"; ?>
@@ -341,7 +343,7 @@ Il faut juste que le document php inclus la structure html de base.
     <title>PHP ♥ HTML</title>
 </head>
 <body>
-    <h1><?php echo $nom . " salut ses droogies !"; ?></h1>
+    <h1><?php echo $nom . " salut ses <strong>droogies</strong> !"; ?></h1>
 </body>
 </html>
 ```
@@ -355,12 +357,14 @@ Il faut juste que le document php inclus la structure html de base.
     <title>PHP ♥ HTML</title>
 </head>
 <body>
-    <h1>JF salut ses droogies !</h1>
+    <h1>JF salut ses <strong>droogies</strong> !</h1>
 </body>
 </html>
 ```
 
-## Boucles 
+## Boucles
+
+![](./assets/images/spin.gif){.w-100}
 
 ### for()
 
@@ -369,10 +373,12 @@ Il faut juste que le document php inclus la structure html de base.
     ```php
     <?php
     for ($i = 0; $i < 5; $i++) {
-      echo "Itération $i <br>";
+      echo "index $i /";
       // ou
-      echo "Itération " . $i . "<br>";
+      // echo "index " . $i . "/";
     }
+
+    // Affiche : index 0 /index 1 /index 2 /index 3 /index 4 /
     ?>
     ```
 
@@ -423,6 +429,8 @@ Il faut juste que le document php inclus la structure html de base.
     foreach ($fruits as $fruit) {
       echo $fruit . "<br>";
     }
+
+    // Affiche :  Tomate<br>Concombre<br>Aubergine<br>Piment<br>Olive<br>
     ?>
     ```
 
@@ -461,68 +469,353 @@ Il faut juste que le document php inclus la structure html de base.
 
 ## Fonctions PHP courantes
 
-### Manipulation des chaînes de caractères
+Longueur d'une chaîne de caractères
 
-| **Fonction PHP** | **Équivalent en JavaScript** | **Description** |
-|------------------|----------------------------|----------------|
-| `strlen($texte)` | `texte.length` | Retourne la longueur d'une chaîne de caractères. |
-| `strtolower($texte)` | `texte.toLowerCase()` | Convertit une chaîne en minuscules. |
-| `strtoupper($texte)` | `texte.toUpperCase()` | Convertit une chaîne en majuscules. |
-| `trim($texte)` | `texte.trim()` | Supprime les espaces au début et à la fin d'une chaîne. |
-| `str_replace("a", "b", $texte)` | `texte.replace("a", "b")` | Remplace toutes les occurrences de "a" par "b" dans une chaîne. |
-| `strpos($texte, "mot")` | `texte.indexOf("mot")` | Retourne la position d'un mot dans une chaîne (ou -1 s'il n'est pas trouvé). |
+=== "PHP"
 
-### Manipulation des tableaux
+    ```php
+    <?php
+    $texte = "Bonjour";
+    echo strlen($texte); // 7
+    ?>
+    ```
 
-| **Fonction PHP** | **Équivalent en JavaScript** | **Description** |
-|------------------|----------------------------|----------------|
-| `count($array)` | `array.length` | Retourne le nombre d'éléments dans un tableau. |
-| `array_push($array, "valeur")` | `array.push("valeur")` | Ajoute un élément à la fin du tableau. |
-| `array_pop($array)` | `array.pop()` | Supprime et retourne le dernier élément du tableau. |
-| `array_unshift($array, "valeur")` | `array.unshift("valeur")` | Ajoute un élément au début du tableau. |
-| `array_shift($array)` | `array.shift()` | Supprime et retourne le premier élément du tableau. |
-| `in_array("valeur", $array)` | `array.includes("valeur")` | Vérifie si une valeur est présente dans un tableau (retourne `true` ou `false`). |
-| `array_keys($array)` | `Object.keys(array)` | Retourne un tableau contenant les clés d'un tableau associatif. |
-| `array_values($array)` | `Object.values(array)` | Retourne un tableau contenant les valeurs d'un tableau associatif. |
-| `array_map(fn, $array)` | `array.map(fn)` | Applique une fonction à chaque élément d'un tableau et retourne un nouveau tableau. |
-| `array_filter($array, fn)` | `array.filter(fn)` | Filtre les éléments d'un tableau selon une condition. |
-| `array_reverse($array)` | `array.reverse()` | Inverse l'ordre des éléments d'un tableau. |
+=== "JavaScript"
 
-### Manipulation des nombres
+    ```js
+    let texte = "Bonjour";
+    console.log(texte.length); // 7
+    ```
 
-| **Fonction PHP** | **Équivalent en JavaScript** | **Description** |
-|------------------|----------------------------|----------------|
-| `abs($nombre)` | `Math.abs(nombre)` | Retourne la valeur absolue d'un nombre. |
-| `round($nombre)` | `Math.round(nombre)` | Arrondit un nombre à l'entier le plus proche. |
-| `ceil($nombre)` | `Math.ceil(nombre)` | Arrondit un nombre à l'entier supérieur. |
-| `floor($nombre)` | `Math.floor(nombre)` | Arrondit un nombre à l'entier inférieur. |
-| `rand(1, 10)` | `Math.floor(Math.random() * 10) + 1` | Génère un nombre aléatoire entre 1 et 10. |
+Convertion de chaîne en minuscules ou majuscules
 
-### Manipulation des dates
+=== "PHP"
 
-| **Fonction PHP** | **Équivalent en JavaScript** | **Description** |
-|------------------|----------------------------|----------------|
-| `date("Y-m-d H:i:s")` | `new Date().toISOString()` | Retourne la date et l'heure actuelle au format ISO. |
-| `strtotime("next Monday")` | `new Date().setDate(new Date().getDate() + (1 + 7 - new Date().getDay()) % 7)` | Convertit une date en timestamp. |
-| `time()` | `Date.now()` | Retourne le timestamp actuel (en millisecondes depuis 1970). |
-| `mktime(0, 0, 0, 12, 25, 2025)` | `new Date(2025, 11, 25).getTime()` | Crée un timestamp à partir d'une date spécifique. |
+    ```php
+    <?php
+    $texte = "Bonjour";
+    echo strtolower($texte); // bonjour
+    echo strtoupper($texte); // BONJOUR
+    ?>
+    ```
 
-### Manipulation des fichiers
+=== "JavaScript"
 
-📌 **PHP peut manipuler des fichiers côté serveur, tandis que JavaScript (côté client) ne le peut pas directement. En Node.js, on utilise `fs`.**
+    ```js
+    let texte = "Bonjour";
+    console.log(texte.toLowerCase()); // bonjour
+    console.log(texte.toUpperCase()); // BONJOUR
+    ```
 
-| **Fonction PHP** | **Équivalent en JavaScript (Node.js)** | **Description** |
-|------------------|----------------------------|----------------|
-| `file_get_contents("fichier.txt")` | `fs.readFileSync("fichier.txt", "utf8")` | Lit le contenu d'un fichier. |
-| `file_put_contents("fichier.txt", "contenu")` | `fs.writeFileSync("fichier.txt", "contenu")` | Écrit dans un fichier. |
-| `fopen("fichier.txt", "r")` | `fs.openSync("fichier.txt", "r")` | Ouvre un fichier en lecture. |
+Suppression des espaces au début et à la fin d'une chaîne
+
+=== "PHP"
+
+    ```php
+    <?php
+    $texte = "  Bonjour  ";
+    echo trim($texte); // "Bonjour"
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ```js
+    let texte = "  Bonjour  ";
+    console.log(texte.trim()); // "Bonjour"
+    ```
+
+Remplacement de caractères
+
+=== "PHP"
+
+    ```php
+    <?php
+    $texte = "Bonjour";
+    echo str_replace("o", "a", $texte); // Banjaur
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ```js
+    let texte = "Bonjour";
+    console.log(texte.replace("o", "a")); // Banjaur
+    ```
+
+Nombre d'éléments dans un tableau
+
+=== "PHP"
+
+    ```php
+    <?php
+    $array = [1, 2, 3, 4, 5];
+    echo count($array); // 5
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ```js
+    let array = [1, 2, 3, 4, 5];
+    console.log(array.length); // 5
+    ```
+
+Vérifier si une valeur est dans un tableau
+
+=== "PHP"
+
+    ```php
+    <?php
+    $array = ["pomme", "banane", "orange"];
+    if(in_array("banane", $array)) {
+      echo "Oui";
+    } else {
+      echo "Non";
+    }
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ```js
+    let array = ["pomme", "banane", "orange"];
+    if(array.includes("banane")) {
+      console.log("Oui");
+    } else {
+      console.log("Non");
+    }
+    ```
+
+Arrondir un nombre
+
+=== "PHP"
+
+    ```php
+    <?php
+    $nombre = 4.6;
+    echo round($nombre); // 5
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ```js
+    let nombre = 4.6;
+    console.log(Math.round(nombre)); // 5
+    ```
+
+Générer un nombre aléatoire
+
+=== "PHP"
+
+    ```php
+    <?php
+    echo rand(1, 10); // Nombre entre 1 et 10
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ```js
+    console.log(Math.floor(Math.random() * 10) + 1); // Nombre entre 1 et 10
+    ```
 
 ### Validation et sécurité des entrées utilisateur
 
-| **Fonction PHP** | **Équivalent en JavaScript** | **Description** |
-|------------------|----------------------------|----------------|
-| `isset($variable)` | `typeof variable !== "undefined"` | Vérifie si une variable est définie. |
-| `empty($variable)` | `!variable` | Vérifie si une variable est vide. |
-| `filter_var($email, FILTER_VALIDATE_EMAIL)` | `/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)` | Valide une adresse e-mail. |
-| `htmlspecialchars($input)` | `input.replace(/</g, "&lt;").replace(/>/g, "&gt;")` | Protège contre les injections HTML. |
+Vérifier si une variable est définie : `isset($variable)`
 
+Vérifier si une variable est vide : `empty($variable)`
+
+Convertit les caractères spéciaux (< > & " ') en entités HTML : `htmlspecialchars($input)`
+
+## Formulaire
+
+![](./assets/images/surf.gif){.w-100}
+
+```html title="index.html"
+<form method="post" action="traitement.php">
+    <input type="text" name="nom" placeholder="Votre nom">
+    <button type="submit">Envoyer</button>
+</form>
+```
+
+```php title="traitement.php"
+<?php
+if (isset($_POST['nom'])) {
+    echo "Bonjour, " . htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
+}
+?>
+```
+
+### Sécurité
+
+![](./assets/images/security.gif){.w-100}
+
+Injection XSS, ça vous dit quelque chose ? C'est lorsque l'utilisateur entre du contenu malveillant dans un formulaire et que le contenu est affiché directement sur la page.
+
+Par exemple, dans un formulaire, si l'utilisateur entre comme valeur dans le champ prénom la valeur suivante : `<script>alert('Hacked!');</script>`, cela pourrait poser problème.
+
+Si en php on prend la valeur `$_POST['prenom']` et on l'enregistre sur le site, et que si on fait un affichage de cette valeur, n'importe où sur le site, une alerte s'affichera.
+
+Imaginez ce qui pourrait arriver si le script exécute du code malveillant.
+
+```html
+<form method="post">
+    <!-- L’attaquant entre ceci dans le champ nom :
+
+        "><script>alert("Hacked!")</script>
+
+     -->
+    <input type="text" name="nom">
+    <button type="submit">Envoyer</button>
+</form>
+```
+
+```php
+<?php
+$nom = $_POST['nom'];
+
+if (isset($nom)) {
+    // ❌ Aucune protection
+    echo "Bonjour, " . $nom;
+
+    // ⚠️ Ok
+    echo "Bonjour, " . htmlspecialchars($nom);
+
+    // ✅ Sécurisé
+    echo "Bonjour, " . htmlspecialchars($nom, ENT_QUOTES, 'UTF-8');
+}
+?>
+```
+
+| Avant | Apres |
+|-------|-------|
+| `"><script>alert("XSS")</script>` | `&quot;&gt;&lt;script&gt;alert(&quot;XSS&quot;)&lt;/script&gt;` |
+
+Les caractères spéciaux sont convertis en entités HTML, empêchant leur exécution !
+
+## Récapitulatif
+
+![](./assets/images/designer_dev.gif)
+
+Regardons ce script et analysons son fonctionnement.
+
+```php
+<?php
+function obtenirMessage($nb, $msg) {
+  if ($nb >= 80) {
+      return $msg["excellent"];
+  } elseif ($nb >= 50) {
+      return $msg["moyen"];
+  } else {
+      return $msg["faible"];
+  }
+}
+
+$nom_utilisateur = isset($_POST["nom"]) ? htmlspecialchars($_POST["nom"], ENT_QUOTES, 'UTF-8') : "Invité";
+$note = rand(0, 100);
+
+$messages = [
+    "excellent" => "Bravo, $nom_utilisateur ! Tu as un score impressionnant ! 🎉",
+    "moyen" => "Pas mal, $nom_utilisateur. Tu peux encore progresser ! 💪",
+    "faible" => "Oups, $nom_utilisateur... Il faut réessayer ! 😅"
+];
+
+echo "<h1>Bienvenue, $nom_utilisateur !</h1>";
+echo "<p>Ta note est de <strong>$note</strong>%.</p>";
+echo "<p>" . obtenirMessage($note, $messages) . "</p>";
+
+$matieres = ["Philosophie", "Mathématiques", "Biologie", "Astronomie"];
+
+echo "<h2>Matières :</h2>";
+echo "<ul>";
+foreach ($matieres as $matiere) {
+    echo "<li>$matiere</li>";
+}
+echo "</ul>";
+
+$choix_matiere = "Philosophie";
+
+echo "<h2>Matière préférée :</h2>";
+switch ($choix_matiere) {
+    case "Philosophie":
+        echo "<p>Ah, l'art de comprendre le monde.</p>";
+        break;
+    case "Mathématiques":
+        echo "<p>Oh, le langage de la nature !</p>";
+        break;
+    default:
+        echo "<p>Intéressant !</p>";
+}
+?>
+
+<hr>
+
+<form method="post" action="index.php">
+    <label for="nom">Entre ton nom :</label>
+    <input type="text" name="nom" id="nom" placeholder="Ex : Nietzsche" required>
+    <button type="submit">Envoyer</button>
+</form>
+```
+
+[*](https://web4.tim-momo.com/lecture)
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/flamant-rose.jpg)
+
+  <small>Exercice - PHP</small><br>
+  **[Copenhague](./exercices/php-flamant-rose.md){.stretched-link .back}**
+</div>
+
+[STOP]
+
+Pour afficher du texte dans la "console", on peut utiliser la fonction `console.log`.
+
+=== "PHP"
+
+    ```php
+    <?php
+    error_log("Salut JS !");
+    ?>
+    ```
+
+=== "JavaScript"
+
+    ``` js
+    console.log("Bonjour monsieur PHP !");
+    ```
+
+!!! info "Console serveur ?"
+
+    Du côté serveur, il n'existe pas de console. Ce qui remplace le concept s'appelle _log_.
+
+    Il existe des _logs_ pour PHP, pour Apache, pour MYSQL, etc.
+
+    Lorsque vous faites un `error_log("allo");` en PHP, vous pourrez voir son contenu dans `php_error.log` qui devrait se situer sous `C:\MAMP\logs`
+
+    Toutefois, vous trouverez sans doute plus pratique d'utiliser simplement `echo` pour imprimer la chaine de caractères sur votre page directement.
+
+```php
+<?php
+$data = ["Hello", "World"];
+var_dump($data);  // Affiche le type et la structure de la variable
+print_r($data);   // Affiche uniquement la structure
+?>
+```
+
+#### Aide mémoire de sécurité
+
+| **Type de champ HTML** | **Exemple HTML** | **Vérification & Nettoyage** | **Protection appliquée** |
+|----------------|------------------|--------------------|------------------|
+| **Texte (`<input type="text">`)** | `<input type="text" name="nom">` | `trim(strip_tags($_POST['nom']))`<br>`htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8')` | ✅ Empêche XSS & HTML Injection |
+| **Textarea (`<textarea>`)** | `<textarea name="message"></textarea>` | `trim(strip_tags($_POST['message']))`<br>`htmlspecialchars($_POST['message'], ENT_QUOTES, 'UTF-8')` | ✅ Empêche XSS & HTML Injection |
+| **Courriel (`<input type="email">`)** | `<input type="email" name="email">` | `filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)` | ✅ Empêche faux emails & XSS |
+| **URL (`<input type="url">`)** | `<input type="url" name="site">` | `filter_var($_POST['site'], FILTER_VALIDATE_URL)` | ✅ Empêche injection de liens dangereux |
+| **Nombre (`<input type="number">`)** | `<input type="number" name="age">` | `filter_var($_POST['age'], FILTER_VALIDATE_INT)` | ✅ Empêche XSS & Valeurs incorrectes |
+
+Pour les input de type radio, checkbox et select vous deviez utiliser `isset()` et `in_array()` pour vérifier que la valeur est permise.
+
+Pour les input de type file, c'est pour le moins plus difficile à sécuriser. Nous pourrons l'aborder dans une autre épisode de "On aura pas le temps de regarder cela cette session" !
