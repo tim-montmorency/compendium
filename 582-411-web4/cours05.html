@@ -8076,12 +8076,17 @@
 <p><img alt="" class="w-100" src="assets/images/surf.gif"></p>
 <div class="highlight"><span class="filename">index.html</span><pre><span></span><code><span class="p">&lt;</span><span class="nt">form</span> <span class="na">method</span><span class="o">=</span><span class="s">"post"</span> <span class="na">action</span><span class="o">=</span><span class="s">"traitement.php"</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">"text"</span> <span class="na">name</span><span class="o">=</span><span class="s">"nom"</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">"Votre nom"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">"hidden"</span> <span class="na">name</span><span class="o">=</span><span class="s">"identifiant"</span> <span class="na">value</span><span class="o">=</span><span class="s">"23487102948"</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">"submit"</span><span class="p">&gt;</span>Envoyer<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
 </code></pre></div>
 <div class="highlight"><span class="filename">traitement.php</span><pre><span></span><code><span class="cp">&lt;?php</span>
 <span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'nom'</span><span class="p">]))</span> <span class="p">{</span>
-    <span class="k">echo</span> <span class="s2">"Bonjour, "</span> <span class="o">.</span> <span class="nb">htmlspecialchars</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'nom'</span><span class="p">],</span> <span class="nx">ENT_QUOTES</span><span class="p">,</span> <span class="s1">'UTF-8'</span><span class="p">);</span>
+    <span class="k">echo</span> <span class="s2">"Bonjour, "</span> <span class="o">.</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">'nom'</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'identifiant'</span><span class="p">]))</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="s2">"Votre id unique est "</span> <span class="o">.</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">'identifiant'</span><span class="p">];</span>
 <span class="p">}</span>
 <span class="cp">?&gt;</span>
 </code></pre></div>
