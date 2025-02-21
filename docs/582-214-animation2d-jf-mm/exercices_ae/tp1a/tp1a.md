@@ -1,8 +1,7 @@
 # TP1a 9 Cours de Marie-Michelle
 
 Ce **TP1a** est **évalué** et vaut 15% de la session. 
-C'est la partie où on crée les images utilisées dans le [TP1 b](resultat-final.webm).
-![type:video](resultat-final.webm){ } 
+C'est la partie où on illustre les images fixes pour le TP1 qui sera au final un tableau animé.
 
 ## Téléchargement
 
