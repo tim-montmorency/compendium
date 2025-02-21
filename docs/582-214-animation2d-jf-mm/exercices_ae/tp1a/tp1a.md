@@ -61,10 +61,10 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 [Nomenclature des calques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew)
 
-**Typographie**
+**Typographie - Police de caractère**
 - [ ] Installer la police Filson Bold (FilsonProBold.otf)
 
-### Typographie 3D Isométrique   
+**Typographie 3D Isométrique** 
 
 - [ ] Effet / 3D et matières / 3D (Classique) /Rotation (classique) / isométrique haut (attention l'effet a changé d'endroit).
 - [ ] Effet / Distorsion et transformation / Transformation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
