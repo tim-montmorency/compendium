@@ -141,7 +141,7 @@ L'outil permet de créer des **logos**, des **illustrations**, des **icônes**, 
 
 ### La décomposition
 
-La décomposition permet de convertir une forme en une structure vectorielle indépendante des outils dynamiques d’Illustrator.
+[La décomposition](https://helpx.adobe.com/ca_fr/illustrator/using/grouping-expanding-objects.html) permet de convertir une forme en une structure vectorielle indépendante des outils dynamiques d’Illustrator.
 
 ⚠️ Attention : Cette méthode est destructive, ce qui signifie qu’il est impossible de revenir en arrière une fois l’action effectuée. Il est donc fortement recommandé de dupliquer votre calque avant d’appliquer cette transformation.
 
