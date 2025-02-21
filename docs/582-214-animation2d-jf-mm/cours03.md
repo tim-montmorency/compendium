@@ -1,7 +1,7 @@
 # Cours 3 
 
 ## Les 12 principes d'animation
-[Révision 12 principes](./cours02.html#les-12-principes-de-lanimation)
+[Révision 12 principes](./cours02.md#les-12-principes-de-lanimation)
 
 ## Les calques (la suite)
 
