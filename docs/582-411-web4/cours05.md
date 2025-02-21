@@ -636,6 +636,7 @@ Convertit les caractères spéciaux (< > & " ') en entités HTML : `htmlspecialc
 ```html title="index.html"
 <form method="post" action="traitement.php">
     <input type="text" name="nom" placeholder="Votre nom">
+    <input type="hidden" name="identifiant" value="23487102948">
     <button type="submit">Envoyer</button>
 </form>
 ```
@@ -643,7 +644,11 @@ Convertit les caractères spéciaux (< > & " ') en entités HTML : `htmlspecialc
 ```php title="traitement.php"
 <?php
 if (isset($_POST['nom'])) {
-    echo "Bonjour, " . htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
+    echo "Bonjour, " . $_POST['nom'];
+}
+
+if (isset($_POST['identifiant'])) {
+    echo "Votre id unique est " . $_POST['identifiant'];
 }
 ?>
 ```
