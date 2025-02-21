@@ -79,7 +79,7 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 **La flore**
 
 - [ ] Vectoriser le cactus noir et blanc (cactus.png)
-[:material-play-circle: Capsules vidéo pour le vélo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVgXZrtVe-hMmCmTK8lqiJcBZNHEq78aw_lfoTpjvEq4eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DUFkak)
+[:material-play-circle: Capsules vidéo pour le cactus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVgXZrtVe-hMmCmTK8lqiJcBZNHEq78aw_lfoTpjvEq4eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DUFkak)
 
 - [ ] Dessiner les plantes avec les outils **plume**, **pinceau** et **crayon**.
 
