@@ -6832,11 +6832,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#syntaxe" class="md-nav__link">
+  <a href="#annonce" class="md-nav__link">
     <span class="md-ellipsis">
-      Syntaxe
+      Annonce
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#php" class="md-nav__link">
+    <span class="md-ellipsis">
+      PHP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PHP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#executer-du-php" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exécuter du PHP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -6846,21 +6870,6 @@
       Hello world
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Hello world">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tests" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tests
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -6887,6 +6896,15 @@
   <a href="#les-tableaux-associatifs" class="md-nav__link">
     <span class="md-ellipsis">
       Les tableaux associatifs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-constantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les constantes
     </span>
   </a>
   
@@ -6955,19 +6973,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#structures-de-controle" class="md-nav__link">
+  <a href="#structures-conditionnelles" class="md-nav__link">
     <span class="md-ellipsis">
-      Structures de contrôle
+      Structures conditionnelles
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Structures de contrôle">
+    <nav class="md-nav" aria-label="Structures conditionnelles">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#conditions" class="md-nav__link">
+  <a href="#if" class="md-nav__link">
     <span class="md-ellipsis">
-      Conditions
+      if
     </span>
   </a>
   
@@ -6976,7 +6994,7 @@
           <li class="md-nav__item">
   <a href="#switch" class="md-nav__link">
     <span class="md-ellipsis">
-      Switch
+      switch
     </span>
   </a>
   
@@ -7058,51 +7076,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#manipulation-des-chaines-de-caracteres" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulation des chaînes de caractères
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#manipulation-des-tableaux" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulation des tableaux
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#manipulation-des-nombres" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulation des nombres
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#manipulation-des-dates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulation des dates
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#manipulation-des-fichiers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulation des fichiers
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#validation-et-securite-des-entrees-utilisateur" class="md-nav__link">
     <span class="md-ellipsis">
       Validation et sécurité des entrées utilisateur
@@ -7113,6 +7086,48 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formulaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formulaire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Formulaire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#securite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sécurité
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recapitulatif" class="md-nav__link">
+    <span class="md-ellipsis">
+      Récapitulatif
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercices
+    </span>
+  </a>
   
 </li>
       
@@ -7133,17 +7148,29 @@
 
 
 <div><h1 id="cours-5">Cours 5<a class="headerlink" href="#cours-5" title="Permanent link">¶</a></h1>
-<p><img alt="" src="assets/images/php-banner-01.png"></p>
-<h2 id="syntaxe">Syntaxe<a class="headerlink" href="#syntaxe" title="Permanent link">¶</a></h2>
-<p>PHP est un langage interprété côté serveur !</p>
-<p>Tout code PHP s’écrit entre les balises suivantes :</p>
+<h2 id="annonce">Annonce<a class="headerlink" href="#annonce" title="Permanent link">¶</a></h2>
+<p><img alt="" class="w-100" src="assets/images/wow.gif"></p>
+<div class="admonition warning">
+<p class="admonition-title">Sauvegarde !</p>
+<p>Il y aura une maintenance qui sera faite sur le serveur et pour ne pas perdre de données, il faudra faire une sauvegarde de votre devoir WOW.</p>
+</div>
+<h2 id="php">PHP<a class="headerlink" href="#php" title="Permanent link">¶</a></h2>
+<p><img alt="" src="assets/images/php-banner.jpg"></p>
+<p>PHP est un <strong>langage interprété côté serveur</strong> utilisé principalement pour générer du contenu dynamique sur le web.</p>
+<p>WordPress utilise PHP pour générer des contenus et les récupérer dans une base de données.</p>
+<h3 id="executer-du-php">Exécuter du PHP<a class="headerlink" href="#executer-du-php" title="Permanent link">¶</a></h3>
+<ul>
+<li>Un fichier PHP doit avoir l’extension <code>.php</code>.</li>
+<li>Le fichier principal d’un site est souvent <code>index.php</code> (comme en html).</li>
+<li>Un code PHP est toujours entouré des balises PHP :</li>
+</ul>
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
     <span class="c1">// Code PHP ici</span>
 <span class="cp">?&gt;</span>
 </code></pre></div>
 <h2 id="hello-world">Hello world<a class="headerlink" href="#hello-world" title="Permanent link">¶</a></h2>
-<p>Afficher du texte dans la page HTML</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked id="php" name="__tabbed_1" type="radio"><input id="javascript" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="php">PHP</label><label for="javascript">JavaScript</label></div>
+<p>Pour afficher du texte dans la page HTML, on utilise la fonction <code>echo</code>.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked id="php_1" name="__tabbed_1" type="radio"><input id="javascript" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="php_1">PHP</label><label for="javascript">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7157,37 +7184,12 @@
 </div>
 </div>
 </div>
-<p>Afficher du texte dans la console</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked id="php_1" name="__tabbed_2" type="radio"><input id="javascript_1" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="php_1">PHP</label><label for="javascript_1">JavaScript</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
-<span class="nb">error_log</span><span class="p">(</span><span class="s2">"Salut JS !"</span><span class="p">);</span>
-<span class="cp">?&gt;</span>
-</code></pre></div>
+<div class="admonition example">
+<p class="admonition-title">Go on essaye !</p>
+<p>Affichons notre fameux et tout premier "Hello world" en PHP !</p>
 </div>
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Bonjour monsieur PHP !"</span><span class="p">);</span>
-</code></pre></div>
-</div>
-</div>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Console serveur ?</p>
-<p>Du côté serveur, il n'existe pas de console. Ce qui remplace le concept s'appelle <em>log</em>.</p>
-<p>Il existe des <em>logs</em> pour PHP, pour Apache, pour MYSQL, etc.</p>
-<p>Lorsque vous faites un <code>error_log("allo");</code> en PHP, vous pourrez voir son contenu dans <code>php_error.log</code> qui devrait se situer sous <code>C:\MAMP\logs</code></p>
-<p>Toutefois, vous trouverez sans doute plus pratique d'utiliser simplement <code>echo</code> pour imprimer la chaine de caractères sur votre page directement.</p>
-</div>
-<h3 id="tests">Tests<a class="headerlink" href="#tests" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
-<span class="nv">$data</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Hello"</span><span class="p">,</span> <span class="s2">"World"</span><span class="p">];</span>
-<span class="nb">var_dump</span><span class="p">(</span><span class="nv">$data</span><span class="p">);</span>  <span class="c1">// Affiche le type et la structure de la variable</span>
-<span class="nb">print_r</span><span class="p">(</span><span class="nv">$data</span><span class="p">);</span>   <span class="c1">// Affiche uniquement la structure</span>
-<span class="cp">?&gt;</span>
-</code></pre></div>
 <h2 id="commentaires">Commentaires<a class="headerlink" href="#commentaires" title="Permanent link">¶</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked id="php_2" name="__tabbed_3" type="radio"><input id="javascript_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="php_2">PHP</label><label for="javascript_2">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked id="php_2" name="__tabbed_2" type="radio"><input id="javascript_1" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="php_2">PHP</label><label for="javascript_1">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7210,8 +7212,9 @@
 </div>
 </div>
 <h2 id="variables">Variables<a class="headerlink" href="#variables" title="Permanent link">¶</a></h2>
+<p><img alt="" class="w-100" src="assets/images/fun-coupon.gif"></p>
 <p>En PHP, les variables commencent par le symbole <code>$</code>.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked id="php_3" name="__tabbed_4" type="radio"><input id="javascript_3" name="__tabbed_4" type="radio"><div class="tabbed-labels"><label for="php_3">PHP</label><label for="javascript_3">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked id="php_3" name="__tabbed_3" type="radio"><input id="javascript_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="php_3">PHP</label><label for="javascript_2">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7219,6 +7222,7 @@
     <span class="nv">$publication_year</span> <span class="o">=</span> <span class="mi">1949</span><span class="p">;</span> <span class="c1">// Nombre entier</span>
     <span class="nv">$price</span> <span class="o">=</span> <span class="mf">9.99</span><span class="p">;</span>            <span class="c1">// Nombre flottant</span>
     <span class="nv">$recommended</span> <span class="o">=</span> <span class="k">true</span><span class="p">;</span>      <span class="c1">// Booléen</span>
+    <span class="nv">$genres</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"science-fiction"</span><span class="p">,</span> <span class="s2">"dystopique"</span><span class="p">];</span> <span class="c1">// Tableau</span>
 <span class="cp">?&gt;</span>
 </code></pre></div>
 </div>
@@ -7227,12 +7231,13 @@
 <span class="kd">let</span><span class="w"> </span><span class="nx">publication_year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1949</span><span class="p">;</span><span class="w"> </span><span class="c1">// Nombre entier</span>
 <span class="kd">let</span><span class="w"> </span><span class="nx">price</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">9.99</span><span class="p">;</span><span class="w">            </span><span class="c1">// Nombre flottant</span>
 <span class="kd">let</span><span class="w"> </span><span class="nx">recommended</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span><span class="w">      </span><span class="c1">// Booléen</span>
+<span class="kd">let</span><span class="w"> </span><span class="nx">genres</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">"science-fiction"</span><span class="p">,</span><span class="w"> </span><span class="s2">"dystopique"</span><span class="p">];</span><span class="w"> </span><span class="c1">// Tableau</span>
 </code></pre></div>
 </div>
 </div>
 </div>
 <h3 id="les-tableaux-associatifs">Les tableaux associatifs<a class="headerlink" href="#les-tableaux-associatifs" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked id="php_4" name="__tabbed_5" type="radio"><input id="javascript_4" name="__tabbed_5" type="radio"><div class="tabbed-labels"><label for="php_4">PHP</label><label for="javascript_4">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked id="php_4" name="__tabbed_4" type="radio"><input id="javascript_3" name="__tabbed_4" type="radio"><div class="tabbed-labels"><label for="php_4">PHP</label><label for="javascript_3">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7256,10 +7261,27 @@
 </div>
 </div>
 </div>
+<h3 id="les-constantes">Les constantes<a class="headerlink" href="#les-constantes" title="Permanent link">¶</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked id="php_5" name="__tabbed_5" type="radio"><input id="javascript_4" name="__tabbed_5" type="radio"><div class="tabbed-labels"><label for="php_5">PHP</label><label for="javascript_4">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="k">const</span> <span class="no">PI</span> <span class="o">=</span> <span class="mf">3.14159</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nx">PI</span><span class="p">;</span> <span class="c1">// 3.14159</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">PI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">3.14159</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">PI</span><span class="p">);</span><span class="w"> </span><span class="c1">// 3.14159</span>
+</code></pre></div>
+</div>
+</div>
+</div>
 <h2 id="concatenation">Concaténation<a class="headerlink" href="#concatenation" title="Permanent link">¶</a></h2>
 <p>La concaténation permet d'assembler plusieurs chaînes de caractères pour former un texte complet.</p>
 <p>En PHP, on utilise le point (<code>.</code>) pour concaténer des chaînes :</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked id="php_5" name="__tabbed_6" type="radio"><input id="javascript_5" name="__tabbed_6" type="radio"><div class="tabbed-labels"><label for="php_5">PHP</label><label for="javascript_5">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked id="php_6" name="__tabbed_6" type="radio"><input id="javascript_5" name="__tabbed_6" type="radio"><div class="tabbed-labels"><label for="php_6">PHP</label><label for="javascript_5">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7279,7 +7301,7 @@
 </div>
 <h3 id="interpolation-de-chaine">Interpolation de chaîne<a class="headerlink" href="#interpolation-de-chaine" title="Permanent link">¶</a></h3>
 <p>PHP permet d’insérer une variable directement dans une chaîne avec les guillemets <code>"</code>, mais pas avec l'apostrophe <code>'</code>.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked id="php_6" name="__tabbed_7" type="radio"><input id="javascript_6" name="__tabbed_7" type="radio"><div class="tabbed-labels"><label for="php_6">PHP</label><label for="javascript_6">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked id="php_7" name="__tabbed_7" type="radio"><input id="javascript_6" name="__tabbed_7" type="radio"><div class="tabbed-labels"><label for="php_7">PHP</label><label for="javascript_6">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7303,7 +7325,7 @@
 </div>
 <h2 id="les-operateurs">Les opérateurs<a class="headerlink" href="#les-operateurs" title="Permanent link">¶</a></h2>
 <h3 id="operateurs-mathematiques">Opérateurs mathématiques<a class="headerlink" href="#operateurs-mathematiques" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked id="php_7" name="__tabbed_8" type="radio"><input id="javascript_7" name="__tabbed_8" type="radio"><div class="tabbed-labels"><label for="php_7">PHP</label><label for="javascript_7">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked id="php_8" name="__tabbed_8" type="radio"><input id="javascript_7" name="__tabbed_8" type="radio"><div class="tabbed-labels"><label for="php_8">PHP</label><label for="javascript_7">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7331,7 +7353,7 @@
 </div>
 <h3 id="operateurs-de-comparaison">Opérateurs de comparaison<a class="headerlink" href="#operateurs-de-comparaison" title="Permanent link">¶</a></h3>
 <p>Les opérateurs de comparaison sont souvent utilisés dans les conditions (<code>if</code>).</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked id="php_8" name="__tabbed_9" type="radio"><input id="javascript_8" name="__tabbed_9" type="radio"><div class="tabbed-labels"><label for="php_8">PHP</label><label for="javascript_8">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked id="php_9" name="__tabbed_9" type="radio"><input id="javascript_8" name="__tabbed_9" type="radio"><div class="tabbed-labels"><label for="php_9">PHP</label><label for="javascript_8">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7359,9 +7381,9 @@
 </div>
 </div>
 </div>
-<h2 id="structures-de-controle">Structures de contrôle<a class="headerlink" href="#structures-de-controle" title="Permanent link">¶</a></h2>
-<h3 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked id="php_9" name="__tabbed_10" type="radio"><input id="javascript_9" name="__tabbed_10" type="radio"><div class="tabbed-labels"><label for="php_9">PHP</label><label for="javascript_9">JavaScript</label></div>
+<h2 id="structures-conditionnelles">Structures conditionnelles<a class="headerlink" href="#structures-conditionnelles" title="Permanent link">¶</a></h2>
+<h3 id="if">if<a class="headerlink" href="#if" title="Permanent link">¶</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked id="php_10" name="__tabbed_10" type="radio"><input id="javascript_9" name="__tabbed_10" type="radio"><div class="tabbed-labels"><label for="php_10">PHP</label><label for="javascript_9">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7391,8 +7413,8 @@
 </div>
 </div>
 </div>
-<h3 id="switch">Switch<a class="headerlink" href="#switch" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked id="php_10" name="__tabbed_11" type="radio"><input id="javascript_10" name="__tabbed_11" type="radio"><div class="tabbed-labels"><label for="php_10">PHP</label><label for="javascript_10">JavaScript</label></div>
+<h3 id="switch">switch<a class="headerlink" href="#switch" title="Permanent link">¶</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked id="php_11" name="__tabbed_11" type="radio"><input id="javascript_10" name="__tabbed_11" type="radio"><div class="tabbed-labels"><label for="php_11">PHP</label><label for="javascript_10">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7429,8 +7451,7 @@
 </div>
 </div>
 <h2 id="php-html">PHP <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2764.svg" title=":heart:"> HTML<a class="headerlink" href="#php-html" title="Permanent link">¶</a></h2>
-<p>PHP peut être intégré directement dans du HTML <img alt="😱" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f631.svg" title=":scream:"></p>
-<p>Il faut juste que le document php inclus la structure html de base.</p>
+<p>PHP s'intègre carrément dans du HTML <img alt="😱" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f631.svg" title=":scream:"></p>
 <div class="highlight"><span class="filename">Code serveur (index.php)</span><pre><span></span><code><span class="cp">&lt;?php</span> <span class="nv">$nom</span> <span class="o">=</span> <span class="s2">"JF"</span><span class="p">;</span> <span class="cp">?&gt;</span>
 <span class="x">&lt;!DOCTYPE html&gt;</span>
 <span class="x">&lt;html&gt;</span>
@@ -7438,7 +7459,7 @@
 <span class="x">    &lt;title&gt;PHP ♥ HTML&lt;/title&gt;</span>
 <span class="x">&lt;/head&gt;</span>
 <span class="x">&lt;body&gt;</span>
-<span class="x">    &lt;h1&gt;</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="nv">$nom</span> <span class="o">.</span> <span class="s2">" salut ses droogies !"</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="x">&lt;/h1&gt;</span>
+<span class="x">    &lt;h1&gt;</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="nv">$nom</span> <span class="o">.</span> <span class="s2">" salut ses &lt;strong&gt;droogies&lt;/strong&gt; !"</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="x">&lt;/h1&gt;</span>
 <span class="x">&lt;/body&gt;</span>
 <span class="x">&lt;/html&gt;</span>
 </code></pre></div>
@@ -7449,21 +7470,24 @@
 <span class="x">    &lt;title&gt;PHP ♥ HTML&lt;/title&gt;</span>
 <span class="x">&lt;/head&gt;</span>
 <span class="x">&lt;body&gt;</span>
-<span class="x">    &lt;h1&gt;JF salut ses droogies !&lt;/h1&gt;</span>
+<span class="x">    &lt;h1&gt;JF salut ses &lt;strong&gt;droogies&lt;/strong&gt; !&lt;/h1&gt;</span>
 <span class="x">&lt;/body&gt;</span>
 <span class="x">&lt;/html&gt;</span>
 </code></pre></div>
 <h2 id="boucles">Boucles<a class="headerlink" href="#boucles" title="Permanent link">¶</a></h2>
+<p><img alt="" class="w-100" src="assets/images/spin.gif"></p>
 <h3 id="for">for()<a class="headerlink" href="#for" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked id="php_11" name="__tabbed_12" type="radio"><input id="javascript_11" name="__tabbed_12" type="radio"><div class="tabbed-labels"><label for="php_11">PHP</label><label for="javascript_11">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked id="php_12" name="__tabbed_12" type="radio"><input id="javascript_11" name="__tabbed_12" type="radio"><div class="tabbed-labels"><label for="php_12">PHP</label><label for="javascript_11">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
 <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">echo</span> <span class="s2">"Itération </span><span class="si">$i</span><span class="s2"> &lt;br&gt;"</span><span class="p">;</span>
+  <span class="k">echo</span> <span class="s2">"index </span><span class="si">$i</span><span class="s2"> /"</span><span class="p">;</span>
   <span class="c1">// ou</span>
-  <span class="k">echo</span> <span class="s2">"Itération "</span> <span class="o">.</span> <span class="nv">$i</span> <span class="o">.</span> <span class="s2">"&lt;br&gt;"</span><span class="p">;</span>
+  <span class="c1">// echo "index " . $i . "/";</span>
 <span class="p">}</span>
+
+<span class="c1">// Affiche : index 0 /index 1 /index 2 /index 3 /index 4 /</span>
 <span class="cp">?&gt;</span>
 </code></pre></div>
 </div>
@@ -7478,7 +7502,7 @@
 </div>
 </div>
 <h3 id="while">while()<a class="headerlink" href="#while" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked id="php_12" name="__tabbed_13" type="radio"><input id="javascript_12" name="__tabbed_13" type="radio"><div class="tabbed-labels"><label for="php_12">PHP</label><label for="javascript_12">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked id="php_13" name="__tabbed_13" type="radio"><input id="javascript_12" name="__tabbed_13" type="radio"><div class="tabbed-labels"><label for="php_13">PHP</label><label for="javascript_12">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7503,7 +7527,7 @@
 </div>
 </div>
 <h3 id="foreach">foreach()<a class="headerlink" href="#foreach" title="Permanent link">¶</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked id="php_13" name="__tabbed_14" type="radio"><input id="javascript_13" name="__tabbed_14" type="radio"><div class="tabbed-labels"><label for="php_13">PHP</label><label for="javascript_13">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked id="php_14" name="__tabbed_14" type="radio"><input id="javascript_13" name="__tabbed_14" type="radio"><div class="tabbed-labels"><label for="php_14">PHP</label><label for="javascript_13">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7512,6 +7536,8 @@
 <span class="k">foreach</span> <span class="p">(</span><span class="nv">$fruits</span> <span class="k">as</span> <span class="nv">$fruit</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">echo</span> <span class="nv">$fruit</span> <span class="o">.</span> <span class="s2">"&lt;br&gt;"</span><span class="p">;</span>
 <span class="p">}</span>
+
+<span class="c1">// Affiche :  Tomate&lt;br&gt;Concombre&lt;br&gt;Aubergine&lt;br&gt;Piment&lt;br&gt;Olive&lt;br&gt;</span>
 <span class="cp">?&gt;</span>
 </code></pre></div>
 </div>
@@ -7525,7 +7551,7 @@
 </div>
 </div>
 <h2 id="fonctions">Fonctions<a class="headerlink" href="#fonctions" title="Permanent link">¶</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="15:2"><input checked id="php_14" name="__tabbed_15" type="radio"><input id="javascript_14" name="__tabbed_15" type="radio"><div class="tabbed-labels"><label for="php_14">PHP</label><label for="javascript_14">JavaScript</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="15:2"><input checked id="php_15" name="__tabbed_15" type="radio"><input id="javascript_14" name="__tabbed_15" type="radio"><div class="tabbed-labels"><label for="php_15">PHP</label><label for="javascript_14">JavaScript</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
@@ -7548,244 +7574,279 @@
 </div>
 </div>
 <h2 id="fonctions-php-courantes">Fonctions PHP courantes<a class="headerlink" href="#fonctions-php-courantes" title="Permanent link">¶</a></h2>
-<h3 id="manipulation-des-chaines-de-caracteres">Manipulation des chaînes de caractères<a class="headerlink" href="#manipulation-des-chaines-de-caracteres" title="Permanent link">¶</a></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Fonction PHP</strong></th>
-<th><strong>Équivalent en JavaScript</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>strlen($texte)</code></td>
-<td><code>texte.length</code></td>
-<td>Retourne la longueur d'une chaîne de caractères.</td>
-</tr>
-<tr>
-<td><code>strtolower($texte)</code></td>
-<td><code>texte.toLowerCase()</code></td>
-<td>Convertit une chaîne en minuscules.</td>
-</tr>
-<tr>
-<td><code>strtoupper($texte)</code></td>
-<td><code>texte.toUpperCase()</code></td>
-<td>Convertit une chaîne en majuscules.</td>
-</tr>
-<tr>
-<td><code>trim($texte)</code></td>
-<td><code>texte.trim()</code></td>
-<td>Supprime les espaces au début et à la fin d'une chaîne.</td>
-</tr>
-<tr>
-<td><code>str_replace("a", "b", $texte)</code></td>
-<td><code>texte.replace("a", "b")</code></td>
-<td>Remplace toutes les occurrences de "a" par "b" dans une chaîne.</td>
-</tr>
-<tr>
-<td><code>strpos($texte, "mot")</code></td>
-<td><code>texte.indexOf("mot")</code></td>
-<td>Retourne la position d'un mot dans une chaîne (ou -1 s'il n'est pas trouvé).</td>
-</tr>
-</tbody>
-</table>
-<h3 id="manipulation-des-tableaux">Manipulation des tableaux<a class="headerlink" href="#manipulation-des-tableaux" title="Permanent link">¶</a></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Fonction PHP</strong></th>
-<th><strong>Équivalent en JavaScript</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>count($array)</code></td>
-<td><code>array.length</code></td>
-<td>Retourne le nombre d'éléments dans un tableau.</td>
-</tr>
-<tr>
-<td><code>array_push($array, "valeur")</code></td>
-<td><code>array.push("valeur")</code></td>
-<td>Ajoute un élément à la fin du tableau.</td>
-</tr>
-<tr>
-<td><code>array_pop($array)</code></td>
-<td><code>array.pop()</code></td>
-<td>Supprime et retourne le dernier élément du tableau.</td>
-</tr>
-<tr>
-<td><code>array_unshift($array, "valeur")</code></td>
-<td><code>array.unshift("valeur")</code></td>
-<td>Ajoute un élément au début du tableau.</td>
-</tr>
-<tr>
-<td><code>array_shift($array)</code></td>
-<td><code>array.shift()</code></td>
-<td>Supprime et retourne le premier élément du tableau.</td>
-</tr>
-<tr>
-<td><code>in_array("valeur", $array)</code></td>
-<td><code>array.includes("valeur")</code></td>
-<td>Vérifie si une valeur est présente dans un tableau (retourne <code>true</code> ou <code>false</code>).</td>
-</tr>
-<tr>
-<td><code>array_keys($array)</code></td>
-<td><code>Object.keys(array)</code></td>
-<td>Retourne un tableau contenant les clés d'un tableau associatif.</td>
-</tr>
-<tr>
-<td><code>array_values($array)</code></td>
-<td><code>Object.values(array)</code></td>
-<td>Retourne un tableau contenant les valeurs d'un tableau associatif.</td>
-</tr>
-<tr>
-<td><code>array_map(fn, $array)</code></td>
-<td><code>array.map(fn)</code></td>
-<td>Applique une fonction à chaque élément d'un tableau et retourne un nouveau tableau.</td>
-</tr>
-<tr>
-<td><code>array_filter($array, fn)</code></td>
-<td><code>array.filter(fn)</code></td>
-<td>Filtre les éléments d'un tableau selon une condition.</td>
-</tr>
-<tr>
-<td><code>array_reverse($array)</code></td>
-<td><code>array.reverse()</code></td>
-<td>Inverse l'ordre des éléments d'un tableau.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="manipulation-des-nombres">Manipulation des nombres<a class="headerlink" href="#manipulation-des-nombres" title="Permanent link">¶</a></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Fonction PHP</strong></th>
-<th><strong>Équivalent en JavaScript</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>abs($nombre)</code></td>
-<td><code>Math.abs(nombre)</code></td>
-<td>Retourne la valeur absolue d'un nombre.</td>
-</tr>
-<tr>
-<td><code>round($nombre)</code></td>
-<td><code>Math.round(nombre)</code></td>
-<td>Arrondit un nombre à l'entier le plus proche.</td>
-</tr>
-<tr>
-<td><code>ceil($nombre)</code></td>
-<td><code>Math.ceil(nombre)</code></td>
-<td>Arrondit un nombre à l'entier supérieur.</td>
-</tr>
-<tr>
-<td><code>floor($nombre)</code></td>
-<td><code>Math.floor(nombre)</code></td>
-<td>Arrondit un nombre à l'entier inférieur.</td>
-</tr>
-<tr>
-<td><code>rand(1, 10)</code></td>
-<td><code>Math.floor(Math.random() * 10) + 1</code></td>
-<td>Génère un nombre aléatoire entre 1 et 10.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="manipulation-des-dates">Manipulation des dates<a class="headerlink" href="#manipulation-des-dates" title="Permanent link">¶</a></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Fonction PHP</strong></th>
-<th><strong>Équivalent en JavaScript</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>date("Y-m-d H:i:s")</code></td>
-<td><code>new Date().toISOString()</code></td>
-<td>Retourne la date et l'heure actuelle au format ISO.</td>
-</tr>
-<tr>
-<td><code>strtotime("next Monday")</code></td>
-<td><code>new Date().setDate(new Date().getDate() + (1 + 7 - new Date().getDay()) % 7)</code></td>
-<td>Convertit une date en timestamp.</td>
-</tr>
-<tr>
-<td><code>time()</code></td>
-<td><code>Date.now()</code></td>
-<td>Retourne le timestamp actuel (en millisecondes depuis 1970).</td>
-</tr>
-<tr>
-<td><code>mktime(0, 0, 0, 12, 25, 2025)</code></td>
-<td><code>new Date(2025, 11, 25).getTime()</code></td>
-<td>Crée un timestamp à partir d'une date spécifique.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="manipulation-des-fichiers">Manipulation des fichiers<a class="headerlink" href="#manipulation-des-fichiers" title="Permanent link">¶</a></h3>
-<p>📌 <strong>PHP peut manipuler des fichiers côté serveur, tandis que JavaScript (côté client) ne le peut pas directement. En Node.js, on utilise <code>fs</code>.</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Fonction PHP</strong></th>
-<th><strong>Équivalent en JavaScript (Node.js)</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>file_get_contents("fichier.txt")</code></td>
-<td><code>fs.readFileSync("fichier.txt", "utf8")</code></td>
-<td>Lit le contenu d'un fichier.</td>
-</tr>
-<tr>
-<td><code>file_put_contents("fichier.txt", "contenu")</code></td>
-<td><code>fs.writeFileSync("fichier.txt", "contenu")</code></td>
-<td>Écrit dans un fichier.</td>
-</tr>
-<tr>
-<td><code>fopen("fichier.txt", "r")</code></td>
-<td><code>fs.openSync("fichier.txt", "r")</code></td>
-<td>Ouvre un fichier en lecture.</td>
-</tr>
-</tbody>
-</table>
+<p>Longueur d'une chaîne de caractères</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="16:2"><input checked id="php_16" name="__tabbed_16" type="radio"><input id="javascript_15" name="__tabbed_16" type="radio"><div class="tabbed-labels"><label for="php_16">PHP</label><label for="javascript_15">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$texte</span> <span class="o">=</span> <span class="s2">"Bonjour"</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nb">strlen</span><span class="p">(</span><span class="nv">$texte</span><span class="p">);</span> <span class="c1">// 7</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">texte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Bonjour"</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">texte</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span><span class="w"> </span><span class="c1">// 7</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Convertion de chaîne en minuscules ou majuscules</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="17:2"><input checked id="php_17" name="__tabbed_17" type="radio"><input id="javascript_16" name="__tabbed_17" type="radio"><div class="tabbed-labels"><label for="php_17">PHP</label><label for="javascript_16">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$texte</span> <span class="o">=</span> <span class="s2">"Bonjour"</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nb">strtolower</span><span class="p">(</span><span class="nv">$texte</span><span class="p">);</span> <span class="c1">// bonjour</span>
+<span class="k">echo</span> <span class="nb">strtoupper</span><span class="p">(</span><span class="nv">$texte</span><span class="p">);</span> <span class="c1">// BONJOUR</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">texte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Bonjour"</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">texte</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span><span class="w"> </span><span class="c1">// bonjour</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">texte</span><span class="p">.</span><span class="nx">toUpperCase</span><span class="p">());</span><span class="w"> </span><span class="c1">// BONJOUR</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Suppression des espaces au début et à la fin d'une chaîne</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="18:2"><input checked id="php_18" name="__tabbed_18" type="radio"><input id="javascript_17" name="__tabbed_18" type="radio"><div class="tabbed-labels"><label for="php_18">PHP</label><label for="javascript_17">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$texte</span> <span class="o">=</span> <span class="s2">"  Bonjour  "</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nb">trim</span><span class="p">(</span><span class="nv">$texte</span><span class="p">);</span> <span class="c1">// "Bonjour"</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">texte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"  Bonjour  "</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">texte</span><span class="p">.</span><span class="nx">trim</span><span class="p">());</span><span class="w"> </span><span class="c1">// "Bonjour"</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Remplacement de caractères</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="19:2"><input checked id="php_19" name="__tabbed_19" type="radio"><input id="javascript_18" name="__tabbed_19" type="radio"><div class="tabbed-labels"><label for="php_19">PHP</label><label for="javascript_18">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$texte</span> <span class="o">=</span> <span class="s2">"Bonjour"</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nb">str_replace</span><span class="p">(</span><span class="s2">"o"</span><span class="p">,</span> <span class="s2">"a"</span><span class="p">,</span> <span class="nv">$texte</span><span class="p">);</span> <span class="c1">// Banjaur</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">texte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Bonjour"</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">texte</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s2">"o"</span><span class="p">,</span><span class="w"> </span><span class="s2">"a"</span><span class="p">));</span><span class="w"> </span><span class="c1">// Banjaur</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Nombre d'éléments dans un tableau</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="20:2"><input checked id="php_20" name="__tabbed_20" type="radio"><input id="javascript_19" name="__tabbed_20" type="radio"><div class="tabbed-labels"><label for="php_20">PHP</label><label for="javascript_19">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
+<span class="k">echo</span> <span class="nb">count</span><span class="p">(</span><span class="nv">$array</span><span class="p">);</span> <span class="c1">// 5</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span><span class="w"> </span><span class="mf">4</span><span class="p">,</span><span class="w"> </span><span class="mf">5</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span><span class="w"> </span><span class="c1">// 5</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Vérifier si une valeur est dans un tableau</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="21:2"><input checked id="php_21" name="__tabbed_21" type="radio"><input id="javascript_20" name="__tabbed_21" type="radio"><div class="tabbed-labels"><label for="php_21">PHP</label><label for="javascript_20">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$array</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"pomme"</span><span class="p">,</span> <span class="s2">"banane"</span><span class="p">,</span> <span class="s2">"orange"</span><span class="p">];</span>
+<span class="k">if</span><span class="p">(</span><span class="nb">in_array</span><span class="p">(</span><span class="s2">"banane"</span><span class="p">,</span> <span class="nv">$array</span><span class="p">))</span> <span class="p">{</span>
+  <span class="k">echo</span> <span class="s2">"Oui"</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="k">echo</span> <span class="s2">"Non"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">"pomme"</span><span class="p">,</span><span class="w"> </span><span class="s2">"banane"</span><span class="p">,</span><span class="w"> </span><span class="s2">"orange"</span><span class="p">];</span>
+<span class="k">if</span><span class="p">(</span><span class="nx">array</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s2">"banane"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Oui"</span><span class="p">);</span>
+<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Non"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Arrondir un nombre</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="22:2"><input checked id="php_22" name="__tabbed_22" type="radio"><input id="javascript_21" name="__tabbed_22" type="radio"><div class="tabbed-labels"><label for="php_22">PHP</label><label for="javascript_21">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$nombre</span> <span class="o">=</span> <span class="mf">4.6</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nb">round</span><span class="p">(</span><span class="nv">$nombre</span><span class="p">);</span> <span class="c1">// 5</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">nombre</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">4.6</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">round</span><span class="p">(</span><span class="nx">nombre</span><span class="p">));</span><span class="w"> </span><span class="c1">// 5</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Générer un nombre aléatoire</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="23:2"><input checked id="php_23" name="__tabbed_23" type="radio"><input id="javascript_22" name="__tabbed_23" type="radio"><div class="tabbed-labels"><label for="php_23">PHP</label><label for="javascript_22">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="k">echo</span> <span class="nb">rand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span> <span class="c1">// Nombre entre 1 et 10</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">10</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// Nombre entre 1 et 10</span>
+</code></pre></div>
+</div>
+</div>
+</div>
 <h3 id="validation-et-securite-des-entrees-utilisateur">Validation et sécurité des entrées utilisateur<a class="headerlink" href="#validation-et-securite-des-entrees-utilisateur" title="Permanent link">¶</a></h3>
+<p>Vérifier si une variable est définie : <code>isset($variable)</code></p>
+<p>Vérifier si une variable est vide : <code>empty($variable)</code></p>
+<p>Convertit les caractères spéciaux (&lt; &gt; &amp; " ') en entités HTML : <code>htmlspecialchars($input)</code></p>
+<h2 id="formulaire">Formulaire<a class="headerlink" href="#formulaire" title="Permanent link">¶</a></h2>
+<p><img alt="" class="w-100" src="assets/images/surf.gif"></p>
+<div class="highlight"><span class="filename">index.html</span><pre><span></span><code><span class="p">&lt;</span><span class="nt">form</span> <span class="na">method</span><span class="o">=</span><span class="s">"post"</span> <span class="na">action</span><span class="o">=</span><span class="s">"traitement.php"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">"text"</span> <span class="na">name</span><span class="o">=</span><span class="s">"nom"</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">"Votre nom"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">"submit"</span><span class="p">&gt;</span>Envoyer<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">traitement.php</span><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'nom'</span><span class="p">]))</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="s2">"Bonjour, "</span> <span class="o">.</span> <span class="nb">htmlspecialchars</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'nom'</span><span class="p">],</span> <span class="nx">ENT_QUOTES</span><span class="p">,</span> <span class="s1">'UTF-8'</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
+<h3 id="securite">Sécurité<a class="headerlink" href="#securite" title="Permanent link">¶</a></h3>
+<p><img alt="" class="w-100" src="assets/images/security.gif"></p>
+<p>Injection XSS, ça vous dit quelque chose ? C'est lorsque l'utilisateur entre du contenu malveillant dans un formulaire et que le contenu est affiché directement sur la page.</p>
+<p>Par exemple, dans un formulaire, si l'utilisateur entre comme valeur dans le champ prénom la valeur suivante : <code>&lt;script&gt;alert('Hacked!');&lt;/script&gt;</code>, cela pourrait poser problème.</p>
+<p>Si en php on prend la valeur <code>$_POST['prenom']</code> et on l'enregistre sur le site, et que si on fait un affichage de cette valeur, n'importe où sur le site, une alerte s'affichera.</p>
+<p>Imaginez ce qui pourrait arriver si le script exécute du code malveillant.</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">form</span> <span class="na">method</span><span class="o">=</span><span class="s">"post"</span><span class="p">&gt;</span>
+    <span class="cm">&lt;!-- L’attaquant entre ceci dans le champ nom :</span>
+
+<span class="cm">        "&gt;&lt;script&gt;alert("Hacked!")&lt;/script&gt;</span>
+
+<span class="cm">     --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">"text"</span> <span class="na">name</span><span class="o">=</span><span class="s">"nom"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">"submit"</span><span class="p">&gt;</span>Envoyer<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="nv">$nom</span> <span class="o">=</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">'nom'</span><span class="p">];</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$nom</span><span class="p">))</span> <span class="p">{</span>
+    <span class="c1">// ❌ Aucune protection</span>
+    <span class="k">echo</span> <span class="s2">"Bonjour, "</span> <span class="o">.</span> <span class="nv">$nom</span><span class="p">;</span>
+
+    <span class="c1">// ⚠️ Ok</span>
+    <span class="k">echo</span> <span class="s2">"Bonjour, "</span> <span class="o">.</span> <span class="nb">htmlspecialchars</span><span class="p">(</span><span class="nv">$nom</span><span class="p">);</span>
+
+    <span class="c1">// ✅ Sécurisé</span>
+    <span class="k">echo</span> <span class="s2">"Bonjour, "</span> <span class="o">.</span> <span class="nb">htmlspecialchars</span><span class="p">(</span><span class="nv">$nom</span><span class="p">,</span> <span class="nx">ENT_QUOTES</span><span class="p">,</span> <span class="s1">'UTF-8'</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span>
+</code></pre></div>
 <table>
 <thead>
 <tr>
-<th><strong>Fonction PHP</strong></th>
-<th><strong>Équivalent en JavaScript</strong></th>
-<th><strong>Description</strong></th>
+<th>Avant</th>
+<th>Apres</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>isset($variable)</code></td>
-<td><code>typeof variable !== "undefined"</code></td>
-<td>Vérifie si une variable est définie.</td>
-</tr>
-<tr>
-<td><code>empty($variable)</code></td>
-<td><code>!variable</code></td>
-<td>Vérifie si une variable est vide.</td>
-</tr>
-<tr>
-<td><code>filter_var($email, FILTER_VALIDATE_EMAIL)</code></td>
-<td><code>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)</code></td>
-<td>Valide une adresse e-mail.</td>
-</tr>
-<tr>
-<td><code>htmlspecialchars($input)</code></td>
-<td><code>input.replace(/&lt;/g, "&amp;lt;").replace(/&gt;/g, "&amp;gt;")</code></td>
-<td>Protège contre les injections HTML.</td>
+<td><code>"&gt;&lt;script&gt;alert("XSS")&lt;/script&gt;</code></td>
+<td><code>&amp;quot;&amp;gt;&amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;/script&amp;gt;</code></td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<p>Les caractères spéciaux sont convertis en entités HTML, empêchant leur exécution !</p>
+<h2 id="recapitulatif">Récapitulatif<a class="headerlink" href="#recapitulatif" title="Permanent link">¶</a></h2>
+<p><img alt="" src="assets/images/designer_dev.gif"></p>
+<p>Regardons ce script et analysons son fonctionnement.</p>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="k">function</span> <span class="nf">obtenirMessage</span><span class="p">(</span><span class="nv">$nb</span><span class="p">,</span> <span class="nv">$msg</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nv">$nb</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nv">$msg</span><span class="p">[</span><span class="s2">"excellent"</span><span class="p">];</span>
+  <span class="p">}</span> <span class="k">elseif</span> <span class="p">(</span><span class="nv">$nb</span> <span class="o">&gt;=</span> <span class="mi">50</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nv">$msg</span><span class="p">[</span><span class="s2">"moyen"</span><span class="p">];</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nv">$msg</span><span class="p">[</span><span class="s2">"faible"</span><span class="p">];</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nv">$nom_utilisateur</span> <span class="o">=</span> <span class="nb">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s2">"nom"</span><span class="p">])</span> <span class="o">?</span> <span class="nb">htmlspecialchars</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s2">"nom"</span><span class="p">],</span> <span class="nx">ENT_QUOTES</span><span class="p">,</span> <span class="s1">'UTF-8'</span><span class="p">)</span> <span class="o">:</span> <span class="s2">"Invité"</span><span class="p">;</span>
+<span class="nv">$note</span> <span class="o">=</span> <span class="nb">rand</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">);</span>
+
+<span class="nv">$messages</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">"excellent"</span> <span class="o">=&gt;</span> <span class="s2">"Bravo, </span><span class="si">$nom_utilisateur</span><span class="s2"> ! Tu as un score impressionnant ! 🎉"</span><span class="p">,</span>
+    <span class="s2">"moyen"</span> <span class="o">=&gt;</span> <span class="s2">"Pas mal, </span><span class="si">$nom_utilisateur</span><span class="s2">. Tu peux encore progresser ! 💪"</span><span class="p">,</span>
+    <span class="s2">"faible"</span> <span class="o">=&gt;</span> <span class="s2">"Oups, </span><span class="si">$nom_utilisateur</span><span class="s2">... Il faut réessayer ! 😅"</span>
+<span class="p">];</span>
+
+<span class="k">echo</span> <span class="s2">"&lt;h1&gt;Bienvenue, </span><span class="si">$nom_utilisateur</span><span class="s2"> !&lt;/h1&gt;"</span><span class="p">;</span>
+<span class="k">echo</span> <span class="s2">"&lt;p&gt;Ta note est de &lt;strong&gt;</span><span class="si">$note</span><span class="s2">&lt;/strong&gt;%.&lt;/p&gt;"</span><span class="p">;</span>
+<span class="k">echo</span> <span class="s2">"&lt;p&gt;"</span> <span class="o">.</span> <span class="nx">obtenirMessage</span><span class="p">(</span><span class="nv">$note</span><span class="p">,</span> <span class="nv">$messages</span><span class="p">)</span> <span class="o">.</span> <span class="s2">"&lt;/p&gt;"</span><span class="p">;</span>
+
+<span class="nv">$matieres</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Philosophie"</span><span class="p">,</span> <span class="s2">"Mathématiques"</span><span class="p">,</span> <span class="s2">"Biologie"</span><span class="p">,</span> <span class="s2">"Astronomie"</span><span class="p">];</span>
+
+<span class="k">echo</span> <span class="s2">"&lt;h2&gt;Matières :&lt;/h2&gt;"</span><span class="p">;</span>
+<span class="k">echo</span> <span class="s2">"&lt;ul&gt;"</span><span class="p">;</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$matieres</span> <span class="k">as</span> <span class="nv">$matiere</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="s2">"&lt;li&gt;</span><span class="si">$matiere</span><span class="s2">&lt;/li&gt;"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="k">echo</span> <span class="s2">"&lt;/ul&gt;"</span><span class="p">;</span>
+
+<span class="nv">$choix_matiere</span> <span class="o">=</span> <span class="s2">"Philosophie"</span><span class="p">;</span>
+
+<span class="k">echo</span> <span class="s2">"&lt;h2&gt;Matière préférée :&lt;/h2&gt;"</span><span class="p">;</span>
+<span class="k">switch</span> <span class="p">(</span><span class="nv">$choix_matiere</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="s2">"Philosophie"</span><span class="o">:</span>
+        <span class="k">echo</span> <span class="s2">"&lt;p&gt;Ah, l'art de comprendre le monde.&lt;/p&gt;"</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
+    <span class="k">case</span> <span class="s2">"Mathématiques"</span><span class="o">:</span>
+        <span class="k">echo</span> <span class="s2">"&lt;p&gt;Oh, le langage de la nature !&lt;/p&gt;"</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
+    <span class="k">default</span><span class="o">:</span>
+        <span class="k">echo</span> <span class="s2">"&lt;p&gt;Intéressant !&lt;/p&gt;"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span>
+
+<span class="x">&lt;hr&gt;</span>
+
+<span class="x">&lt;form method="post" action="index.php"&gt;</span>
+<span class="x">    &lt;label for="nom"&gt;Entre ton nom :&lt;/label&gt;</span>
+<span class="x">    &lt;input type="text" name="nom" id="nom" placeholder="Ex : Nietzsche" required&gt;</span>
+<span class="x">    &lt;button type="submit"&gt;Envoyer&lt;/button&gt;</span>
+<span class="x">&lt;/form&gt;</span>
+</code></pre></div>
+<p><a href="https://web4.tim-momo.com/lecture">*</a></p>
+<h2 id="exercices">Exercices<a class="headerlink" href="#exercices" title="Permanent link">¶</a></h2>
+<div class="grid grid-1-2">
+<p><img alt="" src="assets/images/flamant-rose.jpg"></p>
+<p><small>Exercice - PHP</small><br>
+  <strong><a class="stretched-link back" href="exercices/php-flamant-rose.html">Copenhague</a></strong></p>
+</div></div>
 
 
 
