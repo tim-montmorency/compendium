@@ -67,7 +67,7 @@ Shift + clic pour sélectionner la couleur uniquement
 
 ## Transformations et marionnette
 
-<!-- ![](./assets/images/ai-totation.png) -->
+<!-- ![](./assets/images/ai-totation.png) Lien brisé -->
 
 [:material-play-circle: Rotation (R)](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdBWqucj7k9Dh5_jn3fYoCMB0_qZHEyl9ACh9kt5m8bF2w?e=NMhSBa)
 
