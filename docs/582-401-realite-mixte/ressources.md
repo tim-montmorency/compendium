@@ -1,8 +1,8 @@
 # Répertoire de ressources
 
 
-## Unity 
-#### Installation 
+## Unity
+#### Installation
 - [Création de compte](https://id.unity.com/en/account/new)
 - [Installation du logiciel](installation/telechargement.md)
 - [Ajout de modules](installation/modules.md)
@@ -42,7 +42,7 @@
 
 #### Fenêtre animation
 - [Transitions entre les scènes](unity/transitions.md)
- 
+
 #### Réalité augmentée
 - [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
 - [Importer les images de détection dans Unity](realite-augmentee/importer_detection.md)
@@ -80,7 +80,7 @@
 - [Conditions](code/condition.md)
 - [Boucle](code/boucle.md)
 - [Aléatoire](code/aleatoire.md)
-- [Fonctions](code/fonctions.md)        
+- [Fonctions](code/fonctions.md)
 - [Événements](code/evenements.md)
 - [Son](unity/son.md)
 - [Quitter l'application](code/quitter_jeu.md)
@@ -93,14 +93,14 @@
 
 - [Projet Unity avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
 - [Décomptes et timers](code/bibliotheque_exemples.md#decomptes-et-timers)
-  - [Méthode Invoke() et InvokeRepeating()](code/bibliotheque_exemples.html#methode-invoke-et-invokerepeating)
-  - [Coroutines](code/bibliotheque_exemples.html#coroutines)
+  - [Méthode Invoke() et InvokeRepeating()](code/bibliotheque_exemples.md#methode-invoke-et-invokerepeating)
+  - [Coroutines](code/bibliotheque_exemples.md#coroutines)
 - [Contrôle d'UI et menus](code/bibliotheque_exemples.md#controle-dui-et-menus)
-  - [Événement avec méthode préexistante](code/bibliotheque_exemples.html#evenement-avec-methode-preexistante)
-  - [Événement avec méthode originale](code/bibliotheque_exemples.html#evenement-avec-methode-originale)
-  - [Activation simple d'élement d'UI](code/bibliotheque_exemples.html#activation-simple-delement-dui)
-  - [Changer les propriétés de l'UI à partir d'un script](code/bibliotheque_exemples.html#changer-les-proprietes-de-lui-a-partir-dun-script)
-     
+  - [Événement avec méthode préexistante](code/bibliotheque_exemples.md#evenement-avec-methode-preexistante)
+  - [Événement avec méthode originale](code/bibliotheque_exemples.md#evenement-avec-methode-originale)
+  - [Activation simple d'élement d'UI](code/bibliotheque_exemples.md#activation-simple-delement-dui)
+  - [Changer les propriétés de l'UI à partir d'un script](code/bibliotheque_exemples.md#changer-les-proprietes-de-lui-a-partir-dun-script)
+
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
 
@@ -129,23 +129,23 @@
 
 #### Tir de projectile
 - [Tir](unity/tir.md)
-  
+
 #### Réalité virtuelle
 ##### Configurer la VR dans votre projet
 - [Importer les paquets pour la VR](unity/configuration_vr.md)
 - [Intégrer le casque de VR à une scène](unity/xr_origin.md)
 - [Problèmes de joueur](https://youtu.be/prcvO0z74hg?si=Sp3bYpGNY5YHsDeP)
-- [Tester avec un clavier et une souris](unity/test_clavier.md)     
+- [Tester avec un clavier et une souris](unity/test_clavier.md)
 
 ##### Interagir avec les manettes et l'environnement
 - [Prendre et lancer des objets](unity/interaction_vr.md)
 - [Méthode de sélection des objets](unity/methode_selection.md)
 - [XR socket - Socle pour les objets](unity/xr_socket.md)
-- [Mains VR](unity/vr_mains.md) 
+- [Mains VR](unity/vr_mains.md)
 
 ##### Se déplacer en réalité virtuelle
 - [Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
-- [Téléportation](unity/teleportation.md) 
+- [Téléportation](unity/teleportation.md)
 - [Grimper](unity/grimper.md)
 - [Sauter](unity/sauter.md)
 - [Ascenseur](unity/ascenseur.md)
@@ -183,7 +183,3 @@
 - [Donjon](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVbP42OTXHxIi2BA4lpLO-0Br1QqZyi6_HFFBJTFf4Er0g?e=Dy174s)
 - [Fantaisie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESAhgRY5NWVMssSuucGOJK4BD2jhRTc06G0cH6XRp6nmjw?e=8i1izP)
 - [Espace](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYK1_f5Y22NHoiYN-gaHTSQBsiP2sA3XKSFIpavqGjlWgg?e=46Aeov)
-
-
-
-

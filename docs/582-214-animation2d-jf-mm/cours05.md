@@ -30,7 +30,7 @@ Fenêtre > Formes (F5)
 
 ![](./assets/images/ai-jonction.png)
 
-[:material-play-circle: Jonction](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eaj8dcdB3IlEvz_zXQ6QmxQBUiJDGSGWzRMFp95_vIWiCg?e=Fr2HLA) 
+[:material-play-circle: Jonction](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eaj8dcdB3IlEvz_zXQ6QmxQBUiJDGSGWzRMFp95_vIWiCg?e=Fr2HLA)
 
 ![](./assets/images/ai-gomme.png)
 
@@ -67,7 +67,7 @@ Shift + clic pour sélectionner la couleur uniquement
 
 ## Transformations et marionnette
 
-![](./assets/images/ai-totation.png)
+<!-- ![](./assets/images/ai-totation.png) -->
 
 [:material-play-circle: Rotation (R)](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdBWqucj7k9Dh5_jn3fYoCMB0_qZHEyl9ACh9kt5m8bF2w?e=NMhSBa)
 
@@ -106,7 +106,7 @@ Sélection des calques, clic droit + Créer un masque d'écrêtage
 [:material-play-circle: Masque et transparence](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXK9TJqqjEFFn0Wc9ZgFZhIBGhOdfNSoxoXmJRJtQPJJkA?e=q9rtSz)<br>
 Fenêtre Transparence, créer un masque, clic le masque et colle la texture
 
-## Typographie    
+## Typographie
 
 ![](./assets/images/ai-text.png)
 
@@ -148,18 +148,18 @@ Fenêtre > Vectorisation de l'image
 
 [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew)
 
-[:material-play-circle: Effet isométrique](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWhHJDR4d8dLqQk6Ydf5JwIByxBq09dSlQE-TyI3ey6nsQ?e=aE9ct2)  
+[:material-play-circle: Effet isométrique](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EWhHJDR4d8dLqQk6Ydf5JwIByxBq09dSlQE-TyI3ey6nsQ?e=aE9ct2)
 
-Précisions:  
-  - Police: Filson bold  
-  - Rotation 3D - Isométrique haut  
-  - Distorsion et transformation: Transformation de l'image avec 15 copies et un décalage vertical de 16 pixels.  
+Précisions:
+  - Police: Filson bold
+  - Rotation 3D - Isométrique haut
+  - Distorsion et transformation: Transformation de l'image avec 15 copies et un décalage vertical de 16 pixels.
 
 [:material-play-circle: Fenêtre aspect pour modifier les effets](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=Xdl0zu)
 
 [:material-play-circle: Vectorisation (cactus)](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eer-AKJaa51Il5nqJTM7UbABHoNzo-lIuMaDOoveaLOarQ?e=5RYdSY)
 
-[💼 Travail 1](exercice_ai/travail1.md){ .md-button }    
+[💼 Travail 1](exercice_ai/travail1.md){ .md-button }
 -->
 
 ## Exercices
@@ -177,7 +177,7 @@ Précisions:
   **[Masques](exercice_ai/10_masques.md){.back}**<br>
   **[Transparence](exercice_ai/10_transparence.md){.back}**<br>
   **[Mise en page](exercice_ai/11_mise_page.md){.back}**<br>
-  **[Typographie](exercice_ai/11_typographie.md){.back}** 
+  **[Typographie](exercice_ai/11_typographie.md){.back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
@@ -225,4 +225,4 @@ Précisions:
 ## Partie 1 remise le 26-27 février (le jour de votre cours)
 [TP1 : Partie 1 illustrations (Illustrator)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercice_ai/travail1.html)
 ## Partie 2 remise le 19-20 mars (le jour de votre cours)
-[TP1 : Partie 2 animations (After effects)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercices_ae/travail1.html) 
+[TP1 : Partie 2 animations (After effects)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercices_ae/travail1.html)
