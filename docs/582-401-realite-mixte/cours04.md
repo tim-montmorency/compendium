@@ -43,6 +43,8 @@ Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront
 #### Script
 [💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#10-creation-de-la-scene-jeu-script){ .md-button }     
 
+[💼 Travail 1 - Étape 12](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#12-defi-sera-evalue){ .md-button }     
+
 
 ## Exemple de travail 2
 Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé ControleQualite.exe pour jouer à un exemple de travail 2: 
@@ -52,5 +54,5 @@ Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé Control
 
 ## Devoir
 
-### Terminer les étapes 1 à 11 du travail 1
+### Terminer les étapes 1 à 12 du travail 1
 [💼 Travail 1](./travaux/travail1.md){ .md-button }    
