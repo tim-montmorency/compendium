@@ -24,30 +24,22 @@
 
 [:material-play-circle: Conversion calque illustrator en calque de forme](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUyUFWWUoVdAmD3oXbSUD0sB8rC3YJgeHFVlIU41NPRWvA?e=Mlt4vS)
 
-## Audio et exportation
+## Audio
+
+![](./assets/images/audio.gif){ .w-100 }
 
 [:material-play-circle: Niveaux audio](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYbpj09zkD1GhDBl7317eG0BPrqEIQO99a4xpBsyZSaCHw?e=c5fFq5)
 
 [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB)
 
-[:material-play-circle: Précomposition](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYd2F6D_qkFPlmhAlDyYKMAB7DiYmy3ej8tJPcGw3eHeqQ?e=fcdAXl)
+<!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
+<!-- [:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz) -->
 
-[:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm)
+## Exportation
 
 [:material-play-circle: Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=f5Nt2e)
 
-[:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz)
-
-## Effet de pluie
-
-[:material-play-circle: Effet Rainfall](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERH5bWOx7BVInt8_ULJ6OwsBYh8u9XTHKri8jIjvVS6pYA?e=y75sjm)
-
-[:material-play-circle: Splash](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=91ggi9)
-
-[:material-play-circle: Expression](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=C4F33M)
-
 ## Exercices
-
 
 [🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }
 
