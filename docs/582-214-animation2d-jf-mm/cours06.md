@@ -95,17 +95,28 @@ Il existe plusieurs façon d'animer le texte (nous l'avions introduit au cours 3
   Dans la panneau **Effets et paramètres prédéfinis** > **Animations prédéfinis** > **Text**, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.  
 </div>
 
+[:material-play-circle: Les bases de l'animation de la typo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZO6MEi5qIZCo1PNIj6sursBKSeowDLB5CYnfQCFMUXZ1w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1NAXxr)
+
+[:material-play-circle: Le safe-title](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EW1JXLIAIN5Kipc65xXTO0wBLB2WxBHujdn-bqLCEo5JiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eIK4XJ)
 
 
-[🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }       
-    
+À développer (pour le moment ce n'est pas un exercice)
+[🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }
+
+Oui on le garde   
 [🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }       
-    
+
+Texte tracé avec l'anim style line-art (à venir)
+TODO
+
+Non on ne le garde pas mais je le remplacerais par l'anim style line-art (à venir)
 [🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }       
-    
+
 [🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }       
+
+
+[🛠️ Lettres en 3D](exercices_ae/09_3d_lettre.md){ .md-button }   
     
-[🛠️ Lettres en 3D](exercices_ae/09_3d_lettre.md){ .md-button }       
 
 
 
