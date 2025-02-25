@@ -74,8 +74,24 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 ![](./assets/images/export.png){ data-zoom-image }
 
 
-## Typographie kinétique (animation de textes)
+## Typographie kinétique
 
+### 20 inspiration de typographies kinétiques très intéressantes
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/20-kynetic-typos.png)
+
+  Les meilleures typographies cinétiques : 20 exemples à voir absolument<br><br>
+  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://www.creativebloq.com/typography/examples-kinetic-typography-11121304)
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/pinterest-kynetic-typos.png)
+
+  Pinterest: kinetic typography in motion design<br><br>
+  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://ca.pinterest.com/search/pins/?q=kinetic%20typography%20motion%20graphics)
+</div>
+
+### Animer le texte dans After Effects
 Il existe plusieurs façon d'animer le texte (nous l'avions introduit au cours 3)&nbsp;:
 
 <div class="grid grid-1-2" markdown>
@@ -114,10 +130,26 @@ Non on ne le garde pas mais je le remplacerais par l'anim style line-art (à ven
 
 [🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }       
 
-
+Peut-être mais je ceherche autre chose.
 [🛠️ Lettres en 3D](exercices_ae/09_3d_lettre.md){ .md-button }   
-    
 
+Penser à ajouter l'exploration de 3 presets d'animation de texte.
+
+
+<!--
+Inspirations:
+
+https://www.creativebloq.com/typography/examples-kinetic-typography-11121304
+
+https://www.linearity.io/blog/kinetic-typography/
+
+-->
+### Considérations pour l'animation de la typographie
+ - Déterminer l'**audience et le message**, ce qu'on veut communiquer par le mouvement
+ - Techniques d'animation: **explorez plusieurs techniques** d'animation typographique, choisissez ensuite les techniques qui complètent bien le contenu.
+ - **Choix typographique**: Sélectionnez la police la plus appropriée pour votre animation
+ - Le **débit et le rythme** de vos animations doivent être minutieusement travaillés afin de créer une fluidité et un effet engageant
+ - Restez **cohérent** du début à la fin au niveau des techniques d'animation, du rythme et du style visuel.
 
 
 
