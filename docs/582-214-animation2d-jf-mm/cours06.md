@@ -2,6 +2,34 @@
 
 [STOP]
 
+## Annonces 
+
+Vous vous cherchez le moyen de vous distinguer 🚀 par rapport aux autres ? C'est votre chance, alors saisissez-la !
+
+### Oseille et portfolio
+
+![](./assets/images/oseille.webp){ .w-100 }
+
+Les étudiantes et étudiants de la Technique d’intégration multimédia du collège Montmorency sont invités à participer à un concours d’essais audiovisuels.
+
+* 📅 **13 mars 2025** : Ouverture de l’appel de projet
+* 📅 **21 mai 2025** : Date finale pour la remise des projets dans le dossier Remise du canal Concours dans l'équipe Tim-Programme TIM
+* 📅 **≈23 mai 2025** : Visionnement des finalistes et annonce des essais gagnants
+
+[Poser sa candidature :material-download:](https://cmontmorency365.sharepoint.com/sites/TIM-programmeTIM752/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels%2FAppel%20a%20candidature2025%2Epdf&parent=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels&p=true&ga=1)
+
+!!! info "TP2 genre ? Ben oui !"
+
+    Dans le cadre du cours, vous aurez la possibilité de soumettre votre TP2 au concours et possiblement, être payé pour l'avoir fait !
+
+### Pour les plus stratégiques 
+
+![](./assets/images/synthese-inscription.png)
+
+L'occasion de visiter en personne un des 7 studios en création numérique !
+
+[Informations sur Teams](https://teams.microsoft.com/l/message/19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2/1740517437871?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&parentMessageId=1740517437871&teamName=TIM%20-%20Programme%20TIM&channelName=General&createdTime=1740517437871)
+
 ## Préparation des calques Illustrator
 
 Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
@@ -10,7 +38,13 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 
 [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay)
 
-[Demo :material-download:](./assets/images/suisse.eps)
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/giant-swiss-knife.jpg)
+
+  <small>Demo</small><br>
+  **[Le couteau suisse](./assets/images/suisse.eps)**<br>
+  <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation</small>
+</div>
 
 ### Options d'importation
 
@@ -30,15 +64,21 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 
 ### Gestion des calques
 
-[:material-play-circle: Liens manquants](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES3nv_1D8ZdAsKPArJnWVLkBJ-5M9t8wkd7EeCbRdg5Ngg?e=sfyJuF)
+![](./assets/images/oups.png)
 
-[:material-play-circle: Modifications post-importation dans Illustrator](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVIfgqGazEhAqd99_-3SOjcBEfhfyuZHQwNUMgWdS5WGaA?e=YOLCxB)
+Clic droit > Remplacer le métrage > Fichier (choisir le fichier Illustrator) : ça devrait régler beaucoup de cas de figure.
 
-[:material-play-circle: Modifier le nom d'un calque](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQcjlwgo8Z1OijsfHEX-8jsBhjyJH8zxQryYEYHGwlGlbQ?e=bESBVt)
+[:material-play-circle: Liens manquants](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ES3nv_1D8ZdAsKPArJnWVLkBJ-5M9t8wkd7EeCbRdg5Ngg?e=sfyJuF) (Ex: fichié renommé ou déplacé)
+
+[:material-play-circle: Modifications Illustrator post-importation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVIfgqGazEhAqd99_-3SOjcBEfhfyuZHQwNUMgWdS5WGaA?e=YOLCxB)
+
+[:material-play-circle: Modifier le nom d'un calque Illustrator post-importation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EQcjlwgo8Z1OijsfHEX-8jsBhjyJH8zxQryYEYHGwlGlbQ?e=bESBVt)
 
 [:material-play-circle: Importer un seul calque](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eeix9K7ueJ5ItEfsMcrURvABXeyOgUtv61gWlol4vSlgrQ?e=ekA3yb)
 
-[:material-play-circle: Conversion calque illustrator en calque de forme](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUyUFWWUoVdAmD3oXbSUD0sB8rC3YJgeHFVlIU41NPRWvA?e=Mlt4vS)
+[:material-play-circle: Conversion calque illustrator en calque de forme](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUyUFWWUoVdAmD3oXbSUD0sB8rC3YJgeHFVlIU41NPRWvA?e=Mlt4vS) 
+
+Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du calque vectoriel.
 
 ## Audio
 
@@ -49,7 +89,11 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 ![](./assets/images/audio-timeline.png){ data-zoom-image }
 
 ![](./assets/images/audio-panel.png){ data-zoom-image }
-<!-- stereo / mono -->
+
+### Marqueurs
+
+Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`.
+
 <!-- [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB) -->
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
 <!-- [:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz) -->
@@ -73,10 +117,21 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 
 ![](./assets/images/export.png){ data-zoom-image }
 
+## Typographie cinétique
 
-## Typographie kinétique (animation de textes)
+![](./assets/images/Kinetic-Typography.avif){ .w-100 }
 
-Il existe plusieurs façon d'animer le texte (nous l'avions introduit au cours 3)&nbsp;:
+La typographie cinétique (de l’anglais _kinetic typography_) est une technique d’animation impliquant la **présentation dynamique d’un texte** dans le temps, souvent **associée à un son** ou à des **vidéos musicales**, afin de transmettre ou de renforcer un message. 
+
+Elle utilise le mouvement, la **taille**, les changements de **couleur** et d’autres effets visuels pour ajouter une couche de sens et d’émotion aux mots écrits. 
+
+Il s’agit d’une méthode populaire dans les **films**, les **publicités** et les **présentations vidéo** pour capter l’attention et accroître l’engagement du public.
+
+![type:video](./assets/videos/kintetic.mp4){ .w-100 }
+
+Bref, de l'animation de texte.
+
+<!-- Il existe plusieurs façon d'animer le texte (nous l'avions introduit au cours 3) -->
 
 <div class="grid grid-1-2" markdown>
   ![propriété animables](./assets/images/ae/propriete-animable-texte.png){ data-zoom-image }
@@ -99,18 +154,22 @@ Il existe plusieurs façon d'animer le texte (nous l'avions introduit au cours 3
 
 [:material-play-circle: Le safe-title](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EW1JXLIAIN5Kipc65xXTO0wBLB2WxBHujdn-bqLCEo5JiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eIK4XJ)
 
-
+<!-- 
 À développer (pour le moment ce n'est pas un exercice)
 [🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }
-
-Oui on le garde   
-[🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }       
 
 Texte tracé avec l'anim style line-art (à venir)
 TODO
 
 Non on ne le garde pas mais je le remplacerais par l'anim style line-art (à venir)
 [🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }       
+-->
+
+
+
+
+
+
 
 [🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }       
 
@@ -123,8 +182,6 @@ Non on ne le garde pas mais je le remplacerais par l'anim style line-art (à ven
 
 
 ## Exercices
-
-[🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }
 
 [🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }
 
