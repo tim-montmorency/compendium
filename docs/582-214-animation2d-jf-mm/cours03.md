@@ -66,17 +66,12 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
 <div class="grid grid-1-2" markdown>
   ![propriété animables](./assets/images/ae/propriete-animable-texte.png){ data-zoom-image }
   
-  **ANIMATION MANUELLE DE PROPRIÉTÉS DE TEXTE ANIMABLES**
+  **ANIMATION MANUELLE DE PROPRIÉTÉS DE TEXTE**
   Dans le panneau de montage (timeline), sélectionnez le calque texte à animer. Clic-droit sur celui-ci.
   Dans le menu du haut **Animation > Animer texte** et sélectionnez une propriété animable parmi celles présentées.
 
   Ou encore dans la timeline, développez le calque texte, vous verez un bouton **Animer :material-play-circle:**
 </div>
-
-
-
-   
-    
 
 <div class="grid grid-1-2" markdown>
   ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
@@ -84,6 +79,7 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
   **ANIMATIONS PRÉDÉFINIES DE TEXTE**
   Dans la panneau **Effets et paramètres prédéfinis** > **Animations prédéfinis** > **Text**, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.  
 </div>
+
 
 #### Quelques turoriels intéressants : 
 * [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
