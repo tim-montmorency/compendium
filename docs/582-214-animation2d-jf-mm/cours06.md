@@ -73,6 +73,23 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 
 ![](./assets/images/export.png){ data-zoom-image }
 
+
+## Typographie kinétique
+
+[🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }       
+    
+[🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }       
+    
+[🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }       
+    
+[🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }       
+    
+[🛠️ Lettres en 3D](exercices_ae/09_3d_lettre.md){ .md-button }       
+
+
+
+
+
 ## Exercices
 
 [🛠️ Expérimentation typographie](exercices_ae/09_experimentation_typo.md){ .md-button }
