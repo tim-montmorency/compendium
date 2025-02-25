@@ -1,5 +1,6 @@
 # Cours 6
 
+[STOP]
 
 ## Préparation des calques Illustrator
 
