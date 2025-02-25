@@ -105,7 +105,7 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/tp1/tp1-preview.png)
 
-  <small>Devoir sommatif groupe Jean-François - 18 mars</small><br>
+  <small>Devoir sommatif groupes Jean-François - 18 mars</small><br>
   **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
 </div>
 
