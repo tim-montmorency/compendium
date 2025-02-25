@@ -17,7 +17,7 @@ Créer une animation synchronisée à une piste audio mettant en scène un squel
 
 ## Consignes
 
-### Illustrator
+### Illustrator (oscar.ai)
 
 #### Personnalisation du personnage
 
@@ -52,3 +52,15 @@ Créer une animation synchronisée à une piste audio mettant en scène un squel
 - [ ] Ajustez les niveaux des pistes audio pour une harmonie sonore optimale.
 - [ ] Ajoutez un fond noir pour une transition Fade In / Fade Out.
 - [ ] Exportez la vidéo avec Adobe Media Encoder en H.264 | High Quality 1080p HD.
+
+[STOP]
+
+https://www.vecteezy.com/vector-art/640195-human-skeleton-chart-vector
+https://pixabay.com/sound-effects/falling-whistle-cartoon-180579/
+https://pixabay.com/sound-effects/bamboo-athmo-99544/
+https://pixabay.com/es/sound-effects/lock-fall-down-60415/
+https://pixabay.com/sound-effects/crowd-laughingwav-14578/
+https://pixabay.com/sound-effects/cracking-bones-173109/
+https://pixabay.com/sound-effects/falling-whistle-swish-1-84769/
+https://pixabay.com/sound-effects/075596-booming-punchy-explosion-85652/
+https://www.pexels.com/fr-fr/photo/paysage-falaise-voyager-nuage-10643872/

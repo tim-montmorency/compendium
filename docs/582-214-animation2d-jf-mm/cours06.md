@@ -1,6 +1,5 @@
 # Cours 6
 
-[STOP]
 
 ## Préparation des calques Illustrator
 
@@ -9,6 +8,8 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 [:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt)
 
 [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay)
+
+[Demo :material-download:](./assets/images/suisse.eps)
 
 ### Options d'importation
 
@@ -44,14 +45,32 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 
 [:material-play-circle: Niveaux audio](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYbpj09zkD1GhDBl7317eG0BPrqEIQO99a4xpBsyZSaCHw?e=c5fFq5)
 
-[:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB)
+![](./assets/images/audio-timeline.png){ data-zoom-image }
 
+![](./assets/images/audio-panel.png){ data-zoom-image }
+
+<!-- [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB) -->
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
 <!-- [:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz) -->
 
 ## Exportation
 
 [:material-play-circle: Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=f5Nt2e)
+
+### Diffusion web et réseaux sociaux
+
+Format : H.264 puis "YouTube 1080p Full HD" ou "Vimeo 1080p Full HD"
+
+### Qualité professionnelle avec compression
+
+Format : Quicktime puis Apple ProRes 422 / 4444 (idéal pour montage et étalonnage)
+
+### Archivage haute qualité
+
+Format : Quicktime puis CineForm ou DNxHR/DNxHD (Haute qualité, mais fichiers lourds)
+Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
+
+![](./assets/images/export.png){ data-zoom-image }
 
 ## Exercices
 
@@ -92,13 +111,3 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 [STOP]
 
 https://www.vecteezy.com/vector-art/102486-free-swiss-knife-vector
-
-https://www.vecteezy.com/vector-art/640195-human-skeleton-chart-vector
-https://pixabay.com/sound-effects/falling-whistle-cartoon-180579/
-https://pixabay.com/sound-effects/bamboo-athmo-99544/
-https://pixabay.com/es/sound-effects/lock-fall-down-60415/
-https://pixabay.com/sound-effects/crowd-laughingwav-14578/
-https://pixabay.com/sound-effects/cracking-bones-173109/
-https://pixabay.com/sound-effects/falling-whistle-swish-1-84769/
-https://pixabay.com/sound-effects/075596-booming-punchy-explosion-85652/
-https://www.pexels.com/fr-fr/photo/paysage-falaise-voyager-nuage-10643872/
