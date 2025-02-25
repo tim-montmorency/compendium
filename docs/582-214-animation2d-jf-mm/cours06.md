@@ -49,7 +49,7 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 ![](./assets/images/audio-timeline.png){ data-zoom-image }
 
 ![](./assets/images/audio-panel.png){ data-zoom-image }
-
+<!-- stereo / mono -->
 <!-- [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB) -->
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
 <!-- [:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz) -->
