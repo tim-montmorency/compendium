@@ -4,7 +4,7 @@
 
 Vous vous cherchez le moyen de vous distinguer 🚀 par rapport aux autres ? C'est votre chance, alors saisissez-la !
 
-### Oseille et portfolio
+### Concours d’essais audiovisuels
 
 ![](./assets/images/oseille.webp){ .w-100 }
 
@@ -41,7 +41,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 
   <small>Demo</small><br>
   **[Le couteau suisse](./assets/images/suisse.eps)**<br>
-  <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation</small>
+  <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
 ### Options d'importation
