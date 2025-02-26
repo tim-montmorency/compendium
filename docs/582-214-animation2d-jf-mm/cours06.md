@@ -149,8 +149,6 @@ Bref, de l'animation de texte.
 
 ### Animer le texte dans After Effects
 
-<!-- Il existe plusieurs façon d'animer le texte (nous l'avions introduit au cours 3) -->
-
 <div class="grid grid-1-2" markdown>
   ![propriété animables](./assets/images/ae/propriete-animable-texte.png){ data-zoom-image }
   
@@ -181,12 +179,6 @@ TODO
 
 Non on ne le garde pas mais je le remplacerais par l'anim style line-art (à venir)
 [🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }       
--->
-
-
-
-
-
 
 
 [🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }       
@@ -197,11 +189,8 @@ Peut-être mais je ceherche autre chose.
 Penser à ajouter l'exploration de 3 presets d'animation de texte.
 
 
-<!--
 Inspirations:
-
 https://www.creativebloq.com/typography/examples-kinetic-typography-11121304
-
 https://www.linearity.io/blog/kinetic-typography/
 
 -->
@@ -216,6 +205,8 @@ https://www.linearity.io/blog/kinetic-typography/
 
 
 ## Exercices
+
+[🛠️ Typography audacieuse](exercices_ae/typo-audacieuse/typo.md){ .md-button }
 
 [🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }
 
