@@ -51,6 +51,10 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 - [ ] Taille de la zone de travail : 6000 X 3375 pixels
 - [ ] Configurer la palette de couleur à partir des couleurs dans le document `couleurs.ai`
+[:material-play-circle: Ajouter les couleurs à votre nuancier](hhttps://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQDA8wHLT-dOgQFiAhko6rgBtkzuHq7hBAcEN96dDM_byg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fm5WmA)
+
+
+
 
 **Nomenclature**
 
@@ -61,8 +65,14 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 [Nomenclature des calques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew)
 
+
+
+
 **Typographie - Police de caractère**
 - [ ] Installer la police Filson Bold (FilsonProBold.otf)
+
+
+
 
 **Typographie 3D Isométrique** 
 
@@ -76,32 +86,49 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 [:material-play-circle: Modifier l'effet au besoin](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZakrA8bd5pDl5icN3ZK-fUBBsJ8RFupt5gy5ARiQodK-A?e=MFbF0p){ .md-button }   
 
 
+
+
 **La flore**
 
-- [ ] Vectoriser le cactus noir et blanc (cactus.png)
-[:material-play-circle: Capsules vidéo pour le cactus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVgXZrtVe-hMmCmTK8lqiJcBZNHEq78aw_lfoTpjvEq4eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DUFkak)
+- [ ] Vectoriser le cactus **noir et blanc** (cactus.png)
+[:material-play-circle: Capsules vidéo pour la vectorisation du cactus noir et blanc](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ec6tAP8VMuxKod2-BHmi7qMBkNxP77IyzmJRVJbW0szlXw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Sa90lF)
 
-- [ ] Dessiner les plantes avec les outils **plume**, **pinceau** et **crayon**.
+- [ ] Dessiner les plantes et petits cactus de couleur avec les outils **plume**, **pinceau** et **crayon**.
+[:material-play-circle: Dessiner les plantes](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaPTJx4EgjZDnCUIJidsn6wBOR5LjQFw5SswHnuHf7itZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aWp5hV)
+[:material-play-circle: Dessiner les petits cactus de couleur](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVgXZrtVe-hMmCmTK8lqiJcBZNHEq78aw_lfoTpjvEq4eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DUFkak)
+
+
 
 **Les personnages**
 
 - [ ] Dessiner les personnages avec les outils **plume**, **pinceau**, **crayon** et **forme**.
+[:material-play-circle: Dessiner les personnages](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXGhiE0gOSJFvcmZcBn7LaABg8AXSy-7NTnPtwVv2yumPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FllKte)
+
+
 
 **Oiseaux**
 
 - [ ] Tracer à partir de l'image de référence (oiseau.png) avec l'outil **plume**.
+[:material-play-circle: Dessiner les oiseaux](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXwY-cC1RVdEvf766A_ORK8BMyRZjrXZF2uB5p4YShApKQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1X9Jju)
+
+
 
 **Vélo**
 
 - [ ] Dessiner le vélo avec les outils **plume**, **forme** et **grille à coordonnées polaires**.
 - [ ] L'épaisseur du cadre du vélo doit être de 6 px.
-- [ ] Respecter le nombre de points de la forme de l’œil.
 [:material-play-circle: Capsules vidéo pour le vélo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EqsNQZGOvCVOkkT8J7--z6gBKnkmfV0A5g4Nw1soQt-vGg?e=oU0IBl)
+
+
+
 
 **Œil**
 
 - [ ] Respecter le nombre de points de la forme de l’œil.
 [:material-play-circle: Capsule vidéo pour l'oeil](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWRd3uKMW9FNvyPtYpI_uKIBKTysx1wsU8KqrYnR3v4jwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AWgUz8)
+
+
+
 
 ## Remise groupe Marie-Michelle
 
