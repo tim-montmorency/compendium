@@ -15,3 +15,7 @@ Les masques et mattes
 [🛠️ Cinéma](exercices_ae/04_cinema.md){ .md-button }
 
 [🛠️ Masque](exercices_ae/04_masque.md){ .md-button }
+
+<!-- [🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button } -->
+
+<!-- [🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button } -->

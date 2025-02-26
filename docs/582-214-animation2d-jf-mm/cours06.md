@@ -1,7 +1,5 @@
 # Cours 6
 
-[STOP]
-
 ## Annonces 
 
 Vous vous cherchez le moyen de vous distinguer 🚀 par rapport aux autres ? C'est votre chance, alors saisissez-la !
@@ -119,8 +117,6 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 
 ## Typographie cinétique
 
-![](./assets/images/Kinetic-Typography.avif){ .w-100 }
-
 La typographie cinétique (de l’anglais _kinetic typography_) est une technique d’animation impliquant la **présentation dynamique d’un texte** dans le temps, souvent **associée à un son** ou à des **vidéos musicales**, afin de transmettre ou de renforcer un message. 
 
 Elle utilise le mouvement, la **taille**, les changements de **couleur** et d’autres effets visuels pour ajouter une couche de sens et d’émotion aux mots écrits. 
@@ -137,14 +133,14 @@ Bref, de l'animation de texte.
   ![](./assets/images/20-kynetic-typos.png)
 
   Les meilleures typographies cinétiques : 20 exemples à voir absolument<br><br>
-  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://www.creativebloq.com/typography/examples-kinetic-typography-11121304)
+  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://www.creativebloq.com/typography/examples-kinetic-typography-11121304){ .stretched-link }
 </div>
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/pinterest-kynetic-typos.png)
 
   Pinterest: kinetic typography in motion design<br><br>
-  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://ca.pinterest.com/search/pins/?q=kinetic%20typography%20motion%20graphics)
+  [:material-book-open-page-variant: Feuilleter l'œuvre complète](https://ca.pinterest.com/search/pins/?q=kinetic%20typography%20motion%20graphics){ .stretched-link }
 </div>
 
 ### Animer le texte dans After Effects
@@ -152,18 +148,17 @@ Bref, de l'animation de texte.
 <div class="grid grid-1-2" markdown>
   ![propriété animables](./assets/images/ae/propriete-animable-texte.png){ data-zoom-image }
   
-  **ANIMATION MANUELLE DE PROPRIÉTÉS DE TEXTE**
-  Dans le panneau de montage (timeline), sélectionnez le calque texte à animer. Clic-droit sur celui-ci.
-  Dans le menu du haut **Animation > Animer texte** et sélectionnez une propriété animable parmi celles présentées.
-
-  Ou encore dans la timeline, développez le calque texte, vous verez un bouton **Animer :material-play-circle:**
+  **Animation manuelle**<br>
+  <small>Dans le panneau de montage (timeline), sélectionnez le calque texte à animer. Clic-droit sur celui-ci.<br>
+  Dans le menu du haut **Animation > Animer texte** et sélectionnez une propriété animable parmi celles présentées.<br>
+  Ou encore dans la timeline, développez le calque texte, vous verez un bouton "Animer :material-play-circle:"</small>
 </div>
 
 <div class="grid grid-1-2" markdown>
   ![animation prédéfinie](./assets/images/ae/animation-predefinies-de-texte.png){ data-zoom-image }
 
-  **ANIMATIONS PRÉDÉFINIES DE TEXTE**
-  Dans la panneau **Effets et paramètres prédéfinis** > **Animations prédéfinis** > **Text**, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.  
+  **Animations prédéfinies**<br>
+  <small>Dans la panneau `Effets et paramètres prédéfinis > Animations prédéfinis > Text`, vous trouverez une grande variété d'effets d'animation de texte classés par type d'effet.</small>  
 </div>
 
 [:material-play-circle: Les bases de l'animation de la typo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZO6MEi5qIZCo1PNIj6sursBKSeowDLB5CYnfQCFMUXZ1w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1NAXxr)
@@ -195,37 +190,40 @@ https://www.linearity.io/blog/kinetic-typography/
 
 -->
 ### Considérations pour l'animation de la typographie
+
  - Déterminer l'**audience et le message**, ce qu'on veut communiquer par le mouvement
  - Techniques d'animation: **explorez plusieurs techniques** d'animation typographique, choisissez ensuite les techniques qui complètent bien le contenu.
  - **Choix typographique**: Sélectionnez la police la plus appropriée pour votre animation
  - Le **débit et le rythme** de vos animations doivent être minutieusement travaillés afin de créer une fluidité et un effet engageant
  - Restez **cohérent** du début à la fin au niveau des techniques d'animation, du rythme et du style visuel.
 
+## Modes de fusion
 
+Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colonne des modes de fusion n’est pas visible : Cliquez sur le bouton Agrandir ou réduire le panneau Mode de fusion (ou simplement ++f4++).
 
+![](./assets/images/mode-fusion.png)
+
+[^fusion]: <https://www.la-retouche-photo.com/photoshop-cours-005-les-modes-de-fusion/>
 
 ## Exercices
 
-[🛠️ Typography audacieuse](exercices_ae/typo-audacieuse/typo.md){ .md-button }
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/Kinetic-Typography.avif)
 
-[🛠️ Modes de couleur](exercices_ae/09_modes_couleur.md){ .md-button }
-
-[🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }
-
-[🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }
-
-[🛠️ Lettres en 3D](exercices_ae/09_3d_lettre.md){ .md-button }
-
-[Effets](exercices_ae/08_effets.md){ .md-button }
-
-[🛠️ Devoir balle](exercices_ae/devoir_balle.md){ .md-button }
-
-[🛠️ Devoir 4](exercices_ae/devoir_c4.md){ .md-button }
-
-[💼 Travail 1](exercices_ae/travail1.md){ .md-button }
+  <small>Exercice - After Effects</small><br>
+  **[Typography audacieuse](./exercices_ae/typo-audacieuse/typo.md){.stretched-link .back}**
+</div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/oscar/Oscar-Wilde.webp)
+  ![](./assets/images/text-contrast.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[Contrast](./exercices_ae/09_modes_couleur.md){.stretched-link .back}**
+</div>
+
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/oscar/Oscar-Wilde-02.webp)
 
   <small>Exercice - Illustrator & After Effects</small><br>
   **[Oscar Wilde fait du yoga](./exercices_ae/oscar/oscar.md){.stretched-link .back}**
