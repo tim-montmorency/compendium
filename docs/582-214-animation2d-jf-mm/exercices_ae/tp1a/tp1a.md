@@ -145,3 +145,20 @@ Compresser le dossier `votre-nom-prenom_tp1_582-214MO` en .zip
 Déposer sur Moodle (instructions spécifiques pour la remise à venir)
 
 Date limite : **jeudi 13 mars AVANT LE COURS (avant 14h15)**
+
+
+## Liste de vérification
+Voici une liste pour vérifier si votre travail est complet:   
+
+- [ ] Est-ce que la nomenclature externe des dossiers est respectée ?
+- [ ] Est-ce que le fichier Illustrator se trouve dans le dossier 01_illustrator ?
+- [ ] Est-ce que le format du fichier Illustrator est à 6000 X 3375 pixels ?
+- [ ] Est-ce que la taille des carrés en arrière plan est bien de 3000 pixels X 1687,5 ?
+- [ ] Est-ce que les carrés de l'arrière-plan sont bien alignés par leur centre ?
+- [ ] Est-ce que tous les calques sont identifiés en suivant les captures d'écran ?
+- [ ] Est-ce qu'on retrouve les couleurs à utiliser dans un dossier dans le nuancier ?
+- [ ] Est-ce que les bonnes couleurs ont été utilisées dans le document Illustrator ?
+- [ ] Est-ce que la typographie Filson Pro Bold est bien utilisée?
+- [ ] Est-ce que la taille de la typographie Filson Pro Bold est près de 1274?
+- [ ] Quel est le niveau de la qualité d'exécution ?
+- [ ] Est-ce que tous les éléments ont été illustrés ou est-ce qu'il manque des éléments?
