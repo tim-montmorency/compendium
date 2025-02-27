@@ -44,5 +44,5 @@ Réaliser des animations 2D.
   **Marie-Michelle Ouellet**<br>
   _Enseignante en Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
-  [Plan de cours :material-download:](./assets/documents/582-214_Animation2D_H2025_MMO.pdf){ .md-button .md-button--primary }
+  [Plan de cours :material-download:](./assets/documents/582-214_Animation2D_H2025_MMO_v2neige2.pdf){ .md-button .md-button--primary }
 </div>
