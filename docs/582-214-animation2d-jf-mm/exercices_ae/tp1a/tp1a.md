@@ -51,7 +51,7 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 - [ ] Taille de la zone de travail : 6000 X 3375 pixels
 - [ ] Configurer la palette de couleur à partir des couleurs dans le document `couleurs.ai` <br>
-[:material-play-circle: Ajouter les couleurs à votre nuancier](hhttps://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQDA8wHLT-dOgQFiAhko6rgBtkzuHq7hBAcEN96dDM_byg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fm5WmA)
+[:material-play-circle: Ajouter les couleurs à votre nuancier](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQDA8wHLT-dOgQFiAhko6rgBtkzuHq7hBAcEN96dDM_byg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KcxAbM)
 
 
 
