@@ -1,4 +1,9 @@
 # Cours 5
+!!! info "Plan de cours groupe Marie-Michelle : mis-à-jour"
+
+    [Plan de cours mis-à-jour](./assets/documents/582-214_Animation2D_H2025_MMO_v2neige2.pdf)
+
+
 
 ![](./assets/images/illustrator_banner.png)
 
