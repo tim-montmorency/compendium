@@ -58,7 +58,9 @@ Projet
 
 - [ ] Dupliquer les calques de lettres pour les animer individuellement.
 - [ ] Animer les différentes couches des lettres.
-- [ ] Créer une transformation (morph) des lettres `A` `O` vers `M`. `A`
+- [ ] Créer une transformation (morph) des lettres `A` `O` vers `M`. `A` 
+
+[référence](../devoir_c4.md){ .md-button }
 
 :material-bike-fast: **Vélo** 
 
@@ -104,7 +106,7 @@ Projet
 :fontawesome-solid-cloud-rain: **Pluie** []
 
 - [ ] Simulation de pluie (CC Rainfall).
-- [ ] Créer manuellement des éclaboussures
+- [ ] Créer les ([éclaboussures](../08_effets.md))
 
 [:material-play-circle: Aide](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_animation_2d/tp/01_tp_illustrator_ae/tp2/04_pluie/01_pluie.mp4)
 

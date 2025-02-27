@@ -1,6 +1,6 @@
 # Cours 5
 ## 🚨 Remise du travail 1
-Au début du cours
+Avant la fin du cours
 
 [💼 Travail 1 - Étape 14](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EqD3pun06hRMg_pJF1EHOx8Bb4YBZCGASLu_OV1PRCOwlg?e=bVj2Nu){ .md-button }    
 
