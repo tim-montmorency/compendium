@@ -3,7 +3,7 @@
 Ce **TP1a** est **évalué** et vaut 15% de la session. 
 C'est la partie où on illustre les images fixes pour le TP1 qui sera au final un tableau animé.
 
-## Téléchargement
+# Téléchargement
 
 [Dossier de départ :material-download:](./tp1a-depart.zip){ .md-button .md-button--primary }
 
@@ -41,26 +41,27 @@ votre-nom-et-prenom_tp_0_582-214MO
 └──📁 03_exportation
 ```
 
-## Objectif
+# Objectif
 
 Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.jpg` à partir des consignes.
 
-## Consignes
+# Consignes
 
-**Format**
+## Format
 
 - [ ] Taille de la zone de travail : 6000 X 3375 pixels
-- [ ] Configurer la palette de couleur à partir des couleurs dans le document `couleurs.ai`
+- [ ] Configurer la palette de couleur à partir des couleurs dans le document `couleurs.ai` <br>
 [:material-play-circle: Ajouter les couleurs à votre nuancier](hhttps://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQDA8wHLT-dOgQFiAhko6rgBtkzuHq7hBAcEN96dDM_byg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fm5WmA)
 
 
 
 
-**Nomenclature**
+
+## Nomenclature
 
 - [ ] Renommer le dossier `tp1a-depart` par `votre-nom-prenom_tp1_582-214MO` 
 - [ ] Nommer les calques **sans** majuscule, espace ou caracteres spéciaux
-- [ ] Nommer les calques avec le motif suivant : c1_description. (c1 = case 1, c2 = case 2, etc.). <br>Exemples : <br><img src="capture-1.png" data-zoom-image="data-zoom-image" style="width:12%;"> <img src="capture-2.png" data-zoom-image="data-zoom-image" style="width:13%;;"> <img src="capture-3.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-4.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-5.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-6.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-bg.png" data-zoom-image="data-zoom-image" style="width:13%;"> 
+- [ ] Nommer les calques avec le motif suivant : c1_description. (c1 = case 1, c2 = case 2, etc.). <br>Exemples : <br><img src="capture-1.png" data-zoom-image="data-zoom-image" style="width:12%;"> <img src="capture-2.png" data-zoom-image="data-zoom-image" style="width:13%;;"> <img src="capture-3.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-4.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-5.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-6.png" data-zoom-image="data-zoom-image" style="width:13%;"> <img src="capture-bg.png" data-zoom-image="data-zoom-image" style="width:13%;"> <br>
     [1](capture-1.png), [2](capture-2.png), [3](capture-3.png), [4](capture-4.png), [5](capture-5.png), [6](capture-6.png), [fond](capture-bg.png).
 
 [Nomenclature des calques](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/EhR-OzQO_t1KkGjAf0Wu6nMB38jUZ55LbFHtxw4f33XqFg?e=eZSTew)
@@ -68,13 +69,15 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 
 
-**Typographie - Police de caractère**
+
+## Typographie - Police de caractère
 - [ ] Installer la police Filson Bold (FilsonProBold.otf)
 
 
 
 
-**Typographie 3D Isométrique** 
+
+## Typographie 3D Isométrique
 
 - [ ] Effet / 3D et matières / 3D (Classique) /Rotation (classique) / isométrique haut (attention l'effet a changé d'endroit).
 - [ ] Effet / Distorsion et transformation / Transformation de l'image avec 15 copies avec un décalage vertical de 16 pixels.
@@ -88,43 +91,48 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 
 
-**La flore**
 
-- [ ] Vectoriser le cactus **noir et blanc** (cactus.png)
+## La flore
+
+- [ ] Vectoriser le cactus **noir et blanc** (cactus.png) <br>
 [:material-play-circle: Capsules vidéo pour la vectorisation du cactus noir et blanc](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ec6tAP8VMuxKod2-BHmi7qMBkNxP77IyzmJRVJbW0szlXw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Sa90lF)
 
-- [ ] Dessiner les plantes et petits cactus de couleur avec les outils **plume**, **pinceau** et **crayon**.
-[:material-play-circle: Dessiner les plantes](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaPTJx4EgjZDnCUIJidsn6wBOR5LjQFw5SswHnuHf7itZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aWp5hV)
+- [ ] Dessiner les plantes et petits cactus de couleur avec les outils **plume**, **pinceau** et **crayon**. <br>
+[:material-play-circle: Dessiner les plantes](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaPTJx4EgjZDnCUIJidsn6wBOR5LjQFw5SswHnuHf7itZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aWp5hV)<br>
 [:material-play-circle: Dessiner les petits cactus de couleur](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVgXZrtVe-hMmCmTK8lqiJcBZNHEq78aw_lfoTpjvEq4eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DUFkak)
 
 
 
-**Les personnages**
 
-- [ ] Dessiner les personnages avec les outils **plume**, **pinceau**, **crayon** et **forme**.
+## Les personnages
+
+- [ ] Dessiner les personnages avec les outils **plume**, **pinceau**, **crayon** et **forme**. <br>
 [:material-play-circle: Dessiner les personnages](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXGhiE0gOSJFvcmZcBn7LaABg8AXSy-7NTnPtwVv2yumPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FllKte)
 
 
 
-**Oiseaux**
 
-- [ ] Tracer à partir de l'image de référence (oiseau.png) avec l'outil **plume**.
+## Oiseaux
+
+- [ ] Tracer à partir de l'image de référence (oiseau.png) avec l'outil **plume**. <br>
 [:material-play-circle: Dessiner les oiseaux](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXwY-cC1RVdEvf766A_ORK8BMyRZjrXZF2uB5p4YShApKQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1X9Jju)
 
 
 
-**Vélo**
+
+## Vélo
 
 - [ ] Dessiner le vélo avec les outils **plume**, **forme** et **grille à coordonnées polaires**.
-- [ ] L'épaisseur du cadre du vélo doit être de 6 px.
+- [ ] L'épaisseur du cadre du vélo doit être de 6 px. <br>
 [:material-play-circle: Capsules vidéo pour le vélo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EqsNQZGOvCVOkkT8J7--z6gBKnkmfV0A5g4Nw1soQt-vGg?e=oU0IBl)
 
 
 
 
-**Œil**
 
-- [ ] Respecter le nombre de points de la forme de l’œil.
+## Œil
+
+- [ ] Respecter le nombre de points de la forme de l’œil. <br>
 [:material-play-circle: Capsule vidéo pour l'oeil](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWRd3uKMW9FNvyPtYpI_uKIBKTysx1wsU8KqrYnR3v4jwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AWgUz8)
 
 
