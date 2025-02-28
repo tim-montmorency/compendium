@@ -7,6 +7,12 @@ body {
 
 .w-100 {
   width: 100% !important;
+  height: auto;
+}
+
+.w-50 {
+  width: 50% !important;
+  height: auto;
 }
 
 img.center {
