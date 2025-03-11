@@ -24,10 +24,6 @@ Création de l'application
 
 
 
-## Test d'expériences VR
-[🔎 Expériences VR](./installation/experiences.md){ .md-button } 
-
-
 ## S'assurer d'avoir le paquet gratuit de Synty studio
 [🛠️ Paquet Synty studio](https://assetstore.unity.com/educator-plan-pack1?srsltid=AfmBOoobZmMq_DCimglNLnM-q7gkVvjz6uhdSiFNExs7wygqmvBIEleh){ .md-button } 
 
