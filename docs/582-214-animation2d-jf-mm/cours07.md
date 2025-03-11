@@ -1,6 +1,6 @@
 # Cours 7
 
-[STOP]
+
 
 ## Séquencer les animations
 [:material-play-circle: La zone de travail dans la timeline](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESkwPAiMOC1KvhoHRoScMNUBPbiw45mgTxsGss_vhAQgfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LSJztQ)
@@ -65,23 +65,20 @@ Projet
 
 Dans "Animations prédéfinies", After Effects propose des effets prêts à l'emploi permettant d'appliquer rapidement des modifications sur des calques.
 
+CC Flo Motion : Pour une gestion d'effet plus efficace, ajoutez un calque d'effets et appliquez l'effet sur ce calque.
 
-
-CC Flo Motion
-
-[:material-play-circle: Effet Rainfall](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERH5bWOx7BVInt8_ULJ6OwsBYh8u9XTHKri8jIjvVS6pYA?e=y75sjm)
+[:material-play-circle: CC Rainfall](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERH5bWOx7BVInt8_ULJ6OwsBYh8u9XTHKri8jIjvVS6pYA?e=y75sjm)
+[:material-play-circle: Onde progressive](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y)
+[:material-play-circle: CC Bend It](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y)
 
 <!-- [:material-play-circle: Splash](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=91ggi9)
 [:material-play-circle: Expression](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=C4F33M) -->
 
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y">Onde progressive</a>
-- <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=eX4SL2">Bend it</a>
-
-[🛠️ Onde Progressive](exercices_ae/08_ondeProgressive.md){ .md-button }
-
-[🛠️ Bend It](exercices_ae/08_bendIt.md){ .md-button }
-
 ## Exercice
+
+[🛠️ Onde Progressive](exercices_ae/08_ondeProgressive.md){ .md-button .back }
+
+[🛠️ Bend It](exercices_ae/08_bendIt.md){ .md-button .back }
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/rube_goldberg/rube.jpg)
