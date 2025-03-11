@@ -2,31 +2,19 @@
 
 ## Annonces 
 
-Vous vous cherchez le moyen de vous distinguer 🚀 par rapport aux autres ? C'est votre chance, alors saisissez-la !
+Vous vous cherchez le moyen de vous distinguer par rapport aux autres ?
 
-### Concours d’essais audiovisuels
+Saisissez l'occasion.
 
-![](./assets/images/oseille.webp){ .w-100 }
+<div class="grid" markdown>
+![](./assets/images/winner.gif){ .w-100 }<br>
+**Concours d’essais audiovisuels**<br>
+[Appel à candidature :material-download:](https://cmontmorency365.sharepoint.com/sites/TIM-programmeTIM752/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels%2FAppel%20a%20candidature2025%2Epdf&parent=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels&p=true&ga=1)
 
-Les étudiantes et étudiants de la Technique d’intégration multimédia du collège Montmorency sont invités à participer à un concours d’essais audiovisuels.
-
-* 📅 **13 mars 2025** : Ouverture de l’appel de projet
-* 📅 **21 mai 2025** : Date finale pour la remise des projets dans le dossier Remise du canal Concours dans l'équipe Tim-Programme TIM
-* 📅 **≈23 mai 2025** : Visionnement des finalistes et annonce des essais gagnants
-
-[Poser sa candidature :material-download:](https://cmontmorency365.sharepoint.com/sites/TIM-programmeTIM752/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels%2FAppel%20a%20candidature2025%2Epdf&parent=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels&p=true&ga=1)
-
-!!! info "TP2 genre ? Ben oui !"
-
-    Dans le cadre du cours, vous aurez la possibilité de soumettre votre TP2 au concours et possiblement, être payé pour l'avoir fait !
-
-### Pour les plus stratégiques 
-
-![](./assets/images/synthese-inscription.png)
-
-L'occasion de visiter en personne un des 7 studios en création numérique !
-
+![](./assets/images/synthese-inscription.png){ .w-100 }<br>
+**Visites de studios en création numérique**<br>
 [Informations sur Teams](https://teams.microsoft.com/l/message/19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2/1740517437871?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&parentMessageId=1740517437871&teamName=TIM%20-%20Programme%20TIM&channelName=General&createdTime=1740517437871)
+</div>
 
 ## Préparation des calques Illustrator
 

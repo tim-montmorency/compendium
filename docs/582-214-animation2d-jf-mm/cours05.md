@@ -1,4 +1,9 @@
 # Cours 5
+!!! info "Plan de cours groupe Marie-Michelle : mis-à-jour"
+
+    [Plan de cours mis-à-jour](./assets/documents/582-214_Animation2D_H2025_MMO_v2neige2.pdf)
+
+
 
 ![](./assets/images/illustrator_banner.png)
 
@@ -7,6 +12,11 @@
 [:material-play-circle: Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERSReehDFyBBhkRuuu-IZuAB3g1PvdYW3C3dVaeMAA4rwQ?e=DAE16t)<br>
 Exportation jpeg ou psd<br>
 Exportation Web (jpg, png, gif)
+
+## Fromes (carré, cercle, polygone)
+
+[:material-play-circle: Modification dynamique du nombre de cotés, coins arrondis, etc](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ER4QVjpZdNtLrT9iA-AdLdIB8JX4o0Pl1s5Yg_fTk8WUrQ?e=L1djZU)
+
 
 ## Dessin
 
