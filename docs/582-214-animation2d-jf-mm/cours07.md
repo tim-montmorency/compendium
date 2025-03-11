@@ -1,5 +1,6 @@
 # Cours 7
 
+
 [STOP]
 
 Introduction des effets et des transitions
