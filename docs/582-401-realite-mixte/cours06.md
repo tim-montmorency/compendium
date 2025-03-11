@@ -1,4 +1,8 @@
 # Cours 6
+## Retour sur le travail 1
+
+## Test d'expériences VR
+[🔎 Expériences VR](./installation/experiences.md){ .md-button } 
 
 ## Évaluation formative avancement du travail
 Ouvrir votre projet 2 sur votre ordinateur.   
