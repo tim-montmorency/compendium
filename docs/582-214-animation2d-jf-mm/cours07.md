@@ -1,5 +1,7 @@
 # Cours 7
 
+[STOP]
+
 ## Précomposition
 
 La **précomposition**[^precomp] dans Adobe After Effects est une technique permettant de regrouper plusieurs calques dans une composition distincte. 
