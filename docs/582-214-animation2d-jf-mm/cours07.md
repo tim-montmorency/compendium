@@ -21,7 +21,7 @@ La **précomposition**[^precomp] dans Adobe After Effects est une technique perm
 
 Ça réduit considérablement l'**encombrement** dans la fenêtre de montage et ça permet d'appliquer des **effets** ou **transformations** à un groupe de calques.
 
-[:material-play-circle: Précomposition et imbrication](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYd2F6D_qkFPlmhAlDyYKMAB7DiYmy3ej8tJPcGw3eHeqQ?e=fcdAXl)
+[:material-play-circle: Précomposition et imbrication](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWQ4WuQ6SWdIomq2DZZK-EMBVBpY1IfLrNoWf-K7c_14Bw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NWKWjD)
 
 ### Comment ça marche ?
 
