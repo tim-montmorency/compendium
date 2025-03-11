@@ -1,6 +1,5 @@
 # Cours 7
 
-
 [STOP]
 
 ## Séquencer les animations
@@ -15,13 +14,23 @@
 
 ## Précomposition
 
+![](./assets/images/after-effects-precomps.avif)
+
 La **précomposition**[^precomp] dans Adobe After Effects est une technique permettant de regrouper plusieurs calques dans une composition distincte. 
 
 [^precomp]: [Précomposition, imbrication et prérendu](https://helpx.adobe.com/ca_fr/after-effects/using/precomposing-nesting-pre-rendering.html)
 
+[:material-play-circle: Précomposition et imbrication](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYd2F6D_qkFPlmhAlDyYKMAB7DiYmy3ej8tJPcGw3eHeqQ?e=fcdAXl)
+
+[:material-play-circle: Audio avec précomposition](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm)
+
 Ça réduit considérablement l'**encombrement** dans la fenêtre de montage et ça permet d'appliquer des **effets** ou **transformations** à un groupe de calques.
 
-[:material-play-circle: Précomposition et imbrication](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWQ4WuQ6SWdIomq2DZZK-EMBVBpY1IfLrNoWf-K7c_14Bw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NWKWjD)
+<div class="grid grid-1-1" markdown>
+  ![](./assets/images/mode-sans-precomp.png){ data-zoom-image }
+
+  ![](./assets/images/mode-avec-precomp.png){ data-zoom-image }
+</div>
 
 ### Comment ça marche ?
 
@@ -43,22 +52,29 @@ Pour visualiser la hiérarchie des compositions, on peut la consulter dans le fi
 ```txt
 Projet
 ├──📁 01_medias
-└──📁 02_compositions
-    ├──📁 01_master_composition
-    ├──📁 02_travail_composition
-    └──📁 03_pre_composition 
+├──📁 02_compositions
+|    ├──📁 01_main_composition
+|    ├──📁 02_travail_composition
+|    └──📁 03_pre_composition 
+...
 ```
 
 ## Effets et transitions
 
 [:material-play-circle: Audio avec précomposition](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm)
 
+
 ### Effets
+
+![](./assets/images/fx.png){ data-zoom-image }
+
+Dans "Animations prédéfinies", After Effects propose des effets prêts à l'emploi permettant d'appliquer rapidement des modifications sur des calques.
 
 [:material-play-circle: Série de 15 effets d'animations](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=iokzaN)
 
-----
 
+
+CC Flo Motion
 
 [:material-play-circle: Effet Rainfall](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERH5bWOx7BVInt8_ULJ6OwsBYh8u9XTHKri8jIjvVS6pYA?e=y75sjm)
 
