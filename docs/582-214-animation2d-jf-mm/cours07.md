@@ -51,18 +51,20 @@ Projet
 
 ## Effets et transitions
 
-
-
-
-
 [:material-play-circle: Audio avec précomposition](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm)
 
 ### Effets
+
+[:material-play-circle: Série de 15 effets d'animations](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=iokzaN)
+
+----
+
 
 [:material-play-circle: Effet Rainfall](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERH5bWOx7BVInt8_ULJ6OwsBYh8u9XTHKri8jIjvVS6pYA?e=y75sjm)
 
 <!-- [:material-play-circle: Splash](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=91ggi9)
 [:material-play-circle: Expression](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=C4F33M) -->
+----
 
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y">Onde progressive</a>
 - <a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=eX4SL2">Bend it</a>
