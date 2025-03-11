@@ -19,7 +19,7 @@
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](../assets/images/ae-preview.png)
+  ![](../assets/images/After-Effects-Cover-Image.jpg)
 
   **[Adobe After Effects](./after-effects.md){.stretched-link}**
 </div>
