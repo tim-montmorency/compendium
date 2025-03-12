@@ -142,7 +142,7 @@ Reproduire en vectoriel le résultat observé dans `reference_tp1_basse-qualite.
 
 Compresser le dossier `votre-nom-prenom_tp1_582-214MO` en .zip
 
-Déposer sur Moodle (instructions spécifiques pour la remise à venir)
+Déposer sur **Moodle** dans le cours **Animation 2D (582214MO - Hiver 2025)**, sur le devoir nommé  **Évaluation - TP1a - Illustrator**
 
 Date limite : **jeudi 13 mars AVANT LE COURS (avant 14h15)**
 
