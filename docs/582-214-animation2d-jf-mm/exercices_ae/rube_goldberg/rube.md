@@ -21,7 +21,7 @@ Il constitue également une excellente préparation pour le **TP1**.
 Vous avez deux options :
 
 - Créer **votre propre machine** de A à Z.
-- Reproduire **la machine du professeur** à l'aide du dossier de départ : [./rube.zip](dossier de départ).
+- Reproduire **la machine du professeur** à l'aide du dossier de départ : [dossier de départ](./rube.zip).
 
 ## Exemple
 
