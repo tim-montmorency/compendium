@@ -2,7 +2,7 @@
 
 L'objectif de ce travail pratique est la mise en pratique de plusieurs concepts d'animations dans un seul et même projet.
 
-[:material-play-circle: Vidéos explicatives](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/EmYf95dLBS5Li0JrYAS16eABixvjjWE4XxmiQLmXdeyxHQ?e=itdnD9)
+[:material-play-circle: Vidéos explicatives](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/EmYf95dLBS5Li0JrYAS16eABixvjjWE4XxmiQLmXdeyxHQ?e=QbrUba)
 
 ## Résultat attendu
 
