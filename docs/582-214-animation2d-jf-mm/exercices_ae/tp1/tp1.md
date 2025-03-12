@@ -46,7 +46,7 @@ Projet
     └──📁 03_pre_composition
 ```
 
-[:material-play-circle: Structure du TP1](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_animation_2d/tp/01_tp_illustrator_ae/tp2/01_nomenclature/03_nomenclature_interne.mp4)
+[:material-play-circle: Structure du TP1](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/jfcartier_cmontmorency_qc_ca/EXgd3wK3UlpPspLnM0pzJ2IBbdq6yfup9bnFUU_NaBmBHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WOI9CE)
 
 :material-image-size-select-large: **Composition**
 
