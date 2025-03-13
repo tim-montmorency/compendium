@@ -3,7 +3,7 @@ Les seuls médias 3D permis dans vos projets sont ceux que vous créez vous-mêm
 
 - [Kenney.nl](https://kenney.nl/assets/category:3D?sort=update)
 - [Kay Kit](https://kaylousberg.itch.io/)
-- [Synty studio](./unity/modeles_synty.md)
+- [Synty studio](../unity/modeles_synty.md)
 
 Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits. Elles doivent être bien créditées dans le jeu.
 
