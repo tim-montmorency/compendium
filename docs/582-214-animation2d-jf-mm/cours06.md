@@ -245,7 +245,7 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
   ![](./exercices_ae/tp1/tp1-preview.png)
 
   <small>Devoir sommatif groupe Marie-Michelle - 27 mars</small><br>
-  **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
+  **[TP1](./exercices_ae/tp1/tp1b.md){.stretched-link .back}**
 </div>
 
 [STOP]
