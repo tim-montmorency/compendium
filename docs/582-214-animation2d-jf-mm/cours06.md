@@ -59,7 +59,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-### Dans After Effetcs: options d'importation 
+### Dans After Effetcs: importer un fichier Illustrator  
 
 `Fichier > Importer > Fichier` (++ctrl+i++)
 
@@ -67,6 +67,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 
 ![](./assets/images/ae-load-ai-comp-calque.png)
 
+<!--
 **Métrage** (ou Footage) : Le fichier est importé comme une image unique, sans distinction de calques.
 
 ![](./assets/images/ae-load-ai-metrage.png)
@@ -74,8 +75,10 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut alors choisir **Composition** si on a oublié de le faire initialement.
 
 ![](./assets/images/ae-load-ai-metrage-comp-calque.png)
+-->
 
-##### Gestion des calques
+
+#### Gestion des calques dans AE
 
 ![](./assets/images/oups.png)
 
