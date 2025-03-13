@@ -36,6 +36,7 @@ Pour charger un **template de départ spéecifique** avec lequel démarrer (pour
 
 [Template After Effects avec lequel démarrer](./template_ae_VEUILLEZ_RENOMMER_LE_NOM_DU_FICHIER.aep){ .md-button }
 
+
 ```txt
 Projet
 ├──📁 01_medias
