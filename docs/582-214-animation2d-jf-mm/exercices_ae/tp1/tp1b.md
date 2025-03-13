@@ -1,4 +1,4 @@
-# TP1
+# TP1b - Cours Marie-Michelle
 
 L'objectif de ce travail pratique est la mise en pratique de plusieurs concepts d'animations dans un seul et même projet.
 
