@@ -231,3 +231,7 @@ Un sitemap est un fichier XML qui liste toutes les pages de votre site pour aide
 ![](./assets/images/google-search-console.png){ data-zoom-image }
 
 Google Search Console est un outil gratuit qui vous aide à voir comment Google voit votre site, à corriger les erreurs et à améliorer le référencement.
+
+## Plugin
+
+https://en-ca.wordpress.org/plugins/meta-tag-manager/
