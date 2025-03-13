@@ -19,12 +19,12 @@ Saisissez l'occasion.
 
 
 
----
+
 ## Évaluation par les pairs du TP1a (15%) (groupe de Marie-Michelle)
 
 Ouvrez Moodle, vous vous apprêtez à évaluer un de vos pairs en classe. Soyez attentif et minutieux. Restez critique et honnête. En cas de doute, vous pouvez me poser des questions individuellement.
 
----
+
 
 ## De Illustrator à After Effects
 
@@ -47,7 +47,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-## Dans After EFfetcs: options d'importation 
+### Dans After EFfetcs: options d'importation 
 
 `Fichier > Importer > Fichier` (++ctrl+i++)
 
@@ -63,7 +63,7 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 
 ![](./assets/images/ae-load-ai-metrage-comp-calque.png)
 
-#### Gestion des calques
+##### Gestion des calques
 
 ![](./assets/images/oups.png)
 
