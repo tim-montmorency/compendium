@@ -132,7 +132,7 @@ Il s’agit d’une méthode populaire dans les **films**, les **publicités** e
 
 Bref, de l'animation de texte.
 
-### 20 inspiration de typographies kinétiques très intéressantes
+### 20 inspirations de typographies cinétiques très intéressantes
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/20-kynetic-typos.png)
@@ -203,6 +203,10 @@ https://www.linearity.io/blog/kinetic-typography/
  - Restez **cohérent** du début à la fin au niveau des techniques d'animation, du rythme et du style visuel.
 
 ## Modes de fusion
+
+Les modes de fusion des calques contrôlent la manière dont chaque calque se fond ou interagit avec les calques qu’il recouvre. 
+
+[Modes de fusion (blending modes) dans After Effects](https://helpx.adobe.com/ca_fr/after-effects/using/blending-modes-layer-styles.html)
 
 Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colonne des modes de fusion n’est pas visible : Cliquez sur le bouton Agrandir ou réduire le panneau Mode de fusion (ou simplement ++f4++).
 
