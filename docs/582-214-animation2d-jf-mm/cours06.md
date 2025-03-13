@@ -26,9 +26,9 @@ Ouvrez Moodle, vous vous apprêtez à évaluer un de vos pairs en classe. Soyez 
 
 ---
 
-# De Illustrator à After Effects
+## De Illustrator à After Effects
 
-## Préparation des calques Illustrator en vue d'importation dans After Effects
+### Préparation des calques Illustrator en vue d'importation dans After Effects
 
 Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
 
@@ -63,7 +63,7 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 
 ![](./assets/images/ae-load-ai-metrage-comp-calque.png)
 
-### Gestion des calques
+#### Gestion des calques
 
 ![](./assets/images/oups.png)
 
