@@ -1,4 +1,7 @@
 # Cours 11
+## L'OSC
+- [📝 Configuration de l'OSC](osc/configuration.md)
+
 ## Grimper
 Reproduire le tout en équipes. 
 
