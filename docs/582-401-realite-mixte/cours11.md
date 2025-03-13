@@ -42,4 +42,4 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 
 ## Devoir
 
-[🛠️ Travail 3](./consignes/travail3.md){ .md-button }
+[🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
