@@ -244,8 +244,8 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/tp1/tp1-preview.png)
 
-  <small>Devoir sommatif groupe Marie-Michelle - 27 mars</small><br>
-  **[TP1](./exercices_ae/tp1/tp1b.md){.stretched-link .back}**
+  <small>Devoir sommatif (15%) groupe Marie-Michelle - 27 mars</small><br>
+  **[TP1 b](./exercices_ae/tp1/tp1b.md){.stretched-link .back}**
 </div>
 
 [STOP]
