@@ -20,6 +20,9 @@ Saisissez l'occasion.
 
 Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
 
+!!! tip "Distribuer rapidement chaque tracé ou groupe de tracés sur leur propre calque"
+    Vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant: en haut à droite de la fenêtre de calque, vous cliquez sur les 3 petites barres comme le burger menu. Cliquez sur **Décomposer en calques(séquence)**.
+
 [:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt)
 
 [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay)
