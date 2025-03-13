@@ -50,4 +50,4 @@ Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu qu
 - [ ] Dans la barre de menu sélectionnez Edit -> Rendering -> Materials -> Convert all Built-in materials to HDRP 
 
 ## Devoir
-[🛠️ Travail 3](./consignes/travail3.md){ .md-button } 
+[🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
