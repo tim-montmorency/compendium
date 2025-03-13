@@ -22,7 +22,7 @@ Dans ce tutoriel, nous allons voir comment configurer **OSC (Open Sound Control)
   - [ ] Appuyez ensuite encore sur **Import**.
   - [ ] Une fois l'importation terminée, fermer le **Package Manager**.
 
----
+
 
 ### 3. Création de l’objet OSC dans la scène
 - [ ] **Créer un objet vide pour OSC** :
@@ -34,7 +34,6 @@ Dans ce tutoriel, nous allons voir comment configurer **OSC (Open Sound Control)
     - **OSC Receiver** (Récepteur OSC).
     - **OSC Transmitter** (Transmetteur OSC).
 
----
 
 ### 4. Création du script OSC
 - [ ] **Créer un script OSC** :
