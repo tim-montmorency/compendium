@@ -1,3 +1,11 @@
+# Assets permis
+Les seuls médias 3D permis dans vos projets sont ceux que vous créez vous-même ou ceux disponibles sur les sites suivants: 
+- [kenney.nl](https://kenney.nl/assets/category:3D?sort=update)
+- [Kay Kit](https://kaylousberg.itch.io/)
+- [Synty studio](
+
+Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
+
 # Consignes générales
 - [ ] Vous devez produire une expérience de réalité virtuelle pour un casque Oculus.
 - [ ] Votre expérience doit se dérouler dans un lieu immersif réactif et évolutif. Il doit être possible d'interagir avec l'environnement. (toucher des objets, les prendre ou les lancer,...) On doit sentir que notre présence a un impact sur celui-ci.
