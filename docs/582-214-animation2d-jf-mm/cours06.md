@@ -83,6 +83,9 @@ Clic droit > Remplacer le métrage > Fichier (choisir le fichier Illustrator) : 
 
 Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du calque vectoriel.
 
+
+
+
 ## Audio
 
 ![](./assets/images/audio.gif){ .w-100 }
@@ -100,6 +103,20 @@ Pour la synchronisation de l'audio avec l'animation, il est très utile d'utilis
 <!-- [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB) -->
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
 <!-- [:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz) -->
+
+
+## Exercice couteau suisse
+Téléchargez les fichiers  **[Le couteau suisse](./assets/images/suisse.eps)**<br>
+- [ ] Dans Illustrator, ajuster les calques dans after effects.
+- [ ] Dans Illustrator, le dessin vectoriel, vérifier la cohérence des positions et anticiper l'animation
+- [ ] Dans After Effects (AE), importer le fichier illustrator selon les règles. 
+- [ ] Animer l'ouverture et fermerture des outils. (Il est possible que vous ayez à retourner dans Illustrator pour ajuster le vecteur du calque pour la cohérence)
+- [ ] Synchroniser avec l'[effet sonore](./assets/audio/lala.mp3)
+
+
+
+
+
 
 ## Exportation de projet After Effets en format vidéo
 
@@ -119,6 +136,10 @@ Format : Quicktime puis CineForm ou DNxHR/DNxHD (Haute qualité, mais fichiers l
 Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 
 ![](./assets/images/export.png){ data-zoom-image }
+
+
+
+
 
 ## Typographie cinétique
 
