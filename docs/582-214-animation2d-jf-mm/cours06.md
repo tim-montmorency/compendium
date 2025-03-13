@@ -1,6 +1,16 @@
 # Cours 6
 
-## Annonces 
+
+
+## Exposition des finissants TIM: Résonance
+Du lundi 17 mars au vendredi 21 mars aux studios TIM !
+<video autoplay="" loop="" muted="" playsinline="">
+    <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
+    <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
+</video>
+
+
+## Concours de création et visites inspirantes
 
 Vous vous cherchez le moyen de vous distinguer par rapport aux autres ?
 
@@ -9,16 +19,33 @@ Saisissez l'occasion.
 <div class="grid" markdown>
 ![](./assets/images/winner.gif){ .w-100 }<br>
 **Concours d’essais audiovisuels**<br>
+Date limite pour participer: 21 mai<br>
 [Appel à candidature :material-download:](https://cmontmorency365.sharepoint.com/sites/TIM-programmeTIM752/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels%2FAppel%20a%20candidature2025%2Epdf&parent=%2Fsites%2FTIM%2DprogrammeTIM752%2FDocuments%20partages%2FConcours%20essais%20audiovisuels&p=true&ga=1)
 
 ![](./assets/images/synthese-inscription.png){ .w-100 }<br>
+Date limite d'inscription: 14 mars <br>
 **Visites de studios en création numérique**<br>
 [Informations sur Teams](https://teams.microsoft.com/l/message/19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2/1740517437871?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&parentMessageId=1740517437871&teamName=TIM%20-%20Programme%20TIM&channelName=General&createdTime=1740517437871)
 </div>
 
-## Préparation des calques Illustrator
+
+
+
+
+## Évaluation par les pairs du TP1a (15%) (groupe de Marie-Michelle)
+
+Ouvrez Moodle, vous vous apprêtez à évaluer un de vos pairs en classe. Soyez attentif et minutieux. Restez critique et honnête. En cas de doute, vous pouvez me poser des questions individuellement.
+
+
+
+## De Illustrator à After Effects
+
+### Préparation des calques Illustrator en vue d'importation dans After Effects
 
 Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
+
+!!! tip "Distribuer rapidement chaque tracé ou groupe de tracés sur leur propre calque"
+    Vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant: On sélectionne le calque parent et en haut à droite de la fenêtre de calque, vous cliquez ☰. Ensuite cliquez sur **Décomposer en calques(séquence)**.
 
 [:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt)
 
@@ -28,11 +55,11 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   ![](./assets/images/giant-swiss-knife.jpg)
 
   <small>Demo</small><br>
-  **[Le couteau suisse](./assets/images/suisse.eps)**<br>
+  **[Le couteau suisse](./exercices_ai/suisse.ai)**<br>
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-### Options d'importation
+### Dans After Effetcs: options d'importation 
 
 `Fichier > Importer > Fichier` (++ctrl+i++)
 
@@ -48,7 +75,7 @@ Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut al
 
 ![](./assets/images/ae-load-ai-metrage-comp-calque.png)
 
-### Gestion des calques
+##### Gestion des calques
 
 ![](./assets/images/oups.png)
 
@@ -65,6 +92,9 @@ Clic droit > Remplacer le métrage > Fichier (choisir le fichier Illustrator) : 
 [:material-play-circle: Conversion calque illustrator en calque de forme](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUyUFWWUoVdAmD3oXbSUD0sB8rC3YJgeHFVlIU41NPRWvA?e=Mlt4vS) 
 
 Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du calque vectoriel.
+
+
+
 
 ## Audio
 
@@ -84,7 +114,21 @@ Pour la synchronisation de l'audio avec l'animation, il est très utile d'utilis
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
 <!-- [:material-play-circle: Raccourcis clavier](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX-VYq5wHelAhHneg7d7tXwBwgwljY5y4djXpmZSItBsKA?e=lAtSjz) -->
 
-## Exportation
+
+## Exercice couteau suisse
+Téléchargez les fichiers  **[Le couteau suisse](./assets/images/suisse.eps)**<br>
+- [ ] Dans Illustrator, ajuster les calques dans after effects.
+- [ ] Dans Illustrator, le dessin vectoriel, vérifier la cohérence des positions et anticiper l'animation
+- [ ] Dans After Effects (AE), importer le fichier illustrator selon les règles. 
+- [ ] Animer l'ouverture et fermerture des outils. (Il est possible que vous ayez à retourner dans Illustrator pour ajuster le vecteur du calque pour la cohérence)
+- [ ] Synchroniser avec l'[effet sonore](./assets/audio/lala.mp3)
+
+
+
+
+
+
+## Exportation de projet After Effets en format vidéo
 
 [:material-play-circle: Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=f5Nt2e)
 
@@ -103,6 +147,10 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 
 ![](./assets/images/export.png){ data-zoom-image }
 
+
+
+
+
 ## Typographie cinétique
 
 La typographie cinétique (de l’anglais _kinetic typography_) est une technique d’animation impliquant la **présentation dynamique d’un texte** dans le temps, souvent **associée à un son** ou à des **vidéos musicales**, afin de transmettre ou de renforcer un message. 
@@ -115,7 +163,7 @@ Il s’agit d’une méthode populaire dans les **films**, les **publicités** e
 
 Bref, de l'animation de texte.
 
-### 20 inspiration de typographies kinétiques très intéressantes
+### 20 inspirations de typographies cinétiques très intéressantes
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/20-kynetic-typos.png)
@@ -187,6 +235,10 @@ https://www.linearity.io/blog/kinetic-typography/
 
 ## Modes de fusion
 
+Les modes de fusion des calques contrôlent la manière dont chaque calque se fond ou interagit avec les calques qu’il recouvre. 
+
+[Modes de fusion (blending modes) dans After Effects](https://helpx.adobe.com/ca_fr/after-effects/using/blending-modes-layer-styles.html)
+
 Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colonne des modes de fusion n’est pas visible : Cliquez sur le bouton Agrandir ou réduire le panneau Mode de fusion (ou simplement ++f4++).
 
 ![](./assets/images/mode-fusion.png)
@@ -224,6 +276,13 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
 
   <small>Devoir sommatif groupes Jean-François - 18 mars</small><br>
   **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp1/tp1-preview.png)
+
+  <small>Devoir sommatif (15%) groupe Marie-Michelle - 27 mars</small><br>
+  **[TP1 b](./exercices_ae/tp1/tp1b.md){.stretched-link .back}**
 </div>
 
 [STOP]

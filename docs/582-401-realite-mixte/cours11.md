@@ -1,4 +1,7 @@
 # Cours 11
+## L'OSC
+- [📝 Configuration de l'OSC](osc/configuration.md)
+
 ## Grimper
 Reproduire le tout en équipes. 
 
@@ -42,4 +45,4 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 
 ## Devoir
 
-[🛠️ Travail 3](./consignes/travail3.md){ .md-button }
+[🛠️ Travail 3](./travaux/travail3.md){ .md-button } 

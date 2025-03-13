@@ -1,4 +1,4 @@
-# TP1
+# TP1b - Cours Marie-Michelle
 
 L'objectif de ce travail pratique est la mise en pratique de plusieurs concepts d'animations dans un seul et même projet.
 
@@ -30,9 +30,12 @@ Votre-nom-et-prenom_tp_01_582-214MO
 └──📁 03_exports
 ```
 
-:material-folder-open: Structure de projet à respecter dans After Effects
+:material-folder-open: Structure de répertoire à respecter dans la fenêtre Projet dans  After Effects
 
-Pour charger un projet : `Édition > Préférences > Nouveau projet`.
+Pour charger un **template de départ spéecifique** avec lequel démarrer (pour la nomenclature) à chaque fois que vous créez un nouveau projet : `Édition > Préférences > Nouveau projet`.
+
+[Template After Effects avec lequel démarrer](./template_ae_VEUILLEZ_RENOMMER_LE_NOM_DU_FICHIER.aep){ .md-button }
+
 
 ```txt
 Projet
@@ -54,7 +57,6 @@ Projet
 
 - [ ] Créer une composition en 6000 x 3375 px, durée 28 secondes, 24 fps.
 - [ ] Configurer le **Cache des médias et de disque** dans After Effects.
-- [ ] Ajouter le zoom avant/arrière.
 
 :material-text-shadow: **Typographie**
 
@@ -103,7 +105,7 @@ Projet
 
 - [ ] Créer l'animation de rebond.
 - [ ] Bien gérer la vitesse et son lissage (ease).
-- [ ] Gérer la mise à l’échelle pour donner un effet réaliste à la balle.
+- [ ] Gérer la mise à l’échelle pour donner un effet réaliste à la balle (concept stretch and squash)
 
 :fontawesome-solid-cloud-rain: **Pluie** []
 
@@ -121,6 +123,13 @@ Projet
 :material-movie-open: **Exportation**  
 
 - [ ] Exporter en H264 - Vimeo 1080p - 1920 x 1080 px - 28 secondes.
+
+
+:material-image-size-select-large: **Pré-composition et zoom sur case**
+
+- [ ] Créer une pré-composition avec votre animation principale (de tous les éléments). Et faites un zoom avant/arrière sur la première case
+
+
 
 !!! example "Export"
 
