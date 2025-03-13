@@ -16,7 +16,19 @@ Saisissez l'occasion.
 [Informations sur Teams](https://teams.microsoft.com/l/message/19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2/1740517437871?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&parentMessageId=1740517437871&teamName=TIM%20-%20Programme%20TIM&channelName=General&createdTime=1740517437871)
 </div>
 
-## Préparation des calques Illustrator
+
+
+
+---
+## Évaluation par les pairs du TP1a (15%) (groupe de Marie-Michelle)
+
+Ouvrez Moodle, vous vous apprêtez à évaluer un de vos pairs en classe. Soyez attentif et minutieux. Restez critique et honnête. En cas de doute, vous pouvez me poser des questions individuellement.
+
+---
+
+# De Illustrator à After Effects
+
+## Préparation des calques Illustrator en vue d'importation dans After Effects
 
 Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
 
@@ -35,7 +47,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-### Options d'importation
+## Dans After EFfetcs: options d'importation 
 
 `Fichier > Importer > Fichier` (++ctrl+i++)
 
@@ -226,6 +238,13 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
   ![](./exercices_ae/tp1/tp1-preview.png)
 
   <small>Devoir sommatif groupes Jean-François - 18 mars</small><br>
+  **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp1/tp1-preview.png)
+
+  <small>Devoir sommatif groupe Marie-Michelle - 27 mars</small><br>
   **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
 </div>
 
