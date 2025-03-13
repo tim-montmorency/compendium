@@ -30,9 +30,11 @@ Votre-nom-et-prenom_tp_01_582-214MO
 └──📁 03_exports
 ```
 
-:material-folder-open: Structure de projet à respecter dans After Effects
+:material-folder-open: Structure de répertoire à respecter dans la fenêtre Projet dans  After Effects
 
-Pour charger un projet : `Édition > Préférences > Nouveau projet`.
+Pour charger un **template de départ spéecifique** avec lequel démarrer (pour la nomenclature) à chaque fois que vous créez un nouveau projet : `Édition > Préférences > Nouveau projet`.
+
+[Template After Effects avec lequel démarrer](./template_ae_VEUILLEZ_RENOMMER_LE_NOM_DU_FICHIER.aep){ .md-button }
 
 ```txt
 Projet
