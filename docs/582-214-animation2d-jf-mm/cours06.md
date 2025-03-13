@@ -1,6 +1,16 @@
 # Cours 6
 
-## Annonces 
+
+
+## Exposition des finissants TIM: Résonance
+Du lundi 17 mars au jeudi 20 mars aux studios TIM !
+<video autoplay="" loop="" muted="" playsinline="">
+    <source src="https://tim-montmorency.com/2025/medias/resonanceBanner.mp4" type="video/mp4">
+    <figure><img src="https://tim-montmorency.com/2025/medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance" style="display: block; margin: 0px auto;"><figcaption style="text-align: center; font-style: italic;">Bannière de l'exposition Résonance</figcaption></figure>
+</video>
+
+
+## Concours de création et visites inspirantes
 
 Vous vous cherchez le moyen de vous distinguer par rapport aux autres ?
 
@@ -45,7 +55,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   ![](./assets/images/giant-swiss-knife.jpg)
 
   <small>Demo</small><br>
-  **[Le couteau suisse](./assets/images/suisse.eps)**<br>
+  **[Le couteau suisse](./exercices_ai/suisse.ai)**<br>
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
