@@ -45,7 +45,7 @@ Ouvrez Moodle, vous vous apprêtez à évaluer un de vos pairs en classe. Soyez 
 Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
 
 !!! tip "Distribuer rapidement chaque tracé ou groupe de tracés sur leur propre calque"
-    Vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant: en haut à droite de la fenêtre de calque, vous cliquez sur les 3 petites barres comme le burger menu. Cliquez sur **Décomposer en calques(séquence)**.
+    Vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant: On sélectionne le calque parent et en haut à droite de la fenêtre de calque, vous cliquez ☰. Ensuite cliquez sur **Décomposer en calques(séquence)**.
 
 [:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt)
 
@@ -59,7 +59,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-### Dans After EFfetcs: options d'importation 
+### Dans After Effetcs: options d'importation 
 
 `Fichier > Importer > Fichier` (++ctrl+i++)
 
