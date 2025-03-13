@@ -114,7 +114,9 @@ Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du ca
 
 ### Marqueurs
 
-Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`.
+Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`. Ainsi, même lorsque tous les calques sont réduits, on peut toujours visualiser où se situent les repères afin syncroniser les animations et les sons ponctuels. 
+
+![](./assets/images/ae/calque-ajouter-repere.png){ data-zoom-image }
 
 <!-- [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB) -->
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
