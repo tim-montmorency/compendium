@@ -14,5 +14,5 @@
 - [ ] La complexité, la richesse, la variété des idées seront des critères évalués. 
 
 Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
-[📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/ErjO5R5kyc5EpdCmPZZK5tABlD4iTHlJ-afHn1F5ypOqeA?e=zIqQj4){ .md-button }   
+[📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EuyNWLjHvnxPqPRiz6w8G08BhltAFOQm4P7kHai5QuqqAA?e=LywYZ3){ .md-button }   
 
