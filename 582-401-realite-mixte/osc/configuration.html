@@ -18,7 +18,7 @@
     
     
       
-        <title>Paquet - Notes de cours</title>
+        <title>Tutoriel : Configurer OSC dans Unity pour communiquer avec d'autres logiciels - Notes de cours</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#paquet" class="md-skip">
+        <a href="#tutoriel-configurer-osc-dans-unity-pour-communiquer-avec-dautres-logiciels" class="md-skip">
           Aller au contenu
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Paquet
+              Tutoriel : Configurer OSC dans Unity pour communiquer avec d'autres logiciels
             
           </span>
         </div>
@@ -6866,6 +6866,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#1-installation-de-lextension-osc" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Installation de l’extension OSC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-importation-dans-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Importation dans Unity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-creation-de-lobjet-osc-dans-la-scene" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Création de l’objet OSC dans la scène
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-creation-du-script-osc" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Création du script OSC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-assigner-les-objets-dans-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Assigner les objets dans Unity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#tutoriel" class="md-nav__link">
     <span class="md-ellipsis">
       Tutoriel 🎥
@@ -6890,9 +6935,77 @@
 
 
 
-<div><h1 id="paquet">Paquet<a class="headerlink" href="#paquet" title="Permanent link">¶</a></h1>
-<p>Voici le paquet que nous utiliserons pour l'OSC:      </p>
-<p><a class="md-button" href="https://assetstore.unity.com/packages/tools/input-management/extosc-open-sound-control-72005">📁 Ext OSC</a>  </p>
+<div><h1 id="tutoriel-configurer-osc-dans-unity-pour-communiquer-avec-dautres-logiciels">Tutoriel : Configurer OSC dans Unity pour communiquer avec d'autres logiciels<a class="headerlink" href="#tutoriel-configurer-osc-dans-unity-pour-communiquer-avec-dautres-logiciels" title="Permanent link">¶</a></h1>
+<p>Dans ce tutoriel, nous allons voir comment configurer <strong>OSC (Open Sound Control)</strong> dans Unity afin de permettre l’échange de données avec d’autres logiciels.</p>
+<h3 id="1-installation-de-lextension-osc">1. Installation de l’extension OSC<a class="headerlink" href="#1-installation-de-lextension-osc" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Accéder au Unity Asset Store</strong> pour télécharger l’extension.<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrir un navigateur et se rendre sur le <strong>Unity Asset Store</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Rechercher <a href="https://assetstore.unity.com/packages/tools/input-management/extosc-open-sound-control-72005"><strong>extOSC</strong>.</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquer sur l’extension et appuyer sur <strong>Add to My Assets</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si l’extension est déjà ajoutée, cliquer sur <strong>Open in Unity</strong>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-importation-dans-unity">2. Importation dans Unity<a class="headerlink" href="#2-importation-dans-unity" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ouvrir le Package Manager</strong> :<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Aller dans <strong>Window &gt; Package Manager</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> En haut, sélectionner <strong>My Assets</strong> pour voir la liste des extensions téléchargées.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si extOSC n’apparaît pas, cliquer sur <strong>Load</strong> en bleu.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Importer extOSC</strong> :<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionner <strong>extOSC</strong> et cliquer sur <strong>Download</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquer ensuite sur <strong>Import</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Accepter les dépendances en cliquant sur <strong>Install/Upgrade</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez ensuite encore sur <strong>Import</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Une fois l'importation terminée, fermer le <strong>Package Manager</strong>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="3-creation-de-lobjet-osc-dans-la-scene">3. Création de l’objet OSC dans la scène<a class="headerlink" href="#3-creation-de-lobjet-osc-dans-la-scene" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer un objet vide pour OSC</strong> :<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Clic droit dans la hiérarchie &gt; Create Empty</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Renommer l’objet <strong>OSC</strong>.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ajouter les composants OSC</strong> :<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Aller dans <strong>Inspecteur &gt; Add component</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Rechercher <strong>OSC</strong> et ajouter :<ul>
+<li><strong>OSC Receiver</strong> (Récepteur OSC).</li>
+<li><strong>OSC Transmitter</strong> (Transmetteur OSC).</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="4-creation-du-script-osc">4. Création du script OSC<a class="headerlink" href="#4-creation-du-script-osc" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Créer un script OSC</strong> :<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Aller dans <strong>Assets &gt; Create &gt; C# Script</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Nommer le script <strong>OSCScript</strong> (ou un autre nom pertinent).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> L’ajouter à l’objet <strong>OSC</strong>.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Ouvrir le script dans Visual Studio Code</strong> et ajouter la bibliothèque OSC :</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">extOSC</span><span class="p">;</span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">OSCScript</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">OSCReceiver</span><span class="w"> </span><span class="n">oscReceiver</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">OSCTransmitter</span><span class="w"> </span><span class="n">oscTransmitter</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="5-assigner-les-objets-dans-unity">5. Assigner les objets dans Unity<a class="headerlink" href="#5-assigner-les-objets-dans-unity" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionner l’objet <strong>OSC</strong> dans la hiérarchie.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glisser <strong>OSC Receiver</strong> et <strong>OSC Transmitter</strong> dans les champs correspondants du script.</li>
+</ul>
 <h2 id="tutoriel">Tutoriel 🎥<a class="headerlink" href="#tutoriel" title="Permanent link">¶</a></h2>
 <p>Voici comment configurer l'OSC dans votre projet Unity:     </p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q57AlEb_x94?si=TjE51Sd0DSi_p1dz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
