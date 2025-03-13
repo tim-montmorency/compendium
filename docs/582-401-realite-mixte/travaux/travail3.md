@@ -4,7 +4,7 @@ Les seuls médias 3D permis dans vos projets sont ceux que vous créez vous-mêm
 - [Kay Kit](https://kaylousberg.itch.io/)
 - [Synty studio](./unity/modeles_synty.md)
 
-Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
+Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits. Elles doivent être bien créditées dans le jeu.
 
 # Consignes générales
 - [ ] Vous devez produire une expérience de réalité virtuelle pour un casque Oculus.
