@@ -105,7 +105,10 @@ Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du ca
 
 [:material-play-circle: Niveaux audio](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYbpj09zkD1GhDBl7317eG0BPrqEIQO99a4xpBsyZSaCHw?e=c5fFq5)
 
-![](./assets/images/audio-timeline.png){ data-zoom-image }
+
+![](./assets/images/ae/calque-audio.png){ data-zoom-image }
+
+<!-- ![](./assets/images/audio-timeline.png){ data-zoom-image } -->
 
 ![](./assets/images/audio-panel.png){ data-zoom-image }
 
