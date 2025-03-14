@@ -41,6 +41,11 @@ Habituellement, pour un sprite, on devrait prendre une valeur entre 64 et 512 se
 ## Sprite Sheet
 Lorsque l’on souhaite créer l’animation d’un sprite, c’est un sprite sheet que nous devrons utiliser. Il s’agit d’une image plus grosse qui contient tous les sprites dont nous aurons besoin pour faire l’animation de l’élément. Idéalement, ces images sont placées dans une grille.    
 
+### Illustrator
+Voici un tutoriel réalisé pour le travail 1 qui vous montre comment créer une sprite sheet et un sprite atlas:     
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_GDZf-k5oV8?si=k7wDS4d7ora1AiNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Photoshop
 Voici un tutoriel qui peut vous aider :    
 [📁 Tutoriel écrit](https://amphibistudio.sg/sprite-sheets/ ){ .md-button }    
