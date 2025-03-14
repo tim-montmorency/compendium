@@ -57,6 +57,6 @@ Pour traiter un message OSC en particulier, vous pouvez ensuite utiliser une con
 
 
 
-!!! quote
+!!! quote "Inspiration"
 
     Inspiré des notes de Thomas O. Fredericks. 
