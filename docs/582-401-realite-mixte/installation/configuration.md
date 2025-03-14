@@ -11,7 +11,12 @@ Afin de développer pour Android, nous devrons suivre quelques étapes.
 - [ ] Vous devrez ensuite fermer, puis réouvrir votre projet.
 
 
-       
+## Tutoriel 🎥
+De 1:30 à 2:20 vous verrez comment modifier votre plateforme:     
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=1zK922DNCr_PIi5o&amp;start=92" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+          
 !!! warning "Important"
 
     Si vous n'avez pas le module Android sur votre ordinateur, vous ne pourrez pas le sélectionner pour changer de plateforme. Vous devez alors suivre la procédure ci-bas pour l'installer: 
