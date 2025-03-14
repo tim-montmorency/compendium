@@ -7,11 +7,11 @@ Spout vous permettra d'envoyer le flux vidéo de caméras dans Unity aux logicie
 - [ ] Dans **Scoped registries** appuyez sur le **+** en bas.
 - [ ] Entrez les informations suivantes:
 
- name: Keijiro
- URL: https://registry.npmjs.com 
- Scope: jp.keijiro
+ name: Keijiro     
+ URL: https://registry.npmjs.com     
+ Scope: jp.keijiro   
 
--[ ] Appuyez ensuite sur Save. 
+- [ ] Appuyez ensuite sur Save. 
 
 ## Installer le paquet
 - [ ] Dans la barre de menu, sélectionnez **Window -> Package Manager**.
