@@ -7,7 +7,7 @@ Cette première méthode fait en sorte que dès qu'on reçoit un message OSC, pe
 ``` csharp
    private void Start()
     {
-        oscReceive.Bind("*", TraiterMessageOSC);
+        oscReceiver.Bind("*", TraiterMessageOSC);
     }
 ```
 
@@ -16,8 +16,8 @@ Si vous souhaitez appeler une fonction différente pour chaque message OSC reçu
 ``` csharp
    private void Start()
     {
-        oscReceive.Bind("/nomMessage", TraiterMessageOSC1);
-        oscReceive.Bind("/nomMessage2", TraiterMessageOSC2);
+        oscReceiver.Bind("/nomMessage", TraiterMessageOSC1);
+        oscReceiver.Bind("/nomMessage2", TraiterMessageOSC2);
     }
 ```
 
