@@ -161,6 +161,9 @@
 - [Réception d'OSC](osc/recevoir.md)
 - [Envoi d'OSC](osc/envoyer.md)
 
+## Spout 
+- [Envoi de flux vidéo de Unity via Spout](unity/spout.md)
+
 ## Quest
 - [Le casque de VR](unity/quest.md)
 - [Guardian - Créer une limite de jeu](unity/guardian.md)
