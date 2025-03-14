@@ -156,6 +156,8 @@
 ##### Audio
 - [Audio en VR](unity/audio_vr.md)
 
+## OSC
+- [Configuration de l'OSC](osc/configuration.md)
 
 ## Quest
 - [Le casque de VR](unity/quest.md)
