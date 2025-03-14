@@ -2,6 +2,7 @@
 ## L'OSC
 - [📝 Configuration de l'OSC](osc/configuration.md)
 - [📝 Réception d'OSC](osc/recevoir.md)
+- [📝 Envoi d'OSC](osc/envoyer.md)
 
 ## Grimper
 Reproduire le tout en équipes. 
