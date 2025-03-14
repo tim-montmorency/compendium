@@ -59,7 +59,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-### Dans After Effetcs: options d'importation 
+### Dans After Effetcs: importer un fichier Illustrator  
 
 `Fichier > Importer > Fichier` (++ctrl+i++)
 
@@ -67,6 +67,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 
 ![](./assets/images/ae-load-ai-comp-calque.png)
 
+<!--
 **Métrage** (ou Footage) : Le fichier est importé comme une image unique, sans distinction de calques.
 
 ![](./assets/images/ae-load-ai-metrage.png)
@@ -74,8 +75,10 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut alors choisir **Composition** si on a oublié de le faire initialement.
 
 ![](./assets/images/ae-load-ai-metrage-comp-calque.png)
+-->
 
-##### Gestion des calques
+
+#### Gestion des calques dans AE
 
 ![](./assets/images/oups.png)
 
@@ -102,13 +105,18 @@ Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du ca
 
 [:material-play-circle: Niveaux audio](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYbpj09zkD1GhDBl7317eG0BPrqEIQO99a4xpBsyZSaCHw?e=c5fFq5)
 
-![](./assets/images/audio-timeline.png){ data-zoom-image }
+
+![](./assets/images/ae/calque-audio.png){ data-zoom-image }
+
+<!-- ![](./assets/images/audio-timeline.png){ data-zoom-image } -->
 
 ![](./assets/images/audio-panel.png){ data-zoom-image }
 
 ### Marqueurs
 
-Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`.
+Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`. Ainsi, même lorsque tous les calques sont réduits, on peut toujours visualiser où se situent les repères afin syncroniser les animations et les sons ponctuels. 
+
+![](./assets/images/ae/calque-ajouter-repere.png){ data-zoom-image }
 
 <!-- [:material-play-circle: Son entre les compositions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EcEavxk_TbpHhxotp2CIcNsBJkUQZJN3yt5sDIsLc2hqcA?e=DBw3ZB) -->
 <!-- [:material-play-circle: Master](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm) -->
