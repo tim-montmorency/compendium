@@ -67,3 +67,7 @@ Vous aimeriez envoyer plusieurs messages? Voici un exemple pour vous aider:
     }
 ```
 
+
+!!! quote "Inspiration"
+
+    Inspiré des notes de Thomas O. Fredericks. 
