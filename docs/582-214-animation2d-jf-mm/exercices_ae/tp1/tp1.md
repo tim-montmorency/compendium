@@ -120,13 +120,15 @@ Projet
 
 :material-movie-open: **Exportation**  
 
-- [ ] Exporter en H264 - Vimeo 1080p - 1920 x 1080 px - 28 secondes.
+- [ ] Exporter en H264 - Vimeo 1080p - 1920 x 1080 px - 28 secondes. Prévoyez du temps pour l'exportation. L'encodage peut facilement prendre plus d’une heure par vidéo.
 
-!!! example "Export"
+## Remise 
 
-    ![](./eternitygif.gif)
+Date limite : **18 mars à 23 h 59**
 
-    Prévoyez du temps pour l'exportation. L'encodage peut facilement prendre plus d’une heure par vidéo.
+!!! error "500mo"
+
+    Pour ceux et celles qui ont un projet totalisant plus de 500mo, ajoutez votre document de remise dans votre OneDrive, assurez-vous de le partager pour que je puisse bien le télécharger et remettez l'URL du fichier dans Teams.
 
 [STOP]
 
