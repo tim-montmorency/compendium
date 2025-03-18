@@ -21,7 +21,7 @@ L'objectif de ce travail pratique est la mise en pratique de plusieurs concepts 
 ## Consignes After Effects
 
 :material-folder-open: Structure de fichiers à respecter dans Windows
-
+ 
 ```txt
 Votre-nom-et-prenom_tp_01_582-214MO
 ├──📁 00_references
@@ -53,6 +53,17 @@ Projet
 
 [:material-play-circle: Structure du TP1](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/jfcartier_cmontmorency_qc_ca/EXgd3wK3UlpPspLnM0pzJ2IBbdq6yfup9bnFUU_NaBmBHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WOI9CE)
 
+
+
+
+### Série de vidéos qui explique comment animer chaque élément
+[:material-play-circle: Série vidéos](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgybxTn_yPZOjqSFZPq5X50B8m31-oq9Xoo6TyDrWzet-A?e=7Whj3l){ .md-button }
+
+
+
+
+
+
 :material-image-size-select-large: **Composition**
 
 - [ ] Créer une composition en 6000 x 3375 px, durée 28 secondes, 24 fps.
@@ -64,7 +75,8 @@ Projet
 - [ ] Animer les différentes couches des lettres.
 - [ ] Créer une transformation (morph) des lettres `A` `O` vers `M`. `A` 
 
-[référence](../devoir_c4.md){ .md-button }
+[:material-play-circle: Tutoriel complet ici](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EnA0d_kwlWhJr9W7tZHYcYIByODsFLMSKkAeA0l7mIcD0A?e=AVtdC1)
+
 
 :material-bike-fast: **Vélo** 
 
@@ -75,7 +87,7 @@ Projet
 :material-bird: **Oiseaux** 
 
 - [ ] Gérer le déplacement des oiseaux.
-- [ ] Animer les ailes avec l'outil marionnette.
+- [ ] Animer les ailes avec [:material-play-circle: l'outil marionnette aussi appelé puppet.](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=86FdbZ). 
 - [ ] Utiliser le concept de parent-enfant et calque nul pour coordonner les mouvements.
 
 :material-cactus: **La flore** 
@@ -86,20 +98,20 @@ Projet
  
 - [ ] Animer la rotation des bras.
 - [ ] Gérer la position du personnage.
-- [ ] Utiliser l’outil marionnette pour animer les jambes.
+- [ ] Utiliser [:material-play-circle: l'outil marionnette aussi appelé puppet.](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=86FdbZ) pour animer les jambes.
 - [ ] Ajouter un lissage de vitesse (Ease).
 - [ ] Appliquer une onde progressive sur les cheveux.
 
 :material-umbrella-outline: **Femme parapluie** 
 
-- [ ] Animer les bras avec l’outil marionnette.
+- [ ] Animer les bras avec [:material-play-circle: l'outil marionnette aussi appelé puppet.](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EozVxmm8f-VKqI01EIFsRmABxEMI2Qfu6KBk-I8bXy-V0A?e=86FdbZ).
 - [ ] Appliquer une ondulation progressive sur les cheveux et la jupe.
 
 :octicons-eye-24: **Œil** 
 
 - [ ] Déplacer l’œil dans son ensemble.
 - [ ] Animer la pupille et son contour.
-- [ ] Créer une animation d'ouverture et de fermeture de l'œil.
+- [ ] Créer une animation d'ouverture et de fermeture de l'œil avec un masque.
 
 :material-tennis-ball: **Balle** 
 
@@ -112,7 +124,8 @@ Projet
 - [ ] Simulation de pluie (CC Rainfall).
 - [ ] Créer les ([éclaboussures](../08_effets.md))
 
-[:material-play-circle: Aide](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_animation_2d/tp/01_tp_illustrator_ae/tp2/04_pluie/01_pluie.mp4)
+[:material-play-circle: Instructions pour effets de pluie](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_animation_2d/tp/01_tp_illustrator_ae/tp2/04_pluie/01_pluie.mp4)
+[:material-play-circle: Tutoriels des effets de pluie](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eg7a8mRtCjBDkTKcg71_dB8BisRLai2zBZgmbyCRw6Akpw?e=UzqIUy)
 
 :material-speaker: **Audio** 
 

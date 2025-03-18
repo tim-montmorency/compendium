@@ -19,7 +19,7 @@ La vidéo suivante vous montre comment configurer votre projet.
 
 !!! warning "Attention"
 
-    Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature.
+    Il est important d'écouter la vidéo ci-haut. Elle vous permettra d'avoir un projet bien configuré et avec la bonne nomenclature. 
     
 La vidéo fait référence à un modèle de projet pour classer vos dossiers dans After effects, le voici:      
 
