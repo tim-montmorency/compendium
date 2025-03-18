@@ -230,6 +230,7 @@ void OnTriggerEnter(Collider other)
 ```
 
 **Créer la détection de sortie d'une zone**
+
 - [ ] Lorsque votre joueur sort, c'est plutôt la fonction de sortie que vous devez utiliser. 
 
 ```csharp
@@ -241,7 +242,8 @@ void OnTriggerExit(Collider other)
 
 - [ ] Sauvegardez votre script et retournez dans Unity. 
 
-**Assigner le script au joueur**
+**Assigner le script au joueur**    
+
 - [ ] Sélectionnez Joueur dans la hiérarchie.
 - [ ] Faites glisser le script PlayerInteraction.cs sur l'objet Joueur.
 - [ ] Faites glisser l'ampoule de la cuisine dans le champ Ampoule de l'inspecteur.
@@ -321,7 +323,8 @@ videoPlayer.Stop();
 
 - [ ] Sauvegardez votre script et retournez dans Unity.
 
-**Terminer de préparer le joueur**
+**Terminer de préparer le joueur**   
+
 - [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.
 - [ ] Dans l'inspecteur du joueur, faites glisser l'objet **Écran Télé** dans le champ **VideoPlayer** du script.
 
