@@ -93,7 +93,8 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 - [ ] Une fois les scripts téléchargés, les extraire du .zip. 
 
-**Importer les scripts**
+**Importer les scripts**    
+
 - [ ] Faites un clic droit dans le panneau **Project**.
 - [ ] Sélectionnez **Import New Asset**.
 - [ ] Allez chercher les scripts extraits nommés :
@@ -103,7 +104,8 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 - [ ] Importez-les dans Unity.
 
- **Créer le joueur**
+ **Créer le joueur**    
+ 
 - [ ] Allez dans **Project > Assets > SyntyStudio > PolygonStarter > Prefabs > Characters**.
 - [ ] Recherchez un personnage simple (ex. : capsule ou modèle 3D minimal).
 - [ ] Ajouter le modèle dans la scène.
@@ -117,7 +119,8 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 - [ ] Assurez-vous que le collider est légèrement au-dessus du sol.
 
 
-**Ajouter le script PlayerMovement**
+**Ajouter le script PlayerMovement**    
+
 - [ ] Faites glisser **PlayerMovement.cs** sur l'objet **Joueur**.
 - [ ] Le script demande une référence au **Character Controller**. Faites glisser l'objet **Joueur** dans le champ **Controller** du script.
 - [ ] Modifiez la vitesse **(Speed)** et la gravité **(gravity)** selon vos préférences.
@@ -135,7 +138,8 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 - [ ] Assurez-vous de choisir le layer **Ground** sur le **GroundMask**.
 
 
-**Configurer la caméra**
+**Configurer la caméra**    
+
 - [ ] Glissez la caméra principale comme **enfant** de l’objet **Joueur**.
 - [ ] Ajustez sa position pour qu’elle soit au niveau des yeux du joueur. Vous verrez alors à l'intérieur du joueur. Pour ne plus voir les éléments visuels qui bloquent votre champ de vision, décochez l'objet **Mesh Renderer** de votre joueur. 
 - [ ] Faites glisser le script **MouseLook.cs** sur la caméra.
