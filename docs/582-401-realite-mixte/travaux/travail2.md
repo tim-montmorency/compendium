@@ -11,9 +11,10 @@ Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé Control
 
 - [ ] Premièrement, créez un nouveau projet à l'aide du modèle 3D (Built-In Render Pipeline) et de GitHub.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g54553M4Swc?si=Wf3ZkhHisT0zX1Lz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>              
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g54553M4Swc?si=Wf3ZkhHisT0zX1Lz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>       
 
-Utilisateurs GitHub de vos enseignants: 
+Utilisateurs GitHub de vos enseignants:     
+
 - LoraBoisvert
 - Enric Granzotto Llagostera (egl-mo)
 
@@ -90,7 +91,58 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
 [📁 Scripts](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU){ .md-button }      
 
-- [ ] Suivez ensuite la vidéo suivante pour bien configurer votre joueur et ses déplacements:
+- [ ] Une fois les scripts téléchargés, les extraire du .zip. 
+
+**Importer les scripts**
+- [ ] Faites un clic droit dans le panneau **Project**.
+- [ ] Sélectionnez **Import New Asset**.
+- [ ] Allez chercher les scripts extraits nommés :
+
+     - `PlayerMovement.cs`
+     - `MouseLook.cs`
+
+- [ ] Importez-les dans Unity.
+
+ **Créer le joueur**
+- [ ] Allez dans **Project > Assets > SyntyStudio > PolygonStarter > Prefabs > Characters**.
+- [ ] Recherchez un personnage simple (ex. : capsule ou modèle 3D minimal).
+- [ ] Ajouter le modèle dans la scène.
+- [ ] Redimensionnez-le pour qu'il soit proportionnel à votre environnement.
+- [ ] Assurez-vous que le personnage touche le sol (sans être enfoncé).
+- [ ] Renommez l'objet **Joueur**.
+- [ ] Cliquez sur **Add Component**.
+- [ ] Cherchez **Character Controller** et ajoutez-le.
+- [ ] Activez les **Gizmos** en haut à droite de la scène pour voir le collider de votre personnage.
+- [ ] Ajustez les valeurs de radius et height pour que le collider entoure correctement le personnage.
+- [ ] Assurez-vous que le collider est légèrement au-dessus du sol.
+
+
+**Ajouter le script PlayerMovement**
+- [ ] Faites glisser **PlayerMovement.cs** sur l'objet **Joueur**.
+- [ ] Le script demande une référence au **Character Controller**. Faites glisser l'objet **Joueur** dans le champ **Controller** du script.
+- [ ] Modifiez la vitesse **(Speed)** et la gravité **(gravity)** selon vos préférences.
+- [ ] Ajustez la hauteur de saut si nécessaire.
+
+**Créer un Ground Check**
+
+- [ ] Faites un clic droit sur **Joueur**.
+- [ ] Sélectionnez **Create Empty**.
+- [ ] Renommez l’objet **GroundCheck**.
+- [ ] Assurez-vous que **GroundCheck** est placé à la hauteur du plancher. Il doit toucher le sol sans être enfoncé.
+- [ ] Créez un **Layer** pour le sol. Allez en haut de l'inspecteur dans **Layer > Add Layer**. Créez un nouveau layer nommé **Ground**.
+- [ ] Assignez le layer **Ground** à tous les objets qui constituent le plancher pour votre joueur.
+- [ ] Retournez sur l'objet **Joueur**.
+- [ ] Assurez-vous de choisir le layer **Ground** sur le **GroundMask**.
+
+
+**Configurer la caméra**
+- [ ] Glissez la caméra principale comme **enfant** de l’objet **Joueur**.
+- [ ] Ajustez sa position pour qu’elle soit au niveau des yeux du joueur. Vous verrez alors à l'intérieur du joueur. Pour ne plus voir les éléments visuels qui bloquent votre champ de vision, décochez l'objet **Mesh Renderer** de votre joueur. 
+- [ ] Faites glisser le script **MouseLook.cs** sur la caméra.
+- [ ] Assurez-vous que le **Joueur** est assigné comme **Player Body** dans le script.
+- [ ] Modifiez la **sensibilité de la souris** selon vos préférences.
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J1zJ__tEtho?si=M0Fb65VN4E_ERDEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
