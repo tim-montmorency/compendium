@@ -375,8 +375,8 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
 
 ## 17. Exporter le jeu
-- [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
-- [ ] Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
+- [ ] Exporter le jeu à l'aide du bouton build dans File, build settings. Sauvegarder le tout dans un dossier nommé **Build**.
+- [ ] Remettez le dossier build de votre jeu dans un dossier à votre nom dans le dossier de remise:
 
 [📁 Remise Travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Etxrw-BcDyBIiQBwBSHKIIAB5nD74_l8FJF2CNYIjjQPbw?e=JYEvdE){ .md-button }   
 
