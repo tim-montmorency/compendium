@@ -174,6 +174,10 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 - [ ] Créez un objet vide avec un box collider pour chacune de vos zones. Assurez-vous que les colliders ont la bonne taille pour couvrir toute la zone.
 - [ ] Activez la fonction is Trigger de chaque collider pour permettre à votre personnage de se promener entre les zones.
 
+!!! info "Note"
+
+    Pour vous aider à créer vos zones, vous pouvez créer des cube et ensuite décocher le paramètre Mesh Renderer. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=b9CxZ64HDYmdPUd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
