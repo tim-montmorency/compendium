@@ -7261,6 +7261,9 @@
 <span class="w">    </span><span class="c1">//Insérer le code pour vérifier de quel zone on sort et pour désactiver l'ampoule.</span>
 <span class="p">}</span>
 </code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez votre script et retournez dans Unity. </li>
+</ul>
 <p><strong>Assigner le script au joueur</strong>
 - [ ] Sélectionnez Joueur dans la hiérarchie.
 - [ ] Faites glisser le script PlayerInteraction.cs sur l'objet Joueur.
@@ -7268,9 +7271,74 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="10-partir-ou-arreter-une-video-avec-la-detection">10. Partir ou arrêter une vidéo avec la détection<a class="headerlink" href="#10-partir-ou-arreter-une-video-avec-la-detection" title="Permanent link">¶</a></h2>
+<p><strong>Configurer la zone interactive</strong>  </p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez la zone qui contient votre télévision dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> En haut de l'inspecteur, cliquez sur <strong>Tag</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez <strong>Add Tag...</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le <strong>+</strong> et ajoutez un tag nommé <strong>Zone2</strong>(ou le nom de votre choix).  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez le tag <strong>zone2</strong> à la zone de votre télévision. </li>
 </ul>
+<p><strong>Télécharger et importer la vidéo</strong>  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Allez sur un site comme Pexels ou Pixabay pour télécharger une vidéo. Choisissez une vidéo de taille raisonnable (par exemple, 1920x1080 ou 1280x720) pour éviter les vidéos trop lourdes.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Téléchargez la vidéo (par exemple, une vidéo de 3 à 15 secondes).  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un dossier <strong>Vidéo</strong> dans le dossier <strong>Art</strong> de votre projet Unity pour garder tout organisé.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Importez la vidéo en la faisant glisser dans ce dossier.</li>
+</ul>
+<p><strong>Ajouter le composant Vidéo Player à l'écran</strong>  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet <strong>Écran Télé</strong> dans la hiérarchie de votre scène.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans l'inspecteur, cliquez sur <strong>Add Component</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Recherchez et ajoutez le composant <strong>Video Player</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le champ <strong>Video Clip</strong>, glissez votre vidéo importée.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour que la vidéo joue en boucle, cochez <strong>Loop</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Si vous ne voulez pas de son, choisissez <strong>None</strong> dans l'option <strong>Audio Output Mode</strong> .</li>
+</ul>
+<p><strong>Ajuster le matériel de l'écran pour afficher la vidéo</strong>  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'écran télé et allez dans le <strong>Material</strong> de l'objet.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Changez le type de matériel (shader en haut de l'inspecteur) en <strong>Unlit/Texture</strong> pour permettre l'affichage de la vidéo.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Vous devez créer une texture pour l'écran éteint (par exemple, un écran noir avec quelques boutons).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Importez votre texture personnalisée dans Unity. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appliquez cette texture à l'écran dans le paramètre <strong>None/texture</strong> du material. </li>
+</ul>
+<p><strong>Contrôler la vidéo avec le script du joueur</strong>  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet <strong>Joueur</strong> dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Trouvez le script <strong>InteractionsJoueur</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez le script et ajoutez la bibliothèque pour la vidéo:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="c1">// Ajouter une bibliothèque</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine.Video</span><span class="p">;</span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez ensuite un objet pour contenir votre vidéo</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="c1">// Référence au VideoPlayer de l'écran</span>
+<span class="k">public</span><span class="w"> </span><span class="n">VideoPlayer</span><span class="w"> </span><span class="n">videoPlayer</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Utilisez ensuite la fonction d'entrée dans le salon. Si le bon tag est détecté, vous pouvez partir votre vidéo:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">CompareTag</span><span class="p">(</span><span class="s">"nomDeVotreLayer"</span><span class="p">))</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Démarre la vidéo</span>
+<span class="w">        </span><span class="n">videoPlayer</span><span class="p">.</span><span class="n">Play</span><span class="p">();</span><span class="w"> </span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Lors de la sortie, utilisez plutôt la ligne suivante: </li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="c1">// Arrête la vidéo</span>
+<span class="n">videoPlayer</span><span class="p">.</span><span class="n">Stop</span><span class="p">();</span><span class="w"> </span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez votre script et retournez dans Unity.</li>
+</ul>
+<p><strong>Terminer de préparer le joueur</strong>
+- [ ] Sélectionnez l'objet <strong>Joueur</strong> dans la hiérarchie.
+- [ ] Dans l'inspecteur du joueur, faites glisser l'objet <strong>Écran Télé</strong> dans le champ <strong>VideoPlayer</strong> du script.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=iBgchBjInUY2wa73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="11-animer-un-parametre-sur-une-lumiere">11. Animer un paramètre sur une lumière<a class="headerlink" href="#11-animer-un-parametre-sur-une-lumiere" title="Permanent link">¶</a></h2>
