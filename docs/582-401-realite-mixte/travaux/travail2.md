@@ -171,7 +171,7 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
     Rappel, vous avez besoin de 3 zones, une avec une télévision (ou un objet qui joue une vidéo), une avec un spotlight et une avec un pointlight. Les zones peuvent être à l'extérieur ou l'intérieur, mais elles doivent être faciles à trouver. 
 
-- [ ] Créez un objet vide avec un box collider pour chacune de vos zones. Assurez-vous que les colliders ont la bonne taille pour couvrir toute la zone.
+- [ ] Créez un objet vide avec un box collider pour chacune de vos zones. Assurez-vous que les colliders ont la bonne taille pour couvrir toute la zone. Nommez bien vos zones. 
 - [ ] Activez la fonction is Trigger de chaque collider pour permettre à votre personnage de se promener entre les zones.
 
 !!! info "Note"
