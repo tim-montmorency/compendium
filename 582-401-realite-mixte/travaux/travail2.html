@@ -7247,8 +7247,24 @@
 <span class="p">}</span>
 </code></pre></div>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans cette fonction, vous devez activer votre objet si vous êtes dans la bonne zone:</li>
 </ul>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">CompareTag</span><span class="p">(</span><span class="s">"nomDeVotreLayer"</span><span class="p">))</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">ampoule</span><span class="p">.</span><span class="n">SetActive</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+<p><strong>Créer la détection de sortie d'une zone</strong>
+- [ ] Lorsque votre joueur sort, c'est plutôt la fonction de sortie que vous devez utiliser. </p>
+<div class="highlight"><pre><span></span><code><span class="k">void</span><span class="w"> </span><span class="nf">OnTriggerExit</span><span class="p">(</span><span class="n">Collider</span><span class="w"> </span><span class="n">other</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="c1">//Insérer le code pour vérifier de quel zone on sort et pour désactiver l'ampoule.</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><strong>Assigner le script au joueur</strong>
+- [ ] Sélectionnez Joueur dans la hiérarchie.
+- [ ] Faites glisser le script PlayerInteraction.cs sur l'objet Joueur.
+- [ ] Faites glisser l'ampoule de la cuisine dans le champ Ampoule de l'inspecteur.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="10-partir-ou-arreter-une-video-avec-la-detection">10. Partir ou arrêter une vidéo avec la détection<a class="headerlink" href="#10-partir-ou-arreter-une-video-avec-la-detection" title="Permanent link">¶</a></h2>
