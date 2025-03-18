@@ -186,7 +186,42 @@ Pour configurer le déplacement de votre caméra, vous devez télécharger ces s
 
        
 ## 9. Allumer ou éteindre une lumière avec la détection
-- [ ] Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:
+
+**Configurer la zone interactive**  
+
+- [ ] Sélectionnez la zone qui contient votre Point light dans la hiérarchie.  
+- [ ] En haut de l'inspecteur, cliquez sur **Tag**.  
+- [ ] Sélectionnez **Add Tag...**.  
+- [ ] Cliquez sur le **+** et ajoutez un tag nommé **Zone1**(ou le nom de votre choix).  
+- [ ] Assignez le tag **zone1** à la zone de votre point light.
+
+
+**Créer le script pour contrôler les objets interactifs**  
+
+- [ ] Faites un clic droit dans le panneau **Project**.  
+- [ ] Sélectionnez **Create > C# Script**.  
+- [ ] Nommez le script `InteractionsJoueur.cs` (ou un nom de votre choix).  
+- [ ] Déplacez le script dans le dossier **Scripts** pour garder votre projet bien organisé.  
+- [ ] Double-cliquez sur le script pour l'ouvrir dans votre éditeur de code préféré.
+- [ ] Créez une variable publique pour l'ampoule :  
+
+```csharp
+public GameObject ampoule;
+```
+
+**Créer la détection d'entrée dans une zone**
+
+- [ ] Ajoutez la fonction OnTriggerEnter dans votre script :
+
+```csharp
+void OnTriggerEnter(Collider other)
+{
+  
+}
+```
+
+- [ ] 
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
