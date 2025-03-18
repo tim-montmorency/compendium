@@ -7218,8 +7218,36 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wBlLnqNaRK0?si=b9CxZ64HDYmdPUd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="9-allumer-ou-eteindre-une-lumiere-avec-la-detection">9. Allumer ou éteindre une lumière avec la détection<a class="headerlink" href="#9-allumer-ou-eteindre-une-lumiere-avec-la-detection" title="Permanent link">¶</a></h2>
+<p><strong>Configurer la zone interactive</strong>  </p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour allumer ou éteindre une ampoule selon la présence ou non de votre personnage dans la pièce:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez la zone qui contient votre Point light dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> En haut de l'inspecteur, cliquez sur <strong>Tag</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez <strong>Add Tag...</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le <strong>+</strong> et ajoutez un tag nommé <strong>Zone1</strong>(ou le nom de votre choix).  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez le tag <strong>zone1</strong> à la zone de votre point light.</li>
+</ul>
+<p><strong>Créer le script pour contrôler les objets interactifs</strong>  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Faites un clic droit dans le panneau <strong>Project</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez <strong>Create &gt; C# Script</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Nommez le script <code>InteractionsJoueur.cs</code> (ou un nom de votre choix).  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Déplacez le script dans le dossier <strong>Scripts</strong> pour garder votre projet bien organisé.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Double-cliquez sur le script pour l'ouvrir dans votre éditeur de code préféré.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez une variable publique pour l'ampoule :  </li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">GameObject</span><span class="w"> </span><span class="n">ampoule</span><span class="p">;</span>
+</code></pre></div>
+<p><strong>Créer la détection d'entrée dans une zone</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez la fonction OnTriggerEnter dans votre script :</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">void</span><span class="w"> </span><span class="nf">OnTriggerEnter</span><span class="p">(</span><span class="n">Collider</span><span class="w"> </span><span class="n">other</span><span class="p">)</span>
+<span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> </li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
