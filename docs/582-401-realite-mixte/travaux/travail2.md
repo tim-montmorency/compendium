@@ -220,7 +220,29 @@ void OnTriggerEnter(Collider other)
 }
 ```
 
-- [ ] 
+- [ ] Dans cette fonction, vous devez activer votre objet si vous êtes dans la bonne zone:
+
+```csharp
+ if (other.CompareTag("nomDeVotreLayer"))
+    {
+        ampoule.SetActive(true);
+    }
+```
+
+**Créer la détection de sortie d'une zone**
+- [ ] Lorsque votre joueur sort, c'est plutôt la fonction de sortie que vous devez utiliser. 
+
+```csharp
+void OnTriggerExit(Collider other)
+{
+    //Insérer le code pour vérifier de quel zone on sort et pour désactiver l'ampoule.
+}
+```
+
+**Assigner le script au joueur**
+- [ ] Sélectionnez Joueur dans la hiérarchie.
+- [ ] Faites glisser le script PlayerInteraction.cs sur l'objet Joueur.
+- [ ] Faites glisser l'ampoule de la cuisine dans le champ Ampoule de l'inspecteur.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
