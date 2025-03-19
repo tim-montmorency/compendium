@@ -7408,8 +7408,54 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="12-creer-des-prefabs">12. Créer des prefabs<a class="headerlink" href="#12-creer-des-prefabs" title="Permanent link">¶</a></h2>
+<p><strong>Créer un parent pour les objets</strong>
+- [ ] Faites un clic droit dans la <strong>Hiérarchie</strong>. Sélectionnez <strong>Create Empty</strong>.
+- [ ] Renommez cet objet, par exemple <strong>ParentEtoile</strong>.
+- [ ] Assurez-vous que la position de cet objet est à <strong>(0, 0, 0)</strong>.
+- [ ] Ajoutez votre modèle 3D dans la scène (par exemple une étoile).
+- [ ] Positionnez-le correctement. <strong>(0, 0 ,0)</strong>
+- [ ] Glissez l'étoile comme <strong>enfant</strong> de l'objet vide <strong>ParentEtoile</strong>.</p>
+<p><strong>Configurer le Collider pour la détection</strong>
+- [ ] Sélectionnez votre objet (par exemple l'étoile).
+- [ ] Cliquez sur <strong>Add Component</strong> et recherchez <strong>Box Collider</strong>.
+- [ ] Si le Collider est trop petit ou trop grand, cliquez sur le triangle de <strong>Edit Collider</strong> et modifier manuellement la boîte pour qu'elle s'adapte à la forme de l'objet. (Elle devrait être légèrement plus grande)
+- [ ] Assurez-vous que <strong>Is Trigger</strong> est coché si vous voulez détecter l'entrée et la sortie.</p>
+<p><strong>Créer un tag pour les objets ramassables</strong></p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez votre objet (étoile).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> En haut de l'Inspecteur, cliquez sur <strong>Tag &gt; Add Tag</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le <strong>+</strong> et ajoutez un nouveau tag appelé <strong>Etoile</strong> (ou un autre nom selon votre choix).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Retournez sur votre étoile.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez-lui le tag <strong>Etoile</strong>.</li>
+</ul>
+<p><strong>Créer un Prefab pour dupliquer l'objet</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Allez dans votre dossier <strong>Prefabs</strong> dans le <strong>Project</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le parent <strong>ParentEtoile</strong> dans ce dossier.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Le parent devient <strong>bleu</strong>, indiquant qu'il est maintenant un Prefab.</li>
+</ul>
+<p><strong>Dupliquer les objets dans la scène</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le Prefab dans la scène autant de fois que nécessaire.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Placez les objets dans la scène de manière à ce qu'ils soient accessibles au joueur. Assurez-vous qu'ils ne traversent pas d'autres objets comme des tables ou des murs.</li>
+</ul>
+<p><strong>Créer une animation pour l'objet</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez le parent <strong>ParentEtoile</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur <strong>Add Component</strong> et ajoutez <strong>Animator</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un <strong>Animator Controller</strong> nommé <strong>AnimatorEtoile</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez-le dans le champ <strong>Controller</strong> de l'Animator.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez la fenêtre <strong>Animation</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un <strong>nouveau clip</strong> appelé <strong>AnimationEtoile</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'enfant (l'étoile) pour animer un de ses paramètres.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Exemple: Position de départ : (0, 0, 0). Position après 15 frames : légèrement plus haut. Retour à la position de départ à 30 frames.  </li>
+</ul>
+<p><strong>Modifier le Prefab globalement</strong>  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Double-cliquez sur le Prefab pour l'ouvrir.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Apportez les modifications nécessaires (par exemple, changer la couleur).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez les modifications.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Toutes les copies dans la scène seront mises à jour automatiquement.</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
