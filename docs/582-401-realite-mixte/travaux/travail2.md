@@ -353,9 +353,9 @@ videoPlayer.Stop();
 - [ ] Sélectionnez l'objet qui contient **l'Animator** du SpotLight.
 - [ ] Dans la fenêtre **Animation** créez trois animations :
  
-     - **FadeIn**: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
-     - **ChangeColor**: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
-     - **FadeOut**: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.
+- **FadeIn**: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
+- **ChangeColor**: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
+- **FadeOut**: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.
 
 - [ ] Ouvrez la fenêtre **Animator**. Assurez-vous d'être encore sur l'objet SpotLight qui contient l'animator.
 - [ ] Assurez-vous que l'animation **FadeIn** est en orange (Première animation). Si ce n'est pas le cas, faite un clic-droit sur **FadeIn**, cliquez ensuite sur **Set as LayerDefaultState**.
@@ -489,7 +489,42 @@ public int count;
 
 [📁 Pointage](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWEV07uUq1JJoHfK1ALCmMwBvrEaXVA3Cb8p1C5p1MV6Kw?e=eqP3CM){ .md-button }      
 
-- [ ] Suivez ensuite cette vidéo pour créer des variables de pointage et de meilleur pointage qui vont se mettre à jour:     
+**Ajouter le script**
+
+- [ ] Dans la hiérarchie, faites **Clic-droit > Create empty**.
+- [ ] Nommez l'objet **Pointage**.
+- [ ] Dans le dossier **Assets > HighScore**, sélectionnez le script **High Score Persistant** et glissez-le sur l'objet **Pointage**.
+
+**Créer un canvas pour afficher le pointage**
+
+- [ ] Sur l'objet **Pointage**, **Clic-droit > UI > Canvas**. Cela créera un canvas comme enfant du pointage.
+- [ ] Sur l'objet **Canvas**, assurez-vous que le **UI Scale Mode** du **Canvas scaler** est en mode **Scale With Screen Size**. La **Reference resolution** doit être à **1920 x 1080**.
+- [ ] Pour voir votre Canvas: appuyez sur **F** et assurez-vous d'être en 2D avec le bouton 2D en haut à droite de la fenêtre Scene.
+- [ ] Sur l'objet **Canvas**, **Clic-droit > UI > Panel**. Assurez-vous que le fond est transparent.
+- [ ] Sur l'objet **Panel**, **Clic-droit > UI > Text - TextMeshPro**. Choisir la couleur de votre texte. Renommer votre objet **PointageActuel**.
+- [ ] Dupliquez l'objet texte et renommez-le **MeilleurPointage**.
+- [ ] Créez deux autres objets de texte qui seront les titres pour vos pointages.
+- [ ] Cliquez sur l'objet **Pointage**. Glissez l'objet **PointageActuel** dans le paramètre **Texte Pointage** du script **High Score Persistant**.
+- [ ] Glissez ensuite l'objet **MeilleurPointage** dans le paramètre ** Texte High Score** du script **High Score Persistant**.
+
+**Modifier le pointage**
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.  
+- [ ] Trouvez le script **InteractionsJoueur**.
+- [ ] Ouvrez le script, ajoutez une variable pour parler au script de pointage: 
+
+```csharp
+public HighScorePersistant pointage; 
+```
+
+- [ ] Ajoutez votre pointage dans la bonne fonction (elle existe déjà). Vous avez déjà une variable qui contient le nouveauPointage, vous devez la trouver et remplacer nouveauPointage par cette variable:
+
+```csharp
+pointage.OnChangerPointage(nouveauPointage);
+```
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.
+- [ ] Dans l'inspecteur du joueur, faites glisser l'objet **Pointage** dans le champ **Pointage** du script.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AlMWnTkihvk?si=zqATKfYjvwWOHk9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -499,7 +534,10 @@ public int count;
 
 [📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
 
-- [ ] Suivez ensuite cette vidéo pour créer votre minuterie:     
+
+- [ ] Ouvrir le dossier **Assets > Minuteries**.
+- [ ] Glissez le prefab **MinuterieRedemarrage** dans votre jeu.
+- [ ] Modifiez le paramètre **Duration** du script. Ce paramètre détermine la durée de votre jeu. Il devrait être d'au moins 30 secondes. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4HjRzJdY0Ws?si=_AjXtztvvCEiqHyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -510,7 +548,6 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
 - [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change.
-- [ ] Un bouton X nous permet de fermer le jeu.
 - [ ] Lorsque votre minuterie se termine, plutôt que de recommencer le jeu tout de suite, affichez un menu avec le score actuel, le meilleur score, un bouton pour quitter le jeu et un bouton pour le redémarrer. (Expliqué partiellement dans le tutoriel de minuterie)
 
 
