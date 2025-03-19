@@ -351,7 +351,8 @@ videoPlayer.Stop();
 - [ ] Glissez ce contrôleur dans le champ **Controller** de l'Animator de l'objet SpotLight.
 - [ ] Ouvrez les fenêtres **Animation** et **Animator** si vous ne les avez pas avec **Window>Animation>...**.
 - [ ] Sélectionnez l'objet qui contient **l'Animator** du SpotLight.
-- [ ] Dans la fenêtre **Animation** créez trois animations :        
+- [ ] Dans la fenêtre **Animation** créez trois animations :
+ 
      - **FadeIn**: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
      - **ChangeColor**: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
      - **FadeOut**: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.
@@ -399,6 +400,7 @@ public Animator animLumiere;
 
 
 **Créer un parent pour les objets**
+
 - [ ] Faites un clic droit dans la **Hiérarchie**. Sélectionnez **Create Empty**.
 - [ ] Renommez cet objet, par exemple **ParentEtoile**.
 - [ ] Assurez-vous que la position de cet objet est à **(0, 0, 0)**.
@@ -407,6 +409,7 @@ public Animator animLumiere;
 - [ ] Glissez l'étoile comme **enfant** de l'objet vide **ParentEtoile**.
 
 **Configurer le Collider pour la détection**
+
 - [ ] Sélectionnez votre objet (par exemple l'étoile).
 - [ ] Cliquez sur **Add Component** et recherchez **Box Collider**.
 - [ ] Si le Collider est trop petit ou trop grand, cliquez sur le triangle de **Edit Collider** et modifier manuellement la boîte pour qu'elle s'adapte à la forme de l'objet. (Elle devrait être légèrement plus grande)
