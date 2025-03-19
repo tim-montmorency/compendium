@@ -220,14 +220,113 @@ void OnTriggerEnter(Collider other)
 }
 ```
 
-- [ ] 
+- [ ] Dans cette fonction, vous devez activer votre objet si vous êtes dans la bonne zone:
+
+```csharp
+ if (other.CompareTag("nomDeVotreLayer"))
+    {
+        ampoule.SetActive(true);
+    }
+```
+
+**Créer la détection de sortie d'une zone**
+
+- [ ] Lorsque votre joueur sort, c'est plutôt la fonction de sortie que vous devez utiliser. 
+
+```csharp
+void OnTriggerExit(Collider other)
+{
+    //Insérer le code pour vérifier de quel zone on sort et pour désactiver l'ampoule.
+}
+```
+
+- [ ] Sauvegardez votre script et retournez dans Unity. 
+
+**Assigner le script au joueur**    
+
+- [ ] Sélectionnez Joueur dans la hiérarchie.
+- [ ] Faites glisser le script PlayerInteraction.cs sur l'objet Joueur.
+- [ ] Faites glisser l'ampoule de la cuisine dans le champ Ampoule de l'inspecteur.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuisWgC1V7U?si=9MS-zsAGQ_Vsd7YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
        
 ## 10. Partir ou arrêter une vidéo avec la détection
-- [ ] Suivez la vidéo suivante pour partir ou arrêter une vidéo dans votre télévision selon la présence ou non de votre personnage dans la pièce:
+
+**Configurer la zone interactive**  
+
+- [ ] Sélectionnez la zone qui contient votre télévision dans la hiérarchie.  
+- [ ] En haut de l'inspecteur, cliquez sur **Tag**.  
+- [ ] Sélectionnez **Add Tag...**.  
+- [ ] Cliquez sur le **+** et ajoutez un tag nommé **Zone2**(ou le nom de votre choix).  
+- [ ] Assignez le tag **zone2** à la zone de votre télévision. 
+
+**Télécharger et importer la vidéo**  
+
+- [ ] Allez sur un site comme Pexels ou Pixabay pour télécharger une vidéo. Choisissez une vidéo de taille raisonnable (par exemple, 1920x1080 ou 1280x720) pour éviter les vidéos trop lourdes.  
+- [ ] Téléchargez la vidéo (par exemple, une vidéo de 3 à 15 secondes).  
+- [ ] Créez un dossier **Vidéo** dans le dossier **Art** de votre projet Unity pour garder tout organisé.  
+- [ ] Importez la vidéo en la faisant glisser dans ce dossier.
+
+**Ajouter le composant Vidéo Player à l'écran**  
+
+- [ ] Sélectionnez l'objet **Écran Télé** dans la hiérarchie de votre scène.  
+- [ ] Dans l'inspecteur, cliquez sur **Add Component**.  
+- [ ] Recherchez et ajoutez le composant **Video Player**.  
+- [ ] Dans le champ **Video Clip**, glissez votre vidéo importée.  
+- [ ] Pour que la vidéo joue en boucle, cochez **Loop**.  
+- [ ] Si vous ne voulez pas de son, choisissez **None** dans l'option **Audio Output Mode** .
+
+**Ajuster le matériel de l'écran pour afficher la vidéo**  
+
+- [ ] Sélectionnez l'écran télé et allez dans le **Material** de l'objet.  
+- [ ] Changez le type de matériel (shader en haut de l'inspecteur) en **Unlit/Texture** pour permettre l'affichage de la vidéo.  
+- [ ] Vous devez créer une texture pour l'écran éteint (par exemple, un écran noir avec quelques boutons).
+- [ ] Importez votre texture personnalisée dans Unity. 
+- [ ] Appliquez cette texture à l'écran dans le paramètre **None/texture** du material. 
+
+**Contrôler la vidéo avec le script du joueur**  
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.  
+- [ ] Trouvez le script **InteractionsJoueur**.
+- [ ] Ouvrez le script et ajoutez la bibliothèque pour la vidéo:
+
+```csharp
+// Ajouter une bibliothèque
+using UnityEngine.Video;
+```
+
+- [ ] Créez ensuite un objet pour contenir votre vidéo
+
+```csharp
+// Référence au VideoPlayer de l'écran
+public VideoPlayer videoPlayer; 
+```
+
+- [ ] Utilisez ensuite la fonction d'entrée dans le salon. Si le bon tag est détecté, vous pouvez partir votre vidéo:
+
+```csharp
+ if (other.CompareTag("nomDeVotreLayer"))
+    {
+        // Démarre la vidéo
+        videoPlayer.Play(); 
+    }
+```
+
+- [ ] Lors de la sortie, utilisez plutôt la ligne suivante: 
+
+```csharp
+// Arrête la vidéo
+videoPlayer.Stop(); 
+```
+
+- [ ] Sauvegardez votre script et retournez dans Unity.
+
+**Terminer de préparer le joueur**   
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.
+- [ ] Dans l'inspecteur du joueur, faites glisser l'objet **Écran Télé** dans le champ **VideoPlayer** du script.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=iBgchBjInUY2wa73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -279,8 +378,8 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
 
 ## 17. Exporter le jeu
-- [ ] Exporter le jeu à l'aide du bouton build dans File, build settings.
-- [ ] Remettez le .exe de votre jeu à votre nom dans le dossier de remise:
+- [ ] Exporter le jeu à l'aide du bouton build dans File, build settings. Sauvegarder le tout dans un dossier nommé **Build**.
+- [ ] Remettez le dossier build de votre jeu dans un dossier à votre nom dans le dossier de remise:
 
 [📁 Remise Travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Etxrw-BcDyBIiQBwBSHKIIAB5nD74_l8FJF2CNYIjjQPbw?e=JYEvdE){ .md-button }   
 
