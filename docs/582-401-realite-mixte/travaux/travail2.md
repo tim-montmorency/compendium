@@ -353,9 +353,9 @@ videoPlayer.Stop();
 - [ ] Sélectionnez l'objet qui contient **l'Animator** du SpotLight.
 - [ ] Dans la fenêtre **Animation** créez trois animations :
  
-     - **FadeIn**: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
-     - **ChangeColor**: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
-     - **FadeOut**: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.
+- **FadeIn**: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
+- **ChangeColor**: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
+- **FadeOut**: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.
 
 - [ ] Ouvrez la fenêtre **Animator**. Assurez-vous d'être encore sur l'objet SpotLight qui contient l'animator.
 - [ ] Assurez-vous que l'animation **FadeIn** est en orange (Première animation). Si ce n'est pas le cas, faite un clic-droit sur **FadeIn**, cliquez ensuite sur **Set as LayerDefaultState**.
