@@ -7497,9 +7497,37 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour configurer la minuterie, vous devez télécharger et importer dans votre jeu ce paquet personnalisé dans votre projet:      </li>
 </ul>
 <p><a class="md-button" href="https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr">📁 Minuterie</a>      </p>
+<p><strong>Ajouter le script</strong></p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez ensuite cette vidéo pour créer votre minuterie:     </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la hiérarchie, faites <strong>Clic-droit &gt; Create empty</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Nommez l'objet <strong>Pointage</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le dossier <strong>Assets &gt; HighScore</strong>, sélectionnez le script <strong>High Score Persistant</strong> et glissez-le sur l'objet <strong>Pointage</strong>.</li>
 </ul>
+<p><strong>Créer un canvas pour afficher le pointage</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet <strong>Pointage</strong>, <strong>Clic-droit &gt; UI &gt; Canvas</strong>. Cela créera un canvas comme enfant du pointage.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet <strong>Canvas</strong>, assurez-vous que le <strong>UI Scale Mode</strong> du <strong>Canvas scaler</strong> est en mode <strong>Scale With Screen Size</strong>. La <strong>Reference resolution</strong> doit être à <strong>1920 x 1080</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour voir votre Canvas: appuyez sur <strong>F</strong> et assurez-vous d'être en 2D avec le bouton 2D en haut à droite de la fenêtre Scene.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet <strong>Canvas</strong>, <strong>Clic-droit &gt; UI &gt; Panel</strong>. Assurez-vous que le fond est transparent.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet <strong>Panel</strong>, <strong>Clic-droit &gt; UI &gt; Text - TextMeshPro</strong>. Choisir la couleur de votre texte. Renommer votre objet <strong>PointageActuel</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dupliquez l'objet texte et renommez-le <strong>MeilleurPointage</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez deux autres objets de texte qui seront les titres pour vos pointages.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur l'objet <strong>Pointage</strong>. Glissez l'objet <strong>PointageActuel</strong> dans le paramètre <strong>Texte Pointage</strong> du script <strong>High Score Persistant</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez ensuite l'objet <strong>MeilleurPointage</strong> dans le paramètre ** Texte High Score** du script <strong>High Score Persistant</strong>.</li>
+</ul>
+<p><strong>Modifier le pointage</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet <strong>Joueur</strong> dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Trouvez le script <strong>InteractionsJoueur</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez le script, ajoutez une variable pour parler au script de pointage: </li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">HighScorePersistant</span><span class="w"> </span><span class="n">pointage</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez votre pointage dans la bonne fonction (elle existe déjà). Vous avez déjà une variable qui contient le nouveauPointage, vous devez la trouver et remplacer nouveauPointage par cette variable:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="n">pointage</span><span class="p">.</span><span class="n">OnChangerPointage</span><span class="p">(</span><span class="n">nouveauPointage</span><span class="p">);</span>
+</code></pre></div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4HjRzJdY0Ws?si=_AjXtztvvCEiqHyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="16-defis">16. Défis<a class="headerlink" href="#16-defis" title="Permanent link">¶</a></h2>
