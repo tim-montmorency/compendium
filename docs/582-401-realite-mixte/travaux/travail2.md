@@ -499,7 +499,40 @@ public int count;
 
 [📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
 
-- [ ] Suivez ensuite cette vidéo pour créer votre minuterie:     
+**Ajouter le script**
+
+- [ ] Dans la hiérarchie, faites **Clic-droit > Create empty**.
+- [ ] Nommez l'objet **Pointage**.
+- [ ] Dans le dossier **Assets > HighScore**, sélectionnez le script **High Score Persistant** et glissez-le sur l'objet **Pointage**.
+
+**Créer un canvas pour afficher le pointage**
+
+- [ ] Sur l'objet **Pointage**, **Clic-droit > UI > Canvas**. Cela créera un canvas comme enfant du pointage.
+- [ ] Sur l'objet **Canvas**, assurez-vous que le **UI Scale Mode** du **Canvas scaler** est en mode **Scale With Screen Size**. La **Reference resolution** doit être à **1920 x 1080**.
+- [ ] Pour voir votre Canvas: appuyez sur **F** et assurez-vous d'être en 2D avec le bouton 2D en haut à droite de la fenêtre Scene.
+- [ ] Sur l'objet **Canvas**, **Clic-droit > UI > Panel**. Assurez-vous que le fond est transparent.
+- [ ] Sur l'objet **Panel**, **Clic-droit > UI > Text - TextMeshPro**. Choisir la couleur de votre texte. Renommer votre objet **PointageActuel**.
+- [ ] Dupliquez l'objet texte et renommez-le **MeilleurPointage**.
+- [ ] Créez deux autres objets de texte qui seront les titres pour vos pointages.
+- [ ] Cliquez sur l'objet **Pointage**. Glissez l'objet **PointageActuel** dans le paramètre **Texte Pointage** du script **High Score Persistant**.
+- [ ] Glissez ensuite l'objet **MeilleurPointage** dans le paramètre ** Texte High Score** du script **High Score Persistant**.
+
+**Modifier le pointage**
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.  
+- [ ] Trouvez le script **InteractionsJoueur**.
+- [ ] Ouvrez le script, ajoutez une variable pour parler au script de pointage: 
+
+```csharp
+public HighScorePersistant pointage; 
+```
+
+- [ ] Ajoutez votre pointage dans la bonne fonction (elle existe déjà). Vous avez déjà une variable qui contient le nouveauPointage, vous devez la trouver et remplacer nouveauPointage par cette variable:
+
+```csharp
+pointage.OnChangerPointage(nouveauPointage);
+```
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4HjRzJdY0Ws?si=_AjXtztvvCEiqHyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
