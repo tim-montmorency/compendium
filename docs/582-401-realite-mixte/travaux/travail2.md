@@ -396,7 +396,64 @@ public Animator animLumiere;
 
        
 ## 12. Créer des prefabs
-- [ ] Suivez la vidéo suivante pour ajouter des objets que le personnage pourra récupérer dans votre pièce:
+
+
+**Créer un parent pour les objets**
+- [ ] Faites un clic droit dans la **Hiérarchie**. Sélectionnez **Create Empty**.
+- [ ] Renommez cet objet, par exemple **ParentEtoile**.
+- [ ] Assurez-vous que la position de cet objet est à **(0, 0, 0)**.
+- [ ] Ajoutez votre modèle 3D dans la scène (par exemple une étoile).
+- [ ] Positionnez-le correctement. **(0, 0 ,0)**
+- [ ] Glissez l'étoile comme **enfant** de l'objet vide **ParentEtoile**.
+
+**Configurer le Collider pour la détection**
+- [ ] Sélectionnez votre objet (par exemple l'étoile).
+- [ ] Cliquez sur **Add Component** et recherchez **Box Collider**.
+- [ ] Si le Collider est trop petit ou trop grand, cliquez sur le triangle de **Edit Collider** et modifier manuellement la boîte pour qu'elle s'adapte à la forme de l'objet. (Elle devrait être légèrement plus grande)
+- [ ] Assurez-vous que **Is Trigger** est coché si vous voulez détecter l'entrée et la sortie.
+
+
+**Créer un tag pour les objets ramassables**
+
+- [ ] Sélectionnez votre objet (étoile).
+- [ ] En haut de l'Inspecteur, cliquez sur **Tag > Add Tag**.
+- [ ] Cliquez sur le **+** et ajoutez un nouveau tag appelé **Etoile** (ou un autre nom selon votre choix).
+- [ ] Retournez sur votre étoile.
+- [ ] Assignez-lui le tag **Etoile**.
+
+
+**Créer un Prefab pour dupliquer l'objet**
+
+- [ ] Allez dans votre dossier **Prefabs** dans le **Project**.
+- [ ] Glissez le parent **ParentEtoile** dans ce dossier.
+- [ ] Le parent devient **bleu**, indiquant qu'il est maintenant un Prefab.
+
+
+**Dupliquer les objets dans la scène**
+
+- [ ] Glissez le Prefab dans la scène autant de fois que nécessaire.
+- [ ] Placez les objets dans la scène de manière à ce qu'ils soient accessibles au joueur. Assurez-vous qu'ils ne traversent pas d'autres objets comme des tables ou des murs.
+
+
+**Créer une animation pour l'objet**
+
+- [ ] Sélectionnez le parent **ParentEtoile**.
+- [ ] Cliquez sur **Add Component** et ajoutez **Animator**.
+- [ ] Créez un **Animator Controller** nommé **AnimatorEtoile**.
+- [ ] Glissez-le dans le champ **Controller** de l'Animator.
+- [ ] Ouvrez la fenêtre **Animation**.
+- [ ] Créez un **nouveau clip** appelé **AnimationEtoile**.
+- [ ] Sélectionnez l'enfant (l'étoile) pour animer un de ses paramètres.
+- [ ] Exemple: Position de départ : (0, 0, 0). Position après 15 frames : légèrement plus haut. Retour à la position de départ à 30 frames.  
+
+
+**Modifier le Prefab globalement**  
+
+- [ ] Double-cliquez sur le Prefab pour l'ouvrir.
+- [ ] Apportez les modifications nécessaires (par exemple, changer la couleur).
+- [ ] Sauvegardez les modifications.
+- [ ] Toutes les copies dans la scène seront mises à jour automatiquement.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        
