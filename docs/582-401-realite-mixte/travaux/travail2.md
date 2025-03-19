@@ -387,6 +387,10 @@ public Animator animLumiere;
 - [ ] Lors de la sortie, assurez-vous de jouer l'animation FadeOut.
 - [ ] Sauvegardez votre script et retournez dans Unity.
 
+**Terminer de préparer le joueur**   
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.
+- [ ] Dans l'inspecteur du joueur, faites glisser l'objet **SpotLight** dans le champ **AnimLumiere** du script.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
