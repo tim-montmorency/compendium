@@ -11,7 +11,10 @@
 <p>Voici un exemple du contrat que votre employeur devra signer:</p>
 <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EZjnnm9o26tHhY87_TBolrgBrfEXfeUGLpP2BpmI-3faeA?e=1KL1Oc">Descriptif du programme</a>
 
-     
+Accepter la convention:     
+
+<a href="https://forms.office.com/r/WQdB7HW2Fu">Formulaire</a>
+
 
 <h2>Calendrier et échéancier hiver</h2>
 
