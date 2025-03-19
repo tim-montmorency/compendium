@@ -7464,9 +7464,22 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="13-amasser-des-objets">13. Amasser des objets<a class="headerlink" href="#13-amasser-des-objets" title="Permanent link">¶</a></h2>
+<p><strong>Créer le script pour ramasser les prefab</strong></p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour amasser des objets et les compter:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet <strong>Joueur</strong> dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Trouvez le script <strong>InteractionsJoueur</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez le script, ajoutez une variable pour compter les prefabs amassés:</li>
 </ul>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le OnTriggerEnter, allez ajouter une condition pour le <strong>TriggerEnter</strong>. Si le tag est celui de votre prefab:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="w">        </span><span class="c1">// Désactiver le Prefab (Il faut ABSOLUMENT parler à other, c'est l'objet avec lequel on est entré en collision.)</span>
+<span class="w">        </span><span class="n">other</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="n">SetActive</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+<span class="w">        </span><span class="c1">// Ajouter 1 à notre décompte</span>
+<span class="w">        </span><span class="n">count</span><span class="w"> </span><span class="o">++</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=wFWQL9AsoRv9aB_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="14-pointage-et-meilleur-pointage">14. Pointage et meilleur pointage<a class="headerlink" href="#14-pointage-et-meilleur-pointage" title="Permanent link">¶</a></h2>
