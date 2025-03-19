@@ -489,16 +489,6 @@ public int count;
 
 [📁 Pointage](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWEV07uUq1JJoHfK1ALCmMwBvrEaXVA3Cb8p1C5p1MV6Kw?e=eqP3CM){ .md-button }      
 
-- [ ] Suivez ensuite cette vidéo pour créer des variables de pointage et de meilleur pointage qui vont se mettre à jour:     
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AlMWnTkihvk?si=zqATKfYjvwWOHk9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-## 15. Minuterie
-- [ ] Pour configurer la minuterie, vous devez télécharger et importer dans votre jeu ce paquet personnalisé dans votre projet:      
-
-[📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
-
 **Ajouter le script**
 
 - [ ] Dans la hiérarchie, faites **Clic-droit > Create empty**.
@@ -532,6 +522,17 @@ public HighScorePersistant pointage;
 ```csharp
 pointage.OnChangerPointage(nouveauPointage);
 ```
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.
+- [ ] Dans l'inspecteur du joueur, faites glisser l'objet **Pointage** dans le champ **Pointage** du script.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AlMWnTkihvk?si=zqATKfYjvwWOHk9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## 15. Minuterie
+- [ ] Pour configurer la minuterie, vous devez télécharger et importer dans votre jeu ce paquet personnalisé dans votre projet:      
+
+[📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4HjRzJdY0Ws?si=_AjXtztvvCEiqHyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
