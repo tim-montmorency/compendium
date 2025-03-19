@@ -3,7 +3,7 @@
      
 
 <h2>Plan de cours</h2>
-<a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EaZyMtSkVrJCktg-x0_oyqcBNu2JY0jMM7bwrs6jNxl3Rg?e=hwiGg3">Plan de cours</a>
+<a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX3PKuCRInlAjNjxw8nFhNoBQEooSM7loPAPEHPIgj2gsQ?e=hCpLSQ">Plan de cours</a>
 
      
 
