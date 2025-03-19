@@ -55,10 +55,12 @@ Projet
 
 
 
+---
 
-### Série de vidéos qui explique comment animer chaque élément
+### Série de vidéos qui expliquent comment animer chaque élément
 [:material-play-circle: Série vidéos](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgybxTn_yPZOjqSFZPq5X50B8m31-oq9Xoo6TyDrWzet-A?e=7Whj3l){ .md-button }
 
+---
 
 
 
