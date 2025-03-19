@@ -281,5 +281,5 @@ Précomposition et échelle. C'est aussi simple que ça !
   ![](./exercices_ae/rube_goldberg/rube.jpg)
 
   <small>Exercice - After Effects</small><br>
-  **[Rube](./exercices_ae/rube_goldberg/rube.md){.stretched-link .back}**
+  **[Rube Goldberg](./exercices_ae/rube_goldberg/rube.md){.stretched-link .back}**
 </div>
