@@ -534,7 +534,8 @@ pointage.OnChangerPointage(nouveauPointage);
 
 [📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
 
-- [ ] Ouvrir le dossier **Assets > Minuteries**.
+
+- [ ] Ouvrir le dossier **Assets > Minuteries**.
 - [ ] Glissez le prefab **MinuterieRedemarrage** dans votre jeu.
 - [ ] Modifiez le paramètre **Duration** du script. Ce paramètre détermine la durée de votre jeu. Il devrait être d'au moins 30 secondes. 
 
