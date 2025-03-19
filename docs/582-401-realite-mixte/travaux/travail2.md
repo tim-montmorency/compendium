@@ -461,7 +461,26 @@ public Animator animLumiere;
 <iframe width="560" height="315" src="https://www.youtube.com/embed/csC7q3mFQjQ?si=Dn2UczlfJ8Qq80HJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        
 ## 13. Amasser des objets
-- [ ] Suivez la vidéo suivante pour amasser des objets et les compter:
+
+**Créer le script pour ramasser les prefab**
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.  
+- [ ] Trouvez le script **InteractionsJoueur**.
+- [ ] Ouvrez le script, ajoutez une variable pour compter les prefabs amassés:
+
+```csharp
+public int count; 
+```
+
+- [ ] Dans le OnTriggerEnter, allez ajouter une condition pour le **TriggerEnter**. Si le tag est celui de votre prefab:
+
+```csharp
+        // Désactiver le Prefab (Il faut ABSOLUMENT parler à other, c'est l'objet avec lequel on est entré en collision.)
+        other.gameObject.SetActive(false);
+        // Ajouter 1 à notre décompte
+        count ++; 
+
+```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pktYZ4XboPU?si=wFWQL9AsoRv9aB_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
