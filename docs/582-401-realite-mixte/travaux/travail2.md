@@ -304,7 +304,7 @@ using UnityEngine.Video;
 public VideoPlayer videoPlayer; 
 ```
 
-- [ ] Utilisez ensuite la fonction d'entrée dans le salon. Si le bon tag est détecté, vous pouvez partir votre vidéo:
+- [ ] Utilisez ensuite la fonction d'entrée dans la zone. Si le bon tag est détecté, vous pouvez partir votre vidéo:
 
 ```csharp
  if (other.CompareTag("nomDeVotreLayer"))
@@ -332,7 +332,61 @@ videoPlayer.Stop();
 
        
 ## 11. Animer un paramètre sur une lumière
-- [ ] Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:
+
+**Configurer la zone interactive**  
+
+- [ ] Sélectionnez la zone qui contient votre SpotLight dans la hiérarchie.  
+- [ ] En haut de l'inspecteur, cliquez sur **Tag**.  
+- [ ] Sélectionnez **Add Tag...**.  
+- [ ] Cliquez sur le **+** et ajoutez un tag nommé **Zone3**(ou le nom de votre choix).  
+- [ ] Assignez le tag **zone3** à la zone de votre SpotLight. 
+
+**Créer l'animateur et les animations**
+
+- [ ] Sélectionnez le **parent** du Spotlight (ou le Spotlight lui-même si vous n'avez pas de parent).
+- [ ] Cliquez sur **Add Component** et recherchez **Animator**. Ajouter cette composante.
+- [ ] Dans la fenêtre **Project**. Allez dans le dossier **Animation**.
+- [ ] Faites un clic droit et sélectionnez **Create > Animator Controller**.
+- [ ] Nommez-le **Controleur**.
+- [ ] Glissez ce contrôleur dans le champ **Controller** de l'Animator de l'objet SpotLight.
+- [ ] Ouvrez les fenêtres **Animation** et **Animator** si vous ne les avez pas avec **Window>Animation>...**.
+- [ ] Sélectionnez l'objet qui contient **l'Animator** du SpotLight.
+- [ ] Dans la fenêtre **Animation** créez trois animations :        
+     - **FadeIn**: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
+     - **ChangeColor**: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
+     - **FadeOut**: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.
+
+- [ ] Ouvrez la fenêtre **Animator**. Assurez-vous d'être encore sur l'objet SpotLight qui contient l'animator.
+- [ ] Assurez-vous que l'animation **FadeIn** est en orange (Première animation). Si ce n'est pas le cas, faite un clic-droit sur **FadeIn**, cliquez ensuite sur **Set as LayerDefaultState**.
+- [ ] Ensuite, sélectionnez **FadeIn**, appuyez sur le clic-droit, puis sélectionnez **Make Transition**. Appuyez ensuite sur **ColorChange**. Cela créera une transition entre vos deux animations.
+- [ ] Sélectionnez ensuite **Any State**, appuyez sur le clic-droit, puis sélectionnez **Make Transition**. Appuyez ensuite sur **FadeOut**. Cela fera en sorte que vous pourrez sortir quand vous voulez de votre animation.
+- [ ] Pour les animations **FadeIn** et **FadeOut**: Double-cliquez sur les animations et décochez le paramètre **Loop Time**. Cela va vous assurez que votre animation jouera une seule fois.
+
+
+**Créer le script pour déclencher les animations**
+
+- [ ] Sélectionnez l'objet **Joueur** dans la hiérarchie.  
+- [ ] Trouvez le script **InteractionsJoueur**.
+- [ ] Ouvrez le script et créez un objet pour parler à votre SpotLight:
+
+```csharp
+// Référence au SpotLight
+public Animator animLumiere; 
+```
+
+- [ ] Utilisez ensuite la fonction d'entrée dans la zone. Si le bon tag est détecté, vous pouvez partir votre animation:
+
+```csharp
+ if (other.CompareTag("nomDeVotreLayer"))
+    {
+        // Démarre l'animation
+        animLumiere.Play("FadeIn");
+    }
+```
+
+- [ ] Lors de la sortie, assurez-vous de jouer l'animation FadeOut.
+- [ ] Sauvegardez votre script et retournez dans Unity.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
