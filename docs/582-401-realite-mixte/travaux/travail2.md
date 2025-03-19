@@ -534,6 +534,9 @@ pointage.OnChangerPointage(nouveauPointage);
 
 [📁 Minuterie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETaDogb42qlNgkLmQfibaY0BNe8O8tyC4GR_GI6i7EFvAA?e=Brnmgr){ .md-button }      
 
+- [ ] Ouvrir le dossier **Assets > Minuteries**.
+- [ ] Glissez le prefab **MinuterieRedemarrage** dans votre jeu.
+- [ ] Modifiez le paramètre **Duration** du script. Ce paramètre détermine la durée de votre jeu. Il devrait être d'au moins 30 secondes. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4HjRzJdY0Ws?si=_AjXtztvvCEiqHyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -544,7 +547,6 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 
 - [ ] Animez une lumière Directionnal light pour simuler le cycle du jour et de la nuit à l'extérieur de la maison.
 - [ ] Créez une quatrième zone de détection. Dedans il y a un objet animé et lorsque vous entrez dans la zone l'animation de cet objet change.
-- [ ] Un bouton X nous permet de fermer le jeu.
 - [ ] Lorsque votre minuterie se termine, plutôt que de recommencer le jeu tout de suite, affichez un menu avec le score actuel, le meilleur score, un bouton pour quitter le jeu et un bouton pour le redémarrer. (Expliqué partiellement dans le tutoriel de minuterie)
 
 
