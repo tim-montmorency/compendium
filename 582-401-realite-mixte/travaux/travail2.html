@@ -7323,7 +7323,7 @@
 <span class="k">public</span><span class="w"> </span><span class="n">VideoPlayer</span><span class="w"> </span><span class="n">videoPlayer</span><span class="p">;</span><span class="w"> </span>
 </code></pre></div>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Utilisez ensuite la fonction d'entrée dans le salon. Si le bon tag est détecté, vous pouvez partir votre vidéo:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Utilisez ensuite la fonction d'entrée dans la zone. Si le bon tag est détecté, vous pouvez partir votre vidéo:</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">CompareTag</span><span class="p">(</span><span class="s">"nomDeVotreLayer"</span><span class="p">))</span>
 <span class="w">    </span><span class="p">{</span>
@@ -7348,8 +7348,57 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljcn5VG5958?si=iBgchBjInUY2wa73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 id="11-animer-un-parametre-sur-une-lumiere">11. Animer un paramètre sur une lumière<a class="headerlink" href="#11-animer-un-parametre-sur-une-lumiere" title="Permanent link">¶</a></h2>
+<p><strong>Configurer la zone interactive</strong>  </p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Suivez la vidéo suivante pour animer l'état d'une lumière et partir vos animations selon la présence ou non de votre personnage dans la pièce:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez la zone qui contient votre SpotLight dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> En haut de l'inspecteur, cliquez sur <strong>Tag</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez <strong>Add Tag...</strong>.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur le <strong>+</strong> et ajoutez un tag nommé <strong>Zone3</strong>(ou le nom de votre choix).  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assignez le tag <strong>zone3</strong> à la zone de votre SpotLight. </li>
+</ul>
+<p><strong>Créer l'animateur et les animations</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez le <strong>parent</strong> du Spotlight (ou le Spotlight lui-même si vous n'avez pas de parent).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cliquez sur <strong>Add Component</strong> et recherchez <strong>Animator</strong>. Ajouter cette composante.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre <strong>Project</strong>. Allez dans le dossier <strong>Animation</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Faites un clic droit et sélectionnez <strong>Create &gt; Animator Controller</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Nommez-le <strong>Controleur</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez ce contrôleur dans le champ <strong>Controller</strong> de l'Animator de l'objet SpotLight.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez les fenêtres <strong>Animation</strong> et <strong>Animator</strong> si vous ne les avez pas avec <strong>Window&gt;Animation&gt;...</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet qui contient <strong>l'Animator</strong> du SpotLight.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la fenêtre <strong>Animation</strong> créez trois animations :      <br>
+     - <strong>FadeIn</strong>: L'intensité de la lumière commence à 0, quelques frames plus tard elle est à 1 ou 2.
+     - <strong>ChangeColor</strong>: Modifiez le paramètre color de votre animation pour que la couleur de votre lumière change dans le temps. L'animation doit être fluide.
+     - <strong>FadeOut</strong>: Faire l'animation inverse du fadeIn. Débuter à 1 ou 2 pour l'intensité, puis terminer à 0.</li>
+</ul>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez la fenêtre <strong>Animator</strong>. Assurez-vous d'être encore sur l'objet SpotLight qui contient l'animator.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Assurez-vous que l'animation <strong>FadeIn</strong> est en orange (Première animation). Si ce n'est pas le cas, faite un clic-droit sur <strong>FadeIn</strong>, cliquez ensuite sur <strong>Set as LayerDefaultState</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ensuite, sélectionnez <strong>FadeIn</strong>, appuyez sur le clic-droit, puis sélectionnez <strong>Make Transition</strong>. Appuyez ensuite sur <strong>ColorChange</strong>. Cela créera une transition entre vos deux animations.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez ensuite <strong>Any State</strong>, appuyez sur le clic-droit, puis sélectionnez <strong>Make Transition</strong>. Appuyez ensuite sur <strong>FadeOut</strong>. Cela fera en sorte que vous pourrez sortir quand vous voulez de votre animation.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Pour les animations <strong>FadeIn</strong> et <strong>FadeOut</strong>: Double-cliquez sur les animations et décochez le paramètre <strong>Loop Time</strong>. Cela va vous assurez que votre animation jouera une seule fois.</li>
+</ul>
+<p><strong>Créer le script pour déclencher les animations</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionnez l'objet <strong>Joueur</strong> dans la hiérarchie.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Trouvez le script <strong>InteractionsJoueur</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez le script et créez un objet pour parler à votre SpotLight:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="c1">// Référence au SpotLight</span>
+<span class="k">public</span><span class="w"> </span><span class="n">Animator</span><span class="w"> </span><span class="n">animLumiere</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Utilisez ensuite la fonction d'entrée dans la zone. Si le bon tag est détecté, vous pouvez partir votre animation:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">CompareTag</span><span class="p">(</span><span class="s">"nomDeVotreLayer"</span><span class="p">))</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Démarre l'animation</span>
+<span class="w">        </span><span class="n">animLumiere</span><span class="p">.</span><span class="n">Play</span><span class="p">(</span><span class="s">"FadeIn"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Lors de la sortie, assurez-vous de jouer l'animation FadeOut.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez votre script et retournez dans Unity.</li>
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUM6iT5u-DQ?si=BIEPm585rdrDDEW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
