@@ -20,9 +20,9 @@ La **précomposition**[^precomp] dans Adobe After Effects est une technique perm
 
 [^precomp]: [Précomposition, imbrication et prérendu](https://helpx.adobe.com/ca_fr/after-effects/using/precomposing-nesting-pre-rendering.html)
 
-[:material-play-circle: Précomposition et imbrication](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EYd2F6D_qkFPlmhAlDyYKMAB7DiYmy3ej8tJPcGw3eHeqQ?e=fcdAXl)
+[:material-play-circle: Précomposition et imbrication](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWQ4WuQ6SWdIomq2DZZK-EMBVBpY1IfLrNoWf-K7c_14Bw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sPeETG)
 
-[:material-play-circle: Audio avec précomposition](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdYh6hVPDCxHhf6VA7zWbR8BEyczlnp2lYrVGSK6BAVJHw?e=lrhqIm)
+[:material-play-circle: Audio avec précomposition](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EV2fHOfLhhZAlsbMaYDncFoBxGaiufyjvZUEnB7WIAcVGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ss0tV7)
 
 Cela réduit considérablement l'**encombrement** dans la fenêtre de montage et permet d'appliquer des **effets** ou **transformations** à un groupe de calques.
 
@@ -58,6 +58,13 @@ Projet
 |    └──📁 03_pre_composition 
 ...
 ```
+
+
+## Zoom-in dans une scène
+
+Précomposition et animation de l'échelle (scale). C'est aussi simple que ça !
+
+
 
 ## Effets
 
@@ -110,7 +117,7 @@ After Effects comprend un large éventail d’effets de Déformation, sous la fo
 
 Pour une application plus efficace de cet effet, convertissez votre calque en précomposition.
 
-[:material-play-circle: CC Bend It](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y)
+[:material-play-circle: CC Bend It](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Efhv75n1BrVPmWeN2ehsqokBNP10n5Rm3CcwD2A4tZl2mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zhK5Cd)
 
 #### CC Bender
 
@@ -196,7 +203,7 @@ POur les vidéos
 
 ![type:video](./assets/videos/deformation/onde-progressive.mp4)
 
-[:material-play-circle: Onde progressive](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=bIwk2Y)
+[:material-play-circle: Onde progressive](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ee6E4po4fPdGgkofOCBMpNEBV-L-Z5JYP7KzE11ZSnKtZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rdLAaH)
 
 #### Turbulence
 
@@ -244,7 +251,11 @@ Exemple :
 
 ![type:video](./assets/videos/simulation/cc-rainfall.mp4)
 
-[:material-play-circle: CC Rainfall](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERH5bWOx7BVInt8_ULJ6OwsBYh8u9XTHKri8jIjvVS6pYA?e=y75sjm)
+[:material-play-circle: CC Rainfall](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZrTdLKiEIZIkb6NWBwpcSgBOqlgqUWUU8Dg2Ol2pe74DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TlIfI7)
+
+[:material-play-circle: Splash](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVpqrd0DdFJOmTa_X01ZroUBIIZ7ZV-0Bxjltr7EyfC3aA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U2ZM6W)
+
+[:material-play-circle: Expression](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESO3vKfL-CdNuI_53ihNw-UBGaEtOgBDWKTdo5H07Fu3sw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RPN4NG) 
 
 #### CC Star Burst
 
@@ -261,16 +272,15 @@ Exemple :
 https://www.youtube.com/watch?v=Jw6P4lnFT6I
 -->
 
-!!! info "Vous en voullez plus !?"
+!!! info "Vous en voulez plus !?"
 
     Et bien c'est votre chance, voici une série de tutoriels pour [15 effets d'animations](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=iokzaN).
 
-<!-- [:material-play-circle: Splash](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=91ggi9)
-[:material-play-circle: Expression](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=C4F33M) -->
 
-## Zoom
 
-Précomposition et échelle. C'est aussi simple que ça !
+
+
+
 
 ## Exercice
 
