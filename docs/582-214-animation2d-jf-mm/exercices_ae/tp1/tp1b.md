@@ -135,14 +135,18 @@ Projet
 - [ ] Lecture de l'effet sonore `LOW-HIT_Turner_Round.wav` au moment où la femme géante dépose son pied au sol.
 - [ ] Ajustement des décibels des 3 pistes afin d'atteindre une harmonie et une cohérence sonore.
 
+
+:material-image-size-select-large: **Pré-composition et zoom sur case**
+
+- [ ] Créer une pré-composition **master** en 1920x1080, durée 28 secondes, 24 fps. Ajouter votre animation principale (de tous les éléments). Faites un zoom avant/arrière sur la première case.
+
+
+
+
 :material-movie-open: **Exportation**  
 
 - [ ] Exporter en H264 - Vimeo 1080p - 1920 x 1080 px - 28 secondes.
 
-
-:material-image-size-select-large: **Pré-composition et zoom sur case**
-
-- [ ] Créer une pré-composition avec votre animation principale (de tous les éléments). Et faites un zoom avant/arrière sur la première case
 
 
 
