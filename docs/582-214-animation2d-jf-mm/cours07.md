@@ -74,6 +74,7 @@ Les effets permettent de modifier l’apparence, le comportement ou les proprié
 ![type:video](./assets/videos/animations-predefinies/adobe-express.mp4)
 
 #### Backgrounds
+Créez un calque de type **Solide** qui couvre la composition et attribuez-lui un effet de type **Background**
 
 ![type:video](./assets/videos/animations-predefinies/backgrounds.mp4)
 
