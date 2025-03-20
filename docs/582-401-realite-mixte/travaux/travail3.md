@@ -7,6 +7,9 @@ Les seuls médias 3D permis dans vos projets sont ceux que vous créez vous-mêm
 
 Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits. Elles doivent être bien créditées dans le jeu.
 
+# Taille des équipes
+On vise des équipes de 3. 
+
 # Consignes générales
 - [ ] Vous devez produire une expérience de réalité virtuelle pour un casque Oculus.
 - [ ] Votre expérience doit se dérouler dans un lieu immersif réactif et évolutif. Il doit être possible d'interagir avec l'environnement. (toucher des objets, les prendre ou les lancer,...) On doit sentir que notre présence a un impact sur celui-ci.
@@ -23,5 +26,5 @@ Pour les médias sonores (musique, effets sonores, échantillons sonores) et la 
 - [ ] La complexité, la richesse, la variété des idées seront des critères évalués. 
 
 Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
-[📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EuyNWLjHvnxPqPRiz6w8G08BhltAFOQm4P7kHai5QuqqAA?e=LywYZ3){ .md-button }   
+[📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EuyNWLjHvnxPqPRiz6w8G08BhltAFOQm4P7kHai5QuqqAA?e=68qUHJ){ .md-button }   
 
