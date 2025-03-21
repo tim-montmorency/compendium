@@ -6,7 +6,7 @@
 
 L’objectif est de démontrer sa capacité à **installer**, **exporter**, mais aussi **configurer** et **traduire** un site WordPress.
 
-### Objectif / Résultat attendu
+### Objectif (résultat attendu)
 
 Vous devez reproduire à l'identique le site <https://exam.tim-momo.com/preview/fr/>.
 
@@ -64,24 +64,24 @@ Vous devez reproduire à l'identique le site <https://exam.tim-momo.com/preview/
   - Synchroniser les taxonomies
 - [ ] Ajouter une catégorie « Personnage » avec sa traduction (voir [traductions](./traduction.md){ .back }) (1 point)
 - [ ] Configurer l'entête du site (3 points)
-  - Transformer le « Titre du site » en « Logo du site » et ajoutez le logo TIM
+  - Transformer le « Titre du site » en « Logo du site » et ajouter le logo TIM
   - Ajouter le slongan avec sa traduction (voir [traductions](./traduction.md){ .back })
   - Retirer les icônes de réseaux sociaux
   - _Comme mentionné plus haut, pas besoin de toucher à la navigation._
 - [ ] Configurer le pied de page (3 points)
   - Changer la « Composition » du pied de page
   - Ajouter le « Language Switcher » (via "Ancien widget")
-  - Ajouter et retirer le nécessaire pour un résultat pareil au résultat attendu
+  - Ajouter et retirer le nécessaire pour que l’affichage corresponde au résultat attendu
 - [ ] Ajouter une page « À propos » avec sa traduction (voir [traductions](./traduction.md){ .back }) (3 point)
   - Ajouter la citation avec la « Composition » du thème prévue à cet effet
   - Supprimer les autres pages inutilisées
-  - Ajuster le modèle de page pour un résultat pareil au résultat attendu
+  - Ajuster le modèle de page pour que l’affichage corresponde au résultat attendu
 - [ ] Ajouter trois articles : Finn, Jake et BMO (3 points)
   - Assigner la catégorie « Personnage »
   - Traduire chaque article (voir [traductions](./traduction.md){ .back })
-  - Ajuster le modèle d'article pour un résultat pareil au résultat attendu
+  - Ajuster le modèle d'article pour que l’affichage corresponde au résultat attendu
 - [ ] Modifier le modèle d'accueil (3 points)
-  - Retirer le nécessaire pour un résultat pareil au résultat attendu
+  - Modifier et retirer le nécessaire pour que l’affichage corresponde au résultat attendu
   - Modifier « Latest posts » pour « Articles »
   - Retirer la mention « Continue reading »
 - [ ] Assurez-vous que la page d'une catégorie respecte l'affichage du résultat attendu (1 point)
