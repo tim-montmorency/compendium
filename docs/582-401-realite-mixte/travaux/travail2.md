@@ -507,7 +507,7 @@ public int count;
 - [ ] Dupliquez l'objet texte et renommez-le **MeilleurPointage**.
 - [ ] Créez deux autres objets de texte qui seront les titres pour vos pointages.
 - [ ] Cliquez sur l'objet **Pointage**. Glissez l'objet **PointageActuel** dans le paramètre **Texte Pointage** du script **High Score Persistant**.
-- [ ] Glissez ensuite l'objet **MeilleurPointage** dans le paramètre ** Texte High Score** du script **High Score Persistant**.
+- [ ] Glissez ensuite l'objet **MeilleurPointage** dans le paramètre **Texte High Score** du script **High Score Persistant**.
 
 **Modifier le pointage**
 
