@@ -1,4 +1,6 @@
-# Assets permis
+# Travail 3
+
+## Assets permis
 Les seuls médias 3D permis dans vos projets sont ceux que vous créez vous-même ou ceux disponibles sur les sites suivants:     
 
 - [Kenney.nl](https://kenney.nl/assets/category:3D?sort=update)
@@ -7,10 +9,10 @@ Les seuls médias 3D permis dans vos projets sont ceux que vous créez vous-mêm
 
 Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits. Elles doivent être bien créditées dans le jeu.
 
-# Taille des équipes
+## Taille des équipes
 On vise des équipes de 3. 
 
-# Inspiration d'un jeu rétro
+## Inspiration d'un jeu rétro
 Vous devez choisir un jeu parmis la liste suivante. Vous devrez produire votre propre version de ce jeux pour la VR. 
 
 - [Space Invader (Taito, 1978)](https://freeinvaders.org/)
@@ -26,7 +28,7 @@ Vous devez choisir un jeu parmis la liste suivante. Vous devrez produire votre p
 - [Dig dug (1982)](https://www.retrogames.cz/play_012-NES.php)
 - [Marble Madness (1984)](https://www.retrogames.cz/play_579-NES.php)
 
-# Consignes générales
+## Consignes générales
 - [ ] Vous devez produire une expérience de réalité virtuelle inspirée d'un jeu rétro pour un casque Oculus.
 - [ ] Il doit y avoir un deuxième joueur qui pourra interagir à l'aide de Touchdesigner.
 - [ ] Unity et Touchdesigner doivent communiquer via l'OSC.
@@ -41,6 +43,7 @@ Vous devez choisir un jeu parmis la liste suivante. Vous devrez produire votre p
 - [ ] Le projet doit être recherché, on doit essayer de se distinguer de ce qui existe déjà et qui a déjà été vu.
 - [ ] Vous devez remettre le projet au format exporté en plus d'une capture vidéo de l'expérience.
 
+## Remise
 
 Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
 [📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EuyNWLjHvnxPqPRiz6w8G08BhltAFOQm4P7kHai5QuqqAA?e=68qUHJ){ .md-button }   
