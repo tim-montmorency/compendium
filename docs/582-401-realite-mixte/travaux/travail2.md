@@ -556,10 +556,11 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 - [ ] Remettez le dossier build de votre jeu dans un dossier à votre nom dans le dossier de remise:
 
 [📁 Remise Travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Etxrw-BcDyBIiQBwBSHKIIAB5nD74_l8FJF2CNYIjjQPbw?e=JYEvdE){ .md-button }   
-
-
-       
+     
 
 ## Notes de cours 📚
 [📝 Prefabs](../unity/prefabs.md){ .md-button }
 [📝 Coroutine](../code/coroutine.md){ .md-button }
+[📝 Minuterie](../code/bibliotheque_exemples.md#L166){ .md-button }
+[📝 Score et pointage](../code/bibliotheque_exemples.md#L11)
+
