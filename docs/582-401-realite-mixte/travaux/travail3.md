@@ -28,6 +28,8 @@ Vous devez choisir un jeu parmis la liste suivante. Vous devrez produire votre p
 - [Dig dug (1982)](https://www.retrogames.cz/play_012-NES.php)
 - [Marble Madness (1984)](https://www.retrogames.cz/play_579-NES.php)
 
+[🕹️ Analyse de jeux arcade](../exercices/ex-jeuretro.md){ .md-button } 
+
 ## Consignes générales
 - [ ] Vous devez produire une expérience de réalité virtuelle inspirée d'un jeu rétro pour un casque Oculus.
 - [ ] Il doit y avoir un deuxième joueur qui pourra interagir à l'aide de Touchdesigner.
