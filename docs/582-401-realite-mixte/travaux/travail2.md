@@ -562,5 +562,5 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 [📝 Prefabs](../unity/prefabs.md){ .md-button }
 [📝 Coroutine](../code/coroutine.md){ .md-button }
 [📝 Minuterie](../code/bibliotheque_exemples.md#L166){ .md-button }
-[📝 Score et pointage](../code/bibliotheque_exemples.md#L11)
+[📝 Score et pointage](../code/bibliotheque_exemples.md#L11){ .md-button }
 
