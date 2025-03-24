@@ -212,7 +212,7 @@ Utilise une “page” si le contenu est statique et intemporel (ex: “À propo
 
 **Le plus souvent possible**, ajoutez une **image principale** et un **extrait** à vos articles.
 
-![](./assets/images/image-excerpt.png){data-zoom-image}
+![](./assets/images/img-excerpt.png){data-zoom-image}
 
 #### Statut de publication
 

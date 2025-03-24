@@ -55,7 +55,7 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
   ![](./assets/images/giant-swiss-knife.jpg)
 
   <small>Demo</small><br>
-  **[Le couteau suisse](./exercices_ai/suisse.ai)**<br>
+  **[Le couteau suisse](./exercice_ai/suisse.ai)**<br>
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
