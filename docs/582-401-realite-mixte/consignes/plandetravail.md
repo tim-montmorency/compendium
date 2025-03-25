@@ -20,3 +20,6 @@ Dans projects :
 
 Voici deux exemples de plan de travail réaliés à partir de consignes différentes:    
 
+[🔎 Dessert rush](https://github.com/Khatymiss707/desert_rush){ .md-button }  
+
+[🔎 Éco6teme](https://github.com/DelphineG-Projets/Plan-de-travail-3/tree/main?tab=readme-ov-file){ .md-button }  
