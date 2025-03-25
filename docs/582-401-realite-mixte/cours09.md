@@ -16,6 +16,6 @@
 - [📝 Guardian - Créer une limite de jeu](./unity/guardian.md)
 - [📝 Meta Quest Link - Relier le casque et l'ordinateur](./unity/meta_quest_link.md)
 
-### Présentation du projet final
+### Avancement du projet final
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
 
