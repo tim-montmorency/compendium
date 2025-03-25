@@ -3,7 +3,7 @@
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
 
-## Prêt des caques oculus
+## Prêt des casques oculus
 
 
 ## Début de la création du projet final
