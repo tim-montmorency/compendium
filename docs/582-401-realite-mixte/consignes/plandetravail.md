@@ -14,3 +14,9 @@ Dans projects :
 - [ ] Créez un tableau avec les tâches principales de votre jeu (Éléments à créer, à programmer,…) 
 - [ ] Pour chaque tâche, détaillez les assets à créer
 - [ ] Ajoutez les dates de tombée des éléments importants et y assigner une personne
+
+
+## Exemples
+
+Voici deux exemples de plan de travail réaliés à partir de consignes différentes:    
+
