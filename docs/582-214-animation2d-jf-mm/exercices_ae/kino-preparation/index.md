@@ -10,6 +10,8 @@
 
 ## Le Kino, ça va ressembler à quoi ?
 
+Exemple de résultat : <https://9-squares.tumblr.com/>
+
 ### Technicité
 
 * 4 compositions
