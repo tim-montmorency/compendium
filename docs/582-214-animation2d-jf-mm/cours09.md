@@ -1,7 +1,5 @@
 # Cours 9 
 
-[STOP]
-
 ## Retour sur les 12 principes de l'animation
 
 [Cours 2](./cours02.md)
@@ -9,6 +7,8 @@
 ## Alignement et distribution
 
 ![](./assets/images/repartition.png)
+
+La distribution se trouve dans le panneau "Aligner".
 
 ## Expressions
 
@@ -20,6 +20,8 @@ Quelques expressions québécoises
 > Se tirer une bûche<br>
 > Attacher sa tuque
 
+---
+
 Blague à part, en After Effetcs une expression est un **bout de code** basé sur le langage **JavaScript** qu’on peut appliquer à une propriété de calque pour l'animer.
 
 ### Ajouter une expression
@@ -30,9 +32,13 @@ Blague à part, en After Effetcs une expression est un **bout de code** basé su
 
 [:material-play-circle: Introduction aux expressions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERfo6EK5c0FHhW9JricGkIQBFeFnX6_-npLcTO8uqqJ4_w?e=eVerR2)
 
-### Variable Time
+### Variables
 
-![](./assets/images/expression-time.png){ data-zoom-image }
+![](./assets/images/expression-cheatsheet.webp){ data-zoom-image }
+
+#### Time
+
+
 
 La variable `time` est utilisée dans les expressions pour représenter le **temps actuel de la composition en secondes**.
 
@@ -44,7 +50,9 @@ Appliquée sur la rotation, l'expression ci-dessous permet de modifier la rotati
 time * 360
 ```
 
-Résultat : 
+Exemple : 
+
+![](./assets/images/expression-time.png){ data-zoom-image }
 
 ![type:video](./assets/videos/time.mp4)
 
@@ -55,7 +63,7 @@ Si on veut appliquer cette méthode à la position ou à l’échelle, il faut s
 [time * 100, time * 100]
 ```
 
-### loopOut()
+### Fonction loopOut()
 
 ![type:video](./assets/videos/loopOut.mp4)
 
@@ -88,7 +96,9 @@ Utiliser `loopOut()` sans paramètre permet parfois de réduire la complexité d
 
 Attention avec l'offset. Si la valeur à la fin de son animation est à 0, il s'arrêtera!
 
-### wiggle()
+### Fonction wiggle()
+
+![type:video](./assets/videos/wiggle.mp4)
 
 La fonction `wiggle()` permet d'ajouter un effet de tremblement.
 
@@ -110,7 +120,7 @@ wiggle(4, 40);
 
 [:material-play-circle: "Wiggle"](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXPup2WiGjlNqT7tguOtZwsBMcTmzJwpHC-sFfDGUw2dcg?e=RD7Zs5)
 
-### posterizeTime()
+### Fonction posterizeTime()
 
 Cette expression permet de modifier le framerate sur un calque spécifique.
 
@@ -126,6 +136,8 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
 ### Options pour expressions
 
+![type:video](./assets/videos/expression_fields.mp4)
+
 ![](./assets/images/option-controls.png)
 
 !!! info "Copier/coller"
@@ -136,7 +148,99 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
     Il est aussi possible de coller l'expression sur une autre propriété. 
 
-## Expression complexe
+## Effets sur les calques de forme
+
+![](./assets/images/formlayer-fx.png){ data-zoom-image }
+
+![type:video](./assets/videos/repeat.mp4)
+
+Pour créer une explosion
+
+1. Créer une forme
+1. Dans la transformation de la forme, ajuster la position à 0,0
+1. Centrer le point d'encrage sur la forme
+1. Centrer la forme dans la composition
+1. Cliquer sur Ajouter et sélectionner Répétition
+1. Modifier le nombre de copies à 12
+1. Dans la transformation de la répétition, ajuster la position à 0,0
+1. Dans la transformation de la répétition, ajuster la rotation à 360 / 12
+1. Enfin, dans le tracé de la forme, changer la position Y à une valeur inférieure
+
+!!! info "Avec un tracé"
+
+    Il est également possible d'utiliser un tracé.
+
+    Cliquer sur Ajouter et sélectionner Réduire les tracés.
+    
+    Ainsi, on peut modifier aussi la longeur des traits.
+
+## Visualiser les déformations
+
+Utiliser simplement la grille
+
+![](./assets/images/grid-sans-effet.png)
+
+![](./assets/images/grid-et-effet.png)
+
+## Ligne et effet onde progressive
+
+![type:video](./assets/videos/wave.mp4)
+
+## Blob
+
+![type:video](./assets/videos/blob.mp4)
+
+![](./assets/images/blob-fx.png)
+
+![](./assets/images/blob-layers.png)
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/fonte/preview.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[:melting_face:](./exercices_ae/fonte/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/kino-preparation/training.gif)
+
+  <small>Exercice - After Effects</small><br>
+  **[Préparation au Kino](./exercices_ae/kino-preparation/index.md){.stretched-link .back}**
+</div>
+
+[STOP]
+
+[🛠️ Loop Out](exercices_ae/07_loopOut.md)
+
+[🛠️ Expressions](exercices_ae/07_expressions.md)
+
+## Animation complexe avec le graph editor
+
+https://www.youtube.com/watch?v=HpVtzOtaHlg
+
+### Variables
+
+```js
+a = 100
+```
+
+### Conditions (if)
+
+L'instruction `if` permet d’exécuter une action seulement si une condition est vraie. 
+
+C'est utile pour déclencher un comportement seulement dans certaines situations, comme lorsque le temps dépasse une certaine valeur, ou si une case à cocher est activée.
+
+```js
+if (time > 2) {
+  100
+} else {
+  0
+}
+```
+
+### Expression complexe
 
 ![type:video](./assets/videos/expression-scale.mp4)
 
@@ -175,65 +279,9 @@ if (n > 0 && t < time_max){
 
 ```
 
+References
 
-
-## Effets sur les calques de forme
-
-![](./assets/images/formlayer-fx.png){ data-zoom-image }
-
-![type:video](./assets/videos/repeat.mp4)
-
-## Exercices
-
-[🛠️ Loop Out](exercices_ae/07_loopOut.md)
-
-[🛠️ Expressions](exercices_ae/07_expressions.md)
-
-## Préparation au Kino
-
-> Faire bien avec rien,<br>
-> faire mieux avec peu,<br>
-> mais le faire maintenant ![^kino]
-
-[^kino]: <https://fr.wikipedia.org/wiki/Kino_(mouvement)>
-
-Technicité
-
-* 3 compositions de 1080 × 1080, en 24 fps
-* Même durée pour chaque animation
-* Export final : 3240 × 1080
-* Chaque animation doit être bouclable (la première et la dernière image doivent être identiques)
-
-Esthétisme
-
-* Style graphique et palette de couleurs cohérents
-* Thématique spécifique donnée la journée même
-* Style motion design avec formes simples et tracés
-
-Style recherché : [A](https://www.pinterest.ca/loraboisvert/bauhaus/inspiration-1/), [B](https://www.pinterest.ca/loraboisvert/bauhaus/inspiration-2/), [C](https://9-squares.tumblr.com/)
-
-[STOP]
-
-## Animation complexe avec le graph editor
-
-https://www.youtube.com/watch?v=HpVtzOtaHlg
-
-### Variables
-
-```js
-a = 100
-```
-
-### Conditions (if)
-
-L'instruction `if` permet d’exécuter une action seulement si une condition est vraie. 
-
-C'est utile pour déclencher un comportement seulement dans certaines situations, comme lorsque le temps dépasse une certaine valeur, ou si une case à cocher est activée.
-
-```js
-if (time > 2) {
-  100
-} else {
-  0
-}
-```
+Burst : https://www.youtube.com/watch?v=4UtNW5FFXT8
+Repeater : https://www.youtube.com/watch?v=WLFO4nBLpDw
+Blob : https://www.youtube.com/watch?v=M4qnk40aBls
+Sine : https://www.youtube.com/watch?v=DY73Kyk0T7A
