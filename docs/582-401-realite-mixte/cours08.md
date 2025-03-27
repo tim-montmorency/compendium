@@ -8,3 +8,10 @@
 Élaborer le plan de projet pour le travail 3.   
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
+## Prêt des casques oculus
+
+### Casques de réalité virtuelle
+- [📝 Quest](./unity/quest.md)
+- [📝 Guardian - Créer une limite de jeu](./unity/guardian.md)
+- [📝 Meta Quest Link - Relier le casque et l'ordinateur](./unity/meta_quest_link.md)
+
