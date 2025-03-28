@@ -13,6 +13,8 @@ Voici une liste non exhautive de CMS populaires[^cms] :
 
 [^cms]: [Liste des 15 CMS les plus populaires](https://www.wpbeginner.com/showcase/best-cms-platforms-compared/)
 
+https://w3techs.com/technologies/details/cm-wordpress
+
 * :simple-wordpress: Wordpress (open-source)
 * :simple-drupal: Drupal (open-source)
 * :simple-joomla: Joomla (open-source)
