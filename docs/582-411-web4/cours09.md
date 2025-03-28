@@ -139,7 +139,7 @@ L'option `slug` est le `name` du templateParts et doit correspondre au fichier h
 
 L'option `tagName` est la balise html utilisée autour du contenu du template part.
 
-#### Exemple de template index.html
+#### Exemple de template header.html
 
 ```html
 <!-- wp:group {"layout":{"inherit":"true"}} -->
@@ -211,8 +211,8 @@ Par exemple si on veut inclure Bootstrap 5 dans notre projet, voici le bout de c
 // ...
 // @todo: Changer tim_momo par le nom de votre thème
 function tim_momo_enqueue_bootstrap() {
-    wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css', [], 5.3.0);
-    wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js', [], 5.3.0, true);
+    wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css', [], 5.3);
+    wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js', [], 5.3, true);
 }
 
 // @todo: Changer tim_momo par le nom de votre thème
