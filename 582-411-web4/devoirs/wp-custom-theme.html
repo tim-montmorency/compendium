@@ -6918,6 +6918,24 @@
 <p>Ce devoir est une sorte de pratique à la réalisation du TP du cours.</p>
 <p>La thématique du devoir est la musique.</p>
 <p><a href="timlogo.png">Logo tim</a></p>
+<div class="highlight"><span class="filename">header.html</span><pre><span></span><code><span class="cm">&lt;!-- wp:group {"align":"full","className":"navbar bg-primary navbar-expand-lg"} --&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"wp-block-group alignfull navbar text-bg-primary py-4 navbar-expand-lg"</span><span class="p">&gt;</span>
+  <span class="cm">&lt;!-- wp:group {"className":"container","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap","verticalAlignment":"center"}} --&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"wp-block-group container"</span><span class="p">&gt;</span>
+    <span class="cm">&lt;!-- wp:site-logo {"height":32} /--&gt;</span>
+    <span class="cm">&lt;!-- wp:group {"className":"menu-toggle-and-nav","layout":{"type":"flex","justifyContent":"flex-end","orientation":"horizontal","flexWrap":"nowrap"}} --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"wp-block-group menu-toggle-and-nav"</span><span class="p">&gt;</span>
+      <span class="cm">&lt;!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal"},"className":"navbar-nav me-auto mb-0","menuSlug":"primary"} /--&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="cm">&lt;!-- /wp:group --&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="cm">&lt;!-- /wp:group --&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="cm">&lt;!-- /wp:group --&gt;</span>
+<span class="cm">&lt;!-- wp:spacer {"height":50} --&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">"height: 50px"</span> <span class="na">aria-hidden</span><span class="o">=</span><span class="s">"true"</span> <span class="na">class</span><span class="o">=</span><span class="s">"wp-block-spacer"</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="cm">&lt;!-- /wp:spacer --&gt;</span>
+</code></pre></div>
 <h2 id="resultat-attendu">Résultat attendu<a class="headerlink" href="#resultat-attendu" title="Permanent link">¶</a></h2>
 <p>Pour le moment, nous allons nous concentrer sur la page des articles.</p>
 <p>Vous aurez à reproduire la mise en page d'article suivante : <a href="https://tim-momo.com/devoir01/2025/03/daft-punk/">https://tim-momo.com/devoir01/2025/03/daft-punk/</a>.</p>
@@ -6926,7 +6944,14 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un nouveau WordPress.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un thème personnalisé et l'activer.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Intégrer le framework <a href="https://getbootstrap.com/">Bootstrap 5.3</a> au thème créé via <code>functions.php</code>.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sans avoir recours à l'interface de gestion de WordPress, ajoutez la structure d'entête comme celle présente dans le résultat attendu. Lorsque ce sera ok, vous pourrez alors</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Ne sauvegardez pas tout de suite dans Wordpress</p>
+<p>Dans l'interface de Wordpress, lorsqu'on enregistre une modification dans un modèle, cette modification supplante le modèle programmé dans le code.</p>
+<p>Si vous avez sauvegardé par inadvertance, au pire, renommez votre theme, puis activez le. Cela réinitialisera le tout.</p>
+</div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sans avoir recours à l'interface de gestion de WordPress, ajoutez la structure d'entête comme celle présente dans le résultat attendu. Lorsque ce sera ok, vous pourrez alors sauvegarder.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez ensuite un nouveau modèle de page pour les articles. Elle devait s'appeller <code>single.html</code>.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Préparer 5 articles de groupe de musique avec une bonne classification, des images, des descriptions bien travaillées.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajuster le nom de l'auteur des articles.</li>
