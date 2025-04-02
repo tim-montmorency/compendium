@@ -16,12 +16,14 @@ L’objectif du Kino est de créer une courte œuvre d’animation composée de 
 
 Toutes les animations doivent être :
 
-- [ ] **Bouclables** : le dernier frame doit être identique au premier. (4 point)
-- [ ] **En noir et blanc uniquement** (aucun niveau de gris). (2 points)
-- [ ] **Créatives et engageantes** (originalité). (4 point)
-- [ ] **Fluides et convaincantes** (qualité d’animation / lissage). (4 point)
+- [ ] **Bouclables** : le dernier frame doit être identique au premier. (==4 points==)
+- [ ] **En noir et blanc uniquement** (aucun niveau de gris). (==2 points==)
+- [ ] **Créatives et engageantes** (originalité). (==4 points==)
+- [ ] **Fluides et convaincantes** (qualité d’animation / lissage). (==4 points==)
 
-- [ ] Chaque animation doit intégrer au minimum **un** des concepts suivants : (4 points)
+---
+
+- [ ] Chaque animation doit intégrer au minimum **un** des concepts suivants : (==4 points==)
 
 * Écrasement et étirement (12 principes de l’animation)
 * Action secondaire (12 principes de l’animation)
@@ -31,7 +33,9 @@ Toutes les animations doivent être :
 * Répétition
 * Masquage
 
-- [ ] Respect global des consignes : (2 points)
+---
+
+- [ ] Respect global des consignes : (==2 points==)
 
 ### Préparation
 
