@@ -7,7 +7,7 @@ L’objectif du Kino est de créer une courte œuvre d’animation composée de 
 !!! tip "Petits trucs"
 
     1. Pour bien gérer votre temps, prévoyez environ 30 minutes par animation.
-    1. Effectuez d'abord 4 animations simples et paufinez les par la suite. Comme ça vous aurez une base de travail assez rapidement.
+    1. Effectuez d'abord 4 animations simples et peaufinez-les par la suite. Comme ça vous aurez une base de travail assez rapidement.
     1. Prévoyez un petit moment avant la fin du kino pour l'exportation de votre vidéo.
 
 [Inspirations pour vos animations](https://pin.it/6TzQTe1Nk)
