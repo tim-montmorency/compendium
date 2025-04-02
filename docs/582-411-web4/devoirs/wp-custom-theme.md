@@ -39,7 +39,7 @@ La thématique du devoir est la musique.
 
 Pour le moment, nous allons nous concentrer sur la page des articles.
 
-Vous aurez à reproduire la mise en page d'article suivante : <https://tim-momo.com/devoir01/2025/03/daft-punk/>.
+Vous aurez à reproduire la mise en page d'article suivante : <https://web4.tim-momo.com/devoir2part1/2025/03/daft-punk/>.
 
 ## Consignes
 
