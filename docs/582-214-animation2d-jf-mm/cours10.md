@@ -8,10 +8,6 @@ Vous êtes autorisées et autorisés à utiliser Internet et vos notes de cours,
 
 Tout plagiat ou partage de documents entraînera une note de 0.
 
-## Consignes
-
-![ICI](./exercices_ae/kino/index.html){ .w-100 }
-
 ## Durée
 
 **La durée de l'examen est de ⏰ 2h40**
