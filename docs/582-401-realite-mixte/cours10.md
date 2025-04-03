@@ -1,13 +1,5 @@
 # Cours 10
 
-## Configurer la VR dans votre projet
-- [📝 Importer les paquets pour la VR](unity/configuration_vr.md)
-- [📝 Intégrer le casque de VR à une scène](unity/xr_origin.md)
-- [📝 Tester avec un clavier et une souris](unity/test_clavier.md)     
-
-## Brancher les casques 
-Tester les Grab Interactable objects
-
 ## Interagir avec les manettes et l'environnement
 - [📝 Prendre et lancer des objets](unity/interaction_vr.md)
 - [📝 Méthode de sélection des objets](unity/methode_selection.md)
