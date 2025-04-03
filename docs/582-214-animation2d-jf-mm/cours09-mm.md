@@ -1,7 +1,7 @@
 # Cours 9
 
 ## Retour sur les 12 principes de l'animation
-[Cours 2](./cours02.md)
+[Cours 2](./cours02.html#lorigine)
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
