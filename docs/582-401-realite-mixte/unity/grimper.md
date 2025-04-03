@@ -19,6 +19,9 @@
 - [ ] Glissez ensuite votre prefab dans la scène pour avoir plus d'une prise.
 
 
+!!! warning "Attention"
+
+    Pour la vidéo, écoutez seulement les sections créer un mur d'escalade et démonstration. Le reste a déjà été fait pour vous. 
 
 ## Tutoriel
 
