@@ -168,6 +168,8 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
 ![type:video](./assets/videos/repeat.mp4)
 
+---
+[:material-play-circle: Capsule: Animation sur forme concentrique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbjkS3ZpK4pOqTfqduLE-XQBcfNvtW3SF9qQV0lld__Mbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xAXrXm)
 Pour créer une explosion
 
 1. Créer une forme
@@ -203,6 +205,8 @@ Utiliser simplement la grille
 ## Blob
 
 ![type:video](./assets/videos/blob.mp4)
+
+[:material-play-circle: Capsule: comment créer des liquides blobs](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EXZOJcUwlZtBrN5igf_43e4BLenw8aL7jSQRSGbJ6zCFSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yjx5hh)
 
 ![](./assets/images/blob-fx.png)
 
