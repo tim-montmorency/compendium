@@ -1,17 +1,5 @@
-
 ## Procédure écrite
-### Climb Provider
-- [ ] Sur le GameObject Locomotion System, ajouter la composante Climb Provider.
-- [ ] Glissez le locomotion System dans le paramètre System du Climb Provider.
 
-### Système d'interaction direct pour les mains
-- [ ] Créer un objet vide comme enfant d'une des manettes, le nommer DirectInteractor.
-- [ ] Ajouter la composante XR Direct Interactor sur cet objet vide.
-- [ ] Glissez votre XR Interaction Manager dans le paramètre Interaction Manager de votre composante.
-- [ ] Cocher Improve Accuracy With Sphere Collider.
-- [ ] Ajouter un Sphere Collider sur l'objet pour représenter votre main.
-- [ ] Ajuster le radius du Collider pour qu'il aie la bonne taille.
-- [ ] Répéter ces étapes pour l'autre main.
 
 ### Créer un mur d'escalade
 - [ ] Créer un objet vide nommé Prises.
@@ -20,7 +8,7 @@
 - [ ] Sur le parent des prises, soit l'objet Prises, ajoutez la composante Climb Interactable.
 - [ ] Sur le nouveau Rigidbody, décochez use Gravity pour éviter que vos prises tombent au sol. Cochez isKinematic.
 - [ ] Dans la composante Climb Interactable, dans le paramètre Interaction Manager, glissez votre XR Interaction Manager.
-- [ ] Dans le paramètre Climb Provider, glissez votre Locomotion System.
+- [ ] Dans le paramètre Climb Provider, glissez l'objet Climb enfant de votre Locomotion System.
 - [ ] Toujours sur l'objet Prises, ajoutez la composante XR Interactable Affordance State Provider.
 - [ ] Maintenant, allez dans l'enfant de Prises, soit une prise. Créez un enfant à cette prise.
 - [ ] Ajoutez la composante Material Property Block Helper sur ce nouvel objet.
@@ -30,10 +18,6 @@
 - [ ] Créez un prefab avec votre prise.
 - [ ] Glissez ensuite votre prefab dans la scène pour avoir plus d'une prise.
 
-### Physique du personnage
-- [ ] Sur le GameObject XR Origin, ajoutez une composante Character Controller.
-- [ ] Ajoutez aussi un Character Controller Driver.
-- [ ] Dans son paramètre Locomotion Provider, glissez le Locomotion System.
 
 
 ## Tutoriel
