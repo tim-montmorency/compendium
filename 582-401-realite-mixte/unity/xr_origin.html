@@ -7128,18 +7128,17 @@
 <div><h1 id="creer-une-scene-et-integrer-le-casque-de-vr">Créer une scène et intégrer le casque de VR<a class="headerlink" href="#creer-une-scene-et-integrer-le-casque-de-vr" title="Permanent link">¶</a></h1>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Barre de menu: File, new scene, puis choisir un modèle HDRP pour créer votre nouvelle scène. (Un GameObject Sky and Fog Volume apparaîtra dans votre scène si vous avez le bon modèle.)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez votre scène dans le dossier Scene.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez votre scène dans le dossier Scene et nommez la. </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un objet Empty et nommez le joueur.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le joueur, ajouter un objet: Xr, XR Origin.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Supprimez la MainCamera qui était dans votre projet au début.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez l'objet XR Origin et trouvez le controlleur Gauche. Dans la fenêtre Inspector sur la composante XR Controller, appuyez sur l'icône de sliders en haut à droite. Sélectionnez ensuite Left Controller dans la liste.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Répétez cette étape pour le controlleur droit et choisissez Right controller.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le joueur, ajoutez un objet: XR, Locomotion System.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez votre XR Origin dans la boîte XR Origin de la composante Locomotion System de votre GameObject Locomotion System.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le GameObject XR Interaction Manager dans le Joueur.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un prefab de votre joueur pour pouvoir l'utiliser dans d'autres scènes.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le joueur, glissez le <strong>prefab</strong> qui se nomme <strong>XR Origin (XR Rig)</strong>, vous pouvez le rechercher dans la fenêtre project.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur l'objet XR Origin (Xr Rig), <strong>décochez</strong> le <strong>XR Input Modality Manager</strong> dans l'inspecteur.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appuyez ensuite sur <strong>Add Component</strong> et ajoutez un <strong>Input Action Manager</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le <strong>Input Action Manager</strong>, ouvrez l'option <strong>Action Assets</strong>, appuyez sur le <strong>+</strong> et ajoutez <strong>XRI Default Input Actions</strong> avec la cible. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Supprimez la MainCamera qui était dans votre projet au début (Pas celle de votre joueur).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le joueur, ajoutez un objet: <strong>XR &gt; Interaction Manager</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez votre joueur dans la fenêtre projet pour créer un prefab de votre joueur et pouvoir l'utiliser dans d'autres scènes.</li>
 </ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uwBccDZznHo?si=qSoK_7j9G2zzsbwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0YOqssaDuFE?si=XjIjsMCPFwxTa8Sb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
 
