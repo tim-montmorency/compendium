@@ -12,12 +12,13 @@ Tester les Grab Interactable objects
 - [📝 Prendre et lancer des objets](unity/interaction_vr.md)
 - [📝 Méthode de sélection des objets](unity/methode_selection.md)
 - [📝 XR socket - Socle pour les objets](unity/xr_socket.md)
+- [📝 Interaction simple](unity/simpleInteraction.md)
 
-- À ajouter: Simple interaction poke interaction
 
 ## Casse-tête d'experts
 En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, Samples, XR Interaction Toolkit, 2.X.X, Starter Assets.     
 
+- Poke interaction
 - Grimpe
 - Déplacement par téléportation
 
