@@ -7126,36 +7126,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#climb-provider" class="md-nav__link">
-    <span class="md-ellipsis">
-      Climb Provider
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#systeme-dinteraction-direct-pour-les-mains" class="md-nav__link">
-    <span class="md-ellipsis">
-      Système d'interaction direct pour les mains
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#creer-un-mur-descalade" class="md-nav__link">
     <span class="md-ellipsis">
       Créer un mur d'escalade
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#physique-du-personnage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Physique du personnage
     </span>
   </a>
   
@@ -7194,21 +7167,6 @@
   <h1>Grimper</h1>
 
 <div><h2 id="procedure-ecrite">Procédure écrite<a class="headerlink" href="#procedure-ecrite" title="Permanent link">¶</a></h2>
-<h3 id="climb-provider">Climb Provider<a class="headerlink" href="#climb-provider" title="Permanent link">¶</a></h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le GameObject Locomotion System, ajouter la composante Climb Provider.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez le locomotion System dans le paramètre System du Climb Provider.</li>
-</ul>
-<h3 id="systeme-dinteraction-direct-pour-les-mains">Système d'interaction direct pour les mains<a class="headerlink" href="#systeme-dinteraction-direct-pour-les-mains" title="Permanent link">¶</a></h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un objet vide comme enfant d'une des manettes, le nommer DirectInteractor.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter la composante XR Direct Interactor sur cet objet vide.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez votre XR Interaction Manager dans le paramètre Interaction Manager de votre composante.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Cocher Improve Accuracy With Sphere Collider.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter un Sphere Collider sur l'objet pour représenter votre main.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajuster le radius du Collider pour qu'il aie la bonne taille.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Répéter ces étapes pour l'autre main.</li>
-</ul>
 <h3 id="creer-un-mur-descalade">Créer un mur d'escalade<a class="headerlink" href="#creer-un-mur-descalade" title="Permanent link">¶</a></h3>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un objet vide nommé Prises.</li>
@@ -7217,7 +7175,7 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le parent des prises, soit l'objet Prises, ajoutez la composante Climb Interactable.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le nouveau Rigidbody, décochez use Gravity pour éviter que vos prises tombent au sol. Cochez isKinematic.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans la composante Climb Interactable, dans le paramètre Interaction Manager, glissez votre XR Interaction Manager.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Climb Provider, glissez votre Locomotion System.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Climb Provider, glissez l'objet Climb enfant de votre Locomotion System.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Toujours sur l'objet Prises, ajoutez la composante XR Interactable Affordance State Provider.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Maintenant, allez dans l'enfant de Prises, soit une prise. Créez un enfant à cette prise.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez la composante Material Property Block Helper sur ce nouvel objet.</li>
@@ -7226,12 +7184,6 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le paramètre Affordance Theme Datum, appuyez sur la cible et sélectionnez le seul choix possible.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un prefab avec votre prise.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Glissez ensuite votre prefab dans la scène pour avoir plus d'une prise.</li>
-</ul>
-<h3 id="physique-du-personnage">Physique du personnage<a class="headerlink" href="#physique-du-personnage" title="Permanent link">¶</a></h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sur le GameObject XR Origin, ajoutez une composante Character Controller.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez aussi un Character Controller Driver.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans son paramètre Locomotion Provider, glissez le Locomotion System.</li>
 </ul>
 <h2 id="tutoriel">Tutoriel<a class="headerlink" href="#tutoriel" title="Permanent link">¶</a></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fg1I0DrB8K8?si=eWkfWPBNIpK5Hd1n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
