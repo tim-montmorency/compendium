@@ -152,6 +152,12 @@ Imaginons :
 | **Shopify (Standard)**| ~2,7–3,3 %           | ~**9,68–9,73 $**       | Frais réduits avec volume                          |
 | **Advanced**          | ~2,4–3 %             | ~**9,70–9,76 $**       | Pour gros vendeurs, frais au minimum               |
 
+#### Configuration des taxes
+
+![](./assets/images/shop-taxes.png)
+
+[Tuto ;)](https://youtu.be/ferhOYx1NMo?feature=shared&t=2494)
+
 ### Technicité
 
 L'url donné par shopify est le suivant : nom-de-ta-boutique.myshopify.com
@@ -183,12 +189,12 @@ Tu devrais utiliser un SKU si :
 | Pot suspendu en terre cuite   | Taille L     | POT-TC-LRG |
 | Petit pot fait main (unique)  | —            | POT-001    |
 
-## WooCommerce
+<!-- ## WooCommerce
 
 ![](./assets/images/woocommerce-banner.png)
 
 **WooCommerce**, en revanche, est un **plugin gratuit pour WordPress** qui transforme un site existant en boutique en ligne.
-Il demande toutefois **plus de configuration** (hébergement, sécurité, mises à jour, etc.).
+Il demande toutefois **plus de configuration** (hébergement, sécurité, mises à jour, etc.). -->
 
 ## Sous-thème FSE
 
