@@ -18,6 +18,8 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 - [📝 Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
 - [📝 Téléportation](unity/teleportation.md)
 - [📝 Grimper en VR](unity/grimper.md)
+- [📝 Sauter en VR](unity/sauter.md)
+- [📝 Ascenseur en VR](unity/ascenseur.md)
 
 ## Importer des modèles Maya dans Unity
 - [📝 Importation 3D](unity/Importation3D.md)
