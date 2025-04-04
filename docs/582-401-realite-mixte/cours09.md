@@ -7,7 +7,9 @@
 ## Début de la création du projet final
 
 ### GitHub
-- [📝 Github](./unity/github.md)  
+- [📝 Github](./unity/github.md)
+
+#### Exercice conflits
 
 
 ### Configurer la VR dans votre projet

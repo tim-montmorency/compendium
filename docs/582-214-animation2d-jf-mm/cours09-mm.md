@@ -1,7 +1,7 @@
 # Cours 9
 
-## Les effets prédéfinis
-[Effets prédéfinis (cours 7)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours07.html#effets)
+## Retour sur les 12 principes de l'animation
+[Cours 2](./cours02.html#lorigine)
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
@@ -14,6 +14,8 @@
 [:material-play-circle: Explode Out et Into the Wall](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESwLmiwfV1NMkiZj-d-TqOoBx2cbg8z3wrO_9QX6s6jqNg?e=HWXYdv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
+## Les effets prédéfinis
+[Effets prédéfinis (cours 7)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours07.html#effets)
 
 
 ## Alignement et distribution
