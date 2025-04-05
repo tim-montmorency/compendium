@@ -224,10 +224,10 @@ Utiliser simplement la grille
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/kino-preparation/training.gif)
+  ![](./exercices_ae/kino-preparation-mm/training.gif)
 
   <small>Exercice - After Effects</small><br>
-  **[Préparation au Kino](./exercices_ae/kino-preparation/index.md){.stretched-link .back}**
+  **[Préparation au Kino - Classe Marie-Michelle](./exercices_ae/kino-preparation-mm/index.md){.stretched-link .back}**
 </div>
 
 
