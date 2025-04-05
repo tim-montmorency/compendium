@@ -63,9 +63,9 @@ Vous aurez à reproduire la mise en page d'article suivante : <https://web4.tim-
 
 Ce devoir est à réaliser en **équipe de 2**.
 
-Il compte pour **25% de votre note finale**.
+Il compte pour **25% de la note finale**.
 
-À remettre le 10 avril à 23h59 sur Teams.
+L'url de votre site est à remettre le 10 avril à 23h59 sur Teams.
 
 [STOP]
 

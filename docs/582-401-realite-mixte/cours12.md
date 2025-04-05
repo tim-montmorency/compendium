@@ -20,13 +20,6 @@
 
 - [📝 Mains VR](unity/vr_mains.md)
 
-## Saut
-
-- [📝 Sauter en VR](unity/sauter.md)
-
-## Plateforme en mouvement
-
-- [📝 Ascenseur en VR](unity/ascenseur.md)
 
 ## Aléatoire
 
