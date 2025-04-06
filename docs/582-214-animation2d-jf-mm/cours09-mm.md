@@ -48,13 +48,10 @@ Blague à part, en After Effetcs une expression est un **bout de code** basé su
 
 [:material-play-circle: Introduction aux expressions](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERfo6EK5c0FHhW9JricGkIQBFeFnX6_-npLcTO8uqqJ4_w?e=eVerR2)
 
-### Variables
 
-![](./assets/images/expression-cheatsheet.webp){ data-zoom-image }
+
 
 #### Time
-
-
 
 La variable `time` est utilisée dans les expressions pour représenter le **temps actuel de la composition en secondes**.
 
@@ -79,13 +76,16 @@ Si on veut appliquer cette méthode à la position ou à l’échelle, il faut s
 [time * 100, time * 100]
 ```
 
-### Fonction loopOut()
 
+
+### Fonction loopOut()
 ![type:video](./assets/videos/loopOut.mp4)
 
 La fonction `loopOut()` permet d'effectuer une boucle automatiquement, sans avoir à copier les images clés à répétition.
 
 [:material-play-circle: LoopOut](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=wLXP8A)
+
+
 
 #### Cycle
 
@@ -93,8 +93,9 @@ Par défaut, `loopOut()` applique une boucle de type "cycle" si aucun paramètre
 
 Autrement dit, `loopOut("cycle")` est identique à `loopOut()`.
 
-#### Pingpong
 
+
+#### Pingpong
 On peut aussi appliquer l'argument "pingpong" pour créer un effet d'aller-retour :
 
 ```js
@@ -104,6 +105,8 @@ loopOut("pingpong")
 Cependant, cette méthode n’est pas toujours nécessaire. On peut obtenir un effet similaire avec des images clés bien placées.
 
 Utiliser `loopOut()` sans paramètre permet parfois de réduire la complexité du projet. KISS 👄
+
+
 
 #### Autres modes
 
@@ -136,25 +139,6 @@ wiggle(4, 40);
 
 [:material-play-circle: "Wiggle"](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXPup2WiGjlNqT7tguOtZwsBMcTmzJwpHC-sFfDGUw2dcg?e=RD7Zs5)
 
-### Fonction posterizeTime()
-
-Cette expression permet de modifier le framerate sur un calque spécifique.
-
-```js
-posterizeTime(12); // Pour 12 fps
-```
-
-On retrouve aussi cette fonction en tant qu’effet : `Effet > Temps > Postérisation temporelle`
-
-Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de Turbulences au calque. Il est même possible d'ajouter une expression pour automatiser la déformation en appliquant `random(1000)` à la propriété Générateur aléatoire de l'effet.
-
-![type:video](./assets/videos/posterize.mp4)
-
-### Options pour expressions
-
-![type:video](./assets/videos/expression_fields.mp4)
-
-![](./assets/images/option-controls.png)
 
 !!! info "Copier/coller"
 
@@ -163,6 +147,10 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
     Sur un autre calque, ont peut alors faire un coller ++ctrl+v++ pour appliquer la même expression.
 
     Il est aussi possible de coller l'expression sur une autre propriété. 
+
+
+
+
 
 ## Effets sur les calques de forme
 
