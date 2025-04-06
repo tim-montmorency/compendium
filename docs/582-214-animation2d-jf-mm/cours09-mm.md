@@ -213,15 +213,24 @@ Utiliser simplement la grille
 
 -----
 
-## Devoirs
+## Devoirs pour le prochain cours
 Écouter les capsules sur 15 effets dans AE
 [:material-play-circle: 15 différents effets à explorer](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=83exwr)
 
+Groupe Marie-Michelle
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/kino-preparation-mm/training.gif)
 
   <small>Exercice - After Effects</small><br>
   **[Préparation au Kino - Classe Marie-Michelle](./exercices_ae/kino-preparation-mm/index.md){.stretched-link .back}**
+</div>
+
+Groupe Jean-François
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/kino-preparation/training.gif)
+
+  <small>Exercice - After Effects</small><br>
+  **[Préparation au Kino](./exercices_ae/kino-preparation/index.md){.stretched-link .back}**
 </div>
 
 

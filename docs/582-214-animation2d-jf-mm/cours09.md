@@ -220,12 +220,25 @@ Utiliser simplement la grille
   **[:melting_face:](./exercices_ae/fonte/index.md){.stretched-link .back}**
 </div>
 
+
+## Devoirs pour le prochain cours
+
+Groupe Jean-François
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/kino-preparation/training.gif)
 
   <small>Exercice - After Effects</small><br>
   **[Préparation au Kino](./exercices_ae/kino-preparation/index.md){.stretched-link .back}**
 </div>
+
+Groupe Marie-Michelle
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/kino-preparation-mm/training.gif)
+
+  <small>Exercice - After Effects</small><br>
+  **[Préparation au Kino - Classe Marie-Michelle](./exercices_ae/kino-preparation-mm/index.md){.stretched-link .back}**
+</div>
+
 
 [STOP]
 
