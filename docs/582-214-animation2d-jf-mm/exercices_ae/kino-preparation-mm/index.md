@@ -2,7 +2,7 @@
 
 ![](./kino25ans.avif){ .w-100 }
 
-!!! Le Kino
+!!! Kino
     Le Kino est un mouvement cinématographique international, consistant à réaliser des films dans un très cours laps de temps, sans préparation, sans budget, dans un esprit d’entraide, non-compétitif, de liberté et de bienveillance. Sa devise est: «Faire bien avec rien, faire mieux avec peu, mais le faire **maintenant**.»
     
     Ce mouvement a commencé à Montréal, au Québec (Canada) en février 1999 avec Kino Montréal (anciennement connu sous le nom Kino ’00) et il compte maintenant une centaine de cellules actives à travers le monde.
