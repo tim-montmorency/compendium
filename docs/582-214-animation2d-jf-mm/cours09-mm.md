@@ -223,6 +223,12 @@ Utiliser simplement la grille
   **[:melting_face:](./exercices_ae/fonte/index.md){.stretched-link .back}**
 </div>
 
+-----
+
+## Devoirs
+Écouter les capsules sur 15 effets dans AE
+[:material-play-circle: 15 différents effets à explorer](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=83exwr)
+
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/kino-preparation-mm/training.gif)
 
@@ -231,9 +237,14 @@ Utiliser simplement la grille
 </div>
 
 
-## Devoirs
-Écouter les capsules sur 15 effets dans AE
-[:material-play-circle: 15 différents effets à explorer](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=83exwr)
+
+
+
+
+
+
+
+
 
 
 
