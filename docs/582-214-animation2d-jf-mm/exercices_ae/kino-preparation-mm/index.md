@@ -23,6 +23,7 @@ Exemple de résultat : <https://9-squares.tumblr.com/>
 
 * Même style graphique dans chaque composition
 * Style motion design avec formes simples, des lettres et tracés.
+* Rythme de l'animation et lissage de vitesse naturels, riches et dynmiques.
 * Thématique précise et consignes spécifiques vous seront fournies la journée même du kino.
 
 ## Consignes pour la préparation avant le jour du kino
