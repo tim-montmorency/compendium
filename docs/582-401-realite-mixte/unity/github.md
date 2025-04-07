@@ -43,8 +43,9 @@ Une fois que votre projet est prêt, vous pouvez le modifier en même temps. Ava
 - [ ] Coéquipier 2 : Faire un commit avec tous les changements.
 - [ ] Coéquipier 2 : Essayez de faire un push.
 
-Quand on a un **conflit** dans un fichier, il faut choisir comment le résoudre : usiliser la version du commit antérieur, la version du nouveau commit, ou les combiner ligne par ligne.
+Quand on a un **conflit** dans un fichier, il faut choisir comment le résoudre : utiliser la version du commit antérieur, la version du nouveau commit, ou les combiner ligne par ligne. Après qu'on a corriger les conflits, on peut faire un nouveau commit avec les changements intégrés et continuer le processus de travail.
 
+C'est pour ça que c'est toujours important de commencer une session de travail en faisant un pull.
 
 ## Tutoriel
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vxFN77MpROE?si=OpBN9erf2apGl-Ry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
