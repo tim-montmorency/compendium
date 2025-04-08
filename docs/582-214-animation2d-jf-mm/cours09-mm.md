@@ -36,11 +36,10 @@ Quelques expressions québécoises
 > Se tirer une bûche<br>
 > Attacher sa tuque
 
----
 
 Blague à part, en After Effetcs une expression est un **bout de code** basé sur le langage **JavaScript** qu’on peut appliquer à une propriété de calque pour l'animer.
 
-<br><br>
+<br>...<br>
 
 ### Ajouter une expression
 
