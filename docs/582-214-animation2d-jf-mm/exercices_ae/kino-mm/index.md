@@ -8,7 +8,7 @@
 
 L’objectif du Kino est de créer une courte œuvre d’animation composée de **quatre** mini-animations en **noir et blanc** de **5 secondes** chacune, rassemblées dans une mosaïque finale (2x2).
 
-!!! tip "Petits trucs"
+!!! Abstract "Petits trucs"
 
     1. Pour bien gérer votre temps, prévoyez environ 30 minutes par animation.
     1. Effectuez d'abord 4 animations simples et peaufinez-les par la suite. Comme ça vous aurez une base de travail assez rapidement.

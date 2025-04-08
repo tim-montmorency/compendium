@@ -40,6 +40,8 @@ Quelques expressions québécoises
 
 Blague à part, en After Effetcs une expression est un **bout de code** basé sur le langage **JavaScript** qu’on peut appliquer à une propriété de calque pour l'animer.
 
+<br><br>
+
 ### Ajouter une expression
 
 1. Sélectionner la propriété à animer (ex : Position, Opacité).
@@ -50,8 +52,9 @@ Blague à part, en After Effetcs une expression est un **bout de code** basé su
 
 
 
+<br><br>
 
-#### Time
+### Time
 
 La variable `time` est utilisée dans les expressions pour représenter le **temps actuel de la composition en secondes**.
 
@@ -76,7 +79,7 @@ Si on veut appliquer cette méthode à la position ou à l’échelle, il faut s
 [time * 100, time * 100]
 ```
 
-
+<br><br>
 
 ### Fonction loopOut()
 ![type:video](./assets/videos/loopOut.mp4)
@@ -85,7 +88,7 @@ La fonction `loopOut()` permet d'effectuer une boucle automatiquement, sans avoi
 
 [:material-play-circle: LoopOut](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=wLXP8A)
 
-
+<br><br>
 
 #### Cycle
 
@@ -93,7 +96,7 @@ Par défaut, `loopOut()` applique une boucle de type "cycle" si aucun paramètre
 
 Autrement dit, `loopOut("cycle")` est identique à `loopOut()`.
 
-
+<br><br>
 
 #### Pingpong
 On peut aussi appliquer l'argument "pingpong" pour créer un effet d'aller-retour :
@@ -106,7 +109,7 @@ Cependant, cette méthode n’est pas toujours nécessaire. On peut obtenir un e
 
 Utiliser `loopOut()` sans paramètre permet parfois de réduire la complexité du projet. KISS 👄
 
-
+<br><br>
 
 #### Autres modes
 
@@ -114,6 +117,8 @@ Utiliser `loopOut()` sans paramètre permet parfois de réduire la complexité d
 * "offset" : répète l’animation en conservant la position de fin comme point de départ suivant.
 
 Attention avec l'offset. Si la valeur à la fin de son animation est à 0, il s'arrêtera!
+
+<br><br>
 
 ### Fonction wiggle()
 
@@ -211,7 +216,7 @@ Utiliser simplement la grille
   **[:melting_face:](./exercices_ae/fonte/index.md){.stretched-link .back}**
 </div>
 
------
+<br><br>
 
 ## Devoirs pour le prochain cours
 1- Écouter les capsules sur 15 effets dans AE
