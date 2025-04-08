@@ -1,5 +1,5 @@
 # Cours 10 - Kino
-
+<!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 ![](./assets/images/kino.gif){ .w-100 }
 
 Le Kino représente **20%** de votre note finale.
