@@ -2917,8 +2917,7 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Ajouter une expression">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#time" class="md-nav__link">
@@ -2926,11 +2925,6 @@
       Time
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -7428,8 +7422,7 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Ajouter une expression">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#time" class="md-nav__link">
@@ -7437,11 +7430,6 @@
       Time
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -7597,6 +7585,7 @@ Attacher sa tuque</p>
 </blockquote>
 <hr>
 <p>Blague à part, en After Effetcs une expression est un <strong>bout de code</strong> basé sur le langage <strong>JavaScript</strong> qu’on peut appliquer à une propriété de calque pour l'animer.</p>
+<p><br><br></p>
 <h3 id="ajouter-une-expression">Ajouter une expression<a class="headerlink" href="#ajouter-une-expression" title="Permanent link">¶</a></h3>
 <ol>
 <li>Sélectionner la propriété à animer (ex : Position, Opacité).</li>
@@ -7604,7 +7593,8 @@ Attacher sa tuque</p>
 <li>Entrer ou coller l'expression dans le champ apparu sous la propriété.</li>
 </ol>
 <p><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERfo6EK5c0FHhW9JricGkIQBFeFnX6_-npLcTO8uqqJ4_w?e=eVerR2"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M10 16.5v-9l6 4.5M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"></path></svg></span> Introduction aux expressions</a></p>
-<h4 id="time">Time<a class="headerlink" href="#time" title="Permanent link">¶</a></h4>
+<p><br><br></p>
+<h3 id="time">Time<a class="headerlink" href="#time" title="Permanent link">¶</a></h3>
 <p>La variable <code>time</code> est utilisée dans les expressions pour représenter le <strong>temps actuel de la composition en secondes</strong>.</p>
 <blockquote>
 <p>Par exemple, à 0.5 secondes, <code>time</code> vaut 0.5</p>
@@ -7619,25 +7609,30 @@ Attacher sa tuque</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// x et y</span>
 <span class="p">[</span><span class="nx">time</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span><span class="w"> </span><span class="nx">time</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">100</span><span class="p">]</span>
 </code></pre></div>
+<p><br><br></p>
 <h3 id="fonction-loopout">Fonction loopOut()<a class="headerlink" href="#fonction-loopout" title="Permanent link">¶</a></h3>
 <p></p><div class="video-container"><video style="position:relative;width:100%;height:22.172vw" loop muted controls autoplay alt="type:video"><source src="assets/videos/loopOut.mp4" type="video/mp4"></source></video></div>
 <p>La fonction <code>loopOut()</code> permet d'effectuer une boucle automatiquement, sans avoir à copier les images clés à répétition.</p>
 <p><a href="https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=wLXP8A"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M10 16.5v-9l6 4.5M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"></path></svg></span> LoopOut</a></p>
+<p><br><br></p>
 <h4 id="cycle">Cycle<a class="headerlink" href="#cycle" title="Permanent link">¶</a></h4>
 <p>Par défaut, <code>loopOut()</code> applique une boucle de type "cycle" si aucun paramètre n’est fourni.</p>
 <p>Autrement dit, <code>loopOut("cycle")</code> est identique à <code>loopOut()</code>.</p>
+<p><br><br></p>
 <h4 id="pingpong">Pingpong<a class="headerlink" href="#pingpong" title="Permanent link">¶</a></h4>
 <p>On peut aussi appliquer l'argument "pingpong" pour créer un effet d'aller-retour :</p>
 <div class="highlight"><pre><span></span><code><span class="nx">loopOut</span><span class="p">(</span><span class="s2">"pingpong"</span><span class="p">)</span>
 </code></pre></div>
 <p>Cependant, cette méthode n’est pas toujours nécessaire. On peut obtenir un effet similaire avec des images clés bien placées.</p>
 <p>Utiliser <code>loopOut()</code> sans paramètre permet parfois de réduire la complexité du projet. KISS 👄</p>
+<p><br><br></p>
 <h4 id="autres-modes">Autres modes<a class="headerlink" href="#autres-modes" title="Permanent link">¶</a></h4>
 <ul>
 <li>"continue" : continue l’animation en extrapolant la vitesse des dernières images clés.</li>
 <li>"offset" : répète l’animation en conservant la position de fin comme point de départ suivant.</li>
 </ul>
 <p>Attention avec l'offset. Si la valeur à la fin de son animation est à 0, il s'arrêtera!</p>
+<p><br><br></p>
 <h3 id="fonction-wiggle">Fonction wiggle()<a class="headerlink" href="#fonction-wiggle" title="Permanent link">¶</a></h3>
 <p></p><div class="video-container"><video style="position:relative;width:100%;height:22.172vw" loop muted controls autoplay alt="type:video"><source src="assets/videos/wiggle.mp4" type="video/mp4"></source></video></div>
 <p>La fonction <code>wiggle()</code> permet d'ajouter un effet de tremblement.</p>
@@ -7701,7 +7696,7 @@ Pour créer une explosion</p>
 <p><small>Exercice - After Effects</small><br>
   <strong><a class="stretched-link back" href="exercices_ae/fonte/index.html"><img alt="🫠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1fae0.svg" title=":melting_face:"></a></strong></p>
 </div>
-<hr>
+<p><br><br></p>
 <h2 id="devoirs-pour-le-prochain-cours">Devoirs pour le prochain cours<a class="headerlink" href="#devoirs-pour-le-prochain-cours" title="Permanent link">¶</a></h2>
 <p>1- Écouter les capsules sur 15 effets dans AE</p>
 <p><a href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=83exwr"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M10 16.5v-9l6 4.5M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"></path></svg></span> 15 différents effets à explorer</a></p>
