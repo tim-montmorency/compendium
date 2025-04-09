@@ -1,14 +1,31 @@
-# Cours 9 
+# Cours 9
 
+## Courbes temporelles et spatiales (timing)
+<!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
+
+[:material-play-circle: Éditeur de graphique (graph editor)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY0GAEKJYR9DsCPY7jjrF8cB4I1E5fM8Sm_FjQxlRsw9SQ?e=BgYJMZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)¸
+
+[:material-play-circle: Éditer les courbes de vitesse](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EctinuyOULZBnaicYDWPIZEBsTTw0CuinbDUXpMz3r9_ow?e=6G4P4B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+[:material-play-circle: Explode Out et Into the Wall](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESwLmiwfV1NMkiZj-d-TqOoBx2cbg8z3wrO_9QX6s6jqNg?e=HWXYdv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+<!--
 ## Retour sur les 12 principes de l'animation
 
 [Cours 2](./cours02.md)
+ -->
+
+
 
 ## Alignement et distribution
 
 ![](./assets/images/repartition.png)
 
 La distribution se trouve dans le panneau "Aligner".
+
+
 
 ## Expressions
 
@@ -203,12 +220,25 @@ Utiliser simplement la grille
   **[:melting_face:](./exercices_ae/fonte/index.md){.stretched-link .back}**
 </div>
 
+
+## Devoirs pour le prochain cours
+
+Groupe Jean-François
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/kino-preparation/training.gif)
 
   <small>Exercice - After Effects</small><br>
   **[Préparation au Kino](./exercices_ae/kino-preparation/index.md){.stretched-link .back}**
 </div>
+
+Groupe Marie-Michelle
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/kino-preparation-mm/training.gif)
+
+  <small>Exercice - After Effects</small><br>
+  **[Préparation au Kino - Classe Marie-Michelle](./exercices_ae/kino-preparation-mm/index.md){.stretched-link .back}**
+</div>
+
 
 [STOP]
 
