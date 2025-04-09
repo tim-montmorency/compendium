@@ -1,10 +1,12 @@
 # Cours 11
 
+[STOP]
+
 ## Élections fédérales du Canada 2025
 
-**Lundi 28 avril 2025**
+Lundi 28 avril 2025
 
-Vous devriez recevoir votre carte d'information de l'électeur d'ici le 22 avril.
+Vous devriez recevoir votre carte d’information de l’électeur d’ici le 22 avril.
 
 ![](./assets/images/vote.jpg){ data-zoom-image }
 
@@ -24,13 +26,19 @@ La Boussole électorale est un outil développé par des politologues pour vous 
 
 [boussole.radio-canada.ca](https://boussole.radio-canada.ca/){ .md-button .md-button--primary }
 
-### Quelques classiques
+[Pourquoi cette élection est cruciale pour les jeunes ?](https://ici.radio-canada.ca/info/videos/1-10332551/pourquoi-cette-election-est-cruciale-pour-jeunes)
 
-Ton vote compte plus que tu ne le penses : [élections fédérales canadiennes de 2019](https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_canadiennes_de_2019#:~:text=Apr%C3%A8s%20une%20campagne%20serr%C3%A9e%20entre,mais%20perd%20sa%20majorit%C3%A9%20absolue).
+## Camera
 
-Si tu ne vote pas, personne ne défendra tes intérêts / valeurs. Les groupes qui votent le plus n'ont pas les mêmes intérêts que toi. [Quelques statistiques](https://www.elections.ca/content.aspx?section=res&dir=rec/part/tud&document=youth&lang=f).
 
-[STOP]
 
-Planification et création d’éléments visuels et sonores pour le
-TP2
+## Reveil
+
+## Devoir
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp2/explainer.gif)
+
+  <small>TP - After Effects</small><br>
+  **[TP2](./exercices_ae/tp2/index.md){.stretched-link .back}**
+</div>
