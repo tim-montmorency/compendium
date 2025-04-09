@@ -35,6 +35,10 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 - [📝 Ascenseur en VR](unity/ascenseur.md)  
 
 
+## Canvas
+
+- [📝 Canvas en VR](unity/ui_vr.md)
+
 ## Importer des modèles Maya dans Unity
 - [📝 Importation 3D](unity/Importation3D.md)
 
@@ -56,6 +60,8 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation:     
 
 - [ ] Dans la barre de menu sélectionnez Edit -> Rendering -> Materials -> Convert all Built-in materials to HDRP 
+
+
 
 ## Devoir
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
