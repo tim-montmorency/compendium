@@ -47,6 +47,7 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 ## Aléatoire
 
 - [📝 Bases du code](code/aleatoire.md)
+  
 ## Tir de projectile
 
 - [📝 Tir](unity/tir.md)
@@ -55,14 +56,7 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 
 - [📝 Pont et porte](unity/physique.md)
 
-## Discussion Optimisation
-- [ ] Low poly
-- [ ] Compression textures et ui
-- [ ] FPS (Stats)
-- [ ] Nombre et type de particules
-- [ ] Éclairage statique ou dynamique
 
-[📝 Ressource](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#5ff8ce16edbc2a0023134676){ .md-button }
 
 ## Remplir la fiche d'autoévaluation et d'évaluation par les pairs
 
