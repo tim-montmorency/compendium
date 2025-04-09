@@ -2,14 +2,6 @@
 
 Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du TP2.
 
-Voici les étapes de la préproduction :
-
-1. Brainstorm et inspiration
-1. Moodboard
-1. Script
-1. Storyboard
-1. Recherche et création de médias
-
 !!! tip "Sauvegardes 💾"
 
     Pour la préproduction, il est important d'être bien organisé(e).
@@ -27,11 +19,11 @@ Il existe plein de [techniques de _brainstorming_](https://asana.com/fr/resource
 Pour orienter votre brainstorming, voici quelques sujets à considérer :
 
 * Quel est le sujet à expliquer ?
-* Ton et intention (humoristique, éducatif, engagé).
-* Quel est le public cible.
-* Quel est le nom du projet.
+* Quel est l'intention (humoristique, éducatif, engagé) ?
+* Quel est le public cible ?
+* Quel est le nom du projet ?
 
-- [ ] Créer un documents avec les informations ci-dessus.
+- [ ] Créer un docx avec les sujets de votre projet.
 
 ---
 
@@ -52,7 +44,9 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 
 ### Esthétisme
 
-Dans la phase de brainstorming, vous devrez également penser à l'aspect graphique de votre animation. Il existe de nombreux styles possible, voici une liste suggérée :
+Dans la phase de brainstorming, vous devrez également penser à l'aspect graphique de votre animation.
+
+Il existe de nombreux styles possible. Voici une liste suggérée :
 
 * Animation 2D (style bande dessinée)
 * Motion Graphics (vectoriel avec des formes simples, comme le kino)
@@ -190,7 +184,7 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 **8. Crédits**
 
-* **Visuel** : Nos noms
+* **Visuel** : « Nos noms »
 
 ## Remise
 
