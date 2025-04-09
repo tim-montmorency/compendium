@@ -4,7 +4,11 @@
 - [📝 Réception d'OSC](osc/recevoir.md)
 - [📝 Envoi d'OSC](osc/envoyer.md)
 
+## Spout 
+- [📝Envoi de flux vidéo de Unity via Spout](unity/spout.md)
 
+## Éclairage
+- [📝 Éclairage](unity/eclairage.md)
 
 ## Transitions entre les scènes
 
@@ -37,6 +41,33 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 
 
 ## Rencontres pour voir les besoins individuels
+
+
+
+## Aléatoire
+
+- [📝 Bases du code](code/aleatoire.md)
+## Tir de projectile
+
+- [📝 Tir](unity/tir.md)
+
+## Physique Pont et porte
+
+- [📝 Pont et porte](unity/physique.md)
+
+## Discussion Optimisation
+- [ ] Low poly
+- [ ] Compression textures et ui
+- [ ] FPS (Stats)
+- [ ] Nombre et type de particules
+- [ ] Éclairage statique ou dynamique
+
+[📝 Ressource](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#5ff8ce16edbc2a0023134676){ .md-button }
+
+## Remplir la fiche d'autoévaluation et d'évaluation par les pairs
+
+## Rencontre des équipes
+Analyse de l'évaluation. Discussion sur les prochaines étapes. Choisir les objectifs à atteindre d'ici la semaine 13. 
 
 ## Devoir
 
