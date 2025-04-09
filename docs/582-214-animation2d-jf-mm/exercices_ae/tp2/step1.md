@@ -33,6 +33,8 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 
 - [ ] Créer un documents avec les informations ci-dessus.
 
+---
+
 Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 
 * [Understanding Perception: How We Experience the Meaning We Create](https://motionographer.com/2015/09/18/understanding-perception-how-we-experience-the-meaning-we-create/)
@@ -46,6 +48,19 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 * [What would happen if you didn’t drink water?](https://www.youtube.com/watch?v=9iMGFqMmUFs)
 * [The science of laughter](https://www.youtube.com/watch?v=Xu-QfE_1ksk)
 * [Animation vs. Physics](https://www.youtube.com/watch?v=ErMSHiQRnc8)
+* sinon : https://vimeo.com/search?q=explainer%20video
+
+### Esthétisme
+
+Dans la phase de brainstorming, vous devrez également penser à l'aspect graphique de votre animation. Il existe de nombreux styles possible, voici une liste suggérée :
+
+* Animation 2D (style bande dessinée)
+* Motion Graphics (vectoriel avec des formes simples, comme le kino)
+* Kinetic text (animation de texte)
+* Whiteboard animation (simulation d'un dessin synchro avec l'audio)
+* Collage animation (à la south park)
+
+- [ ] Choisir l'esthétisme recherché.
 
 ## Moodboard
 
@@ -60,7 +75,7 @@ Il contient des images, couleurs et typographies qui traduisent l’esthétique 
 * [Exemple 1](https://www.figma.com/board/QCUCe07qWFr5S3OCBpxcgj/Mood-Board--Exemple2-?t=fZTJa3oEaMMKYAyr-6)
 * [Exemple 2](https://www.figma.com/board/DboRKo6NLn4WRTPzqdMBWf/Mood-Board--Exemple1-?t=fZTJa3oEaMMKYAyr-6)
 
-- [ ] Faire un moodboard.
+- [ ] Faire un moodboard à partir du modèle fourni.
 
 ## Recherche et création de médias
 
@@ -87,11 +102,15 @@ Il contient des images, couleurs et typographies qui traduisent l’esthétique 
   * [Unsplash](https://unsplash.com/)
   * [Pexels](https://www.pexels.com/fr-fr/)
 
-## Script et storyboard
+## Storyboard
 
-![](./writing.gif){.w-100}
+![](./storyboard.gif){.w-100}
 
-Voici la structure narrative que vous devrez respecter :
+Un storyboard est un outil de planification visuelle utilisé pour représenter scène par scène une vidéo ou une animation.
+
+Dans cette partie, vous devrez d'abord rédiger un scénario (appelé structure narrative) et ensuite dessiner un storyboard.
+
+### Structure narrative
 
 | Étape                         | Fonction narrative                           | Contenu typique                                             |
 |-------------------------------|----------------------------------------------|-------------------------------------------------------------|
@@ -104,18 +123,22 @@ Voici la structure narrative que vous devrez respecter :
 | **7. Ouverture / Conclusion** | Imaginer un futur meilleur                   | Montrer une version positive du monde si on agit            |
 | **8. Crédits**                | n/a                                          | n/a                                                         |
 
+### Ligne du temps
+
+![](./timeline.jpg){.w-100}
+
 Sur une feuille de papier ou à l'ordinateur, commencez par faire une ligne du temps horizontale de 0 à 60 secondes.
 
 Placez ensuite chacune des étapes dans votre ligne du temps.
 
-Pour chaque élément placé, écrivez les grandes lignes de votre histoire. Des informations à raconter.
+Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informations à raconter et comment les présenter.
 
-Une bonne manière de timer son animation est de générer le texte avant de faire l'animation !
+!!! top "Petit truc"
 
-- [ ] Créez une **ligne du temps horizontale** (0 à 60 secondes)
-- [ ] Placez chaque étape du scénario dans cette ligne
-- [ ] Pour chaque étape, écrivez les **idées de narration** et **visuels**
-- [ ] Rédigez votre **storyboard**
+    Une approche efficace pour gérer le temps consiste à rédiger d’abord le texte, générer l'audio puis déterminer ensuite comment il s’intégrera dans l’animation.
+
+- [ ] Écrivez le **contenu narratif** et imaginez les **visuels** pour chacune des étapes. (Restez réaliste ;))
+- [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens ou images pour illustrer l'intention.
 
 ### Exemple de scénario
 
@@ -125,42 +148,49 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 **1. Accroche**
 
-* Narration : Chaque minute, un camion entier de plastique est déversé dans l’océan — ce qui représente entre 8 et 10 millions de tonnes, annuellement ! (8 sec)
-* Visuel : Un gros camion jaune. Les déchets tombent dans une mer calme qui devient trouble.
+* **Narration** : Chaque minute, un camion entier de plastique est déversé dans l’océan — ce qui représente entre 8 et 10 millions de tonnes, annuellement ! (8 sec)
+* **Visuel** : Un gros camion jaune. Les déchets tombent dans une mer calme qui devient trouble.
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **2. Problème**
 
-* Narration : Tortues, baleines, oiseaux marins. Des centaines d’espèces sont victimes de cette marée de plastique.
-* Visuel : Tortue avec une paille dans le nez. Oiseau piégé dans un attache canettes. Fondu lent vers une mer polluée.
+* **Narration** : Tortues, baleines, oiseaux marins. Des centaines d’espèces sont victimes de cette marée de plastique.
+* **Visuel** : Tortue avec une paille dans le nez. Oiseau piégé dans un attache canettes. Fondu lent vers une mer polluée.
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **3. Causes**
 
-* Narration : Tout commence avec notre consommation. C'est l'emballages à usage unique, les objets jetables ou encore, le manques de tri qui explique sa présence en mer.
-* Visuel : Sac en plastique d'épicerie avec des fruits qui s'y ajoutent. Pluie de produits de plastique avec des mains qui tentent d'attraper les items.
+* **Narration** : Tout commence avec notre consommation. C'est l'emballages à usage unique, les objets jetables ou encore, le manques de tri qui explique sa présence en mer.
+* **Visuel** : Sac en plastique d'épicerie avec des fruits qui s'y ajoutent. Pluie de produits de plastique avec des mains qui tentent d'attraper les items.
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **4. Conséquences**
 
-* Narration : Si rien ne change, en 2050, il y aura plus de plastique que de poissons dans les océans.
-* Visuel : Projection futuriste : bancs de bouteilles, océans envahis de déchets.
+* **Narration** : Si rien ne change, en 2050, il y aura plus de plastique que de poissons dans les océans.
+* **Visuel** : Animation de calendrier. Projection futuriste : bancs de bouteilles, océans envahis de déchets. Poissons à 3 yeux.
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **5. Solution / Changement**
 
-* Narration : Mais il est encore temps d’agir. Refuser, réduire, réutiliser… Chaque geste compte.
-* Visuel : Gourde en métal, sac en tissu, marché sans emballages.
+* **Narration** : Mais il est encore temps d’agir. Refuser, réduire, réutiliser… Chaque geste compte.
+* **Visuel** : Gourde en métal, sac en tissu, marché sans emballages.
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **6. Appel à l’action**
 
-* Narration : À l’école, à la maison, dans ton quartier : tu peux faire la différence, dès aujourd’hui.
-* Visuel : Plage nettoyée, jeunes qui sensibilisent leur entourage.
+* **Narration** : À l’école, à la maison, dans ton quartier : tu peux faire la différence, dès aujourd’hui.
+* **Visuel** : Plage nettoyée, jeunes qui sensibilisent leur entourage.
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **7. Ouverture / Conclusion**
 
-* Voix off : Un océan sans plastique, c’est possible. Un monde plus propre commence par une seule action.
-* Visuel : Mer limpide, faune marine en santé, texte à l’écran : « L’océan, c’est la vie. Protégeons-le. »
+* **Narration** : Un océan sans plastique, c’est possible. Un monde plus propre commence par une seule action.
+* **Visuel** : Mer limpide, faune marine en santé, texte à l’écran : « L’océan, c’est la vie. Protégeons-le. »
+* :material-image-edit: Images ou URLs pour illustrer le visuel.
 
 **8. Crédits**
 
-* Visuel : Nos noms
+* **Visuel** : Nos noms
 
 ## Remise
 
@@ -168,4 +198,9 @@ Cette remise est formative.
 
 Dépot le 15 avril à 23h59.
 
-Une rétroaction avec l'enseignant(e) sera faite en classe.
+Fichiers :
+
+* Docx : Inspirations, scénario et storyboard
+* Moodboard exporté en image
+
+> Une rétroaction avec l'enseignant(e) sera faite en classe.
