@@ -1,7 +1,5 @@
 # Cours 11
 
-[STOP]
-
 ## Élections fédérales du Canada 2025
 
 Lundi 28 avril 2025
@@ -30,9 +28,19 @@ La Boussole électorale est un outil développé par des politologues pour vous 
 
 ## Camera
 
+![](./assets/3d.png){ data-zoom-image }
 
+Pour activer le mode caméra, il suffit d'ajouter un calque de caméra.
 
-## Reveil
+Ensuite, activer les options 3d des calques qui doivent être affectés par la caméra.
+
+Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est préférable de changer la disposition des vues de 1 vue à 4 vues.
+
+## Line art
+
+[:material-play-circle: Le safe-title](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/02_capsules_video/02_capsules_after_effects/31_effets/06_animation_line_art/01_animation_line_art_visage.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sM7mSg)
+
+[:material-play-circle: Le safe-title](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/02_capsules_video/02_capsules_after_effects/31_effets/06_animation_line_art/02_animation_line_art_fleur.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=erARCl)
 
 ## Devoir
 
