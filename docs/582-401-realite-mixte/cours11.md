@@ -6,10 +6,6 @@
 
 
 
-## Canvas
-
-- [📝 Canvas en VR](unity/ui_vr.md)
-
 ## Transitions entre les scènes
 
 - [📝 Transitions](unity/transitions.md)
