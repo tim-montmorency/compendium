@@ -1,5 +1,10 @@
 # Cours 10
 
+### Retour sur GitHub
+- [📝 Github](./unity/github.md)
+
+#### Exercice conflits
+
 ## Interagir avec les manettes et l'environnement
 - [📝 Prendre et lancer des objets](unity/interaction_vr.md)
 - [📝 Méthode de sélection des objets](unity/methode_selection.md)
