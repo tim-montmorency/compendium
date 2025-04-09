@@ -40,9 +40,6 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 - [📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s)
 
 
-## Rencontres pour voir les besoins individuels
-
-
 
 ## Aléatoire
 
@@ -55,6 +52,7 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 ## Physique Pont et porte
 
 - [📝 Pont et porte](unity/physique.md)
+
 
 
 
