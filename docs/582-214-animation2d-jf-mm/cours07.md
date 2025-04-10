@@ -278,7 +278,8 @@ https://www.youtube.com/watch?v=Jw6P4lnFT6I
 
 
 
-
+![](./assets/images/machine-loop_lera-shadova.gif)
+Crédit: [Machine Loop par Lera Shadova](https://dribbble.com/shots/3873973-Machine-loop)
 
 
 
