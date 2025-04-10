@@ -1,50 +1,18 @@
 # Cours 12
 
-## Éclairage
-- [📝 Éclairage](unity/eclairage.md)
+## Sortie - Visite de groupe à Mondes disparus
+ 
+Lieu :  2 rue de la Commune Ouest      
 
-## Spout 
-- [📝Envoi de flux vidéo de Unity via Spout](unity/spout.md)
+Date :  Lundi 28 avril       
 
+Tenue conseillée : Nous recommandons des vêtements confortables et des chaussures fermées. Évitez les chapeaux ou les casquettes en raison du port du casque VR. Les sacs à dos et sacs à main doivent être rangés dans les casiers disponibles, l’espace étant limité. Les talons hauts ne sont pas recommandés.      
 
-## Post processing
-- [📝 Post processing](unity/postprocessing.md)
+Sacs à dos : Les sacs à dos (même petits) ne sont pas autorisés pour des raisons de sécurité.      
 
-## VFX
-- [📝 VFX](unity/vfx.md)
+Heure d'arrivée : Il est important d'arriver 15 minutes avant l'heure prévue.      
 
-## Eau
-- [📝 Eau](unity/eau.md)
-
-## Mains en VR
-
-- [📝 Mains VR](unity/vr_mains.md)
-
-
-## Aléatoire
-
-- [📝 Bases du code](code/aleatoire.md)
-## Tir de projectile
-
-- [📝 Tir](unity/tir.md)
-
-## Physique Pont et porte
-
-- [📝 Pont et porte](unity/physique.md)
-
-## Discussion Optimisation
-- [ ] Low poly
-- [ ] Compression textures et ui
-- [ ] FPS (Stats)
-- [ ] Nombre et type de particules
-- [ ] Éclairage statique ou dynamique
-
-[📝 Ressource](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#5ff8ce16edbc2a0023134676){ .md-button }
-
-## Remplir la fiche d'autoévaluation et d'évaluation par les pairs
-
-## Rencontre des équipes
-Analyse de l'évaluation. Discussion sur les prochaines étapes. Choisir les objectifs à atteindre d'ici la semaine 13. 
+Accès: Les stations de métro les plus proches sont Place d'armes et Champ-de-Mars. (Nous partirons de Montmo en groupe)    
 
 ## Devoir
 
