@@ -10,7 +10,7 @@ Le sujet peut être 🎓 **éducatif**, ✊ **engagé** ou 😂 **humoristique**
 
 !!! success "Portfolio"
 
-    Ce TP est excellent une occasion de garnir votre portfolio 🎨
+    Ce TP est une excellente occasion de garnir votre portfolio 🎨
 
 ## Modalités
 
