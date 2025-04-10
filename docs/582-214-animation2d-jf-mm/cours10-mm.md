@@ -13,9 +13,9 @@ Tout plagiat ou partage de documents entraînera une note de 0.
 **La durée de l'exécution de vos animations est de ⏰ 3h20**
 Soit de 14h35 à 17h55.
 
-<small>Pour ceux qui ont droit à un assouplissement de 50%, soit de 13h55 à 19h00</small>
-<small>Pour ceux qui ont droit à un assouplissement de 33%, soit de 14h35 à 19h00</small>
-<small>Pour ceux qui ont droit à un assouplissement de 25%, soit de 14h35 à 18h40</small>
+<small>Pour ceux qui ont droit à un assouplissement de 50%, soit de 13h55 à 19h00</small> <br>   
+<small>Pour ceux qui ont droit à un assouplissement de 33%, soit de 14h35 à 19h00</small><br> 
+<small>Pour ceux qui ont droit à un assouplissement de 25%, soit de 14h35 à 18h40</small><br> 
 
 [STOP]
 
