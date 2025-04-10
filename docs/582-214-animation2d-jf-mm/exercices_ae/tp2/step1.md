@@ -198,3 +198,9 @@ Fichiers :
 * Moodboard exporté en image
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
+
+[STOP]
+
+https://ourworldindata.org/
+
+Explainer examples : https://www.reddit.com/r/MotionDesign/comments/1cyw7l4/best_explainer_videos_lets_make_a_list/
