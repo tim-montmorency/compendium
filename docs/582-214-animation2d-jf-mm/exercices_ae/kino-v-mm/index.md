@@ -9,10 +9,9 @@
 L’objectif du Kino est de créer une courte œuvre d’animation composée de **quatre** mini-animations en **noir, blanc et une autre couleur** de **5 secondes** chacune, rassemblées dans une mosaïque finale (2x2).
 
 !!! Abstract "Petits trucs"
-
-    1. Pour bien gérer votre temps, prévoyez environ 30 minutes par animation.
-    1. Effectuez d'abord 4 animations simples et peaufinez-les par la suite. Comme ça vous aurez une base de travail assez rapidement.
-    1. Prévoyez un petit moment avant la fin du kino pour l'exportation de votre vidéo.
+1. Pour bien gérer votre temps (temps total **3h20**, excepté les assouplissements), prévoyez environ **45 minutes par animation**.
+1. Effectuez d'abord 4 animations simples et peaufinez-les par la suite. Ainsi, vous aurez une base de travail assez rapidement. Je vous propose donc d'attribuer d'abord 20 min/case pour commencer les animations simples de chaque case. Ensuite, peaufinez chacune d'elles avec 25 minutes supplémentaires par case. Vous pouvez utiliser un des deux minuteurs physiques mis à votre disposition ou encore un outil de type [Pomodoro](https://pomofocus.io/) pour minuter votre temps et bien le gérer.
+1. Prévoyez un petit moment (minimum 10 minutes) avant la fin du Kino pour l'exportation de votre vidéo.
 
 [Inspirations pour vos animations](https://pin.it/6Pyc6fTbV)
 
