@@ -76,8 +76,12 @@ Toutes les animations doivent être :
 - [ ] Assemblez les compositions A, B, C et D dans la composition « Main » de sorte à former une mosaïque de 2x2.
 - [ ] Exporter la composition finale en H264 - Vimeo 1080p - 1920px x 1080px
 - [ ] Nommer le fichier vidéo avec la nomenclature suivante : `NOM-PRENOM_kino_582-214MO.mp4`
-- [ ] Créez un dossier contenant votre fichier de travail .aep, vos médias externes si applicables et votre fichier vidéo exporté (le .mp4). Nommez votre dossier `NOM-PRENOM_kino_582-214MO` et compressez le en .zip
-- [ ] Déposez la .zip dans le devoir Teams « Kino » du groupe Animation 2D.
+
+
+### Remise
+- [ ] Créez un dossier contenant votre fichier de travail .aep, vos médias externes SI APPLICABLE et votre fichier vidéo exporté (le fichier .mp4). Nommez votre dossier `NOM-PRENOM_kino_582-214MO` et compressez le en .zip
+- [ ] Déposez le fichier .zip dans le devoir Teams « Kino » du groupe Animation 2D.
+
 
 ## Barème de notation
 
