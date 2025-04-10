@@ -1,12 +1,12 @@
 # Kino
 
-!!! tip "Opporunité"
+!!! tip "Opportunité"
     Gardez en tête que c'est le genre de projet que vous pourrez soumettre au concours audio-visuel pour la fin mai. Ça vaut la peine d'y mettre son plein potentiel. Ça fait aussi un beau projet à préesnter dans votre futur portfolio. 
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 
-![](./example.png){ .w-100 }
+![](./example.webp){ .w-100 }
 
-L’objectif du Kino est de créer une courte œuvre d’animation composée de **quatre** mini-animations en **noir et blanc** de **5 secondes** chacune, rassemblées dans une mosaïque finale (2x2).
+L’objectif du Kino est de créer une courte œuvre d’animation composée de **quatre** mini-animations en **noir, blanc et une autre couleur** de **5 secondes** chacune, rassemblées dans une mosaïque finale (2x2).
 
 !!! Abstract "Petits trucs"
 
@@ -14,28 +14,29 @@ L’objectif du Kino est de créer une courte œuvre d’animation composée de 
     1. Effectuez d'abord 4 animations simples et peaufinez-les par la suite. Comme ça vous aurez une base de travail assez rapidement.
     1. Prévoyez un petit moment avant la fin du kino pour l'exportation de votre vidéo.
 
-[Inspirations pour vos animations](https://pin.it/6TzQTe1Nk)
+[Inspirations pour vos animations](https://pin.it/6Pyc6fTbV)
 
 ## Consignes
+Sélectionnez une et une seule couleur vive.
 
 Toutes les animations doivent être :
 
-- [ ] **Bouclables** : le dernier frame doit être identique au premier. (==4 points==)
-- [ ] **En noir et blanc uniquement** (aucun niveau de gris). (==2 points==)
+- [ ] **Bouclables** : le dernier keyframe doit être identique au premier. (==4 points==)
+- [ ] **Uniquement en noir, blanc et ponctué de votre couleur vive sélectionnée (une seule)** (aucun niveau de gris). (==2 points==)
 - [ ] **Créatives et engageantes** (originalité). (==4 points==)
-- [ ] **Fluides et convaincantes** (qualité d’animation / lissage). (==4 points==)
+- [ ] **Fluides et convaincantes** (qualité d’animation / lissage de vitesse bien travaillé). (==4 points==)
 
 ---
 
-- [ ] Chaque animation doit intégrer au minimum **un** des concepts suivants : (==4 points==)
+- [ ] Il y a 4 animations (4 cases). Chacune des 4 animations doit intégrer au minimum **un** des concepts suivants. Vous pouvez répéter ces concepts sur plusieurs cases mais chaque case doit contenir au moins un concept unique parmis les suivants: (==4 points==)
 
 * Écrasement et étirement (12 principes de l’animation)
-* Action secondaire (12 principes de l’animation)
-* Effet d’After Effects (déformation, transitions, blob, etc.)
+* Anticipation (12 principes de l’animation)
+* Effet d’After Effects (déformation, flou, esthétique, etc.) (panneau d'effets)
 * Morphage
-* Mode de fusion
-* Répétition
+* Concept de répétition (tel que présenté au cours 10)
 * Masquage
+* Animation line art
 
 ---
 
@@ -43,8 +44,8 @@ Toutes les animations doivent être :
 
 ### Préparation
 
-- [ ] Créez une composition nommée « Main » : 1920 × 1080 px, 24 fps, 5 secondes.
-- [ ] Créez 4 autres compositions nommées « A », « B », « C » et « D » : 960 × 540 px, 24 fps, 5 secondes chacune.
+- [ ] Créez une composition master nommée « Main » : 1920 × 1080 px, 24 fps, 5 secondes.
+- [ ] Créez 4 autres pré-compositions nommées « A », « B », « C » et « D » : 960 × 540 px, 24 fps, 5 secondes chacune.
 
 ### Animation A
 
@@ -56,7 +57,7 @@ Toutes les animations doivent être :
 
 ![](./b.png){ .w-50 }
 
-- [ ] Animation faite à base de chiffres ou de lettres de l’alphabet.
+- [ ] Animation faite à base de chiffres ou de lettres de l’alphabet. Si vous inscrivez un mot, ce doit être en français uniquement.
 
 ### Animation C
 
@@ -80,15 +81,15 @@ Toutes les animations doivent être :
 
 ## Barème de notation
 
-| Critère                                                                | Points     |
-|------------------------------------------------------------------------|------------|
-| 4 animations bouclable (loop parfaite)                                 | 4 pts      |
-| Noir et blanc uniquement (pas de niveaux de gris)                      | 2 pts      |
-| Créativité et originalité                                              | 4 pts      |
-| Fluidité et qualité de l’animation                                     | 4 pts      |
-| Intégration des concepts d’animation                                   | 4 pts      |
-| Respect global des consignes                                           | 2 pts      |
-| **Total**                                                              | **20 pts** |
+| Critère                                                                     | Points     |
+|-----------------------------------------------------------------------------|------------|
+| 4 animations bouclable (loop parfaite)                                      | 4 pts      |
+| Noir et blanc et une autre couleur vive uniquement (pas de niveaux de gris) | 2 pts      |
+| Créativité et originalité                                                   | 4 pts      |
+| Fluidité et qualité de l’animation                                          | 4 pts      |
+| Intégration des concepts d’animation                                        | 4 pts      |
+| Respect global des consignes                                                | 2 pts      |
+| **Total**                                                                   | **20 pts** |
 
 [STOP]
 
