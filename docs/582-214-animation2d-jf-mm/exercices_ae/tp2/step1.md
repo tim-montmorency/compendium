@@ -20,7 +20,7 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 
 * Quel est le sujet à expliquer ?
 * Quel est l'intention (humoristique, éducatif, engagé) ?
-* Quel est le public cible ?
+* Quel est le public cible (enfants, adultes, adolescents) ?
 * Quel est le nom du projet ?
 
 - [ ] Créer un docx avec les sujets de votre projet.
@@ -40,6 +40,7 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 * [What would happen if you didn’t drink water?](https://www.youtube.com/watch?v=9iMGFqMmUFs)
 * [The science of laughter](https://www.youtube.com/watch?v=Xu-QfE_1ksk)
 * [Animation vs. Physics](https://www.youtube.com/watch?v=ErMSHiQRnc8)
+
 * sinon : https://vimeo.com/search?q=explainer%20video
 
 ### Esthétisme
