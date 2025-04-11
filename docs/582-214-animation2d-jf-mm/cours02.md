@@ -36,6 +36,22 @@
   [:material-play-circle: Les types de calque](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/02_capsules_video/02_capsules_after_effects/16_types_de_calques/01_types_calques.mp4?csf=1&web=1&e=cgh4pw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNDl9fQ%3D%3D)
 </div>
 
+## Redimensionner un calque de forme
+### Une dimension spécifique en pixels
+Calque / Géométrie / Échelle 
+<img src="./assets/images/ae/calque-de-forme-redimensionner-etape01.png" style="max-width: 600px; width: 100%;">
+
+Sélectionnez ensuite l'unité pixel et détacher le ratio afin de spécifier une largeur et une hauteur en pixels sans conserver le ratio initial.
+<img src="./assets/images/ae/calque-de-forme-redimensionner-etape02.png" style="max-width: 300px; width: 100%;">
+
+
+### Ajuster le calque à la dimension de la composition
+Calque / Géométrie / Ajuster à la composition
+
+
+
+
+
 ### Animation courbée
 
 <div class="grid grid-1-2" markdown>
@@ -45,8 +61,8 @@
 </div>
 
 ### Hiérarchies
+<img src="./assets/images/parentr.png" style="max-width: 600px; width: 100%;">
 
-![](./assets/images/parentr.png){ data-zoom-image }
 
 [:material-play-circle: Les calque parents et enfants](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EevYZli_buxNscVZ_P9WGzcBg2U7J6mYkKW5KvQfZRJjwQ)
 
