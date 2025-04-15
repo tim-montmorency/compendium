@@ -28,7 +28,7 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 ---
 
 Voici une liste de vidéo explainer pour vous aider à faire vos choix :
-* [Eat Local](https://vimeo.com/444376751)
+* [Tableau pinterest d'explainer video intéressants](https://ca.pinterest.com/kidsynthetique/explainer-video/)
 * [Understanding Perception: How We Experience the Meaning We Create](https://motionographer.com/2015/09/18/understanding-perception-how-we-experience-the-meaning-we-create/)
 * [Rutger Bregman on Taxes](https://vimeo.com/367769463)
 * [Agora - Collage Explainer Video](https://vimeo.com/732074954)
@@ -40,7 +40,10 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 * [What would happen if you didn’t drink water?](https://www.youtube.com/watch?v=9iMGFqMmUFs)
 * [The science of laughter](https://www.youtube.com/watch?v=Xu-QfE_1ksk)
 * [Animation vs. Physics](https://www.youtube.com/watch?v=ErMSHiQRnc8)
+* [Eat Local](https://vimeo.com/444376751)
+* [The Power of Privacy](https://vimeo.com/204530288)
 * sinon : https://vimeo.com/search?q=explainer%20video
+* et les gagnants "Staff Picks" de vimeo dans le genre: https://vimeo.com/search?type=clip&q=explainer&collection=staffpick
 
 ### Esthétisme
 
