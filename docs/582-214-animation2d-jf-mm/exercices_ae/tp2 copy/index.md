@@ -20,7 +20,7 @@ Le sujet peut être 🎓 **éducatif**, ✊ **engagé** ou 😂 **humoristique**
 Ce travail doit être réalisé en équipe de 2 et compte pour 50 % de la note finale. Veuillez [inscrire vos équipes ici](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESPtsDKJDPlNqTAfpmQNQT0BYV5jNZDCXQgwPg6iVncX0w?e=OjUnJM).
 
 * Résolution : 1920 x 1080
-* Durée : 60 secondes
+* Durée : 60 secondes <small>+ 5 à 10 secondes pour le générique de fin (vos noms, les crédits, le logo TIM) </small>
 * Exportation : Vimeo 1080p Full HD
 
 Médias à utiliser :
