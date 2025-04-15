@@ -56,23 +56,17 @@ Médias à utiliser :
 | Cours 15: 21 mai     | Remise et présentation orale devant la classe.                                                               |
 
 
+> Planifiez bien votre temps de travail pour chaque étape
 
-* **Hors cours - 15 avril :** Explication du projet et de la préproduction + début de la préproduction (hors cours).
-* **Cours 11 -  jeudi 24 avril :** Remise de la préproduction. Rencontre en classe prof+équipe pour discuter de votre préproduction et comment faire évoler le projet.
-* **Cours 12 -  jeudi 1er mai :** Remise de la préproduction révisée et achevée et de tous les médias sonores et visuels non-animés.
-* **Cours 13 - jeudi 8 mai :** Développement des animations. Rencontre en classe équipe par équipe pour discuter de votre projet, de vos animations, prendre les conseils pour faire évoluer votre projet.
-* **Cours 14 - jeudi 15 mai :** Développement des animations.
-* **Cours 15 - merc. 21 mai :** Remise et présentation orale devant la classe.
 
-> Vous avez plus d'un mois pour réaliser le Projet final
-
-## Étapes du TP
+## Étapes du projet final
 
 <div class="grid grid-1-2" markdown>
   ![](./brainstorming.gif)
 
-  **[Préproduction](./step1.md){.stretched-link .back}**
-  <br><small>Remise le 24 avril avant le cours à 14h15 maximum</small>
+  **[Préproduction et préparation des médias](./step1.md){.stretched-link .back}**
+  <br><small>Remise de la préprod le 24 avril avant le cours à 14h15 maximum</small>
+  <br><small>Remise de la préprod finale et des médias le 1er avant le cours à 14h15 maximum</small>
 </div>
 
 <div class="grid grid-1-2" markdown>
