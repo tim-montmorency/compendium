@@ -1,4 +1,4 @@
-# TP2 - Animation  (Groupe de Marie-Michelle)
+# Projet final - Animation <br><small>Groupe de Marie-Michelle</small>
 
 À venir.
 

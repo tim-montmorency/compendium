@@ -1,4 +1,4 @@
-# Projet final - Préproduction  (Groupe de Marie-Michelle)
+# Projet final - Préproduction <br><small>Groupe de Marie-Michelle</small>
 
 Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du TP2.
 

@@ -1,4 +1,4 @@
-# Projet final - _Explainer video_ (Groupe de Marie-Michelle)
+# Projet final - _Explainer video_ <br><small>Groupe de Marie-Michelle</small>
 
 *[TTS]: Text To Speech
 
