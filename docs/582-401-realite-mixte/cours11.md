@@ -4,11 +4,11 @@
 - [📝 Réception d'OSC](osc/recevoir.md)
 - [📝 Envoi d'OSC](osc/envoyer.md)
 
+## Spout 
+- [📝Envoi de flux vidéo de Unity via Spout](unity/spout.md)
 
-
-## Canvas
-
-- [📝 Canvas en VR](unity/ui_vr.md)
+## Éclairage
+- [📝 Éclairage](unity/eclairage.md)
 
 ## Transitions entre les scènes
 
@@ -40,7 +40,26 @@ Exploration du système de particules: Qu'est-ce que ça permet de faire?
 - [📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s)
 
 
-## Rencontres pour voir les besoins individuels
+
+## Aléatoire
+
+- [📝 Bases du code](code/aleatoire.md)
+  
+## Tir de projectile
+
+- [📝 Tir](unity/tir.md)
+
+## Physique Pont et porte
+
+- [📝 Pont et porte](unity/physique.md)
+
+
+
+
+## Remplir la fiche d'autoévaluation et d'évaluation par les pairs
+
+## Rencontre des équipes
+Analyse de l'évaluation. Discussion sur les prochaines étapes. Choisir les objectifs à atteindre d'ici la semaine 13. 
 
 ## Devoir
 

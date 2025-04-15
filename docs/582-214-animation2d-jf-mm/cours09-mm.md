@@ -1,4 +1,4 @@
-# Cours 9
+# Cours 9 - Groupe de Marie-Michelle
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 ## Retour sur les 12 principes de l'animation
 [Cours 2](./cours02.html#lorigine)

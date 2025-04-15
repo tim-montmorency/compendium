@@ -147,6 +147,10 @@ Aussi, on peut très bien utiliser l'effet Echo pour ajouter encore plus d'inten
 
 ![type:video](./assets/videos/echo.mp4)
 
+
+
+
+
 ## Prochainement
 
 * Formules d'animation (expression)

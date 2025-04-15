@@ -1,3 +1,7 @@
 # TP2 - Animation
 
-À venir la semaine prochaine : consignes et grille d'évaluation
+À venir.
+
+Les consignes avec la grille d'évaluation vous seront présentées le 16 avril. - JF
+
+[STOP]

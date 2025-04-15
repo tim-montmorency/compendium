@@ -6,11 +6,11 @@ Vous devez réaliser une vidéo explicative animée (_explainer video_).
 
 Cette vidéo doit expliquer clairement un sujet, à l’aide de visuels animés, d’un design cohérent et d’une rythmique uniforme.
 
-Le sujet peut être **éducatif**, **engagé** ou **humoristique**.
+Le sujet peut être 🎓 **éducatif**, ✊ **engagé** ou 😂 **humoristique**.
 
 !!! success "Portfolio"
 
-    Ce TP est excellent une occasion de garnir votre portfolio 🎨
+    Ce TP est une excellente occasion de garnir votre portfolio 🎨
 
 ## Modalités
 
@@ -22,22 +22,24 @@ Ce travail doit être réalisé en équipe de 2 et compte pour 50 % de la note f
 * Durée : 60 secondes
 * Exportation : Vimeo 1080p Full HD
 
-Médias à utiliser
+Médias à utiliser :
 
 * Narration obligatoire (francophone)
 * Trames et effets sonores
 * Visuels originaux ou téléchargés
-* Police de caractères
+* Police de caractères stylées
 
 [^tts]: [:hugging: TTS sur Hugging Face](https://huggingface.co/spaces?q=text+to+speech)
 
 ## Calendrier
 
-Cours 11 - 9 avril : Petit cours et début de la préproduction
-Cours 12 - 16 avril : Petit cours et remise de la preuve de concept.
-Cours 13 - 30 avril : Remise de les médias. Développement des animations
-Cours 14 - 7 mai : Développement des animations
-Cours 15 - 16 mai : Remise et présentation en classe
+* Cours 11 - 9 avril : Petit cours et début de la préproduction.
+* Cours 12 - 16 avril : Petit cours et remise de la preuve de concept avec les médias.
+* Cours 13 - 30 avril : Développement des animations.
+* Cours 14 - 7 mai : Développement des animations.
+* Cours 15 - 16 mai : Remise et présentation en classe.
+
+> Vous avez plus d'un mois pour réaliser le TP2
 
 ## Étapes du TP
 

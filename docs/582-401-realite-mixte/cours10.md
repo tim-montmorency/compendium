@@ -1,11 +1,24 @@
 # Cours 10
 
+### Retour sur GitHub
+- [📝 Github](./unity/github.md)
+
+#### Exercice conflits
+
+### Casques de réalité virtuelle
+- [📝 Meta Quest Link - Relier le casque et l'ordinateur](./unity/meta_quest_link.md)
+
+#### Exercice 
+Tester la scène Démo et regarder les méthodes de prise des objets. 
+
 ## Interagir avec les manettes et l'environnement
 - [📝 Prendre et lancer des objets](unity/interaction_vr.md)
 - [📝 Méthode de sélection des objets](unity/methode_selection.md)
 - [📝 XR socket - Socle pour les objets](unity/xr_socket.md)
 - [📝 Interaction simple](unity/simpleInteraction.md)
 
+## Exercice
+[🛠️ Manette interactive](exercices/interaction_vr.md){ .md-button } 
 
 ## Casse-tête d'experts
 En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, Samples, XR Interaction Toolkit, 2.X.X, Starter Assets.     
@@ -21,11 +34,13 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 - [📝 Sauter en VR](unity/sauter.md)
 - [📝 Ascenseur en VR](unity/ascenseur.md)  
 
+
+## Canvas
+
+- [📝 Canvas en VR](unity/ui_vr.md)
+
 ## Importer des modèles Maya dans Unity
 - [📝 Importation 3D](unity/Importation3D.md)
-
-## Exercice
-[🛠️ Manette interactive](exercices/interaction_vr.md){ .md-button } 
 
 
 ## Modèles
@@ -45,6 +60,9 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 Parfois, les matériaux deviennent rose. Cela est dû à la méthode de rendu que vous pouvez avoir modifié entre deux projets. Voici comment rectifier la situation:     
 
 - [ ] Dans la barre de menu sélectionnez Edit -> Rendering -> Materials -> Convert all Built-in materials to HDRP 
+
+## Rencontres pour voir les besoins individuels
+SVA
 
 ## Devoir
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 

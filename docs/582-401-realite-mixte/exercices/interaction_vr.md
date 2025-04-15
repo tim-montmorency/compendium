@@ -18,9 +18,6 @@ Téléchargez une vidéo libre de droits depuis Internet.
 - [ ] On doit pouvoir récupérer la torche,  pour cela vous aurez besoin d'une composante XR Grab Interactable.
 - [ ] Lorsque le trigger de votre manette est enfoncé, GameObject, SetActive de la torche dans la composante trigger du XR Grab
 
-## Alternative
-
-Vous pourriez faire le même exercice, mais allumer une torche (point light) plutôt que partir une vidéo sur une télévision.
 
 ## Notes de cours 📚
 
