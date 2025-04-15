@@ -42,8 +42,10 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 * [Animation vs. Physics](https://www.youtube.com/watch?v=ErMSHiQRnc8)
 * [Eat Local](https://vimeo.com/444376751)
 * [The Power of Privacy](https://vimeo.com/204530288)
-* sinon : https://vimeo.com/search?q=explainer%20video
-* et les gagnants "Staff Picks" de vimeo dans le genre: https://vimeo.com/search?type=clip&q=explainer&collection=staffpick
+* Vous pouvez continuer d'explorer d'autres genres ici : [https://vimeo.com/search?q=explainer%20video](https://vimeo.com/search?q=explainer%20video)
+* Et consulter les gagnants "Staff Picks" de Vimeo dans le genre: [https://vimeo.com/search?type=clip&q=explainer&collection=staffpick](https://vimeo.com/search?type=clip&q=explainer&collection=staffpick)
+
+
 
 ### Esthétique
 
