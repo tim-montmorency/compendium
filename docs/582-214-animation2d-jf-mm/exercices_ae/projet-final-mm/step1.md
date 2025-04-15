@@ -28,7 +28,7 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 ---
 
 Voici une liste de vidéo explainer pour vous aider à faire vos choix :
-* [Tableau pinterest d'explainer video intéressants](https://ca.pinterest.com/kidsynthetique/explainer-video/)
+* [Tableau Pinterest d'_explainer videos_ intéressants](https://ca.pinterest.com/kidsynthetique/explainer-video/)
 * [Understanding Perception: How We Experience the Meaning We Create](https://motionographer.com/2015/09/18/understanding-perception-how-we-experience-the-meaning-we-create/)
 * [Rutger Bregman on Taxes](https://vimeo.com/367769463)
 * [Agora - Collage Explainer Video](https://vimeo.com/732074954)
@@ -45,7 +45,7 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 * sinon : https://vimeo.com/search?q=explainer%20video
 * et les gagnants "Staff Picks" de vimeo dans le genre: https://vimeo.com/search?type=clip&q=explainer&collection=staffpick
 
-### Esthétisme
+### Esthétique
 
 Dans la phase de brainstorming, vous devrez également penser à l'aspect graphique de votre animation.
 
@@ -119,7 +119,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 
 
-## Storyboard
+## Scénario (storyboard)
 
 ![](./storyboard.gif){.w-100}
 
@@ -223,8 +223,8 @@ Dépot jeudi le 24 avril avant le cours à 14h15.
 Fichiers à remettre:
 
 * Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**
-* Moodboard exporté en fichier **.jpg**, **.png** ou **.pdf**
-* Scénario crée avec Storyboarder et exporté en fichier **.pdf**
+* Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**
+* Scénario (storyboard) crée avec le logiciel Storyboarder et exporté en fichier **.pdf**
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
