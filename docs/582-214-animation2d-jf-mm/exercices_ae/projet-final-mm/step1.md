@@ -108,14 +108,14 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 !!! warning "IMPORTANT CONCERNANT LES CRÉDITS ET DROITS D'AUTEUR"
     À chaque fois que vous récupérez un élément visuel, prenez en note: 
-    - le site web, 
-    - l'outil, 
-    - le logiciel, 
-    - le URL de page où vous l'avez récupéré ou fait généré. 
+    * le site web, 
+    * l'outil, 
+    * le logiciel, 
+    * le URL de page où vous l'avez récupéré ou fait généré. 
     Vous devez aussi nommer le nom de l'artiste/photographe/illustrateur ainsi que ses **informations d'attribution**. Ces informations vous permettrons de donner les crédits légaux à qui de droit dans le générique de fin du court métrage.
 
 !!! danger "Visuel généré par l'intelligence artificielle (IA)"
-    CETTE RÈGLE PROVIENT DU PLAN DE COURS
+    CETTE RÈGLE PROVIENT DU PLAN DE COURS <br>
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
 
