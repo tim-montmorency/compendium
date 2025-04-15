@@ -28,6 +28,7 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 ---
 
 Voici une liste de vidéo explainer pour vous aider à faire vos choix :
+
 * [Tableau Pinterest d'_explainer videos_ intéressants](https://ca.pinterest.com/kidsynthetique/explainer-video/)
 * [Understanding Perception: How We Experience the Meaning We Create](https://motionographer.com/2015/09/18/understanding-perception-how-we-experience-the-meaning-we-create/)
 * [Rutger Bregman on Taxes](https://vimeo.com/367769463)
@@ -44,7 +45,6 @@ Voici une liste de vidéo explainer pour vous aider à faire vos choix :
 * [The Power of Privacy](https://vimeo.com/204530288)
 * Vous pouvez continuer d'explorer d'autres genres ici : [https://vimeo.com/search?q=explainer%20video](https://vimeo.com/search?q=explainer%20video)
 * Et consulter les gagnants "Staff Picks" de Vimeo dans le genre: [https://vimeo.com/search?type=clip&q=explainer&collection=staffpick](https://vimeo.com/search?type=clip&q=explainer&collection=staffpick)
-
 
 
 ### Esthétique
@@ -77,8 +77,8 @@ Il contient des images, palette de couleurs et typographies qui traduisent l’e
 - [ ] Faire un moodboard à partir du modèle fourni.
 
 ### Palette de couleur
-Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) ou [Adobe Colors](https://color.adobe.com/fr/). Il est primordial que votre palette de couleur soit harmonieuse et constante sur tout le visuel de votre animation, tu début à la fin.
 
+Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) ou [Adobe Colors](https://color.adobe.com/fr/). Il est primordial que votre palette de couleur soit harmonieuse et constante sur tout le visuel de votre animation, tu début à la fin.
 
 ## Recherche et création de médias
 
@@ -248,9 +248,6 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 * **Animations** : Nos noms
 * **Visuels** : Nos noms ET/OU les crédits des auteurs / sites sur lesquels vous avez trouvés les visuels ET/OU outil d'intelligence artificielle (nom + version + prompt)
-
-
-
 
 
 ## Remise 1
