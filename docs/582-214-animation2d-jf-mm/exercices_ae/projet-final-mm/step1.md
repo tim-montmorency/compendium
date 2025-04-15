@@ -257,7 +257,7 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 Cette remise est formative.
 
-Dépot jeudi le **24 avril avant le cours à 14h15**.
+Dépot jeudi le **24 avril avant le cours à 14h15**
 
 Fichiers à remettre:
 
@@ -276,7 +276,7 @@ Cette remise est sommative.
 Vous devrez avoir fait évoluer votre script, scénario, moodboard etc. en fonction de notre rencontre en classe le cours précédent. <br>
 De plus, vous devrez aussi avoir produit tous vos éléments visuels et sonores, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
 
-Dépot jeudi le **1er mai avant le cours à 14h15**.
+Dépot jeudi le **1er mai avant le cours à 14h15**
 
 Fichiers à remettre:
 
