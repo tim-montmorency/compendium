@@ -1,4 +1,4 @@
-# TP2 - Préproduction
+# Projet final - Préproduction  (Groupe de Marie-Michelle)
 
 Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du TP2.
 
@@ -28,7 +28,7 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 ---
 
 Voici une liste de vidéo explainer pour vous aider à faire vos choix :
-
+* [Eat Local](https://vimeo.com/444376751)
 * [Understanding Perception: How We Experience the Meaning We Create](https://motionographer.com/2015/09/18/understanding-perception-how-we-experience-the-meaning-we-create/)
 * [Rutger Bregman on Taxes](https://vimeo.com/367769463)
 * [Agora - Collage Explainer Video](https://vimeo.com/732074954)
@@ -60,9 +60,9 @@ Il existe de nombreux styles possible. Voici une liste suggérée :
 
 ![](./mood.png){.w-100}
 
-Un **moodboard** (ou planche d'inspiration) est un assemblage visuel qui évoque l'ambiance recherchée pour votre projet.
+Un **moodboard** (planche d'inspiration) est un assemblage visuel qui évoque l'ambiance recherchée pour votre projet.
 
-Il contient des images, couleurs et typographies qui traduisent l’esthétique souhaitée.
+Il contient des images, palette de couleurs et typographies qui traduisent l’esthétique souhaitée.
 
 [Modèle Figma à télécharger :material-download:](./Mood_Board.jam){ .md-button .md-button--primary }
 
@@ -70,6 +70,10 @@ Il contient des images, couleurs et typographies qui traduisent l’esthétique 
 * [Exemple 2](https://www.figma.com/board/DboRKo6NLn4WRTPzqdMBWf/Mood-Board--Exemple1-?t=fZTJa3oEaMMKYAyr-6)
 
 - [ ] Faire un moodboard à partir du modèle fourni.
+
+### Palette de couleur
+Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) ou [Adobe Colors](https://color.adobe.com/fr/). Il est primordial que votre palette de couleur soit harmonieuse et constante sur tout le visuel de votre animation, tu début à la fin.
+
 
 ## Recherche et création de médias
 
@@ -95,6 +99,21 @@ Il contient des images, couleurs et typographies qui traduisent l’esthétique 
   * [Pixabay](https://pixabay.com/)
   * [Unsplash](https://unsplash.com/)
   * [Pexels](https://www.pexels.com/fr-fr/)
+
+
+!!! warning "IMPORTANT CONCERNANT LES CRÉDITS ET DROITS D'AUTEUR
+    À chaque fois que vous récupérez un élément visuel, prenez en note: 
+    - le site web, 
+    - l'outil, 
+    - le logiciel, 
+    - le URL de page où vous l'avez récupéré ou fait généré. 
+    Vous devez aussi nommer le nom de l'artiste/photographe/illustrateur ainsi que ses **informations d'attribution**. Ces informations vous permettrons de donner les crédits légaux à qui de droit dans le générique de fin du court métrage.
+
+!!! danger "Visuel généré par l'intelligence artificielle (IA)"
+    Cette règle est écrite textuellement dans le PLAN DE COURS: Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
+
+
+
 
 ## Storyboard
 
@@ -184,18 +203,24 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 **8. Crédits**
 
-* **Visuel** : « Nos noms »
+* **Animations** : Nos noms
+* **Visuels** : Nos noms ET/OU les crédits des auteurs / sites sur lesquels vous avez trouvés les visuels ET/OU outil d'intelligence artificielle (nom + version + prompt)
+
+
+
+
 
 ## Remise
 
 Cette remise est formative.
 
-Dépot le 15 avril à 23h59.
+Dépot jeudi le 24 avril avant le cours à 14h15.
 
-Fichiers :
+Fichiers à remettre:
 
-* Docx : Inspirations, scénario et storyboard
-* Moodboard exporté en image
+* Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**
+* Moodboard exporté en fichier **.jpg**, **.png** ou **.pdf**
+* Scénario crée avec Storyboarder et exporté en fichier **.pdf**
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 

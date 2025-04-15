@@ -1,4 +1,4 @@
-# TP2 - Animation
+# TP2 - Animation  (Groupe de Marie-Michelle)
 
 À venir.
 
