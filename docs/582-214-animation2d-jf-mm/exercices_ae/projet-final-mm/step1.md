@@ -118,6 +118,43 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
     CETTE RÈGLE PROVIENT DU PLAN DE COURS <br>
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
+### Classement final de vos médias pour la remise du 1er mai
+
+[Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
+
+```txt
+votre-nom-et-prenom_tp_0_582-214MO
+│
+├──📁 00_references
+│   └──📄 inspiration01.jpg
+│   └──📄 inspiration02.png
+├──📁 01_medias
+│   ├──📁 01_images
+│   │   ├──📁 01_illustrator
+│   │   │   └──📄 fichier-illustration.ai
+│   │   ├──📁 02_png
+│   │   │   ├──📁 photographies
+│   │   │   │   └──📄 photo1.jpg
+│   │   │   └──📁 vectorisations
+│   │   │       └──📄 fichier-vecteur.svp
+│   │   └──📁 03_psd
+│   ├──📁 02_audios
+│   │   ├──📁 00_mixes
+│   │   ├──📁 01_voix
+│   │   │   └──📄 narration.mp3
+│   │   ├──📁 02_ambiances
+│   │   ├──📁 03_bruitages
+│   │   ├──📁 04_effets_sonores
+│   │   └──📁 05_musiques
+│   ├──📁 03_videos
+│   └──📁 04_fonts
+│       └──📄 ma-police-titre.otf
+│       └──📄 ma-police-texte-courant.otf
+├──📁 02_ae
+│   └──📄 mon-fichier-de-travail.aep
+└──📁 03_exportation
+│   └──📄 mon-fichier-exporte-en-video.mp4
+```
 
 
 
@@ -220,7 +257,7 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 Cette remise est formative.
 
-Dépot jeudi le 24 avril avant le cours à 14h15.
+Dépot jeudi le **24 avril avant le cours à 14h15**.
 
 Fichiers à remettre:
 
@@ -236,7 +273,7 @@ Fichiers à remettre:
 
 Cette remise est sommative. 
 
-Vous devrez avoir fait évoluer votre scénario, moodboard etc en fonction de notre rencontre en classe le cours précédent. 
+Vous devrez avoir fait évoluer votre script, scénario, moodboard etc. en fonction de notre rencontre en classe le cours précédent. <br>
 De plus, vous devrez aussi avoir produit tous vos éléments visuels et sonores, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
 
 Dépot jeudi le **1er mai avant le cours à 14h15**.
@@ -247,7 +284,7 @@ Fichiers à remettre:
 * Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**.
 * Script (contenu textuel de la narration) en fichier **.docx**.
 * Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**.
-* Dossier de projet (template) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
+* Dossier de projet (nomenclature de base) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
