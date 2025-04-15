@@ -66,8 +66,8 @@ Médias à utiliser :
   ![](./brainstorming.gif)
 
   **[Préproduction et préparation des médias](./step1.md){.stretched-link .back}**
-  <br><small>Remise de la préprod le 24 avril avant le cours à 14h15 maximum</small>
-  <br><small>Remise de la préprod finale et des médias le 1er avant le cours à 14h15 maximum</small>
+  <br><small>Remise préprod: 24 avril avant le cours à 14h15 max</small>
+  <br><small>Remise préprod finale et médias: 1er mai avant le cours à 14h15 max</small>
 </div>
 
 <div class="grid grid-1-2" markdown>
