@@ -1,4 +1,4 @@
-# Cours 10 - Kino
+# Cours 10 - Kino  - Groupe de Marie-Michelle
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 ![](./assets/images/kino.gif){ .w-100 }
 
