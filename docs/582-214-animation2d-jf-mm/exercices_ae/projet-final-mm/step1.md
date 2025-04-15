@@ -216,7 +216,7 @@ Source : [canadiangeographic.ca](https://canadiangeographic.ca/articles/plastic-
 
 
 
-## Remise
+## Remise 1
 
 Cette remise est formative.
 
@@ -226,7 +226,28 @@ Fichiers à remettre:
 
 * Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**
 * Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**
-* Scénario (storyboard) crée avec le logiciel Storyboarder et exporté en fichier **.pdf**
+* Script (contenu textuel de la narration) en fichier **.docx**
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**
+
+> Une rétroaction avec l'enseignant(e) sera faite en classe.
+
+
+## Remise 2
+
+Cette remise est sommative. 
+
+Vous devrez avoir fait évoluer votre scénario, moodboard etc en fonction de notre rencontre en classe le cours précédent. 
+De plus, vous devrez aussi avoir produit tous vos éléments visuels et sonores, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
+
+Dépot jeudi le **1er mai avant le cours à 14h15**.
+
+Fichiers à remettre:
+
+* Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**.
+* Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**.
+* Script (contenu textuel de la narration) en fichier **.docx**.
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**.
+* Dossier de projet (template) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
