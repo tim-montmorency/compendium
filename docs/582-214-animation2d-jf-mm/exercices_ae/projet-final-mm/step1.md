@@ -69,7 +69,7 @@ Un **moodboard** (planche d'inspiration) est un assemblage visuel qui évoque l'
 
 Il contient des images, palette de couleurs et typographies qui traduisent l’esthétique souhaitée.
 
-[Modèle Figma à télécharger :material-download:](./Mood_Board.jam){ .md-button .md-button--primary }
+[Gabarit Figma à dupliquer :material-download:](https://www.figma.com/design/vHcKwq0iGJ4hYlLRumIxyu/gabarit-moodboard-projet-final-anim2d?node-id=0-1&t=t7Y9fgZBV20gTBIs-1){ .md-button .md-button--primary }
 
 * [Exemple 1](https://www.figma.com/board/QCUCe07qWFr5S3OCBpxcgj/Mood-Board--Exemple2-?t=fZTJa3oEaMMKYAyr-6)
 * [Exemple 2](https://www.figma.com/board/DboRKo6NLn4WRTPzqdMBWf/Mood-Board--Exemple1-?t=fZTJa3oEaMMKYAyr-6)
@@ -261,7 +261,7 @@ Dépot jeudi le **24 avril avant le cours à 14h15**
 
 Fichiers à remettre:
 
-* Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**
+* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et enregistré en fichier **.docx**
 * Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**
 * Script (contenu textuel de la narration) en fichier **.docx**
 * Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**
