@@ -45,10 +45,19 @@ Médias à utiliser :
 [^tts]: [:hugging: TTS sur ElenvenLabs](https://elevenlabs.io/fr)
 
 ## Calendrier
-* **Hors cours - 15 avril :** Explication du projet et de la préproduction et début de la préproduction.
-* **Cours 11 -  jeudi 24 avril :** Petit cours et remise de la préproduction. Rencontre en classe équipe par équipe pour discuter de votre préproduction et comment faire évoler le projet.
-* **Cours 12 -  jeudi 1er mai :** Petit cours et remise de la préproduction révisée et achevée et de tous les médias sonores et visuels non-animés.
-* **Cours 13 - jeudi 8 mai :** Développement des animations. Rrencontre en classe équipe par équipe pour discuter de votre projet, de vos animations, prendre les conseils pour faire évoluer votre projet.
+| Hors cours: 15 avril | Explication du projet et de la préproduction + début de la préproduction (hors cours).                       |
+| Cours 11: 25 avril   | Remise de la préproduction. Rencontre en classe prof+équipediscussion et évaluation formative de la préprod. |
+| Cours 12: 1er mai    | Remise de la préproduction révisée et achevée et de tous les médias sonores et visuels non-animés.           |
+| Cours 13: 8 mai      | Développement des animations. Rencontre en classe prof+équipe faire évoluer votre projet.                    |
+| Cours 14: 15 mai     | Développement des animations.                                                                                |
+| Cours 15: 21 mai     | Remise et présentation orale devant la classe.                                                               |
+
+
+
+* **Hors cours - 15 avril :** Explication du projet et de la préproduction + début de la préproduction (hors cours).
+* **Cours 11 -  jeudi 24 avril :** Remise de la préproduction. Rencontre en classe prof+équipe pour discuter de votre préproduction et comment faire évoler le projet.
+* **Cours 12 -  jeudi 1er mai :** Remise de la préproduction révisée et achevée et de tous les médias sonores et visuels non-animés.
+* **Cours 13 - jeudi 8 mai :** Développement des animations. Rencontre en classe équipe par équipe pour discuter de votre projet, de vos animations, prendre les conseils pour faire évoluer votre projet.
 * **Cours 14 - jeudi 15 mai :** Développement des animations.
 * **Cours 15 - merc. 21 mai :** Remise et présentation orale devant la classe.
 
