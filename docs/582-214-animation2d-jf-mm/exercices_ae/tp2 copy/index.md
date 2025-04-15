@@ -30,7 +30,7 @@ Médias à utiliser :
 * Visuels originaux OU téléchargés de banques de visuels libres de droit OU généré via des outils d'intelligence artificielle
 * Police de caractères stylées
 
-!!! warning "IMPORTANT CONCERNANT LES CRÉDITS ET DROITS D'AUTEUR
+!!! warning "IMPORTANT CONCERNANT LES CRÉDITS ET DROITS D'AUTEUR"
     À chaque fois que vous récupérez un élément visuel, prenez en note: 
     - le site web, 
     - l'outil, 
