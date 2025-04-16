@@ -6,7 +6,7 @@ Assurément la partie la plus importante du projet, la préproduction vise à fa
 
     Pour la préproduction, il est important d'être bien organisé(e).
 
-    Enregistrez quelque part tous les médias et URLs consultés, et ce, autant pour la portion brainstorming que pour la recherche et la création de médias.
+    Enregistrez quelque part (par exemple un document Word) tous les médias et URLs consultés, et ce, autant pour la portion brainstorming que pour la recherche et la création de médias. Vous en aurez besoin plus tard.
 
 ## Brainstorm et inspiration
 
@@ -15,15 +15,18 @@ Assurément la partie la plus importante du projet, la préproduction vise à fa
 Un brainstorming est une séance de génération d'idées sans jugement. L’objectif est d’explorer des pistes variées avant de faire un choix.
 
 Il existe plein de [techniques de _brainstorming_](https://asana.com/fr/resources/brainstorming-techniques).
-
+ <br>
 Pour orienter votre brainstorming, voici quelques sujets à considérer :
 
-* Quel est le sujet à expliquer ?
-* Quel est l'intention (humoristique, éducatif, engagé) ?
+* Quel est le sujet* à expliquer ?
+* Quel est l'intention (humoristique, éducatif, engagé)* ?
 * Quel est le public cible ?
 * Quel est le nom du projet ?
 
-- [ ] Créer un docx avec les sujets de votre projet.
+*<small>Restriction: Ne pas faire une publicité commerciale. Ce doit être engagé (une cause sociale par exemple), éducatif et/ou humoristique.</small>
+ <br> 
+- [ ] Créer un fichier Word **description-projet.docx** en y inscrivant la réponse au 4 questions (sujet, intention etc.)
+- [ ] Créer un autre fichier Word **references-et-inspirations.docx** en y inscrivant tous les médias et URLs consultés, et ce, autant pour la portion brainstorming que pour la recherche et la création de médias. Vous en aurez besoin plus tard.
 
 ---
 
@@ -59,7 +62,7 @@ Il existe de nombreux styles possible. Voici une liste suggérée :
 * Whiteboard animation (simulation d'un dessin synchro avec l'audio)
 * Collage animation (à la south park)
 
-- [ ] Choisir l'esthétisme recherché.
+- [ ] Faire un choix sur l'esthétique recherchée et l'inscrire dans votre fichier Word **description-projet.docx**.
 
 ## Moodboard
 
@@ -67,24 +70,25 @@ Il existe de nombreux styles possible. Voici une liste suggérée :
 
 Un **moodboard** (planche d'inspiration) est un assemblage visuel qui évoque l'ambiance recherchée pour votre projet.
 
-Il contient des images, palette de couleurs et typographies qui traduisent l’esthétique souhaitée.
+Il contient des images, palettes de couleurs et typographies qui traduisent l’esthétique souhaitée. De plus, dans ce cas-ci, il vous est demandé d'y ajouter aussi des inspirations d'animation 2d / effets animés ainsi que des inspirations de transitions entre scènes.
 
-[Gabarit Figma à dupliquer :material-download:](https://www.figma.com/design/vHcKwq0iGJ4hYlLRumIxyu/gabarit-moodboard-projet-final-anim2d?node-id=0-1&t=t7Y9fgZBV20gTBIs-1){ .md-button .md-button--primary }
+[Gabarit à télécharger et à importer dans votre compte Figma :material-download:](https://www.figma.com/design/vHcKwq0iGJ4hYlLRumIxyu/gabarit-moodboard-projet-final-anim2d?node-id=0-1&t=t7Y9fgZBV20gTBIs-1){ .md-button .md-button--primary }
 
-* [Exemple 1](https://www.figma.com/board/QCUCe07qWFr5S3OCBpxcgj/Mood-Board--Exemple2-?t=fZTJa3oEaMMKYAyr-6)
-* [Exemple 2](https://www.figma.com/board/DboRKo6NLn4WRTPzqdMBWf/Mood-Board--Exemple1-?t=fZTJa3oEaMMKYAyr-6)
+<img src="./figma-file-save-local-copy.png" alt="file/save local copy" style="width=100%; max-width: 200px;">
 
 - [ ] Faire un moodboard à partir du modèle fourni.
+- [ ] L'exporter en png **moodboard.pdf** ou pdf **moodboard.pdf**
 
 ### Palette de couleur
 
-Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) ou [Adobe Colors](https://color.adobe.com/fr/). Il est primordial que votre palette de couleur soit harmonieuse et constante sur tout le visuel de votre animation, tu début à la fin.
+Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) ou [Adobe Colors](https://color.adobe.com/fr/). Notez qu'il est primordial que votre palette de couleur soit harmonieuse et constante sur tout le visuel de votre animation, du début à la fin.
 
 ## Recherche et création de médias
 
 ![](./fonts.jpg){.w-100}
 
 - [ ] Trouver les trames et les effets sonores (libres de droits) nécessaires pour accompagner les animations :
+  * [Banques de sons acquises par le département TIM](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=MXj8Ca)
   * [Pixabay](https://pixabay.com/)
   * [Mixkit](https://mixkit.co/)
   * [Falling Forever | Bandcamp](https://fallingforever.bandcamp.com/)
@@ -93,17 +97,29 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
   * [Edge TTS | Hugging Face](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech). Essayez : fr-CA-ThierryNeural - fr-CA (Male), il est pas mal ;)
   * [elevenlabs (connexion requise)](https://elevenlabs.io/)
 
-- [ ] Trouver des polices de caractères (libres de droits) :
+- [ ] Trouver des polices de caractères :
+  * Police Adobe (disponible via la panneau **Caractère** d'Illustrator, Photoshop ou After Effects)
   * [Fontesk](https://fontesk.com/license/free-for-commercial-use,free-for-personal-use/)
   * [Google Fonts](https://fonts.google.com/)
   * [Fontshare](https://www.fontshare.com/)
   * [Pousse ta fonte](https://www.poussetafonte.com/) (sélectionner le filtre "Free 🔥")
   * [Font Squirrel](https://www.fontsquirrel.com/)
+  * [Dafont](https://www.dafont.com/fr/)
 
-- [ ] Créer ou télécharger des visuels (libres de droits) :
+- [ ] Trouver et télécharger des visuels 
+  <small>(Pour le moodboard nul besoin qu'elle soient libres de droits. Par contre pour vos médias finaux utilisés dans l'animation de votre projet, elles doivent être illustrées par vous-même ou elles doivent être libres de droits, voici des librairies où vous pouvez trouver des médias libres de droit)</small> :
   * [Pixabay](https://pixabay.com/)
   * [Unsplash](https://unsplash.com/)
   * [Pexels](https://www.pexels.com/fr-fr/)
+  * [Open Verse](https://openverse.org/)
+  * [Flat Icon](https://www.flaticon.com/fr/)
+  * [Vecteezy](https://www.vecteezy.com/)
+  * [SVG Repo](https://www.svgrepo.com/)
+  * [NounProject](https://thenounproject.com/)
+
+- [ ] Trouver des inspirations d'animations 2d, d'effets animés et de transitions 
+  * Voir la liste d'inspiration d'explainer vidéo plus haut dans cette page.
+  * Vous pouvez aussi être inspirés par le style de d'autres animation que celle qui sont présentées ci-haut.
 
 
 !!! warning "IMPORTANT CONCERNANT LES CRÉDITS ET DROITS D'AUTEUR"
@@ -194,8 +210,24 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
     Une approche efficace pour gérer le temps consiste à rédiger d’abord le texte, générer l'audio puis déterminer ensuite comment il s’intégrera dans l’animation.
 
-- [ ] Écrivez le **contenu narratif** et imaginez les **visuels** pour chacune des étapes. (Restez réaliste ;))
-- [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens ou images pour illustrer l'intention.
+- [ ] Téléchargez et intallez le logiciel [Storyboarder](https://wonderunit.com/storyboarder/)
+
+<img src="./storyboarder-animated-screenshot.gif" alt="demo interface Storyboarder" style="width=100%; max-width: 400px;">
+
+!!! 
+    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie sous peu. Le lien sera affiché ici.
+
+- [ ] Dans storyboarder, pour chaque plan:
+  * écrivez le **contenu narratif** dans le champ **dialogue**
+  * imaginez et dessinez les **visuels** pour chaque plan (restez réaliste ;))
+  * inscrivez la **durée du plan** dans le champ **duration**
+  * inscrivez **l'action et l'animation** (ce qui se passe et ce qui s'anime, en incluant les mouvement de caméra) dans le champs **Action**
+
+- [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens dans le champ **Action** pour illustrer l'intention.
+
+- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario_v1.pdf* avec les spécifications suivantes:
+
+<img src="./storyboarder-export-pdf-specs.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
 
 ### Exemple de scénario
 
@@ -260,7 +292,7 @@ Dépot jeudi le **24 avril avant le cours à 14h15**
 Fichiers à remettre:
 
 * Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et enregistré en fichier **.docx**
-* Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**
+* Moodboard créé avec Figma et exporté en fichier **.png** ou **.pdf**
 * Script (contenu textuel de la narration) en fichier **.docx**
 * Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**
 
@@ -279,7 +311,7 @@ Dépot jeudi le **1er mai avant le cours à 14h15**
 Fichiers à remettre:
 
 * Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**.
-* Moodboard créé avec Figma et exporté en fichier **.jpg**, **.png** ou **.pdf**.
+* Moodboard créé avec Figma et exporté en fichier **.png** ou **.pdf**.
 * Script (contenu textuel de la narration) en fichier **.docx**.
 * Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**.
 * Dossier de projet (nomenclature de base) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
