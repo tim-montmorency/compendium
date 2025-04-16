@@ -29,8 +29,6 @@ Médias à utiliser :
 * Visuels originaux ou téléchargés
 * Police de caractères stylées
 
-[^tts]: [:hugging: TTS sur Hugging Face](https://huggingface.co/spaces?q=text+to+speech)
-
 ## Calendrier
 
 * Cours 11 - 9 avril : Petit cours et début de la préproduction.
@@ -64,7 +62,61 @@ Médias à utiliser :
   <br><small>9 mai</small>
 </div>
 
+## Critères d’évaluation
+
+### Production de l’animation (5 points)
+
+- [ ] Paramètres techniques respectés (résolution, durée, format)
+- [ ] Structure de projet bien organisée (Main + sous-compositions)
+- [ ] Transitions fluides entre les scènes
+- [ ] Scène de crédits
+- [ ] Présentation originale des crédits
+
+### Techniques obligatoires (10 points)
+
+- [ ] Écrasement et étirement (squash & stretch)
+- [ ] Anticipation
+- [ ] Actions secondaires
+- [ ] Lissage (Graph Editor)
+- [ ] Animation sur une trajectoire
+- [ ] Outil marionnette
+- [ ] Typographie cinétique
+- [ ] Expression `loopOut()`
+- [ ] Utilisation d’au moins 4 effets différents
+- [ ] Notion bonus
+
+### Bande sonore (3 points)
+
+- [ ] Trame sonore ajoutée
+- [ ] Effets sonores judicieux
+- [ ] Narration en français intégrée
+
+### Général (5 points)
+
+- [ ] Le sujet est bien expliqué via une structure narrative logique
+- [ ] Le rythme de la production est bien exécuté (pas de temps morts par exemple, ou encore, une étape narrative beaucoup plus longue que les autres)
+- [ ] L’esthétisme et la direction artistique sont cohérents tout au long de la vidéo (design, typographie, couleurs, lisibilité)
+- [ ] Originalité / Créativité
+- [ ] Respect des consignes
+
+### Documentation (2 points)
+
+- [ ] Structure narrative clairement expliquée
+- [ ] Tableau des techniques + timecodes
+
+### Présentation orale (5 points)
+
+- [ ] Tous les membres prennent la parole
+- [ ] Intention de départ bien expliquée
+- [ ] Défis rencontrés et solutions trouvées
+- [ ] Partage des apprentissages
+- [ ] Autoévaluation pertinente (améliorations possibles)
+
 [STOP]
+
+!!! info "Valorisation de l'effort"
+
+    Une vidéo trop courte ou ne démontrant pas un effort suffisant dans l’utilisation des techniques, de la narration ou de l’esthétisme, peut être considérée comme incomplète, même si les critères semblent “techniquement cochés”. L’évaluation tiendra compte du niveau d’engagement global dans le projet.
 
 > Travaillons sérieusement sans se prendre trop au sérieux :wink:
 
