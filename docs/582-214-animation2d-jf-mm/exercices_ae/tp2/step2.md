@@ -47,7 +47,11 @@ L’ambiance sonore est essentielle pour renforcer la narration visuelle. Ajoute
 
 ## Crédits
 
-Votre vidéo doit se terminer par une scène de **crédits**, qui fera office de « page couverture » pour votre projet. Elle doit inclure :
+Votre vidéo doit se terminer par une scène de **crédits**, qui fera office de « page couverture » pour votre projet. 
+
+Elle peut faire partie du 60 secondes de votre animation, mais vous pouvez aussi la placer après. À vous de voir.
+
+Elle doit inclure :
 
 - Titre du projet
 - Noms complets des membres de l’équipe
