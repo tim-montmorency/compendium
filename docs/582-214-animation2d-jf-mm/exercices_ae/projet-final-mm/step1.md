@@ -212,7 +212,7 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 - [ ] Téléchargez et intallez le logiciel [Storyboarder](https://wonderunit.com/storyboarder/)
 
-![](./storyboarder-animated-screenshot.gif){.w-300}
+<img src="./storyboarder-animated-screenshot.gif" alt="demo interface Storyboarder" style="width=100%; max-width: 400px;">
 
 !!! 
     Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie sous peu. Le lien sera affiché ici.
@@ -225,8 +225,9 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 - [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens dans le champ **Action** pour illustrer l'intention.
 
-- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario_v1.pdf* avec les spécifications suivantes: 
-![](./storyboarder-export-pdf-specs.png){.w-100}
+- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario_v1.pdf* avec les spécifications suivantes:
+
+<img src="./figma-file-save-local-copy.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
 
 ### Exemple de scénario
 
