@@ -25,6 +25,10 @@
 
 ![](./assets/images/projet-equipe.png)
 
+Synchronisation des médias : <https://www.schoolofmotion.com/blog/saving-and-sharing-after-effects-projects>
+
+Pour synchoniser les médias utilisés, il est recommandé que chaque membre de l'équipe partage son dossier de footage lorsqu'il l'ajoute dans le projet. Ainsi, les médias seront bien référencés dans After Effects. 
+
 ## Devoir
 
 <div class="grid grid-1-2" markdown>
