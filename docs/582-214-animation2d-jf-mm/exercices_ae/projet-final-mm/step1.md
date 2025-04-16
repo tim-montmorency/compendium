@@ -227,7 +227,7 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 - [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario_v1.pdf* avec les spécifications suivantes:
 
-<img src="./figma-file-save-local-copy.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
+<img src="./storyboarder-export-pdf-specs.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
 
 ### Exemple de scénario
 
