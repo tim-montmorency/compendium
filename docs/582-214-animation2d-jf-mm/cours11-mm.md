@@ -1,4 +1,4 @@
-# Cours 11 - Groupe de Marie-Michelle
+# Cours 11 <br><small>Groupe de Marie-Michelle</small>
 
 ## Élections fédérales du Canada 2025
 
