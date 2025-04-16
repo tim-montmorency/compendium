@@ -214,6 +214,9 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 ![](./storyboarder-animated-screenshot.gif){.w-300}
 
+!!! 
+    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie sous peu. Le lien sera affiché ici.
+
 - [ ] Dans storyboarder, pour chaque plan:
   * écrivez le **contenu narratif** dans le champ **dialogue**
   * imaginez et dessinez les **visuels** pour chaque plan (restez réaliste ;))
