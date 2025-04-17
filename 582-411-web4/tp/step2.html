@@ -7227,9 +7227,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ux" class="md-nav__link">
+    <span class="md-ellipsis">
+      UX
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#fonctionnalite-bonus" class="md-nav__link">
     <span class="md-ellipsis">
       Fonctionnalité bonus
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backup
     </span>
   </a>
   
@@ -7252,27 +7270,59 @@
 
 
 <div><h1 id="tp-developpement">TP - Développement<a class="headerlink" href="#tp-developpement" title="Permanent link">¶</a></h1>
-<p>Suite des consignes à venir</p>
 <h2 id="fonctionnalites-de-base">Fonctionnalités de base<a class="headerlink" href="#fonctionnalites-de-base" title="Permanent link">¶</a></h2>
-<ul>
-<li>Articles avec titre, image à la une, extrait.</li>
-<li>Pages auteur(e)s avec photo, bio et articles publiés</li>
-<li>Site multilingue fr/en</li>
-<li>Menu de navigation épuré avec sélecteur de langue</li>
-<li>Catégorisation et étiquettes (avec traduction) des posts</li>
-<li>Site responsive</li>
-<li>Création d'un thème enfant</li>
-<li>Intégration d’une API</li>
+<p>Votre site WordPress devra obligatoirement inclure les éléments suivants :</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Modèle d'accueil attrayant</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Modèle de page pour les auteur(e)s contenant :<ul>
+<li>Une <strong>photo</strong></li>
+<li>Une courte <strong>biographie</strong></li>
+<li>La <strong>liste des articles</strong> publiés par cette personne</li>
 </ul>
-<h2 id="fonctionnalite-bonus">Fonctionnalité bonus<a class="headerlink" href="#fonctionnalite-bonus" title="Permanent link">¶</a></h2>
-<p>Vous devrez ajouter une fonctionnalité qui n'a pas encore été vue en classe.</p>
-<p>Par exemple :</p>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Site bilingue (français / anglais) avec <strong>Polylang</strong> et <strong>Loco Translate</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Menu de navigation fonctionnel avec un <strong>sélecteur de langue</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Site <strong>responsive</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Création d’un <strong>thème enfant</strong> basé sur un thème FSE (<em>Full Site Editing</em>)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Intégration d’une <strong>API publique externe</strong>, affichée à l’aide d’un <strong>shortcode personnalisé</strong></li>
+</ul>
+<blockquote>
+<p>💡 L’intégration d’une API (météo, jeux vidéo, cinéma, etc.) permet de dynamiser votre contenu. Le shortcode doit être codé en PHP dans votre thème enfant.</p>
+</blockquote>
+<h2 id="ux">UX<a class="headerlink" href="#ux" title="Permanent link">¶</a></h2>
+<p>Pour enrichir l’expérience de navigation, vous devez :</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter des <strong>animations subtiles</strong> à l’aide de <strong>GSAP</strong>.</li>
+</ul>
+<p>L'objectif est d'ajouter une touche de professionnalisme <strong>sans nuire à la lisibilité ou à l’ergonomie</strong>.</p>
+<p>Quelques idées d’animations :</p>
 <ul>
-<li>Un système de notation avec étoiles</li>
-<li>Des champs personnalisé avec ACF</li>
-<li>Des widget de statistiques</li>
-<li>Effet parallax</li>
+<li>Apparition progressive des sections au défilement (scroll reveal)</li>
+<li>Légère mise en valeur des titres ou boutons</li>
+<li>Transitions douces entre les sections</li>
+</ul>
+<blockquote>
+<p>Petit conseil : allez-y avec <strong>parcimonie</strong> ! Trop d’animation nuit à l'expérience et même l'accessibilité !</p>
+</blockquote>
+<h2 id="fonctionnalite-bonus">Fonctionnalité bonus<a class="headerlink" href="#fonctionnalite-bonus" title="Permanent link">¶</a></h2>
+<p>Pour démontrer votre autonomie, vous devez :</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Intégrer <strong>deux</strong> fonctionnalités supplémentaires.</li>
+</ul>
+<p>Voici quelques idées :</p>
+<ul>
+<li>Système de notation avec étoiles</li>
+<li>Champs personnalisés (ACF)</li>
+<li>Widget de statistiques</li>
+<li>Parallax ou effets visuels</li>
+<li>Lightbox pour une galerie en popup</li>
+<li>Boutique en ligne avec <strong>Woocommerce</strong></li>
+<li>Intégration d'intelligence artificielle <code>¯\_(ツ)_/¯</code></li>
 <li>etc.</li>
+</ul>
+<h2 id="backup">Backup<a class="headerlink" href="#backup" title="Permanent link">¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Faire un backup avec WPVivid Backup</li>
 </ul></div>
 
 
