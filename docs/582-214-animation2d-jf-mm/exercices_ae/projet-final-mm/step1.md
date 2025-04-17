@@ -223,7 +223,7 @@ Placez ensuite chacune des étapes dans votre ligne du temps.
 
 Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informations à raconter et comment les présenter.
 
-!!! top "Petit truc"
+!!! info "Petit truc"
 
     Une approche efficace pour gérer le temps consiste à rédiger d’abord le script, générer la narration à partir de ce texte (via synthèse vocale avec ElevenLabs par exemple) puis, déterminer ensuite comment il s’intégrera dans l’animation.
 
@@ -231,8 +231,11 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 <img src="./storyboarder-animated-screenshot.gif" alt="demo interface Storyboarder" style="width=100%; max-width: 400px;">
 
-!!! 
-    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie sous peu. Le lien sera affiché ici.
+!!! example "Utilisation du logiciel Storyboarder"
+
+    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie d'ici le 17 avril. Le lien sera affiché ici.
+
+
 
 - [ ] Dans storyboarder, pour chaque plan:
   * écrivez le **contenu narratif** dans le champ **dialogue**
