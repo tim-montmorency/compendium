@@ -321,14 +321,19 @@ Fichiers à remettre:
 
 
 ## Remise 2
-d
+
 Cette remise est sommative. 
 
 Dépot jeudi le **1er mai avant le cours à 14h15**
 
 Vous devrez avoir **fait évoluer votre script, scénario, moodboard etc.** en fonction de notre rencontre en classe le cours précédent. <br>
 
-De plus, vous devrez aussi **avoir produit tous vos éléments visuels et sonores**, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés. Tous les médias doivent être classés dans : [le dossier de projet](./dossier-de-depart.zip)
+De plus, vous devrez aussi **avoir produit tous vos éléments visuels et sonores** et les avoir préparés: 
+
+* Avoir appliqué votre palette de couleurs sur tous les éléments visuels.
+* Avoir bien nommé et classé chaque fichier.
+* Si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
+* Tous les médias doivent être classés dans : [le dossier de projet](./dossier-de-depart.zip).
 
 Fichiers à remettre:
 
@@ -339,7 +344,6 @@ Fichiers à remettre:
 * Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario.pdf**
 * [Le dossier de projet](./dossier-de-depart.zip) incluant **tous les médias sonores et visuels préparés et classés**.
 
-> Une rétroaction avec l'enseignant(e) sera faite en classe.
 
 
 
