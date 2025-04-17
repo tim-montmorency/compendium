@@ -148,6 +148,9 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
     Cette provient des règle du plan de cours <br>
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
+<br>
+
+---
 
 #### Classement final de vos médias pour la **remise 2** du 1er mai
 
