@@ -152,7 +152,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 ---
 
-#### Classement final de vos médias pour la **remise 2** du 1er mai
+## Classement final de vos **création médias** pour la **Remise 2** du 1er mai
 
 [Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
 
@@ -245,7 +245,7 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 - [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens dans le champ **Action** pour illustrer l'intention.
 
-- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario_v1.pdf* avec les spécifications suivantes:
+- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario.pdf* avec les spécifications suivantes:
 
 <img src="./storyboarder-export-pdf-specs.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
 
@@ -315,27 +315,29 @@ Fichiers à remettre:
 * Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
 * Moodboard créé avec Figma et exporté en  **moodboard.png** ou **moodboard.pdf**
 * Script (contenu textuel de la narration) en fichier **script.docx**
-* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario_v1.pdf**
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario.pdf**
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
 
 ## Remise 2
-
+d
 Cette remise est sommative. 
-
-Vous devrez avoir fait évoluer votre script, scénario, moodboard etc. en fonction de notre rencontre en classe le cours précédent. <br>
-De plus, vous devrez aussi avoir produit tous vos éléments visuels et sonores, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
 
 Dépot jeudi le **1er mai avant le cours à 14h15**
 
+Vous devrez avoir **fait évoluer votre script, scénario, moodboard etc.** en fonction de notre rencontre en classe le cours précédent. <br>
+
+De plus, vous devrez aussi **avoir produit tous vos éléments visuels et sonores**, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés. Tous les médias doivent être classés dans : [le dossier de projet](./dossier-de-depart.zip)
+
 Fichiers à remettre:
 
-* Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**.
-* Moodboard créé avec Figma et exporté en fichier **.png** ou **.pdf**.
-* Script (contenu textuel de la narration) en fichier **.docx**.
-* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**.
-* Dossier de projet (nomenclature de base) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
+* Sujet dans un Word nommé **description-projet.docx**
+* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
+* Moodboard créé avec Figma et exporté en  **moodboard.png** ou **moodboard.pdf**
+* Script (contenu textuel de la narration) en fichier **script.docx**
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario.pdf**
+* [Le dossier de projet](./dossier-de-depart.zip) incluant **tous les médias sonores et visuels préparés et classés**.
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
