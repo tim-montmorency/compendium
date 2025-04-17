@@ -1,12 +1,10 @@
 # Cours 12
 
-[STOP]
-
 ## Qu’est-ce qu’une API ?
 
 ![](./assets/images/api-timeline.avif){ data-zoom-image }
 
-Une API (_Application Programming Interface_), c’est un ensemble de règles qui permet à deux logiciels de communiquer entre eux. 
+Une API (_Application Programming Interface_), c’est un ensemble de règles qui permet à deux logiciels de communiquer entre eux.
 
 Autrement dit, c’est un pont entre deux systèmes qui permet le partage d'information.
 
@@ -23,8 +21,10 @@ Une API REST (_Representational State Transfer API_) est un type d’API qui sui
 * PUT / PATCH : modifier
 * DELETE : supprimer
 
-[Liste d'APIs disponibles](https://github.com/public-apis/public-apis)
-https://jsonplaceholder.typicode.com/
+### APIs à votre disposition
+
+* [public-apis | Github](https://github.com/public-apis/public-apis)
+* [Apilist.fun](https://apilist.fun/)
 
 ### Exemple d'API
 
@@ -75,7 +75,7 @@ CORS est une politique de sécurité des navigateurs qui empêche une page Web d
 
 Par défaut, si votre site est sur https://monsite.ca et que vous appelez une API sur https://api.autresite.com, le navigateur peut bloquer la requête.
 
-Pour que ça fonctionne, il faut que le serveur qu'on veut accéder ai une configuration spéciale qu'on nomme le header. 
+Pour que ça fonctionne, il faut que le serveur qu'on veut accéder ai une configuration spéciale qu'on nomme le header.
 
 ```
 Access-Control-Allow-Origin: *
@@ -83,78 +83,79 @@ ou
 Access-Control-Allow-Origin: https://monsite.ca
 ```
 
-[STOP]
+## Wordpress et son Rest API
 
-## Introduction à l'API REST
+Par défaut, WordPress intègre sa propre API REST, accessible sans avoir besoin d’installer quoi que ce soit.
 
-### Qu'est-ce qu'une API REST ?
-- Une API REST (Representational State Transfer) permet la communication entre systèmes via le protocole HTTP.
-- Utilise des méthodes HTTP standards : **GET**, **POST**, **PUT**, **DELETE**.
+Si l’URL de votre site est : `https://votresite.tim-momo.com/tp`, vous pouvez accéder à l’API REST simplement en ajoutant `/wp-json` à la fin.
 
-### Pourquoi WordPress a-t-il une API REST ?
-- Pour interagir avec le contenu de WordPress de manière programmatique.
-- Permet de transformer WordPress en **headless CMS**.
-- Ouvre WordPress à des intégrations externes : applications React, mobiles, etc.
+Quelques exemples :
 
-## Point d’entrée de l’API REST
+```md
+// Affiche les informations générales de l’API disponible sur votre site en format JSON.
+https://votresite.tim-momo.com/tp/wp-json/
 
-URL de base : https://votresite.com/wp-json/
+// Affiche tous les articles (posts) de votre site en format JSON.
+https://votresite.tim-momo.com/tp/wp-json/wp/v2/posts
 
-- L’API expose tous les endpoints accessibles.
-- Exemple :
-  - `wp-json/wp/v2/posts` : récupérer des articles.
-  - `wp-json/wp/v2/pages` : récupérer des pages.
+Affiche les 3 derniers articles seulement.
+https://votresite.tim-momo.com/tp/wp-json/wp/v2/posts?per_page=3
+```
 
-### Tester l’API
-- Outils recommandés :
-  - Postman
-  - Insomnia
-  - `curl` en ligne de commande
-  - Navigateur (pour les requêtes GET simples)
+Autres paramètres utiles :
 
-## Lire des données (GET)
-
-Récupérer tous les articles : GET /wp-json/wp/v2/posts
-
-### Paramètres utiles :
-- `?per_page=5`
-- `?page=2`
 - `?categories=3`
 - `?author=1`
 - `?search=motcle`
 
-## Créer un endpoint personnalisé
+!!! question "POST, PUT, DELETE"
+
+    Est-ce qu'on peut utiliser l'API de WordPress en POST, PUT, ou DELETE ?
+
+    Bien sur que oui !
+
+    Toutefois, il faut pour cela prévoir une logique d'authentification (Nonce, JWT). C'est un bien plus avancé alors nous n'irons pas jusque là.
+
+## Afficher le résultat d'un API dans un shortcode
+
+Dans le fichier `functions.php` de votre thème :
 
 ```php
 <?php
 
-add_action('rest_api_init', function () {
-    register_rest_route('monplugin/v1', '/bonjour/', [
-        'methods' => 'GET',
-        'callback' => 'dire_bonjour',
-        'permission_callback' => '__return_true'
-    ]);
-});
+// 👇 Ici on créé le shortcode "articles_demo"
 
-function dire_bonjour($data) {
-    return ['message' => 'Bonjour depuis l’API !'];
-}
+add_shortcode('articles_demo', function () {
+
+  // Appel de l'API
+  $response = wp_remote_get('https://jsonplaceholder.typicode.com/posts?_limit=5');
+
+  if (is_wp_error($response)) {
+    return '<p>Erreur : impossible de joindre l’API.</p>';
+  }
+
+  $body = wp_remote_retrieve_body($response);
+  $posts = json_decode($body, true);
+
+  // ici on construit le HTML qui sera affiché sur le site
+  $output = '<div class="articles-demo">';
+  $output .= '<ul>';
+  foreach ($posts as $post) {
+    $output .= '<li>';
+    $output .= '<strong>' . esc_html($post['title']) . '</strong><br>';
+    $output .= esc_html($post['body']);
+    $output .= '</li>';
+  }
+  $output .= '</ul></div>';
+
+  return $output;
+});
 ```
 
-## Cas pratiques
+En WordPress, `esc_html` est la fonction recommandée pour remplacer `htmlspecialchars`. C'est pour que l'affichage soit bien sécuritaire 🔒.
 
+Une fois le `shortcode` créé, vous pouvez l'ajouter dans un bloc de type `shortcode` !
 
-
-
-
-
-
+[STOP]
 
 https://jsonplaceholder.typicode.com/
-
-$reponse = file_get_contents("https://jsonplaceholder.typicode.com/posts/1");
-echo $reponse;
-
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
