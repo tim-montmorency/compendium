@@ -152,7 +152,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 ---
 
-## Classement final de vos **création médias** pour la **Remise 2** du 1er mai
+## Classement final des fichiers du projet
 
 [Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
 
@@ -160,9 +160,16 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 votre-nom-et-prenom_tp_0_582-214MO
 │
 ├──📁 00_references
-│   └──📄 inspiration01.jpg
-│   └──📄 inspiration02.png
-├──📁 01_medias
+│   └──01-inspirations (ce sont les inspirations et non les médias que vous allez utiliser pour animer)
+│   │   ├──references-et-inspirations.docx
+│   │   ├──📄 inspiration01.jpg
+│   └───├──📄 inspiration02.png
+│   └──02-sujet_moodboard_script_scenario
+│   └───├──description-projet.docx
+│   └───├──moodboard.pdf
+│   └───├──script.docx
+│   └───├──scenario.pdf
+├──📁 01_medias (ce sont les médias qui sont utilisés dans vos animations After Effects)
 │   ├──📁 01_images
 │   │   ├──📁 01_illustrator
 │   │   │   └──📄 fichier-illustration.ai
