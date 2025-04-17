@@ -1,5 +1,7 @@
 # Projet final - Préproduction <br><small>Groupe de Marie-Michelle</small>
 
+*[TTS]: Text To Speech
+
 Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du TP2.
 
 !!! tip "Sauvegardes 💾"
@@ -89,18 +91,18 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 ![](./fonts.jpg){.w-100}
 
-- [ ] Trouver les trames et les effets sonores (libres de droits) nécessaires pour accompagner les animations :
+- [ ] Faire ou faire faire la **narration** de votre script. Pour la synthèse vocale :
+  * [TTS - Elevenlabs](https://elevenlabs.io/)
+  * [Edge TTS | Hugging Face](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech). Essayez : fr-CA-ThierryNeural - fr-CA (Male), il est pas mal ;)
+
+- [ ] Trouver les **trames et les effets sonores** (libres de droits) nécessaires pour accompagner les animations :
   * [Banques de sons acquises par le département TIM](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=MXj8Ca)
   * [Pixabay](https://pixabay.com/)
   * [Mixkit](https://mixkit.co/)
   * [Falling Forever | Bandcamp](https://fallingforever.bandcamp.com/)
 
-- [ ] Faire ou faire faire la narration de votre script. Pour la synthèse vocale :
-  * [Edge TTS | Hugging Face](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech). Essayez : fr-CA-ThierryNeural - fr-CA (Male), il est pas mal ;)
-  * [elevenlabs (connexion requise)](https://elevenlabs.io/)
-
-- [ ] Trouver des polices de caractères :
-  * Police Adobe (disponible via la panneau **Caractère** d'Illustrator, Photoshop ou After Effects)
+- [ ] Trouver des **polices de caractères** :
+  * Police Adobe (disponible via la panneau _Caractère_ d'Illustrator, Photoshop ou After Effects)
   * [Fontesk](https://fontesk.com/license/free-for-commercial-use,free-for-personal-use/)
   * [Google Fonts](https://fonts.google.com/)
   * [Fontshare](https://www.fontshare.com/)
@@ -108,7 +110,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
   * [Font Squirrel](https://www.fontsquirrel.com/)
   * [Dafont](https://www.dafont.com/fr/)
 
-- [ ] Trouver et télécharger des visuels 
+- [ ] Trouver et télécharger des **visuels (images, illustrations, icônes, photographies)** :
   <small>(Pour le moodboard nul besoin qu'elle soient libres de droits. Par contre pour vos médias finaux utilisés dans l'animation de votre projet, elles doivent être illustrées par vous-même ou elles doivent être libres de droits, voici des librairies où vous pouvez trouver des médias libres de droit)</small> :
   * [Pixabay](https://pixabay.com/)
   * [Unsplash](https://unsplash.com/)
@@ -119,7 +121,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
   * [SVG Repo](https://www.svgrepo.com/)
   * [NounProject](https://thenounproject.com/)
 
-- [ ] Trouver des inspirations d'animations 2d, d'effets animés et de transitions 
+- [ ] Trouver des inspirations d'**animations 2d, d'effets animés et de transitions** :
   * Voir la liste d'inspiration d'explainer vidéo plus haut dans cette page.
   * Vous pouvez aussi être inspirés par le style de d'autres animation que celle qui sont présentées ci-haut.
 
@@ -137,7 +139,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
 
-### Classement final de vos médias pour la remise du 1er mai
+### Classement final de vos médias pour la **remise 2** du 1er mai
 
 [Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
 
@@ -210,7 +212,7 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 !!! top "Petit truc"
 
-    Une approche efficace pour gérer le temps consiste à rédiger d’abord le texte, générer l'audio puis déterminer ensuite comment il s’intégrera dans l’animation.
+    Une approche efficace pour gérer le temps consiste à rédiger d’abord le script, générer la narration à partir de ce texte (via synthèse vocale avec ElevenLabs par exemple) puis, déterminer ensuite comment il s’intégrera dans l’animation.
 
 - [ ] Téléchargez et intallez le logiciel [Storyboarder](https://wonderunit.com/storyboarder/)
 
@@ -293,10 +295,11 @@ Dépot jeudi le **24 avril avant le cours à 14h15**
 
 Fichiers à remettre:
 
-* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et enregistré en fichier **.docx**
-* Moodboard créé avec Figma et exporté en fichier **.png** ou **.pdf**
-* Script (contenu textuel de la narration) en fichier **.docx**
-* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**
+* Sujet dans un Word nommé **description-projet.docx**
+* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
+* Moodboard créé avec Figma et exporté en  **moodboard.png** ou **moodboard.pdf**
+* Script (contenu textuel de la narration) en fichier **script.docx**
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario_v1.pdf**
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
@@ -319,6 +322,10 @@ Fichiers à remettre:
 * Dossier de projet (nomenclature de base) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
+
+
+
+[^tts]: [:hugging: TTS sur ElevenLabs](https://elevenlabs.io/fr)
 
 [STOP]
 
