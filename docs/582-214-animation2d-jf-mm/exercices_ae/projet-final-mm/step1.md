@@ -209,6 +209,8 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 ## Scénario (storyboard)
 
+[:material-play-circle: Capsule vidéo scénario (utilisation du logiciel Storyboarder)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbqKu84IPcdMgUuJRAdIsucBQgc-Uy3fJEYqGmEf-B_vMg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wtb177)
+
 ![](./storyboard.gif){.w-100}
 
 Un storyboard est un outil de planification visuelle utilisé pour représenter scène par scène une vidéo ou une animation.
