@@ -1,7 +1,7 @@
 # Cours 9 - Groupe de Marie-Michelle
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 ## Retour sur les 12 principes de l'animation
-[Cours 2](./cours02.html#lorigine)
+[Cours 2](./cours02.md#lorigine)
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
@@ -65,7 +65,7 @@ Appliquée sur la rotation, l'expression ci-dessous permet de modifier la rotati
 time * 360
 ```
 
-Exemple : 
+Exemple :
 
 ![](./assets/images/expression-time.png){ data-zoom-image }
 
@@ -150,7 +150,7 @@ wiggle(4, 40);
 
     Sur un autre calque, ont peut alors faire un coller ++ctrl+v++ pour appliquer la même expression.
 
-    Il est aussi possible de coller l'expression sur une autre propriété. 
+    Il est aussi possible de coller l'expression sur une autre propriété.
 
 
 
@@ -181,7 +181,7 @@ Pour créer une explosion
     Il est également possible d'utiliser un tracé.
 
     Cliquer sur Ajouter et sélectionner Réduire les tracés.
-    
+
     Ainsi, on peut modifier aussi la longeur des traits.
 
 ## Visualiser les déformations
@@ -260,7 +260,7 @@ a = 100
 
 ### Conditions (if)
 
-L'instruction `if` permet d’exécuter une action seulement si une condition est vraie. 
+L'instruction `if` permet d’exécuter une action seulement si une condition est vraie.
 
 C'est utile pour déclencher un comportement seulement dans certaines situations, comme lorsque le temps dépasse une certaine valeur, ou si une case à cocher est activée.
 
@@ -294,7 +294,7 @@ if (numKeys > 0){
 }
 
 // Calcule le temps écoulé depuis le dernier keyframe
-if (n == 0){ 
+if (n == 0){
 	t = 0; // si aucun keyframe avant maintenant, t = 0 → pas d’effet
 }else{
 	t = time - key(n).time; // temps écoulé depuis le dernier keyframe
