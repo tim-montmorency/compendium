@@ -25,11 +25,21 @@
 
 ![](./assets/images/projet-equipe.png)
 
-Synchronisation des médias : <https://www.schoolofmotion.com/blog/saving-and-sharing-after-effects-projects>
+### Synchronisation des médias
 
-Pour assurer une bonne synchronisation des médias, chaque membre de l’équipe doit partager au reste de l'équiê son dossier de footage qu'il a créé dans OneDrive. Lorsqu'un média dans ce dossier se retrouve dans After Effects, tous les membres de l'équipe y auront accès.
+![](./assets/images/lost-file.png)
 
-Cela permet à After Effects de conserver les bons liens vers les médias utilisés, et évite les erreurs de fichiers manquants. 
+Pour assurer une synchronisation des médias (images, vidéos, audio, etc.), voici la méthode avec OneDrive.
+
+* Tous les membres de l'équipe doivent être connectés à OneDrive (Assurez vous de voir le logo OneDrive :material-microsoft-onedrive: en bleu en bas à droite de la barre Windows)
+* Tous les membres de l'équipe doivent avoir la même version d'After Effects
+* Un membre de l'équipe doit créer un dossier des médias du projet sur son OneDrive. Il doit ensuite partager les accès d'écriture à ses coéquipiers.
+* Les coéquipiers doivent "Synchroniser" le dossier des médias sur leur ordinateur. Cette étape est importante, car il faudra remapper les médias dans After Effects sur le dossier créé avec la synchronisation.
+* Pour remapper les médias dans After Effects, il faut spécifier le dossier synchronisé dans After Effects : `Édition > Projet d'équipe > Gestion des médias`.
+
+!!! bug "Nomenclature des médias"
+
+    Évitez les espaces, les tirets les caractères accentués et les caractères speciaux dans les noms de fichier.
 
 ## Devoir
 
