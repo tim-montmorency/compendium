@@ -24,7 +24,9 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 * Quel est le nom du projet ?
 
 *<small>Restriction: Ne pas faire une publicité commerciale. Ce doit être engagé (une cause sociale par exemple), éducatif et/ou humoristique.</small>
- <br> 
+<br> 
+
+- [ ] Inscrire votre sujet [dans ce fichier Excel, dans la colonne D](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESPtsDKJDPlNqTAfpmQNQT0BYV5jNZDCXQgwPg6iVncX0w?e=OjUnJM) et **envoyer le sujet par Teams à Marie-Michelle dès que possible afin qu'elle l'approuve avant d'aller de l'avant**.
 - [ ] Créer un fichier Word **description-projet.docx** en y inscrivant la réponse au 4 questions (sujet, intention etc.)
 - [ ] Créer un autre fichier Word **references-et-inspirations.docx** en y inscrivant tous les médias et URLs consultés, et ce, autant pour la portion brainstorming que pour la recherche et la création de médias. Vous en aurez besoin plus tard.
 
