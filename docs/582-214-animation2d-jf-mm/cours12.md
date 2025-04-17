@@ -25,6 +25,12 @@
 
 ![](./assets/images/projet-equipe.png)
 
+Synchronisation des médias : <https://www.schoolofmotion.com/blog/saving-and-sharing-after-effects-projects>
+
+Pour assurer une bonne synchronisation des médias, chaque membre de l’équipe doit partager au reste de l'équiê son dossier de footage qu'il a créé dans OneDrive. Lorsqu'un média dans ce dossier se retrouve dans After Effects, tous les membres de l'équipe y auront accès.
+
+Cela permet à After Effects de conserver les bons liens vers les médias utilisés, et évite les erreurs de fichiers manquants. 
+
 ## Devoir
 
 <div class="grid grid-1-2" markdown>
