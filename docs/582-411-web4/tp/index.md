@@ -93,7 +93,6 @@ Le tout sera évalué sur 50 points.
 
 ### Site Web
 
-- [ ] **Wireframes** – Présence de maquettes claires et complètes *(1 point)*
 - [ ] **Thème enfant basé sur FSE** – Création d’un thème enfant fonctionnel basé sur un thème FSE *(1 point)*
 - [ ] **API intégrée (shortcode)** – API publique bien intégrée via un shortcode personnalisé, contenu cohérent avec le projet *(2 points)*
 - [ ] **Design responsive** – Site s’adaptant bien à tous les formats (mobile, tablette, desktop) *(1 point)*
@@ -102,7 +101,7 @@ Le tout sera évalué sur 50 points.
 - [ ] **Fonctionnalités bonus** – Deux fonctionnalités additionnelles bien intégrées et pertinentes au projet *(2 points)*
 - [ ] **Page À propos** *(1 point)*
 - [ ] **Page Contact** *(1 point)*
-- [ ] **Modèle d’accueil** *(1 point)*
+- [ ] **Page d’accueil** *(1 point)*
 - [ ] **Types de contenu** – Minimum de 3 types de contenu distincts avec modèle adapté *(6 points)*
 - [ ] **Rédaction des contenus** – 8 contenus rédigés par membre de l’équipe *(4 points)*
 - [ ] **Collaborateurs externes** – 2 contenus intégrés par 2 collaborateurs externes *(2 points)*
@@ -112,7 +111,7 @@ Le tout sera évalué sur 50 points.
 - [ ] **Page auteur complète** – Modèle de page auteur avec photo, biographie et articles listés *(2 points)*
 - [ ] **Accessibilité** – Texte alternatif ajouté à toutes les images *(2 points)*
 - [ ] **Qualité générale** – Esthétique, uniformité visuelle, souci du détail *(3 points)*
-- [ ] **Respect des consignes** *(1 point)*
+- [ ] **Respect des consignes** *(2 point)*
 - [ ] **Sauvegarde WPVivid** *(1 point)*
 - [ ] **Hébergement HostPapa** – Site en ligne, accessible et fonctionnel sur HostPapa *(1 point)*
 
