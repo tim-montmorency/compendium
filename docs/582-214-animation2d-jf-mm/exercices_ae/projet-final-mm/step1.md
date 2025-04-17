@@ -10,6 +10,62 @@ Assurément la partie la plus importante du projet, la préproduction vise à fa
 
     Enregistrez quelque part (par exemple un document Word) tous les médias et URLs consultés, et ce, autant pour la portion brainstorming que pour la recherche et la création de médias. Vous en aurez besoin plus tard.
 
+
+
+
+## Classement final des fichiers du projet
+
+[Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
+
+```txt
+votre-nom-et-prenom_tp_0_582-214MO
+│
+├──📁 00_references
+│   └──01-inspirations (ce sont les inspirations et non les médias que vous allez utiliser pour animer)
+│   │   ├──references-et-inspirations.docx
+│   │   ├──📄 inspiration01.jpg
+│   └───├──📄 inspiration02.png
+│   └──02-sujet_moodboard_script_scenario
+│   └───├──description-projet.docx
+│   └───├──moodboard.pdf
+│   └───├──script.docx
+│   └───├──scenario.pdf
+├──📁 01_medias (ce sont les médias qui sont utilisés dans vos animations After Effects)
+│   ├──📁 01_images
+│   │   ├──📁 01_illustrator
+│   │   │   └──📄 fichier-illustration.ai
+│   │   ├──📁 02_png
+│   │   │   ├──📁 photographies
+│   │   │   │   └──📄 photo1.jpg
+│   │   │   └──📁 vectorisations
+│   │   │       └──📄 fichier-vecteur.svp
+│   │   └──📁 03_psd
+│   ├──📁 02_audios
+│   │   ├──📁 00_mixes
+│   │   ├──📁 01_voix
+│   │   │   └──📄 narration.mp3
+│   │   ├──📁 02_ambiances
+│   │   ├──📁 03_bruitages
+│   │   ├──📁 04_effets_sonores
+│   │   └──📁 05_musiques
+│   ├──📁 03_videos
+│   └──📁 04_fonts
+│       └──📄 ma-police-titre.otf
+│       └──📄 ma-police-texte-courant.otf
+├──📁 02_ae
+│   └──📄 mon-fichier-de-travail.aep
+└──📁 03_exportation
+│   └──📄 mon-fichier-exporte-en-video.mp4
+```
+
+
+
+<hr>
+<br>
+<br>
+
+
+
 ## Brainstorm et inspiration
 
 ![](./brainstorming.gif){.w-100}
@@ -148,54 +204,7 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
     Cette provient des règle du plan de cours <br>
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
-<br>
 
----
-
-## Classement final des fichiers du projet
-
-[Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
-
-```txt
-votre-nom-et-prenom_tp_0_582-214MO
-│
-├──📁 00_references
-│   └──01-inspirations (ce sont les inspirations et non les médias que vous allez utiliser pour animer)
-│   │   ├──references-et-inspirations.docx
-│   │   ├──📄 inspiration01.jpg
-│   └───├──📄 inspiration02.png
-│   └──02-sujet_moodboard_script_scenario
-│   └───├──description-projet.docx
-│   └───├──moodboard.pdf
-│   └───├──script.docx
-│   └───├──scenario.pdf
-├──📁 01_medias (ce sont les médias qui sont utilisés dans vos animations After Effects)
-│   ├──📁 01_images
-│   │   ├──📁 01_illustrator
-│   │   │   └──📄 fichier-illustration.ai
-│   │   ├──📁 02_png
-│   │   │   ├──📁 photographies
-│   │   │   │   └──📄 photo1.jpg
-│   │   │   └──📁 vectorisations
-│   │   │       └──📄 fichier-vecteur.svp
-│   │   └──📁 03_psd
-│   ├──📁 02_audios
-│   │   ├──📁 00_mixes
-│   │   ├──📁 01_voix
-│   │   │   └──📄 narration.mp3
-│   │   ├──📁 02_ambiances
-│   │   ├──📁 03_bruitages
-│   │   ├──📁 04_effets_sonores
-│   │   └──📁 05_musiques
-│   ├──📁 03_videos
-│   └──📁 04_fonts
-│       └──📄 ma-police-titre.otf
-│       └──📄 ma-police-texte-courant.otf
-├──📁 02_ae
-│   └──📄 mon-fichier-de-travail.aep
-└──📁 03_exportation
-│   └──📄 mon-fichier-exporte-en-video.mp4
-```
 
 
 ## Scénario (storyboard)
