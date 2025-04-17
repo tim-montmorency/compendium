@@ -198,7 +198,6 @@ votre-nom-et-prenom_tp_0_582-214MO
 ```
 
 
-
 ## Scénario (storyboard)
 
 ![](./storyboard.gif){.w-100}
