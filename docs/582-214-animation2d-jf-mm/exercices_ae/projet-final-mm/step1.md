@@ -59,9 +59,11 @@ votre-nom-et-prenom_tp_0_582-214MO
 ```
 
 
+## Mise en place du OneDrive de projet pour l'équipe
+[:material-play-circle: Coéquipier no1: Création et partage du dossier de projet sur ton One Drive.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ES_MgtexRztIioFl9iEvFZYBIfG55ggOdPrPp4r3V6_a6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=or4lcH)
 
-<hr>
-<br>
+[:material-play-circle: Coéquipier no2: accéder au dossier partagé par le coéquipier no1.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUNNUH9b_nlAlhuuajYsFAMBeaSNsCWQhrCVyZ-H92ftTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GscOb7)
+
 <br>
 
 
@@ -205,8 +207,6 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
 
-
-
 ## Scénario (storyboard)
 
 ![](./storyboard.gif){.w-100}
@@ -248,7 +248,7 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 !!! example "Utilisation du logiciel Storyboarder"
 
-    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie d'ici le 17 avril. Le lien sera affiché ici.
+    [:material-play-circle: Capsule vidéo Storyboarder](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EbqKu84IPcdMgUuJRAdIsucBQgc-Uy3fJEYqGmEf-B_vMg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wtb177)
 
 
 
