@@ -135,7 +135,7 @@ add_shortcode('articles_demo', function () {
   }
 
   $body = wp_remote_retrieve_body($response);
-  $posts = json_decode($json, true);
+  $posts = json_decode($body, true);
 
   // ici on construit le HTML qui sera affiché sur le site
   $output = '<div class="articles-demo">';
