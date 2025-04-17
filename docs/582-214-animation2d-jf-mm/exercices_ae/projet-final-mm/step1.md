@@ -237,9 +237,9 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 
 
-- [ ] Dans storyboarder, pour chaque plan:
-  * écrivez le **contenu narratif** dans le champ **dialogue**
-  * imaginez et dessinez les **visuels** pour chaque plan (restez réaliste ;))
+- [ ] Dans Storyboarder, pour chaque plan:
+  * inscrivez le **contenu narratif** dans le champ **dialogue**
+  * imaginez et dessinez (grossièrement) les **visuels** pour chaque plan (restez réaliste ;))
   * inscrivez la **durée du plan** dans le champ **duration**
   * inscrivez **l'action et l'animation** (ce qui se passe et ce qui s'anime, en incluant les mouvement de caméra) dans le champs **Action**
 
