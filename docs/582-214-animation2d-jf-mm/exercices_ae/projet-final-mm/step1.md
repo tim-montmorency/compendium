@@ -1,5 +1,7 @@
 # Projet final - Préproduction <br><small>Groupe de Marie-Michelle</small>
 
+*[TTS]: Text To Speech
+
 Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du TP2.
 
 !!! tip "Sauvegardes 💾"
@@ -24,7 +26,9 @@ Pour orienter votre brainstorming, voici quelques sujets à considérer :
 * Quel est le nom du projet ?
 
 *<small>Restriction: Ne pas faire une publicité commerciale. Ce doit être engagé (une cause sociale par exemple), éducatif et/ou humoristique.</small>
- <br> 
+<br> 
+
+- [ ] Inscrire votre sujet [dans ce fichier Excel, dans la colonne D](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESPtsDKJDPlNqTAfpmQNQT0BYV5jNZDCXQgwPg6iVncX0w?e=OjUnJM) et **envoyer le sujet par Teams à Marie-Michelle dès que possible afin qu'elle l'approuve avant d'aller de l'avant**.
 - [ ] Créer un fichier Word **description-projet.docx** en y inscrivant la réponse au 4 questions (sujet, intention etc.)
 - [ ] Créer un autre fichier Word **references-et-inspirations.docx** en y inscrivant tous les médias et URLs consultés, et ce, autant pour la portion brainstorming que pour la recherche et la création de médias. Vous en aurez besoin plus tard.
 
@@ -87,18 +91,24 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
 
 ![](./fonts.jpg){.w-100}
 
-- [ ] Trouver les trames et les effets sonores (libres de droits) nécessaires pour accompagner les animations :
+### Narration du script
+
+- [ ] Faire ou faire faire la **narration** de votre script. Pour la synthèse vocale :
+  * [TTS - Elevenlabs](https://elevenlabs.io/)
+  * [Edge TTS | Hugging Face](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech). Essayez : fr-CA-ThierryNeural - fr-CA (Male), il est pas mal ;)
+
+### Trames et les effets sonores
+
+- [ ] Trouver les **trames et les effets sonores** (libres de droits) nécessaires pour accompagner les animations :
   * [Banques de sons acquises par le département TIM](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=MXj8Ca)
   * [Pixabay](https://pixabay.com/)
   * [Mixkit](https://mixkit.co/)
   * [Falling Forever | Bandcamp](https://fallingforever.bandcamp.com/)
 
-- [ ] Faire ou faire faire la narration de votre script. Pour la synthèse vocale :
-  * [Edge TTS | Hugging Face](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech). Essayez : fr-CA-ThierryNeural - fr-CA (Male), il est pas mal ;)
-  * [elevenlabs (connexion requise)](https://elevenlabs.io/)
+### Polices de caractères
 
-- [ ] Trouver des polices de caractères :
-  * Police Adobe (disponible via la panneau **Caractère** d'Illustrator, Photoshop ou After Effects)
+- [ ] Trouver des **polices de caractères** :
+  * Police Adobe (disponible via la panneau _Caractère_ d'Illustrator, Photoshop ou After Effects)
   * [Fontesk](https://fontesk.com/license/free-for-commercial-use,free-for-personal-use/)
   * [Google Fonts](https://fonts.google.com/)
   * [Fontshare](https://www.fontshare.com/)
@@ -106,7 +116,9 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
   * [Font Squirrel](https://www.fontsquirrel.com/)
   * [Dafont](https://www.dafont.com/fr/)
 
-- [ ] Trouver et télécharger des visuels 
+### Visuels
+
+- [ ] Trouver et télécharger des **visuels (images, illustrations, icônes, photographies)** :
   <small>(Pour le moodboard nul besoin qu'elle soient libres de droits. Par contre pour vos médias finaux utilisés dans l'animation de votre projet, elles doivent être illustrées par vous-même ou elles doivent être libres de droits, voici des librairies où vous pouvez trouver des médias libres de droit)</small> :
   * [Pixabay](https://pixabay.com/)
   * [Unsplash](https://unsplash.com/)
@@ -117,7 +129,9 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
   * [SVG Repo](https://www.svgrepo.com/)
   * [NounProject](https://thenounproject.com/)
 
-- [ ] Trouver des inspirations d'animations 2d, d'effets animés et de transitions 
+### Animations
+
+- [ ] Trouver des inspirations d'**animations 2d, d'effets animés et de transitions** :
   * Voir la liste d'inspiration d'explainer vidéo plus haut dans cette page.
   * Vous pouvez aussi être inspirés par le style de d'autres animation que celle qui sont présentées ci-haut.
 
@@ -134,8 +148,11 @@ Utiliser un outil de palette de couleurs tel que [Coolors](https://coolors.co/) 
     Cette provient des règle du plan de cours <br>
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
+<br>
 
-### Classement final de vos médias pour la remise du 1er mai
+---
+
+## Classement final de vos **création médias** pour la **Remise 2** du 1er mai
 
 [Dossier de départ :material-download:](./dossier-de-depart.zip){ .md-button .md-button--primary }
 
@@ -206,26 +223,29 @@ Placez ensuite chacune des étapes dans votre ligne du temps.
 
 Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informations à raconter et comment les présenter.
 
-!!! top "Petit truc"
+!!! info "Petit truc"
 
-    Une approche efficace pour gérer le temps consiste à rédiger d’abord le texte, générer l'audio puis déterminer ensuite comment il s’intégrera dans l’animation.
+    Une approche efficace pour gérer le temps consiste à rédiger d’abord le script, générer la narration à partir de ce texte (via synthèse vocale avec ElevenLabs par exemple) puis, déterminer ensuite comment il s’intégrera dans l’animation.
 
 - [ ] Téléchargez et intallez le logiciel [Storyboarder](https://wonderunit.com/storyboarder/)
 
 <img src="./storyboarder-animated-screenshot.gif" alt="demo interface Storyboarder" style="width=100%; max-width: 400px;">
 
-!!! 
-    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie sous peu. Le lien sera affiché ici.
+!!! example "Utilisation du logiciel Storyboarder"
 
-- [ ] Dans storyboarder, pour chaque plan:
-  * écrivez le **contenu narratif** dans le champ **dialogue**
-  * imaginez et dessinez les **visuels** pour chaque plan (restez réaliste ;))
+    Une capsule vidéo qui présente l'interface de Storyboarder vous sera fournie d'ici le 17 avril. Le lien sera affiché ici.
+
+
+
+- [ ] Dans Storyboarder, pour chaque plan:
+  * inscrivez le **contenu narratif** dans le champ **dialogue**
+  * imaginez et dessinez (grossièrement) les **visuels** pour chaque plan (restez réaliste ;))
   * inscrivez la **durée du plan** dans le champ **duration**
   * inscrivez **l'action et l'animation** (ce qui se passe et ce qui s'anime, en incluant les mouvement de caméra) dans le champs **Action**
 
 - [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens dans le champ **Action** pour illustrer l'intention.
 
-- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario_v1.pdf* avec les spécifications suivantes:
+- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario.pdf** avec les spécifications suivantes:
 
 <img src="./storyboarder-export-pdf-specs.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
 
@@ -291,10 +311,11 @@ Dépot jeudi le **24 avril avant le cours à 14h15**
 
 Fichiers à remettre:
 
-* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et enregistré en fichier **.docx**
-* Moodboard créé avec Figma et exporté en fichier **.png** ou **.pdf**
-* Script (contenu textuel de la narration) en fichier **.docx**
-* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**
+* Sujet dans un Word nommé **description-projet.docx**
+* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
+* Moodboard créé avec Figma et exporté en  **moodboard.png** ou **moodboard.pdf**
+* Script (contenu textuel de la narration) en fichier **script.docx**
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario.pdf**
 
 > Une rétroaction avec l'enseignant(e) sera faite en classe.
 
@@ -303,20 +324,30 @@ Fichiers à remettre:
 
 Cette remise est sommative. 
 
-Vous devrez avoir fait évoluer votre script, scénario, moodboard etc. en fonction de notre rencontre en classe le cours précédent. <br>
-De plus, vous devrez aussi avoir produit tous vos éléments visuels et sonores, les avoir préparés : avoir appliqué votre palette de couleurs sur tous les éléments visuels, avoir bien nommer et classer chaque fichier et si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
-
 Dépot jeudi le **1er mai avant le cours à 14h15**
+
+Vous devrez avoir **fait évoluer votre script, scénario, moodboard etc.** en fonction de notre rencontre en classe le cours précédent. <br>
+
+De plus, vous devrez aussi **avoir produit tous vos éléments visuels et sonores** et les avoir préparés: 
+
+* Avoir appliqué votre palette de couleurs sur tous les éléments visuels.
+* Avoir bien nommé et classé chaque fichier.
+* Si vous utilisez Illustrator, les calques doivent avoir été bien nommés.
+* Tous les médias doivent être classés dans : [le dossier de projet](./dossier-de-depart.zip).
 
 Fichiers à remettre:
 
-* Inspirations (inscrire les nom et les liens vers vos inspiration) dans Word et enregistré en fichier **.docx**.
-* Moodboard créé avec Figma et exporté en fichier **.png** ou **.pdf**.
-* Script (contenu textuel de la narration) en fichier **.docx**.
-* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **.pdf**.
-* Dossier de projet (nomenclature de base) incluant tous les médias sonores et visuels préparés et classés dans le bon dossier.
+* Sujet dans un Word nommé **description-projet.docx**
+* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
+* Moodboard créé avec Figma et exporté en  **moodboard.png** ou **moodboard.pdf**
+* Script (contenu textuel de la narration) en fichier **script.docx**
+* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario.pdf**
+* [Le dossier de projet](./dossier-de-depart.zip) incluant **tous les médias sonores et visuels préparés et classés**.
 
-> Une rétroaction avec l'enseignant(e) sera faite en classe.
+
+
+
+[^tts]: [:hugging: TTS sur ElevenLabs](https://elevenlabs.io/fr)
 
 [STOP]
 

@@ -55,7 +55,7 @@ Veuillez [inscrire vos équipes ici](https://cmontmorency365-my.sharepoint.com/:
     Le matériel visuel, sonore ou textuel crée par une IA est considéré comme ayant étant «_créé par l’IA_». En ce sens, il doit être cité correctement en mentionnant le **nom et la version de l’IA**. NE PAS LE MENTIONNER CONSTITUE DU PLAGIAT. Il faut aussi mentionner textuellement la **requête utilisée pour générer le contenu** (le _prompt_). Ceci devra faire partie de votre générique de fin du court métrage.
 
 
-[^tts]: [:hugging: TTS sur ElenvenLabs](https://elevenlabs.io/fr)
+[^tts]: [:hugging: TTS sur ElevenLabs](https://elevenlabs.io/fr)
 
 ## Calendrier
 

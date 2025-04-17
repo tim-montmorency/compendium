@@ -149,5 +149,5 @@ C'est le moment d'exprimer sa créativité !!
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/tp2/explainer.gif)
 
-  **[TP2 - Préproduction](./exercices_ae/projet-final-mm/index.md){.stretched-link .back}**
+  **[Projet final - Groupe Marie-Michelle](./exercices_ae/projet-final-mm/index.md){.stretched-link .back}**
 </div>
