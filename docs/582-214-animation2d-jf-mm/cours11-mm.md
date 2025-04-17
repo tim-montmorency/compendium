@@ -141,7 +141,29 @@ C'est le moment d'exprimer sa créativité !!
   **[AMV](./exercices_ae/amv/amv.md){.stretched-link .back}**
 </div>
 
+## Travailler en équipe avec After Effects
 
+![](./assets/images/projet-equipe-intro.png)
+
+![](./assets/images/projet-equipe-new.png)
+
+![](./assets/images/projet-equipe.png)
+
+### Synchronisation des médias
+
+![](./assets/images/lost-file.png)
+
+Pour assurer une synchronisation des médias (images, vidéos, audio, etc.), voici la méthode avec OneDrive.
+
+* Tous les membres de l'équipe doivent être connectés à OneDrive (Assurez vous de voir le logo OneDrive :material-microsoft-onedrive: en bleu en bas à droite de la barre Windows)
+* Tous les membres de l'équipe doivent avoir la même version d'After Effects
+* Un membre de l'équipe doit créer un dossier des médias du projet sur son OneDrive. Il doit ensuite partager les accès d'écriture à ses coéquipiers.
+* Les coéquipiers doivent "Synchroniser" le dossier des médias sur leur ordinateur. Cette étape est importante, car il faudra remapper les médias dans After Effects sur le dossier créé avec la synchronisation.
+* Pour remapper les médias dans After Effects, il faut spécifier le dossier synchronisé dans After Effects : `Édition > Projet d'équipe > Gestion des médias`.
+
+!!! bug "Nomenclature des médias"
+
+    Ne jamais utiliser les espaces, les caractères accentués et les caractères speciaux dans les noms de fichier. Vous devez aussi éviter les tirets pour éviter des problèmes de syncronisation avec le projet d'équipe After Effects.
 
 
 ## Projet final
