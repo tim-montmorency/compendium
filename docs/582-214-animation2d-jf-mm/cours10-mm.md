@@ -17,5 +17,15 @@ Soit de 14h35 à 17h55.
 <small>Pour ceux qui ont droit à un assouplissement de 33%, soit de 14h35 à 19h00</small> <br> 
 <small>Pour ceux qui ont droit à un assouplissement de 25%, soit de 14h35 à 18h40</small> <br> 
 
+
+# Projet final
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp2/explainer.gif)
+
+  **[Projet final - Groupe Marie-Michelle](./exercices_ae/projet-final-mm/index.md){.stretched-link .back}**
+</div>
+
+
 [STOP]
 

@@ -233,15 +233,13 @@ Utiliser simplement la grille
 </div>
 
 
+## Projet final (explainer video)
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/tp2/explainer.gif)
 
-
-
-
-
-
-
-
+  **[Projet final - Groupe Marie-Michelle](./exercices_ae/projet-final-mm/index.md){.stretched-link .back}**
+</div>
 
 
 [STOP]
