@@ -2,7 +2,7 @@
 
 *[TTS]: Text To Speech
 
-Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du TP2.
+Assurément la partie la plus importante du projet, la préproduction vise à faire toute la planification nécessaire pour commencer l'animation du **projet final**.
 
 !!! tip "Sauvegardes 💾"
 
