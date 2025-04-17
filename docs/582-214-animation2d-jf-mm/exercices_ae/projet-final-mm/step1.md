@@ -245,7 +245,7 @@ Pour chaque étape, écrivez les grandes lignes de votre histoire. Les informati
 
 - [ ] En rédigeant votre **storyboard**, esquissez à quoi devra ressembler l'animation prévue. Vous pouvez également ajouter des liens dans le champ **Action** pour illustrer l'intention.
 
-- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario.pdf* avec les spécifications suivantes:
+- [ ] Sauvegardez le fichier de travail en le nommant **scenario.storyboarder** et exportez le en PDF **scenario.pdf** avec les spécifications suivantes:
 
 <img src="./storyboarder-export-pdf-specs.png" alt="Landscape, 2 columns, 2 rows, spacing 15" style="width=100%; max-width: 200px;">
 
