@@ -93,13 +93,14 @@
 
 - [Projet Unity avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
 - [Décomptes et timers](code/bibliotheque_exemples.md#decomptes-et-timers)
-  - [Méthode Invoke() et InvokeRepeating()](code/bibliotheque_exemples.md#methode-invoke-et-invokerepeating)
+  - [Délais et exécutions périodiques avec Invoke et InvokeRepeating (Spawn et despawn)](code/bibliotheque_exemples.md#Delais-et-executions-periodiques-avec-Invoke-et InvokeRepeating)
   - [Coroutines](code/bibliotheque_exemples.md#coroutines)
 - [Contrôle d'UI et menus](code/bibliotheque_exemples.md#controle-dui-et-menus)
   - [Événement avec méthode préexistante](code/bibliotheque_exemples.md#evenement-avec-methode-preexistante)
   - [Événement avec méthode originale](code/bibliotheque_exemples.md#evenement-avec-methode-originale)
   - [Activation simple d'élement d'UI](code/bibliotheque_exemples.md#activation-simple-delement-dui)
   - [Changer les propriétés de l'UI à partir d'un script](code/bibliotheque_exemples.md#changer-les-proprietes-de-lui-a-partir-dun-script)
+- [Création et destruction d'objets (Spawn et despawn)](code#creation-et-destruction-d-objets)
 
 #### Fenêtre projet
 - [Prefabs](unity/prefabs.md)
