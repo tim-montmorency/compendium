@@ -28,7 +28,8 @@
 - [📝 Particules](unity/particules.md)
 - [📝 Animation d'une sprite sheet avec des particules](unity/particules_sprite.md)
 
-**Matériaux**
+**Matériaux**     
+
 - [📝 Matériaux](unity/materiaux.md)
 - [📝 Matériaux physiques](unity/physique_material.md)
 - [📝 Modifier un matériel avec le script](code/materiel_code.md)
@@ -38,7 +39,8 @@
 - [📝 Miroir](unity/miroir.md)
 
 
-**Discussion et recherche sur les shaders**
+**Discussion et recherche sur les shaders**    
+
 - [📝 Liquides dans un contenant](https://www.youtube.com/watch?v=tI3USKIbnh0&t=493s )
 - [📝 Effet d'eau](https://www.youtube.com/watch?v=Vg0L9aCRWPE&t=2s)
 
