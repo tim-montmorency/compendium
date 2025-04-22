@@ -351,7 +351,7 @@ public class CreationMonnaiesOr : MonoBehaviour
 }
 ```
 
-Pour détruire un objet de la scène, on peut utiliser la méthode **Destroy()**. L'argument de cette méthode est une référence à un GameObject de la scène. Pour auto-détruire l'objet actuel (ou le script est attaché), on peut utiliser **Destroy(gameObject);**
+Pour détruire un objet de la scène, on peut utiliser la méthode **Destroy()**. L'argument de cette méthode est une référence à un GameObject de la scène. Pour auto-détruire l'objet actuel (où le script est attaché), on peut utiliser **Destroy(gameObject);**
 
 ```csharp
 public class MonScriptInvoke : MonoBehaviour {
