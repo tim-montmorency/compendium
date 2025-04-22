@@ -93,7 +93,7 @@
 
 - [Projet Unity avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
 - [Décomptes et timers](code/bibliotheque_exemples.md#decomptes-et-timers)
-  - [Délais et exécutions périodiques avec Invoke et InvokeRepeating (Spawn et despawn)](code/bibliotheque_exemples.md#Delais-et-executions-periodiques-avec-Invoke-et InvokeRepeating)
+  - [Délais et exécutions périodiques avec Invoke et InvokeRepeating (Spawn et despawn)](code#delais-et-executions-periodiques-avec-invoke-et-invokerepeating)
   - [Coroutines](code/bibliotheque_exemples.md#coroutines)
 - [Contrôle d'UI et menus](code/bibliotheque_exemples.md#controle-dui-et-menus)
   - [Événement avec méthode préexistante](code/bibliotheque_exemples.md#evenement-avec-methode-preexistante)
