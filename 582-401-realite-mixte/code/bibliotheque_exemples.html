@@ -7252,9 +7252,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#methode-invoke-et-invokerepeating" class="md-nav__link">
+  <a href="#delais-et-executions-periodiques-avec-invoke-et-invokerepeating" class="md-nav__link">
     <span class="md-ellipsis">
-      Méthode Invoke() et InvokeRepeating()
+      Délais et exécutions périodiques avec Invoke et InvokeRepeating
     </span>
   </a>
   
@@ -7343,6 +7343,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#creation-et-destruction-dobjets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Création et destruction d'objets
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7425,41 +7434,42 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="decomptes-et-timers">Décomptes et timers<a class="headerlink" href="#decomptes-et-timers" title="Permanent link">¶</a></h2>
-<h3 id="methode-invoke-et-invokerepeating">Méthode <code>Invoke()</code> et <code>InvokeRepeating()</code><a class="headerlink" href="#methode-invoke-et-invokerepeating" title="Permanent link">¶</a></h3>
-<p>La méthode <code>Invoke()</code> nous permet d'exécuter une méthode dans le même script après un délai initial. Avec la méthode <code>InvokeRepeating()</code> on peut choisir un délai initial et un intervalle pour répéter l'exécution.</p>
-<p>Voici un exemple d'utilisation de ces 2 méthodes au <code>Start()</code>.</p>
-<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
-<span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span>
-<span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
+<h3 id="delais-et-executions-periodiques-avec-invoke-et-invokerepeating">Délais et exécutions périodiques avec Invoke et InvokeRepeating<a class="headerlink" href="#delais-et-executions-periodiques-avec-invoke-et-invokerepeating" title="Permanent link">¶</a></h3>
+<p>La méthode <strong>Invoke()</strong> nous permet d'exécuter une autre méthode dans le même script après un délai initial. </p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MonScriptInvoke</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span><span class="w"> </span><span class="p">{</span>
 
-<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MonScriptInvoke</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="c1">// Exécution initiale après 3s seulement</span>
-<span class="w">        </span><span class="n">Invoke</span><span class="p">(</span><span class="s">"MonMethodeExemple"</span><span class="p">,</span><span class="w"> </span><span class="mf">3f</span><span class="p">);</span>
-
-<span class="w">        </span><span class="c1">// Exécution initiale après 5s avec repétition à chaque 10s</span>
-<span class="w">        </span><span class="n">InvokeRepeating</span><span class="p">(</span><span class="s">"MonMethodeExempleRepetee"</span><span class="p">,</span><span class="w"> </span><span class="mf">5f</span><span class="p">,</span><span class="w"> </span><span class="mf">10f</span><span class="p">);</span>
-
-<span class="w">        </span><span class="c1">// La méthode en dessous annule toutes les</span>
-<span class="w">        </span><span class="c1">// exécutions faites avec Invoke() ou InvokeRepeating()</span>
-<span class="w">        </span><span class="c1">// CancelInvoke();</span>
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Commander l'exécution de la méthode</span>
+<span class="w">        </span><span class="c1">// TerminerParcours après 5 secondes</span>
+<span class="w">        </span><span class="n">Invoke</span><span class="p">(</span><span class="s">"TerminerParcours"</span><span class="p">,</span><span class="w"> </span><span class="mf">5f</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
 
-<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">MonMethodeExemple</span><span class="p">()</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"Juste une méthode exemple."</span><span class="p">);</span>
-<span class="w">    </span><span class="p">}</span>
-
-<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">MonMethodeExempleRepetee</span><span class="p">()</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">"Juste une méthode exemple repetée."</span><span class="p">);</span>
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">TerminerParcours</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Détruire ce objet</span>
+<span class="w">        </span><span class="n">Destroy</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Voici le résultat dans la <strong>Console</strong> (notez les timecodes) :</p>
-<p><img alt="Screenshot 2025-02-13 142923" src="https://github.com/user-attachments/assets/b1763940-b5d8-439b-a317-75e3388c520f"></p>
+<p>Avec la méthode <strong>InvokeRepeating()</strong> on peut choisir un délai initial et un intervalle pour répéter l'exécution.</p>
+<p></p><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MonScriptInvokeRepeating</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">GameObject</span><span class="w"> </span><span class="n">monPrefab</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Commander l'exécution de la méthode CreerPrefab</span>
+<span class="w">        </span><span class="c1">// après 1s de délai initale et à chaque 3s</span>
+<span class="w">        </span><span class="n">InvokeRepeating</span><span class="p">(</span><span class="s">"CreerPrefab"</span><span class="p">,</span><span class="w"> </span><span class="mf">1f</span><span class="p">,</span><span class="w"> </span><span class="mf">3f</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">CreerPrefab</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Instancier une copie de monPrefab à la position et </span>
+<span class="w">        </span><span class="c1">// la rotation de l'objet actuel</span>
+<span class="w">        </span><span class="n">Instantiate</span><span class="p">(</span><span class="n">monPrefab</span><span class="p">,</span><span class="w"> </span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span><span class="w"> </span><span class="n">transform</span><span class="p">.</span><span class="n">rotation</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+On peut canceller toutes les exécutions créés par des Invoke avec la méthode <strong>CancelInvoke()</strong>.
+<p>Plus d’info sur <a href="https://docs.unity3d.com/2022.3/Documentation/ScriptReference/MonoBehaviour.Invoke.html">la documentation d’Unity.</a></p>
 <h3 id="coroutines">Coroutines<a class="headerlink" href="#coroutines" title="Permanent link">¶</a></h3>
 <p>Les <a href="coroutine.html">coroutines</a> vont nous permettre de "pauser" une méthode dans le même script et de la continuer après un délai. Les étapes pour les utiliser sont:</p>
 <ol>
@@ -7625,6 +7635,38 @@
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
+<h2 id="creation-et-destruction-dobjets">Création et destruction d'objets<a class="headerlink" href="#creation-et-destruction-dobjets" title="Permanent link">¶</a></h2>
+<p>On peut glisser des GameObjects de l’Hierarchy au Project pour créer <strong>prefabs</strong>. Avec les prefabs, on peut créer des objets à partir de nos scripts avec la méthode <strong>Instantiate()</strong>.</p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CreationMonnaiesOr</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="n">GameObject</span><span class="w"> </span><span class="n">_prefabOriginal</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="n">Vector3</span><span class="w"> </span><span class="n">_positionCreation</span><span class="p">;</span>
+<span class="w">    </span><span class="na">[SerializeField]</span><span class="w"> </span><span class="n">Vector3</span><span class="w"> </span><span class="n">_rotationCreation</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Une nouvelle copie du _prebOriginal va etre instancié</span>
+<span class="w">        </span><span class="c1">// à la position et rotation définis à les variables de l'Inspector</span>
+<span class="w">        </span><span class="n">Instantiate</span><span class="p">(</span><span class="n">_prefabOriginal</span><span class="p">,</span><span class="w"> </span><span class="n">_positionCreation</span><span class="p">,</span><span class="w"> </span><span class="n">Quaternion</span><span class="p">.</span><span class="n">Euler</span><span class="p">(</span><span class="n">_rotationCreation</span><span class="p">));</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Pour détruire un objet de la scène, on peut utiliser la méthode <strong>Destroy()</strong>. L'argument de cette méthode est une référence à un GameObject de la scène. Pour auto-détruire l'objet actuel (ou le script est attaché), on peut utiliser <strong>Destroy(gameObject);</strong></p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">MonScriptInvoke</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Commander l'exécution de la méthode</span>
+<span class="w">        </span><span class="c1">// TerminerParcours après 5 secondes</span>
+<span class="w">        </span><span class="n">Invoke</span><span class="p">(</span><span class="s">"TerminerParcours"</span><span class="p">,</span><span class="w"> </span><span class="mf">5f</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">TerminerParcours</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Détruire ce objet</span>
+<span class="w">        </span><span class="n">Destroy</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Plus d’info sur <a href="https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.Instantiate.html">la documentation d’Unity.</a></p>
 <!--
 
 4. Sujets à aborder pour la prog au TP1 de RM?
