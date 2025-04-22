@@ -10,9 +10,6 @@
 ## Éclairage
 - [📝 Éclairage](unity/eclairage.md)
 
-## Transitions entre les scènes
-
-- [📝 Transitions](unity/transitions.md)
 
 ## Audio
 
@@ -20,6 +17,11 @@
 
 
 ## Autres ressources    
+
+**Transitions entre les scènes**
+
+- [📝 Transitions](unity/transitions.md)
+
 
 **Particules**
 
