@@ -19,14 +19,21 @@
 
 ## Travailler en équipe avec After Effects
 
+### Mise en place du OneDrive de projet pour l'équipe
+[:material-play-circle: Coéquipier no1: Création et partage du dossier de projet sur ton One Drive.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ES_MgtexRztIioFl9iEvFZYBIfG55ggOdPrPp4r3V6_a6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=or4lcH)
+
+[:material-play-circle: Coéquipier no2: accéder au dossier partagé par le coéquipier no1.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUNNUH9b_nlAlhuuajYsFAMBeaSNsCWQhrCVyZ-H92ftTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GscOb7)
+
+### Création du projet d'équipe dans After Effects
 ![](./assets/images/projet-equipe-intro.png)
 
+### Ajouter un collaborateur (co-équipier)
 ![](./assets/images/projet-equipe-new.png)
 
+### Envoyer (push) et récupérer (pull)
 ![](./assets/images/projet-equipe.png)
 
-### Synchronisation des médias
-
+### Synchronisation des médias externes (png, jpg, audio, fichier Illustrator etc).
 ![](./assets/images/lost-file.png)
 
 Pour assurer une synchronisation des médias (images, vidéos, audio, etc.), voici la méthode avec OneDrive.
