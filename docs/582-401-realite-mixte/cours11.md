@@ -62,7 +62,7 @@
 
 - [📝 Délais et répétition](https://tim-montmorency.com/compendium/582-401-realite-mixte/code/bibliotheque_exemples.html#delais-et-executions-periodiques-avec-invoke-et-invokerepeating)
 - [📝 Création et destruction d'objets](https://tim-montmorency.com/compendium/582-401-realite-mixte/code/bibliotheque_exemples.html#creation-et-destruction-dobjets)
-
+- [📝 Navigation Nav Mesh](https://tim-montmorency.com/compendium/582-401-realite-mixte/code/bibliotheque_exemples.html#la-navigation-ai-avec-navmesh)
 
 
 
