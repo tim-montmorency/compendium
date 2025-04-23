@@ -92,6 +92,7 @@
 #### Bibliothèque d'exemples de code en Unity
 
 - [Projet Unity avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
+- [Navigation AI avec NavMesh](code/bibliotheque_exemples.md#la-navigation-ai-avec-navmesh)
 - [Décomptes et timers](code/bibliotheque_exemples.md#decomptes-et-timers)
   - [Délais et exécutions périodiques avec Invoke et InvokeRepeating (Spawn et despawn)](code#delais-et-executions-periodiques-avec-invoke-et-invokerepeating)
   - [Coroutines](code/bibliotheque_exemples.md#coroutines)
