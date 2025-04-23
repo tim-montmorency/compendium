@@ -4,6 +4,49 @@ Tous les exemples montrés ici sont disponibles sur le [projet disponible ici](h
 
 [Projet Unity de la bibliothèque](https://github.com/tim-montmorency/bibliotheque-exemples){ .md-button }
 
+## La navigation AI avec NavMesh
+
+Le système de calcul de routes fourni par Unity s'appelle **AI Navigation System**, qui doit être installé avec le Package Manager. Il est basé sur une séquence d'étapes:
+
+**Étape 1.** Utiliser une composante **Nav Mesh Surface** pour calculer un modèle à la scène qui représente la région navigable de cet espace et où sont les obstacles statiques. Cette composante prends en compte la taille et règle de mouvement de les agents qu'on veut naviguer. Par exemple, si j'ai un monstre 3 fois plus grand qu'un humain, il faut calculer une **Nav Mesh Surface** différente. Chaque fois qu'on change les positions et placement des obstacles, il faut recalculer la Nav Mesh avec le bouton **Bake**.
+
+![Pasted image 20250423074631](https://github.com/user-attachments/assets/cfc447e2-b6f2-4002-bde2-0b7dd7774d1e)
+
+![Pasted image 20250423075143](https://github.com/user-attachments/assets/16e8195c-83e0-41cc-bbb7-83246f6254eb)
+
+**Étape 2.** Ajouter des objets avec la composante **Nav Mesh Agent**. Cette composante peut contrôler le mouvement d'un objet de la scène et va être responsable pour calculer une route à une destination choisie. Le Nav Mesh Agent est combiné avec un script pour le gérer. Par exemple, le script **Agent Navigation** ici utilise la méthode `agent.SetDestination()` pour informer quel est la position finale de la route désirée.
+
+![Pasted image 20250423074652](https://github.com/user-attachments/assets/0fb6f170-0714-438e-9123-0f358e71ff5c)
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class AgentNavigation : MonoBehaviour
+{
+    public GameObject objetCible;
+    
+    NavMeshAgent agent;
+
+    void Start()
+    {
+	    // Prends une référence à la composante Nav Mesh Agent.
+        agent = GetComponent<NavMeshAgent>();
+        // À chaque 2 seconds, la route est recalculée.
+        InvokeRepeating("RecalculerRoute", 1f, 2f);
+    }
+
+    void RecalculerRoute()
+    {
+	    // Calcule une nouvelle route et commence à se déplacer
+	    // vers la position de la destination.
+        agent.SetDestination(objetCible.transform.position);
+    }
+}
+```
+
 ## Persistance de données
 
 Différents scenarios dans le jeux vidéo exigent que certaines variables sont enregistrées entre une scène et l'autre. Par exemple, quand on veut charger une session de jeu antérieure ou le progrès du jeu. Il y a différent façons de planifier et implementer cette fonctionnalités.
