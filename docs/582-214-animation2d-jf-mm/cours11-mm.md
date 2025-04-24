@@ -130,7 +130,7 @@ Effets : **Juxstaposition directionnelle** (Motion Tile) ou **CC Repetile**.
 
 ![](./assets/images/cc-repetile.png)
 
-### Wiggle
+### Tremblement (Wiggle)
 
 Effets: : **Tremblement - position** et/ou **Tremblement - rotation**
 
