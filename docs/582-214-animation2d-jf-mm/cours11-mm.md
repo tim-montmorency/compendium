@@ -148,8 +148,7 @@ Encore mieux que le flou gaussien, utilisez le flou objectif appareil photo.
 
 ![type:video](./assets/videos/glitch.mp4)
 
-Tutoriel:
-![type:video](https://www.youtube.com/watch?v=mc4jbXTgoyc)
+[Tutoriel décalage RVB](https://www.youtube.com/watch?v=mc4jbXTgoyc)
 
 Le concept est de prendre 2 clips et d'en faire une précomposition.
 
