@@ -33,7 +33,7 @@
 ### Envoyer (push) et récupérer (pull)
 ![](./assets/images/projet-equipe.png)
 
-### Synchronisation des médias externes (png, jpg, audio, fichier Illustrator etc).
+### Synchronisation des médias externes (png, jpg, audio, Illustrator...)
 ![](./assets/images/lost-file.png)
 
 Pour assurer une synchronisation des médias (images, vidéos, audio, etc.), voici la méthode avec OneDrive qui a été testée jeudi le 17 avril 2025.
