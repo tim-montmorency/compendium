@@ -46,7 +46,7 @@ Pour assurer une synchronisation des médias (images, vidéos, audio, etc.), voi
   * Ouvrez Teams.
   * Dans la barre latérale de gauche, cliquez sur **OneDrive**. S'il n'y figure pas, trouvez le en cliquant sur le bouton à 3 points (:material-dots-horizontal:).
   * Dans l'onglet de gauche **Partagé**, vous devriez voir le dossier partagé de vos médias. Cliquez dessus.
-  * Enfin, cliquez sur le lien ***Synchroniser** situé tout en haut.
+  * Enfin, cliquez sur le lien **Synchroniser** situé tout en haut.
   * Pour situer l'emplacement du dossier synchronisé sur votre ordinateur, il devrait se situer dans le dossier «Collège Montmorency».
 * Ouvrez le projet d'équipe After Effects. À cette étape, vous devrier voir les médias brisés.
 * Double-cliquez sur l'un des médias et une fenêtre de remappage s'ouvrira.
