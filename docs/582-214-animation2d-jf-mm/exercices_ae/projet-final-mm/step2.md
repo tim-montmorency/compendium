@@ -30,5 +30,7 @@ Projet
 [:material-play-circle: Structure de classement à l'intérieur de votre After Effects](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETIN8nPFerNAgazygAODml0B9iXgeNpTUD3TUKi0gKdpqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SNiUki)
 
 
+## Travailler en équipe avec After Effects
+[Voir les consignes de **Projet d'équipe** dans AE au **Cours 12-mm**](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours12-mm.html#travailler-en-equipe-avec-after-effects)
 
 [STOP]
