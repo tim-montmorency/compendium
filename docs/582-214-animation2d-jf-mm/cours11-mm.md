@@ -124,7 +124,7 @@ Après :
 
 ![type:video](./assets/videos/tuile-apres.mp4)
 
-Outils : **Juxstaposition directionnelle** (Motion Tile) ou **CC Repetile**.
+Effets : **Juxstaposition directionnelle** (Motion Tile) ou **CC Repetile**.
 
 ![](./assets/images/juxta.png)
 
@@ -132,7 +132,7 @@ Outils : **Juxstaposition directionnelle** (Motion Tile) ou **CC Repetile**.
 
 ### Wiggle
 
-Outils : Tremblement - position et Tremblement - rotation
+Effets: : **Tremblement - position** et/ou **Tremblement - rotation**
 
 Si vous utilisez CC Repetile par exemple, vous devez placer les effets wiggle après (en dessous dans le panneau d'effets)
 
