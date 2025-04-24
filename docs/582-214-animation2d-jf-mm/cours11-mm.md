@@ -51,11 +51,23 @@ Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est
 ![](./assets/images/4%20vues.png){ data-zoom-image }
 [:material-play-circle: Mini capsule qui démontre comment afficher en 4 vues](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETFho4y1mBNBspHgCvWB_94BRxFIA0KJkiALc8rsgq9qFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b2yDa2)
 
+## Séquencer une animation
+
+Couper un calque vidéo en 2 à la position de la tête de lecture: ++ctrl+shift+d++ 
+
+Séquencer (mettre bout à bout) des calques : <br>
+Sélection des calques. Clic-droit. Assistant d'image-clé/Calqus de séquence.
+![alt text](./assets/images/ae/ae-ass-img-cle_calque-de-sequnce.png)
+
+Résultat :
+![alt text](./assets/images/ae/ae-ass-img-cle_calque-de-sequnce_RESULT.png)
 
 
 ## Vitesse de lecture vidéo
 
 ### Extention temporelle: ralentir ou accélérer une animation
+
+[:material-play-circle: Time stretch manuel](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUqKO4P5OotDuxeQKwbDftsB1zWa6whp9V4T6itVkG99og?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M65Fms)
 
 L’**extension temporelle** désigne l’accélération ou le ralentissement d’un calque complet selon un facteur identique. Lorsque vous appliquez une extension temporelle à un calque dans le temps, le son et les images d’origine du métrage (ainsi que toutes les images clés lui appartenant) sont redistribués sur la nouvelle durée du calque. Bref, utilisez cette commande si vous souhaitez que le calque ainsi que toutes ses images clés soient affectés par la nouvelle durée.
 
@@ -69,15 +81,13 @@ L’**extension temporelle** désigne l’accélération ou le ralentissement d�
 
 ### Remappage temporel
 
-![](./assets/images/time-remap.png)
+Vous pouvez étendre, compresser, lire vers l’arrière ou figer une partie de la durée d’un calque à l’aide d’un processus appelé **Remappage temporel**. Par exemple, si vous utilisez un métrage représentant une personne en train de marcher, vous pouvez lire le métrage de la personne vers l’avant, puis lire quelques images vers l’arrière pour faire reculer la personne, puis lire à nouveau vers l’avant pour que la personne reprenne sa marche. Le remappage temporel est idéal pour les scènes combinant ralenti, accéléré et marche arrière.
 
-[En savoir plus sur le remappage temporelle via la documentation Adobe](https://helpx.adobe.com/ca_fr/after-effects/using/time-stretching-time-remapping.html)
+![](./assets/images/time-remap.png)
 
 **Activer le remappage temporel** : Permet de lisser la vitesse de lecture à l'aide de keyframes.
 
-**Extension temporelle...** : Modifie la vitesse de lecture de la vidéo, en accéléré ou au ralenti.
 
-Raccourci pertinent : ++ctrl+shift+d++ pour couper un calque vidéo en 2 à la position de la tête de lecture.
 
 ## Quelques techniques pour l'exercice AMV
 
