@@ -89,9 +89,30 @@ Vous pouvez étendre, compresser, lire vers l’arrière ou figer une partie de 
 
 
 
-## Quelques techniques pour l'exercice AMV
+## Quelques techniques pour l'exercice AMV (Anime music video)
 
-[Tableau de traduction des effets](https://www.blog-motion-design.hellohubert.fr/2021/08/12/after-effects-liste-des-effets-en-anglais-traduit-en-francais/)
+[Tableau de traduction des effets anglais<>français](https://www.blog-motion-design.hellohubert.fr/2021/08/12/after-effects-liste-des-effets-en-anglais-traduit-en-francais/)
+
+
+<!-- 
+Notes MMO avril 2025
+--------
+AMV anime music video (gorillaz) : illégal de le sortir de la classe (pas dans portfolio)
+
+Rotation enlever le noir
+Repetile
+Tiling: Unfold
+
+Wiggle: Outil Tremblement et rotation Ajouter un repetile doit être avant (au dessus) dans la fenêtre d'effet
+
+Punch zoom
+Scale rapide et flou (effet flou objectif appareil photo)
+
+ctrl+shift+D pour split le calque dans timeline
+
+NOTE À MOI MÊME il faut que je revienne sur
+Graphique de lissage de vitesse
+-->
 
 ### Tuiles
 
@@ -113,7 +134,7 @@ Outils : **Juxstaposition directionnelle** (Motion Tile) ou **CC Repetile**.
 
 Outils : Tremblement - position et Tremblement - rotation
 
-Si vous utilisez CC Repetile par exemple, vous devez placer les effets wiggle après.
+Si vous utilisez CC Repetile par exemple, vous devez placer les effets wiggle après (en dessous dans le panneau d'effets)
 
 ### Transition "Punch zoom"
 
@@ -159,7 +180,6 @@ Aussi, on peut très bien utiliser l'effet Echo pour ajouter encore plus d'inten
 
 
 ## Exercice
-
 C'est le moment d'exprimer sa créativité !!
 
 <div class="grid grid-1-2" markdown>
@@ -169,6 +189,8 @@ C'est le moment d'exprimer sa créativité !!
   **[AMV](./exercices_ae/amv/amv.md){.stretched-link .back}**
 </div>
 
+## Pendant l'exercice AMV: rencontre prof-équipe
+Rencontre entre prof et chaque équipe pour discuter de votre préproduction du projet **Explainer video**.
 
 ## Projet final
 

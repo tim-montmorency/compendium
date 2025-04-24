@@ -16,7 +16,7 @@ Ressources : [animemusicvideos.org](https://www.animemusicvideos.org/forum/viewf
 
 ![](./analyse.gif)
 
-Afin de mieux comprendre ce que représente le concept de transition dans une AMV :
+Afin de mieux comprendre ce que représente le concept de transition dans une AMV (Anime music video) :
 
 * Réduisez la vitesse de lecture d'une vidéo x0.25 de sa vitesse initiale. 
 * Au besoin, importer la vidéo dans **After Effects** ou **DaVinci** pour visionner un frame à la fois.
