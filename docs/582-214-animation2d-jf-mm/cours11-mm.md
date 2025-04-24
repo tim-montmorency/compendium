@@ -49,6 +49,8 @@ Ensuite, activer les options 3d des calques qui doivent être affectés par la c
 Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est préférable de changer la disposition des vues de 1 vue à 4 vues.
 
 ![](./assets/images/4%20vues.png){ data-zoom-image }
+[:material-play-circle: Mini capsule qui démontre comment afficher en 4 vues](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETFho4y1mBNBspHgCvWB_94BRxFIA0KJkiALc8rsgq9qFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b2yDa2)
+
 
 
 ## Vitesse de lecture vidéo
