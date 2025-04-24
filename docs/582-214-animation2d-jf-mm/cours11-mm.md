@@ -55,7 +55,23 @@ Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est
 
 ## Vitesse de lecture vidéo
 
+### Extention temporelle: ralentir ou accélérer une animation
+
+L’**extension temporelle** désigne l’accélération ou le ralentissement d’un calque complet selon un facteur identique. Lorsque vous appliquez une extension temporelle à un calque dans le temps, le son et les images d’origine du métrage (ainsi que toutes les images clés lui appartenant) sont redistribués sur la nouvelle durée du calque. Bref, utilisez cette commande si vous souhaitez que le calque ainsi que toutes ses images clés soient affectés par la nouvelle durée.
+
+![alt text](./assets/images/ae/ae-extension-temporelle.png)
+
+#### Étendre un calque dans le temps
+
+* Sélectionnez un calque dans le panneau Montage ou Composition.
+* Choisissez Calque > Temps > Extension temporelle.
+* Dans la boîte de dialogue Extension temporelle, saisissez une nouvelle durée pour le calque.
+
+### Remappage temporel
+
 ![](./assets/images/time-remap.png)
+
+[En savoir plus sur le remappage temporelle via la documentation Adobe](https://helpx.adobe.com/ca_fr/after-effects/using/time-stretching-time-remapping.html)
 
 **Activer le remappage temporel** : Permet de lisser la vitesse de lecture à l'aide de keyframes.
 
