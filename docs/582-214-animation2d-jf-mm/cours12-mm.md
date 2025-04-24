@@ -24,7 +24,7 @@
 
 [:material-play-circle: Coéquipier no2: accéder au dossier partagé par le coéquipier no1.](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUNNUH9b_nlAlhuuajYsFAMBeaSNsCWQhrCVyZ-H92ftTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GscOb7)
 
-### Création du projet d'équipe dans After Effects
+### Créer un nouveau **Projet d'équipe** ou ouvrir un **Projet d'équipe** existant dans After Effects
 ![](./assets/images/projet-equipe-intro.png)
 
 ### Ajouter un collaborateur (co-équipier)
