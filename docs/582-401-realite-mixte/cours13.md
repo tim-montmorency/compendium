@@ -28,7 +28,7 @@
 - [📝 Mains VR](unity/vr_mains.md)
 
 **Modifier code d'un script XR**
-- [📝 Code XR](https://youtu.be/ZCCf47LZ3Fo?si=T01ue-Nf3WdYLQwM)
+- [📝 Code XR](https://youtu.be/5iDaLX4aEu0)
 
 ## Avancement du projet final
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
