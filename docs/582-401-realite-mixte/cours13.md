@@ -3,15 +3,6 @@
 ## Post processing
 - [📝 Post processing](unity/postprocessing.md)
 
-## VFX
-- [📝 VFX](unity/vfx.md)
-
-## Eau
-- [📝 Eau](unity/eau.md)
-
-## Mains en VR
-
-- [📝 Mains VR](unity/vr_mains.md)
 
 ## Discussion Optimisation
 - [ ] Low poly
@@ -22,9 +13,22 @@
 
 [📝 Ressource](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#5ff8ce16edbc2a0023134676){ .md-button }
 
-## Problèmes de joueur
-Voici une capsule qui peut vous aider si vous avez des problèmes avec votre joueur:      
-<iframe width="560" height="315" src="https://www.youtube.com/embed/prcvO0z74hg?si=bxE2eK1rOk9N0tKD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Autres ressources    
+
+**VFX**    
+
+- [📝 VFX](unity/vfx.md)
+
+**Eau**     
+
+- [📝 Eau](unity/eau.md)
+
+**Mains en VR**
+
+- [📝 Mains VR](unity/vr_mains.md)
+
+**Modifier code d'un script XR**
+- [📝 Code XR](https://youtu.be/5iDaLX4aEu0)
 
 ## Avancement du projet final
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 

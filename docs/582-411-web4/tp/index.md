@@ -109,14 +109,14 @@ Le tout sera évalué sur 50 points.
 - [ ] **Traductions** – Traduction complète des articles, catégories et chaînes de caractères *(3 points)*
 - [ ] **Yoast SEO** – Pastilles SEO et lisibilité non rouges dans l’interface d’administration *(4 points)*
 - [ ] **Page auteur complète** – Modèle de page auteur avec photo, biographie et articles listés *(2 points)*
-- [ ] **Accessibilité** – Texte alternatif ajouté à toutes les images *(2 points)*
+- [ ] **Accessibilité** – Texte alternatif ajouté à toutes les images *(1 points)*
 - [ ] **Qualité générale** – Esthétique, uniformité visuelle, souci du détail *(3 points)*
-- [ ] **Respect des consignes** *(2 point)*
+- [ ] **Respect des consignes** *(1 point)*
 - [ ] **Sauvegarde WPVivid** *(1 point)*
 - [ ] **Hébergement HostPapa** – Site en ligne, accessible et fonctionnel sur HostPapa *(1 point)*
 
 ### Présentation orale
 
 - [ ] **Participation des membres** – Chaque membre prend la parole et explique clairement sa contribution *(1 point)*
-- [ ] **Défis et solutions** – Présentation des problèmes rencontrés et des solutions apportées *(1 point)*
-- [ ] **Retours et réflexions** – Réflexion sur les apprentissages, fiertés et possibilités d’amélioration *(1 point)*
+- [ ] **Défis et solutions** – Présentation des problèmes rencontrés et des solutions apportées *(2 point)*
+- [ ] **Retours et réflexions** – Réflexion sur les apprentissages, fiertés et possibilités d’amélioration *(2 point)*
