@@ -354,12 +354,13 @@ De plus, vous devrez aussi **avoir produit tous vos éléments visuels et sonore
 
 Fichiers à remettre:
 
-* Sujet dans un Word nommé **description-projet.docx**
-* Inspirations (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
-* Moodboard créé avec Figma et exporté en  **moodboard.png** ou **moodboard.pdf**
-* Script (contenu textuel de la narration) en fichier **script.docx**
-* Scénario (storyboard) créé avec le logiciel Storyboarder et exporté en fichier **scenario.pdf**
+* Sujet final dans un Word nommé **description-projet.docx**
+* Inspirations (liste finale) (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
+* Moodboard final réalisé avec le gabarit Figma fourni. SVP remettre le **lien direct vers votre Figma**.
+* Script final (contenu textuel de la narration) en fichier **script.docx**
+* Scénario final (storyboard) créé avec le logiciel Storyboarder (n'oubliez pas de regarder la capsule vidéo qui explique comment l'utiliser et sauvegarder) et exporté en fichier **scenario.pdf**
 * [Le dossier de projet](./dossier-de-depart.zip) incluant **tous les médias sonores et visuels préparés et classés**.
+* Renommez votre dossier **prenom1-prenom2_projet-final_582-214**
 
 
 
