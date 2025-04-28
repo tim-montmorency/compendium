@@ -33,4 +33,15 @@ Projet
 ## Travailler en équipe avec After Effects
 [Voir les consignes de **Projet d'équipe** dans AE au **Cours 12-mm**](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours12-mm.html#travailler-en-equipe-avec-after-effects)
 
+À venir..
+
+## Remise
+À venir...
+
+!!! warning "Supprimez les fichiers de **Cache** et les **Enregistrements automatiques**."
+
+    Supprimez les fichiers de **Cache** et les **Enregistrements automatiques** avant la remise! Ils sont lourds et inutiles pour la remise. Merci de respecter cette importante consigne.
+    ![alt text](cache-et-automatique.png)
+
+
 [STOP]
