@@ -71,7 +71,7 @@ Veuillez [inscrire votre sujet de projet ici, dans le même document que les éq
   ![](./animation.gif)
 
   **[Animation](./step2.md){.stretched-link .back}**
-  <br><small>Remise le 21 mai avant le cours à 14h15 maximum</small>
+  <br><small>Remise le 21 mai avant le cours à 14h00 maximum</small>
 </div>
 
 <div class="grid grid-1-2" markdown>
