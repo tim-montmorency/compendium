@@ -12,7 +12,7 @@ Maintenant que votre préproduction est complétée, vous pouvez passer à la **
 * Création d'un **projet d'équipe** After Effects
 * Résolution du produit final : 1920 x 1080 px (Full HD)
 * Fréquence d’images : 24 fps
-* Durée : 60 secondes (expcluant le générique)
+* Durée : 60 secondes (excluant le générique)
 * Durée du générique : 10 à 20 secondes
 * Format d’exportation : H.264 - Vimeo 1080p Full HD
 
