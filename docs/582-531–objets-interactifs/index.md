@@ -16,3 +16,7 @@ Ce cours permet à l’élève de se familiariser avec des technologies électro
 | Unités                | 2       |
 | Heures d’enseignement | 60      |
 | Session               | 5       |
+
+## Ressources pédagogiques
+
+- [Aide : Centre d'aide TOF](https://t-o-f.info/aide)
