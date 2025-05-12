@@ -81,6 +81,61 @@ Veuillez [inscrire votre sujet de projet ici, dans le même document que les éq
   <br><small>21 mai</small>
 </div>
 
+
+## Critères d’évaluation
+
+### Structure de travail et production (5 points)
+
+- [ ] Paramètres techniques respectés (résolution, durée, format)
+- [ ] Structure de projet bien organisée (master + sous-compositions), médias externe bien classés
+- [ ] Respect des consignes
+- [ ] Respect des échéances pour toutes les étapes du projet
+
+### Animation (6 points)
+
+- [ ] Le sujet est bien expliqué via une structure narrative logique
+- [ ] Le rythme de la production est bien exécuté (pas de temps morts par exemple, ou encore, une étape narrative beaucoup plus longue que les autres)
+- [ ] L’esthétisme et la direction artistique sont cohérents tout au long de la vidéo (design, typographie, couleurs, lisibilité)
+- [ ] Originalité / Créativité
+- [ ] Transitions fluides entre les scènes
+- [ ] Génériques de fin original, harmonieux et qui présente tout ce qui est attendu
+
+### Techniques d'animation obligatoires (11 points)
+
+* [ ] **1- Écrasement et étirement**
+* [ ] **2- Anticipation**
+* [ ] **3- Lissage de vitesse** et **Graph Editor**
+* [ ] **4- Animation sur une trajectoire**
+* [ ] **5- Outil marionnette**
+* [ ] **6- Typographie cinétique**
+* [ ] **7- Animation d'un masque**
+* [ ] **8- Technique de morphage**
+* [ ] **9- Expression**
+* [ ] **10- Minimum 3 effets différents** parmis ceux listés dans les consignes
+* [ ] **11-Notion supplémentaire via un tutoriel** de votre choix
+
+### Bande sonore (2 points)
+
+- [ ] Narration en français intégrée, animation bine synchronisée avec la narration
+- [ ] Trame sonore de fond bien choisies, effets sonores ponctuels judicieux
+
+### Documentation (3 points)
+
+- [ ] Tous les document de pré-production et médias sont présents et bien classés.
+- [ ] Structure narrative clairement expliquée et indication de qui a fait quoi dans **animations.docx**
+- [ ] Tableau des techniques bien identifiées avec les timecodes correspondants dans **animations.docx**
+
+### Présentation orale (3 points)
+
+- [ ] Tous les membres prennent la parole
+- [ ] Intention de départ bien expliquée
+- [ ] Défis rencontrés et solutions trouvées
+- [ ] Partage des apprentissages
+- [ ] Autoévaluation pertinente (améliorations possibles)
+
+
+
+
 [STOP]
 
 > Travaillons sérieusement sans se prendre trop au sérieux :wink:

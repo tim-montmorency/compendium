@@ -131,7 +131,7 @@ Vous devez faire de la **typographie cinétique** pour afficher le texte de chaq
   * Titre du projet
   * Noms des membres de l’équipe
   * Structure de vos étapes narratives. Ici on cherche à savoir si votre explication est bien structurée.
-  * Indiquer, dans cette structure narrative, qui de vous deux a animé quelle partie.
+  * Indiquez, dans cette structure narrative, qui a animé quelle partie.
   * Ajouter aussi un tableau des «&nbsp;[Techniques obligatoires à démontrer](#explainer-video-techniques-obligatoires-a-demontrer)&nbsp;» avec une colonne «&nbsp;Timecode&nbsp;» pour indiquer à quel moment (à quelle seconde) dans la vidéo chacun de ces techniques sont observées (Ex&nbsp;:&nbsp;00:36).
   * Tutoriel Youtube (ou autre) pour la «&nbsp;[Notion supplémentaire à ajouter obligatoirement](#notion-supplementaire-a-ajouter-obligatoirement)&nbsp;» : inclure l’URL complète du tutoriel. Vous devrez aussi indiquer à quel moment (à quelle seconde) dans la vidéo cette technique est observée.
 
