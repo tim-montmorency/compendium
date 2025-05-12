@@ -122,7 +122,7 @@ Vous devez faire de la **typographie cinétique** pour afficher le texte de chaq
 
 
 
-## Documents à remettre
+## REMISE: Documents à remettre
 
 * [ ] Vous devez tout d'abord vous assurer d'avoir invité marie-michelle.ouellet@cmontmorency.qc.ca à votre projet d'équipe dans After Effects.
 
@@ -163,7 +163,7 @@ Exemple :
 
 * [ ] Partagez le lien du projet compressé en .zip dans Teams/Devoirs. Assurez-vous que j'ai bien les droits d'accès au fichier.
 
-### Date limite
+## Date limite de remise
 
 Le **21 mai à 14h00** (sera suivi d'une présentation en classe à 14h25).
 
