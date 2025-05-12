@@ -106,24 +106,55 @@ Il doit durer entre 10 et 20 secondes.
 
 Il doit inclure :
 
-* Page 1 | Titre du projet
-* Page 2 | Animation 2D : Noms complets des membres de l’équipe
-* Page 3 (ou plus au besoin) | Animation 2D : Noms complets des membres de l’équipe
-* Avant dernière page | 
+* [ ] Écran 1 | Titre du projet
+* [ ] Écran 2 | Animation 2D : Noms complets des membres de l’équipe
+* [ ] Écran 3 (ou plus au besoin) | Animation 2D : Noms complets des membres de l’équipe
+* [ ] Avant dernier écran | 
   * Titre du cours
   * Nom de l’enseignant(e)
   * Nom du programme
   * Nom du Cégep
   * Mois - Année
   * [Logos du collège](./logo-cmontmorency.eps)
-* Dernière page | [logo du programme](./logo-tim.eps) animé en motion design (apparition, animation et stabilisation)
+* Dernier écran | [logo du programme](./logo-tim.eps) animé en motion design (apparition, animation et stabilisation)
 
-Plus d'infos à venir pour l'animation du générique de fin...
+Vous devez faire de la **typographie cinétique** pour afficher le texte de chaque écran (bref animer le texte entrant). Vous devez penser à **une transition entre chaque écran**. Le style du générique doit être constant du début à la fin et être harmonieux avec le rythme et le style du reste du film d'animation.
 
 
-## Remise finale
 
-Plus d'infos à venir... 
+## Documents à remettre
+
+* [ ] Vous devez tout d'abord vous assurer d'avoir invité marie-michelle.ouellet@cmontmorency.qc.ca à votre projet d'équipe dans After Effects.
+
+* [ ] Dans le dossier de projet, vous devez ajouter dans le dossier **00_references** un document Word nommé **animations.docx**. Il comprendra :
+
+  * Titre du projet
+  * Noms des membres de l’équipe
+  * Structure de vos étapes narratives. Ici on cherche à savoir si votre explication est bien structurée.
+  * Indiquer, dans cette structure narrative, qui de vous deux a animé quelle partie.
+  * Ajouter aussi un tableau des «&nbsp;[Techniques obligatoires à démontrer](#explainer-video-techniques-obligatoires-a-demontrer)&nbsp;» avec une colonne «&nbsp;Timecode&nbsp;» pour indiquer à quel moment (à quelle seconde) dans la vidéo chacun de ces techniques sont observées (Ex&nbsp;:&nbsp;00:36).
+  * Tutoriel Youtube (ou autre) pour la «&nbsp;[Notion supplémentaire à ajouter obligatoirement](#notion-supplementaire-a-ajouter-obligatoirement)&nbsp;» : inclure l’URL complète du tutoriel. Vous devrez aussi indiquer à quel moment (à quelle seconde) dans la vidéo cette technique est observée.
+
+* [ ] Dans le dossier de projet, sous le dossier **00_references** ajoutez les documents que vous aviez déjà fait pour l'étape 1 soient:
+
+  * Sujet final dans un Word nommé **description-projet.docx**
+  * Inspirations (liste finale) (inscrire les nom et les liens vers vos inspirations) dans Word et nommé  **references-et-inspirations.docx**
+  * Moodboard final réalisé avec le gabarit Figma fourni. SVP remettre le **lien direct vers votre Figma**.
+  * Script final (contenu textuel de la narration) en fichier **script.docx**
+  * Scénario final (storyboard) créé avec le logiciel Storyboarder (n'oubliez pas de regarder la capsule vidéo qui explique comment l'utiliser et sauvegarder) et exporté en fichier **scenario.pdf**
+
+* [ ] Votre dossier de projet doit aussi inclure tous les médias externes (fichiers image (illustrator, png, svg, jpg, photoshop etc) et fichiers audio) bien classés.
+
+* [ ] Vous devrez faire une copie du fichier de travail After Effects (.aep) dans le dossier **02_ae**. Vous devez l'ouvrir dans After Effects avant la remise et refaire tous les liens vers les médias externes.
+
+* [ ] Exportez votre projet et déposez le ficheir .mp4 dans **03_exportations**. Voir les consignes initiales pour le format d'exportation.
+
+* [ ] Supprimez les caches, les fichiers temporaires (TMP) et les enregistrements automatiques du dossier de projet.
+
+!!! warning "Supprimez les fichiers de **Cache** et les **Enregistrements automatiques**."
+    Supprimez les fichiers de **Cache** et les **Enregistrements automatiques** avant la remise. Ils sont lourds et inutiles pour la remise. Merci de respecter cette importante consigne.
+    ![alt text](cache-et-automatique.png)
+
 
 ### Date limite
 
@@ -245,6 +276,3 @@ Voici les fichieers à remttre dans Teams:
 !!! warning "Supprimez les fichiers de **Cache** et les **Enregistrements automatiques**."
     Supprimez les fichiers de **Cache** et les **Enregistrements automatiques** avant la remise. Ils sont lourds et inutiles pour la remise. Merci de respecter cette importante consigne.
     ![alt text](cache-et-automatique.png)
-
-
-
