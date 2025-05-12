@@ -155,6 +155,13 @@ Vous devez faire de la **typographie cinétique** pour afficher le texte de chaq
     Supprimez les fichiers de **Cache** et les **Enregistrements automatiques** avant la remise. Ils sont lourds et inutiles pour la remise. Merci de respecter cette importante consigne.
     ![alt text](cache-et-automatique.png)
 
+* [ ] Compressez le dossier de projet en .zip et renommez le: `[noms de famille en ordre alphabétique séparés par un tiret]_[projet-final]_[#cours]`
+
+Exemple :
+
+* 📂 `ouellet-cartier_projet-final_582-214MO`
+
+* [ ] Partagez le lien du projet compressé en .zip dans Teams/Devoirs. Assurez-vous que j'ai bien les droits d'accès au fichier.
 
 ### Date limite
 
