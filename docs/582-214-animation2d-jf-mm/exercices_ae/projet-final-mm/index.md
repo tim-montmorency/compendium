@@ -82,23 +82,25 @@ Veuillez [inscrire votre sujet de projet ici, dans le même document que les éq
 </div>
 
 
-## Critères d’évaluation
+## Critères d’évaluation (50%)
 
-### Structure de travail et production (5 points)
+### Structure de travail et production (10 points)
 
-- [ ] Paramètres techniques respectés (résolution, durée, format)
-- [ ] Structure de projet bien organisée (master + sous-compositions), médias externe bien classés
-- [ ] Respect des consignes
-- [ ] Respect des échéances pour toutes les étapes du projet
+* [ ] Structure de projet externe (dossier de projet) respectée et fichiers bien classés
+* [ ] Paramètres techniques respectés (résolution, durée, format d'exportation)
+* [ ] Structure de projet interne (dans AE) bien organisée (master + sous-compositions), médias bien classés
+* [ ] Respect des consignes
+* [ ] Respect des échéances pour toutes les étapes du projet
 
-### Animation (6 points)
+### Animation (14 points)
 
-- [ ] Le sujet est bien expliqué via une structure narrative logique
-- [ ] Le rythme de la production est bien exécuté (pas de temps morts par exemple, ou encore, une étape narrative beaucoup plus longue que les autres)
-- [ ] L’esthétisme et la direction artistique sont cohérents tout au long de la vidéo (design, typographie, couleurs, lisibilité)
-- [ ] Originalité / Créativité
-- [ ] Transitions fluides entre les scènes
-- [ ] Génériques de fin original, harmonieux et qui présente tout ce qui est attendu
+* [ ] Le sujet est bien expliqué via une structure narrative logique.
+* [ ] Qualité du rythme de l'animation et réglage des séquences des différents éléments animés. Synchronisation fluide avec la trame narrative ou sonore.
+* [ ] L’esthétisme et la direction artistique sont cohérents tout au long de la vidéo (design, typographie, couleurs, lisibilité).
+* [ ] Qualité des images et illustrations. Palette de couleurs harmonieuse.
+* [ ] Originalité / Créativité
+* [ ] Qualité esthétique des transitions entre chaque scène.
+* [ ] Génériques de fin original, harmonieux et qui présente tout ce qui est attendu.
 
 ### Techniques d'animation obligatoires (11 points)
 
@@ -111,27 +113,27 @@ Veuillez [inscrire votre sujet de projet ici, dans le même document que les éq
 * [ ] **7- Animation d'un masque**
 * [ ] **8- Technique de morphage**
 * [ ] **9- Expression**
-* [ ] **10- Minimum 3 effets différents** parmis ceux listés dans les consignes
-* [ ] **11-Notion supplémentaire via un tutoriel** de votre choix
+* [ ] **10- Minimum 3 effets différents** parmis ceux listés dans les consignes.
+* [ ] **11-Notion supplémentaire via un tutoriel** de votre choix.
 
-### Bande sonore (2 points)
+### Bande sonore (5 points)
 
-- [ ] Narration en français intégrée, animation bine synchronisée avec la narration
-- [ ] Trame sonore de fond bien choisies, effets sonores ponctuels judicieux
+- [ ] Narration en français intégrée, animations bien synchronisée avec la narration.
+- [ ] Trame sonore de fond bien choisies, effets sonores ponctuels judicieux.
 
-### Documentation (3 points)
+### Documentation (5 points)
 
-- [ ] Tous les document de pré-production et médias sont présents et bien classés.
-- [ ] Structure narrative clairement expliquée et indication de qui a fait quoi dans **animations.docx**
-- [ ] Tableau des techniques bien identifiées avec les timecodes correspondants dans **animations.docx**
+- [ ] Les document de pré-production ont été adaptés suite à la rencontre avec enseignante à l'étape 1 du projet.
+- [ ] **animations.docx**: La structure narrative clairement expliquée. Il est aussi indiqué qui a animé quelle scène.
+- [ ] **animations.docx**: Tableau des techniques bien identifiées avec les timecodes correspondants.
 
-### Présentation orale (3 points)
+### Présentation orale (5 points)
 
-- [ ] Tous les membres prennent la parole
+- [ ] Tous les membres prennent la parole.
 - [ ] Intention de départ bien expliquée
-- [ ] Défis rencontrés et solutions trouvées
-- [ ] Partage des apprentissages
-- [ ] Autoévaluation pertinente (améliorations possibles)
+- [ ] Défis rencontrés et solutions trouvées.
+- [ ] Partage des apprentissages.
+- [ ] Autoévaluation pertinente (améliorations possibles).
 
 
 
