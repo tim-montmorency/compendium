@@ -107,9 +107,9 @@ Il doit durer entre 10 et 20 secondes.
 Il doit inclure :
 
 * [ ] Écran 1 | Titre du projet
-* [ ] Écran 2 | Animation 2D : Noms complets des membres de l’équipe
-* [ ] Écran 3 (ou plus au besoin) | Animation 2D : Noms complets des membres de l’équipe
-* [ ] Avant dernier écran | 
+* [ ] Écran 2 | Animation 2D : Noms complets des membres de l’équipe (inscrire le titre "animation 2D en plus de vos noms")
+* [ ] Écran 3 (ou +) | Si applicable: créditer les images et les trames audio : nommez les artistes et les banques d'images utilisées. S'il y a eu utilisation de l'IA, veuillez nommer les outils utilisés et nommez les images et fichiers audio généré par chaque outil d'IA.
+* [ ] Avant dernier écran
   * Titre du cours
   * Nom de l’enseignant(e)
   * Nom du programme
@@ -118,7 +118,7 @@ Il doit inclure :
   * [Logos du collège](./logo-cmontmorency.eps)
 * Dernier écran | [logo du programme](./logo-tim.eps) animé en motion design (apparition, animation et stabilisation)
 
-Vous devez faire de la **typographie cinétique** pour afficher le texte de chaque écran (bref animer le texte entrant). Vous devez penser à **une transition entre chaque écran**. Le style du générique doit être constant du début à la fin et être harmonieux avec le rythme et le style du reste du film d'animation.
+Vous devez faire de la **typographie cinétique** pour afficher le texte de chaque écran. S'il y a beaucoup de texte, par exemple pour les crédits de droits d'auteur des images, vous pouvez faire une simple transition (pas nécessaire de faire de la typo cinétique pour cet écran spécifique). Vous faire **une transition entre chaque écran** du générique. Le style du générique doit être **harmonieux avec le rythme et le style du reste du film** d'animation.
 
 
 
