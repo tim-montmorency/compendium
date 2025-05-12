@@ -107,8 +107,9 @@ Il doit durer entre 10 et 20 secondes.
 Il doit inclure :
 
 * [ ] Écran 1 | Titre du projet
-* [ ] Écran 2 | Animation 2D : Noms complets des membres de l’équipe (inscrire le titre "animation 2D en plus de vos noms")
-* [ ] Écran 3 (ou +) | Si applicable: créditer les images et les trames audio : nommez les artistes et les banques d'images utilisées. S'il y a eu utilisation de l'IA, veuillez nommer les outils utilisés et nommez les images et fichiers audio généré par chaque outil d'IA.
+* [ ] Écran 2 | Animation 2D : Noms complets des membres de l’équipe (inscrire le titre **Animation 2D** en plus de vos noms).
+* [ ] Écran 3 | Illustrations: Si les illustrations (ou certaines d'entre-elles) ont été créées par vous : Noms complets des membres des illustrateurs de l'équipe (inscrire le titre **Illustrations** en plus de vos noms).
+* [ ] Écran 3 ou 4 (ou +) | Si applicable: créditer les images et les trames audio&nbsp;: nommez **les artistes et les banques d'images** qui ont été utilisées dans l'animation finale (nul besoin de créditer les images de votre moodboard). De plus, s'il y a eu **utilisation de l'IA générative**, veuillez nommer les outils utilisés et nommez les images et fichiers audio généré par chaque outil d'IA.
 * [ ] Avant dernier écran
   * Titre du cours
   * Nom de l’enseignant(e)
@@ -121,10 +122,9 @@ Il doit inclure :
 Vous devez faire de la **typographie cinétique** pour afficher le texte de chaque écran. S'il y a beaucoup de texte, par exemple pour les crédits de droits d'auteur des images, vous pouvez faire une simple transition (pas nécessaire de faire de la typo cinétique pour cet écran spécifique). Vous faire **une transition entre chaque écran** du générique. Le style du générique doit être **harmonieux avec le rythme et le style du reste du film** d'animation.
 
 
-
 ## REMISE: Documents à remettre
 
-* [ ] Vous devez tout d'abord vous assurer d'avoir invité marie-michelle.ouellet@cmontmorency.qc.ca à votre projet d'équipe dans After Effects.
+* [ ] Vous devez tout d'abord vous assurer d'avoir invité **marie-michelle.ouellet@cmontmorency.qc.ca** à votre projet d'équipe dans After Effects.
 
 * [ ] Dans le dossier de projet, vous devez ajouter dans le dossier **00_references** un document Word nommé **animations.docx**. Il comprendra :
 
