@@ -1,6 +1,6 @@
 # Cours 15
 
-# Projet final - Animation <br><small>Groupe de Marie-Michelle</small>
+# Projet final - Présentation <br><small>Groupe de Marie-Michelle</small>
 
 ## Concours audiovisuel TIM 2025
 
@@ -15,7 +15,7 @@
 ![Invitation à la cérémonie de visionnement et remise de prix](./images/invitation-ceremonie-concours-2025.png)
 
 
-# Projet final - PRÉSENTATION EN CLASSE
+## Présentation orale de votre projet
 
 Chaque équipe devra présenter son projet devant la classe.
 
