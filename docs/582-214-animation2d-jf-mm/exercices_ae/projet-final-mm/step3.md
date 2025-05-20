@@ -6,8 +6,11 @@ Cette présentation vous permet de faire un retour critique sur votre travail, d
 
 Date : 21 mai 2025
 
+L'oral doit durer entre 5 et 10 minutes incluant le visionnement de l'animation.
+
 ## Contenu de la présentation
 
+* [ ] Visionnement du film d'animation
 * [ ] Nom du projet et noms des membres de l’équipe
 * [ ] Diffusion de la vidéo finale
 * [ ] Intention de départ : Pourquoi avoir choisi ce sujet ou cette approche ?
