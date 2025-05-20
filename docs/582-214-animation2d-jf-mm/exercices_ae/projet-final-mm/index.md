@@ -1,7 +1,5 @@
 # Projet final - _Explainer video_ <br><small>Groupe de Marie-Michelle</small>
 
-*[TTS]: Text To Speech
-
 Vous devez réaliser une vidéo explicative animée (_explainer video_).
 
 Cette vidéo doit expliquer clairement un sujet, à l’aide de visuels animés, d’un **design cohérent** et d’une **rythmique uniforme**.
@@ -39,8 +37,6 @@ Veuillez [inscrire votre sujet de projet ici, dans le même document que les éq
   * et/ou téléchargés de banques de visuels libres de droits
   * et/ou généré via des outils d'intelligence artificielle
 * Police de caractères stylées libres de droits ou provenant de la librairie Adobe qui vous est fournie dans AE
-
-[^tts]: [:hugging: TTS sur ElevenLabs](https://elevenlabs.io/fr)
 
 ## Calendrier
 
