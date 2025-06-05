@@ -50,8 +50,8 @@ Accepter la convention:
         <th>Préparer son portfolio, mettre à jour son cv et sa lettre de présentation.</th>        
 </tr>
 <tr>
-    <th>Semaine 10</th>
-    <th>30 octobre : Journée Carrière : Événement de rencontre des employeurs</th>
+    <th>Semaine 11</th>
+    <th>10 novembre : Journée Carrière : Événement de rencontre des employeurs</th>
 </tr>
 <tr>
     <th>Semaine 11 à 15</th>
