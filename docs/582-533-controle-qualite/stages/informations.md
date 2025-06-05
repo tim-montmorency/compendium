@@ -21,20 +21,20 @@ Accepter la convention:
 <table>
   <tr>   </tr>
      <tr>
-        <th>27 mars 2025 </th>
+        <th>Semaine du 23 mars 2026 </th>
         <th>Rencontre préparatoire au stage de 13h à 16h au grand studio.</th>        
 </tr>
 <tr>
-    <th>31 mars 2025</th>
+    <th>30 mars 2026</th>
     <th>Début du stage</th>
 </tr>
 <tr>
-    <th>16 mai 2025</th>
+    <th>15 mai 2026</th>
     <th>Fin du stage</th>
 </tr>
 <tr>
-    <th>23 mai 2025</th>
-    <th>Présentation finale du stage de 10h à 16h au grand studio.</th>
+    <th>22 mai 2026</th>
+    <th>Présentation finale du stage de 13h à 16h au grand studio.</th>
 </tr>
 
 </table>
@@ -151,7 +151,7 @@ Accepter la convention:
 
 !!! info
 
-    Ton stage se déroulera sur 7 semaines, entre la période du <b> 31 mars au 16 mai 2025</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  
+    Ton stage se déroulera sur 7 semaines, entre la période du <b> 30 mars au 15 mai 2026</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  
 
 <p>Durant ton stage, tu devras documenter le processus de réalisation du produit multimédia dans un rapport de stage. Les sections du rapport couvriront notamment:</p> 
 
@@ -177,7 +177,7 @@ Accepter la convention:
 
 !!! info
 
-    Tu devras être libre le <b>23 mai</b> pour la présentation finale du stage. 
+    Tu devras être libre le <b>22 mai</b> pour la présentation finale du stage. 
 
 <p>Avant le mois de février, tu dois avoir identifié clairement tes disponibilités pour la période du stage et les avoir communiqués à ton employeur.</p> 
 
