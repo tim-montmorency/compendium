@@ -8,7 +8,7 @@
 
 
 ## Test diagnostic      
-[🛠️ Accéder aux questions](https://forms.office.com/r/MUa8T3fCXa){ .md-button }           
+[🛠️ Accéder aux questions](https://forms.office.com/r/qSQzf2UwQm){ .md-button }           
 
       
 ## Activité sur les forces et qualités
