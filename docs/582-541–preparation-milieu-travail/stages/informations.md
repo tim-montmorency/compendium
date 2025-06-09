@@ -3,7 +3,7 @@
      
 
 <h2>Plan de cours</h2>
-<a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX3PKuCRInlAjNjxw8nFhNoBQEooSM7loPAPEHPIgj2gsQ?e=hCpLSQ">Plan de cours</a>
+<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/ES9M3Rz7d6dHq_i6f684JY8B9d1roH0MVF6RtC-GJMKWuA?e=8bxgqd">Plan de cours</a>
 
      
 
@@ -305,45 +305,20 @@ Accepter la convention:
 
 <h2>Compétences du programme d'études</h2>
 <p>Ces compétences peuvent être utiles pour votre cv ou portfolio, cependant mettez-les uniquement si vous les maîtrisez!</p>
-<ul>
-<li>Designer, coder et publier des sites Web dynamiques </li>
 
-<li>Réaliser et tourner des vidéos </li>
-
-<li>Animer des créations 2D et 3D </li>
-
-<li>Concevoir des compositions sonores et visuelles interactives </li>
-
-<li>Maîtriser des techniques d’effets spéciaux </li>
-
-<li>Assembler des environnements de réalité virtuelle </li>
-
-<li>Élaborer des spectacles augmentés </li>
-
-<li>Exploiter les nouvelles technologies et leur potentiel créateur </li>
-
-<li>Penser et optimiser l’expérience utilisateur </li>
-
-<li>Créer des univers immersifs et interactifs </li>
-
-<li>Collaborer avec diverses disciplines artistiques ou interdisciplinaires </li>
-</ul>
- 
-
-<p>Connaissance des logiciels suivants : Visual Studio Code, Suite Adobe (XD, Photoshop, Illustrator, Lightroom, Premiere, Media Encoder, After Effects), Davinci Resolve, Maya, Unity, Logic Pro, Ableton Live, Max, Arduino, MadMapper, Microsoft Teams </p>
- 
-
-<p>Connaissance en programmation Web : HTML, CSS, JavaScript, PHP, SQL, C# (Unity), C++ (Arduino) </p>
- 
-
-<p>Connaissance de systèmes de gestion de contenu (CMS) </p>
+•	Designer, coder et publier des sites Web dynamiques (Figma, Visual Studio Code, HTML, CSS, JavaScript, PHP, SQL,)    
+•	Designer des éléments visuels (Suite Adobe : XD, Photoshop, Illustrator, Lightroom)    
+•	Connaissance de systèmes de gestion de contenu (CMS)      
+•	Réaliser et tourner des vidéos (Davinci Resolve, Premiere, Media Encoder)    
+•	Animer des créations 2D et 3D (After effects, Maya)    
+•	Concevoir des compositions sonores et visuelles interactives (Touch designer, Max MSP, Ableton Live)    
+•	Assembler des environnements de réalité virtuelle et augmentée (Unity)    
+•	Penser et optimiser l’expérience utilisateur     
+•	Créer des univers immersifs et interactifs (C++ Arduino, MadMapper)    
+•	Gestion de projets en équipes    
 
  
 
 <p>Pour de plus amples détails, le site Web du programme de Techniques d’intégration multimédia comporte un ensemble d'informations pertinentes :</p>
 
 <a href="https://www.cmontmorency.qc.ca/programmes/nos-programmes-detudes/techniques/techniques-dintegration-multimedia/description-du-programme/  ">Descriptif du programme</a>
-
-
-
-
