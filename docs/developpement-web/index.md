@@ -2,31 +2,9 @@
 
 <style>.md-sidebar--primary, .md-header__topic, .md-copyright{ display: none !important; }</style>
 
-## Présentation du conférencier
-
-<div class="grid grid-1-3" markdown>
-  ![](./assets/jf.jpg)
-
-  **Jean-François Cartier**<br>
-  _Vice-président chez [Kiwad inc.](https://kiwad.com)_<br>
-  _Enseignant en [Techniques d'intégration multimédia](https://tim-montmorency.com/) au Collège Montmorency_<br>
-  :material-email-variant: [jfcartier@kiwad.com](mailto:jfcartier@kiwad.com)<br>
-  :material-linkedin: [LinkedIn](https://www.linkedin.com/in/jfcartier/)
-</div>
-
-### Kiwad inc.
-
-<div class="grid grid-auto" markdown>
-  ![](./assets/kiwad.png)
-
-  Depuis 2008, l'entreprise concentre ses efforts dans les secteurs de la culture🎭, l’éducation 🎓 et le développement social responsable 🌱🤝.
-</div>
-
-![](./assets/clients-dark.png){ data-zoom-image }
-
 ## Qu’est-ce que le développement Web ?
 
-Le développement Web consiste à créer des sites et applications accessibles via le réseau Internet.
+Le développement Web consiste à créer des sites et applications qu'on peut consulter via le réseau Internet.
 
 La création d'un site Web implique de nombreux acteurs comme des designer Web, des adminitrateurs de système, des gestionnaires de projet et bien sur, des programmeurs.
 
@@ -37,7 +15,7 @@ La programmation Web, ou développement Web se catégorise traditionnellement en
 * **Frontend** : Partie visible et interactive d’un site (design, textes, images).
 * **Backend** : Partie invisible gérant les données et la logique (serveurs, bases de données).
 
-Il existe aussi la notion de développeur Full-Stack qui implique les deux parties, mais on devient développeur Full-Stack avec beaucoup d'expérience.
+Il existe aussi la notion de développeur Full-Stack qui implique les deux parties et la notion _devops_, mais on devient développeur Full-Stack avec beaucoup d'expérience.
 
 ## Langages de programmation
 
@@ -146,3 +124,27 @@ SEAO (Appels d'offres public)
 	•	✅ Framer ou Squarespace
 	•	Pour une expérience proche de Webflow (visuelle mais professionnelle) :
 	•	✅ Wix ou Framer
+
+
+
+## Présentation du conférencier
+
+<div class="grid grid-1-3" markdown>
+  ![](./assets/jf.jpg)
+
+  **Jean-François Cartier**<br>
+  _Vice-président chez [Kiwad inc.](https://kiwad.com)_<br>
+  _Enseignant en [Techniques d'intégration multimédia](https://tim-montmorency.com/) au Collège Montmorency_<br>
+  :material-email-variant: [jfcartier@kiwad.com](mailto:jfcartier@kiwad.com)<br>
+  :material-linkedin: [LinkedIn](https://www.linkedin.com/in/jfcartier/)
+</div>
+
+### Kiwad inc.
+
+<div class="grid grid-auto" markdown>
+  ![](./assets/kiwad.png)
+
+  Depuis 2008, l'entreprise concentre ses efforts dans les secteurs de la culture🎭, l’éducation 🎓 et le développement social responsable 🌱🤝.
+</div>
+
+![](./assets/clients-dark.png){ data-zoom-image }
