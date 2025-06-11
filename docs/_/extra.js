@@ -341,7 +341,7 @@ const addCustomStyles = (...folders) => {
   if (found) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = '/_/finishing.css';
+    link.href = '/compendium/_/finishing.css';
     document.head.appendChild(link);
   }
 };
