@@ -333,7 +333,7 @@ const { fireworks, fireworksContainer } = initializeFireworks();
 
 
 
-// Fonction qui sert à ajouter des styles personnalisés par dessus le mkdocs material de base pour des dossiers spécifiques (passés en paramètre)
+// Fonction qui permet d'ajouter des styles personnalisés (via finishing.css) pour peaufiner et ajouter une touche de finition sur le mkdocs material de base. Cette feuille de style sera ajoutée uniquement si l'URL actuelle contient un des dossiers spécifiés dans les arguments de la fonction.
 const addCustomStyles = (...folders) => {
   const path = window.location.pathname;
   const found = folders.some(str => path.includes(str));
