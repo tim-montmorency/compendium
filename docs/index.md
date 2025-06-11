@@ -18,7 +18,7 @@
 * [Traitement audiovisuel](./582-412–traitement-audiovisuel/index.md)
 * [Animation 3D](./582-414–animation3d/index.md)
 * [Conception expérience multimédia](./582-501–conception-experience-multimedia/index.md)
-* [Web 5](./582-511–web5/index.md)
+* [Web 5](./582-511-web5/index.md)
 * [Installation multimédia](./582-521–installation-multimedia/index.md)
 * [Objets interactifs](./582-531–objets-interactifs/index.md)
 * [Controle qualité](./582-533-controle-qualite/index.md)
