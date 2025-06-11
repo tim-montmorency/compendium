@@ -330,6 +330,23 @@ const handleCheckboxesWithFireworks = (fireworks, fireworksContainer) => {
 
 const { fireworks, fireworksContainer } = initializeFireworks();
 
+
+
+
+// Fonction qui sert à ajouter des styles personnalisés par dessus le mkdocs material de base pour des dossiers spécifiques (passés en paramètre)
+const addCustomStyles = (...folders) => {
+  const path = window.location.pathname;
+  const found = folders.some(str => path.includes(str));
+
+  if (found) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = '/_/finishing.css';
+    document.head.appendChild(link);
+  }
+};
+
+
 // Exécution de logique au chargement de la page
 document.addEventListener("DOMContentLoaded", () => {
   runOnce();
@@ -352,6 +369,7 @@ document.addEventListener("DOMContentLoaded", () => {
   observer.observe(targetNode, config);
 });
 
+
 function runFunctions() {
   //initializeSortableTables();
   toggleLogoButtonVisibility();
@@ -360,6 +378,7 @@ function runFunctions() {
   handleDestinations();
   addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
+  addCustomStyles("582-511-web5");
   // selectIframe();
 }
 
