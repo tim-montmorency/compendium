@@ -1,1 +1,1 @@
-# Cours 2.2 Jeudi (Habituellement le lundi)
+# Cours 2.2 Jeudi (habituellement le lundi)
