@@ -378,11 +378,11 @@ function runFunctions() {
   handleDestinations();
   addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
-  addCustomStyles("582-511-web5");
   // selectIframe();
 }
 
 function runOnce() {
   removeMainTabsNavigation();
   replaceLogoLinkWithSpan();
+  addCustomStyles("582-511-web5");
 }
