@@ -1,4 +1,5 @@
 # Cours 1.1 Lundi
+<!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 
 ## Titre de niveau 2
 
