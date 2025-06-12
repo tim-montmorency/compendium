@@ -53,7 +53,6 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 
 - [ ] Ouvrez le fichier App.vue, s'il n'y a pas de cloloration syntaxique et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée **Vue - Official** : [<img src="assets/extension-vue-official.jpg" width="220"/>](assets/extension-vue-official.jpg) 
 
-***
 
 
 ## Démarrer le serveur
