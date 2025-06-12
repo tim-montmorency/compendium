@@ -333,16 +333,12 @@ const { fireworks, fireworksContainer } = initializeFireworks();
 
 
 
-// Fonction qui permet d'ajouter des styles personnalisés (via finishing.css) pour peaufiner et ajouter une touche de finition sur le mkdocs material de base. Cette feuille de style sera ajoutée uniquement si l'URL actuelle contient un des dossiers spécifiés dans les arguments de la fonction.
+// Fonction qui permet d'ajouter des styles personnalisés (via la classe .finishing sur le body) pour peaufiner et ajouter une touche de finition sur le mkdocs material de base. Cette classe sera ajoutée uniquement sur le body si l'URL actuelle contient un des dossiers spécifiés dans les arguments de la fonction.
 const addCustomStyles = (...folders) => {
   const path = window.location.pathname;
   const found = folders.some(str => path.includes(str));
 
   if (found) {
-   /* const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = '/compendium/_/finishing.css';
-    document.head.appendChild(link);*/
     const body = document.querySelector('body');
     if (body) {
       body.classList.add('finishing');
