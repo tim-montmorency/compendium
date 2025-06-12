@@ -1,5 +1,7 @@
 # Atelier Développement Web
 
+<style>.md-sidebar--primary, .md-header__topic, .md-copyright{ display: none !important; }</style>
+
 *[HTML]: HyperText Markup Language
 *[CSS]: Cascading Style Sheets
 *[UX]: Expérience utilisateur (User eXperience)
@@ -69,7 +71,7 @@ Voici quelques exemples classiques :
 Mais ce n’est pas tout. Le développement Web permet aussi de concevoir des interfaces à usage multiple.
 
 * Tableaux de bord interactifs : [Interface de gestion domotique résidentiel](https://www.home-assistant.io/)
-* Systèmes d’automatisation : Par exemple, une alerte SMS envoyée automatiquement lorsqu’un formulaire est rempli.	
+* Systèmes d’automatisation : Par exemple, une alerte SMS envoyée automatiquement lorsqu’un formulaire est rempli.
 * Jeux : [Jeu vidéo publié sur itch.io](https://mraosix.itch.io/combattrials)
 * Application interactive : [Plateforme de réservation de la Place des Arts](https://www.placedesarts.com/programmation)
 * Outils pédagogiques interactifs : Quiz en ligne (comme le Wooclap de tantôt)
@@ -150,10 +152,8 @@ Des balises il en existe tout plein. Voici une courte liste de balises :
 | `<em>`         | Texte en italique                                | `<em>À retenir</em>`                      |
 | `<a>`          | Lien hypertexte                                  | `<a href="https://example.com">Lien</a>`  |
 | `<img>`        | Image                                            | `<img src="img.jpg" alt="Description">`   |
-| `<ul>`         | Liste à puces                                    | `<ul><li>Item</li></ul>`                  |
-| `<li>`         | Élément de liste                                 | `<li>Item</li>`                           |
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/tim-momo/embed/pvJpbqg?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/tim-momo/embed/pvJpbqg?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 </iframe>
 
 #### Structure initiale d'un site Web
@@ -185,7 +185,7 @@ Voici une courte liste de styles CSS :
 | Propriété       | Description                                  | Exemple                                    |
 |-----------------|----------------------------------------------|--------------------------------------------|
 | `color`         | Couleur du texte                             | `color: red;`                              |
-| `background`    | Couleur ou image de fond                     | `background: lightblue;`                   |
+| `background`    | Couleur ou image de fond                     | `background: orange;`                      |
 | `font-size`     | Taille de la police                          | `font-size: 20px;`                         |
 | `font-weight`   | Épaisseur du texte (normal, bold…)           | `font-weight: bold;`                       |
 | `font-style`    | Style de la police (italic, normal…)         | `font-style: italic;`                      |
@@ -194,7 +194,7 @@ Voici une courte liste de styles CSS :
 | `padding`       | Marge intérieure (dans l’élément)            | `padding: 15px;`                           |
 | `border`        | Bordure autour de l’élément                  | `border: 1px solid black;`                 |
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="HTML" src="https://codepen.io/tim-momo/embed/YPXapWo?default-tab=css%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="HTML" src="https://codepen.io/tim-momo/embed/YPXapWo?default-tab=css%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 </iframe>
 
 ### L'inspecteur
@@ -222,15 +222,15 @@ On peut y accéder de plusieurs façons. Dans Google Chrome, par exemple :
 
 	Comme vous l'avez constaté, il est possible de modifier temporairement n’importe quel site sur son navigateur. Cette technique est très utile en développement Web pour tester rapidement des styles ou diagnostiquer un problème.
 
-## Outils de développement
+### Outils de développement
 
 Il est possible de programmer avec notepad si on le désire 🤷, mais personne ne le fait.
 
 Il est préférable d'utiliser le bon outil pour la tâche, un peu comme on utiliserait Word pour écrire un devoir de français.
 
-### Visual Studio Code
+Pour de la programmation Web, l'outil le plus populaire s'appelle **[Visual Studio Code](https://code.visualstudio.com/)** ou **VSCode**.
 
-![](./assets/vscode.png)
+![](./assets/vscode.png){data-zoom-image}
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/exercice_1.jpg)
@@ -304,12 +304,14 @@ Mais pour des projets plus complexes, l’absence de structure ou de plan clair 
 Il n’est pas nécessaire d’être programmeur pour gérer un site Web !
 
 Grâce à des outils comme les CMS, il est possible de créer et mettre à jour des contenus sans écrire une seule ligne de code.
-Des plateformes comme WordPress ou Drupal ont rendu la gestion de site accessible à un plus grand nombre depuis le début des années 2000.
+Des plateformes comme [WordPress](https://wordpress.com/fr/) ou [Drupal](https://new.drupal.org/home) ont rendu la gestion de site accessible à un plus grand nombre depuis le début des années 2000.
 
 Pour aller encore plus loin en simplicité, certains outils intègrent directement la création visuelle, l’hébergement et la mise en ligne dans une seule interface.
-On les appelle des _Website Builders_ (Ex: Wix, Webflow ou Shopify), particulièrement adaptée aux débutants ou aux petites entreprises.
+On les appelle des _Website Builders_ (Ex: [Wix](https://fr.wix.com/), [Webflow](https://webflow.com/) ou [Shopify](https://www.shopify.com/ca-fr)), particulièrement adaptée aux débutants ou aux petites entreprises.
 
 ### Webflow
+
+Présentation de l'interface Webflow
 
 ![](./assets/wf-blank.png){data-zoom-image}
 
@@ -319,17 +321,3 @@ On les appelle des _Website Builders_ (Ex: Wix, Webflow ou Shopify), particuliè
   <small>Atelier B</small><br>
   **[Webflow](./exercices/exercice_2.md){.stretched-link .back}**
 </div>
-
-[STOP]
-
-Mastodon
-https://github.com/opensource-socialnetwork/opensource-socialnetwork
-
-
-### Autres métiers et spécialisations
-
-- **DevOps / Sysadmin** : Automatise les déploiements, surveille les serveurs et garantit la stabilité technique.
-- **Développeur Full-Stack** : Maîtrise à la fois le front-end, le back-end et parfois l’infrastructure.
-- **Rédacteur Web** : Rédige des contenus clairs et efficaces, optimisés pour le Web.
-- **Spécialiste SEO** : Optimise le site pour améliorer sa visibilité dans les moteurs de recherche.
-- **Chef de projet Web** : Coordonne les équipes, gère les délais et assure que le site répond aux besoins du client.

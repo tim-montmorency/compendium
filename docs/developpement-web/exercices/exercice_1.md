@@ -1,48 +1,54 @@
 # Ma première page Web
 
-C’est l’heure de programmer votre toute première page Web !
+C’est l’heure de programmer sa toute première page Web !
 
 ## Étape 1 – Créer le fichier
 
-- [ ] Créez un fichier nommé `index.html` sur votre ordinateur.
-- [ ] Ouvrez Visual Studio Code et ouvrez ce fichier.
-- [ ] Écrivez le code suivant :
-
-```html
-<p>J'aime la poutine</p>
-```
-
-- [ ] Sauvegardez.
-- [ ] Abaissez VSCode, puis double-cliquez sur `index.html`. Le navigateur devrait alors s'ouvrir affichant la mention "J'aime la poutine".
+- [ ] Créer un fichier nommé `index.html` sur l'ordinateur.
+- [ ] Ouvrir Visual Studio Code et ouvrir ce fichier.
+- [ ] Écrire le code suivant : `<p>J'aime la poutine</p>`.
+- [ ] Sauvegarder.
+- [ ] Abaisser VSCode, puis double-cliquer sur `index.html`. Le navigateur devrait alors s'ouvrir affichant la mention "J'aime la poutine".
 
 !!! info
 
-    Juste que là, rien de très impressionnant, mais vous venez tout de même de créer votre première par Web avec un paragraph !
+    Juste que là, rien de très impressionnant, mais vous venez tout de même de créer votre première page Web avec un paragraph ! 
 
 ## Étape 2 – Ajouter la structure HTML de base
 
-Ajoutez maintenant la structure HTML complète d’un site Web. Elle ressemble à ceci :
+- [ ] Ajouter maintenant la structure HTML de base d’un site Web.
 
-```html
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poutine</title>
-  </head>
-  <body>
-    <!-- Votre contenu ira ici -->
-  </body>
-</html>
-```
+!!! tip
 
-- [ ] Copiez cette structure dans votre fichier.
-- [ ] Déplacez votre phrase `<p>J'aime la poutine</p>` à l’intérieur de la balise `<body>`.
+    Dans VSCode, dans le fichier html, si on écrit le caractère « ! », ceci devrait apparaitre : 
+
+    ![](../assets/emmet.png)
+
+    Appuyer ensuite sur ++enter++ pour ajouter la structure automatiquement.
+    
+    Sinon, voici le résultat attendu :
+
+    ```html
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Poutine</title>
+    </head>
+    <body>
+        <!-- Le contenu de votre site ira ici -->
+    </body>
+    </html>
+    ```
+
+- [ ] Finalement, ajouter le paragraphe `<p>J'aime la poutine</p>` à l’intérieur de la balise `<body>`.
+- [ ] Sauvegarder.
+- [ ] Rafraichir la page du navigateur. Le résultat devrait être identique.
 
 ## Étape 3 – Ajouter les autres éléments
 
-Ajoutez maintenant les éléments suivants à l’intérieur de `<body>`, dans l’ordre :
+Ajouter les éléments suivants à l’intérieur de la balise `<body>`:
 
 - [ ] Une image (avec la balise `<img>`)
 
@@ -68,22 +74,26 @@ Ajoutez maintenant les éléments suivants à l’intérieur de `<body>`, dans l
 <a href="https://fr.wikipedia.org/wiki/Poutine_(plat)">Wikipedia</a>
 ```
 
-Après avoir sauvegardé et rafraîchi la page dans votre navigateur, vous devriez voir un résultat similaire à ceci :
+- [ ] Sauvegarder.
+- [ ] Rafraichir la page du navigateur.
 
-![](../assets/htmlex.png)
+Le résultat devrait ressembler à ceci :
+
+![](../assets/htmlex.png){.w-50 data-zoom-image}
 
 ## Étape 4 – Ajouter des styles
 
-Dans cette étape, vous **n’avez pas besoin d’écrire du CSS vous-même**.  
+Un fichier de styles a déjà été préparé pour l'atelier.
 
-Un fichier de styles a déjà été préparé pour le cours.
-
-- [ ] Ajoutez la ligne suivante **à l’intérieur de la balise `<head>`** de votre document HTML :
+- [ ] Ajouter la ligne suivante **à l’intérieur de la balise `<head>`** du document HTML :
 
 ```html
 <link rel="stylesheet" href="https://tim-montmorency.com/compendium/developpement-web/exercices/styles.css">
 ```
 
-Après avoir sauvegardé et rafraîchi la page dans votre navigateur, vous devriez voir un résultat similaire à ceci :
+- [ ] Sauvegarder.
+- [ ] Rafraichir la page du navigateur.
 
-![](../assets/htmlres.png)
+Le résultat devrait ressembler à [ceci](./index.html) :
+
+![](../assets/htmlres.png){.w-50 data-zoom-image}
