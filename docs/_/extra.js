@@ -343,9 +343,9 @@ const addCustomStyles = (...folders) => {
     link.rel = 'stylesheet';
     link.href = '/compendium/_/finishing.css';
     document.head.appendChild(link);*/
-    const mdtypeset = document.querySelector('.md-typeset');
-    if (mdtypeset) {
-      mdtypeset.classList.add('finishing');
+    const body = document.querySelector('body');
+    if (body) {
+      body.classList.add('finishing');
     }
   }
 };
