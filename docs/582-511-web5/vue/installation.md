@@ -30,7 +30,7 @@
     ↵
     ```
 
-Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
+Si on vous demande de mettre à jour Vue, appuyez sur ++y++ `y` pour **yes**.
 
 ***
 
@@ -42,7 +42,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
     ↵
     ````
 
-- [ ] Par la suite, on vous demandera un série de question, faites `n` pour **no**, pour chacun librairie proposée, pour le moment, on en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
+- [ ] Par la suite, on vous demandera une série de questions. Faites ++n++ `n` pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
 
 ***
 
@@ -55,7 +55,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 
 - [ ] Ouvrez le projet via l'explorateur de fichier de Visual Studio Code.
 
-- [ ] Ouvrez le fichier App.vue, s'il n'y a pas de cloloration syntaxique et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée **Vue - Official** : [<img src="assets/extension-vue-official.jpg" width="220"/>](https://marketplace.visualstudio.com/items/?itemName=Vue.volar)
+- [ ] Ouvrez le fichier App.vue. S'il n'y a pas de cloloration syntaxique et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée **Vue - Official** : [<img src="assets/extension-vue-official.jpg" width="220"/>](https://marketplace.visualstudio.com/items/?itemName=Vue.volar)
 
 
 
@@ -74,7 +74,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 
 !!! tip Pour quitter le mode run dev
 
-    À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez `q`pour **quitter**.
+    À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez ++q++ `q` pour **quitter**.
 
 
 ## Nettoyage
