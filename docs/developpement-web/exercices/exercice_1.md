@@ -11,6 +11,8 @@ Trouvez comment écrire les caractères suivants sur votre clavier :
 `/` : Touche / (directement à gauche de Shift droit)
 `{` : ++shift+[++
 `}` : ++shift+]++
+`=` :
+`"` :
 
 ## Étape 1
 
