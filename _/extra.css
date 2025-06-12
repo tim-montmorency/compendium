@@ -550,7 +550,6 @@ stop:before {
   text-transform: uppercase;
   font-size: 4rem;
 }
-
 .finishing .md-typeset h2{
   padding-top: 3.8rem;
   margin-top: 4rem;
@@ -561,11 +560,9 @@ stop:before {
   padding-top: 0;
   margin-top: 0;
 }
-
 .finishing .md-typeset h3{
   font-size: 1.9em;
 }
-
 .finishing .md-typeset h4{
   font-size: 1.5em;
 }
@@ -574,17 +571,14 @@ stop:before {
   .finishing .md-typeset>div>h1 {
     font-size: 2.5rem;
   }
-
   .finishing .md-typeset h2{
     padding-top: 1.8rem;
     margin-top: 2rem;
     font-size: 2em;
   }
-
   .finishing .md-typeset h3{
     font-size: 1.6em;
   }
-  
   .finishing .md-typeset h4{
     font-size: 1.2em;
   }
