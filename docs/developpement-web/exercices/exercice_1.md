@@ -4,7 +4,8 @@ C’est l’heure de programmer sa toute première page Web !
 
 ## Étape 1 – Créer le fichier
 
-- [ ] Créer un fichier nommé `index.html` sur l'ordinateur.
+- [ ] Sur le bureau ou dans un dossier, ajouter un nouveau document : clic droit → Nouveau → Document texte.
+- [ ] Renommer le fichier : `index.html`. (Assure-toi que l’extension est bien `.html`, pas `.txt`).
 - [ ] Ouvrir Visual Studio Code et ouvrir ce fichier.
 - [ ] Écrire le code suivant : `<p>J'aime la poutine</p>`.
 - [ ] Sauvegarder.
