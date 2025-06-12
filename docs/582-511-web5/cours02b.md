@@ -1,2 +1,2 @@
-# Cours 2.2 Jeudi (habituellement le lundi)
+# Cours 2.2
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
