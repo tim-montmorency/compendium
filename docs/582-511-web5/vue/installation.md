@@ -13,11 +13,13 @@
 
 ## Installation et création du projet
 
-- [ ] Ouvrez le terminal dans Visual Studio Code. À l'aide de la commande `pwd` vous pouvez voir ou dans quel dossier vous êtes situé dans votre terminal. 
+- [ ] Dans Visual Studio Code, ouvrez le dossier où vous souhaitez créer votre projet Vue.js.
+- [ ] Ouvrez le terminal de Visual Studio Code. 
+- [ ] À l'aide de la commande `pwd` vous pouvez voir le chemin d'accès du dossier où vous vous situez.
 .
-    Inscrivez `cd ..` ↵ pour reculer d'un dossier. 
+    Inscrivez `cd.. ↵`  pour reculer d'un dossier.
     .
-    `cd nomdudossier` ↵ pour avancer dans un dossier. Allez vous placer là ou vous souhaitez créer votre projet.
+    `cd nomdudossier ↵` pour avancer dans un dossier. Allez vous placer là ou vous souhaitez créer votre projet.
 
 ***
 
@@ -53,7 +55,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 
 - [ ] Ouvrez le projet via l'explorateur de fichier de Visual Studio Code.
 
-- [ ] Ouvrez le fichier App.vue, s'il n'y a pas de cloloration syntaxique et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée **Vue - Official** : [<img src="assets/extension-vue-official.jpg" width="220"/>](assets/extension-vue-official.jpg) 
+- [ ] Ouvrez le fichier App.vue, s'il n'y a pas de cloloration syntaxique et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée **Vue - Official** : [<img src="assets/extension-vue-official.jpg" width="220"/>](https://marketplace.visualstudio.com/items/?itemName=Vue.volar)
 
 
 
@@ -78,7 +80,6 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 ## Nettoyage
 
 Pour partir un projet à neuf, on va éliminer ce qu'on n'a pas besoin.
-
 
 - [ ] Supprimez les dossiers **assets**📁  et **components**📁 
 - [ ] Dans le fichier **main.js**, supprimez la ligne 
