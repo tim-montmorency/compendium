@@ -7,7 +7,9 @@
 
     Avant d'aller plus loin, assurez-vous d'abord d'avoir préalablement installé NodeJS et NPM. 
     
-    Voir les liens suivant pour vérifier si [Node.js est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-nodejs) et si [NPM est installé](http://127.0.0.1:5502/582-518MO/javascript/npm/#installation-de-npm).
+    Voir les liens suivant pour vérifier si [Node.js est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-nodejs) et si [NPM est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm).
+
+<br> <br>
 
 ## Installation et création du projet
 
