@@ -545,7 +545,7 @@ stop:before {
 /* ---------------------------------- */
 /* Finishing Touches (ajout Marie-Michelle, à bonifier plus tard) */
 /* ---------------------------------- */
-.finishing .md-typeset h1{
+.finishing .md-typeset>div>h1{
   color: #ef5552;
   text-transform: uppercase;
   font-size: 4rem;
