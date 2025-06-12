@@ -7530,43 +7530,49 @@
 
 
 <div><h1 id="ma-premiere-page-web">Ma première page Web<a class="headerlink" href="#ma-premiere-page-web" title="Permanent link">¶</a></h1>
-<p>C’est l’heure de programmer votre toute première page Web !</p>
+<p>C’est l’heure de programmer sa toute première page Web !</p>
 <h2 id="etape-1-creer-le-fichier">Étape 1 – Créer le fichier<a class="headerlink" href="#etape-1-creer-le-fichier" title="Permanent link">¶</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créez un fichier nommé <code>index.html</code> sur votre ordinateur.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrez Visual Studio Code et ouvrez ce fichier.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Écrivez le code suivant :</li>
-</ul>
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>J'aime la poutine<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-</code></pre></div>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegardez.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Abaissez VSCode, puis double-cliquez sur <code>index.html</code>. Le navigateur devrait alors s'ouvrir affichant la mention "J'aime la poutine".</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un fichier nommé <code>index.html</code> sur l'ordinateur.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ouvrir Visual Studio Code et ouvrir ce fichier.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Écrire le code suivant : <code>&lt;p&gt;J'aime la poutine&lt;/p&gt;</code>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegarder.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Abaisser VSCode, puis double-cliquer sur <code>index.html</code>. Le navigateur devrait alors s'ouvrir affichant la mention "J'aime la poutine".</li>
 </ul>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Juste que là, rien de très impressionnant, mais vous venez tout de même de créer votre première par Web avec un paragraph !</p>
+<p>Juste que là, rien de très impressionnant, mais vous venez tout de même de créer votre première page Web avec un paragraph ! </p>
 </div>
 <h2 id="etape-2-ajouter-la-structure-html-de-base">Étape 2 – Ajouter la structure HTML de base<a class="headerlink" href="#etape-2-ajouter-la-structure-html-de-base" title="Permanent link">¶</a></h2>
-<p>Ajoutez maintenant la structure HTML complète d’un site Web. Elle ressemble à ceci :</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter maintenant la structure HTML de base d’un site Web.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Dans VSCode, dans le fichier html, si on écrit le caractère « ! », ceci devrait apparaitre : </p>
+<p><img alt="" src="../assets/emmet.png"></p>
+<p>Appuyer ensuite sur <span class="keys"><kbd class="key-enter">Enter</kbd></span> pour ajouter la structure automatiquement.</p>
+<p>Sinon, voici le résultat attendu :</p>
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">"fr"</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">"UTF-8"</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">"viewport"</span> <span class="na">content</span><span class="o">=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Poutine<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-    <span class="cm">&lt;!-- Votre contenu ira ici --&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="cm">&lt;!-- Le contenu de votre site ira ici --&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></div>
+</div>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Copiez cette structure dans votre fichier.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Déplacez votre phrase <code>&lt;p&gt;J'aime la poutine&lt;/p&gt;</code> à l’intérieur de la balise <code>&lt;body&gt;</code>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Finalement, ajouter le paragraphe <code>&lt;p&gt;J'aime la poutine&lt;/p&gt;</code> à l’intérieur de la balise <code>&lt;body&gt;</code>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegarder.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Rafraichir la page du navigateur. Le résultat devrait être identique.</li>
 </ul>
 <h2 id="etape-3-ajouter-les-autres-elements">Étape 3 – Ajouter les autres éléments<a class="headerlink" href="#etape-3-ajouter-les-autres-elements" title="Permanent link">¶</a></h2>
-<p>Ajoutez maintenant les éléments suivants à l’intérieur de <code>&lt;body&gt;</code>, dans l’ordre :</p>
+<p>Ajouter les éléments suivants à l’intérieur de la balise <code>&lt;body&gt;</code>:</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Une image (avec la balise <code>&lt;img&gt;</code>)</li>
 </ul>
@@ -7587,18 +7593,25 @@
 </ul>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://fr.wikipedia.org/wiki/Poutine_(plat)"</span><span class="p">&gt;</span>Wikipedia<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
 </code></pre></div>
-<p>Après avoir sauvegardé et rafraîchi la page dans votre navigateur, vous devriez voir un résultat similaire à ceci :</p>
-<p><img alt="" src="../assets/htmlex.png"></p>
-<h2 id="etape-4-ajouter-des-styles">Étape 4 – Ajouter des styles<a class="headerlink" href="#etape-4-ajouter-des-styles" title="Permanent link">¶</a></h2>
-<p>Dans cette étape, vous <strong>n’avez pas besoin d’écrire du CSS vous-même</strong>.  </p>
-<p>Un fichier de styles a déjà été préparé pour le cours.</p>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajoutez la ligne suivante <strong>à l’intérieur de la balise <code>&lt;head&gt;</code></strong> de votre document HTML :</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegarder.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Rafraichir la page du navigateur.</li>
+</ul>
+<p>Le résultat devrait ressembler à ceci :</p>
+<p><img alt="" class="w-50" data-zoom-image="data-zoom-image" src="../assets/htmlex.png"></p>
+<h2 id="etape-4-ajouter-des-styles">Étape 4 – Ajouter des styles<a class="headerlink" href="#etape-4-ajouter-des-styles" title="Permanent link">¶</a></h2>
+<p>Un fichier de styles a déjà été préparé pour l'atelier.</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter la ligne suivante <strong>à l’intérieur de la balise <code>&lt;head&gt;</code></strong> du document HTML :</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://tim-montmorency.com/compendium/developpement-web/exercices/styles.css"</span><span class="p">&gt;</span>
 </code></pre></div>
-<p>Après avoir sauvegardé et rafraîchi la page dans votre navigateur, vous devriez voir un résultat similaire à ceci :</p>
-<p><img alt="" src="../assets/htmlres.png"></p></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sauvegarder.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Rafraichir la page du navigateur.</li>
+</ul>
+<p>Le résultat devrait ressembler à <a href="index.html">ceci</a> :</p>
+<p><img alt="" class="w-50" data-zoom-image="data-zoom-image" src="../assets/htmlres.png"></p></div>
 
 
 
