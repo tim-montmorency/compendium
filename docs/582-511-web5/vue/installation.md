@@ -23,8 +23,8 @@
 
     ```
     npm create vue@latest
-    ```
     ↵
+    ```
 
 Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 
@@ -35,8 +35,8 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
     ````
     Vue.js - The Progressive JavaScript Framework
     ? Nom du projet : 
-    ````
     ↵
+    ````
 
 - [ ] Par la suite, on vous demandera un série de question, faites `n` pour **no**, pour chacun librairie proposée, pour le moment, on en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
 
@@ -61,8 +61,9 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
 - [ ] Démarrez le serveur virtuel de votre projet avec le bundler Vite, en inscrivant dans le Terminal:
     ````
     npm run dev
-    ````
     ↵
+    ````
+
     Maintenant, vous pouvez voir en direct votre page de projet dans le navigateur via le url suivant:
     ```
     http://localhost:5173/
@@ -73,7 +74,6 @@ Si on vous demande de mettre à jour Vue, appuyez sur `y`pour **yes**.
     À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez `q`pour **quitter**.
 
 
-***
 ## Nettoyage
 
 Pour partir un projet à neuf, on va éliminer ce qu'on n'a pas besoin.
