@@ -330,6 +330,23 @@ const handleCheckboxesWithFireworks = (fireworks, fireworksContainer) => {
 
 const { fireworks, fireworksContainer } = initializeFireworks();
 
+
+
+
+// Fonction qui permet d'ajouter des styles personnalisés (via la classe .finishing sur le body) pour peaufiner et ajouter une touche de finition sur le mkdocs material de base. Cette classe sera ajoutée uniquement sur le body si l'URL actuelle contient un des dossiers spécifiés dans les arguments de la fonction.
+const addCustomStyles = (...folders) => {
+  const path = window.location.pathname;
+  const found = folders.some(str => path.includes(str));
+
+  if (found) {
+    const body = document.querySelector('body');
+    if (body) {
+      body.classList.add('finishing');
+    }
+  }
+};
+
+
 // Exécution de logique au chargement de la page
 document.addEventListener("DOMContentLoaded", () => {
   runOnce();
@@ -352,6 +369,7 @@ document.addEventListener("DOMContentLoaded", () => {
   observer.observe(targetNode, config);
 });
 
+
 function runFunctions() {
   //initializeSortableTables();
   toggleLogoButtonVisibility();
@@ -360,6 +378,7 @@ function runFunctions() {
   handleDestinations();
   addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
+  addCustomStyles("582-511-web5");
   // selectIframe();
 }
 
