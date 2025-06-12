@@ -50,7 +50,7 @@ C’est l’heure de programmer sa toute première page Web !
 
 Ajouter les éléments suivants à l’intérieur de la balise `<body>`:
 
-- [ ] Une image (avec la balise `<img>`)
+- [ ] Une image (avec la balise `<img>`) de [poutine](https://tim-montmorency.com/compendium/developpement-web/assets/poutine2.webp)
 
 ```html
 <img src="https://tim-montmorency.com/compendium/developpement-web/assets/poutine2.webp" alt="Une belle poutine">

@@ -70,7 +70,7 @@ Voici quelques exemples classiques :
 
 Mais ce n’est pas tout. Le développement Web permet aussi de concevoir des interfaces à usage multiple.
 
-* Tableaux de bord interactifs : [Interface de gestion domotique résidentiel](https://www.home-assistant.io/)
+* Tableaux de bord interactifs : [Interface de gestion domotique résidentielle](https://www.home-assistant.io/)
 * Systèmes d’automatisation : Par exemple, une alerte SMS envoyée automatiquement lorsqu’un formulaire est rempli.
 * Jeux : [Jeu vidéo publié sur itch.io](https://mraosix.itch.io/combattrials)
 * Application interactive : [Plateforme de réservation de la Place des Arts](https://www.placedesarts.com/programmation)
@@ -141,7 +141,7 @@ Il indique, grâce à des **balises**, la nature du contenu (titre, paragraphe, 
 
 Les balises HTML utilisent les caractères  `<`, `>`, `/`, `=` et `"`.
 
-Des balises il en existe tout plein. Voici une courte liste de balises :
+Des balises, il en existe tout plein. Voici une courte liste de balises :
 
 | Balise         | Description                                      | Exemple minimal                           |
 |----------------|--------------------------------------------------|-------------------------------------------|
@@ -271,7 +271,7 @@ Concernant les petits projets de programmation, ce sera souvent réglé par IA. 
 
 Pour les projets plus complexes, la programmation reste essentielle.
 
-Une IA peut générer du code, mais elle ne comprend pas toujours les besoins d’un projet, son contexte, ni les contraintes à long terme. Dans ces cas, c'est plus un bon assisant qu'autre chose.
+Une IA peut générer du code, mais elle ne comprend pas toujours les besoins d’un projet, son contexte, ni les contraintes à long terme. Dans ces cas, c'est plus un bon assistant qu'autre chose.
 
 **L’architecture de système, c’est un art**
 
@@ -285,7 +285,7 @@ L’architecture du code devient une composante critique du produit : **performa
 
 ![](./assets/vibesgif.gif){.w-50}
 
-Le *vibe coding* est une approche intuitive et spontanée de la programmation, où l’on génere du code assisté par un agent.
+Le *vibe coding* est une approche intuitive et spontanée de la programmation, où l’on génère du code assisté par un agent.
 
 Cette méthode, popularisée comme un assistant de programmation, cette méthode est particulièrement efficace pour les petits projets ou les prototypes rapides.
 
