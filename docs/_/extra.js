@@ -339,10 +339,14 @@ const addCustomStyles = (...folders) => {
   const found = folders.some(str => path.includes(str));
 
   if (found) {
-    const link = document.createElement('link');
+   /* const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = '/compendium/_/finishing.css';
-    document.head.appendChild(link);
+    document.head.appendChild(link);*/
+    const mdtypeset = document.querySelector('.md-typeset');
+    if (mdtypeset) {
+      mdtypeset.classList.add('finishing');
+    }
   }
 };
 

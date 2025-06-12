@@ -1,4 +1,5 @@
-# Cours 1.2 Mercredi
+
+# Cours 1.2
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 
 
