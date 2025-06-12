@@ -1,9 +1,28 @@
 # Atelier Développement Web
 
-*[HTML]: HyperText Markup Language  
+*[HTML]: HyperText Markup Language
 *[CSS]: Cascading Style Sheets
+*[UX]: Expérience utilisateur (User eXperience)
+*[UI]: Interface utilisateur (User Interface)
+*[CMS]: Content Management System
+*[ANI]: Artificial Narrow Intelligence
+*[AGI]: Artificial General Intelligence
+*[ASI]: Artificial Super Intelligence
+*[IA]: Intelligence Artificielle
+*[LLM]: Large Language Model (ex: ChatGPT)
+*[LLMs]: Large Language Models (ex: ChatGPT)
+*[URL]: Uniform Resource Locator
 
 ![](./assets/devweb.jpg)
+
+## Sondage
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/wooclap.png)
+
+  <small>Sondage Wooclap</small><br>
+  **[app.wooclap.com/ADEVWEB](https://app.wooclap.com/ADEVWEB)**
+</div>
 
 ## Le développement Web, c’est quoi ?
 
@@ -11,86 +30,193 @@ Le développement Web, c’est tout ce qu’on peut créer pour le Web : des sit
 
 Voici quelques exemples classiques :
 
-### **Site vitrine**
-> Un photographe qui présente ses photos, un restaurant qui affiche son menu et ses horaires, ou une entreprise qui veut simplement être trouvée en ligne.
+<div class="grid grid-1-4" markdown>
+![](./assets/site-kiwad.jpg)
 
-### **Blogue ou forum**
-> Un passionné de cinéma qui partage ses critiques, un voyageur qui raconte ses aventures, un enseignant qui publie des ressources pédagogiques 😉.
+<div markdown>
+**Site vitrine**
+> Exemple : [Kiwad.com](https://www.kiwad.com)
+</div>
+</div>
 
-### **Site e-commerce**
-> Une boutique de vêtements en ligne, un artisan qui vend ses créations, ou un organisme qui propose des abonnements ou des dons.
+<div class="grid grid-1-4" markdown>
+![](./assets/site-rotten.jpg)
 
-Mais ce n’est pas tout. Le développement Web permet aussi de concevoir :
+<div markdown>
+**Blogue ou forum**
+> Exemple : [Rotten Tomatoes](https://www.rottentomatoes.com)
+</div>
+</div>
 
-- **Réseaux sociaux**
-> Mettre en relation des personnes autour de centres d’intérêt ou de communautés.
+<div class="grid grid-1-4" markdown>
+![](./assets/site-simons.jpg)
 
-- **Jeux en ligne**
-> Des jeux simples accessibles dans un navigateur ou même des plateformes multijoueurs.
+<div markdown>
+**Site e-commerce**
+> Exemple : [Simons](https://www.simons.ca)
+</div>
+</div>
 
-- **Automatisation de tâches**
-> Par exemple : un formulaire qui envoie un reçu automatiquement, ou un tableau qui calcule des statistiques à partir de données saisies.
+<div class="grid grid-1-4" markdown>
+![](./assets/site-bluesky.jpg)
 
-- **Applications Web**
-> Un gestionnaire de tâches, un agenda partagé, un système de réservation de salles, un carnet de notes, ou une interface de prise de rendez-vous.
+<div markdown>
+**Réseaux sociaux**
+> Exemple : [Bluesky](https://bsky.app/profile/acfas.ca)
+</div>
+</div>
+
+Mais ce n’est pas tout. Le développement Web permet aussi de concevoir des interfaces à usage multiple.
+
+* Tableaux de bord interactifs : [Interface de gestion domotique résidentiel](https://www.home-assistant.io/)
+* Systèmes d’automatisation : une alerte SMS lorsqu’un formulaire est rempli.
+* Jeux : [Jeu vidéo publié sur itch.io](https://mraosix.itch.io/combattrials)
+* Application interactive : [Plateforme de réservation de la Place des Arts](https://www.placedesarts.com/programmation)
+* Outils pédagogiques interactifs : Quiz en ligne (comme le Wooclap de tantôt)
+* Explorateurs de données : [Visualisations de données interactives sur l'économie | World Economic Forum](https://intelligence.weforum.org/topics/a1Gb0000000pTDREA2/key-issues/a1Gb00000017LD8EAM)
+* Générateurs de contenu ou d’outils : un générateur de cocardes pour un congrès.
+* Plateformes participatives : vote en ligne pour une élection d'OBNL.
+* Expériences immersives et artistiques.
 
 !!! info "À propos des applications Web"
 
-	De plus en plus d’organisations créent des applications Web pour remplacer des logiciels installés (comme sous Windows). Ces outils sont accessibles de partout, sur tous les types d’appareils, tant qu’on a une connexion Internet.
+	De plus en plus d’organisations créent des applications Web pour remplacer des logiciels installés (comme sous Windows par exemple). On pourrait penser à Google Docs qui pourrait remplacer Word dans une certaine mesure.
 
----
+	Ces outils, accessibles depuis un navigateur, fonctionnent sur tous les types d’appareils et ne nécessitent aucune installation. La connexion à Internet n'est même pas obligatoire dans certains cas.
 
 ## Les métiers
 
-![](./assets/trio.jpg)
+![](./assets/equipe.jpg)
 
 Créer un site Web demande souvent plusieurs expertises. Voici les trois rôles principaux :
 
-- **Développeur Front-End**  
-  Conçoit l’interface visible par l’utilisateur. Il transforme les maquettes graphiques en pages interactives, compatibles sur différents navigateurs et appareils.
+<div class="grid grid-auto" markdown>
+<div style="font-size:3rem">👨‍💻</div>
 
-- **Développeur Back-End**  
-  Développe la logique côté serveur : il gère les bases de données, la sécurité, l’authentification et la communication avec le front-end.
+**Développement Front-End**  
+Conception de l’interface visible par l’utilisateur. Transformation des maquettes graphiques en pages interactives, compatibles sur différents navigateurs et appareils.
+</div>
 
-- **Designer UX/UI**  
-  Crée l’expérience utilisateur (UX) et les interfaces graphiques (UI). Il pense à la navigation, la lisibilité, les couleurs, l’esthétique et l’adaptation aux différents écrans.
+<div class="grid grid-auto" markdown>
+<div style="font-size:3rem">👩‍💻</div>
 
----
+**Développement Back-End**  
+Logique côté serveur : gestion des bases de données, de la sécurité, de l’authentification.
+</div>
 
-### Autres métiers et spécialisations
+<div class="grid grid-auto" markdown>
+<div style="font-size:3rem">👨‍🎨</div>
 
-#### 🔧 Rôles techniques :
-- **Intégrateur Web** : Transforme les maquettes en HTML/CSS fidèles, parfois sans programmation avancée.
-- **DevOps / Sysadmin** : Automatise les déploiements, surveille les serveurs et garantit la stabilité technique.
-- **Développeur Full-Stack** : Maîtrise à la fois le front-end, le back-end et parfois l’infrastructure.
+**Design UX/UI**  
+Création l’expérience utilisateur (UX) et les interfaces graphiques (UI). Conception de la navigation, la lisibilité, les couleurs, l’esthétique et l’adaptation aux différents écrans.
+</div>
 
-#### ✍ Rôles de contenu et gestion :
-- **Rédacteur Web** : Rédige des contenus clairs et efficaces, optimisés pour le Web.
-- **Spécialiste SEO** : Optimise le site pour améliorer sa visibilité dans les moteurs de recherche.
-- **Chef de projet Web** : Coordonne les équipes, gère les délais et assure que le site répond aux besoins du client.
+![](./assets/trio.jpg){data-zoom-image}
 
 !!! question "Et pour les débutants ?"
 
-	Quand on débute, on touche souvent à un peu de tout. Avec le temps, on découvre ce qu’on préfère : le design, le code, l’organisation… On peut aussi commencer par des outils simples (ex. : no-code) avant de se spécialiser.
+	Quand on débute, on touche souvent à un peu de tout. 
+	
+	Avec le temps, on découvre ce qu’on préfère : le design, le code, l’organisation… 
+	
+	On peut aussi commencer par des outils simples (ex. : [no-code](https://fr.wikipedia.org/wiki/D%C3%A9veloppement_No_code)) avant de se spécialiser.
 
----
+## Les langages de programmation
 
-## Les langages
+![](./assets/code.jpg)
 
-Le Web repose sur quelques langages de base qu’on apprend très tôt :
+Un langage de programmation est un ensemble d’instructions rédigées sous forme de texte afin d’être interprétées ou exécutées par un appareil électronique (ordinateur, tablette, téléphone, etc.).
 
-### **Front-End**
-- **HTML** : Structure la page (titres, paragraphes, images, etc.).
-- **CSS** : Habille la page (couleurs, taille, positionnement, animation).
-- **JavaScript** : Rend les pages interactives (clics, formulaires, menus, etc.).
+Chaque langage possède une **syntaxe** (semblable à la grammaire d’une langue normale) ainsi que des règles strictes (analogues aux règles d’orthographe et de ponctuation) qu’il est nécessaire de respecter pour que le programme fonctionne correctement.
 
-💡 *Bonus :* On utilise parfois **TypeScript**, une version de JavaScript plus rigoureuse, utile pour les projets complexes.
+Il existe plusieurs centaines de langages de programmation. Pour le Web, trois langages sont particulièrement importants dans la partie front-end : le **HTML**, le **CSS** et le **JavaScript**.
 
-### **Back-End**
-- **JavaScript** (avec Node.js) : Permet d’utiliser le même langage côté serveur.
-- **Python** : Simple à lire, utile pour les APIs et la logique métier.
-- **PHP** : Utilisé dans de nombreux sites Web (ex. WordPress).
-- **Java** : Très utilisé dans les systèmes robustes et d’entreprise.
+### HTML
+
+Le HTML est un langage utilisé pour structurer le contenu d’une page Web.
+
+Il indique, grâce à des **balises**, la nature du contenu (titre, paragraphe, lien, etc.).
+
+Les balises HTML utilisent les caractères  `<`, `>`, `/`, `=` et `"`.
+
+Des balises il en existe tout plein. Voici une courte liste de balises :
+
+| Balise         | Description                                      | Exemple minimal                           |
+|----------------|--------------------------------------------------|-------------------------------------------|
+| `<h1>`         | Titre (h1 à h6)                                  | `<h1>Titre</h1>`                          |
+| `<p>`          | Paragraphe                                       | `<p>Du texte ici.</p>`                    |
+| `<br>`         | Saut de ligne                                    | `Ligne 1<br>Ligne 2`                      |
+| `<strong>`     | Texte en gras                                    | `<strong>Important</strong>`              |
+| `<em>`         | Texte en italique                                | `<em>À retenir</em>`                      |
+| `<a>`          | Lien hypertexte                                  | `<a href="https://example.com">Lien</a>`  |
+| `<img>`        | Image                                            | `<img src="img.jpg" alt="Description">`   |
+| `<ul>`         | Liste à puces                                    | `<ul><li>Item</li></ul>`                  |
+| `<li>`         | Élément de liste                                 | `<li>Item</li>`                           |
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/tim-momo/embed/pvJpbqg?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+</iframe>
+
+#### Structure initiale d'un site Web
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Immersion TI</title>
+	</head>
+	<body>
+
+		Contenu de ma page Web ici!
+
+	</body>
+</html>
+```
+
+### CSS
+
+Le langage CSS permet de modifier l’apparence du site. On peut changer la police, les couleurs, les marges, etc.
+
+Le langage utilise une syntaxe avec des accolades `{` `}`, des deux-points `:` et des points-virgules `;`.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="HTML" src="https://codepen.io/tim-momo/embed/YPXapWo?default-tab=css%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+</iframe>
+
+### L'inspecteur
+
+![](./assets/inspecteur.png){data-zoom-image}
+
+L’inspecteur est un outil de développement Web intégré dans le navigateur.
+
+Il permet d’examiner, tester et modifier en temps réel le code HTML, CSS ou JavaScript d’un site Web.
+
+On peut y accéder de plusieurs façons. Dans Google Chrome, par exemple :
+
+* Clic droit sur un élément et choisir l'option « Inspecter »
+* Raccourci clavier : ++ctrl+shift+i++
+* Touche : ++f12++
+
+!!! example "Exercice express"
+
+	1. Allez sur un site Web de votre choix. N'importe lequel !
+	2. Ouvrez le panneau d’inspection du navigateur.  
+	3. Cliquez sur l’outil de sélection (en haut à gauche du panneau). 
+	4. Choisissez un élément sur la page.  
+	5. Dans la colonne de droite, cliquez dans la section `element.style {}`  
+	6. Ajoutez un style de votre choix. Exemple : `background: aqua;`
+
+	Comme vous l'avez constaté, il est possible de modifier temporairement n’importe quel site sur son navigateur. Cette technique est très utile en développement Web pour tester rapidement des styles ou diagnostiquer un problème.
+
+## Outils de développement
+
+Il est possible de programmer avec notepad si on le désire 🤷, mais personne ne le fait.
+
+Il est préférable d'utiliser le bon outil pour la tâche, un peu comme on utiliserait Word pour écrire un devoir de français.
+
+### Visual Studio Code
+
+![](./assets/vscode.png)
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/exercice_1.jpg)
@@ -99,31 +225,93 @@ Le Web repose sur quelques langages de base qu’on apprend très tôt :
   **[Ma première page Web](./exercices/exercice_1.md){.stretched-link}**
 </div>
 
-## Outils de développement
-
-	•	Visual Studio Code : Présentation de l’éditeur de code, installation, extensions utiles.
-	•	Navigateurs web : Utilisation des outils de développement intégrés (inspecteur, console).
-	•	Webflow : Introduction au constructeur visuel de sites web. ￼ ￼
-
 ## Mise en ligne d’un site web
 
-	•	Nom de domaine : Définition, exemples de fournisseurs (OVH, GoDaddy).
-	•	Hébergement : Explication du concept, options disponibles.
-	•	Présentation rapide de plateformes gratuites pour héberger un site statique (GitHub Pages, Netlify). ￼
+Mettre un site en ligne, ce n’est pas aussi compliqué qu’on pourrait le croire.
+
+En gros, il faut deux choses : un endroit pour héberger les fichiers (le serveur) et une adresse Web (le nom de domaine) pour que les gens puissent y accéder.
+
+### Hébergement Web
+
+C’est sur un serveur Web que l’on place les fichiers de son site pour qu’il soit accessible sur Internet.
+
+On peut comparer cela à un terrain sur lequel on construit sa maison : c’est là que « vit » le site.
+
+Hébergeurs Web canadiens : [Web Hosting Canada 🇨🇦](https://whc.ca/fr), [HostPapa 🇨🇦](https://www.hostpapa.ca/fr), [PlanetHoster 🇨🇦🇫🇷](https://www.planethoster.com/fr)
+
+### Nom de domaine
+
+Pour qu’un site soit trouvable par les internautes via un URL, il faut lui associer une adresse Web unique, aussi appelée nom de domaine.
+
+C’est l’équivalent d’une adresse postale : elle permet aux gens de « trouver » votre site sur Internet.
+
+Fournisseurs canadiens de noms de domaine : [Webnames 🇨🇦](https://www.webnames.ca/), [CanSpace 🇨🇦](https://www.canspace.ca/).
 
 ## Intelligence artificielle
 
+![](./assets/ia.jpg)
 
+Avec l’essor de l’intelligence artificielle, plusieurs se demandent si la programmation en général est toujours pertinente.
 
-## Présentation de Webflow (15 min)
+Concernant les petis projets de programmation, ce sera souvent réglé par IA. C'est même déjà le cas dans plusieurs cas de figure (ex: [Bold.new](https://bolt.new/)).
 
-	•	Démonstration en direct de la création d’une page web avec Webflow.
-	•	Comparaison entre le codage manuel et l’utilisation d’un constructeur visuel.
-	•	Discussion sur les avantages et inconvénients de chaque approche.
+Pour les projets plus complexes, la programmation reste essentielle.
+
+Une IA peut générer du code, mais elle ne comprend pas toujours les besoins d’un projet, son contexte, ni les contraintes à long terme. Dans ces cas, c'est plus un bon assisant qu'autre chose.
+
+**L’architecture de système, c’est un art**
+
+![](./assets/archi.jpg){.w-50 data-zoom-image}
+
+Dans les projets d’envergure, il ne suffit pas que le site “fonctionne”.
+
+L’architecture du code devient une composante critique du produit : **performance**, **sécurité**, **évolutivité**, **lisibilité**.
+
+### Vibe Coding
+
+![](./assets/vibesgif.gif){.w-50}
+
+Le *vibe coding* est une approche intuitive et spontanée de la programmation, où l’on génere du code assisté par un agent.
+
+Popularisée comme un assistant de programmation, cette méthode est particulièrement efficace pour les petits projets ou les prototypes rapides.
+
+Mais pour des projets plus complexes, l’absence de structure ou de plan clair peut devenir problématique. Les LLMs, par exemple, ont parfois du mal à maintenir le contexte sur de longues sessions, ce qui peut entraîner des incohérences ou des limitations techniques.
+
+### État de l'IA en 2025
+
+| Niveau  | Description |
+|---------|-------------|
+| **ANI** | IA spécialisée dans une tâche unique (reconnaissance d’image, assistants vocaux, recommandations…). C'est la forme d’IA **réellement existante aujourd’hui**. |
+| **AGI** | IA à **niveau cognitif humain**, capable de généraliser, raisonner et s’adapter à de nombreux domaines. Encore **théorique**, mais objet de recherche importante.<br><br> Compréhension du monde physique<br>Mémoire persistante<br>Raisonnement<br>Planification |
+| **ASI** | IA surpassant l’humain **dans tous les domaines** (créativité, jugement, compétences sociales…). Purement **hypothétique**, souvent associée à des risques existentiels . |
+
+## Systèmes de gestion de site Web
+
+Il n’est pas nécessaire d’être programmeur pour gérer un site Web !
+
+Grâce à des outils comme les CMS, il est possible de créer et mettre à jour des contenus sans écrire une seule ligne de code.
+Des plateformes comme WordPress ou Drupal ont rendu la gestion de site accessible à un plus grand nombre depuis le début des années 2000.
+
+Pour aller encore plus loin en simplicité, certains outils intègrent directement la création visuelle, l’hébergement et la mise en ligne dans une seule interface.
+On les appelle des _Website Builders_ (Ex: Wix, Webflow ou Shopify), particulièrement adaptée aux débutants ou aux petites entreprises.
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/exercice_1.jpg)
+  ![](./assets/webflow.webp)
 
   <small>Atelier B</small><br>
-  **[Webflow](./exercices/exercice_1.md){.stretched-link}**
+  **[Webflow](./exercices/exercice_2.md){.stretched-link}**
 </div>
+
+[STOP]
+
+Mastodon
+https://github.com/opensource-socialnetwork/opensource-socialnetwork
+
+
+### Autres métiers et spécialisations
+
+- **DevOps / Sysadmin** : Automatise les déploiements, surveille les serveurs et garantit la stabilité technique.
+- **Développeur Full-Stack** : Maîtrise à la fois le front-end, le back-end et parfois l’infrastructure.
+- **Rédacteur Web** : Rédige des contenus clairs et efficaces, optimisés pour le Web.
+- **Spécialiste SEO** : Optimise le site pour améliorer sa visibilité dans les moteurs de recherche.
+- **Chef de projet Web** : Coordonne les équipes, gère les délais et assure que le site répond aux besoins du client.
