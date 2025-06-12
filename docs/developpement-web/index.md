@@ -17,6 +17,8 @@
 
 ![](./assets/devweb.jpg)
 
+Accès rapide à la formation : [tinyurl.com/adevwev](https://tinyurl.com/adevwev)
+
 ## Sondage
 
 <div class="grid grid-1-2" markdown>
