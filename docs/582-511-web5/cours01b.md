@@ -1,10 +1,14 @@
 
 # Cours 1.2
-<!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
+<!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
+-->
 
 ## Ceci est le contenu du jour
 
-Lorem ipsum
+[Vue base](./vue/index.html)
+[Vue installation](./vue/installation.html)
+[Vue installation](./vue/template-script-style.html)
 
 ## Courbes abc
 

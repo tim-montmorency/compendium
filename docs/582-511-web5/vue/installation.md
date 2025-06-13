@@ -1,7 +1,8 @@
+<!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
+-->
+
 # Création d’un projet Vue [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
-
-
-
 
 !!! warning NPM et Node JS
 
