@@ -6,13 +6,11 @@
 
 !!! warning NPM et Node JS
 
-    Avant d'aller plus loin, assurez-vous d'abord d'avoir préalablement installé NodeJS et NPM. 
-    
-    Voir les liens suivant pour vérifier si [Node.js est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-nodejs) et si [NPM est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm).
+    Avant d'aller plus loin, assurez-vous d'abord d'[avoir préalablement installé Vue.js](./index.html)
 
 <br> <br>
 
-## Installation et création du projet
+## Création du projet
 
 - [ ] Dans Visual Studio Code, ouvrez le dossier où vous souhaitez créer votre projet Vue.js.
 - [ ] Ouvrez le terminal de Visual Studio Code. 

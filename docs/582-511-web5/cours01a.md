@@ -6,8 +6,8 @@
 ## Aujourd'hui
 
 [Vue base](./vue/index.html)
-[Vue installation](./vue/installation.html)
-[Vue installation](./vue/template-script-style.html)
+[Vue création projet](./vue/creation-projet.html)
+[Vue template script style](./vue/template-script-style.html)
 
 ## Titre de niveau2
 

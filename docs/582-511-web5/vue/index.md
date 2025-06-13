@@ -18,15 +18,18 @@ Attention, dans le cadre de ce cours vous allez apprendre la **version 3** de Vu
     Dans la documentation Vue, assurez-vous de toujours activer **Options API** en haut à gauche. <img src="./assets/vuejs-options-api.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" styles="width: 150px;">
 
 
-
 ## Installation
 
-Pour installer Vue.js, vous pouvez utiliser **npm** (Node Package Manager). Voici les étapes :
+!!! warning NPM et Node JS
 
-1. Assurez-vous d'avoir **Node.js** installé sur votre machine.
-2. Ouvrez votre terminal et exécutez la commande suivante : `npm install vue`
-3. Pour plus de détails, [consultez les notes de cours sur l'installation de vue](./installation.html).
+    Avant d'aller plus loin, assurez-vous d'abord d'avoir préalablement installé NodeJS et NPM. 
     
+    Voir les liens suivant pour vérifier si [Node.js est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-nodejs) et si [NPM est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm).
+
+
+1. Ouvrez votre terminal (vous pouvez utiliser celui de visual Strudio Code)
+2. Exécutez la commande suivante : `npm install vue`
+
 
 ## Concepts de base
 
