@@ -8,7 +8,7 @@
 
 ## Version 3
 
-Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.js. Assurez vous toujours de rvérifeir la version lorsque vous cherchez de la documentation ou des réponses à vos questions.
+Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.js. Assurez vous toujours de vérifier la version lorsque vous cherchez de la documentation ou des réponses à vos questions.
 
 !!! note "Nous utiliserons Options API"
 
