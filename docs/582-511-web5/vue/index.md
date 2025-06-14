@@ -18,7 +18,7 @@ Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.
 
     Dans le cadre de ce cours, nous utiliserons le style *Options API*. [Plus d'info ici.](https://fr.vuejs.org/guide/introduction.html#api-styles)
 
-    Dans la documentation Vue, assurez-vous de toujours activer *Options API* en haut à gauche.
+    Dans la documentation Vue, en haut à gauche sous *Préférence d'API*, assurez-vous de toujours activer *Options*.
 
     <img src="./assets/vuejs-options-api.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 250px;">
 
