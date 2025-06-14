@@ -592,3 +592,7 @@ stop:before {
   color: #FABC2A;  
   /*baby blue *#5DB7DE ou turquoise #06A77D*/
 }
+
+.finishing .md-typeset a{
+  text-decoration: underline;
+}
