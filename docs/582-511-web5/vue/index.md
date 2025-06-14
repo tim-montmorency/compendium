@@ -6,7 +6,7 @@
 
 **Vue** (prononciation: View) est un framework JavaScript progressif utilisé pour construire des interfaces utilisateur. Il est conçu pour être adaptable et peut être intégré dans des projets existants ou utilisé pour créer des applications web complètes.
 
-## Version 3
+## Vue: version 3
 
 Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.js. Assurez vous toujours de vérifier la version lorsque vous cherchez de la documentation ou des réponses à vos questions.
 
