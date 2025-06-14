@@ -2,7 +2,7 @@
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
 
-# Introduction à Vue.js
+# Introduction à Vue.js [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 **Vue** (prononciation: View) est un framework JavaScript progressif utilisé pour construire des interfaces utilisateur. Il est conçu pour être adaptable et peut être intégré dans des projets existants ou utilisé pour créer des applications web complètes.
 
