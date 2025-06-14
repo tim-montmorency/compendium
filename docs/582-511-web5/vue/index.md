@@ -40,10 +40,10 @@ Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.
 
 Une fois installé, vous pouvez commencer à explorer les concepts de base de Vue.js :
 
-* **Instance Vue** : La base de toute application Vue.js est une instance Vue.
-* **La syntaxe de templates** : Utilisez des templates pour lier des données à l'interface utilisateur.
-* **Directives** : Les directives sont des attributs spéciaux dans Vue.js qui permettent de manipuler le DOM (bref le HTML et son contenu).
-* **Composantes/Components** : Les composants sont des blocs réutilisables de code qui peuvent être utilisés pour construire des interfaces complexes.
+* *Instance Vue* : La base de toute application Vue.js est une instance Vue.
+* *La syntaxe de templates* : Utilisez des templates pour lier des données à l'interface utilisateur.
+* *Directives* : Les directives sont des attributs spéciaux dans Vue.js qui permettent de manipuler le DOM (bref le HTML et son contenu).
+* *Composantes/Components* : Les composants sont des blocs réutilisables de code qui peuvent être utilisés pour construire des interfaces complexes.
 
 ## Ressources supplémentaires
 
