@@ -584,7 +584,10 @@ stop:before {
   }
 }
 
-.md-typeset .admonition-title{
+.finishing .md-typeset .admonition-title{
   font-size: 1.6em;
 }
 
+.finishing .md-typeset em{
+  color: #5DB7DE;
+}
