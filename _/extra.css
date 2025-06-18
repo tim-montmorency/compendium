@@ -584,6 +584,12 @@ vert d'eau #70c1b3
   color: white;
 }
 
+body[data-md-color-scheme="slate"].finishing .md-typeset kbd{
+  box-shadow: 0 .1rem 0 .05rem #ec5956, 0 .1rem 0 #fff, 0 -.1rem .2rem hsla(225deg,15%,90%,0.2) inset;
+
+
+}
+
 @media screen and (max-width: 768px) {
   .finishing .md-typeset>div>h1 {
     font-size: 2.5rem;
