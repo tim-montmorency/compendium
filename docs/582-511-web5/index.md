@@ -21,17 +21,17 @@ L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’u
 
 ## Contenu du cours par thème
 
-# HTML et CSS
+### HTML et CSS
 * [CSS Grid](#)
 * [Bootstrap (révision)](#)
 * [Tailwind](#)
 
-# JavaScript
+### JavaScript
 * [Promesses JavaScript](#)
 * [Fetch API](#)
 * [REST API pour WordPress](#)
 
-# VUE.JS
+### VUE.JS
 * [Vue base](./vue/index.html)
 * [Vue création projet](./vue/creation-projet.html)
 * [Vue template script style](./vue/template-script-style.html)
