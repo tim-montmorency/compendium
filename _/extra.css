@@ -577,6 +577,13 @@ vert d'eau #70c1b3
   font-size: 1.5em;
 }
 
+.finishing .md-typeset code,
+.finishing .md-typeset pre
+{
+  background-color: #404555;
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .finishing .md-typeset>div>h1 {
     font-size: 2.5rem;
