@@ -3,9 +3,6 @@ hide:
   - toc
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md">
 
 # Web 5
 
@@ -23,8 +20,7 @@ L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’u
 | Heures d’enseignement | 120     |
 | Session               | 5       |
 
-</div>
-<div class="col-md">
+
 
 ## Contenu du cours par thème
 
@@ -42,9 +38,3 @@ L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’u
 * [Vue base](./vue/index.html)
 * [Vue création projet](./vue/creation-projet.html)
 * [Vue template script style](./vue/template-script-style.html)
-
-</div>
-
-</div>
-
-</div>
