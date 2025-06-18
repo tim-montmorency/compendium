@@ -545,6 +545,16 @@ stop:before {
 /* ---------------------------------- */
 /* Finishing Touches (ajout Marie-Michelle, à bonifier plus tard) */
 /* ---------------------------------- */
+
+/* 
+palette https://coolors.co/1e212a-ffe066-ef5552-247ba0-70c1b3 
+
+gris foncé #1e212a
+jaune pâle #ffe066
+rouge #ef5552
+bleu #247ba0
+vert d'eau #70c1b3
+*/
 .finishing .md-typeset>div>h1{
   color: #ef5552;
   text-transform: uppercase;
