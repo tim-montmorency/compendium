@@ -12,7 +12,7 @@
 
 ### Invitation à la cérémonie de visionnement et remise de prix le 23 mai à 10ham
 
-![Invitation à la cérémonie de visionnement et remise de prix](./images/invitation-ceremonie-concours-2025.png)
+![Invitation à la cérémonie de visionnement et remise de prix](./assets/images/invitation-ceremonie-concours-2025.png)
 
 
 ## Présentation orale de votre projet
