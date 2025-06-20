@@ -545,6 +545,16 @@ stop:before {
 /* ---------------------------------- */
 /* Finishing Touches (ajout Marie-Michelle, à bonifier plus tard) */
 /* ---------------------------------- */
+
+/* 
+palette https://coolors.co/1e212a-ffe066-ef5552-247ba0-70c1b3 
+
+gris foncé #1e212a
+jaune pâle #ffe066
+rouge #ef5552
+bleu #247ba0
+vert d'eau #70c1b3
+*/
 .finishing .md-typeset>div>h1{
   color: #ef5552;
   text-transform: uppercase;
@@ -552,7 +562,7 @@ stop:before {
 }
 .finishing .md-typeset h2{
   padding-top: 3.8rem;
-  margin-top: 4rem;
+  margin-top: 4.3rem;
   font-size: 2.5em;
 }
 .finishing .md-typeset h1+h2{
@@ -565,6 +575,19 @@ stop:before {
 }
 .finishing .md-typeset h4{
   font-size: 1.5em;
+}
+
+.finishing .md-typeset code,
+.finishing .md-typeset pre
+{
+  background-color: #404555;
+  color: white;
+}
+
+body[data-md-color-scheme="slate"].finishing .md-typeset kbd{
+  box-shadow: 0 .1rem 0 .05rem #ec5956, 0 .1rem 0 #fff, 0 -.1rem .2rem hsla(225deg,15%,90%,0.2) inset;
+
+
 }
 
 @media screen and (max-width: 768px) {
