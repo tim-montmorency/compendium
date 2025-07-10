@@ -17,22 +17,22 @@ nav:
   #    - Cours 14: 582-101–domaines-multimedias/cours14.md
   #    - Cours 15: 582-101–domaines-multimedias/cours15.md
   - Web 1:
-      - 582-111–web1/index.md
-      - Cours 1: 582-111–web1/cours01.md
-      - Cours 2: 582-111–web1/cours02.md
-      - Cours 3: 582-111–web1/cours03.md
-      - Cours 4: 582-111–web1/cours04.md
-      - Cours 5: 582-111–web1/cours05.md
-      - Cours 6: 582-111–web1/cours06.md
-      - Cours 7: 582-111–web1/cours07.md
-      - Cours 8: 582-111–web1/cours08.md
-      - Cours 9: 582-111–web1/cours09.md
-      - Cours 10: 582-111–web1/cours10.md
-      - Cours 11: 582-111–web1/cours11.md
-      - Cours 12: 582-111–web1/cours12.md
-      - Cours 13: 582-111–web1/cours13.md
-      - Cours 14: 582-111–web1/cours14.md
-      - Cours 15: 582-111–web1/cours15.md
+      - 582-111-web1/index.md
+      - Cours 1: 582-111-web1/cours01.md
+      - Cours 2: 582-111-web1/cours02.md
+      - Cours 3: 582-111-web1/cours03.md
+      - Cours 4: 582-111-web1/cours04.md
+      - Cours 5: 582-111-web1/cours05.md
+      - Cours 6: 582-111-web1/cours06.md
+      - Cours 7: 582-111-web1/cours07.md
+      - Cours 8: 582-111-web1/cours08.md
+      - Cours 9: 582-111-web1/cours09.md
+      - Cours 10: 582-111-web1/cours10.md
+      - Cours 11: 582-111-web1/cours11.md
+      - Cours 12: 582-111-web1/cours12.md
+      - Cours 13: 582-111-web1/cours13.md
+      - Cours 14: 582-111-web1/cours14.md
+      - Cours 15: 582-111-web1/cours15.md
   - Illustration numérique:
       - 582-121–illustration-numerique/index.md
       - Références: 582-121–illustration-numerique/references.md
@@ -583,8 +583,9 @@ extra:
     - robots.txt
 
 extra_css:
-  - _/extra.css
+  - https://unpkg.com/tippy.js@6/animations/shift-away.css
   - https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css
+  - _/extra.css
 
 extra_javascript:
   - _/mathjax.js
@@ -592,9 +593,12 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - https://unpkg.com/fireworks-js@2.x/dist/index.umd.js
   - https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js
+  - https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js
+  - https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js
   - _/extra.js
   - _/image-zoom.js
   - _/gallery.js
+  - _/tooltip.js
 
 plugins:
   - offline
@@ -608,22 +612,6 @@ plugins:
   - render-stopper:
       tag: "[STOP]"
       placeholder: '<svg width="100%" height="100%" viewBox="0 0 1024 380" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><rect id="Plan-de-travail1" serif:id="Plan de travail1" x="0" y="-0" width="1024" height="380" style="fill:none;"/><clipPath id="_clip1"><rect id="Plan-de-travail11" serif:id="Plan de travail1" x="0" y="-0" width="1024" height="380"/></clipPath><g clip-path="url(#_clip1)"><path d="M1024,4.4l0,371.2c0,2.428 -1.972,4.4 -4.4,4.4l-1015.2,0c-2.428,0 -4.4,-1.972 -4.4,-4.4l0,-371.2c0,-2.428 1.972,-4.4 4.4,-4.4l1015.2,-0c2.428,-0 4.4,1.972 4.4,4.4Z" style="fill-opacity:0.1;"/><path d="M327.884,35.016l0,28.869c0,2.428 -1.971,4.4 -4.4,4.4l-302.084,-0c-2.428,-0 -4.4,-1.972 -4.4,-4.4l-0,-28.869c-0,-2.428 1.972,-4.4 4.4,-4.4l302.084,0c2.429,0 4.4,1.972 4.4,4.4Z" style="fill-opacity:0.1;"/><path d="M327.884,251.612l0,28.869c0,2.428 -1.971,4.4 -4.4,4.4l-302.084,-0c-2.428,-0 -4.4,-1.972 -4.4,-4.4l-0,-28.869c-0,-2.429 1.972,-4.4 4.4,-4.4l302.084,-0c2.429,-0 4.4,1.971 4.4,4.4Z" style="fill-opacity:0.1;"/><path d="M950.659,110.354l-0,10.034c-0,2.429 -1.972,4.4 -4.4,4.4l-924.859,0c-2.428,0 -4.4,-1.971 -4.4,-4.4l-0,-10.034c-0,-2.429 1.972,-4.4 4.4,-4.4l924.859,-0c2.428,-0 4.4,1.971 4.4,4.4Z" style="fill-opacity:0.1;"/><path d="M650.841,326.949l0,10.035c0,2.428 -1.971,4.4 -4.4,4.4l-625.041,-0c-2.428,-0 -4.4,-1.972 -4.4,-4.4l-0,-10.035c-0,-2.428 1.972,-4.4 4.4,-4.4l625.041,0c2.429,0 4.4,1.972 4.4,4.4Z" style="fill-opacity:0.1;"/><path d="M1007,148.023l0,10.034c0,2.428 -1.972,4.4 -4.4,4.4l-981.2,-0c-2.428,-0 -4.4,-1.972 -4.4,-4.4l-0,-10.034c-0,-2.429 1.972,-4.4 4.4,-4.4l981.2,-0c2.428,-0 4.4,1.971 4.4,4.4Z" style="fill-opacity:0.1;"/><path d="M197.091,185.691l0,10.035c0,2.428 -1.971,4.4 -4.4,4.4l-171.291,-0c-2.428,-0 -4.4,-1.972 -4.4,-4.4l-0,-10.035c-0,-2.428 1.972,-4.4 4.4,-4.4l171.291,0c2.429,0 4.4,1.972 4.4,4.4Z" style="fill-opacity:0.1;"/></g></svg>'
-  - exclude:
-      glob:
-        - "*.tmp"
-        - "*.bk/*"
-        - "*/bk/*"
-        - "*/autres/*"
-        - "*/examens/*"
-        - "*/exercices/*"
-        - "*/html/*"
-        - "*/css/*"
-        - "*/ai/*"
-        - "*/assets/*"
-        - "*/devoirs_photoshop/*"
-        - "*/exercices_photoshop/*"
-        - "*/redirection/*"
-        - "*/projets/*"
 
 site_name: Notes de cours
 site_url: https://tim-montmorency.com/compendium/
