@@ -132,7 +132,7 @@ DEMO: faire un site avec ca.
 
 ## Attributs
 
-
+<mark>@todo</mark>
 
 ## Exercices
 
@@ -143,8 +143,6 @@ index.html
 /css/ et /img/.
 
 contact.html 
-
-
 
 [STOP]
 

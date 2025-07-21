@@ -1,5 +1,7 @@
 # Cours 13
 
+TP2
+
 Lancement du projet intégrateur final
 	•	Présentation du projet final : mini-site Web statique (critères d’évaluation)
 	•	Planification initiale (arborescence, wireframes, choix des contenus)

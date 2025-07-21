@@ -194,19 +194,18 @@ Autres métiers connexes (SEO, rédaction Web, analyse Web).
 * Introduction au DOM (Document Object Model)
   * Structure hiérarchique (relation parent-enfant)
 
-
-
 ## Récapitulatif
 
-Lexique : 
+Lexique :
 
 * HTML
 * UX
 * UI
 * Front-End
 
-
 [STOP]
+
+Autre cours
 
 ## Présentation
 
@@ -238,5 +237,5 @@ Lexique :
 ![2541661_coding_markup_html_icon](https://github.com/user-attachments/assets/e302c4d2-f53a-44e9-be2b-311ac3c28281)
 [Voir l'histoire du HTML](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/html-histoire.html)
 
-
+Évaluations
 
