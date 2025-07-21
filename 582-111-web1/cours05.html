@@ -738,6 +738,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Cours 5
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="cours05.html" class="md-nav__link md-nav__link--active">
         
   
@@ -749,6 +762,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Médias
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Médias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tableaux-html" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableaux HTML
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listes-structurees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listes structurées
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -7494,6 +7577,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Médias
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Médias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tableaux-html" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableaux HTML
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listes-structurees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listes structurées
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -7509,12 +7651,116 @@
 
 
 <div><h1 id="cours-5">Cours 5<a class="headerlink" href="#cours-5" title="Permanent link">¶</a></h1>
-<p>Cours 5 : Médias audio, vidéo et contenu structuré
-    •   Audio (audio) et vidéo (video) : formats MP3, MP4, WebM, etc.
-    •   Contrôles et attributs de médias
-    •   Tableaux (table, tr, td, th, attributs colspan, rowspan)
-    •   Listes structurées (ul, ol, dl, dt, dd)
-    •   Atelier pratique : Page multimédia avec tableaux et listes</p></div>
+<h2 id="medias">Médias<a class="headerlink" href="#medias" title="Permanent link">¶</a></h2>
+<h3 id="audio">Audio<a class="headerlink" href="#audio" title="Permanent link">¶</a></h3>
+<p>Balise : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/audio"><code>&lt;audio&gt;</code></a></p>
+<div class="highlight"><span class="filename">Exemple le plus simple</span><pre><span></span><code><span class="p">&lt;</span><span class="nt">audio</span> <span class="na">controls</span> <span class="na">src</span><span class="o">=</span><span class="s">"musique.mp3"</span><span class="p">&gt;&lt;/</span><span class="nt">audio</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Attributs</p>
+<ul>
+<li><strong>autoplay</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0m4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215"></path></svg></span> : Démarre la lecture automatiquement. Désactivé par défaut sur la plupart des navigateurs pour des raisons de <abbr title="Expérience utilisateur (User eXperience)">UX</abbr>.</li>
+<li><strong>controls</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M3 5v14l8-7m2 7h3V5h-3m5 0v14h3V5"></path></svg></span> : Affiche les contrôles du lecteur (lecture, pause, volume). Pas obligatoire, mais un peu oui ;), parce que l'autoplay ne fonctionne pas vraiment.</li>
+<li><strong>loop</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M6 5.75 10.25 10H7v6h6.5l2 2H7a2 2 0 0 1-2-2v-6H1.75zm12 12.5L13.75 14H17V8h-6.5l-2-2H17a2 2 0 0 1 2 2v6h3.25z"></path></svg></span> : Fait jouer l’audio en boucle.</li>
+<li><strong>muted</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M3 9h4l5-5v16l-5-5H3zm13.59 3L14 9.41 15.41 8 18 10.59 20.59 8 22 9.41 19.41 12 22 14.59 20.59 16 18 13.41 15.41 16 14 14.59z"></path></svg></span> : L’audio est désactivé.</li>
+<li><strong>preload</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.83 9.83 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8 8 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26zM12 16.5 7.5 12H11V8h2v4h3.5z"></path></svg></span> : Indique comment le navigateur doit gérer le chargement de l’audio :<ul>
+<li>none : Ne préchargera rien (idéal si on veut économiser la bande passante)</li>
+<li>metadata : Préchargera uniquement les métadonnées (durée, dimensions)</li>
+<li>auto : Laisse le navigateur choisir (c'est la valeur par défaut)</li>
+</ul>
+</li>
+</ul>
+<p>Formats recommandés :</p>
+<ul>
+<li><code>.mp3</code></li>
+<li><code>.ogg</code></li>
+<li><code>.wav</code></li>
+</ul>
+<p>C'est possible aussi d'utiliser une méthode de chargement avec la balise <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/source"><code>&lt;source&gt;</code></a>. </p>
+<p>Elle permet de fournir <strong>plusieurs formats</strong> au navigateur et le laisse choisir celui qui est compatible. Celui-ci commence par essayer la lecture du premier format. S'il n'est pas compatible, il essaye le deuxième et ainsi de suite.</p>
+<p>Si rien ne fait, le navigateur peut afficher un message spécifié dans la balise <code>&lt;audio&gt;</code>. Voici un exemple : </p>
+<div class="highlight"><span class="filename">Exemple complet</span><pre><span></span><code><span class="p">&lt;</span><span class="nt">audio</span> <span class="na">controls</span> <span class="na">loop</span> <span class="na">preload</span><span class="o">=</span><span class="s">"metadata"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">source</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://assets.codepen.io/9367036/NyanCatoriginal.ogg"</span> <span class="na">type</span><span class="o">=</span><span class="s">"audio/ogg; codecs=vorbis"</span> <span class="p">/&gt;</span>
+  <span class="p">&lt;</span><span class="nt">source</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://assets.codepen.io/9367036/NyanCatoriginal.mp3"</span> <span class="na">type</span><span class="o">=</span><span class="s">"audio/mpeg"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+    Votre navigateur ne prend pas en charge l'audio HTML.
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://assets.codepen.io/9367036/NyanCatoriginal.mp3"</span> <span class="na">download</span><span class="p">&gt;</span>Télécharger l’audio<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.
+  <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">audio</span><span class="p">&gt;</span>
+</code></pre></div>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage" src="https://codepen.io/tim-momo/embed/ZYbWWrJ?default-tab=html%2Cresult&amp;editable=true&amp;theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen &amp;lt;a href="https://codepen.io/tim-momo/pen/ZYbWWrJ"&amp;gt;
+  Web 1 - Formatage&amp;lt;/a&amp;gt; by TIM Montmorency (&amp;lt;a href="https://codepen.io/tim-momo"&amp;gt;@tim-momo&amp;lt;/a&amp;gt;)
+  on &amp;lt;a href="https://codepen.io"&amp;gt;CodePen&amp;lt;/a&amp;gt;.
+</iframe>
+
+<h3 id="video">Vidéo<a class="headerlink" href="#video" title="Permanent link">¶</a></h3>
+<p>Balise : <code>&lt;video&gt;</code></p>
+<p>Attributs :</p>
+<ul>
+<li>controls, autoplay, loop, muted, poster, width, height</li>
+</ul>
+<p>Formats recommandés :</p>
+<ul>
+<li><code>.mp4</code> (H.264)</li>
+<li><code>.webm</code></li>
+<li><code>.ogg</code></li>
+</ul>
+<p>Exemple :</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">video</span> <span class="na">controls</span> <span class="na">width</span><span class="o">=</span><span class="s">"400"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">source</span> <span class="na">src</span><span class="o">=</span><span class="s">"video.mp4"</span> <span class="na">type</span><span class="o">=</span><span class="s">"video/mp4"</span><span class="p">&gt;</span>
+  Votre navigateur ne supporte pas l’élément vidéo.
+<span class="p">&lt;/</span><span class="nt">video</span><span class="p">&gt;</span>
+</code></pre></div>
+<h2 id="tableaux-html">Tableaux HTML<a class="headerlink" href="#tableaux-html" title="Permanent link">¶</a></h2>
+<p>Balises :</p>
+<ul>
+<li><code>&lt;table&gt;</code></li>
+<li><code>&lt;tr&gt;</code></li>
+<li><code>&lt;td&gt;</code></li>
+<li><code>&lt;th&gt;</code></li>
+</ul>
+<p>Structure logique :</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Nom<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Âge<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Julie<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>21<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Attributs utiles :
+    •   colspan : étendre une cellule sur plusieurs colonnes
+    •   rowspan : étendre une cellule sur plusieurs lignes</p>
+<p>Bonnes pratiques :
+    •   Ne pas utiliser de tableau pour la mise en page
+    •   Ajouter une légende (</p><caption>) et utiliser les balises sémantiques (</caption><thead>, </thead><tbody>, </tbody><tfoot>)
+<h2 id="listes-structurees">Listes structurées<a class="headerlink" href="#listes-structurees" title="Permanent link">¶</a></h2>
+<p>Listes non ordonnées : </p><ul>
+    •   Utilisée pour des listes où l’ordre n’a pas d’importance
+    •   Exemple :
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Pomme<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Banane<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Listes ordonnées : </p><ol>
+    •   Utilisée quand l’ordre compte (étapes, classement)
+    •   Exemple :
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">ol</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Étape 1<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Étape 2<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ol</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Listes de définitions : </p><dl>, <dt>, </dt><dd>
+    •   Exemple :
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">dl</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">dt</span><span class="p">&gt;</span>HTML<span class="p">&lt;/</span><span class="nt">dt</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">dd</span><span class="p">&gt;</span>Langage de balisage utilisé pour structurer le contenu Web.<span class="p">&lt;/</span><span class="nt">dd</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">dl</span><span class="p">&gt;</span>
+</code></pre></div></dd></dl></ol></ul></tfoot></div>
 
 
 
