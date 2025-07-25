@@ -1,9 +1,11 @@
 # Cours 7
 
+## 🚨 Remise des CV
+
+## Évaluation formative du CV par les pairs
   
 ## Temps pour les comités et l'avancement du portfolio
 Lorsque votre évaluation est terminée.    
-Semaine où on commence le contact des employeurs!
 
 
 ## Prise de photos
