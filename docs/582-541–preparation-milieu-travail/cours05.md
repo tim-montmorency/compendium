@@ -1,4 +1,5 @@
 # Cours 5
+## 🚨 Remise et présentation des planifications de portfolio
 
 ## Présentation sur le cv   
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVyO4I6ZyrpItmxxqMTH2bMBkqWKR6zRhRTug3VbdkKmkA?e=4HOTYb){ .md-button }  
@@ -16,8 +17,6 @@ Démonstration CV de l'an dernier
 
 ## Temps pour les comités
 
-## Rédiger une candidature
-[🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y){ .md-button }     
 
 ## Présentation sur la e-réputation et LinkedIn
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
