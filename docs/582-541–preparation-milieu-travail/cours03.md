@@ -18,10 +18,6 @@ Démonstration CV de l'an dernier
 ## Temps pour avancer votre CV
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
 
-## Conférence de Sid Lee
-**De 14h20 à 15h20**     
-
-Sujet: Le cv, la lettre de présentation et le portfolio
 
 
 ## Devoir     
