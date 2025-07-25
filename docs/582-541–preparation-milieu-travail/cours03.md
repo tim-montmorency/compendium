@@ -6,8 +6,10 @@ Qu'est-ce que doit contenir un cv? Dans Figma.
 ## Activité sur le contenu de votre CV
 Remplir le document contenu_cv sur github.
 
+## Planification du portfolio
+Remplir le document portfolio sur github.
 
-
+## Temps pour les comités
 
 
 ## Devoir     
