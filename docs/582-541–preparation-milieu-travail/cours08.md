@@ -3,6 +3,10 @@
 ## 🚨 Correction de la lettre et du cv
 Remise de l'évaluation avant la fin du cours
 
+## Rédiger une candidature
+[🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y){ .md-button }     
+
+
 ## Conférence du CJE
 <p>Trucs et pratique pour les entrevues.</p>
 
