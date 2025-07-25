@@ -13,7 +13,7 @@ Remplir le document contenu_lettre_presentation sur github.
 ## Rencontres individuelles pour le CV et la lettre
 
 ## Ajouter des compagnies à la liste
-
+[🛠️ Ajouter des entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
 
 
 ## Devoir
