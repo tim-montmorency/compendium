@@ -1,4 +1,8 @@
 # Cours 11
-## 🚨 Remise du portfolio 
+## 🚨 Remise formative du portfolio 
 
-## Événement de rencontre avec les employeurs
+## Évaluation formative du portfolio d'un collègue
+
+## Correction des portfolios
+
+## Temps pour les comités
