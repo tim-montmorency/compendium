@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../_/favicon-32x32.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -761,6 +761,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Cours 6
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="cours06.html" class="md-nav__link md-nav__link--active">
         
   
@@ -772,6 +785,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#formulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formulaires
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Formulaires">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure de base
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#champs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Champs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#label" class="md-nav__link">
+    <span class="md-ellipsis">
+      Label
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ebauche-structurelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ébauche structurelle
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -7494,6 +7577,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#formulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formulaires
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Formulaires">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure de base
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#champs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Champs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#label" class="md-nav__link">
+    <span class="md-ellipsis">
+      Label
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ebauche-structurelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ébauche structurelle
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -7509,11 +7651,130 @@
 
 
 <div><h1 id="cours-6">Cours 6<a class="headerlink" href="#cours-6" title="Permanent link">¶</a></h1>
-<p>Wireframes et introduction aux formulaires HTML
-    •   Introduction au concept de wireframes (maquette)
-    •   Formulaires HTML simples (form, input, label, submit, radio, select, textarea)
-    •   Autres éléments : favicon, balises interactives (details, summary)
-    •   Atelier pratique : Création d’un formulaire fonctionnel</p></div>
+<h2 id="formulaires">Formulaires<a class="headerlink" href="#formulaires" title="Permanent link">¶</a></h2>
+<h3 id="structure-de-base">Structure de base<a class="headerlink" href="#structure-de-base" title="Permanent link">¶</a></h3>
+<p><img alt="" src="assets/images/forms-form.png"></p>
+<p>Balise : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/form"><code>&lt;form&gt;</code></a></p>
+<p>Attributs :</p>
+<ul>
+<li><strong>action=""</strong> : URL où envoyer les données du formulaire. Dans le cadre du cours, les données ne pourront pas être traitées, car cela nécessite un langage de programmation côté serveur (comme PHP), ce qu’on ne couvre pas ici. On peut donc utiliser action="#" ou laisser vide pour rester sur la même page.</li>
+<li><strong>method=""</strong> : Deux valeurs possibles :<ul>
+<li><strong>get</strong> : envoie le contenu du formulaire dans l’URL (visible dans la barre d’adresse).</li>
+<li><strong>post</strong> : envoie les données de façon invisible, mais ne fonctionne que si un serveur est capable de les traiter, ce qui ne sera pas le cas dans le cours.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><span class="filename">Exemple</span><pre><span></span><code><span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">"merci.html"</span> <span class="na">method</span><span class="o">=</span><span class="s">"get"</span><span class="p">&gt;</span>
+
+  <span class="cm">&lt;!-- Ici on insère les champs du formulaire --&gt;</span>
+
+<span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</code></pre></div>
+<h3 id="champs">Champs<a class="headerlink" href="#champs" title="Permanent link">¶</a></h3>
+<p><img alt="" src="assets/images/forms-input.png"></p>
+<p>Balises : <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/input"><code>&lt;input&gt;</code></a>, <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/textarea"><code>&lt;textarea&gt;</code></a>, <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/select"><code>&lt;select&gt;</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Balise</th>
+<th>Usage</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;input type="text"&gt;</code></td>
+<td>Champ texte</td>
+<td><form><input type="text"></form></td>
+</tr>
+<tr>
+<td><code>&lt;input type="email"&gt;</code></td>
+<td>Courriel</td>
+<td><form><input type="email"></form></td>
+</tr>
+<tr>
+<td><code>&lt;input type="password"&gt;</code></td>
+<td>Mot de passe</td>
+<td><form><input type="password"></form></td>
+</tr>
+<tr>
+<td><code>&lt;input type="radio"&gt;</code></td>
+<td>Choix unique</td>
+<td><form><input type="radio" name="rad">1<input type="radio" name="rad">2<input type="radio" name="rad">3</form></td>
+</tr>
+<tr>
+<td><code>&lt;input type="checkbox"&gt;</code></td>
+<td>Choix multiples</td>
+<td><form><input type="checkbox">1<input type="checkbox">2<input type="checkbox">3</form></td>
+</tr>
+<tr>
+<td><code>&lt;select&gt;</code> <code>&lt;option&gt;</code></td>
+<td>Liste déroulante</td>
+<td><form><select><option>1</option><option>2</option><option>3</option></select></form></td>
+</tr>
+<tr>
+<td><code>&lt;input type="submit"&gt;</code></td>
+<td>Bouton d’envoi</td>
+<td><form><input type="submit"></form></td>
+</tr>
+<tr>
+<td><code>&lt;textarea&gt;</code></td>
+<td>Zone de texte</td>
+<td><form><textarea>&lt;/form&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Les &lt;a href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/input#attributs"&gt;attributs de champ de formulaire&lt;/a&gt; sont nombreux. Voici une courte liste des plus utilisés :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;required&lt;/strong&gt; : Le champ avec cet attribut soit être rempli pour soumettre le formulaire&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;disabled&lt;/strong&gt; : Désactive l'interactivité du champ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;placeholder&lt;/strong&gt; : Affiche un exemple de ce qui pourrait se trouver dans le champ. &lt;strong&gt;Ne remplace pas la balise &lt;code&gt;&lt;label&gt;&lt;/code&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;value&lt;/strong&gt; : Inscrit une valeur par défaut au chargement de la page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;checked&lt;/strong&gt; : Un peu comme value, on peut définir si un radio ou un checkbox est coché par défaut.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt; : l'attribut name est essentiel pour que le langage de programmation côté serveur puisse associer un champ à sa valeur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;id&lt;/strong&gt; : Surtout utile pour la balise &lt;code&gt;&lt;label&gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Audio" src="https://codepen.io/tim-momo/embed/MYaeKgZ?%2Cresult&amp;editable=true&amp;theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"&gt;
+  See the Pen &lt;a href="https://codepen.io/tim-momo/pen/MYaeKgZ"&gt;
+  Web 1 - Audio&lt;/a&gt; by TIM Montmorency (&lt;a href="https://codepen.io/tim-momo"&gt;@tim-momo&lt;/a&gt;)
+  on &lt;a href="https://codepen.io"&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;h3 id="label"&gt;Label&lt;a class="headerlink" href="#label" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="" src="assets/images/forms-label.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Chaque champ doit être accompagné d'un libellé. Pour l'associer à un champ, on doit appliquer un id au champ et spécifier le id dans l'attribut for de la balise label.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Balise&lt;/th&gt;
+&lt;th&gt;Usage&lt;/th&gt;
+&lt;th&gt;Exemple&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&lt;label for=""&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Libellé de champ&lt;/td&gt;
+&lt;td&gt;&lt;form&gt;&lt;label for="ttt"&gt;Prénom&lt;/lable&gt;&lt;br&gt;&lt;input id="ttt" type="text"&gt;&lt;/form&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Exemple : Avec association for et sans.&lt;/p&gt;
+&lt;div class="admonition example"&gt;
+&lt;p class="admonition-title"&gt;Post vs. Get&lt;/p&gt;
+&lt;p&gt;Démonstration post-vs-get: &lt;a download="download" href="exercices/formulaire.zip"&gt;formulaire.zip&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="ebauche-structurelle"&gt;Ébauche structurelle&lt;a class="headerlink" href="#ebauche-structurelle" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="assets/images/wireframe.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;L’ébauche structurelle (ou wireframe en anglais) est une maquette simplifiée qui permet de planifier l’organisation du contenu d’une page Web avant d’en aborder le design ou le codage. C’est une méthode rapide et peu coûteuse pour valider la disposition des éléments. Elle se fait souvent sur papier, mais des outils comme Balsamiq, Figma ou Adobe XD sont couramment utilisés en industrie.&lt;/p&gt;
+&lt;p&gt;Relume https://www.relume.io/&lt;/p&gt;
+&lt;p&gt;Important : aucune couleur, aucune image, aucun style — uniquement la structure.&lt;/p&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Un outil conceptuel, pas visuel&lt;/p&gt;
+&lt;p&gt;Il arrive qu’un client ne voie pas l’intérêt d’un wireframe et préfère passer directement à une maquette graphique. &lt;/p&gt;
+&lt;p&gt;Cette étape permet de se concentrer sur le contenu et l’architecture, sans être distrait par des questions de design. &lt;/p&gt;
+&lt;p&gt;Cela évite les commentaires hors propos du type « je n’aime pas la couleur » et recentre la discussion sur l’essentiel : &lt;em&gt;quelles informations doivent apparaître et où&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;</textarea></form></td></tr></tbody></table></div>
 
 
 
@@ -7574,7 +7835,7 @@
       <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
         <script src="../_/mathjax.js"></script>
       

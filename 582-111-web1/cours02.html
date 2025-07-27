@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../_/favicon-32x32.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -776,9 +776,36 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#balises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Balises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#balises-semantiques" class="md-nav__link">
     <span class="md-ellipsis">
       Balises sémantiques
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercices
     </span>
   </a>
   
@@ -7674,9 +7701,36 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#balises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Balises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#balises-semantiques" class="md-nav__link">
     <span class="md-ellipsis">
       Balises sémantiques
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercices
     </span>
   </a>
   
@@ -7772,68 +7826,97 @@ Un fichier nommé <code>ma-page-contact.html</code> devient :<br>
 <h2 id="vs-code">VS Code<a class="headerlink" href="#vs-code" title="Permanent link">¶</a></h2>
 <p>Créer une structure dans vscode
 Extension “Live Server” (aperçu en temps réel).</p>
-<p>Anatomie d’un document HTML</p>
-
-
-
-  <meta charset="UTF-8">
-  <title>Titre de la page</title>
-
-
-  <h1>Bonjour le Web!</h1>
-
-
-
-<pre><code>•   &lt;!DOCTYPE html&gt; : indique que c’est du HTML5.
-•   &lt;html&gt; : racine du document.
-•   &lt;head&gt; : métadonnées, titre, liens vers CSS ou JS.
-•   &lt;body&gt; : contenu visible de la page.
-</code></pre>
-<p>Modèle parent-enfant (DOM) </p>
+<p>Anatomie d’un document HTML
+</p><div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">"fr"</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">"UTF-8"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Titre de la page<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Bonjour le Web!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<ul>
+<li><code>&lt;!DOCTYPE html&gt;</code> : indique que c’est du HTML5.</li>
+<li><code>&lt;html&gt;</code> : racine du document.</li>
+<li><code>&lt;head&gt;</code> : métadonnées, titre, liens vers CSS ou JS.</li>
+<li><code>&lt;body&gt;</code> : contenu visible de la page.</li>
+</ul>
+<p>Modèle parent-enfant (DOM)</p>
 <p>HTML = un arbre.
 Chaque balise contient (ou non) d’autres balises.</p>
-
-  <section>
-    <h2>Section 1</h2>
-    <p>Paragraphe dans la section</p>
-  </section>
-
-
-<p>Le </p> est parent de <section>, qui est parent de <h2> et </h2><p>.
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Section 1<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Paragraphe dans la section<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Le <code>&lt;body&gt;</code> est parent de <code>&lt;section&gt;</code>, qui est parent de <code>&lt;h2&gt;</code> et <code>&lt;p&gt;</code>.
 Indentation</p>
+<h2 id="balises">Balises<a class="headerlink" href="#balises" title="Permanent link">¶</a></h2>
+<p>Certaines balises sont autofermante d'autre ne le sont pas. Par exemple :</p>
+<p>Un paragraph est une balise normale, c'est à dire qu'on doit spécifier une balise d'ouverture (<code>&lt;p&gt;</code>) et une balise de fermeture (<code>&lt;/p&gt;</code>)</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Le contenu du paragraph<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>La balise image elle est autofermante. C'est à dire qu'elle s'ouvre et se ferme dans la même balise (<code>&lt;img /&gt;</code>).</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">"..."</span> <span class="p">/&gt;</span>
+</code></pre></div>
 <h2 id="balises-semantiques">Balises sémantiques<a class="headerlink" href="#balises-semantiques" title="Permanent link">¶</a></h2>
-<p>Balise
-Rôle</p>
-<header>
-En-tête du site ou d’une section
-<nav>
-Zone de navigation
-<main>
-Contenu principal unique
-<section>
-Regroupement logique de contenu
-<article>
-Contenu autonome (ex. : blogue)
-<aside>
-Contenu secondaire (infos connexes, pub)
-<footer>
-Pied de page
-
-DEMO: faire un site avec ca.
-
-## Attributs
-
-<mark>@todo</mark>
-
-## Exercices
-
-index.html 
-
+<table>
+<thead>
+<tr>
+<th>Balise</th>
+<th>Rôle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;header&gt;</code></td>
+<td>En-tête du site ou d’une section</td>
+</tr>
+<tr>
+<td><code>&lt;nav&gt;</code></td>
+<td>Zone de navigation</td>
+</tr>
+<tr>
+<td><code>&lt;main&gt;</code></td>
+<td>Contenu principal unique</td>
+</tr>
+<tr>
+<td><code>&lt;section&gt;</code></td>
+<td>Regroupement logique de contenu</td>
+</tr>
+<tr>
+<td><code>&lt;article&gt;</code></td>
+<td>Contenu autonome (ex. : blogue)</td>
+</tr>
+<tr>
+<td><code>&lt;aside&gt;</code></td>
+<td>Contenu secondaire (infos connexes, pub)</td>
+</tr>
+<tr>
+<td><code>&lt;footer&gt;</code></td>
+<td>Pied de page</td>
+</tr>
+</tbody>
+</table>
+<p>DEMO: faire un site avec ca.</p>
+<h2 id="attributs">Attributs<a class="headerlink" href="#attributs" title="Permanent link">¶</a></h2>
+<p>https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes</p>
+<p><mark>@todo</mark></p>
+<p>Classe</p>
+<p>Id (un seul par page)</p>
+<p>data-machintruc</p>
+<h2 id="exercices">Exercices<a class="headerlink" href="#exercices" title="Permanent link">¶</a></h2>
+<p>index.html</p>
 <header>, <nav>, <main>, <section>, <aside>, <footer>
 <h1>, </h1><p>
 /css/ et /img/.
 
-contact.html 
+contact.html
 
 
 
@@ -7854,7 +7937,7 @@ contact.html
 <p><a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571363/notation-kebab">Notation kébab | OQLF</a> <a class="footnote-backref" href="#fnref:kebabCase" title="Jump back to footnote 4 in the text">↩</a></p>
 </li>
 </ol>
-</div></footer></aside></section></main></nav></header></footer></aside></article></section></main></nav></header></section></div>
+</div></footer></aside></section></main></nav></header></div>
 
 
 
@@ -7915,7 +7998,7 @@ contact.html
       <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
         <script src="../_/mathjax.js"></script>
       
