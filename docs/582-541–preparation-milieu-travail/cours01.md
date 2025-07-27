@@ -17,10 +17,10 @@
 ## Journée carrière     
 Formation des comités     
 <p>Design: Mise en page d'une invitation pour les employeurs et de cartes d'affaires</p>
-<p>Communication: Rédaction de l'invitation pour les employeurs et mise au point de l'horaire</p>
+<p>Communication: Rédaction de l'invitation pour les employeurs et mise au point de l'horaire, suivi des invitations</p>
 <p>Photo: Préparation de la séance photo</p>
-<p>Réception: Financement et achat</p>
-<p>Studio: Création de la liste d'équipements. Rédaction des courriels pour l'emprunt de matériel.</p>
+<p>Réception: Financement et achats</p>
+<p>Studio: Création de la liste d'équipements. Montage de la salle. Rédaction des courriels pour l'emprunt de matériel.</p>
 
 Répartition des tâches
 

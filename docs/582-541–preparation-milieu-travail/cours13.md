@@ -1,24 +1,24 @@
 # Cours 13 
-## Conférence de Sophie Daigle
-[📁 Liste des programmes universitaires](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETbq33-qauRKmL9VkGECe3kB02iCvtmsi3WX6r5CRuSWtg?e=ERkQGE){ .md-button }       
 
-[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdZ4ebdwqp9PjwpMx9Ee38gB2LUsm4zZsBa3hNZxZhMaEQ?e=fyq6OX){ .md-button }       
+## Retour sur la journée carrière
 
-## Visite de certaines universités
-Local B3428
+## Autoévaluation et évaluation en groupe des comités
 
-## Horaires
-## Groupe AM - Lora : 
-- 12h15 - Conseillère d'orientation - Sophie
-- 13h00 - UQAM
-- 13h30 - UQAT 2 campus
-- 14h30 - NAD
-- 15h00 - ETS
-  
+## Conférence de Synthèse
+14h20 à 15h20: C-1712     
 
-## Groupe PM - Charlène :
-- 14h30 - NAD
-- 15h00 - ETS
-- 15h30 - UQAT 2 campus
-- 16h30 - UQAM
-- 17h00 - Conseillère d'orientation - Sophie
+[📁 Informations sur Arristage](https://polesynthese.com/arrimage/arristage){ .md-button }    
+
+[📁 Plateforme Boussole](https://polesynthese.com/boussole){ .md-button }     
+
+[📁 Fiches métier et capsules vidéo](https://polesynthese.com/boussole/fiches-metiers-numerique){ .md-button }     
+
+[📁 Parcours professionnels](https://polesynthese.com/boussole/faire-le-bon-choix-de-carriere){ .md-button }     
+
+[📁 Platerforme Experts (l'offre est gratuite pour un an aux diplômés des programmes de nos secteurs)](https://polesynthese.com/fr/experts/){ .md-button }    
+
+[📁 Répertoire de formations](https://polesynthese.com/repertoire/formations){ .md-button }    
+
+[📁 Répertoire de métiers](https://polesynthese.com/repertoire/metiers){ .md-button }    
+
+[📁 Répertoire d'entreprises](https://polesynthese.com/repertoire/entreprises){ .md-button }    
