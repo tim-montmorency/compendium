@@ -1,18 +1,97 @@
 # Cours 10
 
-Disposition et positionnement CSS
-	•	Positionnement (static, relative, absolute, fixed)
-	•	Gestion avancée du modèle de boîte (box-sizing)
-	•	Techniques de disposition (float et alternatives modernes simples)
-	•	Propriétés CSS graphiques : linear-gradient
-	•	Atelier pratique : Création d’un layout CSS complet
+## Rappel du modèle de boîte
 
+Revue du modèle vu précédemment :
 
+```css
+element {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+}
+```
 
+Problème : largeur totale imprévisible si on n’utilise pas box-sizing.
 
+## box-sizing : contrôle total de la boîte
 
+| Valeur | Description |
+| ------ | ----------- |
+| content-box | valeur par défaut, largeur exclut padding et border |
+| border-box | largeur inclut padding et border – recommandée |
 
+```css
+* {
+  box-sizing: border-box;
+}
+```
 
+## Les types de positionnement CSS
+
+### static
+
+* L’élément suit le flux normal du document.
+* Pas d’effet des propriétés top, left, etc.
+
+### relative
+
+L’élément reste dans le flux, mais on peut le décaler.
+
+```css
+position: relative;
+top: 10px;
+left: 20px;
+```
+
+### absolute
+
+L’élément est retiré du flux, positionné relativement à son ancêtre positionné.
+
+```css
+position: absolute;
+top: 0;
+right: 0;
+```
+
+### fixed
+
+L’élément est fixé par rapport à la fenêtre (viewport).
+
+```css
+position: fixed;
+bottom: 0;
+left: 0;
+```
+
+## Disposition avec float
+
+```css
+float: left; /* ou right */
+```
+
+## Dégradés
+
+La propriété background permet les dégradés CSS :
+
+```css
+background: linear-gradient(to right, red, orange, yellow);
+```
+
+Variantes :
+	•	to top, to left, to bottom right, etc.
+	•	Couleurs multiples
+	•	Transparence :
+
+```css
+background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+```
+
+Utilisations :
+	•	Fonds décoratifs
+	•	Superpositions (overlay)
+	•	Boutons animés
 
 [STOP]
 

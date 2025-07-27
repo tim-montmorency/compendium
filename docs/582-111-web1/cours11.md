@@ -1,18 +1,126 @@
 # Cours 11
 
-Effets visuels et CSS avancé
-	•	Effets visuels : opacity, ombres (box-shadow), superposition (z-index)
-	•	Bonnes pratiques CSS (nommage BEM, organisation des fichiers CSS)
-	•	Validation et outils de debug CSS (Inspecteur Web)
-	•	Révision complète du CSS en vue de l’examen
-	•	Atelier pratique : Stylisation avancée d’une page existante
+*[BEM]: Block Element Modifier
+
+## Effets visuels
+
+### opacité
+
+Contrôle la transparence d’un élément (valeurs de 0 à 1)
+
+```css
+.opacity-demo {
+  opacity: 0.5;
+}
+```
+
+Affecte aussi les enfants (héritée visuellement)
+
+### box-shadow
+
+Ajoute des ombres portées
+
+```css
+.shadow-demo {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+```
+
+•	Syntaxe : horizontal vertical flou étalement couleur
+•	Peut être utilisée pour :
+	•	Éléments en relief
+	•	Cartes de type “Material Design”
+	•	Boutons interactifs
+
+### z-index
+
+Contrôle la profondeur d’un élément positionné
+
+Nécessite position autre que static
+
+```css
+.layer-avant {
+  position: relative;
+  z-index: 10;
+}
+```
+
+### Autres effets visuels utiles
+
+	•	transition : animation douce de changements de propriété
+	•	filter : flou, contraste, grisaille, etc.
+	•	transform : rotation, mise à l’échelle, translation
+
+## Bonnes pratiques CSS
+
+### Nommage des classes – Méthodologie BEM
+
+```html
+<div class="card card--highlight">
+  <h2 class="card__title">Titre</h2>
+  <p class="card__text">Texte</p>
+</div>
+```
+
+•	Convention :
+	•	block : composant autonome (card)
+	•	block__element : sous-partie du bloc (card__text)
+	•	block--modifier : variation (card--highlight)
+•	Avantages :
+	•	Lisibilité
+	•	Réutilisabilité
+	•	Éviter les conflits
 
 
+BEM est conçu pour organiser et structurer ton CSS. Il permet de :
+	•	Garder un code lisible et modulaire.
+	•	Éviter les conflits de styles (grâce à ses noms explicites).
+	•	Favoriser la réutilisabilité des composants.
 
+### Organisation des fichiers CSS
 
+	•	Fichier unique pour débuter (style.css)
+	•	Par la suite : séparation possible par composants
+	•	Toujours commenter les grandes sections
+	•	Suivre une structure logique : Reset → Layout → Components → Utilities
 
+## Validation et outils de débogage
 
+a) Validation CSS
+	•	W3C CSS Validator
+	•	Pourquoi?
+		•	Détecter erreurs de syntaxe
+		•	Respect des standards
+		•	Compatibilité navigateurs
 
+b) Inspecteur Web (Chrome, Firefox)
+	•	Outil principal pour comprendre le rendu CSS
+	•	Inspecter un élément → voir styles → modifier en direct
+	•	Onglet “Computed” : voir styles appliqués
+	•	Onglet “Network” : vérifier chargement CSS
+	•	Utiliser l’inspecteur pour :
+		•	Repérer un conflit de règle
+		•	Voir l’ordre de cascade
+		•	Tester une couleur, ombre, padding
+
+## Révision CSS – Rappel des concepts clés
+
+a) Sélecteurs CSS
+	•	Balises, classes (.ex), ID (#id), combinaisons (div p, ul > li, a:hover)
+
+b) Modèle de boîte (box model)
+	•	padding, border, margin, box-sizing
+
+c) Mise en page
+	•	display, position, float, flex, grid (selon ce qui a été vu)
+
+d) Typographie et couleurs
+	•	font-*, unités (px, em, rem), color, background-color
+
+e) Bonnes pratiques
+	•	Nommage clair
+	•	Éviter les doublons
+	•	Organisation du code
 
 [STOP]
 

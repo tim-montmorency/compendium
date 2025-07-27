@@ -102,6 +102,8 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 </div>
 
+<mark>chatbot</mark>
+
 !!! info "À propos des applications Web"
 
     De plus en plus d’organisations développent des applications Web pour remplacer les logiciels installés localement.  
@@ -204,6 +206,12 @@ Lexique :
 * Front-End
 
 [STOP]
+
+
+
+
+
+
 
 Autre cours
 

@@ -40,6 +40,10 @@ Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce
 </div>
 ```
 
+## Caractères spéciaux
+
+`&nbsp;`
+
 ## Liens hypertexte
 
 La syntaxe

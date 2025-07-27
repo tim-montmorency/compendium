@@ -77,7 +77,7 @@ Créer une structure dans vscode
 Extension “Live Server” (aperçu en temps réel).
 
 Anatomie d’un document HTML
-
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -88,61 +88,81 @@ Anatomie d’un document HTML
   <h1>Bonjour le Web!</h1>
 </body>
 </html>
+```
 
-	•	<!DOCTYPE html> : indique que c’est du HTML5.
-	•	<html> : racine du document.
-	•	<head> : métadonnées, titre, liens vers CSS ou JS.
-	•	<body> : contenu visible de la page.
+*	`<!DOCTYPE html>` : indique que c’est du HTML5.
+*	`<html>` : racine du document.
+* `<head>` : métadonnées, titre, liens vers CSS ou JS.
+* `<body>` : contenu visible de la page.
 
-Modèle parent-enfant (DOM) 
+Modèle parent-enfant (DOM)
 
 HTML = un arbre.
 Chaque balise contient (ou non) d’autres balises.
 
+```html
 <body>
   <section>
     <h2>Section 1</h2>
     <p>Paragraphe dans la section</p>
   </section>
 </body>
+```
 
-Le <body> est parent de <section>, qui est parent de <h2> et <p>.
+Le `<body>` est parent de `<section>`, qui est parent de `<h2>` et `<p>`.
 Indentation
 
-## Balises sémantiques 
+## Balises
 
-Balise
-Rôle
-<header>
-En-tête du site ou d’une section
-<nav>
-Zone de navigation
-<main>
-Contenu principal unique
-<section>
-Regroupement logique de contenu
-<article>
-Contenu autonome (ex. : blogue)
-<aside>
-Contenu secondaire (infos connexes, pub)
-<footer>
-Pied de page
+Certaines balises sont autofermante d'autre ne le sont pas. Par exemple :
+
+Un paragraph est une balise normale, c'est à dire qu'on doit spécifier une balise d'ouverture (`<p>`) et une balise de fermeture (`</p>`)
+
+```html
+<p>Le contenu du paragraph</p>
+```
+
+La balise image elle est autofermante. C'est à dire qu'elle s'ouvre et se ferme dans la même balise (`<img />`).
+
+```html
+<img src="..." />
+```
+
+## Balises sémantiques
+
+| Balise      | Rôle |
+| ----------- | ---- |
+| `<header>`  | En-tête du site ou d’une section |
+| `<nav>`     | Zone de navigation |
+| `<main>`    | Contenu principal unique |
+| `<section>` | Regroupement logique de contenu |
+| `<article>` | Contenu autonome (ex. : blogue) |
+| `<aside>`   | Contenu secondaire (infos connexes, pub) |
+| `<footer>`  | Pied de page |
 
 DEMO: faire un site avec ca.
 
 ## Attributs
 
+https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes
+
 <mark>@todo</mark>
+
+Classe
+
+Id (un seul par page)
+
+data-machintruc
 
 ## Exercices
 
-index.html 
+index.html
 
 <header>, <nav>, <main>, <section>, <aside>, <footer>
 <h1>, <p>
 /css/ et /img/.
 
-contact.html 
+contact.html
 
 [STOP]
 

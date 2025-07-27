@@ -1,19 +1,209 @@
 # Cours 8
 
-Introduction au CSS
-	•	Anatomie CSS : règles, sélecteurs, propriétés, valeurs
-	•	Types de sélecteurs : balise, classe (.), identifiant (#), combinaisons
-	•	Modèle des boîtes (padding, margin, border, box-sizing)
-	•	Arrière-plans (background)
-	•	Propriété display et alignements de base (vertical-align)
-	•	Atelier pratique : Styliser une page HTML existante simple
+*[CSS]: Cascading Style Sheets
 
+## CSS
 
+Le CSS (aussi appelé **feuille de style**) est un langage qui permet de **mettre en forme** les éléments d’une page Web : couleurs, tailles, polices, espacements, bordures, alignements, etc.
 
+## La syntaxe
 
+```css
+selector {
+  property: value;
+}
+```
 
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS Cascade" src="https://codepen.io/tim-momo/embed/KwdgxXB?default-tab=css%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/KwdgxXB">
+  Web 1 - CSS Cascade</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
+Un **sélecteur** est l’élément HTML qu’on souhaite cibler avec du style. Voici les types fréquents :
 
+| Type de sélecteur | Syntaxe | Cible |
+| ----------------- | ------- | ----- |
+| Balise | `p` | Tous les paragraphes |
+| Classe | `.highlight` | Tous les éléments avec `class="highlight"` |
+| Identifiant | `#main` | Un seul élément avec `id="main"` |
+| Universel | `*` | Tous les éléments |
+| Combinés | `nav ul li a` | Tous les liens dans des listes dans un nav |
+
+```css
+h1 { color: red; }
+.intro { font-weight: bold; }
+#header { background-color: lightgray; } 
+/* En général on évite d'appliquer un style sur un id="", car c'est trop spécifique */
+```
+
+### Cascade
+
+On peut ajouter de la précision en assemblant les sélecteurs. Par exemple, on pourrait cibler seulement les paragraphes situés à l'intérieur d'une balise blockquote.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Audio" src="https://codepen.io/tim-momo/embed/azvmapr?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/azvmapr">
+  Web 1 - Audio</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Usage
+
+Il existe trois façons d’intégrer du CSS dans une page HTML :
+
+### CSS inline
+
+Le style est appliqué directement dans une balise HTML, via l’attribut `style=""`.
+
+```html
+<p style="color: pink;">BLΛƆKPIИK</p>
+```
+
+### CSS interne
+
+Le CSS est écrit **dans le même fichier HTML**, à l’intérieur d’une balise `<style>` située dans la portion `<head>` du document.
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS interne</title>
+    <style>
+      p {
+        color: pink; 
+      }
+    </style>
+</head>
+<body>
+    <p>BLΛƆKPIИK</p>
+</body>
+</html>
+```
+
+### CSS externe
+
+Le CSS est écrit dans un fichier séparé (avec l’extension .css), puis lié au fichier HTML avec une balise `<link>` dans le `<head>`.
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS externe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>BLΛƆKPIИK</p>
+</body>
+</html>
+```
+
+```css title="styles.css"
+p {
+  color: pink;
+}
+```
+
+!!! info "À propos de la balise `<link>`"
+
+    La balise `<link>` permet de **lier des ressources externes** à la page HTML (feuilles de style, icônes, etc.).  
+    Elle se place dans le `<head>` et est autofermante.
+
+    Exemple :
+
+    ```html
+    <link rel="stylesheet" href="style.css">
+    ```
+
+	L’attribut `rel` indique **la nature du lien**. On l'utile la plupart du temps pour les feuilles de styles et le favicon.
+
+    Exemple pour un favicon :
+
+    ```html
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    ```
+
+## Modèle des boîtes CSS
+
+Chaque élément HTML est une boîte constituée de :
+
+```text
++-------------------------+
+|         margin          |
+|  +-------------------+  |
+|  |      border       |  |
+|  |  +-------------+  |  |
+|  |  |   padding   |  |  |
+|  |  | +---------+ |  |  |
+|  |  | | contenu | |  |  |
+|  |  | +---------+ |  |  |
+|  |  +-------------+  |  |
+|  +-------------------+  |
++-------------------------+
+```
+
+Propriétés principales :
+	•	padding : espace intérieur
+	•	margin : espace extérieur
+	•	border : contour
+	•	box-sizing : définit le calcul des dimensions (content-box ou border-box)
+
+```css title="exemple"
+div {
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+```
+
+🔹 `box-sizing: border-box;` est recommandé pour éviter les surprises dans le calcul des largeurs et hauteurs :  
+les `padding` et `border` seront inclus **dans** la dimension totale de l’élément.
+
+## Arrière-plan
+
+Propriétés de base :
+	•	background-color
+	•	background-image
+	•	background-repeat
+	•	background-position
+	•	background-size
+
+```css
+body {
+  background-color: #f0f0f0;
+  background-image: url('fond.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+```
+
+## Propriété display
+
+Tous les éléments HTML ont un comportement d’affichage par défaut (ex. : `div` = block, `span` = inline).  
+On peut modifier ce comportement avec la propriété `display`.
+
+Voici des valeurs courantes :
+
+| Valeur | Description |
+| ------ | ----------- |
+| block  | Prend toute la largeur disponible |
+| inline | S’aligne sur une ligne de texte, mais a des limitations sur son modèle de boite. |
+| inline-block | Combinaison des deux |
+| none | Cache l’élément |
+
+On peut aussi aligner les éléments inline vertivalement avec la propriété `vertical-align`.
+
+```css title="exemple"
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+```
 
 [STOP]
 
