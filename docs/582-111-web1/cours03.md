@@ -97,6 +97,10 @@ Les deux sont valides, parce que ce sont toutes les deux des balises **inline** 
 -->
 ```
 
+!!! info Indentation
+
+    Dès qu'on commence à imbriquer, il faut penser à indenter!
+
 ## Chemins d’accès absolus vs relatifs
 
 | Type | Exemple | Description |

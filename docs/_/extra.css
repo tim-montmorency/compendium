@@ -20,6 +20,11 @@ img.center {
   border: 3px solid pink;
 }
 
+.sm, .small {
+  font-size: 0.8em;
+  line-height: 1.66;
+}
+
 /* Aspect Ratios */
 .aspect-1-1,
 .aspect-3-1,
@@ -232,6 +237,12 @@ body[data-md-color-scheme="slate"] img.invert {
   padding-left: 0.125rem;
   padding-right: 0.125rem;
 }
+.horizontal-anim-cos {
+  animation: horanim 1s infinite;
+  animation-delay: 0.5s;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
 @keyframes horanim {
   0% {
     transform: translateX(-0.125rem);
@@ -253,6 +264,25 @@ body[data-md-color-scheme="slate"] img.invert {
   margin: 1em 0;
   position: relative;
   align-items: center;
+}
+/* Classes pour différentes tailles de gouttière */
+.md-typeset .grid.gap-xs {
+  grid-gap: 0.2rem;
+}
+.md-typeset .grid.gap-sm {
+  grid-gap: 0.6rem;
+}
+.md-typeset .grid.gap-md {
+  grid-gap: 1rem;
+}
+.md-typeset .grid.gap-lg {
+  grid-gap: 1.5rem;
+}
+.md-typeset .grid.gap-xl {
+  grid-gap: 2rem;
+}
+.md-typeset .grid.gap-none {
+  grid-gap: 0;
 }
 .md-typeset .grid.align-items-top {
   align-items: flex-start;
