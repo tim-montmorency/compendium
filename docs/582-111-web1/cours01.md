@@ -24,7 +24,10 @@
 <div class="grid gap-lg" markdown>
 ![](./assets/images/trudeau.gif)
 
-Présentations et plan de cours
+Présentations<br>
+Plan de cours<br>
+Téléphones<br>
+Intelligence artificielle
 </div>
 
 ## Ressources du collège
@@ -44,15 +47,6 @@ Présentations et plan de cours
 * [Service d'aide financière](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/service-aide-financiere/presentation-du-service/)
 * :fontawesome-regular-hand-point-right:{ .horizontal-anim-cos .valign-bottom } [Centre d’aide en intégration multimédia](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom }
 
-<!-- ## Un peu d'histoire
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices/timeline1/thumb.gif)
-
-  <small>Ligne du temps ludique</small><br>
-  **[La fabuleuse histoire de l'Internet](./exercices/timeline1/index.md){.stretched-link .back}**
-</div> -->
-
 ## Le développement Web
 
 ![](./assets/images/devweb.jpg)
@@ -71,7 +65,7 @@ La notion plus classique du Web est composée des éléments suivants :
 Toutefois, le développement Web permet aussi de concevoir une surprenante panoplie d'usage. En voici quelques exemples :
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/domotique.jpg)
+![](./assets/images/domotique.jpg){ data-zoom-image }
 
 <div markdown>
 **Tableaux de bord** (ex. : [Domotique](https://www.home-assistant.io/))
@@ -79,7 +73,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/ifttt.jpg)
+![](./assets/images/ifttt.jpg){ data-zoom-image }
 
 <div markdown>
 **Automatisation** (ex. : [IFTTT](https://ifttt.com/) / [Zapier](https://zapier.com/))
@@ -87,7 +81,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/combat-trials.png)
+![](./assets/images/combat-trials.png){ data-zoom-image }
 
 <div markdown>
 **Jeux vidéos** (ex. : [itch.io](https://itch.io/games/platform-web))
@@ -95,7 +89,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/place-des-arts.png)
+![](./assets/images/place-des-arts.png){ data-zoom-image }
 
 <div markdown>
 **Environnement interactif** (ex. : [Réservation - Place des Arts](https://www.placedesarts.com/programmation))
@@ -103,7 +97,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/collaboration.webp)
+![](./assets/images/collaboration.webp){ data-zoom-image }
 
 <div markdown>
 **Outils collaboratifs**  (ex. : [Wooclap](https://www.wooclap.com/fr/) / [Figma](https://www.figma.com/))
@@ -111,7 +105,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/data-visualisation.png)
+![](./assets/images/data-visualisation.png){ data-zoom-image }
 
 <div markdown>
 **Visualisation de données**  (ex. : [World Economic Forum](https://intelligence.weforum.org/topics/a1Gb0000000pTDREA2/key-issues/a1Gb00000017LD8EAM))
@@ -119,7 +113,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 </div>
 
 <div class="grid grid-1-4" markdown>
-![](./assets/images/llm.png)
+![](./assets/images/llm.png){ data-zoom-image }
 
 <div markdown>
 **Assistants virtuels** :  (ex. : [ChatGPT](https://chatgpt.com/))
@@ -162,13 +156,13 @@ Voici un exemple simple de code HTML :
 
 ![](./assets/images/vscode.png){ data-zoom-image }
 
-Techniquement, on peut programmer un site Web complet avec **Notepad**, mais ce serait particulièrement innéficace.
+Techniquement, on peut programmer un site Web complet avec **Notepad**, mais ce serait particulièrement inefficace.
 
 Un peu comme **Microsoft Word** sert à la rédaction de texte, **[Visual Studio Code](https://code.visualstudio.com/)** (aussi appelé VSCode) est conçu spécifiquement pour programmer dans différents langages de programmation. C'est d'ailleurs l'application qui sera utilisée dans le cadre du cours et de la technique.
 
 !!! example "Tant qu'à y être, créons notre première page Web !"
     1. Ouvrir l'application VSCode
-    1. Créer une nouvelle page et nommez la `index.html`
+    1. Créer une nouvelle page et nommez-la `index.html`
     1. Sauvegarder sur le bureau
     1. Dans la page, inscrire le caractère `!` (point d'exclamation) puis appuyer sur ++enter++
       ![](./assets/images/emmet.png)
@@ -200,7 +194,7 @@ On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic dro
     **🧑‍🏫 Démo du prof**
 
     Essayons l'inspecteur sur le site <https://www.banq.qc.ca/> et observez bien ce qu'on peut réaliser avec !
-    <!-- Lors de la démo, on montre comment en modifiant le DOM dans l'inspecteur, on peu bypasser le popup qui bloque la page. -->
+    <!-- Lors de la démo, on montre comment en modifiant le DOM dans l'inspecteur, on peut bypasser le popup qui bloque la page. -->
 
 ### Raccourcis
 
@@ -228,22 +222,100 @@ On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic dro
 </div>
 </div>
 
-| Terme | Description |
-|-------|-------------|
-| **Header**                    | En-tête d’une page Web, généralement fixe, contenant le logo, le menu de navigation et parfois un bouton de recherche. |
-| **Footer**                    | Pied de page contenant des liens secondaires, des infos légales, les coordonnées ou les réseaux sociaux. |
-| **Navigation**                | Ensemble de liens qui permet de se déplacer entre les différentes pages ou sections d’un site. |
-| **Accordéon**                 | Composant qui permet d’afficher ou masquer du contenu en cliquant sur un titre ou une section. |
-| **Breadcrumb (fil d’Ariane)** | Chemin de navigation qui montre à l’utilisateur sa position dans la structure du site (ex. : Accueil > Cours > Chapitre 1). |
-| **Carte (Card)**              | Bloc visuel regroupant une image, un titre, un résumé et une action (souvent cliquable). Très utilisé pour des listes de contenus. |
-| **Carousel / Slideshow**      | Composant qui affiche plusieurs éléments (souvent des images) un à un, avec un défilement automatique ou manuel. |
-| **CTA (Call to Action)**      | Élément (souvent un bouton) incitant clairement l’utilisateur à faire une action précise (ex. : "S’inscrire", "Acheter"). |
-| **Hero**                      | Grande bannière en haut d’une page, souvent visuelle, servant à capter l’attention avec un message fort et un CTA. |
-| **Modal / Popup / Lightbox**  | Fenêtre flottante qui s’ouvre au-dessus du contenu, pour afficher des informations, des formulaires ou des images en grand (zoom galerie). |
-| **Onglets (Tabs)**            | Composant permettant de naviguer entre plusieurs sections de contenu sans quitter la page. |
-| **Placeholders**              | Texte gris dans un champ de formulaire qui donne un exemple de ce que l’utilisateur doit écrire. |
-| **Toasts**                    | Petites notifications temporaires qui apparaissent à l’écran pour informer (ex. : "Message envoyé"). |
-| **Tooltips / Popovers**       | Bulles d’information contextuelle qui apparaissent lorsqu’on survole ou clique sur un élément. |
+<div class="grid grid-1-1" markdown>
+![](./assets/images/cta.gif)
+
+<div markdown>
+**CTA (Call to Action)**
+<p class="sm">Élément interactif (souvent un bouton) incitant clairement l’utilisateur à faire une action précise (ex. : "S’inscrire", "Acheter").</p>
+</div>
+</div>
+
+### Accordion
+
+L'[accordéon](https://daisyui.com/components/accordion/) (ou _accordion_) est une composante qui permet d’afficher ou masquer du contenu en cliquant sur un titre ou une section.
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Accordéon" src="https://codepen.io/tim-momo/embed/VYvpyQO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/VYvpyQO">
+  Web 1 - Accordéon</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Breadcrumb
+
+Le [fil d’Ariane](https://daisyui.com/components/breadcrumbs/) (ou _Breadcrumb_) est un chemin de navigation qui montre à l’utilisateur sa position dans la structure du site (ex. : Accueil > Web 1 > Cours 1).
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Modal" src="https://codepen.io/tim-momo/embed/QwjpaOd?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QwjpaOd">
+  Web 1 - Modal</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Card
+
+Une [carte](https://daisyui.com/components/card/) (ou _card_) est un bloc visuel regroupant généralement une image, un titre, un résumé et une action. Très utilisé pour des listes de contenus.
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Card" src="https://codepen.io/tim-momo/embed/YPyZYEb?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/YPyZYEb">
+  Web 1 - Card</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Carousel
+
+Le [carrousel](https://daisyui.com/components/carousel/) (ou _slideshow_). Composante qui affiche plusieurs éléments un à un avec un défilement automatique ou manuel.
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Carousel" src="https://codepen.io/tim-momo/embed/vENxpaB?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/vENxpaB">
+  Web 1 - Carousel</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Hero
+
+Une [bannière](https://daisyui.com/components/hero/) servant à capter l’attention, souvent accompagné d'un message et d'un appel à l'action.
+
+![](./assets/images/hero.jpg){ data-zoom-image }
+
+### Modal
+
+[Fenêtre flottante](https://daisyui.com/components/modal/) (ou _Modal_ / _Dialog_ / _Popup_) qui superpose le contenu.
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Toast" src="https://codepen.io/tim-momo/embed/vENxpNb?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/vENxpNb">
+  Web 1 - Toast</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Tabs
+
+Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de naviguer entre plusieurs sections de contenu dans une même portion de l'interface.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Toast" src="https://codepen.io/tim-momo/embed/vENxWqQ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/vENxWqQ">
+  Web 1 - Toast</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Tooltip
+
+[Bulles d’information](https://daisyui.com/components/tooltip/) (ou _tooltip_) contextuelle qui apparaissent lorsqu’on survole ou clique sur un élément. Cette composante est moins pertinente sur un écran tactile.
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Heuristique UX 1 Bon" src="https://codepen.io/tim-momo/embed/jEbBaeE?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jEbBaeE">
+  Web 1 - Heuristique UX 1 Bon</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Toasts
+
+[Notifications](https://daisyui.com/components/toast/) temporaires (ou _toasts_) qui apparaissent à l’écran pour informer l'utilisateur (ex. : "Message envoyé").
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Tooltip" src="https://codepen.io/tim-momo/embed/jEbBadP?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jEbBadP">
+  Web 1 - Tooltip</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Expérience utilisateur
 
@@ -262,7 +334,7 @@ La qualité se mesure en fonction de son **efficacité**, de son **efficience** 
     * **Efficacité** : Est-ce que l’utilisateur atteint son objectif ?
     * **Efficience** : Combien d’efforts ou de temps ça lui prend pour y arriver ?
 
-    Prenons l'exemple d'arroser un jardin avec un toyeau d'arrosage ou avec un verre d'eau. Les deux sont efficace, mais il y en a un plus efficient que l'autre. 
+    Prenons l'exemple d'arroser un jardin avec un tuyau d'arrosage ou avec un verre d'eau. Les deux sont efficaces, mais il y en a un plus efficient que l'autre. 
 
 ### 10 principes UX
 
@@ -350,6 +422,7 @@ L'exemple parfait ici est l'existence de l'inspecteur dans le navigateur.
     ![](./assets/images/browser-simple.png)
 === "Avancé"
     ![](./assets/images/browser-advanced.png)
+
 <!-- Exemple : Des filtres personnalisables dans une boutique en ligne, ou des raccourcis clavier dans une application Web. -->
 
 #### 8️⃣ Design esthétique et minimaliste
@@ -387,78 +460,3 @@ Même si le système est simple, une aide doit être accessible pour les utilisa
 </iframe>
 
 <!-- Exemple : Une section FAQ, un bouton d’aide ou une bulle contextuelle « Besoin d’aide ? » sur un formulaire complexe. -->
-
-[STOP]
-
-> L’expérience utilisateur regroupe tous les aspects de l’interaction entre un utilisateur final et une entreprise, ses services et ses produits. Pour offrir une expérience exemplaire, il ne suffit pas de répondre aux besoins de l’utilisateur : il faut le faire avec simplicité, fluidité et plaisir. Une bonne UX nécessite une collaboration entre plusieurs disciplines (ingénierie, marketing, design) pour créer un tout cohérent.[^nng]
-
-### Les 7 facettes d'une UX de Peter Morville
-
-| Facette                       | Définition |
-|-------------------------------|------------|
-| **Utile** (_useful_)          | Le contenu ou la fonctionnalité répond à un besoin réel. |
-| **Utilisable** (_usable_)     | Le produit est facile à utiliser, sans effort inutile. |
-| **Attractif** (_desirable_)   | L’interface est attrayante et suscite des émotions positives. |
-| **Trouvable** (_findable_)    | L’information est facile à localiser et à parcourir. |
-| **Accessible** (_accessible_) | Tout le monde peut l’utiliser, y compris les personnes en situation de handicap. |
-| **Crédible** (_credible_)     | Le contenu et l’interface inspirent confiance. |
-| **Précieux** (_valuable_)     | Le produit crée de la valeur pour l’utilisateur **et** pour l’organisation. |
-
-### Draw.io
-
-![draw-io](https://github.com/user-attachments/assets/2be5053f-6e20-4630-90a4-e72e939a31e6)
-
-Draw.io est un outil en ligne de création de diagrammes et de schémas. Il permet aux utilisateurs de concevoir des diagrammes de flux, des organigrammes, des diagrammes de réseau, des schémas de base de données, des maquettes d'interface utilisateur, des plans d'architecture et bien d'autres types de graphiques visuels.
-
-L'outil offre une interface conviviale qui facilite la création de diagrammes professionnels, même pour les personnes qui ne sont pas des concepteurs expérimentés.
-
-[Draw.io](https://draw.io)
-
-## Lexique
-
-* **HTML** : Langage de balisage pour structurer le contenu Web
-* **CSS** : Langage de style pour la présentation visuelle
-* **UX** : Expérience utilisateur (User eXperience)
-* **UI** : Interface utilisateur (User Interface)
-* **Frontend** : Partie visible d'une application Web (côté client)
-* **Backend** : Partie serveur d'une application (côté serveur)
-* **Responsive** : Mise en forme qui s'adapte à tous les écrans
-
-## Composantes d’une page Web et interactivité
-
-Web components : <https://blog.kamathrohan.com/atomic-design-methodology-for-building-design-systems-f912cf714f53>
-
-/autres/composantes-web.html
-
-## Métiers du Web
-
-| Métier                     | Description                                    | Compétences clés |
-|----------------------------|------------------------------------------------|------------------|
-| Développeur Frontend       | Interface utilisateur (HTML/CSS/JS)            | HTML, CSS, JavaScript, React/Vue |
-| Développeur Backend        | Serveurs, bases de données, API, sécurité      | PHP, Python, Node.js, bases de données |
-| Intégrateur Web            | Maquettes graphiques → code HTML/CSS           | HTML, CSS, responsive design |
-| Designer UX/UI             | Expérience utilisateur et interface graphique  | Figma, Adobe XD, recherche utilisateur |
-| Gestionnaire de projet Web | Coordination des équipes et ressources         | Gestion de projet, communication |
-
-**Autres métiers connexes** : SEO, rédaction Web, analyse Web, DevOps, sécurité Web.
-
-### Un Web à plusieurs niveaux
-
-![Niveaux du Web](./assets/images/clear-deep-dark.webp)
-
-#### Web surfacique
-
-C'est la partie d'Internet accessible à tous via les moteurs de recherche classiques comme <google.ca>, le site du collège ou <lapresse.ca>.
-
-#### Web profond
-
-Partie du Web qui n'est pas accessible aux internautes au moyen des moteurs de recherche usuels[^webprofond]. Cela inclut les bases de données, les intranets ou les contenus protégés par mot de passe (ex. : Netflix, Gmail, AccèsD). Cette portion représente la majorité du Web. Certains estiment qu'elle en constitue jusqu'à 95%[^avast] du Web !
-
-[^webprofond]: [Définition de la toile profonde | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26544511/toile-profonde)
-[^avast]: [Avast – Dark web: facts and myths](https://www.avast.com/c-dark-web-facts)
-
-#### Web caché
-
-Partie du Web invisible à laquelle on peut accéder en utilisant des navigateurs Web spéciaux et des logiciels permettant le cryptage des communications[^webcache].
-
-[^webcache]: [Définition du Web caché | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26557092/web-cache)
