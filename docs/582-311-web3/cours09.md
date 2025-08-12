@@ -1,12 +1,6 @@
----
-tags:
-  - Cours 9
-  - Vendredi 25 octobre
----
-
 # Cours 9
 
-## Message de Françoise [:material-microsoft-teams:](https://teams.microsoft.com/l/message/19:BiAHRPbK6SjauPwC8oHcs9qPyUx-CFhBPQ0C9ksx12U1@thread.tacv2/1729784430909?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=47f527c0-26a1-4be3-b02d-ed97a9e5017a&parentMessageId=1729784430909&teamName=Intelligence%20Artificielle&channelName=General&createdTime=1729784430909)
+[STOP]
 
 > **Changement de plan**
 >

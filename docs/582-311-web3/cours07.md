@@ -1,11 +1,6 @@
----
-tags:
-  - Cours 7
-  - Vendredi 4 octobre
-  - Examen
----
-
 # Examen 01
+
+[STOP]
 
 Cet examen représente **20% de votre note finale**.
 

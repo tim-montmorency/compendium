@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 3
-  - Vendredi 6 septembre
----
-
 # Bootstrap 1/3
+
+[STOP]
 
 ![](./assets/images/bootstrap_banner.png)
 

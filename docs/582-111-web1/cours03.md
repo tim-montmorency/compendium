@@ -16,6 +16,20 @@ Il existe aussi les balises `<b>` et `<i>`, qui produisent un effet visuel simil
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+## Balises sémantiques
+
+| Balise      | Rôle |
+| ----------- | ---- |
+| `<header>`  | En-tête du site ou d’une section |
+| `<nav>`     | Zone de navigation |
+| `<main>`    | Contenu principal unique |
+| `<section>` | Regroupement logique de contenu |
+| `<article>` | Contenu autonome (ex. : blogue) |
+| `<aside>`   | Contenu secondaire (infos connexes, pub) |
+| `<footer>`  | Pied de page |
+
+DEMO: faire un site avec ca.
+
 ### Anglicismes
 
 Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce faire, il faut ajouter un attribut.
@@ -26,7 +40,7 @@ Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Balises génériques
+## Balises génériques (non sémantiques)
 
 | Balise | Type | Usage typique |
 |--------|------|---------------|
@@ -40,9 +54,17 @@ Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce
 </div>
 ```
 
-## Caractères spéciaux
+## Attributs
 
-`&nbsp;`
+https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes
+
+<mark>@todo</mark>
+
+Classe
+
+Id (un seul par page)
+
+data-machintruc
 
 ## Liens hypertexte
 
@@ -101,6 +123,9 @@ Les deux sont valides, parce que ce sont toutes les deux des balises **inline** 
 
     Dès qu'on commence à imbriquer, il faut penser à indenter!
 
+
+Components Atomic : https://blog.kamathrohan.com/atomic-design-methodology-for-building-design-systems-f912cf714f53
+
 ## Chemins d’accès absolus vs relatifs
 
 | Type | Exemple | Description |
@@ -130,6 +155,8 @@ Dans `contact.html`, pour viser `logo.png` :
 <img src="../images/logo.png" alt="Logo">
 ```
 
+
+
 [STOP]
 
 Vérification des devoirs Arborescence et 1ère balises<br><br>
@@ -139,7 +166,7 @@ Vérification des devoirs Arborescence et 1ère balises<br><br>
 <br>
 <br>
 
-## Les Balises Div et Span
+## Les Balises Div et Span 
 
 ![icon (4)](https://github.com/user-attachments/assets/326c8ec2-4914-4f88-bda6-d43892f5a72d)
 [`<div>``<span>`](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/div-span.html)

@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 2
-  - Vendredi 30 août
----
-
 # Cours 2
+
+[STOP]
 
 ## Annonce
 

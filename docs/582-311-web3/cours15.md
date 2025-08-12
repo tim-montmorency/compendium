@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 15
-  - Vendredi 13 décembre
----
-
 # Examen 02
+
+[STOP]
 
 Cet examen représente **20% de votre note finale**.
 

@@ -1,6 +1,6 @@
 Relume (wireframe)
 Fullcircle pour le tp final
-Components Atomic : https://blog.kamathrohan.com/atomic-design-methodology-for-building-design-systems-f912cf714f53
+
 
 
 Important de l'indentation

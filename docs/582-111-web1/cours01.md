@@ -1,5 +1,6 @@
 # Cours 1 | Bienvenue
 
+<!-- markdownlint-disable MD033 -->
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
 *[HTML]: HyperText Markup Language
@@ -340,6 +341,8 @@ La qualité se mesure en fonction de son **efficacité**, de son **efficience** 
 
 Voici la liste des [10 heuristiques d’utilisabilité](https://www.nngroup.com/articles/ten-usability-heuristics/) de Jakob Nielsen.
 
+<!-- Src : https://blog.prototypr.io/the-10-usability-heuristics-free-posters-for-every-design-office-c7b3b01b6099 -->
+
 <!-- Résumé en image https://miro.medium.com/v2/resize:fit:4800/format:webp/1*QhwEGRQWg_yv_FTrJnsxBQ.png -->
 
 #### 1️⃣ Visibilité de l’état du système
@@ -460,3 +463,4 @@ Même si le système est simple, une aide doit être accessible pour les utilisa
 </iframe>
 
 <!-- Exemple : Une section FAQ, un bouton d’aide ou une bulle contextuelle « Besoin d’aide ? » sur un formulaire complexe. -->
+

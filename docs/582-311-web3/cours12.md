@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 12
-  - Vendredi 15 novembre
----
-
 # Cours 12 - Plugiciels[^plugin]
+
+[STOP]
 
 [^plugin]: <https://gsap.com/docs/v3/Plugins/>
 
