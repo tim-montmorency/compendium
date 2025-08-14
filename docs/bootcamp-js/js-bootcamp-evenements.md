@@ -5,7 +5,7 @@ tags:
 
 # Événements
 
-![](../assets/images/evenements_banner.png)
+![](./assets/img/evenements_banner.png)
 
 ## Matière à connaître
 

@@ -5,7 +5,7 @@ tags:
 
 # Objets
 
-![](../assets/images/objets_banner.png)
+![](./assets/img/objets_banner.png)
 
 ## Matière à connaître
 

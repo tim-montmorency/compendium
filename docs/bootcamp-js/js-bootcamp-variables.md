@@ -5,7 +5,7 @@ tags:
 
 # Les variables et les types
 
-![](../assets/images/variables_banner.png)
+![](./assets/img/variables_banner.png)
 
 ## Matière à connaître
 
@@ -47,7 +47,7 @@ tags:
 
     C’est un espace dans le navigateur où tu peux afficher des messages pour comprendre ce que fait ton programme. C’est aussi là que s’affichent les messages d’erreur si ton programme rencontre un problème.
 
-    ![](../assets/images/console.png){ data-zoom-image }
+    ![](./assets/img/console.png){ data-zoom-image }
 
     [Comment ouvrir les outils pour les développeurs Chrome ?](https://developer.chrome.com/docs/devtools/open?hl=fr)
 

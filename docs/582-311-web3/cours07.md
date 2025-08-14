@@ -1,6 +1,6 @@
 # Examen 01
 
-[STOP]
+
 
 Cet examen représente **20% de votre note finale**.
 

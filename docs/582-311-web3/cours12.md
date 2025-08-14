@@ -1,6 +1,6 @@
 # Cours 12 - Plugiciels[^plugin]
 
-[STOP]
+
 
 [^plugin]: <https://gsap.com/docs/v3/Plugins/>
 

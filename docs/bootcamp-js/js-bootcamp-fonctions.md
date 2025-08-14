@@ -5,7 +5,7 @@ tags:
 
 # Fonctions
 
-![](../assets/images/fonctions_banner.png)
+![](./assets/img/fonctions_banner.png)
 
 ## Matière à connaître
 

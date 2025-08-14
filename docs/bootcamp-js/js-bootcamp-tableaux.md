@@ -5,7 +5,7 @@ tags:
 
 # Tableaux
 
-![](../assets/images/tableaux_banner.png)
+![](./assets/img/tableaux_banner.png)
 
 ## Matière à connaître
 

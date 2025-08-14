@@ -5,7 +5,7 @@ tags:
 
 # Opérateurs arithmétiques
 
-![](../assets/images/operateurs_banner.png)
+![](./assets/img/operateurs_banner.png)
 
 ## Matière à connaître
 

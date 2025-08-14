@@ -5,7 +5,7 @@ tags:
 
 # Camp d'entrainement JavaScript
 
-![](../assets/images/gijane.webp){.w-100}
+![](./assets/img/gijane.webp){.w-100}
 
 ## Exercices
 
@@ -26,3 +26,4 @@ Finalement, liez les deux ensemble avec la balise  `<script src="script.js" defe
 - [ ] [Manipulation du DOM](./js-bootcamp-dom.md){ .back }
 - [ ] [Fonctions](./js-bootcamp-fonctions.md){ .back }
 - [ ] [Événements](./js-bootcamp-evenements.md){ .back }
+ 

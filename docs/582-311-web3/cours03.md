@@ -1,6 +1,6 @@
 # Bootstrap 1/3
 
-[STOP]
+
 
 ![](./assets/images/bootstrap_banner.png)
 

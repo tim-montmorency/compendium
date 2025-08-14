@@ -1,6 +1,6 @@
 # Cours 14
 
-[STOP]
+
 
 Exercices de préparation à l'examen final. Voici quelques ressources pour vous aider :
 

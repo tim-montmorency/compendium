@@ -1,23 +1,18 @@
 # Cours 9
 
-[STOP]
 
-> **Changement de plan**
->
-> Intelligence Artificielle
->
-> Bonjour à tous, changement de plan pour les licences. Vous pourrez utiliser les licences de Midjourney et de Runway uniquement au collège. Je vais changer les mots de passe. Donc pour votre moodboard, vous pouvez utiliser des images libres de droit. Au prochain cours, vous aurez du temps pour utiliser Midjourdney.
 
-## Bootcamp JS
+<!--
+Anime.js : Alternative cool et opensource à Gsap (https://animejs.com/)
+https://barba.js.org/ : pour de la transition entre les pages.
+Chart.js : barres, lignes, pie, radar, annotations de base.
+Cartes — Leaflet : cartes interactives, marqueurs, tuiles libres.
+https://zzz.dog/
+Tone.js (synthèse/rythmes audio en JS)
+ -->
 
-## Retour sur la partie JavaScript de l'examen
 
-Les étapes à suivre pour compléter l'exercice :
 
-1. On ajoute des variables qui nous servent à compter.
-1. On fait juste un fruit pour commencer
-1. On ajoute une fonction pour les tâches répétitives (incrémentation du total et validation du clique de chaque fruit)
-1. Finalement, on copie/colle l'eventListener pour chaque fruit.
 
 ## GSAP
 

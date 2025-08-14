@@ -5,7 +5,7 @@ tags:
 
 # Les boucles
 
-![](../assets/images/boucles_banner.png)
+![](./assets/img/boucles_banner.png)
 
 ## Matière à connaître
 

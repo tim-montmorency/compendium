@@ -1,6 +1,6 @@
 # Cours 11
 
-[STOP]
+
 
 ## Parallaxe CSS
 

@@ -5,7 +5,7 @@ tags:
 
 # Manipulation du DOM
 
-![](../assets/images/dom_banner.png)
+![](./assets/img/dom_banner.png)
 
 ## Matière à connaître
 
