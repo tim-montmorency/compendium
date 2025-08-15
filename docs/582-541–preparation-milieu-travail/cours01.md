@@ -1,14 +1,19 @@
 # Cours 1 - Bienvenue! 
-## Se présenter
+## Wooclap
 
 
 ## Plan de cours
  
 [📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUWwACJgnypNg84pk8frp5gB4ozDwHnxN9N1rCoDW1BLiA?e=rNFy0U){ .md-button }             
 
+## Créer son journal de bord
+Ajout à l'équipe des stages
 
-## Test diagnostic      
-[🛠️ Accéder aux questions](https://forms.office.com/r/qSQzf2UwQm){ .md-button }           
+[🛠️ Copier le template du journal de préparation](https://github.com/tim-montmorency-preparation-stage/modele_journal_preparation_stage){ .md-button }      
+
+
+## Créer son profil     
+Suivre les consignes du document mon_profil.md
 
       
 ## Activité sur les forces et qualités
