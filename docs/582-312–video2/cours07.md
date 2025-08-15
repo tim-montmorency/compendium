@@ -1,4 +1,3 @@
-[stop]
 
 # Cours 7
 

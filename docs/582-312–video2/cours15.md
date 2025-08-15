@@ -1,2 +1,2 @@
-[stop]
+
 # Cours 15

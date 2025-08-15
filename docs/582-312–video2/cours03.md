@@ -1,5 +1,3 @@
-[stop]
-
 # Cours 3
   
 

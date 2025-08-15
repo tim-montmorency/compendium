@@ -1,4 +1,3 @@
-[stop]
 # COURS 04
 
 ## [Da Vinci - La base](da_vinci_base.md) (90 minutes)

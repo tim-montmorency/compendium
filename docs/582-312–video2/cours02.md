@@ -1,5 +1,3 @@
-[stop]
-
 # Cours 2
 
 ## Consignes tournage (10 minutes)
