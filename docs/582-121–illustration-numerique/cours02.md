@@ -1,6 +1,6 @@
-[STOP]
-
 # Cours 2
+
+[STOP]
 
 ## Photoshop
 
