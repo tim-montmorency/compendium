@@ -1,5 +1,7 @@
 # Cours 5
-## 🚨 Remise et présentation des planifications de portfolio
+
+## ⚠️ Heure et jour des cours modifié: Mercredi 11 décembre de 15h30 à 17h30 pour tous au C-1712 (Grand studio)
+
 
 ## Présentation sur le cv   
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVyO4I6ZyrpItmxxqMTH2bMBkqWKR6zRhRTug3VbdkKmkA?e=4HOTYb){ .md-button }  
