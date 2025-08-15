@@ -1,3 +1,5 @@
+
+[stop]
 <style>.md-header{display:none;}</style>
 
 #  Guide pour la création de musique via un module d'intelligence artificielle
