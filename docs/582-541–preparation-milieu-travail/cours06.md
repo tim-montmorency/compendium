@@ -1,5 +1,7 @@
 # Cours 6
 
+## 🚨 Remise et présentation des planifications de portfolio
+
 ## Temps pour les comités
 Contact des employeurs pour l'événement. 
 
