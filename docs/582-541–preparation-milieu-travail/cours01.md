@@ -7,7 +7,7 @@
 [📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUWwACJgnypNg84pk8frp5gB4ozDwHnxN9N1rCoDW1BLiA?e=rNFy0U){ .md-button }             
 
 ## Créer son journal de bord
-Ajout à l'équipe des stages
+Ajout à l'équipe GitHub des stages
 
 [🛠️ Copier le template du journal de préparation](https://github.com/tim-montmorency-preparation-stage/modele_journal_preparation_stage){ .md-button }      
 
