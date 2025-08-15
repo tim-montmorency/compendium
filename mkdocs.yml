@@ -494,31 +494,31 @@ nav:
   #   - Cours 15: 582-611–stage-entreprise/cours15.md
   - Développement Web: developpement-web/index.md
   - edm3840:
-      - edm3840/index.md
-      - Références: edm3840/references.md
-      - Projet 1: edm3840/projet01.md
-      - Projet 2: edm3840/projet02.md
-      - Prompt: edm3840/ai/prompt.md
-      - Kling: edm3840/ai/klingai.md
-      - Midjourney: edm3840/ai/midjourney.md
-      - Midjourney code: edm3840/ai/midjourney_code.md
-      - Runway: edm3840/ai/runway.md
-      - Da Vinci / La base: edm3840/da_vinci_base.md
-      - Da Vinci / La colorisation: edm3840/da_vinci_colorisation.md
-      - Cours 2: edm3840/cours02.md
-      - Cours 3: edm3840/cours03.md
-      - Cours 4: edm3840/cours04.md
-      - Cours 5: edm3840/cours05.md
-      - Cours 6: edm3840/cours06.md
-      - Cours 7: edm3840/cours07.md
-      - Cours 8: edm3840/cours08.md
-      - Cours 9: edm3840/cours09.md
-      - Cours 10: edm3840/cours10.md
-      - Cours 11: edm3840/cours11.md
-      - Cours 12: edm3840/cours12.md
-      - Cours 13: edm3840/cours13.md
-      - Cours 14: edm3840/cours14.md
-      - Cours 15: edm3840/cours15.md
+      # - edm3840/index.md
+      # - Références: edm3840/references.md
+      # - Projet 1: edm3840/projet01.md
+      # - Projet 2: edm3840/projet02.md
+      # - Prompt: edm3840/ai/prompt.md
+      # - Kling: edm3840/ai/klingai.md
+      # - Midjourney: edm3840/ai/midjourney.md
+      # - Midjourney code: edm3840/ai/midjourney_code.md
+      # - Runway: edm3840/ai/runway.md
+      # - Da Vinci / La base: edm3840/da_vinci_base.md
+      # - Da Vinci / La colorisation: edm3840/da_vinci_colorisation.md
+      # - Cours 2: edm3840/cours02.md
+      # - Cours 3: edm3840/cours03.md
+      # - Cours 4: edm3840/cours04.md
+      # - Cours 5: edm3840/cours05.md
+      # - Cours 6: edm3840/cours06.md
+      # - Cours 7: edm3840/cours07.md
+      # - Cours 8: edm3840/cours08.md
+      # - Cours 9: edm3840/cours09.md
+      # - Cours 10: edm3840/cours10.md
+      # - Cours 11: edm3840/cours11.md
+      # - Cours 12: edm3840/cours12.md
+      # - Cours 13: edm3840/cours13.md
+      # - Cours 14: edm3840/cours14.md
+      # - Cours 15: edm3840/cours15.md
 
 ###########################################################################
 
