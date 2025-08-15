@@ -1,4 +1,4 @@
-name: Déploiement de la documentation markdown en HTML
+name: Déploiement de la documentation markdown
 
 on:
   push:
