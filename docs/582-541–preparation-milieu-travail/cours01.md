@@ -21,6 +21,7 @@ Suivre les consignes du document mon_profil.md
 
 ## 5 à 7
 Planification de la séance photo
+Invitations pour la journée carrière? 
 
 ## Journée carrière     
 Formation des comités   
