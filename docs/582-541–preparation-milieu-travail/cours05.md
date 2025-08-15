@@ -1,6 +1,7 @@
 # Cours 5
 
-## ⚠️ Heure et jour des cours modifié: Mercredi 11 décembre de 15h30 à 17h30 pour tous au C-1712 (Grand studio)
+## ⚠️ Heure des cours modifiée:
+Groupe 1: 11h40 à 13h25, puis 18h à 19h. 
 
 
 ## Présentation sur le cv   
