@@ -42,4 +42,4 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./site
           force_orphan: true     # <-- évite l'erreur "fetch first"
-          # keep_files: false    # (par défaut) nettoie les fichiers disparus
+          # keep_files: false    # (par défaut) nettoie les fichiers disparus 
