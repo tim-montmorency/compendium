@@ -1,3 +1,5 @@
+[stop]
+
 # Cours 12
 
 ## Travail en classe
