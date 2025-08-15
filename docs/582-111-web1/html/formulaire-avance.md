@@ -183,7 +183,7 @@ Permet de choisir une couleur à l'aide d'un sélecteur de couleurs **(colors pi
 
   **Exercice Among Us**<br>
   _Pour cet exercice nous allons créer un formulaire permettant de générer un personnage du célèbre jeu Among Us._<br>
-  [Exercice Among Us](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/exercices/amongus.html)
+  [Exercice Among Us](../exercices/amongus.md)
 </div>
 
 

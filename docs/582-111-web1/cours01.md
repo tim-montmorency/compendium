@@ -205,6 +205,11 @@ On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic dro
 
 ## Vocabulaire et concepts Web
 
+==@todo== : Titre, paragraphe, Liens hypertextes, image et icone, galerie, filtre / tags, alert
+
+
+
+
 <div class="grid grid-1-1" markdown>
 ![](./assets/images/code.gif)
 
@@ -317,6 +322,20 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
   Web 1 - Tooltip</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+## W3C
+
+![](./assets/images/W3C®_Icon.png)
+
+Le **W3C** (World Wide Web Consortium) est l’organisme qui définit les règles du Web (HTML, CSS, accessibilité, etc.) pour que les sites fonctionnent bien sur tous les navigateurs et pour tous les utilisateurs.  
+
+### Validateur
+
+On peut y valider son code : [validator.w3.org](https://validator.w3.org/) via l'onglet "Validate by Direct Input".
+
+Par contre, c'est laborieux pour rien parce qu'il existe plein d'extensions vscode pour faire le même travail.
+
+Par exemple, [Webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint), [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) ou [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) font _grosso modo_ la même chose que le validateur du W3C.
 
 ## Expérience utilisateur
 

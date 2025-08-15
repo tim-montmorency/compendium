@@ -427,29 +427,29 @@ contact.html
 ## Arborescence
 
 ![icon](https://github.com/user-attachments/assets/45afe678-94df-47d8-b3ac-b99d9d09cf4f)
-[Sitemap](https://tim-montmorency.com/compendium/582-111-web1/autres/arborescence.html)
+[Sitemap](https://tim-montmorency.com/compendium/582-111-web1/autres/arborescence.md)
 
 
 ## Relation Parent-Enfant
 
 ![icon (3)](https://github.com/user-attachments/assets/3572f2cb-dc55-41c3-96bd-c86f72bbc8e7)
 
-[Parent, enfant](https://tim-montmorency.com/compendium/582-111-web1/html/parents-enfants.html)
+[Parent, enfant](https://tim-montmorency.com/compendium/582-111-web1/html/parents-enfants.md)
 
 ## Sémantique
 
 ![logo-2582748_640](https://github.com/user-attachments/assets/41d98834-b49e-453d-857e-830ac6c4dbaa)
 
-[header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111-web1/html/semantique.html)
+[header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111-web1/html/semantique.md)
 
 ## Les Balises
 
 ![icon (1)](https://github.com/user-attachments/assets/f9117e39-9d2b-457c-adfa-bd33d2447c36)
 
-[`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111-web1/html/balises.html)
+[`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111-web1/html/balises.md)
 
 ## Mes premières balises
 
 ![balises](https://github.com/user-attachments/assets/dc60993a-4390-4485-a20d-a008d2f3551e)
 
-[Exercice sur les balises sémantiques HTML](https://tim-montmorency.com/compendium/582-111-web1/exercices/mes_premieres_balises.html)
+[Exercice sur les balises sémantiques HTML](https://tim-montmorency.com/compendium/582-111-web1/exercices/mes_premieres_balises.md)

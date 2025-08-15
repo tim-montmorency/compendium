@@ -55,6 +55,4 @@ Donatello
 
 ## Notes de cours
 
-![icon (16)](https://github.com/user-attachments/assets/8246075f-92fc-46d3-aa0d-685459800c13)<br> Les balises `<details>` et `<summary>` <br> [Les balises `<details>` et `<summary>`](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/html/details-summary.html#summary)
-
-
+![icon (16)](https://github.com/user-attachments/assets/8246075f-92fc-46d3-aa0d-685459800c13)<br> Les balises `<details>` et `<summary>` <br> [Les balises `<details>` et `<summary>`](../html/details-summary.md)

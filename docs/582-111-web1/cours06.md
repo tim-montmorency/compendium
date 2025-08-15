@@ -103,7 +103,7 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 ## Formulaire avancé
 ![icon (14)](https://github.com/user-attachments/assets/eceb7f15-970e-47d5-b4a4-c9d8e9f791a2)
 
-[number, password, email, tel, date, etc.](https://tim-montmorency.com/compendium/582-111–web1/html/formulaire-avance.html)
+[number, password, email, tel, date, etc.](https://tim-montmorency.com/compendium/582-111–web1/html/formulaire-avance.md)
 <br>
 <br>
 ## Exercice Among Us
@@ -112,7 +112,7 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 
 
 
-[Exercice Among Us](https://tim-montmorency.com/compendium/582-111–web1/exercices/amongus.html)
+[Exercice Among Us](https://tim-montmorency.com/compendium/582-111–web1/exercices/amongus.md)
 <br>
 <br>
 ## Favicon
@@ -121,7 +121,7 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 
 
 
-[icônes de navigateur](https://tim-montmorency.com/compendium/582-111–web1/html/favicon.html)
+[icônes de navigateur](https://tim-montmorency.com/compendium/582-111–web1/html/favicon.md)
 <br>
 <br>
 ## Favicon - Mega Man
@@ -130,14 +130,14 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 
 
 
-[Pour cet exercice, vous devrez créer un fichier HTML affichant dans l’onglet de votre navigateur un favicon de Mega Man.](https://tim-montmorency.com/compendium/582-111–web1/exercices/megaman.html)
+[Pour cet exercice, vous devrez créer un fichier HTML affichant dans l’onglet de votre navigateur un favicon de Mega Man.](https://tim-montmorency.com/compendium/582-111–web1/exercices/megaman.md)
 <br>
 <br>
 ## Details & Summary
 ![icon (16)](https://github.com/user-attachments/assets/23e746a9-068a-4678-9540-b2e69fd91792)
 
 
-[Les balises `<details>` et `<summary>`](https://tim-montmorency.com/compendium/582-111–web1/html/details-summary.html)
+[Les balises `<details>` et `<summary>`](https://tim-montmorency.com/compendium/582-111–web1/html/details-summary.md)
 <br>
 <br>
 
@@ -146,7 +146,7 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 ![thumb (4)](https://github.com/user-attachments/assets/9969a18f-0785-47b1-a0a9-323cfabbc5fb)
 
 
-[Pour cet exercice, vous devrez recréer un mini quiz portant Marc Labrèche à l’aide des balises details et summary.](https://tim-montmorency.com/compendium/582-111–web1/exercices/quiz-marc-labreche.html)
+[Pour cet exercice, vous devrez recréer un mini quiz portant Marc Labrèche à l’aide des balises details et summary.](https://tim-montmorency.com/compendium/582-111–web1/exercices/quiz-marc-labreche.md)
 <br>
 <br>
 
@@ -154,12 +154,12 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 ![icon (17)](https://github.com/user-attachments/assets/543b638e-38ff-4764-8120-bb5e77d4a5c5)
 
 
-[Résumé du HTML 5](https://tim-montmorency.com/compendium/582-111–web1/html/resume.html)
+[Résumé du HTML 5](https://tim-montmorency.com/compendium/582-111–web1/html/resume.md)
 
 ## Exercice Résumé
 ![circus-tent_2662723](https://github.com/user-attachments/assets/3eb15a75-9e21-4d8f-beb8-608c6ca35a70)
 
 
-[Pour cet exercice, vous devrez compléter le site web](https://tim-montmorency.com/compendium/582-111–web1/exercices/le-cirque.html)
+[Pour cet exercice, vous devrez compléter le site web](https://tim-montmorency.com/compendium/582-111–web1/exercices/le-cirque.md)
 
 

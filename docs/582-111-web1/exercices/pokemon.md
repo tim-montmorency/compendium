@@ -22,4 +22,4 @@ Vous devez vous créer 6 balises img et afficher les Pokémon suivant: Garchomp,
 
 ## Notes de cours
 
-![icon (6)](https://github.com/user-attachments/assets/7916fff8-6d58-4fdd-a383-44397053721a)<br> Chemins d'accès <br> [Absolue, Relatif](https://tim-montmorency.com/compendium/582-111%E2%80%93web1/autres/chemins.html)
+![icon (6)](https://github.com/user-attachments/assets/7916fff8-6d58-4fdd-a383-44397053721a)<br> Chemins d'accès <br> [Absolue, Relatif](../autres/chemins.md)
