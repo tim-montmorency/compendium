@@ -33,7 +33,7 @@ jobs:
         run: pip show mkdocs-material
 
       - name: Build mkdocs
-        run: mkdocs build --q
+        run: mkdocs build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
