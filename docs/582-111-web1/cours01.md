@@ -203,39 +203,28 @@ On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic dro
 * Rouvrir un onglet fermé : ++ctrl+shift+t++
 * Rechargement forcé (hard reload) sans utiliser le cache (mémoire temporaire du navigateur) : ++ctrl+shift+r++
 
-## Vocabulaire et concepts Web
+## Notions du Web
 
-==@todo== : Titre, paragraphe, Liens hypertextes, image et icone, galerie, filtre / tags, alert
+### Composantes
+
+Ce qu'on appelle composante Web sont des éléments dans l'interface. Certains sont plus compliqués que d'autres. C'est pourquoi on tend à les catégoriser. Une structure qui le fait bien est l'analogie atomique qu'on appelle aussi Atomic design system.
+
+Les atomes sont les éléments non décomposables, ce sont les composantes les plus simples : 
+
+* Titre
+* Paragraphe
+* Liens
+* Image / Icône
+* Champ de formulaire
+* Bouton
+
+<!-- ==@todo== : Titre, paragraphe, Liens hypertextes, image et icone, galerie, filtre / tags, alert -->
 
 
 
 
-<div class="grid grid-1-1" markdown>
-![](./assets/images/code.gif)
 
-<div markdown>
-**Open source**
-<p class="sm">Application dont la programmation est accessible au public. Le code peut être consulté, modifié et redistribué. L'inverse d'une application propriétaire.</p>
-</div>
-</div>
 
-<div class="grid grid-1-1" markdown>
-![](./assets/images/responsive.gif)
-
-<div markdown>
-**Responsive**
-<p class="sm">Mise en page qui s’adapte à la taille de l’écran</p>
-</div>
-</div>
-
-<div class="grid grid-1-1" markdown>
-![](./assets/images/cta.gif)
-
-<div markdown>
-**CTA (Call to Action)**
-<p class="sm">Élément interactif (souvent un bouton) incitant clairement l’utilisateur à faire une action précise (ex. : "S’inscrire", "Acheter").</p>
-</div>
-</div>
 
 ### Accordion
 
@@ -322,6 +311,35 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
   Web 1 - Tooltip</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+### Concepts
+
+<div class="grid grid-1-1" markdown>
+![](./assets/images/code.gif)
+
+<div markdown>
+**Open source**
+<p class="sm">Application dont la programmation est accessible au public. Le code peut être consulté, modifié et redistribué. L'inverse d'une application propriétaire.</p>
+</div>
+</div>
+
+<div class="grid grid-1-1" markdown>
+![](./assets/images/responsive.gif)
+
+<div markdown>
+**Responsive**
+<p class="sm">Mise en page qui s’adapte à la taille de l’écran</p>
+</div>
+</div>
+
+<div class="grid grid-1-1" markdown>
+![](./assets/images/cta.gif)
+
+<div markdown>
+**CTA (Call to Action)**
+<p class="sm">Élément interactif (souvent un bouton) incitant clairement l’utilisateur à faire une action précise (ex. : "S’inscrire", "Acheter").</p>
+</div>
+</div>
 
 ## W3C
 
