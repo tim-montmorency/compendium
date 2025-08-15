@@ -54,25 +54,25 @@ nav:
       - 582-121–illustration-numerique/index.md
       - Références: 582-121–illustration-numerique/references.md
       - Projet 1: 582-121–illustration-numerique/projets/projet01.md
-      - Projet 2: 582-121–illustration-numerique/projets/projet02.md
-      - AI: 582-121–illustration-numerique/ai/ai.md
-      - Kling: 582-121–illustration-numerique/ai/klingai.md
-      - Midjourney: 582-121–illustration-numerique/ai/midjourney.md
+      #- Projet 2: 582-121–illustration-numerique/projets/projet02.md
+      #- AI: 582-121–illustration-numerique/ai/ai.md
+      #- Kling: 582-121–illustration-numerique/ai/klingai.md
+      #- Midjourney: 582-121–illustration-numerique/ai/midjourney.md
       - Cours 1: 582-121–illustration-numerique/cours01.md
-      - Cours 2: 582-121–illustration-numerique/cours02.md
-      - Cours 3: 582-121–illustration-numerique/cours03.md
-      - Cours 4: 582-121–illustration-numerique/cours04.md
-      - Cours 5: 582-121–illustration-numerique/cours05.md
-      - Cours 6: 582-121–illustration-numerique/cours06.md
-      - Cours 7: 582-121–illustration-numerique/cours07.md
-      - Cours 8: 582-121–illustration-numerique/cours08.md
-      - Cours 9: 582-121–illustration-numerique/cours09.md
-      - Cours 10: 582-121–illustration-numerique/cours10.md
-      - Cours 11: 582-121–illustration-numerique/cours11.md
-      - Cours 12: 582-121–illustration-numerique/cours12.md
-      - Cours 13: 582-121–illustration-numerique/cours13.md
-      - Cours 14: 582-121–illustration-numerique/cours14.md
-      - Cours 15: 582-121–illustration-numerique/cours15.md
+      #- Cours 2: 582-121–illustration-numerique/cours02.md
+      #- Cours 3: 582-121–illustration-numerique/cours03.md
+      #- Cours 4: 582-121–illustration-numerique/cours04.md
+      #- Cours 5: 582-121–illustration-numerique/cours05.md
+      #- Cours 6: 582-121–illustration-numerique/cours06.md
+      #- Cours 7: 582-121–illustration-numerique/cours07.md
+      #- Cours 8: 582-121–illustration-numerique/cours08.md
+      #- Cours 9: 582-121–illustration-numerique/cours09.md
+      #- Cours 10: 582-121–illustration-numerique/cours10.md
+      #- Cours 11: 582-121–illustration-numerique/cours11.md
+      #- Cours 12: 582-121–illustration-numerique/cours12.md
+      #- Cours 13: 582-121–illustration-numerique/cours13.md
+      #- Cours 14: 582-121–illustration-numerique/cours14.md
+      #- Cours 15: 582-121–illustration-numerique/cours15.md
   #- Audio 1:
   #    - 582-131–audio1/index.md
   #    - Cours 1: 582-131–audio1/cours01.md
@@ -221,28 +221,28 @@ nav:
       - Références: 582-312–video2/references.md
       - Capsules Da Vinci / La base: 582-312–video2/da_vinci_base.md
       - Capsules Da Vinci / La colo: 582-312–video2/da_vinci_colorisation.md
-      - AI: 582-312–video2/ai/ai.md
-      - Prompt: 582-312–video2/ai/prompt.md
-      - Midjourney: 582-312–video2/ai/midjourney.md
-      - Midjourney code: 582-312–video2/ai/midjourney_code.md
-      - Runway: 582-312–video2/ai/runway.md
+      #- AI: 582-312–video2/ai/ai.md
+      #- Prompt: 582-312–video2/ai/prompt.md
+      #- Midjourney: 582-312–video2/ai/midjourney.md
+      #- Midjourney code: 582-312–video2/ai/midjourney_code.md
+      #- Runway: 582-312–video2/ai/runway.md
       - Projet 1: 582-312–video2/projet_01.md
-      - Projet 2: 582-312–video2/projet_02.md
+      #- Projet 2: 582-312–video2/projet_02.md
       - Cours 1: 582-312–video2/cours01.md
-      - Cours 2: 582-312–video2/cours02.md
-      - Cours 3: 582-312–video2/cours03.md
-      - Cours 4: 582-312–video2/cours04.md
-      - Cours 5: 582-312–video2/cours05.md
-      - Cours 6: 582-312–video2/cours06.md
-      - Cours 7: 582-312–video2/cours07.md
-      - Cours 8: 582-312–video2/cours08.md
-      - Cours 9: 582-312–video2/cours09.md
-      - Cours 10: 582-312–video2/cours10.md
-      - Cours 11: 582-312–video2/cours11.md
-      - Cours 12: 582-312–video2/cours12.md
-      - Cours 13: 582-312–video2/cours13.md
-      - Cours 14: 582-312–video2/cours14.md
-      - Cours 15: 582-312–video2/cours15.md
+      #- Cours 2: 582-312–video2/cours02.md
+      #- Cours 3: 582-312–video2/cours03.md
+      #- Cours 4: 582-312–video2/cours04.md
+      #- Cours 5: 582-312–video2/cours05.md
+      #- Cours 6: 582-312–video2/cours06.md
+      #- Cours 7: 582-312–video2/cours07.md
+      #- Cours 8: 582-312–video2/cours08.md
+      #- Cours 9: 582-312–video2/cours09.md
+      #- Cours 10: 582-312–video2/cours10.md
+      #- Cours 11: 582-312–video2/cours11.md
+      #- Cours 12: 582-312–video2/cours12.md
+      #- Cours 13: 582-312–video2/cours13.md
+      #- Cours 14: 582-312–video2/cours14.md
+      #- Cours 15: 582-312–video2/cours15.md
   #- Modélisation 3D:
   #    - 582-314–modelisation3d/index.md
   #    - Cours 1: 582-314–modelisation3d/cours01.md
