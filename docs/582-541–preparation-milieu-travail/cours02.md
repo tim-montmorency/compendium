@@ -3,7 +3,7 @@
  [📁 Informations stages](./stages/informations.md){ .md-button }    
 
  Rejoindre l'équipe Teams des stages: 
- Code 
+ khy7jex
  
 
 ## Présentation sur la recherche de stage ou d'emploi
