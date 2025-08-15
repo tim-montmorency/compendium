@@ -24,7 +24,7 @@
   
 ## Projet 1 
 * Explication du [projet 1](projet_01.md)
-* [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EQgpWSSXSqFNu4jZFArMR_MBzw0ZKzsCVkVr0l1j7GLQVw?e=aPDlKr)
+* [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/Eanb1Rd6dcZFhLmPFDvnD_YBeqiVc978kvOhiuiebzwmOA?e=J98Iwu)
 * Choisir journée de tournage (entre le 15 septembre après votre cours et avant le 30 septembre).
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
     * 1 équipe par studio (3, 4 ou 5 par équipe).
