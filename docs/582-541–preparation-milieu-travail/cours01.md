@@ -19,8 +19,8 @@ Ajout à l'équipe GitHub des stages
 Suivre les consignes du document mon_profil.md
 
       
-## Activité sur les forces et qualités
-[🛠️ Liste de qualités](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/cgilbert_cmontmorency_qc_ca/Ed54y-OA4jxFnSB44R5Ndj4BQCngXKjkL_gyfl3BJK6NVw?e=lg0aOi){ .md-button }   
+## Chasse aux compétences douces
+
 
 ## 5 à 7
 [🛠️ Inscription](https://www.eventbrite.ca/e/billets-activite-de-maillage-laval-carrefour-des-talents-1412761771489?aff=oddtdtcreator){ .md-button }   
