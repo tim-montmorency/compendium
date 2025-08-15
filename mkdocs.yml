@@ -218,19 +218,19 @@ nav:
       - Cours 1.2: 582-511-web5/cours01b.md
       - Cours 2.1: 582-511-web5/cours02a.md
       - Cours 2.2: 582-511-web5/cours02b.md
-  # - Cours 3: 582-511-web5/cours03.md
-  # - Cours 4: 582-511-web5/cours04.md
-  # - Cours 5: 582-511-web5/cours05.md
-  # - Cours 6: 582-511-web5/cours06.md
-  # - Cours 7: 582-511-web5/cours07.md
-  # - Cours 8: 582-511-web5/cours08.md
-  # - Cours 9: 582-511-web5/cours09.md
-  # - Cours 10: 582-511-web5/cours10.md
-  # - Cours 11: 582-511-web5/cours11.md
-  # - Cours 12: 582-511-web5/cours12.md
-  # - Cours 13: 582-511-web5/cours13.md
-  # - Cours 14: 582-511-web5/cours14.md
-  # - Cours 15: 582-511-web5/cours15.md
+      # - Cours 3: 582-511-web5/cours03.md
+      # - Cours 4: 582-511-web5/cours04.md
+      # - Cours 5: 582-511-web5/cours05.md
+      # - Cours 6: 582-511-web5/cours06.md
+      # - Cours 7: 582-511-web5/cours07.md
+      # - Cours 8: 582-511-web5/cours08.md
+      # - Cours 9: 582-511-web5/cours09.md
+      # - Cours 10: 582-511-web5/cours10.md
+      # - Cours 11: 582-511-web5/cours11.md
+      # - Cours 12: 582-511-web5/cours12.md
+      # - Cours 13: 582-511-web5/cours13.md
+      # - Cours 14: 582-511-web5/cours14.md
+      # - Cours 15: 582-511-web5/cours15.md
   - Contrôle de la qualité:
       - 582-533-controle-qualite/index.md
       - Cours 1: 582-533-controle-qualite/cours01.md
@@ -271,7 +271,7 @@ nav:
       - Cours 13: 582-541–preparation-milieu-travail/cours13.md
       - Cours 14: 582-541–preparation-milieu-travail/cours14.md
       - Cours 15: 582-541–preparation-milieu-travail/cours15.md
-  - edm3840:
+  # - edm3840:
       # - edm3840/index.md
       # - Références: edm3840/references.md
       # - Projet 1: edm3840/projet01.md
