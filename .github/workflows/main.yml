@@ -37,7 +37,7 @@ jobs:
         run: pip show mkdocs-material
 
       - name: Build mkdocs (force config file)
-        run: mkdocs build -f mkdocs.yml -q
+        run: mkdocs build --verbose
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
