@@ -1,10 +1,11 @@
 # Cours 3
 
-## Activité sur le cv 
-Qu'est-ce que doit contenir un cv? Dans Figma.    
+## Présentation sur le portfolio    
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
-## Activité sur le contenu de votre CV
-Remplir le document contenu_cv sur github.
+## Consignes pour le portfolio    
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+
 
 ## Planification du portfolio
 Remplir le document portfolio sur github.
