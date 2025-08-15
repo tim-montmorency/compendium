@@ -1,3 +1,5 @@
+[stop]
+
 # PROJET 2 – LE GÉNÉRIQUE
 
 ## OBJECTIF
