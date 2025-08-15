@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Deploy mkdocs
@@ -29,11 +33,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt --prefer-binary
 
+      # Optionnel: purement informatif, tu peux retirer si tu veux
       - name: Check mkdocs-material version
         run: pip show mkdocs-material
 
-      - name: Build mkdocs
-        run: mkdocs build
+      # Debug court: s'assure que mkdocs lit bien mkdocs.yml et que nav est une liste
+      - name: Debug mkdocs config (optional but helpful)
+        run: |
+          echo "== Candidate config files =="
+          ls -la | egrep 'mkdocs\.ya?ml$' || true
+
+          echo "== Quick YAML check on mkdocs.yml =="
+          python - <<'PY'
+          import yaml, sys, io
+          with io.open('mkdocs.yml','r',encoding='utf-8') as f:
+              data = yaml.safe_load(f)
+          nav = data.get('nav', None)
+          print("type(nav) =", type(nav).__name__, " value is None?", nav is None)
+          if nav is None or not isinstance(nav, list):
+              print("ERROR: nav must be a list and not None")
+              sys.exit(2)
+          PY
+
+      - name: Build mkdocs (force config file)
+        run: mkdocs build -f mkdocs.yml -q
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
@@ -41,5 +64,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./site
-          force_orphan: true     # <-- évite l'erreur "fetch first"
-          # keep_files: false    # (par défaut) nettoie les fichiers disparus 
+          force_orphan: true
+          # keep_files: false  # (par défaut) nettoie les fichiers disparus
