@@ -1,18 +1,24 @@
 name: Déploiement de la documentation markdown en HTML
+
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Deploy mkdocs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -22,16 +28,16 @@ jobs:
           pip install -r requirements.txt
 
       - name: Check mkdocs-material version
-        run: |
-          pip show mkdocs-material
+        run: pip show mkdocs-material
 
       - name: Build mkdocs
-        run: |
-          mkdocs build --verbose
+        run: mkdocs build --verbose
 
-      - name: Deploy
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./site
-          timeout-minutes: 10
+          force_orphan: true     # <-- évite l'erreur "fetch first"
+          # keep_files: false    # (par défaut) nettoie les fichiers disparus
