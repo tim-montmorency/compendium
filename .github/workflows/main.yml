@@ -21,17 +21,19 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
 
-      - name: Install pip and friends
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.txt --prefer-binary
 
       - name: Check mkdocs-material version
         run: pip show mkdocs-material
 
       - name: Build mkdocs
-        run: mkdocs build --verbose
+        run: mkdocs build --q
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
