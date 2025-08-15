@@ -101,4 +101,8 @@
 ## Liste collaborative d'employeurs
 [🛠️ Ajouter des entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
 
+## Activité sur le cv 
+Qu'est-ce que doit contenir un cv? Dans Figma.    
 
+## Activité sur le contenu de votre CV
+Remplir le document contenu_cv sur github.
