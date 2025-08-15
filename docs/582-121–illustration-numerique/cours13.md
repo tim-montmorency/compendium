@@ -1,3 +1,2 @@
 
-[STOP]
 # Cours 13

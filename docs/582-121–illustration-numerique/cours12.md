@@ -1,3 +1,1 @@
-[STOP]
-
 # Cours 12
