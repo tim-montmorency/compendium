@@ -1,3 +1,4 @@
+[stop]
 # Définition des commandes dans MidJourney
 
 ## 1. --stylize (stylisation générale)
