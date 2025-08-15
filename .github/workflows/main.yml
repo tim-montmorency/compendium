@@ -1,8 +1,10 @@
+---
 name: Déploiement de la documentation markdown
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -18,8 +20,6 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,28 +36,6 @@ jobs:
       - name: Check mkdocs-material version
         run: pip show mkdocs-material
 
-      # Debug: liste les configs et vérifie que nav est bien une liste.
-      # Utilise UnsafeLoader pour supporter !!python/name:...
-      - name: Debug mkdocs config (non-bloquant)
-        continue-on-error: true
-        run: |
-          echo "== Candidate config files =="
-          ls -la | egrep 'mkdocs\.ya?ml$' || true
-
-          echo "== Quick YAML check on mkdocs.yml =="
-          python - <<'PY'
-          import sys, io, yaml
-          try:
-              from yaml import UnsafeLoader as Loader
-          except Exception:
-              from yaml import FullLoader as Loader
-          with io.open('mkdocs.yml','r',encoding='utf-8') as f:
-              data = yaml.load(f, Loader=Loader)
-          nav = data.get('nav', None)
-          print("type(nav) =", type(nav).__name__, " value is None?", nav is None)
-          # On n'exit pas pour ne pas bloquer le job; c'est un debug.
-          PY
-
       - name: Build mkdocs (force config file)
         run: mkdocs build -f mkdocs.yml -q
 
@@ -68,4 +46,3 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./site
           force_orphan: true
-          # keep_files: false
