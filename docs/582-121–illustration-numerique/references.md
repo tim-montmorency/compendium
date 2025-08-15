@@ -6,7 +6,7 @@
 
 * [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)
 
-* [Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/flpilote_cmontmorency_qc_ca/EQzy7UwxxfBLsQ4ZJE42xYgBCpE8QEFzX_NQ1xCVC7hYcw?e=2umVfn)
+* [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EWWRHsWk-vVFtpyrmA1AHxUBZg51IGTPJaly8lkksVvGjQ?e=zkAHNU)
 
 
 ## Locaux
