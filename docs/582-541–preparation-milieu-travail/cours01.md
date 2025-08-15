@@ -6,6 +6,9 @@
  
 [📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUWwACJgnypNg84pk8frp5gB4ozDwHnxN9N1rCoDW1BLiA?e=rNFy0U){ .md-button }             
 
+## Capsule du cours
+[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
+
 ## Créer son journal de bord
 Ajout à l'équipe GitHub des stages
 
