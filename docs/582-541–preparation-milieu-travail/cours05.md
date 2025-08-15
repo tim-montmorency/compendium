@@ -1,7 +1,7 @@
 # Cours 5
 
-## ⚠️ Heure des cours modifiée:
-Groupe 1: 11h40 à 13h25, puis 18h à 19h. 
+## ⚠️ Heure des cours modifié
+
 
 
 ## Présentation sur le cv   
