@@ -5,7 +5,7 @@ tags:
 
 # Les conditions (if)
 
-![](../assets/images/conditions_banner.png)
+![](./assets/img/conditions_banner.png)
 
 ## Matière à connaître
 
