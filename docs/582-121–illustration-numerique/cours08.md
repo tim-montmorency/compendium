@@ -1,4 +1,2 @@
-[STOP]
-
 # Cours 8
 
