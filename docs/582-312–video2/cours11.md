@@ -1,5 +1,4 @@
 
-[stop]
 # Cours 11
 
 
