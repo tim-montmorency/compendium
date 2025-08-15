@@ -17,7 +17,7 @@ Aperçu du résultat 👇
 Lorsque le formulaire est soumis, ses informations doivent-être envoyés en utilisant la méthode `get` à l'adresse suivante:
 
 ```html
-./exercices/submit/carte-de-credit.html
+./submit/carte-de-credit.html
 ```
 
 

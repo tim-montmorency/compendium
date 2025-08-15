@@ -13,38 +13,38 @@ Bonbon rose
 
 !!!note
 
-    ./exercices/images/1.png
+    ./images/1.png
 
  
 Bonbon rouge
 
 !!!note
 
-    ./exercices/images/2.png
+    ./images/2.png
  
 Bonbon bleu
 
 !!!note
     
-    ./exercices/images/3.png
+    ./images/3.png
  
 Bonbon jaune
 
 !!!note
 
-    ./exercices/images/4.png
+    ./images/4.png
  
 Bonbon orange
 
 !!!note
 
-    ./exercices/images/5.png
+    ./images/5.png
  
 Fond
 
 !!!note
 
-    ./exercices/images/bg.png
+    ./images/bg.png
 
 ## Requis
 

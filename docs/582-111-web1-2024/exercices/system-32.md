@@ -19,19 +19,19 @@ blanc cassé
  
 Case 1
 
-```./exercices/images/1.webp```
+```./images/1.webp```
  
 Case 2
 
-```./exercices/images/2.webp```
+```./images/2.webp```
  
 Case 3
 
-```./exercices/images/3.webp```
+```./images/3.webp```
  
 Case 4
 
-```./exercices/images/4.webp```
+```./images/4.webp```
 
 
 ## Requis

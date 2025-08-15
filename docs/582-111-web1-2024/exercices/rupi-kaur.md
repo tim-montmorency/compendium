@@ -14,11 +14,11 @@ Aperçu du résultat 👇
  
 ### Coeur
 
-`./exercices/images/heart.webp`
+`./images/heart.webp`
  
 ### Fleurs
 
-`./exercices/images/flowers.webp`
+`./images/flowers.webp`
 
 
 ## Requis

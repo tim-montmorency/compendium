@@ -92,9 +92,9 @@ Créer un article de blog à l'aide de balises HTML.
 
 ![icon (7)](https://github.com/user-attachments/assets/9df648d3-4cdb-4f2e-a112-ce1a0ed2b019)<br> Formatage HTML <br> [`<u>`, `<b>`, `<strong>`, `<em>`, `<i>`, etc.](../html/formatage-html.md)
 
-![icon (6)](https://github.com/user-attachments/assets/36099f0f-6c70-4b5c-91d9-841778462395)<br> Chemins d'accès <br> [Absolue, relatif](./autres/chemins.md)
+![icon (6)](https://github.com/user-attachments/assets/36099f0f-6c70-4b5c-91d9-841778462395)<br> Chemins d'accès <br> [Absolue, relatif](../autres/chemins.md)
 
-![icon (9)](https://github.com/user-attachments/assets/7eb3c952-a705-49bd-9529-ceaf60bf5bbd)<br> Formats d'image <br>[gif, jpeg, png, webp](./autres/format-image.md)
+![icon (9)](https://github.com/user-attachments/assets/7eb3c952-a705-49bd-9529-ceaf60bf5bbd)<br> Formats d'image <br>[gif, jpeg, png, webp](../autres/format-image.md)
 
 ![icon (8)](https://github.com/user-attachments/assets/60f93034-34b0-4c92-8a76-b4229949b17d)<br> Image <br>[La balise <img> permet d'afficher une image](../html/image.md)
 

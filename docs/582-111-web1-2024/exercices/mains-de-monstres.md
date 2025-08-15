@@ -26,25 +26,25 @@ Rouge
 Freddy Krueger
 
 ```
-./exercices/images/freddy-krueger.webp
+./images/freddy-krueger.webp
 ```
  
 Nosferatu
 
 ```
-./exercices/images/nosferatu.webp
+./images/nosferatu.webp
 ```
 
 Créature du Lac
 
 ```
-./exercices/images/creature-from-the-black-lagoon.webp
+./images/creature-from-the-black-lagoon.webp
 ```
 
 La momie
 
 ```
-./exercices/images/the-mummy.webp
+./images/the-mummy.webp
 ```
 
 !!! note

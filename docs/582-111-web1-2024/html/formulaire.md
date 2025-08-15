@@ -138,7 +138,7 @@ L'attribut `value` définit le texte à l'intérieur du bouton généré.
 
   **Exercice Carte de crédit**<br>
   _Pour cet exercice vous devrez compléter un formulaire de carte de crédit déjà entamé._<br>
-  [Carte de crédit](./exercices/carte-de-credit.md)
+  [Carte de crédit](../exercices/carte-de-credit.md)
 </div>
 
 

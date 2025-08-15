@@ -18,7 +18,7 @@ Aperçu du résultat 👇
   
 ## Médias
 
-`./exercices/images/logo-igloofest.png`
+`./images/logo-igloofest.png`
  
 ## Requis
 * [ ] Faites en sorte que la couleur de fond de la page soit rose pâle.

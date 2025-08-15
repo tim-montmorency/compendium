@@ -12,4 +12,4 @@ Voici le lien du site
 
 ## Notes de cours
 
-![icon](https://github.com/user-attachments/assets/e7ec863b-660d-446b-a5e8-7aeb7d362b3e)<br> Arborescence <br> [Sitemap](./autres/arborescence.md)
+![icon](https://github.com/user-attachments/assets/e7ec863b-660d-446b-a5e8-7aeb7d362b3e)<br> Arborescence <br> [Sitemap](../autres/arborescence.md)

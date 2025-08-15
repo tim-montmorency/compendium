@@ -26,7 +26,7 @@ toggleButton.addEventListener('click', () => {
 });
 ```
 
-![](../assets/images/cent-ans.jpg)
+![](../exercices/100ans/cent-ans.jpg)
 
 Demander à l’utilisateur la question : « Combien d’années a duré la guerre de 100 ans ? », puis valider sa réponse.
 
