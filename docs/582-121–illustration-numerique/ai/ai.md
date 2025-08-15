@@ -1,4 +1,3 @@
-[stop]
 
 ## Encadrement de l'utilisation de l'IA dans la création artistique
 
