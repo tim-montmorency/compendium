@@ -1,2 +1,1 @@
-[STOP]
 # Cours 15
