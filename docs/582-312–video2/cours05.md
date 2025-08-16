@@ -4,7 +4,6 @@
 * [groupe am]()  <br>
 * [groupe pm]()  <br>
 
-
 ## [Da Vinci - La base](da_vinci_base.md) (15  minutes)
 * Retour le son
   * Fades
