@@ -1,6 +1,6 @@
 
 # Cours 12
-
+ 
 ## Travail en classe
 Travail sur le Offline 
 
