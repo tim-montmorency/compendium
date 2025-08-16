@@ -4,7 +4,7 @@
 
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
 
-
+ 
 ## Structure des prompts
 
 ### Comment rédiger un prompt pour une scène visuelle
