@@ -5,8 +5,8 @@
 
 ## Présentation des règles du cours
 * Remise des travaux.
-    * Grilles d’évaluation.
-    * Nomenclature.
+   * Grilles d’évaluation.
+   * Nomenclature.
 * Absence à une évaluation.
 * Absence à un cours en studio.
 * Retard et départ avant la fin du cours.
