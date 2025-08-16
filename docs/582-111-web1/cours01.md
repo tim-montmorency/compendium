@@ -1,6 +1,5 @@
 # Cours 1 | Bienvenue
 
-<!-- markdownlint-disable MD033 -->
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
 *[HTML]: HyperText Markup Language
