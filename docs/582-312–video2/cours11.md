@@ -1,6 +1,4 @@
-
 # Cours 11
- 
  
 ## Template
 * Voici [les explications](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EkldoeajTDNAgTCKe13ZO8EB1r1Cz25pjlFX92lW3eyp0w?e=4d2FoA) pour utiliser le template.   
