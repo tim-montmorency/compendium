@@ -1,5 +1,5 @@
 # Cours 7
- 
+
 ## Présentation du projet 1
 
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
@@ -25,4 +25,3 @@
     *  Difficile lorsqu'il y a beaucoup de mouvement, morphing, cigarette, fumée
   * Terminer le moodboard Pinterest pour Midjourney pour la fin du cours et m'envoyer celui-ci.
   * Vous devez avoir une idée claire ce que ce que vous voulez produire dans Midjourney pour le prochain cours. 
-  
