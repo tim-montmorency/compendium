@@ -43,7 +43,7 @@ Au terme de ce cours, l’élève est en mesure de reproduire des maquettes sous
 </div>
 
 <div class="grid grid-auto" markdown>
-  ![](../_/profs/person.jpg)
+  ![](../_/profs/Steph.jpg)
 
   **Stéphane Chartrand**<br>
   _Enseignant en Techniques d'intégration multimédia_<br>
