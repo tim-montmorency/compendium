@@ -2,7 +2,7 @@
 
 ## Utilisation
 
-Veuillez vous déplacer dans le répertoire `docs` puis dans le répertoire du cours à modifier (ex: `/docs/582-101-domaines-multimedias`). Vous y verrez la liste des cours que vous pouvez éditer en utilisant la [syntaxe Markdown](https://tim-montmorency.com/compendium/aide-memoire). Une fois modifiée, la page associée se mettra à jour dans les 5 minutes.
+Veuillez vous déplacer dans le répertoire `docs` puis dans le répertoire du cours à modifier (ex: `/docs/582-101-domaines-multimedias`). Vous y verrez la liste des cours que vous pouvez éditer en utilisant la [syntaxe Markdown](https://tim-montmorency.com/compendium/aide-memoire). Une fois modifiée, la page associée se mettra à jour dans les 5 minutes ;)
 
 [Aide-mémoide](https://tim-montmorency.com/compendium/aide-memoire)
 

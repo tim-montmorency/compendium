@@ -1,5 +1,5 @@
 # PROJET 2 – LE GÉNÉRIQUE
-
+ 
 ## OBJECTIF
 Créer **12 planches** représentant un générique de film en pause. Les images doivent être **vectorielles** et conserver une **cohérence visuelle** entre elles.
 
