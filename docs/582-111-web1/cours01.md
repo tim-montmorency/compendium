@@ -207,26 +207,13 @@ On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic dro
 
 ### Composantes
 
-Ce qu'on appelle composante Web sont des éléments dans l'interface. Certains sont plus compliqués que d'autres. C'est pourquoi on tend à les catégoriser. Une structure qui le fait bien est l'analogie atomique qu'on appelle aussi Atomic design system.
+Une **composante Web** est un élément d’interface réutilisable qui sert à construire l’expérience utilisateur.
 
-Les atomes sont les éléments non décomposables, ce sont les composantes les plus simples : 
+Pour mieux les classer, on peut utiliser l’**Atomic Design**, une méthode qui s’inspire de la chimie. Le concept est de segmenter logiquement les différents affichages d'une page.
 
-* Titre
-* Paragraphe
-* Liens
-* Image / Icône
-* Champ de formulaire
-* Bouton
+![](./assets/images/atomic-design.jpg){data-zoom-image}
 
-<!-- ==@todo== : Titre, paragraphe, Liens hypertextes, image et icone, galerie, filtre / tags, alert -->
-
-
-
-
-
-
-
-### Accordion
+#### Accordion
 
 L'[accordéon](https://daisyui.com/components/accordion/) (ou _accordion_) est une composante qui permet d’afficher ou masquer du contenu en cliquant sur un titre ou une section.
 
@@ -236,7 +223,7 @@ L'[accordéon](https://daisyui.com/components/accordion/) (ou _accordion_) est u
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Breadcrumb
+#### Breadcrumb
 
 Le [fil d’Ariane](https://daisyui.com/components/breadcrumbs/) (ou _Breadcrumb_) est un chemin de navigation qui montre à l’utilisateur sa position dans la structure du site (ex. : Accueil > Web 1 > Cours 1).
 
@@ -246,7 +233,7 @@ Le [fil d’Ariane](https://daisyui.com/components/breadcrumbs/) (ou _Breadcrumb
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Card
+#### Card
 
 Une [carte](https://daisyui.com/components/card/) (ou _card_) est un bloc visuel regroupant généralement une image, un titre, un résumé et une action. Très utilisé pour des listes de contenus.
 
@@ -256,7 +243,7 @@ Une [carte](https://daisyui.com/components/card/) (ou _card_) est un bloc visuel
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Carousel
+#### Carousel
 
 Le [carrousel](https://daisyui.com/components/carousel/) (ou _slideshow_). Composante qui affiche plusieurs éléments un à un avec un défilement automatique ou manuel.
 
@@ -266,13 +253,13 @@ Le [carrousel](https://daisyui.com/components/carousel/) (ou _slideshow_). Compo
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Hero
+#### Hero
 
 Une [bannière](https://daisyui.com/components/hero/) servant à capter l’attention, souvent accompagné d'un message et d'un appel à l'action.
 
 ![](./assets/images/hero.jpg){ data-zoom-image }
 
-### Modal
+#### Modal
 
 [Fenêtre flottante](https://daisyui.com/components/modal/) (ou _Modal_ / _Dialog_ / _Popup_) qui superpose le contenu.
 
@@ -282,7 +269,7 @@ Une [bannière](https://daisyui.com/components/hero/) servant à capter l’atte
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Tabs
+#### Tabs
 
 Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de naviguer entre plusieurs sections de contenu dans une même portion de l'interface.
 
@@ -292,7 +279,7 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Tooltip
+#### Tooltip
 
 [Bulles d’information](https://daisyui.com/components/tooltip/) (ou _tooltip_) contextuelle qui apparaissent lorsqu’on survole ou clique sur un élément. Cette composante est moins pertinente sur un écran tactile.
 
@@ -302,7 +289,7 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Toasts
+#### Toasts
 
 [Notifications](https://daisyui.com/components/toast/) temporaires (ou _toasts_) qui apparaissent à l’écran pour informer l'utilisateur (ex. : "Message envoyé").
 
@@ -500,4 +487,3 @@ Même si le système est simple, une aide doit être accessible pour les utilisa
 </iframe>
 
 <!-- Exemple : Une section FAQ, un bouton d’aide ou une bulle contextuelle « Besoin d’aide ? » sur un formulaire complexe. -->
-

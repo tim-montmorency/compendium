@@ -13,7 +13,7 @@ Identifier et appliquer correctement les balises sémantiques HTML pour structur
 Considérez les paragraphes de texte suivant et utilisez les balises sémantiques HTML appropriées pour structurer le texte en conséquence. Choisissez les balises qui décrivent au mieux le type de contenu de chaque partie du texte. **(`<title>` `<header>` `<main>` `<section>` `<footer>`)**
 
 
-## Texte
+## Texte 
 
 L'importance de l'exercice régulier pour la santé
 

@@ -22,6 +22,12 @@ Dans le langage HTML, on place le contenu de la page dans des **balises**.
 
 Une balise s’écrit en encadrant un mot-clé par les signes « plus petit que » (`<`) et « plus grand que » (`>`).
 
+!!! example "Clavier"
+
+    Tous le claviers sont différents alors trouvons comment écrire ces caractères sur le clavier devant nous.
+
+    Dépendament du clavier, parfois c'est aussi simple que de cliquer sur la touche ++less++ et ++shift+greater++ pour l'autre sens.
+
 ### Paragraphe
 
 Un [paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/p) HTML s'écrit avec la balise `<p>`.
@@ -31,6 +37,18 @@ Un [paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Element
 <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - HTML - Paragraph" src="https://codepen.io/tim-momo/embed/QwjgGOM?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 :material-information: Notez que le navigateur crée un espace automatiquement entre deux paragraphes. On appelle cet espacement une **marge** (ou _margin_).
+
+### Titres
+
+Les [titres](https://www.w3schools.com/html/html_headings.asp) HTML (ou _headings_) s’écrivent avec la lettre « h » accompagnée d’un chiffre entre 1 et 6.
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Web 1 - HTML - Titre" src="https://codepen.io/tim-momo/embed/empRgpo?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+
+!!! note "Sémantique des titres"
+
+    Chaque page doit contenir **un seul titre de niveau 1 (`<h1>`)**. En général, une page Web correspond à un seul objectif ou sujet principal.
+
+    Les titres suivants doivent être hiérarchisés correctement. Par exemple, un titre de niveau 3 (`<h3>`) ne doit **jamais** précéder un `<h2>` dans la structure du HTML.
 
 ### Saut de ligne
 
@@ -60,17 +78,7 @@ Elle est utilisée pour marquer un changement de sujet.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - HTML - Entité HTML" src="https://codepen.io/tim-momo/embed/MYaoxqM?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-### Titres
 
-Les [titres](https://www.w3schools.com/html/html_headings.asp) HTML (ou _headings_) s’écrivent avec la lettre « h » accompagnée d’un chiffre entre 1 et 6.
-
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Web 1 - HTML - Titre" src="https://codepen.io/tim-momo/embed/empRgpo?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
-
-!!! note "Sémantique des titres"
-
-    Chaque page doit contenir **un seul titre de niveau 1 (`<h1>`)**. En général, une page Web correspond à un seul objectif ou sujet principal.
-
-    Les titres suivants doivent être hiérarchisés correctement. Par exemple, un titre de niveau 3 (`<h3>`) ne doit **jamais** précéder un `<h2>` dans la structure du HTML.
 
 ### Caractères spéciaux
 
@@ -277,6 +285,18 @@ Plus un site prends en envergure, plus il se complexifie. Il est donc aussi impo
 
 ![](./assets/images/arborescence.jpg)
 
+
+
+![icon](https://github.com/user-attachments/assets/45afe678-94df-47d8-b3ac-b99d9d09cf4f)
+[Sitemap](https://tim-montmorency.com/compendium/582-111-web1/autres/arborescence.md)
+
+
+Relation Parent-Enfant
+
+![icon (3)](https://github.com/user-attachments/assets/3572f2cb-dc55-41c3-96bd-c86f72bbc8e7)
+
+[Parent, enfant](https://tim-montmorency.com/compendium/582-111-web1/html/parents-enfants.md)
+
 ### URL
 
 Chaque page du site a une URL unique.
@@ -410,46 +430,10 @@ contact.html
 
 
 
+
 <div class="grid grid-1-2" markdown>
   ![](./exercices/mac/mac.jpg)
 
   <small>Exercice</small><br>
   **[Musée d'art contemporain de Montréal](./exercices/mac/index.md){.stretched-link .back}**
 </div>
-
-
-
-
-[STOP]
-
- : Nommée d’après le vieux langage de programmation [Pascal](https://fr.wikipedia.org/wiki/Pascal_(langage)), lui-même nommé en l'honneur du polymathe [Blaise Pascal](https://fr.wikipedia.org/wiki/Blaise_Pascal)
-
-## Arborescence
-
-![icon](https://github.com/user-attachments/assets/45afe678-94df-47d8-b3ac-b99d9d09cf4f)
-[Sitemap](https://tim-montmorency.com/compendium/582-111-web1/autres/arborescence.md)
-
-
-## Relation Parent-Enfant
-
-![icon (3)](https://github.com/user-attachments/assets/3572f2cb-dc55-41c3-96bd-c86f72bbc8e7)
-
-[Parent, enfant](https://tim-montmorency.com/compendium/582-111-web1/html/parents-enfants.md)
-
-## Sémantique
-
-![logo-2582748_640](https://github.com/user-attachments/assets/41d98834-b49e-453d-857e-830ac6c4dbaa)
-
-[header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111-web1/html/semantique.md)
-
-## Les Balises
-
-![icon (1)](https://github.com/user-attachments/assets/f9117e39-9d2b-457c-adfa-bd33d2447c36)
-
-[`<html>`, `<head>`, `<body>`, `<p>`, etc](https://tim-montmorency.com/compendium/582-111-web1/html/balises.md)
-
-## Mes premières balises
-
-![balises](https://github.com/user-attachments/assets/dc60993a-4390-4485-a20d-a008d2f3551e)
-
-[Exercice sur les balises sémantiques HTML](https://tim-montmorency.com/compendium/582-111-web1/exercices/mes_premieres_balises.md)

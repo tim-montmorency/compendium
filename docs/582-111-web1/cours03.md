@@ -30,6 +30,19 @@ Il existe aussi les balises `<b>` et `<i>`, qui produisent un effet visuel simil
 
 DEMO: faire un site avec ca.
 
+Sémantique
+
+![logo-2582748_640](https://github.com/user-attachments/assets/41d98834-b49e-453d-857e-830ac6c4dbaa)
+
+[header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111-web1/html/semantique.md)
+
+
+Mes premières balises
+
+![balises](https://github.com/user-attachments/assets/dc60993a-4390-4485-a20d-a008d2f3551e)
+
+[Exercice sur les balises sémantiques HTML](./exercices/mes_premieres_balises.md)
+
 ### Anglicismes
 
 Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce faire, il faut ajouter un attribut.
