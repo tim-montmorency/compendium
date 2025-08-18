@@ -30,11 +30,11 @@ Invitations pour la journée carrière?
 
 
 ## Journée carrière     
-Formation des comités   
+Discussion sur les comités   
 
 ![Journee2023](image/PXL_20231108_182433460.MP.jpg)
 
-Répartition des tâches
+Création d'une liste de tâches
 
 Visite de la salle
 
