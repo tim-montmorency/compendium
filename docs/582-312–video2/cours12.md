@@ -1,5 +1,4 @@
-
-# Cours 12
+ # Cours 12
  
 ## Travail en classe
 Travail sur le Offline 
