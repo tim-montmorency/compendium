@@ -1,4 +1,4 @@
-# Cours 1 | Bienvenue
+# Cours 1 | Bienvenue !
 
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
