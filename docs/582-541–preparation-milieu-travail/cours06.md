@@ -2,7 +2,8 @@
 
 ## Retour sur le 5 à 7
 
-## Formatif: Évaluation du portfolio d'un collègue de classe
+## Formatif
+Évaluation formative du portfolio d'un collègue de classe. 
 
 ## Activité sur le contenu de la lettre de présentation
 Remplir le document contenu_lettre_presentation sur github. 
