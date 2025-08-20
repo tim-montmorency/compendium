@@ -122,15 +122,33 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 
 ## Comment ça marche ?
 
-Le développement Web est généralement divisé en deux grandes parties : le **front-end** (ce que voit l’utilisateur) et le **back-end** (la logique côté serveur).
+D'abord il faut savoir que tous les sites Web, **sans exceptions**, sont programmés avec des langages de programmation.
 
-Voici les trois langages principaux utilisés pour développer la partie **front-end** :
+C'est quoi un langage de programmation ?
 
-* **HTML** : définit la structure et le contenu des pages (ex. : titres, paragraphes, images)
-* **CSS** : gère la présentation visuelle (ex. : couleurs, mise en page, typographie)
-* **JavaScript** : rend la page interactive et dynamique (ex. : menus déroulants, formulaires réactifs, animations)
+### La programmation
 
-Voici un exemple simple de code HTML :
+Un langage de programmation (ou code), c'est la même chose qu'une langue écrite comme le français 🇫🇷 ou l'allemand 🇩🇪, la différence c'est qu'elle est destinée à être lue par un ordinateur ou un logiciel !
+
+<div class="grid" markdown>
+<figure markdown>
+  ![](./assets/images/langage-naturel.jpg){ data-zoom-image }
+  <figcaption>Langage naturel</figcaption>
+</figure>
+
+<figure markdown>
+  ![](./assets/images/langage-programmation.jpg){ data-zoom-image }
+  <figcaption>Langage de programmation</figcaption>
+</figure>
+</div>
+
+### La programmation pour le Web
+
+Dans le cours Web 1, nous allons apprendre une nouvelle langue ! Celle qui permet de parler à un navigateur Web.
+
+La structure MINIMALE d'une site web s'écrit dans un langage qu'on appelle **HTML**.
+
+Voici à quoi ça ressemble :
 
 ```html
 <!DOCTYPE html>
@@ -146,6 +164,11 @@ Voici un exemple simple de code HTML :
 ```
 
 !!! question "Bon qu'est-ce que je regarde ?"
+
+    C'est normal de rien comprendre, pas de stress ;) 
+    
+    Observons tout de même ce qui est écrit :
+
     1. J’observe des mots entourés des caractères « plus petit que » (`<`) et « plus grand que » (`>`). C'est ce qu'on appelle des balises HTML.
     1. J’observe aussi une certaine **indentation** (des espaces au début des lignes). C'est fait pour rendre le code plus lisible.
     1. Je reconnais du **contenu textuel** : « Web 1 », « Bienvenue en Web 1 » et « Ok bye ! ».
@@ -154,15 +177,18 @@ Voici un exemple simple de code HTML :
 
 ### Éditeur de code
 
-![](./assets/images/vscode.png){ data-zoom-image }
-
 Techniquement, on peut programmer un site Web complet avec **Notepad**, mais ce serait particulièrement inefficace.
 
 Un peu comme **Microsoft Word** sert à la rédaction de texte, **[Visual Studio Code](https://code.visualstudio.com/)** (aussi appelé VSCode) est conçu spécifiquement pour programmer dans différents langages de programmation. C'est d'ailleurs l'application qui sera utilisée dans le cadre du cours et de la technique.
 
+![](./assets/images/vscode.png){ data-zoom-image }
+
+On écris ça où du code ? Dans un fichier texte. C'est pas plus compliqué que ça !
+
 !!! example "Tant qu'à y être, créons notre première page Web !"
+
     1. Ouvrir l'application VSCode
-    1. Créer une nouvelle page et nommez-la `index.html`
+    1. Créer une nouveau fichier et nommez-le `index.html`
     1. Sauvegarder sur le bureau
     1. Dans la page, inscrire le caractère `!` (point d'exclamation) puis appuyer sur ++enter++
       ![](./assets/images/emmet.png)
@@ -172,7 +198,7 @@ Un peu comme **Microsoft Word** sert à la rédaction de texte, **[Visual Studio
 
 ### Navigateur
 
-Les navigateurs principaux : **Chrome**, Safari, Edge et Firefox
+Les navigateurs principaux sont **Chrome**, Safari, Edge et Firefox
 
 ![StatCounter](./assets/images/StatCounter-browser-CA-monthly.png){ data-zoom-image }
 
@@ -185,12 +211,7 @@ L'inspecteur (ou _DevTools_) est un outil qui sert à analyser et déboguer une 
 On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic droit et en choisissant Inspecter.
 
 !!! example "Essayons ensemble l'inspecteur 🕵"
-    1. Ouvrir la page Web créée plus tôt
-    1. Ouvrir l'inspecteur et observer le contenu de l'onglet « Éléments »
-    1. Trouver le moyen de changer le contenu du HTML
 
-    ---
-    
     **🧑‍🏫 Démo du prof**
 
     Essayons l'inspecteur sur le site <https://www.banq.qc.ca/> et observez bien ce qu'on peut réaliser avec !

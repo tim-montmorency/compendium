@@ -1,5 +1,13 @@
 # Cours 3
 
+Retour sur l'inspecteur : 
+
+!!! example "Essayons ensemble l'inspecteur 🕵"
+    1. Ouvrir la page Web créée plus tôt
+    1. Ouvrir l'inspecteur et observer le contenu de l'onglet « Éléments »
+    1. Trouver le moyen de changer le contenu du HTML
+
+
 ## Formatage du texte HTML
 
 | Balise | Description | Exemple |
