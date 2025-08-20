@@ -6,19 +6,8 @@
 
 ## Évaluation formative du CV par les pairs
   
-## Temps pour les comités et l'avancement du portfolio
-Lorsque votre évaluation est terminée.    
 
 
-## Prise de photos
-
-## Création d'un profil LinkedIn
-
-
-
-
-## Présentation sur la e-réputation et LinkedIn
-[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
 
 
 
