@@ -2,6 +2,11 @@
 
 ## 🚨 Remise et présentation des planifications de portfolio
 
+
+## Activité sur le contenu de la lettre de présentation
+Remplir le document contenu_lettre_presentation sur github. 
+
+
 ## Temps pour les comités
 Contact des employeurs pour l'événement. 
 
