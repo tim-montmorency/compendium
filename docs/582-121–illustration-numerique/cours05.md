@@ -55,7 +55,9 @@ Faire le devoir
 * [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }   <br>  
 * [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
 * [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
-* [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>   
+* [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>
+
+https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EjuK10c6fj9BpXsM_p4c-ycBE8wSoFN6VTsIkLXzfLlcog?e=H7btfq
 
 
 
