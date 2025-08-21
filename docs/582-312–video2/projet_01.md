@@ -3,6 +3,8 @@
 ## Objectif du projet
 Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire.
 
+[Référence visuelle ](https://vimeo.com/32282580?fl=pl&fe=vl)
+
 ---
 
 ### 1. Contraintes visuelles
