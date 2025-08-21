@@ -3,6 +3,7 @@
 * [Domaines du multimédia](./582-101–domaines-multimedias/index.md)
 * [Web 1](./582-111-web1/index.md)
 * [Illustration numérique](./582-121–illustration-numerique/index.md)
+* [Illustration numérique Gab](./582-121–illustration-numerique-gab/index.md)
 * [Audio 1](./582-131–audio1/index.md)
 * [Design Graphique](./582-201–design-graphique/index.md)
 * [Web 2](./582-211-web2/index.md)

@@ -1,5 +1,7 @@
 # Cours 4
 
+[STOP]
+
 ## Formats d’image
 
 ![](./assets/images/vector-bitmap-banner.jpg)

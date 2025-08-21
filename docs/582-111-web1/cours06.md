@@ -1,5 +1,7 @@
 # Cours 6
 
+[STOP]
+
 ## Formulaires
 
 ### Structure de base

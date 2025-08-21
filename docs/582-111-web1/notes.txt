@@ -1,3 +1,8 @@
+TP1 / TP2 les faire jouer au jeu le cours avant l'énoncé.
+
+
+
+
 Relume (wireframe)
 Fullcircle pour le tp final
 
@@ -5,7 +10,7 @@ Fullcircle pour le tp final
 
 Important de l'indentation
 
-W3C validator
+
 
 CanIuse
 

@@ -38,6 +38,7 @@ Intelligence artificielle
 * [:material-microsoft-teams: Teams](https://ccti.cmontmorency.qc.ca/rentree) : Cours, notes de cours, clavardage
 * [:material-microsoft-outlook: Courriel](https://ccti.cmontmorency.qc.ca/rentree)
 * [:material-wifi: Wifi](https://ccti.cmontmorency.qc.ca/rentree)
+* [Aide-mémoire pour les connexions](./assets/documents/feuille_aide-memoire_connexions_cmontmorency_portrait.pdf)
 * [ColNET](https://www.cmontmorency.qc.ca/ColNET/etudiant/Messagesgeneraux/ColNET_procedure_connexion.pdf) : Bulletin, horaire, carte étudiante, messagerie médiévale 🤪.
 
 ### Soutien et aide
@@ -227,11 +228,21 @@ On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic dro
 
 ### Composantes
 
-Une **composante Web** est un élément d’interface réutilisable qui sert à construire l’expérience utilisateur.
+Dans une page Web, on observe plusieurs types d'affichages. Différents affichages s'appellent des composantes Web.
+
+<figure markdown>
+![](./assets/images/basic-components.jpg){data-zoom-image}
+
+<figcaption>Lapresse.ca</figcaption>
+</figure>
+
+### Catégories de composantes
 
 Pour mieux les classer, on peut utiliser l’**Atomic Design**, une méthode qui s’inspire de la chimie. Le concept est de segmenter logiquement les différents affichages d'une page.
 
 ![](./assets/images/atomic-design.jpg){data-zoom-image}
+
+### Composantes avancées
 
 #### Accordion
 
@@ -348,19 +359,17 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
 </div>
 </div>
 
+!!! example "Chasse aux composantes !"
+
+    Dans ce court exercice, vous devez 🧐 **détecter** le plus de **composantes** possible.
+
+    [Quiz](https://app.wooclap.com/WEB1COMP){ .md-button .md-button--primary }
+
 ## W3C
 
 ![](./assets/images/W3C®_Icon.png)
 
 Le **W3C** (World Wide Web Consortium) est l’organisme qui définit les règles du Web (HTML, CSS, accessibilité, etc.) pour que les sites fonctionnent bien sur tous les navigateurs et pour tous les utilisateurs.  
-
-### Validateur
-
-On peut y valider son code : [validator.w3.org](https://validator.w3.org/) via l'onglet "Validate by Direct Input".
-
-Par contre, c'est laborieux pour rien parce qu'il existe plein d'extensions vscode pour faire le même travail.
-
-Par exemple, [Webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint), [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) ou [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) font _grosso modo_ la même chose que le validateur du W3C.
 
 ## Expérience utilisateur
 

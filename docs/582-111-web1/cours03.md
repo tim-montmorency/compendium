@@ -1,5 +1,7 @@
 # Cours 3
 
+[STOP]
+
 Retour sur l'inspecteur : 
 
 !!! example "Essayons ensemble l'inspecteur 🕵"

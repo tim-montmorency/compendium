@@ -1,5 +1,6 @@
 # Cours 14
 
+[STOP]
 
 Travail en classe – Projet final
 	•	Production des pages HTML/CSS

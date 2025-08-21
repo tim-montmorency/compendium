@@ -1,15 +1,9 @@
 # Cours 7
 
+[STOP]
+
 Examen HTML + TP1
 
-
-
-
-
-
-
-
-[STOP]
 
 <h1 style="font-size: 100px; margin-bottom: 0;">EXAMEN</h1>
 

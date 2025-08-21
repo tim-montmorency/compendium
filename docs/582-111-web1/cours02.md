@@ -1,5 +1,7 @@
 # Cours 2
 
+[STOP]
+
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
 [^pascalCase]: [Notation Pascal | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26543805/notation-pascal)
@@ -164,6 +166,17 @@ Explication :
   <small>Exercice - HTML</small><br>
   **[Ta toune](./exercices/ta-toune/index.md){.stretched-link .back}**
 </div>
+
+## Validateur W3C
+
+![](./assets/images/W3C®_Icon.png)
+
+On peut y valider son code : [validator.w3.org](https://validator.w3.org/) via l'onglet "Validate by Direct Input".
+
+Par contre, c'est laborieux pour rien parce qu'il existe plein d'extensions vscode pour faire le même travail.
+
+Par exemple, [Webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint), [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) ou [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) font _grosso modo_ la même chose que le validateur du W3C.
+
 
 ## Structure de projet Web
 

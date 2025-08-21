@@ -1,5 +1,7 @@
 # Cours 5
 
+[STOP]
+
 *[UX]: Expérience utilisateur (User eXperience)
 
 ## Médias
