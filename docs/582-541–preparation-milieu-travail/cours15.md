@@ -6,20 +6,18 @@
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EdZ4ebdwqp9PjwpMx9Ee38gB2LUsm4zZsBa3hNZxZhMaEQ?e=fyq6OX){ .md-button }       
 
 ## Visite de certaines universités
-Local B3428
 
-## Horaires
-## Groupe AM - Lora : 
-- 12h15 - Conseillère d'orientation - Sophie
+## Horaire à déterminer
+- 12h15 - Conseillère d'orientation - Alizée
 - 13h00 - UQAM
 - 13h30 - UQAT 2 campus
 - 14h30 - NAD
 - 15h00 - ETS
   
 
-## Groupe PM - Charlène :
+## Groupe PM 
 - 14h30 - NAD
 - 15h00 - ETS
 - 15h30 - UQAT 2 campus
 - 16h30 - UQAM
-- 17h00 - Conseillère d'orientation - Sophie
+- 17h00 - Conseillère d'orientation - Alizée
