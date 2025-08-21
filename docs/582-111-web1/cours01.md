@@ -184,7 +184,11 @@ Un peu comme **Microsoft Word** sert à la rédaction de texte, **[Visual Studio
 
 ![](./assets/images/vscode.png){ data-zoom-image }
 
-On écris ça où du code ? Dans un fichier texte. C'est pas plus compliqué que ça !
+!!! question "On écrit ça où du code ?"
+    
+    Dans un fichier texte. C'est vraiment pas plus compliqué que ça !
+
+    Mais... dites-moi, fichier et dossier, on connait la différence ?
 
 !!! example "Tant qu'à y être, créons notre première page Web !"
 
