@@ -6,6 +6,8 @@
 
 ## Évaluation formative du CV par les pairs
 
+## Recherche sur les entreprises du 5 à 7
+
 ## Pratique de Speed jobbing  
 
 ## 5 à 7 de réseautage
