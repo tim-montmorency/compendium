@@ -46,7 +46,7 @@ Intelligence artificielle
 * [Soutien psychosocial](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/soutien-psychosocial/)
 * [Service d’aide à l’apprentissage](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-lapprentissage/presentation/)
 * [Service d'aide financière](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/service-aide-financiere/presentation-du-service/)
-* :fontawesome-regular-hand-point-right:{ .horizontal-anim-cos .valign-bottom } [Centre d’aide en intégration multimédia](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom }
+* :fontawesome-regular-hand-point-right:{ .horizontal-anim-cos .valign-bottom } [Centre d’aide en intégration multimédia](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) et tutorat :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom }
 
 ## Le développement Web
 
