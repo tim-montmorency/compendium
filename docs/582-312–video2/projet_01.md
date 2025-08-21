@@ -3,7 +3,11 @@
 ## Objectif du projet
 Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire.
 
-[Référence visuelle ](https://vimeo.com/32282580?fl=pl&fe=vl)
+  * [Thibalt Duvernix](https://vimeo.com/32282580?fl=pl&fe=vl)
+  * [Deuil ](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EfXVbWkqYUlJmX9LPrX_igsBqdaSGRuwwtTZZPX8V6liEw?e=Lu8Obz)
+  * [Paranoïa](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EQmh2Qq3t-BKvr4yAA4FcxIBCW2GAE4epr3Ahj-MI0kr9A?e=ondJ56)
+  * [Imparfaite](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ET2VQOTGC9ZMsLxLdvcIw_UBSXHQJuNiTnojmF_Zm96p0Q?e=IhrTPc)
+  * [Sonore](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ES-MnO8fqoBEt3wKdZHPu7EBjKfBYtNvctBnykrLpdErsg?e=UKDFZQ)
 
 ---
 
