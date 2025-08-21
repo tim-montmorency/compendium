@@ -11,7 +11,8 @@ Le but de cet exercice est de **créer des découpes dans un portrait** en utili
 Télécharger et ouvrir les fichiers suivants :  
 
 [📁 Document de départ_- femme_dore](../assets/image/17_femme_dore.png){ .md-button }   <br>   
-[📁 Exemple à reproduire — masque_vectoriel](../assets/image/14_vecteur_masque.png){ .md-button }   <br>   
+![](../assets/image/14_vecteur_masque.png)  <br>   
+
 
 ---
 
