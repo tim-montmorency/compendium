@@ -56,8 +56,7 @@ Faire le devoir
 * [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
 * [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
 * [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>
-
-Faire [🛠️ les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9) 
+* [🛠️ les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9) 
 
 Déposer tous les devoirs dans Devoir sur TEAMS avant mardi. 
 
