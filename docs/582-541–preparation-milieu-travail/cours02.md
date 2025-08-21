@@ -108,3 +108,6 @@ Qu'est-ce que doit contenir un cv?
 
 ## Activité sur le contenu de votre CV
 Remplir le document contenu_cv sur github.
+
+## Devoir
+Terminer le document sur le contenu du CV. 
