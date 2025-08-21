@@ -24,7 +24,9 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
 
 - **Expérimentation avec les lentilles :**
   - Testez des lentilles à effets spéciaux pour ajouter de la texture à vos prises de vue.
-
+    
+- **La colorisation :**
+  - La colorisation doit être en noir et blanc.
 ---
 
 ### 2. Contraintes sonores
