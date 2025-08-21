@@ -12,5 +12,5 @@
 [Lien vers l'événement](https://www.eventbrite.ca/e/billets-activite-de-maillage-laval-carrefour-des-talents-1412761771489?aff=oddtdtcreator) 
 
 
-## Avancer le Portfolio
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
+## Devoir
+[🛠️ Avancer le portfolio](./stages/portfolio.md){ .md-button }      
