@@ -399,6 +399,10 @@ La qualité se mesure en fonction de son **efficacité**, de son **efficience** 
 
 Voici la liste des [10 heuristiques d’utilisabilité](https://www.nngroup.com/articles/ten-usability-heuristics/) de Jakob Nielsen.
 
+> **Définitions de heuristique**, adjectif<br>
+> Qui contribue à la découverte. _Hypothèse heuristique_.<br>
+> En informatique, se dit d’une méthode d’exploration procédant par évaluations et hypothèses successives
+
 <!-- Src : https://blog.prototypr.io/the-10-usability-heuristics-free-posters-for-every-design-office-c7b3b01b6099 -->
 
 <!-- Résumé en image https://miro.medium.com/v2/resize:fit:4800/format:webp/1*QhwEGRQWg_yv_FTrJnsxBQ.png -->
