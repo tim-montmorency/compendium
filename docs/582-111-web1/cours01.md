@@ -176,6 +176,12 @@ Voici à quoi ça ressemble :
 
 ## Outils
 
+### Navigateur
+
+Les navigateurs principaux sont **Chrome**, Safari, Edge et Firefox
+
+![StatCounter](./assets/images/StatCounter-browser-CA-monthly.png){ data-zoom-image }
+
 ### Éditeur de code
 
 Techniquement, on peut programmer un site Web complet avec **Notepad**, mais ce serait particulièrement inefficace.
@@ -201,13 +207,7 @@ Un peu comme **Microsoft Word** sert à la rédaction de texte, **[Visual Studio
     1. Sauvegarder
     1. Sur le bureau de votre ordinateur, double-cliquer sur le fichier `index.html`.
 
-### Navigateur
-
-Les navigateurs principaux sont **Chrome**, Safari, Edge et Firefox
-
-![StatCounter](./assets/images/StatCounter-browser-CA-monthly.png){ data-zoom-image }
-
-#### Inspecteur
+### Inspecteur du navigateur
 
 ![Onglet élément de l'inspecteur](./assets/images/inspector-elements.png){ data-zoom-image }
 
