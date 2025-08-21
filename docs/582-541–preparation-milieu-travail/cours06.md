@@ -22,5 +22,5 @@ Remplir le document contenu_lettre_presentation sur github.
 Remplir le document plan_lettre_presentation sur github. 
 
 
-## Temps pour avancer votre lettre
-[🛠️ Consignes lettre](./stages/lettre.md){ .md-button }        
+## Devoir
+Terminer de remplir le document GitHub sur la lettre de présentation.    
