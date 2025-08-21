@@ -1,7 +1,5 @@
 # Cours 8 
 
-## Formatif
-Évaluation formative du portfolio d'un collègue de classe. 
 
 ## Retour sur les plans de lettre de présentation
 En équipes.

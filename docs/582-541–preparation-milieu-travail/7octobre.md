@@ -1,5 +1,3 @@
-# Cours 7
-
 ## ⚠️ Heure des cours modifié
 Tous les groupes vont chez Sid Lee au trou à l'horaire. 
 

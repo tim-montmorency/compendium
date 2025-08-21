@@ -1,8 +1,8 @@
 # Cours 11
-## 🚨 Remise formative du portfolio 
 
-## Évaluation formative du portfolio d'un collègue
+## 🚨 Remise de la lettre de présentation
 
-## Correction des portfolios
+## Formatif
+Évaluation de la lettre d'un collègue
 
 ## Temps pour les comités

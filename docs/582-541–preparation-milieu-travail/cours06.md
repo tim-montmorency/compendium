@@ -1,9 +1,15 @@
 # Cours 6
 
-## 🚨 Remise et présentation des planifications de portfolio
+## Retour sur le 5 à 7
 
-## Temps pour les comités
-Contact des employeurs pour l'événement. 
+## Formatif
+Évaluation formative du portfolio d'un collègue de classe. 
+
+## Activité sur le contenu de la lettre de présentation
+Remplir le document contenu_lettre_presentation sur github. 
+
+
+## Formation des comités pour la journée carrière
 
 ## Présentation sur la lettre de présentation     
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERrX846mpkdKu4CkXSbw1TYBDAUmeVdpkbbA89qHX-jchw?e=aiBfkj){ .md-button }  
