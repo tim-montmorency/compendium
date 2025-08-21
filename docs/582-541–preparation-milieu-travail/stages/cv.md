@@ -21,7 +21,7 @@ Vous serez également évalués sur les éléments suivants:
 - [ ] Mise en page (Les sections sont clairement identifiées et bien séparées, le cv est agréable visuellement)
 
 ## Création du CV
-Vous pouvez créer le cv dans le logiciel de votre choix, il devra ensuite être remis au format .pdf et pouvoir être imprimé au format 8 1/2 x 11. 
+Vous pouvez créer le cv dans le logiciel de votre choix, il devra ensuite être remis au format .pdf et pouvoir être imprimé au format 8 1/2 x 11. Vous devez remettre deux versions de votre cv, une en couleur et une en noir et blanc pouvant être imprimée sans utiliser trop d'encre.  
 
 Voici quelques logiciels pouvant être utilisés pour le CV:     
 
