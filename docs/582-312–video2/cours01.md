@@ -24,10 +24,6 @@
   
 ## Projet 1 
 * Explication du [projet 1](projet_01.md)
-  *  [Deuil ](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EfXVbWkqYUlJmX9LPrX_igsBqdaSGRuwwtTZZPX8V6liEw?e=Lu8Obz)
-  *  [Paranoïa](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EQmh2Qq3t-BKvr4yAA4FcxIBCW2GAE4epr3Ahj-MI0kr9A?e=ondJ56)
-  *  [Imparfaite](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ET2VQOTGC9ZMsLxLdvcIw_UBSXHQJuNiTnojmF_Zm96p0Q?e=IhrTPc)
-  *  [Sonore](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ES-MnO8fqoBEt3wKdZHPu7EBjKfBYtNvctBnykrLpdErsg?e=UKDFZQ)
 * [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/Eanb1Rd6dcZFhLmPFDvnD_YBeqiVc978kvOhiuiebzwmOA?e=J98Iwu)
 * Choisir journée de tournage (entre le 15 septembre après votre cours et avant le 30 septembre).
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
