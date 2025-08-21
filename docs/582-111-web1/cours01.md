@@ -211,11 +211,10 @@ L'inspecteur (ou _DevTools_) est un outil qui sert à analyser et déboguer une 
 
 On y accède soit en appuyant sur la touche ++f12++, soit en faisant un clic droit et en choisissant Inspecter.
 
-!!! example "Essayons ensemble l'inspecteur 🕵"
-
-    **🧑‍🏫 Démo du prof**
+!!! example "🧑‍🏫 Démo du prof"
 
     Essayons l'inspecteur sur le site <https://www.banq.qc.ca/> et observez bien ce qu'on peut réaliser avec !
+    
     <!-- Lors de la démo, on montre comment en modifiant le DOM dans l'inspecteur, on peut bypasser le popup qui bloque la page. -->
 
 ### Raccourcis
@@ -362,6 +361,8 @@ Les [onglets](https://daisyui.com/components/tab/) (ou _Tabs_) permettent de nav
 !!! example "Chasse aux composantes !"
 
     Dans ce court exercice, vous devez 🧐 **détecter** le plus de **composantes** possible.
+
+    Site Web : <https://discord.com/community>
 
     [Quiz](https://app.wooclap.com/WEB1COMP){ .md-button .md-button--primary }
 
