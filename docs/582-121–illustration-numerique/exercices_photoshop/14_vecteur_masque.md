@@ -1,6 +1,6 @@
 <style>.md-footer{display:none;}</style>
 
-# 🎨 Exercice — Masques vectoriels
+# Exercice — Masques vectoriels
 
 Le but de cet exercice est de **créer des découpes dans un portrait** en utilisant des **masques vectoriels avec l’outil Plume (P)**.  
 
