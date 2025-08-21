@@ -44,6 +44,8 @@
 
 *  [▶️ Créer des masques vectoriels](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfFRExMlbkhBjYGdJ6y9eP0BVo1WPaMu7w6b_9BN9JSlrg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0vDvAn)
 
+  [🛠️ Créer des masques vectoriels](./exercices_photoshop/14_vecteur_masque.md){ .md-button }  <br>  
+
   
 ## Devoir
 
