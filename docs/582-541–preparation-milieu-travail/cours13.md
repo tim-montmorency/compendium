@@ -5,7 +5,6 @@
 ## Autoévaluation et évaluation en groupe des comités
 
 ## Conférence de Synthèse
-14h20 à 15h20: C-1712     
 
 [📁 Informations sur Arristage](https://polesynthese.com/arrimage/arristage){ .md-button }    
 
