@@ -85,7 +85,7 @@ Toutefois, le développement Web permet aussi de concevoir une surprenante panop
 ![](./assets/images/combat-trials.png){ data-zoom-image }
 
 <div markdown>
-**Jeux vidéos** (ex. : [itch.io](https://itch.io/games/platform-web))
+**Jeux vidéos** (ex. : [itch.io]( https://mraosix.itch.io/combattrials ))
 </div>
 </div>
 
