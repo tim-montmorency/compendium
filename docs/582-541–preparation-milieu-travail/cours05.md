@@ -13,4 +13,5 @@
 
 
 ## Devoir
-[🛠️ Avancer le portfolio](./stages/portfolio.md){ .md-button }      
+Avancer le portfolio
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
