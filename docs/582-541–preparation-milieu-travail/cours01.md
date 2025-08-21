@@ -25,7 +25,6 @@ Suivre les consignes du document mon_profil.md
 ## 5 à 7
 [🛠️ Inscription](https://www.eventbrite.ca/e/billets-activite-de-maillage-laval-carrefour-des-talents-1412761771489?aff=oddtdtcreator){ .md-button }   
 
-Planification de la séance photo
 Invitations pour la journée carrière? 
 
 
