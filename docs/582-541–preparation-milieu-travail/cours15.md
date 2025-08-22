@@ -21,3 +21,6 @@
 - 15h30 - UQAT 2 campus
 - 16h30 - UQAM
 - 17h00 - Conseillère d'orientation - Alizée
+
+## Devoir
+Remplir le document bilan_recherche_stage sur GitHub. 
