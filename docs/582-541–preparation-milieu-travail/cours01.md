@@ -6,9 +6,10 @@
  
 [📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUWwACJgnypNg84pk8frp5gB4ozDwHnxN9N1rCoDW1BLiA?e=rNFy0U){ .md-button }             
 
-## Ressource
-[📋 Résumé du cours](https://la-voie.cssdm.gouv.qc.ca/wp-content/uploads/sites/42/2022/10/CV_guide_recherche_emploi.pdf){ .md-button }             
+## Médiagraphie
+[📋 Guide sur la recherche d'emploi](https://la-voie.cssdm.gouv.qc.ca/wp-content/uploads/sites/42/2022/10/CV_guide_recherche_emploi.pdf){ .md-button }             
 
+[📋 Activités pour aller plus loin](https://cdn.careercruising.com/clientservice/Activit%C3%A9s%20de%20recherche%20d'emploi.pdf){ .md-button }
 
 
 ## Capsule du cours
