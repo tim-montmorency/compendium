@@ -6,7 +6,7 @@
 Évaluation formative du portfolio d'un collègue de classe. 
 
 ## Activité sur le contenu de la lettre de présentation
-Remplir le document contenu_lettre_presentation sur github. 
+Remplir le document contenu_lettre_presentation sur GitHub. 
 
 
 
@@ -18,7 +18,7 @@ Remplir le document contenu_lettre_presentation sur github.
 [🔍 Montmorency p.10-11](https://www.cmontmorency.qc.ca/wp-content/uploads/2023/11/Petit-guide-de-recherche-demploi.pdf){ .md-button }      
 
 ## Plan de la lettre de présentation
-Remplir le document plan_lettre_presentation sur github. 
+Remplir le document plan_lettre_presentation sur GitHub. 
 
 ## Formation des comités pour la journée carrière
 
