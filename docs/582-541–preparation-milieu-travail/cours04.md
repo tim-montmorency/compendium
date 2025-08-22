@@ -10,7 +10,7 @@
 [📁 Se préparer aux entrevues (Université de Sherbrooke)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX8dYqrpNsVHpvzDCXJ2naIBDuKzkEvUCkd-AMu2FqKX9g?e=omxN6P){ .md-button }  
 
 ## Activité sur l'objectif de carrière
-Remplir le document objectif sur Github.
+Remplir le document objectif sur GitHub.
 
 ## Rencontres individuelles pour le CV 
 
@@ -18,6 +18,6 @@ Remplir le document objectif sur Github.
 ## Devoir
 ### Terminer le CV, se préparer pour le réseautage    
 
-Remplir le document preparation_entrevue sur Github.     
+Remplir le document preparation_entrevue sur GitHub.     
 
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
