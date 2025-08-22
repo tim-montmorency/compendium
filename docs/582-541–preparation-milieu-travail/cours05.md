@@ -15,8 +15,7 @@
 
 
 ## Devoir
-### Avancer le portfolio
+Avancer le portfolio.    
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
 
-### Remplir le bilan dans votre journal de bord
 Remplir le document bilan_5a7 dans votre journal GitHub. 
