@@ -6,10 +6,6 @@ Après votre entrevue, remplissez la deuxième partie du document simulation_ent
 
 ## Prise de photos
 
-## Création d'un profil LinkedIn
-
-
-
 
 ## Temps pour les comités
 
