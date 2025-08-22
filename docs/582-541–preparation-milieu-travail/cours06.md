@@ -9,7 +9,6 @@
 Remplir le document contenu_lettre_presentation sur github. 
 
 
-## Formation des comités pour la journée carrière
 
 ## Présentation sur la lettre de présentation     
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERrX846mpkdKu4CkXSbw1TYBDAUmeVdpkbbA89qHX-jchw?e=aiBfkj){ .md-button }  
@@ -21,6 +20,8 @@ Remplir le document contenu_lettre_presentation sur github.
 ## Plan de la lettre de présentation
 Remplir le document plan_lettre_presentation sur github. 
 
+## Formation des comités pour la journée carrière
+
 
 ## Devoir
-Terminer de remplir le document GitHub sur la lettre de présentation.    
+Terminer de remplir les documents GitHub sur la lettre de présentation.    
