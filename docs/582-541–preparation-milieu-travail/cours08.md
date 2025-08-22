@@ -13,3 +13,9 @@ En équipes.
 
 ## Rédiger un courriel
 Remplir le document candidature_courriel dans votre journal de bord GitHub. Ciblez une compagnie qui vous intéresse pour votre stage. 
+
+## Préparation à la simulation d'entrevue
+Remplir la première partie du document simulation_entrevue sur GitHub. 
+
+## Devoir
+### Terminer les documents GitHub
