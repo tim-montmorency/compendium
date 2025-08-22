@@ -1,14 +1,15 @@
 # Compendium
 
 * [Domaines du multimédia](./582-101–domaines-multimedias/index.md)
-* [Web 1](./582-111–web1/index.md)
+* [Web 1](./582-111-web1/index.md)
 * [Illustration numérique](./582-121–illustration-numerique/index.md)
+* [Illustration numérique Gab](./582-121–illustration-numerique-gab/index.md)
 * [Audio 1](./582-131–audio1/index.md)
 * [Design Graphique](./582-201–design-graphique/index.md)
 * [Web 2](./582-211-web2/index.md)
 * [Vidéo 1](./582-212-video1/index.md)
 * [Animation 2D](./582-214–animation2d/index.md)
-* [Animation 2D JFC et MMO](./582-214-animation2d-jf-mm/index.md)
+* [Animation 2D H2025](./582-214-animation2d-jf-mm/index.md)
 * [Interactivité ludique](./582-301-interactivite-ludique/index.md)
 * [Web 3](./582-311-web3/index.md)
 * [Vidéo 2](./582-312–video2/index.md)
@@ -24,5 +25,3 @@
 * [Controle qualité](./582-533-controle-qualite/index.md)
 * [Préparation en milieu de travail](./582-541–preparation-milieu-travail/index.md)
 * [Expérience multimédia](./582-601–experience-multimedia/index.md)
-
-

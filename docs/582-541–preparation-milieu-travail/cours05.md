@@ -1,18 +1,21 @@
 # Cours 5
 
-## Temps pour les comités
+## ⚠️ Heure des cours modifié
 
-## Rédiger une candidature
-[🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y){ .md-button }     
+## 🚨 Remise des CV
 
-## Présentation sur la e-réputation et LinkedIn
-[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
+## Évaluation formative du CV par les pairs
 
-## Création d'un profil LinkedIn
+## Recherche sur les entreprises du 5 à 7
 
-## Avancer le Portfolio, la lettre ou le CV    
+## Pratique de Speed jobbing  
+
+## 5 à 7 de réseautage
+[Lien vers l'événement](https://www.eventbrite.ca/e/billets-activite-de-maillage-laval-carrefour-des-talents-1412761771489?aff=oddtdtcreator) 
+
+
+## Devoir
+Avancer le portfolio.    
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
 
-[🛠️ Consignes lettre](./stages/lettre.md){ .md-button }      
-
-[🛠️ Consignes cv](./stages/cv.md){ .md-button }     
+Remplir le document bilan_5a7 dans votre journal GitHub. 

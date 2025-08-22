@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 5
-  - Vendredi 20 septembre
----
-
 # Bootstrap 3/3
+
+
 
 Dans ce cours, nous allons explorer les différentes composantes nécessitants du JavaScript avec Bootstrap.
 

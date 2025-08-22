@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Opérateurs arithmétiques
 
 ![](../assets/images/operateurs_banner.png)
@@ -47,6 +45,8 @@ Quotient : 2.1153846153846154
 * [ ] Créez deux variables et attribuez un nombre différent à chacune d’elles. Ne prenez pas les mêmes nombres que dans le résultat attendu.
 * [ ] En utilisant vos deux variables, calculez leur somme (addition), leur différence (soustraction), leur produit (multiplication) et leur quotient (division). Créez une variable pour chaque opération afin de rendre le code plus propre et lisible.
 * [ ] Affichez les informations dans la console.
+
+[STOP]
 
 ## Solution
 

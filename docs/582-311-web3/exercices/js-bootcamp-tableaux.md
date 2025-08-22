@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Tableaux
 
 ![](../assets/images/tableaux_banner.png)
@@ -56,6 +54,8 @@ Ajoutez et manipulez les valeurs d’un tableau.
 * [ ] Affichez le tableau dans la console
 * [ ] Supprimez "Pluton" du tableau à l'aide d'une **méthode** (choisissez la bonne)
 * [ ] Affichez le tableau dans la console
+
+[STOP]
 
 ## Solution
 

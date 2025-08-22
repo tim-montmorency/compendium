@@ -1,12 +1,12 @@
 # Cours 1 - Bienvenue!
 
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=yI52oj){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EUVapzED2tVMtxVIZIxQ3KkBo7FPX0WdsDY9czVQN8IdDQ?e=yntWiv){ .md-button }   <br>
 
 ## Présentation des règles du cours
 * Remise des travaux.
-    * Grilles d’évaluation.
-    * Nomenclature.
+   * Grilles d’évaluation.
+   * Nomenclature.
 * Absence à une évaluation.
 * Absence à un cours en studio.
 * Retard et départ avant la fin du cours.
@@ -24,11 +24,15 @@
   
 ## Projet 1 
 * Explication du [projet 1](projet_01.md)
-* [Formation des équipes](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EQgpWSSXSqFNu4jZFArMR_MBzw0ZKzsCVkVr0l1j7GLQVw?e=aPDlKr)
-* Choisir journée de tournage (entre le 10 septembre après votre cours et avant le 22 septembre).
+* [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/Eanb1Rd6dcZFhLmPFDvnD_YBeqiVc978kvOhiuiebzwmOA?e=J98Iwu)
+* Choisir journée de tournage (entre le 15 septembre après votre cours et avant le 30 septembre).
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
     * 1 équipe par studio (3, 4 ou 5 par équipe).
     * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00).
+
+## L'esthétique visuelle et sonore
+* [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g?e=Uri2m8)
+* [Le sonore](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EVYtu8fNOnNJnFoR1yifeygBMPQEWFQW_Ex9S52lYviJqw?e=bwPmiA)
 
 
 ## La caméra

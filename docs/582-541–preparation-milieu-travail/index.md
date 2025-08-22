@@ -5,6 +5,12 @@ hide:
 
 # Préparation au milieu de travail
 
+<a href="https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/" target="_blank" style="text-decoration:none;">
+  <button style="padding:10px 20px; background-color:#ed5d53; color:white; border:none; border-radius:5px; cursor:pointer;">
+    Ouvrir le wiki sur le web
+  </button>
+</a>
+
 ## Descriptif du cours
 
 Ce cours prépare l’élève pour son intégration dans un milieu de travail. L’élève est amené à se questionner sur sa place dans le milieu professionnel dans le cadre d’une recherche de stage.

@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 14
-  - Vendredi 5 décembre
----
-
 # Cours 14
+
+
 
 Exercices de préparation à l'examen final. Voici quelques ressources pour vous aider :
 

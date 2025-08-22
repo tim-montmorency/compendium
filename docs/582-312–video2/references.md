@@ -3,7 +3,7 @@
 ## Références générales 
 * [Guide étudiant](https://teams.microsoft.com/_#/school/tab::9a8e708c-0d50-445f-8661-476b729789eb/G%C3%A9n%C3%A9ral?threadId=19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2&ctx=channel)
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
-* [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EZ2zuGulqO9HvRUtBEgudsIBuWsRjKMxWLrHNtcz5q8kpA?e=dlZtok)
+* [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EUVapzED2tVMtxVIZIxQ3KkBo7FPX0WdsDY9czVQN8IdDQ?e=yntWiv)
 * [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
   

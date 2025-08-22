@@ -1,9 +1,13 @@
 # Cours 2
+
+## Capsule du cours
+[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
+
 ## Présentation des stages
  [📁 Informations stages](./stages/informations.md){ .md-button }    
 
  Rejoindre l'équipe Teams des stages: 
- Code 
+ khy7jex
  
 
 ## Présentation sur la recherche de stage ou d'emploi
@@ -98,11 +102,16 @@
 
 </table>
 
-## Présentation sur le portfolio    
-[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
+## Liste collaborative d'employeurs
+[🛠️ Ajouter des entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
 
-## Consignes pour le portfolio    
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+## Activité sur le cv 
+Qu'est-ce que doit contenir un cv? 
 
-## Devoir     
-Trouver un modèle de portfolio
+[🛠️ Activité figma](https://www.figma.com/board/cZh85crBDZ6cKOZPxXxf4G/CV---Lora?node-id=0-1&t=hweNL2IdfxRgQOj7-1)
+
+## Activité sur le contenu de votre CV
+Remplir le document contenu_cv sur GitHub.
+
+## Devoir
+Terminer le document sur le contenu du CV. 

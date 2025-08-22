@@ -2,7 +2,7 @@
 <style>.md-Headher{display:none;}</style>
 
 # Utilisation de [Kling AI](https://klingai.com/)
-
+[stop]
 ## Explication vidéo de Kling
 
 * [▶️ Présentation générale de Kling](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EV5Ic0c8k6VHhlbi7GwxzYkBWkdsxvcztGvHLh0RQxymSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gogPiv)  <br>    

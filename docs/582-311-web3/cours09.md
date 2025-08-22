@@ -1,29 +1,18 @@
----
-tags:
-  - Cours 9
-  - Vendredi 25 octobre
----
-
 # Cours 9
 
-## Message de Françoise [:material-microsoft-teams:](https://teams.microsoft.com/l/message/19:BiAHRPbK6SjauPwC8oHcs9qPyUx-CFhBPQ0C9ksx12U1@thread.tacv2/1729784430909?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=47f527c0-26a1-4be3-b02d-ed97a9e5017a&parentMessageId=1729784430909&teamName=Intelligence%20Artificielle&channelName=General&createdTime=1729784430909)
 
-> **Changement de plan**
->
-> Intelligence Artificielle
->
-> Bonjour à tous, changement de plan pour les licences. Vous pourrez utiliser les licences de Midjourney et de Runway uniquement au collège. Je vais changer les mots de passe. Donc pour votre moodboard, vous pouvez utiliser des images libres de droit. Au prochain cours, vous aurez du temps pour utiliser Midjourdney.
 
-## Bootcamp JS
+<!--
+Anime.js : Alternative cool et opensource à Gsap (https://animejs.com/)
+https://barba.js.org/ : pour de la transition entre les pages.
+Chart.js : barres, lignes, pie, radar, annotations de base.
+Cartes — Leaflet : cartes interactives, marqueurs, tuiles libres.
+https://zzz.dog/
+Tone.js (synthèse/rythmes audio en JS)
+ -->
 
-## Retour sur la partie JavaScript de l'examen
 
-Les étapes à suivre pour compléter l'exercice :
 
-1. On ajoute des variables qui nous servent à compter.
-1. On fait juste un fruit pour commencer
-1. On ajoute une fonction pour les tâches répétitives (incrémentation du total et validation du clique de chaque fruit)
-1. Finalement, on copie/colle l'eventListener pour chaque fruit.
 
 ## GSAP
 

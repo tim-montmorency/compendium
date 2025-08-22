@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Les conditions (if)
 
 ![](../assets/images/conditions_banner.png)
@@ -104,6 +102,8 @@ N'est pas admissible au programme
 - [ ] Ajoutez une condition en utilisant les variables données. La condition doit valider les critères spécifiés.
 - [ ] Afficher dans la console un message pour chaque conditions.
 - [ ] Tester la condition en changeant la valeur des variables.
+
+[STOP]
 
 ## Solution
 

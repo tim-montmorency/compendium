@@ -2,7 +2,7 @@
 <style>.md-Headher{display:none;}</style>
 
 ## Encadrement de l'utilisation de l'IA dans la création artistique
-
+[stop]
 L'intelligence artificielle (IA) est un outil puissant qui peut stimuler la créativité et étendre les possibilités de l'art. Cependant, son utilisation doit être rigoureusement encadrée pour préserver l'intégrité artistique et encourager une réflexion approfondie sur le processus de création.
 
 Vous avez la liberté d'utiliser l'IA pour générer du contenu dans vos projets créatifs. Cependant, il est impératif d'ancrer cette utilisation dans des références artistiques solides : courants esthétiques reconnus, photographes emblématiques, directeurs artistiques de renom ou designers influents. L'objectif est d'éviter que l'IA se contente de produire des œuvres banales ou des clichés accessibles à tout utilisateur. Elle doit, au contraire, être un levier pour innover et enrichir la réflexion esthétique, tout en s'éloignant des lieux communs que l'IA pourrait reproduire de manière automatique.

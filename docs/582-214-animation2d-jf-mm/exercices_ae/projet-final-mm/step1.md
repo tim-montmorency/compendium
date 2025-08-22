@@ -363,10 +363,6 @@ Fichiers à remettre:
 * Renommez votre dossier **prenom1-prenom2_projet-final_582-214**
 
 
-
-
-[^tts]: [:hugging: TTS sur ElevenLabs](https://elevenlabs.io/fr)
-
 [STOP]
 
 Note ce qui manque

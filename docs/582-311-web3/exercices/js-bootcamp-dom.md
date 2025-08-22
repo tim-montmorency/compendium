@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Manipulation du DOM
 
 ![](../assets/images/dom_banner.png)
@@ -91,6 +89,8 @@ Code de départ :
 - [ ] Hochez la tête en guise de satisfaction.
 - [ ] À l'aide d'une troisième boucle `for` et d'une variable, trouvez le moyen de supprimer le film le plus vieux de la liste.
 - [ ] Contemplez glorieusement votre accomplissement.
+
+[STOP]
 
 ## Solution
 

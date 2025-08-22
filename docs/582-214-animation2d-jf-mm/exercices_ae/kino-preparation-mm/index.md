@@ -7,8 +7,6 @@
     
     Ce mouvement a commencé à Montréal, au Québec (Canada) en février 1999 avec Kino Montréal (anciennement connu sous le nom Kino ’00) et il compte maintenant une centaine de cellules actives à travers le monde.
 
-[^kino]: <https://fr.wikipedia.org/wiki/Kino_(mouvement)>
-
 ## Notre Kino de jeudi prochain, ça va ressembler à quoi ?
 
 Exemple de résultat : <https://9-squares.tumblr.com/>

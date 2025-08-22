@@ -6,9 +6,9 @@
 
 ## Ceci est le contenu du jour
 
-[Vue base](./vue/index.html)
-[Vue création projet](./vue/creation-projet.html)
-[Vue template script style](./vue/template-script-style.html)
+[Vue base](./vue/index.md)
+[Vue création projet](./vue/creation-projet.md)
+[Vue template script style](./vue/template-script-style.md)
 
 ## Courbes abc
 

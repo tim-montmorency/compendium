@@ -1,15 +1,11 @@
 # Cours 7
 
-  
-## Temps pour les comités et l'avancement du portfolio
-Lorsque votre évaluation est terminée.    
-Semaine où on commence le contact des employeurs!
+## ⚠️ Heure des cours modifié
+Tous les groupes vont chez Sid Lee au trou à l'horaire. 
 
+Adresse: 1 Place Ville Marie, #12102, Montréal, QC H3B 3Y1
 
-## Prise de photos
-
-
-## URGENT STAGES : Ajouter des entreprises au répertoire
-[🛠️ Répertoire Entreprises Stages ](https://cmontmorency365.sharepoint.com/:l:/s/Contrledelaqualit-582533-MERCREDI/FIcs26-QfYxMiOde_3xTpfQBchHi8WkZLKnfLa-JuMbasQ?e=fmRuHL){ .md-button }   
-
-**Important** Trouver un courriel pour que Lora contacte l'employeur. Inscrire le nom de la compagnie n'est pas suffisant! 
+## Programme
+Visite de l'agence
+Présentation de l'agence
+Présentation sur le marché du travail

@@ -6,7 +6,7 @@
 
 !!! warning NPM et Node JS
 
-    Avant d'aller plus loin, assurez-vous d'abord d'[avoir préalablement installé Vue.js](./index.html)
+    Avant d'aller plus loin, assurez-vous d'abord d'[avoir préalablement installé Vue.js](./index.md)
 
 <br> <br>
 

@@ -1,8 +1,14 @@
 # Cours 3
 
-## Activité sur le cv 
-Qu'est-ce que doit contenir un cv? Dans Figma.    
+## Présentation sur le portfolio    
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
+## Consignes pour le portfolio    
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+
+
+## Planification du portfolio
+Remplir le document planification_portfolio sur GitHub.
 
 ## Présentation sur le cv   
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVyO4I6ZyrpItmxxqMTH2bMBkqWKR6zRhRTug3VbdkKmkA?e=4HOTYb){ .md-button }  
@@ -18,15 +24,10 @@ Démonstration CV de l'an dernier
 ## Temps pour avancer votre CV
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
 
-## Conférence de Sid Lee
-**De 14h20 à 15h20**     
-
-Sujet: Le cv, la lettre de présentation et le portfolio
-
 
 ## Devoir     
-### Avancer le Portfolio ou le CV    
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+Terminer le document planification_portfolio sur GitHub. 
 
+Avancer le CV.     
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
  

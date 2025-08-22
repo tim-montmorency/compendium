@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Fonctions
 
 ![](../assets/images/fonctions_banner.png)
@@ -94,6 +92,8 @@ Si votre résultat donne `Total de la facture : 389.16738000000004$` c'est que v
 - [ ] Afficher le total de la facture dans la console.
 - [ ] Maintenant, utilisez une boucle `for` pour effectuer l'addition des totaux.
 - [ ] Afficher le total de la facture dans la console.
+
+[STOP]
 
 ## Solution
 

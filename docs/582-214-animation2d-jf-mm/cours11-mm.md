@@ -163,7 +163,6 @@ Finalement, on anime dans la plage de transition, chaque calque avec un effet de
 Pour cet effet, il faut simplement modifier la position de droite à gauche des deux clips tout en utilisant CC Repetile.
 
 Pour un effet plus jolie, ne pas oublier la gestion des ease et le flou de mouvement.
-![alt text](ae-flou-mvmt.png)
 
 ### Intensité
 

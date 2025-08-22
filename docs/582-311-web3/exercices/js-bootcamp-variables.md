@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Les variables et les types
 
 ![](../assets/images/variables_banner.png)
@@ -71,6 +69,8 @@ Est étudiante : true
 - [ ] Déclarez une variable de type nombre (number) pour stocker votre âge.
 - [ ] Déclarez une variable de type booléen (boolean) pour indiquer si vous êtes étudiant.
 - [ ] Affichez, une ligne à la fois, chacune des variables dans la console.
+
+[STOP]
 
 ## Solution
 

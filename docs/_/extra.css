@@ -1,129 +1,31 @@
-/* ---------------------------------- */
-/* Base Styling */
-/* ---------------------------------- */
-body {
-  transition: font-family 0.3s;
-}
-
+/* =========================
+   UTILITAIRES (width, aspect, align, etc.)
+   ========================= */
 .w-100 {
   width: 100% !important;
   height: auto;
 }
-
 .w-50 {
   width: 50% !important;
   height: auto;
 }
-
 img.center {
   display: block;
   margin: 0 auto;
 }
-
-/* ---------------------------------- */
-/* Navigation */
-/* ---------------------------------- */
-p:has(.breadcrumb) {
-  margin-top: 0;
-  border-bottom: 1px solid var(--md-code-bg-color);
+.valign-bottom {
+  vertical-align: bottom !important;
 }
-
-a.breadcrumb {
-  font-size: small;
-  font-weight: bold;
-}
-
-/* Logo Button Display (Controlled by JS) */
-.md-logo ~ .md-header__button:not(.show) {
-  display: none;
-}
-
-/* Disable Pointer Events on Navigation Items */
-.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__title {
-  pointer-events: none;
-}
-
-/* Hide Back Arrow Icon in Mobile Menu */
-.md-nav--primary
-  > .md-nav__list
-  > .md-nav__item
-  > .md-nav
-  > .md-nav__title
-  .md-nav__icon {
-  display: none;
-}
-
-/* ---------------------------------- */
-/* Tabs and Logo Interaction */
-/* ---------------------------------- */
-.md-container > .md-tabs {
-  display: none;
-}
-
-/* Disable Logo Click (Controlled by JS) */
-.md-header__button.md-logo {
-  pointer-events: none;
-  cursor: default;
-}
-
-/* ---------------------------------- */
-/* Text Color Utility Classes */
-/* ---------------------------------- */
-.text-primary {
-  color: var(--md-primary-fg-color);
-}
-
-.text-success {
-  color: var(--md-code-hl-string-color);
-}
-
-.text-danger {
-  color: var(--md-code-hl-number-color);
-}
-
-.text-warning {
-  color: var(--md-warning-bg-color);
-}
-
-.text-muted {
-  color: var(--md-accent-fg-color--transparent);
-}
-
-/* ---------------------------------- */
-/* Tables */
-/* ---------------------------------- */
-.md-typeset__table {
-  display: block;
-}
-
-.md-typeset table:not([class]) {
-  display: table;
-}
-
-/* ---------------------------------- */
-/* Media Styling */
-/* ---------------------------------- */
-/* Iframe */
-iframe {
-  border-radius: 0.25rem;
-}
-
 .selected {
   border: 3px solid pink;
 }
 
-/* Images */
-img {
-  border-radius: 0.25rem;
+.sm, .small {
+  font-size: 0.8em;
+  line-height: 1.66;
 }
 
-body[data-md-color-scheme="slate"] img.invert {
-  filter: invert(0.9);
-}
-
-/* ---------------------------------- */
 /* Aspect Ratios */
-/* ---------------------------------- */
 .aspect-1-1,
 .aspect-3-1,
 .aspect-4-3,
@@ -135,7 +37,6 @@ body[data-md-color-scheme="slate"] img.invert {
   height: auto;
   width: 100%;
 }
-
 .aspect-1-1 {
   aspect-ratio: 1 / 1;
 }
@@ -160,8 +61,7 @@ body[data-md-color-scheme="slate"] img.invert {
 .aspect-4-1 {
   aspect-ratio: 4 / 1;
 }
-
-/* Special Aspect Ratios for Embedded Content */
+/* Spécial pour contenus tabbed */
 .aspect-2-1-tabbed,
 .aspect-4-1-tabbed,
 .aspect-1-1-tabbed,
@@ -169,7 +69,6 @@ body[data-md-color-scheme="slate"] img.invert {
   height: auto;
   width: 100%;
 }
-
 .aspect-1-1-tabbed {
   aspect-ratio: 800 / calc(800 + 50 + 30 + 10);
 }
@@ -183,17 +82,48 @@ body[data-md-color-scheme="slate"] img.invert {
   aspect-ratio: 400 / calc(300 + 50 + 30 + 10);
 }
 
-/* ---------------------------------- */
-/* Links */
-/* ---------------------------------- */
+/* =========================
+   NAVIGATION & HEADER
+   ========================= */
+p:has(.breadcrumb) {
+  margin-top: 0;
+  border-bottom: 1px solid var(--md-code-bg-color);
+}
+a.breadcrumb {
+  font-size: small;
+  font-weight: bold;
+}
+.md-logo ~ .md-header__button:not(.show) {
+  display: none;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__title {
+  pointer-events: none;
+}
+.md-nav--primary
+  > .md-nav__list
+  > .md-nav__item
+  > .md-nav
+  > .md-nav__title
+  .md-nav__icon {
+  display: none;
+}
+.md-container > .md-tabs {
+  display: none;
+}
+.md-header__button.md-logo {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* =========================
+   LIENS & INTERACTIONS
+   ========================= */
+/* a.stretched-link {
+  color: var(--md-typeset-color);
+} */
 .grid:has(.stretched-link) {
   position: relative;
 }
-
-a.stretched-link {
-  color: var(--md-typeset-color);
-}
-
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -204,58 +134,95 @@ a.stretched-link {
   pointer-events: auto;
   content: "";
 }
-
 .ext-link-icon {
   stroke: var(--md-primary-fg-color);
 }
-
 a:hover .ext-link-icon {
   stroke: var(--md-accent-fg-color);
 }
-
 a.md-button--primary .ext-link-icon {
   stroke: white;
 }
-
-.md-typeset figure {
-  width: auto;
+/* Hover sur stretched-link => fond de .grid */
+.grid:has(a.stretched-link:hover) {
+  border-color: var(--md-typeset-color);
+  transition: border-color 0.25s;
 }
 
-/* ---------------------------------- */
-/* Typography */
-/* ---------------------------------- */
-/* Headings */
+/* =========================
+   COULEURS UTILITAIRES
+   ========================= */
+.text-primary {
+  color: var(--md-primary-fg-color);
+}
+.text-success {
+  color: var(--md-code-hl-string-color);
+}
+.text-danger {
+  color: var(--md-code-hl-number-color);
+}
+.text-warning {
+  color: var(--md-warning-bg-color);
+}
+.text-muted {
+  color: var(--md-accent-fg-color--transparent);
+}
+
+/* =========================
+   TABLEAUX
+   ========================= */
+.md-typeset__table {
+  display: block;
+}
+.md-typeset table:not([class]) {
+  display: table;
+}
+
+/* =========================
+   MÉDIAS (images, iframe, etc.)
+   ========================= */
+iframe {
+  border-radius: 0.25rem;
+  border: 0.05rem solid var(--md-typeset-table-color);
+}
+img {
+  border-radius: 0.25rem;
+}
+body[data-md-color-scheme="slate"] img.invert {
+  filter: invert(0.9);
+}
+
+/* =========================
+   TYPOGRAPHIE & TITRES
+   ========================= */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
   font-weight: bolder;
 }
-
 .md-typeset h1 {
   color: inherit;
 }
-
 .md-typeset h2 {
   border-top: 3px solid var(--md-code-bg-color);
   padding-top: 1.6rem;
 }
 
-/* ---------------------------------- */
-/* Admonitions and Details */
-/* ---------------------------------- */
+/* =========================
+   ADMONITIONS & DETAILS
+   ========================= */
 .md-typeset .admonition,
 .md-typeset details {
   border-width: 0;
   border-left-width: 4px;
 }
 
-/* ---------------------------------- */
-/* Icon Animations */
-/* ---------------------------------- */
+/* =========================
+   ANIMATIONS & ICÔNES
+   ========================= */
 .md-typeset .mdx-pulse {
   animation: pulse 2s infinite;
 }
-
 @keyframes pulse {
   0%,
   100% {
@@ -265,10 +232,32 @@ a.md-button--primary .ext-link-icon {
     transform: scale(1.15) rotate(10deg);
   }
 }
+.horizontal-anim {
+  animation: horanim 1s infinite;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
+.horizontal-anim-cos {
+  animation: horanim 1s infinite;
+  animation-delay: 0.5s;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
+@keyframes horanim {
+  0% {
+    transform: translateX(-0.125rem);
+  }
+  50% {
+    transform: translateX(0.125rem);
+  }
+  100% {
+    transform: translateX(-0.125rem);
+  }
+}
 
-/* ---------------------------------- */
-/* Grid Layouts */
-/* ---------------------------------- */
+/* =========================
+   GRILLES & CARTES
+   ========================= */
 .md-typeset .grid {
   display: grid;
   grid-gap: 0.4rem;
@@ -276,32 +265,42 @@ a.md-button--primary .ext-link-icon {
   position: relative;
   align-items: center;
 }
-
+/* Classes pour différentes tailles de gouttière */
+.md-typeset .grid.gap-xs {
+  grid-gap: 0.2rem;
+}
+.md-typeset .grid.gap-sm {
+  grid-gap: 0.6rem;
+}
+.md-typeset .grid.gap-md {
+  grid-gap: 1rem;
+}
+.md-typeset .grid.gap-lg {
+  grid-gap: 1.5rem;
+}
+.md-typeset .grid.gap-xl {
+  grid-gap: 2rem;
+}
+.md-typeset .grid.gap-none {
+  grid-gap: 0;
+}
 .md-typeset .grid.align-items-top {
   align-items: flex-start;
 }
-
 .md-typeset .grid img {
   display: block;
 }
-
 .md-typeset .grid.grid-1-1,
 .md-typeset .grid.grid-1-2,
 .md-typeset .grid.grid-1-3,
-.md-typeset .grid.grid-1-4 {
-  grid-gap: 1.2rem;
-  padding: 0.4rem;
-  border-radius: 0.2rem;
-  background-color: var(--md-code-bg-color);
-}
-
+.md-typeset .grid.grid-1-4,
 .md-typeset .grid-auto {
   grid-gap: 1.2rem;
-  padding: 0.4rem;
+  padding: 0.3rem;
   border-radius: 0.2rem;
   background-color: var(--md-code-bg-color);
+  border: 2px solid var(--md-code-bg-color);
 }
-
 @media (min-width: 576px) {
   .md-typeset .grid.grid-1-1 {
     grid-template-columns: 1fr 1fr;
@@ -319,15 +318,12 @@ a.md-button--primary .ext-link-icon {
     grid-template-columns: auto 1fr;
   }
 }
-
-/* Cards in Grid */
+/* Cartes dans grilles */
 .md-typeset .grid.cards {
   display: flex;
   align-items: stretch;
   gap: 1rem;
 }
-
-/* Grid Card Styling */
 .md-typeset .grid.cards > ol > li,
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid > .card {
@@ -341,119 +337,47 @@ a.md-button--primary .ext-link-icon {
   height: 100%;
   transition: border 0.25s, box-shadow 0.25s;
 }
-
 .md-typeset .grid.cards > ol > li:hover,
 .md-typeset .grid.cards > ul > li:hover,
 .md-typeset .grid > .card:hover {
   box-shadow: var(--md-shadow-z2);
 }
 
-/* ---------------------------------- */
-/* Footer */
-/* ---------------------------------- */
-.md-footer {
-  margin-top: 2rem;
-  background-color: transparent;
+/* =========================
+   GALLERIE
+   ========================= */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
 }
-
-.md-footer-meta {
-  background-color: transparent;
+.gallery img {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  filter: sepia(0.25);
 }
-
-/* Cacher le footer uniquement sur les pages contenant "edm3840" dans l'URL */
-body[data-path*="edm3840"] md-copyright {
-  display: none;
-}
-
-.md-copyright {
+.gallery-item {
+  position: relative;
   width: 100%;
-  text-align: center;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.md-copyright__highlight {
-  color: var(--md-typeset-color);
-  font-size: 0.64rem;
-}
-
-html .md-footer-meta.md-typeset a {
-  color: var(--md-typeset-color);
-  text-decoration: underline;
-}
-
-html .md-footer-meta.md-typeset a:hover {
-  color: var(--md-primary-fg-color);
-}
-
-/* ---------------------------------- */
-/* Task List Indicators */
-/* ---------------------------------- */
-[dir="ltr"] .md-typeset .task-list-indicator:before {
-  left: -2.25em;
-  cursor: pointer;
-}
-
-[dir="ltr"] .md-typeset .task-list-indicator:hover:before {
-  background-color: var(--md-default-fg-color--lighter);
-}
-
-.md-typeset [type="checkbox"]:checked + .task-list-indicator:hover:before {
-  background-color: #00e676;
-}
-
-[dir="ltr"] .md-typeset ol li,
-[dir="ltr"] .md-typeset ul li {
-  margin-left: 1.825em;
-}
-
-[dir="ltr"] .md-typeset .task-list-item [type="checkbox"] {
-  left: -3em;
-}
-
-/* ---------------------------------- */
-/* Fireworks Container */
-/* ---------------------------------- */
-#fireworks {
-  position: fixed;
-  left: 0;
+.gallery-item img {
+  position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  object-fit: cover;
+  object-position: center;
 }
 
-/* ---------------------------------- */
-/* Codepen Open Link */
-/* ---------------------------------- */
-a.codepen-open {
-  display: block;
-  text-align: center;
-  font-size: 0.64rem;
-}
-
-/* ---------------------------------- */
-/* Animations */
-/* ---------------------------------- */
-.horizontal-anim {
-  animation: horanim 1s infinite;
-  padding-left: 0.125rem;
-  padding-right: 0.125rem;
-}
-
-@keyframes horanim {
-  0% {
-    transform: translateX(-0.125rem);
-  }
-  50% {
-    transform: translateX(0.125rem);
-  }
-  100% {
-    transform: translateX(-0.125rem);
-  }
-}
-
-/* ---------------------------------- */
-/* Image Zoom Styling */
-/* ---------------------------------- */
+/* =========================
+   ZOOM IMAGE
+   ========================= */
 [data-zoom-backdrop] {
   position: fixed;
   top: 0;
@@ -466,156 +390,155 @@ a.codepen-open {
   transition: opacity 400ms ease;
   pointer-events: none;
 }
-
 [data-zoom-backdrop="active"] {
   opacity: 1;
   pointer-events: auto;
 }
-
 [data-zoom-image] {
   position: relative;
   transform: none;
   transition: transform 400ms ease, border-radius 400ms ease;
   cursor: zoom-in;
 }
-
 [data-zoom-image="active"] {
   z-index: 1000;
   cursor: zoom-out;
   border-radius: 0;
 }
 
-/* ---------------------------------- */
-/* Gallery */
-/* ---------------------------------- */
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.5rem;
+/* =========================
+   FOOTER
+   ========================= */
+.md-footer,
+.md-footer-meta {
+  background-color: transparent;
+  margin-top: 2rem;
 }
-
-.gallery img {
-  object-fit: cover;
-  aspect-ratio: 1 / 1;
-  filter: sepia(0.25);
+body[data-path*="edm3840"] md-copyright {
+  display: none;
 }
-
-.gallery-item {
-  position: relative;
+.md-copyright {
   width: 100%;
-  padding-bottom: 56.25%;
-  overflow: hidden;
-  border-radius: 8px;
-  background: #f0f0f0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.md-copyright__highlight {
+  color: var(--md-typeset-color);
+  font-size: 0.64rem;
+}
+html .md-footer-meta.md-typeset a {
+  color: var(--md-typeset-color);
+  text-decoration: underline;
+}
+html .md-footer-meta.md-typeset a:hover {
+  color: var(--md-primary-fg-color);
 }
 
-.gallery-item img {
-  position: absolute;
-  top: 0;
+/* =========================
+   CHECKLISTS & LISTES
+   ========================= */
+[dir="ltr"] .md-typeset .task-list-indicator:before {
+  left: -2.25em;
+  cursor: pointer;
+}
+[dir="ltr"] .md-typeset .task-list-indicator:hover:before {
+  background-color: var(--md-default-fg-color--lighter);
+}
+.md-typeset [type="checkbox"]:checked + .task-list-indicator:hover:before {
+  background-color: #00e676;
+}
+[dir="ltr"] .md-typeset ol li,
+[dir="ltr"] .md-typeset ul li {
+  margin-left: 1.825em;
+}
+[dir="ltr"] .md-typeset .task-list-item [type="checkbox"] {
+  left: -3em;
+}
+
+/* =========================
+   AUTRES
+   ========================= */
+#fireworks {
+  position: fixed;
   left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  z-index: -1;
 }
-
-/* ---------------------------------- */
-/* Miscellaneous */
-/* ---------------------------------- */
+a.codepen-open {
+  display: block;
+  text-align: center;
+  font-size: 0.64rem;
+}
 stop:before {
   content: "[STOP]";
 }
-
-.valign-bottom {
-  vertical-align: bottom !important;
-}
-
-/* Result Box Styling */
 #result-box,
 #result-box iframe {
   background-color: transparent;
 }
-
 #__mermaid_0 .edge-depth-0 {
   stroke-width: 1;
 }
+.md-typeset figure {
+  width: auto;
+}
 
-/* ---------------------------------- */
-/* Finishing Touches (ajout Marie-Michelle, à bonifier plus tard) */
-/* ---------------------------------- */
-
-/* 
-palette https://coolors.co/1e212a-ffe066-ef5552-247ba0-70c1b3 
-
-gris foncé #1e212a
-jaune pâle #ffe066
-rouge #ef5552
-bleu #247ba0
-vert d'eau #70c1b3
-*/
-.finishing .md-typeset>div>h1{
+/* =========================
+   FINITIONS (ajout Marie-Michelle)
+   ========================= */
+.finishing .md-typeset > div > h1 {
   color: #ef5552;
   text-transform: uppercase;
   font-size: 4rem;
 }
-.finishing .md-typeset h2{
+.finishing .md-typeset h2 {
   padding-top: 3.8rem;
   margin-top: 4.3rem;
   font-size: 2.5em;
 }
-.finishing .md-typeset h1+h2{
+.finishing .md-typeset h1 + h2 {
   border-top: 0;
   padding-top: 0;
   margin-top: 0;
 }
-.finishing .md-typeset h3{
+.finishing .md-typeset h3 {
   font-size: 1.9em;
 }
-.finishing .md-typeset h4{
+.finishing .md-typeset h4 {
   font-size: 1.5em;
 }
-
 .finishing .md-typeset code,
-.finishing .md-typeset pre
-{
+.finishing .md-typeset pre {
   background-color: #404555;
   color: white;
 }
-
-body[data-md-color-scheme="slate"].finishing .md-typeset kbd{
-  box-shadow: 0 .1rem 0 .05rem #ec5956, 0 .1rem 0 #fff, 0 -.1rem .2rem hsla(225deg,15%,90%,0.2) inset;
-
-
+body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
+  box-shadow: 0 0.1rem 0 0.05rem #ec5956, 0 0.1rem 0 #fff,
+    0 -0.1rem 0.2rem hsla(225deg, 15%, 90%, 0.2) inset;
 }
-
 @media screen and (max-width: 768px) {
-  .finishing .md-typeset>div>h1 {
+  .finishing .md-typeset > div > h1 {
     font-size: 2.5rem;
   }
-  .finishing .md-typeset h2{
+  .finishing .md-typeset h2 {
     padding-top: 1.8rem;
     margin-top: 2rem;
     font-size: 2em;
   }
-  .finishing .md-typeset h3{
+  .finishing .md-typeset h3 {
     font-size: 1.6em;
   }
-  .finishing .md-typeset h4{
+  .finishing .md-typeset h4 {
     font-size: 1.2em;
   }
 }
-
-.finishing .md-typeset .admonition-title{
+.finishing .md-typeset .admonition-title {
   font-size: 1.6em;
 }
-
-.finishing .md-typeset em{
-  color: #FABC2A;  
-  /*baby blue *#5DB7DE ou turquoise #06A77D*/
+.finishing .md-typeset em {
+  color: #fabc2a;
 }
-
-.finishing .md-typeset a{
+.finishing .md-typeset a {
   text-decoration: underline;
 }

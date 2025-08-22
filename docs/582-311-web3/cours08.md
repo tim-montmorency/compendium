@@ -1,29 +1,19 @@
----
-tags:
-  - Cours 8
-  - Vendredi 18 octobre
----
-
 # Cours 8
 
-## Retour sur la partie Bootstrap de l'examen
+<!-- [Retour sur l'examen : Codepen](https://codepen.io/tim-momo/pen/BaXZLqK) -->
+
+<!-- ## Retour sur la partie Bootstrap de l'examen
 
 * [`col-sm-4`](./cours03.md#systeme-de-grille-grid-system)
 * [`order-last`](./cours03.md#ordre-css)
 * [`d-none`](./cours04.md#display)
-* [`d-sm-block`](./cours04.md#display)
+* [`d-sm-block`](./cours04.md#display) -->
 
-[Codepen](https://codepen.io/tim-momo/pen/BaXZLqK)
+<!-- ## Retour sur la partie JavaScript de l'examen
 
-## Bootcamp JavaScript
+Les étapes à suivre pour compléter l'exercice :
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/gijane.jpg)
-
-  <small>Exercice - JavaScript</small><br>
-  **[Camp d'entrainement](./exercices/js-bootcamp.md){.stretched-link}**
-</div>
-
-## Devoir
-
-Malgré ce qui est inscrit dans le plan de cours, il n'y a pas de devoir cette semaine. Il sera reporté à la semaine prochaine.
+1. On ajoute des variables qui nous servent à compter.
+1. On fait juste un fruit pour commencer
+1. On ajoute une fonction pour les tâches répétitives (incrémentation du total et validation du clique de chaque fruit)
+1. Finalement, on copie/colle l'eventListener pour chaque fruit. -->

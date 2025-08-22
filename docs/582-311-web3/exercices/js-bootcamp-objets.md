@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Objets
 
 ![](../assets/images/objets_banner.png)
@@ -56,6 +54,8 @@ Créez et manipulez un objet représentant une planète du système solaire.
 * [ ] Affichez l’objet dans la console.
 * [ ] **Supprimez** la propriété anneaux de l’objet.
 * [ ] Affichez l’objet dans la console.
+
+[STOP]
 
 ## Solution
 

@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Bootcamp JavaScript](./js-bootcamp.md){.breadcrumb}
-
 # Événements
 
 ![](../assets/images/evenements_banner.png)
@@ -70,6 +68,8 @@ Code de départ :
 * [ ] Sélectionnez chacun des éléments du DOM, soit les balises `div` et le bouton.
 * [ ] Chaque sélection doit être placée dans une variable.
 * [ ] Ajoutez une gestion d'événement sur le bouton pour que lorsque vous le cliquez, il affiche votre prénom et nom dans les balises `div`.
+
+[STOP]
 
 ## Solution
 
