@@ -11,8 +11,7 @@ Après votre entrevue, remplissez la deuxième partie du document simulation_ent
 
 
 
-
-
-
-
 ## Temps pour les comités
+
+## Devoir
+Terminer le portfolio
