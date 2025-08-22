@@ -15,9 +15,9 @@ Remplir le document objectif sur GitHub.
 ## Rencontres individuelles pour le CV 
 
 
-## Devoir
-### Terminer le CV, se préparer pour le réseautage    
+## Devoir  
 
 Remplir le document preparation_entrevue sur GitHub.     
 
+Terminer le cv.     
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
