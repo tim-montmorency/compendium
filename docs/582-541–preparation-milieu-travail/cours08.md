@@ -14,6 +14,9 @@ En équipes.
 ## Rédiger un courriel
 Remplir le document candidature_courriel dans votre journal de bord GitHub. Ciblez une compagnie qui vous intéresse pour votre stage. 
 
+## Présentation sur la réputation numérique et LinkedIn
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
+
 ## Préparation à la simulation d'entrevue
 Remplir la première partie du document simulation_entrevue sur GitHub. 
 
