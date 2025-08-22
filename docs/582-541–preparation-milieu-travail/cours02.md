@@ -1,4 +1,8 @@
 # Cours 2
+
+## Capsule du cours
+[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
+
 ## Présentation des stages
  [📁 Informations stages](./stages/informations.md){ .md-button }    
 
