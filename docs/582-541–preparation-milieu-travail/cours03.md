@@ -26,8 +26,8 @@ Démonstration CV de l'an dernier
 
 
 ## Devoir     
-### Avancer la planification de Portfolio ou le CV    
 Terminer le document planification_portfolio sur GitHub. 
 
+Avancer le CV.     
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
  
