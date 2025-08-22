@@ -9,15 +9,15 @@
 
 [📁 Se préparer aux entrevues (Université de Sherbrooke)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX8dYqrpNsVHpvzDCXJ2naIBDuKzkEvUCkd-AMu2FqKX9g?e=omxN6P){ .md-button }  
 
-## Rencontres individuelles pour le CV 
+## Activité sur l'objectif de carrière
+Remplir le document objectif sur Github.
 
-## Ajouter des compagnies à la liste
-[🛠️ Ajouter des entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
+## Rencontres individuelles pour le CV 
 
 
 ## Devoir
-### Avancer le Portfolio ou le CV    
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }   
+### Terminer le CV, se préparer pour le réseautage    
 
+Remplir le document preparation_entrevue sur Github.     
 
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
