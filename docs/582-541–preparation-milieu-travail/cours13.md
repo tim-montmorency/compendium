@@ -1,6 +1,7 @@
 # Cours 13 
 
 ## Retour sur la journée carrière
+Remplir le document bilan_journee_carriere dans GitHub. 
 
 ## Autoévaluation et évaluation en groupe des comités
 
@@ -21,3 +22,7 @@
 [📁 Répertoire de métiers](https://polesynthese.com/repertoire/metiers){ .md-button }    
 
 [📁 Répertoire d'entreprises](https://polesynthese.com/repertoire/entreprises){ .md-button }    
+
+
+## Devoir
+À partir de maintenant, faire des suivis dans le document suivi_candidatures_stage dès que vous faites des démarches. 
