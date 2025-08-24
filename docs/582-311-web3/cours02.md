@@ -1,5 +1,7 @@
 # Cours 2
 
+[STOP]
+
 ## :octicons-terminal-16: Lignes de commandes
 
 ![](./assets/images/command.webp){ .w-100 }

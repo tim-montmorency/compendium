@@ -1,6 +1,6 @@
 # Cours 6
 
-
+[STOP]
 
 ## Rappel
 

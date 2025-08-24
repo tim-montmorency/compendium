@@ -1,6 +1,6 @@
 # Cours 13
 
-
+[STOP]
 
 ## Balises meta
 

@@ -14,7 +14,7 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
 | Heures d’enseignement | 60      |
 | Session               | 3       |
 
-[Plan de cours :material-download:](./assets/documents/582311MO-Web3-A2024.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/plan-cours_web_3_A2025.pdf){ .md-button .md-button--primary }
 
 ## Objectifs
 
@@ -25,12 +25,10 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
 
 <div class="grid cards" markdown>
 -   Les cours suivants sont préalables absolus au présent cours
-
     * 420 V11 MO Programmation interactive
     * 582 211 MO Web 2
 
 -   Le présent cours est préalable absolu aux cours suivants
-
     * 582 411 MO Web 4
     * 582 541 MO Préparation au milieu de travail
 </div>
