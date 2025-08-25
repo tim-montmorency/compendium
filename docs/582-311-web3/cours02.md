@@ -1,4 +1,4 @@
-# Cours 2 | Lignes de commandes & Git
+# Cours 2 | Lignes de commande & Git
 
 [STOP]
 
@@ -6,13 +6,13 @@ Ligne de commande : navigation, création/suppression de fichiers et dossiers
 Git : Initialisation d’un dépôt, commit, push/pull, branches, merges
 GitHub Desktop
 
-## :octicons-terminal-16: Lignes de commandes
+## :octicons-terminal-16: Lignes de commande
 
 ![](./assets/images/command.webp){ .w-100 }
 
 La [ligne de commande](https://fr.wikipedia.org/wiki/Commandes_Unix) est un outil qui permet d’interagir avec un ordinateur en tapant des commandes textuelles.
 
-On écris des lignes de commandes dans un CLI, aussi appelé « Terminal ».
+On écris des lignes de commande dans un CLI, aussi appelé « Terminal ».
 
 *[CLI] : Command-Line Interface
 
