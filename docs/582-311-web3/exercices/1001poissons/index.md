@@ -35,7 +35,7 @@ On appelle ça de l'hermaphrodisme séquentiel.
 
 ## Consignes
 
-Pour cet exercice, tu dois utiliser une **boucle** pour créer les 1001 poissons et les ajouter dans un tableau.
+Pour cet exercice, il faut utiliser une **boucle** pour créer les 1001 poissons et les ajouter dans un tableau.
 
 - [ ] Crée une classe `Poisson` avec les propriétés `nom`, `couleur` et `age`. (Pas besoin de méthode pour cet exercice)
 - [ ] Crée un **tableau vide** pour contenir les poissons
