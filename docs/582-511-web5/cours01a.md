@@ -14,7 +14,7 @@
 ## Brise-glace 🧊🔨❄️
 
 - [Groupe 1 lundi AM](https://app.wooclap.com/TMYTEU)
-- Groupe 2 lundi PM (lien à venir)
+- [Groupe 2 lundi PM](https://app.wooclap.com/SSRTQJ)
 
 ## Plan de cours 📄🎓
 
@@ -23,7 +23,7 @@
 ## Quiz diagnostique CSS 🕵️✍️
 
 - [Groupe 1 lundi AM](https://app.wooclap.com/PJBPRX)
-- Groupe 2 lundi PM (lien à venir)
+- [Groupe 2 lundi PM](https://app.wooclap.com/USBJPG)
 
 ## Révision CSS <img src="./assets/css-logo.svg" style="width: 50px;">
 
