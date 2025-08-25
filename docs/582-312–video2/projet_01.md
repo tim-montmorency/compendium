@@ -1,11 +1,10 @@
 # Projet 1 : Le Corps
 
 ## Objectif du projet
-Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire.
+Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire en 1 minute 30. 
 
   * [Mosaïque](https://vimeo.com/32282580?fl=pl&fe=vl)
   * [Macro](https://www.premiumbeat.com/blog/macro-videography-photography/)
-  * 
 ---
 
 ### 1. Contraintes visuelles
