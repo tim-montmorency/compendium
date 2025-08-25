@@ -51,3 +51,33 @@ La fameuse Jeanne d'Arc apparaît vers 1429. Son intervention est hyper courte (
 - [ ] Ajouter un conteneur pour le résultat : `<p id="resultMessage"></p>`. (pour afficher le message)
 - [ ] Dans `script.js`, ajouter le JavaScript nécessaire afin de valider la réponse de l'utilisateur. Si l'année est juste, écris « Bravo, c'est la bonne réponse ! » dans le conteneur `resultMessage`. Sinon écrire « Non, ce n'est pas ==ANNÉE_ENTRÉE== ans. »
 - [ ] Présenter le code au prof :nerd:
+
+[STOP]
+
+SOLUTION
+
+https://codepen.io/tim-momo/pen/poXVyEW/26b57a4932fa97694f9c0cabb9ee235c
+
+```html
+<h1>Quiz</h1>
+<p id="question">Combien d'années a duré la guerre de 100 ans ?</p>
+<input type="number" id="answerInput" placeholder="Entrez votre réponse">
+<button id="submitAnswer">Valider</button>
+<p id="resultMessage"></p>
+```
+
+```js
+const correctAnswer = 116;
+function checkAnswer() {
+  let userAnswer = parseInt(document.getElementById("answerInput").value);
+  if (userAnswer === correctAnswer) {
+    updateMessage("Bravo, c'est la bonne réponse !");
+  } else {
+    updateMessage("Désolé, ce n'est pas " + userAnswer + " ans.");
+  }
+}
+function updateMessage(message) {
+  document.getElementById("resultMessage").innerHTML = message;
+}
+document.getElementById("submitAnswer").addEventListener("click", checkAnswer);
+```
