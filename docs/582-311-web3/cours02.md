@@ -1,6 +1,10 @@
-# Cours 2
+# Cours 2 | Lignes de commandes & Git
 
 [STOP]
+
+Ligne de commande : navigation, création/suppression de fichiers et dossiers
+Git : Initialisation d’un dépôt, commit, push/pull, branches, merges
+GitHub Desktop
 
 ## :octicons-terminal-16: Lignes de commandes
 

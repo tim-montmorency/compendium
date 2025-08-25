@@ -1,0 +1,49 @@
+---
+tags:
+  - Exercice
+---
+
+# 1001 poissons
+
+![](./1001poissons.gif){.w-100}
+
+L'objectif de cet exercice est de créer **1001 objets « Poisson »** à l'aide du concept de **classe JavaScript**.
+
+Le but est de les afficher dans la console du navigateur.
+
+Chaque poisson doit avoir :
+
+* un nom unique
+* une des couleurs suivantes : brun, vert, jaune, bicolore, tricolore
+* un âge entre 3 et 100 ans
+
+## Fun fact 🐠
+
+![](./Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg){.w-50}
+
+Tous les [poissons-clowns](https://fr.wikipedia.org/wiki/Poisson-clown) naissent sans sexe puis deviennent mâle.
+
+Dans chaque colonie, on observe la hiérarchie suivante :
+
+- **Femelle dominante** — la plus grosse
+- **Mâle reproducteur** — le 2e plus gros
+- **Mâles non reproducteurs** — les plus petits
+
+Si la femelle meurt, le mâle dominant change de sexe et devient la nouvelle femelle !
+
+On appelle ça de l'hermaphrodisme séquentiel.
+
+## Consignes
+
+Pour cet exercice, tu dois utiliser une **boucle** pour créer les 1001 poissons et les ajouter dans un tableau.
+
+- [ ] Crée une classe `Poisson` avec les propriétés `nom`, `couleur` et `age`. (Pas besoin de méthode pour cet exercice)
+- [ ] Crée un **tableau vide** pour contenir les poissons
+- [ ] Crée un **tableau contenant les couleurs possibles** : `["brun", "vert", "jaune", "bicolore", "tricolore"]`
+- [ ] Crée une boucle qui s’exécute **1001 fois**
+  - [ ] Dans la boucle, crée une variable `nom` et assigne-lui un nom unique (Ex.: `Poisson1`, `Poisson2`, …)
+  - [ ] Dans la boucle, choisis une couleur aléatoire depuis le tableau des couleurs (avec `Math.random()` et `Math.floor()`)
+  - [ ] Dans la boucle, génère un âge aléatoire entre 3 et 100
+  - [ ] Instancie un nouvel objet `Poisson` avec ces valeurs et ajoute-le au tableau
+- [ ] Affiche le tableau complet de poissons dans la console avec `console.log(poissons)`
+- [ ] Vérifie ton code en affichant par exemple le **premier** et le **dernier poisson** du tableau

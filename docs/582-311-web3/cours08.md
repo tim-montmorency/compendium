@@ -1,6 +1,8 @@
-# Cours 8
+# Cours 8 | Anime.js 1/3
 
 [STOP]
+
+Anime.js : to(), fromTo(), propriétés CSS animables, callbacks 
 
 <!-- [Retour sur l'examen : Codepen](https://codepen.io/tim-momo/pen/BaXZLqK) -->
 

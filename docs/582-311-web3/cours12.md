@@ -1,6 +1,8 @@
-# Cours 12 - Plugiciels[^plugin]
+# Cours 12 | Cartes
 
 [STOP]
+
+Leaflet.js : cartes web, marqueurs, popups, personnalisation (tiles, couleurs, styles)
 
 [^plugin]: <https://gsap.com/docs/v3/Plugins/>
 

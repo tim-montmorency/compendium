@@ -8,9 +8,6 @@ class Poisson {
     return `${this.nom} (${this.img}) nage joyeusement.`;
   }
 
-  afficher() {
-    
-  }
 }
 
 // Création de 100 poissons

@@ -1,6 +1,10 @@
-# Cours 13
+# Cours 13 | ZDog, Tone.js
 
 [STOP]
+
+Zdog : illustrations et animations 3D Canvas
+Tone.js : sons, boucles et synthèse audio
+Synchroniser audio et animation visuelle
 
 ## Balises meta
 

@@ -8,7 +8,7 @@
 
 ![](./assets/images/bienvenue.jpg){.w-100}
 
-## Introduction 
+## Introduction
 
 <div class="grid gap-lg" markdown>
 ![](./assets/images/trudeau.gif)
@@ -362,47 +362,6 @@ document.getElementById('submit').addEventListener('click', function() {
 });
 ```
 
-## Introduction aux classes JavaScript
-
-Une classe en JavaScript, c’est un concept qui permet de structurer le code et de réutiliser la même logique plusieurs fois.
-
-### Pourquoi on utiliserait ça ?
-
-Imaginez que vous voulez programmer une page Web dans laquelle des poissons nagent indépendamment.
-
-Vous pourriez commencer par écrire le code d’un premier poisson… puis copier-coller ce code pour en avoir un deuxième, un troisième, et ainsi de suite. Rapidement, ça devient lourd à maintenir.
-
-C’est là que les classes sont utiles :
-
-- On définit une seule fois une classe Poisson.
-- Chaque nouveau poisson créé dans la page utilisera le même code.
-- Peu importe si vous ajoutez 3 poissons ou 1 000 000, ils partageront tous la même logique.
-
-### Comment ça fonctionne ?
-
-```js
-class Poisson {
-  constructor(nom, couleur) {
-    this.nom = nom;
-    this.couleur = couleur;
-  }
-
-  nager() {
-    console.log(`${this.nom} (${this.couleur}) nage joyeusement.`);
-  }
-}
-
-// On crée plusieurs poissons à partir de la même classe
-const poisson1 = new Poisson("Nemo", "orange");
-const poisson2 = new Poisson("Dory", "bleu");
-const poisson3 = new Poisson("Sharky", "gris");
-
-// Ils utilisent tous le même code défini dans la classe
-poisson1.nager(); // Résultat : Nemo (orange) nage joyeusement
-poisson2.nager(); // Résultat : Dory (bleu) nage joyeusement
-poisson3.nager(); // Résultat : Sharky (gris) nage joyeusement
-```
-
 ## Librairies et cadriciels
 
 L'objectif de Web 3 est d'apprendre à utiliser des **librairies** et des **cadriciels** dans divers projets.
@@ -438,4 +397,54 @@ Une structure complète qui dicte la façon dont tu organises et construis ton p
 * **[Bootstrap](https://getbootstrap.com/)** : structure et composantes
 * **[Tailwind](https://tailwindcss.com/)** : utilitaires CSS
 </div>
+</div>
+
+## Introduction aux classes JavaScript
+
+![](./assets/images/clone.gif){.w-100}
+
+Une classe en JavaScript, c’est un concept qui permet de structurer le code et de réutiliser la même logique plusieurs fois.
+
+### Pourquoi on utiliserait ça ?
+
+Imaginez que vous voulez programmer une page Web dans laquelle des poissons nagent indépendamment.
+
+Vous pourriez commencer par écrire le code d’un premier poisson… puis copier-coller ce code pour en avoir un deuxième, un troisième, et ainsi de suite. Rapidement, ça devient lourd à maintenir.
+
+C’est là que les classes sont utiles :
+
+- On définit une seule fois une classe Poisson.
+- Chaque nouveau poisson créé dans la page utilisera le même code.
+- Peu importe si vous ajoutez 3 poissons ou 1 000 000, ils partageront tous la même logique.
+
+### Comment ça fonctionne ?
+
+```js
+class Poisson {
+  constructor(nom, couleur) {
+    this.nom = nom;
+    this.couleur = couleur;
+  }
+
+  coucou() {
+    console.log(`${this.nom} (${this.couleur}) nage joyeusement.`);
+  }
+}
+
+// On crée plusieurs poissons à partir de la même classe
+const poisson1 = new Poisson("Nemo", "orange");
+const poisson2 = new Poisson("Dory", "bleu");
+const poisson3 = new Poisson("Sharky", "gris");
+
+// Ils utilisent tous le même code défini dans la classe
+poisson1.coucou(); // Résultat : Nemo (orange) nage joyeusement
+poisson2.coucou(); // Résultat : Dory (bleu) nage joyeusement
+poisson3.coucou(); // Résultat : Sharky (gris) nage joyeusement
+```
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/1001poissons/preview.gif)
+
+  <small>Exercice - JavaScript</small><br>
+  **[1001 poissons](./exercices/1001poissons/index.md){.stretched-link .back}**
 </div>
