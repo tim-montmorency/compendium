@@ -4,11 +4,7 @@
 Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire.
 
   * [Thibalt Duvernix](https://vimeo.com/32282580?fl=pl&fe=vl)
-  * [Deuil ](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EfXVbWkqYUlJmX9LPrX_igsBqdaSGRuwwtTZZPX8V6liEw?e=Lu8Obz)
-  * [Paranoïa](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EQmh2Qq3t-BKvr4yAA4FcxIBCW2GAE4epr3Ahj-MI0kr9A?e=ondJ56)
-  * [Imparfaite](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ET2VQOTGC9ZMsLxLdvcIw_UBSXHQJuNiTnojmF_Zm96p0Q?e=IhrTPc)
-  * [Sonore](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ES-MnO8fqoBEt3wKdZHPu7EBjKfBYtNvctBnykrLpdErsg?e=UKDFZQ)
-
+  * [Deuil ](
 ---
 
 ### 1. Contraintes visuelles
@@ -35,7 +31,7 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
   - Vous devez utiliser des mosaïques.
     
 - **La colorisation :**
-  - La colorisation doit être en noir et blanc.
+  - La colorisation doit être en noir et blanc \ désaturée \ ou noir et blanc avec un objet de couleur
 ---
 
 ### 2. Contraintes sonores
@@ -69,4 +65,4 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
    - Créer un micro-montage complexe en utilisant les sons enregistrés.
 
 3. **Expérimentation technique :**
-   - Utiliser au mieux les effets visuels et sonores, y compris ceux générés par l’IA.
+   - Utiliser au mieux les effets visuels et sonores.
