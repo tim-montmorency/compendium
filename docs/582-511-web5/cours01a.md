@@ -26,6 +26,8 @@
 * [Groupe 1 lundi AM](https://app.wooclap.com/PJBPRX)
 * Groupe 2 lundi PM (lien à venir)
 
+## Résumé CSS <img src="./assets/css-logo.svg" style="width: 50px;">
+[<img src="./assets/css-logo.svg" style="width: 20px;"> Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/){ .md-button }
 
 ## Exercices 🏃‍➡️🏃‍♀️‍➡️
 
