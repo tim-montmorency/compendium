@@ -1,6 +1,12 @@
-# Cours 6
+# Cours 6 | Mise en ligne
 
+[STOP]
 
+Domaine et hébergement
+cPanel & gestion de serveur
+FTP
+Déploiement d’un site web statique
+Validation HTML / CSS / JS
 
 ## Rappel
 

@@ -1,6 +1,8 @@
-# Cours 10
+# Cours 10 | Anime.js 3/3
 
+[STOP]
 
+Anime.js avancé : animation SVG (paths, morphing), parallaxe et animation responsive
 
 ## ScrollTrigger
 

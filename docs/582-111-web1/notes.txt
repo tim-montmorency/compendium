@@ -1,5 +1,20 @@
 TP1 / TP2 les faire jouer au jeu le cours avant l'énoncé.
 
+- Modification dans la console pour débloquer un champ de formulaire
+- Affichage d'information utile dans un commentaire du HTML ou dans un meta
+- Portion d'une image cliquable
+- Changer la lisibilité d'un mot en css
+- Réponse à une question dans l'URL.
+- Mot important dissimulé dans un bloc de texte.
+- Texte encodé.
+- Enigme simple, question quiz ou formule à résoudre
+- Indice dissimulé dans une image
+- Indice dans le nom de l'image
+
+https://cleanup.pictures/
+https://image-upscaling.net/upscaling
+Pexel
+Chatgpt
 
 
 

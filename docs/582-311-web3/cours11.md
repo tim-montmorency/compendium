@@ -1,6 +1,8 @@
-# Cours 11
+# Cours 11 | Diagrammes
 
+[STOP]
 
+Chart.js : bar, line, pie, radar, animation et personnalisation
 
 ## Parallaxe CSS
 

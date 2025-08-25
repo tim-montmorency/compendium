@@ -1,6 +1,6 @@
-# Bootstrap 3/3
+# Cours 5 | Tailwind
 
-
+[STOP]
 
 Dans ce cours, nous allons explorer les différentes composantes nécessitants du JavaScript avec Bootstrap.
 

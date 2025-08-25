@@ -1,6 +1,11 @@
-# Bootstrap 2/3
+# Cours 4 | Bootstrap 2/2
 
+[STOP]
 
+PRÉVOIR UN FORMATIF
+
+Bootstrap : icônes, cartes, boutons, formulaires, composantes JavaScript (modals, toasts, dropdown, accordions, carousel)
+Swiper
 
 <style>
   nav.md-nav--secondary > ul > li > nav > ul > li > nav {

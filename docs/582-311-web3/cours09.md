@@ -1,18 +1,10 @@
-# Cours 9
+# Cours 9 | Anime.js 2/3
 
+[STOP]
 
+PRÉVOIR UN FORMATIF
 
-<!--
-Anime.js : Alternative cool et opensource à Gsap (https://animejs.com/)
-https://barba.js.org/ : pour de la transition entre les pages.
-Chart.js : barres, lignes, pie, radar, annotations de base.
-Cartes — Leaflet : cartes interactives, marqueurs, tuiles libres.
-https://zzz.dog/
-Tone.js (synthèse/rythmes audio en JS)
- -->
-
-
-
+Anime.js avancé : animation SVG (paths, morphing), parallaxe et animation responsive
 
 ## GSAP
 

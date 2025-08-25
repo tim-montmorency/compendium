@@ -1,6 +1,10 @@
-# Cours 14
+# Cours 14 | Optimisation
 
+[STOP]
 
+Optimisation médias
+Compatibilité & validation
+Préparation à l'examen
 
 Exercices de préparation à l'examen final. Voici quelques ressources pour vous aider :
 

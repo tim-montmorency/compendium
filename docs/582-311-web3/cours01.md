@@ -21,14 +21,31 @@
 
 ## Révision - Web 2 (582 211 MO)
 
-HTML : [Formulaire](https://tim-montmorency.com/timdoc/582-211MO/html/formulaire/), [Image](https://tim-montmorency.com/timdoc/582-211MO/html/image/), [Picture](https://tim-montmorency.com/timdoc/582-211MO/html/picture/)
+**HTML**
 
-CSS : [Margin](https://tim-montmorency.com/timdoc/582-211MO/css/margin/), [Padding](https://tim-montmorency.com/timdoc/582-211MO/css/padding/), [Display](https://tim-montmorency.com/timdoc/582-211MO/css/display/), [Position](https://tim-montmorency.com/timdoc/582-211MO/css/position/), [Media Queries](https://tim-montmorency.com/timdoc/582-211MO/css/media-queries/), [Sélecteurs](https://tim-montmorency.com/timdoc/582-211MO/css/selecteurs-avances/), [Aspect-ratio](https://tim-montmorency.com/timdoc/582-211MO/css/aspect-ratio/), [Flexbox 1](https://tim-montmorency.com/timdoc/582-211MO/css/flexbox/), [Flexbox 2](https://tim-montmorency.com/timdoc/582-211MO/css/flexbox-intermediaire/), [Flexbox 3](https://tim-montmorency.com/timdoc/582-211MO/css/flexbox-avance/)
+* Formulaire : [1](https://tim-montmorency.com/timdoc/582-211MO/html/formulaire/), [2](https://tim-montmorency.com/timdoc/582-211MO/html/formulaire-intermediaire/), [3](https://tim-montmorency.com/timdoc/582-211MO/html/formulaire-avance/)
+* Images : [img](https://tim-montmorency.com/timdoc/582-211MO/html/image/) et [picture](https://tim-montmorency.com/timdoc/582-211MO/html/picture/)
+* [Favicon](https://tim-montmorency.com/timdoc/582-211MO/html/favicon/)
+* [SVG](https://tim-montmorency.com/timdoc/582-211MO/html/svg/)
+
+**CSS**
+
+* Espacements : [margin](https://tim-montmorency.com/timdoc/582-211MO/css/margin/) et [padding](https://tim-montmorency.com/timdoc/582-211MO/css/padding/)
+* [Display](https://tim-montmorency.com/timdoc/582-211MO/css/display/)
+* [Position](https://tim-montmorency.com/timdoc/582-211MO/css/position/)
+* [Media Queries](https://tim-montmorency.com/timdoc/582-211MO/css/media-queries/)
+* [Sélecteurs](https://tim-montmorency.com/timdoc/582-211MO/css/selecteurs-avances/)
+* [Aspect-ratio](https://tim-montmorency.com/timdoc/582-211MO/css/aspect-ratio/)
+* [Flexbox 1](https://tim-montmorency.com/timdoc/582-211MO/css/flexbox/)
+* [Flexbox 2](https://tim-montmorency.com/timdoc/582-211MO/css/flexbox-intermediaire/)
+* [Flexbox 3](https://tim-montmorency.com/timdoc/582-211MO/css/flexbox-avance/)
 
 ## Révision - Programmation interactive (420 V11 MO)
 
 <https://discovro-js.netlify.app/>
-  
+
+## Révision - JavaScript
+
 ![Statistic: Most used programming languages among developers worldwide as of 2024 | Statista](https://www.statista.com/graphic/1/793628/worldwide-developer-survey-most-used-languages.jpg)
 
 ### La base
@@ -59,15 +76,15 @@ var isStudent = false;
 ```
 
 ```js title="Valeurs"
-let num = 10;       // Nombre entier (number)
-let pi = 3.14;      // Nombre à virgule (number)
-let str = 'Salut!'; // Chaine de caractères (string)
-let isTrue = true;  // Booléen (boolean)
-let empty = null;   // Nul (null)
-let notDefined;     // Non défini (undefined)
-let arr = [];       // Tableau (array)
-let obj = {};       // Objet (object)
-let fn = () => {}   // Fonction (function)
+let num = 10;        // Nombre entier (number)
+let pi = 3.14;       // Nombre à virgule (number)
+let str = 'Salut !'; // Chaine de caractères (string)
+let isTrue = true;   // Booléen (boolean)
+let empty = null;    // Nul (null)
+let notDefined;      // Non défini (undefined)
+let arr = [];        // Tableau (array)
+let obj = {};        // Objet (object)
+let fn = () => {}    // Fonction (function)
 ```
 
 ### Opérateurs
@@ -104,7 +121,7 @@ let orOperator = true || false;
 let notOperator = !true;
 ```
 
-### Conditions :material-directions-fork
+### Conditions :material-directions-fork: 
 
 ```js
 let score = 85;
@@ -124,7 +141,7 @@ console.log(score);
     let grade = (score >= 90) ? 'A' : (score >= 80) ? 'B' : 'Échec';
     ```
 
-### Tableaux et objets :material-table
+### Tableaux et objets :material-table: 
 
 ```js
 let fruits = ['Pomme', 'Banane', 'Cerise'];
@@ -140,7 +157,7 @@ let person = {
 console.log(person.name);
 ```
 
-### Boucles :material-repeat
+### Boucles :material-repeat: 
 
 ```js title="for"
 for (let i = 0; i < 5; i++) {
@@ -169,7 +186,7 @@ numbers.forEach(function(number) {
 });
 ```
 
-### Fonctions :material-function
+### Fonctions :material-function: 
 
 ```js title="Fonction"
 function greet(name) {
@@ -212,7 +229,7 @@ let titleAttribute = element.getAttribute('title');
 element.removeAttribute('title');
 ```
 
-### Les événements :material-cursor-default-click
+### Les événements :material-cursor-default-click: 
 
 ```html
 <button id="miaw">Oui?</button>
@@ -248,7 +265,7 @@ document.getElementById('champ').addEventListener('change', function(event) {
 
 [Liste d’événements du DOM](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-### Sauvegarde :material-content-save
+### Sauvegarde :material-content-save: 
 
 ```js title="LocalStorage"
 localStorage.setItem("lastname", "Tremblay");
@@ -309,6 +326,10 @@ video.currentTime = 0;
 
     L'utilisateur doit **interagir** avec la page pour déclencher une lecture.
 
+### Aide-mémoire
+
+<https://jfcmontmorency.github.io/aide-memoire/>
+
 ### Exercice de révision
 
 <div class="grid grid-1-2" markdown>
@@ -316,6 +337,13 @@ video.currentTime = 0;
 
   <small>Exercice - JavaScript</small><br>
   **[Camp d'entrainement](./exercices/js-bootcamp.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/100ans/cent-ans.jpg)
+
+  <small>Exercice - JavaScript</small><br>
+  **[La guerre de 100 ans](./exercices/100ans/index.md){.stretched-link .back}**
 </div>
 
 ## this 🤯
@@ -334,56 +362,89 @@ document.getElementById('submit').addEventListener('click', function() {
 });
 ```
 
+## Librairies et cadriciels
+
+L'objectif de Web 3 est d'apprendre à utiliser des **librairies** et des **cadriciels** dans divers projets.
+
+Ces deux concepts désignent tout simplement du code qui permettent de programmer plus rapidement⚡️ ! Toutefois, une distinction importante est à faire entre les deux.
+
+<div class="grid align-items-top" markdown>
+<div markdown>
+### :tools: Librairie (_library_)
+
+![](./assets/images/pexels-bidvine-517980-1249611.jpg)
+
+Un ensemble de fonctions / méthodes prêtes à l’emploi que tu peux utiliser pour réaliser une tâche précise.
+
+> Une librairie est comme un **outil dans une boîte** : tu le prends quand t'en as besoin.
+
+* **[Anime.js](https://animejs.com/)** : animations
+* **[Chart.js](https://www.chartjs.org/)** : graphiques
+* **[Leaflet.js](https://leafletjs.com/)** : cartes
+* **[Zdog](https://zzz.dog/)** : illustrations
+* **[Tone.js](https://tonejs.github.io/)** : synthèse sonore
+</div>
+
+<div markdown>
+### :construction_site: Cadriciel (_framework_)
+
+![](./assets/images/exoskeleton.jpg)
+
+Une structure complète qui dicte la façon dont tu organises et construis ton projet Web.
+
+> Un _framework_ est comme un **échafaudage** : tu construis ton site à l’intérieur de sa structure.
+
+* **[Bootstrap](https://getbootstrap.com/)** : structure et composantes
+* **[Tailwind](https://tailwindcss.com/)** : utilitaires CSS
+</div>
+</div>
+
 ## Introduction aux classes JavaScript
 
-### Qu’est-ce qu’une classe ?
+![](./assets/images/clone.gif){.w-100}
 
-Une classe en JavaScript, c’est un peu comme une « recette » pour créer plusieurs objets similaires.
+Une classe en JavaScript, c’est un concept qui permet de structurer le code et de réutiliser la même logique plusieurs fois.
 
-Imaginez que vous devez créer plusieurs personnages dans un jeu.
+### Pourquoi on utiliserait ça ?
 
-Au lieu de répéter le même code pour chaque personnage, vous pouvez utiliser une classe pour définir une « recette de personnage » et créer autant de personnages que vous voulez.
+Imaginez que vous voulez programmer une page Web dans laquelle des poissons nagent indépendamment.
 
-### Pourquoi utiliser des classes ?
+Vous pourriez commencer par écrire le code d’un premier poisson… puis copier-coller ce code pour en avoir un deuxième, un troisième, et ainsi de suite. Rapidement, ça devient lourd à maintenir.
 
-Sans les classes, chaque fois que vous voulez créer un nouvel objet avec les mêmes propriétés (ex: un personnage), vous devez tout réécrire pour chaque personnage: son nom, sa couleur de cheveux, sa grandeur, son poid, son QI, etc.
+C’est là que les classes sont utiles :
 
-Avec une classe, vous écrivez le code une seule fois et pouvez ensuite l’utiliser pour créer plusieurs objets!
+- On définit une seule fois une classe Poisson.
+- Chaque nouveau poisson créé dans la page utilisera le même code.
+- Peu importe si vous ajoutez 3 poissons ou 1 000 000, ils partageront tous la même logique.
 
 ### Comment ça fonctionne ?
 
 ```js
-class Person {
-
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
+class Poisson {
+  constructor(nom, couleur) {
+    this.nom = nom;
+    this.couleur = couleur;
   }
 
-  greet()
-    console.log(`Salut, je m'appelle ${this.name} et j'ai ${this.age} ans.`);
+  coucou() {
+    console.log(`${this.nom} (${this.couleur}) nage joyeusement.`);
   }
 }
 
-const person1 = new Person('Jeanne', 25);
-person1.greet();
-// Affiche "Salut, je m'appelle Jeanne et j'ai 25 ans."
+// On crée plusieurs poissons à partir de la même classe
+const poisson1 = new Poisson("Nemo", "orange");
+const poisson2 = new Poisson("Dory", "bleu");
+const poisson3 = new Poisson("Sharky", "gris");
 
-const person2 = new Person('Félix', 641);
-person2.greet();
-// Affiche "Salut, je m'appelle Félix et j'ai 641 ans."
+// Ils utilisent tous le même code défini dans la classe
+poisson1.coucou(); // Résultat : Nemo (orange) nage joyeusement
+poisson2.coucou(); // Résultat : Dory (bleu) nage joyeusement
+poisson3.coucou(); // Résultat : Sharky (gris) nage joyeusement
 ```
 
-Quelques observations importantes dans l'exemple ci-dessus :
-
-* Le nom d'une classe doit commencer par une majuscule. C'est une norme.
-* Une fonction à l'intérieur d'une classe s'appelle une méthode.
-* La fonction `constructor` est comme un modèle de départ qui assigne les variables de la classes.
-* Les variables ne sont pas définies comme à l'habiture avec `let`, `var` ou `const`.
-
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/100ans/cent-ans.jpg)
+  ![](./exercices/1001poissons/preview.gif)
 
   <small>Exercice - JavaScript</small><br>
-  **[La guerre de 100 ans](./exercices/100ans/index.md){.stretched-link .back}**
+  **[1001 poissons](./exercices/1001poissons/index.md){.stretched-link .back}**
 </div>

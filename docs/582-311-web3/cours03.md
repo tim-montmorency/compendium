@@ -1,6 +1,8 @@
-# Bootstrap 1/3
+# Cours 3 | Bootstrap 1/2
 
+[STOP]
 
+Bootstrap : Grille, conteneurs, points d’arrêt, typographie et couleurs
 
 ![](./assets/images/bootstrap_banner.png)
 
