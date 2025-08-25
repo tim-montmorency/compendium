@@ -47,3 +47,49 @@ Pour cet exercice, il faut utiliser une **boucle** pour créer les 1001 poissons
   - [ ] Instancie un nouvel objet `Poisson` avec ces valeurs et ajoute-le au tableau
 - [ ] Affiche le tableau complet de poissons dans la console avec `console.log(poissons)`
 - [ ] Vérifie ton code en affichant par exemple le **premier** et le **dernier poisson** du tableau
+
+[STOP]
+
+SOLUTION
+
+```js
+// Classe Poisson
+class Poisson {
+  constructor(nom, couleur, age) {
+    this.nom = nom;
+    this.couleur = couleur;
+    this.age = age;
+  }
+}
+
+// Tableau des poissons
+const poissons = [];
+
+// Tableau des couleurs possibles
+const couleurs = ["brun", "vert", "jaune", "bicolore", "tricolore"];
+
+// Boucle pour créer 1001 poissons
+for (let i = 1; i <= 1001; i++) {
+  // Nom unique
+  const nom = `Poisson${i}`;
+
+  // Couleur aléatoire
+  const couleur = couleurs[Math.floor(Math.random() * couleurs.length)];
+
+  // Âge aléatoire entre 3 et 100 inclus
+  const age = Math.floor(Math.random() * (100 - 3 + 1)) + 3;
+
+  // Création d'un nouvel objet Poisson
+  const poisson = new Poisson(nom, couleur, age);
+
+  // Ajout au tableau
+  poissons.push(poisson);
+}
+
+// Affiche tout le tableau
+console.log(poissons);
+
+// Vérification : premier et dernier poisson
+console.log("Premier poisson :", poissons[0]);
+console.log("Dernier poisson :", poissons[poissons.length - 1]);
+```
