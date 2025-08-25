@@ -1,7 +1,8 @@
 
 # Web 5
 
-#### HTML et CSS
+
+<!--#### HTML et CSS
 * [CSS Grid](#)
 * [Bootstrap (révision)](#)
 * [Tailwind](#)
@@ -14,7 +15,8 @@
 #### VUE.JS
 * [Vue base](./vue/index.html)
 * [Vue création projet](./vue/creation-projet.html)
-* [Vue template script style](./vue/template-script-style.html)
+* [Vue template script style](./vue/template-script-style.html) -->
+
 
 ## Descriptif du cours
 
@@ -30,5 +32,12 @@ L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’u
 | Heures d’enseignement | 120     |
 | Session               | 5       |
 
+<div class="grid grid-auto" markdown>
+  ![](../_/profs/mmouellet.jpg)
 
+  **Marie-Michelle Ouellet**<br>
+  _Enseignante en Techniques d'intégration multimédia_<br>
+  :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
+  [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=NybgeQ){ .md-button .md-button--primary }
+</div>
 <br> <br> <br> <br> 
