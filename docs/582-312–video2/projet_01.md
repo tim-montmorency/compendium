@@ -52,7 +52,7 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
   - Appliquez des effets de réverbération et utilisez des panoramiques pour le placement spatial du son.
 
 - **Musique générée par IA :**
-  - Vous pouvez utiliser de la musique générée par une IA via Udio. Cependant, vous devez **intégrer cette musique dans le micro-montage**, en la découpant et en la modifiant selon les besoins de votre projet.
+  - Vous pouvez utiliser de la musique générée par une IA via Udio. Cependant, vous devez **intégrer cette musique dans le micro-montage**, en la découpant et en la modifiant selon les besoins de votre projet. Cette musique peut-être aussi une musisque libre de droits. 
 
 ---
 
