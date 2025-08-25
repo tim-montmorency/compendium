@@ -103,7 +103,7 @@
 </table>
 
 ## Liste collaborative d'employeurs
-[🛠️ Ajouter des entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
+[🛠️ Ajouter 5 entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
 
 ## Activité sur le cv 
 Qu'est-ce que doit contenir un cv? 
