@@ -25,7 +25,7 @@
 ## Projet 1 
 * Explication du [projet 1](projet_01.md)
 * [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/Eanb1Rd6dcZFhLmPFDvnD_YBeqiVc978kvOhiuiebzwmOA?e=J98Iwu)
-* Choisir journée de tournage (entre le 15 septembre après votre cours et avant le 30 septembre).
+* Choisir journée de tournage (entre le 8 septembre après votre cours et avant le 30 septembre).
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
     * 1 équipe par studio (3, 4 ou 5 par équipe).
     * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00).
