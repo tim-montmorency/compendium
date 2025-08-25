@@ -104,9 +104,9 @@ Voir l'onglet RechercheEmploi sur Teams.
 [🛠️ Ajouter 5 entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
 
 ## Activité sur le cv 
-Qu'est-ce que doit contenir un cv? 
+Qu'est-ce que doit contenir un cv?     
 
-[🛠️ Activité figma](https://www.figma.com/board/cZh85crBDZ6cKOZPxXxf4G/CV---Lora?node-id=0-1&t=hweNL2IdfxRgQOj7-1)
+Voir l'onglet ActiviteCV sur Teams. 
 
 ## Activité sur le contenu de votre CV
 Remplir le document contenu_cv sur GitHub.
