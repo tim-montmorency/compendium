@@ -27,19 +27,19 @@
 
 ## Révision CSS <img src="./assets/css-logo.svg" style="width: 50px;">
 
-[<img src="./assets/css-logo.svg" style="width: 20px; margin-bottom: -7px;"> Glossaire CSS de TIM-Momo](https://tim-montmorency.com/timdoc/582-211/css/){ .md-button }
+[<img src="./assets/css-logo.svg" style="width: 20px; margin-bottom: -7px;"> Glossaire CSS de TIM-Momo](https://tim-montmorency.com/timdoc/582-211/css/){ .md-button :target="_blank" }
 
 ## Exercices 🏃‍➡️🏃‍♀️‍➡️
 
-[🛠️ Cartes de présentation - 01](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-cartes-01/){ .md-button }
+[🛠️ Cartes de présentation - 01](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-cartes-01/){ .md-button :target="_blank" }
 
-[🛠️ Cartes de présentation - 02](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-cartes-02/){ .md-button }
+[🛠️ Cartes de présentation - 02](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-cartes-02/){ .md-button :target="_blank" }
 
-[🛠️ Poésie d'hiver](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-poesie-hiver/){ .md-button }
+[🛠️ Poésie d'hiver](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-poesie-hiver/){ .md-button :target="_blank" }
 
-[🛠️ Navigation du site de Pony](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-pony/){ .md-button }
+[🛠️ Navigation du site de Pony](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-pony/){ .md-button :target="_blank" }
 
-[🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button }
+[🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" }
 
 ## Devoirs
 
