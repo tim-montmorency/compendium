@@ -2,6 +2,8 @@
 
 [STOP]
 
+PRÉVOIR UNE ÉVALUATION FORMATIVE
+
 ## Propriétés typographiques
 
 ### font-family
