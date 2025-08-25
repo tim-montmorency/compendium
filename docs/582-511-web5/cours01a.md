@@ -6,11 +6,11 @@
 
 ## Aujourd'hui
 
-[ ] Brise-glace
-[ ] Plan de cours
-[ ] Quiz diagnostique CSS
-[ ] Révision CSS Flexbox
-[ ] Série d'exercices CSS Flexbox
+- [ ] Brise-glace
+- [ ] Plan de cours
+- [ ] Quiz diagnostique CSS
+- [ ] Révision CSS Flexbox
+- [ ] Série d'exercices CSS Flexbox
 
 ## Brise-glace 🧊🔨❄️
 
@@ -19,7 +19,7 @@
 
 ## Plan de cours 📄🎓
 
-[📄 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=8IxzJg){ .md-button }
+[📄 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=8IxzJg){ .md-button .md-button--primary }
 
 ## Quiz diagnostique CSS 🕵️✍️
 

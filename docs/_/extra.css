@@ -539,6 +539,6 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset em {
   color: #fabc2a;
 }
-.finishing .md-typeset a {
+.finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
 }
