@@ -3,7 +3,6 @@
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
 
-
 ## Aujourd'hui
 
 - [ ] Brise-glace
@@ -14,8 +13,8 @@
 
 ## Brise-glace 🧊🔨❄️
 
-* [Groupe 1 lundi AM](https://app.wooclap.com/TMYTEU)
-* Groupe 2 lundi PM (lien à venir)
+- [Groupe 1 lundi AM](https://app.wooclap.com/TMYTEU)
+- Groupe 2 lundi PM (lien à venir)
 
 ## Plan de cours 📄🎓
 
@@ -23,11 +22,12 @@
 
 ## Quiz diagnostique CSS 🕵️✍️
 
-* [Groupe 1 lundi AM](https://app.wooclap.com/PJBPRX)
-* Groupe 2 lundi PM (lien à venir)
+- [Groupe 1 lundi AM](https://app.wooclap.com/PJBPRX)
+- Groupe 2 lundi PM (lien à venir)
 
-## Résumé CSS <img src="./assets/css-logo.svg" style="width: 50px;">
-[<img src="./assets/css-logo.svg" style="width: 20px;"> Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/){ .md-button }
+## Révision CSS <img src="./assets/css-logo.svg" style="width: 50px;">
+
+[<img src="./assets/css-logo.svg" style="width: 20px; margin-bottom: -7px;"> Glossaire CSS de TIM-Momo](https://tim-montmorency.com/timdoc/582-211/css/){ .md-button }
 
 ## Exercices 🏃‍➡️🏃‍♀️‍➡️
 
