@@ -8,7 +8,7 @@ Le but de cet exercice est de couper une image à même une image
 
 ## Matériel
 
-Télécharger et ouvrer le fichier suivant:
+Télécharger et ouvrer le fichier suivant:   <br>
 [📁 Document de départ](../assets/image/07_over_busy.psd){ .md-button }   <br>
 
 ## Étapes
