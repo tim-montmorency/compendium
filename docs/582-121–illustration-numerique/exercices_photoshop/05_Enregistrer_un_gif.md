@@ -1,7 +1,9 @@
 
 
 Le but de cet exercice est de sauvegarder une image en GIF:
-![](../assets/image/vecteur_rompre.png)
+
+![](../assets/image/vecteur_rompre.png) <br>
+
 ***
 
 ## Matériel
@@ -12,7 +14,7 @@ Télécharger et ouvrer le fichier Photoshop suivant:
 
 ## Étapes
 
-- [ ] Sauvegardez l'image au format GIF (Alt + Maj + Ctrl + S) sur le bureau avec le nom "vecteur_rompre.gif".
+- [ ] Sauvegardez l'image au format GIF (Alt + Maj + Ctrl + S) sur le bureau avec le nom "vecteur_rompre.gif". <br>
 
 ***
 
