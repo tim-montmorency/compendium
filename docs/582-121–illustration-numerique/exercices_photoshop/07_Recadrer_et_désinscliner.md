@@ -9,12 +9,12 @@ Le but de cet exercice est de désincliner l'image:
 
 ## Matériel
 
-Télécharger et ouvrer le fichier Photoshop suivant:
-[📁 Document de départ](../assets/image/07_desincliner_contenu_pris_compte.jpg){ .md-button }
+Télécharger et ouvrer le fichier Photoshop suivant:   <br>
+[📁 Document de départ](../assets/image/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
 
 ## Étapes
 
-- [ ] Choisissrz l'outil de recadrage (C).
+- [ ] Choisissez l'outil de recadrage (C).
 - [ ] Dans le panneau d'option, sélectionner l'outil de règle pour désincliner
 - [ ] Dans le panneau d'options, aller dans l'option "Fond" et choisisser "Remplissage d'après le contenu" pour remplir les zones vides après redressement.
 - [ ] Sélectionner la queue du requin dans l'image pour l'inclure dans la zone de recadrage.
