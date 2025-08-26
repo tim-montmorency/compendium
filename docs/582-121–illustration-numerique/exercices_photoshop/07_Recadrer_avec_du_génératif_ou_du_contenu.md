@@ -9,6 +9,7 @@ Le but de cet exercice est d'agrangir d'image sur les cotés et de combler le vi
 ## Matériel
 
 Télécharger et ouvrer le fichier suivant:  <br>
+<br>
 [📁 Document de départ](../assets/image/07_echelle_base_sur_le_contenu.jpg){ .md-button }   <br>
 
 ***
