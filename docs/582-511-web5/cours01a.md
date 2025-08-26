@@ -43,4 +43,4 @@
 
 ## Devoirs
 
-À terminer pour ce mercredi... (cette instruction sera complétée vers la fin du cours, suite à l'avancement des étudiants en classe).
+À terminer pour ce mercredi: les 5 exercices flexbox débutés en classe.
