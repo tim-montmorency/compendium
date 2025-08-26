@@ -1,7 +1,5 @@
 # Cours 2
 
-[STOP]
-
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
 [^pascalCase]: [Notation Pascal | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26543805/notation-pascal)
@@ -22,7 +20,9 @@ On peut par exemple organiser le contenu en un ensemble de paragraphes, une list
 
 Dans le langage HTML, on place le contenu de la page dans des **balises**.
 
-Une balise s’écrit en encadrant un mot-clé par les signes « plus petit que » (`<`) et « plus grand que » (`>`).
+Une balise s’écrit en encadrant un mot-clé par les signes « plus petit que » (`<`) et « plus grand que » (`>`). La plupart du temps, lorsqu'on ouvre une balise, il faut aussi spécifier quand elle terminer.
+
+![](./assets/images/balise.jpg){.w-100 data-zoom-image}
 
 !!! example "Clavier"
 
