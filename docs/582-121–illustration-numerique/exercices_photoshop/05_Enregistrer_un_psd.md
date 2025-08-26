@@ -1,7 +1,6 @@
+Le but de cet exercice est de sauvegarder une image en PSD:<br>
 
- 
- Le but de cet exercice est de sauvegarder une image en PSD:
-![](../assets/image/anthony_cantin.jpg)
+![](../assets/image/anthony_cantin.jpg)<br>
 
 ***
 
