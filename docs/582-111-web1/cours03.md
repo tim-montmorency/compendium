@@ -2,6 +2,8 @@
 
 [STOP]
 
+PRÉVOIR UNE ÉVALUATION FORMATIVE
+
 Retour sur l'inspecteur : 
 
 !!! example "Essayons ensemble l'inspecteur 🕵"
