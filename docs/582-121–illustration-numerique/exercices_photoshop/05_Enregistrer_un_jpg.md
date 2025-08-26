@@ -5,7 +5,7 @@ Le but de cet exercice est de sauvegarder une image en JPG:
 ***  
 
 ## Matériel
-Ouvrez le PSD (antony_cantin.psd)créé dans l'exercice précédent. 
+Ouvrez le PSD (antony_cantin.psd) créé dans l'exercice précédent. 
 
 
 ## Étapes
