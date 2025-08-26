@@ -1,4 +1,4 @@
-<style>.md-footer{display:none;}</style>
+
 
 Le but de cet exercice est d'agrangir d'image sur les cotés et de combler le vide avec la continuïté de l'image.
 
