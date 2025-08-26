@@ -19,7 +19,7 @@
 ## CONSIGNES / AUTOPORTRAIT
 
 * **Autoportrait**
-  * [ ] **Nombre :** Créez 6 images distinctes dans Photoshop.
+  * [ ] **Nombre :** Créez 4 images distinctes dans Photoshop.
   * [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
   * [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 4 calques d’images découpées.
   * [ ] **Autres calques :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.

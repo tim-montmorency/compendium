@@ -1,14 +1,10 @@
 # Projet 1 : Le Corps
 
 ## Objectif du projet
-Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire.
+Créer une vidéo sur le corps humain où l’accumulation d’images exprime un sentiment ou raconte une histoire en 1 minute 30. 
 
-  * [Thibalt Duvernix](https://vimeo.com/32282580?fl=pl&fe=vl)
-  * [Deuil ](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EfXVbWkqYUlJmX9LPrX_igsBqdaSGRuwwtTZZPX8V6liEw?e=Lu8Obz)
-  * [Paranoïa](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/EQmh2Qq3t-BKvr4yAA4FcxIBCW2GAE4epr3Ahj-MI0kr9A?e=ondJ56)
-  * [Imparfaite](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ET2VQOTGC9ZMsLxLdvcIw_UBSXHQJuNiTnojmF_Zm96p0Q?e=IhrTPc)
-  * [Sonore](https://cmontmorency365.sharepoint.com/:v:/s/stockageFLPilote/ES-MnO8fqoBEt3wKdZHPu7EBjKfBYtNvctBnykrLpdErsg?e=UKDFZQ)
-
+  * [Mosaïque](https://vimeo.com/32282580?fl=pl&fe=vl)
+  * [Macro](https://www.premiumbeat.com/blog/macro-videography-photography/)
 ---
 
 ### 1. Contraintes visuelles
@@ -35,7 +31,7 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
   - Vous devez utiliser des mosaïques.
     
 - **La colorisation :**
-  - La colorisation doit être en noir et blanc.
+  - La colorisation doit être en noir et blanc \ désaturée \ ou noir et blanc avec un objet de couleur
 ---
 
 ### 2. Contraintes sonores
@@ -56,7 +52,7 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
   - Appliquez des effets de réverbération et utilisez des panoramiques pour le placement spatial du son.
 
 - **Musique générée par IA :**
-  - Vous pouvez utiliser de la musique générée par une IA via Udio. Cependant, vous devez **intégrer cette musique dans le micro-montage**, en la découpant et en la modifiant selon les besoins de votre projet.
+  - Vous pouvez utiliser de la musique générée par une IA via Udio. Cependant, vous devez **intégrer cette musique dans le micro-montage**, en la découpant et en la modifiant selon les besoins de votre projet. Cette musique peut-être aussi une musisque libre de droits. 
 
 ---
 
@@ -69,4 +65,4 @@ Créer une vidéo sur le corps humain où l’accumulation d’images exprime un
    - Créer un micro-montage complexe en utilisant les sons enregistrés.
 
 3. **Expérimentation technique :**
-   - Utiliser au mieux les effets visuels et sonores, y compris ceux générés par l’IA.
+   - Utiliser au mieux les effets visuels et sonores.

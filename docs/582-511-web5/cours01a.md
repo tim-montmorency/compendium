@@ -14,7 +14,7 @@
 ## Brise-glace 🧊🔨❄️
 
 - [Groupe 1 lundi AM](https://app.wooclap.com/TMYTEU)
-- Groupe 2 lundi PM (lien à venir)
+- [Groupe 2 lundi PM](https://app.wooclap.com/SSRTQJ)
 
 ## Plan de cours 📄🎓
 
@@ -23,7 +23,7 @@
 ## Quiz diagnostique CSS 🕵️✍️
 
 - [Groupe 1 lundi AM](https://app.wooclap.com/PJBPRX)
-- Groupe 2 lundi PM (lien à venir)
+- [Groupe 2 lundi PM](https://app.wooclap.com/USBJPG)
 
 ## Révision CSS <img src="./assets/css-logo.svg" style="width: 50px;">
 
@@ -43,4 +43,4 @@
 
 ## Devoirs
 
-À terminer pour ce mercredi... (cette instruction sera complétée vers la fin du cours, suite à l'avancement des étudiants en classe).
+À terminer pour ce mercredi: les 5 exercices flexbox débutés en classe.

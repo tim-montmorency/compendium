@@ -164,7 +164,7 @@ Explication :
   ![](./exercices/ta-toune/olivia.gif)
 
   <small>Exercice - HTML</small><br>
-  **[Ta toune](./exercices/ta-toune/index.md){.stretched-link .back}**
+  **[Lyrique](./exercices/ta-toune/index.md){.stretched-link .back}**
 </div>
 
 ## Validateur W3C

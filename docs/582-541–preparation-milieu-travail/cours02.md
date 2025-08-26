@@ -14,11 +14,9 @@
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }         
 
 
-
-## Questionnaire      
+## Atelier sur la recherche d'emploi
  
-[🛠️ Atelier recherche d'emploi](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXRNpbsE2ELxAl1w7h19byDhUQ1FETVQyREJYREc5UFg4WTVYMTRMNkRLNSQlQCN0PWcu){ .md-button }      
-
+Voir l'onglet RechercheEmploi sur Teams. 
  
 
 ### Répertoires pour vous aider dans vos recherches
@@ -103,12 +101,12 @@
 </table>
 
 ## Liste collaborative d'employeurs
-[🛠️ Ajouter des entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
+[🛠️ Ajouter 5 entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
 
 ## Activité sur le cv 
-Qu'est-ce que doit contenir un cv? 
+Qu'est-ce que doit contenir un cv?     
 
-[🛠️ Activité figma](https://www.figma.com/board/cZh85crBDZ6cKOZPxXxf4G/CV---Lora?node-id=0-1&t=hweNL2IdfxRgQOj7-1)
+Voir l'onglet ActiviteCV sur Teams. 
 
 ## Activité sur le contenu de votre CV
 Remplir le document contenu_cv sur GitHub.
