@@ -9,7 +9,6 @@ Ouvrez le PSD (antony_cantin.psd) créé dans l'exercice précédent.
 
 
 ## Étapes
-
 - [ ] Sauvegarder l'image en JPG (Alt + Ctrl + S) sur le bureau sous le nom "antony_cantin_02.jpg".
 - [ ] Réfléchisser à ce qui se passe après avoir sauvegardé. Quels sont les effets sur les calques et pourquoi ces changements se produisent-ils ?
 
