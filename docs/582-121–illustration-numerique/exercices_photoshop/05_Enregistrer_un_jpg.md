@@ -1,4 +1,4 @@
-<style>.md-footer{display:none;}</style>
+
 
 Le but de cet exercice est de sauvegarder une image en JPG:   
 
