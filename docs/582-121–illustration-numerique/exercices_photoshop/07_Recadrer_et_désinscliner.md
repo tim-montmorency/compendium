@@ -10,6 +10,7 @@ Le but de cet exercice est de désincliner l'image:
 ## Matériel
 
 Télécharger et ouvrer le fichier Photoshop suivant:   <br>
+
 [📁 Document de départ](../assets/image/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
 
 ## Étapes
