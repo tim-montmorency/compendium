@@ -1,6 +1,7 @@
 Le but de cet exercice est de changer le format d'une image:
-
+<br>
 ![](../assets/image/illus-lotus.jpg)
+<br>
 ***
 
 ## Matériel
