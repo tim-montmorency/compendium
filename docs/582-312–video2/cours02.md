@@ -3,7 +3,7 @@
 ## Consignes tournage (10 minutes)
 * Présentation de la liste d'équipement
 * Discutez avec les TTP de vos projets pour discuter de vos besoins surtout :
-  * si vous avez des éléments qui peuvent tacher
+  * Si vous avez des éléments qui peuvent tacher
   * Si vous avec besoin d'accrocher des choses au plafond
   * Si vous avez besoin de l'aquarium <br>
 * N'oubliez pas d'envoyer vos réservations 48 heures en avance
