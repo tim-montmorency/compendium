@@ -1,15 +1,15 @@
 Le but de cet exercice est de changer le format d'une image:
-<br>
-![](../assets/image/illus-lotus.jpg)
-<br>
+
+![](../assets/image/illus-lotus.jpg) <br>
+
 ***
 
 ## Matériel
 
 Téléchargez et ouvrez le fichier Photoshop suivant:
-<br>
-[📁 Document de départ](../assets/image/illus-lotus.jpg){ .md-button }<br>
-<br>
+
+[📁 Document de départ](../assets/image/illus-lotus.jpg){ .md-button } <br>
+
 ## Étapes
 
 - [ ] Sélectionner l'outil de recadrage (c) pour ajuster la taille de l'image.
