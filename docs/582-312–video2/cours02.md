@@ -11,6 +11,7 @@
 ## Section magistrale (90 minutes)
 * [Les bases de la caméra et de l'éclairage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ES3aENrFd3xGo4k-LG6Ga-YBZVk1bE-HDOUN2gRRFoPdUQ?e=7ydfsn)
   * Montage d'un trépied
+  * Montage du slider
   * Installation d'une caméra
   * Installation d'un écran
   * Réglages de la caméra :
