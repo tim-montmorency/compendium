@@ -8,7 +8,8 @@ Le but de cet exercice est corriger la perspective d'une image
 
 ## Matériel
 
-Téléchargez et ouvrez le fichier suivant:
+Téléchargez et ouvrez le fichier suivant:   <br>
+   <br>
 [📁 Document de départ](../assets/image/07_recadrer_perspective.jpg){ .md-button }   <br>
 
 ## Étapes

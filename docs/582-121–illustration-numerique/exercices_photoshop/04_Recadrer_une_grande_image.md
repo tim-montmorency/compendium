@@ -1,15 +1,17 @@
 
 <style>.md-footer{display:none;}</style>
 Le but de cet exercice est de changer le format d'une image:
+<br>
 <img src="../assets/image/anthony_cantin.jpg">
+<br>
 ***
 
 ## Matériel
 
 Téléchargez et ouvrez le fichier Photoshop suivant:
-
+<br>
 [📁 Document de départ](../assets/image/anthony_cantin.jpg){ .md-button }   <br>
-
+<br>
 ## Étapes
 
 - [ ] Sélectionner l'outil de recadrage (c) pour ajuster la taille de l'image.
