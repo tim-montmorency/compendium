@@ -6,16 +6,18 @@
 
 ## Aujourd'hui
 
-- [ ] MDN web docs : Le site de documentation HTML, CSS et JavaScript
+- [ ] Documentation MDN  et anciennes notes de cours
 - [ ] Révision des exercices de lundi
 - [ ] Quiz diagnostique JavaScript
 - [ ] Exercice de révision JavaScript
 
 ## Documentation Web 📄
 
+### MDN (Mozilla)
+
 <img src="./assets/MDN_Web_Docs_logo.svg" style="max-width: 300px; width: 100%;">
 
-- [Visiter le site MDN](https://developer.mozilla.org/fr/)
+- [MDN web docs : Le site de documentation HTML, CSS et JavaScript](https://developer.mozilla.org/fr/)
 
 ### Documentation TIM Momo 
 
