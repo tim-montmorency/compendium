@@ -1,14 +1,14 @@
-<style>.md-footer{display:none;}</style>
-
 Le but de cet exercice est de changer le format d'une image:
-![](../assets/image/illus-lotus.jpg)
+
+![](../assets/image/illus-lotus.jpg) <br>
+
 ***
 
 ## Matériel
 
 Téléchargez et ouvrez le fichier Photoshop suivant:
 
-[📁 Document de départ](../assets/image/illus-lotus.jpg){ .md-button }<br>
+[📁 Document de départ](../assets/image/illus-lotus.jpg){ .md-button } <br>
 
 ## Étapes
 

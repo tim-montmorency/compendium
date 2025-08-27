@@ -42,7 +42,7 @@ nav:
       - Kling: 582-121–illustration-numerique/ai/klingai.md
       # - Midjourney: 582-121–illustration-numerique/ai/midjourney.md
       - Cours 1: 582-121–illustration-numerique/cours01.md
-      - Cours 2: 582-121–illustration-numerique/cours02.md
+      # - Cours 2: 582-121–illustration-numerique/cours02.md
       # - Cours 3: 582-121–illustration-numerique/cours03.md
       # - Cours 4: 582-121–illustration-numerique/cours04.md
       # - Cours 5: 582-121–illustration-numerique/cours05.md
@@ -232,7 +232,7 @@ nav:
   - Web 5:
       - 582-511-web5/index.md
       - Cours 1.1: 582-511-web5/cours01a.md
-      # Cours 1.2: 582-511-web5/cours01b.md
+      - Cours 1.2: 582-511-web5/cours01b.md
       # Cours 2.1: 582-511-web5/cours02a.md
       # Cours 2.2: 582-511-web5/cours02b.md
       # - Cours 3: 582-511-web5/cours03.md

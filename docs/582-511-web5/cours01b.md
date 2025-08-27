@@ -4,40 +4,58 @@
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
 
-## Ceci est le contenu du jour
+## Aujourd'hui
 
-[Vue base](./vue/index.md)
-[Vue création projet](./vue/creation-projet.md)
-[Vue template script style](./vue/template-script-style.md)
+- [ ] Documentation MDN  et contenus de cours web Momo
+- [ ] Révision des exercices de lundi
+- [ ] Quiz diagnostique JavaScript
+- [ ] Exercice de révision JavaScript
 
-## Courbes abc
+## Documentation Web 📄
 
-[:material-play-circle: Voir une vidéo](#)¸
+### MDN (Mozilla)
 
-## Les effets prédéfinis
+<img src="./assets/MDN_Web_Docs_logo.svg" style="max-width: 300px; width: 100%;">
 
-[Effets prédéfinis (cours 7)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/cours07.html#effets)
+- [MDN web docs : Le site de documentation HTML, CSS et JavaScript](https://developer.mozilla.org/fr/)
+
+### Documentation Web TIM Momo 
+
+Cette liste n'est pas complète mais elle inclus beaucoup de contenus que vous avez couverts en Web 1, Web 2 et Web 3
+
+- [Tout](https://tim-montmorency.com/timdoc/index/web/){ :target="_blank" }
+- [JS](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
+- [CSS](https://tim-montmorency.com/timdoc/index/web/css/){ :target="_blank" }
+- [HTML](https://tim-montmorency.com/timdoc/index/web/html/){ :target="_blank" }
+- [Cadriciels: Bootstrap, Swiper, GSAP](https://tim-montmorency.com/timdoc/index/web/cadriciels/){ :target="_blank" }
+
+## Quiz diagnostique JavaScript 🕵️✍️
+
+- [Groupe 2 merc AM](https://app.wooclap.com/IBAYPU)
+- Groupe 1 merc PM
+
+## Exercice Javascript <img src="./assets/JavaScript_logo.svg" style="width: 50px;">
+
+Lien à venir
+
+<!--  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+ -->
 
 
-## Alignement et distribution
+ ## Devoirs
 
-La distribution se trouve dans le panneau "Aligner".
+À terminer pour le prochain cours (mercredi prochain): l'exercice *Jeu du 27*.
 
-## Expressions
 
-Quelques expressions québécoises
 
-> Avoir les mains pleines de pouces<br>
-> Avoir l’air d’la chienne à Jacques<br>
-> Avoir de l’eau dans la cave<br>
-> Se tirer une bûche<br>
-> Attacher sa tuque
+[STOP]
 
-### Ajouter une expression
+## Figma autolayout, devmode et flexbox
+https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/
 
-1. Sélectionner la propriété à animer (ex : Position, Opacité).
-1. Maintenir enfoncée la touche ++alt++ sur Windows, ou ++option++ sur Mac, puis cliquer sur le chronomètre ⏱️.
-1. Entrer ou coller l'expression dans le champ apparu sous la propriété.
+## Exercices Figma autolayout, devmode et flexbox
 
-[:material-play-circle: Introduction](#)
+- https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/carte-salle-conference/ 
+- https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/collection-pixels/#materiel 
+
 
