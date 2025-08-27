@@ -32,7 +32,10 @@
 
 ## Exercice Javascript <img src="./assets/JavaScript_logo.svg" style="width: 50px;">
 
-🎲 [Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+Lien à venir
+
+<!--  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+ -->
 
 
 [STOP]
