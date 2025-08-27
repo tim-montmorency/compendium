@@ -2,6 +2,8 @@
 
 [STOP]
 
+PRÉSENTER LE TP
+
 ## Formats d’image
 
 ![](./assets/images/vector-bitmap-banner.jpg)

@@ -1,5 +1,5 @@
 # Cours 2
-
+[STOP]
 <style>.md-nav .md-nav .md-nav { display: none; }</style>
 
 [^pascalCase]: [Notation Pascal | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26543805/notation-pascal)
@@ -20,15 +20,15 @@ On peut par exemple organiser le contenu en un ensemble de paragraphes, une list
 
 Dans le langage HTML, on place le contenu de la page dans des **balises**.
 
-Une balise s’écrit en encadrant un mot-clé par les signes « plus petit que » (`<`) et « plus grand que » (`>`). La plupart du temps, lorsqu'on ouvre une balise, il faut aussi spécifier quand elle terminer.
+Une balise s’écrit en encadrant un mot-clé par les signes « plus petit que » (`<`) et « plus grand que » (`>`). La plupart du temps, lorsqu'on ouvre une balise, il faut aussi spécifier quand elle se termine.
 
 ![](./assets/images/balise.jpg){.w-100 data-zoom-image}
 
 !!! example "Clavier"
 
-    Tous le claviers sont différents alors trouvons comment écrire ces caractères sur le clavier devant nous.
+  Tous les claviers sont différents alors trouvons comment écrire ces caractères sur le clavier devant nous.
 
-    Dépendament du clavier, parfois c'est aussi simple que de cliquer sur la touche ++less++ et ++shift+greater++ pour l'autre sens.
+  Dépendamment du clavier, parfois c'est aussi simple que de cliquer sur la touche ++less++ et ++shift+greater++ pour l'autre sens.
 
 ### Paragraphe
 
@@ -79,8 +79,6 @@ Cette balise est **autofermante**, c’est-à-dire qu’elle n’a pas besoin d�
 Elle est utilisée pour marquer un changement de sujet.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - HTML - Entité HTML" src="https://codepen.io/tim-momo/embed/MYaoxqM?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
-
-
 
 ### Caractères spéciaux
 
@@ -160,23 +158,55 @@ Explication :
     * Le code HTML d’une page doit toujours se trouver dans le `<body>` et jamais ailleurs.
     * En général, les balises peuvent s’imbriquer (on parle ici de relation parent-enfant).
 
+### Relation Parent-Enfant
+
+En HTML, les balises s’**imbriquent** comme des dossiers et fichiers :
+
+- Une balise peut contenir une autre balise. On dit qu’elle est le **parent**.  
+- La balise contenue est l’**enfant**.
+
+Exemple :  
+
+```html
+<body>        <!-- Parent -->
+  <h1>Titre</h1>  <!-- Enfant -->
+  <p>Paragraphe</p>
+</body>
+```
+
+### Note sur l'indentation
+
+Pour garder un code clair et facile à relire, adoptez une convention d'indentation cohérente : utilisez 2 espaces par niveau d'imbrication pour le HTML et évitez de mélanger espaces et tabulations.
+
+Exemple :
+
+```html
+<body>
+  <header>
+    <h1>Mon site</h1>
+  </header>
+  <main>
+    <p>Contenu.</p>
+  </main>
+</body>
+```
+
+Pourquoi ? Une indentation régulière facilite le repérage des parents/enfants et rend la relecture et la correction plus rapides.
+
+## Validateur W3C
+
+![](./assets/images/W3C®_Icon.png)
+
+Vous vous souvenez du W3C ? Il propose un validateur qui permet de s'assurer que la programmation est valide.
+
+On peut y valider son code au [validator.w3.org](https://validator.w3.org/) via l'onglet "**Validate by Direct Input**".
+
 <div class="grid grid-1-2" markdown>
   ![](./exercices/ta-toune/olivia.gif)
 
   <small>Exercice - HTML</small><br>
   **[Lyrique](./exercices/ta-toune/index.md){.stretched-link .back}**
 </div>
-
-## Validateur W3C
-
-![](./assets/images/W3C®_Icon.png)
-
-On peut y valider son code : [validator.w3.org](https://validator.w3.org/) via l'onglet "Validate by Direct Input".
-
-Par contre, c'est laborieux pour rien parce qu'il existe plein d'extensions vscode pour faire le même travail.
-
-Par exemple, [Webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint), [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) ou [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) font _grosso modo_ la même chose que le validateur du W3C.
-
 
 ## Structure de projet Web
 
@@ -270,19 +300,20 @@ Celui qui nous intéresse en Web, c’est le **kébab** (miam miam).
 
 Alors, en quoi consiste cette fameuse notation _kebab case_ ?
 
+
 Il suffit d'écrire des mots en minuscule séparé par un tiret !
 
 En général, voici ce qui doit être évité :
 
-- ❌ Espace
-- ❌ Accents
-- ❌ Caractères spéciaux. Ex. : $, #, ?, %.
+* ❌ Espace
+* ❌ Accents
+* ❌ Caractères spéciaux. Ex. : $, #, ?, %.
 
 Pourquoi ?
 
 Si vous nommez un fichier ou un dossier avec les éléments ci-dessus, l'URL pour accéder à votre site peut être simplement brisé
 
-### Pourquoi on nomme les dossiers et les fichiers en *kebab-case* ?
+### Pourquoi on nomme les dossiers et les fichiers en _kebab-case_ ?
 
 Parce qu’en Web, la **nomenclature a un impact direct sur l’URL** dans le navigateur.
 
@@ -290,33 +321,140 @@ Parce qu’en Web, la **nomenclature a un impact direct sur l’URL** dans le na
 > Un fichier nommé `ma-page-contact.html` devient :  
 > `https://monsite.com/ma-page-contact.html`
 
-Extensions de fichiers : .html, .css, .js, .jpg, etc.
+Extensions de fichiers : `.html`, `.css`, `.js`, `.jpg`, etc.
 
 ## Arborescence
 
-Plus un site prends en envergure, plus il se complexifie. Il est donc aussi important de garder une structure logique et hyérarchique pour les pages. C'est qu'on appelle une arborecence.
-
 ![](./assets/images/arborescence.jpg)
 
+Un site Web c'est comme un arbre 🌳 :
 
+* La page d’accueil est la **racine**.  
+* Les sections principales sont des **branches**.  
+* Les pages du site sont des **feuilles**.  
 
-![icon](https://github.com/user-attachments/assets/45afe678-94df-47d8-b3ac-b99d9d09cf4f)
-[Sitemap](https://tim-montmorency.com/compendium/582-111-web1/autres/arborescence.md)
+```txt
+Accueil
+ ├─ Produits
+ │   ├─ Vêtements
+ │   └─ Électronique
+ └─ Contact
+```
 
+Plus un site grandit, plus il faut garder une arborescence claire.  
 
-Relation Parent-Enfant
-
-![icon (3)](https://github.com/user-attachments/assets/3572f2cb-dc55-41c3-96bd-c86f72bbc8e7)
-
-[Parent, enfant](https://tim-montmorency.com/compendium/582-111-web1/html/parents-enfants.md)
+Une bonne structure aide à organiser les contenus, guider la navigation et améliorer le référencement (SEO).
 
 ### URL
 
-Chaque page du site a une URL unique.
+Chaque page du site a une URL unique qui reflète son emplacement dans l'arborescence.
 
-### Niveaux
+### Bonnes pratiques pour une URL lisible
+
+Une bonne URL est courte, descriptive et utilise la notation kebab-case. Évitez les majuscules, les espaces et les caractères spéciaux.
+
+Astuce : retirez les déterminants (le, la, les, un, une, des, l') des slugs d'URL pour garder les adresses concises et plus faciles à lire. Par exemple `https://monsite.com/la-page-du-projet` devient `https://monsite.com/page-projet`.
+
+Exemples :
+
+* Mauvais : `https://monsite.com/Notre Page.html`
+* Bon : `https://monsite.com/notre-page`
+
+Conseils :
+
+* Utilisez des mots-clés pertinents (utile pour le référencement).  
+* Préférez des chemins hiérarchiques clairs : `/produits/chaussures/` plutôt que `/p?id=324`.  
+* Conservez des URLs stables — changez-les seulement si nécessaire.
+
+### Navigation
+
+La navigation c'est pas forcément la même chose que l'arborescence.
+
+L'arborescence influe sur la manière dont la navigation est organisée sur le site. Un menu de navigation bien structuré est généralement utilisé pour aider les utilisateurs à se déplacer facilement entre les différentes sections du site.
+
+### Conseils pour une navigation optimale
+
+Quelques règles simples pour construire un menu de navigation efficace :
+
+* Gardez la navigation principale courte (5–7 items max).  
+* Utilisez une structure logique — les sections principales doivent être visibles dès le premier niveau.  
+* Indiquez clairement la page active
+* Proposez une navigation secondaire ou un fil d'Ariane pour les architectures profondes.  
+* Testez la navigation au clavier et sur mobile (menus burger, accessibilité des liens).
+
+## Chemins relatifs
+
+Pour dire où aller chercher un fichier, on écrit un **chemin** :
+
+* `./` → le dossier courant  
+* `../` → remonter d’un dossier  
+
+Exemple :  
+
+```html
+<!-- Image dans le même dossier -->
+<img src="./logo.png">
+
+<!-- Image dans un dossier parent -->
+<img src="../logo.png">
+```
+
+👉 Dans ce cours, on utilisera **toujours `./`** pour bien montrer que le chemin commence au dossier actuel.
+
+### Relatif vs absolu
+
+Un chemin relatif (ex. `./images/pic.png` ou `../assets/logo.png`) est résolu à partir de l'emplacement du fichier HTML courant. Un chemin absolu commence par `/` et est résolu depuis la racine du site (ex. `/assets/logo.png`) ; une URL complète (`https://...`) pointe vers un autre domaine.
+
+Exemples :
+
+```text
+./images/chat.png    # relatif : dossier courant
+../assets/logo.png   # relatif : remonter d'un dossier
+/assets/logo.png     # absolu : depuis la racine du site
+https://exemple.com/img.png  # URL complète (CDN ou autre domaine)
+```
+
+Astuce : si votre site est déployé dans un sous-dossier (ex. `https://monsite.com/app/`), un chemin commençant par `/` cherchera la racine du domaine (`/assets/...`) et non `/app/assets/...`. Dans ce cas, utilisez des chemins relatifs appropriés ou configurez `<base href="/app/">` dans le `<head>`.
 
 
+
+| Syntaxe | Exemple | Interprétation |
+|---------|---------|----------------|
+| `./` | `./images/chat.png` | Fichier **dans le dossier courant** (ou sous-dossier) → toujours explicite et portable. |
+| _sans préfixe_ | `images/chat.png` | En **HTML pur**, équivalent à `./images/chat.png`. MAIS : <br>– En **JS (ES Modules)** → interprété comme un module externe dans `node_modules`. <br>– En **Sass/Webpack/Vite** → peut être résolu comme chemin absolu (racine projet). <br>– En **certains serveurs web** → risque d’être lu comme chemin absolu à la racine du domaine. |
+| `../` | `../images/chat.png` | Remonte d’un dossier, puis va chercher `images/`. |
+| `/` | `/images/chat.png` | Chemin **absolu depuis la racine du site**. <br>– Marche si ton site est **à la racine du domaine** (`monsite.com`). <br>– **Problème** si ton site est déployé dans un sous-dossier (`monsite.com/app/`). |
+| URL complète | `https://exemple.com/images/chat.png` | Chemin absolu externe (CDN ou autre domaine). |
+
+## Aperçu des balises sémantiques
+
+En plus des `<div>`, il existe des balises **sémantiques** qui donnent du sens au contenu.  
+Elles décrivent la **fonction** de la section.
+
+| Balise     | Utilité                                    |
+|------------|--------------------------------------------|
+| `<header>` | En-tête de la page ou d’une section         |
+| `<nav>`    | Menu de navigation                         |
+| `<main>`   | Contenu principal unique de la page         |
+| `<section>`| Regrouper un bloc de contenu thématique     |
+| `<article>`| Contenu autonome (article, billet, etc.)   |
+| `<aside>`  | Informations secondaires (pubs, infos)     |
+| `<footer>` | Pied de page                               |
+
+Exemple minimal :  
+
+```html
+<body>
+  <header>Logo + Menu</header>
+  <nav>Accueil | Produits | Contact</nav>
+  <main>
+    <h1>Titre de la page</h1>
+    <p>Contenu principal ici.</p>
+  </main>
+  <aside>Promo spéciale</aside>
+  <footer>© 2025 Mon site</footer>
+</body>
+```
 
 ## Draw.io
 
@@ -433,6 +571,8 @@ Avant d’exporter le diagramme en image, il est conseillé d’ajuster les para
 
 ## Exercices
 
+À venir
+
 index.html
 
 `<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`, `<footer>`
@@ -450,3 +590,8 @@ contact.html
   <small>Exercice</small><br>
   **[Musée d'art contemporain de Montréal](./exercices/mac/index.md){.stretched-link .back}**
 </div>
+
+
+
+
+Prendre un projet et le classer correctement.
