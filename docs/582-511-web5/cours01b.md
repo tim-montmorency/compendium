@@ -6,7 +6,7 @@
 
 ## Aujourd'hui
 
-- [ ] Documentation MDN  et anciennes notes de cours
+- [ ] Documentation MDN  et contenus de cours web Momo
 - [ ] Révision des exercices de lundi
 - [ ] Quiz diagnostique JavaScript
 - [ ] Exercice de révision JavaScript
@@ -19,11 +19,15 @@
 
 - [MDN web docs : Le site de documentation HTML, CSS et JavaScript](https://developer.mozilla.org/fr/)
 
-### Documentation TIM Momo 
+### Documentation Web TIM Momo 
+
+Cette liste n'est pas complète mais elle inclus beaucoup de contenus que vous avez couverts en Web 1, Web 2 et Web 3
 
 - [Tout](https://tim-montmorency.com/timdoc/index/web/){ :target="_blank" }
 - [JS](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
 - [CSS](https://tim-montmorency.com/timdoc/index/web/css/){ :target="_blank" }
+- [HTML](https://tim-montmorency.com/timdoc/index/web/html/){ :target="_blank" }
+- [Cadriciels: Bootstrap, Swiper, GSAP](https://tim-montmorency.com/timdoc/index/web/cadriciels/){ :target="_blank" }
 
 ## Quiz diagnostique JavaScript 🕵️✍️
 
@@ -38,6 +42,12 @@ Lien à venir
  -->
 
 
+ ## Devoirs
+
+À terminer pour le prochain cours (mercredi prochain): l'exercice *Jeu du 27*.
+
+
+
 [STOP]
 
 ## Figma autolayout, devmode et flexbox
@@ -47,3 +57,5 @@ https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/
 
 - https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/carte-salle-conference/ 
 - https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/collection-pixels/#materiel 
+
+
