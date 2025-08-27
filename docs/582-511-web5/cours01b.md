@@ -32,14 +32,14 @@ Cette liste n'est pas complète mais elle inclus beaucoup de contenus que vous a
 ## Quiz diagnostique JavaScript 🕵️✍️
 
 - [Groupe 2 merc AM](https://app.wooclap.com/IBAYPU)
-- Groupe 1 merc PM
+- [Groupe 1 merc PM](https://app.wooclap.com/IAQQCJ)
 
 ## Exercice Javascript <img src="./assets/JavaScript_logo.svg" style="width: 50px;">
 
 Lien à venir
 
-  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
-
+<!--  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+ -->
 
 
 ## Devoirs
