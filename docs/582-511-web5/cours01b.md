@@ -11,11 +11,17 @@
 - [ ] Quiz diagnostique JavaScript
 - [ ] Exercice de révision JavaScript
 
-## MDN : Documentation Web 📄
+## Documentation Web 📄
 
-![](./assets/MDN_Web_Docs_logo.svg)
+<img src="./assets/MDN_Web_Docs_logo.svg" style="max-width: 300px; width: 100%;">
 
-[Visiter le site web](https://developer.mozilla.org/fr/)
+- [Visiter le site MDN](https://developer.mozilla.org/fr/)
+
+### Documentation TIM Momo 
+
+- [Tout](https://tim-montmorency.com/timdoc/index/web/)
+- [JS](https://tim-montmorency.com/timdoc/index/web/javascript/)
+- [CSS](https://tim-montmorency.com/timdoc/index/web/css/)
 
 ## Quiz diagnostique JavaScript 🕵️✍️
 
