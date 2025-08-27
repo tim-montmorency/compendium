@@ -38,8 +38,8 @@ Cette liste n'est pas complète mais elle inclus beaucoup de contenus que vous a
 
 Lien à venir
 
-<!--  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
- -->
+  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+
 
 
  ## Devoirs
