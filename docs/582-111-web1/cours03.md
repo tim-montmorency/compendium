@@ -12,6 +12,14 @@ Retour sur l'inspecteur :
     1. Trouver le moyen de changer le contenu du HTML
 
 
+## Validateur W3C
+
+![](./assets/images/W3C®_Icon.png)
+
+Vous vous souvenez du validateur W3C ? Il y a mieux ;) Pourquoi pas avoir l'équivalent directement dans vscode !
+
+Par exemple, [Webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint), [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) ou [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) font _grosso modo_ la même chose que le validateur du W3C.
+
 ## Formatage du texte HTML
 
 | Balise | Description | Exemple |
