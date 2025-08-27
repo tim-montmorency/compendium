@@ -42,7 +42,7 @@ Lien à venir
 
 
 
- ## Devoirs
+## Devoirs
 
 À terminer pour le prochain cours (mercredi prochain): l'exercice *Jeu du 27*.
 
