@@ -21,9 +21,9 @@
 
 ### Documentation TIM Momo 
 
-- [Tout](https://tim-montmorency.com/timdoc/index/web/)
-- [JS](https://tim-montmorency.com/timdoc/index/web/javascript/)
-- [CSS](https://tim-montmorency.com/timdoc/index/web/css/)
+- [Tout](https://tim-montmorency.com/timdoc/index/web/){ :target="_blank" }
+- [JS](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
+- [CSS](https://tim-montmorency.com/timdoc/index/web/css/){ :target="_blank" }
 
 ## Quiz diagnostique JavaScript 🕵️✍️
 
