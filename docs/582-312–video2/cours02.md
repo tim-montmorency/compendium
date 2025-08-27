@@ -33,6 +33,7 @@
 ## Rangement de l'équipement (15 minutes)
 
 ## Devoir 
+* [Formatif pour examen](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUNlo0T0w5OFZJQlRYUEozNjVCN0U2SVIwNy4u) au prochain cours
 * Vous faites parvenir par TEAMS : 
   * Votre moodboard Pinterest.
   * La liste de choses que vous allez tourner.<br>
