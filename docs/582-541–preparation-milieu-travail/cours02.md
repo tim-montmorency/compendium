@@ -111,5 +111,13 @@ Voir l'onglet ActiviteCV sur Teams.
 ## Activité sur le contenu de votre CV
 Remplir le document contenu_cv sur GitHub.
 
+## Activité sur les cartes d'affaires
+Créez votre carte d'affaire. Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur.     
+
+[🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/lora_boisvert_cmontmorency_qc_ca/Documents/Documents/ControleQualite/ModeleCarte.pdf?csf=1&web=1&e=ZZgJyz )
+
+
 ## Devoir
 Terminer le document sur le contenu du CV. 
+
+Terminer votre carte d'affaires.
