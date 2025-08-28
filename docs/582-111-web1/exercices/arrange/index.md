@@ -20,7 +20,7 @@ L'objectif de cet exercice est de réorganiser un projet mal structuré et mal n
 
 ## Étapes
 
-- [ ] Télécharger le [dossier de départ](./arrange-moi-ca.zip)
+- [ ] Télécharger le [dossier de départ](./arrange-moi-ca.zip) et extraire les fichiers
 - [ ] Ajouter au besoin les dossiers manquants
 - [ ] Ajuster le nom des fichiers/dossiers selon la notation kebab-case
 - [ ] Réorganiser les fichiers selon la structure recommandée dans le cours
