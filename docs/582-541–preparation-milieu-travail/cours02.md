@@ -112,7 +112,11 @@ Voir l'onglet ActiviteCV sur Teams.
 Remplir le document contenu_cv sur GitHub.
 
 ## Activité sur les cartes d'affaires
-Créez votre carte d'affaire. Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur.     
+Créez votre carte d'affaire. Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur. Assurez-vous que la police est lisible et de bonne taille!     
+
+Au minimum, elle doit contenir les informations suivantes: Votre nom, votre courriel, votre ou vos domaine(s) d'intérêt.     
+
+Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone, le logo tim ou le nom du programme.     
 
 [🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/lora_boisvert_cmontmorency_qc_ca/Documents/Documents/ControleQualite/ModeleCarte.pdf?csf=1&web=1&e=ZZgJyz )
 
