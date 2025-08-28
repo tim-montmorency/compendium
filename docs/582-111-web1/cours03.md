@@ -4,6 +4,10 @@
 
 PRÉVOIR UNE ÉVALUATION FORMATIVE
 
+## Types de fichiers Web
+
+@todo : parler des extensions de fichier classique en page html pure. Ex: : `.html`, `.css`, `.js`, `.jpg`, etc.
+
 Retour sur l'inspecteur : 
 
 !!! example "Essayons ensemble l'inspecteur 🕵"
@@ -161,10 +165,61 @@ Components Atomic : https://blog.kamathrohan.com/atomic-design-methodology-for-b
 
 ## Chemins d’accès absolus vs relatifs
 
+
+## Chemins relatifs
+
+Pour dire où aller chercher un fichier, on écrit un **chemin** :
+
+* `./` → le dossier courant  
+* `../` → remonter d’un dossier  
+
+Exemple :  
+
+```html
+<!-- Image dans le même dossier -->
+<img src="./logo.png">
+
+<!-- Image dans un dossier parent -->
+<img src="../logo.png">
+```
+
+👉 Dans ce cours, on utilisera **toujours `./`** pour bien montrer que le chemin commence au dossier actuel.
+
+### Relatif vs absolu
+
+Un chemin relatif (ex. `./images/pic.png` ou `../assets/logo.png`) est résolu à partir de l'emplacement du fichier HTML courant. Un chemin absolu commence par `/` et est résolu depuis la racine du site (ex. `/assets/logo.png`) ; une URL complète (`https://...`) pointe vers un autre domaine.
+
+Exemples :
+
+```text
+./images/chat.png    # relatif : dossier courant
+../assets/logo.png   # relatif : remonter d'un dossier
+/assets/logo.png     # absolu : depuis la racine du site
+https://exemple.com/img.png  # URL complète (CDN ou autre domaine)
+```
+
+Astuce : si votre site est déployé dans un sous-dossier (ex. `https://monsite.com/app/`), un chemin commençant par `/` cherchera la racine du domaine (`/assets/...`) et non `/app/assets/...`. Dans ce cas, utilisez des chemins relatifs appropriés ou configurez `<base href="/app/">` dans le `<head>`.
+
+| Syntaxe | Exemple | Interprétation |
+|---------|---------|----------------|
+| `./` | `./images/chat.png` | Fichier **dans le dossier courant** (ou sous-dossier) → toujours explicite et portable. |
+| _sans préfixe_ | `images/chat.png` | En **HTML pur**, équivalent à `./images/chat.png`. MAIS : <br>– En **JS (ES Modules)** → interprété comme un module externe dans `node_modules`. <br>– En **Sass/Webpack/Vite** → peut être résolu comme chemin absolu (racine projet). <br>– En **certains serveurs web** → risque d’être lu comme chemin absolu à la racine du domaine. |
+| `../` | `../images/chat.png` | Remonte d’un dossier, puis va chercher `images/`. |
+| `/` | `/images/chat.png` | Chemin **absolu depuis la racine du site**. <br>– Marche si ton site est **à la racine du domaine** (`monsite.com`). <br>– **Problème** si ton site est déployé dans un sous-dossier (`monsite.com/app/`). |
+| URL complète | `https://exemple.com/images/chat.png` | Chemin absolu externe (CDN ou autre domaine). |
+
+
+
+
+
 | Type | Exemple | Description |
 |------|---------|-------------|
 | **Absolu** | `https://site.com/images/logo.png` | Lien complet vers un fichier sur le Web |
 | **Relatif** | `./images/logo.png` | Lien par rapport à l’emplacement actuel |
+
+
+
+
 
 ### Variants de chemins relatifs
 
