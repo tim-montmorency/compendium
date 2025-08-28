@@ -24,6 +24,8 @@ Démonstration CV de l'an dernier
 ## Temps pour avancer votre CV
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
 
+## Cartes d'affaires
+Rencontre individuelle pour corriger les cartes d'affaires. 
 
 ## Devoir     
 Terminer le document planification_portfolio sur GitHub. 
