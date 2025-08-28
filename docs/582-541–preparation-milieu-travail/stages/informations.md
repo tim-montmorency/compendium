@@ -129,19 +129,19 @@ Accepter la convention:
 
 <h2>Objectifs et modalités</h2>
 <p>
-<h4>À PROPOS DU STAGE – 582-66G MO - Production Web en entreprise  </h4>
+<h4>À PROPOS DU STAGE – 582-611 MO - Stage en entreprise </h4>
 
-<p>Dans le cadre de ton épreuve synthèse, tu auras à réaliser un produit multimédia destiné au Web. </p> 
+<p> Ce cours correspond à un stage en entreprise pendant lequel l'élève réalise un produit multimédia. Il apprend à planifier la conception et à développer un produit multimédia ainsi qu'à contrôler sa qualité. </p> 
  
 
 <p><q>Tu es responsable de te trouver un stage !  </q></p></p> 
      
 !!! info
 
-    Tu dois <b>trouver ton stage avant Noël</b> (avant la fin de la session 5), le <b>faire approuver par la responsable</b> et avoir signé ta convention avec l'employeur et le collège (contrat de stage).
+    Tu dois <b>trouver ton stage avant Noël</b> (avant la fin de la session 5), le <b>faire approuver par la responsable</b> qui fera signer ta convention par l'employeur et le collège (contrat de stage).
 
 
-<p>La réalisation du produit multimédia destiné au Web se fait lors d’un stage en milieu de travail <b>non-rémunéré d’une durée de 225 h.</b> Tu devras trouver toi-même ton milieu de stage où tu seras appelé à concevoir un produit en accord avec les besoins d’une employeuse ou d’un employeur, par exemple un site Web, une œuvre d’art interactive Web ou une production multimédia destinée au Web. </p>
+<p>La réalisation du produit multimédia se fait lors d’un stage en milieu de travail <b>non-rémunéré d’une durée de 225 h.</b> Tu devras trouver toi-même ton milieu de stage où tu seras appelé à concevoir un produit en accord avec les besoins d’une employeuse ou d’un employeur, par exemple un site Web, une œuvre d’art interactive ou une production multimédia. </p>
 
 !!! info
 
@@ -161,7 +161,7 @@ Accepter la convention:
 
 <li>la conception du produit  </li>
 
-<li>la production du produit web et l’intégration des médias réalisés  </li>
+<li>la production du produit et l’intégration des médias réalisés  </li>
 
 <li>le contrôle de la qualité  </li>
 
