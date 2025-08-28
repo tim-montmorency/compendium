@@ -101,7 +101,7 @@ Voir l'onglet RechercheEmploi sur Teams.
 </table>
 
 ## Liste collaborative d'employeurs
-[🛠️ Ajouter 5 entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1)
+[🛠️ Ajouter 5 entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1){ .md-button }    
 
 ## Activité sur le cv 
 Qu'est-ce que doit contenir un cv?     
@@ -118,7 +118,7 @@ Au minimum, elle doit contenir les informations suivantes: Votre nom, votre cour
 
 Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone, le logo tim ou le nom du programme.     
 
-[🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/lora_boisvert_cmontmorency_qc_ca/Documents/Documents/ControleQualite/ModeleCarte.pdf?csf=1&web=1&e=ZZgJyz )
+[🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/lora_boisvert_cmontmorency_qc_ca/Documents/Documents/ControleQualite/ModeleCarte.pdf?csf=1&web=1&e=ZZgJyz ){ .md-button }    
 
 
 ## Devoir
