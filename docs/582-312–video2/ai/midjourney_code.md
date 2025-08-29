@@ -1,91 +1,130 @@
-# Commandes & Personnalisation dans MidJourney V7
+# 🎛 MidJourney V7 — Commandes & Personnalisation
 
-## 🔹 Personnalisation (moodboard & préférences)
-**Définition :**  
-La personnalisation est ton **ADN visuel** dans MidJourney. Elle combine :  
-- Un **moodboard** : collection d’images servant de **Style References automatiques**.  
-- Tes **paramètres par défaut** (comme le niveau de `--stylize`).  
-- Tes **prompts et références ponctuelles** (`--sref`, `--oref`, `--iw`).  
+## 1. `--stylize` (Moodboard & Personalize (Personnalisation))
+- **Moodboard** : un dossier d’images qui agit comme un **`--sref` appliqué automatiquement à toutes les générations d’un projet** (style global constant).  
+  - Chaque image du moodboard est traitée comme une référence de style.  
+  - Poids fixe interne : **`--sw 100`** (non modifiable).  
+- **Personalize** : un style appris automatiquement de ton usage/notations et appliqué à toutes tes générations.  
+- **Stylize (`--stylize`)** : contrôle la **force combinée** du moodboard & de la personnalisation.  
+- **Ajouter des `--sref` manuels** : permet de moduler ou compléter ponctuellement le style du moodboard/personnalisation.  
 
-👉 **Moodboard et `--sref` peuvent être utilisés ensemble** :  
-- **Moodboard seul** = style de base, cohérent sur toutes tes images.  
-- **`--sref` seul** = appliquer un style ponctuel.  
-- **Moodboard + `--sref`** = garder une base cohérente tout en ajoutant une variation ponctuelle  
-  *(exemple : pastel doux du moodboard + ambiance dramatique Crewdson en `--sref`)*.  
-
----
-
-## 1. `--stylize` (Stylisation générale)
-**Définition :**  
-Contrôle le degré de créativité artistique appliqué au **texte du prompt**.  
-
-**Valeurs typiques :**  
-- `--stylize 100` → fidèle au texte.  
-- `--stylize 500` → équilibre texte/créativité.  
-- `--stylize 1000+` → très créatif, artistique.  
-
-**Lien avec personnalisation :**  
-Définit **à quel point MidJourney peut transformer ton prompt**.  
-Combiné à un moodboard ou à `--sref`, ça agit comme un **amplificateur de créativité**.  
+**Interaction Stylize ↔ Moodboard & Personalisation**  
+- **Bas (100–250)** → priorité au texte, moodboard/personnalisation discrets.  
+- **Moyen (300–600)** → équilibre texte ↔ moodboard/personnalisation.  
+- **Haut (700–1200+)** → moodboard/personnalisation amplifiés, rendu plus artistique et interprétatif.  
 
 ---
 
 ## 2. `--iw` (Image Weight)
-**Définition :**  
-Poids d’une **Image Prompt** (image insérée dans ton prompt). Oriente la **composition, la pose, les formes principales**.  
-
-**Valeurs typiques :** 0 à 3 (défaut 1)  
-- `--iw 0.5` → texte prioritaire.  
-- `--iw 3` → image prioritaire.  
-
-
-➡️ --iw 2 : La composition de la photo est fortement respectée.  
+- **Rôle** : poids d’une **Image Prompt** → contrôle son importance par rapport au texte.  
+- **Plage** : 0–3 (défaut 1).  
+- **Effets** :  
+  - Bas (≈0.5) → priorité au texte, image de référence légère.  
+  - Moyen (≈1) → équilibre texte ↔ image.  
+  - Haut (≈2–3) → l’image de référence domine, texte moins influent.  
 
 ---
 
 ## 3. `--sw` (Style Weight)
-**Définition :**  
-Poids d’une **Style Reference (`--sref`)**. Contrôle l’influence esthétique (palette, textures, ambiance).  
-
-**Valeurs typiques :** 0 à 1000 (défaut 100)  
-- `--sw 100` → style subtil.  
-- `--sw 500` → style marqué.  
-- `--sw 1000` → style dominant.  
-
-
-➡️ --sw 600 : La composition de la photo est fortement respectée.  
-
-
-**Lien avec moodboard :**  
-- **Moodboard = collection de `--sref` appliqués automatiquement**.  
-- Tu peux superposer un `--sref` manuel à ton moodboard pour ajouter un style ponctuel.  
+- **Rôle** : intensité d’une **Style Reference (`--sref`)** → influence esthétique (palette, textures, ambiance).  
+- **Plage** : 0–1000 (défaut 100).  
+- **Effets** :  
+  - Bas (≈100) → style subtil.  
+  - Moyen (≈300–600) → style marqué mais équilibré.  
+  - Haut (≈1000) → style dominant, rendu fortement orienté.  
+- **Moodboard** : équivalent d’un ensemble de `--sref` appliqués automatiquement avec **`--sw 100`** (non modifiable).  
 
 ---
 
 ## 4. `--ow` (Omni Weight)
-**Définition :**  
-Poids d’une **Omni Reference (`--oref`)**. Contrôle la fidélité à un **élément précis** (personnage, objet, motif).  
-*(Remplace l’ancien `--cw` limité aux personnages)*.  
-
-**Valeurs typiques :** 1 à 1000 (défaut 100)  
-- `--ow 25` → élément repris librement, variations possibles.  
-- `--ow 100-300` → équilibre fidélité / créativité.  
-- `--ow 400+` → reproduction stricte.
-  
-➡️ ow 300: Le personnage est reconnaissable, mais avec une part de liberté.  
+- **Rôle** : fidélité à une **Omni Reference (`--oref`)** → reproduction d’un élément précis (personnage, objet, motif).  
+- **Plage** : 1–1000 (défaut 100).  
+- **Effets** :  
+  - Bas (≈25) → variations créatives, élément réinterprété.  
+  - Moyen (100–300) → équilibre fidélité / créativité.  
+  - Haut (400+) → reproduction stricte, proche de la référence (mais rigidité possible).  
 
 ---
 
 # ✅ Résumé visuel
-- **Personnalisation** = ton ADN visuel (moodboard + préférences par défaut + stylisation).  
-- **Moodboard** = équivalent de plusieurs `--sref` automatiques.  
-- **`--sref` manuel** = ajouter ou combiner des styles ponctuels.  
-- **`--stylize`** = intensité de créativité (texte → image).  
-- **`--iw`** = poids d’une image de contenu (pose/composition).  
-- **`--sw`** = poids d’un style visuel (esthétique/ambiance).  
-- **`--ow`** = poids d’un élément précis (personnage/objet exact). 
+- **Moodboard** : comme un **`--sref` appliqué globalement à tout un projet** (fixe `--sw 100`).  
+- **Personalize** : style appris automatiquement et appliqué en continu.  
+- **`--stylize`** : intensité de créativité appliquée au texte **et amplification du moodboard/personnalisation**.  
+- **`--iw`** : poids d’une image de contenu (composition/pose).  
+- **`--sw`** : poids d’un style (`--sref`).  
+- **`--ow`** : poids d’un élément précis (`--oref`).  
 
 
+# 🎛 MidJourney V7 — Commandes & Personnalisation
+
+## 🔹 Moodboard & Personalize (Personnalisation)
+- **Moodboard** : un dossier d’images qui agit comme un **`--sref` appliqué automatiquement à toutes les générations d’un projet** (style global constant).  
+  - Chaque image du moodboard est traitée comme une référence de style.  
+  - Poids fixe interne : **`--sw 100`** (non modifiable).  
+- **Personalize** : un style appris automatiquement de ton usage/notations et appliqué à toutes tes générations.  
+- **Stylize (`--stylize`)** : contrôle la **force combinée** du moodboard & de la personnalisation.  
+- **Ajouter des `--sref` manuels** : permet de moduler ou compléter ponctuellement le style du moodboard/personnalisation.  
+
+**Interaction Stylize ↔ Moodboard & Personnalisation**  
+- **Bas (100–250)** → priorité au texte, moodboard/personnalisation discrets.  
+- **Moyen (300–600)** → équilibre texte ↔ moodboard/personnalisation.  
+- **Haut (700–1200+)** → moodboard/personnalisation amplifiés, rendu plus artistique et interprétatif.  
+
+---
+
+## 2. `--iw` (Image Weight)
+- **Rôle** : poids d’une **Image Prompt** → contrôle son importance par rapport au texte.  
+- **Plage** : 0–3 (défaut 1).  
+- **Effets** :  
+  - Bas (≈0.5) → priorité au texte, image de référence légère.  
+  - Moyen (≈1) → équilibre texte ↔ image.  
+  - Haut (≈2–3) → l’image de référence domine, texte moins influent.  
+
+---
+
+## 3. `--sw` (Style Weight)
+- **Rôle** : intensité d’une **Style Reference (`--sref`)** → influence esthétique (palette, textures, ambiance).  
+- **Plage** : 0–1000 (défaut 100).  
+- **Effets** :  
+  - Bas (≈100) → style subtil.  
+  - Moyen (≈300–600) → style marqué mais équilibré.  
+  - Haut (≈1000) → style dominant, rendu fortement orienté.  
+- **Moodboard** : équivalent d’un ensemble de `--sref` appliqués automatiquement avec **`--sw 100`** (non modifiable).  
+
+---
+
+## 4. `--ow` (Omni Weight)
+- **Rôle** : fidélité à une **Omni Reference (`--oref`)** → reproduction d’un élément précis (personnage, objet, motif).  
+- **Plage** : 1–1000 (défaut 100).  
+- **Effets** :  
+  - Bas (≈25) → variations créatives, élément réinterprété.  
+  - Moyen (100–300) → équilibre fidélité / créativité.  
+  - Haut (400+) → reproduction stricte, proche de la référence (mais rigidité possible).  
+
+---
+
+# ✅ Résumé visuel
+- **Moodboard** : comme un **`--sref` appliqué globalement à tout un projet** (fixe `--sw 100`).  
+- **Personalize** : style appris automatiquement et appliqué en continu.  
+- **`--stylize`** : intensité de créativité appliquée au texte **et amplification du moodboard/personnalisation**.  
+- **`--iw`** : poids d’une image de contenu (composition/pose).  
+- **`--sw`** : poids d’un style (`--sref`).  
+- **`--ow`** : poids d’un élément précis (`--oref`).  
+
+---
+
+# 📊 Mini-fiche tableau
+
+# 📊 Mini-fiche récap
+
+| Paramètre        | Rôle principal                                | Valeurs (défaut) | Repères rapides |
+|------------------|-----------------------------------------------|------------------|-----------------|
+| **Moodboard**    | Style global d’un projet (`--sref` auto)      | Fixe `--sw 100`  | Style appliqué automatiquement à toutes les générations |
+| **Personalize**  | Style appris de ton usage/notations           | Automatique      | Influence continue, varie avec `--stylize` |
+| **--stylize**    | Intensité créativité + amplification du style | 0–1000 (100)     | Bas = texte > style · Moyen = équilibre · Haut = style amplifié |
+| **--iw**         | Poids d’une Image Prompt (composition/pose)   | 0–3 (1)          | Bas = texte prioritaire · Haut = image prioritaire |
+| **--sw**         | Poids d’une Style Reference (`--sref`)        | 0–1000 (100)     | Bas = style subtil · Haut = style dominant |
+| **--ow**         | Fidélité à une Omni Reference (`--oref`)      | 1–1000 (100)     | Bas = variations · Moyen = équilibre · Haut = copie stricte |
 
 
 [stop]
