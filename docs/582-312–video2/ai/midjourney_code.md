@@ -1,4 +1,94 @@
+# 🎛 Commandes & Personnalisation dans MidJourney V7
 
+## 🔹 Personnalisation (moodboard & préférences)
+**Définition :**  
+La personnalisation est ton **ADN visuel** dans MidJourney. Elle combine :  
+- Un **moodboard** : collection d’images servant de **Style References automatiques**.  
+- Tes **paramètres par défaut** (comme le niveau de `--stylize`).  
+- Tes **prompts et références ponctuelles** (`--sref`, `--oref`, `--iw`).  
+
+👉 **Moodboard et `--sref` peuvent être utilisés ensemble** :  
+- **Moodboard seul** = style de base, cohérent sur toutes tes images.  
+- **`--sref` seul** = appliquer un style ponctuel.  
+- **Moodboard + `--sref`** = garder une base cohérente tout en ajoutant une variation ponctuelle  
+  *(exemple : pastel doux du moodboard + ambiance dramatique Crewdson en `--sref`)*.  
+
+---
+
+## 1. `--stylize` (Stylisation générale)
+**Définition :**  
+Contrôle le degré de créativité artistique appliqué au **texte du prompt**.  
+
+**Valeurs typiques :**  
+- `--stylize 100` → fidèle au texte.  
+- `--stylize 500` → équilibre texte/créativité.  
+- `--stylize 1000+` → très créatif, artistique.  
+
+**Lien avec personnalisation :**  
+Définit **à quel point MidJourney peut transformer ton prompt**.  
+Combiné à un moodboard ou à `--sref`, ça agit comme un **amplificateur de créativité**.  
+
+---
+
+## 2. `--iw` (Image Weight)
+**Définition :**  
+Poids d’une **Image Prompt** (image insérée dans ton prompt). Oriente la **composition, la pose, les formes principales**.  
+
+**Valeurs typiques :** 0 à 3 (défaut 1)  
+- `--iw 0.5` → texte prioritaire.  
+- `--iw 3` → image prioritaire.  
+
+
+➡️ --iw 2 : La composition de la photo est fortement respectée.  
+
+---
+
+## 3. `--sw` (Style Weight)
+**Définition :**  
+Poids d’une **Style Reference (`--sref`)**. Contrôle l’influence esthétique (palette, textures, ambiance).  
+
+**Valeurs typiques :** 0 à 1000 (défaut 100)  
+- `--sw 100` → style subtil.  
+- `--sw 500` → style marqué.  
+- `--sw 1000` → style dominant.  
+
+
+➡️ --sw 600 : La composition de la photo est fortement respectée.  
+
+
+**Lien avec moodboard :**  
+- **Moodboard = collection de `--sref` appliqués automatiquement**.  
+- Tu peux superposer un `--sref` manuel à ton moodboard pour ajouter un style ponctuel.  
+
+---
+
+## 4. `--ow` (Omni Weight)
+**Définition :**  
+Poids d’une **Omni Reference (`--oref`)**. Contrôle la fidélité à un **élément précis** (personnage, objet, motif).  
+*(Remplace l’ancien `--cw` limité aux personnages)*.  
+
+**Valeurs typiques :** 1 à 1000 (défaut 100)  
+- `--ow 25` → élément repris librement, variations possibles.  
+- `--ow 100-300` → équilibre fidélité / créativité.  
+- `--ow 400+` → reproduction stricte.
+  
+➡️ ow 300: Le personnage est reconnaissable, mais avec une part de liberté.  
+
+---
+
+# ✅ Résumé visuel
+- **Personnalisation** = ton ADN visuel (moodboard + préférences par défaut + stylisation).  
+- **Moodboard** = équivalent de plusieurs `--sref` automatiques.  
+- **`--sref` manuel** = ajouter ou combiner des styles ponctuels.  
+- **`--stylize`** = intensité de créativité (texte → image).  
+- **`--iw`** = poids d’une image de contenu (pose/composition).  
+- **`--sw`** = poids d’un style visuel (esthétique/ambiance).  
+- **`--ow`** = poids d’un élément précis (personnage/objet exact). 
+
+
+
+
+[stop]
 # Définition des commandes dans MidJourney
 
 ## 1. --stylize (stylisation générale)
