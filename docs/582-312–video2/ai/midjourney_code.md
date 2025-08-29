@@ -1,4 +1,4 @@
-# 🎛 Commandes & Personnalisation dans MidJourney V7
+# Commandes & Personnalisation dans MidJourney V7
 
 ## 🔹 Personnalisation (moodboard & préférences)
 **Définition :**  
