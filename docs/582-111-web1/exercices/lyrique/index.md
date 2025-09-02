@@ -8,7 +8,7 @@ Si vous n'avez pas d'inspiration, pourquoi pas prendre les paroles de [good 4 u]
 
 ## Résultat attendu
 
-<https://web1.tim-momo.com/ma-toune/>
+[Lyrique](https://web1.tim-momo.com/lyrique/)
 
 ## Consignes
 
@@ -21,5 +21,5 @@ Si vous n'avez pas d'inspiration, pourquoi pas prendre les paroles de [good 4 u]
 - [ ] Sous le titre, inscrire le nom de l'artiste
 - [ ] Ajoutez un trait de séparation comme dans le résultat attendu
 - [ ] Ajouter ensuite les couplets dans des paragraphes et ajoutez le nécessaire pour les sauts de ligne
-- [ ] 🪄 Ajouter un peu de magie dans la portion `head` du code HTML en y ajoutant cette ligne de code `<link rel="stylesheet" href="https://web1.tim-momo.com/ma-toune/styles.css">`
-- [ ] En levant la main, valider votre programmation avec le prof
+- [ ] 🪄 Ajouter un peu de magie dans la portion `head` du code HTML en y ajoutant cette ligne de code `<link rel="stylesheet" href="https://web1.tim-momo.com/lyrique/styles.css">`
+- [ ] Lever la main pour valider avec l'enseignant 🧑‍🏫

@@ -1,4 +1,4 @@
-[stop]
+
 <style>.md-header{display:none;}</style>
 
 # Utilisation de [Runway](https://runwayml.com/product/use-cases)
