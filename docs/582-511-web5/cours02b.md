@@ -6,7 +6,8 @@
 
 ## Aujourd'hui
 
-- [ ] Quiz de révision
+- [ ] Activité de révision des exercices d'hier
+- [ ] Quiz
 - [ ] Vue.js base
 - [ ] Vue.js création projet
 - [ ] Vue.js template script style

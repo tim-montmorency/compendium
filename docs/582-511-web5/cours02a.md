@@ -50,13 +50,15 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche?
 
 [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
 
-## JavaScript Bootcamp
+## Camp d'entrainement JavaScript
 
-### Bootcamp
-Lien à venir
+### Camp d'entrainement
+
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" }
 
 ### Super Smash Bros
-Lien à venir
+
+[🕹️🍄🎮👾 Lien à venir](#){ .md-button :target="_blank" }
 
 ## Devoirs
 
