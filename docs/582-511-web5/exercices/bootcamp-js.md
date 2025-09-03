@@ -19,9 +19,11 @@ bouton.addEventListener("click", function() {
 
 **Exercice**  
 *En HTML*
+
 - [ ] Crée un bouton “Changer la couleur”.
 
 *En Javascript*
+
 - [ ] Lorsqu’on clique dessus, change la couleur de fond de la page en bleu🔵.
 
 <hr> 
@@ -45,10 +47,12 @@ console.log(tousLesParagraphes.length);
 
 **Exercice**
 *En HTML*
+
 - [ ] Crée un bouton “Changer”.
 - [ ] Crée une liste à puces `<ul> <li>` pour lister le nom des quatre filles du groupe K-pop *Blackpink* (tu peux chercher leur nom sur Internet).
 
-*En Javascript*
+*En JavaScript*
+
 - [ ] Sélectionne le bouton et écoute l'événement `click`sur celui-ci.
 - [ ] En JavaScript, sélectionne tous les `<li>` de cette liste à puce.
 - [ ] Au clic du bouton, tu dois remplacer le contenu de chaque balise `<li>` par le texte "membre d'un groupe K-Pop".
