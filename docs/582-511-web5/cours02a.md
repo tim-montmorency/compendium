@@ -68,8 +68,9 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 [🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
  -->
 
-
 ## Devoirs
+
+Terminer le Bootcamp et vous rendre à l'étape *X* de Super Smash Bros (*X* dépend d'où on se rend en classe, je mettrais à jour les consignes à la fin du cours aujourd'hui).
 
 
 [STOP]
