@@ -54,7 +54,7 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche?
 
 ### Camp d'entrainement
 
-[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" }
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" }
 
 ### Super Smash Bros
 
