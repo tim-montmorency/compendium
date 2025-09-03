@@ -75,8 +75,9 @@ titre.textContent = "Nouveau titre";
 titre.style.fontSize = "40px";
 ```
 
-**Exercice**  
-Dans le même exercice que le #2 (*Blackpink*), créer un autre bouton “Ajouter une chanteuse” qui ajoute un nouvel `<li>` dans la liste à chaque clic. Vous pouvez y inscrire le nom de votre chanteuse préférée.  
+**Exercice** 
+
+- [ ] Dans le même exercice que le #2 (*Blackpink*), créer un autre bouton “Ajouter une chanteuse” qui ajoute un nouvel `<li>` dans la liste à chaque clic. Vous pouvez y inscrire le nom de votre chanteuse préférée.  
 
 
 ## 4. Tableaux (`array`)
@@ -93,7 +94,8 @@ fruits.push("kiwi"); // ajoute à la fin
 ```
 
 **Exercice**  
-Créer un tableau avec 5 villes ou lieu que tu aimerais visiter un jour. Afficher chaque ville dans la console avec une boucle `forEach`.  
+
+- [ ] Créer un tableau avec 5 villes ou lieu que tu aimerais visiter un jour. Afficher chaque ville dans la console avec une boucle `forEach`.  
 
 
 ## 5. Objets (`{}`)
@@ -114,8 +116,8 @@ console.log(etudiant.nom);
 ```
 
 **Exercice**  
-Créer un objet `film` avec les propriétés `titre`, `année`, `réalisateur`. Afficher une phrase complète en console :  
-`"Inception est réalisé par Christopher Nolan en 2010."`  
+
+- [ ] Créer un objet `film` avec les propriétés `titre`, `année`, `réalisateur`. Afficher une phrase complète en console :  `"Inception est réalisé par Christopher Nolan en 2010."`  
 
 ## 6. Boucles (`forEach` avec liste du DOM)
 
@@ -135,11 +137,11 @@ items.forEach((item, index) => {
 
 *En HTML*
 
-Créer une liste `<ul>` avec 5 `<li>`. 
+- [ ] Créer une liste `<ul>` avec 5 `<li>`. 
 
 *En JavaScript*
 
-Utiliser `forEach` pour changer la couleur de fond de chaque `<li>` en fonction de son index (pair = bleu, impair = rose).  
+- [ ] Utiliser `forEach` pour changer la couleur de fond de chaque `<li>` en fonction de son index (pair = bleu, impair = rose).  
 
 
 ## 7. Fetch API
@@ -157,4 +159,6 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
 ```
 
 **Exercice**  
-Récupérer les données de l’API `https://jsonplaceholder.typicode.com/users` et afficher les noms des utilisateurs dans une liste `<ul>` sur la page.  
+
+- [ ] Récupérer les données de l’API `https://jsonplaceholder.typicode.com/users`.
+- [ ] Afficher les noms des utilisateurs dans une liste `<ul>` sur la page.  
