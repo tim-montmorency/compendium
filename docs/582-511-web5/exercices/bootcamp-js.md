@@ -28,7 +28,7 @@ bouton.addEventListener("click", function() {
 
 - [ ] Lorsqu’on clique dessus, changer la couleur de fond de la page en bleu🔵.
 
-<hr> 
+
 
 ## 2. Sélecteurs d’éléments du DOM
 
@@ -59,7 +59,7 @@ console.log(tousLesParagraphes.length);
 - [ ] En JavaScript, sélectionner tous les `<li>` de cette liste à puce.
 - [ ] Au clic du bouton, remplacer le contenu de chaque balise `<li>` par le texte "membre d'un groupe K-pop".
 
-<hr> 
+
 
 ## 3. Modifications du DOM
 
