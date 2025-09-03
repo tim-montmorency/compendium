@@ -18,8 +18,7 @@ l'examen.\
 | orange       | #f47b2b |
 | orange foncé | #da5e0b |
 
-Dans le but de maximiser l'exercice de vos acquis, chaque
-fonctionnalité a été isolée en étape numérotée (1, 2, 3, 4, 5...) afin de pouvoir être déclenchée par un bouton lui étant propre.
+Dans le but de maximiser l'exercice de vos acquis, chaque fonctionnalité a été isolée en étape numérotée (1, 2, 3, 4, 5...) afin de pouvoir être déclenchée par un bouton lui étant propre.
 
 Ainsi, si vous bloquez 🤔 sur une étape, n'hésitez pas à passer au numéro suivant !
 
@@ -67,68 +66,65 @@ Ainsi, si vous bloquez 🤔 sur une étape, n'hésitez pas à passer au numéro 
 
 ## Requis JavaScript
 
-**RAPPEL**\
-Dans le but de maximiser l'exercice de vos acquis, chaque
-fonctionnalité a été isolée en étape numérotée (1, 2, 3, 4, 5, 6) afin de pouvoir être déclenchée par un bouton lui étant propre.\
-Ainsi, si vous bloquez sur une étape, n'hésitez pas à passer au numéro
-suivant !\
-Vous pourrez y revenir s'il vous reste du temps à la fin !
 
-- [ ] 1. **Créez une** **fonction** permettant faire une **boucler** `forEach` sur toutes les images contenues dans le **tableau charactersArr**. 
-  - [ ] a. Avec cette boucle, **insérez** chacune des images du tableau à l\'intérieur de la balise HTML **.characters** dans le DOM afin de remplacer les images actuelles de Mario.
+### Contexte et attentes
 
-!!! tip "Rappel pour l'étape #1"
+- **Tableaux/variables fournis** :
+  - `charactersArr` : tableau des images/personnages.
+  - `playerIndex` : index du personnage sélectionné pour le **Joueur 1** (à gauche).
+- **Structure DOM attendue** :
+  - `.characters` pour afficher toutes les vignettes.
+  - `.game` contenant deux `.player` (gauche = Joueur 1, droite = Joueur 2).
+  - Boutons de contrôle : « Perso suivant », « Adversaire aléatoire », « Enlever un perso ». (Le bouton **Décompte** est présent mais non fonctionnel pour l'exercice.)
+- **Classes CSS** :
+  - `.active` (Joueur 1 sélectionné, bordures orange).
+  - `.activeOpponent` (Joueur 2 sélectionné, bordures rouges).
+
+---
+### Étape 1 — Initialiser la galerie
+- [ ] a. Créer une fonction nommée `renderCharacters()` pour afficher toutes les images `.png` stockée dans le tableau `charactersArr`. Vous devez afficher ces images dans l'élément `.characters`, et donc remplacer les images de Mario.
+
+!!! tip "Rappel pour l'étape #1a"
 
     Vous aurez besoin de :
-    - Créer une fonction (et vous pouvez appeler cette fonction pour tester ce que vous faites).
+    - Créer une fonction (tu peux appeler cette fonction pour tester ce que tu fais).
     - Sélectionner l'élément du DOM qui contient la classe **.characters**
-    - Faire une boucle `forEach` sur le tableau
+    - Faire une boucle `forEach` sur le tableau `charactersArr`
     - Manipuler le contenu des éléments sur DOM, soit en changeant la `src` de l'image actuelle de Mario ou encore en recréant la balise avec `ìnnerHTML` ou `createElement` ou `insertAdjacentHTML()`.
 
-- [ ] 2. Appelez cette fonction au chargement de la page. Ainsi, tous les
-    personnages disponibles devraient s\'afficher sous l\'écran du jeu
-    dès que la page est rafraichie.
-.
-- [ ] 3. Lorsque les images de Mario sont remplacées, toujours dans la même
-    fonction, après la boucle:
-  - [ ] a. **Sélectionnez** dans le DOM toutes les images contenues dans le **div.caracters** et stockez les dans une variable nommée **characterNodesArr**. Vous deviez obtenir un **tableau de node HTML** (vous pouvez vérifier en faisant un `console.log`).
-    .
-  - [ ] b. **Ajoutez** la classe **.active** à l'élément dans le tableau **characterNodesArr** qui se trouve à la position de **playerIndex**. Vous devriez maintenant voir des bordures orange autour du premier personnage puisque **playerIndex** est défini à `0`.
-.
-- [ ] 4. Au **clic du bouton \"Perso suivant\"**, augmentez la valeur de la variable **playerIndex** de 1.
-  .
-  - [ ] a.  Utilisez cette variable afin de remplacer l\'image du joueur 1 (joueur à gauche) par l\'image du personnage dans le tableau **charactersArr** dont la position correspond à **playerIndex**.
-  .
-  - [ ] b.  Si la variable **playerIndex** atteint une valeur plus grande que le dernier index du tableau **charactersArr**, attribuez-lui la valeur `0` afin de retourner au début du tableau et ainsi afficher l\'image du premier personnage (Cloud) plutôt qu\'une image brisée.
-  .
-  - [ ] c.  **Sélectionnez** dans le DOM toutes les images contenues dans le  **div.caracters** et stockez les dans une **variable**, vous deviez obtenir un **tableau de nodes HTML**. Nommez cette variable comme vous le souhaitez, comme c'est un tableau, pensez à ajouter `Arr` à la fin du nom de la variable (Arr pour array).
-  .
-  - [ ] d.  Faites une **boucle** `forEach` sur le **tableau contenu dans la variable de la consigne 4.c** et supprimez la classe **.active** de chacune des images.
-  .
-  - [ ] e.  Suite à votre boucle de l'étape 4.d (en dehors de celle-ci), toujours en utilisant la variable contenant le tableau de node HTML de l\'étape 4.c, ajoutez la classe **.active** à l\'image qui se positionne à la même position que le chiffre **playerIndex**. Suite aux étapes 4.c, 4.d, 4.e, vous devriez maintenant voir quel personnage de gauche est sélectionnée dans le menu, il sera encadré par des bordures oranges.
-.
-- [ ] 5.  Au **clic du bouton \"Adversaire aléatoire\"**, pigez une image de personnage aléatoire dans le tableau **charactersArr**. (bref, un **nombre entier** entre `0` et le dernier index du tableau **charactersArr**).
-  .
-  - [ ] a.  Toujours dans **clic du bouton \"Adversaire aléatoire\"**,
-        remplacez l\'image du joueur 2 (joueur de droite) par l'image du
-        tableau **charactersArr** pigée à l'instruction 5.
-  .
-  - [ ] b.  Toujours dans **clic du bouton \"Adversaire aléatoire\"**,
-        **sélectionnez** dans le DOM toutes les images contenues dans le
-        **div.caracters** et stockez les dans une variable nommée
-        **characterNodesArr**, vous deviez obtenir un **tableau**.
-  .
-  - [ ] c.  Faites une **boucle** `forEach` sur le
-        **tableau contenu dans characterNodesArr** et supprimez la
-        classe **.activeOpponent** de chacune des images.
-  .
-  - [ ] d.  Suite à votre boucle de l'étape 5.c (en dehors de celle-ci), toujours en utilisant la variable **characterNodesArr**, ajoutez la classe **.activeOpponent** à l\'image qui se positionne à la même position que votre nombre aléatoire généré à l'étape 5.
-  Vous devriez maintenant voir quel personnage de droite est sélectionnée dans le menu, il sera encadré par une bordure rouge.
-.
-- [ ] 6. Au **clic du bouton \"Enlever un perso\",** retirez la **dernière image** du tableau **charactersArr**.
-  .
-  - [ ] a.  **Si l\'image du joueur 1 (joueur de gauche) (playerIndex)** correspond à l\'image retirée, changez la valeur de la **variable playerIndex** afin qu\'elle corresponde à l\'index de la dernière image restante dans **charactersArr** et mettez l\'image du joueur 1 à jour.
-  .
-  - [ ] b.  Ensuite **appelez ensuite la fonction de l\'étape 1** afin de remplacer toutes les images à l\'intérieur de la balise HTML **.characters** par celles des personnages restants.
-.
-- [ ] 7.  Rien à faire avec le bouton **Décompte**, cette partie a été retirée.
+- [ ] b. Après la génération, récupérer la liste des éléments `<img>` et stockez la dans une variable nommée `characterNodesArr`.
+
+
+- [ ] c. Appliquer la classe `.active` sur l'élément à l'index `playerIndex` qui vaut actuellement `0`. Si tout fonctionne bien, tu devrais voir un encadré orange autour du premier personnage de la liste.
+
+- [ ] d. Appeler la fonction `renderCharacters()` au chargement de la page.
+
+
+### Étape 2 — « Perso suivant » (Joueur 1)
+
+- [ ] Au clic, incrémenter `playerIndex` (avec bouclage si > dernier index).
+- [ ] Mettre à jour l’image du **Joueur 1** dans `.game`.
+- [ ] Retirer puis réappliquer `.active` dans `.characters` au nouvel index.
+
+### Étape 3 — « Adversaire aléatoire » (Joueur 2)
+
+- [ ] Générer un index aléatoire valide `opponentIndex`.
+- [ ] Mettre à jour l’image du **Joueur 2** dans `.game`.
+- [ ] Nettoyer puis appliquer `.activeOpponent` sur la vignette correspondante dans `.characters`. Si tout fonctionne bien, tu devrais voir une bordure rouge au haut de l'image de l'opposant.
+
+### Étape 4 — « Enlever un perso »
+
+- [ ] Retirer le dernier élément du tableau `charactersArr` (voir les notes de cours sur les tableaux).
+- [ ] Si `playerIndex` n’est plus valide, le ramener à `charactersArr.length - 1` (ou `0` si tableau vide).
+- [ ] Mettre à jour l’image du **Joueur 1**.
+- [ ] Relancer `renderCharacters()` pour rafraîchir la galerie et réappliquer `.active`.
+
+---
+
+### Résumé (checklist de validation)
+- [ ] `renderCharacters()` génère correctement la galerie et applique `.active` sur `playerIndex`.
+- [ ] La galerie s’affiche au chargement.
+- [ ] « Perso suivant » met à jour `playerIndex`, l’image du Joueur 1 et `.active`.
+- [ ] « Adversaire aléatoire » met à jour l’image du Joueur 2 et `.activeOpponent`.
+- [ ] « Enlever un perso » met à jour le tableau, le Joueur 1 et la galerie (`renderCharacters()`).
+- [ ] Aucune erreur si `charactersArr` devient vide.

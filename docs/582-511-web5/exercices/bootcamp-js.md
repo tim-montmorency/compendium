@@ -20,11 +20,11 @@ bouton.addEventListener("click", function() {
 **Exercice**  
 *En HTML*
 
-- [ ] Crée un bouton “Changer la couleur”.
+- [ ] Créer un bouton “Changer la couleur”.
 
 *En Javascript*
 
-- [ ] Lorsqu’on clique dessus, change la couleur de fond de la page en bleu🔵.
+- [ ] Lorsqu’on clique dessus, changer la couleur de fond de la page en bleu🔵.
 
 <hr> 
 
@@ -48,23 +48,25 @@ console.log(tousLesParagraphes.length);
 **Exercice**
 *En HTML*
 
-- [ ] Crée un bouton “Changer”.
-- [ ] Crée une liste à puces `<ul> <li>` pour lister le nom des quatre filles du groupe K-pop *Blackpink* (tu peux chercher leur nom sur Internet).
+- [ ] Créer un bouton “Changer”.
+- [ ] Créer une liste à puces `<ul> <li>` pour lister le nom des quatre filles du groupe K-pop *Blackpink* (tu peux chercher leur nom sur Internet).
 
 *En JavaScript*
 
-- [ ] Sélectionne le bouton et écoute l'événement `click`sur celui-ci.
-- [ ] En JavaScript, sélectionne tous les `<li>` de cette liste à puce.
-- [ ] Au clic du bouton, tu dois remplacer le contenu de chaque balise `<li>` par le texte "membre d'un groupe K-Pop".
+- [ ] Sélectionner le bouton et écoute l'événement `click`sur celui-ci.
+- [ ] En JavaScript, sélectionner tous les `<li>` de cette liste à puce.
+- [ ] Au clic du bouton, remplacer le contenu de chaque balise `<li>` par le texte "membre d'un groupe K-pop".
 
 <hr> 
 
 ## 3. Modifications du DOM
 
 **Résumé**  
-On peut modifier le contenu (`textContent`, `innerHTML`), le style (`style`), et même ajouter/supprimer des éléments (`appendChild`, `remove`).  
+
+On peut modifier le texte (`innerText` / `textContent`), les attributs, le style, ajouter ou supprimer des éléments via `createElement`, `appendChild`, `removeChild`, `innerHTML`, `insertAdjacentHTML()` etc. 
 
 **Exemple**
+
 ```js
 const titre = document.querySelector("h1");
 titre.textContent = "Nouveau titre";
@@ -72,7 +74,7 @@ titre.style.fontSize = "40px";
 ```
 
 **Exercice**  
-Créer un bouton “Ajouter un item” qui ajoute un nouvel `<li>` dans une liste à chaque clic.  
+Dans le même exercice que le #2 (*Blackpink*), créer un autre bouton “Ajouter une chanteuse” qui ajoute un nouvel `<li>` dans la liste à chaque clic. Vous pouvez y inscrire le nom de votre chanteuse préférée.  
 
 
 ## 4. Tableaux (`array`)
@@ -81,6 +83,7 @@ Créer un bouton “Ajouter un item” qui ajoute un nouvel `<li>` dans une list
 Un tableau permet de stocker une liste de valeurs. On peut les parcourir avec des boucles.  
 
 **Exemple**
+
 ```js
 const fruits = ["pomme", "banane", "orange"];
 console.log(fruits[1]); // banane
@@ -88,7 +91,7 @@ fruits.push("kiwi"); // ajoute à la fin
 ```
 
 **Exercice**  
-Créer un tableau avec 5 prénoms. Afficher chaque prénom dans la console avec une boucle `for`.  
+Créer un tableau avec 5 villes ou lieu que tu aimerais visiter un jour. Afficher chaque ville dans la console avec une boucle `forEach`.  
 
 
 ## 5. Objets (`{}`)
@@ -97,6 +100,7 @@ Créer un tableau avec 5 prénoms. Afficher chaque prénom dans la console avec 
 Un objet regroupe des propriétés (clés/valeurs). Chaque propriété peut contenir une valeur primitive, un tableau ou une fonction.  
 
 **Exemple**
+
 ```js
 const etudiant = {
   nom: "Alice",
@@ -111,13 +115,13 @@ console.log(etudiant.nom);
 Créer un objet `film` avec les propriétés `titre`, `année`, `réalisateur`. Afficher une phrase complète en console :  
 `"Inception est réalisé par Christopher Nolan en 2010."`  
 
-
 ## 6. Boucles (`forEach` avec liste du DOM)
 
 **Résumé**  
 `forEach` permet de parcourir un tableau ou une *NodeList* (liste d’éléments du DOM).  
 
 **Exemple**
+
 ```js
 const items = document.querySelectorAll("li");
 items.forEach((item, index) => {
@@ -126,7 +130,14 @@ items.forEach((item, index) => {
 ```
 
 **Exercice**  
-Créer une liste `<ul>` avec 5 `<li>`. Utiliser `forEach` pour changer la couleur de fond de chaque `<li>` en fonction de son index (pair = bleu, impair = vert).  
+
+*En HTML*
+
+Créer une liste `<ul>` avec 5 `<li>`. 
+
+*En JavaScript*
+
+Utiliser `forEach` pour changer la couleur de fond de chaque `<li>` en fonction de son index (pair = bleu, impair = rose).  
 
 
 ## 7. Fetch API
