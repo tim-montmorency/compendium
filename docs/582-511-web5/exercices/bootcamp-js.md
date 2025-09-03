@@ -7,9 +7,11 @@ Un écouteur d’événement permet d’exécuter du code lorsqu’une action sp
 On l’attache à un élément du DOM.
 
 **Exemple**
+
 ```html
 <button class="btn">Clique-moi</button>
 ```
+
 ```js
 const bouton = document.querySelector(".btn");
 bouton.addEventListener("click", function() {

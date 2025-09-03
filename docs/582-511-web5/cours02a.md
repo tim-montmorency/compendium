@@ -44,11 +44,14 @@ Cette liste n'est pas complète mais elle inclut un grande partie des contenus q
 
 ## Discussion: Corrigé des exercices
 
-Vous laisser le corriger des exercices: Bonne ou mauvaise approche?
+Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en ensemble!
 
 ## Activité de révision de l'exercice du "Jeu du 27"
 
 [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+
+- Résumé visuel au tableau blanc
+- Étape par étape, en démonstration collaborative interactive (collab mode)
 
 ## Camp d'entrainement JavaScript
 
