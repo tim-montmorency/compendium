@@ -127,6 +127,9 @@ Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votr
 
 [🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }    
 
+[🛠️ Modèle figma](https://www.figma.com/design/gaSoBysHBWoTXB6CgGahux/comite_design?node-id=0-1&t=3etaaBa5RIiy44T3-1){ .md-button }    
+
+[🛠️ Modèle Canva](https://www.canva.com/design/DAFuVbXSGew/kyvBCIboJuQwbZ-oMrlTfQ/edit?utm_content=DAFuVbXSGew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ){ .md-button }    
 
 ## Devoir
 Terminer le document sur le contenu du CV. 
