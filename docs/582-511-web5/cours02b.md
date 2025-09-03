@@ -1,4 +1,4 @@
-# Cours 2.2 - jeudi
+# Cours 2.2
 
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
