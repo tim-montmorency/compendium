@@ -27,6 +27,13 @@ Voir l'onglet RechercheEmploi sur Teams.
         <th>Répertoire d'emplois dans le domaine culturel</th>
         <th><p><a href="https://cultive.ca/emplois/ ">Site web</a></p></th>        
 </tr>
+<tr>
+        <th>A2C</th>
+        <th>Répertoire d'agences de communication</th>
+        <th><p><a href="https://a2c.quebec/repertoire-des-agences/">Site web</a></p></th>        
+</tr>
+
+
 
  <tr>
         <th>Synthèse</th>
