@@ -57,10 +57,9 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 
 ### Camp d'entrainement
 
-[🥾🏃‍♂️🪖🏋️‍♂️Lien à venir](#){ .md-button :target="_blank" }
-<!--
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" }
- -->
+
+
 ### Super Smash Bros
 
 [🕹️🍄🎮👾 Lien à venir](#){ .md-button :target="_blank" }
