@@ -24,8 +24,9 @@ bouton.addEventListener("click", function() {
 - [ ] Crée un bouton “Changer la couleur”.
 
 *En Javascript*
-- [ ] Lorsqu’on clique dessus, change la couleur de fond de la page en bleu.  
+- [ ] Lorsqu’on clique dessus, change la couleur de fond de la page en bleu🔵.
 
+<hr> 
 
 ## 2. Sélecteurs d’éléments du DOM
 
@@ -47,13 +48,14 @@ console.log(tousLesParagraphes.length);
 **Exercice**
 *En HTML*
 - [ ] Crée un bouton “Changer”.
-- [ ] Crée une liste à puces `<ul> <li>` pour lister le nom des quatre filles du groupe K-pop *Blackpink*.
+- [ ] Crée une liste à puces `<ul> <li>` pour lister le nom des quatre filles du groupe K-pop *Blackpink* (tu peux chercher leur nom sur Internet).
 
 *En Javascript*
 - [ ] Sélectionne le bouton et écoute l'événement `click`sur celui-ci.
-- [ ] En JavaScript, sélectionne tous les `<li>` de cette liste.
-- [ ] Au clic du bouton, tu dois remplacer le contenu de chaque balise `<li>` par "membre d'un groupe K-Pop".
+- [ ] En JavaScript, sélectionne tous les `<li>` de cette liste à puce.
+- [ ] Au clic du bouton, tu dois remplacer le contenu de chaque balise `<li>` par le texte "membre d'un groupe K-Pop".
 
+<hr> 
 
 ## 3. Modifications du DOM
 
