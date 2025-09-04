@@ -48,7 +48,8 @@ Quelques exemples que j'ai sélectionnés pour vous :
 * [Quelques exemples de projets Vue.js regroupés sur une collection CodePen.](https://codepen.io/collection/kNQdop)
 
 ### Vue.js en 2 minutes
-[:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
+
+- [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
 
 ### Vue.js : Introduction
 - [Vue.js Introduction](./vue/index.html)
