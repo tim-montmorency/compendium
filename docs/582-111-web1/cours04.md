@@ -8,7 +8,14 @@ PRÉSENTER LE TP
 
 ![](./assets/images/vector-bitmap-banner.jpg)
 
+https://developer.mozilla.org/fr/docs/Web/Media/Guides/Formats/Image_types
+
 Il existe essentiellement deux types d’images utilisés en Web : les images **vectorielles** et les images **matricielles** (ou *bitmap* en anglais).
+
+## Vectoriel vs Matriciel
+
+![icon (10)](https://github.com/user-attachments/assets/343eb750-1f49-4727-93fc-8857f7c67762)
+[matrices & vecteurs](./autres/vectoriel-vs-matriciel.md)
 
 ### Vectoriel
 

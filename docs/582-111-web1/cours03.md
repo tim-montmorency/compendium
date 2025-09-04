@@ -1,75 +1,421 @@
 # Cours 3
 
-[STOP]
+*[DOM]: Document Object Model
 
-PRÉVOIR UNE ÉVALUATION FORMATIVE
+## Tutorat
 
-## Types de fichiers Web
+![](./assets/images/help-me.gif){.w-100}
 
-@todo : parler des extensions de fichier classique en page html pure. Ex: : `.html`, `.css`, `.js`, `.jpg`, etc.
+Comment ça marche ?
 
-Retour sur l'inspecteur : 
+![](./assets/images/programme-tim.png)
 
-!!! example "Essayons ensemble l'inspecteur 🕵"
-    1. Ouvrir la page Web créée plus tôt
-    1. Ouvrir l'inspecteur et observer le contenu de l'onglet « Éléments »
-    1. Trouver le moyen de changer le contenu du HTML
+Dans le groupe Teams « TIM - Programme TIM », il y aura une annonce faite par le tuteur pour annoncer sa disponibilité. Aussi, il y aura un [horaire en ligne](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) disponible sur le site du collège.
 
+Il suffit d'envoyer un message privé au tuteur ou à la tutrice.
 
-## Validateur W3C
+Y'a pas de gêne à avoir parce qu'ils sont carrément en attente de votre message !
 
-![](./assets/images/W3C®_Icon.png)
+Exemple :
 
-Vous vous souvenez du validateur W3C ? Il y a mieux ;) Pourquoi pas avoir l'équivalent directement dans vscode !
+> Bonjour Émeryk.<br>Je suis dans le cours Web1 et j'aurais besoin d'aide concernant mon TP1.
 
-Par exemple, [Webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint), [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) ou [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) font _grosso modo_ la même chose que le validateur du W3C.
+![type:video](./assets/videos/tuto.mp4)
 
-## Formatage du texte HTML
+## Validateur HTML
 
-| Balise | Description | Exemple |
-|--------|-------------|---------|
-| `<strong>` | Texte en **gras** avec importance | `<strong>Attention!</strong>` |
-| `<em>` | Texte en *italique* avec emphase | `<em>Mise en valeur</em>` |
-| `<u>` | Texte souligné (peu utilisé en HTML5) | `<u>Texte souligné</u>` |
+Vous vous souvenez du validateur W3C qui détecte les erreurs dans le HTML ? Hé bien il y a mieux encore 😜
 
-Il existe aussi les balises `<b>` et `<i>`, qui produisent un effet visuel similaire, mais sans signification sémantique. Il est donc préférable d’utiliser `<strong>` et `<em>` lorsque le contenu a une importance ou une emphase réelle.
+L'extension [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) fait _grosso modo_ la même chose que le validateur du W3C, mais à même VSCode !
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage et anglicismes" src="https://codepen.io/tim-momo/embed/myJYXKY?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/myJYXKY">
-  Web 1 - Formatage et anglicismes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/html-hint.png){data-zoom-image}
 
-## Balises sémantiques
+:material-information: Il est possible que l'extension HTMLHint ne soit pas installé par défaut sur votre version de vscode. Dans ce cas, cherchez **HTMLHint** dans les extensions VSCode et installez la.
+
+## Rappel sur l'indentation automatique
+
+Comme il est essentiel d'indenter son code afin de bien le lire, voici un rappel sur la manière d'indenter le code automatiquement avec [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+
+![](./assets/images/format-right-click.png){data-zoom-image}
+
+![](./assets/images/format-prettier.png){data-zoom-image}
+
+:material-information: Il est possible que l'extension Prettier ne soit pas installé par défaut sur votre version de vscode. Dans ce cas, cherchez **Prettier** dans les extensions VSCode et installez la.
+
+## Serveur
+
+![](./assets/images/server.gif){.w-100}
+
+Les sites Web que nous consultons sont installés sur des **serveurs**.
+
+!!! question "C'est quoi un serveur ?"
+
+    Un serveur, c’est simplement un ordinateur spécialisé dont la tâche est d’envoyer les pages d’un site Web à ton navigateur.
+
+Dans VSCode, on peut simuler un serveur avec l’option « Go Live ».
+
+![](./assets/images/go-live.png){ data-zoom-image }
+
+Quand on clique sur Go Live, la page Web s’ouvre dans le navigateur.
+
+Observez que l’URL est différente de celle obtenue en double-cliquant sur un fichier HTML.
+C’est ainsi parce que VSCode crée une adresse locale qui simule un vrai site accessible sur le Web.
+
+Ainsi, on peut tester un site comme s’il était hébergé en ligne. Ç'est super pratique et on va bientôt voir pourquoi c’est le cas 😜
+
+## Attributs HTML
+
+![](./assets/images/attr-a.jpg){ data-zoom-image }
+
+Les éléments HTML ont des attributs ; ce sont des valeurs supplémentaires qui configurent les éléments ou ajustent leur comportement de différentes manières pour répondre aux critères souhaités par les utilisateurs[^attr].
+
+[^attr]: [Référence des attributs HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Attributes)
+
+### Attributs universels
+
+Les attributs universels sont des attributs communs à l'ensemble des éléments HTML. Ces attributs peuvent donc être ajoutés sur tous les éléments[^attrglobal].
+
+[^attrglobal]: [Les attributs universels](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes)
+
+| Attribut   | Rôle / Effet visible                          | Exemple |
+|------------|-----------------------------------------------|---------|
+| `title`    | Affiche une info-bulle (tooltip) au survol    | `<p title="Astuce">Survolez-moi</p>` |
+| `dir`      | Définit la direction du texte (`ltr`, `rtl`)  | `<p dir="rtl">Texte en arabe</p>` |
+| `hidden`   | Masque l’élément (il reste dans le code)      | `<p hidden>Texte masqué</p>` |
+| `lang`     | Indique la langue du contenu (accessibilité)  | `<html lang="fr">` |
+| `class`    | Identifiant pour un élément                   | `<p class="texte-important">Paragraphe</p>` |
+| `id`       | Identifiant unique pour un élément            | `<p id="intro">Paragraphe</p>` |
+
+:material-information:  On ne les utilise pas encore, mais vous verrez bientôt que **class** sert à appliquer un style et **id** sert à cibler un élément précis.
+
+### Liens hypertexte
+
+La syntaxe
+
+```html
+<a href="https://www.google.com">Visiter Google</a>
+```
+
+#### Types de liens
+
+![](./assets/images/link-types.jpg){data-zoom-image}
+
+| Type | Exemple | Description |
+|------|---------|-------------|
+| **Externe** | `<a href="https://example.com">Lien externe</a>` | Va vers un autre site |
+| **Interne** | `<a href="page2.html">Page interne</a>` | Va vers une autre page du même site |
+| **Ancre** | `<a href="#section2">Aller à Section 2</a>` | Saute à une section de la même page |
+
+#### Créer une ancre
+
+```html
+<a href="#contact">Aller à Contact</a>
+
+<!-- Plus bas dans la page -->
+<h2 id="contact">Section Contact</h2>
+```
+
+#### Comportement du lien
+
+On peut choisir si le lien va ouvrir sa destination dans la page en cours ou dans un nouvel onglet avec l'attribut `target`. Les valeurs possibles sont : 
+
+* `_self` : (par défaut) ouvre dans le même onglet.
+* `_blank` : ouvre dans un nouvel onglet.
+
+```html
+<a href="https://site.com" target="_blank">Site</a>
+```
+
+#### L'attribut href
+
+L'attribut `href` peut contenir une adresse courriel préfixée par `mailto:` afin d'indiquer au service de courrielleur de l'usager (Outlook, Gmail, etc.) de générer un nouveau message prêt à être rédigé.
+
+```html
+<a href="mailto:exemple@gmail.com">Écrivez-moi!</a>
+```
+
+L'attribut `href` peut aussi contenir un numéro de téléphone préfixée par `tel:` afin d'indiquer que le système d'exploitation devrait devrait déclencher un appel au numéro mentionné si cette fonctionnalité est supportée par celui-ci.
+
+```html
+<a href="tel:5551234567">Appelez-moi!</a>
+```
+
+### Images
+
+![](./assets/images/attr-img.jpg)
+
+L'élément HTML [`<img>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img) permet d'intégrer une image dans une page Web.
+
+La syntaxe de base :
+
+```html
+<img src="https://siteweb.com/image.jpg" alt="Description de l'image ici">
+```
+
+Attributs :
+
+* L'attribut `src` est obligatoire et contient le chemin vers l'image qu'on veut intégrer.
+* L'attribut `alt` est obligatoire et contient une description textuelle de l'image, ce qui est extrêmement utile. En effet, les outils de lecture d'écran utilisent cette description pour la lire afin que les personnes sachent ce que l'image représente. Ce texte alternatif sera également affiché sur la page si l'image ne peut pas être chargée.
+* Les attributs `width` et `height` sont facultatifs. Ils permettent de définir la taille intrinsèque de l'image.
+
+<!-- * L'attribut `loading` est facultatif. Il indique comment le navigateur devrait charger l'image. Les valeurs possibles sont les suivantes :
+  * `eager` : L'image est chargée immédiatement, que l'image soit située dans la zone d'affichage (viewport) visible ou non. Il s'agit de la valeur par défaut.
+  * `lazy` : Le chargement de l'image est retardé jusqu'à ce que celle-ci soit située à une certaine distance, définie par le navigateur, de la zone d'affichage. L'idée est d'éviter de consommer de la bande passante et des ressources réseaux avant d'être relativement certain que l'image est nécessaire. Pour la plupart des cas d'usage, cela permet d'améliorer les performances. -->
+
+```html title="Exemple plus élaboré"
+<img 
+    src="https://siteweb.com/image.jpg" 
+    alt="Description de l'image ici" 
+    width="160" 
+    height="24"
+    >
+```
+
+Les formats courants sont les `.jpg`, `.png`, `.webp` et `.svg`. Nous y reviendront en détail.
+
+<!-- 
+| Format | Description |
+|--------|-------------|
+| `.jpg` ou `.jpeg` | Compression avec perte. Idéal pour les photos. Pas de transparence. |
+| `.png` | Compression sans perte. Supporte la transparence alpha. |
+| `.gif` | 256 couleurs maximum. Supporte l’animation et la transparence binaire. |
+| `.webp` / `.avif` | Format moderne au poids optimisé. Très léger. |
+| `.svg` | Format vectoriel. Souvent utilisé pour les icônes. | 
+-->
+
+#### Texte alternatif
+
+![](./assets/images/blindfolded.gif)
+
+Pour savoir quoi écrire dans le texte alternatif (`alt=""`), une règle de pouce veut qu'on s'imagine devoir expliquer une image à une personne qui a les yeux bandés.
+
+## Retour sur l'inspecteur 🕵
+
+![](./assets/images/django.gif){.w-100}
+
+### Ouvrir l'inspecteur
+
+* Faire un clic droit sur la souris 🖱️ et choisir l'option **Inspecter**.
+* Utiliser le raccourci clavier ⌨️
+  * Windows ++ctrl+shift+i++ ou ++f12++
+  * Mac ++command+option+i++ ou ++f12++
+
+### Positionnement
+
+Dans le coin supérieur droit :arrow_upper_right: de l’inspecteur, vous remarquerez une icône :material-dots-vertical: 
+
+Elle permet d'accéder aux paramètres d'affichage de l'inspecteur (_Dock side_).
+
+![type:video](./assets/videos/dock-side.mp4)
+
+### Simulation
+
+Dans le coin supérieur droit :arrow_upper_left: de l’inspecteur, vous remarquerez une icône de cellulaire devant un laptop.
+
+![](./assets/images/inspector-responsive.png){}
+
+Elle permet de visionner le site dans différentes tailles d'écran pour tester l'aspect _Responsive_ (Réactivité) du site.
+
+![type:video](./assets/videos/inspecteur-simulation.mp4)
+
+### L'onglet Éléments
+
+![](./assets/images/inspector-elements.png)
+
+L'onglet éléments affiche le HTML de la page en cours. On l'appelle le DOM ou _DOM tree_. C'est la partie modifiable des éléments affichés sur la page Web.
+
+#### Sélection
+
+Dans le coin supérieur droit :arrow_upper_left: de l’inspecteur, vous remarquerez l'icône d'une flèche entourée d'un carré :material-button-cursor:.
+
+Elle sert à sélectionner un élément dans la page.
+
+#### Chercher
+
+Il est possible de rechercher un élément en utilisant un raccourci clavier ⌨️
+
+* Windows ++ctrl+f++
+* Mac ++command+f++
+
+L'élément recherché peut être du texte, une balise, un attribut, etc.
+
+#### Modification et suppression
+
+Pour modifier n'importe quoi dans la page, sélectionnez un élément du DOM avec la souris, faites un clic droit, puis sélectionnez « Modifier au format HTML ». On peut ainsi modifier le contenu ainsi que le HTML dans le DOM.
+
+Pour supprimer un élément, on sélectionne un élément du DOM, puis on appuie sur la touche ++backspace++.
+
+!!! example "Exercice rapide"
+
+    [Change mon texte](#){ .md-button .md-button--primary }
+
+    [Supprime-moi !](#){ .md-button .md-button--primary }
+
+## Types de chemins
+
+![](./assets/images/abs-rel.jpg){data-zoom-image}
+
+### Chemins relatifs
+
+Pour pointer de manière relative vers un fichier, on doit spécifier un **chemin**. Voici les 3 méthodes :
+
+| Chemin | Signification                       |
+|--------|-------------------------------------|
+| `./`   | Dossier actuel                      |
+| `../`  | Remonte d’un dossier                |
+| `/`    | Racine du projet sur un **serveur** |
+
+#### Exemple depuis la racine
+
+Le dossier assets est facilement accessible depuis la racine du projet.
+
+```text title="Structure de projet"
+📂 mon-site-web
+├── index.html 👈
+├── 📂 contact.html
+│    └── index.html
+└── 📂 assets
+    ├── 📂 img
+    │   ├── main-background.jpg
+    │   └── logo.png 🎯
+    ├── 📂 video
+    │   └── film-culte.mp4
+    └── 📂 css
+        └── styles.css
+```
+
+```html title="Chemins relatifs possibles"
+<img src="assets/img/logo.png" alt="..."> ✅ Valide
+<!-- ou -->
+<img src="./assets/img/logo.png" alt="..."> ✅ Valide et explicite (on aime)
+<!-- ou -->
+<img src="/assets/img/logo.png" alt="..."> ⚠️ Valise, mais il faut un serveur, sinon ça ne fonctionne pas
+```
+
+#### Exemple depuis ailleurs
+
+Dans cet exemple, il faut remonter d'un niveau pour avoir accès au dossier assets.
+
+```text title="Structure de projet"
+📂 mon-site-web
+├── index.html
+├── 📂 contact.html
+│    └── index.html 👈
+└── 📂 assets
+    ├── 📂 img
+    │   ├── main-background.jpg
+    │   └── logo.png 🎯
+    ├── 📂 video
+    │   └── film-culte.mp4
+    └── 📂 css
+        └── styles.css
+```
+
+```html title="Chemin relatif"
+<img src="../assets/img/logo.png" alt="...">
+```
+
+!!! example "Fichiers locaux vs serveur local"
+
+    [**🧑‍🏫 Démo du prof**](./exercices/relative.zip)
+
+    Dans cette démo, nous observerons que certains chemins relatifs se comportent différent s'ils sont interprété sur les fichiers locaux ou sur un serveur.
+
+## Web sémantique
+
+![](./assets/images/hum-what.gif){.w-100}
+
+> **Sémantique** n. f.
+>
+> Ensemble des relations entre les caractères, ou groupes de caractères, et leur signification, indépendamment de la façon de les employer ou de les interpréter.[^semantique]
+
+[^semantique]: [Sémantique | Office québécois de la langue française](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8369344/semantique)
+
+La sémantique en Web, c’est donner du sens au code pour qu’il soit le plus compréhensible et significatif possible.
+
+C'est comme si on devait comprendre la programmation sans avoir à regarder le résultat dans le navigateur.
+
+<!-- 
+### Pourquoi est-ce important ?
+
+> Si ça ne change rien, pourquoi je devrais porter attention à la sémantique ?
+
+Le code est moins difficile à lire.
+
+Les robots qui scanent les sites comprennent mieux.
+
+Les liseuses d'écran peuvent indiquer à l'utilisateur la structure du contenu. -->
+
+### Lisibilité
+
+En HTML, il existe une balise génétique qui se nomme `<div>` (pour division).
+
+Son nom (div) ne dit rien vraiment sur ce qu'elle fait ou ce qu'elle contient. 
+
+En contrepartie, une balise comme `<article>` est beaucoup plus parlante. Ça donne une bonne idée de ce qu'elle pourrait contenir, c'est-à-dire un article.
+
+<div class="grid" markdown>
+```html title="Balises génériques"
+<div>
+  <div> ... </div>
+  <div> ... </div>
+  <div> ... </div>  
+</div>
+```
+
+```html title="Balises sémantiques"
+<section>
+  <article> ... </article>
+  <article> ... </article>
+  <article> ... </article>
+</section>
+```
+</div>
+
+### Balises sémantiques
+
+En HTML, il y a environ une [centaine de balises](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements), mais elles ne sont pas toutes sémantiques.
+
+Voici les balises sémantiques en lien avec la structure d'une page :
 
 | Balise      | Rôle |
 | ----------- | ---- |
 | `<header>`  | En-tête du site ou d’une section |
 | `<nav>`     | Zone de navigation |
-| `<main>`    | Contenu principal unique |
+| `<main>`    | Contenu principal unique de la page |
 | `<section>` | Regroupement logique de contenu |
-| `<article>` | Contenu autonome (ex. : blogue) |
-| `<aside>`   | Contenu secondaire (infos connexes, pub) |
-| `<footer>`  | Pied de page |
+| `<article>` | Contenu autonome et réutilisable (ex. : billet de blogue, article de presse) |
+| `<aside>`   | Contenu secondaire ou complémentaire (pub, info connexe) |
+| `<footer>`  | Pied de page (page ou section) |
 
-DEMO: faire un site avec ca.
-
-Sémantique
-
-![logo-2582748_640](https://github.com/user-attachments/assets/41d98834-b49e-453d-857e-830ac6c4dbaa)
-
-[header, footer, nav, main, section, aside](https://tim-montmorency.com/compendium/582-111-web1/html/semantique.md)
+![](./assets/images/balises-semantiques.png)
 
 
-Mes premières balises
+<!-- #### Contenu et médias
 
-![balises](https://github.com/user-attachments/assets/dc60993a-4390-4485-a20d-a008d2f3551e)
+| Balise         | Rôle |
+| -------------- | ---- |
+| `<figure>`     | Conteneur pour un visuel, une image ou un média |
+| `<figcaption>` | Légende associée à un `<figure>` |
+| `<mark>`       | Mettre en évidence un texte (surlignage) |
+| `<time>`       | Représente une date, une heure ou une durée |
+| `<address>`    | Informations de contact |
 
-[Exercice sur les balises sémantiques HTML](./exercices/mes_premieres_balises.md)
+#### Contenu interactif
+
+| Balise       | Rôle |
+| ------------ | ---- |
+| `<details>`  | Contenu extensible/pliant (accordéon natif) |
+| `<summary>`  | Titre cliquable d’un `<details>` |
+| `<dialog>`   | Boîte de dialogue ou fenêtre modale | -->
+
+!!! example "Bonne structure HTML sémantique"
+
+    **🧑‍🏫 Démo du prof**
 
 ### Anglicismes
 
-Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce faire, il faut ajouter un attribut.
+Les anglicismes doivent être pris en charge de manière sémantique. Pour ce faire, il faut utiliser l'attribut `lang=""`. Hé oui, ça peut aller ailleurs que dans la balise `<html>` !
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage" src="https://codepen.io/tim-momo/embed/vEOwpGm?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/vEOwpGm">
@@ -91,218 +437,45 @@ Les anglicismes sont doivent être pris en charge de façon sémantique. Pour ce
 </div>
 ```
 
-## Attributs
-
-https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes
-
-<mark>@todo</mark>
-
-Classe
-
-Id (un seul par page)
-
-data-machintruc
-
-## Liens hypertexte
-
-La syntaxe
-
-```html
-<a href="https://www.google.com">Visiter Google</a>
-```
-
-### Types de liens
-
-| Type | Exemple | Description |
-|------|---------|-------------|
-| **Externe** | `<a href="https://example.com">Lien externe</a>` | Va vers un autre site |
-| **Interne** | `<a href="page2.html">Page interne</a>` | Va vers une autre page du site |
-| **Ancre** | `<a href="#section2">Aller à Section 2</a>` | Saute à une section de la même page |
-
-### Créer une ancre
-
-```html
-<a href="#contact">Aller à Contact</a>
-
-<!-- Plus bas dans la page -->
-<h2 id="contact">Section Contact</h2>
-```
-
-### Et si on imbriquait ?
-
-Faut-il mettre un `<strong>` **dans** un `<a>`, ou l’inverse ?
-
-Les deux sont valides, parce que ce sont toutes les deux des balises **inline** (on verra ce que ça veut dire un peu plus tard). Alors, comment choisir ?
-
-```html
-<p>
-    J'ai écrit un article sur le film 
-    <a href="https://www.themoviedb.org/movie/71883"><strong>Redline</strong></a>.
-</p>
-<!-- 
-  Signification sémantique :
-  Le lien est important. Clique dessus, c’est crucial !
--->
-```
-
-```html
-<p>
-    J'ai écrit un article sur le film 
-    <strong><a href="https://www.themoviedb.org/movie/71883">Redline</a></strong>.
-</p>
-<!-- 
-  Signification sémantique :
-  Le film Redline est important. Ah, et en passant, c’est aussi un lien.
--->
-```
-
-!!! info Indentation
-
-    Dès qu'on commence à imbriquer, il faut penser à indenter!
-
-
-Components Atomic : https://blog.kamathrohan.com/atomic-design-methodology-for-building-design-systems-f912cf714f53
-
-## Chemins d’accès absolus vs relatifs
-
-
-## Chemins relatifs
-
-Pour dire où aller chercher un fichier, on écrit un **chemin** :
-
-* `./` → le dossier courant  
-* `../` → remonter d’un dossier  
-
-Exemple :  
-
-```html
-<!-- Image dans le même dossier -->
-<img src="./logo.png">
-
-<!-- Image dans un dossier parent -->
-<img src="../logo.png">
-```
-
-👉 Dans ce cours, on utilisera **toujours `./`** pour bien montrer que le chemin commence au dossier actuel.
-
-### Relatif vs absolu
-
-Un chemin relatif (ex. `./images/pic.png` ou `../assets/logo.png`) est résolu à partir de l'emplacement du fichier HTML courant. Un chemin absolu commence par `/` et est résolu depuis la racine du site (ex. `/assets/logo.png`) ; une URL complète (`https://...`) pointe vers un autre domaine.
-
-Exemples :
-
-```text
-./images/chat.png    # relatif : dossier courant
-../assets/logo.png   # relatif : remonter d'un dossier
-/assets/logo.png     # absolu : depuis la racine du site
-https://exemple.com/img.png  # URL complète (CDN ou autre domaine)
-```
-
-Astuce : si votre site est déployé dans un sous-dossier (ex. `https://monsite.com/app/`), un chemin commençant par `/` cherchera la racine du domaine (`/assets/...`) et non `/app/assets/...`. Dans ce cas, utilisez des chemins relatifs appropriés ou configurez `<base href="/app/">` dans le `<head>`.
-
-| Syntaxe | Exemple | Interprétation |
-|---------|---------|----------------|
-| `./` | `./images/chat.png` | Fichier **dans le dossier courant** (ou sous-dossier) → toujours explicite et portable. |
-| _sans préfixe_ | `images/chat.png` | En **HTML pur**, équivalent à `./images/chat.png`. MAIS : <br>– En **JS (ES Modules)** → interprété comme un module externe dans `node_modules`. <br>– En **Sass/Webpack/Vite** → peut être résolu comme chemin absolu (racine projet). <br>– En **certains serveurs web** → risque d’être lu comme chemin absolu à la racine du domaine. |
-| `../` | `../images/chat.png` | Remonte d’un dossier, puis va chercher `images/`. |
-| `/` | `/images/chat.png` | Chemin **absolu depuis la racine du site**. <br>– Marche si ton site est **à la racine du domaine** (`monsite.com`). <br>– **Problème** si ton site est déployé dans un sous-dossier (`monsite.com/app/`). |
-| URL complète | `https://exemple.com/images/chat.png` | Chemin absolu externe (CDN ou autre domaine). |
-
-
-
-
-
-| Type | Exemple | Description |
-|------|---------|-------------|
-| **Absolu** | `https://site.com/images/logo.png` | Lien complet vers un fichier sur le Web |
-| **Relatif** | `./images/logo.png` | Lien par rapport à l’emplacement actuel |
-
-
-
-
-
-### Variants de chemins relatifs
-
-| Chemin | Signification |
-|--------|---------------|
-| `./` | Dossier actuel |
-| `../` | Remonte d’un dossier |
-| `/` | Racine du site (si serveur configuré) |
-
-### Exemple
-```
-index.html
-pages/
-  contact.html
-images/
-  logo.png
-```
-
-Dans `contact.html`, pour viser `logo.png` :
-```html
-<img src="../images/logo.png" alt="Logo">
-```
-
-
-
-[STOP]
-
-Vérification des devoirs Arborescence et 1ère balises<br><br>
-![icon](https://github.com/user-attachments/assets/6541edcc-ae55-4317-893e-0ccbe9cce778)
-![balises](https://github.com/user-attachments/assets/931683cd-8075-4cfc-8dec-33438a68706a)
-
-<br>
-<br>
-
-## Les Balises Div et Span 
-
-![icon (4)](https://github.com/user-attachments/assets/326c8ec2-4914-4f88-bda6-d43892f5a72d)
-[`<div>``<span>`](./html/div-span.md)
-<br>
-<br>
-## Exercice sur Div & Span
-
-![thumb (1)](https://github.com/user-attachments/assets/4be7a22f-5ea6-4f46-8184-4102ada109c3)
-[Utiliser correctement les balises `<div>` et `<span>`](./exercices/div-span.md)
-<br>
-<br>
-## Formatage HTML
-
-![icon (7)](https://github.com/user-attachments/assets/5e5d4c55-7acd-4871-b764-2efb43bf93bc)
-[`<u>`, `<b>`, `<strong>`, `<em>`, `<i>`, etc.](./html/formatage-html.md)
-<br>
-<br>
-## Ancre
-
-![ancres](https://github.com/user-attachments/assets/c1ecd875-0ca1-4c4d-9d47-0d509c4cd961)
-[balise `<a>`](./html/ancres.md)
-<br>
-<br>
-## Exercice sur les balises
-
-![thumb (2)](https://github.com/user-attachments/assets/3ea787bd-95a3-44a4-9c80-56832e6424d8)
-[Pour cet exercice, vous devez recréer un site web.](./exercices/ancres.md)
-<br>
-<br>
-
-## Chemins d'accès
-
-![icon (6)](https://github.com/user-attachments/assets/8103bdab-9823-44ce-a855-08d7b99b37fb)
-[Absolue, relatif](./autres/chemins.md)
-<br>
-<br>
-
-## Image
-
-![icon (8)](https://github.com/user-attachments/assets/5c8dd778-425c-4051-86fb-8149c4e5b598)
-[La balise `<img>` permet d'afficher une image](./html/image.md)
-
-## Formats d'image
-
-![icon (9)](https://github.com/user-attachments/assets/91b72dff-b528-4f55-8ef9-696286a3048e)
-[gif, jpeg, png, webp](./autres/format-image.md)
-
-## Vectoriel vs Matriciel
-
-![icon (10)](https://github.com/user-attachments/assets/343eb750-1f49-4727-93fc-8857f7c67762)
-[matrices & vecteurs](./autres/vectoriel-vs-matriciel.md)
+## Formatage du texte HTML
+
+| Balise   | Description | Exemple |
+|----------|-------------|---------|
+| `<strong>` | Met un texte en gras et indique une importance (version sémantique de `<b>`) | `<strong>Attention!</strong>` |
+| `<em>` | Met un texte en italique et ajoute une emphase (version sémantique de `<i>`) | `<em>Mise en valeur</em>` |
+| `<u>` | Souligne un texte <br>❌ Déconseillé, car c'est un style réservé aux liens | `<u>Texte souligné</u>` |
+| `<small>` | Affiche un texte en taille réduite | `<small>Note en petit</small>` |
+| `<del>` | Indique un texte **supprimé** (style barré) | `<del>Texte supprimé</del>` |
+| `<sub>` | Met un texte en indice (en bas) | `H<sub>2</sub>O` |
+| `<sup>` | Met un texte en exposant (en haut) | `x<sup>2</sup>` |
+| `<mark>` | Surligne un texte | `<mark>Texte surligné</mark>` |
+| `<abbr>` | Définit une abréviation (avec info au survol) | `<abbr title="HyperText Markup Language">HTML</abbr>` |
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage et anglicismes" src="https://codepen.io/tim-momo/embed/myJYXKY?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/myJYXKY">
+  Web 1 - Formatage et anglicismes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/anchor/preview.gif)
+
+  <small>Exercice HTML</small><br>
+  **[Ancres et cie.](./exercices/anchor/index.md){.stretched-link .back}**
+</div>
+
+<!-- <div class="grid grid-1-2" markdown>
+  ![](./exercices/semantique/preview.gif)
+
+  <small>Exercice HTML</small><br>
+  **[Balises sémantiques](./exercices/mes_premieres_balises.md){.stretched-link .back}**
+</div> -->
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/relativite-einsteinienne/preview.gif)
+
+  <small>Exercice formatif</small><br>
+  **[Relativité einsteinienne](./exercices/relativite-einsteinienne/index.md){.stretched-link .back}**
+</div>
