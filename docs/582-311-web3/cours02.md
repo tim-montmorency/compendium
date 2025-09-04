@@ -1,7 +1,5 @@
 # Cours 2 | Lignes de commande & Git
 
-[STOP]
-
 Ligne de commande : navigation, création/suppression de fichiers et dossiers
 Git : Initialisation d’un dépôt, commit, push/pull, branches, merges
 GitHub Desktop
