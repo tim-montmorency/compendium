@@ -41,7 +41,7 @@ const app = Vue.createApp({
 <p><code>data</code> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <code>firstName</code>, <code>lastName</code> et <code>picture</code>.</p>
 
 
-En savoir plus sur Data[](https://v3.vuejs.org/guide/data-methods.html#data-properties){ .md-button :target="_blank" }
+[En savoir plus sur <code>data()</code>](https://v3.vuejs.org/guide/data-methods.html#data-properties){ .md-button :target="_blank" }
 
 
 ## Interpolation des données {{ }}
@@ -55,7 +55,6 @@ Par exemple, le code suivant:
 </div>
 ```
 
-<small style="color: #999; font-size: 70%;">Ne pas mettre un espace entre les deux accolades ouvrantes ni entre les deux accolades fermantes.</small>
 
 
 <br><br>
@@ -65,14 +64,15 @@ Affichera en fait:
     Salut Willy
 </div>
 ```
-[En savoir plus sur Interpolations](https://v3.vuejs.org/guide/template-syntax.html#interpolations){ .md-button :target="_blank" }
+[En savoir plus sur l'interpolation](https://v3.vuejs.org/guide/template-syntax.html#interpolations){ .md-button :target="_blank" }
 
 !!! warning
     <strong>Erreur fréquente</strong>
     Les moustaches ne sont fonctionnelles qu’à l’intérieur de la balise HTML assignée à&nbsp;l’app (la balise qui est <code>mount</code>)
 
    
-<dots></dots>
+
+<br><br>
 <p>Voici une petite démo d'un minuteur automatique.</p>
 
 <p class="codepen" data-height="600" data-theme-id="light" data-default-tab="html,result" data-slug-hash="bGXJeOp" data-pen-title="DEMO Vue.js: Données moustache et minuteur setInterval" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -107,7 +107,7 @@ Affichera en fait:
 ```
 
 
-
+<br><br>
 <p>Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits">littéraux de gabarit</a> afin de gérer la combinaison. </p>
 
 <p>Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:</p>
