@@ -46,7 +46,7 @@ const app = Vue.createApp({
 
 ## Interpolation des données {{ }}
 
-Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches {<code>{ ... }</code>} <em>(doubles accolades)</em>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.
+Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches <code>{{ ... }}</code>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.
 
 Par exemple, le code suivant:
 ```
@@ -98,7 +98,7 @@ Affichera en fait:
 
 
 
-<p>ou encore la syntaxe courte avec <incode>:</incode>:</p>
+<p>ou encore la syntaxe courte avec <code>:</code>&nbsp;:</p>
 
 ```
 <div id="app">
