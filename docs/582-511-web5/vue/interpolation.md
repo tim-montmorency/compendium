@@ -46,7 +46,7 @@ const app = Vue.createApp({
 
 ## Interpolation des données {{ }}
 
-Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches <code style="white-space: nowrap;">{{.. }}</code>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.
+Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches <code style="white-space: nowrap;">{{...}}</code>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.
 
 Par exemple, le code suivant:
 ```
@@ -83,7 +83,7 @@ Affichera en fait:
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## Attributs des balises HTML via v-bind:&nbsp;ou&nbsp;:
+## Attributs des balises HTML via <span style="white-space: nowrap;">:v-bind&nbsp;ou&nbsp;:</span>
 
 Les données peuvent aussi être insérées dynamiquement dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <code>v-bind</code> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
 
