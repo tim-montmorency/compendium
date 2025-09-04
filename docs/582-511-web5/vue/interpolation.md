@@ -19,7 +19,7 @@ const app = Vue.createApp({
 ```
 
 
-
+<br>
 
 <p>Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:</p>
 
