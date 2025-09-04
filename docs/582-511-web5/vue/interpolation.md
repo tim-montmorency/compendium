@@ -113,7 +113,7 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 
 ```
 <div id="app">
-    <img :src="picture" :alt="${firstName} ${lastName}">
+    <img :src="picture" :alt="`${firstName} ${lastName}`">
 </div>
 ```
 
