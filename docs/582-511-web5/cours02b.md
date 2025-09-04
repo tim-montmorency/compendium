@@ -21,10 +21,9 @@ Révision en pair (c'est moi qui choisis les équipes)
 
 ## Super Smash Bros
 
-[🕹️🍄🎮👾 Lien à venir](#){ .md-button :target="_blank" }
-<!--
+
 [🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
- -->
+
 
 ## Vue.js
 
