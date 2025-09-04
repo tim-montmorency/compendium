@@ -12,7 +12,7 @@
 - [ ] Discussion: Corrigé des exercices
 - [ ] Activité de révision de l'exercice [🎲 Jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/)
 - [ ] JavaScript Bootcamp
-- [ ] Super Smash Bros
+
 
 ## Documentation Web 📄
 
@@ -55,17 +55,11 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 
 ## Camp d'entrainement JavaScript
 
-### Camp d'entrainement
 
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" }
 
 
-### Super Smash Bros
 
-[🕹️🍄🎮👾 Lien à venir](#){ .md-button :target="_blank" }
-<!--
-[🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
- -->
 
 ## Devoirs
 

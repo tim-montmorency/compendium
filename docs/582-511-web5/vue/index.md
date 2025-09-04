@@ -25,9 +25,18 @@ Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.
 
 ## Installation
 
+
+Comme pour toute librairie, afin d'avoir accès à ses fonctionnalités, il est nécessaire de l'inclure dans notre&nbsp;projet.
+
+Pour ce faire, il est possible&nbsp;:
+
+- d'<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">utiliser un CDN (<em>Content Delivery Network</em>)</a>
+- d'utiliser la commande NPM [pour ajouter le paquet Vue.js](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm) et l'installer dans votre projet
+`npm install vue`
+
 !!! warning NPM et Node JS
 
-    Avant d'aller plus loin, assurez-vous d'abord d'avoir préalablement installé NodeJS et NPM. 
+    Avant d'aller plus loin si vous décidez d'utiliser NPM, assurez-vous d'abord d'avoir préalablement installé NodeJS et NPM. 
     
     Voir les liens suivant pour vérifier si [Node.js est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-nodejs) et si [NPM est installé](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm).
 

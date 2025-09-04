@@ -14,7 +14,7 @@
 
 #### VUE.JS
 * [Vue base](./vue/index.html)
-* [Vue création projet](./vue/creation-projet.html)
+* [Vue création projet](./vue/creation-projet-CLI.html)
 * [Vue template script style](./vue/template-script-style.html) -->
 
 
