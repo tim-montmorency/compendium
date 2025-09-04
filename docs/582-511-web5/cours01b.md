@@ -19,15 +19,18 @@
 
 - [MDN web docs : Le site de documentation HTML, CSS et JavaScript](https://developer.mozilla.org/fr/)
 
-### Documentation Web TIM Momo 
+### Documentation Web TIM Momo
 
-Cette liste n'est pas complète mais elle inclus beaucoup de contenus que vous avez couverts en Web 1, Web 2 et Web 3
+Cette liste n'est pas complète mais elle inclut un grande partie des contenus que vous avez couverts en Web 1, Web 2, Web 3, Web 4 et programmation interactive
 
 - [Tout](https://tim-montmorency.com/timdoc/index/web/){ :target="_blank" }
-- [JS](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
+- [JavaScript (en partie)](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
+- [JavaScript: révision en début de Web 3](https://tim-montmorency.com/compendium/582-311-web3/cours01.html#revision-javascript){ :target="_blank" }
+- [JavaScript - Cours de programmation interactive (contenu du prof actuel)](https://discovro-js.netlify.app/)
 - [CSS](https://tim-montmorency.com/timdoc/index/web/css/){ :target="_blank" }
 - [HTML](https://tim-montmorency.com/timdoc/index/web/html/){ :target="_blank" }
 - [Cadriciels: Bootstrap, Swiper, GSAP](https://tim-montmorency.com/timdoc/index/web/cadriciels/){ :target="_blank" }
+- [CMS: WordPress](https://tim-montmorency.com/compendium/582-411-web4/cours01.html)
 
 ## Quiz diagnostique JavaScript 🕵️✍️
 
@@ -36,11 +39,8 @@ Cette liste n'est pas complète mais elle inclus beaucoup de contenus que vous a
 
 ## Exercice Javascript <img src="./assets/JavaScript_logo.svg" style="width: 50px;">
 
-Lien à venir
-
-<!--  [🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
- -->
-
+[🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+[Solution](https://codepen.io/tim-momo/pen/wvQLGoO)
 
 ## Devoirs
 
