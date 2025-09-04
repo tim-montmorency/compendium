@@ -57,10 +57,9 @@ Quelques exemples parmi mes préférés:
 ### Vue.js : Création d'une appli vue.js
 - [Vue.js base](./vue/creation-app.html)
 
-### Vue.js : Création de projet
-- [Vue.js création projet](./vue/creation-projet-CLI.html)
-
-### Vue.js Template, script, style
-- [Vue.js template script style](./vue/template-script-style.html)
+### Vue.js : Interpolation de données
+- [Vue.js base](./vue/interpolation.html)
 
 ## Devoirs
+
+Terminer Super Smash Bros

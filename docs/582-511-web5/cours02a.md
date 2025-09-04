@@ -55,7 +55,6 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 
 ## Camp d'entrainement JavaScript
 
-
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" }
 
 
