@@ -14,7 +14,7 @@
   * Montage du slider
   * Installation d'une caméra
   * Installation d'un écran
-  * Réglages de la caméra :
+  * [Réglages de la caméra](./references/Caméra.md)
     * Mode manuel
     * Blance des blancs
     * ISO
