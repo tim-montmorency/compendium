@@ -3,7 +3,7 @@
 Pour cet exercice, vous devez compléter un menu du jeu Super Smash Bros déjà entamé.
 
 Aperçu du résultat au URL suivant ou diffusé au tableau en avant pendant
-l'examen.\
+l'examen.
 <https://kid-synthetique.github.io/super-smash-bros/>
 
 ## Dossier de départ
@@ -25,9 +25,9 @@ Ainsi, si vous bloquez 🤔 sur une étape, n'hésitez pas à passer au numéro 
 ## Requis CSS
 
 - [ ] 1. Faites en sorte que **.wrapper** soit centré horizontalement ↔️ et
-    verticalement ↕️ à l\'aide de **flexbox** dans la page.
+    verticalement ↕️ à l'aide de **flexbox** dans la page.
 .
-- [ ] 2. Utilisez **flexbox** afin de positionner les trois éléments à l\'intérieur de **.game**. Ceux-ci doivent être centrés verticalement ↕️. L\'espace horizontal ↔️ doit-être distribué également entre eux.\
+- [ ] 2. Utilisez **flexbox** afin de positionner les trois éléments à l'intérieur de **.game**. Ceux-ci doivent être centrés verticalement ↕️. L'espace horizontal ↔️ doit-être distribué également entre eux.
     Ainsi les personnages devraient être positionnés à chaque extrémité de la plateforme.
 
 !!! tip "Petit truc pour l'étape #2"
@@ -37,31 +37,31 @@ Ainsi, si vous bloquez 🤔 sur une étape, n'hésitez pas à passer au numéro 
     N'hésitez pas aussi à utiliser l'inspecteur de votre navigateur pour les situer.
 
 - [ ] 3. Faites en sorte que chaque **div.player** prenne 20% de la largeur
-    de son parent et que l\'image du personnage à l\'intérieur de chaque
+    de son parent et que l'image du personnage à l'intérieur de chaque
     **div.player** prenne toute la largeur de son parent **.player**.
 .
 - [ ] 4. Les boutons doivent avoir un fond orange (couleur de la palette
     fournie), leur texte doit être blanc, avoir une marge intérieure de
     8px verticalement ↕️ et 16px horizontalement ↔️, avoir une marge
     extérieure verticale de 5px ↕️, ne pas avoir de bordure, avoir des
-    coins ronds de 5px.\
+    coins ronds de 5px.
     Ils doivent aussi devenir orange foncé au survol.
 .
-- [ ] 5. À l\'aide de flexbox contrôlez la position des boutons.
+- [ ] 5. À l'aide de flexbox contrôlez la position des boutons.
 
   - [ ] a.  Par défaut, les boutons doivent prendre 80% de la largeur de
-        leur parent, être centrés dans celui-ci et **s\'afficher un en
-        dessous de l\'autre**.
+        leur parent, être centrés dans celui-ci et **s'afficher un en
+        dessous de l'autre**.
 .
   - [ ] b.  À partir de 400px, les boutons doivent mesurer 40% de leur
-        parent, afficher 2 par ligne et **distribuer l\'espace restant
+        parent, afficher 2 par ligne et **distribuer l'espace restant
         également entre eux et les limites du jeu** (les limites du jeu
         étant la droite et la gauche du parent .menu).
 .
   - [ ] c.  À partir de 800px, les boutons doivent mesurer 160px. **Le
         premier et le dernier bouton doivent atteindre les limites du
         jeu horizontalement ↔️** (bref, doivent être collés sur les
-        côtés de leur parent .menu), **tandis que l\'espace restant doit
+        côtés de leur parent .menu), **tandis que l'espace restant doit
         être distribué également entre eux**.
 
 ## Requis JavaScript
