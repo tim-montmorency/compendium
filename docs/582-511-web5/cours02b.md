@@ -33,7 +33,6 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-## Vue.js
 
 ### Quelques exemples
 
@@ -62,4 +61,4 @@ Quelques exemples que j'ai sélectionnés pour vous :
 
 ## Devoirs
 
-Terminer Super Smash Bros
+Terminer Super Smash Bros pour lundi
