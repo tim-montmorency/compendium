@@ -1,4 +1,4 @@
-# Création d'une app Vue
+# Création d'une app Vue [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 !!! abstract
 

@@ -1,4 +1,4 @@
-# Interpolation de données
+# Interpolation de données [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 ## Données {{ }}
 
