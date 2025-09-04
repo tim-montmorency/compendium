@@ -8,9 +8,9 @@
 
 - [ ] Activité de révision des exercices d'hier
 - [ ] Super Smash Bros
-- [ ] Vue.js base
-- [ ] Vue.js création projet
-- [ ] Vue.js template script style
+- [ ] Vue.js Introduction
+- [ ] Vue.js Création d'une app
+- [ ] Vue.js Interpolation de données
 
 ## Révision Bootcamp
 
@@ -50,10 +50,10 @@ Quelques exemples que j'ai sélectionnés pour vous :
 ### Vue.js en 2 minutes
 [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
 
-### Vue.js : La base
+### Vue.js : Introduction
 - [Vue.js base](./vue/index.html)
 
-### Vue.js : Création d'une app vue.js
+### Vue.js : Création d'une app Vue.js
 - [Vue.js Création d'une app](./vue/creation-app.html)
 
 ### Vue.js : Interpolation de données
