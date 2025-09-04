@@ -29,19 +29,19 @@
     ↵
     ```
 
-Si on vous demande de mettre à jour Vue, appuyez sur ++y++ `y` pour **yes**.
+Si on vous demande de mettre à jour Vue, appuyez sur ++y++ <code>y</code> pour **yes**.
 
 ***
 
 - [ ] Vous devriez maintenant voir ce qui suit, vous pouvez donc entrer le nom de votre projet, sans espace et sans accent.
 
-    ````
+    ```
     Vue.js - The Progressive JavaScript Framework
     ? Nom du projet : 
     ↵
-    ````
+    ```
 
-- [ ] Par la suite, on vous demandera une série de questions. Faites ++n++ `n` pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
+- [ ] Par la suite, on vous demandera une série de questions. Faites ++n++ <code>n</code> pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
 
 ***
 
@@ -61,10 +61,10 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ `y` pour **yes**.
 ## Démarrer le serveur
 
 - [ ] Démarrez le serveur virtuel de votre projet avec le bundler Vite, en inscrivant dans le Terminal:
-    ````
+    ```
     npm run dev
     ↵
-    ````
+    ```
 
     Maintenant, vous pouvez voir en direct votre page de projet dans le navigateur via le url suivant:
     ```
@@ -73,7 +73,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ `y` pour **yes**.
 
 !!! tip Pour quitter le mode run dev
 
-    À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez ++q++ `q` pour **quitter**.
+    À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez ++q++ <code>q</code> pour **quitter**.
 
 
 ## Nettoyage
@@ -81,6 +81,5 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ `y` pour **yes**.
 Pour partir un projet à neuf, on va éliminer ce qu'on n'a pas besoin.
 
 - [ ] Supprimez les dossiers **assets**📁  et **components**📁 
-- [ ] Dans le fichier **main.js**, supprimez la ligne 
-`import './assets/main.css'` puisqu'on vient de supprimer le dossier qui contenait ce fichier css.
+- [ ] Dans le fichier **main.js**, supprimez la ligne <code>`import './assets/main.css'</code> puisqu'on vient de supprimer le dossier qui contenait ce fichier css.
 - [ ] Finalement dans le fichier **App.vue**, sélectionnez tout le code (ctrl+a) et supprimer tout le code. Le fichier restera mais sera vide.

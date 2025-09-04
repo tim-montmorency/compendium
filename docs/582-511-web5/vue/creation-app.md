@@ -29,13 +29,13 @@ const app = Vue.createApp({});
 
 <info>Cette méthode accepte les mêmes sélecteurs que&nbsp;<a href="https://smnarnold.com/cours/javascript/queryselector">querySelector</a>.</info>
 
-<p>Par exemple, si la balise souhaitée a le `id` app:</p>
+<p>Par exemple, si la balise souhaitée a le <code>id</code> app:</p>
 
 ```
 app.mount('#app');
 ```
 
-<p>Si le résultat du `mount` est stocké dans une variable, il est possible d'y accéder afin de changer ses données ou encore d'appeler ses méthodes.</p>
+<p>Si le résultat du <code>mount</code> est stocké dans une variable, il est possible d'y accéder afin de changer ses données ou encore d'appeler ses méthodes.</p>
 
 **Par exemple:**
 ```
@@ -44,5 +44,5 @@ const vm = app.mount('#app');
 
 .
 
-[Plus d'info sur `createApp()`](https://v3.vuejs.org/guide/instance.html#creating-an-application-instance){ .md-button :target="_blank" }
+[Plus d'info sur <code>createApp()</code>](https://v3.vuejs.org/guide/instance.html#creating-an-application-instance){ .md-button :target="_blank" }
 
