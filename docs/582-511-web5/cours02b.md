@@ -52,13 +52,13 @@ Quelques exemples que j'ai sélectionnés pour vous :
 - [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
 
 ### Vue.js : Introduction
-- [Vue.js Introduction](./vue/index.html)
+- [Introduction](./vue/index.html)
 
 ### Vue.js : Création d'une app Vue.js
-- [Vue.js Création d'une app](./vue/creation-app.html)
+- [Création d'une app](./vue/creation-app.html)
 
 ### Vue.js : Interpolation de données
-- [Vue.jsInterpolation des données](./vue/interpolation.html)
+- [Interpolation des données](./vue/interpolation.html)
 
 ## Devoirs
 
