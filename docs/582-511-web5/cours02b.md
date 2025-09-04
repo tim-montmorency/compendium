@@ -54,8 +54,8 @@ Quelques exemples parmi mes préférés:
 ### Vue.js : La base
 - [Vue.js base](./vue/index.html)
 
-### Vue.js : Création d'une appli vue.js
-- [Vue.js base](./vue/creation-app.html)
+### Vue.js : Création d'une app vue.js
+- [Vue.js Création d'une app](./vue/creation-app.html)
 
 ### Vue.js : Interpolation de données
 - [Vue.js base](./vue/interpolation.html)
