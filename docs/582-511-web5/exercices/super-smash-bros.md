@@ -115,6 +115,7 @@ Ainsi, si vous bloquez 🤔 sur une étape, n'hésitez pas à passer au numéro 
 ### Étape 4 — « Enlever un perso »
 
 - [ ] Retirer le dernier élément du tableau `charactersArr` (voir les notes de cours sur les tableaux).
+- [ ] Retirer du DOM la dernière image du `div.caracters`.
 - [ ] Si `playerIndex` n’est plus valide, le ramener à `charactersArr.length - 1` (ou `0` si tableau vide).
 - [ ] Mettre à jour l’image du **Joueur 1**.
 - [ ] Relancer `renderCharacters()` pour rafraîchir la galerie et réappliquer `.active`.
