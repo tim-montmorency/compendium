@@ -131,6 +131,10 @@ Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votr
 
 [🛠️ Modèle Canva](https://www.canva.com/design/DAFuVbXSGew/kyvBCIboJuQwbZ-oMrlTfQ/edit?utm_content=DAFuVbXSGew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ){ .md-button }    
 
+[🛠️ Logo tim](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUfMOcw0PChFoiJQzPhdTZ8BSxUsxgDwW5F-EGN8IbeSgw?e=ClgcH1){ .md-button }    
+
+
+
 ## Devoir
 Terminer le document sur le contenu du CV. 
 
