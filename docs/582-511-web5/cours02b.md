@@ -16,6 +16,8 @@
 
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md)
 
+Révision en pair (c'est moi qui choisi les équipes)
+
 
 ## Super Smash Bros
 
