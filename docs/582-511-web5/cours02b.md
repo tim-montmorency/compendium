@@ -39,7 +39,7 @@ allowfullscreen></iframe>
 
 * [Démos sur vuejsexamples.com](https://vuejsexamples.com/)  
 
-Quelques exemples parmi mes préférés:
+Quelques exemples que j'ai sélectionnés pour vous :
 
 * [Un jeu de Pokémons construit avec Vue.js et Tailwind CSS](https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/)
 * [Une composante Vue.js qui affiche une list des personnages de Rick and Morty.](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/)
