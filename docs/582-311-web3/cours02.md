@@ -1,10 +1,9 @@
 # Cours 2 | Lignes de commande & Git
 
-[STOP]
-
-Ligne de commande : navigation, création/suppression de fichiers et dossiers
-Git : Initialisation d’un dépôt, commit, push/pull, branches, merges
-GitHub Desktop
+* [Markdown](./markdown/markdown.md)
+* [Git](./git/git.md)
+* [Github](./git/github.md)
+* [Github Desktop](./git/github-desktop.md)
 
 ## :octicons-terminal-16: Lignes de commande
 
@@ -214,14 +213,6 @@ Supprimer un dossier avec « rm -r ». L’option `-r` signifie récursif (recur
   <small>Exercice - CLI</small><br>
   **[Mandala](./exercices/cli-mandala.md){.stretched-link}**
 </div>
-
-
-## Matière du jour
-
-* [Markdown](./markdown/markdown.md)
-* [Git](./git/git.md)
-* [Github](./git/github.md)
-* [Github Desktop](./git/github-desktop.md)
 
 ## Exercices
 
