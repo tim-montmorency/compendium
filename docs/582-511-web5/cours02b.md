@@ -32,20 +32,34 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
+## Vue.js
 
-## Vue.js en 2 minutes
+### Quelques exemples
+
+* [Démos sur vuejsexamples.com](https://vuejsexamples.com/)  
+
+Quelques exemples parmi mes préférés:
+
+* [Un jeu de Pokémons construit avec Vue.js et Tailwind CSS](https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/)
+* [Une composante Vue.js qui affiche une list des personnages de Rick and Morty.](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/)
+* [Une composante Vue.js qui est sélecteur de couleur de type roue chromatique](https://vuejsexamples.com/a-color-wheel-picker-for-vue/)
+* [Une app Vue.js qui vous permet d'extraire les couleurs dominantes d'une image.](https://vuejsexamples.com/palette-pilot-a-vue-app-that-helps-you-extract-the-most-relevant-colors-from-an-image/)
+* [Une composante Vue.js qui génère un calendrier personalisable et interactif.](https://vuejsexamples.com/palette-pilot-a-vue-app-that-helps-you-extract-the-most-relevant-colors-from-an-image/)
+* [Quelques exemples de projets Vue.js regroupés sur une collection CodePen.](https://codepen.io/collection/kNQdop)
+
+### Vue.js en 2 minutes
 [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
 
-## Vue.js : La base
+### Vue.js : La base
 - [Vue.js base](./vue/index.html)
 
-## Vue.js : Création d'une appli vue.js
+### Vue.js : Création d'une appli vue.js
 - [Vue.js base](./vue/creation-app.html)
 
-## Vue.js : Création de projet
+### Vue.js : Création de projet
 - [Vue.js création projet](./vue/creation-projet-CLI.html)
 
-## Vue.js Template, script, style
+### Vue.js Template, script, style
 - [Vue.js template script style](./vue/template-script-style.html)
 
 ## Devoirs
