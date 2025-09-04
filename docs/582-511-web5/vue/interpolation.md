@@ -21,7 +21,7 @@ const app = Vue.createApp({
 
 <br>
 
-<p>Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:</p>
+Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:
 
 ```
 const app = Vue.createApp({
@@ -85,10 +85,10 @@ Affichera en fait:
 
 ## Attributs des balises HTML via v-bind:&nbsp;ou&nbsp;:
 
-<p>Les données peuvent aussi être insérées dynamiquement dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <code>v-bind</code> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
-</p>
+Les données peuvent aussi être insérées dynamiquement dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <code>v-bind</code> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
 
-<p>Par exemple, pour afficher l'image contenue dans la propriété <code>picture</code>:</p>
+
+Par exemple, pour afficher l'image contenue dans la propriété <code>picture</code>:
 
 ```
 <div id="app">
@@ -97,8 +97,7 @@ Affichera en fait:
 ```
 
 
-
-<p>ou encore la syntaxe courte avec <code>:</code>&nbsp;:</p>
+ou encore la syntaxe courte avec <code>:</code>&nbsp;:
 
 ```
 <div id="app">
@@ -108,9 +107,9 @@ Affichera en fait:
 
 
 <br><br>
-<p>Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un *littéraux de gabarit* afin de gérer la combinaison. </p>
+Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un *littéraux de gabarit* afin de gérer la combinaison.
 
-<p>Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:</p>
+Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:
 
 ```
 <div id="app">
