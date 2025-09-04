@@ -1,10 +1,5 @@
 # Cours 2 | Lignes de commande & Git
 
-* [Markdown](./markdown/markdown.md)
-* [Git](./git/git.md)
-* [Github](./git/github.md)
-* [Github Desktop](./git/github-desktop.md)
-
 ## :octicons-terminal-16: Lignes de commande
 
 ![](./assets/images/command.webp){ .w-100 }
@@ -214,7 +209,9 @@ Supprimer un dossier avec « rm -r ». L’option `-r` signifie récursif (recur
   **[Mandala](./exercices/cli-mandala.md){.stretched-link}**
 </div>
 
-## Exercices
+## Markdown
+
+[Markdown](./markdown/markdown.md)
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/markdown.jpg)
@@ -223,12 +220,24 @@ Supprimer un dossier avec « rm -r ». L’option `-r` signifie récursif (recur
   **[Tutoriel Markdown](https://www.markdowntutorial.com/){.stretched-link}**
 </div>
 
+## Git 
+
+[Git](./git/git.md)
+
+## Github
+
+[Github](./git/github.md)
+
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/mandala-git.jpg)
 
   <small>Exercice - Git</small><br>
   **[Mandala Git](./git/exercices/git-mandala.md){.stretched-link}**
 </div>
+
+## Github Desktop
+
+[Github Desktop](./git/github-desktop.md)
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/prometheus.jpg)
