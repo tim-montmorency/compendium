@@ -41,7 +41,7 @@ const app = Vue.createApp({
 <p><code>data</code> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <code>firstName</code>, <code>lastName</code> et <code>picture</code>.</p>
 
 
-[En savoir plus sur <code>data()</code>](https://v3.vuejs.org/guide/data-methods.html#data-properties){ .md-button :target="_blank" }
+[En savoir plus sur <code>data()</code>](https://vuejs.org/guide/essentials/template-syntax.html#dynamically-binding-multiple-attributes){ .md-button :target="_blank" }
 
 
 ## Interpolation des données {{ }}
@@ -64,7 +64,7 @@ Affichera en fait:
     Salut Willy
 </div>
 ```
-[En savoir plus sur l'interpolation](https://v3.vuejs.org/guide/template-syntax.html#interpolations){ .md-button :target="_blank" }
+[En savoir plus sur l'interpolation](https://vuejs.org/guide/essentials/template-syntax.html#text-interpolation){ .md-button :target="_blank" }
 
 !!! warning
     <strong>Erreur fréquente</strong>
@@ -108,7 +108,7 @@ Affichera en fait:
 
 
 <br><br>
-<p>Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un <a target="_blank" rel="noopener noreferrer" href="https://smnarnold.com/cours/javascript/litteraux-de-gabarits">littéraux de gabarit</a> afin de gérer la combinaison. </p>
+<p>Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un *littéraux de gabarit* afin de gérer la combinaison. </p>
 
 <p>Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:</p>
 
@@ -130,7 +130,7 @@ Affichera en fait:
     Si un attribut est associé à une donnée dont la valeur équivaut à <code>null</code> ou <code>undefined</code>, l’attribut ne sera pas&nbsp;créé.
 
 
-[En savoir plus sur Attributs](https://v3.vuejs.org/guide/template-syntax.html#attributes){ .md-button :target="_blank" }
+[En savoir plus sur Attributs](https://vuejs.org/guide/essentials/template-syntax.html#attribute-bindings){ .md-button :target="_blank" }
 
 
 ## Données en format HTML
