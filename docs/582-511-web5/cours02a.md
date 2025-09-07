@@ -23,6 +23,7 @@
 ### Documentation Web TIM Momo
 
 Cette liste n'est pas complète mais elle inclut un grande partie des contenus que vous avez couverts en Web 1, Web 2, Web 3, Web 4 et programmation interactive
+Cette liste n'est pas complète mais elle inclut un grande partie des contenus que vous avez couverts en Web 1, Web 2, Web 3, Web 4 et programmation interactive
 
 - [Tout](https://tim-montmorency.com/timdoc/index/web/){ :target="_blank" }
 - [JavaScript (en partie)](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
