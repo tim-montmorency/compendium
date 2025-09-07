@@ -1,49 +1,192 @@
 # Cours 3 | Bootstrap 1/2
 
-[STOP]
+*[CDN]: Content Delivery Network
 
-Bootstrap : Grille, conteneurs, points d’arrêt, typographie et couleurs
+## Recensement de la population étudiante
+
+![](./assets/images/absctact.gif){.w-100}
+
+[Sondage](https://sondage-spec.com/sondage/c443a486fa27e5e3058ef15920ad37a8){ .md-button .md-button--primary }
+
+## Bootstrap
 
 ![](./assets/images/bootstrap_banner.png)
 
 Bootstrap est un cadriciel (*framework*) front-end qui offre une structure de styles et de mise en page permettant aux développeurs de ne pas réinventer la roue à chaque projet. Il fournit une [collection de composantes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) (*components*) ainsi que plusieurs classes CSS facilitant la création de sites Web réactifs (*responsive*).
 
-## Annonce
-
-[Tutorat](https://teams.microsoft.com/l/message/19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2/1725560842882?tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d&groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&parentMessageId=1725560842882&teamName=TIM%20-%20Programme%20TIM&channelName=General&createdTime=1725560842882)
-
 ## Installation
 
-Pour [installer Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download), vous n'avez qu'à inclure ces deux balises dans votre HTML.
+Bootstrap a deux fichiers d'installation. Un fichier CSS et un JavaScript pour les composantes dynamiques. Pour commencer, nous utiliserons seulement la partie CSS.
 
-Nous utilisons la [version 5.3.3](https://getbootstrap.com/docs/versions/) du framework.
+Pour installer Bootstrap, il y a trois différentes méthodes :
 
-```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-```
+* **La méthode classique** (fichiers locaux) : On télécharge les fichiers CSS et JS depuis le site officiel de Bootstrap, puis on les place dans le projet.
+* **La méthode via un [CDN](https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr)** : On ne télécharge rien. On utilise une adresse fournie par un serveur externe qui héberge Bootstrap.
+* **La méthode contemporaine** : On installe Bootstrap via un gestionnaire de paquets (ex: npm) et on l’importe dans le projet avec un _bundler_ (ex: Vite, Webpack ou Parcel).
 
-!!! question "integrity & crossorigin 🤔"
-    L’attribut `integrity` est utilisé pour des raisons de sécurité. C'est le hash (sommes de contrôle cryptographiques) du fichier original.
-    L’attribut, `crossorigin` pour sa part, indique que la requête à cdn.jsdelivr.net doit être faite sans envoyer de témoins (cookies), identifiants ou autres informations de l’utilisateur.
+La manière la plus rapide ⚡️ est la méthode via un CDN. Il suffit de lier le CSS de Bootstrap dans la partie `<head>` de votre site :
 
-Voici un aperçu du HTML de départ.
+<!-- ```html title="CSS de Bootstrap"
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+``` -->
 
-```html
-<!doctype html>
+<!-- !!! question "integrity & crossorigin 🤔"
+
+    integrity est une empreinte cryptographique pour éviter une attaque « man-in-the-middle » qui remplacerait le fichier par du code dangereux.
+
+    crossorigin : relatif au concept de CORS (Cross-Origin Resource Sharing) -->
+
+<!-- Voici un aperçu du HTML de départ. -->
+
+```html hl_lines="5" title="CSS Bootstrap"
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
     <title>Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- Code de la page ici -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+</body>
 </html>
 ```
+
+## Système de grille
+
+![](./assets/images/layout-banner.jpg)
+
+Bootstrap repose sur un [système de grille](https://getbootstrap.com/docs/5.3/layout/grid/) (_grid system_) basé sur flexbox en CSS. Il permet de créer des mises en page _responsives_ en découpant l’espace en 12 colonnes.
+
+<!-- Source : https://medium.com/@nitishkmrk/responsive-grid-design-ultimate-guide-7aa41ca7892 -->
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system.webp){data-zoom-image}
+
+Concept
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system-columns.webp){data-zoom-image}
+
+Système à 12 colonnes
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system-gutters.webp){data-zoom-image}
+
+Séparations de type flexbox (gutter)
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system-margins.webp){data-zoom-image}
+
+Marges
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system-cards.webp){data-zoom-image}
+
+Exemple
+</div>
+
+### Conteneur
+
+![](./assets/images/layout-container-banner.jpg)
+
+Un conteneur en Bootstrap c'est simplement une classe CSS qui définit la largeur maximale du contenu et qui gère les marges latérales. Il y a trois variantes :
+
+* `.container` : largeur fixe, adaptée au breakpoint
+* `.container-fluid` : largeur toujours à 100%
+* `.container-{breakpoint}` : largeur fixe à partir du [breakpoint](https://getbootstrap.com/docs/5.3/layout/breakpoints/#available-breakpoints) indiqué
+
+```html
+<div class="container">
+  Conteneur classique
+</div>
+
+<div class="container-fluid">
+  Conteneur fluide (100%)
+</div>
+
+<div class="container-md">
+  Conteneur fluide en petit écran, fixe à partir du breakpoint md
+</div>
+```
+
+[:material-test-tube: Exemple](https://codepen.io/tim-momo/live/YzoXmxE/d9ea04613092a1049bb7433e3331269a){ .md-button .md-button--primary }
+
+### Colonnes
+
+![](./assets/images/layout-columns-banner.jpg)
+
+La grille fonctionne avec 2 niveaux obligatoires :
+
+* `.row` : une rangée
+* `.col` : une colonne à l’intérieur d’une rangée
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">Colonne 1</div>
+    <div class="col">Colonne 2</div>
+    <div class="col">Colonne 3</div>
+  </div>
+</div>
+```
+
+### Fractions
+
+![](./assets/images/layout-fraction-banner.jpg)
+
+On peut contrôler combien de colonnes (sur 12) un élément occupe.
+
+```html
+<div class="row">
+  <div class="col-4">Colonne 1 (Occupe 4 colonnes sur 12)</div>
+  <div class="col-8">Colonne 2 (Occupe 8 colonnes sur 12)</div>
+</div>
+```
+
+:fontawesome-solid-info-circle: Si on ne précise pas de taille (ex.: `.col`), Bootstrap répartit automatiquement l’espace.
+
+### Offset
+
+![](./assets/images/layout-offset-banner.jpg)
+
+### Imbriqué
+
+![](./assets/images/layout-nested-banner.jpg)
+
+### Breakpoints responsives
+
+Bootstrap est _[mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)_.
+
+On commence par la taille mobile (sans suffixe), puis on précise le comportement à chaque breakpoint :
+
+| Breakpoint        | Dimensions | Équivalence CSS                   |
+|-------------------|------------|-----------------------------------|
+| xs                | < 576px    | `@media (max-width: 575.98px) {}` |
+| sm                | ≥ 576px    | `@media (min-width: 576px) {}`    |
+| md                | ≥ 768px    | `@media (min-width: 768px) {}`    |
+| lg                | ≥ 992px    | `@media (min-width: 992px) {}`    |
+| xl                | ≥ 1200px   | `@media (min-width: 1200px) {}`   |
+| xxl               | ≥ 1400px   | `@media (min-width: 1400px) {}`   |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Couleurs
 
