@@ -6,12 +6,13 @@
 
 ## Aujourd'hui
 
-- [ ] Annonces à propos du tutorat: début mardi midi
-- [ ][Figma](#Figma)
-- [ ] Révision de Super Smash Bros 🕹️🎮👾 
-- [ ] Vue.js Introduction
-- [ ] Vue.js Création d'une app
-- [ ] Vue.js Interpolation de données
+- [ ] [Annonces à propos du tutorat](#Tutorat)
+- [ ] [Figma](#Figma)
+- [ ] Révision de Super Smash Bros 🕹️🎮👾
+- [ ] [Vue.js](#vuejs)
+  - [ ] Introduction
+  - [ ] Création d'une app
+  - [ ] Interpolation de données
 
 
 
@@ -65,6 +66,9 @@ Par exemple :
 
 
 
+## Exercice de révision Super Smash Bros
+
+..
 
 
 ## Vue.js
