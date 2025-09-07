@@ -1,6 +1,6 @@
 # Cours 4 | Bootstrap 2/2
 
-[STOP]
+
 
 PRÉVOIR UN FORMATIF
 
