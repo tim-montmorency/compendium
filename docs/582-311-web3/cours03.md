@@ -2,9 +2,13 @@
 
 *[CDN]: Content Delivery Network
 
-## Recensement de la population étudiante
+## Annonces
 
-![](./assets/images/absctact.gif){.w-100}
+### Tutorat
+
+[Calendrier du centre d'aide en intégration multimédia](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/)
+
+### Recensement de la population étudiante
 
 [Sondage](https://sondage-spec.com/sondage/c443a486fa27e5e3058ef15920ad37a8){ .md-button .md-button--primary }
 
@@ -13,6 +17,14 @@
 ![](./assets/images/bootstrap_banner.png)
 
 Bootstrap est un cadriciel (*framework*) front-end qui offre une structure de styles et de mise en page permettant aux développeurs de ne pas réinventer la roue à chaque projet. Il fournit une [collection de composantes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) (*components*) ainsi que plusieurs classes CSS facilitant la création de sites Web réactifs (*responsive*).
+
+Exemple :
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Formulaire" src="https://codepen.io/tim-momo/embed/XWLmrqZ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/XWLmrqZ">
+  Bootstrap - Formulaire</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Installation
 
@@ -53,25 +65,15 @@ La manière la plus rapide ⚡️ est la méthode via un CDN. Il suffit de lier 
 
 ## Système de grille
 
-![](./assets/images/layout-banner.jpg)
+![](./assets/images/grid.gif)
+
+<!-- ![](./assets/images/layout-banner.jpg) -->
 
 Bootstrap repose sur un [système de grille](https://getbootstrap.com/docs/5.3/layout/grid/) (_grid system_) basé sur flexbox en CSS. Il permet de créer des mises en page _responsives_ en découpant l’espace en 12 colonnes.
 
 <!-- Source : https://medium.com/@nitishkmrk/responsive-grid-design-ultimate-guide-7aa41ca7892 -->
 
-<div class="grid grid-1-3" markdown>
-![](./assets/images/grid-system.webp){data-zoom-image}
-
-Concept
-</div>
-
-<div class="grid grid-1-3" markdown>
-![](./assets/images/grid-system-columns.webp){data-zoom-image}
-
-Système à 12 colonnes
-</div>
-
-<div class="grid grid-1-3" markdown>
+<!-- <div class="grid grid-1-3" markdown>
 ![](./assets/images/grid-system-gutters.webp){data-zoom-image}
 
 Séparations de type flexbox (gutter)
@@ -81,19 +83,30 @@ Séparations de type flexbox (gutter)
 ![](./assets/images/grid-system-margins.webp){data-zoom-image}
 
 Marges
-</div>
-
-<div class="grid grid-1-3" markdown>
-![](./assets/images/grid-system-cards.webp){data-zoom-image}
-
-Exemple
-</div>
+</div> -->
 
 ### Conteneur
 
-![](./assets/images/layout-container-banner.jpg)
+![](./assets/images/layout-container-banner.jpg){data-zoom-image}
 
-Un conteneur en Bootstrap c'est simplement une classe CSS qui définit la largeur maximale du contenu et qui gère les marges latérales. Il y a trois variantes :
+Un [conteneur](https://getbootstrap.com/docs/5.3/layout/containers/) en Bootstrap c'est simplement une classe CSS qui définit la largeur maximale du contenu et qui gère les marges latérales.
+
+```html
+<div class="container">
+  Contenu de ma page
+</div>
+```
+
+Exemple :
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Conteneurs" src="https://codepen.io/tim-momo/embed/OPyqbgv/84d4a17ddb986f34dc2112acfd02edf7?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/OPyqbgv/84d4a17ddb986f34dc2112acfd02edf7">
+  Bootstrap - Conteneurs</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<!-- 
+Il y a certaines configurations possibles. Voici les trois variantes de classe CSS :
 
 * `.container` : largeur fixe, adaptée au breakpoint
 * `.container-fluid` : largeur toujours à 100%
@@ -113,11 +126,11 @@ Un conteneur en Bootstrap c'est simplement une classe CSS qui définit la largeu
 </div>
 ```
 
-[:material-test-tube: Exemple](https://codepen.io/tim-momo/live/YzoXmxE/d9ea04613092a1049bb7433e3331269a){ .md-button .md-button--primary }
+[:simple-codepen: Exemple responsive](https://codepen.io/tim-momo/live/YzoXmxE/d9ea04613092a1049bb7433e3331269a) -->
 
 ### Colonnes
 
-![](./assets/images/layout-columns-banner.jpg)
+![](./assets/images/layout-columns-banner.jpg){data-zoom-image}
 
 La grille fonctionne avec 2 niveaux obligatoires :
 
@@ -129,39 +142,336 @@ La grille fonctionne avec 2 niveaux obligatoires :
   <div class="row">
     <div class="col">Colonne 1</div>
     <div class="col">Colonne 2</div>
-    <div class="col">Colonne 3</div>
   </div>
 </div>
 ```
 
 ### Fractions
 
-![](./assets/images/layout-fraction-banner.jpg)
+![](./assets/images/layout-fraction-banner.jpg){data-zoom-image}
 
 On peut contrôler combien de colonnes (sur 12) un élément occupe.
 
 ```html
 <div class="row">
-  <div class="col-4">Colonne 1 (Occupe 4 colonnes sur 12)</div>
-  <div class="col-8">Colonne 2 (Occupe 8 colonnes sur 12)</div>
+  <div class="col-3">Colonne 25% (Occupe 3 colonnes sur 12)</div>
+  <div class="col-9">Colonne 75% (Occupe 9 colonnes sur 12)</div>
 </div>
 ```
 
-:fontawesome-solid-info-circle: Si on ne précise pas de taille (ex.: `.col`), Bootstrap répartit automatiquement l’espace.
+:fontawesome-solid-circle-info: Si on ne précise pas de taille (ex.: `.col`), Bootstrap répartit automatiquement l’espace.
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system-columns.png){data-zoom-image}
+
+Système à 12 colonnes
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/grid-system-cards.webp){data-zoom-image}
+
+Exemple
+</div>
 
 ### Offset
 
-![](./assets/images/layout-offset-banner.jpg)
+![](./assets/images/layout-offset-banner.jpg){data-zoom-image}
+
+On peut “pousser” une colonne vers la droite.
+
+```html
+<div class="row">
+  <div class="col-9 offset-3">Décalée de 3 colonnes</div>
+</div>
+```
 
 ### Imbriqué
 
-![](./assets/images/layout-nested-banner.jpg)
+![](./assets/images/layout-nested-banner.jpg){data-zoom-image}
 
-### Breakpoints responsives
+On peut placer une rangée (.row) à l’intérieur d’une colonne.
 
-Bootstrap est _[mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)_.
+```html
+<div class="row">
 
-On commence par la taille mobile (sans suffixe), puis on précise le comportement à chaque breakpoint :
+  <div class="col-3">Colonne de gauche</div>
+
+  <div class="col-9">
+    Colonne de droite
+    <div class="row">
+      <div class="col-3">Sous-colonne 1</div>
+      <div class="col-9">Sous-colonne 2</div>
+    </div>
+  </div>
+
+</div>
+```
+
+## Typographie & couleurs
+
+![](./assets/images/a.gif){.w-100}
+
+Bootstrap fournit un ensemble de classes utilitaires pour styliser le texte, gérer les titres, l’alignement et appliquer une palette de couleurs uniforme.
+
+### Titres
+
+Bon d'abord il faut savoir Bootstrap applique un thème aux titres dits natifs ( `<h1>` à `<h6>`), mais Bootstrap offre aussi des classes pour afficher n'importe quel texte comme un titre. Les classes [`.h1` à `.h6`](https://getbootstrap.com/docs/5.3/content/typography/#headings) permettent d’appliquer la taille d’un titre sans changer la balise.
+
+```html
+<p class="h1">Paragraphe affiché comme un titre h1 !</p>
+```
+
+Les classes `.display-*` affichent de [très gros titres](https://getbootstrap.com/docs/5.3/content/typography/#display-headings).
+
+```html
+<h1 class="display-1">Titre énorme</h1>
+<h1 class="display-4">Titre un peu plus petit</h1>
+```
+
+### Paragraphes
+
+La classe [`.lead`](https://getbootstrap.com/docs/5.3/content/typography/#lead) donne un style « introduction ». Ça le rend un peu plus gros que le texte normal.
+
+Pour l'inverse, il y a la classe [`.small`](https://getbootstrap.com/docs/5.3/content/typography/#inline-text-elements) qui réduit la taille du texte.
+
+```html
+<p class="lead">Ceci est un texte d’intro.</p>
+<p>Ceci est un texte normal.</p>
+<p class="small">Ceci est un petit texte.</p>
+```
+
+### Utilitaires de texte
+
+* [Taille de la police](https://getbootstrap.com/docs/5.3/utilities/text/#font-size) : `.fs-1` à `fs-6`
+* [Alignement](https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment) : `.text-start`, `.text-center`, `.text-end`
+* [Transformation](https://getbootstrap.com/docs/5.3/utilities/text/#text-transform) : `.text-lowercase`, `.text-uppercase`, `.text-capitalize`
+* [Gras et italic](https://getbootstrap.com/docs/5.3/utilities/text/#font-weight-and-italics) : `.fw-bold`, `.fst-italic`
+* [Interlignage](https://getbootstrap.com/docs/5.3/utilities/text/#line-height) : `.lh-1`, `lh-base`, `lh-lg`
+
+### Couleurs
+
+Bootstrap propose une liste de mots réservés afin de créer une palette de couleur contextuelle. En voici quelques uns :
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Couleur - Primary" src="https://codepen.io/tim-momo/embed/poXJXaO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/poXJXaO">
+  Couleur - Primary</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+La raison pour laquelle Bootstrap s'est dotté de mots réservés de la sorte est pour un usage sémantique des classes.
+
+Il y a plusieurs classes de [couleur de texte](https://getbootstrap.com/docs/5.3/utilities/colors/#colors) et d'autres pour les [couleur de fond](https://getbootstrap.com/docs/5.3/utilities/background/#background-color).
+
+<div class="grid">
+```scss title="Couleur de texte"
+.text-primary
+.text-secondary
+.text-dark
+```
+
+```scss title="Couleur de fond"
+.bg-primary
+.bg-secondary
+.bg-dark
+```
+</div>
+
+### Classes magiques 🪄
+
+Les classes de couleur « [hybrid](https://getbootstrap.com/docs/5.3/helpers/color-background/) » permettent de spécifier en une seule classe, la couleur de fond ainsi que la couleur du texte approprié. La couleur du texte est déterminée dynamiquement !
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Couleurs" src="https://codepen.io/tim-momo/embed/dPYrvYL?default-tab=html%2Cresult&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/dPYrvYL">
+  Bootstrap - Couleurs</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Boutons
+
+Les [boutons](https://getbootstrap.com/docs/5.3/components/buttons/) Bootstrap utilisent tous la classe `.btn`.
+
+Le style de bouton est concu pour être utilisées avec l’élément `<button>`. Cependant, vous pouvez aussi les appliquer aux éléments `<a>` ou `<input>` (même si certains navigateurs peuvent produire un rendu légèrement différent).
+
+```html title="Syntaxe"
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-primary btn-sm">Petit primary</button>
+<button class="btn btn-outline-primary">Contour</button>
+<button class="btn btn-primary" disabled>Désactivé</button>
+```
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Boutons" src="https://codepen.io/tim-momo/embed/abgOzzm?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/abgOzzm">
+  Bootstrap - Boutons</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Groupes de boutons
+
+Pour afficher un [groupe de boutons](https://getbootstrap.com/docs/5.3/components/button-group/#basic-example), enveloppez les dans un div avec la classe `.btn-group`.
+
+```html
+<div class="btn-group">
+  <button class="btn btn-primary">Gauche</button>
+  <button class="btn btn-primary">Centre</button>
+  <button class="btn btn-primary">Droite</button>
+</div>
+```
+
+## Image
+
+La classe CSS `.img-fluid` est utilisée pour rendre les images réactives (responsive). Cette classe applique les styles nécessaires pour que l’image s’adapte automatiquement à la largeur de son conteneur, tout en conservant son ratio original.
+
+```html title="Utilisation"
+<img src="image.jpg" alt="Texte alternatif" class="img-fluid">
+```
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Form" src="https://codepen.io/tim-momo/embed/dyBYbqr?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/dyBYbqr">
+  Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Espacement
+
+![](./assets/images/padding.gif){.w-100}
+
+La gestion des espacements en Bootstrap est beaucoup plus simple qu'il n'y parait. Il suffit de connaitre la syntaxe.
+
+Les classes CSS sont construites de la façon suivante : `.{propriété}{côté}-{taille}`.
+
+<div class="grid cards" markdown>
+
+- **Propriété**
+
+    `m` = margin<br>
+    `p` = padding
+
+- **Côté**
+
+    `t` = top<br>
+    `b` = bottom<br>
+    `s` = left (start)<br>
+    `e` = right (end)<br>
+    `x` = l'axe des x<br>
+    `y` = l'axe des y
+
+- **Taille**
+
+    `0` = 0<br>
+    `1` = 0.25rem<br>
+    `2` = 0.5rem<br>
+    `3` = 1rem<br>
+    `4` = 1.5rem<br>
+    `5` = 3rem<br>
+    `auto`
+
+</div>
+
+```css title="Exemples de classes d'espacement"
+.m-0     .my-4
+.p-1     .ps-2
+```
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Image fluid" src="https://codepen.io/tim-momo/embed/jOjbNdm?default-tab=html%2Cresult&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jOjbNdm">
+  Image fluid</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Display
+
+![](./assets/images/display-css.gif){.w-100}
+
+Les classes CSS de type [display](https://getbootstrap.com/docs/5.3/utilities/display) sont construites de la façon suivante : `d-{affichage}`
+
+| Valeur CSS      | Classe Bootstrap      |
+|-----------------|-----------------------|
+| `none`          | `.d-none`             |
+| `inline`        | `.d-inline`           |
+| `inline-block`  | `.d-inline-block`     |
+| `block`         | `.d-block`            |
+| `grid`          | `.d-grid`             |
+| `inline-grid`   | `.d-inline-grid`      |
+| `table`         | `.d-table`            |
+| `table-cell`    | `.d-table-cell`       |
+| `table-row`     | `.d-table-row`        |
+| `flex`          | `.d-flex`             |
+| `inline-flex`   | `.d-inline-flex`      |
+
+### Display flex
+
+![](./assets/images/flexo.gif)
+
+En temps normal, le système de grille flex de Boostrap devrait convenir à 95% des cas. Toutefois, si on a besoin de construire sa propre structure, on le faire avec [.d-flex](https://getbootstrap.com/docs/5.3/utilities/flex/).
+
+#### Justification
+
+```html
+<div class="d-flex justify-content-start">...</div>
+<div class="d-flex justify-content-end">...</div>
+<div class="d-flex justify-content-center">...</div>
+<div class="d-flex justify-content-between">...</div>
+<div class="d-flex justify-content-around">...</div>
+<div class="d-flex justify-content-evenly">...</div>
+```
+
+<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="Card" src="https://codepen.io/tim-momo/embed/PorgjoK?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/PorgjoK">
+  Card</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+#### Alignement
+
+```html
+<div class="d-flex align-items-start">...</div>
+<div class="d-flex align-items-end">...</div>
+<div class="d-flex align-items-center">...</div>
+<div class="d-flex align-items-baseline">...</div>
+<div class="d-flex align-items-stretch">...</div>
+```
+
+<iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="Display Flex - justify-content" src="https://codepen.io/tim-momo/embed/jOjRwbv?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jOjRwbv">
+  Display Flex - justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+#### Order
+
+L'[ordre](https://getbootstrap.com/docs/5.3/utilities/flex/#order) des div peut être changé en CSS. Merci au système flexbox 😜
+
+```html
+<div class="d-flex">
+    <div class="order-3 p-2">Premier item flex</div>
+    <div class="order-2 p-2">Deuxième item flex</div>
+    <div class="order-1 p-2">Troisième item flex</div>
+  </div>
+```
+
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Order" src="https://codepen.io/tim-momo/embed/bNVZRdJ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/bNVZRdJ">
+  Bootstrap - Order</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Mode sombre (darkmode)
+
+![Mode sombre](./assets/images/darklightmode.gif){.w-50}
+
+Pour activer le mode sombre, il suffit d’ajouter l'attribut `data-bs-theme="dark"` à l'élément `<html>` ou `<body>` de votre page :
+
+```html
+<html data-bs-theme="dark">
+```
+
+Les valeurs possibles sont `dark`, `light` et `auto`.
+
+Notez que lorsque le _darkmode_ est actif, les couleurs s'ajustent en fonction de cette nouvelle réalité.
+
+## Breakpoints
+
+Voici les [breakpoints](https://getbootstrap.com/docs/5.3/layout/breakpoints/) par défaut :
 
 | Breakpoint        | Dimensions | Équivalence CSS                   |
 |-------------------|------------|-----------------------------------|
@@ -172,309 +482,81 @@ On commence par la taille mobile (sans suffixe), puis on précise le comportemen
 | xl                | ≥ 1200px   | `@media (min-width: 1200px) {}`   |
 | xxl               | ≥ 1400px   | `@media (min-width: 1400px) {}`   |
 
+Bootstrap est _[mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)_. C'est à dire qu'il est pensé entièrement responsive. En fait, la plupart des classes utilitaires ont une variante responsive afin de spécifier au style à quel moment il doit être actif.
 
+### Conteneurs
 
+Lorsqu'on applique la notion de breakpoint aux conteneurs, on spécifie à quel « moment » le conteneur commence à en être un.
 
+| Classe                  | sm         | md         | lg         | xl         | xxl        |
+|-------------------------|------------|------------|------------|------------|------------|
+| `.container`            | ✅ `540px` | ✅ `720px` | ✅ `960px` | ✅ `1140px`| ✅ `1320px`|
+| `.container-sm`         | ✅ `540px` | ✅ `720px` | ✅ `960px` | ✅ `1140px`| ✅ `1320px`|
+| `.container-md`         | ❌ `100%`  | ✅ `720px` | ✅ `960px` | ✅ `1140px`| ✅ `1320px`|
+| `.container-lg`         | ❌ `100%`  | ❌ `100%`  | ✅ `960px` | ✅ `1140px`| ✅ `1320px`|
+| `.container-xl`         | ❌ `100%`  | ❌ `100%`  | ❌ `100%`  | ✅ `1140px`| ✅ `1320px`|
+| `.container-xxl`        | ❌ `100%`  | ❌ `100%`  | ❌ `100%`  | ❌ `100%`  | ✅ `1320px`|
+| `.container-fluid`      | ❌ `100%`  | ❌ `100%`  | ❌ `100%`  | `❌ 100%`  | ❌ `100%`  |
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Couleurs
-
-<div class="grid" markdown>
-  <div markdown>
-  Les [couleurs bootstrap](https://getbootstrap.com/docs/5.3/customize/color/) sont représentées par des **identifiants** auxquels sont assignées des couleurs prédéfinies.
-
-  Voici la liste des **identifiants** associés à leur couleur respective.
-  </div>
-
-  <iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="Couleur - Primary" src="https://codepen.io/tim-momo/embed/poXJXaO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/tim-momo/pen/poXJXaO">
-    Couleur - Primary</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-    on <a href="https://codepen.io">CodePen</a>.
-  </iframe>
-</div>
-
-### Variables
-
-Ces **identifiants** (primary, secondary, light, dark, etc.) sont utilisés dans des variables CSS, ce qui permet de personnaliser facilement les couleurs de Bootstrap.
-
-Par exemple, si on souhaite changer la couleur associée à `primary`, on peut tout simplement réécrire les variables concernées :
-
-```css
-:root {
-  --bs-primary: #6610f2;
-  --bs-primary-rgb: 102, 16, 242;
-}
-```
-
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Couleurs" src="https://codepen.io/tim-momo/embed/WNqvqKJ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/WNqvqKJ">
-  Couleurs</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! info "Préfix des variables"
-    Afin de ne pas interférer avec d'autres variables potentielles d'un projet, Bootstrap permet d'ajouter un préfix aux variables. Par défaut, le préfix est `bs-`.
-
-Pour connaitre le nom des variables Bootstrap, il suffit de consulter la [documentation officielle](https://getbootstrap.com/docs/5.3/customize/css-variables/) ou encore, consulter l'inspecteur du navigateur.
-
-![](./assets/images/bootstrap_inspector.png){data-zoom-image}
-
-### Classes
-
-Bootstrap fournit un vaste ensemble de classes CSS prêtes à l’emploi.
-
-Par exemple, pour appliquer différents styles associés à la couleurs `danger`, voici quelques classes CSS disponibles.
-
-```scss
-.text-danger           // Couleur de texte
-.bg-danger             // Couleur de fond
-.border-danger         // Couleur de bordure
-.btn-danger            // Couleur de bouton
-.btn-outline-danger    // Couleur de bouton
-.alert-danger          // Couleur de message
-.badge-danger          // Couleur de pastille
-.table-danger          // Couleur de tableau
-.link-danger           // Couleur de lien
-```
-
-Dans l'exemple ci-dessous, on voit l'effet des classes CSS Bootstrap sur du code HTML.
-
-<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="Couleur - Danger" src="https://codepen.io/tim-momo/embed/MWMwYeY?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/MWMwYeY">
-  Couleur - Danger</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! example "Exercice rapide"
-    Change le nom des classes CSS avec différents identifiants Bootstrap.
-    Par exemple, remplace les mentions `danger` par `primary` ou `warning` et observe le résultat.
-
-### Mode sombre (darkmode)
-
-![Mode sombre](./assets/images/darkmode.png)
-
-Pour activer le mode sombre, il suffit d’ajouter l'attribut `data-bs-theme="dark"` à l'élément `<html>` ou `<body>` de votre page :
-
-```html
-<html data-bs-theme="dark">
-```
-
-## Points d'arrêt
-
-![](./assets/images/Breakpoints_91f297d81dfe896f.gif){.invert} [^breakpoint]
-
-[^breakpoint]: Illustration breakpoint : https://webandcrafts.com/blog/beginners-guide-to-responsive-web-design
-
-Un point d'arrêt, point de rupture ou en anglais, [breakpoint](https://blog.froont.com/9-basic-principles-of-responsive-web-design/), est une condition où la mise en page du site Web change pour s’adapter à différentes tailles d’écran.
-
-Le breakpoint est une notion importante des « [media queries](https://tim-montmorency.com/timdoc/582-211MO/css/media-queries/) » en CSS.
-
-Voici un exemple traditionnel de gestion de breakpoint :
-
-```scss
-.col {
-  width: 50%;
-}
-
-@media (max-width: 992px) { // 👈 Breakpoint
-  .col {
-    width: 100%;
-  }
-}
-```
-
-En Bootstrap, plusieurs points de rupture (breakpoints) sont prédéfinis !
-
-Portez une attention particulière à la colonne des suffixes. Nous y reviendrons 😜.
-
-| Point de rupture  | Suffixe de classe | Dimensions | CSS                               |
-|-------------------|-------------------|------------|-----------------------------------|
-| Extra petit       | `xs`              | `<576px`   | `@media (max-width: 575.98px) {}` |
-| Petit             | `sm`              | `≥576px`   | `@media (min-width: 576px) {}`    |
-| Moyen             | `md`              | `≥768px`   | `@media (min-width: 768px) {}`    |
-| Large             | `lg`              | `≥992px`   | `@media (min-width: 992px) {}`    |
-| Extra large       | `xl`              | `≥1200px`  | `@media (min-width: 1200px) {}`   |
-| Extra extra large | `xxl`             | `≥1400px`  | `@media (min-width: 1400px) {}`   |
-
-!!! info "Navigateur de breakpoint 😱"
-    [Responsively App Downloads](https://responsively.app/download) est un outil intéressant pour visionner en un coup d'oeil le site sur plusiers appareils.
-
-## Conteneurs
-
-Un conteneur Bootstrap c'est simplement une classe CSS qu'on assigne à un `<div>` dans le but de définir sa largeur.
-
-```html
-<div class="container">
-  ...
-</div>
-```
-
-Les tailles des conteneurs selon les différents points de rupture de la page.
-
-| CSS                     | sm      | md      | lg      | xl      | xxl     |
-|-------------------------|---------|---------|---------|---------|---------|
-| `.container` :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom }           | `540px` | `720px` | `960px` | `1140px`| `1320px`|
-| `.container-sm`         | `540px` | `720px` | `960px` | `1140px`| `1320px`|
-| `.container-md`         | `100%`  | `720px` | `960px` | `1140px`| `1320px`|
-| `.container-lg`         | `100%`  | `100%`  | `960px` | `1140px`| `1320px`|
-| `.container-xl`         | `100%`  | `100%`  | `100%`  | `1140px`| `1320px`|
-| `.container-xxl`        | `100%`  | `100%`  | `100%`  | `100%`  | `1320px`|
-| `.container-fluid` :fontawesome-regular-hand-point-left:{ .horizontal-anim .valign-bottom }      | `100%`  | `100%`  | `100%`  | `100%`  | `100%`  |
-
-Démonstration
-
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Container" src="https://codepen.io/tim-momo/embed/YzoXmxE/d9ea04613092a1049bb7433e3331269a?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Conteneurs" src="https://codepen.io/tim-momo/embed/preview/YzoXmxE/d9ea04613092a1049bb7433e3331269a?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/YzoXmxE/d9ea04613092a1049bb7433e3331269a">
-  Container</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  Bootstrap - Conteneurs</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Système de grille (grid system)
+### Système de grille
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Grille" src="https://codepen.io/tim-momo/embed/LYKVwKQ?default-tab=&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/LYKVwKQ">
-  Grille</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+Les classes responsives sont construites de la façon suivante :  `.col-{breakpoint}-{colonnes}`.
+
+Lorsqu'on applique la notion de breakpoint aux colonnes, on spécifie à quel « moment » la colonne affiche la propotion spécifiée.
+
+|                         | sm         | md         | lg         | xl         | xxl         |
+|-------------------------|------------|------------|------------|------------|-------------|
+| Exemple responsive de `.col-6`                 | `.col-6`    | `.col-sm-6` | `.col-lg-6` | `.col-xl-6` | `.col-xxl-6` |
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Colonnes responsive" src="https://codepen.io/tim-momo/embed/preview/PwPLmVB/eb283c2f8a2463245aba46249be25a66?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/PwPLmVB/eb283c2f8a2463245aba46249be25a66">
+  Bootstrap - Colonnes responsive</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-[Documentation officielle](https://getbootstrap.com/docs/5.3/layout/grid/)
+### Espacement
 
-Bootstrap vient avec un système de grille à 12 colonnes. Il nous permet d'ajouter facilement des colonnes sans avoir à écrire une seule ligne de CSS. Voici la syntaxe :
-
-```html
-<div class="container">
-  <div class="row">
-    <div class="col">Colonne 1</div>
-    <div class="col">Colonne 2</div>
-    <div class="col">Colonne 3</div>
-    <div class="col">etc.</div>
-  </div>
-</div>
-```
-
-Lorsqu'on veut spécifier une taille de colonne, on doit ajuster la classe CSS `.col` et lui spécifier une proportion sur 12 colonnes. Voici un exemple :
-
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Grille CSS" src="https://codepen.io/tim-momo/embed/wvLKwWv?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/wvLKwWv">
-  Grille CSS</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-On peut également utiliser les suffixes de point de rupture. Ainsi nos colonnes deviennent *responsive*!
-
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Grille Tailles" src="https://codepen.io/tim-momo/embed/wvLKwea?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/wvLKwea">
-  Grille Tailles</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-Enfin, la notion d'[offset](https://getbootstrap.com/docs/5.3/layout/columns/#offsetting-columns) permet d'espacer les colonnes par la gauche.
-
-## Ordre CSS
-
-[Bootstrap, flex et order](https://getbootstrap.com/docs/5.3/utilities/flex/#order)
-
-## Espacement
-
-La gestion des espacements en Bootstrap est beaucoup plus simple qu'il n'y parait. Il suffit de connaitre la syntaxe.
-
-Les classes CSS sont construites de la façon suivante : `{propriété}{côté}-{taille}` et `{propriété}{côté}-{breakpoint}-{taille}`
-
-<div class="grid cards" markdown>
-
--   **Propriété**
-
-    ---
-
-    `m` = margin<br>
-    `p` = padding
-
--   **Côté**
-
-    ---
-
-    `t` = top<br>
-    `b` = bottom<br>
-    `s` = left (start)<br>
-    `e` = right (end)<br>
-    `x` = l'axe des x<br>
-    `y` = l'axe des y
-
--   **Taille**
-
-    ---
-
-    `0` = 0<br>
-    `1` = 0.25rem<br>
-    `2` - 0.5rem<br>
-    `3` - 1rem<br>
-    `4` - 1.5rem<br>
-    `5` - 3rem<br>
-    `auto`
-
-</div>
+Les classes responsives sont construites de la façon suivante : `.{propriété}{côté}-{breakpoint}-{taille}`
 
 ```css title="Exemples de classes d'espacement"
-.m-0     .my-4     .mt-md-5
-.p-1     .ps-2     .px-xxl-51
+.m-md-0     .my-lg-4
+.p-xxl-1    .ps-sm-2
 ```
 
-<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Image fluid" src="https://codepen.io/tim-momo/embed/jOjbNdm?default-tab=html%2Cresult&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/jOjbNdm">
-  Image fluid</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+### Display
+
+Les classes responsives sont construites de la façon suivante : `.d-{breakpoint}-{value}`
+
+On utilise souvent ces classes afin de déterminer ce qui doit être affiché sur certains breakpoints.
+
+| Taille d'écran                                              | Classe                                |
+|-------------------------------------------------------------|---------------------------------------|
+| :material-eye-off:{.text-danger} Caché sur tous             | `.d-none`                             |
+| :material-eye-off:{.text-danger} Caché uniquement sur xs    | `.d-none` `.d-sm-block`               |
+| :material-eye-off:{.text-danger} Caché uniquement sur sm    | `.d-sm-none` `.d-md-block`            |
+| :material-eye-off:{.text-danger} Caché uniquement sur md    | `.d-md-none` `.d-lg-block`            |
+| :material-eye-off:{.text-danger} Caché uniquement sur lg    | `.d-lg-none` `.d-xl-block`            |
+| :material-eye-off:{.text-danger} Caché uniquement sur xl    | `.d-xl-none` `.d-xxl-block`           |
+| :material-eye-off:{.text-danger} Caché uniquement sur xxl   | `.d-xxl-none`                         |
+| :material-eye:{.text-success} Visible partout               | `.d-block`                            |
+| :material-eye:{.text-success} Visible uniquement sur xs     | `.d-block` `.d-sm-none`               |
+| :material-eye:{.text-success} Visible uniquement sur sm     | `.d-none` `.d-sm-block` `.d-md-none`  |
+| :material-eye:{.text-success} Visible uniquement sur md     | `.d-none` `.d-md-block` `.d-lg-none`  |
+| :material-eye:{.text-success} Visible uniquement sur lg     | `.d-none` `.d-lg-block` `.d-xl-none`  |
+| :material-eye:{.text-success} Visible uniquement sur xl     | `.d-none` `.d-xl-block` `.d-xxl-none` |
+| :material-eye:{.text-success} Visible uniquement sur xxl    | `.d-none` `.d-xxl-block`              |
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Display responsive" src="https://codepen.io/tim-momo/embed/preview/OJeyJqz?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/OJeyJqz">
+  Bootstrap - Display responsive</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-## Typographie
-
-[Styles de titre](https://getbootstrap.com/docs/5.3/content/typography/)
-
-```html
-<p class="h1">h1. Bootstrap heading</p>
-<p class="h2">h2. Bootstrap heading</p>
-<p class="h3">h3. Bootstrap heading</p>
-<p class="h4">h4. Bootstrap heading</p>
-<p class="h5">h5. Bootstrap heading</p>
-<p class="h6">h6. Bootstrap heading</p>
-```
-
-[Styles de titre extra gros](https://getbootstrap.com/docs/5.3/content/typography/#display-headings)
-
-```html
-<h1 class="display-1">Display 1</h1>
-<h1 class="display-2">Display 2</h1>
-<h1 class="display-3">Display 3</h1>
-<h1 class="display-4">Display 4</h1>
-<h1 class="display-5">Display 5</h1>
-<h1 class="display-6">Display 6</h1>
-```
-
-[Emphase de paragraph](https://getbootstrap.com/docs/5.3/content/typography/#lead) (plus gros)
-
-```html
-<p class="lead">
-  This is a lead paragraph. It stands out from regular paragraphs.
-</p>
-```
-
-[Alignement du texte](https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment)
-
-```css
-.text-start
-.text-center
-.text-end
-```
 
 ## Exercices
 
@@ -482,32 +564,30 @@ Les classes CSS sont construites de la façon suivante : `{propriété}{côté}-
   ![](./assets/images/vador.jpg)
 
   <small>Exercice - JavaScript & Bootstrap</small><br>
-  **[Changer le thème du site en JavaScript](exercices/bs-darkmode.md){.stretched-link}**
+  **[Changer le thème du site en JavaScript](exercices/bs-darkmode.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/hidden-img.jpg)
 
   <small>Exercice - JavaScript & Bootstrap</small><br>
-  **[Peinture à classe](exercices/bs-imagecachee.md){.stretched-link}**
+  **[Peinture à classe](exercices/bs-imagecachee.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/cassetete.jpg)
 
   <small>Exercice - HTML & Bootstrap</small><br>
-  **[Casse-grille](exercices/bs-casse-tete.md){.stretched-link}**
+  **[Casse-grille](exercices/bs-casse-tete.md){.stretched-link .back}**
 </div>
 
 ## Devoir
 
-Devoir 1 formatif - remise 12 septembre minuit
+Ce devoir doit être remis au **prochain cours**. La correction et la rétroaction seront données **pendant ce même cours**.
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/tarte-pomme.jpg)
+  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
 
   <small>Devoir - HTML & Bootstrap</small><br>
-  **[Tarte aux pommes](devoir/bs-devoir1.md){.stretched-link}**
+  **[Tarte aux pommes](./devoir/bs-devoir1/index.md){.stretched-link .back}**
 </div>
-
-<!-- ## PS1 - Remise 3 octobre minuit -->

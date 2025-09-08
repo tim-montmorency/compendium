@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 4](../cours04.md){.breadcrumb}
-
 # Le petit prince
 
 Le but de cet exercice est de mettre en pratique l'usage des classes Boostrap display dans un contexte responsive.

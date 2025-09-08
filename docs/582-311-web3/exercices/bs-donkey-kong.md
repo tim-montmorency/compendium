@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 4](../cours04.md){.breadcrumb}
-
 # Donkey Kong
 
 Le but de cet exercice est de reproduire le résultat attendu avec des classes Bootstrap.

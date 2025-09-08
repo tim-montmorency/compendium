@@ -3,13 +3,11 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 3](../cours03.md){.breadcrumb}
+# 🌑 Dark Vador
 
-# Dark Vador
+Le but de cet exercice est de **basculer le thème du site entre clair et sombre** en cliquant sur une case à cocher (_checkbox_).
 
-En cliquant sur une case à cocher, on doit changer le thème du site.
-
-Important : l'attribut Bootstrap `data-bs-theme="dark"` est appliqué à la balise <html> au chargement de la page.
+Au chargement de la page, la balise `<html>` possède déjà l’attribut `data-bs-theme="dark"`.
 
 ## Résultat attendu
 
@@ -19,11 +17,21 @@ Important : l'attribut Bootstrap `data-bs-theme="dark"` est appliqué à la bali
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+## Indices
+
+Cherchez `addEventListener`, `querySelector`, `getAttribute` et `setAttribute` dans l'[aide mémoire](https://jfcmontmorency.github.io/aide-memoire/).
+
+Qui sait, ça pourrait peut-être vous être utile 😜
+
 ## Instructions
 
-- [ ] Faire un fork du codepen : [https://codepen.io/tim-momo/pen/zYVyYJp](https://codepen.io/tim-momo/pen/zYVyYJp)
-- [ ] Ajoutez un événement (`addEventListener()`) sur la case à cocher.
-- [ ] Dans la fonction de l'événement, modifiez la valeur de l'attribut `data-bs-theme` de la balise `<html>`, soit la valeur `dark` pour le mode sombre ou `light` pour le mode clair.
+- [ ] Ouvrez le CodePen de départ : <https://codepen.io/tim-momo/pen/zYVyYJp>
+- [ ] Cliquez sur _Fork_ afin de créer votre propre copie du projet
+- [ ] En JavaScript, sélectionnez la case à cocher avec `querySelector`.  
+- [ ] Ajoutez un événement `click` dessus avec `addEventListener`.  
+- [ ] Dans la fonction de l’événement, changez l’attribut `data-bs-theme` sur la balise `<html>` :  
+  - `dark` : pour activer le mode sombre  
+  - `light` : pour revenir au mode clair  
 
 [STOP]
 
