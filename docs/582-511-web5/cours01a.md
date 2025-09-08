@@ -32,19 +32,19 @@
 ## Exercices 🏃‍➡️🏃‍♀️‍➡️
 
 [🛠️ Cartes de présentation - 01](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-cartes-01/){ .md-button :target="_blank" }
-[Solution](https://codepen.io/tim-momo/pen/jENdyjj)
+ ➜ [Solution💡](https://codepen.io/tim-momo/pen/jENdyjj)
 
 [🛠️ Cartes de présentation - 02](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-cartes-02/){ .md-button :target="_blank" }
-[Solution](https://codepen.io/tim-momo/pen/mybvWdK)
+ ➜ [Solution💡](https://codepen.io/tim-momo/pen/mybvWdK)
 
 [🛠️ Poésie d'hiver](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-poesie-hiver/){ .md-button :target="_blank" }
-[Solution](https://codepen.io/tim-momo/pen/vEBbQGX)
+ ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBbQGX)
 
 [🛠️ Navigation du site de Pony](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-pony/){ .md-button :target="_blank" }
-[Solution](https://codepen.io/tim-momo/pen/RwEavGB)
+ ➜ [Solution💡](https://codepen.io/tim-momo/pen/RwEavGB)
 
 [🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" }
-[Solution](https://codepen.io/tim-momo/pen/raOZeXQ)
+ ➜ [Solution💡](https://codepen.io/tim-momo/pen/raOZeXQ)
 
 ## Devoirs
 

@@ -12,7 +12,8 @@
 
 ## Révision Bootcamp
 
-[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md) [Solution](https://codepen.io/tim-momo/pen/YPydodm)
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/YPydodm)
 
 
 ## Super Smash Bros

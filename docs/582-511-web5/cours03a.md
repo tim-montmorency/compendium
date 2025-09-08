@@ -26,7 +26,7 @@ Vous vous êtes déjà possiblement trouvés dans cette situation&nbsp;:
 ![](./assets/help.gif){.w-100}
 
 Bonnne nouvelle, on a une solution pour toi! Le tutorat! 
-
+ 
 ### Comment ça marche ?
 
 ![](../582-111-web1/assets/images/programme-tim.png)
@@ -35,14 +35,7 @@ Dans le groupe Teams « TIM - Programme TIM », il y aura une annonce faite par 
 
 Il suffit d'envoyer un message privé au tuteur ou à la tutrice.
 
-Il n'y a pas de gêne à avoir parce qu'ils sont carrément en attente de votre message !
-
-Par exemple :
-
-> Bonjour Émeryk.<br>Je suis dans le cours *Web 5* et j'aurais besoin d'aide concernant mon TP1.
-
-![type:video](../582-111-web1/assets/videos/tuto.mp4)
-
+Il n'y a pas de gêne à avoir parce que les tuteurs sont présents au Centre d'aide, **local C-1602**, en attente de vos demandes, il sont payés pour ça!
 
 
 
@@ -120,3 +113,5 @@ Quelques exemples que j'ai sélectionnés pour vous :
 
 
 ## Devoirs
+
+Compléter l'exercice *Vue.js - Badge VIP Festif*

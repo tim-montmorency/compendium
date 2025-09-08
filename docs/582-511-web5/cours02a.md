@@ -41,7 +41,8 @@ Cette liste n'est pas complète mais elle inclut un grande partie des contenus q
 
 ## Révision de l'exercice *Les actualités Google*
 
-[🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" }
+[🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/raOZeXQ)
 
 ## Discussion: Corrigé des exercices
 
@@ -49,14 +50,16 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 
 ## Activité de révision de l'exercice du *Jeu du 27*
 
-[🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" } [Solution](https://codepen.io/tim-momo/pen/wvQLGoO)
+[🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }  
+➜ [Solution💡](https://codepen.io/tim-momo/pen/wvQLGoO)
 
 - Résumé visuel au tableau blanc
 - Étape par étape, en démonstration collaborative interactive (collab mode)
 
 ## Camp d'entrainement JavaScript
 
-[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } [Solution](https://codepen.io/tim-momo/pen/YPydodm)
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/YPydodm)
 
 
 
