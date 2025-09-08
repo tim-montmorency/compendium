@@ -17,9 +17,7 @@
 
 ## Super Smash Bros
 
-
 [🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
-
 
 
 ## Devoirs
