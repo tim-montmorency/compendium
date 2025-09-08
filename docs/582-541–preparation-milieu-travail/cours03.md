@@ -20,6 +20,14 @@ Remplir le document planification_portfolio sur GitHub.
 
 Démonstration CV de l'an dernier
 
+## Correction des contenus de CV
+En équipes de 2, vérifiez le contenu de votre cv. Voici des pistes à explorer:      
+* Le courriel est professionnel
+* Le titre de l'emploi est juste
+* Les tâches sont concises
+* Les tâches sont claires (Pour les gens qui n'ont jamais fait cet emploi)
+* Orthographe
+* Syntaxe
 
 ## Temps pour avancer votre CV
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }     
