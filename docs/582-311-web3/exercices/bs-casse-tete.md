@@ -3,60 +3,57 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 3](../cours03.md){.breadcrumb}
+# 🧩 Casse-grille
 
-# Casse-grille
+Cet exercice comprend **8 mini-défis**.
 
-Cet exercice comprend 8 mini défis. Tous les défis doivent être réalisés en HTML seulement.
+L'objectif est de reproduire les différentes mises en forme **avec HTML et Bootstrap**.
 
-Seulement 2 breakpoints doivent être utilisés : `md` et `xl`
+## Contraintes
 
-Il n'y a donc pas de JavaScript ou de CSS à écrire.
+- Utiliser seulement **2 breakpoints** : `md` et `xl`.  
+- Le site doit être en **mode sombre**.  
+- Aucun usage de CSS, ni JavaScript.
 
-Voici les 8 résultats à reproduire. Observez bien les détails.
+## Résultats attendus
 
-## Défi 1
+Voici les 8 mises en forme à reproduire
 
+### Défi 1
 ![](../assets/images/ex-grid-1.png){data-zoom-image}
 
-## Défi 2
-
+### Défi 2
 ![](../assets/images/ex-grid-2.png){data-zoom-image}
 
-## Défi 3
-
+### Défi 3
 ![](../assets/images/ex-grid-3.png){data-zoom-image}
 
-## Défi 4
-
+### Défi 4
 ![](../assets/images/ex-grid-4.png){data-zoom-image}
 
-## Défi 5
-
+### Défi 5
 ![](../assets/images/ex-grid-5.png){data-zoom-image}
 
-## Défi 6
-
+### Défi 6
 ![](../assets/images/ex-grid-6.png){data-zoom-image}
 
-## Défi 7
-
+### Défi 7
 ![](../assets/images/ex-grid-7.png){data-zoom-image}
 
-## Défi 8
-
+### Défi 8
 ![](../assets/images/ex-grid-8.png){data-zoom-image}
 
 ## Instructions
 
-- [ ] Créer un dossier "casse_grille"
-- [ ] Créer un fichier pour chaque défi. Ex : `defi1.html`, `defi2.html`, `defi3.html`, etc.
-- [ ] Dans `defi1.html`, créer une structure HTML de base
-- [ ] Importez le css de Bootstrap 5 : `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-`
-- [ ] Mettre le site en mode sombre
-- [ ] Programmer la structure HTML du défi #1 (cette structure sera la même pour tous les défis)
-- [ ] Copier/coller le contenu du fichier `defi1.html` dans les autres `.html`
+- [ ] Créer un dossier nommé **`casse-grille`**.  
+- [ ] Crée **un fichier HTML par défi**
+  - `defi1.html`, `defi2.html`, `defi3.html` ... jusqu’à `defi8.html`
+- [ ] Dans `defi1.html` :
+  - Mets en place une structure HTML de base.  
+  - Ajoute l’import de Bootstrap 5.3 (avec un CDN) :  
+  - Active le **mode sombre**
+  - Programme la **structure de base de la grille** (le squelette servira pour tous les défis).
+- [ ] Copie/colle le contenu de `defi1.html` dans les autres fichiers HTML.  
 - [ ] Compléter le défi 1
 - [ ] Compléter le défi 2
 - [ ] Compléter le défi 3

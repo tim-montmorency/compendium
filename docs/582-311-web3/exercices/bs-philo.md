@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 4](../cours04.md){.breadcrumb}
-
 # Cartes philosophiques
 
 Le but de cet exercice est de reproduire le résultat attendu avec les notions Bootstrap 5 suivantes :

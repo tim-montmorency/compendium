@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 4](../cours04.md){.breadcrumb}
-
 # L’enfant roi
 
 L'objectif de cet exercice est d'utiliser à bon essient la notion de **display flex** et la notion d'**justification flex** en Bootstrap.
