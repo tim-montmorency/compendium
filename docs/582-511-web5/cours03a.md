@@ -95,7 +95,7 @@ Quelques exemples que j'ai sélectionnés pour vous :
 
 ### Vue.js en 2 minutes
 
-- [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
+- [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
 
 ### Vue.js : Introduction
 

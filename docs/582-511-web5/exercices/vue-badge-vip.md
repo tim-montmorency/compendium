@@ -11,7 +11,7 @@ Vous réalisez le **badge VIP** d’un **festival imaginaire** (au choix : musiq
 Le badge doit s’adapter automatiquement lorsque vous changez les données dans `data()`.
 
 ## Dossier de départ
-[📥 Téléchargez le dossier de départ](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUFFktXr13VMsRQBDskPRoMB13hx76B0s26Y4o7RYttheA?e=avM1lX)
+[📥 Téléchargez le dossier de départ](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EUFFktXr13VMsRQBDskPRoMB13hx76B0s26Y4o7RYttheA?e=avM1lX){ .md-button :target="_blank" }
 
 
 
