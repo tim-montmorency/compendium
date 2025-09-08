@@ -14,10 +14,11 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
 1. **Inclure Vue dans le projet**
    - Installez Vue via CDN comme indiqué dans les notes « [Installer Vue avec CDN](../vue/index.html#installer-vue-avec-cdn) » collez la balise `<script>` de Vue avant votre `script.js`
 
+
 1. **Créez l’app Vue**  
    - Dans `script.js`, utilisez `Vue.createApp` 
    - Ajoutez une fonction `data()` qui retourne un objet avec vos données.  
-   - Montez l’app sur une balise qui encadre l'app avec la méthode `mount`.
+   - Choisissez une balise existante qui encadrera l'app Vue avec ses données dynamiques. Puis, montez l'app sur cette balise avec la méthode `mount`.
 
 2. **Définissez vos données** dans `data()` :  
    - `festivalName`  
@@ -28,13 +29,19 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
    - `date`  
    - `emoji`
 
-3. **Construisez le badge** dans le HTML (à l’intérieur de `<div id="app">`), en affichant toutes les données avec `{{ }}`.  
+3. **Construisez le badge** dans le HTML (à l’intérieur de la balise sur laquelle l'app a été montée à l'étape 1), en affichant toutes les données avec `{{ }}`.  
    - Exemple : `<h1>{{ festivalName }}</h1>`  
    - Utilisez au moins **une donnée à deux endroits** (ex. `festivalName` dans le titre et dans le bas de page).
 
 4. **Testez la réactivité**  
    - Changez une valeur dans `data()` (ex. la ville ou le prénom).  
    - Vérifiez que la page se met à jour automatiquement, sans modifier le HTML.
+
+5. **Attribut dynamique**
+
+   - Ajoutez une image (logo ou affiche du festival): Téléchargez l'image (webp, png, jpg, svg) au niveau de votre dossier de travail de l'exercice.
+   - En JavaScript, dans le data() de votre app Vue, ajoutez une donnée correspondant à cette image, elle doit contenir le chemin d'accès à ce fichier image.
+   - Dans le HTML, affichez maintenant cette image en utilisant la **liaison d’attribut** (attribute binding) avec `v-bind:src` ou sa syntaxe courte `:src`.
 
 ---
 
@@ -62,17 +69,6 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
 
 ---
 
-## Bonus
-
-Ajoutez une image (logo ou affiche du festival) en utilisant la **liaison d’attribut** avec `:src`.  
-
-Exemple :
-
-```html
-<img :src="posterUrl" :alt="festivalName">
-
-
----
 
 ## Notes de cours 📚
 
