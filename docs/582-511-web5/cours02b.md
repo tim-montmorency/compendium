@@ -12,7 +12,7 @@
 
 ## Révision Bootcamp
 
-[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md)
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md) [Solution](https://codepen.io/tim-momo/pen/YPydodm)
 
 
 ## Super Smash Bros
