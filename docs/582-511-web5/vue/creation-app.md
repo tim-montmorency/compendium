@@ -46,7 +46,8 @@ const vm = app.mount('#app');
 
 .
 
-[Plus d'info sur <code>createApp()</code>](https://v3.vuejs.org/guide/instance.html#creating-an-application-instance){ .md-button :target="_blank" } 
+[Plus d'info sur <code>createApp()</code>](https://v3.vuejs.org/guide/instance.html#creating-an-application-instance){ .md-button :target="_blank" }
+
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
 
