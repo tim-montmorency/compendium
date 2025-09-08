@@ -20,7 +20,7 @@
 
 - [ ] **Configurer l'input 1**  
   - Cliquer sur la **roulette de l'input 1** pour accéder au menu.
-  - **PAN** = **C** (Center). On va distribuer le son dans le L / R.
+  - **PAN** = **C** (Center). On va distribuer le son de l'input 1 dans le L / R.
   - **INPUT** = **MIC** (si un micro est branché).
   - **PHANTOM POWER** = **48 VOLTS** (si le micro nécessite une alimentation).
   - **LOW CUT** = **ON** (activez le coupe-bas pour éliminer les basses fréquences, recommandé dans presque toutes les situations).
