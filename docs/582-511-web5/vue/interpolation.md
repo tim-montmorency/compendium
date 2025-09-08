@@ -43,6 +43,8 @@ const app = Vue.createApp({
 
 [En savoir plus sur <code>data()</code>](https://vuejs.org/guide/essentials/template-syntax.html#dynamically-binding-multiple-attributes){ .md-button :target="_blank" }
 
+<small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
+
 
 ## Interpolation des données {{ }}
 
@@ -64,7 +66,12 @@ Affichera en fait:
     Salut Willy
 </div>
 ```
+
+
 [En savoir plus sur l'interpolation](https://vuejs.org/guide/essentials/template-syntax.html#text-interpolation){ .md-button :target="_blank" }
+
+<small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
+
 
 !!! warning
     <strong>Erreur fréquente</strong>
@@ -130,6 +137,8 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 
 
 [En savoir plus sur Attributs](https://vuejs.org/guide/essentials/template-syntax.html#attribute-bindings){ .md-button :target="_blank" }
+
+<small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
 
 ## Données en format HTML
