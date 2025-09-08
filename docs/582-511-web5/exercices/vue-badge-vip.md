@@ -10,7 +10,7 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
 ## Dossier de départ
 [📥 Téléchargez le dossier de départ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ElVmjbY2tgxOvxTf8hqQh1YBRAi22PQUkIYkYCbtjG4YKA?e=cnGW1d)
 
----
+
 
 ## Étapes à suivre
 
@@ -48,7 +48,7 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
   - En JavaScript, dans le data() de votre app Vue, ajoutez une donnée correspondant à cette image, elle doit contenir le chemin d'accès à ce fichier image.
   - Dans le HTML, affichez maintenant cette image en utilisant la **liaison d’attribut** (attribute binding) avec `v-bind:src` ou sa syntaxe courte `:src`.
 
----
+
 
 ## Résultat attendu
 
@@ -61,7 +61,7 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
   - Un emoji  
 - Si une valeur est modifiée dans `data()`, tous les endroits où elle est affichée changent aussi.
 
----
+
 
 ## Contraintes
 
@@ -72,7 +72,7 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
   - `:` ou `:v-bind`
 - ❌ Ne pas utiliser encore ce qu'on n'a pas couvert : `v-for`, `v-if`, `v-model`, événements ou méthodes.
 
----
+
 
 
 ## Notes de cours 📚
