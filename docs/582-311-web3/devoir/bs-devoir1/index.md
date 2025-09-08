@@ -88,4 +88,9 @@ Voici le résultat attendu sur 3 breakpoints :
 
 ## Remise
 
+Format .zip
+
+[nom de famille]-[prénom]_[identifiant du travail]<br>
+Exemple : gilbert-charlene_devoir01.zip
+
 15 septembre avant le début du cours
