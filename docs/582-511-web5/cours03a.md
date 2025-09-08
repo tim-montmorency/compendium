@@ -6,14 +6,14 @@
 
 ## Aujourd'hui
 
-- [ ] [Annonces à propos du tutorat](#Tutorat)
-- [ ] [Figma](#Figma)
-- [ ] Révision de Super Smash Bros 🕹️🎮👾
+- [ ] [Annonces à propos du tutorat](#tutorat)
+- [ ] [Figma](#figma)
+- [ ] [Révision de Super Smash Bros 🕹️🎮👾](#revision-super-smash-bros)
 - [ ] [Vue.js](#vuejs)
   - [ ] Introduction
   - [ ] Création d'une app
   - [ ] Interpolation de données
-
+- [ ] [Exercice badge VIP](#exercice-badge-vip)
 
 
 ## Tutorat
@@ -65,7 +65,7 @@ Par exemple :
 
 
 
-## Exercice de révision Super Smash Bros
+## Révision Super Smash Bros
 
 ..
 
