@@ -98,12 +98,21 @@ Quelques exemples que j'ai sélectionnés pour vous :
 - [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw)
 
 ### Vue.js : Introduction
+
 - [Introduction](./vue/index.html)
 
 ### Vue.js : Création d'une app Vue.js
+
 - [Création d'une app](./vue/creation-app.html)
 
 ### Vue.js : Interpolation de données
+
 - [Interpolation des données](./vue/interpolation.html)
+
+## Exercices
+
+[Lien à venir](#){ .md-button :target="_blank" }
+<!-- [Exercice Vue.js: Badge VIP Festif](./exercices/vue-badge-vip.md){ .md-button :target="_blank" } -->
+
 
 ## Devoirs
