@@ -12,7 +12,7 @@
 
 - [ ] **Menu "hamburger" (trois lignes horizontales)**  
   - **Presets** > **Load preset** > **Factory default** Pour activer le setting, il faut cliquer sur bouton sur le coté doit du Sound Device. 
-  - Le **Factory default** est déjà configuré en **48 kHz**, **24 bits**, avec le limiteur activé par défaut.
+  - Le **Factory default** est déjà configuré en **48 kHz**, **24 bits**, avec le limiteur activé par défaut. Pour voir le setting, 48 khz et 24 bits, il faut cliquer sur la barre blanche en bas de l'écran. 
 
 - [ ] **Menu "écouteurs"**  
   - Sélectionner les écouteurs.
@@ -20,7 +20,7 @@
 
 - [ ] **Configurer l'input 1**  
   - Cliquer sur la **roulette de l'input 1** pour accéder au menu.
-  - **PAN** = **C** (Center).
+  - **PAN** = **C** (Center). On va distribuer le son de l'input 1 dans le L / R.
   - **INPUT** = **MIC** (si un micro est branché).
   - **PHANTOM POWER** = **48 VOLTS** (si le micro nécessite une alimentation).
   - **LOW CUT** = **ON** (activez le coupe-bas pour éliminer les basses fréquences, recommandé dans presque toutes les situations).
