@@ -8,6 +8,7 @@
 
 - [ ] [Annonces à propos du tutorat](#tutorat)
 - [ ] [Figma](#figma)
+- [ ] [Révision en pair du Bootcamp JS](#Bootcamp JS)
 - [ ] [Révision de Super Smash Bros 🕹️🎮👾](#revision-super-smash-bros)
 - [ ] [Vue.js](#vuejs)
   - [ ] Introduction
@@ -64,10 +65,13 @@ Par exemple :
     → [Cliquez ici pour en savoir plus](https://help.figma.com/hc/fr/articles/360041061214-V%C3%A9rifier-le-statut-%C3%A9ducation)
 
 
+## Bootcamp JS
+
+Révision en pair, par équipe de 2, sélectionnées par l'enseignante.
 
 ## Révision Super Smash Bros
 
-..
+Révision en classe.
 
 
 ## Vue.js
