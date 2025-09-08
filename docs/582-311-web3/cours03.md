@@ -564,7 +564,7 @@ On utilise souvent ces classes afin de déterminer ce qui doit être affiché su
   ![](./assets/images/vador.jpg)
 
   <small>Exercice - JavaScript & Bootstrap</small><br>
-  **[Changer le thème du site en JavaScript](exercices/bs-darkmode.md){.stretched-link .back}**
+  **[Dark Vador](exercices/bs-darkmode.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
