@@ -1,6 +1,7 @@
 # Cours 3
 
 ## Consignes tournage (15 minutes)
+* Avoir vos projets via TEAMS 
 * Revoir le focus manuel
 * Revoir la profondeur de champs
 
