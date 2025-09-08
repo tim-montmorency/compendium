@@ -1,6 +1,6 @@
 # Interpolation de données [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
-## Données {{ }}
+## Données
 
 Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <code>data</code>: une fonction retournant les données susceptibles de changer dans l'application.
 
@@ -142,8 +142,9 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 
 
 ## Données en format HTML
-<p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <incode>v-html</incode> sur la balise qui contiendra votre donnée.</p>
+<p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <code>v-html</code> sur la balise qui contiendra votre donnée.</p>
 
+En JavaScript
 ```
 const app = Vue.createApp({
   data() {
@@ -153,6 +154,14 @@ const app = Vue.createApp({
   }
 });
 app.mount('#app');
+```
+En HTML
+
+
+```
+<div v-html="monTitre">
+    
+</div>
 ```
 
 
