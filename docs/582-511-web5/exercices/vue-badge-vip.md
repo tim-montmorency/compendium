@@ -80,8 +80,8 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
 
 ## Notes de cours 📚
 
-- [Vue: Introduction](./vue/index.html)
+- [Vue: Introduction](../vue/index.html)
 
-- [Vue: Création d'une app](./vue/creation-app.html)
+- [Vue: Création d'une app](../vue/creation-app.html)
 
-- [Vue: Interpolation des données](./vue/interpolation.html)
+- [Vue: Interpolation des données](../vue/interpolation.html)
