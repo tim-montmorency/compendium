@@ -1,5 +1,8 @@
 # Exercice Vue.js: Badge VIP Festif
 
+## Démo
+![](./assets/vue-badge-vip-demo.png)
+
 ## Objectif
 Créer une première **application Vue.js** simple qui utilise l’**interpolation `{{ }}`** pour afficher des données définies dans `data()`.
 
