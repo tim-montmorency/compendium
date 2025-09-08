@@ -2,13 +2,12 @@
 
 [STOP]
 
-PRÉVOIR UN FORMATIF
-
 Installation par ligne de commande, gitignore et github
 
 Customize les couleurs
 
 Bootstrap : icônes, cartes, formulaires, composantes JavaScript (modals, toasts, dropdown, accordions, carousel)
+
 Swiper
 
 <style>
@@ -16,7 +15,6 @@ Swiper
     display: none;
   }
 </style>
-
 
 ## Icônes
 
