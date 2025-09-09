@@ -10,7 +10,7 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
 Dans le cadre des cours **Web 5** et **Préparation au milieu de travail** vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels.
 
-Pour le cours de **Préparation au milieu de travail**, c'est le contenu de ce portfolio qui sera évalué.
+Pour le cours de **Préparation au milieu de travail**, c'est le *contenu* de ce portfolio qui sera évalué.
 
 Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués.
 
@@ -52,22 +52,81 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
     L'utilisation de l'IA est permise pour vous aider à vous déboguer SEULEMENT SI vous partagez le lien de votre conversation avec l'IA lors de la remise. Toutes les questions posées doivent être dans le même fil conversationnel. Si par erreur vous posez une question dans un autre fil, veuillez remettre tous les fils conversationnel que vous aurez utilisés. Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
 
+## Obligatoire pour Web&nbsp5 pour le portfolio
+
+- Utiliser un **dépôt GitHub** avec des commits réguliers et bien nommés.  
+- Intégrer au moins une **animation GSAP** déclenchée au défilement (scroll).  
+- Séparer les **données des projets** dans un fichier `projects.json` et les charger via l’**API fetch**.  
+- Prévoir une **mise en page flexible** permettant d’ajouter facilement des projets ultérieurement.  
+- Créer et intégrer un **composant Vue.js** codé par vous-même.  
+- **Commenter le code** (HTML, CSS et JavaScript) dans vos propres mots afin de démontrer votre compréhension.  
+- S’assurer que le **code est validé** par le validateur **W3C**.  
+- Rendre le site **responsive** (adaptable aux différents écrans).  
+
+
 ## Compétences démontrées
 
-- a
-- b
+- Planification, organisation personnelle, documentation.
+- Créativité et minutie au niveau du design.
+- Structure sémantique HTML.
+- Mise en page CSS (Flexbox, Grid).
+- Interactions JavaScript fonctionnelles (menus, carrousel, lightbox, animations, filtres etc).
+- Accessibilité, performance et optimisation pour moteur de recherche.
+- Responsive design.
 
 
 ## Calendrier
 
-## Dates de remise
+![septembre](./assets/portfolio-calendrier-2025-page1.png)
+![octobre](./assets/portfolio-calendrier-2025-page2.png)
 
-* **17 septembre**: Remise de la planification de portfolio
-* **24 septembre**: Remise du design du portfolio (mobile et desktop)
+[📥 Téléchargez le calendrier en PDF](./assets/portfolio-calendrier-2025.pdf){ .md-button :target="_blank" }
+
+## Dates de remise pour Web 5
+
+* **17 septembre**: Remise de la planification de portfolio (formatif)
+* **24 septembre**: Remise du design du portfolio versions mobile et desktop (formatif)
 * **1er octobre**: Remise du contenu intégré (suivi formatif)
-* **29 octobre**: Remise du portfolio final
+* **29 octobre**: Remise du portfolio final (sommatif: 25%)
 
 ## Critères d'évaluation
+
+### 1. Planification & recherche  
+
+- **Moodboard visuel** : choix et harmonie des couleurs, typographies, ambiance, références cohérentes.  
+- **Justification du concept** : explication des choix visuels/ergonomiques, lien avec la personnalité ou le type de stage visé.  
+- **Organisation du contenu** : plan clair (sections du portfolio, hiérarchie de l’information).  
+
+### 2. Design du site  
+
+- **Qualité visuelle** : cohérence graphique, respect du moodboard, esthétique générale.  
+- **UX et navigation** : ergonomie, lisibilité, accessibilité de base, responsive design pensé dès la maquette.  
+- **Originalité et personnalisation** : effort créatif pour se démarquer, éviter les templates génériques.  
+
+### 3. Codage HTML + CSS 
+
+- **Structure HTML** : sémantique, hiérarchie, respect des standards W3C, titres et balises correctes.  
+- **CSS et mise en page** : utilisation claire de Grid/Flexbox, propreté du code, classes logiques.  
+- **Responsive design** : site adapté aux écrans mobiles et desktop, sans bogues majeurs.  
+- **Accessibilité & SEO de base** : contraste suffisant, textes alternatifs pour images, métadonnées essentielles.  
+- **Nomenclature des fichiers** : dossiers, fichiers et images bien nommés (sans caractères spéciaux, sans espaces ni accents).  
+
+### 4. Composante Vue.js  
+
+- **Fonctionnalité correcte** : la composante fonctionne, interaction fluide, pas de bug majeur.  
+- **Utilisation de Vue** : data, rendu dynamique via `v-for` / `v-if`, interaction avec `@click` ou autres directives.  
+- **Pertinence du widget** : apporte une valeur réelle au portfolio.  
+
+### 5. Animation GSAP 
+
+- **Intégration d’une animation GSAP** : déclenchée au scroll ou à l’interaction, correctement intégrée.  
+
+### 6. Documentation & mise en ligne 
+
+- **Déploiement web** : intégration adéquate sur un serveur web.  
+- **README.md clair** : description du projet, instructions d’installation et d’utilisation.  
+- **Journal-IA.md** : si utilisation de l’IA, documentation complète des prompts utilisés.  
+
 
 ## Sites de référence d'inspiration
 
