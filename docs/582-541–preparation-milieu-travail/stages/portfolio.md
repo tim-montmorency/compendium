@@ -14,6 +14,10 @@ Dans le cadre des cours Web 5 et Préparation au milieu de travail vous avez à 
 * Description **juste** de vos réalisations et de vos compétences
 * Mise en page **adéquate** d'un portfolio pour un employeur
 
+## Contenu obligatoire de votre planification de portfolio
+[💼 Modèle à copier dans votre journal de bord](https://github.com/tim-montmorency-preparation-stage/modele_journal_preparation_stage/blob/main/03_planification_portfolio.md){ .md-button }    
+
+
 ## Contenu obligatoire de votre portfolio
 Votre portfolio doit être en lien avec vos intérêts. 
 
