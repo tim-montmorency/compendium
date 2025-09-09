@@ -14,6 +14,7 @@
 * [Réglages de la caméra](./references/Caméra.md)
 * [Réglages de la lumière](./references/Lumière.md)
 * [Réglages du moniteur](./references/Moniteur.md)
+* [Réglages du moniteur](./references/spot_ellipsoïdal.md)
 
 
 ## Exercices de vidéo (60 minutes)
