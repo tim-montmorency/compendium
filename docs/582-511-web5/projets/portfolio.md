@@ -14,11 +14,11 @@ Pour le cours de **Préparation au milieu de travail**, c'est le *contenu* de ce
 
 Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués.
 
-[Voir les critères d'évaluation complets ci-bas.](#criteres-devaluation){ .md-button }
+[📋✅ Voir les critères d'évaluation complets ci-bas.](#criteres-devaluation){ .md-button }
 
 <hr>
 
-[Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
+[Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button .x-small }
 
 ## Format
 
