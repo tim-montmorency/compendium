@@ -73,7 +73,6 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - Accessibilité, performance et optimisation pour moteur de recherche.
 - Responsive design.
 
-
 ## Calendrier
 
 ![septembre](./assets/portfolio-calendrier-2025-page1.png)
@@ -83,12 +82,10 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 ## Dates de remise pour Web 5
 
-- **17 septembre**: Remise de la planification de portfolio (formatif)
-- **24 septembre**: Remise du design du portfolio versions mobile et desktop (formatif)
-- **1er octobre**: Remise du contenu intégré (suivi formatif)
-- **29 octobre**: Remise du portfolio final (sommatif: 25%)
-
-
+- *17 septembre* : Remise de la planification de portfolio (formatif)
+- *24 septembre* : Remise du design du portfolio versions mobile et desktop (formatif)
+- *1er octobre* : Remise du contenu intégré (suivi formatif)
+- *29 octobre* : Remise du portfolio final (sommatif: 25%)
 
 
 ## Critères d'évaluation
@@ -108,14 +105,14 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 ### 3. Codage HTML + CSS 
 
 - **Structure HTML** : sémantique, hiérarchie, respect des standards W3C, titres et balises correctes.  
-- **CSS et mise en page** : utilisation claire de Grid/Flexbox, propreté du code, classes logiques.  
+- **CSS et mise en page** : utilisation claire de Grid/Flexbox, propreté du code, classes nommées nommées logiquement.  
 - **Responsive design** : site adapté aux écrans mobiles et desktop, sans bogues majeurs.  
 - **Accessibilité & SEO de base** : contraste suffisant, textes alternatifs pour images, métadonnées essentielles.  
 - **Nomenclature des fichiers** : dossiers, fichiers et images bien nommés (sans caractères spéciaux, sans espaces ni accents).  
 
 ### 4. Composante Vue.js  
 
-- **Fonctionnalité correcte** : la composante fonctionne, interaction fluide, pas de bug majeur.  
+- **Fonctionnalité correcte** : la composante fonctionne, interaction fluide, pas de bogue majeur.  
 - **Utilisation de Vue** : data, rendu dynamique via `v-for` / `v-if`, interaction avec `@click` ou autres directives.  
 - **Pertinence du widget** : apporte une valeur réelle au portfolio.  
 
@@ -126,7 +123,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 ### 6. Documentation & mise en ligne 
 
 - **Déploiement web** : intégration adéquate sur un serveur web.  
-- **README.md clair** : description du projet, instructions d’installation et d’utilisation.  
+- **README.md clair** : description du projet, Documentation claire dans un README.md. 
 - **Journal-IA.md** : si utilisation de l’IA, documentation complète des prompts utilisés.  
 
 
