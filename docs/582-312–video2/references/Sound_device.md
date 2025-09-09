@@ -1,10 +1,16 @@
-## RÉGLAGES DE BASE DU SOUND DEVICES MIXPRE-3
+# RÉGLAGES DE BASE DU SOUND DEVICES MIXPRE-3
 
-- [ ] **Brancher le XLR de la perche dans l'Input 1**  
-  - Connectez le câble XLR de la perche au port **Input 1** (première prise XLR à gauche).  
-  - Vérifiez que le connecteur est bien enclenché (clic du verrou).  
+- ✅ **Brancher le micro à la perche**  
+  - Fixez le micro perche (ex. Sennheiser MKH-416) au bout de la perche dans sa suspension (shockmount).  
+  - Branchez le câble **XLR** au micro, puis faites passer le câble le long de la perche.  
+  - Branchez ensuite l’autre extrémité du XLR dans le port **Input 1** du Sound Devices (première prise XLR à gauche).  
+  - Vérifiez que les connecteurs sont bien enclenchés (clic du verrou).  
+  - 💡 **Manipulation de la perche** :  
+    - Pour **serrer un verrou de section télescopique**, tenez toujours la perche par la partie recouverte de **foam** (mousse) avec une main.  
+    - Avec l’autre main, tournez le verrou correspondant pour le serrer.  
+    - Vérifiez que chaque section télescopique est bien **serrée** → sinon la perche risque de se refermer en tournage.  
 
-- [ ] **Brancher les écouteurs**  
+- ✅ **Brancher les écouteurs**  
   - Branchez vos écouteurs dans la sortie casque (jack 3,5 mm) sur le côté droit de l’appareil.  
   - Vous pourrez ainsi surveiller le son en temps réel.  
 
@@ -12,46 +18,43 @@
 
 ## RÉGLAGES
 
-- [ ] **Menu "hamburger" (trois lignes horizontales)**  
+- ✅ **Menu "hamburger" (trois lignes horizontales)**  
   - Ouvrir : **Presets > Load Preset > Factory Default**.  
-  - Pour naviguer dans le menu, tournez le **gros bouton rotatif-poussoir droit**.  
-  - Pour valider une sélection, appuyez sur ce même bouton.  
+  - Tournez le **gros bouton rotatif-poussoir droit** pour naviguer.  
+  - Appuyez dessus pour valider.  
   - Le **Factory Default** configure l’appareil sur :  
     - **48 kHz** (fréquence d’échantillonnage),  
     - **24 bits** (profondeur d’enregistrement),  
-    - **Limiters activés**.  
+    - **Limiters activés**,  
+    - **Low Cut déjà activé (souvent à 80 Hz par défaut)**.  
   - Pour vérifier ces paramètres : **Menu > System > Record**.  
   - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit.  
 
-- [ ] **Menu "écouteurs"**  
+- ✅ **Menu "écouteurs"**  
   - Appuyez sur l’icône **casque audio**.  
   - Choisissez un **Headphone Preset**.  
   - Sélectionnez **L/R STÉRÉO** pour entendre le signal de l’Input 1 dans les deux oreilles.  
   - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit.  
+  - 💡 Vérifiez dans vos écouteurs que la voix est bien présente dans les deux oreilles avant de commencer.  
 
-- [ ] **Configurer l'Input 1**  
+- ✅ **Configurer l'Input 1**  
   - Appuyez sur le **bouton physique de l’Input 1** (le premier potentiomètre à gauche). Cela ouvre le menu complet de cette entrée.  
   - Réglez comme suit :  
     - **PAN** = **C (Center)** → distribue le signal sur gauche/droite.  
-    - **INPUT TYPE** = **MIC** (si un micro est branché directement).  
-    - **PHANTOM POWER** = **48 V**  
-      - Sert à alimenter les **micros statiques / condensateurs** qui ne fonctionnent pas sans électricité (ex. Sennheiser MKH-416, Schoeps, Neumann).  
-      - ⚠️ N’activez PAS le phantom si vous utilisez :  
-        - un micro qui a sa propre pile (ex. Rode NTG-2 avec AA),  
-        - un micro dynamique (ex. Shure SM58).  
-    - **LOW CUT** = **ON** → choisir la fréquence :  
-      - **80 Hz** = réglage par défaut recommandé (coupe les bruits de manipulation/vent).  
-      - **40 Hz** = si vous voulez garder plus de graves (voix graves, ambiances).  
-      - **160 Hz** = seulement en cas de fort bruit de fond (circulation, vent violent).  
+    - **INPUT TYPE** = **MIC** (micro branché directement).  
+    - ⚠️ **PHANTOM POWER = 48 V** → doit être activé avec le micro perche utilisé (**Sennheiser MKH-416**) car c’est un micro statique à condensateur qui a besoin d’alimentation électrique.  
+      - Ne jamais activer le Phantom avec un micro dynamique ou un micro qui a sa propre pile.  
+    - **LOW CUT** = déjà activé par le preset (en général à **80 Hz**).  
+      - 💡 Sert à couper les basses fréquences inutiles (vent, manipulation, vibrations).  
+      - Vous pouvez le laisser à 80 Hz.  
+      - Optionnellement : descendre à **40 Hz** pour garder plus de graves, ou monter à **160 Hz** en environnement très bruyant.  
   - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit.  
 
-- [ ] **Désactiver les inputs inutilisés**  
+- ✅ **Désactiver les inputs inutilisés**  
   - Fermez les **potentiomètres physiques** des Inputs 2 et 3 (tournez complètement à gauche).  
   - Cela évite que du bruit blanc entre dans le mix L/R.  
   - ℹ️ Note : pour désactiver complètement une entrée, vous pouvez aussi entrer dans son menu et mettre **Input Type = OFF**.  
   - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit si vous passez par le menu.  
-
----
 
 
 ## NOTES
