@@ -27,12 +27,12 @@ Cette liste n'est pas complète mais elle inclut un grande partie des contenus q
 
 - [Tout](https://tim-montmorency.com/timdoc/index/web/){ :target="_blank" }
 - [JavaScript (en partie)](https://tim-montmorency.com/timdoc/index/web/javascript/){ :target="_blank" }
-- [JavaScript: révision en début de Web 3](https://tim-montmorency.com/compendium/582-311-web3/cours01.html#revision-javascript){ :target="_blank" } **AJOUT** 
-- [JavaScript - Cours de programmation interactive (prof actuel)](https://discovro-js.netlify.app/){ :target="_blank" } **AJOUT** 
+- [JavaScript: révision en début de Web 3](https://tim-montmorency.com/compendium/582-311-web3/cours01.html#revision-javascript){ :target="_blank" } **AJOUT**
+- [JavaScript - Cours de programmation interactive (prof actuel)](https://discovro-js.netlify.app/){ :target="_blank" } **AJOUT**
 - [CSS](https://tim-montmorency.com/timdoc/582-211/css/){ :target="_blank" }
 - [HTML](https://tim-montmorency.com/timdoc/index/web/html/){ :target="_blank" }
 - [Cadriciels: Bootstrap, Swiper, GSAP](https://tim-montmorency.com/timdoc/index/web/cadriciels/){ :target="_blank" }
-- [CMS: WordPress](https://tim-montmorency.com/compendium/582-411-web4/cours01.html){ :target="_blank" } **AJOUT** 
+- [CMS: WordPress](https://tim-montmorency.com/compendium/582-411-web4/cours01.html){ :target="_blank" } **AJOUT**
 
 ## Annonces à propos du tutorat
 
@@ -41,7 +41,8 @@ Cette liste n'est pas complète mais elle inclut un grande partie des contenus q
 
 ## Révision de l'exercice *Les actualités Google*
 
-[🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" } 
+[🛠️ Les actualités Google](https://tim-montmorency.com/timdoc/582-211/css/exercices/flexbox-actualite-google/){ .md-button :target="_blank" }
+
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/raOZeXQ)
 
 ## Discussion: Corrigé des exercices
@@ -50,7 +51,8 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 
 ## Activité de révision de l'exercice du *Jeu du 27*
 
-[🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }  
+[🎲 Dérouillage JavaScript: Le jeu du 27](https://tim-montmorency.com/timdoc/582-518MO/exercices/cartes-jeu-du-27/){ .md-button :target="_blank" }
+
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/wvQLGoO)
 
 - Résumé visuel au tableau blanc
@@ -58,7 +60,8 @@ Vous laisser le corriger des exercices: Bonne ou mauvaise approche? Discutons-en
 
 ## Camp d'entrainement JavaScript
 
-[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" }
+
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/YPydodm)
 
 
