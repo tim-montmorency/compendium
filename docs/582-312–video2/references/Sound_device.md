@@ -1,34 +1,58 @@
-# RÉGLAGES DE BASE DU SOUND DEVICES MIXPRE 3
+## RÉGLAGES DE BASE DU SOUND DEVICES MIXPRE-3
 
 - [ ] **Brancher le XLR de la perche dans l'Input 1**  
-  - Connectez le câble XLR de la perche au port **Input 1** du Sound Devices.
+  - Connectez le câble XLR de la perche au port **Input 1** (première prise XLR à gauche).  
+  - Vérifiez que le connecteur est bien enclenché (clic du verrou).  
 
 - [ ] **Brancher les écouteurs**  
-  - Branchez vos écouteurs dans la prise prévue à cet effet pour surveiller le son.
+  - Branchez vos écouteurs dans la sortie casque (jack 3,5 mm) sur le côté droit de l’appareil.  
+  - Vous pourrez ainsi surveiller le son en temps réel.  
 
 ---
 
 ## RÉGLAGES
 
 - [ ] **Menu "hamburger" (trois lignes horizontales)**  
-  - **Presets** > **Load preset** > **Factory default** Pour activer le setting, il faut cliquer sur bouton sur le coté doit du Sound Device. 
-  - Le **Factory default** est déjà configuré en **48 kHz**, **24 bits**, avec le limiteur activé par défaut. Pour voir le setting, 48 khz et 24 bits, il faut cliquer sur la barre blanche en bas de l'écran. 
+  - Ouvrir : **Presets > Load Preset > Factory Default**.  
+  - Pour naviguer dans le menu, tournez le **gros bouton rotatif-poussoir droit**.  
+  - Pour valider une sélection, appuyez sur ce même bouton.  
+  - Le **Factory Default** configure l’appareil sur :  
+    - **48 kHz** (fréquence d’échantillonnage),  
+    - **24 bits** (profondeur d’enregistrement),  
+    - **Limiters activés**.  
+  - Pour vérifier ces paramètres : **Menu > System > Record**.  
+  - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit.  
 
 - [ ] **Menu "écouteurs"**  
-  - Sélectionner les écouteurs.
-  - Activer la sortie **L/R STÉRÉO**.
+  - Appuyez sur l’icône **casque audio**.  
+  - Choisissez un **Headphone Preset**.  
+  - Sélectionnez **L/R STÉRÉO** pour entendre le signal de l’Input 1 dans les deux oreilles.  
+  - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit.  
 
-- [ ] **Configurer l'input 1**  
-  - Cliquer sur la **roulette de l'input 1** pour accéder au menu.
-  - **PAN** = **C** (Center). On va distribuer le son de l'input 1 dans le L / R.
-  - **INPUT** = **MIC** (si un micro est branché).
-  - **PHANTOM POWER** = **48 VOLTS** (si le micro nécessite une alimentation).
-  - **LOW CUT** = **ON** (activez le coupe-bas pour éliminer les basses fréquences, recommandé dans presque toutes les situations).
+- [ ] **Configurer l'Input 1**  
+  - Appuyez sur le **bouton physique de l’Input 1** (le premier potentiomètre à gauche). Cela ouvre le menu complet de cette entrée.  
+  - Réglez comme suit :  
+    - **PAN** = **C (Center)** → distribue le signal sur gauche/droite.  
+    - **INPUT TYPE** = **MIC** (si un micro est branché directement).  
+    - **PHANTOM POWER** = **48 V**  
+      - Sert à alimenter les **micros statiques / condensateurs** qui ne fonctionnent pas sans électricité (ex. Sennheiser MKH-416, Schoeps, Neumann).  
+      - ⚠️ N’activez PAS le phantom si vous utilisez :  
+        - un micro qui a sa propre pile (ex. Rode NTG-2 avec AA),  
+        - un micro dynamique (ex. Shure SM58).  
+    - **LOW CUT** = **ON** → choisir la fréquence :  
+      - **80 Hz** = réglage par défaut recommandé (coupe les bruits de manipulation/vent).  
+      - **40 Hz** = si vous voulez garder plus de graves (voix graves, ambiances).  
+      - **160 Hz** = seulement en cas de fort bruit de fond (circulation, vent violent).  
+  - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit.  
 
 - [ ] **Désactiver les inputs inutilisés**  
-  - Éteindre les **input 2** et **input 3** à l’aide du potentiomètre si non utilisés, afin d’éviter le bruit blanc.
+  - Fermez les **potentiomètres physiques** des Inputs 2 et 3 (tournez complètement à gauche).  
+  - Cela évite que du bruit blanc entre dans le mix L/R.  
+  - ℹ️ Note : pour désactiver complètement une entrée, vous pouvez aussi entrer dans son menu et mettre **Input Type = OFF**.  
+  - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit si vous passez par le menu.  
 
 ---
+
 
 ## NOTES
 
