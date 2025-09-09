@@ -2,7 +2,10 @@
 
 
 ## Description
-Dans le cadre des cours Web 5 et Préparation au milieu de travail vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels. Pour le cours de préparation au milieu de travail, c'est le contenu de ce portfolio qui sera évalué. 
+Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels. Pour le cours de préparation au milieu de travail, c'est le contenu de ce portfolio qui sera évalué.
+
+[Lien vers les insctrutions pour le cours *Web 5*](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html){ .md-button }
+
 
 ## Technologies permises
 !!! warning "Attention"
@@ -50,9 +53,6 @@ Les éléments suivants doivent être présents dans votre portfolio :
 * **Compétences**: Une section de votre portfolio présente adéquatement les compétences que vous détenez. 
 * **Mise en page et cohérence du portfolio**: Le portfolio est cohérent, les compétences que vous avez sélectionnées sont mises en valeur par vos projets. La hiérarchie est adéquate, on arrive à se retouver facilement dans votre portfolio.
 * **Qualité du français**
-
-## Notes de cours web 5
-[💼 Consignes pour votre portfolio dans le cours Web 5](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html){ .md-button }  
 
 ## Exemples de portfolios
 [💼 Portfolio de Audrey Dandurand](https://audreydandurand.github.io/index.html){ .md-button }    
