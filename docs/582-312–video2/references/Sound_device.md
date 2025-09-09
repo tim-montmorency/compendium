@@ -53,8 +53,6 @@
 - ✅ **Désactiver les inputs inutilisés**  
   - Fermez les **potentiomètres physiques** des Inputs 2 et 3 (tournez complètement à gauche).  
   - Cela évite que du bruit blanc entre dans le mix L/R.  
-  - ℹ️ Note : pour désactiver complètement une entrée, vous pouvez aussi entrer dans son menu et mettre **Input Type = OFF**.  
-  - ⚠️ N’oubliez pas de valider avec le bouton rotatif droit si vous passez par le menu.  
 
 
 ## NOTES
