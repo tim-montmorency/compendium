@@ -18,5 +18,6 @@ Remplir le document candidature_courriel dans votre journal de bord GitHub. Cibl
 ## Préparation à la simulation d'entrevue
 Remplir la première partie du document simulation_entrevue sur GitHub. 
 
+
 ## Devoir
 Terminer les documents GitHub sur les candidatures courriel et les simulation d'entrevue. 

@@ -2,7 +2,7 @@
 
 
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EWWRHsWk-vVFtpyrmA1AHxUBZg51IGTPJaly8lkksVvGjQ?e=zkAHNU){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EXtcFkEHWRhOhUu4U74qxHoB76y3Fu5G2PhiV_vwDXfBnQ?e=M8oU1Y){ .md-button }   <br>
 
 ## Tutorat 
 * [Horaire](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/)

@@ -22,8 +22,8 @@
     * Vitesse d'obturationo
     * Mise au point
     * Profondeur de champ
-  * Installation spot lightpanel
-  * Installation spot ellipsoïdal
+  * [Installation Litepanel](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EqCm22Q2t9lJlm8X8TgGtycBTf9jBRFqcmy26ZS0rzYhkQ?e=EBsE3O)
+  * [Installation spot ellipsoidal](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoaSFwafkNdEjeKL4GhRl14BDHhbf-Ann5QlSrShIt0xcQ?e=BkDng2) et [Réglages du spot_ellipsoïdal](./references/spot_ellipsoïdal.md)
   * Présentation de la boîte à effets (miroir, plexiglass, spray, filtres)
   
 ## Section pratique (115 minutes)
