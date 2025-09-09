@@ -15,7 +15,5 @@ Remplir le document linkedin dans GitHub.
 
 
 
-## Temps pour les comités de la journée carrière
-
 ## Devoir
 Terminer la lettre de présentation
