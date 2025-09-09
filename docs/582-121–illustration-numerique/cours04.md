@@ -27,16 +27,15 @@
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>
 
 
-  ## Travail en classe
-  [📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
-  * Travailler avec la grille et les règles<br>
-  * Travailler avec les alignements
-  * Faire des rectangles
+## Travail en classe
+[📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
+* Travailler avec la grille et les règles<br>
+* Travailler avec les alignements
+* Faire des rectangles
 
 
 
 ## Devoir
-
 [📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
 
 Faire [le devoir 1 / partie 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Ev3sg_u6lPhJrOXz_YBdIYMBXUVSAP7yQXQFNX5oDif8DQ?e=x3VgU0) suivant pour la semaine prochaine.
