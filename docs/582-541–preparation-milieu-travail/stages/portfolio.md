@@ -12,8 +12,14 @@ Les éléments suivants doivent être présents dans votre portfolio :
 
 
 <h2>Exemples de portfolios</h2>
-[💼 Portfolio de Audrey Dandurand](https://audreydandurand.github.io/index.html){ .md-button }     
+[💼 Portfolio de Audrey Dandurand](https://audreydandurand.github.io/index.html){ .md-button }    
+[💼 Portfolio de Justine Rousseau](https://justinersu.github.io/){ .md-button }    
 [💼 Portfolio de Victor Gileau](https://victorgileau.github.io/victorgileau_portfolio/index.html){ .md-button }         
 [💼 Portfolio de Joshua Gonzalez-Barrera](https://jxshvfx.github.io/joshuagonzalez.github.io/){ .md-button }     
 [💼 Portfolio de Ikrame Rata](https://ikramert.ca/){ .md-button }     
 [💼 Portfolio de Kenza El Harrif](https://kenzaelharrif.github.io/KenzaElHarrif_portfolio/index.html){ .md-button }      
+[💼 Portfolio de Delphine Grenier](https://delphineg-projets.github.io/portfolio){ .md-button }      
+[💼 Portfolio de Ihab Mouhajer](https://ihabmjr.github.io/){ .md-button }     
+[💼 Portfolio de Daniel Sébastien Dezemma](https://dezemma.com/){ .md-button }      
+[💼 Portfolio de Michaël Un Dupré](https://michaelu-d.github.io/portfolio/){ .md-button }
+[💼 Portfolio de Sitmonternna Yi](https://sitmonternna.github.io/artist_portfolio/){ .md-button }
