@@ -31,9 +31,9 @@ Les éléments suivants doivent être présents dans votre portfolio :
 <li>Minimum de 4 projets avec pour chaque projet :<ul><li>Le nom de votre projet</li><li>Le cours dans lequel il a été réalisé si applicable</li><li>La mention projet individuel ou en équipe</li><li>Le nom de vos coéquipiers</li><li>Une description courte du projet qui pourrait être utilisée comme introduction de votre projet</li><li>Une description plus longue qui explique ce qu’est le projet (incluant ce qui vous était demandé de réaliser versus ce que vous avez fait)</li><li>Des photos, extraits sonores ou vidéo du projet</li><li>Votre rôle</li><li>Les logiciels ou techniques utilisées</li><li>Pour un des projets, mettre des photos du processus de création (Captures d’écran, photo du montage ou tournage, …)</li></ul></li>
 
 ## Calendrier
-<img src="images/septembre.jpg" height="600" />    
+<img src="image/septembre.jpg" height="600" />    
 
-<img src="images/octobre.jpg" height="600" />
+<img src="image/octobre.jpg" height="600" />
 
 ## Dates de remise
 * **17 septembre**: Remise de la planification de portfolio
