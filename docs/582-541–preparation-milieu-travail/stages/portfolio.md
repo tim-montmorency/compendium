@@ -51,6 +51,8 @@ Les éléments suivants doivent être présents dans votre portfolio :
 * **Mise en page et cohérence du portfolio**: Le portfolio est cohérent, les compétences que vous avez sélectionnées sont mises en valeur par vos projets. La hiérarchie est adéquate, on arrive à se retouver facilement dans votre portfolio.
 * **Qualité du français**
 
+## Notes de cours web 5
+[💼 Consignes pour votre portfolio dans le cours Web 5](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html){ .md-button }  
 
 ## Exemples de portfolios
 [💼 Portfolio de Audrey Dandurand](https://audreydandurand.github.io/index.html){ .md-button }    
