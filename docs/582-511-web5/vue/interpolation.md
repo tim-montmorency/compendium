@@ -68,7 +68,7 @@ Affichera en fait:
 ```
 
 
-[En savoir plus sur l'interpolation](https://vuejs.org/guide/essentials/template-syntax.html#text-interpolation){ .md-button :target="_blank" }
+[En savoir plus sur l'interpolation](https://fr.vuejs.org/guide/essentials/template-syntax.html#text-interpolation){ .md-button :target="_blank" }
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
@@ -136,12 +136,13 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
     Si un attribut est associé à une donnée dont la valeur équivaut à <code>null</code> ou <code>undefined</code>, l’attribut ne sera pas&nbsp;créé.
 
 
-[En savoir plus sur Attributs](https://vuejs.org/guide/essentials/template-syntax.html#attribute-bindings){ .md-button :target="_blank" }
+[En savoir plus sur Attributs](https://fr.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings){ .md-button :target="_blank" }
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
 
-## Données en format HTML
+## Données en format HTML via v-html
+
 <p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <code>v-html</code> sur la balise qui contiendra votre donnée.</p>
 
 En JavaScript
@@ -173,4 +174,8 @@ En HTML
 <div>
     <h2>Vue.js est formidable!</h2>
 </div>
+
+[En savoir plus sur le contenu HTML](https://fr.vuejs.org/guide/essentials/template-syntax#raw-html){ .md-button :target="_blank" }
+
+<small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 ```
