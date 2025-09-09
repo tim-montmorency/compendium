@@ -7,9 +7,5 @@
 
 
 
-## Avancement de la lettre de présentation
-
-
-
 ## Devoir
 Terminer la lettre de présentation
