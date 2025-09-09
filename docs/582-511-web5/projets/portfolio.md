@@ -14,11 +14,11 @@ Pour le cours de **Préparation au milieu de travail**, c'est le *contenu* de ce
 
 Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués.
 
-[📋✅ Voir les critères d'évaluation complets ci-bas.](#criteres-devaluation){ .md-button }
+[📋✅ Voir les critères d'évaluation complets pour Web 5 ci-bas.](#criteres-devaluation){ .md-button }
 
 <hr>
 
-[Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button .x-small }
+[Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
 
 ## Format
 
@@ -42,7 +42,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - Possibilité de s'acheter une *nom de domaine* personnalisé pour éviter d'avoir `github.io` comme nom de domaine et se doter d'un style plus professionnel
 
 <div style="margin: 30px 0; padding: 30px; border: 8px solid #ef5552;">
-    <h3 style="color: #ef5552;">À PROPOS DE L'<em>IA</em> EN ÉDUCATION</h3> 
+    <h3 style="color: #ef5552; margin-top: 0;">À PROPOS DE L'<em>IA</em> EN ÉDUCATION</h3> 
     <p>Vous pouvez utiliser l’IA pour apprendre mais <em>pas pour remplacer votre compréhension</em>. Toute aide d’IA doit être documentée dans journal-IA.md ou partagée lors de votre remise via un lien de la conversation avec la dite IA. Vous devez pouvoir expliquer votre code et le modifier en direct. </p>
     <p><strong><em>Un portfolio sert à convaincre un·e employeur·e que vous savez faire. On valorise l’honnêteté et l’apprentissage réel.<em> </strong></p>
 </div>
@@ -135,7 +135,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - [CSS Design Awards](https://www.cssdesignawards.com/)  
 - [Dribbble – Web Design (popular shots)](https://dribbble.com/shots/popular/web-design)  
 - [Carbonmade – Portfolios](https://carbonmade.com/portfolios)  
-- [Behance – Galleries](https://www.behance.net/galleries)  
+- [Behance – Portfolios](https://www.behance.net/search/projects/portfolio)  
 - [Wow Web](https://wow-web.co.uk/)  
 - [Art of the Title](http://www.artofthetitle.com)  
 - [Adobe – Behance Galleries](https://www.behance.net/galleries/adobe)  
