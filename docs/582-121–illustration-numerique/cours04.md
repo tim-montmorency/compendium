@@ -36,6 +36,9 @@
 
 
 ## Devoir
-  [📁 Projet 1 - partie 1](./projets/projet01.md){ .md-button }   <br>
+
+[📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
+
+Faire [le devoir 1 / partie 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Ev3sg_u6lPhJrOXz_YBdIYMBXUVSAP7yQXQFNX5oDif8DQ?e=x3VgU0) suivant pour la semaine prochaine.
 
   
