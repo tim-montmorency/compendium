@@ -4,6 +4,11 @@
 ## Description
 Dans le cadre des cours Web 5 et Préparation au milieu de travail vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels. Pour le cours de préparation au milieu de travail, c'est le contenu de ce portfolio qui sera évalué. 
 
+## Technologies permises
+!!! warning "Attention"
+
+    L'utilisation de l'IA sera permise seulement pour corriger vos fautes d'orthographes et faire des modifications mineures à votre syntaxe. Vous devez m'envoyer le lien de votre conversation avec l'IA pour que je puisse évaluer votre utilisation. 
+
 ## Compétences démontrées
 * Choix de projets **pertinents** dans le cadre de votre recherche de stage
 * Description **juste** de vos réalisations et de vos compétences
