@@ -10,10 +10,13 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
 Dans le cadre des cours **Web 5** et **Préparation au milieu de travail** vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels.
 
- Pour le cours de **Préparation au milieu de travail**, c'est le contenu de ce portfolio qui sera évalué.
+Pour le cours de **Préparation au milieu de travail**, c'est le contenu de ce portfolio qui sera évalué.
 
- Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués. 
- [Voir les critères d'évaluation complets ci-bas.](#criteres-devaluation)
+Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués.
+
+[Voir les critères d'évaluation complets ci-bas.](#criteres-devaluation){ .md-button }
+
+<hr>
 
 [Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
 
