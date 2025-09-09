@@ -51,7 +51,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
     L'utilisation de l'IA est permise pour vous aider à vous déboguer SEULEMENT SI vous partagez le lien de votre conversation avec l'IA lors de la remise. Toutes les questions posées doivent être dans le même fil conversationnel. Si par erreur vous posez une question dans un autre fil, veuillez remettre tous les fils conversationnel que vous aurez utilisés. Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
 
-## Obligatoire pour Web&nbsp5 pour le portfolio
+## Obligatoire pour Web 5
 
 - Utiliser un **dépôt GitHub** avec des commits réguliers et bien nommés.  
 - Intégrer au moins une **animation GSAP** déclenchée au défilement (scroll).  
@@ -83,10 +83,13 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 ## Dates de remise pour Web 5
 
-* **17 septembre**: Remise de la planification de portfolio (formatif)
-* **24 septembre**: Remise du design du portfolio versions mobile et desktop (formatif)
-* **1er octobre**: Remise du contenu intégré (suivi formatif)
-* **29 octobre**: Remise du portfolio final (sommatif: 25%)
+- **17 septembre**: Remise de la planification de portfolio (formatif)
+- **24 septembre**: Remise du design du portfolio versions mobile et desktop (formatif)
+- **1er octobre**: Remise du contenu intégré (suivi formatif)
+- **29 octobre**: Remise du portfolio final (sommatif: 25%)
+
+
+
 
 ## Critères d'évaluation
 
