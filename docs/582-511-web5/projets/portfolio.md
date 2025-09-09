@@ -1,20 +1,44 @@
 
-<!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+<!--
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
 
 # Portfolio
 
-
 ## Description
 
-Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels. Pour le cours de préparation au milieu de travail, c'est le contenu de ce portfolio qui sera évalué.
+Dans le cadre des cours **Web 5** et **Préparation au milieu de travail** vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels.
 
-[Lien vers les insctrutions pour le cours *Préparation au milieu de travail*](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
+ Pour le cours de **Préparation au milieu de travail**, c'est le contenu de ce portfolio qui sera évalué.
+
+ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués. 
+ [Voir les critères d'évaluation complets ci-bas.](#criteres-devaluation)
+
+[Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
+
+## Format
+
+**Site web statique fait à la main** (sans CMS ni thème déjà pré-fait)
+
+!!! question "Avantage de ce format"
+    C’est la façon la plus claire de démontrer que vous savez concevoir et coder vous-mêmes un site web à partir de zéro.
 
 ## Technologies permises
 
-!!! warning "Attention"
+- *HTML5*
+- *CSS3*
+- *JavaScript*
+- *Bootstrap*
+- *Vue.js*
+- *GSAP* + son plugin *ScrollTrigger*
+- *Git*
+- *Json*
+- *Hébergement web* de votre choix (je recommande simplement GitHub Pages car gratuit)
+- Possibilité de s'acheter une *nom de domaine* personnalisé pour éviter d'avoir `github.io` comme nom de domaine et se doter d'un style plus professionnel
+
+
+!!! warning "Attention à propos de l'utilisation de l'IA"
 
     L'utilisation de l'IA ...
 
