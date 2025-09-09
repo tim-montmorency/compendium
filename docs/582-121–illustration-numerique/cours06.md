@@ -1,5 +1,5 @@
 
-# Cours 6
+# Cours 7
 
 
 ### Notions : Outils de fluidité
