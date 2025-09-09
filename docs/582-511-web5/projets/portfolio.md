@@ -22,6 +22,7 @@ Dans le cadre des cours **Web 5** et **Préparation au milieu de travail** vous 
 **Site web statique fait à la main** (sans CMS ni thème déjà pré-fait)
 
 !!! question "Avantage de ce format"
+
     C’est la façon la plus claire de démontrer que vous savez concevoir et coder vous-mêmes un site web à partir de zéro.
 
 ## Technologies permises
@@ -37,10 +38,16 @@ Dans le cadre des cours **Web 5** et **Préparation au milieu de travail** vous 
 - *Hébergement web* de votre choix (je recommande simplement GitHub Pages car gratuit)
 - Possibilité de s'acheter une *nom de domaine* personnalisé pour éviter d'avoir `github.io` comme nom de domaine et se doter d'un style plus professionnel
 
+<div style="margin: 30px 0; padding: 30px; border: 8px solid #ef5552;">
+    ### À PROPOS DE L'IA EN ÉDUCATION
+    Vous pouvez utiliser l’IA pour apprendre mais **pas pour remplacer votre compréhension**. Toute aide d’IA doit être documentée dans journal-IA.md ou partagée lors de votre remise via un lien de la conversation avec la dite IA. Vous devez pouvoir expliquer votre code et le modifier en direct. 
+    
+    **Un portfolio sert à convaincre un·e employeur·e que vous savez faire. On valorise l’honnêteté et l’apprentissage réel.** 
+</div>
 
-!!! warning "Attention à propos de l'utilisation de l'IA"
+!!! warning "À propos de l'utilisation de l'IA pour le projet"
 
-    L'utilisation de l'IA ...
+    L'utilisation de l'IA est permise pour vous aider à vous déboguer SEULEMENT SI vous partagez le lien de votre conversation avec l'IA lors de la remise. Toutes les questions posées doivent être dans le même fil conversationnel. Si par erreur vous posez une question dans un autre fil, veuillez remettre tous les fils conversationnel que vous aurez utilisés. Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
 
 ## Compétences démontrées
 
