@@ -40,7 +40,5 @@
 ## Devoir
 
 ## Travail en classe
-  [📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
-  * Remise du Pinterest le 15 septembre avant 18h00. 
 
 Faire [le devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Ev3sg_u6lPhJrOXz_YBdIYMBXUVSAP7yQXQFNX5oDif8DQ?e=x3VgU0) suivant pour la semaine prochaine.
