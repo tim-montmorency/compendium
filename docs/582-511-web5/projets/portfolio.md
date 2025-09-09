@@ -42,10 +42,9 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - Possibilité de s'acheter une *nom de domaine* personnalisé pour éviter d'avoir `github.io` comme nom de domaine et se doter d'un style plus professionnel
 
 <div style="margin: 30px 0; padding: 30px; border: 8px solid #ef5552;">
-    ### À PROPOS DE L'IA EN ÉDUCATION
-    Vous pouvez utiliser l’IA pour apprendre mais **pas pour remplacer votre compréhension**. Toute aide d’IA doit être documentée dans journal-IA.md ou partagée lors de votre remise via un lien de la conversation avec la dite IA. Vous devez pouvoir expliquer votre code et le modifier en direct. 
-    
-    **Un portfolio sert à convaincre un·e employeur·e que vous savez faire. On valorise l’honnêteté et l’apprentissage réel.** 
+    <h3 style="color: #ef5552;">À PROPOS DE L'<em>IA</em> EN ÉDUCATION</h3> 
+    <p>Vous pouvez utiliser l’IA pour apprendre mais <em>pas pour remplacer votre compréhension</em>. Toute aide d’IA doit être documentée dans journal-IA.md ou partagée lors de votre remise via un lien de la conversation avec la dite IA. Vous devez pouvoir expliquer votre code et le modifier en direct. </p>
+    <p><strong><em>Un portfolio sert à convaincre un·e employeur·e que vous savez faire. On valorise l’honnêteté et l’apprentissage réel.<em> </strong></p>
 </div>
 
 !!! warning "À propos de l'utilisation de l'IA pour le projet"
