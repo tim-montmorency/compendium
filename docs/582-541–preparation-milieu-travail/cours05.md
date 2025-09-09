@@ -1,6 +1,8 @@
 # Cours 5
 
 ## ⚠️ Heure des cours modifié
+gr1: à 12h55
+
 
 ## 🚨 Remise des CV
 
