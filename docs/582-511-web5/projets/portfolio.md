@@ -18,7 +18,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 <hr>
 
-[Lien vers les instrutions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
+➜ [Lien vers les instructions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html)
 
 ## Format
 
