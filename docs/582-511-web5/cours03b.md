@@ -5,8 +5,8 @@
 - [ ] Présentation du projet portfolio
 - [ ] Suivi Figma - Plan Education Pro
 - [ ] Quiz de révision
-- [ ] [Révision de Super Smash Bros 🕹️🎮👾](#revision-super-smash-bros)
-- [ ] [Vue.js](#vuejs)
+- [ ] Révision de Super Smash Bros 🕹️🎮👾
+- [ ] Vue.js
   - [ ] Introduction
   - [ ] Création d'une app
   - [ ] Interpolation de données
@@ -37,12 +37,12 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 Révision en classe.
 
-## Vue.js: Exercices Méthodes et événements v-on
+## Vue.js: Méthodes et événements v-on
 
 [Vue: Méthodes et événenements *v-on*](./vue/methodes-evenements.md)
 
 
-## Exercices
+### Exercices
 
 Liens à venir
 
@@ -55,21 +55,21 @@ Liens à venir
 
 [Vue: Classe CSS dynamiques](./vue/classes-dynamiques.md)
 
-## Exercice
+### Exercice
 
 Lien à venir
 <!-- 
 [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 -->
 
-## Vue.js: conditions (v-if) et boucle (v-for)
+## Vue.js: conditions v-if et boucle v-for
 
 [Vue: Conditions v-if](./vue/conditions.md)
 
 [Vue: Boucle v-for](./vue/boucle.md)
 
 
-## Exercices
+### Exercices
 
 Lien à venir
 <!-- 
