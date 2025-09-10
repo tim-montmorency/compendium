@@ -4,6 +4,7 @@
 
 - [ ] Présentation du projet portfolio
 - [ ] Suivi Figma - Plan Education Pro
+- [ ] Trello et/ou GitHub Project pour la gestion de projet
 - [ ] Quiz de révision
 - [ ] Révision de Super Smash Bros 🕹️🎮👾
 - [ ] Vue.js
@@ -25,7 +26,11 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 ## Suivi Figma - Plan Education Pro
 
-...
+Voir si vous avez été validés.
+
+## -Trello et/ou GitHub Project
+
+Pour la gestion de projet simplifiée.
 
 ## Quiz time !
 
