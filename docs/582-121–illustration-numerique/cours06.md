@@ -1,46 +1,64 @@
-
 # Cours 6
 
+### Notions : Outils de remplissage et d'application de couleurs
+* [▶️ Outil dégradé](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETI21UOhr3lHrulnzpmdzOABFfTSXIJEb3ccDoYg4R7QwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QDc8CR)   <br>  
+*  [▶️ Fusionner les calques avec un mode de fusion](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_04_06_photoshop/12_outils_degrade_blending_pot_peinture/03_fusionner_avec_mode_fusion.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=imMdG7)   <br>
+*  [▶️ Pot de peinture](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_04_06_photoshop/12_outils_degrade_blending_pot_peinture/04_pot_peinture.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h0STlX)   <br>   
 
-### Notions : Outils de fluidité
-* [▶️ Modifier/corps](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfmL5aZ-UGtDpPr8aEZY3QABKlJMRD7Fp7o-eDjYK4aBGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8VZUx4)   <br>   
-*  [▶️ Modifier/visage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWHPl4gHk2hHoqPuG_ZTGLABK4fG6eCCHq8EhPfy_MFfvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dfOGDD)   <br>   
-  [🛠️ Modifier un visage](./exercices_photoshop/17_fluidite.md){ .md-button }  <br>        
-
-
-### Notions : Décalage des canaux de couleurs : option de fusion
-*  [▶️ Décalage de couleurs](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EU9puFR9Mx9Ok00iZupYKmQBL3kxm21EVk120mzQcGcT-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qb8nX0)    <br>   
-  [🛠️ Décalage de canaux de couleurs](./exercices_photoshop/17_decalage_couleurs.md){ .md-button }  <br>   
-
-### Notions : Image dynamique et effet de flou
-*  [▶️ Image dynamique et effet de flou](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfoolI1ojjpMiQpBfW8zdJABeeDo3OAkHKMngG-QWcaXcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VsaI6K)   <br>   
-  [🛠️ Image dynamique et effet de flou](./exercices_photoshop/17_filtre_flou.md){ .md-button }  <br>  
-
-### Notions : Effet duotone : courbe de transfert de dégradé
-
-*  [▶️ Effet duotone](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ESjs1Gic-T5AhWknoADFsGsBwjWSylWoyII0fFNbOAdX9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aaErpf
-)   <br>   
-  [🛠️ Effet duotone](./exercices_photoshop/17_duotone.md){ .md-button }  <br>  
+  [🛠️ Fusionner les calques avec un mode de fusion](./exercices_photoshop/12_Mode_de_fusion.md){ .md-button }  <br>  
+  [🛠️ Peinturer avec le pot de peinture](./exercices_photoshop/12_Peinturer_avec_le_pot_de_peinture.md){ .md-button }  <br> 
 
 
-### Notions : Ombre portée
-*  [▶️ Ombre portée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVfPGz2cag1LvgxN1gCMr3gBiKFb4UdcWI4HJl-vB2T9mg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poTcuL
-)   <br>   
-  [🛠️ Ombre portée](./exercices_photoshop/17_3d_ombre.md){ .md-button }  <br>  
+### Notions : Outils de vectoriel
+* [▶️ Différences entre les images matricielles et vectorielles](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYqtrIluJABDvwv_L1ysV18Bkba0IWUN2zhP10JSMoG8Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=woEVoj)   <br>  
+
+* [▶️ Présentation des raccourcis (Plume (P) / Sélection de tracé (A))](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETZGGcIDLWhHrYJ-T2Lkg3wBDZCCGv22Bw2XF2xQwFb2Gg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sbzlsg)   <br>
+
+*  [▶️ Outil plume : créer une forme et modifier la couleur](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQO7FUrlWbVHj3aYJYq2BB4BK6jLA9eVawnLQKkfeqL-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDwcVv)   <br>
+
+*  [▶️ Outil plume : créer une forme avec points d'ancrage à angle droit](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_04_06_photoshop/14_outils_vecteurs/videos_explicatifs/05_ligne_droites.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0bRyma)   <br>
+
+  [🛠️ Créer des formes à angle droit](./exercices_photoshop/14_vecteur_angle_droit.md){ .md-button }  <br>  
+
+*  [▶️ Outil plume : créer une forme avec points d'ancrage à deux poignées](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQUSfqgn9V5Gjzza6OfKu3oBVX6E3eoq9bgtoF3lzNuusA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UM5Ust)
+
+  [🛠️ Créer une forme avec points d'ancrage à deux poignées](./exercices_photoshop/14_vecteur_deux_poignees.md){ .md-button }  <br>  
+
+*  [▶️ Outil plume : créer une forme avec points d'ancrage à une poignée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Eb65s1th8U9FoGBpmu9yTToB_45yfkIM7UVjm99n67PRDg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9YvnBA)
+
+  [🛠️ Créer une forme avec points d'ancrage à une poignée](./exercices_photoshop/14_vecteur_une_poignee.md){ .md-button }  <br>  
+
+*  [▶️ Outil de plume libre : créer une forme à main levée](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbBC0cDYpOBGmPmA3qaxqrIBFGD0bkkLnJ1zvzlHQFr3Rw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7LQZ68)
+
+*  [▶️ Outil de plume courbe: créer des courbes lisses](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdkhBVH5d7tIpCDFSbal0gIB3b_N0qd_TmzJWNZ0DS0o7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mZI4lj)
+
+  [🛠️ Créer des courbes lisses](./exercices_photoshop/14_vecteur_courbe.md){ .md-button }  <br>  
+
+*  [▶️ Outil de formes : créer des formes de base](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYJNUp8MqYlMs16Z_V7YpSUB8ZVSWRoF-xP_D1Z2hW5MWA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BbWWWG)
 
 
-### Notions : Animation
-*  [▶️ Animation](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EX3yLB0keWpGo4crMYC7iAsBOyB-yeutvLAAA_ovHFllqQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3oXPB3
-)   <br>   
-  [🛠️ Animation](./exercices_photoshop/18_animation.md){ .md-button }  <br>
+*  [▶️ Combiner et soustraire des formes vertorielles](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EdeqgT2QzypEgK_g4y4zG5ABUiaBufO1IYy8zgEnXOpJ5w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JXJ3K7
+)
 
+  [🛠️ Créer une image plus complexe en vectorielle](./exercices_photoshop/14_vecteur_avance.md){ .md-button }  <br>  
 
-### CRAP
-* [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EaXDO17xGqVPmf_gAqTsmhABbvSnAlNnr8OZR8UK1Ayirg?e=5HYJ6B) 
+*  [▶️ Créer des masques vectoriels](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfFRExMlbkhBjYGdJ6y9eP0BVo1WPaMu7w6b_9BN9JSlrg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0vDvAn)
 
+  [🛠️ Créer des masques vectoriels](./exercices_photoshop/14_vecteur_masque.md){ .md-button }  <br>  
 
-
+  
 ## Devoir
 
-Commencer votre projet d'autoportrait. 
+Faire le devoir 
+* [🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
+* [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }   <br>     
+* [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }   <br>  
+* [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
+* [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
+* [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>
+* [🛠️ les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9) 
+
+Déposer tous les devoirs dans Devoir sur TEAMS avant mardi. 
+
+Apporter toutes les photographies qui vont vous servir pour votre travail pour la semaine prochaine. 
 

@@ -44,6 +44,7 @@
 ## Tout pour vos tournage - les réglages
 * [Réglages de la caméra](./references/Caméra.md)
 * [Réglages de la lumière](./references/Lumière.md)
+* [Réglages du spot_ellipsoïdal](./references/spot_ellipsoïdal.md)
 * [Réglages du moniteur](./references/Moniteur.md)
 * [Réglages du Sound Device](./references/Sound_device.md)
 
