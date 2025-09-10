@@ -58,7 +58,7 @@
 * [▶️ Importation jpg, png, psd](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfhqIzbKcUBNvywAbpwLgjQBLgJB9UsXeo_EWYIDuc3l2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Kefr8a)
 * [▶️ Organisation du chutier](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQxK2gc50IBErGjv7uMOMt4BcdTCre62y6ZHD6SAUQkkZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yLkAvd)
 
-* 🛠️ **Importation des clips** : Ajouter les clips nécessaires dans le projet. <br>
+* 🛠️ **Importation des clips** : Ajouter les clips nécessaires [dans le projet](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eqnaaga_vtdDl9fO4blZMkYBhN1njz7nQtMhFukF-n0TYA?e=47agVn). <br>
 
 
 ### Notions: l'onglet montage
