@@ -7,11 +7,12 @@
    Veuillez inviter **Marie-Michelle Ouellet** (*kid-synthetique*) et **Lora Boisvert** en tant que collaboratrices de votre dépôt.  
 
    Ce dépôt devra contenir un **README.md** formaté en Markdown qui contient :
+
    - le nom du projet en titre principal *Portfolio de TON-NOM*
    - un lien vers ton fichier **Figma**  
-     ⚠️ Donne accès uniquement à tes 2 enseignantes (pas en public) — voir consigne 3
+    ⚠️ Donne accès uniquement à tes 2 enseignantes (pas en public) — voir consigne 3
    - un lien vers ton tableau **Trello** ou **GitHub Project**  
-     ⚠️ Donne accès uniquement à tes 2 enseignantes (pas en public) — voir consigne 4
+    ⚠️ Donne accès uniquement à tes 2 enseignantes (pas en public) — voir consigne 4
    - le choix du type de **navigation** parmi tes projets (voir consigne 6)
    - le choix de ta **composante Vue.js** (voir consigne 7)
 
@@ -37,7 +38,7 @@
 7. Choisir le **type de composant Vue.js** que vous voulez intégrer dans votre portfolio.  
    Voici quelques exemples :
 
-### Exemples de composantes Vue.js dans un portfolio
+### Exemples de composantes Vue.js
 
 1. **Filtre dynamique de projets**  
    - Une section « Mes projets » avec boutons pour filtrer (ex. *Tout*, *Web*, *Design graphique*, *Vidéo*).  
