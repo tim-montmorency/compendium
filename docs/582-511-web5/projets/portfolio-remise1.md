@@ -84,12 +84,15 @@
 ## Remise
 
 ### Date
+
 📅 **Mercredi 17 septembre, avant le cours**
 
 ### Où remettre
+
 - Dans le **Devoir de Web 5** sur Teams
 
 ### Quoi remettre
+
 - **Lien** vers ton **repo GitHub** privé avec le README.md complet
   ⚠️ Donne accès uniquement à tes 2 enseignantes
 - **Lien** vers ton fichier **Figma** (moodboard)  
