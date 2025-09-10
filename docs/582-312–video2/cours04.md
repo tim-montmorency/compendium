@@ -98,7 +98,8 @@
 * [▶️ Keyframe panoramique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY8KmAleO-VPn3TBTEnZ9OYBZ7upASoFTHbMaxvANa62nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trWKxK)
 * [▶️ keyframe pitch son](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWTF7KJwz99EqqnOjNSMjMYBa7zEhZvetVDbIzkaBMAkSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zZfch)
   
- * 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). (voir clip du matelas - Overhead_slow_motion_shot__the_camera_glides_above_a_mattress_gently_rocking_on_rippling_water_benea.mp4)<br>
+ * 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo).
+ * Insérer le clip du matelas qui est en mono (Overhead_slow_motion_shot__the_camera_glides_above_a_mattress_gently_rocking_on_rippling_water_benea.mp4)<br>
 
  * 🛠️ **Ajustement du volume** : Monter ou descendre le volume du clip (Distant_ocean_breath-#3-1757459776010) pour créer de légères variations. 
  * 🛠️ **Création de panoramiques** : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
@@ -146,10 +147,10 @@
 
 * [▶️ Utilisation d'un générateur pour créer un arrière plan de couleur](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETvIRujw_dtMs4hdj9Pe_cMBh_MAUnvciK-XYxQH4d1yMA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GhhetR)
 
-* 🛠️ **Effet de flicker** : Couper des séquences dans une vidéo et superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker). Ajuster les effets de fusion et de transparence pour enrichir l'impact visuel.
-* 🛠️ **Effet de flou** : Appliquer un gaussian blur sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
+* 🛠️ **Effet de flicker** : Ajouter effet de flicker sur les shots 
+* **Effet de flicker manuel** : Couper la séquence du matelas superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker). Ajuster les effets de fusion et de transparence pour enrichir l'impact visuel.
 
-
+* 🛠️ **Effet de flou** : Appliquer un flou d'objectif sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
 
 
 
