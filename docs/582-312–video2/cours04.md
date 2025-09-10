@@ -4,7 +4,6 @@
 ## [Da Vinci - La base](da_vinci_base.md) (90 minutes)
 
 ### Notions: optimisation de la rapidité de travail
-* [▶️ Raccourcis clavier](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVXvsWQk35pDvoBlL-_P1bwBaAQbglQe76wq8IkAuBtHiw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AbnOAK)
 * [▶️ Raccourcis clavier](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVXvsWQk35pDvoBlL-_P1bwBaAQbglQe76wq8IkAuBtHiw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=G6tOrz)
 
 ### Notions: problèmes récurrents
