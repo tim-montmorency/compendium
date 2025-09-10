@@ -64,7 +64,7 @@ Affichera en fait:
 ```
 
 
-[En savoir plus sur l'interpolation](https://fr.vuejs.org/guide/essentials/template-syntax.html#text-interpolation){ .md-button :target="_blank" }
+
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax.html#text-interpolation" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur les <em>l'interpolation des données textuelles</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
@@ -133,7 +133,7 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
     Si un attribut est associé à une donnée dont la valeur équivaut à <code>null</code> ou <code>undefined</code>, l’attribut ne sera pas&nbsp;créé.
 
 
-[En savoir plus sur Attributs](https://fr.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings){ .md-button :target="_blank" }
+
 <br>
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur les <em>Liaisons d'attributs - Attribute bindings</em></a> <br>
 
@@ -175,7 +175,6 @@ En HTML
 </div>
 ```
 
-[En savoir plus sur l'interpolation des données en HTML brut](https://fr.vuejs.org/guide/essentials/template-syntax#raw-html){ .md-button :target="_blank" }
 <br>
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax#raw-html" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">En savoir plus sur l'interpolation des données en <em>HTML brut</em></a> <br>
 
