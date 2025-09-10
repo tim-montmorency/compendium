@@ -24,13 +24,32 @@ Exemple :
 
 ## Validateur HTML
 
-Vous vous souvenez du validateur W3C qui détecte les erreurs dans le HTML ? Hé bien il y a mieux encore 😜
+Vous vous souvenez du validateur W3C qui détecte les erreurs dans le HTML ?
+
+Hé bien il y a mieux encore 😜
 
 L'extension [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) fait _grosso modo_ la même chose que le validateur du W3C, mais à même VSCode !
 
+Pour l'installater :
+
+![](./assets/images/html-hint-find.png){data-zoom-image}
+![](./assets/images/html-hint-activate.png){data-zoom-image}
+
+Résultat :
+
 ![](./assets/images/html-hint.png){data-zoom-image}
 
-:material-information: Il est possible que l'extension HTMLHint ne soit pas installé par défaut sur votre version de vscode. Dans ce cas, cherchez **HTMLHint** dans les extensions VSCode et installez la.
+:material-information: Il est possible que l'extension HTMLHint ne soit pas installée par défaut sur votre version de vscode. Dans ce cas, cherchez **HTMLHint** dans les extensions VSCode et installez-la.
+
+### :octicons-copilot-24: GitHub Copilot
+
+L'extension GitHub Copilot est parfois activée par défaut dans VS Code. Bien qu’utile pour les programmeurs avancés, elle peut nuire à votre apprentissage, car elle génère du code à votre place.
+
+Pour bien assimiler la matière, je vous recommande de désactiver Copilot pendant les exercices.
+
+![](./assets/images/copilot-ext.png){data-zoom-image}
+
+![](./assets/images/copilot-disable.png){data-zoom-image}
 
 ## Rappel sur l'indentation automatique
 
@@ -40,7 +59,7 @@ Comme il est essentiel d'indenter son code afin de bien le lire, voici un rappel
 
 ![](./assets/images/format-prettier.png){data-zoom-image}
 
-:material-information: Il est possible que l'extension Prettier ne soit pas installé par défaut sur votre version de vscode. Dans ce cas, cherchez **Prettier** dans les extensions VSCode et installez la.
+:material-information: Il est possible que l'extension Prettier ne soit pas installé par défaut sur votre version de vscode. Dans ce cas, cherchez **Prettier** dans les extensions VSCode et installez-la.
 
 ## Serveur
 
@@ -58,33 +77,36 @@ Dans VSCode, on peut simuler un serveur avec l’option « Go Live ».
 
 Quand on clique sur Go Live, la page Web s’ouvre dans le navigateur.
 
-Observez que l’URL est différente de celle obtenue en double-cliquant sur un fichier HTML.
+Observez que l’URL est différente de celle obtenue en double-cliquant sur un fichier HTML (ex.: http://127.0.0.1:5500/).
+
 C’est ainsi parce que VSCode crée une adresse locale qui simule un vrai site accessible sur le Web.
 
-Ainsi, on peut tester un site comme s’il était hébergé en ligne. Ç'est super pratique et on va bientôt voir pourquoi c’est le cas 😜
+Ainsi, on peut tester un site comme s’il était hébergé en ligne. C'est super pratique et on va bientôt voir pourquoi c’est le cas 😜
 
 ## Attributs HTML
 
 ![](./assets/images/attr-a.jpg){ data-zoom-image }
 
-Les éléments HTML ont des attributs ; ce sont des valeurs supplémentaires qui configurent les éléments ou ajustent leur comportement de différentes manières pour répondre aux critères souhaités par les utilisateurs[^attr].
+Les éléments HTML ont des attributs.
+
+Des attributs, c'est des options de configuration des éléments HTML[^attr].
 
 [^attr]: [Référence des attributs HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Attributes)
 
 ### Attributs universels
 
-Les attributs universels sont des attributs communs à l'ensemble des éléments HTML. Ces attributs peuvent donc être ajoutés sur tous les éléments[^attrglobal].
+Les attributs universels sont des attributs communs à l'**ensemble** des éléments HTML[^attrglobal].
 
 [^attrglobal]: [Les attributs universels](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes)
 
-| Attribut   | Rôle / Effet visible                          | Exemple |
-|------------|-----------------------------------------------|---------|
-| `title`    | Affiche une info-bulle (tooltip) au survol    | `<p title="Astuce">Survolez-moi</p>` |
-| `dir`      | Définit la direction du texte (`ltr`, `rtl`)  | `<p dir="rtl">Texte en arabe</p>` |
-| `hidden`   | Masque l’élément (il reste dans le code)      | `<p hidden>Texte masqué</p>` |
-| `lang`     | Indique la langue du contenu (accessibilité)  | `<html lang="fr">` |
-| `class`    | Identifiant pour un élément                   | `<p class="texte-important">Paragraphe</p>` |
-| `id`       | Identifiant unique pour un élément            | `<p id="intro">Paragraphe</p>` |
+| Attribut                           | Rôle / Effet visible                          | Exemple |
+|------------------------------------|-----------------------------------------------|---------|
+| `title` :material-format-title:    | Affiche une info-bulle (tooltip) au survol    | `<p title="Astuce">Survolez-moi</p>` |
+| `dir` :material-arrow-left-right:  | Définit la direction du texte (`ltr`, `rtl`)  | `<p dir="rtl">Texte en arabe</p>` |
+| `hidden` :material-ghost:          | Masque l’élément (il reste dans le code)      | `<p hidden>Texte masqué</p>` |
+| `lang` :material-translate:        | Indique la langue du contenu (accessibilité)  | `<html lang="fr">` |
+| `class` :art:                      | Identifiant pour un élément                   | `<p class="texte-important">Paragraphe</p>` |
+| `id` :material-fingerprint:        | Identifiant unique pour un élément            | `<p id="intro">Paragraphe</p>` |
 
 :material-information:  On ne les utilise pas encore, mais vous verrez bientôt que **class** sert à appliquer un style et **id** sert à cibler un élément précis.
 
@@ -171,7 +193,7 @@ Attributs :
     >
 ```
 
-Les formats courants sont les `.jpg`, `.png`, `.webp` et `.svg`. Nous y reviendront en détail.
+Les formats courants sont les `.jpg`, `.png`, `.webp` et `.svg`. Nous y reviendrons en détail.
 
 <!-- 
 | Format | Description |
@@ -187,13 +209,13 @@ Les formats courants sont les `.jpg`, `.png`, `.webp` et `.svg`. Nous y reviendr
 
 ![](./assets/images/blindfolded.gif)
 
-Pour savoir quoi écrire dans le texte alternatif (`alt=""`), une règle de pouce veut qu'on s'imagine devoir expliquer une image à une personne qui a les yeux bandés.
+Pour savoir quoi écrire dans le texte alternatif (`alt=""`), une « règle du pouce » veut qu'on s'imagine devoir expliquer une image à une personne qui a les yeux bandés.
 
-## Retour sur l'inspecteur 🕵
+## Inspecteur de :fontawesome-brands-chrome:  Chrome 
 
 ![](./assets/images/django.gif){.w-100}
 
-### Ouvrir l'inspecteur
+### Ouvrir l'inspecteur 🕵 
 
 * Faire un clic droit sur la souris 🖱️ et choisir l'option **Inspecter**.
 * Utiliser le raccourci clavier ⌨️
@@ -289,7 +311,7 @@ Le dossier assets est facilement accessible depuis la racine du projet.
 <!-- ou -->
 <img src="./assets/img/logo.png" alt="..."> ✅ Valide et explicite (on aime)
 <!-- ou -->
-<img src="/assets/img/logo.png" alt="..."> ⚠️ Valise, mais il faut un serveur, sinon ça ne fonctionne pas
+<img src="/assets/img/logo.png" alt="..."> ⚠️ Valide, mais il faut un serveur, sinon ça ne fonctionne pas
 ```
 
 #### Exemple depuis ailleurs
@@ -319,7 +341,7 @@ Dans cet exemple, il faut remonter d'un niveau pour avoir accès au dossier asse
 
     [**🧑‍🏫 Démo du prof**](./exercices/relative.zip)
 
-    Dans cette démo, nous observerons que certains chemins relatifs se comportent différent s'ils sont interprété sur les fichiers locaux ou sur un serveur.
+    Dans cette démo, nous observerons que certains chemins relatifs se comportent différemment s'ils sont interprétés sur les fichiers locaux ou sur un serveur (ex.: Go Live).
 
 ## Web sémantique
 
@@ -342,13 +364,13 @@ C'est comme si on devait comprendre la programmation sans avoir à regarder le r
 
 Le code est moins difficile à lire.
 
-Les robots qui scanent les sites comprennent mieux.
+Les robots qui scannent les sites comprennent mieux.
 
 Les liseuses d'écran peuvent indiquer à l'utilisateur la structure du contenu. -->
 
 ### Lisibilité
 
-En HTML, il existe une balise génétique qui se nomme `<div>` (pour division).
+En HTML, il existe une balise générique qui se nomme `<div>` (pour division).
 
 Son nom (div) ne dit rien vraiment sur ce qu'elle fait ou ce qu'elle contient. 
 
@@ -415,13 +437,15 @@ Voici les balises sémantiques en lien avec la structure d'une page :
 
 ### Anglicismes
 
-Les anglicismes doivent être pris en charge de manière sémantique. Pour ce faire, il faut utiliser l'attribut `lang=""`. Hé oui, ça peut aller ailleurs que dans la balise `<html>` !
+Les anglicismes doivent être pris en charge de manière sémantique. Pour ce faire, il faut utiliser l'attribut `lang=""`. Eh oui, ça peut aller ailleurs que dans la balise `<html>` !
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage" src="https://codepen.io/tim-momo/embed/vEOwpGm?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/vEOwpGm">
   Web 1 - Formatage</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+:material-information: Utiliser `lang=""` de cette façon est moins nécessaire si c’est un anglicisme passé dans l’usage courant (ex. : « email » ou « weekend »).
 
 ## Balises génériques (non sémantiques)
 
@@ -433,7 +457,7 @@ Les anglicismes doivent être pris en charge de manière sémantique. Pour ce fa
 ```html
 <div class="carte">
   <h2>Produit</h2>
-  <p>Prix : <span class="prix">29.99$</span></p>
+  <p>Prix : <span class="prix">29,99 $</span></p>
 </div>
 ```
 
@@ -460,22 +484,31 @@ Les anglicismes doivent être pris en charge de manière sémantique. Pour ce fa
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
+  ![](./exercices/fait-du-sens/wee-bey.gif)
+
+  <small>Exercice HTML</small><br>
+  **[Fait du sens](./exercices/fait-du-sens/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/format/aa.png)
+
+  <small>Exercice HTML</small><br>
+  **[Élémentaire](./exercices/format/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
   ![](./exercices/anchor/preview.gif)
 
   <small>Exercice HTML</small><br>
   **[Ancres et cie.](./exercices/anchor/index.md){.stretched-link .back}**
 </div>
 
-<!-- <div class="grid grid-1-2" markdown>
-  ![](./exercices/semantique/preview.gif)
-
-  <small>Exercice HTML</small><br>
-  **[Balises sémantiques](./exercices/mes_premieres_balises.md){.stretched-link .back}**
-</div> -->
+## Devoir
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices/relativite-einsteinienne/preview.gif)
 
-  <small>Exercice formatif</small><br>
+  <small>Devoir formatif</small><br>
   **[Relativité einsteinienne](./exercices/relativite-einsteinienne/index.md){.stretched-link .back}**
 </div>

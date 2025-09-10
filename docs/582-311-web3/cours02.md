@@ -703,7 +703,7 @@ Les deux plus grands compétiteurs à GitHub sont :
   ![](./assets/images/mandala-git.jpg)
 
   <small>Exercice - Git</small><br>
-  **[Mandala Git](./git/exercices/git-mandala.md){.stretched-link}**
+  **[Mandala Git](./exercices/git-mandala.md){.stretched-link}**
 </div>
 
 ## Github Desktop
@@ -780,11 +780,13 @@ Il existe plusieurs alternatives à GitHub Desktop, notamment:
   ![](./assets/images/prometheus.jpg)
 
   <small>Exercice - Git</small><br>
-  **[Prometheus](./git/exercices/ghd-prometheus.md){.stretched-link}**
+  **[Prometheus](./exercices/ghd-prometheus.md){.stretched-link}**
 </div>
 
 [STOP]
 
-NOTE PÉDAGOGIQUE :
+RÉFLEXION
+
 Ce cours fini entre 1h et 30min plus tôt.
-La matière enseignée avec Github est trop semblable à celle du cours de muséologie.
+La matière enseignée avec Github est trop semblable à celle du cours de muséologie. Il faut la remplacer.
+Peut-être aborder la notion de github Pages ou encore les actions ?

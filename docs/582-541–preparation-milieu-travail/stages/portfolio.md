@@ -76,6 +76,4 @@ Les éléments suivants doivent être présents dans votre portfolio :
 
 [💼 Portfolio de Daniel Sébastien Dezemma](https://dezemma.com/){ .md-button }      
 
-[💼 Portfolio de Michaël Un Dupré](https://michaelu-d.github.io/portfolio/){ .md-button }    
-
 [💼 Portfolio de Sitmonternna Yi](https://sitmonternna.github.io/artist_portfolio/){ .md-button }
