@@ -40,7 +40,7 @@ Il n'y a pas de gêne à avoir parce que les tuteurs sont présents au Centre d'
 
 ## Figma
 
-!!! quote "Re"
+!!! quote "Figma a envoyé ceci par courriel"
 
     Nous procédons à d'importantes mises à jour de notre plan *Figma Education Pro*, notamment en ce qui concerne notre processus de vérification.
 

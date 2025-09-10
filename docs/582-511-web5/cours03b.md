@@ -3,6 +3,7 @@
 ## Aujourd'hui
 
 - [ ] Présentation du projet portfolio
+- [ ] Suivi Figma - Plan Education Pro
 - [ ] Quiz de révision
 - [ ] [Révision de Super Smash Bros 🕹️🎮👾](#revision-super-smash-bros)
 - [ ] [Vue.js](#vuejs)
@@ -19,6 +20,10 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 [Projet Portfolio - Infos générales](./projets/portfolio.md){ .md-button }
 [Projet Portfolio - Remise planification 17 septembre](./projets/portfolio-remise1.md){ .md-button }
+
+## Suivi Figma - Plan Education Pro
+
+...
 
 ## Quiz time !
 
