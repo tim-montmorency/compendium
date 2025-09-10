@@ -3,7 +3,12 @@
 ## Aujourd'hui
 
 - [ ] Présentation du projet portfolio
-
+- [ ] Quiz de révision
+- [ ] [Révision de Super Smash Bros 🕹️🎮👾](#revision-super-smash-bros)
+- [ ] [Vue.js](#vuejs)
+  - [ ] Introduction
+  - [ ] Création d'une app
+  - [ ] Interpolation de données
 
 ## Présentation du projet portfolio
 
@@ -12,9 +17,19 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 - *582 541 MO - Préparation au milieu de travail*
 - *582 511 MO - Web 5*
 
-### Description et objectif
-.
-### Critères d'évaluation
-.
-### Remises
-.
+[Projet Portfolio](./projets/portfolio.md){ .md-button }
+[Projet Portfolio - Remise planification 17 septembre](./projets/portfolio-remise1.md){ .md-button }
+
+## Quiz time !
+
+- [Groupe 1 merc AM](https://app.wooclap.com/)
+- [Groupe 2 merc PM](https://app.wooclap.com/)
+
+## Révision Super Smash Bros
+
+[🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
+
+Révision en classe.
+
+## Vue.js
+

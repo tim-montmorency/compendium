@@ -10,7 +10,7 @@
 - [ ] Super Smash Bros
 
 
-## Révision Bootcamp
+## Bootcamp JS
 
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
 
