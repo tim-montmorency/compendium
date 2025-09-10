@@ -37,5 +37,3 @@ Ou encore comparer la valeur de deux paramètres:
 ```
 <div class="bubble" v-if="firstName==lastName">{{ firstName }}</div>
 ```
-
-

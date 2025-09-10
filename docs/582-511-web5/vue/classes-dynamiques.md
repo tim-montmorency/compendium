@@ -1,5 +1,7 @@
 
-# Classes CSS dynamiques :class
+# :class dynamique
+
+## Classes CSS dynamiques :class
 
 <p>Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un élément HTML afin de changer son apparence pour refléter une action commise par un usager.<p>
 

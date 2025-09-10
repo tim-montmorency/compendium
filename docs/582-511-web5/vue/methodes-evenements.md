@@ -1,7 +1,6 @@
+# Méthodes v-on
 
-
-
-# Méthodes et Événements v-on
+## Méthodes et événements v-on
 
 
 <p>La propriété <code>methods</code> dans une app Vue est un objet contenant différentes méthodes pouvant être appelées. Ces méthodes peuvent avoir accès aux données contenues dans <code>data</code> via <code>this</code> et les altérer au besoin.</p>

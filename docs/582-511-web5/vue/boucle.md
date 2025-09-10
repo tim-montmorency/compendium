@@ -1,0 +1,81 @@
+# Boucle v-for
+
+## Boucle
+
+
+<p>Vue permet de boucler sur un tableau d'objets grâce à la directive <code>v-for</code>. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et spécifier le tableau dans lequel ce trouve ces objets.</p>
+
+<p>Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau <code>rolesArray</code>:</p>
+```
+<div v-for="role in rolesArr">
+  <img :src="role.picture">
+</div>
+```
+
+
+<p>Par la suite, il faut spécifier si la propriété désirée est enfant du parent <code>data</code> ou enfant du rôle courant dans la boucle en la préfixant par <code>role</code>.</p>
+
+<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="html,result" data-slug-hash="abPeGqp" data-pen-title="DEMO VueJS | boucle" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abPeGqp">
+  DEMO VueJS | boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+
+## Index
+
+
+<p>Afin d'obtenir l'index courant dans une boucle <code>v-for</code>, il est suffit d'ajouter un 2e paramètre dans la directive. Puisque deux paramètres sont présents, il est nécessaire de les grouper dans entre parenthèses.</p>
+
+
+<p>Par exemple:</p>
+
+```
+<div v-for="(role, index) in rolesArr">
+  <img :src="role.picture">
+</div>
+```
+<br>
+
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="GRPVGPg" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/GRPVGPg">
+  DEMO VueJS | boucle index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+
+## Combinaison d'une boucle avec des événements
+
+
+<p>Il est possible de combiner une boucle avec des <a rel="noopener noreferrer" href="../methodes-et-evenements">événements</a> sans problème, simplement en spécifiant en paramètre à la méthode appelée l'objet devant être altéré.</p>
+<br>
+
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="oNJKyOO" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKyOO">
+  DEMO VueJS | boucle index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
+!!! warning
+    Il ne faut (jamais utiliser `v-if `sur un élément ayant `v-for`)[https://fr.vuejs.org/style-guide/rules-essential#avoid-v-if-with-v-for].
+
+
+
+<br><br>
+<a href="https://fr.vuejs.org/guide/essentials/list" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Rendu de liste - List Rendering</em></a>
+<br>
+
+
+## Récapitulatif de ce que on a *Vue.js* jusqu'à maintenant
+<p>Analysons ensemble cet exemple de brassage de carte réalisé par le développeur Torontois <a href="https://codepen.io/itslit" target="_blank" rel="noopener noreferrer">Hassan Dj (@itslit</a>)</p>
+
+<codepen id="gOVNoby" tab="result" height="1000"></codepen>
+
+
+
+Lien à venir
+<!-- 
+[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+-->
