@@ -82,7 +82,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 ## Dates de remise pour Web 5
 
-- *17 septembre* : Remise de la planification de portfolio (formatif)
+- *17 septembre* : Remise de la [planification de portfolio](./portfolio-remise1.md) (formatif)
 - *24 septembre* : Remise du design du portfolio versions mobile et desktop (formatif)
 - *1er octobre* : Remise du contenu intégré (suivi formatif)
 - *29 octobre* : Remise du portfolio final (sommatif: 25%)

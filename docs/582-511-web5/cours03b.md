@@ -19,6 +19,7 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 - *582 511 MO - Web 5*
 
 [Projet Portfolio - Infos générales](./projets/portfolio.md){ .md-button }
+
 [Projet Portfolio - Remise planification 17 septembre](./projets/portfolio-remise1.md){ .md-button }
 
 ## Suivi Figma - Plan Education Pro
