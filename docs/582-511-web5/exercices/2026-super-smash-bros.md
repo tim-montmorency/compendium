@@ -84,22 +84,22 @@ Ainsi, si vous bloquez 🤔 sur une étape, n'hésitez pas à passer au numéro 
 ---
 ### Étape 1 — Initialiser la galerie
 
-- [ ] a. Créer une fonction nommée `renderCharacters()` permettant d'afficher toutes les images `.png` stockée dans le tableau `charactersArr`. Vous devez afficher ces images dans l'élément `.characters`, et donc remplacer les images de Mario.
+- [ ] a. Récupérer la liste des éléments `<img>` et stockez la dans une variable nommée `characterNodesArr`.
 
-!!! tip "Rappel pour l'étape #1a"
+- [ ] b. Créer une fonction nommée `renderCharacters()` permettant d'afficher toutes les images `.png` stockée dans le tableau `charactersArr`. Vous devez afficher ces images dans l'élément `.characters`, et donc remplacer les images de Mario. Vous pouvez utiliser le tableau de la variable `characterNodesArr` que vous avez créé à l'étape **1a**.
+
+!!! tip "Rappel pour l'étape #1b"
 
     Vous aurez besoin de :
     - Créer une fonction (tu peux appeler cette fonction pour tester ce que tu fais).
-    - Sélectionner l'élément du DOM qui contient la classe **.characters**
-    - Faire une boucle `forEach` sur le tableau `charactersArr`
-    - Manipuler le contenu des éléments sur DOM, soit en changeant la `src` de l'image actuelle de Mario ou encore en recréant la balise avec `ìnnerHTML` ou `createElement` ou `insertAdjacentHTML()`.
-
-- [ ] b. Après la génération, récupérer la liste des éléments `<img>` et stockez la dans une variable nommée `characterNodesArr`.
-
+    - Faire une boucle `forEach` sur le tableau `characterNodesArr`.
+    - Manipuler le contenu des éléments sur DOM, soit en changeant la `src` de l'image actuelle de Mario.
 
 - [ ] c. Appliquer la classe `.active` sur l'élément à l'index `playerIndex` qui vaut actuellement `0`. Si tout fonctionne bien, tu devrais voir un encadré orange autour du premier personnage de la liste.
 
-- [ ] d. Appeler la fonction `renderCharacters()` au chargement de la page.
+- [ ] d. Appliquer la classe `.activeOpponent` sur l'élément à l'index `opponentIndex` qui vaut actuellement `1`. Si tout fonctionne bien, tu devrais voir un encadré rouge en haut du deuxième personnage de la liste.
+
+- [ ] e. Appeler la fonction `renderCharacters()` au chargement de la page.
 
 
 ### Étape 2 — « Perso suivant » (Joueur 1)

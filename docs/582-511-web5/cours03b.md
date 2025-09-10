@@ -35,6 +35,9 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 [🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
 
+➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EiglgWU_DkVFtgGICb8Rju8B34woMB3J8Mc_1qW8exVlvg?e=H6O68B)
+
+
 Révision en classe.
 
 ## Vue.js: Méthodes et événements v-on
