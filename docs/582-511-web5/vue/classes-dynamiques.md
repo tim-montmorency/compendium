@@ -3,10 +3,10 @@
 
 <p>Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un élément HTML afin de changer son apparence pour refléter une action commise par un usager.<p>
 
-<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <code>{}</code> à un <em>l'attribut dynamique</em> <span class='inline-code' style="white-space: nowrap;">v-bind:class</span>  ou <span class='inline-code'>:class</span> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi si la condition suivie des <span class='inline-code'>:</span> retourne <code>true</code>, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à <code>false</code> elle est retirée.</p>
+<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <code>{}</code> à un <em>l'attribut dynamique</em> <code>v-bind:class</code>  ou <code>:class</code> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi si la condition suivie des <code>:</code> retourne <code>true</code>, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à <code>false</code> elle est retirée.</p>
 
-
-<p>Voici un exemple où est ajoutée la classe <span class='inline-code'>.majority</span> à une carte d'une personne lorsque la donnée <code>age</code> est plus grande ou égale à <code>18</code>: </p>
+<br><br>
+<p>Voici un exemple où est ajoutée la classe <code>.majority</code> à une carte d'une personne lorsque la donnée <code>age</code> est plus grande ou égale à <code>18</code>: </p>
 
 ```
 <img :class="{ majority : age >= 18 }" src="url-vers-image-del-a-personne.png">
@@ -23,8 +23,8 @@ img.majority{
 
 
 
-
-<p>Voici un exemple où est ajoutée la classe <span class='inline-code'>.disabled</span> au bouton que lorsque la donnée <code>isDisabled</code> est équivalente à <code>true</code>: </p>
+<br><br>
+<p>Voici un exemple où est ajoutée la classe <code>.disabled</code> au bouton que lorsque la donnée <code>isDisabled</code> est équivalente à <code>true</code>: </p>
 
 ```
 <button :class="{ disabled : isDisabled }"></button>
@@ -60,7 +60,7 @@ button.disabled {
 
 
 
-### Nom de classe contenant des caractères spéciaux
+## Nom de classe contenant des caractères spéciaux
 
 <p>Si un nom de classe CSS contient des caractères spéciaux, il sera nécessaire de l'entourer de guillemets.</p>
 
@@ -109,9 +109,9 @@ button.disabled {
 <a href="https://fr.vuejs.org/guide/essentials/class-and-style" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Liaison de classes et de styles - Class &amp; Style Bindings</em></a>
 <br>
 
+## Exercice
 
-<h3>Exercice</h3>
-<exercice href="../../../exercices/vue-collection-films-1/"></exercice>
-
-
-
+Lien à venir
+<!-- 
+[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
+-->

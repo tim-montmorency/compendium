@@ -70,8 +70,6 @@ Salut { { firstName } }
 <br>
 <a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
 <br>
- [ Gestion d'événement - Event Handling](https://fr.vuejs.org/guide/essentials/event-handling){ .md-button }
-
 
 <!--
 # Event handling
@@ -80,9 +78,6 @@ https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#o
   
 On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview  
 -->
-
-
-
 
 
 ## Démo - Poésie de décembre

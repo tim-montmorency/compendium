@@ -37,7 +37,7 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 Révision en classe.
 
-## Vue.js
+## Vue.js: Exercices Méthodes et événements v-on
 
 [Vue: Méthodes et événenements *v-on*](./vue/methodes-evenements.md)
 
@@ -51,9 +51,30 @@ Liens à venir
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 -->
 
-## Vue.js
+## Vue.js: Classes CSS dynamiques
 
 [Vue: Classe CSS dynamiques](./vue/classes-dynamiques.md)
+
+## Exercice
+
+Lien à venir
+<!-- 
+[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
+-->
+
+## Vue.js: conditions (v-if) et boucle (v-for)
+
+[Vue: Conditions v-if](./vue/conditions.md)
+
+[Vue: Boucle v-for](./vue/boucle.md)
+
+
+## Exercices
+
+Lien à venir
+<!-- 
+[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+-->
 
 
 
