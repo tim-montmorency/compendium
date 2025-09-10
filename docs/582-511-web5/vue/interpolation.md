@@ -41,10 +41,6 @@ const app = Vue.createApp({
 <p><code>data</code> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <code>firstName</code>, <code>lastName</code> et <code>picture</code>.</p>
 
 
-[En savoir plus sur <code>data()</code>](https://vuejs.org/guide/essentials/template-syntax.html#dynamically-binding-multiple-attributes){ .md-button :target="_blank" }
-
-<small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
-
 
 ## Interpolation des données {{ }}
 
@@ -69,6 +65,7 @@ Affichera en fait:
 
 
 [En savoir plus sur l'interpolation](https://fr.vuejs.org/guide/essentials/template-syntax.html#text-interpolation){ .md-button :target="_blank" }
+<a href="https://fr.vuejs.org/guide/essentials/template-syntax.html#text-interpolation" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur les <em>l'interpolation des données textuelles</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
@@ -137,6 +134,8 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 
 
 [En savoir plus sur Attributs](https://fr.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings){ .md-button :target="_blank" }
+<br>
+<a href="https://fr.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur les <em>Liaisons d'attributs - Attribute bindings</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
@@ -174,8 +173,10 @@ En HTML
 <div>
     <h2>Vue.js est formidable!</h2>
 </div>
+```
 
-[En savoir plus sur le contenu HTML](https://fr.vuejs.org/guide/essentials/template-syntax#raw-html){ .md-button :target="_blank" }
+[En savoir plus sur l'interpolation des données en HTML brut](https://fr.vuejs.org/guide/essentials/template-syntax#raw-html){ .md-button :target="_blank" }
+<br>
+<a href="https://fr.vuejs.org/guide/essentials/template-syntax#raw-html" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">En savoir plus sur l'interpolation des données en <em>HTML brut</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
-```

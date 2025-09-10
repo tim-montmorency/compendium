@@ -32,7 +32,7 @@ const app = Vue.createApp({
 
 <br><br>
 
-# v-on: ou @
+## v-on: ou @
 
 <!-- /* Ajouter de quelle façon on apelle la methode via l'interpolation source : https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463140#overview à 3:46 */ -->
 
@@ -68,7 +68,9 @@ Salut { { firstName } }
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 <br>
-[Gestion d'événement - Event Handling](https://fr.vuejs.org/guide/essentials/event-handling){ .md-button }
+<a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
+<br>
+ [ Gestion d'événement - Event Handling](https://fr.vuejs.org/guide/essentials/event-handling){ .md-button }
 
 
 <!--
@@ -83,7 +85,7 @@ On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways 
 
 
 
-# Démo - Poésie de décembre
+## Démo - Poésie de décembre
 
 Démo en classe via <a href="https://codepen.io/tim-momo/pen/MWNMQmq">CodePen</a>
 <!--
@@ -92,7 +94,7 @@ COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 -->
 
 
-# Exercices
+## Exercices
 
 Liens à venir
 
