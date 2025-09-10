@@ -4,7 +4,7 @@
 
 1. Création du **dépôt git** sur GitHub : nommé *portfolio-tonprenom-tonnomdefamille*  
    Il doit être **privé** pour le moment.  
-   Veuillez inviter **Marie-Michelle Ouellet** (*kid-synthetique*) et **Lora Boisvert** en tant que collaboratrices de votre dépôt.  
+   Veuillez inviter **Marie-Michelle Ouellet** (*kid-synthetique*) et **Lora Boisvert** (*flora0510) en tant que collaboratrices de votre dépôt.  
 
    Ce dépôt devra contenir un **README.md** formaté en Markdown qui contient :
 
