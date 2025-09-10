@@ -5,7 +5,7 @@
 
 <p>Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un élément HTML afin de changer son apparence pour refléter une action commise par un usager.<p>
 
-<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <code>{}</code> à un <em>l'attribut dynamique</em> <code>v-bind:class</code>  ou <code>:class</code> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi si la condition suivie des <code>:</code> retourne <code>true</code>, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à <code>false</code> elle est retirée.</p>
+<p> Pour ce faire, Vue permet de passer un <em>objet JavaScript</em> <code>{}</code> à un <em>l'attribut dynamique</em> <code style="white-space: nowrap;">v-bind:class</code>  ou <code>:class</code> sur la balise. <br> Cet objet doit contenir une <em>propriété</em> correspondant au nom de la classe souhaitée et comme <em>valeur</em> une donnée ou encore une expression. Ainsi si la condition suivie des <code>:</code> retourne <code>true</code>, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à <code>false</code> elle est retirée.</p>
 
 <br><br>
 <p>Voici un exemple où est ajoutée la classe <code>.majority</code> à une carte d'une personne lorsque la donnée <code>age</code> est plus grande ou égale à <code>18</code>: </p>
