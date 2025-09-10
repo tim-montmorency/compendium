@@ -30,49 +30,48 @@
 
 ### Exemples de type de composantes Vue.js dans un portfolio
 
-#### 1. Filtre dynamique de projets
-
+1. **Filtre dynamique de projets**
 - Une section « Mes projets » avec boutons pour filtrer (ex. *Tout*, *Web*, *Design graphique*, *Vidéo*).
 - Vue gère le filtrage en affichant/masquant les bons projets.
 - ➕ Donne un effet professionnel et prouve leur capacité à manipuler des données dynamiques.
 
-#### 2. Galerie interactive / Lightbox
+2. **Galerie interactive / Carousel / Lightbox**
 
 - Miniatures cliquables qui ouvrent une version agrandie avec navigation (suivant/précédent).
 - Peut aussi servir pour montrer des captures d’écran d’un projet.
 - ➕ Très visuel, valorise bien leurs travaux.
 
-#### 3. Témoignages / citations en carrousel
+3. **Témoignages / citations en carrousel**
 
 - Bloc avec quelques témoignages (enseignants, collègues, clients fictifs ou réels).
 - Navigation automatique ou manuelle (précédent/suivant).
 - ➕ Simple, mais démontre gestion d’un tableau de données + rendu dynamique.
 
-#### 4. Compteur de compétences animées
+4. **Compteur de compétences animées**
 
 - Exemple : HTML (90%), CSS (80%), JS (60%) → barres de progression qui se remplissent.
 - Vue gère l’état des compétences sous forme d’objets et les rend.
 - ➕ Bon moyen de relier design + données.
 
-#### 5. Widget de disponibilité / contact rapide
+5. **Widget de disponibilité / contact rapide**
 
 - Petit bouton type *« Disponible pour un stage à partir de mars 2026 »* avec changement d’état (disponible / occupé).
 - L’état est géré en data Vue (booléen).
 - ➕ Donne un côté vivant et utile au portfolio.
 
-#### 6. Timeline interactive
+6. **Timeline interactive**
 
 - Une ligne du temps de leurs expériences (parcours scolaire, projets marquants).
 - Vue gère le tableau d’items (année + description) et le rend dynamiquement.
 - ➕ Met en valeur leur cheminement, un format qu’ils pourront réutiliser plus tard.
 
-#### 7. Dark mode / Light mode toggle
+**7. Dark mode / Light mode toggle**
 
 - Petit switch en haut du site pour passer en mode sombre/clair.
 - Vue gère l’état et applique une classe CSS correspondante.
 - ➕ Tendance moderne, simple mais impressionne.
 
-#### 8. Formulaire de contact validé en direct
+**8. Formulaire de contact validé en direct**
 
 - Formulaire basique (nom, email, message).
 - Vue gère la validation en temps réel (ex. champ email non valide).
