@@ -62,7 +62,6 @@ Autre exemple, pour ajouter la classe `.orange` lorsque la donnée `isOrange` es
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-.
 
 ## Nom de classe contenant des caractères spéciaux
 
