@@ -7,7 +7,9 @@ Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un éléme
 
 Pour ce faire, Vue permet de passer un *objet JavaScript* `{}` à un *l'attribut dynamique* `v-bind:class`  ou `:class` sur la balise.
 
- Cet objet doit contenir une *propriété* correspondant au nom de la classe souhaitée et comme *valeur* une donnée ou encore une expression. Ainsi si la condition suivie des `:` retourne `true`, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à `false` elle est retirée.
+Cet objet doit contenir une *propriété* correspondant au nom de la classe souhaitée et comme *valeur* une donnée ou encore une expression. Ainsi si la condition suivie des `:` retourne `true`, la classe est ajoutée.  Et à l'opposé, si elle est évaluée à `false` elle est retirée.
+
+<hr>
 
 Voici un exemple où est ajoutée la classe `.majority` à une carte d'une personne lorsque la donnée `age` est plus grande ou égale à `18`:
 
@@ -24,7 +26,7 @@ img.majority{
 }
 ```
 
-
+<hr>
 
 
 Voici un exemple où est ajoutée la classe `.disabled` au bouton que lorsque la donnée `isDisabled` est équivalente à `true`: 
@@ -43,7 +45,7 @@ button.disabled {
 }
 ```
 
-
+<hr>
 
 Autre exemple, pour ajouter la classe `.orange` lorsque la donnée `isOrange` est équivalente à `true`:
 
