@@ -10,8 +10,12 @@
 - [ ] Vue.js
   - [ ] Méthodes et événenements v-on
   - [ ] Classe CSS dynamiques
-  - [ ] Conditions v-for
-  - [ ] Boucle v-for
+<!--
+
+- [ ] Conditions v-if
+- [ ] Boucle v-for
+
+-->  
 
 ## Projet portfolio (25%)
 
@@ -65,8 +69,7 @@ Révision en classe.
 
 [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 
-
-## Vue.js: conditions v-if et boucle v-for
+<!--## Vue.js: conditions v-if et boucle v-for
 
 [Vue: Conditions v-if](./vue/conditions.md)
 
@@ -76,6 +79,9 @@ Révision en classe.
 ### Exercices
 
 Lien à venir
+
+-->
+
 <!-- 
 [Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 -->
@@ -83,5 +89,5 @@ Lien à venir
 
 ## Devoirs
 
-- Pour lundi, terminer les exercices *NBA* et *Cheese Kanye says*. Vous n'êtes pas tenus de terminer *Liste de films* pour lundi mais il sera nécessaire de le finir éventuellement.
-- Avancer votre Planification de portfolio (notamment .e github et le moodboard), date de remise de cette étape mercredid le 17 septembre.
+- Pour lundi, vous devez terminer les exercices *NBA* et *Cheese Kanye says*. Vous n'êtes pas tenus de terminer *Collection de films* pour lundi mais il sera nécessaire de le compléter éventuellement.
+- D'ici lundi, il est conseiller d'avancer votre *Planification de portfolio* (notamment le GitHub, le tableau Trello et le Mmoodboard). La date de remise de cette étape est *mercredi le 17 septembre*.
