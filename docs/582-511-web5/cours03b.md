@@ -28,8 +28,8 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 ## Quiz time !
 
-- [Groupe 1 merc AM](https://app.wooclap.com/)
-- [Groupe 2 merc PM](https://app.wooclap.com/)
+- [Groupe 1 merc AM](https://app.wooclap.com/YOZIXE)
+- [Groupe 2 merc PM](https://app.wooclap.com/EZTJGO)
 
 ## Révision Super Smash Bros
 
