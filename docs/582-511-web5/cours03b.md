@@ -10,14 +10,14 @@
   - [ ] Création d'une app
   - [ ] Interpolation de données
 
-## Présentation du projet portfolio
+## Projet portfolio (25%)
 
 Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les cours:
 
 - *582 541 MO - Préparation au milieu de travail*
 - *582 511 MO - Web 5*
 
-[Projet Portfolio](./projets/portfolio.md){ .md-button }
+[Projet Portfolio - Infos générales](./projets/portfolio.md){ .md-button }
 [Projet Portfolio - Remise planification 17 septembre](./projets/portfolio-remise1.md){ .md-button }
 
 ## Quiz time !
