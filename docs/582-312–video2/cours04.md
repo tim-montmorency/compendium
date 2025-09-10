@@ -85,7 +85,7 @@
   * A : Sélectionner et déplacer les clips dans la timeline.
   * B : Découper les clips avec précision à l'aide de l'outil lame.
   * T : Ajuster les points d'entrée et de sortie des clips avec l'outil trim. <br>
-🛠️ **Utilisation de l'outil Trim** : Glissez le clip 10678415-uhd_4096_2160_25fps.mp4 à l'intérieur de sa zone dans la timeline pour ajuster son contenu tout en conservant sa durée et sa position initiales. <br>
+🛠️ **Utilisation de l'outil Trim** : Glissez un clip à l'intérieur de sa zone dans la timeline pour ajuster son contenu tout en conservant sa durée et sa position initiales. <br>
 * 🛠️ **Sélection de clips** avec la tête de lecture :
   * Alt+Y : Sélectionner tous les clips après la tête de lecture.
   * Ctrl+Alt+Y : Sélectionner tous les clips avant la tête de lecture.
@@ -98,14 +98,15 @@
 * [▶️ Keyframe panoramique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY8KmAleO-VPn3TBTEnZ9OYBZ7upASoFTHbMaxvANa62nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trWKxK)
 * [▶️ keyframe pitch son](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWTF7KJwz99EqqnOjNSMjMYBa7zEhZvetVDbIzkaBMAkSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zZfch)
   
- * 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). <br>
- * 🛠️ **Ajustement du volume** : Monter ou descendre le volume en utilisant des keyframes pour créer des transitions sonores fluides.
- * 🛠️ **Création de panoramiques** : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
- * 🛠️ **Effets sonores avec transitions** : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
-   * Utiliser le clip coton (3250224-hd_1920_1080_30fps.mp4) comme ambiance sonore et ajouter des transitions fade in et fade out.
-   * Insérer le fichier sonore LOW-HIT_Turner_Round.wav pour marquer une transition, avec des fade in et fade out pour fluidifier l’effet.
-      
+ * 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). (voir clip du matelas - Overhead_slow_motion_shot__the_camera_glides_above_a_mattress_gently_rocking_on_rippling_water_benea.mp4)<br>
 
+ * 🛠️ **Ajustement du volume** : Monter ou descendre le volume du clip (Distant_ocean_breath-#3-1757459776010) pour créer de légères variations. 
+ * 🛠️ **Création de panoramiques** : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
+    * Utiliser le clip (A_gentle_whoosh_soun-#2-1757456178251) et créer un panoramique gauche/droite. 
+ * 🛠️ **Effets sonores avec transitions** : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
+   * Utiliser le clip (Distant_ocean_breath-#3-1757459776010) comme ambiance sonore et ajouter des transitions fade in et fade out.
+
+ 
 
 ### Notions: l'inspecteur 
 * [▶️ Utilisation de l'inspecteur 1](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_video/_capsules_montage/_capsules_da_vinci/01_capsules_da_vinci/01_da_vinci_de_base/16_montage_video/04_onglet_montage_inspecteur_1.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rN6LMZ)
