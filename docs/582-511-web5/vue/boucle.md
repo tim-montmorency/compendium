@@ -79,10 +79,12 @@ Il est possible de combiner une boucle avec des [événements](./methodes-evenem
 </p>
 
 
+## Exercices
 
 Lien à venir
 <!-- 
-[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 -->
+
 
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
