@@ -86,4 +86,7 @@ Lien à venir
 -->
 
 
+## Devoirs
 
+- Pour lundi, terminer les exercices *NBA* et *Cheese Kanye says*. Vous n'êtes pas tenus de terminer *Liste de films* pour lundi mais il sera nécessaire de le finir éventuellement.
+- Avancer votre Planification de portfolio (notamment .e github et le moodboard), date de remise de cette étape mercredid le 17 septembre.
