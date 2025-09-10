@@ -39,3 +39,19 @@ Révision en classe.
 
 ## Vue.js
 
+[Vue: Méthodes et événenements *v-on*](./vue/methodes-evenements.md)
+
+
+## Exercices
+
+Liens à venir
+
+<!--
+[Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+[Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+-->
+
+## Vue.js
+
+
+
