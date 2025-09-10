@@ -42,7 +42,7 @@ const app = Vue.createApp({
 
 ```
 <div id="app">
-Salut { { firstName } }
+Salut {{ firstName }}
   <button v-on:click="showActor()">Révéler l'acteur</button>
 </div>
 ```
@@ -53,7 +53,7 @@ Salut { { firstName } }
 
 ```
 <div id="app">
-Salut { { firstName } }
+Salut {{ firstName }}
   <button @click="showActor()">Révéler l'acteur</button>
 </div>
 ```

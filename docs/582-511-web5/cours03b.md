@@ -42,7 +42,7 @@ Révision en classe.
 
 ## Vue.js: Méthodes et événements v-on
 
-[Vue: Méthodes et événenements *v-on*](./vue/methodes-evenements.md)
+[Vue: Méthodes et événenements v-on](./vue/methodes-evenements.md)
 
 
 ### Exercices
