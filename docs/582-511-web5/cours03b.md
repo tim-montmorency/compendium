@@ -7,9 +7,10 @@
 - [ ] Quiz de révision
 - [ ] Révision de Super Smash Bros 🕹️🎮👾
 - [ ] Vue.js
-  - [ ] Introduction
-  - [ ] Création d'une app
-  - [ ] Interpolation de données
+  - [ ] Méthodes et événenements v-on
+  - [ ] Classe CSS dynamiques
+  - [ ] Conditions v-for
+  - [ ] Boucle v-for
 
 ## Projet portfolio (25%)
 
