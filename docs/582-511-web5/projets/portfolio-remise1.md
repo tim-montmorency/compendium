@@ -1,31 +1,31 @@
 # Portfolio Planification
 
-
-
 ## Quoi faire
 
-1. First ordered item
-    * First unordered sub-item
-    * Second unordered sub-item
-
 1. Création du **dépôt git** sur GitHub: nommé: *portfolio-tonprenom-tonnomdefamille*
-    * Ce dépôt devra contenir un **README.md** formatté en markdown qui contient:
-    * le nom du projet en titre principal *Portfolio de TON-NOM*
-    * lien vers ton fichier Figma (pour le lien vers ton Figma, attention pour ne donner accès qu'à tes 2 enseignantes mais ne pas le rendre publique) (voir consigne 3)
-    * lien vers ton tableau **Trello** ou **GitHub Project** (pour le lien vers ton Trello ou GitHug Project, attention pour ne donner accès qu'à tes 2 enseignantes mais ne pas le rendre publique) (voir consigne 5)
-    * choix de ta composante Vue.js (voir consigne 7)
+    .
+    Il doit être **privé** pour le moment.
+    .
+    Veuillez inviter Marie-Michelle Ouellet (*kid-synthetique*) et *Lora Boisvert* en tant que collaborateur de votre repertoire git.
+    .
+    Ce dépôt devra contenir un **README.md** formatté en markdown qui contient:
 
+    - le nom du projet en titre principal *Portfolio de TON-NOM*
+    - lien vers ton fichier Figma (pour le lien vers ton Figma, attention pour ne donner accès qu'à tes 2 enseignantes mais ne pas le rendre publique) (voir consigne 3)
+    - lien vers ton tableau **Trello** ou **GitHub Project** (pour le lien vers ton Trello ou GitHug Project, attention pour ne donner accès qu'à tes 2 enseignantes mais ne pas le rendre publique) (voir consigne 4)
+    - choix du type de navigation parmis tes projets (voir consigne 6)
+    - choix de ta composante Vue.js (voir consigne 7)
 2. Recherche d’**inspirations**
-
-3. Création d’un **moodboard** avec vos choix finaux (FIGMA)
-    * Inspirations (images et liens cliquables vers vos sites d’inspiration)
-    * Élément de UI (boutons, menu etc)
-    * Palette de couleurs
-    * Typographie choisie (idéalement une seule typo contenant différentes graisses mais tu peux en choisir maximum 2)
-
-4. Choix d'un **type de navigation dans tes projets présentés** : carrousel, multipage, fenêtre modale (popup), autres (allez vous inspirer) !
-5. Tableau **Trello** ou **Github Project** contenant les tâches à réaliser pour le projet en entier (tâche et liste de sous-tâches).
-6. **Calendrier Outlook** populé avec les différentes **remises** des 2 cours (ceux de Web 5 et Préparation au milieu de travail).
+3. Création d’un **moodboard** avec vos choix finaux (idéalement avec FIGMA)
+    - Inspirations (images et liens cliquables vers vos sites d’inspiration)
+    - Élément de UI (boutons, menu etc)
+    - Palette de couleurs
+    - Typographie choisie (idéalement une seule typo contenant différentes graisses mais tu peux en choisir maximum 2)
+!!! tip "Choisissez judicieusement un template de moodboard"
+    Il doit être propre et complet. Il contenir minimalement toutes les informations demandées. Les images doivent être alignées entre elles, les espacements constants etc. Laissez une marge intérieure avec le bord du cadre extérieur.
+4. Créer un tableau **Trello** ou **Github Project** contenant les tâches à réaliser pour le projet en entier (tâche et liste de sous-tâches). Il doit contenir 3 colonnes **À faire**, **En cours**, **Complété**.
+5. **Calendrier Outlook** populé avec les différentes **remises** des 2 cours (ceux de Web 5 et Préparation au milieu de travail).
+6. Choix d'un **type de navigation dans tes projets présentés** : carrousel, multipage, fenêtre modale (popup), autres (allez vous inspirer) !
 7. **Choix du type de composant *Vue.js*** que tu veux intégrer dans ton portfolio, voici quelques idées mais tu n'es pas tenu de te limiter à cette liste:
 
 ### Exemples de type de composantes Vue.js dans un portfolio
@@ -38,9 +38,9 @@
 
 #### 2. Galerie interactive / Lightbox
 
-* Miniatures cliquables qui ouvrent une version agrandie avec navigation (suivant/précédent).
-* Peut aussi servir pour montrer des captures d’écran d’un projet.
-* ➕ Très visuel, valorise bien leurs travaux.
+- Miniatures cliquables qui ouvrent une version agrandie avec navigation (suivant/précédent).
+- Peut aussi servir pour montrer des captures d’écran d’un projet.
+- ➕ Très visuel, valorise bien leurs travaux.
 
 #### 3. Témoignages / citations en carrousel
 
@@ -78,7 +78,6 @@
 - Vue gère la validation en temps réel (ex. champ email non valide).
 - ➕ Montre la compréhension des formulaires et de la réactivité.
 
-
 <!-- Rédaction d’un pseudo code prévu pour faire votre composant.  -->
 
 ## Remise
@@ -98,8 +97,3 @@ Mercredi 17 septembre avant le cours
 - Un fichier **.pdf** du **moodboard** exporté
 - **Lien** vers ton tableau **Trello** ou **GitHub Project**
 - Impression(s)-écran qui prouve(nt) que tu as ajouté toutes les dates de remise du projet dans ton **calendrier Outlook**.
-
-
-
-
-
