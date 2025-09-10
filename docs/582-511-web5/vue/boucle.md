@@ -46,7 +46,7 @@ Par exemple:
 
 ## Combinaison d'une boucle avec des événements
 
-Il est possible de combiner une boucle avec des [événements](.methodes-evenements.html) sans problème, simplement en spécifiant en paramètre à la méthode appelée l'objet devant être altéré.
+Il est possible de combiner une boucle avec des [événements](./methodes-evenements.md) sans problème, simplement en spécifiant en paramètre à la méthode appelée l'objet devant être altéré.
 <br>
 
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="oNJKyOO" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
