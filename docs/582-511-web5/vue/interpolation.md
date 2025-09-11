@@ -65,9 +65,8 @@ Affichera en fait:
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
 <br><br>
-!!! warning
-    <strong>Erreur fréquente</strong>
-    Les moustaches ne sont fonctionnelles qu’à l’intérieur de la balise HTML assignée à&nbsp;l’app (la balise qui est <code>mount</code>)
+!!! warning "Erreur fréquente"
+    Les moustaches ne sont fonctionnelles qu’à l’intérieur de la balise HTML assignée à l’app (la balise qui est `mount`)
 
    
 
@@ -84,33 +83,33 @@ Affichera en fait:
 
 ## Attributs des balises HTML via <span style="white-space: nowrap;">:v-bind&nbsp;ou&nbsp;:</span>
 
-Les données peuvent aussi être insérées dynamiquement dans un attribut HTML <em>(class, src, alt, style, etc.)</em>. Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive <code>v-bind</code> en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
+Les données peuvent aussi être insérées dynamiquement dans un attribut HTML (`class`, `src`, `alt`, `style`, etc.). Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive `v-bind` en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
 
 
-Par exemple, pour afficher l'image contenue dans la propriété <code>picture</code>:
+Par exemple, pour afficher l'image contenue dans la propriété `picture`, on utilise v-bind:src:
 
-```html title="Par exemple, pour afficher l'image contenue dans la propriété picture"
+```html title="Par exemple, pour afficher l'image contenue dans la propriété picture, on utilise v-bind:src"
 <div id="app">
     <img v-bind:src="picture">
 </div>
 ```
 
 
-ou encore la syntaxe courte avec `:` :
+ou encore la syntaxe courte avec `:src` :
 
-```html title="ou encore la syntaxe courte avec : "
+```html title="ou encore la syntaxe courte avec :src"
 <div id="app">
-    <img :src="picture" :alt="${firstName} ${lastName}">
+    <img :src="picture">
 </div>
 ```
 
 <br><br>
 
-Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un *littéraux de gabarit* afin de gérer la combinaison.
+Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser les [littéraux de gabarit](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Template_literals) afin de gérer la combinaison.
 
 Par exemple, pour inscrire le prénom et le nom dans le `alt` d'une image:
 
-```html
+```html title="Par exemple, pour inscrire le prénom et le nom dans le alt d'une image:"
 <div id="app">
     <img :src="picture" :alt="`${firstName} ${lastName}`">
 </div>
@@ -126,7 +125,7 @@ Par exemple, pour inscrire le prénom et le nom dans le `alt` d'une image:
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-!!! warning
+!!! warning "attribut == undefined"
     Si un attribut est associé à une donnée dont la valeur équivaut à `null` ou `undefined`, l’attribut ne sera pas&nbsp;créé.
 
 
