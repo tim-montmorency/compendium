@@ -60,7 +60,7 @@ Navigation 1/2
 - [ ] Ensuite, ajoutez une navigation (avec `<nav>`) pour la table des matières
 - [ ] Ajouter un **titre 2** à la table des matières
 - [ ] Appliquer un identifiant unique au **titre 2**
-- [ ] Créer les **liens internes** pour la table des matières
+- [ ] Créer les liens de type ancre pour la table des matières
 
 Sections
 
