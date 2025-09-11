@@ -107,9 +107,7 @@ Quelques exemples que j'ai sélectionnés pour vous :
 
 ## Exercices
 
-[Lien à venir](#){ .md-button :target="_blank" }
-<!-- [Exercice Vue.js: Badge VIP Festif](./exercices/vue-badge-vip.md){ .md-button :target="_blank" } -->
-
+[Exercice Vue.js: Badge VIP Festif](./exercices/vue-badge-vip.md){ .md-button :target="_blank" }
 
 ## Devoirs
 
