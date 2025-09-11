@@ -237,7 +237,7 @@ nav:
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthodes et événenements v-on: 582-511-web5/vue/methodes-evenements.md
         - Classes dynamiques: 582-511-web5/vue/classes-dynamiques.md
-        - Conditions v-if: 582-511-web5/vue/conditions.md
+        - Conditions v-if: 582-511-web5/vue/condition.md
         - Listes et v-for: 582-511-web5/vue/boucle.md
     
       - Cours 1.1: 582-511-web5/cours01a.md
