@@ -406,9 +406,8 @@ extra:
 extra_css:
   - https://unpkg.com/tippy.js@6/animations/shift-away.css
   - https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css
+#  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css
   - _/extra.css
-#  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css
 
 extra_javascript:
   - _/mathjax.js
@@ -418,7 +417,7 @@ extra_javascript:
   - https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js
   - https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js
   - https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js
+#  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js
   - _/extra.js
   - _/image-zoom.js
   - _/gallery.js
