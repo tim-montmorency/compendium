@@ -2,40 +2,40 @@
 
 ## Quoi faire
 
-1. Création du **dépôt git** sur GitHub : nommé *portfolio-tonprenom-tonnomdefamille*  
+- [ ] 1. Création du **dépôt git** sur GitHub : nommé *portfolio-tonprenom-tonnomdefamille*  
    Il doit être **privé** pour le moment.  
    Veuillez inviter **Marie-Michelle Ouellet** (*kid-synthetique*) et **Lora Boisvert** (*flora0510*) en tant que collaboratrices de votre dépôt.  
 
    Ce dépôt devra contenir un **README.md** formaté en Markdown qui contient :
 
-   - le nom du projet en titre principal *Portfolio de TON-NOM*
-   - un lien vers ton fichier **Figma**  
+  - le nom du projet en titre principal *Portfolio de TON-NOM*
+  - un lien vers ton fichier **Figma**  
     ⚠️ Donne accès uniquement à tes 2 enseignantes (pas en public) — voir consigne 3
-   - un lien vers ton tableau **Trello** ou **GitHub Project**  
+  - un lien vers ton tableau **Trello** ou **GitHub Project**  
     ⚠️ Donne accès uniquement à tes 2 enseignantes (pas en public) — voir consigne 4
-   - le choix du type de **navigation** parmi tes projets (voir consigne 6)
-   - le choix de ta **composante Vue.js** (voir consigne 7)
+  - le choix du type de **navigation** parmi tes projets (voir consigne 6)
+  - le choix de ta **composante Vue.js** (voir consigne 7)
 
-2. Recherche d’**inspirations**
+- [ ] 2. Recherche d’**inspirations**
 
-3. Création d’un **moodboard** avec vos choix finaux (idéalement avec Figma) :
-   - Inspirations (images et liens cliquables vers vos sites d’inspiration)
-   - Éléments de UI (boutons, menus, etc.)
-   - Palette de couleurs
-   - Typographie choisie (idéalement une seule typo avec différentes graisses, maximum 2 typos)
+- [ ] 3. Création d’un **moodboard** avec vos choix finaux (idéalement avec Figma) :
+  - Inspirations (images et liens cliquables vers vos sites d’inspiration)
+  - Éléments de UI (boutons, menus, etc.)
+  - Palette de couleurs
+  - Typographie choisie (idéalement une seule typo avec différentes graisses, maximum 2 typos)
 
    💡 **Conseil :** choisissez judicieusement un template de moodboard.  
    Il doit être propre et complet, contenir toutes les informations demandées, avec des images alignées et espacées régulièrement. Laissez une marge intérieure par rapport au bord du cadre extérieur.
 
-4. Créer un tableau **Trello** ou **GitHub Project** avec les tâches à réaliser pour le projet entier.  
+- [ ] 4. Créer un tableau **Trello** ou **GitHub Project** avec les tâches à réaliser pour le projet entier.  
    Il doit contenir 3 colonnes : **À faire**, **En cours**, **Complété**.
 
-5. Ajouter dans votre **Calendrier Outlook** les différentes **remises** des 2 cours (Web 5 et Préparation au milieu de travail).
+- [ ] 5. Ajouter dans votre **Calendrier Outlook** les différentes **remises** des 2 cours (Web 5 et Préparation au milieu de travail).
 
-6. Choisir un **type de navigation** dans vos projets présentés :  
+- [ ] 6. Choisir un **type de navigation** dans vos projets présentés :  
    carrousel, multipage, fenêtre modale (popup), ou autres (inspirez-vous !).
 
-7. Choisir le **type de composant Vue.js** que vous voulez intégrer dans votre portfolio.  
+- [ ] 7. Choisir le **type de composant Vue.js** que vous voulez intégrer dans votre portfolio.  
    Voici quelques exemples :
 
 ### Exemples de composantes Vue.js
@@ -94,11 +94,11 @@
 
 ### Quoi remettre
 
-- **Lien** vers ton **repo GitHub** privé avec le README.md complet
+- [ ] **Lien** vers ton **repo GitHub** privé avec le README.md complet
   ⚠️ Donne accès uniquement à tes 2 enseignantes
-- **Lien** vers ton fichier **Figma** (moodboard)  
+- [ ] **Lien** vers ton fichier **Figma** (moodboard)  
   ⚠️ Donne accès uniquement à tes 2 enseignantes
-- Un fichier **PDF** exporté du moodboard
-- **Lien** vers ton tableau **Trello** ou **GitHub Project**
+- [ ] Un fichier **PDF** exporté du moodboard
+- [ ] **Lien** vers ton tableau **Trello** ou **GitHub Project**
   ⚠️ Donne accès uniquement à tes 2 enseignantes
-- **Captures d’écran** prouvant que tu as ajouté toutes les dates de remise dans ton **calendrier Outlook**
+- [ ] **Captures d’écran** prouvant que tu as ajouté toutes les dates de remise dans ton **calendrier Outlook**
