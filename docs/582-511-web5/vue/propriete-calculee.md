@@ -1,6 +1,6 @@
 # Propriété calculée
 
-Pour modifier une valeur dynamiquement et our des raison de *performances*, il convient d'utiliserune *propriété calculée* (*computed property*) plutôt qu'une *méthode*.
+Pour modifier une valeur dynamiquement et pour des raison de *performances*, il convient d'utiliserune *propriété calculée* (*computed property*) plutôt qu'une *méthode*.
 
 C'est à dire que si une valeur doit être recalculée en fonction d'une ou plusieurs autres valeurs, il est préférable d'utiliser une *propriété calculée*.
 
@@ -15,7 +15,7 @@ Par exemple, si on voudrait convertir une devise en une autre 💵. Par exemple,
 ```
 
 <br>
-Bien que ces expressions soient pratiques, elles ne sont destinées qu'aux opérations simples, car elles peuvent rapidement porter à confusion:
+Bien que ces expressions dites *en ligne* (online) soient pratiques, elles ne sont destinées qu'aux opérations simples, car elles peuvent rapidement porter à confusion:
 
 - Pourquoi ce montant est-il multiplié par `0.8`?
 - Quelle devise tente-t-on d'afficher?
@@ -45,7 +45,7 @@ computed: {
 }
 ```
 
-La grande force des propriétés calculées est qu'elles **surveillent en permanence les données sur lesquelles elles se basent**. 
+La grande force des propriétés calculées est qu'elles **surveillent en permanence les données sur lesquelles elles se basent**.
 
 Ainsi, si l'une de ces données vient à changer, par exemple le montant `amount`, le résultat de la propriété calculée `amountToUSD` se mettra automatiquement à jour en se basant sur la valeur de celle-ci. En d'autres mots, la valeur en dollars américains `amountToUSD` se met automatiquement à jour lorsque le montant en dollars canadien `amount` change, puisqu'il s'agit d'une propriété calculée.
 
@@ -55,12 +55,23 @@ Ainsi, si l'une de ces données vient à changer, par exemple le montant `amount
   Vue propriété calculé - Convertisseur de devise</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 **Modifiez le montant de base en CAD afin de voir le montant en USD être recalculé automatiquement.**
 
 
 <br>
+
+Autre exemple de propriété calculée avec notre fameux acteur:
+
+<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="html,result" data-slug-hash="KwdLGpX" data-pen-title="DEMO VueJS | v-if" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KwdLGpX">
+  DEMO VueJS | v-if</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
 <br>
 <a href="https://fr.vuejs.org/guide/essentials/computed" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">En savoir plus sur <em>propriétés calculées - computed properties</em></a>
 <br>
