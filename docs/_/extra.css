@@ -490,7 +490,7 @@ stop:before {
 .finishing .md-typeset > div > h1 {
   color: #ef5552;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .finishing .md-typeset h2 {
   padding-top: 3.8rem;
@@ -509,7 +509,7 @@ stop:before {
   font-size: 1.5em;
 }
 .finishing .md-typeset code,
-.finishing .md-typeset pre {
+.finishing .md-typeset :not(pre) > code {
   background-color: #404555;
   color: white;
 }
@@ -539,6 +539,7 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset em {
   color: #fabc2a;
 }
+
 .finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
 }
