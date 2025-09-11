@@ -4,7 +4,6 @@
 
 Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve <code>data</code>: une fonction retournant les données susceptibles de changer dans l'application.
 
-
 Par exemple, pour définir une valeur de nom, il est possible d'écrire:
 
 ```js "Par exemple, pour définir une valeur de nom, il est possible d'écrire:"
@@ -18,7 +17,6 @@ const app = Vue.createApp({
   }
 });
 ```
-
 
 <br>
 
@@ -35,7 +33,6 @@ const app = Vue.createApp({
   }
 });
 ```
-
 
 `data` est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: `firstName`, `lastName` et `picture`.
 
