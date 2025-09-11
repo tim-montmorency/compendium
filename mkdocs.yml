@@ -231,6 +231,15 @@ nav:
       - Cours 15: 582-411-web4/cours15/index.md
   - Web 5:
       - 582-511-web5/index.md
+      - Vue-js: 582-511-web5/vue/index.md
+        - Introduction: 582-511-web5/vue/introduction.md
+        - Créaction d'un app: 582-511-web5/vue/creation-app.md
+        - Données et interpolation: 582-511-web5/vue/interpolation.md
+        - Méthodes et événenements v-on: 582-511-web5/vue/methodes-evenements.md
+        - Classes dynamiques: 582-511-web5/vue/classes-dynamiques.md
+        - Conditions v-if: 582-511-web5/vue/conditions.md
+        - Listes et v-for: 582-511-web5/vue/boucle.md
+    
       - Cours 1.1: 582-511-web5/cours01a.md
       - Cours 1.2: 582-511-web5/cours01b.md
       - Cours 2.1: 582-511-web5/cours02a.md
