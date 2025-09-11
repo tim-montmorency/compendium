@@ -119,10 +119,8 @@ ou produira le code suivant si la valeur de *isOrange* est `false`:
 
 ## Exercice
 
-Lien à venir
-<!-- 
-[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
--->
+[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
+
 
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 

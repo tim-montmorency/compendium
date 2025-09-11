@@ -91,11 +91,13 @@ COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 
 ## Exercices
 
-Liens à venir
 
-<!--
 [Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+
+<br>
+
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
--->
+
+
 
 
