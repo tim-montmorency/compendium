@@ -7,7 +7,7 @@ Afin de définir le comportement de l'app, un objet contenant diverses propriét
 
 Par exemple, pour définir une valeur de nom, il est possible d'écrire:
 
-```js
+```js "Par exemple, pour définir une valeur de nom, il est possible d'écrire:"
 const app = Vue.createApp({
   data: function() {
     return {
@@ -24,7 +24,7 @@ const app = Vue.createApp({
 
 Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:
 
-```js
+```js "Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:"
 const app = Vue.createApp({
   data() {
     return {
@@ -45,7 +45,8 @@ const app = Vue.createApp({
 Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches <code style="white-space: nowrap;">{{...}}</code>. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.
 
 Par exemple, le code suivant:
-```html
+
+```html "Par exemple, le code suivant:"
 <div id="app">
     Salut {{ firstName }}
 </div>
@@ -54,7 +55,9 @@ Par exemple, le code suivant:
 
 
 <br><br>
+
 Affichera en fait:
+
 ```html "Affichera en fait:"
 <div id="app">
     Salut Willy
@@ -101,7 +104,7 @@ Par exemple, pour afficher l'image contenue dans la propriété <code>picture</c
 
 ou encore la syntaxe courte avec <code>:</code>&nbsp;:
 
-```html title="ou encore la syntaxe courte avec :src"
+```html title="ou encore la syntaxe courte avec :"
 <div id="app">
     <img :src="picture" :alt="${firstName} ${lastName}">
 </div>
@@ -113,7 +116,7 @@ Si plusieurs données doivent être combinées dans le cadre d'un attribut, il e
 
 Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:
 
-```html
+```html "Par exemple, pour inscrire le prénom et le nom dans le alt d'une image:"
 <div id="app">
     <img :src="picture" :alt="`${firstName} ${lastName}`">
 </div>
