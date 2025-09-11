@@ -4,7 +4,7 @@
 
 - [ ] Présentation du projet portfolio
 - [ ] Suivi Figma - Plan Education Pro
-- [ ] Trello et/ou GitHub Project pour la gestion de projet
+- [ ] Tableau de gestion de projet
 - [ ] Quiz de révision
 - [ ] Révision de Super Smash Bros 🕹️🎮👾
 - [ ] Vue.js
@@ -32,9 +32,9 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 
 Voir si vous avez été validés.
 
-## -Trello et/ou GitHub Project
+## Tableau de gestion de projet
 
-Pour la gestion de projet simplifiée.
+Pour la gestion de projet simplifiée. Démo de **Trello**. Vous pouvez utiliser un autre outil comme GitHub Project ou autre, tant que vous puissiez donner accès à vos profs.
 
 ## Quiz time !
 
