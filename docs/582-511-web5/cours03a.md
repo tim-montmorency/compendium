@@ -30,11 +30,13 @@ Bonnne nouvelle, on a une solution pour toi! Le tutorat!
 
 ![](../582-111-web1/assets/images/programme-tim.png)
 
-Dans le groupe Teams « TIM - Programme TIM », il y aura une annonce faite par le tuteur pour annoncer sa disponibilité. Aussi, il y aura un [horaire en ligne](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) disponible sur le site du collège.
+Voici l'[horaire en ligne](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) disponible sur le site du collège.
 
-Il suffit d'envoyer un message privé au tuteur ou à la tutrice.
+De plus, avant chaque séance de tutorat, il y aura une annonce faite par le tuteur pour annoncer sa disponibilité. Cette annonce sera faite dans le groupe Teams « TIM - Programme TIM ».
 
-Il n'y a pas de gêne à avoir parce que les tuteurs sont présents au Centre d'aide, **local C-1602**, en attente de vos demandes, il sont payés pour ça!
+Il suffit d'envoyer un message privé au tuteur ou à la tutrice ou encore de se présenter au **local C-1602**.
+
+Il n'y a pas de gêne à avoir parce que les tuteurs sont présents, en attente de vos demandes, prêts à vous donner un coup de pouce. Il sont payés pour ça!
 
 
 
