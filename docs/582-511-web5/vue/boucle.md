@@ -7,7 +7,7 @@ Vue permet de boucler sur un tableau d'objets grâce à la directive `v-for`. Po
 
 Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau `rolesArray`:
 
-```
+```html
 <div v-for="role in rolesArr">
   <img :src="role.picture">
 </div>
@@ -30,7 +30,7 @@ Afin d'obtenir l'index courant dans une boucle `v-for`, il est suffit d'ajouter 
 
 Par exemple:
 
-```
+```html
 <div v-for="(role, index) in rolesArr">
   <img :src="role.picture">
 </div>

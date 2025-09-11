@@ -6,7 +6,8 @@
 <p>La propriété <code>methods</code> dans une app Vue est un objet contenant différentes méthodes pouvant être appelées. Ces méthodes peuvent avoir accès aux données contenues dans <code>data</code> via <code>this</code> et les altérer au besoin.</p>
 
 <p>Par exemple, la méthode <code>showActor</code> révélant l'acteur derrière le personnage:</p>
-```
+
+```js
 const app = Vue.createApp({
   data() {
     return {
@@ -40,7 +41,7 @@ const app = Vue.createApp({
 
 <p>Par exemple, pour qu'un bouton appelle la méthode <code>showActor()</code>:</p>
 
-```
+```html
 <div id="app">
 Salut {{ firstName }}
   <button v-on:click="showActor()">Révéler l'acteur</button>
@@ -51,7 +52,7 @@ Salut {{ firstName }}
 
 <p>ou encore la syntaxe courte avec <code>@</code>:</p>
 
-```
+```html
 <div id="app">
 Salut {{ firstName }}
   <button @click="showActor()">Révéler l'acteur</button>

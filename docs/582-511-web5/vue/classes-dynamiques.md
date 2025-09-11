@@ -13,11 +13,11 @@ Cet objet doit contenir une *propriété* correspondant au nom de la classe souh
 
 Voici un exemple où est ajoutée la classe `.majority` à une carte d'une personne lorsque la donnée `age` est plus grande ou égale à `18`:
 
-```
+```html
 <img :class="{ majority : age >= 18 }" src="url-vers-image-del-a-personne.png">
 ```
 
-```
+```css
 img{
     border: 1px solid gray;
 }
@@ -31,11 +31,11 @@ img.majority{
 
 Voici un exemple où est ajoutée la classe `.disabled` au bouton que lorsque la donnée `isDisabled` est équivalente à `true`: 
 
-```
+```html
 <button :class="{ disabled : isDisabled }"></button>
 ```
 
-```
+```css
 button {
     background-color: var(--primary-color);
 }
@@ -49,7 +49,7 @@ button.disabled {
 
 Autre exemple, pour ajouter la classe `.orange` lorsque la donnée `isOrange` est équivalente à `true`:
 
-```
+```html
 <img :src="picture" :class="{orange: isOrange}">
 ```
 
@@ -68,7 +68,8 @@ Autre exemple, pour ajouter la classe `.orange` lorsque la donnée `isOrange` es
 Si un nom de classe CSS contient des caractères spéciaux, il sera nécessaire de l'entourer de guillemets.
 
 Par exemple, une classe avec un trait d'union:
-```
+
+```html
 <img :src="picture" :class="{'is-orange': isOrange}">
 ```
 
@@ -81,7 +82,7 @@ Puisqu'un *objet JavaScript* `{}` est utilisé, il est possible d'ajouter plusie
 
 Par exemple:
 
-```
+```html
 <img :src="picture" :class="{orange: isOrange, big: isBig}">
 ```
 
@@ -94,17 +95,20 @@ Si certaines classes doivent être statiques *(ne jamais changer)*, alors que ce
  Un 1<sup>er</sup> nommé simplement `class=""` pour les classes statiques et un 2<sup>e</sup> avec sans `v-bind:class=""` ou `:class=""` pour les classes dynamiques. Ces deux attributs seront ensuite combinés par Vue.
 
 Par exemple:
-```
+
+```html
 <img :src="picture" class="media" :class="{orange: isOrange}">
 ```
 
 produira le code suivant si la valeur de *isOrange* est `true`:
-```
+
+```html
 <img src="willy-wonka-square.jpg" class="media orange">
 ```
 
 ou produira le code suivant si la valeur de *isOrange* est `false`:
-```
+
+```html
 <img src="willy-wonka-square.jpg" class="media">
 ```
 

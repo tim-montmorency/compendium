@@ -15,7 +15,7 @@
 
 **Par exemple:**
 
-```
+```js
 const app = Vue.createApp({});
 ```
 
@@ -33,14 +33,14 @@ const app = Vue.createApp({});
 
 <p>Par exemple, si la balise souhaitée a le <code>id</code> app:</p>
 
-```
+```js
 app.mount('#app');
 ```
 
 <p>Si le résultat du <code>mount</code> est stocké dans une variable, il est possible d'y accéder afin de changer ses données ou encore d'appeler ses méthodes.</p>
 
 **Par exemple:**
-```
+```js
 const vm = app.mount('#app');
 ```
 

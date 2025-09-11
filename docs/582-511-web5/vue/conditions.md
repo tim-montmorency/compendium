@@ -6,7 +6,7 @@ Certains éléments sont pertinents à afficher uniquement lorsqu'ils contiennen
 
 Par exemple, une bulle permettant d'afficher la date de naissance d'une personne n'est désirable que s'il y a une date à afficher. Si cette information n'est pas fournie, avoir une bulle vide est indésirable:
 
-```
+```html
 <div class="bubble" v-if="birth">{{ birth }}</div>
 ```
 
@@ -27,13 +27,14 @@ Par exemple, une bulle permettant d'afficher la date de naissance d'une personne
 Outre le fait de vérifier si une donnée est vide ou non, il est aussi possible d'ajouter une condition de comparaison directement dans `v-if`.
 
 Par exemple:
-```
+
+```html
 <div class="bubble" v-if="birth>=2000">{{ birth }}</div>
 ```
 
 
 Ou encore comparer la valeur de deux paramètres:
 
-```
+```html
 <div class="bubble" v-if="firstName==lastName">{{ firstName }}</div>
 ```
