@@ -69,7 +69,7 @@ Affichera en fait:
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
-
+<br><br>
 !!! warning
     <strong>Erreur fréquente</strong>
     Les moustaches ne sont fonctionnelles qu’à l’intérieur de la balise HTML assignée à&nbsp;l’app (la balise qui est <code>mount</code>)
