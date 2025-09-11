@@ -6,7 +6,8 @@ Afin de définir le comportement de l'app, un objet contenant diverses propriét
 
 
 Par exemple, pour définir une valeur de nom, il est possible d'écrire:
-```
+
+```js "Par exemple, pour définir une valeur de nom, il est possible d'écrire:"
 const app = Vue.createApp({
   data: function() {
     return {
@@ -23,7 +24,7 @@ const app = Vue.createApp({
 
 Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:
 
-```
+```js "Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:"
 const app = Vue.createApp({
   data() {
     return {
@@ -38,7 +39,7 @@ const app = Vue.createApp({
 
 
 
-<p><code>data</code> est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: <code>firstName</code>, <code>lastName</code> et <code>picture</code>.</p>
+`data` est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: `firstName`, `lastName` et `picture`.
 
 
 
@@ -57,7 +58,7 @@ Par exemple, le code suivant:
 
 <br><br>
 Affichera en fait:
-```
+```html "Affichera en fait:"
 <div id="app">
     Salut Willy
 </div>
@@ -94,7 +95,7 @@ Les données peuvent aussi être insérées dynamiquement dans un attribut HTML 
 
 Par exemple, pour afficher l'image contenue dans la propriété <code>picture</code>:
 
-```
+```html title="Par exemple, pour afficher l'image contenue dans la propriété picture"
 <div id="app">
     <img v-bind:src="picture">
 </div>
@@ -103,7 +104,7 @@ Par exemple, pour afficher l'image contenue dans la propriété <code>picture</c
 
 ou encore la syntaxe courte avec <code>:</code>&nbsp;:
 
-```
+```html title="ou encore la syntaxe courte avec :</code>&nbsp;:"
 <div id="app">
     <img :src="picture" :alt="${firstName} ${lastName}">
 </div>
@@ -115,7 +116,7 @@ Si plusieurs données doivent être combinées dans le cadre d'un attribut, il e
 
 Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:
 
-```
+```html title=""
 <div id="app">
     <img :src="picture" :alt="`${firstName} ${lastName}`">
 </div>
@@ -145,7 +146,8 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 <p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <code>v-html</code> sur la balise qui contiendra votre donnée.</p>
 
 En JavaScript
-```
+
+```js title="En JavaScript"
 const app = Vue.createApp({
   data() {
     return{
@@ -155,10 +157,10 @@ const app = Vue.createApp({
 });
 app.mount('#app');
 ```
+
 En HTML
 
-
-```
+```html title="En HTML"
 <div v-html="monTitre">
     
 </div>
@@ -168,8 +170,7 @@ En HTML
 
 <p>Ce qui va générer ce résultat:</p>
 
-
-```
+```html title="Ce qui va générer ce résultat:"
 <div>
     <h2>Vue.js est formidable!</h2>
 </div>
