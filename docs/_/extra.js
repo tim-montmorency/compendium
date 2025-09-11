@@ -380,9 +380,18 @@ function runFunctions() {
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
   addCustomStyles("582-511-web5");
   // selectIframe();
+
+  /* highlight.js initialization */
+  hljs.highlightAll();  
+
+  
 }
 
 function runOnce() {
   removeMainTabsNavigation();
   replaceLogoLinkWithSpan();
 }
+
+
+
+
