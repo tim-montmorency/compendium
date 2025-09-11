@@ -231,8 +231,8 @@ nav:
       - Cours 15: 582-411-web4/cours15/index.md
   - Web 5:
       - 582-511-web5/index.md
-      - Vue-js: 582-511-web5/vue/index.md
-        - Introduction: 582-511-web5/vue/introduction.md
+      - Vue-js - intro: 582-511-web5/vue/index.md
+        - Introduction: 582-511-web5/vue/index.md
         - Créaction d'un app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthodes et événenements v-on: 582-511-web5/vue/methodes-evenements.md
