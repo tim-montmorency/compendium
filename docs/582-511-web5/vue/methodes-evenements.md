@@ -71,15 +71,6 @@ Salut {{ firstName }}
 <a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
 <br>
 
-<!--
-# Event handling
-https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
-  v-on:input="setName" et on passe event en paramètre et ensuite event.target.value ou v-on:input="setName($event, "autre-parametre")"
-  
-On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview  
--->
-
-
 ## Démo - Poésie de décembre
 
 Démo en classe via <a href="https://codepen.io/tim-momo/pen/MWNMQmq">CodePen</a>
@@ -87,6 +78,37 @@ Démo en classe via <a href="https://codepen.io/tim-momo/pen/MWNMQmq">CodePen</a
 VIDE : https://codepen.io/tim-momo/pen/MWNMQmq
 COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 -->
+
+## Gestion d'événement
+
+### Gestion d'événement en ligne (inline)
+
+Les gestionnaires **inline** sont généralement utilisés dans des cas simples, directement dans la balise HTML, dans la valeur `v-on:click` / `@click`.
+
+```js title="Par exemple si on a une donnée count:"
+data() {
+  return {
+    count: 0
+  }
+}
+```
+
+```html title="On pourrait l'incrémenter ++ directement dans le template HTML."
+<button @click="count++">Add 1</button>
+<p>Count is: {{ count }}</p>
+```
+
+<!--
+Event handling
+
+https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463170#overview à 2:40 
+  v-on:input="setName" et on passe event en paramètre et ensuite event.target.value ou v-on:input="setName($event, "autre-parametre")"
+  
+On va parler de v-model (pour les inputs) seulement lorsqu'on parle de two-ways binding https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463180#overview  
+-->
+
+
+
 
 
 ## Exercices
