@@ -80,7 +80,7 @@
    - Vue gère la validation en temps réel.  
    - ➕ Montre compréhension des formulaires et réactivité.
 
----
+
 
 ## Remise
 
