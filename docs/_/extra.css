@@ -508,11 +508,13 @@ stop:before {
 .finishing .md-typeset h4 {
   font-size: 1.5em;
 }
-.finishing .md-typeset code,
-.finishing .md-typeset :not(pre) > code {
+/*.finishing .md-typeset pre,*/
+.finishing .md-typeset :not(pre) > code 
+ {
   background-color: #404555;
   color: white;
 }
+
 body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   box-shadow: 0 0.1rem 0 0.05rem #ec5956, 0 0.1rem 0 #fff,
     0 -0.1rem 0.2rem hsla(225deg, 15%, 90%, 0.2) inset;
@@ -533,14 +535,12 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
     font-size: 1.2em;
   }
 }
-
 .finishing .md-typeset .admonition-title {
   font-size: 1.6em;
 }
 .finishing .md-typeset em {
   color: #fabc2a;
 }
-
 .finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
 }
