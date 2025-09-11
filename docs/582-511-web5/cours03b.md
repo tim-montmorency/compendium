@@ -63,7 +63,7 @@ Révision en classe.
 
 ## Vue.js: Classes CSS dynamiques
 
-[Vue: Classe CSS dynamiques](./vue/classes-dynamiques.md)
+[Vue: Classe CSS dynamiques](./vue/classe-dynamique.md)
 
 ### Exercice
 

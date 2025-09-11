@@ -20,7 +20,7 @@
 - [Vue: Création d'une app](./vue/creation-app.html)
 - [Vue: Interpolation des données](./vue/interpolation.html)
 - [Vue: Méthodes et événenements v-on](./vue/methodes-evenements.md)
-- [Vue: Classe CSS dynamiques](./vue/classes-dynamiques.md)
+- [Vue: Classe CSS dynamiques](./vue/classe-dynamique.md)
 - [Vue: Condition v-if](./vue/condition.md)
 - [Vue: Liste et boucle v-for](./vue/boucle.md)
 

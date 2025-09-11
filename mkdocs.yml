@@ -236,7 +236,7 @@ nav:
         - Créaction d'un app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthodes et événenements v-on: 582-511-web5/vue/methodes-evenements.md
-        - Classes dynamiques: 582-511-web5/vue/classes-dynamiques.md
+        - Classes dynamiques: 582-511-web5/vue/classe-dynamique.md
         - Conditions v-if: 582-511-web5/vue/condition.md
         - Listes et v-for: 582-511-web5/vue/boucle.md
     
