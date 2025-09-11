@@ -12,8 +12,8 @@
   - [ ] Classe CSS dynamiques
 <!--
 
-- [ ] Conditions v-if
-- [ ] Boucle v-for
+- [ ] Condition v-if
+- [ ] Listes et boucle v-for
 
 -->  
 
@@ -69,11 +69,11 @@ Révision en classe.
 
 [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 
-<!--## Vue.js: conditions v-if et boucle v-for
+<!--## Vue.js: condition v-if | Listes et boucle v-for
 
-[Vue: Conditions v-if](./vue/conditions.md)
+[Vue: Condition v-if](./vue/condition.md)
 
-[Vue: Boucle v-for](./vue/boucle.md)
+[Vue: Listes et boucle v-for](./vue/boucle.md)
 
 
 ### Exercices

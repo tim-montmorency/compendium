@@ -21,8 +21,8 @@
 - [Vue: Interpolation des données](./vue/interpolation.html)
 - [Vue: Méthodes et événenements v-on](./vue/methodes-evenements.md)
 - [Vue: Classe CSS dynamiques](./vue/classes-dynamiques.md)
-- [Vue: Conditions v-if](./vue/conditions.md)
-- [Vue: Boucle v-for](./vue/boucle.md)
+- [Vue: Condition v-if](./vue/condition.md)
+- [Vue: Liste et boucle v-for](./vue/boucle.md)
 
 
 ## Descriptif du cours
