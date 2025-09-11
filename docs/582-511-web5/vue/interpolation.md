@@ -6,7 +6,7 @@ Afin de définir le comportement de l'app, un objet contenant diverses propriét
 
 Par exemple, pour définir une valeur de nom, il est possible d'écrire:
 
-```js
+```js "Par exemple, pour définir une valeur de nom, nous pourrions écrire:"
 const app = Vue.createApp({
   data: function() {
     return {
@@ -22,7 +22,7 @@ const app = Vue.createApp({
 
 Pour des raisons de lisibilité, il est cependant suggéré d'utiliser la nouvelle syntaxe ES6, soit:
 
-```js
+```js "Pour des raisons de lisibilité, utilisons plutôt la syntaxe JavaScript ES6, soit:"
 const app = Vue.createApp({
   data() {
     return {
