@@ -43,7 +43,7 @@ Une fois, les données définies, il est possible d'y faire référence à l'aid
 
 Par exemple, le code suivant:
 
-```html
+```html "Par exemple, le code suivant:"
 <div id="app">
     Salut {{ firstName }}
 </div>
@@ -51,7 +51,7 @@ Par exemple, le code suivant:
 
 Affichera en fait:
 
-```html
+```html "Affichera en fait:"
 <div id="app">
     Salut Willy
 </div>
