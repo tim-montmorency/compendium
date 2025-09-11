@@ -43,24 +43,21 @@ Une fois, les données définies, il est possible d'y faire référence à l'aid
 
 Par exemple, le code suivant:
 
-```html "Par exemple, le code suivant:"
+```html
 <div id="app">
     Salut {{ firstName }}
 </div>
 ```
 
-
-
-<br><br>
-
 Affichera en fait:
 
-```html "Affichera en fait:"
+```html
 <div id="app">
     Salut Willy
 </div>
 ```
 
+.
 
 
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax.html#text-interpolation" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur les <em>l'interpolation des données textuelles</em></a> <br>
