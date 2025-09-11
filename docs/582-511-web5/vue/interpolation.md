@@ -99,7 +99,7 @@ Par exemple, pour afficher l'image contenue dans la propriété <code>picture</c
 ```
 
 
-ou encore la syntaxe courte avec <code>:</code>&nbsp;:
+ou encore la syntaxe courte avec `:` :
 
 ```html title="ou encore la syntaxe courte avec :"
 <div id="app">
@@ -107,17 +107,19 @@ ou encore la syntaxe courte avec <code>:</code>&nbsp;:
 </div>
 ```
 
-
 <br><br>
+
 Si plusieurs données doivent être combinées dans le cadre d'un attribut, il est nécessaire d'utiliser un *littéraux de gabarit* afin de gérer la combinaison.
 
-Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une image:
+Par exemple, pour inscrire le prénom et le nom dans le `alt` d'une image:
 
-```html "Par exemple, pour inscrire le prénom et le nom dans le alt d'une image:"
+```html
 <div id="app">
     <img :src="picture" :alt="`${firstName} ${lastName}`">
 </div>
 ```
+
+.
 
 <p class="codepen" data-height="360" data-theme-id="light" data-default-tab="html,result" data-slug-hash="oNJKqxv" data-pen-title="DEMO VueJS | Données" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKqxv">
@@ -128,11 +130,12 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 
 
 !!! warning
-    Si un attribut est associé à une donnée dont la valeur équivaut à <code>null</code> ou <code>undefined</code>, l’attribut ne sera pas&nbsp;créé.
+    Si un attribut est associé à une donnée dont la valeur équivaut à `null` ou `undefined`, l’attribut ne sera pas&nbsp;créé.
 
 
 
 <br>
+
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur les <em>Liaisons d'attributs - Attribute bindings</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
@@ -140,7 +143,7 @@ Par exemple, pour inscrire le prénom et le nom dans le <code>alt</code> d'une i
 
 ## Données en format HTML via v-html
 
-<p>Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut <code>v-html</code> sur la balise qui contiendra votre donnée.</p>
+Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut `v-html` sur la balise qui contiendra votre donnée.
 
 En JavaScript
 
@@ -164,8 +167,7 @@ En HTML
 ```
 
 
-
-<p>Ce qui va générer ce résultat:</p>
+Ce qui va générer ce résultat:
 
 ```html title="Ce qui va générer ce résultat:"
 <div>
@@ -174,6 +176,7 @@ En HTML
 ```
 
 <br>
+
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax#raw-html" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">En savoir plus sur l'interpolation des données en <em>HTML brut</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
