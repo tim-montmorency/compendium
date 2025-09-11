@@ -402,11 +402,13 @@ extra:
   include:
     - robots.txt
 
+
 extra_css:
   - https://unpkg.com/tippy.js@6/animations/shift-away.css
   - https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css
   - _/extra.css
+#  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css
 
 extra_javascript:
   - _/mathjax.js
