@@ -125,6 +125,15 @@ Général (6 pts)
 * Ressemblance au résultat attendu (1 pts)
 * Rigeur et minutie (2 pts)
 
+## Remise
+
+À remettre en format .zip
+
+Nomenclature du .zip : [nom de famille]-[prénom]_[identifiant du travail]
+Exemple : gilbert-charlene_devoir01.zip
+
+Date de remise : début du prochain cours
+
 [STOP]
 
 https://web1.tim-momo.com/relativite-einsteinienne/
