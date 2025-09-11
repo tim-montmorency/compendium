@@ -382,9 +382,9 @@ function runFunctions() {
   // selectIframe();
 
   /* highlight.js initialization */
-  /*if (typeof hljs !== "undefined") {
+  if (typeof hljs !== "undefined") {
     hljs.highlightAll();
-  }*/
+  }
 
 }
 
