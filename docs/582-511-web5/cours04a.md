@@ -13,12 +13,12 @@
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.png">
-  <a href="./projets/portfolio.md">Projet Portfolio - Infos générales</a>
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
 </div>
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.png">
-  <a href="./projets/portfolio-remise1.md">Projet Portfolio - Remise planification 17 septembre</a>
+  <a href="./projets/portfolio-remise1.html">Projet Portfolio - Remise planification 17 septembre</a>
 </div>
 
 ## Quiz time !
