@@ -487,11 +487,12 @@ stop:before {
 .class-content-link {
   display: flex;
   align-items: flex-end;
-  gap: 10px;
-  margin: 2px 0 20px 0;
+  gap: 22px;
+  position: relative;
+  margin: 0px 0 32px 0;
 }
 .class-content-link img {
-  width: 55px;
+  width: 40px;
   height: auto;
 }
 .class-content-link::after {
@@ -500,10 +501,13 @@ stop:before {
   content: "";
   background-color: #404555;
   border: 2px solid #bec1c6;
-  position: absolute;
   top: 0;
   left: 0;
+  position: absolute;
+  top: -13px;
+  left: -13px;
   z-index: -1;
+  border-radius: 100%;
 }
 .class-content-link a {
   font-size: 140%;
