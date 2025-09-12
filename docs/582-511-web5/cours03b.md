@@ -69,23 +69,6 @@ Révision en classe.
 
 [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 
-<!--## Vue.js: condition v-if | Listes et boucle v-for
-
-[Vue: Condition v-if](./vue/condition.md)
-
-[Vue: Listes et boucle v-for](./vue/boucle.md)
-
-
-### Exercices
-
-Lien à venir
-
--->
-
-<!-- 
-[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
-
 
 ## Devoirs
 

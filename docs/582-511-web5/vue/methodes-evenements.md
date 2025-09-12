@@ -70,7 +70,7 @@ Salut {{ firstName }}
 </div>
 ```
 
-ou encore la syntaxe courte avec `@:click`:
+ou encore la syntaxe courte avec `@click`:
 
 ```html
 <div id="app">
@@ -90,19 +90,21 @@ Salut {{ firstName }}
 <a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
 <br>
 
-Il est aussi possible de passer des arguments (des valeurs) à la méthode. Il faut alors modifier la méthode afin qu'elle soit préparée à recevoir des paramètres. 
+
+## Méthode dynamisée avec des paramètres
+
+Il est aussi possible de passer des paramètres à la méthode. Il faut alors modifier la définition de la méthode afin qu'elle soit préparée à recevoir ces paramètres.
 
 Par exemple, nous pourrions envoyer les informatiosn de l'acteur Johnny Depp qui a incarné Willy Wonka en 2005.
 
-<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="html,result" data-slug-hash="JoYqaEp" data-pen-title="DEMO VueJS | Méthodes | Johnny" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="JoYqaEp" data-pen-title="DEMO VueJS | Méthodes | Johnny" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JoYqaEp">
   DEMO VueJS | Méthodes | Johnny</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
 
-
-### Insctruction en ligne (inline) avec `v-on`
+### Instruction en ligne (inline) avec `v-on`
 
 Avec `v-on:click` / `@click` il est aussi possible d'écrire des instructions simples telle qu'une opération mathématique ou une instruction contenant une condition simple.
 
@@ -124,7 +126,7 @@ data() {
 #### Une instruction contenant une condition simple
 
 ```html
-<button @click="willy == 'Timothee' ? () => showActor('Timothée', 'Chalamet', 'https://assets.codepen.io/9367036/timothee-chalamet.jpg') : () => showActor('Johnny', 'Depp', 'https://assets.codepen.io/9367036/johnny-depp2.jpg')">Clique moi</button>
+<button @click="willy == 'Timothee' ? () => showActor('Timothée', 'Chalamet', 'timothee-chalamet.jpg') : () => showActor('Johnny', 'Depp', 'johnny-depp2.jpg')">Clique moi</button>
 ```
 
 
@@ -158,7 +160,3 @@ COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 <br>
 
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
-
-
-
-
