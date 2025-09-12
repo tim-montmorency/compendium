@@ -7,10 +7,9 @@
 
 `v-model` se base sur différentes propriétés afin d’attribuer une valeur à une donnée.
 
-- **Champ texte**: l’attribut `value` du champs
-- **Boîtes à cocher et boutons radio:** l’attribut `checked`
-- **Menu déroulant: **l’attribut `value` de l’option sélectionnée
-
+- **Champ texte `<input type='text'>`**: l’attribut `value` du champs
+- **Boîtes à cocher `<input type="checkbox">` et boutons radio `<input type="radio">`**: l’attribut `checked`
+- **Liste déroulante `<select>`**: l’attribut `value` de l’option sélectionnée
 
 
 ## Champ texte `<input type='text'>`
@@ -25,8 +24,8 @@ Par exemple, la donnée `msg` change de valeur en fonction du changement de valu
 <h1>{{ msg }}</h1>
 ```
 
-
 <br><br>
+Dans l'exemple ci-dessous, modifier la valeur du le champ texte mettra à jour le titre automatiquement. Il n’est pas nécessaire d’utiliser une méthode ou une fonction.
 
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="vYbpNBN" data-pen-title="Vue | v-model champ texte" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/vYbpNBN">
@@ -34,7 +33,7 @@ Par exemple, la donnée `msg` change de valeur en fonction du changement de valu
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-Modifier la valeur dans le champ texte mettra à jour le titre sans besoin d’aucune fonction JavaScript.
+
 
 <br>
 <a href="https://fr.vuejs.org/guide/essentials/forms#text" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">Liaisons des entrées utilisateur d'un formulaire: <em>champs texte</em></a>
