@@ -15,7 +15,7 @@
 [Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 
-## Suite - Exercice classes dynamiques
+## Suite - Exercice COlleciton de films (classes dynamiques)
 
 [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
 
@@ -25,7 +25,7 @@
 
 [Vue: Méthode et événement (v-for)](./vue/methodes-evenements.md)
 
-##### Exercice
+#### Exercice
 
 - [ ] Faire un **fork** du pen votre exercice NBA complété la semaine dernière *EXERC Vue.js: Tableau NBA* et renommez le *EXERC Vue.js: Tableau NBA - Méthode unique avec paramètres*.
 - [ ] Modifiez votre code afin de n’avoir **qu'une seule méthode** pour gérer l’augmentation des scores (au lieu de deux, comme dans votre premier essai).
@@ -64,10 +64,11 @@ Lien à venir
 
 ### Formulaires (v-model) et propriété calculé (computed)
 
-[Vue: Éléments de formulaire (v-model)](./vue/elements-de-formulaire.md)
+[Vue: Éléments de formulaire (v-model)](./vue/elements-de-formulaire.md) 
+
 [Vue: Propriété calculée (computed)](./vue/propriete-calculee.md)
 
-##### Exercice
+#### Exercice
 
 Lien à venir
 <!--[Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
