@@ -49,7 +49,7 @@ Pour la gestion de projet simplifiée. Démo de **Trello**. Vous pouvez utiliser
 
 ## Révision Super Smash Bros
 
-[🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
+[🕹️Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
 
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/dPYLmWZ)
 
@@ -66,9 +66,9 @@ Révision en classe.
 
 ### Exercices
 
-[Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
 
-[Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 
 
 ## Vue: Classes CSS dynamiques
@@ -81,7 +81,7 @@ Révision en classe.
 
 ### Exercice
 
-[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
+[🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 
 
 ## Devoirs

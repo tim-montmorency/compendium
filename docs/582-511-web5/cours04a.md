@@ -1,4 +1,9 @@
 # Cours 4.1
+<!-- lun. 15 sept. -->
+
+!!! Tip "Rappel"
+    - Portfolio, prochaine remise: Planification: *mercredi 17 septembre*.
+    - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
 
 ## Aujourd'hui
 
@@ -29,13 +34,13 @@
 
 ## Révision d'exercices
 
-[Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
 
-[Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+[🧑🏽‍💻Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 
 ## Suite - Exercice Colleciton de films
 
-[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
+[🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
 
 ## Vue
 
@@ -52,7 +57,7 @@
 </div>
 
 
-#### Exercice
+#### Exercice 🧑🏽‍💻
 
 - [ ] Faire un **fork** du pen votre exercice NBA complété la semaine dernière *EXERC Vue.js: Tableau NBA* et renommez le *EXERC Vue.js: Tableau NBA - Méthode unique avec paramètres*.
 - [ ] Modifiez votre code afin de n’avoir **qu'une seule méthode** pour gérer l’augmentation des scores (au lieu de deux, comme dans votre premier essai).
@@ -87,13 +92,22 @@
 
 
 
-#### Exercice
+#### Exercices
 
-Lien à venir
 
+Lien à venir pour le 1er exercice...
 <!-- 
-[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 -->
+
+Le 2e exercice : 
+
+- [ ] Faire un **fork** du pen votre exercice NBA complété la semaine dernière *EXERC - Vue.js - Collection de films Part.1 - Classes CSS dynamiques* et renommez le *EXERC - Vue.js - Collection de films Part.2 - Boucle v-for*.
+- [ ] Modifiez votre code afin de faire une boucle sur le tableau de données ci-compte (je vous le fourni en partie ici):
+
+```
+
+```
 
 
 ### Formulaires (v-model) et propriété calculé (computed)
@@ -111,7 +125,7 @@ Lien à venir
 #### Exercice
 
 Lien à venir
-<!--[Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
+<!--[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
 
 
 ## Planification portfolio (~1h)

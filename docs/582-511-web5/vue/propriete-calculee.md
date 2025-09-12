@@ -89,6 +89,6 @@ Autre exemple de propriété calculée avec notre fameux acteur Timothée Chalam
 ## Exercice
 
 Lien à venir
-<!--[Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
+<!--[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
 
 

@@ -113,7 +113,7 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
 
 Lien à venir
 <!-- 
-[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 -->
 
 
