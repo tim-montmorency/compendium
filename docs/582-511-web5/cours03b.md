@@ -66,7 +66,7 @@ Révision en classe.
 </div>
 
 
-##### 12 exercices 🧑🏽‍💻
+##### 2 exercices 🧑🏽‍💻
 
 [🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
 <!-- ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡-->
