@@ -489,13 +489,21 @@ stop:before {
   align-items: flex-end;
   gap: 10px;
 }
-
 .class-content-link img {
   width: 55px;
   height: auto;
-  
 }
-
+.class-content-link img:after {
+  width: 75px;
+  height: 75px;
+  content: "";
+  background-color: #404555;
+  border: 2px solid #bec1c6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 .class-content-link a {
   font-size: 140%;
   text-decoration: none !important;
