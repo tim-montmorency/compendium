@@ -3,11 +3,12 @@
 - [ ] Faire un **fork** du pen complété de votre exercice [Collection de films](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/). Le Pen était nommé:  *EXERC - Vue.js - Collection de films Part.1 - Classes CSS dynamiques*, faites en un **fork** et renommez le *EXERC - Vue.js - Collection de films Part.2 - Boucle v-for*.
 - [ ] Modifiez votre code afin de faire une boucle sur le tableau de données ci-compte (voir ci-bas). N'oubliez pas de changer le contenu de la balise ainsi que sa classe dynamique pour fonctionner dans la boucle et réfléter le résultat attendu de la *Partie 1* de l'exercice.
 
-## Aperçu du réseultat 
+## Aperçu du résultat attendu
 
-Devrait être le même que la Partie 1, mais beaucoup moins de ligne dans le HTML.
+Devrait être le même résultat que la Partie 1, mais beaucoup moins de ligne dans le HTML.
 
-![](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/images/apercu-part1.mov)
+<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=57e6b81f-9e55-4f52-b0d6-b732a970e27c&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="exerc-part1-apercu-du-resultat.mov" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 
 ## Données à utiliser
 
