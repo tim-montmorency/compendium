@@ -498,7 +498,7 @@ stop:before {
 
 .class-content-link a {
   font-size: 140%;
-  text-decoration: none;
+  text-decoration: none !important;
   display: block;
 }
 /* =========================
