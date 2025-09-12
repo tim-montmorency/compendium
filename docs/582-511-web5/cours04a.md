@@ -8,6 +8,7 @@
 ## Aujourd'hui
 
 - [ ] Rappel Planification portfolio
+- [ ] Suivi Figma
 - [ ] Quiz
 - [ ] Révision et suite des exercices de mercredi
 - [ ] Vue.js
@@ -26,7 +27,11 @@
   <a href="./projets/portfolio-remise1.html">Projet Portfolio - Remise planification 17 septembre</a>
 </div>
 
-## Quiz time !
+## Suivi Figma - Plan Education Pro
+
+Voir si vous avez été validés.
+
+## Quiz time
 
 - [Groupe 1 merc AM](https://app.wooclap.com/YOZIXE)
 - [Groupe 2 merc PM](https://app.wooclap.com/EZTJGO)
@@ -61,7 +66,7 @@
 </div>
 
 
-#### Exercice 🧑🏽‍💻
+##### 1 exercice 🧑🏽‍💻
 
 Lien à venir
 <!-- 
@@ -83,19 +88,13 @@ Lien à venir
 
 
 
-#### Exercices
+##### 2 exercices 🧑🏽‍💻
 
-##### Le 1e exercice
-
-Lien à venir
+Liens à venir
 <!-- 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
 -->
 
-
-##### 2e exercice: Lien à venir
-
-Lien à venir
 <!-- 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 -->
@@ -114,7 +113,7 @@ Lien à venir
   <a href="./vue/propriete-calculee.html">Vue: Propriété calculée (computed)</a>
 </div>
 
-#### Exercice
+##### 1 exercice 🧑🏽‍💻
 
 Lien à venir
 <!--[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->

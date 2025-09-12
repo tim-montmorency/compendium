@@ -56,7 +56,9 @@ Pour la gestion de projet simplifiée. Démo de **Trello**. Vous pouvez utiliser
 
 Révision en classe.
 
-## Vue: Méthodes et événements
+## Vue
+
+### Méthodes et événements
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -64,7 +66,7 @@ Révision en classe.
 </div>
 
 
-### Exercices
+##### 12 exercices 🧑🏽‍💻
 
 [🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
 <!-- ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡-->
@@ -72,7 +74,7 @@ Révision en classe.
 [🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 <!-- ➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡 -->
 
-## Vue: Classes CSS dynamiques
+### Classes CSS dynamiques
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -80,7 +82,7 @@ Révision en classe.
 </div>
 
 
-### Exercice
+##### 1 exercice 🧑🏽‍💻
 
 [🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 
