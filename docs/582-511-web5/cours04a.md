@@ -29,15 +29,10 @@
 
 ### Retour et ajout à propos des méthodes et événements
 
-➡️ [Vue: Méthode dynamisée par des paramètres](./vue/methodes-evenements.htmll#methode-dynamisee-avec-des-parametres)
-
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/methodes-evenements.html#methode-dynamisee-avec-des-parametres">Vue: Méthode dynamisée par des paramètres</a>
 </div>
-
-
-➡️ [Vue: Instructions en ligne sur événement avec v-on](./vue/methodes-evenements.htmll#instruction-en-ligne-inline-avec-v-on)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -68,15 +63,10 @@
 
 ### Condition v-if | Tableau + boucle v-for
 
-➡️ [Vue: Condition v-if](./vue/condition.md)
-
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/condition.html">Vue: Condition v-if</a>
 </div>
-
-
-➡️ [Vue: Listes et boucle v-for](./vue/boucle.md)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -96,21 +86,15 @@ Lien à venir
 
 ### Formulaires (v-model) et propriété calculé (computed)
 
-➡️ [Vue: Éléments de formulaire (v-model)](./vue/elements-de-formulaire.md) 
-
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/elements-de-formulaire.html">Vue: Éléments de formulaire (v-model)</a>
 </div>
 
-
-➡️ [Vue: Propriété calculée (computed)](./vue/propriete-calculee.md)
-
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/propriete-calculee.html">Vue: Propriété calculée (computed)</a>
 </div>
-
 
 #### Exercice
 
