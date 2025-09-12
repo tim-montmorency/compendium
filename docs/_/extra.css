@@ -494,7 +494,7 @@ stop:before {
   width: 55px;
   height: auto;
 }
-.class-content-link img:after {
+.class-content-link::after {
   width: 75px;
   height: 75px;
   content: "";
