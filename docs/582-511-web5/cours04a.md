@@ -48,7 +48,7 @@
 
 ## Vue
 
-### Retour et ajout à propos des méthodes et événements
+### Retour et ajouts méthodes et événements
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -82,7 +82,7 @@
 
 
 
-### Condition v-if | Tableau + boucle v-for
+### Condition | Tableau + boucle
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -91,7 +91,7 @@
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/boucle.html">Vue: Listes et boucle v-for</a>
+  <a href="./vue/boucle.html">Vue: Tableau (array) et boucle v-for</a>
 </div>
 
 
@@ -113,7 +113,7 @@ Le 2e exercice :
 ```
 
 
-### Formulaires (v-model) et propriété calculé (computed)
+### Formulaires et propriété calculée
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
