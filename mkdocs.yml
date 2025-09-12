@@ -232,7 +232,8 @@ nav:
 
   - Web 5:
       - 582-511-web5/index.md
-      - Vue-js : 
+      - Vue-js :
+        - 582-511-web5/vue/index.md 
         - Introduction: 582-511-web5/vue/index.md
         - Créaction d'un app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
