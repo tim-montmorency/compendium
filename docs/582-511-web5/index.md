@@ -22,7 +22,7 @@
 - [Vue: Méthode et événenement v-on](./vue/methodes-evenements.md)
 - [Vue: Classe CSS dynamique](./vue/classe-dynamique.md)
 - [Vue: Condition v-if](./vue/condition.md)
-- [Vue: Tableau[]+ boucle v-for](./vue/boucle.md)
+- [Vue: Tableau[ ] + boucle v-for](./vue/boucle.md)
 - [Vue: Éléments d'un formulaire](./vue/elements-de-formulaire.md)
 - [Vue: Propriété calculée](./vue/propriete-calculee.md)
 

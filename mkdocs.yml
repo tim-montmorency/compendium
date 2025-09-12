@@ -240,7 +240,7 @@ nav:
         - Méthode et événem. v-on: 582-511-web5/vue/methodes-evenements.md
         - Classe dynamique: 582-511-web5/vue/classe-dynamique.md
         - Condition v-if: 582-511-web5/vue/condition.md
-        - Tableau[]+ boucle v-for: 582-511-web5/vue/boucle.md
+        - Tableau[ ]+ boucle v-for: 582-511-web5/vue/boucle.md
         - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
     
