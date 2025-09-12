@@ -87,7 +87,7 @@ Salut {{ firstName }}
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
+<a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
 <br>
 
 Il est aussi possible de passer des arguments (des valeurs) à la méthode. Il faut alors modifier la méthode afin qu'elle soit préparée à recevoir des paramètres. 

@@ -70,7 +70,7 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
 
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/list" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Rendu de liste - List Rendering</em></a>
+<a href="https://fr.vuejs.org/guide/essentials/list" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Rendu de liste - List Rendering</em></a>
 <br>
 
 

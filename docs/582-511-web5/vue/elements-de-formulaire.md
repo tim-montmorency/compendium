@@ -36,7 +36,7 @@ Dans l'exemple ci-dessous, modifier la valeur du le champ texte mettra à jour l
 
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/forms#text" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">Liaisons des entrées utilisateur d'un formulaire: <em>champs texte</em></a>
+<a href="https://fr.vuejs.org/guide/essentials/forms#text" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;Liaisons des entrées utilisateur d'un formulaire: <em>champs texte</em></a>
 <br>
 
 
@@ -60,7 +60,7 @@ Leur usage est tout indiqué entre autres pour déterminer si un élément devra
 
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/forms#checkbox" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">Liaisons des entrées utilisateur d'un formulaire: <em>case à cocher</em></a>
+<a href="https://fr.vuejs.org/guide/essentials/forms#checkbox" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;Liaisons des entrées utilisateur d'un formulaire: <em>case à cocher</em></a>
 <br>
 
 
@@ -84,7 +84,7 @@ Les boutons radio `<input type="radio">` synchronisent l’attribut `value` du b
 </p>
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/forms#radio" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">Liaisons des entrées utilisateur d'un formulaire: <em>bouton radio</em></a>
+<a href="https://fr.vuejs.org/guide/essentials/forms#radio" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;Liaisons des entrées utilisateur d'un formulaire: <em>bouton radio</em></a>
 <br>
 
 
@@ -108,10 +108,7 @@ Les listes déroulantes `<select>` synchronisent l’attribut `value` de l'optio
 </p>
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/forms#select" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">Liaisons des entrées utilisateur d'un formulaire: <em>Liste déroulante</em></a>
-<br>
-
-<doclink href="https://vuejs.org/guide/essentials/forms.html#select">Menu déroulant</doclink>
+<a href="https://fr.vuejs.org/guide/essentials/forms#select" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;Liaisons des entrées utilisateur d'un formulaire: <em>Liste déroulante</em></a>
 
 
 <script async src="https://public.codepenassets.com/embed/index.js"></script>

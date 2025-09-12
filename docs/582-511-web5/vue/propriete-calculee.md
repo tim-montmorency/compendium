@@ -82,12 +82,13 @@ Autre exemple de propriété calculée avec notre fameux acteur Timothée Chalam
 
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/computed" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">En savoir plus sur <em>propriétés calculées - computed properties</em></a>
+<a href="https://fr.vuejs.org/guide/essentials/computed" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>propriétés calculées - computed properties</em></a>
 <br>
 
 
 ## Exercice
 
 Lien à venir
-[]()
-<exercice href="../../../exercices/vue-luchador/"></exercice>
+<!--[Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
+
+
