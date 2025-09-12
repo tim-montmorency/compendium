@@ -235,7 +235,7 @@ nav:
       - Vue-js :
         - 582-511-web5/vue/index.md 
         - Introduction: 582-511-web5/vue/index.md
-        - Créaction d'un app: 582-511-web5/vue/creation-app.md
+        - Création d'une app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthodes et événem. v-on: 582-511-web5/vue/methodes-evenements.md
         - Classes dynamiques: 582-511-web5/vue/classe-dynamique.md
