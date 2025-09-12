@@ -2,12 +2,24 @@
 
 ## Aujourd'hui
 
+- [ ] Rappel Planification portfolio
 - [ ] Quiz
 - [ ] Révision et suite des exercices de mercredi
 - [ ] Vue.js
 - [ ] Dernière heure libre pour à la planification de votre portfolio
 
 
+## Projet portfolio (25%)
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.png">
+  <a href="./projets/portfolio.md">Projet Portfolio - Infos générales</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.png">
+  <a href="./projets/portfolio-remise1.md">Projet Portfolio - Remise planification 17 septembre</a>
+</div>
 
 ## Quiz time !
 
