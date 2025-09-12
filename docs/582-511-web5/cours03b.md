@@ -69,7 +69,7 @@ Révision en classe.
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/classe-dynamique.html">Vue: Méthodes et événenements v-on</a>
+  <a href="./vue/classe-dynamique.html">Vue: Classes CSS dynamiques</a>
 </div>
 
 
