@@ -2,14 +2,14 @@
 
 `v-model` permet de créer une relation bidirectionnelle entre une donnée et un élément de formulaire (`<input>`, `<select>`, `<textarea>`, etc.).
 
-!!! warning
-    `v-model` ignore la valeur initiale attribuée à un élément de formulaire. La synchronisation entre l’élément et la donnée ne débute que lors de la première modification de l’élément.
-
 `v-model` se base sur différentes propriétés afin d’attribuer une valeur à une donnée.
 
 - **Champ texte `<input type='text'>`**: l’attribut `value` du champs
 - **Boîtes à cocher `<input type="checkbox">` et boutons radio `<input type="radio">`**: l’attribut `checked`
 - **Liste déroulante `<select>`**: l’attribut `value` de l’option sélectionnée
+
+!!! warning "v-model est vide au chargement de la page"
+    `v-model` ignore la valeur initiale attribuée à un élément de formulaire. La synchronisation entre l’élément et la donnée ne débute que lors de la première modification de l’élément.
 
 
 ## Champ texte `<input type='text'>`
