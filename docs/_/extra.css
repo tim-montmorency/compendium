@@ -500,7 +500,7 @@ stop:before {
   height: 65px;
   content: "";
   background-color: rgba(255,255,255,0.05);
-  border: 2px solid #bec1c6;
+  border: 2px solid #ef5552;
   top: 0;
   left: 0;
   position: absolute;

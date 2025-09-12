@@ -24,9 +24,15 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 - *582 541 MO - Préparation au milieu de travail*
 - *582 511 MO - Web 5*
 
-[Projet Portfolio - Infos générales](./projets/portfolio.md){ .md-button }
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales pour Web 5</a>
+</div>
 
-[Projet Portfolio - Remise planification 17 septembre](./projets/portfolio-remise1.md){ .md-button }
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-remise1.html">Projet Portfolio - Remise Web 5 - Planification: 17 septembre</a>
+</div>
 
 ## Suivi Figma - Plan Education Pro
 

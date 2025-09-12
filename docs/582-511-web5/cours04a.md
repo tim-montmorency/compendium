@@ -12,12 +12,12 @@
 ## Projet portfolio (25%)
 
 <div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.png">
+  <img src="./projets/assets/icon-portfolio.svg">
   <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
 </div>
 
 <div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.png">
+  <img src="./projets/assets/icon-portfolio.svg">
   <a href="./projets/portfolio-remise1.html">Projet Portfolio - Remise planification 17 septembre</a>
 </div>
 
