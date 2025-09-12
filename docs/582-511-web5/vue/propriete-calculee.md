@@ -10,7 +10,7 @@ C'est à dire que si une valeur doit être recalculée en fonction du changement
 
 <!-- https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463196#overview  -->
  
-Par exemple, si on voudrait convertir une devise en une autre 💵. Par exemple, convertir un montant en dollars canadiens 🇨🇦 en dollars américains 🇺🇸:
+Par exemple, si on voudrait convertir une devise en une autre 💵, disons convertir un montant en dollars canadiens 🇨🇦 en dollars américains 🇺🇸:
 
 ```html
 <div>
@@ -19,10 +19,10 @@ Par exemple, si on voudrait convertir une devise en une autre 💵. Par exemple,
 ```
 
 <br>
-Bien que ces expressions dites *en ligne* (inline) soient pratiques, elles ne sont destinées qu'aux opérations simples, car elles peuvent rapidement porter à confusion:
+On nomme ce type d'instructions qui s'écrivent directement dans le template HTML *instructions en ligne* (inline statements). Bien qu'elles soient pratiques, elles ne sont destinées qu'aux opérations très simples car elles peuvent rapidement porter à confusion:
 
 - Pourquoi ce montant est-il multiplié par `0.8`?
-- Quelle devise tente-t-on d'afficher?
+- Quelle devise tente-t-on d'afficher ici?
 
 
 <hr>
@@ -58,18 +58,20 @@ computed: {
 Ainsi, si l'une de ces données vient à changer, comme le montant `amount`, le résultat de la propriété calculée `amountToUSD` se mettra automatiquement à jour en se basant sur la valeur de celle-ci. En d'autres mots, la valeur en dollars américains `amountToUSD` se met automatiquement à jour lorsque le montant en dollars canadien `amount` change, puisqu'il s'agit d'une propriété calculée.
 
 
+Dans l'exemple ci-dessous, modifiez le montant de base en CAD afin de voir le montant en USD être recalculé automatiquement.
+
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="qBgKjVK" data-pen-title="Vue propriété calculé - Convertisseur de devise" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBgKjVK">
   Vue propriété calculé - Convertisseur de devise</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-Modifiez le montant de base en CAD afin de voir le montant en USD être recalculé automatiquement.
+
 
 
 ## Autre exemple de propriété calculée
 
-Autre exemple de propriété calculée avec notre fameux acteur:
+Autre exemple de propriété calculée avec notre fameux acteur Timothée Chalamet. Entrez un nom de film dans lequel il a interprété un rôle et vous verrez le titre se mettre à jour. C'est grâce à la propriété calculée nommée `titleActor`.
 
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="KwdLGpX" data-pen-title="DEMO VueJS | v-if" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KwdLGpX">
