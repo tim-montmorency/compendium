@@ -52,6 +52,8 @@ Révision en classe.
 
 ## Vue.js: Méthodes et événements v-on
 
+<img src="./vue/assets/logo-vue.svg" style="width: 30px; height: auto;"> <a href="./vue/methodes-evenements.html">Vue: Méthodes et événenements v-on</a>
+
 [Vue: Méthodes et événenements v-on](./vue/methodes-evenements.md)
 
 
@@ -64,6 +66,8 @@ Révision en classe.
 ## Vue.js: Classes CSS dynamiques
 
 [Vue: Classe CSS dynamiques](./vue/classe-dynamique.md)
+
+<img src="./vue/assets/logo-vue.svg" style="width: 30px; height: auto;"> <a href="./vue/classe-dynamique.html">Vue: Classe CSS dynamiques</a>
 
 ### Exercice
 
