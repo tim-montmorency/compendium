@@ -2,6 +2,23 @@
 
 ## Aujourd'hui
 
+
+
+## Quiz time !
+
+- [Groupe 1 merc AM](https://app.wooclap.com/YOZIXE)
+- [Groupe 2 merc PM](https://app.wooclap.com/EZTJGO)
+
+
+## Révision d'exercices
+
+[Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+[Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+
+## Suite - Exercice classes dynamiques
+
+[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
+
 ## Vue
 
 ### Retour et ajout à propos des méthodes et événements
