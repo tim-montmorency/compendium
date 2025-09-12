@@ -2,6 +2,11 @@
 
 ## Aujourd'hui
 
+- [ ] Quiz
+- [ ] Révision et suite des exercices de mercredi
+- [ ] Vue.js
+- [ ] Dernière heure libre pour à la planification de votre portfolio
+
 
 
 ## Quiz time !
@@ -13,6 +18,7 @@
 ## Révision d'exercices
 
 [Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 
 ## Suite - Exercice COlleciton de films (classes dynamiques)
@@ -23,7 +29,9 @@
 
 ### Retour et ajout à propos des méthodes et événements
 
-[Vue: Méthode et événement (v-for)](./vue/methodes-evenements.md)
+➡️ [Vue: Méthode dynamisée par des paramètres](./vue/methodes-evenements.htmll#methode-dynamisee-avec-des-parametres)
+
+➡️ [Vue: Instructions en ligne sur événement avec v-on](./vue/methodes-evenements.htmll#instruction-en-ligne-inline-avec-v-on)
 
 #### Exercice
 
@@ -48,9 +56,9 @@
 
 ### Condition v-if | Tableau + boucle v-for
 
-[Vue: Condition v-if](./vue/condition.md)
+➡️ [Vue: Condition v-if](./vue/condition.md)
 
-[Vue: Listes et boucle v-for](./vue/boucle.md)
+➡️ [Vue: Listes et boucle v-for](./vue/boucle.md)
 
 
 #### Exercice
@@ -64,9 +72,9 @@ Lien à venir
 
 ### Formulaires (v-model) et propriété calculé (computed)
 
-[Vue: Éléments de formulaire (v-model)](./vue/elements-de-formulaire.md) 
+➡️ [Vue: Éléments de formulaire (v-model)](./vue/elements-de-formulaire.md) 
 
-[Vue: Propriété calculée (computed)](./vue/propriete-calculee.md)
+➡️ [Vue: Propriété calculée (computed)](./vue/propriete-calculee.md)
 
 #### Exercice
 
@@ -74,5 +82,4 @@ Lien à venir
 <!--[Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
 
 
-
-[Événement avec arguments et instruction en ligne avec v-on](./vue/methodes-evenementshtml#gestion-devenement)
+## Planification de votre portfolio (+ ou - 1h)
