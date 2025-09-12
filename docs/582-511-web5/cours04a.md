@@ -118,4 +118,4 @@ Lien à venir
 <!--[Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
 
 
-## Planification de votre portfolio (+ ou - 1h)
+## Planification portfolio (~1h)
