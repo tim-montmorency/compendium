@@ -58,7 +58,7 @@ computed: {
 Ainsi, si l'une de ces données vient à changer, comme le montant `amount`, le résultat de la propriété calculée `amountToUSD` se mettra automatiquement à jour en se basant sur la valeur de celle-ci. En d'autres mots, la valeur en dollars américains `amountToUSD` se met automatiquement à jour lorsque le montant en dollars canadien `amount` change, puisqu'il s'agit d'une propriété calculée.
 
 
-<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="html,result" data-slug-hash="qBgKjVK" data-pen-title="Vue propriété calculé - Convertisseur de devise" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="qBgKjVK" data-pen-title="Vue propriété calculé - Convertisseur de devise" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBgKjVK">
   Vue propriété calculé - Convertisseur de devise</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -71,7 +71,7 @@ Modifiez le montant de base en CAD afin de voir le montant en USD être recalcul
 
 Autre exemple de propriété calculée avec notre fameux acteur:
 
-<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="html,result" data-slug-hash="KwdLGpX" data-pen-title="DEMO VueJS | v-if" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="KwdLGpX" data-pen-title="DEMO VueJS | v-if" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KwdLGpX">
   DEMO VueJS | v-if</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
