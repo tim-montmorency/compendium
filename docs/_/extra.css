@@ -499,7 +499,7 @@ stop:before {
   width: 75px;
   height: 75px;
   content: "";
-  background-color: #404555;
+  background-color: rgba(255,255,255,0.05);
   border: 2px solid #bec1c6;
   top: 0;
   left: 0;
