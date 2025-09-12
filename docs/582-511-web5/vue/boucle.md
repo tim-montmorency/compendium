@@ -17,7 +17,9 @@ Par exemple, pour accéder à chaque rôle contenu dans le tableau `rolesArray`:
 </div>
 ```
 
-Ici, `role` est l’objet courant de la boucle. Si l’on veut accéder à une propriété de cet objet (comme `picture`), on la préfixe avec `role`.
+Ici, `role` est l’objet courant de la boucle.
+Si l’on veut accéder à une propriété de cet objet (comme `picture`, `firstName`, `lastName`), on les préfixe avec `role`:
+`role.picture`, `role.firstName`, `role.lastName`
 
 <p class="codepen" data-height="600" data-theme-id="light" data-default-tab="html,result" data-slug-hash="abPeGqp" data-pen-title="DEMO VueJS | boucle" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abPeGqp">
