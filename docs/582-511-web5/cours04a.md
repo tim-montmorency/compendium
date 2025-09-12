@@ -33,7 +33,7 @@
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/methodes-evenements.htmll#methode-dynamisee-avec-des-parametres">Vue: Méthode dynamisée par des paramètres</a>
+  <a href="./vue/methodes-evenements.html#methode-dynamisee-avec-des-parametres">Vue: Méthode dynamisée par des paramètres</a>
 </div>
 
 
@@ -41,7 +41,7 @@
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/methodes-evenements.htmll#instruction-en-ligne-inline-avec-v-on">Vue: Instructions en ligne sur événement avec v-on</a>
+  <a href="./vue/methodes-evenements.html#instruction-en-ligne-inline-avec-v-on">Vue: Instructions en ligne sur événement avec v-on</a>
 </div>
 
 
