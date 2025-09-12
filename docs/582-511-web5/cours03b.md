@@ -44,8 +44,8 @@ Pour la gestion de projet simplifiée. Démo de **Trello**. Vous pouvez utiliser
 
 ## Quiz time !
 
-- [Groupe 1 merc AM](https://app.wooclap.com/YOZIXE)
-- [Groupe 2 merc PM](https://app.wooclap.com/EZTJGO)
+- [Groupe merc AM](https://app.wooclap.com/YOZIXE)
+- [Groupe merc PM](https://app.wooclap.com/EZTJGO)
 
 ## Révision Super Smash Bros
 

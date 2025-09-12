@@ -40,8 +40,8 @@ Voir si vous avez été validés.
 
 ## Quiz time
 
-- [Groupe 1 merc AM](https://app.wooclap.com/YOZIXE)
-- [Groupe 2 merc PM](https://app.wooclap.com/EZTJGO)
+- [Groupe lundi AM](https://app.wooclap.com/QUXCBA)
+- [Groupe lundi PM](https://app.wooclap.com/)
 
 
 ## Révision d'exercices
