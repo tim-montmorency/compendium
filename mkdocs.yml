@@ -236,10 +236,12 @@ nav:
         - Introduction: 582-511-web5/vue/index.md
         - Créaction d'un app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
-        - Méthodes et événenements v-on: 582-511-web5/vue/methodes-evenements.md
+        - Méthodes et événem. v-on: 582-511-web5/vue/methodes-evenements.md
         - Classes dynamiques: 582-511-web5/vue/classe-dynamique.md
         - Conditions v-if: 582-511-web5/vue/condition.md
         - Listes et v-for: 582-511-web5/vue/boucle.md
+        - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
+        - Propriétés calculées: 582-511-web5/vue/propriete-calculee.md
     
       - Cours 1.1: 582-511-web5/cours01a.md
       - Cours 1.2: 582-511-web5/cours01b.md
