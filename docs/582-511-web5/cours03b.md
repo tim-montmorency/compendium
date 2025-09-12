@@ -50,7 +50,7 @@ Pour la gestion de projet simplifiée. Démo de **Trello**. Vous pouvez utiliser
 
 Révision en classe.
 
-## Vue.js: Méthodes et événements v-on
+## Vue: Méthodes et événements
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -65,7 +65,7 @@ Révision en classe.
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 
 
-## Vue.js: Classes CSS dynamiques
+## Vue: Classes CSS dynamiques
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
