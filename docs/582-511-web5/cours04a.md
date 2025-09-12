@@ -36,7 +36,11 @@
 
 [🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
 
-[🧑🏽‍💻Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡
+
+[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+
+➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡
 
 ## Suite - Exercice Colleciton de films
 
@@ -93,7 +97,6 @@
 
 
 #### Exercices
-
 
 Lien à venir pour le 1er exercice...
 <!-- 

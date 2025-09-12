@@ -21,6 +21,8 @@
 
 [🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/dPYLmWZ)
+
 
 ## Devoirs
 

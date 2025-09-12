@@ -67,9 +67,10 @@ Révision en classe.
 ### Exercices
 
 [🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+<!-- ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡-->
 
 [🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
-
+<!-- ➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡 -->
 
 ## Vue: Classes CSS dynamiques
 

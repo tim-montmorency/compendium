@@ -65,7 +65,7 @@ Révision en pair, par équipe de 2, sélectionnées par l'enseignante.
 
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
 
-➜ [Solution💡](https://codepen.io/tim-momo/pen/YPydodm)
+➜ [Solution](https://codepen.io/tim-momo/pen/YPydodm)💡
 
 
 ## Vue.js
