@@ -484,6 +484,23 @@ stop:before {
   width: auto;
 }
 
+.class-content-link {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.class-content-link img {
+  width: 55px;
+  height: auto;
+  
+}
+
+.class-content-link a {
+  font-size: 140%;
+  text-decoration: none;
+  display: block;
+}
 /* =========================
    FINITIONS (ajout Marie-Michelle)
    ========================= */

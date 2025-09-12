@@ -52,22 +52,26 @@ Révision en classe.
 
 ## Vue.js: Méthodes et événements v-on
 
-<img src="./vue/assets/logo-vue.svg" style="width: 30px; height: auto;"> <a href="./vue/methodes-evenements.html">Vue: Méthodes et événenements v-on</a>
-
-[Vue: Méthodes et événenements v-on](./vue/methodes-evenements.md)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/methodes-evenements.html">Vue: Méthodes et événenements v-on</a>
+</div>
 
 
 ### Exercices
 
 [Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+
 [Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
 
 
 ## Vue.js: Classes CSS dynamiques
 
-[Vue: Classe CSS dynamiques](./vue/classe-dynamique.md)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/classe-dynamique.html">Vue: Méthodes et événenements v-on</a>
+</div>
 
-<img src="./vue/assets/logo-vue.svg" style="width: 30px; height: auto;"> <a href="./vue/classe-dynamique.html">Vue: Classe CSS dynamiques</a>
 
 ### Exercice
 
