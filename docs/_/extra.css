@@ -488,6 +488,7 @@ stop:before {
   display: flex;
   align-items: flex-end;
   gap: 10px;
+  margin: 2px 0 20px 0;
 }
 .class-content-link img {
   width: 55px;
