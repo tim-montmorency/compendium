@@ -484,6 +484,36 @@ stop:before {
   width: auto;
 }
 
+.class-content-link {
+  display: flex;
+  align-items: flex-end;
+  gap: 22px;
+  position: relative;
+  margin: 0px 0 32px 0;
+}
+.class-content-link img {
+  width: 40px;
+  height: auto;
+}
+.class-content-link::after {
+  width: 65px;
+  height: 65px;
+  content: "";
+  background-color: rgba(255,255,255,0.05);
+  border: 2px solid #ef5552;
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -13px;
+  left: -13px;
+  z-index: -1;
+  border-radius: 100%;
+}
+.class-content-link a {
+  font-size: 140%;
+  text-decoration: none !important;
+  display: block;
+}
 /* =========================
    FINITIONS (ajout Marie-Michelle)
    ========================= */

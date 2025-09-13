@@ -94,11 +94,8 @@
 
 ### Quoi remettre
 
-- [ ] **Lien** vers ton **repo GitHub** privé avec le README.md complet
-  ⚠️ Donne accès uniquement à tes 2 enseignantes
-- [ ] **Lien** vers ton fichier **Figma** (moodboard)  
-  ⚠️ Donne accès uniquement à tes 2 enseignantes
-- [ ] Un fichier **PDF** exporté du moodboard
-- [ ] **Lien** vers ton tableau **Trello** ou **GitHub Project**
-  ⚠️ Donne accès uniquement à tes 2 enseignantes
-- [ ] **Captures d’écran** prouvant que tu as ajouté toutes les dates de remise dans ton **calendrier Outlook**
+- [ ] **Lien** vers ton **repo GitHub** privé avec le README.md completé. ⚠️Donne accès uniquement à tes 2 enseignantes (kid-synthetique et flora0510).
+- [ ] **Lien** vers ton fichier **Figma** (moodboard). ⚠️Donne accès uniquement à tes 2 enseignantes (via leur courriel cmontmorency).
+- [ ] Un fichier **PDF** exporté du moodboard (nommé *nom-prenom-portfolio-moodboard.pdf*).
+- [ ] **Lien** vers ton tableau **Trello** ou **GitHub Project**. ⚠️ Donne accès uniquement à tes 2 enseignantes (via leur courriel cmontmorency).
+- [ ] **Captures d’écran** prouvant que tu as ajouté toutes les dates de remise dans ton **calendrier Outlook**  (nommé *nom-prenom-portfolio-calendrier.pdf* ou .png ou .jpg)

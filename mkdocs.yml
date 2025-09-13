@@ -229,24 +229,28 @@ nav:
       - Cours 13: 582-411-web4/cours13/index.md
       - Cours 14: 582-411-web4/cours14/index.md
       - Cours 15: 582-411-web4/cours15/index.md
+
   - Web 5:
       - 582-511-web5/index.md
-      - Vue-js:
-          - 582-511-web5/vue/index.md
-          - Introduction: 582-511-web5/vue/introduction.md
-          - Créaction d'un app: 582-511-web5/vue/creation-app.md
-          - Données et interpolation: 582-511-web5/vue/interpolation.md
-          - Méthodes et événenements v-on: 582-511-web5/vue/methodes-evenements.md
-          - Classes dynamiques: 582-511-web5/vue/classes-dynamiques.md
-          - Conditions v-if: 582-511-web5/vue/conditions.md
-          - Listes et v-for: 582-511-web5/vue/boucle.md
+      - Vue-js :
+        - 582-511-web5/vue/index.md 
+        - Introduction: 582-511-web5/vue/index.md
+        - Création d'une app: 582-511-web5/vue/creation-app.md
+        - Données et interpolation: 582-511-web5/vue/interpolation.md
+        - Méthode et événem. v-on: 582-511-web5/vue/methodes-evenements.md
+        - Classe dynamique: 582-511-web5/vue/classe-dynamique.md
+        - Condition v-if: 582-511-web5/vue/condition.md
+        - Tableau[ ]+ boucle v-for: 582-511-web5/vue/boucle.md
+        - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
+        - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
+    
       - Cours 1.1: 582-511-web5/cours01a.md
       - Cours 1.2: 582-511-web5/cours01b.md
       - Cours 2.1: 582-511-web5/cours02a.md
       - Cours 2.2: 582-511-web5/cours02b.md
       - Cours 3.1: 582-511-web5/cours03a.md
       - Cours 3.2: 582-511-web5/cours03b.md
-      # - Cours 4.1: 582-511-web5/cours04a.md
+      - Cours 4.1: 582-511-web5/cours04a.md
       # - Cours 4.2: 582-511-web5/cours04b.md
       # - Cours 5.1: 582-511-web5/cours05a.md
       # - Cours 5.2: 582-511-web5/cours05b.md

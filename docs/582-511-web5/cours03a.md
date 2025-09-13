@@ -65,7 +65,7 @@ Révision en pair, par équipe de 2, sélectionnées par l'enseignante.
 
 [🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
 
-➜ [Solution💡](https://codepen.io/tim-momo/pen/YPydodm)
+➜ [Solution](https://codepen.io/tim-momo/pen/YPydodm)💡
 
 
 ## Vue.js
@@ -78,7 +78,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen></iframe>
 
 
-### Quelques exemples
+### Quelques exemples Vue
 
 * [Démos sur vuejsexamples.com](https://vuejsexamples.com/)  
 
@@ -93,25 +93,33 @@ Quelques exemples que j'ai sélectionnés pour vous :
 * [Unicorn: Convertisseurs d'unités de mesure](https://unicon.pages.dev/)
 * [Quelques exemples de projets Vue.js regroupés sur une collection CodePen.](https://codepen.io/collection/kNQdop)
 
-### Vue.js en 2 minutes
+### Vidéo: Vue.js en 2 minutes
 
-- [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
+[:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
 
-### Vue.js : Introduction
+### Vue: Contenu de cours
 
-- [Introduction](./vue/index.html)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/index.html">Introduction</a>
+</div>
 
-### Vue.js : Création d'une app Vue.js
 
-- [Création d'une app](./vue/creation-app.html)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/creation-app.html">Création d'une app</a>
+</div>
 
-### Vue.js : Interpolation de données
 
-- [Interpolation des données](./vue/interpolation.html)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/interpolation.html">Interpolation des données</a>
+</div>
 
-## Exercices
 
-[Exercice Vue.js: Badge VIP Festif](./exercices/vue-badge-vip.md){ .md-button :target="_blank" }
+#### Exercices
+
+[🧑🏽‍💻 Exercice Vue.js: Badge VIP Festif](./exercices/vue-badge-vip.md){ .md-button :target="_blank" }
 
 ## Devoirs
 

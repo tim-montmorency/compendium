@@ -24,9 +24,15 @@ Lora et Marie-Michelle vous présentent votre projet portfolio conjoint avec les
 - *582 541 MO - Préparation au milieu de travail*
 - *582 511 MO - Web 5*
 
-[Projet Portfolio - Infos générales](./projets/portfolio.md){ .md-button }
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales pour Web 5</a>
+</div>
 
-[Projet Portfolio - Remise planification 17 septembre](./projets/portfolio-remise1.md){ .md-button }
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-remise1.html">Projet Portfolio - Remise Web 5 - Planification: 17 septembre</a>
+</div>
 
 ## Suivi Figma - Plan Education Pro
 
@@ -38,53 +44,47 @@ Pour la gestion de projet simplifiée. Démo de **Trello**. Vous pouvez utiliser
 
 ## Quiz time !
 
-- [Groupe 1 merc AM](https://app.wooclap.com/YOZIXE)
-- [Groupe 2 merc PM](https://app.wooclap.com/EZTJGO)
+- [Groupe merc AM](https://app.wooclap.com/YOZIXE)
+- [Groupe merc PM](https://app.wooclap.com/EZTJGO)
 
 ## Révision Super Smash Bros
 
-[🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
+[🕹️Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
 
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/dPYLmWZ)
 
 
 Révision en classe.
 
-## Vue.js: Méthodes et événements v-on
+## Vue
 
-[Vue: Méthodes et événenements v-on](./vue/methodes-evenements.md)
+### Méthodes et événements
 
-
-### Exercices
-
-[Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
-[Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
-
-
-## Vue.js: Classes CSS dynamiques
-
-[Vue: Classe CSS dynamiques](./vue/classes-dynamiques.md)
-
-### Exercice
-
-[Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
-
-<!--## Vue.js: condition v-if | Listes et boucle v-for
-
-[Vue: Condition v-if](./vue/condition.md)
-
-[Vue: Listes et boucle v-for](./vue/boucle.md)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/methodes-evenements.html">Vue: Méthodes et événenements v-on</a>
+</div>
 
 
-### Exercices
+##### 2 exercices 🧑🏽‍💻
 
-Lien à venir
+[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+<!-- ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡-->
 
--->
+[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
+<!-- ➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡 -->
 
-<!-- 
-[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
+### Classes CSS dynamiques
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/classe-dynamique.html">Vue: Classes CSS dynamiques</a>
+</div>
+
+
+##### 1 exercice 🧑🏽‍💻
+
+[🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button } 
 
 
 ## Devoirs

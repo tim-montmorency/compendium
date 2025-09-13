@@ -2,10 +2,14 @@
 
 ## Boucle
 
+Vue permet de parcourir un tableau `[ ]` d'objets `{prop:value}` grâce à la directive `v-for`. Par son nom, on remarque que c'est une boucle `for` de native de Vue.js qui permet de parcourir les éléments d'un tableau (array).
 
-Vue permet de boucler sur un tableau d'objets grâce à la directive `v-for`. Pour ce faire, il faut spécifier le nom temporaire que l'on souhaite attribuer à chaque objet dans le tableau et spécifier le tableau dans lequel ce trouve ces objets.
+Pour cela, on doit :
 
-Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tableau `rolesArray`:
+1. Définir un nom temporaire qui représentera chaque objet du tableau.
+2. Indiquer le tableau à parcourir.
+
+Par exemple, pour accéder à chaque rôle contenu dans le tableau `rolesArray`:
 
 ```html
 <div v-for="role in rolesArr">
@@ -13,7 +17,9 @@ Par exemple, il est possible d'accéder à chaque rôle se trouvant dans le tabl
 </div>
 ```
 
-Par la suite, il faut spécifier si la propriété désirée est enfant du parent `data` ou enfant du rôle courant dans la boucle en la préfixant par `role`.
+Ici, `role` est l’objet courant de la boucle.
+Si l’on veut accéder à une propriété de cet objet (comme `picture`, `firstName`, `lastName`), on les préfixe avec `role`:
+`role.picture`, `role.firstName`, `role.lastName`
 
 <p class="codepen" data-height="600" data-theme-id="light" data-default-tab="html,result" data-slug-hash="abPeGqp" data-pen-title="DEMO VueJS | boucle" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abPeGqp">
@@ -44,10 +50,13 @@ Par exemple:
 </p>
 
 
-## Combinaison d'une boucle avec des événements
+## Combinaison d'une boucle avec des événements et méthodes
 
-Il est possible de combiner une boucle avec des [événements](./methodes-evenements.md) sans problème, simplement en spécifiant en paramètre à la méthode appelée l'objet devant être altéré.
-<br>
+On peut utiliser `v-for` pour générer plusieurs éléments. Sur chacun de ces éléments, on peut attacher un ou des événements (par exemple `@click`, `@mouseover`, etc.).
+
+Lorsque cet événement déclenche une méthode, on peut lui fournir comme paramètre l’objet “courant” de la boucle (l’élément de la collection que l’itération est en train de traiter), afin que la méthode sache sur quel objet agir.
+
+Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange()` en lui passant comme paramètre l'objet courant de la boucle, soit `role`. Rappelez-vous, `role` est le nom temporaire qu'on a choisi lorsqu'on défini la boucle `v-for` quelques lignes plus haut:
 
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="oNJKyOO" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKyOO">
@@ -55,15 +64,36 @@ Il est possible de combiner une boucle avec des [événements](./methodes-evenem
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-.
+<br>
 
-!!! warning
-    Il ne faut (jamais utiliser `v-if `sur un élément ayant `v-for`)[https://fr.vuejs.org/style-guide/rules-essential#avoid-v-if-with-v-for].
+!!! danger "🤼‍♂️ v-if ne s'accorde pas avec v-for"
+    On ne doit [jamais combiner v-if et v-for sur une même balise](https://fr.vuejs.org/style-guide/rules-essential#avoid-v-if-with-v-for).
+    Au besoin, il est possible d'ajouter une balise  `<template>` en guise d'intermédiaire pour ajouter le `v-for`ou le `v-if`.
+
+    ```html title = "🚫 Interdit"
+    <ul>
+      <li
+        v-for="user in users"
+        v-if="user.isActive">
+        {{ user.name }}
+      </li>
+    </ul>
+    ```
+
+    ```html title = "✅ Valide"
+    <ul>
+      <template v-for="user in users">
+        <li v-if="user.isActive">
+          {{ user.name }}
+        </li>
+      </template>
+    </ul>
+    ```
 
 
 
-<br><br>
-<a href="https://fr.vuejs.org/guide/essentials/list" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur <em>Rendu de liste - List Rendering</em></a>
+<br>
+<a href="https://fr.vuejs.org/guide/essentials/list" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Rendu de liste - List Rendering</em></a>
 <br>
 
 
@@ -83,7 +113,7 @@ Il est possible de combiner une boucle avec des [événements](./methodes-evenem
 
 Lien à venir
 <!-- 
-[Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 -->
 
 
