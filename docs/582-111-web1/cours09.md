@@ -2,6 +2,13 @@
 
 [STOP]
 
+Typographie
+Couleurs
+Alignements / décorations
+Unités
+États interactifs
+Dimensions et bordures
+
 PRÉVOIR UNE ÉVALUATION FORMATIVE
 
 ## Propriétés typographiques

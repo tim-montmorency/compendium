@@ -2,7 +2,11 @@
 
 [STOP]
 
-PRÉSENTER LE TP
+Médias et formats Web
+Transparence
+Contexte de navigation imbriqué (iframe)
+Figure et légende
+blockquote / cite
 
 ## Formats d’image
 
@@ -99,6 +103,81 @@ Voici un exemple de la même image enregistrée en `.png` et en `.gif` :
 </figure>
 </div>
 
+
+## Médias
+
+### Audio
+
+Balise : [`<audio>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/audio)
+
+```html title="Exemple le plus simple"
+<audio controls src="musique.mp3"></audio>
+```
+
+Attributs
+
+* **autoplay** :octicons-play-16: : Démarre la lecture automatiquement. Désactivé par défaut sur la plupart des navigateurs pour des raisons de UX.
+* **controls** :material-play-pause: : Affiche les contrôles du lecteur (lecture, pause, volume). Pas obligatoire, mais un peu oui ;), parce que l'autoplay ne fonctionne pas vraiment.
+* **loop** :material-repeat-variant: : Fait jouer l’audio en boucle.
+* **muted** :material-volume-mute: : L’audio est désactivé.
+* **preload** :material-progress-download: : Indique comment le navigateur doit gérer le chargement de l’audio :
+  * none : Ne préchargera rien (idéal si on veut économiser la bande passante)
+  * metadata : Préchargera uniquement les métadonnées (durée, dimensions)
+  * auto : Laisse le navigateur choisir (c'est la valeur par défaut)
+
+Formats recommandés :
+
+* `.mp3`
+* `.ogg`
+* `.wav`
+
+C'est possible aussi d'utiliser une méthode de chargement avec la balise [`<source>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/source). 
+
+Elle permet de fournir **plusieurs formats** au navigateur et le laisse choisir celui qui est compatible. Celui-ci commence par essayer la lecture du premier format. S'il n'est pas compatible, il essaye le deuxième et ainsi de suite.
+
+Si rien ne fait, le navigateur peut afficher un message spécifié dans la balise `<audio>`. Voici un exemple : 
+
+```html title="Exemple complet"
+<audio controls loop preload="metadata">
+  <source src="https://assets.codepen.io/9367036/NyanCatoriginal.ogg" type="audio/ogg; codecs=vorbis" />
+  <source src="https://assets.codepen.io/9367036/NyanCatoriginal.mp3" type="audio/mpeg">
+  <p>
+    Votre navigateur ne prend pas en charge l'audio HTML.
+    <a href="https://assets.codepen.io/9367036/NyanCatoriginal.mp3" download>Télécharger l’audio</a>.
+  </p>
+</audio>
+```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage" src="https://codepen.io/tim-momo/embed/ZYbWWrJ?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ZYbWWrJ">
+  Web 1 - Formatage</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Vidéo
+
+Balise : `<video>`
+
+Attributs :
+
+* controls, autoplay, loop, muted, poster, width, height
+
+Formats recommandés :
+
+* `.mp4` (H.264)
+* `.webm`
+* `.ogg`
+
+Exemple :
+
+```html
+<video controls width="400">
+  <source src="video.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas l’élément vidéo.
+</video>
+```
+
+
 ## La balise `<img>` et ses attributs
 
 ### Syntaxe de base
@@ -181,36 +260,32 @@ Permet d’intégrer du contenu externe, comme :
 </blockquote>
 ```
 
-
-
-[STOP]
-
 ## Audio
 
 ![icon-2](https://github.com/user-attachments/assets/78a79fa3-26b2-4f43-98a1-ed3c6c06aa76)
 
 [La balise `<audio>`](https://tim-montmorency.com/compendium/582-111–web1/html/audio.md)
-<br>
-<br>
+
+
 ## Formats Audio
 
 ![icon-3](https://github.com/user-attachments/assets/ed7e34fd-6758-4d62-8c4b-471843167243)
 
 [MP3, AAC, OGG, AV, FLAC, WebM, M4A](https://tim-montmorency.com/compendium/582-111–web1/autres/formats-audio.md)
-<br>
-<br>
+
+
 ## Video
 
 ![icon-4](https://github.com/user-attachments/assets/96389013-540b-4fa5-b71a-e74a22ca47f0)
 [La balise `<video>`](https://tim-montmorency.com/compendium/582-111–web1/html/video.md)
-<br>
-<br>
+
+
 ## Formats Video
 
 ![icon-5](https://github.com/user-attachments/assets/82375a28-e835-44a5-b59c-1ba6244d3b67)
 [MP4, MKV, MOV, WMV, WebM](https://tim-montmorency.com/compendium/582-111–web1/autres/formats-video.md)
-<br>
-<br>
+
+
 ## Légende de média
 
 ![icon (11)](https://github.com/user-attachments/assets/06b771e6-f137-4ea3-9b38-2676b1663d45)
@@ -235,22 +310,5 @@ Permet d’intégrer du contenu externe, comme :
 ![1-290880aa](https://github.com/user-attachments/assets/029a2a4d-b521-4345-ad0a-050a7e65b6a8)
 [Exercice sur les balises en HTML](https://tim-montmorency.com/compendium/582-111–web1/exercices/les-balises.md)
 
-## Les tableaux
+## TP
 
-![icon-6](https://github.com/user-attachments/assets/4c865caf-245d-4a6a-9cc8-2a853bde7872)
-[td, tr, th, thead, tbody, tfoot, colspan, rowspan](https://tim-montmorency.com/compendium/582-111–web1/html/tableau.md)
-
-## Exercice tableaux no1
-
-![thumb](https://github.com/user-attachments/assets/83a77663-69f8-4820-bb66-8caec52d955f)
-[Pour cet exercice, vous devez recréer un tableau.](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau1.md)
-
-## Exercice tableaux no2
-
-![thumb-2](https://github.com/user-attachments/assets/1d012c45-c09a-422d-a01d-afed32cd5dbc)
-[Pour cet exercice, vous devez recréer un tableau.](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau2.md)
-
-## Les listes
-
-![icon-7](https://github.com/user-attachments/assets/96ad45a6-de6a-4d39-9373-5c1605993fd8)
-[ul, ol, li, dl, dt,dd](https://tim-montmorency.com/compendium/582-111–web1/html/liste.md)

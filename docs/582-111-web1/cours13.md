@@ -2,7 +2,9 @@
 
 [STOP]
 
-TP2
+Présentation du TP2
+Planification (arborescence, wireframes, contenus)
+Séance supervisée pour travailler sur le TP2
 
 https://deepai.org/machine-learning-model/text2img
 https://deepmind.google/models/imagen/

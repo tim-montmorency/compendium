@@ -2,6 +2,12 @@
 
 [STOP]
 
+Disposition et positionnement
+box-sizing
+Positionnement
+Dégradés
+Float
+
 ## Rappel du modèle de boîte
 
 Revue du modèle vu précédemment :
