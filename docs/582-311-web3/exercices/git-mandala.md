@@ -1,6 +1,6 @@
 # Mandala Git
 
-![](../../assets/images/mandala-git.jpg)
+![](../assets/images/mandala-git.jpg)
 
 ## Objectif
 

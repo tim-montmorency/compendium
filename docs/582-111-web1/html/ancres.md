@@ -109,11 +109,6 @@ Par exemple:
 
 ![Capture d’écran, le 2024-09-06 à 11 06 28](https://github.com/user-attachments/assets/1bdcd3c7-0c1c-4bab-bacf-7510542e5c91)
 
-
-
-  **Exercice sur les balises**<br>
-  _Pour cet exercice, vous devez recréer un site web._<br>
-  [Exercice sur les ancres](../exercices/ancres.md)
 </div>
 
 

@@ -51,4 +51,4 @@ Dans la 4e colonne sous Note * Coefficient , insérer le texte: 68, 45, 32, 145,
 
 ## Notes de cours
 
-![icon-6](https://github.com/user-attachments/assets/ec007171-14ea-4d5a-b6b0-daa847136a69)<br> Les tableaux <br> [td, tr, th, thead, tbody, tfoot, colspan, rowspan](https://tim-montmorency.com/compendium/582-111–web1/html/tableau.md)
+![icon-6](https://github.com/user-attachments/assets/ec007171-14ea-4d5a-b6b0-daa847136a69)<br> Les tableaux <br> [td, tr, th, thead, tbody, tfoot, colspan, rowspan](https://tim-montmorency.com/compendium/582-111–web1-2024/html/tableau.md)

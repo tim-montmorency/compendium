@@ -6,7 +6,7 @@
 
 Tableaux et listes
 Formulaires
-Wireframes
+Wireframes ? relume
 fieldset legend
 
 *[UX]: Expérience utilisateur (User eXperience)

@@ -161,7 +161,7 @@ Voyons tout de suite à quoi cela peut ressembler:
 
   **Exercice tableaux no1**<br>
   _Pour cet exercice, vous devez recréer un tableau._<br>
-  [Exercice tableaux no1](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau1.md)
+  [Exercice tableaux no1](https://tim-montmorency.com/compendium/582-111–web1-2024/exercices/tableau1.md)
 </div>
 
 
@@ -174,7 +174,7 @@ Voyons tout de suite à quoi cela peut ressembler:
 
   **Exercice tableaux no2**<br>
   _Pour cet exercice, vous devez recréer un tableau._<br>
-  [Exercice tableaux no2](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau2.md)
+  [Exercice tableaux no2](https://tim-montmorency.com/compendium/582-111–web1-2024/exercices/tableau2.md)
 </div>
 
 
