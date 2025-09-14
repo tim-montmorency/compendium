@@ -3,11 +3,7 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 5](../cours05.md){.breadcrumb}
-
-# Devoir 2 (formatif)
-
-Remise le 26 septembre à 23:59.
+# La lichée
 
 ## Résultat attendu
 
@@ -29,15 +25,16 @@ Pour le contenu textuel, vous pouvez le copier/coller du « Site Web référence
 
 ## Instructions
 
-* [ ] Créer un dossier "devoir_02"
+* [ ] Créer un dossier "la-lichee"
 * [ ] Créer un fichier `index.html`
 * [ ] Dans `index.html`, créer une structure HTML de base
-* [ ] Importez le CSS et le JavaScript de Bootstrap 5
-* [ ] Importez le CSS et le JavaScript de Swiper
+* [ ] Avec npm, installez et importez les librairies :
+  * Bootstrap 5 (css et js)
+  * Swiper (css et js)
 * [ ] Ajoutez le css suivant : `.swiper-slide { width: 100% !important; }` à votre projet
 * [ ] Dans le `<body>`, ajoutez une barre de navigation Bootstrap
-* [ ] Dans le `<body>`, ajoutez une zone pour le titre centré avec un fond de couleur de type danger
-* [ ] Dans le `<body>`, ajoutez 3 produits dans une grille Bootstrap
+* [ ] Dans le `<body>`, ajoutez une zone pour le titre centré avec un fond de couleur de type `danger`
+* [ ] Dans le `<body>`, ajoutez 3 produits sous forme de carte dans une grille Bootstrap à 3 colonnes
 * [ ] Pour chaque produit, le texte doit être centré
 * [ ] Pour chaque produit, ajoutez un Swiper pour afficher 2 images en boucle
 * [ ] Pour chaque bouton « Ajouter au panier » cliqué, une boite Modal Bootstrap apparait

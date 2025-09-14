@@ -2,8 +2,6 @@
 
 *[npm] :  Node Package Manager
 
-[STOP]
-
 <style>
   nav.md-nav--secondary > ul > li > nav > ul > li > nav {
     display: none;
@@ -263,7 +261,7 @@ Lorsqu'on utilise une classe Bootstrap associée à une couleur, il y a de forte
 }
 ```
 
----
+### Exemple de surcharge
 
 ![](./assets/images/primary-new.png){.w-100}
 
@@ -298,57 +296,6 @@ npm i bootstrap-icons
 <i class="bi bi-person-wheelchair"></i>
 ```
 
-## Formulaire
-
-<https://getbootstrap.com/docs/5.3/forms/overview/>
-
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Form" src="https://codepen.io/tim-momo/embed/XWLmrqZ?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XWLmrqZ">
-  Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-```html
-<form>
-  <div class="mb-3">
-    <label for="email-field" class="form-label">Courriel</label>
-    <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Entrez votre courriel pour que nous puissions le vendre, à votre insu bien sûr, à tous nos partenaires.</div>
-  </div>
-  <button type="submit" class="btn btn-primary">Soumettre</button>
-</form>
-```
-
-## Exercices
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/petit-prince-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[Le petit prince](./exercices/bs-petit-prince.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/philo-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[Cartes philosophiques](./exercices/bs-philo.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/enfant-roi-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[L’enfant roi](./exercices/bs-enfant-roi.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/DK-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[Donkey Kong](./exercices/bs-donkey-kong.md){.stretched-link}**
-</div>
-
 ## Composantes
 
 Certaines composantes nécessitent du JavaScript alors nous aurons besoin d'inclure la librairie JavaScript de Bootstrap.
@@ -357,8 +304,7 @@ Certaines composantes nécessitent du JavaScript alors nous aurons besoin d'incl
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 ```
 
-
-## Carte
+### Carte
 
 <https://getbootstrap.com/docs/5.3/components/card>
 
@@ -684,7 +630,7 @@ npm install swiper
 
 ```js title="JavaScript"
 const swiper = new Swiper('.swiper', {
-  loop: true
+  loop: false
 });
 ```
 
@@ -695,16 +641,128 @@ Afin d'obtenir de meilleurs résultats, lorsque vous utilisez des images dans un
 Avec Bootstrap, vous pouvez utiliser la classe `w-100` pour lui donner une dimension de 100%, ainsi que la classe `img-fluid` pour éviter des problèmes de ratio d'image.
 
 ```html
-<img src="https://picsum.photos/800/600?random=1" class="img-fluid w-100" alt="...">
+<img src="..." class="img-fluid w-100" alt="...">
 ```
-
-### Exemple
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Swiper" src="https://codepen.io/tim-momo/embed/ExBqEdM?default-tab=&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/ExBqEdM">
   Swiper</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<https://swiperjs.com/demos>
+
+## Formulaire
+
+<https://getbootstrap.com/docs/5.3/forms/overview/>
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Form" src="https://codepen.io/tim-momo/embed/XWLmrqZ?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/XWLmrqZ">
+  Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+```html
+<form>
+  <div class="mb-3">
+    <label for="email-field" class="form-label">Courriel</label>
+    <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Entrez votre courriel pour que nous puissions le vendre, à votre insu bien sûr, à tous nos partenaires.</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Soumettre</button>
+</form>
+```
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/petit-prince/petit-prince-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Le petit prince](./exercices/petit-prince/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/carte-philo/philo-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Cartes philosophiques](./exercices/carte-philo/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/enfant-roi/enfant-roi-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[L’enfant roi](./exercices/enfant-roi/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/donkey-kong/DK-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Donkey Kong](./exercices/donkey-kong/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/la-lichee/lalichee.png)
+
+  <small>Exercice - Bootstrap et Swiper</small><br>
+  **[La lichée](./exercices/la-lichee/index.md){.stretched-link .back}**
+</div>
+
+## TP
+
+<div class="grid grid-1-2" markdown>
+  ![](./tp/la-critique/preview.jpg)
+
+  <small>Travail pratique</small><br>
+  **[La critique](./tp/la-critique/index.md){.stretched-link .back}**
+</div>
+
+[STOP]
+
+### Mise à jour
+
+Pour vérifier les mises à jour disponibles :
+
+```bash
+npm outdated
+```
+
+Pour mettre tout à jour :
+
+```bash
+npm update
+```
+
+
+
+### IcoMoon :new_moon:
+
+<https://icomoon.io/app/>
+
+![](./assets/images/icomoon3.png){data-zoom-image}
+![](./assets/images/icomoon1.png){data-zoom-image}
+![](./assets/images/icomoon9.png){data-zoom-image}
+![](./assets/images/icomoon5.png){data-zoom-image}
+![](./assets/images/icomoon6.png){data-zoom-image}
+![](./assets/images/icomoon7.png){data-zoom-image}
+![](./assets/images/icomoon8.png){data-zoom-image}
+
+#### Installation icomoon
+
+1. Placez le dossier de votre police icomoon dans le répertoire `assets/fonts/`
+1. Ajouter cette ligne dans le `<head>` de votre HTML : `<link rel="stylesheet" href="assets/fonts/icomoon-v01/style.css">`
+
+#### Utilisation icomoon
+
+```html
+<i class="icomoon-heart"></i>
+```
+
+
+https://www.freevector.com/chess-icons-20806#
+
 
 ## Maçonnerie
 
@@ -760,63 +818,3 @@ Modal
 Liste déroulante
 Accordion
 Swiperjs -->
-
-## Devoirs
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/lalichee.png)
-
-  <small>Devoir - Bootstrap</small><br>
-  **[La lichée](./devoir/bs-devoir2.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/lacritique.png)
-
-  <small>PS1</small><br>
-  **[La critique](./devoir/PS1.md){.stretched-link}**
-</div>
-
-[STOP]
-
-### Mise à jour
-
-Pour vérifier les mises à jour disponibles :
-
-```bash
-npm outdated
-```
-
-Pour mettre tout à jour :
-
-```bash
-npm update
-```
-
-
-
-### IcoMoon :new_moon:
-
-<https://icomoon.io/app/>
-
-![](./assets/images/icomoon3.png){data-zoom-image}
-![](./assets/images/icomoon1.png){data-zoom-image}
-![](./assets/images/icomoon9.png){data-zoom-image}
-![](./assets/images/icomoon5.png){data-zoom-image}
-![](./assets/images/icomoon6.png){data-zoom-image}
-![](./assets/images/icomoon7.png){data-zoom-image}
-![](./assets/images/icomoon8.png){data-zoom-image}
-
-#### Installation icomoon
-
-1. Placez le dossier de votre police icomoon dans le répertoire `assets/fonts/`
-1. Ajouter cette ligne dans le `<head>` de votre HTML : `<link rel="stylesheet" href="assets/fonts/icomoon-v01/style.css">`
-
-#### Utilisation icomoon
-
-```html
-<i class="icomoon-heart"></i>
-```
-
-
-https://www.freevector.com/chess-icons-20806#

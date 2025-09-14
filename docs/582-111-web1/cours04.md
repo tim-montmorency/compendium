@@ -103,7 +103,6 @@ Voici un exemple de la même image enregistrée en `.png` et en `.gif` :
 </figure>
 </div>
 
-
 ## Médias
 
 ### Audio
