@@ -27,6 +27,7 @@ Version Mobile (< md)
 
 - [ ] Effectuez un fork du [CodePen de départ](https://codepen.io/tim-momo/pen/LYKvOay?editors=1000)
 - [ ] Analysez attentivement le code HTML et sa structure
+
 - [ ] Desktop (breakpoint `md` et plus) :
   - [ ] Masquez le texte débutant par « Antoine de Saint-Exupéry ».
   - [ ] Appliquez la classe `col-auto` à la colonne de l’image et `col` à la colonne du texte.
@@ -37,6 +38,7 @@ Version Mobile (< md)
 
   - [ ] Assurez-vous que le style du texte corresponde **au style** d'une balise `<h3>`.
   - [ ] Alignez verticalement le texte par rapport à l'image avec les classes Flexbox de Bootstrap.
+
 - [ ] Mobile (plus petit que le breakpoint `md`) :
   - [ ] Masquez la rangée (`row`) comportant les deux colonnes.
   - [ ] Affichez le texte débutant par « Antoine de Saint-Exupéry ».
