@@ -1,17 +1,24 @@
 # LDVELH | Planification
 
+![](./planif.gif){.w-100}
+
 *[LDVELH]: Livre dont vout êtes le héros
 
 [^lierre]: Arbrisseau rampant et grimpant par des racines adventives, à feuilles luisantes toujours vertes, à fleurs jaune verdâtre et à baies noires.
 
-Dans cette première phase de travail, vous devez planifier une courte histoire médiévale sous forme de schéma dans draw.io.
-L’idée est de concevoir un petit récit interactif où chaque scène mène à des choix (liens) qui orientent l’histoire.
+Dans cette première phase du TP1, vous devez planifier une courte histoire médiévale sous forme de schéma dans draw.io.
 
-Chaque scène représente une page Web.
+L’idée est de concevoir un petit récit interactif où chaque scène mène à des choix qui orientent l’histoire.
+
+Chaque **scène** représente un **fichier html** et chaque **choix** représente un **lien hypertexte**.
 
 ## Thématique
 
-L’univers doit être médiéval / heroic-fantasy (châteaux, forêts, cryptes, tavernes, magie, etc.).
+![](kcd.gif){.w-50}
+
+L’univers de votre histoire doit s’ancrer dans l'époque médiévale.
+
+Vous pouvez puiser votre inspiration soit dans un cadre médiéval réaliste (villages, châteaux, chevaliers, vie quotidienne), soit dans un registre médiéval fantastique (magie, créatures, royaumes imaginaires).
 
 ## Représentation graphique avec draw.io
 
