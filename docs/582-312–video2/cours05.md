@@ -9,7 +9,7 @@
   * Fades
     * Sur des bruits de pas
     * Sur une musique
-  * Panoramiques
+    * Sur texte
   * Sychnonisation image et son
 
 ## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90  minutes)
