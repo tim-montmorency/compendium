@@ -291,6 +291,14 @@ npm i bootstrap-icons
 
 ### Utilisation
 
+Lier Bootstrap icons au HTML avec le bon chemin :
+
+```html
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+```
+
+L'ajout d'icône ressemble à ceci :
+
 ```html
 <!-- Le préfix des classes est `bi-` pour « Bootstrap Icon » -->
 <i class="bi bi-person-wheelchair"></i>
