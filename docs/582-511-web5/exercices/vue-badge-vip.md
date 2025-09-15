@@ -78,10 +78,19 @@ Le badge doit s’adapter automatiquement lorsque vous changez les données dans
 
 
 
-## Notes de cours 📚
+## Notes de cours
 
-- [Vue: Introduction](../vue/index.html)
+<div class="class-content-link">
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/index.html">Vue: Introduction</a>
+</div>
 
-- [Vue: Création d'une app](../vue/creation-app.html)
+<div class="class-content-link">
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/creation-app.html">Vue: Création d'une app</a>
+</div>
 
-- [Vue: Interpolation des données](../vue/interpolation.html)
+<div class="class-content-link">
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/interpolation.html">Vue: Interpolation des données</a>
+</div>

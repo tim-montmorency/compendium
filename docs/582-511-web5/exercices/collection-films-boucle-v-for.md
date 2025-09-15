@@ -107,16 +107,16 @@ moviesArr: [
 ## Notes de cours
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/interpolation.html">Vue: Interpolation des données</a>
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/interpolation.html">Vue: Interpolation des données</a>
 </div>
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/classe-dynamique.html">Vue: Classes CSS dynamiques</a>
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/classe-dynamique.html">Vue: Classes CSS dynamiques</a>
 </div>
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/boucle.html">Vue: Tableau (array) et boucle v-for</a>
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/boucle.html">Vue: Tableau (array) et boucle v-for</a>
 </div>

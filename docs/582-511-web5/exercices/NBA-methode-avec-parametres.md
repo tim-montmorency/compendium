@@ -21,16 +21,16 @@
 ## Notes de cours
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/interpolation.html">Vue: Interpolation des données</a>
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/interpolation.html">Vue: Interpolation des données</a>
 </div>
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/methodes-evenements.html">Vue: Méthode et événement</a>
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/methodes-evenements.html">Vue: Méthode et événement</a>
 </div>
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/methodes-evenements.html#methode-dynamisee-avec-des-parametres">Vue: Méthode dynamisée par des paramètres</a>
+  <img src="../vue/assets/logo-vue.svg">
+  <a href="../vue/methodes-evenements.html#methode-dynamisee-avec-des-parametres">Vue: Méthode dynamisée par des paramètres</a>
 </div>
