@@ -4,7 +4,7 @@
 
     Pour accomplir cet exercice, vous devez avoir complété l'exercice [Mandala Git](./git-mandala.md)
 
-![](../../assets/images/prometheus.jpg)
+![](../assets/images/prometheus.jpg)
 
 ## Objectif
 

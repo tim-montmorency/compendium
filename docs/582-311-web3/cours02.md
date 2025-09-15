@@ -789,4 +789,7 @@ RÉFLEXION
 
 Ce cours fini entre 1h et 30min plus tôt.
 La matière enseignée avec Github est trop semblable à celle du cours de muséologie. Il faut la remplacer.
+
+Peut-être aborder vi, vim, nano ?
+
 Peut-être aborder la notion de github Pages ou encore les actions ?

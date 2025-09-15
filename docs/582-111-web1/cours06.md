@@ -2,6 +2,9 @@
 
 [STOP]
 
+Préparation à l'examen
+Séance de travail supervisée pour le TP1
+
 ## Formulaires
 
 ### Structure de base
@@ -93,14 +96,6 @@ Important : aucune couleur, aucune image, aucun style — uniquement la structur
 	Cela évite les commentaires hors propos du type « je n’aime pas la couleur » et recentre la discussion sur l’essentiel : *quelles informations doivent apparaître et où*.
 
 
-
-
-
-
-
-
-
-[STOP]
 
 ## Formulaire avancé
 ![icon (14)](https://github.com/user-attachments/assets/eceb7f15-970e-47d5-b4a4-c9d8e9f791a2)

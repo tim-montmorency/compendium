@@ -1,39 +1,43 @@
 # Cours 4
 
-[STOP]
-
-PRÉSENTER LE TP
+*[SVG]: Scalable Vector Graphics
 
 ## Formats d’image
 
 ![](./assets/images/vector-bitmap-banner.jpg)
 
-https://developer.mozilla.org/fr/docs/Web/Media/Guides/Formats/Image_types
-
-Il existe essentiellement deux types d’images utilisés en Web : les images **vectorielles** et les images **matricielles** (ou *bitmap* en anglais).
-
-## Vectoriel vs Matriciel
-
-![icon (10)](https://github.com/user-attachments/assets/343eb750-1f49-4727-93fc-8857f7c67762)
-[matrices & vecteurs](./autres/vectoriel-vs-matriciel.md)
+Il existe deux [types d’images](https://developer.mozilla.org/fr/docs/Web/Media/Guides/Formats/Image_types) utilisés en Web : les images **vectorielles** et les images **matricielles** (ou *bitmap* en anglais).
 
 ### Vectoriel
 
-Les images vectorielles sont construites à partir de **vecteurs mathématiques**. Ce type d’image est parfois un peu plus exigeant à charger pour le processeur, mais il a l’avantage de rester lisse lorsqu'on l'étire ou on l'agrandit.
+![](./assets/images/vectoriel.png){data-zoom-image}
 
-Pour créer ou modifier une image vectorielle, on utilise des logiciels de dessin **vectoriel**, comme :
+Les images vectorielles sont décrites par des équations mathématiques. Elles indiquent au navigateur comment dessiner l’image : « trace une ligne entre ces deux points », « dessine une courbe de Bézier entre ces coordonnées », etc. Ce système leur permet de rester nettes quelle que soit la taille d’affichage.
 
-- [Adobe Illustrator](https://www.adobe.com/ca_fr/products/illustrator.md)
-- [Figma](https://www.figma.com/fr-fr/)
-- [Affinity Designer](https://affinity.serif.com/en-us/designer/)
+![](./assets/images/Examples-of-basic-Bezier-curves-a-linear-b-quadratic-c-cubic-Endpoints-are-denoted.png){.w-50 data-zoom-image}
 
-Le format utilisé en Web est le `.svg` (Scalable Vector Graphics).
+Comme personne ne s'amuse à faire des maths pour dessiner une image, plusieurs outils spécialisés servent à gérer assez simplement les images vectorielles :
 
-### Matriciel
+- [Adobe Illustrator](https://www.adobe.com/ca_fr/products/illustrator.html)
+- [:simple-sketch: Sketch](https://www.sketch.com/)
+- [:simple-figma: Figma](https://www.figma.com/fr-fr/)
+- [:simple-affinitydesigner: Affinity Designer](https://affinity.serif.com/en-us/designer/)
 
-Les images matricielles, quant à elles, sont composées de **pixels**. C’est comme un tableau dans lequel chaque case représente un pixel. 
+En Web, le format vectoriel le plus courant est le [SVG](https://en.wikipedia.org/wiki/SVG).
+
+### Matriciel (bitmap)
+
+![](./assets/images/bitmap.webp)
+
+Les images matricielles, quant à elles, sont composées de **pixels**. C’est comme un tableau dans lequel chaque case représente un pixel avec sa couleur.
+
+![](./assets/images/pixels-bitmap.png){.w-50 data-zoom-image}
 
 Lorsqu’on agrandit ce type d'image, on perd en qualité, car les pixels deviennent visibles. C’est ce qu’on appelle la **pixellisation** 😡.
+
+Plus une image est en haute définition, plus elle contient de pixels dans un même espace. Cependant, plus une image contient de pixels, plus sont poids augmente.
+
+![](./assets/images/hd-4k.jpg){data-zoom-image}
 
 Les formats courants sont :
 
@@ -47,16 +51,12 @@ Les formats courants sont :
 Ces formats sont généralement produits avec des outils comme :
 
 - [Photoshop](https://www.adobe.com/fr/products/photoshop.md)
-- [Photopea](https://www.photopea.com/) (en ligne)
-- [Affinity Photo](https://affinity.serif.com/fr/photo/)
+- [:simple-photopea: Photopea](https://www.photopea.com/) (en ligne)
+- [:simple-affinityphoto: Affinity Photo](https://affinity.serif.com/fr/photo/)
 
 !!! example "Exercice éclair"
 
-    <div class="grid-auto grid" markdown>
-    ![](./assets/images/wizard.gif)
-
-    > « Observe les deux images ci-dessous. Peux-tu identifier laquelle est une image **vectorielle** et laquelle est **matricielle** ? »
-    </div>
+    Observe les deux images ci-dessous. Peux-tu identifier laquelle est une image **vectorielle** et laquelle est **matricielle** ?
 
     <div class="grid">
     <figure>
@@ -67,7 +67,6 @@ Ces formats sont généralement produits avec des outils comme :
     </iframe>
     <figcaption>A</figcaption>
     </figure>
-
     <figure>
     <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Vector" src="https://codepen.io/tim-momo/embed/raVgKNM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
     See the Pen <a href="https://codepen.io/tim-momo/pen/raVgKNM">
@@ -78,7 +77,7 @@ Ces formats sont généralement produits avec des outils comme :
     </figure>
     </div>
 
-## Types de transparence
+#### Types de transparence
 
 Il existe deux types de transparence : **alpha** et **binaire**.
 
@@ -99,30 +98,190 @@ Voici un exemple de la même image enregistrée en `.png` et en `.gif` :
 </figure>
 </div>
 
-## La balise `<img>` et ses attributs
+### Compression d'image
 
-### Syntaxe de base
+![](./assets/images/compress-image.png)
 
-```html
-<img src="chaton.jpg" alt="Un petit chat mignon" width="300" height="200" title="Ceci est un chaton trop mignon">
+En Web, le poids des images est critique : plus une image est lourde, plus elle ralentit le chargement d’un site.
+
+Assurez-vous d'optimiser le poids de vos images avec un outil comme [TinyPNG](https://tinypng.com/).
+
+## Audio
+
+![](./assets/images/sounds.gif){.w-100}
+
+Balise : [`<audio>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/audio)
+
+```html title="Exemple le plus simple"
+<audio controls src="musique.mp3"></audio>
 ```
 
-### Attributs principaux
+Attributs
 
-- `src` : chemin de l’image
-- `alt` : description pour l’accessibilité (obligatoire)
-- `title` : info-bulle au survol
-- `width` / `height` : dimensions de l’image
+* **autoplay** : Démarre la lecture automatiquement. Désactivé par défaut sur la plupart des navigateurs pour des raisons de UX.
+* **controls** : Affiche les contrôles du lecteur (lecture, pause, volume). Pas obligatoire, mais un peu oui ;), sinon le lecteur ne s'affichera pas.
+* **loop** : Fait jouer l’audio en boucle.
+* **muted** : L’audio est désactivé.
+* **preload** : Indique comment le navigateur doit gérer le chargement de l’audio :
+  * none : Ne préchargera rien (idéal si on veut économiser la bande passante)
+  * metadata : Préchargera uniquement les métadonnées (durée, dimensions)
+  * auto : Laisse le navigateur choisir (c'est la valeur par défaut)
 
-### ✅ Bonnes pratiques
+C'est possible aussi d'utiliser une méthode de chargement avec la balise [`<source>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/source).
 
-- Toujours inclure `alt`
-- Redimensionner l’image avant l’import si nécessaire
-- Éviter les images trop lourdes ou disproportionnées
+Cette méthode permet de fournir **plusieurs formats** au navigateur et le laisse choisir celui qui est compatible. Celui-ci commence par essayer la lecture du premier format. S'il n'est pas compatible, il essaye le deuxième et ainsi de suite.
 
-## `<figure>` et `<figcaption>`
+Si rien ne fait, le navigateur peut afficher un message spécifié dans la balise `<audio>`. Voici un exemple :
 
-Permet de regrouper une image et sa légende de manière sémantique :
+```html title="Exemple complet"
+<audio controls loop preload="metadata">
+  <source src="https://assets.codepen.io/9367036/NyanCatoriginal.ogg" type="audio/ogg; codecs=vorbis" />
+  <source src="https://assets.codepen.io/9367036/NyanCatoriginal.mp3" type="audio/mpeg">
+  <p>
+    Votre navigateur ne prend pas en charge l'audio HTML.
+    <a href="https://assets.codepen.io/9367036/NyanCatoriginal.mp3" download>Télécharger l’audio</a>.
+  </p>
+</audio>
+```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage" src="https://codepen.io/tim-momo/embed/ZYbWWrJ?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ZYbWWrJ">
+  Web 1 - Formatage</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Formats Audio
+
+Tout comme pour les images, il existe différents formats audio. Certains sont universels, d’autres plus modernes et plus légers.
+
+!!! success "Recommandation : webm + mp3"
+    
+    Utiliser le format `.webm`. C'est un format très efficace avec une bonne qualité audio.
+
+    En _fallback_, utiliser `.mp3` pour une [compatibilité maximale](https://caniuse.com/?search=mp3).
+
+    ---
+
+    Certes, d’autres formats existent (ex. : `.wav` (qualité brute mais trop lourd) ou `.aac` (plus pour iOS/Safari)), mais dans la majorité des cas, le combo `.webm` et `.mp3` est idéal.
+
+## Vidéo
+
+![](./assets/images/nyan.gif){.w-100}
+
+Balise : `<video>`
+
+```html title="Exemple minimal"
+<video src="video.mp4"></video>
+```
+
+Il est aussi possible d’utiliser une ou plusieurs balises enfants `<source>` :
+
+```html title="Usage de la balise source"
+<video>
+  <source src="video.mp4" type="video/mp4">
+</video>
+```
+
+Cette méthode permet de définir plusieurs formats. Ainsi, si le navigateur est incapable de lire le premier format, il tente le suivant :
+
+```html title="Exemple avec Fallback"
+<video>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+  <p>
+    Votre navigateur ne supporte pas la vidéo HTML.
+    <a href="video.mp4" download>Télécharger la vidéo</a>.
+  </p>
+</video>
+```
+
+!!! info "Compatibilité"
+
+    Si vous ne désirez pas fournir plusieurs formats, sachez que les `.mp4` sont supportés par tous les navigateurs.
+
+### Attributs
+
+Les attributs de video sont les suivant : `controls`, `autoplay`, `loop`, `muted`, `poster`, `width`, `height`
+
+#### controls
+
+Affiche les contrôles du lecteur (lecture, pause, volume, etc.).
+
+🍎 Il est préférable de toujours l’activer.
+
+```html
+<video src="video.mp4" controls></video>
+```
+
+#### poster
+
+Par défaut, une vidéo affiche la première image de sa source.
+
+On peut forcer une autre image d’aperçu avec `poster` :
+
+```html
+<video src="video.mp4" poster="preview.jpg" controls></video>
+```
+
+#### loop
+
+Joue la vidéo en boucle 🔁
+
+```html
+<video src="video.mp4" loop controls></video>
+```
+
+#### muted
+
+Démarre la vidéo en mode silencieux 🔇
+
+```html
+<video src="video.mp4" muted controls></video>
+```
+
+#### autoplay
+
+Demande au navigateur de démarrer automatiquement la vidéo.
+
+```html
+<video src="video.mp4" autoplay muted></video>
+```
+
+!!! warning "Attention"
+
+    La plupart des navigateurs bloqueront l’autoplay si la vidéo n’est pas muette.
+    Si l’utilisateur a déjà interagi avec la page Web, le navigateur peut choisir d’honorer l’autoplay.
+
+#### playsinline
+
+Sur plusieurs appareils mobiles 📱, les vidéos passent automatiquement en plein écran.
+
+`playsinline` permet de garder la vidéo intégrée à la page.
+
+```html
+<video src="video.mp4" playsinline controls></video>
+```
+
+### Formats vidéo
+
+Tout comme pour l’audio, il existe différents formats vidéo.
+
+!!! success "Recommandation : webm + mp4"
+
+    Utiliser le format `.webm`. C'est un format très efficace avec une bonne qualité vidéo.
+
+    En _fallback_, utiliser `.mp4` pour une [compatibilité maximale](https://caniuse.com/?search=mp4).
+
+### Optimisation des vidéos
+
+* Toujours compresser avant publication (ex. : [HandBrake](https://handbrake.fr/)).
+* Éviter les vidéos trop lourdes (ex. > 50 Mo). Privilégier un hébergement externe (YouTube, Vimeo).
+
+## Les figures 👺
+
+![](./assets/images/figure.jpg){data-zoom-image}
+
+La balise [`<figure>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/figure) permet d'associer une information (image, vidéo, diagramme, etc.) à une légende `<figcaption>`. C'est très pratique pour associer visuellement une formation avec un média par exemple. De plus, c'est la façon sémantique de le faire 👌
 
 ```html
 <figure>
@@ -131,38 +290,79 @@ Permet de regrouper une image et sa légende de manière sémantique :
 </figure>
 ```
 
-## Intégration de médias externes avec `<iframe>`
+## Intégration de contenus externes
 
-### Utilisation de la balise `<iframe>`
+![](./assets/images/infinity.gif){.w-100}
 
-Permet d’intégrer du contenu externe, comme :
+Balise : `<iframe>`
 
-- **Vidéos YouTube ou Vimeo**
-- **Cartes interactives Google Maps**
+La balise `<iframe>` représente un contexte de navigation imbriqué qui permet d'obtenir une page HTML intégrée dans la page courante.
 
-### Exemples :
+⚠️ Bien que visible à l’écran, cette page intégrée bénéficie de son propre contexte d’exécution. Cela signifie que :
 
-```html
-<!-- Vidéo YouTube -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+* Les styles CSS et scripts JavaScript de la page parent n’ont aucun effet sur la page enfant.
+* Inversement, les styles et scripts de la page enfant n’affectent pas la page parent.
 
-<!-- Carte Google Maps -->
-<iframe 
-  src="https://www.google.com/maps/embed?pb=..." 
-  width="600" 
-  height="450" 
-  style="border:0;" 
-  allowfullscreen>
-</iframe>
+```html title="Exemple minimal"
+<iframe src="https://site.com"></iframe>
 ```
 
-### Conseils
+### Attributs
 
-- Adapter les dimensions à votre mise en page
-- Toujours tester le lien intégré
-- S’assurer que le contenu soit pertinent et bien intégré
+#### title
 
-## Citations en HTML
+L'attribut title, bien que non obligatoire, est fortement recommandé puisqu'il permet de fournir une description du contenu du iFrame aux personnes utilisant une assistance vocale afin de naviguer sur la page.
+
+```html
+<iframe src="https://site.com" title="Démo iFrame"></iframe>
+```
+
+#### width et height
+
+Permettent de définir la taille de l’iframe.
+
+```html
+<iframe src="https://site.com" width="600" height="400"></iframe>
+```
+
+#### allowfullscreen
+
+Autorise l’affichage en plein écran (utile pour les vidéos).
+
+```html
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+```
+
+#### loading="lazy"
+
+Permet de charger l’iframe uniquement lorsqu’elle entre dans le champ de vision de l’utilisateur.
+
+```html
+<iframe src="https://site.com" loading="lazy"></iframe>
+```
+
+Exemples concrets
+
+Vidéo YouTube
+```html
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=HQmwAnJfvdN8HPwg" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen></iframe>
+```
+
+openstreetmap
+```html
+<iframe width="425" height="350"
+src="https://www.openstreetmap.org/export/embed.html?bbox=-73.73120069503786%2C45.554418475852586%2C-73.71317625045778%2C45.56543096959684&amp;layer=mapnik"></iframe>
+```
+
+## Citations
+
+![](./assets/images/quote.gif){.w-100}
 
 | Balise         | Usage                                              |
 |----------------|----------------------------------------------------|
@@ -170,87 +370,65 @@ Permet d’intégrer du contenu externe, comme :
 | `<blockquote>` | Citation longue en bloc                            |
 | `<cite>`       | Source d’une œuvre ou citation                     |
 
-### Exemples :
+### q
 
-```html
-<p>Comme disait Socrate : <q>Connais-toi toi-même</q>.</p>
+La balise [`<q>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/q) permet d'insérer dans un texte une courte citation sans créer un nouveau bloc de contenu.
 
-<blockquote>
-  <p>L’art de la citation est l’art de ceux qui ne savent pas réfléchir par eux-mêmes.</p>
-  <cite>— Voltaire</cite>
-</blockquote>
-```
+Par défaut, la majorité des navigateurs ajoutent des guillemets anglophones autour de la balise `<q>` afin de la faire ressortir du texte régulier.
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Q" src="https://codepen.io/tim-momo/embed/oNPvxXX?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/oNPvxXX">
+  Q</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
+### blockquote
 
-[STOP]
+La balise [`<blockquote>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/blockquote) permet de définir un bloc de citation relativement long.
 
-## Audio
+Par défaut, la majorité des navigateurs ajoutent un espacement à gauche de la citation afin de faire ressortir ce contenu du texte régulier.
 
-![icon-2](https://github.com/user-attachments/assets/78a79fa3-26b2-4f43-98a1-ed3c6c06aa76)
+<iframe height="300" style="width: 100%;" scrolling="no" title="Blockquote" src="https://codepen.io/tim-momo/embed/yLxBOYx?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/yLxBOYx">
+  Blockquote</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
-[La balise `<audio>`](https://tim-montmorency.com/compendium/582-111–web1/html/audio.md)
-<br>
-<br>
-## Formats Audio
+### cite
 
-![icon-3](https://github.com/user-attachments/assets/ed7e34fd-6758-4d62-8c4b-471843167243)
+La balise [`<cite>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/cite) permet de spécifier la source d'une citation.
 
-[MP3, AAC, OGG, AV, FLAC, WebM, M4A](https://tim-montmorency.com/compendium/582-111–web1/autres/formats-audio.md)
-<br>
-<br>
-## Video
+Généralement, cette balise est inclus dans une balise `<footer>` pour indiquer qu'il s'agit en quelque sorte da la note de pied de page de la citation.
 
-![icon-4](https://github.com/user-attachments/assets/96389013-540b-4fa5-b71a-e74a22ca47f0)
-[La balise `<video>`](https://tim-montmorency.com/compendium/582-111–web1/html/video.md)
-<br>
-<br>
-## Formats Video
+Par défaut, la majorité des navigateurs mettent en italique le contenu des balises `<cite>` afin de les différencier de la citation elle-même.
 
-![icon-5](https://github.com/user-attachments/assets/82375a28-e835-44a5-b59c-1ba6244d3b67)
-[MP4, MKV, MOV, WMV, WebM](https://tim-montmorency.com/compendium/582-111–web1/autres/formats-video.md)
-<br>
-<br>
-## Légende de média
+<iframe height="300" style="width: 100%;" scrolling="no" title="Cite" src="https://codepen.io/tim-momo/embed/GgpVKaj?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/GgpVKaj">
+  Cite</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
-![icon (11)](https://github.com/user-attachments/assets/06b771e6-f137-4ea3-9b38-2676b1663d45)
-[figure, figcaption](https://tim-montmorency.com/compendium/582-111–web1/html/legende-media.md)
-<br>
-<br>
+## Exercices
 
-## iFrame
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/galapagos/licensed-image.jpeg)
 
-![icon](https://github.com/user-attachments/assets/a91b30c9-6f96-4ee5-87cc-9869d982689a)
-[youtube, vimeo, google map, etc.](https://tim-montmorency.com/compendium/582-111–web1/html/iframe.md)
-<br>
-<br>
+  <small>Exercice - HTML</small><br>
+  **[Galapagos](./exercices/galapagos/index.md){.stretched-link .back}**
+</div>
 
-## Citation
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/la-la-land/preview.gif)
 
-![icon (13)](https://github.com/user-attachments/assets/11b190dc-1e88-41a5-a222-e4411af99ebc)
-[q, blockquote, cite](https://tim-montmorency.com/compendium/582-111–web1/html/citation.md)
+  <small>Exercice - HTML</small><br>
+  **[La la land](./exercices/la-la-land/index.md){.stretched-link .back}**
+</div>
 
-## Exercice sur les balises HTML
+## Travail pratique
 
-![1-290880aa](https://github.com/user-attachments/assets/029a2a4d-b521-4345-ad0a-050a7e65b6a8)
-[Exercice sur les balises en HTML](https://tim-montmorency.com/compendium/582-111–web1/exercices/les-balises.md)
+<div class="grid grid-1-2" markdown>
+  ![](./tp/ldvelh/ldvelh-preview.gif)
 
-## Les tableaux
-
-![icon-6](https://github.com/user-attachments/assets/4c865caf-245d-4a6a-9cc8-2a853bde7872)
-[td, tr, th, thead, tbody, tfoot, colspan, rowspan](https://tim-montmorency.com/compendium/582-111–web1/html/tableau.md)
-
-## Exercice tableaux no1
-
-![thumb](https://github.com/user-attachments/assets/83a77663-69f8-4820-bb66-8caec52d955f)
-[Pour cet exercice, vous devez recréer un tableau.](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau1.md)
-
-## Exercice tableaux no2
-
-![thumb-2](https://github.com/user-attachments/assets/1d012c45-c09a-422d-a01d-afed32cd5dbc)
-[Pour cet exercice, vous devez recréer un tableau.](https://tim-montmorency.com/compendium/582-111–web1/exercices/tableau2.md)
-
-## Les listes
-
-![icon-7](https://github.com/user-attachments/assets/96ad45a6-de6a-4d39-9373-5c1605993fd8)
-[ul, ol, li, dl, dt,dd](https://tim-montmorency.com/compendium/582-111–web1/html/liste.md)
+  <small>TP1 a</small><br>
+  **[Planification](./tp/ldvelh/index.md){.stretched-link .back}**
+</div>

@@ -2,6 +2,8 @@
 
 [STOP]
 
+Séance de travail supervisée pour le TP2 
+
 Travail en classe – Projet final
 	•	Production des pages HTML/CSS
 	•	Accompagnement individuel, débogage et validation continue du code source
@@ -14,4 +16,4 @@ Travail en classe – Projet final
 
 
 
-[STOP]
+

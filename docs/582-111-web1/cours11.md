@@ -2,6 +2,12 @@
 
 [STOP]
 
+CSS avancé et bonnes pratiques
+Effets visuels
+Méthodologie BEM
+Outils de débogage
+Révision CSS
+
 *[BEM]: Block Element Modifier
 
 ## Effets visuels

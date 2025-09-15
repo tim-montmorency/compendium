@@ -26,7 +26,7 @@ Aperçu du résultat 👇
 
 !!! tip
 
-        https://tim-montmorency.com/compendium/582-111–web1/exercices/submit/amongus.html
+        https://tim-montmorency.com/compendium/582-111–web1-2024/exercices/submit/amongus.html
 Vous devriez maintenant être capable de créer des personnages similaires à ceux-ci en soumettant votre formulaire:
 
 ![type:video](https://github.com/user-attachments/assets/58e9af6c-0b57-4811-ba4f-bef11fee0639)
@@ -37,4 +37,4 @@ Vous devriez maintenant être capable de créer des personnages similaires à ce
 
 ![icon (2)](https://github.com/user-attachments/assets/f7167ff2-c80e-4594-a297-7c394aeb7b0e)<br> Formulaire intermédiaire <br> [Formulaire intermédiaire](../html/formulaire-intermediaire.md)
 
-![icon (14)](https://github.com/user-attachments/assets/489fcdf8-fe57-413e-9809-0d30701186d8)<br> Formulaire avancé <br> [Formulaire avancé](https://tim-montmorency.com/compendium/582-111–web1/html/formulaire-avance.md)
+![icon (14)](https://github.com/user-attachments/assets/489fcdf8-fe57-413e-9809-0d30701186d8)<br> Formulaire avancé <br> [Formulaire avancé](https://tim-montmorency.com/compendium/582-111–web1-2024/html/formulaire-avance.md)

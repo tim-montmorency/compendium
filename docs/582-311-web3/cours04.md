@@ -1,14 +1,6 @@
 # Cours 4 | Bootstrap 2/2
 
-[STOP]
-
-Installation par ligne de commande, gitignore et github
-
-Customize les couleurs
-
-Bootstrap : icônes, cartes, formulaires, composantes JavaScript (modals, toasts, dropdown, accordions, carousel)
-
-Swiper
+*[npm] :  Node Package Manager
 
 <style>
   nav.md-nav--secondary > ul > li > nav > ul > li > nav {
@@ -16,53 +8,311 @@ Swiper
   }
 </style>
 
-## Icônes
+## Défis Bootstrap
 
-### Bootstrap
+Retour sur l'exercice des défis Bootstrap.
+
+## npm
+
+![](./assets/images/npm.gif){.w-100}
+
+`npm` c'est comme un magasin d’applications (_Package manager_) pour développeurs qu'on utilise en ligne de commande.
+
+### Préparation
+
+[Installer Node.js](https://nodejs.org/fr/download) (`npm` vient avec).
+
+Une fois l'installation terminée, on peut vérifier si `node` et `npm` sont accessibles en ligne de commande.
+
+```bash title="Pour connaître la version installée de Node.js"
+node --version
+```
+
+```bash title="Pour connaître la version installée de npm"
+npm --version
+```
+
+### Initialisation
+
+Pour inclure la notion de npm dans un projet, exécutez à la racine cette ligne de commande :
+
+```bash
+npm init -y
+```
+
+Elle sert à [initialiser les configurations](https://docs.npmjs.com/cli/v11/commands/npm-init) de base qui seront inscrites dans un nouveau fichier nommé `package.json`.
+
+![](./assets/images/npm-init.png){data-zoom-image}
+
+### Installation de packet
+
+Pour [installer un packer](https://docs.npmjs.com/cli/v11/commands/npm-install) en npm, ça s'écrit de la façon suivante
+
+```bash
+npm i nom-du-packet
+```
+
+Quand on ajoute un packet avec npm, ca l'ajoute dans le fichier `package.json` et ça créé un dossier `node_modules` dans lequel se trouve le packet. Ça va aussi créer un fichier `package-lock.json` pour enregistrer les versions exactes des packets.
+
+#### :simple-bootstrap: Bootstrap
+
+Pour installer Bootstrap :
+
+```bash
+npm i bootstrap
+```
+
+![](./assets/images/npm-install.png){data-zoom-image}
+
+Noter que le dossier Bootstrap contient beaucoup de fichiers de développement et de production. Dans la situation actuelle, ce qui nous intéresse sont les fichiers de production, souvent placés dans un dossier nommé `dist`.
+
+![](./assets/images/node-module-bootstrap-css.png){data-zoom-image}
+
+Il ne reste plus qu'à lier Bootstrap au HTML avec le bon chemin :
+
+```html
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+```
+
+## Variables Bootstrap
+
+![](./assets/images/colors.gif){.w-100}
+
+Une fois Bootstrap ajouté, il est possible de surcharger ses variables CSS !
+
+Lorsqu'on utilise une classe Bootstrap associée à une couleur, il y a de forte chance qu'elle se repose sur l'une des variables ci-dessous :
+
+```css title="/node_modules/bootstrap/dist/css/bootstrap.css"
+:root,
+[data-bs-theme=light] {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-primary-text-emphasis: #052c65;
+  --bs-secondary-text-emphasis: #2b2f32;
+  --bs-success-text-emphasis: #0a3622;
+  --bs-info-text-emphasis: #055160;
+  --bs-warning-text-emphasis: #664d03;
+  --bs-danger-text-emphasis: #58151c;
+  --bs-light-text-emphasis: #495057;
+  --bs-dark-text-emphasis: #495057;
+  --bs-primary-bg-subtle: #cfe2ff;
+  --bs-secondary-bg-subtle: #e2e3e5;
+  --bs-success-bg-subtle: #d1e7dd;
+  --bs-info-bg-subtle: #cff4fc;
+  --bs-warning-bg-subtle: #fff3cd;
+  --bs-danger-bg-subtle: #f8d7da;
+  --bs-light-bg-subtle: #fcfcfd;
+  --bs-dark-bg-subtle: #ced4da;
+  --bs-primary-border-subtle: #9ec5fe;
+  --bs-secondary-border-subtle: #c4c8cb;
+  --bs-success-border-subtle: #a3cfbb;
+  --bs-info-border-subtle: #9eeaf9;
+  --bs-warning-border-subtle: #ffe69c;
+  --bs-danger-border-subtle: #f1aeb5;
+  --bs-light-border-subtle: #e9ecef;
+  --bs-dark-border-subtle: #adb5bd;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg: #fff;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-emphasis-color: #000;
+  --bs-emphasis-color-rgb: 0, 0, 0;
+  --bs-secondary-color: rgba(33, 37, 41, 0.75);
+  --bs-secondary-color-rgb: 33, 37, 41;
+  --bs-secondary-bg: #e9ecef;
+  --bs-secondary-bg-rgb: 233, 236, 239;
+  --bs-tertiary-color: rgba(33, 37, 41, 0.5);
+  --bs-tertiary-color-rgb: 33, 37, 41;
+  --bs-tertiary-bg: #f8f9fa;
+  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-heading-color: inherit;
+  --bs-link-color: #0d6efd;
+  --bs-link-color-rgb: 13, 110, 253;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: #0a58ca;
+  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-code-color: #d63384;
+  --bs-highlight-color: #212529;
+  --bs-highlight-bg: #fff3cd;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-xxl: 2rem;
+  --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+  --bs-border-radius-pill: 50rem;
+  --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  --bs-focus-ring-width: 0.25rem;
+  --bs-focus-ring-opacity: 0.25;
+  --bs-focus-ring-color: rgba(13, 110, 253, 0.25);
+  --bs-form-valid-color: #198754;
+  --bs-form-valid-border-color: #198754;
+  --bs-form-invalid-color: #dc3545;
+  --bs-form-invalid-border-color: #dc3545;
+}
+
+[data-bs-theme=dark] {
+  color-scheme: dark;
+  --bs-body-color: #dee2e6;
+  --bs-body-color-rgb: 222, 226, 230;
+  --bs-body-bg: #212529;
+  --bs-body-bg-rgb: 33, 37, 41;
+  --bs-emphasis-color: #fff;
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-secondary-color: rgba(222, 226, 230, 0.75);
+  --bs-secondary-color-rgb: 222, 226, 230;
+  --bs-secondary-bg: #343a40;
+  --bs-secondary-bg-rgb: 52, 58, 64;
+  --bs-tertiary-color: rgba(222, 226, 230, 0.5);
+  --bs-tertiary-color-rgb: 222, 226, 230;
+  --bs-tertiary-bg: #2b3035;
+  --bs-tertiary-bg-rgb: 43, 48, 53;
+  --bs-primary-text-emphasis: #6ea8fe;
+  --bs-secondary-text-emphasis: #a7acb1;
+  --bs-success-text-emphasis: #75b798;
+  --bs-info-text-emphasis: #6edff6;
+  --bs-warning-text-emphasis: #ffda6a;
+  --bs-danger-text-emphasis: #ea868f;
+  --bs-light-text-emphasis: #f8f9fa;
+  --bs-dark-text-emphasis: #dee2e6;
+  --bs-primary-bg-subtle: #031633;
+  --bs-secondary-bg-subtle: #161719;
+  --bs-success-bg-subtle: #051b11;
+  --bs-info-bg-subtle: #032830;
+  --bs-warning-bg-subtle: #332701;
+  --bs-danger-bg-subtle: #2c0b0e;
+  --bs-light-bg-subtle: #343a40;
+  --bs-dark-bg-subtle: #1a1d20;
+  --bs-primary-border-subtle: #084298;
+  --bs-secondary-border-subtle: #41464b;
+  --bs-success-border-subtle: #0f5132;
+  --bs-info-border-subtle: #087990;
+  --bs-warning-border-subtle: #997404;
+  --bs-danger-border-subtle: #842029;
+  --bs-light-border-subtle: #495057;
+  --bs-dark-border-subtle: #343a40;
+  --bs-heading-color: inherit;
+  --bs-link-color: #6ea8fe;
+  --bs-link-hover-color: #8bb9fe;
+  --bs-link-color-rgb: 110, 168, 254;
+  --bs-link-hover-color-rgb: 139, 185, 254;
+  --bs-code-color: #e685b5;
+  --bs-highlight-color: #dee2e6;
+  --bs-highlight-bg: #664d03;
+  --bs-border-color: #495057;
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
+  --bs-form-valid-color: #75b798;
+  --bs-form-valid-border-color: #75b798;
+  --bs-form-invalid-color: #ea868f;
+  --bs-form-invalid-border-color: #ea868f;
+}
+```
+
+### Exemple de surcharge
+
+![](./assets/images/primary-new.png){.w-100}
+
+Par exemple, si on voulais modifier les variables relatives à « **Primary** » on pourrait surcharger ces variables :
+
+```css title="styles.css"
+:root,
+[data-bs-theme=light] {
+  --bs-primary: #ef5552;
+  --bs-primary-rgb: 239, 85, 82;
+}
+```
+
+Note : La plupart des styles « **Primary** » utilisent la variable `--bs-primary-rgb`.
+
+## Icônes Bootstrap
 
 <https://icons.getbootstrap.com/>
 
-![](./assets/images/bsi-homepage.png)
+![](./assets/images/bsi-homepage.png){ data-zoom-image }
 
-#### Installation
+### Installation
 
-Ajouter cette ligne dans le `<head>` de votre HTML
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+```bash
+npm i bootstrap-icons
 ```
 
-#### Utilisation
+### Utilisation
+
+Lier Bootstrap icons au HTML avec le bon chemin :
+
+```html
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+```
+
+L'ajout d'icône ressemble à ceci :
 
 ```html
 <!-- Le préfix des classes est `bi-` pour « Bootstrap Icon » -->
 <i class="bi bi-person-wheelchair"></i>
 ```
 
-### IcoMoon :new_moon:
+## Composantes
 
-<https://icomoon.io/app/>
-
-![](./assets/images/icomoon3.png){data-zoom-image}
-![](./assets/images/icomoon1.png){data-zoom-image}
-![](./assets/images/icomoon9.png){data-zoom-image}
-![](./assets/images/icomoon5.png){data-zoom-image}
-![](./assets/images/icomoon6.png){data-zoom-image}
-![](./assets/images/icomoon7.png){data-zoom-image}
-![](./assets/images/icomoon8.png){data-zoom-image}
-
-#### Installation icomoon
-
-1. Placez le dossier de votre police icomoon dans le répertoire `assets/fonts/`
-1. Ajouter cette ligne dans le `<head>` de votre HTML : `<link rel="stylesheet" href="assets/fonts/icomoon-v01/style.css">`
-
-#### Utilisation icomoon
+Certaines composantes nécessitent du JavaScript alors nous aurons besoin d'inclure la librairie JavaScript de Bootstrap.
 
 ```html
-<i class="icomoon-heart"></i>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 ```
 
-## Carte
+### Carte
 
 <https://getbootstrap.com/docs/5.3/components/card>
 
@@ -87,103 +337,8 @@ Ajouter cette ligne dans le `<head>` de votre HTML
 
 </div>
 ```
-<!-- 
-## Bouton
 
-<https://getbootstrap.com/docs/5.3/components/buttons/>
-
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Button" src="https://codepen.io/tim-momo/embed/abgOzzm?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/abgOzzm">
-  Button</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! info "Petit rappel au sujet des couleurs disponibles"
-
-    <https://getbootstrap.com/docs/5.3/customize/color/#colors>
-
-```html title="Dimensions"
-<button class="btn btn-primary btn-sm">Petit</button>
-<button class="btn btn-primary">Normal</button>
-<button class="btn btn-primary btn-lg">Large</button>
-```
-
-```html title="Style outline"
-<button class="btn btn-outline-primary">Normal</button>
-```
-
-```html title="État désactivé"
-<button class="btn btn-primary" disabled>Bouton</button>
-```
-
-Les classes s'appliquent également aux liens!
-
-```html
-<a href="#" class="btn btn-primary btn-sm">Petit</a>
-<a href="#" class="btn btn-primary">Normal</a>
-<a href="#" class="btn btn-primary btn-lg">Large</a>
-``` -->
-
-## Formulaire
-
-<https://getbootstrap.com/docs/5.3/forms/overview/>
-
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Form" src="https://codepen.io/tim-momo/embed/XWLmrqZ?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XWLmrqZ">
-  Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-```html
-<form>
-  <div class="mb-3">
-    <label for="email-field" class="form-label">Courriel</label>
-    <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Entrez votre courriel pour que nous puissions le vendre, à votre insu bien sûr, à tous nos partenaires.</div>
-  </div>
-  <button type="submit" class="btn btn-primary">Soumettre</button>
-</form>
-```
-
-## Exercices
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/petit-prince-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[Le petit prince](./exercices/bs-petit-prince.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/philo-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[Cartes philosophiques](./exercices/bs-philo.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/enfant-roi-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[L’enfant roi](./exercices/bs-enfant-roi.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/DK-preview.png)
-
-  <small>Exercice - Bootstrap</small><br>
-  **[Donkey Kong](./exercices/bs-donkey-kong.md){.stretched-link}**
-</div>
-
-## Composantes JavaScript
-
-Pour utiliser les composantes JavaScript de Bootstrap, veuillez ajouter la librairie suivante dans le `<head>` de votre HTML :
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-```
-
-## Alerte
+### Alerte
 
 <https://getbootstrap.com/docs/5.3/components/alerts/>
 
@@ -212,7 +367,7 @@ Il y a deux types d'alertes. Une simple sans interaction possible, l'autre est r
 
 Pour l'alerte révocable, il faut ajouter la classe .alert-dismissible et la balise `<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>` pour fermer l'alerte.
 
-## Modal
+### Modal
 
 <https://getbootstrap.com/docs/5.3/components/modal>
 
@@ -254,7 +409,7 @@ Un « modal » est une fenêtre (popup) qui apparaît au-dessus du contenu princ
 </div>
 ```
 
-## Liste déroulante
+### Liste déroulante
 
 <https://getbootstrap.com/docs/5.3/components/dropdowns>
 
@@ -279,7 +434,7 @@ Les listes déroulantes (dropdown) permettent d’afficher une liste d’options
 </div>
 ```
 
-## Accordion
+### Accordion
 
 <https://getbootstrap.com/docs/5.3/components/accordion/>
 
@@ -329,7 +484,7 @@ L’accordion permet d’afficher et de masquer du contenu lié à une section s
 
     Ensuite, chaque élément d'accordéon doit avoir son propre identifiant. Observez particulièrement le premier élément, puis ses `id` (headingOne et collapseOne). Analysez comment ils sont utilisés.
 
-## Toast :bread:
+### Toast :bread:
 
 <https://getbootstrap.com/docs/5.3/components/toasts/>
 
@@ -363,7 +518,7 @@ Les toasts sont des messages temporaires et révocables pour informer les utilis
 
     Si on veut que le toast soit positionné en bas à droite par exemple, il faut simplement ajouter les toasts dans un conteneur (appelons le grille-pain pour le plaisir), puis on le déplace dans la page. Voici un exemple : `<div class="toast-container position-fixed bottom-0 end-0 p-3"> ... </div>`
 
-## Barre de navigation
+### Barre de navigation
 
 <https://getbootstrap.com/docs/5.3/components/navbar/>
 
@@ -406,7 +561,7 @@ Notez dans le code qu'un conteneur se situe à l'intérieur de la barre de navig
 
     La barre de navigation en version mobile s'active en fonction du breakpoint spécifié. Par exemple, dans l'exemple où un applique la classe `navbar-expand-lg`, cela signifie que la barre de navigation mobile s'activera à partir du breakpoint `md` en dessendant.
 
-## Carousel Bootstrap
+### Carousel Bootstrap
 
 <https://getbootstrap.com/docs/5.3/components/carousel/>
 
@@ -452,56 +607,38 @@ Le carousel permet d’afficher une série d’images ou de contenus avec un eff
 
 ## Carousel Swiper 🫡
 
-<https://swiperjs.com/demos>
-
-Bien qu'il soit super qu'une fonctionnalité de carrousel soit intégrée à Bootstrap, ce n'est vraiment pas le meilleur. Comme on dit, il « fait la job », mais sans plus.
+Même si Bootstrap inclut un carrousel, Swiper est souvent plus flexible (touch, mobile-first, effets, modules).
 
 Il est souvent préférable d'opter pour une librairie avec plus de flexibilité et d'options de configuration, comme [Swiper](https://swiperjs.com/).
 
 ### Installation
 
-Inclure les fichiers suivants dans le HTML.
+<https://swiperjs.com/get-started>
 
-```html title="HTML"
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+```bash
+npm install swiper
 ```
 
-```html title="HTML"
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+```html
+<link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+<script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 ```
 
 ### Utilisation
 
 ```html title="HTML"
-<div class="swiper mySwiper">
+<div class="swiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide">Contenu de la slide A</div>
-    <div class="swiper-slide">Contenu de la slide B</div>
-    <div class="swiper-slide">Contenu de la slide C</div>
-    <div class="swiper-slide">Contenu de la slide D</div>
+    <div class="swiper-slide">Diapositive 1</div>
+    <div class="swiper-slide">Diapositive 2</div>
+    <div class="swiper-slide">Diapositive 3</div>
   </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
 </div>
 ```
 
 ```js title="JavaScript"
-document.addEventListener("DOMContentLoaded", function () {
-
-  var swiper = new Swiper(".mySwiper", {
-    cssMode: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    mousewheel: true,
-    keyboard: true,
-  });
-
+const swiper = new Swiper('.swiper', {
+  loop: false
 });
 ```
 
@@ -512,16 +649,128 @@ Afin d'obtenir de meilleurs résultats, lorsque vous utilisez des images dans un
 Avec Bootstrap, vous pouvez utiliser la classe `w-100` pour lui donner une dimension de 100%, ainsi que la classe `img-fluid` pour éviter des problèmes de ratio d'image.
 
 ```html
-<img src="https://picsum.photos/800/600?random=1" class="img-fluid w-100" alt="...">
+<img src="..." class="img-fluid w-100" alt="...">
 ```
-
-### Exemple
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Swiper" src="https://codepen.io/tim-momo/embed/ExBqEdM?default-tab=&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/ExBqEdM">
   Swiper</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<https://swiperjs.com/demos>
+
+## Formulaire
+
+<https://getbootstrap.com/docs/5.3/forms/overview/>
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Form" src="https://codepen.io/tim-momo/embed/XWLmrqZ?default-tab=result&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/XWLmrqZ">
+  Form</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+```html
+<form>
+  <div class="mb-3">
+    <label for="email-field" class="form-label">Courriel</label>
+    <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Entrez votre courriel pour que nous puissions le vendre, à votre insu bien sûr, à tous nos partenaires.</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Soumettre</button>
+</form>
+```
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/petit-prince/petit-prince-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Le petit prince](./exercices/petit-prince/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/carte-philo/philo-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Cartes philosophiques](./exercices/carte-philo/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/enfant-roi/enfant-roi-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[L’enfant roi](./exercices/enfant-roi/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/donkey-kong/DK-preview.png)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Donkey Kong](./exercices/donkey-kong/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/la-lichee/lalichee.png)
+
+  <small>Exercice - Bootstrap et Swiper</small><br>
+  **[La lichée](./exercices/la-lichee/index.md){.stretched-link .back}**
+</div>
+
+## TP
+
+<div class="grid grid-1-2" markdown>
+  ![](./tp/la-critique/preview.jpg)
+
+  <small>Travail pratique</small><br>
+  **[La critique](./tp/la-critique/index.md){.stretched-link .back}**
+</div>
+
+[STOP]
+
+### Mise à jour
+
+Pour vérifier les mises à jour disponibles :
+
+```bash
+npm outdated
+```
+
+Pour mettre tout à jour :
+
+```bash
+npm update
+```
+
+
+
+### IcoMoon :new_moon:
+
+<https://icomoon.io/app/>
+
+![](./assets/images/icomoon3.png){data-zoom-image}
+![](./assets/images/icomoon1.png){data-zoom-image}
+![](./assets/images/icomoon9.png){data-zoom-image}
+![](./assets/images/icomoon5.png){data-zoom-image}
+![](./assets/images/icomoon6.png){data-zoom-image}
+![](./assets/images/icomoon7.png){data-zoom-image}
+![](./assets/images/icomoon8.png){data-zoom-image}
+
+#### Installation icomoon
+
+1. Placez le dossier de votre police icomoon dans le répertoire `assets/fonts/`
+1. Ajouter cette ligne dans le `<head>` de votre HTML : `<link rel="stylesheet" href="assets/fonts/icomoon-v01/style.css">`
+
+#### Utilisation icomoon
+
+```html
+<i class="icomoon-heart"></i>
+```
+
+
+https://www.freevector.com/chess-icons-20806#
+
 
 ## Maçonnerie
 
@@ -577,19 +826,3 @@ Modal
 Liste déroulante
 Accordion
 Swiperjs -->
-
-## Devoirs
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/lalichee.png)
-
-  <small>Devoir - Bootstrap</small><br>
-  **[La lichée](./devoir/bs-devoir2.md){.stretched-link}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/lacritique.png)
-
-  <small>PS1</small><br>
-  **[La critique](./devoir/PS1.md){.stretched-link}**
-</div>
