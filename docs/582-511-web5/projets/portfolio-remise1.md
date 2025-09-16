@@ -6,7 +6,7 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 -->
 
 
-!!! warning "Cette page ne concerne que la remise 1 - Planificaiton"
+!!! warning "Cette page ne concerne que la remise 1 - Planification"
 
     Pour consulter les intructions complètes du projet, veuillez vous référer à
 
