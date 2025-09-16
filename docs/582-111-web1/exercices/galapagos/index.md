@@ -12,7 +12,7 @@ Le but de cet exercice est de produire une page Web en HTML présentant les île
 
 ## Consignes
 
-- [ ] Télécharger le [dossier de départ](galapagos-depart.zip)
+- [ ] Télécharger le [dossier de départ](./galapagos_depart.zip)
 - [ ] Dans `<body>`, ajouter un `<main>`. Tout le contenu du site y sera contenu.
 - [ ] Dans `<main>`, ajouter un titre 1 avec le contenu : « Îles Galápagos »
 - [ ] Dans `<main>`, ajouter une `<section>`.
