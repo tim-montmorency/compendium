@@ -41,7 +41,7 @@
 ### Exemples de composantes Vue.js
 
 1. **Filtre dynamique de projets**  
-   - Une section « Mes projets » avec boutons pour filtrer (ex. *Tout*, *Web*, *Design graphique*, *Vidéo*).  
+   - Une section « Mes projets » avec boutons pour filtrer (ex. Tout, Web, Design graphique, Vidéo...)  
    - Vue gère le filtrage en affichant/masquant les bons projets.  
    - ➕ Effet professionnel, démontre la gestion de données dynamiques.
 
@@ -61,7 +61,7 @@
    - ➕ Bon moyen de relier design et données.
 
 5. **Widget de disponibilité**  
-   - Bouton type *« Disponible pour un stage à partir de mars 2026 »*.  
+   - Bouton type « Disponible pour un stage à partir de mars 2026 ».  
    - L’état est géré par une variable booléenne en Vue.  
    - ➕ Donne un côté vivant et utile au portfolio.
 
