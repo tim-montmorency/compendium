@@ -13,13 +13,85 @@ Télécharger et ouvrer le fichier suivant:
 [📁 Document de départ](../assets/image/07_over_busy.psd){ .md-button }   <br>
 
 ## Étapes
+# Photoshop – Amélioration de Sélection et Détourage
 
-- [ ] Cliquer sur l'icône de sélection d'objet (W) dans la barre d'outils.
-- [ ] En haut de l'écran, dans le panneau d'options, cliquer sur le bouton "Sélectionner un sujet" pour permettre à Photoshop de détecter et sélectionner automatiquement le sujet principal de l'image.
-- [ ]  Cliquer sur Sélectionner et masquer dans le panneau d'options pour affiner la sélection.
-- [ ]  Dans l'espace de travail Sélectionner et masquer, utiliser les outils disponibles pour améliorer les contours de la sélection selon vos besoins. Une fois satisfait, cliquer sur OK pour appliquer les modifications.
-- [ ]   Dans le panneau de calques, cliquer sur l'icône de masque de fusion en bas pour masquer les zones extérieures à la sélection.
-- [ ]  Double-cliquer sur le nom du calque actuel pour lui donner le nom "femme" pour une meilleure identification.
+## Étape 1 – Préparer la sélection
+- [ ] **Cliquer sur l'icône Sélection d'objet (W)** dans la barre d'outils.  
+  Photoshop utilise l’IA pour détecter les zones principales de l’image.  
+- [ ] **Cliquer sur "Sélectionner un sujet"** dans le panneau d'options.  
+  Cela permet à Photoshop d’isoler automatiquement le sujet principal.  
+- [ ] **Cliquer sur "Sélectionner et masquer"** pour passer en mode d’affinage.  
+
+### Modes d’affichage
+Ces options servent uniquement à mieux visualiser le détourage :  
+- Sur noir / blanc : vérifier si les bords sont nets.  
+- Sur transparence : vérifier l’intégration du sujet dans un montage.  
+- Sur calques : visualiser directement dans la composition finale.  
+
+---
+
+## Étape 2 – Améliorer les zones complexes
+- [ ] **Activer le rayon dynamique (Smart Radius)**.  
+  Il adapte la largeur de l’analyse : petit sur bords nets, grand sur cheveux/tissus fins.  
+- [ ] **Utiliser le pinceau d’amélioration des contours**.  
+  Passer sur les mèches de cheveux, la fourrure ou les dentelles pour que Photoshop distingue mieux le fond du sujet.  
+
+### Mode Améliorer
+- Basée sur la couleur : Photoshop analyse les différences de teintes (efficace avec fond uni, ciel bleu, fond vert).  
+- Basée sur l’objet : Photoshop analyse formes et contours (efficace si bords nets et contraste fort).  
+
+Astuce : pour un portrait avec cheveux → commencer par "Objet", puis retoucher certaines zones avec "Couleur".  
+
+### Détection des contours
+- Petit rayon (0–2 px) : objets nets et simples.  
+- Grand rayon (2–10 px) : cheveux, tissus fins, fourrure.  
+- Smart Radius : ajuste automatiquement selon la complexité.  
+
+---
+
+## Étape 3 – Améliorations globales
+- [ ] **Arrondi (Smooth)** : supprime les irrégularités et adoucit les contours.  
+  - Produit/logo : 10–20  
+  - Portrait simple : 5–10  
+  - Cheveux/poils : 0–5  
+
+- [ ] **Contour progressif (Feather)** : crée une transition douce entre sujet et fond.  
+  - Produit/logo : 0,5–1 px  
+  - Portrait simple : 1 px  
+  - Cheveux/poils : 2 px  
+
+- [ ] **Contraste (Contrast)** : rend les contours plus nets après Feather.  
+  - Produit/logo : 30–50 %  
+  - Portrait simple : 20 %  
+  - Cheveux/poils : 10–15 %  
+
+- [ ] **Décalage du contour (Shift Edge)** : déplace les bords.  
+  - Vers l’intérieur (–) : supprime les halos.  
+  - Vers l’extérieur (+) : récupère des détails.  
+  - Produit/logo : –5 à –10 %  
+  - Portrait simple : –5 %  
+  - Cheveux/poils : –10 à –20 %  
+
+### Combinaisons utiles
+- Feather + Contraste : adoucit le bord puis redonne de la netteté.  
+- Smooth + Décalage : corrige la forme générale, puis affine le contour.  
+
+Ordre conseillé :  
+1. Corriger avec Smooth et Décalage.  
+2. Ajuster Feather et Contraste.  
+
+---
+
+## Étape 4 – Vérifier et ajuster
+- [ ] Alterner les **modes d’affichage** (fond noir, blanc, transparence, calques).  
+- [ ] Choisir la **sortie finale** :  
+  - Masque de fusion (conserve l’image originale et masque seulement le fond).  
+  - Nouveau calque avec masque (sujet détouré prêt à être réutilisé).  
+
+### Astuce finale
+- Contour = géométrie → utiliser Smooth + Décalage.  
+- Couleur = transition → utiliser Feather + Contraste.  
+
 
 ***
 
