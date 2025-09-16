@@ -1,12 +1,12 @@
 # Exercice NBA - Méthode unique avec paramètres
 
-- [ ] Faire un **fork** du pen complété de votre [exercice NBA complété la semaine dernière](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/). Le Pen était nommé: *EXERC Vue.js: Tableau NBA*, faites en un **fork** et renommez le *EXERC Vue.js: Tableau NBA - Méthode unique avec paramètres*.
-- [ ] Modifiez votre code afin de n’avoir **qu'une seule méthode** pour gérer l’augmentation des scores (au lieu de deux, comme dans votre premier essai).
-- [ ] Pour savoir à quelle équipe incrémenter le pointage, vous devrez transmettre un **paramètre** à la **méthode**.
+- [ ] Faire un *fork* du pen complété de votre [exercice NBA complété la semaine dernière](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/). Le Pen était nommé: *EXERC Vue.js: Tableau NBA*, faites en un *fork* et renommez le *EXERC Vue.js: Tableau NBA - Méthode unique avec paramètres*.
+- [ ] Modifiez votre code afin de n’avoir *qu'une seule méthode* pour gérer l’augmentation des scores (au lieu de deux, comme dans votre premier essai).
+- [ ] Pour savoir à quelle équipe incrémenter le pointage, vous devrez transmettre un *paramètre* à la *méthode*.
 
-- [ ] La valeur de ce **paramètre** sera le **nom de la propriété du score correspondant à l’équipe**, tel que vous l'aviez défini dans vos données initiales data().
+- [ ] La valeur de ce *paramètre* sera le *nom de la propriété du score correspondant à l’équipe*, tel que vous l'aviez défini dans vos données initiales data().
 
-- [ ] Quand la méthode reçoit ce **paramètre**, vous devez accéder à la propriété de l’objet `this` dont le nom est contenu dans la variable (bref dans le paramètre reçu) afin d'augmenter le pointage correspondant.
+- [ ] Quand la méthode reçoit ce *paramètre*, vous devez accéder à la propriété de l’objet `this` dont le nom est contenu dans la variable (bref dans le paramètre reçu) afin d'augmenter le pointage correspondant.
 
 !!! tip "Conseil pour la dernière consigne"
     Quand la méthode reçoit ce paramètre, vous devez accéder à la propriété de l’objet `this` dont le nom est contenu dans la variable (bref dans le paramètre reçu).

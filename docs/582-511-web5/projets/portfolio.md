@@ -19,7 +19,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 ## Liens
 
 ➜ [Voir les instructions pour le cours de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html)
-
+<br><br>
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
   <a href="./portfolio-remise1.html">Instructions de la remise 1: planification 17 septembre</a>
@@ -27,7 +27,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
-  <a href="#">Instructions de la remise 2: design 24 septembre: </a>
+  <a href="#">Instructions de la remise 2: design 24 septembre: Lien à venir...</a>
 </div>
 
 
