@@ -8,12 +8,42 @@
 ## Aujourd'hui
 
 - [ ] Suite Vue.js de lundi dernier
-- [ ] Révision de Fetch API
+- [ ] Vue: formulaire
+- [ ] Vue: propriété calculée
 
 
 ## Révision
 
+- [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/)
+- [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md)
+
 ## Vue.js
+
+### RETOUR: Condition | Tableau + boucle
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/condition.html">Vue: Condition v-if</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/boucle.html">Vue: Tableau (array) et boucle v-for</a>
+</div>
+
+
+
+##### 2 exercices 🧑🏽‍💻
+
+Liens à venir
+<!-- 
+[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
+-->
+
+<!-- 
+[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+-->
+
 
 ### Formulaires et propriété calculée
 

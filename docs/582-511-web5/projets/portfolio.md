@@ -14,11 +14,30 @@ Pour le cours de **Préparation au milieu de travail**, c'est le *contenu* de ce
 
 Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus*, le *code* qui seront évalués.
 
-[📋✅ Voir les critères d'évaluation complets pour Web 5 ci-bas.](#criteres-devaluation){ .md-button }
+📋[Voir les critères d'évaluation complets pour Web 5 ci-bas.](#criteres-devaluation)
 
-<hr>
+## Liens
 
-➜ [Lien vers les instructions de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html)
+➜ [Voir les instructions pour le cours de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html)
+
+<div class="class-content-link">
+  <img src="./assets/icon-portfolio.svg">
+  <a href="./portfolio-remise1.html">Instructions de la remise 1: planification 17 septembre</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./assets/icon-portfolio.svg">
+  <a href="#">Instructions de la remise 2: design 24 septembre: LIEN À VENIR... </a>
+</div>
+
+
+## Dates de remise pour Web 5
+
+- *17 septembre* Remise 1 : [planification de portfolio](./portfolio-remise1.md) (formatif)
+- *24 septembre* Remise 2: design du portfolio versions mobile et desktop (formatif)
+- *1er octobre* Remise 3 : intégration HTML/CSS de la structure de page (suivi formatif)
+- *29 octobre* Remise finale : Remise et présentation du portfolio (sommatif: 25%)
+
 
 ## Format
 
@@ -79,13 +98,6 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 ![octobre](./assets/portfolio-calendrier-2025-page2.png)
 
 [📥 Téléchargez le calendrier en PDF](./assets/portfolio-calendrier-2025.pdf){ .md-button :target="_blank" }
-
-## Dates de remise pour Web 5
-
-- *17 septembre* : Remise de la [planification de portfolio](./portfolio-remise1.md) (formatif)
-- *24 septembre* : Remise du design du portfolio versions mobile et desktop (formatif)
-- *1er octobre* : Remise du contenu intégré (suivi formatif)
-- *29 octobre* : Remise du portfolio final (sommatif: 25%)
 
 
 ## Critères d'évaluation
