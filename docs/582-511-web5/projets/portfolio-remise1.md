@@ -16,7 +16,7 @@
   - le choix du type de **navigation** parmi tes projets (voir consigne 6)
   - le choix de ta **composante Vue.js** (voir consigne 7)
 
-- [ ] 2. Recherche d’**inspirations**
+- [ ] 2. Recherche d’**inspirations**. Voir la [liste de sites références](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html#sites-de-reference-dinspiration) dans la [page générale du projet Portfolio](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html).
 
 - [ ] 3. Création d’un **moodboard** avec vos choix finaux (idéalement avec Figma) :
   - Inspirations (images et liens cliquables vers vos sites d’inspiration)
