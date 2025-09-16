@@ -1,10 +1,9 @@
+# Portfolio: Web&nbsp;5
 
 <!--
 https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
-
-# Portfolio: Web&nbsp;5
 
 ## Description
 
@@ -18,7 +17,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 ## Liens
 
-➜ [Voir les instructions pour le cours de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html)
+[➜ Instructions spécifiques au cours de **Préparation au milieu de travail**](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html){ .md-button }
 <br><br>
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
