@@ -16,7 +16,7 @@ L'objectif de cet exercice est d'utiliser à bon escient la notion de **display 
 ## Résultat attendu
 
 <figure markdown>
-![](enfant-roi.png){data-zoom-image}
+![](enfant-roi-pc.png){data-zoom-image}
 <figcaption>💅 Il se peut que les icônes soient un peu différentes que dans le résultat attendu. Vous pouvez ignorer cette différence.</figcaption>
 </figure>
 
