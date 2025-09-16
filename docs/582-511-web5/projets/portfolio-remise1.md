@@ -1,11 +1,21 @@
 # Remise 1 Planification
 
+<!--
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
+-->
+
+
 !!! warning "Cette page ne concerne que la remise 1 - Planificaiton"
-   Pour consulter les intructions complètes du projet, veuillez vous référer à
-   <div class="class-content-link">
-     <img src="./assets/icon-portfolio.svg">
-     <a href="./portfolio.html">Projet Portfolio - Infos générales</a>
-   </div>
+
+    Pour consulter les intructions complètes du projet, veuillez vous référer à
+
+    <div class="class-content-link">
+        <img src="./assets/icon-portfolio.svg">
+        <a href="./portfolio.html">Projet Portfolio - Infos générales</a>
+    </div>
+
+
 
 ## Quoi faire
 

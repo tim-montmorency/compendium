@@ -486,7 +486,7 @@ stop:before {
 
 .class-content-link {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 22px;
   position: relative;
   margin: 0px 0 32px 0;
