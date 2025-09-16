@@ -75,10 +75,8 @@ Voir si vous avez été validés.
 
 ##### 1 exercice 🧑🏽‍💻
 
-Lien à venir
-<!-- 
 [🧑🏽‍💻 NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md){ .md-button } 
--->
+
 
 
 ### Condition | Tableau + boucle
@@ -107,23 +105,10 @@ Liens à venir
 -->
 
 
-
-### Formulaires et propriété calculée
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/elements-de-formulaire.html">Vue: Éléments de formulaire (v-model)</a>
-</div>
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/propriete-calculee.html">Vue: Propriété calculée (computed)</a>
-</div>
-
-##### 1 exercice 🧑🏽‍💻
-
-Lien à venir
-<!--[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
-
-
 ## Planification portfolio (~45min)
+
+## Devoir
+
+- Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md) avant lundi prochain le 22 septembre.
+
+- Terminer et remettre la [planification](./projets/portfolio-remise1.md) du [portfolio](./projets/portfolio.md) avant le cours de mercredi le 17 septembre
