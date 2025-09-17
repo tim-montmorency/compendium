@@ -122,7 +122,10 @@ Le mode **Log** permet d'obtenir des ajustements précis pour reproduire le styl
 3. **Taille** : ~0.40 → grain moyen, organique.  
 4. **Intensité** : ~0.20 → subtil, pas numérique.  
 
-
+## 2. Créer un look Noir et blanc à partir de la galerie
+Amener le look noir et blanc, sur un clip. 
+Retravailler la courbe pour être moins intense
+Sauvegarder l'effet
 
 ---
 
