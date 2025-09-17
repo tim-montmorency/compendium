@@ -168,6 +168,8 @@
 - [ ] Créer un **Splitter & Combiner** (Alt + Y)  
 - [ ] Créer des nodes distincts pour chaque canal (R, G, B)  
 - [ ] Décaler chaque canal pour obtenir l’effet, dans échelle et échelle de noeuds.
+- [ ] Ajouter un effet de blur pour chaque canal (R, G, B)
+- [ ] Ajouter un node en série (Alt + S) et désaturer un peu l'image. 
 
 ---
 
@@ -197,14 +199,6 @@
 - [ ] Sélectionner la couleur avec le **Qualifier**  
 - [ ] Affiner avec Threshold, Clean Black/White, Denoise  
 - [ ] Appliquer l’effet dans des nodes séparés  
-
----
-
-## 10. Fusion
-
-### 🛠️ Création d’une animation de texte
-- [ ] Créer une animation de texte avec Fusion  
-- [ ] Suivre le [tutoriel vidéo](https://www.youtube.com/watch?v=rXA7JBzmlWI)  
 
 ---
 
