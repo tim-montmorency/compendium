@@ -92,9 +92,11 @@
 
 # Techniques de Correction et Effets dans DaVinci Resolve
 
+
 ## 1. Créer un look Polaroid avec le mode Log
 Le mode **Log** permet d'obtenir des ajustements précis pour reproduire le style Polaroid, caractérisé par des teintes pastel et une saturation équilibrée.
 
+### Étapes
 ### Log wheels
 1. Créer un **serial Node** (Alt + S)
 2. Passez en mode **Log Wheels** dans la palette des roues de couleur.  
@@ -129,25 +131,31 @@ Le look **Duotone** applique deux teintes dominantes à une image (ombres et hau
 
 ### Étapes
 1. **Désaturez avec le RGB Mixer** :  
+   - Créer un **serial Node** (Alt + S)
    - Ouvrez le **RGB Mixer**.  
    - Décochez **Preserve Luminance** et cochez **Monochrome**.  
    - Réglez les canaux pour obtenir une image en niveaux de gris.  
 
 2. **Ajoutez des couleurs en mode Log** :  
+   - Créer un **serial Node** (Alt + S)
    - Dans les **Shadows**, appliquez une teinte (ex. bleu ou violet).  
    - Dans les **Highlights**, ajoutez une teinte contrastée (ex. orange ou rouge).  
    - Ajustez les **Midtones** pour équilibrer la transition.  
 
 3. **Affinez les contrastes avec les Curves**.
+   - Créer un **serial Node** (Alt + S)
+   - Ajustez les contrastes avec les Curves
 
 ---
 
 ## 3. Utilisation des Layer Nodes
 Les **Layer Nodes** permettent de superposer des corrections avec une hiérarchie.  
 
-### Exemples
-- **Corriger l’arrière-plan sans affecter la peau**.  
-- **Coloriser une zone avec une Power Window**.
+### Étapes
+- **Corriger l’arrière-plan sans affecter la peau**.
+ - Créer un **Node Layer** (Alt + L)
+   - Sur le layer supérieur, sélectionnez un personnage **Sélecteur 3D**.
+   - Sur le layer inférieur, désaturer l'image arrière. 
 
 ---
 
