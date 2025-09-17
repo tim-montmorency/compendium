@@ -35,7 +35,7 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 - [ ] **Grille et mise en page** : définissez une grille (colonnage, marges, espacement) afin d’assurer une cohérence visuelle sur l’ensemble de vos sections et de vos pages.
   - [ ] Si vous prévoyez utiliser **Bootstrap** pour l’intégration HTML+CSS de votre portfolio, alignez vos éléments selon le système de **12 colonnes**.  
     - Exemple : une section occupant **le quart de la page** correspond à `.col-3` et peut être placée à côté d’une autre section occupant **les trois quarts restants**, soit `.col-9`.  
-  - [ ] Pour vous guider, vous pouvez utiliser ce [template Figma/Bootstrap](https://www.figma.com/community/file/1107190648042940128) comme point de départ.
+  - [ ] Pour vous guider, vous pouvez utiliser un de ces template Figma [Bootstrap 5 Grid System For 3 Devices](https://www.figma.com/community/file/1107190648042940128) ou [Bootstrap V5 Layout Grid System Fixed & Fluid](https://www.figma.com/community/file/1247523227438926075) comme point de départ.
 - [ ] **Version mobile**: préparez une maquette adaptée aux petits écrans pour montrer que votre design est responsive.
 - [ ] **Ne réalisez pas de prototype interactif ni d’animations** dans Figma. Vous pouvez le faire pour vous-même si vous le souhaitez, mais ce **n’est pas requis** pour la remise du **24 septembre**.  
 
