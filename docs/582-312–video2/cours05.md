@@ -11,6 +11,7 @@
     * Sur une musique
     * Sur texte
   * Sychnonisation image et son
+ 
 
 ## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90  minutes)
 * Nodes (Alt + S), Parallèle (Alt + P), Layer (Alt + L), Outside (Alt + O) et Splitter & Combine (Alt + Y).
