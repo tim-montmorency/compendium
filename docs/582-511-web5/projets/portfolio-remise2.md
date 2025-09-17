@@ -23,8 +23,9 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 - [ ] Veuillez réaliser votre design dans le même fichier Figma que votre moodboard. 
   - [ ] Organisez vos cadres dans l’espace de travail afin que le tout soit clair et bien structuré.
   - [ ] N’oubliez pas de nommer correctement chaque cadre.
-  - [ ] Si ce n'est pas encore fait, veuiller bien nommer votre fichier Figma *nomfamille_prenom_portfolio*
-     <div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=c2361d0d-d74f-4c75-b78c-148c490bd6cb&embed=%7B%22af%22%3Atrue%2C%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="renommer-fichier-figma.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+  - [ ] Si ce n'est pas encore fait, veuiller bien nommer votre fichier Figma *nomfamille_prenom_portfolio*.
+    ??? question "Comment renommer un fichier Figma?"
+      <div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=c2361d0d-d74f-4c75-b78c-148c490bd6cb&embed=%7B%22af%22%3Atrue%2C%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="renommer-fichier-figma.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 - [ ] Votre design doit être aligné avec votre *moodboard* remis le 17 septembre (inspirations visuelles, palette de couleurs, typographies, images de sites qui vous inspirent), c'est votre référence pour appuyer vos choix graphiques.
 - [ ] Concevoir la *page d’accueil* (page principale de votre portfolio).  
