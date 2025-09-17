@@ -165,10 +165,11 @@
 ## 6. Isoler un personnage et flouter l’arrière-plan
 
 ### 🛠️ Isolement avec Power Window
-- [ ] Créer une **Power Window** autour du personnage  
+- [ ] Créer une **Power Window** autour du personnage
+- [ ] Adoucir avec la **Softness**  
 - [ ] Tracker le mouvement  
 - [ ] Inverser la sélection et appliquer un **Blur**  
-- [ ] Adoucir avec la **Softness**  
+
 
 ## 7. Effet de séparation des couleurs (Combine Node)
 
@@ -188,16 +189,6 @@
 - [ ] Modifier les réglages (ex. froid → chaud)  
 - [ ] Ajouter un Keyframe final  
 - [ ] Vérifier la transition  
-
----
-
-## 9. Isoler un personnage et flouter l’arrière-plan
-
-### 🛠️ Isolement avec Power Window
-- [ ] Créer une **Power Window** autour du personnage  
-- [ ] Tracker le mouvement  
-- [ ] Inverser la sélection et appliquer un **Blur**  
-- [ ] Adoucir avec la **Softness**  
 
 ---
 
