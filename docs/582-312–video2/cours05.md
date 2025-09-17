@@ -96,7 +96,7 @@
 ## 1. Créer un look Polaroid avec le mode Log
 
 <br>
-<img src="assets/image/colo_polaroid.png">
+<img src="assets/image/colo_polaroid.png" alt="Polaroid" style="width:300px; height:200px; object-fit:cover;">
 <br>
 
 
@@ -127,8 +127,9 @@
 ## 2. Créer un look Noir et blanc à partir de la galerie
 
 <br>
-<img src="assets/image/colo_noir_blanc.png">
+<img src="assets/image/colo_noir_blanc.png" alt="Noir et blanc" style="width:300px; height:200px; object-fit:cover;">
 <br>
+
 
 ### 🛠️ Création de noir et blanc depuis la Galerie
 - [ ] Ouvrir la Galerie dans DaVinci Resolve
