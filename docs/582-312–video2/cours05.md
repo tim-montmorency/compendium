@@ -200,7 +200,7 @@
 ## 7. Effet de séparation des couleurs (Combine Node)
 
 <br>
-<img src="assets/image/separation_canaux.png">
+<img src="assets/image/colo_separation_canaux.png">
 <br>
 
 ### 🛠️ Séparation des canaux
