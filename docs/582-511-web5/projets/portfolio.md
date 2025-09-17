@@ -26,7 +26,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
-  <a href="./portfolio-remise2.md">Instructions de la remise 2: design 24 septembre</a>
+  <a href="./portfolio-remise2.html">Instructions de la remise 2: design 24 septembre</a>
 </div>
 
 
