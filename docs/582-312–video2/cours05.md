@@ -1,12 +1,13 @@
 # Cours 5
 
 ## [Da Vinci - La base](da_vinci_base.md) (15 minutes)
-- Retour sur le son  
-  - Fades  
-    - Sur des bruits de pas  
-    - Sur une musique  
-    - Sur du texte  
-  - Synchronisation image et son  
+
+### 🛠️ Travail sur le son et la synchronisation
+- [ ] Revoir les **fades** :  
+  - [ ] Sur des bruits de pas  
+  - [ ] Sur une musique  
+  - [ ] Sur du texte  
+- [ ] Vérifier la **synchronisation image et son**  
 
 ---
 
@@ -17,7 +18,7 @@
 - **Principe** : Chaque node applique sa correction l’un après l’autre.  
 - **Usage typique** : Balance des blancs → contraste → colorimétrie.  
 - **Avantage** : Simple, clair et ordonné.  
-- **Limite** : Chaque correction dépend de ce qui précède.
+- **Limite** : Chaque correction dépend de ce qui précède.  
 
 ---
 
@@ -26,7 +27,7 @@
 - **Principe** : Tous les nodes reçoivent la même source, puis leurs résultats se combinent.  
 - **Usage typique** : Corriger la peau d’un côté et le ciel de l’autre, puis fusionner.  
 - **Avantage** : Les traitements restent indépendants.  
-- **Limite** : Les corrections se superposent, risque de saturation.
+- **Limite** : Les corrections se superposent, risque de saturation.  
 
 ---
 
@@ -35,7 +36,7 @@
 - **Principe** : Chaque entrée est un calque, avec différents modes de mélange.  
 - **Usage typique** : Appliquer un look global sur le calque supérieur et un vignettage en dessous.  
 - **Avantage** : Plus de contrôle, comme dans Photoshop.  
-- **Limite** : Plus complexe à gérer qu’un Parallel Node.
+- **Limite** : Plus complexe à gérer qu’un Parallel Node.  
 
 ---
 
@@ -44,7 +45,7 @@
 - **Principe** : Utilise l’inverse d’une qualification ou d’un masque du node précédent.  
 - **Usage typique** : Qualifier un visage, puis corriger uniquement l’arrière-plan.  
 - **Avantage** : Rapide, pas besoin de recréer un masque inversé.  
-- **Limite** : Dépend entièrement du masque précédent.
+- **Limite** : Dépend entièrement du masque précédent.  
 
 ---
 
@@ -53,34 +54,36 @@
 - **Principe** : Le Splitter crée plusieurs branches, chaque canal peut être corrigé, puis le Combine recompose l’image.  
 - **Usage typique** : Retoucher uniquement le canal bleu pour le ciel, ou réduire le bruit dans un canal précis.  
 - **Avantage** : Très précis, idéal pour des corrections techniques.  
-- **Limite** : Avancé, rarement nécessaire pour des corrections basiques.
+- **Limite** : Avancé, rarement nécessaire pour des corrections basiques.  
 
 ---
 
 ## Résumé rapide
 
-| Node                | Raccourci | Usage principal |
-|---------------------|-----------|-----------------|
-| **Serial**          | Alt + S   | Workflow linéaire, corrections en série |
-| **Parallel**        | Alt + P   | Corrections indépendantes en parallèle |
-| **Layer Mixer**     | Alt + L   | Corrections superposées avec modes de fusion |
-| **Outside**         | Alt + O   | Corriger l’extérieur d’un masque/qualif |
-| **Splitter & Combine** | Alt + Y | Travailler canal par canal (R, G, B, Luma) |
+| Node                   | Raccourci | Usage principal |
+|------------------------|-----------|-----------------|
+| **Serial**             | Alt + S   | Workflow linéaire, corrections en série |
+| **Parallel**           | Alt + P   | Corrections indépendantes en parallèle |
+| **Layer Mixer**        | Alt + L   | Corrections superposées avec modes de fusion |
+| **Outside**            | Alt + O   | Corriger l’extérieur d’un masque/qualif |
+| **Splitter & Combine** | Alt + Y   | Travailler canal par canal (R, G, B, Luma) |
 
 ---
 
 ## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90 minutes)
-- Nodes (Alt + S), Parallèle (Alt + P), Layer (Alt + L), Outside (Alt + O) et Splitter & Combine (Alt + Y)  
-- Correction de couleur  
-- Mixer RGB  
-- Courbes  
-- Color Wrapper  
-- Qualifier  
-- Power Window / Tracker  
-- Stabilisation  
-- Flou  
-- Keyframe  
-- Copier des effets  
+
+### 🛠️ Exploration des outils de colorisation
+- [ ] Créer différents nodes (Serial, Parallel, Layer, Outside, Splitter & Combine)  
+- [ ] Appliquer une première correction de couleur  
+- [ ] Expérimenter le **RGB Mixer**  
+- [ ] Travailler avec les **Courbes**  
+- [ ] Tester le **Color Wrapper**  
+- [ ] Isoler des zones avec le **Qualifier**  
+- [ ] Utiliser une **Power Window** et le **Tracker**  
+- [ ] Appliquer une **stabilisation** sur un plan  
+- [ ] Ajouter un **flou** pour adoucir une zone  
+- [ ] Créer une animation simple avec des **Keyframes**  
+- [ ] Copier des effets d’un plan à un autre  
 
 ---
 
@@ -88,134 +91,124 @@
 
 ---
 
-## [Da Vinci - La colorisation](da_vinci_colorisation.md) (90 minutes)
-
 # Techniques de Correction et Effets dans DaVinci Resolve
 
-
 ## 1. Créer un look Polaroid avec le mode Log
-Le mode **Log** permet d'obtenir des ajustements précis pour reproduire le style Polaroid, caractérisé par des teintes pastel et une saturation équilibrée.
 
-### Étapes
-### Log wheels
-1. Créer un **serial Node** (Alt + S)
-2. Passez en mode **Log Wheels** dans la palette des roues de couleur.  
-3. Ajustez les paramètres :  
-   - **Highlights** : tirées vers le **rose/orange** → adoucir et réchauffer les hautes lumières.  
-   - **Midtones** : poussées vers le **magenta/violet** → donner une teinte artistique.  
-   - **Shadows** : tirées vers le **cyan/bleu** → refroidir légèrement les ombres.  
-4. Ajoutez une légère **saturation** pour renforcer l’effet Polaroid.  
+### 🛠️ Log Wheels 
+- [ ] Créer un **Serial Node** (Alt + S)  
+- [ ] Passer en mode **Log Wheels**  
+- [ ] Ajuster :  
+  - [ ] **Highlights** → rose/orange (adoucir et réchauffer)  
+  - [ ] **Midtones** → magenta/violet (donner une teinte artistique)  
+  - [ ] **Shadows** → cyan/bleu (refroidir légèrement)  
+- [ ] Ajouter une légère saturation  
 
+### 🛠️ Glow (Lueur diffuse)
+- [ ] Créer un **Serial Node** (Alt + S)  
+- [ ] Régler le **Seuil de brillance** (~0.31)  
+- [ ] Régler la **Diffusion** (~1.21)  
+- [ ] Ajuster la **Diffusion relative** : rouge ↑ / bleu ↓  
+- [ ] Régler le **Gain** (~0.40)  
 
-### Glow (Lueur diffuse)
-1. Créer un **serial Node** (Alt + S)
-2. **Seuil de brillance** : ~0.31 → agit surtout sur les hautes lumières.  
-3. **Diffusion** : ~1.21 → halo doux et large.  
-4. **Diffusion relative** : **Rouge augmenté**, **Bleu diminué** → lueur chaude et rosée.  
-5. **Gain** : ~0.40 → intensité subtile.  
+### 🛠️ Film Grain (16mm 250D)
+- [ ] Créer un **Serial Node** (Alt + S)  
+- [ ] Régler l’**Opacité** (~0.80)  
+- [ ] Régler la **Taille** (~0.40)  
+- [ ] Régler l’**Intensité** (~0.20)  
 
 ---
-
-### Film Grain (16mm 250D)
-1. Créer un **serial Node** (Alt + S)
-2. **Opacité** : ~0.80 → grain visible mais équilibré.  
-3. **Taille** : ~0.40 → grain moyen, organique.  
-4. **Intensité** : ~0.20 → subtil, pas numérique.  
 
 ## 2. Créer un look Noir et blanc à partir de la galerie
-Amener le look noir et blanc, sur un clip. 
-Retravailler la courbe pour être moins intense
-Sauvegarder l'effet
+
+### 🛠️ Création de noir et blanc depuis la Galerie
+- [ ] Ouvrir la Galerie dans DaVinci Resolve
+- [ ] Sélectionner une image de référence en noir et blanc
+- [ ] Appliquer la référence sur le plan actif
+- [ ] Aller dans les **Courbes** pour corriger le noir et blanc
+- [ ] Cliquer droit sur l’image
+- [ ] Sauvegarder comme **Image de référence** dans la Galerie
 
 ---
 
-## 2. Créer un look Duotone
-Le look **Duotone** applique deux teintes dominantes à une image (ombres et hautes lumières), pour un effet artistique.
+## 3. Créer un look Duotone
 
-### Étapes
-1. **Désaturez avec le RGB Mixer** :  
-   - Créer un **serial Node** (Alt + S)
-   - Ouvrez le **RGB Mixer**.  
-   - Décochez **Preserve Luminance** et cochez **Monochrome**.  
-   - Réglez les canaux pour obtenir une image en niveaux de gris.  
-
-2. **Ajoutez des couleurs en mode Log** :  
-   - Créer un **serial Node** (Alt + S)
-   - Dans les **Shadows**, appliquez une teinte (ex. bleu ou violet).  
-   - Dans les **Highlights**, ajoutez une teinte contrastée (ex. orange ou rouge).  
-   - Ajustez les **Midtones** pour équilibrer la transition.  
-
-3. **Affinez les contrastes avec les Curves**.
-   - Créer un **serial Node** (Alt + S)
-   - Ajustez les contrastes avec les Curves
+### 🛠️ Création d’un Duotone
+- [ ] Créer un **Serial Node** (Alt + S)  
+- [ ] Désaturer avec le **RGB Mixer** (Monochrome activé)  
+- [ ] Appliquer une teinte dans les **Shadows**  
+- [ ] Appliquer une teinte contrastée dans les **Highlights**  
+- [ ] Ajuster les **Midtones** pour équilibrer  
+- [ ] Affiner avec les **Curves**  
 
 ---
 
-## 3. Utilisation des Layer Nodes
-Les **Layer Nodes** permettent de superposer des corrections avec une hiérarchie.  
+## 4. Utilisation des Layer Nodes
 
-### Étapes
-- **Corriger l’arrière-plan sans affecter la peau**.
- - Créer un **Node Layer** (Alt + L)
-   - Sur le layer supérieur, sélectionnez un personnage **Sélecteur 3D**.
-   - Sur le layer inférieur, désaturer l'image arrière. 
+### 🛠️ Correction avec Layer Nodes
+- [ ] Créer un **Layer Node** (Alt + L)  
+- [ ] Sélectionner un personnage avec le **Sélecteur 3D** (layer supérieur)  
+- [ ] Désaturer l’arrière-plan (layer inférieur)  
 
 ---
 
-## 4. Utilisation des Parallel Nodes
-Les **Parallel Nodes** appliquent des corrections indépendantes, combinées sans hiérarchie.  
+## 5. Utilisation des Parallel Nodes
 
-### Exemples
-- Assombrir les arbres.  
-- Saturer le ciel.  
-- Appliquer deux dégradés différents.
+ ### 🛠️ Correction avec Parallel Nodes
+- [ ] Créer deux **Parallel Nodes** (Alt + P)  
+- [ ] Dans le premier, ajouter une **Power Window avec dégradé** et appliquer une couleur  
+- [ ] Dans le second, ajouter une **Power Window avec dégradé** et appliquer une autre couleur  
 
----
-
-## 5. Effet de séparation des couleurs (Combine Node)
-### Étapes
-1. Créez des nodes distincts pour chaque canal (R, G, B).  
-2. Décalez chaque canal pour créer un effet de séparation.  
-3. Recombinez avec un **Layer Mixer**.
 
 ---
 
-## 6. Colorisation dynamique avec des Keyframes
-### Exemples
-- Transition froide → chaude.  
-- Noir et blanc → couleur.  
-- Animation de saturation ou luminosité.
+## 6. Effet de séparation des couleurs (Combine Node)
 
-### Étapes
-1. Ajoutez un **Keyframe**.  
-2. Modifiez les réglages entre les keyframes.  
-3. Prévisualisez et ajustez la transition.
+### 🛠️ Séparation des canaux
+- [ ] Créer un **Splitter & Combiner** (Alt + Y)  
+- [ ] Créer des nodes distincts pour chaque canal (R, G, B)  
+- [ ] Décaler chaque canal pour obtenir l’effet, dans échelle et échelle de noeuds.
 
 ---
 
-## 7. Isoler un personnage et flouter l’arrière-plan
-### Étapes
-1. Créez une **Power Window** autour du personnage.  
-2. Trackez le mouvement.  
-3. Inversez la sélection et appliquez un **Blur**.  
-4. Adoucissez la transition avec la **Softness**.
+## 7. Colorisation dynamique avec des Keyframes
+
+### 🛠️ Animation avec Keyframes
+- [ ] Créer un Keyframe au début  
+- [ ] Modifier les réglages (ex. froid → chaud)  
+- [ ] Ajouter un Keyframe final  
+- [ ] Vérifier la transition  
 
 ---
 
-## 8. Keying pour isoler une couleur
-### Étapes
-1. Sélectionnez la couleur avec le **Qualifier**.  
-2. Affinez avec **Threshold**, **Clean Black/White**, **Denoise**.  
-3. Appliquez vos effets dans des nodes séparés.
+## 8. Isoler un personnage et flouter l’arrière-plan
+
+### 🛠️ Isolement avec Power Window
+- [ ] Créer une **Power Window** autour du personnage  
+- [ ] Tracker le mouvement  
+- [ ] Inverser la sélection et appliquer un **Blur**  
+- [ ] Adoucir avec la **Softness**  
 
 ---
 
-## 9. Fusion
-- Création d’animation de texte :  
-  [Tutoriel vidéo](https://www.youtube.com/watch?v=rXA7JBzmlWI)
+## 9. Keying pour isoler une couleur
+
+### 🛠️ Keying d’une couleur
+- [ ] Sélectionner la couleur avec le **Qualifier**  
+- [ ] Affiner avec Threshold, Clean Black/White, Denoise  
+- [ ] Appliquer l’effet dans des nodes séparés  
+
+---
+
+## 10. Fusion
+
+### 🛠️ Création d’une animation de texte
+- [ ] Créer une animation de texte avec Fusion  
+- [ ] Suivre le [tutoriel vidéo](https://www.youtube.com/watch?v=rXA7JBzmlWI)  
 
 ---
 
 ## Devoir
-- **Montage offline de votre projet**  
-  - Le montage vidéo/son.
+
+### 🛠️ Montage offline
+- [ ] Réaliser le montage offline de votre projet (vidéo + son)
