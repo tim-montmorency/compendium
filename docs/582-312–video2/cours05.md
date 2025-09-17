@@ -188,7 +188,14 @@
 - [ ] Créer un Keyframe au début  
 - [ ] Modifier les réglages (ex. froid → chaud)  
 - [ ] Ajouter un Keyframe final  
-- [ ] Vérifier la transition  
+- [ ] Vérifier la transition
+
+
+## 9. Adoucir la peau avec Mid/details
+
+### 🛠️ Corriger la peau Mid/detail
+- [ ] Aller Mid/detail dans Correction primaire  
+
 
 ---
 
