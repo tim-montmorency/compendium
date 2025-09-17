@@ -143,7 +143,7 @@
 ## 3. Créer un look Duotone
 
 <br>
-<img src="../assets/image/colo_noir_blanc">
+<img src="../assets/image/colo_duotone">
 <br>
 
 ### 🛠️ Création d’un Duotone
@@ -158,6 +158,10 @@
 
 ## 4. Utilisation des Layer Nodes
 
+<br>
+<img src="../assets/image/colo_layer.png">
+<br>
+
 ### 🛠️ Correction avec Layer Nodes
 - [ ] Créer un **Layer Node** (Alt + L)  
 - [ ] Sélectionner un personnage avec le **Sélecteur 3D** (layer supérieur)  
@@ -166,6 +170,11 @@
 ---
 
 ## 5. Utilisation des Parallel Nodes
+
+<br>
+<img src="../assets/image/colo_parallele.png">
+<br>
+
 
  ### 🛠️ Correction avec Parallel Nodes
 - [ ] Créer deux **Parallel Nodes** (Alt + P)  
@@ -177,6 +186,10 @@
 
 ## 6. Isoler un personnage et flouter l’arrière-plan
 
+<br>
+<img src="../assets/image/blur.png">
+<br>
+
 ### 🛠️ Isolement avec Power Window
 - [ ] Créer une **Power Window** autour du personnage
 - [ ] Adoucir avec la **Softness**  
@@ -185,6 +198,10 @@
 
 
 ## 7. Effet de séparation des couleurs (Combine Node)
+
+<br>
+<img src="../assets/image/separation_canaux.png">
+<br>
 
 ### 🛠️ Séparation des canaux
 - [ ] Créer un **Splitter & Combiner** (Alt + Y)  
@@ -212,6 +229,10 @@
 ---
 
 ## 10. Keying pour isoler une couleur
+
+<br>
+<img src="../assets/image/colo_keying.png">
+<br>
 
 ### 🛠️ Keying d’une couleur
 - [ ] Sélectionner la couleur avec le **Qualifier**  
