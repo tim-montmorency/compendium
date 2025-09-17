@@ -95,7 +95,7 @@
 ## 1. Créer un look Polaroid avec le mode Log
 Le mode **Log** permet d'obtenir des ajustements précis pour reproduire le style Polaroid, caractérisé par des teintes pastel et une saturation équilibrée.
 
-### Étapes
+### Log wheels
 1. Passez en mode **Log Wheels** dans la palette des roues de couleur.  
 2. Ajustez les paramètres :  
    - **Highlights** : tirées vers le **rose/orange** → adoucir et réchauffer les hautes lumières.  
