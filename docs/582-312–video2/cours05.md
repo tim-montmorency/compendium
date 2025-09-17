@@ -162,7 +162,15 @@
 
 ---
 
-## 6. Effet de séparation des couleurs (Combine Node)
+## 6. Isoler un personnage et flouter l’arrière-plan
+
+### 🛠️ Isolement avec Power Window
+- [ ] Créer une **Power Window** autour du personnage  
+- [ ] Tracker le mouvement  
+- [ ] Inverser la sélection et appliquer un **Blur**  
+- [ ] Adoucir avec la **Softness**  
+
+## 7. Effet de séparation des couleurs (Combine Node)
 
 ### 🛠️ Séparation des canaux
 - [ ] Créer un **Splitter & Combiner** (Alt + Y)  
@@ -173,7 +181,7 @@
 
 ---
 
-## 7. Colorisation dynamique avec des Keyframes
+## 8. Colorisation dynamique avec des Keyframes
 
 ### 🛠️ Animation avec Keyframes
 - [ ] Créer un Keyframe au début  
@@ -183,7 +191,7 @@
 
 ---
 
-## 8. Isoler un personnage et flouter l’arrière-plan
+## 9. Isoler un personnage et flouter l’arrière-plan
 
 ### 🛠️ Isolement avec Power Window
 - [ ] Créer une **Power Window** autour du personnage  
@@ -193,7 +201,7 @@
 
 ---
 
-## 9. Keying pour isoler une couleur
+## 10. Keying pour isoler une couleur
 
 ### 🛠️ Keying d’une couleur
 - [ ] Sélectionner la couleur avec le **Qualifier**  
