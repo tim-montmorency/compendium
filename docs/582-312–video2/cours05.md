@@ -95,6 +95,11 @@
 
 ## 1. Créer un look Polaroid avec le mode Log
 
+<br>
+<img src="../assets/image/colo_polaroid.png">
+<br>
+
+
 ### 🛠️ Log Wheels 
 - [ ] Créer un **Serial Node** (Alt + S)  
 - [ ] Passer en mode **Log Wheels**  
@@ -121,6 +126,10 @@
 
 ## 2. Créer un look Noir et blanc à partir de la galerie
 
+<br>
+<img src="../assets/image/colo_noir_blanc">
+<br>
+
 ### 🛠️ Création de noir et blanc depuis la Galerie
 - [ ] Ouvrir la Galerie dans DaVinci Resolve
 - [ ] Sélectionner une image de référence en noir et blanc
@@ -132,6 +141,10 @@
 ---
 
 ## 3. Créer un look Duotone
+
+<br>
+<img src="../assets/image/colo_noir_blanc">
+<br>
 
 ### 🛠️ Création d’un Duotone
 - [ ] Créer un **Serial Node** (Alt + S)  
@@ -191,9 +204,9 @@
 - [ ] Vérifier la transition
 
 
-## 9. Adoucir la peau avec Mid/details
+## 9. Adoucir la peau avec Mid/detail ou retouche beauté
 
-### 🛠️ Corriger la peau Mid/detail
+### 🛠️ Corriger la peau Mid/detail ou retouche beauté
 - [ ] Aller Mid/detail dans Correction primaire  
 
 ---
