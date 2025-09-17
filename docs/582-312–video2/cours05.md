@@ -6,8 +6,12 @@
 - [ ] Revoir les **fades** :  
   - [ ] Sur des bruits de pas  
   - [ ] Sur une musique  
-  - [ ] Sur du texte  
-- [ ] Vérifier la **synchronisation image et son**  
+  - [ ] Sur du texte
+- [ ] Flash entre deux clips
+- [ ] Notions son :     
+  - [ ] Son qui sort d’une autre pièce
+- [ ] Exportation :     
+  - [ ] H264 et Pro Res
 
 ---
 
