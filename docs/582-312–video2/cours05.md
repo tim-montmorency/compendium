@@ -96,26 +96,29 @@
 Le mode **Log** permet d'obtenir des ajustements précis pour reproduire le style Polaroid, caractérisé par des teintes pastel et une saturation équilibrée.
 
 ### Log wheels
-1. Passez en mode **Log Wheels** dans la palette des roues de couleur.  
-2. Ajustez les paramètres :  
+1. Créer un **serial Node** (Alt + S)
+2. Passez en mode **Log Wheels** dans la palette des roues de couleur.  
+3. Ajustez les paramètres :  
    - **Highlights** : tirées vers le **rose/orange** → adoucir et réchauffer les hautes lumières.  
    - **Midtones** : poussées vers le **magenta/violet** → donner une teinte artistique.  
    - **Shadows** : tirées vers le **cyan/bleu** → refroidir légèrement les ombres.  
-3. Ajoutez une légère **saturation** pour renforcer l’effet Polaroid.  
+4. Ajoutez une légère **saturation** pour renforcer l’effet Polaroid.  
 
 
 ### Glow (Lueur diffuse)
-1. **Seuil de brillance** : ~0.31 → agit surtout sur les hautes lumières.  
-2. **Diffusion** : ~1.21 → halo doux et large.  
-3. **Diffusion relative** : **Rouge augmenté**, **Bleu diminué** → lueur chaude et rosée.  
-4. **Gain** : ~0.40 → intensité subtile.  
+1. Créer un **serial Node** (Alt + S)
+2. **Seuil de brillance** : ~0.31 → agit surtout sur les hautes lumières.  
+3. **Diffusion** : ~1.21 → halo doux et large.  
+4. **Diffusion relative** : **Rouge augmenté**, **Bleu diminué** → lueur chaude et rosée.  
+5. **Gain** : ~0.40 → intensité subtile.  
 
 ---
 
 ### Film Grain (16mm 250D)
-1. **Opacité** : ~0.80 → grain visible mais équilibré.  
-2. **Taille** : ~0.40 → grain moyen, organique.  
-3. **Intensité** : ~0.20 → subtil, pas numérique.  
+1. Créer un **serial Node** (Alt + S)
+2. **Opacité** : ~0.80 → grain visible mais équilibré.  
+3. **Taille** : ~0.40 → grain moyen, organique.  
+4. **Intensité** : ~0.20 → subtil, pas numérique.  
 
 
 
