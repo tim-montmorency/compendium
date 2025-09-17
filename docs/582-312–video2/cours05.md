@@ -196,7 +196,6 @@
 ### 🛠️ Corriger la peau Mid/detail
 - [ ] Aller Mid/detail dans Correction primaire  
 
-
 ---
 
 ## 10. Keying pour isoler une couleur
