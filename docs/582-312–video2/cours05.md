@@ -127,7 +127,7 @@
 ## 2. Créer un look Noir et blanc à partir de la galerie
 
 <br>
-<img src="assets/image/colo_noir_blanc">
+<img src="assets/image/colo_noir_blanc.png">
 <br>
 
 ### 🛠️ Création de noir et blanc depuis la Galerie
@@ -143,7 +143,7 @@
 ## 3. Créer un look Duotone
 
 <br>
-<img src="assets/image/colo_duotone">
+<img src="assets/image/colo_duotone.png">
 <br>
 
 ### 🛠️ Création d’un Duotone
