@@ -46,15 +46,11 @@ Voir si vous avez été validés.
 
 ## Révision d'exercices
 
-[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button } ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡
 
-➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡
+[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button } ➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡
 
-[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }
-
-➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡
-
-## Suite - Exercice Colleciton de films
+## Suite - Exercice Collection de films
 
 [🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
 

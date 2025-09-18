@@ -7,7 +7,7 @@
 
 ## Aujourd'hui
 
-- [ ] Retour sur Fetch API
+- [ ] Fetch API
 - [ ] CSS Grid - Cours 1
 
 

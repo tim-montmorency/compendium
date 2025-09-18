@@ -232,7 +232,7 @@ nav:
 
   - Web 5:
       - 582-511-web5/index.md
-      - Vue-js :
+      - Vue-js:
         - 582-511-web5/vue/index.md 
         - Introduction: 582-511-web5/vue/index.md
         - Création d'une app: 582-511-web5/vue/creation-app.md
@@ -243,7 +243,10 @@ nav:
         - Tableau[ ]+ boucle v-for: 582-511-web5/vue/boucle.md
         - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
-    
+      - Projet portfolio:
+        - 582-511-web5/projets/portfolio.md
+        - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
+        - Remise 2 Design: 582-511-web5/projets/portfolio-remise2.md
       - Cours 1.1: 582-511-web5/cours01a.md
       - Cours 1.2: 582-511-web5/cours01b.md
       - Cours 2.1: 582-511-web5/cours02a.md
@@ -251,7 +254,7 @@ nav:
       - Cours 3.1: 582-511-web5/cours03a.md
       - Cours 3.2: 582-511-web5/cours03b.md
       - Cours 4.1: 582-511-web5/cours04a.md
-      # - Cours 4.2: 582-511-web5/cours04b.md
+      - Cours 4.2: 582-511-web5/cours04b.md
       # - Cours 5.1: 582-511-web5/cours05a.md
       # - Cours 5.2: 582-511-web5/cours05b.md
       # - Cours 6.1: 582-511-web5/cours06a.md

@@ -104,12 +104,10 @@ Quelques exemples que j'ai sélectionnés pour vous :
   <a href="./vue/index.html">Introduction</a>
 </div>
 
-
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/creation-app.html">Création d'une app</a>
 </div>
-
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
