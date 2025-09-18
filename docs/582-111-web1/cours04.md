@@ -339,10 +339,11 @@ Permet de charger l’iframe uniquement lorsqu’elle entre dans le champ de vis
 <iframe src="https://site.com" loading="lazy"></iframe>
 ```
 
-Exemples concrets
+### Exemples concrets
 
-Vidéo YouTube
-```html
+Plusieurs sites Web offrent des options pour utiliser leur contenu dans notre site web. Ces options sont souvent accessibles via un bouton de partage.
+
+```html title="Vidéo YouTube"
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=HQmwAnJfvdN8HPwg" 
 title="YouTube video player" 
@@ -352,8 +353,7 @@ referrerpolicy="strict-origin-when-cross-origin"
 allowfullscreen></iframe>
 ```
 
-openstreetmap
-```html
+```html title="openstreetmap"
 <iframe width="425" height="350"
 src="https://www.openstreetmap.org/export/embed.html?bbox=-73.73120069503786%2C45.554418475852586%2C-73.71317625045778%2C45.56543096959684&amp;layer=mapnik"></iframe>
 ```
