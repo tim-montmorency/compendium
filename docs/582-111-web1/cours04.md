@@ -430,3 +430,7 @@ Par défaut, la majorité des navigateurs mettent en italique le contenu des bal
   <small>TP1 - Première partie</small><br>
   **[Planification](./tp/ldvelh/index.md){.stretched-link .back}**
 </div>
+
+[STOP]
+
+Le cours se termine environ 1h d'avance.
