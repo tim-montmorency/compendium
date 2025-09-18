@@ -254,6 +254,12 @@ Sur plusieurs appareils mobiles 📱, les vidéos passent automatiquement en ple
 <video src="video.mp4" playsinline controls></video>
 ```
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Audio" src="https://codepen.io/tim-momo/embed/KwVKzmV?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/KwVKzmV">
+  Web 1 - Audio</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ### Formats vidéo
 
 Tout comme pour l’audio, il existe différents formats vidéo.
