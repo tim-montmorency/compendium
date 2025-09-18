@@ -429,6 +429,6 @@ Par défaut, la majorité des navigateurs mettent en italique le contenu des bal
 <div class="grid grid-1-2" markdown>
   ![](./tp/ldvelh/ldvelh-preview.gif)
 
-  <small>TP1 a</small><br>
+  <small>TP1 - Première partie</small><br>
   **[Planification](./tp/ldvelh/index.md){.stretched-link .back}**
 </div>
