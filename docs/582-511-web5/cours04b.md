@@ -24,6 +24,11 @@
   <a href="./projets/portfolio-remise2.html">Instructions de la remise 2: design 24 septembre</a>
 </div>
 
+## Rentontres et évaluation formative
+
+Rétroactions
+
+<!-- https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXaPeP_R__StAixcWl8JEzpNUOTdSM1BPN1lPTUJLVUNVUDlEM1o4RlFFVi4u -->
 
 ## Devoir
 

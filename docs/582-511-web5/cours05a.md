@@ -19,12 +19,14 @@
 
 ## Vue.js
 
-### RETOUR: Condition | Liste + boucle
+### RETOUR: Condition (v-if, v-else, v-show)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/condition.html">Vue: Rendu conditionnel avec v-if, v-else et v-show</a>
 </div>
+
+### RETOUR: Rendu de listes (v-for sur tableau de données)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
