@@ -11,6 +11,9 @@ En équipes.
 ## Rédiger une candidature
 [🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y){ .md-button }     
 
+## Démonstration
+Planifier un envoi de courriel à l'avance. 
+
 ## Rédiger un courriel
 Remplir le document candidature_courriel dans votre journal de bord GitHub. Ciblez une compagnie qui vous intéresse pour votre stage. 
 
