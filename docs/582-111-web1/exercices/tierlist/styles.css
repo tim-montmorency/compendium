@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 1rem;
+}
+
+html.align-items-start body {
+  align-items: start;
+}
+
+table {
+  border: 1px solid black !important;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0;
+}
+
+td:first-child {
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  align-content: center;
+  color: black;
+}
+
+.s-tier {
+  background-color: #ff7475 !important;
+}
+
+.a-tier {
+  background-color: #ffb67a !important;
+}
+
+.b-tier {
+  background-color: #ffd97e !important;
+}
+
+.c-tier {
+  background-color: #fffe82 !important;
+}
+
+.d-tier {
+  background-color: #b1fd81 !important;
+}
+
+.e-tier {
+  background-color: #5dfd80 !important;
+}
+
+.f-tier {
+  background-color: #51fffe !important;
+}

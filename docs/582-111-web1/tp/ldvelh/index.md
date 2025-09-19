@@ -4,7 +4,7 @@
 
 <!-- > Cette évaluation vise à mesurer l’autonomie de l’étudiant dans la conception et la réalisation d’une création Web adaptée à un contexte défini. -->
 
-Le travail pratique LDVELH est séparé en 2 phases, soit la phase de **planification** et la phase de **programmation**.
+Le travail pratique LDVELH est séparé en 2 phases, soit la phase de **planification** et la phase de **développement**.
 
 L'évaluation sommative complète (TP1a + TP1b) compte pour 20% de la note finale.
 
@@ -25,3 +25,4 @@ L'évaluation sommative complète (TP1a + TP1b) compte pour 20% de la note final
   <small>Stéphane - Remise 6 octobre à 23:59</small><br>
   <small>JF - Remise 8 octobre à 23:59</small>
 </div>
+  <!-- **[Développement (5%)](./developpement.md){.stretched-link .back}**<br> -->

@@ -23,7 +23,17 @@ Comme personne ne s'amuse à faire des maths pour dessiner une image, plusieurs 
 - [:simple-figma: Figma](https://www.figma.com/fr-fr/)
 - [:simple-affinitydesigner: Affinity Designer](https://affinity.serif.com/en-us/designer/)
 
+#### svg
+
 En Web, le format vectoriel le plus courant est le [SVG](https://en.wikipedia.org/wiki/SVG).
+
+```html title="Exemple de svg"
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+</svg>
+```
+<https://icons.getbootstrap.com/icons/heart-fill/>
+
 
 ### Matriciel (bitmap)
 
@@ -118,31 +128,13 @@ Balise : [`<audio>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/El
 
 Attributs
 
-* **autoplay** : Démarre la lecture automatiquement. Désactivé par défaut sur la plupart des navigateurs pour des raisons de UX.
 * **controls** : Affiche les contrôles du lecteur (lecture, pause, volume). Pas obligatoire, mais un peu oui ;), sinon le lecteur ne s'affichera pas.
 * **loop** : Fait jouer l’audio en boucle.
 * **muted** : L’audio est désactivé.
-* **preload** : Indique comment le navigateur doit gérer le chargement de l’audio :
-  * none : Ne préchargera rien (idéal si on veut économiser la bande passante)
-  * metadata : Préchargera uniquement les métadonnées (durée, dimensions)
-  * auto : Laisse le navigateur choisir (c'est la valeur par défaut)
 
 C'est possible aussi d'utiliser une méthode de chargement avec la balise [`<source>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/source).
 
-Cette méthode permet de fournir **plusieurs formats** au navigateur et le laisse choisir celui qui est compatible. Celui-ci commence par essayer la lecture du premier format. S'il n'est pas compatible, il essaye le deuxième et ainsi de suite.
-
-Si rien ne fait, le navigateur peut afficher un message spécifié dans la balise `<audio>`. Voici un exemple :
-
-```html title="Exemple complet"
-<audio controls loop preload="metadata">
-  <source src="https://assets.codepen.io/9367036/NyanCatoriginal.ogg" type="audio/ogg; codecs=vorbis" />
-  <source src="https://assets.codepen.io/9367036/NyanCatoriginal.mp3" type="audio/mpeg">
-  <p>
-    Votre navigateur ne prend pas en charge l'audio HTML.
-    <a href="https://assets.codepen.io/9367036/NyanCatoriginal.mp3" download>Télécharger l’audio</a>.
-  </p>
-</audio>
-```
+Cette méthode permet de fournir **plusieurs formats** au navigateur et le laisse choisir celui qui est compatible. Celui-ci commence par essayer la lecture du premier format. S'il n'est pas compatible, il essaye le deuxième et ainsi de suite. C'est ce qu'on appelle des _fallback_.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Formatage" src="https://codepen.io/tim-momo/embed/ZYbWWrJ?default-tab=html%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/ZYbWWrJ">
@@ -168,7 +160,7 @@ Tout comme pour les images, il existe différents formats audio. Certains sont u
 
 ![](./assets/images/nyan.gif){.w-100}
 
-Balise : `<video>`
+Balise : [`<video>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/video)
 
 ```html title="Exemple minimal"
 <video src="video.mp4"></video>
@@ -262,6 +254,12 @@ Sur plusieurs appareils mobiles 📱, les vidéos passent automatiquement en ple
 <video src="video.mp4" playsinline controls></video>
 ```
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - Audio" src="https://codepen.io/tim-momo/embed/KwVKzmV?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/KwVKzmV">
+  Web 1 - Audio</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ### Formats vidéo
 
 Tout comme pour l’audio, il existe différents formats vidéo.
@@ -294,7 +292,7 @@ La balise [`<figure>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/
 
 ![](./assets/images/infinity.gif){.w-100}
 
-Balise : `<iframe>`
+Balise : [`<iframe>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/iframe)
 
 La balise `<iframe>` représente un contexte de navigation imbriqué qui permet d'obtenir une page HTML intégrée dans la page courante.
 
@@ -341,10 +339,11 @@ Permet de charger l’iframe uniquement lorsqu’elle entre dans le champ de vis
 <iframe src="https://site.com" loading="lazy"></iframe>
 ```
 
-Exemples concrets
+### Exemples concrets
 
-Vidéo YouTube
-```html
+Plusieurs sites Web offrent des options pour utiliser leur contenu dans notre site web. Ces options sont souvent accessibles via un bouton de partage.
+
+```html title="Vidéo YouTube"
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=HQmwAnJfvdN8HPwg" 
 title="YouTube video player" 
@@ -354,8 +353,7 @@ referrerpolicy="strict-origin-when-cross-origin"
 allowfullscreen></iframe>
 ```
 
-openstreetmap
-```html
+```html title="openstreetmap"
 <iframe width="425" height="350"
 src="https://www.openstreetmap.org/export/embed.html?bbox=-73.73120069503786%2C45.554418475852586%2C-73.71317625045778%2C45.56543096959684&amp;layer=mapnik"></iframe>
 ```
@@ -429,6 +427,10 @@ Par défaut, la majorité des navigateurs mettent en italique le contenu des bal
 <div class="grid grid-1-2" markdown>
   ![](./tp/ldvelh/ldvelh-preview.gif)
 
-  <small>TP1 a</small><br>
+  <small>TP1 - Première partie</small><br>
   **[Planification](./tp/ldvelh/index.md){.stretched-link .back}**
 </div>
+
+[STOP]
+
+Le cours se termine environ 1h d'avance.

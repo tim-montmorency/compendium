@@ -5,6 +5,15 @@
 Préparation à l'examen
 Séance de travail supervisée pour le TP1
 
+## Wireframe
+
+Papier / crayon
+Draw.io
+Relume
+
+Exercice : wireframe d'un site existant (ex: https://www.instagram.com)
+Exercice : wireframe d'une interface de jeu vidéo (accueil, jeu)
+
 ## Formulaires
 
 ### Structure de base
