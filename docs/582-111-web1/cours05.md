@@ -1,7 +1,5 @@
 # Cours 5
-
 [STOP]
-
 *[FAQ]: Foire aux questions
 
 ## Listes
@@ -208,10 +206,12 @@ Deux attributs nous permettent de fusionner des cellules :
 ```html title="Exemple"
 <table>
   <thead>
-    <th>Vêtement</th>
-    <th colspan="3">Tailles disponibles</th>
-    <!-- <th></th> -->
-    <!-- <th></th> -->
+    <tr>
+      <th>Vêtement</th>
+      <th colspan="3">Tailles disponibles</th>
+      <!-- <th></th> -->
+      <!-- <th></th> -->
+    </tr>
   </thead>
   <tbody>
     <tr>
@@ -334,6 +334,14 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+L'attribut `placeholder="..."` affiche un texte temporaire d’exemple dans un champ.
+
+L'attribut `value="..."` permet d'assigner une valeur par défaut dans un champ texte.
+
+L'attribut `disabled` permet de désactiver un champ de formulaire.
+
+L'attribut `readonly` ne désactive pas le champ, mais il ne permet plus d'éditer le champs. On peut faire un copier/coller du contenu, ce que disabled ne permet pas.
+
 #### Bouton de soumission
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="HTML - Input - submit" src="https://codepen.io/tim-momo/embed/QwyLNJp?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -342,9 +350,9 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-!!! note "Bouton"
+L'attribut `value="..."` permet de changer le texte du bouton.
 
-    « Envoyer » est le texte du bouton par défaut. On peut le changer avec l'attribut `value`.
+L’attribut `required` indique qu’un champ doit obligatoirement être rempli. Si l’utilisateur tente de soumettre le formulaire sans le compléter, le navigateur affichera automatiquement un message d’erreur.
 
 #### Courriel
 
@@ -353,11 +361,6 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   HTML - Input - email</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-
-
-
-
 
 #### Mot de passe
 
@@ -375,6 +378,8 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+L'attribut `checked` permet de présélectionner une case au chargement de la page.
+
 ### Bouton radio
 
 <iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - radio" src="https://codepen.io/tim-momo/embed/PwZYzwz?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -383,6 +388,8 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+L'attribut `checked` permet de présélectionner un bouton radio au chargement de la page.
+
 ### Champ nombre
 
 <iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - text" src="https://codepen.io/tim-momo/embed/ogbvdvL?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -390,6 +397,8 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   HTML - Input - text</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+Les attributs `min="0"` et `max="100"` permettent de spécifier des limites au champ nombre
 
 ### Champ date
 
@@ -423,6 +432,8 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+L'attribut `selected` sur une option permet de la présélectionner au chargement de la page.
+
 #### Liste de sélection multiple
 
 <iframe class="aspect-3-1" height="300" style="width: 100%;" scrolling="no" title="HTML - select" src="https://codepen.io/tim-momo/embed/ByjBxGM?default-tab=html%2Cresult&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -439,31 +450,65 @@ Elle utilise également l'attribut `id` afin de pouvoir l'associer à son libell
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+### Attributs communs à plusieurs balises
+
+Les attributs `required`, `disabled` et `readonly` ne sont pas exclusifs à un type de champ en particulier.
+
+```html title="Exemple"
+<input type="text" required>
+
+<textarea required></textarea>
+
+<select required>
+  <option value="">-- Choisir une option --</option>
+  <option value="1">Option 1</option>
+</select>
+```
+
+#### L'attribut name
+
+Un autre attribut essentiel au fonctionnement d’un formulaire est l’attribut `name=""`. Il sert à identifier les champs quand le formulaire est traité par un serveur. Toutefois, pour alléger la compréhension (et aussi parce qu’il ne nous sera pas utile dans ce cours), nous le mettons de côté.
+
 ## Exercices
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/tierlist/preview.png)
 
-[Tableau](exercices/tableau1.md)
-
-[Tableau2](exercices/tableau2.md)
-
-[Form credits](exercices/carte-de-credit.md)
-
-[Goku radio](exercices/dragonball.md)
-
-[Exercice twitter select](exercices/twitter.md)
+  <small>Exercice - Tableaux HTML</small><br>
+  **[Tierlist](./exercices/tierlist/index.md){.stretched-link .back}**
+</div>
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices/manga/sailor-moon.gif)
 
-  <small>Exercice - HTML</small><br>
+  <small>Exercice - Tableaux et listes HTML</small><br>
   **[Manga](./exercices/manga/index.md){.stretched-link .back}**
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/uzumaki/preview.gif)
+
+  <small>Exercice - Tableaux HTML</small><br>
+  **[Uzumaki](./exercices/uzumaki/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/inscription/Rabatak_inscription.jpg)
+
+  <small>Exercice - Formulaire HTML</small><br>
+  **[L'inscription](./exercices/inscription/index.md){.stretched-link .back}**
+</div>
+
+<!-- [Form credits](exercices/carte-de-credit.md)
+
+[Goku radio](exercices/dragonball.md)
+
+[Exercice twitter select](exercices/twitter.md) -->
 
 ## TP
 
 <div class="grid grid-1-2" markdown>
-  ![](./tp/ldvelh/ldvelh-preview.gif)
+  ![](./tp/ldvelh/ldvelh2-preview.webp)
 
   <small>TP1 - Deuxième partie</small><br>
   **[Développement](./tp/ldvelh/index.md){.stretched-link .back}**
