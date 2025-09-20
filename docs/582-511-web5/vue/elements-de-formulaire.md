@@ -1,6 +1,13 @@
 # Éléments de formulaire v-model
 
-`v-model` permet de créer une relation bidirectionnelle entre une donnée et un élément de formulaire (`<input>`, `<select>`, `<textarea>`, etc.).
+La grande force de *Vue* réside dans sa fonctionnalité de relation bidirectionnelle *two-way binding* permettant de mettre à jour automatiquement différentes informations dans une interface (*View*) en fonction de la valeur de certaines propriétés du modèle (*Model*) et vice-versa.
+
+<a href="https://www.geeksforgeeks.org/vue-js-two-way-binding-model/" target="_blank" rel="noopener noreferrer">🔁 Voici un exemple concret du <em>"two-way binding"</em></a>.
+
+<img src="./assets/vue-two-way-data-binding.jpg" alt="">
+<small>[Crédit de l'image](https://www.spaceo.ca/)</small>
+
+La directive `v-model` permet de créer une relation bidirectionnelle (*two-way binding*) entre une donnée et un élément de formulaire (`<input>`, `<select>`, `<textarea>`, etc.).
 
 `v-model` se base sur différentes propriétés afin d’attribuer une valeur à une donnée.
 
