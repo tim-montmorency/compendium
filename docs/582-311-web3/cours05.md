@@ -1,5 +1,7 @@
 # Cours 5
 
+[STOP]
+
 ## Système de grille CSS
 
 ![](./assets/images/the-grid.gif){.w-100}
