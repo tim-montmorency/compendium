@@ -21,8 +21,7 @@ L'évaluation sommative complète (TP1a + TP1b) compte pour 20% de la note final
   ![](./coding.gif)
 
   TP1b<br>
-  **Programmation (15%)**<br>
+  **[Développement (15%)](./developpement.md){.stretched-link .back}**<br>
   <small>Stéphane - Remise 6 octobre à 23:59</small><br>
   <small>JF - Remise 8 octobre à 23:59</small>
 </div>
-  <!-- **[Développement (5%)](./developpement.md){.stretched-link .back}**<br> -->

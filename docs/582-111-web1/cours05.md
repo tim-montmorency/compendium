@@ -1,5 +1,5 @@
 # Cours 5
-[STOP]
+
 *[FAQ]: Foire aux questions
 
 ## Listes
@@ -469,6 +469,93 @@ Les attributs `required`, `disabled` et `readonly` ne sont pas exclusifs à un t
 
 Un autre attribut essentiel au fonctionnement d’un formulaire est l’attribut `name=""`. Il sert à identifier les champs quand le formulaire est traité par un serveur. Toutefois, pour alléger la compréhension (et aussi parce qu’il ne nous sera pas utile dans ce cours), nous le mettons de côté.
 
+## Fieldset
+
+Permet de grouper plusieurs champs de formulaire en un seul bloc visuel et logique. Cela rend le formulaire plus clair et améliore l’accessibilité.
+
+Balises :
+
+* `<fieldset>`
+  * `<legend>`
+
+Il est recommandé d'utiliser `<legend>` à l’intérieur pour donner un titre au groupe.
+
+```html title="Exemple"
+<form>
+  <fieldset>
+    <legend>Informations personnelles</legend>
+    
+    <label for="nom">Nom</label>
+    <input id="nom" type="text" required>
+
+    <label for="courriel">Courriel</label>
+    <input id="courriel" type="email" required>
+  </fieldset>
+
+  <fieldset>
+    <legend>Préférences</legend>
+
+    <label>
+      <input type="checkbox" name="newsletter">
+      S’abonner à l’infolettre
+    </label>
+  </fieldset>
+
+  <input type="submit" value="Envoyer">
+</form>
+```
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="HTML - Input - date" src="https://codepen.io/tim-momo/embed/gbPOjBw?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/gbPOjBw">
+  HTML - Input - date</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## Quelques outils
+
+![](./assets/images/too-cool.gif){.w-100}
+
+:material-eraser: Pour retirer un élément d'une image :
+
+* <https://cleanup.pictures/>
+* <https://www.pixelcut.ai/ai-image-editor/>
+* <https://theinpaint.com/>
+
+:material-arrow-expand-all: Upscaler :
+
+* <https://image-upscaling.net/upscaling/>
+* <https://flux-ai.io/flux-ai-image-upscaler/>
+* <https://ai.nero.com/image-upscaler/>
+* <https://imgupscaler.com/>
+* <https://www.upscale.media/fr/upload/>
+
+:fontawesome-brands-creative-commons-zero: Images libre de droit :
+
+* <https://unsplash.com/fr>
+* <https://pixabay.com/>
+* <https://www.pexels.com/fr-fr/>
+
+:material-cast-audio: Audio libre de droit :
+
+* <https://pixabay.com/music/>
+* <https://pixabay.com/sound-effects/>
+* <https://sound-effects.bbcrewind.co.uk/>
+* <https://mixkit.co/free-sound-effects/>
+* <https://www.zapsplat.com/>
+
+:material-image: Générer des images :
+
+* <https://www.craiyon.com/fr>
+* <https://deepai.org/machine-learning-model/text2img>
+* <https://deepmind.google/models/imagen/>
+* <https://chatgpt.com/>
+
+Modification de format
+
+* https://cloudconvert.com/jpg-to-webp
+* https://www.freeconvert.com/webm-converter
+* https://www.freeconvert.com/webm-converter
+
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
@@ -498,12 +585,6 @@ Un autre attribut essentiel au fonctionnement d’un formulaire est l’attribut
   <small>Exercice - Formulaire HTML</small><br>
   **[L'inscription](./exercices/inscription/index.md){.stretched-link .back}**
 </div>
-
-<!-- [Form credits](exercices/carte-de-credit.md)
-
-[Goku radio](exercices/dragonball.md)
-
-[Exercice twitter select](exercices/twitter.md) -->
 
 ## TP
 
@@ -551,3 +632,9 @@ Concept
 ```
 
 Ici, les colonnes ont un en-tête en haut, et chaque ligne a un en-tête sur la gauche.
+
+Exercices : 
+
+[Form credits](exercices/carte-de-credit.md)
+[Goku radio](exercices/dragonball.md)
+[Exercice twitter select](exercices/twitter.md)
