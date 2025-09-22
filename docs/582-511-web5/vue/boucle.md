@@ -72,7 +72,8 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
     On ne doit [jamais combiner v-if et v-for sur une même balise](https://fr.vuejs.org/style-guide/rules-essential#avoid-v-if-with-v-for).
     Au besoin, il est possible d'ajouter une balise  `<template>` en guise d'intermédiaire pour ajouter le `v-for`ou le `v-if`.
 
-    ```html title = "🚫 Interdit"
+    🚫 Interdit
+    ```html
     <ul>
       <li
         v-for="user in users"
@@ -82,7 +83,8 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
     </ul>
     ```
 
-    ```html title = "✅ Valide"
+    ✅ Valide
+    ```html
     <ul>
       <template v-for="user in users">
         <li v-if="user.isActive">
