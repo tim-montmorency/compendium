@@ -1,9 +1,9 @@
-# Design  (2)
+# Design  (3)
 * Mise en page d'une invitation pour les employeurs
 * Signalétique pour la journée carrière (flèches? Affichage pour les tables)
 * Créer des fiches de présentation des entreprises
 
-# Communication (2 ou 3 par classe)
+# Communication (2 par classe)
 * Rédaction de l'invitation pour les employeurs
 * Répartir les invitations entre les étudiants
 * Suivi des invitations et des réponses
