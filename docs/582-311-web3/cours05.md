@@ -236,28 +236,30 @@ grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
 La propriété `grid-template-areas` donne un nom à des zones de la grille. Ça sert à être plus lisible et facile à maintenir.
 
-```css
+```css title="Exemple"
 .grille {
   display: grid;
+  grid-template-columns: 30px 1fr 1fr;
+  grid-template-rows: 60px 1fr;
   grid-template-areas:
-    "header header"
-    "nav    main"
-    "nav    aside"
-    "footer footer";
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: 80px 1fr 1fr 60px;
+    "allo allo allo"
+    "bravo cadeau cadeau";
 }
 ```
 
 Puis on assigne chaque élément :
 
-```css
-header { grid-area: header; }
-nav    { grid-area: nav; }
-main   { grid-area: main; }
-aside  { grid-area: aside; }
-footer { grid-area: footer; }
+```css title="Exemple"
+.div1 { grid-area: allo; }
+.div2 { grid-area: bravo; }
+.div3 { grid-area: cadeau; }
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - template-area" src="https://codepen.io/tim-momo/embed/wBMBYjZ?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/wBMBYjZ">
+  Web Grid - template-area</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Espacements
 
@@ -269,13 +271,19 @@ Propriétés :
 * `row-gap` : espace entre les lignes
 * `gap` : raccourci pour les deux
 
-```css
+```css title="Exemple"
 .grille {
   gap: 20px;              /* colonnes ET rangées */
-  column-gap: 10px;       /* juste colonnes */
-  row-gap: 30px;          /* juste rangées */
+  column-gap: 30px;       /* juste colonnes */
+  row-gap: 10px;          /* juste rangées */
 }
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - justify-content" src="https://codepen.io/tim-momo/embed/XJXJxqN?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/XJXJxqN">
+  Web Grid - justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Alignement global du contenu
 
@@ -287,11 +295,17 @@ Les propriétés `justify-content` et `align-content` gèrent l’alignement de 
 
 Aligne la grille entière horizontalement dans le conteneur, si celui-ci est plus large que la somme des colonnes.
 
-```css
+```css title="Exemple"
 .grille {
   justify-content: center;   /* centre la grille horizontalement */
 }
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - align-content" src="https://codepen.io/tim-momo/embed/dPGPgmd?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/dPGPgmd">
+  Web Grid - align-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 #### `align-content`
 
@@ -299,11 +313,17 @@ Aligne la grille entière horizontalement dans le conteneur, si celui-ci est plu
 
 Aligne la grille entière verticalement, si la hauteur du conteneur est plus grande que celle des lignes.
 
-```css
+```css title="Exemple"
 .grille {
   align-content: space-between;
 }
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - align-items / justify-items" src="https://codepen.io/tim-momo/embed/EaPadQW?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/EaPadQW">
+  Web Grid - align-items / justify-items</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Alignement des items dans les cellules
 
@@ -322,12 +342,19 @@ Aligne la grille entière verticalement, si la hauteur du conteneur est plus gra
 
 Les propriétés `align-items` et `justify-items` contrôlent l’alignement par défaut des items dans leurs cellules.
 
-```css
+```scss title="Exemple"
 .grille {
-  align-items: center;      /* vertical */
-  justify-items: stretch;   /* horizontal */
+  //...
+  align-items: end;
+  justify-items: center;
 }
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - align-self / justify-self" src="https://codepen.io/tim-momo/embed/YPwPJEa?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/YPwPJEa">
+  Web Grid - align-self / justify-self</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 Tous les enfants s’aligneront ainsi, sauf si un item définit ses propres règles.
 
@@ -346,12 +373,18 @@ Tous les enfants s’aligneront ainsi, sauf si un item définit ses propres règ
 
 Permettent d’aligner un item individuel dans sa cellule.
 
-```css
+```scss title="Exemple"
 .item {
-  align-self: end;         /* bas de la cellule */
-  justify-self: center;    /* centré horizontalement */
+  align-self: end;         
+  justify-self: center;    
 }
 ```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid testing" src="https://codepen.io/tim-momo/embed/XJXJxbm?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/XJXJxbm">
+  Web Grid testing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 #### `place-items`
 
@@ -520,6 +553,13 @@ Les slash ont une importance. Voici les différents cas de figure :
 
   <small>Exercice - Bootstrap</small><br>
   **[W3Schools](./exercices/w3schools/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/triskaidekaphobie/preview.jpg)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Triskaïdékaphobie](./exercices/triskaidekaphobie/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
