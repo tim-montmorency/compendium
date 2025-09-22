@@ -17,6 +17,10 @@ tags:
 
 L'objectif de cet exercice est d'installer le jeu avec npm sur son ordinateur et d'y faire un score plus élevé que 15.
 
+## Résultat attendu
+
+![type:video](preview.mp4)
+
 ## Consignes
 
 - [ ] Créer un dossier et nommez le dragon-smaug
