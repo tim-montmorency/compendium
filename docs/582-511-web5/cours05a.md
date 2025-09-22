@@ -7,7 +7,10 @@
 
 ## Aujourd'hui
 
-- [ ] Suite Vue.js de lundi dernier
+- [ ] Suivi compte Figma
+- [ ] Retour Vue.js de lundi dernier:
+  - [ ] Condition (v-if, v-else, v-show)
+  - [ ] Rendu de listes (v-for sur tableau de données)
 - [ ] Vue: formulaire
 - [ ] Vue: propriété calculée
 
@@ -15,7 +18,10 @@
 ## Révision des exercices
 
 - [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/)
+  ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
+
 - [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md)
+  ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
 ## Vue.js
 
@@ -37,14 +43,10 @@
 
 ##### 2 exercices 🧑🏽‍💻
 
-Liens à venir
-<!-- 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
--->
 
-<!-- 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
+
 
 
 ### Formulaires et propriété calculée

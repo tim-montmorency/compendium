@@ -53,6 +53,7 @@ Voir si vous avez été validés.
 ## Suite - Exercice Collection de films
 
 [🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
+➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
 
 ## Vue
 
@@ -72,7 +73,7 @@ Voir si vous avez été validés.
 ##### 1 exercice 🧑🏽‍💻
 
 [🧑🏽‍💻 NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md){ .md-button } 
-
+➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
 
 ### Condition | Tableau + boucle
@@ -87,18 +88,6 @@ Voir si vous avez été validés.
   <a href="./vue/boucle.html">Vue: Tableau (array) et boucle v-for</a>
 </div>
 
-
-
-##### 2 exercices 🧑🏽‍💻
-
-Liens à venir
-<!-- 
-[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
--->
-
-<!-- 
-[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
 
 
 ## Planification portfolio (~45min)
