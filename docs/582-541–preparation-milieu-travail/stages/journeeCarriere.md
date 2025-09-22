@@ -43,6 +43,7 @@
 * Démontage de la salle
 
 # Gestion (1 par classe)
+* Création d'un trello pour regrouper les tâches des 2 classes afin de pouvoir faire des suivis
 * Trouver une méthode pour la gestion du temps à la journée carrière (système de rotation)
 * Chapeauter les différents comités
 * Faire le lien entre les comités au besoin
