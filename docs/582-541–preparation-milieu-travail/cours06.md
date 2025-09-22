@@ -23,5 +23,7 @@ Remplir le document plan_lettre_presentation sur GitHub.
 ## Formation des comités pour la journée carrière
 [🛠️ Comités](./stages/journeeCarriere.md){ .md-button }    
 
+[🛠️ Ajouter des entreprises à la liste](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfoMe3Rzg7FGihjnoKGn7OcBMEdYWxjf1mPycznkJt4y1A?e=hdsfDi){ .md-button }    
+
 ## Devoir
 Terminer de remplir les documents GitHub sur la lettre de présentation.    
