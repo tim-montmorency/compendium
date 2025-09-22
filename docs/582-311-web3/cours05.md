@@ -1,6 +1,112 @@
 # Cours 5
 
-[STOP]
+## Bootstrap
+
+Retour sur le devoir
+
+### Coins arrondis
+
+Bootstrap permet d’[arrondir](https://getbootstrap.com/docs/5.3/utilities/borders/#sizes) facilement les bords d’un élément :
+
+* `.rounded` : coins légèrement arrondis
+* `.rounded-lg` : coins plus arrondis (large radius)
+* `.rounded-circle` : cercle parfait (utile avec des images carrées)
+* `.rounded-pill` : forme “pilule” (bouton ou image allongée)
+* `.img-thumbnail` : bordure + coins arrondis pour encadrer une image
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - " src="https://codepen.io/tim-momo/embed/QwywVEQ?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QwywVEQ">
+  Bootstrap - </a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Tableaux
+
+Bootstrap propose plusieurs classes pour améliorer la présentation des [tableaux](https://getbootstrap.com/docs/5.3/content/tables/) :
+
+* `.table` : style de base (bordures et espacements)
+* `.table-striped` : lignes alternées
+* `.table-bordered` : toutes les bordures visibles
+* `.table-hover` : surbrillance au survol
+* `.table-primary` : couleur de ligne. Ça fonctionne avec toutes les couleurs de Bootstrap.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Rounded corners" src="https://codepen.io/tim-momo/embed/ogbgPzg?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ogbgPzg">
+  Bootstrap - Rounded corners</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Badges
+
+Les [badges](https://getbootstrap.com/docs/5.3/components/badge) affichent de petites étiquettes colorées (souvent utilisés pour compter).
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Tables" src="https://codepen.io/tim-momo/embed/jEWEvMz?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jEWEvMz">
+  Bootstrap - Tables</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Barre de progression
+
+Les [barres de progression](https://getbootstrap.com/docs/5.3/components/progress/) montrent une avance ou un chargement.
+
+* `.progress` : conteneur
+* `.progress-bar` : barre interne
+* `.progress-bar-striped` : rayures
+* `.progress-bar-animated` : rayures animées
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Badges" src="https://codepen.io/tim-momo/embed/zxrxJKX?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/zxrxJKX">
+  Bootstrap - Badges</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Spinners
+
+Les [spinners](https://getbootstrap.com/docs/5.3/components/spinners) servent à indiquer un chargement.
+
+* `.spinner-border` : cercle qui tourne
+* `.spinner-grow` : cercle qui grossit/rétrécit
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - progress bar" src="https://codepen.io/tim-momo/embed/vELEzyK?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/vELEzyK">
+  Bootstrap - progress bar</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Pagination
+
+La [pagination](https://getbootstrap.com/docs/5.3/components/pagination) met en forme la naviguation entre plusieurs pages.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Breadcrumb" src="https://codepen.io/tim-momo/embed/pvgvONZ?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/pvgvONZ">
+  Bootstrap - Breadcrumb</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### Breadcrumb (Fil d’Ariane)
+
+Affiche le [chemin de navigation](https://getbootstrap.com/docs/5.3/components/breadcrumb/) de l’utilisateur.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Spinners" src="https://codepen.io/tim-momo/embed/GgogXNr?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/GgogXNr">
+  Bootstrap - Spinners</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### List group
+
+Les [list-groups](https://getbootstrap.com/docs/5.3/components/list-group/) permettent de présenter des listes avec un style moderne.
+
+* `.list-group` : conteneur
+* `.list-group-item` : chaque item
+* `.list-group-horizontal` : en ligne
+  
+<iframe height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Pager" src="https://codepen.io/tim-momo/embed/yyeyxVx?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/yyeyxVx">
+  Bootstrap - Pager</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Système de grille CSS
 
@@ -247,6 +353,19 @@ Permettent d’aligner un item individuel dans sa cellule.
 }
 ```
 
+#### `place-items`
+
+`place-items` est un raccourci pratique qui combine `align-items` (axe vertical) et `justify-items` (axe horizontal) en une seule propriété.
+
+```css
+.grille {
+  /* équivalent à align-items: center; justify-items: center; */
+  place-items: center;
+}
+```
+
+Note : `place-items` s'applique au conteneur de la grille et définit l'alignement par défaut pour tous les items. Les propriétés individuelles `align-self` / `justify-self` peuvent toujours être utilisées pour surcharger l'alignement d'un item spécifique.
+
 ### Placement manuel
 
 Les propriétés de positionnement permettent de définir précisément où commence et finit un élément dans la grille.
@@ -275,6 +394,8 @@ Définissent sur quelle ligne verticale un item commence et finit :
 }
 ```
 
+Note : Il est possible d'utiliser des valeur négatives 🤪
+
 #### Raccourcis `grid-column` / `grid-row`
 
 ![](./assets/images/grid-column.png){.w-50 data-zoom-image}
@@ -301,14 +422,135 @@ Très utile pour créer des mises en page asymétriques (un bloc plus grand que 
 
 ```scss
 .item {
-  /* Équivalent à :
-   * grid-row-start: 1
-   * grid-column-start: 5  
-   * grid-row-end: 4
-   * grid-column-end: 6
-   */
   grid-area: 1 / 5 / 4 / 6;
+
+  // Équivalent à :
+  //   grid-row-start: 1
+  //   grid-column-start: 5  
+  //   grid-row-end: 4
+  //   grid-column-end: 6
 }
 ```
 
 L'ordre des valeurs est : `row-start / column-start / row-end / column-end`
+
+##### Note sur le mot-clé `span`
+
+Dans le sytème grid, `span` est un mot-clé utile pour indiquer qu'un item doit occuper un certain nombre de lignes ou colonnes sans préciser explicitement l'index de fin.
+
+```css
+/* 
+Commence à la colonne 2 et s'étend sur 3 colonnes (2,3,4) 
+Équivalent de : .item { grid-column: 2 / 5; }
+*/
+.item { grid-column: 2 / span 3; }
+```
+
+## Retour sur .gitignore
+
+![](./assets/images/park-and-rec.gif){.w-100}
+
+Dans le TP1, vous devez utiliser la notion de `.gitignore`. Ce fichier permet d’exclure des fichiers ou dossiers de Git (et donc de GitHub).
+
+### La bonne méthode
+
+1. Créer le dépôt sur GitHub
+1. Avant d’installer vos dépendances, ajoutez un fichier .gitignore contenant au minimum :
+    ```bash title=".gitignore"
+    node_modules
+    ```
+1. Clonez le dépôt, puis commencez le développement.
+
+Si vous voyez le .gitignore dans GitHub, vous pouvez procéder au développement de votre site Web.
+
+### Plan B
+
+Si votre projet est déjà sur GitHub et que par exemple node_modules/ a été commité. C'est possible de corriger l'erreur.
+
+Ajoutez d'abord votre .gitignore, puis supprimez le suivi du dossier dans l’index :
+
+En ligne de commande, positionnez vous sur votre projet et exécutez les commandes suivantes :
+
+
+
+```bash title="Terminal"
+git rm -r --cached .
+```
+
+```bash title="Terminal"
+git add -A
+```
+
+```bash title="Terminal"
+git commit -m ".gitignore opérationnel"
+```
+
+```bash title="Terminal"
+git push
+```
+
+À partir de là, Git arrêtera de suivre les éléments spécifiés dans le `.gitignore`.
+
+### Exemple de .gitignore
+
+```bash title=".gitignore"
+# Dépendances npm
+node_modules/
+
+# macOS (pour les utilisateurs Apple)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vscode
+.vscode
+coverage/
+```
+
+Les slash ont une importance. Voici les différents cas de figure : 
+
+* `/node_modules` : seulement à la racine.
+* `node_modules/` : tous les dossiers node_modules (partout) ✅ (souvent la meilleure pratique).
+* `node_modules` : tous les fichiers ET dossiers appelés node_modules (un peu trop permissif, mais fonctionne aussi). Exemple, node_modules.txt serait aussi ignoré.
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/w3schools/w3s.jpg)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[W3Schools](./exercices/w3schools/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/drapeau/flag.gif)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Drapeaux](./exercices/drapeau/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/jardin-babylone/Hanging_Gardens_of_Babylon.jpg)
+
+  <small>Exercice - Bootstrap</small><br>
+  **[Jardin suspendu de Babylone](./exercices/jardin-babylone/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/spirale/spirale2.gif)
+
+  <small>Exercice - grid</small><br>
+  **[Spirale](./exercices/spirale/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/dragon-smaug/preview.png)
+
+  <small>Exercice - npm</small><br>
+  **[Dragon Smaug](./exercices/dragon-smaug/index.md){.stretched-link .back}**
+</div>
+
+[STOP]
+
+Tailwind retiré. La classe n'a pas encore absorbé Bootstrap.
+Aussi, Tailwind serait à voir en même temps que vitejs. Ce serait plus logique.
