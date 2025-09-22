@@ -6,8 +6,7 @@ Présentation du TP2
 Planification (arborescence, wireframes, contenus)
 Séance supervisée pour travailler sur le TP2
 
-https://deepai.org/machine-learning-model/text2img
-https://deepmind.google/models/imagen/
+
 
 Lancement du projet intégrateur final
 	•	Présentation du projet final : mini-site Web statique (critères d’évaluation)

@@ -14,6 +14,8 @@ TP1 / TP2 les faire jouer au jeu le cours avant l'énoncé.
 https://cleanup.pictures/
 https://image-upscaling.net/upscaling
 Pexel
+https://deepai.org/machine-learning-model/text2img
+https://deepmind.google/models/imagen/
 Chatgpt
 
 

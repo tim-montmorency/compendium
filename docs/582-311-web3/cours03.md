@@ -296,7 +296,7 @@ Le style de bouton est concu pour être utilisées avec l’élément `<button>`
 <button class="btn btn-primary">Primary</button>
 <button class="btn btn-primary btn-sm">Petit primary</button>
 <button class="btn btn-outline-primary">Contour</button>
-<button class="btn btn-primary" disabled>Désactivé</button>
+<button class="btn btn-primary btn-block" disabled>Désactivé</button>
 ```
 
 <iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="Bootstrap - Boutons" src="https://codepen.io/tim-momo/embed/abgOzzm?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">

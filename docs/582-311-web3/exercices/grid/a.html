@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exo 1 — Grille 3×2</title>
+    <style>
+      html {
+        font-family: system-ui, sans-serif;
+      }
+
+      .grille {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 120px);
+        gap: 10px;
+        max-width: 900px;
+        margin: 2rem auto;
+      }
+
+      .cellule {
+        background: #e9eef5;
+        border: 1px solid #c7d2e0;
+        display: grid;
+        place-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Grille basique (3 colonnes × 2 rangées, gap: 10px) -->
+
+    <div class="grille">
+      <div class="cellule">1</div>
+      <div class="cellule">2</div>
+      <div class="cellule">3</div>
+      <div class="cellule">4</div>
+      <div class="cellule">5</div>
+      <div class="cellule">6</div>
+    </div>
+  </body>
+</html>
