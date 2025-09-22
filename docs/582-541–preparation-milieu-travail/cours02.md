@@ -108,7 +108,7 @@ Voir l'onglet RechercheEmploi sur Teams.
 </table>
 
 ## Liste collaborative d'employeurs
-[🛠️ Ajouter 5 entreprises à la liste](https://github.com/orgs/tim-montmorency-preparation-stage/projects/1){ .md-button }    
+[🛠️ Ajouter 5 entreprises à la liste](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfoMe3Rzg7FGihjnoKGn7OcBMEdYWxjf1mPycznkJt4y1A?e=hdsfDi){ .md-button }    
 
 ## Activité sur le cv 
 Qu'est-ce que doit contenir un cv?     
