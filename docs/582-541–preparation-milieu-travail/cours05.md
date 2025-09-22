@@ -8,6 +8,12 @@ gr2: 15h25 à 19h
 
 ## Évaluation formative du CV par les pairs
 
+* Utilisation de la grille de correction
+* Démonstration de Antidote
+
+## Journal de bord
+Présentation des critères de correction, temps pour l'avancer et le corriger. 
+
 ## Recherche sur les entreprises du 5 à 7
 [Lien vers l'événement](https://www.eventbrite.ca/e/billets-activite-de-maillage-laval-carrefour-des-talents-1412761771489?aff=oddtdtcreator) 
 
