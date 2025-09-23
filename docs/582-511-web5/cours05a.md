@@ -49,12 +49,16 @@
 
 
 
-### Formulaires et propriété calculée
+### Formulaires (v-model)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/elements-de-formulaire.html">Vue: Éléments de formulaire (v-model)</a>
 </div>
+
+
+### Propriété calculée (computed)
+
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
