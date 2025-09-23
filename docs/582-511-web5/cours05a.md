@@ -39,7 +39,7 @@
   <a href="./vue/boucle.html">Vue: Rendu de liste avec v-for</a>
 </div>
 
-
+<hr>
 
 #### 2 exercices 🧑🏽‍💻
 
@@ -48,6 +48,7 @@
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 
 
+<hr>
 
 ### Formulaires (v-model)
 
@@ -65,6 +66,7 @@
   <a href="./vue/propriete-calculee.html">Vue: Propriété calculée (computed)</a>
 </div>
 
+<hr>
 
 #### Questionnaire Vue.js
 
