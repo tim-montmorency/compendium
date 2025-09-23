@@ -38,7 +38,7 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
 
 
-## Consignes pour HTML/CSS
+## Consignes (partie 1) pour HTML/CSS
 
 Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#criteres-devaluation), notamment la partie [3 - Codage HTML+CSS](./portfolio.html#3-codage-html-css) avant de débuter le travail et de façon récurente pour vous assurer que bien travailler.
 
@@ -55,7 +55,7 @@ Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#cr
 
     👉 Petit conseil : pensez à rédiger vos messages de `commit` comme de mini-notes de projet. Ainsi, vous (et éventuellement vos coéquipiers) pourrez rapidement comprendre l’évolution du travail sans devoir fouiller dans le code.
 
-## Consignes (suite) pour HTML/CSS
+## Consignes (partie 2) pour HTML/CSS
 
 - [ ] Préparez vos *médias* (images, vidéos de projet).
   - [ ] Compressez et optimisez-les pour le Web.
