@@ -15,12 +15,21 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
         <a href="./portfolio.html">Projet Portfolio - Infos générales</a>
     </div>
 
+<br>
+<hr>
+<br>
 
-<div style="margin: 30px 0; padding: 30px; border: 8px solid #ef5552;">
-    <h3 style="color: #ef5552; margin-top: 0;">À PROPOS DE L'<em>IA</em> EN ÉDUCATION</h3> 
-    <p>Vous pouvez utiliser l’IA pour apprendre mais <em>pas pour remplacer votre compréhension</em>. Toute aide d’IA doit être documentée dans journal-IA.md ou partagée lors de votre remise via un lien de la conversation avec la dite IA. Vous devez pouvoir expliquer votre code et le modifier en direct. </p>
-    <p><strong><em>Un portfolio sert à convaincre un·e employeur·e que vous savez faire. On valorise l’honnêteté et l’apprentissage réel.<em> </strong></p>
-</div>
+!!! example "L'IA en éducation" 
+  Vous pouvez utiliser l’IA pour apprendre mais *pas pour remplacer votre compréhension*. 
+  
+  Toute aide d’IA doit être documentée dans *journal-IA.md* ou partagée lors de votre remise via un *lien de la conversation* avec l'IA.*
+  
+  À la fin du projet, vous devrez pouvoir *expliquer votre propre code* et *le modifier à ma demande en direct*.
+
+  Un portfolio sert à convaincre un·e employeur·e de *ce que vous savez faire.*
+  
+  On valorise l’*honnêteté* et l’*apprentissage réel.*
+
 
 !!! warning "À propos de l'utilisation de l'IA pour le projet"
 
