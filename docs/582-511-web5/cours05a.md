@@ -70,8 +70,8 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 
 ![Get started, Directives, Methods, Computed](./vue/assets/vue-quiz-w3chool-4sections.png)
 
-!!! warning
-    Questions 10 et 11 de la rubrique "Directive": sujet non couvert. Vous pouvez vous aider avec le bouton *Show answer* pour ces 2 questions là.
+!!! warning "Modificateurs d'événements: event.preventDefault()"
+    Les qestions 10 et 11 de la rubrique *Vue Directives*: sujet non couvert en classe. Vous pouvez vous aider avec le bouton *Show answer* pour ces 2 questions là. Et pour plus d'info sur le sujet, voir [PreventDefault()](https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault) et [Modificateur d'événements de la documentation Vue.js](https://vuejs.org/guide/essentials/event-handling#event-modifiers).
     ![](./vue/assets/questionnaire-w3school-directive-q10-q11.png)
 
 !!! danger "Traduire les consignes"
