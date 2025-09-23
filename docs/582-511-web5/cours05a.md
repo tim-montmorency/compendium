@@ -89,7 +89,7 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 
 - [ ] Pour mercredi: terminer le design de votre porfolio
 - [ ] Pour lundi prochain: Terminer vos exercices *Vue.js*
-  - 🧑🏽‍💻 Collection de films Part.2 - Boucle v-for
-  - 🧑🏽‍💻 Côte Ouest VS côte Est
-  - 🤔 Questionnaire Vue.js sur W3school
-  - 🤼 Luchador
+  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+  - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
+  - [🤔 Questionnaire Vue](https://www.w3schools.com/vue/exercise.php?filename=exercise_intro1) sur W3school
+  - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
