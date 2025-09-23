@@ -87,7 +87,7 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 
 ## Devoirs
 
-- [ ] Pour mercredi: terminer le design de votre porfolio
+- [ ] Pour mercredi: terminer le [design de votre porfolio](./projets/portfolio-remise2.md)
 - [ ] Pour lundi prochain: Terminer vos exercices *Vue.js*
   - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
   - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
