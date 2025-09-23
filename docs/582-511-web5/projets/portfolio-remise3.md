@@ -20,7 +20,7 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 <br>
 
 !!! example "L'IA en éducation" 
-  Vous pouvez utiliser l’IA pour apprendre mais *pas pour remplacer votre compréhension*. 
+  Vous pouvez utiliser l’*IA* pour apprendre mais *PAS pour remplacer votre compréhension*. 
   
   Toute aide d’IA doit être documentée dans *journal-IA.md* ou partagée lors de votre remise via un *lien de la conversation* avec l'IA.*
   
@@ -31,9 +31,9 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   On valorise l’*honnêteté* et l’*apprentissage réel.*
 
 
-!!! warning "À propos de l'utilisation de l'IA pour le projet"
+!!! note "À propos de l'utilisation de l'IA pour le projet"
 
-    L'utilisation de l'IA est permise pour vous aider à vous déboguer SEULEMENT SI vous *partagez le lien de votre conversation avec l'IA lors de la remise*. Toutes les questions posées doivent être *dans le même fil conversationnel*. Si par erreur vous posez une question dans un autre fil, veuillez remettre *tous les fils conversationnel* que vous aurez utilisés. 
+    L'utilisation de l'*IA* est permise pour vous aider à vous déboguer SEULEMENT SI vous *partagez le lien de votre conversation avec l'IA lors de la remise*. Toutes les questions posées doivent être *dans le même fil conversationnel*. Si par erreur vous posez une question dans un autre fil, veuillez remettre *tous les fils conversationnel* que vous aurez utilisés. 
     
     Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
 
@@ -49,11 +49,11 @@ Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#cr
 - [ ] Faites un `commit git` et un `push` vers GitHub afin d'avoir un commit initial contenant les fichiers du projet.
 
 !!! Important
-  À partir de maintenant, pour ce projet, il vous est demandé d’effectuer le plus de `commit git` possible afin de conserver différentes versions complètes de votre travail. Plus vous en réalisez, plus vous vous protégez contre les pertes ou les erreurs. De plus, ce processus fera partie de votre évaluation.
+    À partir de maintenant, pour ce projet, il vous est demandé d’effectuer le plus de `commit git` possible afin de conserver différentes versions complètes de votre travail. Plus vous en réalisez, plus vous vous protégez contre les pertes ou les erreurs. De plus, ce processus fera partie de votre évaluation.
 
-  Il est également important de bien nommer vos `commit`. Le message doit être clair et représentatif de ce que vous avez accompli. Par exemple, si vous venez de terminer la mise en place de la navigation principale, vous pourriez intituler votre `commit` *Navigation principale stylisée*.
+    Il est également important de bien nommer vos `commit`. Le message doit être clair et représentatif de ce que vous avez accompli. Par exemple, si vous venez de terminer la mise en place de la navigation principale, vous pourriez intituler votre `commit` *Navigation principale stylisée*.
 
-  👉 Petit conseil : pensez à rédiger vos messages de `commit` comme de mini-notes de projet. Ainsi, vous (et éventuellement vos coéquipiers) pourrez rapidement comprendre l’évolution du travail sans devoir fouiller dans le code.
+    👉 Petit conseil : pensez à rédiger vos messages de `commit` comme de mini-notes de projet. Ainsi, vous (et éventuellement vos coéquipiers) pourrez rapidement comprendre l’évolution du travail sans devoir fouiller dans le code.
 
 ## Consignes (suite) pour HTML/CSS
 
