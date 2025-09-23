@@ -8,6 +8,10 @@
 ## Aujourd'hui7
 
 - [ ] Annonce tutorat demain
+- [ ] Révision exercices Vue.js de lundi passé
+  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+  - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
+  - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
 - [ ] Fetch API
   - [ ] Promesses JavaScript
   - [ ] Fetch
@@ -21,6 +25,12 @@
 
 Tutorat demain 30 septembre entre 11h30 et 14h10.
 Révision pour l'examen: presciptions pédagogiques : obligatoire.
+
+## Révision exercices Vue.js
+
+- [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+- [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
+- [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
 
 ## Promesses JavaScript
 

@@ -17,8 +17,19 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 - *Groupe 2* du matin commence à 9h50 comme d'habitude mais termine 25min plus tôt, soit à 13h. 
   *9h50 à 13h*
 - *Groupe 1* d'après-midi commence 45 min plus tôt, soit à 13h40 et termine à 16h45.
-  *13h40 à 16h45* 
+  *13h40 à 16h45*
 
+## Projet portfolio (25%)
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-remise3.html">>Instructions de la remise 3: suivi de votre travail d'intégration HTML/CSS 1er octobre</a>
+</div>
 
 ## Aujourd'hui
 

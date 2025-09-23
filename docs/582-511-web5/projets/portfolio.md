@@ -29,12 +29,16 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
   <a href="./portfolio-remise2.html">Instructions de la remise 2: design 24 septembre</a>
 </div>
 
+<div class="class-content-link">
+  <img src="./assets/icon-portfolio.svg">
+  <a href="./portfolio-remise2.html">Instructions de la remise 3: suivi de votre travail d'intégration HTML/CSS 1er octobre</a>
+</div>
 
 ## Dates de remise pour Web 5
 
 - *17 septembre* Remise 1 : [planification de portfolio](./portfolio-remise1.md) (formatif)
-- *24 septembre* Remise 2: design du portfolio versions mobile et desktop (formatif)
-- *1er octobre* Remise 3 : intégration HTML/CSS de la structure de page (suivi formatif)
+- *24 septembre* Remise 2: [design du portfolio](./portfolio-remise2.md) versions mobile et desktop (formatif)
+- *1er octobre* Remise 3 : [Suivi de l'intégration HTML/CSS](./portfolio-remise3.md) de la structure de page (suivi formatif)
 - *29 octobre* Remise finale : Remise et présentation du portfolio (sommatif: 25%)
 
 
@@ -113,8 +117,9 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - **UX et navigation** : ergonomie, lisibilité, accessibilité de base, responsive design pensé dès la maquette.  
 - **Originalité et personnalisation** : effort créatif pour se démarquer, éviter les templates génériques.  
 
-### 3. Codage HTML + CSS 
+### 3. Codage HTML + CSS
 
+- **Commentaires dans le code** : Code (HTML, CSS et JavaScript) bien commenté dans vos propres mots afin de démontrer votre compréhension.
 - **Structure HTML** : sémantique, hiérarchie, respect des standards W3C, titres et balises correctes.  
 - **CSS et mise en page** : utilisation claire de Grid/Flexbox, propreté du code, classes nommées nommées logiquement.  
 - **Responsive design** : site adapté aux écrans mobiles et desktop, sans bogues majeurs.  
@@ -123,15 +128,17 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 
 ### 4. Composante Vue.js  
 
+- **Commentaires dans le code** : Code (HTML et JavaScript) bien commenté dans vos propres mots afin de démontrer votre compréhension.
 - **Fonctionnalité correcte** : la composante fonctionne, interaction fluide, pas de bogue majeur.  
 - **Utilisation de Vue** : data, rendu dynamique via `v-for` / `v-if`, interaction avec `@click` ou autres directives.  
 - **Pertinence du widget** : apporte une valeur réelle au portfolio.  
 
-### 5. Animation GSAP 
+### 5. Animation GSAP
 
+- **Commentaires dans le code** : Code bien commenté dans vos propres mots afin de démontrer votre compréhension.
 - **Intégration d’une animation GSAP** : déclenchée au scroll ou à l’interaction, correctement intégrée.  
 
-### 6. Documentation & mise en ligne 
+### 6. Documentation & mise en ligne
 
 - **Déploiement web** : intégration adéquate sur un serveur web.  
 - **README.md clair** : description du projet, Documentation claire dans un README.md. 
