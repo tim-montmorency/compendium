@@ -41,7 +41,7 @@
 
 
 
-### 2 exercices 🧑🏽‍💻
+#### 2 exercices 🧑🏽‍💻
 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
 
@@ -62,7 +62,7 @@
 </div>
 
 
-### Questionnaire Vue.js
+#### Questionnaire Vue.js
 
 [🤔 Questionnaire Vue](https://www.w3schools.com/vue/exercise.php?filename=exercise_intro1){ .md-button }
 
@@ -80,7 +80,7 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 
 
 
-### Exercice 🧑🏽‍💻
+#### Exercice 🧑🏽‍💻
 
 [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
 
