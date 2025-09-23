@@ -28,11 +28,6 @@
   <a href="./projets/portfolio-remise1.html">Projet Portfolio - Remise planification 17 septembre</a>
 </div>
 
-## Activer notifications TEAMS
-
-IMPORTANT: Activer notifications Canal Général dans Teams Web 5
-
-<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=6ed557ad-760b-4710-8f42-2fbc550f8c7a&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="teams-web5-activer-notifications.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## Suivi Figma - Plan Education Pro
 
@@ -53,6 +48,7 @@ Voir si vous avez été validés.
 ## Suite - Exercice Collection de films
 
 [🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
+➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
 
 ## Vue
 
@@ -72,7 +68,7 @@ Voir si vous avez été validés.
 ##### 1 exercice 🧑🏽‍💻
 
 [🧑🏽‍💻 NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md){ .md-button } 
-
+➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
 
 ### Condition | Tableau + boucle
@@ -87,18 +83,6 @@ Voir si vous avez été validés.
   <a href="./vue/boucle.html">Vue: Tableau (array) et boucle v-for</a>
 </div>
 
-
-
-##### 2 exercices 🧑🏽‍💻
-
-Liens à venir
-<!-- 
-[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
--->
-
-<!-- 
-[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
 
 
 ## Planification portfolio (~45min)

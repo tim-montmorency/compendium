@@ -7,7 +7,10 @@
 
 ## Aujourd'hui
 
-- [ ] Suite Vue.js de lundi dernier
+- [ ] Suivi compte Figma
+- [ ] Retour Vue.js de lundi dernier:
+  - [ ] Condition (v-if, v-else, v-show)
+  - [ ] Rendu de listes (v-for sur tableau de données)
 - [ ] Vue: formulaire
 - [ ] Vue: propriété calculée
 
@@ -15,58 +18,68 @@
 ## Révision des exercices
 
 - [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/)
+  ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
+
 - [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md)
+  ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
 ## Vue.js
 
-### RETOUR: Condition (v-if, v-else, v-show)
+### Condition (v-if, v-else, v-show)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/condition.html">Vue: Rendu conditionnel avec v-if, v-else et v-show</a>
 </div>
 
-### RETOUR: Rendu de listes (v-for sur tableau de données)
+### Rendu de listes (v-for sur tableau de données)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/boucle.html">Vue: Rendu de liste avec v-for</a>
 </div>
 
+<hr>
 
+#### 2 exercices 🧑🏽‍💻
 
-##### 2 exercices 🧑🏽‍💻
-
-Liens à venir
-<!-- 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
--->
 
-<!-- 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
 
 
-### Formulaires et propriété calculée
+<hr>
+
+### Formulaires (v-model)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/elements-de-formulaire.html">Vue: Éléments de formulaire (v-model)</a>
 </div>
 
+
+### Propriété calculée (computed)
+
+
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/propriete-calculee.html">Vue: Propriété calculée (computed)</a>
 </div>
 
+<hr>
 
-### Questionnaire Vue.js
+#### Questionnaire Vue.js
 
 [🤔 Questionnaire Vue](https://www.w3schools.com/vue/exercise.php?filename=exercise_intro1){ .md-button }
 
 Répondre à toutes les questions des quatre premières sections: *Get started*, *Directives*, *Methods*, *Computed*
 
 ![Get started, Directives, Methods, Computed](./vue/assets/vue-quiz-w3chool-4sections.png)
+
+!!! warning "Modificateurs d'événements: event.preventDefault()"
+    Les qestions 10 et 11 de la rubrique *Vue Directives*: sujet non couvert en classe. Vous pouvez vous aider avec le bouton *Show answer* pour ces 2 questions là. Et pour plus d'info sur le sujet, voir [PreventDefault()](https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault) et [Modificateur d'événements de la documentation Vue.js](https://vuejs.org/guide/essentials/event-handling#event-modifiers).
+
+    ![](./vue/assets/questionnaire-w3school-directive-q10-q11.png)
 
 !!! danger "Traduire les consignes"
 
@@ -77,18 +90,18 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
     <div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=d01c1ebc-2528-4578-9e58-eeed20558c6a&embed=%7B%22af%22%3Atrue%2C%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="traduire-consignes-google-translate-ou-deepl.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 
+<hr>
 
-##### 1 exercice 🧑🏽‍💻
+#### Exercice 🧑🏽‍💻
 
-Lien à venir
-<!--[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
+[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
 
 
 ## Devoirs
 
-- [ ] Pour mercredi: terminer le design de votre porfolio
+- [ ] Pour mercredi: terminer le [design de votre porfolio](./projets/portfolio-remise2.md)
 - [ ] Pour lundi prochain: Terminer vos exercices *Vue.js*
-  - 🧑🏽‍💻 Collection de films Part.2 - Boucle v-for
-  - 🧑🏽‍💻 Côte Ouest VS côte Est
-  - 🤔 Questionnaire Vue.js sur W3school
-  - 🤼 Luchador
+  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+  - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
+  - [🤔 Questionnaire Vue](https://www.w3schools.com/vue/exercise.php?filename=exercise_intro1) sur W3school
+  - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
