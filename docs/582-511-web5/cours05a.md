@@ -23,16 +23,14 @@
 - [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md)
   ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
-## Vue.js
-
-### Condition (v-if, v-else, v-show)
+## Vue: Condition (v-if, v-else, v-show)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/condition.html">Vue: Rendu conditionnel avec v-if, v-else et v-show</a>
 </div>
 
-### Rendu de listes (v-for sur tableau de données)
+## Vue: Rendu de listes (v-for sur tableau de données)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -41,16 +39,15 @@
 
 <hr>
 
-#### 2 exercices 🧑🏽‍💻
+#### 2 exercices sur rendu de liste et condition 🧑🏽‍💻
 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 
 
-<hr>
 
-### Formulaires (v-model)
+## Vue: Formulaires (v-model)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -58,7 +55,7 @@
 </div>
 
 
-### Propriété calculée (computed)
+## Vue: Propriété calculée (computed)
 
 
 <div class="class-content-link">
@@ -68,7 +65,7 @@
 
 <hr>
 
-#### Questionnaire Vue.js
+#### Questionnaire de révision Vue.js
 
 [🤔 Questionnaire Vue](https://www.w3schools.com/vue/exercise.php?filename=exercise_intro1){ .md-button }
 
@@ -92,7 +89,7 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 
 <hr>
 
-#### Exercice 🧑🏽‍💻
+#### Exercice élément formulaire et propriété calculée 🧑🏽‍💻
 
 [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
 
