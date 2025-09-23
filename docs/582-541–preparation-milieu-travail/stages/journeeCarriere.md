@@ -33,8 +33,8 @@
 * Effectuer des 'refill' pour les employeurs
 
 # Studio (6)
-* Création de la liste d'équipements
-* Création d'une liste de mobilier (chaises, tables, nappes,...)
+* Création de la liste d'équipements (projecteur vidéo, éclairage, système de son, rallonges électriques)
+* Création d'une liste de mobilier (chaises, tables, nappes, porte-manteau...)
 * Rédaction des courriels pour l'emprunt de matériel
 * Création d'une playlist pour la journée carrière
 * Plan de la salle (disposition des tables, zone d'attente...)
