@@ -28,23 +28,50 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio-remise3.html">>Instructions de la remise 3: suivi de votre travail d'intégration HTML/CSS 1er octobre</a>
+  <a href="./projets/portfolio-remise3.html">Instructions de la remise 3: suivi de votre travail d'intégration HTML/CSS 1er octobre</a>
 </div>
 
 ## Aujourd'hui
 
 - [ ] Quiz Vue.js
-- [ ] CSS Grid intro
-- [ ] CSS Grid intermédiaire
+- [ ] CSS Grid
+  - [ ] Introduction
+  - [ ] Styles du conteneur: `grid-template-columns` et `grid-template-rows`. Espacement avec `gap`. Unités `fr`, `minmax()`et `repeat()`.
+  - [ ] Styles des éléments enfants à placer: `grid-column` et `grid-row`
+  - [ ] Style du conteneur: `grid-template-areas`
+  - [ ] Style des éléments enfants à placer: `grid-area`
+
 
 ## Quiz time !
 
-## CSS Grid intro
+## CSS Grid
+
+<div class="class-content-link">
+  <img src="./css/assets/icon-grid.png">
+  <a href="./css/grid/intro.md">CSS Grid: Introduction</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./css/assets/icon-grid.png">
+  <a href="./css/grid/grid-template-cols-rows.md">Styles du conteneur: <code>grid-template-columns</code> et <code>grid-template-rows</code>. Espacement avec <code>gap</code>. Unités <code>fr</code>, <code>minmax()</code> et <code>repeat()</code>.</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./css/assets/icon-grid.png">
+  <a href="./css/grid/grid-template-cols-rows.md">Styles des éléments enfants à placer: <code>grid-column</code> et <code>grid-row</code></a>
+</div>
+
+<div class="class-content-link">
+  <img src="./css/assets/icon-grid.png">
+  <a href="./css/grid/grid-area.md">Styles du conteneur: <code>grid-template-areas</code></a>
+</div>
+
+<div class="class-content-link">
+  <img src="./css/assets/icon-grid.png">
+  <a href="./css/grid/grid-area.md">Styles des éléments enfants à placer: <code>grid-area</code></a>
+</div>
 
 
 ### Exercices
 
-## CSS Grid intermédiaire
-
-### Exercices
 
