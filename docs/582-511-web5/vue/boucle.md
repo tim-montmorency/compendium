@@ -66,7 +66,9 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<br>
+
+
+## v-if + v-for = discorde
 
 !!! danger "🤼‍♂️ v-if ne s'accorde pas avec v-for"
     On ne doit [jamais combiner v-if et v-for sur une même balise](https://fr.vuejs.org/style-guide/rules-essential#avoid-v-if-with-v-for).
