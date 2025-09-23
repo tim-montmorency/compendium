@@ -45,7 +45,8 @@ Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#cr
 - [ ] Faites un *clone local* de votre répertoire git **portfolio-prenom-nom**. 
   👉 Si vous souhaitez travailler sur différents ordinateurs, clonez-le sur un disque dur externe, une clé USB ou dans votre OneDrive (si vous l’utilisez en classe).
 - [ ] Ouvrez ce répertoire local dans **Visual Studio Code** et, à la racine (au même niveau que votre `readme.md`) :
-  - [ ] *Créez les fichiers* de base de votre portfolio et assurez-vous de bien les lier entre eux.
+  - [ ] *Créez les fichiers* de base de votre portfolio et assurez-vous de bien les *lier entre eux*.
+  - [ ] Si vous prévoyez avoir des *pages de projets* distinctes de la page d’accueil, créez-en d’abord **une seule** que vous utiliserez comme modèle de référence (template) pour les autres.
 - [ ] Faites un `commit git` et un `push` vers GitHub afin d'avoir un commit initial contenant les fichiers du projet.
 
 !!! Important
@@ -61,13 +62,13 @@ Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#cr
   - [ ] Compressez et optimisez-les pour le Web.
   - [ ] Prévoyez des versions petites et grandes, si votre design inclut un agrandissement des images au clic.
   - [ ] Donnez-leur des noms clairs, sans espace ni accent et classez-les dans un dossier approprié.
-- [ ] Si vous prévoyez avoir des *pages de projets* distinctes de la page d’accueil, créez-en d’abord **une seule** que vous utiliserez comme modèle de référence (template) pour les autres.
 - [ ] Importez les *cadriciels et bibliothèques* obligatoires (et optionnels, si nécessaire).
 - [ ] N'oubliez pas de *commenter tout votre code* !
+- [ ] Rappel amical de faire un autre `commit` à ce stade 😉 (Ok ok, je ne le répèterai plus, vous aurez à y penser par vous même pour la suite). Vous devez en faire régulièrement pendant l'intégration et la programmation de votre portfolio.
 - [ ] Commencez l’*intégration HTML/CSS* de votre *page d’accueil*, bref: la mise en page!
   👉 Pour le *1er octobre*, il est attendu que *50 % de la page d'accueil soit complétée*.
 - [ ] Les *styles CSS* doivent être pensés de manière *globale* pour l’ensemble du site (si plusieurs pages).
-  - Évitez d’ajouter une classe spécifique à chaque balise. 
+  - Évitez d’ajouter une classe spécifique à chaque balise.
   - Exemple : le style d’un `<h1>` ou un `<h2>`doit s’appliquer à toutes les pages.
   - Si vous avez besoin d’un style particulier (ex. un `<h2>` dans une carte), utilisez les sélecteurs contextuels : `.card h2{ ... }` où le parent du `<h2>` est soit `<a class='card'>` si la carte est cliquable, soit `<div class='card'>`.
 - [ ] N'oubliez pas de *commenter tout votre code* !
