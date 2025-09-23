@@ -70,6 +70,10 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 
 ![Get started, Directives, Methods, Computed](./vue/assets/vue-quiz-w3chool-4sections.png)
 
+!!! warning
+    Questions 10 et 11 de la rubrique "Directive": sujet non couvert. Vous pouvez vous aider avec le bouton *Show answer* pour ces 2 questions là.
+    ![](./vue/assets/questionnaire-w3school-directive-q10-q11.png)
+
 !!! danger "Traduire les consignes"
 
     Le questionnaire est disponible seulement en *anglais*. Au besoin, veuillez utiliser une extension de traduction par sélection de texte comme [DeepL](https://www.deepl.com/fr/chrome-extension) ou [Google Traduction](https://chromewebstore.google.com/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb?utm_source=item-share-cb) traduire les *consignes* en français. 
