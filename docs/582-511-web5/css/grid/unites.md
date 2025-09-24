@@ -64,6 +64,7 @@ valeur de `minmax(400px, 1fr)`.
 
 VIDÉO
 ![Demo Grid minmax()](../assets/grid-minmax.mp4)
+<video src="../assets/grid-minmax.mp4" width="100%" height="auto" controls>
 
 <p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="MWMNbrb" data-pen-title="Grid - minmax" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWMNbrb">
@@ -105,6 +106,7 @@ disponible**.
 
 VIDÉO
 ![Demo grid repeat fit content](../assets/grid-repeat-fit-content.mp4)
+<video src="../assets/grid-repeat-fit-content.mp4" width="100%" height="auto" controls>
 
 
 !!! Note
@@ -150,3 +152,5 @@ L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
 
 VIDÉO
 ![Grid layout inspector](../assets/grid-inspector-layout.mp4)
+
+<video src="../assets/grid-inspector-layout.mp4" width="100%" height="auto" controls>

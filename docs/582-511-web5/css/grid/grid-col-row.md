@@ -18,7 +18,7 @@ verticale ↕️ de départ et de fin dans la grille*.
 
 Par exemple :
 
-<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="ExGozXP" data-pen-title="Grid - grid-column-start &amp;amp; grid-column-end" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-default-tab="result" data-slug-hash="ExGozXP" data-pen-title="Grid - grid-column-start &amp;amp; grid-column-end" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExGozXP">
   Grid - grid-column-start &amp; grid-column-end</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -43,7 +43,7 @@ Est équivalent à :
 grid-column: 1 / 4;
 ```
 
-<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="JjwMqyb" data-pen-title="Grid - grid-column" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-default-tab="result" data-slug-hash="JjwMqyb" data-pen-title="Grid - grid-column" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwMqyb">
   Grid - grid-column</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

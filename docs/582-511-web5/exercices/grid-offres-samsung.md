@@ -7,6 +7,8 @@ Pour cet exercice, vous devez compléter une grille d’offres promotionnelles p
 
 ![](./assets/grid-samsung-apercu.mp4)
 
+<video src="./assets/grid-samsung-apercu.mp4" width="100%" height="auto" controls>
+
 ## Matériel
 
 [Pen de départ](https://codepen.io/tim-momo/pen/BavJgpX)

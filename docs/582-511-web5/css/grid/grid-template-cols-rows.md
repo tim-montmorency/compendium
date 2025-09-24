@@ -53,3 +53,4 @@ L'*inspecteur* est d'une aide précieuse lorsque l'on manipule des
 
 VIDÉO
 ![Grid layout inspector](../assets/grid-inspector-layout.mp4)
+<video src="../assets/grid-inspector-layout.mp4" width="100%" height="auto" controls>
