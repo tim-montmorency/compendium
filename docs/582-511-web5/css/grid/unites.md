@@ -51,14 +51,14 @@ qu'à droite, les **fractions** se partagent **équitablement l'espace
 restant**, produisant ainsi un résultat **harmonieux**.
 
 
-<p class="codepen" data-height="400" data-default-tab="css" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
+<p class="codepen" data-height="400" data-default-tab="css" data-slug-hash="JjwJBVK" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwJBVK">
   Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="JjwJBVK" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwJBVK">
   Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
@@ -81,7 +81,7 @@ valeur de `minmax(400px, 1fr)`.
 
 <div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=604b6065-f439-496f-8ab8-623366929412&embed=%7B%22af%22%3Atrue%2C%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="grid-minmax.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-<!-- <hr>
+ <hr>
 
 <p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="MWMNbrb" data-pen-title="Grid - minmax" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWMNbrb">
@@ -92,7 +92,7 @@ valeur de `minmax(400px, 1fr)`.
 <br>
 <a href="https://developer.mozilla.org/fr/docs/Web/CSS/minmax" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur l'unité *minmax()*</a> <br>
 
--->
+
 
 
 ## Unité `repeat()`
