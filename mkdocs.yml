@@ -232,7 +232,7 @@ nav:
 
   - Web 5:
       - 582-511-web5/index.md
-      - CSS Grid
+      - CSS Grid:
         - 582-511-web5/css-grid/intro.md
         - Introduction: 582-511-web5/css/grid/intro.md
         - Conteneur: 582-511-web5/css/grid/grid-template-cols-rows.md
