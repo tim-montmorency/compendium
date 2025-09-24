@@ -8,6 +8,7 @@
 ## Aujourd'hui7
 
 - [ ] Annonce tutorat demain
+- [ ] Quiz Vue.js
 - [ ] Révision exercices Vue.js de lundi passé
   - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
   - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
@@ -25,6 +26,8 @@
 
 Tutorat demain 30 septembre entre 11h30 et 14h10.
 Révision pour l'examen: presciptions pédagogiques : obligatoire.
+
+## Quiz Time !
 
 ## Révision exercices Vue.js
 

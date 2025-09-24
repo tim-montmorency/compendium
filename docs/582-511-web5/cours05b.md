@@ -14,9 +14,11 @@ Je considère repousser la *remise du 1er octobre (suivi d'intégration HTML/CSS
 
 Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voici l'horaire de la journée pour Web 5:
 
-- *Groupe 2* du matin commence à 9h50 comme d'habitude mais termine 25min plus tôt, soit à 13h. 
+- *Groupe 2* du matin commence à 9h50 comme d'habitude mais termine 25min plus tôt, soit à 13h.
+  
   *9h50 à 13h*
 - *Groupe 1* d'après-midi commence 45 min plus tôt, soit à 13h40 et termine à 16h45.
+  
   *13h40 à 16h45*
 
 ## Projet portfolio (25%)
@@ -33,18 +35,15 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ## Aujourd'hui
 
-- [ ] Quiz Vue.js
 - [ ] CSS Grid
   - [ ] Introduction
   - [ ] Styles du conteneur: `grid-template-columns` et `grid-template-rows`. 
   - [ ] Espacement avec `gap`. 
   - [ ] Unités `fr`, `minmax()`et `repeat()`.
   - [ ] Styles des éléments enfants à placer: `grid-column` et `grid-row`
-  - [ ] Style du conteneur: `grid-template-areas`
-  - [ ] Style des éléments enfants à placer: `grid-area`
+  - [ ] Définir les 4 coins de l'élément enfant à placer avec `grid-area`
+  - [ ] Style du conteneur: `grid-template-areas`: : nommer des zones dans une grille
 
-
-## Quiz time !
 
 ## CSS Grid
 
@@ -55,7 +54,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-template-cols-rows.md">Styles du conteneur: <code>grid-template-columns</code> et <code>grid-template-rows</code>.</a>
+  <a href="./css/grid/grid-template-cols-rows.md">Styles du conteneur: <br><code>grid-template-columns</code> et <br><code>grid-template-rows</code>.</a>
 </div>
 
 <div class="class-content-link">
@@ -70,7 +69,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-col-row.md">Styles des éléments enfants à placer: <code>grid-column</code> et <code>grid-row</code></a>
+  <a href="./css/grid/grid-col-row.md">Styles des éléments enfants à placer: <br><code>grid-column</code> et <code>grid-row</code></a>
 </div>
 
 ### Exercice
