@@ -234,10 +234,10 @@ nav:
       - 582-511-web5/index.md
       - CSS Grid:
         - 582-511-web5/css/grid/intro.md
-        - Conteneur: 582-511-web5/css/grid/grid-template-cols-rows.md
+        - Conteneur template: 582-511-web5/css/grid/grid-template-cols-rows.md
         - Espacement: 582-511-web5/css/grid/gap.md
         - Unités: 582-511-web5/css/grid/unites.md
-        - Placement col-row: 582-511-web5/css/grid/grid-col-row.md
+        - Placement col row: 582-511-web5/css/grid/grid-col-row.md
         - Placement area: 582-511-web5/css/grid/grid-area.md
         - Nommer espaces areas: 582-511-web5/css/grid/grid-template-areas.md
       - Vue-js:
