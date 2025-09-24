@@ -75,16 +75,16 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ### Exercices
 
-[Exercice Grille de couleurs](./exercices/ex-grid-grille-couleurs/README.md)
-[Exercice Carte de bingo](./exercices/ex-grid-carte-bingo/README.md)
-[Exercice Carte de bingo](./exercices/ex-grid-mise-en-page-simple/README.md)
+[Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/README.md)
+[Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/README.md)
+[Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/README.md)
 
 
 
-[Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/)
+[Exercice 4 Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/)
 Pen de départ pour exercice : https://codepen.io/tim-momo/pen/Bageppw
 
-[Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
+[Exercice 5 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
 
 
 ## CSS Grid (suite)
@@ -110,5 +110,9 @@ Pen de départ pour exercice : https://codepen.io/tim-momo/pen/Bageppw
 [Référence : CSS Tricks: CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/){ .md-button }
 [MDN: Les concepts de base des grilles CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout){ .md-button }
 
+
 ### Exercices
 
+- Exercice 6 : <a href="https://smnarnold.com/exercices/css/grid-joker" target="_blank">Batman - The Killing Joke</a>
+- Exercice 7 : <a href="https://smnarnold.com/exercices/css/grid-offres-samsung" target="_blank">Les offres Samsung</a>
+- Exercice supplémentaire (si tu as terminé) : <a href="https://cssgridgarden.com/#fr" target="_blank" >CSS Grid Garden</a>
