@@ -49,27 +49,27 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/intro.md">CSS Grid: Introduction</a>
+  <a href="./css/grid/intro.html">CSS Grid: Introduction</a>
 </div>
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-template-cols-rows.md">Styles du conteneur: <br><code>grid-template-columns</code> et <br><code>grid-template-rows</code>.</a>
+  <a href="./css/grid/grid-template-cols-rows.html">Styles du conteneur: <br><code>grid-template-columns</code> et <br><code>grid-template-rows</code>.</a>
 </div>
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/gap.md">Espacement avec <code>gap</code>.</a>
+  <a href="./css/grid/gap.html">Espacement avec <code>gap</code>.</a>
 </div>
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/unites.md">Unités <code>fr</code>, <code>minmax()</code> et <code>repeat()</code>.</a>
+  <a href="./css/grid/unites.html">Unités <code>fr</code>, <code>minmax()</code> et <code>repeat()</code>.</a>
 </div>
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-col-row.md">Styles des éléments enfants à placer: <br><code>grid-column</code> et <code>grid-row</code></a>
+  <a href="./css/grid/grid-col-row.html">Styles des éléments enfants à placer: <br><code>grid-column</code> et <code>grid-row</code></a>
 </div>
 
 ### Exercice
@@ -81,13 +81,13 @@ Lien à venir
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-area.md">Définir les 4 coins de l'élément enfant à placer: <code>grid-area</code></a>
+  <a href="./css/grid/grid-area.html">Définir les 4 coins de l'élément enfant à placer: <code>grid-area</code></a>
 </div>
 
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-template-areas.md">Styles du conteneur: <code>grid-template-areas</code>: nommer des zones dans une grille</a>
+  <a href="./css/grid/grid-template-areas.html">Styles du conteneur: <code>grid-template-areas</code>: nommer des zones dans une grille</a>
 </div>
 
 

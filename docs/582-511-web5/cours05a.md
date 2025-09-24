@@ -37,7 +37,6 @@
   <a href="./vue/boucle.html">Vue: Rendu de liste avec v-for</a>
 </div>
 
-<hr>
 
 ## 2 exercices v-for et v-if
 
