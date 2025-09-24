@@ -35,10 +35,6 @@ h1 { margin: 0 0 8px; font-size: 1.5rem; }
   background: var(--card);
   padding: 12px;
   border-radius: 14px;
-  /* display: grid; */
-  /* grid-template-columns: repeat(5, 1fr); */
-  /* grid-template-rows: repeat(5, 80px); */
-  /* gap: 6px; */
 }
 
 .cell {

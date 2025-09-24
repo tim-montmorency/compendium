@@ -44,9 +44,6 @@ body {
   padding: 16px;
   border-radius: 14px;
   border: 1px solid var(--border);
-  /* display: grid; */
-  /* grid-template-columns: 240px 1fr; */
-  /* gap: 16px; */
 }
 
 .nav {
