@@ -234,7 +234,6 @@ nav:
       - 582-511-web5/index.md
       - CSS Grid:
         - 582-511-web5/css/grid/intro.md
-        - Introduction: 582-511-web5/css/grid/intro.md
         - Conteneur: 582-511-web5/css/grid/grid-template-cols-rows.md
         - Espacement: 582-511-web5/css/grid/gap.md
         - Unités: 582-511-web5/css/grid/unites.md
