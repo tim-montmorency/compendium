@@ -75,16 +75,12 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ### Exercices
 
-[Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/README.md)
-[Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/README.md)
-[Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/README.md)
-
-
-
-[Exercice 4 Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/)
-Pen de départ pour exercice : https://codepen.io/tim-momo/pen/Bageppw
-
-[Exercice 5 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
+- [Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/README.md)
+- [Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/README.md)
+- [Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/README.md)
+.
+- [Exercice 4 Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/) Pen de départ pour exercice : https://codepen.io/tim-momo/pen/Bageppw
+- [Exercice 5 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
 
 
 ## CSS Grid (suite)
