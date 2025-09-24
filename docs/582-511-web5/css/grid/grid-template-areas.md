@@ -16,7 +16,8 @@ grid-template-areas:
 <br>
 
 **Autre exemple :**
-Ssi l'élément vert 🟢 représente un menu latéral, l'élément bleu 🔵 le contenu principal et l'élément rouge 🔴 un pied de page, il serait possible de les distribuer dans une grille grâce à `grid-area`:
+
+Si l'élément vert 🟢 représente un menu latéral, l'élément bleu 🔵 le contenu principal et l'élément rouge 🔴 un pied de page, il serait possible de les distribuer dans une grille grâce à `grid-area`:
 
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="ExGozdN" data-pen-title=" Grid - grid-template-area" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ExGozdN">
@@ -25,6 +26,7 @@ Ssi l'élément vert 🟢 représente un menu latéral, l'élément bleu 🔵 le
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+<hr> 
 
 !!! Warning 
     Ne pas mettre de virgule `,` entre chaque ligne.
