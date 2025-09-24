@@ -51,6 +51,5 @@ L'*inspecteur* est d'une aide précieuse lorsque l'on manipule des
 - Lorsque *cliqué*, ce badge met en surbrillance les *divisions* constituant la grille en question.
 - Dans l'onglet *Layout*, il est possible d'afficher des informations supplémentaires : *étendre les divisions* afin de les rendre plus visibles, *afficher la taille* des colonnes et rangées, etc.
 
-VIDÉO
-![Grid layout inspector](../assets/grid-inspector-layout.mp4)
+
 <video src="../assets/grid-inspector-layout.mp4" width="100%" height="auto" controls>
