@@ -116,3 +116,8 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 - [Exercice 5: The Killing Joke](./exercices/grid-joker)
 - [Exercice 6: Les offres Samsung](./exercices/grid-offres-samsung)
 - Exercice supplémentaire 7 (si tu as terminé) : [CSS Grid Garden](https://cssgridgarden.com/#fr")
+
+## Devoirs
+
+- [ ] Terminer les 6 exercices grid css pour mercredi le 1er octobre
+- [ ] Faire l'intégration CSS+HTML de votre portfolio pour mercredi le 1er octobre
