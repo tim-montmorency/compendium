@@ -1,4 +1,4 @@
-# `grid-template-columns` et `grid-template-rows`
+# Conteneur: `grid-template-columns` et `grid-template-rows`
 
 ## `grid-template-columns`
 

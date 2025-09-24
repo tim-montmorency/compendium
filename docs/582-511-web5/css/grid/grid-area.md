@@ -1,5 +1,4 @@
-
-## `grid-area`
+# Placement par les 4 coins avec `grid-area`
 
 La propriété `grid-area` permet de définir en une seule déclaration : -
 `grid-row-start` - `grid-column-start` - `grid-row-end` -

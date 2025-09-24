@@ -1,5 +1,4 @@
-
-## `grid-template-areas`
+# Nommer des zones dans une grille avec `grid-template-areas`
 
 La propriété `grid-template-areas` permet de *nommer des zones dans une
 grille*. Cette approche rend la disposition des éléments plus facile à

@@ -1,4 +1,4 @@
-# `column-gap`, `row-gap` & `gap`
+# Espace avec `column-gap`, `row-gap` & `gap`
 
 Les propriétés `column-gap`, `row-gap` et `gap` permettent de définir des **espaces entre les cellules** d'une grille. Ces propriétés acceptent [toutes les unités de base](https://tim-montmorency.com/timdoc/582-518MO/css/unites/).
 
