@@ -33,9 +33,9 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
 !!! note "À propos de l'utilisation de l'IA pour le projet"
 
-  L'utilisation de l'*IA* est permise pour vous aider à vous déboguer SEULEMENT SI vous *partagez le lien de votre conversation avec l'IA lors de la remise*. Toutes les questions posées doivent être *dans le même fil conversationnel*. Si par erreur vous posez une question dans un autre fil, veuillez remettre *tous les fils conversationnel* que vous aurez utilisés. 
-  
-  Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
+    L'utilisation de l'*IA* est permise pour vous aider à vous déboguer SEULEMENT SI vous *partagez le lien de votre conversation avec l'IA lors de la remise*. Toutes les questions posées doivent être *dans le même fil conversationnel*. Si par erreur vous posez une question dans un autre fil, veuillez remettre *tous les fils conversationnel* que vous aurez utilisés. 
+    
+    Si l'IA sélectionnée ne vous permet pas de partager la conversation, vous devrez alors fournir un *journal-IA.md* contenant une liste de tous vos prompts.
 
 
 ## Consignes (partie 1) pour HTML/CSS
@@ -51,11 +51,11 @@ Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#cr
 
 !!! Important "Important à propos de vos commit git"
 
-  À partir de maintenant, pour ce projet, il vous est demandé d’effectuer le plus de `commit git` possible afin de conserver différentes versions complètes de votre travail. Plus vous en réalisez, plus vous vous protégez contre les pertes ou les erreurs. De plus, ce processus fera partie de votre évaluation.
+    À partir de maintenant, pour ce projet, il vous est demandé d’effectuer le plus de `commit git` possible afin de conserver différentes versions complètes de votre travail. Plus vous en réalisez, plus vous vous protégez contre les pertes ou les erreurs. De plus, ce processus fera partie de votre évaluation.
 
-  Il est également important de bien nommer vos `commit`. Le message doit être clair et représentatif de ce que vous avez accompli. Par exemple, si vous venez de terminer la mise en place de la navigation principale, vous pourriez intituler votre `commit` *Navigation principale stylisée*.
+    Il est également important de bien nommer vos `commit`. Le message doit être clair et représentatif de ce que vous avez accompli. Par exemple, si vous venez de terminer la mise en place de la navigation principale, vous pourriez intituler votre `commit` *Navigation principale stylisée*.
 
-  👉 Petit conseil : pensez à rédiger vos messages de `commit` comme de mini-notes de projet. Ainsi, vous (et éventuellement vos coéquipiers) pourrez rapidement comprendre l’évolution du travail sans devoir fouiller dans le code.
+    👉 Petit conseil : pensez à rédiger vos messages de `commit` comme de mini-notes de projet. Ainsi, vous (et éventuellement vos coéquipiers) pourrez rapidement comprendre l’évolution du travail sans devoir fouiller dans le code.
 
 ## Consignes (partie 2) pour HTML/CSS
 
@@ -78,7 +78,7 @@ Veuillez vous référer aux [critères d'évaluation finale](./portfolio.html#cr
 
 !!! important
 
-  Consultez régulièrement les informations générales du projet pour vous assurer que vous n'oubliez rien, notammenet la [liste de ce qui est obligatoire pour le projet portfolio en Web 5](./portfolio.html#obligatoire-pour-web-5), les [les technologies permises](./portfolio.html#technologies-permises) et les [critères d'évaluation finales](./portfolio.html#criteres-devaluation)
+    Consultez régulièrement les informations générales du projet pour vous assurer que vous n'oubliez rien, notammenet la [liste de ce qui est obligatoire pour le projet portfolio en Web 5](./portfolio.html#obligatoire-pour-web-5), les [les technologies permises](./portfolio.html#technologies-permises) et les [critères d'évaluation finales](./portfolio.html#criteres-devaluation)
 
 
 ## Remise
