@@ -43,7 +43,7 @@ Pour cet exercice, vous devez compléter une grille d’offres promotionnelles p
 - [ ] 1-Le produit en vedette doit être 2x plus large et haut que les autres produits. 
 
 
-!!!
+!!! info
     Attention à respecter l’ordre des produits présentés dans les captures&nbsp;d’écran.
 
 
