@@ -72,12 +72,15 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
   <a href="./css/grid/grid-col-row.html">Styles des éléments enfants à placer: <br><code>grid-column</code> et <code>grid-row</code></a>
 </div>
 
-### Exercice
+### Exercices
 
-Lien à venir
+[Exercice Grille de couleurs](./exercices/ex-grid-grille-couleurs/README.md)
+[Exercice Carte de bingo](./exercices/ex-grid-carte-bingo/README.md)
+[Exercice Carte de bingo](./exercices/ex-grid-mise-en-page-simple/README.md)
+[Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
 
-<!--https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/-->
 
+## CSS Grid (suite)
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
