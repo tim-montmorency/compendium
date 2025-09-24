@@ -32,6 +32,6 @@ Rétroactions
 
 ## Devoir
 
-- Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md) d'ici lundi prochain le 22 septembre.
+- Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md) d'ici lundi prochain le 22 septembre.
 
 - Faire le [design](./projets/portfolio-remise2.md) du [portfolio](./projets/portfolio.md) à remettre avant le cours de mercredi le 24 septembre.

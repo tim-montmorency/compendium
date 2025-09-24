@@ -10,7 +10,7 @@
 - [ ] Annonce tutorat demain
 - [ ] Quiz Vue.js
 - [ ] Révision exercices Vue.js de lundi passé
-  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md)
   - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
   - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
 - [ ] Fetch API
@@ -31,7 +31,7 @@ Révision pour l'examen: presciptions pédagogiques : obligatoire.
 
 ## Révision exercices Vue.js
 
-- [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+- [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md)
 - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
 - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
 

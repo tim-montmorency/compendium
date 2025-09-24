@@ -67,7 +67,7 @@ Voir si vous avez été validés.
 
 ##### 1 exercice 🧑🏽‍💻
 
-[🧑🏽‍💻 NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md){ .md-button } 
+[🧑🏽‍💻 NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md){ .md-button } 
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
 
@@ -89,6 +89,6 @@ Voir si vous avez été validés.
 
 ## Devoir
 
-- Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md) avant lundi prochain le 22 septembre.
+- Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md) avant lundi prochain le 22 septembre.
 
 - Terminer et remettre la [planification](./projets/portfolio-remise1.md) du [portfolio](./projets/portfolio.md) avant le cours de mercredi le 17 septembre

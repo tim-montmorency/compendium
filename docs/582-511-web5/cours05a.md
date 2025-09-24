@@ -20,7 +20,7 @@
 - [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/)
   ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
 
-- [NBA Part.2 - Méthode unique avec paramètres](./exercices/NBA-methode-avec-parametres.md)
+- [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md)
   ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
 
 ## Vue: Condition (v-if, v-else, v-show)
@@ -40,7 +40,7 @@
 
 ## 2 exercices v-for et v-if
 
-[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md){ .md-button } 
+[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md){ .md-button } 
 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
 
@@ -74,7 +74,7 @@
 
 - [ ] Pour mercredi: terminer le [design de votre porfolio](./projets/portfolio-remise2.md)
 - [ ] Pour lundi prochain: Terminer vos exercices *Vue.js*
-  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/collection-films-boucle-v-for.md)
+  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md)
   - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
   - [🤔 Questionnaire Vue](./exercices/vue-questionnaire-w3.md)
   - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
