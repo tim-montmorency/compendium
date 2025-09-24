@@ -104,11 +104,12 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 ### Autres références
 
 [Référence : CSS Tricks: CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/){ .md-button }
+
 [MDN: Les concepts de base des grilles CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout){ .md-button }
 
 
 ### Exercices
 
-- Exercice 6 : [The Killing Joke](./exercices/grid-joker)
-- Exercice 7 : [Les offres Samsung](./exercices/grid-offres-samsung)
+- [Exercice 6: The Killing Joke](./exercices/grid-joker)
+- [Exercice 7: Les offres Samsung](./exercices/grid-offres-samsung)
 - Exercice supplémentaire (si tu as terminé) : [CSS Grid Garden](https://cssgridgarden.com/#fr")
