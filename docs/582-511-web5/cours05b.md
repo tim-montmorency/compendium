@@ -75,9 +75,9 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ### Exercices
 
-- [Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/README.md)
-- [Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/README.md)
-- [Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/README.md)
+- [Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/index.md)
+- [Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/index.md)
+- [Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/index.md)
 .
 - [Exercice 4 Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/) 
 - [Exercice 5 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
