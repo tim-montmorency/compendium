@@ -9,6 +9,17 @@
   width: 50% !important;
   height: auto;
 }
+.w-33 {
+  width: 33.33% !important;
+  height: auto;
+}
+.w-25 {
+  width: 25% !important;
+  height: auto;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
 img.center {
   display: block;
   margin: 0 auto;
@@ -284,6 +295,7 @@ body[data-md-color-scheme="slate"] img.invert {
 .md-typeset .grid.gap-none {
   grid-gap: 0;
 }
+.md-typeset .grid.align-items-start,
 .md-typeset .grid.align-items-top {
   align-items: flex-start;
 }

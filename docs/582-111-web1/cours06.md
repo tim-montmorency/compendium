@@ -1,7 +1,5 @@
 # Cours 6
 
-[STOP]
-
 [^wireframe]: [Maquette conceptuelle | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529188/maquette-conceptuelle)
 
 [^wfbp]: [Wireframing Best Practices | uxcel](https://app.uxcel.com/courses/designing-wireframes/wireframing-best-practices-816)
@@ -29,7 +27,7 @@ Une fois cette étape terminée, les étapes de design subséquentes sont grande
 
 On peut faire un wireframe sous forme de croquis (sketch) ou avec un logiciel d'édition graphique.
 
-L'idée est de dessiner de manière la plus sobre possible l'information qui sera affichée dans notre projet.
+L'idée est de représenter l'information qui sera affichée dans notre projet de la manière la plus sobre possible.
 
 Voici comment représenter les composantes d'un site Web :
 
@@ -44,7 +42,7 @@ Image
 ![](./assets/images/wireframe-texte.png){data-zoom-image}
 
 Texte
-<br><small>Une police comme Comic sans 👌</small>
+<br><small>Une police comme Comic Sans 👌</small>
 </div>
 
 <div class="grid grid-1-3" markdown>
@@ -54,11 +52,11 @@ Bouton
 <br><small>Sobre et simple</small>
 </div>
 
-:simple-figma: Figma est un outil excellent pour ce genre de chose. Il y a d'ailleurs plein de [modèles de wireframe](https://www.figma.com/community/wireframes) de disponible gratuitement.
+:simple-figma: Figma est un excellent outil pour ce genre de choses. Il y a d'ailleurs plein de [modèles de wireframe](https://www.figma.com/community/wireframes) disponibles gratuitement.
 
-On peut aussi très bien utiliser :simple-diagramsdotnet: Draw.io qu'on connait bien pour arriver au même résultat.
+On peut aussi très bien utiliser :simple-diagramsdotnet: Draw.io, qu'on connaît bien, pour arriver au même résultat.
 
-Il existe aussi plein d'outils comme [relume](https://www.relume.io/) qui utilise l'IA pour générer des wireframes et plus encore. Le hic c'est qu'ils sont tous payants.
+Il existe aussi plein d'outils comme [relume](https://www.relume.io/) qui utilise l'IA pour générer des wireframes et plus encore. Le hic, c'est qu'ils sont tous payants.
 
 ### Bonnes pratiques
 
@@ -84,7 +82,7 @@ La seule couleur permise serait le bleu pour spécifier un lien html, mais encor
 
 #### Éviter les styles 💅
 
-Il vaut mieux être sobre, kit à être laid, pour éviter de se concentrer sur le look au lieu de la fonctionnalité.
+Il vaut mieux être sobre, quitte à être laid, pour éviter de se concentrer sur le look au lieu de la fonctionnalité.
 
 <div class="grid" markdown>
 <figure markdown>
@@ -118,9 +116,9 @@ Cette régularité rendra ton wireframe plus clair et donnera une impression plu
 
 #### Utiliser le vrai contenu 🎯
 
-On est souvent tenté de mettre du contenu textuel bidon dans les wireframe, mais c'est une erreur.
+On est souvent tenté de mettre du contenu textuel bidon dans les wireframes, mais c'est une erreur.
 
-En effet, la phase de wireframe doit tenter, autant que possible, de positionner l'information finale. Ça évite beaucoup de problème par la suite !
+En effet, la phase de wireframe doit tenter, autant que possible, de positionner l'information finale. Ça évite beaucoup de problèmes par la suite !
 
 <div class="grid" markdown>
 <figure markdown>
@@ -138,7 +136,7 @@ En effet, la phase de wireframe doit tenter, autant que possible, de positionner
 
 Il est important dans le processus de bien expliquer le comportement désiré d'une page.
 
-Ça facilite beaucoup la compréhension du design d'information et défini aussi les attentes.
+Cela facilite beaucoup la compréhension de la conception de l'information et définit aussi les attentes.
 
 <div class="grid" markdown>
 <figure markdown>
@@ -151,6 +149,14 @@ Il est important dans le processus de bien expliquer le comportement désiré d'
 <figcaption>Ok</figcaption>
 </figure>
 </div>
+
+!!! example "draw.io + wireframe"
+
+    **🧑‍🏫 Démo du prof**
+
+	![](./assets/images/draw-io-plus.png){.w-25 data-zoom-image}
+	![](./assets/images/draw-io-formes.png){.w-25 data-zoom-image}
+	![](./assets/images/draw-io-wireframes.png){.w-25 data-zoom-image}
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices/tenet/preview.gif)
@@ -220,13 +226,13 @@ Pour utiliser les fichiers générés par favicon.io, traditionnellement, on les
 </head>
 ```
 
-Les plus perspicaces, auront remarqué qu'il y a plus de fichiers généré que de balise link dans le html. C'est normal. C'est le fichier webmanifest qui gère le reste des images (sur android par exemple).
+Les plus perspicaces auront remarqué qu'il y a plus de fichiers générés que de balises `<link>` dans le HTML. C'est normal : c'est le fichier webmanifest qui gère le reste des images (sur Android, par exemple).
 
 #### RealFaviconGenerator.net (juste rapide)
 
 ![](./assets/images/realfavicon-logo.png)
 
-Sur [RealFaviconGenerator.net](https://realfavicongenerator.net), on peut ajouter une image en format `svg` pour générer toutes les favicônes nécessaires. L'avantage de ce site par rapport à l'autre c'est surtout sa prise en charge d'un format vectoriel.
+Sur [RealFaviconGenerator.net](https://realfavicongenerator.net), on peut ajouter une image en format `svg` pour générer toutes les favicônes nécessaires. L'avantage de ce site par rapport à l'autre, c'est surtout sa prise en charge d'un format vectoriel.
 
 <figure markdown>
 ![](./assets/images/RealFaviconGenerator.png){data-zoom-image}
@@ -247,7 +253,7 @@ Pour utiliser les fichiers générés par RealFaviconGenerator.net, traditionnel
 </head>
 ```
 
-Comme on peut voir, il y a d'avantage d'information ajoutée dans le html. En effet, RealFaviconGenerator.net est préférable 🥰, car il est plus complet.
+Comme on peut voir, il y a davantage d'informations ajoutées dans le HTML. En effet, RealFaviconGenerator.net est préférable 🥰, car il est plus complet.
 
 ### Au sujet des formats
 
@@ -258,10 +264,10 @@ Historiquement, le seul format des favicons était `.ico`. Aujourd’hui, le for
 Idéalement, on doit avoir une image de **1024px x 1024px** (svg, sinon png) pour concevoir une favicône contemporaine. À partir de cette grande image, on génère toutes les tailles nécessaires (16, 32, 180, 192, 512).
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/mon-icone-favorite/preview.webp)
+  ![](./exercices/iconique/preview.webp)
 
   <small>Exercice - HTML</small><br>
-  **[Mon icône favorite](./exercices/mon-icone-favorite/index.md){.stretched-link .back}**
+  **[Iconique](./exercices/iconique/index.md){.stretched-link .back}**
 </div>
 
 ## Balises details et summary
@@ -283,33 +289,6 @@ Par défaut, le contenu est caché. Lorsque l’utilisateur clique sur la balise
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Préparation à l’examen (révision HTML5)
-
-L’examen portera sur toute la matière vue depuis le début du cours.
-L’objectif est de consolider vos acquis et de vérifier que vous maîtrisez les fondamentaux de HTML5.
-
-Rappel de la matière
-
-* Structure de base (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
-* Balises de structure : `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
-* Titres `<h1>` à `<h6>`
-* Paragraphes, emphase (`<p>`, `<em>`, `<strong>`)
-* Listes (`<ul>`, `<ol>`, `<li>`)
-* Images et attributs (`<img src="" alt="">`)
-* Liens (`<a href="" target="">`)
-* Audio / vidéo (`<audio>`, `<video>`)
-* Tableaux (`<table>`, `<tr>`, `<td>`, `<th>`)
-* Formulaires (`<form>`, `<input>`, `<textarea>`, `<label>`)
-* Attributs globaux (class, id, title, alt)
-* Nommage en kebab-case
-* Chemins relatifs
-
-Exercices de révision
-
-* Reproduisez une petite page complète en respectant toutes les consignes (image au format 16:9, audio, navigation, listes, etc.).
-* Faites un mini-quiz (QCM) où vous devez identifier les erreurs HTML dans un extrait de code.
-* Transformez un texte brut en page Web structurée et sémantique en utilisant les bonnes balises.
-
 <div class="grid grid-1-2" markdown>
   ![](./exercices/funk/plfunk.jpg)
 
@@ -317,61 +296,125 @@ Exercices de révision
   **[Quiz Funk](./exercices/funk/index.md){.stretched-link .back}**
 </div>
 
+## Révision HTML
 
+L’examen portera sur toute la matière vue depuis le premier cours. L’objectif est de consolider vos acquis et de vérifier que vous maîtrisez les fondamentaux de HTML5.
 
+* Notation kebab
+* Structure de base (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
+* Balises de structure : `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
+* Titres `<h1>` à `<h6>`
+* Paragraphes, emphase (`<p>`, `<em>`, `<strong>`)
+* Listes (`<ul>`, `<ol>`, `<li>`)
+* Images et attributs (`<img src="" alt="">`)
+* Liens (`<a href="" target="">`)
+* Audio / vidéo (`<audio>`, `<video>`, `<source>`)
+* Tableaux (`<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`, `<tfoot>`)
+* Formulaires (`<form>`, `<input>`, `<textarea>`, `<label>`)
+* Attributs globaux (class, id, title, alt)
 
+!!! example "Révision"
 
+    **🧑‍🏫 Démo du prof**
 
+<!-- [Résumé du HTML 5](html/resume.md){.back} -->
 
+## Révision - chemins relatifs
 
+### C'est quoi un chemin ?
 
+Un chemin, c’est comme une adresse pour un fichier. Il indique où se trouve une image, une page ou un document dans ton projet.
 
+```html title="Exemple"
+<img src="assets/images/arbres.png" alt="Vue du ciel de la forêt amazonienne">
+```
 
+Ici, `assets/images/arbres.png` est le chemin qui mène à l’image `arbres.png`.
 
+### C’est quoi « relatif » ?
 
+Relatif veut dire « par rapport à l'endroit où tu es ». Si j'édite le fichier allo.html, relatif veut dire à partir de l'endroit où est situé ce fichier sur l'ordinateur.
 
+Si la page et l’image sont dans le même dossier, le chemin est juste le nom du fichier :
 
+<div class="grid align-items-start" markdown>
+```html title="about.html"
+<img src="./chat.png">
+```
 
+```text title="Structure du projet"
+📁 mon-site
+ ├── about.html
+ └── chat.png
+```
+</div>
 
+Si l’image est dans un sous-dossier, on dit qu'on « descend » dedans :
 
+<div class="grid align-items-start" markdown>
+```html title="about.html"
+<img src="./images/chat.png">
+```
 
+```text title="Structure du projet"
+📁 mon-site
+ ├── about.html
+ └── 📁 images
+      └── chat.png
+```
+</div>
 
+Si le fichier n'est pas accessible via le dossier dans lequel on se trouve, on doit « remonter » avec des `../` :
 
+<div class="grid align-items-start" markdown>
+```html title="about.html"
+<img src="../images/chat.png">
+```
 
+```text title="Structure du projet"
+📁 mon-site
+ ├── 📁 pages
+ |   └── about.html
+ └── 📁 images
+     └── chat.png
+```
+</div>
 
+Si le fichier est très creux, on peut utiliser remonter de plusieurs dossiers :
 
+<div class="grid align-items-start" markdown>
+```html title="about.html"
+<img src="../../../images/chat.png">
+```
 
+```text title="Structure du projet"
+📁 mon-site
+ ├── 📁 pages
+ |   └── 📁 trop
+ |       └── 📁 cool
+ |           └── about.html
+ └── 📁 images
+     └── chat.png
+```
+</div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/chat-souris/preview.png)
 
+  <small>Exercice - Chemins relatifs</small><br>
+  **[Itcky et Scratchy](./exercices/chat-souris/index.md){.stretched-link .back}**
+</div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/la-faute/preview2.gif)
 
+  <small>Exercice - HTML</small><br>
+  **[Trouvez les erreurs](./exercices/la-faute/index.md){.stretched-link .back}**
+</div>
 
-## Favicon - Mega Man
+## TP
 
-[favicon de Mega Man.](exercices/megaman.md)
-
-## Details & Summary
-
-[Les balises `<details>` et `<summary>`](html/details-summary.md)
-
-## Details & Summary - Quiz Marc Labrèche
-
-[quiz](exercices/quiz-marc-labreche.md)
-
-## Résumé / Préparation à l'examen
-
-[Résumé du HTML 5](html/resume.md)
-
-## Exercice Résumé
-[Pour cet exercice, vous devrez compléter le site web](exercices/le-cirque.md)
-
-Séance de travail supervisée pour le TP1
-
-
-TP : 
-
-Lier les deux histoires ensemble!
-
+Le reste de la période est consacré au développement du TP
 
 [STOP]
 
