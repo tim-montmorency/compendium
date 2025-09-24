@@ -2,170 +2,382 @@
 
 [STOP]
 
-Préparation à l'examen
-Séance de travail supervisée pour le TP1
+[^wireframe]: [Maquette conceptuelle | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529188/maquette-conceptuelle)
 
-## Wireframe
+[^wfbp]: [Wireframing Best Practices | uxcel](https://app.uxcel.com/courses/designing-wireframes/wireframing-best-practices-816)
 
-Papier / crayon
-Draw.io
-Relume
+## Maquette conceptuelle
 
-Exercice : wireframe d'un site existant (ex: https://www.instagram.com)
-Exercice : wireframe d'une interface de jeu vidéo (accueil, jeu)
+<!-- ![](./assets/images/wireframing.jpg){ .w-100 } -->
+![](./assets/images/wireframe-to-design.webp){ .w-100 data-zoom-image }
 
-## Formulaires
+Le wireframe (ou maquette conceptuelle[^wireframe]) est une représentation simple, schématique, d’une interface.
 
-### Structure de base
+C’est un outil de planification qui sert à :
 
-![](./assets/images/forms-form.png)
+* organiser le contenu (titres, paragraphes, images, menus)
+* structurer la navigation entre les pages
+* établir une hiérarchie claire de l’information
 
-Balise : [`<form>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/form)
+En vrai, ça sert surtout à gagner du temps et à réfléchir au contenant plutôt qu'au contenu d'un projet.
 
-Attributs :
+Une fois cette étape terminée, les étapes de design subséquentes sont grandement facilitées. C'est toujours plus simple de faire le design (ou _mockup_) sans avoir à réfléchir à la structure ou le contenu.
 
-* **action=""** : URL où envoyer les données du formulaire. Dans le cadre du cours, les données ne pourront pas être traitées, car cela nécessite un langage de programmation côté serveur (comme PHP), ce qu’on ne couvre pas ici. On peut donc utiliser action="#" ou laisser vide pour rester sur la même page.
-* **method=""** : Deux valeurs possibles :
-  * **get** : envoie le contenu du formulaire dans l’URL (visible dans la barre d’adresse).
-  * **post** : envoie les données de façon invisible, mais ne fonctionne que si un serveur est capable de les traiter, ce qui ne sera pas le cas dans le cours.
+### Comment ça marche ?
 
-```html title="Exemple"
-<form action="merci.html" method="get">
+![](./assets/images/wireframes.gif){.w-100 data-zoom-image}
 
-  <!-- Ici on insère les champs du formulaire -->
-  
-</form>
+On peut faire un wireframe sous forme de croquis (sketch) ou avec un logiciel d'édition graphique.
+
+L'idée est de dessiner de manière la plus sobre possible l'information qui sera affichée dans notre projet.
+
+Voici comment représenter les composantes d'un site Web :
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/wireframe-image.png){data-zoom-image}
+
+Image
+<br><small>Un rectangle avec un X superposé</small>
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/wireframe-texte.png){data-zoom-image}
+
+Texte
+<br><small>Une police comme Comic sans 👌</small>
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/images/wireframe-bouton.png){data-zoom-image}
+
+Bouton
+<br><small>Sobre et simple</small>
+</div>
+
+:simple-figma: Figma est un outil excellent pour ce genre de chose. Il y a d'ailleurs plein de [modèles de wireframe](https://www.figma.com/community/wireframes) de disponible gratuitement.
+
+On peut aussi très bien utiliser :simple-diagramsdotnet: Draw.io qu'on connait bien pour arriver au même résultat.
+
+Il existe aussi plein d'outils comme [relume](https://www.relume.io/) qui utilise l'IA pour générer des wireframes et plus encore. Le hic c'est qu'ils sont tous payants.
+
+### Bonnes pratiques
+
+Pour bien effectuer la phase de _wireframing_, il y a certaines contraintes[^wfbp] à respecter.
+
+#### Éviter les couleurs 🌈
+
+On évite normalement les couleurs dans un Wireframe, car on ne veut pas discuter du design graphique à cette étape.
+
+La seule couleur permise serait le bleu pour spécifier un lien html, mais encore là, on pourrait utiliser la barre de soulignement pour indiquer la chose.
+
+<div class="grid" markdown>
+<figure markdown>
+![](./assets/images/wireframe-do.avif){data-zoom-image}
+<figcaption>👌 Bonne pratique</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/wireframe-dont.webp){data-zoom-image}
+<figcaption>🙅 À éviter</figcaption>
+</figure>
+</div>
+
+#### Éviter les styles 💅
+
+Il vaut mieux être sobre, kit à être laid, pour éviter de se concentrer sur le look au lieu de la fonctionnalité.
+
+<div class="grid" markdown>
+<figure markdown>
+![](./assets/images/wireframe-do2.webp){data-zoom-image}
+<figcaption>👌 Bonne pratique</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/wireframe-dont2.webp){data-zoom-image}
+<figcaption>🙅 À éviter</figcaption>
+</figure>
+</div>
+
+#### Rester homogène 🏠🏠🏠
+
+Un wireframe n’a pas besoin d’être beau ni stylisé, mais il doit rester uniforme et prévisible.
+
+Cette régularité rendra ton wireframe plus clair et donnera une impression plus professionnelle, même s’il reste simple.
+
+<div class="grid" markdown>
+<figure markdown>
+![](./assets/images/wireframe-do3.webp){data-zoom-image}
+<figcaption>👌 Bonne pratique</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/wireframe-dont3.webp){data-zoom-image}
+<figcaption>🙅 À éviter</figcaption>
+</figure>
+</div>
+
+#### Utiliser le vrai contenu 🎯
+
+On est souvent tenté de mettre du contenu textuel bidon dans les wireframe, mais c'est une erreur.
+
+En effet, la phase de wireframe doit tenter, autant que possible, de positionner l'information finale. Ça évite beaucoup de problème par la suite !
+
+<div class="grid" markdown>
+<figure markdown>
+![](./assets/images/wireframe-do4.webp){data-zoom-image}
+<figcaption>👌 Bonne pratique</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/wireframe-dont4.webp){data-zoom-image}
+<figcaption>🙅 À éviter</figcaption>
+</figure>
+</div>
+
+#### Annoter pour la peine ! 🖋️
+
+Il est important dans le processus de bien expliquer le comportement désiré d'une page.
+
+Ça facilite beaucoup la compréhension du design d'information et défini aussi les attentes.
+
+<div class="grid" markdown>
+<figure markdown>
+![](./assets/images/wireframe-do5.webp){data-zoom-image}
+<figcaption>👌 Super !</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/wireframe-dont5.webp){data-zoom-image}
+<figcaption>Ok</figcaption>
+</figure>
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/tenet/preview.gif)
+
+  <small>Exercice - Wireframe</small><br>
+  **[Tenet](./exercices/tenet/index.md){.stretched-link .back}**
+</div>
+
+## Favicône
+
+![](./assets/images/mailchimp-favicon.png){.w-100}
+
+### C'est quoi une favicône ?
+
+Prenez un instant pour regarder les onglets dans votre navigateur. Les petites icônes qu'ils renferment se nomment des [favoricônes](https://developer.mozilla.org/en-US/docs/Glossary/Favicon) (ou _favicon_).
+
+![favicons-tabs](./assets/images/favicon-tabs.png)
+
+Ces icônes sont utilisées à plusieurs sauces afin d’aider à identifier rapidement certains sites dans différents contextes. Par exemple, plusieurs navigateurs proposent une page d’accueil présentant nos sites préférés ou régulièrement visités avec leur icône bien visible.
+
+![favicons-browser-home](./assets/images/favicon-google-homepage.png)
+
+Les appareils mobiles les utilisent également lorsqu'un site est ajouté à l’écran d’accueil par exemple : 
+
+<div class="grid" markdown>
+![](./assets/images/mobile-favori.png){data-zoom-image}
+
+![](./assets/images/mobile-favori2.png){data-zoom-image}
+</div>
+
+Les favoris **(bookmarks)** d’un navigateur les affichent afin d’aider à trouver rapidement le site recherché.
+
+![favicons-bookmark](./assets/images/favicon-favoris.png)
+
+!!! note
+
+    À l’origine le nom **"favicon"** provient de la contraction des mots **"Favourite"** et **"Icon"** puisqu’ils étaient initialement utilisés uniquement pour les favoris.
+
+### Création
+
+Il fut un temps où les favicons avaient une dimension fixe de **16px × 16px**.  
+
+Avec l’évolution des usages et la variété des appareils (mobiles, tablettes, écrans haute résolution, Progressive Web Apps), plusieurs formats sont maintenant nécessaires pour assurer un affichage optimal.  
+
+Nous allons explorer 2 méthodes. L'une est rapide, l'autre est rapide-rapide 🤪.
+
+#### Favicon.io (rapide-rapide)
+
+![](./assets/images/favicon-io-logo.png)
+
+Sur [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/), on peut ajouter une image en format `png` pour générer toutes les favicônes nécessaires.
+
+<figure markdown>
+![](./assets/images/favicon-io.png){data-zoom-image}
+<figcaption>Fichiers générés par favicon.io</figcaption>
+</figure>
+
+Pour utiliser les fichiers générés par favicon.io, traditionnellement, on les place à la racine du projet. Puis dans le html, on doit ajouter les balises link :
+
+```html title="HTML"
+<head>
+  <!-- ... -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
 ```
 
-### Champs
+Les plus perspicaces, auront remarqué qu'il y a plus de fichiers généré que de balise link dans le html. C'est normal. C'est le fichier webmanifest qui gère le reste des images (sur android par exemple).
 
-![](./assets/images/forms-input.png)
+#### RealFaviconGenerator.net (juste rapide)
 
-Balises : [`<input>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/input), [`<textarea>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/textarea), [`<select>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/select)
+![](./assets/images/realfavicon-logo.png)
 
-| Balise                    | Usage            | Exemple                              |
-| ------------------------- | ---------------- | ------------------------------------ |
-| `<input type="text">`     | Champ texte      | <form><input type="text"></form>     |
-| `<input type="email">`    | Courriel         | <form><input type="email"></form>    |
-| `<input type="password">` | Mot de passe     | <form><input type="password"></form> |
-| `<input type="radio">`    | Choix unique     | <form><input type="radio" name="rad">1<input type="radio" name="rad">2<input type="radio" name="rad">3</form> |
-| `<input type="checkbox">` | Choix multiples  | <form><input type="checkbox">1<input type="checkbox">2<input type="checkbox">3</form> |
-| `<select>` `<option>`     | Liste déroulante | <form><select><option>1</option><option>2</option><option>3</option></select></form> |
-| `<input type="submit">`   | Bouton d’envoi   | <form><input type="submit"></form>   |
-| `<textarea>`              | Zone de texte    | <form><textarea></form>              |
+Sur [RealFaviconGenerator.net](https://realfavicongenerator.net), on peut ajouter une image en format `svg` pour générer toutes les favicônes nécessaires. L'avantage de ce site par rapport à l'autre c'est surtout sa prise en charge d'un format vectoriel.
 
-Les [attributs de champ de formulaire](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/input#attributs) sont nombreux. Voici une courte liste des plus utilisés :
+<figure markdown>
+![](./assets/images/RealFaviconGenerator.png){data-zoom-image}
+<figcaption>Fichiers générés par RealFaviconGenerator</figcaption>
+</figure>
 
-* **required** : Le champ avec cet attribut soit être rempli pour soumettre le formulaire
-* **disabled** : Désactive l'interactivité du champ.
-* **placeholder** : Affiche un exemple de ce qui pourrait se trouver dans le champ. **Ne remplace pas la balise `<label>`**.
-* **value** : Inscrit une valeur par défaut au chargement de la page
-* **checked** : Un peu comme value, on peut définir si un radio ou un checkbox est coché par défaut.
-* **name** : l'attribut name est essentiel pour que le langage de programmation côté serveur puisse associer un champ à sa valeur.
-* **id** : Surtout utile pour la balise `<label>`.
+Pour utiliser les fichiers générés par RealFaviconGenerator.net, traditionnellement, on les place à la racine du projet. Puis dans le html, on doit ajouter les balises link :
 
-<iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - Audio" src="https://codepen.io/tim-momo/embed/MYaeKgZ?%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/MYaeKgZ">
-  Web 1 - Audio</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+```html title="HTML"
+<head>
+  <!-- ... -->
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Momo" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+```
+
+Comme on peut voir, il y a d'avantage d'information ajoutée dans le html. En effet, RealFaviconGenerator.net est préférable 🥰, car il est plus complet.
+
+### Au sujet des formats
+
+![](./assets/images/ico-png-sng.png)
+
+Historiquement, le seul format des favicons était `.ico`. Aujourd’hui, le format `.png` est largement utilisé et même le format `.svg` (malgré sa [compatibilité limitée](https://caniuse.com/link-icon-svg))!
+
+Idéalement, on doit avoir une image de **1024px x 1024px** (svg, sinon png) pour concevoir une favicône contemporaine. À partir de cette grande image, on génère toutes les tailles nécessaires (16, 32, 180, 192, 512).
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/mon-icone-favorite/preview.webp)
+
+  <small>Exercice - HTML</small><br>
+  **[Mon icône favorite](./exercices/mon-icone-favorite/index.md){.stretched-link .back}**
+</div>
+
+## Balises details et summary
+
+Les balises `<details>` et `<summary>` permettent de créer des zones de contenu repliables et dépliables directement en HTML.
+
+Par défaut, le contenu est caché. Lorsque l’utilisateur clique sur la balise `<summary>`, le contenu s’affiche.
+
+```html title="Exemple"
+<details>
+  <summary>Qui était Gengis Khan ?</summary>
+  <p>Gengis Khan (1162-1227) fut le fondateur et le premier Grand Khan de l’Empire mongol. Sous son commandement, l’empire devint le plus vaste territoire contigu de l’histoire, reliant l’Asie et l’Europe grâce à ses conquêtes.</p>
+</details>
+```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="HTML - textarea" src="https://codepen.io/tim-momo/embed/ZYQGNyz?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ZYQGNyz">
+  HTML - textarea</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-### Label
+## Préparation à l’examen (révision HTML5)
 
-![](./assets/images/forms-label.png)
+L’examen portera sur toute la matière vue depuis le début du cours.
+L’objectif est de consolider vos acquis et de vérifier que vous maîtrisez les fondamentaux de HTML5.
 
-Chaque champ doit être accompagné d'un libellé. Pour l'associer à un champ, on doit appliquer un id au champ et spécifier le id dans l'attribut for de la balise label.
+Rappel de la matière
 
-| Balise                    | Usage            | Exemple          |
-| ------------------------- | ---------------- | ---------------- |
-| `<label for="">`          | Libellé de champ | <form><label for="ttt">Prénom</lable><br><input id="ttt" type="text"></form> |
+* Structure de base (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
+* Balises de structure : `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
+* Titres `<h1>` à `<h6>`
+* Paragraphes, emphase (`<p>`, `<em>`, `<strong>`)
+* Listes (`<ul>`, `<ol>`, `<li>`)
+* Images et attributs (`<img src="" alt="">`)
+* Liens (`<a href="" target="">`)
+* Audio / vidéo (`<audio>`, `<video>`)
+* Tableaux (`<table>`, `<tr>`, `<td>`, `<th>`)
+* Formulaires (`<form>`, `<input>`, `<textarea>`, `<label>`)
+* Attributs globaux (class, id, title, alt)
+* Nommage en kebab-case
+* Chemins relatifs
 
-Exemple : Avec association for et sans.
+Exercices de révision
 
-!!! example "Post vs. Get"
+* Reproduisez une petite page complète en respectant toutes les consignes (image au format 16:9, audio, navigation, listes, etc.).
+* Faites un mini-quiz (QCM) où vous devez identifier les erreurs HTML dans un extrait de code.
+* Transformez un texte brut en page Web structurée et sémantique en utilisant les bonnes balises.
 
-	Démonstration post-vs-get: [formulaire.zip](./exercices/formulaire.zip){ download }
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/funk/plfunk.jpg)
 
-## Ébauche structurelle
-
-![](./assets/images/wireframe.gif)
-
-L’ébauche structurelle (ou wireframe en anglais) est une maquette simplifiée qui permet de planifier l’organisation du contenu d’une page Web avant d’en aborder le design ou le codage. C’est une méthode rapide et peu coûteuse pour valider la disposition des éléments. Elle se fait souvent sur papier, mais des outils comme Balsamiq, Figma ou Adobe XD sont couramment utilisés en industrie.
-
-Relume https://www.relume.io/
-
-Important : aucune couleur, aucune image, aucun style — uniquement la structure.
-
-!!! warning "Un outil conceptuel, pas visuel"
-
-	Il arrive qu’un client ne voie pas l’intérêt d’un wireframe et préfère passer directement à une maquette graphique. 
-	
-	Cette étape permet de se concentrer sur le contenu et l’architecture, sans être distrait par des questions de design. 
-	
-	Cela évite les commentaires hors propos du type « je n’aime pas la couleur » et recentre la discussion sur l’essentiel : *quelles informations doivent apparaître et où*.
-
-
-
-## Formulaire avancé
-![icon (14)](https://github.com/user-attachments/assets/eceb7f15-970e-47d5-b4a4-c9d8e9f791a2)
-
-[number, password, email, tel, date, etc.](https://tim-montmorency.com/compendium/582-111–web1/html/formulaire-avance.md)
-<br>
-<br>
-## Exercice Among Us
-
-![amang us](https://github.com/user-attachments/assets/a732821d-1d18-4da2-acbb-dff025530350)
+  <small>Exercice - HTML</small><br>
+  **[Quiz Funk](./exercices/funk/index.md){.stretched-link .back}**
+</div>
 
 
 
-[Exercice Among Us](https://tim-montmorency.com/compendium/582-111–web1/exercices/amongus.md)
-<br>
-<br>
-## Favicon
-
-![icon (15)](https://github.com/user-attachments/assets/6dc99ed5-8a77-4219-8f08-9ac23ad6c48b)
 
 
 
-[icônes de navigateur](https://tim-montmorency.com/compendium/582-111–web1/html/favicon.md)
-<br>
-<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Favicon - Mega Man
 
-![thumb (3)](https://github.com/user-attachments/assets/30dfb031-bc72-44b5-9ee7-9a64e6ab2ab0)
+[favicon de Mega Man.](exercices/megaman.md)
 
-
-
-[Pour cet exercice, vous devrez créer un fichier HTML affichant dans l’onglet de votre navigateur un favicon de Mega Man.](https://tim-montmorency.com/compendium/582-111–web1/exercices/megaman.md)
-<br>
-<br>
 ## Details & Summary
-![icon (16)](https://github.com/user-attachments/assets/23e746a9-068a-4678-9540-b2e69fd91792)
 
-
-[Les balises `<details>` et `<summary>`](https://tim-montmorency.com/compendium/582-111–web1/html/details-summary.md)
-<br>
-<br>
+[Les balises `<details>` et `<summary>`](html/details-summary.md)
 
 ## Details & Summary - Quiz Marc Labrèche
 
-![thumb (4)](https://github.com/user-attachments/assets/9969a18f-0785-47b1-a0a9-323cfabbc5fb)
+[quiz](exercices/quiz-marc-labreche.md)
 
+## Résumé / Préparation à l'examen
 
-[Pour cet exercice, vous devrez recréer un mini quiz portant Marc Labrèche à l’aide des balises details et summary.](https://tim-montmorency.com/compendium/582-111–web1/exercices/quiz-marc-labreche.md)
-<br>
-<br>
-
-## Résumé
-![icon (17)](https://github.com/user-attachments/assets/543b638e-38ff-4764-8120-bb5e77d4a5c5)
-
-
-[Résumé du HTML 5](https://tim-montmorency.com/compendium/582-111–web1/html/resume.md)
+[Résumé du HTML 5](html/resume.md)
 
 ## Exercice Résumé
-![circus-tent_2662723](https://github.com/user-attachments/assets/3eb15a75-9e21-4d8f-beb8-608c6ca35a70)
+[Pour cet exercice, vous devrez compléter le site web](exercices/le-cirque.md)
+
+Séance de travail supervisée pour le TP1
 
 
-[Pour cet exercice, vous devrez compléter le site web](https://tim-montmorency.com/compendium/582-111–web1/exercices/le-cirque.md)
+TP : 
+
+Lier les deux histoires ensemble!
 
 
+[STOP]
+
+https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529220/ebauche-structurelle
+https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529188/maquette-conceptuelle
+https://dribbble.com/shots/978949-Responsive-Wireframe-Templates-GIF
+https://dribbble.com/shots/1017934-Free-responsive-wireframes-GIF
+https://www.flux-academy.com/blog/beginners-guide-to-wireframing-for-website-design
+https://app.uxcel.com/courses/designing-wireframes/wireframing-best-practices-816
