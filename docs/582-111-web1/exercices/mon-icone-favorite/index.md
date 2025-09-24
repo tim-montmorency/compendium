@@ -4,7 +4,7 @@ tags:
   - Favicon
 ---
 
-# Mon icône favorite
+# Iconique
 
 ![](./Wednesday-Netflix.avif)
 

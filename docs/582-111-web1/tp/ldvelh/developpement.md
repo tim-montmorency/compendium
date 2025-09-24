@@ -82,6 +82,15 @@ Une scène ressemblera à ceci :
 | Lebire, Hugo                      | tp1-70815   | tp1-83995   |
 | Arcand, Félix                     | tp1-83995   | tp1-70299   |
 
+### Lier sa scène à l'autre
+
+![](./link-counsciousness.gif){.w-50}
+
+1. La colonne Suite indique l'histoire qui va venir après la vôtre.
+1. Contactez cette personne sur Teams.
+1. Ensemble, inventez une courte scène de transition (elle peut être complètement farfelue 🤯).
+1. Intégrez la scène. C’est vous qui devez écrire et ajouter cette scène à la fin de votre propre histoire. (La personne contactée n’a pas à l’ajouter dans la sienne.)
+
 ## Consignes
 
 - [ ] Créez un dossier nommé tp1-XXXXX (remplacez XXXXX par le code associé à votre nom).
@@ -113,6 +122,7 @@ Une scène ressemblera à ceci :
     ```html title="Exemple de lien final"
     <a href="../tp1-12345/index.html">Suite ...</a>
     ```
+- [ ] Connectez votre scène à l'autre (Voir comment : « [Lier sa scène à l'autre](./developpement.md#lier-sa-scene-a-lautre) »)
 
 ## Remise
 
