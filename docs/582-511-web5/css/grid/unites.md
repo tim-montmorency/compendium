@@ -40,7 +40,7 @@ qu'à droite, les **fractions** se partagent **équitablement l'espace
 restant**, produisant ainsi un résultat **harmonieux**.
 
 
-<p class="codepen" data-height="500" data-default-tab="html,result" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
   Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -65,7 +65,7 @@ valeur de `minmax(400px, 1fr)`.
 
 ![](../assets/grid-minmax.mp4)
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWMNbrb" data-pen-title="Grid - minmax" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="MWMNbrb" data-pen-title="Grid - minmax" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWMNbrb">
   Grid - minmax</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -125,7 +125,7 @@ Il est aussi possible de **combiner `repeat()` avec d'autres unités**.
 grid-template-columns: repeat(3, minmax(150px, 1fr));
 ```
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwEgYwx" data-pen-title="Grid - repeat" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="RwEgYwx" data-pen-title="Grid - repeat" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwEgYwx">
   Grid - repeat</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -148,5 +148,4 @@ L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
 - Lorsque **cliqué**, ce badge met en surbrillance les **divisions** constituant la grille en question.
 - Dans l'onglet **Layout**, il est possible d'afficher des informations supplémentaires : **étendre les divisions** afin de les rendre plus visibles, **afficher la taille** des colonnes et rangées, etc.
 
-![](../assets/grid-inspector-layout.mp4)
-
+![Inspector](../assets/grid-inspector-layout.mp4)

@@ -43,7 +43,7 @@ Est équivalent à :
 grid-column: 1 / 4;
 ```
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjwMqyb" data-pen-title="Grid - grid-column" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="JjwMqyb" data-pen-title="Grid - grid-column" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjwMqyb">
   Grid - grid-column</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -58,7 +58,7 @@ La propriété `grid-row` est constituée de deux sous-propriétés :
 `grid-row-start` et `grid-row-end`. Ces propriétés permettent de définir *où un élément devrait être affiché en fonction d'une ligne horizontale ↔️ de départ et de fin dans la grille*.
 
 Par exemple:
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="OJrzYjw" data-pen-title="Grid - grid-row-start &amp;amp; grid-row-end" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="OJrzYjw" data-pen-title="Grid - grid-row-start &amp;amp; grid-row-end" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrzYjw">
   Grid - grid-row-start &amp; grid-row-end</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -82,7 +82,7 @@ Est équivalent à :
 grid-row: 1 / 4;
 ```
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWzaRaP" data-pen-title="Grid - grid-row" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="QWzaRaP" data-pen-title="Grid - grid-row" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWzaRaP">
   Grid - grid-row</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
