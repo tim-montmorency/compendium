@@ -1,0 +1,77 @@
+# Unités spécifiques à `grid` (suite)
+
+
+## Unité `repeat()`
+
+Spécifier individuellement chaque colonne ou rangée n'est pas un
+problème lorsqu'une grille est de dimension **modeste**. Cependant,
+lorsqu'une grille **grossit**, il peut devenir rapidement **lassant** et
+**mêlant** d'écrire la dimension de chaque colonne ou rangée, surtout si
+celle-ci est **identique**.
+
+**Exemple verbeux :**
+
+``` css
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+```
+
+### `auto-fit` & `auto-fill`
+
+Afin de pouvoir réaliser une **grille responsive** sans avoir à écrire une multitude de [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries/), il est possible d'utiliser les valeurs `auto-fit` et `auto-fill` à la place d'un nombre spécifique de colonnes dans un `repeat()`.
+
+**Exemple avec `auto-fit` :**
+
+``` css
+grid-template-columns: repeat(auto-fit, 150px);
+```
+
+Permet d'afficher **autant d'éléments sur une rangée qu'il y a d'espace
+disponible**.
+
+
+<video src="../assets/grid-repeat-fit-content.mp4" width="100%" height="auto" controls>
+
+!!! Note
+    **Différence** :
+    - `auto-fit` : **aucune cellule vide** supplémentaire n'est ajoutée dans la grille, même si l'espace le permet.
+    - `auto-fill` : des **cellules vides** sont créées pour occuper l'espace.
+    Dans la majorité des cas, le résultat sera **similaire**. Cependant, cette particularité peut parfois s'avérer utile lorsque combinée avec d'autres propriétés de grille.
+
+![Illustration auto-fit vs auto-fill](../assets/grid-repeat-auto-fit-auto-fill.png)
+
+### Combinaison avec d'autres unités
+
+Il est aussi possible de **combiner `repeat()` avec d'autres unités**.
+
+**Exemple :**
+
+``` css
+grid-template-columns: repeat(3, minmax(150px, 1fr));
+```
+
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="RwEgYwx" data-pen-title="Grid - repeat" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwEgYwx">
+  Grid - repeat</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/repeat" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur l'unité *repeat()*</a> <br>
+
+
+
+## Inspecteur
+
+L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
+éléments en grid.
+
+- Dans le **DOM Tree**, les éléments en `display: grid;` ou `display: inline-grid;` sont mis en évidence grâce à un **badge** contenant le mot "grid".
+- Lorsque **cliqué**, ce badge met en surbrillance les **divisions** constituant la grille en question.
+- Dans l'onglet **Layout**, il est possible d'afficher des informations supplémentaires : **étendre les divisions** afin de les rendre plus visibles, **afficher la taille** des colonnes et rangées, etc.
+
+
+
+<video src="../assets/grid-inspector-layout.mp4" width="100%" height="auto" controls>

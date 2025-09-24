@@ -69,6 +69,11 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
+  <a href="./css/grid/unites-2.html">Unités <code>repeat()</code></a>
+</div>
+
+<div class="class-content-link">
+  <img src="./css/assets/icon-grid.png">
   <a href="./css/grid/grid-col-row.html">Styles des éléments enfants à placer: <br><code>grid-column</code> et <code>grid-row</code></a>
 </div>
 
