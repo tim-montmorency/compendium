@@ -109,7 +109,15 @@ celle-ci est **identique**.
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 ```
 
-### `auto-fit` & `auto-fill`
+pourrait être racourci avec `repeat()` ainsi:
+
+``` css
+grid-template-columns: repeat(6, 1fr);
+```
+
+<hr>
+
+### `repeat` avec `auto-fit` ou `auto-fill`
 
 Afin de pouvoir réaliser une **grille responsive** sans avoir à écrire une multitude de [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries/), il est possible d'utiliser les valeurs `auto-fit` et `auto-fill` à la place d'un nombre spécifique de colonnes dans un `repeat()`.
 
@@ -119,8 +127,7 @@ Afin de pouvoir réaliser une **grille responsive** sans avoir à écrire une mu
 grid-template-columns: repeat(auto-fit, 150px);
 ```
 
-Permet d'afficher **autant d'éléments sur une rangée qu'il y a d'espace
-disponible**.
+Permet d'afficher *autant d'éléments sur une rangée qu'il y a d'espace disponible*.
 
 
 <div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=fac2cb65-08b1-4fd6-84be-daf1c5a2f8a1&embed=%7B%22af%22%3Atrue%2C%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="grid-repeat-fit-content.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
