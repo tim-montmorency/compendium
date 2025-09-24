@@ -54,7 +54,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-template-cols-rows.html">Styles du conteneur: <br><code>grid-template-columns</code> et <br><code>grid-template-rows</code>.</a>
+  <a href="./css/grid/grid-template-cols-rows.html">Styles du conteneur: <br><code>grid-template-columns</code> et <code>grid-template-rows</code>.</a>
 </div>
 
 <div class="class-content-link">

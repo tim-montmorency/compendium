@@ -6,8 +6,8 @@ Les propriétés `column-gap`, `row-gap` et `gap` permettent de définir des **e
 
 ## `column-gap`
 
-La propriété `column-gap` permet de définir **l'espace entre les
-colonnes** d'une grille.
+La propriété `column-gap` permet de définir *l'espace entre les
+colonnes* d'une grille.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYbRjKw" data-pen-title="Grid - column-gap" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/eYbRjKw">
@@ -17,7 +17,7 @@ colonnes** d'une grille.
 
 <br>
 
-<a href="https://developer.mozilla.org/fr/docs/Web/CSS/column-gap" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">En savoir plus sur *column-gap*</a> <br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/column-gap" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur *column-gap*</a> <br>
 
 
 ## `row-gap`
@@ -30,6 +30,12 @@ d'une grille.
   Grid - row-gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+<br>
+
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/row-gap" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur *row-gap*</a> <br>
+
 
 ## `gap`
 
@@ -51,6 +57,9 @@ les colonnes ↔️.
 
 !!! warning
     Pratiquement toutes les unités, **sauf les `fr`**, peuvent être utilisées pour les propriétés de type `gap`.
+
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/gap" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur *gap*</a> <br>
 
 
 ## Inspecteur

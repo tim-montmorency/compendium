@@ -11,12 +11,13 @@ Par exemple, trois valeurs produisent trois colonnes :
   Grid - grid-template-columns</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 !!! info
-    Puisqu'il y a plus d'éléments que de colonnes, une 2e rangée est automatiquement créée afin d'accommoder tous les items. La première rangée est donc **explicite** tandis que la deuxième est **implicite**.
+    Puisqu'il y a plus d'éléments que de colonnes, une 2e rangée est automatiquement créée afin d'accommoder tous les items. La première rangée est donc *explicite* tandis que la deuxième est *implicite*.
 
-
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur *grid-template-columns*</a>
 
 ## `grid-template-rows`
 
@@ -31,17 +32,23 @@ Par exemple, deux valeurs produisent deux rangées :
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 !!! info
-    Il aurait été possible de créer plus de rangées. Cependant, ces rangées auraient été vides puisqu'il n'y a seulement assez d'éléments pour combler **deux rangées de trois colonnes**.
+    Il aurait été possible de créer plus de rangées. Cependant, ces rangées auraient été vides puisqu'il n'y a seulement assez d'éléments pour combler *deux rangées de trois colonnes*.
+
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur *grid-template-rows*</a>
+
 
 
 ## Inspecteur
 
-L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
+L'*inspecteur* est d'une aide précieuse lorsque l'on manipule des
 éléments en grid.
 
-- Dans le **DOM Tree**, les éléments en `display: grid;` ou `display: inline-grid;` sont mis en évidence grâce à un **badge** contenant le mot "grid".
-- Lorsque **cliqué**, ce badge met en surbrillance les **divisions** constituant la grille en question.
-- Dans l'onglet **Layout**, il est possible d'afficher des informations supplémentaires : **étendre les divisions** afin de les rendre plus visibles, **afficher la taille** des colonnes et rangées, etc.
+- Dans le *DOM Tree*, les éléments en `display: grid;` ou `display: inline-grid;` sont mis en évidence grâce à un *badge* contenant le mot "grid".
+- Lorsque *cliqué*, ce badge met en surbrillance les *divisions* constituant la grille en question.
+- Dans l'onglet *Layout*, il est possible d'afficher des informations supplémentaires : *étendre les divisions* afin de les rendre plus visibles, *afficher la taille* des colonnes et rangées, etc.
 
 ![](../assets/grid-inspector-layout.mp4)

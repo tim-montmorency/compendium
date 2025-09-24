@@ -47,6 +47,10 @@ restant**, produisant ainsi un résultat **harmonieux**.
 </p>
 
 
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout#lunit%C3%A9_fr" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur l'unité *fr*</a> <br>
+
+
 ## Unité `minmax()`
 
 Comme son nom l'indique, l'unité `minmax()` permet de définir une
@@ -58,7 +62,7 @@ tout en évitant que certains éléments se retrouvent **trop coincés**.
 largeur de `1fr` à l'exception de la **2e cellule** (verte) ayant une
 valeur de `minmax(400px, 1fr)`.
 
-VIDEO
+
 ![](../assets/grid-minmax.mp4)
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWMNbrb" data-pen-title="Grid - minmax" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -66,6 +70,9 @@ VIDEO
   Grid - minmax</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/minmax" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur l'unité *minmax()*</a> <br>
 
 
 
@@ -123,6 +130,13 @@ grid-template-columns: repeat(3, minmax(150px, 1fr));
   Grid - repeat</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
+<br>
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/repeat" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur l'unité *repeat()*</a> <br>
+
 
 
 ## Inspecteur
