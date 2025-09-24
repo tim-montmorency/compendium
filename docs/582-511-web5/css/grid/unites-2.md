@@ -1,6 +1,5 @@
 # Unités spécifiques à `grid` (suite)
 
-
 ## Unité `repeat()`
 
 Spécifier individuellement chaque colonne ou rangée n'est pas un
@@ -60,18 +59,3 @@ grid-template-columns: repeat(3, minmax(150px, 1fr));
 
 <br>
 <a href="https://developer.mozilla.org/fr/docs/Web/CSS/repeat" class="md-button "><img src="../../assets/mdn.svg" style="width: 15px; height: auto;">&nbsp;&nbsp;En savoir plus sur l'unité *repeat()*</a> <br>
-
-
-
-## Inspecteur
-
-L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
-éléments en grid.
-
-- Dans le **DOM Tree**, les éléments en `display: grid;` ou `display: inline-grid;` sont mis en évidence grâce à un **badge** contenant le mot "grid".
-- Lorsque **cliqué**, ce badge met en surbrillance les **divisions** constituant la grille en question.
-- Dans l'onglet **Layout**, il est possible d'afficher des informations supplémentaires : **étendre les divisions** afin de les rendre plus visibles, **afficher la taille** des colonnes et rangées, etc.
-
-
-
-<video src="../assets/grid-inspector-layout.mp4" width="100%" height="auto" controls>
