@@ -70,7 +70,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-template-cols-rows.md">Styles des éléments enfants à placer: <code>grid-column</code> et <code>grid-row</code></a>
+  <a href="./css/grid/grid-col-row.md">Styles des éléments enfants à placer: <code>grid-column</code> et <code>grid-row</code></a>
 </div>
 
 ### Exercice
@@ -82,13 +82,15 @@ Lien à venir
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-area.md">Styles du conteneur: <code>grid-template-areas</code></a>
+  <a href="./css/grid/grid-area.md">Définir les 4 coins de l'élément enfant à placer: <code>grid-area</code></a>
 </div>
+
 
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
-  <a href="./css/grid/grid-area.md">Styles des éléments enfants à placer: <code>grid-area</code></a>
+  <a href="./css/grid/grid-template-areas.md">Styles du conteneur: <code>grid-template-areas</code>: nommer des zones dans une grille</a>
 </div>
+
 
 
 ### Exercices
