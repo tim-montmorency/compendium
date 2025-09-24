@@ -1,0 +1,57 @@
+/* Exercice 1 — Grille de couleurs (3×2)
+ * Consignes :
+ * 1) Appliquer display: grid; sur .grille
+ * 2) Définir 3 colonnes égales : grid-template-columns: repeat(3, 1fr);
+ * 3) Définir 2 rangées (ex: 150px de hauteur) : grid-template-rows: repeat(2, 150px);
+ * 4) Ajouter un espace (gap) de 10px entre les cellules.
+ */
+
+:root {
+  --bg: #0f172a;
+  --card: #0b1220;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container { max-width: 960px; margin: 40px auto; padding: 0 16px; }
+
+h1 { margin: 0 0 8px; font-size: 1.5rem; }
+.hint { margin: 0 0 24px; color: var(--muted); }
+
+.grille {
+  /* À vous d'activer la grille et de définir colonnes/ rangées + gap */
+  background: var(--card);
+  padding: 12px;
+  border-radius: 14px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-rows: repeat(2, 150px); */
+  /* gap: 10px; */
+}
+
+.case {
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  opacity: 0.95;
+}
+
+/* Couleurs variées par position (sans inline styles) */
+.case:nth-child(1) { background: #ef4444; }
+.case:nth-child(2) { background: #f59e0b; }
+.case:nth-child(3) { background: #10b981; }
+.case:nth-child(4) { background: #3b82f6; }
+.case:nth-child(5) { background: #8b5cf6; }
+.case:nth-child(6) { background: #ec4899; }
