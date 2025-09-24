@@ -38,7 +38,7 @@
 </div>
 
 
-## 2 exercices v-for et v-if
+### 2 exercices v-for et v-if
 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md){ .md-button } 
 
@@ -63,7 +63,7 @@
 </div>
 
 
-## Questionnaire de révision et exercice
+### Questionnaire de révision + 1 exercice
 
 [❓Questionnaire de révision Vue.js](./exercices/vue-questionnaire-w3.md){ .md-button } 
 
