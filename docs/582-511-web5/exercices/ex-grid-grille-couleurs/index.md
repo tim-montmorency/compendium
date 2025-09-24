@@ -2,6 +2,8 @@
 
 **Objectif :** pratiquer les bases de CSS Grid (colonnes, rangées, gap).
 
+[📥 Télécharger fichiers de départ](ex-grid-grille-couleurs-fichiers-depart){ .md-button }
+
 ## Tâches
 1. Sur `.grille`, activez Grid : `display: grid;`  
 2. Créez **3 colonnes égales** : `grid-template-columns: repeat(3, 1fr);`  

@@ -2,6 +2,8 @@
 
 **Objectif :** réaliser une mise en page basique avec un header pleine largeur, une grille principale à 2 colonnes (nav + contenu), puis un footer pleine largeur. On reste dans les **bases de Grid**.
 
+[📥 Télécharger fichiers de départ](ex-grid-mise-en-page-simple-fichiers-depart.zip){ .md-button }
+
 ## Tâches
 1. Sur `.grid-layout`, activez Grid : `display: grid;`  
 2. Définissez **2 colonnes** : par exemple `grid-template-columns: 240px 1fr;`  
