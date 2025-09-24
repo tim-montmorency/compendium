@@ -22,8 +22,19 @@ peuvent être utilisées avantageusement avec les propriétés de type
 `gap`.
 
 **Comparaison :** - Avec `column-gap: 5px`, des éléments en `%` vs en
-`fr` n'allouent pas l'espace de la même manière. - Démo : [Grid --- % vs
-fr (gap)](https://codepen.io/tim-momo/pen/)\*
+`fr` n'allouent pas l'espace de la même manière.
+
+<p class="codepen" data-height="400" data-default-tab="css" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ### Combinaison avec des unités différentes (`px`, `vw`, `vh`, etc.)
 
@@ -39,6 +50,12 @@ avec des **pourcentages** produit un résultat **indésirable**, tandis
 qu'à droite, les **fractions** se partagent **équitablement l'espace
 restant**, produisant ainsi un résultat **harmonieux**.
 
+
+<p class="codepen" data-height="500" data-default-tab="css" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
+  Grid - % vs fr gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 <p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="OJrgwdv" data-pen-title="Grid - % vs fr gap" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJrgwdv">
