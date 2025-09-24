@@ -2,12 +2,11 @@
 
 ## `grid-template-columns`
 
-Permet de définir la taille de chaque **colonne** d'une grille. Le
-nombre de colonnes correspond au nombre de valeurs spécifiées.
+Permet de définir la taille de chaque *colonne* d'une grille. Le nombre de colonnes correspond au nombre de valeurs spécifiées.
 
 Par exemple, trois valeurs produisent trois colonnes :
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvRexmm" data-pen-title="Grid - grid-template-columns" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="wvRexmm" data-pen-title="Grid - grid-template-columns" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/wvRexmm">
   Grid - grid-template-columns</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -21,12 +20,12 @@ Par exemple, trois valeurs produisent trois colonnes :
 
 ## `grid-template-rows`
 
-Permet de définir la taille de chaque **rangée** d'une grille. Le nombre
+Permet de définir la taille de chaque *rangée* d'une grille. Le nombre
 de rangées correspond au nombre de valeurs spécifiées.
 
 Par exemple, deux valeurs produisent deux rangées :
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="VwqWBdm" data-pen-title="Grid - grid-template-rows" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="VwqWBdm" data-pen-title="Grid - grid-template-rows" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/VwqWBdm">
   Grid - grid-template-rows</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
