@@ -6,9 +6,9 @@
 
 ## Tâches
 
-- [ ] 1. Sur `.grid-layout`, activez Grid : `display: grid;`  
-- [ ] 2. Définissez **2 colonnes** : par exemple `grid-template-columns: 240px 1fr;`  
-- [ ] 3. Ajoutez `gap: 16px;` entre les colonnes.  
+- [ ] 1. Sur `.grid-layout`, activez la grille. 
+- [ ] 2. Définissez **2 colonnes**.
+- [ ] 3. Ajoutez un espace de `16px`entre les colonnes.  
 - [ ] 4. Ne pas utiliser `grid-area`, `grid-column` ni `grid-row`. Le header/ footer restent **en dehors** de la grille principale.
 
 ### Variante responsive (optionnelle)
