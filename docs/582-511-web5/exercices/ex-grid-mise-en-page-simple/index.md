@@ -7,9 +7,11 @@
 ## Tâches
 
 - [ ] 1. Sur `.grid-layout`, activez la grille. 
-- [ ] 2. Définissez **2 colonnes**.
+- [ ] 2. Définissez **2 colonnes**. La navigation de gauche devrait être de largeur fixe. Le contenu principal de droite, devrait être flexible en occupant tout l'espace restant sur la rangée.
 - [ ] 3. Ajoutez un espace de `16px`entre les colonnes.  
-- [ ] 4. Ne pas utiliser `grid-area`, `grid-column` ni `grid-row`. Le header/ footer restent **en dehors** de la grille principale.
+
+Note: Ne pas utiliser `grid-area`, `grid-column` ni `grid-row`. 
+Aussi, le header/ footer restent **en dehors** de la grille principale.
 
 ### Variante responsive (optionnelle)
 
