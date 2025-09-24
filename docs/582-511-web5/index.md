@@ -10,7 +10,7 @@
 - [Unités `fr`, `minmax()`et `repeat()`](./css/grid/unites.md)
 - [Styles des éléments enfants à placer: `grid-column` et `grid-row`](./css/grid/grid-col-row.md)
 - [Définir les 4 coins de l'élément enfant à placer avec `grid-area`](./css/grid/grid-area.md)
-- [Style du conteneur: `grid-template-areas`: : nommer des zones dans une grille](./css/grid/grid-template-areas.md)
+- [Style du conteneur: `grid-template-areas`: nommer des zones dans une grille](./css/grid/grid-template-areas.md)
 
 
 <!--
