@@ -62,8 +62,8 @@ tout en évitant que certains éléments se retrouvent **trop coincés**.
 largeur de `1fr` à l'exception de la **2e cellule** (verte) ayant une
 valeur de `minmax(400px, 1fr)`.
 
-
-![](../assets/grid-minmax.mp4)
+VIDÉO
+![Demo Grid minmax()](../assets/grid-minmax.mp4)
 
 <p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="MWMNbrb" data-pen-title="Grid - minmax" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/MWMNbrb">
@@ -103,7 +103,8 @@ grid-template-columns: repeat(auto-fit, 150px);
 Permet d'afficher **autant d'éléments sur une rangée qu'il y a d'espace
 disponible**.
 
-![](../assets/grid-repeat-fit-content.mp4)
+VIDÉO
+![Demo grid repeat fit content](../assets/grid-repeat-fit-content.mp4)
 
 
 !!! Note
@@ -112,8 +113,7 @@ disponible**.
     - `auto-fill` : des **cellules vides** sont créées pour occuper l'espace.
     Dans la majorité des cas, le résultat sera **similaire**. Cependant, cette particularité peut parfois s'avérer utile lorsque combinée avec d'autres propriétés de grille.
 
-![Illustration auto-fit vs
-auto-fill](https://tim-montmorency.com/timdoc/582-518MO/css/grid/img/auto-fit-auto-fill.png)
+![Illustration auto-fit vs auto-fill](../assets/grid-repeat-auto-fit-auto-fill.png)
 
 ### Combinaison avec d'autres unités
 
@@ -148,4 +148,5 @@ L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
 - Lorsque **cliqué**, ce badge met en surbrillance les **divisions** constituant la grille en question.
 - Dans l'onglet **Layout**, il est possible d'afficher des informations supplémentaires : **étendre les divisions** afin de les rendre plus visibles, **afficher la taille** des colonnes et rangées, etc.
 
-![Inspector](../assets/grid-inspector-layout.mp4)
+VIDÉO
+![Grid layout inspector](../assets/grid-inspector-layout.mp4)

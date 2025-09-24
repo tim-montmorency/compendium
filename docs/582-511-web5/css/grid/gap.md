@@ -9,7 +9,7 @@ Les propriétés `column-gap`, `row-gap` et `gap` permettent de définir des **e
 La propriété `column-gap` permet de définir *l'espace entre les
 colonnes* d'une grille.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYbRjKw" data-pen-title="Grid - column-gap" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="eYbRjKw" data-pen-title="Grid - column-gap" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/eYbRjKw">
   Grid - column-gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -25,7 +25,7 @@ colonnes* d'une grille.
 La propriété `row-gap` permet de définir **l'espace entre les rangées**
 d'une grille.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdawjjM" data-pen-title="Grid - row-gap" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="mdawjjM" data-pen-title="Grid - row-gap" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdawjjM">
   Grid - row-gap</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -71,4 +71,5 @@ L'**inspecteur** est d'une aide précieuse lorsque l'on manipule des
 - Lorsque **cliqué**, ce badge met en surbrillance les **divisions** constituant la grille en question.
 - Dans l'onglet **Layout**, il est possible d'afficher des informations supplémentaires : **étendre les divisions** afin de les rendre plus visibles, **afficher la taille** des colonnes et rangées, etc.
 
-![](../assets/grid-inspector-layout.mp4)
+VIDÉO
+![Grid layout inspector](../assets/grid-inspector-layout.mp4)
