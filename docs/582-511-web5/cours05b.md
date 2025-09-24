@@ -47,7 +47,6 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ## CSS Grid
 
-
 <div class="class-content-link">
   <img src="./css/assets/icon-grid.png">
   <a href="./css/grid/intro.html">CSS Grid: Introduction</a>
@@ -78,10 +77,11 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 - [Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/index.md)
 - [Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/index.md)
 - [Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/index.md)
-.
-- [Exercice 4 Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/) 
-- [Exercice 5 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
+- [Exercice 4 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/)
 
+<!--
+- [Exercice Système row-col](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-systeme-col-row/)
+-->
 
 ## CSS Grid (suite)
 
@@ -110,6 +110,6 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ### Exercices
 
-- [Exercice 6: The Killing Joke](./exercices/grid-joker)
-- [Exercice 7: Les offres Samsung](./exercices/grid-offres-samsung)
-- Exercice supplémentaire (si tu as terminé) : [CSS Grid Garden](https://cssgridgarden.com/#fr")
+- [Exercice 5: The Killing Joke](./exercices/grid-joker)
+- [Exercice 6: Les offres Samsung](./exercices/grid-offres-samsung)
+- Exercice supplémentaire 7 (si tu as terminé) : [CSS Grid Garden](https://cssgridgarden.com/#fr")
