@@ -83,6 +83,10 @@ Par exemple:
 !!! warning 
     Il est possible d'utiliser des nombres négatifs, mais uniquement avec les [rows explicites](./grid-template-cols-rows.html#grid-template-columns).
 
+
+
+<hr>
+
 Ces propriétés peuvent être combinées en utilisant simplement `grid-row`.
 
 **Exemple :**
