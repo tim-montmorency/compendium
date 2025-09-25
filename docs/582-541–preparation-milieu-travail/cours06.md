@@ -16,6 +16,8 @@ Remplir 05_bilan_5a7
 ## Activité sur le contenu de la lettre de présentation
 Remplir le document contenu_lettre_presentation sur GitHub. 
 
+[🛠️ Choisir une compagnie](https://teams.microsoft.com/l/entity/d7958adf-f419-46fa-941b-1b946497ef84/_djb2_msteams_prefix_4195873745?context=%7B%22channelId%22%3A%2219%3A2OvozH88NiS9HfYzBkMJ_7vxH9gie0ZCHKDUrd5QwQM1%40thread.tacv2%22%7D&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d){ .md-button }   
+
 ## Présentation sur la lettre de présentation     
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ERrX846mpkdKu4CkXSbw1TYBDAUmeVdpkbbA89qHX-jchw?e=aiBfkj){ .md-button }  
 
