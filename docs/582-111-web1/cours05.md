@@ -521,6 +521,13 @@ Il est recommandé d'utiliser `<legend>` à l’intérieur pour donner un titre 
 
 ![](./assets/images/too-cool.gif){.w-100}
 
+:material-image: Générer des images :
+
+* <https://www.craiyon.com/fr>
+* <https://deepai.org/machine-learning-model/text2img>
+* <https://deepmind.google/models/imagen/>
+* <https://chatgpt.com/>
+
 :material-eraser: Pour retirer un élément d'une image :
 
 * <https://cleanup.pictures/>
@@ -549,18 +556,10 @@ Il est recommandé d'utiliser `<legend>` à l’intérieur pour donner un titre 
 * <https://mixkit.co/free-sound-effects/>
 * <https://www.zapsplat.com/>
 
-:material-image: Générer des images :
-
-* <https://www.craiyon.com/fr>
-* <https://deepai.org/machine-learning-model/text2img>
-* <https://deepmind.google/models/imagen/>
-* <https://chatgpt.com/>
-
 Modification de format
 
-* https://cloudconvert.com/jpg-to-webp
-* https://www.freeconvert.com/webm-converter
-* https://www.freeconvert.com/webm-converter
+* <https://cloudconvert.com/jpg-to-webp>
+* <https://www.freeconvert.com/webm-converter>
 
 ## Exercices
 
