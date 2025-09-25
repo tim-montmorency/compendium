@@ -8,8 +8,9 @@
 
 
 ## Mes finances, mes choix
-[📁 Exercices](https://mesfinancesmeschoix.com/){ .md-button }
+[📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
 
+* Jeu Aléa   
 
 ## Devoir
 Remplissez le document evaluation_demarche pour évaluer l'avancement de votre recherche de stage jusqu'à maintenant. 
