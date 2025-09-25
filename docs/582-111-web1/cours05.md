@@ -247,8 +247,10 @@ Deux attributs nous permettent de fusionner des cellules :
 ```html
 <table>
   <thead>
-    <th>Session</th>
-    <th>Cours</th>
+    <tr>
+      <th>Session</th>
+      <th>Cours</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
