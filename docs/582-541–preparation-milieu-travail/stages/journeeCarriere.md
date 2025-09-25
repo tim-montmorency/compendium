@@ -4,7 +4,6 @@
 * Créer des fiches de présentation des entreprises
 
 # Communication (2 par classe)
-* Rédaction de l'invitation pour les employeurs
 * Répartir les invitations entre les étudiants
 * Suivi des invitations et des réponses
 * Mise au point de l'horaire
