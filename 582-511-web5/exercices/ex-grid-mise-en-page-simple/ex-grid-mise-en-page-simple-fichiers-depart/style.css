@@ -1,0 +1,64 @@
+/* Exercice 3 — Mise en page simple (2 colonnes)
+ * Consignes :
+ * 1) .grid-layout doit utiliser display: grid;
+ * 2) Définir 2 colonnes : par exemple 240px pour la nav + 1fr pour le contenu
+ *    grid-template-columns: 240px 1fr;
+ * 3) Ajouter un gap entre les colonnes (ex: 16px)
+ * 4) Ne pas utiliser grid-area ou grid-column/grid-row (base seulement) :
+ *    le header et le footer restent en dehors de la grille principale.
+ */
+
+:root {
+  --bg: #0f172a;
+  --card: #0b1220;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #60a5fa;
+  --border: rgba(255,255,255,0.08);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container { max-width: 1024px; margin: 32px auto; padding: 0 16px; }
+
+/* Header & Footer pleine largeur (hors grille) */
+.site-header, .site-footer {
+  background: linear-gradient(90deg, rgba(96,165,250,0.16), rgba(34,211,238,0.12));
+  border-bottom: 1px solid var(--border);
+}
+.site-footer { border-top: 1px solid var(--border); border-bottom: none; }
+.site-header .tagline { color: var(--muted); margin: 6px 0 0; }
+
+/* Grille principale (nav + contenu) */
+.grid-layout {
+  /* Activer Grid ici */
+  background: var(--card);
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+.nav {
+  background: rgba(255,255,255,0.03);
+  padding: 12px;
+  border-radius: 10px;
+}
+.nav h2 { margin-top: 0; font-size: 1.125rem; }
+.nav ul { list-style: none; padding: 0; margin: 0; }
+.nav li { padding: 6px 0; border-bottom: 1px dashed var(--border); }
+.nav li:last-child { border-bottom: 0; }
+
+.content {
+  background: rgba(255,255,255,0.02);
+  padding: 12px;
+  border-radius: 10px;
+}
+.content h2 { margin-top: 0; }
