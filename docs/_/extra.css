@@ -526,6 +526,20 @@ stop:before {
   text-decoration: none !important;
   display: block;
 }
+
+.important-label {
+  display: inline-block;
+  background-color: #ef5552;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
 /* =========================
    FINITIONS (ajout Marie-Michelle)
    ========================= */

@@ -7,7 +7,7 @@
 
 ## Aujourd'hui7
 
-- [ ] Annonce tutorat demain
+- [ ] Annonces
 - [ ] Quiz Vue.js
 - [ ] Révision exercices Vue.js de lundi passé
   - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md)
@@ -22,10 +22,19 @@
     - [ ] Accéder aux propriétés d'un objet {}
     - [ ] Boucle `forEach` sur tableau JS
 
-## Tutorat demain 30 sept.
+## Annonces
+
+### Tutorat 
 
 Tutorat demain 30 septembre entre 11h30 et 14h10.
 Révision pour l'examen: presciptions pédagogiques : obligatoire.
+
+### Suppression de votre compte hébergé sur tim-momo.com
+
+<span class="important-label">IMPORTANT</span> Suppression de votre compte des sites **Web 4** hébergés sur [tim-momo.](https://tim-momo.com/) d'ici la mi session (disons autour du 14-15 octobre).
+
+Veuillez faire vos backup (bases de données et fichiers).
+
 
 ## Quiz Time !
 
