@@ -16,7 +16,7 @@ L'exercice se déroule exclusivement en HTML.
 - [ ] Dans `<body>`, ajouter un tableau HTML
 - [ ] Le tableau doit avoir **7 rangées** (pas d’en-tête) et **2 colonnes**  
 - [ ] La première colonne doit contenir les lettres : S, A, B, C, D, E et F
-  - Chaque cellule doit aussi avoir un attribut `class` correspondant à son rang (`s-tier`, `a-tier`, `b-tier`, etc.)
+  - Chaque cellule de première colonne doit avoir un attribut `class` correspondant à son rang (`s-tier`, `a-tier`, `b-tier`, etc.)
 - [ ] Dans la colonne de droite, vous devrez ajouter, dans les cellules de votre choix, les images suivantes :
   - [Automne :material-download:](./automne.png){download}
   - [Printemps :material-download:](./printemps.png){download}
