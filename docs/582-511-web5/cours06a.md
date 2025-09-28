@@ -70,5 +70,16 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 ### forEach sur tableau JS
 
 ## Exercices
+Liens à venir
+<!--
+[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
+
+[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
+ -->
+
+ [Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
+
+[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
+
 
 ## Devoirs
