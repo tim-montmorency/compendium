@@ -68,10 +68,14 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 
 ### JSON et objet JS { }
 
+[Structure du JSON et accès aux propriétés](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json)
+
 ### Accéder aux propriétés d'un objet JS
+[Accesseurs de propriétés d'objets JavaScripr](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors)
 
 ### forEach sur tableau JS
-[ForEach](https://tim-montmorency.com/timdoc/582-518MO/javascript/boucle-foreach/)
+
+[Boucle forEach sur un tableau de données](https://tim-montmorency.com/timdoc/582-518MO/javascript/boucle-foreach/)
 
 ## Exercices
 Liens à venir
@@ -81,9 +85,6 @@ Liens à venir
 [API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
  -->
 
-[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
-
-[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
 
 
 ## Devoirs
