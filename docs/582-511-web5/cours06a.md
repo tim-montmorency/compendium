@@ -87,3 +87,8 @@ Liens à venir
 
 
 ## Devoirs
+
+- [ ] Faire l'intégration CSS+HTML de votre portfolio pour mercredi le 1er octobre
+- [ ] Terminer les 6 exercices *grid css* pour mercredi le 1er octobre
+- [ ] Terminer les exercices de *fetch API* avant l'examen
+- [ ] Étudier pour l'examen du 6 octobre
