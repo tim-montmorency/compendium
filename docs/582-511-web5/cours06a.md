@@ -59,7 +59,10 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 
 ## Promesses JavaScript
 
+[Promesse JavaScript](https://tim-montmorency.com/timdoc/582-424MO/javascript/promesses-js/)
+
 ## Fetch API
+[Fetch API](https://tim-montmorency.com/timdoc/582-424MO/javascript/fetch-api/)
 
 ## Gestions des données reçues
 
@@ -68,6 +71,7 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 ### Accéder aux propriétés d'un objet JS
 
 ### forEach sur tableau JS
+[ForEach](https://tim-montmorency.com/timdoc/582-518MO/javascript/boucle-foreach/)
 
 ## Exercices
 Liens à venir
@@ -77,7 +81,7 @@ Liens à venir
 [API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
  -->
 
- [Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
+[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
 
 [API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
 
