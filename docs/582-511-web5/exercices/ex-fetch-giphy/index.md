@@ -58,7 +58,7 @@ La documentation sur l’utilisation du point de terminaison *Translate* de Giph
 
 Un exemple d’URL avec paramètres de requête ressemblerait à :
 
-```txt
+```
 https://url.com?apiKey=abc&s=abc
 ```
 
