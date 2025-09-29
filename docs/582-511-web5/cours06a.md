@@ -23,7 +23,7 @@ Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
 
 ### Tutorat
 
-Tutorat demain 30 septembre entre 11h30 et 14h10.
+Tutorat demain 30 septembre entre 12h30 et 14h10.
 Révision pour l'examen: presciptions pédagogiques : obligatoire.
 
 ### Suppression de votre compte hébergé sur host-papa sur le domaine [tim-momo.com](https://tim-momo.com/)
