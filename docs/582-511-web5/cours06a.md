@@ -17,7 +17,7 @@
 
 ## Annonces
 
-### Mesures d'assouplissements pour l'examen
+### Mesures d'assouplissement pour l'examen
 
 Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
 
