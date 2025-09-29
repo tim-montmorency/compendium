@@ -3,11 +3,9 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 6](../cours06.md){.breadcrumb}
+# Maria Skłodowska
 
-# Maria Sklodowska
-
-Dans cet exercice, vous allez manipuler un objet JavaScript contenant des informations biographiques sur la fameuse Marie Curie, née Maria Sklodowska.
+Dans cet exercice, vous allez manipuler un objet JavaScript contenant des informations biographiques sur la fameuse Marie Curie, née Maria Skłodowska (prononcé _skwo-DOFF-ska_).
 
 ## Résultat attendu
 
