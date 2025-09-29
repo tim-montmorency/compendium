@@ -6,7 +6,7 @@ Votre objectif est d’afficher un gif dans le DOM en fonction d’une recherche
 
 ## Mise en route
 
-[📥 Télécharger fichiers de départ](https://tim-montmorency.com/timdoc/582-518MO/exercices/ex-fetch-giphy/depart.zip){ .md-button }
+[📥 Télécharger fichiers de départ](https://tim-montmorency.com/compendium/582-511-web5/exercices/ex-fetch-giphy/depart.zip){ .md-button }
 
 ### Prérequis
 
