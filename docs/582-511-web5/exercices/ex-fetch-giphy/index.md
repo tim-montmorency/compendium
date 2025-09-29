@@ -2,7 +2,7 @@
 
 ## Dossier de départ
 
-[📥 Télécharger fichiers de départ](depart.zip){ .md-button }
+[📥 Télécharger fichiers de départ](./depart.zip){ .md-button }
 
 ## Objectif
 
