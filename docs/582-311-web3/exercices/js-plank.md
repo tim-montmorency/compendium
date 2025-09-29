@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 6](../cours06.md){.breadcrumb}
-
 # Max
 
 Max Planck a développé une théorie (la loi de Planck) pour décrire la manière dont les corps émettent de la lumière en fonction de leur température.

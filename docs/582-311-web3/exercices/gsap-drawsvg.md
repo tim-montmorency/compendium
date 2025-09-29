@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 12](../cours12.md){.breadcrumb}
-
 # Création d’une animation SVG avec DrawSVG, ScrollTrigger et Parallaxe
 
 Nous allons créer une animation où :

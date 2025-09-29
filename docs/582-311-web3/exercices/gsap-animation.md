@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 8](../cours08.md){.breadcrumb}
-
 # Création d'une animation en séquence avec contrôle de lecture
 
 Nous allons créer une animation où :

@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 6](../cours06.md){.breadcrumb}
-
 # Gros calculs scientifiques
 
 En JavaScript, calculez la somme, le plus grand et le plus petit nombre à partir d’une liste de valeurs saisies.

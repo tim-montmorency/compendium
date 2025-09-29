@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 10](../cours10.md){.breadcrumb}
-
 # Création d'une scène animée réactive
 
 Nous allons animer une scène où :

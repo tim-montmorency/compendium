@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 8](../cours08.md){.breadcrumb}
-
 # Automobile turquoise
 
 Pour cet exercice, vous devez à l’aide de GSAP animer les différentes partie d’une voiture afin de la faire rouler et reculer sur la route.

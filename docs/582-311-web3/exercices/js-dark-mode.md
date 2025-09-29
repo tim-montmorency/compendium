@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 1](../cours01.md){.breadcrumb}
-
 # Darkmode
 
 Si vous voulez permettre à l'utilisateur de basculer entre les modes clair et sombre, vous pouvez utiliser JavaScript pour changer dynamiquement l'attribut data-bs-theme. Voici un exemple :

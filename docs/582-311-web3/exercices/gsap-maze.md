@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 10](../cours10.md){.breadcrumb}
-
 # Labyrinthe
 
 Vous disposez de 13 heures pour aider Sarah à sortir du labyrinthe!

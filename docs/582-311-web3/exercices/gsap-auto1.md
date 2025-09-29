@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 8](../cours08.md){.breadcrumb}
-
 # Automobile jaune
 
 Pour cet exercice, vous devez à l’aide de GSAP animer une voiture afin de la faire rouler sur la route.

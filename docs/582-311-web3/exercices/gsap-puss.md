@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 11](../cours11.md){.breadcrumb}
-
 # Le chat potté 2
 
 Le chat potté 2 : La Dernière Quête suit le légendaire félin dans une aventure palpitante pour retrouver l’étoile magique capable de restaurer ses neuf vies, désormais réduites à une seule (OMG!).

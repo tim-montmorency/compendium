@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 10](../cours10.md){.breadcrumb}
-
 # Passion maladive
 
 Quelle est votre passion maladive ?
