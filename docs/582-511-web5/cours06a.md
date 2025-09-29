@@ -17,6 +17,10 @@
 
 ## Annonces
 
+### Mesures d'assouplissements pour l'examen
+
+Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
+
 ### Tutorat
 
 Tutorat demain 30 septembre entre 11h30 et 14h10.
