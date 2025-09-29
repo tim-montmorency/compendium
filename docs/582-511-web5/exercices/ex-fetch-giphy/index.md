@@ -28,7 +28,7 @@ Si vous n’avez pas encore de compte développeur Giphy, visitez [developers.gi
 L’exercice JavaScript Fetch API comporte plusieurs étapes :
 
 - [Exercice 1 : Inspecter et sélectionner les éléments](#exercice-1-inspecter-et-sélectionner-les-éléments)
-- [Exercice 2 : Utiliser la Fetch API](#exercice-2-utiliser-la-fetch-api)
+- [Exercice 2 : Utiliser Fetch API](#exercice-2-utiliser-la-fetch-api)
 - [Exercice 3 : Consommer l’API](#exercice-3-consommer-lapi)
 - [Exercice 4 : Mettre à jour le DOM](#exercice-4-mettre-à-jour-le-dom)
 
@@ -41,9 +41,9 @@ Inspectez le fichier `index.html` dans Visual Studio Code pour voir le code de d
 3. Sélectionner l’élément image  
 4. Sélectionner l’élément paragraphe de rétroaction (feedback)  
 
-### Exercice 2 : Utiliser la Fetch API
+### Exercice 2 : Utiliser Fetch API
 
-Utilisez la Fetch API pour demander un gif basé sur le terme saisi par l’utilisateur lorsqu’il clique sur un bouton.
+Utilisez Fetch API pour demander un gif basé sur le terme saisi par l’utilisateur lorsqu’il clique sur un bouton.
 
 1. Ajouter un écouteur d’événement *click* au bouton de recherche  
 2. La fonction de gestion d’événement doit :  
@@ -67,7 +67,7 @@ Les paramètres de requête commencent après un `?`, et chaque paramètre est s
 
 ### Exercice 3 : Consommer l’API
 
-Utilisez le résultat de la Fetch API avec des consommateurs de promesses.
+Utilisez le résultat de Fetch API avec des consommateurs de promesses.
 
 1. À partir du résultat de l’appel à `fetch`, appelez la méthode `then` et passez-lui une fonction de rappel (callback)  
    - La fonction de rappel doit recevoir la valeur résolue comme paramètre  
@@ -76,7 +76,8 @@ Utilisez le résultat de la Fetch API avec des consommateurs de promesses.
 
 2. À partir du résultat du premier `then`, chaînez un autre `then` et passez-lui une fonction de rappel  
    - La fonction de rappel doit recevoir le corps de la réponse (déjà converti en JSON) comme paramètre  
-   - Commencez simplement par afficher le résultat dans la console pour vérifier qu’il correspond à ce que vous attendez  
+   - Commencez simplement par afficher le résultat dans la console pour vérifier qu’il correspond à ce que vous attendez 
+   
 3. À partir du résultat du `then`, chaînez un `catch` et passez-lui une fonction de rappel  
    - La fonction de rappel doit recevoir la valeur de l’erreur comme paramètre  
    - Commencez simplement par afficher le résultat dans la console pour vérifier qu’il correspond à ce que vous attendez  
@@ -84,7 +85,7 @@ Utilisez le résultat de la Fetch API avec des consommateurs de promesses.
 ### Exercice 4 : Mettre à jour le DOM
 
 1. Remplacez l’instruction `console.log` dans le deuxième `then` par :  
-   - Mise à jour de l’attribut `src` de l’élément image avec `res.data.images.original.url`  
+   - Mise à jour de l’attribut `src` de l’élément image avec l'url de l'image reçue (creusez dans les données pour trouver l'*url* *original* de l'*image* reçue).
      - La réponse de Giphy contient plusieurs URL, vous pouvez explorer les autres si vous le souhaitez  
    - Réinitialisation de la valeur du champ de saisie de recherche  
    - Réinitialisation du contenu texte du paragraphe de rétroaction  
