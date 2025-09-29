@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 13](../cours13.md){.breadcrumb}
-
 # La grenouille et la baleine
 
 ![](../assets/images/grenouillebaleine.jpg)

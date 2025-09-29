@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 8](../cours08.md){.breadcrumb}
-
 # Domino
 
 ## Résultat attendu

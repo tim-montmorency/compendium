@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 9](../cours09.md){.breadcrumb}
-
 # Création d'une animation avec un sprite responsive
 
 Nous allons créer une animation où :

@@ -1,5 +1,3 @@
-[:material-arrow-u-left-top: Cours 11](../cours11.md){.breadcrumb}
-
 # Un, deux et trois
 
 ## Résultat attendu

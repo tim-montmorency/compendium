@@ -3,8 +3,6 @@ tags:
   - Exercice
 ---
 
-[:material-arrow-u-left-top: Cours 1](../cours01.md){.breadcrumb}
-
 # Mandala
 
 ![](../assets/images/mandala.jpeg)
