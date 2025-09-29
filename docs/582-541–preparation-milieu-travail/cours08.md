@@ -4,7 +4,9 @@
 ## Retour sur les plans de lettre de présentation
 En équipes.
 
-## Contrexemple
+## Exemple
+[🛠️ Exemple de lettre](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ec416RuqhgFIgVX-QmkVmkEBMt1NS8ZQyMQ9RzDmluse6Q?e=Wy51vL){ .md-button }     
+
 
 ## Avancement des lettres de présentation
 

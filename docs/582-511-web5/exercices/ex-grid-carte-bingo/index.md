@@ -6,8 +6,6 @@
 
 ## Tâches
 
-- [ ] 1. Sur `.bingo`, activez Grid : `display: grid;`  
-- [ ] 2. Définissez **5 colonnes** et **5 rangées** égales :  
-  - `grid-template-columns: repeat(5, 1fr);`  
-  - `grid-template-rows: repeat(5, 80px);` (ou autre hauteur)  
-- [ ] 3. Ajoutez `gap: 6px;` (ou la valeur de votre choix).
+- [ ] 1. Sur `.bingo`, activez la grille.
+- [ ] 2. Définissez **5 colonnes** et **5 rangées** égales.
+- [ ] 3. Ajoutez un espace de `6px` entre chaque rangée et colonne.
