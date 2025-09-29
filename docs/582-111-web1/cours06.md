@@ -264,10 +264,10 @@ Historiquement, le seul format des favicons était `.ico`. Aujourd’hui, le for
 Idéalement, on doit avoir une image de **1024px x 1024px** (svg, sinon png) pour concevoir une favicône contemporaine. À partir de cette grande image, on génère toutes les tailles nécessaires (16, 32, 180, 192, 512).
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/iconique/preview.webp)
+  ![](./exercices/mon-icone-favorite/preview.webp)
 
   <small>Exercice - HTML</small><br>
-  **[Iconique](./exercices/iconique/index.md){.stretched-link .back}**
+  **[Iconique](./exercices/mon-icone-favorite/index.md){.stretched-link .back}**
 </div>
 
 ## Balises details et summary
