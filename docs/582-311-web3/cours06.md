@@ -272,7 +272,14 @@ Votre cPanel vient avec une gestion de courriels, un peu comme si vous aviez vot
 #### Boîte de courriel
 
 1. Dans le tableau de bord, cliquer sur « Comptes de messagerie »
-1. Cliquer sur « Check Email » de la boîte de courriel précédemment créée
+1. Cliquer sur « Check Email » de la boîte de courriel précédemment créée.
+
+!!! info "Webmail"
+
+    Si le lien ne fonctionne pas, vous y avez accès par votre url en spécifiant webmail.
+    
+    Ex: https://webmail.201234567.tim-momo.com/ 
+
 1. Cliquer sur « Open »
 
   ![](./assets/images/roundcube.png){.w-50}
