@@ -49,14 +49,14 @@
   
 ## Devoir
 
-Faire le devoir 
+Faire le devoir  <br>
 * [🛠️ la gym](./devoirs_photoshop/vecteur_gym.md){ .md-button }  <br>   
 * [🛠️ les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button }   <br>     
 * [🛠️ l'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button }   <br>  
 * [🛠️ dali](./devoirs_photoshop/vecteur_dali.md){ .md-button }   <br>   
 * [🛠️ japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button }   <br>   
 * [🛠️ le bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button }   <br>
-* [🛠️ les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9) 
+* [🛠️ les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9)  <br>
 
 Déposer tous les devoirs dans Devoir sur TEAMS avant mardi. 
 
