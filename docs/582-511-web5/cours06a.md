@@ -56,13 +56,18 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 ## Quiz Time !
 
 - [Groupe 1 lundi AM](https://app.wooclap.com/AGXBLD)
-- [Groupe 2 lundi PM](https://app.wooclap.com/)
+- [Groupe 2 lundi PM](https://app.wooclap.com/MKKTHE)
 
 ## Révision exercices Vue.js
 
-- [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md)
-- [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
-- [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
+[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md){ .md-button } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/ByogzEv)
+
+[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/OJdOXYo)
+
+[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/gOqKxXL)
 
 ## Promesses JavaScript
 
@@ -79,6 +84,7 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 [Structure du JSON et accès aux propriétés](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json)
 
 ### Accéder aux propriétés d'un objet JS
+
 [Accesseurs de propriétés d'objets JavaScripr](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors)
 
 ### forEach sur tableau JS
@@ -89,18 +95,25 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 
 ## 3 Exercices
 
+### Obligatoire
 
 [Exercice fetch API sur Giphy](./exercices/ex-fetch-giphy/index.md){ .md-button }
+<!-- ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb9haFEsVVBInjTRxqtYCksBa6wuD4orQ0Vbsg4U_iOFew?e=c4DqW8) -->
+
 
 [Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/BavBPoM) -->
+
+
+### Facultatif
 
 [API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
-
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/jOXNpbN) -->
 
 
 ## Devoirs
 
 - [ ] Faire l'intégration CSS+HTML de votre portfolio pour mercredi le 1er octobre
 - [ ] Terminer les 6 exercices *grid css* pour mercredi le 1er octobre
-- [ ] Terminer les exercices de *fetch API* avant l'examen
+- [ ] Terminer les exercices de *fetch API* avant l'examen (minimalement Giphy et Zoom)
 - [ ] Étudier pour l'examen du 6 octobre

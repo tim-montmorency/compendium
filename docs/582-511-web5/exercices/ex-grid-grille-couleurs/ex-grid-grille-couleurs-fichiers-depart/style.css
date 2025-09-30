@@ -29,7 +29,6 @@ h1 { margin: 0 0 8px; font-size: 1.5rem; }
 .hint { margin: 0 0 24px; color: var(--muted); }
 
 .grille {
-  /* À vous d'activer la grille et de définir colonnes/ rangées + gap */
   background: var(--card);
   padding: 12px;
   border-radius: 14px;

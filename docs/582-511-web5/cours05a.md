@@ -41,9 +41,11 @@
 ### 2 exercices v-for et v-if
 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md){ .md-button } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/ByogzEv)
+
 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
-
+➜ [Solution💡](https://codepen.io/tim-momo/pen/OJdOXYo)
 
 
 ## Vue: Formulaires (v-model)
@@ -66,8 +68,10 @@
 ### Questionnaire de révision + 1 exercice
 
 [❓Questionnaire de révision Vue.js](./exercices/vue-questionnaire-w3.md){ .md-button } 
+➜ Solution💡 directement sur chaque question du questionnaire
 
 [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
+➜ [Solution💡](https://codepen.io/tim-momo/pen/gOqKxXL)
 
 
 ## Devoirs

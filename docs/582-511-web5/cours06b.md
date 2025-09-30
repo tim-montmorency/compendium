@@ -21,6 +21,8 @@ https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/sfc/
 https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/ 
 https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/ < à mettre à jour au besoin pour faire le lien entre composante et app
 Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total comme vous avez fait au #8 des "Requis - Vue" puisqu'on n'a pas couvert références entre une app et les composantes.
+
+https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/
 -->
 
 !!! Tip "Rappel"
@@ -29,23 +31,48 @@ Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total com
 
 ## Aujourd'hui
 
-- [ ] Révision CSS Grid: Les solutions sont disponibles avec commentaires
+- [ ] Révision exercices CSS Grid et exercice fetch API
+- [ ] Révision avant examen
 - [ ] Vue.js : Les composantes et ses `props`
-- [ ] Vue.js : SFC - Single File Components
 - [ ] Rencontres prof/étudiant de suivi du portfolio
 - [ ] Cours dédié aux exercices composantes Vue et à l'avancement de l'intégration de votre portfolio
 - [ ] Au besoin, révision pour l'examen du prochain cours, soit lundi le 6 octobre
 
-## Révision CSS Grid
+## Révisions exercices
 
-PAS de révision en classe sur ces exercices. Les solutions sont disponibles avec commentaires. Si vous avez des questions ou besoin de clarification, veuillez me les adresser en classe ou sur Teams d'ici l'examen.
+### CSS Grid
+
+PAS de révision en classe sur ces exercices. Les solutions sont disponibles avec commentaires dans le [cours 5.2](./cours05b.md)
+Si vous avez des questions ou besoin de clarification, veuillez me les adresser en classe ou sur Teams d'ici l'examen.
+
+### Fetch API
+
+PAS de révision en classe sur ces exercices. Les solutions seront disponibles avec commentaires dans le [cours 6.1](./cours06a.md)
+Si vous avez des questions ou besoin de clarification, veuillez me les adresser en classe ou sur Teams d'ici l'examen.
+
+## Révision et préparation pour l'examen
+
+### Quiz qu'on a eu en classe
+
+À refaire individuellement, à votre rythme, si vous le souhaitez:
+
+- [Cours 3 - Vue intro - Quiz autonome (rythme du participant)](https://app.wooclap.com/YOZIXE/questionnaires/68dc4ca488996f35cd956590)
+- [Cours 4 - Vue.js - Quiz autonome (rythme du participant)](https://app.wooclap.com/QUXCBA/questionnaires/68dc4d6fda2bf27ab8475521)
+- [Cours 6 - Vue.js et CSS Grid - Quiz autonome (rythme du participant)](https://app.wooclap.com/MKKTHE/questionnaires/68dc4dd088996f35cd95ccbf)
+
+### Exercice de révision Vue.js
+
+- [Menu de sushis]()
+
+- [Chevalier]()
+
+- [Composantes cartes]()
 
 ## Vue JS
 
-Composantes
-SFC
+Composantes Vue.js
 
-## Rencontre de suivi
+
+## Rencontre de suivi individuel
 
 Intégration CSS/HTML
-
