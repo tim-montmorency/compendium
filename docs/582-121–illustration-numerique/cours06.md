@@ -81,4 +81,4 @@ Faire le devoir :
 
 📌 **Instructions :**  
 - Déposer tous les devoirs dans **Devoir** sur TEAMS avant mardi.  
-- Apporter toutes les photographies nécessaires pour votre travail la semaine prochaine.  
+- Apporter toutes les photographies nécessaires pour votre travail 1 la semaine prochaine.  
