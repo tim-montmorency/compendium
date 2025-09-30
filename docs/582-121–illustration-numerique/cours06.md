@@ -51,7 +51,7 @@
 [🛠️ L'éléphant](./devoirs_photoshop/vecteur_elephant.md){ .md-button } <br>  
 [🛠️ Dali](./devoirs_photoshop/vecteur_dali.md){ .md-button } <br>  
 [🛠️ Japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button } <br>  
-[🛠️ Le Bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button } <br><br>  
+[🛠️ Le Bauhaus](./devoirs_photoshop/vecteur_bauhaus.md){ .md-button } <br>
 [🛠️ Les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9){ .md-button } <br>  
 
 ---
