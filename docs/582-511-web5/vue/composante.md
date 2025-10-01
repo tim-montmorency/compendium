@@ -153,7 +153,7 @@ Les composantes sont souvent utilisées conjointement avec de boucles afin de ti
 Par exemple:
 
 ```html
-<counter v-for="btn in btnsArr" :msg="btn.msg"></counter>
+<counter v-for='btn in btnsArr' :msg='btn.msg'></counter>
 ```
 
 
