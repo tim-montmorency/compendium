@@ -67,7 +67,7 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 [Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button}
 
 
-## Révision et préparation pour l'examen (contenu facultatif)
+## Révision et préparation pour l'examen
 
 ### Quiz qu'on a eu en classe
 
