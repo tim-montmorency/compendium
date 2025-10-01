@@ -1,6 +1,6 @@
 # Cours 6.2
 <!-- 
-merc. 1 octobre remise de l'avancement.  
+Merc. 1 octobre remise de l'avancement.  
 
 PETIT COURS MAGISTRAL sur les composantes et SCF (ou juste composante).
 Par la suite, ils doivent travailler sur exercices composantes, révision examen et avancement portfolio 90% du temps du cours pendant que je les rencontre individuellement pour la remise.
@@ -13,16 +13,14 @@ Penser à développper plus d'exercices
 https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/
 
 
-Peut-être que le SCF je pourrais le repousser à quand on va voir Vite... Car anyway faut le compiler...
-https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/sfc/
-
--
-
 https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/ 
 https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/ < à mettre à jour au besoin pour faire le lien entre composante et app
 Pour cette étape, il n'est pas nécessaire de faire le calcul du prix total comme vous avez fait au #8 des "Requis - Vue" puisqu'on n'a pas couvert références entre une app et les composantes.
 
 https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/
+
+
+À développer et ajouter: références *ref* entre une app et les composantes.
 -->
 
 !!! Tip "Rappel"
@@ -35,8 +33,7 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/
 - [ ] Révision avant examen
 - [ ] Vue.js : Les composantes et ses `props`
 - [ ] Rencontres prof/étudiant de suivi du portfolio
-- [ ] Cours dédié aux exercices composantes Vue et à l'avancement de l'intégration de votre portfolio
-- [ ] Au besoin, révision pour l'examen du prochain cours, soit lundi le 6 octobre
+- [ ] Cours dédié aux exercices composantes Vue, révision pour l'examen et avancement de l'intégration de votre portfolio
 
 ## Révisions exercices
 
@@ -60,19 +57,24 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 - [Cours 4 - Vue.js - Quiz autonome (rythme du participant)](https://app.wooclap.com/QUXCBA/questionnaires/68dc4d6fda2bf27ab8475521)
 - [Cours 6 - Vue.js et CSS Grid - Quiz autonome (rythme du participant)](https://app.wooclap.com/MKKTHE/questionnaires/68dc4dd088996f35cd95ccbf)
 
-### Exercice de révision Vue.js
-
-- [Menu de sushis]()
-
-- [Chevalier]()
-
-- [Composantes cartes]()
-
 ## Vue JS
 
-Composantes Vue.js
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/">Vue: La composante et ses props</a>
+</div>
+
+### Exercice composante
+
+[Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button}
+
+## Exercice de révision Vue.js en vue de l'examen
+
+[Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
+
+<!-- [Chevalier](https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/){ .md-button} -->
 
 
-## Rencontre de suivi individuel
+## Rencontres de suivi individuel
 
 Intégration CSS/HTML
