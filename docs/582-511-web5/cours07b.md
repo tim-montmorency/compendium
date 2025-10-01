@@ -3,8 +3,12 @@
 merc. 8 octobre : dernier cours avant la semaine de rattrapage, après on se revoit le 20 octobre.
 -->
 
-
 <!-- 
+Portfolio: Attention, je ne leur ai pas encore donné de consigne pour leur composante vue du portfolio et au retour, ils n'ont que 10 jours restant pour finaliser... faudrait que je leur envoie les instructions aujourd'hui mais... c'est too much avec le projet intégrateur à prep... au piiiiire, je leur dit qu'ils vont recevoir les instructions d'ici... le 11 octobre afin de leur permettre d'avancer pendant la semaine de "rattrapage"...
+
+
+
+
 PRÉSENTATION DU PROJET INTÉGRATEUR
 * Création des équipes
 * Planification du projet: vous aurez 2 semaines mais n'attendez pas au prochain cours pour débuter car la remise sera 2 jours plus tard. Si vous commencez aujourd'hui, vous aveaz littéalement 14 jours..
@@ -21,5 +25,11 @@ GESTION DE PROJET
 * Tableau de gestion de projet (Trello, GitHub Project ou autre) 
 * Suivi de temps de travail 
 * Création des équipes et des rôles
+
+
+Git en équipe 
+- Branches 
+- Git Merge
+- Gestion de conflits
 -->
 ## PRÉSENTATION DU PROJET INTÉGRATEUR AUX ÉTUDIANTS

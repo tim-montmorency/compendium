@@ -72,8 +72,6 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 
 [Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
 
-<!-- [Chevalier](https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/){ .md-button} -->
-
 
 ## Rencontres de suivi individuel
 
