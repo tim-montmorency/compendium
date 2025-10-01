@@ -30,8 +30,8 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/
 ## Aujourd'hui
 
 - [ ] Révision exercices CSS Grid et exercice fetch API
-- [ ] Révision avant examen
-- [ ] Vue.js : Les composantes et ses `props`
+- [ ] Vue.js : Les composantes et ses `props` + exercice cartes
+- [ ] Révision avant examen (contenu facultatif)
 - [ ] Rencontres prof/étudiant de suivi du portfolio
 - [ ] Cours dédié aux exercices composantes Vue, révision pour l'examen et avancement de l'intégration de votre portfolio
 
@@ -69,7 +69,7 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 [Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button}
 
 
-## Révision et préparation pour l'examen
+## Révision et préparation pour l'examen (contenu facultatif)
 
 ### Quiz qu'on a eu en classe
 
