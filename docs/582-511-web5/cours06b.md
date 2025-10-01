@@ -55,11 +55,9 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
   <a href="./vue/composante.html">Vue: La composante et ses props</a>
 </div>
 
-<br>
 
 - [Vue: La composante et ses props](https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/)
 
-<br>
 
 
 

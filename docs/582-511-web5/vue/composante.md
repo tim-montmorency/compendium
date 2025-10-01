@@ -36,7 +36,8 @@ app.component('counter', {
       nbr: 0
     }
   },
-  template: `<button @click="nbr++">
+  template: `
+    <button @click="nbr++">
       Cliqué {{ nbr }}x
     </button>`
 })
@@ -44,7 +45,7 @@ app.component('counter', {
 
 
 !!! info
-    Remarquez la propriété template contenant une chaine de caractères correspondant au code HTML associé à la&nbsp;composante.
+    Remarquez la propriété `template` contenant une chaine de caractères correspondant au code HTML associé à la&nbsp;composante.
 
 
 
@@ -56,7 +57,7 @@ Lorsqu'une composante est définie, il est possible d'y faire référence dans l
 Par exemple:
 
 ```html
-<counter>
+<counter></counter>
 ```
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="mdvKMNm" data-pen-title="Vue.js Composante" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -64,10 +65,12 @@ Par exemple:
   Vue.js Composante</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-*
+
 
 <br>
-<a href="https://fr.vuejs.org/guide/essentials/component-basics">Composante - Les bases</a>
+<a href="https://fr.vuejs.org/guide/essentials/component-basics" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Composante - Les bases</em></a>
+<br>
+
 
 
 
@@ -86,7 +89,10 @@ Une composante peut-être réutilisée aussi souvent que désiré.
 
 Chaque bouton est entièrement indépendant. Ainsi le compteur de l'un n'a aucune influence sur le compteur d'un autre.
 
-<a href="https://fr.vuejs.org/guide/essentials/component-basics#using-a-component">Utilisation / réutilisation d'une composante</a>
+<br>
+<a href="https://fr.vuejs.org/guide/essentials/component-basics#using-a-component" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Utilisation / réutilisation d'une composante</em></a>
+<br>
+
 
 
 
@@ -133,9 +139,9 @@ Lorsqu'une `props` est passée à une composante, elle devient l'équivalent d'u
 
 
 
-
-<a href="https://fr.vuejs.org/guide/components/props">Props</a>
-
+<br>
+<a href="https://fr.vuejs.org/guide/components/props" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur les <em>Props</em></a>
+<br>
 
 
 ## Boucle v-for
