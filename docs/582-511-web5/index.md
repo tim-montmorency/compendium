@@ -15,12 +15,12 @@
 
 <!--
 * [Bootstrap (révision)](#)
-* [Tailwind](#)
+* [Tailwind](#)-->
 
 #### JavaScript
-* [Promesses JavaScript](#)
-* [Fetch API](#)
-* [REST API pour WordPress](#)-->
+* [Promesses JavaScript](./cours06a.md#promesses-javascript)
+* [Fetch API](./cours06a.md#fetch-api)
+<!--* [REST API pour WordPress](#)-->
 
 #### VUE.JS
 
@@ -35,6 +35,7 @@
 - [Vue: Tableau[ ] + boucle v-for](./vue/boucle.md)
 - [Vue: Éléments d'un formulaire](./vue/elements-de-formulaire.md)
 - [Vue: Propriété calculée](./vue/propriete-calculee.md)
+- [VUE: Composante](./vue/composante.md)
 
 
 

@@ -59,9 +59,13 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 
 ## Vue JS
 
+
+- <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/">Vue: La composante et ses props</a>
+
+
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/">Vue: La composante et ses props</a>
+  <a href="./vue/composante.html">Vue: La composante et ses props</a>
 </div>
 
 ### Exercice composante

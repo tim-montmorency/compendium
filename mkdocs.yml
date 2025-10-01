@@ -251,6 +251,12 @@ nav:
         - Tableau[ ]+ boucle v-for: 582-511-web5/vue/boucle.md
         - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
+        - Composante: 582-511-web5/vue/composante.md
+      - Fetch API:
+        - 582-511-web5/cours06a.md#fetch-api
+        - Promesse JS: 582-511-web5/cours06a.md#promesses-javascript
+        - Fetch API: 582-511-web5/cours06a.md#fetch-api
+        - Gestion données reçues: 582-511-web5/cours06a.html#gestions-des-donnees-recues
       - Projet portfolio:
         - 582-511-web5/projets/portfolio.md
         - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
