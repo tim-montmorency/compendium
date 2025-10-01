@@ -253,9 +253,9 @@ nav:
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
         - Composante: 582-511-web5/vue/composante.md
       - Fetch API:
-        - 582-511-web5/cours06a.md#fetch-api
-        - Promesse JS: 582-511-web5/cours06a.md#promesses-javascript
-        - Fetch API: 582-511-web5/cours06a.md#fetch-api
+        - 582-511-web5/cours06a.html#fetch-api
+        - Promesse JS: 582-511-web5/cours06a.html#promesses-javascript
+        - Fetch API: 582-511-web5/cours06a.html#fetch-api
         - Gestion données reçues: 582-511-web5/cours06a.html#gestions-des-donnees-recues
       - Projet portfolio:
         - 582-511-web5/projets/portfolio.md
