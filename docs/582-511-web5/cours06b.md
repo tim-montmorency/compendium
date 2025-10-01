@@ -77,11 +77,19 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 - [Cours 4 - Vue.js - Quiz autonome (rythme du participant)](https://app.wooclap.com/QUXCBA/questionnaires/68dc4d6fda2bf27ab8475521)
 - [Cours 6 - Vue.js et CSS Grid - Quiz autonome (rythme du participant)](https://app.wooclap.com/MKKTHE/questionnaires/68dc4dd088996f35cd95ccbf)
 
-### Exercice de révision Vue.js en vue de l'examen
+
+### Questionnaire de révision Vue.js
+
+Si vous n l'aviez pas fait la semaine dernière ou si vous souhaitez réviser à nouveau:
+
+[❓Questionnaire de révision Vue.js](./exercices/vue-questionnaire-w3.md)
+
+
+### Exercice SUPPLÉMENTAIRE de révision Vue.js en vue de l'examen
+
+À la demande de plusieurs étudiants cette semaine, j'ai ajouté cet exercice en tant que *pratique d'examen*. Il ne *couvre pas tout*: ne prenez pas cet exercice comme seule révision pour l'examen. Par contre, ça vous aidera à réviser plusieurs concepts Vue et un peu de CSS Grid.
 
 [Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
-
-
 
 
 ## Rencontres de suivi individuel
