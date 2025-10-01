@@ -107,4 +107,7 @@ Intégration CSS/HTML
 
 ### Pour mercredi prochain
 
-Avancer votre intégration HTML/CSS de votre portfolio
+*Avancer votre intégration HTML/CSS de votre portfolio:*
+
+- N'oubliez pas de mettre à jour votre Trello / GitHub Project au fur et à mesure.
+- Faites des commits souvent, et nommez les bien.
