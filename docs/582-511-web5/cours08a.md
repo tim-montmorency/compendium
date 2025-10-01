@@ -19,6 +19,7 @@ https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/  (vu
 
 
 Contenu à développer et ajouter: références $emit *ref* entre une app et les composantes. 
+https://fr.vuejs.org/guide/components/events.html 
 La  <a href="https://www.w3schools.com/vue/vue_emit.php">méthode intégrée `$emit`  qui permet de faire le lien entre une app et ses composantes.
 
 
