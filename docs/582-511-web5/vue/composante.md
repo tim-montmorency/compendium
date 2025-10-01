@@ -84,7 +84,7 @@ Une composante peut-être réutilisée aussi souvent que désiré.
   Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-*
+
 
 
 Chaque bouton est entièrement indépendant. Ainsi le compteur de l'un n'a aucune influence sur le compteur d'un autre.
@@ -127,12 +127,14 @@ Pour passer une donnée, il suffit ensuite d'ajouter un attribut avec la valeur 
   Vue.js Composante - props</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-*
+
 
 Lorsqu'une `props` est passée à une composante, elle devient l'équivalent d'une donnée dans `data`.
 
 !!! Warning
     Les `props` sont des données passées aux composantes mais ne peuvent pas changer de valeur.
+
+<br>
 
 !!! Tip
     Pour nommer vos `props`, si vous utilisez du *camelCase* (mélange de minuscules et majuscules), vous devrez utiliser le *kebab-case* du côté HTML dans les noms d'attributs de votre composante. Mais au stade où on en est, pour le moment, je vous conseille simplement de n'utiliser que des minuscules dans les noms de vos `props`. Ça va vous simplifier la vie.
@@ -145,9 +147,11 @@ Lorsqu'une `props` est passée à une composante, elle devient l'équivalent d'u
 
 
 ## Boucle v-for
+
 Les composantes sont souvent utilisées conjointement avec de boucles afin de tirer profit de leur réusabilité.
 
 Par exemple:
+
 ```html
 <counter v-for="btn in btnsArr" :msg="btn.msg"></counter>
 ```
