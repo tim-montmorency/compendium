@@ -6,7 +6,7 @@ PETIT COURS MAGISTRAL sur les composantes et SCF (ou juste composante).
 Par la suite, ils doivent travailler sur exercices composantes, révision examen et avancement portfolio 90% du temps du cours pendant que je les rencontre individuellement pour la remise.
 -->
 
-<!-- 
+<!-- dd
 Contenu de cours (à ramener sur compendium et à peaufiner, améliorer)
 Penser à développper plus d'exercices
 
@@ -47,18 +47,8 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 PAS de révision en classe sur ces exercices. Les solutions seront disponibles avec commentaires dans le [cours 6.1](./cours06a.md)
 Si vous avez des questions ou besoin de clarification, veuillez me les adresser en classe ou sur Teams d'ici l'examen.
 
-## Révision et préparation pour l'examen
-
-### Quiz qu'on a eu en classe
-
-À refaire individuellement, à votre rythme, si vous le souhaitez:
-
-- [Cours 3 - Vue intro - Quiz autonome (rythme du participant)](https://app.wooclap.com/YOZIXE/questionnaires/68dc4ca488996f35cd956590)
-- [Cours 4 - Vue.js - Quiz autonome (rythme du participant)](https://app.wooclap.com/QUXCBA/questionnaires/68dc4d6fda2bf27ab8475521)
-- [Cours 6 - Vue.js et CSS Grid - Quiz autonome (rythme du participant)](https://app.wooclap.com/MKKTHE/questionnaires/68dc4dd088996f35cd95ccbf)
 
 ## Vue JS
-
 
 - <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/">Vue: La composante et ses props</a>
 
@@ -72,9 +62,22 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 
 [Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button}
 
-## Exercice de révision Vue.js en vue de l'examen
+
+## Révision et préparation pour l'examen
+
+### Quiz qu'on a eu en classe
+
+À refaire individuellement, à votre rythme, si vous le souhaitez:
+
+- [Cours 3 - Vue intro - Quiz autonome (rythme du participant)](https://app.wooclap.com/YOZIXE/questionnaires/68dc4ca488996f35cd956590)
+- [Cours 4 - Vue.js - Quiz autonome (rythme du participant)](https://app.wooclap.com/QUXCBA/questionnaires/68dc4d6fda2bf27ab8475521)
+- [Cours 6 - Vue.js et CSS Grid - Quiz autonome (rythme du participant)](https://app.wooclap.com/MKKTHE/questionnaires/68dc4dd088996f35cd95ccbf)
+
+### Exercice de révision Vue.js en vue de l'examen
 
 [Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
+
+
 
 
 ## Rencontres de suivi individuel
