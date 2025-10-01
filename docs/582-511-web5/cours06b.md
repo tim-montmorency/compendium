@@ -95,3 +95,16 @@ Si vous n l'aviez pas fait la semaine dernière ou si vous souhaitez réviser à
 ## Rencontres de suivi individuel
 
 Intégration CSS/HTML
+
+## Devoir
+
+### Pour lundi prochain
+
+- Terminer et réviser les exercices fetch API obligatoires (Giphy et Zoom) avec les corrigés fournis
+- Terminer l'exercice [Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/)
+- Étudier pour l'examen de lundi 
+  <small>Étudiez avec ce que vous voulez. L'exercice Sushi n'est pas obligatoire mais il vous fait un belle révision même s'il ne couvre pas tout.</small>
+
+### Pour mercredi prochain
+
+Avancer votre intégration HTML/CSS de votre portfolio
