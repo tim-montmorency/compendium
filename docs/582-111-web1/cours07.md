@@ -1,12 +1,9 @@
-# Cours 7
+# Examen
 
-Examen
+![](./assets/images/grogu.gif){.w-100}
 
 [STOP]
 
-Examen HTML + TP1
+Mentionner aux étudiants d'aller manuellement à l'adresse :
 
-
-<h1 style="font-size: 100px; margin-bottom: 0;">EXAMEN</h1>
-
-<iframe src="https://giphy.com/embed/5qoRdabXeT4GY" width="480" height="374" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+https://tim-montmorency.com/compendium/582-111-web1/examens/examen-01.html
