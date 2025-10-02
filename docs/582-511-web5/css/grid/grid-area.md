@@ -41,7 +41,8 @@ Est équivalent à :
 
 ### Fonctionne de pair avec [`grid-template-areas`](./grid-template-areas.md)
 
-`grid-template-areas` permet de *dessiner la grille en nommant des zones* directement dans le CSS sur la conteneur de la grille.
+`grid-template-areas` permet de *dessiner la grille en nommant des zones* .
+
 Ensuite, `grid-area` appliqué sur les éléments enfants, permet d'attribuer celui-ci à une zone spécifique définie dans `grid-template-areas`.
 
 ```css
