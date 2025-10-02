@@ -462,7 +462,7 @@ body[data-md-color-scheme="slate"] img.invert {
   color: #ef5552;
   display: inline-block;
   font-weight: 700;
-  padding: 2em;
+  padding: 1em;
   transition: color 125ms, background-color 125ms, border-color 125ms;
   text-decoration: none;
   background-color: #1e212a;
