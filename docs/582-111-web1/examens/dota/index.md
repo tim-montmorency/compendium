@@ -100,7 +100,7 @@ Remettre dans Teams le dossier en format `zip` avec la nomenclature suivante : `
 | Section inscription     | Section avec attribut                                            |   2    |
 | Section inscription     | Titre 2                                                          |   2    |
 | Section inscription     | Paragraphe                                                       |   2    |
-| Section inscription     | Formulaire                                                       |   2    |
+| Section inscription     | Formulaire et bouton                                             |   2    |
 | Section inscription     | Champ courriel obligatoire                                       |   2    |
 | Section inscription     | Étiquette liée au champ courriel                                 |   2    |
 | Section inscription     | Placeholder                                                      |   2    |
