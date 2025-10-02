@@ -438,7 +438,7 @@ body[data-md-color-scheme="slate"] img.invert {
   background: #fff;
   border-radius: 12px;
   width: 80%;
-  max-width: 700px;
+  max-width: 900px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   overflow: hidden;
   animation: modalFadeIn 0.3s ease;
