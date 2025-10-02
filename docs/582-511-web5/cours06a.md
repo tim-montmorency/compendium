@@ -17,7 +17,7 @@
 -->
 
 ## Annonces
-
+<!--
 ### Mesures d'assouplissement pour l'examen
 
 Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
@@ -26,14 +26,13 @@ Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
 
 Tutorat demain 30 septembre entre 12h30 et 14h10.
 Révision pour l'examen: presciptions pédagogiques : obligatoire.
-
+-->
 ### Suppression de votre compte hébergé sur host-papa sur le domaine [tim-momo.com](https://tim-momo.com/)
 
 <span class="important-label">IMPORTANT</span> Suppression de votre compte étudiant temporaire des sites **Web 4** hébergés sur [tim-momo.com](https://tim-momo.com/) d'ici la mi-session (disons autour du *14-15 octobre*).
 
 Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin* ou autre extension WordPress qui permet de faire des suvegarde de base de données) et une *sauvegarde des fichiers* de vos sites web et projets web hébergé sur tim-momo.com.
 
-- 
 
 ## Aujourd'hui
 
