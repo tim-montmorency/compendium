@@ -18,7 +18,6 @@ grid-template-areas:
 **Autre exemple :**
 
 `grid-template-areas` permet de *dessiner la grille en nommant des zones* directement dans le CSS sur la conteneur de la grille.
-Ensuite, avec `grid-area` appliqué sur les éléments enfants, on place chaque élément dans la zone correspondante.
 
 ```css
 .grid {
@@ -28,7 +27,11 @@ Ensuite, avec `grid-area` appliqué sur les éléments enfants, on place chaque 
     "menu content content content "
     "footer footer  footer footer";
 }
+```
 
+Ensuite, avec `grid-area` appliqué sur les éléments enfants, on *place chaque élément dans la zone correspondante*.
+
+```css
 .no1 { grid-area: menu; }
 .no2 { grid-area: content; }
 .no3 { grid-area: footer; }
