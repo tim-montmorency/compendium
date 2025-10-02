@@ -23,7 +23,7 @@ allowfullscreen></iframe>
 
 Quelques exemples que j'ai sélectionnés pour vous :
 
-* [Une table de données interactive](https://hc200ok.github.io/vue3-easy-data-table-doc/)
+* [Une table de données interactive: Easy Data Table](https://hc200ok.github.io/vue3-easy-data-table-doc/)
 * [Un jeu de Pokémons construit avec Vue.js et Tailwind CSS](https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/)
 * [Une composante Vue.js qui affiche une list des personnages de Rick and Morty.](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/)
 * [Composante de formulaire](https://vueform.com/examples/accomodation-and-travel-create-listing)

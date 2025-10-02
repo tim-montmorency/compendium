@@ -97,18 +97,15 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 
 ### Obligatoire
 
-[Exercice fetch API sur Giphy](./exercices/ex-fetch-giphy/index.md){ .md-button }
-<!-- ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb9haFEsVVBInjTRxqtYCksBa6wuD4orQ0Vbsg4U_iOFew?e=c4DqW8) -->
+[Exercice fetch API sur Giphy](./exercices/ex-fetch-giphy/index.md){ .md-button } ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb9haFEsVVBInjTRxqtYCksBa6wuD4orQ0Vbsg4U_iOFew?e=c4DqW8)
 
 
-[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/BavBPoM) -->
+[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button } ➜ [Solution💡](https://codepen.io/tim-momo/pen/BavBPoM)
 
 
 ### Facultatif
 
-[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/jOXNpbN) -->
+[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button } ➜ [Solution💡](https://codepen.io/tim-momo/pen/jOXNpbN)
 
 
 ## Devoirs
