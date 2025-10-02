@@ -38,7 +38,7 @@ Est équivalent à :
 ## Placer un élément dans une zone définie par `grid-template-areas`
 
 `grid-template-areas` permet de *dessiner la grille en nommant des zones* directement dans le CSS sur la conteneur de la grille.
-Ensuite, avec `grid-area` appliqué sur les éléments enfants, on place chaque élément dans la zone correspondante.
+Ensuite, `grid-area` appliqué sur les éléments enfants, permet d'attribuer celui-ci à une zone spécifique définie dans `grid-template-areas`.
 
 ```css
 .grid {

@@ -29,7 +29,7 @@ grid-template-areas:
 }
 ```
 
-Ensuite, avec `grid-area` appliqué sur les éléments enfants, on *place chaque élément dans la zone correspondante*.
+Ensuite, `grid-area` appliqué sur les éléments enfants, permet d'attribuer celui-ci à une zone spécifique définie dans `grid-template-areas`.
 
 ```css
 .no1 { grid-area: menu; }
