@@ -465,6 +465,7 @@ body[data-md-color-scheme="slate"] img.invert {
   padding: 2em;
   transition: color 125ms, background-color 125ms, border-color 125ms;
   text-decoration: none;
+  background-color: #1e212a;
 }
 
 .btn-open-modal:hover {
