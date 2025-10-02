@@ -1,6 +1,8 @@
 # `grid-area`
 
-## Placement par les 4 coins
+## Placer par les 4 coins
+
+### C'est un raccourci pour [`grid-row`et `grid-column`](./grid-col-row.md)
 
 La propriété `grid-area` permet de définir en une seule déclaration :
 
@@ -36,6 +38,8 @@ Est équivalent à :
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ## Placer un élément dans une zone définie par `grid-template-areas`
+
+### Fonctionne de pair avec [`grid-template-areas`](./grid-template-areas.md)
 
 `grid-template-areas` permet de *dessiner la grille en nommant des zones* directement dans le CSS sur la conteneur de la grille.
 Ensuite, `grid-area` appliqué sur les éléments enfants, permet d'attribuer celui-ci à une zone spécifique définie dans `grid-template-areas`.
