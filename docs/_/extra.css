@@ -441,7 +441,7 @@ body[data-md-color-scheme="slate"] img.invert {
   max-width: 700px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   overflow: hidden;
-  animation: fadeIn 0.3s ease;
+  animation: modalFadeIn 0.3s ease;
 }
 
 /* --- Fermeture --- */
@@ -456,7 +456,7 @@ body[data-md-color-scheme="slate"] img.invert {
 .close:hover { color: #000; }
 
 /* --- Animation d'apparition --- */
-@keyframes fadeIn {
+@keyframes modalFadeIn {
   from { transform: scale(0.95); opacity: 0; }
   to   { transform: scale(1); opacity: 1; }
 }
