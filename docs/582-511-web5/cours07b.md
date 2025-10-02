@@ -40,7 +40,12 @@ Git en équipe
 * Mêlée (Scrum) 
 * Tableau de gestion de projet (Trello, GitHub Project ou autre) 
 * Suivi de temps de travail 
-* Création des équipes et des rôles
+
+## Projet intégrateur 
+
+* Création des équipes 
+* Attribution des rôles
+* Présentation du cahier de charges
 
 
 
