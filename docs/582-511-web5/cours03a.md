@@ -70,34 +70,6 @@ Révision en pair, par équipe de 2, sélectionnées par l'enseignante.
 
 ## Vue.js
 
-<iframe width="315" height="560"
-src="https://www.youtube.com/embed/_1-GRjQROAw?si=Etou1mPTlyThUbau"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen></iframe>
-
-
-### Quelques exemples Vue
-
-* [Démos sur vuejsexamples.com](https://vuejsexamples.com/)  
-
-* [Made with Vue.js](https://madewithvuejs.com/) 
-
-Quelques exemples que j'ai sélectionnés pour vous :
-
-* [Un jeu de Pokémons construit avec Vue.js et Tailwind CSS](https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/)
-* [Une composante Vue.js qui affiche une list des personnages de Rick and Morty.](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/)
-* [Composante de formulaire](https://vueform.com/examples/accomodation-and-travel-create-listing)
-* [Composante de shopping  de matériel informatique](https://www.eloshapes.com/mouse/browse)
-* [Unicorn: Convertisseurs d'unités de mesure](https://unicon.pages.dev/)
-* [Quelques exemples de projets Vue.js regroupés sur une collection CodePen.](https://codepen.io/collection/kNQdop)
-
-### Vidéo: Vue.js en 2 minutes
-
-[:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
-
-### Vue: Contenu de cours
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -115,7 +87,7 @@ Quelques exemples que j'ai sélectionnés pour vous :
 </div>
 
 
-#### Exercices
+### Exercices
 
 [🧑🏽‍💻 Exercice Vue.js: Badge VIP Festif](./exercices/vue-badge-vip.md){ .md-button :target="_blank" }
 

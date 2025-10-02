@@ -1,13 +1,10 @@
-# Cours 7.2 
+# Cours 7.2
 <!-- 
 merc. 8 octobre : dernier cours avant la semaine de rattrapage, après on se revoit le 20 octobre.
 -->
 
 <!-- 
 Portfolio: Attention, je ne leur ai pas encore donné de consigne pour leur composante vue du portfolio et au retour, ils n'ont que 10 jours restant pour finaliser... faudrait que je leur envoie les instructions aujourd'hui mais... c'est too much avec le projet intégrateur à prep... au piiiiire, je leur dit qu'ils vont recevoir les instructions d'ici... le 11 octobre afin de leur permettre d'avancer pendant la semaine de "rattrapage"...
-
-
-
 
 PRÉSENTATION DU PROJET INTÉGRATEUR
 * Création des équipes
@@ -26,10 +23,22 @@ GESTION DE PROJET
 * Suivi de temps de travail 
 * Création des équipes et des rôles
 
-
 Git en équipe 
 - Branches 
 - Git Merge
 - Gestion de conflits
 -->
-## PRÉSENTATION DU PROJET INTÉGRATEUR AUX ÉTUDIANTS
+## Présentation du projet intégrateur
+
+### Grand projet de session
+
+## 🤖 Tuteur Momo-Bot pour Web 5
+
+<button class="btn-open-modal md-button" data-modal="momobot">Aide 🤖 Momo-Bot</button>
+
+<div class="modal" id="modal-momobot">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="aspect-ratio: 6/7;"></iframe>
+  </div>
+</div>

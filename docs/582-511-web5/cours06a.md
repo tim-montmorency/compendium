@@ -1,6 +1,6 @@
 # Cours 6.1
 <!-- lun. 29 sept. -->
-
+<!--
 !!! Tip "Rappel"
     - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
 
@@ -14,9 +14,10 @@
 - Hébergement de vos vidéos en streaming: [Vimeo](https://vimeo.com) ou [Youtube](https://youtube.com).
 - Détails plus spécifiques pour votre composante Vue.js et GSAP ScrollTrigger à venir...
 
+-->
 
 ## Annonces
-
+<!--
 ### Mesures d'assouplissement pour l'examen
 
 Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
@@ -25,14 +26,13 @@ Pour ceux qui ont droits à plus de temps pour l'examen... Discutons-en!
 
 Tutorat demain 30 septembre entre 12h30 et 14h10.
 Révision pour l'examen: presciptions pédagogiques : obligatoire.
-
+-->
 ### Suppression de votre compte hébergé sur host-papa sur le domaine [tim-momo.com](https://tim-momo.com/)
 
 <span class="important-label">IMPORTANT</span> Suppression de votre compte étudiant temporaire des sites **Web 4** hébergés sur [tim-momo.com](https://tim-momo.com/) d'ici la mi-session (disons autour du *14-15 octobre*).
 
 Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin* ou autre extension WordPress qui permet de faire des suvegarde de base de données) et une *sauvegarde des fichiers* de vos sites web et projets web hébergé sur tim-momo.com.
 
-- 
 
 ## Aujourd'hui
 
@@ -97,18 +97,15 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 
 ### Obligatoire
 
-[Exercice fetch API sur Giphy](./exercices/ex-fetch-giphy/index.md){ .md-button }
-<!-- ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb9haFEsVVBInjTRxqtYCksBa6wuD4orQ0Vbsg4U_iOFew?e=c4DqW8) -->
+[Exercice fetch API sur Giphy](./exercices/ex-fetch-giphy/index.md){ .md-button } ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eb9haFEsVVBInjTRxqtYCksBa6wuD4orQ0Vbsg4U_iOFew?e=c4DqW8)
 
 
-[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button }
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/BavBPoM) -->
+[Interface Zoom](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-zoom/){ .md-button } ➜ [Solution💡](https://codepen.io/tim-momo/pen/BavBPoM)
 
 
 ### Facultatif
 
-[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button }
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/jOXNpbN) -->
+[API de Pokémon](https://tim-montmorency.com/timdoc/582-518MO/exercices/fetch-api-pokemon-api/){ .md-button } ➜ [Solution💡](https://codepen.io/tim-momo/pen/jOXNpbN)
 
 
 ## Devoirs

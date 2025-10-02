@@ -419,6 +419,59 @@ body[data-md-color-scheme="slate"] img.invert {
 }
 
 /* =========================
+   FENÊTRE MODAL
+   ========================= */
+
+/* --- Modal cachée par défaut --- */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Contenu --- */
+.modal-content {
+  background: #fff;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 1200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  overflow: hidden;
+  animation: modalFadeIn 0.3s ease;
+}
+
+/* --- Fermeture --- */
+.close {
+  color: #666;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.close:hover { color: #000; }
+
+.btn-open-modal {
+  border: 1px solid #ef5552;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* --- Animation d'apparition --- */
+@keyframes modalFadeIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* =========================
    FOOTER
    ========================= */
 .md-footer,

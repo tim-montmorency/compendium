@@ -6,6 +6,35 @@
 
 **Vue** (prononciation: View) est un framework JavaScript progressif utilisé pour construire des interfaces utilisateur. Il est conçu pour être adaptable et peut être intégré dans des projets existants ou utilisé pour créer des applications web complètes.
 
+
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/_1-GRjQROAw?si=Etou1mPTlyThUbau"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+
+## Quelques exemples Vue
+
+* [Démos sur vuejsexamples.com](https://vuejsexamples.com/)  
+
+* [Made with Vue.js](https://madewithvuejs.com/) 
+
+Quelques exemples que j'ai sélectionnés pour vous :
+
+* [Une table de données interactive: Easy Data Table](https://hc200ok.github.io/vue3-easy-data-table-doc/)
+* [Un jeu de Pokémons construit avec Vue.js et Tailwind CSS](https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/)
+* [Une composante Vue.js qui affiche une list des personnages de Rick and Morty.](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/)
+* [Composante de formulaire](https://vueform.com/examples/accomodation-and-travel-create-listing)
+* [Composante de shopping  de matériel informatique](https://www.eloshapes.com/mouse/browse)
+* [Unicorn: Convertisseurs d'unités de mesure](https://unicon.pages.dev/)
+* [Quelques exemples de projets Vue.js regroupés sur une collection CodePen.](https://codepen.io/collection/kNQdop)
+
+## Vidéo: Vue.js en 2 minutes
+
+[:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
+
 ## Vue: version 3
 
 Attention, dans le cadre de ce cours vous allez apprendre la *version 3* de Vue.js. Assurez vous toujours de vérifier la version lorsque vous cherchez de la documentation ou des réponses à vos questions.

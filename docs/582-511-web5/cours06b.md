@@ -60,11 +60,9 @@ Si vous avez des questions ou besoin de clarification, veuillez me les adresser 
 
 
 
-
-
 ### Exercice composante
 
-[Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button}
+[Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button} ➜ [Solution💡](https://codepen.io/tim-momo/pen/xxMJpYM)
 
 
 ## Révision et préparation pour l'examen
