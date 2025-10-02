@@ -1,11 +1,11 @@
 # Cours 4.2
 <!-- merc. 17 sept. -->
-
+<!--
 !!! Tip "Rappel"
     - Portfolio, prochaine remise: Design: *mercredi 24 septembre*.
     - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
 
-
+-->
 ## Aujourd'hui
 
 - [ ] Présentation de la prochaine remise: [Design du portfolio](./projets/portfolio-remise2.md).

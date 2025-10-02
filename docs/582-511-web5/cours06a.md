@@ -1,6 +1,6 @@
 # Cours 6.1
 <!-- lun. 29 sept. -->
-
+<!--
 !!! Tip "Rappel"
     - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
 
@@ -14,6 +14,7 @@
 - Hébergement de vos vidéos en streaming: [Vimeo](https://vimeo.com) ou [Youtube](https://youtube.com).
 - Détails plus spécifiques pour votre composante Vue.js et GSAP ScrollTrigger à venir...
 
+-->
 
 ## Annonces
 

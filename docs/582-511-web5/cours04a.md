@@ -1,10 +1,10 @@
 # Cours 4.1
 <!-- lun. 15 sept. -->
-
+<!--
 !!! Tip "Rappel"
     - Portfolio, prochaine remise: Planification: *mercredi 17 septembre*.
     - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
-
+-->
 ## Aujourd'hui
 
 - [ ] Rappel Planification portfolio
