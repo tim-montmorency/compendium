@@ -61,6 +61,7 @@ Contenu principal
   - [ ] Ajouter un titre 2 pour la mention « Inscriptions ! »
   - [ ] Ajouter un paragraphe pour la partie « Participez à nos tournois ... »
   - [ ] Ajouter un formulaire avec champ courriel obligatoire et son étiquette correctement associée.<br>Ajouter le placeholder « exemple@domaine.com »
+  - [ ] Ajotuer un bouton « Contactez-nous » avec un attribut `class` « btn »
 
 Pied de page
 
