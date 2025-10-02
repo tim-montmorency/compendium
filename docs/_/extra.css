@@ -457,6 +457,26 @@ body[data-md-color-scheme="slate"] img.invert {
 
 .btn-open-modal {
   cursor: pointer;
+  border: .1rem solid #ef5552;
+  border-radius: 100%;
+  color: #ef5552;
+  display: inline-block;
+  font-weight: 700;
+  padding: 2em;
+  transition: color 125ms, background-color 125ms, border-color 125ms;
+  text-decoration: none;
+}
+
+.btn-open-modal:hover {
+  background-color: #ef5552;
+  color: white;
+  text-decoration: none;
+}
+.place-bottom-right {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 900;
 }
 /* --- Animation d'apparition --- */
 @keyframes modalFadeIn {
