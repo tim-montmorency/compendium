@@ -100,13 +100,13 @@ Remettre dans Teams le dossier en format `zip` avec la nomenclature suivante : `
 | Section inscription     | Section avec attribut                                            |   2    |
 | Section inscription     | Titre 2                                                          |   2    |
 | Section inscription     | Paragraphe                                                       |   2    |
-| Section inscription     | Formulaire et bouton                                             |   2    |
+| Section inscription     | Formulaire                                                       |   2    |
 | Section inscription     | Champ courriel obligatoire                                       |   2    |
 | Section inscription     | Étiquette liée au champ courriel                                 |   2    |
 | Section inscription     | Placeholder                                                      |   2    |
+| Section inscription     | Bouton avec attribut                                             |   2    |
 | Pied de page            | Zone de pied de page                                             |   2    |
 | Pied de page            | Bloc de citation                                                 |   2    |
-| Pied de page            | Contenu de la citation                                           |   2    |
 | Pied de page            | L’auteur cité                                                    |   2    |
 | Pied de page            | Paragraphe final                                                 |   2    |
 | **TOTAL**               |                                                                  | **60** |
