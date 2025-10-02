@@ -289,6 +289,36 @@ const initializeFireworks = () => {
   return { fireworks, fireworksContainer };
 };
 
+const initModal = () => {
+  // Récupère tous les boutons
+  const buttons = document.querySelectorAll(".btn-open-modal");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const modalId = btn.dataset.modal; // récupère la valeur de data-modal
+      const modal = document.getElementById("modal-" + modalId);
+      if (modal) modal.style.display = "flex"; // flex pour centrer
+    });
+  });
+
+  // Gestion des fermetures
+  document.querySelectorAll(".modal").forEach(modal => {
+    const closeBtn = modal.querySelector(".close");
+
+    // Fermer en cliquant sur la croix
+    closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    // Fermer en cliquant à l'extérieur du contenu
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  });
+}
+
 // Fonction pour vérifier les checkbox et afficher/masquer les feux d'artifice
 const handleCheckboxesWithFireworks = (fireworks, fireworksContainer) => {
   const taskLists = document.querySelectorAll("ul.task-list");
@@ -379,6 +409,7 @@ function runFunctions() {
   addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
   addCustomStyles("582-511-web5");
+  initModal();
   // selectIframe();
 
   /* highlight.js initialization */
