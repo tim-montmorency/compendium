@@ -1,5 +1,7 @@
 # Journée carrière
 
+lora.boisvert@cmontmorency.qc.ca
+
 ## Invitation pour les employeurs
 Objet: Stage printemps 2026 
 
