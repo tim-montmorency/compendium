@@ -479,11 +479,14 @@ body[data-md-color-scheme="slate"] img.invert {
   right: 2rem;
   z-index: 900;
 }
+
 /* --- Animation d'apparition --- */
 @keyframes modalFadeIn {
   from { transform: scale(0.95); opacity: 0; }
   to   { transform: scale(1); opacity: 1; }
 }
+
+
 
 /* =========================
    FOOTER
