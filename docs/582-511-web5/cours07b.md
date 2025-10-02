@@ -39,6 +39,6 @@ Git en équipe
 <div class="modal" id="modal-momobot">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="aspect-ratio: 4/3;"></iframe>
+    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
   </div>
 </div>
