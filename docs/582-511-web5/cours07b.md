@@ -45,10 +45,6 @@ Git en équipe
 
 
 
-
-
-
-
 <button class="btn-open-modal" data-modal="momobot">🤖</button>
 
 <div class="modal place-bottom-right" id="modal-momobot">
