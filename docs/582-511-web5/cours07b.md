@@ -34,7 +34,8 @@ Git en équipe
 
 ## 🤖 Tuteur Momo-Bot pour Web 5
 
-<button class="btn-open-modal" data-modal="momobot">Aide 🤖 Momo-Bot</button>
+<button class="btn-open-modal md-button" data-modal="momobot">Aide 🤖 Momo-Bot</button>
+
 <div class="modal" id="modal-momobot">
   <div class="modal-content">
     <span class="close">&times;</span>
