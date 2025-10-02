@@ -1,5 +1,8 @@
 # Cours 8 
 
+## Question universités
+Trou horaire présentation ou kiosque ou en classe
+
 ## Retour sur les plans de lettre de présentation
 En équipes.
 
