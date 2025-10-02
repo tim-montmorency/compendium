@@ -32,7 +32,22 @@ Git en équipe
 
 ### Grand projet de session
 
-## 🤖 Tuteur Momo-Bot pour Web 5
+## Gestion de projet
+
+* Cahier de charges 
+* Kanban 
+* Méthode Agile 
+* Mêlée (Scrum) 
+* Tableau de gestion de projet (Trello, GitHub Project ou autre) 
+* Suivi de temps de travail 
+* Création des équipes et des rôles
+
+
+
+
+
+
+
 
 <button class="btn-open-modal" data-modal="momobot">🤖</button>
 
