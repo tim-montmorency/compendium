@@ -455,6 +455,16 @@ body[data-md-color-scheme="slate"] img.invert {
 }
 .close:hover { color: #000; }
 
+.btn-open-modal {
+  border: 1px solid #ef5552;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  cursor: pointer;
+}
 /* --- Animation d'apparition --- */
 @keyframes modalFadeIn {
   from { transform: scale(0.95); opacity: 0; }
