@@ -161,10 +161,10 @@ Mettre en pratique les notions suivantes :
 
 ### 7- États d’interface UI
 
-- Message clair en fonction de l'*état* du chargement des données
-- Message clair si aucun résultat : *« Aucun artiste »*.
-- Bouton *« Réinitialiser »* pour effacer les filtres et la recherche.
-- Affichage du nombre de *résultat(s)*  selon la recherche et les filtres
+- Message clair en fonction de l'*état* du chargement des données via `section.message`.
+- Message clair si aucun résultat : *« Aucun artiste »* via `p.empty`.
+- Bouton *« Réinitialiser »* permettant d'effacer les filtres et la recherche.
+- Affichage du nombre de *résultat(s)* selon la recherche et les filtres activés par l'utilisateur.
 
 
 
