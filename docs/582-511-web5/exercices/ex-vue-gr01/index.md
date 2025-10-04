@@ -134,10 +134,10 @@ Mettre en pratique les notions suivantes :
 
 ## Barème (100 points)
 
-- **Commentaires dans le code et dans l'exécution**
-- **Fetch via bouton & gestion des états** → 20 pts  
-- **Grille responsive & layouts (uniform/featured) + version tablette + version mobile** → 25 pts  
-- **Vue.js - importation, création de l'app, initialisation des données, nommage des données (bien nommées, de façon claire)** → 10 pts  
-- **Vue.js (computed `filteredAndSortedArtistsArr`, directives, events, data binding)** → 25 pts  
-- **Filtre, recherche et tri** → 10 pts
-- **UX & accessibilité (messages à l'écran, labels, réinitialisation)** → 10 pts  
+- 10pts → **Commentaires dans le code et dans l'exécution**
+- 20pts → **Fetch via bouton & gestion des états**
+- 20pts → **Grille responsive & layouts (uniform/featured) + version tablette + version mobile**
+- 10pts → **Vue.js - importation, création de l'app, initialisation des données, nommage des données (bien nommées, de façon claire)** 
+- 20pts → **Vue.js (computed `filteredAndSortedArtistsArr`, directives, events, data binding)**
+- 10pts → **Filtre, recherche et tri fonctionnels et placés selon la grille**
+- 10pts → **UX & accessibilité (messages à l'écran, labels, réinitialisation)**
