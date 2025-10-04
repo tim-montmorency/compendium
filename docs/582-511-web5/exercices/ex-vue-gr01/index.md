@@ -96,6 +96,7 @@ Mettre en pratique les notions suivantes :
 
 6. **Vue.js**
    - Définir les *données* de l'app Vue pour:
+
      - l'état de chargement des données, initialisée à `init`
      - un tableau (array) contenant les données chargée à partir de `data.json`
      - le contenu du champ *Recherche*
@@ -108,7 +109,7 @@ Mettre en pratique les notions suivantes :
     ```js
     return [...new Set(this.artistsList.map(a => a.stage))].sort();
     ```
-
+    
    - Définir une *propriété calculée* `filteredAndSortedArtistsArr()` contenant un tableau (array) qui contient la liste des artistes et leurs données et qui lui applique le pipeline suivant :
 
     *vedette → filtres/scène → recherche → tri (réordonner)*
