@@ -29,6 +29,12 @@ Mettre en pratique les notions suivantes :
 
 ---
 
+## Aperçu du résultat final
+
+<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=3d00fcc4-de09-4467-9b76-3f9c07f1248a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="apercu-final.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+---
+
 ## Exigences fonctionnelles
 
 0. **Commente ton code et tout ce que tu fais, afin d'expliquer chaque partie et prouver ta compréhension**
