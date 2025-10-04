@@ -135,9 +135,10 @@ Mettre en pratique les notions suivantes :
 
    - Définir une *méthode* pour charger les données du fichier `data.json` qui sera appelée au clic du bouton *« Charger la programmation »*
    - Définir une *méthode* pour réinitialiser les champs du formulaire de filtre, triage et recherche.
-   - Définir une *méthode* pour appliquer les classes CSS aux cartes selon le contexte: 
-     - appliquer la classe `.is-featured` si l'artiste de la carte est en vedette
-     - appliquer la classe `.is-stage-STAGENAME` ou STAGENAME est le nom de la scène où l'artiste se produit
+   - Définir une *méthode* pour appliquer les classes CSS aux cartes selon le contexte:
+     - appliquer la classe `.is-featured` si l'artiste de la carte est en vedette.
+     - appliquer la classe `.is-stage-STAGENAME` ou STAGENAME est le nom de la scène où l'artiste se produit.
+     Cette méthode retourne (`return`) la valeur des classes CSS et elle sera appelée via l'attribut `v-bind:class` de la balise de la carte.
 
 7. **États d’interface UI**
    - Message clair en fonction de l'*état* du chargement des données
