@@ -18,6 +18,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 - *Groupe 1* d'après-midi commence 45 min plus tôt, soit à 13h40 et termine à 16h45.
   
   *13h40 à 16h45*
+  
 
 ## Projet portfolio (25%)
 
