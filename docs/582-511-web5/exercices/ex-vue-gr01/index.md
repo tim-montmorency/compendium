@@ -116,12 +116,12 @@ Mettre en pratique les notions suivantes :
     
      - Utiliser les helpers de `utils.js` :
 
-       - `putFeaturedFirst(artistsList)`
-       - `filterByStage(artistsList, selectedStage)`
-       - `searchByName(artistsList, searchTerm)`
-       - `sortByMode(artistsList, sortBy)`
+       - `putFeaturedFirst(artistsArr)`
+       - `filterByStage(artistsArr, selectedStage)`
+       - `searchByName(artistsArr, searchTerm)`
+       - `sortByMode(artistsArr, sortBy)`
 
-     - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions. En fait, petit cadeau 🎁 pour vous faciliter cette tâche, voici littéralement le code à utiliser,  mais ttention ici de renommer les éléments `artistsList`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
+     - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions. En fait, petit cadeau 🎁 pour vous faciliter cette tâche, voici littéralement le code à utiliser,  mais ttention ici de renommer les éléments `artistsArr`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
       ```
       filteredAndSortedArtistsArr() {
          let arr = putFeaturedFirst(this.artistsArr);
