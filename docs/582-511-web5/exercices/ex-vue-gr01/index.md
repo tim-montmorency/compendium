@@ -1,4 +1,4 @@
-# FestiPixel – Exercice (Évaluation)
+# FestiPixel – Exercice
 
 ## Contexte
 Vous devez créer une mini-application **Vue.js (Options API)** qui affiche la programmation d’un festival fictif : **FestiPixel**.  
