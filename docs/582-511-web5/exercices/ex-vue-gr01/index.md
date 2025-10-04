@@ -103,17 +103,16 @@ Mettre en pratique les notions suivantes :
 
    - Définir une *propriété calculée* `filteredAndSortedArtistsArr()` contenant un tableau (array) qui contient la liste des artistes et leurs données et qui lui applique le pipeline suivant :
 
-    ```
-    vedette en premier → filtre par scène → recherche par nom → tri (réordonner par...)
-    ```
-
+    *vedette → filtres/scène → recherche → tri (réordonner)*
+    
      - Utiliser les helpers de `utils.js` :
         - `putFeaturedFirst(artistsList)`
         - `filterByStage(artistsList, selectedStage)`
         - `searchByName(artistsList, searchTerm)`
         - `sortByMode(artistsList, sortBy)`
-     - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre.
-     - C'est cette propriété qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
+     - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions.
+     - Attention ici de renommer les éléments `artistsList`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
+     - C'est cette propriété calculée qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
 
    - Définir une *méthode* pour charger les données du fichier `data.json` qui sera appelée au clic du bouton *« Charger la programmation »*
    - Définir une *méthode* pour réinitialiser les champs du formulaire de filtre, triage et recherche.
