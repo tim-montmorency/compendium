@@ -136,7 +136,8 @@ Mettre en pratique les notions suivantes :
     - `sortByMode(artistsArr, sortBy)`
 
   - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions.
-  En fait, tiens, un petit cadeau 🎁 pour vous faciliter cette tâche. Voici littéralement le code à utiliser,  mais attention: il faut renommer les éléments `artistsArr`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
+  
+  En fait, tiens, un petit cadeau 🎁 pour vous faciliter cette tâche. Voici littéralement le code à utiliser. Mais attention: il faut renommer les éléments `artistsArr`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
   ```
   filteredAndSortedArtistsArr() {
     let arr = putFeaturedFirst(this.artistsArr);
@@ -148,12 +149,15 @@ Mettre en pratique les notions suivantes :
   ```
   - C'est cette propriété calculée `filteredAndSortedArtistsArr` qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
 
-- Définir une *méthode* pour charger les données du fichier `data.json` qui sera appelée au clic du bouton *« Charger la programmation »*
+- Définir une *méthode* pour charger les données du fichier `data.json`.
+  Cette méthode est appelée au clic du bouton *« Charger la programmation »*
 - Définir une *méthode* pour réinitialiser les champs du formulaire de filtre, triage et recherche à leur valeur initiale lors du chargement de la page.
+  Cette méthode est appelée au clic du bouton *« Réinitialiser les filtres »*
 - Définir une *méthode* pour appliquer les classes CSS aux cartes selon le contexte:
   - appliquer la classe `.is-featured` si l'artiste de la carte est en vedette.
   - appliquer la classe `.is-stage-STAGENAME` ou STAGENAME est le nom de la scène où l'artiste se produit.
-    Cette méthode retourne (`return`) la valeur des classes CSS et elle sera appelée via l'attribut `v-bind:class` de la balise de la carte.
+  Cette méthode retourne (`return`) la valeur des classes CSS
+  Cette méthode est appelée dans l'attribut `v-bind:class` de la balise de la carte.
 
 ### 7- États d’interface UI
 
