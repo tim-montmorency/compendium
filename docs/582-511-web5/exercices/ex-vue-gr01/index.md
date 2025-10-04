@@ -130,6 +130,7 @@ Mettre en pratique les notions suivantes :
   - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions.
   
   En fait, tiens, un petit cadeau 🎁 pour vous faciliter cette tâche. Voici littéralement le code à utiliser,  mais attention: il faut renommer les éléments `artistsArr`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
+  
   ```
   filteredAndSortedArtistsArr() {
     let arr = putFeaturedFirst(this.artistsArr);
@@ -139,6 +140,7 @@ Mettre en pratique les notions suivantes :
     return arr;
   }
   ```
+
   - C'est cette propriété calculée `filteredAndSortedArtistsArr` qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
 
 - Définir une *méthode* pour charger les données du fichier `data.json` qui sera appelée au clic du bouton *« Charger la programmation »*
