@@ -159,7 +159,7 @@ Mettre en pratique les notions suivantes :
   - appliquer la classe `.is-featured` si l'artiste de la carte est en vedette.
   - appliquer la classe `.is-stage-STAGENAME` ou STAGENAME est le nom de la scène où l'artiste se produit.
   
-  Cette méthode retourne (`return`) la valeur des classes CSS
+  Cette méthode retourne (`return`) la valeur des classes CSS.
  
   Cette méthode est appelée dans l'attribut `v-bind:class` de la balise de la carte.
 
