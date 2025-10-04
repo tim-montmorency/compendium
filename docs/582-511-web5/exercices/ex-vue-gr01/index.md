@@ -4,7 +4,7 @@
 Vous devez créer une mini-application *Vue.js (Options API)* qui affiche la programmation d’un festival fictif : *FestiPixel*.  
 Les données proviennent d’un fichier *JSON* chargé via *Fetch API*.  
 L’interface doit être présentée en *CSS Grid*, avec deux dispositions possibles : *uniform* (uniforme) et *featured* (en vedette).
-L'interface doit *s'adapter selon le format de l'écran*, voir l'aperçu afin d'appliquer le placement de la grille selon ce qui est attendu.
+L'interface doit *s'adapter selon le format de l'écran*, voir l'[aperçu](#apercu-du-resultat-final) afin d'appliquer le placement de la grille selon ce qui est attendu.
 
 ---
 
@@ -73,8 +73,8 @@ Mettre en pratique les notions suivantes :
        - *featured* : les cartes ayant le l’artiste vedette (`featured:true` dans `data.json`) occupe plus d’espace sur la grille. 
          - Dans ce contexte, il faudra appliquer la classe `grid-featured` sur le conteneur de la grille ainsi que la classe `.is-featured` sur les carte des artiste en vedette.
      - Requête média (media queries).
-         - Appliquer les styles des 2 types de grille pour écran format moyen (se fier à l'aperçu)
-         - Appliquer les styles des 2 types de grille pour écran petit format (mobile) (se fier à l'aperçu)
+       - Appliquer les styles des 2 types de grille pour écran format moyen (se fier à l'[aperçu ci-haut](#apercu-du-resultat-final))
+       - Appliquer les styles des 2 types de grille pour écran petit format (mobile) (se fier à l'[aperçu ci-haut](#apercu-du-resultat-final))
 
 4. **Filtres et recherche**
    - *Recherche par nom* (input texte).
