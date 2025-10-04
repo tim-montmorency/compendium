@@ -26,14 +26,23 @@ Il vous est permis de consulter vos notes de cours personnelles et les contenus 
 
 Il vous est permis de consulter *vos fichiers d'exercices* ainsi que ceux que *vous avez fais sur Codepen*. Cependant, les fichiers et Codepen des solutions fournis par l'ensegnante ne sont plus accessibles à cette étape d'évaluation.
 
-De plus, voici une liste de sites qui vous sont permis de consulter: 
+De plus, voici la liste COMPLÈTE de sites qui vous sont permis de consulter:
 
 - [Wiki du cours Web 5](https://tim-montmorency.com/compendium/582-511-web5/)
 - [Timdoc qui contient la  documentation HTML, CSS et JavaScript (partiellement)](https://tim-montmorency.com/timdoc/)
 - [Wiki des cours Web 1, 2, 3 et 4](https://tim-montmorency.com/compendium/)
 - [Developer Mozilla : Documentation en français HTML, CSS et JavaScript](https://developer.mozilla.org/fr/docs/Web)
-- [CodePen en général et vos exercices sur CodePen](https://codepen.io)
+- *-*
+- [Vos exercices complétés sur CodePen](https://codepen.io)
+- [Exercice sur cssgridgarden](https://cssgridgarden.com)
+- [Quiz Wooclap](https://www.wooclap.com)
+- *-*
+- [Site officiel de Vue.js](https://fr.vuejs.org)
+- [Vue Mastery](https://www.vuemastery.com)
+- *-*
 - [StackOverflow - Forum](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com)
-- [CSS Tricks](https://css-tricks.com/)
+- *-*
+- [CSS Tricks](https://css-tricks.com)
 - [CSS Tricks: CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [MDN: Les concepts de base des grilles CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
