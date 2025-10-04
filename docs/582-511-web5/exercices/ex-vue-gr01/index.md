@@ -97,19 +97,19 @@ Mettre en pratique les notions suivantes :
 6. **Vue.js**
    - Définir les *données* de l'app Vue pour:
 
-     - l'état de chargement des données, initialisée à `init`
-     - un tableau (array) contenant les données chargée à partir de `data.json`
+     - l'*état* de chargement des données, initialisée à `init`
+     - un *tableau (array)* contenant les *données des artistes* chargée à partir de `data.json`
      - le contenu du champ *Recherche*
-     - la scène sélectionnée
-     - le type de tri sélectionné (heure, popularité, nom)
-     - la disposition (layout) sélectionnée: `featured` ou `uniform`
+     - la *scène* sélectionnée
+     - le *type de tri* sélectionné (heure, popularité, nom)
+     - la *disposition* (layout) sélectionnée: `featured` ou `uniform`
 
    - Définir une *propriété calculée* `gridClass()` qui génère le nom de la classe s'appliquant sur `.schedule` en fonction de la disponition sélectionnée: Soit `.grid--uniform` ou `.grid--featured`.
    - Définir une  *propriété calculée* ` stages()` qui génère la liste des scènes en fonction des données chargées à partir du fichier `data.json`. Cette propriété calculé devra contenir la ligne qui suit (veuillez remplacer `artistsList` par le nom de la propriété que  vous avez données au *tableau (array) contenant les données chargée à partir de `data.json`*):
     ```js
     return [...new Set(this.artistsList.map(a => a.stage))].sort();
     ```
-    
+
    - Définir une *propriété calculée* `filteredAndSortedArtistsArr()` contenant un tableau (array) qui contient la liste des artistes et leurs données et qui lui applique le pipeline suivant :
 
     *vedette → filtres/scène → recherche → tri (réordonner)*
