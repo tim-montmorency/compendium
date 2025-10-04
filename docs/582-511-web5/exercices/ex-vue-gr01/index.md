@@ -40,8 +40,13 @@ Mettre en pratique les notions suivantes :
 <div style="max-width: 1200px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=3d00fcc4-de09-4467-9b76-3f9c07f1248a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="apercu-final.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 
-
 ## Exigences fonctionnelles
+
+!!! tip
+    Les exigences fonctionnelles ne sont pas des étapes à faire en ordre une après l'autre. Ici, elles vous sont regroupée par thème.
+    Je vous conseille de les lire en entier avant de débuter. Vous devrez organiser vous-même vos étapes en fonction de ces exigences.
+    N'hésitez pas aussi à vous référer à l'aperçu vidéo afin de ne rien oublier pour le résultat final.
+
 
 ### 1- Commente ton code
 
@@ -109,7 +114,7 @@ Mettre en pratique les notions suivantes :
   - le *type de tri* sélectionné (heure, popularité, nom)
   - la *disposition* (layout) sélectionnée: `featured` ou `uniform`
 
-- Définir une *propriété calculée* `gridClass()` qui génère le nom de la classe s'appliquant sur `.schedule` en fonction de la disponition sélectionnée: Soit `.grid--uniform` ou `.grid--featured`.
+- Définir une *propriété calculée* `gridClass()` qui génère le nom de la classe s'appliquant sur `.schedule` en fonction de la *disposition* sélectionnée: Soit `.grid--uniform` ou `.grid--featured`.
 
 - Définir une  *propriété calculée* ` stages()` qui génère la liste des scènes en fonction des données chargées à partir du fichier `data.json`. Cette propriété calculé devra contenir la ligne qui suit (veuillez remplacer `artistsList` par le nom de la propriété que  vous avez données au *tableau (array) contenant les données chargée à partir de `data.json`*):
 
