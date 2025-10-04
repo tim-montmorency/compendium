@@ -83,16 +83,17 @@ Mettre en pratique les notions suivantes :
        - Appliquer les styles des 2 types de grille pour écran format moyen (se fier à l'[aperçu ci-haut](#apercu-du-resultat-final))
        - Appliquer les styles des 2 types de grille pour écran petit format (mobile) (se fier à l'[aperçu ci-haut](#apercu-du-resultat-final))
 
-4. **Filtres et recherche**
-   - *Recherche par nom* (input texte).
-   - *Filtre par scène* (liste déroulante).
-   - Afficher le nombre de résultats filtrés *x résultat(s)* sous le formulaire
-
-5. **Tri**
-   - Possibilité de trier les artistes par :
+4. **Filtres, recherche et tri des cartes d'artistes**
+   - *Recherche par nom* (input texte)
+   - *Filtre par scène* (liste déroulante)
+   - Possibilité de *trier* les artistes par :
      - Heure (début ↑)
      - Popularité (↓)
      - Nom (A→Z)
+
+   - Vous devrez lier ces éléments de formulaires à des données de votre app Vue afin de le rendre fonctionnel.
+
+   - Afficher le nombre de résultats filtrés *x résultat(s)* sous le formulaire
 
 6. **Vue.js**
    - Définir les *données* de l'app Vue pour:
