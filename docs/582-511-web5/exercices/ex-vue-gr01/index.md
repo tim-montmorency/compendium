@@ -48,7 +48,7 @@ Mettre en pratique les notions suivantes :
    - Créer l'application Vue
 
 2. **Chargement des données**
-   - Au clic du  bouton **« Charger la programmation »**, une **méthode Vue** charge les données de `data.json` via un `fetch`.
+   - Au clic du  bouton *« Charger la programmation »*, une *méthode Vue* charge les données de `data.json` via un `fetch`.
    - Gérer les états de l'app à partir de la progression de ce `fetch` :  
      - `init` → afficher le bouton « Charger la programmation ».
         - Représente l'état de départ lors l'initiation de l'app.
@@ -68,7 +68,7 @@ Mettre en pratique les notions suivantes :
      - Popularité (⭐ nombre)  
    - Mise en page (layout) *CSS Grid* responsive :
      - Disposition sélectionnée de la grille:
-       - *uniform* : Cartes toutes pareilles (même dimension). 
+       - *uniform* : Cartes toutes pareilles (même dimension).
          - Dans ce contexte, il faudra appliquer la classe `.grid--uniform` sur le conteneur de la grille.
        - *featured* : les cartes ayant le l’artiste vedette (`featured:true` dans `data.json`) occupe plus d’espace sur la grille. 
          - Dans ce contexte, il faudra appliquer la classe `grid-featured` sur le conteneur de la grille ainsi que la classe `.is-featured` sur les carte des artiste en vedette.
@@ -132,8 +132,8 @@ Mettre en pratique les notions suivantes :
 ## Contraintes
 
 - Pas de framework CSS externe (pas de Bootstrap/Tailwind).
-- Vue doit être chargée via le CDN fourni dans `index.html`.
-- L’application doit être lancée via un **serveur local** (ex. *Live Server* dans VS Code).
+- Vue doit être chargée via le *CDN*.
+- L’application doit être lancée via un *serveur local* (ex. *Live Server* dans VS Code).
 
 <!--
 ---
