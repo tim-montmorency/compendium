@@ -10,7 +10,6 @@ L’interface doit être présentée en *CSS Grid*, avec deux dispositions possi
 L'interface doit *s'adapter selon le format de l'écran*, voir l'[aperçu](#apercu-du-resultat-final) afin d'appliquer le placement de la grille selon ce qui est attendu.
 
 
-
 ## Objectif
 
 Mettre en pratique les notions suivantes :
@@ -21,8 +20,12 @@ Mettre en pratique les notions suivantes :
 - *Utilisation de fonctions utilitaires (helpers)* déjà fournies dans `utils.js`.
 
 
+## Démarrage
 
-## Fichiers fournis
+[📥 Télécharger fichiers de départ](nom-prenom-depart.zip){ .md-button }
+
+
+### Fichiers fournis
 
 - `index.html` → squelette de l’application.
 - `style.css` → base de styles + classes pour les deux layouts.
