@@ -109,7 +109,6 @@ Mettre en pratique les notions suivantes :
 ### 6- Données, propriétés calculées et méthodes
 
 - Définir les *données* de l'app Vue pour:
-
   - l'*état* de chargement des données, initialisée à `init`
   - un *tableau (array)* contenant les *données des artistes* chargée à partir de `data.json`
   - le contenu du champ *Recherche*
@@ -165,7 +164,6 @@ Mettre en pratique les notions suivantes :
 - Message clair si aucun résultat : *« Aucun artiste »* via `p.empty`.
 - Bouton *« Réinitialiser »* permettant d'effacer les filtres et la recherche.
 - Affichage du nombre de *résultat(s)* selon la recherche et les filtres activés par l'utilisateur.
-
 
 
 ## Contraintes
