@@ -26,9 +26,10 @@ Il vous est permis de consulter *vos fichiers d'exercices* ainsi que ceux que *v
 
 De plus, voici la liste COMPLÈTE de sites qui vous sont permis de consulter:
 
-- [Wiki du cours Web 5](https://tim-montmorency.com/compendium/582-511-web5/)
-- [Timdoc qui contient la  documentation HTML, CSS et JavaScript (partiellement)](https://tim-montmorency.com/timdoc/)
-- [Wiki des cours Web 1, 2, 3 et 4](https://tim-montmorency.com/compendium/)
+- [Wiki du cours Web 5 sur Compendium](https://tim-montmorency.com/compendium/582-511-web5/)
+- [Timdoc: consultation par cours](https://tim-montmorency.com/timdoc/)
+- [Timdoc: consultation par sujet](https://tim-montmorency.com/timdoc/index/web/)
+- [Wiki des cours Web 1, 2, 3 et 4 sur Compendium](https://tim-montmorency.com/compendium/)
 - [Developer Mozilla : Documentation en français HTML, CSS et JavaScript](https://developer.mozilla.org/fr/docs/Web)
 - *-*
 - [Vos exercices complétés sur CodePen](https://codepen.io)
