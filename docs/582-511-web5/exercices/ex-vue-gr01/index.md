@@ -43,11 +43,12 @@ Mettre en pratique les notions suivantes :
 
 ## Exigences fonctionnelles
 
-### 1- Commente ton code et tout ce que tu fais, afin d'expliquer chaque partie et prouver ta compréhension
+### 1- Commente ton code
 
-- Commenter ton JavaScript.
-- Commenter dans le HTML lorsque tu utilises des directives Vue.js dans le HTML.
-- Commenter dans le CSS lorsque tu appliques une grille, explique ce que tu fais.
+- Commente ton code et tout ce que tu fais, afin d'expliquer chaque partie et prouver ta compréhension
+  - Commenter ton JavaScript.
+  - Commenter dans le HTML lorsque tu utilises des directives Vue.js dans le HTML.
+  - Commenter dans le CSS lorsque tu appliques une grille, explique ce que tu fais.
 
 ### 2- Création de l'app Vue
 
@@ -55,7 +56,7 @@ Mettre en pratique les notions suivantes :
 - Créer l'application Vue
 - Dans cet exercice, nul besoin de faire une *composante* Vue. Tout se passe directement dans l'app Vue principale.
 
-### 3- Chargement des données
+### 3- Chargement des données json
 
 - Au clic du  bouton *« Charger la programmation »*, une *méthode Vue* charge les données de `data.json` via un `fetch`.
 - Gérer les états de l'app à partir de la progression de ce `fetch` :  
@@ -94,7 +95,7 @@ Mettre en pratique les notions suivantes :
   - Heure (début ↑)
   - Popularité (↓)
   - Nom (A→Z)
-- Vous devrez lier ces éléments de formulaires à des données de votre app Vue afin de le rendre fonctionnel.
+- Vous devrez lier ces éléments de formulaires à des données de votre app Vue afin de les rendre fonctionnels.
 - Afficher le nombre de résultats filtrés *x résultat(s)* sous le formulaire
 
 ### 6- Données, propriétés calculées et méthodes
@@ -128,16 +129,16 @@ Mettre en pratique les notions suivantes :
 
   - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions.
   
-   En fait, tiens, un petit cadeau 🎁 pour vous faciliter cette tâche. Voici littéralement le code à utiliser,  mais attention: il faut renommer les éléments `artistsArr`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
-   ```
-    filteredAndSortedArtistsArr() {
-        let arr = putFeaturedFirst(this.artistsArr);
-        arr = filterByStage(arr, this.selectedStage);
-        arr = searchByName(arr, this.searchTerm);
-        arr = sortByMode(arr, this.sortBy);
-        return arr;
-    }
-   ```
+  En fait, tiens, un petit cadeau 🎁 pour vous faciliter cette tâche. Voici littéralement le code à utiliser,  mais attention: il faut renommer les éléments `artistsArr`, `selectedStage`, `searchTerm` et `sortBy` par les noms de propriétés que vous avez choisies dans les données de votre app Vue.
+  ```
+  filteredAndSortedArtistsArr() {
+    let arr = putFeaturedFirst(this.artistsArr);
+    arr = filterByStage(arr, this.selectedStage);
+    arr = searchByName(arr, this.searchTerm);
+    arr = sortByMode(arr, this.sortBy);
+    return arr;
+  }
+  ```
   - C'est cette propriété calculée `filteredAndSortedArtistsArr` qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
 
 - Définir une *méthode* pour charger les données du fichier `data.json` qui sera appelée au clic du bouton *« Charger la programmation »*
