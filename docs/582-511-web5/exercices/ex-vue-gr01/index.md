@@ -110,9 +110,9 @@ Mettre en pratique les notions suivantes :
     return [...new Set(this.artistsList.map(a => a.stage))].sort();
     ```
 
-   - Définir une *propriété calculée* `filteredAndSortedArtistsArr()` contenant un tableau (array) qui contient la liste des artistes et leurs données et qui lui applique le pipeline suivant :
+   - Définir une *propriété calculée* `filteredAndSortedArtistsArr()` qui se base sur un tableau (array) qui contient la liste des artistes et leurs données et qui lui applique le pipeline suivant :
 
-    *vedette → filtres/scène → recherche → tri (réordonner)*
+    *vedette en 1<sup>er</sup> → filtres/scène → recherche → tri (réordonner)*
     
      - Utiliser les helpers de `utils.js` :
 
