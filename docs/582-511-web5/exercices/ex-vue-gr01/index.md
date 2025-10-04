@@ -95,7 +95,7 @@ Mettre en pratique les notions suivantes :
 
    - Afficher le nombre de résultats filtrés *x résultat(s)* sous le formulaire
 
-6. **Vue.js**
+6. **Données, propriétés calculées et méthodes**
    - Définir les *données* de l'app Vue pour:
 
      - l'*état* de chargement des données, initialisée à `init`
