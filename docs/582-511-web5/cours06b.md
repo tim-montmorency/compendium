@@ -89,6 +89,10 @@ Si vous n l'aviez pas fait la semaine dernière ou si vous souhaitez réviser à
 
 [Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
 
+➜ [Solution instructions de base💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EhtC7SIixSJBgmnqcpJHT9YBYSnK6fqvDxzRhjI31Vgicg?e=XQAxwS)
+
+➜ [Solution instructions avec composante💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsB7i4C1d4I94XjqnIMI0DTaA?e=Ai0gC1)
+
 
 ## Rencontres de suivi individuel
 
