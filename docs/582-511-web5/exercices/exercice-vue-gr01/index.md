@@ -32,6 +32,7 @@ Mettre en pratique les notions suivantes :
 - `main.js` → code Vue à compléter.
 - `data.json` → données des artistes.
 - `utils.js` → *fonctions utilitaires prêtes* pour filtrer, chercher et trier les artistes.
+- `logo.svg` → image du logo du festival.
 
 > Vous n’avez pas besoin d’écrire vous-mêmes des fonctions complexes sur les tableaux (`sort`, `filter`, etc.).  
 > Utilisez simplement les helpers de `utils.js` dans vos `computed` ou `methods`.
@@ -109,6 +110,7 @@ Mettre en pratique les notions suivantes :
 ### 6- Données, propriétés calculées et méthodes
 
 - Définir les *données* de l'app Vue pour:
+
   - l'*état* de chargement des données, initialisée à `init`
   - un *tableau (array)* contenant les *données des artistes* chargée à partir de `data.json`
   - le contenu du champ *Recherche*
@@ -173,16 +175,13 @@ Mettre en pratique les notions suivantes :
 - L’application doit être lancée via un *serveur local* (ex. *Live Server* dans VS Code).
 
 <!--
+## Livrables (Remise)
 
-
-## Livrables
-
-- `index.html`, `style.css`, `main.js`, `data.json`, `utils.js`.
+- `index.html`, `style.css`, `main.js`, `data.json`, `utils.js`, `logo.svg`.
 - Une application fonctionnelle respectant les consignes.
 - Veuillez renommer le dossier *nom-prenom-exam-web5* avec votre nom.
 - Veuillez compresser ce dossier en format *.zip* et le remettre dans Teams dans le Devoir nommé *Examen Web5*.
 - Avant de quitter la classe, veuillez voir l'enseignante afin qu'elle confirme la réception de votre travail.
-
 
 
 ## Barème (100 points)
@@ -194,5 +193,4 @@ Mettre en pratique les notions suivantes :
 - 20pts → **Vue.js (computed `filteredAndSortedArtistsArr`, directives, events, data binding)**
 - 10pts → **Filtre, recherche et tri fonctionnels et placés selon la grille**
 - 10pts → **UX & accessibilité (messages à l'écran, labels, réinitialisation)**
-
 -->
