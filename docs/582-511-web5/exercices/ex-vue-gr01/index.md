@@ -6,7 +6,7 @@ Les données proviennent d’un fichier *JSON* chargé via *Fetch API*.
 L’interface doit être présentée en *CSS Grid*, avec deux dispositions possibles : *uniform* (uniforme) et *featured* (en vedette).
 L'interface doit *s'adapter selon le format de l'écran*, voir l'[aperçu](#apercu-du-resultat-final) afin d'appliquer le placement de la grille selon ce qui est attendu.
 
----
+
 
 ## Objectif
 Mettre en pratique les notions suivantes :
@@ -15,7 +15,7 @@ Mettre en pratique les notions suivantes :
 - *CSS Grid* : création de layouts responsives et avec mise en avant d’un artiste vedette.
 - *Utilisation de fonctions utilitaires (helpers)* déjà fournies dans `utils.js`.
 
----
+
 
 ## Fichiers fournis
 - `index.html` → squelette de l’application.
@@ -27,13 +27,13 @@ Mettre en pratique les notions suivantes :
 > Vous n’avez pas besoin d’écrire vous-mêmes des fonctions complexes sur les tableaux (`sort`, `filter`, etc.).  
 > Utilisez simplement les helpers de `utils.js` dans vos `computed` ou `methods`.
 
----
+
 
 ## Aperçu du résultat final
 
 <div style="max-width: 1200px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=3d00fcc4-de09-4467-9b76-3f9c07f1248a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="apercu-final.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
----
+
 
 ## Exigences fonctionnelles
 
@@ -126,7 +126,7 @@ Mettre en pratique les notions suivantes :
    - Bouton *« Réinitialiser »* pour effacer les filtres et la recherche.
    - Affichage du nombre de *résultat(s)*  selon la recherche et les filtres
 
----
+
 
 ## Contraintes
 
@@ -135,7 +135,7 @@ Mettre en pratique les notions suivantes :
 - L’application doit être lancée via un *serveur local* (ex. *Live Server* dans VS Code).
 
 <!--
----
+
 
 ## Livrables
 
@@ -145,7 +145,7 @@ Mettre en pratique les notions suivantes :
 - Veuillez compresser ce dossier en format *.zip* et le remettre dans Teams dans le Devoir nommé *Examen Web5*.
 - Avant de quitter la classe, veuillez voir l'enseignante afin qu'elle confirme la réception de votre travail.
 
----
+
 
 ## Barème (100 points)
 
