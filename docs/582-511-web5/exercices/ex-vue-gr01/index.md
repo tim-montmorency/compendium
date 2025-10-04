@@ -52,6 +52,7 @@ Mettre en pratique les notions suivantes :
 1. **Création de l'app Vue**
    - Importer Vue.js 3
    - Créer l'application Vue
+   - Dans cet exercice, nul besoin de faire une *composante* Vue. Tout se passe directement dans l'app Vue principale.
 
 2. **Chargement des données**
    - Au clic du  bouton *« Charger la programmation »*, une *méthode Vue* charge les données de `data.json` via un `fetch`.
