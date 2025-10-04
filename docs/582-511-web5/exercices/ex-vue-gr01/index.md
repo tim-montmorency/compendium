@@ -2,14 +2,19 @@
 
 ## Contexte
 Vous devez créer une mini-application *Vue.js (Options API)* qui affiche la programmation d’un festival fictif : *FestiPixel*.  
+
 Les données proviennent d’un fichier *JSON* chargé via *Fetch API*.  
+
 L’interface doit être présentée en *CSS Grid*, avec deux dispositions possibles : *uniform* (uniforme) et *featured* (en vedette).
+
 L'interface doit *s'adapter selon le format de l'écran*, voir l'[aperçu](#apercu-du-resultat-final) afin d'appliquer le placement de la grille selon ce qui est attendu.
 
 
 
 ## Objectif
+
 Mettre en pratique les notions suivantes :
+
 - *Vue.js (Options API)* : `data`, `computed`, `methods`, directives (`v-model`, `v-for`, `v-if`, `:class`, `@click`, etc.).
 - *Fetch API* : chargement de données externes via une méthode appelée par un bouton.
 - *CSS Grid* : création de layouts responsives et avec mise en avant d’un artiste vedette.
@@ -18,6 +23,7 @@ Mettre en pratique les notions suivantes :
 
 
 ## Fichiers fournis
+
 - `index.html` → squelette de l’application.
 - `style.css` → base de styles + classes pour les deux layouts.
 - `main.js` → code Vue à compléter.
