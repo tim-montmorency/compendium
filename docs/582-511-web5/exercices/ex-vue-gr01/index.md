@@ -113,10 +113,12 @@ Mettre en pratique les notions suivantes :
     *vedette → filtres/scène → recherche → tri (réordonner)*
     
      - Utiliser les helpers de `utils.js` :
-        - `putFeaturedFirst(artistsList)`
-        - `filterByStage(artistsList, selectedStage)`
-        - `searchByName(artistsList, searchTerm)`
-        - `sortByMode(artistsList, sortBy)`
+
+       - `putFeaturedFirst(artistsList)`
+       - `filterByStage(artistsList, selectedStage)`
+       - `searchByName(artistsList, searchTerm)`
+       - `sortByMode(artistsList, sortBy)`
+
      - Dans `filteredAndSortedArtistsArr`, enchaîner ces fonctions dans le bon ordre sur le tableau de données et retourner le tableau filtré par ces quatres fonctions.
       ```
       filteredAndSortedArtistsArr() {
