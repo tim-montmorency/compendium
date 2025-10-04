@@ -31,6 +31,12 @@ Mettre en pratique les notions suivantes :
 
 ## Exigences fonctionnelles
 
+0. **Commente ton code et tout ce que tu fais, afin d'expliquer chaque partie et prouver ta compréhension**
+
+   - Commenter ton JavaScript.
+   - Commenter dans le HTML lorsque tu utilises des directives Vue.js dans le HTML.
+   - Commenter dans le CSS lorsque tu appliques une grille, explique ce que tu fais.
+
 1. **Création de l'app Vue**
    - Importer Vue.js 3
    - Créer l'application Vue
@@ -81,15 +87,15 @@ Mettre en pratique les notions suivantes :
       - la disposition (layout) sélectionnée: `featured` ou `uniform`
    - Définir une **propriété calculée** `gridClass()` qui génère le nom de la classe s'appliquant sur `.schedule` en fonction de la disponition sélectionnée: Soit `.grid--uniform` ou `.grid--featured`.
    - Définir une  **propriété calculée** ` stages()` qui génère la liste des scènes en fonction des données chargées à partir du fichier `data.json`. Cette propriété calculé devra contenir la ligne qui suit (veuillez remplacer `artistsList` par le nom de la propriété que  vous avez données au **tableau (array) contenant les données chargée à partir de `data.json`**):
-     ```js
-     return [...new Set(this.artistsList.map(a => a.stage))].sort();
-     ```
+    ```js
+    return [...new Set(this.artistsList.map(a => a.stage))].sort();
+    ```
 
    - Définir une **propriété calculée** `filteredAndSortedArtistsArr()` contenant un tableau (array) qui contient la liste des artistes et leurs données et qui lui applique le pipeline suivant :
 
-     ```
-     vedette en premier → filtre par scène → recherche par nom → tri (réordonner par...)
-     ```
+    ```
+    vedette en premier → filtre par scène → recherche par nom → tri (réordonner par...)
+    ```
 
      - Utiliser les helpers de `utils.js` :
         - `putFeaturedFirst(artistsList)`
@@ -128,6 +134,7 @@ Mettre en pratique les notions suivantes :
 
 ## Barème (100 points)
 
+- **Commentaires dans le code et dans l'exécution**
 - **Fetch via bouton & gestion des états** → 20 pts  
 - **Grille responsive & layouts (uniform/featured) + version tablette + version mobile** → 25 pts  
 - **Vue.js - importation, création de l'app, initialisation des données, nommage des données (bien nommées, de façon claire)** → 10 pts  
