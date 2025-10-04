@@ -34,27 +34,40 @@ Git en équipe
 
 ## Gestion de projet
 
-* Cahier de charges 
-* Kanban 
-* Méthode Agile 
-* Mêlée (Scrum) 
-* Tableau de gestion de projet (Trello, GitHub Project ou autre) 
-* Suivi de temps de travail 
+### Cahier de charges
 
-## Projet intégrateur 
+[Qu’est-ce qu’un cahier des charges ? Définition et exemples](https://www.projectmanager.com/fr/cahier-des-charges)
+
+### Kanban et Méthode Agile
+
+#### Mêlée (Scrum) 
+
+#### Tableau de gestion de projet (Trello, GitHub Project ou autre) 
+
+#### Suivi de temps de travail
+
+### Rôles classiques dans une équipe de projet web
+
+* PO (Project Onwer)
+* Maître de la mêlée (Scrum Master)
+* Spécialiste de création de contenu, par exemple: 
+  * rédcateur
+  * illustrateur
+  * photographes
+  * vidéastres
+  * modélisateur 3d
+  * animateur 2d/3d
+  * motion designer
+* UI/UX/Product Designer
+* Responsable de l'assurance qualité (QA)
+* Développeur *front-end*
+* Développeur *bakc-end*
+* Administrateur systèmes (sysAdmin)
+* DevOp
+* Reponsable des opérations
+
+## Projet intégrateur de la session
 
 * Création des équipes 
 * Attribution des rôles
 * Présentation du cahier de charges
-
-
-
-
-<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
-
-<div class="modal" id="modal-momobot">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
-  </div>
-</div>
