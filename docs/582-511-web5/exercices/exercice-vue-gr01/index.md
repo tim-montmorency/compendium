@@ -147,7 +147,7 @@ Mettre en pratique les notions suivantes :
     return arr;
   }
   ```
-  C'est cette propriété calculée `filteredAndSortedArtistsArr` qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
+  - C'est cette propriété calculée `filteredAndSortedArtistsArr` qui permettra d'afficher les cartes d'artiste filtrées et/ou réordonnée dans l'élément `.schedule`.
 
 - Définir une *méthode* pour charger les données du fichier `data.json`.
   - Cette méthode est appelée au clic du bouton *« Charger la programmation »*
