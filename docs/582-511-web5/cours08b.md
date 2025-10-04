@@ -9,5 +9,10 @@ Remise de la planification du projet intégrateur
 <!-- 
 Vite : outil de développement front-end qui inclut serveur de développement et compilateur. 
 
-Tailwind : cadriciel CSS
+/*********************************************************** */
+Vue Pinia 
+/*********************************************************** */
+
+C'est un endroit où vous stockez des données qui doivent être **partagées entre plusieurs composants** Vue.
+[Pinia](./vue/pinia.md)
 -->
