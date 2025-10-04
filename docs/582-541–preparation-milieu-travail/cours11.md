@@ -11,6 +11,9 @@
 ## Création d'un profil LinkedIn
 Remplir le document linkedin dans GitHub. 
 
+## Message vocaux
+Temps pour enregistrer un nouveau message vocal sur votre téléphone. 
+
 ## Temps pour les comités
 
 ## Recherche sur les entreprises de la journée carrière

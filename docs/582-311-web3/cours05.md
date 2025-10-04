@@ -9,7 +9,8 @@ Retour sur le devoir
 Bootstrap permet d’[arrondir](https://getbootstrap.com/docs/5.3/utilities/borders/#sizes) facilement les bords d’un élément :
 
 * `.rounded` : coins légèrement arrondis
-* `.rounded-lg` : coins plus arrondis (large radius)
+* ~~`.rounded-lg` : coins plus arrondis (large radius)~~
+* `.rounded-1` ... `.rounded-5`  : [configuration de l'arrondissement](https://getbootstrap.com/docs/5.3/utilities/borders/#sizes)
 * `.rounded-circle` : cercle parfait (utile avec des images carrées)
 * `.rounded-pill` : forme “pilule” (bouton ou image allongée)
 * `.img-thumbnail` : bordure + coins arrondis pour encadrer une image

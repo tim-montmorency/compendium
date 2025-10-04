@@ -263,13 +263,6 @@ Historiquement, le seul format des favicons était `.ico`. Aujourd’hui, le for
 
 Idéalement, on doit avoir une image de **1024px x 1024px** (svg, sinon png) pour concevoir une favicône contemporaine. À partir de cette grande image, on génère toutes les tailles nécessaires (16, 32, 180, 192, 512).
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices/mon-icone-favorite/preview.webp)
-
-  <small>Exercice - HTML</small><br>
-  **[Iconique](./exercices/mon-icone-favorite/index.md){.stretched-link .back}**
-</div>
-
 ## Balises details et summary
 
 Les balises `<details>` et `<summary>` permettent de créer des zones de contenu repliables et dépliables directement en HTML.
@@ -288,13 +281,6 @@ Par défaut, le contenu est caché. Lorsque l’utilisateur clique sur la balise
   HTML - textarea</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices/funk/plfunk.jpg)
-
-  <small>Exercice - HTML</small><br>
-  **[Quiz Funk](./exercices/funk/index.md){.stretched-link .back}**
-</div>
 
 ## Révision HTML
 
@@ -396,6 +382,22 @@ Si le fichier est très creux, on peut utiliser remonter de plusieurs dossiers :
  └── 📁 images
      └── chat.png
 ```
+</div>
+
+## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/mon-icone-favorite/preview.webp)
+
+  <small>Exercice - HTML</small><br>
+  **[Iconique](./exercices/mon-icone-favorite/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/funk/plfunk.jpg)
+
+  <small>Exercice - HTML</small><br>
+  **[Quiz Funk](./exercices/funk/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
