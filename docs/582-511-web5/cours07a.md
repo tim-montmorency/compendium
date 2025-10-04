@@ -1,14 +1,12 @@
-# Cours 7.1
+# Cours 7.1 -  Examen
 <!-- lun. 6 octobre -->
 
-## Examen
-
-!!! alert
+!!! danger "Ne pas divulguer aucune information"
     <span class="important-label">TOUT PLAGIAT EST INTERDIT SOUS PEINE D'ÉCHEC AUTOMATIQUE.</span> 
-    .
-    La situation est aussi sérieuse chez la personne qui va chercher des informations que la personne qui divulgue. 
-    .
-    *Chaque groupe classe a sa propre version de l'examen*. Ceci étant dit, il est de votre devoir de NE PAS communiquer aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du *plagiat*.
+
+    La situation est aussi sérieuse chez la personne qui va chercher des informations que la personne qui divulgue.
+
+    *Chaque groupe classe a sa propre version de l'examen*. Ceci dit, il est de votre devoir de *NE PAS communiquer* aucune information aux étudiants de l'autres groupe classe en sortant d'ici, c'est du *plagiat*.
 
 ## Ce qui est *INTERDIT* pendant l'examen
 
