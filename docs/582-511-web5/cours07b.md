@@ -50,7 +50,7 @@ Git en équipe
 
 * PO (Project Onwer)
 * Maître de la mêlée (Scrum Master)
-* Spécialiste de création de contenu, par exemple: 
+* Spécialiste de création de contenu (selon le type de projet), par exemple: 
   * rédcateur
   * illustrateur
   * photographes
