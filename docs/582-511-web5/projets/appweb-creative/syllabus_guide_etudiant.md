@@ -24,6 +24,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 **Concept:** Un musée numérique personnel où l'utilisateur crée et organise ses souvenirs en salles thématiques.
 
 ### Ce que vous allez construire:
+
 - 🏛️ 6-8 salles thématiques navigables
 - 📸 Système d'ajout/édition/suppression de mémoires
 - 🏷️ Tags et système de recherche/filtres
@@ -33,16 +34,19 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 - 📱 Interface responsive
 
 ### Exemple de thématiques:
+
 - Musée de souvenirs d'enfance
 - Collection de voyages
 - Musée musical (artistes, albums)
 - Galerie d'inspirations créatives
 
 ### Technologies clés:
+
 - **Vue.js** pour les composants (salles, mémoires, galerie)
 - **Pinia** pour gérer l'état du musée
 - **GSAP** pour transitions entre salles
-- **LocalStorage** pour sauvegarder le musée
+- **LocalStorage** pour sauvegarder le musée en local
+  - OU **Firebase** backend API (pour les plus équipes + avancés) - Cette option permet de créer une mémoire collective et non seulement locale à un seul utilisateur.
 
 
 
@@ -51,6 +55,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 **Concept:** Une histoire interactive où les choix du lecteur influencent la narration et mènent à différentes fins.
 
 ### Ce que vous allez construire:
+
 - 📚 8-10 chapitres/scènes narratives
 - 🔀 Système de choix avec branches multiples
 - 🎭 3-6 fins différentes selon les décisions
