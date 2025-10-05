@@ -114,3 +114,17 @@ Veuillez faire les sauvegardes de vos *bases de données MySQL* (via *phpMyAdmin
 - [ ] Terminer les 6 exercices *grid css* pour mercredi le 1er octobre
 - [ ] Terminer les exercices de *fetch API* avant l'examen (minimalement Giphy et Zoom)
 - [ ] Étudier pour l'examen du 6 octobre
+
+
+
+<!--
+TUTEUR MOMO-BOT
+<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
+
+<div class="modal" id="modal-momobot">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
+  </div>
+</div>
+-->

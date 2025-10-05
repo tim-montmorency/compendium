@@ -38,13 +38,28 @@ Git en équipe
 
 [Qu’est-ce qu’un cahier des charges ? Définition et exemples](https://www.projectmanager.com/fr/cahier-des-charges)
 
-### Kanban et Méthode Agile
+### Kanban
+
+### Méthode Agile
+
+- User Stories
+- Mêlée (SCRUM)
+
+#### Histoire utilisateur (*User Stories*)
+
+> En tant que *[rôle]*, je veux *[action]* afin de *[bénéfice]*.
+
+Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
+
+> En tant qu'*utilisateur*, je veux *[action]* afin de *[bénéfice]*.
 
 #### Mêlée (Scrum) 
 
-#### Tableau de gestion de projet (Trello, GitHub Project ou autre) 
+#### MVP (Minimum Viable Product)
 
-#### Suivi de temps de travail
+### Tableau de gestion de projet (Trello, GitHub Project ou autre) 
+
+### Suivi de temps de travail
 
 ### Rôles classiques dans une équipe de projet web
 

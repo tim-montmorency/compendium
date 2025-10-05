@@ -92,3 +92,15 @@ Voir si vous avez été validés.
 - Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md) avant lundi prochain le 22 septembre.
 
 - Terminer et remettre la [planification](./projets/portfolio-remise1.md) du [portfolio](./projets/portfolio.md) avant le cours de mercredi le 17 septembre
+
+<!--
+TUTEUR MOMO-BOT
+<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
+
+<div class="modal" id="modal-momobot">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
+  </div>
+</div>
+-->
