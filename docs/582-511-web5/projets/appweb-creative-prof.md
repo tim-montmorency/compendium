@@ -1,3 +1,7 @@
+# Projet intégrateur - gestion enseignante
+
+> [brainstorm initial: mindmap](https://www.figma.com/board/KROoiKX9zoWR8fFbuOFZaE/Web5---Projet-int%C3%A9grateur-brainstorm-Mindmap?node-id=0-1&t=hiicLhI7yk3ExNFX-1 )
+
 ## 🎯 **Stratégie pour gérer 2 projets différents efficacement**
 
 ### **1. Créer un "Tronc Commun" d'Exigences**
