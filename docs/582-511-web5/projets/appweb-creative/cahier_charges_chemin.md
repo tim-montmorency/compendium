@@ -556,7 +556,7 @@ Comment stockez-vous les chapitres et choix?
 
 - **Git/GitHub:** [Lien du repo]
 - **Gestion de projet:** [Trello / Notion / GitHub Projects]
-- **Communication:** [Discord / Slack / Teams]
+- **Communication:** [Teams]
 - **Design:** [Figma]
 - **Documentation:** [Notion / Google Docs / README.md]
 - **Écriture collaborative:** [Google Docs / Notion]

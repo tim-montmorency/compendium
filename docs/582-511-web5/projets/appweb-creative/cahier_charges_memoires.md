@@ -397,7 +397,7 @@ Listez vos composants Vue principaux:
 
 - **Git/GitHub:** [Lien du repo]
 - **Gestion de projet:** [Trello / Notion / GitHub Projects]
-- **Communication:** [Discord / Slack / Teams]
+- **Communication:** [Teams]
 - **Design:** [Figma]
 - **Documentation:** [Notion / Google Docs / README.md]
 

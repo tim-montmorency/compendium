@@ -240,7 +240,7 @@ git pull origin develop
 ```
 
 2. **Communiquer** - Qui travaille sur quoi?
-   - Utilisez Discord/Teams pour dire "Je travaille sur le header"
+   - Utilisez Teams pour dire "Je travaille sur le header"
    - Évitez de modifier les mêmes fichiers en même temps
 
 3. **Commits atomiques** - Une feature = une branche

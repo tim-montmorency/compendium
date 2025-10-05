@@ -290,7 +290,7 @@ develop
    - Dans GitHub Desktop: **Fetch origin** puis **Pull origin**
 
 2. **Communiquer** - Qui travaille sur quoi?
-   - "Je travaille sur le Header.vue" (Discord/Teams)
+   - "Je travaille sur le Header.vue" (Teams)
    - Évitez de modifier les mêmes fichiers en même temps
 
 3. **Commits atomiques** - Une feature = une branche
@@ -731,7 +731,7 @@ git config commit.template .gitmessage
 **Problèmes Git sérieux:**
 - Chef de projet de l'équipe
 - Enseignant pendant les heures de cours
-- Canal Discord/Teams de la classe
+- Canal Teams de la classe
 
 **Avant de demander de l'aide, préparez:**
 1. Description du problème

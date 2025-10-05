@@ -461,7 +461,7 @@
 
 ### Communication
 
-- **Slack/Discord:** Questions rapides, partage de liens
+- **Teams:** Questions rapides, partage de liens
 - **GitHub Issues:** Bugs et features à implémenter
 - **Pull Requests:** Reviews de code entre membres
 

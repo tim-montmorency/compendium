@@ -7,7 +7,7 @@
 **Travail d'équipe:** 3-4 personnes  
 **Heures estimées:** ~90-110 heures par équipe
 
----
+
 
 ## 📋 Description du Projet
 
@@ -15,7 +15,9 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 
 ### Vous avez le choix entre 2 types de projets:
 
----
+- Option A: Mémoires Interactives
+- Option B: Trace ton chemin
+
 
 ## 🏛️ **Option A: Mémoires Interactives**
 
@@ -42,7 +44,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 - **GSAP** pour transitions entre salles
 - **LocalStorage** pour sauvegarder le musée
 
----
+
 
 ## 📖 **Option B: Trace ton chemin**
 
@@ -69,7 +71,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 - **GSAP** pour transitions narratives
 - **LocalStorage** pour sauvegardes multiples
 
----
+
 
 ## 📅 Calendrier Général
 
@@ -83,7 +85,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 | **7** | **Polish** | Responsive, accessibilité, correction de bugs |
 | **8** | **Finalisation** | Documentation, déploiement, présentation |
 
----
+
 
 ## 👥 Rôles dans l'Équipe
 
@@ -117,7 +119,7 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 
 ⚠️ **Important:** Même avec des rôles définis, **tout le monde code!** Ces rôles indiquent seulement les responsabilités principales.
 
----
+
 
 ## 📊 Évaluation (85% de la note finale)
 
@@ -137,7 +139,7 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 
 **Note:** Pour Option B, une section "Qualité narrative" (10%) remplace partiellement "Créativité".
 
----
+
 
 ## ✅ Critères de Réussite
 
@@ -158,7 +160,7 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 - **Option A:** 4-6 salles, CRUD complet, filtres/recherche
 - **Option B:** 8+ chapitres, 3+ fins, système de choix fonctionnel
 
----
+
 
 ## 🚀 Technologies Utilisées
 
@@ -181,7 +183,7 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 - Howler.js (gestion audio)
 - Day.js (dates)
 
----
+
 
 ## 📚 Livrables
 
@@ -206,7 +208,7 @@ Application web complète et déployée
 - Démo live
 - Vidéo de présentation (2-3 min)
 
----
+
 
 ## ⚠️ Points Critiques à Retenir
 
@@ -223,7 +225,7 @@ Application web complète et déployée
 - 🧪 Testez CHAQUE chemin narratif manuellement
 - 📝 Faites relire par quelqu'un d'externe (fautes d'orthographe!)
 
----
+
 
 ## 🛠️ Outils et Ressources
 
@@ -251,31 +253,35 @@ npm install -D eslint prettier
 - Composants de base commentés
 - Structure de projet recommandée
 
----
+
 
 ## 📞 Support et Questions
 
 ### Pendant les heures de cours:
+
 - Posez vos questions en direct
 - Profitez des mini-cliniques optionnelles (GSAP, Pinia, etc.)
 - Participez aux sessions de revue de code
 
 ### Hors des heures de cours:
-- Utilisez le canal Discord/Teams de la classe
+
+- Utilisez le canal Teams de la classe
 - Consultez la FAQ (mise à jour régulièrement)
 - Documentation officielle des technologies
 
 ### Checkpoints hebdomadaires:
+
 Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 - Valider votre progression
 - Débloquer les problèmes techniques
 - Ajuster le scope si nécessaire
 
----
+
 
 ## 🎯 Conseils pour Réussir
 
 ### Gestion de projet:
+
 1. **Planifiez dès le début** - Le cahier de charges est crucial
 2. **Divisez en petites tâches** - Utilisez un board (Trello, GitHub Projects)
 3. **Committez souvent** - Petits commits réguliers > gros commits rares
@@ -283,6 +289,7 @@ Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 5. **Communiquez** - Daily stand-ups de 5 min
 
 ### Technique:
+
 1. **Commencez simple** - MVP d'abord, fonctionnalités bonus ensuite
 2. **Composants réutilisables** - DRY (Don't Repeat Yourself)
 3. **Commentez votre code** - Votre "futur vous" vous remerciera
@@ -290,13 +297,14 @@ Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 5. **Branching Git** - Une branche par fonctionnalité
 
 ### Créativité:
+
 1. **Inspirez-vous** - Regardez des références, mais ne copiez pas
 2. **Restez cohérent** - Design uniforme du début à la fin
 3. **Pensez UX** - L'utilisateur doit comprendre intuitivement
 4. **Animations subtiles** - Moins c'est plus!
 5. **Accessibilité first** - Design pour tous dès le départ
 
----
+
 
 ## 📅 Dates Importantes
 
@@ -311,13 +319,14 @@ Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 | **Semaine 7** | Checkpoint: Polish et accessibilité |
 | **Semaine 8** | **REMISE FINALE + PRÉSENTATIONS** |
 
----
+
 
 ## 🏆 Critères d'Excellence
 
 Pour obtenir une note exceptionnelle (90%+):
 
 ### Technique:
+
 - Architecture Vue exemplaire (composants bien pensés)
 - State management Pinia optimal
 - Animations GSAP créatives et fluides
@@ -325,6 +334,7 @@ Pour obtenir une note exceptionnelle (90%+):
 - Performance optimale (< 2s chargement)
 
 ### Design:
+
 - Interface moderne et professionnelle
 - Expérience utilisateur intuitive
 - Cohérence visuelle totale
@@ -332,18 +342,20 @@ Pour obtenir une note exceptionnelle (90%+):
 - Accessibilité excellente (WCAG AAA)
 
 ### Créativité:
+
 - Concept original et personnel
 - Features innovantes (au-delà du MVP)
 - Attention exceptionnelle aux détails
 - Expérience émotionnelle impactante
 
 ### Professionnalisme:
+
 - Documentation complète et claire
 - Git workflow impeccable
 - Présentation soignée et percutante
 - Travail d'équipe harmonieux
 
----
+
 
 ## ❓ FAQ
 
@@ -374,11 +386,12 @@ R: Vous pouvez l'utiliser pour brainstorm ou correction, mais l'écriture doit �
 **Q: Comment gérer les conflits Git?**  
 R: Travaillez sur des branches séparées, communiquez avant de merger, utilisez des pull requests.
 
----
+
 
 ## 🎉 Mot de la Fin
 
 Ce projet est l'occasion de:
+
 - ✨ Créer quelque chose dont vous serez fiers
 - 💼 Enrichir votre portfolio
 - 🚀 Maîtriser des technologies professionnelles
@@ -389,12 +402,10 @@ Ce projet est l'occasion de:
 
 Un projet simple et bien exécuté vaut mieux qu'un projet complexe inachevé.
 
----
 
 **Bon courage! 🚀**
 
-**Des questions?** Parlez-en en classe ou sur le canal de communication de l'équipe.
 
 ---
 
-*Document version 1.0 - [Date]*
+*Document version 1.0 - [8 octobre 2025]*
