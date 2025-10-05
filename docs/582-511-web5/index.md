@@ -4,6 +4,8 @@
 
 #### CSS
 
+##### Grid
+
 - [CSS Grid intro](./css/grid/intro.md)
 - [Styles du conteneur: `grid-template-columns` et `grid-template-rows`](./css/grid/grid-template-cols-rows.md)
 - [Espacement avec `gap`](./css/grid/gap.md)
@@ -18,11 +20,17 @@
 * [Tailwind](#)-->
 
 #### JavaScript
+
+##### Fetch API
+
 * [Promesses JavaScript](./cours06a.md#promesses-javascript)
 * [Fetch API](./cours06a.md#fetch-api)
+* [Gestion données reçues](./cours06a.html#gestions-des-donnees-recues)
+
+
 <!--* [REST API pour WordPress](#)-->
 
-#### VUE.JS
+##### VUE.JS
 
 <!-- - [Vue: Création d'un projet en CLI](./vue/creation-projet-CLI.md)-->
 
