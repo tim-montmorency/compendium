@@ -120,13 +120,13 @@
 
 ---
 
-## 4. Styles SASS/SCSS (10 points)
+## 4. Styles CSS (10 points)
 
 ### 4.1 Organisation (4 points)
 
 | Critère | Points | Note | Commentaires |
 |---------|--------|------|--------------|
-| Structure de fichiers SCSS claire | /1 | | |
+| Structure de fichiers CSS claire | /1 | | |
 | Variables définies et utilisées | /1 | | |
 | Mixins créés et réutilisés | /1 | | |
 | Méthodologie CSS appliquée (BEM/SMACSS) | /1 | | |
@@ -341,7 +341,7 @@
 | 1. Cahier de charges | 15 | | |
 | 2. Architecture Vue.js | 20 | | |
 | 3. Gestion d'état (Pinia) | 15 | | |
-| 4. Styles SASS/SCSS | 10 | | |
+| 4. Styles CSS | 10 | | |
 | 5. Animations GSAP | 10 | | |
 | 6. Gestion des données | 10 | | |
 | 7. Fonctionnalités | 10 | | |

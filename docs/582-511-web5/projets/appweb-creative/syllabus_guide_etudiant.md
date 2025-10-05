@@ -11,7 +11,7 @@
 
 ## 📋 Description du Projet
 
-Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pinia et SASS/SCSS. Ce projet vous permettra de démontrer toutes les compétences acquises durant le cours dans un contexte créatif et professionnel.
+Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pinia et CSS. Ce projet vous permettra de démontrer toutes les compétences acquises durant le cours dans un contexte créatif et professionnel.
 
 ### Vous avez le choix entre 2 types de projets:
 
@@ -19,9 +19,9 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 - Option B: Trace ton chemin
 
 
-## 🏛️ **Option A: Mémoires Interactives**
+## 🏛️ **Option A: Mémoires interactives**
 
-**Concept:** Un musée numérique personnel où l'utilisateur crée et organise ses souvenirs en salles thématiques.
+**Concept:** Un musée numérique personnel (ou collaboratif) où l'utilisateur crée et organise ses souvenirs en salles thématiques.
 
 ### Ce que vous allez construire:
 
@@ -39,6 +39,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 - Collection de voyages
 - Musée musical (artistes, albums)
 - Galerie d'inspirations créatives
+- Souvenirs fictifs du époque que vous n'avez pas connue
 
 ### Technologies clés:
 
@@ -65,12 +66,15 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 - 📱 Interface responsive
 
 ### Exemples de genres:
+
 - Science-fiction avec voyages temporels
 - Mystère/enquête policière
 - Fantasy/aventure épique
 - Thriller psychologique
+- Comédie/humour
 
 ### Technologies clés:
+
 - **Vue.js** pour les composants (chapitres, choix, fins)
 - **Pinia** pour gérer la progression et l'état du joueur
 - **GSAP** pour transitions narratives
@@ -85,46 +89,52 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 | **1-2** | **Planification** | Cahier de charges, maquettes Figma, arbre narratif (pour Option B) |
 | **3** | **Foundation** | Architecture Vue, premiers composants, routing |
 | **4** | **Interactivité** | CRUD/Système de choix, Pinia configuré |
-| **5** | **Animations** | GSAP, transitions, médias (images, sons) |
+| **5** | **Animations et médias** | GSAP, transitions, médias (images, sons) |
 | **6** | **Persistance** | LocalStorage, sauvegardes, toutes les fins (Option B) |
-| **7** | **Polish** | Responsive, accessibilité, correction de bugs |
+| **7** | **Affinage et contrôle qualité** | Responsive, accessibilité, correction de bugs |
 | **8** | **Finalisation** | Documentation, déploiement, présentation |
 
 
 
-## 👥 Rôles dans l'Équipe
+## 👥 Rôles dans l'équipe
 
-Vous devez désigner un **chef de projet** et répartir les responsabilités. Voici une suggestion:
+<span class="important-label">⚠️ Important:</span> Même avec des rôles définis, *tout le monde code!* Ces rôles indiquent seulement les responsabilités principales.
+
+Vous devez désigner un **chef de projet** et répartir les responsabilités.
 
 ### Répartition suggérée (équipe de 3):
 
-**Personne A - Chef de projet + Architecture**
+*Personne A - Chef de projet + Architecture*
+
 - Coordination de l'équipe
 - Vue Router et structure de l'app
 - Stores Pinia (state management)
 - Gestion du repo GitHub
 
-**Personne B - Design + Animations**
+*Personne B - Design + Animations*
+
 - Design visuel et maquettes Figma
-- SASS/SCSS et stylisation
+- CSS et stylisation
 - Animations GSAP
 - Expérience utilisateur
 
-**Personne C - Données + Systèmes**
+*Personne C - Données + Systèmes*
+
 - LocalStorage et persistance
 - Validation des formulaires
 - Gestion des erreurs
 - Tests et débogage
 
-**Personne D (si équipe de 4):**
+*Personne D (si équipe de 4):*
+
 - Contenus et UX (Option A: médias, descriptions)
 - Narration et écriture (Option B: chapitres, dialogues)
 - Accessibilité et responsive
 - Documentation
 
-⚠️ **Important:** Même avec des rôles définis, **tout le monde code!** Ces rôles indiquent seulement les responsabilités principales.
+<span class="important-label">⚠️ Important:</span> Même avec des rôles définis, *tout le monde code!* Ces rôles indiquent seulement les responsabilités principales.
 
-
+<!--
 
 ## 📊 Évaluation (85% de la note finale)
 
@@ -133,7 +143,7 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 | **Cahier de charges** (semaine 2) | 15% |
 | **Architecture Vue.js** | 20% |
 | **Gestion d'état (Pinia)** | 15% |
-| **Styles SASS/SCSS** | 10% |
+| **Styles CSS** | 10% |
 | **Animations GSAP** | 10% |
 | **Gestion des données** | 10% |
 | **Fonctionnalités** | 10% |
@@ -145,23 +155,26 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 **Note:** Pour Option B, une section "Qualité narrative" (10%) remplace partiellement "Créativité".
 
 
+-->
 
 ## ✅ Critères de Réussite
 
 ### Exigences minimales (MVP):
 
 **Technique:**
+
 - ✅ Application Vue.js fonctionnelle sans erreurs
 - ✅ Minimum 8 composants bien structurés
 - ✅ Vue Router avec 5+ routes
 - ✅ Pinia pour state management
-- ✅ SASS/SCSS organisé avec variables
+- ✅ CSS organisé avec variables
 - ✅ Animations GSAP fluides
 - ✅ Persistance LocalStorage fonctionnelle
 - ✅ Responsive (mobile, tablette, desktop)
 - ✅ Accessibilité WCAG AA
 
 **Fonctionnel:**
+
 - **Option A:** 4-6 salles, CRUD complet, filtres/recherche
 - **Option B:** 8+ chapitres, 3+ fins, système de choix fonctionnel
 
@@ -170,29 +183,32 @@ Vous devez désigner un **chef de projet** et répartir les responsabilités. Vo
 ## 🚀 Technologies Utilisées
 
 ### Obligatoires:
+
 - **Vue.js 3** - Framework JavaScript
 - **Vite** - Build tool
 - **Vue Router** - Routing
 - **Pinia** - State management
-- **SASS/SCSS** - Préprocesseur CSS
 - **GSAP** - Animations
+- **Git + GitHub** - Contrôle de version
 
 ### Recommandées:
+
 - **ESLint + Prettier** - Qualité du code
-- **Git + GitHub** - Contrôle de version
 - **Figma** - Maquettage
 - **Netlify/Vercel** - Déploiement
 
 ### Librairies optionnelles:
+
 - VueUse (composables utilitaires)
 - Howler.js (gestion audio)
 - Day.js (dates)
 
 
-
+<!--
 ## 📚 Livrables
 
 ### 1. Cahier de charges (Semaine 2) - 15%
+
 Document complet incluant:
 - Description du concept
 - Maquettes Figma (5+ écrans)
@@ -201,35 +217,39 @@ Document complet incluant:
 - **Option B uniquement:** Arbre narratif complet
 
 ### 2. Projet final (Semaine 8) - 70%
+
 Application web complète et déployée
 
 ### 3. Documentation (Semaine 8) - 5%
+
 - README.md complet
 - Code commenté
 - Instructions d'installation
 
 ### 4. Présentation (Semaine 8) - 10%
+
 - Présentation orale (10 min)
 - Démo live
 - Vidéo de présentation (2-3 min)
 
-
+ -->
 
 ## ⚠️ Points Critiques à Retenir
 
 ### Pour Option A (Mémoires):
+
 - 🎨 Commencez tôt sur le design visuel
 - 💾 Testez intensivement le LocalStorage
 - 🔍 Le système de recherche/filtres peut être complexe
-- 📸 Prévoyez la validation des uploads d'images
+- 📸 Prévoyez la validation des uploads d'images des utilisateurs
 
-### Pour Option B (Choisis ta Voie):
+### Pour Option B (Trace ton chemin):
+
 - ✍️ **CRITIQUE:** Écrivez 80% du texte AVANT la semaine 3!
 - 📖 Gardez les histoires simples (8-10 chapitres max)
 - 🔀 Limitez les branches (2-3 branches principales)
 - 🧪 Testez CHAQUE chemin narratif manuellement
 - 📝 Faites relire par quelqu'un d'externe (fautes d'orthographe!)
-
 
 
 ## 🛠️ Outils et Ressources
@@ -247,17 +267,19 @@ npm install -D eslint prettier
 ```
 
 ### Ressources d'apprentissage:
+
+- 📚 [Contenu du cours Web 5](https://tim-montmorency.com/compendium/582-511-web5/)
 - 📖 [Vue.js Documentation](https://vuejs.org)
 - 🍍 [Pinia Documentation](https://pinia.vuejs.org)
 - 🎨 [GSAP Documentation](https://greensock.com/docs/)
 - 🎬 [Vue School (tutoriels)](https://vueschool.io)
 
 ### Templates fournis par l'enseignant:
+
 - Composable `useLocalStorage.js`
 - Store Pinia exemple
 - Composants de base commentés
 - Structure de projet recommandée
-
 
 
 ## 📞 Support et Questions
@@ -309,7 +331,7 @@ Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 4. **Animations subtiles** - Moins c'est plus!
 5. **Accessibilité first** - Design pour tous dès le départ
 
-
+<!-- 
 
 ## 📅 Dates Importantes
 
@@ -324,7 +346,7 @@ Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 | **Semaine 7** | Checkpoint: Polish et accessibilité |
 | **Semaine 8** | **REMISE FINALE + PRÉSENTATIONS** |
 
-
+-->
 
 ## 🏆 Critères d'Excellence
 

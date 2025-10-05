@@ -61,10 +61,8 @@ mon-projet/
 ├── src/
 │   ├── assets/
 │   │   └── styles/
-│   │       ├── main.scss
-│   │       ├── _variables.scss
-│   │       ├── _mixins.scss
-│   │       └── _reset.scss
+│   │       ├── main.css
+│   │       └── reset.css
 │   ├── components/
 │   │   ├── common/
 │   │   └── ui/
@@ -118,7 +116,7 @@ import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import router from './router';
 import App from './App.vue';
-import './assets/styles/main.scss';
+import './assets/styles/main.css';
 
 const app = createApp(App);
 
@@ -148,115 +146,8 @@ export const useExampleStore = defineStore('example', {
 });
 ```
 
-### 1.6 Configurer SASS
 
-**src/assets/styles/_variables.scss:**
-```scss
-// Couleurs
-$primary-color: #6366f1;
-$secondary-color: #8b5cf6;
-$text-color: #1f2937;
-$bg-color: #ffffff;
-$error-color: #ef4444;
-$success-color: #10b981;
-
-// Espacements
-$spacing-xs: 0.25rem;
-$spacing-sm: 0.5rem;
-$spacing-md: 1rem;
-$spacing-lg: 1.5rem;
-$spacing-xl: 2rem;
-
-// Breakpoints
-$mobile: 320px;
-$tablet: 768px;
-$desktop: 1024px;
-$wide: 1440px;
-
-// Typographie
-$font-family: 'Inter', sans-serif;
-$font-size-base: 16px;
-```
-
-**src/assets/styles/_mixins.scss:**
-```scss
-// Responsive breakpoints
-@mixin mobile {
-  @media (max-width: #{$tablet - 1px}) {
-    @content;
-  }
-}
-
-@mixin tablet {
-  @media (min-width: #{$tablet}) and (max-width: #{$desktop - 1px}) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @media (min-width: #{$desktop}) {
-    @content;
-  }
-}
-
-// Flexbox center
-@mixin flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-// Transition standard
-@mixin transition($property: all) {
-  transition: $property 0.3s ease;
-}
-```
-
-**src/assets/styles/_reset.scss:**
-```scss
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: $font-family;
-  font-size: $font-size-base;
-  color: $text-color;
-  background-color: $bg-color;
-  line-height: 1.6;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-```
-
-**src/assets/styles/main.scss:**
-```scss
-@import './variables';
-@import './mixins';
-@import './reset';
-
-// Vos styles globaux ici
-```
-
-### 1.7 Créer le .gitignore
+### 1.6 Créer le .gitignore
 
 **.gitignore:**
 ```gitignore
@@ -290,7 +181,7 @@ npm-debug.log*
 coverage/
 ```
 
-### 1.8 Initialiser Git et pousser sur GitHub
+### 1.7 Initialiser Git et pousser sur GitHub
 
 ```bash
 # Initialiser Git
@@ -439,6 +330,9 @@ const handleClick = () => {
 </script>
 
 <style scoped lang="scss">
+
+/* Attention le code ici est en format scss, veuillez l'adapter en format css classique */
+
 @import '@/assets/styles/variables';
 @import '@/assets/styles/mixins';
 
@@ -713,6 +607,9 @@ const close = () => {
 </script>
 
 <style scoped lang="scss">
+
+/* Attention le code ici est en format scss, veuillez l'adapter en format css classique */
+
 @import '@/assets/styles/variables';
 
 .modal-overlay {

@@ -144,7 +144,7 @@ Choisissez un ou plusieurs styles:
 - ✅ Vite
 - ✅ Vue Router
 - ✅ Pinia (state management)
-- ✅ SASS/SCSS
+- ✅ CSS
 - ✅ GSAP + ScrollTrigger
 
 **Librairies additionnelles envisagées:**
@@ -379,7 +379,7 @@ Listez vos composants Vue principaux:
 | Membre | Rôle principal | Responsabilités |
 |--------|----------------|-----------------|
 | [Nom] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure des composants |
-| [Nom] | Design + Animations | SASS/SCSS, design visuel, animations GSAP, transitions |
+| [Nom] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
 | [Nom] | Données + Validation | LocalStorage/Firebase, validation formulaires, gestion erreurs |
 | [Nom] | UX + Accessibilité | Tests utilisateurs, accessibilité, responsive, contenus |
 
@@ -411,7 +411,7 @@ Listez vos composants Vue principaux:
 - [ ] Minimum 8 composants Vue bien structurés
 - [ ] Vue Router avec 5+ routes
 - [ ] Pinia implémenté avec state management cohérent
-- [ ] SASS/SCSS organisé avec variables et mixins
+- [ ] CSS organisé avec variables et mixins
 - [ ] Animations GSAP fluides (60 FPS)
 - [ ] Données persistantes (LocalStorage)
 - [ ] Code validé (ESLint)

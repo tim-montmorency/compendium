@@ -69,7 +69,7 @@ develop
 |------|-------|-------|---------|
 | `feat` | Nouvelle fonctionnalité | ✨ | `feat(memory): add delete button` |
 | `fix` | Correction de bug | 🐛 | `fix(save): resolve localStorage quota error` |
-| `style` | CSS/SCSS uniquement | 💄 | `style(header): update nav colors` |
+| `style` | CSS uniquement | 💄 | `style(header): update nav colors` |
 | `refactor` | Refactoring du code | ♻️ | `refactor(store): simplify actions logic` |
 | `docs` | Documentation | 📝 | `docs(readme): add installation steps` |
 | `test` | Tests | ✅ | `test(memory): add unit tests` |

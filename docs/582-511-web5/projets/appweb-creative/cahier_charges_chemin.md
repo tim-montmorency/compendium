@@ -213,7 +213,7 @@ Choisissez un ou plusieurs styles:
 - ✅ Vite
 - ✅ Vue Router
 - ✅ Pinia (state management)
-- ✅ SASS/SCSS
+- ✅ CSS
 - ✅ GSAP + ScrollTrigger (optionnel selon style)
 
 **Librairies additionnelles envisagées:**
@@ -537,7 +537,7 @@ Comment stockez-vous les chapitres et choix?
 | Membre | Rôle principal | Responsabilités |
 |--------|----------------|-----------------|
 | [Nom] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
-| [Nom] | Design + Animations | SASS/SCSS, design visuel, animations GSAP, transitions |
+| [Nom] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
 | [Nom] | Contenu + Narration | Écriture des chapitres, création de l'arbre narratif, dialogues |
 | [Nom] | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
 
@@ -571,7 +571,7 @@ Comment stockez-vous les chapitres et choix?
 - [ ] Minimum 8 composants Vue bien structurés
 - [ ] Vue Router avec 5+ routes
 - [ ] Pinia implémenté avec state management cohérent
-- [ ] SASS/SCSS organisé avec variables
+- [ ] CSS organisé avec variables
 - [ ] Animations GSAP fluides
 - [ ] Système de sauvegarde fonctionnel
 - [ ] Code validé (ESLint)
