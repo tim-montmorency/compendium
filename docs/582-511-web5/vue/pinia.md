@@ -6,9 +6,9 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 ---
 
-## 🤔 Le problème qu'il résout
+## 🤔Le problème qu'il résout
 
-### Sans Pinia (le cauchemar):
+### Sans Pinia (le cauchemar)
 
 Imaginez que vous avez:
 - Un composant `Header.vue` qui affiche le nom de l'utilisateur
@@ -67,7 +67,7 @@ export default {
 
 Vous devez passer TOUT à travers les props, même aux composants profondément imbriqués! 😱
 
-## Avec Pinia (la solution élégante):
+## Avec Pinia (la solution élégante)
 
 *Vous créez un "store" (magasin) central* où TOUS les composants peuvent:
 
@@ -135,7 +135,7 @@ export const useMuseumStore = defineStore('museum', {
 });
 ```
 
-## 🔄 Comparaison: Composant vs Store
+## 🔄Comparaison: Composant vs Store
 
 |     Composant Vue    |      Store Pinia     |
 |:--------------------:|:--------------------:|
@@ -145,5 +145,5 @@ export const useMuseumStore = defineStore('museum', {
 | Local à un composant | Global à toute l'app |
 
 
-### C'est comme un composant Vue, mais partagé partout!
+#### C'est comme un composant Vue, mais partagé partout!
 
