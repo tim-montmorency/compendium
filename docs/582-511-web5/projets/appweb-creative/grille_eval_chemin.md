@@ -1,4 +1,4 @@
-# Grille d'Évaluation - Choisis ta Voie
+# Grille d'Évaluation - Trace ton chemin
 
 **Nom de l'équipe:** _______________  
 **Projet:** _______________  

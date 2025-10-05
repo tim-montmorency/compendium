@@ -1,4 +1,4 @@
-# Calendrier Hebdomadaire Détaillé - Choisis ta Voie
+# Calendrier Hebdomadaire Détaillé - Trace ton chemin
 
 **Durée totale:** 8 semaines  
 **Heures en classe:** 8h/semaine (3h théorie + 5h pratique)  
