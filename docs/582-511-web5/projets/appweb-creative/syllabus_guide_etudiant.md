@@ -44,7 +44,7 @@ Vous allez créer une **application web interactive** utilisant Vue.js, GSAP, Pi
 
 ---
 
-## 📖 **Option B: Choisis ta Voie**
+## 📖 **Option B: Trace ton chemin**
 
 **Concept:** Une histoire interactive où les choix du lecteur influencent la narration et mènent à différentes fins.
 
