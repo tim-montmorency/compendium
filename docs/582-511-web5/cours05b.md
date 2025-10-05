@@ -126,3 +126,16 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 - [ ] Terminer les 6 exercices grid css pour mercredi le 1er octobre
 - [ ] Faire l'intégration CSS+HTML de votre portfolio pour mercredi le 1er octobre
+
+
+<!--
+TUTEUR MOMO-BOT
+<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
+
+<div class="modal" id="modal-momobot">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
+  </div>
+</div>
+-->
