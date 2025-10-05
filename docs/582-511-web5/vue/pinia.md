@@ -146,3 +146,4 @@ export const useMuseumStore = defineStore('museum', {
 
 
 ### C'est comme un composant Vue, mais partagé partout!
+
