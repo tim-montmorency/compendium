@@ -221,6 +221,7 @@ Vous évaluez les **mêmes compétences**, seul le contexte change!
 ## 🎁 **Bonus: Faciliter votre vie**
 
 **Créez un "Project Hub" Notion/Google Docs** avec:
+
 - Calendrier des livrables (identique pour tous)
 - Liens vers les repos GitHub de chaque équipe
 - Tableau de bord de progression (vert/jaune/rouge par équipe)
@@ -228,6 +229,7 @@ Vous évaluez les **mêmes compétences**, seul le contexte change!
 - Ressources techniques (tutoriels Vue, GSAP, etc.)
 
 **Préparez 3-4 "mini-cliniques" optionnelles:**
+
 - Clinique GSAP avancé (semaine 4)
 - Clinique State Management (semaine 5)
 - Clinique Accessibilité (semaine 6)

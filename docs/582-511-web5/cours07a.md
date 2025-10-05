@@ -10,13 +10,10 @@
 
 ## Ce qui est *INTERDIT* pendant l'examen
 
-Tout usage de d'*intelligence articifielle (AI)* vous est interdit pour l'examen, donc il est aussi interdit de faire des recherches dans Google et Bing puisqu'ils intègrent maintenant l'intelligence artificielle.
-
-Les *extensions Visual Studio Code* doivent être toutes *désactivées* à l'exception de *Beautify* ou *Prettier* (mettre en forme le document), *Antidote* (corriger les fautes d'ortographes) et *Live Server* (démarrer et exécuter votre application Vue).
-
+- Tout usage de d'*intelligence articifielle (AI)* vous est interdit pour l'examen, donc il est aussi interdit de faire des recherches dans Google et Bing puisqu'ils intègrent maintenant l'intelligence artificielle.
+- Les *extensions Visual Studio Code* doivent être toutes *désactivées* à l'exception de *Beautify* ou *Prettier* (mettre en forme le document), *Antidote* (corriger les fautes d'ortographes) et *Live Server* (démarrer et exécuter votre application Vue).
 <span class="important-label">IMPORTANT</span> <em>Vous devez désactiver toutes les extensions VS Code sauf celle pré-mentionnées</em>.  Je vais passer voir chacun de vos postes de travail, vérifier si vous avez tout désactivé. 
-
-Il est interdit de consulter des outils/sites de discussion en ligne, tel que *Teams*, *Discords* et tout réseaux sociaux etc. *VOUS DEVEZ FERMER LE LOGICIEL TEAMS.*
+- Il est interdit de consulter des outils/sites de discussion en ligne, tel que *Teams*, *Discords* et tout réseaux sociaux etc. *VOUS DEVEZ FERMER LE LOGICIEL TEAMS.*
 
 ## Ce qui est *PERMIS* pendant l'examen
 
