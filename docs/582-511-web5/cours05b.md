@@ -71,13 +71,17 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ### Exercices
 
-- [Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/index.md) ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ejy2j-8pBk5OoMNviPU4dxoBFiWymrkvihgbWHE1QdstIw?e=eHC1Tb)
+- [Exercice 1 Grille de couleurs](./exercices/ex-grid-grille-couleurs/index.md) 
+<!-- ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Ejy2j-8pBk5OoMNviPU4dxoBFiWymrkvihgbWHE1QdstIw?e=eHC1Tb)-->
 
-- [Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/index.md) ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EvtU3ytoRT5FoFZ08PPyOwoBd9U5yfoAfEhlyv0QYJj1qA?e=ZA6hZe)
+- [Exercice 2 Carte de bingo](./exercices/ex-grid-carte-bingo/index.md) 
+<!-- ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EvtU3ytoRT5FoFZ08PPyOwoBd9U5yfoAfEhlyv0QYJj1qA?e=ZA6hZe)-->
 
-- [Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/index.md) ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ElHDGQaowkRGh3HFyaWQ8wEBYgM-82kHkk7MqKFmS-Lc3Q?e=vdExFM)
+- [Exercice 3 Mise en page simple](./exercices/ex-grid-mise-en-page-simple/index.md) 
+<!-- ➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ElHDGQaowkRGh3HFyaWQ8wEBYgM-82kHkk7MqKFmS-Lc3Q?e=vdExFM)-->
 
-- [Exercice 4 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/) ➜ [Solution💡](https://codepen.io/tim-momo/pen/XWogYwy)
+- [Exercice 4 Grille Spotify](https://tim-montmorency.com/timdoc/582-518MO/exercices/grid-spotify/) 
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/XWogYwy) -->
 
 
 <!--
@@ -116,9 +120,11 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
 
 ### Exercices
 
-- [Exercice 5: The Killing Joke](./exercices/grid-joker) ➜ [Solution💡](https://codepen.io/tim-momo/pen/abPEgdL)
+- [Exercice 5: The Killing Joke](./exercices/grid-joker) 
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/abPEgdL) -->
 
-- [Exercice 6: Les offres Samsung](./exercices/grid-offres-samsung) ➜ [Solution💡](https://codepen.io/tim-momo/pen/NPxrzJw) 
+- [Exercice 6: Les offres Samsung](./exercices/grid-offres-samsung)
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/NPxrzJw) -->
 
 - Exercice supplémentaire 7 (si tu as terminé) : [CSS Grid Garden](https://cssgridgarden.com/#fr")
 

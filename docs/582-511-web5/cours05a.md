@@ -18,10 +18,10 @@
 ## Révision des exercices
 
 - [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/)
-  ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
+ <!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)-->
 
 - [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md)
-  ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
+ <!--  ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)-->
 
 ## Vue: Condition (v-if, v-else, v-show)
 
@@ -41,11 +41,11 @@
 ### 2 exercices v-for et v-if
 
 [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md){ .md-button } 
-➜ [Solution💡](https://codepen.io/tim-momo/pen/ByogzEv)
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByogzEv)-->
 
 
 [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
-➜ [Solution💡](https://codepen.io/tim-momo/pen/OJdOXYo)
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/OJdOXYo)-->
 
 
 ## Vue: Formulaires (v-model)
@@ -71,7 +71,7 @@
 ➜ Solution💡 directement sur chaque question du questionnaire
 
 [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
-➜ [Solution💡](https://codepen.io/tim-momo/pen/gOqKxXL)
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/gOqKxXL) -->
 
 
 ## Devoirs

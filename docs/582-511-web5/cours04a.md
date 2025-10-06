@@ -41,14 +41,16 @@ Voir si vous avez été validés.
 
 ## Révision d'exercices
 
-[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button } ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡
+[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button } 
+<!-- ➜ [Solution](https://codepen.io/tim-momo/pen/QWYqOrP)💡-->
 
-[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button } ➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡
+[🧑🏽‍💻 Cheese Kanye Says](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-cheese-kanye-says/){ .md-button }  
+<!-- ➜ [Solution](https://codepen.io/tim-momo/pen/GRzOqom)💡-->
 
 ## Suite - Exercice Collection de films
 
 [🧑🏽‍💻 Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/){ .md-button }
-➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)
+ <!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr) -->
 
 ## Vue
 
@@ -68,7 +70,7 @@ Voir si vous avez été validés.
 ##### 1 exercice 🧑🏽‍💻
 
 [🧑🏽‍💻 NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md){ .md-button } 
-➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)
+ <!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)-->
 
 
 ### Condition | Tableau + boucle
