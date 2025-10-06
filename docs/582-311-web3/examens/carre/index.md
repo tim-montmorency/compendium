@@ -74,7 +74,7 @@ Chaque carte a une structure de grille **CSS** (pas Bootstrap) en trois parties.
 - [ ] Pour chaque carte, ajouter 3 `div` pour chaque partie de la carte
 - [ ] Pour chaque partie, ajouter le contenu textuel et les icônes Bootstrap de chacune des cartes (Suit diamond fill, Suit heart fill, Suit spade fill, Suit club fill)
 - [ ] Au besoin, ajuster le contenu HTML des parties de la carte pour respecter le résultat attendu
-- [ ] Agrandir les icônes du centre avec la classe Bootstrap qui permet d'afficher de très gros titres (la carte _2 de pique_ doit afficher de plus petites icônes au centre)
+- [ ] Agrandir les icônes du centre avec la classe Bootstrap qui permet d'afficher de très gros titres
 - [ ] Appliquer la classe flip créée plus tôt aux éléments qui doivent avoir un effet miroir vertical
 
 - [ ] Dans `styles.css`, activer le système de grille à la classe `.carte`
@@ -84,7 +84,10 @@ Chaque carte a une structure de grille **CSS** (pas Bootstrap) en trois parties.
 
 #### 2 de pique [4 points]
 
-- [ ] Pour le 2 de pique, les icônes centrales doivent être configurées uniquement avec des classes Bootstrap flexbox
+- [ ] Pour le 2 de pique, les icônes centrales doivent être configurées uniquement avec des classes Bootstrap flex
+- [ ] Changer la direction flex en colonne
+- [ ] Changer également la justification flex
+- [ ] Les icônes du centre doivent être plus petites que les autres cartes
 
 ### JavaScript (scripts.js) [2 points]
 
