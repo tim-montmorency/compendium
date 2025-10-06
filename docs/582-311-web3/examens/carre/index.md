@@ -47,7 +47,7 @@ Chaque carte a une structure de grille **CSS** (pas Bootstrap) en trois parties.
 - [ ] Redéfinir la couleur rgb Bootstrap **Danger** par `rgb(255, 0, 0)`
 - [ ] Ajouter une nouvelle classe `flip` qui permet de créer un effet miroir vertical à l'aide de la propriété `transform`
 
-#### HTML (index.html) [12 points]
+#### HTML (index.html) [9 points]
 
 - [ ] Ajouter une `div` avec la classe Bootstrap qui permet d'ajouter un conteneur
 - [ ] Ajouter dans la `div` le HTML nécessaire pour créer 5 colonnes ([^col])
@@ -69,7 +69,7 @@ Chaque carte a une structure de grille **CSS** (pas Bootstrap) en trois parties.
   - [ ] Ajouter la classe Bootstrap pour appliquer des coins arrondis de 4
   - [ ] Ajouter la classe Bootstrap pour appliquer un padding vertical de 2
 
-### Carte à jouer [9 points]
+### Carte à jouer [11 points]
 
 - [ ] Pour chaque carte, ajouter 3 `div` pour chaque partie de la carte
 - [ ] Pour chaque partie, ajouter le contenu textuel et les icônes Bootstrap de chacune des cartes (Suit diamond fill, Suit heart fill, Suit spade fill, Suit club fill)
@@ -79,9 +79,10 @@ Chaque carte a une structure de grille **CSS** (pas Bootstrap) en trois parties.
 
 - [ ] Dans `styles.css`, activer le système de grille à la classe `.carte`
   - [ ] Configurer les proportions comme indiquées dans le résultat attendu
-  - [ ] Aligner les parties de carte comme dans le résultat attendu
+  
+- [ ] Avec des classes Bootstrap ou en css directement, aligner les parties de carte comme dans le résultat attendu
 
-#### 2 de pique [3 points]
+#### 2 de pique [4 points]
 
 - [ ] Pour le 2 de pique, les icônes centrales doivent être configurées uniquement avec des classes Bootstrap flexbox
 
