@@ -199,7 +199,6 @@ Mettre en pratique les notions suivantes :
 - Veuillez compresser ce dossier en format *.zip* et le remettre dans Teams dans le Devoir nommé *Examen Web5*.
 - Avant de quitter la classe, veuillez voir l'enseignante afin qu'elle confirme la réception de votre travail.
 
-
 ## Barème (100 points)
 
 - 10pts → **Commentaires dans le code et dans l'exécution**
