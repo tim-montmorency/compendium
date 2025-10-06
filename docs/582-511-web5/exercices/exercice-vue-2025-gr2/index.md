@@ -1,8 +1,8 @@
-# FestiPix – Exercice
+# Voyage Cosmirythmique – Exercice
 
 ## Contexte
 
-Vous devez créer une mini-application *Vue.js (Options API)* qui affiche la programmation d’un festival fictif : *FestiPixel* (nul besoin de faire de composante pour cet exercice).
+Vous devez créer une mini-application *Vue.js (Options API)* qui affiche la programmation d’un festival fictif : *Voyage Cosmirythmique* (nul besoin de faire de composante pour cet exercice).
 
 Les données proviennent d’un fichier *JSON* chargé via *Fetch API*.  
 
@@ -23,7 +23,7 @@ Mettre en pratique les notions suivantes :
 
 ## Démarrage
 
-[📥 Télécharger fichiers de départ](nom-prenom-depart.zip){ .md-button }
+[📥 Télécharger fichiers de départ](./nom-prenom-depart-gr2.zip){ .md-button }
 
 
 ### Fichiers fournis
@@ -88,7 +88,7 @@ Mettre en pratique les notions suivantes :
   - Scène  
   - Heure (début–fin)  
   - Style  
-  - Popularité (⭐ nombre)  
+  - Popularité (⭐ nombre) 
 - [ ] Mise en page (layout) *CSS Grid* responsive :
   - Disposition sélectionnée de la grille:
     - *uniform* : Cartes toutes pareilles (même dimension, variable mais minimum de largeur de 220px), le *nombre de colonne automatique* dépendant de l'espace disponible dans l'écran.

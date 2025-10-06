@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Cyre",
+    "stage": "Cosmos",
+    "start": "20:00",
+    "end": "21:00",
+    "style": "Drum & Bass",
+    "popularity": 92,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Dig & Pan",
+    "stage": "Eclipse",
+    "start": "19:00",
+    "end": "19:45",
+    "style": "House",
+    "popularity": 78,
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "Pixel Twins",
+    "stage": "Cosmos",
+    "start": "22:00",
+    "end": "23:00",
+    "style": "Techno",
+    "popularity": 85,
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "VJ Celeste",
+    "stage": "Cosmos",
+    "start": "21:15",
+    "end": "22:00",
+    "style": "Visuals",
+    "popularity": 70,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Trou noir",
+    "stage": "Club",
+    "start": "18:00",
+    "end": "18:45",
+    "style": "Ambient",
+    "popularity": 63,
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Carl Box",
+    "stage": "Oasis",
+    "start": "19:00",
+    "end": "19:45",
+    "style": "House",
+    "popularity": 74,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Phaser",
+    "stage": "Club",
+    "start": "22:00",
+    "end": "23:00",
+    "style": "Techno",
+    "popularity": 75,
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Eternel",
+    "stage": "Club",
+    "start": "21:15",
+    "end": "22:00",
+    "style": "House",
+    "popularity": 70,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Dead House",
+    "stage": "Eclipse",
+    "start": "19:00",
+    "end": "19:45",
+    "style": "Breakbeat",
+    "popularity": 78,
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Opus Fokus",
+    "stage": "Oasis",
+    "start": "22:00",
+    "end": "23:00",
+    "style": "Techno",
+    "popularity": 80,
+    "featured": true
+  },
+  {
+    "id": 11,
+    "name": "Spirale",
+    "stage": "Oasis",
+    "start": "21:15",
+    "end": "22:00",
+    "style": "Drum & Bass",
+    "popularity": 70,
+    "featured": true
+  }
+]
