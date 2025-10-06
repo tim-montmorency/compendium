@@ -1,5 +1,7 @@
 # Examen 01
 
+![](./assets/images/grogu.gif){.w-100}
+
 [STOP]
 
 Cet examen représente **20% de votre note finale**.
