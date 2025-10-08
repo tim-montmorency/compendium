@@ -98,7 +98,8 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 ## 👥 Rôles dans l'équipe
 
-<span class="important-label">⚠️ Important:</span> Même avec des rôles définis, *tout le monde code!* Ces rôles indiquent seulement les responsabilités principales.
+<span class="important-label">⚠️ Important:</span> Même avec des rôles définis, *tout le monde code et tout le monde design!*
+Ces rôles indiquent seulement les responsabilités principales.
 
 Vous devez désigner un *chef de projet* et répartir les responsabilités.
 
@@ -111,7 +112,7 @@ Vous devez désigner un *chef de projet* et répartir les responsabilités.
 - Stores Pinia (state management)
 - Gestion du repo GitHub
 
-*Personne B - Design + Animations*
+*Personne B - Responsable du Design + Animations*
 
 - Design visuel et maquettes Figma
 - CSS et stylisation
@@ -132,7 +133,9 @@ Vous devez désigner un *chef de projet* et répartir les responsabilités.
 - Accessibilité et responsive
 - Documentation
 
-<span class="important-label">⚠️ Important:</span> Même avec des rôles définis, *tout le monde code!* Ces rôles indiquent seulement les responsabilités principales.
+<span class="important-label">⚠️ Important:</span> Même avec des rôles définis, *tout le monde code et tout le monde design!*
+Ces rôles indiquent seulement les responsabilités principales.
+
 
 <!--
 
@@ -153,9 +156,71 @@ Vous devez désigner un *chef de projet* et répartir les responsabilités.
 | *Présentation finale* | 5% |
 
 *Note:* Pour Option B, une section "Qualité narrative" (10%) remplace partiellement "Créativité".
-
-
 -->
+
+## Évaluation (50% de la note de la session)
+
+| Date de remise | Critère | Pondération |
+|----------------|---------|-------------|
+| 22 octobre | Planification (cahier de charges) et design et design du projet | 15% |
+| 14 novembre | Fondation et interactivité | 15% |
+| 19 novembre | Évaluation par les pairs et auto-évaluation de mi-parcours | 5% |
+| 8 décembre | Rapport du contrôle de la qualité (QA) | 10% |
+| 10 décembre | Remise finale et présentation orale | 50% |
+| 12 décembre | analyse réflexive et suivi de l'évaluation de mi-parcours | 5% |
+
+### Critères d'évaluation
+
+*1. Planification & recherche*
+
+- Cahier de charges bien rempli et complet. Respect de celui-coi tout le long du processus
+- Moodboard visuel (choix de couleurs, typographies, ambiance, références cohérentes)
+- Justification du concept (explication des choix visuels/ergonomiques)
+- Organisation du contenu (plan clair : sections, composantes de l'interface, hiérarchie de l’information)
+
+*2. Design et contenu*
+
+- Qualité visuelle (cohérence graphique, respect du moodboard, esthétique générale)
+- UX et navigation (ergonomie, lisibilité, accessibilité de base, responsive design pensé dès la maquette)
+- Originalité et créativité (effort créatif pour se démarquer)
+- Qualité narrative
+
+*3. Codage HTML + CSS*
+
+- Structure HTML (sémantique, hiérarchie, respect des standards W3C, titres et balises correctes)
+- CSS et mise en page (utilisation claire de Grid/Flexbox, propreté du code, classes logiques et bien nommées)
+- Responsive design (site adapté aux écrans mobiles et desktop, sans bogues visuels irritants)
+- Accessibilité & SEO de base (contraste suffisant, textes alternatifs pour images, métadonnées essentielles)
+
+*4. VueJS*
+
+- Architexture Vue.js
+- Projet fonctionnel et fluide (les composantes fonctionnent, communiquent bien entre-elles, interactions fluides, pas de bogue)
+- Utilisation appropriée de VueJS
+- Navigation de routes fluide et fonctionnelle
+
+*5. Documentation et mise en ligne*
+
+- Intégration d’un déploiement adéquat sur un serveur web
+- Documentation claire et précise dans un fichier README.md
+
+*6. Contrôle de la qualité rigoureux et plan de corrections adéquat*
+
+- Rapport du contrôle qualité
+- Plan de corrections
+
+*7. Travail d'équipe*
+
+- Organisation & gestion de projet (rôles clairs, respect du plan et de l'échéancier, mêlées et rapports hebomadaires rendus de manière assidue, utilisation efficace de tableau collaboratif)
+- Communication et coopération
+- Résolution de problèmes et autonomie collective
+- Cohésion et qualité du travail collectif
+- Évaluation par les pairs et ajustement individuel
+
+**8. Présentation orale*
+
+*9.  Travail réflexif personnel*
+
 
 ## ✅ Critères de Réussite
 
@@ -169,9 +234,9 @@ Vous devez désigner un *chef de projet* et répartir les responsabilités.
 - ✅ Pinia pour state management
 - ✅ CSS organisé avec variables
 - ✅ Animations GSAP fluides
-- ✅ Persistance LocalStorage fonctionnelle
+- ✅ Persistance LocalStorage/Firebase fonctionnelle
 - ✅ Responsive (mobile, tablette, desktop)
-- ✅ Accessibilité WCAG AA
+- ✅ Accessibilité WCAG
 
 *Fonctionnel:*
 
