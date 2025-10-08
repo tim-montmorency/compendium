@@ -28,9 +28,23 @@ Git en équipe
 - Git Merge
 - Gestion de conflits
 -->
+
+## Projet portfolio
+
+[Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue.js*](./projets/portfolio.md#obligatoire-pour-web-5) à venir ici d'ici le 11 octobre. Je vais aussi les publier sur le canal de notre équipe Teams.
+
 ## Présentation du projet intégrateur
 
-### Grand projet de session
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/index.html">Projet intégrateur: Web app créative - Infos générales</a>
+</div>
+
+### Début du projet
+
+- Création des équipes
+- Planification du projet + Design
+
 
 ## Gestion de projet
 
