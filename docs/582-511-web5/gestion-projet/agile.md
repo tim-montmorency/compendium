@@ -15,7 +15,7 @@ La **méthode Agile** est une approche de **gestion de projet** (notamment en d�
 
 > ⚡ En d’autres mots : plutôt que de tout planifier d’avance (comme dans la méthode « en cascade » ou *waterfall*), l’Agile vise à avancer **par petits pas**, à tester souvent et à s’adapter aux besoins réels au fur et à mesure.
 
----
+
 
 ## 📜 Les principes fondateurs
 
@@ -26,7 +26,7 @@ La philosophie agile repose sur le **Manifeste Agile (2001)**, qui valorise :
 3. **La collaboration avec le client** plus que la négociation de contrat;  
 4. **L’adaptation au changement** plus que le suivi d’un plan.
 
----
+
 
 ## 🧩 Les concepts clés
 
@@ -37,7 +37,7 @@ Chaque itération se conclut par une **revue** (démonstration du travail accomp
 
 ---
 
-### 🔹 User Story → ⚙️ *Histoire utilisateur* (terme en français)
+### 🔹 User Story → ⚙️ *Histoire utilisateur*
 
 Une **user story** (ou *histoire utilisateur* en français) est une **description simple et concrète** d’un besoin du point de vue de l’utilisateur final.
 
@@ -77,7 +77,7 @@ C’est un pilier de **l’amélioration continue**.
 
 Un **incrément** est la **partie du produit** livrée à la fin d’un sprint — quelque chose de fonctionnel et potentiellement livrable au client.
 
----
+
 
 ## 🧠 En résumé
 
