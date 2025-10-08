@@ -491,7 +491,7 @@ Listez vos composants Vue principaux:
 - Sons d'ambiance (optionnel)
 
 
-### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
+### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS*
 
 **Sera fait en classe le 19 novembre**
 
