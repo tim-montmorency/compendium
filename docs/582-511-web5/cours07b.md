@@ -41,7 +41,7 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/index.html">Projet intégrateur: Web app créative - Infos générales</a>
+  <a href="./projets/appweb-creative/syllabus_guide_etudiant.html">Projet intégrateur: Web app créative - Infos générales</a>
 </div>
 
 ### Plan de cours mis à jour avec nouvelles dates de remises pour projet final
