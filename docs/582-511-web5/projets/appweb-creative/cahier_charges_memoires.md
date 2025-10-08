@@ -441,9 +441,9 @@ Listez vos composants Vue principaux:
 ### 9.1 *PHASE 1: PLANIFICATION ET DESIGN*
 <!--Semaine 1-2 (la 2 étant la semaine de rattrapage)-->
 
-*Du 8 au 22 octobre*
+**Du 8 au 22 octobre**
 
-> Remise 22 octobre | 15%
+*Remise 22 octobre | 15%*
 
 - Rédaction du cahier de charges
 - Création des maquettes Figma
@@ -453,12 +453,12 @@ Listez vos composants Vue principaux:
 ### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->
 
-*Du 22 octobre au 2 novembre environ*
+**Du 22 octobre au 2 novembre environ**
 
->  Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%
+*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%*
 
 !!! tip "Le projet portfolio en parallèle"
-  Notez que mercredi le 29 octobre c'est la remise et présentation de votre portfolio donc nous laissons un peu plus qu'une semaine pour cette phase car vous allez probablement finaliser votre portfolio en même temps.
+    Notez que mercredi le 29 octobre c'est la remise et présentation de votre portfolio donc nous laissons un peu plus qu'une semaine pour cette phase car vous allez probablement finaliser votre portfolio en même temps.
 
 - Structure des composants de base
 - Vue Router configuré
@@ -466,12 +466,12 @@ Listez vos composants Vue principaux:
 - Premiers composants (Header, RoomCard, etc.)
 
 
-### 9.3 *PHASE 3: INTERACTIVITÉ
+### 9.3 *PHASE 3: INTERACTIVITÉ*
 <!-- Semaine 4-5-->
 
-*Environ du 2 novembre au 12 novembre* 
+**Environ du 2 novembre au 12 novembre**
 
-> Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%
+*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%*
 
 - Formulaires d'ajout/édition
 - CRUD des mémoires
@@ -481,9 +481,9 @@ Listez vos composants Vue principaux:
 ### 9.4 *PHASE 4: ANIMATIONS ET MÉDIAS*
 <!-- Semaine 6 -->
 
-*Du 12 au 19 novembre* 
+**Du 12 au 19 novembre* *
 
-> Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif
+*Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
 
 - Intégration GSAP
 - Transitions entre pages
@@ -493,17 +493,17 @@ Listez vos composants Vue principaux:
 
 ### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
 
-*Sera fait en classe le 19 novembre*
+**Sera fait en classe le 19 novembre**
 
-> Remise de l'évaluation par les pairs et auto-évaluation de mi parcours: 19 novembre | 5%
+*Remise de l'évaluation par les pairs et auto-évaluation de mi parcours: 19 novembre | 5%*
 
 
 ### 9.5 *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES*
 <!-- Semaine 7 -->
 
-*Du 19 au 26 novembre*
+**Du 19 au 26 novembre**
 
-> Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif
+*Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
 
 - LocalStorage complet
 - Import/Export JSON
@@ -521,9 +521,9 @@ Listez vos composants Vue principaux:
 
 ### 9.7 *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
 <!-- Semaine 8 -->
-*Du 3 au 8 décembre*
+**Du 3 au 8 décembre**
 
-> Remise Phase 7 RAPPORT DU CONTRÔLE DE LA QUALITÉ : 8 décembre | 10%
+*Remise Phase 7 RAPPORT DU CONTRÔLE DE LA QUALITÉ : 8 décembre | 10%*
 
 - Tests de toutes les branches de l'histoire
 - Tests fonctionnels
@@ -535,9 +535,9 @@ Listez vos composants Vue principaux:
 ### 9.8 *PHASE 8:  FINALISATION*
 <!-- Semaine 8 + 2 jours-->
 
-*Du 3 au 10 décembre* (peut-être fait en parallèle avec la phase 7)
+**Du 3 au 10 décembre** (peut-être fait en parallèle avec la phase 7)
 
-> Remise et présentation finale : 10 décembre | 50%
+*Remise et présentation finale : 10 décembre | 50%*
 
 - Documentation (README complet)
 - Déploiement - Mise en ligne (GitHub/Netlify/Vercel)
@@ -546,9 +546,9 @@ Listez vos composants Vue principaux:
 
 ### 9.9 *PHASE 9: POST-MORTEM*
 
-*Du 10 au 12 décembre*
+**Du 10 au 12 décembre**
 
-> Remise de l'analyse réflexive et suivi de l'évaluation de mi-parcours: 12 décembre | 5%
+*Remise de l'analyse réflexive et suivi de l'évaluation de mi-parcours: 12 décembre | 5%*
 
 ## 🎯 10. Risques et Solutions
 
