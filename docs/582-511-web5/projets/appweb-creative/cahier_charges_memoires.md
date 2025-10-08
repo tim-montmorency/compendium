@@ -94,6 +94,7 @@ Listez les tags prédéfinis et permettez les tags personnalisés:
 ### 3.1 Moodboard
 
 Insérez ici 3-5 images d'inspiration (ou liens):
+
 - [Image 1: Style visuel général]
 - [Image 2: Palette de couleurs]
 - [Image 3: Typographie inspirante]
@@ -407,10 +408,10 @@ Listez vos composants Vue principaux:
 ### 7.3 Outils de collaboration
 
 - *Git/GitHub:* [Lien du repo]
-- *Gestion de projet:* [Trello / Notion / GitHub Projects]
+- *Gestion de projet:* [Trello / Word / GitHub Projects]
 - *Communication:* [Teams]
 - *Design:* [Figma]
-- *Documentation:* [Notion / Google Docs / README.md]
+- *Documentation:* [Word / Google Docs / README.md]
 
 
 
@@ -493,7 +494,7 @@ Listez vos composants Vue principaux:
 ### 9.4 *PHASE 4: ANIMATIONS ET MÉDIAS*
 <!-- Semaine 6 -->
 
-**Du 12 au 19 novembre* *
+**Du 12 au 19 novembre**
 
 *Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
 

@@ -562,11 +562,11 @@ Comment stockez-vous les chapitres et choix?
 ### 7.3 Outils de collaboration
 
 - *Git/GitHub:* [Lien du repo]
-- *Gestion de projet:* [Trello / Notion / GitHub Projects]
+- *Gestion de projet:* [Trello / Word / GitHub Projects]
 - *Communication:* [Teams]
 - *Design:* [Figma]
-- *Documentation:* [Notion / Google Docs / README.md]
-- *Écriture collaborative:* [Google Docs / Notion]
+- *Documentation:* [Word / Google Docs / README.md]
+- *Écriture collaborative:* [Google Docs / Word]
 
 
 ## 🚀 8. Critères de Succès
@@ -660,7 +660,7 @@ Comment stockez-vous les chapitres et choix?
 ### 9.4 *PHASE 4: ANIMATIONS ET MÉDIAS*
 <!-- Semaine 6 -->
 
-**Du 12 au 19 novembre* *
+**Du 12 au 19 novembre**
 
 *Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
 

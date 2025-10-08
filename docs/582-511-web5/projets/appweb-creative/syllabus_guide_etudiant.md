@@ -199,17 +199,21 @@ Ces rôles indiquent seulement les responsabilités principales.
 - Utilisation appropriée de VueJS
 - Navigation de routes fluide et fonctionnelle
 
-*5. Documentation et mise en ligne*
+*5 Animation*
+
+- Animation GSAP fluide, foncitonnelle et créative
+
+*6. Documentation et mise en ligne*
 
 - Intégration d’un déploiement adéquat sur un serveur web
 - Documentation claire et précise dans un fichier README.md
 
-*6. Contrôle de la qualité rigoureux et plan de corrections adéquat*
+*7. Contrôle de la qualité rigoureux et plan de corrections adéquat*
 
 - Rapport du contrôle qualité
 - Plan de corrections
 
-*7. Travail d'équipe*
+*8. Travail d'équipe*
 
 - Organisation & gestion de projet (rôles clairs, respect du plan et de l'échéancier, mêlées et rapports hebomadaires rendus de manière assidue, utilisation efficace de tableau collaboratif)
 - Communication et coopération
@@ -217,9 +221,9 @@ Ces rôles indiquent seulement les responsabilités principales.
 - Cohésion et qualité du travail collectif
 - Évaluation par les pairs et ajustement individuel
 
-**8. Présentation orale*
+*9. Présentation orale*
 
-*9.  Travail réflexif personnel*
+*10.  Travail réflexif personnel*
 
 
 ## ✅ Critères de Réussite
@@ -260,7 +264,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 
 - *ESLint + Prettier* - Qualité du code
 - *Figma* - Maquettage
-- *Netlify/Vercel* - Déploiement
+- *Netlify/Vercel/GitHub* - Déploiement
 
 ### Librairies optionnelles:
 
@@ -312,7 +316,7 @@ Application web complète et déployée
 
 - ✍️ *CRITIQUE:* Écrivez 80% du texte AVANT la semaine 3!
 - 📖 Gardez les histoires simples (8-10 chapitres max)
-- 🔀 Limitez les branches (2-3 branches principales)
+- 🔀 Limitez les branches d'histoire (2-3 branches principales)
 - 🧪 Testez CHAQUE chemin narratif manuellement
 - 📝 Faites relire par quelqu'un d'externe (fautes d'orthographe!)
 
@@ -320,6 +324,7 @@ Application web complète et déployée
 ## 🛠️ Outils et Ressources
 
 ### Configuration initiale:
+
 ```bash
 # Créer le projet
 npm create vite@latest mon-projet -- --template vue
@@ -352,25 +357,28 @@ npm install -D eslint prettier
 ### Pendant les heures de cours:
 
 - Posez vos questions en direct
-- Profitez des mini-cliniques optionnelles (GSAP, Pinia, etc.)
+- Profitez des mini-cliniques (GSAP, Pinia, etc.)
 - Participez aux sessions de revue de code
 
 ### Hors des heures de cours:
 
 - Utilisez le canal Teams de la classe
-- Consultez la FAQ (mise à jour régulièrement)
+- Consultez le wiki du cours
 - Documentation officielle des technologies
 
 ### Checkpoints hebdomadaires:
 
-Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
+Votre SCRUM d'équipe vous permet de réviser ce qui a été fait, ce que vous allez entreprendre dans la semaine qui suit etc
+
+Chaque semaine, une revue rapide avec l'enseignant pour:
+
 - Valider votre progression
 - Débloquer les problèmes techniques
 - Ajuster le scope si nécessaire
 
 
 
-## 🎯 Conseils pour Réussir
+## 🎯 Conseils pour réussir
 
 ### Gestion de projet:
 
@@ -396,22 +404,31 @@ Chaque semaine, une revue rapide (15 min) avec l'enseignant pour:
 4. *Animations subtiles* - Moins c'est plus!
 5. *Accessibilité first* - Design pour tous dès le départ
 
-<!-- 
+
 
 ## 📅 Dates Importantes
 
 | Date | Événement |
 |------|-----------|
-| *Semaine 1* | Lancement du projet, formation des équipes |
-| *Semaine 2* | *REMISE: Cahier de charges* |
-| *Semaine 3* | Checkpoint: Architecture de base |
-| *Semaine 4* | Checkpoint: Fonctionnalités principales |
-| *Semaine 5* | Checkpoint: Animations et médias |
-| *Semaine 6* | Checkpoint: Persistance |
-| *Semaine 7* | Checkpoint: Polish et accessibilité |
-| *Semaine 8* | *REMISE FINALE + PRÉSENTATIONS* |
+| *8 octobre* | Lancement du projet, formation des équipes |
+| *Du 8 au 22 octobre* | PHASE 1: PLANIFICATION ET DESIGN |
+| *22 octobre* | *REMISE: Cahier de charges et du design*: 15% |
+| *Du 22 octobre au 2 novembre environ* | PHASE 2: FONDATION |
+| *Environ du 2 novembre au 12 novembre* | PHASE 3: INTERACTIVITÉ |
+| *14 novembre* | *REMISE Phases 2 Fondation et 3 Interactivité*: 15% |
+| *Du 12 au 19 novembre* | PHASE 4: ANIMATIONS ET MÉDIAS |
+| *19 novembre* | ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS |
+| *Du 19 au 26 novembre* | PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire |
+| *26 novembre* | *REMISE Phases 4 animation+médias et 5 persistance*: Formatif |
+| *Du 26 novembre au 3 décembre* | PHASE 6: AFFINAGE ET ACCESSIBLITÉ pour la version BETA |
+| *3 décembre* | *REMISE version BETA*: Formatif |
+| *Du 3 au 8 décembre* | PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS |
+| *3 décembre* | *REMISE Phase 7 Contrôle de la qualité*: 10% |
+| *Du 3 au 10 décembre* | PHASE 8: FINALISATION |
+| *10 décembre* | *REMISE FINALE + PRÉSENTATIONS*: 50% |
+| *Du 10 au 12 décembre* | PHASE 9: POST-MORTEM |
+| *12 décembre* | *REMISE de l'analyse réflexive et suivi de l'évaluation de mi-parcours*: 5% |
 
--->
 
 ## 🏆 Critères d'Excellence
 
@@ -431,7 +448,7 @@ Pour obtenir une note exceptionnelle (90%+):
 - Expérience utilisateur intuitive
 - Cohérence visuelle totale
 - Responsive parfait sur tous les appareils
-- Accessibilité excellente (WCAG AAA)
+- Accessibilité excellente (WCAG)
 
 ### Créativité:
 
@@ -448,7 +465,7 @@ Pour obtenir une note exceptionnelle (90%+):
 - Travail d'équipe harmonieux
 
 
-
+<!--
 ## ❓ FAQ
 
 *Q: Puis-je utiliser TypeScript?*  
@@ -479,6 +496,7 @@ R: Vous pouvez l'utiliser pour brainstorm ou correction, mais l'écriture doit �
 R: Travaillez sur des branches séparées, communiquez avant de merger, utilisez des pull requests.
 
 
+-->
 
 ## 🎉 Mot de la Fin
 

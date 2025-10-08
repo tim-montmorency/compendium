@@ -224,7 +224,7 @@ Vous évaluez les **mêmes compétences**, seul le contexte change!
 
 ## 🎁 **Bonus: Faciliter votre vie**
 
-**Créez un "Project Hub" Notion/Google Docs** avec:
+**Créez un "Project Hub" Word/Google Docs** avec:
 
 - Calendrier des livrables (identique pour tous)
 - Liens vers les repos GitHub de chaque équipe
