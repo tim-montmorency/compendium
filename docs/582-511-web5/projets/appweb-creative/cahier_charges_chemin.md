@@ -658,7 +658,7 @@ Comment stockez-vous les chapitres et choix?
 - Animations de texte
 
 
-### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
+### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS*
 
 **Sera fait en classe le 19 novembre**
 
