@@ -5,6 +5,7 @@
 *Nom du projet:* [Nom de votre musée]  
 *Nom de l'équipe:* [Nom de votre équipe]  
 *Membres:*
+
 - [Nom] - Chef de projet / [Rôle principal]
 - [Nom] - [Rôle principal]
 - [Nom] - [Rôle principal]
@@ -62,6 +63,7 @@ Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins):
 Dessinez ou décrivez l'arbre de décisions de votre histoire:
 
 *Structure globale:*
+
 - *Acte 1:* Introduction (1-2 chapitres linéaires)
 - *Acte 2:* Développement avec choix (4-6 chapitres avec branches)
 - *Acte 3:* Climax et résolution (2-3 fins différentes)
@@ -164,12 +166,14 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 ### 3.2 Palette de couleurs
 
 *Couleurs par ambiance/chapitre:*
+
 - *Chapitres introduction:* [#XXXXXX] - Tons neutres
 - *Chapitres tension:* [#XXXXXX] - Tons sombres/dramatiques
 - *Chapitres espoir:* [#XXXXXX] - Tons clairs/lumineux
 - *Chapitres danger:* [#XXXXXX] - Rouge/orange
 
 *Couleurs système:*
+
 - Primaire (actions principales): [#XXXXXX]
 - Secondaire (choix): [#XXXXXX]
 - Succès: [#10B981]
@@ -207,6 +211,7 @@ Choisissez un ou plusieurs styles:
 ### 4.1 Stack technologique
 
 *Frontend obligatoire:*
+
 - ✅ Vue.js 3 (Composition API ☐ / Options API ☐)
 - ✅ Vite
 - ✅ Vue Router
@@ -215,6 +220,7 @@ Choisissez un ou plusieurs styles:
 - ✅ GSAP + ScrollTrigger (optionnel selon style)
 
 *Librairies additionnelles envisagées:*
+
 - [ ] VueUse (composables utilitaires)
 - [ ] Typed.js (effet de machine à écrire)
 - [ ] Howler.js (gestion audio avancée)
@@ -225,11 +231,13 @@ Choisissez un ou plusieurs styles:
 Listez vos composants Vue principaux:
 
 *Composants de layout:*
+
 - `AppHeader.vue` - Navigation et menu
 - `SaveSlotManager.vue` - Gestion des sauvegardes
 - `ProgressBar.vue` - Barre de progression dans l'histoire
 
 *Composants de contenu:*
+
 - `ChapterView.vue` - Vue d'un chapitre/scène
 - `NarrativeText.vue` - Affichage du texte narratif
 - `DialogueBox.vue` - Boîte de dialogue pour personnages
@@ -237,12 +245,14 @@ Listez vos composants Vue principaux:
 - `ChoicePanel.vue` - Panel contenant tous les choix
 
 *Composants système:*
+
 - `InventoryDisplay.vue` - Affichage de l'inventaire
 - `StatsPanel.vue` - Affichage des stats du joueur
 - `EndingScreen.vue` - Écran de fin avec récapitulatif
 - `Modal.vue` - Fenêtre modale (sauvegarde, options)
 
 *Composants UI:*
+
 - `ButtonPrimary.vue` - Bouton principal
 - `LoadingSpinner.vue` - Indicateur de chargement
 - `AudioController.vue` - Contrôle de la musique/sons
@@ -284,6 +294,7 @@ Listez vos composants Vue principaux:
 ### 4.5 Persistance des données
 
 *Méthode choisie:*
+
 - [x] LocalStorage (obligatoire pour sauvegardes)
 - [ ] Firebase Firestore (bonus optionnel pour galerie publique)
 
@@ -541,6 +552,7 @@ Comment stockez-vous les chapitres et choix?
 ### 7.2 Tâches transversales
 
 *À répartir entre tous:*
+
 - Tests de l'histoire (lecture complète)
 - Correction de fautes et relecture
 - Tests et debugging
@@ -735,17 +747,20 @@ Comment stockez-vous les chapitres et choix?
 ### 11.1 Ressources et références
 
 *Documentation officielle:*
+
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
 - GSAP: https://greensock.com/docs/
 
 *Inspiration narrative:*
+
 - Bandersnatch (Black Mirror)
 - Life is Strange
 - Detroit: Become Human
 - Twine games
 
 *Tutoriels utiles:*
+
 - [Lien vers tuto 1]
 - [Lien vers tuto 2]
 
@@ -765,6 +780,7 @@ Comment stockez-vous les chapitres et choix?
 *Date de validation:* [Date]
 
 *Signatures:*
+
 - Chef de projet: _______________
 - Membre 2: _______________
 - Membre 3: _______________

@@ -5,6 +5,7 @@
 *Nom du projet:* [Nom de votre musée]  
 *Nom de l'équipe:* [Nom de votre équipe]  
 *Membres:*
+
 - [Nom] - Chef de projet / [Rôle principal]
 - [Nom] - [Rôle principal]
 - [Nom] - [Rôle principal]
@@ -75,6 +76,7 @@ Décrivez les types de mémoires que les utilisateurs peuvent créer:
 Listez les tags prédéfinis et permettez les tags personnalisés:
 
 *Tags prédéfinis:*
+
 - Famille
 - Amis
 - Voyage
@@ -100,16 +102,19 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 ### 3.2 Palette de couleurs
 
 *Couleurs principales:*
+
 - Primaire: [#XXXXXX] - Utilisée pour: [navigation, boutons principaux]
 - Secondaire: [#XXXXXX] - Utilisée pour: [accents, hover states]
 - Tertiaire: [#XXXXXX] - Utilisée pour: [backgrounds, cartes]
 
 *Couleurs par salle:*
+
 - Salle 1: [#XXXXXX]
 - Salle 2: [#XXXXXX]
 - [etc.]
 
 *Couleurs système:*
+
 - Succès: [#10B981]
 - Erreur: [#EF4444]
 - Warning: [#F59E0B]
@@ -139,6 +144,7 @@ Choisissez un ou plusieurs styles:
 ### 4.1 Stack technologique
 
 *Frontend obligatoire:*
+
 - ✅ Vue.js 3 (Composition API ☐ / Options API ☐)
 - ✅ Vite
 - ✅ Vue Router
@@ -147,6 +153,7 @@ Choisissez un ou plusieurs styles:
 - ✅ GSAP + ScrollTrigger
 
 *Librairies additionnelles envisagées:*
+
 - [ ] VueUse (composables utilitaires)
 - [ ] Vuelidate (validation de formulaires)
 - [ ] Day.js (manipulation de dates)
@@ -157,17 +164,20 @@ Choisissez un ou plusieurs styles:
 Listez vos composants Vue principaux:
 
 *Composants de layout:*
+
 - `AppHeader.vue` - Navigation principale
 - `AppFooter.vue` - Informations, crédits
 - `Sidebar.vue` - Menu latéral des salles
 
 *Composants de contenu:*
+
 - `RoomView.vue` - Vue d'une salle individuelle
 - `MemoryCard.vue` - Carte d'une mémoire
 - `MemoryList.vue` - Liste/grille de mémoires
 - `MemoryForm.vue` - Formulaire d'ajout/édition
 
 *Composants UI:*
+
 - `ButtonPrimary.vue` - Bouton principal
 - `Modal.vue` - Fenêtre modale
 - `LoadingSpinner.vue` - Indicateur de chargement
@@ -206,6 +216,7 @@ Listez vos composants Vue principaux:
 ### 4.5 Persistance des données
 
 *Méthode choisie:*
+
 - [x] LocalStorage (obligatoire pour MVP)
 - [ ] Firebase Firestore (bonus optionnel)
 
@@ -387,6 +398,7 @@ Listez vos composants Vue principaux:
 ### 7.2 Tâches transversales
 
 *À répartir entre tous:*
+
 - Développement des composants
 - Tests et debugging
 - Documentation du code
@@ -568,16 +580,19 @@ Listez vos composants Vue principaux:
 ### 11.1 Ressources et références
 
 *Documentation officielle:*
+
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
 - GSAP: https://greensock.com/docs/
 - SASS: https://sass-lang.com/documentation
 
 *Tutoriels utiles:*
+
 - [Lien vers tuto 1]
 - [Lien vers tuto 2]
 
 *Inspirations:*
+
 - [Site 1]
 - [Site 2]
 
@@ -596,6 +611,7 @@ Listez vos composants Vue principaux:
 *Date de validation:* [Date]
 
 *Signatures:*
+
 - Chef de projet: _______________
 - Membre 2: _______________
 - Membre 3: _______________
