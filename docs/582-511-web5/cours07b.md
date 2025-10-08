@@ -31,19 +31,33 @@ Git en équipe
 
 ## Projet portfolio
 
-[Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue.js*](./projets/portfolio.md#obligatoire-pour-web-5) à venir ici d'ici le 11 octobre. Je vais aussi les publier sur le canal de notre équipe Teams.
+[Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*](./projets/portfolio.md#obligatoire-pour-web-5) à venir ici d'ici le *11 octobre*. 
 
-## Présentation du projet intégrateur
+Je vais aussi les publier sur le canal de notre équipe Teams.
+
+## Présentation *projet application web créative*
+
+ Présentation *projet application web créative* (projet intégrateur de la session):
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
   <a href="./projets/appweb-creative/index.html">Projet intégrateur: Web app créative - Infos générales</a>
 </div>
 
+### Plan de cours mis à jour avec nouvelles dates de remises pour projet final
 
-## Gestion de projet
+[Plan de cours mis à jour :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=NybgeQ){ .md-button .md-button--primary }
 
-[Gestion de projet](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/)
+
+## Gestion de projet web
+
+Un projet web est un projet dont le livrable final est destiné à Internet. Il peut s'agir d'une application web (mobile ou non) ou d'un site web. Le produit final est exécutable dans une navigateur web.
+
+Comment gérer un projet web en équipe?
+
+### Rôles dans une équipe de projet web
+
+[Rôles en projet web](./gestion-projet/roles.md)
 
 ### Cahier de charges
 
@@ -82,7 +96,7 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 ➡ L’objectif est de *comprendre la valeur pour l’utilisateur*, pas seulement la fonctionnalité technique.
 
-#### MVP (Minimum Viable Product)
+### MVP (Minimum Viable Product)
 
 [Minimum Viable Product](./gestion-projet/mvp.md)
 
@@ -91,10 +105,6 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 [Rapport de temps](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/rapport-de-temps/)
 
-
-### Rôles dans une équipe de projet web
-
-[Rôles en projet web](./gestion-projet/roles.md)
 
 ## Git
 
@@ -105,9 +115,10 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 - [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
 - [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
 
-## Projet intégrateur de la session
+## *Projet application web créative* (projet intégrateur de la session)
 
 * Création des équipes + défnir un nom d'équipe
 * Attribution des rôles
 * Présentation du cahier de charges
-* Contrat d'équipe
+* Contrat d'équipe:  Le contrat permet aux membres de chaque équipe de s’entendre sur un *but commun* et de rendre explicites les *règles* qu’elles et ils désirent voir respecter dans leur équipe.
+

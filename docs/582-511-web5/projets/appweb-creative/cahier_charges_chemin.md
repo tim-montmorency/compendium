@@ -604,7 +604,7 @@ Comment stockez-vous les chapitres et choix?
 
 ## 📅 9. Calendrier du projet: Planning prévisionnel
 
-### *PHASE 1: PLANIFICATION ET DESIGN*
+### 9.1 *PHASE 1: PLANIFICATION ET DESIGN*
 <!--Semaine 1-2 (la 2 étant la semaine de rattrapage)-->
 
 *Du 8 au 22 octobre*
@@ -617,7 +617,7 @@ Comment stockez-vous les chapitres et choix?
 - Définition de l'architecture technique
 - Setup du projet (Vite + Vue + dépendances)
 
-### *PHASE 2: FONDATION*
+### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->
 
 *Du 22 octobre au 2 novembre environ*
@@ -632,7 +632,7 @@ Comment stockez-vous les chapitres et choix?
 - Pinia stores créés
 - Premiers chapitres (texte + affichage)
 
-### *PHASE 3: INTERACTIVITÉ - Système de Choix*
+### 9.3 *PHASE 3: INTERACTIVITÉ - Système de Choix*
 <!-- Semaine 4-5-->
 
 *Environ du 2 novembre au 12 novembre* 
@@ -645,7 +645,7 @@ Comment stockez-vous les chapitres et choix?
 - Plus de chapitres écrits et intégrés
 
 
-### *PHASE 4: ANIMATIONS ET MÉDIAS*
+### 9.4 *PHASE 4: ANIMATIONS ET MÉDIAS*
 <!-- Semaine 6 -->
 
 *Du 12 au 19 novembre* 
@@ -658,14 +658,14 @@ Comment stockez-vous les chapitres et choix?
 - Animations de texte
 
 
-### *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
+### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
 
 *Sera fait en classe le 19 novembre*
 
 > Remise de l'évaluation par les pairs et auto-évaluation de mi parcours: 19 novembre | 5%
 
 
-### *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire*
+### 9.5 *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire*
 <!-- Semaine 7 -->
 
 *Du 19 au 26 novembre*
@@ -677,7 +677,7 @@ Comment stockez-vous les chapitres et choix?
 - Toutes les fins écrites et intégrées
 - Écrans de fin avec récapitulatif
 
-### *PHASE 6: AFFINAGE ET ACCESSIBLITÉ* pour la version *BETA*
+### 9.6 *PHASE 6: AFFINAGE ET ACCESSIBLITÉ* pour la version *BETA*
 
 *Du 26 novembre au 3 décembre*
 
@@ -686,7 +686,7 @@ Comment stockez-vous les chapitres et choix?
 - Responsive final
 - Accessibilité (ARIA, keyboard)
 
-### *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
+### 9.7 *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
 <!-- Semaine 8 -->
 *Du 3 au 8 décembre*
 
@@ -699,7 +699,7 @@ Comment stockez-vous les chapitres et choix?
 - Optimisation de la performance
 - Gestion des bogues
 
-### *PHASE 8:  FINALISATION*
+### 9.8 *PHASE 8:  FINALISATION*
 <!-- Semaine 8 + 2 jours-->
 
 *Du 3 au 10 décembre* (peut-être fait en parallèle avec la phase 7)
@@ -711,7 +711,7 @@ Comment stockez-vous les chapitres et choix?
 - Vidéo de présentation
 - Préparation de la démo en classe
 
-### *PHASE 9: POST-MORTEM*
+### 9.9 *PHASE 9: POST-MORTEM*
 
 *Du 10 au 12 décembre*
 

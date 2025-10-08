@@ -438,7 +438,7 @@ Listez vos composants Vue principaux:
 
 ## 📅 9. Calendrier du projet: Planning prévisionnel
 
-### *PHASE 1: PLANIFICATION ET DESIGN*
+### 9.1 *PHASE 1: PLANIFICATION ET DESIGN*
 <!--Semaine 1-2 (la 2 étant la semaine de rattrapage)-->
 
 *Du 8 au 22 octobre*
@@ -450,7 +450,7 @@ Listez vos composants Vue principaux:
 - Définition de l'architecture technique
 - Setup du projet (Vite + Vue + dépendances)
 
-### *PHASE 2: FONDATION*
+### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->
 
 *Du 22 octobre au 2 novembre environ*
@@ -466,7 +466,7 @@ Listez vos composants Vue principaux:
 - Premiers composants (Header, RoomCard, etc.)
 
 
-### *PHASE 3: INTERACTIVITÉ
+### 9.3 *PHASE 3: INTERACTIVITÉ
 <!-- Semaine 4-5-->
 
 *Environ du 2 novembre au 12 novembre* 
@@ -478,7 +478,7 @@ Listez vos composants Vue principaux:
 - Filtres et recherche
 - Validation des données
 
-### *PHASE 4: ANIMATIONS ET MÉDIAS*
+### 9.4 *PHASE 4: ANIMATIONS ET MÉDIAS*
 <!-- Semaine 6 -->
 
 *Du 12 au 19 novembre* 
@@ -491,14 +491,14 @@ Listez vos composants Vue principaux:
 - Sons d'ambiance (optionnel)
 
 
-### *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
+### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOUS*
 
 *Sera fait en classe le 19 novembre*
 
 > Remise de l'évaluation par les pairs et auto-évaluation de mi parcours: 19 novembre | 5%
 
 
-### *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES*
+### 9.5 *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES*
 <!-- Semaine 7 -->
 
 *Du 19 au 26 novembre*
@@ -510,7 +510,7 @@ Listez vos composants Vue principaux:
 - Gestion des erreurs
 - Firebase (optionnel)
 
-### *PHASE 6: AFFINAGE ET ACCESSIBLITÉ* pour la version *BETA*
+### 9.6 *PHASE 6: AFFINAGE ET ACCESSIBLITÉ* pour la version *BETA*
 
 *Du 26 novembre au 3 décembre*
 
@@ -519,7 +519,7 @@ Listez vos composants Vue principaux:
 - Responsive final
 - Accessibilité (ARIA, keyboard)
 
-### *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
+### 9.7 *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
 <!-- Semaine 8 -->
 *Du 3 au 8 décembre*
 
@@ -532,7 +532,7 @@ Listez vos composants Vue principaux:
 - Optimisation de la performance
 - Gestion des bogues
 
-### *PHASE 8:  FINALISATION*
+### 9.8 *PHASE 8:  FINALISATION*
 <!-- Semaine 8 + 2 jours-->
 
 *Du 3 au 10 décembre* (peut-être fait en parallèle avec la phase 7)
@@ -544,7 +544,11 @@ Listez vos composants Vue principaux:
 - Vidéo de présentation
 - Préparation de la démo en classe
 
+### 9.9 *PHASE 9: POST-MORTEM*
 
+*Du 10 au 12 décembre*
+
+> Remise de l'analyse réflexive et suivi de l'évaluation de mi-parcours: 12 décembre | 5%
 
 ## 🎯 10. Risques et Solutions
 
