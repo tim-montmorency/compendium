@@ -40,24 +40,37 @@ Git en équipe
   <a href="./projets/appweb-creative/index.html">Projet intégrateur: Web app créative - Infos générales</a>
 </div>
 
-### Début du projet
-
-- Création des équipes
-- Planification du projet + Design
-
 
 ## Gestion de projet
+
+[Gestion de projet](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/)
 
 ### Cahier de charges
 
 [Qu’est-ce qu’un cahier des charges ? Définition et exemples](https://www.projectmanager.com/fr/cahier-des-charges)
 
-### Kanban
 
 ### Méthode Agile
 
-- User Stories
-- Mêlée (SCRUM)
+[Méthode agile](./gestion-projet/agile.md)
+
+#### Kanban
+
+[Méthode Kanban](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/kanban/)
+
+#### Tableau de gestion de projet (Trello)
+
+[Trello](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/trello/)
+
+#### Mêlée (Scrum)
+
+[Mêlée SCRUM](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/melee-scrum/)
+
+
+#### Scrumban
+
+[Mélange de Scrum et Kanban](./gestion-projet/scrumban.md)
+
 
 #### Histoire utilisateur (*User Stories*)
 
@@ -67,36 +80,34 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 > En tant qu'*utilisateur*, je veux *[action]* afin de *[bénéfice]*.
 
-#### Mêlée (Scrum) 
+➡ L’objectif est de *comprendre la valeur pour l’utilisateur*, pas seulement la fonctionnalité technique.
 
 #### MVP (Minimum Viable Product)
 
-### Tableau de gestion de projet (Trello, GitHub Project ou autre) 
+[Minimum Viable Product](./gestion-projet/mvp.md)
+
 
 ### Suivi de temps de travail
 
-### Rôles classiques dans une équipe de projet web
+[Rapport de temps](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/rapport-de-temps/)
 
-* PO (Project Onwer)
-* Maître de la mêlée (Scrum Master)
-* Spécialiste de création de contenu (selon le type de projet), par exemple: 
-  * rédcateur
-  * illustrateur
-  * photographes
-  * vidéastres
-  * modélisateur 3d
-  * animateur 2d/3d
-  * motion designer
-* UI/UX/Product Designer
-* Responsable de l'assurance qualité (QA)
-* Développeur *front-end*
-* Développeur *bakc-end*
-* Administrateur systèmes (sysAdmin)
-* DevOp
-* Reponsable des opérations
+
+### Rôles dans une équipe de projet web
+
+[Rôles en projet web](./gestion-projet/roles.md)
+
+## Git
+
+- [Git - Introduction](https://tim-montmorency.com/timdoc/582-518MO/git/intro/)
+- [GitHub](https://tim-montmorency.com/timdoc/582-518MO/git/github/)
+- [GitHub Desktop](https://tim-montmorency.com/timdoc/582-518MO/git/github-desktop/)
+- [Collaborer avec git](https://tim-montmorency.com/timdoc/582-518MO/git/collaboration/)
+- [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
+- [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
 
 ## Projet intégrateur de la session
 
-* Création des équipes 
+* Création des équipes + défnir un nom d'équipe
 * Attribution des rôles
 * Présentation du cahier de charges
+* Contrat d'équipe

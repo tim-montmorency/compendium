@@ -6,3 +6,5 @@
 <!-- 
 Tailwind : cadriciel CSS
 -->
+
+## SCRUM d'équipe
