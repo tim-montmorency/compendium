@@ -2,19 +2,18 @@
 
 ## 📌 Informations du Projet
 
-**Nom du projet:** [Nom de votre musée]  
-**Nom de l'équipe:** [Nom de votre équipe]  
-**Membres:**
+*Nom du projet:* [Nom de votre musée]  
+*Nom de l'équipe:* [Nom de votre équipe]  
+*Membres:*
 - [Nom] - Chef de projet / [Rôle principal]
 - [Nom] - [Rôle principal]
 - [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal] *(si équipe de 4)*
+- [Nom] - [Rôle principal] (si équipe de 4)
 
-**Date de début:** [Date]  
-**Date de livraison finale:** [Date]  
-**Version du document:** 1.0
+*Date de début:* [Date]  
+*Date de livraison finale:* [Date]  
+*Version du document:* 1.0
 
----
 
 ## 🎯 1. Présentation du Projet
 
@@ -45,7 +44,7 @@ Décrivez en 2-3 paragraphes le concept de votre musée interactif:
 - [ ] Créer une interface accessible et responsive
 - [ ] [Autre objectif spécifique]
 
----
+
 
 ## 🏛️ 2. Architecture du Musée
 
@@ -86,7 +85,7 @@ Listez les tags prédéfinis et permettez les tags personnalisés:
 
 **Tags personnalisés:** Oui ☐ / Non ☐
 
----
+
 
 ## 🎨 3. Design et Identité Visuelle
 
@@ -133,7 +132,7 @@ Choisissez un ou plusieurs styles:
 - [ ] Ludique/Coloré
 - [ ] Élégant/Sobre
 
----
+
 
 ## 💻 4. Spécifications Techniques
 
@@ -239,7 +238,7 @@ Listez vos composants Vue principaux:
 }
 ```
 
----
+
 
 ## 🎬 5. Fonctionnalités et User Stories
 
@@ -344,7 +343,7 @@ Listez vos composants Vue principaux:
 
 9. [Ajoutez vos user stories]
 
----
+
 
 ## 🎨 6. Maquettes et Wireframes
 
@@ -370,7 +369,7 @@ Listez vos composants Vue principaux:
 - Survol sur les éléments interactifs
 - États des formulaires (vide, rempli, erreur, succès)
 
----
+
 
 ## 📊 7. Plan de Réalisation
 
@@ -401,7 +400,7 @@ Listez vos composants Vue principaux:
 - **Design:** [Figma]
 - **Documentation:** [Notion / Google Docs / README.md]
 
----
+
 
 ## 🚀 8. Critères de Succès
 
@@ -435,14 +434,14 @@ Listez vos composants Vue principaux:
 - [ ] Attention aux détails visuels
 - [ ] Cohérence thématique
 
----
+
 
 ## 📅 9. Calendrier du projet: Planning prévisionnel
 
 ### *PHASE 1: PLANIFICATION ET DESIGN*
 <!--Semaine 1-2 (la 2 étant la semaine de rattrapage)-->
 
-#### Du 8 au 22 octobre
+*Du 8 au 22 octobre*
 
 > Remise 22 octobre | 15%
 
@@ -522,7 +521,7 @@ Listez vos composants Vue principaux:
 
 ### *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
 <!-- Semaine 8 -->
-*Du 3 au 8 décembre* ()
+*Du 3 au 8 décembre*
 
 > Remise Phase 7 RAPPORT DU CONTRÔLE DE LA QUALITÉ : 8 décembre | 10%
 
@@ -545,7 +544,7 @@ Listez vos composants Vue principaux:
 - Vidéo de présentation
 - Préparation de la démo en classe
 
----
+
 
 ## 🎯 10. Risques et Solutions
 
@@ -558,7 +557,7 @@ Listez vos composants Vue principaux:
 | Perte de données LocalStorage | Faible | Élevé | Export JSON régulier, backups manuels |
 | Désaccord sur le design | Moyenne | Faible | Vote d'équipe, décision du chef de projet |
 
----
+
 
 ## 📝 11. Annexes
 
@@ -586,7 +585,7 @@ Listez vos composants Vue principaux:
 - **Props:** Données passées d'un composant parent à enfant
 - **Emit:** Événement émis d'un composant enfant vers parent
 
----
+
 
 ## ✅ Validation du Cahier de Charges
 
@@ -604,5 +603,5 @@ Listez vos composants Vue principaux:
 
 ---
 
-**Version du document:** 1.0  
-**Dernière mise à jour:** [Date]
+**Version du document cahier de charge:** 1.0  
+**Dernière mise à jour:** [Écrire ici la date]

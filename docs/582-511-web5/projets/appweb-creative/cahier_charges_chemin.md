@@ -2,19 +2,18 @@
 
 ## 📌 Informations du Projet
 
-**Nom du projet:** [Nom de votre histoire]  
-**Nom de l'équipe:** [Nom de votre équipe]  
-**Membres:**
+*Nom du projet:* [Nom de votre musée]  
+*Nom de l'équipe:* [Nom de votre équipe]  
+*Membres:*
 - [Nom] - Chef de projet / [Rôle principal]
 - [Nom] - [Rôle principal]
 - [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal] *(si équipe de 4)*
+- [Nom] - [Rôle principal] (si équipe de 4)
 
-**Date de début:** [Date]  
-**Date de livraison finale:** [Date]  
-**Version du document:** 1.0
+*Date de début:* [Date]  
+*Date de livraison finale:* [Date]  
+*Version du document:* 1.0
 
----
 
 ## 🎯 1. Présentation du Projet
 
@@ -30,7 +29,7 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 > "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
 
 !!! tip
-  Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (brainstorm) avec votre enseignante.
+    Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (brainstorm) avec votre enseignante.
 
 ### 1.2 Public cible
 
@@ -48,7 +47,7 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 - [ ] Créer une interface accessible et responsive
 - [ ] [Autre objectif spécifique]
 
----
+
 
 ## 📖 2. Architecture Narrative
 
@@ -126,6 +125,7 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 Comment les choix influencent l'histoire?
 
 **Mécanisme choisi:**
+
 - [ ] **Système de karma/moralité** (points bons/mauvais)
 - [ ] **Stats du personnage** (courage, intelligence, empathie)
 - [ ] **Inventaire d'objets** (collecte d'items)
@@ -149,7 +149,6 @@ playerState: {
 }
 ```
 
----
 
 ## 🎨 3. Design et Identité Visuelle
 
@@ -202,7 +201,6 @@ Choisissez un ou plusieurs styles:
 | 3 | | | |
 | ... | | | |
 
----
 
 ## 💻 4. Spécifications Techniques
 
@@ -382,7 +380,6 @@ Comment stockez-vous les chapitres et choix?
 }
 ```
 
----
 
 ## 🎬 5. Fonctionnalités et User Stories
 
@@ -502,7 +499,6 @@ Comment stockez-vous les chapitres et choix?
 
 10. [Ajoutez vos user stories]
 
----
 
 ## 📊 6. Maquettes et Wireframes
 
@@ -528,7 +524,6 @@ Comment stockez-vous les chapitres et choix?
 - Ouverture de l'inventaire/stats
 - États des boutons (hover, actif, disabled)
 
----
 
 ## 📊 7. Plan de Réalisation
 
@@ -561,7 +556,6 @@ Comment stockez-vous les chapitres et choix?
 - **Documentation:** [Notion / Google Docs / README.md]
 - **Écriture collaborative:** [Google Docs / Notion]
 
----
 
 ## 🚀 8. Critères de Succès
 
@@ -607,14 +601,13 @@ Comment stockez-vous les chapitres et choix?
 - [ ] Expérience émotionnelle impactante
 - [ ] Rejouabilité (envie de tester d'autres chemins)
 
----
 
 ## 📅 9. Calendrier du projet: Planning prévisionnel
 
 ### *PHASE 1: PLANIFICATION ET DESIGN*
 <!--Semaine 1-2 (la 2 étant la semaine de rattrapage)-->
 
-#### Du 8 au 22 octobre
+*Du 8 au 22 octobre*
 
 > Remise 22 octobre | 15%
 
@@ -695,7 +688,7 @@ Comment stockez-vous les chapitres et choix?
 
 ### *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
 <!-- Semaine 8 -->
-*Du 3 au 8 décembre* ()
+*Du 3 au 8 décembre*
 
 > Remise Phase 7 RAPPORT DU CONTRÔLE DE LA QUALITÉ : 8 décembre | 10%
 
@@ -724,7 +717,6 @@ Comment stockez-vous les chapitres et choix?
 
 > Remise de l'analyse réflexive et suivi de l'évaluation de mi-parcours: 12 décembre | 5%
 
----
 
 ## 🎯 10. Risques et Solutions
 
@@ -737,7 +729,6 @@ Comment stockez-vous les chapitres et choix?
 | Fautes d'orthographe | Élevée | Faible | Utiliser correcteur, relecture collective |
 | Sauvegardes corrompues | Faible | Élevé | Validation JSON, gestion d'erreurs, tests intensifs |
 
----
 
 ## 📝 11. Annexes
 
@@ -767,7 +758,7 @@ Comment stockez-vous les chapitres et choix?
 - **Node:** Point de décision dans l'arbre narratif
 - **Save slot:** Emplacement de sauvegarde
 
----
+
 
 ## ✅ Validation du Cahier de Charges
 
@@ -785,5 +776,5 @@ Comment stockez-vous les chapitres et choix?
 
 ---
 
-**Version du document:** 1.0  
-**Dernière mise à jour:** [Date]
+**Version du document cahier de charge:** 1.0  
+**Dernière mise à jour:** [Écrire ici la date]
