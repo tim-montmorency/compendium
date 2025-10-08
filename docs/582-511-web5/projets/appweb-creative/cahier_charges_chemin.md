@@ -25,18 +25,18 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 - Qui est le personnage principal?
 - Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
 
-**Exemple (interdit de prendre l'exemple comme histoire pour votre projet):**
+*Exemple (interdit de prendre l'exemple comme histoire pour votre projet):*
 > "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
 
 !!! tip
-    Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (brainstorm) avec votre enseignante.
+    Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (*brainstorm*) avec votre enseignante.
 
 ### 1.2 Public cible
 
-- **Âge:** [ex: 16-35 ans]
-- **Profil:** [ex: Amateurs de récits interactifs, fans de sci-fi]
-- **Niveau technique:** [ex: Utilisateurs grand public]
-- **Temps de lecture estimé:** [ex: 20-45 minutes pour une partie complète]
+- *Âge:* [ex: 16-35 ans]
+- *Profil:* [ex: Amateurs de récits interactifs, fans de sci-fi]
+- *Niveau technique:* [ex: Utilisateurs grand public]
+- *Temps de lecture estimé:* [ex: 20-45 minutes pour une partie complète]
 
 ### 1.3 Objectifs du projet
 
@@ -61,12 +61,12 @@ Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins):
 
 Dessinez ou décrivez l'arbre de décisions de votre histoire:
 
-**Structure globale:**
-- **Acte 1:** Introduction (1-2 chapitres linéaires)
-- **Acte 2:** Développement avec choix (4-6 chapitres avec branches)
-- **Acte 3:** Climax et résolution (2-3 fins différentes)
+*Structure globale:*
+- *Acte 1:* Introduction (1-2 chapitres linéaires)
+- *Acte 2:* Développement avec choix (4-6 chapitres avec branches)
+- *Acte 3:* Climax et résolution (2-3 fins différentes)
 
-**Exemple de structure:**
+*Exemple de structure:*
 ```
 Chapitre 1 (Intro) → Linéaire
     ↓
@@ -124,16 +124,16 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 Comment les choix influencent l'histoire?
 
-**Mécanisme choisi:**
+*Mécanisme choisi:*
 
-- [ ] **Système de karma/moralité** (points bons/mauvais)
-- [ ] **Stats du personnage** (courage, intelligence, empathie)
-- [ ] **Inventaire d'objets** (collecte d'items)
-- [ ] **Relations avec personnages** (affinités)
-- [ ] **Flags de choix** (choix X débloque scène Y)
-- [ ] **Combinaison de plusieurs systèmes**
+- [ ] *Système de karma/moralité* (points bons/mauvais)
+- [ ] *Stats du personnage* (courage, intelligence, empathie)
+- [ ] *Inventaire d'objets* (collecte d'items)
+- [ ] *Relations avec personnages* (affinités)
+- [ ] *Flags de choix* (choix X débloque scène Y)
+- [ ] *Combinaison de plusieurs systèmes*
 
-**Exemple de tracking:**
+*Exemple de tracking:*
 ```javascript
 playerState: {
   karma: 0,  // -10 à +10
@@ -163,13 +163,13 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 
 ### 3.2 Palette de couleurs
 
-**Couleurs par ambiance/chapitre:**
-- **Chapitres introduction:** [#XXXXXX] - Tons neutres
-- **Chapitres tension:** [#XXXXXX] - Tons sombres/dramatiques
-- **Chapitres espoir:** [#XXXXXX] - Tons clairs/lumineux
-- **Chapitres danger:** [#XXXXXX] - Rouge/orange
+*Couleurs par ambiance/chapitre:*
+- *Chapitres introduction:* [#XXXXXX] - Tons neutres
+- *Chapitres tension:* [#XXXXXX] - Tons sombres/dramatiques
+- *Chapitres espoir:* [#XXXXXX] - Tons clairs/lumineux
+- *Chapitres danger:* [#XXXXXX] - Rouge/orange
 
-**Couleurs système:**
+*Couleurs système:*
 - Primaire (actions principales): [#XXXXXX]
 - Secondaire (choix): [#XXXXXX]
 - Succès: [#10B981]
@@ -178,10 +178,10 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 
 ### 3.3 Typographie
 
-- **Titres narratifs:** [Nom de la police] - [Lien Google Fonts]
-- **Texte de narration:** [Nom de la police] - Lisible, serif ou sans-serif
-- **Dialogues:** [Nom de la police] - Différencié du texte narratif
-- **Boutons de choix:** [Nom de la police] - Bold, impactant
+- *Titres narratifs:* [Nom de la police] - [Lien Google Fonts]
+- *Texte de narration:* [Nom de la police] - Lisible, serif ou sans-serif
+- *Dialogues:* [Nom de la police] - Différencié du texte narratif
+- *Boutons de choix:* [Nom de la police] - Bold, impactant
 
 ### 3.4 Style visuel
 
@@ -206,7 +206,7 @@ Choisissez un ou plusieurs styles:
 
 ### 4.1 Stack technologique
 
-**Frontend obligatoire:**
+*Frontend obligatoire:*
 - ✅ Vue.js 3 (Composition API ☐ / Options API ☐)
 - ✅ Vite
 - ✅ Vue Router
@@ -214,7 +214,7 @@ Choisissez un ou plusieurs styles:
 - ✅ CSS
 - ✅ GSAP + ScrollTrigger (optionnel selon style)
 
-**Librairies additionnelles envisagées:**
+*Librairies additionnelles envisagées:*
 - [ ] VueUse (composables utilitaires)
 - [ ] Typed.js (effet de machine à écrire)
 - [ ] Howler.js (gestion audio avancée)
@@ -224,25 +224,25 @@ Choisissez un ou plusieurs styles:
 
 Listez vos composants Vue principaux:
 
-**Composants de layout:**
+*Composants de layout:*
 - `AppHeader.vue` - Navigation et menu
 - `SaveSlotManager.vue` - Gestion des sauvegardes
 - `ProgressBar.vue` - Barre de progression dans l'histoire
 
-**Composants de contenu:**
+*Composants de contenu:*
 - `ChapterView.vue` - Vue d'un chapitre/scène
 - `NarrativeText.vue` - Affichage du texte narratif
 - `DialogueBox.vue` - Boîte de dialogue pour personnages
 - `ChoiceButton.vue` - Bouton de choix interactif
 - `ChoicePanel.vue` - Panel contenant tous les choix
 
-**Composants système:**
+*Composants système:*
 - `InventoryDisplay.vue` - Affichage de l'inventaire
 - `StatsPanel.vue` - Affichage des stats du joueur
 - `EndingScreen.vue` - Écran de fin avec récapitulatif
 - `Modal.vue` - Fenêtre modale (sauvegarde, options)
 
-**Composants UI:**
+*Composants UI:*
 - `ButtonPrimary.vue` - Bouton principal
 - `LoadingSpinner.vue` - Indicateur de chargement
 - `AudioController.vue` - Contrôle de la musique/sons
@@ -260,34 +260,34 @@ Listez vos composants Vue principaux:
 
 ### 4.4 Gestion de l'état (Pinia)
 
-**Stores prévus:**
+*Stores prévus:*
 
-1. **`useStoryStore`**
+1. *`useStoryStore`*
    - State: `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
    - Actions: `loadChapter()`, `makeChoice()`, `goToChapter()`
    - Getters: `currentChapter`, `isChapterUnlocked()`
 
-2. **`usePlayerStore`**
+2. *`usePlayerStore`*
    - State: `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
    - Actions: `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
    - Getters: `hasItem()`, `getRelationship()`, `canAccessEnding()`
 
-3. **`useSaveStore`**
+3. *`useSaveStore`*
    - State: `saveSlots` (array de 3 slots)
    - Actions: `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
    - Getters: `hasSaves`, `latestSave`
 
-4. **`useAudioStore`** (optionnel)
+4. *`useAudioStore`* (optionnel)
    - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
    - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
 
 ### 4.5 Persistance des données
 
-**Méthode choisie:**
+*Méthode choisie:*
 - [x] LocalStorage (obligatoire pour sauvegardes)
 - [ ] Firebase Firestore (bonus optionnel pour galerie publique)
 
-**Structure de données LocalStorage:**
+*Structure de données LocalStorage:*
 
 ```json
 {
@@ -333,7 +333,7 @@ Listez vos composants Vue principaux:
 
 Comment stockez-vous les chapitres et choix?
 
-**Option A: JSON statique** (recommandé)
+*Option A: JSON statique* (recommandé)
 ```javascript
 // data/chapters.json
 {
@@ -385,117 +385,117 @@ Comment stockez-vous les chapitres et choix?
 
 ### 5.1 Fonctionnalités MVP (Minimum Viable Product)
 
-**Obligatoires pour la livraison:**
+*Obligatoires pour la livraison:*
 
-- [ ] **F1 - Lecture de l'histoire**
+- [ ] *F1 - Lecture de l'histoire*
   - Affichage du texte narratif chapitre par chapitre
   - Navigation linéaire dans l'intro
   - Transitions fluides entre chapitres
 
-- [ ] **F2 - Système de choix**
+- [ ] *F2 - Système de choix*
   - Affichage de 2-4 choix par chapitre décisionnel
   - Sélection d'un choix
   - Redirection vers le chapitre suivant approprié
   - Minimum 8 chapitres avec au moins 3 fins
 
-- [ ] **F3 - Tracking des conséquences**
+- [ ] *F3 - Tracking des conséquences*
   - État du joueur (karma/stats/flags)
   - Mise à jour après chaque choix
   - Conditions pour débloquer fins
 
-- [ ] **F4 - Système de sauvegarde**
+- [ ] *F4 - Système de sauvegarde*
   - 3 slots de sauvegarde
   - Sauvegarde manuelle
   - Chargement d'une sauvegarde
   - Affichage des infos de sauvegarde (date, progression)
 
-- [ ] **F5 - Historique des choix**
+- [ ] *F5 - Historique des choix*
   - Garder trace des décisions prises
   - Affichage dans un menu (optionnel mais recommandé)
 
-- [ ] **F6 - Écrans de fin**
+- [ ] *F6 - Écrans de fin*
   - Affichage de la fin atteinte
   - Récapitulatif des choix faits
   - Option de recommencer ou charger
 
-- [ ] **F7 - Interface responsive**
+- [ ] *F7 - Interface responsive*
   - Mobile (320px+)
   - Tablette (768px+)
   - Desktop (1024px+)
 
-- [ ] **F8 - Animations de texte**
+- [ ] *F8 - Animations de texte*
   - Apparition progressive du texte (optionnel: effet typewriter)
   - Transitions entre chapitres avec GSAP
 
-- [ ] **F9 - Accessibilité**
+- [ ] *F9 - Accessibilité*
   - Navigation au clavier
   - ARIA labels
   - Contraste WCAG AA
   - Option skip animations
 
-- [ ] **F10 - Médias intégrés**
+- [ ] *F10 - Médias intégrés*
   - Images de fond par chapitre
   - Musique d'ambiance (avec contrôle volume)
 
 ### 5.2 Fonctionnalités bonus (optionnelles)
 
-- [ ] **B1 - Auto-save**
+- [ ] *B1 - Auto-save*
   - Sauvegarde automatique à chaque chapitre
   - Indication visuelle de la sauvegarde
 
-- [ ] **B2 - Inventaire visuel**
+- [ ] *B2 - Inventaire visuel*
   - Affichage graphique des items
   - Description des objets au survol
 
-- [ ] **B3 - Stats visuelles**
+- [ ] *B3 - Stats visuelles*
   - Barres de progression pour stats
   - Graphique radar des caractéristiques
 
-- [ ] **B4 - Arbre de choix visualisé**
+- [ ] *B4 - Arbre de choix visualisé*
   - Carte interactive des chemins possibles
   - Indication des chapitres visités/non-visités
 
-- [ ] **B5 - Galerie des fins**
+- [ ] *B5 - Galerie des fins*
   - Collection de toutes les fins débloquées
   - Pourcentage de complétion
 
-- [ ] **B6 - Mode rejouabilité**
+- [ ] *B6 - Mode rejouabilité*
   - Fast-forward pour texte déjà lu
   - Skip to choice (sauter au prochain choix)
 
-- [ ] **B7 - Effets sonores contextuels**
+- [ ] *B7 - Effets sonores contextuels*
   - Sons lors de choix importants
   - Ambiances sonores par scène
 
-- [ ] **B8 - Animations avancées GSAP**
+- [ ] *B8 - Animations avancées GSAP*
   - Parallax sur les backgrounds
   - Animations de transition complexes
 
-- [ ] **B9 - Firebase (équipes avancées)**
+- [ ] *B9 - Firebase (équipes avancées)*
   - Partage de fins débloquées
   - Galerie publique d'histoires
 
 ### 5.3 User Stories
 
-**Format:** En tant que [rôle], je veux [action] afin de [bénéfice]
+*Format:* En tant que [rôle], je veux [action] afin de [bénéfice]
 
-1. **US-01:** En tant que lecteur, je veux lire une histoire interactive afin de vivre une expérience narrative immersive.
+1. *US-01:* En tant que lecteur, je veux lire une histoire interactive afin de vivre une expérience narrative immersive.
 
-2. **US-02:** En tant que joueur, je veux faire des choix qui ont des conséquences afin de sentir que mes décisions comptent.
+2. *US-02:* En tant que joueur, je veux faire des choix qui ont des conséquences afin de sentir que mes décisions comptent.
 
-3. **US-03:** En tant qu'utilisateur, je veux sauvegarder ma progression afin de reprendre plus tard sans perdre mon avancement.
+3. *US-03:* En tant qu'utilisateur, je veux sauvegarder ma progression afin de reprendre plus tard sans perdre mon avancement.
 
-4. **US-04:** En tant que lecteur, je veux voir l'impact de mes choix afin de comprendre comment ils influencent l'histoire.
+4. *US-04:* En tant que lecteur, je veux voir l'impact de mes choix afin de comprendre comment ils influencent l'histoire.
 
-5. **US-05:** En tant que joueur, je veux atteindre différentes fins afin de découvrir toutes les possibilités de l'histoire.
+5. *US-05:* En tant que joueur, je veux atteindre différentes fins afin de découvrir toutes les possibilités de l'histoire.
 
-6. **US-06:** En tant qu'utilisateur mobile, je veux lire l'histoire sur mon téléphone afin d'en profiter partout.
+6. *US-06:* En tant qu'utilisateur mobile, je veux lire l'histoire sur mon téléphone afin d'en profiter partout.
 
-7. **US-07:** En tant que lecteur, je veux consulter l'historique de mes choix afin de me rappeler mes décisions passées.
+7. *US-07:* En tant que lecteur, je veux consulter l'historique de mes choix afin de me rappeler mes décisions passées.
 
-8. **US-08:** En tant que joueur, je veux collecter des objets/débloquer des stats afin de me sentir progresser dans l'aventure.
+8. *US-08:* En tant que joueur, je veux collecter des objets/débloquer des stats afin de me sentir progresser dans l'aventure.
 
-9. **US-09:** En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
+9. *US-09:* En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
 
 10. [Ajoutez vos user stories]
 
@@ -504,7 +504,7 @@ Comment stockez-vous les chapitres et choix?
 
 ### 6.1 Lien vers les maquettes Figma
 
-**Lien:** [Insérez votre lien Figma]
+*Lien:* [Insérez votre lien Figma]
 
 ### 6.2 Écrans principaux à maquetter
 
@@ -536,11 +536,11 @@ Comment stockez-vous les chapitres et choix?
 | [Nom] | Contenu + Narration | Écriture des chapitres, création de l'arbre narratif, dialogues |
 | [Nom] | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
 
-**Note:** Tous participent au développement, mais chacun a sa spécialité.
+*Note:* Tous participent au développement, mais chacun a sa spécialité.
 
 ### 7.2 Tâches transversales
 
-**À répartir entre tous:**
+*À répartir entre tous:*
 - Tests de l'histoire (lecture complète)
 - Correction de fautes et relecture
 - Tests et debugging
@@ -549,12 +549,12 @@ Comment stockez-vous les chapitres et choix?
 
 ### 7.3 Outils de collaboration
 
-- **Git/GitHub:** [Lien du repo]
-- **Gestion de projet:** [Trello / Notion / GitHub Projects]
-- **Communication:** [Teams]
-- **Design:** [Figma]
-- **Documentation:** [Notion / Google Docs / README.md]
-- **Écriture collaborative:** [Google Docs / Notion]
+- *Git/GitHub:* [Lien du repo]
+- *Gestion de projet:* [Trello / Notion / GitHub Projects]
+- *Communication:* [Teams]
+- *Design:* [Figma]
+- *Documentation:* [Notion / Google Docs / README.md]
+- *Écriture collaborative:* [Google Docs / Notion]
 
 
 ## 🚀 8. Critères de Succès
@@ -734,47 +734,47 @@ Comment stockez-vous les chapitres et choix?
 
 ### 11.1 Ressources et références
 
-**Documentation officielle:**
+*Documentation officielle:*
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
 - GSAP: https://greensock.com/docs/
 
-**Inspiration narrative:**
+*Inspiration narrative:*
 - Bandersnatch (Black Mirror)
 - Life is Strange
 - Detroit: Become Human
 - Twine games
 
-**Tutoriels utiles:**
+*Tutoriels utiles:*
 - [Lien vers tuto 1]
 - [Lien vers tuto 2]
 
 ### 11.2 Glossaire
 
-- **Branche:** Chemin narratif distinct selon les choix
-- **Flag:** Variable booléenne qui track un événement
-- **Ending:** Fin possible de l'histoire
-- **Karma:** Système de moralité basé sur les choix
-- **Node:** Point de décision dans l'arbre narratif
-- **Save slot:** Emplacement de sauvegarde
+- *Branche:* Chemin narratif distinct selon les choix
+- *Flag:* Variable booléenne qui track un événement
+- *Ending:* Fin possible de l'histoire
+- *Karma:* Système de moralité basé sur les choix
+- *Node:* Point de décision dans l'arbre narratif
+- *Save slot:* Emplacement de sauvegarde
 
 
 
 ## ✅ Validation du Cahier de Charges
 
-**Date de validation:** [Date]
+*Date de validation:* [Date]
 
-**Signatures:**
+*Signatures:*
 - Chef de projet: _______________
 - Membre 2: _______________
 - Membre 3: _______________
 - Membre 4: _______________ (si applicable)
 
-**Validation enseignant:** _______________  
-**Date:** _______________  
-**Commentaires:**
+*Validation enseignant:* _______________  
+*Date:* _______________  
+*Commentaires:*
 
 ---
 
-**Version du document cahier de charge:** 1.0  
-**Dernière mise à jour:** [Écrire ici la date]
+*Version du document cahier de charge:* 1.0  
+*Dernière mise à jour:* [Écrire ici la date]

@@ -24,17 +24,17 @@ Décrivez en 2-3 paragraphes le concept de votre musée interactif:
 - Quel est l'objectif émotionnel/narratif?
 - Quelle expérience voulez-vous créer pour l'utilisateur?
 
-**Exemple (interdit de prendre l'exemple comme histoire pour votre projet)**
+*Exemple (interdit de prendre l'exemple comme histoire pour votre projet)*
 > "Mémoires d'Antan" est un musée interactif qui explore les souvenirs d'enfance à travers différentes décennies. Chaque salle représente une époque (années 60, 70, 80, 90) avec des objets, des sons et des histoires qui évoquent la nostalgie. L'utilisateur peut ajouter ses propres souvenirs et créer des connexions entre les générations.
 
 !!! tip
-  Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (brainstorm) avec votre enseignante.
+    Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (*brainstorm*) avec votre enseignante.
 
 ### 1.2 Public cible
 
-- **Âge:** [ex: 18-45 ans]
-- **Profil:** [ex: Personnes nostalgiques, amateurs d'histoire personnelle]
-- **Niveau technique:** [ex: Utilisateurs grand public, aucune connaissance technique requise]
+- *Âge:* [ex: 18-45 ans]
+- *Profil:* [ex: Personnes nostalgiques, amateurs d'histoire personnelle]
+- *Niveau technique:* [ex: Utilisateurs grand public, aucune connaissance technique requise]
 
 ### 1.3 Objectifs du projet
 
@@ -65,16 +65,16 @@ Listez toutes les salles de votre musée (minimum 4, idéal 6-8):
 
 Décrivez les types de mémoires que les utilisateurs peuvent créer:
 
-- **Mémoire texte:** Titre + description + date + tags
-- **Mémoire photo:** Image + légende + date + tags
-- **Mémoire audio:** [Optionnel] Enregistrement vocal + titre + date
-- **Mémoire mixte:** Combinaison texte + photo + audio
+- *Mémoire texte:* Titre + description + date + tags
+- *Mémoire photo:* Image + légende + date + tags
+- *Mémoire audio:* [Optionnel] Enregistrement vocal + titre + date
+- *Mémoire mixte:* Combinaison texte + photo + audio
 
 ### 2.3 Système de tags/catégories
 
 Listez les tags prédéfinis et permettez les tags personnalisés:
 
-**Tags prédéfinis:**
+*Tags prédéfinis:*
 - Famille
 - Amis
 - Voyage
@@ -83,7 +83,7 @@ Listez les tags prédéfinis et permettez les tags personnalisés:
 - Premier...
 - [Ajoutez vos tags]
 
-**Tags personnalisés:** Oui ☐ / Non ☐
+*Tags personnalisés:* Oui ☐ / Non ☐
 
 
 
@@ -99,17 +99,17 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 
 ### 3.2 Palette de couleurs
 
-**Couleurs principales:**
+*Couleurs principales:*
 - Primaire: [#XXXXXX] - Utilisée pour: [navigation, boutons principaux]
 - Secondaire: [#XXXXXX] - Utilisée pour: [accents, hover states]
 - Tertiaire: [#XXXXXX] - Utilisée pour: [backgrounds, cartes]
 
-**Couleurs par salle:**
+*Couleurs par salle:*
 - Salle 1: [#XXXXXX]
 - Salle 2: [#XXXXXX]
 - [etc.]
 
-**Couleurs système:**
+*Couleurs système:*
 - Succès: [#10B981]
 - Erreur: [#EF4444]
 - Warning: [#F59E0B]
@@ -117,10 +117,10 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 
 ### 3.3 Typographie
 
-- **Titres (H1-H2):** [Nom de la police] - [Lien Google Fonts]
-- **Sous-titres (H3-H4):** [Nom de la police]
-- **Corps de texte:** [Nom de la police]
-- **Poids utilisés:** Regular (400), Medium (500), Bold (700)
+- *Titres (H1-H2):* [Nom de la police] - [Lien Google Fonts]
+- *Sous-titres (H3-H4):* [Nom de la police]
+- *Corps de texte:* [Nom de la police]
+- *Poids utilisés:* Regular (400), Medium (500), Bold (700)
 
 ### 3.4 Style visuel
 
@@ -138,7 +138,7 @@ Choisissez un ou plusieurs styles:
 
 ### 4.1 Stack technologique
 
-**Frontend obligatoire:**
+*Frontend obligatoire:*
 - ✅ Vue.js 3 (Composition API ☐ / Options API ☐)
 - ✅ Vite
 - ✅ Vue Router
@@ -146,7 +146,7 @@ Choisissez un ou plusieurs styles:
 - ✅ CSS
 - ✅ GSAP + ScrollTrigger
 
-**Librairies additionnelles envisagées:**
+*Librairies additionnelles envisagées:*
 - [ ] VueUse (composables utilitaires)
 - [ ] Vuelidate (validation de formulaires)
 - [ ] Day.js (manipulation de dates)
@@ -156,18 +156,18 @@ Choisissez un ou plusieurs styles:
 
 Listez vos composants Vue principaux:
 
-**Composants de layout:**
+*Composants de layout:*
 - `AppHeader.vue` - Navigation principale
 - `AppFooter.vue` - Informations, crédits
 - `Sidebar.vue` - Menu latéral des salles
 
-**Composants de contenu:**
+*Composants de contenu:*
 - `RoomView.vue` - Vue d'une salle individuelle
 - `MemoryCard.vue` - Carte d'une mémoire
 - `MemoryList.vue` - Liste/grille de mémoires
 - `MemoryForm.vue` - Formulaire d'ajout/édition
 
-**Composants UI:**
+*Composants UI:*
 - `ButtonPrimary.vue` - Bouton principal
 - `Modal.vue` - Fenêtre modale
 - `LoadingSpinner.vue` - Indicateur de chargement
@@ -188,28 +188,28 @@ Listez vos composants Vue principaux:
 
 ### 4.4 Gestion de l'état (Pinia)
 
-**Stores prévus:**
+*Stores prévus:*
 
-1. **`useMuseumStore`**
+1. *`useMuseumStore`*
    - State: `rooms`, `currentRoomId`, `museumName`, `theme`
    - Actions: `addRoom()`, `updateRoom()`, `deleteRoom()`, `setCurrentRoom()`
 
-2. **`useMemoryStore`**
+2. *`useMemoryStore`*
    - State: `memories`, `filters`, `searchQuery`
    - Actions: `addMemory()`, `updateMemory()`, `deleteMemory()`, `searchMemories()`
    - Getters: `filteredMemories`, `memoriesByRoom`, `memoriesByTag`
 
-3. **`useAuthStore`** (optionnel)
+3. *`useAuthStore`* (optionnel)
    - State: `user`, `isAuthenticated`
    - Actions: `login()`, `logout()`, `register()`
 
 ### 4.5 Persistance des données
 
-**Méthode choisie:**
+*Méthode choisie:*
 - [x] LocalStorage (obligatoire pour MVP)
 - [ ] Firebase Firestore (bonus optionnel)
 
-**Structure de données LocalStorage:**
+*Structure de données LocalStorage:*
 ```json
 {
   "museumName": "Mon Musée",
@@ -244,102 +244,102 @@ Listez vos composants Vue principaux:
 
 ### 5.1 Fonctionnalités MVP (Minimum Viable Product)
 
-**Obligatoires pour la livraison:**
+*Obligatoires pour la livraison:*
 
-- [ ] **F1 - Navigation entre salles**
+- [ ] *F1 - Navigation entre salles*
   - L'utilisateur peut naviguer entre 4-6 salles différentes
   - Transitions animées avec GSAP
   - Menu de navigation visible
 
-- [ ] **F2 - Affichage des mémoires**
+- [ ] *F2 - Affichage des mémoires*
   - Les mémoires s'affichent sous forme de cartes
   - Grille responsive (mobile + desktop)
   - Animation au scroll (ScrollTrigger)
 
-- [ ] **F3 - Ajout de mémoire**
+- [ ] *F3 - Ajout de mémoire*
   - Formulaire avec titre, description, date, tags
   - Upload d'image (base64 ou URL)
   - Validation des champs obligatoires
 
-- [ ] **F4 - Édition de mémoire**
+- [ ] *F4 - Édition de mémoire*
   - Modifier les informations d'une mémoire existante
   - Sauvegarde instantanée
 
-- [ ] **F5 - Suppression de mémoire**
+- [ ] *F5 - Suppression de mémoire*
   - Confirmation avant suppression
   - Suppression permanente
 
-- [ ] **F6 - Filtres et recherche**
+- [ ] *F6 - Filtres et recherche*
   - Recherche par mot-clé (titre/description)
   - Filtrage par tags
   - Filtrage par salle
 
-- [ ] **F7 - Sauvegarde locale**
+- [ ] *F7 - Sauvegarde locale*
   - Auto-save dans LocalStorage après chaque action
   - Chargement automatique au démarrage
   - Export en fichier JSON
 
-- [ ] **F8 - Import de données**
+- [ ] *F8 - Import de données*
   - Importer un fichier JSON de musée
   - Validation du format
 
-- [ ] **F9 - Responsive**
+- [ ] *F9 - Responsive*
   - Mobile (320px+)
   - Tablette (768px+)
   - Desktop (1024px+)
 
-- [ ] **F10 - Accessibilité**
+- [ ] *F10 - Accessibilité*
   - Navigation au clavier
   - ARIA labels
   - Contraste WCAG AA
 
 ### 5.2 Fonctionnalités bonus (optionnelles)
 
-- [ ] **B1 - Authentification simple**
+- [ ] *B1 - Authentification simple*
   - Login avec email/password
   - Multi-utilisateurs (localStorage séparé par user)
 
-- [ ] **B2 - Sons d'ambiance**
+- [ ] *B2 - Sons d'ambiance*
   - Son différent par salle
   - Contrôle volume
   - Mute toggle
 
-- [ ] **B3 - Timeline chronologique**
+- [ ] *B3 - Timeline chronologique*
   - Vue chronologique des mémoires
   - Tri par date
 
-- [ ] **B4 - Mode sombre**
+- [ ] *B4 - Mode sombre*
   - Toggle dark/light mode
   - Sauvegarde de la préférence
 
-- [ ] **B5 - Partage social**
+- [ ] *B5 - Partage social*
   - Génération de lien de partage
   - Aperçu Open Graph
 
-- [ ] **B6 - Firebase (équipes avancées)**
+- [ ] *B6 - Firebase (équipes avancées)*
   - Synchronisation cloud
   - Galerie publique
   - Multi-device
 
 ### 5.3 User Stories
 
-**Format:** En tant que [rôle], je veux [action] afin de [bénéfice]
+*Format:* En tant que [rôle], je veux [action] afin de [bénéfice]
 
-1. **US-01:** En tant qu'utilisateur, je veux créer mon musée personnel afin de préserver mes souvenirs importants.
+1. *US-01:* En tant qu'utilisateur, je veux créer mon musée personnel afin de préserver mes souvenirs importants.
 
-2. **US-02:** En tant qu'utilisateur, je veux organiser mes mémoires en salles thématiques afin de les retrouver facilement.
+2. *US-02:* En tant qu'utilisateur, je veux organiser mes mémoires en salles thématiques afin de les retrouver facilement.
 
-3. **US-03:** En tant qu'utilisateur, je veux ajouter des photos à mes mémoires afin de les rendre plus vivantes.
+3. *US-03:* En tant qu'utilisateur, je veux ajouter des photos à mes mémoires afin de les rendre plus vivantes.
 
-4. **US-04:** En tant qu'utilisateur, je veux taguer mes mémoires afin de les catégoriser et les filtrer.
+4. *US-04:* En tant qu'utilisateur, je veux taguer mes mémoires afin de les catégoriser et les filtrer.
 
-5. **US-05:** En tant qu'utilisateur, je veux rechercher dans mes mémoires afin de retrouver un souvenir spécifique rapidement.
+5. *US-05:* En tant qu'utilisateur, je veux rechercher dans mes mémoires afin de retrouver un souvenir spécifique rapidement.
 
-6. **US-06:** En tant qu'utilisateur, je veux que mes données soient sauvegardées automatiquement afin de ne jamais perdre mes souvenirs.
+6. *US-06:* En tant qu'utilisateur, je veux que mes données soient sauvegardées automatiquement afin de ne jamais perdre mes souvenirs.
 
-7. **US-07:** En tant qu'utilisateur, je veux pouvoir exporter mon musée afin de le sauvegarder ou le partager.
+7. *US-07:* En tant qu'utilisateur, je veux pouvoir exporter mon musée afin de le sauvegarder ou le partager.
 
-8. **US-08:** En tant qu'utilisateur mobile, je veux accéder à mon musée sur mon téléphone afin de consulter mes souvenirs partout.
+8. *US-08:* En tant qu'utilisateur mobile, je veux accéder à mon musée sur mon téléphone afin de consulter mes souvenirs partout.
 
 9. [Ajoutez vos user stories]
 
@@ -349,7 +349,7 @@ Listez vos composants Vue principaux:
 
 ### 6.1 Lien vers les maquettes Figma
 
-**Lien:** [Insérez votre lien Figma]
+*Lien:* [Insérez votre lien Figma]
 
 ### 6.2 Écrans principaux à maquetter
 
@@ -382,11 +382,11 @@ Listez vos composants Vue principaux:
 | [Nom] | Données + Validation | LocalStorage/Firebase, validation formulaires, gestion erreurs |
 | [Nom] | UX + Accessibilité | Tests utilisateurs, accessibilité, responsive, contenus |
 
-**Note:** Tous participent au développement, mais chacun a sa spécialité.
+*Note:* Tous participent au développement, mais chacun a sa spécialité.
 
 ### 7.2 Tâches transversales
 
-**À répartir entre tous:**
+*À répartir entre tous:*
 - Développement des composants
 - Tests et debugging
 - Documentation du code
@@ -394,11 +394,11 @@ Listez vos composants Vue principaux:
 
 ### 7.3 Outils de collaboration
 
-- **Git/GitHub:** [Lien du repo]
-- **Gestion de projet:** [Trello / Notion / GitHub Projects]
-- **Communication:** [Teams]
-- **Design:** [Figma]
-- **Documentation:** [Notion / Google Docs / README.md]
+- *Git/GitHub:* [Lien du repo]
+- *Gestion de projet:* [Trello / Notion / GitHub Projects]
+- *Communication:* [Teams]
+- *Design:* [Figma]
+- *Documentation:* [Notion / Google Docs / README.md]
 
 
 
@@ -563,45 +563,45 @@ Listez vos composants Vue principaux:
 
 ### 11.1 Ressources et références
 
-**Documentation officielle:**
+*Documentation officielle:*
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
 - GSAP: https://greensock.com/docs/
 - SASS: https://sass-lang.com/documentation
 
-**Tutoriels utiles:**
+*Tutoriels utiles:*
 - [Lien vers tuto 1]
 - [Lien vers tuto 2]
 
-**Inspirations:**
+*Inspirations:*
 - [Site 1]
 - [Site 2]
 
 ### 11.2 Glossaire
 
-- **Composant:** Élément Vue.js réutilisable
-- **Store:** Gestion d'état centralisée avec Pinia
-- **Route:** URL de navigation dans l'application
-- **Props:** Données passées d'un composant parent à enfant
-- **Emit:** Événement émis d'un composant enfant vers parent
+- *Composant:* Élément Vue.js réutilisable
+- *Store:* Gestion d'état centralisée avec Pinia
+- *Route:* URL de navigation dans l'application
+- *Props:* Données passées d'un composant parent à enfant
+- *Emit:* Événement émis d'un composant enfant vers parent
 
 
 
 ## ✅ Validation du Cahier de Charges
 
-**Date de validation:** [Date]
+*Date de validation:* [Date]
 
-**Signatures:**
+*Signatures:*
 - Chef de projet: _______________
 - Membre 2: _______________
 - Membre 3: _______________
 - Membre 4: _______________ (si applicable)
 
-**Validation enseignant:** _______________  
-**Date:** _______________  
-**Commentaires:**
+*Validation enseignant:* _______________  
+*Date:* _______________  
+*Commentaires:*
 
 ---
 
-**Version du document cahier de charge:** 1.0  
-**Dernière mise à jour:** [Écrire ici la date]
+*Version du document cahier de charge:* 1.0  
+*Dernière mise à jour:* [Écrire ici la date]
