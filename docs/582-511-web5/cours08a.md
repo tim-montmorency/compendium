@@ -127,6 +127,17 @@ TUTEUR MOMO-BOT
 
 ### Contrat d'équipe
 
+Le contrat permet aux membres de chaque équipe de s’entendre sur un *but commun* et de rendre explicites les *règles* qu’elles et ils désirent voir respecter dans leur équipe.
+
 [](./projets/appweb-creative/contrat-equipe.md)
 
-## Node, NPM et Vite
+## Git
+
+- [Git - Introduction](https://tim-montmorency.com/timdoc/582-518MO/git/intro/)
+- [GitHub](https://tim-montmorency.com/timdoc/582-518MO/git/github/)
+- [GitHub Desktop](https://tim-montmorency.com/timdoc/582-518MO/git/github-desktop/)
+- [Collaborer avec git](https://tim-montmorency.com/timdoc/582-518MO/git/collaboration/)
+- [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
+- [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
+
+## Node, NPM et Vites

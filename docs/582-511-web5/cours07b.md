@@ -120,21 +120,11 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 [Rapport de temps](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/rapport-de-temps/)
 
 
-## Git
-
-- [Git - Introduction](https://tim-montmorency.com/timdoc/582-518MO/git/intro/)
-- [GitHub](https://tim-montmorency.com/timdoc/582-518MO/git/github/)
-- [GitHub Desktop](https://tim-montmorency.com/timdoc/582-518MO/git/github-desktop/)
-- [Collaborer avec git](https://tim-montmorency.com/timdoc/582-518MO/git/collaboration/)
-- [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
-- [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
-
 ## *Projet application web créative* (projet intégrateur de la session)
 
-* Création des équipes + défnir un nom d'équipe
+* Création des équipes + définir un nom d'équipe
 * Attribution des rôles
 * Présentation du cahier de charges
-* Contrat d'équipe:  Le contrat permet aux membres de chaque équipe de s’entendre sur un *but commun* et de rendre explicites les *règles* qu’elles et ils désirent voir respecter dans leur équipe.
 
 
 ## Devoirs
