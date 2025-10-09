@@ -7,8 +7,8 @@
 * Remise des travaux.
    * Grilles d’évaluation.
    * Nomenclature.
-* Absence à une évaluation.
-* Absence à un cours en studio.
+* Absence à une évaluation, zéro en cas d'absence. 
+* Absence à un cours en studio. 
 * Retard et départ avant la fin du cours.
 * Utilisation du téléphone cellulaire.
 * Résolution des conflits.
