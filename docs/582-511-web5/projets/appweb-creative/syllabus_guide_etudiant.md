@@ -7,7 +7,6 @@
 *Travail d'équipe:* 3 personnes (groupe 2 (mercredi am): une équipe de 4)
 *Heures estimées:* ~90-110 heures par équipe
 
-
 ## Description du Projet
 
 Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pinia et CSS. Ce projet vous permettra de démontrer toutes les compétences acquises durant le cours dans un contexte créatif et professionnel.

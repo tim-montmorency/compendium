@@ -44,6 +44,22 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
   <a href="./projets/appweb-creative/syllabus_guide_etudiant.html">Projet intégrateur: Web app créative - Infos générales</a>
 </div>
 
+### Quoi faire et remettre d'ici le 22 octobre
+
+- [ ] Brainstorm d'équipe (je vous conseille d'utiliser Figjam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
+  - [ ] Choix entre :
+    - [ ] Option A: Mémoires interactives
+    - [ ] Option B: Trace ton chemin
+  - [ ] Trouver thématique plus précise pour votre projet
+  - [ ] Déterminer un *nom de projet* et un *nom d'équipe*
+
+- [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
+
+- [ ] Rédaction du cahier de charge (en partant de la version fournie par l'enseignante (le document sera disponible ici, d'ici la fin de la journée du 9 octobre)).
+
+- [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
+
+
 ### Plan de cours mis à jour avec nouvelles dates de remises pour projet final
 
 [Plan de cours mis à jour :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=NybgeQ){ .md-button .md-button--primary }
