@@ -242,7 +242,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 
 *Fonctionnel:*
 
-- *Option A:* 4-6 salles, CRUD complet, filtres/recherche
+- *Option A:* 4-6 salles, CRUD complet (CRUD: Create, Read, Update, Delete), filtres/recherche
 - *Option B:* 8+ chapitres, 3+ fins, système de choix fonctionnel
 
 

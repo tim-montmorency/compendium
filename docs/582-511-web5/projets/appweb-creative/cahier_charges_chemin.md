@@ -20,7 +20,13 @@
 
 ### 1.1 Concept général
 
+!!! tip "Phase de création"
+    (Ce paragraphe "Conseil" devra être retiré du Cahier de charge final)
+    Pour développer votre concept général, vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels et groupés. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (*brainstorm*) avec votre enseignante. Si c'est virtuel, partagez le lien. Si c'est papier ou sur tableau blanc, veuillez partager une ou des photographie(s) de votre processus.
+
+
 Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
+
 - Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.)
 - Quelle est l'histoire principale?
 - Qui est le personnage principal?
@@ -29,8 +35,6 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 *Exemple (interdit de prendre l'exemple comme histoire pour votre projet):*
 > "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
 
-!!! tip
-    Vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (*brainstorm*) avec votre enseignante.
 
 ### 1.2 Public cible
 
@@ -69,6 +73,7 @@ Dessinez ou décrivez l'arbre de décisions de votre histoire:
 - *Acte 3:* Climax et résolution (2-3 fins différentes)
 
 *Exemple de structure:*
+
 ```
 Chapitre 1 (Intro) → Linéaire
     ↓
@@ -79,20 +84,22 @@ Branche A            Branche B
 Chapitre 3A          Chapitre 3B
     ↓                    ↓
 Choix majeur         Choix majeur
-    ↓                    ↓
-Fins 1-2             Fins 3-4
+    ↓       ↓           ↓       ↓
+Fin 1    Fin 2        Fin 3    Fin 4
 ```
 
 ### 2.3 Liste des chapitres/scènes
 
-Minimum 8 chapitres/scènes. Listez-les avec leurs informations:
+Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
+
+<small>(les noms des chapitres énoncés ici ne sont que des exemples)</small>
 
 | # | Nom du chapitre | Type | Description courte | Choix proposés | Conséquences |
 |---|----------------|------|-------------------|----------------|--------------|
-| 1 | [Ex: Le Réveil] | Linéaire | Introduction du personnage et du contexte | Aucun (intro) | N/A |
-| 2 | [Ex: La Découverte] | Choix | Découverte de la machine temporelle | 2 choix: "Activer" ou "Rapporter" | Branche A ou B |
-| 3A | [Ex: Premier Voyage] | Choix | Voyage dans le passé | 3 choix d'époque | Impact sur suite |
-| 3B | [Ex: L'Enquête] | Linéaire | Investigation scientifique | Aucun | Progression histoire |
+| 1 | [Le Réveil] | Linéaire | Introduction du personnage et du contexte | Aucun (intro) | N/A |
+| 2 | [La Découverte] | Choix | Découverte de la machine temporelle | 2 choix: "Activer" ou "Rapporter" | Branche A ou B |
+| 3A | [Premier Voyage] | Choix | Voyage dans le passé | 3 choix d'époque | Impact sur suite |
+| 3B | [L' Enquête] | Linéaire | Investigation scientifique | Aucun | Progression histoire |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
@@ -103,11 +110,13 @@ Minimum 8 chapitres/scènes. Listez-les avec leurs informations:
 
 Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
+<small>(les noms des fins énoncées ici ne sont que des exemples)</small>
+
 | # | Nom de la fin | Condition pour l'atteindre | Type (bonne/mauvaise/neutre) |
 |---|--------------|---------------------------|------------------------------|
-| 1 | [Ex: Fin Héroïque] | Avoir fait 3+ choix altruistes | Bonne |
-| 2 | [Ex: Fin Sombre] | Avoir fait 3+ choix égoïstes | Mauvaise |
-| 3 | [Ex: Fin Paradoxale] | Avoir créé un paradoxe temporel | Neutre/Spéciale |
+| 1 | [Fin Héroïque] | Avoir fait 3+ choix altruistes | Bonne |
+| 2 | [Fin Sombre] | Avoir fait 3+ choix égoïstes | Mauvaise |
+| 3 | [Fin Paradoxale] | Avoir créé un paradoxe temporel | Neutre/Spéciale |
 | 4 | | | |
 | 5 | | | |
 | 6 | | | |
@@ -157,6 +166,7 @@ playerState: {
 ### 3.1 Moodboard
 
 Insérez ici 3-5 images d'inspiration (ou liens):
+
 - [Image 1: Ambiance générale]
 - [Image 2: Style visuel des personnages]
 - [Image 3: Palette de couleurs]
@@ -190,6 +200,7 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 ### 3.4 Style visuel
 
 Choisissez un ou plusieurs styles:
+
 - [ ] Cinématique (film noir, thriller)
 - [ ] Illustratif (dessins, concept art)
 - [ ] Minimaliste (focus sur le texte)
@@ -224,7 +235,7 @@ Choisissez un ou plusieurs styles:
 - [ ] VueUse (composables utilitaires)
 - [ ] Typed.js (effet de machine à écrire)
 - [ ] Howler.js (gestion audio avancée)
-- [ ] [Autre:]
+- [ ] [Autre]
 
 ### 4.2 Architecture des composants
 
