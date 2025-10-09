@@ -138,3 +138,33 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 * Présentation du cahier de charges
 * Contrat d'équipe:  Le contrat permet aux membres de chaque équipe de s’entendre sur un *but commun* et de rendre explicites les *règles* qu’elles et ils désirent voir respecter dans leur équipe.
 
+
+## Devoirs
+
+### Projet *portfolio*
+
+- Continuer d'intégrerr votre portfolio
+- Ajouter les animations GSAP
+- S'assurer que c'est *responsive*
+
+D'ici le *11 octobre* vous recevrez plus d'info pour:
+
+- Créer votre composante Vue
+- La gestion des données de vos projets via un JSON
+
+Donc vous pourrez avancer aussi cette partie, puisqu'on ne se revoir pas avant le 20 octobre et votre remise finale du portfolio est le 29 octobre.
+
+### Projet *appli web créative*: Quoi faire et remettre d'ici le 22 octobre
+
+- [ ] Brainstorm d'équipe (je vous conseille d'utiliser Figjam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
+  - [ ] Choix entre :
+    - [ ] Option A: Mémoires interactives
+    - [ ] Option B: Trace ton chemin
+  - [ ] Trouver thématique plus précise pour votre projet
+  - [ ] Déterminer un *nom de projet* et un *nom d'équipe*
+
+- [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
+
+- [ ] Rédaction du cahier de charge (en partant de la version fournie par l'enseignante (le document sera disponible ici, d'ici la fin de la journée du 9 octobre)).
+
+- [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
