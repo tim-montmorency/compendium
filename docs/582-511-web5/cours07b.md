@@ -37,8 +37,6 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
 
 ## Présentation *projet application web créative*
 
- Présentation *projet application web créative* (projet intégrateur de la session):
-
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
   <a href="./projets/appweb-creative/syllabus_guide_etudiant.html">Projet intégrateur: Web app créative - Infos générales</a>
@@ -112,7 +110,7 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 ➡ L’objectif est de *comprendre la valeur pour l’utilisateur*, pas seulement la fonctionnalité technique.
 
-### MVP (Minimum Viable Product)
+#### MVP (Minimum Viable Product)
 
 [Minimum Viable Product](./gestion-projet/mvp.md)
 
