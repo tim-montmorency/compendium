@@ -1,13 +1,13 @@
-# Guide Étudiant: Projet intégrateur
+# Présentation du projet: app web créative
 
-## Vue d'Ensemble
+## Vue d'ensemble
 
 *Durée:* 8 semaines  
 *Pondération:* 50% de la note finale du cours  
 *Travail d'équipe:* 3 personnes
 *Heures estimées:* ~90-110 heures par équipe
 
-## Description du Projet
+## Description du projet
 
 Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pinia et CSS. Ce projet vous permettra de démontrer toutes les compétences acquises durant le cours dans un contexte créatif et professionnel.
 
@@ -82,7 +82,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 
 
-## 📅 Calendrier Général
+## 📅 Calendrier général
 
 | Semaine | Phase | Livrables principaux |
 |---------|-------|---------------------|

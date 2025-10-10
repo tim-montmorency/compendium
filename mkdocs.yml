@@ -241,8 +241,8 @@ nav:
         - Placement area: 582-511-web5/css/grid/grid-area.md
         - Nommer espaces areas: 582-511-web5/css/grid/grid-template-areas.md
       - Vue-js:
-        - 582-511-web5/vue/index.md 
-        - Introduction: 582-511-web5/vue/index.md
+        - 582-511-web5/vue/index.md
+        - Intro Vue: 582-511-web5/vue/index.md
         - Création d'une app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthode et événem. v-on: 582-511-web5/vue/methodes-evenements.md
@@ -253,10 +253,10 @@ nav:
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
         - Composante: 582-511-web5/vue/composante.md
       - Fetch API:
-        - 582-511-web5/cours06a.html#fetch-api
-        - Fetch API: 582-511-web5/cours06a.html#fetch-api
-        - Promesse JS: 582-511-web5/cours06a.html#promesses-javascript
-        - Gestion données reçues: 582-511-web5/cours06a.html#gestions-des-donnees-recues
+        - 582-511-web5/cours06a.md
+        - Fetch API: 582-511-web5/cours06a.md#fetch-api
+        - Promesse JS: 582-511-web5/cours06a.md#promesses-javascript
+        - Gestion données reçues: 582-511-web5/cours06a.md#gestions-des-donnees-recues
       - Projet portfolio:
         - 582-511-web5/projets/portfolio.md
         - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
