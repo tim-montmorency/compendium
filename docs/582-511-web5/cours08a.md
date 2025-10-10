@@ -121,6 +121,19 @@ TUTEUR MOMO-BOT
 
 ## Projet application web créative
 
+### Inspirations d'interface utilisateur (UI)
+
+Allez vous inspirer, notemment sur [Awwwards](https://www.awwwards.com/)
+
+[Liste de références et inpsirations web](./projets/appweb-creative/references-et-inpspirations.md){ .md-button }
+
+Carousel circulaire 3d de cartes
+- https://www.youtube.com/watch?v=yqaLSlPOUxM
+- https://gsap.com/community/forums/topic/43001-3d-carousel-with-more-items/
+- https://www.youtube.com/watch?v=lxGwReGtKqs
+
+
+
 ### SCRUM d'équipe
 
 10 minutes pour votre SCRUM.
