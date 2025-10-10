@@ -57,7 +57,7 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
 
 ### Quoi faire et remettre d'ici le 22 octobre
 
-- [ ] Brainstorm d'équipe (je vous conseille d'utiliser Figjam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
+- [ ] Brainstorm d'équipe (je vous conseille d'utiliser FigJam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
   - [ ] Choix entre :
     - [ ] Option A: Mémoires interactives
     - [ ] Option B: Trace ton chemin
@@ -159,7 +159,7 @@ Donc vous pourrez avancer aussi cette partie, puisqu'on ne se revoir pas avant l
 
 ### Projet *appli web créative*: Quoi faire et remettre d'ici le 22 octobre
 
-- [ ] Brainstorm d'équipe (je vous conseille d'utiliser Figjam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
+- [ ] Brainstorm d'équipe (je vous conseille d'utiliser FigJam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
   - [ ] Choix entre :
     - [ ] Option A: Mémoires interactives
     - [ ] Option B: Trace ton chemin

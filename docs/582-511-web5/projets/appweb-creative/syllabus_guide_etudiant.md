@@ -86,7 +86,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 | Semaine | Phase | Livrables principaux |
 |---------|-------|---------------------|
-| *1-2* | *Planification* | Brainstorm (Figjam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello), Design (Figma), arbre narratif (pour Option B) |
+| *1-2* | *Planification* | Brainstorm (FigJam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello), Design (Figma), arbre narratif (pour Option B) |
 | *3* | *Foundation* | Architecture Vue, premiers composants, routing |
 | *4* | *Interactivité* | CRUD/Système de choix, Pinia configuré |
 | *5* | *Animations et médias* | GSAP, transitions, médias (images, sons) |
@@ -412,7 +412,7 @@ Chaque semaine, une revue rapide avec l'enseignant pour:
 |------|-----------|
 | *8 octobre* | Lancement du projet, formation des équipes |
 | *Du 8 au 22 octobre* | PHASE 1: PLANIFICATION ET DESIGN |
-| *22 octobre* | *REMISE: Brainstorm (Figjam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello) et Design (Figma)*: 15% |
+| *22 octobre* | *REMISE: Brainstorm (FigJam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello) et Design (Figma)*: 15% |
 | *Du 22 octobre au 2 novembre environ* | PHASE 2: FONDATION |
 | *Environ du 2 novembre au 12 novembre* | PHASE 3: INTERACTIVITÉ |
 | *14 novembre* | *REMISE Phases 2 Fondation et 3 Interactivité*: 15% |
