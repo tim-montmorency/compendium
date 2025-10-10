@@ -88,7 +88,7 @@ Un atlas interactif où les utilisateurs partagent leurs expériences de voyage 
 
 ### Concept:
 
-Une collection collaborative de chansons préférées où chaque utilisateur partage sa chanson et son histoire personnelle avec elle.
+Une collection collaborative de chansons préférées où chaque utilisateur partage sa chanson et son histoire personnelle avec elle ou encore son interprétation (le sens qu'elle lui donne).
 
 ### Structure des "salles":
 
@@ -404,15 +404,15 @@ Une collection collaborative de films, séries, documentaires où les utilisateu
 ## 🎮"Arcade virtuelle" - Portfolio de jeux collaboratif
 
 ### Concept:
-Une arcade virtuelle où les joueurs partagent leurs jeux favoris, speedruns, achievements, et créent une communauté gaming.
+Une arcade virtuelle où les joueurs partagent leurs jeux favoris, speedruns, succès (achievements) et créent une communauté de jeux vidéo.
 
 ### Structure des "salles":
 
-- **Arcade 1:** Rétro Gaming (NES, SNES, Arcade)
-- **Arcade 2:** PlayStation & Xbox
-- **Arcade 3:** Jeux PC & Indépendants
-- **Arcade 4:** Mobile Gaming
-- **Arcade 5:** Esports & Compétitif
+- **Arcade 1:** Jeux et consoles rétro (NES, SNES, Arcade)
+- **Arcade 2:** Consoles Nintendo, PlayStation & Xbox
+- **Arcade 3:** Jeux PC & indépendants
+- **Arcade 4:** Jeux sur mobile
+- **Arcade 5:** E-Sports & compétitions
 
 ... imaginez la suite
 
@@ -475,11 +475,11 @@ Un hub collaboratif où les utilisateurs partagent leurs routines, recettes sain
 
 ### Structure des "salles":
 
-- **Studio 1:** Recettes Saines (smoothies, bowls, snacks)
-- **Studio 2:** Routines Morning & Evening
-- **Studio 3:** Fitness & Exercices
-- **Studio 4:** Méditation & Relaxation
-- **Studio 5:** Mental Health & Auto-développement
+- **Studio 1:** Recettes saines
+- **Studio 2:** Routines de matin et de soir
+- **Studio 3:** Sport & exercices
+- **Studio 4:** Méditation & relaxation
+- **Studio 5:** Prendre soin de sa santé mentale
 
 
 ... imaginez la suite
