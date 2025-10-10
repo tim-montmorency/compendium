@@ -242,7 +242,7 @@ nav:
         - Nommer espaces areas: 582-511-web5/css/grid/grid-template-areas.md
       - Vue-js:
         - 582-511-web5/vue/index.md
-        - Intro Vue: 582-511-web5/vue/index.md
+        - Intro et installation: 582-511-web5/vue/intro-install.md
         - Création d'une app: 582-511-web5/vue/creation-app.md
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthode et événem. v-on: 582-511-web5/vue/methodes-evenements.md
@@ -253,17 +253,17 @@ nav:
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
         - Composante: 582-511-web5/vue/composante.md
       - Fetch API:
-        - 582-511-web5/cours06a.md
-        - Fetch API: 582-511-web5/cours06a.md#fetch-api
-        - Promesse JS: 582-511-web5/cours06a.md#promesses-javascript
-        - Gestion données reçues: 582-511-web5/cours06a.md#gestions-des-donnees-recues
+        - 582-511-web5/fetch.md
+        - Fetch API: 582-511-web5/fetch.html#fetch-api
+        - Promesse JS: 582-511-web5/fetch.html#promesses-javascript
+        - Gestion données reçues: 582-511-web5/fetch.html#gestions-des-donnees-recues
       - Projet portfolio:
         - 582-511-web5/projets/portfolio.md
         - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
         - Remise 2 Design: 582-511-web5/projets/portfolio-remise2.md
         - Remise 3 Intégration: 582-511-web5/projets/portfolio-remise3.md
       - Projet app créative:
-        - 582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.md
+        - 582-511-web5/projets/appweb-creative/index.md
         - Intro: 582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.md
         - Cahier de charges A: 582-511-web5/projets/appweb-creative/cahier_charges_memoires.md
         - Cahier de charges B: 582-511-web5/projets/appweb-creative/cahier_charges_chemin.md
