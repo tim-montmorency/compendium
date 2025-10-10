@@ -1,4 +1,4 @@
-# Cahier de Charges - Trace ton chemin
+# Cahier de Charges: Trace ton chemin
 
 ## 📌 Informations du Projet
 

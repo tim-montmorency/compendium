@@ -1,4 +1,4 @@
-# Variantes Créatives - Projet Mémoires Interactives
+# Variantes créatives: Mémoires interactives
 
 ## 🎯 Concept Général
 

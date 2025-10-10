@@ -1,4 +1,4 @@
-# Cahier de Charges - Mémoires Interactives
+# Cahier de Charges: Mémoires interactives
 
 ## 📌 Informations du Projet
 

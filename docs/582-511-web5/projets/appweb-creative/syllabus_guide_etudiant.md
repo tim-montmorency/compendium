@@ -1,4 +1,4 @@
-# Guide Étudiant - Projet Intégrateur Web5
+# Guide Étudiant: Projet intégrateur
 
 ## Vue d'Ensemble
 
