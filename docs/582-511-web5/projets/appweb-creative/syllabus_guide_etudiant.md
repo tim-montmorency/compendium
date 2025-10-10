@@ -21,6 +21,8 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 *Concept:* Un musée numérique personnel (ou collaboratif) où l'utilisateur crée et organise ses souvenirs en salles thématiques.
 
+[Autres variantes pour cette option A que le "musée" à proprement parler](./variantes_memoires.md){ md-button }
+
 ### Ce que vous allez construire:
 
 - 🏛️ 6-8 salles thématiques navigables

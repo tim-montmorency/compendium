@@ -18,6 +18,8 @@
 
 ## 🎯 1. Présentation du Projet
 
+[Autres variantes pour cette option A que le "musée" à proprement parler](./variantes_memoires.md){ md-button }
+
 ### 1.1 Concept général
 
 !!! tip "Phase de création"
