@@ -589,6 +589,8 @@ Listez vos composants Vue principaux:
 
 *Documentation officielle:*
 
+- Contenu du cours Web 5 https://tim-montmorency.com/compendium/582-511-web5/
+- Guide étudiant du projet appli web créative: https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.html
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
 - GSAP: https://greensock.com/docs/
