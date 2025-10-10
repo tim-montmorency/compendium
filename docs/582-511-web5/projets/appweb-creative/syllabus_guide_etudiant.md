@@ -4,7 +4,7 @@
 
 *Durée:* 8 semaines  
 *Pondération:* 50% de la note finale du cours  
-*Travail d'équipe:* 3 personnes (groupe 2 (mercredi am): une équipe de 4)
+*Travail d'équipe:* 3 personnes
 *Heures estimées:* ~90-110 heures par équipe
 
 ## Description du Projet
