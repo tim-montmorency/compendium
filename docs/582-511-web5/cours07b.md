@@ -42,6 +42,19 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
   <a href="./projets/appweb-creative/syllabus_guide_etudiant.html">Projet intégrateur: Web app créative - Infos générales</a>
 </div>
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/cahier_memoires_chemin.html">Cahier de charge (départ) - Option A - Mémoires interactives</a>
+</div>
+
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/cahier_charges_chemin.html">Cahier de charge (départ) - Option b - Trace ton chemin</a>
+</div>
+
+
+
 ### Quoi faire et remettre d'ici le 22 octobre
 
 - [ ] Brainstorm d'équipe (je vous conseille d'utiliser Figjam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
