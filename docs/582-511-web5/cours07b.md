@@ -66,6 +66,8 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
 
 - [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
 
+- [ ] Création de votre répertoire git. Nommer *webapp-creative-prenom1-prenom2-prenom3.*
+
 - [ ] Rédaction du cahier de charge ([Fichiers de départ pour cahier de charge](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/02-appweb-creative/cahiers-de-charge-fichiers-depart?csf=1&web=1&e=FLBNRx))
 
 - [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
@@ -165,6 +167,8 @@ Donc vous pourrez avancer aussi cette partie, puisqu'on ne se revoir pas avant l
   - [ ] Déterminer un *nom de projet* et un *nom d'équipe*
 
 - [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
+
+- [ ] Création de votre répertoire git. Nommer *webapp-creative-prenom1-prenom2-prenom3.*
 
 - [ ] Rédaction du cahier de charge ([Fichiers de départ pour cahier de charge](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/02-appweb-creative/cahiers-de-charge-fichiers-depart?csf=1&web=1&e=FLBNRx))
 
