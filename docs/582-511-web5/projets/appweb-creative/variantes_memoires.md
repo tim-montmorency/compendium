@@ -84,7 +84,7 @@ Un atlas interactif où les utilisateurs partagent leurs expériences de voyage 
 
 -->
 
-## 🎵 Variante 2: "Jukebox Collaboratif" - Musique et Anecdotes
+## 🎵 Variante 2: "Jukebox collaboratif"
 
 ### Concept:
 
@@ -142,7 +142,7 @@ Une collection collaborative de chansons préférées où chaque utilisateur par
 
 -->
 
-## 🍕 Variante 3: "Recettes du Monde" - Cookbook Collaboratif
+## 🍕 Variante 3: "Recettes du monde" - Livre de recettes collaboratif
 
 ### Concept:
 
@@ -211,7 +211,7 @@ Une collection de recettes partagées par les utilisateurs, organisées par rég
 
 -->
 
-## 🎓 Variante 4: "Galerie d'Inspirations" - Mood Board Collaboratif
+## 🎓 Variante 4: "Galerie d'inspirations" - Moodboard collaboratif
 
 ### Concept:
 Une collection collaborative d'inspirations artistiques, designs, et créations où les utilisateurs partagent leurs découvertes visuelles.
@@ -272,7 +272,7 @@ Une collection collaborative d'inspirations artistiques, designs, et créations 
 
 -->
 
-## 📚 Variante 5: "Bibliothèque Virtuelle" - Livre Club Collaboratif
+## 📚 Variante 5: "Bibliothèque virtuelle" - Club de lecture collaboratif
 
 ### Concept:
 
@@ -339,7 +339,7 @@ Une bibliothèque partagée où les utilisateurs recommandent des livres, partag
 ... imaginez la suite
 
 
-## 🎬 Variante 6: "Cinémathèque Partagée" - Film Database Collaboratif
+## 🎬 Variante 6: "Cinémathèque partagée"
 
 ### Concept:
 
@@ -401,7 +401,7 @@ Une collection collaborative de films, séries, documentaires où les utilisateu
 
 -->
 
-## 🎮 Variante 7: "Arcade Virtuelle" - Gaming Portfolio Collaboratif
+## 🎮 Variante 7: "Arcade virtuelle" - Portfolio de jeux collaboratif
 
 ### Concept:
 Une arcade virtuelle où les joueurs partagent leurs jeux favoris, speedruns, achievements, et créent une communauté gaming.
@@ -468,7 +468,7 @@ Une arcade virtuelle où les joueurs partagent leurs jeux favoris, speedruns, ac
 
 
 
-## 🏥 Variante 8: "Recettes de Bien-Être" - Wellness & Health Hub
+## 🏥 Variante 8: "Recettes de bien-être"
 
 ### Concept:
 Un hub collaboratif où les utilisateurs partagent leurs routines, recettes saines, conseils bien-être et expériences.
@@ -537,7 +537,7 @@ Un hub collaboratif où les utilisateurs partagent leurs routines, recettes sain
 
 
 
-## 🎨 Variante 9: "Galerie d'Art Communautaire" - Digital Art Showcase
+## 🎨 Variante 9: "Galerie d'art communautaire"
 
 ### Concept:
 Une galerie numérique où les artistes partagent leurs créations digitales, processus créatif, et techniques.
@@ -601,7 +601,7 @@ Une galerie numérique où les artistes partagent leurs créations digitales, pr
 
 -->
 
-## 🌱 Variante 10: "Jardin Virtuel" - Plant & Garden Community
+## 🌱 Variante 10: "Jardin virtuel"
 
 ### Concept:
 Une communauté virtuelle de jardiniers où les utilisateurs partagent leurs plantes, trucs & astuces de jardinage, et insprations de jardins.
