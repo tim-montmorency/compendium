@@ -44,13 +44,13 @@ Je vais aussi les publier sur le canal de notre équipe Teams.
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/cahier_charges_memoires.html">Cahier de charge (départ) - Option A - *Mémoires interactives*</a>
+  <a href="./projets/appweb-creative/cahier_charges_memoires.html">Cahier de charge - Option A - *Mémoires interactives*</a>
 </div>
 
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/cahier_charges_chemin.html">Cahier de charge (départ) - Option B - *Trace ton chemin*</a>
+  <a href="./projets/appweb-creative/cahier_charges_chemin.html">Cahier de charge - Option B - *Trace ton chemin*</a>
 </div>
 
 
