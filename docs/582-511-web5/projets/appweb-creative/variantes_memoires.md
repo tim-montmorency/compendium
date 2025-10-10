@@ -16,9 +16,10 @@ Le projet de base fonctionne selon ce modèle:
 ## 🌍 Variante 1: "Voyage du Monde" - Atlas Collaboratif
 
 ### Concept:
+
 Un atlas interactif où les utilisateurs partagent leurs expériences de voyage dans différents pays/villes.
 
-### Structure des "salles":
+### Exemple de structure des "salles":
 
 - **Zone 1:** Europe (Paris, Rome, Barcelona, Berlin, etc.)
 - **Zone 2:** Asie (Tokyo, Bangkok, Bali, Singapour, etc.)
@@ -26,7 +27,11 @@ Un atlas interactif où les utilisateurs partagent leurs expériences de voyage 
 - **Zone 4:** Afrique et Moyen-Orient
 - **Zone 5:** Océanie
 
-### Contenu partageable:
+
+
+### Exemple de contenu partageable:
+
+
 
 ```json
 {
@@ -41,6 +46,8 @@ Un atlas interactif où les utilisateurs partagent leurs expériences de voyage 
   "tips": "Visiter tôt le matin pour éviter les foules"
 }
 ```
+
+<!-- 
 
 ### Fonctionnalités spéciales:
 
@@ -75,7 +82,7 @@ Un atlas interactif où les utilisateurs partagent leurs expériences de voyage 
 └─────────────────────────────┘
 ```
 
-
+-->
 
 ## 🎵 Variante 2: "Jukebox Collaboratif" - Musique et Anecdotes
 
@@ -91,7 +98,7 @@ Une collection collaborative de chansons préférées où chaque utilisateur par
 - **Salle 4:** Genres (Rockk, Pop, Hip-Hop, Jazz, Classical)
 - **Salle 5:** Moments de vie (amour, amitié, tristesse, célébration)
 
-### Contenu partageable:
+### Exemple de contenu partageable:
 
 ```json
 {
@@ -109,6 +116,7 @@ Une collection collaborative de chansons préférées où chaque utilisateur par
 }
 ```
 
+<!--
 ### Fonctionnalités spéciales:
 
 - 🎵 Player audio intégré (embeddable Spotify/YouTube)
@@ -132,6 +140,7 @@ Une collection collaborative de chansons préférées où chaque utilisateur par
 - ✅ Thème unificateur fort (la musique)
 
 
+-->
 
 ## 🍕 Variante 3: "Recettes du Monde" - Cookbook Collaboratif
 
@@ -146,6 +155,11 @@ Une collection de recettes partagées par les utilisateurs, organisées par rég
 - **Cuisine 3:** Asiatique (Sushi, Curry, Pad Thai)
 - **Cuisine 4:** Méditerranéenne & Moyen-Orient
 - **Cuisine 5:** Desserts & Gourmandises
+
+
+... imaginez la suite
+
+<!--
 
 ### Contenu partageable:
 
@@ -195,7 +209,7 @@ Une collection de recettes partagées par les utilisateurs, organisées par rég
 - ✅ Beaucoup de contenu visuel (photos appétissantes)
 - ✅ Structure claire et organisée
 
-
+-->
 
 ## 🎓 Variante 4: "Galerie d'Inspirations" - Mood Board Collaboratif
 
@@ -209,6 +223,10 @@ Une collection collaborative d'inspirations artistiques, designs, et créations 
 - **Galerie 3:** Illustration & Art Numérique
 - **Galerie 4:** Architecture & Intérieur
 - **Galerie 5:** Mode & Style Personnel
+
+... imaginez la suite
+
+<!--
 
 ### Contenu partageable:
 
@@ -252,7 +270,7 @@ Une collection collaborative d'inspirations artistiques, designs, et créations 
 - ✅ Encourage la créativité
 - ✅ Facile d'ajouter des images
 
-
+-->
 
 ## 📚 Variante 5: "Bibliothèque Virtuelle" - Livre Club Collaboratif
 
@@ -267,6 +285,10 @@ Une bibliothèque partagée où les utilisateurs recommandent des livres, partag
 - **Salle 3:** Développement Personnel & Business
 - **Salle 4:** Jeunesse & Contes
 - **Salle 5:** Poésie & Essais
+
+... imaginez la suite
+
+<!--
 
 ### Contenu partageable:
 
@@ -312,6 +334,9 @@ Une bibliothèque partagée où les utilisateurs recommandent des livres, partag
 - ✅ Système de recommandation intéressant
 - ✅ Thème littéraire élégant
 
+-->
+
+... imaginez la suite
 
 
 ## 🎬 Variante 6: "Cinémathèque Partagée" - Film Database Collaboratif
@@ -327,6 +352,8 @@ Une collection collaborative de films, séries, documentaires où les utilisateu
 - **Théâtre 3:** Séries TV & Documentaires
 - **Théâtre 4:** Films d'Animation
 - **Théâtre 5:** Films de Festivals & Indépendants
+
+<!--
 
 ### Contenu partageable:
 
@@ -372,7 +399,7 @@ Une collection collaborative de films, séries, documentaires où les utilisateu
 - ✅ Système d'embeddings YouTube intéressant
 - ✅ Thème cinématique élégant
 
-
+-->
 
 ## 🎮 Variante 7: "Arcade Virtuelle" - Gaming Portfolio Collaboratif
 
@@ -386,6 +413,11 @@ Une arcade virtuelle où les joueurs partagent leurs jeux favoris, speedruns, ac
 - **Arcade 3:** Jeux PC & Indépendants
 - **Arcade 4:** Mobile Gaming
 - **Arcade 5:** Esports & Compétitif
+
+... imaginez la suite
+
+
+<!--
 
 ### Contenu partageable:
 
@@ -432,6 +464,8 @@ Une arcade virtuelle où les joueurs partagent leurs jeux favoris, speedruns, ac
 - ✅ Possibilité d'intégrer des clips vidéo
 - ✅ Thème gaming sympa
 
+-->
+
 
 
 ## 🏥 Variante 8: "Recettes de Bien-Être" - Wellness & Health Hub
@@ -446,6 +480,12 @@ Un hub collaboratif où les utilisateurs partagent leurs routines, recettes sain
 - **Studio 3:** Fitness & Exercices
 - **Studio 4:** Méditation & Relaxation
 - **Studio 5:** Mental Health & Auto-développement
+
+
+... imaginez la suite
+
+
+<!--
 
 ### Contenu partageable:
 
@@ -493,6 +533,8 @@ Un hub collaboratif où les utilisateurs partagent leurs routines, recettes sain
 - ✅ Facile de remplir avec contenu perso
 - ✅ Design calme et apaisant
 
+-->
+
 
 
 ## 🎨 Variante 9: "Galerie d'Art Communautaire" - Digital Art Showcase
@@ -507,6 +549,12 @@ Une galerie numérique où les artistes partagent leurs créations digitales, pr
 - **Galerie 3:** Animation & Motion Graphics
 - **Galerie 4:** Character Design
 - **Galerie 5:** Game Art & Concept Art
+
+
+... imaginez la suite
+
+
+<!--
 
 ### Contenu partageable:
 
@@ -551,7 +599,7 @@ Une galerie numérique où les artistes partagent leurs créations digitales, pr
 - ✅ Encourage la communauté artistique
 - ✅ Educational (processus créatif visible)
 
-
+-->
 
 ## 🌱 Variante 10: "Jardin Virtuel" - Plant & Garden Community
 
@@ -565,6 +613,11 @@ Une communauté virtuelle de jardiniers où les utilisateurs partagent leurs pla
 - **Section 3:** Terrariums & Bonsai
 - **Section 4:** Plantes Rares & Exotiques
 - **Section 5:** Astuce Jardinage & DIY
+
+
+... imaginez la suite
+
+<!--
 
 ### Contenu partageable:
 
@@ -715,3 +768,5 @@ Choisissez une palette de couleurs appropriée au thème:
 **Bonus:** Les équipes qui choisissent la même variante vont créer des projets très différents grâce à leur créativité personnelle!
 
 **Choisissez celle qui vous fait rêver! 🚀**
+
+-->
