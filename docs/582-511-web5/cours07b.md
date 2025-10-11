@@ -150,12 +150,12 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 - Ajouter les animations GSAP
 - S'assurer que c'est *responsive*
 
-D'ici le *11 octobre* vous recevrez plus d'info pour:
+#### Instructions pour
 
 - Créer votre composante Vue
 - La gestion des données de vos projets via un JSON
 
-Donc vous pourrez avancer aussi cette partie, puisqu'on ne se revoir pas avant le 20 octobre et votre remise finale du portfolio est le 29 octobre.
+[Voici les instructions](./projets/instructions-fecth-vue.md){ .md-button }
 
 ### Projet *appli web créative*: Quoi faire et remettre d'ici le 22 octobre
 
