@@ -1,10 +1,15 @@
 # Instructions
 
-## Création de l'app Vue
+- [ ] 1- Création de l'app Vue.js
+- [ ] 2- Création du fichier .json contenant les données de votre projet
+- [ ] 3- Fetch des données du fichier
+- [ ] 4- Création des données, méthodes, instructions Vue pour votre widget prévu
+
+## 1- Création de l'app Vue
 
 Vous savez comment faire. Créez vous un app et montez la sur une balise du DOM.
 
-## Création du .json des données de vos projets
+## 2- Création du .json des données de vos projets
 
 Créez-vous un fichier *projects.json*.
 Le format des données de votre fichier ressemblera à:
@@ -28,7 +33,12 @@ Le format des données de votre fichier ressemblera à:
 ]
 ```
 
-### Fetch des données de projet
+IMPORTANT: Veuillez vous référez aux instructions du portfolio de votre cours *Préparation au milieu du travail* pour les [données obligatoires pour présenter chaque projet](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html#contenu-obligatoire-de-votre-portfolio)
+
+
+## 3 Fetch
+
+### 3.1- Fetch des données de projet
 
 D'abord, il convient de vous présenter `mounted()`.  C'est un *hook* de cycle de vie dans Vue.js qui est exécuté après que le composant a été monté dans le DOM.  C'est dans cette fonction que vous allez faire le `fetch` de vos données de projet qui se trouverons dans un fichier `.json`. `mounted()` se place au même niveau que `data()`, `methods`, ou `computed`.
 
@@ -55,14 +65,14 @@ const appli = Vue.createApp({
 const vm = appli.mount('.appli-vue');
 ```
 
-### Donnée projects [] (relié au fetch)
+### 3.2 Donnée projects [] (relié au fetch)
 
 - [ ] Dans `data()`, initialisez une propriété `project: []`.
 - [ ] Ensuite, dans `mounted()`, faites votre `fetch` pour charger les données de votre fichier .json.
 - [ ] Lorsque les données sont chargée et convertie en format json, attribuez la valeur de ce que vous avec chargée à la propriété `projects`. Bref, `projects` contiendra un tableau lisant tous vos projets. 
 - [ ] Vous pourrez donc utiliser cette données pour afficher les projets dans le HTML via un `v-for`.
 
-## Composante Vue.js
+## 4- Composante Vue.js
 
 Étant donné qu'on n'a pas eu beaucoup de temps en classe pour les composante Vue, pour votre portfolio, vous allez simplement créer tout ce que vous avez besoin pour votre choix de widget Vue directement dans l'app Vue (`data()`, `methods`, `computed`).
 
