@@ -70,8 +70,8 @@ const vm = appli.mount('.appli-vue');
 
 - [ ] Dans `data()`, initialisez une propriété `project: []`.
 - [ ] Ensuite, dans `mounted()`, faites votre `fetch` pour charger les données de votre fichier .json.
-- [ ] Lorsque les données sont chargée et convertie en format json, attribuez la valeur de ce que vous avec chargée à la propriété `projects`. Bref, `projects` contiendra un tableau lisant tous vos projets. 
-- [ ] Vous pourrez donc utiliser cette données pour afficher les projets dans le HTML via un `v-for`.
+- [ ] Lorsque les données sont chargées et converties en format json, storez ce que vous venez de charger dans `projects`. Bref, `projects` contiendra un tableau lisant tous vos projets.
+- [ ] Vous pourrez donc utiliser cette donnée `projects` pour afficher les projets dans le HTML via un `v-for`.
 
 ## 4- Composante Vue.js
 
