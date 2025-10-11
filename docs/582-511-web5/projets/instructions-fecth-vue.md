@@ -21,14 +21,18 @@ Le format des données : ce doit être un tableau [] qui contient des objets {} 
     "id": 1,
     "title": "Titre du projet 1",
     "category": "3d",
-    "img": "./chemin/vers/votre/img.jpg",
+    "images": ["./chemin/vers/votre/img.jpg"]
     ...
   },
   {
     "id": 2,
     "title": "Titre du projet 2",
     "category": "video",
-    "img": "./chemin/vers/votre/img2.jpg",
+    "images": [
+        "./chemin/vers/votre/img2-1.jpg",
+        "./chemin/vers/votre/img2-2.jpg",
+        "./chemin/vers/votre/img2-3.jpg"
+        ]
     ...
   }
 ]
