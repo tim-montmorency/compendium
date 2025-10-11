@@ -7,12 +7,13 @@
 
 ## 1- Création de l'app Vue
 
-Vous savez comment faire. Créez vous un app et montez la sur une balise du DOM.
+Vous savez comment faire. Créez une app Vue et montez la sur une balise du DOM.
 
 ## 2- Création du .json des données de vos projets
 
-Créez-vous un fichier *projects.json*.
-Le format des données de votre fichier ressemblera à:
+Créez un fichier *projects.json* dans le dossier de votre portfolio.
+
+Le format des données : ce doit être un tableau [] qui contient des objets {} avec plusieurs propriétés pour chaque projet. Votre fichier ressemblera à:
 
 ```
 [
@@ -33,7 +34,7 @@ Le format des données de votre fichier ressemblera à:
 ]
 ```
 
-IMPORTANT: Veuillez vous référez aux instructions du portfolio de votre cours *Préparation au milieu du travail* pour les [données obligatoires pour présenter chaque projet](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html#contenu-obligatoire-de-votre-portfolio)
+IMPORTANT: Veuillez vous référer aux instructions du portfolio de votre cours *Préparation au milieu du travail* pour les [données obligatoires pour présenter chaque projet](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/stages/portfolio.html#contenu-obligatoire-de-votre-portfolio)
 
 
 ## 3 Fetch
