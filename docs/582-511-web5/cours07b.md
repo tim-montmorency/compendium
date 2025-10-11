@@ -31,9 +31,9 @@ Git en équipe
 
 ## Projet portfolio
 
-[Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*](./projets/portfolio.md#obligatoire-pour-web-5) à venir ici d'ici le *11 octobre*. 
+Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*.
 
-Je vais aussi les publier sur le canal de notre équipe Teams.
+[Voici les instructions](./projets/instructions-fecth-vue.md){ .md-button }
 
 ## Présentation *projet application web créative*
 

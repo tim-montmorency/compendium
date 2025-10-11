@@ -66,7 +66,7 @@ const appli = Vue.createApp({
 const vm = appli.mount('.appli-vue');
 ```
 
-### 3.2 Donnée projects [] (relié au fetch)
+### 3.2 Donnée projects [ ]
 
 - [ ] Dans `data()`, initialisez une propriété `project: []`.
 - [ ] Ensuite, dans `mounted()`, faites votre `fetch` pour charger les données de votre fichier .json.
@@ -77,7 +77,7 @@ const vm = appli.mount('.appli-vue');
 
 Étant donné qu'on n'a pas eu beaucoup de temps en classe pour les composante Vue, pour votre portfolio, vous allez simplement créer tout ce que vous avez besoin pour votre choix de widget Vue directement dans l'app Vue (`data()`, `methods`, `computed`).
 
-Pour vous le rappeler, voici la [liste des composantes Vue](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio-remise1.html#exemples-de-composantes-vuejs) qui vous avait été offerte en début de projet. Vous aviez faire un choix et rédigé votre choix dans votre READM.md dans votre git. Si vous ne vous en rappelez plus, veuillez vous y référer. Il est possible de changer d'idée si vous le souhaitez, je vous le permets.
+Pour vous le rappeler, voici la [liste des composantes Vue](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio-remise1.html#exemples-de-composantes-vuejs) qui vous avait été offerte en début de projet. Vous aviez faire un choix et rédigé votre choix dans votre *README.md* dans votre git. Si vous ne vous en rappelez plus, veuillez vous y référer. Il est possible de changer d'idée si vous le souhaitez, je vous le permets.
 
 Vous devez donc réfléchir par vous même à savoir qu'est-ce qui doit être fait du côté Vue.js pour arriver à faire votre widget prévu. Je vous laisse libre d'y penser et d'essayer par vous même. Si jamais vous n'y arrivez pas, écrivez moi sur Teams, je vais voir comment je peux vous accompagner à ce niveau, n'hésitez pas. 
 
