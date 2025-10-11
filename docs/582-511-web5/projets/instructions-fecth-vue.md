@@ -1,4 +1,4 @@
-# Instructions
+# Instructions portfolio vue et fetch
 
 - [ ] 1- Création de l'app Vue.js
 - [ ] 2- Création du fichier .json contenant les données de votre projet
