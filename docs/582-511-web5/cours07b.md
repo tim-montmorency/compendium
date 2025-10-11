@@ -35,6 +35,7 @@ Instructions spécifiques aux données *json* du fichier `projects.json` et cell
 
 [Voici les instructions](./projets/instructions-fecth-vue.md){ .md-button }
 
+
 ## *Projet application web créative*
 
 <div class="class-content-link">
