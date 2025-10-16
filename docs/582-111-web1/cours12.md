@@ -1,4 +1,4 @@
-# Cours 12
+# Cours 12 | Examen
 
 [STOP]
 

@@ -1,4 +1,4 @@
-# Cours 9 | Anime.js 2/3
+# Cours 9 | Anime.js la suite
 
 [STOP]
 

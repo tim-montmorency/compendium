@@ -1,28 +1,62 @@
-# Cours 8 | Anime.js 1/3
+# Cours 8 | Classes et Anime.js
 
 [STOP]
 
-Anime.js : to(), fromTo(), propriétés CSS animables, callbacks 
+## Retour sur l'examen
 
-<!-- [Retour sur l'examen : Codepen](https://codepen.io/tim-momo/pen/BaXZLqK) -->
 
-<!-- ## Retour sur la partie Bootstrap de l'examen
 
-* [`col-sm-4`](./cours03.md#systeme-de-grille-grid-system)
-* [`order-last`](./cours03.md#ordre-css)
-* [`d-none`](./cours04.md#display)
-* [`d-sm-block`](./cours04.md#display) -->
+## Introduction aux classes JavaScript
 
-<!-- ## Retour sur la partie JavaScript de l'examen
+![](./assets/images/clone.gif){.w-100}
 
-Les étapes à suivre pour compléter l'exercice :
+Une classe en JavaScript, c’est un concept qui permet de structurer le code et de réutiliser la même logique plusieurs fois.
 
-1. On ajoute des variables qui nous servent à compter.
-1. On fait juste un fruit pour commencer
-1. On ajoute une fonction pour les tâches répétitives (incrémentation du total et validation du clique de chaque fruit)
-1. Finalement, on copie/colle l'eventListener pour chaque fruit. -->
+### Pourquoi on utiliserait ça ?
 
-# Programmation Orientée Objet (POO) en JavaScript (ES6)
+Imaginez que vous voulez programmer une page Web dans laquelle des poissons nagent indépendamment.
+
+Vous pourriez commencer par écrire le code d’un premier poisson… puis copier-coller ce code pour en avoir un deuxième, un troisième, et ainsi de suite. Rapidement, ça devient lourd à maintenir.
+
+C’est là que les classes sont utiles :
+
+- On définit une seule fois une classe Poisson.
+- Chaque nouveau poisson créé dans la page utilisera le même code.
+- Peu importe si vous ajoutez 3 poissons ou 1 000 000, ils partageront tous la même logique.
+
+### Comment ça fonctionne ?
+
+```js
+class Poisson {
+  constructor(nom, couleur) {
+    this.nom = nom;
+    this.couleur = couleur;
+  }
+
+  coucou() {
+    console.log(`${this.nom} (${this.couleur}) nage joyeusement.`);
+  }
+}
+
+// On crée plusieurs poissons à partir de la même classe
+const poisson1 = new Poisson("Nemo", "orange");
+const poisson2 = new Poisson("Dory", "bleu");
+const poisson3 = new Poisson("Sharky", "gris");
+
+// Ils utilisent tous le même code défini dans la classe
+poisson1.coucou(); // Résultat : Nemo (orange) nage joyeusement
+poisson2.coucou(); // Résultat : Dory (bleu) nage joyeusement
+poisson3.coucou(); // Résultat : Sharky (gris) nage joyeusement
+```
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/1001poissons/preview.gif)
+
+  <small>Exercice - JavaScript</small><br>
+  **[1001 poissons](./exercices/1001poissons/index.md){.stretched-link .back}**
+</div>
+
+## Programmation Orientée Objet (POO) en JavaScript (ES6)
 
 ## 1. Le constructeur
 
@@ -221,3 +255,15 @@ personneB.age;
 * La partie `new Personne(...);` sert à **instancier** la classe. Les variables `personneA` et `personneB` sont des `instances` de `Personne`. Disons que ce sont carrément des personnes !
   * On peut créer autant de `Personne` qu'on le désire.
   * On peut appeler les méthodes et les variables d'une instance en utilisant le point `.` Ex: `personneB.presentations();`.
+
+## Anime.js
+
+![](./assets/images/animejs.jpg)
+
+### Installation
+
+```node
+npm install animejs
+```
+
+to(), fromTo(), propriétés CSS animables, callbacks

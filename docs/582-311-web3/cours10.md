@@ -1,4 +1,4 @@
-# Cours 10 | Anime.js 3/3
+# Cours 10 | Anime.js la finale
 
 [STOP]
 

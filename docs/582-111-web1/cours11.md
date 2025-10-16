@@ -2,11 +2,23 @@
 
 [STOP]
 
-CSS avancé et bonnes pratiques
+<!-- CSS avancé et bonnes pratiques
 Effets visuels
 Méthodologie BEM
 Outils de débogage
-Révision CSS
+Révision CSS 
+
+
+	•	Organisation des fichiers/règles (sections, commentaires, ordre logique, shorthands vs longhands).
+	•	Nommage sobre (inspiration BEM très légère : bloc__élément–état, sans méthodo avancée).
+	•	Réduction de la spécificité, éviter !important.
+	•	États visuels non animés (ex. styles de hover/active uniquement via couleurs/bordures/ombrages).
+	•	Ombres & séparateurs : box-shadow basique; outline pour debug visuel (sans outils d’inspection).
+	•	Révision globale : consolidation des compétences des 3 cours précédents.
+
+
+	Préparation à l'examen
+-->
 
 *[BEM]: Block Element Modifier
 

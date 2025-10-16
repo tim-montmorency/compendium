@@ -2,11 +2,19 @@
 
 [STOP]
 
-Disposition et positionnement
+<!-- Disposition et positionnement
 box-sizing
 Positionnement
 Dégradés
-Float
+Float 
+
+	•	Dimensions :  min/max-* (en px), auto. 
+		-> Alignement vertical
+	•	Débordement : overflow (valeurs de base).
+	•	Positionnement : position: static/relative/absolute (bases + z-index simple).
+	•	Float & clear : mise en colonne rudimentaire, texte entourant une image.
+	•	Techniques de “clearfix” simples (ex. overflow: auto; sur le conteneur), sans entrer dans les détails de BFC.
+-->
 
 ## Rappel du modèle de boîte
 
@@ -22,6 +30,17 @@ element {
 ```
 
 Problème : largeur totale imprévisible si on n’utilise pas box-sizing.
+
+
+## Vertical-align
+
+![icon (25)](https://github.com/user-attachments/assets/ba8cd02d-4d5b-45a0-9466-afc8e6cd7727)
+
+
+[baseline, top, middle, bottom, super, sub](./css/vertical-align.md)
+<br>
+<br>
+
 
 ## box-sizing : contrôle total de la boîte
 
@@ -101,7 +120,28 @@ Utilisations :
 	•	Superpositions (overlay)
 	•	Boutons animés
 
+## Exercices
+
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/schrodinger/cat.avif)
+
+  <small>Exercice - CSS</small><br>
+  **[Schrödinger](./exercices/schrodinger/index.md){.stretched-link .back}**
+</div>
+
 [STOP]
+
+
+
+## Position
+
+![icon (26)](https://github.com/user-attachments/assets/b4dba7ff-b07e-4be4-b7e8-b13bb2d5725e)
+
+
+[static, relative, absolute, fixed, sticky](./css/position.md)
+<br>
+<br>
 
 ## Linear-gradient
 
