@@ -418,11 +418,12 @@ La propriété [width](https://developer.mozilla.org/fr/docs/Web/CSS/width) perm
 
 La propriété [height](https://developer.mozilla.org/fr/docs/Web/CSS/height) définit la hauteur de la boîte de contenu d'un élément. 
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS Flow B" src="https://codepen.io/tim-momo/embed/ogbobaQ?default-tab=css%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ogbobaQ">
-  Web 1 - CSS Flow B</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+```css title="Exemple"
+div {
+  width: 100px;
+  height: 100px;
+}
+```
 
 ## Modèle des boîtes CSS
 
