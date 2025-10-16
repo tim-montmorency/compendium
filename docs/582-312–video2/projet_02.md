@@ -1,5 +1,5 @@
 
-# Projet 2 : Installation Immersive Multi-écrans avec Intelligence Artificielle
+# Projet 2 : Installation Immersive Multi-écrans
 
   
 ![](assets/image/installation_01.png)
@@ -14,7 +14,6 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 
 - **Trois écrans sur le cyclorama :**
   - Tournez des séquences vidéos qui seront projetées sur les trois écrans.
-  - **Intégration des vidéos IA :** Vous devez intégrer **trois vidéos générées par IA** dans les écrans, en les combinant avec vos séquences filmées pour créer un récit fluide.
 
 - **Télévision au sol :**
   - Utilisez la télévision pour afficher des vidéos complémentaires à ce qui est montré sur les trois écrans, comme des gros plans, des perspectives alternatives ou des informations supplémentaires.
@@ -27,8 +26,6 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
   - Vous devez filmer au moins **20 séquences vidéo originales** pour alimenter les écrans et la télévision.
   - **Synchronisation avec le son :** Quelques-unes de vos séquences doivent être **synchronisées avec des éléments sonores** spécifiques.
 
-- **Intégration des vidéos générées par IA :**
-  - Utilisez des outils d'intelligence artificielle pour **générer trois vidéos** qui doivent être intégrées de manière créative dans votre projet. Ces vidéos peuvent être abstraites, génératives ou servir à enrichir votre récit visuel.
 
 ---
 
@@ -59,13 +56,10 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 1. **Cohérence visuelle et sonore :**  
    Les trois écrans, la télévision, le son et les lumières doivent fonctionner ensemble pour **raconter une histoire cohérente** et immersive.
 
-2. **Intégration des vidéos IA :**  
-   Les **trois vidéos générées par l’IA** doivent être **parfaitement intégrées** dans le récit visuel, en complément de vos propres séquences.
-
-3. **Synchronisation audio-vidéo :**  
+2. **Synchronisation audio-vidéo :**  
    Vous devez montrer une **synchronisation précise** entre les vidéos et le son pour créer des moments narratifs forts.
 
-4. **Interaction des lumières :**  
+3. **Interaction des lumières :**  
    Les lumières doivent **réagir en fonction des vidéos et du son**, ajoutant une couche d'immersion à votre projet.
 
 ---
@@ -73,7 +67,6 @@ Raconter une histoire immersive en utilisant trois écrans, une télévision au 
 ### Résumé des attentes :
 
 - Tourner des vidéos originales.
-- Intégrer **trois vidéos créées par l’IA**.
 - Créer une bande sonore synchronisée avec certaines séquences vidéo.
 - Utiliser les lumières interactives pour renforcer l’expérience.
 - Raconter une histoire cohérente qui exploite ces médiums.
