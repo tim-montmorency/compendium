@@ -390,7 +390,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (mutation.type === "childList") {
         setTimeout(() => {
           runFunctions();
-        }, 50);
+        }, 250);
         break;
       }
     }

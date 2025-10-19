@@ -2,14 +2,37 @@
 
 [STOP]
 
-Typographie
+PRÉVOIR UNE ÉVALUATION FORMATIVE
+
+<!-- Typographie
 Couleurs
 Alignements / décorations
 Unités
 États interactifs
-Dimensions et bordures
+Dimensions et bordures 
 
-PRÉVOIR UNE ÉVALUATION FORMATIVE
+	•	font-family (piles système + familles génériques), font-size (en px uniquement), font-style, font-weight.
+	•	line-height (valeur sans unité), letter-spacing, word-spacing.
+	•	text-align, text-indent, text-transform, text-decoration.
+	•	Listes : list-style-type, list-style-position.
+	•	États simples des liens : :link, :visited, :hover, :active (sans transitions).
+
+
+Sélecteur avancé : + ~ >
+
+
+
+
+![icon (23)](https://github.com/user-attachments/assets/6f455992-36e5-4236-a2ac-62267f349a5a)
+[color, image, gradient](./css/background.md)
+
+![icon (34)](https://github.com/user-attachments/assets/33391f82-c560-4ff9-b4ed-5eef66a32820)
+[hex, rgb, hsl, etc.](./css/unitees-de-couleur.md)
+
+
+-->
+
+
 
 ## Propriétés typographiques
 
@@ -185,6 +208,12 @@ div {
 
 [STOP]
 
+
+
+
+
+
+
 ## Unités de mesure
 
 ![icon (27)](https://github.com/user-attachments/assets/b31cd86a-995e-4437-8694-d82f492b3c92)
@@ -227,15 +256,10 @@ div {
 ![icon (30)](https://github.com/user-attachments/assets/976018f5-1ab2-4d61-9d60-79c7091bdb69)
 
 [min-width/height, max-width/height](./css/width-height.md)
-<br>
-<br>
+
+Attention aux images pour ne pas les déformer
 
 
-## Width/Height - System32
-
-![thumb (10)](https://github.com/user-attachments/assets/06fb578e-a59c-45c1-a4a1-5e91ffd42e60)
-
-[Pour cet exercice, vous devez créer en HTML et CSS une page présentant une bande dessinée d’Andrew AKA system32comics.](./exercices/system-32.md)
 <br>
 <br>
 
@@ -249,23 +273,47 @@ div {
 <br>
 <br>
 
+<br>
 
-## Border
 
-![icon (31)](https://github.com/user-attachments/assets/5adb8634-9acd-4c88-b0c1-758d3e5ed2f2)
+## Métadonnées
 
-[border, border-radius](./css/border.md)
+![icon (33)](https://github.com/user-attachments/assets/63ac5eab-ccbf-4d97-acea-9dc46c0df041)
+
+[type, title, description, image, url, etc.](./html/metadonnees.md)
 <br>
 <br>
 
 
-## Border-radius - Q-bitz
 
-![thumb (12)](https://github.com/user-attachments/assets/af6e97b3-f370-42ec-9764-7c27dd59ff65)
-
-[Pour cet exercice vous devez recréer un motif à partir de tuiles contenant des formes, comme dans le célèbre jeu de scociété Q-bitz.](./exercices/q-bitz.md)
 <br>
 <br>
+
+
+
+
+
+![thumb (6)](https://github.com/user-attachments/assets/428b4319-7c08-489b-a76a-59241c648248)
+[Pour cet exercice, vous devrez recréer des mises en page inspirées du jeux Candy Crush en mettant à profit vos connaissances sur la propriété CSS background.](./exercices/candy-crush.md)
+
+![thumb (7)](https://github.com/user-attachments/assets/633c1ddd-b569-49fa-8281-3c697115e191)
+[Pour cet exercice, vous devrez complétez la carte de présentation de Madeline, l’héroine du jeu Celeste.](./exercices/celeste.md)
+
+
+
+## Width/Height - System32
+
+![thumb (10)](https://github.com/user-attachments/assets/06fb578e-a59c-45c1-a4a1-5e91ffd42e60)
+
+[Pour cet exercice, vous devez créer en HTML et CSS une page présentant une bande dessinée d’Andrew AKA system32comics.](./exercices/system-32.md)
+<br>
+<br>
+
+
+
+
+
+
 
 
 ## Box-model
@@ -292,24 +340,3 @@ div {
 
 [Pour cet exercice, vous devez mettre en valeur des toiles de l’artiste peintre québécois Marc Séguin en ajoutant uniquement du CSS.](./exercices/marc-seguin.md)
 <br>
-<br>
-
-
-## Métadonnées
-
-![icon (33)](https://github.com/user-attachments/assets/63ac5eab-ccbf-4d97-acea-9dc46c0df041)
-
-[type, title, description, image, url, etc.](./html/metadonnees.md)
-<br>
-<br>
-
-
-## Unités de couleur
-
-![icon (34)](https://github.com/user-attachments/assets/33391f82-c560-4ff9-b4ed-5eef66a32820)
-
-[hex, rgb, hsl, etc.](./css/unitees-de-couleur.md)
-<br>
-<br>
-
-
