@@ -1,6 +1,13 @@
 # Cours 7
 
 
+## Démo 
+
+Selon vous, qu’est-ce qu’un bon démo ? 
+Quels projets pourriez-vous y inclure ?
+
+
+
 ## Explication du [projet 2](projet_02.md)
 
 * [Moodboard 1](https://www.youtube.com/watch?v=p03cRSbIQFU) 
