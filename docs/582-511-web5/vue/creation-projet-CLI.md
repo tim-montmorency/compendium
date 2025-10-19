@@ -29,7 +29,7 @@
     ↵
     ```
 
-Si on vous demande de mettre à jour Vue, appuyez sur ++y++ <code>y</code> pour **yes**.
+Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
 
 ***
 
@@ -41,7 +41,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ <code>y</code> pour 
     ↵
     ```
 
-- [ ] Par la suite, on vous demandera une série de questions. Faites ++n++ <code>n</code> pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
+- [ ] Par la suite, on vous demandera une série de questions. Faites ++n++  pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
 
 ***
 
