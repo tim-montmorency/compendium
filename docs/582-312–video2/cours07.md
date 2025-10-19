@@ -1,10 +1,11 @@
 # Cours 7
 
+## Artistes inspirants
+https://vimeo.com/alexacy
+https://www.vincentrenelortie.com/
+
 
 ## Démo 
-
-https://vimeo.com/alexacy
-
 * Selon vous, qu’est-ce qu’un bon démo ? 
 * Quels projets pourriez-vous y inclure ?
 * Quels sont les projets pour lesquels vous pourriez obtenir des bourses ?
