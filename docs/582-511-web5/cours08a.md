@@ -37,7 +37,7 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*.</a>
+  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
 </div>
 
 ## Projet application web créative (50%)
@@ -49,18 +49,18 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/cahier_charges_memoires.html">Cahier de charge - Option A - *Mémoires interactives*</a>
+  <a href="./projets/appweb-creative/cahier_charges_memoires.html">Cahier de charge - Option A - <strong>Mémoires interactives</strong></a>
 </div>
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/cahier_charges_chemin.html">Cahier de charge - Option B - *Trace ton chemin*</a>
+  <a href="./projets/appweb-creative/cahier_charges_chemin.html">Cahier de charge - Option B - <strong>Trace ton chemin</strong></a>
 </div>
 
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/ui.md">Design de votre interface utilisateur UI</a>
+  <a href="./projets/appweb-creative/ui.html">Design de votre interface utilisateur UI</a>
 </div>
 
 
@@ -79,13 +79,25 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 ## Portfolio
 
+
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*.</a>
+  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
 </div>
 
 
 ## Web app créative
+
+Des *questions* concernant la remise de mercredi (Planification et design) ?
+
+Concernant le design de l'interface utilisateur:
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/ui.html">Design de votre interface utilisateur UI</a>
+</div>
+
+
 
 ### SCRUM d'équipe
 
