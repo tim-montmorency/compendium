@@ -10,7 +10,6 @@ https://vimeo.com/alexacy
 * Quels sont les projets pour lesquels vous pourriez obtenir des bourses ?
 
 
-
 ## Explication du [projet 2](projet_02.md)
 
 * [Moodboard 1](https://www.youtube.com/watch?v=p03cRSbIQFU) 
@@ -25,3 +24,6 @@ https://vimeo.com/alexacy
     * 1 équipe par studio
 
 
+## L'esthétique visuelle et sonore
+* [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g?e=Uri2m8)
+* [Le sonore](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EVYtu8fNOnNJnFoR1yifeygBMPQEWFQW_Ex9S52lYviJqw?e=bwPmiA)
