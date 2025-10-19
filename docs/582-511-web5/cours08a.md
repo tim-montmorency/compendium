@@ -7,14 +7,7 @@ Node.js et NPM : gestionnaire de paquets JavaScript
 
 VITE : outil de développement front-end qui inclut serveur de développement et compilateur
 
-
 IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 22 octobre.
-
-VUE
-
-https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/  (vu au cours 6.2 mais en faire une révision rapido)
-
-Révision exerice https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/ (déjà fait au cours 6.2, à confirmer...)
 
 -->
 

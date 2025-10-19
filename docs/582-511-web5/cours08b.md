@@ -8,7 +8,11 @@ Remise de la planification et design du projet intégrateur
 
 <!-- 
 
-Composante Vue
+Révision Composante Vue
+
+https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/  (vu au cours 6.2 mais en faire une révision rapido)
+
+Révision exerice https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/ (déjà fait au cours 6.2, à confirmer...)
 
 https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/ < à mettre à jour au besoin pour faire le lien entre composante et app ($emit)
 
