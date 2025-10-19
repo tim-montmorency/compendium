@@ -14,17 +14,17 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 !!! info "Projet application web créative"
     Prochaine remise mercredi le 22 octobre pour 15% :
-  - Rédaction du cahier de charges
-  - Création des maquettes Figma
-  - Définition de l'architecture technique
-  - Setup du projet (Vite + Vue + dépendances)
+    - Rédaction du cahier de charges
+    - Création des maquettes Figma
+    - Définition de l'architecture technique
+    - Setup du projet (Vite + Vue + dépendances)
 
 ## Annonces
 
 - L'examen n'a pas été encore tout évalué à ce jour, ça devrait sortir dans les prochains jours.
   
-!!! info
-  Si vous avez échoué l'examen (moins de 60%), il y aura possibilité de faire un exercice de rattrapage. C'est facultatif mais je vous le permet. Suite à quoi, dépendemment de votre compréhension, vous pourrez regagner jusqu'à 20% de la note de l'examen (donc équvaut à 5% de la session). Vous ne pourrez regagner que pour un maximum de 60% à l'examen. Donc si vous aviez 55%, cet exercice ne peut pas vous remonter à 75%.
+!!! question "Pour les échecs - possibilité de remonter un peu"
+    Si vous avez échoué l'examen (moins de 60%), il y aura possibilité de faire un exercice de rattrapage. C'est facultatif mais je vous le permet. Suite à quoi, dépendemment de votre compréhension, vous pourrez regagner jusqu'à 20% de la note de l'examen (donc équvaut à 5% de la session). Vous ne pourrez regagner que pour un maximum de 60% à l'examen. Donc si vous aviez 55%, cet exercice ne peut pas vous remonter à 75%.
 
 
   
@@ -58,36 +58,34 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 </div>
 
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/ui.md">Design de votre interface utilisateur UI</a>
+</div>
+
+
 ## Aujourd'hui
 
 - [ ] Portfolio: instructions pour fetch et Vue
-- [ ] App créative: SCRUM d'équipe
+- [ ] Web app créative
+  - Rappel et instructions UI
+  - SCRUM d'équipe
+  - Contrat d'équipe
 - [ ] Git
 - [ ] Hébergement Web, nom de domaine et gbergement sur GitHub Pages
-- [ ] NPM et Vite
+- [ ] NPM
+- [ ] Vite + CLI Vue
 
 
 ## Portfolio
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*.</a>
+</div>
 
 
-[](./projets/instructions-fecth-vue.md)
-
-
-## Projet application web créative
-
-### Inspirations d'interface utilisateur (UI)
-
-Allez vous inspirer, notamment sur [Awwwards](https://www.awwwards.com/)
-
-[Liste de références et inpsirations web](./projets/appweb-creative/references-et-inpspirations.md){ .md-button }
-
-Carousel circulaire 3d de cartes
-
-- https://www.youtube.com/watch?v=yqaLSlPOUxM
-- https://gsap.com/community/forums/topic/43001-3d-carousel-with-more-items/
-- https://www.youtube.com/watch?v=lxGwReGtKqs
-
+## Web app créative
 
 ### SCRUM d'équipe
 
