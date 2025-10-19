@@ -7,7 +7,7 @@
 
     -->
 
-
+<!-- 
 ## Horaire spécial aujourd'hui
 
 Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voici l'horaire de la journée pour Web 5:
@@ -19,6 +19,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
   
   *13h40 à 16h45*
   
+  -->
 
 ## Projet portfolio (25%)
 
@@ -31,6 +32,7 @@ Afin de vous accommoder pour la conférence du mercredi 24 septembre à 17h voic
   <img src="./projets/assets/icon-portfolio.svg">
   <a href="./projets/portfolio-remise3.html">Instructions de la remise 3: suivi de votre travail d'intégration HTML/CSS 1er octobre</a>
 </div>
+
 
 ## Aujourd'hui
 

@@ -7,117 +7,79 @@ Node.js et NPM : gestionnaire de paquets JavaScript
 
 VITE : outil de développement front-end qui inclut serveur de développement et compilateur
 
+
 IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 22 octobre.
-
-
-
-
-
-
 
 VUE
 
 https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/composantes/  (vu au cours 6.2 mais en faire une révision rapido)
 
- https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/ (probablement déjà fait au cours 6.2, à confirmer...)
+Révision exerice https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/ (déjà fait au cours 6.2, à confirmer...)
 
-https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/ < à mettre à jour au besoin pour faire le lien entre composante et app ($emit)
-
-
-Peut-être un ajout?
-https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante (les instructions le sont mais je ne trouve plus la solution avec composante donc je dois checker ça)
-
-/*********************************************************** */
-Contenu à développer et ajouter: références $emit *ref* entre une app et les composantes. 
-/*********************************************************** */
-
-https://fr.vuejs.org/guide/components/events.html 
-La  <a href="https://www.w3schools.com/vue/vue_emit.php">méthode intégrée `$emit`  qui permet de faire le lien entre une app et ses composantes.
-
-
-/*********************************************************** */
-Vue SCF: 
-/*********************************************************** */
-https://tim-montmorency.com/timdoc/582-518MO/javascript/vue-js/sfc/ > Rrepousser SFC à quand on va voir Vite... Car anyway faut le compiler...
-
-
-
-
-/*********************************************************** */
-Ils doivent bien connaitre les GESTION DES TABLEAUX pour mieux travailler avec les données Vue.js
-/*********************************************************** */
-https://www.w3schools.com/js/js_arrays.asp
-
-Exemple 
-https://youtu.be/mDnahxy80KY?si=BNPfyTG_7Z9rxz5k&t=316
-
-PUSH
-
-const newTodo = ref('')
-const todos = ref([])
-const adTodo = () => {
-  todo.value.push({
-    title: newTodo.value,
-    completed: false,
-    date: Date.now()
-  })
-}
-
-
-EXEMPLE
-https://chatgpt.com/g/g-p-6864330428ec8191b7dc8c66ae4dff79-marie/c/68db25da-85ec-8326-8974-ff1c12e3830d
-
-INCLUDES
-const needle = q.value.toLowerCase();
-arr = arr.filter(a => a.name.toLowerCase().includes(needle));
-
-SORT
- const by = sortBy.value;
-  arr = [...arr].sort((a, b) => {
-    if (by === 'time') return toMinutes(a.start) - toMinutes(b.start);
-    if (by === 'pop') return b.popularity - a.popularity;
-    return a.name.localeCompare(b.name, 'fr');
-  });
-
-
-/*********************************************************** */
-Portfolio fecth json
-/*********************************************************** */
-aussi pour fetch attendre que l'app soit mounted
-
-const app = Vue.createApp({
-  data() {
-    return {
-      =
-    };
-  },
-  async mounted() {
-    try{
-      const res = await fetch('./data.json');
-      if (!res.ok) throw new Error('HTTP '+res.status);
-      this.raw = await res.json();
-      this.state = 'loaded';
-    }catch(e){
-      console.error(e);
-      this.state = 'error';
-    }
-  }
-});
-app.mount('#app');
 -->
 
 
-<!--
-TUTEUR MOMO-BOT
-<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
+!!! info "Projet application web créative"
+    Prochaine remise mercredi le 22 octobre pour 15% :
+  - Rédaction du cahier de charges
+  - Création des maquettes Figma
+  - Définition de l'architecture technique
+  - Setup du projet (Vite + Vue + dépendances)
 
-<div class="modal" id="modal-momobot">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
-  </div>
+## Annonces
+
+- L'examen n'a pas été encore tout évalué à ce jour, ça devrait sortir dans les prochains jours.
+  
+!!! info
+  Si vous avez échoué l'examen (moins de 60%), il y aura possibilité de faire un exercice de rattrapage. C'est facultatif mais je vous le permet. Suite à quoi, dépendemment de votre compréhension, vous pourrez regagner jusqu'à 20% de la note de l'examen (donc équvaut à 5% de la session). Vous ne pourrez regagner que pour un maximum de 60% à l'examen. Donc si vous aviez 55%, cet exercice ne peut pas vous remonter à 75%.
+
+
+  
+## Projet portfolio (25%)
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
 </div>
--->
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*.</a>
+</div>
+
+## Projet application web créative (50%)
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/syllabus_guide_etudiant.html">Projet intégrateur: Web app créative - Infos générales</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/cahier_charges_memoires.html">Cahier de charge - Option A - *Mémoires interactives*</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/cahier_charges_chemin.html">Cahier de charge - Option B - *Trace ton chemin*</a>
+</div>
+
+
+## Aujourd'hui
+
+- [ ] Portfolio: instructions pour fetch et Vue
+- [ ] App créative: SCRUM d'équipe
+- [ ] Git
+- [ ] Hébergement Web, nom de domaine et gbergement sur GitHub Pages
+- [ ] NPM et Vite
+
+
+## Portfolio
+
+
+
+[](./projets/instructions-fecth-vue.md)
+
 
 ## Projet application web créative
 
@@ -132,7 +94,6 @@ Carousel circulaire 3d de cartes
 - https://www.youtube.com/watch?v=yqaLSlPOUxM
 - https://gsap.com/community/forums/topic/43001-3d-carousel-with-more-items/
 - https://www.youtube.com/watch?v=lxGwReGtKqs
-
 
 
 ### SCRUM d'équipe
@@ -154,4 +115,10 @@ Le contrat permet aux membres de chaque équipe de s’entendre sur un *but comm
 - [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
 - [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
 
-## Node, NPM et Vites
+## Hébergemetn Web
+
+### GitHub Pages
+
+## Node, NPM et Vite
+
+

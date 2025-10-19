@@ -83,7 +83,7 @@ const vm = appli.mount('.appli-vue');
 
 Pour vous le rappeler, voici la [liste des composantes Vue](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio-remise1.html#exemples-de-composantes-vuejs) qui vous avait été offerte en début de projet. Vous aviez faire un choix et rédigé votre choix dans votre *README.md* dans votre git. Si vous ne vous en rappelez plus, veuillez vous y référer. Il est possible de changer d'idée si vous le souhaitez, je vous le permets.
 
-Vous devez donc réfléchir par vous même à savoir qu'est-ce qui doit être fait du côté Vue.js pour arriver à faire votre widget prévu. Je vous laisse libre d'y penser et d'essayer par vous même. Si jamais vous n'y arrivez pas, écrivez moi sur Teams, je vais voir comment je peux vous accompagner à ce niveau, n'hésitez pas. 
+Vous devez donc réfléchir par vous même: à savoir qu'est-ce qui doit être fait du côté Vue.js pour arriver à faire votre widget prévu. Je vous laisse libre d'y penser et d'essayer par vous même. Si jamais vous n'y arrivez pas, écrivez moi sur Teams, je vais voir comment je peux vous accompagner à ce niveau, n'hésitez pas!! 
 
 *N'oubliez pas de commenter votre code et de laisser des traces de votre compréhension.*
 
