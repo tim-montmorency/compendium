@@ -3,6 +3,8 @@
 
 ## Démo 
 
+https://vimeo.com/alexacy
+
 * Selon vous, qu’est-ce qu’un bon démo ? 
 * Quels projets pourriez-vous y inclure ?
 * Quels sont les projets pour lesquels vous pourriez obtenir des bourses ?
