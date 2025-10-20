@@ -167,10 +167,28 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
   <a href="./vue/creation-projet-CLI.html">Création d'un projet Vue via CLI (Command Line Interface)</a>
 </div>
 
-<div class="class-content-link">
+
+<!-- <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./projets/appweb-creative/quick_start.html">Web app créative: quickstart</a>
-</div>
+</div> 
+
+📦 Étape 1: Créer le Projet (Chef de projet uniquement)¶
+1.1 Initialiser le projet Vite + Vue¶
+
+# Créer le projet
+npm create vite@latest mon-projet -- --template vue
+
+# Entrer dans le dossier
+cd mon-projet
+
+# Installer les dépendances de base
+npm install
+
+# Tester que ça fonctionne
+npm run dev
+Ouvrez http://localhost:5173 - Vous devriez voir la page de démo Vue.
+-->
 
 
 ## Devoirs
