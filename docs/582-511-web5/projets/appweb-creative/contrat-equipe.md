@@ -9,6 +9,9 @@ Il vise à baliser la collaboration d’un groupe en demandant aux participant·
 - *« Comment allons-nous communiquer (horaire, fréquence et lieu des rencontres, moyens de communication utilisés) ? »*
 - *« En cas de conflit éventuel, à quoi nous engageons nous ? »*
 
+
+[Document de départ pour votre contrat](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EeyKnmw0wqVElk6ER6ChfNkBIveafBd50zzKnuGCFC0RoQ?e=Ry5RiT)
+
 <!-- 
 ## QUAND L’UTILISER ?
 

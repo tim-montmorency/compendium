@@ -14,11 +14,13 @@
 
 - [ ] Dans Visual Studio Code, ouvrez le dossier où vous souhaitez créer votre projet Vue.js.
 - [ ] Ouvrez le terminal de Visual Studio Code. 
+
+Voici quelques commandes utiles:
+
 - [ ] À l'aide de la commande `pwd` vous pouvez voir le chemin d'accès du dossier où vous vous situez.
-.
-    Inscrivez `cd.. ↵`  pour reculer d'un dossier.
-    .
-    `cd nomdudossier ↵` pour avancer dans un dossier. Allez vous placer là ou vous souhaitez créer votre projet.
+- [ ] À l'aide de la commande `ls` vous pouvez voir les fichiers qui se trouve dans le dossier dans lequel vous vous trouvez.
+- [ ] Inscrivez `cd.. ↵`  pour reculer d'un dossier.
+- [ ] `cd nomdudossier ↵` pour avancer dans un dossier. Allez vous placer là ou vous souhaitez créer votre projet.
 
 ***
 
@@ -73,7 +75,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
 
 !!! tip Pour quitter le mode run dev
 
-    À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez ++q++ <code>q</code> pour **quitter**.
+    À tout moment, si vous souhaitez sortir du serveur et arrêter le serveur de développement, dans le terminal vous entrez ++q++  pour **quitter**.
 
 
 ## Nettoyage
