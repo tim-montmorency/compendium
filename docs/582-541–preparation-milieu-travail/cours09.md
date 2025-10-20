@@ -20,11 +20,19 @@ Mardi 28 octobre, à l’agora, entre 11h00 et 15h00 (lors du trou à l’horair
 Tous les établissements universitaires québécois ainsi que l’Université d’Ottawa auront un kiosque. Ce sera l’occasion pour la population étudiante d’obtenir des informations sur les programmes d’études offerts, les conditions d’admission, la vie étudiante, les programmes d’échange à l’international et encore plus.  
 
 
+## Dernières invitations
+[🛠️ Modèle courriel](./stages/journeeCarriere.md){ .md-button }    
+
+Vous devez inviter les entreprises à votre nom qui sont encore en blanc dans la section à contacter:  
+[🛠️ Liste d'entreprises](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfoMe3Rzg7FGihjnoKGn7OcBMEdYWxjf1mPycznkJt4y1A?e=hdsfDi){ .md-button }    
+
+
 ## Simulations d'entrevues
-Après votre entrevue, remplissez la deuxième partie du document simulation_entrevue. 
+Après votre entrevue, remplissez la deuxième partie du document simulation_entrevue dans votre journal de bord. 
 
 
 ## Prise de photos
+Photo pro pour votre Linkedin. 
 
 
 ## Temps pour les comités
