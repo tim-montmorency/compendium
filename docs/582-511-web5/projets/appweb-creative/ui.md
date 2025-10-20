@@ -4,7 +4,7 @@
 
 Allez vous inspirer, notamment sur [Awwwards](https://www.awwwards.com/)
 
-[Liste de références et inpsirations web](./projets/appweb-creative/references-et-inpspirations.md){ .md-button }
+[Liste de références et inpsirations web](.references-et-inpspirations.md){ .md-button }
 
 ## Carousel circulaire 3d de cartes
 

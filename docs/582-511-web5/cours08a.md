@@ -14,10 +14,10 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 !!! info "Projet application web créative"
     Prochaine remise mercredi le 22 octobre pour 15% :
-      - Rédaction du cahier de charges
-      - Création des maquettes Figma
-      - Définition de l'architecture technique
-      - Setup du projet (Vite + Vue + dépendances)
+    * Rédaction du cahier de charges
+    * Création des maquettes Figma
+    * Définition de l'architecture technique
+    * Setup du projet (Vite + Vue + dépendances)
 
 ## Annonces
 
@@ -194,4 +194,5 @@ Ouvrez http://localhost:5173 - Vous devriez voir la page de démo Vue.
 ## Devoirs
 
 - [ ] Complétez la phase de du projet *Web app créative* d'ici mercredi le 22 octobre.
+- [ ] Si non terminé en classe, le *contrat d'équipe* devra être terminé pour mercredi et envoyé dans votre canal Teams.
 - [ ] Complétez votre *portfolio* d'ici mercredi le 29 octobre.
