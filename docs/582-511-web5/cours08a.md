@@ -107,7 +107,7 @@ Concernant le design de l'interface utilisateur:
 
 Le contrat permet aux membres de chaque équipe de s’entendre sur un *but commun* et de rendre explicites les *règles* qu’elles et ils désirent voir respecter dans leur équipe.
 
-[](./projets/appweb-creative/contrat-equipe.md)
+[Contrat](./projets/appweb-creative/contrat-equipe.md)
 
 ## Git
 
@@ -118,10 +118,51 @@ Le contrat permet aux membres de chaque équipe de s’entendre sur un *but comm
 - [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
 - [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
 
-## Hébergemetn Web
+## Hébergement Web
 
-### GitHub Pages
+[Diapositives de cours sur l'hébergement web et les noms de domaines](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWhOSUd3EyFPglOlWHZH9qcBD9bupObOPce8JKrzvq8eGA?e=HjX0z2)
 
-## Node, NPM et Vite
+### Hébergement Web chez *HostPapa*
+
+Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.
+
+### Hébergement sur *GitHub Pages*
+
+[Petite capsule vidéo sur l'hébergement GitHub Pages](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Optimisation%20-%20Web%203/02_contenu_de_cours/capsules/heberger-site-sur-github-pages.mov?csf=1&web=1&e=KOk8Hq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<small>Notez que cette capsule a été faite pour un autre groupe alors quand je parle de remise sur plusieurs branches, vous pouvez ignorer, du moins dans le cadre de votre projet portfolio</small>
+
+## Node, NPM
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/">Node Pacakge Manager (NPM)</a>
+</div>
+
+
+
+## Vite et Vue CLI
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="
+  https://tim-montmorency.com/timdoc/582-518MO/javascript/vite/">Vite !</a>
+</div>
+
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/creation-projet-CLI.html">Création d'un projet Vue via CLI (Command Line Interface)</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./projets/appweb-creative/quick_start.html">Web app créative: quickstart</a>
+</div>
+
+
+
+
+
 
 
