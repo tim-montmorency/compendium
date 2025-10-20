@@ -192,5 +192,5 @@ Ouvrez http://localhost:5173 - Vous devriez voir la page de démo Vue.
 ## Devoirs
 
 - [ ] Complétez la phase de du projet *Web app créative* d'ici mercredi le 22 octobre.
-- [ ] Si non terminé en classe, le *contrat d'équipe* devra être terminé pour mercredi et envoyé dans votre canal Teams.
+- [ ] Si non terminé en classe, le [*contrat d'équipe*](./projets/appweb-creative/contrat-equipe.html) devra être terminé pour mercredi et envoyé dans votre canal Teams.
 - [ ] Complétez votre *portfolio* d'ici mercredi le 29 octobre.
