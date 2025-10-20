@@ -161,8 +161,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 </div>
 
 
+## Devoirs
 
-
-
-
-
+- [ ] Complétez la phase de du projet *Web app créative* d'ici mercredi le 22 octobre.
+- [ ] Complétez votre *portfolio* d'ici mercredi le 29 octobre.
