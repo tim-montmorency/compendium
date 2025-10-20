@@ -139,6 +139,18 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
   <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/">Node Pacakge Manager (NPM)</a>
 </div>
 
+### Exercice NPM Dragon Smaug
+
+#### Partie 1 Exercice NPM Dragon Smaug
+
+[Exercice partie 1](https://tim-montmorency.com/compendium/582-311-web3/exercices/dragon-smaug/)
+
+#### Partie 2 Exercice NPM Dragon Smaug
+
+- [ ] Créer un répertoire git nommé *Exercice NPM Dragon Smaug*
+- [ ] Clonez le en local et déposez-y vos fichiers de travail de l'exercice.
+- [ ] Créer un fichier [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/). Ce fichier vous servira à ignorer quelque chsoe de tr`s important à ignorer lorsqu'on utiliser le Node Package Manager (voir les notes de cours NPM ci haut).
+- [ ] Poussez tout vers GitHub et lorsque terminé, veuillez montrer le otut à votre enseignante.
 
 
 ## Vite et Vue CLI
