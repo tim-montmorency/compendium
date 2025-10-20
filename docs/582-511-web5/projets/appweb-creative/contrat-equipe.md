@@ -4,7 +4,8 @@
 
 Le contrat d’équipe, appelé aussi charte du groupe, est un document co-écrit et co-signé par tous les membres d’un groupe.
 
-Il vise à baliser la collaboration d’un groupe en demandant aux participant·e·s de négocier entre eux les enjeux et les modalités de fonctionnement à partir de quelques questions : 
+Il vise à baliser la collaboration d’un groupe en demandant aux participant·e·s de négocier entre eux les enjeux et les modalités de fonctionnement à partir de quelques questions :
+
 - *« Quelles sont nos forces, nos faiblesses, nos attentes ? »*
 - *« Comment allons-nous communiquer (horaire, fréquence et lieu des rencontres, moyens de communication utilisés) ? »*
 - *« En cas de conflit éventuel, à quoi nous engageons nous ? »*
