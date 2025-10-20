@@ -135,7 +135,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 ## Node, NPM
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
+  <img src="./assets/icon-npm.webp">
   <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/">Node Pacakge Manager (NPM)</a>
 </div>
 
@@ -156,7 +156,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 ## Vite et Vue CLI
 
 <div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
+  <img src="./assets/Vitejs-logo.svg">
   <a href="
   https://tim-montmorency.com/timdoc/582-518MO/javascript/vite/">Vite !</a>
 </div>
