@@ -171,6 +171,6 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 - [ ] Création de votre répertoire git. Nommer *webapp-creative-prenom1-prenom2-prenom3.*
 
-- [ ] Rédaction du cahier de charge ([Fichiers de départ pour cahier de charge](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/02-appweb-creative/cahiers-de-charge-fichiers-depart?csf=1&web=1&e=FLBNRx))
+- [ ] Rédaction du cahier de charge ([Fichiers de départ pour cahier de charge](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eiw726GEnZZPp95ir3fNGKcB6t13AQjC21KdAoO3dqXltw?e=oJxNlz)
 
 - [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
