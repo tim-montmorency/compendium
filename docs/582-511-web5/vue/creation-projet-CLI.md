@@ -2,13 +2,11 @@
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
 
-# Création d’un projet Vue [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
+# Création d’un projet Vue incluant déjà Vite [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
-!!! warning NPM et Node JS
+`npm create vue@latest` inclut Vite. Cette commande utilise `create-vue` , qui est le moyen officiellement recommandé pour échafauder un nouveau projet *Vue* et utilise *Vite* comme outil de construction par défaut. 
 
-    Avant d'aller plus loin, assurez-vous d'abord d'[avoir préalablement installé Vue.js](./index.md)
-
-<br> <br>
+*Vite* offre une expérience de développement *plus rapide* et *plus moderne* par rapport aux anciennes configurations Vue CLI et Webpack.
 
 ## Création du projet
 
