@@ -54,9 +54,12 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
 
 - [ ] Ouvrez le projet via l'explorateur de fichier de Visual Studio Code.
 
-- [ ] Ouvrez le fichier App.vue. S'il n'y a pas de cloloration syntaxique et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée **Vue - Official** : [<img src="assets/extension-vue-official.jpg" width="220"/>](https://marketplace.visualstudio.com/items/?itemName=Vue.volar)
+- [ ] Ouvrez le fichier App.vue. S'il n'y a pas de *coloration syntaxique* et que tout le code est gris, il serait plus pratique d'activer la coloration syntaxique de ce type de fichier aussi. Ainsi je vous propose d'installer l'extension Visual Studio Code nommée [*Vue - Official*](https://marketplace.visualstudio.com/items/?itemName=Vue.volar):<br>[<img src="assets/extension-vue-official.jpg" width="220"/>](https://marketplace.visualstudio.com/items/?itemName=Vue.volar)
 
+- [ ] Une autre extension intéressante, non reliée à Vue directement: *Icons*
+de Mhammed Talhaouy. C'est une extention de VSCode qui vous permet de mieux visualiser les types de fichier dans votre exploraeur de fichiers dans VS COde. [Voici le lien vers l'extension](https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons).
 
+![explorateur de fichier avec les icons de l'extension](./assets/extension-icons.png)
 
 ## Démarrer le serveur
 
