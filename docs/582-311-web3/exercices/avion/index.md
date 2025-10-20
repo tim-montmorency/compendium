@@ -36,6 +36,7 @@ L'objectif de cet exercice est d'animer simplement une image de gauche à droite
 - [ ] Sur body, ajouter l'image `top-view.jpg` en background image cover
 - [ ] Sur body, appliquer un display grid
 - [ ] Sur body, aligner les items au centre
+- [ ] Sur body, justifier le contenu au `start`
 - [ ] Sur body, configurer une hauteur minimale de `100vh`
 
 - [ ] Ajouter un style sur les **images** et y appliquer un `width` de `100px`
