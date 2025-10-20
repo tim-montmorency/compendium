@@ -8,6 +8,12 @@
 ## 1- Création de l'app Vue
 
 Vous savez comment faire. Créez une app Vue et montez la sur une balise du DOM.
+Voous devez réutiliser la même app Vue pour votre accueil (là ou vous listez des projets) et dans votre page projet (si vous en avez une).
+
+!!! info "Si vous avez une page projet à part"
+  Veuillez ne faire qu'un seul fichier *projet.html*. À partir de votre page d'accueil, là ou vous listez vos projet, sur le `<a href="projet.html">`, ajoutez un paramètre d'url pour identifier quel projet. Par exemple `<a href="projet.html?proj-id=78">`. Ensuite, dans la page *projet.html*, vous récupérez le paramètre d'url `proj-id` qui vous permettrat d'identifier quel projet afficher dans la page en cours.
+
+  Notez bien que votre ficheir json devra contenir un id pour chaque projet poru cette utilisation.
 
 ## 2- Création du .json des données de vos projets
 
@@ -70,7 +76,7 @@ const appli = Vue.createApp({
 const vm = appli.mount('.appli-vue');
 ```
 
-### 3.2 Donnée projects [ ]
+### 3.2 Données des projets [ ]
 
 - [ ] Dans `data()`, initialisez une propriété `project: []`.
 - [ ] Ensuite, dans `mounted()`, faites votre `fetch` pour charger les données de votre fichier .json.
