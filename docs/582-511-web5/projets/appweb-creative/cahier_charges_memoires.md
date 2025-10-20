@@ -471,7 +471,7 @@ Listez vos composants Vue principaux:
 - Rédaction du cahier de charges
 - Création des maquettes Figma
 - Définition de l'architecture technique
-- Setup du projet (Vite + Vue + dépendances)
+- Setup du projet (Vite + Vue + ~~dépendances~~)
 
 ### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->

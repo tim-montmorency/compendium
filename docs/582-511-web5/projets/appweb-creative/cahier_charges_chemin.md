@@ -640,7 +640,7 @@ Comment stockez-vous les chapitres et choix?
 - Écriture de l'arbre narratif complet
 - Design: Création des maquettes Figma
 - Définition de l'architecture technique
-- Setup du projet (Vite + Vue + dépendances)
+- Setup du projet (Vite + Vue + ~~dépendances~~)
 
 ### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->

@@ -11,13 +11,12 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 -->
 
-
 !!! info "Projet application web créative"
-    Prochaine remise mercredi le 22 octobre pour 15% :
-    * Rédaction du cahier de charges
-    * Création des maquettes Figma
-    * Définition de l'architecture technique
-    * Setup du projet (Vite + Vue + dépendances)
+    - Prochaine remise mercredi le 22 octobre pour 15% :
+    - Rédaction du cahier de charges
+    - Création des maquettes Figma
+    - Définition de l'architecture technique
+    - Setup du projet (Vite + Vue + ~~dépendances~~)
 
 ## Annonces
 
@@ -25,7 +24,6 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
   
 !!! question "Pour les échecs - possibilité de remonter un peu"
     Si vous avez échoué l'examen (moins de 60%), il y aura possibilité de faire un exercice de rattrapage. C'est facultatif mais je vous le permets. Suite à quoi, dépendemment de votre compréhension, vous pourrez regagner jusqu'à 20% de la note de l'examen (donc équvaut à 5% de la session). Vous ne pourrez regagner que pour un maximum de 60% à l'examen. Donc si vous aviez 55%, cet exercice ne peut pas vous remonter à 75%.
-
 
   
 ## Projet portfolio (25%)
