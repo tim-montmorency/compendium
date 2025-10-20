@@ -11,8 +11,6 @@ Créer une expérience immersive ou une présentation vidéo mosaïque en utilis
 Exemples:  
 [Projets artistes ](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EdWLzr5Q0PdOnqxowv9_kBYBJzHbx4gT3zch9B2hIO3jzw?e=84Ld9o)
 
-[Projets étudiants ](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EkQK-75DZ6ZKge5Gw28avGkBbotBFpVJNPc_3vEXtZsHIw?e=9dbCMl)
-
 
 
 ---
