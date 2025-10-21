@@ -10,10 +10,13 @@
 Vous savez comment faire. Créez une app Vue et montez la sur une balise du DOM.
 Voous devez réutiliser la même app Vue pour votre accueil (là ou vous listez des projets) et dans votre page projet (si vous en avez une).
 
-!!! info "Si vous avez une page projet à part"
-  Veuillez ne faire qu'un seul fichier *projet.html*. À partir de votre page d'accueil, là ou vous listez vos projet, sur le `<a href="projet.html">`, ajoutez un paramètre d'url pour identifier quel projet. Par exemple `<a href="projet.html?proj-id=78">`. Ensuite, dans la page *projet.html*, vous récupérez le paramètre d'url `proj-id` qui vous permettrat d'identifier quel projet afficher dans la page en cours.
 
-  Notez bien que votre ficheir json devra contenir un id pour chaque projet poru cette utilisation.
+!!! info "Si vous avez une page projet à part"
+    - Veuillez ne faire qu'un seul fichier *projet.html*. 
+    - À partir de votre page d'accueil, là ou vous listez vos projet, sur le `<a href="projet.html">`, ajoutez un paramètre d'url pour identifier quel projet. Par exemple `<a href="projet.html?proj-id=78">`. 
+    - Ensuite, dans la page *projet.html*, vous récupérez le paramètre d'url `proj-id` qui vous permettrait d'identifier quel projet afficher dans la page en cours.
+    - Notez bien que  pour cette utilisation, dans votre fichier *json*, chaque projet devra contenir un `id`.
+
 
 ## 2- Création du .json des données de vos projets
 
