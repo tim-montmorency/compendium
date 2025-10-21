@@ -34,7 +34,6 @@ Pour définir une composante, il suffit d’appeler la méthode `component` d’
     Les composantes acceptent les mêmes propriétés de base qu’une app Vue: `data`, `methods`, `computed`, `template`,&nbsp;etc.
 
 
-
 <br>
 Par exemple, pour définir une composante de compteur:
 
