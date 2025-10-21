@@ -119,18 +119,18 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 ## Remise 1 du projet App web créative*
 
-- [ ] Assurez-vous d'avoir créé la *base de votre projet Vue via npm et Vite* (n'oubliez pas le *.gitignore* et ce qui va dedans!)
-- [ ] Assurez vous de pousser cette base dans votre répertoire git commun
+Quelques instructions en début de cours (vous pouvez le faire dans les 10 premières minutes du cours)
+
 - [ ] Le git doit aussi comprendre la *cahiers de charges complété*
 - [ ] Le git doit aussi inclure un *README.md* (voir les instructions dans Devoir pour les détails du README.md)
-- [ ] Veuillez pousser tout ça sur la branche *main* d'abord
-- [ ] Ensuite, dupliquez la branche *main* sur une branche nommée *phase-1*
-- [ ] Poussez le tout sur le serveur distant github.
-- [ ] Ne touchez plus à cette branche jamais.
+- [ ] Veuillez pousser tout ça sur la branche git *main* d'abord
+- [ ] Ensuite, créez une nouvelle branche git nommée *phase-1* (à lartir de la branche *main*)
+- [ ] Poussez le tout sur le serveur distant GitHub.
+- [ ] Ne touchez plus jamais à cette branche. Plus aucun **commit** ni **push** sur celle-ci. Puisque c'est l'état actuel de votre remise.
 - [ ] Crééez une branche *dev* à partir de la branche *main*.
-- [ ] Poussez le tout sur le serveur distant github.
+- [ ] Poussez le tout sur le serveur distant GitHub.
 - [ ] À partir de maintenant, vous ne travaillez que sur la branche *dev*. 
-- [ ] Assurez-vous que tout le monde de l'équipe a bien cloné localement le répertoire et positionne leur gitHub Desktop sur la branche *dev*, et ce dès aujourd'hui.
+- [ ] Assurez-vous que tout le monde de l'équipe a bien cloné localement le répertoire et positionne leur GitHub Desktop sur la branche *dev*, et ce dès aujourd'hui.
 
 ## Aujourd'hui
 
@@ -145,7 +145,7 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 
 ### Composante Vue
- 
+
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/composante.html">Vue: La composante et ses props</a>
