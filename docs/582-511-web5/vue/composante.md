@@ -8,9 +8,22 @@ Les composantes nous permettent de fractionner l'interface (UI) en morceaux ind�
 
 <img src="./assets/composante-pageweb.png" alt="Arbre de composants">
 
+## Les composantes servent à:
+
+- **Réutiliser du code** - Écris une fois, utilise partout
+- **Organiser ton application** - Divise ton interface en morceaux logiques
+- **Maintenir facilement** - Change une composante sans affecter le reste
+- **Collaborer** - Chaque développeur peut travailler sur sa composante
+
+## Les composantes peuvent:
+
+- Avoir leurs propres **données** (data)
+- Recevoir des **props** (données des parents)
+- Émettre des **événements** vers les parents
+- Avoir des **méthodes** et des propriétés **computed**
+
 
 ## Définir une composante
-
 
 Pour définir une composante, il suffit d’appeler la méthode `component` d’une application Vue et de lui passer deux paramètres: 
 
