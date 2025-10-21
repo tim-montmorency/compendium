@@ -86,7 +86,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 | Semaine | Phase | Livrables principaux |
 |---------|-------|---------------------|
-| *1-2* | *Planification et Design* | Brainstorm (FigJam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello), Design (Figma), arbre narratif (pour Option B), répertoire git et son README.md, setup du projet Vue de base avec Vite et npm |
+| *1-2* | *Planification et Design* | Brainstorm (FigJam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello), Design (Figma), arbre narratif (pour Option B), répertoire git et son README.md |
 | *3* | *Fondation* | Architecture Vue, premiers composants, routing |
 | *4* | *Interactivité* | CRUD/Système de choix, Pinia configuré |
 | *5* | *Animations et médias* | GSAP, transitions, médias (images, sons) |

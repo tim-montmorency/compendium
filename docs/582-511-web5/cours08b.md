@@ -141,9 +141,23 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 ## Révision composantes Vue.js
 
-Quiz time!
+### Quiz time!
 
-Révision
+
+### Composante Vue
+ 
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/composante.html">Vue: La composante et ses props</a>
+</div>
+
+
+
+### Exercice composante
+
+[Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button} 
+<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/xxMJpYM) -->
+
 
 
 

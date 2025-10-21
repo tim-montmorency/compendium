@@ -18,12 +18,12 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
     - Création des maquettes Figma
     - Planification du projet KANBAN dans Trello
     - Répertoire git et README.md
-    - Setup du projet de base (Vite + Vue + ~~dépendances~~)
+    - ~~Setup du projet de base (Vite + Vue + dépendances)~~
 
 ## Annonces
 
 - L'examen n'a pas été encore tout évalué à ce jour, ça devrait sortir dans les prochains jours.
-  
+
 !!! question "Pour les échecs - possibilité de remonter un peu"
     Si vous avez échoué l'examen (moins de 60%), il y aura possibilité de faire un exercice de rattrapage. C'est facultatif mais je vous le permets. Suite à quoi, dépendemment de votre compréhension, vous pourrez regagner jusqu'à 20% de la note de l'examen (donc équvaut à 5% de la session). Vous ne pourrez regagner que pour un maximum de 60% à l'examen. Donc si vous aviez 55%, cet exercice ne peut pas vous remonter à 75%.
 
