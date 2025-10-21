@@ -6,7 +6,7 @@ Chaque équipe doit venir présenter son film en expliquant son approche.
 
 ## Partie 2 – Atelier de green screen (30 minutes)
 Introduction aux principes de tournage sur fond vert et aux notions de chrominance.  
-[📄 Exercices](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)
+[🛠️ Exercices](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)
 
 ## Partie 3 – Atelier de stop motion
 Atelier pratique de création d’une courte séquence en **stop motion**.  
