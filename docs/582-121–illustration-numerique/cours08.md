@@ -1,7 +1,7 @@
 # Cours 8
 
 ## Préapprobation du projet 1
-* Une absence entraine la note zéro. 
+* Une absence entraîne la note zéro. 
 
 ## Correction des travaux 
 
