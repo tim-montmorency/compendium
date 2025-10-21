@@ -1,4 +1,4 @@
-# Cours 6
+# Cours 5
 
 ## Notions : Outils de remplissage et d'application de couleurs
 
