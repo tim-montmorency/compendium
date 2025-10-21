@@ -1,16 +1,14 @@
 # Cours 7
 
-## Artistes inspirants
-* https://vimeo.com/alexacy
-* https://www.vincentrenelortie.com/
-
-
 ## Démo 
 * Selon vous, qu’est-ce qu’un bon démo ? 
 * Quels projets pourriez-vous y inclure ?
 * Quels sont les projets pour lesquels vous pourriez obtenir des bourses ?
 * [📁 Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww?e=XOgz9G%22%20\t%20%22_blank){ .md-button }   <br>
 
+## Artistes inspirants
+* https://vimeo.com/alexacy
+* https://www.vincentrenelortie.com/
 
 
 ## Explication du [projet 2](projet_02.md)
@@ -33,3 +31,12 @@
 ## L'esthétique visuelle et sonore
 * [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g?e=Uri2m8)
 * [Le sonore](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EVYtu8fNOnNJnFoR1yifeygBMPQEWFQW_Ex9S52lYviJqw?e=bwPmiA)
+
+## Devoir 
+* Travailler sur la pré-production. 
+* Préparer la présentation orale de votre projet.
+  * Quelle était l’idée de départ ?
+  * Quelle émotion, question ou situation vouliez-vous explorer ?
+  * Quelle était votre intention artistique (réalisme, poésie, humour, surréalisme, critique sociale, etc.) ?
+  * Quelles œuvres, artistes, films, musiques ou images vous ont inspirés ?
+

@@ -1,13 +1,11 @@
 # Cours 10
 
-## Portes ouvertes
 
 
 ## Présentation du travail 2
   [📁 Projet 2](./projets/projet02.md){ .md-button }   <br>
 
-
-  
+ 
 
 ## Formation des équipes
 
