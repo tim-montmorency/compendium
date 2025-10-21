@@ -117,7 +117,22 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 -->
 
 
+## Remise 1 du projet App web créative*
 
+- [ ] Assurez-vous d'avoir créé la *base de votre projet Vue via npm et Vite* (n'oubliez pas le *.gitignore* et ce qui va dedans!)
+- [ ] Assurez vous de pousser cette base dans votre répertoire git commun
+- [ ] Le git doit aussi comprendre la *cahiers de charges complété*
+- [ ] Le git doit aussi inclure un *README.md* (voir les instructions dans Devoir pour les détails du README.md)
+- [ ] Veuillez pousser tout ça sur la branche *main* d'abord
+- [ ] Ensuite, dupliquez la branche *main* sur une branche nommée *phase-1*
+- [ ] Poussez le tout sur le serveur distant github.
+- [ ] Ne touchez plus à cette branche jamais.
+- [ ] Crééez une branche *dev* à partir de la branche *main*.
+- [ ] Poussez le tout sur le serveur distant github.
+- [ ] À partir de maintenant, vous ne travaillez que sur la branche *dev*. 
+- [ ] Assurez-vous que tout le monde de l'équipe a bien cloné localement le répertoire et positionne leur gitHub Desktop sur la branche *dev*, et ce dès aujourd'hui.
+
+## Aujourd'hui
 
 - [ ] Révision composantes Vue.js (contenu et des exercices)
 - [ ] Vue.js Single File Component (SFC)
@@ -125,6 +140,10 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 
 ## Révision composantes Vue.js
+
+Quiz time!
+
+Révision
 
 
 
