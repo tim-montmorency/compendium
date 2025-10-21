@@ -52,7 +52,7 @@
 * Voici la liste des choses à présenter
   * [ ] **Deux moodboards**
   * [ ] **Une signature**
-  * [ ] **Six autoportraits**
+  * [ ] **Quatre autoportraits**
   * [ ] **Une musique**
 
 Le professeur vous fournira des commentaires que vous devrez utiliser pour améliorer votre travail en vue de la présentation finale. Si aucune modification n'est effectué, votre note finale risque d'être grandement affectée. 
