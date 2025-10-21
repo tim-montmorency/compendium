@@ -117,7 +117,7 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 -->
 
 
-## Remise 1 du projet App web créative*
+## Remise phase 1 du projet *App web créative*
 
 Quelques instructions en début de cours (vous pouvez le faire dans les 10 premières minutes du cours)
 
