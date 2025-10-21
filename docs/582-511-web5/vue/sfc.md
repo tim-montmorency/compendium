@@ -60,8 +60,7 @@ Pour ce faire, une clé est attribuée aux éléments HTML sous forme d'un attri
 
 Par exemple:
 
-
-<highlight lang="html">
+```
 <template>
   <div class="menu">...</div>
 </template>
@@ -71,13 +70,12 @@ Par exemple:
   background: blue;
 }
 </style>
-</highlight>
+```
 
-<br>
 
-<p>Sera converti en:</p>
+Sera converti en:
 
-<highlight lang="html">
+```
 <template>
   <div class="menu" data-v-f3f3eg9>...</div>
 </template>
@@ -87,14 +85,16 @@ Par exemple:
   background: blue;
 }
 </style>
-</highlight>
+```
 
 
-<br>
+Une composante SFC peut aussi avoir plus d'une balise `<style>`. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.
 
-<p>Une composante SFC peut aussi avoir plus d'une balise <incode>&lt;style&gt;</incode>. Notamment lorsque des styles devraient être globaux et que d'autres devraient être limités à la composante uniquement.</p><p>Par exemple:</p>
 
-<highlight lang="html">
+Par exemple:
+
+
+```
 /* Styles appliqués à tout le site, donc sans l'attribut scoped */
 <style>
 * {
@@ -107,8 +107,8 @@ Par exemple:
 .menu {
   background: blue;
 }
-</style> 
-</highlight>
+</style>
+```
 
 <br>
 
