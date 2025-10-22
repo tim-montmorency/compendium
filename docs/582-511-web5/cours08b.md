@@ -136,9 +136,14 @@ Quelques instructions en début de cours (vous pouvez le faire dans les 10 premi
 
 - [ ] Rappel contrat d'équipe
 - [ ] Hébergement Web, nom de domaine et gbergement sur GitHub Pages
-- [ ] Révision composantes Vue.js (contenu et des exercices)
+- [ ] NPM exercice
+- [ ] Révision composantes Vue.js
+  - [ ] Quiz
+  - [ ] Révision composante
+  - [ ] Révision exercices
+- [ ] Vue.js Un peu plus sur les props des composantes
 - [ ] Vue.js Single File Component (SFC)
-- [ ] Vue.js Communication entre app et composantes ($emit)
+<!-- - [ ] Vue.js Communication entre app et composantes ($emit) -->
 
 ## Contrat d'équipe
 
@@ -183,7 +188,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 - [ ] Poussez tout vers GitHub et lorsque terminé, veuillez montrer le otut à votre enseignante.
 
 
-## Révision composantes Vue.js
+## Composantes Vue.js
 
 ### Quiz time!
 
@@ -191,31 +196,15 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 - [Groupe merc PM](https://app.wooclap.com/)
 
 
-### Composantes Vue
+### Composantes Vue (révision)
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/composante.html">La composante et ses props</a>
 </div>
 
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/composante.html">Composante: props (en savoir plus)</a>
-</div>
 
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/sfc.html">Composante: Le SFC (Single File Component)</a>
-</div>
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/emit.html">Composante: Émettre des événements vers le parent via `$emit`</a>
-</div>
-
-
-
-### Exercices composante
+### Révision exercices composante
 
 [Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button} 
 <!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/xxMJpYM) -->
@@ -227,6 +216,27 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 <!-- ➜ [Solution instructions avec composante💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsB7i4C1d4I94XjqnIMI0DTaA?e=Ai0gC1) -->
 
 <!-- à mettre à jour au besoin pour faire le lien entre composante et app ($emit) -->
+
+---
+
+### Suite composantes Vue
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/props.html">Composante: props (en savoir plus)</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/sfc.html">Composante: Le SFC (Single File Component)</a>
+</div>
+<!-- 
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/emit.html">Composante: Émettre des événements vers le parent via `$emit`</a>
+</div>
+-->
+
 
 <!--
 Peut-être un ajout?

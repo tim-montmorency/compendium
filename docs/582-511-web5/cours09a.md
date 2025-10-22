@@ -10,15 +10,19 @@
   - Préparer la présentation orale (les instructions plus précises vous seront fournie lundi prochain)
 
 
-  
+
 <!-- 
 Tailwind : cadriciel CSS
 -->
 
 ## SCRUM d'équipe
 
+## Composantes Vue (suite)
 
-
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/emit.html">Composante: Émettre des événements vers le parent via `$emit`</a>
+</div>
 
 
 
