@@ -6,9 +6,6 @@
 Remise de la planification et design du projet intégrateur
 -->
 
-
-
-
 ## Remise phase 1 du projet *App web créative*
 
 Quelques instructions en début de cours (vous pouvez le faire dans les 10 premières minutes du cours)
@@ -85,7 +82,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 ### Quiz time!
 
 - [Groupe merc AM](https://app.wooclap.com/UKUUIJ)
-- [Groupe merc PM](https://app.wooclap.com/)
+- [Groupe merc PM](https://app.wooclap.com/NZOCFF)
 
 
 ### Composantes Vue (révision)
@@ -111,8 +108,10 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 
 
 
----
 
+<!-- 
+
+---
 ### Props (suite)
 
 <div class="class-content-link">
@@ -130,7 +129,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/sfc.html">Composante: Le SFC (Single File Component)</a>
 </div>
-<!-- 
+
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/emit.html">Composante: Émettre des événements vers le parent via `$emit`</a>
@@ -146,6 +145,8 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 
 
 ## Devoirs
+
+- Compléter exercice sushis y compris la partie "composante" d'ici lundi le 27 octobre.
 
 - Compléter ton portfolio d'ici le 29 octobre
   - [Instructions générales et critères d'évaluation](./projets/portfolio.md)
