@@ -4,32 +4,32 @@
 
 ### À quoi ça sert?
 
-Une composante Vue est un **bloc de code réutilisable** qui encapsule du HTML, du JavaScript et du CSS. C'est comme une pièce de LEGO que tu peux utiliser plusieurs fois dans ton application.
+Une composante Vue est un *bloc de code réutilisable* qui encapsule du HTML, du JavaScript et du CSS. C'est comme une pièce de LEGO que tu peux utiliser plusieurs fois dans ton application.
 
 Les composantes servent à:
 
-- **Réutiliser du code** - Écris une fois, utilise partout
-- **Organiser ton application** - Divise ton interface en morceaux logiques
-- **Maintenir facilement** - Change une composante sans affecter le reste
-- **Collaborer** - Chaque développeur peut travailler sur sa composante
+- *Réutiliser du code* - Écris une fois, utilise partout
+- *Organiser ton application* - Divise ton interface en morceaux logiques
+- *Maintenir facilement* - Change une composante sans affecter le reste
+- *Collaborer* - Chaque développeur peut travailler sur sa composante
 
 ### Comment ça marche?
 
 Une composante Vue a trois parties principales:
 
-1. **Template** (HTML) - Ce que l'utilisateur voit
-2. **Script** (JavaScript) - La logique et les données
-3. **Style** (CSS) - L'apparence visuelle
+1. *Template* (HTML) - Ce que l'utilisateur voit
+2. *Script* (JavaScript) - La logique et les données
+3. *Style* (CSS) - L'apparence visuelle
 
 Les composantes peuvent:
 
-- Avoir leurs propres **données** (data)
-- Recevoir des **props** (données des parents)
-- Émettre des **événements** vers les parents
-- Avoir des **méthodes** et des propriétés **computed**
+- Avoir leurs propres *données* (data)
+- Recevoir des *props* (données des parents)
+- Émettre des *événements* vers les parents
+- Avoir des *méthodes* et des propriétés *computed*
 
 
-## SFC - Single File COmponent
+## SFC - Single File Component
 
 
 Les *SFC (Single File Components)*, ou composantes monofichiers en français, sont des fichiers permettant de regrouper à la fois un template HTML, la logique JavaScript et les styles CSS d’une composante à l’intérieur d’un seul et même fichier. 
@@ -76,7 +76,7 @@ export default {
 
 ## Importation d'une composante SFC
 
-Les composantes SFC peuvent être importées dans un projet Vue comme tout module JavaScript importé via <a target="_blank" rel="noopener noreferrer" href="https://tim-montmorency.com/timdoc/582-518MO/javascript/npm">NPM</a>.
+Les composantes SFC peuvent être importées dans un projet Vue comme tout <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Modules" target="_blank" rel="noopener noreferrer">module JavaScript standard</a>.
 
 ```
 import Menu from './components/Menu.vue'

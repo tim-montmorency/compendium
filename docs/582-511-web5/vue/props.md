@@ -42,7 +42,7 @@ app.component('userCard', {
 app.mount('#app');
 ```
 
-**Utilisation du côté HTML:**
+*Utilisation du côté HTML:*
 
 ```vue
 <userCard name="Jean" age="25" email="jean@example.com" />
@@ -77,7 +77,7 @@ app.component('productCard', {
 app.mount('#app');
 ```
 
-**Utilisation:**
+*Utilisation:*
 
 ```vue
 <productCard 
@@ -97,7 +97,7 @@ app.mount('#app');
 
 ### ✅ Bonnes pratiques
 
-1. **Toujours définir le type**
+1. *Toujours définir le type*
 
 ```vue
 props: {
@@ -105,14 +105,14 @@ props: {
 }
 ```
 
-2. **Utiliser v-bind pour les non-strings**
+2. *Utiliser v-bind pour les non-strings*
 
 ```vue
 <Component :count="42" />  <!-- ✅ Bon (nombre) -->
 <Component count="42" />   <!-- ❌ Mauvais (string "42") -->
 ```
 
-3. **Valeurs par défaut pour objets/tableaux = fonction**
+3. *Valeurs par défaut pour objets/tableaux = fonction*
 
 ```vue
 props: {
@@ -123,7 +123,7 @@ props: {
 }
 ```
 
-4. **Ne jamais modifier une prop directement**
+4. *Ne jamais modifier une prop directement*
 
 ```vue
 // ❌ MAUVAIS
@@ -175,7 +175,7 @@ methods: {
 
 ## Props vs Data
 
-| **Props** | **Data** |
+| *Props* | *Data* |
 |-----------|----------|
 | Viennent du parent | Définies localement |
 | En lecture seule | Modifiables |
@@ -184,10 +184,10 @@ methods: {
 
 ## Récapitulatif
 
-- Les **props** permettent de passer des données du parent à l'enfant
-- Toujours utiliser **v-bind** (`:`) pour les types non-string
-- Les props sont **immutables** dans la composante enfant
-- Utilise des **validateurs** pour garantir des données valides
-- Définis des **valeurs par défaut** pour améliorer la robustesse
+- Les *props* permettent de passer des données du parent à l'enfant
+- Toujours utiliser *v-bind* (`:`) pour les types non-string
+- Les props sont *immutables* dans la composante enfant
+- Utilise des *validateurs* pour garantir des données valides
+- Définis des *valeurs par défaut* pour améliorer la robustesse
 
 
