@@ -252,6 +252,8 @@ nav:
         - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
         - Composante: 582-511-web5/vue/composante.md
+        - Props: 582-511-web5/vue/props.md
+        - SFC:  582-511-web5/vue/sfc.md
       - Fetch API:
         - 582-511-web5/fetch.md
         - Fetch API: 582-511-web5/fetch.html#fetch-api

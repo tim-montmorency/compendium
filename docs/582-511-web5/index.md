@@ -43,7 +43,9 @@
 - [Vue: Tableau[ ] + boucle v-for](./vue/boucle.md)
 - [Vue: Éléments d'un formulaire](./vue/elements-de-formulaire.md)
 - [Vue: Propriété calculée](./vue/propriete-calculee.md)
-- [VUE: Composante](./vue/composante.md)
+- [Vue: Composante](./vue/composante.md)
+- [Vue: Props](./vue/props.md)
+- [Vue: SFC - Single File Component](./vue/sfc.md)
 
 
 
