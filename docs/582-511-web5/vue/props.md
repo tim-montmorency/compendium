@@ -1,4 +1,4 @@
-# props (dans le contexte d'une composante Vue)
+# Props (composante Vue)
 
 Une `prop` (propriété) est un moyen de passer des *données du parent vers l'enfant* (de l'app Vue principale vers la composante enfant). C'est comme passer un paramètre vers fonction JavaScript, mais pour les composantes.
 
@@ -97,7 +97,7 @@ app.mount('#app');
 
 ### ✅ Bonnes pratiques
 
-1. *Toujours définir le type*
+*Toujours définir le type (Number, String, Boolean, Object, Array...)*
 
 ```vue
 props: {
@@ -105,14 +105,14 @@ props: {
 }
 ```
 
-2. *Utiliser v-bind pour les non-strings*
+*Utiliser v-bind (`:` ou `v-bind:`) pour les valeurs qui ne sont pas des chaînes de caractères (String)*
 
 ```vue
 <Component :count="42" />  <!-- ✅ Bon (nombre) -->
 <Component count="42" />   <!-- ❌ Mauvais (string "42") -->
 ```
 
-3. *Valeurs par défaut pour objets/tableaux = fonction*
+*Valeurs par défaut pour objets/tableaux = fonction*
 
 ```vue
 props: {
@@ -123,7 +123,7 @@ props: {
 }
 ```
 
-4. *Ne jamais modifier une prop directement*
+*Ne jamais modifier une prop directement*
 
 ```vue
 // ❌ MAUVAIS
@@ -151,7 +151,7 @@ methods: {
 ### 🚫 Erreurs communes
 
 ```vue
-<!-- ❌ Oublier v-bind pour les types non-string -->
+<!-- ❌ Oublier v-bind pour les types qui ne sont pas des chaines de caratères (non-string) -->
 <Component count="5" />  <!-- C'est une string "5", pas un nombre! -->
 
 <!-- ✅ Correct -->
@@ -161,16 +161,10 @@ methods: {
 props: ['user'],
 methods: {
   updateName() {
-    this.user.name = 'Nouveau nom';  // ❌ Ne modifie pas les props!
+    this.user = 'Nouveau nom';  // ❌ Ne modifie pas les props!
   }
 }
 
-<!-- ✅ Émettre un événement au parent -->
-methods: {
-  updateName() {
-    this.$emit('update:user', { ...this.user, name: 'Nouveau nom' });
-  }
-}
 ```
 
 ## Props vs Data
@@ -189,5 +183,3 @@ methods: {
 - Les props sont *immutables* dans la composante enfant
 - Utilise des *validateurs* pour garantir des données valides
 - Définis des *valeurs par défaut* pour améliorer la robustesse
-
-
