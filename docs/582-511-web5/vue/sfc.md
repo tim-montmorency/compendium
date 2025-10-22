@@ -74,7 +74,7 @@ export default {
 
 
 
-### Importation d'une composante SFC
+## Importation d'une composante SFC
 
 Les composantes SFC peuvent être importées dans un projet Vue comme tout module JavaScript importé via <a target="_blank" rel="noopener noreferrer" href="https://tim-montmorency.com/timdoc/582-518MO/javascript/npm">NPM</a>.
 
@@ -86,7 +86,7 @@ import Menu from './components/Menu.vue'
     La norme veut que les noms de modules commencent par une majuscule. Dans l'exemple précédent, le module est nommé *Menu*.
 
 
-### CSS à portée limitée (Scoped CSS)
+## CSS à portée limitée (Scoped CSS)
 
 Dans le cadre d’un fichier *SFC,* la balise style peut se voir avoir l’attribut `scoped`. Cet attribut indique que les styles en question ne peuvent s’appliquer qu’aux éléments à l’intérieur de cette composante uniquement.
 
@@ -151,7 +151,7 @@ Par exemple:
 
 
 
-### Compilateurs SFC
+## Compilateurs SFC
 
 - [Vite](https://vite.dev/)
 - [Vue CLI](https://cli.vuejs.org/)
