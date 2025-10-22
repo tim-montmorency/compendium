@@ -207,15 +207,13 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 ### Révision exercices composante
 
 [Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-composante-cartes/){ .md-button} 
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/xxMJpYM) -->
+➜ [Solution💡](https://codepen.io/tim-momo/pen/xxMJpYM)
 
+[Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
+ ➜ [Solution instructions de base💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EhtC7SIixSJBgmnqcpJHT9YBdJE-3Q31KJRaOIOgiWyySw?e=wPw9A3)
 
-[Composantes cartes](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
-<!-- ➜ [Solution instructions de base💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EhtC7SIixSJBgmnqcpJHT9YBYSnK6fqvDxzRhjI31Vgicg?e=XQAxwS) -->
+➜ [Solution instructions avec composante (partielle, sans le total)💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsBcLierKi6KqNczpNX8nzb_Q?e=Y6ahig) 
 
-<!-- ➜ [Solution instructions avec composante💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsB7i4C1d4I94XjqnIMI0DTaA?e=Ai0gC1) -->
-
-<!-- à mettre à jour au besoin pour faire le lien entre composante et app ($emit) -->
 
 ---
 
