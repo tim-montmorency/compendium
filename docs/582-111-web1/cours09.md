@@ -505,6 +505,12 @@ ol {
 }
 ```
 
+<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS list inside" src="https://codepen.io/tim-momo/embed/jEWxPQq?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jEWxPQq">
+  Web 1 - CSS list inside</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 | Type | Description | Exemple |
 |------|-------------|---------|
 | `disc` | Puce pleine (valeur par défaut) | • |
@@ -522,6 +528,12 @@ ul {
   list-style-position: inside;
 }
 ```
+
+<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS list style none" src="https://codepen.io/tim-momo/embed/emJrNyB?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/emJrNyB">
+  Web 1 - CSS list style none</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 Les valeurs possibles sont `inside` et `outside`.
 
