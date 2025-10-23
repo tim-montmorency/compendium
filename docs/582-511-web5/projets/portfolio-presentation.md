@@ -1,9 +1,9 @@
-## Présentation finale du portfolio
+# Présentation finale du portfolio
 
 Chaque étudiant·e doit présenter son *portfolio web finalisé* devant la classe.  
 Durée suggérée : *5 à 7 minutes*, suivie d’une courte période de questions.
 
-### Objectif
+## Objectif
 
 Présenter *le résultat final*, mais surtout *le processus de création* : comment tu es arrivé·e à ce résultat, quelles décisions tu as prises, ce que tu as appris.
 
