@@ -537,11 +537,11 @@ Les valeurs possibles sont `inside` et `outside`.
 	}
 	```
 
-  <iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow" src="https://codepen.io/tim-momo/embed/YPwaREz?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/tim-momo/pen/YPwaREz">
-    Web 1 - CSS text-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-    on <a href="https://codepen.io">CodePen</a>.
-  </iframe>
+    <iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow" src="https://codepen.io/tim-momo/embed/YPwaREz?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/YPwaREz">
+      Web 1 - CSS text-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+      on <a href="https://codepen.io">CodePen</a>.
+    </iframe>
 
 ## Métadonnées
 
