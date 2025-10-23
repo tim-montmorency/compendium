@@ -11,9 +11,10 @@
 - 11h à 12h - Conseillère d'orientation - Camille Lafond
 
 ### Kiosques
-De 12h30 à 15h30 au grand studio
-* UQAT (2 campus)
-* ETS
+De 12h30 à 15h30 au grand studio  
+
+* UQAT (2 campus)  
+* ETS  
 
 ### Groupe PM 
 - 16h à 17h - Conseillère d'orientation - Camille Lafond
