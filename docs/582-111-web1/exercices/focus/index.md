@@ -32,7 +32,7 @@ Appliquer les styles suivants à la classe `focus`
 - [ ] Police de caractères « Poppins »
 - [ ] Taille de caractères de `25vw`
 - [ ] Couleur de texte en blanc
-- [ ] Bordure de caractères de 3px en « turquoise »
+- [ ] Bordure de caractères de 5px en « turquoise »
 - [ ] Gras
 - [ ] Italic
 - [ ] Espacement de lettre de `-5vw`
