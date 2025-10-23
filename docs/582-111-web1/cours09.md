@@ -16,7 +16,7 @@ div{
 }
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient multicolore" src="https://codepen.io/tim-momo/embed/QwymWaa?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient multicolore" src="https://codepen.io/tim-momo/embed/QwymWaa?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/QwymWaa">
   Web1 - gradient multicolore</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -34,7 +34,7 @@ Orientations possibles : `to bottom` (par défaut), `to top`, `to right`, `to le
 	}
 	```
 
-	<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient" src="https://codepen.io/tim-momo/embed/KwVoKyo?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+	<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient" src="https://codepen.io/tim-momo/embed/KwVoKyo?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 		See the Pen <a href="https://codepen.io/tim-momo/pen/KwVoKyo">
 		Web1 - gradient</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 		on <a href="https://codepen.io">CodePen</a>.
@@ -50,7 +50,7 @@ div{
 }
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient linéaire" src="https://codepen.io/tim-momo/embed/emJMYyP?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient linéaire" src="https://codepen.io/tim-momo/embed/emJMYyP?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/emJMYyP">
   Web1 - gradient linéaire</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -77,7 +77,7 @@ p {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS letter spacing" src="https://codepen.io/tim-momo/embed/emJMYoX?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS letter spacing" src="https://codepen.io/tim-momo/embed/emJMYoX?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/emJMYoX">
   Web 1 - CSS letter spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -91,7 +91,7 @@ p {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS border radius" src="https://codepen.io/tim-momo/embed/RNrMwEo?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS border radius" src="https://codepen.io/tim-momo/embed/RNrMwEo?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/RNrMwEo">
   Web 1 - CSS border radius</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -105,7 +105,7 @@ body {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS word spacing" src="https://codepen.io/tim-momo/embed/LEGdEEN?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS word spacing" src="https://codepen.io/tim-momo/embed/LEGdEEN?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/LEGdEEN">
   Web 1 - CSS word spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -137,7 +137,7 @@ body {
 
 ### font-size
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS word spacing" src="https://codepen.io/tim-momo/embed/jEWzEbQ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS word spacing" src="https://codepen.io/tim-momo/embed/jEWzEbQ?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/jEWzEbQ">
   Web 1 - CSS word spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -153,7 +153,7 @@ Par défaut, si aucune taille n'est spécifiée, les navigateurs attribuent la t
 
 ### font-weight
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/myVxyVM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/myVxyVM?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/myVxyVM">
   Web 1 - CSS font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -178,7 +178,7 @@ Quelques valeurs possibles :
 
 ### Interlignage
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/GgoxgZM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/GgoxgZM?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/GgoxgZM">
   Web 1 - CSS font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -196,7 +196,7 @@ Peut être une valeur fixe (11px) ou ratio (ex.: 2)
 
 ### color
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/MYKVYed?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/MYKVYed?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/MYKVYed">
   Web 1 - CSS font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -212,7 +212,7 @@ Les valeurs possibles sont les [couleurs Web](https://developer.mozilla.org/fr/d
 
 ### font-style
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS color" src="https://codepen.io/tim-momo/embed/gbPebwo?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS color" src="https://codepen.io/tim-momo/embed/gbPebwo?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/gbPebwo">
   Web 1 - CSS color</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -231,7 +231,7 @@ Valeur possible :
 
 ### Alignement
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/raxdYJq?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/raxdYJq?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/raxdYJq">
   Web 1 - CSS font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -249,7 +249,7 @@ Il y a aussi `justify`, mais cette mise en forme est généralement déconseill�
 
 ### transformation
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/myVxqxP?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/myVxqxP?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/myVxqxP">
   Web 1 - CSS font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -265,7 +265,7 @@ Quelques valeurs possibles sont : `none`, `uppercase`, `lowercase` et `capitaliz
 
 ### décoration
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-transform" src="https://codepen.io/tim-momo/embed/PwZROeb?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-transform" src="https://codepen.io/tim-momo/embed/PwZROeb?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/PwZROeb">
   Web 1 - CSS text-transform</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -285,7 +285,7 @@ Ce style est appliqué par défaut sur les liens pour spécifier qu'il en est un
 
 La propriété `-webkit-text-stroke`, bien que non standard (d'où son préfixe `-webkit-`), est prise en charge par les principaux navigateurs.
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/emJMeRK?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/emJMeRK?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/emJMeRK">
   Web 1 - CSS font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -300,7 +300,7 @@ h1 {
 
 ### text-shadow
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow multi" src="https://codepen.io/tim-momo/embed/gbPeXQg?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow multi" src="https://codepen.io/tim-momo/embed/gbPeXQg?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/gbPeXQg">
   Web 1 - CSS text-shadow multi</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -318,7 +318,7 @@ p {
 
 	Il est possible d'ajouter plusieurs ombres à un même texte si désiré en séparant chaque ombre par une virgule.
 
-	<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-decoration" src="https://codepen.io/tim-momo/embed/vELRWrL?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+	<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-decoration" src="https://codepen.io/tim-momo/embed/vELRWrL?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 		See the Pen <a href="https://codepen.io/tim-momo/pen/vELRWrL">
 		Web 1 - CSS text-decoration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 		on <a href="https://codepen.io">CodePen</a>.
@@ -351,7 +351,7 @@ L’accessibilité Web consiste à concevoir des sites utilisables par toutes le
 
 ## Unités CSS
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - relative vs absolute" src="https://codepen.io/tim-momo/embed/OPMvzyO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - relative vs absolute" src="https://codepen.io/tim-momo/embed/OPMvzyO?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/OPMvzyO">
   Web1 - relative vs absolute</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -407,7 +407,7 @@ a:hover {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS active" src="https://codepen.io/tim-momo/embed/MYKVzpQ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS active" src="https://codepen.io/tim-momo/embed/MYKVzpQ?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/MYKVzpQ">
   Web 1 - CSS active</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -423,7 +423,7 @@ a:active {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/NPxYEbd?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/NPxYEbd?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/NPxYEbd">
   Web 1 - CSS hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -439,7 +439,7 @@ input:focus {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/JoGLeRw?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/JoGLeRw?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/JoGLeRw">
   Web 1 - CSS hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -464,7 +464,7 @@ div {
 }
 ```
 
-<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/NPxYEjp?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/NPxYEjp?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/NPxYEjp">
   Web 1 - CSS hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -481,7 +481,7 @@ div {
 }
 ```
 
-<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS max-width" src="https://codepen.io/tim-momo/embed/bNEvQRg?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS max-width" src="https://codepen.io/tim-momo/embed/bNEvQRg?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/bNEvQRg">
   Web 1 - CSS max-width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -537,7 +537,7 @@ Les valeurs possibles sont `inside` et `outside`.
 	}
 	```
 
-  <iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow" src="https://codepen.io/tim-momo/embed/YPwaREz?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  <iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow" src="https://codepen.io/tim-momo/embed/YPwaREz?default-tab=result&theme-id=50173&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
     See the Pen <a href="https://codepen.io/tim-momo/pen/YPwaREz">
     Web 1 - CSS text-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
     on <a href="https://codepen.io">CodePen</a>.
