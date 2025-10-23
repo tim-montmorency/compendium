@@ -390,6 +390,18 @@ Elles permettent de créer des mises en page souples et adaptatives, essentielle
 | vw    | 1% de la largeur de la fenêtre (viewport width) | Exemple : 50vw = moitié de la largeur de l’écran | 
 | vh    | 1% de la hauteur de la fenêtre (viewport height) | Exemple : 100vh = hauteur complète de la fenêtre |
 
+<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS letter spacing" src="https://codepen.io/tim-momo/embed/ByjxayN?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ByjxayN">
+  Web 1 - CSS letter spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS em" src="https://codepen.io/tim-momo/embed/emJrpZy?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/emJrpZy">
+  Web 1 - CSS em</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ## États interactifs CSS
 
 Les pseudo-classes permettent de styliser un élément selon un état temporaire ou une interaction de l’utilisateur (survol, clic, sélection, etc.).
