@@ -401,15 +401,27 @@ a:hover {
 }
 ```
 
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS active" src="https://codepen.io/tim-momo/embed/MYKVzpQ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/MYKVzpQ">
+  Web 1 - CSS active</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ### :active
 
 Quand l’utilisateur clique ou maintient le bouton de la souris sur l’élément.
 
 ```css
-button:active {
-  transform: scale(0.98);
+a:active {
+  color: violet;
 }
 ```
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/NPxYEbd?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/NPxYEbd">
+  Web 1 - CSS hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### :focus
 
@@ -417,9 +429,15 @@ Quand un élément reçoit le focus du clavier (ex. : champ de formulaire actif,
 
 ```css
 input:focus {
-  outline: 2px solid blue;
+  outline: 5px solid deeppink;
 }
 ```
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/JoGLeRw?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/JoGLeRw">
+  Web 1 - CSS hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### Autres pseudo-classes utiles
 
@@ -429,16 +447,22 @@ input:focus {
 | `:disabled` | Élément inactif (ex. : bouton désactivé) | Griser un bouton de formulaire |
 | `:checked` | Élément coché (case à cocher ou bouton radio) | Afficher une option active |
 
-## Width & Height
+## Width et height
 
 Les propriétés `width` et `height` permettent de définir la largeur et la hauteur d’un élément.
 
 ```css
 div {
-  width: 60%;
-  height: 100px;
+  width: 75%;
+  height: 40px;
 }
 ```
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS hover" src="https://codepen.io/tim-momo/embed/NPxYEjp?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/NPxYEjp">
+  Web 1 - CSS hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### minimum et maximum
 
@@ -446,11 +470,16 @@ Les propriétés `min-width` et `max-width` permettent de fixer une largeur mini
 
 ```css
 div {
-  width: 50%;
-  min-width: 400px;
-  max-width: 1000px;
+  width: 75%;
+  min-width: 250px;
 }
 ```
+
+<iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS max-width" src="https://codepen.io/tim-momo/embed/bNEvQRg?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/bNEvQRg">
+  Web 1 - CSS max-width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 L’équivalent existe aussi pour la hauteur : `min-height` et `max-height`.
 
@@ -501,6 +530,12 @@ Les valeurs possibles sont `inside` et `outside`.
 	  padding: 0;
 	}
 	```
+
+  <iframe class="aspect-6-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow" src="https://codepen.io/tim-momo/embed/YPwaREz?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/tim-momo/pen/YPwaREz">
+    Web 1 - CSS text-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+  </iframe>
 
 ## Métadonnées
 
@@ -565,6 +600,13 @@ Ajoute un court texte (environ 155 caractères) utilisé par Google dans les ré
 
   <small>Exercice - CSS</small><br>
   **[Hey, focus !](./exercices/focus/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/kawaii/resultat.png)
+
+  <small>Exercice - CSS</small><br>
+  **[Kawaii](./exercices/kawaii/index.md){.stretched-link .back}**
 </div>
 
 ## Devoir
