@@ -7,7 +7,6 @@ Durée suggérée : *5 à 7 minutes*, suivie d’une courte période de question
 
 Présenter *le résultat final*, mais surtout *le processus de création de ton ortfolio* : comment tu es arrivé·e à ce résultat, quelles décisions tu as prises, ce que tu as appris.
 
-
 ## Structure
 
 ### 1. Introduction (30–60 s)
@@ -50,9 +49,7 @@ Présenter *le résultat final*, mais surtout *le processus de création de ton 
 - Si tu avais plus de temps, que changerais-tu ou améliorerais-tu?
 - Comment ce portfolio évoluera-t-il à l’avenir?
 
----
-
-## 💬 Conseils pratiques
+## Conseils pratiques
 
 - *Teste ton site avant la présentation* (liens, images, mise en page responsive).
 - *Prépare une phrase d’introduction* claire pour chaque partie.
