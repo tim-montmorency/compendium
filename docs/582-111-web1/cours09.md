@@ -218,6 +218,12 @@ Les valeurs possibles sont les [couleurs Web](https://developer.mozilla.org/fr/d
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+```css
+p {
+  font-style: italic;
+}
+```
+
 Valeur possible : 
 
 * normal (par défaut)
