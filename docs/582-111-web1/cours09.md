@@ -1,80 +1,188 @@
-# Cours 9
+# Cours 9 | CSS
 
-[STOP]
+## Dégradé de couleur
 
-PRÉVOIR UNE ÉVALUATION FORMATIVE
+Il est possible de générer un dégradé de couleur à titre d’image d’arrière-plan en utilisant les fonctions CSS `linear-gradient()` et `radial-gradient()`.
 
-<!-- Typographie
-Couleurs
-Alignements / décorations
-Unités
-États interactifs
-Dimensions et bordures 
+Les valeurs possibles sont les [couleurs Web](https://developer.mozilla.org/fr/docs/Web/CSS/color).
 
-	•	font-family (piles système + familles génériques), font-size (en px uniquement), font-style, font-weight.
-	•	line-height (valeur sans unité), letter-spacing, word-spacing.
-	•	text-align, text-indent, text-transform, text-decoration.
-	•	Listes : list-style-type, list-style-position.
-	•	États simples des liens : :link, :visited, :hover, :active (sans transitions).
+### Dégradé linéaire
 
+```css
+div{
+  background: linear-gradient(red, black);
+  /* ou */
+  background: linear-gradient(to bottom, red, black);
+}
+```
 
-Sélecteur avancé : + ~ >
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient multicolore" src="https://codepen.io/tim-momo/embed/QwymWaa?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QwymWaa">
+  Web1 - gradient multicolore</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
+Orientations possibles : `to bottom` (par défaut), `to top`, `to right`, `to left`, degré (ex. : `45deg`).
 
+!!! info "Multicolore"
 
+	On peut ajouter autant de couleurs que désiré.
 
-![icon (23)](https://github.com/user-attachments/assets/6f455992-36e5-4236-a2ac-62267f349a5a)
-[color, image, gradient](./css/background.md)
+	```css
+	div{
+	  background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+	}
+	```
 
-![icon (34)](https://github.com/user-attachments/assets/33391f82-c560-4ff9-b4ed-5eef66a32820)
-[hex, rgb, hsl, etc.](./css/unitees-de-couleur.md)
+	<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient" src="https://codepen.io/tim-momo/embed/KwVoKyo?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+		See the Pen <a href="https://codepen.io/tim-momo/pen/KwVoKyo">
+		Web1 - gradient</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+		on <a href="https://codepen.io">CodePen</a>.
+	</iframe>
 
+### Dégradé circulaire
 
--->
+```css
+div{
+  background: radial-gradient(red, black);
+  /* ou */
+  background: radial-gradient(ellipse, red, black);
+}
+```
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - gradient linéaire" src="https://codepen.io/tim-momo/embed/emJMYyP?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/emJMYyP">
+  Web1 - gradient linéaire</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
+Formes : `ellipse` (par défaut), `circle`
 
-## Propriétés typographiques
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/gradient-generator.png)
+
+  <small>Outil</small><br>
+  **[Gestionnaire de dégradé CSS](https://cssgradient.io/){.stretched-link .back}**
+</div>
+
+## Typographie
+
+![](./assets/images/aaaaa.png){.w-100}
+
+### `letter-spacing`
+
+```css
+p {
+  letter-spacing: 10px;
+}
+```
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS letter spacing" src="https://codepen.io/tim-momo/embed/emJMYoX?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/emJMYoX">
+  Web 1 - CSS letter spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### `word-spacing`
+
+```css
+p {
+  word-spacing: 10px;
+}
+```
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS border radius" src="https://codepen.io/tim-momo/embed/RNrMwEo?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/RNrMwEo">
+  Web 1 - CSS border radius</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### font-family
 
-Définit la police utilisée.
+```css
+body {
+  font-family: Arial;
+}
+```
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS word spacing" src="https://codepen.io/tim-momo/embed/LEGdEEN?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/LEGdEEN">
+  Web 1 - CSS word spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+Polices Web‑safe: polices par défaut du Web. Tous les navigateurs peuvent afficher ces fontes: Arial, Times, Tahoma, Verdana, Trebuchet MS, monospace, serif, sans‑serif.
+
+Il est également possible d'ajouter d'autres fontes. Pour cela, soit la police est déjà installée sur l'ordinateur de l'utilisateur, soit on lui fait télécharger une police au chargement de la page.
+
+#### Google Fonts
+
+![](./assets/images/googlefonts.png){.w-50}
+
+La méthode simple d'installer une fonte externe est d'y aller avec [Google Fonts](https://fonts.google.com/).
+
+!!! example "Installer une police Google"
+
+    **🧑‍🏫 Démo du prof**, prenez des notes ;)
+
+#### Substitution
+
+On peut aussi ajouter des fontes de substitution (aussi appelées "_fallbacks_") si la fonte choisie n'est pas disponible chez l'utilisateur.
 
 ```css
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 ```
-
-Bonnes pratiques :
-	•	Utiliser une pile de polices (fallbacks)
-	•	Préférer des polices Web-safe ou utiliser Google Fonts
 
 ### font-size
 
-Taille du texte.
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS word spacing" src="https://codepen.io/tim-momo/embed/jEWzEbQ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/jEWzEbQ">
+  Web 1 - CSS word spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ```css
 h1 {
-  font-size: 2em;
+  font-size: 32px;
 }
 ```
 
-Unités communes :
-	•	px : pixels fixes
-	•	em / rem : relatives (accessibilité recommandée)
+Par défaut, si aucune taille n'est spécifiée, les navigateurs attribuent la taille de **16px** aux textes. 
 
 ### font-weight
 
-Épaisseur de la police.
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/myVxyVM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/myVxyVM">
+  Web 1 - CSS font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ```css
 a {
-  font-weight: bold; /* ou 700 */
+  font-weight: bold;
 }
 ```
 
-### line-height**
+Quelques valeurs possibles : 
+
+* `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800` et `900`
+* `bold`, `normal`
+
+!!! warning "Toutes les polices ne sont pas égales"
+
+	![](./assets/images/variantes-fonts.jpg){data-zoom-image}
+
+	Les différentes épaisseurs de police (`font-weight`) sont configurables si la police elle même a des variantes d'épaisseurs.
+
+### Interlignage
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/GgoxgZM?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/GgoxgZM">
+  Web 1 - CSS font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 Espacement entre les lignes.
 
@@ -84,11 +192,44 @@ p {
 }
 ```
 
-## Alignements et décorations
+Peut être une valeur fixe (11px) ou ratio (ex.: 2)
 
-### text-align
+### color
 
-Alignement horizontal :
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-size" src="https://codepen.io/tim-momo/embed/MYKVYed?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/MYKVYed">
+  Web 1 - CSS font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+```css
+p {
+  color: #ff0000;
+}
+```
+
+Les valeurs possibles sont les [couleurs Web](https://developer.mozilla.org/fr/docs/Web/CSS/color).
+
+### font-style
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS color" src="https://codepen.io/tim-momo/embed/gbPebwo?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/gbPebwo">
+  Web 1 - CSS color</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+Valeur possible : 
+
+* normal (par défaut)
+* italic
+
+### Alignement
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/raxdYJq?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/raxdYJq">
+  Web 1 - CSS font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ```css
 p {
@@ -96,21 +237,17 @@ p {
 }
 ```
 
-### text-decoration
+Les valeurs possibles sont : `left`, `right` et `center`.
 
-Ajoute une ligne :
+Il y a aussi `justify`, mais cette mise en forme est généralement déconseillée en Web.
 
-```css
-a {
-  text-decoration: underline;
-}
-```
+### transformation
 
-Autres valeurs : none, overline, line-through
-
-### text-transform
-
-Transforme la casse :
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/myVxqxP?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/myVxqxP">
+  Web 1 - CSS font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ```css
 h1 {
@@ -118,44 +255,155 @@ h1 {
 }
 ```
 
-## Couleurs et unités
+Quelques valeurs possibles sont : `none`, `uppercase`, `lowercase` et `capitalize`.
 
-Couleurs CSS
-	•	Mots-clés : black, white, red, etc.
-	•	Hexadécimal : #ff0000
-	•	RGB / RGBA : rgb(255, 0, 0), rgba(255, 0, 0, 0.5)
-	•	HSL / HSLA : hsl(0, 100%, 50%)
+### décoration
 
-Bonnes pratiques :
-	•	Contraste suffisant pour l’accessibilité
-	•	Cohérence visuelle (charte graphique)
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-transform" src="https://codepen.io/tim-momo/embed/PwZROeb?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/PwZROeb">
+  Web 1 - CSS text-transform</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+```css
+a {
+  text-decoration: underline;
+}
+```
+
+Quelques valeurs possibles : `none`, `underline` et `line-through`
+
+Ce style est appliqué par défaut sur les liens pour spécifier qu'il en est un.
+
+### text-stroke
+
+La propriété `-webkit-text-stroke`, bien que non standard (d'où son préfixe `-webkit-`), est prise en charge par les principaux navigateurs.
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS font-style" src="https://codepen.io/tim-momo/embed/emJMeRK?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/emJMeRK">
+  Web 1 - CSS font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+```css
+h1 {
+  -webkit-text-stroke: 2px red;
+  text-stroke: 2px red; /* pour le futur */
+}
+```
+
+### text-shadow
+
+<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-shadow multi" src="https://codepen.io/tim-momo/embed/gbPeXQg?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/gbPeXQg">
+  Web 1 - CSS text-shadow multi</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+```css
+p {
+  text-shadow: 2px 2px red;
+  /* ou */
+  text-shadow: 3px 3px 10px red;
+}
+```
+
+!!! info "Multicouches"
+
+	Il est possible d'ajouter plusieurs ombres à un même texte si désiré en séparant chaque ombre par une virgule.
+
+	<iframe class="aspect-8-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS text-decoration" src="https://codepen.io/tim-momo/embed/vELRWrL?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+		See the Pen <a href="https://codepen.io/tim-momo/pen/vELRWrL">
+		Web 1 - CSS text-decoration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+		on <a href="https://codepen.io">CodePen</a>.
+	</iframe>
+
+	```css
+	p {
+	  text-shadow: 2px 2px red, 4px 4px blue;
+	}
+	```
+
+## Couleurs et contrastes
+
+![](./assets/images/poorcontrast.jpg){.w-100}
+
+Le contraste des couleurs est important pour l'accessibilité et l'efficacité de votre design.
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/contrastcheck.png)
+
+  <small>Outil</small><br>
+  **[Valideur de contraste](https://colourcontrast.cc/){.stretched-link .back}**
+</div>
+
+### Accessibilité Web
+
+![](./assets/images/glasses.gif){.w-50}
+
+L’accessibilité Web consiste à concevoir des sites utilisables par toutes les personnes, y compris celles ayant des limitations physiques ou cognitives, afin de garantir une expérience **équitable** et **inclusive** pour tous les utilisateurs.
 
 ## Unités CSS
 
-| Unité | Signification | Exemple |
-| ----- | ------------- | ------- |
-| px    | pixels (absolue) | font-size: 16px; |
-| % | pourcentage par rapport au parent | width: 80%; |
-| em | relatif à la taille du parent | font-size: 1.2em; |
-| rem | relatif à la taille du html root | font-size: 1rem; |
+<iframe height="300" style="width: 100%;" scrolling="no" title="Web1 - relative vs absolute" src="https://codepen.io/tim-momo/embed/OPMvzyO?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/OPMvzyO">
+  Web1 - relative vs absolute</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+En CSS, il existe deux grandes familles d’[unités](https://developer.mozilla.org/en-US/docs/Web/CSS/length) de mesure pour définir les dimensions (largeur, hauteur, marges, etc.) ou la taille du texte :
+
+* les unités absolues (fixes)
+* les unités relatives (variables selon leur contexte)
+
+### Unités absolues
+
+Une unité absolue représente une taille fixe et indépendante du contexte d’affichage.
+Elle ne s’adapte ni à la taille de l’écran, ni à la taille du texte par défaut du navigateur.
+
+Ces unités sont surtout utilisées pour l’impression ou des éléments qui doivent garder une taille précise (ex. : un logo dans un document PDF).
+
+| Unité | Nom complet | Équivalence approximative |
+| ----- | ----------- | ------------------------- | 
+| px    | pixel       | 1 px = 1 point de l’écran |
+| cm    | centimètre  | 1 cm = 37.8 px |
+| in    | pouce       | 1 in = 96 px |
+| pt    | point       | 1 pt = 1.33 px | 
+
+### Unités relatives
+
+Les unités relatives varient selon un contexte : la taille de la police, la largeur du parent, ou la taille de la fenêtre du navigateur. 
+
+Elles permettent de créer des mises en page souples et adaptatives, essentielles pour le design [responsive](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/CSS_layout/Responsive_Design).
+
+| Unité | Signification | Référence |
+| ----- | ------------- | --------- | 
+| em    | Taille relative à la police de l’élément courant | Exemple : 2em = 2 × la taille de police actuelle |
+| rem   | Taille relative à la police du root (html) | Si on change le font-size de html, tout se modifie. Super pratique.|
+| %     | Pourcentage de la taille du parent | Exemple : width: 50% prend la moitié du conteneur | 
+| vw    | 1% de la largeur de la fenêtre (viewport width) | Exemple : 50vw = moitié de la largeur de l’écran | 
+| vh    | 1% de la hauteur de la fenêtre (viewport height) | Exemple : 100vh = hauteur complète de la fenêtre |
 
 ## États interactifs CSS
 
-Les pseudo-classes permettent de styliser les éléments en interaction.
+Les pseudo-classes permettent de styliser un élément selon un état temporaire ou une interaction de l’utilisateur (survol, clic, sélection, etc.).
+
+Elles commencent toujours par le caractère : et s’ajoutent au sélecteur de l’élément.
 
 ### :hover
 
-Quand la souris survole :
+Quand la souris survole un élément.
 
 ```css
 a:hover {
   color: orange;
+  text-decoration: underline;
 }
 ```
 
 ### :active
 
-Quand on clique :
+Quand l’utilisateur clique ou maintient le bouton de la souris sur l’élément.
 
 ```css
 button:active {
@@ -165,7 +413,7 @@ button:active {
 
 ### :focus
 
-Quand un élément est sélectionné (formulaire par exemple) :
+Quand un élément reçoit le focus du clavier (ex. : champ de formulaire actif, lien sélectionné via Tab).
 
 ```css
 input:focus {
@@ -173,170 +421,157 @@ input:focus {
 }
 ```
 
-## Dimensions et bordures
+### Autres pseudo-classes utiles
 
-width / height
-```css
-img {
-  width: 300px;
-  height: auto;
-}
-```
-
-border
-
-```css
-p {
-  border: 1px solid #ccc;
-}
-```
-
-Permet de dessiner un contour :
-
-Options :
-	•	Epaisseur (1px)
-	•	Style (solid, dashed, dotted)
-	•	Couleur
-
-Bordures arrondies
-
-```css
-div {
-  border-radius: 10px;
-}
-```
-
-[STOP]
-
-
-
-
-
-
-
-## Unités de mesure
-
-![icon (27)](https://github.com/user-attachments/assets/b31cd86a-995e-4437-8694-d82f492b3c92)
-
-
-[absolue, relative, %, em, rem](./css/unites-de-mesures.md)
-<br>
-<br>
-
-
-## Font
-
-![icon (28)](https://github.com/user-attachments/assets/596f22c1-5cf7-47d1-ae0c-c3936c0692e7)
-
-[color, family, weight, size, style, line-height](./css/font.md)
-<br>
-<br>
-
-
-## Text
-
-![icon (29)](https://github.com/user-attachments/assets/0368bb51-35c1-429f-8cfe-f7df3d5ec5d1)
-
-[align, decoration, transform, stroke, shadow](./css/text.md)
-<br>
-<br>
-
-
-## Text - Focus
-
-![thumb (9)](https://github.com/user-attachments/assets/20972e3c-ddb7-48e5-928c-dbace657b931)
-
-[Pour cet exercice, vous devez manipuler les propriétés de texte en CSS afin de recréer un effet typographique.](./exercices/focus.md)
-<br>
-<br>
-
+| Pseudo-classe | Déclencheur | Exemple d’usage |
+|---------------|--------------|-----------------|
+| `:visited` | Lien déjà visité | Changer la couleur d’un lien déjà cliqué |
+| `:disabled` | Élément inactif (ex. : bouton désactivé) | Griser un bouton de formulaire |
+| `:checked` | Élément coché (case à cocher ou bouton radio) | Afficher une option active |
 
 ## Width & Height
 
-![icon (30)](https://github.com/user-attachments/assets/976018f5-1ab2-4d61-9d60-79c7091bdb69)
+Les propriétés `width` et `height` permettent de définir la largeur et la hauteur d’un élément.
 
-[min-width/height, max-width/height](./css/width-height.md)
+```css
+div {
+  width: 60%;
+  height: 100px;
+}
+```
 
-Attention aux images pour ne pas les déformer
+### minimum et maximum
 
+Les propriétés `min-width` et `max-width` permettent de fixer une largeur minimale et maximale à un élément.
 
-<br>
-<br>
+```css
+div {
+  width: 50%;
+  min-width: 400px;
+  max-width: 1000px;
+}
+```
 
+L’équivalent existe aussi pour la hauteur : `min-height` et `max-height`.
 
-## Width/Height - Prévert
+## Listes
 
-![thumb (11)](https://github.com/user-attachments/assets/311cf19e-31ac-4fe4-ba48-9dbb1549ce3b)
+### list-style
 
+La propriété `list-style` permet de définir le type de puce ou de numérotation utilisé dans une liste.
 
-[Pour cet exercice vous devrez en CSS compléter l’affichage du célèbre poème: Le cancre, du français Jacques Prévert.](./exercices/prevert.md)
-<br>
-<br>
+```css
+ul {
+  list-style: square;
+}
 
-<br>
+ol {
+  list-style: upper-roman;
+}
+```
 
+| Type | Description | Exemple |
+|------|-------------|---------|
+| `disc` | Puce pleine (valeur par défaut) | • |
+| `circle` | Cercle vide | ○ |
+| `square` | Carré plein | ■ |
+| `decimal` | Chiffres | 1, 2, 3 |
+| `none` | Supprime les puces | |
+
+### list-style-position
+
+La propriété list-style-position contrôle la position des puces par rapport au texte.
+
+```css
+ul {
+  list-style-position: inside;
+}
+```
+
+Les valeurs possibles sont `inside` et `outside`.
+
+!!! example "Astuce"
+
+	Pour supprimer complètement les puces d’une liste et la styliser manuellement (souvent pour les menus) :
+
+	```css
+	ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+	}
+	```
 
 ## Métadonnées
 
-![icon (33)](https://github.com/user-attachments/assets/63ac5eab-ccbf-4d97-acea-9dc46c0df041)
+Les balises `<meta>` se placent dans la section `<head>` d’un document HTML.
 
-[type, title, description, image, url, etc.](./html/metadonnees.md)
-<br>
-<br>
+Elles servent à fournir des informations sur la page : encodage, auteur, description, langue, comportement mobile, etc.
 
+Elles ne s’affichent pas à l’écran, mais sont utilisées par les navigateurs, les moteurs de recherche et les réseaux sociaux.
 
+### Encodage (charset)
 
-<br>
-<br>
+Définit l’encodage des caractères utilisés dans la page.
+UTF-8 est la norme universelle (elle gère les accents, caractères spéciaux, emojis, etc.).
 
+```html
+<meta charset="utf-8">
+```
 
+### Affichage mobile (viewport)
 
+Balise essentielle pour un site [responsive](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/CSS_layout/Responsive_Design), elle permet d’adapter la mise en page aux écrans des appareils mobiles.
 
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
 
-![thumb (6)](https://github.com/user-attachments/assets/428b4319-7c08-489b-a76a-59241c648248)
-[Pour cet exercice, vous devrez recréer des mises en page inspirées du jeux Candy Crush en mettant à profit vos connaissances sur la propriété CSS background.](./exercices/candy-crush.md)
+### Description
 
-![thumb (7)](https://github.com/user-attachments/assets/633c1ddd-b569-49fa-8281-3c697115e191)
-[Pour cet exercice, vous devrez complétez la carte de présentation de Madeline, l’héroine du jeu Celeste.](./exercices/celeste.md)
+Ajoute un court texte (environ 155 caractères) utilisé par Google dans les résultats de recherche.
 
+```html
+<meta name="description" content="Programme de Techniques d’intégration multimédia du Collège Montmorency.">
+```
 
+### Autres balises meta utiles
 
-## Width/Height - System32
+| Nom | Rôle |
+|------|------|
+| `author` | Auteur ou entreprise du site |
+| `copyright` | Droits d’auteur du contenu |
+| `keywords` | Liste de mots-clés (désuet) |
+| `language` | Langue du contenu (souvent remplacé par l’attribut `lang` dans `<html>`) |
 
-![thumb (10)](https://github.com/user-attachments/assets/06fb578e-a59c-45c1-a4a1-5e91ffd42e60)
+```html
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cours d’introduction au développement Web au Collège Montmorency.">
 
-[Pour cet exercice, vous devez créer en HTML et CSS une page présentant une bande dessinée d’Andrew AKA system32comics.](./exercices/system-32.md)
-<br>
-<br>
+  <meta name="author" content="Collège Montmorency">
+  <meta name="copyright" content="Collège Montmorency">
+  <meta name="keywords" content="Animation, Web, Vidéo">
+  <meta name="language" content="fr">
+  <!-- ... -->
+</head>
+```
 
+## Exercices 
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/focus/focus.png)
 
+  <small>Exercice - CSS</small><br>
+  **[Hey, focus !](./exercices/focus/index.md){.stretched-link .back}**
+</div>
 
+## Devoir
 
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/formulaire-css/form.png)
 
-
-
-## Box-model
-
-![icon (32)](https://github.com/user-attachments/assets/1157d53b-a6f5-45a0-bdb0-1d0c5f9bfc72)
-
-[Chaque élément d'une page est une boîte rectangulaire](./css/box-model.md)
-<br>
-<br>
-
-
-## Box-model - Broforce
-
-![thumb (13)](https://github.com/user-attachments/assets/72ae9c62-003b-4628-888e-272ab38c89cf)
-
-[Pour cet exercice, vous devez complétez en CSS une interface permettant à deux joueurs de sélectionner leurs personnages en mode versus à Broforce.](./exercices/broforce.md)
-<br>
-<br>
-
-
-## Box-model - Marc Séguin
-
-![thumb (14)](https://github.com/user-attachments/assets/f3237a67-c28f-4a79-ae0a-019818c375e5)
-
-[Pour cet exercice, vous devez mettre en valeur des toiles de l’artiste peintre québécois Marc Séguin en ajoutant uniquement du CSS.](./exercices/marc-seguin.md)
-<br>
+  <small>Devoir - Formatif</small><br>
+  **[La connexion](./exercices/formulaire-css/index.md){.stretched-link .back}**
+</div>

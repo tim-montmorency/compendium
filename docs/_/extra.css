@@ -44,6 +44,7 @@ img.center {
 .aspect-16-9,
 .aspect-2-1,
 .aspect-4-1,
+.aspect-8-1,
 .aspect-5-3 {
   height: auto;
   width: 100%;
@@ -71,6 +72,9 @@ img.center {
 }
 .aspect-4-1 {
   aspect-ratio: 4 / 1;
+}
+.aspect-8-1 {
+  aspect-ratio: 8 / 1;
 }
 /* Spécial pour contenus tabbed */
 .aspect-2-1-tabbed,

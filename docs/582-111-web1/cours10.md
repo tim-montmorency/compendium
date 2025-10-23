@@ -2,8 +2,23 @@
 
 [STOP]
 
+
+## Retour sur l'inspecteur
+
+
+
+* Faire un clic droit sur la souris 🖱️ et choisir l'option **Inspecter**.
+* Utiliser le raccourci clavier ⌨️
+  * Windows ++ctrl+shift+i++ ou ++f12++
+  * Mac ++command+option+i++ ou ++f12++
+
 <!-- Disposition et positionnement
+
+
+Sélecteur avancé : + ~ >
+
 box-sizing
+
 Positionnement
 Dégradés
 Float 
@@ -15,6 +30,11 @@ Float
 	•	Float & clear : mise en colonne rudimentaire, texte entourant une image.
 	•	Techniques de “clearfix” simples (ex. overflow: auto; sur le conteneur), sans entrer dans les détails de BFC.
 -->
+
+<!-- * `box-sizing` : définit le calcul des dimensions (content-box ou border-box) -->
+<!-- box-sizing: border-box; -->
+<!-- `box-sizing: border-box;` est recommandé pour éviter les surprises dans le calcul des largeurs et hauteurs :  
+les `padding` et `border` seront inclus **dans** la dimension totale de l’élément. -->
 
 ## Rappel du modèle de boîte
 

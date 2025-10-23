@@ -367,6 +367,7 @@ theme:
   language: fr
   logo: _/logo-tim.svg
   favicon: _/favicon-32x32.png
+  custom_dir: overrides
   features:
     - content.code.copy
     - toc.follow
