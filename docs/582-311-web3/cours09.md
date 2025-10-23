@@ -4,14 +4,6 @@
 
 PRÉVOIR UN FORMATIF
 
-Regarder la possibilité d'utiliser vitejs à l'école.
-
-
-
-
-
-
-
 ## GSAP
 
 ![](./assets/images/gsap_banner.png)
