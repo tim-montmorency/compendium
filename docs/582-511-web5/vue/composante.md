@@ -8,9 +8,22 @@ Les composantes nous permettent de fractionner l'interface (UI) en morceaux ind�
 
 <img src="./assets/composante-pageweb.png" alt="Arbre de composants">
 
+## Les composantes servent à:
+
+- *Réutiliser du code* - Écris une fois, utilise partout
+- *Organiser ton application* - Divise ton interface en morceaux logiques
+- *Maintenir facilement* - Change une composante sans affecter le reste
+- *Collaborer* - Chaque développeur peut travailler sur sa composante
+
+## Les composantes peuvent:
+
+- Avoir leurs propres *données* (data)
+- Recevoir des *props* (données des parents)
+- Émettre des *événements* vers les parents
+- Avoir des *méthodes* et des propriétés *computed*
+
 
 ## Définir une composante
-
 
 Pour définir une composante, il suffit d’appeler la méthode `component` d’une application Vue et de lui passer deux paramètres: 
 
@@ -19,7 +32,6 @@ Pour définir une composante, il suffit d’appeler la méthode `component` d’
 
 !!! info
     Les composantes acceptent les mêmes propriétés de base qu’une app Vue: `data`, `methods`, `computed`, `template`,&nbsp;etc.
-
 
 
 <br>
@@ -79,7 +91,7 @@ Par exemple:
 
 Une composante peut-être réutilisée aussi souvent que désiré.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWYxqYX" data-pen-title="Vue.js Composante - réutilisation" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="QWYxqYX" data-pen-title="Vue.js Composante - réutilisation" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWYxqYX">
   Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -96,14 +108,31 @@ Chaque bouton est entièrement indépendant. Ainsi le compteur de l'un n'a aucun
 
 
 
-## Props
+## Props (données provenant du parent)
 
 Si nous construisons un blog, il est probable que nous ayons besoin d'un composant pour représenter un article du blog. Nous voulons que tous les articles partagent la même mise en page, mais avec un contenu différent. Un tel composant ne sera utile que si vous pouvez lui passer des données, comme le titre et le contenu d'un article spécifique que l'on voudrait afficher. C'est là que les `props` entrent en jeu.
 
+### Qu'est-ce qu'une `prop`?
+Une `prop` (propriété) est un moyen de passer des *données du parent vers l'enfant* (de l'app Vue principale vers la composante enfant). C'est comme passer un paramètre vers fonction JavaScript, mais pour les composantes.
 
-Les `props` sont des données passées à une composante. Pour en définir, il faut spécifier le nom des `props` attendus dans un tableau.
+```
+App parent
+    |
+    | (envoie des données via props)
+    ↓
+Composante enfant
+```
 
-Par exemple, si seulement la props `msg` est attendue:
+### Pourquoi utiliser des `props`?
+
+- *Communication unidirectionnelle* : Les données descendent du parent à l'enfant
+- *Réutilisabilité* : La même composante peut afficher différentes données
+- *Modularité* : Chaque composante reste indépendante
+- *Maintenabilité* : Les données sont centralisées dans le parent
+
+Pour définir les `props`, il faut spécifier le nom des `props` attendus dans un tableau.
+
+Par exemple, pour notre composante *counter* nous pourrions définir une prop `msg`:
 
 ```js
 app.component('counter', {
@@ -113,7 +142,7 @@ app.component('counter', {
 ```
 
 <br><br>
-Pour passer une donnée, il suffit ensuite d'ajouter un attribut avec la valeur désirée:
+Pour lui passer une donnée, il suffit ensuite d'ajouter un attribut avec la valeur désirée:
 
 ```html
 <counter msg="A">

@@ -13,18 +13,20 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 !!! info "Projet application web créative"
     Prochaine remise mercredi le 22 octobre pour 15% :
+
     - Rédaction du cahier de charges
     - Création des maquettes Figma
-    - Définition de l'architecture technique
-    - Setup du projet (Vite + Vue + ~~dépendances~~)
-
+    - Planification du projet KANBAN dans Trello
+    - Répertoire git et README.md
+    - ~~Setup du projet de base (Vite + Vue + dépendances)~~
+<!--
 ## Annonces
 
 - L'examen n'a pas été encore tout évalué à ce jour, ça devrait sortir dans les prochains jours.
-  
+
 !!! question "Pour les échecs - possibilité de remonter un peu"
     Si vous avez échoué l'examen (moins de 60%), il y aura possibilité de faire un exercice de rattrapage. C'est facultatif mais je vous le permets. Suite à quoi, dépendemment de votre compréhension, vous pourrez regagner jusqu'à 20% de la note de l'examen (donc équvaut à 5% de la session). Vous ne pourrez regagner que pour un maximum de 60% à l'examen. Donc si vous aviez 55%, cet exercice ne peut pas vous remonter à 75%.
-
+-->
   
 ## Projet portfolio (25%)
 
@@ -35,7 +37,7 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
+  <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
 </div>
 
 ## Projet application web créative (50%)
@@ -70,9 +72,8 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
   - SCRUM d'équipe
   - Contrat d'équipe
 - [ ] Git
-- [ ] Hébergement Web, nom de domaine et gbergement sur GitHub Pages
 - [ ] NPM
-- [ ] Vite + CLI Vue
+- [ ] Vite
 
 
 ## Portfolio
@@ -80,7 +81,7 @@ IMPORTANT DE VOIR VITE CE COURS_CI car j'exige le setup du projet Vite pour le 2
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
+  <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
 </div>
 
 
@@ -116,42 +117,15 @@ Le contrat permet aux membres de chaque équipe de s’entendre sur un *but comm
 - [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
 - [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
 
-## Hébergement Web
 
-[Diapositives de cours sur l'hébergement web et les noms de domaines](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EWhOSUd3EyFPglOlWHZH9qcBD9bupObOPce8JKrzvq8eGA?e=HjX0z2)
-
-### Hébergement Web chez *HostPapa*
-
-Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter cette <a href="https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EZd7jM8DNIZHndllts3nA0cBtrrGG2NBLBOuO7svWXVjug?e=kT9gnu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" rel="noopener noreferrer">petite capsule vidéo</a>.
-
-### Hébergement sur *GitHub Pages*
-
-[Petite capsule vidéo sur l'hébergement GitHub Pages](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Optimisation%20-%20Web%203/02_contenu_de_cours/capsules/heberger-site-sur-github-pages.mov?csf=1&web=1&e=KOk8Hq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-<small>Notez que cette capsule a été faite pour un autre groupe alors quand je parle de remise sur plusieurs branches, vous pouvez ignorer, du moins dans le cadre de votre projet portfolio</small>
-
-## Node, NPM
+## NPM
 
 <div class="class-content-link">
   <img src="./assets/icon-npm.webp">
   <a href="https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/">Node Pacakge Manager (NPM)</a>
 </div>
 
-### Exercice NPM Dragon Smaug
-
-#### Partie 1 Exercice NPM Dragon Smaug
-
-[Exercice partie 1](https://tim-montmorency.com/compendium/582-311-web3/exercices/dragon-smaug/)
-
-#### Partie 2 Exercice NPM Dragon Smaug
-
-- [ ] Créer un répertoire git nommé *Exercice NPM Dragon Smaug*
-- [ ] Clonez le en local et déposez-y vos fichiers de travail de l'exercice.
-- [ ] Créer un fichier [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/). Ce fichier vous servira à ignorer quelque chsoe de tr`s important à ignorer lorsqu'on utiliser le Node Package Manager (voir les notes de cours NPM ci haut).
-- [ ] Poussez tout vers GitHub et lorsque terminé, veuillez montrer le otut à votre enseignante.
-
-
-## Vite et Vue CLI
+## Vite
 
 <div class="class-content-link">
   <img src="./assets/Vitejs-logo.svg">

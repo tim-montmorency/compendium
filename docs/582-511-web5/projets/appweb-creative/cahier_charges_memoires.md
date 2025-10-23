@@ -470,8 +470,9 @@ Listez vos composants Vue principaux:
 
 - Rédaction du cahier de charges
 - Création des maquettes Figma
-- Définition de l'architecture technique
-- Setup du projet (Vite + Vue + ~~dépendances~~)
+- Planification du projet KANBAN dans Trello
+- Répertoire git et README.md
+- ~~Setup du projet de base (Vite + Vue + dépendances)~~
 
 ### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->

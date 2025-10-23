@@ -81,7 +81,9 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - Prévoir une **mise en page flexible** permettant d’ajouter facilement des projets ultérieurement.  
 - Créer et intégrer un **composant Vue.js** codé par vous-même.  
 - **Commenter le code** (HTML, CSS et JavaScript) dans vos propres mots afin de démontrer votre compréhension.  
-- S’assurer que le **code est validé** par le validateur **W3C**.  
+- S’assurer que le **code est validé** par le validateur **W3C**: 
+  - [Validateur HTML du W3C](https://validator.w3.org/#validate_by_input) : testez-le sans les directives VUE.js sinon ça va retourner des erreurs (rendu à ce stade, si c'est trop compliqué car vous avez beaucoup de directives Vue dans votre HTML, vous pouvez laisser tomber cette validation-ci).
+  - [Validateur CSS du W3C](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - Rendre le site **responsive** (adaptable aux différents écrans).  
 
 

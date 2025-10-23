@@ -38,12 +38,12 @@ nav:
       - Références: 582-121–illustration-numerique/references.md
       - Projet 1: 582-121–illustration-numerique/projets/projet01.md
       - Projet 2: 582-121–illustration-numerique/projets/projet02.md
-      - AI: 582-121–illustration-numerique/ai/ai.md
-      - Kling: 582-121–illustration-numerique/ai/klingai.md
+      # - AI: 582-121–illustration-numerique/ai/ai.md
+      # - Kling: 582-121–illustration-numerique/ai/klingai.md
       # - Midjourney: 582-121–illustration-numerique/ai/midjourney.md
       - Cours 1: 582-121–illustration-numerique/cours01.md
       - Cours 2: 582-121–illustration-numerique/cours02.md
-      # - Cours 3: 582-121–illustration-numerique/cours03.md
+      - Cours 3: 582-121–illustration-numerique/cours03.md
       - Cours 4: 582-121–illustration-numerique/cours04.md
       - Cours 5: 582-121–illustration-numerique/cours05.md
       - Cours 6: 582-121–illustration-numerique/cours06.md
@@ -252,6 +252,8 @@ nav:
         - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
         - Composante: 582-511-web5/vue/composante.md
+        - Props: 582-511-web5/vue/props.md
+        - SFC:  582-511-web5/vue/sfc.md
       - Fetch API:
         - 582-511-web5/fetch.md
         - Fetch API: 582-511-web5/fetch.html#fetch-api
@@ -262,7 +264,7 @@ nav:
         - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
         - Remise 2 Design: 582-511-web5/projets/portfolio-remise2.md
         - Remise 3 Intégration: 582-511-web5/projets/portfolio-remise3.md
-        - Fetch et Vue: 582-511-web5/projets/instructions-fecth-vue.md
+        - Fetch et Vue: 582-511-web5/projets/portfolio-instructions-fecth-vue.md
       - Projet app créative:
         - 582-511-web5/projets/appweb-creative/index.md
         - Intro: 582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.md
@@ -283,7 +285,7 @@ nav:
       - Cours 7.1: 582-511-web5/cours07a.md
       - Cours 7.2: 582-511-web5/cours07b.md
       - Cours 8.1: 582-511-web5/cours08a.md
-      # - Cours 8.2: 582-511-web5/cours08b.md
+      - Cours 8.2: 582-511-web5/cours08b.md
       # - Cours 9.1: 582-511-web5/cours09a.md
       # - Cours 9.2: 582-511-web5/cours09b.md
       # - Cours 10: 582-511-web5/cours10.md

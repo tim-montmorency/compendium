@@ -1,0 +1,1 @@
+Émettre des événements vers le parent via `$emit`

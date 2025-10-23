@@ -21,6 +21,14 @@ Mardi 28 octobre, à l’agora, entre 11h00 et 15h00 (lors du trou à l’horair
 
 Tous les établissements universitaires québécois ainsi que l’Université d’Ottawa auront un kiosque. Ce sera l’occasion pour la population étudiante d’obtenir des informations sur les programmes d’études offerts, les conditions d’admission, la vie étudiante, les programmes d’échange à l’international et encore plus.  
 
+## Tâches
+
+- [ ] Inviter nouvelles entreprises
+- [ ] Prendre photo pro
+- [ ] Avancer les comités
+- [ ] Simuler votre entrevue
+- [ ] Remplir le github après l'entrevue
+- [ ] Avancer portfolio
 
 ## Dernières invitations
 [🛠️ Modèle courriel](./stages/journeeCarriere.md){ .md-button }    

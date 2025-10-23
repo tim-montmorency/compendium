@@ -33,7 +33,7 @@ Git en équipe
 
 Instructions spécifiques aux données *json* du fichier `projects.json` et celles pour la *composante Vue*.
 
-[Voici les instructions](./projets/instructions-fecth-vue.md){ .md-button }
+[Voici les instructions](./projets/portfolio-instructions-fecth-vue.md){ .md-button }
 
 
 ## *Projet application web créative*
@@ -156,7 +156,7 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 - Créer votre composante Vue
 - La gestion des données de vos projets via un JSON
 
-[Voici les instructions](./projets/instructions-fecth-vue.md){ .md-button }
+[Voici les instructions](./projets/portfolio-instructions-fecth-vue.md){ .md-button }
 
 ### Projet *appli web créative*: Quoi faire et remettre d'ici le 22 octobre
 

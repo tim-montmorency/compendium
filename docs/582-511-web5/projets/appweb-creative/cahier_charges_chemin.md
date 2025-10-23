@@ -638,9 +638,10 @@ Comment stockez-vous les chapitres et choix?
 
 - Rédaction du cahier de charges
 - Écriture de l'arbre narratif complet
-- Design: Création des maquettes Figma
-- Définition de l'architecture technique
-- Setup du projet (Vite + Vue + ~~dépendances~~)
+- Création des maquettes Figma
+- Planification du projet KANBAN dans Trello
+- Répertoire git et README.md
+- ~~Setup du projet de base (Vite + Vue + dépendances)~~
 
 ### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->
