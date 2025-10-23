@@ -443,11 +443,6 @@ div {
 }
 ``` -->
 
-<!-- * `box-sizing` : définit le calcul des dimensions (content-box ou border-box) -->
-<!-- box-sizing: border-box; -->
-<!-- `box-sizing: border-box;` est recommandé pour éviter les surprises dans le calcul des largeurs et hauteurs :  
-les `padding` et `border` seront inclus **dans** la dimension totale de l’élément. -->
-
 ### Padding
 
 ![](./assets/images/paddings.png){data-zoom-image .w-100}

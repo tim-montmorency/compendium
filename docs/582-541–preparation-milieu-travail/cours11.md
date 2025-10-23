@@ -18,3 +18,6 @@ Temps pour enregistrer un nouveau message vocal sur votre téléphone.
 
 ## Recherche sur les entreprises de la journée carrière
 Remplir le document recherche_entreprise dans GitHub.
+
+## Envoi des premières candidatures
+Pour les compagnies non-présentes à la journée carrière

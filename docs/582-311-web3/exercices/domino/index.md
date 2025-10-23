@@ -9,7 +9,7 @@ L'objectif de cet exercice est de mettre en pratique la notion de `stagger` en A
   AnimeJS - Domino</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-<!-- 
+
 ## Consignes
 
 - [ ] Effectuer un fork du [codepen de départ](https://codepen.io/tim-momo/pen/EaPoqzv)

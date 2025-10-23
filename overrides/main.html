@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+  <!-- Meta tags pour éviter l'indexation par les moteurs de recherche -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="slurp" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="duckduckbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  
+  <!-- En-têtes HTTP supplémentaires via meta tags -->
+  <meta http-equiv="X-Robots-Tag" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  
+  {{ super() }}
+{% endblock %}
