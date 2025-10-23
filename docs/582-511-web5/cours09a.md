@@ -62,14 +62,22 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 [Pinia](./vue/pinia.md)
 -->
 
+## Projet portfolio (25%)
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
+</div>
 
-- Compléter ton portfolio d'ici le 29 octobre
-  - [Instructions générales et critères d'évaluation](./projets/portfolio.md)
-  - [Instructions fetch des données des projets et widget Vue.js](./projets/portfolio-instructions-fecth-vue.md)
-  - Préparer la présentation orale (les instructions plus précises vous seront fournie lundi prochain)
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
+</div>
 
-
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-presentation.html">Instructions pour la présentation orale du 29 octobre.</a>
+</div>
 
 
 

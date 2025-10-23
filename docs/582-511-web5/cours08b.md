@@ -6,6 +6,25 @@
 Remise de la planification et design du projet intégrateur
 -->
 
+
+## Projet portfolio (25%)
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-presentation.html">Instructions pour la présentation orale du 29 octobre.</a>
+</div>
+
+
 ## Remise phase 1 du projet *App web créative*
 
 Quelques instructions en début de cours (vous pouvez le faire dans les 10 premières minutes du cours)
