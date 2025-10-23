@@ -10,7 +10,7 @@ Les valeurs possibles sont les [couleurs Web](https://developer.mozilla.org/fr/d
 
 ```css
 div{
-  background: linear-gradient(red, black);
+  background: linear-gradient(#FF0000, #000000);
   /* ou */
   background: linear-gradient(to bottom, red, black);
 }
