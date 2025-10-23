@@ -402,6 +402,12 @@ Elles permettent de créer des mises en page souples et adaptatives, essentielle
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+<iframe class="aspect-4-1" height="300" style="width: 100%;" scrolling="no" title="Web 1 - CSS width" src="https://codepen.io/tim-momo/embed/qEbYOPv?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/qEbYOPv">
+  Web 1 - CSS width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ## États interactifs CSS
 
 Les pseudo-classes permettent de styliser un élément selon un état temporaire ou une interaction de l’utilisateur (survol, clic, sélection, etc.).
