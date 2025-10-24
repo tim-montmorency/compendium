@@ -408,6 +408,14 @@ Elles permettent de créer des mises en page souples et adaptatives, essentielle
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+
+<div class="grid grid-1-2" markdown>
+  ![](https://www.bram.us/wordpress/wp-content/uploads/2015/02/css-ruler.png)
+
+  <small>Outil</small><br>
+  **[Visualisation des unités](https://katydecorah.com/css-ruler/){.stretched-link .back}**
+</div>
+
 ## États interactifs CSS
 
 Les pseudo-classes permettent de styliser un élément selon un état temporaire ou une interaction de l’utilisateur (survol, clic, sélection, etc.).
