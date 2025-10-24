@@ -59,8 +59,9 @@ Comme pour toute librairie, afin d'avoir accès à ses fonctionnalités, il est 
 
 Pour ce faire, il est possible&nbsp;:
 
-- d'<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">utiliser un **CDN** (<em>Content Delivery Network</em>)</a> 
-- d'utiliser le gestionnaire de paquets JavaScript **NPM** [pour ajouter le paquet Vue.js](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm).
+- d'utiliser un *CDN* (Content Delivery Network)
+- d'utiliser le gestionnaire de paquets JavaScript *NPM*
+
 
 !!! tip "Quoi utiliser pour le moment?"
 
@@ -78,7 +79,7 @@ Attention, il faut que ces script [soient chargés en différé](https://vuejs.o
 
 ### Installer Vue avec la commande NPM
 
-Pour utiliser la NPM [pour ajouter le paquet Vue.js](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm) et l'installer dans votre projet, tapper la ligne de commande suivante: 
+Pour utiliser la commande *NPM* et l'installer le paquet Vue.js dans votre projet, tapper la ligne de commande suivante: 
 `npm install vue`
 
 !!! warning "NPM et Node.js"

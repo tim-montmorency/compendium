@@ -85,7 +85,6 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 ## Installation de VUE en CDN
 
-
 ### Installer Vue avec CDN
 
 [Suivre ce lien](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
