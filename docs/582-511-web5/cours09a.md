@@ -83,6 +83,19 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 ## SCRUM d'équipe
 
+## Installation de VUE en CDN
+
+
+### Installer Vue avec CDN
+
+[Suivre ce lien](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
+
+Attention, il faut que ces script [soient chargés en différé](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn), c'est à dire après que tout le HTML soit chargé mais en ordre l'un après l'autre.
+
+```
+<script src="..." defer></script>
+```
+
 ## Exercice SFC
 
 Mini catalogue de jeux retro

@@ -68,7 +68,13 @@ Pour ce faire, il est possible&nbsp;:
 
 ### Installer Vue avec CDN
 
-<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">Suivre ce lien</a> pour récupérer la balise <code>script</code> à copier et à ajouter à votre page HTML. Collez-le en bas, juste avant la fermeture de la balise <code>body</code> mais AVANT le fichier **script.js** dans lequel vous allez créer votre instance Vue et coder par la suite.
+[Suivre ce lien](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
+
+Attention, il faut que ces script [soient chargés en différé](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn), c'est à dire après que tout le HTML soit chargé mais en ordre l'un après l'autre.
+
+```
+<script src="..." defer></script>
+```
 
 ### Installer Vue avec la commande NPM
 
