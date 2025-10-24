@@ -413,7 +413,7 @@ Elles permettent de créer des mises en page souples et adaptatives, essentielle
   ![](https://www.bram.us/wordpress/wp-content/uploads/2015/02/css-ruler.png)
 
   <small>Outil</small><br>
-  **[Visualisation des unités]([https://cssgradient.io/](https://katydecorah.com/css-ruler/)){.stretched-link .back}**
+  **[Visualisation des unités](https://katydecorah.com/css-ruler/){.stretched-link .back}**
 </div>
 
 ## États interactifs CSS
