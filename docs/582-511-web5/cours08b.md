@@ -126,43 +126,6 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 -->
 
 
-
-
-<!-- 
-
----
-### Props (suite)
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/props.html">Composante: props (en savoir plus)</a>
-</div>
-
-#### Exercice composantes et props 
-
-[Exercice - Bouton j'aime](./exercices/vue-btn-jaime/index.md){ .md-button} 
-
-### SFC (Single File Component)
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/sfc.html">Composante: Le SFC (Single File Component)</a>
-</div>
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/emit.html">Composante: Émettre des événements vers le parent via `$emit`</a>
-</div>
--->
-
-
-
-<!--
-Peut-être un ajout?
-https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
--->
-
-
 ## Devoirs
 
 - Compléter exercice sushis y compris la partie "composante" d'ici lundi le 27 octobre.

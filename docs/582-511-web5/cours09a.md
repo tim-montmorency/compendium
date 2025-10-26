@@ -4,8 +4,16 @@
 
 <!-- 
 
+SFC : Single File Component 
+Architecture de composants Vue 
+Création des composants de layout 
+Communications entre composantes via les props et emits.
+Les tableaux JavaScript
++
+"Communications entre composantes via Pinia" ou sinon ça irait 3 nov mais le "SPA–Single Pages Applications et Système de routage (routing)"" serait repoussé au 5 nov.
 
-Peut-être un ajout?
+
+Peut-être cet exercice?
 https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante (les instructions le sont mais je ne trouve plus la solution avec composante donc je dois checker ça)
 
 
@@ -83,23 +91,33 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 ## SCRUM d'équipe
 
-## Installation de VUE en CDN
 
-### Installer Vue avec CDN
+## Révision exercice Menu de sushis
 
-[Suivre ce lien](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
+[Exercice - Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
 
-Attention, il faut que ces script [soient chargés en différé](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn), c'est à dire après que tout le HTML soit chargé mais en ordre l'un après l'autre.
+➜ [Solution instructions de base💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EhtC7SIixSJBgmnqcpJHT9YBdJE-3Q31KJRaOIOgiWyySw?e=wPw9A3)
 
-```
-<script src="..." defer></script>
-```
+➜ [Solution instructions avec composante (partielle, sans le total)💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsBcLierKi6KqNczpNX8nzb_Q?e=Y6ahig) 
 
-## Exercice SFC
 
-Mini catalogue de jeux retro
+## Vue composante les props (suite)
 
-## Composantes Vue (suite)
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/props.html">Composante: props (en savoir plus)</a>
+</div>
+
+### Exercice composantes et props
+
+[Exercice - Bouton j'aime](./exercices/vue-btn-jaime/index.md){ .md-button} 
+
+## Vue SFC (Single File Component)
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/sfc.html">Composante: Le SFC (Single File Component)</a>
+</div>
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
@@ -107,20 +125,23 @@ Mini catalogue de jeux retro
 </div>
 
 
+
+
+<!---->
+Peut-être un ajout?
+https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
+-->
+
+
+
+## Exercice SFC
+
+Mini catalogue de jeux retro
+
+
+
 [Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
+
+
 <!-- ➜ [Solution instructions avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
 
-
-
-
-<!--
-TUTEUR MOMO-BOT
-<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
-
-<div class="modal" id="modal-momobot">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
-  </div>
-</div>
--->

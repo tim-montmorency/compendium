@@ -76,6 +76,17 @@ Révision en pair, par équipe de 2, sélectionnées par l'enseignante.
   <a href="./vue/index.html">Introduction</a>
 </div>
 
+
+## Installation de VUE en CDN
+
+[Suivre ce lien](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
+
+Attention, il faut que ces script [soient chargés en différé](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn), c'est à dire après que tout le HTML soit chargé mais en ordre l'un après l'autre.
+
+```
+<script src="..." defer></script>
+```
+
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/creation-app.html">Création d'une app</a>
