@@ -244,6 +244,7 @@ nav:
         - 582-511-web5/vue/index.md
         - Intro et installation: 582-511-web5/vue/intro-install.md
         - Création d'une app: 582-511-web5/vue/creation-app.md
+        - Création app Vue+Vite: 582-511-web5/vue/creation-projet-CLI.html
         - Données et interpolation: 582-511-web5/vue/interpolation.md
         - Méthode et événem. v-on: 582-511-web5/vue/methodes-evenements.md
         - Classe dynamique: 582-511-web5/vue/classe-dynamique.md
@@ -253,7 +254,9 @@ nav:
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
         - Composante: 582-511-web5/vue/composante.md
         - Props: 582-511-web5/vue/props.md
+        - Émettre (emit):  582-511-web5/vue/emit.md
         - SFC:  582-511-web5/vue/sfc.md
+        
       - Fetch API:
         - 582-511-web5/fetch.md
         - Fetch API: 582-511-web5/fetch.html#fetch-api

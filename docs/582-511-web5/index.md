@@ -32,10 +32,11 @@
 
 ##### VUE.JS
 
-<!-- - [Vue: Création d'un projet en CLI](./vue/creation-projet-CLI.md)-->
+
 
 - [Vue intro](./vue/index.md)
 - [Vue: Création d'une app](./vue/creation-app.html)
+- [Vue: Création d'un projet Vue avec Vite](./vue/creation-projet-CLI.md)
 - [Vue: Interpolation des données](./vue/interpolation.html)
 - [Vue: Méthode et événenement v-on](./vue/methodes-evenements.md)
 - [Vue: Classe CSS dynamique](./vue/classe-dynamique.md)
@@ -45,12 +46,8 @@
 - [Vue: Propriété calculée](./vue/propriete-calculee.md)
 - [Vue: Composante](./vue/composante.md)
 - [Vue: Props](./vue/props.md)
+- [Vue: Émettre (emit)](./vue/emit.md)
 - [Vue: SFC - Single File Component](./vue/sfc.md)
-
-
-
-
-
 
 ## Descriptif du cours
 
