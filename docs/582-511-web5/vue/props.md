@@ -97,7 +97,7 @@ app.mount('#app');
 
 ### ✅ Bonnes pratiques
 
-*Toujours définir le type (Number, String, Boolean, Object, Array...)*
+*Idéalement, définir le type (Number, String, Boolean, Object, Array...)*
 
 ```vue
 props: {

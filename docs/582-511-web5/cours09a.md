@@ -82,14 +82,18 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
   <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
 </div>
 
+### Ajout
+
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio-presentation.html">Instructions pour la présentation orale du 29 octobre.</a>
+  <a href="./projets/portfolio-presentation.html">Instructions pour la *présentation orale* du 29 octobre.</a>
 </div>
 
 
 
-## SCRUM d'équipe
+## Projet app web créative
+
+Normalement vous auriez une *rencontre SCRUM* aujourd'hui mais je préfère vous laisser focusser sur votre portfolio. Pour cette semaine, le SCRUM va donc être remis à mercredi après les présentations.
 
 
 ## Révision exercice Menu de sushis

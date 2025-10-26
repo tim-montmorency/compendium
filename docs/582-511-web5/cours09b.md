@@ -9,3 +9,17 @@ Cours dédié aux présentations
 Comme on merge Lora et moi, les étudiants auront un avant-midi ou après-midi de libre.
 Prévoir des travaux à leur imposer (spécifiquement pour le projet intégrateur)
 -->
+
+## Remise finale et présentations portefolio
+
+REMISE FINALE DU PROJET PORTEFOLIO ET PRÉSENTATION ORALE EN CLASSE (sommatif)
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio-presentation.html">Instructions pour la *présentation orale* du 29 octobre.</a>
+</div>
+
+## SCRUM d'équipe
+
+Normalement nous aurions un SCRUM aujourd'hui mais je préfère vous laisser focusser sur votre portfolio. Le SCRUM va donc être remis à mercredi après les présentations.
+

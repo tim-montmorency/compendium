@@ -1,4 +1,4 @@
-# Vue — Composante “J’aime” (`like-button`) — Énoncé (Starter)
+# Vue — Composante `like-button`
 
 ## Fichiers de départ
 
@@ -12,10 +12,10 @@ Une page affiche une petite liste de jeux rétros. À côté de chaque élément
 
 ## Objectifs
 
-- Créer et réutiliser une **composante Vue** simple
-- Manipuler **une prop** (`initial`) et un **état local** (`isLiked`)
-- Utiliser **classes dynamiques** et **rendu conditionnel**
-- Structurer une petite app avec composante simple (importation via CDN, Vue 3, Options API)
+- Créer et réutiliser une *composante Vue* simple
+- Manipuler *une prop* (`initial`) et un *état* propre à chaque bouton (`isLiked`)
+- Utiliser les *classes dynamiques* et le *rendu conditionnel*
+- Structurer une petite app avec composante simple (importation via CDN, Vue 3 avec Options API)
 
 ## Fichiers
 
@@ -25,15 +25,15 @@ Une page affiche une petite liste de jeux rétros. À côté de chaque élément
 
 ## Étapes
 
-- [ ] 1. **Vue** : Installez Vue 3 via CDN.
-- [ ] 2. **HTML** : Ouvrez `index.html` dans votre navigateur (pas besoin de serveur Vite pour cet exercice).  
-- [ ] 3. **Parent** : Créez une app Vue. Créez les données initiales pour les 4 jeux. Affichez les dans la `section.list`.
-- [ ] 4. **Composante** : Créez ensuite la composante `like-button` : 
+- [ ] 1. *Vue* : Installez Vue 3 via CDN (pas besoin d'utiliser npm ni de l'outil de développement Vite pour cet exercice).  
+- [ ] 2. *HTML* : Ouvrez `index.html` dans votre navigateur 
+- [ ] 3. *Parent* : Créez une app Vue. Créez les données initiales pour les 4 jeux. Affichez les dans la `section.list`.
+- [ ] 4. *Composante* : Créez ensuite la composante `like-button` : 
   - [ ]  une prop nommée `initial` (booléen) qui permet d'établir l'état initial si le jeu est aimé ou non,  
   - [ ]  une donnée `data()` nommée `isLiked` qui sera égale à la valeur de la prop `initial`,  
   - [ ]  une méthode `toggle()` appelée avec `@click`,  
   - [ ]  une classe dynamique `:class="{ liked: isLiked }"` et un emoji conditionnel.  
-- [ ] 5. **Réutilisation** : Vérifiez que **chaque instance** du bouton est **indépendante** (essayez plusieurs clics sur différentes lignes).  
+- [ ] 5. *Réutilisation* : Vérifiez que **chaque instance** du bouton est **indépendante** (essayez plusieurs clics sur différentes lignes).  
 - [ ] 6. **Styles** : Personnalisez le CSS (état normal vs `.liked`, hover/focus).
 
 ## Bonus
