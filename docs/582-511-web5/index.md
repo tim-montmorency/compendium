@@ -32,8 +32,6 @@
 
 ##### VUE.JS
 
-
-
 - [Vue intro](./vue/index.md)
 - [Vue: Création d'une app](./vue/creation-app.html)
 - [Vue: Création d'un projet Vue avec Vite](./vue/creation-projet-CLI.md)
