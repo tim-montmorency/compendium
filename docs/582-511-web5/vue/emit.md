@@ -28,11 +28,11 @@ Composante enfant (émet l'événement)
 // Émettre un événement simple
 this.$emit('nomEvenement');
 
-// Émettre un événement avec des données
+// Émettre un événement avec des données passées en paramètre
 this.$emit('nomEvenement', donnees);
 
 // Émettre avec plusieurs paramètres
-this.$emit('nomEvenement', param1, param2, param3);
+this.$emit('nomEvenement', donnee1, donnee2, donnee3);
 ```
 
 ### Dans l'app parent (écouter l'événement)
