@@ -130,22 +130,23 @@ Normalement vous auriez une *rencontre SCRUM* aujourd'hui mais je préfère vous
 
 
 
+## Exercice SFC
 
-<!---->
-Peut-être un ajout?
+[Mini catalogue de jeux retro](#){ .md-button}
+
+
+## Exercice $emit
+
+[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
+
+<!-- ➜ [Solution instructions avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
+
+<!---
+Peut-être un autre exercice ?
 https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
 -->
 
 
 
-## Exercice SFC
 
-Mini catalogue de jeux retro
-
-
-
-[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
-
-
-<!-- ➜ [Solution instructions avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
 

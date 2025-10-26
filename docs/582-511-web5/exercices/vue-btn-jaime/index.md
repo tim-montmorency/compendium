@@ -49,3 +49,18 @@ Une page affiche une petite liste de jeux rétros. À côté de chaque élément
 - [ ] La prop `initial` est respectée, avec valeur par défaut `false`
 - [ ] Les classes dynamiques changent l’apparence du bouton (`.liked`)
 - [ ] Le code est clair, indenté et commenté minimalement
+
+
+## Notes de cours 📚
+
+- [Vue intro](../../vue/index.md)
+- [Vue: Création d'une app](../../vue/creation-app.html)
+- [Vue: Interpolation des données](../../vue/interpolation.html)
+- [Vue: Méthode et événenement v-on](../../vue/methodes-evenements.md)
+- [Vue: Classe CSS dynamique](../../vue/classe-dynamique.md)
+- [Vue: Condition v-if](../../vue/condition.md)
+- [Vue: Tableau[ ] + boucle v-for](../../vue/boucle.md)
+- [Vue: Éléments d'un formulaire](../../vue/elements-de-formulaire.md)
+- [Vue: Propriété calculée](../../vue/propriete-calculee.md)
+- [Vue: Composante](../../vue/composante.md)
+- [Vue: Props](../../vue/props.md)
