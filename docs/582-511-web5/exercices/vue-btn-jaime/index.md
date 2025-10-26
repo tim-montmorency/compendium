@@ -40,12 +40,12 @@ Une page affiche une petite liste de jeux rétros. À côté de chaque élément
 
 - Remplacer les emojis par des **icônes** (★/☆) ou **SVG**.  
 - Ajouter un petit texte conditionnel (“Merci !”).  
-- (Pour plus tard) Ajouter une prop `label` pour rendre le texte configurable.
+- Ajouter une prop `label` pour rendre le texte configurable.
 
 ## Critères de complétion
 
-- [ ] L’app Vue 3 fonctionne (aucune erreur dans la console)  
-- [ ] La composante `like-button` est réutilisée **au moins 3 fois**  
-- [ ] La prop `initial` est respectée, avec valeur par défaut `false`  
-- [ ] Les classes dynamiques changent l’apparence du bouton (`.liked`)  
+- [ ] L’app Vue 3 fonctionne (aucune erreur dans la console)
+- [ ] La composante `like-button` est réutilisée **au moins 3 fois**
+- [ ] La prop `initial` est respectée, avec valeur par défaut `false`
+- [ ] Les classes dynamiques changent l’apparence du bouton (`.liked`)
 - [ ] Le code est clair, indenté et commenté minimalement
