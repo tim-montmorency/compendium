@@ -65,7 +65,7 @@ Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouver
 À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
 
 * **Présentation de vos illustrations**
-  * [ ] Présentez dans Powerpoint vos six autoportraits et votre signature.
+  * [ ] Présentez dans Powerpoint vos 4 autoportraits et votre signature.
   * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
     * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
     * [ ] Utilisez un fond blanc ou noir et évitez les transitions.
