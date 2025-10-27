@@ -22,7 +22,6 @@ npm run dev
 ```
 > Vite + Vue 3
 
----
 
 ## Étapes (1–5)
 
@@ -53,8 +52,6 @@ npm run dev
 
 - Recevez les **props** `sortBy`, `sortDir`, `limit`, `layout` et affichez-les.
 - Les **controles** se trouvent dans `App.vue` (version simple sans `emit`).
-
----
 
 ## Bonus (facultatif)
 
