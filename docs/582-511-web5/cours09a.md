@@ -74,19 +74,19 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
+  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales et <em>critères d'évaluation</em></a>
 </div>
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
+  <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <em>json</em> du fichier <em>projects.json</em> et celles pour la partie <em>Vue</em>.</a>
 </div>
 
 ### Ajout pour la présentation de mercredi 
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio-presentation.html">Instructions pour la *présentation orale* du 29 octobre.</a>
+  <a href="./projets/portfolio-presentation.html">Instructions pour la <em>présentation orale</em> du 29 octobre.</a>
 </div>
 
 
