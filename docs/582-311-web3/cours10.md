@@ -3,8 +3,9 @@
 [STOP]
 
 Animation SVG (paths, morphing)
-ScrollTrigger
-Parallaxe
+Draggable
+  ScrollTrigger
+  Parallaxe
 Text animation
 Animation responsive
 Autonomie avec la documentation
