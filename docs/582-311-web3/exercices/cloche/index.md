@@ -11,7 +11,7 @@ tags:
 
 ## Résultat attendu
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Horloge - SOLUTION" src="https://codepen.io/tim-momo/embed/GgoyQNK?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Horloge - SOLUTION" src="https://codepen.io/tim-momo/embed/GgoyQNK?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
       See the Pen <a href="https://codepen.io/tim-momo/pen/GgoyQNK">
   AnimeJS - Horloge - SOLUTION</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
