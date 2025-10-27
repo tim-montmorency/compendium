@@ -1,4 +1,4 @@
-# Vue — Mini-catalogue modulable (SFC + props) — Theme *Jeux retro*
+# Vue: Mini-catalogue *Jeux retro*
 
 
 ## Fichiers de départ (lien à venir...)
