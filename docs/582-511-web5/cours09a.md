@@ -140,7 +140,7 @@ Normalement vous auriez une *rencontre SCRUM* aujourd'hui mais je préfère vous
 
 ### Exercice SFC
 
-[Mini catalogue de jeux retro](#){ .md-button}
+[Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
 
 
 
