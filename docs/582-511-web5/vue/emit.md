@@ -47,13 +47,12 @@ Donc pour écouter l'événement nomEvenement émis par la composante enfant, da
 
 ```
 <!-- Sans paramètres -->
-<composante-enfant @nom-evenement="maMethode"></composante-enfant>
+<compos-enfant @nom-evenement="maMethode"></compos-enfant>
 
 <!-- Avec paramètres -->
-<composante-enfant @nom-evenement="maMethode"></composante-enfant>
+<compos-enfant @nom-evenement="maMethode"></compos-enfant>
 
-+
-
+// Récupérer les données passées en paramètre via la méthode dans l'app parent
 methods: {
   maMethode(data) {
     console.log(data);
@@ -61,7 +60,7 @@ methods: {
 }
 
 <!-- OU récupération des paramètres via une fonction fléchée inline -->
-<composante-enfant @nom-evenement="(data) => console.log(data)"></composante-enfant>
+<compos-enfant @nom-evenement="(data) => console.log(data)"></compos-enfant>
 ```
 
 
@@ -69,7 +68,7 @@ methods: {
 
 ### Exemple 1: Bouton qui émet un clic
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="emJKyoa" data-pen-title="Vue: component emit - exemple 1" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="emJKyoa" data-pen-title="Vue: component emit - exemple 1" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
       <span>See the Pen <a href="https://codepen.io/tim-momo/pen/emJKyoa">
   Vue: component emit - exemple 1</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -77,7 +76,7 @@ methods: {
 
 ### Exemple 2: Émettre avec des données
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="VYedQLp" data-pen-title="Vue: component emit - exemple 2 (emit avec données)" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="VYedQLp" data-pen-title="Vue: component emit - exemple 2 (emit avec données)" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
       <span>See the Pen <a href="https://codepen.io/tim-momo/pen/VYedQLp">
   Vue: component emit - exemple 2 (emit avec données)</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
