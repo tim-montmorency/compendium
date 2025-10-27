@@ -8,8 +8,8 @@ SFC : Single File Component
 Architecture de composants Vue 
 Création des composants de layout 
 Communications entre composantes via les props et emits.
-Les tableaux JavaScript
 +
+Les tableaux JavaScript
 "Communications entre composantes via Pinia" ou sinon ça irait 3 nov mais le "SPA–Single Pages Applications et Système de routage (routing)"" serait repoussé au 5 nov.
 
 
@@ -82,7 +82,7 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
   <a href="./projets/portfolio-instructions-fecth-vue.html">Instructions spécifiques aux données <strong>json</strong> du fichier <strong>projects.json</strong> et celles pour la partie <strong>Vue</strong>.</a>
 </div>
 
-### Ajout
+### Ajout pour la présentation de mercredi 
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
