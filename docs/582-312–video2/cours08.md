@@ -19,13 +19,6 @@ Introduction aux principes du tournage sur **fond vert** et aux notions de **chr
 ## Atelier de stop motion
 Atelier pratique de création d’une courte séquence en **stop motion** : apprentissage de la planification, de la capture image par image et du rythme d’animation.
 
-### 🛠️ Création d’une séquence stop motion
-- [ ] Concevoir un mini-storyboard (5 à 10 plans).  
-- [ ] Mettre en place le décor et stabiliser la caméra.  
-- [ ] Capturer les images une à une selon le mouvement prévu.  
-- [ ] Importer la séquence dans le logiciel d’édition.  
-- [ ] Ajuster la cadence d’animation et vérifier la fluidité du mouvement.  
-
 ➡️ [Atelier de stop motion](./stopmotion.md)  
 ➡️ [Étape de tournage / Stop motion](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESUOrhSQCOJEvitVdhYW3hoBNnTAp3l1V4TDl87xOgcKWw?e=nZ8w1U)
 
