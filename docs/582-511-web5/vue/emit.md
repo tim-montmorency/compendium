@@ -13,6 +13,10 @@ App parent (écoute l'événement)
 Composante enfant (émet l'événement)
 ```
 
+## Un événement c'est quoi
+
+Un *événement* JavaScript est une action qui se produit dans le navigateur, comme un clic de souris `click`, une pression de touche `keyDown`ou le chargement d'une page `load`. Dans le cas d'une composante Vue vous pouvez créer des événements *custom* pour communiquer à l'app parent un événement ponctuel et lui passer des données.
+
 ## Pourquoi utiliser `$emit`?
 
 - *Communication remontante* : L'enfant informe le parent qu'une action s'est produite
@@ -35,7 +39,11 @@ this.$emit('nomEvenement', donnees);
 this.$emit('nomEvenement', donnee1, donnee2, donnee3);
 ```
 
-### Dans l'app parent (écouter l'événement)
+### Dans l'app parent (écouter l'événement) avec `v-on` ou son racourci `@`
+
+On écoute l'événement en question, de la même façon que vous utilisiez `@click="maMethode"` ou `v-on:click="maMethode"` sur une balise `<button>` par exemple.
+
+Donc pour écouter l'événement nomEvenement émis par la composante enfant, dans l'app parent on aurait:
 
 ```
 <!-- Sans paramètres -->
