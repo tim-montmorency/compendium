@@ -1,388 +1,377 @@
 # Cours 9 | Anime.js la suite
 
-[STOP]
+## Contrôle de la lecture
 
-PRÉVOIR UN FORMATIF
+![](./assets/images/play-pause.gif){.w-100}
 
-## GSAP
+Il est possible de contrôler les animations AnimeJS de la même façon qu'on contrôle une vidéo. Ce sont ce qu'on appelle les [méthodes d'animation](https://animejs.com/documentation/animation/animation-methods).
 
-![](./assets/images/gsap_banner.png)
+```js
+import { animate } from "animejs";
 
-[GSAP](https://gsap.com/) (GreenSock Animation Platform) est une bibliothèque JavaScript pour créer des animations web. Elle est utilisée pour créer des animations complexes et interactives[^gsap].
+const a = animate(".dot", {
+  x: 240
+});
 
-[^gsap]: Exemples d'animations complexes et interactives : [showcase sur gsap.com](https://gsap.com/showcase/), [collection sur codepen](https://codepen.io/collection/ANaOod?grid_type=grid).
-
-![type:video](https://www.youtube.com/embed/TG67UXmf6mc)
-
-## Installation
-
-```html
-<head>
-  <!-- ... -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
-  <script src="path/to/your/script.js" defer></script>
-</head>
+a.pause();
 ```
 
-[Documentation officielle pour la version 3](https://gsap.com/docs/v3/Installation)
+Quelques méthodes : 
 
-!!! info "CDN : Content Delivery Network"
+* `play()`
+* `pause()`
+* `restart()`
+* `resume()`
 
-    Il est recommandé d’utiliser des fichiers CDN, car ils sont mis en cache et se chargent rapidement. Avec des millions de sites utilisant GSAP, il est probable que vos visiteurs aient déjà la bibliothèque en cache, ce qui réduit la bande passante et accélère le chargement.
+### autoplay
 
-## Qu’est-ce qu’on peut animer ?
+L’attribut `autoplay` permet d’activer ou de désactiver la lecture automatique d’une animation au chargement de la page.
 
-GSAP permet d’animer une vaste gamme de propriétés CSS. Voici les types de propriétés fréquemment animées :
+On le désactive souvent lorsqu’on veut contrôler le déclenchement de l’animation à l’aide d’un événement (comme un clic, un survol ou un défilement).
 
-* **Positionnement** : Propriétés comme x, y, left, right, top, bottom permettent des translations sur l’écran.
-* **Espacement** : Les marges (margin) et les espacements internes (padding) d’un élément peuvent être animés.
-* **Dimensions** : Vous pouvez modifier la largeur (width) et la hauteur (height) d’un élément pour créer des effets de redimensionnement fluides.
-* **Opacité** : L’animation de l’opacity permet de créer des effets de fondu, allant de 0 (0% visible) à 1 (100% visible).
-* **Couleurs** : GSAP peut animer les propriétés de couleurs, comme background-color et color, permettant des transitions en douceur entre différentes teintes.
-* **Typographie** : Les propriétés de texte comme la taille de police (font-size), l’espacement des lettres (letter-spacing) ou encore la couleur du texte peuvent être animées.
-* **Transformations** : GSAP prend en charge les transformations CSS comme :
-  * **Échelle** (scale) : Agrandir ou réduire la taille d’un élément.
-  * **Rotation** (rotate) : Faire tourner un élément sur son axe.
-  * **Inclinaison** (skew) : Modifier l’orientation d’un élément.
+```js
+import { animate } from "animejs";
 
-## Comment les animations fonctionnent-elles ?
+const a = animate(".dot", {
+  autoplay: false
+});
+```
 
-Toutes ces propriétés sont animées via des **[interpolations](https://gsap.com/docs/v3/GSAP/Tween)** (ou tweens). GSAP modifie progressivement les valeurs de départ à destination en fonction d’une **[durée définie](https://gsap.com/docs/v3/GSAP/Timeline/duration()/)**.
+## Callbacks
 
-Pour rendre les transitions plus naturelles, vous pouvez appliquer des **[fonctions d’assouplissement](https://gsap.com/docs/v3/Eases/)** (easing) qui contrôlent la vitesse du changement au cours de l’animation.
+![](./assets/images/callback.gif){.w-100}
 
-<iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="GSAP - ease" src="https://codepen.io/tim-momo/embed/QWeOrgo/9db303ae98b0cef97b5d8e699930c6e6?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/QWeOrgo/9db303ae98b0cef97b5d8e699930c6e6">
-  GSAP - ease</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+Les [callbacks](https://animejs.com/documentation/animation/animation-callbacks) sont des fonctions appelées à des moments spécifiques d'une animation.
+
+Quelques callbacks : 
+
+* `onBegin()`
+* `onComplete()`
+* `onLoop()`
+* `onPause()`
+
+Exemple de `onLoop()` :
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Callback " src="https://codepen.io/tim-momo/embed/gbPKvEZ/766c222d3abf165800cf58a6b3946931?default-tab=js%2Cresult&editable=true&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/gbPKvEZ/766c222d3abf165800cf58a6b3946931">
+  AnimeJS - Callback </a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-## Syntaxe
+<!--
+```js
+import { animate } from "animejs";
 
-La syntaxe des animations avec GSAP est extrêmement simple. En résumé, vous appelez une fonction (ex.: `.to()`), spécifiez un élément à animer via un sélecteur CSS (ex.: `".etoiles"`), puis définissez les paramètres de l’animation dans un objet (ex.: `x: 100,`).
+const colors = ['#ff477e', '#00c2ff', '#ffd166', '#06d6a0', '#9b5de5'];
+let i = 0;
 
-### [to()](https://gsap.com/docs/v3/GSAP/gsap.to())
+animate('.dot', {
+  scale: [1, 1.2, 1],
+  duration: 900,
+  loop: true,
+  onLoop: () => {
+    i = (i + 1) % colors.length;
+    document.querySelector('.dot').style.background = colors[i];
+  }
+});
+```
+-->
 
-Crée une animation où les propriétés de l’élément évoluent vers les valeurs spécifiées.
+## État initial
 
-Dans l'exemple ci-dessous, l'animation s'effectue sur la position **x** du rond.
+L'utilitaire [`set()`](https://animejs.com/documentation/utilities/set) applique un état initial avant une animation. 
+
+Ça permet entre autres d'ajouter des transformations qui ne se feront pas écraser par l'animation suivante. En effet, sans `set()`, chaque nouvelle animation remet les transformations à zéro avant d'appliquer les nouvelles valeurs. Avec `set()`, on peut préserver certaines transformations existantes.
+
+Exemple : 
+
+```js
+import { animate, utils } from "animejs";
+
+utils.set('.dot', { scale: 2 });
+
+animate(".dot", {
+  x: 240 // Ici la translation n'écrasera pas le scale !
+});
+```
+
+## `transform-origin` d'une image
+
+Parfois, l'origine d'une transformation sur une image est difficilement discernable. Il faut alors utiliser une méthode plus précise.
+
+Dans Figma :
+
+1. on crée un Frame de la même dimension que l'image;
+1. on ajoute un petit carré sur l'image de 1 ou 2 pixels et on le place là où l'origine de la transformation doit se produire;
+1. on effectue une règle de trois pour trouver l'origine.
+
+### Exemple pratique
+
+![](./assets/images/figma-leg.png){data-zoom-image}
+
+Dans Figma :
 
 <div class="grid" markdown>
-```js title="Syntaxe"
-gsap.to("selecteur", {
-  // configurations
-  // propriété: valeur
-});
-```
+![](./assets/images/figma-frame-size.png){data-zoom-image}
 
-<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="GSAP - to()" src="https://codepen.io/tim-momo/embed/zYgzoEX/89bb58bd6ed29bc7a703a1ce460ff161?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/zYgzoEX/89bb58bd6ed29bc7a703a1ce460ff161">
-  GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![](./assets/images/figma-dot-location.png){data-zoom-image}
 </div>
 
-### [from()](https://gsap.com/docs/v3/GSAP/gsap.from()/)
+Taille de l'image : 79px par 124px
 
-Crée une animation où les propriétés de l’élément commencent à une certaine valeur, puis évoluent vers leur état final (tel qu’il est dans le DOM).
+Position du carré : 21px par 20px
 
-Dans l'exemple ci-dessous, l'animation s'effectue sur la position **x** du rond.
+Pour calculer l'origine en pourcentage, on utilise une règle de trois :
 
-<div class="grid" markdown>
-```js title="Syntaxe"
-gsap.from("selecteur", {
-  // configurations
-  // propriété: valeur
-});
-```
+Origine sur l'axe X en pourcentage : (21 / 79) × 100 = 26.58%
 
-<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="GSAP - to()" src="https://codepen.io/tim-momo/embed/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f">
-  GSAP - to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-</div>
-
-### [fromTo()](https://gsap.com/docs/v3/GSAP/gsap.fromTo()/)
-
-Permet de définir à la fois les valeurs de départ et d’arrivée d’une animation, offrant ainsi un contrôle total sur le processus.
-
-Dans l'exemple ci-dessous, l'animation s'effectue sur la position **x**, **y**, puis sur la **rotation** de la barre.
-
-<div class="grid" markdown>
-```js title="Syntaxe"
-gsap.fromTo("selecteur", {
-  // configurations from
-}, {
-  // configurations to
-  // propriété: valeur
-});
-```
-
-<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="GSAP - from()" src="https://codepen.io/tim-momo/embed/ExqXNrx/7f1f9010b174671e88f5f671802891a4?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ExqXNrx/7f1f9010b174671e88f5f671802891a4">
-  GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-</div>
-
-### [set()](https://gsap.com/docs/v3/GSAP/gsap.set())
-
-Initialise immédiatement les propriétés spécifiées des éléments ciblés sans animation.
-
-C’est essentiellement un `to()`, mais qui se produit instantanément :stuck_out_tongue_winking_eye:.
-
-```js title="Syntaxe"
-gsap.set("selecteur", {
-  // configurations
-  // propriété: valeur
-});
-```
-
-## Configurations
-
-* **sélecteur** : Le [sélecteur CSS](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) qui sélectionne un ou plusieurs éléments sur lesquels l’animation s’appliquera. Par exemple, `#monElement` pour un ID ou `.classeXYZ` pour une classe.
-* **configurations** : Les options d’animation spécifiques que GSAP va utiliser (ex.: duration, ease).
-* **Propriétés CSS** : Les propriétés CSS à animer, comme x, opacity, etc.
-
-### Propriétés CSS
-
-* `x` : Représente un déplacement sur l’axe horizontal en pixels par défaut.
-* `y` : Représente un déplacement sur l’axe vertical en pixels.
-* `rotation` : Permet de faire pivoter l’élément autour de son centre. Les valeurs sont en degrés.
-* `scale` : Modifie la taille de l’élément en appliquant un facteur de mise à l’échelle.
-* `opacity` : Gère la transparence de l’élément, de 0 (invisible) à 1 (entièrement visible).
-* `backgroundColor` : Change la couleur de fond de l’élément.
-* `borderRadius` : Modifie le rayon des bordures, permettant des coins arrondis.
-* `skewX` et `skewY` : Inclinent l’élément selon les axes X et Y.
-* `scaleX` et `scaleY` : Changent respectivement la mise à l’échelle horizontale et verticale.
-
-!!! info Valeur des propriétés CSS
-
-    Les valeurs sous forme de nombre (qui ne sont pas entre guillemets), ex: 400, sont interprétées en pixel. Les valeurs entre guillemets, ex '400%', peuvent spécifier une unité de mesure différente, comme dans le cas précédent où un pourcentage a été utilisé (%).
-
-### Configurations GSAP
-
-* `duration` : Durée de l’animation en secondes.
-* `ease` : Fonction d’assouplissement qui définit la vitesse de l’animation tout au long de sa durée (ex : "power2.inOut" pour une accélération/décélération progressive).
-* `repeat` : Nombre de fois que l’animation se répète.
-* `yoyo` : Si défini sur true, l’animation revient à son état initial après chaque répétition, créant un effet de va-et-vient.
-* `delay` : Tout comme la propriété [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay) en CSS, la propriété delay de GSAP permet de spécifier un délai d'attente avant de démarrer une animation.
-* `repeatDelay` : Délai entre chaque répétition.
-* `stagger` : Similaire à Delay, [Stagger](https://www.gsap.com/resources/getting-started/Staggers/) fait en sorte qu'un groupe d'éléments ayant tous la même animation soient décalés.
-* `paused` : Si défini sur true, l’animation commence en pause.
-
-### [Callbacks](https://gsap.com/docs/v3/GSAP/Tween/eventCallback()/)
-
-* `onStart` : Fonction callback appelée lorsque l’animation démarre.
-* `onUpdate` : Fonction callback appelée à chaque mise à jour de l’animation (frame).
-* `onComplete` : Fonction callback appelée lorsque l’animation est terminée.
-* `onRepeat` : Fonction callback appelée après chaque répétition de l’animation.
-
-## Exemple complet
-
-Voici un exemple d’animation GSAP avec plusieurs propriétés CSS et configurations :
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="GSAP - to() exemple" src="https://codepen.io/tim-momo/embed/wvVPjKX/7948f4e928d2aaf0883b1fd6b7ecc692?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/wvVPjKX/7948f4e928d2aaf0883b1fd6b7ecc692">
-  GSAP - to() exemple</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-```html title="HTML"
-<div class="dot"></div>
-```
+Origine sur l'axe Y en pourcentage : (20 / 124) × 100 = 16.12%
 
 ```css title="CSS"
-.dot {
-  width: 10px;
-  height: 10px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 100px;
-  border-radius: 100%;
+.bras {
+  /* ... */
+  transform-origin: 26.58% 16.12%;
 }
 ```
 
-```js title="JavaScript"
-const largeurFenetre = window.innerWidth;
-gsap.to(".dot", {
-  // Propriétés css
-  x: largeurFenetre - 200 - 10,
-  rotation: 180,
-  opacity: 0.25,
-  backgroundColor: "#2fb170",
-  borderRadius: "12.5%",
-  skewY: 45,
-  scale: 10,
+## Modificateur
 
-  // Configurations
-  duration: 10,
-  ease: "power2.inOut",
-  stagger: 0.2,
-  delay: 0.5,
-  repeat: -1,
-  yoyo: true,
+![](./assets/images/maths.gif)
 
-  // Callbacks
-  onStart: () => {
-    console.log("Go!");
+Un [modificateur](https://animejs.com/documentation/animation/tween-parameters/modifier) (ou _modifier_) est une fonction qui modifie le comportement d'une animation. 
+
+Il est souvent accompagné d'un utilitaire : [`clamp()`](https://animejs.com/documentation/utilities/clamp), [`snap()`](https://animejs.com/documentation/utilities/snap), [`lerp()`](https://animejs.com/documentation/utilities/lerp), [`damp()`](https://animejs.com/documentation/utilities/damp), etc.
+
+Généralement, il y a deux façons d'écrire un modificateur.
+
+### Avec utilitaire
+
+<div class="grid align-items-start" markdown>
+```js
+import { animate, utils } from "animejs";
+
+animate(".dot", {
+  x: "25vw",
+  modifier: utils.round(0)
+});
+```
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - modifier " src="https://codepen.io/tim-momo/embed/xbZzWRY/2f4323af229a1ddf6e9c80a5e8ff7a1b?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/xbZzWRY/2f4323af229a1ddf6e9c80a5e8ff7a1b">
+  AnimeJS - modifier </a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+### Avec une fonction personnalisée
+
+Dans ce cas, le paramètre d'une fonction fléchée représente la ou les valeurs modifiées par l'animation.
+
+<div class="grid align-items-start" markdown>
+```js
+import { animate } from "animejs";
+
+animate(".dot", {
+  x: "1vw",
+  y: "0.5vw",
+  modifier: (v) => {
+    return v * 25
   }
 });
 ```
 
-## Timeline
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - modifier " src="https://codepen.io/tim-momo/embed/XJXYEbR/fa9ef19ca3a25739ec7467954f0dfacd?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/XJXYEbR/fa9ef19ca3a25739ec7467954f0dfacd">
+  AnimeJS - modifier </a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+</div>
 
-Quand on utilise [timeline](https://gsap.com/docs/v3/GSAP/Timeline/) en GSAP, chaque animation commence après la fin de la précédente.
+## Animations multi‑étapes
 
+Il existe deux façons de créer des animations en plusieurs étapes avec AnimeJS : les tableaux simples, les keyframes et les timelines. 
+
+Les tableaux simples permettent de définir plusieurs valeurs pour une même propriété, tandis que les keyframes offrent un contrôle plus précis sur la durée et le timing de chaque étape.
+
+Pour ce qui est des timelines, nous verrons cela une autre fois.
+
+### Tableaux simples
+
+Cette méthode est la plus simple : on passe un tableau de valeurs pour chaque propriété. AnimeJS répartit automatiquement le temps entre chaque étape.
+
+<div class="grid align-items-start" markdown>
 ```js
-gsap.timeline()
-  .to("#box", { x: 100, duration: 1 }) // Démarre à 0 seconde
-  .to("#box", { rotation: 360, duration: 1 }) // Démarre après la fin de la première animation
-  .to("#box", { y: 100, duration: 1 }); // Démarre après la fin de la deuxième animation
+import { animate } from "animejs";
+
+animate(".dot", {
+  x: [0, "20vw", 0, "-20vw", 0],
+  y: [0, "-20vh", "20vh", 0],
+  duration: 2000,
+  loop: true
+});
 ```
 
-Il est toutefois possible d'ajouter la notion de décalage.
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Multi-étapes" src="https://codepen.io/tim-momo/embed/vELrRgb/2e8c64163d050af62da00b2e63ac29bd?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/vELrRgb/2e8c64163d050af62da00b2e63ac29bd">
+  AnimeJS - Multi-étapes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+### Keyframes
+
+Les keyframes permettent de définir précisément la durée de chaque étape et de combiner plusieurs propriétés par étape. C'est plus verbeux mais plus flexible.
+
+<div class="grid align-items-start" markdown>
+```js
+import { animate } from "animejs";
+
+animate(".dot", {
+  keyframes: [
+    { x: 0, y: 0, duration: 0 },
+    { x: `10vw`, y: `16vh`, duration: 100 },
+    { x: `-10vw`, duration: 100 },
+    { x: 0, y: 0, duration: 100 }
+  ],
+  loop: true,
+  ease: "outExpo"
+});
+```
+
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Multi-étapes" src="https://codepen.io/tim-momo/embed/VYedXWq/ea6ce3d98312ce565fe2f4d431403d02?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/VYedXWq/ea6ce3d98312ce565fe2f4d431403d02">
+  AnimeJS - Multi-étapes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+### Lissage global
+
+Lorsqu'une animation est configurée en plusieurs étapes, le lissage sera effectué sur chaque animation individuellement. Si on veut un lissage sur l'animation sur la durée entière, on utilise plutot `playbackEase`.
+
+<div class="grid" markdown>
+```text title='ease'
+0 ────────────────────────────────› 1
+A ──ease──› B ──ease──› C ──ease──› D
+```
+
+```text title="playbackEase"
+0 ──────────────ease──────────────› 1
+A ────────› B ────────› C ────────› D
+```
+</div>
+
+<div class="grid align-items-start" markdown>
+```js
+import { animate } from "animejs";
+
+animate(".dot", {
+  keyframes: [
+    { x: 0, y: 0, duration: 0 },
+    { x: `10vw`, y: `16vh`, duration: 1000 },
+    { x: `-10vw`, duration: 1000 },
+    { x: 0, y: 0, duration: 1000 }
+  ],
+  loop: true,
+  playbackEase: "outExpo" // 👈 
+});
+```
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Multi-étapes keyframes" src="https://codepen.io/tim-momo/embed/NPxzYXN/a9352955daca959073dc33bde4b46180?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/NPxzYXN/a9352955daca959073dc33bde4b46180">
+  AnimeJS - Multi-étapes keyframes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+## Valeurs relatives
+
+Les [valeurs relatives](https://animejs.com/documentation/animation/tween-value-types/relative-value) ("-=3", "+=5", "*=6") affecte l'animation en considérant la valeur initiale de l'élément HTML comme point de départ. 
+
+<div class="grid align-items-start" markdown>
+```js
+import { animate } from 'animejs';
+
+document.body.addEventListener('click', () => {
+  animate(".dot", { x: '+=10vw' });
+});
+```
+
+<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="AnimeJS - Multi-étapes keyframes" src="https://codepen.io/tim-momo/embed/dPGKmJw/472b4b31154bd02f39b67b762bde27b7?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/dPGKmJw/472b4b31154bd02f39b67b762bde27b7">
+  AnimeJS - Multi-étapes keyframes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+!!! tip "Astuce"
+
+    On peut penser aussi ajouter ce genre de logique dans un callback 😜 !
+
+    Au lieu d'exécuter une action manuellement, elle pourrait être automatisée au loop d'une animation par exemple.
+
+Dans l'exemple ci-dessous, on ajoute 180 degrés aux 180 existants. Ainsi `.bar` fera un tour complet. 
+
+Si on ne met pas le "+=", l'animation ne fera rien, car elle est déjà à 180 !
 
 ```js
-gsap.timeline()
-  .to("#box", { x: 100, duration: 1 }) // Démarre à 0 seconde
-  .to("#box", { rotation: 360, duration: 1 }, "-=0.5") // Démarre 0.5 seconde avant la fin de l’animation précédente
-  .to("#box", { y: 100, duration: 1 }, "+=0.2"); // Démarre 0.2 seconde après la fin de l'animation précédente
+import { animate, utils } from 'animejs';
+
+utils.set(".bar", { rotate: 180 });
+animate(".bar", { rotate: "+=180" });
 ```
+
+## Unités CSS relatives
+
+Connaissez-vous `cqw` et `cqh` ? Ce sont des valeurs en pourcentage du conteneur d'un élément HTML (_Container Query Width_ et _Container Query Height_). 
+
+C'est l'équivalent de `vw` et `vh`, mais dans un contexte spécifique : le conteneur parent de l'élément plutôt que la fenêtre du navigateur.
+
+**Pourquoi ne pas utiliser `%` ?** 
+
+C'est que le pourcentage pour les transformations se base sur les dimensions de l'élément lui-même, donc si on veut le positionner dans son conteneur en pourcentage, `cqw` et `cqh` sont les seules options CSS.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="AnimeJS - cqw cqh" src="https://codepen.io/tim-momo/embed/gbPKejO/8205e1f39c5bdb6783aaf76e968dcf2e?default-tab=&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/gbPKejO/8205e1f39c5bdb6783aaf76e968dcf2e">
+  AnimeJS - cqw cqh</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/auto-yellow.png)
+  ![](./exercices/ariana/giphy.gif)
 
-  <small>Exercice - GSAP</small><br>
-  **[Automobile jaune](./exercices/gsap-auto1.md){.stretched-link}**
+  <small>Exercice - AnimeJS</small><br>
+  **[Ariana](./exercices/ariana/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/auto-teal.png)
+  ![](./exercices/cloche/giphy.gif)
 
-  <small>Exercice - GSAP</small><br>
-  **[Automobile turquoise](./exercices/gsap-auto2.md){.stretched-link}**
+  <small>Exercice - AnimeJS</small><br> 
+  **[La cloche](./exercices/cloche/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/domino.png)
+  ![](./exercices/labyrinthe/giphy2.gif)
 
-  <small>Exercice - GSAP</small><br>
-  **[Domino](./exercices/gsap-domino.md){.stretched-link}**
+  <small>Exercice - AnimeJS</small><br>
+  **[Labyrinthe](./exercices/labyrinthe/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/dino/giphy.gif)
+
+  <small>Exercice - AnimeJS</small><br> 
+  **[Dino](./exercices/dino/index.md){.stretched-link .back}**
 </div>
 
 ## Devoir
 
-Remise du devoir 3 (Formatif) : 31 octobre à 23h59
-
-Joindre le lien url de votre fork dans le devoir 3 sur Teams.
-
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/alien.png)
+  ![](./exercices/monsterinc/ezgif.com-crop.gif)
 
-  <small>Devoir - GSAP</small><br>
-  **[Alien](./devoir/gsap-devoir3.md){.stretched-link}**
+  <small>Devoir - Formatif</small><br> 
+  **[Monstre inc.](./exercices/monsterinc/index.md){.stretched-link .back}**
 </div>
-
-[STOP]
-
-# Cours 9
-
-## Sprite responsive
-
-![](https://assets.codepen.io/9367036/hell-hound-walk.png)
-
-```html
-<div class="sprite-container">
-  <div class="sprite"></div>
-</div>
-```
-
-```css
-.sprite-container {
-  width: 64px; /* Largeur d'une seule image (768px / 12 étapes) */
-  height: 32px; /* Hauteur de chaque image dans le sprite */
-  overflow: hidden; /* Cache les parties non visibles du sprite */
-}
-
-.sprite {
-  width: 768px; /* Largeur du sprite (12 images x 64px de large chaque image) */
-  height: 32px; /* Hauteur du sprite */
-  background-image: url("https://assets.codepen.io/9367036/hell-hound-walk.png");
-
-  /* facultatif */
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
-}
-```
-
-## ScrollTrigger
-
-ScrollTrigger est un plugin GSAP qui permet de déclencher des animations en fonction du défilement de la page (scrolling).
-
-### Fonctionnalités de base
-
-Déclencher une animation lorsque l’élément entre dans la vue du viewport du navigateur.
-
-```javascript
-gsap.to(".box", {
-  x: 200,
-  scrollTrigger: ".box" // L'animation commence lorsque .box entre dans la vue
-});
-```
-
-Personnaliser les points de déclenchement. Vous pouvez définir où commence et où se termine une animation avec les paramètres start et end.
-
-```javascript
-scrollTrigger: {
-  trigger: ".box",
-  start: "top 75%", // L'animation commence quand le haut de l'élément atteint 75% du viewport
-  end: "bottom 25%", // L'animation se termine quand le bas de l'élément atteint 25% du viewport
-}
-```
-
-Ajouter des marqueurs pour visualiser les déclencheurs (utile pour le développement).
-
-```javascript
-scrollTrigger: {
-  trigger: ".box",
-  start: "top 75%",
-  end: "bottom 25%",
-  markers: true // Affiche des marqueurs visuels sur la page
-}
-```
-
-### Animation avec un sprite responsive
-
-Les sprite ou spritesheet sont utilisés pour créer des animations fluides à partir d’une série d’images placées sur une seule image. L’animation se fait en déplaçant le “viewport” visible à travers les différentes images du sprite. Voici un exemple avec GSAP :
-
-```javascript
-const spriteAnimation = gsap.to(".sprite", {
-  backgroundPosition: "-2400px 0px", // Modifie la position du background pour parcourir le spritesheet
-  duration: 2,
-  ease: "steps(12)", // Divise l'animation en 12 images fixes
-  paused: true, // L'animation est en pause pour être contrôlée par ScrollTrigger!
-  scrollTrigger: {
-    trigger: ".sprite-container",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: 1, // Synchronise l'animation avec le scroll
-    markers: true
-  }
-});
-```
-
-## Pratique guidée
-
-[Pratique guidée sprite et scrolltrigger](./exercices/gsap-sprite-scrolltrigger.md)
-
-## Exercices
-
-1. Ajouter des effets supplémentaires : Intégrez des animations supplémentaires avec ScrollTrigger, comme un fond qui se déplace parallèlement au spritesheet.
-1. Créer une version responsive : Adaptez l’animation pour différents écrans en ajustant les dimensions du conteneur et des images du spritesheet.
-1. Combiner avec d’autres éléments : Ajoutez du texte ou des éléments graphiques qui apparaissent en synchronisation avec l’animation du spritesheet.
