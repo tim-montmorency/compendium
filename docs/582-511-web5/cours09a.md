@@ -70,6 +70,15 @@ C'est un endroit où vous stockez des données qui doivent être **partagées en
 [Pinia](./vue/pinia.md)
 -->
 
+## Annonces
+
+- Vous avez reçu votre note d'examen dans Teams / Web 5 / Devoirs
+
+!!! question "Pour les échecs - possibilité de remonter"
+    Si vous avez échoué l'examen (moins de 60%), vous êtes supposés avoir reçu un courriel vendredi passé. Il y aura possibilité de faire un exercice de rattrapage *demain, mardi le 28 octobre de 11h30 à 12h30*. Pas d'extension de temps permis. C'est 1h pour tous.
+    .
+    Ce sera un questionnaire. Cette fois, vous n'aurez *PAS le droit de consulter vos notes de cours*.
+
 ## Projet portfolio (25%)
 
 <div class="class-content-link">
