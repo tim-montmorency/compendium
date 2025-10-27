@@ -70,7 +70,7 @@ Pour paramétrer votre site sur Host Papa via le cPanel, vous pouvez consulter c
 
 ### Hébergement sur *GitHub Pages*
 
-[Petite capsule vidéo sur l'hébergement GitHub Pages](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Optimisation%20-%20Web%203/02_contenu_de_cours/capsules/heberger-site-sur-github-pages.mov?csf=1&web=1&e=KOk8Hq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Petite capsule vidéo sur l'hébergement GitHub Pages](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYpIgWlXvpJIipvdArEJe94BRaNRwn7r4f61T9m_A8JVbw?e=eB5B8d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <small>Notez que cette capsule a été faite pour un autre groupe alors quand je parle de remise sur plusieurs branches, vous pouvez ignorer, du moins dans le cadre de votre projet portfolio</small>
 
