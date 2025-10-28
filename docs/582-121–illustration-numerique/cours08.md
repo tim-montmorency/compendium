@@ -4,5 +4,6 @@
 * Une absence entraîne la note zéro. 
 
 
-## Travail sur le projet 1
-Présentation en classe. 
+## Présentation du projet 1 pour le prochain cours
+* [projet 1](./projets/projet01.md)
+* Une absence entraîne la note zéro. 
