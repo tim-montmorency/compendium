@@ -34,9 +34,6 @@
 
 ## Devoir 
 * Travailler sur la pré-production. 
-* Préparer la présentation orale de votre projet.
-  * Quelle était l’idée de départ ?
-  * Quelle émotion, question ou situation vouliez-vous explorer ?
-  * Quelle était votre intention artistique (réalisme, poésie, humour, surréalisme, critique sociale, etc.) ?
-  * Quelles œuvres, artistes, films, musiques ou images vous ont inspirés ?
+* Préparer l'exposé oral [projet 1](projet_01.md)
+
 
