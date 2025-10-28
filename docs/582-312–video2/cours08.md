@@ -13,7 +13,7 @@ Aucun cours le **12 novembre** afin de permettre le travail sur le projet final.
 ## Atelier de green screen (30 minutes)
 Introduction aux principes du tournage sur **fond vert** et aux notions de **chrominance** (incrustation, éclairage, balance des couleurs).
 
-* [Réglage green screen](./references/greenscreen.md)(https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)
+* [Réglage green screen](./references/greenscreen.md)
 
 ## Atelier de stop motion
 Atelier pratique de création d’une courte séquence en **stop motion** : apprentissage de la planification, de la capture image par image et du rythme d’animation.
