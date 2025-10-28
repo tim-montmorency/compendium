@@ -68,6 +68,7 @@ Cette rencontre est **une évaluation formative essentielle**, fondée sur **la 
 
 ### 🛠️ Préparer la rencontre
 - [ ] Ouvrir tous les documents nécessaires.
+      
 ---
 
 ## Partie 3 – Présentation finale
@@ -112,7 +113,7 @@ Aucune remise à distance ou en différé n’est acceptée.
 - [ ] Mentionner ce que vous avez **conservé, modifié ou transformé**.  
   Ex. : « J’ai gardé la lumière contrastée, mais adouci les ombres pour une atmosphère plus intime. »
 
-#### 🛠️ 3. Réalisation et intention finale (1 minute)
+#### 🛠️ 3. Intention finale (1 minute)
 - [ ] Décrire vos **choix techniques** : lumière, cadrage, angle, mise en scène.
 - [ ] Expliquer leur **valeur émotionnelle ou symbolique**.  
   Ex. : « Le cadrage serré crée une sensation d’enfermement intérieur. »
@@ -142,12 +143,3 @@ Aucune remise à distance ou en différé n’est acceptée.
 - [ ] Expliquer ce que ces choix **représentent de vous**.  
   Ex. : « Les lignes fines traduisent ma sensibilité et mon souci du détail. »
 
----
-
-### 🩶 Conclusion (30 secondes)
-- [ ] Faire le lien entre vos deux démarches : autoportraits et signature.  
-  Ex. : « Dans les deux, j’ai cherché à traduire visuellement une émotion personnelle. »
-- [ ] Dire ce que vous avez **découvert sur vous-même**.  
-  Ex. : « J’ai compris que mes choix visuels traduisent la même sensibilité. »
-- [ ] Terminer sur une **phrase personnelle et significative**.  
-  Ex. : « Ce projet m’a permis de trouver une cohérence entre mon image et ma manière de me représenter. »
