@@ -4,13 +4,13 @@
 
 ## Partie 1 – Présentation du projet
 
-### 🎯 Objectif
+### Objectif
 Créer une **vidéo expérimentale de 1 minute 30** sur le **corps humain**, où **l’accumulation d’images et de sons** exprime une **émotion**, une **matière** ou **raconte une histoire** sans paroles.  
 L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à travers une approche **sensorielle**, **poétique** ou **abstraite**.
 
 ---
 
-### 🎥 Contraintes visuelles
+### Contraintes visuelles
 
 - **Utilisation de lentilles macro :**
   - Tout doit être filmé en **très gros plan**, sauf **3 plans** maximum autorisés en gros plan.
@@ -29,7 +29,7 @@ L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à tr
 
 ---
 
-### 🎧 Contraintes sonores
+### Contraintes sonores
 
 - **Création sonore originale :**
   - Réaliser un **micro-montage** à partir de sons enregistrés pendant le tournage.
@@ -44,7 +44,7 @@ L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à tr
 
 ---
 
-### ✅ Critères de réussite
+### Critères de réussite
 
 1. **Qualité visuelle :** Respect des contraintes macro et variété des plans.  
 2. **Création sonore :** Cohérence et richesse du micro-montage.  
@@ -54,65 +54,65 @@ L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à tr
 
 ## Partie 2 – Présentation en classe
 
-### 🎯 Objectif de la présentation
+### Objectif de la présentation
 Durée maximale : **5 minutes**  
 Cette présentation sert à **expliquer ta démarche artistique** et à **montrer ton moodboard** pour illustrer les **choix visuels et sonores** de ton projet.
 
 ---
 
-### 🧠 Partie 1 – Idée de départ
+### Partie 1 – Idée de départ
 Présente la **genèse du projet** :  
 - Quelle était **l’idée ou le concept initial** ?  
 - Quelle **émotion, question ou situation** voulais-tu explorer à travers ce film ?  
 - Pourquoi avoir choisi **le corps** comme sujet central ?  
 
-> 🎯 **But :** faire comprendre ton **intention expressive** avant la technique.
+> **But :** faire comprendre ton **intention expressive** avant la technique.
 
 ---
 
-### 🎨 Partie 2 – Intention artistique et influences
+### Partie 2 – Intention artistique et influences
 Décris tes **choix esthétiques** et tes **sources d’inspiration** :  
 - Quelle **approche artistique** as-tu adoptée (poésie, surréalisme, réalisme, critique sociale, etc.) ?  
 - Quelles **œuvres, artistes, films, musiques ou images** t’ont influencé·e ?  
 - Quelle **atmosphère** ou **vision du monde** voulais-tu transmettre ?  
 
-💡 Appuie cette partie avec **quelques images ou extraits clés** de ton moodboard.
+> Appuie cette partie avec **quelques images ou extraits clés** de ton moodboard.
 
 ---
 
-### 🖼️ Partie 3 – Moodboard et traitement visuel
+### Partie 3 – Moodboard et traitement visuel
 Présente ton **moodboard** et explique comment il traduit tes intentions :  
 
 | Élément visuel | Points d’analyse |
 |-----------------|-----------------|
-| 💡 **Lumière** | Douce, crue, colorée, contrastée… |
-| 🧩 **Composition et cadrage** | Équilibre, lignes, rapport au corps et à l’espace. |
-| 🌫️ **Ambiance et texture** | Réalisme, stylisation, matière, fluides, surfaces. |
-| 🎞️ **Rythme visuel** | Lenteur, tension, continuité, ruptures. |
-| 🎨 **Palette de couleurs** | Noir et blanc, désaturation, contraste sélectif. |
+| **Lumière** | Douce, crue, colorée, contrastée… |
+| **Composition et cadrage** | Équilibre, lignes, rapport au corps et à l’espace. |
+| **Ambiance et texture** | Réalisme, stylisation, matière, fluides, surfaces. |
+| **Rythme visuel** | Lenteur, tension, continuité, ruptures. |
+| **Palette de couleurs** | Noir et blanc, désaturation, contraste sélectif. |
 
-> 🎯 **But :** montrer la cohérence entre ton **univers visuel** et ton **intention artistique**.
+> **But :** montrer la cohérence entre ton **univers visuel** et ton **intention artistique**.
 
 ---
 
-### 🔊 Partie 4 – Traitement sonore
+### Partie 4 – Traitement sonore
 Explique comment ton travail sonore soutient l’intention visuelle.  
 
 | Dimension sonore | Points d’analyse |
 |------------------|-----------------|
-| 🎧 **Musique** | Style, ton, usage du silence. |
-| 🌬️ **Ambiances sonores** | Sons concrets, respiration, bruits de peau, environnement. |
-| 🔁 **Rythme et espace sonore** | Ruptures, continuité, jeux de distance. |
-| 🎤 **Voix ou absence de voix** | Rôle émotionnel du son, narration implicite. |
+| **Musique** | Style, ton, usage du silence. |
+| **Ambiances sonores** | Sons concrets, respiration, bruits de peau, environnement. |
+| **Rythme et espace sonore** | Ruptures, continuité, jeux de distance. |
+| **Voix ou absence de voix** | Rôle émotionnel du son, narration implicite. |
 
-> 🎯 **But :** montrer comment le **son prolonge** ou **contraste** avec l’image.
+> **But :** montrer comment le **son prolonge** ou **contraste** avec l’image.
 
 ---
 
-### 🪞 Partie 5 – Conclusion
+### Partie 5 – Conclusion
 Termine ta présentation par une **synthèse claire** :  
 - Comment tes **choix visuels et sonores** traduisent-ils ton intention artistique ?  
 - Quelle **émotion** ou **expérience sensorielle** veux-tu provoquer chez le spectateur ?  
 - Quelle **réflexion ou ressenti** veux-tu laisser après la projection ?  
 
-🎬 **Conclusion :** ton film doit être perçu comme une **expérience sensorielle cohérente**, où le corps devient **langage**, **matière** et **émotion**.
+**Conclusion :** ton film doit être perçu comme une **expérience sensorielle cohérente**, où le corps devient **langage**, **matière** et **émotion**.
