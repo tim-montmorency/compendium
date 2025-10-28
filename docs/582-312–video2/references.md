@@ -43,7 +43,7 @@
 
 ## Tout pour vos tournage - les réglages
 * [Réglages de la caméra](./references/Caméra.md)
-* [Réglages de la caméra / stop motion](./references/caméra_photo)
+* [Réglages de la caméra / stop motion](./references/caméra_photo.md)
 * [Réglages de la lumière](./references/Lumière.md)
 * [Réglages du spot_ellipsoïdal](./references/spot_ellipsoïdal.md)
 * [Réglages du moniteur](./references/Moniteur.md)
