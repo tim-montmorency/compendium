@@ -2,8 +2,8 @@
 
 
 ## Informations diverses
-* La section références du wiki
-* Upload des images dans Da Vinci
+* Références du wiki
+* Da vinci / upload des images en batch
 
 
 ## La pré-production 
