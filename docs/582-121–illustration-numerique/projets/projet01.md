@@ -68,8 +68,6 @@ Cette rencontre est **une évaluation formative essentielle**, fondée sur **la 
 
 ### 🛠️ Préparer la rencontre
 - [ ] Ouvrir tous les documents nécessaires.
-- [ ] Vérifier le **bon fonctionnement des écouteurs**.
-
 ---
 
 ## Partie 3 – Présentation finale
