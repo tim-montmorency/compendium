@@ -7,17 +7,6 @@ Apprendre à manipuler la matière et la lumière pour créer l’illusion du mo
 
 ## Partie 1 – Exploration collective : animer la matière et le corps
 
-**Déroulement en grand groupe :**  
-Découverte et expérimentation des grands principes d’animation du réel — **tissu, cheveux, lumière et corps humain** — à travers des démonstrations et une discussion collective.
-
-**Objectifs de la séance :**
-- Comprendre les comportements physiques du tissu, de la lumière et du corps.  
-- Explorer les **principes fondamentaux de l’animation** appliqués à la pixilation.  
-- Identifier comment certains **effets visuels (disparition, gonflement, division, etc.)** traduisent une émotion ou une transformation.  
-- Relier la matière à une **intention expressive** (souffle, tension, flottement, disparition...).
-
----
-
 ### 🧩 Discussion en grand groupe – Principes et effets en pixilation
 
 **Grands principes d’animation à observer :**
