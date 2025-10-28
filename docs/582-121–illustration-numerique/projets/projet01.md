@@ -3,76 +3,121 @@
 ## CONSIGNES / SIGNATURE
 
 * **Signature**
-  * [ ] **Nombre :** Créez 1 signature dans Photoshop.
+  * [ ] **Nombre :** Créer 1 signature dans Photoshop.
   * [ ] **Lien Visuel :** La signature doit vous représenter clairement et ressembler à un logo.
-  * [ ] **Calques Obligatoires :** Votre signature doit inclure au moins 4 calques vectoriels.
-  * [ ] **Effets :** Intégrez au moins un effet comme par exemple :
-    * [ ] Perspective
-    * [ ] 3D
-    * [ ] Ligne brisée
-    * [ ] Fluide
+  * [ ] **Calques Obligatoires :** Inclure au moins 4 calques vectoriels.
+  * [ ] **Effets :** Intégrer au moins un effet parmi :
+    * [ ] Perspective  
+    * [ ] 3D  
+    * [ ] Ligne brisée  
+    * [ ] Fluide  
     * [ ] Vent
-  * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
-  * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
+  * [ ] **Dimensions :** Format 1920 x 1080 pixels, orientation horizontale.
+  * [ ] **Langue :** Exécuter le travail en français.
 
+---
 
 ## CONSIGNES / AUTOPORTRAIT
 
 * **Autoportrait**
-  * [ ] **Nombre :** Créez 4 images distinctes dans Photoshop.
-  * [ ] **Lien Visuel :** Assurez-vous que les images sont visuellement liées entre elles et qu’elles vous représentent.
-  * [ ] **Calques Obligatoires :** Chaque image doit comporter au moins 4 calques d’images découpées.
-  * [ ] **Autres calques :** Vous pouvez également ajouter des calques de dessin et/ou des calques vectoriels.
-  * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
-  * [ ] **Langue :** Toutes les exécutions doivent être faites en français.
-  
+  * [ ] **Nombre :** Créer 4 images distinctes dans Photoshop.
+  * [ ] **Lien Visuel :** Assurer une cohérence visuelle entre les images et avec votre identité.
+  * [ ] **Calques Obligatoires :** Inclure au moins 4 calques d’images découpées.
+  * [ ] **Autres calques :** Possibilité d’ajouter des calques de dessin et/ou vectoriels.
+  * [ ] **Dimensions :** Format 1920 x 1080 pixels, orientation horizontale.
+  * [ ] **Langue :** Exécuter le travail en français.
+
+---
 
 ## PROJET 1 – PARTIE 1 : LE MOODBOARD
 
 * **Créer deux moodboards**
-  * [ ] [Choisir votre courant artistique pour votre signature et votre autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
-  * [ ] Faites une recherche dans [Pinterest](https://www.pinterest.com/) pour trouver vos inspirations pour la signature et l'autoportrait.
-  * [ ] Notez le nom des artistes qui ont réalisé les illustrations.
-  * [ ] Notez le courant artistique auquel appartiennent ces artistes.
-  * [ ] Téléchargez vos images d'inspirations avec un format minimal de 1920 X 1080. 
-  * [ ] Créez votre moodboard dans Photoshop à partir des [templates suivants](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of)
-  * [ ] Utilisez la typographie Calibri <br>
-  * [ ] Vos mooodboards doivent inclure :
-      * [ ] Des exemples d'œuvres représentatives du courant artistique sélectionné
-      * [ ] Une palette de couleurs
+  * [ ] [Choisir un courant artistique pour la signature et l’autoportrait](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
+  * [ ] Effectuer une recherche dans [Pinterest](https://www.pinterest.com/) pour trouver vos inspirations.
+  * [ ] Noter le nom des artistes choisis.
+  * [ ] Identifier le courant artistique correspondant.
+  * [ ] Télécharger les images en format minimal **1920 x 1080 px**.
+  * [ ] Créer vos moodboards dans Photoshop à partir des [templates fournis](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EgMWAkBvYPJKspzsmGFOrqABp__7LcDgB9KLSWMrT_QmXw?e=c4R2Of).
+  * [ ] Utiliser la typographie **Calibri**.  
+  * [ ] Inclure dans chaque moodboard :
+      * [ ] Des exemples d’œuvres du courant artistique sélectionné  
+      * [ ] Une palette de couleurs  
       * [ ] Des typographies (si nécessaire)
-  * [ ] Téléchargez le document de [nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR) et déposez vos deux moodboards dans le dossier références
+  * [ ] Télécharger le document de [nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EtTOCPWMaspFh1mZfR3pQdkBnuwrvNMDu4M49-V-qh56jg?e=gPDhoR)  
+  * [ ] Déposer vos deux moodboards dans le dossier **Références**.
 
-
+---
 
 ## PROJET 1 – PARTIE 2 : PRÉ-APPROBATION – L’AUTOPORTRAIT
 
-À ce stade, vous devez présenter vos illustrations terminées au professeur. 
+À ce stade, vous devez présenter vos illustrations terminées au professeur.
 
-* Voici la liste des choses à présenter
-  * [ ] **Deux moodboards**
-  * [ ] **Une signature**
-  * [ ] **Quatre autoportraits**
-  * [ ] **Une musique**
+* **Documents à présenter :**
+  * [ ] Deux moodboards  
+  * [ ] Une signature  
+  * [ ] Quatre autoportraits  
+  * [ ] Une musique  
 
-Le professeur vous fournira des commentaires que vous devrez utiliser pour améliorer votre travail en vue de la présentation finale. Si aucune modification n'est effectué, votre note finale risque d'être grandement affectée. 
+Le professeur fournira des commentaires pour améliorer le travail avant la présentation finale.  
+⚠️ Si aucune modification n’est effectuée, la note finale pourrait être affectée.
 
-Lors de la rencontre avec le professeur, veuillez avoir tous vos documents ouverts et à ce que vos écouteurs soient fonctionnels.
+* **Préparation à la rencontre :**
+  * [ ] Avoir tous les documents ouverts.  
+  * [ ] Vérifier le bon fonctionnement des écouteurs.
 
+---
 
-## PROJET 1 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
+## PROJET 1 – PARTIE 3 : PRÉSENTATION FINALE – L’AUTOPORTRAIT
 
-À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit:
+À ce stade, vous devez présenter vos projets en classe. La présentation se déroulera comme suit :
 
-* **Présentation de vos illustrations**
-  * [ ] Présentez dans Powerpoint vos 4 autoportraits et votre signature.
-  * [ ] Sauvegardez vos fichiers Photoshop au format JPG. Conservez également votre copie PSD.
-    * [ ] Importez vos JPG dans un document PowerPoint (ou autre support) au format 16/9.
-    * [ ] Utilisez un fond blanc ou noir et évitez les transitions.
-    * [ ] Une musique doit accompagner votre présentation et jouer tout au long de l'exposé.
-  * [ ] À cette étape, vous ne devez pas commenter votre projet.
-          
-* **Exposé oral et présentation de votre moodboard**
-  * [ ] Une fois la présentation de votre projet terminé, présentez dans Powerpoint vos moodboards.
-  * [ ] Décrivez votre démarche artistique grâce à vos moodboards et expliquer comment votre travail est influencé par le courant artistique choisi. Votre présentation de 3 minutes doit être concise et bien articulée.
+* **Présentation visuelle**
+  * [ ] Présenter dans PowerPoint vos 4 autoportraits et votre signature.  
+  * [ ] Sauvegarder vos fichiers Photoshop en **JPG** (conserver aussi le **PSD**).  
+  * [ ] Importer les JPG dans un PowerPoint (ou autre support) au format **16/9**.  
+  * [ ] Utiliser un **fond blanc ou noir**, sans transitions.  
+  * [ ] Ajouter une **musique** qui joue tout au long de l’exposé.  
+  * [ ] Ne pas commenter le projet à cette étape.
 
+---
+
+## 🎬 STRUCTURE DE L’EXPOSÉ – 4 MINUTES
+
+### 🛠️ Introduction – 30 secondes
+- [ ] Présenter le thème général de la série d’autoportraits.  
+- [ ] Exprimer en une phrase ce que tu voulais **montrer** ou **questionner**.  
+  - [ ] Ex. : « J’ai voulu montrer comment la lumière transforme la perception qu’on a de soi. »
+
+---
+
+### 🛠️ Influences et courant artistique – 1 minute
+- [ ] Citer **1 ou 2 artistes** ou **courants artistiques** qui t’ont inspiré.  
+- [ ] Expliquer en quoi ces références ont influencé ton travail :  
+  - [ ] Lumière  
+  - [ ] Composition  
+  - [ ] Couleur  
+  - [ ] Sujet  
+  - [ ] Ambiance  
+  - [ ] Emotion  
+
+  - [ ] Ex. : « Je me suis inspirée de Nan Goldin pour la proximité émotionnelle et du surréalisme de Dali pour les déformations du réel. »
+
+---
+
+### 🛠️ Moodboard et démarche – 1 minute 30
+- [ ] Expliquer comment ton **moodboard** a guidé tes choix visuels :  
+  - [ ] Palette de couleurs  
+  - [ ] Textures  
+  - [ ] Ambiance  
+  - [ ] Émotions  
+  - [ ] Poses  
+- [ ] Dire ce que tu as **conservé**, **modifié** ou **transformé**.  
+  - [ ] Ex. : « Au départ, mon moodboard était froid et métallique ; j’ai ajouté du doré pour rendre le résultat plus organique et intime. »
+
+---
+
+### 🛠️ Signature visuelle et conclusion – 1 minute
+- [ ] Montrer la **cohérence visuelle** de ton projet (lumière, cadrage, texture, ton émotionnel).  
+- [ ] Décrire ta **signature visuelle** : ce qui te distingue et ce que tu veux poursuivre.  
+- [ ] Terminer par une **phrase de conclusion personnelle** : ce que tu as appris ou ce que ce projet représente pour toi.  
+  - [ ] Ex. : « Je réalise que ma signature réside dans la douceur des tons et la frontalité du regard ; c’est une manière de me réconcilier avec ma propre image. »
