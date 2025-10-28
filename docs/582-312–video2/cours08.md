@@ -20,7 +20,8 @@ Introduction aux principes du tournage sur **fond vert** et aux notions de **chr
 Atelier pratique de création d’une courte séquence en **stop motion** : apprentissage de la planification, de la capture image par image et du rythme d’animation.
 
 ➡️ [Atelier de stop motion](./stopmotion.md)  
-➡️ [Étape de tournage / Stop motion](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESUOrhSQCOJEvitVdhYW3hoBNnTAp3l1V4TDl87xOgcKWw?e=nZ8w1U)
+➡️ [Set up / tournage / stop motion](./references/caméra_photo)
+➡️ [Fonctionnement / Dragon Frame](./references/dragonframe.md)
 
 ## Devoir
 - Préparer la **pré-production complète** (scénario, découpage, plan de tournage, moodboard, logistique).  
