@@ -10,6 +10,9 @@ Aucun cours le **12 novembre** afin de permettre le travail sur le projet final.
 |------------|--------------------------|-------------|
 | **Tournage** | 3 au 16 novembre 2025 | Plusieurs équipes peuvent utiliser le même studio. Il est nécessaire de communiquer avec les autres groupes pour réserver la section que vous utiliserez. |
 
+## Nom des membres de votre équipe
+* [Équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/EQWhjH34p-lOi1cI0aDS6IwBlW2lB9Qcr8WgNGpceS708A?e=m0ks3p)
+
 ## Atelier de green screen (30 minutes)
 Introduction aux principes du tournage sur **fond vert** et aux notions de **chrominance** (incrustation, éclairage, balance des couleurs).
 
