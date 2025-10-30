@@ -2,6 +2,8 @@
 
 [STOP]
 
+PRÉPARATION À L'EXAMEN
+
 <!-- CSS avancé et bonnes pratiques
 Effets visuels
 Méthodologie BEM
@@ -16,6 +18,7 @@ Révision CSS
 	•	Ombres & séparateurs : box-shadow basique; outline pour debug visuel (sans outils d’inspection).
 	•	Révision globale : consolidation des compétences des 3 cours précédents.
 
+[À priori, nommer des éléments peut sembler facile.](./css/nommage-et-formatage.md)
 
 	Préparation à l'examen
 -->
