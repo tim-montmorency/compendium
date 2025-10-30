@@ -5,7 +5,6 @@
 
 [📥 Télécharger fichiers de départ](#){ .md-button }
 
-
 ## Apercu
 
 Un mini-catalogue de jeux retro :
