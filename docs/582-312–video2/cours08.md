@@ -10,17 +10,20 @@ Aucun cours le **12 novembre** afin de permettre le travail sur le projet final.
 |------------|--------------------------|-------------|
 | **Tournage** | 3 au 16 novembre 2025 | Plusieurs équipes peuvent utiliser le même studio. Il est nécessaire de communiquer avec les autres groupes pour réserver la section que vous utiliserez. |
 
+## Nom des membres de votre équipe
+* [Équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/EQWhjH34p-lOi1cI0aDS6IwBlW2lB9Qcr8WgNGpceS708A?e=m0ks3p)
+
 ## Atelier de green screen (30 minutes)
 Introduction aux principes du tournage sur **fond vert** et aux notions de **chrominance** (incrustation, éclairage, balance des couleurs).
 
-
-➡️ [Atelier de green screen](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4)
+* [Réglage green screen](./references/greenscreen.md)
 
 ## Atelier de stop motion
 Atelier pratique de création d’une courte séquence en **stop motion** : apprentissage de la planification, de la capture image par image et du rythme d’animation.
 
-➡️ [Atelier de stop motion](./stopmotion.md)  
-➡️ [Étape de tournage / Stop motion](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESUOrhSQCOJEvitVdhYW3hoBNnTAp3l1V4TDl87xOgcKWw?e=nZ8w1U)
+* [Atelier de stop motion](./stopmotion.md)  
+* [Réglage caméra / stop motion](./references/caméra_photo.md)
+* [Réglage Dragon Frame](./references/dragonframe.md)
 
 ## Devoir
 - Préparer la **pré-production complète** (scénario, découpage, plan de tournage, moodboard, logistique).  

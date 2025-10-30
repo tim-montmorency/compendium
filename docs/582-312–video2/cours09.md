@@ -1,13 +1,16 @@
 # Cours 9
-  
-## Le green screen (30 minutes)
-* [Explication green](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EezQg3ytDZtDoVK-6J6OCcIBwQOhGGpux0Osesvg4pZ9Wg?e=q2ibM4) 
-## Réservation [Midjourney](https://teamup.com/ks3j4jwsg8wvik7eh5)
-Reset des mots de passe à chaque utilisateur 
 
-## Présentation pré-production (30 mimutes)
-## Midjourney (110 minutes)
-## Runway (30 minutes)
+
+## Informations diverses
+* Références du wiki
+* Da vinci / upload des images en batch
+* [Noms de membres de votre équipe](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/EQWhjH34p-lOi1cI0aDS6IwBlW2lB9Qcr8WgNGpceS708A?e=m0ks3p)
+
+
+## La pré-production 
+
+
+
 
 
 

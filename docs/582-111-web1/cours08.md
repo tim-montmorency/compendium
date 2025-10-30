@@ -242,11 +242,12 @@ Si deux règles de même spécificité ciblent le même élément et la même pr
 
 La spécificité est un score attribué à chaque sélecteur pour déterminer sa priorité.
 
-| Type de sélecteur | Score     |
-| ----------------- | --------- |
-| Balise            | 🟢 Faible |
-| Classe            | 🟡 Moyen  |
-| Identifiant       | 🔴 Fort   |
+| Type de sélecteur        | Priorité  | Score |
+| ------------------------ | --------- | ----- |
+| Balise                   | 🟢 Faible | 1     |
+| Classe                   | 🟡 Moyen  | 10    |
+| Identifiant              | 🔴 Fort   | 100   |
+| Dans le HTML directement | 🔴 Max    | 1000  |
 
 ```html title="Exemple"
 <p id="sanchez" class="rick">Wubba Lubba Dub Dub</p>
@@ -808,6 +809,8 @@ La plupart du temps, ce sont les propriétés liées au texte qui sont passées 
 Résultat. Le texte du paragraphe sera en vert, mais n'héritera pas du padding de son parent.
 
 ## Exercices
+
+[Spécificités](https://css-specificity.smnarnold.com/?level=class-and-class-vs-class)
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices/diner/pulp1.gif)
