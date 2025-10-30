@@ -65,17 +65,9 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 
 ## SCRUM
 
-SRUM d'équipe
+SCRUM d'équipe
 
 ## Devoir
-
-Terminer votre portfolio pour mercredi
-
-- [Info générale et critères d'évaluation](./projets/portfolio.md)
-- [Instructions fetch et Vue](./projets/portfolio-instructions-fecth-vue.md)
-
-Préparer votre présentation pour mercredi
-- [Instructions pour la présentation orale](./projets/portfolio-presentation.md)
 
 
 
