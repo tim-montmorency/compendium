@@ -4,9 +4,9 @@
 
 ...
 
-## CHangement du calendrier de remises
+## Changement du calendrier de remises
 
-Changements s
+Changements des remises:
 
 <!-- 3 novembre -->
 
