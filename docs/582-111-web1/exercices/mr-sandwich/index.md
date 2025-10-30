@@ -4,7 +4,7 @@ L'objectif de cet exercice est de mettre en pratique la notion de positionnement
 
 ## Résultat attendu
 
-![](./mr.png){ data-zoom-image }
+![](./mr-s.png){ data-zoom-image }
 
 ## Consignes
 
