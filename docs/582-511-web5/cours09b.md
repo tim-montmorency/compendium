@@ -21,5 +21,5 @@ REMISE FINALE DU PROJET PORTEFOLIO ET PRÉSENTATION ORALE EN CLASSE (sommatif)
 
 ## SCRUM d'équipe
 
-Normalement nous aurions un SCRUM aujourd'hui mais je préfère vous laisser focusser sur votre portfolio. Le SCRUM va donc être remis à mercredi après les présentations.
+Normalement nous aurions un SCRUM aujourd'hui mais je préfère vous laisser focusser sur votre portfolio. Le SCRUM va donc être remis à lundi après les présentations.
 
