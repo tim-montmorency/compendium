@@ -1,5 +1,9 @@
 # Cours 10.1
 
+## SCRUM d'équipe
+
+...
+
 ## CHangement du calendrier de remises
 
 Changements

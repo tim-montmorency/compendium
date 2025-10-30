@@ -53,7 +53,7 @@ Quelques instructions en début de cours (vous pouvez le faire dans les 10 premi
 - [ ] Vue.js Single File Component (SFC)
 <!-- - [ ] Vue.js Communication entre app et composantes ($emit) -->
 
-## Contrat d'équipe
+## Contrat d'équipes
 
 Le contrat permet aux membres de chaque équipe de s’entendre sur un *but commun* et de rendre explicites les *règles* qu’elles et ils désirent voir respecter dans leur équipe.
 

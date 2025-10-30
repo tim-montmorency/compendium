@@ -19,7 +19,4 @@ REMISE FINALE DU PROJET PORTEFOLIO ET PRÉSENTATION ORALE EN CLASSE (sommatif)
   <a href="./projets/portfolio-presentation.html">Instructions pour la *présentation orale* du 29 octobre.</a>
 </div>
 
-## SCRUM d'équipe
-
-Normalement nous aurions un SCRUM aujourd'hui mais je préfère vous laisser focusser sur votre portfolio. Le SCRUM va donc être remis à lundi après les présentations.
 
