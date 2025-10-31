@@ -646,9 +646,9 @@ Comment stockez-vous les chapitres et choix?
 ### 9.2 *PHASE 2: FONDATION*
 <!--Semaine 3-4-->
 
-**Du 22 octobre au 2 novembre environ**
+**Du 2 au 10 novembre environ**
 
-*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%*
+*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : ~~14~~ 19 novembre | 15%*
 
 !!! tip "Le projet portfolio en parallèle"
     Notez que mercredi le 29 octobre c'est la remise et présentation de votre portfolio donc nous laissons un peu plus qu'une semaine pour cette phase car vous allez probablement finaliser votre portfolio en même temps.
@@ -661,9 +661,9 @@ Comment stockez-vous les chapitres et choix?
 ### 9.3 *PHASE 3: INTERACTIVITÉ - Système de Choix*
 <!-- Semaine 4-5-->
 
-**Environ du 2 novembre au 12 novembre**
+**Environ du 10 au 19 novembre**
 
-*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%*
+*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : ~~14~~ 19 novembre | 15%*
 
 - Logique de branches narratives
 - Système de tracking des conséquences
@@ -676,7 +676,7 @@ Comment stockez-vous les chapitres et choix?
 
 **Du 12 au 19 novembre**
 
-*Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
+*Remise Phases 4 ANIMATIONS+MÉDIAS ~~et 5 PERSISTANCE~~ : 26 novembre | Formatif*
 
 - Intégration GSAP (transitions)
 - Images de fond par chapitre
@@ -696,8 +696,6 @@ Comment stockez-vous les chapitres et choix?
 
 **Du 19 au 26 novembre**
 
-*Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
-
 - Système de sauvegarde (3 slots)
 - LocalStorage complet
 - Toutes les fins écrites et intégrées
@@ -707,7 +705,7 @@ Comment stockez-vous les chapitres et choix?
 
 **Du 26 novembre au 3 décembre**
 
-*Remise version *BETA* le 3 décembre | Formatif*
+*Remise version *BETA* qui devra comprendre la PHASE 5 SAUVEGARDE DE DONNÉES: le 3 décembre | Formatif*
 
 - Responsive final
 - Accessibilité (ARIA, keyboard)
