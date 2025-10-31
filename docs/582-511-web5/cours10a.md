@@ -1,12 +1,23 @@
 # Cours 10.1
 
-## SCRUM d'équipe
+## Annonces
 
-...
+Changements des remises.
 
-## Changement du calendrier de remises
 
-Changements des remises:
+## SCRUM
+
+SCRUM d'équipe
+
+## Projet App Web créative
+
+• Setup du projet Vite + Vue 
+• Installation des dépendances (Pinia, GSAP) 
+• Configuration ESLint + Prettier
+• Création des premiers composants "skeleton"
+
+- Choisi ta voie: Rédaction de l'histoire
+
 
 <!-- 3 novembre -->
 
@@ -39,7 +50,7 @@ Changements des remises:
 
 ### Exercice $emit
 
-[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/#requis-vue---composante-prix-total){ .md-button}
+[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis-total/#requis-vue---composante-prix-total){ .md-button}
 
 <!-- ➜ [Solution instructions avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
 
@@ -63,9 +74,7 @@ Peut-être un autre exercice ?
 https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
 -->
 
-## SCRUM
 
-SCRUM d'équipe
 
 ## Devoir
 
