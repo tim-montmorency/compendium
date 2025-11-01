@@ -1,0 +1,63 @@
+/* Exercice 1 — Grille de couleurs (3×2)
+ * Consignes :
+ * 1) Appliquer display: grid; sur .grille
+ * 2) Définir 3 colonnes égales : grid-template-columns: repeat(3, 1fr);
+ * 3) Définir 2 rangées (ex: 150px de hauteur) : grid-template-rows: repeat(2, 150px);
+ * 4) Ajouter un espace (gap) de 10px entre les cellules.
+ */
+
+:root {
+  --bg: #0f172a;
+  --card: #0b1220;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container { max-width: 960px; margin: 40px auto; padding: 0 16px; }
+
+h1 { margin: 0 0 8px; font-size: 1.5rem; }
+.hint { margin: 0 0 24px; color: var(--muted); }
+
+.grille {
+  background: var(--card);
+  padding: 12px;
+  border-radius: 14px;
+}
+
+.case {
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  opacity: 0.95;
+}
+
+/* Couleurs variées par position (sans inline styles) */
+/*.case:nth-child(1) { background: #ef4444; }
+.case:nth-child(2) { background: #f59e0b; }
+.case:nth-child(3) { background: #10b981; }
+.case:nth-child(4) { background: #3b82f6; }
+.case:nth-child(5) { background: #8b5cf6; }
+.case:nth-child(6) { background: #ec4899; }*/
+
+.case:nth-child(1) { background: hsl(0, 80%, 55%); }   /* rouge */
+.case:nth-child(2) { background: hsl(40, 80%, 55%); }  /* orange */
+.case:nth-child(3) { background: hsl(80, 80%, 45%); }  /* vert-jaune */
+.case:nth-child(4) { background: hsl(120, 60%, 40%); } /* vert */
+.case:nth-child(5) { background: hsl(160, 70%, 40%); } /* turquoise */
+.case:nth-child(6) { background: hsl(200, 75%, 50%); } /* bleu */
+.case:nth-child(7) { background: hsl(240, 70%, 60%); } /* indigo */
+.case:nth-child(8) { background: hsl(280, 65%, 60%); } /* violet */
+.case:nth-child(9) { background: hsl(320, 70%, 55%); } /* magenta */
+
