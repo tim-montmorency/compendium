@@ -2,11 +2,11 @@
 
 <!-- vendredi 14 novembre -->
 
-## Présentation Validation de formulaires Vue (30 min)
+## Validation de formulaires Vue (Mémoires interactives) (30 min)
 
 ..
 
-## Présentation: Logique de branches narratives (30 min)
+## Logique de branches narratives (Trace ton chemin) (30 min)
 
 ..
 

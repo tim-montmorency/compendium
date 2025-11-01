@@ -26,4 +26,6 @@
 
 Rencontres de suivi pour la remise d'aujourd'hui (entre prof et équipes)
 
-## Complétion et polissage 
+## Avancement de la persistance et sauvegarde des données
+
+Avancement de ce qui a été vu et débuté au dernier cours.

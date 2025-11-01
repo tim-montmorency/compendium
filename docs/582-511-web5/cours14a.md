@@ -30,3 +30,10 @@
 ## Aujourd'hui
 
 Rencontres de suivi pour la remise d'aujourd'hui (entre prof et équipes)
+
+## Affinage (polish) et accessibilité
+
+- Rendre le projet 100% responsive
+- Optimiser les performances
+- Corriger tous les bugs
+- Ajouter du contenu additionnel

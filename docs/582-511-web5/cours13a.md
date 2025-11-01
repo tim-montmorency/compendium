@@ -7,7 +7,7 @@
 ..
 
 
-## Présentation: LocalStorage, gestion d'erreurs et gestion des sauvegardes (30 min)
+## LocalStorage, gestion d'erreurs et gestion des sauvegardes (30 min)
 
 ## *Mémoire interactive*: Persistance et Authentification
 

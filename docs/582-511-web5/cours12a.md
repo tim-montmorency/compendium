@@ -5,7 +5,7 @@
 
 ## SCRUM d'équipe
 
-..
+## Contenu de cours...
 
 
 ## Mémoire interactive: Interactivité - CRUD et Formulaires
