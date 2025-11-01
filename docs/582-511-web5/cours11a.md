@@ -17,28 +17,28 @@ Pinia
 
 ### Création des stores:
 
-- useMuseumStore.js (structure de base)
-- useMemoryStore.js (structure de base)
+- `useMuseumStore.js` (structure de base)
+- `useMemoryStore.js` (structure de base)
 
 ### Développement des composants clés:
 
-- RoomCard.vue (carte de salle)
-- MemoryCard.vue (carte de mémoire)
-- MemoryList.vue (grille de mémoires)
+- `RoomCard.vue` (carte de salle)
+- `MemoryCard.vue` (carte de mémoire)
+- `MemoryList.vue` (grille de mémoires)
 
 ## *Trace ton chemin*
 
 ### Création des stores:
 
-- useStoryStore.js (chapitres, navigation)
-- usePlayerStore.js (état du joueur)
+- `useStoryStore.js` (chapitres, navigation)
+- `usePlayerStore.js` (état du joueur)
 
 ### Création du fichier JSON avec les chapitres
 
 ### Développement des composants clés:
 
-- ChoiceButton.vue (bouton de choix)
-- ChoicePanel.vue (panel de choix)
+- `ChoiceButton.vue` (bouton de choix)
+- `ChoicePanel.vue` (panel de choix)
 
 ### Affichage des 3-4 premiers chapitres (texte statique)
 
