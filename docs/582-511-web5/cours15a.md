@@ -2,7 +2,7 @@
 <!-- lundi 8 décembre -->
 
 
-!!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ*" 
+!!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ* (sommatif 10%)" 
 
 
 ## SCRUM d'équipe

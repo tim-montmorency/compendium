@@ -42,6 +42,9 @@
       - [ ] **Toutes les branches** testées manuellement
       - [ ] **Logique des fins** implémentée (conditions d'accès)
 
+## Évaluation par les pairs et auto-évaluation de mi-parcours (sommatif 5%)
+
+Réalisé en classe. Instructions à venir.
 
 ## Mini cours: GSAP + Vue 3 - GSAP pour narration interactive (45 min) 
 
