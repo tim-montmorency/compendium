@@ -81,6 +81,7 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 - Installation des dépendances (Pinia, GSAP)
 - Configuration ESLint + Prettier
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
+- Commencez à monter la grande structure HTML et styliser en CSS mais surtout pour placer les grands sectons dans la page. Pour le moment, ne vous souciez pas des styles de couleur, de typo, des détails d'arrondissement de coin etc). Rappelez vous que ce sera une *SPA (Single Page Application)*, donc tout sera dans `index.html` mais éventuellement certaines parties seront divisées en `components`et en `views`.
 
 
 <!--
