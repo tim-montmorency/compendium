@@ -1,4 +1,5 @@
 # Cours 10.1
+<!-- 3 novembre -->
 
 ## Annonces
 
@@ -11,15 +12,12 @@ SCRUM d'équipe
 
 ## Projet App Web créative
 
-• Setup du projet Vite + Vue 
-• Installation des dépendances (Pinia, GSAP) 
-• Configuration ESLint + Prettier
-• Création des premiers composants "skeleton"
+- Setup du projet Vite + Vue 
+- Installation des dépendances (Pinia, GSAP) 
+- Configuration ESLint + Prettier
+- Création des premiers composants "skeleton"
+- *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
-- Choisi ta voie: Rédaction de l'histoire
-
-
-<!-- 3 novembre -->
 
 ## Révision exercice Menu de sushis
 
@@ -68,7 +66,7 @@ SCRUM d'équipe
 [Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
 
 
-
++
 <!---
 Peut-être un autre exercice ?
 https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
@@ -78,7 +76,11 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 
 ## Devoir
 
-
+- Setup du projet Vite + Vue 
+- Installation des dépendances (Pinia, GSAP) 
+- Configuration ESLint + Prettier
+- Création des premiers composants "skeleton"
+- *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 
 <!--

@@ -1,10 +1,17 @@
-# Cours 11.2
+# Cours 11.2 PHASE INTERACTIVITÉ
 
 <!-- vendredi 14 novembre -->
 
-## Mémoire interactive:
+## Présentation Validation de formulaires Vue (30 min)
 
-Présentation Validation de formulaires Vue (30 min)
+..
+
+## Présentation: Logique de branches narratives (30 min)
+
+..
+
+## *Mémoire interactive*: Interactivité - CRUD et Formulaires
+
 
 Développement du formulaire d'ajout de mémoire:
 
@@ -12,9 +19,7 @@ Développement du formulaire d'ajout de mémoire:
 - Intégration avec le store
 - Gestion des erreurs
 
-## Trace ton chemin
-
-Présentation: Logique de branches narratives (30 min)
+## *Trace ton chemin*: Système de Choix et Branches
 
 Développement du système de choix:
 
@@ -25,3 +30,27 @@ Développement du système de choix:
 Tests des premières branches
 
 <!-- Ici je dois limiter les devoirs car c'est vendredi et on se revoir lundi -->
+
+## Devoirs
+
+*Mémoire interactive*
+
+Avancer ce qui a été commencé en classe:
+
+- [ ] **Formulaire d'ajout** complet et validé
+- [ ] **Formulaire d'édition** fonctionnel
+- [ ] **Suppression** avec confirmation
+- [ ] **Recherche** par mot-clé fonctionnelle
+- [ ] **Filtres** par tags et par salle
+- [ ] **Messages d'erreur** clairs et pertinents
+
+*Trace ton chemin*
+
+Avancer ce qui a été commencé en classe:
+
+- [ ] **Système de choix** complet et fonctionnel
+- [ ] **Redirection par branches** fonctionnelle
+- [ ] **Tracking des conséquences** (flags, stats, etc.)
+- [ ] **Historique des choix** sauvegardé
+- [ ] **Toutes les branches** testées manuellement
+- [ ] **Logique des fins** implémentée (conditions d'accès)

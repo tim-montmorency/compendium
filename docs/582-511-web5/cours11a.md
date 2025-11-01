@@ -1,14 +1,19 @@
-# Cours 11.1
+# Cours 11.1 PHASE FONDATION
+
+Foundation - Structure et affichage de base
 
 <!-- mercredi 12 novembre -->
 
 ## SCRUM d'équipe
 
+..
 
-## Présentation: Pinia en profondeur (45 min)
 
+## Présentation: Pinia (45 min)
 
-## Mémoire interactive:
+Pinia
+
+## *Mémoire interactive*
 
 ### Création des stores:
 
@@ -21,7 +26,7 @@
 - MemoryCard.vue (carte de mémoire)
 - MemoryList.vue (grille de mémoires)
 
-## Trace ton chemin
+## *Trace ton chemin*
 
 ### Création des stores:
 
@@ -40,5 +45,25 @@
 
 ## Devoir
 
-• Complétion des composants commencés en classe
-• Ajout de données mockées (JSON) pour tester l'affichage
+*Mémoire interactive*
+
+### Mémoire interactive:
+
+Terminer ce qui a été commencé en classe:
+
+- [ ] **Minimum 6-8 composants** créés et fonctionnels
+- [ ] **Vue Router** configuré avec 4+ routes
+- [ ] **2 stores Pinia** créés avec state/actions/getters de base
+- [ ] **Navigation fonctionnelle** entre les pages
+- [ ] **Données mockées** affichées correctement
+
+### Trace ton chemin
+
+Terminer ce qui a été commencé en classe:
+
+- [ ] **Minimum 6-8 composants** créés et fonctionnels
+- [ ] **Vue Router** configuré avec routes par chapitre
+- [ ] **2 stores Pinia** créés avec state/actions/getters de base
+- [ ] **Navigation fonctionnelle** entre chapitres
+- [ ] **Tous les chapitres** dans le fichier JSON
+- [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)

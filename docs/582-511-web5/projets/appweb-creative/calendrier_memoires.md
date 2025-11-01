@@ -64,6 +64,7 @@
 ## 📅 SEMAINE 3: Foundation - Structure de base
 
 ### 🎯 Objectifs
+
 - Mettre en place la structure de composants
 - Configurer Vue Router
 - Créer les stores Pinia de base
@@ -73,6 +74,7 @@
 
 **Jour 1 (3h):**
 - Mini-cours: Architecture de composants Vue (30 min)
+
 - Création des composants de layout:
   - `AppHeader.vue` (navigation)
   - `AppFooter.vue`
@@ -103,6 +105,7 @@
 - [ ] **Données mockées** affichées correctement
 
 ### 🎯 Checkpoint enseignant
+
 - Revue de code (15 min/équipe)
 - Vérification de l'architecture des composants
 - Feedback sur la structure Pinia
@@ -267,6 +270,7 @@
 ## 📅 SEMAINE 7: Polish et Accessibilité
 
 ### 🎯 Objectifs
+
 - Rendre le projet 100% responsive
 - Implémenter l'accessibilité (WCAG AA)
 - Optimiser les performances

@@ -1,10 +1,15 @@
-# Cours 13.1
+# Cours 13.1 Persistance et sauvegarde
 
 <!-- 24 novembre -->
 
+## SCRUM d'équipe
+
+..
+
+
 ## Présentation: LocalStorage, gestion d'erreurs et gestion des sauvegardes (30 min)
 
-## Mémoire interactive
+## Mémoire interactive: Persistance et Authentification
 
 - Implémentation LocalStorage:
 
@@ -24,13 +29,14 @@
   - Login avec nom d'utilisateur
   - Multi-utilisateurs via LocalStorage
   - État d'authentification dans Pinia
-
+<!--
 ### Atelier optionnel Firebase (1h): - Pour les équipes avancées
 
 - Configuration Firebase
 - Premier test de sauvegarde cloud
+-->
 
-## Trace ton chemin
+## Trace ton chemin: Sauvegarde et Fins
 
 - Implémentation du système de sauvegarde:
 
