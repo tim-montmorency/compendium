@@ -17,6 +17,8 @@ SCRUM d'équipe
 
 - Setup du projet Vite + Vue
 - Installation des dépendances (Pinia, GSAP)
+- Configuration ESLint + Prettier
+- *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 ## Révision exercice Menu de sushis
 
@@ -75,18 +77,9 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 
 ## Devoir
 
-- Setup du projet Vite + Vue 
-- Installation des dépendances (Pinia, GSAP) 
+- Setup du projet Vite + Vue
+- Installation des dépendances (Pinia, GSAP)
 - Configuration ESLint + Prettier
-- Création des premiers composants "skeleton"
-  - Mémoire interactive
-    - `AppHeader.vue` (navigation)
-    - `AppFooter.vue`
-    - `Sidebar.vue` (menu des salles)
-  - Trace ton chemin
-    - `AppHeader.vue` (navigation, menu)
-    - `ChapterView.vue` (conteneur principal)
-    - `NarrativeText.vue` (affichage du texte)
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 
