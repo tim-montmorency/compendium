@@ -4,21 +4,27 @@
 
 !!! example "*REMISE DE LA PHASE 3 et 4 FONDATION ET INTERACTIVITÉ DU PROJET INTÉGRATEUR* (sommatif 15%)"
     **Livrables pour *mémoire interactive***
+
     - Fondation
+
       - [ ] **Projet Vite+Vue** initialisé et fonctionnel
       - [ ] **Minimum 6-8 composants** créés et fonctionnels
       - [ ] **Vue Router** configuré avec 4+ routes
       - [ ] **2 stores Pinia** créés avec state/actions/getters de base
       - [ ] **Navigation fonctionnelle** entre les pages
       - [ ] **Données mockées** affichées correctement
+
     - Interactivité
+
       - [ ] **Formulaire d'ajout** complet et validé
       - [ ] **Formulaire d'édition** fonctionnel
       - [ ] **Suppression** avec confirmation
       - [ ] **Recherche** par mot-clé fonctionnelle
       - [ ] **Filtres** par tags et par salle
       - [ ] **Messages d'erreur** clairs et pertinents
+
     **Livrables pour *trace ton chemin***
+
     - Fondation
       - [ ] **Projet Vite+Vue** initialisé et fonctionnel
       - [ ] **Minimum 6-8 composants** créés et fonctionnels
@@ -27,6 +33,7 @@
       - [ ] **Navigation fonctionnelle** entre chapitres
       - [ ] **Tous les chapitres** dans le fichier JSON
       - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
+      
     - Interactivité
       - [ ] **Système de choix** complet et fonctionnel
       - [ ] **Redirection par branches** fonctionnelle
