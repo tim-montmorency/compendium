@@ -1,3 +1,3 @@
 # Cours 15.2
 
-## Remise et présentations finales
+## *Remise et présentations finales*

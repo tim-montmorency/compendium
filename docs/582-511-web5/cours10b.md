@@ -8,7 +8,7 @@
 
 ## Création des composants de layout:
 
-### Mémoire interactive:
+### Mémoire interactive
 
 *Composants de layout:*
 

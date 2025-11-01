@@ -4,7 +4,7 @@
 
 <!-- 19 novembre -->
 
-## REMISE DE LA PHASE 3 et 4 FONDATION ET INTERACTIVITÉ DU PROJET INTÉGRATEUR (sommatif 15%)
+## *REMISE DE LA PHASE 3 et 4 FONDATION ET INTERACTIVITÉ DU PROJET INTÉGRATEUR* (sommatif 15%)
 
 ### Livrables pour *mémoire interactive*
 
