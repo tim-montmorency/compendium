@@ -33,5 +33,16 @@
 - Optimisation de la performance
 - Gestion des bogues
 
+
 ## Rapport du contrôle de la qualité
 
+Rédaction du rapport dans...
+
+## Corrections et ajustements
+
+- Rendre le projet 100% responsive
+  - Tester et retester : super grand écran (labos), écrans de type desktop normaux, tablette et mobile.
+  - Faire les ajustements nécessaires
+- Implémenter l'accessibilité (WCAG AA)
+- Optimiser les performances
+- Corriger tous les bugs
