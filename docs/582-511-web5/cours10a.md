@@ -5,7 +5,6 @@
 
 Changements des remises.
 
-
 ## SCRUM
 
 SCRUM d'équipe
@@ -25,7 +24,6 @@ SCRUM d'équipe
     - `ChapterView.vue` (conteneur principal)
     - `NarrativeText.vue` (affichage du texte)
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
-
 
 ## Révision exercice Menu de sushis
 
