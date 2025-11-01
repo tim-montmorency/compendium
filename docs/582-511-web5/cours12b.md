@@ -33,7 +33,7 @@
       - [ ] **Navigation fonctionnelle** entre chapitres
       - [ ] **Tous les chapitres** dans le fichier JSON
       - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
-      
+
     - Interactivité
       - [ ] **Système de choix** complet et fonctionnel
       - [ ] **Redirection par branches** fonctionnelle
@@ -47,6 +47,8 @@
 
 - Les composants natifs à Vue nommés `<Transition>` et `<TransitionGroup>`
   - [En savoir plus sur les `<Transition>`](https://fr.vuejs.org/guide/built-ins/transition)
+  - [et plus spécifiquement les hooks JavaScript (événement émis) de la composante `<Transition>`](https://fr.vuejs.org/guide/built-ins/transition#javascript-hooks)
+  - [GSAP intégré à une composante Vue: démo et playground](https://play.vuejs.org/#eNpVkMFuAiEQhl9lyqlNuouXXrZo2nfwuBeKs0qKQGBAjfHdZZfVrAmB+f/M/2WGK/v1vs0JWcdEVEF72vQWz94Fgh0OMhmCa28BdpLk+0etAQJSCvahAOLBnTqgkLA6t/EpVzmCP7lFEB69kYRFAYi/ROQs/Cij1f+6ZyMG1vA2vj3bbN1+b1Dw2lYj2yBt1KRnXRwPudHDnC6pAxrjBPe1n78EBF8MUGSkixnLNjdoCUMjFemMn5NjUGacnboqPVkdOC+Vpgus2q8IKCN+T+suWENwxyWJXKXMyQ5WNVJ+aBqD3e6VSYoi)
 - `routeEnter`, `routeLeave`
 
 ### Mémoire interactive: Animations et Médias

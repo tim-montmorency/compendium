@@ -1,8 +1,9 @@
 # Cours 14.2
+<!-- merc. 3 décembre -->
 
-## *REMISE DE LA VERSION BETA DU PROJET INTÉGRATEUR* (formatif)
+!!! example "*REMISE DE LA VERSION BETA DU PROJET INTÉGRATEUR* (formatif)"
 
-Version prête à être validée et testée pour le contrôle de la qualité
+    Version prête à être validée et testée pour le contrôle de la qualité
 
 ## Mini cours: Contrôle de la qualité :
 

@@ -1,6 +1,9 @@
 # Cours 15.1
+<!-- lundi 8 décembre -->
 
-## *REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ*
+
+!!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ*" 
+
 
 ## SCRUM d'équipe
 
