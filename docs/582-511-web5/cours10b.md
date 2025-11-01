@@ -62,14 +62,14 @@
 
 ## Mise en place du système de routing
 
-
+...
 <!-- le cours de lundi 10 nov est remis à vendredi 14 nov ce qui signifie qu'on ne se voit pas pendant 7 jours, il serait idéal de leur donner du pain sur la planche puir avancer donc considérer leur montrer Pinia aujourd'hui peut-être?  -->
 
-# Devoirs
+## Devoirs
 
 ### Mémoire interactive
 
-Avancer ce qui a été commencé en classe:
+Avancer (sans nécessairement terminer) ce qui a été commencé en classe
 
 - [ ] **Minimum 6-8 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec 4+ routes
@@ -79,7 +79,7 @@ Avancer ce qui a été commencé en classe:
 
 ### Trace ton chemin
 
-Avancer ce qui a été commencé en classe:
+Avancer (sans nécessairement terminer) ce qui a été commencé en classe:
 
 - [ ] **Minimum 6-8 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec routes par chapitre
