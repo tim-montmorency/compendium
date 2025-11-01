@@ -7,6 +7,8 @@ Changements des remises.
 
 [📄 Plan de cours révisé le 31 octobre](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=8IxzJg){ .md-button .md-button--primary }
 
+Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté des dates de livrables.
+
 ## SCRUM
 
 SCRUM d'équipe
