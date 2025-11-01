@@ -3,7 +3,8 @@
 
 ## Mini cours: Architecture de composants Vue (30 min)
 
-- Architecture de composants Vue
+- Architecture de composants
+- Views (pages entières, souvent liées à une route (URL))
 - Routes (Vue Router)
 
 ## Création des composants de layout:
@@ -62,7 +63,10 @@
 
 ## Mise en place du système de routing
 
-...
+- Création des views (pages liée à un URL)
+- Création du système de routing
+
+
 <!-- le cours de lundi 10 nov est remis à vendredi 14 nov ce qui signifie qu'on ne se voit pas pendant 7 jours, il serait idéal de leur donner du pain sur la planche puir avancer donc considérer leur montrer Pinia aujourd'hui peut-être?  -->
 
 ## Devoirs
