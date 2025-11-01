@@ -7,7 +7,7 @@
 ..
 
 
-## LocalStorage, gestion d'erreurs et gestion des sauvegardes (30 min)
+## Mini cours: LocalStorage, gestion d'erreurs et des sauvegardes (30 min)
 
 ## *Mémoire interactive*: Persistance et Authentification
 

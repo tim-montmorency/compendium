@@ -1,7 +1,7 @@
 # Cours 10.2
 <!-- 5 novembre -->
 
-## Architecture de composants Vue (30 min)
+## Mini cours: Architecture de composants Vue (30 min)
 
 - Architecture de composants Vue
 - Routes (Vue Router)

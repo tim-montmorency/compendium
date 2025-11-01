@@ -2,11 +2,11 @@
 
 <!-- vendredi 14 novembre -->
 
-## Validation de formulaires Vue (Mémoires interactives) (30 min)
+## Mini cours: Validation de formulaires Vue (Mémoires interactives) (30 min)
 
 ..
 
-## Logique de branches narratives (Trace ton chemin) (30 min)
+## Mini cours: Logique de branches narratives (Trace ton chemin) (30 min)
 
 ..
 

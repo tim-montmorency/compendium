@@ -51,7 +51,7 @@
 
 
 
-## GSAP + Vue 3 - GSAP pour narration interactive (45 min) 
+## Mini cours: GSAP + Vue 3 - GSAP pour narration interactive (45 min) 
 
 ..
 

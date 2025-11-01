@@ -9,7 +9,7 @@ Foundation - Structure et affichage de base
 ..
 
 
-## Pinia (45 min)
+## Mini cours: Pinia (45 min)
 
 Pinia: bibliothèque (store) de gestion d'état pour les application Vue.js.
 

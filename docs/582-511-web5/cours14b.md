@@ -4,7 +4,7 @@
 
 Version prête à être validée et testée pour le contrôle de la qualité
 
-## Contrôle de la qualité :
+## Mini cours: Contrôle de la qualité :
 
 * normes d’accessibilité
 * normes de validation
