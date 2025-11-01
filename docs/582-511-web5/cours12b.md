@@ -1,6 +1,4 @@
 # Cours 12.2 Animation et médias
-¸
-
 
 <!-- 19 novembre -->
 
