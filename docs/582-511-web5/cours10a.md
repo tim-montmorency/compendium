@@ -13,9 +13,17 @@ SCRUM d'équipe
 ## Projet App Web créative
 
 - Setup du projet Vite + Vue 
-- Installation des dépendances (Pinia, GSAP) 
+- Installation des dépendances (Pinia, GSAP)
 - Configuration ESLint + Prettier
 - Création des premiers composants "skeleton"
+  - Mémoire interactive
+    - `AppHeader.vue` (navigation)
+    - `AppFooter.vue`
+    - `Sidebar.vue` (menu des salles)
+  - Trace ton chemin
+    - `AppHeader.vue` (navigation, menu)
+    - `ChapterView.vue` (conteneur principal)
+    - `NarrativeText.vue` (affichage du texte)
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 
@@ -66,9 +74,9 @@ SCRUM d'équipe
 [Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
 
 
-+
+
 <!---
-Peut-être un autre exercice ?
++
 https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
 -->
 
@@ -80,6 +88,14 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 - Installation des dépendances (Pinia, GSAP) 
 - Configuration ESLint + Prettier
 - Création des premiers composants "skeleton"
+  - Mémoire interactive
+    - `AppHeader.vue` (navigation)
+    - `AppFooter.vue`
+    - `Sidebar.vue` (menu des salles)
+  - Trace ton chemin
+    - `AppHeader.vue` (navigation, menu)
+    - `ChapterView.vue` (conteneur principal)
+    - `NarrativeText.vue` (affichage du texte)
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 

@@ -67,7 +67,7 @@
 
 # Devoirs
 
-### Mémoire interactive:
+### Mémoire interactive
 
 Avancer ce qui a été commencé en classe:
 
