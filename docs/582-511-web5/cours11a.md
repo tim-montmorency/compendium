@@ -1,6 +1,6 @@
 # Cours 11.1 PHASE FONDATION
 
-Foundation - Structure et affichage de base
+<!--Foundation - Structure et affichage de base -->
 
 <!-- mercredi 12 novembre -->
 
