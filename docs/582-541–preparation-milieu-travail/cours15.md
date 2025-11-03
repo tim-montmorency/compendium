@@ -16,6 +16,7 @@ De 12h30 à 15h30 au grand studio
 * UQAT (2 campus)  
 * Baccalauréat UI-UX (ETS)
 * Création d’expériences immersives et interactives (UQAM)
+* Design and computation arts (Concordia)
 
 ### Groupe PM 
 - 16h à 17h - Conseillère d'orientation - Camille Lafond
