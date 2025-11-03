@@ -357,7 +357,7 @@ L’accessibilité Web consiste à concevoir des sites utilisables par toutes le
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-En CSS, il existe deux grandes familles d’[unités](https://developer.mozilla.org/en-US/docs/Web/CSS/length) de mesure pour définir les dimensions (largeur, hauteur, marges, etc.) ou la taille du texte :
+En CSS, il existe deux grandes familles d’[unités](https://developer.mozilla.org/fr/docs/Web/CSS/length) de mesure pour définir les dimensions (largeur, hauteur, marges, etc.) ou la taille du texte :
 
 * les unités absolues (fixes)
 * les unités relatives (variables selon leur contexte)

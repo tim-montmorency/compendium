@@ -584,7 +584,7 @@ div {
 
 #### Styles
 
-La propriété CSS [`border-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style) permet de définir le style des lignes.
+La propriété CSS [`border-style`](https://developer.mozilla.org/fr/docs/Web/CSS/border-style) permet de définir le style des lignes.
 
 ```css
 div {

@@ -171,7 +171,7 @@ Cela facilite beaucoup la compréhension de la conception de l'information et d�
 
 ### C'est quoi une favicône ?
 
-Prenez un instant pour regarder les onglets dans votre navigateur. Les petites icônes qu'ils renferment se nomment des [favoricônes](https://developer.mozilla.org/en-US/docs/Glossary/Favicon) (ou _favicon_).
+Prenez un instant pour regarder les onglets dans votre navigateur. Les petites icônes qu'ils renferment se nomment des [favoricônes](https://developer.mozilla.org/fr/docs/Glossary/Favicon) (ou _favicon_).
 
 ![favicons-tabs](./assets/images/favicon-tabs.png)
 

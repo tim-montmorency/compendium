@@ -2,6 +2,8 @@
 
 [STOP]
 
+https://mattboldt.com/demos/typed-js/
+
 Zdog : illustrations et animations 3D Canvas
 Tone.js : sons, boucles et synthèse audio
 Synchroniser audio et animation visuelle

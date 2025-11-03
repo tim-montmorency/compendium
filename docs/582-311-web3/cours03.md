@@ -482,7 +482,7 @@ Voici les [breakpoints](https://getbootstrap.com/docs/5.3/layout/breakpoints/) p
 | xl                | ≥ 1200px   | `@media (min-width: 1200px) {}`   |
 | xxl               | ≥ 1400px   | `@media (min-width: 1400px) {}`   |
 
-Bootstrap est _[mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)_. C'est à dire qu'il est pensé entièrement responsive. En fait, la plupart des classes utilitaires ont une variante responsive afin de spécifier au style à quel moment il doit être actif.
+Bootstrap est _[mobile-first](https://developer.mozilla.org/fr/docs/Glossary/Mobile_First)_. C'est à dire qu'il est pensé entièrement responsive. En fait, la plupart des classes utilitaires ont une variante responsive afin de spécifier au style à quel moment il doit être actif.
 
 ### Conteneurs
 

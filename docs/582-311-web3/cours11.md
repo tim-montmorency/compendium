@@ -2,6 +2,10 @@
 
 [STOP]
 
+
+
+
+
 Chart.js : bar, line, pie, radar, animation et personnalisation
 Idée : Jeu de classes (monstre, personne, hit, score) et stats du jeu.
 
