@@ -228,7 +228,7 @@ nav:
       - Cours 12: 582-411-web4/cours12.md
       - Cours 13: 582-411-web4/cours13/index.md
       - Cours 14: 582-411-web4/cours14/index.md
-      - Cours 15: 582-411-web4/cours15/index.md
+      - Cours 15: 582-411-web4/cours15/index.m
 
   - Web 5:
       - 582-511-web5/index.md
@@ -293,17 +293,17 @@ nav:
       - Cours 9.1: 582-511-web5/cours09a.md
       - Cours 9.2: 582-511-web5/cours09b.md
       - Cours 10.1: 582-511-web5/cours10a.md
-      # - Cours 10.2 : 582-511-web5/cours10b.md
-      # - Cours 11.1: 582-511-web5/cours11a.md
-      # - Cours 11.2: 582-511-web5/cours11b.md
-      # - Cours 12.1: 582-511-web5/cours12a.md
-      # - Cours 12.2: 582-511-web5/cours12b.md
-      # - Cours 13.1: 582-511-web5/cours13a.md
-      # - Cours 13.2: 582-511-web5/cours13b.md
-      # - Cours 14.1: 582-511-web5/cours14a.md
-      # - Cours 14.2: 582-511-web5/cours14b.md
-      # - Cours 15.1: 582-511-web5/cours15a.md
-      # - Cours 15.2: 582-511-web5/cours15b.md
+      - Cours 10.2: 582-511-web5/cours10b.md
+      - Cours 11.1: 582-511-web5/cours11a.md
+      - Cours 11.2: 582-511-web5/cours11b.md
+      - Cours 12.1: 582-511-web5/cours12a.md
+      - Cours 12.2: 582-511-web5/cours12b.md
+      - Cours 13.1: 582-511-web5/cours13a.md
+      - Cours 13.2: 582-511-web5/cours13b.md
+      - Cours 14.1: 582-511-web5/cours14a.md
+      - Cours 14.2: 582-511-web5/cours14b.md
+      - Cours 15.1: 582-511-web5/cours15a.md
+      - Cours 15.2: 582-511-web5/cours15b.md
   - Contrôle de la qualité:
       - 582-533-controle-qualite/index.md
       - Cours 1: 582-533-controle-qualite/cours01.md

@@ -1,14 +1,24 @@
 # Cours 10.1
-
-## SCRUM d'équipe
-
-...
-
-## Changement du calendrier de remises
-
-Changements des remises:
-
 <!-- 3 novembre -->
+
+## Annonces
+
+Changements des remises.
+
+[📄 Plan de cours révisé le 31 octobre](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=8IxzJg){ .md-button .md-button--primary }
+
+Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté des dates de livrables.
+
+## SCRUM
+
+SCRUM d'équipe
+
+## Projet App Web créative
+
+- Setup du projet Vite + Vue
+- Installation des dépendances (Pinia, GSAP)
+- Configuration ESLint + Prettier
+- *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 ## Révision exercice Menu de sushis
 
@@ -39,7 +49,7 @@ Changements des remises:
 
 ### Exercice $emit
 
-[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/#requis-vue---composante-prix-total){ .md-button}
+[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis-total/#requis-vue---composante-prix-total){ .md-button}
 
 <!-- ➜ [Solution instructions avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
 
@@ -59,25 +69,19 @@ Changements des remises:
 
 
 <!---
-Peut-être un autre exercice ?
++
 https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut que je fasse la solution avec composante
 -->
 
-## SCRUM
 
-SRUM d'équipe
 
 ## Devoir
 
-Terminer votre portfolio pour mercredi
-
-- [Info générale et critères d'évaluation](./projets/portfolio.md)
-- [Instructions fetch et Vue](./projets/portfolio-instructions-fecth-vue.md)
-
-Préparer votre présentation pour mercredi
-- [Instructions pour la présentation orale](./projets/portfolio-presentation.md)
-
-
+- Setup du projet Vite + Vue
+- Installation des dépendances (Pinia, GSAP)
+- Configuration ESLint + Prettier
+- *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
+- Commencez à monter la grande structure HTML et styliser en CSS mais surtout pour placer les grands sectons dans la page. Pour le moment, ne vous souciez pas des styles de couleur, de typo, des détails d'arrondissement de coin etc). Rappelez vous que ce sera une *SPA (Single Page Application)*, donc tout sera dans `index.html` mais éventuellement certaines parties seront divisées en `components`et en `views`.
 
 
 <!--

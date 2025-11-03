@@ -163,7 +163,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 | Date de remise | Critère | Pondération |
 |----------------|---------|-------------|
 | 22 octobre | Planification (cahier de charges) et design et design du projet | 15% |
-| 14 novembre | Fondation et interactivité | 15% |
+| ~~14~~ 19 novembre | Fondation et interactivité | 15% |
 | 19 novembre | Évaluation par les pairs et auto-évaluation de mi-parcours | 5% |
 | 8 décembre | Rapport du contrôle de la qualité (QA) | 10% |
 | 10 décembre | Remise finale et présentation orale | 50% |
@@ -413,13 +413,13 @@ Chaque semaine, une revue rapide avec l'enseignant pour:
 | *8 octobre* | Lancement du projet, formation des équipes |
 | *Du 8 au 22 octobre* | PHASE 1: PLANIFICATION ET DESIGN |
 | *22 octobre* | *REMISE: Brainstorm (FigJam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello) et Design (Figma)*: 15% |
-| *Du 22 octobre au 2 novembre environ* | PHASE 2: FONDATION |
-| *Environ du 2 novembre au 12 novembre* | PHASE 3: INTERACTIVITÉ |
-| *14 novembre* | *REMISE Phases 2 Fondation et 3 Interactivité*: 15% |
+| *Du 2 au 10 novembre environ* | PHASE 2: FONDATION |
+| *Du 10 novembre au 19 novembre* | PHASE 3: INTERACTIVITÉ |
+| *~~14~~ 19 novembre* | *REMISE Phases 2 Fondation et 3 Interactivité*: 15% |
 | *Du 12 au 19 novembre* | PHASE 4: ANIMATIONS ET MÉDIAS |
 | *19 novembre* | ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS |
 | *Du 19 au 26 novembre* | PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire |
-| *26 novembre* | *REMISE Phases 4 animation+médias et 5 persistance*: Formatif |
+| *26 novembre* | *REMISE Phases 4 animation+médias ~~et 5 persistance~~*: Formatif |
 | *Du 26 novembre au 3 décembre* | PHASE 6: AFFINAGE ET ACCESSIBLITÉ pour la version BETA |
 | *3 décembre* | *REMISE version BETA*: Formatif |
 | *Du 3 au 8 décembre* | PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS |

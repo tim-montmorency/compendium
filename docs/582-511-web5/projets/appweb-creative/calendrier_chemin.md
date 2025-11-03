@@ -134,6 +134,7 @@
 - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
 
 ### 🎯 Checkpoint enseignant
+
 - Revue de code (15 min/équipe)
 - Vérification de la structure JSON des chapitres
 - Validation que TOUT le texte est prêt
