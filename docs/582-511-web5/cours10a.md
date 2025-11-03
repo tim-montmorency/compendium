@@ -17,16 +17,17 @@ SCRUM d'équipe
 
 - Setup du projet Vite + Vue
 - Installation des dépendances (Pinia, GSAP)
-- Configuration ESLint + Prettier
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 ## Révision exercice Menu de sushis
 
 [Exercice - Menu de sushis](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis/){ .md-button}
 
-➜ [Solution instructions de base💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EhtC7SIixSJBgmnqcpJHT9YBdJE-3Q31KJRaOIOgiWyySw?e=wPw9A3)
+➜ [Solution de base💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EhtC7SIixSJBgmnqcpJHT9YBdJE-3Q31KJRaOIOgiWyySw?e=wPw9A3)
 
-➜ [Solution instructions avec composante (partielle, sans le total)💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsBcLierKi6KqNczpNX8nzb_Q?e=Y6ahig) 
+➜ [Solution avec composante (partielle, sans le total)💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Es-siVfM7OtNjn7_Q3xCghsBcLierKi6KqNczpNX8nzb_Q?e=Y6ahig)
+
+➜ [Solution avec composante et total calculé avec les données passées par `$emit`💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=7q9YdF)
 
 
 ## Vue la composante et ses `props` (suite)
@@ -39,6 +40,8 @@ SCRUM d'équipe
 ### Exercice la composante et ses `props`
 
 [Exercice - Bouton j'aime](./exercices/vue-btn-jaime/index.md){ .md-button}
+
+➜ [Solution💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EnYum608W7xKpi9XLTTq7foBl855GUQB_r9KZID3g0to9g?e=neWL1F)
 
 ## Émettre des événements vers le parent via `$emit`
 
