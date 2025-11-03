@@ -396,7 +396,7 @@ En contrepartie, une balise comme `<article>` est beaucoup plus parlante. Ça do
 
 ### Balises sémantiques
 
-En HTML, il y a environ une [centaine de balises](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements), mais elles ne sont pas toutes sémantiques.
+En HTML, il y a environ une [centaine de balises](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements), mais elles ne sont pas toutes sémantiques.
 
 Voici les balises sémantiques en lien avec la structure d'une page :
 

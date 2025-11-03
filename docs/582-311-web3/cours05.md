@@ -153,7 +153,7 @@ Tous les enfants directs deviennent des items de la grille, mais pour que le com
 
 ### Colonnes et lignes
 
-Les propriétés [`grid-template-columns`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns) et [`grid-template-rows`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows) sont la base pour créer un quadrillage précis.
+Les propriétés [`grid-template-columns`](https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns) et [`grid-template-rows`](https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows) sont la base pour créer un quadrillage précis.
 
 #### `grid-template-columns`
 
