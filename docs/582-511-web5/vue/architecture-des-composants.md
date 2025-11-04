@@ -300,7 +300,7 @@ src/
 
 ### 1. Composants de présentation (Presentational)
 
-**Rôle:** Afficher des données, pas de logique métier
+**Rôle:** Afficher des données, pas de <span style="color:blue;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">logique métier</span>
 
 ```vue
 <!-- MemoryCard.vue - PRÉSENTATIONNEL -->
