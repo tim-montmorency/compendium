@@ -606,12 +606,14 @@ App.vue
 3. `AppFooter.vue` - Pied de page
 
 **Rooms (4):**
+
 4. `RoomCard.vue` - Carte d'une salle
 5. `RoomGrid.vue` - Grille de salles
 6. `RoomForm.vue` - Formulaire ajout/édition salle
 7. `RoomHeader.vue` - En-tête détail d'une salle
 
 **Memories (6):**
+
 8. `MemoryCard.vue` - Carte d'une mémoire
 9. `MemoryGrid.vue` - Grille de mémoires
 10. `MemoryForm.vue` - Formulaire ajout/édition mémoire
@@ -620,12 +622,14 @@ App.vue
 13. `MemoryTags.vue` - Affichage des tags
 
 **UI Communs (4):**
+
 14. `BaseButton.vue` - Bouton réutilisable
 15. `BaseModal.vue` - Modal réutilisable
 16. `BaseInput.vue` - Input réutilisable
 17. `LoadingSpinner.vue` - Indicateur de chargement
 
 **Fonctionnalités (3):**
+
 18. `SearchBar.vue` - Barre de recherche
 19. `TagFilter.vue` - Filtre par tags
 20. `ExportButton.vue` - Bouton d'export
@@ -670,6 +674,7 @@ App.vue
 2. `StatsBar.vue` - Barre de statistiques
 
 **Story (8):**
+
 3. `ChapterView.vue` - Vue d'un chapitre
 4. `ChapterHeader.vue` - Titre du chapitre
 5. `NarrativeText.vue` - Texte de narration
@@ -680,11 +685,13 @@ App.vue
 10. `SaveSlotManager.vue` - Gestion des sauvegardes
 
 **Ending (3):**
+
 11. `EndingScreen.vue` - Écran de fin
 12. `EndingBadge.vue` - Badge de fin
 13. `ChoiceHistory.vue` - Historique des choix
 
 **UI Communs (4):**
+
 14. `BaseButton.vue`
 15. `BaseModal.vue`
 16. `StatIndicator.vue` - Indicateur de stat
@@ -703,20 +710,20 @@ Regardez cette maquette et identifiez les composants à créer:
 **Pour Mémoires Interactives:**
 ```
 ┌─────────────────────────────────────┐
-│  [Logo] Musée       🏠 🔍 💾        │ ← AppHeader
+│  [Logo] Musée       🏠 🔍 💾       │ ← AppHeader
 ├─────────────────────────────────────┤
-│                                      │
-│  ┌──────────┐  ┌──────────┐        │
-│  │ Tokyo    │  │ Paris    │        │ ← RoomCard x3
-│  │ 🗾       │  │ 🗼       │        │
-│  │ 5 photos │  │ 3 photos │        │
-│  └──────────┘  └──────────┘        │
+│                                     │
+│  ┌──────────┐  ┌──────────┐         │
+│  │ Tokyo    │  │ Paris    │         │ ← RoomCard x3
+│  │ 🗾      │  │ 🗼       │         │
+│  │ 5 photos │  │ 3 photos │         │
+│  └──────────┘  └──────────┘         │
 │  ┌──────────┐                       │
 │  │ New York │                       │
 │  │ 🗽       │                       │
 │  │ 0 photos │                       │
 │  └──────────┘                       │
-│                                      │
+│                                     │
 │  [+ Nouvelle Destination]           │ ← BaseButton
 └─────────────────────────────────────┘
 ```
