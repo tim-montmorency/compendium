@@ -601,40 +601,39 @@ App.vue
 
 #### Composants à créer (minimum):
 
-*Mise en page (layout) (3):*
+*Mise en page (layout) (2):*
 
 1. `AppHeader.vue` - En-tête avec navigation
-2. `AppSidebar.vue` - Menu latéral (optionnel)
-3. `AppFooter.vue` - Pied de page
+2. `AppFooter.vue` - Pied de page
 
 *Salles (4):*
 
-4. `RoomCard.vue` - Carte d'une salle
-5. `RoomGrid.vue` - Grille de salles
-6. `RoomForm.vue` - Formulaire ajout/édition salle
-7. `RoomHeader.vue` - En-tête détail d'une salle
+3. `RoomCard.vue` - Carte d'une salle
+4. `RoomGrid.vue` ou `RoomList` - Grille ou liste de salles
+5. `RoomForm.vue` - Formulaire ajout/édition salle
+6. `RoomHeader.vue` - En-tête détail d'une salle
 
 *Mémoires (6):* ou *Créations*: changer le mot *Memory* pour *Creation* dans vos noms de composantes
 
-8. `MemoryCard.vue` - Carte d'une mémoire
-9. `MemoryGrid.vue` ou `MemoryList.vue` - Grille ou liste des cartes mémoires
-10. `MemoryForm.vue` - Formulaire ajout/édition mémoire
-11. `MemoryDetail.vue` - Vue détaillée d'une mémoire
-12. `MemoryImage.vue` - Gestion de l'image
-13. `MemoryTags.vue` - Affichage des tags
+7. `MemoryCard.vue` - Carte d'une mémoire
+8. `MemoryGrid.vue` ou `MemoryList.vue` - Grille ou liste des cartes des mémoires
+9. `MemoryForm.vue` - Formulaire ajout/édition mémoire
+10. `MemoryDetail.vue` - Vue détaillée d'une mémoire
+11. `MemoryImage.vue` - Gestion de l'image
+12. `MemoryTags.vue` - Affichage des tags
 
 *UI Communs (4):*
 
-14. `BaseButton.vue` - Bouton réutilisable
-15. `BaseModal.vue` - Modal réutilisable
-16. `BaseInput.vue` - Input réutilisable
-17. `LoadingSpinner.vue` - Indicateur de chargement
+13. `BaseButton.vue` - Bouton réutilisable
+14. `BaseModal.vue` - Modal réutilisable
+15. `BaseInput.vue` - Input réutilisable
+16. `LoadingSpinner.vue` - Indicateur de chargement
 
 *Fonctionnalités (3):*
 
-18. `SearchBar.vue` - Barre de recherche
-19. `TagFilter.vue` - Filtre par tags
-20. `ExportButton.vue` - Bouton d'export
+17. `SearchBar.vue` - Barre de recherche
+18. `TagFilter.vue` - Filtre par tags
+19. `ExportButton.vue` - Bouton d'export
 
 *Total: ~20 composants*
 
