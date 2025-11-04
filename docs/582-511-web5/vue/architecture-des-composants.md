@@ -1,4 +1,4 @@
-# Architecture de Composants Vue.js
+# Architecture de composants
 
 ## Objectifs d'apprentissage
 
