@@ -7,6 +7,14 @@
 - Views (pages entières, souvent liées à une route (URL))
 - Routes (Vue Router)
 
+## SCRUM
+
+SCRUM d'équipe
+
+## Recontre prof et étudiants (par équipe)
+
+Montrez moi votre setup Vite+Vue avec *.gitignore* et que chaque membre de l'équipe est prêt à développer (chacun a fait son *git pull*, son `npm install` et son *node_modules* est complet et prêt à développer avec *Vite* via `npm run dev`).
+
 ## Création des composants de layout:
 
 ### Mémoire interactive
