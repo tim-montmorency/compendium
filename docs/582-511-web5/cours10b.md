@@ -75,9 +75,8 @@
 
 Avancer (sans nécessairement terminer) ce qui a été commencé en classe
 
-- [ ] **Minimum 6-8 composants** créés et fonctionnels
+- [ ] **Minimum 4 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec 4+ routes
-- [ ] **2 stores Pinia** créés avec state/actions/getters de base
 - [ ] **Navigation fonctionnelle** entre les pages
 - [ ] **Données mockées** affichées correctement
 
@@ -85,9 +84,8 @@ Avancer (sans nécessairement terminer) ce qui a été commencé en classe
 
 Avancer (sans nécessairement terminer) ce qui a été commencé en classe:
 
-- [ ] **Minimum 6-8 composants** créés et fonctionnels
+- [ ] **Minimum 4 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec routes par chapitre
-- [ ] **2 stores Pinia** créés avec state/actions/getters de base
 - [ ] **Navigation fonctionnelle** entre chapitres
-- [ ] **Tous les chapitres** dans le fichier JSON
+- [ ] **Quelques chapitres** dans le fichier JSON
 - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
