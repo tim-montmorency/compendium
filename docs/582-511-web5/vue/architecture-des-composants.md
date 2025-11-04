@@ -303,7 +303,7 @@ src/
 **Rôle:** Afficher des données, pas de logique <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span>
 
 ```vue
-<!-- MemoryCard.vue - PRÉSENTATIONNEL -->
+<!-- MemoryCard.vue - PRÉSENTATIONNEL | Dans cet exemple: carte d'un contenu -->
 <template>
   <div class="memory-card">
     <img :src="memory.image" :alt="memory.title" />
@@ -341,7 +341,7 @@ export default {
 **Rôle:** Gérer la logique, récupérer les données
 
 ```vue
-<!-- MemoryList.vue - CONTENEUR -->
+<!-- MemoryList.vue - CONTENEUR | Dans cet exemple: liste de cartes -->
 <template>
   <div class="memory-list">
     <MemoryCard
@@ -385,15 +385,15 @@ export default {
 **Caractéristiques:**
 
 - ✅ Accède aux stores (Pinia)
-- ✅ Contient la logique métier
-- ✅ Compose des composants de présentation
+- ✅ Contient la logique <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span>
+- ✅ Contient des composants de présentation
 
 ### 3. Composants de base (Base Components)
 
 **Rôle:** Composants UI réutilisables
 
 ```vue
-<!-- BaseButton.vue -->
+<!-- BaseButton.vue | Dans cet exemple: un bouton -->
 <template>
   <button 
     :class="['btn', `btn-${variant}`, { 'btn-loading': loading }]"

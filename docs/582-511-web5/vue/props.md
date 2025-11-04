@@ -93,6 +93,21 @@ app.mount('#app');
     ⚠️ *Note importante*: Utilise `:` (`v-bind`) pour passer autre chose qu'une string (donc dès que c'est un chiffre, une donnée booléenne, un tableau [ ], un objet { } )
 
 
+## Ajout d'une valeur par défaut
+
+Pour éviter les erreurs, il convient souvent d'attribuer une valeur par défaut aux props. Pour se faire, vous devez lui attribuer un objet `{ }` de deux propriétés: `type` et `default`:
+
+```vue
+props: {
+  isOrange: {
+    type: Boolean,
+    default: false
+  }
+}
+```
+
+
+
 ## Règles importantes des props
 
 ### ✅ Bonnes pratiques
