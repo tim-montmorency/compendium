@@ -235,13 +235,13 @@ src/
 │   │   ├── BaseModal.vue
 │   │   └── LoadingSpinner.vue
 │   │
-│   ├── layout/           ← Composants de structure
+│   ├── layout/           ← Composants de structure de mise en page
 │   │   ├── AppHeader.vue
 │   │   ├── AppFooter.vue
 │   │   ├── AppSidebar.vue
 │   │   └── AppNavigation.vue
 │   │
-│   └── [entités]/        ← Composants spécifiques
+│   └── [specific]/        ← Composants spécifiques
 │       ├── RoomCard.vue
 │       ├── RoomList.vue
 │       ├── MemoryCard.vue
@@ -281,22 +281,22 @@ src/
 
 **Components:**
 
-- PascalCase: `UserProfile.vue`, `MemoryCard.vue`
+- *PascalCase*: `UserProfile.vue`, `MemoryCard.vue`
 - Préfixe pour composants de base: `Base`, `App`
   - `BaseButton.vue`
   - `AppHeader.vue`
 
 **Views (pages):**
 
-- PascalCase avec suffixe `View`: `HomeView.vue`, `RoomView.vue`
+- *PascalCase* avec suffixe `View`: `HomeView.vue`, `RoomView.vue`
 
 **Stores:**
 
-- camelCase avec suffixe `Store`: `museumStore.js`, `memoryStore.js`
+- *camelCase* avec suffixe `Store`: `museumStore.js`, `memoryStore.js`
 
 ---
 
-## 🎨 Partie 4: Types de composants (10 min)
+## 🎨 Partie 4: Types de composants
 
 ### 1. Composants de présentation (Presentational)
 
@@ -835,7 +835,7 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
    ├── components/
    │   ├── common/
    │   ├── layout/
-   │   └── [votre-entité]/
+   │   └── specific/
    ```
 
 3. **Créer 3 composants "skeleton"**

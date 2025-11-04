@@ -9,9 +9,7 @@ Changements des remises.
 
 Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté des dates de livrables.
 
-## SCRUM
 
-SCRUM d'équipe
 
 ## Projet App Web créative
 
