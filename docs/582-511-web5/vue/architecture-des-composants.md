@@ -10,7 +10,7 @@
 - ✅ Comprendre les relations entre composants (parent-enfant)
 - ✅ Appliquer le principe de responsabilité unique
 
----
+
 
 ## 📚 Partie 1: Pourquoi des composants?
 
@@ -109,7 +109,7 @@ export default {
 - ✅ Bugs isolés
 - ✅ Performance optimisée
 
----
+
 
 ## 🏗️ Partie 2: Principe de responsabilité unique
 
@@ -220,7 +220,7 @@ Chaque composant a **UNE seule responsabilité**:
 - `PostList` → Afficher la liste des posts
 - `PostForm` → Formulaire d'ajout
 
----
+
 
 ## 📁 Partie 3: Organisation des fichiers
 
@@ -294,7 +294,7 @@ src/
 
 - *camelCase* avec suffixe `Store`: `museumStore.js`, `memoryStore.js`
 
----
+
 
 ## 🎨 Partie 4: Types de composants
 
@@ -439,7 +439,7 @@ export default {
 </BaseButton>
 ```
 
----
+
 
 ## 🔗 Partie 5: Communication entre composants
 
@@ -566,7 +566,7 @@ export default {
 </script>
 ```
 
----
+
 
 ## 🎯 Partie 6: Application aux projets
 
@@ -699,7 +699,7 @@ App.vue
 
 **Total: ~17 composants**
 
----
+
 
 ## 📝 Exercice Pratique (En classe)
 
@@ -756,7 +756,7 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
 5. Afficher ou cacher un modal
    - **Réponse:** Props ✅ (v-model aussi possible)
 
----
+
 
 ## ✅ Checklist: Bon composant vs Mauvais composant
 
@@ -782,7 +782,7 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
 - ❌ Styles globaux non nécessaires
 - ❌ Logique métier mélangée à la présentation
 
----
+
 
 ## 🎓 Récapitulatif
 
@@ -809,7 +809,7 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
    - Events déclarés
    - Pas d'accès direct aux données parents
 
----
+
 
 ## 📚 Ressources supplémentaires
 
@@ -853,7 +853,7 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
    - Liste dans un fichier `COMPONENTS.md`
    - Pour chaque composant: nom, responsabilité, props attendues
 
----
+
 
 ## ❓ Questions fréquentes
 
