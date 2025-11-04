@@ -13,7 +13,7 @@ SCRUM d'équipe
 
 ## Recontre prof et étudiants (par équipe)
 
-Montrez moi votre setup Vite+Vue avec *.gitignore* et que chaque membre de l'équipe est prêt à développer (chacun a fait son *git pull*, son `npm install` et son *node_modules* est complet et prêt à développer avec *Vite* via `npm run dev`).
+Montrez-moi votre configuration Vite+Vue avec *.gitignore*. De plus, chaque membre de l'équipe dois être prêt à développer: chacun a fait son *git pull*, son `npm install` et son *node_modules* est complet et prêt à développer avec *Vite* via `npm run dev`.
 
 ## Création des composants de layout:
 
