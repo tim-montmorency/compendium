@@ -570,9 +570,11 @@ export default {
 
 ## 🎯 Partie 6: Application aux projets
 
-### Pour "Mémoires Interactives"
+### Pour "Mémoires interactives" (ou musée de voyages ou de créations)
 
 #### Hiérarchie de composants recommandée:
+
+Pour l'équipe qui fait un musée de *créations*: vous pouvez changer le mot *Memory* pour *Creation* dans vos noms de composantes.
 
 ```
 App.vue
@@ -612,8 +614,7 @@ App.vue
 6. `RoomForm.vue` - Formulaire ajout/édition salle
 7. `RoomHeader.vue` - En-tête détail d'une salle
 
-*Mémoires (6):*
-ou *Créations*: changer le mot Memory pour Creation dans vos noms de composantes
+*Mémoires (6):* ou *Créations*: changer le mot *Memory* pour *Creation* dans vos noms de composantes
 
 8. `MemoryCard.vue` - Carte d'une mémoire
 9. `MemoryGrid.vue` ou `MemoryList.vue` - Grille ou liste des cartes mémoires
