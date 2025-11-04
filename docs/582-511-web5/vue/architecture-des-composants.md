@@ -808,10 +808,10 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
 
 **Documentation officielle:**
 
-- [Vue.js - Components Basics](https://vuejs.org/guide/essentials/component-basics.html)
-- [Vue.js - Component Registration](https://vuejs.org/guide/components/registration.html)
-- [Vue.js - Props](https://vuejs.org/guide/components/props.html)
-- [Vue.js - Events](https://vuejs.org/guide/components/events.html)
+- [Vue.js - Principes fondamentaux des composants​](https://fr.vuejs.org/guide/essentials/component-basics)
+- [Vue.js - Enregistrement des composants](https://fr.vuejs.org/guide/components/registration)
+- [Vue.js - Props](https://fr.vuejs.org/guide/components/props)
+- [Vue.js - Les événements de composant ($emit)](https://fr.vuejs.org/guide/components/events)
 
 **Lectures recommandées:**
 
