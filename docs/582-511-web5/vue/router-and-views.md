@@ -1,14 +1,7 @@
 # Mini-Cours: Vue Router et Views
 
-**Durée:** 50 minutes  
-**Niveau:** Intermédiaire  
-**Prérequis:** Connaissance de Vue.js, composants
-
----
-
 ## 🎯 Objectifs d'apprentissage
 
-À la fin de ce cours, vous serez capable de:
 - ✅ Configurer Vue Router dans votre projet
 - ✅ Créer des routes avec paramètres dynamiques
 - ✅ Naviguer entre les pages programmatiquement
@@ -16,7 +9,6 @@
 - ✅ Animer les transitions entre pages
 - ✅ Organiser vos Views efficacement
 
----
 
 ## 📚 Partie 1: C'est quoi Vue Router? (5 min)
 
@@ -48,6 +40,7 @@ export default {
 ```
 
 **Problèmes:**
+
 - 🚫 Pas d'URL distincte pour chaque page
 - 🚫 Impossible de bookmarker une page spécifique
 - 🚫 Pas de bouton "Retour" du navigateur
@@ -72,13 +65,14 @@ export default {
 ```
 
 **Avantages:**
+
 - ✅ URL distincte: `/`, `/museum`, `/search`
 - ✅ Bookmarkable
 - ✅ Bouton "Retour" fonctionne
 - ✅ Navigation par URL directe
 - ✅ Code propre et maintenable
 
----
+
 
 ## 🔧 Partie 2: Installation et Configuration (10 min)
 
@@ -92,6 +86,7 @@ npm install vue-router@4
 ### Étape 2: Créer le fichier router
 
 **Structure recommandée:**
+
 ```
 src/
 ├── router/
@@ -186,7 +181,7 @@ app.mount('#app');
 </template>
 ```
 
----
+
 
 ## 🗺️ Partie 3: Différence View vs Component (5 min)
 
@@ -222,6 +217,7 @@ export default {
 ```
 
 **Caractéristiques d'une View:**
+
 - ✅ Accessible via une route (URL)
 - ✅ Compose plusieurs composants
 - ✅ Gère la logique de la page
@@ -257,6 +253,7 @@ export default {
 ```
 
 **Caractéristiques d'un Component:**
+
 - ✅ Utilisé DANS les Views
 - ✅ Réutilisable
 - ✅ Props et Events
@@ -267,7 +264,6 @@ export default {
 > **View = Page avec URL**  
 > **Component = Bloc réutilisable**
 
----
 
 ## 🚀 Partie 4: Navigation (10 min)
 
@@ -371,11 +367,11 @@ this.$router.replace({ name: 'home' });
 ```
 
 **Quand utiliser replace?**
+
 - ✅ Après login (éviter de revenir au login)
 - ✅ Redirection automatique
 - ✅ Pages de confirmation
 
----
 
 ## 🎛️ Partie 5: Paramètres de route (10 min)
 
@@ -511,7 +507,7 @@ export default {
 </script>
 ```
 
----
+
 
 ## 🛡️ Partie 6: Navigation Guards (Protection de routes) (10 min)
 
@@ -654,7 +650,7 @@ export default {
 </script>
 ```
 
----
+
 
 ## 🎨 Partie 7: Transitions entre pages (5 min)
 
@@ -736,11 +732,11 @@ export default {
 </style>
 ```
 
----
+
 
 ## 🗂️ Partie 8: Organisation pour vos projets (5 min)
 
-### Pour "Mémoires Interactives"
+### Pour "Mémoires interactives"
 
 **Structure des routes:**
 
@@ -805,9 +801,9 @@ const routes = [
 5. `SearchView.vue` - Recherche globale
 6. `LoginView.vue` - Connexion (optionnel)
 
----
 
-### Pour "Choisis ta Voie"
+
+### Pour "Trace ton chemin"
 
 **Structure des routes:**
 
@@ -857,7 +853,6 @@ const routes = [
 4. `EndingView.vue` - Écran de fin
 5. `SavesView.vue` - Gestion des sauvegardes
 
----
 
 ## 💻 Exercice Pratique (En classe - 15 min)
 
@@ -964,7 +959,6 @@ export default {
 </script>
 ```
 
----
 
 ## ✅ Checklist: Vue Router dans votre projet
 
@@ -1002,7 +996,6 @@ export default {
 - [ ] Routes protégées avec `meta: { requiresAuth: true }`
 - [ ] Redirection vers login si non authentifié
 
----
 
 ## 🎓 Récapitulatif
 
@@ -1028,7 +1021,6 @@ export default {
    - Navigation guards
    - Meta fields pour configuration
 
----
 
 ## 📚 Ressources supplémentaires
 
@@ -1041,25 +1033,28 @@ export default {
 **Exemples de code:**
 - [Vue Router Examples](https://github.com/vuejs/router/tree/main/packages/router/playground/examples)
 
----
 
 ## 🎯 Travail à faire pour la prochaine fois
 
 ### Pour votre projet:
 
 1. **Créer la structure du router**
+
    - Fichier `router/index.js` avec 5-6 routes
    - Dossier `views/` avec fichiers .vue
 
 2. **Créer les Views skeleton**
+
    - Chaque View avec template de base
    - Titre et navigation de test
 
 3. **Tester la navigation**
+
    - Navigation entre toutes les pages
    - Vérifier que les URLs changent
 
 4. **Documenter vos routes**
+
    - Créer un fichier `ROUTES.md`
    - Lister: path, name, composant, description
 
@@ -1076,34 +1071,43 @@ export default {
 | /search | search | SearchView | Recherche globale |
 ```
 
----
 
 ## ❓ Questions fréquentes
 
 **Q: View ou Component?**
+
 **R:** 
+
 - Page avec URL → **View** (dans `views/`)
 - Bloc réutilisable → **Component** (dans `components/`)
 
 **Q: Quand utiliser `push` vs `replace`?**
+
 **R:**
+
 - `push`: Navigation normale (on peut revenir)
 - `replace`: Remplace l'historique (pas de retour), utile après login
 
 **Q: Comment passer des données entre routes?**
+
 **R:** 3 options:
+
 1. **Params**: `/room/:id` → `this.$route.params.id`
 2. **Query**: `/search?q=tokyo` → `this.$route.query.q`
 3. **Store (Pinia)**: Pour données partagées
 
 **Q: Mes transitions ne fonctionnent pas?**
+
 **R:** Vérifiez:
+
 - `<transition>` entoure `<component :is="Component">`
 - `:key="$route.path"` est présent
 - CSS ou GSAP est bien configuré
 
 **Q: Comment protéger toutes les routes sauf login?**
+
 **R:**
+
 ```javascript
 router.beforeEach((to, from, next) => {
   if (to.name !== 'login' && !isAuthenticated) {
@@ -1113,7 +1117,3 @@ router.beforeEach((to, from, next) => {
   }
 });
 ```
-
----
-
-**Bonne navigation
