@@ -10,7 +10,7 @@
 - ✅ Organiser vos Views efficacement
 
 
-## 📚 Partie 1: C'est quoi Vue Router? (5 min)
+## 📚 Partie 1: C'est quoi Vue Router? 
 
 ### Sans Vue Router (Single Page statique)
 
@@ -74,7 +74,7 @@ export default {
 
 
 
-## 🔧 Partie 2: Installation et Configuration (10 min)
+## 🔧 Partie 2: Installation et Configuration 
 
 ### Étape 1: Installation
 
@@ -183,7 +183,7 @@ app.mount('#app');
 
 
 
-## 🗺️ Partie 3: Différence View vs Component (5 min)
+## 🗺️ Partie 3: Différence View vs Composant
 
 ### View (Page)
 
@@ -224,7 +224,7 @@ export default {
 - ✅ Accède aux stores (Pinia)
 - ✅ Nom avec suffixe `View.vue`
 
-### Component
+### Composant
 
 **Emplacement:** `src/components/`  
 **Rôle:** Partie réutilisable de l'UI
@@ -252,7 +252,7 @@ export default {
 </script>
 ```
 
-**Caractéristiques d'un Component:**
+**Caractéristiques d'un composant:**
 
 - ✅ Utilisé DANS les Views
 - ✅ Réutilisable
@@ -262,10 +262,10 @@ export default {
 ### Règle simple:
 
 > **View = Page avec URL**  
-> **Component = Bloc réutilisable**
+> **Composant = Bloc réutilisable**
 
 
-## 🚀 Partie 4: Navigation (10 min)
+## 🚀 Partie 4: Navigation
 
 ### 1. Navigation déclarative (`<router-link>`)
 
@@ -373,7 +373,7 @@ this.$router.replace({ name: 'home' });
 - ✅ Pages de confirmation
 
 
-## 🎛️ Partie 5: Paramètres de route (10 min)
+## 🎛️ Partie 5: Paramètres de route
 
 ### Routes avec paramètres dynamiques
 
@@ -509,7 +509,7 @@ export default {
 
 
 
-## 🛡️ Partie 6: Navigation Guards (Protection de routes) (10 min)
+## 🛡️ Partie 6: Navigation Guards (Protection de routes)
 
 ### Cas d'usage
 
@@ -652,7 +652,7 @@ export default {
 
 
 
-## 🎨 Partie 7: Transitions entre pages (5 min)
+## 🎨 Partie 7: Transitions entre pages
 
 ### Ajouter des transitions avec GSAP
 
@@ -734,7 +734,7 @@ export default {
 
 
 
-## 🗂️ Partie 8: Organisation pour vos projets (5 min)
+## 🗂️ Partie 8: Organisation pour vos projets
 
 ### Pour "Mémoires interactives"
 
@@ -1005,9 +1005,9 @@ export default {
    - Chaque page a une URL unique
    - `<router-view />` affiche la page active
 
-2. **Views vs Components**
+2. **Views vs Composant**
    - View = Page complète avec URL
-   - Component = Bloc réutilisable
+   - Composant = Bloc réutilisable
 
 3. **Navigation**
    - Déclarative: `<router-link>`
@@ -1074,12 +1074,12 @@ export default {
 
 ## ❓ Questions fréquentes
 
-**Q: View ou Component?**
+**Q: View ou Composant?**
 
 **R:** 
 
 - Page avec URL → **View** (dans `views/`)
-- Bloc réutilisable → **Component** (dans `components/`)
+- Bloc réutilisable → **Composant** (dans `components/`)
 
 **Q: Quand utiliser `push` vs `replace`?**
 

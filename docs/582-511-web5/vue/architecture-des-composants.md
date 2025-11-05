@@ -603,47 +603,47 @@ App.vue
                 └── MemoryActions.vue
 ```
 
-#### Composants à créer (minimum):
+#### Suggestions de découpage par composant (dépendemment de votre intention)
 
 *Mise en page (layout) (2):*
 
-1. `AppHeader.vue` - En-tête avec navigation
-2. `AppFooter.vue` - Pied de page
+- `AppHeader.vue` - En-tête avec navigation
+- `AppFooter.vue` - Pied de page
 
 *Salles (4):*
 
-3. `RoomCard.vue` - Carte d'une salle
-4. `RoomGrid.vue` ou `RoomList` - Grille ou liste de salles
-5. `RoomForm.vue` - Formulaire ajout/édition salle
-6. `RoomHeader.vue` - En-tête détail d'une salle
+- `RoomCard.vue` - Carte d'une salle
+- `RoomGrid.vue` ou `RoomList` - Grille ou liste de salles
+- `RoomForm.vue` - Formulaire ajout/édition salle
+- `RoomHeader.vue` - En-tête détail d'une salle
 
-*Mémoires (6):* ou *Créations*: changer le mot *Memory* pour *Creation* dans vos noms de composantes
+*Mémoires:* ou *Créations*: changer le mot *Memory* pour *Creation* dans vos noms de composantes
 
-7. `MemoryCard.vue` - Carte d'une mémoire
-8. `MemoryGrid.vue` ou `MemoryList.vue` - Grille ou liste des cartes des mémoires
-9. `MemoryForm.vue` - Formulaire ajout/édition mémoire
-10. `MemoryDetail.vue` - Vue détaillée d'une mémoire
-11. `MemoryImage.vue` - Gestion de l'image
-12. `MemoryTags.vue` - Affichage des tags
+- `MemoryCard.vue` - Carte d'une mémoire
+- `MemoryGrid.vue` ou `MemoryList.vue` - Grille ou liste des cartes des mémoires
+- `MemoryForm.vue` - Formulaire ajout/édition mémoire
+- `MemoryDetail.vue` - Vue détaillée d'une mémoire
+- `MemoryImage.vue` - Gestion de l'image
+- `MemoryTags.vue` - Affichage des tags
 
-*UI Communs (4):*
+*UI Communs:*
 
-13. `BaseButton.vue` - Bouton réutilisable
-14. `BaseModal.vue` - Modal réutilisable
-15. `BaseInput.vue` - Input réutilisable
-16. `LoadingSpinner.vue` - Indicateur de chargement
+- `BaseButton.vue` - Bouton réutilisable
+- `BaseModal.vue` - Modal réutilisable
+- `BaseInput.vue` - Input réutilisable
+- `LoadingSpinner.vue` - Indicateur de chargement
 
-*Fonctionnalités (3):*
+*Fonctionnalités:*
 
-17. `SearchBar.vue` - Barre de recherche
-18. `TagFilter.vue` - Filtre par tags
-19. `ExportButton.vue` - Bouton d'export
+- `SearchBar.vue` - Barre de recherche (optionnel, au delà du MVP)
+- `TagFilter.vue` - Filtre par tags (optionnel, au delà du MVP)
+- `ExportButton.vue` - Bouton d'export (optionnel, au delà du MVP)
 
 *Total: ~20 composants*
 
 ---
 
-### Pour "Choisis ta Voie"
+### Pour "Trace ton chemin"
 
 #### Démo de 2 projets de ce type en exemple
 
@@ -675,36 +675,36 @@ App.vue
             └── ChoiceHistory.vue
 ```
 
-#### Composants à créer (minimum):
+#### Suggestions de découpage par composant (dépendemment de votre intention)
 
-*Layout (2):*
+*Layout:*
 
-1. `AppHeader.vue` - En-tête avec titre
-2. `StatsBar.vue` - Barre de statistiques
+- `AppHeader.vue` - En-tête avec titre
+- `StatsBar.vue` - Barre de statistiques
 
-*Story (8):*
+*Story:*
 
-3. `ChapterView.vue` - Vue d'un chapitre
-4. `ChapterHeader.vue` - Titre du chapitre
-5. `NarrativeText.vue` - Texte de narration
-6. `ChoicePanel.vue` - Panel de choix
-7. `ChoiceButton.vue` - Bouton de choix
-8. `ContinueButton.vue` - Bouton continuer
-9. `ProgressBar.vue` - Barre de progression
-10. `SaveSlotManager.vue` - Gestion des sauvegardes
+- `ChapterView.vue` - Vue d'un chapitre
+- `ChapterHeader.vue` - Titre du chapitre
+- `NarrativeText.vue` - Texte de narration
+- `ChoicePanel.vue` - Panel de choix
+- `ChoiceButton.vue` - Bouton de choix
+- `ContinueButton.vue` - Bouton continuer
+- `ProgressBar.vue` - Barre de progression
+- `SaveSlotManager.vue` - Gestion des sauvegardes
 
-*Ending (3):*
+*Ending:*
 
-11. `EndingScreen.vue` - Écran de fin
-12. `EndingBadge.vue` - Badge de fin
-13. `ChoiceHistory.vue` - Historique des choix
+- `EndingScreen.vue` - Écran de fin
+- `EndingBadge.vue` - Badge de fin (optionnel)
+- `ChoiceHistory.vue` - Historique des choix
 
-*UI Communs (4):*
+*UI Communs:*
 
-14. `BaseButton.vue`
-15. `BaseModal.vue`
-16. `StatIndicator.vue` - Indicateur de stat
-17. `LoadingSpinner.vue`
+- `BaseButton.vue`
+- `BaseModal.vue`
+- `StatIndicator.vue` - Indicateur de stat
+- `LoadingSpinner.vue`
 
 *Total: ~17 composants*
 
@@ -888,7 +888,6 @@ const app = Vue.createApp({});
 1. *Créer un diagramme* de votre hiérarchie de composants
 
    - Utilisez draw.io, Figma/Figjam ou papier/crayon
-   - Identifiez les 8-10 composants principaux
 
 2. *Créer la structure de dossiers* dans votre projet
 

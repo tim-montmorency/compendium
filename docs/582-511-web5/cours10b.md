@@ -25,7 +25,7 @@ Pour vous aider à visualiser l'objectif du projet, voici des projets assez ache
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=a8ef39a5-324b-4de7-87d4-e54a3401a781&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="memoires-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-### Pour "Choisis ta Voie", voici 2 projets en démo
+### Pour "Trace ton chemin", voici 2 projets en démo
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=47b37c56-d3a5-4e21-8802-4474729e3453&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="chemin-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
@@ -37,7 +37,7 @@ Pour vous aider à visualiser l'objectif du projet, voici des projets assez ache
 
 - `AppHeader.vue` - Navigation principale
 - `AppFooter.vue` - Informations, crédits
-- `Sidebar.vue` - Menu latéral des salles
+- `Sidebar.vue` - Menu latéral des salles (optionnel)
 
 *Composants de contenu:*
 
@@ -93,21 +93,18 @@ Pour vous aider à visualiser l'objectif du projet, voici des projets assez ache
 
 ## Devoirs
 
-### Mémoire interactive
+1. *Créer un diagramme* de votre hiérarchie de composants
 
-Avancer (sans nécessairement terminer) ce qui a été commencé en classe
+2. *Créer la structure de dossiers* dans votre projet
 
-- [ ] **Minimum 4 composants** créés et fonctionnels
-- [ ] **Vue Router** configuré avec 4+ routes
-- [ ] **Navigation fonctionnelle** entre les pages
-- [ ] **Données mockées** affichées correctement
+3. *Créer vos composants en mode "skeleton"*
 
-### Trace ton chemin
+   - Créez les fichiers vides avec structure de base
+   - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`
 
-Avancer (sans nécessairement terminer) ce qui a été commencé en classe:
+4. *Documenter vos composants*
 
-- [ ] **Minimum 4 composants** créés et fonctionnels
-- [ ] **Vue Router** configuré avec routes par chapitre
-- [ ] **Navigation fonctionnelle** entre chapitres
-- [ ] **Quelques chapitres** dans le fichier JSON
-- [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
+   - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
+   - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
+
+5. Pour *Trace ton chemin*, rédaction de vos chapitres et ajouter quelques chapitres dans un fichier .json dans le projet, sauvegardé dans le dossier `data`.
