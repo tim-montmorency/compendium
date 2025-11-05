@@ -1,4 +1,4 @@
-# Mini-Cours: Vue Router et Views
+# Cours: Vue Router et Views
 
 ## 🎯 Objectifs d'apprentissage
 

@@ -752,8 +752,9 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 5. Afficher ou cacher un modal
 
+
 <!--
-### Exercice 1: Identifier les composants
+### Solution Exercice 1: Identifier les composants
 
 Regardez cette maquette et identifiez les composants à créer:
 
@@ -787,7 +788,7 @@ Regardez cette maquette et identifiez les composants à créer:
 3. `RoomCard` (carte répétée)
 4. `BaseButton` (bouton ajout)
 
-### Exercice 2: Props ou Emit? (5 min)
+### Solution Exercice 2: Props ou Emit? (5 min)
 
 Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
@@ -807,7 +808,6 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
    - *Réponse:* Props ✅ (v-model aussi possible)
 
 -->
-const app = Vue.createApp({});
 
 
 
