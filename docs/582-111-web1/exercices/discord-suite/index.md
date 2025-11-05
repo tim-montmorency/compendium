@@ -8,11 +8,11 @@ tags:
 
 ![](./nerd.gif){.w-100}
 
-Maintenant que la première partie est complétée, il sera question de mettre en place une nouvelle section à partir du travail déjà en place.
+Maintenant que la première partie est complétée, il sera question d'ajouter de nouvelles sections à l'exercice Discord.
 
 Cette fois, sans assistance 😜
 
-> Vous êtes capable !
+> Vous êtes capable ! EZ
 
 ## Résultat attendu
 

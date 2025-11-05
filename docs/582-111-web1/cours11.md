@@ -6,7 +6,7 @@
 
 ![](./assets/images/cant-say.gif){.w-100}
 
-Lorsqu'on écris des classes CSS, on peut écrire n'importe quoi et la fonctionnalité ne sera pas affectée. Par contre, à la lecture, il est intéressant de comprendre ce que fait le style, sinon c'est plus laborieux.
+Lorsqu'on écrit des classes CSS, on peut écrire n'importe quoi et la fonctionnalité ne sera pas affectée. Par contre, à la lecture, il est intéressant de comprendre ce que fait le style, sinon c'est plus laborieux.
 
 <div class="grid" markdown>
 <div>
@@ -119,7 +119,7 @@ Exemple : une carte “active”, un bouton “rouge”, un titre “grand”.
 
 > Pas facile de le franciser celui-là.
 
-En « utility-first », au lieu de créer des classes pour des composantes, on utilises plein de petites classes “utilitaires” qui font une seule chose chacune. 
+En « utility-first », au lieu de créer des classes pour des composantes, on utilise plein de petites classes "utilitaires" qui font une seule chose chacune. 
 
 Présentement, c'est ce qui est le plus utilisé en entreprise, mais ça prends son sens seulement quand on travaille avec des technologies un peu plus haut niveau que ce qu'on fait en Web 1. Voici tout de même le concept.
 
@@ -169,13 +169,13 @@ En _utility-first_, on composer le design directement dans le HTML, un peu comme
 
 !!! success "Bref"
 
-	L'important c'est surtout d'écrire les classes (_class_) et les identifiants (_id_) pour qu'on comprenne ce qu'ils fonts.
+	L'important c'est surtout d'écrire les classes (_class_) et les identifiants (_id_) pour qu'on comprenne ce qu'ils font.
 
 ## Imbrication CSS
 
 ![](./assets/images/matryoshka-russian-doll.gif){.w-100}
 
-L'imbrication CSS (ou [_CSS nesting_](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting)) est une technique d'organisation du CSS. Elle permet d'imbrique des classes entre elles afin de visualiser l'aspect hiérarchique. 
+L'imbrication CSS (ou [_CSS nesting_](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting)) est une technique d'organisation du CSS. Elle permet d'imbriquer des classes entre elles afin de visualiser l'aspect hiérarchique. 
 
 Par exemple, un style de card conventionnel pourrait ressembler à ceci : 
 
@@ -204,6 +204,19 @@ La version imbriquée ressemblerait à ceci :
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+!!! example "&"
+
+    L'esperluette (&) représente le sélecteur parent (le sélecteur courant).
+
+    ```css title="Exemple"
+    .card {
+      &.active  { /* identique à : .card.active  */ }
+      & img     { /* identique à : .card img     */ }
+      &:hover   { /* identique à : .card:hover   */ }
+      & + &     { /* identique à : .card + .card */ }
+    }
+    ```
+
 ## aspect-ratio
 
 <iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Ratios" src="https://codepen.io/tim-momo/embed/myVgaWR/7e03846f6e45644eb57a76b953f7d11c?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
@@ -212,9 +225,13 @@ La version imbriquée ressemblerait à ceci :
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-Le ratio d’image décrit la forme d’une image, c’est-à-dire la relation entre sa largeur et sa hauteur.
+Le ratio d’image décrit la forme d’une image, c’est-à-dire la relation entre sa largeur et sa hauteur. Ils sont normalement écris de la manière suivante : 
 
-En CSS, la propriété CSS [aspect-ratio](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/aspect-ratio) définit un ratio d'affichage.
+* 1:1
+* 4:3
+* 16:9
+
+En CSS, la propriété CSS [aspect-ratio](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/aspect-ratio) définit un ratio d'affichage. Au lieu d'avoir un ":" pour réparer les chiffres, en css on écrit un slash "/".
 
 ```css
 .mon-style {
@@ -316,7 +333,6 @@ La propriété CSS [box-shadow](https://developer.mozilla.org/fr/docs/Web/CSS/Re
 ## Prochain cours : examen 02
 
 !!! example "Révision avec le prof 🧑‍🏫"
-
 
 ## Exercices
 
