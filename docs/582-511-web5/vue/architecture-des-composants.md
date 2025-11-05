@@ -712,28 +712,69 @@ App.vue
 
 ## 📝 Exercice Pratique (En classe)
 
-### Exercice 1: Identifier les composants (10 min)
+- [Quiz](https://app.wooclap.com/HISOPU)
+
+### Exercice 1: Identifier les composants
+
+Regardez cette maquette et identifiez les composants à créer:
+
+```
+┌─────────────────────────────────────┐
+│  [Logo] Musée                       │
+├─────────────────────────────────────┤
+│                                     │
+│  ┌──────────┐  ┌──────────┐         │
+│  │ Tokyo    │  │ Paris    │         │
+│  │          │  │          │         │
+│  │ 5 photos │  │ 3 photos │         │
+│  └──────────┘  └──────────┘         │
+│  ┌──────────┐                       │
+│  │ New York │                       │
+│  │          │                       │
+│  │ 0 photos │                       │
+│  └──────────┘                       │
+│                                     │
+│  [+ Ajouter une destination]        │
+└─────────────────────────────────────┘
+```
+
+### Exercice 2: Props ou Emit?
+
+Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
+
+1. Afficher le titre d'une mémoire dans `MemoryCard`
+
+2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
+
+3. Passer l'URL d'une image à afficher
+
+4. Informer qu'un formulaire a été soumis
+
+5. Afficher ou cacher un modal
+
+<!--
+### Exercice 1: Identifier les composants
 
 Regardez cette maquette et identifiez les composants à créer:
 
 *Pour Mémoires Interactives:*
 ```
 ┌─────────────────────────────────────┐
-│  [Logo] Musée       🏠 🔍 💾       │ ← AppHeader
+│  [Logo] Musée                       │   ← AppHeader
 ├─────────────────────────────────────┤
 │                                     │
 │  ┌──────────┐  ┌──────────┐         │
-│  │ Tokyo    │  │ Paris    │         │ ← RoomCard x3
-│  │ 🗾      │  │ 🗼       │         │
+│  │ Tokyo    │  │ Paris    │         │   ← RoomCard x3
+│  │          │  │          │         │
 │  │ 5 photos │  │ 3 photos │         │
 │  └──────────┘  └──────────┘         │
 │  ┌──────────┐                       │
 │  │ New York │                       │
-│  │ 🗽       │                       │
+│  │          │                       │
 │  │ 0 photos │                       │
 │  └──────────┘                       │
 │                                     │
-│  [+ Nouvelle Destination]           │ ← BaseButton
+│  [+ Ajouter une destination]        │   ← BaseButton
 └─────────────────────────────────────┘
 ```
 
@@ -765,20 +806,24 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 5. Afficher ou cacher un modal
    - *Réponse:* Props ✅ (v-model aussi possible)
 
+-->
+const app = Vue.createApp({});
+
+
 
 
 ## ✅ Checklist: Bon composant vs Mauvais composant
 
 ### Un BON composant:
 
-- ✅ Fait UNE chose et la fait bien
+- ✅ Un composant fait UNE seule chose et la fait bien
 - ✅ Moins de 200 lignes de code
 - ✅ Nom clair et descriptif
-- ✅ Props bien documentées avec types
-- ✅ Émissions d'événements déclarées
+- ✅ Props bien documentées avec types (ex: `props: { title: String, inStock: Boolean}`)
+- ✅ Émissions d'événements déclarées (`emits`)
 - ✅ Réutilisable dans différents contextes
 - ✅ Styles scopés (`<style scoped>`)
-- ✅ Pas de logique métier complexe (sauf conteneurs)
+- ✅ Pas de logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> complexe (sauf les composants de type conteneurs dont le rôle est de gérer la logique et récupérer les données)
 
 ### Un MAUVAIS composant:
 
@@ -789,7 +834,7 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 - ❌ Dépendances cachées
 - ❌ Code dupliqué
 - ❌ Styles globaux non nécessaires
-- ❌ Logique métier mélangée à la présentation
+- ❌ Logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> mélangée à la présentation
 
 
 
@@ -798,12 +843,12 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 ### Les 5 principes clés:
 
 1. *Un composant = Une responsabilité*
-   - Ne pas mélanger présentation et logique métier
+   - Ne pas mélanger présentation et logique
 
 2. *Hiérarchie claire*
-   - Parent → Enfant avec Props
-   - Enfant → Parent avec Emit
-   - Store pour données partagées
+   - Parent → Enfant avec *Props*
+   - Enfant → Parent avec *Emit*
+   - Store *Pinia* pour données partagées entre plusieurs composants
 
 3. *Réutilisabilité*
    - Composants de base génériques
@@ -815,14 +860,14 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 5. *Communication explicite*
    - Props typées
-   - Events déclarés
-   - Pas d'accès direct aux données parents
+   - Émissions d'événements déclarées
+ <!-- - Pas d'accès direct aux données parents -->
 
 
 
 ## 📚 Ressources supplémentaires
 
-*Documentation officielle:*
+*Documentation officielle*
 
 - [Vue.js - Principes fondamentaux des composants​](https://fr.vuejs.org/guide/essentials/component-basics)
 - [Vue.js - Enregistrement des composants](https://fr.vuejs.org/guide/components/registration)
@@ -870,10 +915,13 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 ## ❓ Questions fréquentes
 
 *Q: Combien de composants dois-je créer?*
+
 *R:* Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez!
 
 *Q: Quand créer un nouveau composant?*
+
 *R:* Dès que:
+
 - Le code dépasse 150 lignes
 - Vous copiez-collez du code
 - Une section a une responsabilité claire
@@ -887,10 +935,5 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 - *Store:* Données partagées entre plusieurs composants non liés
 
 *Q: Puis-je modifier une prop dans un composant enfant?*
+
 *R:* NON! Les props sont *read-only*. Utilisez `$emit` pour demander au parent de la modifier.
-
----
-
-*Bon développement! 🚀*
-
-*Questions? Venez me voir après le cours ou sur Teams!*
