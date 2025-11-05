@@ -51,7 +51,7 @@ Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté de
 
 [Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis-total/#requis-vue---composante-prix-total){ .md-button}
 
-<!-- ➜ [Solution avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
+➜ [Solution avec composante et le calcul du total avec "emit"💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) 
 
 
 ## Vue SFC (Single File Component)
@@ -65,6 +65,8 @@ Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté de
 ### Exercice SFC
 
 [Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
+
+➜ [Solutio à venir...](#) 
 
 
 
