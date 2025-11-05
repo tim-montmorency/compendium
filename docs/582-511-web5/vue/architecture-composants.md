@@ -443,7 +443,7 @@ export default {
 
 ## 🔗 5: Communication entre composants
 
-### 1. Parent → Enfant: Props
+### 5.1. Parent → Enfant: Props
 
 ```vue
 <!-- Parent.vue -->
@@ -487,7 +487,7 @@ export default {
 </script>
 ```
 
-### 2. Enfant → Parent: Events ($emit)
+### 5.2. Enfant → Parent: Events ($emit)
 
 ```vue
 <!-- Enfant: MemoryForm.vue -->
@@ -535,7 +535,7 @@ export default {
 </script>
 ```
 
-### 3. Communication complexe: Store (Pinia)
+### 5.3. Communication complexe: Store (Pinia)
 
 Quand plusieurs composants non liés ont besoin d'accéder aux mêmes données:
 
