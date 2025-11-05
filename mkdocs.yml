@@ -252,10 +252,12 @@ nav:
         - Tableau[ ]+ boucle v-for: 582-511-web5/vue/boucle.md
         - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
         - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
-        - Composante: 582-511-web5/vue/composante.md
+        - Composant: 582-511-web5/vue/composante.md
         - Props: 582-511-web5/vue/props.md
         - Émettre (emit):  582-511-web5/vue/emit.md
         - SFC:  582-511-web5/vue/sfc.md
+        - Architecture composants: 582-511-web5/vue/architecture-composants.md
+        - View (page): 582-511-web5/vue/view.md
         
       - Fetch API:
         - 582-511-web5/fetch.md

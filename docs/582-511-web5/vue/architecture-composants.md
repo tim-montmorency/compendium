@@ -883,7 +883,7 @@ const app = Vue.createApp({});
 
 ## 🎯 Travail à faire
 
-### Pour votre projet:
+### Pour votre projet
 
 1. *Créer un diagramme* de votre hiérarchie de composants
 
@@ -904,15 +904,17 @@ const app = Vue.createApp({});
    ├── views/
    ```
 
-3. *Créer vos composants en mode "skeleton"*
+3. *Créer vos composants et vos views* ainsi que les balises de base `<template>`, `<script>`, `<styles>`.
 
    - Créez les fichiers vides avec structure de base
-   - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`
+   - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`, `RoomView.vue`, `HomeView.vue`
 
-4. *Documenter vos composants*
+4. *Documenter vos composants et vos views*
 
    - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
    - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
+
+5. Pour *Trace ton chemin*, rédaction de vos chapitres dans un Word ou document textuel collaboratif.
 
 
 
@@ -920,7 +922,7 @@ const app = Vue.createApp({});
 
 *Q: Combien de composants dois-je créer?*
 
-*R:* Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez!
+*R:* Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez! Lorsque vous commencez à développer, priorisez les composants nécessaires au MVP (Minimum Viable Product) de votre projet.
 
 *Q: Quand créer un nouveau composant?*
 
