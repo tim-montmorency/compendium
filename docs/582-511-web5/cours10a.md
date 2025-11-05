@@ -66,7 +66,7 @@ Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté de
 
 [Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
 
-➜ [Solutio à venir...](#) 
+➜ [Solution](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdWN1jwPTnNJm6vuPRvxsDkBbcBXE1LIWAxUPpG824eyEw?e=j1AEfW) 
 
 
 
