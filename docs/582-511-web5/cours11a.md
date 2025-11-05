@@ -2,11 +2,15 @@
 
 <!--Foundation - Structure et affichage de base -->
 
-<!-- mercredi 12 novembre -->
+Mercredi 12 novembre
 
 ## SCRUM d'équipe
 
 ..
+
+## Mini cours: Routes
+
+- Routes (Vue Router) entre les différentes views (pages)
 
 
 ## Mini cours: Pinia (45 min)

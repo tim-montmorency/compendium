@@ -1,5 +1,6 @@
 # Cours 14.2
-<!-- merc. 3 décembre -->
+
+Merc. 3 décembre 
 
 !!! example "*REMISE DE LA VERSION BETA DU PROJET INTÉGRATEUR* (formatif)"
 

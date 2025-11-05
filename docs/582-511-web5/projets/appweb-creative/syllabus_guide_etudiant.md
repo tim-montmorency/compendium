@@ -81,6 +81,17 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 - *LocalStorage* pour sauvegardes multiples
 
 
+## Démo de projets
+
+Pour vous aider à visualiser l'objectif du projet, voici des projets assez achevés qui démontrent bien l'objectif du projet *App web créative*. En tout temps en classe, vous pouvez me demander de l'essayer sur mon ordinateur sans regarder le code source, juste pour vous faire une idée du fonctionnement.
+
+### Pour "Mémoires interactives", voici 1 projet en démo
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=a8ef39a5-324b-4de7-87d4-e54a3401a781&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="memoires-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+### Pour "Trace ton chemin", voici 2 projets en démo
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=47b37c56-d3a5-4e21-8802-4474729e3453&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="chemin-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## 📅 Calendrier général
 
@@ -420,6 +431,7 @@ Chaque semaine, une revue rapide avec l'enseignant pour:
 | *19 novembre* | ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS |
 | *Du 19 au 26 novembre* | PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire |
 | *26 novembre* | *REMISE Phases 4 animation+médias ~~et 5 persistance~~*: Formatif |
+| *1 décembre* | *REMISE Phases  5 persistance et sauvegarde des données*: Formatif |
 | *Du 26 novembre au 3 décembre* | PHASE 6: AFFINAGE ET ACCESSIBLITÉ pour la version BETA |
 | *3 décembre* | *REMISE version BETA*: Formatif |
 | *Du 3 au 8 décembre* | PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS |

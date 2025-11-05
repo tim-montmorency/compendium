@@ -1,6 +1,6 @@
 # Cours 12.2 Animation et médias
 
-<!-- 19 novembre -->
+19 novembre
 
 !!! example "*REMISE DE LA PHASE 3 et 4 FONDATION ET INTERACTIVITÉ DU PROJET INTÉGRATEUR* (sommatif 15%)"
     **Livrables pour *mémoire interactive***

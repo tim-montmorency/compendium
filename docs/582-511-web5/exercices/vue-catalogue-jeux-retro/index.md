@@ -1,12 +1,12 @@
 # Vue: Mini-catalogue *Jeux retro*
 
 
-## Fichiers de départ (lien à venir...)
+## Fichiers de départ
 
 [📥 Télécharger fichiers de départ](./jeu-retro-fichiers-depart.zip){ .md-button }
 
 
-## Apercu
+## Aperçu
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=2e828139-878b-4441-a090-60fa02d95470&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
@@ -32,16 +32,16 @@ npm run dev
 
 ---
 
-## Etapes (1–4)
+## Étapes (1–4)
 
-### 1) Preparer les donnees (dans `App.vue`)
+### 1) Préparer les donnees (dans `App.vue`)
 
 - [ ] Observez le tableau `items` fourni (id, title, price, year, image, tags).
 - [ ] Ajoutez un jeux rétro dans la liste (n'oubliez pas d'ajouter l'image trouvé sur Internet).
 - [ ] Notez les états d'interface (`sortBy`, `sortDir`, `limit`, `layout`).
 - [ ] Sous le commentaire `<!-- Affichage des jeux -->` ajoutez l'affichage de la composante `ItemList`.
 
-### 2) Calculer la liste à afficher
+### 2) Analysez la propriété calculée `itemsFiltered`
 
 - [ ] Analysez la logique de *tri* (par `title`, `price` ou `year`), d'*ordre* (asc/desc) et de *limite* dans `computed: itemsFiltered`.
 
@@ -50,9 +50,9 @@ npm run dev
 - [ ] Préparer la composante à recevoir les *props* `items` et `layout` en spécifiant le type de donnée. À titre d'information:
   - `items` contiendra la liste des jeux sous forme de tableau (Array).
   - `layout` contiendra le format de la mise en page des carte, soit "grid" ou "list". Cette `prop` sera donc une chaîne de caractères (String).
-- [ ] Retournez dans `App.vue` pour envoyer les données dans les 2 `props`que vous venez de créer.
+- [ ] Retournez dans `App.vue` pour envoyer les données dans les 2 `props`que vous venez de créer. La prop `items` devra recevoir les données filtrées provenant de la propriété calculée `itemsFiltered`.
 - [ ] De retour dans `ItemList.vue` affichez la liste de jeux `ItemCard` avec `v-for` (clé `:key="item.id"`) [En savoir plus sur l'utilisation de `key` avec un v-for](https://fr.vuejs.org/guide/essentials/list#maintaining-state-with-key)
-- [ ] Adaptez la *disposition* (`grid` / `list`) en ajoutant une classe dynamique sur conteneur `<section class="collection">`.
+- [ ] Adaptez la *disposition* (`grid` / `list`) en ajoutant une classe dynamique sur conteneur `<section class="collection">` en fonction de la valeur de la prop `layout`.
 
 ### 4) Construire la carte (dans `ItemCard.vue`)
 

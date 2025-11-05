@@ -1,6 +1,6 @@
 # Cours 13.1 Persistance et sauvegarde
 
-<!-- 24 novembre -->
+24 novembre
 
 ## SCRUM d'équipe
 

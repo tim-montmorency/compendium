@@ -1,5 +1,6 @@
 # Cours 10.1
-<!-- 3 novembre -->
+
+ 3 novembre
 
 ## Annonces
 
@@ -9,9 +10,7 @@ Changements des remises.
 
 Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté des dates de livrables.
 
-## SCRUM
 
-SCRUM d'équipe
 
 ## Projet App Web créative
 
@@ -53,7 +52,7 @@ SCRUM d'équipe
 
 [Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis-total/#requis-vue---composante-prix-total){ .md-button}
 
-<!-- ➜ [Solution avec composante et le calcul du total💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) -->
+➜ [Solution avec composante et le calcul du total avec "emit"💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) 
 
 
 ## Vue SFC (Single File Component)
@@ -68,6 +67,8 @@ SCRUM d'équipe
 
 [Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
 
+➜ [Solution](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdWN1jwPTnNJm6vuPRvxsDkBbcBXE1LIWAxUPpG824eyEw?e=j1AEfW) 
+
 
 
 <!---
@@ -81,9 +82,8 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 
 - Setup du projet Vite + Vue
 - Installation des dépendances (Pinia, GSAP)
-- Configuration ESLint + Prettier
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
-- Commencez à monter la grande structure HTML et styliser en CSS mais surtout pour placer les grands sectons dans la page. Pour le moment, ne vous souciez pas des styles de couleur, de typo, des détails d'arrondissement de coin etc). Rappelez vous que ce sera une *SPA (Single Page Application)*, donc tout sera dans `index.html` mais éventuellement certaines parties seront divisées en `components`et en `views`.
+- Commencez à monter la grande structure HTML et styliser en CSS mais surtout pour placer les grands sections dans la page. Pour le moment, ne vous souciez pas des styles de couleur, de typo, des détails d'arrondissement de coin etc). Rappelez vous que ce sera une *SPA (Single Page Application)*, donc tout sera dans `index.html` mais éventuellement certaines parties seront divisées en `components`et en `views`.
 
 
 <!--

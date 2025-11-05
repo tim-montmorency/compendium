@@ -1,5 +1,6 @@
 # Cours 15.1
-<!-- lundi 8 décembre -->
+
+Lundi 8 décembre
 
 
 !!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ* (sommatif 10%)" 

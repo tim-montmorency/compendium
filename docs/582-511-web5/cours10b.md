@@ -1,21 +1,91 @@
 # Cours 10.2
-<!-- 5 novembre -->
+5 novembre
 
-## Mini cours: Architecture de composants Vue (30 min)
+## Révision
 
-- Architecture de composants
-- Views (pages entières, souvent liées à une route (URL))
-- Routes (Vue Router)
+[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis-total/#requis-vue---composante-prix-total){ .md-button}
+
+➜ [Solution avec composante et le calcul du total avec "emit"💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) 
+
+
+[Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
+
+➜ [Solution](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdWN1jwPTnNJm6vuPRvxsDkBbcBXE1LIWAxUPpG824eyEw?e=j1AEfW) 
+
+
+## Projet final: Démarrez votre Toggl
+
+ Démarrez votre Toggl (feuille de temps) du projet!
+
+## Cours: Architecture des `components` et ses `views`
+
+- [Architecture de composants](./vue/architecture-composants.md)
+- [Views: pages entières, souvent liées à une route (URL)](./vue/view.md)
+
+## Quiz composantes
+
+- [Quiz](https://app.wooclap.com/HISOPU)
+
+
+## Rencontre prof et étudiants (par équipe)
+
+Montrez-moi votre configuration Vite+Vue avec *.gitignore*. 
+
+De plus, chaque membre de l'équipe doit être prêt à développer: chacun a fait son *git pull*, son `npm install` et son *node_modules* est complet et prêt à développer avec *Vite* via `npm run dev`.
+
+## Démo de projets
+
+Pour vous aider à visualiser l'objectif du projet, voici des projets assez achevés qui démontrent bien l'objectif du projet *App web créative*. En tout temps en classe, vous pouvez me demander de l'essayer sur mon ordinateur sans regarder le code source, juste pour vous faire une idée du fonctionnement.
+
+### Pour "Mémoires interactives", voici 1 projet en démo
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=a8ef39a5-324b-4de7-87d4-e54a3401a781&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="memoires-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+### Pour "Trace ton chemin", voici 2 projets en démo
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=47b37c56-d3a5-4e21-8802-4474729e3453&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="chemin-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## SCRUM
 
 SCRUM d'équipe
 
-## Recontre prof et étudiants (par équipe)
+## Travail en classe et DEVOIR
 
-Montrez-moi votre configuration Vite+Vue avec *.gitignore*. De plus, chaque membre de l'équipe dois être prêt à développer: chacun a fait son *git pull*, son `npm install` et son *node_modules* est complet et prêt à développer avec *Vite* via `npm run dev`.
+1. *Créer un diagramme* de votre hiérarchie de composants
 
-## Création des composants de layout:
+   - Utilisez draw.io, Figma/Figjam ou papier/crayon
+
+2. *Créer la structure de dossiers* dans votre projet
+
+   ```bash
+   src/
+   ├── assets/
+   ├── components/
+   │   ├── common/
+   │   ├── layout/
+   │   └── specific/
+   ├── data/
+   ├── router/
+   ├── stores/
+   ├── views/
+   ```
+
+3. *Créer vos composants et vos views* ainsi que les balises de base `<template>`, `<script>`, `<styles>`.
+
+   - Créez les fichiers vides avec structure de base
+   - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`, `RoomView.vue`, `HomeView.vue`
+
+4. *Documenter vos composants et vos views*
+
+   - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
+   - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
+
+5. *Mettre à jour votre Trello*: en fonction des composants et views découpées dans votre plan, allez ajouter ou mettre à jour vos tâches dans le Trello. Déjà vous pouvez prioriser et vous distribuer des composants à développer.
+
+5. Pour *Trace ton chemin*, rédaction de vos chapitres dans un Word ou document textuel collaboratif.
+
+<!--
+## Création des composants
 
 ### Mémoire interactive
 
@@ -23,7 +93,7 @@ Montrez-moi votre configuration Vite+Vue avec *.gitignore*. De plus, chaque memb
 
 - `AppHeader.vue` - Navigation principale
 - `AppFooter.vue` - Informations, crédits
-- `Sidebar.vue` - Menu latéral des salles
+- `Sidebar.vue` - Menu latéral des salles (optionnel)
 
 *Composants de contenu:*
 
@@ -69,31 +139,13 @@ Montrez-moi votre configuration Vite+Vue avec *.gitignore*. De plus, chaque memb
 - `LoadingSpinner.vue` - Indicateur de chargement
 - `AudioController.vue` - Contrôle de la musique/sons
 
-## Mise en place du système de routing
+## Création des views
 
 - Création des views (pages liée à un URL)
-- Création du système de routing
+
+-->
+<!-- - Création du système de routing -->
 
 
 <!-- le cours de lundi 10 nov est remis à vendredi 14 nov ce qui signifie qu'on ne se voit pas pendant 7 jours, il serait idéal de leur donner du pain sur la planche puir avancer donc considérer leur montrer Pinia aujourd'hui peut-être?  -->
 
-## Devoirs
-
-### Mémoire interactive
-
-Avancer (sans nécessairement terminer) ce qui a été commencé en classe
-
-- [ ] **Minimum 4 composants** créés et fonctionnels
-- [ ] **Vue Router** configuré avec 4+ routes
-- [ ] **Navigation fonctionnelle** entre les pages
-- [ ] **Données mockées** affichées correctement
-
-### Trace ton chemin
-
-Avancer (sans nécessairement terminer) ce qui a été commencé en classe:
-
-- [ ] **Minimum 4 composants** créés et fonctionnels
-- [ ] **Vue Router** configuré avec routes par chapitre
-- [ ] **Navigation fonctionnelle** entre chapitres
-- [ ] **Quelques chapitres** dans le fichier JSON
-- [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)

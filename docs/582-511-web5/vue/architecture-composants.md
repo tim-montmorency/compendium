@@ -2,7 +2,7 @@
 
 ## Objectifs d'apprentissage
 
-**Objectifs:**
+*Objectifs:*
 
 - ✅ Identifier quand créer un composant
 - ✅ Structurer une application Vue en composants réutilisables
@@ -10,9 +10,9 @@
 - ✅ Comprendre les relations entre composants (parent-enfant)
 - ✅ Appliquer le principe de responsabilité unique
 
----
 
-## 📚 Partie 1: Pourquoi des composants?
+
+## 📚 1: Pourquoi des composants?
 
 ### Le problème sans composants
 
@@ -60,7 +60,7 @@ export default {
 </style>
 ```
 
-**Problèmes:**
+*Problèmes:*
 
 - 🚫 Difficile à maintenir
 - 🚫 Code non réutilisable
@@ -101,7 +101,7 @@ export default {
 </script>
 ```
 
-**Avantages:**
+*Avantages:*
 
 - ✅ Code organisé et lisible
 - ✅ Composants réutilisables
@@ -109,9 +109,9 @@ export default {
 - ✅ Bugs isolés
 - ✅ Performance optimisée
 
----
 
-## 🏗️ Partie 2: Principe de responsabilité unique
+
+## 🏗️ 2: Principe de responsabilité unique
 
 ### La règle d'or
 
@@ -176,7 +176,7 @@ export default {
 </script>
 ```
 
-**Problèmes:**
+*Problèmes:*
 
 - Composant fait 4 choses différentes
 - Difficile à tester
@@ -220,9 +220,9 @@ Chaque composant a **UNE seule responsabilité**:
 - `PostList` → Afficher la liste des posts
 - `PostForm` → Formulaire d'ajout
 
----
 
-## 📁 Partie 3: Organisation des fichiers
+
+## 📁 3: Organisation des fichiers
 
 ### Structure recommandée pour vos projets
 
@@ -235,13 +235,13 @@ src/
 │   │   ├── BaseModal.vue
 │   │   └── LoadingSpinner.vue
 │   │
-│   ├── layout/           ← Composants de structure
+│   ├── layout/           ← Composants de structure de mise en page
 │   │   ├── AppHeader.vue
 │   │   ├── AppFooter.vue
 │   │   ├── AppSidebar.vue
 │   │   └── AppNavigation.vue
 │   │
-│   └── [entités]/        ← Composants spécifiques
+│   └── [specific]/        ← Composants spécifiques au domaine
 │       ├── RoomCard.vue
 │       ├── RoomList.vue
 │       ├── MemoryCard.vue
@@ -279,31 +279,31 @@ src/
 
 ### Conventions de nommage
 
-**Components:**
+*Components:*
 
-- PascalCase: `UserProfile.vue`, `MemoryCard.vue`
+- *PascalCase*: `UserProfile.vue`, `MemoryCard.vue`
 - Préfixe pour composants de base: `Base`, `App`
   - `BaseButton.vue`
   - `AppHeader.vue`
 
-**Views (pages):**
+*Views (pages):*
 
-- PascalCase avec suffixe `View`: `HomeView.vue`, `RoomView.vue`
+- *PascalCase* avec suffixe `View`: `HomeView.vue`, `RoomView.vue`
 
-**Stores:**
+*Stores:*
 
-- camelCase avec suffixe `Store`: `museumStore.js`, `memoryStore.js`
+- *camelCase* avec suffixe `Store`: `museumStore.js`, `memoryStore.js`
 
----
 
-## 🎨 Partie 4: Types de composants (10 min)
+
+## 🎨 4: Types de composants
 
 ### 1. Composants de présentation (Presentational)
 
-**Rôle:** Afficher des données, pas de logique métier
+*Rôle:* Afficher des données, pas de logique <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span>
 
 ```vue
-<!-- MemoryCard.vue - PRÉSENTATIONNEL -->
+<!-- MemoryCard.vue - PRÉSENTATIONNEL | Dans cet exemple: carte d'un contenu -->
 <template>
   <div class="memory-card">
     <img :src="memory.image" :alt="memory.title" />
@@ -329,7 +329,7 @@ export default {
 </script>
 ```
 
-**Caractéristiques:**
+*Caractéristiques:*
 
 - ✅ Reçoit des données via `props`
 - ✅ Émet des événements avec `$emit`
@@ -338,10 +338,10 @@ export default {
 
 ### 2. Composants conteneurs (Container)
 
-**Rôle:** Gérer la logique, récupérer les données
+*Rôle:* Gérer la logique, récupérer les données
 
 ```vue
-<!-- MemoryList.vue - CONTENEUR -->
+<!-- MemoryList.vue - CONTENEUR | Dans cet exemple: liste de cartes -->
 <template>
   <div class="memory-list">
     <MemoryCard
@@ -382,18 +382,18 @@ export default {
 </script>
 ```
 
-**Caractéristiques:**
+*Caractéristiques:*
 
 - ✅ Accède aux stores (Pinia)
-- ✅ Contient la logique métier
-- ✅ Compose des composants de présentation
+- ✅ Contient la logique <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span>
+- ✅ Contient des composants de présentation
 
 ### 3. Composants de base (Base Components)
 
-**Rôle:** Composants UI réutilisables
+*Rôle:* Composants UI réutilisables
 
 ```vue
-<!-- BaseButton.vue -->
+<!-- BaseButton.vue | Dans cet exemple: un bouton -->
 <template>
   <button 
     :class="['btn', `btn-${variant}`, { 'btn-loading': loading }]"
@@ -427,7 +427,7 @@ export default {
 </script>
 ```
 
-**Utilisation:**
+*Utilisation:*
 
 ```vue
 <BaseButton variant="primary" @click="save">
@@ -439,11 +439,11 @@ export default {
 </BaseButton>
 ```
 
----
 
-## 🔗 Partie 5: Communication entre composants
 
-### 1. Parent → Enfant: Props
+## 🔗 5: Communication entre composants
+
+### 5.1. Parent → Enfant: Props
 
 ```vue
 <!-- Parent.vue -->
@@ -487,7 +487,7 @@ export default {
 </script>
 ```
 
-### 2. Enfant → Parent: Events ($emit)
+### 5.2. Enfant → Parent: Events ($emit)
 
 ```vue
 <!-- Enfant: MemoryForm.vue -->
@@ -535,7 +535,7 @@ export default {
 </script>
 ```
 
-### 3. Communication complexe: Store (Pinia)
+### 5.3. Communication complexe: Store (Pinia)
 
 Quand plusieurs composants non liés ont besoin d'accéder aux mêmes données:
 
@@ -566,13 +566,19 @@ export default {
 </script>
 ```
 
----
 
-## 🎯 Partie 6: Application aux projets
 
-### Pour "Mémoires Interactives"
+## 🎯 6: Application aux projets
+
+### Pour "Mémoires interactives" (ou musée de voyages ou de créations)
+
+#### Démo d'un projet en exemple
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=a8ef39a5-324b-4de7-87d4-e54a3401a781&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="memoires-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 #### Hiérarchie de composants recommandée:
+
+Pour l'équipe qui fait un musée de *créations*: vous pouvez changer le mot *Memory* pour *Creation* dans vos noms de composantes.
 
 ```
 App.vue
@@ -590,51 +596,58 @@ App.vue
         ├── RoomHeader.vue
         ├── SearchBar.vue
         ├── TagFilters.vue
-        └── MemoryGrid.vue
+        └── MemoryGrid.vue (ou MemoryList.vue)
             └── MemoryCard.vue
                 ├── MemoryImage.vue
                 ├── MemoryContent.vue
                 └── MemoryActions.vue
 ```
 
-#### Composants à créer (minimum):
+#### Suggestion de découpage par composant (dépendemment de votre intention)
 
-**Layout (3):**
+*Mise en page (layout) (2):*
 
-1. `AppHeader.vue` - En-tête avec navigation
-2. `AppSidebar.vue` - Menu latéral (optionnel)
-3. `AppFooter.vue` - Pied de page
+- `AppHeader.vue` - En-tête avec navigation
+- `AppFooter.vue` - Pied de page
 
-**Rooms (4):**
-4. `RoomCard.vue` - Carte d'une salle
-5. `RoomGrid.vue` - Grille de salles
-6. `RoomForm.vue` - Formulaire ajout/édition salle
-7. `RoomHeader.vue` - En-tête détail d'une salle
+*Salles (4):*
 
-**Memories (6):**
-8. `MemoryCard.vue` - Carte d'une mémoire
-9. `MemoryGrid.vue` - Grille de mémoires
-10. `MemoryForm.vue` - Formulaire ajout/édition mémoire
-11. `MemoryDetail.vue` - Vue détaillée d'une mémoire
-12. `MemoryImage.vue` - Gestion de l'image
-13. `MemoryTags.vue` - Affichage des tags
+- `RoomCard.vue` - Carte d'une salle
+- `RoomGrid.vue` ou `RoomList` - Grille ou liste de salles
+- `RoomForm.vue` - Formulaire ajout/édition salle
+- `RoomHeader.vue` - En-tête détail d'une salle
 
-**UI Communs (4):**
-14. `BaseButton.vue` - Bouton réutilisable
-15. `BaseModal.vue` - Modal réutilisable
-16. `BaseInput.vue` - Input réutilisable
-17. `LoadingSpinner.vue` - Indicateur de chargement
+*Mémoires:* ou *Créations*: changer le mot *Memory* pour *Creation* dans vos noms de composantes
 
-**Fonctionnalités (3):**
-18. `SearchBar.vue` - Barre de recherche
-19. `TagFilter.vue` - Filtre par tags
-20. `ExportButton.vue` - Bouton d'export
+- `MemoryCard.vue` - Carte d'une mémoire
+- `MemoryGrid.vue` ou `MemoryList.vue` - Grille ou liste des cartes des mémoires
+- `MemoryForm.vue` - Formulaire ajout/édition mémoire
+- `MemoryDetail.vue` - Vue détaillée d'une mémoire
+- `MemoryImage.vue` - Gestion de l'image
+- `MemoryTags.vue` - Affichage des tags
 
-**Total: ~20 composants**
+*UI Communs:*
+
+- `BaseButton.vue` - Bouton réutilisable
+- `BaseModal.vue` - Modal réutilisable
+- `BaseInput.vue` - Input réutilisable
+- `LoadingSpinner.vue` - Indicateur de chargement
+
+*Fonctionnalités:*
+
+- `SearchBar.vue` - Barre de recherche (optionnel, au delà du MVP)
+- `TagFilter.vue` - Filtre par tags (optionnel, au delà du MVP)
+- `ExportButton.vue` - Bouton d'export (optionnel, au delà du MVP)
+
+*Total: ~20 composants*
 
 ---
 
-### Pour "Choisis ta Voie"
+### Pour "Trace ton chemin"
+
+#### Démo de 2 projets de ce type en exemple
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=47b37c56-d3a5-4e21-8802-4474729e3453&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="chemin-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 #### Hiérarchie de composants recommandée:
 
@@ -662,107 +675,155 @@ App.vue
             └── ChoiceHistory.vue
 ```
 
-#### Composants à créer (minimum):
+#### Suggestion de découpage par composant (dépendemment de votre intention)
 
-**Layout (2):**
+*Layout:*
 
-1. `AppHeader.vue` - En-tête avec titre
-2. `StatsBar.vue` - Barre de statistiques
+- `AppHeader.vue` - En-tête avec titre
+- `StatsBar.vue` - Barre de statistiques
 
-**Story (8):**
-3. `ChapterView.vue` - Vue d'un chapitre
-4. `ChapterHeader.vue` - Titre du chapitre
-5. `NarrativeText.vue` - Texte de narration
-6. `ChoicePanel.vue` - Panel de choix
-7. `ChoiceButton.vue` - Bouton de choix
-8. `ContinueButton.vue` - Bouton continuer
-9. `ProgressBar.vue` - Barre de progression
-10. `SaveSlotManager.vue` - Gestion des sauvegardes
+*Story:*
 
-**Ending (3):**
-11. `EndingScreen.vue` - Écran de fin
-12. `EndingBadge.vue` - Badge de fin
-13. `ChoiceHistory.vue` - Historique des choix
+- `ChapterView.vue` - Vue d'un chapitre
+- `ChapterHeader.vue` - Titre du chapitre
+- `NarrativeText.vue` - Texte de narration
+- `ChoicePanel.vue` - Panel de choix
+- `ChoiceButton.vue` - Bouton de choix
+- `ContinueButton.vue` - Bouton continuer
+- `ProgressBar.vue` - Barre de progression
+- `SaveSlotManager.vue` - Gestion des sauvegardes
 
-**UI Communs (4):**
-14. `BaseButton.vue`
-15. `BaseModal.vue`
-16. `StatIndicator.vue` - Indicateur de stat
-17. `LoadingSpinner.vue`
+*Ending:*
 
-**Total: ~17 composants**
+- `EndingScreen.vue` - Écran de fin
+- `EndingBadge.vue` - Badge de fin (optionnel)
+- `ChoiceHistory.vue` - Historique des choix
 
----
+*UI Communs:*
+
+- `BaseButton.vue`
+- `BaseModal.vue`
+- `StatIndicator.vue` - Indicateur de stat
+- `LoadingSpinner.vue`
+
+*Total: ~17 composants*
+
+
 
 ## 📝 Exercice Pratique (En classe)
 
-### Exercice 1: Identifier les composants (10 min)
+- [Quiz](https://app.wooclap.com/HISOPU)
+
+### Exercice 1: Identifier les composants
 
 Regardez cette maquette et identifiez les composants à créer:
 
-**Pour Mémoires Interactives:**
 ```
 ┌─────────────────────────────────────┐
-│  [Logo] Musée       🏠 🔍 💾        │ ← AppHeader
+│  [Logo] Musée                       │
 ├─────────────────────────────────────┤
-│                                      │
-│  ┌──────────┐  ┌──────────┐        │
-│  │ Tokyo    │  │ Paris    │        │ ← RoomCard x3
-│  │ 🗾       │  │ 🗼       │        │
-│  │ 5 photos │  │ 3 photos │        │
-│  └──────────┘  └──────────┘        │
+│                                     │
+│  ┌──────────┐  ┌──────────┐         │
+│  │ Tokyo    │  │ Paris    │         │
+│  │          │  │          │         │
+│  │ 5 photos │  │ 3 photos │         │
+│  └──────────┘  └──────────┘         │
 │  ┌──────────┐                       │
 │  │ New York │                       │
-│  │ 🗽       │                       │
+│  │          │                       │
 │  │ 0 photos │                       │
 │  └──────────┘                       │
-│                                      │
-│  [+ Nouvelle Destination]           │ ← BaseButton
+│                                     │
+│  [+ Ajouter une destination]        │
 └─────────────────────────────────────┘
 ```
 
-**Question:** Combien de composants différents identifiez-vous?
+### Exercice 2: Props ou Emit?
 
-**Réponse:**
+Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
+
+1. Afficher le titre d'une mémoire dans `MemoryCard`
+
+2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
+
+3. Passer l'URL d'une image à afficher
+
+4. Informer qu'un formulaire a été soumis
+
+5. Afficher ou cacher un modal
+
+
+<!--
+### Solution Exercice 1: Identifier les composants
+
+Regardez cette maquette et identifiez les composants à créer:
+
+*Pour Mémoires Interactives:*
+```
+┌─────────────────────────────────────┐
+│  [Logo] Musée                       │   ← AppHeader
+├─────────────────────────────────────┤
+│                                     │
+│  ┌──────────┐  ┌──────────┐         │
+│  │ Tokyo    │  │ Paris    │         │   ← RoomCard x3
+│  │          │  │          │         │
+│  │ 5 photos │  │ 3 photos │         │
+│  └──────────┘  └──────────┘         │
+│  ┌──────────┐                       │
+│  │ New York │                       │
+│  │          │                       │
+│  │ 0 photos │                       │
+│  └──────────┘                       │
+│                                     │
+│  [+ Ajouter une destination]        │   ← BaseButton
+└─────────────────────────────────────┘
+```
+
+*Question:* Combien de composants différents identifiez-vous?
+
+*Réponse:*
 
 1. `AppHeader` (header)
 2. `RoomGrid` (conteneur)
 3. `RoomCard` (carte répétée)
 4. `BaseButton` (bouton ajout)
 
-### Exercice 2: Props ou Emit? (5 min)
+### Solution Exercice 2: Props ou Emit? (5 min)
 
-Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
+Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 1. Afficher le titre d'une mémoire dans `MemoryCard`
-   - **Réponse:** Props ✅ (parent → enfant)
+   - *Réponse:* Props ✅ (parent → enfant)
 
 2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
-   - **Réponse:** Emit ✅ (enfant → parent)
+   - *Réponse:* Emit ✅ (enfant → parent)
 
 3. Passer l'URL d'une image à afficher
-   - **Réponse:** Props ✅
+   - *Réponse:* Props ✅
 
 4. Informer qu'un formulaire a été soumis
-   - **Réponse:** Emit ✅
+   - *Réponse:* Emit ✅
 
 5. Afficher ou cacher un modal
-   - **Réponse:** Props ✅ (v-model aussi possible)
+   - *Réponse:* Props ✅ (v-model aussi possible)
 
----
+-->
+
+
+
 
 ## ✅ Checklist: Bon composant vs Mauvais composant
 
 ### Un BON composant:
 
-- ✅ Fait UNE chose et la fait bien
+- ✅ Un composant fait UNE seule chose et la fait bien
 - ✅ Moins de 200 lignes de code
 - ✅ Nom clair et descriptif
-- ✅ Props bien documentées avec types
-- ✅ Émissions d'événements déclarées
+- ✅ Props bien documentées avec types (ex: `props: { title: String, inStock: Boolean}`)
+- ✅ Émissions d'événements déclarées (`emits`)
 - ✅ Réutilisable dans différents contextes
 - ✅ Styles scopés (`<style scoped>`)
-- ✅ Pas de logique métier complexe (sauf conteneurs)
+- ✅ Pas de logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> complexe (sauf les composants de type conteneurs dont le rôle est de gérer la logique et récupérer les données)
 
 ### Un MAUVAIS composant:
 
@@ -773,105 +834,112 @@ Pour chaque scenario, indiquez si vous utiliseriez **Props** ou **Emit**:
 - ❌ Dépendances cachées
 - ❌ Code dupliqué
 - ❌ Styles globaux non nécessaires
-- ❌ Logique métier mélangée à la présentation
+- ❌ Logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> mélangée à la présentation
 
----
+
 
 ## 🎓 Récapitulatif
 
 ### Les 5 principes clés:
 
-1. **Un composant = Une responsabilité**
-   - Ne pas mélanger présentation et logique métier
+1. *Un composant = Une responsabilité*
+   - Ne pas mélanger présentation et logique
 
-2. **Hiérarchie claire**
-   - Parent → Enfant avec Props
-   - Enfant → Parent avec Emit
-   - Store pour données partagées
+2. *Hiérarchie claire*
+   - Parent → Enfant avec *Props*
+   - Enfant → Parent avec *Emit*
+   - Store *Pinia* pour données partagées entre plusieurs composants
 
-3. **Réutilisabilité**
+3. *Réutilisabilité*
    - Composants de base génériques
    - Props configurables
 
-4. **Organisation des fichiers**
+4. *Organisation des fichiers*
    - `common/`, `layout/`, entités spécifiques
    - Nommage cohérent
 
-5. **Communication explicite**
+5. *Communication explicite*
    - Props typées
-   - Events déclarés
-   - Pas d'accès direct aux données parents
+   - Émissions d'événements déclarées
+ <!-- - Pas d'accès direct aux données parents -->
 
----
+
 
 ## 📚 Ressources supplémentaires
 
-**Documentation officielle:**
+*Documentation officielle*
 
 - [Vue.js - Principes fondamentaux des composants​](https://fr.vuejs.org/guide/essentials/component-basics)
 - [Vue.js - Enregistrement des composants](https://fr.vuejs.org/guide/components/registration)
 - [Vue.js - Props](https://fr.vuejs.org/guide/components/props)
 - [Vue.js - Les événements de composant ($emit)](https://fr.vuejs.org/guide/components/events)
 
-**Lectures recommandées:**
+*Lectures recommandées:*
 
 - "Thinking in Components" - Vue.js Best Practices
 - "Component Design Patterns" - Advanced Vue
 
 ---
 
-## 🎯 Travail à faire pour la prochaine fois
+## 🎯 Travail à faire
 
-### Pour votre projet:
+### Pour votre projet
 
-1. **Créer un diagramme** de votre hiérarchie de composants
-   - Utilisez draw.io, Excalidraw ou papier/crayon
-   - Identifiez les 8-10 composants principaux
+1. *Créer un diagramme* de votre hiérarchie de composants
 
-2. **Créer la structure de dossiers**
+   - Utilisez draw.io, Figma/Figjam ou papier/crayon
+
+2. *Créer la structure de dossiers* dans votre projet
 
    ```bash
    src/
+   ├── assets/
    ├── components/
    │   ├── common/
    │   ├── layout/
-   │   └── [votre-entité]/
+   │   └── specific/
+   ├── data/
+   ├── router/
+   ├── stores/
+   ├── views/
    ```
 
-3. **Créer 3 composants "skeleton"**
+3. *Créer vos composants et vos views* ainsi que les balises de base `<template>`, `<script>`, `<styles>`.
+
    - Créez les fichiers vides avec structure de base
-   - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`
+   - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`, `RoomView.vue`, `HomeView.vue`
 
-4. **Documenter vos composants**
-   - Liste dans un fichier `COMPONENTS.md`
-   - Pour chaque composant: nom, responsabilité, props attendues
+4. *Documenter vos composants et vos views*
 
----
+   - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
+   - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
+
+5. Pour *Trace ton chemin*, rédaction de vos chapitres dans un Word ou document textuel collaboratif.
+
+
 
 ## ❓ Questions fréquentes
 
-**Q: Combien de composants dois-je créer?**
-**R:** Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez!
+*Q: Combien de composants dois-je créer?*
 
-**Q: Quand créer un nouveau composant?**
-**R:** Dès que:
+*R:* Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez! Lorsque vous commencez à développer, priorisez les composants nécessaires au MVP (Minimum Viable Product) de votre projet.
+
+*Q: Quand créer un nouveau composant?*
+
+*R:* Dès que:
+
 - Le code dépasse 150 lignes
 - Vous copiez-collez du code
 - Une section a une responsabilité claire
 - Vous voulez réutiliser quelque chose
 
-**Q: Props ou Store?**
+*Q: Props ou Store?*
 
-**R:** 
+*R:* 
 
-- **Props:** Données spécifiques parent → enfant immédiat
-- **Store:** Données partagées entre plusieurs composants non liés
+- *Props:* Données spécifiques parent → enfant immédiat
+- *Store:* Données partagées entre plusieurs composants non liés
 
-**Q: Puis-je modifier une prop dans un composant enfant?**
-**R:** NON! Les props sont **read-only**. Utilisez `$emit` pour demander au parent de la modifier.
+*Q: Puis-je modifier une prop dans un composant enfant?*
 
----
-
-**Bon développement! 🚀**
-
-*Questions? Venez me voir après le cours ou sur Teams!*
+*R:* NON! Les props sont *read-only*. Utilisez `$emit` pour demander au parent de la modifier.

@@ -1,6 +1,6 @@
 # Cours 11.2 PHASE INTERACTIVITÉ
 
-<!-- vendredi 14 novembre -->
+vendredi 14 novembre
 
 ## Mini cours: Validation de formulaires Vue (Mémoires interactives) (30 min)
 

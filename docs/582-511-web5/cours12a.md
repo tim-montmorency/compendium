@@ -1,6 +1,6 @@
 # Cours 12.1 Phase interactivité
 
-<!-- 17 novembre -->
+17 novembre
 
 
 ## SCRUM d'équipe

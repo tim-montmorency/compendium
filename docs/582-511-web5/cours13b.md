@@ -1,6 +1,6 @@
 # Cours 13.2
 
-<!-- 26 novembre -->
+26 novembre
 
 !!! example "*REMISE Phases 4 animation+médias*: Formatif"
 

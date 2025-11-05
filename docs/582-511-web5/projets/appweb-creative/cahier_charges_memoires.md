@@ -525,7 +525,9 @@ Listez vos composants Vue principaux:
 ### 9.5 *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES*
 <!-- Semaine 7 -->
 
-**Du 19 au 26 novembre**
+**Du 19 novembre au 1er décembre**
+
+*Remise Phases 5 PERSISTANCE ET SAUVEGARDE DES DONNÉES : 1 décembre | Formatif*
 
 - LocalStorage complet
 - Import/Export JSON
