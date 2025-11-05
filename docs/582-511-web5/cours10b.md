@@ -5,7 +5,7 @@
 
  Démarrez votre Toggl (feuille de temps) du projet!
 
-## Mini cours: Architecture de composants Vue
+## Cours: Architecture de composants et les views
 
 - [Architecture de composants](./vue/architecture-composants.md)
 - [Views (pages entières, souvent liées à une route (URL))](./vue/view.md)
