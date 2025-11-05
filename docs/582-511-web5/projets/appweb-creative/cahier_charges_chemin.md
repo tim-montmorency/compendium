@@ -694,7 +694,9 @@ Comment stockez-vous les chapitres et choix?
 ### 9.5 *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire*
 <!-- Semaine 7 -->
 
-**Du 19 au 26 novembre**
+**Du 19 novembre au 1er décembre**
+
+*Remise Phases 5 PERSISTANCE ET SAUVEGARDE DES DONNÉES : 1 décembre | Formatif*
 
 - Système de sauvegarde (3 slots)
 - LocalStorage complet

@@ -431,6 +431,7 @@ Chaque semaine, une revue rapide avec l'enseignant pour:
 | *19 novembre* | ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS |
 | *Du 19 au 26 novembre* | PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire |
 | *26 novembre* | *REMISE Phases 4 animation+médias ~~et 5 persistance~~*: Formatif |
+| *1 décembre* | *REMISE Phases  5 persistance et sauvegarde des données*: Formatif |
 | *Du 26 novembre au 3 décembre* | PHASE 6: AFFINAGE ET ACCESSIBLITÉ pour la version BETA |
 | *3 décembre* | *REMISE version BETA*: Formatif |
 | *Du 3 au 8 décembre* | PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS |
