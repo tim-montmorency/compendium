@@ -1,7 +1,7 @@
 # Vue: Mini-catalogue *Jeux retro*
 
 
-## Fichiers de départ (lien à venir...)
+## Fichiers de départ
 
 [📥 Télécharger fichiers de départ](./jeu-retro-fichiers-depart.zip){ .md-button }
 
