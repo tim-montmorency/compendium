@@ -881,34 +881,39 @@ const app = Vue.createApp({});
 
 ---
 
-## 🎯 Travail à faire pour la prochaine fois
+## 🎯 Travail à faire
 
 ### Pour votre projet:
 
 1. *Créer un diagramme* de votre hiérarchie de composants
 
-   - Utilisez draw.io, Excalidraw ou papier/crayon
+   - Utilisez draw.io, Figma/Figjam ou papier/crayon
    - Identifiez les 8-10 composants principaux
 
-2. *Créer la structure de dossiers*
+2. *Créer la structure de dossiers* dans votre projet
 
    ```bash
    src/
+   ├── assets/
    ├── components/
    │   ├── common/
    │   ├── layout/
    │   └── specific/
+   ├── data/
+   ├── router/
+   ├── stores/
+   ├── views/
    ```
 
-3. *Créer 3 composants "skeleton"*
+3. *Créer vos composants en mode "skeleton"*
 
    - Créez les fichiers vides avec structure de base
    - Exemple: `AppHeader.vue`, `RoomCard.vue`, `BaseButton.vue`
 
 4. *Documenter vos composants*
 
-   - Liste dans un fichier `COMPONENTS.md`
-   - Pour chaque composant: nom, responsabilité, props attendues
+   - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
+   - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
 
 
 
