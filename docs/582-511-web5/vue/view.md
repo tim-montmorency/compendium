@@ -5,52 +5,6 @@
 - *`components`* → petits blocs réutilisables de ton interface  
 - *`views`* → pages entières, souvent liées à une *route (un URL)*
 
-## Composant
-
-**Emplacement:** `src/components/`  
-**Rôle:** Partie réutilisable de l'UI
-
-Les composants sont **les morceaux d’interface réutilisables** : 
-
-- Un bouton (`Button.vue`)  
-- Une carte d’utilisateur (`UserCard.vue`)  
-- Une barre de navigation (`Navbar.vue`)  
-- Un modal (`Modal.vue`)  
-
-👉 Ces éléments ne correspondent pas à une page complète, mais à des **parties** de page qu’on assemble à l’intérieur des vues.
-
-
-```vue
-<!-- src/components/rooms/RoomCard.vue -->
-<template>
-  <div class="room-card">
-    <h3>{{ room.name }}</h3>
-    <p>{{ room.description }}</p>
-    <button @click="$emit('click', room.id)">Voir</button>
-  </div>
-</template>
-
-<script>
-export default {
-  props: {
-    room: {
-      type: Object,
-      required: true
-    }
-  },
-  emits: ['click']
-}
-</script>
-```
-
-**Caractéristiques d'un composant:**
-
-- ✅ Utilisé DANS les Views
-- ✅ Réutilisable
-- ✅ Props et Events
-- ✅ Focalisé sur une tâche
-
-
 ## View
 
 **Emplacement:** `src/views/`  
@@ -108,6 +62,54 @@ export default {
 - ✅ Gère la logique de la page
 - ✅ Accède aux stores (Pinia)
 - ✅ Nom avec suffixe `View.vue`
+
+
+
+## Composant
+
+**Emplacement:** `src/components/`  
+**Rôle:** Partie réutilisable de l'UI
+
+Les composants sont **les morceaux d’interface réutilisables** : 
+
+- Un bouton (`Button.vue`)  
+- Une carte d’utilisateur (`UserCard.vue`)  
+- Une barre de navigation (`Navbar.vue`)  
+- Un modal (`Modal.vue`)  
+
+👉 Ces éléments ne correspondent pas à une page complète, mais à des **parties** de page qu’on assemble à l’intérieur des vues.
+
+
+```vue
+<!-- src/components/rooms/RoomCard.vue -->
+<template>
+  <div class="room-card">
+    <h3>{{ room.name }}</h3>
+    <p>{{ room.description }}</p>
+    <button @click="$emit('click', room.id)">Voir</button>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    room: {
+      type: Object,
+      required: true
+    }
+  },
+  emits: ['click']
+}
+</script>
+```
+
+**Caractéristiques d'un composant:**
+
+- ✅ Utilisé DANS les Views
+- ✅ Réutilisable
+- ✅ Props et Events
+- ✅ Focalisé sur une tâche
+
 
 
 

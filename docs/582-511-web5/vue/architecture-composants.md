@@ -12,7 +12,7 @@
 
 
 
-## 📚 Partie 1: Pourquoi des composants?
+## 📚 1: Pourquoi des composants?
 
 ### Le problème sans composants
 
@@ -111,7 +111,7 @@ export default {
 
 
 
-## 🏗️ Partie 2: Principe de responsabilité unique
+## 🏗️ 2: Principe de responsabilité unique
 
 ### La règle d'or
 
@@ -222,7 +222,7 @@ Chaque composant a **UNE seule responsabilité**:
 
 
 
-## 📁 Partie 3: Organisation des fichiers
+## 📁 3: Organisation des fichiers
 
 ### Structure recommandée pour vos projets
 
@@ -296,7 +296,7 @@ src/
 
 
 
-## 🎨 Partie 4: Types de composants
+## 🎨 4: Types de composants
 
 ### 1. Composants de présentation (Presentational)
 
@@ -441,7 +441,7 @@ export default {
 
 
 
-## 🔗 Partie 5: Communication entre composants
+## 🔗 5: Communication entre composants
 
 ### 1. Parent → Enfant: Props
 
@@ -568,7 +568,7 @@ export default {
 
 
 
-## 🎯 Partie 6: Application aux projets
+## 🎯 6: Application aux projets
 
 ### Pour "Mémoires interactives" (ou musée de voyages ou de créations)
 
