@@ -1,5 +1,6 @@
 # Cours 10.1
-<!-- 3 novembre -->
+
+ 3 novembre
 
 ## Annonces
 

@@ -1,5 +1,5 @@
 # Cours 14.1
-<!-- Lundi 1er décembre -->
+Lundi 1er décembre
 
 !!! example "*REMISE Phases 5 persistance et sauvegarde des données*: Formatif"
 
