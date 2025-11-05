@@ -1,7 +1,19 @@
 # Cours 10.2
 <!-- 5 novembre -->
 
-## Démarrez votre Toggl
+## Révision
+
+[Menu de sushis - Compléter la partie compostante et le calcul du total](https://tim-montmorency.com/timdoc/582-518MO/exercices/sushis-total/#requis-vue---composante-prix-total){ .md-button}
+
+➜ [Solution avec composante et le calcul du total avec "emit"💡](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/Eqn9ipdhnKpKoqIkHDITICoBlltEz5UwU_XImShgklHAeg?e=P8Z7yH) 
+
+
+[Mini catalogue de jeux retro](./exercices/vue-catalogue-jeux-retro/index.md){ .md-button}
+
+➜ [Solution](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdWN1jwPTnNJm6vuPRvxsDkBbcBXE1LIWAxUPpG824eyEw?e=j1AEfW) 
+
+
+## Projet final: Démarrez votre Toggl
 
  Démarrez votre Toggl (feuille de temps) du projet!
 
