@@ -603,7 +603,7 @@ App.vue
                 └── MemoryActions.vue
 ```
 
-#### Suggestions de découpage par composant (dépendemment de votre intention)
+#### Suggestion de découpage par composant (dépendemment de votre intention)
 
 *Mise en page (layout) (2):*
 
@@ -675,7 +675,7 @@ App.vue
             └── ChoiceHistory.vue
 ```
 
-#### Suggestions de découpage par composant (dépendemment de votre intention)
+#### Suggestion de découpage par composant (dépendemment de votre intention)
 
 *Layout:*
 

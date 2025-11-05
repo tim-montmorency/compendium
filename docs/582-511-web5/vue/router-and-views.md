@@ -10,7 +10,7 @@
 - ✅ Organiser vos Views efficacement
 
 
-## 📚 Partie 1: C'est quoi Vue Router? 
+## 📚 1: C'est quoi Vue Router? 
 
 ### Sans Vue Router (Single Page statique)
 
@@ -74,7 +74,7 @@ export default {
 
 
 
-## 🔧 Partie 2: Installation et Configuration 
+## 🔧 2: Installation et configuration 
 
 ### Étape 1: Installation
 
@@ -183,7 +183,7 @@ app.mount('#app');
 
 
 
-## 🗺️ Partie 3: Différence View vs Composant
+## 🗺️ 3: Différence View vs Composant
 
 ### View (Page)
 
@@ -219,7 +219,7 @@ export default {
 **Caractéristiques d'une View:**
 
 - ✅ Accessible via une route (URL)
-- ✅ Compose plusieurs composants
+- ✅ Inclut plusieurs composants
 - ✅ Gère la logique de la page
 - ✅ Accède aux stores (Pinia)
 - ✅ Nom avec suffixe `View.vue`
@@ -265,7 +265,7 @@ export default {
 > **Composant = Bloc réutilisable**
 
 
-## 🚀 Partie 4: Navigation
+## 🚀 4: Navigation
 
 ### 1. Navigation déclarative (`<router-link>`)
 
@@ -358,11 +358,11 @@ export default {
 
 ```javascript
 // push: Ajoute une entrée à l'historique
-// Utilisateur peut revenir en arrière
+// Utilisateur peut revenir en arrière via le "back" du navigateur
 this.$router.push({ name: 'room', params: { id: 'room-1' } });
 
 // replace: Remplace l'entrée actuelle
-// Utilisateur ne peut PAS revenir en arrière
+// Utilisateur ne peut PAS revenir en arrière via le "back" du navigateur (probablement que vous voulez utiliser ça pour trace ton chemin afin d'éviter que l'utilisateur/joueur ne puisse revenir en arrière sur son choix)
 this.$router.replace({ name: 'home' });
 ```
 
@@ -373,7 +373,7 @@ this.$router.replace({ name: 'home' });
 - ✅ Pages de confirmation
 
 
-## 🎛️ Partie 5: Paramètres de route
+## 🎛️ 5: Paramètres de route
 
 ### Routes avec paramètres dynamiques
 
@@ -509,7 +509,7 @@ export default {
 
 
 
-## 🛡️ Partie 6: Navigation Guards (Protection de routes)
+## 🛡️ 6: Navigation Guards (Protection de routes)
 
 ### Cas d'usage
 
@@ -652,7 +652,7 @@ export default {
 
 
 
-## 🎨 Partie 7: Transitions entre pages
+## 🎨 7: Transitions entre pages
 
 ### Ajouter des transitions avec GSAP
 
@@ -734,7 +734,7 @@ export default {
 
 
 
-## 🗂️ Partie 8: Organisation pour vos projets
+## 🗂️ 8: Organisation pour vos projets
 
 ### Pour "Mémoires interactives"
 

@@ -8,6 +8,11 @@
 
 ..
 
+## Mini cours: Routes
+
+- Views (pages entières, souvent liées à une route (URL))
+- Routes (Vue Router)
+
 
 ## Mini cours: Pinia (45 min)
 

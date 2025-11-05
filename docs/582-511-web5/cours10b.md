@@ -5,7 +5,10 @@
 
 - Architecture de composants
 - Views (pages entières, souvent liées à une route (URL))
-- Routes (Vue Router)
+
+## Quiz composantes
+
+- [Quiz](https://app.wooclap.com/HISOPU)
 
 ## SCRUM
 
@@ -107,4 +110,4 @@ Pour vous aider à visualiser l'objectif du projet, voici des projets assez ache
    - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
    - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
 
-5. Pour *Trace ton chemin*, rédaction de vos chapitres et ajouter quelques chapitres dans un fichier .json dans le projet, sauvegardé dans le dossier `data`.
+5. Pour *Trace ton chemin*, rédaction de vos chapitres dans un Word ou document textuel collaboratif.
