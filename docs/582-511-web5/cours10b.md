@@ -17,9 +17,11 @@
 
  Démarrez votre Toggl (feuille de temps) du projet!
 
-## Cours: Architecture des `components` et ses `views`
+## Cours: Arborescence des `components` et ses `views`
 
-- [Architecture de composants](./vue/architecture-composants.md)
+L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont les composants sont imbriqués les uns dans les autres, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus petits, indépendants et gérables.
+
+- [L'Arborescence de composants](./vue/architecture-composants.md)
 - [Views: pages entières, souvent liées à une route (URL)](./vue/view.md)
 
 ## Quiz composantes
