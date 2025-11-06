@@ -156,7 +156,9 @@ export default {
 
 > **Un composant = Une responsabilité**
 
-### ❌ Mauvais exemple: Composant qui fait trop
+### Mauvais exemple: Composant qui fait trop
+
+❌ 
 
 ```vue
 <!-- UserDashboard.vue - TROP DE RESPONSABILITÉS -->
@@ -221,7 +223,9 @@ export default {
 - Difficile à tester
 - Difficile à maintenir
 
-### ✅ Bon exemple: Découpage logique
+### Bon exemple: Découpage logique
+
+✅ 
 
 ```vue
 <!-- UserDashboard.vue - BIEN DÉCOUPÉ -->
@@ -849,7 +853,7 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 
 
-## ✅ Checklist: Bon composant vs Mauvais composant
+## Checklist: Bon composant vs Mauvais composant
 
 ### Un BON composant:
 
