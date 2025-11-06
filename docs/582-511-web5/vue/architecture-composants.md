@@ -920,7 +920,7 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 - "Thinking in Components" - Vue.js Best Practices
 - "Component Design Patterns" - Advanced Vue
 
-
+<!--
 ## 🎯 Travail à faire
 
 ### Pour votre projet
@@ -956,7 +956,7 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 5. Pour *Trace ton chemin*, rédaction de vos chapitres dans un Word ou document textuel collaboratif.
 
-
+-->
 
 ## ❓ Questions fréquentes
 
