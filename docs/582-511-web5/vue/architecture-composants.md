@@ -1,6 +1,6 @@
 # Arborescence de composants
 
-L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont les composants sont imbriqués les uns dans les autres, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus petits, indépendants et gérables
+L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont les composants sont imbriqués les uns dans les autres, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus petits, indépendants et gérables.
 
 ## Objectifs d'apprentissage
 
@@ -9,6 +9,24 @@ L'arborescence des composants d'une application est la *structure hiérarchique 
 - [ ] Organiser vos fichiers et dossiers efficacement
 - [ ] Comprendre les relations entre composants (parent-enfant)
 - [ ] Appliquer le principe de responsabilité unique
+
+## Fonctionnement
+
+### Imbrication de composants
+
+Une application est construite en imbriquant des composants les uns dans les autres. Par exemple, le composant racine peut contenir des composants enfants, qui à leur tour peuvent contenir d'autres composants.
+
+### Division de l'interface (UI)
+
+L'arborescence permet de diviser l'interface utilisateur en blocs de code réutilisables et isolés. Chaque composant encapsule sa propre structure (HTML), sa logique (JavaScript) et son style (CSS).
+
+## Exemple concret
+
+L'arborescence d'une application de liste de tâches pourrait ressembler à ceci :
+
+- Un composant racine `App`.
+- Qui pourrait contenir un composant pour le champ textuel pour ajouter un tâche à la liste `InputComponent`, un composant pour le bouton `ButtonComponent` et un composant liste `TodoListComponent`.
+- Et le `TodoListComponent` pourrait contenir une liste de composants de tâche individuelle `TodoItemComponent`.
 
 ## 📚 1: Pourquoi des composants?
 
