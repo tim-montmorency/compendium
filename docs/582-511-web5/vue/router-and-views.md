@@ -776,18 +776,13 @@ const routes = [
     meta: { requiresAuth: true }
   },
   {
-    path: '/profile',
-    name: 'profile',
-    component: ProfileView,
-    meta: { requiresAuth: true }
-  },
-  {
+    // connexion (optionnel)
     path: '/login',
     name: 'login',
     component: LoginView
   },
   {
-    // Route 404
+    // Route page 404
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: NotFoundView
@@ -795,7 +790,7 @@ const routes = [
 ];
 ```
 
-*Views à créer (minimum 6):*
+*Views à créer:*
 
 1. `HomeView.vue` - Page d'accueil
 2. `MuseumView.vue` - Vue d'ensemble des salles
@@ -808,6 +803,8 @@ const routes = [
 
 ### Pour "Trace ton chemin"
 
+### 4.3 Routes (Vue Router)
+
 *Structure des routes:*
 
 ```javascript
@@ -815,8 +812,8 @@ const routes = [
 const routes = [
   {
     path: '/',
-    name: 'menu',
-    component: MenuView
+    name: 'home',
+    component: HomeView
   },
   {
     path: '/story',
@@ -841,6 +838,7 @@ const routes = [
     component: SavesView
   },
   {
+    // Route page 404
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     redirect: { name: 'menu' }
@@ -848,9 +846,9 @@ const routes = [
 ];
 ```
 
-*Views à créer (minimum 5):*
+*Views à créer*
 
-1. `MenuView.vue` - Menu principal
+1. `HomeView.vue` - Accueil
 2. `StoryView.vue` - Container de l'histoire
 3. `ChapterView.vue` - Affichage d'un chapitre
 4. `EndingView.vue` - Écran de fin
