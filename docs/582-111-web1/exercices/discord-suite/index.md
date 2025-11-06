@@ -25,7 +25,6 @@ Cette fois, sans assistance 😜
 
 ### HTML
 
-- [ ] Ajouter `favicon.png` comme favicône au site
 - [ ] Ajouter le HTML nécessaire pour les 2 nouvelles sections, ajustez les médias et les classes au besoin.
 - [ ] Ajouter un pied de page comme contenu « MOMO »
 
