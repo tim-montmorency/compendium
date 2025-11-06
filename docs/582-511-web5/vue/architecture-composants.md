@@ -337,7 +337,7 @@ src/
 
 ## 🎨 4: Types de composants
 
-### 1. Composants de présentation (Presentational)
+### 4.1. Composants de présentation (Presentational)
 
 *Rôle:* Afficher des données, pas de logique <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span>
 
@@ -375,7 +375,7 @@ export default {
 - ✅ Pas d'accès aux stores
 - ✅ Réutilisable facilement
 
-### 2. Composants conteneurs (Container)
+### 4.2. Composants conteneurs (Container)
 
 *Rôle:* Gérer la logique, récupérer les données
 
@@ -427,7 +427,7 @@ export default {
 - ✅ Contient la logique <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span>
 - ✅ Contient des composants de présentation
 
-### 3. Composants de base (Base Components)
+### 4.3. Composants de base (Base Components)
 
 *Rôle:* Composants UI réutilisables
 
