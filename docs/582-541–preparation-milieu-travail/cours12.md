@@ -11,14 +11,14 @@ Tous les groupes sont présents le 10 novembre pendant la journée de rattrapage
 
 
 ## Journée carrière
-9h30: Arrivée du comité studio et des étudiants souhaitant les aider
+9h30: Arrivée du comité studio et des étudiants souhaitant les aider  
 9h30 à 12h30: Montage de la salle par les étudiants  
-11h: Arrivée du technicien de la salle
-11h: Arrivée du comité design et déploiement de la signalétique dans le collège
-11h45: Arrivée de tous les étudiants
-12h30: Certains étudiants se placent aux portes 3 et 6 pour guider les employeurs jusqu'à la salle
-12h45 à 13h : Arrivée des employeurs.   
-13h à 13h15 : Installation des employeurs aux tables, mot de bienvenue.  
+11h: Arrivée du technicien de la salle  
+11h: Arrivée du comité design et déploiement de la signalétique dans le collège  
+11h45: Arrivée de tous les étudiants  
+12h30: Certains étudiants se placent aux portes 3 et 6 pour guider les employeurs jusqu'à la salle  
+12h45 à 13h : Arrivée des employeurs   
+13h à 13h15 : Installation des employeurs aux tables, mot de bienvenue  
 13h15 à 14h15 : Rencontres individuelles avec les stagiaires  
 14h15 à 14h30 : Pause  
 14h30 à 15h30 : Rencontres individuelles avec les stagiaires  
