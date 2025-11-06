@@ -14,19 +14,42 @@ L'arborescence des composants d'une application est la *structure hiérarchique 
 
 ### Imbrication de composants
 
-Une application est construite en imbriquant des composants les uns dans les autres. Par exemple, le composant racine peut contenir des composants enfants, qui à leur tour peuvent contenir d'autres composants.
+Une application est construite en *imbriquant des composants les uns dans les autres*. 
+
+Par exemple, le *composant racine* peut contenir des *composants enfants*, qui à leur tour peuvent *contenir d'autres composants*.
+
+```
+App.vue
+├── StoryView.vue
+  ├── ChapterHeader.vue
+  ├── ChapterText.vue
+  ├── ChoicePanel.vue
+  │   └── ChoiceButton.vue
+  ├── ContinueButton.vue
+  └── EndingScreen.vue
+      ├── StatsSummary.vue
+      └── ChoiceHistory.vue
+```
 
 ### Division de l'interface (UI)
 
 L'arborescence permet de diviser l'interface utilisateur en blocs de code réutilisables et isolés. Chaque composant encapsule sa propre structure (HTML), sa logique (JavaScript) et son style (CSS).
 
-## Exemple concret
+### Exemple concret
 
 L'arborescence d'une application de liste de tâches pourrait ressembler à ceci :
 
 - Un composant racine `App`.
-- Qui pourrait contenir un composant pour le champ textuel pour ajouter un tâche à la liste `InputComponent`, un composant pour le bouton `ButtonComponent` et un composant liste `TodoListComponent`.
-- Et le `TodoListComponent` pourrait contenir une liste de composants de tâche individuelle `TodoItemComponent`.
+- Qui pourrait contenir un composant pour le champ textuel pour ajouter un tâche à la liste `BaseInput.vue`, un composant pour le bouton `BaseButton.vue` et un composant liste `TodoList.vue`.
+- Et le `TodoList.vue` pourrait contenir une liste de composants de tâche individuelle `TodoItem.vue`.
+
+```
+App.vue
+├── BaseInput.vue
+├── BaseButton.vue
+├── TodoList.vue
+  ├── TodoItem.vue
+```
 
 ## 📚 1: Pourquoi des composants?
 
