@@ -1,6 +1,6 @@
 # View dans un SPA
 
-Dans les applications à page unique (SPA), les composants de type `views`se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple `/rooms/memory/65/`.
+Dans les applications à page unique (SPA: Single Page Application), les composants de type `views`se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple pour **mémoires interactives**: `/rooms/memory/65/` ou pour **trace ton chemin**: `/story/chapter/4/`.
 
 ## Différences entre `composant` et `view`
 
