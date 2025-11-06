@@ -603,7 +603,7 @@ App.vue
 └── Router View
     ├── HomeView.vue
     ├── MuseumView.vue
-    │   └── RoomGrid.vue
+    │   └── RoomGrid.vue (ou RoomList.vue)
     │       └── RoomCard.vue
     │           ├── RoomHeader.vue
     │           └── RoomActions.vue
