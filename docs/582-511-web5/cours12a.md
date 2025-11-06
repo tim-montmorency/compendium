@@ -50,7 +50,12 @@
 - Tests manuels de chaque chemin possible
 
 
-## Devoirs
+## Travail en classe et DEVOIR
+
+*À COMPLÉTER POUR LE PROCHAIN COURS*
+
+Afin de suivre le processus, il est de votre responsabilité de compléter cette partie pour le prochain cours.
+Ce travail fait partie partiellement de la remise prévue le 19 novembre.
 
 *Mémoire interactive*
 

@@ -55,6 +55,11 @@ SCRUM d'équipe
 
 ## Travail en classe et DEVOIR
 
+*À COMPLÉTER POUR LE PROCHAIN COURS*
+
+Afin de suivre le processus, il est de votre responsabilité de compléter cette partie pour le prochain cours.
+Ce travail fait partie partiellement de la remise prévue le 19 novembre.
+
 1. *Créer un diagramme* de votre hiérarchie de composants
 
    - Utilisez draw.io, Figma/Figjam ou papier/crayon
