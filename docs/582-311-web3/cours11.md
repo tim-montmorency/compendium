@@ -14,9 +14,6 @@ Graphique en aires polaires
 Graphique radar
 Graphique en nuage de points (Scatter Chart)
 
-
-Chart.js : bar, line, pie, radar, animation et personnalisation
-
 Idée : Jeu de classes (monstre, personne, hit, score) et stats du jeu.
 
 ## Introduction aux classes JavaScript
