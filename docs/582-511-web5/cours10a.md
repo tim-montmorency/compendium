@@ -1,7 +1,5 @@
 # Cours 10.1
 
- 3 novembre
-
 ## Annonces
 
 Changements des remises.
