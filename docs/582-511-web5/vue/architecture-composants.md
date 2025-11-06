@@ -673,6 +673,7 @@ App.vue
 │   └── StatsBar.vue
 │       └── StatIndicator.vue
 └── Router View
+    ├── HomeView.vue
     ├── MenuView.vue
     │   └── MenuButton.vue
     │
