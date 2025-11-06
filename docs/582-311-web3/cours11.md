@@ -1,6 +1,19 @@
-# Cours 11 | Diagrammes
+# Cours 11 | Graphiques
 
 [STOP]
+
+8 Chart types
+
+Graphique d'aires (Area Chart)
+Graphique à barres
+Graphique à bulles
+Graphiques en anneau et en secteurs (Doughnut and Pie Charts)
+Graphique en lignes
+Graphiques mixtes
+Graphique en aires polaires
+Graphique radar
+Graphique en nuage de points (Scatter Chart)
+
 
 Chart.js : bar, line, pie, radar, animation et personnalisation
 
