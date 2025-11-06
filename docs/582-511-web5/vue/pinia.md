@@ -184,3 +184,43 @@ export const useMuseumStore = defineStore('museum', {
 
 #### C'est comme un composant Vue, mais partagé partout!
 
+## Suggestions d'une configuration de stores pour *Mémoires interactives*
+
+*Stores prévus:*
+
+1. *`useMuseumStore`*
+   - State: `rooms`, `currentRoomId`, `museumName`, `theme`
+   - Actions: `addRoom()`, `updateRoom()`, `deleteRoom()`, `setCurrentRoom()`
+
+2. *`useMemoryStore`*
+   - State: `memories`, `filters`, `searchQuery`
+   - Actions: `addMemory()`, `updateMemory()`, `deleteMemory()`, `searchMemories()`
+   - Getters: `filteredMemories`, `memoriesByRoom`, `memoriesByTag`
+
+3. *`useAuthStore`* (optionnel)
+   - State: `user`, `isAuthenticated`
+   - Actions: `login()`, `logout()`, `register()`
+
+## Suggestions d'une configuration de stores pour *Trace ton chemin*
+
+*Stores prévus:*
+
+1. *`useStoryStore`*
+   - State: `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
+   - Actions: `loadChapter()`, `makeChoice()`, `goToChapter()`
+   - Getters: `currentChapter`, `isChapterUnlocked()`
+
+2. *`usePlayerStore`*
+   - State: `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
+   - Actions: `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
+   - Getters: `hasItem()`, `getRelationship()`, `canAccessEnding()`
+
+3. *`useSaveStore`*
+   - State: `saveSlots` (array de 3 slots)
+   - Actions: `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
+   - Getters: `hasSaves`, `latestSave`
+
+4. *`useAudioStore`* (optionnel)
+   - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
+   - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
+
