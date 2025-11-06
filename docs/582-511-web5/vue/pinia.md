@@ -1,16 +1,24 @@
-# 🎯 Pinia en bref
+# Pinia en bref
 
-**Pinia = le "cerveau central" de votre application Vue**
+<!-- https://laconsole.dev/formations/vue/pinia -->
 
-C'est un endroit où vous stockez des données qui doivent être **partagées entre plusieurs composants** Vue.
+> *Pinia = le "cerveau central" de votre application Vue*
 
----
+Pinia est une *bibliothèque de stockage* ou *gestionnaire d'état* pour Vue.js. Il permet de partager un état entre les compsants/pages de l'application par l'intermédiaire d'une zone de stockage partagée appelé *store*.
+
+Le partage de données entre un composant parent et enfant peut-être réalisé classiquement via des `props`et `emit`Vue.js. Cependant, si nous souhaitons partager un état entre de nombreuses pages/composants, cela devient un peu complexe à gérer.
+
+Voilà pourquoi Pinia existe!
+
+C'est un endroit où vous pouver stockez des données qui devront être **partagées entre plusieurs composants** Vue.
+
 
 ## 🤔Le problème qu'il résout
 
 ### Sans Pinia (le cauchemar)
 
 Imaginez que vous avez:
+
 - Un composant `Header.vue` qui affiche le nom de l'utilisateur
 - Un composant `Sidebar.vue` qui liste les salles du musée
 - Un composant `MemoryList.vue` qui affiche les mémoires
@@ -30,11 +38,12 @@ App.vue (parent)
 
 
 Sans Pinia, vous devez:
-1. Passer les données de parent en enfant avec **props** (fastidieux!)
-2. Remonter les événements avec **emits** (complexe!)
+
+1. Passer les données de parent en enfant avec `props` (fastidieux!)
+2. Remonter les événements avec `emits` (complexe!)
 3. Dupliquer les données dans plusieurs composants (cauchemar de synchronisation!)
 
-**Exemple sans Pinia (props hell):**
+**Exemple sans Pinia (`props` hell):**
 
 ```vue
 <!-- App.vue -->
@@ -65,7 +74,7 @@ export default {
 </script>
 ```
 
-Vous devez passer TOUT à travers les props, même aux composants profondément imbriqués! 😱
+Vous devez passer TOUT à travers les `props`, même aux composants profondément imbriqués! 😱
 
 ## Avec Pinia (la solution élégante)
 
@@ -93,22 +102,50 @@ museumStore.addMemory(roomId, memoryData);
 *Magique!* Tous les composants qui utilisent `museumStore` se mettent à jour automatiquement. ✨
 ```
 
-## 📦 Anatomie d'un store Pinia
+## Installation de Pinia
+
+Si ce n'est pas déjà fait, voici comment ajouter Pinia à votre projet:
+
+```bash
+npm install pinia
+```
+
+## Initialisation de Pinia
+
+Pour initialiser Pinia, vous devez importer la méthode `createApp()` dans votre fichier `main.js` puis l'enregistrer avec `app.use()`.
+
+
+```
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+
+// ...
+
+const app = createApp(App)
+app.use(createPinia())
+app.mount('#app')
+```
+
+
+
+## Définir un store Pinia
 
 Un store Pinia a *3 parties principales:*
 
 ```javascript
 import { defineStore } from 'pinia';
 
+// Ici on défnit un store appelé "museum".
 export const useMuseumStore = defineStore('museum', {
-  // 1️⃣ STATE - Les données (comme data() dans un composant)
+  // 1️⃣ STATE - Les données (comme data() dans un composant classique Vue)
   state: () => ({
     rooms: [],
     currentRoomId: null,
     userName: 'Alice'
   }),
 
-  // 2️⃣ GETTERS - Données calculées (comme computed dans un composant)
+  // 2️⃣ GETTERS - Données calculées (comme computed dans un composant classique Vue)
   getters: {
     currentRoom: (state) => {
       return state.rooms.find(r => r.id === state.currentRoomId);
@@ -121,7 +158,7 @@ export const useMuseumStore = defineStore('museum', {
     }
   },
 
-  // 3️⃣ ACTIONS - Fonctions qui modifient le state (comme methods)
+  // 3️⃣ ACTIONS - Fonctions qui modifient le state (comme methods dans un composant classique Vue)
   actions: {
     addRoom(room) {
       this.rooms.push(room);

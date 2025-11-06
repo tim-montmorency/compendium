@@ -2,13 +2,11 @@
 
 ## Objectifs d'apprentissage
 
-*Objectifs:*
-
-- ✅ Identifier quand créer un composant
-- ✅ Structurer une application Vue en composants réutilisables
-- ✅ Organiser vos fichiers et dossiers efficacement
-- ✅ Comprendre les relations entre composants (parent-enfant)
-- ✅ Appliquer le principe de responsabilité unique
+- [ ] Identifier quand créer un composant
+- [ ] Structurer une application Vue en composants réutilisables
+- [ ] Organiser vos fichiers et dossiers efficacement
+- [ ] Comprendre les relations entre composants (parent-enfant)
+- [ ] Appliquer le principe de responsabilité unique
 
 
 

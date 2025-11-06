@@ -1,18 +1,21 @@
 # Cours: Vue Router et Views
 
-## 🎯 Objectifs d'apprentissage
-
-- ✅ Configurer Vue Router dans votre projet
-- ✅ Créer des routes avec paramètres dynamiques
-- ✅ Naviguer entre les pages programmatiquement
-- ✅ Protéger des routes (navigation guards)
-- ✅ Animer les transitions entre pages
-- ✅ Organiser vos Views efficacement
+<!-- https://laconsole.dev/formations/vue/vue-router -->
 
 
-## 📚 1: C'est quoi Vue Router? 
+## Objectifs d'apprentissage
 
-### Sans Vue Router (Single Page statique)
+- [ ] Configurer Vue Router dans votre projet
+- [ ] Créer des routes avec paramètres dynamiques
+- [ ] Naviguer entre les pages programmatiquement
+- [ ] Protéger des routes (navigation guards)
+- [ ] Animer les transitions entre pages
+- [ ] Organiser vos Views efficacement
+
+
+## 📚 1: C'est quoi Vue Router?
+
+### Sans Vue Router (Single Page App)
 
 ```vue
 <!-- App.vue - SANS ROUTER ❌ -->
@@ -39,7 +42,7 @@ export default {
 </script>
 ```
 
-**Problèmes:**
+*Problèmes:*
 
 - 🚫 Pas d'URL distincte pour chaque page
 - 🚫 Impossible de bookmarker une page spécifique
@@ -64,7 +67,7 @@ export default {
 </template>
 ```
 
-**Avantages:**
+*Avantages:*
 
 - ✅ URL distincte: `/`, `/museum`, `/search`
 - ✅ Bookmarkable
@@ -79,13 +82,13 @@ export default {
 ### Étape 1: Installation
 
 ```bash
-# Si pas déjà installé
+# Si pas déjà installé (souvent il l'est déjà avec un projet de base Vite et Vue 3)
 npm install vue-router@4
 ```
 
 ### Étape 2: Créer le fichier router
 
-**Structure recommandée:**
+*Structure recommandée:*
 
 ```
 src/
@@ -101,7 +104,7 @@ src/
 
 ### Étape 3: Configuration de base
 
-**`src/router/index.js`:**
+*`src/router/index.js`:*
 
 ```javascript
 import { createRouter, createWebHistory } from 'vue-router';
@@ -143,7 +146,7 @@ export default router;
 
 ### Étape 4: Intégrer dans l'application
 
-**`src/main.js`:**
+*`src/main.js`:*
 
 ```javascript
 import { createApp } from 'vue';
@@ -160,7 +163,7 @@ app.mount('#app');
 
 ### Étape 5: Utiliser dans App.vue
 
-**`src/App.vue`:**
+*`src/App.vue`:*
 
 ```vue
 <template>
@@ -187,8 +190,8 @@ app.mount('#app');
 
 ### View (Page)
 
-**Emplacement:** `src/views/`  
-**Rôle:** Page complète accessible via URL
+*Emplacement:* `src/views/`  
+*Rôle:* Page complète accessible via URL
 
 ```vue
 <!-- src/views/RoomView.vue -->
@@ -216,7 +219,7 @@ export default {
 </script>
 ```
 
-**Caractéristiques d'une View:**
+*Caractéristiques d'une View:*
 
 - ✅ Accessible via une route (URL)
 - ✅ Inclut plusieurs composants
@@ -226,8 +229,8 @@ export default {
 
 ### Composant
 
-**Emplacement:** `src/components/`  
-**Rôle:** Partie réutilisable de l'UI
+*Emplacement:* `src/components/`  
+*Rôle:* Partie réutilisable de l'UI
 
 ```vue
 <!-- src/components/rooms/RoomCard.vue -->
@@ -252,7 +255,7 @@ export default {
 </script>
 ```
 
-**Caractéristiques d'un composant:**
+*Caractéristiques d'un composant:*
 
 - ✅ Utilisé DANS les Views
 - ✅ Réutilisable
@@ -261,15 +264,15 @@ export default {
 
 ### Règle simple:
 
-> **View = Page avec URL**  
-> **Composant = Bloc réutilisable**
+> *View = Page avec URL*  
+> *Composant = Bloc réutilisable*
 
 
 ## 🚀 4: Navigation
 
 ### 1. Navigation déclarative (`<router-link>`)
 
-**Usage basique:**
+*Usage basique:*
 
 ```vue
 <template>
@@ -294,7 +297,7 @@ export default {
 </template>
 ```
 
-**Styles actifs:**
+*Styles actifs:*
 
 ```vue
 <template>
@@ -354,7 +357,7 @@ export default {
 </script>
 ```
 
-**Différence `push` vs `replace`:**
+*Différence `push` vs `replace`:*
 
 ```javascript
 // push: Ajoute une entrée à l'historique
@@ -366,7 +369,7 @@ this.$router.push({ name: 'room', params: { id: 'room-1' } });
 this.$router.replace({ name: 'home' });
 ```
 
-**Quand utiliser replace?**
+*Quand utiliser replace?*
 
 - ✅ Après login (éviter de revenir au login)
 - ✅ Redirection automatique
@@ -377,7 +380,7 @@ this.$router.replace({ name: 'home' });
 
 ### Routes avec paramètres dynamiques
 
-**Configuration:**
+*Configuration:*
 
 ```javascript
 // router/index.js
@@ -395,7 +398,7 @@ const routes = [
 ];
 ```
 
-**Accès aux paramètres dans la View:**
+*Accès aux paramètres dans la View:*
 
 ```vue
 <!-- src/views/RoomView.vue -->
@@ -439,9 +442,9 @@ export default {
 
 ### Query parameters (paramètres de recherche)
 
-**URL:** `/search?q=tokyo&tag=culture`
+*URL:* `/search?q=tokyo&tag=culture`
 
-**Configuration:**
+*Configuration:*
 
 ```javascript
 // router/index.js
@@ -454,7 +457,7 @@ const routes = [
 ];
 ```
 
-**Accès aux query params:**
+*Accès aux query params:*
 
 ```vue
 <!-- src/views/SearchView.vue -->
@@ -520,7 +523,7 @@ export default {
 
 ### 1. Guard globale (beforeEach)
 
-**Exemple: Vérifier l'authentification:**
+*Exemple: Vérifier l'authentification:*
 
 ```javascript
 // router/index.js
@@ -550,7 +553,7 @@ router.beforeEach((to, from, next) => {
 export default router;
 ```
 
-**Configuration des routes avec meta:**
+*Configuration des routes avec meta:*
 
 ```javascript
 const routes = [
@@ -604,7 +607,7 @@ const routes = [
 
 ### 3. Guard dans le composant (beforeRouteLeave)
 
-**Exemple: Confirmation avant de quitter une page avec formulaire non sauvegardé:**
+*Exemple: Confirmation avant de quitter une page avec formulaire non sauvegardé:*
 
 ```vue
 <!-- src/views/MemoryFormView.vue -->
@@ -656,7 +659,7 @@ export default {
 
 ### Ajouter des transitions avec GSAP
 
-**Dans App.vue:**
+*Dans App.vue:*
 
 ```vue
 <template>
@@ -711,7 +714,7 @@ export default {
 </script>
 ```
 
-**Avec CSS simple:**
+*Avec CSS simple:*
 
 ```vue
 <style>
@@ -738,7 +741,7 @@ export default {
 
 ### Pour "Mémoires interactives"
 
-**Structure des routes:**
+*Structure des routes:*
 
 ```javascript
 // router/index.js
@@ -792,7 +795,7 @@ const routes = [
 ];
 ```
 
-**Views à créer (minimum 6):**
+*Views à créer (minimum 6):*
 
 1. `HomeView.vue` - Page d'accueil
 2. `MuseumView.vue` - Vue d'ensemble des salles
@@ -805,7 +808,7 @@ const routes = [
 
 ### Pour "Trace ton chemin"
 
-**Structure des routes:**
+*Structure des routes:*
 
 ```javascript
 // router/index.js
@@ -845,7 +848,7 @@ const routes = [
 ];
 ```
 
-**Views à créer (minimum 5):**
+*Views à créer (minimum 5):*
 
 1. `MenuView.vue` - Menu principal
 2. `StoryView.vue` - Container de l'histoire
@@ -858,7 +861,7 @@ const routes = [
 
 ### Exercice 1: Créer votre premier router
 
-**Instructions:**
+*Instructions:*
 
 1. Créez le fichier `src/router/index.js`
 2. Configurez 3 routes de base:
@@ -872,7 +875,7 @@ const routes = [
 
 4. Créez 3 Views simples avec juste un titre
 
-**Code de départ:**
+*Code de départ:*
 
 ```vue
 <!-- src/views/HomeView.vue -->
@@ -893,7 +896,7 @@ export default {
 
 ### Exercice 2: Navigation programmatique
 
-**Instructions:**
+*Instructions:*
 
 Dans `MuseumView.vue`, créez une liste de salles avec des boutons. Quand on clique, naviguer vers `/room/:id`:
 
@@ -1001,36 +1004,37 @@ export default {
 
 ### Les 5 concepts clés:
 
-1. **Vue Router = Navigation entre pages**
+1. *Vue Router = Navigation entre pages*
    - Chaque page a une URL unique
    - `<router-view />` affiche la page active
 
-2. **Views vs Composant**
+2. *Views vs Composant*
    - View = Page complète avec URL
    - Composant = Bloc réutilisable
 
-3. **Navigation**
+3. *Navigation*
    - Déclarative: `<router-link>`
    - Programmatique: `this.$router.push()`
 
-4. **Paramètres dynamiques**
+4. *Paramètres dynamiques*
    - Route params: `/room/:id`
    - Query params: `/search?q=tokyo`
 
-5. **Protection de routes**
+5. *Protection de routes*
    - Navigation guards
    - Meta fields pour configuration
 
 
 ## 📚 Ressources supplémentaires
 
-**Documentation officielle:**
+*Documentation officielle:*
+
 - [Vue Router - Getting Started](https://router.vuejs.org/guide/)
 - [Vue Router - Dynamic Routes](https://router.vuejs.org/guide/essentials/dynamic-matching.html)
 - [Vue Router - Navigation Guards](https://router.vuejs.org/guide/advanced/navigation-guards.html)
 - [Vue Router - Transitions](https://router.vuejs.org/guide/advanced/transitions.html)
 
-**Exemples de code:**
+*Exemples de code:*
 - [Vue Router Examples](https://github.com/vuejs/router/tree/main/packages/router/playground/examples)
 
 
@@ -1038,27 +1042,27 @@ export default {
 
 ### Pour votre projet:
 
-1. **Créer la structure du router**
+1. *Créer la structure du router*
 
    - Fichier `router/index.js` avec 5-6 routes
    - Dossier `views/` avec fichiers .vue
 
-2. **Créer les Views skeleton**
+2. *Créer les Views skeleton*
 
    - Chaque View avec template de base
    - Titre et navigation de test
 
-3. **Tester la navigation**
+3. *Tester la navigation*
 
    - Navigation entre toutes les pages
    - Vérifier que les URLs changent
 
-4. **Documenter vos routes**
+4. *Documenter vos routes*
 
    - Créer un fichier `ROUTES.md`
    - Lister: path, name, composant, description
 
-**Exemple de documentation:**
+*Exemple de documentation:*
 
 ```markdown
 # Routes de l'application
@@ -1074,39 +1078,39 @@ export default {
 
 ## ❓ Questions fréquentes
 
-**Q: View ou Composant?**
+*Q: View ou Composant?*
 
-**R:** 
+*R:* 
 
-- Page avec URL → **View** (dans `views/`)
-- Bloc réutilisable → **Composant** (dans `components/`)
+- Page avec URL → *View* (dans `views/`)
+- Bloc réutilisable → *Composant* (dans `components/`)
 
-**Q: Quand utiliser `push` vs `replace`?**
+*Q: Quand utiliser `push` vs `replace`?*
 
-**R:**
+*R:*
 
 - `push`: Navigation normale (on peut revenir)
 - `replace`: Remplace l'historique (pas de retour), utile après login
 
-**Q: Comment passer des données entre routes?**
+*Q: Comment passer des données entre routes?*
 
-**R:** 3 options:
+*R:* 3 options:
 
-1. **Params**: `/room/:id` → `this.$route.params.id`
-2. **Query**: `/search?q=tokyo` → `this.$route.query.q`
-3. **Store (Pinia)**: Pour données partagées
+1. *Params*: `/room/:id` → `this.$route.params.id`
+2. *Query*: `/search?q=tokyo` → `this.$route.query.q`
+3. *Store (Pinia)*: Pour données partagées
 
-**Q: Mes transitions ne fonctionnent pas?**
+*Q: Mes transitions ne fonctionnent pas?*
 
-**R:** Vérifiez:
+*R:* Vérifiez:
 
 - `<transition>` entoure `<component :is="Component">`
 - `:key="$route.path"` est présent
 - CSS ou GSAP est bien configuré
 
-**Q: Comment protéger toutes les routes sauf login?**
+*Q: Comment protéger toutes les routes sauf login?*
 
-**R:**
+*R:*
 
 ```javascript
 router.beforeEach((to, from, next) => {
