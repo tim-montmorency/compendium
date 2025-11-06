@@ -1,7 +1,5 @@
 # Arborescence de composants
 
-L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont *les composants sont imbriqués les uns dans les autres*, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus **petits**, **indépendants** et **gérables**.
-
 ## Objectifs d'apprentissage
 
 - [ ] Identifier quand créer un composant
@@ -9,6 +7,10 @@ L'arborescence des composants d'une application est la *structure hiérarchique 
 - [ ] Organiser vos fichiers et dossiers efficacement
 - [ ] Comprendre les relations entre composants (parent-enfant)
 - [ ] Appliquer le principe de responsabilité unique
+
+## L'arborescence des composants
+
+L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont *les composants sont imbriqués les uns dans les autres*, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus **petits**, **indépendants** et **gérables**.
 
 ## Fonctionnement
 
