@@ -769,7 +769,6 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 5. Afficher ou cacher un modal
 
 
-<!--
 ### Solution Exercice 1: Identifier les composants
 
 Regardez cette maquette et identifiez les composants à créer:
@@ -822,8 +821,6 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 5. Afficher ou cacher un modal
    - *Réponse:* Props ✅ (v-model aussi possible)
-
--->
 
 
 
@@ -895,7 +892,6 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 - "Thinking in Components" - Vue.js Best Practices
 - "Component Design Patterns" - Advanced Vue
 
----
 
 ## 🎯 Travail à faire
 
