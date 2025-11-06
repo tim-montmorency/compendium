@@ -338,14 +338,16 @@ Application web complète et déployée
 
 ```bash
 # Créer le projet
-npm create vite@latest mon-projet -- --template vue
+npm create vite@latest
 
 # Installer les dépendances
 npm install pinia vue-router gsap
-
-# Installer les outils de dev
-npm install -D eslint prettier
 ```
+
+<!-- 
+# Installer les outils de dev
+npm install -D eslint prettier 
+-->
 
 ### Ressources d'apprentissage:
 

@@ -8,6 +8,13 @@ Mercredi 12 novembre
 
 ..
 
+<!-- 
+## Projet final: Démarrez votre Toggl
+
+ Démarrez votre Toggl (feuille de temps) du projet!
+-->
+
+
 ## Mini cours: Routes
 
 - Routes (Vue Router) entre les différentes views (pages)

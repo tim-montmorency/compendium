@@ -758,7 +758,8 @@ App.vue
 
 ## 📝 Exercice Pratique (En classe)
 
-- [Quiz](https://app.wooclap.com/HISOPU)
+- [Quiz groupe AM](https://app.wooclap.com/HISOPU)
+- [Quiz groupe PM](https://app.wooclap.com/IMAMPU)
 
 ### Exercice 1: Identifier les composants
 

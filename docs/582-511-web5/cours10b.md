@@ -12,10 +12,12 @@
 
 ➜ [Solution](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EdWN1jwPTnNJm6vuPRvxsDkBbcBXE1LIWAxUPpG824eyEw?e=j1AEfW) 
 
-
+<!-- 
 ## Projet final: Démarrez votre Toggl
 
  Démarrez votre Toggl (feuille de temps) du projet!
+-->
+
 
 ## Cours: Arborescence des `components` et ses `views`
 
@@ -26,8 +28,8 @@ L'arborescence des composants d'une application est la *structure hiérarchique 
 
 ## Quiz composantes
 
-- [Quiz](https://app.wooclap.com/HISOPU)
-
+- [Quiz groupe AM](https://app.wooclap.com/HISOPU)
+- [Quiz groupe PM](https://app.wooclap.com/IMAMPU)
 
 ## Rencontre prof et étudiants (par équipe)
 
