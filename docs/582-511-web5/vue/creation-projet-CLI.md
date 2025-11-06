@@ -8,19 +8,19 @@
 
 *Vite* offre une expérience de développement *plus rapide* et *plus moderne* par rapport aux anciennes configurations Vue CLI et Webpack.
 
-## Création du projet
+## Mise en place
 
 - [ ] Dans Visual Studio Code, ouvrez le dossier où vous souhaitez créer votre projet Vue.js.
 - [ ] Ouvrez le terminal de Visual Studio Code. 
 
-Voici quelques commandes utiles:
+## Voici quelques commandes utiles:
 
 - [ ] À l'aide de la commande `pwd` vous pouvez voir le chemin d'accès du dossier où vous vous situez.
 - [ ] À l'aide de la commande `ls` vous pouvez voir les fichiers qui se trouve dans le dossier dans lequel vous vous trouvez.
 - [ ] Inscrivez `cd.. ↵`  pour reculer d'un dossier.
 - [ ] `cd nomdudossier ↵` pour avancer dans un dossier. Allez vous placer là ou vous souhaitez créer votre projet.
 
-***
+## Création du projet
 
 - [ ] Lorsque vous y êtes, inscrivez maintenant:
 
@@ -31,7 +31,7 @@ Voici quelques commandes utiles:
 
 Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
 
-***
+## Configuration du projet
 
 - [ ] Vous devriez maintenant voir ce qui suit, vous pouvez donc entrer le nom de votre projet, sans espace et sans accent.
 
@@ -43,7 +43,7 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
 
 - [ ] Par la suite, on vous demandera une série de questions. Faites ++n++  pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
 
-***
+## Installation des dépendances
 
 - [ ] Une fois l'installation terminée, `cd nom-de-votre-projet` pour avancer dans le dossier du projet.
 
@@ -51,6 +51,8 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
     ```
     npm install
     ```
+
+## Mise en place de votre environnement pour développer votre projet
 
 - [ ] Ouvrez le projet via l'explorateur de fichier de Visual Studio Code.
 
