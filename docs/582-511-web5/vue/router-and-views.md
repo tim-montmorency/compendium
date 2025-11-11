@@ -17,7 +17,9 @@
 
 ## 📚 1: C'est quoi Vue Router?
 
-### Sans Vue Router dans une SPA (Single Page App)
+### Dans une application monopage *SPA* (Single Page App)
+
+#### Sans Vue Router 
 
 ```vue
 <!-- App.vue - SANS ROUTER ❌ -->
@@ -52,7 +54,7 @@ export default {
 - 🚫 Pas de navigation par URL
 - 🚫 Difficile à maintenir avec beaucoup de pages
 
-### Avec Vue Router ✅
+#### Avec Vue Router ✅
 
 ```vue
 <!-- App.vue - AVEC ROUTER -->
@@ -83,12 +85,15 @@ export default {
 
 ### Étape 1: Installation
 
+Vérifiez si vous ne l'avez pas déjà installé avec le package Vite. Pour ce faire, ouvrez le ficheir `package.json` et vérifiez si `"vue-router"` fait partie de la liste des `"dependencies"`.
+
+Si *Vue Router* n'est pas déjà installé, vous pouvez l'installer en entrant cette commande dans votre terminal
+
 ```bash
-# Si pas déjà installé (souvent il l'est déjà avec un projet de base Vite et Vue 3)
 npm install vue-router@4
 ```
 
-### Étape 2: Créer le fichier router
+### Étape 2: Créer le fichier router.js
 
 *Structure recommandée:*
 
@@ -109,31 +114,34 @@ src/
 *`src/router/index.js`:*
 
 ```javascript
+/* On importe les méthodes nécessaires depuis le module `vue-router` */
 import { createRouter, createWebHistory } from 'vue-router';
+
+/* 
+On importe les différentes views (pages) du projet, par exemple pour le 
+projet "Mémoires interactives", on pourrait imaginer 4 views (pages) de base:
+*/
 import HomeView from '../views/HomeView.vue';
 import MuseumView from '../views/MuseumView.vue';
 import RoomView from '../views/RoomView.vue';
 import SearchView from '../views/SearchView.vue';
 
+/* Définition des routes dans un tableau [ ] d'objets { } */
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path: '/', //path: contient la portion d'URL
+    component: HomeView //component: fait référence à la View souhaitée
   },
   {
     path: '/museum',
-    name: 'museum',
     component: MuseumView
   },
   {
-    path: '/room/:id',  // ← Route avec paramètre dynamique
-    name: 'room',
+    path: '/room/:id',  // ← Exemple de route avec paramètre dynamique
     component: RoomView
   },
   {
     path: '/search',
-    name: 'search',
     component: SearchView
   }
 ];
