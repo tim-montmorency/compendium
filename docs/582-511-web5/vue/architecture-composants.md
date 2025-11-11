@@ -1,5 +1,19 @@
-# Arborescence de composants
+# Arborescence (architecture) de composants
 
+## Table des matière de la page
+
+- [Qu'est-ce que l'arborescence des composants](#larborescence-des-composants)
+- [Fonctionnement](#fonctionnement)
+  - [Imbrication de composants](#imbrication-de-composants)
+  - [Division de l'interface (UI)](#division-de-linterface-ui)
+- 📚 [1: Pourquoi des composants?](#1-pourquoi-des-composants)
+- 🏗️ [2: Principe de responsabilité unique](#2-principe-de-responsabilite-unique)
+- 📁 [3: Organisation des fichiers](#3-organisation-des-fichiers)
+- 🎨 [4: Types de composants](#4-types-de-composants)
+- 🔗 [5: Communication entre composants](#5-communication-entre-composants)
+- 🎯 [6: Application à vos projets *app web créative*](#6-application-aux-projets)
+
+<!--
 ## Objectifs d'apprentissage
 
 - [ ] Identifier quand créer un composant
@@ -7,10 +21,11 @@
 - [ ] Organiser vos fichiers et dossiers efficacement
 - [ ] Comprendre les relations entre composants (parent-enfant)
 - [ ] Appliquer le principe de responsabilité unique
+-->
 
 ## L'arborescence des composants
 
-L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont *les composants sont imbriqués les uns dans les autres*, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus **petits**, **indépendants** et **gérables**.
+L'arborescence (ou l'architecture) des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont *les composants sont imbriqués les uns dans les autres*, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus **petits**, **indépendants** et **gérables**.
 
 ## Fonctionnement
 

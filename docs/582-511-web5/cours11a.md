@@ -17,10 +17,10 @@ Mercredi 12 novembre
 
 ## Mini cours: Routes
 
-- Routes (Vue Router) entre les différentes views (pages)
+Routes (Vue Router) entre les différentes views (pages)
 
 
-## Mini cours: Pinia (45 min)
+## Mini cours: Pinia
 
 Pinia: bibliothèque (store) de gestion d'état pour les application Vue.js.
 
