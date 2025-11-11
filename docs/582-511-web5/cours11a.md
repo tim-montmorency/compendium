@@ -15,14 +15,31 @@ Mercredi 12 novembre
 -->
 
 
-## Mini cours: Routes
+## Cours: Views et Routes
 
-Routes (Vue Router) entre les différentes views (pages)
+Retour sur:
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/view.html"><em>Views</em>: pages entières liées à un URL</a>
+</div>
+
+Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *route* (*Vue Router*):
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/">Routes entre les différentes <em>views</em> (pages)</a>
+</div>
 
 
-## Mini cours: Pinia
+## Cours: Pinia
 
-Pinia: bibliothèque (store) de gestion d'état pour les application Vue.js.
+*Pinia* une bibliothèque (`store`) de gestion d'état pour les application Vue.js
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
+</div>
 
 ## *Mémoire interactive*
 

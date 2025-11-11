@@ -1,8 +1,8 @@
 # Cours: Vue Router et Views
 
-<!-- https://laconsole.dev/formations/vue/vue-router -->
+<!-- https://laconsole.dev/formations/vue/vue-router 
 
-
+<!--
 ## Objectifs d'apprentissage
 
 - [ ] Configurer Vue Router dans votre projet
@@ -13,9 +13,11 @@
 - [ ] Organiser vos Views efficacement
 
 
+-->
+
 ## 📚 1: C'est quoi Vue Router?
 
-### Sans Vue Router (Single Page App)
+### Sans Vue Router dans une SPA (Single Page App)
 
 ```vue
 <!-- App.vue - SANS ROUTER ❌ -->
