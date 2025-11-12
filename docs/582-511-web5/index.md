@@ -46,6 +46,10 @@
 - [Vue: Props](./vue/props.md)
 - [Vue: Émettre (emit)](./vue/emit.md)
 - [Vue: SFC - Single File Component](./vue/sfc.md)
+- [Vue: Architecture composants](./vue/architecture-composants.md)
+- [Vue: View (page)](./vue/view.md)
+- [Vue: Routes](./router-and-views.md)
+- [Vue: Pinia stores](./vue/pinia.md)
 
 ## Descriptif du cours
 

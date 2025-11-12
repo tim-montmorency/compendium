@@ -258,6 +258,8 @@ nav:
         - SFC:  582-511-web5/vue/sfc.md
         - Architecture composants: 582-511-web5/vue/architecture-composants.md
         - View (page): 582-511-web5/vue/view.md
+        - Routes: 582-511-web5/vue/router-and-views.md
+        - Pinia stores: 582-511-web5/vue/pinia.md
         
       - Fetch API:
         - 582-511-web5/fetch.md
