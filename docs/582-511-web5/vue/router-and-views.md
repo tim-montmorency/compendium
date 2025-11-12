@@ -218,12 +218,12 @@ Fichier *`src/App.vue`:*
     <!-- Navigation avec nom de route (recommandé) -->
     <router-link :to="{ name: 'museum' }">Musée</router-link>
     
-    <!-- Navigation avec paramètre -->
+    <!-- Navigation avec paramètre dynamique -->
     <router-link :to="{ name: 'room', params: { id: 'room-1' } }">
       Voir la salle
     </router-link>
     
-    <!-- Navigation avec query string -->
+    <!-- Navigation avec paramètre de requête (query string) -->
     <router-link :to="{ name: 'search', query: { q: 'tokyo' } }">
       Rechercher Tokyo
     </router-link>
