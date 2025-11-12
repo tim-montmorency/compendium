@@ -73,9 +73,8 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 | Path | Name | Composant | Description |
 |------|------|-----------|-------------|
 | / | home | HomeView | Page d'accueil |
-| /museum | museum | MuseumView | Liste des salles |
+...
 | /room/:id | room | RoomView | Détail d'une salle |
-| /search | search | SearchView | Recherche globale |
 ```
 
 
@@ -87,12 +86,12 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 - [ ] Fichier `router/index.js` créé
 - [ ] Router importé dans `main.js`
 - [ ] `<router-view />` dans `App.vue`
-- [ ] Minimum 4 routes configurées
+- [ ] Minimum 3 routes configurées
 
 #### Views
 
 - [ ] Dossier `views/` créé
-- [ ] Minimum 4 Views créées
+- [ ] Minimum 3 Views créées
 - [ ] Nommage cohérent (`*View.vue`)
 - [ ] Chaque View a une responsabilité claire
 
@@ -149,8 +148,6 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 - [ ] Redirection vers login si non authentifié
 -->
 
-## Travail et en classe sur votre projet
-
 ## DEVOIR
 
 *À COMPLÉTER POUR LE PROCHAIN COURS*
@@ -164,19 +161,19 @@ Ce travail fait partie partiellement de la remise prévue le 19 novembre.
 
 Terminer ce qui a été commencé en classe:
 
-- [ ] **Minimum 6-8 composants** créés et fonctionnels
+- [ ] **Minimum 4 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec 4+ routes
 - [ ] **2 stores Pinia** créés avec state/actions/getters de base
-- [ ] **Navigation fonctionnelle** entre les pages
+- [ ] **Navigation fonctionnelle** entre les pages via les routes
 - [ ] **Données mockées** affichées correctement  (données mockée = données fictives pour faire des tests)
 
 ### Trace ton chemin
 
 Terminer ce qui a été commencé en classe:
 
-- [ ] **Minimum 6-8 composants** créés et fonctionnels
+- [ ] **Minimum 4 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec routes par chapitre
 - [ ] **2 stores Pinia** créés avec state/actions/getters de base
-- [ ] **Navigation fonctionnelle** entre chapitres
+- [ ] **Navigation fonctionnelle** entre chapitres via les routes
 - [ ] **Tous les chapitres** dans le fichier JSON
 - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
