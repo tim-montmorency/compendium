@@ -1,4 +1,4 @@
-# Cours 10.2
+# Cours 10.2  PHASE FONDATION
 
 
 ## Révision
