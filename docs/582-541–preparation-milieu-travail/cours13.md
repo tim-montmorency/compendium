@@ -31,6 +31,8 @@ Remplir le document bilan_journee_carriere dans GitHub.
 
 * Investir sans cravate   
 
+[📁 Tableau Miro définitions](https://miro.com/app/board/uXjVJr1O44w=/?share_link_id=463831373978){ .md-button }
+
 
 [📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
 
