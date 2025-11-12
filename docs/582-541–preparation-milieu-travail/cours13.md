@@ -20,7 +20,12 @@ Remplir le document bilan_journee_carriere dans GitHub.
 ## Mes finances, mes choix
 [📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
 
+* En équipe de 2, choisir une des capsules de formation.
+* Retour en groupe sur votre capsule. 
+
 [📁 Gabarit de budget](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfIHotoBNcJIsXsLY3zxppYBNWEMB1aIb3YCwOT62sD4Jw?e=24rj8o){ .md-button }
+
+* Jeu du chalet  
 
 * Jeu Aléa   
 
