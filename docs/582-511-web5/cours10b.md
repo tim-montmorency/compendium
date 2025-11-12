@@ -1,4 +1,4 @@
-# Cours 10.2
+# Cours 10.2  PHASE FONDATION
 
 
 ## Révision
@@ -19,12 +19,23 @@
 -->
 
 
-## Cours: Arborescence des `components` et ses `views`
+## Cours: Arborescence (architecture) des `components` et ses `views`
 
-L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. Elle représente la manière dont les composants sont imbriqués les uns dans les autres, comme des éléments HTML, pour construire une application complète. Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus petits, indépendants et gérables.
+L'arborescence des composants d'une application est la *structure hiérarchique qui organise les différents éléments réutilisables de l'interface utilisateur (UI)*. 
 
-- [L'Arborescence de composants](./vue/architecture-composants.md)
-- [Views: pages entières, souvent liées à une route (URL)](./vue/view.md)
+Elle représente la manière dont les composants sont imbriqués les uns dans les autres, comme des éléments HTML, pour construire une application complète. 
+
+Cette structure permet de créer des applications complexes en divisant l'interface en morceaux plus **petits**, **indépendants** et **gérables**.
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/architecture-composants.html">L'Arborescence de composants</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/view.html">Views: pages entières liées à un URL</a>
+</div>
 
 ## Quiz composantes
 

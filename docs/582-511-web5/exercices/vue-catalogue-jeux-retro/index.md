@@ -12,7 +12,7 @@
 
 [Lien vers l'aperçu](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ETmBgi6Lh0FEoJBg-gLZVHAB5Ngk6SnwFCETyoxf_QaFwA?e=y8sQut&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## Un mini-catalogue de jeux retro
+## Un mini-catalogue de jeux rétro
 
 - [ ] Une *liste* d'items rendue par une *composante de carte* reutilisable (`ItemCard`)
 - [ ] Un *panneau d'options* (tri, ordre, limite, disposition grid/list) géré par le *parent* (`App.vue`)
@@ -34,12 +34,12 @@ npm run dev
 
 ## Étapes (1–4)
 
-### 1) Préparer les donnees (dans `App.vue`)
+### 1) Préparer les données (dans `App.vue`)
 
 - [ ] Observez le tableau `items` fourni (id, title, price, year, image, tags).
 - [ ] Ajoutez un jeux rétro dans la liste (n'oubliez pas d'ajouter l'image trouvé sur Internet).
 - [ ] Notez les états d'interface (`sortBy`, `sortDir`, `limit`, `layout`).
-- [ ] Sous le commentaire `<!-- Affichage des jeux -->` ajoutez l'affichage de la composante `ItemList`.
+- [ ] Sous le commentaire `<!--  Affichage de la liste des jeux -->` ajoutez l'affichage de la composante `ItemList`.
 
 ### 2) Analysez la propriété calculée `itemsFiltered`
 
@@ -51,7 +51,7 @@ npm run dev
   - `items` contiendra la liste des jeux sous forme de tableau (Array).
   - `layout` contiendra le format de la mise en page des carte, soit "grid" ou "list". Cette `prop` sera donc une chaîne de caractères (String).
 - [ ] Retournez dans `App.vue` pour envoyer les données dans les 2 `props`que vous venez de créer. La prop `items` devra recevoir les données filtrées provenant de la propriété calculée `itemsFiltered`.
-- [ ] De retour dans `ItemList.vue` affichez la liste de jeux `ItemCard` avec `v-for` (clé `:key="item.id"`) [En savoir plus sur l'utilisation de `key` avec un v-for](https://fr.vuejs.org/guide/essentials/list#maintaining-state-with-key)
+- [ ] De retour dans `ItemList.vue`, sous `<!-- Affichage des cartes de chaque jeu -->`, affichez la liste de jeux `ItemCard` avec `v-for` (clé `:key="item.id"`) [En savoir plus sur l'utilisation de `key` avec un v-for](https://fr.vuejs.org/guide/essentials/list#maintaining-state-with-key)
 - [ ] Adaptez la *disposition* (`grid` / `list`) en ajoutant une classe dynamique sur conteneur `<section class="collection">` en fonction de la valeur de la prop `layout`.
 
 ### 4) Construire la carte (dans `ItemCard.vue`)

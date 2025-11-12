@@ -1,24 +1,23 @@
 # Cours 14
 
-## Conférence sur l'entrepreneuriat
 
+## Conférence de Synthèse
 
-## Guide du travailleur autonome
-[📁 Accéder au guide](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edg24C6YapVOiRO9agjLVsoBkFHpwhdj7osLAUoZNOf7jA?e=VFV52N){ .md-button }
+[📁 Informations sur Arristage](https://polesynthese.com/arrimage/arristage){ .md-button }    
 
+[📁 Plateforme Boussole](https://polesynthese.com/boussole){ .md-button }     
 
-## Salaire
-* Inforoute: 33,23$
-* Montmorency: 28,73$
-* Finissants: 30,24$
-* Travailleur autonome: + 15 à 20%  
+[📁 Fiches métier et capsules vidéo](https://polesynthese.com/boussole/fiches-metiers-numerique){ .md-button }     
 
-## Mes finances, mes choix
-[📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
+[📁 Parcours professionnels](https://polesynthese.com/boussole/faire-le-bon-choix-de-carriere){ .md-button }     
 
-[📁 Gabarit de budget](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfIHotoBNcJIsXsLY3zxppYBNWEMB1aIb3YCwOT62sD4Jw?e=24rj8o){ .md-button }
+[📁 Platerforme Experts (l'offre est gratuite pour un an aux diplômés des programmes de nos secteurs)](https://polesynthese.com/fr/experts/){ .md-button }    
 
-* Jeu Aléa   
+[📁 Répertoire de formations](https://polesynthese.com/repertoire/formations){ .md-button }    
+
+[📁 Répertoire de métiers](https://polesynthese.com/repertoire/metiers){ .md-button }    
+
+[📁 Répertoire d'entreprises](https://polesynthese.com/repertoire/entreprises){ .md-button }      
 
 ## Devoir
 Remplissez le document evaluation_demarche pour évaluer l'avancement de votre recherche de stage jusqu'à maintenant. 

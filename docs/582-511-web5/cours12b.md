@@ -12,7 +12,7 @@
       - [ ] **Vue Router** configuré avec 4+ routes
       - [ ] **2 stores Pinia** créés avec state/actions/getters de base
       - [ ] **Navigation fonctionnelle** entre les pages
-      - [ ] **Données mockées** affichées correctement
+      - [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
 
     - Interactivité
 
