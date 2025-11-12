@@ -375,18 +375,3 @@ createScope({
   <small>Exercice - AnimeJS</small><br>
   **[Cosmos](./exercices/cosmos/index.md){.stretched-link .back}**
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

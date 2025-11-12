@@ -1,8 +1,14 @@
-# Cours 12 | Cartes
+# Cours 12
 
 [STOP]
+https://maplibre.org/maplibre-gl-js/docs/examples/display-buildings-in-3d/
+https://maplibre.org/maplibre-gl-js/docs/examples/animate-map-camera-around-a-point/
 
+
+VFX-JS ?
 Leaflet.js : cartes web, marqueurs, popups, personnalisation (tiles, couleurs, styles)
+
+https://codepen.io/fand/pen/dyBbVRG?editors=0010
 
 [^plugin]: <https://gsap.com/docs/v3/Plugins/>
 

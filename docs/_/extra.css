@@ -17,6 +17,9 @@
   width: 25% !important;
   height: auto;
 }
+.h-auto{
+  height: auto !important;
+}
 .d-inline-block {
   display: inline-block !important;
 }

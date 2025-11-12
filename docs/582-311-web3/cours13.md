@@ -1,8 +1,10 @@
-# Cours 13 | ZDog, Tone.js
+# Cours 13
 
 [STOP]
 
 https://mattboldt.com/demos/typed-js/
+
+Alternative simple à Threejs
 
 Zdog : illustrations et animations 3D Canvas
 Tone.js : sons, boucles et synthèse audio
