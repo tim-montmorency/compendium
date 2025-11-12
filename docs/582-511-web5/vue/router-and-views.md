@@ -111,7 +111,7 @@ src/
 
 ### Étape 3: Configuration de base
 
-*`src/router/index.js`:*
+Fichier *`src/router/index.js`:*
 
 ```javascript
 /* On importe les méthodes nécessaires depuis le module `vue-router` */
@@ -129,57 +129,65 @@ import SearchView from '../views/SearchView.vue';
 /* Définition des routes dans un tableau [ ] d'objets { } */
 const routes = [
   {
-    path: '/', //path: contient la portion d'URL
-    component: HomeView //component: fait référence à la View souhaitée
+    path: '/', // (obligatoire) Contient la portion d'URL
+    component: HomeView, // (obligatoire) Fait référence à la View souhaitée
+    name: 'home' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
   },
   {
     path: '/museum',
-    component: MuseumView
+    component: MuseumView,
+    name: 'museum'
   },
   {
     path: '/room/:id',  // ← Exemple de route avec paramètre dynamique
-    component: RoomView
+    component: RoomView,
+    name: 'room'
   },
   {
     path: '/search',
-    component: SearchView
+    component: SearchView,
+    name: 'search'
   }
 ];
 
+// Création du router via la méthode createRouter
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  history: createWebHistory(import.meta.env.BASE_URL), // outil d'historique
+  routes // contient les routes déclarées préalablement
 });
 
+/*
+Le routeur étant maintenant configuré, nous allons l'exporter
+pour l'importation dans le fichier main.js 
+*/
 export default router;
 ```
 
 ### Étape 4: Intégrer dans l'application
 
-*`src/main.js`:*
+Fichier *`src/main.js`:*
 
 ```javascript
 import { createApp } from 'vue';
-import { createPinia } from 'pinia';
 import App from './App.vue';
 import router from './router';  // ← Import du router
 
 const app = createApp(App);
 
-app.use(createPinia());
 app.use(router);  // ← Installation du router
 app.mount('#app');
 ```
 
 ### Étape 5: Utiliser dans App.vue
 
-*`src/App.vue`:*
+Fichier *`src/App.vue`:*
 
 ```vue
 <template>
   <div id="app">
     <header>
       <nav>
+        <!-- Les liens vers les différentes Views (pages) via <router-link> -->
         <router-link to="/">🏠 Accueil</router-link>
         <router-link to="/museum">🏛️ Musée</router-link>
         <router-link to="/search">🔍 Recherche</router-link>
@@ -187,7 +195,7 @@ app.mount('#app');
     </header>
     
     <main>
-      <!-- C'est ici que les pages s'affichent -->
+      <!-- C'est ici que les pages s'affichent via <router-view> -->
       <router-view />
     </main>
   </div>
@@ -203,19 +211,21 @@ app.mount('#app');
 *Emplacement:* `src/views/`  
 *Rôle:* Page complète accessible via URL
 
+Exemple d'un fichier de type *View*: *`src/views/RoomView.vue`*:
+
 ```vue
 <!-- src/views/RoomView.vue -->
 <template>
   <div class="room-view">
     <RoomHeader :room="room" />
-    <MemoryGrid :memories="memories" />
+    <MemoryList :memories="memories" />
     <AddMemoryButton @click="openModal" />
   </div>
 </template>
 
 <script>
 import RoomHeader from '@/components/rooms/RoomHeader.vue';
-import MemoryGrid from '@/components/memories/MemoryGrid.vue';
+import MemoryList from '@/components/memories/MemoryList.vue';
 import AddMemoryButton from '@/components/ui/AddMemoryButton.vue';
 
 export default {
@@ -240,7 +250,7 @@ export default {
 ### Composant
 
 *Emplacement:* `src/components/`  
-*Rôle:* Partie réutilisable de l'UI
+*Rôle:* Partie réutilisable de l'interface UI
 
 ```vue
 <!-- src/components/rooms/RoomCard.vue -->
