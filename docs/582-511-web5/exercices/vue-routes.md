@@ -12,7 +12,7 @@
 - [ ] 0. Dans VS Code ouvrez le dossier ou vous classez vos exercices et ouvrez le terminal
   - [ ] Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
   - [ ] À la question `Ignorer tout le code d'exemple et commencer avec un projet Vue vierge ?` répondez `no` et vous aurez des fichiers de départ en démo avec lesquels commencer.
-  - [ ] Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
+  - [ ] Ajoutez *Vue Router* lors de l'installation ([sinon installez le par la suite](../vue/router-and-views.html#2-installation-et-configuration))
   - [ ]  N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
   - [ ] Démarrez le serveur Vite `npm run dev`
 
