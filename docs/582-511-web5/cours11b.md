@@ -2,6 +2,16 @@
 
 vendredi 14 novembre
 
+## Cours: Pinia
+
+*Pinia* une bibliothèque (`store`) de gestion d'état pour les application Vue.js
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/pinia.html"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
+</div>
+
+
 ## Cours: Les méthodes de l'objet Array en JavaScript
 
 [Liste des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
@@ -19,6 +29,34 @@ Exemples:
 - `shift()`
 - `pop()`
 - `concat()`
+
+
+## Travail en classe Mise en place de store *Pinia*
+
+### *Mémoire interactive*
+
+#### Création des stores Pinia
+
+- `useMuseumStore.js` (structure de base)
+- `useMemoryStore.js` (structure de base)
+
+#### Développement des composants clés
+
+- `RoomCard.vue` (carte de salle)
+- `MemoryCard.vue` (carte de mémoire)
+- `MemoryList.vue` (liste ou grille des mémoires)
+
+### *Trace ton chemin*
+
+#### Création des stores Pinia
+
+- `useStoryStore.js` (chapitres, navigation)
+- `usePlayerStore.js` (état du joueur)
+
+
+
+
+
 
 ## Cours: Validation de formulaires Vue (Mémoires interactives)
 

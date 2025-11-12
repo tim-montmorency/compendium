@@ -77,7 +77,6 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 | Path | Name | Composant | Description |
 |------|------|-----------|-------------|
 | / | home | HomeView | Page d'accueil |
-...
 | /room/:id | room | RoomView | Détail d'une salle |
 ```
 
@@ -113,36 +112,18 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 - [ ] `watch: {}` sur les changements de paramètres
 
 
-## Mise en place de store *Pinia*
+#### Trace ton chemin
 
-### *Mémoire interactive*
+- [ ] Création du fichier JSON avec les premiers chapitres
 
-#### Création des stores Pinia
+Ne mettez pas tous les chapitres dans le fichiers `json`, commencez par quelques chapitres test avec des choix et d'autres sans choix juste pour tester le processus et les différentes scénario.
 
-- `useMuseumStore.js` (structure de base)
-- `useMemoryStore.js` (structure de base)
+- [ ]  Développement des composants clés
+  - [ ]  `ChoiceButton.vue` (bouton de choix)
+  - [ ]  `ChoicePanel.vue` (panel de choix)
 
-#### Développement des composants clés
+- [ ] Affichage des 3-4 premiers chapitres (texte statique)
 
-- `RoomCard.vue` (carte de salle)
-- `MemoryCard.vue` (carte de mémoire)
-- `MemoryList.vue` (liste ou grille des mémoires)
-
-### *Trace ton chemin*
-
-#### Création des stores Pinia
-
-- `useStoryStore.js` (chapitres, navigation)
-- `usePlayerStore.js` (état du joueur)
-
-#### Création du fichier JSON avec les chapitres
-
-#### Développement des composants clés
-
-- `ChoiceButton.vue` (bouton de choix)
-- `ChoicePanel.vue` (panel de choix)
-
-#### Affichage des 3-4 premiers chapitres (texte statique)
 
 <!--
 ### Protection (optionnel):
@@ -151,6 +132,8 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 - [ ] Routes protégées avec `meta: { requiresAuth: true }`
 - [ ] Redirection vers login si non authentifié
 -->
+
+
 
 ## DEVOIR
 
@@ -167,9 +150,9 @@ Terminer ce qui a été commencé en classe:
 
 - [ ] **Minimum 4 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec 4+ routes
-- [ ] **2 stores Pinia** créés avec state/actions/getters de base
+- [ ] ~~**2 stores Pinia** créés avec state/actions/getters de base~~
 - [ ] **Navigation fonctionnelle** entre les pages via les routes
-- [ ] **Données mockées** affichées correctement  (données mockée = données fictives pour faire des tests)
+- [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
 
 ### Trace ton chemin
 
@@ -177,7 +160,7 @@ Terminer ce qui a été commencé en classe:
 
 - [ ] **Minimum 4 composants** créés et fonctionnels
 - [ ] **Vue Router** configuré avec routes par chapitre
-- [ ] **2 stores Pinia** créés avec state/actions/getters de base
+- [ ] ~~**2 stores Pinia** créés avec state/actions/getters de base~~
 - [ ] **Navigation fonctionnelle** entre chapitres via les routes
 - [ ] **Tous les chapitres** dans le fichier JSON
 - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
