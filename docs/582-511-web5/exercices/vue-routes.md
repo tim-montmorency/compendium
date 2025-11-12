@@ -6,21 +6,21 @@ Vous pouvez vous placer en équipe de deux pour faire l'exercice. Nul besoin d'�
 
 *Instructions:*
 
-0. Dans VS Code ouvrez le dossier ou vous classez vos exercices et ouvrez le terminal
-    - Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
-    - Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
-    - N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
-1. Créez le fichier `src/router/index.js`
-2. Configurez 3 routes de base:
-   - `/` → HomeView
-   - `/recipes` → RecipesView
-   - `/recipe/:id` → RecipeDetailView
+- [ ] 0. Dans VS Code ouvrez le dossier ou vous classez vos exercices et ouvrez le terminal
+  - [ ] Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
+  - [ ] Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
+  - [ ]  N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
+- [ ] 1. Créez le fichier `src/router/index.js`
+- [ ] 2. Configurez 3 routes de base:
+  - [ ] `/` → HomeView
+  - [ ] `/recipes` → RecipesView
+  - [ ] `/recipe/:id` → RecipeDetailView
 
-3. Dans `App.vue`, ajoutez:
-   - Navigation avec `<router-link>`
-   - `<router-view />` pour afficher les pages
+- [ ] 3. Dans `App.vue`, ajoutez:
+  - [ ] Navigation avec `<router-link>`
+  - [ ] `<router-view />` pour afficher les pages
 
-4. Créez 3 Views simples avec juste un titre
+- [ ] 4. Créez 3 Views simples avec juste un titre
 
 *Code de départ:*
 
@@ -45,7 +45,7 @@ export default {
 
 *Instructions:*
 
-Dans `RecipesView.vue`, créez une liste de recettes avec des boutons. Quand on clique, naviguer vers `/recipe/:id`:
+- [ ] Dans `RecipesView.vue`, créez une liste de recettes avec des boutons. Quand on clique, naviguer vers `/recipe/:id`:
 
 ```vue
 <template>
@@ -86,7 +86,7 @@ export default {
 
 ## Exercice 3: Récupérer les paramètres
 
-Dans `RecipeDetailView.vue`, affichez l'ID de la salle depuis `this.$route.params.id`:
+- [ ] Dans `RecipeDetailView.vue`, affichez l'ID de la salle depuis `this.$route.params.id`:
 
 ```vue
 <template>
