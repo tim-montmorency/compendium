@@ -18,6 +18,8 @@ Remplir le document bilan_journee_carriere dans GitHub.
 * Travailleur autonome: + 15 à 20%  
 
 ## Mes finances, mes choix
+[📁 Quiz d'introduction](https://lautorite.qc.ca/grand-public/outils-et-calculateurs/jeux-questionnaires){ .md-button }
+
 [📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
 
 * En équipe de 2, choisir une des capsules de formation.
@@ -28,7 +30,6 @@ Remplir le document bilan_journee_carriere dans GitHub.
 * Jeu du chalet  
 
 * Jeu Aléa   
-
 
 
 
