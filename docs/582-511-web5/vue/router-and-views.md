@@ -380,12 +380,16 @@ export default {
 *Différence `push` vs `replace`:*
 
 ```javascript
-// push: Ajoute une entrée à l'historique
+// push: Ajoute une entrée (page) à l'historique des pages visitées
+
 // Utilisateur peut revenir en arrière via le "back" du navigateur
 this.$router.push({ name: 'room', params: { id: 'room-1' } });
 
-// replace: Remplace l'entrée actuelle
-// Utilisateur ne peut PAS revenir en arrière via le "back" du navigateur (probablement que vous voulez utiliser ça pour trace ton chemin afin d'éviter que l'utilisateur/joueur ne puisse revenir en arrière sur son choix)
+// replace: Remplace l'entrée (la page) actuelle
+
+// Utilisateur ne peut PAS revenir en arrière via le "back" du navigateur 
+// (probablement que vous voulez utiliser ça pour trace ton chemin afin 
+// d'éviter que l'utilisateur/joueur ne puisse revenir en arrière sur son choix)
 this.$router.replace({ name: 'home' });
 ```
 
@@ -400,25 +404,25 @@ this.$router.replace({ name: 'home' });
 
 ### Routes avec paramètres dynamiques
 
-*Configuration:*
+*Configuration des routes dans le fichier `src/router/index.js`:*
 
 ```javascript
 // router/index.js
 const routes = [
   {
-    path: '/room/:id',  // ← Paramètre dynamique :id
+    path: '/room/:id', // ← Paramètre dynamique :id
     name: 'room',
     component: RoomView
   },
   {
-    path: '/memory/:roomId/:memoryId',  // ← Plusieurs paramètres
+    path: '/memory/:roomId/:memoryId', // ← Plusieurs paramètres dynamiques
     name: 'memory-detail',
     component: MemoryDetailView
   }
 ];
 ```
 
-*Accès aux paramètres dans la View:*
+*Accès aux paramètres dynamiques dans la View: `src/views/RoomView.vue`*
 
 ```vue
 <!-- src/views/RoomView.vue -->
@@ -442,7 +446,7 @@ export default {
   },
   
   created() {
-    // Accès au paramètre :id
+    // Accès au paramètre dynamique :id
     this.roomId = this.$route.params.id;
     
     // Charger les données de la salle
@@ -460,24 +464,35 @@ export default {
 </script>
 ```
 
-### Query parameters (paramètres de recherche)
+### Paramètre de requête (*query parameters*)
+
+Un paramètre de requête est une information ajoutée à la fin d’une URL pour transmettre des données à une page web ou à une API.
+
+Par exemple:
 
 *URL:* `/search?q=tokyo&tag=culture`
 
-*Configuration:*
+Ce URL contient 2 paramètres de requête:
+
+- `q` qui contient le terme de recherche, dans cet exemple il contient `tokyo`
+- `tag` qui contient la catégorie recherchée, dans cet exemple il contient `cultrure`
+
+#### Routes avec paramètre de requête
+
+*Configuration de la route dans le fichier `src/router/index.js`:*
 
 ```javascript
 // router/index.js
 const routes = [
   {
-    path: '/search',  // Pas de paramètre dans le path
+    path: '/search', // Pas de paramètre dans le path
     name: 'search',
     component: SearchView
   }
 ];
 ```
 
-*Accès aux query params:*
+*Accès aux paramètres de requête dans la Views: `src/views/SearchView.vue`:*
 
 ```vue
 <!-- src/views/SearchView.vue -->
@@ -498,14 +513,14 @@ export default {
   },
   
   created() {
-    // Accès aux query params
+    // Accès aux paramètres de requête q et tag
     this.searchQuery = this.$route.query.q || '';
     this.selectedTag = this.$route.query.tag || '';
   },
   
   methods: {
     updateSearch(newQuery) {
-      // Mettre à jour l'URL avec les nouveaux params
+      // Mettre à jour l'URL avec les nouveaux paramètres de requête
       this.$router.push({
         name: 'search',
         query: {
@@ -517,7 +532,7 @@ export default {
   },
   
   watch: {
-    // Réagir aux changements de query params
+    // Réagir aux changements deparamètres de recherche
     '$route.query': {
       handler(newQuery) {
         this.searchQuery = newQuery.q || '';
@@ -532,236 +547,12 @@ export default {
 
 
 
-## 🛡️ 6: Navigation Guards (Protection de routes)
 
-### Cas d'usage
-
-- ✅ Protéger des pages (authentification requise)
-- ✅ Redirection automatique
-- ✅ Confirmation avant de quitter une page
-- ✅ Charger des données avant d'afficher la page
-
-### 1. Guard globale (beforeEach)
-
-*Exemple: Vérifier l'authentification:*
-
-```javascript
-// router/index.js
-import { useAuthStore } from '@/stores/authStore';
-
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-});
-
-// Guard globale: s'exécute avant CHAQUE navigation
-router.beforeEach((to, from, next) => {
-  const authStore = useAuthStore();
-  
-  // Liste des routes qui nécessitent l'authentification
-  const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
-  
-  if (requiresAuth && !authStore.isAuthenticated) {
-    // Rediriger vers la page de login
-    next({ name: 'login' });
-  } else {
-    // Autoriser la navigation
-    next();
-  }
-});
-
-export default router;
-```
-
-*Configuration des routes avec meta:*
-
-```javascript
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-    // Pas de meta: accessible sans auth
-  },
-  {
-    path: '/museum',
-    name: 'museum',
-    component: MuseumView,
-    meta: { requiresAuth: true }  // ← Nécessite l'authentification
-  },
-  {
-    path: '/room/:id',
-    name: 'room',
-    component: RoomView,
-    meta: { requiresAuth: true }
-  },
-  {
-    path: '/login',
-    name: 'login',
-    component: LoginView
-  }
-];
-```
-
-### 2. Guard par route (beforeEnter)
-
-```javascript
-const routes = [
-  {
-    path: '/admin',
-    name: 'admin',
-    component: AdminView,
-    beforeEnter: (to, from, next) => {
-      const authStore = useAuthStore();
-      
-      // Vérifier si l'utilisateur est admin
-      if (authStore.user && authStore.user.role === 'admin') {
-        next();
-      } else {
-        next({ name: 'home' });
-      }
-    }
-  }
-];
-```
-
-### 3. Guard dans le composant (beforeRouteLeave)
-
-*Exemple: Confirmation avant de quitter une page avec formulaire non sauvegardé:*
-
-```vue
-<!-- src/views/MemoryFormView.vue -->
-<template>
-  <form @submit.prevent="save">
-    <input v-model="title" @input="hasChanges = true" />
-    <button type="submit">Enregistrer</button>
-  </form>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      title: '',
-      hasChanges: false
-    }
-  },
-  
-  methods: {
-    save() {
-      // Sauvegarder...
-      this.hasChanges = false;
-    }
-  },
-  
-  // Guard de composant
-  beforeRouteLeave(to, from, next) {
-    if (this.hasChanges) {
-      const answer = window.confirm(
-        'Vous avez des modifications non sauvegardées. Quitter quand même?'
-      );
-      if (answer) {
-        next();
-      } else {
-        next(false);  // Annuler la navigation
-      }
-    } else {
-      next();
-    }
-  }
-}
-</script>
-```
-
-
-
-## 🎨 7: Transitions entre pages
-
-### Ajouter des transitions avec GSAP
-
-*Dans App.vue:*
-
-```vue
-<template>
-  <div id="app">
-    <header>
-      <nav>
-        <router-link to="/">Accueil</router-link>
-        <router-link to="/museum">Musée</router-link>
-      </nav>
-    </header>
-    
-    <main>
-      <router-view v-slot="{ Component }">
-        <transition 
-          name="fade"
-          @enter="onEnter"
-          @leave="onLeave"
-        >
-          <component :is="Component" :key="$route.path" />
-        </transition>
-      </router-view>
-    </main>
-  </div>
-</template>
-
-<script>
-import gsap from 'gsap';
-
-export default {
-  methods: {
-    onEnter(el, done) {
-      gsap.from(el, {
-        opacity: 0,
-        y: 30,
-        duration: 0.5,
-        ease: 'power2.out',
-        onComplete: done
-      });
-    },
-    
-    onLeave(el, done) {
-      gsap.to(el, {
-        opacity: 0,
-        y: -30,
-        duration: 0.3,
-        ease: 'power2.in',
-        onComplete: done
-      });
-    }
-  }
-}
-</script>
-```
-
-*Avec CSS simple:*
-
-```vue
-<style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: all 0.3s ease;
-}
-
-.fade-enter-from {
-  opacity: 0;
-  transform: translateX(20px);
-}
-
-.fade-leave-to {
-  opacity: 0;
-  transform: translateX(-20px);
-}
-</style>
-```
-
-
-
-## 🗂️ 8: Organisation pour vos projets
+## 🗂️ 6: Organisation pour vos projets
 
 ### Pour "Mémoires interactives"
 
-*Structure des routes:*
+*Structure des routes suggérée:*
 
 ```javascript
 // router/index.js
@@ -810,7 +601,7 @@ const routes = [
 ];
 ```
 
-*Views à créer:*
+*Views suggérée* (cela dépend de la structure que vous prévoyez pour votre projet):
 
 1. `HomeView.vue` - Page d'accueil
 2. `MuseumView.vue` - Vue d'ensemble des salles
@@ -823,9 +614,7 @@ const routes = [
 
 ### Pour "Trace ton chemin"
 
-### 4.3 Routes (Vue Router)
-
-*Structure des routes:*
+*Structure des routes suggérée:*
 
 ```javascript
 // router/index.js
@@ -866,7 +655,7 @@ const routes = [
 ];
 ```
 
-*Views à créer*
+*Views suggérée* (cela dépend de la structure que vous prévoyez pour votre projet):
 
 1. `HomeView.vue` - Accueil
 2. `StoryView.vue` - Container de l'histoire
