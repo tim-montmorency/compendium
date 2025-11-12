@@ -1,6 +1,6 @@
 # View dans un SPA
 
-Dans les applications à page unique (SPA: Single Page Application), les composants de type `views`se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple pour **mémoires interactives**: `/rooms/memory/65/` ou pour **trace ton chemin**: `/story/chapter/4/`.
+Dans les applications à page unique (SPA: Single Page Application), les composants de type `views`se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple pour *mémoires interactives*: `/rooms/memory/65/` ou pour *trace ton chemin*: `/story/chapter/4/`.
 
 ## Différences entre `composant` et `view`
 
@@ -9,10 +9,10 @@ Dans les applications à page unique (SPA: Single Page Application), les composa
 
 ## View
 
-**Emplacement:** `src/views/`  
-**Rôle:** Page complète accessible via URL
+*Emplacement:* `src/views/`  
+*Rôle:* Page complète accessible via URL
 
-Les views sont **les pages** (ou “vues”) de ton application, généralement reliées au **routeur (vue-router)**.  
+Les views sont *les pages* (ou “vues”) de ton application, généralement reliées au *routeur (vue-router)*.  
 
 Exemples : 
 
@@ -20,7 +20,7 @@ Exemples :
 - `AboutView.vue`  
 - `ProfileView.vue`  
 
-Chaque vue représente **un écran complet** affiché selon l’URL courante :
+Chaque vue représente *un écran complet* affiché selon l’URL courante :
 
 ```js
 // router/index.js
@@ -57,7 +57,7 @@ export default {
 </script>
 ```
 
-**Caractéristiques d'une View:**
+*Caractéristiques d'une View:*
 
 - ✅ Accessible via une route (URL)
 - ✅ Inclut plusieurs composants
@@ -69,17 +69,17 @@ export default {
 
 ## Composant
 
-**Emplacement:** `src/components/`  
-**Rôle:** Partie réutilisable de l'UI
+*Emplacement:* `src/components/`  
+*Rôle:* Partie réutilisable de l'UI
 
-Les composants sont **les morceaux d’interface réutilisables** : 
+Les composants sont *les morceaux d’interface réutilisables* : 
 
 - Un bouton (`Button.vue`)  
 - Une carte d’utilisateur (`UserCard.vue`)  
 - Une barre de navigation (`Navbar.vue`)  
 - Un modal (`Modal.vue`)  
 
-👉 Ces éléments ne correspondent pas à une page complète, mais à des **parties** de page qu’on assemble à l’intérieur des vues.
+👉 Ces éléments ne correspondent pas à une page complète, mais à des *parties* de page qu’on assemble à l’intérieur des vues.
 
 
 ```vue
@@ -105,7 +105,7 @@ export default {
 </script>
 ```
 
-**Caractéristiques d'un composant:**
+*Caractéristiques d'un composant:*
 
 - ✅ Utilisé DANS les Views
 - ✅ Réutilisable
@@ -117,5 +117,5 @@ export default {
 
 ## Règle simple
 
-> **View = Page avec URL**  
-> **Composant = Bloc réutilisable**
+> *View = Page avec URL*  
+> *Composant = Bloc réutilisable*
