@@ -1,6 +1,9 @@
 # Exercice pratique avec *Vue Router*
 
-Vous pouvez vous placer en équipe de deux pour faire l'exercice. Nul besoin d'être les même équipes que le projet final.
+
+## Aperçu du résultat
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=8d815c3b-dde9-4231-b422-a45c4224cf31&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## Étape 1: Créer votre premier router
 
@@ -76,7 +79,7 @@ export default {
   },
   methods: {
     goToRecipe(recipeId) {
-      // TODO: Implémenter la navigation
+      // TODO: Implémenter la navigation programmatique vers la page de la recette via son id
       
     }
   }
@@ -106,7 +109,7 @@ export default {
     }
   },
   created() {
-    // TODO: Récupérer l'ID depuis les params
+    // TODO: Récupérer/Accéder au paramètre dynamique id
     
   }
 }
@@ -114,3 +117,8 @@ export default {
 ```
 
 <!-- Solution: this.recipeId = this.$route.params.id; -->
+
+
+## Notes de cours
+
+- [Les routes avec Vue Router](../vue/router-and-views.html)
