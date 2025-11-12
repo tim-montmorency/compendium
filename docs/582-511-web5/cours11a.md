@@ -25,8 +25,12 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/">Routes entre les différentes <em>views</em> (pages)</a>
+  <a href="./vue/router-and-views.md">Routes entre les différentes <em>views</em> (pages)</a>
 </div>
+
+### Exercices *Vue Router*
+
+[Exercices Vue Router](./exercices/vue-routes.md)
 
 
 ## Cours: Pinia
@@ -35,7 +39,7 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
+  <a href="./vue/pinia.md"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
 </div>
 
 ## SCRUM d'équipe
