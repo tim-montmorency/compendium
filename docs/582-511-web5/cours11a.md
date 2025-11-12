@@ -4,9 +4,6 @@
 
 Mercredi 12 novembre
 
-## SCRUM d'équipe
-
-..
 
 <!-- 
 ## Projet final: Démarrez votre Toggl
@@ -40,6 +37,10 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
 </div>
+
+## SCRUM d'équipe
+
+[Mêlée d'équipe](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/melee-scrum/#requis) (SCRUM) de 10 min.
 
 
 ## Travail et en classe sur votre projet
