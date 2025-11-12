@@ -77,6 +77,8 @@ npm i chart.js
 ```
 
 ```js title="chart.js"
+import { Chart } from 'chart.js';
+
 let configurations = {
   type: "line",
   data: {
