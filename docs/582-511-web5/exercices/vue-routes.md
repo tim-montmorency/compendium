@@ -1,5 +1,7 @@
 # Exercice pratique avec *Vue Router*
 
+Vous pouvez vous placer en équipe de deux pour faire l'exercice. Nul besoin d'être les même équipes que le projet final.
+
 ## Exercice 1: Créer votre premier router
 
 *Instructions:*
