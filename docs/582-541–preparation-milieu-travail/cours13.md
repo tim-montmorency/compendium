@@ -18,7 +18,11 @@ Remplir le document bilan_journee_carriere dans GitHub.
 * Travailleur autonome: + 15 à 20%  
 
 ## Mes finances, mes choix
-[📁 Quiz d'introduction](https://lautorite.qc.ca/grand-public/outils-et-calculateurs/jeux-questionnaires){ .md-button }
+[📁 Quiz d'introduction 1](https://lautorite.qc.ca/grand-public/outils-et-calculateurs/jeux-questionnaires){ .md-button }
+
+[📁 Quiz d'introduction 2](https://www.lapresse.ca/affaires/economie/2024-11-10/quiz/les-finances-et-vous.php){ .md-button }
+
+* Jeu du chalet  
 
 [📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
 
@@ -27,7 +31,6 @@ Remplir le document bilan_journee_carriere dans GitHub.
 
 [📁 Gabarit de budget](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfIHotoBNcJIsXsLY3zxppYBNWEMB1aIb3YCwOT62sD4Jw?e=24rj8o){ .md-button }
 
-* Jeu du chalet  
 
 * Jeu Aléa   
 
