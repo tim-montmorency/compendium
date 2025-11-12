@@ -4,11 +4,15 @@
 
 *Instructions:*
 
+0. Dans VS Code ouvrez le dossier ou vous classez vos exercices et ouvrez le terminal
+    - Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
+    - Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
+    - N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
 1. Créez le fichier `src/router/index.js`
 2. Configurez 3 routes de base:
    - `/` → HomeView
-   - `/museum` → MuseumView
-   - `/room/:id` → RoomView
+   - `/recipes` → RecipesView
+   - `/recipe/:id` → RecipeDetailView
 
 3. Dans `App.vue`, ajoutez:
    - Navigation avec `<router-link>`
@@ -22,9 +26,9 @@
 <!-- src/views/HomeView.vue -->
 <template>
   <div class="home">
-    <h1>🏠 Bienvenue</h1>
-    <p>Ceci est la page d'accueil</p>
-    <router-link to="/museum">Voir le musée →</router-link>
+    <h1>🍳 Bienvenue au Livre de Recettes</h1>
+    <p>Découvrez des recettes délicieuses</p>
+    <router-link to="/recipes">Voir les recettes →</router-link>
   </div>
 </template>
 
@@ -39,18 +43,18 @@ export default {
 
 *Instructions:*
 
-Dans `MuseumView.vue`, créez une liste de salles avec des boutons. Quand on clique, naviguer vers `/room/:id`:
+Dans `RecipesView.vue`, créez une liste de recettes avec des boutons. Quand on clique, naviguer vers `/recipe/:id`:
 
 ```vue
 <template>
   <div>
-    <h1>Mes Salles</h1>
+    <h1>Mes Recettes</h1>
     <button 
-      v-for="room in rooms" 
-      :key="room.id"
-      @click="goToRoom(room.id)"
+      v-for="recipe in recipes" 
+      :key="recipe.id"
+      @click="goToRecipe(recipe.id)"
     >
-      {{ room.name }}
+      {{ recipe.name }}
     </button>
   </div>
 </template>
@@ -59,32 +63,34 @@ Dans `MuseumView.vue`, créez une liste de salles avec des boutons. Quand on cli
 export default {
   data() {
     return {
-      rooms: [
-        { id: 'room-1', name: 'Tokyo' },
-        { id: 'room-2', name: 'Paris' },
-        { id: 'room-3', name: 'New York' }
+      recipes: [
+        { id: 'recipe-1', name: 'Pâtes Carbonara' },
+        { id: 'recipe-2', name: 'Tarte aux Pommes' },
+        { id: 'recipe-3', name: 'Salade César' }
       ]
     }
   },
   methods: {
-    goToRoom(roomId) {
+    goToRecipe(recipeId) {
       // TODO: Implémenter la navigation
-      this.$router.push({ name: 'room', params: { id: roomId } });
+      
     }
   }
 }
 </script>
 ```
 
+<!-- Solution: this.$router.push({ name: 'recipe', params: { id: recipeId } }); -->
+
 ## Exercice 3: Récupérer les paramètres
 
-Dans `RoomView.vue`, affichez l'ID de la salle depuis `this.$route.params.id`:
+Dans `RecipeDetailView.vue`, affichez l'ID de la salle depuis `this.$route.params.id`:
 
 ```vue
 <template>
   <div>
-    <h1>Salle: {{ roomId }}</h1>
-    <button @click="$router.back()">← Retour</button>
+    <h1>Recette: {{ recipeId }}</h1>
+    <button @click="$router.back()">← Retour aux recettes</button>
   </div>
 </template>
 
@@ -92,13 +98,15 @@ Dans `RoomView.vue`, affichez l'ID de la salle depuis `this.$route.params.id`:
 export default {
   data() {
     return {
-      roomId: null
+      recipeId: null
     }
   },
   created() {
     // TODO: Récupérer l'ID depuis les params
-    this.roomId = this.$route.params.id;
+    
   }
 }
 </script>
 ```
+
+<!-- Solution: this.recipeId = this.$route.params.id; -->
