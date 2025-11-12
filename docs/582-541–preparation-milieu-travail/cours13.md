@@ -26,6 +26,7 @@ Remplir le document bilan_journee_carriere dans GitHub.
 * Jeu du chalet  
 
 [📁 Gabarit de budget](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfIHotoBNcJIsXsLY3zxppYBNWEMB1aIb3YCwOT62sD4Jw?e=24rj8o){ .md-button }
+
 * Cahier du participant
 
 * Investir sans cravate   
