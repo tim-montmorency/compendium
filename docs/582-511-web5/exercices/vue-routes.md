@@ -13,8 +13,9 @@
   - [ ] Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
   - [ ] À la question `Ignorer tout le code d'exemple et commencer avec un projet Vue vierge ?` répondez `no` et vous aurez des fichiers de départ en démo avec lesquels commencer.
   - [ ] Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
-  - [ ] Démarrez le serveur Vite `npm run dev`
   - [ ]  N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
+  - [ ] Démarrez le serveur Vite `npm run dev`
+
 - [ ] 1. Créez le fichier `src/router/index.js`
 - [ ] 2. Configurez 3 routes de base:
   - [ ] `/` → `HomeView`
