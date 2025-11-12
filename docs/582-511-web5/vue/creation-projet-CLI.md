@@ -26,7 +26,6 @@
 
     ```
     npm create vue@latest
-    ↵
     ```
 
 Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
@@ -38,7 +37,6 @@ Si on vous demande de mettre à jour Vue, appuyez sur ++y++ pour **yes**.
     ```
     Vue.js - The Progressive JavaScript Framework
     ? Nom du projet : 
-    ↵
     ```
 
 - [ ] Par la suite, on vous demandera une série de questions. Faites ++n++  pour **no**, pour chacune des librairie proposées. On en est qu'à l'introduction de Vue, nul besoin de librairie supplémentaire.
@@ -68,7 +66,6 @@ de Mhammed Talhaouy. C'est une extention de VSCode qui vous permet de mieux visu
 - [ ] Démarrez le serveur virtuel de votre projet avec le bundler Vite, en inscrivant dans le Terminal:
     ```
     npm run dev
-    ↵
     ```
 
     Maintenant, vous pouvez voir en direct votre page de projet dans le navigateur via le url suivant:
