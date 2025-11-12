@@ -85,17 +85,18 @@ Vous devez passer TOUT contenu à travers les `props`, même aux composants prof
 - S'abonner aux changements automatiquement
 
 ```vue
-<!-- N'importe quel composant, n'importe où -->
+<!-- Dans n'importe quel composant, n'importe où -->
 <script setup>
-// Importer 
+/* On importe la méthode use...Store depuis le store qu'on aura préalablement créé */
 import { useMuseumStore } from '@/stores/museumStore';
 
+// On stock la méthode dans une constante interne
 const museumStore = useMuseumStore();
 
-// Lire des données
+// Lire des données du store
 console.log(museumStore.rooms);
 
-// Ajouter une mémoire
+// Ajouter une données au store (ici on ajoute une mémoire)
 museumStore.addMemory(roomId, memoryData);
 </script>
 ```
@@ -168,7 +169,7 @@ export const useMuseumStore = defineStore('museum', {
   },
 
   /*
-  3️⃣ ACTIONS - Fonctions qui modifient le state 
+  3️⃣ ACTIONS - Fonctions qui modifient le state
   (comme methods dans un composant classique Vue)
   */
   actions: {
@@ -196,9 +197,11 @@ export const useMuseumStore = defineStore('museum', {
 
 #### C'est comme un composant Vue, mais partagé partout!
 
-## Suggestions d'une configuration de stores pour *Mémoires interactives*
+## Configuration de stores pour le projet *App web créative*
 
-*Stores prévus:*
+### Pour *Mémoires interactives*
+
+*Structure des stores suggérée:*
 
 1. *`useMuseumStore`*
    - State: `rooms`, `currentRoomId`, `museumName`, `theme`
@@ -213,9 +216,9 @@ export const useMuseumStore = defineStore('museum', {
    - State: `user`, `isAuthenticated`
    - Actions: `login()`, `logout()`, `register()`
 
-## Suggestions d'une configuration de stores pour *Trace ton chemin*
+### Pour *Trace ton chemin*
 
-*Stores prévus:*
+*Structure des stores suggérée:*
 
 1. *`useStoryStore`*
    - State: `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
@@ -235,4 +238,3 @@ export const useMuseumStore = defineStore('museum', {
 4. *`useAudioStore`* (optionnel)
    - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
    - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
-
