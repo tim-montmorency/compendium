@@ -2,28 +2,29 @@
 
 Vous pouvez vous placer en équipe de deux pour faire l'exercice. Nul besoin d'être les même équipes que le projet final.
 
-## Exercice 1: Créer votre premier router
+## Étape 1: Créer votre premier router
 
 *Instructions:*
 
 - [ ] 0. Dans VS Code ouvrez le dossier ou vous classez vos exercices et ouvrez le terminal
   - [ ] Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
+  - [ ] À la question `Ignorer tout le code d'exemple et commencer avec un projet Vue vierge ?` répondez `no` et vous aurez des fichiers de départ en démo avec lesquels commencer.
   - [ ] Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
   - [ ] Démarrez le serveur Vite `npm run dev`
   - [ ]  N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
 - [ ] 1. Créez le fichier `src/router/index.js`
 - [ ] 2. Configurez 3 routes de base:
-  - [ ] `/` → HomeView
-  - [ ] `/recipes` → RecipesView
-  - [ ] `/recipe/:id` → RecipeDetailView
+  - [ ] `/` → `HomeView`
+  - [ ] `/recipes` → `RecipesView`
+  - [ ] `/recipe/:id` → `RecipeDetailView`
 
 - [ ] 3. Dans `App.vue`, ajoutez:
   - [ ] Navigation avec `<router-link>`
   - [ ] `<router-view />` pour afficher les pages
 
-- [ ] 4. Créez 3 Views simples avec juste un titre
+- [ ] 4. Créez 3 fichiers `Views` simples avec juste un titre
 
-*Code de départ:*
+*Code de départ d'un fichier Views:*
 
 ```vue
 <!-- src/views/HomeView.vue -->
@@ -42,7 +43,7 @@ export default {
 </script>
 ```
 
-## Exercice 2: Navigation programmatique
+## Étape 2: Navigation programmatique
 
 *Instructions:*
 
@@ -85,7 +86,7 @@ export default {
 
 <!-- Solution: this.$router.push({ name: 'recipe', params: { id: recipeId } }); -->
 
-## Exercice 3: Récupérer les paramètres
+## Étape 3: Récupérer les paramètres
 
 - [ ] Dans `RecipeDetailView.vue`, affichez l'ID de la salle depuis `this.$route.params.id`:
 
