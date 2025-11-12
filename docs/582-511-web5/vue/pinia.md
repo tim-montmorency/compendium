@@ -4,7 +4,7 @@
 
 > *Pinia = le "cerveau central" de votre application Vue*
 
-Pinia est une *bibliothèque de stockage* et/ou un *gestionnaire d'état* pour Vue.js. Il permet de partager un état entre les composants ou les views (pages) de l'application par l'intermédiaire d'une zone de stockage partagée appelé *store*.
+[Pinia](https://pinia.vuejs.org/) est une *bibliothèque de stockage* et/ou un *gestionnaire d'état* pour Vue.js. Il permet de partager un état entre les composants ou les views (pages) de l'application par l'intermédiaire d'une zone de stockage partagée appelé *store*.
 
 Le partage de données entre un composant parent et enfant peut-être réalisé classiquement via des `props`et `emit`. Cependant, si nous souhaitons partager un état entre de nombreuses pages/composants, cela devient un peu complexe à gérer.
 
