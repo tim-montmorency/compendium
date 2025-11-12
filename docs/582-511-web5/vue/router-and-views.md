@@ -827,19 +827,16 @@ export default {
    - Route params: `/room/:id`
    - Query params: `/search?q=tokyo`
 
-5. *Protection de routes*
-   - Navigation guards
-   - Meta fields pour configuration
 
 
 ## 📚 Ressources supplémentaires
 
 *Documentation officielle:*
 
-- [Vue Router - Getting Started](https://router.vuejs.org/guide/)
-- [Vue Router - Dynamic Routes](https://router.vuejs.org/guide/essentials/dynamic-matching.html)
-- [Vue Router - Navigation Guards](https://router.vuejs.org/guide/advanced/navigation-guards.html)
-- [Vue Router - Transitions](https://router.vuejs.org/guide/advanced/transitions.html)
+- [Vue Router - Getting Started (en anglais)](https://router.vuejs.org/guide/)
+- [Vue Router - Dynamic Routes (en anglais)](https://router.vuejs.org/guide/essentials/dynamic-matching.html)
+- [Vue Router - Navigation Guards (en anglais)](https://router.vuejs.org/guide/advanced/navigation-guards.html)
+- [Vue Router - Transitions (en anglais)](https://router.vuejs.org/guide/advanced/transitions.html)
 
 *Exemples de code:*
 - [Vue Router Examples](https://github.com/vuejs/router/tree/main/packages/router/playground/examples)
@@ -851,7 +848,7 @@ export default {
 
 1. *Créer la structure du router*
 
-   - Fichier `router/index.js` avec 5-6 routes
+   - Fichier `router/index.js` avec vos routes prévues
    - Dossier `views/` avec fichiers .vue
 
 2. *Créer les Views skeleton*
@@ -906,25 +903,3 @@ export default {
 1. *Params*: `/room/:id` → `this.$route.params.id`
 2. *Query*: `/search?q=tokyo` → `this.$route.query.q`
 3. *Store (Pinia)*: Pour données partagées
-
-*Q: Mes transitions ne fonctionnent pas?*
-
-*R:* Vérifiez:
-
-- `<transition>` entoure `<component :is="Component">`
-- `:key="$route.path"` est présent
-- CSS ou GSAP est bien configuré
-
-*Q: Comment protéger toutes les routes sauf login?*
-
-*R:*
-
-```javascript
-router.beforeEach((to, from, next) => {
-  if (to.name !== 'login' && !isAuthenticated) {
-    next({ name: 'login' });
-  } else {
-    next();
-  }
-});
-```
