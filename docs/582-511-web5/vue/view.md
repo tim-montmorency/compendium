@@ -1,13 +1,13 @@
-# View dans un SPA
+# View dans une application monopage (SPA)
 
-Dans les applications à page unique (SPA: Single Page Application), les composants de type `views`se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple pour *mémoires interactives*: `/rooms/memory/65/` ou pour *trace ton chemin*: `/story/chapter/4/`.
+Dans les applications monopage (SPA: Single Page Application), les composants de type `views` se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple pour *mémoires interactives*: `/rooms/memory/65/` ou pour *trace ton chemin*: `/story/chapter/4b/`.
 
 ## Différences entre `composant` et `view`
 
 - *`components`* → petits blocs réutilisables de ton interface  
 - *`views`* → pages entières, souvent liées à une *route (un URL)*
 
-## View
+## View (page)
 
 *Emplacement:* `src/views/`  
 *Rôle:* Page complète accessible via URL
@@ -67,7 +67,7 @@ export default {
 
 
 
-## Composant
+## Composant (partie d'une page)
 
 *Emplacement:* `src/components/`  
 *Rôle:* Partie réutilisable de l'UI

@@ -2,11 +2,29 @@
 
 vendredi 14 novembre
 
-## Cours: Validation de formulaires Vue (Mémoires interactives) (30 min)
+## Cours: Les méthodes de l'objet Array en JavaScript
+
+[Liste des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
+
+Exemples:
+
+- `length`
+- `push()`
+- `sort()`
+- `slice()`
+- `splice()`
+- `findIndex()`
+- `reduce()`
+- `find()`
+- `shift()`
+- `pop()`
+- `concat()`
+
+## Cours: Validation de formulaires Vue (Mémoires interactives)
 
 ..
 
-## Cours: Logique de branches narratives (Trace ton chemin) (30 min)
+## Cours: Logique de branches narratives (Trace ton chemin)
 
 ..
 

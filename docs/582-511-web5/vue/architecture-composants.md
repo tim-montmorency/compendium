@@ -874,7 +874,6 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 
 
-
 ## Checklist: Bon composant vs Mauvais composant
 
 ### Un BON composant:

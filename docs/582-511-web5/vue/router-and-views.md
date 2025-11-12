@@ -202,95 +202,9 @@ Fichier *`src/App.vue`:*
 </template>
 ```
 
+## 🚀 3: Navigation
 
-
-## 🗺️ 3: Différence View vs Composant
-
-### View (Page)
-
-*Emplacement:* `src/views/`  
-*Rôle:* Page complète accessible via URL
-
-Exemple d'un fichier de type *View*: *`src/views/RoomView.vue`*:
-
-```vue
-<!-- src/views/RoomView.vue -->
-<template>
-  <div class="room-view">
-    <RoomHeader :room="room" />
-    <MemoryList :memories="memories" />
-    <AddMemoryButton @click="openModal" />
-  </div>
-</template>
-
-<script>
-import RoomHeader from '@/components/rooms/RoomHeader.vue';
-import MemoryList from '@/components/memories/MemoryList.vue';
-import AddMemoryButton from '@/components/ui/AddMemoryButton.vue';
-
-export default {
-  components: {
-    RoomHeader,
-    MemoryGrid,
-    AddMemoryButton
-  },
-  // Logique de la page...
-}
-</script>
-```
-
-*Caractéristiques d'une View:*
-
-- ✅ Accessible via une route (URL)
-- ✅ Inclut plusieurs composants
-- ✅ Gère la logique de la page
-- ✅ Accède aux stores (Pinia)
-- ✅ Nom avec suffixe `View.vue`
-
-### Composant
-
-*Emplacement:* `src/components/`  
-*Rôle:* Partie réutilisable de l'interface UI
-
-```vue
-<!-- src/components/rooms/RoomCard.vue -->
-<template>
-  <div class="room-card">
-    <h3>{{ room.name }}</h3>
-    <p>{{ room.description }}</p>
-    <button @click="$emit('click', room.id)">Voir</button>
-  </div>
-</template>
-
-<script>
-export default {
-  props: {
-    room: {
-      type: Object,
-      required: true
-    }
-  },
-  emits: ['click']
-}
-</script>
-```
-
-*Caractéristiques d'un composant:*
-
-- ✅ Utilisé DANS les Views
-- ✅ Réutilisable
-- ✅ Props et Events
-- ✅ Focalisé sur une tâche
-
-### Règle simple:
-
-> *View = Page avec URL*  
-> *Composant = Bloc réutilisable*
-
-
-## 🚀 4: Navigation
-
-### 1. Navigation déclarative (`<router-link>`)
+### 3.1. Navigation déclarative (`<router-link>`)
 
 *Usage basique:*
 
@@ -334,7 +248,7 @@ export default {
 </style>
 ```
 
-### 2. Navigation programmatique (dans les méthodes)
+### 3.2. Navigation programmatique (dans les méthodes)
 
 ```vue
 <template>
@@ -400,9 +314,9 @@ this.$router.replace({ name: 'home' });
 - ✅ Pages de confirmation
 
 
-## 🎛️ 5: Paramètres de route
+## 🎛️ 4: Paramètres de route
 
-### Routes avec paramètres dynamiques
+### 4.1. Routes avec paramètres dynamiques
 
 *Configuration des routes dans le fichier `src/router/index.js`:*
 
@@ -464,7 +378,7 @@ export default {
 </script>
 ```
 
-### Paramètre de requête (*query parameters*)
+### 4.2. Paramètre de requête (*query parameters*)
 
 Un paramètre de requête est une information ajoutée à la fin d’une URL pour transmettre des données à une page web ou à une API.
 
@@ -548,7 +462,7 @@ export default {
 
 
 
-## 🗂️ 6: Organisation pour vos projets
+## 🗂️ 5: Organisation pour vos projets
 
 ### Pour "Mémoires interactives"
 
@@ -770,43 +684,6 @@ export default {
 ```
 
 
-## ✅ Checklist: Vue Router dans votre projet
-
-### Configuration de base:
-
-- [ ] Router installé (`npm install vue-router@4`)
-- [ ] Fichier `router/index.js` créé
-- [ ] Router importé dans `main.js`
-- [ ] `<router-view />` dans `App.vue`
-- [ ] Minimum 5 routes configurées
-
-### Views:
-
-- [ ] Dossier `views/` créé
-- [ ] Minimum 5-6 Views créées
-- [ ] Nommage cohérent (`*View.vue`)
-- [ ] Chaque View a une responsabilité claire
-
-### Navigation:
-
-- [ ] `<router-link>` pour la navigation
-- [ ] `this.$router.push()` pour navigation programmatique
-- [ ] Styles actifs sur les liens (`.router-link-active`)
-- [ ] Bouton "Retour" fonctionnel
-
-### Routes dynamiques:
-
-- [ ] Au moins 1 route avec paramètre (`:id`)
-- [ ] Accès aux paramètres avec `this.$route.params`
-- [ ] Watch sur les changements de paramètres
-
-### Protection (optionnel):
-
-- [ ] Navigation guard configurée (si auth)
-- [ ] Routes protégées avec `meta: { requiresAuth: true }`
-- [ ] Redirection vers login si non authentifié
-
-
 ## 🎓 Récapitulatif
 
 ### Les 5 concepts clés:
@@ -841,43 +718,6 @@ export default {
 *Exemples de code:*
 - [Vue Router Examples](https://github.com/vuejs/router/tree/main/packages/router/playground/examples)
 
-
-## 🎯 Travail à faire pour la prochaine fois
-
-### Pour votre projet:
-
-1. *Créer la structure du router*
-
-   - Fichier `router/index.js` avec vos routes prévues
-   - Dossier `views/` avec fichiers .vue
-
-2. *Créer les Views skeleton*
-
-   - Chaque View avec template de base
-   - Titre et navigation de test
-
-3. *Tester la navigation*
-
-   - Navigation entre toutes les pages
-   - Vérifier que les URLs changent
-
-4. *Documenter vos routes*
-
-   - Créer un fichier `ROUTES.md`
-   - Lister: path, name, composant, description
-
-*Exemple de documentation:*
-
-```markdown
-# Routes de l'application
-
-| Path | Name | Composant | Description |
-|------|------|-----------|-------------|
-| / | home | HomeView | Page d'accueil |
-| /museum | museum | MuseumView | Liste des salles |
-| /room/:id | room | RoomView | Détail d'une salle |
-| /search | search | SearchView | Recherche globale |
-```
 
 
 ## ❓ Questions fréquentes

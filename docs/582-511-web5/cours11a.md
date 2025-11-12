@@ -41,37 +41,116 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
   <a href="./vue/"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
 </div>
 
-## *Mémoire interactive*
 
-### Création des stores:
+## Travail et en classe sur votre projet
+
+1. *Créer la structure du router*
+
+   - Fichier `router/index.js` avec vos routes prévues
+   - Dossier `views/` avec fichiers .vue
+
+2. *Créer les Views skeleton*
+
+   - Chaque View avec template de base
+   - Titre et navigation de test
+
+3. *Tester la navigation*
+
+   - Navigation entre toutes les pages
+   - Vérifier que les URLs changent
+
+4. *Documenter vos routes*
+
+   - Créer un fichier `ROUTES.md`
+   - Lister: path, name, composant, description
+
+*Exemple de documentation:*
+
+```markdown
+# Routes de l'application
+
+| Path | Name | Composant | Description |
+|------|------|-----------|-------------|
+| / | home | HomeView | Page d'accueil |
+| /museum | museum | MuseumView | Liste des salles |
+| /room/:id | room | RoomView | Détail d'une salle |
+| /search | search | SearchView | Recherche globale |
+```
+
+
+### Checklist pour la partie des `routes`
+
+#### Configuration de base
+
+- [ ] Router installé (`npm install vue-router@4`)
+- [ ] Fichier `router/index.js` créé
+- [ ] Router importé dans `main.js`
+- [ ] `<router-view />` dans `App.vue`
+- [ ] Minimum 4 routes configurées
+
+#### Views
+
+- [ ] Dossier `views/` créé
+- [ ] Minimum 4 Views créées
+- [ ] Nommage cohérent (`*View.vue`)
+- [ ] Chaque View a une responsabilité claire
+
+#### Navigation
+
+- [ ] `<router-link>` pour la navigation
+- [ ] `this.$router.push()` pour navigation programmatique
+- [ ] Styles actifs sur les liens (`.router-link-active`)
+- [ ] Bouton "Retour" fonctionnel
+
+#### Routes dynamiques
+
+- [ ] Au moins 1 route avec paramètre (par exemple `:id` ou `:chapter`)
+- [ ] Accès aux paramètres avec `this.$route.params`
+- [ ] `watch: {}` sur les changements de paramètres
+
+
+## Mise en place de store *Pinia*
+
+### *Mémoire interactive*
+
+#### Création des stores Pinia
 
 - `useMuseumStore.js` (structure de base)
 - `useMemoryStore.js` (structure de base)
 
-### Développement des composants clés:
+#### Développement des composants clés
 
 - `RoomCard.vue` (carte de salle)
 - `MemoryCard.vue` (carte de mémoire)
-- `MemoryList.vue` (grille de mémoires)
+- `MemoryList.vue` (liste ou grille des mémoires)
 
-## *Trace ton chemin*
+### *Trace ton chemin*
 
-### Création des stores:
+#### Création des stores Pinia
 
 - `useStoryStore.js` (chapitres, navigation)
 - `usePlayerStore.js` (état du joueur)
 
-### Création du fichier JSON avec les chapitres
+#### Création du fichier JSON avec les chapitres
 
-### Développement des composants clés:
+#### Développement des composants clés
 
 - `ChoiceButton.vue` (bouton de choix)
 - `ChoicePanel.vue` (panel de choix)
 
-### Affichage des 3-4 premiers chapitres (texte statique)
+#### Affichage des 3-4 premiers chapitres (texte statique)
 
+<!--
+### Protection (optionnel):
 
-## Travail en classe et DEVOIR
+- [ ] Navigation guard configurée (si auth)
+- [ ] Routes protégées avec `meta: { requiresAuth: true }`
+- [ ] Redirection vers login si non authentifié
+-->
+
+## Travail et en classe sur votre projet
+
+## DEVOIR
 
 *À COMPLÉTER POUR LE PROCHAIN COURS*
 
@@ -88,7 +167,7 @@ Terminer ce qui a été commencé en classe:
 - [ ] **Vue Router** configuré avec 4+ routes
 - [ ] **2 stores Pinia** créés avec state/actions/getters de base
 - [ ] **Navigation fonctionnelle** entre les pages
-- [ ] **Données mockées** affichées correctement
+- [ ] **Données mockées** affichées correctement  (données mockée = données fictives pour faire des tests)
 
 ### Trace ton chemin
 
