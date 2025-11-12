@@ -9,6 +9,7 @@ Vous pouvez vous placer en équipe de deux pour faire l'exercice. Nul besoin d'�
 - [ ] 0. Dans VS Code ouvrez le dossier ou vous classez vos exercices et ouvrez le terminal
   - [ ] Créez un projet Vue+Vite ([lien vers les instructions Vue+Vite](../vue/creation-projet-CLI.md))
   - [ ] Ajoutez *Vue Router* lors de l'installation ([sinon installez le pas la suite](../vue/router-and-views.html#2-installation-et-configuration))
+  - [ ] Démarrez le serveur Vite `npm run dev`
   - [ ]  N'oubliez pas de faire un `npm install`pour installer toutes les autres dépendances
 - [ ] 1. Créez le fichier `src/router/index.js`
 - [ ] 2. Configurez 3 routes de base:
