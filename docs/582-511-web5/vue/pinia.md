@@ -157,9 +157,15 @@ Un store Pinia a **3 parties principales:**
 
 `GETTERS`:  Données calculées (comme les propriétés calculées `computed` dans un composant classique Vue)
 
+Dans un `getter`, si on veut accéder au données `state`, on doit écrire préfixer le nom de la données par `state.`. 
+Par exemple `state.dataName` où `dataName` est le nom de la données à laquelle on se réfère.
+
 ### `ACTIONS`
 
 `ACTIONS`: Fonctions qui modifient le state (comme `methods` dans un composant classique Vue)
+
+Dans un `action`, si on veut accéder au données `state`, on doit écrire préfixer le nom de la données par `this.`. 
+Par exemple `this.dataName` où `dataName` est le nom de la données à laquelle on se réfère.
 
 ---
 
@@ -238,24 +244,48 @@ export const useMuseumStore = defineStore('museum', {
 *Structure des stores suggérée:*
 
 1. *`useMuseumStore`*
-   - State (équivalent de data()): `rooms`, `currentRoomId`, `museumName`, `theme`
-   - Actions (équivalent de methods): `addRoom()`, `updateRoom()`, `deleteRoom()`, `setCurrentRoom()`
+   - State (équivalent de data()):
+     - `rooms`
+     - `currentRoomId`
+     - `museumName`
+     - `theme`
+   - Actions (équivalent de methods):
+     - `addRoom()` (optionnel car certains projets ne le permettent pas)
+     - `updateRoom()`
+     - `deleteRoom()`
+     - `setCurrentRoom()`
 
 2. *`useMemoryStore`*
-   - State (équivalent de data()): `memories`, `filters`, `searchQuery`
-   - Actions (équivalent de methods): `addMemory()`, `updateMemory()`, `deleteMemory()`, `searchMemories()`
-   - Getters (équilavent de computed): `filteredMemories`, `memoriesByRoom`, `memoriesByTag`
+   - State (équivalent de data()):
+     - `memories`
+     - `filters`
+     - `searchQuery`
+   - Actions (équivalent de methods):
+     - `addMemory()`
+     - `updateMemory()`
+     - `deleteMemory()`
+     - `searchMemories()`
+   - Getters (équilavent de computed):
+     - `filteredMemories`
+     - `memoriesByRoom`
+     - `memoriesByTag`
 
 3. *`useAuthStore`* (optionnel)
-   - State (équivalent de data()): `user`, `isAuthenticated`
-   - Actions (équivalent de methods): `login()`, `logout()`, `register()`
+   - State (équivalent de data()): 
+     - `user`
+     - `isAuthenticated`
+   - Actions (équivalent de methods): 
+     - `login()`
+     - `logout()`
+     - `register()`
 
-#### Checklist *Trace ton chemin*
+#### Checklist *Mémoires interactives
 
-- [ ] Création des 2 stores obligatoires:
+- [ ] Création des 2 *stores* obligatoires:
   - [ ] `useMuseumStore.js` (structure de base)
   - [ ] `useMemoryStore.js` (structure de base)
-- [ ] Développement des composants clés qui utilisent les stores:
+
+- [ ] Développement des *composants clés* qui utilisent les stores:
   - [ ] `RoomCard.vue` (carte de salle)
   - [ ] `MemoryCard.vue` (carte de mémoire)
   - [ ] `MemoryList.vue` (grille de mémoires)
@@ -264,35 +294,74 @@ export const useMuseumStore = defineStore('museum', {
 
 *Structure des stores suggérée:*
 
-1. *`useStoryStore`*
-   - State (équivalent de data()): `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
-   - Actions (équivalent de methods): `loadChapter()`, `makeChoice()`, `goToChapter()`
-   - Getters (équilavent de computed): `currentChapter`, `isChapterUnlocked()`
+1. *`useStoryStore`* (le plus important du projet)
 
-2. *`usePlayerStore`*
-   - State (équivalent de data()): `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
-   - Actions (équivalent de methods): `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
-   - Getters (équilavent de computed): `hasItem()`, `getRelationship()`, `canAccessEnding()`
+   - State (équivalent de data()):
+     - `currentChapterId`
+     - `visitedChapters`
+     - `storyData`
+     - `availableChoices`
+   - Actions (équivalent de methods):
+     - `loadChapter()`
+     - `makeChoice()`
+     - `goToChapter()`
+   - Getters (équilavent de computed):
+     - `currentChapter`
+     - `isChapterUnlocked()`
+
+2. *`usePlayerStore`* (commencez simple d'abord, juste avec le nom)
+   - State (équivalent de data()):
+     - `playerName`
+     - `karma`
+     - `stats`
+     - `inventory`
+     - `flags`
+     - `relationships`
+   - Actions (équivalent de methods):
+     - `addToInventory()`
+     - `updateStat()`
+     - `setFlag()`
+     - `updateRelationship()`
+   - Getters (équilavent de computed):
+     - `hasItem()`
+     - `getRelationship()`
+     - `canAccessEnding()`
 
 3. *`useSaveStore`*
-   - State (équivalent de data()): `saveSlots` (array de 3 slots)
-   - Actions (équivalent de methods): `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
-   - Getters (équilavent de computed): `hasSaves`, `latestSave`
+   - State (équivalent de data()):
+     - `saveSlots` (array de 3 slots)
+   - Actions (équivalent de methods): 
+     - `saveGame()`
+     - `loadGame()`
+     - `deleteSave()`
+     - `getSaveInfo()`
+   - Getters (équilavent de computed):
+     - `hasSaves`
+     - `latestSave`
 
 4. *`useAudioStore`* (optionnel)
-   - State (équivalent de data()): `currentMusic`, `soundEffects`, `volume`, `isMuted`
-   - Actions (équivalent de methods): `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
+   - State (équivalent de data()):
+     - `currentMusic`
+     - `soundEffects`
+     - `volume`
+     - `isMuted`
+   - Actions (équivalent de methods):
+     - `playMusic()`
+     - `playSound()`
+     - `toggleMute()`
+     - `setVolume()`
 
 #### Checklist *Trace ton chemin*
 
-- [ ] Création des 2 premier stores:
+- [ ] Création des 2 premier *stores*:
   - [ ] `useStoryStore.js` (chapitres, navigation)
-  - [ ] `usePlayerStore.js` (état du joueur)
-- [ ] Création du fichier JSON avec les chapitres
-- [ ] Développement des composants clés qui utilisent les stores:
+  - [ ] `usePlayerStore.js` (état du joueur, commencez réalistement, juste avec son nom)
+
+- [ ] Création du *fichier JSON avec les chapitres*
+
+- [ ] Développement des *composants clés* qui utilisent les stores:
   - [ ] `ChoiceButton.vue` (bouton de choix)
   - [ ] `ChoicePanel.vue` (panel de choix)
-- [ ] Affichage des 3-4 premiers chapitres (texte statique)
 
 
 
