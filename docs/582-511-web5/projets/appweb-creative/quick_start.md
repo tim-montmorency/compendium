@@ -291,9 +291,9 @@ git push origin feature/nom-de-votre-feature
 
 
 
-## 📋 Templates de Fichiers Utiles
+## 📋 Templates de fichiers utiles
 
-### Composant Vue de Base
+### Composant Vue de base
 
 *src/components/ExampleComponent.vue:*
 
@@ -346,7 +346,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-/* Attention le code ici est en format scss, veuillez l'adapter en format css classique */
+// Attention: code démo en format SCSS, veuillez l'adapter en CSS classique
 @import '@/assets/styles/variables';
 @import '@/assets/styles/mixins';
 
@@ -378,7 +378,7 @@ export default {
 </style>
 ```
 
-### Store Pinia de Base
+### Store Pinia de base
 
 *src/stores/exampleStore.js:*
 
@@ -620,6 +620,11 @@ export default {
 
 ```vue
 <template>
+<!-- <Teleport> est un composant natif qui nous permet de "téléporter"
+   une partie du template d'un composant dans un nœud du DOM qui existe 
+   en dehors de la hiérarchie du DOM de ce composant. Ici, la modale se 
+   téléporte dans la balise <body>.
+   Info à propos de <teleport> : https://fr.vuejs.org/guide/built-ins/teleport-->
   <Teleport to="body">
     <Transition name="modal">
       <div v-if="modelValue" class="modal-overlay" @click.self="close">
@@ -669,7 +674,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-/* Attention le code ici est en format scss, veuillez l'adapter en format css classique */
+// Attention: code démo en format SCSS, veuillez l'adapter en CSS classique 
 @import '@/assets/styles/variables';
 
 .modal-overlay {

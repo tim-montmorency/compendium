@@ -241,7 +241,7 @@ export const useMuseumStore = defineStore('museum', {
 
 ## Store Pinia de base
 
-Utilisez ce code de base pour débuter:
+Utilisez ce template de base pour débuter:
 
 ```javascript
 import { defineStore } from 'pinia';
@@ -253,17 +253,17 @@ export const useExampleStore = defineStore('example', {
     isLoading: false,
     error: null
   }),
-  
+
   getters: {
     itemCount: (state) => state.items.length,
-    
+
     hasItems: (state) => state.items.length > 0,
-    
+
     getItemById: (state) => (id) => {
       return state.items.find(item => item.id === id);
     }
   },
-  
+
   actions: {
     addItem(item) {
       this.items.push({
@@ -272,24 +272,114 @@ export const useExampleStore = defineStore('example', {
         createdAt: new Date().toISOString()
       });
     },
-    
+
     updateItem(id, updates) {
       const index = this.items.findIndex(item => item.id === id);
       if (index !== -1) {
         this.items[index] = { ...this.items[index], ...updates };
       }
     },
-    
+
     deleteItem(id) {
       const index = this.items.findIndex(item => item.id === id);
       if (index !== -1) {
         this.items.splice(index, 1);
       }
     },
-    
+
     setCurrentItem(id) {
       this.currentItem = this.getItemById(id);
     }
   }
 });
+```
+
+Exemple complet d'utilisation avec Pinia Store
+
+```vue
+<template>
+  <div class="items-list">
+    <h1>Liste des items ({{ itemCount }})</h1>
+
+    <div v-if="isLoading">Chargement...</div>
+
+    <div v-else-if="hasItems">
+      <div 
+        v-for="item in items" 
+        :key="item.id"
+        class="item-card"
+      >
+        <h3>{{ item.name }}</h3>
+        <button @click="selectItem(item.id)">Voir</button>
+        <button @click="removeItem(item.id)">Supprimer</button>
+      </div>
+    </div>
+
+    <div v-else>
+      <p>Aucun item</p>
+    </div>
+
+    <ButtonPrimary @click="addNewItem">
+      Ajouter un item
+    </ButtonPrimary>
+  </div>
+</template>
+
+<script>
+import { useExampleStore } from '@/stores/exampleStore';
+import { mapState, mapGetters, mapActions } from 'pinia';
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
+
+export default {
+  name: 'ItemsList',
+
+  components: {
+    ButtonPrimary
+  },
+
+  computed: {
+    // Mapper le state
+    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
+
+    // Mapper les getters
+    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
+  },
+
+  methods: {
+    // Mapper les actions
+    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
+
+    addNewItem() {
+      this.addItem({
+        name: `Item ${this.itemCount + 1}`,
+        description: 'Nouvel item'
+      });
+    },
+
+    removeItem(id) {
+      if (confirm('Supprimer cet item?')) {
+        this.deleteItem(id);
+      }
+    },
+
+    selectItem(id) {
+      this.setCurrentItem(id);
+      this.$router.push(`/item/${id}`);
+    }
+  }
+};
+</script>
+
+<style scoped>
+.items-list {
+  padding: 2rem;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+</style>
 ```
