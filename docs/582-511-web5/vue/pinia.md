@@ -87,7 +87,8 @@ Vous devez passer TOUT contenu à travers les `props`, même aux composants prof
 ```vue
 <!-- Dans n'importe quel composant, n'importe où -->
 <script setup>
-/* On importe la méthode use...Store depuis le store qu'on aura préalablement créé */
+/* On importe la méthode use...Store depuis le store 
+qu'on aura préalablement créé */
 import { useMuseumStore } from '@/stores/museumStore';
 
 // On stock la méthode dans une constante interne
@@ -140,7 +141,8 @@ Un store Pinia a *3 parties principales:*
 // On importe la méthode defineStore depuis le module `pinia` 
 import { defineStore } from 'pinia';
 
-// On défnit un store appelé "museum" (ou autre nom adapté à votre projet)
+// On défnit un store appelé "museum" 
+// (ou autre nom adapté à votre projet)
 export const useMuseumStore = defineStore('museum', {
   /* 
   1️⃣ STATE - Les données 
