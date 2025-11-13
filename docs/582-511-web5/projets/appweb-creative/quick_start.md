@@ -941,6 +941,14 @@ Ajoutez dans **package.json:**
 
 ### "npm install" échoue
 
+Dans le terminal, il est possible que vous ne soyez pas positionné dans le dossier du projet, là où se trouve le fichier `package.json`.
+
+Vérifiez votre position actuelle à l’aide de la commande `pwd`, qui indique dans quel dossier vous vous trouvez.
+
+Si vous devez accéder au dossier de votre projet, utilisez la commande `cd nom-du-dossier-du-projet`, en remplaçant *nom-du-dossier-du-projet* par le nom du dossier de *votre* projet.
+
+Si ce n'est pas ça le problème, alors:
+
 ```bash
 # Nettoyer le cache npm
 npm cache clean --force
