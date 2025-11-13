@@ -105,6 +105,18 @@ C'est un endroit où vous pouvez stocker des données qui devront être *partag�
     *Magique!* Tous les composants qui utilisent `museumStore` se mettent à jour automatiquement. ✨
 
 
+    ## 🔄Comparaison: Composant vs Store
+
+    |     Composant Vue    |      Store Pinia     |
+    |:--------------------:|:--------------------:|
+    | data()               | state()              |
+    | computed             | getters              |
+    | methods              | actions              |
+    | Local à un composant | Global à toute l'app |
+
+    #### C'est comme un composant Vue, mais partagé partout!
+
+
 ## Installation de Pinia
 
 Vérifiez si vous ne l'avez pas déjà installé avec le package Vite. Pour ce faire, ouvrez le ficheir `package.json` et vérifiez si `"pinia"` fait partie de la liste des `"dependencies"`.
@@ -199,17 +211,6 @@ export const useMuseumStore = defineStore('museum', {
 });
 ```
 
-## 🔄Comparaison: Composant vs Store
-
-|     Composant Vue    |      Store Pinia     |
-|:--------------------:|:--------------------:|
-| data()               | state()              |
-| computed             | getters              |
-| methods              | actions              |
-| Local à un composant | Global à toute l'app |
-
-
-#### C'est comme un composant Vue, mais partagé partout!
 
 ## Configuration de stores pour le projet *App web créative*
 
