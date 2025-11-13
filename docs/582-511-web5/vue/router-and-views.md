@@ -214,7 +214,32 @@ Fichier *`src/App.vue`:*
 
 ### 3.1. Navigation déclarative (`<router-link>`)
 
-*Usage basique:*
+Usage basique dans le template html
+
+- *Navigation simple*
+
+  `<router-link to="/museum">Musée</router-link>`
+
+- *Navigation avec nom de route* (recommandé)
+
+  `<router-link :to="{ name: 'museum' }">Musée</router-link>`
+
+- Navigation avec *paramètre dynamique*
+
+  ```vue
+  <router-link :to="{ name: 'room', params: { id: 'room-1' } }">
+    Voir la salle
+  </router-link>
+  ```
+
+- Navigation avec *paramètre de requête* (*query string*)
+
+  ```vue
+  <router-link :to="{ name: 'search', query: { q: 'tokyo' } }">
+    Rechercher Tokyo
+  </router-link>
+  ```
+
 
 ```vue
 <template>
@@ -239,24 +264,12 @@ Fichier *`src/App.vue`:*
 </template>
 ```
 
-*Styles actifs:*
-
-```vue
-<template>
-  <!-- Classe 'router-link-active' ajoutée automatiquement -->
-  <router-link to="/museum">Musée</router-link>
-</template>
-
-<style>
-.router-link-active {
-  color: #6366f1;
-  font-weight: bold;
-  border-bottom: 2px solid #6366f1;
-}
-</style>
-```
 
 ### 3.2. Navigation programmatique (dans les méthodes)
+
+- `this.$router.push`: pour naviguer vers une route spécifique (faire afficher une view (page) spécifique)
+- `this.$router.replace`: pour naviguer vers une route spécifique (faire afficher une view (page) spécifique) mais en *empêchant le retour possible en arrière* via la bouton "back" du navigateur (bref, cette méthode remplace l'hitorique de navigation actuelle de l'utilisateur dans l'app)
+- `this.$router.back` OU `this.$router.go(-1)`: pour revenir à la view (page) précédente.
 
 ```vue
 <template>
@@ -320,6 +333,28 @@ this.$router.replace({ name: 'home' });
 - ✅ Après login (éviter de revenir au login)
 - ✅ Redirection automatique
 - ✅ Pages de confirmation
+
+
+
+### Styles CSS actifs
+
+Classe CSS `.router-link-active` est ajoutée automatiquement au liens générés par `<router-link>` qui correspondent à la page en cours.
+Vous pouvez donc la styliser pour lui donner un aspect différent des autres liens de la navigation.
+
+```vue
+<template>
+  <!-- Classe 'router-link-active' ajoutée automatiquement -->
+  <router-link to="/museum">Musée</router-link>
+</template>
+
+<style>
+.router-link-active {
+  color: #6366f1;
+  font-weight: bold;
+  border-bottom: 2px solid #6366f1;
+}
+</style>
+```
 
 
 ## 🎛️ 4: Paramètres de route
