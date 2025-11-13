@@ -219,40 +219,63 @@ export const useMuseumStore = defineStore('museum', {
 *Structure des stores suggérée:*
 
 1. *`useMuseumStore`*
-   - State: `rooms`, `currentRoomId`, `museumName`, `theme`
-   - Actions: `addRoom()`, `updateRoom()`, `deleteRoom()`, `setCurrentRoom()`
+   - State (équivalent de `data()`): `rooms`, `currentRoomId`, `museumName`, `theme`
+   - Actions (équivalent de `methods`): `addRoom()`, `updateRoom()`, `deleteRoom()`, `setCurrentRoom()`
 
 2. *`useMemoryStore`*
-   - State: `memories`, `filters`, `searchQuery`
-   - Actions: `addMemory()`, `updateMemory()`, `deleteMemory()`, `searchMemories()`
-   - Getters: `filteredMemories`, `memoriesByRoom`, `memoriesByTag`
+   - State (équivalent de `data()`): `memories`, `filters`, `searchQuery`
+   - Actions (équivalent de `methods`): `addMemory()`, `updateMemory()`, `deleteMemory()`, `searchMemories()`
+   - Getters (équilavent de `computed`): `filteredMemories`, `memoriesByRoom`, `memoriesByTag`
 
 3. *`useAuthStore`* (optionnel)
-   - State: `user`, `isAuthenticated`
-   - Actions: `login()`, `logout()`, `register()`
+   - State (équivalent de `data()`): `user`, `isAuthenticated`
+   - Actions (équivalent de `methods`): `login()`, `logout()`, `register()`
+
+#### Checklist *Trace ton chemin*
+
+- [ ] Création des 2 stores obligatoires:
+  - [ ] `useMuseumStore.js` (structure de base)
+  - [ ] `useMemoryStore.js` (structure de base)
+- [ ] Développement des composants clés qui utilisent les stores:
+  - [ ] `RoomCard.vue` (carte de salle)
+  - [ ] `MemoryCard.vue` (carte de mémoire)
+  - [ ] `MemoryList.vue` (grille de mémoires)
 
 ### Pour *Trace ton chemin*
 
 *Structure des stores suggérée:*
 
 1. *`useStoryStore`*
-   - State: `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
-   - Actions: `loadChapter()`, `makeChoice()`, `goToChapter()`
-   - Getters: `currentChapter`, `isChapterUnlocked()`
+   - State (équivalent de `data()`): `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
+   - Actions (équivalent de `methods`): `loadChapter()`, `makeChoice()`, `goToChapter()`
+   - Getters (équilavent de `computed`): `currentChapter`, `isChapterUnlocked()`
 
 2. *`usePlayerStore`*
-   - State: `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
-   - Actions: `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
-   - Getters: `hasItem()`, `getRelationship()`, `canAccessEnding()`
+   - State (équivalent de `data()`): `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
+   - Actions (équivalent de `methods`): `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
+   - Getters (équilavent de `computed`): `hasItem()`, `getRelationship()`, `canAccessEnding()`
 
 3. *`useSaveStore`*
-   - State: `saveSlots` (array de 3 slots)
-   - Actions: `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
-   - Getters: `hasSaves`, `latestSave`
+   - State (équivalent de `data()`): `saveSlots` (array de 3 slots)
+   - Actions (équivalent de `methods`): `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
+   - Getters (équilavent de `computed`): `hasSaves`, `latestSave`
 
 4. *`useAudioStore`* (optionnel)
-   - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
-   - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
+   - State (équivalent de `data()`): `currentMusic`, `soundEffects`, `volume`, `isMuted`
+   - Actions (équivalent de `methods`): `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
+
+#### Checklist *Trace ton chemin*
+
+- [ ] Création des 2 premier stores:
+  - [ ] `useStoryStore.js` (chapitres, navigation)
+  - [ ] `usePlayerStore.js` (état du joueur)
+- [ ] Création du fichier JSON avec les chapitres
+- [ ] Développement des composants clés qui utilisent les stores:
+  - [ ] `ChoiceButton.vue` (bouton de choix)
+  - [ ] `ChoicePanel.vue` (panel de choix)
+- [ ] Affichage des 3-4 premiers chapitres (texte statique)
+
+
 
 ## Store Pinia de base
 
@@ -309,8 +332,7 @@ export const useExampleStore = defineStore('example', {
 });
 ```
 
-
-## Exemple complet d'un composant intégrant Pinia Store
+## Exemple complet d'un composant intégrant un store Pinia
 
 <small>Ajout du 13 novembre 2025</small>
 

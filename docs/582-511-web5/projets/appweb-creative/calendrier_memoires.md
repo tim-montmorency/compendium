@@ -83,6 +83,7 @@
 
 **Jour 2 (5h):**
 - Mini-cours: Pinia en profondeur (45 min)
+
 - Création des stores:
   - `useMuseumStore.js` (structure de base)
   - `useMemoryStore.js` (structure de base)
