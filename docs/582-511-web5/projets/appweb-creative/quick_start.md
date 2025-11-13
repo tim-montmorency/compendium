@@ -758,7 +758,9 @@ export default {
 </style>
 ```
 
-#### Exemple d'utilisation du Modal (ajout 13 nov.)
+#### Exemple d'utilisation du Modal
+
+<small>Ajout du 13 novembre 2025</small>
 
 ```vue
 <template>
@@ -810,7 +812,9 @@ export default {
 </script>
 ```
 
-## Exemple complet avec Pinia Store (ajout 13 nov.)
+## Exemple complet d'un composant intégrant Pinia Store
+
+<small>Ajout du 13 novembre 2025</small>
 
 ```vue
 <template>

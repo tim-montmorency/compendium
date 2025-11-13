@@ -294,7 +294,10 @@ export const useExampleStore = defineStore('example', {
 });
 ```
 
-Exemple complet d'utilisation avec Pinia Store
+
+## Exemple complet d'un composant intégrant Pinia Store
+
+<small>Ajout du 13 novembre 2025</small>
 
 ```vue
 <template>
