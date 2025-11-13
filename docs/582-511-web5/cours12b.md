@@ -46,7 +46,9 @@
 
 Réalisé en classe. Instructions à venir.
 
-## Mini cours: GSAP + Vue 3 - GSAP pour narration interactive (45 min) 
+## Cours: GSAP + Vue 3 - GSAP pour narration interactive
+
+[Router et transition animées entre pages](./vue/route-transition-animee.md)
 
 - Les composants natifs à Vue nommés `<Transition>` et `<TransitionGroup>`
   - [En savoir plus sur les `<Transition>`](https://fr.vuejs.org/guide/built-ins/transition)

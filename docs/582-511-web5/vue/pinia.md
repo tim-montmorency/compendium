@@ -238,3 +238,58 @@ export const useMuseumStore = defineStore('museum', {
 4. *`useAudioStore`* (optionnel)
    - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
    - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
+
+## Store Pinia de base
+
+Utilisez ce code de base pour débuter:
+
+```javascript
+import { defineStore } from 'pinia';
+
+export const useExampleStore = defineStore('example', {
+  state: () => ({
+    items: [],
+    currentItem: null,
+    isLoading: false,
+    error: null
+  }),
+  
+  getters: {
+    itemCount: (state) => state.items.length,
+    
+    hasItems: (state) => state.items.length > 0,
+    
+    getItemById: (state) => (id) => {
+      return state.items.find(item => item.id === id);
+    }
+  },
+  
+  actions: {
+    addItem(item) {
+      this.items.push({
+        ...item,
+        id: Date.now().toString(),
+        createdAt: new Date().toISOString()
+      });
+    },
+    
+    updateItem(id, updates) {
+      const index = this.items.findIndex(item => item.id === id);
+      if (index !== -1) {
+        this.items[index] = { ...this.items[index], ...updates };
+      }
+    },
+    
+    deleteItem(id) {
+      const index = this.items.findIndex(item => item.id === id);
+      if (index !== -1) {
+        this.items.splice(index, 1);
+      }
+    },
+    
+    setCurrentItem(id) {
+      this.currentItem = this.getItemById(id);
+    }
+  }
+});
+```
