@@ -35,7 +35,7 @@ Créer **12 planches** représentant un générique de film en pause. Les images
 
 - **Illustrations et Moodboard**
   * [ ] Un **moodboard**.
-  * [ ] Six **images de générique**.
+  * [ ] 8 **images de générique**.
 
 Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts**.
 
@@ -47,7 +47,7 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
 
 #### Présentation des Illustrations
 - **PowerPoint**
-  * [ ] Importez vos six images de générique et votre signature.
+  * [ ] Importez vos 12 images de générique.
   * [ ] Sauvegardez vos fichiers en **JPG** et conservez également vos copies **PSD**.
   * [ ] Importez les JPG dans un document **PowerPoint** ou autre support au format **16/9**, avec un **fond blanc ou noir**, sans transitions.
   * [ ] Intégrez une **musique** qui jouera tout au long de l'exposé.
