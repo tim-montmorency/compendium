@@ -12,7 +12,7 @@ Voilà pourquoi Pinia existe!
 
 C'est un endroit où vous pouvez stocker des données qui devront être *partagées entre plusieurs composants* Vue.
 
-??? example "Pourquoi Pinia, quel problème résout-il?"
+??? question "Pourquoi Pinia, quel problème résout-il?"
     ## 🤔Le problème qu'il résout
 
     ### Sans Pinia (le cauchemar)
