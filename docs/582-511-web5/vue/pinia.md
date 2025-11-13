@@ -12,97 +12,98 @@ Voilà pourquoi Pinia existe!
 
 C'est un endroit où vous pouvez stocker des données qui devront être *partagées entre plusieurs composants* Vue.
 
+??? example "Pourquoi Pinia, quel problème résout-il?"
+    ## 🤔Le problème qu'il résout
 
-## 🤔Le problème qu'il résout
+    ### Sans Pinia (le cauchemar)
 
-### Sans Pinia (le cauchemar)
+    Imaginez que vous avez:
 
-Imaginez que vous avez:
+    - Un composant `Header.vue` qui affiche le nom de l'utilisateur
+    - Un composant `Sidebar.vue` qui liste les salles du musée
+    - Un composant `MemoryList.vue` qui affiche les mémoires
+    - Un composant `AddMemoryForm.vue` qui ajoute une mémoire
 
-- Un composant `Header.vue` qui affiche le nom de l'utilisateur
-- Un composant `Sidebar.vue` qui liste les salles du musée
-- Un composant `MemoryList.vue` qui affiche les mémoires
-- Un composant `AddMemoryForm.vue` qui ajoute une mémoire
+    *Comment faire circuler les données entre tous ces composants?*
 
-*Comment faire circuler les données entre tous ces composants?*
+    ```
+    App.vue (parent)
+    ├── Header.vue (affiche userName)
+    ├── Sidebar.vue (affiche rooms)
+    └── MainContent.vue
+    ├── MemoryList.vue (affiche memoryList (la liste des souvenirs))
+    └── AddMemoryForm.vue (ajoute une memory (un souvenir))
 
-```
-App.vue (parent)
-├── Header.vue (affiche userName)
-├── Sidebar.vue (affiche rooms)
-└── MainContent.vue
-├── MemoryList.vue (affiche memoryList (la liste des souvenirs))
-└── AddMemoryForm.vue (ajoute une memory (un souvenir))
-
-```
+    ```
 
 
-Sans Pinia, vous devez:
+    Sans Pinia, vous devez:
 
-1. Passer les données de parent en enfant avec `props` (fastidieux!)
-2. Remonter les événements avec `emits` (complexe!)
-3. Dupliquer les données dans plusieurs composants (cauchemar de synchronisation!)
+    1. Passer les données de parent en enfant avec `props` (fastidieux!)
+    2. Remonter les événements avec `emits` (complexe!)
+    3. Dupliquer les données dans plusieurs composants (cauchemar de synchronisation!)
 
-*Exemple sans Pinia (`props` hell):*
+    *Exemple sans Pinia (`props` hell):*
 
-```vue
-<!-- App.vue -->
-<template>
-  <Header :userName="userName" />
-  <Sidebar :rooms="rooms" @room-added="addRoom" />
-  <MainContent 
-    :rooms="rooms" 
-    :memories="memories"
-    @memory-added="addMemory"
-  />
-</template>
+    ```vue
+    <!-- App.vue -->
+    <template>
+      <Header :userName="userName" />
+      <Sidebar :rooms="rooms" @room-added="addRoom" />
+      <MainContent 
+        :rooms="rooms" 
+        :memories="memories"
+        @memory-added="addMemory"
+      />
+    </template>
 
-<script>
-export default {
-  data() {
-    return {
-      userName: 'Alice',
-      rooms: [...],
-      memories: [...]
-    };
-  },
-  methods: {
-    addRoom(room) { /* ... */ },
-    addMemory(memory) { /* ... */ }
-  }
-}
-</script>
-```
+    <script>
+    export default {
+      data() {
+        return {
+          userName: 'Alice',
+          rooms: [...],
+          memories: [...]
+        };
+      },
+      methods: {
+        addRoom(room) { /* ... */ },
+        addMemory(memory) { /* ... */ }
+      }
+    }
+    </script>
+    ```
 
-Vous devez passer TOUT contenu à travers les `props`, même aux composants profondément imbriqués! 😱
+    Vous devez passer TOUT contenu à travers les `props`, même aux composants profondément imbriqués! 😱
 
-## Avec Pinia (la solution élégante)
+    ## Avec Pinia (la solution élégante)
 
-*Vous créez un "store" (magasin) central* où TOUS les composants peuvent:
+    *Vous créez un "store" (magasin) central* où TOUS les composants peuvent:
 
-- Lire les données directement
-- Modifier les données directement
-- S'abonner aux changements automatiquement
+    - Lire les données directement
+    - Modifier les données directement
+    - S'abonner aux changements automatiquement
 
-```vue
-<!-- Dans n'importe quel composant, n'importe où -->
-<script setup>
-/* On importe la méthode use...Store depuis le store 
-qu'on aura préalablement créé */
-import { useMuseumStore } from '@/stores/museumStore';
+    ```vue
+    <!-- Dans n'importe quel composant, n'importe où -->
+    <script setup>
+    /* On importe la méthode use...Store depuis le store 
+    qu'on aura préalablement créé */
+    import { useMuseumStore } from '@/stores/museumStore';
 
-// On stock la méthode dans une constante interne
-const museumStore = useMuseumStore();
+    // On stock la méthode dans une constante interne
+    const museumStore = useMuseumStore();
 
-// Lire des données du store
-console.log(museumStore.rooms);
+    // Lire des données du store
+    console.log(museumStore.rooms);
 
-// Ajouter une données au store (ici on ajoute une mémoire)
-museumStore.addMemory(roomId, memoryData);
-</script>
-```
+    // Ajouter une données au store (ici on ajoute une mémoire)
+    museumStore.addMemory(roomId, memoryData);
+    </script>
+    ```
 
-*Magique!* Tous les composants qui utilisent `museumStore` se mettent à jour automatiquement. ✨
+    *Magique!* Tous les composants qui utilisent `museumStore` se mettent à jour automatiquement. ✨
+
 
 ## Installation de Pinia
 
@@ -118,6 +119,7 @@ npm install pinia
 
 Pour initialiser Pinia, vous devez importer la méthode `createApp()` dans votre fichier `main.js` puis l'enregistrer avec `app.use()`.
 
+*`src/main.js`*
 
 ```
 import { createApp } from 'vue'
@@ -131,11 +133,21 @@ app.use(createPinia())
 app.mount('#app')
 ```
 
-
-
 ## Définir un store Pinia
 
-Un store Pinia a *3 parties principales:*
+Poir définir un nouveau store Pinia, il faut créer un nouveau fichier JavaScript. Ces fichiers JavaScript doivent être placés dans le un dossier `stores` dans `src` juste à coté des dossiers `components`, `router`, `views` etc.
+
+![Les fichiers sont placés dans un dossier stores](./assets/structure-fichiers-stores-pinia.png)
+
+### Un store Pinia a *3 parties principales:*
+
+- `STATE`: Les données (comme `data()` dans un composant classique Vue)
+- `GETTERS`:  Données calculées (comme les propriétés calculées `computed` dans un composant classique Vue)
+- `ACTIONS`: Fonctions qui modifient le state (comme `methods` dans un composant classique Vue)
+
+Par exemple un store Pinia qui s'appellerait museumStore serait défini dans un fichier placé ici:
+
+*`src/stores/museum.js`*
 
 ```javascript
 // On importe la méthode defineStore depuis le module `pinia` 

@@ -1,6 +1,6 @@
 # Cours 11.2 PHASE INTERACTIVITÉ
 
-vendredi 14 novembre
+Vendredi 14 novembre
 
 
 <!-- 
@@ -8,6 +8,12 @@ vendredi 14 novembre
 - les remises y compris.
 - ce qui ferait en sorte qu'il ny aurait pas de présentation à la fin mais ils gagneraient un cours supp pour travailler et la remise serait faite disons 3 jours après le cours 15.2
 -->
+
+## Rappel impotant! *Vue 3*, version *Option API*
+
+Vous codez avec la version *Vue 3* et surtout vous rappeler qu'on utilise présentement l'*Option API*.
+
+N'allez surtout pas prendre des code n'importe où sans vous rappeler de cette importante information.
 
 ## Retour sur routes
 
