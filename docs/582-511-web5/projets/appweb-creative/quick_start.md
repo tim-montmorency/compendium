@@ -921,7 +921,7 @@ Ajoutez dans **package.json:**
 ```
 
 
-## ✅ Checklist premier jour
+## ✅ Checklist
 
 - [ ] Node.js et npm installés
 - [ ] Git installé et configuré
