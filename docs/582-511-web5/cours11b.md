@@ -11,9 +11,13 @@ Vendredi 14 novembre
 
 ## Rappel impotant! *Vue 3*, version *Option API*
 
-Vous codez avec la version *Vue 3* et surtout vous rappeler qu'on utilise présentement l'*Option API*.
+Vous codez avec la version *Vue 3* et surtout vous rappeler qu'on utilise présentement l'*Options API*.
+
+Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./vue/assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;">
 
 N'allez surtout pas prendre des code n'importe où sans vous rappeler de cette importante information.
+
+
 
 ## Retour sur routes
 

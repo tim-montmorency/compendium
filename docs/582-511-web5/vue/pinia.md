@@ -167,7 +167,8 @@ Un store Pinia a **3 parties principales:**
 
 Pour définir un nouveau store Pinia, il faut créer un nouveau fichier JavaScript. Ces fichiers JavaScript doivent être placés dans le un dossier `stores` dans `src` juste à coté des dossiers `components`, `router`, `views` etc.
 
-![Les fichiers sont placés dans un dossier stores](./assets/structure-fichiers-stores-pinia.png)
+<img src="./assets/structure-fichiers-stores-pinia.png" alt="Les fichiers sont placés dans un dossier stores" style="width: 200px;">
+
 
 Par exemple un store Pinia qui s'appellerait `museumStore` serait défini dans un fichier placé ici:
 
