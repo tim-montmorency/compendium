@@ -197,10 +197,14 @@ export const useMuseumStore = defineStore('museum', {
   */
   getters: {
     currentRoom: (state) => {
-      return state.rooms.find(r => r.id === state.currentRoomId);
+      /* find() recherche dans l'array des salles (state.rooms)
+      la salle courante (state.currentRoomId) */
+      return state.rooms.find(room => room.id === state.currentRoomId);
     },
     
     totalMemories: (state) => {
+      /* reduce() additionne le nombre de memories accumulées jusqu'à présent
+      dans toutes les salles au nombre de memories de la salle actuelle */
       return state.rooms.reduce((sum, room) => 
         sum + room.memories.length, 0
       );
@@ -217,7 +221,9 @@ export const useMuseumStore = defineStore('museum', {
     },
     
     deleteRoom(roomId) {
+      // On cherche l'INDEX (la position) de la room dans l'array des salles
       const index = this.rooms.findIndex(r => r.id === roomId);
+      // On le retire du tableau des salles
       this.rooms.splice(index, 1);
     }
   }
@@ -306,16 +312,22 @@ export const useExampleStore = defineStore('example', {
   }),
 
   getters: {
+    // Retourne le nombre d'items dansle array state.items
     itemCount: (state) => state.items.length,
 
+    /* Retourne true si l'array state.items contient des items
+    et false s'il est vide */
     hasItems: (state) => state.items.length > 0,
 
+    /* Récupére un item spécifique de l'array state.items
+    par son id */
     getItemById: (state) => (id) => {
       return state.items.find(item => item.id === id);
     }
   },
 
   actions: {
+    // ajoute un items au tableau this.items
     addItem(item) {
       this.items.push({
         ...item,
@@ -324,6 +336,8 @@ export const useExampleStore = defineStore('example', {
       });
     },
 
+    /* modifie un item spécifique du tableau this.items 
+    en lui spécifiant son id */
     updateItem(id, updates) {
       const index = this.items.findIndex(item => item.id === id);
       if (index !== -1) {
@@ -331,6 +345,8 @@ export const useExampleStore = defineStore('example', {
       }
     },
 
+    /* supprime un item du tableau this.items
+    en lui spécifiant son id */
     deleteItem(id) {
       const index = this.items.findIndex(item => item.id === id);
       if (index !== -1) {
@@ -338,6 +354,8 @@ export const useExampleStore = defineStore('example', {
       }
     },
 
+    /* modifie l'item actuel à afficher (storé dans this.currentItem) 
+    en lui spécifiant le id */
     setCurrentItem(id) {
       this.currentItem = this.getItemById(id);
     }
