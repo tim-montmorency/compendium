@@ -147,17 +147,29 @@ app.mount('#app')
 
 ## Définir un store Pinia
 
-Poir définir un nouveau store Pinia, il faut créer un nouveau fichier JavaScript. Ces fichiers JavaScript doivent être placés dans le un dossier `stores` dans `src` juste à coté des dossiers `components`, `router`, `views` etc.
+Un store Pinia a **3 parties principales:**
+
+### `STATE`
+
+`STATE`: Les données (comme `data()` dans un composant classique Vue)
+
+### `GETTERS`
+
+`GETTERS`:  Données calculées (comme les propriétés calculées `computed` dans un composant classique Vue)
+
+### `ACTIONS`
+
+`ACTIONS`: Fonctions qui modifient le state (comme `methods` dans un composant classique Vue)
+
+---
+
+### Définir un store Pinia: le fichier .js
+
+Pour définir un nouveau store Pinia, il faut créer un nouveau fichier JavaScript. Ces fichiers JavaScript doivent être placés dans le un dossier `stores` dans `src` juste à coté des dossiers `components`, `router`, `views` etc.
 
 ![Les fichiers sont placés dans un dossier stores](./assets/structure-fichiers-stores-pinia.png)
 
-### Un store Pinia a *3 parties principales:*
-
-- `STATE`: Les données (comme `data()` dans un composant classique Vue)
-- `GETTERS`:  Données calculées (comme les propriétés calculées `computed` dans un composant classique Vue)
-- `ACTIONS`: Fonctions qui modifient le state (comme `methods` dans un composant classique Vue)
-
-Par exemple un store Pinia qui s'appellerait museumStore serait défini dans un fichier placé ici:
+Par exemple un store Pinia qui s'appellerait `museumStore` serait défini dans un fichier placé ici:
 
 *`src/stores/museum.js`*
 
