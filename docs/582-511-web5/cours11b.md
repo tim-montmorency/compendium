@@ -28,8 +28,8 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 
 ### Exercice Routes
 
-[Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
-
+- Pour les étudiants de *Trace ton chemin*[Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
+- Pour les étudiants de *Mémoires interactives* [Exercice des routes parmis les salles](./exercices/vue-rooms/)
 
 ## Cours: Pinia
 
