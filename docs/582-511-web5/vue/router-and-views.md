@@ -336,27 +336,6 @@ this.$router.replace({ name: 'home' });
 
 
 
-### Styles CSS actifs
-
-Classe CSS `.router-link-active` est ajoutée automatiquement au liens générés par `<router-link>` qui correspondent à la page en cours.
-Vous pouvez donc la styliser pour lui donner un aspect différent des autres liens de la navigation.
-
-```vue
-<template>
-  <!-- Classe 'router-link-active' ajoutée automatiquement -->
-  <router-link to="/museum">Musée</router-link>
-</template>
-
-<style>
-.router-link-active {
-  color: #6366f1;
-  font-weight: bold;
-  border-bottom: 2px solid #6366f1;
-}
-</style>
-```
-
-
 ## 🎛️ 4: Paramètres de route
 
 ### 4.1. Routes avec paramètres dynamiques
@@ -503,7 +482,29 @@ export default {
 ```
 
 
-## 🗂️ 5: Organisation des routes pour le projet *App web créative*
+### 🎨 5: Styles CSS actifs
+
+Classe CSS `.router-link-active` est ajoutée automatiquement au liens générés par `<router-link>` qui correspondent à la page en cours.
+Vous pouvez donc la styliser pour lui donner un aspect différent des autres liens de la navigation.
+
+```vue
+<template>
+  <!-- Classe 'router-link-active' ajoutée automatiquement -->
+  <router-link to="/museum">Musée</router-link>
+</template>
+
+<style>
+.router-link-active {
+  color: #6366f1;
+  font-weight: bold;
+  border-bottom: 2px solid #6366f1;
+}
+</style>
+```
+
+
+
+## 🗂️ 6: Organisation des routes pour le projet *App web créative*
 
 ### Pour "Mémoires interactives"
 
