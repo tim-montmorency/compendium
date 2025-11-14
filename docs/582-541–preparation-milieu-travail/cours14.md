@@ -11,6 +11,10 @@
 * Finissants: 30,24$
 * Travailleur autonome: + 15 à 20%
 
+
+## Finances
+[📁 Quiz d'introduction 2](https://www.lapresse.ca/affaires/economie/2024-11-10/quiz/les-finances-et-vous.php){ .md-button }
+
   
 [📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
 

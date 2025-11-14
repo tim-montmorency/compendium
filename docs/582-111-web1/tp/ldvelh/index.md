@@ -2,7 +2,13 @@
 
 ![](./ldvelh.gif){.w-100}
 
-<!-- > Cette évaluation vise à mesurer l’autonomie de l’étudiant dans la conception et la réalisation d’une création Web adaptée à un contexte défini. -->
+<!-- 
+
+À ajuster : 
+
+  L'idée d'avoir une histoire en continu ne fonctionne pas : les étudiants ne remettent pas la bonne structure de dossier, certains quittent le programme, certains ne sont pas assidus, bref, à changer.
+
+-->
 
 Le travail pratique LDVELH est séparé en 2 phases, soit la phase de **planification** et la phase de **développement**.
 

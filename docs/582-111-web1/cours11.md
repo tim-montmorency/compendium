@@ -363,3 +363,8 @@ La propriété CSS [box-shadow](https://developer.mozilla.org/fr/docs/Web/CSS/Re
   <small>Exercice - CSS</small><br>
   **[Discord, la suite](./exercices/discord-suite/index.md){.stretched-link .back}**
 </div>
+
+
+[STOP]
+
+Note : Ajouter la notion de visibility. Elle n'a pas été traitée dans le cours 🤷
