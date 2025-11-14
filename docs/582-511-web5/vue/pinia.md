@@ -236,6 +236,142 @@ export const useMuseumStore = defineStore('museum', {
 });
 ```
 
+## Accéder au stores
+
+Pour accéder aux éléments d'un store dans un composant Vue, il faut d'abord importer ce fameux store.
+
+Ensuite, on fait appel à la fonction helper de pinia nommée `mapStore()` afin de mapper l'ensemble des éléments du store  (`state`, `getters`) au sein de propriétés calculées `computed` du composant.
+
+On fait appel
+
+```vue
+import { mapStores } from 'pinia'
+import { useMuseumStore } from '../stores/museum'
+
+export default {
+	computed: {
+		// Store accessible via l'objet this.useMuseumStore
+		...mapStores(useMuseumStore),
+	}
+}
+```
+
+Ensuite, ces propriétés calculées sont accessibles via un objet nommé: *identifiant du store + `Store`*. Par exemple, ici ce serait `museumStore`.
+
+Par exemple:
+
+```
+museumStore.rooms // Pour le state qui contient la liste des salles
+museumStore.currentRoom // Pour un getter qui retourne le contenu de la salle courante
+museumStore.deleteRoom(4) // Pour une action qui supprime la salle ayant l'id 4
+```
+
+## Exemple complet d'un compteur utilisant un store Pinia
+
+On enregistre les composants `componentA.vue` et `componentV.vue`
+
+*Fichier `main.js`*
+
+```vue
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+import ComponentA from './components/ComponentA.vue'
+import ComponentB from './components/ComponentB.vue'
+
+import './assets/main.css'
+
+const app = createApp(App)
+
+app.use(createPinia())
+
+app.component('ComponentA', ComponentA)
+app.component('ComponentB', ComponentB)
+
+app.mount('#app')
+```
+
+On utilise ces 2 composants dans `App.vue`
+
+*Fichier `src/App.vue`*
+
+```
+<template>
+	<ComponentA/>
+	<ComponentB/>
+</template>
+```
+
+On déclare un store `counter.js`
+
+*Fichier `src/stores/counter.js`*
+
+```
+import { defineStore } from 'pinia'
+
+export const useCounterStore = defineStore('counter', {
+	state: () => ({
+		counter: 0
+	}),
+	actions: {
+		increment() {
+			this.counter++
+		}
+	},
+	getters: {
+		isEven: (state) => {
+			return state.counter % 2 == 0
+		}
+	}
+})
+```
+
+On peut désormais utiliser ce store partagé dans plusieurs composants.
+
+Par exemple, j'incrémente le compteur du store depuis `ComponentA``
+
+*Fichier `src/components/ComponentA.vue`*
+
+```
+<template>
+	<h1>Component A</h1>
+	<button @click="counterStore.increment()">Ajouter</button>
+</template>
+
+<script>
+	import { useCounterStore } from '../stores/counter'
+	import { mapStores } from 'pinia'
+	
+	export default {
+		computed: {
+			...mapStores(useCounterStore),
+		}
+	}
+</script>
+```
+
+Je récupère la valeur du compteur du store depuis `ComponentB`:
+
+*Fichier `src/components/ComponentA.vue`*
+
+```
+<template>
+	<h1>Component B</h1>
+	<p>{{ counterStore.counter }}</p>
+</template>
+
+<script>
+	import { useCounterStore } from '../stores/counter'
+	import { mapStores } from 'pinia'
+	
+	export default {
+		computed: {
+			...mapStores(useCounterStore),
+		}
+	}
+</script>
+```
+
 
 ## Configuration de stores pour le projet *App web créative*
 
@@ -432,20 +568,20 @@ export const useExampleStore = defineStore('example', {
 });
 ```
 
-## Exemple complet d'un composant intégrant un store Pinia
+## Exemple d'un composant intégrant un store Pinia
 
 <small>Ajout du 13 novembre 2025</small>
 
 ```vue
 <template>
   <div class="items-list">
-    <h1>Liste des items ({{ itemCount }})</h1>
-
-    <div v-if="isLoading">Chargement...</div>
-
-    <div v-else-if="hasItems">
+    <h1>Liste des items ({{ exampleStore.itemCount }})</h1>
+    
+    <div v-if="exampleStore.isLoading">Chargement...</div>
+    
+    <div v-else-if="exampleStore.hasItems">
       <div 
-        v-for="item in items" 
+        v-for="item in exampleStore.items" 
         :key="item.id"
         class="item-card"
       >
@@ -454,11 +590,11 @@ export const useExampleStore = defineStore('example', {
         <button @click="removeItem(item.id)">Supprimer</button>
       </div>
     </div>
-
+    
     <div v-else>
       <p>Aucun item</p>
     </div>
-
+    
     <ButtonPrimary @click="addNewItem">
       Ajouter un item
     </ButtonPrimary>
@@ -467,43 +603,41 @@ export const useExampleStore = defineStore('example', {
 
 <script>
 import { useExampleStore } from '@/stores/exampleStore';
-import { mapState, mapGetters, mapActions } from 'pinia';
+import { mapStores } from 'pinia';
 import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
 
 export default {
   name: 'ItemsList',
-
+  
   components: {
     ButtonPrimary
   },
-
+  
   computed: {
-    // Mapper le state
-    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
-
-    // Mapper les getters
-    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
+    // Mapper le store complet
+    // Cela donne accès à : exampleStore.state, exampleStore.getters, exampleStore.actions
+    ...mapStores(useExampleStore)
   },
-
+  
   methods: {
-    // Mapper les actions
-    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
-
     addNewItem() {
-      this.addItem({
-        name: `Item ${this.itemCount + 1}`,
+      // Accès aux actions via exampleStore
+      this.exampleStore.addItem({
+        name: `Item ${this.exampleStore.itemCount + 1}`,
         description: 'Nouvel item'
       });
     },
-
+    
     removeItem(id) {
       if (confirm('Supprimer cet item?')) {
-        this.deleteItem(id);
+        // Accès aux actions via exampleStore
+        this.exampleStore.deleteItem(id);
       }
     },
-
+    
     selectItem(id) {
-      this.setCurrentItem(id);
+      // Accès aux actions via exampleStore
+      this.exampleStore.setCurrentItem(id);
       this.$router.push(`/item/${id}`);
     }
   }
