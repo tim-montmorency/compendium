@@ -60,7 +60,7 @@ Exemples:
 - `concat()`
 
 
-## Travail en classe Mise en place de store *Pinia*
+## Travail en classe et DEVOIR: Mise en place de store *Pinia*
 
 En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'ajoute:
 
