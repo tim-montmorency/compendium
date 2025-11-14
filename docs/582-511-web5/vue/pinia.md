@@ -450,10 +450,10 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `currentChapter`
      - `isChapterUnlocked()`
 
-2. *`usePlayerStore`* (commencez simple d'abord, juste avec le nom)
+2. *`usePlayerStore`* (pour le système de conséquences)
    - State (équivalent de data()):
-     - `playerName`
-     - `karma`
+     - `playerName` (le nom du joueur)
+     - `karma` 
      - `stats`
      - `inventory`
      - `flags`

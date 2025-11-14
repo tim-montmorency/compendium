@@ -31,7 +31,6 @@ Développement du système de choix:
 
 Tests des premières branches
 
-<!-- Ici je dois limiter les devoirs car c'est vendredi et on se revoir lundi -->
 
 ## Devoirs
 
@@ -73,19 +72,19 @@ Avancer ce qui a été commencé en classe:
 
 - Système de recherche:
 
-  - Barre de recherche
-  - Filtrage par tags
-  - Filtrage par salle
+  - Barre de recherche *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+  - Filtrage par tags *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+  - Filtrage par salle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 
 ## *Trace ton chemin*: Système de Choix et Branches
 
-- Implémentation du tracking des conséquences:
+- Implémentation du tracking des conséquences: *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
   - Système de flags (événements déclenchés)
   - Karma/stats (si applicable)
   - Inventaire (si applicable)
   - Relations avec personnages (si applicable)
 
-- Historique des choix:
+- Historique des choix du joueur:
   - Enregistrement de chaque décision
   - Affichage dans un menu (optionnel)
 
@@ -118,8 +117,8 @@ Terminer ce qui a été commencé en classe:
 - [ ] **Formulaire d'ajout** complet et validé
 - [ ] **Formulaire d'édition** fonctionnel
 - [ ] **Suppression** avec confirmation
-- [ ] **Recherche** par mot-clé fonctionnelle
-- [ ] **Filtres** par tags et par salle
+- [ ] **Recherche** par mot-clé fonctionnelle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+- [ ] **Filtres** par tags et par salle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 - [ ] **Messages d'erreur** clairs et pertinents
 
 *Trace ton chemin*
@@ -128,7 +127,7 @@ Terminer ce qui a été commencé en classe:
 
 - [ ] **Système de choix** complet et fonctionnel
 - [ ] **Redirection par branches** fonctionnelle
-- [ ] **Tracking des conséquences** (flags, stats, etc.)
+- [ ] **Tracking des conséquences** (flags, stats, etc.) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 - [ ] **Historique des choix** sauvegardé
 - [ ] **Toutes les branches** testées manuellement
 - [ ] **Logique des fins** implémentée (conditions d'accès)

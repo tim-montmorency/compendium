@@ -19,9 +19,9 @@
       - [ ] **Formulaire d'ajout** complet et validé
       - [ ] **Formulaire d'édition** fonctionnel
       - [ ] **Suppression** avec confirmation
-      - [ ] **Recherche** par mot-clé fonctionnelle
-      - [ ] **Filtres** par tags et par salle
-      - [ ] **Messages d'erreur** clairs et pertinents
+      - [ ] **Recherche** par mot-clé fonctionnelle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Filtres** par tags et par salle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Messages d'erreur** clairs et pertinents *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 
     **Livrables pour *trace ton chemin***
 
@@ -37,7 +37,7 @@
     - Interactivité
       - [ ] **Système de choix** complet et fonctionnel
       - [ ] **Redirection par branches** fonctionnelle
-      - [ ] **Tracking des conséquences** (flags, stats, etc.)
+      - [ ] **Tracking des conséquences** (flags, stats, etc.) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
       - [ ] **Historique des choix** sauvegardé
       - [ ] **Toutes les branches** testées manuellement
       - [ ] **Logique des fins** implémentée (conditions d'accès)
