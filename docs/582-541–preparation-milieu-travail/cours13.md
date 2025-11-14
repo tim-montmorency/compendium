@@ -7,17 +7,6 @@ Remplir le document bilan_journee_carriere dans GitHub.
 [🛠️ Formulaire à remplir](https://forms.office.com/r/1ZQX8yAAKu){ .md-button }    
 
 
-## Guide du travailleur autonome
-[📁 Accéder au guide](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edg24C6YapVOiRO9agjLVsoBkFHpwhdj7osLAUoZNOf7jA?e=VFV52N){ .md-button }
-
-* Activité facture dans excel 
-
-## Salaire
-* Inforoute: 33,23$
-* Montmorency: 28,73$
-* Finissants: 30,24$
-* Travailleur autonome: + 15 à 20%  
-
 ## Mes finances, mes choix
 [📁 Quiz d'introduction 1](https://lautorite.qc.ca/grand-public/outils-et-calculateurs/jeux-questionnaires){ .md-button }
 
