@@ -52,7 +52,7 @@
 
 - [ ] Dans `src/views/ChapterView.vue`, dans la méthode `makeChoice`, naviguer vers le prochain chapitre (`nextChapterId`) de façon programmatique.
 - [ ] Mettez à jour l'ID local du chapitre `this.chapterId`.
-- Testez le tout.
+- [ ] Testez le tout en naviguant, en prenant des choix, de chapitre en chapitre.
 
 
 ## Notes de cours
