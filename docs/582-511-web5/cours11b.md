@@ -9,7 +9,7 @@ Vendredi 14 novembre
 - ce qui ferait en sorte qu'il ny aurait pas de présentation à la fin mais ils gagneraient un cours supp pour travailler et la remise serait faite disons 3 jours après le cours 15.2
 -->
 
-## Rappel impotant! *Vue 3*, version *Option API*
+## Rappel important! *Vue 3*, version *Option API*
 
 Vous codez avec la version *Vue 3* et surtout vous rappeler qu'on utilise présentement l'*Options API*.
 
