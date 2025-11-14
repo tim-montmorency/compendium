@@ -5,19 +5,21 @@
 ### Prérequis
 
 Avant de commencer, assurez-vous d'avoir:
+
 - ✅ Node.js 18+ installé ([télécharger](https://nodejs.org))
 - ✅ Git installé ([télécharger](https://git-scm.com))
 - ✅ VS Code installé ([télécharger](https://code.visualstudio.com))
 - ✅ Compte GitHub créé
 
-**Vérifier les versions:**
+*Vérifier les versions:*
+
 ```bash
 node --version   # Devrait afficher v18.x ou plus
 npm --version    # Devrait afficher 9.x ou plus
 git --version    # Devrait afficher 2.x ou plus
 ```
 
----
+
 
 ## 📦 Étape 1: Créer le Projet (Chef de projet uniquement)
 
@@ -79,7 +81,8 @@ mon-projet/
 └── package.json
 ```
 
-**Créer les dossiers rapidement:**
+*Créer les dossiers rapidement:*
+
 ```bash
 # Windows (PowerShell)
 New-Item -ItemType Directory -Path src/components/common, src/components/ui, src/composables, src/router, src/stores, src/views, src/utils, src/assets/styles, public/images, public/sounds
@@ -90,7 +93,8 @@ mkdir -p src/{components/{common,ui},composables,router,stores,views,utils,asset
 
 ### 1.4 Configurer Vue Router
 
-**src/router/index.js:**
+*src/router/index.js:*
+
 ```javascript
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
@@ -110,7 +114,8 @@ const router = createRouter({
 export default router;
 ```
 
-**src/main.js (mise à jour):**
+*src/main.js (mise à jour):*
+
 ```javascript
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
@@ -127,7 +132,8 @@ app.mount('#app');
 
 ### 1.5 Configurer Pinia
 
-**src/stores/example.js:**
+*src/stores/example.js:*
+
 ```javascript
 import { defineStore } from 'pinia';
 
@@ -149,7 +155,8 @@ export const useExampleStore = defineStore('example', {
 
 ### 1.6 Créer le .gitignore
 
-**.gitignore:**
+*.gitignore:*
+
 ```gitignore
 # Dependencies
 node_modules/
@@ -204,7 +211,7 @@ git checkout -b develop
 git push -u origin develop
 ```
 
----
+
 
 ## 👥 Étape 2: Rejoindre le Projet (Autres membres)
 
@@ -238,7 +245,7 @@ git branch -a
 git checkout develop
 ```
 
----
+
 
 ## 🛠️ Étape 3: Workflow Quotidien
 
@@ -282,57 +289,64 @@ git push origin feature/nom-de-votre-feature
 # Créer une Pull Request sur GitHub si la feature est terminée
 ```
 
----
 
-## 📋 Templates de Fichiers Utiles
 
-### Composant Vue de Base
+## 📋 Templates de fichiers utiles
 
-**src/components/ExampleComponent.vue:**
+### Composant Vue de base
+
+*src/components/ExampleComponent.vue:*
+
 ```vue
 <template>
   <div class="example-component">
     <h2>{{ title }}</h2>
     <p>{{ description }}</p>
     <button @click="handleClick">Click me</button>
+    <p>Count: {{ count }} | Double: {{ doubleCount }}</p>
   </div>
 </template>
 
-<script setup>
-import { ref, computed } from 'vue';
-
-// Props
-const props = defineProps({
-  title: {
-    type: String,
-    required: true
+<script>
+export default {
+  name: 'ExampleComponent',
+  
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      default: ''
+    }
   },
-  description: {
-    type: String,
-    default: ''
+  
+  emits: ['click'],
+  
+  data() {
+    return {
+      count: 0
+    };
+  },
+  
+  computed: {
+    doubleCount() {
+      return this.count * 2;
+    }
+  },
+  
+  methods: {
+    handleClick() {
+      this.count++;
+      this.$emit('click', this.count);
+    }
   }
-});
-
-// Emits
-const emit = defineEmits(['click']);
-
-// State
-const count = ref(0);
-
-// Computed
-const doubleCount = computed(() => count.value * 2);
-
-// Methods
-const handleClick = () => {
-  count.value++;
-  emit('click', count.value);
 };
 </script>
 
 <style scoped lang="scss">
-
-/* Attention le code ici est en format scss, veuillez l'adapter en format css classique */
-
+// Attention: code démo en format SCSS, veuillez l'adapter en CSS classique
 @import '@/assets/styles/variables';
 @import '@/assets/styles/mixins';
 
@@ -364,9 +378,10 @@ const handleClick = () => {
 </style>
 ```
 
-### Store Pinia de Base
+### Store Pinia de base
 
-**src/stores/exampleStore.js:**
+*src/stores/exampleStore.js:*
+
 ```javascript
 import { defineStore } from 'pinia';
 
@@ -420,10 +435,14 @@ export const useExampleStore = defineStore('example', {
 
 ### Composable useLocalStorage
 
-**src/composables/useLocalStorage.js:**
+*src/composables/useLocalStorage.js:*
+
 ```javascript
+// Les composables sont faits de JavaScript pure (pas Vue.js)
+
 export function useLocalStorage(key) {
   const save = (data) => {
+    // TODO changer pour fetch then then catch
     try {
       const jsonData = JSON.stringify(data);
       localStorage.setItem(key, jsonData);
@@ -433,8 +452,9 @@ export function useLocalStorage(key) {
       return false;
     }
   };
-
+  
   const load = (defaultValue = null) => {
+    // TODO changer pour fetch then then catch
     try {
       const jsonData = localStorage.getItem(key);
       return jsonData ? JSON.parse(jsonData) : defaultValue;
@@ -443,8 +463,9 @@ export function useLocalStorage(key) {
       return defaultValue;
     }
   };
-
+  
   const remove = () => {
+    // TODO changer pour fetch then then catch
     try {
       localStorage.removeItem(key);
       return true;
@@ -453,11 +474,11 @@ export function useLocalStorage(key) {
       return false;
     }
   };
-
+  
   const exists = () => {
     return localStorage.getItem(key) !== null;
   };
-
+  
   return {
     save,
     load,
@@ -467,13 +488,41 @@ export function useLocalStorage(key) {
 }
 ```
 
----
+### Ou utilisation dans un composant (Options API)
+
+```html
+<script>
+import { useLocalStorage } from '@/composables/useLocalStorage';
+
+export default {
+  data() {
+    return {
+      userData: null
+    };
+  },
+  
+  created() {
+    // Utiliser le composable
+    const storage = useLocalStorage('user-data');
+    this.userData = storage.load({ name: '', email: '' });
+  },
+  
+  methods: {
+    saveData() {
+      const storage = useLocalStorage('user-data');
+      storage.save(this.userData);
+    }
+  }
+};
+</script>
+```
 
 ## 🎨 Composants UI Réutilisables
 
 ### ButtonPrimary.vue
 
-**src/components/ui/ButtonPrimary.vue:**
+*src/components/ui/ButtonPrimary.vue:*
+
 ```vue
 <template>
   <button
@@ -487,23 +536,29 @@ export function useLocalStorage(key) {
   </button>
 </template>
 
-<script setup>
-const props = defineProps({
-  loading: {
-    type: Boolean,
-    default: false
+<script>
+export default {
+  name: 'ButtonPrimary',
+  
+  props: {
+    loading: {
+      type: Boolean,
+      default: false
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    }
   },
-  disabled: {
-    type: Boolean,
-    default: false
-  }
-});
-
-const emit = defineEmits(['click']);
-
-const handleClick = () => {
-  if (!props.loading && !props.disabled) {
-    emit('click');
+  
+  emits: ['click'],
+  
+  methods: {
+    handleClick() {
+      if (!this.loading && !this.disabled) {
+        this.$emit('click');
+      }
+    }
   }
 };
 </script>
@@ -561,9 +616,15 @@ const handleClick = () => {
 
 ### Modal.vue
 
-**src/components/ui/Modal.vue:**
+*src/components/ui/Modal.vue:*
+
 ```vue
 <template>
+<!-- <Teleport> est un composant natif qui nous permet de "téléporter"
+   une partie du template d'un composant dans un nœud du DOM qui existe 
+   en dehors de la hiérarchie du DOM de ce composant. Ici, la modale se 
+   téléporte dans la balise <body>.
+   Info à propos de <teleport> : https://fr.vuejs.org/guide/built-ins/teleport-->
   <Teleport to="body">
     <Transition name="modal">
       <div v-if="modelValue" class="modal-overlay" @click.self="close">
@@ -587,29 +648,33 @@ const handleClick = () => {
   </Teleport>
 </template>
 
-<script setup>
-const props = defineProps({
-  modelValue: {
-    type: Boolean,
-    required: true
+<script>
+export default {
+  name: 'Modal',
+  
+  props: {
+    modelValue: {
+      type: Boolean,
+      required: true
+    },
+    title: {
+      type: String,
+      default: ''
+    }
   },
-  title: {
-    type: String,
-    default: ''
+  
+  emits: ['update:modelValue'],
+  
+  methods: {
+    close() {
+      this.$emit('update:modelValue', false);
+    }
   }
-});
-
-const emit = defineEmits(['update:modelValue']);
-
-const close = () => {
-  emit('update:modelValue', false);
 };
 </script>
 
 <style scoped lang="scss">
-
-/* Attention le code ici est en format scss, veuillez l'adapter en format css classique */
-
+// Attention: code démo en format SCSS, veuillez l'adapter en CSS classique 
 @import '@/assets/styles/variables';
 
 .modal-overlay {
@@ -693,7 +758,151 @@ const close = () => {
 </style>
 ```
 
----
+#### Exemple d'utilisation du Modal
+
+<small>Ajout du 13 novembre 2025</small>
+
+```vue
+<template>
+  <div>
+    <ButtonPrimary @click="openModal">
+      Ouvrir le Modal
+    </ButtonPrimary>
+    
+    <Modal v-model="isModalOpen" title="Mon Modal">
+      <p>Contenu du modal ici</p>
+      
+      <template #footer>
+        <button @click="isModalOpen = false">Annuler</button>
+        <ButtonPrimary @click="handleSave">Sauvegarder</ButtonPrimary>
+      </template>
+    </Modal>
+  </div>
+</template>
+
+<script>
+import Modal from '@/components/ui/Modal.vue';
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
+
+export default {
+  name: 'ExamplePage',
+  
+  components: {
+    Modal,
+    ButtonPrimary
+  },
+  
+  data() {
+    return {
+      isModalOpen: false
+    };
+  },
+  
+  methods: {
+    openModal() {
+      this.isModalOpen = true;
+    },
+    
+    handleSave() {
+      console.log('Sauvegarde...');
+      this.isModalOpen = false;
+    }
+  }
+};
+</script>
+```
+
+## Exemple complet d'un composant intégrant Pinia Store
+
+<small>Ajout du 13 novembre 2025</small>
+
+```vue
+<template>
+  <div class="items-list">
+    <h1>Liste des items ({{ itemCount }})</h1>
+    
+    <div v-if="isLoading">Chargement...</div>
+    
+    <div v-else-if="hasItems">
+      <div 
+        v-for="item in items" 
+        :key="item.id"
+        class="item-card"
+      >
+        <h3>{{ item.name }}</h3>
+        <button @click="selectItem(item.id)">Voir</button>
+        <button @click="removeItem(item.id)">Supprimer</button>
+      </div>
+    </div>
+    
+    <div v-else>
+      <p>Aucun item</p>
+    </div>
+    
+    <ButtonPrimary @click="addNewItem">
+      Ajouter un item
+    </ButtonPrimary>
+  </div>
+</template>
+
+<script>
+import { useExampleStore } from '@/stores/exampleStore';
+import { mapState, mapGetters, mapActions } from 'pinia';
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
+
+export default {
+  name: 'ItemsList',
+  
+  components: {
+    ButtonPrimary
+  },
+  
+  computed: {
+    // Mapper le state
+    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
+    
+    // Mapper les getters
+    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
+  },
+  
+  methods: {
+    // Mapper les actions
+    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
+    
+    addNewItem() {
+      this.addItem({
+        name: `Item ${this.itemCount + 1}`,
+        description: 'Nouvel item'
+      });
+    },
+    
+    removeItem(id) {
+      if (confirm('Supprimer cet item?')) {
+        this.deleteItem(id);
+      }
+    },
+    
+    selectItem(id) {
+      this.setCurrentItem(id);
+      this.$router.push(`/item/${id}`);
+    }
+  }
+};
+</script>
+
+<style scoped>
+.items-list {
+  padding: 2rem;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+</style>
+```
 
 ## 🚀 Scripts NPM Utiles
 
@@ -711,9 +920,8 @@ Ajoutez dans **package.json:**
 }
 ```
 
----
 
-## ✅ Checklist Premier Jour
+## ✅ Checklist
 
 - [ ] Node.js et npm installés
 - [ ] Git installé et configuré
@@ -727,11 +935,19 @@ Ajoutez dans **package.json:**
 - [ ] Router et Pinia configurés
 - [ ] SASS configuré avec variables
 
----
 
-## 🆘 Problèmes Courants
+
+## 🆘 Problèmes courants
 
 ### "npm install" échoue
+
+Dans le terminal, il est possible que vous ne soyez pas positionné dans le dossier du projet, là où se trouve le fichier `package.json`.
+
+Vérifiez votre position actuelle à l’aide de la commande `pwd`, qui indique dans quel dossier vous vous trouvez.
+
+Si vous devez accéder au dossier de votre projet, utilisez la commande `cd nom-du-dossier-du-projet`, en remplaçant *nom-du-dossier-du-projet* par le nom du dossier de *votre* projet.
+
+Si ce n'est pas ça le problème, alors:
 
 ```bash
 # Nettoyer le cache npm
@@ -762,7 +978,3 @@ export default {
 sudo chown -R $USER ~/.npm
 sudo chown -R $USER /usr/local/lib/node_modules
 ```
-
----
-
-**Vous êtes prêts à coder! 🎉**

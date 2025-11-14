@@ -17,71 +17,79 @@
 
 ## 📚 1: C'est quoi Vue Router?
 
-### Dans une application monopage *SPA* (Single Page App)
+Vue Router est le routeur officiel de Vue.js, une bibliothèque JavaScript conçue pour les *applications monopages* (SPA). 
 
-#### Sans Vue Router 
+Il permet de gérer la navigation entre les différentes views (pages) d'une application en associant des URL à des composants spécifiques (de type views), sans recharger la page entière. 
 
-```vue
-<!-- App.vue - SANS ROUTER ❌ -->
-<template>
-  <div>
-    <button @click="currentView = 'home'">Accueil</button>
-    <button @click="currentView = 'museum'">Musée</button>
-    <button @click="currentView = 'search'">Recherche</button>
-    
-    <HomeView v-if="currentView === 'home'" />
-    <MuseumView v-if="currentView === 'museum'" />
-    <SearchView v-if="currentView === 'search'" />
-  </div>
-</template>
+Cela signifie que lorsque l'utilisateur navigue vers une nouvelle URL, Vue Router change le contenu de la page en affichant le contenu composant de type views correspondant à cette nouvelle route (bref, ce nouvel URL).
 
-<script>
-export default {
-  data() {
-    return {
-      currentView: 'home'
+??? question "Pourquoi utiliser Router?"
+
+    ## 🤔 Pourquoi utiliser Router?
+
+    ### Dans une application monopage *SPA* (Single Page App)
+
+    #### Sans Vue Router 
+
+    ```vue
+    <!-- App.vue - SANS ROUTER ❌ -->
+    <template>
+      <div>
+        <button @click="currentView = 'home'">Accueil</button>
+        <button @click="currentView = 'museum'">Musée</button>
+        <button @click="currentView = 'search'">Recherche</button>
+        
+        <HomeView v-if="currentView === 'home'" />
+        <MuseumView v-if="currentView === 'museum'" />
+        <SearchView v-if="currentView === 'search'" />
+      </div>
+    </template>
+
+    <script>
+    export default {
+      data() {
+        return {
+          currentView: 'home'
+        }
+      }
     }
-  }
-}
-</script>
-```
+    </script>
+    ```
+    *Problèmes:*
 
-*Problèmes:*
+    - 🚫 Pas d'URL distincte pour chaque page
+    - 🚫 Impossible de bookmarker une page spécifique
+    - 🚫 Pas de bouton "Retour" du navigateur
+    - 🚫 Pas de navigation par URL
+    - 🚫 Difficile à maintenir avec beaucoup de pages
 
-- 🚫 Pas d'URL distincte pour chaque page
-- 🚫 Impossible de bookmarker une page spécifique
-- 🚫 Pas de bouton "Retour" du navigateur
-- 🚫 Pas de navigation par URL
-- 🚫 Difficile à maintenir avec beaucoup de pages
+    #### Avec Vue Router ✅
 
-#### Avec Vue Router ✅
+    ```vue
+    <!-- App.vue - AVEC ROUTER -->
+    <template>
+      <div>
+        <nav>
+          <router-link to="/">Accueil</router-link>
+          <router-link to="/museum">Musée</router-link>
+          <router-link to="/search">Recherche</router-link>
+        </nav>
+        
+        <router-view />
+      </div>
+    </template>
+    ```
+    *Avantages:*
 
-```vue
-<!-- App.vue - AVEC ROUTER -->
-<template>
-  <div>
-    <nav>
-      <router-link to="/">Accueil</router-link>
-      <router-link to="/museum">Musée</router-link>
-      <router-link to="/search">Recherche</router-link>
-    </nav>
-    
-    <router-view />
-  </div>
-</template>
-```
-
-*Avantages:*
-
-- ✅ URL distincte: `/`, `/museum`, `/search`
-- ✅ Bookmarkable
-- ✅ Bouton "Retour" fonctionne
-- ✅ Navigation par URL directe
-- ✅ Code propre et maintenable
+    - ✅ URL distincte: `/`, `/museum`, `/search`
+    - ✅ Bookmarkable
+    - ✅ Bouton "Retour" fonctionne
+    - ✅ Navigation par URL directe
+    - ✅ Code propre et maintenable
 
 
 
-## 🔧 2: Installation et configuration 
+## 🔧 2: Installation et configuration
 
 ### Étape 1: Installation
 
@@ -206,7 +214,32 @@ Fichier *`src/App.vue`:*
 
 ### 3.1. Navigation déclarative (`<router-link>`)
 
-*Usage basique:*
+Usage basique dans le template html
+
+- *Navigation simple*
+
+  `<router-link to="/museum">Musée</router-link>`
+
+- *Navigation avec nom de route* (recommandé)
+
+  `<router-link :to="{ name: 'museum' }">Musée</router-link>`
+
+- Navigation avec *paramètre dynamique*
+
+  ```vue
+  <router-link :to="{ name: 'room', params: { id: 'room-1' } }">
+    Voir la salle
+  </router-link>
+  ```
+
+- Navigation avec *paramètre de requête* (*query string*)
+
+  ```vue
+  <router-link :to="{ name: 'search', query: { q: 'tokyo' } }">
+    Rechercher Tokyo
+  </router-link>
+  ```
+
 
 ```vue
 <template>
@@ -231,24 +264,12 @@ Fichier *`src/App.vue`:*
 </template>
 ```
 
-*Styles actifs:*
-
-```vue
-<template>
-  <!-- Classe 'router-link-active' ajoutée automatiquement -->
-  <router-link to="/museum">Musée</router-link>
-</template>
-
-<style>
-.router-link-active {
-  color: #6366f1;
-  font-weight: bold;
-  border-bottom: 2px solid #6366f1;
-}
-</style>
-```
 
 ### 3.2. Navigation programmatique (dans les méthodes)
+
+- `this.$router.push`: pour naviguer vers une route spécifique (faire afficher une view (page) spécifique)
+- `this.$router.replace`: pour naviguer vers une route spécifique (faire afficher une view (page) spécifique) mais en *empêchant le retour possible en arrière* via la bouton "back" du navigateur (bref, cette méthode remplace l'hitorique de navigation actuelle de l'utilisateur dans l'app)
+- `this.$router.back` OU `this.$router.go(-1)`: pour revenir à la view (page) précédente.
 
 ```vue
 <template>
@@ -314,6 +335,7 @@ this.$router.replace({ name: 'home' });
 - ✅ Pages de confirmation
 
 
+
 ## 🎛️ 4: Paramètres de route
 
 ### 4.1. Routes avec paramètres dynamiques
@@ -324,7 +346,7 @@ this.$router.replace({ name: 'home' });
 // router/index.js
 const routes = [
   {
-    path: '/room/:id', // ← Paramètre dynamique :id
+    path: '/room/:id', // ← Paramètre dynamique :id récupéré depuis l'URL
     name: 'room',
     component: RoomView
   },
@@ -360,7 +382,7 @@ export default {
   },
   
   created() {
-    // Accès au paramètre dynamique :id
+    // Récupérer le paramètre dynamique "id" depuis l'URL
     this.roomId = this.$route.params.id;
     
     // Charger les données de la salle
@@ -427,7 +449,7 @@ export default {
   },
   
   created() {
-    // Accès aux paramètres de requête q et tag
+    // Récupérer les paramètres de requête "q" et "tag" depuis le URL
     this.searchQuery = this.$route.query.q || '';
     this.selectedTag = this.$route.query.tag || '';
   },
@@ -446,7 +468,7 @@ export default {
   },
   
   watch: {
-    // Réagir aux changements deparamètres de recherche
+    // Réagir aux changements de paramètres de recherche
     '$route.query': {
       handler(newQuery) {
         this.searchQuery = newQuery.q || '';
@@ -460,9 +482,29 @@ export default {
 ```
 
 
+### 🎨 5: Styles CSS actifs
+
+Classe CSS `.router-link-active` est ajoutée automatiquement au liens générés par `<router-link>` qui correspondent à la page en cours.
+Vous pouvez donc la styliser pour lui donner un aspect différent des autres liens de la navigation.
+
+```vue
+<template>
+  <!-- Classe 'router-link-active' ajoutée automatiquement -->
+  <router-link to="/museum">Musée</router-link>
+</template>
+
+<style>
+.router-link-active {
+  color: #6366f1;
+  font-weight: bold;
+  border-bottom: 2px solid #6366f1;
+}
+</style>
+```
 
 
-## 🗂️ 5: Organisation des routes pour le projet *App web créative*
+
+## 🗂️ 6: Organisation des routes pour le projet *App web créative*
 
 ### Pour "Mémoires interactives"
 
@@ -578,63 +620,65 @@ const routes = [
 5. `SavesView.vue` - Gestion des sauvegardes
 
 
+??? tip "Récapitulatif"
 
-## 🎓 Récapitulatif
+    ## 🎓 Récapitulatif
 
-### Les 5 concepts clés:
+    ### Les 5 concepts clés:
 
-1. *Vue Router = Navigation entre pages*
-   - Chaque page a une URL unique
-   - `<router-view />` affiche la page active
+    1. *Vue Router = Navigation entre pages*
+      - Chaque page a une URL unique
+      - `<router-view />` affiche la page active
 
-2. *Views vs Composant*
-   - View = Page complète avec URL
-   - Composant = Bloc réutilisable
+    2. *Views vs Composant*
+      - View = Page complète avec URL
+      - Composant = Bloc réutilisable
 
-3. *Navigation*
-   - Déclarative: `<router-link>`
-   - Programmatique: `this.$router.push()`
+    3. *Navigation*
+      - Déclarative: `<router-link>`
+      - Programmatique: `this.$router.push()`
 
-4. *Paramètres dynamiques*
-   - Route params: `/room/:id`
-   - Query params: `/search?q=tokyo`
-
-
-
-## 📚 Ressources supplémentaires
-
-*Documentation officielle:*
-
-- [Vue Router - Getting Started (en anglais)](https://router.vuejs.org/guide/)
-- [Vue Router - Dynamic Routes (en anglais)](https://router.vuejs.org/guide/essentials/dynamic-matching.html)
-- [Vue Router - Navigation Guards (en anglais)](https://router.vuejs.org/guide/advanced/navigation-guards.html)
-- [Vue Router - Transitions (en anglais)](https://router.vuejs.org/guide/advanced/transitions.html)
-
-*Exemples de code:*
-- [Vue Router Examples](https://github.com/vuejs/router/tree/main/packages/router/playground/examples)
+    4. *Paramètres dynamiques*
+      - Route params: `/room/:id`
+      - Query params: `/search?q=tokyo`
 
 
+??? abstract "Ressources supplémentaires"
 
-## ❓ Questions fréquentes
+    ## 📚 Ressources supplémentaires
 
-*Q: View ou Composant?*
+    *Documentation officielle:*
 
-*R:* 
+    - [Vue Router - Getting Started (en anglais)](https://router.vuejs.org/guide/)
+    - [Vue Router - Dynamic Routes (en anglais)](https://router.vuejs.org/guide/essentials/dynamic-matching.html)
+    - [Vue Router - Navigation Guards (en anglais)](https://router.vuejs.org/guide/advanced/navigation-guards.html)
+    - [Vue Router - Transitions (en anglais)](https://router.vuejs.org/guide/advanced/transitions.html)
 
-- Page avec URL → *View* (dans `views/`)
-- Bloc réutilisable → *Composant* (dans `components/`)
+    *Exemples de code:*
+    - [Vue Router Examples](https://github.com/vuejs/router/tree/main/packages/router/playground/examples)
 
-*Q: Quand utiliser `push` vs `replace`?*
+??? question "Questions fréquentes"
 
-*R:*
+    ## ❓ Questions fréquentes
 
-- `push`: Navigation normale (on peut revenir)
-- `replace`: Remplace l'historique (pas de retour), utile après login
+    *Q: View ou Composant?*
 
-*Q: Comment passer des données entre routes?*
+    *R:* 
 
-*R:* 3 options:
+    - Page avec URL → *View* (dans `views/`)
+    - Bloc réutilisable → *Composant* (dans `components/`)
 
-1. *Params*: `/room/:id` → `this.$route.params.id`
-2. *Query*: `/search?q=tokyo` → `this.$route.query.q`
-3. *Store (Pinia)*: Pour données partagées
+    *Q: Quand utiliser `push` vs `replace`?*
+
+    *R:*
+
+    - `push`: Navigation normale (on peut revenir)
+    - `replace`: Remplace l'historique (pas de retour), utile après login
+
+    *Q: Comment passer des données entre routes?*
+
+    *R:* 3 options:
+
+    1. *Params*: `/room/:id` → `this.$route.params.id`
+    2. *Query*: `/search?q=tokyo` → `this.$route.query.q`
+    3. *Store (Pinia)*: Pour données partagées

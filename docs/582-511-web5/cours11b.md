@@ -1,6 +1,35 @@
 # Cours 11.2 PHASE INTERACTIVITÉ
 
-vendredi 14 novembre
+Vendredi 14 novembre
+
+
+<!-- 
+- considérer repousser tout d'un cours (donc une demi semaine) car celui-ci est trop intense. 
+- les remises y compris.
+- ce qui ferait en sorte qu'il ny aurait pas de présentation à la fin mais ils gagneraient un cours supp pour travailler et la remise serait faite disons 3 jours après le cours 15.2
+-->
+
+## Rappel important! *Vue 3*, version *Option API*
+
+Vous codez avec la version *Vue 3* et surtout vous rappeler qu'on utilise présentement l'*Options API*.
+
+Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./vue/assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;">
+
+N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette information importante.
+
+
+
+## Retour sur routes
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/router-and-views.html">Routes entre les différentes <em>views</em> (pages)</a>
+</div>
+
+### Exercice Routes
+
+- Pour les étudiants de *Trace ton chemin*[Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
+- Pour les étudiants de *Mémoires interactives* [Exercice des routes parmis les salles](./exercices/vue-router-rooms/)
 
 ## Cours: Pinia
 
@@ -12,11 +41,13 @@ vendredi 14 novembre
 </div>
 
 
-## Cours: Les méthodes de l'objet Array en JavaScript
+## Rappel JavaScript: Les méthodes de l'objet Array en JavaScript
 
-[Liste des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
+- [Notes de cours sur l'objet Array](https://tim-montmorency.com/timdoc/582-518MO/javascript/objet-array/)
 
-Exemples:
+- [Liste complète des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
+
+### Exemples:
 
 - `length`
 - `push()`
@@ -31,82 +62,133 @@ Exemples:
 - `concat()`
 
 
-## Travail en classe Mise en place de store *Pinia*
+## Travail en classe et DEVOIR: Mise en place de stores *Pinia* pour votre projet
 
-### *Mémoire interactive*
+En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'ajoute:
 
-#### Création des stores Pinia
+### Configuration de stores pour le projet *App web créative*
 
-- `useMuseumStore.js` (structure de base)
-- `useMemoryStore.js` (structure de base)
+#### Pour *Mémoires interactives*
 
-#### Développement des composants clés
+*Structure des stores suggérée:*
 
-- `RoomCard.vue` (carte de salle)
-- `MemoryCard.vue` (carte de mémoire)
-- `MemoryList.vue` (liste ou grille des mémoires)
+1. *`useMuseumStore`*
+   - State (équivalent de data()):
+     - `rooms`
+     - `currentRoomId`
+     - `museumName`
+     - `theme`
+   - Actions (équivalent de methods):
+     - `addRoom()` (optionnel car certains projets ne le permettent pas)
+     - `updateRoom()`
+     - `deleteRoom()`
+     - `setCurrentRoom()`
 
-### *Trace ton chemin*
+2. *`useMemoryStore`*
+   - State (équivalent de data()):
+     - `memories`
+     - `filters`
+     - `searchQuery`
+   - Actions (équivalent de methods):
+     - `addMemory()`
+     - `updateMemory()`
+     - `deleteMemory()`
+     - `searchMemories()`
+   - Getters (équilavent de computed):
+     - `filteredMemories`
+     - `memoriesByRoom`
+     - `memoriesByTag`
 
-#### Création des stores Pinia
+3. *`useAuthStore`* (optionnel)
+   - State (équivalent de data()): 
+     - `user`
+     - `isAuthenticated`
+   - Actions (équivalent de methods): 
+     - `login()`
+     - `logout()`
+     - `register()`
 
-- `useStoryStore.js` (chapitres, navigation)
-- `usePlayerStore.js` (état du joueur)
+##### Checklist *Mémoires interactives*
 
+- [ ] Création des 2 *stores* obligatoires:
+  - [ ] `useMuseumStore.js` (structure de base)
+  - [ ] `useMemoryStore.js` (structure de base)
 
+- [ ] Développement des *composants clés* qui utilisent les stores:
+  - [ ] `RoomCard.vue` (carte de salle)
+  - [ ] `MemoryCard.vue` (carte de mémoire)
+  - [ ] `MemoryList.vue` (grille de mémoires)
 
+#### Pour *Trace ton chemin*
 
+*Structure des stores suggérée:*
 
+1. *`useStoryStore`* (le plus important du projet)
 
-## Cours: Validation de formulaires Vue (Mémoires interactives)
+   - State (équivalent de data()):
+     - `currentChapterId`
+     - `visitedChapters`
+     - `storyData`
+     - `availableChoices`
+   - Actions (équivalent de methods):
+     - `loadChapter()`
+     - `makeChoice()`
+     - `goToChapter()`
+   - Getters (équilavent de computed):
+     - `currentChapter`
+     - `isChapterUnlocked()`
 
-..
+2. *`usePlayerStore`* (commencez simple d'abord, juste avec le nom)
+   - State (équivalent de data()):
+     - `playerName`
+     - `karma`
+     - `stats`
+     - `inventory`
+     - `flags`
+     - `relationships`
+   - Actions (équivalent de methods):
+     - `addToInventory()`
+     - `updateStat()`
+     - `setFlag()`
+     - `updateRelationship()`
+   - Getters (équilavent de computed):
+     - `hasItem()`
+     - `getRelationship()`
+     - `canAccessEnding()`
 
-## Cours: Logique de branches narratives (Trace ton chemin)
+3. *`useSaveStore`*
+   - State (équivalent de data()):
+     - `saveSlots` (array de 3 slots)
+   - Actions (équivalent de methods): 
+     - `saveGame()`
+     - `loadGame()`
+     - `deleteSave()`
+     - `getSaveInfo()`
+   - Getters (équilavent de computed):
+     - `hasSaves`
+     - `latestSave`
 
-..
+4. *`useAudioStore`* (optionnel)
+   - State (équivalent de data()):
+     - `currentMusic`
+     - `soundEffects`
+     - `volume`
+     - `isMuted`
+   - Actions (équivalent de methods):
+     - `playMusic()`
+     - `playSound()`
+     - `toggleMute()`
+     - `setVolume()`
 
-## *Mémoire interactive*: Interactivité - CRUD et Formulaires
+##### Checklist *Trace ton chemin*
 
+- [ ] Création des 2 premier *stores*:
+  - [ ] `useStoryStore.js` (chapitres, navigation)
+  - [ ] `usePlayerStore.js` (état du joueur, commencez réalistement, juste avec son nom)
 
-Développement du formulaire d'ajout de mémoire:
+- [ ] Création du *fichier JSON avec les chapitres*
 
-- `MemoryForm.vue` (champs, validation)
-- Intégration avec le store
-- Gestion des erreurs
+- [ ] Développement des *composants clés* qui utilisent les stores:
+  - [ ] `ChoiceButton.vue` (bouton de choix)
+  - [ ] `ChoicePanel.vue` (panel de choix)
 
-## *Trace ton chemin*: Système de Choix et Branches
-
-Développement du système de choix:
-
-- Affichage dynamique des choix
-- Sélection et validation
-- Redirection vers le bon chapitre
-
-Tests des premières branches
-
-<!-- Ici je dois limiter les devoirs car c'est vendredi et on se revoir lundi -->
-
-## Devoirs
-
-*Mémoire interactive*
-
-Avancer ce qui a été commencé en classe:
-
-- [ ] **Formulaire d'ajout** complet et validé
-- [ ] **Formulaire d'édition** fonctionnel
-- [ ] **Suppression** avec confirmation
-- [ ] **Recherche** par mot-clé fonctionnelle
-- [ ] **Filtres** par tags et par salle
-- [ ] **Messages d'erreur** clairs et pertinents
-
-*Trace ton chemin*
-
-Avancer ce qui a été commencé en classe:
-
-- [ ] **Système de choix** complet et fonctionnel
-- [ ] **Redirection par branches** fonctionnelle
-- [ ] **Tracking des conséquences** (flags, stats, etc.)
-- [ ] **Historique des choix** sauvegardé
-- [ ] **Toutes les branches** testées manuellement
-- [ ] **Logique des fins** implémentée (conditions d'accès)

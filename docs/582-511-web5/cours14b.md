@@ -6,7 +6,8 @@ Merc. 3 décembre
 
     Version prête à être validée et testée pour le contrôle de la qualité
 
-## Mini cours: Contrôle de la qualité :
+## Cours: Contrôle de la qualité
+
 
 * normes d’accessibilité
 * normes de validation
@@ -23,9 +24,13 @@ Merc. 3 décembre
 - Contraste des couleurs (WCAG AA)
 - Balises sémantiques HTML5
 
-## Plan de tests
+## Plan de tests avec Vitest
 
-## Tests
+Tests unitaires avec [Vitest](https://vitest.dev/)
+
+<!-- https://vueschool.io/articles/vuejs-tutorials/start-testing-with-vitest-beginners-guide/ -->
+
+### Tests du projet *Web app créative*
 
 - Tests de toutes les branches de l'histoire (Trace ton chemin)
 - Tests fonctionnels

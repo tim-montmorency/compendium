@@ -110,6 +110,7 @@
 
 **Jour 2 (5h):**
 - Mini-cours: Pinia pour gestion de progression (45 min)
+
 - Création des stores:
   - `useStoryStore.js` (chapitres, navigation)
   - `usePlayerStore.js` (état du joueur)

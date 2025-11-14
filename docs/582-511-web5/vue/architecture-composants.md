@@ -72,217 +72,221 @@ App.vue
   ├── TodoItem.vue
 ```
 
-## 📚 1: Pourquoi des composants?
 
-### Le problème sans composants
+??? question "1: Pourquoi des composants?"
 
-Imaginez une application dans un seul fichier de 2000 lignes:
+    ## 📚 1: Pourquoi des composants?
 
-```vue
-<!-- App.vue - MAUVAIS EXEMPLE ❌ -->
-<template>
-  <div>
-    <!-- Header -->
-    <header>...</header>
-    
-    <!-- Navigation -->
-    <nav>...</nav>
-    
-    <!-- Liste des salles -->
-    <div class="rooms">...</div>
-    
-    <!-- Formulaire d'ajout -->
-    <form>...</form>
-    
-    <!-- Modal -->
-    <div class="modal">...</div>
-    
-    <!-- Footer -->
-    <footer>...</footer>
-  </div>
-</template>
+    ### Le problème sans composants
 
-<script>
-export default {
-  data() {
-    return {
-      // 50 variables ici...
-    }
-  },
-  methods: {
-    // 30 méthodes ici...
-  }
-}
-</script>
+    Imaginez une application dans un seul fichier de 2000 lignes:
 
-<style>
-/* 500 lignes de CSS... */
-</style>
-```
-
-*Problèmes:*
-
-- 🚫 Difficile à maintenir
-- 🚫 Code non réutilisable
-- 🚫 Impossible de travailler en équipe efficacement
-- 🚫 Bugs difficiles à isoler
-- 🚫 Lent à charger
-
-### La solution: Les composants
-
-```vue
-<!-- App.vue - BON EXEMPLE ✅ -->
-<template>
-  <div>
-    <AppHeader />
-    <AppNavigation />
-    <RoomsList />
-    <AddRoomModal v-if="showModal" />
-    <AppFooter />
-  </div>
-</template>
-
-<script>
-import AppHeader from './components/AppHeader.vue';
-import AppNavigation from './components/AppNavigation.vue';
-import RoomsList from './components/RoomsList.vue';
-import AddRoomModal from './components/AddRoomModal.vue';
-import AppFooter from './components/AppFooter.vue';
-
-export default {
-  components: {
-    AppHeader,
-    AppNavigation,
-    RoomsList,
-    AddRoomModal,
-    AppFooter
-  }
-}
-</script>
-```
-
-*Avantages:*
-
-- ✅ Code organisé et lisible
-- ✅ Composants réutilisables
-- ✅ Travail d'équipe facilité
-- ✅ Bugs isolés
-- ✅ Performance optimisée
-
-
-
-## 🏗️ 2: Principe de responsabilité unique
-
-### La règle d'or
-
-> **Un composant = Une responsabilité**
-
-### Mauvais exemple: Composant qui fait trop
-
-❌ 
-
-```vue
-<!-- UserDashboard.vue - TROP DE RESPONSABILITÉS -->
-<template>
-  <div>
-    <!-- Affiche le profil -->
-    <div class="profile">
-      <img :src="user.avatar" />
-      <h2>{{ user.name }}</h2>
-      <button @click="editProfile">Modifier</button>
-    </div>
-    
-    <!-- Affiche les statistiques -->
-    <div class="stats">
-      <div>Posts: {{ user.posts }}</div>
-      <div>Followers: {{ user.followers }}</div>
-    </div>
-    
-    <!-- Affiche la liste des posts -->
-    <div class="posts">
-      <div v-for="post in posts" :key="post.id">
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.content }}</p>
-        <button @click="likePost(post.id)">Like</button>
-        <button @click="deletePost(post.id)">Delete</button>
+    ```vue
+    <!-- App.vue - MAUVAIS EXEMPLE ❌ -->
+    <template>
+      <div>
+        <!-- Header -->
+        <header>...</header>
+        
+        <!-- Navigation -->
+        <nav>...</nav>
+        
+        <!-- Liste des salles -->
+        <div class="rooms">...</div>
+        
+        <!-- Formulaire d'ajout -->
+        <form>...</form>
+        
+        <!-- Modal -->
+        <div class="modal">...</div>
+        
+        <!-- Footer -->
+        <footer>...</footer>
       </div>
-    </div>
-    
-    <!-- Formulaire d'ajout de post -->
-    <form @submit.prevent="addPost">
-      <input v-model="newPost.title" />
-      <textarea v-model="newPost.content"></textarea>
-      <button>Publier</button>
-    </form>
-  </div>
-</template>
+    </template>
 
-<script>
-export default {
-  data() {
-    return {
-      user: {},
-      posts: [],
-      newPost: {},
-      // ... beaucoup trop de données
+    <script>
+    export default {
+      data() {
+        return {
+          // 50 variables ici...
+        }
+      },
+      methods: {
+        // 30 méthodes ici...
+      }
     }
-  },
-  methods: {
-    editProfile() { /* ... */ },
-    likePost() { /* ... */ },
-    deletePost() { /* ... */ },
-    addPost() { /* ... */ },
-    // ... beaucoup trop de méthodes
-  }
-}
-</script>
-```
+    </script>
 
-*Problèmes:*
+    <style>
+    /* 500 lignes de CSS... */
+    </style>
+    ```
 
-- Composant fait 4 choses différentes
-- Difficile à tester
-- Difficile à maintenir
+    *Problèmes:*
 
-### Bon exemple: Découpage logique
+    - 🚫 Difficile à maintenir
+    - 🚫 Code non réutilisable
+    - 🚫 Impossible de travailler en équipe efficacement
+    - 🚫 Bugs difficiles à isoler
+    - 🚫 Lent à charger
 
-✅ 
+    ### La solution: Les composants
 
-```vue
-<!-- UserDashboard.vue - BIEN DÉCOUPÉ -->
-<template>
-  <div class="dashboard">
-    <UserProfile :user="user" @edit="editProfile" />
-    <UserStats :stats="userStats" />
-    <PostList :posts="posts" @like="likePost" @delete="deletePost" />
-    <PostForm @submit="addPost" />
-  </div>
-</template>
+    ```vue
+    <!-- App.vue - BON EXEMPLE ✅ -->
+    <template>
+      <div>
+        <AppHeader />
+        <AppNavigation />
+        <RoomsList />
+        <AddRoomModal v-if="showModal" />
+        <AppFooter />
+      </div>
+    </template>
 
-<script>
-import UserProfile from './UserProfile.vue';
-import UserStats from './UserStats.vue';
-import PostList from './PostList.vue';
-import PostForm from './PostForm.vue';
+    <script>
+    import AppHeader from './components/AppHeader.vue';
+    import AppNavigation from './components/AppNavigation.vue';
+    import RoomsList from './components/RoomsList.vue';
+    import AddRoomModal from './components/AddRoomModal.vue';
+    import AppFooter from './components/AppFooter.vue';
 
-export default {
-  components: {
-    UserProfile,
-    UserStats,
-    PostList,
-    PostForm
-  },
-  // Logique simplifiée car déléguée aux composants enfants
-}
-</script>
-```
+    export default {
+      components: {
+        AppHeader,
+        AppNavigation,
+        RoomsList,
+        AddRoomModal,
+        AppFooter
+      }
+    }
+    </script>
+    ```
 
-Chaque composant a **UNE seule responsabilité**:
+    *Avantages:*
 
-- `UserProfile` → Afficher et éditer le profil
-- `UserStats` → Afficher les statistiques
-- `PostList` → Afficher la liste des posts
-- `PostForm` → Formulaire d'ajout
+    - ✅ Code organisé et lisible
+    - ✅ Composants réutilisables
+    - ✅ Travail d'équipe facilité
+    - ✅ Bugs isolés
+    - ✅ Performance optimisée
+
+
+??? info "2: Principe de responsabilité unique"
+
+    ## 🏗️ 2: Principe de responsabilité unique
+
+    ### La règle d'or
+
+    > **Un composant = Une responsabilité**
+
+    ### Mauvais exemple: Composant qui fait trop
+
+    ❌ 
+
+    ```vue
+    <!-- UserDashboard.vue - TROP DE RESPONSABILITÉS -->
+    <template>
+      <div>
+        <!-- Affiche le profil -->
+        <div class="profile">
+          <img :src="user.avatar" />
+          <h2>{{ user.name }}</h2>
+          <button @click="editProfile">Modifier</button>
+        </div>
+        
+        <!-- Affiche les statistiques -->
+        <div class="stats">
+          <div>Posts: {{ user.posts }}</div>
+          <div>Followers: {{ user.followers }}</div>
+        </div>
+        
+        <!-- Affiche la liste des posts -->
+        <div class="posts">
+          <div v-for="post in posts" :key="post.id">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.content }}</p>
+            <button @click="likePost(post.id)">Like</button>
+            <button @click="deletePost(post.id)">Delete</button>
+          </div>
+        </div>
+        
+        <!-- Formulaire d'ajout de post -->
+        <form @submit.prevent="addPost">
+          <input v-model="newPost.title" />
+          <textarea v-model="newPost.content"></textarea>
+          <button>Publier</button>
+        </form>
+      </div>
+    </template>
+
+    <script>
+    export default {
+      data() {
+        return {
+          user: {},
+          posts: [],
+          newPost: {},
+          // ... beaucoup trop de données
+        }
+      },
+      methods: {
+        editProfile() { /* ... */ },
+        likePost() { /* ... */ },
+        deletePost() { /* ... */ },
+        addPost() { /* ... */ },
+        // ... beaucoup trop de méthodes
+      }
+    }
+    </script>
+    ```
+
+    *Problèmes:*
+
+    - Composant fait 4 choses différentes
+    - Difficile à tester
+    - Difficile à maintenir
+
+    ### Bon exemple: Découpage logique
+
+    ✅ 
+
+    ```vue
+    <!-- UserDashboard.vue - BIEN DÉCOUPÉ -->
+    <template>
+      <div class="dashboard">
+        <UserProfile :user="user" @edit="editProfile" />
+        <UserStats :stats="userStats" />
+        <PostList :posts="posts" @like="likePost" @delete="deletePost" />
+        <PostForm @submit="addPost" />
+      </div>
+    </template>
+
+    <script>
+    import UserProfile from './UserProfile.vue';
+    import UserStats from './UserStats.vue';
+    import PostList from './PostList.vue';
+    import PostForm from './PostForm.vue';
+
+    export default {
+      components: {
+        UserProfile,
+        UserStats,
+        PostList,
+        PostForm
+      },
+      // Logique simplifiée car déléguée aux composants enfants
+    }
+    </script>
+    ```
+
+    Chaque composant a **UNE seule responsabilité**:
+
+    - `UserProfile` → Afficher et éditer le profil
+    - `UserStats` → Afficher les statistiques
+    - `PostList` → Afficher la liste des posts
+    - `PostForm` → Formulaire d'ajout
 
 
 
@@ -305,7 +309,7 @@ src/
 │   │   ├── AppSidebar.vue
 │   │   └── AppNavigation.vue
 │   │
-│   └── [specific]/        ← Composants spécifiques au domaine
+│   └── specific/        ← Composants spécifiques au domaine/type projet
 │       ├── RoomCard.vue
 │       ├── RoomList.vue
 │       ├── MemoryCard.vue
@@ -774,172 +778,177 @@ App.vue
 *Total: ~17 composants*
 
 
+??? example "Exercices pratiques en classe"
 
-## 📝 Exercice Pratique (En classe)
+    ## 📝 Exercice Pratique (En classe)
 
-- [Quiz groupe AM](https://app.wooclap.com/HISOPU)
-- [Quiz groupe PM](https://app.wooclap.com/IMAMPU)
+    - [Quiz groupe AM](https://app.wooclap.com/HISOPU)
+    - [Quiz groupe PM](https://app.wooclap.com/IMAMPU)
 
-### Exercice 1: Identifier les composants
+    ### Exercice 1: Identifier les composants
 
-Regardez cette maquette et identifiez les composants à créer:
+    Regardez cette maquette et identifiez les composants à créer:
 
-```
-┌─────────────────────────────────────┐
-│  [Logo] Musée                       │
-├─────────────────────────────────────┤
-│                                     │
-│  ┌──────────┐  ┌──────────┐         │
-│  │ Tokyo    │  │ Paris    │         │
-│  │          │  │          │         │
-│  │ 5 photos │  │ 3 photos │         │
-│  └──────────┘  └──────────┘         │
-│  ┌──────────┐                       │
-│  │ New York │                       │
-│  │          │                       │
-│  │ 0 photos │                       │
-│  └──────────┘                       │
-│                                     │
-│  [+ Ajouter une destination]        │
-└─────────────────────────────────────┘
-```
+    ```
+    ┌─────────────────────────────────────┐
+    │  [Logo] Musée                       │
+    ├─────────────────────────────────────┤
+    │                                     │
+    │  ┌──────────┐  ┌──────────┐         │
+    │  │ Tokyo    │  │ Paris    │         │
+    │  │          │  │          │         │
+    │  │ 5 photos │  │ 3 photos │         │
+    │  └──────────┘  └──────────┘         │
+    │  ┌──────────┐                       │
+    │  │ New York │                       │
+    │  │          │                       │
+    │  │ 0 photos │                       │
+    │  └──────────┘                       │
+    │                                     │
+    │  [+ Ajouter une destination]        │
+    └─────────────────────────────────────┘
+    ```
 
-### Exercice 2: Props ou Emit?
+    ### Exercice 2: Props ou Emit?
 
-Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
+    Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
-1. Afficher le titre d'une mémoire dans `MemoryCard`
+    1. Afficher le titre d'une mémoire dans `MemoryCard`
 
-2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
+    2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
 
-3. Passer l'URL d'une image à afficher
+    3. Passer l'URL d'une image à afficher
 
-4. Informer qu'un formulaire a été soumis
+    4. Informer qu'un formulaire a été soumis
 
-5. Afficher ou cacher un modal
-
-
-### Solution Exercice 1: Identifier les composants
-
-Regardez cette maquette et identifiez les composants à créer:
-
-*Pour Mémoires Interactives:*
-```
-┌─────────────────────────────────────┐
-│  [Logo] Musée                       │   ← AppHeader
-├─────────────────────────────────────┤
-│                                     │
-│  ┌──────────┐  ┌──────────┐         │
-│  │ Tokyo    │  │ Paris    │         │   ← RoomCard x3
-│  │          │  │          │         │
-│  │ 5 photos │  │ 3 photos │         │
-│  └──────────┘  └──────────┘         │
-│  ┌──────────┐                       │
-│  │ New York │                       │
-│  │          │                       │
-│  │ 0 photos │                       │
-│  └──────────┘                       │
-│                                     │
-│  [+ Ajouter une destination]        │   ← BaseButton
-└─────────────────────────────────────┘
-```
-
-*Question:* Combien de composants différents identifiez-vous?
-
-*Réponse:*
-
-1. `AppHeader` (header)
-2. `RoomGrid` (conteneur)
-3. `RoomCard` (carte répétée)
-4. `BaseButton` (bouton ajout)
-
-### Solution Exercice 2: Props ou Emit? (5 min)
-
-Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
-
-1. Afficher le titre d'une mémoire dans `MemoryCard`
-   - *Réponse:* Props ✅ (parent → enfant)
-
-2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
-   - *Réponse:* Emit ✅ (enfant → parent)
-
-3. Passer l'URL d'une image à afficher
-   - *Réponse:* Props ✅
-
-4. Informer qu'un formulaire a été soumis
-   - *Réponse:* Emit ✅
-
-5. Afficher ou cacher un modal
-   - *Réponse:* Props ✅ (v-model aussi possible)
+    5. Afficher ou cacher un modal
 
 
+    ### Solution Exercice 1: Identifier les composants
 
-## Checklist: Bon composant vs Mauvais composant
+    Regardez cette maquette et identifiez les composants à créer:
 
-### Un BON composant:
+    *Pour Mémoires Interactives:*
+    ```
+    ┌─────────────────────────────────────┐
+    │  [Logo] Musée                       │   ← AppHeader
+    ├─────────────────────────────────────┤
+    │                                     │
+    │  ┌──────────┐  ┌──────────┐         │
+    │  │ Tokyo    │  │ Paris    │         │   ← RoomCard x3
+    │  │          │  │          │         │
+    │  │ 5 photos │  │ 3 photos │         │
+    │  └──────────┘  └──────────┘         │
+    │  ┌──────────┐                       │
+    │  │ New York │                       │
+    │  │          │                       │
+    │  │ 0 photos │                       │
+    │  └──────────┘                       │
+    │                                     │
+    │  [+ Ajouter une destination]        │   ← BaseButton
+    └─────────────────────────────────────┘
+    ```
 
-- ✅ Un composant fait UNE seule chose et la fait bien
-- ✅ Moins de 200 lignes de code
-- ✅ Nom clair et descriptif
-- ✅ Props bien documentées avec types (ex: `props: { title: String, inStock: Boolean}`)
-- ✅ Émissions d'événements déclarées (`emits`)
-- ✅ Réutilisable dans différents contextes
-- ✅ Styles scopés (`<style scoped>`)
-- ✅ Pas de logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> complexe (sauf les composants de type conteneurs dont le rôle est de gérer la logique et récupérer les données)
+    *Question:* Combien de composants différents identifiez-vous?
 
-### Un MAUVAIS composant:
+    *Réponse:*
 
-- ❌ Fait trop de choses différentes
-- ❌ Plus de 300 lignes
-- ❌ Nom vague (`Component1.vue`, `Thing.vue`)
-- ❌ Props non typées
-- ❌ Dépendances cachées
-- ❌ Code dupliqué
-- ❌ Styles globaux non nécessaires
-- ❌ Logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> mélangée à la présentation
+    1. `AppHeader` (header)
+    2. `RoomGrid` (conteneur)
+    3. `RoomCard` (carte répétée)
+    4. `BaseButton` (bouton ajout)
+
+    ### Solution Exercice 2: Props ou Emit? (5 min)
+
+    Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
+
+    1. Afficher le titre d'une mémoire dans `MemoryCard`
+      - *Réponse:* Props ✅ (parent → enfant)
+
+    2. Notifier le parent qu'un bouton "Supprimer" a été cliqué
+      - *Réponse:* Emit ✅ (enfant → parent)
+
+    3. Passer l'URL d'une image à afficher
+      - *Réponse:* Props ✅
+
+    4. Informer qu'un formulaire a été soumis
+      - *Réponse:* Emit ✅
+
+    5. Afficher ou cacher un modal
+      - *Réponse:* Props ✅ (v-model aussi possible)
 
 
 
-## 🎓 Récapitulatif
+??? success "Checklist: Bon composant vs Mauvais composant"
 
-### Les 5 principes clés:
+    ## Checklist: Bon composant vs Mauvais composant
 
-1. *Un composant = Une responsabilité*
-   - Ne pas mélanger présentation et logique
+    ### Un BON composant:
 
-2. *Hiérarchie claire*
-   - Parent → Enfant avec *Props*
-   - Enfant → Parent avec *Emit*
-   - Store *Pinia* pour données partagées entre plusieurs composants
+    - ✅ Un composant fait UNE seule chose et la fait bien
+    - ✅ Moins de 200 lignes de code
+    - ✅ Nom clair et descriptif
+    - ✅ Props bien documentées avec types (ex: `props: { title: String, inStock: Boolean}`)
+    - ✅ Émissions d'événements déclarées (`emits`)
+    - ✅ Réutilisable dans différents contextes
+    - ✅ Styles scopés (`<style scoped>`)
+    - ✅ Pas de logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> complexe (sauf les composants de type conteneurs dont le rôle est de gérer la logique et récupérer les données)
 
-3. *Réutilisabilité*
-   - Composants de base génériques
-   - Props configurables
+    ### Un MAUVAIS composant:
 
-4. *Organisation des fichiers*
-   - `common/`, `layout/`, entités spécifiques
-   - Nommage cohérent
-
-5. *Communication explicite*
-   - Props typées
-   - Émissions d'événements déclarées
- <!-- - Pas d'accès direct aux données parents -->
+    - ❌ Fait trop de choses différentes
+    - ❌ Plus de 300 lignes
+    - ❌ Nom vague (`Component1.vue`, `Thing.vue`)
+    - ❌ Props non typées
+    - ❌ Dépendances cachées
+    - ❌ Code dupliqué
+    - ❌ Styles globaux non nécessaires
+    - ❌ Logique  <span style="color: #76ec56; cursor: help;" title="Métier = le domaine d'activité, le contexte professionnel de l'application">métier*</span> mélangée à la présentation
 
 
 
-## 📚 Ressources supplémentaires
+??? tip "Récapitulatif"
 
-*Documentation officielle*
+    ## 🎓 Récapitulatif
 
-- [Vue.js - Principes fondamentaux des composants​](https://fr.vuejs.org/guide/essentials/component-basics)
-- [Vue.js - Enregistrement des composants](https://fr.vuejs.org/guide/components/registration)
-- [Vue.js - Props](https://fr.vuejs.org/guide/components/props)
-- [Vue.js - Les événements de composant ($emit)](https://fr.vuejs.org/guide/components/events)
+    ### Les 5 principes clés:
 
-*Lectures recommandées:*
+    1. *Un composant = Une responsabilité*
+      - Ne pas mélanger présentation et logique
 
-- "Thinking in Components" - Vue.js Best Practices
-- "Component Design Patterns" - Advanced Vue
+    2. *Hiérarchie claire*
+      - Parent → Enfant avec *Props*
+      - Enfant → Parent avec *Emit*
+      - Store *Pinia* pour données partagées entre plusieurs composants
+
+    3. *Réutilisabilité*
+      - Composants de base génériques
+      - Props configurables
+
+    4. *Organisation des fichiers*
+      - `common/`, `layout/`, entités spécifiques
+      - Nommage cohérent
+
+    5. *Communication explicite*
+      - Props typées
+      - Émissions d'événements déclarées
+    <!-- - Pas d'accès direct aux données parents -->
+
+??? abstract "Ressources supplémentaires"
+
+    ## 📚 Ressources supplémentaires
+
+    *Documentation officielle*
+
+    - [Vue.js - Principes fondamentaux des composants​](https://fr.vuejs.org/guide/essentials/component-basics)
+    - [Vue.js - Enregistrement des composants](https://fr.vuejs.org/guide/components/registration)
+    - [Vue.js - Props](https://fr.vuejs.org/guide/components/props)
+    - [Vue.js - Les événements de composant ($emit)](https://fr.vuejs.org/guide/components/events)
+
+    *Lectures recommandées:*
+
+    - "Thinking in Components" - Vue.js Best Practices
+    - "Component Design Patterns" - Advanced Vue
 
 <!--
 ## 🎯 Travail à faire
@@ -979,28 +988,30 @@ Pour chaque scenario, indiquez si vous utiliseriez *Props* ou *Emit*:
 
 -->
 
-## ❓ Questions fréquentes
+??? question "Questions fréquentes"
 
-*Q: Combien de composants dois-je créer?*
+    ## ❓ Questions fréquentes
 
-*R:* Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez! Lorsque vous commencez à développer, priorisez les composants nécessaires au MVP (Minimum Viable Product) de votre projet.
+    *Q: Combien de composants dois-je créer?*
 
-*Q: Quand créer un nouveau composant?*
+    *R:* Pour votre projet, visez 15-20 composants. Mieux vaut trop découper que pas assez! Lorsque vous commencez à développer, priorisez les composants nécessaires au MVP (Minimum Viable Product) de votre projet.
 
-*R:* Dès que:
+    *Q: Quand créer un nouveau composant?*
 
-- Le code dépasse 150 lignes
-- Vous copiez-collez du code
-- Une section a une responsabilité claire
-- Vous voulez réutiliser quelque chose
+    *R:* Dès que:
 
-*Q: Props ou Store?*
+    - Le code dépasse 150 lignes
+    - Vous copiez-collez du code
+    - Une section a une responsabilité claire
+    - Vous voulez réutiliser quelque chose
 
-*R:* 
+    *Q: Props ou Store?*
 
-- *Props:* Données spécifiques parent → enfant immédiat
-- *Store:* Données partagées entre plusieurs composants non liés
+    *R:* 
 
-*Q: Puis-je modifier une prop dans un composant enfant?*
+    - *Props:* Données spécifiques parent → enfant immédiat
+    - *Store:* Données partagées entre plusieurs composants non liés
 
-*R:* NON! Les props sont *read-only*. Utilisez `$emit` pour demander au parent de la modifier.
+    *Q: Puis-je modifier une prop dans un composant enfant?*
+
+    *R:* NON! Les props sont *read-only*. Utilisez `$emit` pour demander au parent de la modifier.

@@ -19,9 +19,9 @@
       - [ ] **Formulaire d'ajout** complet et validé
       - [ ] **Formulaire d'édition** fonctionnel
       - [ ] **Suppression** avec confirmation
-      - [ ] **Recherche** par mot-clé fonctionnelle
-      - [ ] **Filtres** par tags et par salle
-      - [ ] **Messages d'erreur** clairs et pertinents
+      - [ ] **Recherche** par mot-clé fonctionnelle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Filtres** par tags et par salle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Messages d'erreur** clairs et pertinents *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 
     **Livrables pour *trace ton chemin***
 
@@ -37,7 +37,7 @@
     - Interactivité
       - [ ] **Système de choix** complet et fonctionnel
       - [ ] **Redirection par branches** fonctionnelle
-      - [ ] **Tracking des conséquences** (flags, stats, etc.)
+      - [ ] **Tracking des conséquences** (flags, stats, etc.) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
       - [ ] **Historique des choix** sauvegardé
       - [ ] **Toutes les branches** testées manuellement
       - [ ] **Logique des fins** implémentée (conditions d'accès)
@@ -46,7 +46,9 @@
 
 Réalisé en classe. Instructions à venir.
 
-## Mini cours: GSAP + Vue 3 - GSAP pour narration interactive (45 min) 
+## Cours: GSAP + Vue 3 - GSAP pour narration interactive
+
+[Router et transition animées entre pages](./vue/route-transition-animee.md)
 
 - Les composants natifs à Vue nommés `<Transition>` et `<TransitionGroup>`
   - [En savoir plus sur les `<Transition>`](https://fr.vuejs.org/guide/built-ins/transition)

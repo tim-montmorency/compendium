@@ -2,7 +2,7 @@
 
 <!--Foundation - Structure et affichage de base -->
 
-Mercredi 12 novembre
+<!-- Mercredi 12 novembre -->
 
 
 <!-- 
