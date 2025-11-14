@@ -42,7 +42,7 @@
 - [ ] Dans la méthode `enterMuseum()` créez un lien, de façon programmatique qui crée une navigation vers la liste des salles.
 - [ ] Appelez cette méthode au clic du bouton `.enter-button`.
 
-### Liste des salles
+### Créez une navigation dynamique parmi les salles
 
 - [ ] Dans `src/views/RoomsView.vue`, dans la méthode `goToRoom()`, créez le lien vers la salle dont l'ID est reçu en paramètres dans la méthode.
 
@@ -50,7 +50,7 @@
 !!! info
     À chaque étape, prenez le temps d'analyser le fichier en cours.
 
-### Créez une navigation dynamique parmi les chapitres
+### Dans la view d'une salle, récupérez l'ID du URL
 
 - [ ] Dans `src/views/RoomDetail.vue`, dans la méthode `created`, récupérez l'ID de la salle depuis l'URL.
 - [ ] Dans la méthode `goBack`, naviguez vers la view (page) précédente.
