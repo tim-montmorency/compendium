@@ -367,7 +367,7 @@ Vous pouvez donc la styliser pour lui donner un aspect différent des autres lie
 // router/index.js
 const routes = [
   {
-    path: '/room/:id', // ← Paramètre dynamique :id
+    path: '/room/:id', // ← Paramètre dynamique :id récupéré depuis l'URL
     name: 'room',
     component: RoomView
   },
@@ -403,7 +403,7 @@ export default {
   },
   
   created() {
-    // Accès au paramètre dynamique :id
+    // Récupérer le paramètre dynamique "id" depuis l'URL
     this.roomId = this.$route.params.id;
     
     // Charger les données de la salle
@@ -470,7 +470,7 @@ export default {
   },
   
   created() {
-    // Accès aux paramètres de requête q et tag
+    // Récupérer les paramètres de requête "q" et "tag" depuis le URL
     this.searchQuery = this.$route.query.q || '';
     this.selectedTag = this.$route.query.tag || '';
   },
@@ -489,7 +489,7 @@ export default {
   },
   
   watch: {
-    // Réagir aux changements deparamètres de recherche
+    // Réagir aux changements de paramètres de recherche
     '$route.query': {
       handler(newQuery) {
         this.searchQuery = newQuery.q || '';

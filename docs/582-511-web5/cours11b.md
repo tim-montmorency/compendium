@@ -21,6 +21,16 @@ N'allez surtout pas prendre des code n'importe où sans vous rappeler de cette i
 
 ## Retour sur routes
 
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/router-and-views.html">Routes entre les différentes <em>views</em> (pages)</a>
+</div>
+
+### Exercice Routes
+
+[Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
+
+
 <!-- 
 Donner du data bidon déjà formatté pour qu'ils puissent tester leur route et l'affichage
 mais comment récupérer les données complètes autre que le id passé en paramètre d'URL  si la données est au niveau du parent? il semble qu'on va utiliser Pinia sotryStore 
