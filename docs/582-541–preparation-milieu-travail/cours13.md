@@ -18,18 +18,10 @@ Remplir le document bilan_journee_carriere dans GitHub.
 
 * Cahier du participant
 
-* Investir sans cravate   
-
 [📁 Tableau Miro définitions](https://miro.com/app/board/uXjVJr1O44w=/?share_link_id=463831373978){ .md-button }
 
+* Investir sans cravate   
 
-[📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
-
-* En équipe de 2, choisir une des capsules de formation.
-* Retour en groupe sur votre capsule.
-
-
-* Jeu Aléa   
 
 
 ## Devoir
