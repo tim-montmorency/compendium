@@ -9,7 +9,15 @@
 * Inforoute: 33,23$
 * Montmorency: 28,73$
 * Finissants: 30,24$
-* Travailleur autonome: + 15 à 20%  
+* Travailleur autonome: + 15 à 20%
+
+  
+[📁 Programme mes finances mes choix](https://mesfinancesmeschoix.com/){ .md-button }
+
+* En équipe de 2, choisir une des capsules de formation.
+* Retour en groupe sur votre capsule.
+
+* Jeu Aléa   
 
 ## Conférence de Synthèse
 
