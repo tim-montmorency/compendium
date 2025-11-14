@@ -43,9 +43,11 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 
 ## Rappel JavaScript: Les méthodes de l'objet Array en JavaScript
 
-[Liste des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
+- [Notes de cours sur l'objet Array](https://tim-montmorency.com/timdoc/582-518MO/javascript/objet-array/)
 
-Exemples:
+- [Liste complète des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
+
+### Exemples:
 
 - `length`
 - `push()`
