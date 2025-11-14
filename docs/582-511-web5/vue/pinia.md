@@ -417,7 +417,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `logout()`
      - `register()`
 
-#### Checklist *Mémoires interactives
+#### Checklist *Mémoires interactives*
 
 - [ ] Création des 2 *stores* obligatoires:
   - [ ] `useMuseumStore.js` (structure de base)

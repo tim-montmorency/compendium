@@ -64,22 +64,129 @@ Exemples:
 
 En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'ajoute:
 
-### *Mémoire interactive*
+## Configuration de stores pour le projet *App web créative*
 
-#### Création des stores Pinia
+### Pour *Mémoires interactives*
 
-- `useMuseumStore.js` (structure de base)
-- `useMemoryStore.js` (structure de base)
+*Structure des stores suggérée:*
 
-#### Développement des composants clés
+1. *`useMuseumStore`*
+   - State (équivalent de data()):
+     - `rooms`
+     - `currentRoomId`
+     - `museumName`
+     - `theme`
+   - Actions (équivalent de methods):
+     - `addRoom()` (optionnel car certains projets ne le permettent pas)
+     - `updateRoom()`
+     - `deleteRoom()`
+     - `setCurrentRoom()`
 
-- `RoomCard.vue` (carte de salle)
-- `MemoryCard.vue` (carte de mémoire)
-- `MemoryList.vue` (liste ou grille des mémoires)
+2. *`useMemoryStore`*
+   - State (équivalent de data()):
+     - `memories`
+     - `filters`
+     - `searchQuery`
+   - Actions (équivalent de methods):
+     - `addMemory()`
+     - `updateMemory()`
+     - `deleteMemory()`
+     - `searchMemories()`
+   - Getters (équilavent de computed):
+     - `filteredMemories`
+     - `memoriesByRoom`
+     - `memoriesByTag`
 
-### *Trace ton chemin*
+3. *`useAuthStore`* (optionnel)
+   - State (équivalent de data()): 
+     - `user`
+     - `isAuthenticated`
+   - Actions (équivalent de methods): 
+     - `login()`
+     - `logout()`
+     - `register()`
 
-#### Création des stores Pinia
+#### Checklist *Mémoires interactives*
 
-- `useStoryStore.js` (chapitres, navigation)
-- `usePlayerStore.js` (état du joueur)
+- [ ] Création des 2 *stores* obligatoires:
+  - [ ] `useMuseumStore.js` (structure de base)
+  - [ ] `useMemoryStore.js` (structure de base)
+
+- [ ] Développement des *composants clés* qui utilisent les stores:
+  - [ ] `RoomCard.vue` (carte de salle)
+  - [ ] `MemoryCard.vue` (carte de mémoire)
+  - [ ] `MemoryList.vue` (grille de mémoires)
+
+### Pour *Trace ton chemin*
+
+*Structure des stores suggérée:*
+
+1. *`useStoryStore`* (le plus important du projet)
+
+   - State (équivalent de data()):
+     - `currentChapterId`
+     - `visitedChapters`
+     - `storyData`
+     - `availableChoices`
+   - Actions (équivalent de methods):
+     - `loadChapter()`
+     - `makeChoice()`
+     - `goToChapter()`
+   - Getters (équilavent de computed):
+     - `currentChapter`
+     - `isChapterUnlocked()`
+
+2. *`usePlayerStore`* (commencez simple d'abord, juste avec le nom)
+   - State (équivalent de data()):
+     - `playerName`
+     - `karma`
+     - `stats`
+     - `inventory`
+     - `flags`
+     - `relationships`
+   - Actions (équivalent de methods):
+     - `addToInventory()`
+     - `updateStat()`
+     - `setFlag()`
+     - `updateRelationship()`
+   - Getters (équilavent de computed):
+     - `hasItem()`
+     - `getRelationship()`
+     - `canAccessEnding()`
+
+3. *`useSaveStore`*
+   - State (équivalent de data()):
+     - `saveSlots` (array de 3 slots)
+   - Actions (équivalent de methods): 
+     - `saveGame()`
+     - `loadGame()`
+     - `deleteSave()`
+     - `getSaveInfo()`
+   - Getters (équilavent de computed):
+     - `hasSaves`
+     - `latestSave`
+
+4. *`useAudioStore`* (optionnel)
+   - State (équivalent de data()):
+     - `currentMusic`
+     - `soundEffects`
+     - `volume`
+     - `isMuted`
+   - Actions (équivalent de methods):
+     - `playMusic()`
+     - `playSound()`
+     - `toggleMute()`
+     - `setVolume()`
+
+#### Checklist *Trace ton chemin*
+
+- [ ] Création des 2 premier *stores*:
+  - [ ] `useStoryStore.js` (chapitres, navigation)
+  - [ ] `usePlayerStore.js` (état du joueur, commencez réalistement, juste avec son nom)
+
+- [ ] Création du *fichier JSON avec les chapitres*
+
+- [ ] Développement des *composants clés* qui utilisent les stores:
+  - [ ] `ChoiceButton.vue` (bouton de choix)
+  - [ ] `ChoicePanel.vue` (panel de choix)
+
