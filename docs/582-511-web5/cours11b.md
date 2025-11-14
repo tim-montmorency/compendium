@@ -62,6 +62,8 @@ Exemples:
 
 ## Travail en classe Mise en place de store *Pinia*
 
+En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'ajoute:
+
 ### *Mémoire interactive*
 
 #### Création des stores Pinia
@@ -81,6 +83,3 @@ Exemples:
 
 - `useStoryStore.js` (chapitres, navigation)
 - `usePlayerStore.js` (état du joueur)
-
-
-
