@@ -44,7 +44,7 @@
 
 ### Liste des salles
 
-- [ ] Dans `src/views/RoomsView.vue`, dans la méthode `goToRoom()`, créez la lien vers la salle dont l'ID est reçu en paramètres dans la méthode.
+- [ ] Dans `src/views/RoomsView.vue`, dans la méthode `goToRoom()`, créez le lien vers la salle dont l'ID est reçu en paramètres dans la méthode.
 
 
 !!! info
