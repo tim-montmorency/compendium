@@ -268,9 +268,11 @@ museumStore.deleteRoom(4) // Pour une action qui supprime la salle ayant l'id 4
 
 ## Exemple complet d'un compteur utilisant un store Pinia
 
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=68bf5ed9-94bf-4dca-9cab-aa01eff5e8f8&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="demo-pinia-counter.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 On enregistre les composants `componentA.vue` et `componentV.vue`
 
-*Fichier `main.js`*
+*Fichier `src/main.js`*
 
 ```vue
 import { createApp } from 'vue'
@@ -328,7 +330,7 @@ export const useCounterStore = defineStore('counter', {
 
 On peut désormais utiliser ce store partagé dans plusieurs composants.
 
-Par exemple, j'incrémente le compteur du store depuis `ComponentA``
+Par exemple, j'incrémente le compteur du store depuis `ComponentA`
 
 *Fichier `src/components/ComponentA.vue`*
 
@@ -352,7 +354,7 @@ Par exemple, j'incrémente le compteur du store depuis `ComponentA``
 
 Je récupère la valeur du compteur du store depuis `ComponentB`:
 
-*Fichier `src/components/ComponentA.vue`*
+*Fichier `src/components/ComponentB.vue`*
 
 ```
 <template>
