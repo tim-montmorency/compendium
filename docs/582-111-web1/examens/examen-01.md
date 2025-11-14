@@ -1,4 +1,4 @@
-# Examen 01
+# Examen 1
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/rick-sanchez.gif)
