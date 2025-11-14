@@ -505,7 +505,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 
 ## Store Pinia de base
 
-Utilisez ce template de base pour débuter:
+Utilisez ce template générique de base pour débuter:
 
 ```javascript
 import { defineStore } from 'pinia';
