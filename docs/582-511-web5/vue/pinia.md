@@ -266,7 +266,11 @@ museumStore.currentRoom // Pour un getter qui retourne le contenu de la salle co
 museumStore.deleteRoom(4) // Pour une action qui supprime la salle ayant l'id 4
 ```
 
-## Exemple complet d'un compteur utilisant un store Pinia
+## Exemple complet d'un *compteur* utilisant un store Pinia
+
+Si vous souhaitez explorer cet exemple, voici les fichiers de cet exemple de *compteur utilisant Pinia* à télécharger et installer localement (n'oubliez pas le `npm install` et le `npm run dev`).
+
+[📥 Charger les fichiers du projet du *compteur utilisant Pinia*](./assets/demo-pinia-counter-dist.zip)
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=68bf5ed9-94bf-4dca-9cab-aa01eff5e8f8&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="demo-pinia-counter.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
