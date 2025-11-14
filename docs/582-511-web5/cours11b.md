@@ -41,7 +41,7 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 </div>
 
 
-## Cours: Les méthodes de l'objet Array en JavaScript
+## Rappel JavaScript: Les méthodes de l'objet Array en JavaScript
 
 [Liste des méthodes de l'objet Array sur w3School](https://www.w3schools.com/js/js_array_reference.asp)
 
