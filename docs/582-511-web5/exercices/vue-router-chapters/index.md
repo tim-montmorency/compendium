@@ -11,7 +11,7 @@
 ## Instructions
 
 !!! warning
-  Chaque fichier à modifier à une indication `TODO` là où vous devez intervenir et écrire du code.
+    Chaque fichier à modifier à une indication `TODO` là où vous devez intervenir et écrire du code.
 
 ### Démarrage
 
