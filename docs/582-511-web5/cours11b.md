@@ -15,7 +15,7 @@ Vous codez avec la version *Vue 3* et surtout vous rappeler qu'on utilise prése
 
 Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./vue/assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;">
 
-N'allez surtout pas prendre des code n'importe où sans vous rappeler de cette importante information.
+N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette information importante.
 
 
 
