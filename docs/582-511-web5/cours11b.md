@@ -31,62 +31,6 @@ N'allez surtout pas prendre des code n'importe où sans vous rappeler de cette i
 [Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
 
 
-<!-- 
-Donner du data bidon déjà formatté pour qu'ils puissent tester leur route et l'affichage
-mais comment récupérer les données complètes autre que le id passé en paramètre d'URL  si la données est au niveau du parent? il semble qu'on va utiliser Pinia sotryStore 
-
-import { useStoryStore } from '../stores/story'
-
-computed (propriété calculée)
-chapter() { return this.$pinia.state.value.story.storyData[this.id] ?? this.$pinia.state.value.story.storyData[this.$pinia.state.value.story.currentChapterId] },
-
-utilisation:
-{{ chapter.title }}
-
-{{ chapter.text }}
-
-
------
-
-data bidon à donner (possiblement)
-
- data() {
-    return {
-        chapterData : {
-        "ch-1": {
-            "id": "ch-1",
-            "title": "Le Hall des Aiguilles",
-            "text": "Au Musée de chemins, une grande horloge bat doucement. Un carnet porte votre nom.",
-            "image": "/images/bg-hall.jpg",,
-            "choices": null,
-            "nextChapter": "ch-2"
-        },
-        "ch-2": {
-            "id": "ch-2",
-            "title": "La Carte Vivante",
-            "text": "Une carte s'illumine. Un Horloger Fantôme vous propose un pacte : « du temps, contre un souvenir ».",
-            "image": "/images/bg-map.jpg",
-            "choices": [
-            {
-                "id": "accept",
-                "text": "Accepter le pacte",
-                "consequence": "Le temps accélère autour de vous.",
-                "nextChapter": "ch-3a",
-            },
-            {
-                "id": "refuse",
-                "text": "Refuser et observer",
-                "consequence": "Vous gardez votre mémoire intacte.",
-                "nextChapter": "ch-3b",
-            }
-            ]
-        }
-    }
-}
-
-
--->
-
 ## Cours: Pinia
 
 *Pinia* une bibliothèque (`store`) de gestion d'état pour les application Vue.js
