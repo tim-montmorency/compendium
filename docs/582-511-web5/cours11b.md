@@ -66,9 +66,9 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 
 En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'ajoute:
 
-## Configuration de stores pour le projet *App web créative*
+### Configuration de stores pour le projet *App web créative*
 
-### Pour *Mémoires interactives*
+#### Pour *Mémoires interactives*
 
 *Structure des stores suggérée:*
 
@@ -108,7 +108,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `logout()`
      - `register()`
 
-#### Checklist *Mémoires interactives*
+##### Checklist *Mémoires interactives*
 
 - [ ] Création des 2 *stores* obligatoires:
   - [ ] `useMuseumStore.js` (structure de base)
@@ -119,7 +119,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
   - [ ] `MemoryCard.vue` (carte de mémoire)
   - [ ] `MemoryList.vue` (grille de mémoires)
 
-### Pour *Trace ton chemin*
+#### Pour *Trace ton chemin*
 
 *Structure des stores suggérée:*
 
@@ -180,7 +180,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `toggleMute()`
      - `setVolume()`
 
-#### Checklist *Trace ton chemin*
+##### Checklist *Trace ton chemin*
 
 - [ ] Création des 2 premier *stores*:
   - [ ] `useStoryStore.js` (chapitres, navigation)
