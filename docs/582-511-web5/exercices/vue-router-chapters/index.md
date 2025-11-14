@@ -4,9 +4,12 @@
 
 ## Fichiers de base
 
-[📥 Téléchargez le dossier de départ]()
+[📥 Téléchargez le dossier de départ](./router-chapters-depart.zip)
 
 ## Instructions
+
+!!! warning
+  Chaque fichier à modifier à une indication `TODO` là où vous devez intervenir et écrire du code.
 
 ### Démarrage
 

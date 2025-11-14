@@ -1,0 +1,28 @@
+/* Styles globaux de base */
+
+:root {
+  --primary-color: #42b983;
+  --text-color: #2c3e50;
+  --bg-color: #f8f9fa;
+}
+
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Utilitaires */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
