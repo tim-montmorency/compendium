@@ -27,7 +27,7 @@
   - [ ] Définir les routes pour le projet. Une d'elle (celle de chapter), utilisera une paramètre dynamique (l'id du chapitre).
 
 !!! info
-  À chaque étape, prenez le temps d'analyser le fichier en cours.
+    À chaque étape, prenez le temps d'analyser le fichier en cours.
 
 ### Affichez la vue Home via le router dans `App.vue`
 
@@ -35,7 +35,7 @@
 - [ ] Ensuite, supprimez l'importation de HomeView dans ce fichier car il ne sera plus utile car ils sera importé via le Router Vue (TODO étape 2).
 
 !!! info
-  À chaque étape, prenez le temps d'analyser le fichier en cours.
+    À chaque étape, prenez le temps d'analyser le fichier en cours.
 
 ### [Commencez l'aventure]
 
@@ -46,7 +46,7 @@
 - Testez le tout. Vous devriez être en mesure de cliquer sur le bouton [Commencez l'aventure] et naviguer vers le chapitre 1 à partir de l'accueil.
 
 !!! info
-  À chaque étape, prenez le temps d'analyser le fichier en cours.
+    À chaque étape, prenez le temps d'analyser le fichier en cours.
 
 ### Créez une navigation dynamique parmi les chapitres
 
