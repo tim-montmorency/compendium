@@ -240,9 +240,8 @@ export const useMuseumStore = defineStore('museum', {
 
 Pour accéder aux éléments d'un store dans un composant Vue, il faut d'abord importer ce fameux store.
 
-Ensuite, on fait appel à la fonction helper de pinia nommée `mapStore()` afin de mapper l'ensemble des éléments du store  (`state`, `getters`) au sein de propriétés calculées `computed` du composant.
+Ensuite, on fait appel à la fonction de pinia nommée `mapStore()` afin de mapper l'ensemble des éléments du store  (`state`, `getters`) au sein de propriétés calculées `computed` du composant.
 
-On fait appel
 
 ```vue
 import { mapStores } from 'pinia'
