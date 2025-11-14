@@ -1,4 +1,4 @@
-# Exercice "Navigation parmi les chapitres" via Router
+# Exercice "Navigation parmi les salles" via Router
 
 ## Aperçu du résultat
 
@@ -47,15 +47,12 @@
 - [ ] Dans `src/views/RoomsView.vue`, dans la méthode `goToRoom()`, créez la lien vers la salle dont l'ID est reçu en paramètres dans la méthode.
 
 
-- [ ] Dans `src/views/RoomDetail.vue`, récupérez l'ID du chapitre depuis l'URL et sotckez le dans la donnée `this.chapterId`.
-- Testez le tout. Vous devriez être en mesure de cliquer sur le bouton [Entrez dans le musée] et naviguer vers le chapitre 1 à partir de l'accueil.
-
 !!! info
     À chaque étape, prenez le temps d'analyser le fichier en cours.
 
 ### Créez une navigation dynamique parmi les chapitres
 
-- [ ] Dans `src/views/ChapterView.vue`, dans la méthode `created`, récupérez l'ID de la salle depuis l'URL.
+- [ ] Dans `src/views/RoomDetail.vue`, dans la méthode `created`, récupérez l'ID de la salle depuis l'URL.
 - [ ] Dans la méthode `goBack`, naviguez vers la view (page) précédente.
 
 
