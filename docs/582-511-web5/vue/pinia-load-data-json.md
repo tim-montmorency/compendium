@@ -6,11 +6,11 @@
 
 *Trace ton chemin*
 
-- Basez vous sur la structure des données de chapitres dans l'[exercice des routes parmis les chapitres](../exercices/vue-router-chapters/)
+- Basez vous d'abord sur la structure des données de chapitres dans l'[exercice des routes parmi les chapitres](../exercices/vue-router-chapters/) dans la vue `chapterView.vue`. Vous pouvez faire évoluer cette structure mais vous pouvez démarrer avec la struture de base de l'éxercice pour vous aider à démarrer.
 
 *Mémoires interactives*
 
-- Basez vous sur la structure des données  des salles et mémoires dans la vue `RoomDetailView` de l'[exercice des routes parmis les salles](../exercices/vue-router-rooms/)
+- Basez vous sur la structure des données des salles et mémoires dans la vue `RoomDetailView` de l'[exercice des routes parmis les salles](../exercices/vue-router-rooms/). Vous pouvez faire évoluer cette structure mais vous pouvez démarrer avec la struture de base de l'éxercice pour vous aider à démarrer.
 
 ## Créez vos stores Pinia
 
