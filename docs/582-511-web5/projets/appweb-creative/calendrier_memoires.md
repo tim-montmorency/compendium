@@ -85,8 +85,8 @@
 - Mini-cours: Pinia en profondeur (45 min)
 
 - Création des stores:
-  - `useMuseumStore.js` (structure de base)
-  - `useMemoryStore.js` (structure de base)
+  - `museum.js` (structure de base)
+  - `memory.js` (structure de base)
 - Développement des composants clés:
   - `RoomCard.vue` (carte de salle)
   - `MemoryCard.vue` (carte de mémoire)

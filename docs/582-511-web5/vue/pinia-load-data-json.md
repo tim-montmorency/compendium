@@ -29,6 +29,9 @@ Pour charger les données des salles et mémoires préalablement créées de vot
 
 ## Chargez vos données dans le store
 
+
+*Trace ton chemin*
+
 *`src/stores/story.js`*
 
 ```vue
@@ -38,6 +41,38 @@ import chapters from '../data/chapters.json'
 export const useStoryStore = defineStore('story', {
   state: () => ({
     storyData: chapters
+  })
+});
+```
+
+
+*Mémoires interactives*
+
+
+
+*`src/stores/museum.js`*
+
+```vue
+import { defineStore } from 'pinia'
+import rooms from '../data/rooms.json'
+
+export const useMemoriesStore = defineStore('museum', {
+  state: () => ({
+    roomsData: rooms
+  })
+});
+
+```
+
+*`src/stores/memory.js`*
+
+```vue
+import { defineStore } from 'pinia'
+import memories from '../data/memories.json'
+
+export const useMemoriesStore = defineStore('memory', {
+  state: () => ({
+    memoriesData: memories
   })
 });
 

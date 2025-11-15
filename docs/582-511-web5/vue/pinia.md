@@ -423,8 +423,8 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 #### Checklist *Mémoires interactives*
 
 - [ ] Création des 2 *stores* obligatoires:
-  - [ ] `useMuseumStore.js` (structure de base)
-  - [ ] `useMemoryStore.js` (structure de base)
+  - [ ] `museum.js` (structure de base)
+  - [ ] `memory.js` (structure de base)
 
 - [ ] Développement des *composants clés* qui utilisent les stores:
   - [ ] `RoomCard.vue` (carte de salle)
@@ -495,8 +495,8 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 #### Checklist *Trace ton chemin*
 
 - [ ] Création des 2 premier *stores*:
-  - [ ] `useStoryStore.js` (chapitres, navigation)
-  - [ ] `usePlayerStore.js` (état du joueur, commencez réalistement, juste avec son nom)
+  - [ ] `story.js` (chapitres, navigation)
+  - [ ] `player.js` (état du joueur, commencez réalistement, juste avec son nom)
 
 - [ ] Création du *fichier JSON avec les chapitres*
 
