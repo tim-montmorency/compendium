@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exo 3 — Layout Grid Areas</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+      }
+      .grid {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "nav    main"
+          "nav    aside"
+          "footer footer";
+        grid-template-columns: 240px 1fr;
+        grid-template-rows: 72px 1fr 1fr 60px;
+        gap: 10px;
+        min-height: 100dvh;
+        padding: 10px;
+        background: #f6f7fb;
+      }
+      header {
+        grid-area: header;
+        background: #1f2937;
+        color: #fff;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+      }
+      nav {
+        grid-area: nav;
+        background: #e5e7eb;
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      main {
+        grid-area: main;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      aside {
+        grid-area: aside;
+        background: #f3f4f6;
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      footer {
+        grid-area: footer;
+        background: #111827;
+        color: #fff;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+      }
+      nav ul {
+        margin: 0;
+        padding-left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Layout complet avec grid-template-areas -->
+
+    <div class="grid">
+      <header>Header</header>
+      <nav>
+        <strong>Menu</strong>
+        <ul>
+          <li>Accueil</li>
+          <li>Articles</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <main>
+        <h1>Main content</h1>
+        <p>Texte de démonstration…</p>
+      </main>
+      <aside>
+        <h2>Sidebar</h2>
+        <p>Contenu latéral, widgets, etc.</p>
+      </aside>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
