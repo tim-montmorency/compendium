@@ -87,7 +87,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
 
 1. *`museum`*
    - State (équivalent de data()):
-     - `rooms`
+     - `rooms` // contient la liste des salles
      - `currentRoomId`
      - `museumName`
      - `theme`
@@ -99,7 +99,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
 
 2. *`memory`*
    - State (équivalent de data()):
-     - `memories`
+     - `memories` // contient la liste des mémoires
      - `filters`
      - `searchQuery`
    - Actions (équivalent de methods):
@@ -112,22 +112,14 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `memoriesByRoom`
      - `memoriesByTag`
 
-3. *`auth`* (optionnel)
-   - State (équivalent de data()): 
-     - `user`
-     - `isAuthenticated`
-   - Actions (équivalent de methods): 
-     - `login()`
-     - `logout()`
-     - `register()`
-
 ##### Checklist *Mémoires interactives*
 
 - [ ] Création des 2 *stores* obligatoires:
-  - [ ] `meseum.js` (structure de base)
+  - [ ] `museum.js` (structure de base)
   - [ ] `memory.js` (structure de base)
 
 - [ ] Développement des *composants clés* qui utilisent les stores:
+
   - [ ] `RoomCard.vue` (carte de salle)
   - [ ] `MemoryCard.vue` (carte de mémoire)
   - [ ] `MemoryList.vue` (grille de mémoires)
@@ -141,12 +133,14 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
    - State (équivalent de data()):
      - `currentChapterId`
      - `visitedChapters`
-     - `storyData`
+     - `storyData` // contient  les données des chapitres chargé à partir du json
      - `availableChoices`
+
    - Actions (équivalent de methods):
      - `loadChapter()`
      - `makeChoice()`
      - `goToChapter()`
+
    - Getters (équilavent de computed):
      - `currentChapter`
      - `isChapterUnlocked()`
@@ -158,7 +152,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `stats`
      - `inventory`
      - `flags`
-     - `relationships`
+     - `relationships
    - Actions (équivalent de methods):
      - `addToInventory()`
      - `updateStat()`

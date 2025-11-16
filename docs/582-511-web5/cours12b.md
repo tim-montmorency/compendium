@@ -10,7 +10,7 @@
       - [ ] **Projet Vite+Vue** initialisé et fonctionnel
       - [ ] **Minimum 6-8 composants** créés et fonctionnels
       - [ ] **Vue Router** configuré avec 4+ routes
-      - [ ] **2 stores Pinia** créés avec state/actions/getters de base
+      - [ ] **2 stores Pinia** (museum et memory) créés avec state/actions/getters de base
       - [ ] **Navigation fonctionnelle** entre les pages
       - [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
 
@@ -29,7 +29,7 @@
       - [ ] **Projet Vite+Vue** initialisé et fonctionnel
       - [ ] **Minimum 6-8 composants** créés et fonctionnels
       - [ ] **Vue Router** configuré avec routes par chapitre
-      - [ ] **2 stores Pinia** créés avec state/actions/getters de base
+      - [ ] **2 stores Pinia** (story et player) créés avec state/actions/getters de base
       - [ ] **Navigation fonctionnelle** entre chapitres
       - [ ] **Tous les chapitres** dans le fichier JSON
       - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)

@@ -6,7 +6,7 @@ Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencon
 
 ## La remise du 19 novembre est réduite
 
-La remise de ce mercredi 19 novembre est réduite à la partie fondation seulement.
+La remise de ce mercredi 19 novembre est réduite.
 
 
 
