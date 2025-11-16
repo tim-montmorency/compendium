@@ -79,12 +79,14 @@ Avancer ce qui a été commencé en classe:
 ## *Trace ton chemin*: Système de Choix et Branches
 
 - Implémentation du tracking des conséquences: *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
+
   - Système de flags (événements déclenchés)
   - Karma/stats (si applicable)
   - Inventaire (si applicable)
   - Relations avec personnages (si applicable)
 
 - Historique des choix du joueur:
+
   - Enregistrement de chaque décision
   - Affichage dans un menu (optionnel)
 

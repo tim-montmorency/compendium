@@ -28,8 +28,14 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 
 ### Exercice Routes
 
-- Pour les étudiants de *Trace ton chemin* [Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
-- Pour les étudiants de *Mémoires interactives* [Exercice des routes parmis les salles](./exercices/vue-router-rooms/)
+- Pour les étudiants de *Trace ton chemin* 
+
+  - [Exercice des routes parmi les chapitres](./exercices/vue-router-chapters/)
+  - [Solution: vous pourrez partir de cet exercice pour débuter le routage dans votre projet](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcxBw5eeEZ9Ho2-fw8HupkkB1AWCaGbhrayjal0GOl4-NA?e=yKUeZP)
+
+- Pour les étudiants de *Mémoires interactives* 
+  - [Exercice des routes parmi les salles](./exercices/vue-router-rooms/)
+  - [Solution: vous pourrez partir de cet exercice pour débuter le routage dans votre projet](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYcXxd4gNXFPtWxNgzUxV7gB9GgvH8nMM7lVsD5B9AkV0g?e=dGzgbB)
 
 ## Cours: Pinia
 
