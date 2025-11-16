@@ -1,7 +1,16 @@
 # Cours 12.1 Phase interactivité
 
-17 novembre
+## Annonces
 
+Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencontres prof/équipe pour vous accompagner.
+
+## La remise du 19 novembre est réduite
+
+La remise de ce mercredi 19 novembre est réduite à la partie fondation seulement.
+
+
+
+<!--
 ## Cours: Validation de formulaires Vue (Mémoires interactives)
 
 ...
@@ -9,6 +18,8 @@
 ## Cours: Logique de branches narratives (Trace ton chemin)
 
 ...
+
+-->
 
 ## Travail en classe et en devoir
 

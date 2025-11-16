@@ -14,11 +14,11 @@
       - [ ] **Navigation fonctionnelle** entre les pages
       - [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
 
-    - Interactivité
+    - Interactivité *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 
-      - [ ] **Formulaire d'ajout** complet et validé
-      - [ ] **Formulaire d'édition** fonctionnel
-      - [ ] **Suppression** avec confirmation
+      - [ ] **Formulaire d'ajout** complet et validé *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Formulaire d'édition** fonctionnel *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Suppression** avec confirmation *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
       - [ ] **Recherche** par mot-clé fonctionnelle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
       - [ ] **Filtres** par tags et par salle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
       - [ ] **Messages d'erreur** clairs et pertinents *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
@@ -38,9 +38,9 @@
       - [ ] **Système de choix** complet et fonctionnel
       - [ ] **Redirection par branches** fonctionnelle
       - [ ] **Tracking des conséquences** (flags, stats, etc.) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
-      - [ ] **Historique des choix** sauvegardé
-      - [ ] **Toutes les branches** testées manuellement
-      - [ ] **Logique des fins** implémentée (conditions d'accès)
+      - [ ] **Historique des choix** sauvegardé *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Toutes les branches** testées manuellement *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
+      - [ ] **Logique des fins** implémentée (conditions d'accès) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov. Mais obligatoire pour la remise finale.*
 
 ## Évaluation par les pairs et auto-évaluation de mi-parcours (sommatif 5%)
 
