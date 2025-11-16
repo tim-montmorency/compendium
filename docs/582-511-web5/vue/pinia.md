@@ -533,7 +533,11 @@ export const useExampleStore = defineStore('example', {
     par son id */
     getItemById: (state) => (id) => {
       return state.items.find(item => item.id === id);
-    }
+    },
+
+    currentChapter: (state) => {
+      return state.items[state.currentItem];
+    },
   },
 
   actions: {
