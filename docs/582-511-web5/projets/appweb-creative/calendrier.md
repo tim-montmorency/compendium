@@ -48,9 +48,9 @@
 - [ ] **Projet Vite+Vue** initialisé et fonctionnel
 - [ ] **Structure complète des dossier et fichiers**
 - [ ] **Minimum 4-6 composants et views** créés et fonctionnels
-- [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`
+- [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`*
 - [ ] **Vue Router** configuré avec min. 3 routes
-- [ ] **Documentation des routes** dans un fichier `ROUTES.md`
+- [ ] **Documentation des routes** dans un fichier `ROUTES.md`**
 - [ ] **2 stores Pinia** (museum et memory) créés avec state/actions/getters de base
 - [ ] **Navigation fonctionnelle** entre les pages
 - [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
@@ -60,16 +60,24 @@
 - [ ] **Projet Vite+Vue** initialisé et fonctionnel
 - [ ] **Structure complète des dossier et fichiers**
 - [ ] **Minimum 4-6 composants** créés et fonctionnels
-- [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`
+- [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`*
 - [ ] **Vue Router** configuré avec routes par chapitre
-- [ ] **Documentation des routes** dans un fichier `ROUTES.md`
+- [ ] **Documentation des routes** dans un fichier `ROUTES.md`**
 - [ ] **2 stores Pinia** (story et player) créés avec state/actions/getters de base
 - [ ] **Navigation fonctionnelle** entre chapitres
 - [ ] **Minimum 6-7 chapitres** dans le fichier JSON
 - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
 - [ ] **Système de choix** complet et fonctionnel
 
+*Documenter vos `components` et vos `views` dans `COMPONENTS.ms`
 
+- Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src` de votre projet)
+- Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
+
+**Documenter vos `routes` dans `ROUTES.md`
+
+- Créer un fichier `ROUTES.md`
+- Pour chaque route, lister: path, name, composant (la view) et une description
 
 ## PHASE 3: INTERACTIVITÉ
 
