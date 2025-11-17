@@ -19,7 +19,7 @@ Lundi 1er décembre
 
     - Interactivité
       - [ ] **Tracking des conséquences** (flags, stats, etc.)
-      - [ ] **Historique des choix** sauvegardé dans Pinia
+      - [ ] **Historique des choix** de l'utilisateur sauvegardé dans Pinia
       - [ ] **Toutes les branches** testées manuellement
       - [ ] **Logique des fins** implémentée (conditions d'accès)
 

@@ -12,7 +12,7 @@ Le calendrier complet du projet a été revu:
 
 [🗓️ Voir le calendrier de projet revu](./projets/appweb-creative/calendrier.md){ .md-button } 
 
-## La remise du 19 novembre est réduite
+## Coup de pouce et templates
 
 [🛠️ Coup de pouce pour votre phase fondation](./projets/appweb-creative/aide-fondation.md){ .md-button } 
 
