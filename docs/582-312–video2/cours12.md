@@ -9,7 +9,5 @@
 
  
 ## Travail en classe
-Travail sur le Offline 
-
-## Travail à la maison
-Travail sur le Offline 
+Travail sur le Offline de la version installation avec le son au complet pour le prochain cours. 
+Tout le monde doit être présent pour la remise au prochain cours, sans cela aucune note vous sera attribuée. 
