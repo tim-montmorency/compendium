@@ -1,4 +1,4 @@
-# Cours 15.1
+# Cours 15.1 Phase QA et corrections
 
 Lundi 8 décembre
 

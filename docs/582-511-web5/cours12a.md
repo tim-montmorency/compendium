@@ -1,4 +1,4 @@
-# Cours 12.1 Phase interactivité
+# Cours 12.1 Phase fondation
 
 ## Aujourd'hui
 

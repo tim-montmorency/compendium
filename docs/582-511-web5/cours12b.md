@@ -1,4 +1,4 @@
-# Cours 12.2 Animation et médias
+# Cours 12.2Interactivité et mise en page
 
 19 novembre
 

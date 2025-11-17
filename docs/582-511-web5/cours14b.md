@@ -1,4 +1,4 @@
-# Cours 14.2
+# Cours 14.2 Phase QA
 
 Merc. 3 décembre 
 

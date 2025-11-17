@@ -1,4 +1,4 @@
-# Cours 14.1
+# Cours 14.1 Phase affinage et beta
 Lundi 1er décembre
 
 
