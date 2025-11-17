@@ -152,13 +152,24 @@ carte.addControl(new maplibregl.NavigationControl());
 
 ### Options de déplacement
 
-#### zoom
+#### `zoom`
+
+![](./assets/images/mapzoom.gif){.w-50}
 
 Plus le zoom est petit, plus la caméra va vers l'espace.
 
 Entre 0 et ~22
 
-#### pitch
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({
+  // ...
+  zoom: 9
+});
+```
+
+#### `pitch`
 
 ![type:video](./assets/videos/pitch.webm){.h-auto .w-50}
 
@@ -166,13 +177,31 @@ Contrairement à la perspective "top down", le `pitch` donne un angle à la cam�
 
 Valeur permise : entre 0 et 60
 
-#### bearing
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({
+  // ...
+  pitch: 60
+});
+```
+
+#### `bearing`
 
 ![type:video](./assets/videos/bearing.webm){.h-auto .w-50}
 
 La propriété bearing sert à tourner autour du point de vue.
 
 Valeur permise : entre -180 et 180
+
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({
+  // ...
+  bearing: 120
+});
+```
 
 !!! example "Debug"
 

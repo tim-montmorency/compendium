@@ -63,7 +63,7 @@ Afin de vous assurer d'avoir tout fait ce qu'il faut pour accomplir le TP, voici
 
 ### Technologies en place
 
-Il faut que chacune de ces technologies soit présente **et exploité** dans le travail.
+Il faut que chacune de ces technologies soit présente et exploitée dans le travail.
 
 - [ ] Bootstrap
 - [ ] Bootstrap-icons
@@ -76,7 +76,7 @@ Il faut que chacune de ces technologies soit présente **et exploité** dans le 
 
 Efforts sur l'esthétisme
 
-- [ ] Ajout de polices de caractères renforcant le thème choisi ou l'aspect futuriste du projet
+- [ ] Ajout de polices de caractères renforçant le thème choisi ou l'aspect futuriste du projet
 - [ ] Gestion des couleurs et éléments graphiques cohérente avec l'idée d'un HUD futuriste
 - [ ] « Je serais fier d'inclure ce projet dans mon portfolio »
 
@@ -94,15 +94,17 @@ Autre
 - [ ] Polices de caractères
 - [ ] Wireframe
 
-Inscrire l'endroit et comment ont été utilisées chacune des technologies suivantes : 
+Inscrire l'**endroit** et **comment** ont été utilisées chacune des technologies suivantes : 
 
-  - [ ] Bootstrap
-  - [ ] Bootstrap-icons
-  - [ ] Grid (CSS)
-  - [ ] AnimeJS
-  - [ ] Graphique avec ChartJS
-  - [ ] Carte géographique
-  - [ ] ZDog
-  - [ ] Tone.js
+- [ ] Bootstrap
+- [ ] Bootstrap-icons
+- [ ] Grid (CSS)
+- [ ] AnimeJS
+- [ ] Graphique avec ChartJS
+- [ ] Carte géographique
+- [ ] ZDog
+- [ ] Tone.js
+
+Interactivité
 
 - [ ] Décrire l'interactivité dans le projet.
