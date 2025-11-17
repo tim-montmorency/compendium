@@ -1,6 +1,6 @@
 # Aide pour la fondation du projet
 
-## 🚀 Installation et Configuration
+## Installation et Configuration
 
 ### Prérequis
 
@@ -21,7 +21,7 @@ git --version    # Devrait afficher 2.x ou plus
 
 
 
-## 📦 Étape 1: Créer le Projet (Chef de projet uniquement)
+## Créer le Projet
 
 ### 1.1 Initialiser le projet Vite + Vue
 
@@ -182,9 +182,9 @@ coverage/
 
 Via GitHub Desktop
 
-## 📋 Templates de fichiers utiles
+## Templates de fichiers utiles
 
-### Composant Vue de base
+### * Composant de base
 
 *src/components/ExampleComponent.vue:*
 
@@ -241,7 +241,7 @@ export default {
 </style>
 ```
 
-### Store Pinia de base
+### * Store Pinia de base
 
 *src/stores/exampleStore.js:*
 
@@ -299,9 +299,99 @@ export const useExampleStore = defineStore('example', {
 });
 ```
 
-## 🎨 Composants UI Réutilisables
+#### Exemple complet d'un composant intégrant Pinia Store
 
-### ButtonPrimary.vue
+```vue
+<template>
+  <div class="items-list">
+    <h1>Liste des items ({{ itemCount }})</h1>
+    
+    <div v-if="isLoading">Chargement...</div>
+    
+    <div v-else-if="hasItems">
+      <div 
+        v-for="item in items" 
+        :key="item.id"
+        class="item-card"
+      >
+        <h3>{{ item.name }}</h3>
+        <button @click="selectItem(item.id)">Voir</button>
+        <button @click="removeItem(item.id)">Supprimer</button>
+      </div>
+    </div>
+    
+    <div v-else>
+      <p>Aucun item</p>
+    </div>
+    
+    <ButtonPrimary @click="addNewItem">
+      Ajouter un item
+    </ButtonPrimary>
+  </div>
+</template>
+
+<script>
+import { useExampleStore } from '@/stores/exampleStore';
+import { mapState, mapGetters, mapActions } from 'pinia';
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
+
+export default {
+  name: 'ItemsList',
+  
+  components: {
+    ButtonPrimary
+  },
+  
+  computed: {
+    // Mapper le state
+    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
+    
+    // Mapper les getters
+    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
+  },
+  
+  methods: {
+    // Mapper les actions
+    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
+    
+    addNewItem() {
+      this.addItem({
+        name: `Item ${this.itemCount + 1}`,
+        description: 'Nouvel item'
+      });
+    },
+    
+    removeItem(id) {
+      if (confirm('Supprimer cet item?')) {
+        this.deleteItem(id);
+      }
+    },
+    
+    selectItem(id) {
+      this.setCurrentItem(id);
+      this.$router.push(`/item/${id}`);
+    }
+  }
+};
+</script>
+
+<style scoped>
+.items-list {
+  padding: 2rem;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+</style>
+```
+
+## Composants UI Réutilisables
+
+### * ButtonPrimary.vue
 
 *src/components/ui/ButtonPrimary.vue:*
 
@@ -367,7 +457,7 @@ export default {
 </style>
 ```
 
-### Modal.vue
+### * Modal.vue
 
 *src/components/ui/Modal.vue:*
 
@@ -561,94 +651,4 @@ export default {
   }
 };
 </script>
-```
-
-## Exemple complet d'un composant intégrant Pinia Store
-
-```vue
-<template>
-  <div class="items-list">
-    <h1>Liste des items ({{ itemCount }})</h1>
-    
-    <div v-if="isLoading">Chargement...</div>
-    
-    <div v-else-if="hasItems">
-      <div 
-        v-for="item in items" 
-        :key="item.id"
-        class="item-card"
-      >
-        <h3>{{ item.name }}</h3>
-        <button @click="selectItem(item.id)">Voir</button>
-        <button @click="removeItem(item.id)">Supprimer</button>
-      </div>
-    </div>
-    
-    <div v-else>
-      <p>Aucun item</p>
-    </div>
-    
-    <ButtonPrimary @click="addNewItem">
-      Ajouter un item
-    </ButtonPrimary>
-  </div>
-</template>
-
-<script>
-import { useExampleStore } from '@/stores/exampleStore';
-import { mapState, mapGetters, mapActions } from 'pinia';
-import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
-
-export default {
-  name: 'ItemsList',
-  
-  components: {
-    ButtonPrimary
-  },
-  
-  computed: {
-    // Mapper le state
-    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
-    
-    // Mapper les getters
-    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
-  },
-  
-  methods: {
-    // Mapper les actions
-    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
-    
-    addNewItem() {
-      this.addItem({
-        name: `Item ${this.itemCount + 1}`,
-        description: 'Nouvel item'
-      });
-    },
-    
-    removeItem(id) {
-      if (confirm('Supprimer cet item?')) {
-        this.deleteItem(id);
-      }
-    },
-    
-    selectItem(id) {
-      this.setCurrentItem(id);
-      this.$router.push(`/item/${id}`);
-    }
-  }
-};
-</script>
-
-<style scoped>
-.items-list {
-  padding: 2rem;
-}
-
-.item-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 8px;
-}
-</style>
 ```
