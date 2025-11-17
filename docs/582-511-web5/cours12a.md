@@ -12,8 +12,6 @@ La remise de ce mercredi 19 novembre est réduite.
 
 
 
-
-
 <!--
 ## Cours: Validation de formulaires Vue (Mémoires interactives)
 
@@ -23,7 +21,7 @@ La remise de ce mercredi 19 novembre est réduite.
 
 ...
 
--->
+
 
 ## Travail en classe et en devoir
 
@@ -148,3 +146,5 @@ Terminer ce qui a été commencé en classe:
 - [ ] **Historique des choix** sauvegardé
 - [ ] **Toutes les branches** testées manuellement
 - [ ] **Logique des fins** implémentée (conditions d'accès)
+
+-->
