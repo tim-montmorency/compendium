@@ -1,14 +1,10 @@
  # Cours 12
 
-## Correction - Devoir 1
-* [groupe am](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUOExYUjE3UVgzTEs4NVY2VU9FNlE4VVNVTC4u)  <br>  
-* [groupe pm](https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXdLFAGnr8T1OlA16PpceeFJUNzNFVEE1TjBBUlk0M0o1T0VEMjk5MTRGQS4u) <br> 
+
+ ## Template
+* Voici [les explications] pour utiliser le template.   
+
+* Voici [le template](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/flpilote_cmontmorency_qc_ca/ESvMuWUyZHRNnr_KHEAU8_0BtSIBEFJCShWXQ_Df5ti8pw?e=HCNOBp) pour Da vinci 
 
 
 
- 
-## Travail en classe
-Travail sur le Offline 
-
-## Travail à la maison
-Travail sur le Offline 
