@@ -2,7 +2,7 @@
 
 
  ## Template
-* Voici [les explications] pour utiliser le template.   
+* Voici [les explications](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpN4jDZqt3ZGiQ_-aCHH6YYBH3gx3h8Z2beZSWNukBJOjA?e=qm32NO) pour utiliser le template.   
 
 * Voici [le template](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/flpilote_cmontmorency_qc_ca/ESvMuWUyZHRNnr_KHEAU8_0BtSIBEFJCShWXQ_Df5ti8pw?e=HCNOBp) pour Da vinci 
 
