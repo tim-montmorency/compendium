@@ -8,14 +8,24 @@ Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencon
 
 La remise de ce mercredi 19 novembre est réduite.
 
-[Voir le calendrier de projet revu](./projets/appweb-creative/calendrier.md){ .md-button } 
+Le calendrier complet du projet a été revu:
 
+[🗓️ Voir le calendrier de projet revu](./projets/appweb-creative/calendrier.md){ .md-button } 
 
+## La remise du 19 novembre est réduite
+
+[🛠️ Coup de pouce pour votre phase fondation](./projets/appweb-creative/aide-fondation.md){ .md-button } 
 
 <!--
 ## Cours: Validation de formulaires Vue (Mémoires interactives)
 
 ...
++
+- Upload d'images:
+  - Input file avec preview
+  - Conversion en base64 ou URL
+  - Validation de taille/format
+  - Compression et optimisation
 
 ## Cours: Logique de branches narratives (Trace ton chemin)
 

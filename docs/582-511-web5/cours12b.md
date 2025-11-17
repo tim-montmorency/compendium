@@ -2,50 +2,46 @@
 
 19 novembre
 
-!!! example "*REMISE DE LA PHASE 3 et 4 FONDATION ET INTERACTIVITÉ DU PROJET INTÉGRATEUR* (sommatif 15%)"
-    **Livrables pour *mémoire interactive***
+!!! example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
+    **Livrables pour *mémoire interactive**
 
     - Fondation
 
       - [ ] **Projet Vite+Vue** initialisé et fonctionnel
-      - [ ] **Minimum 6-8 composants** créés et fonctionnels
-      - [ ] **Vue Router** configuré avec 4+ routes
+      - [ ] **Structure complète des dossier et fichiers**
+      - [ ] **Minimum 4-6 composants et views** créés et fonctionnels
+      - [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`
+      - [ ] **Vue Router** configuré avec min. 3 routes
+      - [ ] **Documentation des routes** dans un fichier `ROUTES.md`
       - [ ] **2 stores Pinia** (museum et memory) créés avec state/actions/getters de base
       - [ ] **Navigation fonctionnelle** entre les pages
       - [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
 
-    - Interactivité *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-
-      - [ ] **Formulaire d'ajout** complet et validé *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Formulaire d'édition** fonctionnel *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Suppression** avec confirmation *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Recherche** par mot-clé fonctionnelle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Filtres** par tags et par salle *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Messages d'erreur** clairs et pertinents *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-
-    **Livrables pour *trace ton chemin***
+    **Livrables pour *trace ton chemin**
 
     - Fondation
+
       - [ ] **Projet Vite+Vue** initialisé et fonctionnel
-      - [ ] **Minimum 6-8 composants** créés et fonctionnels
+      - [ ] **Structure complète des dossier et fichiers**
+      - [ ] **Minimum 4-6 composants** créés et fonctionnels
+      - [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`
       - [ ] **Vue Router** configuré avec routes par chapitre
+      - [ ] **Documentation des routes** dans un fichier `ROUTES.md`
       - [ ] **2 stores Pinia** (story et player) créés avec state/actions/getters de base
       - [ ] **Navigation fonctionnelle** entre chapitres
-      - [ ] **Tous les chapitres** dans le fichier JSON
+      - [ ] **Minimum 6-7 chapitres** dans le fichier JSON
       - [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
       - [ ] **Système de choix** complet et fonctionnel
 
-    - Interactivité
-      - [ ] **Tracking des conséquences** (flags, stats, etc.) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Historique des choix** sauvegardé *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Toutes les branches** testées manuellement *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
-      - [ ] **Logique des fins** implémentée (conditions d'accès) *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
 
 ## Évaluation par les pairs et auto-évaluation de mi-parcours (sommatif 5%)
 
 Réalisé en classe. Instructions à venir.
 
-## Cours: GSAP + Vue 3 - GSAP pour narration interactive
+
+## Documentation GSAP + Vue 3 - GSAP pour narration interactive
+
+Cette phase n'est plus exigée. Ceci étant dit, voici de la documentation pour les équipes qui veulent tout de même l'intégrer.
 
 [Router et transition animées entre pages](./vue/route-transition-animee.md)
 
@@ -55,9 +51,9 @@ Réalisé en classe. Instructions à venir.
   - [GSAP intégré à une composante Vue: démo et playground](https://play.vuejs.org/#eNpVkMFuAiEQhl9lyqlNuouXXrZo2nfwuBeKs0qKQGBAjfHdZZfVrAmB+f/M/2WGK/v1vs0JWcdEVEF72vQWz94Fgh0OMhmCa28BdpLk+0etAQJSCvahAOLBnTqgkLA6t/EpVzmCP7lFEB69kYRFAYi/ROQs/Cij1f+6ZyMG1vA2vj3bbN1+b1Dw2lYj2yBt1KRnXRwPudHDnC6pAxrjBPe1n78EBF8MUGSkixnLNjdoCUMjFemMn5NjUGacnboqPVkdOC+Vpgus2q8IKCN+T+suWENwxyWJXKXMyQ5WNVJ+aBqD3e6VSYoi)
 - `routeEnter`, `routeLeave`
 
-### Mémoire interactive: Animations et Médias
+### OPTIONNEL Mémoire interactive: Animations et Médias
 
-- Animations de transitions:
+- OPTIONNEL Animations de transitions:
   - Transitions entre pages (Vue Router)
   - Animations d'apparition des cartes
   - Hover effects sur les éléments interactifs
@@ -65,13 +61,9 @@ Réalisé en classe. Instructions à venir.
   - Animations de timeline
   - Easing et timing personnalisés
 
-- Upload d'images:
-  - Input file avec preview
-  - Conversion en base64 ou URL
-  - Validation de taille/format
-  - Compression et optimisation
 
-### Trace ton chemin: Animations et Expérience Narrative
+
+### OPTIONNEL Trace ton chemin: Animations et Expérience Narrative
 
 - Animations de texte:
   - Effet d'apparition progressive (typewriter optionnel)
