@@ -1,8 +1,8 @@
 # Calendrier du projet
 
-## Dernière mise-à-jour du calendrier de projet: 16 novembre
-
 ## Le calendrier en bref:
+
+<small>Dernière mise-à-jour du calendrier de projet: <em>16 novembre</em></small>
 
 - [ ] PHASE 1: PLANIFICATION ET DESIGN: 22 oct.
 - [ ] PHASE 2: FONDATION: 19 nov.
