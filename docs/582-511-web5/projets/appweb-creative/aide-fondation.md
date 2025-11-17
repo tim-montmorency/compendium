@@ -184,6 +184,45 @@ Via GitHub Desktop
 
 ## Templates de fichiers utiles
 
+## Création de l'app dans main.js
+
+*src/main.js*
+
+```
+import { createApp } from 'vue';
+import router from './router';
+import App from './App.vue';
+
+const app = createApp(App);
+
+app.use(router);
+
+app.mount('#app');
+
+```
+
+## Base de votre App.vue
+
+```
+<template>
+  <div id="app">
+    
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+};
+</script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+```
+
 ### * Composant de base
 
 *src/components/ExampleComponent.vue:*
