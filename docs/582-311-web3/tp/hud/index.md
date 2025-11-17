@@ -28,28 +28,25 @@ Compte pour **30%** de la note finale.
   ![](./coding.gif)
 
   Étape 3<br>
-  **Développement (À venir)**<br>
+  **[Développement](./step3.md){.stretched-link .back}**<br>
 </div>
-
-<!-- [](./step3.md){.stretched-link .back} -->
 
 ## Résultat attendu
 
-Le TP sera évalué sur la mise en place d'éléments **esthétiques**, **interactifs** et **animés**. C'est-à-dire qu'il devra y avoir des animations en boucles et des animations déclenchés par des actions.
+Le TP sera évalué sur la mise en place d'éléments **esthétiques**, **interactifs** et **animés**. C'est-à-dire qu'il devra y avoir des animations en boucle et des animations déclenchées par des actions.
 
-Chacune des technologies enseignée dans le cours devront apparaître dans le projet : 
+Chacune des technologies suivantes doit impérativement être présente et exploitée dans votre travail pratique.
 
-1. Bootstrap et Bootstrap-icons
+L'objectif n'est pas seulement d'intégrer la technologie, mais surtout de la mettre au service du thème choisi et du concept de HUD futuriste.
+
+1. Bootstrap
+1. Bootstrap-icons
 1. Grid (CSS)
 1. AnimeJS
-1. Graphiques (ex. : ChartJS)
-1. Cartes (ex. : Leaflet)
-1. VFX-JS 
+1. Graphique avec ChartJS
+1. Carte géographique
 1. ZDog
 1. Tone.js
-1. typed.js
-
-Certaines technologies (pas encore enseignées) devront être ajoutées au projet au fur et à mesure.
 
 ## Remise
 
@@ -59,3 +56,55 @@ Certaines technologies (pas encore enseignées) devront être ajoutées au proje
 
 1. Fichier `zip` nommé « nomdefamille_prenom_tp2.zip »
 1. Document de conception
+
+## Liste de vérification
+
+Afin de vous assurer d'avoir tout fait ce qu'il faut pour accomplir le TP, voici une liste de vérification.
+
+### Technologies en place
+
+Il faut que chacune de ces technologies soit présente et exploitée dans le travail.
+
+- [ ] Bootstrap
+- [ ] Bootstrap-icons
+- [ ] Grid (CSS)
+- [ ] AnimeJS
+- [ ] Graphique avec ChartJS (cours 11)
+- [ ] Carte géographique (cours 12)
+- [ ] ZDog (cours 13)
+- [ ] Tone.js (cours 13)
+
+Efforts sur l'esthétisme
+
+- [ ] Ajout de polices de caractères renforçant le thème choisi ou l'aspect futuriste du projet
+- [ ] Gestion des couleurs et éléments graphiques cohérente avec l'idée d'un HUD futuriste
+- [ ] « Je serais fier d'inclure ce projet dans mon portfolio »
+
+Autre
+
+- [ ] Projet sauvegardé sur GitHub en mode public (avec un `.gitignore` et sans dossier `node_modules`)
+
+### Document de conception
+
+- [ ] Page titre
+- [ ] Thématique futuriste (1 ou 2 phrases)
+- [ ] Langue
+- [ ] Inspiration / Moodboard
+- [ ] Palette de couleurs
+- [ ] Polices de caractères
+- [ ] Wireframe
+
+Inscrire l'**endroit** et **comment** ont été utilisées chacune des technologies suivantes : 
+
+- [ ] Bootstrap
+- [ ] Bootstrap-icons
+- [ ] Grid (CSS)
+- [ ] AnimeJS
+- [ ] Graphique avec ChartJS
+- [ ] Carte géographique
+- [ ] ZDog
+- [ ] Tone.js
+
+Interactivité
+
+- [ ] Décrire l'interactivité dans le projet.

@@ -33,16 +33,14 @@ Afin de faciliter le développement du TP2, séparez les fichiers javascript **p
                 📄 animejs.js
                 📄 bootstrap.js
                 📄 chartjs.js
+                📄 maplibre.js
+                📄 vfx.js
+                📄 tonejs.js
+                📄 zdog.js
         📄 .gitignore
         📄 index.html
     ```
-
-<!-- 📄 leaflet.js
-📄 tonejs.js
-📄 typedjs.js
-📄 vfx.js
-📄 zdog.js -->
-
+    
 ## 3. `node_modules`
 
 - [ ] Dans le fichier `.gitignore`, ignorez le dossier node_modules.

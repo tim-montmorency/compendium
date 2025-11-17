@@ -1,342 +1,454 @@
 # Cours 12
 
-[STOP]
-https://maplibre.org/maplibre-gl-js/docs/examples/display-buildings-in-3d/
-https://maplibre.org/maplibre-gl-js/docs/examples/animate-map-camera-around-a-point/
+## Cartes
 
+![](./assets/images/map.gif){.w-100}
 
-VFX-JS ?
-Leaflet.js : cartes web, marqueurs, popups, personnalisation (tiles, couleurs, styles)
+[MapLibre](https://maplibre.org/) permet d'afficher une carte géographique sur une page Web. Contairement à [Leaflet](https://leafletjs.com/), elle est plus lourde, mais elle permet d'afficher du 3D et des cartes en vectoriel ! Elle a également une tonne d'[exemples concrets](https://maplibre.org/maplibre-gl-js/docs/examples/) pour tous les cas de figure.
 
-https://codepen.io/fand/pen/dyBbVRG?editors=0010
+### Installation
 
-[^plugin]: <https://gsap.com/docs/v3/Plugins/>
+L'installation d'une librairie de carte ne se fait quasiment jamais sans internet. Il y aurait beaucoup trop de données à enregistrer localement. C'est pourquoi, il est recommandé d'utiliser un CDN pour cette partie.
 
-## Plugiciels gratuits
+```html title="index.html"
+<html>
+  <head>
+    
+    <link
+      rel="stylesheet"
+      href="./node_modules/maplibre-gl/dist/maplibre-gl.css"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css">
+    
+    <script type="importmap">
+      {
+        "imports": {
+          "maplibre-gl": "https://esm.sh/maplibre-gl@5.13.0"
+        }
+      }
+    </script>
+    <script type="module" src="./src/js/map.js"></script>
+    
+  </head>
+  <body>
 
-### Draggable
+    <div id="carte"></div>
 
-Le plugiciel [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/) permet de transformer n’importe quel élément en un objet que l’utilisateur peut déplacer avec des interactions de glisser-déposer (drag & drop).
+  </body>
+</html>
+```
 
-```js
-gsap.registerPlugin(Draggable);
+```css title="styles.css"
+#carte {
+  width: 90vw;
+  height: 90vh;
+}
+```
 
-Draggable.create(".box", {
-  type: "x,y",
-  bounds: "#container",
-  onDrag: function() {
-    console.log("Position : ", this.x, this.y);
-  }
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({
+  container: "carte", // id du div
+  style: "https://tiles.openfreemap.org/styles/bright",
+  center: [-73.8462195, 45.6125882], // Laval
+  zoom: 9 // Plus c'est bas, plus c'est haut
 });
 ```
 
-* **type** : Spécifie le type de mouvement autorisé. Les options incluent “x”, “y”, “rotation”, etc.
-* **bounds** : Limite les déplacements de l’élément à l’intérieur d’un conteneur spécifié.
-* **onDrag** : Callback appelée lors du déplacement de l’élément, utile pour obtenir la position actuelle.
-
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="GSAP -  Drag" src="https://codepen.io/tim-momo/embed/XWvGPNy?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XWvGPNy">
-  GSAP -  Drag</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<iframe height="300" style="width: 100%;" scrolling="no" title="MapLibre - Simple" src="https://codepen.io/tim-momo/embed/MYybMXw?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/MYybMXw">
+  MapLibre - Simple</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+      </iframe>
 
-### MotionPath
+### Option `center`
 
-Le plugiciel [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) permet d’animer des objets le long d’un chemin défini, offrant des animations complexes et précises.
+![](./assets/images/location.gif){.w-100}
+
+La propriété `center` contient un tableau des coordonnées géographiques : `[longitude, latitude]`.
 
 ```js
-gsap.registerPlugin(MotionPathPlugin);
+import maplibregl from "maplibre-gl";
 
-gsap.to(".box", {
-  duration: 5,
-  motionPath: {
-    path: "#cheminSVG",
-    align: "#cheminSVG",
-    autoRotate: true,
-    alignOrigin: [0.5, 0.5]
-  }
+const carte = new maplibregl.Map({
+  // ...
+  center: [-73.8462195, 45.6125882], // Laval
 });
 ```
 
-* **path** : Chemin SVG ou tableau de coordonnées définissant le trajet de l’animation.
-* **align** : Aligne l’élément animé sur le chemin spécifié.
-* **autoRotate** : Fait pivoter automatiquement l’élément dans la direction du chemin.
-* **alignOrigin** : Point d’origine pour l’alignement, généralement [0.5, 0.5] pour centrer.
+!!! question "Comment savoir ?"
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="GSAP - MotionPath" src="https://codepen.io/tim-momo/embed/YzmgOvW?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/YzmgOvW">
-  GSAP - MotionPath</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+    Pour trouver des coordonnées, le plus simple est de passer par une URL Google Maps. 
+    
+    ⚠️ Attention, les coordonnées dans maplibre sont inversés.
 
-### Text
+    ![](./assets/images/area51.png){data-zoom-image .w-50}
 
-Le plugiciel [Text](https://gsap.com/docs/v3/Plugins/TextPlugin/) permet d’animer le contenu textuel d’un élément DOM, en remplaçant progressivement le texte existant par un nouveau.
+### Option `style`
+
+![](./assets/images/mapstyles.gif){.w-100}
+
+La propriété `style` déterminer les couleurs utilisées sur la carte.
 
 ```js
-gsap.registerPlugin(TextPlugin);
+import maplibregl from "maplibre-gl";
 
-gsap.to(".texte", {
-  duration: 2,
-  text: "Nouveau contenu textuel",
-  ease: "none"
+const carte = new maplibregl.Map({
+  // ...
+  // style: "https://tiles.openfreemap.org/styles/bright",
+  // style: "https://tiles.openfreemap.org/styles/positron",
+  // style: "https://api.maptiler.com/maps/toner-v2/style.json?key=[VOTRE_CLÉ_D'API]",
+  // style: "https://api.maptiler.com/maps/hybrid/style.json?key=[VOTRE_CLÉ_D'API]",
+  style: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json"
 });
 ```
 
-* **text** : Nouveau texte à afficher. Peut être une chaîne de caractères ou un objet avec des propriétés telles que value, delimiter, newClass, etc.
-* **delimiter** : Caractère utilisé pour diviser le texte, par défaut une chaîne vide pour une animation caractère par caractère.
-* **newClass** : Classe CSS appliquée au nouveau texte.
-* **oldClass** : Classe CSS appliquée à l’ancien texte.
-* **padSpace** : Si true, ajoute des espaces insécables pour maintenir la longueur du texte lors de la transition.
-* **preserveSpaces** : Si true, conserve les espaces multiples dans le texte.
+!!! example "Sources"
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="GSAP - MotionPath" src="https://codepen.io/tim-momo/embed/yLmwRJW?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/yLmwRJW">
-  GSAP - MotionPath</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+    Vous contaterez dans l'exemple ci-dessus que les styles proviennent de différentes sources.
 
-## Plugiciels payants :money_with_wings:, mais disponibles :sweat_smile:
+    [Maptiler](https://www.maptiler.com/fr/) nécessite la création d'un compte développeur. C'est gratuit pour un usage personnel. Une fois le compte créé, vous aurez accès à une clé d'API qui sera nécessaire à ajouter dans l'adresse URL du style.
 
-### MotionPath Helper
+    ![](./assets/images/maptiler.png){data-zoom-image .w-50}
 
-Le plugiciel [MotionPath Helper](https://gsap.com/docs/v3/Plugins/MotionPathHelper/) fournit une interface interactive pour créer et ajuster des chemins de mouvement directement dans le navigateur, facilitant la conception d’animations complexes.
+    [openfreemap](https://openfreemap.org/) offre gratuitement 4 styles de carte.
 
-```js
-gsap.registerPlugin(MotionPathHelper);
+    [StadiaMaps](https://stadiamaps.com/explore-the-map/#map=7%2F52.3%2F0&style=alidade_smooth_dark) nécessite en principe une connexion, mais ils tolèrent pour le moment qu'on utilise leur style comme dans l'exemple ci-dessus.
 
-const tween = gsap.to(".objet", {
-  duration: 5,
-  motionPath: {
-    path: "#chemin",
-    align: "#chemin",
-    autoRotate: true
-  }
-});
+    > Je ne serais pas surpris que le collège soit bloqué éventuellement ;)
 
-MotionPathHelper.create(tween);
-```
+!!! question "Télécharger un carte en local. C'est possible ?"
 
-* **motionPath** : Objet définissant le chemin de mouvement, avec des propriétés telles que path, align et autoRotate.
-* **path** : Chemin SVG ou tableau de points définissant le trajet de l’animation.
+    🧐 Admettons que tu télécharges la carte pour la planète au complet (si veut te promener sur le globe), on parle ici d'un fichier compessé d'environ 100 Go. Décompressé ça fait [≈2 To](https://wiki.openstreetmap.org/wiki/Planet.osm).
+    
+    Donc oui, mais pas vraiment, non 🙃
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="GSAP - MotionPath" src="https://codepen.io/tim-momo/embed/NWQJOge?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/NWQJOge">
-  GSAP - MotionPath</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+### Option `attributionControl`
 
-### DrawSVG
-
-Le plugiciel [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) permet d’animer la révélation progressive ou la dissimulation des contours d’éléments SVG tels que `<path>`, `<line>`, `<polyline>`, `<polygon>`, `<rect>` ou `<ellipse>`.
+![](./assets/images/map-attribution.png){.w-50 data-zoom-image}
 
 ```js
-gsap.registerPlugin(DrawSVGPlugin);
+import maplibregl from "maplibre-gl";
 
-gsap.from(".ligne", {
-  duration: 2,
-  drawSVG: 0
+const carte = new maplibregl.Map({
+  // ...
+  attributionControl: false // 👈 Retrait des crédits
 });
 ```
 
-* **drawSVG** : Définit la portion du tracé à afficher. Par exemple, `drawSVG: "0% 100%"` affiche l’intégralité du tracé, tandis que `drawSVG: "50% 50%"` affiche uniquement le milieu du tracé.
+### Ajout des contrôles
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="GSAP - Text" src="https://codepen.io/tim-momo/embed/ZEgPqXY?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ZEgPqXY">
-  GSAP - Text</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-### ScrambleText
-
-Le plugiciel [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/) permet d’animer le texte en le remplaçant par des caractères aléatoires, créant un effet de déchiffrement ou de brouillage.
+![](./assets/images/map-addControl.png){.w-25 data-zoom-image}
 
 ```js
-gsap.registerPlugin(ScrambleTextPlugin);
+import maplibregl from "maplibre-gl";
 
-gsap.to(".texte", {
-  duration: 1.5,
-  scrambleText: "Nouveau texte",
-  chars: "lowerCase",
-  revealDelay: 0.5
+const carte = new maplibregl.Map({ /* ... */ });
+
+// 👇 Ajout des contrôles
+carte.addControl(new maplibregl.NavigationControl());
+```
+
+### Options de déplacement
+
+#### `zoom`
+
+![](./assets/images/mapzoom.gif){.w-50}
+
+Plus le zoom est petit, plus la caméra va vers l'espace.
+
+Entre 0 et ~22
+
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({
+  // ...
+  zoom: 9
 });
 ```
 
-* **scrambleText** : Le texte final à afficher après l’animation.
-* **chars** : Les caractères utilisés pour le brouillage. Options : "upperCase", "lowerCase", "upperAndLowerCase" ou une chaîne personnalisée.
-* **revealDelay** : Délai avant le début de la révélation du texte final.
+#### `pitch`
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="GSAP - Text" src="https://codepen.io/tim-momo/embed/JjgzmpW?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/JjgzmpW">
-  GSAP - Text</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![type:video](./assets/videos/pitch.webm){.h-auto .w-50}
 
-### Inertia
+Contrairement à la perspective "top down", le `pitch` donne un angle à la caméra. 
 
-Le plugiciel [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin/) de GSAP permet de créer des animations avec une inertie réaliste, simulant un mouvement qui ralentit progressivement jusqu’à s’arrêter, idéal pour des effets de lancer ou de glissement.
+Valeur permise : entre 0 et 60
 
-```js
-gsap.registerPlugin(InertiaPlugin);
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
 
-Draggable.create(".objet", {
-  type: "x,y",
-  throwProps: true,
-  inertia: {
-    resistance: 100
-  }
+const carte = new maplibregl.Map({
+  // ...
+  pitch: 60
 });
 ```
 
-* **inertia** : Objet définissant les propriétés d’inertie, telles que la résistance ou les limites de mouvement.
-* **resistance** : Valeur contrôlant la rapidité avec laquelle le mouvement ralentit.
+#### `bearing`
 
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="GSAP -  Draggable" src="https://codepen.io/tim-momo/embed/abeMRYB?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/abeMRYB">
-  GSAP -  Draggable</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+![type:video](./assets/videos/bearing.webm){.h-auto .w-50}
 
-### MorphSVG
+La propriété bearing sert à tourner autour du point de vue.
 
-Le plugiciel [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/) permet de transformer une forme SVG en une autre, même si elles ont un nombre de points différent, offrant des transitions fluides entre des formes complexes.
+Valeur permise : entre -180 et 180
 
-```js
-gsap.registerPlugin(MorphSVGPlugin);
+```js title="map.js (L'exemple le plus simple)"
+import maplibregl from "maplibre-gl";
 
-gsap.to("#forme1", {
-  duration: 2,
-  morphSVG: "#forme2",
-  shapeIndex: 2
+const carte = new maplibregl.Map({
+  // ...
+  bearing: 120
 });
 ```
 
-* **morphSVG** : Sélecteur ou élément cible vers lequel la forme doit se transformer.
-* **shapeIndex** : Contrôle la correspondance des points entre les formes pour une transition plus fluide.
+!!! example "Debug"
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="GSAP - MorphSVG" src="https://codepen.io/tim-momo/embed/abeMRGp?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/abeMRGp">
-  GSAP - MorphSVG</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+    Pour avoir des informations sur l'état du `zoom`, du `pitch`, du `bearing` et même du `center`, on peut ajouter ce code à notre script : 
 
-!!! success "SVG"
+    ```js
+    import maplibregl from "maplibre-gl";
 
-    Vous pouvez trouver des SVG gratuit ici : <https://www.svgrepo.com/collection/free-animals/>
+    const carte = new maplibregl.Map({ /* ... */ });
 
-### SplitText
+    // 👇 Debug
+    carte.on("moveend", () => {
+      const center = carte.getCenter();
+      const zoom = carte.getZoom();
+      const pitch = carte.getPitch();
+      const bearing = carte.getBearing();
+      console.log(`center: [${center.lng.toFixed(7)}, ${center.lat.toFixed(7)}],`);
+      console.log(`zoom: ${zoom.toFixed(1)},`);
+      console.log(`pitch: ${pitch.toFixed(0)},`);
+      console.log(`bearing: ${bearing.toFixed(1)}`);
+      console.log("---");
+    });
+    ```
 
-Le plugiciel [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) permet de diviser le texte en caractères, mots ou lignes individuels, facilitant ainsi des animations détaillées et précises sur chaque segment de texte.
+### Option `interactive`
+  
+La propriété `interactive` permet à l'utilisateur de contrôler la carte.
 
 ```js
-gsap.registerPlugin(SplitText);
+import maplibregl from "maplibre-gl";
 
-const split = new SplitText(".texte", { type: "words,chars" });
+const carte = new maplibregl.Map({
+  // ...
+  interactive: false // 👈 Aucune interactivité possible
+});
+```  
 
-gsap.from(split.chars, {
-  duration: 1,
-  y: 50,
-  opacity: 0,
-  stagger: 0.05
+### Afficher en globe
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="MapLibre - 3d rotate" src="https://codepen.io/tim-momo/embed/NPNdWXo/f50bbe6eb614eb258261c27f194e0272?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/NPNdWXo/f50bbe6eb614eb258261c27f194e0272">
+  MapLibre - 3d rotate</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+```js
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({ /* ... */ });
+
+// 👇 Afficher en globe
+carte.on('style.load', () => {
+    carte.setProjection({ type: 'globe' });
 });
 ```
 
-* **type** : Spécifie comment le texte est divisé, avec des options telles que "chars", "words", "lines" ou une combinaison de celles-ci.
-* **stagger** : Définit le délai entre le début des animations pour chaque segment, créant un effet de cascade.
+### Bâtiments en 3D
 
-<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="GSAP - MorphSVG" src="https://codepen.io/tim-momo/embed/XWvGxyj?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XWvGxyj">
-  GSAP - MorphSVG</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="MapLibre - Rotate" src="https://codepen.io/tim-momo/embed/ZYWLKyj/5ba569ca611d6d38a00c43a5becd0064?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/ZYWLKyj/5ba569ca611d6d38a00c43a5becd0064">
+  MapLibre - Rotate</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+      </iframe>
 
-## Devoirs
 
-### Devoir 5 (formatif)
+### Flyto
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/eeaao.jpg)
+<iframe height="300" style="width: 100%;" scrolling="no" title="MapLibre - Fly" src="https://codepen.io/tim-momo/embed/gbrgdEY?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/gbrgdEY">
+  MapLibre - Fly</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
 
-  <small>Devoir - GSAP</small><br>
-  **[Everything Everywhere All at Once](./devoir/gsap-devoir5.md){.stretched-link}**
-</div>
+```js
+import maplibregl from "maplibre-gl";
 
-### PS2 : Sais-tu ce que je sais?
+const carte = new maplibregl.Map({ /* ... */ });
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/quizz.jpg)
+// On active le flyto à un event, peu importe lequel
+document.body.addEventListener("click", () => {
 
-  <small>Devoir - GSAP</small><br>
-  **[Si tu savais ce que je sais](./devoir/PS2.md){.stretched-link}**
-</div>
+  carte.flyTo({
+    center: [-115.8819462, 37.2513459],
+    zoom: 15,      // Facultatif
+    duration: 3000 // Facultatif
+  });
 
-[STOP]
+});
+```
+
+### Marker
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="MapLibre - Simple" src="https://codepen.io/tim-momo/embed/QwNdZVa?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/QwNdZVa">
+  MapLibre - Simple</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+```js
+import maplibregl from "maplibre-gl";
+
+const carte = new maplibregl.Map({ /* ... */ });
+
+new maplibregl.Marker().setLngLat([31.2356245, 30.0444168]).addTo(carte);
+```
+
+## VFX-JS
+
+![](./assets/images/vfx.gif){.w-100}
+
+[VFX-JS](https://amagi.dev/vfx-js/) permet d'appliquer des shaders aux éléments HTML d'une page.
+
+### Installation
+
+Le package ne vient pas en esm, alors nous devrons fonctionner via un CDN.
+
+```html title="index.html"
+<html>
+  <head>
+    <script type="importmap">
+      {
+        "imports": {
+          "vfx-js": "https://esm.sh/@vfx-js/core"
+        }
+      }
+    </script>
+    <script type="module" src="./src/js/vfx.js"></script>
+  </head>
+  <body>
+    <p class="trop-coooooool">glitch</p>
+  </body>
+</html>
+```
+
+Il y a une série de _[presets](https://codepen.io/fand/pen/dyBbVRG?editors=0010)_ offert par la librairie, en voici quelques uns.
+
+### Glitch
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="VFX-JS - Glitch" src="https://codepen.io/tim-momo/embed/yyOgjPa?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/yyOgjPa">
+  VFX-JS - Glitch</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+```js title="vfx.js"
+import { VFX } from "vfx-js";
+
+const vfx = new VFX();
+
+const el = document.querySelector(".trop-coooooool");
+vfx.add(el, {
+  shader: "glitch",
+  overflow: 30
+});
+```
+
+### rgbShift
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="VFX-JS - rgbShift" src="https://codepen.io/tim-momo/embed/qEZRYLM?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/qEZRYLM">
+  VFX-JS - rgbShift</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+```js title="vfx.js"
+import { VFX } from "vfx-js";
+
+const vfx = new VFX();
+
+const el = document.querySelector(".trop-coooooool");
+vfx.add(el, {
+  shader: "rgbShift",
+  overflow: 30
+});
+```
+
+### sinewave
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="VFX-JS - rgbShift" src="https://codepen.io/tim-momo/embed/OPNWZdP?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/OPNWZdP">
+  VFX-JS - sinewave</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+```js title="vfx.js"
+import { VFX } from "vfx-js";
+
+const vfx = new VFX();
+
+const el = document.querySelector(".trop-coooooool");
+vfx.add(el, {
+  shader: "sinewave",
+  overflow: 30
+});
+```
+
+### pixelate
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="VFX-JS - sinewave" src="https://codepen.io/tim-momo/embed/bNpgjyZ?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/bNpgjyZ">
+  VFX-JS - sinewave</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+```js title="vfx.js"
+import { VFX } from "vfx-js";
+
+const vfx = new VFX();
+
+const el = document.querySelector(".trop-coooooool");
+vfx.add(el, {
+  shader: "pixelate"
+});
+```
+
+## Snippets du jour
+
+### Modèle 3D
+
+<iframe class="aspect-4-3" height="300" style="width: 100%;" scrolling="no" title="MapLibre - Bâtiments 3D" src="https://codepen.io/tim-momo/embed/bNpgaPe/7a83c269633d18a06320f887cc5d5eb8?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/bNpgaPe/7a83c269633d18a06320f887cc5d5eb8">
+  MapLibre - Bâtiments 3D</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+
+Pour appliquer cet effet à votre projet : 
+
+1. Téléchargez le [code source](./assets/documents/three.zip){ download }
+1. Effectuez un `npm install` pour installer la librairie `three` (Pour afficher un modèle 3D)
+   > Pour installer la librairie three, normalement on doit faire un `npm i three`
+1. Exportez votre modèle 3d en `.obj` dans le dossier `assets/models`
+1. Changez le chemin de la variable `modelSource` dans le fichier `scripts.js`
 
 ## Exercice
 
-<https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/motionpath-voiture-et-vallons/>
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/casa/mapa.png)
 
-## Flip :white_check_mark:
+  <small>Exercice - MapLibre</small><br> 
+  **[Casa](./exercices/casa/index.md){.stretched-link .back}**
+</div>
 
-Le plugiciel [Flip](https://gsap.com/docs/v3/Plugins/Flip/) facilite les transitions fluides entre deux états, même en cas de modifications importantes de la structure du DOM. Il enregistre l’état initial des éléments, permet des changements, puis anime les éléments vers leur nouvel état.
+## TP2
 
-```js
-gsap.registerPlugin(Flip);
+<div class="grid grid-1-2" markdown>
+  ![](./tp/hud/giphy.gif)
 
-// Sélectionner les éléments à animer
-const elements = document.querySelectorAll(".box");
-
-// Enregistrer l'état initial
-const state = Flip.getState(elements);
-
-// Apporter des modifications au DOM ou aux styles
-// Par exemple, changer l'ordre des éléments
-document.querySelector("#container").appendChild(elements[0]);
-
-// Animer la transition vers le nouvel état
-Flip.from(state, {
-  duration: 1,
-  ease: "power1.inOut"
-});
-```
-
-* **duration** : Durée de l’animation en secondes.
-* **ease** : Fonction d’assouplissement pour contrôler la progression de l’animation.
-
-## Observer :white_check_mark:
-
-Le plugiciel [Observer](https://gsap.com/docs/v3/Plugins/Observer/) offre une manière unifiée de détecter des événements significatifs sur tous les dispositifs (tactile, souris, pointeur) sans gérer les détails d’implémentation.
-
-```js
-gsap.registerPlugin(Observer);
-
-Observer.create({
-  target: window,
-  type: "wheel,touch",
-  onUp: () => console.log("Défilement vers le haut"),
-  onDown: () => console.log("Défilement vers le bas")
-});
-```
-
-* **target** : Élément à observer (par exemple, window).
-* **type** : Types d’événements à écouter, tels que “wheel”, “touch”, “scroll”, “pointer”.
-* **onUp** : Fonction de rappel appelée lors d’un mouvement vers le haut.
-* **onDown** : Fonction de rappel appelée lors d’un mouvement vers le bas.
-
-### ScrollSmoother
-
-Le plugiciel [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/) améliore l’expérience de défilement en ajoutant un effet de défilement fluide, tout en conservant les fonctionnalités natives du navigateur et en évitant les barres de défilement artificielles.
-
-```js
-gsap.registerPlugin(ScrollSmoother);
-
-ScrollSmoother.create({
-  smooth: 1.5,
-  effects: true,
-  normalizeScroll: true
-});
-```
-
-* **smooth** : Contrôle la douceur du défilement, avec des valeurs plus élevées pour un effet plus fluide.
-* **effects** : Active les effets de parallaxe et autres animations liées au défilement.
-* **normalizeScroll** : Prévient les comportements indésirables liés au défilement sur les appareils mobiles.
+  <small>TP</small><br>
+  **[HUD](./tp/hud/index.md){.stretched-link .back}**
+</div>
