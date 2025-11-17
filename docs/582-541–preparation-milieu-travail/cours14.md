@@ -12,6 +12,10 @@
 * Travailleur autonome: + 15 à 20%
 
 
+## Le journal de bord
+* Présentation de la grille de correction
+* Explication de la prise de rendez-vous
+
 ## Finances
 [📁 Quiz d'introduction 2](https://www.lapresse.ca/affaires/economie/2024-11-10/quiz/les-finances-et-vous.php){ .md-button }
 
