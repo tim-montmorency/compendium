@@ -4,7 +4,10 @@
 
 !!! example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
 
-    *IMPORTANT* : Créez une branche git *Phase2* à partir de la version que vous voulez remettre aujourd'hui et ne la touchez plus par la suite.
+    *IMPORTANT* : 
+    
+    - [ ] Créez une branche git *Phase2* à partir de la version que vous voulez remettre aujourd'hui et ne la touchez plus par la suite.
+    - [ ] Votre code doit-être bien *commenté* en détail pour démontrer votre compréhension.
 
     **Livrables pour *mémoire interactive**
 
