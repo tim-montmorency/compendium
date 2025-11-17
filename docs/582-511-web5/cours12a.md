@@ -4,6 +4,10 @@
 
 Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencontres prof/équipe pour vous accompagner.
 
+Voir la liste de la remise du prochain cours pour ne rien oublier.
+
+Si terminé, prendre de l'avance pour la suite.
+
 ## La remise du 19 novembre est réduite
 
 La remise de ce mercredi 19 novembre est réduite.

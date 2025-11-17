@@ -38,6 +38,39 @@
 - *chemin:* Premiers chapitres (texte + affichage)
 - *chemin:* Système de choix** fonctionnel
 
+### Détail de la remise FONDATION
+
+- [ ] Créez une branche git *Phase2* à partir de la version que vous voulez remettre aujourd'hui et ne la touchez plus par la suite.
+- [ ] Votre code doit-être bien *commenté* en détail pour démontrer votre compréhension.
+
+**Livrables pour *mémoire interactive**
+
+- [ ] **Projet Vite+Vue** initialisé et fonctionnel
+- [ ] **Structure complète des dossier et fichiers**
+- [ ] **Minimum 4-6 composants et views** créés et fonctionnels
+- [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`
+- [ ] **Vue Router** configuré avec min. 3 routes
+- [ ] **Documentation des routes** dans un fichier `ROUTES.md`
+- [ ] **2 stores Pinia** (museum et memory) créés avec state/actions/getters de base
+- [ ] **Navigation fonctionnelle** entre les pages
+- [ ] **Données mockées** affichées correctement (données mockée = données fictives pour faire des tests)
+
+**Livrables pour *trace ton chemin**
+
+- [ ] **Projet Vite+Vue** initialisé et fonctionnel
+- [ ] **Structure complète des dossier et fichiers**
+- [ ] **Minimum 4-6 composants** créés et fonctionnels
+- [ ] **Documentation des composants et views** dans un fichier `COMPONENTS.md`
+- [ ] **Vue Router** configuré avec routes par chapitre
+- [ ] **Documentation des routes** dans un fichier `ROUTES.md`
+- [ ] **2 stores Pinia** (story et player) créés avec state/actions/getters de base
+- [ ] **Navigation fonctionnelle** entre chapitres
+- [ ] **Minimum 6-7 chapitres** dans le fichier JSON
+- [ ] **Affichage du texte** fonctionnel (3-4 chapitres minimum)
+- [ ] **Système de choix** complet et fonctionnel
+
+
+
 ## PHASE 3: INTERACTIVITÉ
 
 **Du 19 au 1er décembre**
