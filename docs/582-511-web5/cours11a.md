@@ -65,10 +65,10 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 ```markdown
 # Routes de l'application
 
-|   Path    | Name | Composant |  Description  |
-|-----------|------|-----------|---------------|
-|     /     | home |  HomeView | Page d'accueil |
-| /room/:id | room |  RoomView |  Détail salle  |
+|   Path    | Name | Composant |  Description   |
+|-----------|------|-----------|----------------|
+| /         | home | HomeView  | Page d'accueil |
+| /room/:id | room | RoomView  |  Détail salle  |
 ```
 
 
