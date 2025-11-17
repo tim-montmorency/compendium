@@ -44,25 +44,26 @@
 
 - Système de tracking des conséquences
 
-## ANNULÉ ~~PHASE 4: ANIMATIONS ET MÉDIAS~~
+## ❌ ANNULÉ ~~PHASE 4: ANIMATIONS GSAP~~
 
 Vous pouvez le faire et je vous encourage à l'explorer mais ce n'est plus exigé.
 
 - ~~Intégration GSAP~~
 - ~~Transitions entre pages~~
-- ~~Upload et gestion d'images~~
 - ~~Sons d'ambiance (optionnel)~~
 
 
 
-## ANNULÉ ~~PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉE*~~
+## ⚠️ OPTIONNEL PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES 
 
-Vous pouvez le faire et je vous encourage à l'explorer mais ce n'est plus exigé.
+Remise formative annulée. Cette partie du projet est maintenant optionnelle.
 
-- ~~LocalStorage complet~~
--~~ Import/Export JSON~~
-- ~~Gestion des erreurs d'import ou de sauvegarde~~
-- ~~Firebase (optionnel)~~
+Le code nécessaire pour cette partie vous sera fourni à la demande, vous n'aurez qu'à l'analyser et l'intégrer à votre projet, dans votre propre structure.
+
+- ⚠️Sauvegarde dans le LocalStorage
+- ⚠️Import/Export JSON
+- ⚠️Gestion des erreurs d'import ou de sauvegarde
+- ~~Firebase~~
 
 ## PHASE 6: AFFINAGE pour la version BETA
 

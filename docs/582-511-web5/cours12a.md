@@ -1,12 +1,16 @@
 # Cours 12.1 Phase interactivité
 
-## Annonces
+## Aujourd'hui
 
 Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencontres prof/équipe pour vous accompagner.
 
 ## La remise du 19 novembre est réduite
 
 La remise de ce mercredi 19 novembre est réduite.
+
+[Voir le calendrier de projet revu](./projets/appweb-creative/calendrier.md){ .md-button } 
+
+
 
 
 
