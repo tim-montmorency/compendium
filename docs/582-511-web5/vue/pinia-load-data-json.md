@@ -1,0 +1,79 @@
+
+# Processus pour charger votre json initial
+
+
+## Structure des données initiales
+
+*Trace ton chemin*
+
+- Basez vous d'abord sur la structure des données de chapitres dans l'[exercice des routes parmi les chapitres](../exercices/vue-router-chapters/) dans la vue `chapterView.vue`. Vous pouvez faire évoluer cette structure mais vous pouvez démarrer avec la struture de base de l'éxercice pour vous aider à démarrer.
+
+*Mémoires interactives*
+
+- Basez vous sur la structure des données des salles et mémoires dans la vue `RoomDetailView` de l'[exercice des routes parmis les salles](../exercices/vue-router-rooms/). Vous pouvez faire évoluer cette structure mais vous pouvez démarrer avec la struture de base de l'éxercice pour vous aider à démarrer.
+
+## Créez vos stores Pinia
+
+*Trace ton chemin*
+
+Pour charger les données des chapitres de votre json, vous allez le faire dans ce store Pinia, mais il faut le  créer ce store et le configurer d'abord:
+
+- `src/stores/story.js`
+
+*Mémoires interactives*
+
+Pour charger les données des salles et mémoires préalablement créées de votre json, vous allez le faire dans ce store Pinia, mais il faut créer ce store et le configurer d'abord:
+
+- `src/stores/museum.js`
+- `src/stores/memory.js`
+
+## Chargez vos données dans le store
+
+
+*Trace ton chemin*
+
+*`src/stores/story.js`*
+
+```vue
+import { defineStore } from 'pinia'
+import chapters from '../data/chapters.json'
+
+export const useStoryStore = defineStore('story', {
+  state: () => ({
+    storyData: chapters
+  })
+});
+```
+
+
+*Mémoires interactives*
+
+
+
+*`src/stores/museum.js`*
+
+```vue
+import { defineStore } from 'pinia'
+import rooms from '../data/rooms.json'
+
+export const useMemoriesStore = defineStore('museum', {
+  state: () => ({
+    roomsData: rooms
+  })
+});
+
+```
+
+*`src/stores/memory.js`*
+
+```vue
+import { defineStore } from 'pinia'
+import memories from '../data/memories.json'
+
+export const useMemoriesStore = defineStore('memory', {
+  state: () => ({
+    memoriesData: memories
+  })
+});
+
+```

@@ -1,6 +1,29 @@
-# Cours 14.1
+# Cours 14.1 Phase affinage et beta
 Lundi 1er décembre
 
+
+
+!!! example "*REMISE DE LA PHASE 4 INTERACTIVITÉ DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
+    **Livrables pour *mémoire interactive***
+
+    - Interactivité 
+
+      - [ ] **Formulaire d'ajout** complet et validé 
+      - [ ] **Formulaire d'édition** fonctionnel 
+      - [ ] **Suppression** avec confirmation 
+      - [ ] **Recherche** par mot-clé fonctionnelle 
+      - [ ] **Filtres** par tags et par salle 
+      - [ ] **Messages d'erreur** clairs et pertinents 
+
+    **Livrables pour *trace ton chemin***
+
+    - Interactivité
+      - [ ] **Tracking des conséquences** (flags, stats, etc.)
+      - [ ] **Historique des choix** de l'utilisateur sauvegardé dans Pinia
+      - [ ] **Toutes les branches** testées manuellement
+      - [ ] **Logique des fins** implémentée (conditions d'accès)
+
+<!-- 
 !!! example "*REMISE Phases 5 persistance et sauvegarde des données*: Formatif"
 
     **Livrables pour *mémoire interactive***
@@ -23,7 +46,7 @@ Lundi 1er décembre
     - [ ] **Récapitulatif** des choix et conséquences
     - [ ] **Options post-fin** (rejouer, charger, etc.)
 
-
+-->
 
 ## SCRUM d'équipe
 
@@ -33,7 +56,7 @@ Lundi 1er décembre
 
 ## Aujourd'hui
 
-Rencontres de suivi pour la remise d'aujourd'hui (entre prof et équipes)
+
 
 ## Affinage (polish) et accessibilité
 

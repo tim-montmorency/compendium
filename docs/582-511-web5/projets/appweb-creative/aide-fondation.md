@@ -1,6 +1,6 @@
-# Quick Start - Démarrage Rapide du Projet
+# Aide pour la fondation du projet
 
-## 🚀 Installation et Configuration (30 minutes)
+## Installation et Configuration
 
 ### Prérequis
 
@@ -21,7 +21,7 @@ git --version    # Devrait afficher 2.x ou plus
 
 
 
-## 📦 Étape 1: Créer le Projet (Chef de projet uniquement)
+## Créer le Projet
 
 ### 1.1 Initialiser le projet Vite + Vue
 
@@ -45,7 +45,7 @@ Ouvrez http://localhost:5173 - Vous devriez voir la page de démo Vue.
 
 ```bash
 # Dépendances principales
-npm install pinia vue-router sass gsap
+npm install pinia vue-router gsap
 
 # Dépendances de développement
 npm install -D eslint prettier eslint-plugin-vue
@@ -67,8 +67,8 @@ mon-projet/
 │   │       └── reset.css
 │   ├── components/
 │   │   ├── common/
+│   │   ├── specific/
 │   │   └── ui/
-│   ├── composables/
 │   ├── router/
 │   │   └── index.js
 │   ├── stores/
@@ -79,16 +79,6 @@ mon-projet/
 ├── .gitignore
 ├── README.md
 └── package.json
-```
-
-*Créer les dossiers rapidement:*
-
-```bash
-# Windows (PowerShell)
-New-Item -ItemType Directory -Path src/components/common, src/components/ui, src/composables, src/router, src/stores, src/views, src/utils, src/assets/styles, public/images, public/sounds
-
-# Mac/Linux
-mkdir -p src/{components/{common,ui},composables,router,stores,views,utils,assets/styles} public/{images,sounds}
 ```
 
 ### 1.4 Configurer Vue Router
@@ -190,110 +180,50 @@ coverage/
 
 ### 1.7 Initialiser Git et pousser sur GitHub
 
-```bash
-# Initialiser Git
-git init
+Via GitHub Desktop
 
-# Ajouter tous les fichiers
-git add .
+## Templates de fichiers utiles
 
-# Premier commit
-git commit -m "chore: initial project setup"
+## Création de l'app dans main.js
 
-# Créer le repo sur GitHub (via interface web)
-# Puis lier et push:
-git remote add origin https://github.com/votre-username/nom-du-repo.git
-git branch -M main
-git push -u origin main
+*src/main.js*
 
-# Créer la branche develop
-git checkout -b develop
-git push -u origin develop
+```
+import { createApp } from 'vue';
+import router from './router';
+import App from './App.vue';
+
+const app = createApp(App);
+
+app.use(router);
+
+app.mount('#app');
+
 ```
 
+## Base de votre App.vue
 
+```
+<template>
+  <div id="app">
+    
+  </div>
+</template>
 
-## 👥 Étape 2: Rejoindre le Projet (Autres membres)
+<script>
+export default {
+  name: 'App'
+};
+</script>
 
-### 2.1 Cloner le repo
-
-```bash
-# Cloner le repo
-git clone https://github.com/votre-username/nom-du-repo.git
-
-# Entrer dans le dossier
-cd nom-du-repo
-
-# Installer les dépendances
-npm install
-
-# Vérifier que ça fonctionne
-npm run dev
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
 ```
 
-### 2.2 Configurer Git localement
-
-```bash
-# Configurer votre nom et email
-git config --global user.name "Votre Nom"
-git config --global user.email "votre.email@example.com"
-
-# Vérifier les branches
-git branch -a
-
-# Passer sur develop
-git checkout develop
-```
-
-
-
-## 🛠️ Étape 3: Workflow Quotidien
-
-### Chaque jour avant de commencer:
-
-```bash
-# 1. Se mettre à jour
-git checkout develop
-git pull origin develop
-
-# 2. Créer une branche pour votre tâche
-git checkout -b feature/nom-de-votre-feature
-
-# 3. Travailler sur votre code...
-```
-
-### Pendant le travail:
-
-```bash
-# Voir vos modifications
-git status
-
-# Ajouter vos fichiers
-git add .
-
-# Commit régulièrement (toutes les 30-60 min)
-git commit -m "feat(scope): description courte"
-
-# Push vers GitHub
-git push origin feature/nom-de-votre-feature
-```
-
-### En fin de journée:
-
-```bash
-# Push final
-git add .
-git commit -m "feat(scope): votre dernier changement"
-git push origin feature/nom-de-votre-feature
-
-# Créer une Pull Request sur GitHub si la feature est terminée
-```
-
-
-
-## 📋 Templates de fichiers utiles
-
-### Composant Vue de base
+### * Composant de base
 
 *src/components/ExampleComponent.vue:*
 
@@ -308,9 +238,17 @@ git push origin feature/nom-de-votre-feature
 </template>
 
 <script>
+/* import d'autres composants utilisés ici */
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
+
+
 export default {
   name: 'ExampleComponent',
-  
+
+  components: {
+    ButtonPrimary
+  },
+
   props: {
     title: {
       type: String,
@@ -345,40 +283,12 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-// Attention: code démo en format SCSS, veuillez l'adapter en CSS classique
-@import '@/assets/styles/variables';
-@import '@/assets/styles/mixins';
+<style scoped>
 
-.example-component {
-  padding: $spacing-lg;
-  
-  h2 {
-    color: $primary-color;
-    margin-bottom: $spacing-md;
-  }
-  
-  button {
-    background: $primary-color;
-    color: white;
-    padding: $spacing-sm $spacing-md;
-    border: none;
-    border-radius: 4px;
-    @include transition(background);
-    
-    &:hover {
-      background: darken($primary-color, 10%);
-    }
-  }
-  
-  @include mobile {
-    padding: $spacing-md;
-  }
-}
 </style>
 ```
 
-### Store Pinia de base
+### * Store Pinia de base
 
 *src/stores/exampleStore.js:*
 
@@ -400,7 +310,10 @@ export const useExampleStore = defineStore('example', {
     
     getItemById: (state) => (id) => {
       return state.items.find(item => item.id === id);
-    }
+    },
+    currentChapter: (state) => {
+      return state.items[state.currentItem];
+    },
   },
   
   actions: {
@@ -433,93 +346,97 @@ export const useExampleStore = defineStore('example', {
 });
 ```
 
-### Composable useLocalStorage
+#### Exemple complet d'un composant intégrant Pinia Store
 
-*src/composables/useLocalStorage.js:*
+```vue
+<template>
+  <div class="items-list">
+    <h1>Liste des items ({{ itemCount }})</h1>
+    
+    <div v-if="isLoading">Chargement...</div>
+    
+    <div v-else-if="hasItems">
+      <div 
+        v-for="item in items" 
+        :key="item.id"
+        class="item-card"
+      >
+        <h3>{{ item.name }}</h3>
+        <button @click="selectItem(item.id)">Voir</button>
+        <button @click="removeItem(item.id)">Supprimer</button>
+      </div>
+    </div>
+    
+    <div v-else>
+      <p>Aucun item</p>
+    </div>
+    
+    <ButtonPrimary @click="addNewItem">
+      Ajouter un item
+    </ButtonPrimary>
+  </div>
+</template>
 
-```javascript
-// Les composables sont faits de JavaScript pure (pas Vue.js)
-
-export function useLocalStorage(key) {
-  const save = (data) => {
-    // TODO changer pour fetch then then catch
-    try {
-      const jsonData = JSON.stringify(data);
-      localStorage.setItem(key, jsonData);
-      return true;
-    } catch (error) {
-      console.error('Error saving to localStorage:', error);
-      return false;
-    }
-  };
-  
-  const load = (defaultValue = null) => {
-    // TODO changer pour fetch then then catch
-    try {
-      const jsonData = localStorage.getItem(key);
-      return jsonData ? JSON.parse(jsonData) : defaultValue;
-    } catch (error) {
-      console.error('Error loading from localStorage:', error);
-      return defaultValue;
-    }
-  };
-  
-  const remove = () => {
-    // TODO changer pour fetch then then catch
-    try {
-      localStorage.removeItem(key);
-      return true;
-    } catch (error) {
-      console.error('Error removing from localStorage:', error);
-      return false;
-    }
-  };
-  
-  const exists = () => {
-    return localStorage.getItem(key) !== null;
-  };
-  
-  return {
-    save,
-    load,
-    remove,
-    exists
-  };
-}
-```
-
-### Ou utilisation dans un composant (Options API)
-
-```html
 <script>
-import { useLocalStorage } from '@/composables/useLocalStorage';
+import { useExampleStore } from '@/stores/exampleStore';
+import { mapStores } from 'pinia';
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
 
 export default {
-  data() {
-    return {
-      userData: null
-    };
+  name: 'ItemsList',
+  
+  components: {
+    ButtonPrimary
   },
   
-  created() {
-    // Utiliser le composable
-    const storage = useLocalStorage('user-data');
-    this.userData = storage.load({ name: '', email: '' });
+  computed: {
+    // Mapper le store complet
+    // Cela donne accès à : exampleStore.state, exampleStore.getters, exampleStore.actions
+    ...mapStores(useExampleStore)
   },
   
   methods: {
-    saveData() {
-      const storage = useLocalStorage('user-data');
-      storage.save(this.userData);
+    addNewItem() {
+      // Accès aux actions via exampleStore
+      this.exampleStore.addItem({
+        name: `Item ${this.exampleStore.itemCount + 1}`,
+        description: 'Nouvel item'
+      });
+    },
+    
+    removeItem(id) {
+      if (confirm('Supprimer cet item?')) {
+        // Accès aux actions via exampleStore
+        this.exampleStore.deleteItem(id);
+      }
+    },
+    
+    selectItem(id) {
+      // Accès aux actions via exampleStore
+      this.exampleStore.setCurrentItem(id);
+      this.$router.push(`/item/${id}`);
     }
   }
 };
 </script>
+
+<style scoped>
+.items-list {
+  padding: 2rem;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+</style>
 ```
 
-## 🎨 Composants UI Réutilisables
+## Composants UI Réutilisables
 
-### ButtonPrimary.vue
+### * ButtonPrimary.vue
 
 *src/components/ui/ButtonPrimary.vue:*
 
@@ -537,8 +454,15 @@ export default {
 </template>
 
 <script>
+
+import ItemText from '@/components/ItemText.vue';
+
 export default {
   name: 'ButtonPrimary',
+
+  components: {
+    ItemText
+  },
   
   props: {
     loading: {
@@ -563,58 +487,29 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-@import '@/assets/styles/variables';
-@import '@/assets/styles/mixins';
+<style scoped>
+
 
 .btn-primary {
-  background: $primary-color;
+  background: blue;
   color: white;
-  padding: $spacing-sm $spacing-lg;
+  padding: 10px;
   border: none;
   border-radius: 8px;
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
-  @include transition(all);
-  
-  &:hover:not(&--disabled):not(&--loading) {
-    background: darken($primary-color, 10%);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  &:active:not(&--disabled):not(&--loading) {
-    transform: translateY(0);
-  }
-  
-  &--disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-  
-  &--loading {
-    cursor: wait;
-  }
-  
-  &__spinner {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    border: 2px solid white;
-    border-top-color: transparent;
-    border-radius: 50%;
-    animation: spin 0.6s linear infinite;
-  }
 }
 
-@keyframes spin {
-  to { transform: rotate(360deg); }
+.btn-primary:hover{
+   background: pink;
 }
+
+
 </style>
 ```
 
-### Modal.vue
+### * Modal.vue
 
 *src/components/ui/Modal.vue:*
 
@@ -760,8 +655,6 @@ export default {
 
 #### Exemple d'utilisation du Modal
 
-<small>Ajout du 13 novembre 2025</small>
-
 ```vue
 <template>
   <div>
@@ -810,171 +703,4 @@ export default {
   }
 };
 </script>
-```
-
-## Exemple complet d'un composant intégrant Pinia Store
-
-<small>Ajout du 13 novembre 2025</small>
-
-```vue
-<template>
-  <div class="items-list">
-    <h1>Liste des items ({{ itemCount }})</h1>
-    
-    <div v-if="isLoading">Chargement...</div>
-    
-    <div v-else-if="hasItems">
-      <div 
-        v-for="item in items" 
-        :key="item.id"
-        class="item-card"
-      >
-        <h3>{{ item.name }}</h3>
-        <button @click="selectItem(item.id)">Voir</button>
-        <button @click="removeItem(item.id)">Supprimer</button>
-      </div>
-    </div>
-    
-    <div v-else>
-      <p>Aucun item</p>
-    </div>
-    
-    <ButtonPrimary @click="addNewItem">
-      Ajouter un item
-    </ButtonPrimary>
-  </div>
-</template>
-
-<script>
-import { useExampleStore } from '@/stores/exampleStore';
-import { mapState, mapGetters, mapActions } from 'pinia';
-import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
-
-export default {
-  name: 'ItemsList',
-  
-  components: {
-    ButtonPrimary
-  },
-  
-  computed: {
-    // Mapper le state
-    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
-    
-    // Mapper les getters
-    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
-  },
-  
-  methods: {
-    // Mapper les actions
-    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
-    
-    addNewItem() {
-      this.addItem({
-        name: `Item ${this.itemCount + 1}`,
-        description: 'Nouvel item'
-      });
-    },
-    
-    removeItem(id) {
-      if (confirm('Supprimer cet item?')) {
-        this.deleteItem(id);
-      }
-    },
-    
-    selectItem(id) {
-      this.setCurrentItem(id);
-      this.$router.push(`/item/${id}`);
-    }
-  }
-};
-</script>
-
-<style scoped>
-.items-list {
-  padding: 2rem;
-}
-
-.item-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 8px;
-}
-</style>
-```
-
-## 🚀 Scripts NPM Utiles
-
-Ajoutez dans **package.json:**
-
-```json
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
-  }
-}
-```
-
-
-## ✅ Checklist
-
-- [ ] Node.js et npm installés
-- [ ] Git installé et configuré
-- [ ] VS Code installé avec extensions (Volar, ESLint, Prettier)
-- [ ] Projet cloné et dépendances installées
-- [ ] `npm run dev` fonctionne
-- [ ] Premier commit/push réussi
-- [ ] Branches `main` et `develop` créées
-- [ ] Tous les membres ont accès au repo GitHub
-- [ ] Structure de dossiers créée
-- [ ] Router et Pinia configurés
-- [ ] SASS configuré avec variables
-
-
-
-## 🆘 Problèmes courants
-
-### "npm install" échoue
-
-Dans le terminal, il est possible que vous ne soyez pas positionné dans le dossier du projet, là où se trouve le fichier `package.json`.
-
-Vérifiez votre position actuelle à l’aide de la commande `pwd`, qui indique dans quel dossier vous vous trouvez.
-
-Si vous devez accéder au dossier de votre projet, utilisez la commande `cd nom-du-dossier-du-projet`, en remplaçant *nom-du-dossier-du-projet* par le nom du dossier de *votre* projet.
-
-Si ce n'est pas ça le problème, alors:
-
-```bash
-# Nettoyer le cache npm
-npm cache clean --force
-
-# Supprimer node_modules et réinstaller
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### "npm run dev" ne démarre pas
-
-```bash
-# Vérifier que le port 5173 n'est pas utilisé
-# Changer le port dans vite.config.js:
-export default {
-  server: {
-    port: 3000
-  }
-}
-```
-
-### Erreurs de permissions (Mac/Linux)
-
-```bash
-# Ne jamais utiliser sudo avec npm!
-# Corriger les permissions:
-sudo chown -R $USER ~/.npm
-sudo chown -R $USER /usr/local/lib/node_modules
 ```

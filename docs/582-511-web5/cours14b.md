@@ -1,4 +1,4 @@
-# Cours 14.2
+# Cours 14.2 Phase QA
 
 Merc. 3 décembre 
 
@@ -7,7 +7,6 @@ Merc. 3 décembre
     Version prête à être validée et testée pour le contrôle de la qualité
 
 ## Cours: Contrôle de la qualité
-
 
 * normes d’accessibilité
 * normes de validation

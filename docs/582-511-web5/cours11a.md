@@ -33,15 +33,6 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 [Exercices Vue Router](./exercices/vue-routes.md)
 
 
-## Cours: Pinia
-
-*Pinia* une bibliothèque (`store`) de gestion d'état pour les application Vue.js
-
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/pinia.html"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
-</div>
-
 ## SCRUM d'équipe
 
 [Mêlée d'équipe](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/melee-scrum/#requis) (SCRUM) de 10 min.
@@ -74,10 +65,10 @@ Comment configurer les liens entre ces *Views* (pages) par l'utilisation de *rou
 ```markdown
 # Routes de l'application
 
-| Path | Name | Composant | Description |
-|------|------|-----------|-------------|
-| / | home | HomeView | Page d'accueil |
-| /room/:id | room | RoomView | Détail d'une salle |
+|   Path    | Name | Composant |  Description  |
+|-----------|------|-----------|---------------|
+|     /     | home |  HomeView | Page d'accueil |
+| /room/:id | room |  RoomView |  Détail salle  |
 ```
 
 

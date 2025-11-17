@@ -97,7 +97,7 @@ Ce travail fait partie partiellement de la remise prévue le 19 novembre.
 
 4. *Documenter vos composants et vos views*
 
-   - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src`de votre projet)
+   - Liste dans un fichier `COMPONENTS.md` (sauvegarder dans le dossier `src` de votre projet)
    - Pour chaque composant: nom, responsabilité, props attendues, événements émis (emits)
 
 5. *Mettre à jour votre Trello*: en fonction des composants et views découpées dans votre plan, allez ajouter ou mettre à jour vos tâches dans le Trello. Déjà vous pouvez prioriser et vous distribuer des composants à développer.

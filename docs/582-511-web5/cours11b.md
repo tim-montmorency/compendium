@@ -28,8 +28,14 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 
 ### Exercice Routes
 
-- Pour les étudiants de *Trace ton chemin*[Exercice des routes parmis les chapitres](./exercices/vue-router-chapters/)
-- Pour les étudiants de *Mémoires interactives* [Exercice des routes parmis les salles](./exercices/vue-router-rooms/)
+- Pour les étudiants de *Trace ton chemin* 
+
+  - [Exercice des routes parmi les chapitres](./exercices/vue-router-chapters/)
+  - [Solution: vous pourrez partir de cet exercice pour débuter le routage dans votre projet](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EcxBw5eeEZ9Ho2-fw8HupkkB1AWCaGbhrayjal0GOl4-NA?e=yKUeZP)
+
+- Pour les étudiants de *Mémoires interactives* 
+  - [Exercice des routes parmi les salles](./exercices/vue-router-rooms/)
+  - [Solution: vous pourrez partir de cet exercice pour débuter le routage dans votre projet](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EYcXxd4gNXFPtWxNgzUxV7gB9GgvH8nMM7lVsD5B9AkV0g?e=dGzgbB)
 
 ## Cours: Pinia
 
@@ -38,6 +44,13 @@ N'allez surtout pas trouver des codes n'importe où sans vous rappeler de cette 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">
   <a href="./vue/pinia.html"><em>Pinia</em>: bibliothèque (<code>store</code>)</a>
+</div>
+
+### Procédure pour charger les données initiales des chapitres/mémoires/salles du json dans le store Pinia
+
+<div class="class-content-link">
+  <img src="./vue/assets/logo-vue.svg">
+  <a href="./vue/pinia-load-data-json.html">Procédure pour charger les données initiales des chapitres du json dans le store</a>
 </div>
 
 
@@ -72,9 +85,9 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
 
 *Structure des stores suggérée:*
 
-1. *`useMuseumStore`*
+1. *`museum`*
    - State (équivalent de data()):
-     - `rooms`
+     - `rooms` // contient la liste des salles
      - `currentRoomId`
      - `museumName`
      - `theme`
@@ -84,9 +97,9 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `deleteRoom()`
      - `setCurrentRoom()`
 
-2. *`useMemoryStore`*
+2. *`memory`*
    - State (équivalent de data()):
-     - `memories`
+     - `memories` // contient la liste des mémoires
      - `filters`
      - `searchQuery`
    - Actions (équivalent de methods):
@@ -99,22 +112,14 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `memoriesByRoom`
      - `memoriesByTag`
 
-3. *`useAuthStore`* (optionnel)
-   - State (équivalent de data()): 
-     - `user`
-     - `isAuthenticated`
-   - Actions (équivalent de methods): 
-     - `login()`
-     - `logout()`
-     - `register()`
-
 ##### Checklist *Mémoires interactives*
 
 - [ ] Création des 2 *stores* obligatoires:
-  - [ ] `useMuseumStore.js` (structure de base)
-  - [ ] `useMemoryStore.js` (structure de base)
+  - [ ] `museum.js` (structure de base)
+  - [ ] `memory.js` (structure de base)
 
 - [ ] Développement des *composants clés* qui utilisent les stores:
+
   - [ ] `RoomCard.vue` (carte de salle)
   - [ ] `MemoryCard.vue` (carte de mémoire)
   - [ ] `MemoryList.vue` (grille de mémoires)
@@ -123,29 +128,31 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
 
 *Structure des stores suggérée:*
 
-1. *`useStoryStore`* (le plus important du projet)
+1. *`story`* (le plus important du projet)
 
    - State (équivalent de data()):
      - `currentChapterId`
      - `visitedChapters`
-     - `storyData`
+     - `storyData` // contient  les données des chapitres chargé à partir du json
      - `availableChoices`
+
    - Actions (équivalent de methods):
      - `loadChapter()`
      - `makeChoice()`
      - `goToChapter()`
+
    - Getters (équilavent de computed):
      - `currentChapter`
      - `isChapterUnlocked()`
 
-2. *`usePlayerStore`* (commencez simple d'abord, juste avec le nom)
+2. *`player`* (commencez simple d'abord, juste avec le nom)
    - State (équivalent de data()):
      - `playerName`
      - `karma`
      - `stats`
      - `inventory`
      - `flags`
-     - `relationships`
+     - `relationships
    - Actions (équivalent de methods):
      - `addToInventory()`
      - `updateStat()`
@@ -156,7 +163,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `getRelationship()`
      - `canAccessEnding()`
 
-3. *`useSaveStore`*
+3. *`save`*
    - State (équivalent de data()):
      - `saveSlots` (array de 3 slots)
    - Actions (équivalent de methods): 
@@ -168,7 +175,7 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
      - `hasSaves`
      - `latestSave`
 
-4. *`useAudioStore`* (optionnel)
+4. *`audio`* (optionnel)
    - State (équivalent de data()):
      - `currentMusic`
      - `soundEffects`
@@ -183,8 +190,8 @@ En plus du travail de cours précédents (cours 10.2 et 11.1), voici ce qui s'aj
 ##### Checklist *Trace ton chemin*
 
 - [ ] Création des 2 premier *stores*:
-  - [ ] `useStoryStore.js` (chapitres, navigation)
-  - [ ] `usePlayerStore.js` (état du joueur, commencez réalistement, juste avec son nom)
+  - [ ] `story.js` (chapitres, navigation)
+  - [ ] `player.js` (état du joueur, commencez réalistement, juste avec son nom)
 
 - [ ] Création du *fichier JSON avec les chapitres*
 

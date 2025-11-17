@@ -112,8 +112,8 @@
 - Mini-cours: Pinia pour gestion de progression (45 min)
 
 - Création des stores:
-  - `useStoryStore.js` (chapitres, navigation)
-  - `usePlayerStore.js` (état du joueur)
+  - `story.js` (chapitres, navigation)
+  - `player.js` (état du joueur)
 - Création du fichier JSON avec les chapitres
 - Développement des composants clés:
   - `ChoiceButton.vue` (bouton de choix)

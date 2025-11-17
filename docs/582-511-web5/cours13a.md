@@ -1,4 +1,4 @@
-# Cours 13.1 Persistance et sauvegarde
+# Cours 13.1 Interactivité et mise en page
 
 24 novembre
 
@@ -6,8 +6,8 @@
 
 ..
 
-
-## Mini cours: LocalStorage, gestion d'erreurs et des sauvegardes (30 min)
+<!--
+## Cours: LocalStorage, gestion d'erreurs et des sauvegardes (30 min)
 
 ## *Mémoire interactive*: Persistance et Authentification
 
@@ -29,12 +29,7 @@
 - Login avec nom d'utilisateur
 - Multi-utilisateurs via LocalStorage
 - État d'authentification dans Pinia
-<!--
-### Atelier optionnel Firebase (1h): - Pour les équipes avancées
 
-- Configuration Firebase
-- Premier test de sauvegarde cloud
--->
 
 ## *Trace ton chemin*: Sauvegarde et Fins
 
@@ -61,3 +56,5 @@
 - Boutons: recommencer, charger, menu principal
 
 ### Tests intensifs de tous les chemins
+
+-->

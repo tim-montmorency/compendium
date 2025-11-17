@@ -1,7 +1,8 @@
-# Cours 13.2
+# Cours 13.2 Interactivité et mise en page
 
 26 novembre
 
+<!-- 
 !!! example "*REMISE Phases 4 animation+médias*: Formatif"
 
     **Livrables pour *mémoire interactive***
@@ -22,12 +23,12 @@
     - [ ] **Musiques d'ambiance** intégrées avec contrôle volume
     - [ ] **Effets sonores** pour choix importants (optionnel)
 
-
+-->
 
 ## Aujourd'hui
 
-Rencontres de suivi pour la remise d'aujourd'hui (entre prof et équipes)
 
-## Avancement de la persistance et sauvegarde des données
+
+## Avancement 
 
 Avancement de ce qui a été vu et débuté au dernier cours.

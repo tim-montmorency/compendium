@@ -1,14 +1,37 @@
-# Cours 12.1 Phase interactivité
+# Cours 12.1 Phase fondation
 
-17 novembre
+## Aujourd'hui
 
+Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencontres prof/équipe pour vous accompagner.
+
+## La remise du 19 novembre est réduite
+
+La remise de ce mercredi 19 novembre est réduite.
+
+Le calendrier complet du projet a été revu:
+
+[🗓️ Voir le calendrier de projet revu](./projets/appweb-creative/calendrier.md){ .md-button } 
+
+## Coup de pouce et templates
+
+[🛠️ Coup de pouce pour votre phase fondation](./projets/appweb-creative/aide-fondation.md){ .md-button } 
+
+<!--
 ## Cours: Validation de formulaires Vue (Mémoires interactives)
 
 ...
++
+- Upload d'images:
+  - Input file avec preview
+  - Conversion en base64 ou URL
+  - Validation de taille/format
+  - Compression et optimisation
 
 ## Cours: Logique de branches narratives (Trace ton chemin)
 
 ...
+
+
 
 ## Travail en classe et en devoir
 
@@ -79,12 +102,14 @@ Avancer ce qui a été commencé en classe:
 ## *Trace ton chemin*: Système de Choix et Branches
 
 - Implémentation du tracking des conséquences: *PAS OBLIGATOIRE POUR LA REMISE DU 19 nov.*
+
   - Système de flags (événements déclenchés)
   - Karma/stats (si applicable)
   - Inventaire (si applicable)
   - Relations avec personnages (si applicable)
 
 - Historique des choix du joueur:
+
   - Enregistrement de chaque décision
   - Affichage dans un menu (optionnel)
 
@@ -131,3 +156,5 @@ Terminer ce qui a été commencé en classe:
 - [ ] **Historique des choix** sauvegardé
 - [ ] **Toutes les branches** testées manuellement
 - [ ] **Logique des fins** implémentée (conditions d'accès)
+
+-->
