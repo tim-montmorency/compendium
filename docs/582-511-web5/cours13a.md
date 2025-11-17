@@ -6,7 +6,7 @@
 
 ..
 
-
+<!--
 ## Cours: LocalStorage, gestion d'erreurs et des sauvegardes (30 min)
 
 ## *Mémoire interactive*: Persistance et Authentification
@@ -56,3 +56,5 @@
 - Boutons: recommencer, charger, menu principal
 
 ### Tests intensifs de tous les chemins
+
+-->

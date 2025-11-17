@@ -8,7 +8,6 @@ Merc. 3 décembre
 
 ## Cours: Contrôle de la qualité
 
-
 * normes d’accessibilité
 * normes de validation
 * grilles de validation
