@@ -1,6 +1,18 @@
 # Calendrier du projet
 
-*Dernière mise-à-jour le 16 novembre*
+## Dernière mise-à-jour du calendrier de projet: 16 novembre
+
+## Le calendrier en bref:
+
+- [ ] PHASE 1: PLANIFICATION ET DESIGN: 22 oct.
+- [ ] PHASE 2: FONDATION: 19 nov.
+- [ ] PHASE 3: INTERACTIVITÉ: 1er déc.
+- [ ] ❌ ~~PHASE 4: ANIMATIONS GSAP~~
+- [ ] ⚠️ OPTIONNEL PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES
+- [ ] PHASE 6: AFFINAGE pour la version BETA: 3 déc.
+- [ ] PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS: 8 déc
+- [ ] PHASE 8: REMISE FINALE ET PRÉSENTATION: 10 déc.
+- [ ] PHASE 9: POST-MORTEM: 12 déc.
 
 ## PHASE 1: PLANIFICATION ET DESIGN
 
@@ -74,7 +86,7 @@ Le code nécessaire pour cette partie vous sera fourni à la demande, vous n'aur
 - Tout est stylisé et responsive (desktop et mobile)
 
 
-## PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS
+## PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS
 
 <!-- Semaine 8 -->
 **Du 3 au 8 décembre**
