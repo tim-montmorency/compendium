@@ -21,6 +21,12 @@
 
 #### JavaScript
 
+##### NPM (Node Package Manager)
+
+* [Node et NPM](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/)
+* [Installer Node et NPM à la maison](https://nodejs.org/en/download)
+* [Vite](https://tim-montmorency.com/timdoc/582-518MO/javascript/vite/)
+
 ##### Fetch API
 
 * [Promesses JavaScript](./cours06a.md#promesses-javascript)
@@ -34,6 +40,7 @@
 
 - [Vue intro](./vue/index.md)
 - [Vue: Création d'une app](./vue/creation-app.html)
+- [Vite](https://tim-montmorency.com/timdoc/582-518MO/javascript/vite/)
 - [Vue: Création d'un projet Vue avec Vite](./vue/creation-projet-CLI.md)
 - [Vue: Interpolation des données](./vue/interpolation.html)
 - [Vue: Méthode et événenement v-on](./vue/methodes-evenements.md)
@@ -50,6 +57,7 @@
 - [Vue: View (page)](./vue/view.md)
 - [Vue: Routes](./router-and-views.md)
 - [Vue: Pinia stores](./vue/pinia.md)
+- [Vue: Pinia stores: Charger données json dans Store Pinia](./vue/pinia-load-data-json.md)
 
 ## Descriptif du cours
 
