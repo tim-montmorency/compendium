@@ -128,7 +128,7 @@ Au besoin, voici des images de base : [img1](./687474703a2f2f692e696d6775722e636
 * Timers / Chronomètres [exemple](https://animejs.com/documentation/timer)
 * Alertes / Notifications [exemple](https://getbootstrap.com/docs/5.3/components/alerts/#examples)
 * Flux de données textuelles [exemple1](https://codepen.io/hapanyo/pen/LYmYZLb),
-* Cartes / Mini-maps [exemple](https://leafletjs.com/)
+* Cartes / Mini-maps [exemple](https://maplibre.org/)
 * Tooltips [exemple](https://getbootstrap.com/docs/5.3/components/tooltips/#directions)
 
 ### Exemples de données conceptuelles
