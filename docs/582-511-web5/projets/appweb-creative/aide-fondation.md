@@ -238,9 +238,17 @@ export default {
 </template>
 
 <script>
+/* import d'autres composants utilisés ici */
+import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
+
+
 export default {
   name: 'ExampleComponent',
-  
+
+  components: {
+    ButtonPrimary
+  },
+
   props: {
     title: {
       type: String,
@@ -371,7 +379,7 @@ export const useExampleStore = defineStore('example', {
 
 <script>
 import { useExampleStore } from '@/stores/exampleStore';
-import { mapState, mapGetters, mapActions } from 'pinia';
+import { mapStores } from 'pinia';
 import ButtonPrimary from '@/components/ui/ButtonPrimary.vue';
 
 export default {
@@ -382,32 +390,30 @@ export default {
   },
   
   computed: {
-    // Mapper le state
-    ...mapState(useExampleStore, ['items', 'isLoading', 'currentItem']),
-    
-    // Mapper les getters
-    ...mapGetters(useExampleStore, ['itemCount', 'hasItems'])
+    // Mapper le store complet
+    // Cela donne accès à : exampleStore.state, exampleStore.getters, exampleStore.actions
+    ...mapStores(useExampleStore)
   },
   
   methods: {
-    // Mapper les actions
-    ...mapActions(useExampleStore, ['addItem', 'deleteItem', 'setCurrentItem']),
-    
     addNewItem() {
-      this.addItem({
-        name: `Item ${this.itemCount + 1}`,
+      // Accès aux actions via exampleStore
+      this.exampleStore.addItem({
+        name: `Item ${this.exampleStore.itemCount + 1}`,
         description: 'Nouvel item'
       });
     },
     
     removeItem(id) {
       if (confirm('Supprimer cet item?')) {
-        this.deleteItem(id);
+        // Accès aux actions via exampleStore
+        this.exampleStore.deleteItem(id);
       }
     },
     
     selectItem(id) {
-      this.setCurrentItem(id);
+      // Accès aux actions via exampleStore
+      this.exampleStore.setCurrentItem(id);
       this.$router.push(`/item/${id}`);
     }
   }
@@ -448,8 +454,15 @@ export default {
 </template>
 
 <script>
+
+import ItemText from '@/components/ItemText.vue';
+
 export default {
   name: 'ButtonPrimary',
+
+  components: {
+    ItemText
+  },
   
   props: {
     loading: {
