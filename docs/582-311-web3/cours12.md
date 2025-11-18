@@ -16,7 +16,7 @@ L'installation d'une librairie de carte ne se fait quasiment jamais sans interne
     
     <link
       rel="stylesheet"
-      href="./node_modules/maplibre-gl/dist/maplibre-gl.css"
+      href="https://unpkg.com/maplibre-gl@5.13.0/dist/maplibre-gl.css"
     />
     <link rel="stylesheet" href="./src/css/styles.css">
     
