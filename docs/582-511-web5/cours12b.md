@@ -46,12 +46,16 @@
     - Pour chaque route, lister: path, name, composant (la view) et une description
 
 
-
-
-
 ## Évaluation par les pairs et auto-évaluation de mi-parcours (sommatif 5%)
 
 Réalisé en classe. Instructions à venir.
+
+## Travail en classe
+
+- Intégration des médias
+- Mise en page HTML+CSS
+- Adaptative (responsive) via `display: grid`, `display: flex` et requêtes média (media queries).
+
 
 <!--
 

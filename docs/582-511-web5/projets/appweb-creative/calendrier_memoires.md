@@ -10,6 +10,7 @@
 ## 📅 SEMAINE 1-2: Planification et Design (2 semaines)
 
 ### 🎯 Objectifs
+
 - Définir le concept et la vision du projet
 - Créer le cahier de charges complet
 - Concevoir les maquettes Figma
@@ -19,23 +20,27 @@
 ### 📚 En classe (16h sur 2 semaines)
 
 **Semaine 1 - Jour 1 (3h):**
+
 - Introduction au projet (30 min)
 - Formation des équipes et attribution des rôles (30 min)
 - Brainstorming sur les concepts de musée (1h)
 - Début de rédaction du cahier de charges (1h)
 
 **Semaine 1 - Jour 2 (5h):**
+
 - Atelier Figma: maquettage (2h)
 - Définition de l'architecture de données (1h)
 - Planification des sprints (1h)
 - Création du repo GitHub et structure de dossiers (1h)
 
 **Semaine 2 - Jour 1 (3h):**
+
 - Révision des cahiers de charges (présentations 15 min/équipe)
 - Feedback enseignant
 - Finalisation des maquettes
 
 **Semaine 2 - Jour 2 (5h):**
+
 - Setup du projet Vite + Vue (1h)
 - Installation des dépendances (Pinia, GSAP, SASS) (1h)
 - Configuration ESLint + Prettier (30 min)
@@ -44,10 +49,12 @@
 ### 🏠 Hors classe (~6h sur 2 semaines)
 
 **Semaine 1:**
+
 - Recherche d'inspirations visuelles (1h)
 - Rédaction du cahier de charges (sections individuelles) (2h)
 
 **Semaine 2:**
+
 - Finalisation du cahier de charges (1h)
 - Complétion des maquettes Figma (2h)
 
@@ -73,6 +80,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: Architecture de composants Vue (30 min)
 
 - Création des composants de layout:
@@ -82,6 +90,7 @@
 - Mise en place du système de routing
 
 **Jour 2 (5h):**
+
 - Mini-cours: Pinia en profondeur (45 min)
 
 - Création des stores:
@@ -124,6 +133,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: Validation de formulaires Vue (30 min)
 - Développement du formulaire d'ajout de mémoire:
   - `MemoryForm.vue` (champs, validation)
@@ -131,6 +141,7 @@
   - Gestion des erreurs
 
 **Jour 2 (5h):**
+
 - Implémentation CRUD complète:
   - Create: Ajout de mémoire
   - Read: Affichage (déjà fait)
@@ -156,6 +167,7 @@
 - [ ] **Messages d'erreur** clairs et pertinents
 
 ### 🎯 Checkpoint enseignant
+
 - Test des fonctionnalités CRUD
 - Vérification de la validation des données
 - Feedback sur l'UX des formulaires
@@ -165,6 +177,7 @@
 ## 📅 SEMAINE 5: Animations et Médias
 
 ### 🎯 Objectifs
+
 - Intégrer GSAP et créer des animations fluides
 - Implémenter ScrollTrigger
 - Ajouter le système d'upload d'images
@@ -173,6 +186,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: GSAP + Vue 3 (45 min)
 - Animations de transitions:
   - Transitions entre pages (Vue Router)
@@ -180,6 +194,7 @@
   - Hover effects sur les éléments interactifs
 
 **Jour 2 (5h):**
+
 - Atelier GSAP avancé (1h30):
   - ScrollTrigger pour révélations au scroll
   - Animations de timeline
@@ -205,6 +220,7 @@
 - [ ] **Sons d'ambiance** (optionnel - bonus)
 
 ### 🎯 Checkpoint enseignant
+
 - Démonstration des animations (session collective)
 - Feedback sur la fluidité et pertinence
 - Vérification de la performance (60 FPS)
@@ -214,6 +230,7 @@
 ## 📅 SEMAINE 6: Persistance et Authentification
 
 ### 🎯 Objectifs
+
 - Implémenter LocalStorage complet
 - Ajouter export/import JSON
 - Créer un système d'authentification simple (optionnel)
@@ -240,6 +257,7 @@
   - État d'authentification dans Pinia
 
 **Atelier optionnel Firebase (1h):**
+
 - Pour les équipes avancées
 - Configuration Firebase
 - Premier test de sauvegarde cloud
@@ -262,6 +280,7 @@
 - [ ] **Firebase** basique (équipes avancées - optionnel)
 
 ### 🎯 Checkpoint enseignant
+
 - Test de persistance (fermer/rouvrir l'app)
 - Vérification des cas d'erreur
 - Review du code de gestion d'état
@@ -281,6 +300,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: Accessibilité web (45 min)
 - Tests et corrections responsive:
   - Mobile (320px-768px)
@@ -289,6 +309,7 @@
 - Tests sur différents navigateurs
 
 **Jour 2 (5h):**
+
 - Implémentation accessibilité:
   - Navigation au clavier
   - ARIA labels
@@ -304,6 +325,7 @@
   - Textes finaux
 
 **Atelier optionnel: Accessibilité avancée (1h)**
+
 - Screen readers
 - Skip links
 - Focus management
@@ -325,6 +347,7 @@
 - [ ] **Contenu complet** (6+ salles, 20+ mémoires mockées)
 
 ### 🎯 Checkpoint enseignant
+
 - Tests d'accessibilité (keyboard, screen reader)
 - Tests responsive sur appareils réels
 - Liste de bugs à corriger
@@ -334,6 +357,7 @@
 ## 📅 SEMAINE 8: Finalisation et Déploiement
 
 ### 🎯 Objectifs
+
 - Finaliser la documentation
 - Déployer le projet en ligne
 - Créer une vidéo de présentation
@@ -343,6 +367,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Rédaction du README complet:
   - Description du projet
   - Installation et utilisation
@@ -355,6 +380,7 @@
   - Test du site en production
 
 **Jour 2 (5h):**
+
 - Création de la vidéo de présentation (2-3 min):
   - Démo des fonctionnalités clés
   - Showcase des animations
@@ -389,6 +415,7 @@
 **Format:** 15 minutes par équipe (10 min présentation + 5 min questions)
 
 **Structure suggérée:**
+
 1. Introduction et concept (2 min)
 2. Démo live des fonctionnalités (5 min)
 3. Aspects techniques intéressants (2 min)
@@ -414,36 +441,43 @@
 ## 🚨 Points de Vigilance par Semaine
 
 ### Semaine 1-2
+
 - ⚠️ Ne pas sous-estimer le temps de maquettage
 - ⚠️ Définir des objectifs réalistes (pas trop ambitieux)
 - ⚠️ S'assurer que tous comprennent l'architecture technique
 
 ### Semaine 3
+
 - ⚠️ Bien structurer les composants dès le départ (éviter le refactoring)
 - ⚠️ Conventions de nommage claires pour l'équipe
 - ⚠️ Commits réguliers et branches bien nommées
 
 ### Semaine 4
+
 - ⚠️ Ne pas négliger la validation des formulaires
 - ⚠️ Gérer tous les cas d'erreur (input vide, format invalide, etc.)
 - ⚠️ Tester le CRUD intensivement
 
 ### Semaine 5
+
 - ⚠️ Attention aux performances avec GSAP (ne pas exagérer)
 - ⚠️ Tester les animations sur mobile (peuvent être lentes)
 - ⚠️ Limiter la taille des images uploadées
 
 ### Semaine 6
+
 - ⚠️ Tester la perte de données (effacer localStorage, quota dépassé)
 - ⚠️ Valider le format JSON avant d'importer
 - ⚠️ Sauvegarder régulièrement (backups manuels)
 
 ### Semaine 7
+
 - ⚠️ Tests sur vrais appareils mobiles (pas juste DevTools)
 - ⚠️ Tests avec screen readers (NVDA ou VoiceOver)
 - ⚠️ Corriger les bugs critiques en priorité
 
 ### Semaine 8
+
 - ⚠️ Prévoir du temps pour les imprévus de déploiement
 - ⚠️ Répéter la présentation plusieurs fois
 - ⚠️ Avoir un plan B si la démo ne fonctionne pas
@@ -455,11 +489,13 @@
 ### Daily/Weekly Practices
 
 **Chaque jour de cours:**
+
 - 5 min: Stand-up d'équipe (avancement, blocages)
 - Temps de dev
 - 10 min: Commit et push du travail
 
 **Chaque semaine:**
+
 - Réunion d'équipe (30 min) pour planifier la semaine suivante
 - Mise à jour du project board
 - Mini-retrospective (qu'est-ce qui a bien/mal fonctionné?)
@@ -473,6 +509,7 @@
 ### Time Management
 
 **Répartition suggérée du temps en classe:**
+
 - 20% Mini-cours / théorie
 - 60% Développement pratique
 - 10% Questions / déblocage
@@ -485,6 +522,7 @@
 Avant la remise finale, vérifiez que:
 
 ### Code
+
 - [ ] Aucune erreur ou warning console
 - [ ] Code commenté aux endroits clés
 - [ ] Variables et fonctions bien nommées
@@ -492,6 +530,7 @@ Avant la remise finale, vérifiez que:
 - [ ] ESLint passe sans erreur
 
 ### Fonctionnalités
+
 - [ ] Toutes les routes fonctionnent
 - [ ] CRUD complet fonctionnel
 - [ ] Recherche et filtres opérationnels
@@ -500,12 +539,14 @@ Avant la remise finale, vérifiez que:
 - [ ] Export/Import JSON fonctionnels
 
 ### Qualité
+
 - [ ] Responsive sur tous les breakpoints
 - [ ] Accessible (navigation clavier, ARIA)
 - [ ] Performance optimisée
 - [ ] Tests sur Chrome, Firefox, Safari
 
 ### Documentation
+
 - [ ] README complet et clair
 - [ ] Instructions d'installation
 - [ ] Captures d'écran
@@ -513,6 +554,7 @@ Avant la remise finale, vérifiez que:
 - [ ] Crédits et licences
 
 ### Présentation
+
 - [ ] Vidéo de 2-3 minutes prête
 - [ ] Slides préparés
 - [ ] Rôles de présentation répartis
