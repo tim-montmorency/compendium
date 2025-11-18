@@ -384,7 +384,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 
 *Structure des stores suggérée:*
 
-1. *`useMuseumStore`*
+1. *`museum`*
    - State (équivalent de data()):
      - `rooms`
      - `currentRoomId`
@@ -396,7 +396,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `deleteRoom()`
      - `setCurrentRoom()`
 
-2. *`useMemoryStore`*
+2. *`memory`*
    - State (équivalent de data()):
      - `memories`
      - `filters`
@@ -411,7 +411,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `memoriesByRoom`
      - `memoriesByTag`
 
-3. *`useAuthStore`* (optionnel)
+3. *`auth`* (optionnel)
    - State (équivalent de data()): 
      - `user`
      - `isAuthenticated`
@@ -435,7 +435,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 
 *Structure des stores suggérée:*
 
-1. *`useStoryStore`* (le plus important du projet)
+1. *`story`* (le plus important du projet)
 
    - State (équivalent de data()):
      - `currentChapterId`
@@ -450,7 +450,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `currentChapter`
      - `isChapterUnlocked()`
 
-2. *`usePlayerStore`* (pour le système de conséquences)
+2. *`player`* (pour le système de conséquences)
    - State (équivalent de data()):
      - `playerName` (le nom du joueur)
      - `karma` 
@@ -468,7 +468,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `getRelationship()`
      - `canAccessEnding()`
 
-3. *`useSaveStore`*
+3. *`save`*
    - State (équivalent de data()):
      - `saveSlots` (array de 3 slots)
    - Actions (équivalent de methods): 
