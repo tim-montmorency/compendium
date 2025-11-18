@@ -260,6 +260,7 @@ nav:
         - View (page): 582-511-web5/vue/view.md
         - Routes: 582-511-web5/vue/router-and-views.md
         - Pinia stores: 582-511-web5/vue/pinia.md
+        - Charger json ds store Pinia: 582-511-web5/vue/pinia-load-data-json.md"
         
       - Fetch API:
         - 582-511-web5/fetch.md

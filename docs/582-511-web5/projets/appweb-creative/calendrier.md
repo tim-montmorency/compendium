@@ -87,23 +87,50 @@
 
 ### Mémoires interactives
 
-- Formulaires d'ajout/édition
-- CRUD des mémoires (CRUD: Create, Read, Update, Delete)
-- Upload et gestion d'images
-- Filtres et recherche
-- Validation des données
+- Ajouts/éditions de mémoires
+  - Création des formulaires d'ajout/édition
+  - CRUD des mémoires (CRUD: Create, Read, Update, Delete)
+  - Validation des données entrées dans les formulaires
+  - Upload et gestion d'images
+
+- Implémentation des filtres et de la recherche
+  - Filtre par tag
+  - Filtre par 
+  - Recherche
 
 ### Trace ton chemin
 
-- Système de tracking des conséquences
+- Système de tracking des conséquences (minimum un des 4 systèmes listés ci-dessous)
+  - Système de flags (événements déclenchés)
+  - Karma/statistiques
+  - Inventaire
+  - Relations avec personnages
+
+- Logique des fins implémentée (conditions d'accès à la fin)
+
+- Implémentation de l'historique des décisions du joueur
+  - Enregistrement de chaque décision
+  - Affichage dans un menu (optionnel)
 
 ## ❌ ANNULÉ ~~PHASE 4: ANIMATIONS GSAP~~
 
 Vous pouvez le faire et je vous encourage à l'explorer mais ce n'est plus exigé.
 
-- ~~Intégration GSAP~~
-- ~~Transitions entre pages~~
-- ~~Sons d'ambiance (optionnel)~~
+*Mémoires interactives*
+
+- ❌Animations de transitions:
+  - ❌Transitions entre pages (Vue Router)
+  - ❌Animations d'apparition des cartes
+  - ❌Hover effects sur les éléments interactifs
+  - ❌Caroussel animé des cartes-mémoires
+
+*Trace ton chemin*
+
+- ❌Animations de texte
+  - ❌Effet d'apparition progressive (style dactylo typewriter) (optionnel)
+  - ❌Fade in des paragraphes
+  - ❌Animations des dialogues
+- ❌Transitions entre chapitres
 
 
 
