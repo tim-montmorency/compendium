@@ -1,324 +1,174 @@
-# CRUD des mémoires
+## CRUD des Mémoires - Explication en Pseudo-code
 
 ## 📝 Formulaires d'ajout/édition
 
 ### Composant de base : `MemoryForm.vue`
 
-```vue
-<template>
-  <form @submit.prevent="handleSubmit" class="memory-form">
-    <h2>{{ isEditing ? 'Modifier' : 'Ajouter' }} une mémoire</h2>
-    
-    <!-- Titre -->
-    <div class="form-group">
-      <label for="title">Titre *</label>
-      <input 
-        id="title"
-        v-model="formData.title" 
-        type="text"
-        required
-        placeholder="Ex: Mon premier vélo"
-      >
-      <span v-if="errors.title" class="error">{{ errors.title }}</span>
-    </div>
-    
-    <!-- Description -->
-    <div class="form-group">
-      <label for="description">Description *</label>
-      <textarea 
-        id="description"
-        v-model="formData.description"
-        required
-        rows="5"
-        placeholder="Racontez votre souvenir..."
-      ></textarea>
-    </div>
-    
-    <!-- Date -->
-    <div class="form-group">
-      <label for="date">Date</label>
-      <input 
-        id="date"
-        v-model="formData.date" 
-        type="date"
-      >
-    </div>
-    
-    <!-- Upload image -->
-    <div class="form-group">
-      <label for="image">Photo</label>
-      <input 
-        id="image"
-        type="file" 
-        accept="image/*"
-        @change="handleImageUpload"
-      >
-      <img v-if="formData.imagePreview" :src="formData.imagePreview" class="preview">
-    </div>
-    
-    <!-- Tags -->
-    <div class="form-group">
-      <label>Tags</label>
-      <div class="tag-selector">
-        <label v-for="tag in availableTags" :key="tag">
-          <input 
-            type="checkbox" 
-            :value="tag"
-            v-model="formData.tags"
-          >
-          {{ tag }}
-        </label>
-      </div>
-    </div>
-    
-    <!-- Boutons -->
-    <div class="form-actions">
-      <button type="button" @click="cancel" class="btn-cancel">
-        Annuler
-      </button>
-      <button type="submit" class="btn-submit">
-        {{ isEditing ? 'Modifier' : 'Ajouter' }}
-      </button>
-    </div>
-  </form>
-</template>
+```
+COMPOSANT MemoryForm
 
-<script>
-import { useMemoryStore } from '@/stores/memoryStore';
-
-export default {
-  name: 'MemoryForm',
+  PROPS:
+    - memory (optionnel) : si présent = mode édition, sinon = mode ajout
+    - roomId (obligatoire) : ID de la salle où ajouter la mémoire
   
-  props: {
-    // Si on édite, on reçoit la mémoire existante
-    memory: {
-      type: Object,
-      default: null
-    },
-    roomId: {
-      type: String,
-      required: true
-    }
-  },
-  
-  data() {
-    return {
-      formData: {
-        title: '',
-        description: '',
-        date: '',
-        image: null,
-        imagePreview: null,
-        tags: []
-      },
-      errors: {},
-      availableTags: ['Famille', 'Amis', 'Voyage', 'Enfance', 'Cadeau']
-    };
-  },
-  
-  computed: {
-    isEditing() {
-      return this.memory !== null;
-    }
-  },
-  
-  created() {
-    // Si on édite, pré-remplir le formulaire
-    if (this.isEditing) {
-      this.formData = { ...this.memory };
-    }
-  },
-  
-  methods: {
-    handleImageUpload(event) {
-      const file = event.target.files[0];
-      
-      // Validation taille (max 2MB)
-      if (file.size > 2 * 1024 * 1024) {
-        alert('Image trop grande (max 2MB)');
-        return;
-      }
-      
-      // Convertir en base64 pour localStorage
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        this.formData.image = e.target.result;
-        this.formData.imagePreview = e.target.result;
-      };
-      reader.readAsDataURL(file);
-    },
+  DONNÉES:
+    - formData:
+        * titre (texte)
+        * description (texte long)
+        * date (date)
+        * image (fichier)
+        * imagePreview (URL pour affichage)
+        * tags (liste de tags sélectionnés)
     
-    validateForm() {
-      this.errors = {};
-      
-      if (!this.formData.title.trim()) {
-        this.errors.title = 'Le titre est obligatoire';
-      }
-      
-      if (!this.formData.description.trim()) {
-        this.errors.description = 'La description est obligatoire';
-      }
-      
-      return Object.keys(this.errors).length === 0;
-    },
+    - errors (objet pour stocker les erreurs de validation)
+    - availableTags (liste des tags prédéfinis)
+  
+  CALCULS:
+    - isEditing:
+        SI memory existe ALORS mode édition
+        SINON mode ajout
+  
+  AU CHARGEMENT:
+    SI mode édition:
+      Pré-remplir formData avec les données de memory
+  
+  MÉTHODES:
+  
+    handleImageUpload(fichier):
+      1. Récupérer le fichier uploadé
+      2. Vérifier la taille (max 2MB)
+         SI trop grand:
+           Afficher erreur "Image trop grande"
+           Arrêter
+      3. Convertir le fichier en base64 (pour localStorage)
+      4. Stocker dans formData.image et formData.imagePreview
     
-    handleSubmit() {
-      if (!this.validateForm()) {
-        return;
-      }
-      
-      const memoryStore = useMemoryStore();
-      
-      if (this.isEditing) {
-        // UPDATE
-        memoryStore.updateMemory(this.memory.id, this.formData);
-      } else {
-        // CREATE
-        memoryStore.addMemory(this.roomId, this.formData);
-      }
-      
-      // Émettre un événement pour fermer le formulaire
-      this.$emit('saved');
-    },
+    validateForm():
+      1. Réinitialiser errors
+      2. SI titre est vide:
+           Ajouter erreur "Le titre est obligatoire"
+      3. SI description est vide:
+           Ajouter erreur "La description est obligatoire"
+      4. RETOURNER vrai si aucune erreur, sinon faux
     
-    cancel() {
-      this.$emit('cancel');
-    }
-  }
-};
-</script>
-
-<style scoped>
-
-</style>
+    handleSubmit():
+      1. Valider le formulaire
+         SI non valide:
+           Arrêter
+      
+      2. Récupérer le store des mémoires
+      
+      3. SI mode édition:
+           Appeler store.updateMemory(idMémoire, formData)
+         SINON:
+           Appeler store.addMemory(roomId, formData)
+      
+      4. Émettre événement "saved" pour fermer le formulaire
+    
+    cancel():
+      Émettre événement "cancel"
+  
+  TEMPLATE:
+    Formulaire avec:
+      - Champ titre (texte, obligatoire)
+      - Champ description (textarea, obligatoire)
+      - Champ date (sélecteur de date)
+      - Upload image avec preview
+      - Sélection multiple de tags (checkboxes)
+      - Boutons "Annuler" et "Ajouter/Modifier"
 ```
 
 
-## 🔄 CRUD Complet dans le Store Pinia
+
+## CRUD Complet dans le Store Pinia
 
 ### `stores/memoryStore.js`
+```
+STORE memoryStore
 
-```javascript
-import { defineStore } from 'pinia';
-
-export const useMemoryStore = defineStore('memory', {
-  state: () => ({
-    rooms: [
-      {
-        id: 'room-1',
-        name: 'Enfance',
-        color: '#FFB6C1',
-        memories: []
-      },
-      {
-        id: 'room-2',
-        name: 'Voyages',
-        color: '#87CEEB',
-        memories: []
-      }
-    ]
-  }),
+  ÉTAT:
+    - rooms (liste de salles):
+        * Chaque salle contient:
+          - id (identifiant unique)
+          - name (nom de la salle)
+          - color (couleur thématique)
+          - memories (liste des mémoires dans cette salle)
   
-  getters: {
-    // Obtenir toutes les mémoires d'une salle
-    getMemoriesByRoom: (state) => (roomId) => {
-      const room = state.rooms.find(r => r.id === roomId);
-      return room ? room.memories : [];
-    },
-    
-    // Obtenir UNE mémoire spécifique
-    getMemoryById: (state) => (memoryId) => {
-      for (const room of state.rooms) {
-        const memory = room.memories.find(m => m.id === memoryId);
-        if (memory) return memory;
-      }
-      return null;
-    }
-  },
+  GETTERS (fonctions de lecture):
   
-  actions: {
-    // ✅ CREATE - Ajouter une mémoire
-    addMemory(roomId, memoryData) {
-      const room = this.rooms.find(r => r.id === roomId);
-      
-      if (!room) {
-        console.error('Salle introuvable');
-        return;
-      }
-      
-      const newMemory = {
-        id: `mem-${Date.now()}`, // ID unique
-        ...memoryData,
-        createdAt: new Date().toISOString()
-      };
-      
-      room.memories.push(newMemory);
-      
-      // Sauvegarder dans localStorage
-      this.saveToLocalStorage();
-    },
+    getMemoriesByRoom(roomId):
+      1. Chercher la salle avec cet ID
+      2. SI trouvée:
+           RETOURNER sa liste de memories
+         SINON:
+           RETOURNER liste vide
     
-    // 📖 READ - Obtenu via les getters ci-dessus
-    
-    // ✏️ UPDATE - Modifier une mémoire
-    updateMemory(memoryId, updates) {
-      for (const room of this.rooms) {
-        const memoryIndex = room.memories.findIndex(m => m.id === memoryId);
-        
-        if (memoryIndex !== -1) {
-          // Fusionner les anciennes données avec les nouvelles
-          room.memories[memoryIndex] = {
-            ...room.memories[memoryIndex],
-            ...updates,
-            updatedAt: new Date().toISOString()
-          };
-          
-          this.saveToLocalStorage();
-          return;
-        }
-      }
+    getMemoryById(memoryId):
+      1. POUR chaque salle:
+           POUR chaque mémoire dans la salle:
+             SI mémoire.id == memoryId:
+               RETOURNER cette mémoire
+      2. SI rien trouvé:
+           RETOURNER null
+  
+  ACTIONS (fonctions de modification):
+  
+    ✅ CREATE - addMemory(roomId, memoryData):
+      1. Trouver la salle avec roomId
+         SI salle introuvable:
+           Afficher erreur console
+           Arrêter
       
-      console.error('Mémoire introuvable');
-    },
-    
-    // 🗑️ DELETE - Supprimer une mémoire
-    deleteMemory(memoryId) {
-      for (const room of this.rooms) {
-        const memoryIndex = room.memories.findIndex(m => m.id === memoryId);
-        
-        if (memoryIndex !== -1) {
-          room.memories.splice(memoryIndex, 1);
-          this.saveToLocalStorage();
-          return true;
-        }
-      }
+      2. Créer nouvelle mémoire:
+         - Générer ID unique (timestamp actuel)
+         - Copier toutes les données de memoryData
+         - Ajouter date de création
       
-      return false;
-    },
+      3. Ajouter la mémoire à room.memories
+      
+      4. Sauvegarder tout dans localStorage
     
-    // 💾 Sauvegarder dans localStorage
-    saveToLocalStorage() {
-      try {
-        const data = JSON.stringify(this.rooms);
-        localStorage.setItem('museum-data', data);
-      } catch (error) {
-        console.error('Erreur de sauvegarde:', error);
-      }
-    },
+    📖 READ - Pas d'action, utiliser les getters
     
-    // 📥 Charger depuis localStorage
-    loadFromLocalStorage() {
-      try {
-        const data = localStorage.getItem('museum-data');
-        if (data) {
-          this.rooms = JSON.parse(data);
-        }
-      } catch (error) {
-        console.error('Erreur de chargement:', error);
-      }
-    }
-  }
-});
+    ✏️ UPDATE - updateMemory(memoryId, updates):
+      1. POUR chaque salle:
+           Chercher l'index de la mémoire avec memoryId
+           SI trouvée:
+             a. Fusionner anciennes données + nouvelles données
+             b. Ajouter date de modification
+             c. Remplacer la mémoire à cet index
+             d. Sauvegarder dans localStorage
+             e. Terminer
+      
+      2. SI rien trouvé:
+           Afficher erreur console
+    
+    🗑️ DELETE - deleteMemory(memoryId):
+      1. POUR chaque salle:
+           Chercher l'index de la mémoire avec memoryId
+           SI trouvée:
+             a. Supprimer la mémoire à cet index
+             b. Sauvegarder dans localStorage
+             c. RETOURNER vrai
+      
+      2. SI rien trouvé:
+           RETOURNER faux
+    
+    💾 saveToLocalStorage():
+      1. Convertir rooms en texte JSON
+      2. ESSAYER:
+           Sauvegarder dans localStorage avec clé "museum-data"
+         EN CAS D'ERREUR:
+           Afficher erreur console
+    
+    📥 loadFromLocalStorage():
+      1. ESSAYER:
+           Récupérer données de localStorage avec clé "museum-data"
+           SI données existent:
+             Convertir de JSON vers objet
+             Remplacer rooms par ces données
+         EN CAS D'ERREUR:
+           Afficher erreur console
 ```
 
 
@@ -326,125 +176,208 @@ export const useMemoryStore = defineStore('memory', {
 
 ### Exemple : `RoomView.vue` (Afficher et supprimer)
 
-```vue
-<template>
-  <div class="room-view">
-    <h1>{{ currentRoom.name }}</h1>
-    
-    <!-- Bouton ajouter -->
-    <button @click="showAddForm = true" class="btn-add">
-      + Ajouter une mémoire
-    </button>
-    
-    <!-- Liste des mémoires -->
-    <div class="memories-grid">
-      <div 
-        v-for="memory in memories" 
-        :key="memory.id"
-        class="memory-card"
-      >
-        <img v-if="memory.image" :src="memory.image" alt="">
-        <h3>{{ memory.title }}</h3>
-        <p>{{ memory.description }}</p>
-        <p class="date">{{ memory.date }}</p>
-        
-        <div class="actions">
-          <button @click="editMemory(memory)">✏️ Modifier</button>
-          <button @click="confirmDelete(memory.id)">🗑️ Supprimer</button>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Modal formulaire -->
-    <Modal v-model="showAddForm">
-      <MemoryForm 
-        :room-id="roomId"
-        :memory="memoryToEdit"
-        @saved="handleSaved"
-        @cancel="closeForm"
-      />
-    </Modal>
-  </div>
-</template>
+```
+COMPOSANT RoomView
 
-<script>
-import { useMemoryStore } from '@/stores/memoryStore';
-import { mapStores } from 'pinia';
-import MemoryForm from '@/components/MemoryForm.vue';
-import Modal from '@/components/ui/Modal.vue';
-
-export default {
-  name: 'RoomView',
+  DONNÉES:
+    - roomId (ID de la salle actuelle)
+    - showAddForm (booléen : modal ouvert ou fermé)
+    - memoryToEdit (mémoire en cours d'édition ou null)
   
-  components: {
-    MemoryForm,
-    Modal
-  },
+  CALCULS:
+    - currentRoom:
+        Chercher la salle avec roomId dans le store
+    
+    - memories:
+        Obtenir toutes les mémoires de roomId depuis le store
   
-  data() {
-    return {
-      roomId: null,
-      showAddForm: false,
-      memoryToEdit: null
-    };
-  },
+  AU CHARGEMENT:
+    1. Récupérer roomId depuis l'URL
+    2. Charger les données du localStorage
   
-  computed: {
-    ...mapStores(useMemoryStore),
-    
-    currentRoom() {
-      return this.memoryStore.rooms.find(r => r.id === this.roomId) || {};
-    },
-    
-    memories() {
-      return this.memoryStore.getMemoriesByRoom(this.roomId);
-    }
-  },
+  MÉTHODES:
   
-  created() {
-    this.roomId = this.$route.params.id;
-    // Charger les données au démarrage
-    this.memoryStore.loadFromLocalStorage();
-  },
+    editMemory(memory):
+      1. Stocker memory dans memoryToEdit
+      2. Ouvrir le modal (showAddForm = vrai)
+    
+    confirmDelete(memoryId):
+      1. Demander confirmation "Supprimer cette mémoire ?"
+      2. SI utilisateur confirme:
+           Appeler store.deleteMemory(memoryId)
+    
+    handleSaved():
+      Fermer le formulaire
+    
+    closeForm():
+      1. Fermer le modal (showAddForm = faux)
+      2. Réinitialiser memoryToEdit à null
   
-  methods: {
-    editMemory(memory) {
-      this.memoryToEdit = memory;
-      this.showAddForm = true;
-    },
-    
-    confirmDelete(memoryId) {
-      if (confirm('Supprimer cette mémoire ?')) {
-        this.memoryStore.deleteMemory(memoryId);
-      }
-    },
-    
-    handleSaved() {
-      this.closeForm();
-    },
-    
-    closeForm() {
-      this.showAddForm = false;
-      this.memoryToEdit = null;
-    }
-  }
-};
-</script>
+  TEMPLATE:
+    Vue de la salle avec:
+      - Titre de la salle
+      - Bouton "+ Ajouter une mémoire"
+      - Grille de cartes mémoires:
+          POUR chaque mémoire:
+            * Image (si existe)
+            * Titre
+            * Description
+            * Date
+            * Bouton "Modifier"
+            * Bouton "Supprimer"
+      - Modal avec formulaire (visible si showAddForm = vrai)
 ```
 
-## 📋 Résumé CRUD
 
-| Action | Méthode | Déclencheur |
-|--------|---------|-------------|
-| **Create** | `addMemory()` | Formulaire soumis (mode ajout) |
-| **Read** | `getMemoriesByRoom()` | Chargement de la page |
-| **Update** | `updateMemory()` | Formulaire soumis (mode édition) |
-| **Delete** | `deleteMemory()` | Clic sur bouton Supprimer |
+## 📋 Flux CRUD complet
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    FLUX D'AJOUT (CREATE)                    │
+└─────────────────────────────────────────────────────────────┘
 
-**Points clés :**
+1. Utilisateur clique "Ajouter une mémoire"
+   ↓
+2. Modal s'ouvre avec formulaire vide
+   ↓
+3. Utilisateur remplit les champs
+   ↓
+4. Utilisateur clique "Ajouter"
+   ↓
+5. Validation du formulaire
+   SI valide:
+     ↓
+   6. Appel store.addMemory(roomId, formData)
+      ↓
+   7. Store crée nouvelle mémoire avec ID unique
+      ↓
+   8. Store l'ajoute au tableau memories de la salle
+      ↓
+   9. Store sauvegarde dans localStorage
+      ↓
+   10. Événement "saved" émis
+       ↓
+   11. Modal se ferme
+       ↓
+   12. Liste des mémoires se met à jour automatiquement
 
-- ✅ Toujours valider les données avant d'enregistrer
-- ✅ Sauvegarder dans localStorage après chaque modification
-- ✅ Utiliser des IDs uniques (timestamp ou UUID)
-- ✅ Confirmer avant de supprimer
-- ✅ Afficher des messages de succès/erreur
+
+┌─────────────────────────────────────────────────────────────┐
+│                   FLUX DE LECTURE (READ)                    │
+└─────────────────────────────────────────────────────────────┘
+
+1. Utilisateur arrive sur la page d'une salle
+   ↓
+2. Composant charge les données du localStorage
+   ↓
+3. Getter store.getMemoriesByRoom(roomId) est appelé
+   ↓
+4. Retourne toutes les mémoires de cette salle
+   ↓
+5. Vue affiche les cartes de mémoires
+
+
+┌─────────────────────────────────────────────────────────────┐
+│                 FLUX DE MODIFICATION (UPDATE)               │
+└─────────────────────────────────────────────────────────────┘
+
+1. Utilisateur clique "Modifier" sur une mémoire
+   ↓
+2. Modal s'ouvre avec formulaire pré-rempli
+   ↓
+3. Utilisateur modifie des champs
+   ↓
+4. Utilisateur clique "Modifier"
+   ↓
+5. Validation du formulaire
+   SI valide:
+     ↓
+   6. Appel store.updateMemory(memoryId, formData)
+      ↓
+   7. Store trouve la mémoire avec cet ID
+      ↓
+   8. Store fusionne anciennes + nouvelles données
+      ↓
+   9. Store sauvegarde dans localStorage
+      ↓
+   10. Modal se ferme
+       ↓
+   11. Carte de mémoire se met à jour automatiquement
+
+
+┌─────────────────────────────────────────────────────────────┐
+│                 FLUX DE SUPPRESSION (DELETE)                │
+└─────────────────────────────────────────────────────────────┘
+
+1. Utilisateur clique "Supprimer" sur une mémoire
+   ↓
+2. Popup de confirmation apparaît
+   ↓
+3. SI utilisateur confirme:
+      ↓
+   4. Appel store.deleteMemory(memoryId)
+      ↓
+   5. Store trouve la mémoire avec cet ID
+      ↓
+   6. Store la supprime du tableau
+      ↓
+   7. Store sauvegarde dans localStorage
+      ↓
+   8. Carte disparaît de la vue automatiquement
+```
+
+
+## 📊 Structure de données simplifiée
+```
+STRUCTURE localStorage:
+
+{
+  "museum-data": [
+    {
+      id: "room-1",
+      name: "Enfance",
+      memories: [
+        {
+          id: "mem-123456789",
+          title: "Mon premier vélo",
+          description: "Un vélo rouge...",
+          date: "1995-06-15",
+          image: "data:image/jpeg;base64,/9j/4AAQ...",
+          tags: ["enfance", "cadeau"],
+          createdAt: "2025-11-18T10:30:00Z"
+        },
+        {
+          id: "mem-123456790",
+          title: "Anniversaire 8 ans",
+          ...
+        }
+      ]
+    },
+    {
+      id: "room-2",
+      name: "Voyages",
+      memories: [...]
+    }
+  ]
+}
+```
+
+
+
+## ✅ Points clés résumés
+```
+VALIDATION:
+  AVANT d'enregistrer → Vérifier que les champs obligatoires sont remplis
+  
+IDENTIFIANTS UNIQUES:
+  Utiliser Date.now() ou UUID pour générer des IDs
+  
+PERSISTANCE:
+  APRÈS chaque CREATE/UPDATE/DELETE → Sauvegarder dans localStorage
+  AU CHARGEMENT de l'app → Charger depuis localStorage
+  
+CONFIRMATION:
+  AVANT de supprimer → Demander confirmation utilisateur
+  
+RÉACTIVITÉ:
+  Pinia met à jour automatiquement toutes les vues qui utilisent les données
+```
