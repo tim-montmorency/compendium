@@ -105,10 +105,10 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 - Système de tracking des conséquences (minimum un des 4 systèmes listés ci-dessous)
 
-  - 1. Système de flags (événements déclenchés)
-  - 2. Karma/statistiques
-  - 3. Inventaire
-  - 4. Relations avec personnages
+  1. Système de flags (événements déclenchés)
+  2. Karma/statistiques
+  3. Inventaire
+  4. Relations avec personnages
 
 
 #### Prochain cours
