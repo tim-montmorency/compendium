@@ -184,6 +184,10 @@ if (stats.intelligence >= 10) → Fin du Sage
 
 
 
+## Exemple concret complet
+
+Un exemple complet concret du système de conséquence peut-être fourni sur demande. Demandez à Marie-Michelle.
+
 <!-- 
 
 ## 💡 Exemple concret complet
