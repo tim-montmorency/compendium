@@ -139,7 +139,6 @@ if (stats.intelligence >= 10) → Fin du Sage
 ```
 
 
-## 💡 Exemple concret (à venir...)
 
 <!-- 
 
