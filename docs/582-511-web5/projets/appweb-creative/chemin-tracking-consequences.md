@@ -24,14 +24,21 @@ Minimum 1 des 4 systèmes listés ci-dessous:
 
 Chaque choix donne des points positifs ou négatifs.
 
+`src/stores/player.js`
+
 ```javascript
 // Dans Pinia store
 state: () => ({
   karma: 0  // De -10 à +10
 })
+```
 
-// Exemple de choix dans votre json
-choices: 
+Exemple de choix dans votre json
+
+`src/data/chapters.json`
+
+```
+
 [
   {
     text: "Sauver le chat coincé dans l'arbre",
@@ -45,7 +52,11 @@ choices:
   }
 ]
 
+```
+
 // À la fin, on vérifie:
+
+```
 if (karma >= 5) → Fin Héroïque
 if (karma <= -5) → Fin Sombre
 ```
@@ -56,6 +67,8 @@ if (karma <= -5) → Fin Sombre
 
 Des variables "vrai/faux" qui trackent si un événement est arrivé.
 
+`src/stores/player.js`
+
 ```javascript
 state: () => ({
   flags: {
@@ -64,8 +77,14 @@ state: () => ({
     savedFriend: false
   }
 })
+```` 
 
-// Au chapitre 2, si le joueur choisit "Parler au vieil homme":
+Au chapitre 2, si le joueur choisit "Parler au vieil homme":
+
+
+`src/data/chapters.json`
+
+```json
 {
   text: "Parler au vieil homme",
   effects: {
@@ -73,8 +92,11 @@ state: () => ({
   },
   nextChapter: "ch-3a"
 }
+```
 
-// Plus tard, au chapitre 6:
+Plus tard, au chapitre 6:
+
+```javascript
 // Ce choix apparaît SEULEMENT si hasMetMentor = true
 if (playerStore.flags.hasMetMentor) {
   choices.push({
@@ -89,19 +111,29 @@ if (playerStore.flags.hasMetMentor) {
 
 Le joueur ramasse des objets qui débloquent des options.
 
+`src/stores/player.js`
+
 ```javascript
 state: () => ({
   inventory: []  // Liste vide au début
 })
+``
 
-// Chapitre 3 - Choix:
+Chapitre 3 - Choix:`
+
+`src/data/chapters.json`
+
+```json
 {
   text: "Prendre la clé rouillée",
   effects: {
     inventory: { add: 'clé-rouillée' }
   }
 }
+```
 
+
+```javascript
 // Dans la méthode de navigation vers la route du prochain chapitre
 if (playerStore.hasItem('clé-rouillée')) {
   // Peut ouvrir la porte
@@ -115,6 +147,8 @@ if (playerStore.hasItem('clé-rouillée')) {
 ### 4️⃣ **Statistiques du personnage**
 
 Des caractéristiques qui augmentent selon les choix.
+
+`src/stores/player.js`
 
 ```javascript
 state: () => ({
