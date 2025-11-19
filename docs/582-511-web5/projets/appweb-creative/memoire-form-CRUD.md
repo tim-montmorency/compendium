@@ -8,11 +8,14 @@
 COMPOSANT `MemoryForm`
 
   PROPS `props` :
+
     - memory (optionnel) : si présent = mode édition, sinon = mode ajout
     - roomId (obligatoire) : ID de la salle où ajouter la mémoire
   
   DONNÉES `data()` :
+
     - formData un objet { } qui contient ces propriété:
+
         * title (texte)
         * description (texte long)
         * date (date)
@@ -24,25 +27,30 @@ COMPOSANT `MemoryForm`
     - availableTags (liste [ ] des tags prédéfinis)
   
   PROPRIÉTÉ CALCULÉE `computed` :
+
     - isEditing:
         SI memory existe ALORS mode édition donc retourne `true`
         SINON mode mode ajout donc retourne `false`
   
-  AU CHARGEMENT `created`()` : 
+  AU CHARGEMENT `created`()` :
+
     SI mode édition `isEditing` est vrai
       Pré-remplir `formData` avec les données de memory
   
-  MÉTHODES:
-    handleImageUpload(event):
-      1. Récupérer le fichier uploadé: const file = event.target.files[0];
+  MÉTHODES `methods` :
+
+    `handleImageUpload(event)`
+
+      1. Récupérer le fichier uploadé: `const file = event.target.files[0];`
       2. Vérifier la taille (max 2MB)
-         SI trop grand:
-           Afficher erreur "Image trop grande"
-           Arrêter (return)
+        SI trop grand:
+          Afficher erreur "Image trop grande"
+          Arrêter (return)
 
       3. Convertir le fichier en base64 (pour localStorage)
       4. Stocker dans formData.image et formData.imagePreview
 
+      ```
       // Convertir en base64 pour localStorage et stocker (3 et 4)
       const reader = new FileReader();
       reader.onload = (e) => {
@@ -50,8 +58,10 @@ COMPOSANT `MemoryForm`
         this.formData.imagePreview = e.target.result;
       };
       reader.readAsDataURL(file);
+      ```
 
-    validateForm():
+    `validateForm()`
+
       1. Réinitialiser l'objet errors à un objet vide { }
       2. SI titre est vide:
            Ajouter erreur "Le titre est obligatoire"
@@ -59,7 +69,8 @@ COMPOSANT `MemoryForm`
            Ajouter erreur "La description est obligatoire"
       4. RETOURNER vrai si aucune erreur, sinon faux
     
-    handleSubmit():
+    `handleSubmit()`
+
       1. Valider le formulaire
          SI non valide:
            Arrêter (return)
@@ -73,11 +84,15 @@ COMPOSANT `MemoryForm`
       
       4. Émettre (emit) événement "saved" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
     
-    cancel():
+    `cancel()`
+
       Émettre (emit) un événement "cancel" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
   
+
   TEMPLATE:
+
     Formulaire avec:
+
       - Champ titre (texte, obligatoire)
       - Champ description (textarea, obligatoire)
       - Champ date (sélecteur de date)
@@ -95,8 +110,11 @@ COMPOSANT `MemoryForm`
 STORE memoryStore
 
   ÉTAT (state):
+
     - rooms (liste de salles [ ]):
+
         * Chaque salle contient:
+
           - id (identifiant unique)
           - name (nom de la salle)
           - color (couleur thématique) (optionnel)
@@ -106,6 +124,7 @@ STORE memoryStore
   GETTERS (fonctions de lecture):
   
     getMemoriesByRoom(roomId):
+
       1. Chercher la salle avec cet ID
       2. SI trouvée:
            RETOURNER sa liste de memories
@@ -113,6 +132,7 @@ STORE memoryStore
            RETOURNER liste vide
     
     getMemoryById(memoryId):
+
       1. POUR chaque salle:
            POUR chaque mémoire dans la salle:
              SI mémoire.id == memoryId:
@@ -123,54 +143,64 @@ STORE memoryStore
   ACTIONS (fonctions de modification):
   
     ✅ CREATE - addMemory(roomId, memoryData):
+
       1. Trouver la salle avec roomId
-         SI salle introuvable:
-           Afficher erreur console
-           Arrêter (return)
+        SI salle introuvable:
+          Afficher erreur console
+          Arrêter (return)
       
       2. Créer nouvelle mémoire:
-         - Générer ID unique (timestamp actuel)
-         - Copier toutes les données de memoryData
-         - Ajouter date de création
+        - Générer ID unique (timestamp actuel)
+        - Copier toutes les données de memoryData
+        - Ajouter date de création
       
       3. Ajouter la mémoire à room.memories
       
-      4. Sauvegarder tout dans localStorage
+      4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
     
     📖 READ - Pas d'action, utiliser les getters
     
     ✏️ UPDATE - updateMemory(memoryId, updates):
+
       1. POUR chaque salle:
-           Chercher l'index de la mémoire avec memoryId
-           SI trouvée:
-             a. Fusionner anciennes données + nouvelles données
-             b. Ajouter date de modification
-             c. Remplacer la mémoire à cet index
-             d. Sauvegarder dans localStorage
-             e. Terminer
+
+          Chercher l'index de la mémoire avec memoryId
+
+          SI trouvée:
+
+            a. Fusionner anciennes données + nouvelles données
+            b. Ajouter date de modification
+            c. Remplacer la mémoire à cet index
+            d. Sauvegarder dans localStorage (*OPTIONNEL POUR LE MOMENT*)
+            e. Terminer
       
       2. SI rien trouvé:
+
            Afficher erreur console
     
     🗑️ DELETE - deleteMemory(memoryId):
+
       1. POUR chaque salle:
-           Chercher l'index de la mémoire avec memoryId
-           SI trouvée:
-             a. Supprimer la mémoire à cet index
-             b. Sauvegarder dans localStorage
-             c. RETOURNER vrai
+
+          Chercher l'index de la mémoire avec memoryId
+
+          SI trouvée:
+            a. Supprimer la mémoire à cet index
+            b. Sauvegarder dans localStorage
+            c. RETOURNER vrai
       
       2. SI rien trouvé:
-           RETOURNER faux
+          RETOURNER faux
     
-    💾 saveToLocalStorage():
+    💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+
       1. Convertir rooms en texte JSON
       2. ESSAYER:
            Sauvegarder dans localStorage avec clé "museum-data"
          EN CAS D'ERREUR:
            Afficher erreur console
     
-    📥 loadFromLocalStorage():
+    📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
       1. ESSAYER:
            Récupérer données de localStorage avec clé "museum-data"
            SI données existent:
@@ -188,53 +218,64 @@ STORE memoryStore
 
 COMPOSANT RoomView
 
-  DONNÉES:
+  DONNÉES `data()` :
+
     - roomId (ID de la salle actuelle)
     - showAddForm (booléen : modal ouvert ou fermé)
     - memoryToEdit (mémoire en cours d'édition ou null)
   
-  CALCULS:
+  PROPRIÉTÉ CALCULÉE `computed` :
+
     - currentRoom:
         Chercher la salle avec roomId dans le store
     
     - memories:
         Obtenir toutes les mémoires de roomId depuis le store
   
-  AU CHARGEMENT:
+  AU CHARGEMENT `created`()` :
+
     1. Récupérer roomId depuis l'URL
     2. Charger les données du localStorage
   
-  MÉTHODES:
+  MMÉTHODES `methods` :
   
-    editMemory(memory):
+    `editMemory(memory)`
+
       1. Stocker memory dans memoryToEdit
       2. Ouvrir le modal (showAddForm = vrai)
     
-    confirmDelete(memoryId):
+    `confirmDelete(memoryId)`
+
       1. Demander confirmation "Supprimer cette mémoire ?"
       2. SI utilisateur confirme:
            Appeler store.deleteMemory(memoryId)
     
-    handleSaved():
+    `handleSaved()`
+
       Fermer le formulaire
     
-    closeForm():
+    `closeForm()`
+
       1. Fermer le modal (showAddForm = faux)
       2. Réinitialiser memoryToEdit à null
   
   TEMPLATE:
-    Vue de la salle avec:
-      - Titre de la salle
-      - Bouton "+ Ajouter une mémoire"
-      - Grille de cartes mémoires:
-          POUR chaque mémoire:
-            * Image (si existe)
-            * Titre
-            * Description
-            * Date
-            * Bouton "Modifier"
-            * Bouton "Supprimer"
-      - Modal avec formulaire (visible si showAddForm = vrai)
+
+  Vue de la salle avec:
+
+    - Titre de la salle
+    - Bouton "+ Ajouter une mémoire"
+    - Grille de cartes mémoires:
+
+        POUR chaque mémoire:
+          * Image (si existe)
+          * Titre
+          * Description
+          * Date
+          * Bouton "Modifier"
+          * Bouton "Supprimer"
+
+    - Modal avec formulaire (visible si showAddForm = vrai)
 
 
 
@@ -306,7 +347,7 @@ COMPOSANT RoomView
       ↓
    8. Store fusionne anciennes + nouvelles données
       ↓
-   9. Store sauvegarde dans localStorage
+   9. Store sauvegarde dans localStorage (*OPTIONNEL POUR LE MOMENT*)
       ↓
    10. Modal se ferme
        ↓
@@ -329,13 +370,16 @@ COMPOSANT RoomView
       ↓
    6. Store la supprime du tableau
       ↓
-   7. Store sauvegarde dans localStorage
+   7. Store sauvegarde dans localStorage (*OPTIONNEL POUR LE MOMENT*)
       ↓
    8. Carte disparaît de la vue automatiquement
 
 
 
-## 📊 Structure de données simplifiée
+## 📊 Structure de données simplifiée pour le LocalStorage
+
+*OPTIONNEL POUR LE MOMENT*
+
 ```
 STRUCTURE localStorage:
 
@@ -375,17 +419,22 @@ STRUCTURE localStorage:
 ## ✅ Points clés résumés
 
 VALIDATION:
-  AVANT d'enregistrer → Vérifier que les champs obligatoires sont remplis
+
+- AVANT d'enregistrer → Vérifier que les champs obligatoires sont remplis
   
 IDENTIFIANTS UNIQUES:
-  Utiliser Date.now() ou UUID pour générer des IDs
+
+- Utiliser Date.now() ou UUID pour générer des IDs
   
-PERSISTANCE:
-  APRÈS chaque CREATE/UPDATE/DELETE → Sauvegarder dans localStorage
-  AU CHARGEMENT de l'app → Charger depuis localStorage
+PERSISTANCE (*OPTIONNEL POUR LE MOMENT*)
+
+- APRÈS chaque CREATE/UPDATE/DELETE → Sauvegarder dans localStorage
+- AU CHARGEMENT de l'app → Charger depuis localStorage
   
 CONFIRMATION:
-  AVANT de supprimer → Demander confirmation utilisateur
+
+- AVANT de supprimer → Demander confirmation utilisateur
   
 RÉACTIVITÉ:
-  Pinia met à jour automatiquement toutes les vues qui utilisent les données
+
+- Pinia met à jour automatiquement toutes les vues qui utilisent les données
