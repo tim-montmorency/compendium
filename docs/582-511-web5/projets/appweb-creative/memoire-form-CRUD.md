@@ -286,9 +286,9 @@ COMPOSANT `RoomView`
 
 ## 📋 Flux CRUD complet
 
-┌───────────────────────────────────────────────────────┐
-│                 FLUX D'AJOUT (CREATE)                 │
-└───────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│               FLUX D'AJOUT (CREATE)                │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur clique "Ajouter une mémoire"
    ↓
@@ -316,9 +316,9 @@ COMPOSANT `RoomView`
    12. Liste des mémoires se met à jour automatiquement
 
 
-┌───────────────────────────────────────────────────────┐
-│                FLUX DE LECTURE (READ)                 │
-└───────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│              FLUX DE LECTURE (READ)                │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur arrive sur la page d'une salle
    ↓
@@ -331,9 +331,9 @@ COMPOSANT `RoomView`
 5. Vue affiche les cartes de mémoires
 
 
-┌───────────────────────────────────────────────────────┐
-│              FLUX DE MODIFICATION (UPDATE)            │
-└───────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│            FLUX DE MODIFICATION (UPDATE)           │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur clique "Modifier" sur une mémoire
    ↓
@@ -359,9 +359,9 @@ COMPOSANT `RoomView`
    11. Carte de mémoire se met à jour automatiquement
 
 
-┌───────────────────────────────────────────────────────┐
-│              FLUX DE SUPPRESSION (DELETE)             │
-└───────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│            FLUX DE SUPPRESSION (DELETE)            │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur clique "Supprimer" sur une mémoire
    ↓
