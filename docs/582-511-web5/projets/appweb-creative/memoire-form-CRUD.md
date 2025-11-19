@@ -141,29 +141,29 @@ STORE memoryStore
   
   ACTIONS (fonctions de modification) `actions`:
   
-  ✅ CREATE (*C*RUD) - `addMemory(roomId, memoryData)`:
+  ✅ CREATE ( *C* RUD) - `addMemory(roomId, memoryData)`:
 
-  1. Trouver la salle avec roomId
-    SI salle introuvable:
-      Afficher erreur console
-      Arrêter (return)
-  
-  2. Créer nouvelle mémoire:
-    - Générer ID unique (timestamp actuel)
-    - Copier toutes les données de memoryData
-    - Ajouter date de création
-  
-  3. Ajouter la mémoire à room.memories
-  
-  4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
-  
-
-
-  📖 READ (C*R*UD) - Pas d'action, utiliser les getters
+    1. Trouver la salle avec roomId
+      SI salle introuvable:
+        Afficher erreur console
+        Arrêter (return)
+    
+    2. Créer nouvelle mémoire:
+      - Générer ID unique (timestamp actuel)
+      - Copier toutes les données de memoryData
+      - Ajouter date de création
+    
+    3. Ajouter la mémoire à room.memories
+    
+    4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
     
 
 
-  ✏️ UPDATE (CR*U*D) - `updateMemory(memoryId, updates)`:
+  📖 READ (C *R* UD) - Pas d'`action`, utiliser les `getters`
+    
+
+
+  ✏️ UPDATE (CR *U* D) - `updateMemory(memoryId, updates)`:
 
   1. POUR chaque salle:
 
@@ -183,7 +183,7 @@ STORE memoryStore
   
 
 
-  🗑️ DELETE (CRU*D*) - deleteMemory(memoryId):
+  🗑️ DELETE (CRU *D* ) - deleteMemory(memoryId):
 
   1. POUR chaque salle:
 
