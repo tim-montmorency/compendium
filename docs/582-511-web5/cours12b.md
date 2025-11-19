@@ -70,23 +70,21 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/memoire-formulaires.html"><em>Mémoires</em>: formulaires, validation.</a>
+  <a href="./projets/appweb-creative/memoire-form-CRUD.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
 </div>
 
-<div class="class-content-link">
-  <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/memoires-crud.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
-</div>
 
 #### Aujourd'hui, travailler sur:
 
 - Ajouts/éditions de mémoires
   - Création des formulaires d'ajout/édition
   - CRUD des mémoires (CRUD: Create, Read, Update, Delete)
-  - Validation des données entrées dans les formulaires
   - Upload et gestion d'images
 
 #### Prochain cours
+
+- Ajouts/éditions de mémoires
+  - Validation des données entrées dans les formulaires
 
 - Implémentation des filtres et de la recherche
   - Filtre par catégorie (tag) et/ou par date
