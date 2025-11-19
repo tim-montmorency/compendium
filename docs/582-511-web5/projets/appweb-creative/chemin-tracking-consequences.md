@@ -30,7 +30,7 @@ state: () => ({
   karma: 0  // De -10 à +10
 })
 
-// Exemple de choix:
+// Exemple de choix dans votre json
 {
   text: "Sauver le chat coincé dans l'arbre",
   effects: { karma: +2 },  // Bon choix
@@ -64,8 +64,12 @@ state: () => ({
 })
 
 // Au chapitre 2, si le joueur choisit "Parler au vieil homme":
-effects: {
-  flags: { hasMetMentor: true }
+{
+  text: "Parler au vieil homme",
+  effects: {
+    flags: { hasMetMentor: true }
+  },
+  nextChapter: "ch-3a"
 }
 
 // Plus tard, au chapitre 6:
@@ -96,7 +100,7 @@ state: () => ({
   }
 }
 
-// Chapitre 7 - Porte verrouillée:
+// Dans la méthode de navigation vers la route du prochain chapitre
 if (playerStore.hasItem('clé-rouillée')) {
   // Peut ouvrir la porte
 } else {
@@ -132,7 +136,7 @@ if (stats.courage >= 10) → Fin du Héros
 if (stats.intelligence >= 10) → Fin du Sage
 ```
 
----
+<!-- 
 
 ## 💡 Exemple concret complet
 
@@ -232,7 +236,7 @@ methods: {
   ]
 }
 ```
-
+-->
 
 ## 🎯 Résumé en 3 points
 
@@ -243,6 +247,9 @@ methods: {
 
 
 <!-- 
+OLD
+
+
 Exemple de struture des données du chapitre de l'histoire `json` pour le système de conséquence:
 
 ```
