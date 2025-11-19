@@ -1,4 +1,4 @@
-# Cours 13.1 Interactivité et mise en page
+# Cours 13.1 Interactivité
 
 24 novembre
 

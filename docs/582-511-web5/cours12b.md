@@ -1,8 +1,8 @@
-# Cours 12.2Interactivité et mise en page
+# Cours 12.2 Mise en page et interactivité
 
 19 novembre
 
-!!! example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
+??? example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
 
     *IMPORTANT* : 
     
