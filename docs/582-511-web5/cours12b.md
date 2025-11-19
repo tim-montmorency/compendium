@@ -73,7 +73,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
   <a href="./projets/appweb-creative/memoire-form-CRUD.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
 </div>
 
-
+<br><br>
 #### Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
 
 - Ajouts/éditions de mémoires
@@ -98,7 +98,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
   <a href="./projets/appweb-creative/chemin-tracking-consequences.html"><em>Trace ton chemin</em>: tracking des conséquences et statistiques</a>
 </div>
 
-
+<br><br>
 #### Aujourd'hui, travailler sur *Systèmes de tracking des conséquences*
 
 Minimum 1 des 4 systèmes listés ci-dessous:
@@ -108,10 +108,10 @@ Minimum 1 des 4 systèmes listés ci-dessous:
 3. Inventaire d'objets (collecte)
 4. Statistiques du personnage (style RPG)
 
+Implémentation de la logique des fins (conditions d'accès à la fin)
 
 #### Prochain cours
 
-- Implémentation de la logique des fins (conditions d'accès à la fin)
 
 - Implémentation de l'historique des décisions du joueur
   - Enregistrement de chaque décision
