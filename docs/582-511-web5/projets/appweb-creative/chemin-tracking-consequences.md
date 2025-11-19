@@ -20,7 +20,7 @@ Minimum 1 des 4 systèmes listés ci-dessous:
 
 ---
 
-### 1️⃣ **Points de Karma/Moralité** (le plus simple)
+### 1️⃣ **Points de Karma/Moralité** (++ ou --)
 
 Chaque choix donne des points positifs ou négatifs.
 
@@ -241,7 +241,7 @@ methods: {
 ```
 -->
 
-## 🎯 Résumé en 3 points
+## Résumé en 3 points
 
 1. **Chaque choix** modifie l'état du joueur (karma, flags, inventaire)
 2. **L'état du joueur** détermine quels chapitres/choix sont disponibles
