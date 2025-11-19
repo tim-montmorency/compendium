@@ -77,14 +77,14 @@ state: () => ({
     savedFriend: false
   }
 })
-```` 
+```
 
 Au chapitre 2, si le joueur choisit "Parler au vieil homme":
 
 
 `src/data/chapters.json`
 
-```json
+```
 {
   text: "Parler au vieil homme",
   effects: {
@@ -94,7 +94,7 @@ Au chapitre 2, si le joueur choisit "Parler au vieil homme":
 }
 ```
 
-Plus tard, au chapitre 6:
+À la fin, dans la `View` des chapitres (probablement `chapterView`)
 
 ```javascript
 // Ce choix apparaît SEULEMENT si hasMetMentor = true
@@ -117,13 +117,13 @@ Le joueur ramasse des objets qui débloquent des options.
 state: () => ({
   inventory: []  // Liste vide au début
 })
-``
+```
 
 Chapitre 3 - Choix:`
 
 `src/data/chapters.json`
 
-```json
+```
 {
   text: "Prendre la clé rouillée",
   effects: {
@@ -133,8 +133,9 @@ Chapitre 3 - Choix:`
 ```
 
 
+À la fin, dans la `View`, dans la méthode `makeChoice` (vous pouvez l'avoir nommée autrement) mais dans la méthode qui applique le `router` vers le prochain chapitre ou vers la fin:
+
 ```javascript
-// Dans la méthode de navigation vers la route du prochain chapitre
 if (playerStore.hasItem('clé-rouillée')) {
   // Peut ouvrir la porte
 } else {
@@ -158,16 +159,25 @@ state: () => ({
     empathie: 0
   }
 })
+```
 
-// Exemple de choix:
+
+Exemple de choix:
+
+`src/data/chapters.json`
+```
 {
   text: "Affronter le danger directement",
   effects: {
     stats: { courage: +2 }
   }
 }
+```
 
-// À la fin:
+
+À la fin, dans la `View`, dans la méthode `makeChoice` (vous pouvez l'avoir nommée autrement) mais dans la méthode qui applique le `router` vers le prochain chapitre ou vers la fin:
+
+```javascript
 if (stats.courage >= 10) → Fin du Héros
 if (stats.intelligence >= 10) → Fin du Sage
 ```
