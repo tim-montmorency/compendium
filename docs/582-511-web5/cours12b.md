@@ -74,7 +74,8 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 </div>
 
 <br>
-#### Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
+
+#### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
 
 - Ajouts/éditions de mémoires
   - Création des formulaires d'ajout/édition
@@ -83,8 +84,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 #### Prochain cours
 
-- Ajouts/éditions de mémoires
-  - Validation des données entrées dans les formulaires
+- Validation des données entrées dans les formulaires
 
 - Implémentation des filtres et de la recherche
   - Filtre par catégorie (tag) et/ou par date
@@ -99,7 +99,8 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 </div>
 
 <br>
-#### Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
+
+#### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
 
 Minimum 1 des 4 systèmes listés ci-dessous:
 
