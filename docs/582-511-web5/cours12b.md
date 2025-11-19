@@ -48,7 +48,15 @@
 
 ## Évaluation par les pairs et auto-évaluation de mi-parcours (sommatif 5%)
 
-Réalisé en classe. Instructions à venir.
+Cette auto-évaluation et évaluation par les pairs vise à identifier les forces du fonctionnement d’équipe et les points à améliorer pour le reste du projet.
+
+Répondez honnêtement : le but n’est **pas** de juger les autres, mais d’aider votre équipe à ajuster sa collaboration d’ici la remise finale.
+
+L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) sera faite à la toute fin, lors de la mise en relation avec votre post-mortem.
+
+[Évaluation par les pairs et auto-évaluation](https://forms.office.com/r/nx4WVECugR){ .md-button }
+
+
 
 ## Intégration des médias et mise en page
 
