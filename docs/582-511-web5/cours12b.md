@@ -102,14 +102,15 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 #### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
 
-Minimum 1 des 4 systèmes listés ci-dessous:
+##### Minimum 1 des 4 systèmes listés ci-dessous:
 
 1. Karma/Moralité
 2. Système de flags (événements déclenchés)
 3. Inventaire d'objets (collecte)
 4. Statistiques du personnage (style RPG)
 
-Implémentation de la logique des fins (conditions d'accès à la fin)
+##### Implémentation de la logique des fins (conditions d'accès à la fin)
+
 
 <span class="important-label">IMPORTANT</span> Si vous devez changer un peu votre histoire pour implémenter ce système de conséquence, n'oubliez pas de mettre à jour votre arbre narratif ( *2.2 Arbre naratif* ) dans votre cahier de charges afin qu'il reflète toutes les décisions de votre histoire finale.
 
