@@ -4,245 +4,374 @@
 
 ### Composant de base : `MemoryForm.vue`
 
-```
-COMPOSANT MemoryForm
+COMPOSANT `MemoryForm`
 
-  PROPS:
+  TEMPLATE
+
+```
+<form @submit.prevent="handleSubmit" class="memory-form">
+    <h2>{{ isEditing ? 'Modifier' : 'Ajouter' }} une mémoire</h2>
+    
+    <!-- Titre -->
+    <div class="form-group">
+      <label for="title">Titre *</label>
+      <input 
+        id="title"
+        v-model="formData.title" 
+        type="text"
+        required
+        placeholder="Ex: Mon premier vélo"
+      >
+      <span v-if="errors.title" class="error">{{ errors.title }}</span>
+    </div>
+    
+    <!-- Description -->
+    <div class="form-group">
+      <label for="description">Description *</label>
+      <textarea 
+        id="description"
+        v-model="formData.description"
+        required
+        rows="5"
+        placeholder="Racontez votre souvenir..."
+      ></textarea>
+    </div>
+    
+    <!-- Date -->
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input 
+        id="date"
+        v-model="formData.date" 
+        type="date"
+      >
+    </div>
+    
+    <!-- Upload image -->
+    <div class="form-group">
+      <label for="image">Photo</label>
+      <input 
+        id="image"
+        type="file" 
+        accept="image/*"
+        @change="handleImageUpload"
+      >
+      <img v-if="formData.imagePreview" :src="formData.imagePreview" class="preview">
+    </div>
+    
+    <!-- Tags -->
+    <div class="form-group">
+      <label>Tags</label>
+      <div class="tag-selector">
+        <label v-for="tag in availableTags" :key="tag">
+          <input 
+            type="checkbox" 
+            :value="tag"
+            v-model="formData.tags"
+          >
+          {{ tag }}
+        </label>
+      </div>
+    </div>
+    
+    <!-- Boutons -->
+    <div class="form-actions">
+      <button type="button" @click="cancel" class="btn-cancel">
+        Annuler
+      </button>
+      <button type="submit" class="btn-submit">
+        {{ isEditing ? 'Modifier' : 'Ajouter' }}
+      </button>
+    </div>
+  </form>
+```
+
+  PROPS `props` :
+
     - memory (optionnel) : si présent = mode édition, sinon = mode ajout
     - roomId (obligatoire) : ID de la salle où ajouter la mémoire
   
-  DONNÉES:
+  DONNÉES `data()` :
+
     - formData un objet { } qui contient ces propriété:
+
         * title (texte)
         * description (texte long)
         * date (date)
         * image (fichier)
         * imagePreview (URL pour affichage)
         * tags (liste [ ] de tags sélectionnés)
-    
+
     - errors (objet { } pour stocker les erreurs de validation)
     - availableTags (liste [ ] des tags prédéfinis)
   
-  PROPRIÉTÉ CALCULÉE:
+  PROPRIÉTÉ CALCULÉE `computed` :
+
     - isEditing:
-        SI memory existe ALORS mode édition
-        SINON mode mode ajout
+        SI memory existe ALORS mode édition donc retourne `true`
+        SINON mode mode ajout donc retourne `false`
   
-  AU CHARGEMENT:
-    SI mode édition:
-      Pré-remplir formData avec les données de memory
+  AU CHARGEMENT `created()` :
+
+    SI mode édition `isEditing` est vrai
+      Pré-remplir `formData` avec les données de memory
   
-  MÉTHODES:
-    handleImageUpload(event):
-      1. Récupérer le fichier uploadé: const file = event.target.files[0];
-      2. Vérifier la taille (max 2MB)
-         SI trop grand:
-           Afficher erreur "Image trop grande"
-           Arrêter (return)
+  MÉTHODES `methods`
 
-      3. Convertir le fichier en base64 (pour localStorage)
-      4. Stocker dans formData.image et formData.imagePreview
+  `handleImageUpload(event)`
 
-      // Convertir en base64 pour localStorage et stocker (3 et 4)
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        this.formData.image = e.target.result;
-        this.formData.imagePreview = e.target.result;
-      };
-      reader.readAsDataURL(file);
+    1. Récupérer le fichier uploadé: `const file = event.target.files[0];`
+    2. Vérifier la taille (max 2MB)
+      SI trop grand:
+        Afficher erreur "Image trop grande"
+        Arrêter (return)
 
-    validateForm():
-      1. Réinitialiser l'objet errors à un objet vide { }
-      2. SI titre est vide:
-           Ajouter erreur "Le titre est obligatoire"
-      3. SI description est vide:
-           Ajouter erreur "La description est obligatoire"
-      4. RETOURNER vrai si aucune erreur, sinon faux
+    3. Convertir le fichier en base64 (pour localStorage)
+    4. Stocker dans formData.image et formData.imagePreview
+
+
+Code pour convertir en base64 pour localStorage et stocker (3 et 4)
+
+```
+const reader = new FileReader();
+reader.onload = (e) => {
+  this.formData.image = e.target.result;
+  this.formData.imagePreview = e.target.result;
+};
+reader.readAsDataURL(file);
+```
+
+
+  `validateForm()` (on va voir ça la semaine prochaine)
+
+    1. Réinitialiser l'objet errors à un objet vide { }
+    2. SI titre est vide:
+          Ajouter erreur "Le titre est obligatoire"
+    3. SI description est vide:
+          Ajouter erreur "La description est obligatoire"
+    4. RETOURNER vrai si aucune erreur, sinon faux
+  
+  `handleSubmit()`
+
+    1. Valider le formulaire en appelant `validateForm()`
+        SI non valide:
+          Arrêter (return)
     
-    handleSubmit():
-      1. Valider le formulaire
-         SI non valide:
-           Arrêter (return)
-      
-      2. Récupérer le store des mémoires
-      
-      3. SI mode édition:
-           Appeler store.updateMemory(idMémoire, formData)
-         SINON:
-           Appeler store.addMemory(roomId, formData)
-      
-      4. Émettre (emit) événement "saved" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
+    2. Récupérer le store des mémoires
     
-    cancel():
-      Émettre (emit) un événement "cancel" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
+    3. SI mode édition:
+          Appeler store.updateMemory(idMémoire, formData)
+        SINON:
+          Appeler store.addMemory(roomId, formData)
+    
+    4. Émettre (emit) événement "saved" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
   
+  `cancel()`
+
+    Émettre (emit) un événement "cancel" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
+
+
   TEMPLATE:
+
     Formulaire avec:
+
       - Champ titre (texte, obligatoire)
       - Champ description (textarea, obligatoire)
       - Champ date (sélecteur de date)
       - Upload image avec preview
       - Sélection multiple de tags (checkboxes)
       - Boutons "Annuler" et "Ajouter/Modifier"
-```
-
 
 
 ## CRUD Complet dans le Store Pinia
 
 ### `stores/memory.js`
-```
+
 STORE memoryStore
 
-  ÉTAT (state):
+  ÉTAT `state`:
+
     - rooms (liste de salles [ ]):
+
         * Chaque salle contient:
+
           - id (identifiant unique)
           - name (nom de la salle)
           - color (couleur thématique) (optionnel)
           - image d'arrière plan (optionnel)
           - memories (liste des mémoires dans cette salle)
   
-  GETTERS (fonctions de lecture):
+  GETTERS (fonctions de lecture) `getters`:
+
+  📖 <em>R</em>EAD (C<em>R</em>UD)
   
-    getMemoriesByRoom(roomId):
-      1. Chercher la salle avec cet ID
-      2. SI trouvée:
-           RETOURNER sa liste de memories
-         SINON:
-           RETOURNER liste vide
-    
-    getMemoryById(memoryId):
-      1. POUR chaque salle:
-           POUR chaque mémoire dans la salle:
-             SI mémoire.id == memoryId:
-               RETOURNER cette mémoire
-      2. SI rien trouvé:
-           RETOURNER null
+  `getMemoriesByRoom(roomId)`:
+
+    1. Chercher la salle avec cet ID
+    2. SI trouvée:
+          RETOURNER sa liste de memories
+        SINON:
+          RETOURNER liste vide
   
-  ACTIONS (fonctions de modification):
+  `getMemoryById(memoryId)`:
+
+    1. POUR chaque salle:
+          POUR chaque mémoire dans la salle:
+            SI mémoire.id == memoryId:
+              RETOURNER cette mémoire
+    2. SI rien trouvé:
+          RETOURNER null
   
-    ✅ CREATE - addMemory(roomId, memoryData):
-      1. Trouver la salle avec roomId
-         SI salle introuvable:
-           Afficher erreur console
-           Arrêter (return)
-      
-      2. Créer nouvelle mémoire:
-         - Générer ID unique (timestamp actuel)
-         - Copier toutes les données de memoryData
-         - Ajouter date de création
-      
-      3. Ajouter la mémoire à room.memories
-      
-      4. Sauvegarder tout dans localStorage
+  ACTIONS (fonctions de modification) `actions`:
+  
+  ✅ <em>c</em>REATE (<em>c</em>RUD) - `addMemory(roomId, memoryData)`:
+
+    1. Trouver la salle avec roomId
+      SI salle introuvable:
+        Afficher erreur console
+        Arrêter (return)
     
-    📖 READ - Pas d'action, utiliser les getters
+    2. Créer nouvelle mémoire:
+      - Générer ID unique (timestamp actuel)
+      - Copier toutes les données de memoryData
+      - Ajouter date de création
     
-    ✏️ UPDATE - updateMemory(memoryId, updates):
-      1. POUR chaque salle:
-           Chercher l'index de la mémoire avec memoryId
-           SI trouvée:
-             a. Fusionner anciennes données + nouvelles données
-             b. Ajouter date de modification
-             c. Remplacer la mémoire à cet index
-             d. Sauvegarder dans localStorage
-             e. Terminer
-      
-      2. SI rien trouvé:
-           Afficher erreur console
+    3. Ajouter la mémoire à room.memories
     
-    🗑️ DELETE - deleteMemory(memoryId):
-      1. POUR chaque salle:
-           Chercher l'index de la mémoire avec memoryId
-           SI trouvée:
-             a. Supprimer la mémoire à cet index
-             b. Sauvegarder dans localStorage
-             c. RETOURNER vrai
-      
-      2. SI rien trouvé:
-           RETOURNER faux
+    4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
     
-    💾 saveToLocalStorage():
-      1. Convertir rooms en texte JSON
-      2. ESSAYER:
-           Sauvegarder dans localStorage avec clé "museum-data"
-         EN CAS D'ERREUR:
-           Afficher erreur console
+
+
+  📖 <em>R</em>EAD (C<em>R</em>UD) - Pas d'`action`, utiliser les `getters`
     
-    📥 loadFromLocalStorage():
-      1. ESSAYER:
-           Récupérer données de localStorage avec clé "museum-data"
-           SI données existent:
-             Convertir de JSON vers objet
-             Remplacer rooms par ces données
-         EN CAS D'ERREUR:
-           Afficher erreur console
-```
+
+
+  ✏️ <em>U</em>PDATE (CR<em>U</em>D) - `updateMemory(memoryId, updates)`:
+
+    1. POUR chaque salle:
+
+      Chercher l'index de la mémoire avec memoryId
+
+      SI trouvée:
+
+        a. Fusionner anciennes données + nouvelles données
+        b. Ajouter date de modification
+        c. Remplacer la mémoire à cet index
+        d. Sauvegarder dans localStorage (*OPTIONNEL POUR LE MOMENT*)
+        e. Terminer
+  
+    2. SI rien trouvé:
+
+        Afficher erreur console
+    
+
+
+  🗑️ <em>D</em>ELETE (CRU<em>D</em>) - deleteMemory(memoryId):
+
+    1. POUR chaque salle:
+
+      Chercher l'index de la mémoire avec memoryId
+
+      SI trouvée:
+        a. Supprimer la mémoire à cet index
+        b. Sauvegarder dans localStorage
+        c. RETOURNER vrai
+    
+    2. SI rien trouvé:
+        RETOURNER faux
+
+      💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+
+        1. Convertir rooms en texte JSON
+        2. ESSAYER:
+              Sauvegarder dans localStorage avec clé "museum-data"
+            EN CAS D'ERREUR:
+              Afficher erreur console
+    
+      📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+
+        1. ESSAYER:
+              Récupérer données de localStorage avec clé "museum-data"
+              SI données existent:
+                Convertir de JSON vers objet
+                Remplacer rooms par ces données
+            EN CAS D'ERREUR:
+              Afficher erreur console
+
 
 
 ## 🎯 Utilisation dans les composants
 
 ### Exemple : `RoomView.vue` (Afficher et supprimer)
 
-```
-COMPOSANT RoomView
+COMPOSANT `RoomView`
 
-  DONNÉES:
+  DONNÉES `data()` :
+
     - roomId (ID de la salle actuelle)
     - showAddForm (booléen : modal ouvert ou fermé)
     - memoryToEdit (mémoire en cours d'édition ou null)
   
-  CALCULS:
+  PROPRIÉTÉ CALCULÉE `computed` :
+
     - currentRoom:
         Chercher la salle avec roomId dans le store
     
     - memories:
         Obtenir toutes les mémoires de roomId depuis le store
   
-  AU CHARGEMENT:
+  AU CHARGEMENT `created()` :
+
     1. Récupérer roomId depuis l'URL
     2. Charger les données du localStorage
   
-  MÉTHODES:
+  MÉTHODES `methods` :
   
-    editMemory(memory):
-      1. Stocker memory dans memoryToEdit
-      2. Ouvrir le modal (showAddForm = vrai)
-    
-    confirmDelete(memoryId):
-      1. Demander confirmation "Supprimer cette mémoire ?"
-      2. SI utilisateur confirme:
-           Appeler store.deleteMemory(memoryId)
-    
-    handleSaved():
-      Fermer le formulaire
-    
-    closeForm():
-      1. Fermer le modal (showAddForm = faux)
-      2. Réinitialiser memoryToEdit à null
+  `editMemory(memory)`
+
+    1. Stocker memory dans memoryToEdit
+    2. Ouvrir le modal (showAddForm = vrai)
+  
+  `confirmDelete(memoryId)`
+
+    1. Demander confirmation "Supprimer cette mémoire ?"
+    2. SI utilisateur confirme:
+          Appeler store.deleteMemory(memoryId)
+  
+  `handleSaved()`
+
+    Fermer le formulaire
+  
+  `closeForm()`
+
+    1. Fermer le modal (showAddForm = faux)
+    2. Réinitialiser memoryToEdit à null
   
   TEMPLATE:
-    Vue de la salle avec:
-      - Titre de la salle
-      - Bouton "+ Ajouter une mémoire"
-      - Grille de cartes mémoires:
-          POUR chaque mémoire:
-            * Image (si existe)
-            * Titre
-            * Description
-            * Date
-            * Bouton "Modifier"
-            * Bouton "Supprimer"
-      - Modal avec formulaire (visible si showAddForm = vrai)
-```
+
+  Vue de la salle avec:
+
+    - Titre de la salle
+    - Bouton "+ Ajouter une mémoire"
+    - Grille de cartes mémoires:
+
+        POUR chaque mémoire:
+          * Image (si existe)
+          * Titre
+          * Description
+          * Date
+          * Bouton "Modifier"
+          * Bouton "Supprimer"
+
+    - Modal avec formulaire (visible si `showAddForm` = vrai)
+
 
 
 ## 📋 Flux CRUD complet
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    FLUX D'AJOUT (CREATE)                    │
-└─────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────┐
+│               FLUX D'AJOUT (CREATE)                │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur clique "Ajouter une mémoire"
    ↓
@@ -270,9 +399,9 @@ COMPOSANT RoomView
    12. Liste des mémoires se met à jour automatiquement
 
 
-┌─────────────────────────────────────────────────────────────┐
-│                   FLUX DE LECTURE (READ)                    │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│              FLUX DE LECTURE (READ)                │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur arrive sur la page d'une salle
    ↓
@@ -285,9 +414,9 @@ COMPOSANT RoomView
 5. Vue affiche les cartes de mémoires
 
 
-┌─────────────────────────────────────────────────────────────┐
-│                 FLUX DE MODIFICATION (UPDATE)               │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│            FLUX DE MODIFICATION (UPDATE)           │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur clique "Modifier" sur une mémoire
    ↓
@@ -306,16 +435,16 @@ COMPOSANT RoomView
       ↓
    8. Store fusionne anciennes + nouvelles données
       ↓
-   9. Store sauvegarde dans localStorage
+   9. Store sauvegarde dans localStorage (*OPTIONNEL POUR LE MOMENT*)
       ↓
    10. Modal se ferme
        ↓
    11. Carte de mémoire se met à jour automatiquement
 
 
-┌─────────────────────────────────────────────────────────────┐
-│                 FLUX DE SUPPRESSION (DELETE)                │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│            FLUX DE SUPPRESSION (DELETE)            │
+└────────────────────────────────────────────────────┘
 
 1. Utilisateur clique "Supprimer" sur une mémoire
    ↓
@@ -329,13 +458,16 @@ COMPOSANT RoomView
       ↓
    6. Store la supprime du tableau
       ↓
-   7. Store sauvegarde dans localStorage
+   7. Store sauvegarde dans localStorage (*OPTIONNEL POUR LE MOMENT*)
       ↓
    8. Carte disparaît de la vue automatiquement
-```
 
 
-## 📊 Structure de données simplifiée
+
+## 📊 Structure de données simplifiée pour le LocalStorage
+
+*OPTIONNEL POUR LE MOMENT*
+
 ```
 STRUCTURE localStorage:
 
@@ -373,20 +505,24 @@ STRUCTURE localStorage:
 
 
 ## ✅ Points clés résumés
-```
+
 VALIDATION:
-  AVANT d'enregistrer → Vérifier que les champs obligatoires sont remplis
+
+- AVANT d'enregistrer → Vérifier que les champs obligatoires sont remplis
   
 IDENTIFIANTS UNIQUES:
-  Utiliser Date.now() ou UUID pour générer des IDs
+
+- Utiliser Date.now() ou UUID pour générer des IDs
   
-PERSISTANCE:
-  APRÈS chaque CREATE/UPDATE/DELETE → Sauvegarder dans localStorage
-  AU CHARGEMENT de l'app → Charger depuis localStorage
+PERSISTANCE (*OPTIONNEL POUR LE MOMENT*)
+
+- APRÈS chaque CREATE/UPDATE/DELETE → Sauvegarder dans localStorage
+- AU CHARGEMENT de l'app → Charger depuis localStorage
   
 CONFIRMATION:
-  AVANT de supprimer → Demander confirmation utilisateur
+
+- AVANT de supprimer → Demander confirmation utilisateur
   
 RÉACTIVITÉ:
-  Pinia met à jour automatiquement toutes les vues qui utilisent les données
-```
+
+- Pinia met à jour automatiquement toutes les vues qui utilisent les données

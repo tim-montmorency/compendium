@@ -224,7 +224,6 @@ export const useMemoryStore = defineStore('memory', {
       
     },
     
-
     // Obtenir toutes les mémoires d'une salle
     getMemoriesByRoom: (state) => (roomId) => {
       const room = state.rooms.find(r => r.id === roomId);
@@ -373,8 +372,9 @@ export const useMemoryStore = defineStore('memory', {
 </template>
 
 <script>
-import { useMemoryStore } from '@/stores/memoryStore';
 import { mapStores } from 'pinia';
+import { useMemoryStore } from '@/stores/memoryStore';
+
 import MemoryForm from '@/components/MemoryForm.vue';
 import Modal from '@/components/ui/Modal.vue';
 

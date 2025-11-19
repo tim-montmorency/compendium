@@ -71,25 +71,23 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 - Mise en page HTML+CSS
 - Adaptative (responsive) via `display: grid`, `display: flex` et requêtes média (media queries).
 
-## Phase interactivité (1er décembre):
 
-### Phase interactivité (1er décembre): *Mémoires interactives*
+## Phase interactivité (1er décembre): *Mémoires interactives*
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/memoire-form-CRUD.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
+  <a href="./projets/appweb-creative/memoire-form-CRUD.html">Mémoires: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
 </div>
 
-<br>
 
-#### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
+### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
 
 - Ajouts/éditions de mémoires
   - Création des formulaires d'ajout/édition
   - CRUD des mémoires (CRUD: Create, Read, Update, Delete)
   - Upload et gestion d'images
 
-#### Prochain cours (suite phase interactivité (1er décembre)):
+### Prochain cours (suite phase interactivité (1er décembre)):
 
 - Validation des données entrées dans les formulaires
 
@@ -98,25 +96,24 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
   - Recherche parmi les mémoires
 
 
-### Phase interactivité (1er décembre): *Trace ton chemin*
+## Phase interactivité (1er décembre): *Trace ton chemin*
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/chemin-tracking-consequences.html"><em>Trace ton chemin</em>: tracking des conséquences et statistiques</a>
+  <a href="./projets/appweb-creative/chemin-tracking-consequences.html">Trace ton chemin: tracking des conséquences et statistiques</a>
 </div>
 
-<br>
 
-#### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
+### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
 
-##### Minimum 1 des 4 systèmes listés ci-dessous:
+#### Minimum 1 des 4 systèmes listés ci-dessous:
 
 1. Karma/Moralité
 2. Système de flags (événements déclenchés)
 3. Inventaire d'objets (collecte)
 4. Statistiques du personnage (style RPG)
 
-##### Implémentation de la logique des fins (conditions d'accès à la fin)
+#### Implémentation de la logique des fins (conditions d'accès à la fin)
 
 
 <span class="important-label">IMPORTANT</span> Si vous devez changer un peu votre histoire pour implémenter ce système de conséquence, n'oubliez pas de mettre à jour votre arbre narratif ( *2.2 Arbre naratif* ) dans votre cahier de charges afin qu'il reflète toutes les décisions de votre histoire finale.
