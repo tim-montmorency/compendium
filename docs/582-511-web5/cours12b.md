@@ -110,14 +110,13 @@ Minimum 1 des 4 systèmes listés ci-dessous:
 
 Implémentation de la logique des fins (conditions d'accès à la fin)
 
-#### Prochain cours
+<span class="important-label">IMPORTANT</span> Si vous devez changer un peu votre histoire pour implémenter ce système de conséquence, n'oubliez pas de mettre à jour votre arbre narratif ( *2.2 Arbre naratif* ) dans votre cahier de charges afin qu'il reflète toutes les décisions de votre histoire finale.
 
+#### Prochain cours
 
 - Implémentation de l'historique des décisions du joueur
   - Enregistrement de chaque décision
-  - Affichage dans un menu (optionnel)
-
-
+  - Affichage des décisions et statistiques dans un menu ou à la fin
 
 
 <!--
