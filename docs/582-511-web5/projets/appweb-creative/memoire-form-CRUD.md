@@ -6,6 +6,86 @@
 
 COMPOSANT `MemoryForm`
 
+  TEMPLATE
+
+```
+<form @submit.prevent="handleSubmit" class="memory-form">
+    <h2>{{ isEditing ? 'Modifier' : 'Ajouter' }} une mémoire</h2>
+    
+    <!-- Titre -->
+    <div class="form-group">
+      <label for="title">Titre *</label>
+      <input 
+        id="title"
+        v-model="formData.title" 
+        type="text"
+        required
+        placeholder="Ex: Mon premier vélo"
+      >
+      <span v-if="errors.title" class="error">{{ errors.title }}</span>
+    </div>
+    
+    <!-- Description -->
+    <div class="form-group">
+      <label for="description">Description *</label>
+      <textarea 
+        id="description"
+        v-model="formData.description"
+        required
+        rows="5"
+        placeholder="Racontez votre souvenir..."
+      ></textarea>
+    </div>
+    
+    <!-- Date -->
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input 
+        id="date"
+        v-model="formData.date" 
+        type="date"
+      >
+    </div>
+    
+    <!-- Upload image -->
+    <div class="form-group">
+      <label for="image">Photo</label>
+      <input 
+        id="image"
+        type="file" 
+        accept="image/*"
+        @change="handleImageUpload"
+      >
+      <img v-if="formData.imagePreview" :src="formData.imagePreview" class="preview">
+    </div>
+    
+    <!-- Tags -->
+    <div class="form-group">
+      <label>Tags</label>
+      <div class="tag-selector">
+        <label v-for="tag in availableTags" :key="tag">
+          <input 
+            type="checkbox" 
+            :value="tag"
+            v-model="formData.tags"
+          >
+          {{ tag }}
+        </label>
+      </div>
+    </div>
+    
+    <!-- Boutons -->
+    <div class="form-actions">
+      <button type="button" @click="cancel" class="btn-cancel">
+        Annuler
+      </button>
+      <button type="submit" class="btn-submit">
+        {{ isEditing ? 'Modifier' : 'Ajouter' }}
+      </button>
+    </div>
+  </form>
+```
+
   PROPS `props` :
 
     - memory (optionnel) : si présent = mode édition, sinon = mode ajout
