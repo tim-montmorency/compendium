@@ -99,7 +99,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 </div>
 
 <br>
-#### Aujourd'hui, travailler sur *Systèmes de tracking des conséquences*
+#### Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
 
 Minimum 1 des 4 systèmes listés ci-dessous:
 
