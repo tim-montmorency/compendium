@@ -4,14 +4,14 @@
 
 ### Composant de base : `MemoryForm.vue`
 
-```
-COMPOSANT MemoryForm
 
-  PROPS:
+COMPOSANT `MemoryForm`
+
+  PROPS `props` :
     - memory (optionnel) : si présent = mode édition, sinon = mode ajout
     - roomId (obligatoire) : ID de la salle où ajouter la mémoire
   
-  DONNÉES:
+  DONNÉES `data()` :
     - formData un objet { } qui contient ces propriété:
         * title (texte)
         * description (texte long)
@@ -19,18 +19,18 @@ COMPOSANT MemoryForm
         * image (fichier)
         * imagePreview (URL pour affichage)
         * tags (liste [ ] de tags sélectionnés)
-    
+
     - errors (objet { } pour stocker les erreurs de validation)
     - availableTags (liste [ ] des tags prédéfinis)
   
-  PROPRIÉTÉ CALCULÉE:
+  PROPRIÉTÉ CALCULÉE `computed` :
     - isEditing:
-        SI memory existe ALORS mode édition
-        SINON mode mode ajout
+        SI memory existe ALORS mode édition donc retourne `true`
+        SINON mode mode ajout donc retourne `false`
   
-  AU CHARGEMENT:
-    SI mode édition:
-      Pré-remplir formData avec les données de memory
+  AU CHARGEMENT `created`()` : 
+    SI mode édition `isEditing` est vrai
+      Pré-remplir `formData` avec les données de memory
   
   MÉTHODES:
     handleImageUpload(event):
@@ -84,14 +84,14 @@ COMPOSANT MemoryForm
       - Upload image avec preview
       - Sélection multiple de tags (checkboxes)
       - Boutons "Annuler" et "Ajouter/Modifier"
-```
+
 
 
 
 ## CRUD Complet dans le Store Pinia
 
 ### `stores/memory.js`
-```
+
 STORE memoryStore
 
   ÉTAT (state):
@@ -178,14 +178,14 @@ STORE memoryStore
              Remplacer rooms par ces données
          EN CAS D'ERREUR:
            Afficher erreur console
-```
+
 
 
 ## 🎯 Utilisation dans les composants
 
 ### Exemple : `RoomView.vue` (Afficher et supprimer)
 
-```
+
 COMPOSANT RoomView
 
   DONNÉES:
@@ -235,11 +235,11 @@ COMPOSANT RoomView
             * Bouton "Modifier"
             * Bouton "Supprimer"
       - Modal avec formulaire (visible si showAddForm = vrai)
-```
+
 
 
 ## 📋 Flux CRUD complet
-```
+
 ┌─────────────────────────────────────────────────────────────┐
 │                    FLUX D'AJOUT (CREATE)                    │
 └─────────────────────────────────────────────────────────────┘
@@ -332,7 +332,7 @@ COMPOSANT RoomView
    7. Store sauvegarde dans localStorage
       ↓
    8. Carte disparaît de la vue automatiquement
-```
+
 
 
 ## 📊 Structure de données simplifiée
@@ -373,7 +373,7 @@ STRUCTURE localStorage:
 
 
 ## ✅ Points clés résumés
-```
+
 VALIDATION:
   AVANT d'enregistrer → Vérifier que les champs obligatoires sont remplis
   
@@ -389,4 +389,3 @@ CONFIRMATION:
   
 RÉACTIVITÉ:
   Pinia met à jour automatiquement toutes les vues qui utilisent les données
-```
