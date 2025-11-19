@@ -50,26 +50,25 @@
 
 Réalisé en classe. Instructions à venir.
 
-## Cours
-
-Démo en classe de karmas et statistiques dans l'histoire "Trace ton chemin".
-
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=47b37c56-d3a5-4e21-8802-4474729e3453&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="chemin-apercu.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
-
-
-
-
-<!-- http://127.0.0.1:5500/UI-demo_onefile_trace-ton-chemin_CUTE-UI/ -->
-
-## Travail en classe
+## Intégration des médias et mise en page
 
 - Intégration des médias
 - Mise en page HTML+CSS
 - Adaptative (responsive) via `display: grid`, `display: flex` et requêtes média (media queries).
 
+## Phase interactivité
 
+### Phase interactivité: *Mémoires interactives*
 
-### Mémoires interactives
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoire-formulaires.html"><em>Mémoires</em>: formulaires, validation</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoires-crud.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete)</a>
+</div>
 
 - Ajouts/éditions de mémoires
   - Création des formulaires d'ajout/édition
@@ -78,25 +77,35 @@ Démo en classe de karmas et statistiques dans l'histoire "Trace ton chemin".
   - Upload et gestion d'images
 
 - Implémentation des filtres et de la recherche
-  - Filtre par tag
-  - Filtre par 
-  - Recherche
+  - Filtre par catégorie (tag) et/ou par date
+  - Recherche parmi les mémoires
+
+
+### Phase interactivité: *Trace ton chemin*
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/chemin-tracking-consequences.html"><em>Trace ton chemin</em>: tracking des conséquences et statistiques</a>
+</div>
+
 
 ### Trace ton chemin
 
 - Système de tracking des conséquences (minimum un des 4 systèmes listés ci-dessous)
-  - Système de flags (événements déclenchés)
-  - Karma/statistiques
-  - Inventaire
-  - Relations avec personnages
+
+  - 1. Système de flags (événements déclenchés)
+  - 2. Karma/statistiques
+  - 3. Inventaire
+  - 4. Relations avec personnages
+
+- Implémentation de la logique des fins (conditions d'accès à la fin)
 
 - Implémentation de l'historique des décisions du joueur
   - Enregistrement de chaque décision
   - Affichage dans un menu (optionnel)
 
-- [Struture Pinia suggérée pour sauvegarder l'historique du joueur et le tracking des conséquences](https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/cahier_charges_chemin.html#44-gestion-de-letat-pinia)
 
-- Logique des fins implémentée (conditions d'accès à la fin)
+
 
 <!--
 
