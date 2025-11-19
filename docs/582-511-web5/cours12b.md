@@ -62,19 +62,23 @@ Réalisé en classe. Instructions à venir.
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/memoire-formulaires.html"><em>Mémoires</em>: formulaires, validation</a>
+  <a href="./projets/appweb-creative/memoire-formulaires.html"><em>Mémoires</em>: formulaires, validation.</a>
 </div>
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/memoires-crud.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete)</a>
+  <a href="./projets/appweb-creative/memoires-crud.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
 </div>
+
+#### Aujourd'hui, travailler sur:
 
 - Ajouts/éditions de mémoires
   - Création des formulaires d'ajout/édition
   - CRUD des mémoires (CRUD: Create, Read, Update, Delete)
   - Validation des données entrées dans les formulaires
   - Upload et gestion d'images
+
+#### Prochain cours
 
 - Implémentation des filtres et de la recherche
   - Filtre par catégorie (tag) et/ou par date
@@ -89,7 +93,7 @@ Réalisé en classe. Instructions à venir.
 </div>
 
 
-### Trace ton chemin
+#### Aujourd'hui, travailler sur:
 
 - Système de tracking des conséquences (minimum un des 4 systèmes listés ci-dessous)
 
@@ -97,6 +101,9 @@ Réalisé en classe. Instructions à venir.
   - 2. Karma/statistiques
   - 3. Inventaire
   - 4. Relations avec personnages
+
+
+#### Prochain cours
 
 - Implémentation de la logique des fins (conditions d'accès à la fin)
 
