@@ -49,15 +49,18 @@ COMPOSANT `MemoryForm`
     3. Convertir le fichier en base64 (pour localStorage)
     4. Stocker dans formData.image et formData.imagePreview
 
-    ```
-    // Convertir en base64 pour localStorage et stocker (3 et 4)
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      this.formData.image = e.target.result;
-      this.formData.imagePreview = e.target.result;
-    };
-    reader.readAsDataURL(file);
-    ```
+
+Code pour convertir en base64 pour localStorage et stocker (3 et 4)
+
+```
+const reader = new FileReader();
+reader.onload = (e) => {
+  this.formData.image = e.target.result;
+  this.formData.imagePreview = e.target.result;
+};
+reader.readAsDataURL(file);
+```
+
 
   `validateForm()`
 
