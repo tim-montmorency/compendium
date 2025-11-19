@@ -120,7 +120,7 @@ STORE memoryStore
   
   GETTERS (fonctions de lecture) `getters`:
 
-  📖 READ (C*R*UD)
+  📖 <em>R</em>EAD (C<em>R</em>UD)
   
   `getMemoriesByRoom(roomId)`:
 
@@ -141,7 +141,7 @@ STORE memoryStore
   
   ACTIONS (fonctions de modification) `actions`:
   
-  ✅ CREATE ( *C* RUD) - `addMemory(roomId, memoryData)`:
+  ✅ <em>c</em>REATE (<em>c</em>RUD) - `addMemory(roomId, memoryData)`:
 
     1. Trouver la salle avec roomId
       SI salle introuvable:
@@ -159,11 +159,11 @@ STORE memoryStore
     
 
 
-  📖 READ (C *R* UD) - Pas d'`action`, utiliser les `getters`
+  📖 <em>R</em>EAD (C<em>R</em>UD) - Pas d'`action`, utiliser les `getters`
     
 
 
-  ✏️ UPDATE (CR *U* D) - `updateMemory(memoryId, updates)`:
+  ✏️ <em>U</em>PDATE (CR<em>U</em>D) - `updateMemory(memoryId, updates)`:
 
     1. POUR chaque salle:
 
@@ -183,7 +183,7 @@ STORE memoryStore
     
 
 
-  🗑️ DELETE (CRU *D* ) - deleteMemory(memoryId):
+  🗑️ <em>D</em>ELETE (CRU<em>D</em>) - deleteMemory(memoryId):
 
     1. POUR chaque salle:
 

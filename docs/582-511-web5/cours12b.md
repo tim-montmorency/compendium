@@ -69,7 +69,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/memoire-form-CRUD.html"><em>Mémoires</em>: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
+  <a href="./projets/appweb-creative/memoire-form-CRUD.html">Mémoires: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
 </div>
 
 
@@ -93,7 +93,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
-  <a href="./projets/appweb-creative/chemin-tracking-consequences.html"><em>Trace ton chemin</em>: tracking des conséquences et statistiques</a>
+  <a href="./projets/appweb-creative/chemin-tracking-consequences.html">Trace ton chemin: tracking des conséquences et statistiques</a>
 </div>
 
 
