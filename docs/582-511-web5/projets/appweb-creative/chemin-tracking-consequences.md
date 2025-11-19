@@ -136,6 +136,9 @@ if (stats.courage >= 10) → Fin du Héros
 if (stats.intelligence >= 10) → Fin du Sage
 ```
 
+
+## 💡 Exemple concret (à venir...)
+
 <!-- 
 
 ## 💡 Exemple concret complet
