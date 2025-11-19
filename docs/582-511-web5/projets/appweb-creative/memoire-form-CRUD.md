@@ -62,7 +62,7 @@ reader.readAsDataURL(file);
 ```
 
 
-  `validateForm()`
+  `validateForm()` (on va voir ça la semaine prochaine)
 
     1. Réinitialiser l'objet errors à un objet vide { }
     2. SI titre est vide:
@@ -73,7 +73,7 @@ reader.readAsDataURL(file);
   
   `handleSubmit()`
 
-    1. Valider le formulaire
+    1. Valider le formulaire en appelant `validateForm()`
         SI non valide:
           Arrêter (return)
     
