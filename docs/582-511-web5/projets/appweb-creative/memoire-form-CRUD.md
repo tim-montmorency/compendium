@@ -143,76 +143,77 @@ STORE memoryStore
   
   ✅ CREATE (*C*RUD) - `addMemory(roomId, memoryData)`:
 
-    1. Trouver la salle avec roomId
-      SI salle introuvable:
+  1. Trouver la salle avec roomId
+    SI salle introuvable:
+      Afficher erreur console
+      Arrêter (return)
+  
+  2. Créer nouvelle mémoire:
+    - Générer ID unique (timestamp actuel)
+    - Copier toutes les données de memoryData
+    - Ajouter date de création
+  
+  3. Ajouter la mémoire à room.memories
+  
+  4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
+  
+
+
+  📖 READ (C*R*UD) - Pas d'action, utiliser les getters
+    
+
+
+  ✏️ UPDATE (CR*U*D) - `updateMemory(memoryId, updates)`:
+
+  1. POUR chaque salle:
+
+      Chercher l'index de la mémoire avec memoryId
+
+      SI trouvée:
+
+        a. Fusionner anciennes données + nouvelles données
+        b. Ajouter date de modification
+        c. Remplacer la mémoire à cet index
+        d. Sauvegarder dans localStorage (*OPTIONNEL POUR LE MOMENT*)
+        e. Terminer
+  
+  2. SI rien trouvé:
+
         Afficher erreur console
-        Arrêter (return)
-    
-    2. Créer nouvelle mémoire:
-      - Générer ID unique (timestamp actuel)
-      - Copier toutes les données de memoryData
-      - Ajouter date de création
-    
-    3. Ajouter la mémoire à room.memories
-    
-    4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
-    
-
-
-    📖 READ (C*R*UD) - Pas d'action, utiliser les getters
-    
-
-
-    ✏️ UPDATE (CR*U*D) - `updateMemory(memoryId, updates)`:
-
-    1. POUR chaque salle:
-
-        Chercher l'index de la mémoire avec memoryId
-
-        SI trouvée:
-
-          a. Fusionner anciennes données + nouvelles données
-          b. Ajouter date de modification
-          c. Remplacer la mémoire à cet index
-          d. Sauvegarder dans localStorage (*OPTIONNEL POUR LE MOMENT*)
-          e. Terminer
-    
-    2. SI rien trouvé:
-
-          Afficher erreur console
-    
-
-
-    🗑️ DELETE (CRU*D*) - deleteMemory(memoryId):
-
-    1. POUR chaque salle:
-
-        Chercher l'index de la mémoire avec memoryId
-
-        SI trouvée:
-          a. Supprimer la mémoire à cet index
-          b. Sauvegarder dans localStorage
-          c. RETOURNER vrai
-    
-    2. SI rien trouvé:
-        RETOURNER faux
   
-  💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
-    1. Convertir rooms en texte JSON
-    2. ESSAYER:
-          Sauvegarder dans localStorage avec clé "museum-data"
-        EN CAS D'ERREUR:
-          Afficher erreur console
+
+  🗑️ DELETE (CRU*D*) - deleteMemory(memoryId):
+
+  1. POUR chaque salle:
+
+      Chercher l'index de la mémoire avec memoryId
+
+      SI trouvée:
+        a. Supprimer la mémoire à cet index
+        b. Sauvegarder dans localStorage
+        c. RETOURNER vrai
   
-  📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
-    1. ESSAYER:
-          Récupérer données de localStorage avec clé "museum-data"
-          SI données existent:
-            Convertir de JSON vers objet
-            Remplacer rooms par ces données
-        EN CAS D'ERREUR:
-          Afficher erreur console
+  2. SI rien trouvé:
+      RETOURNER faux
+
+    💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+
+      1. Convertir rooms en texte JSON
+      2. ESSAYER:
+            Sauvegarder dans localStorage avec clé "museum-data"
+          EN CAS D'ERREUR:
+            Afficher erreur console
+  
+    📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+
+      1. ESSAYER:
+            Récupérer données de localStorage avec clé "museum-data"
+            SI données existent:
+              Convertir de JSON vers objet
+              Remplacer rooms par ces données
+          EN CAS D'ERREUR:
+            Afficher erreur console
 
 
 
