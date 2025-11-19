@@ -32,7 +32,7 @@ COMPOSANT `MemoryForm`
         SI memory existe ALORS mode édition donc retourne `true`
         SINON mode mode ajout donc retourne `false`
   
-  AU CHARGEMENT `created`()` :
+  AU CHARGEMENT `created()` :
 
     SI mode édition `isEditing` est vrai
       Pré-remplir `formData` avec les données de memory
@@ -109,7 +109,7 @@ COMPOSANT `MemoryForm`
 
 STORE memoryStore
 
-  ÉTAT (state):
+  ÉTAT `state`:
 
     - rooms (liste de salles [ ]):
 
@@ -121,9 +121,11 @@ STORE memoryStore
           - image d'arrière plan (optionnel)
           - memories (liste des mémoires dans cette salle)
   
-  GETTERS (fonctions de lecture):
+  GETTERS (fonctions de lecture) `getters`:
+
+    📖 READ (C*R*UD)
   
-    getMemoriesByRoom(roomId):
+    `getMemoriesByRoom(roomId)`:
 
       1. Chercher la salle avec cet ID
       2. SI trouvée:
@@ -131,7 +133,7 @@ STORE memoryStore
          SINON:
            RETOURNER liste vide
     
-    getMemoryById(memoryId):
+    `getMemoryById(memoryId)`:
 
       1. POUR chaque salle:
            POUR chaque mémoire dans la salle:
@@ -140,9 +142,9 @@ STORE memoryStore
       2. SI rien trouvé:
            RETOURNER null
   
-  ACTIONS (fonctions de modification):
+  ACTIONS (fonctions de modification) `actions`:
   
-    ✅ CREATE - addMemory(roomId, memoryData):
+    ✅ CREATE (*C*RUD) - `addMemory(roomId, memoryData)`:
 
       1. Trouver la salle avec roomId
         SI salle introuvable:
@@ -158,9 +160,9 @@ STORE memoryStore
       
       4. Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
     
-    📖 READ - Pas d'action, utiliser les getters
+    📖 READ (C*R*UD) - Pas d'action, utiliser les getters
     
-    ✏️ UPDATE - updateMemory(memoryId, updates):
+    ✏️ UPDATE (CR*U*D) - `updateMemory(memoryId, updates)`:
 
       1. POUR chaque salle:
 
@@ -178,7 +180,7 @@ STORE memoryStore
 
            Afficher erreur console
     
-    🗑️ DELETE - deleteMemory(memoryId):
+    🗑️ DELETE (CRU*D*) - deleteMemory(memoryId):
 
       1. POUR chaque salle:
 
@@ -215,8 +217,7 @@ STORE memoryStore
 
 ### Exemple : `RoomView.vue` (Afficher et supprimer)
 
-
-COMPOSANT RoomView
+COMPOSANT `RoomView`
 
   DONNÉES `data()` :
 
@@ -232,12 +233,12 @@ COMPOSANT RoomView
     - memories:
         Obtenir toutes les mémoires de roomId depuis le store
   
-  AU CHARGEMENT `created`()` :
+  AU CHARGEMENT `created()` :
 
     1. Récupérer roomId depuis l'URL
     2. Charger les données du localStorage
   
-  MMÉTHODES `methods` :
+  MÉTHODES `methods` :
   
     `editMemory(memory)`
 
@@ -275,7 +276,7 @@ COMPOSANT RoomView
           * Bouton "Modifier"
           * Bouton "Supprimer"
 
-    - Modal avec formulaire (visible si showAddForm = vrai)
+    - Modal avec formulaire (visible si `showAddForm` = vrai)
 
 
 
