@@ -220,6 +220,11 @@ export const useMemoryStore = defineStore('memory', {
   }),
   
   getters: {
+    filteredMemories: (state) => () => {
+      
+    },
+    
+
     // Obtenir toutes les mémoires d'une salle
     getMemoriesByRoom: (state) => (roomId) => {
       const room = state.rooms.find(r => r.id === roomId);

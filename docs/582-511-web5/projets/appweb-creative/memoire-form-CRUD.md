@@ -1,4 +1,4 @@
-## CRUD des Mémoires - Explication en Pseudo-code
+# CRUD des Mémoires - Explication en Pseudo-code
 
 ## 📝 Formulaires d'ajout/édition
 
@@ -12,39 +12,47 @@ COMPOSANT MemoryForm
     - roomId (obligatoire) : ID de la salle où ajouter la mémoire
   
   DONNÉES:
-    - formData:
-        * titre (texte)
+    - formData un objet { } qui contient ces propriété:
+        * title (texte)
         * description (texte long)
         * date (date)
         * image (fichier)
         * imagePreview (URL pour affichage)
-        * tags (liste de tags sélectionnés)
+        * tags (liste [ ] de tags sélectionnés)
     
-    - errors (objet pour stocker les erreurs de validation)
-    - availableTags (liste des tags prédéfinis)
+    - errors (objet { } pour stocker les erreurs de validation)
+    - availableTags (liste [ ] des tags prédéfinis)
   
-  CALCULS:
+  PROPRIÉTÉ CALCULÉE:
     - isEditing:
         SI memory existe ALORS mode édition
-        SINON mode ajout
+        SINON mode mode ajout
   
   AU CHARGEMENT:
     SI mode édition:
       Pré-remplir formData avec les données de memory
   
   MÉTHODES:
-  
-    handleImageUpload(fichier):
-      1. Récupérer le fichier uploadé
+    handleImageUpload(event):
+      1. Récupérer le fichier uploadé: const file = event.target.files[0];
       2. Vérifier la taille (max 2MB)
          SI trop grand:
            Afficher erreur "Image trop grande"
-           Arrêter
+           Arrêter (return)
+
       3. Convertir le fichier en base64 (pour localStorage)
       4. Stocker dans formData.image et formData.imagePreview
-    
+
+      // Convertir en base64 pour localStorage et stocker (3 et 4)
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        this.formData.image = e.target.result;
+        this.formData.imagePreview = e.target.result;
+      };
+      reader.readAsDataURL(file);
+
     validateForm():
-      1. Réinitialiser errors
+      1. Réinitialiser l'objet errors à un objet vide { }
       2. SI titre est vide:
            Ajouter erreur "Le titre est obligatoire"
       3. SI description est vide:
@@ -54,7 +62,7 @@ COMPOSANT MemoryForm
     handleSubmit():
       1. Valider le formulaire
          SI non valide:
-           Arrêter
+           Arrêter (return)
       
       2. Récupérer le store des mémoires
       
@@ -63,10 +71,10 @@ COMPOSANT MemoryForm
          SINON:
            Appeler store.addMemory(roomId, formData)
       
-      4. Émettre événement "saved" pour fermer le formulaire
+      4. Émettre (emit) événement "saved" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
     
     cancel():
-      Émettre événement "cancel"
+      Émettre (emit) un événement "cancel" pour fermer le formulaire (si modale) ou retourner en arrière avec this.$router.back
   
   TEMPLATE:
     Formulaire avec:
@@ -82,16 +90,17 @@ COMPOSANT MemoryForm
 
 ## CRUD Complet dans le Store Pinia
 
-### `stores/memoryStore.js`
+### `stores/memory.js`
 ```
 STORE memoryStore
 
-  ÉTAT:
-    - rooms (liste de salles):
+  ÉTAT (state):
+    - rooms (liste de salles [ ]):
         * Chaque salle contient:
           - id (identifiant unique)
           - name (nom de la salle)
-          - color (couleur thématique)
+          - color (couleur thématique) (optionnel)
+          - image d'arrière plan (optionnel)
           - memories (liste des mémoires dans cette salle)
   
   GETTERS (fonctions de lecture):
@@ -117,7 +126,7 @@ STORE memoryStore
       1. Trouver la salle avec roomId
          SI salle introuvable:
            Afficher erreur console
-           Arrêter
+           Arrêter (return)
       
       2. Créer nouvelle mémoire:
          - Générer ID unique (timestamp actuel)
@@ -237,7 +246,7 @@ COMPOSANT RoomView
 
 1. Utilisateur clique "Ajouter une mémoire"
    ↓
-2. Modal s'ouvre avec formulaire vide
+2. Modal s'ouvre avec formulaire vide (ou navigation vers page du formulaire)
    ↓
 3. Utilisateur remplit les champs
    ↓
@@ -256,7 +265,7 @@ COMPOSANT RoomView
       ↓
    10. Événement "saved" émis
        ↓
-   11. Modal se ferme
+   11. Modal se ferme (ou navigation back à la page précédente)
        ↓
    12. Liste des mémoires se met à jour automatiquement
 
