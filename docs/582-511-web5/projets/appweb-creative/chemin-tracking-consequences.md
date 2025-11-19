@@ -31,17 +31,19 @@ state: () => ({
 })
 
 // Exemple de choix dans votre json
-{
-  text: "Sauver le chat coincé dans l'arbre",
-  effects: { karma: +2 },  // Bon choix
-  nextChapter: "ch-3"
-}
-
-{
-  text: "Ignorer le chat et partir",
-  effects: { karma: -1 },  // Mauvais choix
-  nextChapter: "ch-4"
-}
+choices: 
+[
+  {
+    text: "Sauver le chat coincé dans l'arbre",
+    effects: { karma: +2 },  // Bon choix
+    nextChapter: "ch-3"
+  },
+  {
+    text: "Ignorer le chat et partir",
+    effects: { karma: -1 },  // Mauvais choix
+    nextChapter: "ch-4"
+  }
+]
 
 // À la fin, on vérifie:
 if (karma >= 5) → Fin Héroïque
