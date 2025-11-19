@@ -64,9 +64,9 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 - Mise en page HTML+CSS
 - Adaptative (responsive) via `display: grid`, `display: flex` et requêtes média (media queries).
 
-## Phase interactivité
+## Phase interactivité (1er décembre):
 
-### Phase interactivité: *Mémoires interactives*
+### Phase interactivité (1er décembre): *Mémoires interactives*
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
@@ -82,7 +82,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
   - CRUD des mémoires (CRUD: Create, Read, Update, Delete)
   - Upload et gestion d'images
 
-#### Prochain cours
+#### Prochain cours (suite phase interactivité (1er décembre)):
 
 - Validation des données entrées dans les formulaires
 
@@ -91,7 +91,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
   - Recherche parmi les mémoires
 
 
-### Phase interactivité: *Trace ton chemin*
+### Phase interactivité (1er décembre): *Trace ton chemin*
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-creative-webapp.svg">
@@ -113,7 +113,7 @@ Implémentation de la logique des fins (conditions d'accès à la fin)
 
 <span class="important-label">IMPORTANT</span> Si vous devez changer un peu votre histoire pour implémenter ce système de conséquence, n'oubliez pas de mettre à jour votre arbre narratif ( *2.2 Arbre naratif* ) dans votre cahier de charges afin qu'il reflète toutes les décisions de votre histoire finale.
 
-#### Prochain cours
+#### Prochain cours (suite phase interactivité (1er décembre)):
 
 - Implémentation de l'historique des décisions du joueur
   - Enregistrement de chaque décision

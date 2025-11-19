@@ -261,19 +261,18 @@ nav:
         - Routes: 582-511-web5/vue/router-and-views.md
         - Pinia stores: 582-511-web5/vue/pinia.md
         - Charger json ds store Pinia: 582-511-web5/vue/pinia-load-data-json.md"
-        
       - Fetch API:
         - 582-511-web5/fetch.md
         - Fetch API: 582-511-web5/fetch.html#fetch-api
         - Promesse JS: 582-511-web5/fetch.html#promesses-javascript
         - Gestion données reçues: 582-511-web5/fetch.html#gestions-des-donnees-recues
-      - Projet portfolio:
-        - 582-511-web5/projets/portfolio.md
-        - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
-        - Remise 2 Design: 582-511-web5/projets/portfolio-remise2.md
-        - Remise 3 Intégration: 582-511-web5/projets/portfolio-remise3.md
-        - Fetch et Vue: 582-511-web5/projets/portfolio-instructions-fecth-vue.md
-        - Présentation orale: 582-511-web5/projets/portfolio-presentation.md
+#      - Projet portfolio:
+#        - 582-511-web5/projets/portfolio.md
+#        - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
+#        - Remise 2 Design: 582-511-web5/projets/portfolio-remise2.md
+#        - Remise 3 Intégration: 582-511-web5/projets/portfolio-remise3.md
+#        - Fetch et Vue: 582-511-web5/projets/portfolio-instructions-fecth-vue.md
+#        - Présentation orale: 582-511-web5/projets/portfolio-presentation.md
       - Projet app créative:
         - 582-511-web5/projets/appweb-creative/index.md
         - Calendrier: 582-511-web5/projets/appweb-creative/calendrier.md
@@ -281,6 +280,8 @@ nav:
         - Cahier de charges A: 582-511-web5/projets/appweb-creative/cahier_charges_memoires.md
         - Cahier de charges B: 582-511-web5/projets/appweb-creative/cahier_charges_chemin.md
         - Fondation du projet: 582-511-web5/projets/appweb-creative/aide-fondation.md
+        - A-Interac-Formulaire et CRUD: 582-511-web5/projets/appweb-creative/memoire-form-crud.md
+        - B-Interac-Système conséquences: 582-511-web5/projets/appweb-creative/chemin-tracking-consequences.md
       - Cours 1.1: 582-511-web5/cours01a.md
       - Cours 1.2: 582-511-web5/cours01b.md
       - Cours 2.1: 582-511-web5/cours02a.md
