@@ -165,7 +165,7 @@ STORE memoryStore
 
   ✏️ UPDATE (CR *U* D) - `updateMemory(memoryId, updates)`:
 
-  1. POUR chaque salle:
+    1. POUR chaque salle:
 
       Chercher l'index de la mémoire avec memoryId
 
@@ -177,15 +177,15 @@ STORE memoryStore
         d. Sauvegarder dans localStorage (*OPTIONNEL POUR LE MOMENT*)
         e. Terminer
   
-  2. SI rien trouvé:
+    2. SI rien trouvé:
 
         Afficher erreur console
-  
+    
 
 
   🗑️ DELETE (CRU *D* ) - deleteMemory(memoryId):
 
-  1. POUR chaque salle:
+    1. POUR chaque salle:
 
       Chercher l'index de la mémoire avec memoryId
 
@@ -193,27 +193,27 @@ STORE memoryStore
         a. Supprimer la mémoire à cet index
         b. Sauvegarder dans localStorage
         c. RETOURNER vrai
-  
-  2. SI rien trouvé:
-      RETOURNER faux
+    
+    2. SI rien trouvé:
+        RETOURNER faux
 
-    💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+      💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
-      1. Convertir rooms en texte JSON
-      2. ESSAYER:
-            Sauvegarder dans localStorage avec clé "museum-data"
-          EN CAS D'ERREUR:
-            Afficher erreur console
-  
-    📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+        1. Convertir rooms en texte JSON
+        2. ESSAYER:
+              Sauvegarder dans localStorage avec clé "museum-data"
+            EN CAS D'ERREUR:
+              Afficher erreur console
+    
+      📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
-      1. ESSAYER:
-            Récupérer données de localStorage avec clé "museum-data"
-            SI données existent:
-              Convertir de JSON vers objet
-              Remplacer rooms par ces données
-          EN CAS D'ERREUR:
-            Afficher erreur console
+        1. ESSAYER:
+              Récupérer données de localStorage avec clé "museum-data"
+              SI données existent:
+                Convertir de JSON vers objet
+                Remplacer rooms par ces données
+            EN CAS D'ERREUR:
+              Afficher erreur console
 
 
 
