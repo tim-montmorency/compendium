@@ -74,7 +74,7 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 </div>
 
 
-#### Aujourd'hui, travailler sur:
+#### Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
 
 - Ajouts/éditions de mémoires
   - Création des formulaires d'ajout/édition
@@ -99,14 +99,14 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 </div>
 
 
-#### Aujourd'hui, travailler sur:
+#### Aujourd'hui, travailler sur *Systèmes de tracking des conséquences*
 
-- Système de tracking des conséquences (minimum un des 4 systèmes listés ci-dessous)
+Minimum 1 des 4 systèmes listés ci-dessous:
 
-  1. Système de flags (événements déclenchés)
-  2. Karma/statistiques
-  3. Inventaire
-  4. Relations avec personnages
+1. Karma/Moralité
+2. Système de flags (événements déclenchés)
+3. Inventaire d'objets (collecte)
+4. Statistiques du personnage (style RPG)
 
 
 #### Prochain cours

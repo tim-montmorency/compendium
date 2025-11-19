@@ -13,10 +13,10 @@ Chaque choix que fait l'utilisateur modifie l'*état du joueur* (son profil), ce
 
 Minimum 1 des 4 systèmes listés ci-dessous:
 
-- 1. Karma/Moralité
-- 2. Système de flags (événements déclenchés)
-- 3. Inventaire d'objets (collecte)
-- 4. Statistiques du personnage (style RPG)
+1. Karma/Moralité
+2. Système de flags (événements déclenchés)
+3. Inventaire d'objets (collecte)
+4. Statistiques du personnage (style RPG)
 
 ---
 
