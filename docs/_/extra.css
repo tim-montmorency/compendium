@@ -645,11 +645,17 @@ stop:before {
     padding-top: 0;
     border: none;
  }
-.finishing .md-typeset h1 + h2 {
+.finishing .md-typeset h1 + h2
+ {
   border-top: 0;
   padding-top: 0;
   margin-top: 0;
 }
+
+.finishing .md-typeset h1:has(+ p) {
+  margin-bottom: 0;
+}
+
 .finishing .md-typeset h3 {
   font-size: 1.9em;
 }
