@@ -1,4 +1,4 @@
-# Cours 13.2 Interactivité et mise en page
+# Cours 13.2 Phase interactivité
 
 26 novembre
 
