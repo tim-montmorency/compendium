@@ -88,20 +88,23 @@ COMPOSANT `MemoryForm`
 
 #### PROPS `props`
 
-- memory (optionnel) : *SI* présent = mode édition, sinon = mode ajout
 - roomId (obligatoire) : ID de la salle où ajouter la mémoire
+- memory (optionnel) : ID de la mémoire à modifier
+  - *SI* présent = mode édition
+  - *SINON* = mode ajout
+
   
 
 #### DONNÉES `data()`
 
 - `formData` un objet { } qui contient ces propriétés:
 
-  * `title` (texte)
-  * `description` (texte long)
-  * `date` (date)
-  * `image` (fichier)
-  * `imagePreview` (URL pour affichage)
-  * `tags` (liste [ ] de tags sélectionnés)
+  - `title` (texte)
+  - `description` (texte long)
+  - `date` (date)
+  - `image` (fichier)
+  - `imagePreview` (URL pour affichage)
+  - `tags` (liste [ ] de tags sélectionnés)
 
 - `errors` (objet { } pour stocker les erreurs de validation)
 - `availableTags` (liste [ ] des tags prédéfinis)
@@ -130,7 +133,6 @@ COMPOSANT `MemoryForm`
     - Arrêter (return)
 - Convertir le fichier en base64 (pour localStorage)
 - Stocker dans formData.image et formData.imagePreview
-
 
 *Code pour convertir en base64 pour localStorage et stocker (*3 et 4*)*
 
