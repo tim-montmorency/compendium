@@ -1,6 +1,6 @@
-# Tracking des conséquences / inventaire etc
+# Tracking des conséquences / inventaire
 
-Chaque choix que fait l'utilisateur modifie l'*état du joueur* (son profil), ce qui influence quelles fins il peut atteindre.
+Chaque choix que fait l'utilisateur modifie l'*état du joueur* (son profil), ce qui influence quelles fins ou chemins il peut atteindre.
 
 ## Démo en classe de karmas et statistiques dans l'histoire "Trace ton chemin".
 
@@ -20,7 +20,7 @@ Minimum 1 des 4 systèmes listés ci-dessous:
 
 ---
 
-### 1️⃣ **Points de Karma/Moralité** (++ ou --)
+### 1️⃣ **Points de karma/moralité** (++ ou --)
 
 Chaque choix donne des points positifs ou négatifs.
 
@@ -63,7 +63,7 @@ if (karma <= -5) → Fin Sombre
 
 ---
 
-### 2️⃣ **Système de Flags** (débloque des chemins)
+### 2️⃣ **Système de flags** (débloque des chemins)
 
 Des variables "vrai/faux" qui trackent si un événement est arrivé.
 
@@ -97,7 +97,7 @@ Au chapitre 2, si le joueur choisit "Parler au vieil homme":
 À la fin, dans la `View` des chapitres (probablement `chapterView`)
 
 ```javascript
-// Ce choix apparaît SEULEMENT si hasMetMentor = true
+// Ce choix apparaît SEULEMENT si hasMetMentor == true
 if (playerStore.flags.hasMetMentor) {
   choices.push({
     text: "Demander de l'aide au mentor"
