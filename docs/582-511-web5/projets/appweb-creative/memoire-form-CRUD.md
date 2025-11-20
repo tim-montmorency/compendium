@@ -191,7 +191,7 @@ reader.readAsDataURL(file);
   
 #### GETTERS (fonctions de lecture) `getters`:
 
-📖 <em>R</em>EAD (C<em>R</em>UD)
+##### 📖 <em>R</em>EAD (C<em>R</em>UD)
 
 `getMemoriesByRoom(roomId)`:
 
@@ -212,7 +212,7 @@ reader.readAsDataURL(file);
   
 #### ACTIONS (fonctions de modification) `actions`:
   
-✅ <em>c</em>REATE (<em>c</em>RUD) - `addMemory(roomId, memoryData)`:
+##### ✅ <em>C</em>REATE (<em>C</em>RUD) - `addMemory(roomId, memoryData)`:
 
 - Trouver la salle avec roomId
   - *SI* salle introuvable:
@@ -227,11 +227,11 @@ reader.readAsDataURL(file);
   
 
 
-📖 <em>R</em>EAD (C<em>R</em>UD) - Pas d'`action`, utiliser les `getters`
+##### 📖 <em>R</em>EAD (C<em>R</em>UD) - Pas d'`action`, utiliser les `getters`
   
 
 
-✏️ <em>U</em>PDATE (CR<em>U</em>D) - `updateMemory(memoryId, updates)`:
+##### ✏️ <em>U</em>PDATE (CR<em>U</em>D) - `updateMemory(memoryId, updates)`:
 
 - POUR chaque salle:
   - Chercher l'index de la mémoire avec `memoryId`
@@ -247,7 +247,7 @@ reader.readAsDataURL(file);
   
 
 
-🗑️ <em>D</em>ELETE (CRU<em>D</em>) - deleteMemory(memoryId):
+##### 🗑️ <em>D</em>ELETE (CRU<em>D</em>) - deleteMemory(memoryId):
 
 - POUR chaque salle:
   - Chercher l'index de la mémoire avec `memoryId`
@@ -258,7 +258,7 @@ reader.readAsDataURL(file);
     - *SI* rien trouvé:
       - RETOURNER faux
 
-💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+##### 💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
 - Convertir rooms en texte JSON
 - ESSAYER:
@@ -266,7 +266,7 @@ reader.readAsDataURL(file);
 - EN CAS D'ERREUR:
   - Afficher erreur console
 
-📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+##### 📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
 - ESSAYER `try`
   - Récupérer données de localStorage avec clé "museum-data"
