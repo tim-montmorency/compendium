@@ -88,8 +88,8 @@ COMPOSANT `MemoryForm`
 
 #### PROPS `props`
 
-- roomId (obligatoire) : ID de la salle où ajouter la mémoire
-- memory (optionnel) : ID de la mémoire à modifier
+- `roomId` (obligatoire) : ID de la salle où ajouter la mémoire
+- `memory` (optionnel) : ID de la mémoire à modifier
   - *SI* présent = mode édition
   - *SINON* = mode ajout
 
@@ -129,7 +129,7 @@ COMPOSANT `MemoryForm`
 - Récupérer le fichier uploadé: `const file = event.target.files[0];`
 - Vérifier la taille (max 2MB)
   - *SI* trop grand:
-    - Afficher erreur "Image trop grande"
+    - Afficher erreur "*Image trop grande*"
     - Arrêter (return)
 - Convertir le fichier en base64 (pour localStorage)
 - Stocker dans formData.image et formData.imagePreview
@@ -162,14 +162,14 @@ reader.readAsDataURL(file);
     - Arrêter (return)
 - Récupérer le store des mémoires
 - *SI* mode édition:
-  - Appeler store.updateMemory(idMémoire, formData)
+  - Appeler `store.updateMemory(memoryId, formData)`
 - *SINON*:
-  - Appeler store.addMemory(roomId, formData)
-- Émettre (emit) événement "saved" pour fermer le formulaire (*SI* modale) ou retourner en arrière avec this.$router.back
+  - Appeler `store.addMemory(roomId, formData)`
+- Émettre (`emit`) événement `saved` pour fermer le formulaire (si modale) ou retourner en arrière avec `this.$router.back`
   
 `cancel()`
 
-- Émettre (emit) un événement "cancel" pour fermer le formulaire (*SI* modale) ou retourner en arrière avec this.$router.back
+- Émettre (`emit`) un événement `cancel` pour fermer le formulaire (si modale) ou retourner en arrière avec `this.$router.back`
 
 
 
@@ -181,15 +181,15 @@ reader.readAsDataURL(file);
 
 #### ÉTAT `state`:
 
-- rooms (liste de salles [ ]):
+- `rooms` (liste de salles [ ]):
 
   - Chaque salle contient:
 
-    - id (identifiant unique)
-    - name (nom de la salle)
-    - color (couleur thématique) (optionnel)
-    - image d'arrière plan (optionnel)
-    - memories (liste des mémoires dans cette salle)
+    - `id` (identifiant unique)
+    - `name` (nom de la salle)
+    - `color` (couleur thématique) (optionnel)
+    - `image` d'arrière plan (optionnel)
+    - `memories` (liste des mémoires dans cette salle)
   
 #### GETTERS (fonctions de lecture) `getters`:
 
@@ -199,32 +199,32 @@ reader.readAsDataURL(file);
 
 - Chercher la salle avec cet ID
   - *SI* la salle est trouvée:
-    - RETOURNER sa liste de memories
+    - RETOURNER sa liste de `memories`
   - *SINON*:
-    - RETOURNER liste vide
+    - RETOURNER liste vide `[]`
 
 `getMemoryById(memoryId)`:
 
 - POUR chaque salle:
   - POUR chaque mémoire dans la salle:
-    - *SI* mémoire.id == memoryId:
+    - *SI* `memory.id` == `memoryId`:
       - RETOURNER cette mémoire
     - *SI* rien trouvé:
-        RETOURNER null
+        RETOURNER `null`
   
 #### ACTIONS (fonctions de modification) `actions`:
   
 ##### ✅ <em>C</em>REATE (<em>C</em>RUD) - `addMemory(roomId, memoryData)`:
 
-- Trouver la salle avec roomId
+- Trouver la salle avec `roomId`
   - *SI* salle introuvable:
     - Afficher erreur console
     - Arrêter (return)
 - Créer nouvelle mémoire:
   - Générer ID unique (timestamp actuel)
-  - Copier toutes les données de memoryData
+  - Copier toutes les données de `memoryData`
   - Ajouter date de création
-- Ajouter la mémoire à room.memories
+- Ajouter la mémoire à `room.memories`
 - Sauvegarder tout dans localStorage (OPTIONNEL POUR LE MOMENT)
   
 
@@ -288,35 +288,35 @@ COMPOSANT `RoomView`
 
 #### DONNÉES `data()`
 
-- roomId (ID de la salle actuelle)
-- showAddForm (booléen : modal ouvert ou fermé)
-- memoryToEdit (mémoire en cours d'édition ou null)
+- `roomId` (ID de la salle actuelle)
+- `showAddForm` (booléen : modal ouvert ou fermé)
+- `memoryToEdit` (mémoire en cours d'édition ou null)
   
 #### PROPRIÉTÉ CALCULÉE `computed`
 
-- currentRoom:
-  - Chercher la salle avec roomId dans le store
+- `currentRoom`:
+  - Chercher la salle avec `roomId` dans le store
 
 - memories:
-  - Obtenir toutes les mémoires de roomId depuis le store
+  - Obtenir toutes les mémoires de `roomId` depuis le store
   
 #### AU CHARGEMENT `created()`
 
-  1. Récupérer roomId depuis l'URL
+  1. Récupérer `roomId` depuis l'URL
   2. Charger les données du localStorage
   
   MÉTHODES `methods` :
   
   `editMemory(memory)`
 
-    1. Stocker memory dans memoryToEdit
+    1. Stocker `memory` dans `memoryToEdit`
     2. Ouvrir le modal (showAddForm = vrai)
   
   `confirmDelete(memoryId)`
 
     1. Demander confirmation "Supprimer cette mémoire ?"
     2. *SI* utilisateur confirme:
-          Appeler store.deleteMemory(memoryId)
+          Appeler `store.deleteMemory(memoryId)`
   
   `handleSaved()`
 
@@ -324,8 +324,8 @@ COMPOSANT `RoomView`
   
   `closeForm()`
 
-    1. Fermer le modal (showAddForm = faux)
-    2. Réinitialiser memoryToEdit à null
+    1. Fermer le modal (`showAddForm` = faux)
+    2. Réinitialiser `memoryToEdit` à null
   
 #### TEMPLATE:
 
