@@ -56,7 +56,7 @@ COMPOSANT `MemoryForm`
         accept="image/*"
         @change="handleImageUpload"
       >
-      <img v-if="formData.imagePreview" :src="formData.imagePreview" class="preview">
+      <img v-if="formData.imagePreview" :src="formData.imagePreview">
     </div>
     
     <!-- Tags -->
