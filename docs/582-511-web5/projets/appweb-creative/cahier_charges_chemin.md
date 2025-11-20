@@ -285,22 +285,22 @@ Listez vos composants Vue principaux:
 
 *Stores prévus:*
 
-1. *`useStoryStore`*
+1. *`story`*
    - State: `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
    - Actions: `loadChapter()`, `makeChoice()`, `goToChapter()`
    - Getters: `currentChapter`, `isChapterUnlocked()`
 
-2. *`usePlayerStore`*
+2. *`player`*
    - State: `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
    - Actions: `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
    - Getters: `hasItem()`, `getRelationship()`, `canAccessEnding()`
 
-3. *`useSaveStore`*
+3. *`save`*
    - State: `saveSlots` (array de 3 slots)
    - Actions: `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
    - Getters: `hasSaves`, `latestSave`
 
-4. *`useAudioStore`* (optionnel)
+4. *`audio`* (optionnel)
    - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
    - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
 

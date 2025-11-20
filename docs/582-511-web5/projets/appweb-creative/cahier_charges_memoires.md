@@ -140,6 +140,7 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 ### 3.4 Style visuel
 
 Choisissez un ou plusieurs styles:
+
 - [ ] Minimaliste
 - [ ] Vintage/Rétro
 - [ ] Moderne/Futuriste
@@ -210,16 +211,16 @@ Listez vos composants Vue principaux:
 
 *Stores prévus:*
 
-1. *`useMuseumStore`*
+1. *`museum`*
    - State: `rooms`, `currentRoomId`, `museumName`, `theme`
    - Actions: `addRoom()`, `updateRoom()`, `deleteRoom()`, `setCurrentRoom()`
 
-2. *`useMemoryStore`*
+2. *`memory`*
    - State: `memories`, `filters`, `searchQuery`
    - Actions: `addMemory()`, `updateMemory()`, `deleteMemory()`, `searchMemories()`
    - Getters: `filteredMemories`, `memoriesByRoom`, `memoriesByTag`
 
-3. *`useAuthStore`* (optionnel)
+3. *`auth`* (optionnel)
    - State: `user`, `isAuthenticated`
    - Actions: `login()`, `logout()`, `register()`
 

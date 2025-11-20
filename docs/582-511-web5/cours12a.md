@@ -1,5 +1,8 @@
 # Cours 12.1 Phase fondation
 
+Lundi 17 novembre
+
+
 ## Aujourd'hui
 
 Le cours d'aujourd'hui est dédié à l'avancement de votre projet et des rencontres prof/équipe pour vous accompagner.

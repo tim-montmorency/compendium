@@ -1,6 +1,6 @@
-# Cours 13.2 Interactivité et mise en page
+# Cours 13.2 Phase interactivité
 
-26 novembre
+Mercredi 26 novembre
 
 <!-- 
 !!! example "*REMISE Phases 4 animation+médias*: Formatif"
@@ -27,7 +27,14 @@
 
 ## Aujourd'hui
 
+## SCRUM
 
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+  - 🌹 Mes accomplissements
+  - 🚀 Prochaine semaine
+  - 🌵 Problèmes
+  - 🎉 Ce qui me motive
 
 ## Avancement 
 

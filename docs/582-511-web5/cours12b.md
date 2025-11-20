@@ -1,8 +1,8 @@
-# Cours 12.2Interactivité et mise en page
+# Cours 12.2 Phase interactivité
 
-19 novembre
+Mercredi 19 novembre
 
-!!! example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
+??? example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
 
     *IMPORTANT* : 
     
@@ -46,12 +46,84 @@
     - Pour chaque route, lister: path, name, composant (la view) et une description
 
 
-
-
-
 ## Évaluation par les pairs et auto-évaluation de mi-parcours (sommatif 5%)
 
-Réalisé en classe. Instructions à venir.
+Cette auto-évaluation et évaluation par les pairs vise à identifier les forces du fonctionnement d’équipe et les points à améliorer pour le reste du projet.
+
+Répondez honnêtement : le but n’est **pas** de juger les autres, mais d’aider votre équipe à ajuster sa collaboration d’ici la remise finale.
+
+L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) sera faite à la toute fin, lors de la mise en relation avec votre post-mortem.
+
+[Évaluation par les pairs et auto-évaluation](https://forms.office.com/r/nx4WVECugR){ .md-button }
+
+## SCRUM
+
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+  - 🌹 Mes accomplissements
+  - 🚀 Prochaine semaine
+  - 🌵 Problèmes
+  - 🎉 Ce qui me motive
+
+## Intégration des médias et mise en page
+
+- Intégration des médias
+- Mise en page HTML+CSS
+- Adaptative (responsive) via `display: grid`, `display: flex` et requêtes média (media queries).
+
+
+## Phase interactivité (1er décembre): *Mémoires interactives*
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoire-form-CRUD.html">Mémoires: CRUD des mémoires (Create, Read, Update, Delete). Upload d'images.</a>
+</div>
+
+
+### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Formulaire et ajouts/éditions de mémoires"
+
+- Ajouts/éditions de mémoires
+  - Création des formulaires d'ajout/édition
+  - CRUD des mémoires (CRUD: Create, Read, Update, Delete)
+  - Upload et gestion d'images
+
+### Prochain cours (suite phase interactivité (1er décembre)):
+
+- Validation des données entrées dans les formulaires
+
+- Implémentation des filtres et de la recherche
+  - Filtre par catégorie (tag) et/ou par date
+  - Recherche parmi les mémoires
+
+
+## Phase interactivité (1er décembre): *Trace ton chemin*
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/chemin-tracking-consequences.html">Trace ton chemin: tracking des conséquences et statistiques</a>
+</div>
+
+
+### DEVOIR ET EN CLASSE: Aujourd'hui, travailler sur "Systèmes de tracking des conséquences"
+
+#### Minimum 1 des 4 systèmes listés ci-dessous:
+
+1. Karma/Moralité
+2. Système de flags (événements déclenchés)
+3. Inventaire d'objets (collecte)
+4. Statistiques du personnage (style RPG)
+
+#### Implémentation de la logique des fins (conditions d'accès à la fin)
+
+
+<span class="important-label">IMPORTANT</span> Si vous devez changer un peu votre histoire pour implémenter ce système de conséquence, n'oubliez pas de mettre à jour votre arbre narratif ( *2.2 Arbre naratif* ) dans votre cahier de charges afin qu'il reflète toutes les décisions de votre histoire finale.
+
+#### Prochain cours (suite phase interactivité (1er décembre)):
+
+- Implémentation de l'historique des décisions du joueur
+  - Enregistrement de chaque décision
+  - Affichage des décisions et statistiques dans un menu ou à la fin
+
 
 <!--
 
@@ -91,7 +163,6 @@ Développement du système de choix:
 - Redirection vers le bon chapitre
 
 Tests des premières branches
-
 
 ## Devoirs
 

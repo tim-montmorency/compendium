@@ -153,6 +153,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: Logique de branches narratives (30 min)
 - Développement du système de choix:
   - Affichage dynamique des choix
@@ -161,6 +162,7 @@
 - Tests des premières branches
 
 **Jour 2 (5h):**
+
 - Implémentation du tracking des conséquences:
   - Système de flags (événements déclenchés)
   - Karma/stats (si applicable)
@@ -186,6 +188,7 @@
 - [ ] **Logique des fins** implémentée (conditions d'accès)
 
 ### 🎯 Checkpoint enseignant
+
 - Test d'une branche complète (de l'intro à une fin)
 - Vérification de la logique de conséquences
 - Feedback sur la cohérence narrative
@@ -204,6 +207,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: GSAP pour narration interactive (45 min)
 - Animations de texte:
   - Effet d'apparition progressive (typewriter optionnel)
@@ -212,6 +216,7 @@
 - Transitions entre chapitres
 
 **Jour 2 (5h):**
+
 - Atelier GSAP avancé (1h30):
   - Animations des boutons de choix
   - Effets de hover et sélection
@@ -238,6 +243,7 @@
 - [ ] **Effets sonores** pour choix importants (optionnel)
 
 ### 🎯 Checkpoint enseignant
+
 - Démonstration des animations (session collective)
 - Feedback sur l'ambiance et le rythme
 - Vérification de la performance
@@ -247,6 +253,7 @@
 ## 📅 SEMAINE 6: Sauvegarde et Fins
 
 ### 🎯 Objectifs
+
 - Implémenter le système de sauvegarde (3 slots)
 - Finaliser toutes les fins
 - Créer les écrans de fin avec récapitulatif
@@ -255,6 +262,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: LocalStorage et gestion de sauvegardes (30 min)
 - Implémentation du système de sauvegarde:
   - 3 slots de sauvegarde
@@ -264,6 +272,7 @@
   - Suppression de sauvegarde
 
 **Jour 2 (5h):**
+
 - Finalisation de toutes les fins:
   - Textes des fins (si pas déjà fait)
   - Conditions d'accès vérifiées
@@ -290,6 +299,7 @@
 - [ ] **Options post-fin** (rejouer, charger, etc.)
 
 ### 🎯 Checkpoint enseignant
+
 - Test du système de sauvegarde (sauvegarder, fermer, rouvrir, charger)
 - Vérification que toutes les fins sont atteignables
 - Feedback sur l'impact émotionnel des fins
@@ -299,6 +309,7 @@
 ## 📅 SEMAINE 7: Polish, Accessibilité et Relecture
 
 ### 🎯 Objectifs
+
 - Rendre le projet 100% responsive
 - Implémenter l'accessibilité (WCAG AA)
 - **Relecture complète de tous les textes**
@@ -309,6 +320,7 @@
 ### 📚 En classe (8h)
 
 **Jour 1 (3h):**
+
 - Mini-cours: Accessibilité pour applications narratives (45 min)
 - Tests et corrections responsive:
   - Mobile (320px-768px)
@@ -320,6 +332,7 @@
   - Feedback narratif
 
 **Jour 2 (5h):**
+
 - Implémentation accessibilité:
   - Navigation au clavier complète
   - ARIA labels sur tous les éléments interactifs
@@ -354,6 +367,7 @@
 - [ ] **Toutes les branches** testées une dernière fois
 
 ### 🎯 Checkpoint enseignant
+
 - Tests d'accessibilité (keyboard, contraste)
 - Tests responsive sur appareils réels
 - Lecture rapide de 2-3 chapitres (vérification qualité texte)
@@ -364,6 +378,7 @@
 ## 📅 SEMAINE 8: Finalisation et Déploiement
 
 ### 🎯 Objectifs
+
 - Finaliser la documentation
 - Déployer le projet en ligne
 - Créer une vidéo de présentation
@@ -425,6 +440,7 @@
 **Format:** 15 minutes par équipe (10 min présentation + 5 min questions)
 
 **Structure suggérée:**
+
 1. **Introduction** (1 min): Pitch de l'histoire (synopsis, genre)
 2. **Démo narrative** (5 min): Jouer un chemin de l'histoire live
    - Montrer 2-3 chapitres
@@ -454,6 +470,7 @@
 ## 🚨 Points de Vigilance par Semaine
 
 ### Semaine 1-2 ⚠️ **CRITIQUE POUR LE SUCCÈS**
+
 - ⚠️ **NE PAS sous-estimer le temps d'écriture!** C'est le plus gros risque
 - ⚠️ Écrire des histoires SIMPLES (8-10 chapitres max)
 - ⚠️ Ne pas faire trop de branches (complexité exponentielle)
@@ -462,32 +479,38 @@
 - ⚠️ Valider l'arbre narratif avec l'enseignant AVANT de coder
 
 ### Semaine 3
+
 - ⚠️ Structurer le JSON des chapitres dès le départ
 - ⚠️ Prévoir des champs pour toutes les métadonnées (bg, music, etc.)
 - ⚠️ Bien nommer les IDs de chapitres (ch-1, ch-2a, ch-2b, etc.)
 
 ### Semaine 4
+
 - ⚠️ Tester CHAQUE branche manuellement (créer une checklist)
 - ⚠️ Documenter les conditions d'accès aux fins
 - ⚠️ Attention aux bugs de logique (flags non définis, etc.)
 
 ### Semaine 5
+
 - ⚠️ Ne pas surcharger d'animations (ralentit la lecture)
 - ⚠️ Attention aux droits d'auteur des musiques/images
 - ⚠️ Tester les animations sur mobile (peuvent être lourdes)
 
 ### Semaine 6
+
 - ⚠️ Tester les sauvegardes intensivement (beaucoup de bugs possibles)
 - ⚠️ S'assurer que TOUTES les fins sont atteignables
 - ⚠️ Vérifier la cohérence narrative de chaque fin
 
 ### Semaine 7 ⚠️ **RELECTURE OBLIGATOIRE**
+
 - ⚠️ Faire relire par quelqu'un qui n'a PAS écrit
 - ⚠️ Utiliser un correcteur orthographique (Antidote, etc.)
 - ⚠️ Tester sur vrais appareils mobiles
 - ⚠️ Corriger TOUTES les fautes avant la semaine 8
 
 ### Semaine 8
+
 - ⚠️ Prévoir du temps pour les imprévus de déploiement
 - ⚠️ Ne pas spoiler les fins dans la présentation!
 - ⚠️ Répéter la démo (éviter les bugs en live)
@@ -499,12 +522,14 @@
 ### Stratégies d'écriture efficaces
 
 **Pour rester productif:**
+
 1. **Sessions chronométrées:** 30 min d'écriture intensive, 10 min pause
 2. **Écriture "brouillon rapide":** Écrire vite sans se relire (corriger après)
 3. **Collaboration asynchrone:** Chacun écrit une branche différente
 4. **Templates de scènes:** Utiliser une structure répétable
 
 **Structure de chapitre suggérée:**
+
 ```
 1. Description de la scène (2-3 phrases)
 2. Narration de l'action (1-2 paragraphes)
@@ -521,6 +546,7 @@
 - ✅ Histoire focalisée avec 3-4 personnages et 6-8 branches
 
 **Limites recommandées:**
+
 - **Chapitres:** 8-12 maximum
 - **Fins:** 3-6 (pas plus!)
 - **Branches majeures:** 2-3 seulement
@@ -543,6 +569,7 @@ Avant la semaine 7, vérifiez:
 Avant la remise finale, vérifiez que:
 
 ### Code
+
 - [ ] Aucune erreur ou warning console
 - [ ] Code commenté aux endroits clés
 - [ ] Variables et fonctions bien nommées
@@ -550,6 +577,7 @@ Avant la remise finale, vérifiez que:
 - [ ] ESLint passe sans erreur
 
 ### Fonctionnalités
+
 - [ ] Toutes les routes fonctionnent
 - [ ] Navigation entre chapitres fluide
 - [ ] Système de choix fonctionnel sur toutes les branches
@@ -559,6 +587,7 @@ Avant la remise finale, vérifiez que:
 - [ ] Médias (images/sons) intégrés
 
 ### Contenu narratif
+
 - [ ] **Tous les chapitres écrits et intégrés**
 - [ ] **Aucune faute d'orthographe**
 - [ ] **Histoire cohérente du début à la fin**
@@ -567,12 +596,14 @@ Avant la remise finale, vérifiez que:
 - [ ] Dialogues naturels et crédibles
 
 ### Qualité
+
 - [ ] Responsive sur tous les breakpoints
 - [ ] Accessible (navigation clavier, ARIA)
 - [ ] Performance optimisée
 - [ ] Tests sur Chrome, Firefox, Safari
 
 ### Documentation
+
 - [ ] README complet et clair
 - [ ] Synopsis sans spoilers
 - [ ] Instructions d'installation
@@ -581,6 +612,7 @@ Avant la remise finale, vérifiez que:
 - [ ] Crédits (texte, musiques, images)
 
 ### Présentation
+
 - [ ] Vidéo de 2-3 minutes prête
 - [ ] Slides préparés
 - [ ] Rôles de présentation répartis
@@ -700,6 +732,7 @@ Pour vous aider à organiser vos chapitres:
 ## 🏆 Critères de Réussite d'une Bonne Histoire Interactive
 
 ### ✅ Histoire engageante
+
 - [ ] Début captivant (hook dans le premier chapitre)
 - [ ] Mystère ou conflit clair
 - [ ] Personnage avec lequel on peut s'identifier
@@ -708,12 +741,14 @@ Pour vous aider à organiser vos chapitres:
 - [ ] Fins impactantes émotionnellement
 
 ### ✅ Choix significatifs
+
 - [ ] Chaque choix a une conséquence visible
 - [ ] Pas de "faux choix" (où tout mène au même endroit)
 - [ ] Dilemmes moraux intéressants
 - [ ] Conséquences logiques et cohérentes
 
 ### ✅ Rejouabilité
+
 - [ ] Envie de tester d'autres chemins
 - [ ] Fins suffisamment différentes
 - [ ] Secrets ou contenu caché (optionnel)
