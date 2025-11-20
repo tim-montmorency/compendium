@@ -27,7 +27,14 @@
 
 ## Aujourd'hui
 
+## SCRUM
 
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+  -🌹 Mes accomplissements
+  -🚀 Prochaine semaine
+  -🌵 Problèmes
+  -🎉 Ce qui me motive
 
 ## Avancement 
 

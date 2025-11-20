@@ -56,7 +56,14 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 [Évaluation par les pairs et auto-évaluation](https://forms.office.com/r/nx4WVECugR){ .md-button }
 
+## SCRUM
 
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+  -🌹 Mes accomplissements
+  -🚀 Prochaine semaine
+  -🌵 Problèmes
+  -🎉 Ce qui me motive
 
 ## Intégration des médias et mise en page
 

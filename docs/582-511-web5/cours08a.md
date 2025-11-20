@@ -98,9 +98,16 @@ Concernant le design de l'interface utilisateur:
 
 
 
-### SCRUM d'équipe
+## SCRUM
 
-10 minutes pour votre SCRUM.
+[Mêlée d'équipe](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/melee-scrum/#requis) (SCRUM) de 10 min.
+
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+  -🌹 Mes accomplissements
+  -🚀 Prochaine semaine
+  -🌵 Problèmes
+  -🎉 Ce qui me motive
 
 ### Contrat d'équipe
 

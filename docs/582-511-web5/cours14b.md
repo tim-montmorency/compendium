@@ -6,6 +6,15 @@ Merc. 3 décembre
 
     Version prête à être validée et testée pour le contrôle de la qualité
 
+## SCRUM
+
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+  -🌹 Mes accomplissements
+  -🚀 Prochaine semaine
+  -🌵 Problèmes
+  -🎉 Ce qui me motive
+
 ## Cours: Contrôle de la qualité
 
 * normes d’accessibilité
@@ -37,7 +46,6 @@ Tests unitaires avec [Vitest](https://vitest.dev/)
 - Relecture et corrections
 - Optimisation de la performance
 - Gestion des bogues
-
 
 ## Rapport du contrôle de la qualité
 

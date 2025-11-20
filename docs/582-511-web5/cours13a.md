@@ -2,7 +2,6 @@
 
 24 novembre
 
-## SCRUM d'équipe
 
 ## Documentation GSAP + Vue 3 - GSAP pour narration interactive
 
