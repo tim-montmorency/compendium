@@ -196,7 +196,7 @@ reader.readAsDataURL(file);
 `getMemoriesByRoom(roomId)`:
 
 - Chercher la salle avec cet ID
-  - *SI* trouvée:
+  - *SI* la salle est trouvée:
     - RETOURNER sa liste de memories
   - *SINON*:
     - RETOURNER liste vide
