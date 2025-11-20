@@ -1,6 +1,6 @@
 # Cours 13.1 Phase interactivité
 
-24 novembre
+Lundi 24 novembre
 
 
 ## Documentation GSAP + Vue 3 - GSAP pour narration interactive

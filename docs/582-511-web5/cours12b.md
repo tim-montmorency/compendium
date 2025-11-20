@@ -1,6 +1,6 @@
 # Cours 12.2 Phase interactivité
 
-<!-- 19 novembre-->
+Mercredi 19 novembre
 
 ??? example "*REMISE DE LA PHASE 3 FONDATION DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
 

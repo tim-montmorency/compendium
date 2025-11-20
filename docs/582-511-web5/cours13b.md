@@ -1,6 +1,6 @@
 # Cours 13.2 Phase interactivité
 
-26 novembre
+Mercredi 26 novembre
 
 <!-- 
 !!! example "*REMISE Phases 4 animation+médias*: Formatif"
