@@ -1,4 +1,4 @@
-# Cours 13.1 Interactivité
+# Cours 13.1 Phase interactivité
 
 24 novembre
 
