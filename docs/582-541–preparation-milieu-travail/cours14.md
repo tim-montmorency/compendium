@@ -29,11 +29,13 @@
 
 ## Conférence de Synthèse
 
-[📁 Informations sur Arristage](https://polesynthese.com/arrimage/arristage){ .md-button }    
+[📁 PowerPoint de présentation](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Evmp73TYRLZFnm9JEVbh124B8doIfBtGoQ5gDgX3NJ3j8Q?e=csXy7j){ .md-button }    
 
-[📁 Plateforme Boussole](https://polesynthese.com/boussole){ .md-button }     
+[📁 Informations sur le programme de stages](https://polesynthese.com/arrimage/arristage){ .md-button }    
 
-[📁 Fiches métier et capsules vidéo](https://polesynthese.com/boussole/fiches-metiers-numerique){ .md-button }     
+[📁 Explorer les métiers](https://polesynthese.com/boussole){ .md-button }     
+
+[📁 Capsules vidéo](https://polesynthese.com/boussole/fiches-metiers-numerique){ .md-button }     
 
 [📁 Parcours professionnels](https://polesynthese.com/boussole/faire-le-bon-choix-de-carriere){ .md-button }     
 
