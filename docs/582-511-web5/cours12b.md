@@ -60,10 +60,10 @@ L'évaluation de cette étape par l'enseignante (qui compte pour 5% du projet) s
 
 - Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
 - N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
-  -🌹 Mes accomplissements
-  -🚀 Prochaine semaine
-  -🌵 Problèmes
-  -🎉 Ce qui me motive
+  - 🌹 Mes accomplissements
+  - 🚀 Prochaine semaine
+  - 🌵 Problèmes
+  - 🎉 Ce qui me motive
 
 ## Intégration des médias et mise en page
 

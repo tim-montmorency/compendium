@@ -110,10 +110,10 @@ Comment gérer un projet web en équipe?
 
 [Mêlée SCRUM](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/melee-scrum/)
 
--🌹 Mes accomplissements
--🚀 Prochaine semaine
--🌵 Problèmes
--🎉 Ce qui me motive
+- 🌹 Mes accomplissements
+- 🚀 Prochaine semaine
+- 🌵 Problèmes
+- 🎉 Ce qui me motive
 
 
 #### Scrumban

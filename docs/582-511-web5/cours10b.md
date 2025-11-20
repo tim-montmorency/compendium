@@ -64,10 +64,10 @@ Pour vous aider à visualiser l'objectif du projet, voici des projets assez ache
 
 - Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
 - N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
-  -🌹 Mes accomplissements
-  -🚀 Prochaine semaine
-  -🌵 Problèmes
-  -🎉 Ce qui me motive
+  - 🌹 Mes accomplissements
+  - 🚀 Prochaine semaine
+  - 🌵 Problèmes
+  - 🎉 Ce qui me motive
 
 ## Travail en classe et DEVOIR
 
