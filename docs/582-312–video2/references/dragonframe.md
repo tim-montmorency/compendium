@@ -63,16 +63,10 @@ La **mise au point se fait dans la caméra**.
 Vous pouvez utiliser **l’autofocus** ou la **mise au point manuelle**, mais elle doit être réglée avec soin avant la capture.
 
 #### Option 1 – Autofocus (AF)
-
-- Si le sujet est **immobile** (stop motion classique) :
+- Si le sujet est **immobile** :
   - [ ] Utiliser **AF-S (autofocus simple)**.  
   - [ ] Faire la mise au point une fois sur le sujet.  
   - [ ] Une fois la mise au point faite, idéalement **passer en MF** (mise au point manuelle) pour verrouiller le focus.
-
-- Si le sujet **bouge en profondeur** (avant / arrière, prise plus “réelle”) :
-  - [ ] Utiliser **AF-C (autofocus continu)**.  
-  - [ ] Régler la **zone AF** de la caméra sur **Large** afin que la caméra puisse suivre efficacement le sujet.  
-  - [ ] Tester le suivi avant d’enregistrer la séquence.
 
 > Remarque : pour du **stop motion pur**, l’AF-C est généralement déconseillé, car le point risque de changer d’image en image. Privilégier AF-S puis MF, ou directement MF.
 
