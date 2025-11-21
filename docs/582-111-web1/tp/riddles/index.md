@@ -1,44 +1,67 @@
 # Énigmorency
 
-## Le concept
+![](giphy.gif){.w-100}
 
-Le type de jeu _riddle_ est un jeu où chaque page contient une énigme et, en la résolvant, on trouve l’URL de la page suivante.
+L'objectif est de créer un mini-site Web de type _riddle_ comprenant une page d'accueil, au minimum 5 pages d'énigme et une page de victoire.
 
-[Exemples en ligne](./exemples.md){.back}
+Associé au projet, un document de conception devra etre remis. Il devra contenir les réponses des énigmes.
+
+<div class="grid grid-1-2" markdown>
+  ![](./search.gif)
+
+  **[Comprendre le concept](./concept.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./plan.gif)
+
+  **[Préparer le projet](./concept.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./build.gif)
+
+  <small>35% de la session</small><br>
+  **[Développer le site](./concept.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./sing.gif)
+
+  <small>5% de la session</small><br>
+  **[Présentation en classe](./concept.md){.stretched-link .back}**
+</div>
+
+## Remise
+
+```text title="Structure"
+📁nomdefamille-prenom-tp2
+  - 📁site
+    - 📁assets
+	  - 📁img
+	  - 📁video
+	  - 📁audio
+	- 📁src
+	  - 📁css
+	    📄styles.css
+    - 📄index.html
+	- ...
+	- 📄x.html
+	- 📄y.html
+	- 📄z.html
+  - 📄document-de-conception.docx
+```
+
+Jean-François : 11 décembre
+Stéphane : 9 décembre
+
+Remettre sur Teams avec la nomenclature suivante : `nomdefamille-prenom-tp2.zip`
 
 
 
-[STOP]
 
 
 
-Objectif du TP2
-
-Créer un mini-site Web de type riddle game :
-	•	Le site est composé de 5 pages d’énigmes (par exemple 6 à 8 niveaux).
-	•	Chaque page contient :
-        •	Une énigme (texte, image, indices…)
-        •	Un indice permettant de trouver l’URL ou le chemin de la page suivante.
-        •	L’utilisateur doit trouver la bonne réponse pour passer au prochain niveau.
-
-Créer un fichier word avec les réponses.
-
-
----
-
-Comment fonctionne techniquement un jeu de riddles ?
-
-Pour rester simple, nous allons utiliser uniquement des pages HTML/CSS.
-
-1. Une page = un niveau
-
-Chaque énigme correspond à un fichier HTML :
-	•	index.html → page d’accueil / règles du jeu
-	•	niveau1.html → énigme 1
-	•	niveau2.html → énigme 2
-	•	etc.
-
-L’utilisateur commence sur index.html, puis doit trouver comment atteindre la page suivante.
 
 2. Comment on « débloque » la page suivante ?
 
@@ -51,9 +74,6 @@ Exemple : si la réponse est dragon, alors la page suivante est dragon.html.
 	2.	Lien discret dans la page
 	•	La page contient un <a href="niveau2.html"> mais le texte du lien est caché / très discret / intégré dans un mot.
 	•	L’énigme sert à deviner où cliquer.
-	3.	Formulaire de réponse (optionnel, si vous utilisez un peu de JS plus tard)
-	•	Un petit formulaire <input> où l’utilisateur tape sa réponse.
-	•	Si la réponse est bonne, JavaScript redirige vers la bonne page.
 
 ⸻
 
