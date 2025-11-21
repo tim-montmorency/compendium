@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exo 2 — Galerie Responsive</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .gallery {
+        display: grid;
+        /* min 220px par carte → 4 colonnes si l'espace le permet,
+         2 sur tablette, 1 sur mobile, automatiquement */
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        max-width: 1100px;
+        padding: 16px;
+        margin: 2rem auto;
+      }
+      figure {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #fff;
+        display: grid;
+        margin: 0;
+      }
+      img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+      figcaption {
+        padding: 0.75rem 1rem;
+        font: 500 0.95rem/1.4 system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Galerie responsive (4 / 2 / 1 avec auto-fit + minmax()) -->
+
+    <section class="gallery">
+      <figure class="card">
+        <img src="https://picsum.photos/600/400?random=1" alt="Image 1" />
+        <figcaption>Image 1</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://picsum.photos/600/400?random=2" alt="Image 2" />
+        <figcaption>Image 2</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://picsum.photos/600/400?random=3" alt="Image 3" />
+        <figcaption>Image 3</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://picsum.photos/600/400?random=4" alt="Image 4" />
+        <figcaption>Image 4</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://picsum.photos/600/400?random=5" alt="Image 5" />
+        <figcaption>Image 5</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://picsum.photos/600/400?random=6" alt="Image 6" />
+        <figcaption>Image 6</figcaption>
+      </figure>
+    </section>
+  </body>
+</html>

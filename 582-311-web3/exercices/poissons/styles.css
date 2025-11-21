@@ -1,0 +1,22 @@
+html, body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    background: url(./assets/images/souslamer.jpg) no-repeat scroll center center transparent;
+    background-size: cover;
+
+    position: relative;
+}
+
+#aquarium {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.poisson {
+    position: absolute;
+}
