@@ -430,20 +430,56 @@ new Typed("#typedjs-elem", {
   on <a href="https://codepen.io">CodePen</a>.
       </iframe>
 
-<!-- 
-## Snippets du jour
-
-```bash
-npm i tone-visualizer
-``` -->
-
 ## Snippet du jour
 
-<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Tone.js - tone viz" src="https://codepen.io/tim-momo/embed/azNVVoW?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+<iframe class="aspect-16-9" height="300" style="width: 100%;" scrolling="no" title="Tone.js - tone viz" src="https://codepen.io/tim-momo/embed/azNVVoW?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
       See the Pen <a href="https://codepen.io/tim-momo/pen/azNVVoW">
   Tone.js - tone viz</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.
       </iframe>
+
+```bash
+npm i tone-visualizer
+```
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.1.1/lib/p5.js"></script>
+    
+    <script type="importmap">
+      {
+        "imports": {
+          "tone.js": "https://esm.sh/tone@15.1.22",
+          "tone-visualizer": "./node_modules/tone-visualizer/dist/visualizer.esm.js"
+        }
+      }
+    </script>
+
+    <script type="module" src="./src/js/script.js"></script>
+</head>
+<body>
+    
+    <div class="visualizer"></div>
+
+</body>
+</html>
+```
+
+```js
+import * as Tone from "tone.js";
+import { ToneVisualizer } from "tone-visualizer";
+
+document.body.addEventListener("click", async () => {
+    await Tone.start();
+
+    const fmSynth = new Tone.FMSynth().toDestination();
+    const viz = new ToneVisualizer('.visualizer', fmSynth, {Tone});
+    fmSynth.triggerAttackRelease("C3", "4n");
+});
+```
 
 ## Exercices
 
