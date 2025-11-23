@@ -2,8 +2,23 @@
 
 Lundi 24 novembre
 
+## Phase interactivité: Mémoires interactives
 
-## Documentation GSAP + Vue 3 - GSAP pour narration interactive
+- Validation des données entrées dans les formulaires
+
+- Implémentation des filtres et de la recherche
+  - Filtre par catégorie (tag) et/ou par date
+  - Recherche parmi les mémoires
+
+## Phase interactivité: Trace ton chemin
+
+- Implémentation de l'historique des décisions du joueur
+
+  - Enregistrement de chaque décision
+  - Affichage des décisions et statistiques dans un menu ou à la fin
+
+
+## OPTIONNEL Animation GSAP + Vue 3
 
 Cette phase n'est plus exigée. Ceci étant dit, voici de la documentation pour les équipes qui veulent tout de même l'intégrer.
 
