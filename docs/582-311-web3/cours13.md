@@ -131,13 +131,13 @@ animate();
 
 ![](./assets/images/zdog-shapes.jpg){data-zoom-image}
 
-Les [formes zdog](https://zzz.dog/shapes) (Rect, RoundedRect, Ellipse, Polygon, Shape, Hemisphere, Cone, Cylinder, Box) sont pour la plupart assez simple à mettre en place. Il suffit de consulter la documentation à cet effet.
+Les [formes zdog](https://zzz.dog/shapes) (Rect, RoundedRect, Ellipse, Polygon, Shape, Hemisphere, Cone, Cylinder, Box) sont pour la plupart assez simples à mettre en place. Il suffit de consulter la documentation à cet effet.
 
 ### AnimeJS
 
 Yep ! Ça se fait. Et assez facilement même.
 
-Avec animejs, on peut animer des variables. Ces mêmes variables seront utilisés pour changer les transformations zdog.
+Avec AnimeJS, on peut animer des variables. Ces mêmes variables seront utilisées pour changer les transformations Zdog.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Zdog - Animé D" src="https://codepen.io/tim-momo/embed/VYargVM?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
       See the Pen <a href="https://codepen.io/tim-momo/pen/VYargVM">
@@ -191,6 +191,8 @@ animateZDOG();
 ## Tone.js
 
 ![](./assets/images/son.gif){.w-100}
+
+[Tone.js](https://tonejs.github.io/) est une librairie JavaScript pour créer et manipuler du son dans le navigateur. Elle permet de générer des sons avec des synthétiseurs, de jouer des fichiers audio, d'appliquer des effets sonores et de créer des séquences musicales.
 
 ### Installation
 
@@ -380,6 +382,8 @@ document.querySelector("button").addEventListener("click", async () => {
 ## Typed.js
 
 ![](./assets/images/typing.gif){.w-100}
+
+[Typed.js](https://mattboldt.com/demos/typed-js/) est une librairie JavaScript qui simule la frappe de texte au clavier. Elle affiche du texte lettre par lettre, comme si quelqu'un le tapait en temps réel, avec des options pour contrôler la vitesse, les pauses et les boucles.
 
 ### Installation 
 
