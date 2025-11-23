@@ -127,7 +127,7 @@ COMPOSANT `MemoryForm`
 `handleImageUpload(event)`
 
 - Récupérer le fichier uploadé: `const file = event.target.files[0];`
-- Vérifier la taille (max 2MB)
+- Vérifier la taille du fichier (max 2MB)
   - *SI* trop grand:
     - Afficher erreur "*Image trop grande*"
     - Arrêter (return)
