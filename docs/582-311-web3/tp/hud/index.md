@@ -54,7 +54,7 @@ L'objectif n'est pas seulement d'intégrer la technologie, mais surtout de la me
 
 **Remise sur :material-microsoft-teams: Teams** :
 
-1. Fichier `zip` nommé « nomdefamille_prenom_tp2.zip »
+1. Fichier `zip` nommé « nomdefamille_prenom_tp2.zip » (le dossier `node_modules` doit être retiré du .zip)
 1. Document de conception
 
 ## Liste de vérification
