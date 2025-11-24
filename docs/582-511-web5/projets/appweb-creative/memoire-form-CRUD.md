@@ -383,9 +383,9 @@ Vue de la salle avec:
 
 1. Utilisateur arrive sur la page d'une salle
    ↓
-2. Composant charge les données du localStorage
+2. Composant charge les données du json ou du localStorage (*OPTIONNEL POUR LE MOMENT*)
    ↓
-3. Getter store.getMemoriesByRoom(roomId) est appelé
+3. Getter `store.getMemoriesByRoom(roomId)` est appelé
    ↓
 4. Retourne toutes les mémoires de cette salle
    ↓
@@ -404,7 +404,7 @@ Vue de la salle avec:
 5. Validation du formulaire
    *SI* valide:
      ↓
-   6. Appel store.updateMemory(memoryId, formData)
+   6. Appel `store.updateMemory(memoryId, formData)`
       ↓
    7. Store trouve la mémoire avec cet ID
       ↓
@@ -425,7 +425,7 @@ Vue de la salle avec:
    ↓
 3. *SI* utilisateur confirme:
       ↓
-   4. Appel store.deleteMemory(memoryId)
+   4. Appel `store.deleteMemory(memoryId)`
       ↓
    5. Store trouve la mémoire avec cet ID
       ↓
