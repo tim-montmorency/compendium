@@ -1,10 +1,11 @@
 # Implémentation de l'historique des décisions du joueur
 
-## Le flux
 
-### PENDANT LE JEU
+## PENDANT LE JEU
 
-Joueur fait un choix, et avant de naviguer vers le prochain chapitre, appeler l'action du store de Pinia `playerStore.recordChoice()` en lui passant 2 données en paramètres: les données du chapitre courant, le texte du choix `choice` et la conséquence (si applicable).
+Le joueur fait un choix.
+
+Au clic du bouton, avant de naviguer vers le prochain chapitre, appeler l'action du store de Pinia `playerStore.recordChoice()` en lui passant 2 données en paramètres: les données du chapitre courant, le texte du choix `choice` et la conséquence (si applicable).
 
 `playerStore.recordChoice()` enregistre dans les `states` du store player `choiceHistory: []` :
 
@@ -24,16 +25,16 @@ Format proposé pour `choiceHistory`:
 
 
 
-### CONSULTATION DE L'HISTORIQUE (choix entre ça ou affichage à la fin)
+## CONSULTATION DE L'HISTORIQUE (choix entre ça ou affichage à la fin)
 
-Joueur ouvre le panneau historique
+Le joueur ouvre le panneau historique
 
 Affiche la liste complète des choix:
 
 - Tous les choix fait jusqu'à maintenant
 - Statistiques/karma/inventaire en temps réel
 
-### FIN DU JEU (choix entre ça ou affichage via un panneau de l'historique)
+## FIN DU JEU (choix entre ça ou affichage via un panneau de l'historique)
 
 Écran de fin
 
