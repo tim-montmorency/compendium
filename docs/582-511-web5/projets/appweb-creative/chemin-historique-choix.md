@@ -23,8 +23,6 @@ Format proposé pour `choiceHistory`:
 ]
 ``` 
 
-
-
 ## CONSULTATION DE L'HISTORIQUE (choix entre ça ou affichage à la fin)
 
 Le joueur ouvre le panneau historique
