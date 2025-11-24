@@ -6,9 +6,10 @@ Lundi 24 novembre
 
 - Validation des données entrées dans les formulaires
 
-- Implémentation des filtres et de la recherche
-  - Filtre par catégorie (tag) et/ou par date
-  - Recherche parmi les mémoires
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoire-validation-formulaire.html">Validation des formulaires</a>
+</div>
 
 ## Phase interactivité: Trace ton chemin
 
