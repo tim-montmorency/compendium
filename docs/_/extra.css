@@ -1,3 +1,24 @@
+.spoiler {
+  display: inline-block;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.25s;
+    background-color: var(--md-primary-fg-color);
+    border-radius: 0.125rem;
+  }
+
+  &:hover:before {
+    opacity: 0;
+  }
+}
+
 /* =========================
    UTILITAIRES (width, aspect, align, etc.)
    ========================= */
