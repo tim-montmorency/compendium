@@ -2,8 +2,28 @@
 
 Lundi 24 novembre
 
+## Phase interactivité: Mémoires interactives
 
-## Documentation GSAP + Vue 3 - GSAP pour narration interactive
+- Validation des données entrées dans les formulaires
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoire-validation-formulaire.html">Validation des formulaires</a>
+</div>
+
+## Phase interactivité: Trace ton chemin
+
+- Implémentation de l'historique des décisions du joueur
+
+  - Enregistrement de chaque décision
+  - Affichage des décisions et statistiques dans un menu ou à la fin
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/chemin-historique-choix.html">Implémentation de l'historique des décisions du joueur</a>
+</div>
+
+## OPTIONNEL Animation GSAP + Vue 3
 
 Cette phase n'est plus exigée. Ceci étant dit, voici de la documentation pour les équipes qui veulent tout de même l'intégrer.
 

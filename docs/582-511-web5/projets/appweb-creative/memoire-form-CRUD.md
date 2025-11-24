@@ -35,6 +35,8 @@ COMPOSANT `MemoryForm`
         rows="5"
         placeholder="Racontez votre souvenir..."
       ></textarea>
+
+      <span v-if="errors.desc" class="error">{{ errors.desc }}</span>
     </div>
     
     <!-- Date -->
@@ -57,6 +59,8 @@ COMPOSANT `MemoryForm`
         @change="handleImageUpload"
       >
       <img v-if="formData.imagePreview" :src="formData.imagePreview">
+
+      <span v-if="errors.img" class="error">{{ errors.img }}</span>
     </div>
     
     <!-- Tags -->
@@ -127,7 +131,7 @@ COMPOSANT `MemoryForm`
 `handleImageUpload(event)`
 
 - Récupérer le fichier uploadé: `const file = event.target.files[0];`
-- Vérifier la taille (max 2MB)
+- Vérifier la taille du fichier (max 2MB)
   - *SI* trop grand:
     - Afficher erreur "*Image trop grande*"
     - Arrêter (return)

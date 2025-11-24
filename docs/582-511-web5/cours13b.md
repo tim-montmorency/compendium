@@ -27,6 +27,14 @@ Mercredi 26 novembre
 
 ## Aujourd'hui
 
+
+## Phase interactivité: Mémoires interactives
+
+- Implémentation des filtres et de la recherche
+  - Filtre par catégorie (tag) et/ou par date
+  - Recherche parmi les mémoires
+
+
 ## SCRUM
 
 - Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
