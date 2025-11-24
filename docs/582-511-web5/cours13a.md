@@ -17,6 +17,10 @@ Lundi 24 novembre
   - Enregistrement de chaque décision
   - Affichage des décisions et statistiques dans un menu ou à la fin
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/chemin-historique-choix.html">Implémentation de l'historique des décisions du joueur</a>
+</div>
 
 ## OPTIONNEL Animation GSAP + Vue 3
 
