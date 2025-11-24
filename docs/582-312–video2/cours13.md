@@ -8,11 +8,13 @@
 ## Travail à la maison
 * Version installation
   * 1 personne par équipe sur la correction du offline
-  * 1 personne par équipe sur la coloristion 
+  * 1 personne par équipe sur la colorisation
+  * 1 personne par équipe sur le son
   * 1 personne par équipe sur le générique
 
 * Version installation
   * 1 personne par équipe sur la version mosaïque
-  * 1 personne par équipe sur la colorisation 
+  * 1 personne par équipe sur la colorisation
+  * 1 personne par équipe sur le son
   * 1 personne par équipe sur le générique
 
