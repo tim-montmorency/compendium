@@ -177,13 +177,11 @@ reader.readAsDataURL(file);
 
 
 
-## CRUD Complet dans le Store Pinia
+## CRUD Complet dans le Store Pinia `memoryStore`
 
 `stores/memory.js`
 
-### STORE memoryStore
-
-#### ÉTAT `state`:
+### ÉTAT `state`:
 
 - `rooms` (liste de salles [ ]):
 
@@ -195,9 +193,9 @@ reader.readAsDataURL(file);
     - `image` d'arrière plan (optionnel)
     - `memories` (liste des mémoires dans cette salle)
   
-#### GETTERS (fonctions de lecture) `getters`:
+### GETTERS (fonctions de lecture) `getters`:
 
-##### 📖 <em>R</em>EAD (C<em>R</em>UD)
+#### 📖 <em>R</em>EAD (C<em>R</em>UD)
 
 `getMemoriesByRoom(roomId)`:
 
@@ -216,9 +214,9 @@ reader.readAsDataURL(file);
     - *SI* rien trouvé:
         RETOURNER `null`
   
-#### ACTIONS (fonctions de modification) `actions`:
+### ACTIONS (fonctions de modification) `actions`:
   
-##### ✅ <em>C</em>REATE (<em>C</em>RUD) - `addMemory(roomId, memoryData)`:
+#### ✅ <em>C</em>REATE (<em>C</em>RUD) - `addMemory(roomId, memoryData)`:
 
 - Trouver la salle avec `roomId`
   - *SI* salle introuvable:
@@ -233,11 +231,11 @@ reader.readAsDataURL(file);
   
 
 
-##### 📖 <em>R</em>EAD (C<em>R</em>UD) - Pas d'`action`, utiliser les `getters`
+#### 📖 <em>R</em>EAD (C<em>R</em>UD) - Pas d'`action`, utiliser les `getters`
   
 
 
-##### ✏️ <em>U</em>PDATE (CR<em>U</em>D) - `updateMemory(memoryId, updates)`:
+#### ✏️ <em>U</em>PDATE (CR<em>U</em>D) - `updateMemory(memoryId, updates)`:
 
 - POUR chaque salle:
   - Chercher l'index de la mémoire avec `memoryId`
@@ -253,7 +251,7 @@ reader.readAsDataURL(file);
   
 
 
-##### 🗑️ <em>D</em>ELETE (CRU<em>D</em>) - deleteMemory(memoryId):
+#### 🗑️ <em>D</em>ELETE (CRU<em>D</em>) - deleteMemory(memoryId):
 
 - POUR chaque salle:
   - Chercher l'index de la mémoire avec `memoryId`
@@ -264,7 +262,7 @@ reader.readAsDataURL(file);
     - *SI* rien trouvé:
       - RETOURNER faux
 
-##### 💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+#### 💾 `saveToLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
 - Convertir rooms en texte JSON
 - ESSAYER:
@@ -272,7 +270,7 @@ reader.readAsDataURL(file);
 - EN CAS D'ERREUR:
   - Afficher erreur console
 
-##### 📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
+#### 📥 `loadFromLocalStorage()` (*OPTIONNEL POUR LE MOMENT*)
 
 - ESSAYER `try`
   - Récupérer données de localStorage avec clé "museum-data"
@@ -286,17 +284,17 @@ reader.readAsDataURL(file);
 
 ## 🎯 Utilisation dans les composants
 
-### Exemple : `RoomView.vue` (Afficher et supprimer)
+Exemple : `RoomView.vue` (Afficher et supprimer)
 
 COMPOSANT `RoomView`
 
-#### DONNÉES `data()`
+### DONNÉES `data()`
 
 - `roomId` (ID de la salle actuelle)
 - `showAddForm` (booléen : modal ouvert ou fermé)
 - `memoryToEdit` (mémoire en cours d'édition ou null)
   
-#### PROPRIÉTÉ CALCULÉE `computed`
+### PROPRIÉTÉ CALCULÉE `computed`
 
 - `currentRoom`:
   - Chercher la salle avec `roomId` dans le store
@@ -304,7 +302,7 @@ COMPOSANT `RoomView`
 - memories:
   - Obtenir toutes les mémoires de `roomId` depuis le store
   
-#### AU CHARGEMENT `created()`
+### AU CHARGEMENT `created()`
 
   1. Récupérer `roomId` depuis l'URL
   2. Charger les données du localStorage
@@ -331,7 +329,7 @@ COMPOSANT `RoomView`
     1. Fermer le modal (`showAddForm` = faux)
     2. Réinitialiser `memoryToEdit` à null
   
-#### TEMPLATE:
+### TEMPLATE:
 
 Vue de la salle avec:
 
