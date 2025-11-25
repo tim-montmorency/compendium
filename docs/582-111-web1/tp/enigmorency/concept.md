@@ -81,7 +81,7 @@ Exemples en ligne :
 
 **✅ Réponse** : <span class="spoiler">`canard.html` (le canard fait coin coin)</span>
 </div>
-</div>
+</div> 
 
 ### Formule mathématique
 
