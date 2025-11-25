@@ -32,9 +32,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt --prefer-binary
 
-      - name: Check mkdocs-material version
-        run: pip show mkdocs-material
-
       - name: Build mkdocs (force config file)
         run: mkdocs build --verbose
 
