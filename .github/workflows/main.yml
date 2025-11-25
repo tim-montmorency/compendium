@@ -1,10 +1,13 @@
----
 name: Déploiement de la documentation markdown
 
 on:
   push:
     branches:
       - main
+
+concurrency:
+  group: mkdocs-deploy
+  cancel-in-progress: true
 
 permissions:
   contents: write
