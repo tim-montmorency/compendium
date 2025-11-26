@@ -27,6 +27,7 @@ Mercredi 26 novembre
 
 ## Aujourd'hui
 
+Travailler sur votre projet. Remise lundi prochain (voir cours 14.1).
 
 ## Phase interactivité: Mémoires interactives
 
@@ -50,6 +51,3 @@ Mercredi 26 novembre
   - 🌵 Problèmes
   - 🎉 Ce qui me motive
 
-## Avancement 
-
-Avancement de ce qui a été vu et débuté au dernier cours.
