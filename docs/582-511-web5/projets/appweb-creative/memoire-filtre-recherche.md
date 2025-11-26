@@ -22,7 +22,7 @@ export const useMemoryStore = defineStore('memory', {
     }),
     
     getters: {
-        // 🔍 Mémoires filtrées selon tous les critères
+        // Mémoires filtrées selon tous les critères
         filteredMemories: (state) => {
         
             // ========================================
