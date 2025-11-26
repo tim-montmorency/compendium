@@ -31,7 +31,7 @@ Créer **12 planches** représentant un générique de film en pause. Les images
 
 ### PROJET 2 – PARTIE 2 : PRÉ-APPROBATION – GÉNÉRIQUE
 
-À ce stade, vous devez présenter vos **illustrations terminées** au professeur. Voici la liste des éléments à fournir :
+À ce stade, vous devez présenter 8 de vos **illustrations terminées** au professeur. Voici la liste des éléments à fournir :
 
 - **Illustrations et Moodboard**
   * [ ] Un **moodboard**.
