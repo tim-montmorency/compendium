@@ -35,10 +35,16 @@ Mercredi 26 novembre
   - Recherche parmi les mémoires
 
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoire-filtre-recherche.html">Filtres et recherche</a>
+</div>
+
+
 ## SCRUM
 
 - Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
-- N'oubliez pas dajouter votre résumé de SCRUM dans votre équipe Teams.
+- N'oubliez pas d'ajouter votre résumé de SCRUM dans votre équipe Teams.
   - 🌹 Mes accomplissements
   - 🚀 Prochaine semaine
   - 🌵 Problèmes

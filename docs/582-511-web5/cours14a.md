@@ -4,6 +4,7 @@ Lundi 1er décembre
 
 
 !!! example "*REMISE DE LA PHASE 4 INTERACTIVITÉ DU PROJET INTÉGRATEUR* (sommatif 7.5%)"
+
     **Livrables pour *mémoire interactive***
 
     - Interactivité 
@@ -53,6 +54,8 @@ Lundi 1er décembre
 
 
 ## Aujourd'hui
+
+Ajouter le `localStorage` (optionnel, code fourni).
 
 
 
