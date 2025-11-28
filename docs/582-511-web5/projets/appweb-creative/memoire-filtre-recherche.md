@@ -2,7 +2,7 @@
 
 Dans le store pinia, ajoutez un objet `filtes`qui contient vos critères de recherche et filtres parmis les mémoires affichés dans la salle.
 
-Ajoutez le `getters` nommé `filteredMemories` qui vous permettra d'afficher la dans salle les mémoires filtrées (donc vous allez faire un `v-for`sur `filteredMemories` pour dynamiser votre affichage).
+Ajoutez le `getters` nommé `filteredMemories` qui vous permettra d'afficher les mémoires filtrées et/celles qui correspondent à la recherche en temps réel (donc vous allez faire un `v-for`sur `filteredMemories` pour dynamiser votre affichage).
 
 `stores/memoryStore.js`
 

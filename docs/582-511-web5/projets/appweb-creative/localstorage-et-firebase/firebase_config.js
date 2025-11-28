@@ -24,4 +24,10 @@ const firebaseConfig = {
   authDomain: "VOTRE_PROJECT_ID.firebaseapp.com",
   projectId: "VOTRE_PROJECT_ID",
   storageBucket: "VOTRE_PROJECT_ID.appspot.com",
-  messagingSenderId: "VOTRE_MESSAGING_
+  messagingSenderId: "VOTRE_MESSAGING"
+  //... Clau avait arrêté ici il manque peut-être des propriétés ici
+};
+
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+export const auth = getAuth(app);
