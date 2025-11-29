@@ -50,4 +50,3 @@ Travailler sur votre projet. Remise lundi prochain (voir cours 14.1).
   - 🚀 Prochaine semaine
   - 🌵 Problèmes
   - 🎉 Ce qui me motive
-

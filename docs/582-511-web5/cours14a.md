@@ -60,8 +60,14 @@ Lundi 1er décembre
 
 ## Aujourd'hui
 
+### Persistance des données pour *Mémoires interactives*
+
 Ajouter le `localStorage` (optionnel, code fourni).
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-creative-webapp.svg">
+  <a href="./projets/appweb-creative/memoire-persistance-donnees.html">Persistance des données et des mémoires ajoutées</a>
+</div>
 
 
 ## Affinage (polish) et accessibilité
