@@ -4,7 +4,7 @@
 
 La persistance permet de *sauvegarder des données* pour qu'elles restent disponibles même après avoir fermé le navigateur. Sans persistance, tout est perdu au rafraîchissement de la page.
 
-Pour votre projet de Mémoire interactives, deux options s'étaient offertes à vous: 
+Pour votre projet de **Mémoire interactives**, deux options s'étaient offertes à vous: 
 
 - *LocalStorage* pour sauvegarder le musée en local
 - *Firebase* de Google et sa base de données *Firestore* (pour les plus équipes + avancés): Cette option permet de créer une mémoire collective et non seulement locale à un seul utilisateur.
@@ -13,32 +13,34 @@ Pour votre projet de Mémoire interactives, deux options s'étaient offertes à 
 
 Le `localStorage` stocke des données directement dans le navigateur de l'utilisateur.
 
-### 1. Sauvegarder des données
+### Sauvegarder des données: `localStorage.setItem`
 
 ```javascript
-// Convertir un objet JavaScript en texte JSON
-const memoire = {
-  titre: "Mon premier souvenir",
+// Convertir un objet JavaScript en texte JSON avec JSON.stringify
+// Puis enregistrer dans le localStorage avec setItem
+const memory = {
+  title: "Mon premier souvenir",
   description: "C'était un bel été...",
-  date: "2024-06-15"
+  date: "2023-06-15"
 }
 
-localStorage.setItem('maMemoire', JSON.stringify(memoire))
+localStorage.setItem('maMemoire', JSON.stringify(memory))
 ```
 
-### 2. Récupérer des données
+### Récupérer des données: `localStorage.getItem`
 
 ```javascript
-// Récupérer et reconvertir le texte JSON en objet
+// Récupérer la donnée du localStorage avec getItem
+// Puis reconvertir le texte JSON en objet JavaScript
 const memoireRecuperee = JSON.parse(localStorage.getItem('maMemoire'))
 
-console.log(memoireRecuperee.titre) // "Mon premier souvenir"
+console.log(memoireRecuperee.title) // "Mon premier souvenir"
 ```
 
-### 3. Supprimer des données
+### Supprimer des données: `localStorage.removeItem`
 
 ```javascript
-// Supprimer une donnée spécifique
+// Supprimer une donnée du localStorage avec removeItemItem
 localStorage.removeItem('maMemoire')
 
 // Tout supprimer
