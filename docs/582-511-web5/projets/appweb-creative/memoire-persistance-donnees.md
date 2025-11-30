@@ -195,15 +195,15 @@ export default {
 
 ## Workflow complet
 
-App démarre
-   ↓
-`store.init()`
-   ↓
-Première visite → Charge JSON démo via le store Pinia
-Visite suivante → Charge `localStorage`
-   ↓
-Utilisateur modifie des données
-   ↓
-`store.saveMemories()` automatique
-   ↓
-Données persistées dans `localStorage`
+- App démarre
+-    ↓
+- `store.init()`
+-    ↓
+- Première visite → Charge JSON démo via le store Pinia
+- Visite suivante → Charge `localStorage`
+-    ↓
+- Utilisateur modifie des données
+-    ↓
+- `store.saveMemories()` automatique
+-    ↓
+- Données persistées dans `localStorage`
