@@ -47,7 +47,7 @@ localStorage.removeItem('maMemoire')
 localStorage.clear()
 ```
 
-## Exemple pratique pour votre projet
+## Pour votre projet, voici comment intégrer l'enregistrement dans le LocalStorage via votre Store Pinia:
 
 `src/stores/memories.js`
 
