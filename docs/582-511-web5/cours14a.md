@@ -55,9 +55,6 @@ Lundi 1er décembre
 -->
 
 
-
-
-
 ## Aujourd'hui
 
 ### Persistance des données pour *Mémoires interactives*
@@ -70,9 +67,18 @@ Ajouter le `localStorage` (optionnel, code fourni).
 </div>
 
 
-## Affinage (polish) et accessibilité
+## Affinage (polish)
 
 - Rendre le projet 100% responsive
 - Optimiser les performances
-- Corriger tous les bugs
-- Ajouter du contenu additionnel
+- Corriger tous les bogues
+- Au besoin, ajouter du contenu additionnel pour enrichir votre projet
+
+## SCRUM
+
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas d'ajouter votre résumé de SCRUM dans votre équipe Teams.
+  - 🌹 Mes accomplissements
+  - 🚀 Prochaine semaine
+  - 🌵 Problèmes
+  - 🎉 Ce qui me motive
