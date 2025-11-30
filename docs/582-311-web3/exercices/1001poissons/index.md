@@ -5,7 +5,7 @@ tags:
 
 # 1001 poissons
 
-![](./1001poissons.gif){.w-100}
+![](./preview.webp){.w-100}
 
 L'objectif de cet exercice est de créer **1001 objets « Poisson »** à l'aide du concept de **classe JavaScript**.
 
@@ -47,6 +47,35 @@ Pour cet exercice, il faut utiliser une **boucle** pour créer les 1001 poissons
   - [ ] Instancie un nouvel objet `Poisson` avec ces valeurs et ajoute-le au tableau
 - [ ] Affiche le tableau complet de poissons dans la console avec `console.log(poissons)`
 - [ ] Vérifie ton code en affichant par exemple le **premier** et le **dernier poisson** du tableau
+
+!!!example "Aide"
+
+    ```js
+    class Poisson {
+      constructor(nom, couleur, age) {
+        //
+        //
+        //
+      }
+    }
+
+    // Variable : Tableau des poissons
+    // Variable : Tableau des couleurs possibles
+  
+    // Boucle pour créer 1001 poissons
+    for (let i = 1; i <= 1001; i++) {
+      // Variable : Nom unique
+      // Variable : Couleur aléatoire
+      // Variable : Âge aléatoire entre 3 et 100 inclus
+      // Variable : Instance de Poisson avec le nom, la couleur et l'âge
+
+      // Ajouter l'instance au tableau des poissons
+    }
+
+    // Affiche tout le tableau dans la console
+    // Afficher le premier poisson dans la console
+    // Afficher le dernier poisson dans la console
+    ```
 
 [STOP]
 
