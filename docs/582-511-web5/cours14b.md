@@ -4,7 +4,7 @@ Merc. 3 décembre
 
 !!! example "*REMISE DE LA VERSION BETA DU PROJET INTÉGRATEUR* (formatif)"
 
-    Version prête à être validée et testée pour le contrôle de la qualité
+    Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final
 
 ## SCRUM
 
@@ -26,15 +26,16 @@ Merc. 3 décembre
 * propositions de solutions aux problèmes
 * corrections des erreurs
 * méthode d'archivage
-...
+- ...
 - Navigation au clavier
 - ARIA labels
 - Contraste des couleurs (WCAG AA)
 - Balises sémantiques HTML5
 
+<!--
 ## Plan de tests avec Vitest
 
-Tests unitaires avec [Vitest](https://vitest.dev/)
+Tests unitaires  avec [Vitest](https://vitest.dev/)  -->
 
 <!-- https://vueschool.io/articles/vuejs-tutorials/start-testing-with-vitest-beginners-guide/ -->
 
