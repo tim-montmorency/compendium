@@ -1,7 +1,7 @@
 # Cours 14 – Préparation des vidéos et exposé
 
 ## Préparation des vidéos
-Répartition des tâches par équipe : une personne responsable par volet de correction.
+Répartition des tâches par équipe : une personne responsable par volet.
 
 ### Version installation
 - Correction du offline  
@@ -19,7 +19,7 @@ Répartition des tâches par équipe : une personne responsable par volet de cor
 
 ## Préparation de l’exposé
 L’exposé doit présenter clairement votre démarche créative autour de l’autoportrait vidéo.  
-Il s’agit ici de contenu théorique : **aucune case à cocher**.
+Répartition de l'exposé, une section par personne de l'équipe. 
 
 ### Intention de départ (30 secondes)
 Expliquez l’objectif initial de votre autoportrait vidéo.  
