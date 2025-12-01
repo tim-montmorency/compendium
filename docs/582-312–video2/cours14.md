@@ -1,7 +1,16 @@
 # Cours 14
  
-## Travail en classe
-Correction du online
 
 ## Travail à la maison
-Correction du online
+* Version installation
+  * 1 personne par équipe sur la correction du offline
+  * 1 personne par équipe sur la correction colorisation
+  * 1 personne par équipe sur la correction du son
+  * 1 personne par équipe sur la correction du générique
+
+* Version installation
+  * 1 personne par équipe sur la correction de la version mosaïque
+  * 1 personne par équipe sur la correction de la colorisation
+  * 1 personne par équipe sur le correction du son
+  * 1 personne par équipe sur le correction du générique
+
