@@ -21,7 +21,7 @@ Afin de faciliter le développement du TP2, séparez les fichiers javascript **p
 - [ ] Dans votre dossier `web3tp2`, créer la structure de projet suivante :
 
     ```txt
-    📁 tp2
+    📁 web3tp2
         📁 assets
             📁 img
             📁 audio
