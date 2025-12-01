@@ -1,6 +1,6 @@
 # Cours 14 – Préparation d’un exposé vidéo
 
-## Travail à la maison
+## TRAVAIL À LA MAISON
 Répartition des tâches par équipe : une personne par volet de correction.
 
 ### Version installation
@@ -15,7 +15,9 @@ Répartition des tâches par équipe : une personne par volet de correction.
 - Correction du son  
 - Correction du générique  
 
-## Préparation de l’exposé
+--------
+
+## PRÉPARATION DE L'EXPOSÉ
 L’exposé vise à présenter clairement votre démarche créative autour de l’autoportrait vidéo. Chaque section ci-dessous précise ce qui doit être expliqué, sans cases à cocher puisqu’il s’agit de contenu théorique.
 
 ## Intention de départ (30 secondes)
