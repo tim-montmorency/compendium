@@ -51,10 +51,30 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
   * [ ] Sauvegardez vos fichiers en **JPG** et conservez également vos copies **PSD**.
   * [ ] Importez les JPG dans un document **PowerPoint** ou autre support au format **16/9**, avec un **fond blanc ou noir**, sans transitions.
   * [ ] Intégrez une **musique** qui jouera tout au long de l'exposé.
+  * [ ] Ajouter le moodboard et le synopsis à la fin du powerpoint. 
   * [ ] À cette étape, ne commentez pas votre projet.
 
-#### Exposé Oral et Présentation du Moodboard
-- **Présentation du Moodboard**
-  * [ ] Une fois la présentation visuelle terminée, présentez votre moodboard dans PowerPoint.
-  * [ ] Décrivez votre **démarche artistique** en lien avec le moodboard et expliquez comment votre travail s’inspire du **courant artistique** choisi.
-  * [ ] La présentation doit être **concise** et bien **articulée**, avec une durée de **3 minutes** maximum.
+## Structure de l’exposé (4 minutes)
+
+* [ ] Une fois la présentation visuelle terminée, commencez votre exposé. 
+
+### 🧩 1. Synopsis du projet (30 s)
+* [ ] Résumer l’histoire ou le concept du générique en 2–3 phrases
+* [ ] Indiquer le ton (dramatique, poétique, humoristique, etc.)
+* [ ] Expliquer la fonction du générique (installer un univers, un thème, une ambiance)
+
+### 🎨 2. Moodboard et univers visuel (1 min)
+* [ ] Présenter vos références principales (artistiques, cinématographiques, styles)
+* [ ] Expliquer ce que vous avez retenu : couleurs, textures, ambiance, motifs
+* [ ] Montrer ce que vous avez transposé dans vos images
+
+### 🖼️ 3. Présentation des 12 exécutions (1 min 30)
+* [ ] Expliquer la progression visuelle des 12 images
+* [ ] Justifier vos choix graphiques (composition, formes, effets, typographie)
+* [ ] Montrer pourquoi chaque image est nécessaire dans la séquence
+* [ ] Souligner la cohérence stylistique entre les planches
+
+### 🎬 4. Intention finale (30 s)
+* [ ] Expliquer l’idée globale derrière vos choix artistiques
+* [ ] Dire ce que le public doit ressentir
+* [ ] Résumer la cohérence entre le synopsis, le moodboard et les 12 exécutions
