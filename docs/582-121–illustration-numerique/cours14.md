@@ -3,6 +3,6 @@
 
 ## À faire pour le prochain cours
 
-### [TERMINER LE PROJET 2 – PARTIE 3 ](./projets/projet_2)
+### [TERMINER LE PROJET 2 – PARTIE 3 ](./projets/projet02.md)
 
 
