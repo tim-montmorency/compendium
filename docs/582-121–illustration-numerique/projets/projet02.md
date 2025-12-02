@@ -61,18 +61,13 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
 ### 🧩 1. Synopsis du projet (30 s)
 * [ ] Résumer l’histoire ou le concept du générique en 2–3 phrases
 * [ ] Indiquer le ton (dramatique, poétique, humoristique, etc.)
-* [ ] Expliquer la fonction du générique (installer un univers, un thème, une ambiance)
 
 ### 🎨 2. Moodboard et univers visuel (1 min)
 * [ ] Présenter vos références principales (artistiques, cinématographiques, styles)
 * [ ] Expliquer ce que vous avez retenu : couleurs, textures, ambiance, motifs
-* [ ] Montrer ce que vous avez transposé dans vos images
-
-### 🖼️ 3. Présentation des 12 exécutions (1 min 30)
-* [ ] Expliquer la progression visuelle des 12 images
 * [ ] Justifier vos choix graphiques (composition, formes, effets, typographie)
 * [ ] Souligner la cohérence stylistique entre les planches
 
-### 🎬 4. Intention finale (30 s)
+### 🎬 3. Intention finale (30 s)
 * [ ] Expliquer l’idée globale derrière vos choix artistiques
-* [ ] Dire ce que le public doit ressentir
+
