@@ -4,7 +4,6 @@ Ce guide vous aide à tester votre application de manière structurée et profes
 
 Pas besoin de tests unitaires ou de test d'intégrations complexes - on se concentre sur des tests manuels pratiques et efficaces.
 
----
 
 ## Objectifs de cette phase
 
@@ -13,11 +12,10 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 3. **Optimiser les performances** pour une expérience fluide
 4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
 
----
 
-## ✅ Checklist Générale de Tests
+## ✅ Checklist générale des tests
 
-### 1. Tests de Fonctionnalité de Base
+### 1. Tests de fonctionnalité de base
 
 #### Pour "Mémoires Interactives"
 
@@ -41,21 +39,23 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 - [ ] **Historique** : L'historique des décisions se remplit correctement (si applicable)
 - [ ] **Pas de dead-end** : Aucun chapitre ne mène à une impasse
 
----
 
-## 🧪 Tests par Navigateur et Appareil
+## Tests par navigateur et appareil
 
 ### Navigateurs à tester (minimum)
+
 - [ ] **Chrome** (ou Edge - même moteur)
 - [ ] **Firefox**
-- [ ] **Safari** (si vous avez accès à un Mac/iPhone)
+- [ ] **Edge**
 
 ### Appareils à tester
-- [ ] **Desktop** (1920x1080 ou votre résolution)
-- [ ] **Tablette** (768px - utilisez les DevTools de Chrome)
-- [ ] **Mobile** (375px - utilisez les DevTools de Chrome)
 
-### Comment tester avec Chrome DevTools
+- [ ] **Desktop** (1920x1080 ou votre résolution)
+- [ ] **Tablette** (768px - utilisez les *DevTools* de Chrome)
+- [ ] **Mobile** (375px - utilisez les *DevTools* de Chrome)
+
+### Comment tester avec *Chrome DevTools*
+
 1. Ouvrez votre site dans Chrome
 2. F12 ou clic droit > Inspecter
 3. Cliquez sur l'icône de téléphone/tablette (Toggle device toolbar)
@@ -64,18 +64,21 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 
 ---
 
-## ♿ Accessibilité - Les Bases Essentielles
+## Accessibilité ♿ Les bases essentielles
 
 ### 1. Navigation au clavier
+
 **Pourquoi ?** Certaines personnes n'utilisent pas de souris (handicap, préférence, etc.)
 
 **Tests à faire :**
-- [ ] **Tab** : Je peux naviguer entre TOUS les éléments interactifs avec Tab
-- [ ] **Shift+Tab** : Je peux revenir en arrière
-- [ ] **Enter/Space** : Je peux activer les boutons avec Enter ou Espace
+
+- [ ] **Tab** ++↹++ : Je peux naviguer entre TOUS les éléments interactifs avecla touche Tab
+- [ ] **Shift+Tab** ++⇧++ : Je peux revenir en arrière
+- [ ] **Enter/Space** : ++↵++ Je peux activer les boutons avec Enter ou Espace
 - [ ] **Indicateur visuel** : Je VOIS clairement quel élément est sélectionné (outline visible)
 
 **Comment corriger si ça ne fonctionne pas :**
+
 ```css
 /* N'enlevez JAMAIS le outline par défaut sans le remplacer ! */
 /* ❌ MAUVAIS */
@@ -89,22 +92,27 @@ button:focus {
 ```
 
 ### 2. Contraste des couleurs
+
 **Pourquoi ?** Les personnes avec une vision réduite doivent pouvoir lire votre texte.
 
 **Règle simple :**
-- Texte normal : ratio de **4.5:1** minimum
-- Texte large (18px+) : ratio de **3:1** minimum
 
-**Outils pour tester :**
+- Texte normal : ratio de **4.5 : 1** minimum
+- Texte large (18px+) : ratio de **3 : 1** minimum
+
+**Outils pour tester le ratio de votre projet :**
+
 1. **WebAIM Contrast Checker** : https://webaim.org/resources/contrastchecker/
-2. Copiez votre couleur de texte et de fond
-3. Vérifiez si ça passe le test AA
+2. Copiez le code hexadécimal votre couleur de texte dans le champs *Foreground* et celui de votre couleur de fond dans *Background*.
+3. Vérifiez si ça passe le test AA selon le ratio de contraste qui en résulte.
 
 **Exemple :**
+
 - ❌ Texte gris clair (#CCCCCC) sur fond blanc (#FFFFFF) = mauvais contraste
 - ✅ Texte gris foncé (#333333) sur fond blanc (#FFFFFF) = bon contraste
 
 ### 3. Textes alternatifs pour les images
+
 **Pourquoi ?** Les lecteurs d'écran lisent ces descriptions aux personnes non-voyantes.
 
 ```html
@@ -114,15 +122,19 @@ button:focus {
 <!-- ✅ BON -->
 <img src="photo-paris.jpg" alt="Vue de la Tour Eiffel au coucher du soleil">
 
-<!-- ✅ BON pour image décorative (laissez alt vide, pas absent) -->
+<!-- ✅ BON pour image décorative ajoutez quand même 
+ l'attribut alt mais laissez la vide -->
 <img src="decoration.svg" alt="">
 ```
 
 **Pour vos projets :**
+
 - **Mémoires** : Chaque mémoire avec image doit avoir un alt descriptif
+
 - **Trace ton chemin** : Images de fond ou d'ambiance peuvent avoir alt=""
 
 ### 4. Labels pour les formulaires
+
 **Pourquoi ?** Les lecteurs d'écran doivent savoir à quoi sert chaque champ.
 
 ```html
@@ -135,6 +147,7 @@ button:focus {
 ```
 
 ### 5. Messages d'erreur clairs
+
 ```html
 <!-- ✅ BON EXEMPLE -->
 <form>
@@ -147,7 +160,8 @@ button:focus {
 ```
 
 ### 6. Zones de clic suffisamment grandes
-**Règle simple :** Minimum 44x44 pixels pour les boutons et liens (recommandation WCAG)
+
+**Règle simple :** Minimum 44x44 pixels pour les boutons et liens ([recommandation WCAG](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html))
 
 ```css
 /* ✅ BON */
@@ -158,7 +172,6 @@ button {
 }
 ```
 
----
 
 ## 🚀 Optimisation des Performances
 
@@ -168,26 +181,45 @@ button {
 
 **Solutions :**
 
+Pour compresser des images avec *Vite*, il faut utiliser un *plugin* comme *vite-imagetools* ou un outil externe comme *Squoosh*, *TinyPNG/JPG* ou *Compressor.io*. 
+
+La méthode la plus courante est d'intégrer la compression dans le processus de de compilation (*build*) de Vite à l'aide d'un plugin qui optimisera automatiquement vos images. 
+
+Pour votre projet, étant donné que vous n'avez pas une grand quantité d'images et le temps qu'il reste, on va y aller avec la méthode manuelle avec un outil externe.
+
 #### Option A : Outils en ligne (le plus simple)
-- **TinyPNG** : https://tinypng.com/
+
+- **TinyPNG** : [https://tinypng.com/](https://tinypng.com/)
   - Glissez-déposez vos images
   - Téléchargez les versions compressées
   - Qualité excellente, taille réduite de 50-70%
 
-- **Squoosh** : https://squoosh.app/
+- **Squoosh** : [https://squoosh.app/](https://squoosh.app/)
   - Plus de contrôle sur la compression
   - Comparaison avant/après en direct
 
+- **I❤️IMG: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
+
 #### Option B : Outils locaux
-- **ImageOptim** (Mac) : gratuit, drag & drop
-- **RIOT** (Windows) : gratuit, très efficace
+
+- **Photoshop** : 
+  - Vous avez la suite Adobe au collège
+  - Vous pouvez faire des **actions** de compression et les appliquer en **batch** sur un dossier d'images
+
+- **RIOT** (Windows) : [https://riot-optimizer.com/](https://riot-optimizer.com/)
+  - Gratuit, très efficace
+  - Vous pouvez l'installer gratuitement à la maison
+  - Interface (UI) un peu vintage...
+
 
 **Recommandations par type d'image :**
+
 - **Photos** : JPEG, qualité 75-85%
-- **Illustrations/logos** : PNG ou WebP
+- **Illustrations/logos** : SVG, PNG ou WebP
 - **Icônes simples** : SVG (déjà optimal)
 
 **Tailles cibles :**
+
 - Image plein écran : max 500 KB
 - Image de carte/vignette : max 150 KB
 - Image d'arrière-plan : max 300 KB
@@ -203,13 +235,14 @@ button {
 
 **Outil : Lighthouse dans Chrome DevTools**
 
-1. Ouvrez DevTools (F12)
-2. Onglet "Lighthouse"
-3. Cochez "Performance" et "Accessibility"
-4. Cliquez "Generate report"
+1. Ouvrez *DevTools* (F12)
+2. Onglet "*Lighthouse*"
+3. Cochez "*Performance*" et "*Accessibility*"
+4. Cliquez "*Generate report*"
 5. Visez un score > 70 sur mobile
 
 **Points critiques à surveiller :**
+
 - [ ] **First Contentful Paint** : < 2 secondes
 - [ ] **Largest Contentful Paint** : < 2.5 secondes
 - [ ] **Time to Interactive** : < 3.5 secondes
@@ -217,40 +250,43 @@ button {
 ### 4. Optimisation du code
 
 **À vérifier :**
+
 - [ ] Pas de `console.log()` partout dans le code final
 - [ ] Pas d'imports inutilisés
 - [ ] Pas de composants chargés mais non utilisés
+- [ ] Pas de composants, de views créée mais inutilisés, faites le ménages des fichiers!
 
 ```bash
 # Nettoyer les imports inutilisés (si vous utilisez ESLint)
 npm run lint -- --fix
 ```
 
----
 
-## 🐛 Tests de Cas Limites (Edge Cases)
+## 🐛 Tests de *cas limites* (Edge Cases)
 
 ### Tests à faire absolument
 
 #### Pour les formulaires
+
 - [ ] **Champs vides** : Que se passe-t-il si je soumets un formulaire vide ?
 - [ ] **Caractères spéciaux** : Testez avec des émojis, accents, apostrophes : `L'été à Montréal 🌞`
 - [ ] **Texte très long** : Que se passe-t-il si je tape 1000 caractères ?
 - [ ] **Images énormes** : Que se passe-t-il si j'uploade une image de 20 MB ? (devrait être bloqué)
 
 #### Pour la navigation
+
 - [ ] **Bouton retour du navigateur** : Est-ce que ça fonctionne correctement ?
 - [ ] **Rafraîchir la page (F5)** : Est-ce que je perds mes données ?
 - [ ] **URL directe** : Si je copie-colle l'URL d'une salle/chapitre, ça fonctionne ?
 
-#### Pour "Trace ton Chemin" spécifiquement
+#### Pour "Trace ton chemin" spécifiquement
+
 - [ ] **Chaque branche narrative** : Testez TOUS les chemins possibles
 - [ ] **Chaque fin** : Vérifiez que chaque fin est atteignable
 - [ ] **Dead ends** : Assurez-vous qu'aucun chapitre ne mène nulle part
 
----
 
-## 📊 Créer votre Rapport de Contrôle Qualité
+## 📊 Créer votre *rapport de contrôle qualité*
 
 ### Structure recommandée du rapport
 
@@ -264,38 +300,48 @@ npm run lint -- --fix
 - **Testeurs :** [Noms des membres]
 
 ## 2. Environnements testés
-- [x] Chrome (version X)
-- [x] Firefox (version X)
-- [ ] Safari (non testé - pas d'accès Mac)
-- [x] Mobile (375px via DevTools)
-- [x] Tablette (768px via DevTools)
-- [x] Desktop (1920px)
+- [ ] Chrome (version X)
+- [ ] Firefox (version X)
+- [ ] Edge (version X)
+- [ ] Mobile (375px via DevTools)
+- [ ] Tablette (768px via DevTools)
+- [ ] Desktop (1920px)
 
 ## 3. Résultats des tests fonctionnels
 
 ### Navigation (5/5 tests passés ✅)
-- ✅ Navigation entre les salles/chapitres fonctionne
-- ✅ Bouton retour du navigateur fonctionne
-- ✅ URLs directes fonctionnent
-- ✅ Menu responsive fonctionne
-- ✅ Pas de lien brisé
+
+- [ ] Navigation entre les salles/chapitres fonctionne
+- [ ] Bouton retour du navigateur fonctionne
+- [ ] URLs directes fonctionnent
+- [ ] Menu responsive fonctionne
+- [ ] Pas de lien brisé
 
 ### Formulaires (4/5 tests passés ⚠️)
-- ✅ Ajout de données fonctionne
-- ✅ Édition fonctionne
-- ✅ Suppression fonctionne
-- ✅ Validation des champs obligatoires
-- ❌ BUG: Upload d'image > 5MB plante l'app
+
+- [ ] Ajout de données fonctionne
+- [ ] Édition fonctionne
+- [ ] Suppression fonctionne
+- [ ] Validation des champs obligatoires
+- [x] BUG: Upload d'image > 5MB plante l'app
 
 ## 4. Accessibilité
 
+- Tab ++↹++
+- Shif ++⇧++
+- Enter ++↵++ J
+
+
+
 ### Navigation au clavier (3/4 tests passés ⚠️)
-- ✅ Tab fonctionne sur tous les boutons
+
+- [ ] Tab fonctionne sur tous les boutons
 - ✅ Enter/Space activent les boutons
-- ❌ PROBLÈME: Focus visible manquant sur certains liens
+- [x] PROBLÈME: Focus visible manquant sur certains liens
 - ✅ Skip links présents (si applicable)
 
 ### Contraste (5/5 tests passés ✅)
+
 - ✅ Texte principal : 7.2:1 (excellent)
 - ✅ Titres : 5.8:1 (bon)
 - ✅ Boutons : 4.9:1 (conforme)
@@ -303,8 +349,9 @@ npm run lint -- --fix
 - ✅ Texte sur images : bon contraste
 
 ### Images et média (2/3 tests passés ⚠️)
+
 - ✅ Toutes les images ont un attribut alt
-- ❌ PROBLÈME: Certains alt sont vides alors que l'image est informative
+- [x] PROBLÈME: Certains alt sont vides alors que l'image est informative
 - ✅ Vidéos ont des contrôles (si applicable)
 
 ## 5. Performance
