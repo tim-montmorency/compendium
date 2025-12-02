@@ -71,10 +71,8 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
 ### 🖼️ 3. Présentation des 12 exécutions (1 min 30)
 * [ ] Expliquer la progression visuelle des 12 images
 * [ ] Justifier vos choix graphiques (composition, formes, effets, typographie)
-* [ ] Montrer pourquoi chaque image est nécessaire dans la séquence
 * [ ] Souligner la cohérence stylistique entre les planches
 
 ### 🎬 4. Intention finale (30 s)
 * [ ] Expliquer l’idée globale derrière vos choix artistiques
 * [ ] Dire ce que le public doit ressentir
-* [ ] Résumer la cohérence entre le synopsis, le moodboard et les 12 exécutions
