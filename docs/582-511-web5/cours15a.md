@@ -12,12 +12,13 @@ Lundi 8 décembre
 
 - [Utiliser Vite pour rapidement contruire (build) votre projet pour la mise en ligne](https://vite.dev/guide/build.html#building-for-production)
 
+<!-- 
 ## Corrections finales suites au rapport QA
 
 Faites les corrections nécessaires. 
 
 Mais à ce stade, si vous n'avez plus de corrections, considérer le prochain point pour pousser un peu plus votre projet:
-
+-->
 <!--
 ## Au delà du MVP*, ajout de fonctionnalités bonus
 

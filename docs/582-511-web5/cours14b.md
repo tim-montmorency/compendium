@@ -6,16 +6,16 @@ Merc. 3 décembre
 
     Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final
 
-## SCRUM
 
-- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
-- N'oubliez pas d'ajouter votre résumé de SCRUM dans votre équipe Teams.
-  - 🌹 Mes accomplissements
-  - 🚀 Prochaine semaine
-  - 🌵 Problèmes
-  - 🎉 Ce qui me motive
+
+<!--
 
 ## Cours: Contrôle de la qualité
+
+- [Optimisation](https://tim-montmorency.com/timdoc/582-424MO/optimisation/)
+- [Chargement différé](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/lazy-loading/)
+- [Assurance qualité](https://tim-montmorency.com/timdoc/582-518MO/gestion-de-projet/assurance-qualite/)
+- [Assurance qualité - Insoapropriate](https://tim-montmorency.com/timdoc/582-518MO/exercices/assurance-qualite-insoapropriate/)
 
 * normes d’accessibilité
 * normes de validation
@@ -32,12 +32,12 @@ Merc. 3 décembre
 - Contraste des couleurs (WCAG AA)
 - Balises sémantiques HTML5
 
-<!--
+
 ## Plan de tests avec Vitest
 
-Tests unitaires  avec [Vitest](https://vitest.dev/)  -->
+Tests unitaires  avec [Vitest](https://vitest.dev/) 
 
-<!-- https://vueschool.io/articles/vuejs-tutorials/start-testing-with-vitest-beginners-guide/ -->
+ https://vueschool.io/articles/vuejs-tutorials/start-testing-with-vitest-beginners-guide/ 
 
 ### Tests du projet *Web app créative*
 
@@ -60,3 +60,16 @@ Rédaction du rapport dans...
 - Implémenter l'accessibilité (WCAG AA)
 - Optimiser les performances
 - Corriger tous les bugs
+
+
+-->
+
+
+## SCRUM
+
+- Rencontre de 10 minutes pour la mêlée (SCRUM) hebdomadaire.
+- N'oubliez pas d'ajouter votre résumé de SCRUM dans votre équipe Teams.
+  - 🌹 Mes accomplissements
+  - 🚀 Prochaine semaine
+  - 🌵 Problèmes
+  - 🎉 Ce qui me motive
