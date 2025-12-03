@@ -20,6 +20,7 @@
 4. 📊 Remplissez le résumé à la fin
 
 **Différenciez :**
+
 - 🐛 **Bug** = Ne fonctionne PAS comme prévu (à reporter)
 - 💡 **Suggestion** = Idée d'amélioration (ne PAS reporter comme bug)
 - ❌ **Feature manquante** = Pas un bug si c'était optionnel
@@ -128,6 +129,7 @@
 | - Pas de stretching excessif | ☐ | | |
 
 **Comment tester :**
+
 1. Ouvrir DevTools (F12)
 2. Cliquer sur l'icône téléphone/tablette
 3. Sélectionner la taille d'écran
@@ -216,12 +218,14 @@ Utiliser : https://webaim.org/resources/contrastchecker/
 | [Page principale] | /100 | /100 | /100 | |
 
 **Comment faire Lighthouse :**
+
 1. F12 → Onglet Lighthouse
 2. Cocher : Performance, Accessibility, Best Practices
 3. Mode : Desktop OU Mobile
 4. Cliquer "Analyze page load"
 
 **Temps de chargement perçu :**
+
 - Page d'accueil : [X] secondes
 - Page principale : [X] secondes
 
@@ -236,6 +240,7 @@ Utiliser : https://webaim.org/resources/contrastchecker/
 **Bugs trouvés :** [X]
 
 **Répartition par priorité :**
+
 - 🔴 **Critiques** (bloquants) : [X] bugs
 - 🟠 **Majeurs** (impact important) : [X] bugs
 - 🟡 **Mineurs** (améliorations) : [X] bugs
@@ -295,6 +300,7 @@ Utiliser : https://webaim.org/resources/contrastchecker/
 ## ✅ VALIDATION
 
 **Cette grille a été complétée par :**
+
 - [Nom membre 1] - [X] heures de tests
 - [Nom membre 2] - [X] heures de tests  
 - [Nom membre 3] - [X] heures de tests

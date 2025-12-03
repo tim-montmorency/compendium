@@ -54,6 +54,7 @@
 ### Résumé des tests effectués
 
 **Environnements testés :**
+
 - ✅ Chrome 120 (Desktop)
 - ✅ Firefox 121 (Desktop)
 - ✅ Mobile 375px (DevTools)
@@ -61,6 +62,7 @@
 - ⚠️ Safari (non testé - pas d'accès)
 
 **Tests complétés :**
+
 - ✅ Tests fonctionnels (checklist complète)
 - ✅ Tests responsive (3 tailles)
 - ✅ Tests multi-navigateurs (Chrome, Firefox)
@@ -83,20 +85,24 @@
 #### 🔴 Bugs Critiques
 
 1. **Bug #1 : [Titre]**
+
    - **Description :** [Brève description]
    - **Impact :** [Pourquoi c'est critique]
    - **Statut chez eux :** [À faire / En cours / Corrigé]
    - **Carte Trello :** [Lien]
 
 2. **Bug #2 : [Titre]**
+
    - [Même format]
 
 #### 🟠 Bugs Majeurs
 
 3. **Bug #3 : [Titre]**
+
    - [Même format]
 
 4. **Bug #4 : [Titre]**
+
    - [Même format]
 
 #### 🟡 Bugs Mineurs
@@ -106,15 +112,18 @@
 ### Impression générale du projet testé
 
 **Points forts observés :**
+
 1. [Ex: Interface utilisateur très intuitive]
 2. [Ex: Design cohérent et professionnel]
 3. [Ex: Performance excellente]
 
 **Axes d'amélioration identifiés :**
+
 1. [Ex: Accessibilité au clavier à améliorer]
 2. [Ex: Responsive mobile nécessite ajustements]
 
 **Évaluation globale (1-5 étoiles) :**
+
 - Facilité d'utilisation : ⭐⭐⭐⭐☆
 - Stabilité : ⭐⭐⭐☆☆
 - Design : ⭐⭐⭐⭐⭐
@@ -129,6 +138,7 @@
 ### Résumé des tests effectués
 
 **Checklist complète :**
+
 - [✅ / ☐] Navigation entre toutes les salles/chapitres
 - [✅ / ☐] Ajout de mémoire / Lecture des chapitres
 - [✅ / ☐] Édition de mémoire / Système de choix
@@ -191,6 +201,7 @@
 #### 🔴 Bugs Critiques reçus
 
 **Bug #1 : [Titre]**
+
 - **Description :** [Ce que l'autre équipe a trouvé]
 - **Étapes pour reproduire :** [Leurs étapes]
 - **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
@@ -200,28 +211,34 @@
 - **Date de correction :** [Date si corrigé]
 
 **Bug #2 : [Titre]**
+
 - [Même format pour chaque bug critique]
 
 #### 🟠 Bugs Majeurs reçus
 
 **Bug #3 : [Titre]**
+
 - [Format simplifié OK pour majeurs si beaucoup]
 
 #### 🟡 Bugs Mineurs reçus
 
 **Bugs #4-12 :** [Liste brève]
+
 - Voir Trello pour détails complets : [Lien]
 
 ### Notre réaction aux bugs reçus
 
 **Bugs que nous confirmons :**
+
 - [X] bugs confirmés comme vrais bugs
 
 **Bugs que nous contestons (avec justification) :**
+
 - [Bug #X] : Nous pensons que ce n'est pas un bug parce que [raison]
 - [A été discuté avec l'enseignant : décision finale = ...]
 
 **Nouveaux bugs découverts grâce à leurs tests :**
+
 - [X] bugs qu'on n'aurait jamais trouvés nous-mêmes
 - Merci à l'équipe testeuse pour leur regard externe !
 
@@ -245,6 +262,7 @@
 #### ✅ Déjà corrigés (avant le 8)
 
 **Bugs critiques corrigés :**
+
 1. **Bug #1 : [Titre]**
    - Corrigé par : [Nom]
    - Date : [Date]
@@ -254,6 +272,7 @@
 #### 🔄 En cours (sera fait d'ici le 10)
 
 **Bugs critiques en cours :**
+
 1. **Bug #X : [Titre]**
    - Assigné à : [Nom]
    - Temps estimé : [X] heures
@@ -261,18 +280,21 @@
    - Statut actuel : [50% fait / bloqué sur X / presque fini]
 
 **Bugs majeurs en cours :**
+
 2. **Bug #Y : [Titre]**
    - [Même format]
 
 #### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
 **Bugs mineurs à faire si temps :**
+
 1. Bug #Z : [Titre] - Temps estimé : [X]h
 2. Bug #W : [Titre] - Temps estimé : [X]h
 
 #### ❌ Non corrigés (avec justification)
 
 **Bug #Q : [Titre]**
+
 - **Pourquoi pas corrigé :** [Raison valable]
   - Exemple : "Nécessiterait une refonte majeure de l'architecture (20h de travail)"
   - Exemple : "Après discussion, ce n'est pas un bug mais une limitation de la techno utilisée"
@@ -281,15 +303,18 @@
 ### Plan de travail (8-10 décembre)
 
 **Lundi 8 (soir) :**
+
 - [ ] Finir Bug #1 (Marie - 2h)
 - [ ] Commencer Bug #5 (Alex - 3h)
 
 **Mardi 9 :**
+
 - [ ] Finir Bug #5 (Alex - 2h)
 - [ ] Corriger Bug #7 (Jordan - 4h)
 - [ ] Tests sur bugs corrigés (Équipe - 1h)
 
 **Mercredi 10 (matin avant remise) :**
+
 - [ ] Finir Bug #7 si pas fini
 - [ ] Corrections mineures urgentes
 - [ ] Tests finaux
@@ -339,6 +364,7 @@
 ### Score global d'accessibilité
 
 **Résumé :**
+
 - Navigation clavier : [X]/[Y] tests passés
 - Contraste : [X]/[Y] éléments conformes
 - Images : [X]/[Y] avec alt approprié
@@ -352,6 +378,7 @@
 ### Tests Lighthouse
 
 **Configuration :**
+
 - Mode : Desktop ET Mobile
 - Options : Performance, Accessibility, Best Practices
 
@@ -381,6 +408,7 @@
 | [X] images | [X] images compressées | Outil : TinyPNG |
 
 **Exemples :**
+
 - `image1.jpg` : 5.2 MB → 1.8 MB (65% économie)
 - `background.png` : 3.1 MB → 800 KB (74% économie)
 
@@ -394,6 +422,7 @@
 ### Temps de chargement
 
 **Tests manuels (connexion normale) :**
+
 - Page d'accueil : [X] secondes
 - Page principale : [X] secondes
 - Page la plus lourde : [X] secondes
@@ -424,6 +453,7 @@
 ### Bilan des tests
 
 **Statistiques globales :**
+
 - **Bugs trouvés (tous) :** [X] (internes + reçus)
 - **Bugs corrigés :** [X] ([X]%)
 - **Bugs en cours :** [X] (seront corrigés d'ici le 10)
@@ -448,6 +478,7 @@
 ### Apprentissages 📚
 
 **Ce que nous avons appris durant le processus QA :**
+
 1. [Ex: L'importance de tester sur vrais appareils, pas juste DevTools]
 2. [Ex: Un regard externe trouve des bugs qu'on ne voit plus]
 3. [Ex: Documenter clairement les bugs fait gagner du temps]
@@ -480,6 +511,7 @@
 **Board Trello avec tous les bugs :** [URL]
 
 **Organisation du board :**
+
 - Colonne "Bugs trouvés" : [X] cartes
 - Colonne "En correction" : [X] cartes
 - Colonne "À valider" : [X] cartes
@@ -488,6 +520,7 @@
 ### Annexe E : Métriques additionnelles
 
 **Commits Git durant la phase QA :**
+
 - [Date] : [X] commits (corrections bugs)
 - [Date] : [X] commits
 - Total : [X] commits de corrections

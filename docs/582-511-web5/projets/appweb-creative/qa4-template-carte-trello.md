@@ -2,8 +2,6 @@
 
 **Instructions :** Copiez ce template dans une carte Trello pour chaque bug trouvé.
 
----
-
 ## 📋 TEMPLATE À COPIER DANS TRELLO
 
 ```
@@ -221,87 +219,14 @@ button:focus, a:focus {
 
 ---
 
-### Exemple 3 : Bug Mineur
-
-```
-🐛 Bug #12 : Recherche sensible à la casse
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📍 PRIORITÉ
-🟡 MINEUR - Petit problème, amélioration souhaitable
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📝 DESCRIPTION
-La barre de recherche est sensible aux majuscules/minuscules.
-Chercher "PARIS" ne trouve pas "Paris" ou "paris".
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🔄 COMMENT REPRODUIRE
-1. Avoir une mémoire avec le titre "Paris 2024"
-2. Chercher "PARIS" (tout en majuscules)
-3. Observer : Aucun résultat trouvé
-4. Chercher "paris" (tout en minuscules)
-5. Observer : Aucun résultat trouvé
-6. Chercher "Paris" (avec majuscule)
-7. Observer : La mémoire est trouvée
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✅ RÉSULTAT ATTENDU
-La recherche devrait trouver "Paris 2024" peu importe comment 
-c'est écrit (PARIS, paris, PaRiS, etc.)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-❌ RÉSULTAT ACTUEL
-La recherche doit matcher exactement les majuscules/minuscules.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🌐 ENVIRONNEMENT
-Navigateur : Chrome 120
-Appareil : Desktop
-OS : Windows 11
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📸 SCREENSHOT
-[recherche-case-sensitive.png attachée]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-👤 TROUVÉ PAR
-@Jordan
-
-📅 DATE
-5 décembre 2024
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-💡 SUGGESTION DE FIX
-Convertir en minuscules avant de comparer :
-query.toLowerCase().includes(memory.title.toLowerCase())
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🔧 STATUT
-[ ] À faire
-[ ] En cours
-[ ] Corrigé
-[ ] Validé
-```
-
----
-
 ## 🎯 GUIDE : Quelle priorité choisir ?
 
 ### 🔴 CRITIQUE (Rouge)
+
 **Définition :** Bug qui EMPÊCHE l'utilisation d'une fonctionnalité majeure
 
 **Exemples :**
+
 - L'application plante/freeze
 - Impossible d'ajouter une mémoire (fonctionnalité principale)
 - Impossible d'atteindre une fin de l'histoire
@@ -314,9 +239,11 @@ query.toLowerCase().includes(memory.title.toLowerCase())
 ---
 
 ### 🟠 MAJEUR (Orange)
+
 **Définition :** Bug qui DÉGRADE significativement l'expérience utilisateur
 
 **Exemples :**
+
 - Navigation au clavier ne fonctionne pas (accessibilité)
 - Contraste insuffisant (texte illisible)
 - Site cassé sur mobile
@@ -329,9 +256,11 @@ query.toLowerCase().includes(memory.title.toLowerCase())
 ---
 
 ### 🟡 MINEUR (Jaune)
+
 **Définition :** Petit problème ou amélioration souhaitable
 
 **Exemples :**
+
 - Recherche sensible à la casse
 - Texte qui déborde légèrement
 - Bouton un peu petit
@@ -363,20 +292,24 @@ Avant de créer une carte Trello pour un bug, vérifiez :
 **Ne créez PAS de carte Trello pour :**
 
 ❌ **Feature manquante (si elle était optionnelle)**
+
 - "Pas d'animations GSAP" → Ce n'était pas obligatoire
 - "Pas de sauvegarde LocalStorage" → Listé comme optionnel
 
 ❌ **Suggestions d'amélioration**
+
 - "Serait cool d'avoir un mode sombre"
 - "Pourrait ajouter un tutoriel"
 → Mentionner dans la section "Suggestions" du rapport
 
 ❌ **Préférences personnelles**
+
 - "Je n'aime pas cette couleur"
 - "Le logo devrait être plus gros"
 → Ce ne sont pas des bugs
 
 ❌ **Problèmes déjà connus**
+
 - Si c'est listé dans le brief comme "problème connu"
 → Ne pas le reporter
 
