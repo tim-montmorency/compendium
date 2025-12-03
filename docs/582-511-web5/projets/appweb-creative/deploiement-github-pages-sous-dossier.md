@@ -9,12 +9,12 @@ Si vous avez un sous-dossier et que votre projet n'est pas à la racine du repo 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ mode }) => ({ // remarquez l'ajoute du {mode} ici
   plugins: [vue()],
   base: mode === 'production' 
     ? '/nom-de-votre-repo/'  // ← GitHub Pages
     : '/'                     // ← Dev local
-}))
+})) // remarquez la fin de l'export ici
 ```
 
 ### OU si vous avez un sous-dossier :
@@ -23,12 +23,12 @@ export default defineConfig(({ mode }) => ({
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ mode }) => ({ // remarquez l'ajoute du {mode} ici
   plugins: [vue()],
   base: mode === 'production' 
     ? '/nom-de-votre-repo/sous-dossier/'  // ← GitHub Pages avec sous-dossier
     : '/'                                  // ← Dev local
-}))
+})) // remarquez la fin de l'export ici
 ```
 
 ## Maintenant testez :
