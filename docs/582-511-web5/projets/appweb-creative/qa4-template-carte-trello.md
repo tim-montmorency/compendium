@@ -1,4 +1,4 @@
-# Template de Carte Trello - Rapport de Bug
+# Template de carte Trello - Rapport de bogue
 
 **Instructions :** Copiez ce template dans une carte Trello pour chaque bug trouvé.
 
@@ -13,7 +13,7 @@ Dans le projet Trello, il (au moins) devrait y avoir ces colonnes (ou équivalen
 
 S'il manque celle nommée *Validé par l'équipe QA*, veuillez la créer.
 
-C'est dans cette colonnes que vous ajoutez les cartes de bogues au besoin.
+C'est dans cette colonne que vous ajoutez les cartes de bogues au besoin.
 
 ## 📋 TEMPLATE À COPIER DANS UNE CARTE TRELLO
 
@@ -58,8 +58,8 @@ En faire un modèle réutilisable dans Trello.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🌐 ENVIRONNEMENT
-Navigateur : [Chrome 120 / Firefox 121 / Safari]
-Appareil : [Desktop / Mobile 375px / Tablette 768px]
+Navigateur : [Chrome 120 / Firefox 121 /  Edge 142]
+Appareil : [Desktop 1920px / Mobile 375px / Tablette 768px]
 OS : [Windows / Mac / Android / iOS]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -82,17 +82,17 @@ OS : [Windows / Mac / Android / iOS]
 [ ] En cours
 [ ] Corrigé
 [ ] Validé
-[ ] Won't fix (justification : ...)
+[ ] Ne sera pas corrigé (Will not fix) (justification : ...)
 ```
 
 ---
 
 ## 📚 EXEMPLES CONCRETS
 
-### Exemple 1 : Bug Critique
+### Exemple 1 : Bogue Critique
 
 ```
-🐛 Bug #1 : Upload d'image > 5MB plante l'application
+🐛 Bogue #1 : Upload d'image > 5MB plante l'application
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -160,10 +160,10 @@ OS : Windows 11
 
 ---
 
-### Exemple 2 : Bug Majeur
+### Exemple 2 : Bogue Majeur
 
 ```
-🐛 Bug #5 : Navigation au clavier - focus invisible
+🐛 Bogue #5 : Navigation au clavier - focus invisible
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -240,7 +240,7 @@ button:focus, a:focus {
 
 ### 🔴 CRITIQUE (Rouge)
 
-**Définition :** Bug qui EMPÊCHE l'utilisation d'une fonctionnalité majeure
+**Définition :** Bogue qui EMPÊCHE l'utilisation d'une fonctionnalité majeure
 
 **Exemples :**
 
@@ -257,7 +257,7 @@ button:focus, a:focus {
 
 ### 🟠 MAJEUR (Orange)
 
-**Définition :** Bug qui DÉGRADE significativement l'expérience utilisateur
+**Définition :** Bogue qui DÉGRADE significativement l'expérience utilisateur
 
 **Exemples :**
 

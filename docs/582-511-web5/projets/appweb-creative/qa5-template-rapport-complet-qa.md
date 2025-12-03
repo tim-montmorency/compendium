@@ -4,7 +4,6 @@
 **Nom du projet :** [Nom de votre projet]  
 **Type de projet :** [Mémoires interactives / Trace ton chemin]  
 **Date :** 8 décembre 2024  
-**Version :** 1.0
 
 ---
 
@@ -539,5 +538,4 @@
 
 ---
 
-**Version du document :** 1.0  
 **Date de dernière mise à jour :** 8 décembre 2024  

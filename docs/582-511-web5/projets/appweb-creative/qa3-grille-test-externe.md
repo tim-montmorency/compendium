@@ -149,11 +149,10 @@
 | **Firefox** | [X] | | | |
 | - Toutes les fonctionnalités marchent | ☐ | | |
 | - Pas d'erreurs dans la console | ☐ | | |
-| **Safari** (si accessible) | [X] | | | |
+| **Edge** (si accessible) | [X] | | | |
 | - Toutes les fonctionnalités marchent | ☐ | | |
 | - Pas d'erreurs dans la console | ☐ | | |
 
-**Note :** Si vous n'avez pas accès à Safari, notez-le dans le rapport.
 
 **Bugs trouvés dans cette section :** [Nombre]
 
