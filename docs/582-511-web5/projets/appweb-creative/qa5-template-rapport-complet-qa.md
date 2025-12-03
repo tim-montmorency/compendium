@@ -5,9 +5,8 @@
 **Type de projet :** [Mémoires interactives / Trace ton chemin]  
 **Date :** 8 décembre 2024
 
-[📥 Télécharger template de départ en markdown](./qa5-template-rapport-complet-qa.md){ .md-button }
+[📥 Télécharger template de départ en markdown](https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
----
 
 ## 📋 Table des matières
 
