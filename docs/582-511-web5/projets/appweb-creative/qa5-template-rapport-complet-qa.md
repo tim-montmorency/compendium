@@ -3,7 +3,9 @@
 **Nom de l'équipe :** [Votre équipe]  
 **Nom du projet :** [Nom de votre projet]  
 **Type de projet :** [Mémoires interactives / Trace ton chemin]  
-**Date :** 8 décembre 2024  
+**Date :** 8 décembre 2024
+
+[📥 Télécharger template de départ en markdown](./qa5-template-rapport-complet-qa.md){ .md-button }
 
 ---
 
@@ -56,6 +58,7 @@
 
 - ✅ Chrome 120 (Desktop)
 - ✅ Firefox 121 (Desktop)
+- ✅ Edge (Desktop)
 - ✅ Mobile 375px (DevTools)
 - ✅ Tablette 768px (DevTools)
 - ⚠️ Safari (non testé - pas d'accès)
@@ -231,7 +234,7 @@ RAS = Rien À Signaler
 
 **Bogues que nous confirmons :**
 
-- [X] bugs confirmés comme vrais bugs
+- X bugs confirmés comme vrais bugs
 
 **Bogues que nous contestons (avec justification) :**
 
@@ -240,7 +243,7 @@ RAS = Rien À Signaler
 
 **Nouveaux bugs découverts grâce à leurs tests :**
 
-- [X] bugs qu'on n'aurait jamais trouvés nous-mêmes
+- X bugs qu'on n'aurait jamais trouvés nous-mêmes
 - Merci à l'équipe testeuse pour leur regard externe !
 
 ---
@@ -305,7 +308,7 @@ RAS = Rien À Signaler
 
 **Lundi 8 (soir) :**
 
-- [ ] Finir Bogue #1 (Marie - 2h)
+- [ ] Finir Bogue #1 (Carl - 2h)
 - [ ] Commencer Bogue #5 (Alex - 3h)
 
 **Mardi 9 :**

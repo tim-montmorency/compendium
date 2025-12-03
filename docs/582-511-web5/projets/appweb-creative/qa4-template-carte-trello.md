@@ -9,9 +9,9 @@ Dans le projet Trello, il (au moins) devrait y avoir ces colonnes (ou équivalen
 - À faire
 - En cours
 - Prêt à être validé
-- *Validé par l'équipe QA*
+- *Bogues trouvés (QA)*
 
-S'il manque celle nommée *Validé par l'équipe QA*, veuillez la créer.
+S'il manque celle nommée *Bogues trouvés (QA)*, veuillez la créer.
 
 C'est dans cette colonne que vous ajoutez les cartes de bogues au besoin.
 
