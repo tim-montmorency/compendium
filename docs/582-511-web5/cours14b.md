@@ -51,6 +51,21 @@ Merc. 3 décembre
 
 [](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
+## Jumelage d'équipes
+
+C'est moi qui décide des jumelages.
+
+### AM (groupe 2) 
+
+- Yannick, Ryan et Benjamin *<>* Patricia, Jade et Félix
+- Benoît, William, Ting Yng et Dana *<>* Mégane, Manel, Érick et Michaël
+
+### PM (groupe 1)
+
+- Mikaël, Alexandre, Rafaël *<>* Radhouane, Thearylou et Amira
+- Jad, Anton et Matis *>* Ahmed, Justin et Mathieu
+- Émeryk, Elie et Edelwyn *>* Jad, Anton et Matis
+- Ahmed, Justin et Mathieu  *>* Émeryk, Elie et Edelwyn
 
 <!--
 
