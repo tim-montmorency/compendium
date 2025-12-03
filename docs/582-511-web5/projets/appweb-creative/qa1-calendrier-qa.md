@@ -9,7 +9,6 @@
 | **Lundi 8 décembre** | Remise rapport QA | Rapport complet | 10% |
 | **Mercredi 10 décembre** | Remise finale | Projet final | 50% |
 
----
 
 ## 📋 Détails par phase
 
@@ -139,7 +138,6 @@ Le rapport du 8 documente l'état actuel et le plan pour finir d'ici le 10.
 - ✅ Majorité des bugs majeurs corrigés
 - ✅ Présentation orale en classe
 
----
 
 ## 🎯 Attentes réalistes par date
 
@@ -166,7 +164,6 @@ Ce qui compte :
 ✅ Projet stable et fonctionnel
 ✅ Présentation professionnelle
 
----
 
 ## ⏰ Timeline visuelle
 
@@ -185,7 +182,6 @@ tests          externes          (10%)             (50%)
       + internes       + majeures
 ```
 
----
 
 ## 📞 Support et questions
 
@@ -203,7 +199,6 @@ tests          externes          (10%)             (50%)
 - L'équipe créatrice pense que ce n'est pas un bug
 - → Demander à l'enseignant de trancher
 
----
 
 ## ⚠️ Rappels importants
 
@@ -232,7 +227,6 @@ tests          externes          (10%)             (50%)
 - "Ça ne marche pas"
 - Vague, inutile, non professionnel
 
----
 
 ## 💪 Message de motivation
 
@@ -265,7 +259,6 @@ La différence entre un bon développeur et un excellent :
 - Le bon développeur écrit du code qui marche
 - L'excellent développeur **teste** son code et **accepte le feedback**
 
----
 
 ## 🚀 Vous avez 7 jours pour réussir
 
