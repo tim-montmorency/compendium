@@ -6,7 +6,7 @@ Merc. 3 décembre
 
     Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final.
 
-## Déploiement de votre projet *live* sur Github Pages ou Netlify
+## Déploiement de votre projet *live* sur Github Pages
 
 Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est jumelée à la votre puissent faire le QA de votre projet.
 
