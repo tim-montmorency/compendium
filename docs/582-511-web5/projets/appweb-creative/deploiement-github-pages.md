@@ -25,9 +25,16 @@ export default defineConfig({
 - Le nom du repo = `mon-projet`
 - Donc `base: '/mon-projet/',`
 
-⚠️ **N'oubliez pas les `/` au début ET à la fin !**
+*N'oubliez pas les `/` au début ET à la fin !*
 
 **Sauvegardez le fichier.**
+
+!!! Warning "⚠️ ⚠️ ⚠️ "
+    Attention, si vous avez un sous-dossier et que votre projet n'est pas à la racine du repo git, vous devez plutôt suivre [ces instructions](./deploiement-github-pages-sous-dossier.md) pour l'ÉTAPE 1 qui consiste à définir la `base` de votre projet dans `vite.config.js`.
+
+
+
+
 
 
 ## ÉTAPE 2 : Compiler (*build*) le projet
