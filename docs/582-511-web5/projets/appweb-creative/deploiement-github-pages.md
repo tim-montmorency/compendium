@@ -82,8 +82,8 @@ Si ce n'est pas fait, arrêtez le projet dans le terminal via `q` et `enter`.
 
 Ensuite créez via ligne de commande une nouvelle branche vide:
 
-```
-  git switch --orphan gh-pages
+```bash
+git switch --orphan gh-pages
 ```
 
 <!--
@@ -99,7 +99,25 @@ Ensuite créez via ligne de commande une nouvelle branche vide:
 
 -->
 
-✅ Vous avez maintenant une branche `gh-pages` vide
+Vous pouvez vérifier dans *GitHub Desktop* sur la branche que vous venez de créer voir si'il est vraimetn vide de tout ficheir. S'il n'est pas vide, videz le avec ceci toujorus dans votre terminal:
+
+```bash
+git rm -rf .
+```
+
+
+Une bnrache orpheline doit avoir au moins un commit, même s'il est vide de ficheir pour initialiser une historique de branche:
+
+```bash
+git commit --allow-empty -m "Initial commit on orphan branch"
+
+```
+
+Allez dans *GitHub Desktop* pour faire le push de votre nouvelle branche *gh-pages*.
+
+
+
+✅ Vous avez maintenant une branche `gh-pages` vide!
 
 
 
