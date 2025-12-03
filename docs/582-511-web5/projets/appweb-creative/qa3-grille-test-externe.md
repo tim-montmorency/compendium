@@ -190,10 +190,6 @@ Utiliser : https://webaim.org/resources/contrastchecker/
 
 | Test | ✓ | Bug # | Notes |
 |------|---|-------|-------|
-| **Formulaires avec données inhabituelles** | | | |
-| Soumettre un formulaire vide → message d'erreur ? | ☐ | | |
-| Texte très long (1000 caractères) dans un champ | ☐ | | |
-| Caractères spéciaux : émojis 🌍, accents é, apostrophes ' | ☐ | | |
 | **Upload d'images (si applicable)** | | | |
 | Petite image (100 KB) fonctionne | ☐ | | |
 | Grande image (5 MB) → bloquée ou message ? | ☐ | | |

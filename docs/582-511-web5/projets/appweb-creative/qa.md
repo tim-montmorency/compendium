@@ -127,13 +127,14 @@ button:focus {
 <img src="decoration.svg" alt="">
 ```
 
+<br> 
 **Pour vos projets :**
 
-- **Mémoires** : Chaque mémoire avec image doit avoir un alt descriptif
+- **Mémoires** : Chaque mémoire avec image doit avoir un `alt` descriptif
 
-- **Trace ton chemin** : Images de fond ou d'ambiance peuvent avoir alt=""
+- **Trace ton chemin** : Images de fond ou d'ambiance peuvent avoir `alt=""`
 
-### 4. Labels pour les formulaires
+### 4. Libellés (`<label>`) pour les formulaires
 
 **Pourquoi ?** Les lecteurs d'écran doivent savoir à quoi sert chaque champ.
 
@@ -141,7 +142,7 @@ button:focus {
 <!-- ❌ MAUVAIS -->
 <input type="text" placeholder="Titre">
 
-<!-- [ ] BON -->
+<!-- ✅ BON -->
 <label for="titre">Titre de la mémoire</label>
 <input type="text" id="titre" placeholder="Ex: Mon voyage à Paris">
 ```
@@ -149,7 +150,7 @@ button:focus {
 ### 5. Messages d'erreur clairs
 
 ```html
-<!-- [ ] BON EXEMPLE -->
+<!-- ✅ BON EXEMPLE -->
 <form>
   <label for="email">Courriel</label>
   <input type="email" id="email" required>
@@ -173,13 +174,15 @@ button {
 ```
 
 
-## 🚀 Optimisation des Performances
+## 🚀 Optimisation des performances
 
 ### 1. Compression des images
 
-**Problème courant :** Images de 5-10 MB qui ralentissent le chargement
+#### Problème courant :
 
-**Solutions :**
+Images de 5-10 MB qui ralentissent le chargement
+
+#### Solutions :
 
 Pour compresser des images avec *Vite*, il faut utiliser un *plugin* comme *vite-imagetools* ou un outil externe comme *Squoosh*, *TinyPNG/JPG* ou *Compressor.io*. 
 
@@ -187,7 +190,7 @@ La méthode la plus courante est d'intégrer la compression dans le processus de
 
 Pour votre projet, étant donné que vous n'avez pas une grand quantité d'images et le temps qu'il reste, on va y aller avec la méthode manuelle avec un outil externe.
 
-#### Option A : Outils en ligne (le plus simple)
+##### Option A : Outils en ligne (le plus simple)
 
 - **TinyPNG** : [https://tinypng.com/](https://tinypng.com/)
   - Glissez-déposez vos images
@@ -200,7 +203,7 @@ Pour votre projet, étant donné que vous n'avez pas une grand quantité d'image
 
 - **I❤️IMG**: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
 
-#### Option B : Outils locaux
+##### Option B : Outils locaux
 
 - **Photoshop** : 
   - Vous avez la suite Adobe au collège
@@ -212,13 +215,13 @@ Pour votre projet, étant donné que vous n'avez pas une grand quantité d'image
   - Interface (UI) un peu vintage...
 
 
-**Recommandations par type d'image :**
+#### Recommandations par type d'image :
 
 - **Photos** : JPEG, qualité 75-85%
 - **Illustrations/logos** : SVG, PNG ou WebP
 - **Icônes simples** : SVG (déjà optimal)
 
-**Tailles cibles :**
+####  Recommandations de tailles cibles :
 
 - Image plein écran : max 500 KB
 - Image de carte/vignette : max 150 KB
@@ -247,14 +250,14 @@ Pour votre projet, étant donné que vous n'avez pas une grand quantité d'image
 - [ ] **Largest Contentful Paint** : < 2.5 secondes
 - [ ] **Time to Interactive** : < 3.5 secondes
 
-### 4. Optimisation du code
+### 4. Optimisation du code (faites du ménage !)
 
 **À vérifier :**
 
 - [ ] Pas de `console.log()` partout dans le code final
-- [ ] Pas d'imports inutilisés
+- [ ] Pas d'`imports` JavaScript ou fichiers Vue inutilisés
 - [ ] Pas de composants chargés mais non utilisés
-- [ ] Pas de composants, de views créée mais inutilisés, faites le ménages des fichiers!
+- [ ] Pas de composants, de views créés mais inutilisés, faites le ménages des fichiers!
 
 ```bash
 # Nettoyer les imports inutilisés (si vous utilisez ESLint)
@@ -393,7 +396,7 @@ npm run lint -- --fix
 
 4. **Alt text manquant sur 3 images décoratives**
    - **Impact :** Lecteur d'écran lit le nom de fichier
-   - **Correction prévue :** Ajouter alt=""
+   - **Correction prévue :** Ajouter `alt=""`
    - **Statut :** À faire
 
 5. **Bouton "Retour" pas assez contrasté**

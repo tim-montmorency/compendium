@@ -12,7 +12,7 @@
 1. [Informations générales](#1-informations-générales)
 2. [PARTIE 1 : Tests externes](#2-partie-1-tests-externes)
 3. [PARTIE 2A : Tests internes](#3-partie-2a-tests-internes)
-4. [PARTIE 2B : Bugs reçus](#4-partie-2b-bugs-reçus)
+4. [PARTIE 2B : Bogues reçus](#4-partie-2b-bugs-reçus)
 5. [PARTIE 2C : Plan de corrections](#5-partie-2c-plan-de-corrections)
 6. [Accessibilité](#6-accessibilité)
 7. [Performance](#7-performance)
@@ -81,30 +81,30 @@
 
 **Tous les détails sont dans notre board Trello :** [Lien]
 
-#### 🔴 Bugs Critiques
+#### 🔴 Bogues Critiques
 
-1. **Bug #1 : [Titre]**
+1. **Bogue #1 : [Titre]**
 
    - **Description :** [Brève description]
    - **Impact :** [Pourquoi c'est critique]
    - **Statut chez eux :** [À faire / En cours / Corrigé]
    - **Carte Trello :** [Lien]
 
-2. **Bug #2 : [Titre]**
+2. **Bogue #2 : [Titre]**
 
    - [Même format]
 
-#### 🟠 Bugs Majeurs
+#### 🟠 Bogues Majeurs
 
-3. **Bug #3 : [Titre]**
-
-   - [Même format]
-
-4. **Bug #4 : [Titre]**
+3. **Bogue #3 : [Titre]**
 
    - [Même format]
 
-#### 🟡 Bugs Mineurs
+4. **Bogue #4 : [Titre]**
+
+   - [Même format]
+
+#### 🟡 Bogues Mineurs
 
 5-12. [Liste brève, détails complets dans Trello]
 
@@ -136,7 +136,7 @@
 
 ### Résumé des tests effectués
 
-**Checklist complète :**
+**Checklist complète (à ajuster en fonction de votre projet) :**
 
 - [✅ / ☐] Navigation entre toutes les salles/chapitres
 - [✅ / ☐] Ajout de mémoire / Lecture des chapitres
@@ -156,20 +156,22 @@
 
 ### Environnements testés
 
+RAS = Rien À Signaler
+
 | Environnement | Testé | Résultat | Notes |
 |---------------|-------|----------|-------|
 | Chrome Desktop | ✅ | ✅ Fonctionne | Quelques bugs mineurs |
 | Firefox Desktop | ✅ | ✅ Fonctionne | RAS |
-| Safari | ❌ | - | Pas d'accès Mac |
-| Mobile 375px | ✅ | ⚠️ Bugs trouvés | [Détails] |
+| Edge Desktop | ✅ | ✅ | RAS|
+| Mobile 375px | ✅ | ⚠️ Bogues trouvés | [Détails] |
 | Tablette 768px | ✅ | ✅ Fonctionne | RAS |
 | Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
 
-### Bugs trouvés dans notre propre projet
+### Bogues trouvés dans notre propre projet
 
 **En plus des bugs reçus de l'autre équipe, nous avons trouvé :**
 
-| Bug # | Titre | Priorité | Statut | Assigné à |
+| Bogue # | Titre | Priorité | Statut | Assigné à |
 |-------|-------|----------|--------|-----------|
 | [X] | [Titre] | 🔴 | Corrigé ✅ | [Nom] |
 | [X] | [Titre] | 🟠 | En cours 🔄 | [Nom] |
@@ -179,7 +181,7 @@
 
 ---
 
-## 4. PARTIE 2B : Bugs reçus
+## 4. PARTIE 2B : Bogues reçus
 
 ### Ce que l'AUTRE équipe a trouvé dans NOTRE projet
 
@@ -188,7 +190,7 @@
 
 ### Statistiques
 
-| Priorité | Bugs reçus | Corrigés | En cours | Pas encore faits |
+| Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
 | 🔴 Critiques | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
 | 🟠 Majeurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
@@ -197,9 +199,9 @@
 
 ### Liste détaillée des bugs reçus
 
-#### 🔴 Bugs Critiques reçus
+#### 🔴 Bogues Critiques reçus
 
-**Bug #1 : [Titre]**
+**Bogue #1 : [Titre]**
 
 - **Description :** [Ce que l'autre équipe a trouvé]
 - **Étapes pour reproduire :** [Leurs étapes]
@@ -209,31 +211,31 @@
 - **Assigné à :** [Nom]
 - **Date de correction :** [Date si corrigé]
 
-**Bug #2 : [Titre]**
+**Bogue #2 : [Titre]**
 
 - [Même format pour chaque bug critique]
 
-#### 🟠 Bugs Majeurs reçus
+#### 🟠 Bogues Majeurs reçus
 
-**Bug #3 : [Titre]**
+**Bogue #3 : [Titre]**
 
 - [Format simplifié OK pour majeurs si beaucoup]
 
-#### 🟡 Bugs Mineurs reçus
+#### 🟡 Bogues Mineurs reçus
 
-**Bugs #4-12 :** [Liste brève]
+**Bogues #4-12 :** [Liste brève]
 
 - Voir Trello pour détails complets : [Lien]
 
 ### Notre réaction aux bugs reçus
 
-**Bugs que nous confirmons :**
+**Bogues que nous confirmons :**
 
 - [X] bugs confirmés comme vrais bugs
 
-**Bugs que nous contestons (avec justification) :**
+**Bogues que nous contestons (avec justification) :**
 
-- [Bug #X] : Nous pensons que ce n'est pas un bug parce que [raison]
+- [Bogue #X] : Nous pensons que ce n'est pas un bug parce que [raison]
 - [A été discuté avec l'enseignant : décision finale = ...]
 
 **Nouveaux bugs découverts grâce à leurs tests :**
@@ -260,9 +262,9 @@
 
 #### ✅ Déjà corrigés (avant le 8)
 
-**Bugs critiques corrigés :**
+**Bogues critiques corrigés :**
 
-1. **Bug #1 : [Titre]**
+1. **Bogue #1 : [Titre]**
    - Corrigé par : [Nom]
    - Date : [Date]
    - Solution : [Brève description de comment c'était corrigé]
@@ -270,29 +272,29 @@
 
 #### 🔄 En cours (sera fait d'ici le 10)
 
-**Bugs critiques en cours :**
+**Bogues critiques en cours :**
 
-1. **Bug #X : [Titre]**
+1. **Bogue #X : [Titre]**
    - Assigné à : [Nom]
    - Temps estimé : [X] heures
    - Sera fait : [9 décembre]
    - Statut actuel : [50% fait / bloqué sur X / presque fini]
 
-**Bugs majeurs en cours :**
+**Bogues majeurs en cours :**
 
-2. **Bug #Y : [Titre]**
+2. **Bogue #Y : [Titre]**
    - [Même format]
 
 #### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
-**Bugs mineurs à faire si temps :**
+**Bogues mineurs à faire si temps :**
 
-1. Bug #Z : [Titre] - Temps estimé : [X]h
-2. Bug #W : [Titre] - Temps estimé : [X]h
+1. Bogue #Z : [Titre] - Temps estimé : [X]h
+2. Bogue #W : [Titre] - Temps estimé : [X]h
 
 #### ❌ Non corrigés (avec justification)
 
-**Bug #Q : [Titre]**
+**Bogue #Q : [Titre]**
 
 - **Pourquoi pas corrigé :** [Raison valable]
   - Exemple : "Nécessiterait une refonte majeure de l'architecture (20h de travail)"
@@ -303,18 +305,18 @@
 
 **Lundi 8 (soir) :**
 
-- [ ] Finir Bug #1 (Marie - 2h)
-- [ ] Commencer Bug #5 (Alex - 3h)
+- [ ] Finir Bogue #1 (Marie - 2h)
+- [ ] Commencer Bogue #5 (Alex - 3h)
 
 **Mardi 9 :**
 
-- [ ] Finir Bug #5 (Alex - 2h)
-- [ ] Corriger Bug #7 (Jordan - 4h)
+- [ ] Finir Bogue #5 (Alex - 2h)
+- [ ] Corriger Bogue #7 (Jordan - 4h)
 - [ ] Tests sur bugs corrigés (Équipe - 1h)
 
 **Mercredi 10 (matin avant remise) :**
 
-- [ ] Finir Bug #7 si pas fini
+- [ ] Finir Bogue #7 si pas fini
 - [ ] Corrections mineures urgentes
 - [ ] Tests finaux
 - [ ] Mise à jour documentation
@@ -341,6 +343,8 @@
 #### Contraste des couleurs
 
 **Tests effectués avec WebAIM Contrast Checker :**
+
+RAS = Rien À Signaler
 
 | Élément | Couleurs | Ratio | Conforme WCAG AA | Action |
 |---------|----------|-------|------------------|--------|
@@ -443,8 +447,8 @@
 | Aspect | État | Commentaire |
 |--------|------|-------------|
 | **Fonctionnalités principales** | ✅ / ⚠️ / ❌ | [Commentaire] |
-| **Bugs critiques** | ✅ Tous corrigés / ⚠️ En cours / ❌ Restants | [Détails] |
-| **Bugs majeurs** | ✅ / ⚠️ / ❌ | [X]/[Y] corrigés |
+| **Bogues critiques** | ✅ Tous corrigés / ⚠️ En cours / ❌ Restants | [Détails] |
+| **Bogues majeurs** | ✅ / ⚠️ / ❌ | [X]/[Y] corrigés |
 | **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [X]/100 |
 | **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [X]/100 |
 | **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
@@ -453,10 +457,10 @@
 
 **Statistiques globales :**
 
-- **Bugs trouvés (tous) :** [X] (internes + reçus)
-- **Bugs corrigés :** [X] ([X]%)
-- **Bugs en cours :** [X] (seront corrigés d'ici le 10)
-- **Bugs mineurs reportés :** [X]
+- **Bogues trouvés (tous) :** [X] (internes + reçus)
+- **Bogues corrigés :** [X] ([X]%)
+- **Bogues en cours :** [X] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [X]
 
 **Temps total consacré au QA :** [X] heures
 
@@ -468,7 +472,7 @@
 
 ### Défis rencontrés et solutions 🔧
 
-1. **Défi :** [Ex: Bugs difficiles à reproduire]
+1. **Défi :** [Ex: Bogues difficiles à reproduire]
    - **Solution :** [Ex: Tests systématiques avec documentation précise]
 
 2. **Défi :** [Ex: Manque de temps pour tout corriger]
@@ -511,7 +515,7 @@
 
 **Organisation du board :**
 
-- Colonne "Bugs trouvés" : [X] cartes
+- Colonne "Bogues trouvés" : [X] cartes
 - Colonne "En correction" : [X] cartes
 - Colonne "À valider" : [X] cartes
 - Colonne "Corrigé" : [X] cartes
