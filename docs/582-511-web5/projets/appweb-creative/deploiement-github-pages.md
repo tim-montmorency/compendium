@@ -1,5 +1,6 @@
-# Déploiement live de votre projet avec Vite sur GitHub Pages
+# Déploiement *live* de votre projet
 
+Déploiement *live* de votre projet avec *Vite* sur *GitHub Pages*
 
 ## ÉTAPE 1 : Configurer `vite.config.js`
 
