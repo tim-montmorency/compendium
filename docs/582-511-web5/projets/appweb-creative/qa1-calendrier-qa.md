@@ -1,0 +1,279 @@
+# Calendrier de Contrôle Qualité - Tests Croisés
+
+## 📅 Vue d'ensemble
+
+| Date | Activité | Livrable | Évaluation |
+|------|----------|----------|------------|
+| **Mercredi 3 décembre** | Cours QA + début tests | - | - |
+| **Vendredi 6 décembre** | Remise tests externes | Rapport externe | Formatif |
+| **Lundi 8 décembre** | Remise rapport QA | Rapport complet | 10% |
+| **Mercredi 10 décembre** | Remise finale | Projet final | 50% |
+
+---
+
+## 📋 Détails par phase
+
+### MERCREDI 3 DÉCEMBRE - En classe
+
+**MATIN/DÉBUT DU COURS (60 min)**
+- Mini-cours sur le contrôle qualité
+- Présentation du processus de tests croisés
+- Explication des templates et outils
+- **Annonce des jumelages** (qui teste qui)
+- Échange des liens de projets + briefs
+
+**RESTE DU COURS**
+Temps de travail en classe - Les étudiants peuvent :
+- Explorer le projet de l'autre équipe
+- Finir leur propre version BETA
+- Commencer leurs tests (internes ou externes)
+
+---
+
+### MERCREDI 3 → VENDREDI 6 DÉCEMBRE - Travail autonome
+
+**TÂCHE 1 : Tests externes (priorité)**
+Tester le projet de l'autre équipe :
+- Suivre la grille de test fournie
+- Créer une carte Trello pour chaque bug trouvé
+- Prendre des screenshots
+- Rédiger le rapport de tests externes
+
+**Temps estimé :** 3-4 heures
+
+**TÂCHE 2 : Tests internes (en parallèle)**
+Tester votre propre projet :
+- Utiliser la même checklist
+- Identifier vos propres bugs
+- Commencer quelques corrections simples si temps
+
+**Temps estimé :** 2-3 heures
+
+---
+
+### VENDREDI 6 DÉCEMBRE - Remise tests externes
+
+**📤 À REMETTRE (Formatif - obligatoire mais non noté)**
+
+Document à envoyer à :
+- ✅ L'équipe dont vous avez testé le projet
+- ✅ L'enseignant (via remise Teams/Moodle)
+
+**Contenu du rapport (court - 2-3 pages max) :**
+1. Informations de base (qui teste qui)
+2. Résumé des tests effectués
+3. Liste des bugs trouvés avec priorités (🔴🟠🟡)
+4. Lien vers votre board Trello avec les cartes de bugs
+5. Impression générale (2-3 phrases)
+
+**Template fourni** (voir document séparé)
+
+---
+
+### VENDREDI 6 → LUNDI 8 DÉCEMBRE - Corrections
+
+**Vous recevez maintenant les bugs trouvés dans VOTRE projet**
+
+**Travail à faire (weekend inclus) :**
+1. **Analyser** les bugs reçus de l'autre équipe
+2. **Trier et prioriser** : Critique > Majeur > Mineur
+3. **Corriger les bugs CRITIQUES** (obligatoire)
+4. **Commencer les bugs MAJEURS** (faire le maximum)
+5. **Documenter** le statut de chaque bug dans Trello
+
+⚠️ **IMPORTANT :** Toutes les corrections ne seront pas finies au 8 décembre, **c'est normal !**
+
+Le rapport du 8 documente l'état actuel et le plan pour finir d'ici le 10.
+
+---
+
+### LUNDI 8 DÉCEMBRE - Remise rapport QA complet
+
+**📤 À REMETTRE (10% de la note finale)**
+
+**Rapport QA en 2 parties (5-8 pages) :**
+
+**PARTIE 1 : Tests externes** (ce que VOUS avez trouvé chez l'autre)
+- Votre rapport du 6 décembre (version finale)
+- Grille de tests complétée
+- Liste des bugs avec priorités
+- Lien Trello + screenshots
+
+**PARTIE 2 : Tests internes et corrections** (VOTRE projet)
+- A) Bugs reçus de l'autre équipe
+- B) Bugs que vous avez trouvés vous-mêmes
+- C) Tests effectués (checklist, Lighthouse, accessibilité)
+- D) Plan de corrections priorisé
+- E) **Statut actuel** de chaque bug :
+  - ✅ Corrigé
+  - 🔄 En cours (sera corrigé avant le 10)
+  - ⏸️ Reporté (pas critique, si temps)
+  - ❌ Non corrigé (avec justification)
+
+**Template fourni** (voir document séparé)
+
+---
+
+### LUNDI 8 → MERCREDI 10 DÉCEMBRE - Finitions
+
+**Dernières 48 heures pour :**
+- ✅ Finir les corrections en cours
+- ✅ Corriger les bugs majeurs restants
+- ✅ Polir les détails
+- ✅ Préparer la présentation orale
+- ✅ Mettre à jour la documentation (README)
+
+**Focus :** Stabilité et démo qui fonctionne bien
+
+---
+
+### MERCREDI 10 DÉCEMBRE - Remise finale + Présentations
+
+**📤 À REMETTRE (50% de la note finale)**
+
+**Livrables :**
+- ✅ Projet final déployé et fonctionnel
+- ✅ Code sur GitHub (à jour)
+- ✅ Documentation complète (README.md, COMPONENTS.md, ROUTES.md)
+- ✅ Tous les bugs critiques corrigés
+- ✅ Majorité des bugs majeurs corrigés
+- ✅ Présentation orale en classe
+
+---
+
+## 🎯 Attentes réalistes par date
+
+### Au 6 décembre (tests externes)
+✅ Vous avez testé rigoureusement le projet de l'autre équipe
+✅ Vous avez documenté clairement tous les bugs trouvés
+✅ Votre rapport est professionnel et constructif
+
+### Au 8 décembre (rapport QA)
+✅ Bugs critiques dans VOTRE projet = CORRIGÉS
+🔄 Bugs majeurs = En cours, OK si pas tous finis
+⏸️ Bugs mineurs = OK si pas commencés
+
+**C'est un snapshot (photo) de votre avancement.**
+Ce qui compte :
+1. Rigueur des tests
+2. Identification claire des problèmes
+3. Plan de corrections organisé
+4. Prioritisation intelligente
+
+### Au 10 décembre (remise finale)
+✅ Tous les bugs critiques corrigés
+✅ La majorité des bugs majeurs corrigés
+✅ Projet stable et fonctionnel
+✅ Présentation professionnelle
+
+---
+
+## ⏰ Timeline visuelle
+
+```
+3 déc. ────────> 6 déc. ────────> 8 déc. ────────> 10 déc.
+MERCREDI         VENDREDI         LUNDI            MERCREDI
+   │                │                │                │
+   │                │                │                │
+Cours QA        Remise          Rapport QA       Remise finale
++ début         tests           (snapshot)       (tout fini)
+tests          externes          (10%)             (50%)
+               (formatif)
+   │                │                │                │
+   └───Tests───────┴───Corrections──┴───Finitions───┘
+      externes         critiques        + polish
+      + internes       + majeures
+```
+
+---
+
+## 📞 Support et questions
+
+**Pendant la période de tests (3-8 décembre) :**
+- Canal Teams de la classe
+- Questions à l'enseignant
+
+**Problèmes techniques urgents :**
+- Documenter le problème
+- Demander aide à l'enseignant
+- Ne pas bloquer sur un bug trop longtemps
+
+**En cas de désaccord sur un bug :**
+- L'équipe testeuse pense que c'est un bug
+- L'équipe créatrice pense que ce n'est pas un bug
+- → Demander à l'enseignant de trancher
+
+---
+
+## ⚠️ Rappels importants
+
+### Différenciez les types de problèmes
+
+**🐛 Bug réel** = Quelque chose qui ne fonctionne PAS comme prévu
+- Exemple : "Le bouton Supprimer ne fait rien"
+- → À reporter comme bug
+
+**💡 Suggestion** = Idée d'amélioration (pas un bug)
+- Exemple : "Serait cool d'avoir un mode sombre"
+- → Ne PAS reporter comme bug (peut être mentionné en bonus)
+
+**❌ Feature manquante** = Pas un bug si c'était optionnel
+- Exemple : "Pas d'animations GSAP"
+- → Ne PAS reporter comme bug si c'était optionnel dans le projet
+
+### Soyez professionnels
+
+**✅ Bon feedback :**
+- "Le bouton 'Ajouter' ne fonctionne pas en mode mobile (375px). Erreur console : [screenshot]"
+- Constructif, précis, avec preuve
+
+**❌ Mauvais feedback :**
+- "Votre code est cassé"
+- "Ça ne marche pas"
+- Vague, inutile, non professionnel
+
+---
+
+## 💪 Message de motivation
+
+### Pourquoi tester le projet d'un autre ?
+
+**Avantages pour VOUS (testeurs) :**
+- ✅ Voir comment d'autres ont résolu les mêmes problèmes
+- ✅ S'inspirer de bonnes idées
+- ✅ Apprendre à lire le code de quelqu'un d'autre
+- ✅ Développer compétences de QA (très demandé en entreprise)
+
+**Avantages pour l'AUTRE équipe :**
+- ✅ Regard neuf = bugs que vous n'auriez jamais trouvés
+- ✅ Tests comme un vrai utilisateur (qui ne connaît pas le code)
+- ✅ Feedback avant la remise finale = chance de corriger
+
+**Tout le monde gagne ! 🏆**
+
+### Recevoir des bugs ≠ échec
+
+Quand l'autre équipe trouve des bugs dans votre projet :
+- ❌ Ce n'est PAS un échec
+- ❌ Ce n'est PAS une mauvaise note
+- ✅ C'est une OPPORTUNITÉ d'améliorer avant le 10
+- ✅ Mieux qu'ils le trouvent que l'enseignant !
+
+**Personne ne livre un projet sans bugs. Même pas Apple, Google ou Microsoft.**
+
+La différence entre un bon développeur et un excellent :
+- Le bon développeur écrit du code qui marche
+- L'excellent développeur **teste** son code et **accepte le feedback**
+
+---
+
+## 🚀 Vous avez 7 jours pour réussir
+
+**C'est largement suffisant si vous vous organisez :**
+
+- **Jours 1-3 (3-6 déc)** : Tests rigoureux
+- **Jours 4-5 (6-8 déc)** : Corrections critiques + rapport
+- **Jours 6-7 (8-10 déc)** : Finitions + présentation
+
+**Travaillez en équipe. Communiquez. Priorisez.**
+

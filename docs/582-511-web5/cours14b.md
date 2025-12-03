@@ -11,6 +11,8 @@ Merc. 3 décembre
 
 - Timeline complet (3 mer, 6 ven, 8 lun, 10 mer)
 
+[Calendrier QA](./projets/appweb-creative/qa1-calendrier-qa.md){ .md-button }
+
 
 ## Template - Brief de projet
 
@@ -19,12 +21,16 @@ Merc. 3 décembre
 - Cas de test suggérés
 - Problèmes connus à ne pas reporter
 
-## Grille de test externe
+[](./projets/appweb-creative/qa2-template-brief-projet.md){ .md-button }
+
+## Grille de test externe (à faire sur le projet d'une autre équipe)
 
 - Checklist exhaustive par type de projet
 - Tests fonctionnels, responsive, navigateurs, accessibilité
 - Format cases à cocher
 - Section résumé et impression générale
+
+[](./projets/appweb-creative/qa3-grille-test-externe.md){ .md-button }
 
 ## Template - Carte Trello pour bogues trouvés
 
@@ -34,12 +40,16 @@ Merc. 3 décembre
 - Checklist avant de créer une carte
 - Liste de ce qui n'est *PAS* un bogue
 
-## Template - Rapport QA Complet
+[](./projets/appweb-creative/qa4-template-carte-trello.md){ .md-button }
+
+## Template - Rapport QA complet
 
 - Structure en 2 parties (externe (autre équipe) + interne (votre projet))
 - Sections pour bogues reçus, plan de corrections, accessibilité, performance
 - Tableaux et formats prêts à remplir
 - Section conclusion et annexes
+
+[](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
 
 <!--

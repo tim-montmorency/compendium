@@ -1,0 +1,382 @@
+# Template de Carte Trello - Rapport de Bug
+
+**Instructions :** Copiez ce template dans une carte Trello pour chaque bug trouvé.
+
+---
+
+## 📋 TEMPLATE À COPIER DANS TRELLO
+
+```
+🐛 Bug #[Numéro] : [Titre court et descriptif]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 PRIORITÉ
+[Choisir UNE priorité et supprimer les autres]
+🔴 CRITIQUE - Bloquant, empêche l'utilisation
+🟠 MAJEUR - Impact important sur l'expérience
+🟡 MINEUR - Petit problème, amélioration souhaitable
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 DESCRIPTION
+[Décrivez ce qui ne fonctionne pas]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 COMMENT REPRODUIRE
+1. [Étape 1]
+2. [Étape 2]  
+3. [Étape 3]
+4. Observer : [le bug se produit]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ RÉSULTAT ATTENDU
+[Ce qui devrait se passer normalement]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ RÉSULTAT ACTUEL
+[Ce qui se passe réellement]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 ENVIRONNEMENT
+Navigateur : [Chrome 120 / Firefox 121 / Safari]
+Appareil : [Desktop / Mobile 375px / Tablette 768px]
+OS : [Windows / Mac / Android / iOS]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 SCREENSHOT
+[Ajouter en pièce jointe à la carte]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👤 TROUVÉ PAR
+@[Votre nom]
+
+📅 DATE
+[Date de découverte]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 STATUT (à remplir par l'équipe qui corrige)
+[ ] À faire
+[ ] En cours
+[ ] Corrigé
+[ ] Validé
+[ ] Won't fix (justification : ...)
+```
+
+---
+
+## 📚 EXEMPLES CONCRETS
+
+### Exemple 1 : Bug Critique
+
+```
+🐛 Bug #1 : Upload d'image > 5MB plante l'application
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 PRIORITÉ
+🔴 CRITIQUE - Bloquant, empêche l'utilisation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 DESCRIPTION
+Quand on téléverse une image de plus de 5 MB, l'application freeze 
+complètement et ne répond plus. La page doit être rafraîchie pour 
+retrouver l'accès.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 COMMENT REPRODUIRE
+1. Aller sur "Ajouter une mémoire"
+2. Cliquer sur "Choisir une image"
+3. Sélectionner une photo de 8 MB
+4. Cliquer "Sauvegarder"
+5. Observer : L'app freeze, erreur dans la console
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ RÉSULTAT ATTENDU
+Un message d'erreur devrait s'afficher : 
+"Image trop grande. Maximum 5 MB autorisé."
+L'upload devrait être bloqué avant la sauvegarde.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ RÉSULTAT ACTUEL
+L'application freeze complètement.
+Erreur console : "QuotaExceededError: LocalStorage quota exceeded"
+Aucun message utilisateur.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 ENVIRONNEMENT
+Navigateur : Chrome 120
+Appareil : Desktop 1920px
+OS : Windows 11
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 SCREENSHOT
+[capture-console-error.png attachée]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👤 TROUVÉ PAR
+@Marie
+
+📅 DATE
+4 décembre 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 STATUT
+[X] À faire
+[ ] En cours
+[ ] Corrigé
+[ ] Validé
+```
+
+---
+
+### Exemple 2 : Bug Majeur
+
+```
+🐛 Bug #5 : Navigation au clavier - focus invisible
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 PRIORITÉ
+🟠 MAJEUR - Impact important sur l'expérience
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 DESCRIPTION
+Quand on navigue au clavier avec Tab, on ne voit PAS quel élément 
+est sélectionné. Aucun outline ou indication visuelle.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 COMMENT REPRODUIRE
+1. Aller sur la page d'accueil
+2. Appuyer sur Tab plusieurs fois
+3. Observer : Les éléments se sélectionnent (on peut les activer 
+   avec Enter) mais on ne VOIT PAS lequel est sélectionné
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ RÉSULTAT ATTENDU
+Un outline visible (bleu, noir, ou autre couleur contrastée) devrait 
+apparaître autour de l'élément sélectionné.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ RÉSULTAT ACTUEL
+Aucune indication visuelle du focus.
+Impossible de savoir où on est dans la page sans cliquer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 ENVIRONNEMENT
+Navigateur : Chrome 120
+Appareil : Desktop
+OS : Windows 11
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 SCREENSHOT
+[video-navigation-clavier.gif attachée]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👤 TROUVÉ PAR
+@Alex
+
+📅 DATE
+4 décembre 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 SUGGESTION DE FIX
+Ajouter dans le CSS :
+button:focus, a:focus {
+  outline: 2px solid #4A90E2;
+  outline-offset: 2px;
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 STATUT
+[ ] À faire
+[ ] En cours
+[ ] Corrigé
+[ ] Validé
+```
+
+---
+
+### Exemple 3 : Bug Mineur
+
+```
+🐛 Bug #12 : Recherche sensible à la casse
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 PRIORITÉ
+🟡 MINEUR - Petit problème, amélioration souhaitable
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 DESCRIPTION
+La barre de recherche est sensible aux majuscules/minuscules.
+Chercher "PARIS" ne trouve pas "Paris" ou "paris".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 COMMENT REPRODUIRE
+1. Avoir une mémoire avec le titre "Paris 2024"
+2. Chercher "PARIS" (tout en majuscules)
+3. Observer : Aucun résultat trouvé
+4. Chercher "paris" (tout en minuscules)
+5. Observer : Aucun résultat trouvé
+6. Chercher "Paris" (avec majuscule)
+7. Observer : La mémoire est trouvée
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ RÉSULTAT ATTENDU
+La recherche devrait trouver "Paris 2024" peu importe comment 
+c'est écrit (PARIS, paris, PaRiS, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ RÉSULTAT ACTUEL
+La recherche doit matcher exactement les majuscules/minuscules.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 ENVIRONNEMENT
+Navigateur : Chrome 120
+Appareil : Desktop
+OS : Windows 11
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 SCREENSHOT
+[recherche-case-sensitive.png attachée]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👤 TROUVÉ PAR
+@Jordan
+
+📅 DATE
+5 décembre 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 SUGGESTION DE FIX
+Convertir en minuscules avant de comparer :
+query.toLowerCase().includes(memory.title.toLowerCase())
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 STATUT
+[ ] À faire
+[ ] En cours
+[ ] Corrigé
+[ ] Validé
+```
+
+---
+
+## 🎯 GUIDE : Quelle priorité choisir ?
+
+### 🔴 CRITIQUE (Rouge)
+**Définition :** Bug qui EMPÊCHE l'utilisation d'une fonctionnalité majeure
+
+**Exemples :**
+- L'application plante/freeze
+- Impossible d'ajouter une mémoire (fonctionnalité principale)
+- Impossible d'atteindre une fin de l'histoire
+- Données perdues/corrompues
+- Page blanche (erreur 500)
+- Bouton "Sauvegarder" ne fait rien
+
+**Action :** DOIT être corrigé avant la remise finale
+
+---
+
+### 🟠 MAJEUR (Orange)
+**Définition :** Bug qui DÉGRADE significativement l'expérience utilisateur
+
+**Exemples :**
+- Navigation au clavier ne fonctionne pas (accessibilité)
+- Contraste insuffisant (texte illisible)
+- Site cassé sur mobile
+- Images très lourdes (chargement lent)
+- Formulaire ne valide pas les données
+- Recherche ne fonctionne pas
+
+**Action :** Devrait être corrigé avant la remise finale
+
+---
+
+### 🟡 MINEUR (Jaune)
+**Définition :** Petit problème ou amélioration souhaitable
+
+**Exemples :**
+- Recherche sensible à la casse
+- Texte qui déborde légèrement
+- Bouton un peu petit
+- Message d'erreur pas assez clair
+- Faute d'orthographe
+- Animation qui saute
+
+**Action :** Corriger si temps disponible
+
+---
+
+## ✅ CHECKLIST AVANT DE CRÉER LA CARTE
+
+Avant de créer une carte Trello pour un bug, vérifiez :
+
+- [ ] C'est un VRAI bug (pas une feature manquante si elle était optionnelle)
+- [ ] Ce n'est PAS dans la liste des "problèmes connus" du brief
+- [ ] Vous avez essayé de reproduire le bug 2 fois (pour confirmer)
+- [ ] Vous avez un screenshot ou vidéo du bug
+- [ ] Vous avez noté le navigateur et la taille d'écran
+- [ ] Le titre est clair et descriptif
+- [ ] Les étapes de reproduction sont précises
+- [ ] Vous avez assigné la bonne priorité
+
+---
+
+## 🚫 CE QUI N'EST PAS UN BUG
+
+**Ne créez PAS de carte Trello pour :**
+
+❌ **Feature manquante (si elle était optionnelle)**
+- "Pas d'animations GSAP" → Ce n'était pas obligatoire
+- "Pas de sauvegarde LocalStorage" → Listé comme optionnel
+
+❌ **Suggestions d'amélioration**
+- "Serait cool d'avoir un mode sombre"
+- "Pourrait ajouter un tutoriel"
+→ Mentionner dans la section "Suggestions" du rapport
+
+❌ **Préférences personnelles**
+- "Je n'aime pas cette couleur"
+- "Le logo devrait être plus gros"
+→ Ce ne sont pas des bugs
+
+❌ **Problèmes déjà connus**
+- Si c'est listé dans le brief comme "problème connu"
+→ Ne pas le reporter
+
