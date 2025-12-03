@@ -7,6 +7,12 @@
 
 ---
 
+Télécharger la grille Excel de ce test externe si c'est plus facile pour vous:
+
+<a href="./qa3-grille-test-externe.xlsx" class="md-button">📥 Télécharger la grille Excel de ce test</a>
+
+---
+
 ## 📋 Instructions
 
 **Comment utiliser cette grille :**

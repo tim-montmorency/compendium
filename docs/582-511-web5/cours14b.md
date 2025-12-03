@@ -28,6 +28,14 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 
 [Calendrier QA](./projets/appweb-creative/qa1-calendrier-qa.md){ .md-button }
 
+#### Donc aujourd'hui en classe après la présentation: 
+
+1. Vous rédigez votre brief et le partagez avec l'autre équipe (vous le déposez aussi à la racine de votre répertoire git).
+
+2. Commencez à tester le projet de l'autre équipe. Suivez le rapport et rédigez le au fur et à mesure.
+
+3. En parralèle tester votre propre projet. Suivez le rapport et rédigez le au fur et à mesure.
+
 ### Template - Brief de projet
 
 - Ce que chaque équipe donne à l'équipe qui les teste
