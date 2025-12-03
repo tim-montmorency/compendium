@@ -7,6 +7,12 @@
 
 ---
 
+
+<a href="https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/qa2-template-brief-projet.zip" class="md-button">📥 Télécharger template de départ du brief en markdown</a>
+
+
+---
+
 ## 🔗 Accès au projet
 
 **URL du site déployé :**
