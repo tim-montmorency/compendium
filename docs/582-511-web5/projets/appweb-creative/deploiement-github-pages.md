@@ -1,20 +1,7 @@
-# Déploiement Vite sur GitHub Pages - Guide pas à pas
+# Déploiement live de votre projet avec Vite sur GitHub Pages
 
-## 🎯 Objectif
-Mettre votre projet Vite en ligne sur GitHub Pages **manuellement** (sans automatisation)
 
----
-
-## ✅ Prérequis
-
-Avant de commencer, assurez-vous d'avoir :
-- ✅ Votre projet sur GitHub
-- ✅ Node.js installé
-- ✅ Le projet fonctionne en local (`npm run dev`)
-
----
-
-## 📝 ÉTAPE 1 : Configurer vite.config.js
+## ÉTAPE 1 : Configurer `vite.config.js`
 
 **Ouvrez le fichier `vite.config.js` à la racine de votre projet**
 
@@ -31,6 +18,7 @@ export default defineConfig({
 ```
 
 **Comment trouver le nom de votre repo ?**
+
 - URL de votre repo : `https://github.com/votre-username/mon-projet`
 - Le nom du repo = `mon-projet`
 - Donc `base: '/mon-projet/',`
@@ -39,9 +27,8 @@ export default defineConfig({
 
 **Sauvegardez le fichier.**
 
----
 
-## 📝 ÉTAPE 2 : Builder le projet
+## ÉTAPE 2 : Compiler (*build*) le projet
 
 **Ouvrez un terminal dans le dossier de votre projet**
 
@@ -57,11 +44,12 @@ npm run build
 - Ça prend 10-30 secondes
 
 **Vérifiez que le dossier `dist/` a été créé :**
+
 - Il devrait contenir : `index.html`, un dossier `assets/`, etc.
 
----
 
-## 📝 ÉTAPE 3 : Tester le build localement (optionnel mais recommandé)
+
+## ÉTAPE 3 : Tester le build localement (optionnel mais recommandé)
 
 **Avant de déployer, testez que le build fonctionne :**
 
@@ -72,6 +60,7 @@ npm run preview
 **Ouvrez le lien affiché (généralement http://localhost:4173)**
 
 **Vérifiez que tout fonctionne :**
+
 - Navigation
 - Images
 - Fonctionnalités principales
@@ -79,12 +68,13 @@ npm run preview
 **Si ça fonctionne, passez à l'étape suivante !**
 
 **Si ça ne fonctionne pas :**
+
 - Vérifiez `base` dans `vite.config.js`
 - Vérifiez les chemins d'images (ils doivent être relatifs)
 
----
 
-## 📝 ÉTAPE 4 : Créer la branche gh-pages sur GitHub
+
+## ÉTAPE 4 : Créer la branche gh-pages sur GitHub
 
 **Allez sur votre repo GitHub dans un navigateur**
 
@@ -98,9 +88,9 @@ npm run preview
 
 ✅ Vous avez maintenant une branche `gh-pages` vide
 
----
 
-## 📝 ÉTAPE 5 : Installer gh-pages (outil de déploiement)
+
+## ÉTAPE 5 : Installer gh-pages (outil de déploiement)
 
 **Dans votre terminal :**
 
@@ -110,9 +100,8 @@ npm install --save-dev gh-pages
 
 **Attendez que l'installation se termine (10-20 secondes)**
 
----
 
-## 📝 ÉTAPE 6 : Ajouter le script de déploiement
+## ÉTAPE 6 : Ajouter le script de déploiement
 
 **Ouvrez `package.json`**
 
@@ -133,9 +122,9 @@ npm install --save-dev gh-pages
 
 **Sauvegardez `package.json`**
 
----
 
-## 📝 ÉTAPE 7 : Déployer sur GitHub Pages
+
+## ÉTAPE 7 : Déployer sur GitHub Pages
 
 **Dans votre terminal, lancez :**
 
@@ -144,6 +133,7 @@ npm run deploy
 ```
 
 **Ce qui va se passer :**
+
 1. L'outil `gh-pages` prend le contenu de `dist/`
 2. Le pousse vers la branche `gh-pages` sur GitHub
 3. Ça prend 10-30 secondes
@@ -155,9 +145,9 @@ Published
 
 ✅ **C'est fait ! Votre site est en ligne !**
 
----
 
-## 📝 ÉTAPE 8 : Activer GitHub Pages (première fois seulement)
+
+## ÉTAPE 8 : Activer GitHub Pages (première fois seulement)
 
 **Retournez sur votre repo GitHub**
 
@@ -166,6 +156,7 @@ Published
 **Dans le menu de gauche, cliquez sur "Pages"**
 
 **Sous "Branch", sélectionnez :**
+
 - Branch : `gh-pages`
 - Folder : `/ (root)`
 
@@ -178,16 +169,18 @@ Published
 https://votre-username.github.io/votre-repo/
 ```
 
----
 
-## 🎉 ÉTAPE 9 : Vérifier que ça fonctionne
+
+## ÉTAPE 9 : Vérifier que ça fonctionne
 
 **Ouvrez l'URL dans votre navigateur :**
+
 ```
 https://votre-username.github.io/votre-repo/
 ```
 
 **Testez :**
+
 - ✅ Le site s'affiche ?
 - ✅ La navigation fonctionne ?
 - ✅ Les images s'affichent ?
@@ -197,13 +190,14 @@ https://votre-username.github.io/votre-repo/
 
 **Si ça ne fonctionne pas, voir section "Problèmes courants" ci-dessous**
 
----
 
+<!-- 
 ## 🔄 Pour mettre à jour le site (après modifications)
 
 **Après avoir modifié votre code :**
 
 1. **Sauvegarder vos changements dans Git :**
+
    ```bash
    git add .
    git commit -m "Corrections de bugs"
@@ -211,11 +205,13 @@ https://votre-username.github.io/votre-repo/
    ```
 
 2. **Rebuilder :**
+
    ```bash
    npm run build
    ```
 
 3. **Redéployer :**
+
    ```bash
    npm run deploy
    ```
@@ -225,82 +221,81 @@ https://votre-username.github.io/votre-repo/
 5. **Rafraîchir votre site (Ctrl+F5)**
 
 ✅ Le site est mis à jour !
+-->
 
----
+??? 🐛 Problèmes courants"
 
-## 🐛 Problèmes courants
+    ### Problème 1 : Page blanche après déploiement
 
-### Problème 1 : Page blanche après déploiement
+    **Cause :** Le `base` dans `vite.config.js` n'est pas correct
 
-**Cause :** Le `base` dans `vite.config.js` n'est pas correct
+    **Solution :**
 
-**Solution :**
-1. Vérifiez que `base: '/nom-repo/',` correspond au nom de votre repo
-2. N'oubliez pas les `/` au début ET à la fin
-3. Rebuild et redéployez
+    1. Vérifiez que `base: '/nom-repo/',` correspond au nom de votre repo
+    2. N'oubliez pas les `/` au début ET à la fin
+    3. Rebuild et redéployez
 
----
+    ---
 
-### Problème 2 : Images ne s'affichent pas
+    ### Problème 2 : Images ne s'affichent pas
 
-**Cause :** Chemins d'images incorrects
+    **Cause :** Chemins d'images incorrects
 
-**Solution :**
-Les chemins doivent être relatifs ou commencer par `/`
+    **Solution :**
+    Les chemins doivent être relatifs ou commencer par `/`
 
-❌ **Mauvais :**
-```javascript
-<img src="C:/Users/moi/projet/images/photo.jpg">
-<img src="file:///images/photo.jpg">
-```
+    ❌ **Mauvais :**
+    ```javascript
+    <img src="C:/Users/moi/projet/images/photo.jpg">
+    <img src="file:///images/photo.jpg">
+    ```
 
-✅ **Bon :**
-```javascript
-<img src="/images/photo.jpg">
-<img src="./images/photo.jpg">
-```
+    ✅ **Bon :**
+    ```javascript
+    <img src="/images/photo.jpg">
+    <img src="./images/photo.jpg">
+    ```
 
----
+    ---
 
-### Problème 3 : Erreur 404 lors de la navigation
+    ### Problème 3 : Erreur 404 lors de la navigation
 
-**Cause :** Vue Router en mode `history` sur GitHub Pages
+    **Cause :** Vue Router en mode `history` sur GitHub Pages
 
-**Solution :**
-Utiliser le mode `hash` dans `router/index.js` :
+    **Solution :**
+    Utiliser le mode `hash` dans `router/index.js` :
 
-```javascript
-import { createRouter, createWebHashHistory } from 'vue-router'
+    ```javascript
+    import { createRouter, createWebHashHistory } from 'vue-router'
 
-const router = createRouter({
-  history: createWebHashHistory(), // ← Utilisez hash au lieu de history
-  routes: [...]
-})
-```
+    const router = createRouter({
+      history: createWebHashHistory(), // ← Utilisez hash au lieu de history
+      routes: [...]
+    })
+    ```
 
----
+    ---
 
-### Problème 4 : `npm run deploy` ne fonctionne pas
+    ### Problème 4 : `npm run deploy` ne fonctionne pas
 
-**Erreur possible :** "gh-pages: command not found"
+    **Erreur possible :** "gh-pages: command not found"
 
-**Solution :**
-```bash
-npm install --save-dev gh-pages
-```
+    **Solution :**
+    ```bash
+    npm install --save-dev gh-pages
+    ```
 
----
+    ---
 
-### Problème 5 : Changements ne s'affichent pas
+    ### Problème 5 : Changements ne s'affichent pas
 
-**Cause :** Cache du navigateur
+    **Cause :** Cache du navigateur
 
-**Solution :**
-- **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
-- **Mode incognito :** Ouvrir le site en navigation privée
-- **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
+    **Solution :**
+    - **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
+    - **Mode incognito :** Ouvrir le site en navigation privée
+    - **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
 
----
 
 ## 📋 Checklist finale
 
@@ -314,7 +309,8 @@ Avant de dire "c'est déployé", vérifiez :
 - [ ] Pas d'erreurs dans la console (F12)
 - [ ] L'URL GitHub Pages fonctionne
 
----
+
+<!-- 
 
 ## 🎯 Résumé ultra-rapide
 
@@ -354,6 +350,6 @@ npm run deploy
 
 ✅ **Netlify déploie automatiquement à chaque push sur GitHub !**
 
----
 
-**Bon courage ! 🚀**
+
+-->
