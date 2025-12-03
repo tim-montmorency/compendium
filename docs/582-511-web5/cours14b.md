@@ -65,6 +65,8 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 
 [Template - Rapport QA complet](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
+<!--
+
 ### Jumelage d'équipes
 
 #### AM (groupe 2)
@@ -78,6 +80,9 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 - Jad, Anton et Matis *>* Ahmed, Justin et Mathieu
 - Émeryk, Elie et Edelwyn *>* Jad, Anton et Matis
 - Ahmed, Justin et Mathieu  *>* Émeryk, Elie et Edelwyn
+
+
+ -->
 
 <!--
 
