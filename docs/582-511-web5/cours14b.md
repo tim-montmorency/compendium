@@ -92,7 +92,7 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 - Benoît, William, Ting Yng et Dana  *<< >>* Mégane, Manel, Érick et Michaël
 
 
-<!---
+
 #### PM (groupe 1)
 
 - Mikaël, Alexandre, Rafaël  *<< >>* Radhouane, Thearylou et Amira
@@ -100,8 +100,6 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 - Émeryk, Elie et Edelwyn *>>>* Jad, Anton et Matis
 - Ahmed, Justin et Mathieu  *>>>* Émeryk, Elie et Edelwyn
 
-
- -->
 
 <!--
 
