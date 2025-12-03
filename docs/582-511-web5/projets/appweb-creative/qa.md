@@ -73,9 +73,9 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 **Tests à faire :**
 
 - [ ] **Tab** <kbd>↹</kbd> : Je peux naviguer entre TOUS les éléments interactifs avecla touche Tab
-- [ ] **Shift+Tab** <kbd>⇧</kbd> : Je peux revenir en arrière
-- [ ] **Enter/Space** : <kbd>↵</kbd> Je peux activer les boutons avec Enter ou Espace
-- [ ] **Indicateur visuel** : Je VOIS clairement quel élément est sélectionné (outline visible)
+- [ ] **Shift+Tab** <kbd>⇧</kbd> + <kbd>↹</kbd>: Je peux revenir en arrière
+- [ ] **Enter/Space** : <kbd>↵</kbd> ou <kbd>Space</kbd>  Je peux activer les boutons avec Enter ou Espace
+- [ ] **Indicateur visuel** : Je VOIS clairement quel élément est sélectionné (`outline` visible)
 
 **Comment corriger si ça ne fonctionne pas :**
 
