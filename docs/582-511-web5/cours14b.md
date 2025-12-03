@@ -6,6 +6,10 @@ Merc. 3 décembre
 
     Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final.
 
+    Veuillez faire une branche *Beta* et y migrer une version 100% stable de votre projet, prêt à être testé.
+
+
+
 ## Déploiement de votre projet *live* sur Github Pages
 
 Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est jumelée à la votre puissent faire le QA de votre projet.
@@ -73,7 +77,7 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 
 [Template - Rapport QA complet](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
-<!--
+
 
 ### Jumelage d'équipes
 
@@ -87,6 +91,8 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 - Yannick, Ryan et Benjamin  *<< >>* Patricia, Jade et Félix
 - Benoît, William, Ting Yng et Dana  *<< >>* Mégane, Manel, Érick et Michaël
 
+
+<!---
 #### PM (groupe 1)
 
 - Mikaël, Alexandre, Rafaël  *<< >>* Radhouane, Thearylou et Amira
