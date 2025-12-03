@@ -64,7 +64,7 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 5. Testez TOUTES les fonctionnalités principales à chaque taille
 
 
-## Accessibilité ♿ Les bases essentielles
+## ♿ Accessibilité : Les bases essentielles
 
 ### 1. Navigation au clavier
 
@@ -286,7 +286,7 @@ npm run lint -- --fix
 - [ ] **Dead ends** : Assurez-vous qu'aucun chapitre ne mène nulle part
 
 
-## 📊 Créer votre *rapport de contrôle qualité*
+## Créer votre *rapport de contrôle qualité*
 
 ### Structure recommandée du rapport
 
@@ -459,7 +459,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 
 ---
 
-## 🛠️ Outils Pratiques Recommandés
+## Outils Pratiques Recommandés
 
 ### Pour l'accessibilité
 
@@ -489,7 +489,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 
 
 
-## 📝 Checklist Finale Avant Remise
+## Checklist finale avant remise
 
 - [ ] Tous les bugs critiques sont corrigés
 - [ ] Le site fonctionne sur Chrome ET Firefox minimum
@@ -505,7 +505,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 
 
 
-## 💡 Conseil Final
+## Conseil final
 
 **Soyez honnêtes dans votre rapport !** 
 

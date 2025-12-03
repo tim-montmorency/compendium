@@ -7,6 +7,40 @@ Merc. 3 décembre
     Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final
 
 
+## Calendrier QA - Tests Croisés
+
+- Timeline complet (3 mer, 6 ven, 8 lun, 10 mer)
+
+
+## Template - Brief de projet
+
+- Ce que chaque équipe donne à l'équipe qui les teste
+- Liste des fonctionnalités à tester
+- Cas de test suggérés
+- Problèmes connus à ne pas reporter
+
+## Grille de test externe
+
+- Checklist exhaustive par type de projet
+- Tests fonctionnels, responsive, navigateurs, accessibilité
+- Format cases à cocher
+- Section résumé et impression générale
+
+## Template - Carte Trello pour bogues trouvés
+
+- Template à copier-coller dans Trello
+- 3 exemples concrets (critique, majeur, mineur)
+- Guide pour choisir la bonne priorité
+- Checklist avant de créer une carte
+- Liste de ce qui n'est *PAS* un bogue
+
+## Template - Rapport QA Complet
+
+- Structure en 2 parties (externe (autre équipe) + interne (votre projet))
+- Sections pour bogues reçus, plan de corrections, accessibilité, performance
+- Tableaux et formats prêts à remplir
+- Section conclusion et annexes
+
 
 <!--
 
