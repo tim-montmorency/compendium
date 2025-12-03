@@ -21,7 +21,7 @@ Merc. 3 décembre
 - Cas de test suggérés
 - Problèmes connus à ne pas reporter
 
-[](./projets/appweb-creative/qa2-template-brief-projet.md){ .md-button }
+[Brief à remplir et donner à l'équipe qui va faire le QA sur votre projet](./projets/appweb-creative/qa2-template-brief-projet.md){ .md-button }
 
 ## Grille de test externe (à faire sur le projet d'une autre équipe)
 
@@ -30,7 +30,7 @@ Merc. 3 décembre
 - Format cases à cocher
 - Section résumé et impression générale
 
-[](./projets/appweb-creative/qa3-grille-test-externe.md){ .md-button }
+[Grille de test externe](./projets/appweb-creative/qa3-grille-test-externe.md){ .md-button }
 
 ## Template - Carte Trello pour bogues trouvés
 
@@ -40,7 +40,7 @@ Merc. 3 décembre
 - Checklist avant de créer une carte
 - Liste de ce qui n'est *PAS* un bogue
 
-[](./projets/appweb-creative/qa4-template-carte-trello.md){ .md-button }
+[Template - Carte Trello pour les bogues trouvés](./projets/appweb-creative/qa4-template-carte-trello.md){ .md-button }
 
 ## Template - Rapport QA complet
 
@@ -49,13 +49,11 @@ Merc. 3 décembre
 - Tableaux et formats prêts à remplir
 - Section conclusion et annexes
 
-[](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
+[Template - Rapport QA complet](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
 ## Jumelage d'équipes
 
-C'est moi qui décide des jumelages.
-
-### AM (groupe 2) 
+### AM (groupe 2)
 
 - Yannick, Ryan et Benjamin *<>* Patricia, Jade et Félix
 - Benoît, William, Ting Yng et Dana *<>* Mégane, Manel, Érick et Michaël
