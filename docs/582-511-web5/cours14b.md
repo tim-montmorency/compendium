@@ -4,17 +4,31 @@ Merc. 3 décembre
 
 !!! example "*REMISE DE LA VERSION BETA DU PROJET INTÉGRATEUR* (formatif)"
 
-    Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final
+    Version complète et responsive, prête à être validée et testée pour le contrôle de la qualité final.
 
+## Déploiement de votre projet *live* sur Github Pages ou Netlify
 
-## Calendrier QA - Tests Croisés
+Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est jumelée à la votre puissent faire le QA de votre projet.
 
-- Timeline complet (3 mer, 6 ven, 8 lun, 10 mer)
+- Créaton d'une branche `gh-pages` *VIDE* (contenant aucun fichier) dans votre répertoire git du projet
+- Compilation de votre projet (*build*) avec Vite
+- Déployez votre `build` sur la branche `github-pages` et `push`!
+
+[Compilation et déploiement du projet](./projets/appweb-creative/deploiement-github-pages.md){ .md-button }
+
+### Contrôle de la qualité (QA)
+
+### Calendrier QA - Tests Croisés
+
+- Calendrier restant
+  - Mercredi 3 décembre
+  - Vendredi 6 décembre
+  - Lundi 8 décembre
+  - Mercreid 10 décembre
 
 [Calendrier QA](./projets/appweb-creative/qa1-calendrier-qa.md){ .md-button }
 
-
-## Template - Brief de projet
+### Template - Brief de projet
 
 - Ce que chaque équipe donne à l'équipe qui les teste
 - Liste des fonctionnalités à tester
@@ -23,7 +37,7 @@ Merc. 3 décembre
 
 [Brief à remplir et donner à l'équipe qui va faire le QA sur votre projet](./projets/appweb-creative/qa2-template-brief-projet.md){ .md-button }
 
-## Grille de test externe (à faire sur le projet d'une autre équipe)
+### Grille de test externe (à faire sur le projet d'une autre équipe)
 
 - Checklist exhaustive par type de projet
 - Tests fonctionnels, responsive, navigateurs, accessibilité
@@ -32,7 +46,7 @@ Merc. 3 décembre
 
 [Grille de test externe](./projets/appweb-creative/qa3-grille-test-externe.md){ .md-button }
 
-## Template - Carte Trello pour bogues trouvés
+### Template - Carte Trello pour bogues trouvés
 
 - Template à copier-coller dans Trello
 - 3 exemples concrets (critique, majeur, mineur)
@@ -42,7 +56,7 @@ Merc. 3 décembre
 
 [Template - Carte Trello pour les bogues trouvés](./projets/appweb-creative/qa4-template-carte-trello.md){ .md-button }
 
-## Template - Rapport QA complet
+### Template - Rapport QA complet
 
 - Structure en 2 parties (externe (autre équipe) + interne (votre projet))
 - Sections pour bogues reçus, plan de corrections, accessibilité, performance
@@ -51,14 +65,14 @@ Merc. 3 décembre
 
 [Template - Rapport QA complet](./projets/appweb-creative/qa5-template-rapport-complet-qa.md){ .md-button }
 
-## Jumelage d'équipes
+### Jumelage d'équipes
 
-### AM (groupe 2)
+#### AM (groupe 2)
 
 - Yannick, Ryan et Benjamin *<>* Patricia, Jade et Félix
 - Benoît, William, Ting Yng et Dana *<>* Mégane, Manel, Érick et Michaël
 
-### PM (groupe 1)
+#### PM (groupe 1)
 
 - Mikaël, Alexandre, Rafaël *<>* Radhouane, Thearylou et Amira
 - Jad, Anton et Matis *>* Ahmed, Justin et Mathieu

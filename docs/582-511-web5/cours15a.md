@@ -3,7 +3,9 @@
 Lundi 8 décembre
 
 
-!!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ* (sommatif 10%)" 
+!!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ* (sommatif 10%)"
+
+    Attention, cette remise doit contenir les tests complétés du rapport et vous devez avoir commencé à corriger les bogues et anomalies. Cependant, il n'est pas attendu que TOUT soit corrigé et fixé. Mais outre cela, le rapport doit être complet. 
 
 
 ## SCRUM d'équipe
