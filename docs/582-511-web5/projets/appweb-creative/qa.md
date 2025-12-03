@@ -37,20 +37,21 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 - [ ] **Toutes les fins** : J'ai testé et atteint chaque fin possible
 - [ ] **Tracking** : Le système de karma/flags/inventaire fonctionne (si applicable)
 - [ ] **Historique** : L'historique des décisions se remplit correctement (si applicable)
-- [ ] **Pas de dead-end** : Aucun chapitre ne mène à une impasse
+- [ ] **Pas de cul-de-sac** : Aucun chapitre ne mène à une impasse
 
 
 ## Tests par navigateur et appareil
 
 ### Navigateurs à tester (minimum)
 
-- [ ] **Chrome** (ou Edge - même moteur)
+- [ ] **Chrome**
 - [ ] **Firefox**
 - [ ] **Edge**
 
 ### Appareils à tester
 
-- [ ] **Desktop** (1920x1080 ou votre résolution)
+- [ ] **Desktop super-large** (la résolution des écrans dans les labos)
+- [ ] **Desktop classique** (1920x1080)
 - [ ] **Tablette** (768px - utilisez les *DevTools* de Chrome)
 - [ ] **Mobile** (375px - utilisez les *DevTools* de Chrome)
 
@@ -62,7 +63,6 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 4. Sélectionnez différentes tailles d'écran dans le menu déroulant
 5. Testez TOUTES les fonctionnalités principales à chaque taille
 
----
 
 ## Accessibilité ♿ Les bases essentielles
 
@@ -72,9 +72,9 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 
 **Tests à faire :**
 
-- [ ] **Tab** ++↹++ : Je peux naviguer entre TOUS les éléments interactifs avecla touche Tab
-- [ ] **Shift+Tab** ++⇧++ : Je peux revenir en arrière
-- [ ] **Enter/Space** : ++↵++ Je peux activer les boutons avec Enter ou Espace
+- [ ] **Tab** <kbd>↹</kbd> : Je peux naviguer entre TOUS les éléments interactifs avecla touche Tab
+- [ ] **Shift+Tab** <kbd>⇧</kbd> : Je peux revenir en arrière
+- [ ] **Enter/Space** : <kbd>↵</kbd> Je peux activer les boutons avec Enter ou Espace
 - [ ] **Indicateur visuel** : Je VOIS clairement quel élément est sélectionné (outline visible)
 
 **Comment corriger si ça ne fonctionne pas :**
@@ -109,7 +109,7 @@ button:focus {
 **Exemple :**
 
 - ❌ Texte gris clair (#CCCCCC) sur fond blanc (#FFFFFF) = mauvais contraste
-- ✅ Texte gris foncé (#333333) sur fond blanc (#FFFFFF) = bon contraste
+- [ ] Texte gris foncé (#333333) sur fond blanc (#FFFFFF) = bon contraste
 
 ### 3. Textes alternatifs pour les images
 
@@ -119,10 +119,10 @@ button:focus {
 <!-- ❌ MAUVAIS -->
 <img src="photo-paris.jpg">
 
-<!-- ✅ BON -->
+<!-- [ ] BON -->
 <img src="photo-paris.jpg" alt="Vue de la Tour Eiffel au coucher du soleil">
 
-<!-- ✅ BON pour image décorative ajoutez quand même 
+<!-- [ ] BON pour image décorative ajoutez quand même 
  l'attribut alt mais laissez la vide -->
 <img src="decoration.svg" alt="">
 ```
@@ -141,7 +141,7 @@ button:focus {
 <!-- ❌ MAUVAIS -->
 <input type="text" placeholder="Titre">
 
-<!-- ✅ BON -->
+<!-- [ ] BON -->
 <label for="titre">Titre de la mémoire</label>
 <input type="text" id="titre" placeholder="Ex: Mon voyage à Paris">
 ```
@@ -149,7 +149,7 @@ button:focus {
 ### 5. Messages d'erreur clairs
 
 ```html
-<!-- ✅ BON EXEMPLE -->
+<!-- [ ] BON EXEMPLE -->
 <form>
   <label for="email">Courriel</label>
   <input type="email" id="email" required>
@@ -227,7 +227,7 @@ Pour votre projet, étant donné que vous n'avez pas une grand quantité d'image
 ### 2. Lazy Loading des images
 
 ```html
-<!-- ✅ Ajoutez loading="lazy" pour les images hors écran -->
+<!-- [ ] Ajoutez loading="lazy" pour les images hors écran -->
 <img src="grande-image.jpg" alt="Description" loading="lazy">
 ```
 
@@ -291,15 +291,17 @@ npm run lint -- --fix
 ### Structure recommandée du rapport
 
 ```markdown
-# Rapport de Contrôle Qualité - [Nom du Projet]
+# Rapport de contrôle qualité - [Nom du projet]
 
 ## 1. Informations générales
+
 - **Nom de l'équipe :** [Nom]
 - **Projet :** [Mémoires interactives / Trace ton chemin]
 - **Date des tests :** [Date]
 - **Testeurs :** [Noms des membres]
 
 ## 2. Environnements testés
+
 - [ ] Chrome (version X)
 - [ ] Firefox (version X)
 - [ ] Edge (version X)
@@ -327,58 +329,63 @@ npm run lint -- --fix
 
 ## 4. Accessibilité
 
-- Tab ++↹++
-- Shif ++⇧++
-- Enter ++↵++ J
+Tab <kbd>↹</kbd>
+Shift <kbd>⇧</kbd>
+Enter <kbd>↵</kbd>
 
 
 
 ### Navigation au clavier (3/4 tests passés ⚠️)
 
 - [ ] Tab fonctionne sur tous les boutons
-- ✅ Enter/Space activent les boutons
+- [ ] Enter/Space activent les boutons
 - [x] PROBLÈME: Focus visible manquant sur certains liens
-- ✅ Skip links présents (si applicable)
+- [ ] Skip links présents (si applicable)
 
 ### Contraste (5/5 tests passés ✅)
 
-- ✅ Texte principal : 7.2:1 (excellent)
-- ✅ Titres : 5.8:1 (bon)
-- ✅ Boutons : 4.9:1 (conforme)
-- ✅ Liens : 4.6:1 (conforme)
-- ✅ Texte sur images : bon contraste
+- [ ] Texte principal : 7.2:1 (excellent)
+- [ ] Titres : 5.8:1 (bon)
+- [ ] Boutons : 4.9:1 (conforme)
+- [ ] Liens : 4.6:1 (conforme)
+- [ ] Texte sur images : bon contraste
 
 ### Images et média (2/3 tests passés ⚠️)
 
-- ✅ Toutes les images ont un attribut alt
+- [ ] Toutes les images ont un attribut alt
 - [x] PROBLÈME: Certains alt sont vides alors que l'image est informative
-- ✅ Vidéos ont des contrôles (si applicable)
+- [ ] Vidéos ont des contrôles (si applicable)
 
 ## 5. Performance
 
 ### Lighthouse Score
+
 - **Performance :** 78/100 (bon)
 - **Accessibilité :** 85/100 (bon)
 - **Best Practices :** 92/100 (excellent)
 
 ### Temps de chargement
+
 - **Page d'accueil :** 1.2s (excellent ✅)
 - **Salle avec images :** 3.8s (à améliorer ⚠️)
 - **Chapitre texte :** 0.8s (excellent ✅)
 
 ### Taille des assets
+
 - **Images :** Total 4.2 MB (avant compression)
 - **Après compression :** 1.8 MB (économie de 57% ✅)
 
 ## 6. Bugs identifiés et leur priorité
 
 ### 🔴 CRITIQUES (bloquants)
+
 1. **Upload d'image > 5MB plante l'application**
    - **Comment reproduire :** Téléverser une photo > 5MB
    - **Correction prévue :** Ajouter validation côté client
    - **Statut :** En cours de correction
 
 ### 🟠 MAJEURS (impactent l'expérience)
+
 2. **Focus keyboard invisible sur les liens**
    - **Impact :** Navigation au clavier difficile
    - **Correction prévue :** Ajouter style :focus visible
@@ -390,6 +397,7 @@ npm run lint -- --fix
    - **Statut :** Compression faite, lazy loading à ajouter
 
 ### 🟡 MINEURS (améliorations souhaitables)
+
 4. **Alt text manquant sur 3 images décoratives**
    - **Impact :** Lecteur d'écran lit le nom de fichier
    - **Correction prévue :** Ajouter alt=""
@@ -403,40 +411,46 @@ npm run lint -- --fix
 ## 7. Tests des cas limites
 
 ### Formulaires avec données inhabituelles
-- ✅ Émojis dans le titre : fonctionne
-- ✅ Texte de 1000 caractères : fonctionne
+
+- [ ] Émojis dans le titre : fonctionne
+- [ ] Texte de 1000 caractères : fonctionne
 - ⚠️ Caractères spéciaux (', ", <, >) : apostrophe pose problème
 
 ### Navigation inhabituelle
-- ✅ Bouton retour : fonctionne
-- ✅ F5 (refresh) : fonctionne
-- ✅ URL directe : fonctionne
+
+- [ ] Bouton retour : fonctionne
+- [ ] F5 (refresh) : fonctionne
+- [ ] URL directe : fonctionne
 
 ### Pour "Trace ton Chemin" (si applicable)
-- ✅ Toutes les fins testées : 5/5 atteignables
-- ✅ Toutes les branches testées : aucun dead-end
-- ✅ Historique fonctionne correctement
+
+- [ ] Toutes les fins testées : 5/5 atteignables
+- [ ] Toutes les branches testées : aucun cul-de-sac
+- [ ] Historique fonctionne correctement
 
 ## 8. Plan de corrections (priorisé)
 
 ### Avant la remise finale (obligatoire)
-1. ✅ Compresser toutes les images (FAIT)
+
+1. [ ] Compresser toutes les images
 2. [ ] Corriger le bug d'upload > 5MB
 3. [ ] Ajouter focus visible sur les liens
 4. [ ] Corriger le problème d'apostrophe dans les formulaires
 
 ### Si le temps le permet (bonus)
+
 5. [ ] Ajouter lazy loading sur les images
 6. [ ] Améliorer les alt text des images
-7. [ ] Augmenter le contraste du bouton "Retour"
 
 ## 9. Recommandations pour l'avenir
+
 - Tester avec de vrais utilisateurs externes
 - Utiliser un validateur HTML pour détecter les erreurs
 - Automatiser la compression d'images dans le workflow
 - Mettre en place des tests de régression
 
 ## 10. Conclusion
+
 Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections mineures à apporter. La majorité des fonctionnalités fonctionnent correctement, l'accessibilité de base est respectée, et les performances sont acceptables après compression des images.
 
 **Temps estimé pour corrections critiques :** 3-4 heures
@@ -448,6 +462,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 ## 🛠️ Outils Pratiques Recommandés
 
 ### Pour l'accessibilité
+
 - **WAVE** (extension Chrome) : https://wave.webaim.org/extension/
   - Identifie visuellement les problèmes d'accessibilité sur votre page
   
@@ -457,19 +472,22 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 - **Contraste de couleurs** : https://webaim.org/resources/contrastchecker/
 
 ### Pour les performances
+
 - **Lighthouse** (intégré à Chrome DevTools)
 - **TinyPNG** : https://tinypng.com/
 - **Squoosh** : https://squoosh.app/
 
 ### Pour tester sur mobile (sans appareil)
+
 - **Chrome DevTools** (F12 > Toggle device toolbar)
 - **Responsive Viewer** (extension Chrome) : teste plusieurs tailles en même temps
 
 ### Pour valider le HTML
+
 - **W3C Validator** : https://validator.w3.org/
   - Copier-coller votre HTML ou entrer l'URL
 
----
+
 
 ## 📝 Checklist Finale Avant Remise
 
@@ -485,7 +503,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 - [ ] README.md est à jour avec les instructions
 - [ ] Le site est déployé et l'URL fonctionne
 
----
+
 
 ## 💡 Conseil Final
 
