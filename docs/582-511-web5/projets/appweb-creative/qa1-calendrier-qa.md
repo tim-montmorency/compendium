@@ -28,7 +28,7 @@
 
 ---
 
-### MERCREDI 3 → VENDREDI 6 DÉCEMBRE - Travail autonome
+### DE MERCREDI 3 AU VENDREDI 6 DÉCEMBRE - Travail autonome
 
 **TÂCHE 1 : Tests externes (priorité)**
 
@@ -74,7 +74,7 @@ Document à envoyer à :
 
 ---
 
-### VENDREDI 6 → LUNDI 8 DÉCEMBRE - Corrections
+### De VENDREDI 6 AU LUNDI 8 DÉCEMBRE - Corrections
 
 **Vous recevez maintenant les bogues trouvés dans VOTRE projet**
 
