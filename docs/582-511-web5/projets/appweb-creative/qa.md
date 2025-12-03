@@ -109,7 +109,7 @@ button:focus {
 **Exemple :**
 
 - ❌ Texte gris clair (#CCCCCC) sur fond blanc (#FFFFFF) = mauvais contraste
-- [ ] Texte gris foncé (#333333) sur fond blanc (#FFFFFF) = bon contraste
+- ✅ Texte gris foncé (#333333) sur fond blanc (#FFFFFF) = bon contraste
 
 ### 3. Textes alternatifs pour les images
 
@@ -119,10 +119,10 @@ button:focus {
 <!-- ❌ MAUVAIS -->
 <img src="photo-paris.jpg">
 
-<!-- [ ] BON -->
+<!-- ✅ BON -->
 <img src="photo-paris.jpg" alt="Vue de la Tour Eiffel au coucher du soleil">
 
-<!-- [ ] BON pour image décorative ajoutez quand même 
+<!-- ✅ BON pour image décorative ajoutez quand même 
  l'attribut alt mais laissez la vide -->
 <img src="decoration.svg" alt="">
 ```
