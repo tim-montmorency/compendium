@@ -16,7 +16,7 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 
 [Compilation et déploiement du projet](./projets/appweb-creative/deploiement-github-pages.md){ .md-button }
 
-### Contrôle de la qualité (QA)
+## Contrôle de la qualité (QA)
 
 ### Calendrier QA - Tests Croisés
 
