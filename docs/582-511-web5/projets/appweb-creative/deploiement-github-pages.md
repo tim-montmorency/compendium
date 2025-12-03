@@ -8,6 +8,7 @@ Déploiement *live* de votre projet avec *Vite* sur *GitHub Pages*
 
 **Ajoutez la propriété `base` :**
 
+
 ```javascript
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'

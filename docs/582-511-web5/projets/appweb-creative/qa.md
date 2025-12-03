@@ -12,6 +12,13 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 3. **Optimiser les performances** pour une expérience fluide
 4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
 
+## Objectifs de cette phase
+
+1. **Identifier et corriger les bogues** avant que l'enseignant ou les utilisateurs les trouvent
+2. **Valider l'accessibilité de base** pour que tout le monde puisse utiliser votre app
+3. **Optimiser les performances** pour une expérience fluide
+4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
+
 
 ## ✅ Checklist générale des tests
 
@@ -102,7 +109,7 @@ button:focus {
 
 **Outils pour tester le ratio de votre projet :**
 
-1. **WebAIM Contrast Checker** : https://webaim.org/resources/contrastchecker/
+1. **WebAIM Contrast Checker** : [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
 2. Copiez le code hexadécimal votre couleur de texte dans le champs *Foreground* et celui de votre couleur de fond dans *Background*.
 3. Vérifiez si ça passe le test AA selon le ratio de contraste qui en résulte.
 
@@ -439,20 +446,20 @@ Pour le template de votre rapport de qualité final, veuillez visiter [QA - Rapp
 
 ### Pour l'accessibilité
 
-- **WAVE** (extension Chrome) : https://wave.webaim.org/extension/
+- **WAVE** (extension Chrome) : [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
   - Identifie visuellement les problèmes d'accessibilité sur votre page
   
-- **axe DevTools** (extension Chrome) : https://www.deque.com/axe/devtools/
+- **axe DevTools** (extension Chrome) : [https://www.deque.com/axe/devtools/](https://www.deque.com/axe/devtools/)
   - Tests d'accessibilité automatisés directement dans les *DevTools*
 
-- **Contraste de couleurs** : https://webaim.org/resources/contrastchecker/
+- **Contraste de couleurs** : [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 ### Pour les performances
 
 - **Lighthouse** (intégré à Chrome DevTools)
-- **TinyPNG** : https://tinypng.com/
-- **Squoosh** : https://squoosh.app/
-- **I❤️IMG**: https://www.iloveimg.com/fr
+- **TinyPNG** : [https://tinypng.com/](https://tinypng.com/)
+- **Squoosh** : [https://squoosh.app/](https://squoosh.app/)
+- **I❤️IMG**: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
 
 ### Pour tester sur mobile (sans appareil)
 
@@ -461,7 +468,7 @@ Pour le template de votre rapport de qualité final, veuillez visiter [QA - Rapp
 
 ### Pour valider le HTML
 
-- **W3C Validator** : https://validator.w3.org/
+- **W3C Validator** : [https://validator.w3.org/](https://validator.w3.org/)
   - Copier-coller votre HTML ou entrer l'URL
 
 ## Checklist finale avant remise
