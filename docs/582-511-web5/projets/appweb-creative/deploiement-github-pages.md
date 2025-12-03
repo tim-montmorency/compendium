@@ -78,6 +78,15 @@ npm run preview
 
 ## ÉTAPE 4 : Créer la branche gh-pages sur GitHub
 
+Si ce n'est pas fait, arrêtez le projet dans le terminal via `q` et `enter`.
+
+Ensuite créez via ligne de commande une nouvelle branche vide:
+
+```
+  git switch --orphan gh-pages
+```
+
+<!--
 **Allez sur votre repo GitHub dans un navigateur**
 
 **URL : `https://github.com/votre-username/votre-repo`**
@@ -87,6 +96,8 @@ npm run preview
 **Tapez `gh-pages` dans la zone de texte**
 
 **Cliquez sur "Create branch: gh-pages"**
+
+-->
 
 ✅ Vous avez maintenant une branche `gh-pages` vide
 
