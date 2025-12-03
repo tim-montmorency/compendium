@@ -7,7 +7,7 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 
 ## Objectifs de cette phase
 
-1. **Identifier et corriger les bugs** avant que l'enseignant ou les utilisateurs les trouvent
+1. **Identifier et corriger les bogues** avant que l'enseignant ou les utilisateurs les trouvent
 2. **Valider l'accessibilité de base** pour que tout le monde puisse utiliser votre app
 3. **Optimiser les performances** pour une expérience fluide
 4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
@@ -198,7 +198,7 @@ Pour votre projet, étant donné que vous n'avez pas une grand quantité d'image
   - Plus de contrôle sur la compression
   - Comparaison avant/après en direct
 
-- **I❤️IMG: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
+- **I❤️IMG**: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
 
 #### Option B : Outils locaux
 
@@ -325,29 +325,22 @@ npm run lint -- --fix
 - [ ] Édition fonctionne
 - [ ] Suppression fonctionne
 - [ ] Validation des champs obligatoires
-- [x] BUG: Upload d'image > 5MB plante l'app
+- [x] BOGUE: Upload d'image > 5MB plante l'app
 
 ## 4. Accessibilité
-
-Tab <kbd>↹</kbd>
-Shift <kbd>⇧</kbd>
-Enter <kbd>↵</kbd>
-
-
 
 ### Navigation au clavier (3/4 tests passés ⚠️)
 
 - [ ] Tab fonctionne sur tous les boutons
 - [ ] Enter/Space activent les boutons
 - [x] PROBLÈME: Focus visible manquant sur certains liens
-- [ ] Skip links présents (si applicable)
 
 ### Contraste (5/5 tests passés ✅)
 
-- [ ] Texte principal : 7.2:1 (excellent)
-- [ ] Titres : 5.8:1 (bon)
-- [ ] Boutons : 4.9:1 (conforme)
-- [ ] Liens : 4.6:1 (conforme)
+- [ ] Texte principal 7.2:1 (excellent)
+- [ ] Titres 5.8:1 (bon)
+- [ ] Boutons 4.9:1 (conforme)
+- [ ] Liens 4.6:1 (conforme)
 - [ ] Texte sur images : bon contraste
 
 ### Images et média (2/3 tests passés ⚠️)
@@ -375,7 +368,7 @@ Enter <kbd>↵</kbd>
 - **Images :** Total 4.2 MB (avant compression)
 - **Après compression :** 1.8 MB (économie de 57% ✅)
 
-## 6. Bugs identifiés et leur priorité
+## 6. Bogues identifiés et leur priorité
 
 ### 🔴 CRITIQUES (bloquants)
 
@@ -410,17 +403,12 @@ Enter <kbd>↵</kbd>
 
 ## 7. Tests des cas limites
 
-### Formulaires avec données inhabituelles
-
-- [ ] Émojis dans le titre : fonctionne
-- [ ] Texte de 1000 caractères : fonctionne
-- ⚠️ Caractères spéciaux (', ", <, >) : apostrophe pose problème
 
 ### Navigation inhabituelle
 
 - [ ] Bouton retour : fonctionne
 - [ ] F5 (refresh) : fonctionne
-- [ ] URL directe : fonctionne
+- [ ] URL directe (on tappe directement dans la barre d'url) : fonctionne
 
 ### Pour "Trace ton Chemin" (si applicable)
 
@@ -433,33 +421,15 @@ Enter <kbd>↵</kbd>
 ### Avant la remise finale (obligatoire)
 
 1. [ ] Compresser toutes les images
-2. [ ] Corriger le bug d'upload > 5MB
+2. [ ] Corriger le bogue d'upload > 5MB
 3. [ ] Ajouter focus visible sur les liens
-4. [ ] Corriger le problème d'apostrophe dans les formulaires
-
-### Si le temps le permet (bonus)
-
 5. [ ] Ajouter lazy loading sur les images
 6. [ ] Améliorer les alt text des images
-
-## 9. Recommandations pour l'avenir
-
-- Tester avec de vrais utilisateurs externes
-- Utiliser un validateur HTML pour détecter les erreurs
-- Automatiser la compression d'images dans le workflow
-- Mettre en place des tests de régression
-
-## 10. Conclusion
-
-Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections mineures à apporter. La majorité des fonctionnalités fonctionnent correctement, l'accessibilité de base est respectée, et les performances sont acceptables après compression des images.
-
-**Temps estimé pour corrections critiques :** 3-4 heures
-**Statut global :** ✅ Prêt (avec corrections mineures)
 ```
 
 ---
 
-## Outils Pratiques Recommandés
+## Outils pratiques recommandés
 
 ### Pour l'accessibilité
 
@@ -467,7 +437,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
   - Identifie visuellement les problèmes d'accessibilité sur votre page
   
 - **axe DevTools** (extension Chrome) : https://www.deque.com/axe/devtools/
-  - Tests d'accessibilité automatisés directement dans les DevTools
+  - Tests d'accessibilité automatisés directement dans les *DevTools*
 
 - **Contraste de couleurs** : https://webaim.org/resources/contrastchecker/
 
@@ -476,6 +446,7 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 - **Lighthouse** (intégré à Chrome DevTools)
 - **TinyPNG** : https://tinypng.com/
 - **Squoosh** : https://squoosh.app/
+- **I❤️IMG**: https://www.iloveimg.com/fr
 
 ### Pour tester sur mobile (sans appareil)
 
@@ -487,27 +458,22 @@ Le projet est **fonctionnel et prêt pour la remise** avec quelques corrections 
 - **W3C Validator** : https://validator.w3.org/
   - Copier-coller votre HTML ou entrer l'URL
 
-
-
 ## Checklist finale avant remise
 
-- [ ] Tous les bugs critiques sont corrigés
-- [ ] Le site fonctionne sur Chrome ET Firefox minimum
+- [ ] Tous les bogues critiques sont corrigés
+- [ ] Le site fonctionne sur Chrome, Firefox ET Edge minimum
 - [ ] Le site est responsive (mobile, tablette, desktop)
 - [ ] La navigation au clavier fonctionne avec focus visible
-- [ ] Toutes les images ont un attribut alt approprié
+- [ ] Toutes les images ont un attribut `alt` approprié
 - [ ] Le contraste des couleurs est suffisant (testé avec outil)
 - [ ] Les images sont compressées (< 500 KB par image)
-- [ ] Pas de console.log() ou code de debug dans le code final
+- [ ] Pas de `console.log()` ou code de `debug` dans le code final
 - [ ] Le rapport QA est complet et honnête
-- [ ] README.md est à jour avec les instructions
-- [ ] Le site est déployé et l'URL fonctionne
-
 
 
 ## Conseil final
 
-**Soyez honnêtes dans votre rapport !** 
+**Soyez honnêtes dans votre rapport !**
 
 L'objectif n'est pas d'avoir un projet parfait, mais de démontrer que vous avez :
 
@@ -516,4 +482,4 @@ L'objectif n'est pas d'avoir un projet parfait, mais de démontrer que vous avez
 3. **Priorisé** les corrections
 4. **Documenté** votre démarche
 
-Un projet avec quelques bugs mineurs bien documentés vaut mieux qu'un projet "parfait" qui n'a pas été testé. La transparence est une qualité professionnelle importante.
+Un projet avec quelques bogues mineurs bien documentés vaut mieux qu'un projet "parfait" qui n'a pas été testé. La transparence est une qualité professionnelle importante.
