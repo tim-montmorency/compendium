@@ -291,6 +291,9 @@ npm run lint -- --fix
 
 ## Créer votre *rapport de contrôle qualité*
 
+Pour le template de votre rapport de qualité final, veuillez visiter [QA - Rapport final](./qa5-template-rapport-complet-qa.md)
+
+<!-- 
 ### Structure recommandée du rapport
 
 ```markdown
@@ -429,8 +432,8 @@ npm run lint -- --fix
 5. [ ] Ajouter lazy loading sur les images
 6. [ ] Améliorer les alt text des images
 ```
+-->
 
----
 
 ## Outils pratiques recommandés
 
@@ -472,7 +475,6 @@ npm run lint -- --fix
 - [ ] Les images sont compressées (< 500 KB par image)
 - [ ] Pas de `console.log()` ou code de `debug` dans le code final
 - [ ] Le rapport QA est complet et honnête
-
 
 ## Conseil final
 

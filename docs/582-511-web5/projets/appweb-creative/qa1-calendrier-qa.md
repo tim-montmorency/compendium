@@ -179,7 +179,6 @@ Ce qui compte :
 ✅ Projet stable et fonctionnel
 ✅ Présentation professionnelle
 
-
 ## ⏰ Timeline visuelle
 
 ```
