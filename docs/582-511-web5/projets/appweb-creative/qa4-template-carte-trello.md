@@ -2,7 +2,24 @@
 
 **Instructions :** Copiez ce template dans une carte Trello pour chaque bug trouvé.
 
-## 📋 TEMPLATE À COPIER DANS TRELLO
+
+
+Dans le projet Trello, il (au moins) devrait y avoir ces colonnes (ou équivalent)
+
+- À faire
+- En cours
+- Prêt à être validé
+- *Validé par l'équipe QA*
+
+S'il manque celle nommée *Validé par l'équipe QA*, veuillez la créer.
+
+C'est dans cette colonnes que vous ajoutez les cartes de bogues au besoin.
+
+## 📋 TEMPLATE À COPIER DANS UNE CARTE TRELLO
+
+En faire un modèle réutilisable dans Trello.
+
+![Faire un modère avec la carte](../assets/trello-modele-carte.png)
 
 ```
 🐛 Bug #[Numéro] : [Titre court et descriptif]
