@@ -14,7 +14,7 @@ Vous devrez animer le balai, l'onde, les 3 points ainsi que la petite lumière �
 
 ### Départ
 
-- [ ] Télécharger le [dossier de départ](web3Ex2Partie1.zip){ download }
+- [ ] Télécharger le [dossier de départ](./web3Ex2Partie1.zip){ download }
 - [ ] Initialiser et installer AnimeJS avec `npm`
 
 ### HTML

@@ -14,7 +14,7 @@ Au clic du bouton "init", vous devrez animer les contours du SVG, puis, une fois
 
 ### Départ
 
-- [ ] Télécharger le [dossier de départ](){ download }
+- [ ] Télécharger le [dossier de départ](./web3Ex2Partie2.zip){ download }
 - [ ] Initialiser et installer AnimeJS avec `npm`
 
 ### HTML
@@ -45,14 +45,14 @@ Dans le fichier `exam.js`.
   - Latitude = `42.3289`
   - Aucune interactivité, ni crédits
 
-- [ ] Configurer les animations de sorte à ce quelles ne s'activent pas au chargement de la page
+- [ ] Configurer les animations de sorte qu'elles ne s'activent pas au chargement de la page
 
 - [ ] Au clic du bouton "init", animer les contours du SVG en décalé
   - Durée de 6 secondes
 
 Lorsque l'animation est terminée
 
-- [ ] Déclencher la lecture de la piste sonore
+- [ ] Déclencher la lecture de la piste sonore `robocop_theme_song.mp3`
 - [ ] Faire disparaître progressivement `.action`
 - [ ] Faire apparaître progressivement la carte
 - [ ] Animer progressivement la variable CSS qui gère la couleur de fond du logo
