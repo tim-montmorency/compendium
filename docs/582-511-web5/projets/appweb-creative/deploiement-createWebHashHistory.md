@@ -31,9 +31,7 @@ const router = createRouter({
 })
 ```
 
-
 par cela:
-
 
 ```javascript
 // ✅ Pour GitHub Pages
