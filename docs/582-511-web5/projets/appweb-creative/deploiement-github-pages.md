@@ -21,6 +21,7 @@ Si vos images sont *référencées dans un fichier JSON* de données :
 4. *Vite* copiera automatiquement tout le contenu de `public/` dans `dist/` final (bref dans votre projet compilé (*build*))
 
 **Structure correcte :**
+
 ```
 votre-projet/
 ├── public/
@@ -117,13 +118,13 @@ votre-projet/
 
 ## ÉTAPE 4 : Créer la branche gh-pages sur GitHub
 
-Si ce n'est pas fait, arrêtez le projet dans le terminal via `q` et `enter`.
+- Si ce n'est pas fait, arrêtez le projet dans le terminal via `q` et `enter`.
 
-Ensuite créez via ligne de commande une nouvelle branche vide:
+- Ensuite créez via ligne de commande une nouvelle branche vide:
 
-```bash
-git switch --orphan gh-pages
-```
+  ```bash
+  git switch --orphan gh-pages
+  ```
 
 <!--
 **Allez sur votre repo GitHub dans un navigateur**
@@ -138,82 +139,89 @@ git switch --orphan gh-pages
 
 -->
 
-Vous pouvez vérifier dans *GitHub Desktop* sur la branche que vous venez de créer voir si'il est vraimetn vide de tout ficheir. S'il n'est pas vide, videz le avec ceci toujorus dans votre terminal:
+- Vous pouvez vérifier dans *GitHub Desktop* sur la branche que vous venez de créer voir si'il est vraimetn vide de tout ficheir. S'il n'est pas vide, videz le avec ceci toujorus dans votre terminal:
 
-```bash
-git rm -rf .
-```
+  ```bash
+  git rm -rf .
+  ```
 
-
-Une bnrache orpheline doit avoir au moins un commit, même s'il est vide de ficheir pour initialiser une historique de branche:
-
-```bash
-git commit --allow-empty -m "Initial commit on orphan branch"
-
-```
-
-Allez dans *GitHub Desktop* pour faire le push de votre nouvelle branche *gh-pages*.
+  - Si cette commande ne vide pas votre dossier de projet, allez supprimer les fichiers manuellement via l'explorateur de fichier de Winwdows.
 
 
+- Une branche orpheline doit avoir au moins un `commit`, même s'il est vide de fichiers pour initialiser un historique de branche:
 
-✅ Vous avez maintenant une branche `gh-pages` vide!
+  ```bash
+  git commit --allow-empty -m "Initial commit on orphan branch"
+
+  ```
+
+- Allez dans *GitHub Desktop* pour faire le `push` de votre nouvelle branche *gh-pages*.
 
 
 
 ## ÉTAPE 5 : Installer gh-pages (outil de déploiement)
 
-**Dans votre terminal :**
 
-```bash
-npm install --save-dev gh-pages
-```
 
-**Attendez que l'installation se termine (10-20 secondes)**
+- Dans votre terminal, installez le module [gh-pages](https://www.npmjs.com/package/gh-pages) via `npm`.
+
+  ```bash
+  npm install --save-dev gh-pages
+  ```
+
+- Attendez que l'installation se termine (10-20 secondes)**
 
 
 ## ÉTAPE 6 : Ajouter le script de déploiement
 
-**Ouvrez `package.json`**
+- Ouvrez le fichier `package.json`
 
-**Dans la section `"scripts"`, ajoutez cette ligne :**
+- Dans la section `"scripts"`, ajoutez cette ligne :
 
-```json
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+  ```
+  "deploy": "gh-pages -d dist"
+  ```
+
+  Voici où la placer: 
+
+  ```json
+  {
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "deploy": "gh-pages -d dist"
+    }
   }
-}
-```
+  ```
 
-⚠️ **Important : ajoutez une virgule après la ligne précédente si nécessaire**
+  ⚠️ **Important : ajoutez une virgule après la ligne précédente si nécessaire**
 
-**Sauvegardez `package.json`**
+- Sauvegardez `package.json`
 
 
 
 ## ÉTAPE 7 : Déployer sur GitHub Pages
 
-**Dans votre terminal, lancez :**
+- Dans votre terminal, lancez :
 
-```bash
-npm run deploy
-```
+  ```bash
+  npm run deploy
+  ```
 
-**Ce qui va se passer :**
+  **Ce qui va se passer :**
 
-1. L'outil `gh-pages` prend le contenu de `dist/`
-2. Le pousse vers la branche `gh-pages` sur GitHub
-3. Ça prend 10-30 secondes
+  1. L'outil `gh-pages` prend le contenu de `dist/`
+  2. Le pousse vers la branche `gh-pages` sur GitHub
+  3. Ça prend 10-30 secondes
 
-**Vous devriez voir des messages comme :**
-```
-Published
-```
+- Vous devriez voir des messages comme :
 
-✅ **C'est fait ! Votre site est en ligne !**
+  ```
+  Published
+  ```
+
+- ✅ **C'est fait ! Votre site est en ligne !**
 
 
 
