@@ -2,7 +2,7 @@
 
 Déploiement *live* de votre projet avec *Vite* sur *GitHub Pages*
 
-## ÉTAPE 0 : Préparation des images du JSON en vue de la mise en ligne
+## ÉTAPE 00 : Préparation des images du JSON en vue de la mise en ligne
 
 Si vos images sont *référencées dans un fichier JSON* de données :
 
@@ -38,6 +38,10 @@ Si vos images sont *référencées dans un fichier JSON* de données :
   ❌ Bref: *NE PAS* mettre les images dans `src/assets/` si elles sont dans le *JSON*.
 
 
+## ÉTAPE 0
+
+Préparer vos configuration de Vue Router pour GitHub Pages avec `createWebHashHistory`. [Voir les instructions ici](./deploiement-createWebHashHistory.md)
+
 ## ÉTAPE 1 : Configurer `vite.config.js`
 
 - Ouvrez le fichier `vite.config.js` à la racine de votre projet.
@@ -64,11 +68,11 @@ Si vos images sont *référencées dans un fichier JSON* de données :
 
 - Sauvegardez le fichier.
 
-
+<!--
 !!! Warning "⚠️ ⚠️ ⚠️ "
     Attention, si vous avez un sous-dossier et que votre projet n'est pas à la racine du repo git, vous devez plutôt suivre [ces instructions](./deploiement-github-pages-sous-dossier.md) pour l'ÉTAPE 1 qui consiste à définir la `base` de votre projet dans `vite.config.js`.
 
-
+-->
 
 ## ÉTAPE 2 : Compiler (*build*) le projet
 
@@ -309,82 +313,82 @@ Si vos images sont *référencées dans un fichier JSON* de données :
 
 ??? 🐛 "Problèmes courants"
 
-    ### Problème 1 : Page blanche après déploiement
+### Problème 1 : Page blanche après déploiement
 
-    **Cause :** Le `base` dans `vite.config.js` n'est pas correct
+**Cause :** Le `base` dans `vite.config.js` n'est pas correct
 
-    **Solution :**
+**Solution :**
 
-    1. Vérifiez que `base: '/nom-repo/',` correspond au nom de votre repo
-    2. N'oubliez pas les `/` au début ET à la fin
-    3. Rebuild et redéployez
+1. Vérifiez que `base: '/nom-repo/',` correspond au nom de votre repo
+2. N'oubliez pas les `/` au début ET à la fin
+3. Rebuild et redéployez
 
-    ---
+---
 
-    ### Problème 2 : Images ne s'affichent pas
+### Problème 2 : Images ne s'affichent pas
 
-    **Cause :** Chemins d'images incorrects
+**Cause :** Chemins d'images incorrects
 
-    **Solution :**
-    Les chemins doivent être relatifs ou commencer par `/`
+**Solution :**
+Les chemins doivent être relatifs ou commencer par `/`
 
-    ❌ **Mauvais :**
-    ```javascript
-    <img src="C:/Users/moi/projet/images/photo.jpg">
-    <img src="file:///images/photo.jpg">
-    ```
+❌ **Mauvais :**
+```javascript
+<img src="C:/Users/moi/projet/images/photo.jpg">
+<img src="file:///images/photo.jpg">
+```
 
-    ✅ **Bon :**
-    ```javascript
-    <img src="/images/photo.jpg">
-    <img src="./images/photo.jpg">
-    ```
+✅ **Bon :**
+```javascript
+<img src="/images/photo.jpg">
+<img src="./images/photo.jpg">
+```
 
-    ---
+---
 
-    ### Problème 3 : Erreur 404 lors de la navigation
+### Problème 3 : Erreur 404 lors de la navigation
 
-    **Cause :** Vue Router en mode `history` sur GitHub Pages
+**Cause :** Vue Router en mode `history` sur GitHub Pages
 
-    **Solution :**
-    Utiliser le mode `hash` dans `router/index.js` :
+**Solution :**
+Utiliser le mode `hash` dans `router/index.js` :
 
-    ```javascript
-    import { createRouter, createWebHashHistory } from 'vue-router'
+```javascript
+import { createRouter, createWebHashHistory } from 'vue-router'
 
-    const router = createRouter({
-      history: createWebHashHistory(), // ← Utilisez hash au lieu de history
-      routes: [...]
-    })
-    ```
+const router = createRouter({
+  history: createWebHashHistory(), // ← Utilisez hash au lieu de history
+  routes: [...]
+})
+```
 
-    ---
+---
 
-    ### Problème 4 : `npm run deploy` ne fonctionne pas
+### Problème 4 : `npm run deploy` ne fonctionne pas
 
-    **Erreur possible :** "gh-pages: command not found"
+**Erreur possible :** "gh-pages: command not found"
 
-    **Solution :**
-    ```bash
-    npm install --save-dev gh-pages
-    ```
+**Solution :**
+```bash
+npm install --save-dev gh-pages
+```
 
-    ---
+---
 
-    ### Problème 5 : Changements ne s'affichent pas
+### Problème 5 : Changements ne s'affichent pas
 
-    **Cause :** Cache du navigateur
+**Cause :** Cache du navigateur
 
-    **Solution :**
-    - **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
-    - **Mode incognito :** Ouvrir le site en navigation privée
-    - **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
+**Solution :**
+- **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
+- **Mode incognito :** Ouvrir le site en navigation privée
+- **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
 
-    ### Problème 5 : Les image de votre JSON ne s'affichent pas
+### Problème 5 : Les image de votre JSON ne s'affichent pas
 
-    **Solution :**
+**Solution :**
 
-    Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
+Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
 
 
 ## 📋 Checklist finale
