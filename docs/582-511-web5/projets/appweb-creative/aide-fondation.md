@@ -83,6 +83,8 @@ mon-projet/
 
 ### 1.4 Configurer Vue Router
 
+Note: Si tu prévois héberger ton projet sur *GitHub Pages* qui n'est pas un vrai serveur mais un hébergeurde  fichiers statiques (HTML, CSS, JS), il conviendra plutôt d'utiliser utiliser `createWebHashHistory` à la place de `createWebHistory` dans l'exemple qui suit.[ En savoir plus](./deploiement-createWebHashHistory.md).
+
 *src/router/index.js:*
 
 ```javascript

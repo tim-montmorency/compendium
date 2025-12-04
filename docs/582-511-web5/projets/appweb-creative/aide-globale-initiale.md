@@ -97,6 +97,8 @@ mkdir -p src/{components/{common,ui},composables,router,stores,views,utils,asset
 
 *src/router/index.js:*
 
+Note: Si tu prévois héberger ton projet sur *GitHub Pages* qui n'est pas un vrai serveur mais un hébergeurde  fichiers statiques (HTML, CSS, JS), il conviendra plutôt d'utiliser utiliser `createWebHashHistory` à la place de `createWebHistory` dans l'exemple qui suit.[ En savoir plus](./deploiement-createWebHashHistory.md).
+
 ```javascript
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
