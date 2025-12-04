@@ -25,7 +25,5 @@ L'examen représente **25%** de la note finale.
   **[OCP](./ocp.md){.stretched-link .back}**
 </div>
 
-## Remise
-
 
 
