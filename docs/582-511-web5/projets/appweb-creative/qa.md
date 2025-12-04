@@ -1,0 +1,497 @@
+# Phase contrôle qualité (QA)
+
+Ce guide vous aide à tester votre application de manière structurée et professionnelle avant la remise finale. 
+
+Pas besoin de tests unitaires ou de test d'intégrations complexes - on se concentre sur des tests manuels pratiques et efficaces.
+
+
+## Objectifs de cette phase
+
+1. **Identifier et corriger les bogues** avant que l'enseignant ou les utilisateurs les trouvent
+2. **Valider l'accessibilité de base** pour que tout le monde puisse utiliser votre app
+3. **Optimiser les performances** pour une expérience fluide
+4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
+
+## Objectifs de cette phase
+
+1. **Identifier et corriger les bogues** avant que l'enseignant ou les utilisateurs les trouvent
+2. **Valider l'accessibilité de base** pour que tout le monde puisse utiliser votre app
+3. **Optimiser les performances** pour une expérience fluide
+4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
+
+
+## ✅ Checklist générale des tests
+
+### 1. Tests de fonctionnalité de base
+
+#### Pour "Mémoires Interactives"
+
+- [ ] **Navigation entre salles** : Je peux accéder à toutes les salles
+- [ ] **Ajout de mémoire** : Le formulaire fonctionne et sauvegarde correctement
+- [ ] **Édition de mémoire** : Je peux modifier une mémoire existante
+- [ ] **Suppression de mémoire** : La suppression fonctionne (avec ou sans confirmation)
+- [ ] **Affichage des mémoires** : Toutes les mémoires s'affichent correctement
+- [ ] **Upload d'images** : Les images se téléchargent et s'affichent
+- [ ] **Tags** : Je peux ajouter des tags aux mémoires
+- [ ] **Filtres/Recherche** : Les filtres et la recherche fonctionnent correctement
+
+#### Pour "Trace ton Chemin"
+
+- [ ] **Navigation entre chapitres** : Je peux passer d'un chapitre à l'autre
+- [ ] **Affichage du texte** : Le texte s'affiche correctement et est lisible
+- [ ] **Système de choix** : Les boutons de choix fonctionnent
+- [ ] **Branches narratives** : Mes choix mènent aux bons chapitres
+- [ ] **Toutes les fins** : J'ai testé et atteint chaque fin possible
+- [ ] **Tracking** : Le système de karma/flags/inventaire fonctionne (si applicable)
+- [ ] **Historique** : L'historique des décisions se remplit correctement (si applicable)
+- [ ] **Pas de cul-de-sac** : Aucun chapitre ne mène à une impasse
+
+
+## Tests par navigateur et appareil
+
+### Navigateurs à tester (minimum)
+
+- [ ] **Chrome**
+- [ ] **Firefox**
+- [ ] **Edge**
+
+### Appareils à tester
+
+- [ ] **Desktop super-large** (la résolution des écrans dans les labos)
+- [ ] **Desktop classique** (1920x1080)
+- [ ] **Tablette** (768px - utilisez les *DevTools* de Chrome)
+- [ ] **Mobile** (375px - utilisez les *DevTools* de Chrome)
+
+### Comment tester avec *Chrome DevTools*
+
+1. Ouvrez votre site dans Chrome
+2. F12 ou clic droit > Inspecter
+3. Cliquez sur l'icône de téléphone/tablette (Toggle device toolbar)
+4. Sélectionnez différentes tailles d'écran dans le menu déroulant
+5. Testez TOUTES les fonctionnalités principales à chaque taille
+
+
+## ♿ Accessibilité : Les bases essentielles
+
+### 1. Navigation au clavier
+
+**Pourquoi ?** Certaines personnes n'utilisent pas de souris (handicap, préférence, etc.)
+
+**Tests à faire :**
+
+- [ ] **Tab** <kbd>↹</kbd> : Je peux naviguer entre TOUS les éléments interactifs avecla touche Tab
+- [ ] **Shift+Tab** <kbd>⇧</kbd> + <kbd>↹</kbd>: Je peux revenir en arrière
+- [ ] **Enter/Space** : <kbd>↵</kbd> ou <kbd>Space</kbd>  Je peux activer les boutons avec Enter ou Espace
+- [ ] **Indicateur visuel** : Je VOIS clairement quel élément est sélectionné (`outline` visible)
+
+**Comment corriger si ça ne fonctionne pas :**
+
+```css
+/* N'enlevez JAMAIS le outline par défaut sans le remplacer ! */
+/* ❌ MAUVAIS */
+button:focus { outline: none; }
+
+/* ✅ BON */
+button:focus {
+  outline: 2px solid #4A90E2;
+  outline-offset: 2px;
+}
+```
+
+### 2. Contraste des couleurs
+
+**Pourquoi ?** Les personnes avec une vision réduite doivent pouvoir lire votre texte.
+
+**Règle simple :**
+
+- Texte normal : ratio de **4.5 : 1** minimum
+- Texte large (18px+) : ratio de **3 : 1** minimum
+
+**Outils pour tester le ratio de votre projet :**
+
+1. **WebAIM Contrast Checker** : [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
+2. Copiez le code hexadécimal votre couleur de texte dans le champs *Foreground* et celui de votre couleur de fond dans *Background*.
+3. Vérifiez si ça passe le test AA selon le ratio de contraste qui en résulte.
+
+**Exemple :**
+
+- ❌ Texte gris clair (#CCCCCC) sur fond blanc (#FFFFFF) = mauvais contraste
+- ✅ Texte gris foncé (#333333) sur fond blanc (#FFFFFF) = bon contraste
+
+### 3. Textes alternatifs pour les images
+
+**Pourquoi ?** Les lecteurs d'écran lisent ces descriptions aux personnes non-voyantes.
+
+```html
+<!-- ❌ MAUVAIS -->
+<img src="photo-paris.jpg">
+
+<!-- ✅ BON -->
+<img src="photo-paris.jpg" alt="Vue de la Tour Eiffel au coucher du soleil">
+
+<!-- ✅ BON pour image décorative ajoutez quand même 
+ l'attribut alt mais laissez la vide -->
+<img src="decoration.svg" alt="">
+```
+
+<br> 
+**Pour vos projets :**
+
+- **Mémoires** : Chaque mémoire avec image doit avoir un `alt` descriptif
+
+- **Trace ton chemin** : Images de fond ou d'ambiance peuvent avoir `alt=""`
+
+### 4. Libellés (`<label>`) pour les formulaires
+
+**Pourquoi ?** Les lecteurs d'écran doivent savoir à quoi sert chaque champ.
+
+```html
+<!-- ❌ MAUVAIS -->
+<input type="text" placeholder="Titre">
+
+<!-- ✅ BON -->
+<label for="titre">Titre de la mémoire</label>
+<input type="text" id="titre" placeholder="Ex: Mon voyage à Paris">
+```
+
+### 5. Messages d'erreur clairs
+
+```html
+<!-- ✅ BON EXEMPLE -->
+<form>
+  <label for="email">Courriel</label>
+  <input type="email" id="email" required>
+  <span class="error" role="alert">
+    Veuillez entrer un courriel valide (ex: nom@exemple.com)
+  </span>
+</form>
+```
+
+### 6. Zones de clic suffisamment grandes
+
+**Règle simple :** Minimum 44x44 pixels pour les boutons et liens ([recommandation WCAG](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html))
+
+```css
+/* ✅ BON */
+button {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 12px 24px;
+}
+```
+
+
+## 🚀 Optimisation des performances
+
+### 1. Compression des images
+
+#### Problème courant :
+
+Images de 5-10 MB qui ralentissent le chargement
+
+#### Solutions :
+
+Pour compresser des images avec *Vite*, il faut utiliser un *plugin* comme *vite-imagetools* ou un outil externe comme *Squoosh*, *TinyPNG/JPG* ou *Compressor.io*. 
+
+La méthode la plus courante est d'intégrer la compression dans le processus de de compilation (*build*) de Vite à l'aide d'un plugin qui optimisera automatiquement vos images. 
+
+Pour votre projet, étant donné que vous n'avez pas une grand quantité d'images et le temps qu'il reste, on va y aller avec la méthode manuelle avec un outil externe.
+
+##### Option A : Outils en ligne (le plus simple)
+
+- **TinyPNG** : [https://tinypng.com/](https://tinypng.com/)
+  - Glissez-déposez vos images
+  - Téléchargez les versions compressées
+  - Qualité excellente, taille réduite de 50-70%
+
+- **Squoosh** : [https://squoosh.app/](https://squoosh.app/)
+  - Plus de contrôle sur la compression
+  - Comparaison avant/après en direct
+
+- **I❤️IMG**: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
+
+##### Option B : Outils locaux
+
+- **Photoshop** : 
+  - Vous avez la suite Adobe au collège
+  - Vous pouvez faire des **actions** de compression et les appliquer en **batch** sur un dossier d'images
+
+- **RIOT** (Windows) : [https://riot-optimizer.com/](https://riot-optimizer.com/)
+  - Gratuit, très efficace
+  - Vous pouvez l'installer gratuitement à la maison
+  - Interface (UI) un peu vintage...
+
+
+#### Recommandations par type d'image :
+
+- **Photos** : JPEG, qualité 75-85%
+- **Illustrations/logos** : SVG, PNG ou WebP
+- **Icônes simples** : SVG (déjà optimal)
+
+####  Recommandations de tailles cibles :
+
+- Image plein écran : max 500 KB
+- Image de carte/vignette : max 150 KB
+- Image d'arrière-plan : max 300 KB
+
+### 2. Lazy Loading des images
+
+```html
+<!-- [ ] Ajoutez loading="lazy" pour les images hors écran -->
+<img src="grande-image.jpg" alt="Description" loading="lazy">
+```
+
+### 3. Vérification des performances
+
+**Outil : Lighthouse dans Chrome DevTools**
+
+1. Ouvrez *DevTools* (F12)
+2. Onglet "*Lighthouse*"
+3. Cochez "*Performance*" et "*Accessibility*"
+4. Cliquez "*Generate report*"
+5. Visez un score > 70 sur mobile
+
+**Points critiques à surveiller :**
+
+- [ ] **First Contentful Paint** : < 2 secondes
+- [ ] **Largest Contentful Paint** : < 2.5 secondes
+- [ ] **Time to Interactive** : < 3.5 secondes
+
+### 4. Optimisation du code (faites du ménage !)
+
+**À vérifier :**
+
+- [ ] Pas de `console.log()` partout dans le code final
+- [ ] Pas d'`imports` JavaScript ou fichiers Vue inutilisés
+- [ ] Pas de composants chargés mais non utilisés
+- [ ] Pas de composants, de views créés mais inutilisés, faites le ménages des fichiers!
+
+```bash
+# Nettoyer les imports inutilisés (si vous utilisez ESLint)
+npm run lint -- --fix
+```
+
+
+## 🐛 Tests de *cas limites* (Edge Cases)
+
+### Tests à faire absolument
+
+#### Pour les formulaires
+
+- [ ] **Champs vides** : Que se passe-t-il si je soumets un formulaire vide ?
+- [ ] **Caractères spéciaux** : Testez avec des émojis, accents, apostrophes : `L'été à Montréal 🌞`
+- [ ] **Texte très long** : Que se passe-t-il si je tape 1000 caractères ?
+- [ ] **Images énormes** : Que se passe-t-il si j'uploade une image de 20 MB ? (devrait être bloqué)
+
+#### Pour la navigation
+
+- [ ] **Bouton retour du navigateur** : Est-ce que ça fonctionne correctement ?
+- [ ] **Rafraîchir la page (F5)** : Est-ce que je perds mes données ?
+- [ ] **URL directe** : Si je copie-colle l'URL d'une salle/chapitre, ça fonctionne ?
+
+#### Pour "Trace ton chemin" spécifiquement
+
+- [ ] **Chaque branche narrative** : Testez TOUS les chemins possibles
+- [ ] **Chaque fin** : Vérifiez que chaque fin est atteignable
+- [ ] **Dead ends** : Assurez-vous qu'aucun chapitre ne mène nulle part
+
+
+## Créer votre *rapport de contrôle qualité*
+
+Pour le template de votre rapport de qualité final, veuillez visiter [QA - Rapport final](./qa5-template-rapport-complet-qa.md)
+
+<!-- 
+### Structure recommandée du rapport
+
+```markdown
+# Rapport de contrôle qualité - [Nom du projet]
+
+## 1. Informations générales
+
+- **Nom de l'équipe :** [Nom]
+- **Projet :** [Mémoires interactives / Trace ton chemin]
+- **Date des tests :** [Date]
+- **Testeurs :** [Noms des membres]
+
+## 2. Environnements testés
+
+- [ ] Chrome (version X)
+- [ ] Firefox (version X)
+- [ ] Edge (version X)
+- [ ] Mobile (375px via DevTools)
+- [ ] Tablette (768px via DevTools)
+- [ ] Desktop (1920px)
+
+## 3. Résultats des tests fonctionnels
+
+### Navigation (5/5 tests passés ✅)
+
+- [ ] Navigation entre les salles/chapitres fonctionne
+- [ ] Bouton retour du navigateur fonctionne
+- [ ] URLs directes fonctionnent
+- [ ] Menu responsive fonctionne
+- [ ] Pas de lien brisé
+
+### Formulaires (4/5 tests passés ⚠️)
+
+- [ ] Ajout de données fonctionne
+- [ ] Édition fonctionne
+- [ ] Suppression fonctionne
+- [ ] Validation des champs obligatoires
+- [x] BOGUE: Upload d'image > 5MB plante l'app
+
+## 4. Accessibilité
+
+### Navigation au clavier (3/4 tests passés ⚠️)
+
+- [ ] Tab fonctionne sur tous les boutons
+- [ ] Enter/Space activent les boutons
+- [x] PROBLÈME: Focus visible manquant sur certains liens
+
+### Contraste (5/5 tests passés ✅)
+
+- [ ] Texte principal 7.2:1 (excellent)
+- [ ] Titres 5.8:1 (bon)
+- [ ] Boutons 4.9:1 (conforme)
+- [ ] Liens 4.6:1 (conforme)
+- [ ] Texte sur images : bon contraste
+
+### Images et média (2/3 tests passés ⚠️)
+
+- [ ] Toutes les images ont un attribut alt
+- [x] PROBLÈME: Certains alt sont vides alors que l'image est informative
+- [ ] Vidéos ont des contrôles (si applicable)
+
+## 5. Performance
+
+### Lighthouse Score
+
+- **Performance :** 78/100 (bon)
+- **Accessibilité :** 85/100 (bon)
+- **Best Practices :** 92/100 (excellent)
+
+### Temps de chargement
+
+- **Page d'accueil :** 1.2s (excellent ✅)
+- **Salle avec images :** 3.8s (à améliorer ⚠️)
+- **Chapitre texte :** 0.8s (excellent ✅)
+
+### Taille des assets
+
+- **Images :** Total 4.2 MB (avant compression)
+- **Après compression :** 1.8 MB (économie de 57% ✅)
+
+## 6. Bogues identifiés et leur priorité
+
+### 🔴 CRITIQUES (bloquants)
+
+1. **Upload d'image > 5MB plante l'application**
+   - **Comment reproduire :** Téléverser une photo > 5MB
+   - **Correction prévue :** Ajouter validation côté client
+   - **Statut :** En cours de correction
+
+### 🟠 MAJEURS (impactent l'expérience)
+
+2. **Focus keyboard invisible sur les liens**
+   - **Impact :** Navigation au clavier difficile
+   - **Correction prévue :** Ajouter style :focus visible
+   - **Statut :** À faire
+
+3. **Temps de chargement long sur la galerie**
+   - **Impact :** Attente de 3-4 secondes
+   - **Correction prévue :** Lazy loading + compression
+   - **Statut :** Compression faite, lazy loading à ajouter
+
+### 🟡 MINEURS (améliorations souhaitables)
+
+4. **Alt text manquant sur 3 images décoratives**
+   - **Impact :** Lecteur d'écran lit le nom de fichier
+   - **Correction prévue :** Ajouter `alt=""`
+   - **Statut :** À faire
+
+5. **Bouton "Retour" pas assez contrasté**
+   - **Impact :** Légèrement difficile à voir
+   - **Correction prévue :** Augmenter le contraste
+   - **Statut :** À faire
+
+## 7. Tests des cas limites
+
+
+### Navigation inhabituelle
+
+- [ ] Bouton retour : fonctionne
+- [ ] F5 (refresh) : fonctionne
+- [ ] URL directe (on tappe directement dans la barre d'url) : fonctionne
+
+### Pour "Trace ton Chemin" (si applicable)
+
+- [ ] Toutes les fins testées : 5/5 atteignables
+- [ ] Toutes les branches testées : aucun cul-de-sac
+- [ ] Historique fonctionne correctement
+
+## 8. Plan de corrections (priorisé)
+
+### Avant la remise finale (obligatoire)
+
+1. [ ] Compresser toutes les images
+2. [ ] Corriger le bogue d'upload > 5MB
+3. [ ] Ajouter focus visible sur les liens
+5. [ ] Ajouter lazy loading sur les images
+6. [ ] Améliorer les alt text des images
+```
+-->
+
+
+## Outils pratiques recommandés
+
+### Pour l'accessibilité
+
+- **WAVE** (extension Chrome) : [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
+  - Identifie visuellement les problèmes d'accessibilité sur votre page
+  
+- **axe DevTools** (extension Chrome) : [https://www.deque.com/axe/devtools/](https://www.deque.com/axe/devtools/)
+  - Tests d'accessibilité automatisés directement dans les *DevTools*
+
+- **Contraste de couleurs** : [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+### Pour les performances
+
+- **Lighthouse** (intégré à Chrome DevTools)
+- **TinyPNG** : [https://tinypng.com/](https://tinypng.com/)
+- **Squoosh** : [https://squoosh.app/](https://squoosh.app/)
+- **I❤️IMG**: [https://www.iloveimg.com/fr](https://www.iloveimg.com/fr)
+
+### Pour tester sur mobile (sans appareil)
+
+- **Chrome DevTools** (F12 > Toggle device toolbar)
+- **Responsive Viewer** (extension Chrome) : teste plusieurs tailles en même temps
+
+### Pour valider le HTML
+
+- **W3C Validator** : [https://validator.w3.org/](https://validator.w3.org/)
+  - Copier-coller votre HTML ou entrer l'URL
+
+## Checklist finale avant remise
+
+- [ ] Tous les bogues critiques sont corrigés
+- [ ] Le site fonctionne sur Chrome, Firefox ET Edge minimum
+- [ ] Le site est responsive (mobile, tablette, desktop)
+- [ ] La navigation au clavier fonctionne avec focus visible
+- [ ] Toutes les images ont un attribut `alt` approprié
+- [ ] Le contraste des couleurs est suffisant (testé avec outil)
+- [ ] Les images sont compressées (< 500 KB par image)
+- [ ] Pas de `console.log()` ou code de `debug` dans le code final
+- [ ] Le rapport QA est complet et honnête
+
+## Conseil final
+
+**Soyez honnêtes dans votre rapport !**
+
+L'objectif n'est pas d'avoir un projet parfait, mais de démontrer que vous avez :
+
+1. **Testé rigoureusement** votre application
+2. **Identifié** les problèmes
+3. **Priorisé** les corrections
+4. **Documenté** votre démarche
+
+Un projet avec quelques bogues mineurs bien documentés vaut mieux qu'un projet "parfait" qui n'a pas été testé. La transparence est une qualité professionnelle importante.

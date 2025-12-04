@@ -54,7 +54,7 @@ nav:
       - Cours 11: 582-121–illustration-numerique/cours11.md
       - Cours 12: 582-121–illustration-numerique/cours12.md
       - Cours 13: 582-121–illustration-numerique/cours13.md
-      # - Cours 14: 582-121–illustration-numerique/cours14.md
+      - Cours 14: 582-121–illustration-numerique/cours14.md
       # - Cours 15: 582-121–illustration-numerique/cours15.md
   - Illustration numérique:
       - 582-121–illustration-numerique-gab/index.md
@@ -282,7 +282,14 @@ nav:
         - Fondation du projet: 582-511-web5/projets/appweb-creative/aide-fondation.md
         - A-Interac-Formulaire et CRUD: 582-511-web5/projets/appweb-creative/memoire-form-CRUD.md
         - B-Interac-Système conséquences: 582-511-web5/projets/appweb-creative/chemin-tracking-consequences.md
-        - A-Persistance données (optionnel): 582-511-web5/projets/appweb-creative/memoire-persistance-donnees.md
+        - A-Persistance (optionnel): 582-511-web5/projets/appweb-creative/memoire-persistance-donnees.md
+        - QA Controle de la qualité: 582-511-web5/projets/appweb-creative/qa.md
+        - QA Calendrier: 582-511-web5/projets/appweb-creative/qa1-calendrier-qa.md
+        - QA Brief: 582-511-web5/projets/appweb-creative/qa2-template-brief-projet.md
+        - QA Tests externes: 582-511-web5/projets/appweb-creative/qa3-grille-test-externe.md
+        - QA Carte Trello pour bogues: 582-511-web5/projets/appweb-creative/qa4-template-carte-trello.md
+        - QA Rapport final: 582-511-web5/projets/appweb-creative/qa5-template-rapport-complet-qa.md
+        - Déploiement du projet live: 582-511-web5/projets/appweb-creative/deploiement-github-pages.md
       - Cours 15.2: 582-511-web5/cours15b.md
       - Cours 15.1: 582-511-web5/cours15a.md
       - Cours 14.2: 582-511-web5/cours14b.md

@@ -51,10 +51,23 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
   * [ ] Sauvegardez vos fichiers en **JPG** et conservez également vos copies **PSD**.
   * [ ] Importez les JPG dans un document **PowerPoint** ou autre support au format **16/9**, avec un **fond blanc ou noir**, sans transitions.
   * [ ] Intégrez une **musique** qui jouera tout au long de l'exposé.
+  * [ ] Ajouter le moodboard et le synopsis à la fin du powerpoint. 
   * [ ] À cette étape, ne commentez pas votre projet.
 
-#### Exposé Oral et Présentation du Moodboard
-- **Présentation du Moodboard**
-  * [ ] Une fois la présentation visuelle terminée, présentez votre moodboard dans PowerPoint.
-  * [ ] Décrivez votre **démarche artistique** en lien avec le moodboard et expliquez comment votre travail s’inspire du **courant artistique** choisi.
-  * [ ] La présentation doit être **concise** et bien **articulée**, avec une durée de **3 minutes** maximum.
+## Structure de l’exposé (4 minutes)
+
+* [ ] Une fois la présentation visuelle terminée, commencez votre exposé. 
+
+### 🧩 1. Synopsis du projet (30 s)
+* [ ] Résumer l’histoire ou le concept du générique en 2–3 phrases
+* [ ] Indiquer le ton (dramatique, poétique, humoristique, etc.)
+
+### 🎨 2. Moodboard et univers visuel (1 min)
+* [ ] Présenter vos références principales (artistiques, cinématographiques, styles)
+* [ ] Expliquer ce que vous avez retenu : couleurs, textures, ambiance, motifs
+* [ ] Justifier vos choix graphiques (composition, formes, effets, typographie)
+* [ ] Souligner la cohérence stylistique entre les planches
+
+### 🎬 3. Intention finale (30 s)
+* [ ] Expliquer l’idée globale derrière vos choix artistiques
+
