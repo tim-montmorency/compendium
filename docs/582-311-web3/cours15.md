@@ -1,5 +1,7 @@
 # Examen 02
 
+![](./assets/images/calm.gif){.w-100}
+
 [STOP]
 
 Cet examen représente **20% de votre note finale**.
