@@ -18,10 +18,9 @@
 
 *Le `#` est la clé magique qui permet au routing de fonctionner sans serveur.*
 
-Veuillez-donc remplacer ceci 
+Veuillez-donc remplacer ceci :
 
-
-```javascript
+```javascript copy-range="2:4"
 // ✅ Pour GitHub Pages
 import { createWebHistory } from 'vue-router'
 
@@ -31,9 +30,9 @@ const router = createRouter({
 })
 ```
 
-par cela:
+par cela :
 
-```javascript
+```javascript  copy-range="1:4"
 // ✅ Pour GitHub Pages
 import { createWebHashHistory } from 'vue-router'
 
