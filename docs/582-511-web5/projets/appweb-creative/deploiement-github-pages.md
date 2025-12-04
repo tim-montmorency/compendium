@@ -2,84 +2,116 @@
 
 Déploiement *live* de votre projet avec *Vite* sur *GitHub Pages*
 
-## ÉTAPE 1 : Configurer `vite.config.js`
+## ÉTAPE 0 : Préparation des images du JSON en vue de la mise en ligne
 
-**Ouvrez le fichier `vite.config.js` à la racine de votre projet**
+Si vos images sont *référencées dans un fichier JSON* de données :
 
-**Ajoutez la propriété `base` :**
+1. Créez un dossier `public/` à la racine (au même niveau que `src/`)
 
+2. Bougez vos images du json dans `public/images/`
 
-```javascript
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+3. Dans votre *JSON*, modifiez des chemins vers les images en commançant par `/`. Par exemple:
 
-export default defineConfig({
-  plugins: [vue()],
-  base: '/nom-de-votre-repo/', // ⚠️ IMPORTANT : remplacer par le nom de votre repo
-})
+```json
+   {
+     "image": "/images/photo.jpg"  // ← Commence par /
+   }
 ```
 
-**Comment trouver le nom de votre repo ?**
+4. *Vite* copiera automatiquement tout le contenu de `public/` dans `dist/` final (bref dans votre projet compilé (*build*))
 
-- URL de votre repo : `https://github.com/votre-username/mon-projet`
-- Le nom du repo = `mon-projet`
-- Donc `base: '/mon-projet/',`
+**Structure correcte :**
+```
+votre-projet/
+├── public/
+│   └── images/
+│       ├── salle1.jpg
+│       └── salle2.jpg
+├── src/
+│   └── data/
+│       └── data.json  ← Référence: "/images/salle1.jpg"
+```
 
-*N'oubliez pas les `/` au début ET à la fin !*
+❌ Bref: *NE PAS* mettre les images dans `src/assets/` si elles sont dans le *JSON*.
 
-**Sauvegardez le fichier.**
+
+## ÉTAPE 1 : Configurer `vite.config.js`
+
+- Ouvrez le fichier `vite.config.js` à la racine de votre projet.
+
+- Ajoutez la propriété `base` :
+
+  ```javascript
+  import { defineConfig } from 'vite'
+  import vue from '@vitejs/plugin-vue'
+
+  export default defineConfig({
+    plugins: [vue()],
+    base: '/nom-de-votre-repo/', // ⚠️ IMPORTANT : remplacer par le nom de votre repo
+  })
+  ```
+
+- Comment trouver le nom de votre repo ?
+
+  - URL de votre repo : `https://github.com/votre-username/mon-projet`
+  - Le nom du repo = `mon-projet`
+  - Donc `base: '/mon-projet/',`
+
+- *N'oubliez pas les `/` au début ET à la fin !*
+
+- Sauvegardez le fichier.
+
 
 !!! Warning "⚠️ ⚠️ ⚠️ "
     Attention, si vous avez un sous-dossier et que votre projet n'est pas à la racine du repo git, vous devez plutôt suivre [ces instructions](./deploiement-github-pages-sous-dossier.md) pour l'ÉTAPE 1 qui consiste à définir la `base` de votre projet dans `vite.config.js`.
 
 
 
-
-
-
 ## ÉTAPE 2 : Compiler (*build*) le projet
 
-**Ouvrez un terminal dans le dossier de votre projet**
+- Ouvrez un terminal dans le dossier de votre projet
 
-**Lancez la commande de build :**
+- Lancez la commande de build :
 
-```bash
-npm run build
-```
+  ```bash
+  npm run build
+  ```
 
-**Ce qui va se passer :**
-- Vite va créer un dossier `dist/` 
-- Ce dossier contient votre site optimisé (minifié, compressé)
-- Ça prend 10-30 secondes
+- Ce qui va se passer :
+  - Vite va créer un dossier `dist/` 
+  - Ce dossier contient votre site optimisé (minifié, compressé)
+  - Ça prend 10-30 secondes
 
-**Vérifiez que le dossier `dist/` a été créé :**
+- Vérifiez que le dossier `dist/` a été créé :
 
-- Il devrait contenir : `index.html`, un dossier `assets/`, etc.
+  - Il devrait contenir : `index.html`, un dossier `assets/`, etc.
 
 
 
 ## ÉTAPE 3 : Tester le build localement (optionnel mais recommandé)
 
-**Avant de déployer, testez que le build fonctionne :**
+- Avant de déployer, testez que le *build* fonctionne :
 
-```bash
-npm run preview
-```
+  ```bash
+  npm run preview
+  ```
 
-**Ouvrez le lien affiché (généralement http://localhost:4173)**
+- Ouvrez le lien affiché (généralement [http://localhost:4173](http://localhost:4173))
 
-**Vérifiez que tout fonctionne :**
+- Vérifiez que tout fonctionne :
 
-- Navigation
-- Images
-- Fonctionnalités principales
+  - Navigation
+  - Images
+  - Fonctionnalités principales
 
 **Si ça fonctionne, passez à l'étape suivante !**
 
 **Si ça ne fonctionne pas :**
 
 - Vérifiez `base` dans `vite.config.js`
-- Vérifiez les chemins d'images (ils doivent être relatifs)
+- Vérifiez les chemins d'images.
+  - Ils doivent être relatifs.
+  - Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#)
 
 
 
