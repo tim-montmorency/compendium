@@ -10,30 +10,32 @@ Si vos images sont *référencées dans un fichier JSON* de données :
 
 2. Bougez vos images du json dans `public/images/`
 
-3. Dans votre *JSON*, modifiez des chemins vers les images en commançant par `/`. Par exemple:
+3. Dans votre *JSON*, modifiez des chemins vers les images en commançant par `/`. 
 
-```json
-   {
-     "image": "/images/photo.jpg"  // ← Commence par /
-   }
-```
+  Par exemple:
+
+  ```json
+    {
+      "image": "/images/photo.jpg"  // ← Commence par /
+    }
+  ```
 
 4. *Vite* copiera automatiquement tout le contenu de `public/` dans `dist/` final (bref dans votre projet compilé (*build*))
 
-**Structure correcte :**
+  **Structure correcte :**
 
-```
-votre-projet/
-├── public/
-│   └── images/
-│       ├── salle1.jpg
-│       └── salle2.jpg
-├── src/
-│   └── data/
-│       └── data.json  ← Référence: "/images/salle1.jpg"
-```
+  ```
+  votre-projet/
+  ├── public/
+  │   └── images/
+  │       ├── salle1.jpg
+  │       └── salle2.jpg
+  ├── src/
+  │   └── data/
+  │       └── data.json  ← Référence: "/images/salle1.jpg"
+  ```
 
-❌ Bref: *NE PAS* mettre les images dans `src/assets/` si elles sont dans le *JSON*.
+  ❌ Bref: *NE PAS* mettre les images dans `src/assets/` si elles sont dans le *JSON*.
 
 
 ## ÉTAPE 1 : Configurer `vite.config.js`
