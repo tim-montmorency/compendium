@@ -112,7 +112,7 @@ votre-projet/
 - Vérifiez `base` dans `vite.config.js`
 - Vérifiez les chemins d'images.
   - Ils doivent être relatifs.
-  - Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#)
+  - Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
 
 
 
@@ -227,46 +227,50 @@ votre-projet/
 
 ## ÉTAPE 8 : Activer GitHub Pages (première fois seulement)
 
-**Retournez sur votre repo GitHub**
+- Retournez sur votre repo GitHub
 
-**Cliquez sur "Settings" (en haut)**
+- Cliquez sur *Settings* (en haut)
 
-**Dans le menu de gauche, cliquez sur "Pages"**
+- Assurez-vous que votre répertoire est publique.
 
-**Sous "Branch", sélectionnez :**
+- Dans le menu de gauche, cliquez sur *Pages*
 
-- Branch : `gh-pages`
-- Folder : `/ (root)`
 
-**Cliquez sur "Save"**
+- Sous "Branch", sélectionnez :
 
-**Attendez 1-2 minutes**
+  - Branch : `gh-pages`
+  - Folder : `/ (root)`
 
-**GitHub va vous donner l'URL de votre site :**
-```
-https://votre-username.github.io/votre-repo/
-```
+- Cliquez sur *Save*
+
+- Attendez 1-2 minutes
+
+- GitHub va vous donner l'URL de votre site :
+
+  ```
+  https://votre-username.github.io/votre-repo/
+  ```
 
 
 
 ## ÉTAPE 9 : Vérifier que ça fonctionne
 
-**Ouvrez l'URL dans votre navigateur :**
+- Ouvrez l'URL dans votre navigateur :
 
-```
-https://votre-username.github.io/votre-repo/
-```
+  ```
+  https://votre-username.github.io/votre-repo/
+  ```
 
-**Testez :**
+- Testez :
 
-- ✅ Le site s'affiche ?
-- ✅ La navigation fonctionne ?
-- ✅ Les images s'affichent ?
-- ✅ Les fonctionnalités marchent ?
+  - ✅ Le site s'affiche ?
+  - ✅ La navigation fonctionne ?
+  - ✅ Les images s'affichent ?
+  - ✅ Les fonctionnalités marchent ?
 
-**Si tout fonctionne : 🎉 BRAVO !**
+- Si tout fonctionne : 🎉 BRAVO !
 
-**Si ça ne fonctionne pas, voir section "Problèmes courants" ci-dessous**
+- Si ça ne fonctionne pas, voir section *Problèmes courants* ci-dessous:
 
 
 <!-- 
@@ -301,7 +305,7 @@ https://votre-username.github.io/votre-repo/
 ✅ Le site est mis à jour !
 -->
 
-??? 🐛 Problèmes courants"
+??? 🐛 "Problèmes courants"
 
     ### Problème 1 : Page blanche après déploiement
 
@@ -373,6 +377,12 @@ https://votre-username.github.io/votre-repo/
     - **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
     - **Mode incognito :** Ouvrir le site en navigation privée
     - **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
+
+    ### Problème 5 : Les image de votre JSON ne s'affichent pas
+
+    **Solution :**
+
+    Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
 
 
 ## 📋 Checklist finale
