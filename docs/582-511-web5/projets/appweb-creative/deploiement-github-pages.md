@@ -38,9 +38,9 @@ Si vos images sont *référencées dans un fichier JSON* de données :
   ❌ Bref: *NE PAS* mettre les images dans `src/assets/` si elles sont dans le *JSON*.
 
 
-## ÉTAPE 0
+## ÉTAPE 0: COnfigurer les routes du projet pour GitHub Pages
 
-Préparer vos configuration de Vue Router pour GitHub Pages avec `createWebHashHistory`. [Voir les instructions ici](./deploiement-createWebHashHistory.md)
+Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHashHistory`. [Voir les instructions ici](./deploiement-createWebHashHistory.md)
 
 ## ÉTAPE 1 : Configurer `vite.config.js`
 
