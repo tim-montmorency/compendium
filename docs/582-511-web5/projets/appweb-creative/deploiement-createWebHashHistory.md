@@ -18,7 +18,9 @@
 
 *Le `#` est la clé magique qui permet au routing de fonctionner sans serveur.*
 
-Veuillez-donc remplacer ceci :
+---
+
+**Veuillez-donc remplacer ceci :**
 
 ```javascript
 // Fonctionnel en local dev (car Vite est un vrai serveur) 
@@ -31,7 +33,7 @@ const router = createRouter({
 })
 ```
 
-par cela :
+**par cela :**
 
 ```javascript
 // Pour GitHub Pages qui n'est pas un serveur 
