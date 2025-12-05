@@ -311,9 +311,9 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 ✅ Le site est mis à jour !
 
 
-??? bug 🐛 "Problèmes courants"
+!!! bug 🐛 "Problèmes courants"
 
-    ### Problème 1 : Page blanche après déploiement
+    *Problème 1 : Page blanche après déploiement*
 
     **Cause :** Le `base` dans `vite.config.js` n'est pas correct
 
@@ -325,7 +325,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
     ---
 
-    ### Problème 2 : Images ne s'affichent pas
+    *Problème 2 : Images ne s'affichent pas*
 
     **Cause :** Chemins d'images incorrects
 
@@ -346,7 +346,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
     ---
 
-    ### Problème 3 : Erreur 404 lors de la navigation
+    *Problème 3 : Erreur 404 lors de la navigation*
 
     **Cause :** Vue Router en mode `history` sur GitHub Pages
 
@@ -364,7 +364,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
     ---
 
-    ### Problème 4 : `npm run deploy` ne fonctionne pas
+    *Problème 4 : `npm run deploy` ne fonctionne pas*
 
     **Erreur possible :** "gh-pages: command not found"
 
@@ -375,7 +375,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
     ---
 
-    ### Problème 5 : Changements ne s'affichent pas
+    *Problème 5 : Changements ne s'affichent pas*
 
     **Cause :** Cache du navigateur
 
@@ -386,7 +386,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
     ---
 
-    ### Problème 6 : Les image de votre JSON ne s'affichent pas
+    *Problème 6 : Les image de votre JSON ne s'affichent pas*
 
      **Cause**: Elles ne font pas partie du *build* initial Vite.
 
@@ -396,7 +396,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
     ---
 
-    ### Problème 7: Un rafraichissement de la page ou les routes mène à une erreur 404
+    *Problème 7: Un rafraichissement de la page ou les routes mène à une erreur 404*
 
     **Cause :** GitHub Pages n'agit pas comme un serveur
 
