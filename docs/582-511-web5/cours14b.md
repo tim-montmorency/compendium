@@ -20,6 +20,11 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 
 [Compilation et déploiement du projet](./projets/appweb-creative/deploiement-github-pages.md){ .md-button }
 
+- AJOUT # 1 (info ajoutée le 3 déc): [Préparation des *images du JSON* en vue de la mise en ligne](https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/deploiement-github-pages.html#etape-00-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
+
+- AJOUT #2 (info ajoutée le 4 déc): Utiliser [`createWebHashHistory` dans les configuration de `Vue Router`](https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/deploiement-createWebHashHistory.html) si votre projet est hébergé sur GitHub Pages
+
+
 ## Contrôle de la qualité (QA)
 
 ### Calendrier QA - Tests Croisés
