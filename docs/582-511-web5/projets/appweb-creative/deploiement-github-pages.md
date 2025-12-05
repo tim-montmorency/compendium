@@ -54,7 +54,7 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
   export default defineConfig({
     plugins: [vue()],
-    base: '/nom-de-votre-repo/', // ⚠️ IMPORTANT : remplacer par le nom de votre repo
+    base: '/nom-de-votre-repo/', // remplacer par le nom de votre repo
   })
   ```
 
