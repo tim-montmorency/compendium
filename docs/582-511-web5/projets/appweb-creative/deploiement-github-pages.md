@@ -279,116 +279,133 @@ Préparer vos configuration de Vue Router pour GitHub Pages avec `createWebHashH
 - Si ça ne fonctionne pas, voir section *Problèmes courants* ci-dessous:
 
 
-<!-- 
-## 🔄 Pour mettre à jour le site (après modifications)
 
-**Après avoir modifié votre code :**
+## Pour mettre à jour le site (après modifications)
 
-1. **Sauvegarder vos changements dans Git :**
+*Après avoir modifié votre code :*
 
-   ```bash
-   git add .
-   git commit -m "Corrections de bugs"
-   git push
-   ```
+1. Sauvegarder vos changements dans Git :
 
-2. **Rebuilder :**
+  ```bash
+  git add .
+  git commit -m "Corrections de bugs"
+  git push
+  ```
 
-   ```bash
-   npm run build
-   ```
+2. Rebuilder :
 
-3. **Redéployer :**
+  ```bash
+  npm run build
+  ```
 
-   ```bash
-   npm run deploy
-   ```
+3. Redéployer :
 
-4. **Attendre 1-2 minutes**
+  ```bash
+  npm run deploy
+  ```
 
-5. **Rafraîchir votre site (Ctrl+F5)**
+4. Attendre 1-2 minutes
+
+5. Rafraîchir votre site (Ctrl+F5)
 
 ✅ Le site est mis à jour !
--->
 
-??? 🐛 "Problèmes courants"
 
-### Problème 1 : Page blanche après déploiement
+??? bug 🐛 "Problèmes courants"
 
-**Cause :** Le `base` dans `vite.config.js` n'est pas correct
+    ### Problème 1 : Page blanche après déploiement
 
-**Solution :**
+    **Cause :** Le `base` dans `vite.config.js` n'est pas correct
 
-1. Vérifiez que `base: '/nom-repo/',` correspond au nom de votre repo
-2. N'oubliez pas les `/` au début ET à la fin
-3. Rebuild et redéployez
+    **Solution :**
 
----
+    1. Vérifiez que `base: '/nom-repo/',` correspond au nom de votre repo
+    2. N'oubliez pas les `/` au début ET à la fin
+    3. Rebuild et redéployez
 
-### Problème 2 : Images ne s'affichent pas
+    ---
 
-**Cause :** Chemins d'images incorrects
+    ### Problème 2 : Images ne s'affichent pas
 
-**Solution :**
-Les chemins doivent être relatifs ou commencer par `/`
+    **Cause :** Chemins d'images incorrects
 
-❌ **Mauvais :**
-```javascript
-<img src="C:/Users/moi/projet/images/photo.jpg">
-<img src="file:///images/photo.jpg">
-```
+    **Solution :**
+    Les chemins doivent être relatifs ou commencer par `/`
 
-✅ **Bon :**
-```javascript
-<img src="/images/photo.jpg">
-<img src="./images/photo.jpg">
-```
+    ❌ **Mauvais :**
+    ```javascript
+    <img src="C:/Users/moi/projet/images/photo.jpg">
+    <img src="file:///images/photo.jpg">
+    ```
 
----
+    ✅ **Bon :**
+    ```javascript
+    <img src="/images/photo.jpg">
+    <img src="./images/photo.jpg">
+    ```
 
-### Problème 3 : Erreur 404 lors de la navigation
+    ---
 
-**Cause :** Vue Router en mode `history` sur GitHub Pages
+    ### Problème 3 : Erreur 404 lors de la navigation
 
-**Solution :**
-Utiliser le mode `hash` dans `router/index.js` :
+    **Cause :** Vue Router en mode `history` sur GitHub Pages
 
-```javascript
-import { createRouter, createWebHashHistory } from 'vue-router'
+    **Solution :**
+    Utiliser le mode `hash` dans `router/index.js` :
 
-const router = createRouter({
-  history: createWebHashHistory(), // ← Utilisez hash au lieu de history
-  routes: [...]
-})
-```
+    ```javascript
+    import { createRouter, createWebHashHistory } from 'vue-router'
 
----
+    const router = createRouter({
+      history: createWebHashHistory(), // ← Utilisez hash au lieu de history
+      routes: [...]
+    })
+    ```
 
-### Problème 4 : `npm run deploy` ne fonctionne pas
+    ---
 
-**Erreur possible :** "gh-pages: command not found"
+    ### Problème 4 : `npm run deploy` ne fonctionne pas
 
-**Solution :**
-```bash
-npm install --save-dev gh-pages
-```
+    **Erreur possible :** "gh-pages: command not found"
 
----
+    **Solution :**
+    ```bash
+    npm install --save-dev gh-pages
+    ```
 
-### Problème 5 : Changements ne s'affichent pas
+    ---
 
-**Cause :** Cache du navigateur
+    ### Problème 5 : Changements ne s'affichent pas
 
-**Solution :**
-- **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
-- **Mode incognito :** Ouvrir le site en navigation privée
-- **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
+    **Cause :** Cache du navigateur
 
-### Problème 5 : Les image de votre JSON ne s'affichent pas
+    **Solution :**
+    - **Vider le cache :** Ctrl+Shift+R (Windows) ou Cmd+Shift+R (Mac)
+    - **Mode incognito :** Ouvrir le site en navigation privée
+    - **Attendre 2-3 minutes :** GitHub Pages peut prendre du temps
 
-**Solution :**
+    ---
 
-Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
+    ### Problème 6 : Les image de votre JSON ne s'affichent pas
+
+     **Cause**: Elles ne font pas partie du *build* initial Vite.
+
+    **Solution :**
+
+    Les images référencées par le fichier *JSON* [doivent être placées dans un dossier `public`](#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
+
+    ---
+
+    ### Problème 7: Un rafraichissement de la page ou les routes mène à une erreur 404
+
+    **Cause :** GitHub Pages n'agit pas comme un serveur
+
+    **Solution**
+
+    Préparer vos configuration de Vue Router pour GitHub Pages avec `createWebHashHistory`. [Voir les instructions ici](./deploiement-createWebHashHistory.md)
+
+ 
+    
 
 
 ## 📋 Checklist finale
