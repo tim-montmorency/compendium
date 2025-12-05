@@ -20,7 +20,7 @@
 
 Veuillez-donc remplacer ceci :
 
-```javascript copy-range="2:4"
+```javascript
 // Fonctionnel en local dev (car Vite est un vrai serveur) 
 // ou sur un vrai serveur web
 import { createWebHistory } from 'vue-router'
@@ -33,7 +33,7 @@ const router = createRouter({
 
 par cela :
 
-```javascript  copy-range="1:4"
+```javascript
 // Pour GitHub Pages qui n'est pas un serveur 
 // mais un simple hébergeur de fichiers statiques
 import { createWebHashHistory } from 'vue-router'
