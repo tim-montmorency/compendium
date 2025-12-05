@@ -306,9 +306,7 @@ Comme d'habitude via GitHub Desktop.
 
 ✅ Le site est mis à jour !
 
-!!! bug 🐛 "Problèmes courants"
-
-    x
+##  bug 🐛 Problèmes courants
 
 *Problème 1 : Page blanche après déploiement*
 
