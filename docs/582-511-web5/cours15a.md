@@ -27,7 +27,7 @@ Lundi 8 décembre
 - [Utiliser Vite pour rapidement contruire (build) votre projet pour la mise en ligne](https://vite.dev/guide/build.html#building-for-production)
 
 <!-- 
-## Corrections finales suites au rapport QA
+## Corrections finales suite au rapport QA
 
 Faites les corrections nécessaires. 
 
