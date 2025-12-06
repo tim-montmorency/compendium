@@ -8,7 +8,19 @@ Lundi 8 décembre
     Attention, cette remise doit contenir les tests complétés du rapport et vous devez avoir commencé à corriger les bogues et anomalies. Cependant, il n'est pas attendu que TOUT soit corrigé et fixé. Mais outre cela, le rapport doit être complet. 
 
 
-## SCRUM d'équipe
+## Affinage (polish) et accessibilité
+
+- Favicon
+- Corrections finales suite au rapport QA
+- Documentation :
+  - README.md
+  - composants.md
+  - routes.md
+  - mise à jour de l'arbre narratif complet (branches et fins)
+  - mise à jour finale du cahier de charges
+  
+
+<!-- 
 
 ## Build pour mettre votre projet en production (mettre en ligne)
 
