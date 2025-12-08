@@ -13,7 +13,7 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
       - Trace ton chemin : "Cette histoire interactive propose une expérience narrative immersive où chaque choix du lecteur influence le déroulement et la conclusion de l'aventure."
 
 - Titre de niveau 2 : *Équipe*
-  - Liste à puces de vos noms etvotre rôle principal
+  - Liste à puces de vos noms et votre rôle principal
 
 - Titre de niveau 2 : *Description*
   - Brève description du concept de votre histoire en 2-3 phrases.
@@ -29,12 +29,11 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
   - Lien vers le site déployé (faites-en un lien en markdown et non pas juste le url textuel)
 
 - Titre de niveau 2: *Comment jouer* ou *Comment utiliser*
-
-  Liste à numéros des étapes pour expliquer à l'utilisateur comment jouer ou utiliser votre appli qui est déployée live.
+  - Liste à numéros des étapes pour expliquer à l'utilisateur comment jouer ou utiliser votre appli qui est déployée live.
 
 - Titre de niveau 2 : *Installation en local pour développement*
 
-  Ajoutez le code-ci bas et faites-en un [*Code Block* en markdown](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks):
+  - Ajoutez le code-ci bas et faites-en un [*Code Block* en markdown](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks):
 
   ```bash
   # Cloner le projet
@@ -65,7 +64,7 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
 
   - "Projet éducatif - Cégep de Montmorency © 2024-2025"
 
-- Ajouter `---` (ce qui permettra de faire une ligne de séparation lors du rendu du markdown)
+- Ajoutez `---` (ce qui permettra de faire une ligne de séparation lors du rendu du markdown)
 
 - Finir avec :
 
