@@ -10,9 +10,10 @@ Lundi 8 décembre
 ## Affinage (polish) et accessibilité
 
 - Favicon: ajouter un favicon pour votre projet
-- Assurez vous que la lang du document HTML est bien `fr`
-- Ajoutez le titre du projet au document HTML
+- Assurez vous que la langue `lang` du document HTML est bien `fr`
+- Ajoutez le titre `title` du projet au document HTML
 - Corrigez vos fautes de français (Antidote)
+- Validation du HTML avec le [validateur du W3C](https://validator.w3.org/)
 - Corrections finales suite au rapport QA
 
 ## Documentation 
