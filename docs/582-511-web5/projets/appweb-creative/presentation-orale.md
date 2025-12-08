@@ -51,26 +51,20 @@ Montrez votre projet en action :
 
 Soyez prêts à répondre à des questions sur n'importe quel aspect de votre projet.
 
-## Critères d'évaluation de la présentation
+## Critères d'évaluation
 
-**Processus créatif (25%)**
+**Processus créatif**
 
 - Clarté de la vision et des objectifs
 - Capacité à expliquer les choix de conception
 - Gestion d'équipe et organisation du travail
 
-**Compréhension technique (35%)**
+**Compréhension technique**
 
 - Maîtrise du code présenté
 - Capacité à expliquer les concepts utilisés
 - Compréhension de l'architecture du projet
 - Participation équitable de tous les membres
-
-**Qualité du projet (25%)**
-
-- Fonctionnalité et stabilité
-- Originalité et créativité
-- Complexité technique appropriée
 
 **Présentation et communication (15%)**
 
