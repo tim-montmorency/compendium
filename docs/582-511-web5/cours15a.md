@@ -5,7 +5,7 @@ Lundi 8 décembre
 
 !!! example "*REMISE DU RAPPORT DU CONTRÔLE DE LA QUALITÉ* (sommatif 10%)"
 
-    Attention, cette remise doit contenir les tests complétés du rapport et vous devez avoir commencé à corriger les bogues et anomalies. Cependant, il n'est pas attendu que TOUT soit corrigé et fixé. Mais outre cela, le rapport doit être complet. 
+    Attention, cette remise doit contenir les tests complétés du rapport et vous devez avoir commencé à corriger les bogues et anomalies. Cependant, il n'est pas attendu que TOUT soit corrigé et fixé. Mais outre cela, le rapport doit être complet. Remettre le rapport dans le Devoir Teams et le déposer aussi à la racine de votre répertoire git.
 
 ## Affinage (polish) et accessibilité
 
@@ -24,9 +24,18 @@ Lundi 8 décembre
 - mise à jour de l'*arbre narratif complet* (branches et fins)
 - mise à jour finale du *cahier de charges*
 
-## Présentaton finale
+## Présentaton finale à préparer pour mercredi
 
 - Préparer la *présentation finale* de votre projet: [instructions ici](./projets/appweb-creative/presentation-orale.md)
+
+## Remise finale dans Teams pour mercredi
+
+Remettre 4 liens distincts dans le Devoirs Teams de la remise finale
+
+- Lien vers Trello
+- Lien vers Figma
+- Lien vers projet live
+- Lien vers répertoire GitHub
 
 <!-- 
 
