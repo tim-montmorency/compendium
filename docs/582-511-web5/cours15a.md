@@ -7,6 +7,22 @@ Lundi 8 décembre
 
     Attention, cette remise doit contenir les tests complétés du rapport et vous devez avoir commencé à corriger les bogues et anomalies. Cependant, il n'est pas attendu que TOUT soit corrigé et fixé. Mais outre cela, le rapport doit être complet. Remettre le rapport dans le Devoir Teams et le déposer aussi à la racine de votre répertoire git.
 
+## Un retour sur la mise en ligne
+
+### Pour les images de votre JSON
+
+Vous devez la placer dans un dossier nommé public afin qu'elles fassent partie de votre build en vue de la mise en ligne.
+
+Par la suite, dans votre fichier JSON,  devrez aussi mettre à jour le chemin d'accès vers leur nouvel emplacement. [Info ici](./projets/appweb-creative/deploiement-github-pages.html#etape-0-preparation-des-images-du-json-en-vue-de-la-mise-en-ligne)
+ 
+### Les routes Vue Router sur GitHub Pages
+
+Les routes ne fonctionnent pas bien sur GitHub Page alors qu'en dev local tout allait bien?  
+
+[Voici pourquoi et voici comment corriger la situation](./projets/appweb-creative/deploiement-createWebHashHistory.md)
+
+ 
+
 ## Affinage (polish) et accessibilité
 
 - Favicon: ajouter un favicon pour votre projet
