@@ -6,6 +6,8 @@ Cette partie vaut pour 50% de l'examen.
 
 ## Résultat attendu
 
+Activez le son 🔈
+
 ![type:video](./part2-preview.webm){.h-auto}
 
 ## Consignes
