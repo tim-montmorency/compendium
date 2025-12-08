@@ -1,5 +1,8 @@
 # Instructions pour documenter le `README.md`
 
+!!! warning
+    Avant toute modification du `READMD.md`, vérifiez si le `README.md` actuel contient d'autres informations (comme des notes de brainstorm). Si c'est le cas, déplacez ces informations dans un fichier markdown distinct avec un nom approprié (par exemple `brainstorm.md`). Cela permet de conserver ces informations tout en respectant la structure de documentation du `README.md` décrite ci-dessous.
+
 Utiliser le format markdown pour formattter votre texte dans le fichier `README.md`.
 
 - Titre de niveau 1 : Le titre de votre projet

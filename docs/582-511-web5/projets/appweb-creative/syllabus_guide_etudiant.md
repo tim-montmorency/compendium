@@ -16,7 +16,6 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 - Option A: *Mémoires interactives*
 - Option B: *Trace ton chemin*
 
-
 ## 🏛️ *Option A: Mémoires interactives*
 
 *Concept:* Un musée numérique personnel (ou collaboratif) où l'utilisateur crée et organise ses souvenirs en salles thématiques.
