@@ -15,12 +15,12 @@ Lundi 8 décembre
 - Corrigez vos fautes de français (Antidote)
 - Corrections finales suite au rapport QA
 - Documentation :
-  - README.md
-  - composants.md
-  - routes.md
-  - mise à jour de l'arbre narratif complet (branches et fins)
-  - mise à jour finale du cahier de charges
-- Préparer la présentation finale de votre projet: [instructions ici](./projets/appweb-creative/presentation-orale.md)
+  - `README.md`: [instructions pour la documentation finale du projet dans le README.md](#)
+  - `composants.md`: mettre à jour avec vos composants finaux (supprimer ceux qui sont inutilisés)
+  - `routes.md`: mettre à jour avec vos routes finales
+  - mise à jour de l'*arbre narratif complet* (branches et fins)
+  - mise à jour finale du *cahier de charges*
+- Préparer la *présentation finale* de votre projet: [instructions ici](./projets/appweb-creative/presentation-orale.md)
 
 <!-- 
 
