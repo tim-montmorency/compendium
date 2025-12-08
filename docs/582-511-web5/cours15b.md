@@ -7,9 +7,8 @@ Merc 10 déc.
         - Lien vers Trello
         - Lien vers Figma
         - Lien vers projet live
-        - Lien vers répertoire GitHub
+        - Lien vers répertoire GitHub (le code final devra se retrouver sur la branche `main`)
     - [Consignes pour la présentation orale](./projets/appweb-creative/presentation-orale.md)
-
 
 ## Devoirs
 
