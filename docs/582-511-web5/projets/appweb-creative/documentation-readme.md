@@ -69,8 +69,8 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
 
 - Finir avec :
 
-```
-**Session**: Automne 2024
-**Enseignante**: Marie-Michelle Ouellet
-**Programme**: Techniques d'intégration multimédia (TIM)
-```
+  ```
+  **Session**: Automne 2024
+  **Enseignante**: Marie-Michelle Ouellet
+  **Programme**: Techniques d'intégration multimédia (TIM)
+  ```
