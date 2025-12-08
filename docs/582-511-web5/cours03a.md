@@ -70,6 +70,10 @@ Révision en pair, par équipe de 2, sélectionnées par l'enseignante.
 
 ## Vue.js
 
+<!--
+ Considérer intégrer des templates genre: https://www.landingfolio.com/library/all/vue pour exercices Vue, peiut-être un TP qui se build à mesure qu'ils apprenent un nouveau concept...
+-->
+
 
 <div class="class-content-link">
   <img src="./vue/assets/logo-vue.svg">

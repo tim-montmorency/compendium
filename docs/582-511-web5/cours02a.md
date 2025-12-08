@@ -31,7 +31,7 @@ Cette liste n'est pas complète mais elle inclut un grande partie des contenus q
 - [JavaScript - Cours de programmation interactive (prof actuel)](https://discovro-js.netlify.app/){ :target="_blank" } **AJOUT**
 - [CSS](https://tim-montmorency.com/timdoc/582-211/css/){ :target="_blank" }
 - [HTML](https://tim-montmorency.com/timdoc/index/web/html/){ :target="_blank" }
-- [Cadriciels: Bootstrap, Swiper, GSAP](https://tim-montmorency.com/timdoc/index/web/cadriciels/){ :target="_blank" }
+- [Cadriciels: Bootstrap, Swiper, ~GSAP~](https://tim-montmorency.com/timdoc/index/web/cadriciels/){ :target="_blank" }
 - [CMS: WordPress](https://tim-montmorency.com/compendium/582-411-web4/cours01.html){ :target="_blank" } **AJOUT**
 
 ## Annonces à propos du tutorat

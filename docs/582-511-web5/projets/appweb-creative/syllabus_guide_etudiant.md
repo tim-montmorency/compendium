@@ -9,7 +9,7 @@
 
 ## Description du projet
 
-Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pinia et CSS. Ce projet vous permettra de démontrer toutes les compétences acquises durant le cours dans un contexte créatif et professionnel.
+Vous allez créer une *application web interactive* utilisant Vue.js, ~GSAP~, Pinia et CSS. Ce projet vous permettra de démontrer toutes les compétences acquises durant le cours dans un contexte créatif et professionnel.
 
 ### Vous avez le choix entre 2 types de projets:
 
@@ -28,7 +28,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 - 📸 Système d'ajout/édition/suppression de mémoires
 - 🏷️ Tags et système de recherche/filtres
 - 💾 Sauvegarde locale (LocalStorage)
-- 🎨 Animations GSAP entre salles
+- 🎨 Animations ~GSAP~ entre salles
 - 📤 Export/Import en JSON
 - 📱 Interface responsive
 
@@ -44,7 +44,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 - *Vue.js* pour les composants (salles, mémoires, galerie)
 - *Pinia* pour gérer l'état du musée
-- *GSAP* pour transitions entre salles
+- *~GSAP~* pour transitions entre salles
 - *LocalStorage* pour sauvegarder le musée en local
   - OU *Firebase* backend API (pour les plus équipes + avancés) - Cette option permet de créer une mémoire collective et non seulement locale à un seul utilisateur.
 
@@ -60,7 +60,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 - 🔀 Système de choix avec branches multiples
 - 🎭 3-6 fins différentes selon les décisions
 - 💾 Sauvegarde de progression (3 slots)
-- 🎬 Animations GSAP entre chapitres
+- 🎬 Animations ~GSAP~ entre chapitres
 - 📊 Tracking des conséquences (karma, stats, inventaire)
 - 📱 Interface responsive
 
@@ -76,7 +76,7 @@ Vous allez créer une *application web interactive* utilisant Vue.js, GSAP, Pini
 
 - *Vue.js* pour les composants (chapitres, choix, fins)
 - *Pinia* pour gérer la progression et l'état du joueur
-- *GSAP* pour transitions narratives
+- *~GSAP~* pour transitions narratives
 - *LocalStorage* pour sauvegardes multiples
 
 
@@ -99,7 +99,7 @@ Pour vous aider à visualiser l'objectif du projet, voici des projets assez ache
 | *1-2* | *Planification et Design* | Brainstorm (FigJam), Cahier de charges (.md ou Word), tableau Kanban des tâches (Trello), Design (Figma), arbre narratif (pour Option B), répertoire git et son README.md |
 | *3* | *Fondation* | Architecture Vue, premiers composants, routing |
 | *4* | *Interactivité* | CRUD/Système de choix, Pinia configuré |
-| *5* | *Animations et médias* | GSAP, transitions, médias (images, sons) |
+| *5* | *Animations et médias* | ~GSAP~, transitions, médias (images, sons) |
 | *6* | *Persistance* | LocalStorage, sauvegardes, toutes les fins (Option B) |
 | *7* | *Affinage et contrôle qualité* | Responsive, accessibilité, correction de bugs |
 | *8* | *Finalisation* | Documentation, déploiement, présentation |
@@ -126,7 +126,7 @@ Vous devez désigner un *chef de projet* et répartir les responsabilités.
 
 - Design visuel et maquettes Figma
 - CSS et stylisation
-- Animations GSAP
+- Animations ~GSAP~
 - Expérience utilisateur
 
 *Personne C - Données + Systèmes*
@@ -157,7 +157,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 | *Architecture Vue.js* | 20% |
 | *Gestion d'état (Pinia)* | 15% |
 | *Styles CSS* | 10% |
-| *Animations GSAP* | 10% |
+| *Animations ~GSAP~* | 10% |
 | *Gestion des données* | 10% |
 | *Fonctionnalités* | 10% |
 | *Qualité/Accessibilité* | 10% |
@@ -211,7 +211,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 
 *5 Animation*
 
-- Animation GSAP fluide, foncitonnelle et créative
+- Animation ~GSAP~ fluide, foncitonnelle et créative
 
 *6. Documentation et mise en ligne*
 
@@ -247,7 +247,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 - ✅ Vue Router avec 5+ routes
 - ✅ Pinia pour state management
 - ✅ CSS organisé avec variables
-- ✅ Animations GSAP fluides
+- ✅ Animations ~GSAP~ fluides
 - ✅ Persistance LocalStorage/Firebase fonctionnelle
 - ✅ Responsive (mobile, tablette, desktop)
 - ✅ Accessibilité WCAG
@@ -267,7 +267,7 @@ Ces rôles indiquent seulement les responsabilités principales.
 - *Vite* - Build tool
 - *Vue Router* - Routing
 - *Pinia* - State management
-- *GSAP* - Animations
+- *~GSAP~* - Animations
 - *Git + GitHub* - Contrôle de version
 
 ### Recommandées:
@@ -340,7 +340,7 @@ Application web complète et déployée
 npm create vite@latest
 
 # Installer les dépendances
-npm install pinia vue-router gsap
+npm install pinia vue-router ~GSAP~
 ```
 
 <!-- 
@@ -353,7 +353,7 @@ npm install -D eslint prettier
 - 📚 [Contenu du cours Web 5](https://tim-montmorency.com/compendium/582-511-web5/)
 - 📖 [Vue.js Documentation](https://vuejs.org)
 - 🍍 [Pinia Documentation](https://pinia.vuejs.org)
-- 🎨 [GSAP Documentation](https://greensock.com/docs/)
+- 🎨 [~GSAP~ Documentation](https://greensock.com/docs/)
 - 🎬 [Vue School (tutoriels)](https://vueschool.io)
 
 ### Templates fournis par l'enseignant:
@@ -369,7 +369,7 @@ npm install -D eslint prettier
 ### Pendant les heures de cours:
 
 - Posez vos questions en direct
-- Profitez des mini-cliniques (GSAP, Pinia, etc.)
+- Profitez des mini-cliniques (~GSAP~, Pinia, etc.)
 - Participez aux sessions de revue de code
 
 ### Hors des heures de cours:
@@ -451,7 +451,7 @@ Pour obtenir une note exceptionnelle (90%+):
 
 - Architecture Vue exemplaire (composants bien pensés)
 - State management Pinia optimal
-- Animations GSAP créatives et fluides
+- Animations ~GSAP~ créatives et fluides
 - Code propre, commenté et sans erreurs
 - Performance optimale (< 2s chargement)
 

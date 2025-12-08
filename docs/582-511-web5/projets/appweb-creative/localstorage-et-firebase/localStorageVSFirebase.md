@@ -6,7 +6,7 @@
 
 C'est suffisant pour démontrer toutes les compétences du cours
 
-Permet de se concentrer sur Vue.js, GSAP, et la créativité
+Permet de se concentrer sur Vue.js, ~GSAP~, et la créativité
 
 Moins de risques techniques
 

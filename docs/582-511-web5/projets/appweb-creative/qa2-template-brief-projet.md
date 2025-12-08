@@ -96,7 +96,7 @@ S'il y a des choses qui n'ont pas été faites dans votre projet et qui ne sont 
 Par exemple:
 
 - ❌ [Exemple : Sauvegarde LocalStorage (optionnelle - pas faite)]
-- ❌ [Exemple : Animations GSAP (optionnelles - pas faites)]
+- ❌ [Exemple : Animations ~GSAP~ (optionnelles - pas faites)]
 - ❌ [Exemple : Mode sombre]
 - ❌ [Autre]
 

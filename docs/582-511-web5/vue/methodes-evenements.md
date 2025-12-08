@@ -1,5 +1,9 @@
 # Méthodes et événements
 
+<!--
+ Considérer intégrer des templates genre: https://www.landingfolio.com/library/all/vue pour exercices Vue, peiut-être un TP qui se build à mesure qu'ils apprenent un nouveau concept...
+-->
+
 ## Méthodes
 
 La propriété `methods` dans une app Vue est un objet contenant différentes méthodes pouvant être appelées. Ces méthodes peuvent avoir accès aux données contenues dans `data` via `this` et les altérer au besoin.

@@ -9,7 +9,7 @@ Allez vous inspirer, notamment sur [Awwwards](https://www.awwwards.com/)
 ## Carousel circulaire 3d de cartes
 
 - [Un effet de carousel d'image en 3d, seulement avec du CSS](https://www.youtube.com/watch?v=yqaLSlPOUxM)
-- [Carousel 3d avec GSAP](https://gsap.com/community/forums/topic/43001-3d-carousel-with-more-items/)
-- [Carousel 3d en HTML, CSS, JavaScript et GSAP](https://www.youtube.com/watch?v=lxGwReGtKqs)
+- [Carousel 3d avec ~GSAP~](https://GSAP.com/community/forums/topic/43001-3d-carousel-with-more-items/)
+- [Carousel 3d en HTML, CSS, JavaScript et ~GSAP~](https://www.youtube.com/watch?v=lxGwReGtKqs)
 - ...Faites votre propre exploration...
 

@@ -310,7 +310,7 @@ Avant de créer une carte Trello pour un bug, vérifiez :
 
 ❌ **Feature manquante (si elle était optionnelle)**
 
-- "Pas d'animations GSAP" → Ce n'était pas obligatoire
+- "Pas d'animations ~GSAP~" → Ce n'était pas obligatoire
 - "Pas de sauvegarde LocalStorage" → Listé comme optionnel
 
 ❌ **Suggestions d'amélioration**

@@ -61,7 +61,7 @@ Voici un exemple de l'utilisation la plus basique :
 ```
 
 
-## Ajouter des transitions avec GSAP
+## Ajouter des transitions avec ~GSAP~
 
 Avec Vue.js, vous pouvez vous connecter au processus de transition avec JavaScript en écoutant les événements sur le composant `<Transition>` :
 
@@ -124,7 +124,7 @@ onLeaveCancelled(el) {}
 
 ```
 
-#### Voici un exemple de transition entre pages en utilisant le router et GSAP:
+#### Voici un exemple de transition entre pages en utilisant le router et ~GSAP~:
 
 *Dans App.vue:*
 
@@ -153,12 +153,12 @@ onLeaveCancelled(el) {}
 </template>
 
 <script>
-import gsap from 'gsap';
+import ~GSAP~ from '~GSAP~';
 
 export default {
   methods: {
     onEnter(el, done) {
-      gsap.from(el, {
+      ~GSAP~.from(el, {
         opacity: 0,
         y: 30,
         duration: 0.5,
@@ -168,7 +168,7 @@ export default {
     },
     
     onLeave(el, done) {
-      gsap.to(el, {
+      ~GSAP~.to(el, {
         opacity: 0,
         y: -30,
         duration: 0.3,

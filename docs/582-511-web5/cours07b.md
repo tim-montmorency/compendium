@@ -67,7 +67,12 @@ Instructions spécifiques aux données *json* du fichier `projects.json` et cell
 
 - [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
 
-- [ ] Création de votre répertoire git. Nommer *webapp-creative-prenom1-prenom2-prenom3.*
+- [ ] Création de votre répertoire git.
+  - ATTENTION NOM DE RÉPERTOIRE TROP LONG PEUT CRÉER UN PROBLÈME LORS DU DEPLOIEMENT GIT:
+
+    Nommer le répertoire selon:
+    - Si équipe de trois: *app-prenom1-prenom2-prenom3* (chaque prénom ne doit comprendre que les 6 premières lettre du prénom).
+    - Si équipe de quatre: *app-prenom1-prenom2-prenom3-prenom4* (chaque prénom ne doit comprendre que les 5 premières lettre du prénom).
 
 - [ ] Rédaction du cahier de charge ([Fichiers de départ pour cahier de charge](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/02-appweb-creative/cahiers-de-charge-fichiers-depart?csf=1&web=1&e=FLBNRx))
 
@@ -153,7 +158,7 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 ### Projet *portfolio*
 
 - Continuer d'intégrerr votre portfolio
-- Ajouter les animations GSAP
+- Ajouter les animations ~GSAP~
 - S'assurer que c'est *responsive*
 
 #### Instructions pour

@@ -14,7 +14,7 @@ Les deux projets partagent énormément techniquement. Créez un document de **r
 - ✅ Vue Router (minimum 4-5 routes)
 - ✅ State management (Pinia ou Vuex)
 - ✅ SASS/SCSS avec méthodologie CSS (BEM, SMACSS...)
-- ✅ GSAP + minimum 1 plugin (ScrollTrigger, etc.)
+- ✅ ~GSAP~ + minimum 1 plugin (ScrollTrigger, etc.)
 - ✅ Système d'authentification (même simple)
 - ✅ LocalStorage OU API pour persistance
 - ✅ Validation des données utilisateur
@@ -33,7 +33,7 @@ Les deux projets partagent énormément techniquement. Créez un document de **r
 - Respect du cahier de charges (15%)
 - Architecture Vue (composants, props, events) (20%)
 - Intégration SASS/SCSS (10%)
-- Animations GSAP (10%)
+- Animations ~GSAP~ (10%)
 - Gestion des données/state (15%)
 - Qualité du code (conventions, validation) (10%)
 - Créativité et originalité (10%)
@@ -104,7 +104,7 @@ mon-projet/
 
 #### 📅 Semaine 5: Animations & Médias**
 
-- **Commun**: GSAP intégré, transitions, médias (images/sons)
+- **Commun**: ~GSAP~ intégré, transitions, médias (images/sons)
 - **Mémoires**: Transitions entre salles, animations de révélation
 - **Choisis ta Voie**: Animations de scènes, effets de choix
 
@@ -165,7 +165,7 @@ Préparez des commentaires réutilisables pour gagner du temps:
 **Feedback positif générique:**
 
 - "Bonne utilisation des composants Vue, architecture claire"
-- "Animations GSAP fluides et pertinentes"
+- "Animations ~GSAP~ fluides et pertinentes"
 - "Code bien organisé et documenté"
 
 **Feedback constructif commun:**
@@ -217,7 +217,7 @@ Voici une **grille unifiée** qui fonctionne pour les 2 projets:
 | **Vue Router** | 10% | Routes par salle/section | Routes par chapitre/scène |
 | **State Management** | 10% | État du musée, filtres | État de progression, choix |
 | **SASS/SCSS** | 10% | Thématisation, variables | Thèmes par chapitre, transitions |
-| **GSAP Animations** | 10% | Transitions salles, révélations | Effets de scène, animations texte |
+| **~GSAP~ Animations** | 10% | Transitions salles, révélations | Effets de scène, animations texte |
 | **Gestion données** | 10% | CRUD mémoires, validation | Sauvegarde progression, branches |
 | **Qualité/Accessibilité** | 10% | Validation, WCAG, responsive | Idem |
 | **Créativité** | 5% | Originalité thématique | Originalité narrative |
@@ -236,11 +236,11 @@ Vous évaluez les **mêmes compétences**, seul le contexte change!
 - Liens vers les repos GitHub de chaque équipe
 - Tableau de bord de progression (vert/jaune/rouge par équipe)
 - FAQ commune qui grandit au fil des questions répétitives
-- Ressources techniques (tutoriels Vue, GSAP, etc.)
+- Ressources techniques (tutoriels Vue, ~GSAP~, etc.)
 
 **Préparez 3-4 "mini-cliniques" optionnelles:**
 
-- Clinique GSAP avancé (semaine 4)
+- Clinique ~GSAP~ avancé (semaine 4)
 - Clinique State Management (semaine 5)
 - Clinique Accessibilité (semaine 6)
 - Clinique Déploiement (semaine 7)

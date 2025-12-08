@@ -1,5 +1,11 @@
 # Interpolation de données [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
+
+<!--
+ Considérer intégrer des templates genre: https://www.landingfolio.com/library/all/vue pour exercices Vue, peiut-être un TP qui se build à mesure qu'ils apprenent un nouveau concept...
+-->
+
+
 ## Données
 
 Afin de définir le comportement de l'app, un objet contenant diverses propriétés doit lui être passé en paramètre. Parmi ces propriétés se trouve `data`: une fonction retournant les données susceptibles de changer dans l'application.

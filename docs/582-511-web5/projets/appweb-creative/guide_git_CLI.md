@@ -101,7 +101,7 @@ develop
 ♻️ refactor(store): split into multiple stores
 📝 docs(readme): add project description
 🔧 chore(eslint): configure rules
-⚡ perf(gsap): optimize animation performance
+⚡ perf(GSAP): optimize animation performance
 ```
 
 ### Exemples de mauvais commits (à éviter):
@@ -339,7 +339,7 @@ Avant chaque commit, vérifiez:
 
 **Convention de branches:**
 - `style/header-navigation` - Styles du header
-- `feature/animation-transitions` - Animations GSAP
+- `feature/animation-transitions` - Animations ~GSAP~
 - `style/responsive-mobile` - Responsive
 
 ### Développeur (Données):

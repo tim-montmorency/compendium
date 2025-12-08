@@ -12,6 +12,8 @@
 - [ ] Révision CSS Flexbox
 - [ ] Série d'exercices CSS Flexbox
 
+<!-- Idée explorer https://uiverse.io/ : idée leur faire développer un élément UI spécial animé qu'ils peuvent partager sur uiverse et leur codepen, faire partie de leur portfolio  -->
+
 ## Brise-glace 🧊🔨❄️
 
 - [Groupe 1 lundi AM](https://app.wooclap.com/TMYTEU)

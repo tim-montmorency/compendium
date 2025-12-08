@@ -50,7 +50,7 @@ Décrivez en 2-3 paragraphes le concept de votre musée interactif:
 
 - [ ] Créer une expérience émotionnelle immersive
 - [ ] Permettre aux utilisateurs de sauvegarder et partager leurs mémoires
-- [ ] Démontrer la maîtrise de Vue.js, GSAP et Pinia
+- [ ] Démontrer la maîtrise de Vue.js, ~GSAP~ et Pinia
 - [ ] Créer une interface accessible et responsive
 - [ ] [Autre objectif spécifique]
 
@@ -161,7 +161,7 @@ Choisissez un ou plusieurs styles:
 - ✅ Vue Router
 - ✅ Pinia (state management)
 - ✅ CSS
-- ✅ GSAP + ScrollTrigger
+- ✅ ~GSAP + ScrollTrigger~
 
 *Librairies additionnelles envisagées:*
 
@@ -271,7 +271,7 @@ Listez vos composants Vue principaux:
 
 - [ ] *F1 - Navigation entre salles*
   - L'utilisateur peut naviguer entre 4-6 salles différentes
-  - Transitions animées avec GSAP
+  - Transitions animées ~avec GSAP~
   - Menu de navigation visible
 
 - [ ] *F2 - Affichage des mémoires*
@@ -401,7 +401,7 @@ Listez vos composants Vue principaux:
 | Membre | Rôle principal | Responsabilités |
 |--------|----------------|-----------------|
 | [Nom] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure des composants |
-| [Nom] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
+| [Nom] | Design + Animations | CSS, design visuel, animations ~GSAP~, transitions |
 | [Nom] | Données + Validation | LocalStorage/Firebase, validation formulaires, gestion erreurs |
 | [Nom] | UX + Accessibilité | Tests utilisateurs, accessibilité, responsive, contenus |
 
@@ -435,7 +435,7 @@ Listez vos composants Vue principaux:
 - [ ] Vue Router avec 5+ routes
 - [ ] Pinia implémenté avec state management cohérent
 - [ ] CSS organisé avec variables et mixins
-- [ ] Animations GSAP fluides (60 FPS)
+- [ ] Animations ~GSAP~ fluides (60 FPS)
 - [ ] Données persistantes (LocalStorage)
 - [ ] Code validé (ESLint)
 - [ ] Responsive sur 3 breakpoints
@@ -510,7 +510,7 @@ Listez vos composants Vue principaux:
 
 *Remise Phases 4 ANIMATIONS+MÉDIAS ~~et 5 PERSISTANCE~~ : 26 novembre | Formatif*
 
-- Intégration GSAP
+- ~Intégration GSAP~
 - Transitions entre pages
 - Upload et gestion d'images
 - Sons d'ambiance (optionnel)
@@ -583,7 +583,7 @@ Listez vos composants Vue principaux:
 | Manque de temps pour toutes les features | Élevée | Moyen | Prioriser le MVP, features bonus séparées |
 | Problèmes de merge Git | Moyenne | Élevé | Branches claires, pull requests, communication |
 | Upload d'images trop lourdes | Moyenne | Moyen | Validation taille, compression, limite 2MB |
-| Animations qui lag | Faible | Moyen | Tests de performance réguliers, optimisation GSAP |
+| Animations qui lag | Faible | Moyen | Tests de performance réguliers, optimisation ~GSAP~ |
 | Perte de données LocalStorage | Faible | Élevé | Export JSON régulier, backups manuels |
 | Désaccord sur le design | Moyenne | Faible | Vote d'équipe, décision du chef de projet |
 
@@ -599,7 +599,7 @@ Listez vos composants Vue principaux:
 - Guide étudiant du projet appli web créative: https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.html
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
-- GSAP: https://greensock.com/docs/
+- ~GSAP: https://greensock.com/docs/~
 - SASS: https://sass-lang.com/documentation
 
 *Tutoriels utiles:*

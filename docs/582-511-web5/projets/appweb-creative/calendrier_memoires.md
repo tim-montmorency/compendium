@@ -42,7 +42,7 @@
 **Semaine 2 - Jour 2 (5h):**
 
 - Setup du projet Vite + Vue (1h)
-- Installation des dépendances (Pinia, GSAP, SASS) (1h)
+- Installation des dépendances (Pinia, ~GSAP~, SASS) (1h)
 - Configuration ESLint + Prettier (30 min)
 - Création des premiers composants "skeleton" (2h30)
 
@@ -178,7 +178,7 @@
 
 ### 🎯 Objectifs
 
-- Intégrer GSAP et créer des animations fluides
+- Intégrer ~GSAP~ et créer des animations fluides
 - Implémenter ScrollTrigger
 - Ajouter le système d'upload d'images
 - Intégrer des sons d'ambiance (optionnel)
@@ -187,7 +187,7 @@
 
 **Jour 1 (3h):**
 
-- Mini-cours: GSAP + Vue 3 (45 min)
+- Mini-cours: ~GSAP~ + Vue 3 (45 min)
 - Animations de transitions:
   - Transitions entre pages (Vue Router)
   - Animations d'apparition des cartes
@@ -195,7 +195,7 @@
 
 **Jour 2 (5h):**
 
-- Atelier GSAP avancé (1h30):
+- Atelier ~GSAP~ avancé (1h30):
   - ScrollTrigger pour révélations au scroll
   - Animations de timeline
   - Easing et timing personnalisés
@@ -212,7 +212,7 @@
 
 ### ✅ Livrables de fin de semaine
 
-- [ ] **Minimum 5 animations GSAP** différentes
+- [ ] **Minimum 5 animations ~GSAP~** différentes
 - [ ] **ScrollTrigger** utilisé (au moins 2 fois)
 - [ ] **Transitions entre pages** fluides
 - [ ] **Upload d'images** fonctionnel avec preview
@@ -431,7 +431,7 @@
 | 2 | Cahier de charges + Maquettes | 15% |
 | 3 | Architecture Vue + Composants de base | Checkpoint |
 | 4 | CRUD complet + Filtres | Checkpoint |
-| 5 | Animations GSAP + Upload médias | Checkpoint |
+| 5 | Animations ~GSAP~ + Upload médias | Checkpoint |
 | 6 | Persistance LocalStorage | Checkpoint |
 | 7 | Responsive + Accessibilité | Checkpoint |
 | 8 | **Projet final complet + Présentation** | 85% |
@@ -460,7 +460,7 @@
 
 ### Semaine 5
 
-- ⚠️ Attention aux performances avec GSAP (ne pas exagérer)
+- ⚠️ Attention aux performances avec ~GSAP~ (ne pas exagérer)
 - ⚠️ Tester les animations sur mobile (peuvent être lentes)
 - ⚠️ Limiter la taille des images uploadées
 

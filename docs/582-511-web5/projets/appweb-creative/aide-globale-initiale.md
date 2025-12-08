@@ -45,7 +45,7 @@ Ouvrez http://localhost:5173 - Vous devriez voir la page de démo Vue.
 
 ```bash
 # Dépendances principales
-npm install pinia vue-router gsap
+npm install pinia vue-router ~GSAP~
 
 # Dépendances de développement
 npm install -D eslint prettier eslint-plugin-vue

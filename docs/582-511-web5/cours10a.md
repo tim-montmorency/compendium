@@ -13,7 +13,7 @@ Vous devrez mettre à jour les cartes dans votre Trello si vous aviez ajouté de
 ## Projet App Web créative
 
 - Setup du projet Vite + Vue
-- Installation des dépendances (Pinia, GSAP)
+- Installation des dépendances (Pinia, ~GSAP~)
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 ## Révision exercice Menu de sushis
@@ -85,7 +85,7 @@ https://tim-montmorency.com/timdoc/582-518MO/exercices/jeu-defense/ < il faut qu
 ### Projet App web créative
 
 - Setup du projet Vite + Vue
-- Installation des dépendances (Pinia, GSAP)
+- Installation des dépendances (Pinia, ~GSAP~)
 - *Trace ton chemin*: Rédaction de l'histoire par chapitre (d'ici mercredi le 12 novembre, avoir terminé la rédaction des chapitres)
 
 

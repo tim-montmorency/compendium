@@ -147,13 +147,13 @@
 
 ---
 
-## 5. Animations GSAP (10 points)
+## 5. Animations ~GSAP~ (10 points)
 
-### 5.1 Intégration GSAP (4 points)
+### 5.1 Intégration ~GSAP~ (4 points)
 
 | Critère | Points | Note | Commentaires |
 |---------|--------|------|--------------|
-| GSAP correctement installé et importé | /1 | | |
+| ~GSAP~ correctement installé et importé | /1 | | |
 | Au moins 4 animations différentes | /2 | | |
 | Animations fluides (pas de lag) | /1 | | |
 | **Sous-total** | **/4** | | |
@@ -344,7 +344,7 @@
 | 2. Architecture Vue.js | 20 | | |
 | 3. Gestion d'état (Pinia) | 15 | | |
 | 4. Styles CSS | 10 | | |
-| 5. Animations GSAP | 10 | | |
+| 5. Animations ~GSAP~ | 10 | | |
 | 6. Gestion des données | 10 | | |
 | 7. Fonctionnalités | 10 | | |
 | 8. Qualité/Accessibilité | 10 | | |

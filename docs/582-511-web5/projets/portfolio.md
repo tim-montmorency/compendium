@@ -57,7 +57,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - *JavaScript*
 - *Bootstrap*
 - *Vue.js*
-- *GSAP* + son plugin *ScrollTrigger*
+- *~GSAP~* + son plugin *ScrollTrigger*
 - *Git*
 - *Json*
 - *Hébergement web* de votre choix (je recommande simplement GitHub Pages car gratuit)
@@ -76,7 +76,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 ## Obligatoire pour Web 5
 
 - Utiliser un **dépôt GitHub** avec des commits réguliers et bien nommés.  
-- Intégrer au moins une **animation GSAP** déclenchée au défilement (scroll).  
+- Intégrer au moins une **animation ~GSAP~** déclenchée au défilement (scroll).  
 - Séparer les **données des projets** dans un fichier `projects.json` et les charger via l’**API fetch**.  
 - Prévoir une **mise en page flexible** permettant d’ajouter facilement des projets ultérieurement.  
 - Créer et intégrer un **composant Vue.js** codé par vous-même.  
@@ -135,10 +135,10 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - **Utilisation de Vue** : data, rendu dynamique via `v-for` / `v-if`, interaction avec `@click` ou autres directives.  
 - **Pertinence du widget** : apporte une valeur réelle au portfolio.  
 
-### 5. Animation GSAP
+### 5. Animation ~GSAP~
 
 - **Commentaires dans le code** : Code bien commenté dans vos propres mots afin de démontrer votre compréhension.
-- **Intégration d’une animation GSAP** : déclenchée au scroll ou à l’interaction, correctement intégrée.  
+- **Intégration d’une animation ~GSAP~** : déclenchée au scroll ou à l’interaction, correctement intégrée.  
 
 ### 6. Documentation & mise en ligne
 

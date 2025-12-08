@@ -128,6 +128,8 @@ Préparer vos configuration de *Vue Router* pour GitHub Pages avec `createWebHas
 
 - Ensuite créez via ligne de commande une nouvelle branche vide:
 
+
+<!-- switch ou checkout-->
   ```bash
   git switch --orphan gh-pages
   ```

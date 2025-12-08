@@ -50,7 +50,7 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 - [ ] Créer une expérience narrative immersive et émotionnelle
 - [ ] Développer un système de choix avec conséquences réelles
 - [ ] Implémenter un système de sauvegarde de progression
-- [ ] Démontrer la maîtrise de Vue.js, GSAP et Pinia
+- [ ] Démontrer la maîtrise de Vue.js, ~GSAP~ et Pinia
 - [ ] Créer une interface accessible et responsive
 - [ ] [Autre objectif spécifique]
 
@@ -230,7 +230,7 @@ Choisissez un ou plusieurs styles:
 - ✅ Vue Router
 - ✅ Pinia (state management)
 - ✅ CSS
-- ✅ GSAP + ScrollTrigger (optionnel selon style)
+- ✅ ~GSAP~ + ScrollTrigger (optionnel selon style)
 
 *Librairies additionnelles envisagées:*
 
@@ -449,7 +449,7 @@ Comment stockez-vous les chapitres et choix?
 
 - [ ] *F8 - Animations de texte*
   - Apparition progressive du texte (optionnel: effet typewriter)
-  - Transitions entre chapitres avec GSAP
+  - Transitions entre chapitres avec ~GSAP~
 
 - [ ] *F9 - Accessibilité*
   - Navigation au clavier
@@ -491,7 +491,7 @@ Comment stockez-vous les chapitres et choix?
   - Sons lors de choix importants
   - Ambiances sonores par scène
 
-- [ ] *B8 - Animations avancées GSAP*
+- [ ] *B8 - Animations avancées ~GSAP~*
   - Parallax sur les backgrounds
   - Animations de transition complexes
 
@@ -556,7 +556,7 @@ Comment stockez-vous les chapitres et choix?
 | Membre | Rôle principal | Responsabilités |
 |--------|----------------|-----------------|
 | [Nom] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
-| [Nom] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
+| [Nom] | Design + Animations | CSS, design visuel, animations ~GSAP~, transitions |
 | [Nom] | Contenu + Narration | Écriture des chapitres, création de l'arbre narratif, dialogues |
 | [Nom] | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
 
@@ -591,7 +591,7 @@ Comment stockez-vous les chapitres et choix?
 - [ ] Vue Router avec 5+ routes
 - [ ] Pinia implémenté avec state management cohérent
 - [ ] CSS organisé avec variables
-- [ ] Animations GSAP fluides
+- [ ] Animations ~GSAP~ fluides
 - [ ] Système de sauvegarde fonctionnel
 - [ ] Code validé (ESLint)
 - [ ] Responsive sur 3 breakpoints
@@ -678,7 +678,7 @@ Comment stockez-vous les chapitres et choix?
 
 *Remise Phases 4 ANIMATIONS+MÉDIAS ~~et 5 PERSISTANCE~~ : 26 novembre | Formatif*
 
-- Intégration GSAP (transitions)
+- Intégration ~GSAP~ (transitions)
 - Images de fond par chapitre
 - Musiques/sons d'ambiance
 - Animations de texte
@@ -766,7 +766,7 @@ Comment stockez-vous les chapitres et choix?
 - Guide étudiant du projet appli web créative: https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.html
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
-- GSAP: https://greensock.com/docs/
+- ~GSAP~: https://greensock.com/docs/
 
 *Inspiration narrative:*
 

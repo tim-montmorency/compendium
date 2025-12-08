@@ -16,7 +16,7 @@ Une application où l'utilisateur crée et explore un musée de souvenirs person
 
 - **Vue.js** : Composants pour chaque type de salle/mémoire, routing entre salles
 - **SASS/SCSS** : Thématisation par émotion (palettes couleurs dynamiques)
-- **GSAP + ScrollTrigger** : Transitions entre salles, révélation des souvenirs au scroll
+- **~GSAP~ + ScrollTrigger** : Transitions entre salles, révélation des souvenirs au scroll
 - **Logiciels collaboratifs** : Travail d'équipe via Git, documentation
 - **Authentification** : Système de login pour sauvegarder son musée
 - **Cahier de charges** : Conception complète avant développement
@@ -35,13 +35,13 @@ Une application où l'utilisateur crée et explore un musée de souvenirs person
 
 - **Semaines 1-2**: Cahier de charges, maquettes, structure de données, setup Vite+Vue
 - **Semaines 3-4**: Composants de base (salles, médias), système de navigation Vue Router
-- **Semaines 5-6**: GSAP/animations, intégration médias, authentification
+- **Semaines 5-6**: ~GSAP~/animations, intégration médias, authentification
 - **Semaines 7-8**: Polish, accessibilité, déploiement, documentation
 
 ### Division naturelle du travail (3 personnes):
 
 - **Personne A**: Architecture Vue (composants, router, state management)
-- **Personne B**: Design & animations (SASS, GSAP, transitions)
+- **Personne B**: Design & animations (SASS, ~GSAP~, transitions)
 - **Personne C**: Backend/données (auth, API/localStorage, validation)
 - *(Pour équipe de 4: ajout personne D sur UX/contenus/accessibilité)*
 
@@ -69,7 +69,7 @@ Une application où l'utilisateur crée et explore un musée de souvenirs person
 - 3-4 salles thématiques
 - Upload d'images + textes
 - Navigation entre salles (Vue Router)
-- Animations de base GSAP
+- Animations de base ~GSAP~
 - LocalStorage pour sauvegarder
 
 #### Version standard (semaines 6-7)
@@ -78,7 +78,7 @@ Une application où l'utilisateur crée et explore un musée de souvenirs person
 - 6-8 salles avec thèmes variés
 - Sons d'ambiance par salle
 - Filtres et recherche
-- Animations GSAP avancées
+- Animations ~GSAP~ avancées
 - Export/partage de musée
 
 #### Version avancée (équipes + rapides)
@@ -111,7 +111,7 @@ Une histoire à embranchements multiples avec esthétique contemporaine. Style *
 
 - **Vue Router** : Navigation entre chapitres/scènes
 - **Composants Vue** : Personnages réutilisables, inventaire, stats
-- **GSAP + ScrollTrigger** : Animations immersives dans chaque scène
+- **~GSAP~ + ScrollTrigger** : Animations immersives dans chaque scène
 - **State Management (Vuex ou Pinia)** : Gestion des choix et conséquences
 - **LocalStorage** : Sauvegardes multiples
 - **Médias riches** : Sons, musiques, images, vidéos éventuelles
@@ -123,13 +123,13 @@ Une histoire à embranchements multiples avec esthétique contemporaine. Style *
 - Roman interactif avec embranchements narratifs
 - Chaque "chapitre" = composant Vue + route
 - Choix persistent via state management (Pinia/Vuex)
-- Animations GSAP dans chaque scène
+- Animations ~GSAP~ dans chaque scène
 - Système d'inventaire/stats de personnage
 
 ### Division du travail:
 
 - **Personne A**: Architecture Vue (Router, State, logique de branches)
-- **Personne B**: Animations GSAP, transitions, effets visuels
+- **Personne B**: Animations ~GSAP~, transitions, effets visuels
 - **Personne C**: Contenus (écriture histoire), design UI, médias
 - *(Équipe de 4: Personne D sur la narration + système de sauvegarde)*
 
@@ -137,7 +137,7 @@ Une histoire à embranchements multiples avec esthétique contemporaine. Style *
 
 - **Semaines 1-2**: Cahier de charges, arbre narratif, maquettes, structure
 - **Semaines 3-4**: Composants Vue, Router, 3-4 chapitres de base
-- **Semaines 5-6**: Système de choix/conséquences, animations GSAP
+- **Semaines 5-6**: Système de choix/conséquences, animations ~GSAP~
 - **Semaines 7-8**: Plus de branches, polish, sons, accessibilité
 
 ### Couverture des savoirs

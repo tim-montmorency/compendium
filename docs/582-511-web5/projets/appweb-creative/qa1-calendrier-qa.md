@@ -233,7 +233,7 @@ tests          externes          (10%)             (50%)
 
 **❌ Feature manquante** = Pas un bogue si c'était optionnel
 
-- Exemple : "Pas d'animations GSAP"
+- Exemple : "Pas d'animations ~GSAP~"
 - → Ne PAS reporter comme bogue si c'était optionnel dans le projet
 
 ### Soyez professionnels

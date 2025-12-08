@@ -44,7 +44,7 @@
 
 **Semaine 2 - Jour 2 (5h):**
 - Setup du projet Vite + Vue (1h)
-- Installation des dépendances (Pinia, GSAP, SASS) (1h)
+- Installation des dépendances (Pinia, ~GSAP~, SASS) (1h)
 - Configuration ESLint + Prettier (30 min)
 - Création des premiers composants "skeleton" (1h30)
 - **Session d'écriture** (1h): Continuer les chapitres
@@ -198,7 +198,7 @@
 ## 📅 SEMAINE 5: Animations et Expérience Narrative
 
 ### 🎯 Objectifs
-- Intégrer GSAP et créer des animations fluides
+- Intégrer ~GSAP~ et créer des animations fluides
 - Ajouter des transitions entre chapitres
 - Implémenter l'apparition progressive du texte
 - Intégrer des images de fond et médias
@@ -208,7 +208,7 @@
 
 **Jour 1 (3h):**
 
-- Mini-cours: GSAP pour narration interactive (45 min)
+- Mini-cours: ~GSAP~ pour narration interactive (45 min)
 - Animations de texte:
   - Effet d'apparition progressive (typewriter optionnel)
   - Fade in des paragraphes
@@ -217,7 +217,7 @@
 
 **Jour 2 (5h):**
 
-- Atelier GSAP avancé (1h30):
+- Atelier ~GSAP~ avancé (1h30):
   - Animations des boutons de choix
   - Effets de hover et sélection
   - Transitions contextuelles (selon le ton du chapitre)
@@ -235,7 +235,7 @@
 
 ### ✅ Livrables de fin de semaine
 
-- [ ] **Apparition du texte animée** (GSAP)
+- [ ] **Apparition du texte animée** (~GSAP~)
 - [ ] **Transitions entre chapitres** fluides
 - [ ] **Animations des boutons de choix** réactives
 - [ ] **Images de fond** pour chaque chapitre (ou catégories)

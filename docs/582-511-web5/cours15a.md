@@ -137,7 +137,7 @@ Mais à ce stade, si vous n'avez plus de corrections, considérer le prochain po
   - Sons lors de choix importants
   - Ambiances sonores par scène
 
-- [ ] *B8 - Animations avancées GSAP*
+- [ ] *B8 - Animations avancées ~GSAP~*
   - Parallax sur les backgrounds
   - Animations de transition complexes
 

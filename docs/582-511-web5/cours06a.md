@@ -12,7 +12,7 @@
 - Recommendation et rétroaction des designs via Figma.
   - J'aimerais voir quelques-un d'entre vous en personnes aux poses ou après le cours pour une rencontre rapide de vive voix.
 - Hébergement de vos vidéos en streaming: [Vimeo](https://vimeo.com) ou [Youtube](https://youtube.com).
-- Détails plus spécifiques pour votre composante Vue.js et GSAP ScrollTrigger à venir...
+- Détails plus spécifiques pour votre composante Vue.js et ~GSAP~ ScrollTrigger à venir...
 
 -->
 

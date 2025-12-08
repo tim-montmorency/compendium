@@ -759,7 +759,7 @@ Choisissez une palette de couleurs appropriée au thème:
 ## ✅ Conclusion
 
 **Chacune de ces variantes:**
-- ✅ Garde la structure technique identique (Vue, Pinia, GSAP)
+- ✅ Garde la structure technique identique (Vue, Pinia, ~GSAP~)
 - ✅ Respects les guidelines du projet
 - ✅ Offre une expérience créative unique
 - ✅ Est faisable en 8 semaines

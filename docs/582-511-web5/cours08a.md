@@ -123,6 +123,7 @@ Le contrat permet aux membres de chaque équipe de s’entendre sur un *but comm
 - [Collaborer avec git](https://tim-montmorency.com/timdoc/582-518MO/git/collaboration/)
 - [gitignore](https://tim-montmorency.com/timdoc/582-518MO/git/gitignore/)
 - [Pull Request](https://tim-montmorency.com/timdoc/582-518MO/git/pull-request/)
+- Pour votre projet, lorsque vous ferez un clone du git en local, faites le dans `C:/Documents/GitHub` ou sur votre disque dur/clé USB externe et non pas sur votre OneDrive (puisque on ne veut avori à synchroniser les nodes_modules du NPM, il contiendra plus d'un millier de fichiers qui sont inutiles à trainer et synchronier sur le Drive).
 
 
 ## NPM

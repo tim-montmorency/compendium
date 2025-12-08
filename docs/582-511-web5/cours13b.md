@@ -7,7 +7,7 @@ Mercredi 26 novembre
 
     **Livrables pour *mémoire interactive***
 
-    - [ ] **Minimum 5 animations GSAP** différentes
+    - [ ] **Minimum 5 animations ~GSAP~** différentes
     - [ ] **ScrollTrigger** utilisé (au moins 2 fois)
     - [ ] **Transitions entre pages** fluides
     - [ ] **Upload d'images** fonctionnel avec preview
@@ -16,7 +16,7 @@ Mercredi 26 novembre
 
     Livrables pour *trace ton chemin*
 
-    - [ ] **Apparition du texte animée** (GSAP)
+    - [ ] **Apparition du texte animée** (~GSAP~)
     - [ ] **Transitions entre chapitres** fluides
     - [ ] **Animations des boutons de choix** réactives
     - [ ] **Images de fond** pour chaque chapitre (ou catégories)
