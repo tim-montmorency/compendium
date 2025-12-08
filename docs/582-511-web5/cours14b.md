@@ -25,10 +25,11 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 - AJOUT #2 (info ajoutée le 4 déc): Utiliser [`createWebHashHistory` dans les configuration de `Vue Router`](https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/deploiement-createWebHashHistory.html) si votre projet est hébergé sur GitHub Pages
 
 
-## Contrôle de la qualité (QA)
+## 🧐 Contrôle de la qualité (QA)
 
+[💯🧐 Cours sur le *contrôle de la qualité* - QA](./projets/appweb-creative/qa.md){ .md-button }
 
-[Cours sur le contrôle de la qualité - QA](./projets/appweb-creative/qa.md){ .md-button }
+[♿ Segment spécifique sur l'*accessiblité*](./projets/appweb-creative/qa.html#accessibilite-les-bases-essentielles){ .md-button }
 
 ### Calendrier QA - Tests Croisés
 

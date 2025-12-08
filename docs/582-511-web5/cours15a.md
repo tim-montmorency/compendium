@@ -32,6 +32,10 @@ Les routes ne fonctionnent pas bien sur GitHub Page alors qu'en dev local tout a
 - Validation du HTML avec le [validateur du W3C](https://validator.w3.org/)
 - Corrections finales suite au rapport QA
 
+[💯🧐 Rappel sur le *contrôle de la qualité* - QA](./projets/appweb-creative/qa.md){ .md-button }
+
+[♿ Rappel sur segment spécifique sur l'*accessiblité*](./projets/appweb-creative/qa.html#accessibilite-les-bases-essentielles){ .md-button }
+
 ## Documentation 
 
 - `README.md`: [instructions pour la documentation finale du projet dans le README.md](./projets/appweb-creative/documentation-readme.md)
@@ -51,7 +55,7 @@ Remettre 4 liens distincts dans le Devoirs Teams de la remise finale
 - Lien vers Trello
 - Lien vers Figma
 - Lien vers projet live
-- Lien vers répertoire GitHub
+- Lien vers répertoire GitHub (le code final devra se retrouver sur la branche `main`)
 
 <!-- 
 
