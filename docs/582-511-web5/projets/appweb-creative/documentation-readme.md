@@ -6,11 +6,11 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
 
 - Titre de niveau 2 : *À propos du projet*
   - Paragraphes:
-  "Projet scolaire réalisé dans le cadre du cours *Web 5 (582-511MO)* au *Cégep de Montmorency*, programme *Techniques d'intégration multimédia*."
-
-  Mémoires (ajuster au besoin) : "Ce musée interactif permet aux utilisateurs de créer, organiser et explorer des souvenirs personnels à travers différentes salles thématiques."
-
-  Trace ton chemin : "Cette histoire interactive propose une expérience narrative immersive où chaque choix du lecteur influence le déroulement et la conclusion de l'aventure."
+    - "Projet scolaire réalisé dans le cadre du cours *Web 5 (582-511MO)* au *Cégep de Montmorency*, programme *Techniques d'intégration multimédia*."
+    - et
+      - Mémoires (ajuster au besoin) : "Ce musée interactif permet aux utilisateurs de créer, organiser et explorer des souvenirs personnels à travers différentes salles thématiques."
+      - ou
+      - Trace ton chemin : "Cette histoire interactive propose une expérience narrative immersive où chaque choix du lecteur influence le déroulement et la conclusion de l'aventure."
 
 - Titre de niveau 2 : *Équipe*
   - Liste à puces de vos noms etvotre rôle principal
@@ -23,14 +23,14 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
 
 
 - Titre de niveau 2 : *Technologies utilisées*
-- Liste à puces des technologies utilisées dans votre projet (vous pouvez retourner voir votre cahier de charges pour vous le rappeler)
+  - Liste à puces des technologies utilisées dans votre projet (vous pouvez retourner voir votre cahier de charges pour vous le rappeler)
 
 - Titre de niveau 2: *Démo en ligne*
   - Lien vers le site déployé (faites-en un lien en markdown et non pas juste le url textuel)
 
 - Titre de niveau 2: *Comment jouer* ou *Comment utiliser*
 
-  Lire à numéro des étapes pour expliquer à l'utilisateur comment jouer ou utiliser votre appli qui est déployée live.
+  Liste à numéros des étapes pour expliquer à l'utilisateur comment jouer ou utiliser votre appli qui est déployée live.
 
 - Titre de niveau 2 : *Installation en local pour développement*
 
@@ -51,6 +51,7 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
   ```
 
 - Titre de niveau 2 : *Documentation additionnelle*
+  (faites-en des liens en markdown et non pas juste le url textuel)
 
   - Lien vers le cahier de charges
   - Lien vers les maquettes Figma
@@ -64,7 +65,7 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
 
   - "Projet éducatif - Cégep de Montmorency © 2024-2025"
 
-- Ajouter `---`
+- Ajouter `---` (ce qui permettra de faire une ligne de séparation lors du rendu du markdown)
 
 - Finir avec :
 
