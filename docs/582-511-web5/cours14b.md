@@ -27,6 +27,9 @@ Vous devez déployer votre version *beta* en ligne afin que l'équipe qui est ju
 
 ## Contrôle de la qualité (QA)
 
+
+[Cours sur le contrôle de la qualité - QA](./projets/appweb-creative/qa.md){ .md-button }
+
 ### Calendrier QA - Tests Croisés
 
 - Calendrier restant
