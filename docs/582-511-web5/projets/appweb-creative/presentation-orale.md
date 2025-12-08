@@ -18,6 +18,7 @@
 Expliquez votre démarche de conception :
 
 - Quelles étaient vos idées initiales? Comment avez-vous fait vos choix?
+- Parlez-nous en en nous montrant bièvement votre brainstorm, votre moodboard, vos maquettes
 - Quels défis avez-vous rencontrés et comment les avez-vous surmontés?
 - Comment avez-vous organisé votre travail d'équipe? (planification, communication, gestion des tâches)
 - Y a-t-il eu des pivots ou des changements majeurs en cours de route?
@@ -40,6 +41,7 @@ Montrez votre projet en action :
   - Quelles technologies ou méthodes avez-vous utilisées?
   - Quelles alternatives avez-vous considérées?
 - Les concepts de programmation clés que vous avez appliqués
+- IMPORTANT: Un aspect techniques, en programmation, que vous pensez pouvoir apprendre au reste de la classe. Expliquez cet aspect en détail et au besoin, nous référer à la documentation en amont de cet aspect technique spécial.
 
 ### 5. Réflexion et apprentissages (2 minutes)
 
