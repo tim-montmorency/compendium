@@ -7,7 +7,7 @@
 - [ ] PHASE 1: PLANIFICATION ET DESIGN: 22 oct.
 - [ ] PHASE 2: FONDATION: 19 nov.
 - [ ] PHASE 3: INTERACTIVITÉ: 1er déc.
-- [ ] ❌ ~~PHASE 4: ANIMATIONS ~GSAP~~~
+- [ ] ❌ ~~PHASE 4: ANIMATIONS ~GSAP~
 - [ ] ⚠️ OPTIONNEL PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES
 - [ ] PHASE 6: AFFINAGE pour la version BETA: 3 déc.
 - [ ] PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS: 8 déc
@@ -112,7 +112,7 @@
   - Enregistrement de chaque décision
   - Affichage dans un menu (optionnel)
 
-## ❌ ANNULÉ ~~PHASE 4: ANIMATIONS ~GSAP~~~
+## ❌ ANNULÉ ~~PHASE 4: ANIMATIONS GSAP~~
 
 Vous pouvez le faire et je vous encourage à l'explorer mais ce n'est plus exigé.
 

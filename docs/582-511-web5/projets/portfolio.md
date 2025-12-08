@@ -57,7 +57,7 @@ Pour le cours de **Web 5**, c'est la *planification*, le *design*, le *processus
 - *JavaScript*
 - *Bootstrap*
 - *Vue.js*
-- *~GSAP~* + son plugin *ScrollTrigger*
+- ~*GSAP* + son plugin *ScrollTrigger*~
 - *Git*
 - *Json*
 - *Hébergement web* de votre choix (je recommande simplement GitHub Pages car gratuit)

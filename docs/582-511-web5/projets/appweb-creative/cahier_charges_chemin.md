@@ -230,7 +230,7 @@ Choisissez un ou plusieurs styles:
 - ✅ Vue Router
 - ✅ Pinia (state management)
 - ✅ CSS
-- ✅ ~GSAP~ + ScrollTrigger (optionnel selon style)
+- ✅ ~GSAP + ScrollTrigger (optionnel selon style)~
 
 *Librairies additionnelles envisagées:*
 
@@ -449,7 +449,7 @@ Comment stockez-vous les chapitres et choix?
 
 - [ ] *F8 - Animations de texte*
   - Apparition progressive du texte (optionnel: effet typewriter)
-  - Transitions entre chapitres avec ~GSAP~
+  - Transitions animées entre chapitres ~avec GSAP~
 
 - [ ] *F9 - Accessibilité*
   - Navigation au clavier
@@ -766,7 +766,7 @@ Comment stockez-vous les chapitres et choix?
 - Guide étudiant du projet appli web créative: https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.html
 - Vue.js: https://vuejs.org
 - Pinia: https://pinia.vuejs.org
-- ~GSAP~: https://greensock.com/docs/
+- ~GSAP: https://greensock.com/docs/~
 
 *Inspiration narrative:*
 

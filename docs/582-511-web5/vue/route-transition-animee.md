@@ -153,12 +153,12 @@ onLeaveCancelled(el) {}
 </template>
 
 <script>
-import ~GSAP~ from '~GSAP~';
+import gsap from 'gsap';
 
 export default {
   methods: {
     onEnter(el, done) {
-      ~GSAP~.from(el, {
+      gsap.from(el, {
         opacity: 0,
         y: 30,
         duration: 0.5,
@@ -168,7 +168,7 @@ export default {
     },
     
     onLeave(el, done) {
-      ~GSAP~.to(el, {
+      gsap.to(el, {
         opacity: 0,
         y: -30,
         duration: 0.3,

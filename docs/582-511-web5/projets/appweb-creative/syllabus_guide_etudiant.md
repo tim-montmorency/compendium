@@ -340,7 +340,7 @@ Application web complète et déployée
 npm create vite@latest
 
 # Installer les dépendances
-npm install pinia vue-router ~GSAP~
+npm install pinia vue-router
 ```
 
 <!-- 

@@ -107,7 +107,7 @@ develop
 ♻️ refactor(store): split into multiple stores
 📝 docs(readme): add project description
 🔧 chore(eslint): configure rules
-⚡ perf(~GSAP~): optimize animation performance
+⚡ perf(GSAP): optimize animation performance
 ```
 
 ### Exemples de mauvais commits (à éviter):
