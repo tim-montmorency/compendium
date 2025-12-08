@@ -50,10 +50,19 @@ Utiliser le format markdown pour formattter votre texte dans le fichier `README.
   npm run build
   ```
 
-- Titre de niveau 2 : Licence
+- Titre de niveau 2 : *Documentation additionnelle*
+
+  - Lien vers le cahier de charges
+  - Lien vers les maquettes Figma
+  - Lien vers le Trello/board de projet
+
+- Titre de niveau 2 : *Remerciements et autres crédits*
+
+  - Crédits pour ressources utilisées (images, sons, polices, IAG (nommer le nom de l'outil, la version ce qui a été généré dans le projet))
+
+- Titre de niveau 2 : *Licence*
 
   - "Projet éducatif - Cégep de Montmorency © 2024-2025"
-
 
 - Ajouter `---`
 
