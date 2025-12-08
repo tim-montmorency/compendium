@@ -11,15 +11,20 @@ Lundi 8 décembre
 
 - Favicon: ajouter un favicon pour votre projet
 - Assurez vous que la lang du document HTML est bien `fr`
-- Ajoutez le titre du projet au documetn HTML
+- Ajoutez le titre du projet au document HTML
 - Corrigez vos fautes de français (Antidote)
 - Corrections finales suite au rapport QA
-- Documentation :
-  - `README.md`: [instructions pour la documentation finale du projet dans le README.md](#)
-  - `composants.md`: mettre à jour avec vos composants finaux (supprimer ceux qui sont inutilisés)
-  - `routes.md`: mettre à jour avec vos routes finales
-  - mise à jour de l'*arbre narratif complet* (branches et fins)
-  - mise à jour finale du *cahier de charges*
+
+## Documentation 
+
+- `README.md`: [instructions pour la documentation finale du projet dans le README.md](#)
+- `composants.md`: mettre à jour avec vos composants finaux (supprimer ceux qui sont inutilisés)
+- `routes.md`: mettre à jour avec vos routes finales
+- mise à jour de l'*arbre narratif complet* (branches et fins)
+- mise à jour finale du *cahier de charges*
+
+## Présentaton finale
+
 - Préparer la *présentation finale* de votre projet: [instructions ici](./projets/appweb-creative/presentation-orale.md)
 
 <!-- 
