@@ -43,7 +43,7 @@ Montrez votre projet en action :
 
 ### 5. Réflexion et apprentissages (2 minutes)
 
-- Qu'avez-vous appris individuellement et collectivement?
+- Qu'avez-vous appris individuellement?
 - Si vous recommenciez, que feriez-vous différemment?
 - Quelles améliorations futures envisagez-vous?
 
