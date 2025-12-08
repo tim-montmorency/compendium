@@ -7,10 +7,12 @@ Lundi 8 décembre
 
     Attention, cette remise doit contenir les tests complétés du rapport et vous devez avoir commencé à corriger les bogues et anomalies. Cependant, il n'est pas attendu que TOUT soit corrigé et fixé. Mais outre cela, le rapport doit être complet. 
 
-
 ## Affinage (polish) et accessibilité
 
-- Favicon
+- Favicon: ajouter un favicon pour votre projet
+- Assurez vous que la lang du document HTML est bien `fr`
+- Ajoutez le titre du projet au documetn HTML
+- Corrigez vos fautes de français (Antidote)
 - Corrections finales suite au rapport QA
 - Documentation :
   - README.md
@@ -18,7 +20,7 @@ Lundi 8 décembre
   - routes.md
   - mise à jour de l'arbre narratif complet (branches et fins)
   - mise à jour finale du cahier de charges
-  
+- Préparer la présentation finale de votre projet: [instructions ici](./projets/appweb-creative/presentation-orale.md)
 
 <!-- 
 
