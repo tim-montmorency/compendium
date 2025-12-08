@@ -17,7 +17,7 @@ Lundi 8 décembre
 
 ## Documentation 
 
-- `README.md`: [instructions pour la documentation finale du projet dans le README.md](#)
+- `README.md`: [instructions pour la documentation finale du projet dans le README.md](./projets/appweb-creative/documentation-readme.md)
 - `composants.md`: mettre à jour avec vos composants finaux (supprimer ceux qui sont inutilisés)
 - `routes.md`: mettre à jour avec vos routes finales
 - mise à jour de l'*arbre narratif complet* (branches et fins)
