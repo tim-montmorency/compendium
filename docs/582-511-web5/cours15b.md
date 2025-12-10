@@ -12,4 +12,6 @@ Merc 10 déc.
 
 ## Devoirs
 
-IMPORTANT Rappel de remplir l'*analyse réflexive et auto-évaluation finale* (commatif 5%) avant vendredi le 12 décembre
+IMPORTANT Rappel de remplir l'*analyse réflexive et auto-évaluation finale* (commatif 5%) avant vendredi le 12 décembre. Le lien vous sera partagé sur Teams, dans Devoir.
+
+SVP, vérifiez Teams dans les prochains jours. Vous devrez remplir l'analyse réflexive d'ici le 12 décembre en fin de journée.
