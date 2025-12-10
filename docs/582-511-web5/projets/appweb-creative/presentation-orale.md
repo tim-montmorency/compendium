@@ -68,7 +68,7 @@ Soyez prêts à répondre à des questions sur n'importe quel aspect de votre pr
 - Compréhension de l'architecture du projet
 - Participation équitable de tous les membres
 
-**Présentation et communication (15%)**
+**Présentation et communication**
 
 - Clarté de l'explication
 - Qualité du support visuel
