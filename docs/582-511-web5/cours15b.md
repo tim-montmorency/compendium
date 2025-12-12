@@ -1,5 +1,8 @@
 # Cours 15.2
 
+
+:material-blur:
+
 Merc 10 déc.
 
 !!! example "*REMISE FINALE ET PRÉSENTATION EN CLASSE* (sommatif 50%)"
