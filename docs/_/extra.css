@@ -724,6 +724,12 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
 }
+.finishing .md-nav--secondary .md-nav__title{
+  text-transform: uppercase;
+}
+
+
+
 
 .ico-fill-primary{
   fill: #ef5552
@@ -732,3 +738,5 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .ico-stroke-primary{
   stroke: #ef5552;
 }
+
+
