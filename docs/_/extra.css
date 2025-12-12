@@ -690,6 +690,11 @@ stop:before {
   color: white;
 }
 
+.finishing .md-nav__list > .md-nav__item {
+  border-top: 2px solid #272a35;
+  margin-top: 0.625em;
+}
+
 body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   box-shadow: 0 0.1rem 0 0.05rem #ec5956, 0 0.1rem 0 #fff,
     0 -0.1rem 0.2rem hsla(225deg, 15%, 90%, 0.2) inset;
