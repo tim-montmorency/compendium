@@ -724,3 +724,11 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
 }
+
+.ico-fill-primary{
+  fill: #ef5552
+}
+
+.ico-stroke-primary{
+  stroke: #ef5552;
+}
