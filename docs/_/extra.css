@@ -690,11 +690,6 @@ stop:before {
   color: white;
 }
 
-.finishing  nav.md-nav--secondary > .md-nav__list > .md-nav__item {
-  border-top: 2px solid #272a35;
-  margin-top: 0.625em;
-}
-
 body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   box-shadow: 0 0.1rem 0 0.05rem #ec5956, 0 0.1rem 0 #fff,
     0 -0.1rem 0.2rem hsla(225deg, 15%, 90%, 0.2) inset;
@@ -723,6 +718,12 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 }
 .finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
+}
+
+.finishing nav.md-nav--secondary > .md-nav__list > .md-nav__item,
+.finishing nav.md-nav--primary > .md-nav__list > .md-nav__item {
+  border-top: 2px solid #272a35;
+  margin-top: 0.625em;
 }
 .finishing .md-nav--secondary .md-nav__title{
   text-transform: uppercase;
