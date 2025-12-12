@@ -1,5 +1,4 @@
-# Cours 15.2
-
+# :material-blur: Cours 15.2
 
 :material-blur:
 
