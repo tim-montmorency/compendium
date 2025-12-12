@@ -723,7 +723,7 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing nav.md-nav--secondary > .md-nav__list > .md-nav__item,
 .finishing nav.md-nav--primary > .md-nav__list > .md-nav__item {
   border-top: 2px solid #272a35;
-  margin-top: 0.625em;
+  margin-top: 0.4em;
 }
 .finishing .md-nav--secondary .md-nav__title{
   text-transform: uppercase;
