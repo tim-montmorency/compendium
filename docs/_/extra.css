@@ -731,12 +731,8 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 
 
 
-.ico-fill-primary{
-  fill: #ef5552
-}
-
-.ico-stroke-primary{
-  stroke: #ef5552;
+.ico-primary{
+  color: #ef5552
 }
 
 

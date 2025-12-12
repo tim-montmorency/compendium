@@ -1,6 +1,6 @@
 # :material-blur: Cours 15.2
 
-:material-blur:{ .ico-fill-primary }
+:material-blur:{ .ico-primary }
 
 Merc 10 déc.
 
