@@ -74,7 +74,42 @@ Instructions spécifiques aux données *json* du fichier `projects.json` et cell
     - Si équipe de trois: *app-prenom1-prenom2-prenom3* (chaque prénom ne doit comprendre que les 6 premières lettre du prénom).
     - Si équipe de quatre: *app-prenom1-prenom2-prenom3-prenom4* (chaque prénom ne doit comprendre que les 5 premières lettre du prénom).
 
+- [ ] Moodboard (Figma): assurez-vous de répondre à toutes les exigences du moodboard listé dans le cahier de charges. Vous pourrez ensuite l'exporter en format .png ou .jpg et l'importer dans votre cahier de charge dans la section appropriée.
+
 - [ ] Rédaction du cahier de charge ([Fichiers de départ pour cahier de charge](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/02-appweb-creative/cahiers-de-charge-fichiers-depart?csf=1&web=1&e=FLBNRx))
+  - [ ] Ajoutez les éléments du moodboard dans la section appropriée.
+  - [ ] Si vous avez à ajouter des couleurs en texte hexadécimal, veullez l'accompagner de la ligne qui suit afin d'afficher la couleur à coté du code hexadécimal.
+
+    Par exemple:
+
+    - Primaire (actions principales): [#03AB5E] ![#03AB5E](https://placehold.it/15/03AB5E/000000?text=+)
+    - Secondaire (choix): [#FFFFFF] ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
+    - Succès: [#03AB5E] ![#fcc03AB5E100](https://placehold.it/15/03AB5E/000000?text=+)
+
+    ```markdown
+    - Primaire (actions principales): [#03AB5E] ![#03AB5E](https://placehold.it/15/03AB5E/000000?text=+)
+    - Secondaire (choix): [#FFFFFF] ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
+    - Succès: [#03AB5E] ![#fcc03AB5E100](https://placehold.it/15/03AB5E/000000?text=+)
+    ```
+
+    - ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
+    - ![#00dbb2](https://via.placeholder.com/15/00dbb2/000000?text=+) `#00DBB2`
+    - ![#69adff](https://via.placeholder.com/15/69adff/000000?text=+) `#69ADFF`
+    - ![#9ece6a](https://via.placeholder.com/15/9ece6a/000000?text=+) `#9ECE6A`
+    - ![#c7ccd4](https://via.placeholder.com/15/c7ccd4/000000?text=+) `#C7CCD4`
+    - ![#666b88](https://via.placeholder.com/15/666b88/000000?text=+) `#666B88`
+    - ![#0c0d12](https://via.placeholder.com/15/0c0d12/000000?text=+) `#0C0D12`
+
+    ```markdown
+    - ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
+    - ![#00dbb2](https://via.placeholder.com/15/00dbb2/000000?text=+) `#00DBB2`
+    - ![#69adff](https://via.placeholder.com/15/69adff/000000?text=+) `#69ADFF`
+    - ![#9ece6a](https://via.placeholder.com/15/9ece6a/000000?text=+) `#9ECE6A`
+    - ![#c7ccd4](https://via.placeholder.com/15/c7ccd4/000000?text=+) `#C7CCD4`
+    - ![#666b88](https://via.placeholder.com/15/666b88/000000?text=+) `#666B88`
+    - ![#0c0d12](https://via.placeholder.com/15/0c0d12/000000?text=+) `#0C0D12`
+    ```
+
 
 - [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
 
