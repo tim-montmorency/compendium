@@ -58,7 +58,8 @@ Instructions spécifiques aux données *json* du fichier `projects.json` et cell
 
 ### Quoi faire et remettre d'ici le 22 octobre
 
-- [ ] Brainstorm d'équipe (je vous conseille d'utiliser FigJam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
+- [ ] Brainstorm d'équipe (je vous conseille d'utiliser FigJam). Vous devrez partager le lien ou une trace de votre processus créatif en ajoutant un lien vers celui-ci (fichiers image ou lien vers figJam) dans le README.md et dans le cahier de charges.
+
   - [ ] Choix entre :
     - [ ] Option A: Mémoires interactives
     - [ ] Option B: Trace ton chemin
@@ -67,12 +68,10 @@ Instructions spécifiques aux données *json* du fichier `projects.json` et cell
 
 - [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
 
-- [ ] Création de votre répertoire git.
-  - ATTENTION NOM DE RÉPERTOIRE TROP LONG PEUT CRÉER UN PROBLÈME LORS DU DEPLOIEMENT GIT:
+- [ ] Création de votre répertoire git. Nommer le répertoire selon:
 
-    Nommer le répertoire selon:
-    - Si équipe de trois: *app-prenom1-prenom2-prenom3* (chaque prénom ne doit comprendre que les 6 premières lettre du prénom).
-    - Si équipe de quatre: *app-prenom1-prenom2-prenom3-prenom4* (chaque prénom ne doit comprendre que les 5 premières lettre du prénom).
+  - Si équipe de trois: *app-prenom1-prenom2-prenom3* (chaque prénom ne doit comprendre que les 6 premières lettre du prénom).
+  - Si équipe de quatre: *app-prenom1-prenom2-prenom3-prenom4* (chaque prénom ne doit comprendre que les 5 premières lettre du prénom).
 
 - [ ] Moodboard (Figma): assurez-vous de répondre à toutes les exigences du moodboard listé dans le cahier de charges. Vous pourrez ensuite l'exporter en format .png ou .jpg et l'importer dans votre cahier de charge dans la section appropriée.
 
@@ -80,39 +79,23 @@ Instructions spécifiques aux données *json* du fichier `projects.json` et cell
   - [ ] Ajoutez les éléments du moodboard dans la section appropriée.
   - [ ] Si vous avez à ajouter des couleurs en texte hexadécimal, veullez l'accompagner de la ligne qui suit afin d'afficher la couleur à coté du code hexadécimal.
 
-    Par exemple:
+    Par exemple, pour générer ceci :
 
-    - Primaire (actions principales): [#03AB5E] ![#03AB5E](https://placehold.it/15/03AB5E/000000?text=+)
-    - Secondaire (choix): [#FFFFFF] ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-    - Succès: [#03AB5E] ![#fcc03AB5E100](https://placehold.it/15/03AB5E/000000?text=+)
+    - Primaire : ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
+    - Secondaire : ![#03ab5e](https://placehold.co/10/03ab5e/03ab5e/) `#03ab5e`
 
-    ```markdown
-    - Primaire (actions principales): [#03AB5E] ![#03AB5E](https://placehold.it/15/03AB5E/000000?text=+)
-    - Secondaire (choix): [#FFFFFF] ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-    - Succès: [#03AB5E] ![#fcc03AB5E100](https://placehold.it/15/03AB5E/000000?text=+)
-    ```
-
-    - ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
-    - ![#00dbb2](https://via.placeholder.com/15/00dbb2/000000?text=+) `#00DBB2`
-    - ![#69adff](https://via.placeholder.com/15/69adff/000000?text=+) `#69ADFF`
-    - ![#9ece6a](https://via.placeholder.com/15/9ece6a/000000?text=+) `#9ECE6A`
-    - ![#c7ccd4](https://via.placeholder.com/15/c7ccd4/000000?text=+) `#C7CCD4`
-    - ![#666b88](https://via.placeholder.com/15/666b88/000000?text=+) `#666B88`
-    - ![#0c0d12](https://via.placeholder.com/15/0c0d12/000000?text=+) `#0C0D12`
+    Vous devriez écrire ceci en markdown :
 
     ```markdown
-    - ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
-    - ![#00dbb2](https://via.placeholder.com/15/00dbb2/000000?text=+) `#00DBB2`
-    - ![#69adff](https://via.placeholder.com/15/69adff/000000?text=+) `#69ADFF`
-    - ![#9ece6a](https://via.placeholder.com/15/9ece6a/000000?text=+) `#9ECE6A`
-    - ![#c7ccd4](https://via.placeholder.com/15/c7ccd4/000000?text=+) `#C7CCD4`
-    - ![#666b88](https://via.placeholder.com/15/666b88/000000?text=+) `#666B88`
-    - ![#0c0d12](https://via.placeholder.com/15/0c0d12/000000?text=+) `#0C0D12`
+    - Primaire : ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
+    - Secondaire : ![#03ab5e](https://placehold.co/10/03ab5e/03ab5e/) `#03ab5e`
     ```
 
-  - [ ] Pour l'arbre narratif du cahier de charge, il est préférable que vous le fassiez dans FIgma ou Figjam car c'est plus facile que de l'illustrer en markdown pure. VOus l'ajouterez par la suite dans votre cahier de charges.
+    ⬆️ Remarquez que dans l'URL de palcehold, le code de couleur haxadécimal est écrit 2 fois: `/ff1778/ff1778/`.
 
-  - [ ] Si vous avez des images qui accompagnent votre cahier de charges, veuillez créer un dossier assets à côté du cahier et lier vos images vers les fichiers ocntenu dans ce dossier.
+  - [ ] Pour l'arbre narratif du cahier de charge, il est préférable que vous le fassiez dans Figma ou Figjam car c'est plus facile que de l'illustrer en markdown pure. Vous l'ajouterez par la suite dans votre cahier de charges.
+
+  - [ ] Si vous avez des images qui accompagnent votre cahier de charges, veuillez créer un dossier `assets` à côté du cahier et lier vos images vers les fichiers contenu dans ce dossier.
 
 - [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
 
@@ -208,7 +191,8 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 ### Projet *appli web créative*: Quoi faire et remettre d'ici le 22 octobre
 
-- [ ] Brainstorm d'équipe (je vous conseille d'utiliser FigJam). Vous devrez partager le lien ou une trace de votre processus créatif avec l'enseignante.
+- [ ] Brainstorm d'équipe (je vous conseille d'utiliser FigJam). Vous devrez partager le lien ou une trace de votre processus créatif en ajoutant un lien vers celui-ci (fichiers image ou lien vers figJam) dans le README.md et dans le cahier de charges.
+
   - [ ] Choix entre :
     - [ ] Option A: Mémoires interactives
     - [ ] Option B: Trace ton chemin
@@ -217,7 +201,10 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
 
 - [ ] Tableau KANBAN créé (Trello) et toutes les tâches morcelées du projet, du début à la fin devront être créées pour cette première remise.
 
-- [ ] Création de votre répertoire git. Nommer *webapp-creative-prenom1-prenom2-prenom3.*
+- [ ] Création de votre répertoire git. Nommer le répertoire selon:
+
+  - Si équipe de trois: *app-prenom1-prenom2-prenom3* (chaque prénom ne doit comprendre que les 6 premières lettre du prénom).
+  - Si équipe de quatre: *app-prenom1-prenom2-prenom3-prenom4* (chaque prénom ne doit comprendre que les 5 premières lettre du prénom).
 
 - [ ] Moodboard (Figma): assurez-vous de répondre à toutes les exigences du moodboard listé dans le cahier de charges. Vous pourrez ensuite l'exporter en format .png ou .jpg et l'importer dans votre cahier de charge dans la section appropriée.
 
@@ -225,38 +212,22 @@ Le plus souvent qu'autrement, le rôle est l'utilisateur du projet/produit.
   - [ ] Ajoutez les éléments du moodboard dans la section appropriée.
   - [ ] Si vous avez à ajouter des couleurs en texte hexadécimal, veullez l'accompagner de la ligne qui suit afin d'afficher la couleur à coté du code hexadécimal.
 
-    Par exemple:
+    Par exemple, pour générer ceci :
 
-    - Primaire (actions principales): [#03AB5E] ![#03AB5E](https://placehold.it/15/03AB5E/000000?text=+)
-    - Secondaire (choix): [#FFFFFF] ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-    - Succès: [#03AB5E] ![#fcc03AB5E100](https://placehold.it/15/03AB5E/000000?text=+)
+    - Primaire : ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
+    - Secondaire : ![#03ab5e](https://placehold.co/10/03ab5e/03ab5e/) `#03ab5e`
 
-    ```markdown
-    - Primaire (actions principales): [#03AB5E] ![#03AB5E](https://placehold.it/15/03AB5E/000000?text=+)
-    - Secondaire (choix): [#FFFFFF] ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-    - Succès: [#03AB5E] ![#fcc03AB5E100](https://placehold.it/15/03AB5E/000000?text=+)
-    ```
-
-    - ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
-    - ![#00dbb2](https://via.placeholder.com/15/00dbb2/000000?text=+) `#00DBB2`
-    - ![#69adff](https://via.placeholder.com/15/69adff/000000?text=+) `#69ADFF`
-    - ![#9ece6a](https://via.placeholder.com/15/9ece6a/000000?text=+) `#9ECE6A`
-    - ![#c7ccd4](https://via.placeholder.com/15/c7ccd4/000000?text=+) `#C7CCD4`
-    - ![#666b88](https://via.placeholder.com/15/666b88/000000?text=+) `#666B88`
-    - ![#0c0d12](https://via.placeholder.com/15/0c0d12/000000?text=+) `#0C0D12`
+    Vous devriez écrire ceci en markdown :
 
     ```markdown
-    - ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
-    - ![#00dbb2](https://via.placeholder.com/15/00dbb2/000000?text=+) `#00DBB2`
-    - ![#69adff](https://via.placeholder.com/15/69adff/000000?text=+) `#69ADFF`
-    - ![#9ece6a](https://via.placeholder.com/15/9ece6a/000000?text=+) `#9ECE6A`
-    - ![#c7ccd4](https://via.placeholder.com/15/c7ccd4/000000?text=+) `#C7CCD4`
-    - ![#666b88](https://via.placeholder.com/15/666b88/000000?text=+) `#666B88`
-    - ![#0c0d12](https://via.placeholder.com/15/0c0d12/000000?text=+) `#0C0D12`
+    - Primaire : ![#ff1778](https://placehold.co/10/ff1778/ff1778/) `#ff1778`
+    - Secondaire : ![#03ab5e](https://placehold.co/10/03ab5e/03ab5e/) `#03ab5e`
     ```
 
-  - [ ] Pour l'arbre narratif du cahier de charge, il est préférable que vous le fassiez dans FIgma ou Figjam car c'est plus facile que de l'illustrer en markdown pure. VOus l'ajouterez par la suite dans votre cahier de charges.
+    ⬆️ Remarquez que dans l'URL de palcehold, le code de couleur haxadécimal est écrit 2 fois: `/ff1778/ff1778/`.
 
-  - [ ] Si vous avez des images qui accompagnent votre cahier de charges, veuillez créer un dossier assets à côté du cahier et lier vos images vers les fichiers ocntenu dans ce dossier.
+  - [ ] Pour l'arbre narratif du cahier de charge, il est préférable que vous le fassiez dans Figma ou Figjam car c'est plus facile que de l'illustrer en markdown pure. Vous l'ajouterez par la suite dans votre cahier de charges.
+
+  - [ ] Si vous avez des images qui accompagnent votre cahier de charges, veuillez créer un dossier `assets` à côté du cahier et lier vos images vers les fichiers contenu dans ce dossier.
 
 - [ ] Design (Figma): Création des maquettes des écrans principaux (voir section 6.2 du cahier de charge fourni).
