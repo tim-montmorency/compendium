@@ -729,7 +729,7 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   text-transform: uppercase;
 }
 
-.finishing .md-nav--secondary ul.nav__list ul.nav__list{
+.finishing .md-nav--secondary ul.md-nav__list ul.md-nav__list{
   list-style: circle;
   list-style-type: circle;
 }
