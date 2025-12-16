@@ -151,6 +151,60 @@ Par exemple:
 
 
 
+## Un exemple complet d'un SFC de base
+
+```Vue
+<script>
+export default {
+  // Nom du composant
+  name: 'MyComponent',
+  
+  // Déclaration des props reçues du parent
+  props: {
+    title: String,
+    isEnabled: {
+      type: Boolean,
+      default: true // La valeur par défaut si elle n'est pas fournie par le parent
+    }
+  },
+
+  // Déclaration des données ralitives à cette composante spécifique
+  data() {
+    return {
+      count: 0,
+      message: 'Hello Vue!'
+    };
+  },
+
+  // Déclarations de méthodes internes pour performer des actions ou gérer des événements
+  methods: {
+    increment() {
+      this.count++; // Les méthodes peuvent accéder aux données et props en les préfixant de 'this'
+    },
+    updateMessage(newMessage) {
+      this.message = newMessage;
+    }
+  },
+  // Emits: Déclaration d'événements internes envoyés/communiqués au parent
+  emits: ['custom-event', 'another-event']
+};
+</script>
+
+<template>
+  <div>
+    <h1>{{ title }}</h1>
+    <p>{{ message }} (Count: {{ count }})</p>
+    <button @click="increment">Increment Count</button>
+  </div>
+</template>
+
+<style scoped>
+/* Styles CSS spécifique à ce composant */
+</style>
+```
+
+
+
 ## Compilateurs SFC
 
 - [Vite](https://vite.dev/)
