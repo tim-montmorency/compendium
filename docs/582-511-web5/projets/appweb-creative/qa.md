@@ -12,13 +12,6 @@ Pas besoin de tests unitaires ou de test d'intégrations complexes - on se conce
 3. **Optimiser les performances** pour une expérience fluide
 4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
 
-## Objectifs de cette phase
-
-1. **Identifier et corriger les bogues** avant que l'enseignant ou les utilisateurs les trouvent
-2. **Valider l'accessibilité de base** pour que tout le monde puisse utiliser votre app
-3. **Optimiser les performances** pour une expérience fluide
-4. **Documenter ce qui fonctionne et ce qui ne fonctionne pas** (transparence)
-
 
 ## ✅ Checklist générale des tests
 
