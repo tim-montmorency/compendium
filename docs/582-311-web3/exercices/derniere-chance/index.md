@@ -2,7 +2,7 @@
 
 Basé sur l'exercice [Labyrinthe](../labyrinthe/index.md), vous devez reproduire le résultat attendu.
 
-## Résultat attendu
+## Résultat attendu (activer le son 🔈)
 
 ![type:video](./video.mp4){.h-auto}
 
@@ -44,5 +44,6 @@ Au clic du bouton
 
 ## Remise
 
-Dans notre chat sur Teams, me remettre le lien de votre fork.
-Date limite : 21 décembre à 21h
+Dans notre chat sur Teams, me remettre le lien du fork.
+
+Date limite : 21 décembre à 23h59
