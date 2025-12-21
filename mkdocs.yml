@@ -511,6 +511,7 @@ extra_javascript:
 plugins:
   - offline
   - tags
+  - typeset
   - mkdocs-video:
       is_video: true
       video_autoplay: true

@@ -1,4 +1,6 @@
-# Cours 15.2
+# :material-blur: Cours 15.2
+
+:material-blur:{ .ico-primary }
 
 Merc 10 déc.
 
@@ -12,4 +14,6 @@ Merc 10 déc.
 
 ## Devoirs
 
-IMPORTANT Rappel de remplir l'*analyse réflexive et auto-évaluation finale* (commatif 5%) avant vendredi le 12 décembre
+IMPORTANT Rappel de remplir l'*analyse réflexive et auto-évaluation finale* (sommatif 5%) avant vendredi le 12 décembre. 
+
+[Voici le lien : *analyse réflexive et auto-évaluation finale*](https://forms.office.com/r/UAsTLjY7Gw){ .md-button }

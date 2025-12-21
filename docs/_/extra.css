@@ -719,3 +719,24 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset a:not(.md-button, .headerlink) {
   text-decoration: underline;
 }
+
+.finishing nav.md-nav--secondary > .md-nav__list > .md-nav__item,
+.finishing nav.md-nav--primary > .md-nav__list > .md-nav__item {
+  border-top: 2px solid #272a35;
+  margin-top: 0.4em;
+}
+.finishing .md-nav--secondary .md-nav__title{
+  text-transform: uppercase;
+}
+
+.finishing .md-nav--secondary ul.md-nav__list ul.md-nav__list{
+  list-style: circle;
+  list-style-type: circle;
+}
+
+
+.ico-primary{
+  color: #ef5552
+}
+
+
