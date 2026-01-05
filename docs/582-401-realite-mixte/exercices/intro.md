@@ -21,8 +21,9 @@ Téléchargez ensuite cette image, vous en aurez besoin plus tard:
 
 - [ ] Ouvrez le Unity Hub et assurez-vous d'être dans la section Projects (que vous pouvez sélectionner à gauche).
 - [ ] Appuyez sur la flèche du bouton Open et choisissez Add project from disk.
-- [ ] Alors, depuis l'explorateur de fichier, trouvez le projet que vous venez de télécharger et appuyez sur Add Project.
+- [ ] Alors, depuis l'explorateur de fichier, trouvez le projet que vous venez de télécharger et appuyez sur Add Project. (Assurez-vous que le dossier n'est pas zippé)
 - [ ] Une fois que ce sera fait, le projet devrait apparaître dans la liste au centre de la page. Appuyez sur celui nommé MicroGame.
 - [ ] Suivez les instructions du tutoriel dans Unity.
 - [ ] Si le tutoriel ne commence pas automatiquement, allez dans la fenêtre Tutorials à droite et appuyez sur Débuter. 
+
 
