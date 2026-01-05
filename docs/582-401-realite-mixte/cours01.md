@@ -1,7 +1,7 @@
 # Cours 1 - Bienvenue!
 
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Efw48_SRKYlHi3SqARZBsHEBn5S2t8LBpLP8dHGOshbT4A?e=FiD9Xw){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button }   <br>
 
 ## Installation et base de Unity
 #### Création de compte
