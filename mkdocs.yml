@@ -509,9 +509,9 @@ extra_javascript:
   - _/tooltip.js
 
 plugins:
-  - offline
-  - tags
-  - typeset
+  - material/offline
+  - material/tags
+  - material/typeset
   - mkdocs-video:
       is_video: true
       video_autoplay: true
