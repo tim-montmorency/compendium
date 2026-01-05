@@ -37,7 +37,7 @@ Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibli
 - [📝 Créer un projet](./unity/creer_projet.md)
 - [📝 Fenêtres](./unity/fenetres.md)
 - [📝 Nomenclature](./unity/nomenclature.md)
-- [📝 Importer des *Assets* depuis le *Asset store*](./unity/creer_projet.md)        
+- [📝 Importer des *Assets* depuis le *Asset store*](./unity/importer_asset_store.md)        
 
 
 ## Réalité augmentée
