@@ -6,7 +6,7 @@ Cet exercice vous permettra de vous familiarisez avec la navigation et la créat
 
 ## Télécharger le projet
 
-Pour débuter, télécharger le projet vous pouvez trouver via le lien suivant:    
+Pour débuter, télécharger le projet que vous pouvez trouver via le lien suivant (Télécharger tout le dossier!):    
 
 [📁 Micro-game](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Erg3wE7WztdOj40pIqZBFEABlfohnVFDhipPNjSIATmPCw?e=VKcnuR){ .md-button }   <br>
 
@@ -25,3 +25,4 @@ Téléchargez ensuite cette image, vous en aurez besoin plus tard:
 - [ ] Une fois que ce sera fait, le projet devrait apparaître dans la liste au centre de la page. Appuyez sur celui nommé MicroGame.
 - [ ] Suivez les instructions du tutoriel dans Unity.
 - [ ] Si le tutoriel ne commence pas automatiquement, allez dans la fenêtre Tutorials à droite et appuyez sur Débuter. 
+
