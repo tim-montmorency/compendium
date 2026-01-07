@@ -1,121 +1,281 @@
-# Cours 1
+# Cours 1 | Intro
 
 [STOP]
 
+![](./assets/img/overprint-pinterest.png){.w-100}
+
 ## Présentation du plan de cours
 
-## Qu’est-ce que le design graphique ?
+## Quelques définitions
 
-C'est l'art de communiquer un message visuellement en combinant des images, du texte et des idées. Ça ne se limite pas à seulement « faire quelque chose de beau ».
+### Art
 
-Son objectif est de résoudre un problème de communication : comment faire comprendre une idée ou vendre un produit en un coup d'œil ?
+<div class="grid grid-1-2" markdown>
+![](./assets/img/feel.webp){data-zoom-image}
 
-* Art : souvent centré sur l’expression personnelle, l’interprétation libre.
-* Design graphique : centré sur un problème de communication à résoudre (but, cible, contraintes).
+<div markdown>
+Expression
 
-Supports typiques : Logos, affiches, emballages (packaging), magazines, cartes de visite, signalétique.
+> L'art est une expression personnelle. L'artiste crée pour exprimer une vision, une émotion ou une idée.
 
-Compétences clés : Théorie des couleurs, typographie, mise en page, branding.
+🎯 Poser des questions, choquer ou émouvoir.
+</div>
+</div>
 
-Outils principaux : Adobe Illustrator (vectoriel), Adobe InDesign (mise en page), Photoshop.
+### Graphisme
 
-### Design graphique Web
+<div class="grid grid-1-2" markdown>
+![](./assets/img/shapes-color.webp){data-zoom-image}
 
-Différences avec le design graphique classique : 
+<div markdown>
+Style et technique
 
-* Expérience interactive. L'utilisateur clique, scrolle, survole et navigue. Le design doit réagir à ces actions (ex: un bouton qui change de couleur au survol).
-* On travaille en basse résolution (72 PPI - pixels par pouce) pour l'écran. L'obsession est la légèreté : le site doit charger vite, donc les images doivent être optimisées.
-* On utilise le mode Rouge, Vert, Bleu. C'est de la lumière projetée par un écran. Note : Certaines couleurs très vives (néons) possibles sur écran sont impossibles à imprimer.
-* Responsive. Le design doit s'adapter automatiquement si l'utilisateur regarde le site sur un iPhone, une tablette ou un écran géant de 27 pouces. Le designer web ne dessine pas une seule version, il dessine un système qui s'adapte.
+> Le graphisme concerne la **mise en forme visuelle** : couleurs, formes, typographies, images et composition.
 
-### UI / UX
+🎯 Créer un objet visuel cohérent et esthétique.
+</div>
+</div>
 
-* Design graphique : visuel, composition, couleur, typographie, hiérarchie.
-* UI (User Interface) : design de l’interface (boutons, formulaires, navigation).
-* UX (User Experience) : expérience globale (parcours, fluidité, logique).
+### Design
 
-Dans ce cours, on touche un peu aux trois, mais focus sur le visuel.
+<div class="grid grid-1-2" markdown>
+![](./assets/img/blueprint.webp){data-zoom-image}
 
-### Rôle du design graphique
+<div markdown>
+Solution et utilité
 
-* Donner une première impression forte.
-* Guider le regard (où regarder en premier ? et après ?).
-* Rendre le contenu plus compréhensible et mémorable.
-* S’assurer que le style correspond à la marque et à la cible.
+> Le design est une **méthode de réflexion** pour répondre à un problème selon des **contraintes** (public, contexte, support, temps, budget, accessibilité, etc.).<br>
+> On recherche une solution pratique, simple, efficace.
 
-## Message, clientèle cible, contexte
+🎯 L'objet (ou l'image) fonctionne bien pour la personne qui l'utilise.
+</div>
+</div>
 
-### Message
+### Design graphique
 
-* Ce qu’on veut faire comprendre ou faire ressentir.
-* Souvent, ça se résume en 1–2 phrases simples.
+<div class="grid grid-1-2" markdown>
+![](./assets/img/domino_ok.webp){data-zoom-image}
+
+<div markdown>
+Mission !
+
+> Le design graphique est l'art de concevoir des images pour transmettre un message précis à un public, dans un contexte donné.<br>
+> C'est une communication visuelle qui se veut surtout **stratégique**.
+
+🎯 Convaincre, informer ou guider l'utilisateur rapidement.
+</div>
+</div>
+
+## Communication
+
+<figure markdown>
+![](./assets/img/steve-jobs-movie.jpg)
+<figcaption markdown>:simple-apple: Steve Jobs (2015)</figcaption>
+</figure>
+
+L'expertise du designer graphique, c'est la **communication**.
+
+Il faut savoir faire passer un **message** (ou une information) le plus **efficacement** possible.
+
+<div class="grid grid-1-1" markdown>
+<figure markdown>
+![](./assets/img/bad.avif){data-zoom-image}
+<figcaption>😨</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/img/good.avif){data-zoom-image}
+<figcaption>💅</figcaption>
+</figure>
+</div>
+
+### Quoi
+
+Qu'est-ce qu'on veut obtenir ?
+
+- Informer ?
+- Convaincre ?
+- Vendre ?
+- Faire agir (cliquer, s'inscrire, acheter) ?
+
+Le message, c'est :
+
+- Ce qu'on veut faire comprendre **ou** faire ressentir.
+- Souvent, ça se résume en 1–2 phrases simples.
 
 Exemples :
 
-> « Informer sur un événement qui s’en vient »
-> « Donner envie d’essayer un nouveau produit »
-> « Rassurer l’utilisateur sur la sécurité d’un service »
-	
-### Clientèle cible
-
-* À qui on s’adresse ?
-* Caractéristiques : âge, intérêts, niveau de connaissance, contexte d’utilisation.
-
-Exemples :
-
-> Adolescents qui jouent à des jeux vidéo
-> Parents avec de jeunes enfants
-> Professionnels qui n’ont pas beaucoup de temps
-
-### Contexte
-
-* Où et comment le visuel sera vu ?
-* Sur un cellulaire dans le métro ? Sur un écran d’ordi au travail ? Sur une affiche ?
-
-Conséquences sur :
-
-* la taille du texte
-* la quantité d’information
-* le contraste et la lisibilité
-
-### Objectifs de communication
-
-Informer ? Convaincre ? Vendre ? Faire agir (cliquer, s’inscrire, acheter) ?
-
-Un même produit peut avoir plusieurs objectifs, mais il faut en prioriser un.
+> « Informer sur un événement à venir »  <br>
+> « Donner envie d'essayer un nouveau produit »  <br>
+> « Rassurer l'utilisateur sur la sécurité d'un service »
 
 !!! example "Mini-exercice"
+	@todo : Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
 
-	Afficher 2 ou 3 visuels (sites, affiches, pubs) à l’écran.
-	
-        1.	Quel pourrait être le message principal ?
-        2.	Qui est la clientèle cible ?
-        3.	Dans quel contexte ce visuel est probablement vu ?
-	
-<!-- Noter quelques réponses pour montrer qu’il peut y avoir plusieurs interprétations, mais qu’on cherche à être le plus précis possible. -->
+<!-- Demander ce qu'est le message -->
 
-⸻
+### Comment
 
-3.4 Analyse collective de quelques exemples (≈ 25 min)
-Objectif : commencer à développer le regard critique.
+Comment faire passer le message ?
 
-Préparer à l’avance 4–6 visuels (ou pages Web) :
-	•	Quelques-uns bien conçus.
-	•	Quelques-uns avec des défauts évidents (trop de texte, contraste faible, hiérarchie confuse, etc.).
+- **Support / format**  
+  Affiche, story, bannière, landing page, packaging, écran en classe, panneau, etc.
+- **Ton et intention**  
+  Sérieux, ludique, premium, urgent, rassurant, institutionnel, etc.
+- **Stratégies visuelles (leviers)**  
+  - Hiérarchie (ce qui doit être vu en premier, deuxième, troisième)  
+  - Contraste (taille, couleur, densité, poids typographique)  
+  - Divulgation progressive (montrer l'essentiel, puis le détail)  
+  - Cohérence (styles, alignements, grilles, répétitions)  
+  - Accessibilité (lisibilité, tailles minimales, contrastes, clarté des icônes)
+- **Contraintes**  
+  Distance de lecture, lumière (extérieur/intérieur), temps d'attention, langue, normes, accessibilité, etc.
 
-Pour chaque visuel, guider l’analyse avec des questions simples :
-	1.	Où va votre œil en premier ? Est-ce voulu / logique ?
-	2.	Comprenez-vous rapidement de quoi il s’agit ?
-	3.	Est-ce que le texte est lisible (taille, contraste, police) ?
-	4.	Les couleurs semblent-elles cohérentes avec le sujet / la cible ?
-	5.	Est-ce que vous auriez envie d’interagir avec ce site / cette publicité ?
+!!! example "Mini-exercice"
+    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
+    1) Quel choix visuel aide vraiment le message ?  
+    2) Quel choix nuit au message ?
 
-Tu peux déjà évoquer (sans les détailler) les grands principes qu’on reverra plus tard :
-	•	C.R.A.P. (Contraste, Répétition, Alignement, Proximité)
-	•	Hiérarchie visuelle
-	•	Simplicité vs surcharge
+### Qui
 
+Pour communiquer un message, il faut comprendre **qui** le recevra et comment il sera interprété.
 
+On parle alors de **public cible** :
+
+- **Démographie** : âge, genre, localisation, revenu, niveau d'éducation, situation familiale.
+- **Psychographie** : intérêts, valeurs, attitudes, style de vie, loisirs, défis.
+- **Comportements** : habitudes d'achat, usage des réseaux sociaux, interaction avec le contenu.
+- **Besoins et problèmes** : que recherchent-ils ? quel problème le design peut-il aider à résoudre ?
+
+Exemples :
+
+> Adolescents qui jouent à des jeux vidéo  
+> Parents avec de jeunes enfants  
+> Professionnels qui n'ont pas beaucoup de temps
+
+!!! example "Mini-exercice"
+    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
+    - À qui ça s'adresse ? (donner 1–2 hypothèses)
+
+### Où / contexte
+
+Où et comment le visuel sera vu ?
+
+- Plateforme de diffusion (web, print, réseaux sociaux, signalétique, etc.)
+- Sur un cellulaire dans le métro ? Sur un écran d'ordi au travail ? Sur un panneau publicitaire ? Sur une montre ?
+
+Conséquences possibles sur :
+
+- la taille du texte
+- la quantité d'information
+- le contraste et la lisibilité
+- la vitesse de compréhension
+
+!!! example "Mini-exercice"
+    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
+    - Est-ce que c'est bien adapté au contexte ? Pourquoi ?
+
+### Quand
+
+Le **moment** influence la réception :
+
+- Saison (été, hiver), météo, luminosité
+- Périodes fortes : rentrée, examens, fêtes, Black Friday, etc.
+- Contexte social/culturel : tendances, fatigue publicitaire, sensibilités du moment
+
+!!! example "Mini-exercice"
+    À partir d'un même message :  
+    - Comment le visuel changerait en **rentrée** vs **période des fêtes** ?
+
+### En résumé
+
+- Pour qui est le message ?  
+- Quel effet on veut créer ?  
+- Quel contexte (où/quand) ?  
+- Quelle connotation le style apporte ?
+
+## Pièges
+
+### Cool et confus
+
+Un style peut être impressionnant… mais si le message est flou, le visuel échoue.
+
+### Connotation involontaire
+
+Exemple : Constructivisme russe
+
+- Références :  
+  - <https://en.wikipedia.org/wiki/Alexander_Rodchenko>  
+  - <https://www.seattletimes.com/entertainment/visual-arts/the-revolution-will-be-posted-soviet-street-art-at-the-frye-museum/>
+- Discussion :
+  - Qu'est-ce qui est intéressant visuellement ? (couleurs, typographie, dynamisme, diagonales, formes, etc.)
+  - Ce style évoque aussi une époque et un contexte (propagande, révolution, autorité, modernité industrielle).
+  - Le style apporte donc une **connotation** — parfois incompatible avec le message.
+
+> On éviterait d'utiliser un code visuel « propagande révolutionnaire » pour promouvoir un produit de maquillage, mais ce code peut être pertinent pour une affiche militante, une manifestation, un message d'action collective, etc.
+
+### Connotation erronée
+
+![](./assets/img/expo67.jpg){.w-50 data-zoom-image}
+
+C'est quoi « Expo Six Seven » ?
+
+!!! example "L'importance de la recherche en design"
+
+	Informez-vous sur les références que vous utilisez ! 
+
+	<https://imgops.com/>, LLM, Pinterest ou la bibliothèque 📚 du collège
+
+## Courants
+
+Art nouveau
+Constructivisme russe
+Bauhaus / De Stij
+Style suisse / Modernisme typographique
+
+Mecha japonais
+Cyberpunk
+
+## Composition
+
+En image, on fait comment ? Il existe des techniques.
+
+Vous connaissez sans doute C.R.A.P., mais une liste plus exhaustive aide à mieux observer et décrire.
+
+### Principes (leviers)
+
+- Alignement
+- Contraste
+- Équilibre
+- Hiérarchie
+- Couleurs
+- Le vide (espace "blanc")
+- Proportion
+- Répétition
+- Rythme
+- Mouvement
+- Accentuation
+- Proximité
+- Unité
+
+<!-- https://www.figma.com/resource-library/graphic-design-principles/ -->
+
+> Idée clé : ce ne sont pas des “règles esthétiques”, ce sont des **leviers** pour rendre le message plus clair, plus lisible et plus convaincant.
+
+!!! example "Mini-exercice"
+    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
+    - Quels principes vois-tu ? Quels principes manquent ?
+
+### Outils (matière première)
+
+- Couleurs
+- Textures
+- Typographie
+- Lignes et formes
+- Espacements
+- Images et illustrations
+
+<!-- https://www.figma.com/resource-library/what-is-graphic-design/#key-elements-of-graphic-design -->
 
 ## Figma 
 
@@ -169,110 +329,67 @@ Figma est offert gratuitement aux étudiantes et aux étudiants.
 Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collège Montmorency (Laval, Qc) » dans la liste sous "School".
 </div>
 
+### Introduction à Figma
 
+1. Aller sur figma.com  
+2. Se connecter  
+3. Créer un fichier **Design**  
+4. Renommer le fichier : `Cours01`  
+5. Renommer la **Page 1** : `Début`  
+6. Créer un **Frame** (équivalent d'un *artboard*)  
+7. Renommer le frame : `Test`
 
+#### Navigation (essentiels)
 
+- Déplacements et zoom
+- Ordre des calques (Layers)
+- Sélection, multi-sélection, verrouillage
+- Alignements et distribution
 
-	1.	Se connecter / créer un compte
-	•	Aller sur figma.com
-	•	Création de compte (ideal : compte avec adresse du cégep si possible)
-	2.	Créer un nouveau fichier
-	•	Bouton New design file
-	•	Renommer le fichier :
-	•	ex. 582-201 - Prénom Nom - Séance 1
-	3.	Interface de base
-	•	Zone de canvas au centre
-	•	Panneau de calques à gauche
-	•	Panneau de propriétés à droite
-	•	Barre d’outils en haut (Move, Frame, Shape, Pen, Text)
-	4.	Frames (artboards)
-	•	Outil Frame (F)
-	•	Choisir un format Desktop (ex. 1440 x 1024)
-	•	Renommer la frame : Moodboard S1
-	5.	Objets de base
-	•	Outil Rectangle (R), Ellipse (O)
-	•	Ajouter quelques formes, modifier Fill et Stroke
-	•	Outil Text (T) pour écrire un titre sur la frame
-	6.	Sauvegarde
-	•	Expliquer que Figma sauvegarde automatiquement, mais l’importance de :
-	•	nommer clairement ses fichiers
-	•	organiser les projets / dossiers (à détailler dans un autre cours)
+#### Formes (Shape tools)
 
-Tip : tu peux préparer un petit fichier « démo » à dupliquer en classe si tu vois que le groupe a du mal à suivre.
+**Rectangle**
 
-⸻
+- Panneau de droite (propriétés)
+- Carré avec ++shift++ (garde les proportions)
+- Coins arrondis
+- Grouper / dégrouper
+- Snap, alignement et distribution
+- Redimensionnement et rotation (outil Rotation : ++r++)
+- Flip horizontal / vertical (effet miroir)
 
-3.6 Atelier – Moodboard d’inspiration rapide (≈ 40 min)
-Objectif : amorcer un premier projet visuel simple, sans les bloquer sur la technique.
+**Ligne / Vector**
 
-Consigne générale :
+- Entrer en édition vectorielle : ++enter++ (ou double-clic)
+- Manipulations de tracé (points d'ancrage, courbes Bézier)
+- Opérations booléennes (Union, Soustraction, Intersection, etc.)
 
-Créez un moodboard pour un projet fictif, par exemple :
-	•	un café local qui veut moderniser son site Web
-	•	un festival de jeux vidéo
-	•	une petite marque de vêtements écoresponsables
+#### Propriétés visuelles
 
-L’objectif est de rassembler sur une même page des images, couleurs, typos et mots-clés qui représentent bien l’ambiance et la personnalité de ce projet.
+- Remplissages (solid, gradients)
+- Contours / tracés (stroke)
+- Effets (ombres, flou, etc.)
+- Opacité
 
-Étapes guidées en classe :
-	1.	Choix du thème
-	•	Tu peux :
-	•	imposer un thème à tout le monde
-	•	proposer 2–3 thèmes et laisser choisir
-	•	Demander :
-	•	Quel est le message principal ?
-	•	Qui est la clientèle cible ?
-	2.	Structure du moodboard dans Figma
-	•	Utiliser la frame Moodboard S1 créée plus tôt.
-	•	Créer :
-	•	une zone pour les images (captures, photos, textures)
-	•	une zone pour les couleurs (rectangles de couleur)
-	•	une zone pour des mots-clés / adjectifs (texte simple)
-	3.	Contenus à mettre sur le moodboard
-	•	4–6 images (capturées à partir de sites / portfolios, ou banques d’images libres – en donnant consignes de ne pas tout garder pour usage commercial, c’est pour l’inspiration).
-	•	2–3 idées de palettes de couleurs (3–5 couleurs chacune).
-	•	5–10 mots-clés décrivant l’ambiance (ex. chaleureux, minimaliste, énergique, rétro…).
-	4.	Accompagnement
-	•	Passer dans la classe pour :
-	•	aider à manipuler les images (drag & drop / copy-paste)
-	•	aider à aligner et organiser le contenu
-	•	rappeler qu’un moodboard n’a pas besoin d’être « parfait » : c’est un outil de travail
+#### Texte
 
-⸻
+- Outil texte
+- Styles de base : taille, graisse, interlignage, alignement
 
-3.7 Mise en commun & consignes du devoir (≈ 20 min)
-Mini-présentations spontanées (si le temps le permet)
-	•	Demander à 3–4 étudiant·es de partager brièvement leur moodboard :
-	•	Quel thème ?
-	•	Quel message / cible ?
-	•	Quel mot-clé ils ou elles trouvent le plus important ?
+#### Démonstrations rapides (idées)
 
-Devoir pour la séance 2
+- Jeux olympiques (formes + simplification)
+- Logo Figma (formes + opérations booléennes)
+- Triptique Piet Mondrian (grille + proportions + couleurs)
 
-À remettre à la prochaine séance :
-	•	Finaliser votre moodboard dans Figma (images, couleurs, mots-clés).
-	•	Ajouter un petit texte (3–5 lignes) dans un coin de la frame qui répond à ces questions :
-	1.	Quel est le message principal de votre futur site ?
-	2.	Quelle est la clientèle cible ?
-	3.	Dans quel contexte votre design sera surtout vu (mobile, desktop, rapide coup d’œil, lecture prolongée, etc.) ?
+#### Sauvegarde et bonnes pratiques
 
-Format de remise :
-	•	Lien Figma partagé selon tes consignes de cours (ex. déposer l’URL dans Moodle / Teams).
-	•	Nom du fichier standardisé, par exemple :
-582-201 - S1 Moodboard - Prénom Nom
+- Figma sauvegarde automatiquement **dans le cloud**.
+- Renommer clairement les fichiers, pages et frames (éviter “Untitled” / “Frame 1”).
+- Exporter au besoin (PNG/SVG/PDF) et (optionnel) exporter un fichier `.fig`.
 
-Tu peux préciser dans la grille de correction que ce devoir sera évalué plus tard (par exemple intégré à une note d’exercices), ou simplement compté comme participation si tu préfères garder les premières productions « low stakes ».
+> À venir prochainement : Auto-layout (mise en page) et styles/variables (cohérence).
+	
+## Exercices
 
-⸻
-
-4. Résumé prof (ce que tu veux absolument couvrir en Séance 1)
-	•	Présenter l’architecture du cours (ce qu’on va faire, avec quoi on sera évalué).
-	•	Ancrer l’idée que le design graphique sert à communiquer un message à une cible dans un contexte.
-	•	Faire au moins une analyse collective de visuels (développer l’œil).
-	•	S’assurer que tout le monde a un compte Figma fonctionnel et sait créer un fichier.
-	•	Lancer un premier moodboard qui servira d’appui pour les cours suivants.
-
-
-
-
-
+## Devoir
