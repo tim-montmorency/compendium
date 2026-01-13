@@ -4,8 +4,6 @@
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAaQOQo9VB_QY6yRdiU0c1PAYvsAmO9b44zECaYZx1xWxc?e=Nmf9FK){ .md-button }   <br>
 
 
-Matériel adéquat pour mon cours : disque et fils. <img width="439" height="14" alt="image" src="https://github.com/user-attachments/assets/9787cadf-8480-4f6d-8f7b-aa3db0be778c" />
-
 
 ## Présentation des règles du cours
 * Travail en équipe
