@@ -1,9 +1,10 @@
 # Cours 1 - Bienvenue!
 
+## Parcours professeure 
+[📁 Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww?e=XOgz9G%22%20\t%20%22_blank){ .md-button }   <br>
+
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAtHLgnFxMuS5s7IepU7D88AZWtpjclfKr1ZZc-2kDVWx8?e=5jusQy){ .md-button }   <br>
-
-
 
 ## Présentation des règles du cours
 
@@ -37,7 +38,7 @@
   * Matériel à avoir avec vous en tout temps
     * Obligatoirement avoir votre **disque dur SSD avec fil pour le prochain cours** 
     * Obligatoirement avoir avoir cette SD.
-  * Prévoir 40 $ pour matériel d'IA si nécessaire
+  * Prévoir 40 $ pour matériel d'IA si nécessaire pour le choix de la musique
 
   
 ## Contact et disponibilité du professeure
@@ -47,7 +48,18 @@
   
 ## Projet 1 
 * Explication du [projet 1](projet_01.md)
-* [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/Eanb1Rd6dcZFhLmPFDvnD_YBeqiVc978kvOhiuiebzwmOA?e=J98Iwu)
+* Exemple de projets
+ * [Vidéo 1 - Bon Entendeur](https://www.youtube.com/watch?v=SaKFO9p8inA)
+ * [Vidéo 2 - Bon Entendeur](https://www.youtube.com/watch?v=Q8jPd0RC3eI)
+ * [Vidéo 3 - Palmar](https://www.youtube.com/watch?v=kfzDMDSGcU0)
+ * [Vidéo 4 - Vallée et Duhamel](https://valleeduhamel.com/portfolio-item/xero/)
+ * [Vidéo 5 - LUCKY LOVE](https://www.youtube.com/watch?v=TMXf5mhDfW0)
+ * [Vidéo 6 - LUCKY LOVE](https://www.youtube.com/watch?v=OCw6wvro6K8)
+ * [Vidéo 6 - Angèle](https://www.youtube.com/watch?v=a79iLjV-HKw)
+ * [Vidéo 7 - Angèle](https://www.youtube.com/watch?v=vs61OHs2g-w)
+ * [Vidéo 8 - Aliocha](https://www.youtube.com/watch?v=LImtFVtONoU)
+
+* [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/IQBCcRGaodw0RavJlbfpe4e_AUBMLlgZh6vtFrFTKI3ul_w?e=g76jTV)
 
 ## L'esthétique visuelle 
 * [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g?e=Uri2m8)
@@ -58,9 +70,9 @@
 
   
 ## Devoir
-* Formater vos disques durs
-* Installer la version de [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/) à la maison.
 * Matériel à avoir avec soi en tout temps.
   * Obligatoirement avoir votre disque dur
   * Obligatoirement avoir avoir cette SD.
-
+* Formater vos disques durs
+* Installer la version de [Da Vinci 18.6.6](https://www.blackmagicdesign.com/support/) à la maison.
+* Trouver la musique
