@@ -3,18 +3,40 @@
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAaQOQo9VB_QY6yRdiU0c1PAYvsAmO9b44zECaYZx1xWxc?e=Nmf9FK){ .md-button }   <br>
 
+
+Matériel adéquat pour mon cours : disque et fils. <img width="439" height="14" alt="image" src="https://github.com/user-attachments/assets/9787cadf-8480-4f6d-8f7b-aa3db0be778c" />
+
+
 ## Présentation des règles du cours
-* Remise des travaux.
-   * Grilles d’évaluation.
-   * Nomenclature.
-* Absence à une évaluation, zéro en cas d'absence. 
-* Absence à un cours en studio. 
-* Retard et départ avant la fin du cours.
-* Utilisation du téléphone cellulaire.
-* Résolution des conflits.
-* Achat de matériel.
-    * Obligatoirement avoir votre disque dur avec tous les dossiers de vidéo partagé la dernière session. Si vous n'avez plus le dossier, vous avez la responsabilité de demander à un collège de vous transférer le dossier.
+* Travail en équipe
+  * Chaque étudiant(e) doit être présent(e) et impliqué(e).
+  * La note de groupe peut être ajustée individuellement.
+  * Un(e) étudiant(e) qui ne participe pas peut échouer le travail, même si l’équipe réussit.
+  * Conflit = manque de communications ou non respect des engagements
+
+* Tournages en studio
+  * Absence à un tournage = travail échoué, même si l’équipe réussit.
+  * Studio ou costumier non remis en état = pénalité de 20 % sur le travail et perte d’accès au studio pour les travaux suivants.
+
+* Ateliers en studio
+  * Absence à un atelier en studio = interdiction de tourner.
+
+* Évaluations en classe
+  *	Certaines évaluations se font uniquement en classe (présentations, visionnements, rétroactions).
+  *	L’étudiant(e) doit être présent(e) pour recevoir et commenter.
+  *	Être absent(e) = note de 0, même si le travail est remis en ligne.
+  *	Aucune reprise pour une évaluation faite en classe.
+
+* Retards et départs avant la fin
+  * Quitter avant la fin du cours équivaut à ne pas avoir participé à l’activité de fin de séance.
+  * Plus de 15 % d’absences = cours échoué.
+
+
+## Achat de matériel 
+  * Matériel à avoir avec vous en tout temps
+    * Obligatoirement avoir votre **disque dur SSD avec fil pour le prochain cours** 
     * Obligatoirement avoir avoir cette SD.
+  * Prévoir 40 $ pour matériel d'IA si nécessaire
 
   
 ## Contact et disponibilité du professeure
@@ -30,17 +52,16 @@
     * 1 équipe par studio (3, 4 ou 5 par équipe).
     * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00).
 
-## L'esthétique visuelle et sonore
+## L'esthétique visuelle 
 * [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g?e=Uri2m8)
-* [Le sonore](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EVYtu8fNOnNJnFoR1yifeygBMPQEWFQW_Ex9S52lYviJqw?e=bwPmiA)
 
 
 ## La caméra
 * [Équipe et étapes de production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ?e=hwqIaq)
-* [La caméra et les settings](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETcDqse5CwlGi2FD-pF9RTUB38DuY9r-ZPDg-AE0bWkw1Q?e=WwcC5d)
 
+  
 ## Devoir
-* Scénarisation de votre projet
+* Formater vos disques durs
   * Moodboards : un moodboard pour la direction du projet et un moodboard pour la lumière. 
   * Listes des choses que vous allez tourner et enregistrer.
 * Réviser [Les bases de la vidéo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EsS5H-R9oIZGpS_T2LlU9sgB8p_AnoTlfrmvkf6aAoBrzA?e=cZqVH6)
