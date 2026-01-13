@@ -1,7 +1,7 @@
 # Cours 1 - Bienvenue!
 
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAaQOQo9VB_QY6yRdiU0c1PAYvsAmO9b44zECaYZx1xWxc?e=Nmf9FK){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAtHLgnFxMuS5s7IepU7D88AZWtpjclfKr1ZZc-2kDVWx8?e=5jusQy){ .md-button }   <br>
 
 
 
