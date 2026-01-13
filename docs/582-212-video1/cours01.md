@@ -29,7 +29,7 @@
   *	Aucune reprise pour une évaluation faite en classe.
 
 * Retards et départs avant la fin
-  * Quitter avant la fin du cours équivaut à ne pas avoir participé à l’activité de fin de séance.
+  * Quitter avant la fin du cours équivaut à une absence. 
   * Plus de 15 % d’absences = cours échoué.
 
 
