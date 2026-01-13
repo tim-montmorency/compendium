@@ -1,8 +1,8 @@
 # Cours 1 | Intro
 
-[STOP]
-
 ![](./assets/img/overprint-pinterest.png){.w-100}
+
+[STOP]
 
 ## Présentation du plan de cours
 
@@ -66,7 +66,15 @@ Mission !
 </div>
 </div>
 
-## Communication
+#### Design graphique Web
+
+- 100% numérique
+- Interactivité
+- Médias animés (gif, vidéo, animation)
+- Accessibilité
+- Responsive
+
+## L'approche
 
 <figure markdown>
 ![](./assets/img/steve-jobs-movie.jpg)
@@ -89,34 +97,35 @@ Il faut savoir faire passer un **message** (ou une information) le plus **effica
 </figure>
 </div>
 
-### Quoi
+[Source](https://nikkisylianteng.com/parking)
+
+Par conséquent, il faut savoir poser les bonnes questions !
+
+<!-- https://www.youtube.com/@SatoriGraphics -->
+
+### Quoi / Objectif
 
 Qu'est-ce qu'on veut obtenir ?
 
 - Informer ?
-- Convaincre ?
+- Convaincre ? 
 - Vendre ?
 - Faire agir (cliquer, s'inscrire, acheter) ?
 
-Le message, c'est :
+!!! example "Quel est le message ?"
+    ![](./assets/img/pub-scrabble.webp){data-zoom-image .w-25}
+    <!-- Image/jeu. -> nécessite de déchiffrer. Amateur de puzzles. Vendre ou cliquer. -->
 
-- Ce qu'on veut faire comprendre **ou** faire ressentir.
-- Souvent, ça se résume en 1–2 phrases simples.
+    ![](./assets/img/underground.gif){data-zoom-image .w-25} [:fontawesome-solid-location:](./assets/img/underground-geo.avif)
+    <!-- Abandonne la précision géographique au profit d'un schéma. Influencé par Harry Beck, métro londre -->
 
-Exemples :
+<!-- Site, affiche, pub -->
 
-> « Informer sur un événement à venir »  <br>
-> « Donner envie d'essayer un nouveau produit »  <br>
-> « Rassurer l'utilisateur sur la sécurité d'un service »
-
-!!! example "Mini-exercice"
-	@todo : Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
-
-<!-- Demander ce qu'est le message -->
-
-### Comment
+### Comment / Stratégie
 
 Comment faire passer le message ?
+
+Par les principes de design graphique, le média choisi, les contraintes, etc.
 
 - **Support / format**  
   Affiche, story, bannière, landing page, packaging, écran en classe, panneau, etc.
@@ -136,7 +145,7 @@ Comment faire passer le message ?
     1) Quel choix visuel aide vraiment le message ?  
     2) Quel choix nuit au message ?
 
-### Qui
+### Qui / Public cible
 
 Pour communiquer un message, il faut comprendre **qui** le recevra et comment il sera interprété.
 
@@ -157,7 +166,7 @@ Exemples :
     Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
     - À qui ça s'adresse ? (donner 1–2 hypothèses)
 
-### Où / contexte
+### Où / Contexte
 
 Où et comment le visuel sera vu ?
 
@@ -171,11 +180,12 @@ Conséquences possibles sur :
 - le contraste et la lisibilité
 - la vitesse de compréhension
 
-!!! example "Mini-exercice"
-    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
-    - Est-ce que c'est bien adapté au contexte ? Pourquoi ?
+!!! example "-"
 
-### Quand
+    ![](./assets/img/pub-adidas.webp){data-zoom-image}
+    <!-- Le magazine, en le consultant, on simule l'exercice de gym -->
+    
+### Quand / Stratégie
 
 Le **moment** influence la réception :
 
@@ -194,73 +204,63 @@ Le **moment** influence la réception :
 - Quel contexte (où/quand) ?  
 - Quelle connotation le style apporte ?
 
-## Pièges
+## Connotation involontaire
 
-### Cool et confus
+Formes : https://reallygooddesigns.com/bad-graphic-design/
+Styles : Constructivisme russe <https://en.wikipedia.org/wiki/Alexander_Rodchenko>
+À l'inverse, si on invente quelque chose, par exemple l'exposition 6-7, vérifier avant s'il y a des corrélations.
 
-Un style peut être impressionnant… mais si le message est flou, le visuel échoue.
+Parfois, c'est juste une question de culture générale.
 
-### Connotation involontaire
+![](./assets/img/bali-swastika.jpg){.w-25}
 
-Exemple : Constructivisme russe
+https://fr.wikipedia.org/wiki/Svastika
 
-- Références :  
-  - <https://en.wikipedia.org/wiki/Alexander_Rodchenko>  
-  - <https://www.seattletimes.com/entertainment/visual-arts/the-revolution-will-be-posted-soviet-street-art-at-the-frye-museum/>
-- Discussion :
-  - Qu'est-ce qui est intéressant visuellement ? (couleurs, typographie, dynamisme, diagonales, formes, etc.)
-  - Ce style évoque aussi une époque et un contexte (propagande, révolution, autorité, modernité industrielle).
-  - Le style apporte donc une **connotation** — parfois incompatible avec le message.
+### Désinvolture
 
-> On éviterait d'utiliser un code visuel « propagande révolutionnaire » pour promouvoir un produit de maquillage, mais ce code peut être pertinent pour une affiche militante, une manifestation, un message d'action collective, etc.
+Rater la cible : en design graphique, la désinvolture a un poids.
 
-### Connotation erronée
+<iframe height="300" style="width: 100%;" scrolling="no" title="Ma en chinois" src="https://codepen.io/tim-momo/embed/EayPJZZ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/tim-momo/pen/EayPJZZ">
+  Ma en chinois</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+      </iframe>
 
-![](./assets/img/expo67.jpg){.w-50 data-zoom-image}
+### Parfaire sa culture
 
-C'est quoi « Expo Six Seven » ?
+![](./assets/img/History-of-Graphic-Design.webp){data-zoom-image}
 
-!!! example "L'importance de la recherche en design"
+Il est pertinent de comprendre les origines d'une oeuvre, pour comprendre ses règles et sa signigication.
 
-	Informez-vous sur les références que vous utilisez ! 
+!!! info "Comprendre ce qu'on fait"
+	Si vous vous inspirez d'oeuvre existantes, informez-vous sur leur provenance ou sur leur courant artistique.
 
-	<https://imgops.com/>, LLM, Pinterest ou la bibliothèque 📚 du collège
+	<https://imgops.com/>, LLM, Pinterest ou carrément à la bibliothèque 📚
 
-## Courants
+## Techniques
 
-Art nouveau
-Constructivisme russe
-Bauhaus / De Stij
-Style suisse / Modernisme typographique
+Vous connaissez déjà l'accronyme [C.R.A.P.](https://www.digitallearninginstitute.com/blog/visual-design-for-digital-learning-c-r-a-p-principles)
 
-Mecha japonais
-Cyberpunk
-
-## Composition
-
-En image, on fait comment ? Il existe des techniques.
-
-Vous connaissez sans doute C.R.A.P., mais une liste plus exhaustive aide à mieux observer et décrire.
+![](./assets/img/crap.png){data-zoom-image}
 
 ### Principes (leviers)
 
-- Alignement
-- Contraste
-- Équilibre
-- Hiérarchie
-- Couleurs
-- Le vide (espace "blanc")
-- Proportion
-- Répétition
-- Rythme
-- Mouvement
-- Accentuation
-- Proximité
-- Unité
+![](./assets/img/principes-of-design.png){data-zoom-image}
 
-<!-- https://www.figma.com/resource-library/graphic-design-principles/ -->
+En vrai, il n’y a pas de recettes universelles, mais on observe des principes récurrents qui augmentent les chances qu’un visuel soit efficace.
 
-> Idée clé : ce ne sont pas des “règles esthétiques”, ce sont des **leviers** pour rendre le message plus clair, plus lisible et plus convaincant.
+Alignement, contraste, équilibre, hiérarchie, couleurs, espacements, proportions, répétition, rythme, mouvement, accentuation, proximité, unité.
+
+!!! warning "Ce ne sont pas des « règles esthétiques »…"
+    En tout cas, pas que ! 
+	
+	Ce sont des **leviers** pour rendre un message plus clair, lisible et convaincant. Un peu comme une boîte à outils du designer.
+
+	---
+
+    Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.
+
+	![](./assets/img/bad-average-good.jpg){data-zoom-image .w-25}
 
 !!! example "Mini-exercice"
     Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
@@ -348,8 +348,6 @@ Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collè
 
 #### Formes (Shape tools)
 
-**Rectangle**
-
 - Panneau de droite (propriétés)
 - Carré avec ++shift++ (garde les proportions)
 - Coins arrondis
@@ -357,12 +355,6 @@ Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collè
 - Snap, alignement et distribution
 - Redimensionnement et rotation (outil Rotation : ++r++)
 - Flip horizontal / vertical (effet miroir)
-
-**Ligne / Vector**
-
-- Entrer en édition vectorielle : ++enter++ (ou double-clic)
-- Manipulations de tracé (points d'ancrage, courbes Bézier)
-- Opérations booléennes (Union, Soustraction, Intersection, etc.)
 
 #### Propriétés visuelles
 
@@ -385,11 +377,28 @@ Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collè
 #### Sauvegarde et bonnes pratiques
 
 - Figma sauvegarde automatiquement **dans le cloud**.
-- Renommer clairement les fichiers, pages et frames (éviter “Untitled” / “Frame 1”).
+- Renommer clairement les fichiers, pages et frames (éviter "Untitled" / "Frame 1").
 - Exporter au besoin (PNG/SVG/PDF) et (optionnel) exporter un fichier `.fig`.
-
-> À venir prochainement : Auto-layout (mise en page) et styles/variables (cohérence).
 	
 ## Exercices
 
+@à venir
+
+
 ## Devoir
+
+@à venir
+
+
+
+
+<!-- Exercice 1 : Autopsie d’un visuel (en duo)
+	•	Tu projettes 2–3 pubs/sites/affiches.
+	•	Ils remplissent une mini-fiche : objectif, cible, contexte, 3 choix visuels qui aident, 1 choix qui nuit.
+
+Exercice 2 : Reproduction guidée dans Figma
+	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
+
+Devoir (≈50 min)
+	•	Mini analyse (1 page) + capture ou lien Figma :
+	•	1 visuel choisi + "Quoi/Qui/Où/Quand/Comment" + 3 choix justifiés. -->
