@@ -68,7 +68,7 @@
 * Vidéo 9 — Aliocha : [Voir la vidéo](https://www.youtube.com/watch?v=LImtFVtONoU)
 
 ### Formation des équipes
-* [Document de formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/IQBCcRGaodw0RavJlbfpe4e_AUBMLlgZh6vtFrFTKI3ul_w)
+* [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/IQBCcRGaodw0RavJlbfpe4e_AUBMLlgZh6vtFrFTKI3ul_w)
 
 ## L’esthétique visuelle
 * [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
