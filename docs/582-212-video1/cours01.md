@@ -7,7 +7,8 @@
 
 ## Présentation des règles du cours
 
-* Respect et attitude professionnelle
+* Respect, attitude professionnelle et ouverture face à la critique
+  * Cet aspect sera évalué. 
 * Travail en équipe
   * Chaque étudiant(e) doit être présent(e) et impliqué(e).
   * La note de groupe peut être ajustée individuellement.
