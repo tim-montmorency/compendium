@@ -1,4 +1,11 @@
+---
+tags: 
+  - Exercice
+---
+
 # Pattern
+
+@todo à compléter
 
 ## Résultat attendu
 
