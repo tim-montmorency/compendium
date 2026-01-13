@@ -390,7 +390,12 @@ Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collè
 @à venir
 
 
+[STOP]
 
+https://ca.pinterest.com/pin/4081455907260227/
+https://ca.pinterest.com/pin/5277724559555692/
+https://ca.pinterest.com/pin/5770305768309354/?e_t=e9be1fa1d99845e186b77b0e115dcff8&news_hub_id=3132778126799650496&utm_campaign=hfdigestpins&utm_content=5770305768309354&utm_medium=2004&utm_source=31&utm_term=16
+https://reallygooddesigns.com/80s-graphic-design/
 
 <!-- Exercice 1 : Autopsie d’un visuel (en duo)
 	•	Tu projettes 2–3 pubs/sites/affiches.
@@ -402,3 +407,4 @@ Exercice 2 : Reproduction guidée dans Figma
 Devoir (≈50 min)
 	•	Mini analyse (1 page) + capture ou lien Figma :
 	•	1 visuel choisi + "Quoi/Qui/Où/Quand/Comment" + 3 choix justifiés. -->
+

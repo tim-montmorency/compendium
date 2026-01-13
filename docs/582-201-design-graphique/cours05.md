@@ -4,6 +4,8 @@
 
 LOGO
 
+Logo TIM (où sont les lettres)
+
 Charte graphique
 https://www.cmontmorency.qc.ca/college/logos-et-normes-graphiques/
 
