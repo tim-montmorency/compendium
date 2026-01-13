@@ -5,6 +5,24 @@ hide:
 
 # Design graphique
 
+![](./assets/img/intro.jpg){.w-100 .vfx-on-clic}
+
+<script type="module">
+  import { VFX } from "https://esm.sh/@vfx-js/core";
+  const img = document.querySelector(".vfx-on-clic");
+  img.style.cursor = 'pointer';
+  const vfx = new VFX();
+  let on = false;
+  img.addEventListener("click", () => {
+    on = !on;
+    if (on) {
+      vfx.add(img, { shader: "glitch", overflow: 30 });
+    } else {
+      vfx.remove(img);
+    }
+  });
+</script>
+
 ## Descriptif du cours
 
 Ce cours permet d’acquérir des notions en design et d’expérimenter des processus créatifs. L’élève produit des visuels qui correspondent aux tendances actuelles en graphisme et qui s’harmonisent au contexte du message et d'un produit Web.
@@ -19,7 +37,7 @@ Au terme de ce cours, l’élève conçoit des produits communicationnels cohér
 | Heures d’enseignement | 45      |
 | Session               | 3       |
 
-[Plan de cours :material-download:](./assets/documents/plan-cours-design-graphique-h2026.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/582201MO-Design-graphique-H26.pdf){ .md-button .md-button--primary }
 
 ## Attitudes professionnelles
 

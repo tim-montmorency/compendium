@@ -7,7 +7,7 @@
 
 ## Session 2
 
-* [582-201 | Design graphique](./582-201–design-graphique/index.md)
+* [582-201 | Design graphique](./582-201-design-graphique/index.md)
 * [582-211 | Web 2](./582-211-web2/index.md)
 * [582-214 | Animation 2D](./582-214-animation2d-jf-mm/index.md)
 
