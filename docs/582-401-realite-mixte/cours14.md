@@ -1,4 +1,7 @@
 # Cours 14
+
+[STOP]
+
 ## 🚨 Remise préliminaire des projets finaux
 Contrôle de la qualité des projets et tests de présentation au Grand studio.     
 

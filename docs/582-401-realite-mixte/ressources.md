@@ -1,25 +1,29 @@
 # Répertoire de ressources
 
-
 ## Unity
-#### Installation
+
+### Installation
+
 - [Création de compte](https://id.unity.com/en/account/new)
 - [Installation du logiciel](installation/telechargement.md)
 - [Ajout de modules](installation/modules.md)
 - [Activer une licence](installation/license.md)
 
-#### Débuter son projet
+### Débuter son projet
+
 - [Créer un projet](unity/creer_projet.md)
 - [Fenêtres](unity/fenetres.md)
 - [Nomenclature](unity/nomenclature.md)
 - [Importer des *Assets* depuis le *Asset store*](unity/importer_asset_store.md)
 
-#### Développer sur Android
+### Développer sur Android
+
 - [Changer sa plateforme de développement pour Android](installation/configuration.md)
 - [Utiliser Unity remote pour visualiser le résultat sur son téléphone](installation/unity-remote.md)
 - [Exporter son jeu sur Android](unity/build.md)
 
-#### L'inspecteur
+### L'inspecteur
+
 - [Les composantes](unity/composantes.md)
   - [Transform](unity/composantes.md#transform)
   - [Sprite renderer](unity/composantes.md#sprite-renderer)
@@ -40,24 +44,28 @@
 - [Modifier la police](unity/font.md)
 - [Calques - *Sorting layers*](unity/sorting_layers.md)
 
-#### Fenêtre animation
+### Fenêtre animation
+
 - [Transitions entre les scènes](unity/transitions.md)
 
-#### Réalité augmentée
+### Réalité augmentée
+
 - [Ajout de Vuforia dans le projet Unity](realite-augmentee/vuforia_unity.md)
 - [Importer les images de détection dans Unity](realite-augmentee/importer_detection.md)
 - [Créer une caméra de détection dans Unity](realite-augmentee/camera_detection.md)
 - [Détecter une image dans Unity](realite-augmentee/detecter_image.md)
 - [Déclencher des éléments à partir d'une détection](realite-augmentee/declencher_detection.md)
 
-#### Animation de sprite sheet
+### Animation de sprite sheet
+
 - [Importer la *sprite sheet*](unity/anim_import.md)
 - [*Animator controller*](unity/anim_controller.md)
 - [*Animator*](./unity/anim_animator.md)
 - [Fenêtre animation](./unity/fenetre_anim.md)
 - [Animation de *Sprite sheet*](./unity/animation.md)
 
-#### Code
+### Code
+
 - [Les variables](code/variables.md)
   - [Int](code/variables.md#int)
   - [Float](code/variables.md#float)
@@ -89,7 +97,7 @@
 - [Déplacement de la caméra et du joueur](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWdo4xAPmEVGkE2bubEdFN0B9IbA-EwjbAlXnEWqW6ZI3w?e=5KWhuU)
 - [Modifier un matériel avec le script](code/materiel_code.md)
 
-#### Bibliothèque d'exemples de code en Unity
+### Bibliothèque d'exemples de code en Unity
 
 - [Projet Unity avec exemples](https://github.com/tim-montmorency/bibliotheque-exemples)
 - [Navigation AI avec NavMesh](code/bibliotheque_exemples.md#la-navigation-ai-avec-navmesh)
@@ -103,82 +111,102 @@
   - [Changer les propriétés de l'UI à partir d'un script](code/bibliotheque_exemples.md#changer-les-proprietes-de-lui-a-partir-dun-script)
 - [Création et destruction d'objets (Spawn et despawn)](code/bibliotheque_exemples.md#creation-et-destruction-dobjets)
 
-#### Fenêtre projet
+### Fenêtre projet
+
 - [Prefabs](unity/prefabs.md)
 
-#### Faire jouer une vidéo
+### Faire jouer une vidéo
+
 - [Jouer une vidéo](unity/video-creation.md#creer-un-gameobject-pour-faire-jouer-la-video)
 
-#### Éclairage
+### Éclairage
+
 - [Éclairage](unity/eclairage.md)
 
-#### Matériaux
+### Matériaux
+
 - [Matériaux](unity/materiaux.md)
 - [Miroir](unity/miroir.md)
 
-#### Physique
+### Physique
+
 - [Matériaux physiques](unity/physique_material.md)
 - [Hinge joint - Pont et porte](unity/physique.md)
 
-#### Particules
+### Particules
+
 - [Paramètres des particules](unity/particules.md)
 - [Animation d'une sprite sheet avec des particules](unity/particules_sprite.md)
 
-#### Effets spéciaux
+### Effets spéciaux
+
 - [Post processing](unity/postprocessing.md)
 - [VFX](unity/vfx.md)
 - [Eau](unity/eau.md)
 
-#### Tir de projectile
+### Tir de projectile
+
 - [Tir](unity/tir.md)
 
-#### Réalité virtuelle
-##### Configurer la VR dans votre projet
+### Réalité virtuelle
+
+#### Configurer la VR dans votre projet
+
 - [Importer les paquets pour la VR](unity/configuration_vr.md)
 - [Intégrer le casque de VR à une scène](unity/xr_origin.md)
 - [Problèmes de joueur](https://youtu.be/prcvO0z74hg?si=Sp3bYpGNY5YHsDeP)
 - [Tester avec un clavier et une souris](unity/test_clavier.md)
 
-##### Interagir avec les manettes et l'environnement
+#### Interagir avec les manettes et l'environnement
+
 - [Prendre et lancer des objets](unity/interaction_vr.md)
 - [Méthode de sélection des objets](unity/methode_selection.md)
 - [XR socket - Socle pour les objets](unity/xr_socket.md)
 - [Mains VR](unity/vr_mains.md)
 
-##### Se déplacer en réalité virtuelle
+#### Se déplacer en réalité virtuelle
+
 - [Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
 - [Téléportation](unity/teleportation.md)
 - [Grimper](unity/grimper.md)
 - [Sauter](unity/sauter.md)
 - [Ascenseur](unity/ascenseur.md)
 
-##### Canvas
+#### Canvas
+
 - [Canvas en VR](unity/ui_vr.md)
 
-##### Audio
+#### Audio
+
 - [Audio en VR](unity/audio_vr.md)
 
 ## OSC
+
 - [Configuration de l'OSC](osc/configuration.md)
 - [Réception d'OSC](osc/recevoir.md)
 - [Envoi d'OSC](osc/envoyer.md)
 
 ## Spout 
+
 - [Envoi de flux vidéo de Unity via Spout](unity/spout.md)
 
 ## Quest
+
 - [Le casque de VR](unity/quest.md)
 - [Guardian - Créer une limite de jeu](unity/guardian.md)
 - [Meta Quest Link - Relier le casque et l'ordinateur](unity/meta_quest_link.md)
 
 ## GitHub
+
 - [Collaboration sur un projet Unity avec Github](unity/github.md)
 
 ## Création de visuels
+
 - [Sprites](unity/sprite.md)
 - [Vidéos](unity/video.md)
 
 ## Vuforia
+
 - [Création de compte](realite-augmentee/compte_vuforia.md)
 - [Création d'une license](realite-augmentee/license_vuforia.md)
 - [Créer de bonnes images de détection](realite-augmentee/detection.md)
@@ -189,6 +217,7 @@
 - [Importation d'objets 3D dans Unity](unity/Importation3D.md)
 
 ## Modèles 3D
+
 - [Donjon](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVbP42OTXHxIi2BA4lpLO-0Br1QqZyi6_HFFBJTFf4Er0g?e=Dy174s)
 - [Fantaisie](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/ESAhgRY5NWVMssSuucGOJK4BD2jhRTc06G0cH6XRp6nmjw?e=8i1izP)
 - [Espace](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EYK1_f5Y22NHoiYN-gaHTSQBsiP2sA3XKSFIpavqGjlWgg?e=46Aeov)

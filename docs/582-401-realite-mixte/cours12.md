@@ -1,5 +1,7 @@
 # Cours 12
 
+[STOP]
+
 ## Sortie - Visite de groupe à Mondes disparus
  
 Lieu :  2 rue de la Commune Ouest      

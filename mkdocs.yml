@@ -147,19 +147,19 @@ nav:
       - Cours 2: 582-401-realite-mixte/cours02.md
       - Cours 3: 582-401-realite-mixte/cours03.md
       - Cours 4: 582-401-realite-mixte/cours04.md
-      - 3 mars: 582-401-realite-mixte/3mars.md
+      # - 3 mars: 582-401-realite-mixte/3mars.md
       - Cours 5: 582-401-realite-mixte/cours05.md
       - Cours 6: 582-401-realite-mixte/cours06.md
       - Cours 7: 582-401-realite-mixte/cours07.md
       - Cours 8: 582-401-realite-mixte/cours08.md
       - Cours 9: 582-401-realite-mixte/cours09.md
       - Cours 10: 582-401-realite-mixte/cours10.md
-      - 21 avril: 582-401-realite-mixte/21avril.md
-      - Cours 11 - 23 avril: 582-401-realite-mixte/cours11.md
+      # - 21 avril: 582-401-realite-mixte/21avril.md
+      - Cours 11: 582-401-realite-mixte/cours11.md
       - Cours 12: 582-401-realite-mixte/cours12.md
       - Cours 13: 582-401-realite-mixte/cours13.md
       - Cours 14: 582-401-realite-mixte/cours14.md
-      - Cours 15 - 20 mai: 582-401-realite-mixte/cours15.md
+      - Cours 15: 582-401-realite-mixte/cours15.md
       - Ressources: 582-401-realite-mixte/ressources.md
   - Web 4:
       - 582-411-web4/index.md
@@ -177,7 +177,7 @@ nav:
       - Cours 12: 582-411-web4/cours12.md
       - Cours 13: 582-411-web4/cours13/index.md
       - Cours 14: 582-411-web4/cours14/index.md
-      - Cours 15: 582-411-web4/cours15/index.m
+      - Cours 15: 582-411-web4/cours15/index.md
   - Web 5:
       - 582-511-web5/index.md
       - CSS Grid:
