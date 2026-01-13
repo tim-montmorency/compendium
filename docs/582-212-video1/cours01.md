@@ -6,6 +6,8 @@
 
 
 ## Présentation des règles du cours
+
+* Respect 
 * Travail en équipe
   * Chaque étudiant(e) doit être présent(e) et impliqué(e).
   * La note de groupe peut être ajustée individuellement.
