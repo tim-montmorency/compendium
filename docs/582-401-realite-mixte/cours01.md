@@ -1,47 +1,52 @@
 # Cours 1 - Bienvenue!
 
 ## Plan de cours
-[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button }   <br>
 
-## Installation et base de Unity
-#### Création de compte
+[:material-download: Plan de cours Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
 
-Rendez-vous sur le site suivant pour créer votre compte:   
-[🛠️ Unity](https://id.unity.com/en/account/new){ .md-button }  
+[:material-download: Plan de cours Jean-François](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
 
-#### S'inscrire au Unity student plan
+## Unity
 
-Appuyer sur enseignement supérieur:     
+![](./images/unity.png){.w-100}
 
-[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }  
+### Créer un compte Unity
 
-#### Ajouter le Sampler pack de synty studio à vos assets     
+- [ ] [Créer un identifiant Unity](https://id.unity.com/en/account/new)
+- [ ] S'inscrire au [Unity student plan](https://unity.com/products/unity-student) en cliquant sur « **enseignement supérieur** »
 
-Vous devriez recevoir un code par courriel pour ajouter ce paquet à votre bibliothèque gratuitement:     
+### Ajouter le _Sampler pack_ de Synty Studios à vos assets
 
-[🛠️ Polygon Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-207048){ .md-button }     
+Vous devriez recevoir un code par courriel pour ajouter **gratuitement** le paquet [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-207048) à votre bibliothèque.
 
+- [ ] Ajouter _Sampler Pack_ à vos assets
 
-#### Téléchargement de Unity
-- [📝 Installation du logiciel](./installation/telechargement.md)
-- [📝 Ajout de modules](./installation/modules.md)
-- [📝 Activer une licence](./installation/license.md)    
+### Télécharger Unity
 
-           
+- [ ] [Installer le logiciel](./installation/telechargement.md){.back}
+- [ ] [Ajouter des modules](./installation/modules.md){.back}
+- [ ] [Activer une licence](./installation/license.md){.back}    
 
-## Intro à l'éditeur 
-[🛠️ Exercice d'introduction à Unity](./exercices/intro.md){ .md-button }       
+## Introduction à Unity
 
+<div class="grid grid-1-2" markdown>
+  ![](./images/chat-preview.png)
 
-## Retour en groupe sur Unity
-- [📝 Créer un projet](./unity/creer_projet.md)
-- [📝 Fenêtres](./unity/fenetres.md)
-- [📝 Nomenclature](./unity/nomenclature.md)
-- [📝 Importer des *Assets* depuis le *Asset store*](./unity/importer_asset_store.md)        
+  <small>Exercice - Unity</small><br>
+  **[Intro](./exercices/intro.md){.stretched-link .back}**
+</div>
 
+### Retour en groupe
+
+- [:pencil: Créer un projet](./unity/creer_projet.md){.back}
+- [:pencil: Fenêtres](./unity/fenetres.md){.back}
+- [:pencil: Nomenclature](./unity/nomenclature.md){.back}
+- [:pencil: Importer des *Assets* depuis le *Asset store*](./unity/importer_asset_store.md){.back}
 
 ## Réalité augmentée
-#### Test d'exemples de livres en AR
+
+### Test d'exemples de livres en AR
+
 Livres:      
 
 - Slush le lutin
@@ -50,31 +55,28 @@ Livres:
 
 ## Travail 1
     
-[💼 Travail 1](./travaux/travail1.md){ .md-button }   
+[💼 Travail 1](./travaux/travail1.md){ .md-button .back }   
 
-#### Création de visuels
-- [📝 Sprite](./unity/sprite.md)
-       
+### Création de visuels
 
-#### Réflexion sur la thématique de votre travail 1
+- [📝 Sprite](./unity/sprite.md){.back}
+
+### Réflexion sur la thématique de votre travail 1
+
 Tempête d'idées   
 
+## Devoir
 
-## Devoir 
-#### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
-[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels-et-recherche-de-contenu){ .md-button }   
+### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
 
-#### Réaliser l'étape 1 du travail 1
-[💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){ .md-button }   
+[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels-et-recherche-de-contenu){.back}
 
-#### S'inscrire au Unity student plan
+### Réaliser l'étape 1 du travail 1
 
-Appuyer sur enseignement supérieur:     
+[💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){.back}
 
-[🛠️ Student Plan](https://unity.com/products/unity-student){ .md-button }  
-    
+### S'inscrire au Unity student plan
 
-                     
-           
+Appuyer sur enseignement supérieur : 
 
-
+[🛠️ Student Plan](https://unity.com/products/unity-student){.back}
