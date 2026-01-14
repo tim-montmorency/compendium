@@ -13,7 +13,7 @@ En résumé, voici les étapes pour créer un objet interactif:
 
 Sur la composante XR Grab Interactable, il y a en bas complètement une catégorie événement. Lorsque vous l'ouvrez vous pouvez déclencher des éléments précis lorsque votre objet atteint certains stages. Par exemple, si vous prenez votre objet et que vous appuyez sur la gachette, vous pourriez déclencher quelque chose.   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KljYJ8an1dU?si=LmdERAx5lstY23Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/KljYJ8an1dU?si=LmdERAx5lstY23Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       
 

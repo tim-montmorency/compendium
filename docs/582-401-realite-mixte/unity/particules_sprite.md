@@ -3,7 +3,7 @@ Ici, on utilise l'animation de Sprite Sheet pour créer de la fumée dans Unity.
 
 [📁 Fichier de base Photoshop](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef8BiNB-HThNlw4ECnKykfMBOJoLYdTIP1aEh30nMRkL2w?e=zhyxSc){ .md-button }   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eub9QMYbS0U?si=4LhGsPcKw2-sWfc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/eub9QMYbS0U?si=4LhGsPcKw2-sWfc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 

@@ -16,6 +16,6 @@ Il existe plusieurs modes "Guardian", le premier est la limite **Roomscale**. C'
 - [ ] Suivez ensuite les étapes du Guardian pour redessiner la zone de jeu.
       
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxF2-rlt0IY?si=W4MNCkrnkY_PcGte" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/GxF2-rlt0IY?si=W4MNCkrnkY_PcGte" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       

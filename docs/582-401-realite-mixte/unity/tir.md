@@ -10,4 +10,4 @@ Voici les scripts:
 
 
 Et le tutoriel:   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p9BQZbpFJpc?si=uYeEnwEreT_9_sPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/p9BQZbpFJpc?si=uYeEnwEreT_9_sPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

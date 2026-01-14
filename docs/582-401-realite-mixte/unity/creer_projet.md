@@ -24,4 +24,4 @@ Quelques paramètres sont à modifier dans la fenêtre qui s'ouvre:
 ## Tutoriel 🎥   
 De 0:00 à 1:30 vous verrez comment créer votre projet:     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=9XZNLg02X9keYz5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=9XZNLg02X9keYz5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

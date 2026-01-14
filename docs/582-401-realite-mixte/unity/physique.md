@@ -6,7 +6,7 @@ Dans Unity, il existe un système de physique qui peut nous aider à controller 
 
 Dans ce tutoriel, nous allons explorer la mécanique d'une porte avec un **Hinge Joint** pour permettre à la porte de s'ouvrir et se fermer.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o4wmlcrBF74?si=Q35INM4N8A0oL5-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/o4wmlcrBF74?si=Q35INM4N8A0oL5-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Tutoriel écrit
 
@@ -53,4 +53,4 @@ Voici les étapes à suivre :
 
 Dans ce tutoriel, nous explorerons le fonctionnement du Hinge joint pour créer un pont avec des planches indépendantes reliées entre elles.   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_j9J9VltPj4?si=n2c0SWbqyPC7kvHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/_j9J9VltPj4?si=n2c0SWbqyPC7kvHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

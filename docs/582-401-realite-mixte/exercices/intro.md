@@ -25,7 +25,7 @@ Cet exercice vous permettra de vous familiariser avec la navigation et la créat
 
 - [ ] Ouvrez Unity Hub et assurez-vous d’être dans la section `Projects` (à gauche).
 - [ ] Cliquez sur le bouton `Add`, puis choisissez `Add project from disk`.
-- [ ] Dans l’explorateur de fichiers, trouvez le projet que vous venez de télécharger, puis cliquez sur `Add Project`. (Assurez-vous que le dossier n’est pas compressé (.zip).)
+- [ ] Dans l’explorateur de fichiers, trouvez le projet que vous venez de télécharger, puis cliquez sur `Open`. 
 - [ ] Une fois terminé, le projet devrait apparaître dans la liste au centre de la page. Cliquez sur celui nommé `MicroGame`.
 - [ ] Suivez les instructions du tutoriel dans Unity.
 - [ ] Si le tutoriel ne commence pas automatiquement, allez dans la fenêtre `Tutorials` à droite et cliquez sur `Débuter`.

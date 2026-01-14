@@ -13,4 +13,4 @@ Voici comment faire:
 - [ ] Procédez de la même façon pour créer toutes vos animations. Pour créer une nouvelle animation, appuyez sur le nom de votre animation à gauche de la fenêtre Animation, puis sélectionnez Create New Clip. Pour revoir les animations déjà créées, vous avez seulement à cliquer sur leur nom dans cette liste, puis à appuyer sur Play.
 
 ## Tutoriel 🎥
- <iframe width="560" height="315" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=nmmAM2Wx5Qp-HZAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=nmmAM2Wx5Qp-HZAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
