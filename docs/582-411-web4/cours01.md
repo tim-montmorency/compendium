@@ -372,6 +372,6 @@ En multilingue, n'oubliez pas aussi de corriger la structure des URL.
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/wordpress-playground.webp)
 
-  <small>Essayer WordPress</small><br>
+  <small>Essayer Wordpress</small><br>
   **[Wordpress Playground](https://wordpress.org/playground/){.stretched-link .back}**
 </div>
