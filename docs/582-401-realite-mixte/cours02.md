@@ -1,6 +1,5 @@
 # Cours 2
 
-[STOP]
 
 ## Bloc 1
 
