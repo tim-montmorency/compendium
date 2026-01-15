@@ -1,6 +1,5 @@
 # Cours 6
 
-[STOP]
 
 ## Retour sur le travail 1
 
