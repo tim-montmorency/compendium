@@ -9,7 +9,7 @@ Cet exercice vous permettra de vous familiariser avec la navigation et la créat
 
 ## Téléchargements
 
-- [ ] [Télécharger le projet Microgame](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Erg3wE7WztdOj40pIqZBFEABlfohnVFDhipPNjSIATmPCw?e=VKcnuR) et décompressez le fichier zip
+- [ ] [Télécharger le projet Microgame](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgDDTe4PWYQjQqArBeGTLuIaAQzE-bKyyrLdDlGrxgcGMoc?e=ipJPHc) et décompressez le fichier zip
 
 <figure markdown>
 ![](../images/microgame-download.png){data-zoom-image}
@@ -29,3 +29,4 @@ Cet exercice vous permettra de vous familiariser avec la navigation et la créat
 - [ ] Une fois terminé, le projet devrait apparaître dans la liste au centre de la page. Cliquez sur celui nommé `MicroGame`.
 - [ ] Suivez les instructions du tutoriel dans Unity.
 - [ ] Si le tutoriel ne commence pas automatiquement, allez dans la fenêtre `Tutorials` à droite et cliquez sur `Débuter`.
+
