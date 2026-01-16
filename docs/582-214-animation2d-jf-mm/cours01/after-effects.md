@@ -2,7 +2,7 @@
 
 ![](../assets/images/ae-banner.png)
 
-## Qu'est-ce donc ?
+## Qu'est-ce c'est ?
 
 * Logiciel d'animation et d'effets visuels.
 * Utilisé dans la production vidéo, la création d'animations graphiques et les effets spéciaux.
