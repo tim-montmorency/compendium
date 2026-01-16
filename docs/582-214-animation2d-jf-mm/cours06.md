@@ -1,6 +1,6 @@
 # Cours 6
 
-
+[STOP]
 
 ## Exposition des finissants TIM: Résonance
 Du lundi 17 mars au vendredi 21 mars aux studios TIM !
