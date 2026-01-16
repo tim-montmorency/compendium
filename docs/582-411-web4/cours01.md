@@ -377,7 +377,7 @@ En multilingue, n'oubliez pas aussi de corriger la structure des URL.
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/wordpress-playground.webp)
+  ![](./assets/images/wooclap.jpg)
 
   <small>Défi – Trouve où c’est</small><br>
   **[Wooclap]([https://wordpress.org/playground](https://app.wooclap.com/events/BNUNGN/live-session)/){.stretched-link .back}**
