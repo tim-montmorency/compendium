@@ -1,3 +1,4 @@
+[STOP]
 ## Introduction à l’environnement AMP (Apache, MySQL, PHP)
 
 AMP : Acronyme pour Apache, MySQL et PHP, utilisé pour simuler un serveur sur son ordinateur ou, communément appelé, en local.
