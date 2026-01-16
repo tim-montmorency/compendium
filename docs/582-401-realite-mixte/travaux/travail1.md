@@ -1,6 +1,6 @@
 
 
-Pour le travail 1, vous devrez produire une application simple en réalité augmentée. Celle-ci devra contenir une scène menu et une scène de détection. Vous devrez produire deux images détectables par votre application. 
+Pour le travail 1, vous devrez produire une application simple en réalité augmentée. Celle-ci devra contenir une scène menu et une scène de détection. Vous devrez produire trois images détectables par votre application. 
 
 !!! warning "Attention"
 
@@ -15,35 +15,19 @@ Votre travail devra contenir les éléments suivants:
 - [ ] Dans votre écran d’introduction, vous devez créer un menu consignes avec au moins deux pages qui contiennent du texte qui explique les règles et les contrôles. Vous devez pouvoir alterner entre ces pages.
 - [ ] Lorsqu'on clique sur le bouton crédits, les crédits de votre jeu doivent apparaître. 
 - [ ] Lorsqu’on clique sur le bouton pour démarrer le jeu, une nouvelle scène doit être chargée.
-- [ ] Dans la scène de jeu, on doit avoir un bouton qui charge la scène menu.
-- [ ] Vous devez dessiner vos propres visuels pour les boutons ainsi qu'un fond pour votre menu principal.
-- [ ] La scène de jeu montre une nouvelle image à balayer à chaque 5 secondes. 
-- [ ] Lorsque la bonne image est détectée, elle s'anime et un point s'ajoute à votre pointage.
-- [ ] Lorsque le joueur atteint 5 points, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu.  
-- [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
-- [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
-- [ ] Vous devez personnaliser l’ouverture de l’application avec une image ou en changeant la couleur. Vous devez également personnaliser l'icône de l'application.
+- [ ] Dans la scène de jeu, on doit avoir un bouton qui charge la scène menu pour revenir au menu.
+- [ ] Vous devez dessiner vos propres visuels pour les boutons ainsi qu'un fond pour votre menu principal ou construire les visuels à l'aide d'assets de Kenney.nl.
+- [ ] La scène de jeu montre la silhouette de l'image à construire avec les formes en papier. 
+- [ ] Lorsque la bonne image est détectée, elle s'anime et la progression apparaît à l'écran (Slider ou image).
 - [ ] Un son doit être activé en même temps que l’animation. Il doit être différent pour chaque animation.
-- [ ] Langue : votre expérience doit être en français.
+- [ ] Lorsque le joueur a détecté les trois images, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu ou de recommencer le jeu.  
+- [ ] Vous devez personnaliser l’ouverture de l’application avec une image ou en changeant la couleur. Vous devez également personnaliser l'icône de l'application.
+- [ ] Langue : votre expérience doit être en français et ne pas contenir de faute.
 - [ ] La remise doit être en format exporté (i.e. build).
 
        
 ## Thématique
-La thématique est libre. L'important est que vous créiez vos propres sprites et vos sons. Vos sprite sheet doivent contenir au minimum neuf images. La fonctionnalité ainsi que le design du jeu seront évalués.    
-
-Voici quelques pistes d'inspiration: 
-Générer une palette dans Coolors et créer un projet à partir de celle-ci: 
-
-[📁 Coolors](https://coolors.co/){ .md-button }       
-
-Créer une affiche animée à partir de ces inspirations: 
-
-[📁 Pinterest](https://pin.it/5dXguOqAu){ .md-button }       
-
-Voici un site qui donne des idées de thématiques: 
-
-[📁 Inspiration](https://davebirss.com/inspiration/){ .md-button }       
-
+La thématique est libre. L'important est que vous créiez vos propres images. La fonctionnalité ainsi que le design du jeu seront évalués.    
 
 
        
@@ -54,19 +38,19 @@ Voici un exemple de l'expérience que vous allez produire:
 
        
 ## Contenus à inclure
-**Visuel en mouvement**
-
-- [ ] 2 animations avec une durée de au moins 9 frames chaque.
-
-Pour composer ces animations, vous pouvez utiliser (et modifier) les images de personnage disponibles sur [kenney.nl](https://kenney.nl/).
-
 **Visuel statique**
 
-- [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile.
+- [ ] 3 images de détection qu'on pourra scanner avec un appareil mobile. (Vous pouvez prendre en photo vos assemblages de papier et les utiliser comme visuel statique).
+- [ ] 3 silhouettes vectorielles. (Vous devez reproduire la silhouette des images de détection en format vectoriel).
+- [ ] Des formes en carton que vous produirez, puis que vous recréérez en vectoriel. Vous pouvez changer les couleurs et appliquer des textures sur les formes vectorielles. 
 - [ ] Des visuels pour les boutons.
 - [ ] Des visuels pour le menu.
 
-Pour les images à scanner, vous pouvez combiner et modifier différentes images disponibles à l'adresse [kenney.nl](https://kenney.nl/). Par exemple, vous pouvez faire un collage pour placer un personnage dans un certain environnement.
+**Visuel en mouvement**
+
+- [ ] 3 animations réalisées dans Unity qui contiennent au moins 5 keyframes chacune. 
+
+Pour composer ces animations, vous devez reproduire vos formes de carton en vectoriel, puis les importer dans Unity. 
 
 **Police de caractère**
 
@@ -74,7 +58,7 @@ Pour les images à scanner, vous pouvez combiner et modifier différentes images
 
 **Sonore**
 
-- [ ] 2 sons qui accompagneront les animations.
+- [ ] 3 sons qui accompagneront les animations.
 
 _Rappel_ : Pour les médias sonores (musique, effets sonores, échantillons sonores) et la police de caractères, vous pouvez utiliser des sources libres de droits et qui doivent être bien créditées sur le jeu.
 
@@ -84,22 +68,17 @@ _Rappel_ : Pour les médias sonores (musique, effets sonores, échantillons sono
 Voici étape par étape comment créer votre travail 1. Les notes de cours reliées à chaque étape vous expliquerons plus en détail comment faire. Elles sont disponibles via les mots soulignés en rouge.   
 
 ### 0. Création des éléments visuels et recherche de contenu
-- [ ] Téléchargez le modèle illustrator suivant:    
-[📁 Modèle TP1](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ef0Aoqi7gUBKsiMOzLyTfmwBFaCH06hkjcFkerENbBs9sw?e=d0JAnG){ .md-button }      
-
-Créez ensuite les contenus suivants à l'aide de la vidéo:     
-
-- [ ] 2 animations avec une durée de au moins 9 frames chaque. (Exports en PNG24)
-- [ ] 2 images de détection qu'on pourra scanner avec un appareil mobile. (Exports en JPG)
-- [ ] Des visuels pour les boutons et le menu. (Exports en PNG24)
+Créez les contenus suivants:     
+- [ ] Plusieurs formes aux arrêtes droites en carton. 
+- [ ] 3 images de détection qu'on pourra scanner avec un appareil mobile. (JPG) Pour créer ces images, assemblez vos formes de carton et prenez l'assemblage en photo. Idéalement, redimensionnez ensuite vos photo au format carré (1024 x 1024 ou 2048 x 2048 sont idéals).
+- [ ] Créez la silhouette vectorielle de vos images de détection. (PNG24)
+- [ ] Recréez toutes vos formes de carton au format vectoriel. Vous pouvez changer les couleurs, ajouter des détails ainsi que des textures. (PNG24)
+- [ ] Créez ou trouvez des visuels pour les boutons et le menu. Les visuels de vos boutons doivent être en harmonie avec vos images de détection. (PNG24)
 
 Recherchez ensuite les éléments suivants (Libres de droit):     
-
 - [ ] Trouver une police de caractère et la télécharger (pour le menu et les messages).
 - [ ] 2 sons qui accompagneront les animations.
 
-**Tutoriel 🎥**
-<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/_GDZf-k5oV8?si=OOCTZ1Rc2fMEF75N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. Création du projet
 
