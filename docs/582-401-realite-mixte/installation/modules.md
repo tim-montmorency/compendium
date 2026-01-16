@@ -11,7 +11,7 @@ Si vous avez oublié de cocher **Visual Studio Community** lors du téléchargem
 - [ ] Assurez-vous d’être dans la section `Installs` de Unity Hub.
 - [ ] Trouvez la version à modifier, puis cliquez sur l’engrenage à droite.
 - [ ] Choisissez `Add module`, puis cochez les modules à installer.
-- [ ] Cliquez sur `Install`.
+- [ ] Cliquez sur `Continue`.
 
 ## Tutoriel 🎥
 
