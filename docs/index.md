@@ -9,6 +9,7 @@
 
 * [582-201 | Design graphique](./582-201-design-graphique)
 * [582-211 | Web 2](./582-211-web2)
+* [582-212 | Vidéo 1](./582-212-video1)
 * [582-214 | Animation 2D](./582-214-animation2d-jf-mm)
 
 ## Session 3
