@@ -1,27 +1,29 @@
 # Compendium
 
-* [Domaines du multimédia](./582-101–domaines-multimedias/index.md)
-* [Web 1](./582-111-web1/index.md)
-* [Illustration numérique](./582-121–illustration-numerique/index.md)
-* [Illustration numérique Gab](./582-121–illustration-numerique-gab/index.md)
-* [Audio 1](./582-131–audio1/index.md)
-* [Design Graphique](./582-201–design-graphique/index.md)
-* [Web 2](./582-211-web2/index.md)
-* [Vidéo 1](./582-212-video1/index.md)
-* [Animation 2D](./582-214–animation2d/index.md)
-* [Animation 2D H2025](./582-214-animation2d-jf-mm/index.md)
-* [Interactivité ludique](./582-301-interactivite-ludique/index.md)
-* [Web 3](./582-311-web3/index.md)
-* [Vidéo 2](./582-312–video2/index.md)
-* [Modélisation 3D](./582-314–modelisation3d/index.md)
-* [Réalité mixte](./582-401-realite-mixte/index.md)
-* [Web 4](./582-411-web4/index.md)
-* [Traitement audiovisuel](./582-412–traitement-audiovisuel/index.md)
-* [Animation 3D](./582-414–animation3d/index.md)
-* [Conception expérience multimédia](./582-501–conception-experience-multimedia/index.md)
-* [Web 5](./582-511-web5/index.md)
-* [Installation multimédia](./582-521–installation-multimedia/index.md)
-* [Objets interactifs](./582-531–objets-interactifs/index.md)
-* [Controle qualité](./582-533-controle-qualite/index.md)
-* [Préparation en milieu de travail](./582-541–preparation-milieu-travail/index.md)
-* [Expérience multimédia](./582-601–experience-multimedia/index.md)
+## Session 1
+
+* [582-111 | Web 1](./582-111-web1)
+* [582-121 | Illustration numérique](./582-121–illustration-numerique)
+
+## Session 2
+
+* [582-201 | Design graphique](./582-201-design-graphique)
+* [582-211 | Web 2](./582-211-web2)
+* [582-212 | Vidéo 1](./582-212-video1)
+* [582-214 | Animation 2D](./582-214-animation2d-jf-mm)
+
+## Session 3
+
+* [582-311 | Web 3](./582-311-web3)
+* [582-312 | Vidéo 2](./582-312–video2)
+
+## Session 4
+
+* [582-401 | Réalité mixte](./582-401-realite-mixte)
+* [582-411 | Web 4](./582-411-web4)
+
+## Session 5
+
+* [582-511 | Web 5](./582-511-web5)
+* [582-533 | Controle qualité](./582-533-controle-qualite)
+* [582-541 | Préparation en milieu de travail](./582-541–preparation-milieu-travail)

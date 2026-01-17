@@ -16,4 +16,4 @@ Dans Unity, les sockets sont des endroits spécifiques sur lesquels on peut dép
 - [ ] Ensuite, sélectionnez votre socle, puis dans Interaction Layer Mask, sélectionnez uniquement le layer que vous venez de créer.
 - [ ] Dans tous vos autres objets sélectionnables, assurez-vous que le nouveau layer mask n'est pas coché, sinon ils pourront interagir avec votre socle.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VCxaXsLxTs0?si=5_tT8E2khmVc8E0G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/VCxaXsLxTs0?si=5_tT8E2khmVc8E0G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

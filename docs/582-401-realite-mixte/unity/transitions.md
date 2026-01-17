@@ -3,7 +3,7 @@ Dans Unity, il est possible de créer des transitions entre les scènes. En VR, 
       
 
 ## Tutoriel vidéo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48Nk8qGfrmA?si=OmcLt2G9ZMjN-Va1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/48Nk8qGfrmA?si=OmcLt2G9ZMjN-Va1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       
 

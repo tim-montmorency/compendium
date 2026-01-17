@@ -1,5 +1,7 @@
 # Cours 2      
 
+[STOP]
+
 ## Bases de l’animation
 
 ### Prévisualisation et flux de travail

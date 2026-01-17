@@ -9,11 +9,15 @@
 
 Un CMS (Content Management System) c'est un outil qui permet de créer, organiser et gérer des contenus sans programmation ! Il est composé d'un gros paquet de fichiers de programmation qui permet d'exécuter plein de fonctionnalités.
 
-Voici une liste non exhautive de CMS populaires[^cms] :
+!!! info "Info"
+
+    WordPress est utilisé par 60 % des sites web dont nous connaissons le système de gestion de contenu. Cela représente 42,8 % de l'ensemble des sites web .
+
+![](./assets/images/best-cms.png){data-zoom-image}
+
+### Voici une liste non exhautive de CMS populaires[^cms] :
 
 [^cms]: [Liste des 15 CMS les plus populaires](https://www.wpbeginner.com/showcase/best-cms-platforms-compared/)
-
-https://w3techs.com/technologies/details/cm-wordpress
 
 * :simple-wordpress: Wordpress (open-source)
 * :simple-drupal: Drupal (open-source)
@@ -25,7 +29,11 @@ https://w3techs.com/technologies/details/cm-wordpress
 * :simple-blogger: Blogger
 * :simple-wix: Wix
 
-Voici un aperçu rapide de ce à quoi ressemble le CMS wordpress :
+### Constructeur de pages les plus populaire pour Wordpress
+
+![](./assets/images/page-builders.png){data-zoom-image}
+
+### Voici un aperçu rapide de ce à quoi ressemble le CMS wordpress :
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/wp-dashboard.png){data-zoom-image}
@@ -66,7 +74,7 @@ Voici quelques-unes des fonctionnalités clés que l’on retrouve généralemen
 
 > ... plutôt que d'utiliser le bon vieux duo HTML et CSS?
 
-C'est que créer un site Web complet, entièrement à la main, peut être long et compliqué. De plus, pour faire la gestion d'une site, ne serait-ce que pour changer une virgule, il faut être capable de lire le code ainsi que savoir comment programmer. Les CMS démocratisent la gestion de site Web, car ils offrent une interface compréensible pour le commun des mortels.
+C'est que créer un site Web complet, entièrement à la main, peut être long et compliqué. De plus, pour faire la gestion d'une site, ne serait-ce que pour changer une virgule, il faut être capable de lire le code ainsi que savoir comment programmer. Les CMS démocratisent la gestion de site Web, car ils offrent une interface compréhensible pour le commun des mortels.
 
 Voici quelques avantages à l'usage de CMS :
 
@@ -113,7 +121,7 @@ WordPress est un CMS open-source permettant de créer et de gérer des sites Web
 
     * Créé en 2003 par Matt Mullenweg et Mike Little
     * Initialement conçu pour faire des blogues, il est devenu la plateforme CMS la plus utilisée au monde
-    * Aujourd’hui, WordPress alimente plus de 40 % des sites Web
+   
 
 ### Avantages de WordPress
 
@@ -125,7 +133,9 @@ WordPress est un CMS open-source permettant de créer et de gérer des sites Web
 
 ### Licence GPL
 
-WordPress est sous licence GPL. Voici les trois avantages principaux :
+WordPress est sous licence <b>GPL</b> (General Public License). 
+
+Voici les trois avantages principaux :
 
 * Vous pouvez utiliser WordPress comme bon vous semble **sans aucune restriction**.
 * Vous pouvez personnaliser, ajouter ou supprimer tout ce que vous n’aimez pas dans WordPress sans aucune restriction.
@@ -145,68 +155,230 @@ WordPress.com appartient à Automattic, une société privée dirigée par Matt 
 | Nom de domaine   | Sous-domaine gratuit (ex. : votresite.wordpress.com)               | Nécessite un domaine personnalisé (ex. : votresite.com) |
 | Publicité        | Publicité imposée sur les plans gratuits                           | Pas de publicité imposée                                |
 
+
+## Structure des fichiers de Wordpress
+
+
+```txt
+votre-site-web/
+          └──   index.php
+          └──   license.txt
+          └──   readme.html
+          └──   activate.php
+          └──   wp-admin/
+          └──   wp-blog-header.php
+          └──   wp-comments-post.php
+          └──   wp-config-sample.php
+          └──   wp-config.php
+                wp-content/
+                    └──  index.php
+                    └──  languages/
+                    └──  plugins/
+                    └──  themes/
+                    └──  upgrade/
+                    └──  uploads/
+          └──   wp-cron.php
+          └──   wp-includes/
+          └──   wp-links-opml.php
+          └──   wp-load.php
+          └──   wp-login.php
+          └──   wp-mail.php
+          └──   wp-settings.php
+          └──   wp-signup.php
+          └──   wp-trackback.php
+          └──   xmlrpc.php
+```
+
+## L'interface
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/menu-haut-gauche.png){data-zoom-image}
+
+  Barre d’administration WordPress
+</div>
+
+### Barre d’administration WordPress
+
+=== "Logo WordPress"
+
+    **Donne accès au site officiel de WordPress et aux ressources :**
+
+    - WordPress.org
+    - Documentation
+    - Forums
+    
+    Permet aussi de voir la version actuelle de WordPress.
+
+=== "Maison (Accueil / Nom du site)"
+    - Affiche le nom de votre site.
+    - Cliquer dessus ouvre le site public (front-end).
+    - Menu déroulant : accès rapide à Tableau de bord, et parfois aux pages ou articles récents.
+
+=== "Symboles 💬"
+
+    - Commentaire / Chat : notifications de commentaires récents, mentions ou interactions.
+    - Cliquer dessus ouvre la liste des commentaires pour modérer ou répondre.
+    - D’autres icônes peuvent apparaître selon les plugins ou thèmes (ex. notifications SEO, mise à jour plugins).
+
+=== "Menu « + Créer »"
+
+    - Permet de créer rapidement :
+    - Article
+    - Page
+    - Médias
+    - Utilisateur
+    - Éléments personnalisés (selon le thème ou les plugins)
+    - Gain de temps pour accéder directement aux fonctions principales.
+
+### Menu principal
+![](./assets/images/menu-gauche.png){data-zoom-image}
+
+=== "Tableau de bord"
+
+    **Tableau de bord :**
+
+    - Accueil : vue d’ensemble du site (statut, activités récentes, notifications).
+    - Mises à jour : mises à jour de WordPress, thèmes, extensions et traductions.
+
+
+=== "Articles"
+    
+    **Articles :**
+
+    - Tous les articles : liste et gestion des articles du blogue.
+    - Ajouter : création d’un nouvel article.
+    - Catégories : organisation des articles par thèmes.
+    - Étiquettes : mots-clés pour affiner le classement.
+    
+    👉 **Principalement utilisé pour le blog ou l’actualité.**
+
+=== "Pages"
+    
+    **Pages :**
+
+    - Toutes les pages : gestion des pages statiques (Accueil, À propos, Contact).
+    - Ajouter : création d’une nouvelle page.
+    
+    👉 **Contrairement aux articles, les pages ne sont pas chronologiques.**
+
+=== "Commentaires"
+    
+    **Commentaires :**
+
+    -  Modération des commentaires laissés par les visiteurs.
+    -  Actions : approuver, répondre, supprimer, marquer comme indésirable.
+
+=== "Apparence"
+    
+    **Apparence :**
+
+    - Thèmes : installer, activer ou personnaliser un thème.
+    - Personnaliser : options visuelles (couleurs, logo, menus, widgets).
+    - Widgets / Blocs : gestion des éléments dans les zones du site.
+    - Menus : création et gestion des menus de navigation.
+    - Éditeur (FSE) : édition complète du site (thèmes blocs).
+   
+=== "Extensions"
+    
+    **Extensions :**
+
+    - Extensions installées : activer, désactiver ou supprimer des plugins.
+    - Ajouter : installer de nouvelles extensions.
+    - Éditeur d’extensions : modifier le code (⚠️ **à éviter en production**).
+
+
+=== "Comptes (Utilisateurs)"
+
+    **Comptes (Utilisateurs) :**
+    
+    - Ajouter : créer un nouvel utilisateur.
+    - Tous les comptes : gestion des utilisateurs.
+    
+    👉 **Rôles courants : Administrateur, Éditeur, Auteur, Contributeur, Abonné.**
+
+=== "Outils"
+    
+    **Outils :**
+
+    - Outils disponibles : import/export de contenu.
+    - Importer : contenu depuis un autre site ou CMS.
+    - Exporter : sauvegarde du contenu.
+    - Santé du site : diagnostic technique et recommandations.
+    - Exportation des données personnelles : conformité RGPD.
+
+
+=== "Réglages"
+    
+    **Réglages :**
+
+    - Général : titre du site, slogan, langue, fuseau horaire.
+    - Écriture : paramètres de publication.
+    - Lecture : page d’accueil, affichage des articles.
+    - Discussion : paramètres des commentaires.
+    - Médias : tailles d’images.
+    - Permaliens : structure des URLs.
+
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/menu-haut-droite.png){data-zoom-image}
+
+  Menu utilisateur / Profil
+</div>
+
+### Menu utilisateur / Profil
+
+=== "Menu utilisateur / Profil"
+
+À l’extrême droite, avec le nom ou avatar de l’utilisateur connecté :
+
+    - Modifier le profil
+    - Déconnexion
+    - Préférences d’écran
+
+Peut inclure des raccourcis pour les notifications, messages ou extensions installées.
+
+
+
+## Pingbacks et trackbacks
+
+Tant qu'à être dans le grand ménage du printemps, supprimez les pingbacks et trackbacks et désactivez les.
+
+![](./assets/images/Deactivating-trackbacks-and-pingbacks-Source-WP-Rocket-.png){data-zoom-image}
+
+## Page ou article ?
+
+Utilise un “article” (_post_) si le contenu est chronologique, dynamique[^dyn] et catégorisé (ex: articles de blog, actualités).
+
+Utilise une “page” si le contenu est statique et intemporel (ex: “À propos”, “Contact”, “Services”).
+
+[^dyn]: Qui pourrait être mis à jour régulièrement.
+
+## Gestion des URL
+
+![](./assets/images/permaliens.png){data-zoom-image}
+
+En multilingue, n'oubliez pas aussi de corriger la structure des URL.
+
+
+
 ## Lexique à connaître
 
 * **Thèmes** : Un thème détermine l’apparence visuelle et la mise en page d’un site. Il peut être modifié sans affecter le contenu.
 * **Plugins** : Les plugins ajoutent des fonctionnalités (ex. : formulaires, SEO, sécurité). Exemple : [Yoast SEO](https://en-ca.wordpress.org/plugins/wordpress-seo/) pour le référencement, [WooCommerce](https://en-ca.wordpress.org/plugins/woocommerce/) pour l’e-commerce.
 
-## Introduction à l’environnement AMP (Apache, MySQL, PHP)
 
-AMP : Acronyme pour Apache, MySQL et PHP, utilisé pour simuler un serveur sur son ordinateur ou, communément appelé, en local.
-
-* Apache : Serveur Web permettant de tester votre site en local.
-* MySQL : Base de données où sont stockées toutes les informations du site (pages, utilisateurs, contenus).
-* PHP : Langage de programmation côté serveur utilisé par WordPress.
-
-Outils courants
-
-* XAMPP (Windows / Mac / Linux)
-* **MAMP** (Windows / Mac)
-* WAMP (Windows)
-
-### Serveur
-
-Qu’est-ce qu’un serveur ?
-
-Un serveur est un **ordinateur** ou un **programme** qui **fournit des services** à d'autres **ordinateurs**, appelés clients, via un **réseau** (souvent internet).
-
-!!! info "Le saviez vous?"
-
-    Lorsque vous utilisez l'extension Live Server dans Visual Studio Code (VS Code)
-
-    [:octicons-broadcast-24: Go live](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
-    vous créez en réalité un serveur local. Cela signifie que votre ordinateur agit temporairement comme un serveur web, permettant d'afficher et de tester vos pages HTML, CSS et JavaScript dans un navigateur web, comme si elles étaient hébergées en ligne.
-
-### Base de données
-
-Une base de données est un système qui permet de stocker, organiser et gérer des informations de manière structurée.
-
-![](./assets/images/db-basics.png){data-zoom-image}
-
-Plus concrètement :
-
-![](./assets/images/db-basics-example.png){data-zoom-image}
-
-## Exercices
+## Exercice
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/mamp-install-preview.png)
+  ![](./assets/images/wordpress-playground.webp)
 
-  <small>Exercice - MAMP</small><br>
-  **[Installation de base](./exercices/mamp-install.md){.stretched-link .back}**
+  <small>Essayer Wordpress</small><br>
+  **[Wordpress Playground](https://wordpress.org/playground/){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/wp-install-preview.png)
+  ![](./assets/images/wooclap.jpeg)
 
-  <small>Exercice - Wordpress</small><br>
-  **[Installation de base](./exercices/wp-install.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/mysterieuses-cites-or-preview.png)
-
-  <small>Exercice - Wordpress</small><br>
-  **[Les mysterieuses cités d'or](./exercices/wp-cites-dor.md){.stretched-link .back}**
+  <small>Défi – Trouve où c’est</small><br>
+  **[Wooclap](https://app.wooclap.com/events/BNUNGN/live-session/){.stretched-link .back}**
 </div>

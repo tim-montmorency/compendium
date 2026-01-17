@@ -1,4 +1,6 @@
 # Cours 3
+
+
 ## Bloc 1
 Retour sur les notions du dernier cours.
 

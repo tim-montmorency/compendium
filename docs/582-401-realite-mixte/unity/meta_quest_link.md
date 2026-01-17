@@ -27,7 +27,7 @@ Appuyez sur télécharger l'application.
 - [ ] Appuyez sur play dans votre projet Unity, vous pourrez alors le tester.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p324GCn2jjY?si=X09LFknL5Z9OYBRK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/p324GCn2jjY?si=X09LFknL5Z9OYBRK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 ## Lier le casque à votre ordinateur - Quest link filaire
 Assurez-vous de brancher votre casque avec le USB-C dans l'ordinateur.   
@@ -45,4 +45,4 @@ Dans le logiciel Meta quest link, ouvrez l'onglet appareil. Vous devriez mainten
 - [ ] Appuyez sur play dans votre projet Unity, vous pourrez alors le tester.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ta09UeUbT5s?si=iDjIcWSqUZKP0MZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/ta09UeUbT5s?si=iDjIcWSqUZKP0MZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

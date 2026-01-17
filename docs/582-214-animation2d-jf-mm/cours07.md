@@ -1,5 +1,7 @@
 # Cours 7
 
+[STOP]
+
 <!--
 ## Séquencer les animations
 

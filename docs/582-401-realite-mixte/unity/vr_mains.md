@@ -13,4 +13,4 @@ Modifier l'apparence des mains dans Unity est très simple. Pour se faire, suive
 ## Mains personnalisées
 Faire son propre modèle de mains peut être long dans Unity. En effet, il y a des animations à paramétrer et il faut prendre le temps de bien le faire. Le tutoriel suivant pourra vous guider: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DxKWq7z4Xao?si=F8M7UzapMe3wlud_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/DxKWq7z4Xao?si=F8M7UzapMe3wlud_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

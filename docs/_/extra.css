@@ -38,6 +38,10 @@
   width: 25% !important;
   height: auto;
 }
+.w-10 {
+  width: 10% !important;
+  height: auto;
+}
 .h-auto{
   height: auto !important;
 }

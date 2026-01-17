@@ -16,23 +16,6 @@ nav:
       - Cours 13: 582-111-web1/cours13.md
       - Cours 14: 582-111-web1/cours14.md
       - Cours 15: 582-111-web1/cours15.md
-  - Web 1 (2024):
-      - 582-111-web1-2024/index.md
-      - Cours 1: 582-111-web1-2024/cours01.md
-      - Cours 2: 582-111-web1-2024/cours02.md
-      - Cours 3: 582-111-web1-2024/cours03.md
-      - Cours 4: 582-111-web1-2024/cours04.md
-      - Cours 5: 582-111-web1-2024/cours05.md
-      - Cours 6: 582-111-web1-2024/cours06.md
-      - Cours 7: 582-111-web1-2024/cours07.md
-      - Cours 8: 582-111-web1-2024/cours08.md
-      - Cours 9: 582-111-web1-2024/cours09.md
-      - Cours 10: 582-111-web1-2024/cours10.md
-      - Cours 11: 582-111-web1-2024/cours11.md
-      - Cours 12: 582-111-web1-2024/cours12.md
-      - Cours 13: 582-111-web1-2024/cours13.md
-      - Cours 14: 582-111-web1-2024/cours14.md
-      - Cours 15: 582-111-web1-2024/cours15.md
   - Illustration numérique:
       - 582-121–illustration-numerique/index.md
       - Références: 582-121–illustration-numerique/references.md
@@ -56,23 +39,6 @@ nav:
       - Cours 13: 582-121–illustration-numerique/cours13.md
       - Cours 14: 582-121–illustration-numerique/cours14.md
       # - Cours 15: 582-121–illustration-numerique/cours15.md
-  - Illustration numérique:
-      - 582-121–illustration-numerique-gab/index.md
-      - Cours 1: 582-121–illustration-numerique-gab/cours01.md
-      - Cours 2: 582-121–illustration-numerique-gab/cours02.md
-      - Cours 3: 582-121–illustration-numerique-gab/cours03.md
-      - Cours 4: 582-121–illustration-numerique-gab/cours04.md
-      - Cours 5: 582-121–illustration-numerique-gab/cours05.md
-      - Cours 6: 582-121–illustration-numerique-gab/cours06.md
-      - Cours 7: 582-121–illustration-numerique-gab/cours07.md
-      - Cours 8: 582-121–illustration-numerique-gab/cours08.md
-      - Cours 9: 582-121–illustration-numerique-gab/cours09.md
-      - Cours 10: 582-121–illustration-numerique-gab/cours10.md
-      - Cours 11: 582-121–illustration-numerique-gab/cours11.md
-      - Cours 12: 582-121–illustration-numerique-gab/cours12.md
-      - Cours 13: 582-121–illustration-numerique-gab/cours13.md
-      - Cours 14: 582-121–illustration-numerique-gab/cours14.md
-      - Cours 15: 582-121–illustration-numerique-gab/cours15.md  
   - Web 2:
       - 582-211-web2/index.md
       - Cours 1: 582-211-web2/cours01.md
@@ -90,23 +56,23 @@ nav:
       - Cours 13: 582-211-web2/cours13.md
       - Cours 14: 582-211-web2/cours14.md
       - Cours 15: 582-211-web2/cours15.md
-  - Animation 2D:
-      - 582-214–animation2d/index.md
-      - Cours 1: 582-214–animation2d/cours01.md
-      - Cours 2: 582-214–animation2d/cours02.md
-      - Cours 3: 582-214–animation2d/cours03.md
-      - Cours 4: 582-214–animation2d/cours04.md
-      - Cours 5: 582-214–animation2d/cours05.md
-      - Cours 6: 582-214–animation2d/cours06.md
-      - Cours 7: 582-214–animation2d/cours07.md
-      - Cours 8: 582-214–animation2d/cours08.md
-      - Cours 9: 582-214–animation2d/cours09.md
-      - Cours 10: 582-214–animation2d/cours10.md
-      - Cours 11: 582-214–animation2d/cours11.md
-      - Cours 12: 582-214–animation2d/cours12.md
-      - Cours 13: 582-214–animation2d/cours13.md
-      - Cours 14: 582-214–animation2d/cours14.md
-      - Cours 15: 582-214–animation2d/cours15.md
+  - Design graphique:
+      - 582-201-design-graphique/index.md
+      - Cours 1: 582-201-design-graphique/cours01.md
+      - Cours 2: 582-201-design-graphique/cours02.md
+      - Cours 3: 582-201-design-graphique/cours03.md
+      - Cours 4: 582-201-design-graphique/cours04.md
+      - Cours 5: 582-201-design-graphique/cours05.md
+      - Cours 6: 582-201-design-graphique/cours06.md
+      - Cours 7: 582-201-design-graphique/cours07.md
+      - Cours 8: 582-201-design-graphique/cours08.md
+      - Cours 9: 582-201-design-graphique/cours09.md
+      - Cours 10: 582-201-design-graphique/cours10.md
+      - Cours 11: 582-201-design-graphique/cours11.md
+      - Cours 12: 582-201-design-graphique/cours12.md
+      - Cours 13: 582-201-design-graphique/cours13.md
+      - Cours 14: 582-201-design-graphique/cours14.md
+      - Cours 15: 582-201-design-graphique/cours15.md
   - Animation 2D:
       - 582-214-animation2d-jf-mm/index.md
       - Cours 1:
@@ -121,33 +87,16 @@ nav:
       - Cours 7: 582-214-animation2d-jf-mm/cours07.md
       - Cours 8: 582-214-animation2d-jf-mm/cours08.md
       - Cours 9: 582-214-animation2d-jf-mm/cours09.md
-      - Cours 9-mm: 582-214-animation2d-jf-mm/cours09-mm.md
+      # - Cours 9-mm: 582-214-animation2d-jf-mm/cours09-mm.md
       - Cours 10: 582-214-animation2d-jf-mm/cours10.md
-      - Cours 10-mm: 582-214-animation2d-jf-mm/cours10-mm.md
+      # - Cours 10-mm: 582-214-animation2d-jf-mm/cours10-mm.md
       - Cours 11: 582-214-animation2d-jf-mm/cours11.md
-      - Cours 11-mm: 582-214-animation2d-jf-mm/cours11-mm.md
+      # - Cours 11-mm: 582-214-animation2d-jf-mm/cours11-mm.md
       - Cours 12: 582-214-animation2d-jf-mm/cours12.md
-      - Cours 12-mm: 582-214-animation2d-jf-mm/cours12-mm.md
+      # - Cours 12-mm: 582-214-animation2d-jf-mm/cours12-mm.md
       - Cours 13: 582-214-animation2d-jf-mm/cours13.md
       - Cours 14: 582-214-animation2d-jf-mm/cours14.md
       - Cours 15: 582-214-animation2d-jf-mm/cours15.md
-  - Interactivité ludique:
-      - 582-301-interactivite-ludique/index.md
-      - Cours 1: 582-301-interactivite-ludique/cours01.md
-      - Cours 2: 582-301-interactivite-ludique/cours02.md
-      - Cours 3: 582-301-interactivite-ludique/cours03.md
-      - Cours 4: 582-301-interactivite-ludique/cours04.md
-      - Cours 5: 582-301-interactivite-ludique/cours05.md
-      - Cours 6: 582-301-interactivite-ludique/cours06.md
-      - Cours 7: 582-301-interactivite-ludique/cours07.md
-      - Cours 8: 582-301-interactivite-ludique/cours08.md
-      - Cours 9: 582-301-interactivite-ludique/cours09.md
-      - Cours 10: 582-301-interactivite-ludique/cours10.md
-      - Cours 11: 582-301-interactivite-ludique/cours11.md
-      - Cours 12: 582-301-interactivite-ludique/cours12.md
-      - Cours 13: 582-301-interactivite-ludique/cours13.md
-      - Cours 14: 582-301-interactivite-ludique/cours14.md
-      - Cours 15: 582-301-interactivite-ludique/cours15.md
   - Web 3:
       - 582-311-web3/index.md
       - Cours 1: 582-311-web3/cours01.md
@@ -165,6 +114,23 @@ nav:
       - Cours 13: 582-311-web3/cours13.md
       - Cours 14: 582-311-web3/cours14.md
       - Cours 15: 582-311-web3/cours15.md
+  - Video 1:
+      - 582-212-video1/index.md
+      - Cours 1: 582-212-video1/cours01.md
+      - Cours 2: 582-212-video1/cours02.md
+      - Cours 3: 582-212-video1/cours03.md
+      - Cours 4: 582-212-video1/cours04.md
+      - Cours 5: 582-212-video1/cours05.md
+      - Cours 6: 582-212-video1/cours06.md
+      - Cours 7: 582-212-video1/cours07.md
+      - Cours 8: 582-212-video1/cours08.md
+      - Cours 9: 582-212-video1/cours09.md
+      - Cours 10: 582-212-video1/cours10.md
+      - Cours 11: 582-212-video1/cours11.md
+      - Cours 12: 582-212-video1/cours12.md
+      - Cours 13: 582-212-video1/cours13.md
+      - Cours 14: 582-212-video1/cours14.md 
+      - Cours 15: 582-212-video1/cours15.md
   - Video 2:
       - 582-312–video2/index.md
       - Références: 582-312–video2/references.md
@@ -198,19 +164,19 @@ nav:
       - Cours 2: 582-401-realite-mixte/cours02.md
       - Cours 3: 582-401-realite-mixte/cours03.md
       - Cours 4: 582-401-realite-mixte/cours04.md
-      - 3 mars: 582-401-realite-mixte/3mars.md
+      # - 3 mars: 582-401-realite-mixte/3mars.md
       - Cours 5: 582-401-realite-mixte/cours05.md
       - Cours 6: 582-401-realite-mixte/cours06.md
       - Cours 7: 582-401-realite-mixte/cours07.md
       - Cours 8: 582-401-realite-mixte/cours08.md
       - Cours 9: 582-401-realite-mixte/cours09.md
       - Cours 10: 582-401-realite-mixte/cours10.md
-      - 21 avril: 582-401-realite-mixte/21avril.md
-      - Cours 11 - 23 avril: 582-401-realite-mixte/cours11.md
+      # - 21 avril: 582-401-realite-mixte/21avril.md
+      - Cours 11: 582-401-realite-mixte/cours11.md
       - Cours 12: 582-401-realite-mixte/cours12.md
       - Cours 13: 582-401-realite-mixte/cours13.md
       - Cours 14: 582-401-realite-mixte/cours14.md
-      - Cours 15 - 20 mai: 582-401-realite-mixte/cours15.md
+      - Cours 15: 582-401-realite-mixte/cours15.md
       - Ressources: 582-401-realite-mixte/ressources.md
   - Web 4:
       - 582-411-web4/index.md
@@ -228,9 +194,8 @@ nav:
       - Cours 12: 582-411-web4/cours12.md
       - Cours 13: 582-411-web4/cours13/index.md
       - Cours 14: 582-411-web4/cours14/index.md
-      - Cours 15: 582-411-web4/cours15/index.m
-
-  - WEB 5:
+      - Cours 15: 582-411-web4/cours15/index.md
+  - Web 5:
       - 582-511-web5/index.md
       - CSS Grid:
         - 582-511-web5/css/grid/intro.md
@@ -266,13 +231,6 @@ nav:
         - Fetch API: 582-511-web5/fetch.html#fetch-api
         - Promesse JS: 582-511-web5/fetch.html#promesses-javascript
         - Gestion données reçues: 582-511-web5/fetch.html#gestions-des-donnees-recues
-#      - Projet portfolio:
-#        - 582-511-web5/projets/portfolio.md
-#        - Remise 1 Planification: 582-511-web5/projets/portfolio-remise1.md
-#        - Remise 2 Design: 582-511-web5/projets/portfolio-remise2.md
-#        - Remise 3 Intégration: 582-511-web5/projets/portfolio-remise3.md
-#        - Fetch et Vue: 582-511-web5/projets/portfolio-instructions-fecth-vue.md
-#        - Présentation orale: 582-511-web5/projets/portfolio-presentation.md
       - Projet app créative:
         - 582-511-web5/projets/appweb-creative/index.md
         - Calendrier: 582-511-web5/projets/appweb-creative/calendrier.md
@@ -493,9 +451,9 @@ extra_javascript:
   - _/tooltip.js
 
 plugins:
-  - offline
-  - tags
-  - typeset
+  - material/offline
+  - material/tags
+  - material/typeset
   - mkdocs-video:
       is_video: true
       video_autoplay: true

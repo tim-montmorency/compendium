@@ -1,5 +1,7 @@
 # Cours 3 
 
+[STOP]
+
 ## Les 12 principes d'animation
 [Révision 12 principes](./cours02.md#les-12-principes-de-lanimation)
 

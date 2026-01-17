@@ -9,4 +9,4 @@ Voici comment créer un Animator Controller:
    
 
 ## Tutoriel 🎥
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=GmB_hWVdUeyQVqhs&amp;start=226" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=GmB_hWVdUeyQVqhs&amp;start=226" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

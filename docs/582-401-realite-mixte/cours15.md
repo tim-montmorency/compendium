@@ -1,5 +1,7 @@
 # Cours 15
 
+[STOP]
+
 ## 🚨 Présentation finale des projets de VR
 Au grand studio   
 

@@ -1,13 +1,18 @@
 # Activer une licence
-Pour pouvoir utiliser Unity, vous devrez activer une licence. Voici comment faire.   
 
-- [ ] Toujours dans le Unity Hub, appuyez sur l'icône de petit bonhomme en haut à gauche pour vous connecter.
-- [ ] Appuyez sur Sign in, puis entrer les informations pour vous connecter à votre compte Unity.
-- [ ] Appuyez une nouvelle fois sur le symbole en haut à gauche, puis choisissez Manage licenses dans la liste.
-- [ ] Dans la nouvelle fenêtre qui s'ouvre, appuyez sur le bouton Add.
-- [ ] Choisissez Get a free personnal license dans la liste.
+Pour pouvoir utiliser Unity, vous devrez activer une licence. Voici comment faire.
 
-      
+<div class="grid" markdown>
+![](../images/licenses.png){data-zoom-image}
+
+![](../images/licenses-personal.png){data-zoom-image}
+</div>
+
+- [ ] Dans Unity Hub, cliquez sur `Sign in`, puis entrez les informations de votre compte Unity.
+- [ ] Cliquez sur `Licenses` dans la colonne de gauche.
+- [ ] Dans la nouvelle fenêtre, cliquez sur `+ Add license`.
+- [ ] Choisissez `Get a free personal license`.
 
 ## Tutoriel 🎥
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NVuzmtxxbfc?si=0GOsqp4MRDKY04nu&amp;start=224" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/NVuzmtxxbfc?si=0GOsqp4MRDKY04nu&amp;start=224" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

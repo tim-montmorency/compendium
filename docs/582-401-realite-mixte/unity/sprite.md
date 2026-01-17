@@ -44,7 +44,7 @@ Lorsque l’on souhaite créer l’animation d’un sprite, c’est un sprite sh
 ### Illustrator
 Voici un tutoriel réalisé pour le travail 1 qui vous montre comment créer une sprite sheet et un sprite atlas:     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_GDZf-k5oV8?si=k7wDS4d7ora1AiNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/_GDZf-k5oV8?si=k7wDS4d7ora1AiNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Photoshop
 Voici un tutoriel qui peut vous aider :    
@@ -61,7 +61,7 @@ Une fois vos images créées, plutôt que d'exporter le tout en gif, vous pourri
 
 ### After effects
 Vous pouvez créer une animation dans after effects et ensuite l'exporter vers une sprite sheet: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MLlw0IOpC4o?si=IQ5HDrM2YZkkRv6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/MLlw0IOpC4o?si=IQ5HDrM2YZkkRv6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Procreate
 Si vous préférez utiliser Procreate, ce tutoriel vous aidera. Cependant, une fois vos dessins créés, n'oubliez pas de les mettre dans une grille pour les exporter.   
