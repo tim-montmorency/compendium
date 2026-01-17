@@ -60,6 +60,12 @@ Le code sera partagé en classe au cours 1.
 
 ## **Bloc 1** C’est quoi le travail d’un intégrateur aujourd’hui?
 
+Lien vers l'activité pour:
+
+- [Lundi AM - Groupe 2](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBlgjOK1vODS4gGKHhFOEliAVFXSSfckk3-ApGzHIIlMfY?e=MLGdL6)
+- [Lundi PM- Groupe 3](#)
+- [Mercredi AM- Groupe 1](#)
+
 <!--
 Activité : « C’est quoi le travail d’un intégrateur aujourd’hui ? »
 
