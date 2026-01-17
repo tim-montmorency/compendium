@@ -11,7 +11,26 @@ Web 2 vise à développer la capacité de comprendre, structurer, adapter et am�
 dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
 -->
 
-## Aujourd'hui
+## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
+
+### Concepts
+
+- Interprétation d’une maquette
+- Schéma de navigation
+- Convivialité Web
+- CSS comme langage de décision
+
+### Activité
+
+- Analyse collective d’interfaces (bonnes vs fragiles)
+- Discussion : qu’est-ce qui casse quand le contenu change ?
+
+### IA
+
+- Démo encadrée : design → code
+- Mise en garde : code ≠ solution
+
+## Ordre du jour
 
 - Présentation et brise-glace
 - Plan du cours pour la session
@@ -40,3 +59,18 @@ Le code sera partagé en classe au cours 1.
   [Plan de cours :material-download:](https://cmontmorency365.sharepoint.com/:b:/r/sites/TIM-Web2-582-211-H26/Documents%20partages/General/582-211_plan-de-cours_H26.pdf?csf=1&web=1&e=UuhTCG){ .md-button .md-button--primary }
 
 ## **Bloc 1** C’est quoi le travail d’un intégrateur aujourd’hui?
+
+<!--
+Activité : « C’est quoi le travail d’un intégrateur aujourd’hui ? »
+
+Format
+- Discussion dirigée
+- Tableau Microsoft Whiteboard (pas FigJam car ils n'ont pas encore de compte Figma)
+
+Questions ouvertes
+- Quand vous regardez un site, qu’est-ce qui fait que “ça marche” ?
+- Qu’est-ce qui rend un site frustrant à utiliser ?
+- Est-ce que deux sites visuellement beaux peuvent être techniquement très différents ?
+
+Je récolte leurs perceptions avant d’imposer un cadre.
+-->
