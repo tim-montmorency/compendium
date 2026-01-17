@@ -1,4 +1,4 @@
-# Cours 1: Rôle de l’intégrateur & lecture d’IU
+# Cours 1
 
 <!-- 
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
@@ -54,11 +54,11 @@ Le code sera partagé en classe au cours 1.
 
 ...
 
-## Présentation du plan de cours complet
+## Présentation du plan de cours
 
   [Plan de cours :material-download:](https://cmontmorency365.sharepoint.com/:b:/r/sites/TIM-Web2-582-211-H26/Documents%20partages/General/582-211_plan-de-cours_H26.pdf?csf=1&web=1&e=UuhTCG){ .md-button .md-button--primary }
 
-## **Bloc 1** C’est quoi le travail d’un intégrateur aujourd’hui?
+## **Bloc 1** C’est quoi le travail d’un intégrateur web aujourd’hui?
 
 Lien vers l'activité pour:
 
@@ -66,17 +66,3 @@ Lien vers l'activité pour:
 - [Lundi PM- Groupe 3](#)
 - [Mercredi AM- Groupe 1](#)
 
-<!--
-Activité : « C’est quoi le travail d’un intégrateur aujourd’hui ? »
-
-Format
-- Discussion dirigée
-- Tableau Microsoft Whiteboard (pas FigJam car ils n'ont pas encore de compte Figma)
-
-Questions ouvertes
-- Quand vous regardez un site, qu’est-ce qui fait que “ça marche” ?
-- Qu’est-ce qui rend un site frustrant à utiliser ?
-- Est-ce que deux sites visuellement beaux peuvent être techniquement très différents ?
-
-Je récolte leurs perceptions avant d’imposer un cadre.
--->
