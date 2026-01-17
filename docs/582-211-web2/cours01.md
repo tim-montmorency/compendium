@@ -12,7 +12,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 -->
 
 
-## Contnu et planification des activités du cours Web 2 pour toute la session
+## Contenu et planification des activités du cours Web 2 pour toute la session
 
 ### Phase 1 — CSS comme système (Semaines 1 à 3)
 
