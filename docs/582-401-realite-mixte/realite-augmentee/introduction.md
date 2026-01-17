@@ -38,7 +38,7 @@ Pour utiliser Vuforia, vous aurez besoin d'une license. Voici comment la créer:
 Pour ajouter Vuforia à votre projet, vous devrez ajouter un Asset depuis le Asset Store. Suivez la procédure des notes de cours d'introduction pour importer Vuforia Engine dans votre projet. 
 [📁 Asset Vuforia engine](https://assetstore.unity.com/packages/templates/packs/vuforia-engine-163598){ .md-button }    
 
-[🛠️ Importer des assets du asset store](https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/introduction.html#importer-des-assets-du-asset-store){ .md-button }  
+[🛠️ Importer des assets du asset store](../unity/introduction.md#importer-des-assets-du-asset-store){ .md-button }  
 
 
 

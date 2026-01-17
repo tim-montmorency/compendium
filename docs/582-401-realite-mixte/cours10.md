@@ -3,21 +3,21 @@
 [STOP]
 
 ### Retour sur GitHub
-- [📝 Github](./unity/github.md)
+- [:pencil: Github](./unity/github.md)
 
 #### Exercice conflits
 
 ### Casques de réalité virtuelle
-- [📝 Meta Quest Link - Relier le casque et l'ordinateur](./unity/meta_quest_link.md)
+- [:pencil: Meta Quest Link - Relier le casque et l'ordinateur](./unity/meta_quest_link.md)
 
 #### Exercice 
 Tester la scène Démo et regarder les méthodes de prise des objets. 
 
 ## Interagir avec les manettes et l'environnement
-- [📝 Prendre et lancer des objets](unity/interaction_vr.md)
-- [📝 Méthode de sélection des objets](unity/methode_selection.md)
-- [📝 XR socket - Socle pour les objets](unity/xr_socket.md)
-- [📝 Interaction simple](unity/simpleInteraction.md)
+- [:pencil: Prendre et lancer des objets](unity/interaction_vr.md)
+- [:pencil: Méthode de sélection des objets](unity/methode_selection.md)
+- [:pencil: XR socket - Socle pour les objets](unity/xr_socket.md)
+- [:pencil: Interaction simple](unity/simpleInteraction.md)
 
 ## Exercice
 [🛠️ Manette interactive](exercices/interaction_vr.md){ .md-button } 
@@ -30,19 +30,19 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 - Déplacement par téléportation
 
 ## Se déplacer en réalité virtuelle
-- [📝 Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
-- [📝 Téléportation](unity/teleportation.md)
-- [📝 Grimper en VR](unity/grimper.md)
-- [📝 Sauter en VR](unity/sauter.md)
-- [📝 Ascenseur en VR](unity/ascenseur.md)  
+- [:pencil: Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
+- [:pencil: Téléportation](unity/teleportation.md)
+- [:pencil: Grimper en VR](unity/grimper.md)
+- [:pencil: Sauter en VR](unity/sauter.md)
+- [:pencil: Ascenseur en VR](unity/ascenseur.md)  
 
 
 ## Canvas
 
-- [📝 Canvas en VR](unity/ui_vr.md)
+- [:pencil: Canvas en VR](unity/ui_vr.md)
 
 ## Importer des modèles Maya dans Unity
-- [📝 Importation 3D](unity/Importation3D.md)
+- [:pencil: Importation 3D](unity/Importation3D.md)
 
 
 ## Modèles

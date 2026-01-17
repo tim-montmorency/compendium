@@ -5,5 +5,5 @@ Dans la composante Default Observer Event Handler de votre Image Target, le prem
 
 Après la méthode de détection, vous avez deux boîtes d'événements, la première se déclenche lorsque l'image est détectée et la deuxième lorsqu'on perd l'image. Les boîtes d'événement fonctionnent comme habituellement, ainsi vous pouvez glisser un GameObject et l'activer ou le désactiver ou encore déclencer un script... Si vous souhaitez faire apparaître un objet et qu'il suive votre image, vous devez placer cet objet comme enfant de votre Image Target. Pour ce faire, vous devez glisser votre objet sur le target dans la fenêtre Hierarchy. Une fois que c'est fait, ajustez la position de votre objet par rapport à l'image. Ce que vous voyez est ce qui sera affiché par-dessus l'image lorsqu'elle sera détectée.   
 
-[📝 Événements](https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement){ .md-button }    
+[:pencil: Événements](../code/evenements.md#evenement){ .md-button }    
 

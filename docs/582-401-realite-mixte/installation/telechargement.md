@@ -1,4 +1,4 @@
-# Téléchargement d'Unity via Unity Hub
+# Télécharger Unity via Unity Hub
 
 Unity Hub est une application qui vous permet d'installer différentes versions d'Unity et de gérer tous vos projets au même endroit.
 
@@ -20,6 +20,5 @@ Unity Hub est une application qui vous permet d'installer différentes versions 
     Assurez-vous de prendre la bonne version du logiciel, sinon cela pourrait entraîner des problèmes de correspondance lors de travaux d'équipe.
 
 ## Tutoriel 🎥
-
 
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/NVuzmtxxbfc?si=ZIZhSvvUbHWmXvdT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

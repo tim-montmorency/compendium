@@ -2,9 +2,9 @@
 
 
 ## Préparation de Vuforia
-- [ ] Créez votre compte sur le site de Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/compte_vuforia.html">Créer un compte</a>
-- [ ] Créez une license Vuforia pour votre projet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/license_vuforia.html">License</a>
-- [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/vuforia_unity.html">Package Manager</a>
+- [ ] Créez votre compte sur le site de Vuforia. <a href="../realite-augmentee/compte_vuforia.md">Créer un compte</a>
+- [ ] Créez une license Vuforia pour votre projet. <a href="../realite-augmentee/license_vuforia.md">License</a>
+- [ ] Importer Vuforia Engine grâce au Package Manager. <a href="../realite-augmentee/vuforia_unity.md">Package Manager</a>
 
 
 ## Ressources

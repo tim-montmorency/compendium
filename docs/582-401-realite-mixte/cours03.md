@@ -23,19 +23,19 @@ Défi: Faire jouer un son sur un GameObject.
 Quelles conclusions pouvez-vous faire? 
 
 #### Son
-- [📝 Audio Listener](./unity/composantes.md#audio-listener) 
-- [📝 Audio Source](./unity/composantes.md#audio-source) 
-- [📝 Code et son](./unity/son.md)  
+- [:pencil: Audio Listener](./unity/composantes.md#audio-listener) 
+- [:pencil: Audio Source](./unity/composantes.md#audio-source) 
+- [:pencil: Code et son](./unity/son.md)  
 
 ### Avancement du travail 1
 #### Sons
-[💼 Travail 1 - Étape 8](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#8-creation-de-la-scene-jeu-sons){ .md-button }     
+[💼 Travail 1 - Étape 8](./travaux/travail1.md#8-creation-de-la-scene-jeu-sons){ .md-button }     
 
 
 ## Bloc 3
 #### Code
-- [📝 Configuration de Visual studio Community](./installation/telechargement.md)
-- [📝 Événements](./code/evenements.md)        
+- [:pencil: Configuration de Visual studio Community](./installation/telechargement.md)
+- [:pencil: Événements](./code/evenements.md)        
 
 
 #### Schéma de programmation
@@ -47,20 +47,20 @@ Quelles conclusions pouvez-vous faire?
 
 ### Avancement du travail 1
 #### Configuration des boutons
-[💼 Travail 1 - Étape 9](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#9-creation-de-la-scene-menu-script-consignes){ .md-button }     
+[💼 Travail 1 - Étape 9](./travaux/travail1.md#9-creation-de-la-scene-menu-script-consignes-et-credits){ .md-button }     
 
 
 ## Bloc 4
 #### Code
-- [📝 Variables](./code/variables.md)
-- [📝 Structure d'un script](./code/structure_script.md)
-- [📝 Console](./code/console.md)
-- [📝 Opérateurs](./code/operateur.md)
-- [📝 Conditions](./code/condition.md)
-- [📝 Boucle](./code/boucle.md)
-- [📝 Aléatoire](./code/aleatoire.md)
-- [📝 Fonctions](./code/fonctions.md)     
-- [📝 Coroutine](./code/coroutine.md)        
+- [:pencil: Variables](./code/variables.md)
+- [:pencil: Structure d'un script](./code/structure_script.md)
+- [:pencil: Console](./code/console.md)
+- [:pencil: Opérateurs](./code/operateur.md)
+- [:pencil: Conditions](./code/condition.md)
+- [:pencil: Boucle](./code/boucle.md)
+- [:pencil: Aléatoire](./code/aleatoire.md)
+- [:pencil: Fonctions](./code/fonctions.md)     
+- [:pencil: Coroutine](./code/coroutine.md)        
 
 #### Exercices de programmation
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
@@ -81,10 +81,10 @@ Quelles conclusions pouvez-vous faire?
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#10-creation-de-la-scene-jeu-script){ .md-button }     
+[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button }     
 
 
 
 ## Devoir 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 8 à 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html){ .md-button }   
+[💼 Travail 1 - Étapes 8 à 10](./travaux/travail1.md){ .md-button }   

@@ -82,29 +82,29 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 ### 1. Création du projet
 
-- [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/creer_projet.html">Créer le projet</a>
-- [ ] Modifiez la plateforme de développement pour Android. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/installation/configuration.html#developper-pour-android">Changer de plateforme</a>
-- [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/nomenclature.html">Nomenclature</a>
+- [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. <a href="../unity/creer_projet.md">Créer le projet</a>
+- [ ] Modifiez la plateforme de développement pour Android. <a href="../installation/configuration.md#developper-pour-android">Changer de plateforme</a>
+- [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project. <a href="../unity/nomenclature.md">Nomenclature</a>
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene. Une scene sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
 
 **Tutoriel 🎥**
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=biMaznc0AHKAlgpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 2. Préparation de Vuforia
-- [ ] Créez votre compte sur le site de Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/compte_vuforia.html">Créer un compte</a>
-- [ ] Créez une license Vuforia pour votre projet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/license_vuforia.html">License</a>
-- [ ] Importer Vuforia Engine grâce au Package Manager. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/vuforia_unity.html">Package Manager</a>
+- [ ] Créez votre compte sur le site de Vuforia. <a href="../realite-augmentee/compte_vuforia.md">Créer un compte</a>
+- [ ] Créez une license Vuforia pour votre projet. <a href="../realite-augmentee/license_vuforia.md">License</a>
+- [ ] Importer Vuforia Engine grâce au Package Manager. <a href="../realite-augmentee/vuforia_unity.md">Package Manager</a>
 
 **Tutoriel 🎥**
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/IChbRlhdONM?si=FAI2FPKYwgwOBWEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 3. Création de la scène Jeu - détection AR
 - [ ] Ouvrez la scène jeu en double-cliquant sur celle-ci. Vous pouvez maitenant lui apporter des modifications.
-- [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html">Base de données</a>
-- [ ] Téléchargez la base de données que vous venez de créer. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/base_donnees.html#telecharger-la-base-de-donnees">Télécharger</a>
-- [ ] Importez les images de détection dans Unity. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/importer_detection.html">Importer</a>
-- [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ArCamera). Vous devez aussi vous assurez de mettre la license sur la caméra. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/camera_detection.html">ArCamera</a>
-- [ ] Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase.  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/realite-augmentee/detecter_image.html">Image Target</a>
+- [ ] Créez une base de données pour les images de détection de votre projet (L'image qui sera scannée avec le téléphone). Je vous recommande de les exporter au format .jpg avant de les amener dans Vuforia. <a href="../realite-augmentee/base_donnees.md">Base de données</a>
+- [ ] Téléchargez la base de données que vous venez de créer. <a href="../realite-augmentee/base_donnees.md#telecharger-la-base-de-donnees">Télécharger</a>
+- [ ] Importez les images de détection dans Unity. <a href="../realite-augmentee/importer_detection.md">Importer</a>
+- [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ArCamera). Vous devez aussi vous assurez de mettre la license sur la caméra. <a href="../realite-augmentee/camera_detection.md">ArCamera</a>
+- [ ] Maintenant, créez un GameObject Image target. Celui-ci vous permettra de détecter l'image que vous avez mise dans votre DataBase. <a href="../realite-augmentee/detecter_image.md">Image Target</a>
 
 **Tutoriel 🎥**
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/-5awHGHMQ7g?si=o5qleI-0IZfVK_Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -112,10 +112,10 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 4 ou 5. Création de la scène Jeu - Animations
 
 #### 4. Animations avec des sprites (Choisir sprite ou vidéo)
-- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_import.html">Importation SpriteSheet</a>
-- [ ] Créer un Animator par animation pour la contrôler. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_controller.html">Animator Controller</a>
-- [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/anim_animator.html">GameObject Animator</a>
-- [ ] Créez une animation pour chaque Sprite Sheet. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/animation.html">Créer une animation</a>
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux sprites sheet de nos animations. <a href="../unity/anim_import.md">Importation SpriteSheet</a>
+- [ ] Créer un Animator par animation pour la contrôler. <a href="../unity/anim_controller.md">Animator Controller</a>
+- [ ] Créer un GameObject avec la composante Animator par animation. Ceux-ci controlleront vos animations. <a href="../unity/anim_animator.md">GameObject Animator</a>
+- [ ] Créez une animation pour chaque Sprite Sheet. <a href="../unity/animation.md">Créer une animation</a>
 - [ ] Redimensionner vos animations et positionnez-les au-dessus de votre Image de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
@@ -143,7 +143,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 7. Création de la scène Jeu - Sons
 - [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
 - [ ] Ajouter une composante AudioSource sur vos GameObject animations.
-- [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/variables.html#audiosource">Son</a>
+- [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. <a href="../code/variables.md#audiosource">Son</a>
 
 **Tutoriel 🎥**
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/XykuWzP0I2M?si=MTJ037z3a-HogduL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -151,14 +151,14 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 8. Création de la scène Menu - UI
 
 - [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la Scene Jeu avant de la quitter! Vous pouvez maitenant lui apporter des modifications.
-- [ ] Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#canvas">Créer un canvas</a>
+- [ ] Créez un canvas qui contiendra tous les objets de votre Scene. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size).  <a href="../unity/UI.md#canvas">Créer un canvas</a>
 - [ ] Dans la fenêtre Game, modifier le format de votre Scene de Free Aspect à 1920 x 1080 Landscape.
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
-- [ ] Créez 3 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#composante">Modifier le texte des boutons</a>
+- [ ] Créez 3 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir le jeu. <a href ="../unity/font.md#composante">Modifier le texte des boutons</a>
 - [ ] Créez un objet texte dans votre panel pour inscrire le titre de votre expérience.
 - [ ] Créez un objet texte dans le panel pour inscrire votre nom.
-- [ ] Créez une nouvelle police pour vos textes. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/font.html#creer-une-police">Créer une police</a>
-- [ ] Ajustez l'ancrage de tous vos objets. Le panneau devrait être en bleu pour s'étirer et les autres objets en rouge pour s'ancrer à des positions précises. <a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/UI.html#rect-transform">Rect Transform</a>
+- [ ] Créez une nouvelle police pour vos textes. <a href ="../unity/font.md#creer-une-police">Créer une police</a>
+- [ ] Ajustez l'ancrage de tous vos objets. Le panneau devrait être en bleu pour s'étirer et les autres objets en rouge pour s'ancrer à des positions précises. <a href="../unity/UI.md#rect-transform">Rect Transform</a>
 
 **Tutoriel 🎥**    
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/jjTNyBJHOcA?si=k3Q491l4Uiec0Z4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -171,12 +171,12 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 ### 10. Création de la scène Menu - Script UI
 - [ ] Créez un objet vide et nommez le. Ce sera le controlleur de votre scene.
 - [ ] Sur l'objet vide, créez un nouveau script et donnez lui un nom.
-- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/changement_scene.html">Script Scene</a>
-- [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/quitter_jeu.html">Script Quitter</a>
-- [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
+- [ ] Créez la fonction changement de scène dans votre nouveau script. <a href ="../code/changement_scene.md">Script Scene</a>
+- [ ] Ajoutez aussi la fonction pour quitter le jeu. <a href ="../code/quitter_jeu.md">Script Quitter</a>
+- [ ] Assignez les nouvelles fonctions créés à vos boutons démarrer le jeu et quitter le jeu. <a href ="../code/evenements.md#evenement">Événement</a>
 
 ### 11. Création de la scène Menu - Script consignes
-- [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/code/evenements.html#evenement">Événement</a>
+- [ ] Sur chaque bouton, utilisez l'événement OnClic pour activer et désactiver les panels nécessaires (grâce à GameObject -> SetActive). <a href ="../code/evenements.md#evenement">Événement</a>
 - [ ] Créez aussi un bouton fermeture qui ferme le panel consigne lorsqu'on appuie dessus.
 
 ### 12. Défi (Sera évalué)
@@ -184,7 +184,7 @@ Voici étape par étape comment créer votre travail 1. Les notes de cours reli�
 
 
 ### 13. Création de l'application
-- [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="https://tim-montmorency.com/compendium/582-401-realite-mixte/unity/build.html">Exporter pour Android</a>
+- [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. <a href ="../unity/build.md">Exporter pour Android</a>
 
 
 ### 14. Remise du travail 1

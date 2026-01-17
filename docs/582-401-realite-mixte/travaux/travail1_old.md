@@ -205,7 +205,7 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 - [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
 
 Voici une ressource pour vous aider à créer votre code: 
-[📝 Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }    
+[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }    
 
 **Tutoriel 🎥**
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/veUN337o2Nc?si=eEXHlg-frZOAN89_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
