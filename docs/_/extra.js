@@ -408,7 +408,7 @@ function runFunctions() {
   handleDestinations();
   addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
-  addCustomStyles("582-511-web5");
+  addCustomStyles("582-511-web5", "582-211-web2");
   initModal();
   // selectIframe();
 
