@@ -2,9 +2,9 @@
 
 ## Plan de cours
 
-[:material-download: Plan de cours Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
+[:material-download: Plan de cours | Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
 
-[:material-download: Plan de cours Jean-François](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
+[:material-download: Plan de cours | Jean-François](https://cmontmorency365.sharepoint.com/:b:/r/sites/Ralitmixte/Documents%20partages/General/plan-cours-582-401-MO-Realite-mixte-H26-JFC.pdf?csf=1&web=1&e=geaYFL){ .md-button .md-button--primary }
 
 ## Unity
 
