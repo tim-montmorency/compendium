@@ -12,7 +12,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 -->
 
 
-## Contnu et planification des activité du cours Web 2 pour toute la session
+## Contnu et planification des activités du cours Web 2 pour toute la session
 
 ### Phase 1 — CSS comme système (Semaines 1 à 3)
 
@@ -48,3 +48,6 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 - Transitions et finitions au service de l’expérience utilisateur
 - Présentation et remise du projet final
 
+## Présentation du plan de cours complet
+
+[Lien vers plan de cours](https://cmontmorency365.sharepoint.com/:b:/r/sites/TIM-Web2-582-211-H26/Documents%20partages/General/582-211_plan-de-cours_H26.pdf?csf=1&web=1&e=UuhTCG){ .md-button }
