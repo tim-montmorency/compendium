@@ -1,5 +1,11 @@
 # Cours 1
 
+--- 
+
+![Utilisation de l'IA interdite à cette phase dans la session](./assets/IA-interdite.png) **Utilisation de l'IA interdite à cette phase dans la session**
+
+--- 
+
 <!-- 
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
 
