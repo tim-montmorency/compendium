@@ -174,6 +174,6 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
        
 
 ## Notes de cours 📚
-[📝 Prefabs](../unity/prefabs.md){ .md-button }
-[📝 Coroutine](../code/coroutine.md){ .md-button }
+[:pencil: Prefabs](../unity/prefabs.md){ .md-button }
+[:pencil: Coroutine](../code/coroutine.md){ .md-button }
 

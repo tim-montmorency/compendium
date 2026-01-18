@@ -10,18 +10,18 @@
 ## Début de la création du projet final
 
 ### GitHub
-- [📝 Github](./unity/github.md)
+- [:pencil: Github](./unity/github.md)
 
 #### Exercice conflits
 
 
 ### Configurer la VR dans votre projet
-- [📝 Importer les paquets pour la VR](unity/configuration_vr.md)
-- [📝 Intégrer le casque de VR à une scène](unity/xr_origin.md)
-- [📝 Tester avec un clavier et une souris](unity/test_clavier.md)     
+- [:pencil: Importer les paquets pour la VR](unity/configuration_vr.md)
+- [:pencil: Intégrer le casque de VR à une scène](unity/xr_origin.md)
+- [:pencil: Tester avec un clavier et une souris](unity/test_clavier.md)     
 
 ### Interagir avec les manettes et l'environnement
-- [📝 Prendre et lancer des objets](unity/interaction_vr.md)
+- [:pencil: Prendre et lancer des objets](unity/interaction_vr.md)
 
 ### Exercice
 Ajouter la VR à votre projet 2 et essayez de lancer des objets. 

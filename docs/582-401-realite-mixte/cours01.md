@@ -2,9 +2,9 @@
 
 ## Plan de cours
 
-[:material-download: Plan de cours Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
+[:material-download: Plan de cours | Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
 
-[:material-download: Plan de cours Jean-François](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
+[:material-download: Plan de cours | Jean-François](https://cmontmorency365.sharepoint.com/:b:/r/sites/Ralitmixte/Documents%20partages/General/plan-cours-582-401-MO-Realite-mixte-H26-JFC.pdf?csf=1&web=1&e=geaYFL){ .md-button .md-button--primary }
 
 ## Unity
 
@@ -13,7 +13,6 @@
 ### Créer un compte Unity
 
 - [ ] [Créer un identifiant Unity](https://id.unity.com/en/account/new)
-- [ ] S'inscrire au [Unity student plan](https://unity.com/products/unity-student) en cliquant sur « **enseignement supérieur** »
 
 ### Ajouter le _Sampler pack_ de Synty Studios à vos assets
 
@@ -54,12 +53,17 @@ Livres:
 - Bandits des mers
 
 ## Travail 1
+
+<div class="grid grid-1-2" markdown>
+  ![](./images/travail1-concept.webp)
+
+  <small>Travail - Unity</small><br>
+  **[Travail 1](./travaux/travail1.md){.stretched-link .back}**
+</div>
     
-[💼 Travail 1](./travaux/travail1.md){ .md-button .back }   
+<!-- ### Création de visuels
 
-### Création de visuels
-
-- [📝 Sprite](./unity/sprite.md){.back}
+- [:pencil: Sprite](./unity/sprite.md){.back} -->
 
 ### Réflexion sur la thématique de votre travail 1
 
@@ -67,16 +71,7 @@ Tempête d'idées
 
 ## Devoir
 
-### Réaliser l'étape 0 du travail 1 pour créer les contenus de votre travail 1
+- [ ] [Travail 1](./travaux/travail1.md){.back} : étape 0 + étape 1
+- [ ] S'inscrire au _[Unity student plan](https://unity.com/products/unity-student)_ en cliquant sur « **enseignement supérieur** »
 
-[💼 Travail 1 - Étape 0](./travaux/travail1.md#0-creation-des-elements-visuels-et-recherche-de-contenu){.back}
-
-### Réaliser l'étape 1 du travail 1
-
-[💼 Travail 1 - Étape 1](./travaux/travail1.md#1-creation-du-projet){.back}
-
-### S'inscrire au Unity student plan
-
-Appuyer sur enseignement supérieur : 
-
-[🛠️ Student Plan](https://unity.com/products/unity-student){.back}
+![](./images/enseignement-supp.png)

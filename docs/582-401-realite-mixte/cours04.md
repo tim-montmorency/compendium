@@ -7,22 +7,22 @@ Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront
 
 ## Bloc 1
 #### Code
-- [📝 Quitter le jeu](./code/quitter_jeu.md)
-- [📝 Changement de scène](./code/changement_scene.md)
+- [:pencil: Quitter le jeu](./code/quitter_jeu.md)
+- [:pencil: Changement de scène](./code/changement_scene.md)
 
 ### Avancement du travail 1
 #### Script UI
-[💼 Travail 1 - Étape 11](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#11-creation-de-la-scene-menu-script-ui){ .md-button }     
+[💼 Travail 1 - Étape 11](./travaux/travail1.md#11-creation-de-la-scene-menu-script-ui){ .md-button }     
 
 
 ## Bloc 2
 #### Code 
-- [📝 Coroutine](./code/coroutine.md)        
+- [:pencil: Coroutine](./code/coroutine.md)        
 
 #### Retour sur les exercices de programmation
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
 
-[📝 Ressource additionnelle](./code/bibliotheque_exemples.md){ .md-button }  
+[:pencil: Ressource additionnelle](./code/bibliotheque_exemples.md){ .md-button }  
 
 
 #### Réflexion sur le code de détection
@@ -37,14 +37,14 @@ Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront
 #### Code travail 1
 Écrivez votre code pour le travail 1 à la main. Validez le ensuite avec votre enseignant. 
 
-[📝 Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }     
+[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }     
 
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 10](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#10-creation-de-la-scene-jeu-script){ .md-button }     
+[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button }     
 
-[💼 Travail 1 - Étape 12](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#12-defi-sera-evalue){ .md-button }     
+[💼 Travail 1 - Étape 12](./travaux/travail1.md#12-defi-sera-evalue){ .md-button }     
 
 
 ## Exemple de travail 2

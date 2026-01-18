@@ -7,7 +7,7 @@ hide:
 
 ## Vue synoptique
 
-<img src="images/vueSynoptique.jpg" height="300" />
+![](./images/vueSynoptique.jpg){.w-100 data-zoom-image}
 
 <!-- Évaluer la possibilité de faire une image sans les dates ou 2 images pour illustrer les 2 cours -->
 

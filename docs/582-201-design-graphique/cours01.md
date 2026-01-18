@@ -2,8 +2,6 @@
 
 ![](./assets/img/overprint-pinterest.png){.w-100}
 
-[STOP]
-
 ## Présentation du plan de cours
 
 ## Quelques définitions
@@ -66,20 +64,50 @@ Mission !
 </div>
 </div>
 
+#### Histoire
+
+<div class="grid" markdown>
+![](./assets/img/art-nouveau.jpg){data-zoom-image}
+<!-- Plus d’expression, contre l’austérité -->
+<!-- Lignes organiques et motifs floraux; a modernisé l’affiche et la typographie. -->
+
+![](./assets/img/bauhaus.jpg){data-zoom-image}
+<!-- De l’enthousiasme dans les choses du quotidien -->
+<!-- Formes simples, fonction d’abord; a posé les bases du design moderne. -->
+
+![](./assets/img/art-deco.jpg){data-zoom-image}
+<!-- La forme suit la fonction -->
+<!-- Géométrie chic et symétrie; a popularisé le modernisme “luxe”. -->
+
+![](./assets/img/swiss-design.jpg){data-zoom-image}
+<!-- Opulence et souci du détail -->
+<!-- Grille, sans-serif, clarté; a standardisé la mise en page moderne. -->
+
+![](./assets/img/pop-art.jpg){data-zoom-image}
+<!-- La forme suit la fonction -->
+<!-- Imagerie pop et couleurs vives; a fait entrer la culture de masse en design. -->
+
+![](./assets/img/post-modern.jpg){data-zoom-image}
+<!-- Dynamisme et mouvement -->
+<!-- Mélange, ironie, rupture; a ramené l’expression et l’éclectisme. -->
+</div>
+
+[Les tendances actuelles en print](https://www.vistaprint.fr/hub/tendances-design-graphique)
+
 #### Design graphique Web
 
-- 100% numérique
+Les tendances en graphisme peuvent être pertientes comme références, mais le graphique en Web a de nombreuses considérations techniques et conceptuelles qui changent la façon qu'on aborde le design et l'esthétisme. Par exemple : 
+
+- Numérique vs. imprimé
 - Interactivité
+- Expérience utilisateur (navigation, temps de chargement)
 - Médias animés (gif, vidéo, animation)
 - Accessibilité
 - Responsive
 
 ## L'approche
 
-<figure markdown>
 ![](./assets/img/steve-jobs-movie.jpg)
-<figcaption markdown>:simple-apple: Steve Jobs (2015)</figcaption>
-</figure>
 
 L'expertise du designer graphique, c'est la **communication**.
 
@@ -392,6 +420,7 @@ Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collè
 
 [STOP]
 
+https://www.youtube.com/watch?v=_rpaapFfZWM
 https://ca.pinterest.com/pin/4081455907260227/
 https://ca.pinterest.com/pin/5277724559555692/
 https://ca.pinterest.com/pin/5770305768309354/?e_t=e9be1fa1d99845e186b77b0e115dcff8&news_hub_id=3132778126799650496&utm_campaign=hfdigestpins&utm_content=5770305768309354&utm_medium=2004&utm_source=31&utm_term=16

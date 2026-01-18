@@ -13,16 +13,16 @@ Avant la fin du cours
 Répertorier les problèmes, trouver des solutions.
 
 ### Avancement du travail 1
-[💼 Travail 1 - Étape 12](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#12-defi-sera-evalue){ .md-button }     
+[💼 Travail 1 - Étape 12](./travaux/travail1.md#12-defi-sera-evalue){ .md-button }     
 
 
 ## Exportation
-- [📝 Exportation](./unity/build.md)  
+- [:pencil: Exportation](./unity/build.md)  
 
 ### Avancement du travail 1
 Création de l'application    
 
-[💼 Travail 1 - Étape 13](https://tim-montmorency.com/compendium/582-401-realite-mixte/travaux/travail1.html#13-creation-de-lapplication){ .md-button }    
+[💼 Travail 1 - Étape 13](./travaux/travail1.md#13-creation-de-lapplication){ .md-button }    
 
 
 
