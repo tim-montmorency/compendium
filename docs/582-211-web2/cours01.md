@@ -2,7 +2,12 @@
 
 --- 
 
-![Utilisation de l'IA interdite à cette phase dans la session](./assets/IA-interdite.png) **Utilisation de l'IA interdite à cette phase dans la session**
+
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA interdite à cette phase dans la session</span>
+</div>
+
 
 <!-- 
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 

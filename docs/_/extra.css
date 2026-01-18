@@ -631,10 +631,12 @@ stop:before {
   z-index: -1;
   border-radius: 100%;
 }
-.class-content-link a {
+.class-content-link a,
+.class-content-link .sidetext{
   font-size: 140%;
   text-decoration: none !important;
   display: block;
+  font-weight: bold;
 }
 
 .important-label {
