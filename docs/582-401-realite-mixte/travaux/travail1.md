@@ -66,7 +66,7 @@ La thématique est libre. L'important est que vous créiez vos propres images. L
 
 ## Exemple
 
-<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/t9dXH39bxjg?si=mguphPcpF2VTraW1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/ZR2lMygvYEg?si=ux010zmkJYRVvPuL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Étapes
 
