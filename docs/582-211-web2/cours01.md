@@ -1,7 +1,5 @@
 # Cours 1
 
---- 
-
 
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
@@ -57,7 +55,9 @@ Le code sera partagé en classe au cours 1.
 
 ## Brise glace
 
-...
+[Lien vers activité pour le groupe 2 LUNDI AM]()
+[Lien vers activité pour le groupe 3 LUNDI PM]()
+[Lien vers activité pour le groupe 1 MERC AM]()
 
 ## Présentation de l'enseignante
 
