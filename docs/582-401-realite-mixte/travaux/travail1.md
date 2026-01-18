@@ -76,7 +76,7 @@ Les notes de cours reliées à chaque étape vous expliqueront plus en détail c
 
 Créez les contenus suivants :     
 
-- [ ] Plusieurs formes aux **arrêtes droites** en carton.
+
 - [ ] Plusieurs formes aux **arrêtes droites** en carton. 
 - [ ] 3 images de détection qu'on pourra scanner avec un appareil mobile. (JPG) Pour créer ces images, assemblez vos formes de carton et prenez l'assemblage en photo. Idéalement, redimensionnez ensuite vos photos au format carré (1024 x 1024 ou 2048 x 2048 sont idéals).
 - [ ] Créez la silhouette vectorielle de vos images de détection. (PNG24)
@@ -98,6 +98,11 @@ Recherchez ensuite les éléments suivants (Libres de droit) :
 **Tutoriel 🎥**
 
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/BI0okHN1Bkw?si=biMaznc0AHKAlgpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Le reste des consignes apparaîtra à chaque semaine selon vos apprentissages. 
+
+[STOP]
 
 ### 2 | Préparation de Vuforia
 
