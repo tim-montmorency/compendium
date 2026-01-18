@@ -9,7 +9,7 @@ Cet exercice vous permettra de vous familiariser avec la navigation et la créat
 
 ## Téléchargements
 
-- [ ] [Télécharger le projet Microgame](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgDDTe4PWYQjQqArBeGTLuIaAQzE-bKyyrLdDlGrxgcGMoc?e=ipJPHc) et décompressez le fichier zip
+- [ ] [Télécharger le projet Microgame](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgCd2C_Bn7eISLujlwkKPRSYARkEeq8_TDj4OlCDe0ViAp4?e=2zWLgV) et décompressez le fichier zip
 
 <figure markdown>
 ![](../images/microgame-download.png){data-zoom-image}
@@ -30,3 +30,8 @@ Cet exercice vous permettra de vous familiariser avec la navigation et la créat
 - [ ] Suivez les instructions du tutoriel dans Unity.
 - [ ] Si le tutoriel ne commence pas automatiquement, allez dans la fenêtre `Tutorials` à droite et cliquez sur `Débuter`.
 
+
+## 6000.3.4
+!!! info "Version de Unity"
+
+    La version de Microgame est unity 2022.3.62f3, pour apprendre Unity 6000.3.4f1, utilisez plutôt le projet suivant: [Télécharger le projet Microgame](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgDDTe4PWYQjQqArBeGTLuIaAQzE-bKyyrLdDlGrxgcGMoc?e=51nx82)
