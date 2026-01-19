@@ -43,7 +43,7 @@ aside {
 
 <br>
 
-> **Question provocatrice**
+> **La question qui tue :**
 > Mais si l'IA peut générer tout ça en 10 secondes... êtes-vous encore utiles ? 🤷
 
 
