@@ -102,11 +102,7 @@ Lien vers l'activité (whiteboard avec post it et 3 questions)
 
 
 
-- Texte à lire: [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
-
-
 ## **Bloc 3** Démo live et discussion
-
 
 - Démo : "L'IA en action" (8 min)
 - Analyse collective (7 min)
@@ -152,4 +148,8 @@ Action :
 
 ## **Bloc 9** Discussion ouverte et conclusion
 
+
 ## **Bloc 10** Mise en place de GitHub Classroom + Devoir
+
+- Texte à lire avant le prochain cours [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
+  N'hésitrez pas à activer la traduction en français pour faciliter la lecture du texte.
