@@ -1,4 +1,7 @@
 # Cours 10 - Kino
+
+[STOP]
+
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/-->
 ![](./assets/images/kino.gif){ .w-100 }
 
