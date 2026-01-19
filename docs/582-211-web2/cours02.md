@@ -11,8 +11,13 @@ Web 2 vise à développer la capacité de comprendre, structurer, adapter et am�
 dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
 -->
 
-## Retour sur la lecture du devoir du dernier cours
 
+## Retour sur l'activité pratique: Analyse de code (Bloc 5 du dernier cours)
+
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
+
+
+## Retour sur la lecture du devoir du dernier cours
 
 [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
 
@@ -41,6 +46,4 @@ GitHub Classroom (5 min)
 ### Extensions
 
 - Allez dans extensions et vérifiez si Co-Pilot est installé, si c'est le cas, veuillez le désinstaller.
-- Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi
-
-## **Bloc 4** Quiz interactif
+- Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi.

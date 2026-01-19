@@ -150,11 +150,17 @@ Action :
 ## **Bloc 9** Discussion ouverte et conclusion
 
 
-## **DEVOIR** pour le prochain cours
+## **DEVOIRS** à faire pour le prochain cours
 
-- Texte à lire avant le prochain cours en vue d'une discussion en classe :
-  - [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
-  - N'hésitrez pas à activer la traduction en français pour faciliter la lecture du texte.
+### Terminer l'activité pratique: Analyse de code débuté en classe
+
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
+
+### Texte à lire avant le prochain cours en vue d'une discussion en classe :
+
+[L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
+
+N'hésitrez pas à activer la traduction en français pour faciliter la lecture du texte.
 
 <!-- 
 ## **Bloc 10** SETUP GITHUB CLASSROOM + DEVOIR (10 min)
