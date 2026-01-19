@@ -68,6 +68,9 @@ Livres:
 - [:pencil: Sprite](./unity/sprite.md){.back} 
 -->
 
+### Création de visuels
+- [:pencil: Créer de bonnes images de détection](./realite-augmentee/detection.md){.back}
+
 ### Réflexion sur la thématique de votre travail 1
 
 Tempête d'idées   
