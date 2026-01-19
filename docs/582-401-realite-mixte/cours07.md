@@ -19,16 +19,16 @@ Prenez des captures d'écran de tous les problèmes que vous trouvez dans le jeu
 
 
 ## Présentation du travail 3
-
+<!--
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button }     
 
 [🕹️ Analyse de jeux arcade](./exercices/ex-jeuretro.md){ .md-button } 
+-->
 
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
 ## Démonstration d'un exemple du travail 3 
 
-Projet Pac man
 
 ## Devoir: Commencer l'idéation du projet final
 
