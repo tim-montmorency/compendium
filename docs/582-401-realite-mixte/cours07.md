@@ -1,5 +1,8 @@
 # Cours 7
 
+## Évaluation formative avancement du travail
+Ouvrir votre projet 2 sur votre ordinateur.   
+
 
 ## Activité sur le contrôle de la qualité en jeu vidéo
 Téléchargez le dossier suivant, il contient le jeu à tester ainsi que ses dépendances. Ouvrez ensuite le .exe pour tester le tout.     
