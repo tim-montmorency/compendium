@@ -6,6 +6,8 @@
 ## Tests et présentation du travail 1
 
 ## Présentation du schéma conceptuel
+[🔎 Expériences VR](./installation/experiences.md){ .md-button } 
+
 
 
 ## S'assurer d'avoir le paquet gratuit de Synty studio
