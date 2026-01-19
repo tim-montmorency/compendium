@@ -1,10 +1,12 @@
 # Cours 1
 
+## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
 
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
+
 
 
 <!-- 
@@ -18,27 +20,6 @@ Web 2 vise à développer la capacité de comprendre, structurer, adapter et am�
 dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
 -->
 
-## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
-
-<!--
-### Concepts
-
-- Interprétation d’une maquette
-- Schéma de navigation
-- Convivialité Web
-- CSS comme langage de décision
-
-### Activité
-
-- Analyse collective d’interfaces (bonnes vs fragiles)
-- Discussion : qu’est-ce qui casse quand le contenu change ?
-
-### IA
-
-- Démo encadrée : design → code
-- Mise en garde : code ≠ solution
-
--->
 
 ## Ordre du jour
 
