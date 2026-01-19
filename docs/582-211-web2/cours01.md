@@ -149,6 +149,7 @@ Action :
 
 ## **Bloc 9** Discussion ouverte et conclusion
 
+...
 
 ## **DEVOIRS** à faire pour le prochain cours
 
