@@ -1,9 +1,5 @@
 # Cours 4
 
-## Informations
-### Modification travail 1
-Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront vus au prochain cours. Vous devez avoir terminé les étapes 1 à 11 avant le cours de la semaine prochaine.
-
 
 ## Bloc 1
 #### Code
