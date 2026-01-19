@@ -220,12 +220,8 @@ Voici une ressource pour vous aider à créer votre code:
 - [ ] Ajoutez aussi la fonction pour quitter le jeu. [Script Quitter](../code/quitter_jeu.md){.back}
 - [ ] Assignez les nouvelles fonctions créées à vos boutons « Démarrer le jeu » et « Quitter le jeu ». [Événement](../code/evenements.md#evenement){.back}
 
-### 12 | Défi (Sera évalué)
 
-- [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu.
-- [ ] Dans la scène jeu, créez des boutons qui permettent d'ajuster la difficulté du jeu: Facile = l'image change à chaque 5 secondes, moyen = l'image change à chaque 4 secondes, difficile = l'image change à chaque 3 secondes. 
-
-### 13 | Création de l'application
+### 12 | Création de l'application
 
 - [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. [Exporter pour Android](../unity/build.md){.back}
 
