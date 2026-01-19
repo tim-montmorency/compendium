@@ -62,7 +62,7 @@ Je me présente, Marie-Michelle...
 
 ### Présentation du plan de cours
 
-[LIEN À VENIR... Plan de cours :material-download:](#){ .md-button .md-button--primary }
+[Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF){ .md-button .md-button--primary }
 
 ## **Bloc 0** Activité: Votre jugement face à un site web
 

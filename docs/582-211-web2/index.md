@@ -23,9 +23,11 @@ L’élève apprend des notions de mise en page en utilisant des techniques de b
   ![](../_/profs/mmouellet.jpg)
 
   **Marie-Michelle Ouellet**<br>
+  
   _Enseignante en Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
-  [Plan de cours :material-download:](https://cmontmorency365.sharepoint.com/:b:/r/sites/TIM-Web2-582-211-H26/Documents%20partages/General/582-211_plan-de-cours_H26.pdf?csf=1&web=1&e=UuhTCG){ .md-button .md-button--primary }
+
+  [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF){ .md-button .md-button--primary }
 </div>
 
 ## Contenu et planification des activités du cours Web 2 pour toute la session
