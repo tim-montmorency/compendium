@@ -1,5 +1,7 @@
 # Cours 7
 
+## 🚨 Remise du schéma conceptuel
+
 ## Évaluation formative avancement du travail
 Ouvrir votre projet 2 sur votre ordinateur.   
 
