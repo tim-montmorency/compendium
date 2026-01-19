@@ -4,12 +4,15 @@
 ## Bloc 1
 Retour sur les notions du dernier cours.
 
+<!--
 #### Animations
 ![Movie_001](https://github.com/user-attachments/assets/5bfd2199-280f-45a2-97d8-0f48a7994110)
 
 !!! warning "Attention"
 
     Attention à bien aligner vos éléments et à avoir une bonne résolution pour votre sprite sheet! 
+
+-->
 
 #### UI
 [💼 Exercice sur l'interface utilisateur](./unity/exercice_ui.md){ .md-button }     
