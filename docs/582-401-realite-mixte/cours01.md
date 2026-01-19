@@ -50,9 +50,9 @@
 
 Livres:      
 
-- Slush le lutin
-- Tracé de voyage
-- Bandits des mers
+- Slush le lutin (App: Alaska)
+- Tracé de voyage (App: Artivive)
+- Bandits des mers (App: Les Éditions AppLit)
 
 ## Travail 1
 
