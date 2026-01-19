@@ -70,12 +70,14 @@
 ### Formation des équipes
 * [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/IQBCcRGaodw0RavJlbfpe4e_AUBMLlgZh6vtFrFTKI3ul_w)
 
-## L’esthétique visuelle
-* [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
-
 ## L'équipe de production
 * Équipe et étapes de production :
   * [équipe de prodution](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ)
+
+
+## L’esthétique visuelle
+* [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
+
 
 ## Devoir
 * Matériel à avoir avec soi en tout temps :
