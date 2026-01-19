@@ -1,5 +1,5 @@
 # Cours 11
-
+[STOP]
 ## Élections fédérales du Canada 2025
 
 Lundi 28 avril 2025

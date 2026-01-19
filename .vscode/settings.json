@@ -7,5 +7,10 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true
     },
-    "hide-files.files": []
+    "hide-files.files": [],
+    "markdown.marp.themes": [
+      "https://rainbowflesh.github.io/css/rose-pine-dawn.css",
+      "https://rainbowflesh.github.io/css/rose-pine-moon.css",
+      "https://rainbowflesh.github.io/css/rose-pine.css",
+    ]
 }

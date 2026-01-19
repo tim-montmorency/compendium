@@ -33,5 +33,5 @@ Produire un site Web à l’aide d’un système de gestion de contenu (CMS).
   **Stéphane Chartrand**<br>
   _Enseignant en Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [stephane.chartrand@cmontmorency.qc.ca](mailto:stephane.chartrand@cmontmorency.qc.ca)<br><br>
-  [Plan de cours :material-download:](./assets/documents/plan-cours_Web_4_H2026.pdf){ .md-button .md-button--primary }
+  [Plan de cours :material-download:](./assets/documents/plan-cours_Web_4_H2026_V2.1.pdf){ .md-button .md-button--primary }
 </div>
