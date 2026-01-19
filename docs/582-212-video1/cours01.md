@@ -1,10 +1,10 @@
 # Cours 1 — Bienvenue
 
 ## Parcours de la professeure
-* [Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww){ .md-button }   <br>
+[Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww){ .md-button }   <br>
 
 ## Plan de cours
-* [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAtHLgnFxMuS5s7IepU7D88AZWtpjclfKr1ZZc-2kDVWx8){ .md-button }   <br>
+[Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAtHLgnFxMuS5s7IepU7D88AZWtpjclfKr1ZZc-2kDVWx8){ .md-button }   <br>
 
 
 ## Présentation des règles du cours
@@ -82,7 +82,7 @@
   * Disque dur
   * Carte SD demandée
 * Formater vos disques durs
-* Installer la version DaVinci Resolve 18.6.6 à la maison :
+* Installer la version DaVinci Resolve 19.1.4 à la maison :
   * [Téléchargement DaVinci Resolve](https://www.blackmagicdesign.com/support/)
 * Trouver la musique
   *  Artlist
