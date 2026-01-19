@@ -51,7 +51,7 @@ Le code sera partagé en classe au cours 1.
 ### Brise glace
 
 - [BJXBIO - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/BJXBIO)
-- [Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/)
+- [MPEXFU - Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/MPEXFU)
 - [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
 ### Présentation de votre enseignante
 
@@ -72,7 +72,7 @@ Lien vers l'activité (whiteboard avec post it et 3 questions)
 ## **Bloc 1** Votre relation avec l'IA
 
 - [PYCDRD - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/PYCDRD)
-- [Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/)
+- [BCJIHB Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/BCJIHB)
 - [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
 
 
@@ -122,7 +122,7 @@ Action :
 ## **Bloc 4** Quiz interactif
 
 - [XXANJI - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/XXANJI)
-- [Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/)
+- [RUDJUJ - Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/RUDJUJ)
 - [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
 
 ## **Bloc 5** Activité pratique: Analyse de code
