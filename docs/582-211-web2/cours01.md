@@ -36,6 +36,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 
 - Démo encadrée : design → code
 - Mise en garde : code ≠ solution
+- Texte à lire: [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
 
 ## Ordre du jour
 
