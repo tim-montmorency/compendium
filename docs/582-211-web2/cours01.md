@@ -27,6 +27,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
   - Brise-glace
   - Présentation de votre enseignante
   - Plan du cours pour la session
+- **Bloc 0** Votre jugement face à un site web
 - **Bloc 1** Votre relation avec l'IA
 - **Bloc 2** Exposé: Le rôle de l'intégrateur web à l'ère de l'IA
 - **Bloc 3** Démo live et discussion
@@ -61,15 +62,15 @@ Je me présente, Marie-Michelle...
 
 [LIEN À VENIR... Plan de cours :material-download:](#){ .md-button .md-button--primary }
 
-## **Bloc 1** Votre relation avec l'IA
+## **Bloc 0** Activité: Votre jugement face à un site web
 
-<!--
 Lien vers l'activité (whiteboard avec post it et 3 questions)
 
-- [Lundi AM - Groupe 2](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBlgjOK1vODS4gGKHhFOEliAVFXSSfckk3-ApGzHIIlMfY?e=MLGdL6)
-- [Lundi PM- Groupe 3](#)
-- [Mercredi AM- Groupe 1](#)
--->
+- [Tableau blanc pour le groupe 2 LUNDI AM](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBlgjOK1vODS4gGKHhFOEliAVFXSSfckk3-ApGzHIIlMfY?e=VkD1tX)
+- [Tableau blanc pour le groupe 3 LUNDI PM](#)
+- [Tableau blanc pour le groupe 1 MERC AM](#)
+
+## **Bloc 1** Votre relation avec l'IA
 
 - [PYCDRD - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/PYCDRD)
 - [Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/)
@@ -79,8 +80,6 @@ Lien vers l'activité (whiteboard avec post it et 3 questions)
 ## **Bloc 2** Exposé: L'intégrateur à l'ère de l'IA
 
 [Exposé 1a: L'intégrateur à l'ère de l'IA :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button .md-button--primary }
-
-
 
 
 ## **Bloc 3** Démo live et discussion
@@ -111,17 +110,23 @@ Action :
 
 ## **Bloc 4** Quiz interactif
 
-- [PYCDRD - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/PYCDRD)
+- [XXANJI - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/XXANJI)
 - [Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/)
 - [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
 
 ## **Bloc 5** Activité pratique: Analyse de code
+
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
+
 
 ## **Bloc 6** Exposé : Lire une maquette comme un pro
 
 [Exposé 1b: Lire une maquette :material-download:](./assets/cours01-p02-lire-maquette.pptx){ .md-button .md-button--primary }
 
 ## **Bloc 7** Atelier: Schéma de navigation
+
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+
 
 ## **Bloc 8** Présentation politique IA phase 1 
 
@@ -132,7 +137,17 @@ Action :
 ## **Bloc 9** Discussion ouverte et conclusion
 
 
-## **Bloc 10** Mise en place de GitHub Classroom + Devoir
+## **DEVOIR** pour le prochain cours
 
-- Texte à lire avant le prochain cours [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
-  N'hésitrez pas à activer la traduction en français pour faciliter la lecture du texte.
+- Texte à lire avant le prochain cours en vue d'une discussion en classe :
+  - [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
+  - N'hésitrez pas à activer la traduction en français pour faciliter la lecture du texte.
+
+<!-- 
+## **Bloc 10** SETUP GITHUB CLASSROOM + DEVOIR (10 min)
+
+GitHub Classroom (5 min)
+
+...
+
+-->
