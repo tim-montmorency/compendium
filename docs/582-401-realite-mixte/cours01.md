@@ -61,9 +61,10 @@ Livres:
   **[Travail 1](./travaux/travail1.md){.stretched-link .back}**
 </div>
     
-<!-- ### Création de visuels
-
-- [:pencil: Sprite](./unity/sprite.md){.back} -->
+<!--
+### Création de visuels
+- [:pencil: Sprite](./unity/sprite.md){.back} 
+-->
 
 ### Réflexion sur la thématique de votre travail 1
 

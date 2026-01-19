@@ -2,6 +2,11 @@
 
 [STOP]
 
+https://fr.slideshare.net/slideshow/12-visual-hierarchy-principles-every-designer-needs-to-know-130076165/130076165#2
+
+Before after : https://www.justinmind.com/blog/5-excellent-website-redesigns-before-and-after/
+Before after : https://www.youtube.com/watch?v=cRqCrEx05Ro
+
 ## Comité Merch
 
 <div class="grid" markdown>
@@ -185,6 +190,10 @@ Je veux une bannière.
 - Ok, tu veux qu'elle s'adresse à qui. 
 - Où va elle être affichée.
 - Pourquoi faire une bannière ? / Quel besoin elle doit combler? / Quel impact doit elle avoir ? (une action doit être prise par celui qui la regarde ?)
+
+## Vocabulaire plastique
+
+
 
 ## Figma
 
