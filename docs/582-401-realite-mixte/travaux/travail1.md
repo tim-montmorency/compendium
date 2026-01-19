@@ -122,7 +122,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Téléchargez la base de données que vous venez de créer. [Télécharger](../realite-augmentee/base_donnees.md#telecharger-la-base-de-donnees){.back}
 - [ ] Importez les images de détection dans Unity. [Importer](../realite-augmentee/importer_detection.md){.back}
 - [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ARCamera). Vous devez aussi vous assurer de mettre la licence sur la caméra. [ARCamera](../realite-augmentee/camera_detection.md){.back}
-- [ ] Maintenant, créez deux GameObjects Image Target. Ceux-ci vous permettront de détecter les images que vous avez mises dans votre base de données. [Image Target](../realite-augmentee/detecter_image.md){.back}
+- [ ] Maintenant, créez trois GameObjects Image Target. Ceux-ci vous permettront de détecter les images que vous avez mises dans votre base de données. [Image Target](../realite-augmentee/detecter_image.md){.back}
 
 **Tutoriel 🎥**
 
