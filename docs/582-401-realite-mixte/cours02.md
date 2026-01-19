@@ -43,13 +43,17 @@
 
 - [:pencil: Calques](./unity/sorting_layers.md)     
 
-### Animation de sprite sheet
-
-- [:pencil: Importer la *sprite sheet*](./unity/anim_import.md)
+### Animations
 - [:pencil: *Animator controller*](./unity/anim_controller.md)
 - [:pencil: *Animator*](./unity/anim_animator.md)
 - [:pencil: Fenêtre animation](./unity/fenetre_anim.md)
+
+
+<!--
+Ajouter notes pour savoir comment importer image et animer!
+- [:pencil: Importer la *sprite sheet*](./unity/anim_import.md)
 - [:pencil: Animation de *Sprite sheet*](./unity/animation.md)
+-->
 
 ### Avancement du travail 1 | Animations
 

@@ -122,7 +122,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Téléchargez la base de données que vous venez de créer. [Télécharger](../realite-augmentee/base_donnees.md#telecharger-la-base-de-donnees){.back}
 - [ ] Importez les images de détection dans Unity. [Importer](../realite-augmentee/importer_detection.md){.back}
 - [ ] Dans la fenêtre jeu, vous devez maintenant créer une caméra pour la réalité augmentée (ARCamera). Vous devez aussi vous assurer de mettre la licence sur la caméra. [ARCamera](../realite-augmentee/camera_detection.md){.back}
-- [ ] Maintenant, créez deux GameObjects Image Target. Ceux-ci vous permettront de détecter les images que vous avez mises dans votre base de données. [Image Target](../realite-augmentee/detecter_image.md){.back}
+- [ ] Maintenant, créez trois GameObjects Image Target. Ceux-ci vous permettront de détecter les images que vous avez mises dans votre base de données. [Image Target](../realite-augmentee/detecter_image.md){.back}
 
 **Tutoriel 🎥**
 
@@ -176,12 +176,9 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Assurez-vous d'être dans la scène Jeu. 
 - [ ] Créez un canvas qui contiendra tous les objets de votre scène. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size). [Créer un canvas](../unity/UI.md#canvas){.back}
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
-- [ ] Ajoutez un texte qui affichera le pointage.
 - [ ] Créez un bouton qui permettra de retourner au menu principal.
-- [ ] Affichez trois images qui représenteront les vies.
-- [ ] Insérez le cadre qui servira à balayer les images.
+- [ ] Affichez trois images qui représenteront la progression ou encore ajoutez un slider.
 - [ ] Ajoutez une image qui indiquera l'élément à balayer.
-- [ ] Pour le défi: Ajoutez trois boutons qui contrôleront le niveau de difficulté. 
 
 ### 8 | Création de la scène Jeu - Sons
 
@@ -203,11 +200,10 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 Un schéma de programmation sera créé en classe. Votre script devra comprendre les éléments suivants:     
 
-- [ ] La scène jeu montre une nouvelle image à balayer toutes les 5 secondes. 
-- [ ] Lorsque la bonne image est détectée, elle s'anime et un point s'ajoute à votre pointage.
-- [ ] Lorsque le joueur atteint 5 points, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu.  
-- [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
-- [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
+- [ ] La scène jeu montre l'image à recréer avec vos papiers. 
+- [ ] Lorsque la bonne image est détectée, elle s'anime et votre barre de progression avance ou votre image de progression devient opaque.
+- [ ] Lorsque le joueur réussit à recréer les 3 images, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu et un autre nous offre de rejouer.  
+- [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
 Voici une ressource pour vous aider à créer votre code: 
 [:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }    
@@ -224,12 +220,8 @@ Voici une ressource pour vous aider à créer votre code:
 - [ ] Ajoutez aussi la fonction pour quitter le jeu. [Script Quitter](../code/quitter_jeu.md){.back}
 - [ ] Assignez les nouvelles fonctions créées à vos boutons « Démarrer le jeu » et « Quitter le jeu ». [Événement](../code/evenements.md#evenement){.back}
 
-### 12 | Défi (Sera évalué)
 
-- [ ] Dans la scène jeu, créez un bouton X ou retour qui nous permettra de retourner à la scène menu.
-- [ ] Dans la scène jeu, créez des boutons qui permettent d'ajuster la difficulté du jeu: Facile = l'image change à chaque 5 secondes, moyen = l'image change à chaque 4 secondes, difficile = l'image change à chaque 3 secondes. 
-
-### 13 | Création de l'application
+### 12 | Création de l'application
 
 - [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. [Exporter pour Android](../unity/build.md){.back}
 

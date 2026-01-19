@@ -1,5 +1,10 @@
 # Cours 7
 
+## 🚨 Remise du schéma conceptuel
+
+## Évaluation formative avancement du travail
+Ouvrir votre projet 2 sur votre ordinateur.   
+
 
 ## Activité sur le contrôle de la qualité en jeu vidéo
 Téléchargez le dossier suivant, il contient le jeu à tester ainsi que ses dépendances. Ouvrez ensuite le .exe pour tester le tout.     
@@ -14,16 +19,16 @@ Prenez des captures d'écran de tous les problèmes que vous trouvez dans le jeu
 
 
 ## Présentation du travail 3
-
+<!--
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button }     
 
 [🕹️ Analyse de jeux arcade](./exercices/ex-jeuretro.md){ .md-button } 
+-->
 
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
 ## Démonstration d'un exemple du travail 3 
 
-Projet Pac man
 
 ## Devoir: Commencer l'idéation du projet final
 

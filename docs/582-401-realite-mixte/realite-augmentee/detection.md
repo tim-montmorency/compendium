@@ -25,4 +25,9 @@ Le contraste est important, surtout celui entre les bordures de votre dessin et 
 Les motifs jouent un grand rôle dans la détection. Idéalement, ils doivent être bien répartis dans l'espace et ils ne doivent pas être répétitifs.   
 
 Finalement, le format a une importance. Nos images ne doivent pas être trop petites pour éviter qu'elles soient floues, mais elles ne doivent pas être trop grosses pour que notre jeu reste léger.   
+
+
+[📋 Exemples Vuforia](https://developer.vuforia.com/library/vuforia-engine/images-and-objects/image-targets/best-practices/best-practices-designing-and-developing-image-based-targets/){ .md-button }  
+
      
+

@@ -1,9 +1,5 @@
 # Cours 4
 
-## Informations
-### Modification travail 1
-Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront vus au prochain cours. Vous devez avoir terminé les étapes 1 à 11 avant le cours de la semaine prochaine.
-
 
 ## Bloc 1
 #### Code
@@ -44,8 +40,25 @@ Remise à la fin du cours 5. Le contrôle de la qualité et l'exportation seront
 #### Script
 [💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button }     
 
-[💼 Travail 1 - Étape 12](./travaux/travail1.md#12-defi-sera-evalue){ .md-button }     
 
+## Bloc 3
+
+## Contrôle de la qualité et défi    
+
+### Test de l'application
+Répertorier les problèmes, trouver des solutions.
+
+
+## Exportation
+- [:pencil: Exportation](./unity/build.md)  
+
+### Avancement du travail 1
+Création de l'application    
+
+[💼 Travail 1 - Étape 12](./travaux/travail1.md#13-creation-de-lapplication){ .md-button }    
+
+
+## Bloc 4
 
 ## Exemple de travail 2
 Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé ControleQualite.exe pour jouer à un exemple de travail 2: 
@@ -55,5 +68,5 @@ Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé Control
 
 ## Devoir
 
-### Terminer les étapes 1 à 12 du travail 1
+### Terminer le travail 1
 [💼 Travail 1](./travaux/travail1.md){ .md-button }    

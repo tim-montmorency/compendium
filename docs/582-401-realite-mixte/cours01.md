@@ -50,9 +50,9 @@
 
 Livres:      
 
-- Slush le lutin
-- Tracé de voyage
-- Bandits des mers
+- Slush le lutin (App: Alaska)
+- Tracé de voyage (App: Artivive)
+- Bandits des mers (App: Les Éditions AppLit)
 
 ## Travail 1
 
@@ -67,6 +67,9 @@ Livres:
 ### Création de visuels
 - [:pencil: Sprite](./unity/sprite.md){.back} 
 -->
+
+### Création de visuels
+- [:pencil: Créer de bonnes images de détection](./realite-augmentee/detection.md){.back}
 
 ### Réflexion sur la thématique de votre travail 1
 
