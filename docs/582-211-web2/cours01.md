@@ -2,6 +2,8 @@
 
 ## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
 
+--- 
+
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
