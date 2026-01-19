@@ -127,6 +127,8 @@ Action :
 
 [Exposé 1c: Politique IA - Phase 1 :material-download:](./assets/cours01-p03-politique-IA.pptx){ .md-button .md-button--primary }
 
+> IMPORTANT: Pour la phase 1: Désactivez tous *Co-Pilot* dans *VisualStudioCode*.
+
 ## **Bloc 9** Discussion ouverte et conclusion
 
 
