@@ -66,7 +66,7 @@ Je me présente, Marie-Michelle...
 Lien vers l'activité (whiteboard avec post it et 3 questions)
 
 - [Tableau blanc pour le groupe 2 LUNDI AM](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBlgjOK1vODS4gGKHhFOEliAVFXSSfckk3-ApGzHIIlMfY?e=VkD1tX)
-- [Tableau blanc pour le groupe 3 LUNDI PM](#)
+- [Tableau blanc pour le groupe 3 LUNDI PM](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBMOIJoUryiS7rSToULwVdEAU0KEzb7S14B8zXHoY2e2Kg?e=xcVyxm)
 - [Tableau blanc pour le groupe 1 MERC AM](#)
 
 ## **Bloc 1** Votre relation avec l'IA
