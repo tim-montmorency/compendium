@@ -5,6 +5,12 @@ hide:
 
 # Réalité Mixte
 
+<a href="https://tim-montmorency.com/compendium/582-401-realite-mixte/" target="_blank" style="text-decoration:none;">
+  <button style="padding:10px 20px; background-color:#ed5d53; color:white; border:none; border-radius:5px; cursor:pointer;">
+    Ouvrir le wiki sur le web
+  </button>
+</a>
+
 ## Vue synoptique
 
 ![](./images/vueSynoptique2.jpg){.w-100 data-zoom-image}
