@@ -21,11 +21,6 @@
 
 - [ ] [Créer un identifiant Unity](https://id.unity.com/en/account/new)
 
-### Ajouter le _Sampler pack_ de Synty Studios à vos assets
-
-Vous devriez recevoir un code par courriel pour ajouter **gratuitement** le paquet [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-207048) à votre bibliothèque.
-
-- [ ] Ajouter _Sampler Pack_ à vos assets
 
 ### Télécharger Unity
 
@@ -83,3 +78,9 @@ Tempête d'idées
 - [ ] S'inscrire au _[Unity student plan](https://unity.com/products/unity-student)_ en cliquant sur « **enseignement supérieur** »
 
 ![](./images/enseignement-supp.png)
+
+### Ajouter le _Sampler pack_ de Synty Studios à vos assets
+
+Vous devriez recevoir un code par courriel pour ajouter **gratuitement** le paquet [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-207048) à votre bibliothèque.
+
+- [ ] Ajouter _Sampler Pack_ à vos assets
