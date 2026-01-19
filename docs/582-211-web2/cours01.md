@@ -106,6 +106,18 @@ Action :
 > "L'IA a généré quelque chose qui fonctionne. Vous, vous créez quelque chose qui fonctionne bien et durablement."
 > <br>.
 
+## Désactiver les extensions IA dans Visual Studio Code
+
+### Fonctionnalité IA
+
+- Ouvrez la palette de commandes en appuyant sur Ctrl+Maj+P (Windows/Linux).
+- Saisissez `Chat: Hide AI Features` dans la barre de recherche.
+- Maintenant cochez: Chat`Disable AI Features.
+
+### Extensions
+
+- Allez dans extensions et vérifiez si Co-Pilot est installé, si c'est le cas, veuillez le désinstaller.
+- Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi
 
 ## **Bloc 4** Quiz interactif
 
