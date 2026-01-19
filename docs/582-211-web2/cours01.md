@@ -37,7 +37,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 - **Bloc 7** Atelier: Schéma de navigation
 - **Bloc 8** Présentation politique IA phase 1 
 - **Bloc 9** Discussion ouverte et conclusion
-- **Bloc 10** Mise en place de GitHub Classroom + Devoir
+- **Bloc 10** Devoir pour le prochain cours
 
 
 
