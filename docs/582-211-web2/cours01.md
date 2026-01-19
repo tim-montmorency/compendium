@@ -1,7 +1,5 @@
 # Cours 1
 
-## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
-
 --- 
 
 <div class="class-content-link">
@@ -9,7 +7,7 @@
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
 
-
+## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
 
 <!-- 
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
@@ -48,7 +46,6 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 ### Joindre l'équipe Teams pour le cours
 
 Le code sera partagé en classe au cours 1.
-
 
 
 ### Brise glace
