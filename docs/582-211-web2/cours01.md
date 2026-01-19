@@ -35,7 +35,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 - **Bloc 5** Activité pratique: Analyse de code
 - **Bloc 6** Exposé : Lire une maquette comme un pro
 - **Bloc 7** Atelier: Schéma de navigation
-- **Bloc 8** Présentation politique IA phase 1 
+- **Bloc 8** Exposé: Présentation politique IA phase 1 
 - **Bloc 9** Discussion ouverte et conclusion
 - **Bloc 10** Devoir pour le prochain cours
 
@@ -76,9 +76,9 @@ Lien vers l'activité (whiteboard avec post it et 3 questions)
 - [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
 
 
-## **Bloc 2** Exposé: L'intégrateur à l'ère de l'IA
+## **Bloc 2** Exposé 1a: L'intégrateur à l'ère de l'IA
 
-[Exposé 1a: L'intégrateur à l'ère de l'IA :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button .md-button--primary }
+[👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button}
 
 
 ## **Bloc 3** Démo live et discussion
@@ -130,9 +130,10 @@ Action :
 [👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
 
 
-## **Bloc 6** Exposé : Lire une maquette comme un pro
+## **Bloc 6** Exposé 1b : Lire une maquette comme un pro
 
-[Exposé 1b: Lire une maquette :material-download:](./assets/cours01-p02-lire-maquette.pptx){ .md-button .md-button--primary }
+
+[👩‍🏫 Exposé 1b: Lire une maquette : Télécharger le PPT :material-download:](./assets/cours01-p02-lire-maquette.pptx){ .md-button }
 
 ## **Bloc 7** Atelier: Schéma de navigation
 
@@ -141,7 +142,8 @@ Action :
 
 ## **Bloc 8** Présentation politique IA phase 1 
 
-[Exposé 1c: Politique IA - Phase 1 :material-download:](./assets/cours01-p03-politique-IA.pptx){ .md-button .md-button--primary }
+
+[👩‍🏫 Exposé 1c: Politique IA - Phase 1 : Télécharger le PPT :material-download:](./assets/cours01-p03-politique-IA.pptx){ .md-button }
 
 > IMPORTANT: Pour la phase 1: Désactivez tous *Co-Pilot* dans *VisualStudioCode*.
 
