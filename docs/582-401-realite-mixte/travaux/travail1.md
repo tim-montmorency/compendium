@@ -200,11 +200,10 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 Un schéma de programmation sera créé en classe. Votre script devra comprendre les éléments suivants:     
 
-- [ ] La scène jeu montre une nouvelle image à balayer toutes les 5 secondes. 
-- [ ] Lorsque la bonne image est détectée, elle s'anime et un point s'ajoute à votre pointage.
-- [ ] Lorsque le joueur atteint 5 points, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu.  
-- [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
-- [ ] Si trois vies sont perdues, un message d'échec apparaît et le jeu se termine. Un bouton nous permet de retourner au menu. 
+- [ ] La scène jeu montre l'image à recréer avec vos papiers. 
+- [ ] Lorsque la bonne image est détectée, elle s'anime et votre barre de progression avance ou votre image de progression devient opaque.
+- [ ] Lorsque le joueur réussit à recréer les 3 images, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu et un autre nous offre de rejouer.  
+- [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
 Voici une ressource pour vous aider à créer votre code: 
 [:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }    
