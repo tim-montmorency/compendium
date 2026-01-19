@@ -40,8 +40,6 @@
 #### Script
 [💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button }     
 
-[💼 Travail 1 - Étape 12](./travaux/travail1.md#12-defi-sera-evalue){ .md-button }     
-
 
 ## Exemple de travail 2
 Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé ControleQualite.exe pour jouer à un exemple de travail 2: 
