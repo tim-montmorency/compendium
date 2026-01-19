@@ -315,55 +315,48 @@ Finalisez la création de compte
 
 ### Introduction à Figma
 
-1. Aller sur figma.com  
-2. Se connecter  
-3. Créer un fichier **Design**  
-4. Renommer le fichier : `Cours01`  
-5. Renommer la **Page 1** : `Début`  
-6. Créer un **Frame** (équivalent d'un *artboard*)  
-7. Renommer le frame : `Test`
+#### Structure
 
-#### Navigation (essentiels)
+`Équipe > Projet > Composition > Pages > Frames`
+
+#### Navigation
 
 - Déplacements et zoom
-- Ordre des calques (Layers)
+- Ordre des calques
 - Sélection, multi-sélection, verrouillage
 - Alignements et distribution
 
-#### Formes (Shape tools)
+#### Formes
 
-- Panneau de droite (propriétés)
-- Carré avec ++shift++ (garde les proportions)
-- Coins arrondis
+- Panneau des propriétés
+- Glisser avec ++shift++ garde les proportions
+- Carré : coins arrondis
 - Grouper / dégrouper
-- Snap, alignement et distribution
-- Redimensionnement et rotation (outil Rotation : ++r++)
+- Snap
+- Redimensionnement et rotation
 - Flip horizontal / vertical (effet miroir)
 
 #### Propriétés visuelles
 
-- Remplissages (solid, gradients)
-- Contours / tracés (stroke)
-- Effets (ombres, flou, etc.)
-- Opacité
+- Remplissages : solide et dégradé
+- Tracé (_stroke_)
+- Transparence
 
 #### Texte
 
 - Outil texte
 - Styles de base : taille, graisse, interlignage, alignement
 
-#### Démonstrations rapides (idées)
-
-- Jeux olympiques (formes + simplification)
-- Logo Figma (formes + opérations booléennes)
-- Triptique Piet Mondrian (grille + proportions + couleurs)
-
 #### Sauvegarde et bonnes pratiques
 
 - Figma sauvegarde automatiquement **dans le cloud**.
 - Renommer clairement les fichiers, pages et frames (éviter "Untitled" / "Frame 1").
-- Exporter au besoin (PNG/SVG/PDF) et (optionnel) exporter un fichier `.fig`.
-	
+- Exporter (png/svg) et enregistrer la source (`.fig`).
+
+!!! example "Démo"
+
+    ![](./assets/img/figma-logo.png){.w-50}
+
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
@@ -371,6 +364,13 @@ Finalisez la création de compte
 
   <small>Exercice - Figma</small><br>
   **[Mosaïque](./activite/exercice/pattern/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/sonic-boom/resultat.png)
+
+  <small>Exercice - Figma</small><br>
+  **[Sonic boom](./activite/exercice/sonic-boom/index.md){.stretched-link .back}**
 </div>
 
 ## Devoir 
