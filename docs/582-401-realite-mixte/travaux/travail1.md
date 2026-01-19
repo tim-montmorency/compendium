@@ -176,12 +176,9 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Assurez-vous d'être dans la scène Jeu. 
 - [ ] Créez un canvas qui contiendra tous les objets de votre scène. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size). [Créer un canvas](../unity/UI.md#canvas){.back}
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
-- [ ] Ajoutez un texte qui affichera le pointage.
 - [ ] Créez un bouton qui permettra de retourner au menu principal.
-- [ ] Affichez trois images qui représenteront les vies.
-- [ ] Insérez le cadre qui servira à balayer les images.
+- [ ] Affichez trois images qui représenteront la progression ou encore ajoutez un slider.
 - [ ] Ajoutez une image qui indiquera l'élément à balayer.
-- [ ] Pour le défi: Ajoutez trois boutons qui contrôleront le niveau de difficulté. 
 
 ### 8 | Création de la scène Jeu - Sons
 
