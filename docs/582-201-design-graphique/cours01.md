@@ -1,5 +1,7 @@
 # Cours 1 | Intro
 
+[^crap]: [The Non-Designer's Design Book](https://diegopiovesan.wordpress.com/wp-content/uploads/2010/07/livro_-_the_non-designers_desi.pdf)
+
 ![](./assets/img/overprint-pinterest.png){.w-100}
 
 ## Présentation du plan de cours
@@ -49,7 +51,7 @@ Solution et utilité
 </div>
 </div>
 
-### Design graphique
+### Design + graphisme
 
 <div class="grid grid-1-2" markdown>
 ![](./assets/img/domino_ok.webp){data-zoom-image}
@@ -64,7 +66,7 @@ Mission !
 </div>
 </div>
 
-#### Histoire
+#### Histoire du design graphique
 
 <div class="grid" markdown>
 ![](./assets/img/art-nouveau.jpg){data-zoom-image}
@@ -94,216 +96,196 @@ Mission !
 
 [Les tendances actuelles en print](https://www.vistaprint.fr/hub/tendances-design-graphique)
 
-#### Design graphique Web
+#### Design (graphique) Web
 
-Les tendances en graphisme peuvent être pertientes comme références, mais le graphique en Web a de nombreuses considérations techniques et conceptuelles qui changent la façon qu'on aborde le design et l'esthétisme. Par exemple : 
+Les tendances en graphisme peuvent être pertinentes comme références, mais le graphisme Web a de nombreuses considérations techniques et conceptuelles qui changent la façon dont on aborde le design et l'esthétisme. Par exemple : 
 
-- Numérique vs. imprimé
+- Numérique et non imprimé
 - Interactivité
 - Expérience utilisateur (navigation, temps de chargement)
 - Médias animés (gif, vidéo, animation)
 - Accessibilité
 - Responsive
 
-## L'approche
+[Les tendances Web actuelles](https://www.canva.com/newsroom/news/design-trends-2026/)
 
-![](./assets/img/steve-jobs-movie.jpg)
+## Le design graphique
 
-L'expertise du designer graphique, c'est la **communication**.
+![](./assets/img/reality-warp.webp){.w-100}
 
-Il faut savoir faire passer un **message** (ou une information) le plus **efficacement** possible.
+L’expertise du designer graphique c'est la communication. 
 
-<div class="grid grid-1-1" markdown>
-<figure markdown>
-![](./assets/img/bad.avif){data-zoom-image}
-<figcaption>😨</figcaption>
-</figure>
+Il faut faire comprendre quelque chose (un message ou une information) **rapidement**, le plus **efficacement** possible. 
 
-<figure markdown>
-![](./assets/img/good.avif){data-zoom-image}
-<figcaption>💅</figcaption>
-</figure>
-</div>
+!!! example "Étude de cas - Panneaux de stationnement"
 
-[Source](https://nikkisylianteng.com/parking)
+    En 2014, Nikki Sylianteng a eu l'initiative de [repenser l'information des panneaux de stationnement à Los Angeles](https://nikkisylianteng.com/parking) dans l'optique de simplifier leur compréhension par le design graphique.
 
-Par conséquent, il faut savoir poser les bonnes questions !
+    <div class="grid grid-1-1" markdown>
+    <figure markdown>
+    ![](./assets/img/bad.avif){data-zoom-image}
+    <figcaption>😨</figcaption>
+    </figure>
+    <figure markdown>
+    ![](./assets/img/good.avif){data-zoom-image}
+    <figcaption>💅</figcaption>
+    </figure>
+    </div>
 
-<!-- https://www.youtube.com/@SatoriGraphics -->
+### La méthode QQOQCCP
 
-### Quoi / Objectif
+Pour y arriver, il faut bien comprendre l'objectif !
 
-Qu'est-ce qu'on veut obtenir ?
+On peut alors utiliser la méthode [QQOQCCP](https://bpifrance-creation.fr/moment-de-vie/qqoqccp-outil-presenter-idee) :
 
-- Informer ?
-- Convaincre ? 
-- Vendre ?
-- Faire agir (cliquer, s'inscrire, acheter) ?
+| Questions |  |
+| - | - |
+| **Quoi ?** | quel est le message / l’objectif ? (informer, convaincre, vendre, faire agir) |
+| **Qui ?** | à qui on parle ? (public cible, besoins, codes, attention) |
+| **Où ?** | où est-ce que ce sera vu ? (téléphone, affiche, site, écran, rue) |
+| **Quand ?** | à quel moment ? (urgence, saison, période, humeur du public) |
+| **Comment ?** | avec quels choix visuels ? (hiérarchie, contraste, cohérence, divulgation progressive, accessibilité) |
+| **Pourquoi ?** | pourquoi le message importe ? |
 
-!!! example "Quel est le message ?"
-    ![](./assets/img/pub-scrabble.webp){data-zoom-image .w-25}
-    <!-- Image/jeu. -> nécessite de déchiffrer. Amateur de puzzles. Vendre ou cliquer. -->
+!!! example "Exercice - Portes ouvertes"
 
-    ![](./assets/img/underground.gif){data-zoom-image .w-25} [:fontawesome-solid-location:](./assets/img/underground-geo.avif)
-    <!-- Abandonne la précision géographique au profit d'un schéma. Influencé par Harry Beck, métro londre -->
+    **Message : « Portes ouvertes, 5 février 18h à 21h »**
 
-<!-- Site, affiche, pub -->
+    On vous demande de faire une affiche sur un mur de la cafétéria et de faire une story Instagram.
 
-### Comment / Stratégie
+    Comment aborder cette demande ?
 
-Comment faire passer le message ?
+    > 🌱 Indice : Le « où » et le « comment » sont importants
 
-Par les principes de design graphique, le média choisi, les contraintes, etc.
+    <!-- Affiche : Gros titre lisible à 5–10 m, une seule info clé en énorme (date/heure), très peu de texte, contraste fort. -->
+    <!-- Instagram : 1 idée par écran, animation possible, bouton/CTA clair (“Swipe / Inscris-toi”), texte court, éléments centrés. -->
 
-- **Support / format**  
-  Affiche, story, bannière, landing page, packaging, écran en classe, panneau, etc.
-- **Ton et intention**  
-  Sérieux, ludique, premium, urgent, rassurant, institutionnel, etc.
-- **Stratégies visuelles (leviers)**  
-  - Hiérarchie (ce qui doit être vu en premier, deuxième, troisième)  
-  - Contraste (taille, couleur, densité, poids typographique)  
-  - Divulgation progressive (montrer l'essentiel, puis le détail)  
-  - Cohérence (styles, alignements, grilles, répétitions)  
-  - Accessibilité (lisibilité, tailles minimales, contrastes, clarté des icônes)
-- **Contraintes**  
-  Distance de lecture, lumière (extérieur/intérieur), temps d'attention, langue, normes, accessibilité, etc.
+!!! example "Exercice - Application de budget"
 
-!!! example "Mini-exercice"
-    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
-    1) Quel choix visuel aide vraiment le message ?  
-    2) Quel choix nuit au message ?
+    **Une application de budget**
 
-### Qui / Public cible
+    On vous demande de faire 2 applications de gestion de budget. Une pour les étudiants et une pour les parents.
 
-Pour communiquer un message, il faut comprendre **qui** le recevra et comment il sera interprété.
+    Comment aborder cette demande ?
 
-On parle alors de **public cible** :
+    > 🌱 Indice : Le « qui » et le « quoi » sont importants.
 
-- **Démographie** : âge, genre, localisation, revenu, niveau d'éducation, situation familiale.
-- **Psychographie** : intérêts, valeurs, attitudes, style de vie, loisirs, défis.
-- **Comportements** : habitudes d'achat, usage des réseaux sociaux, interaction avec le contenu.
-- **Besoins et problèmes** : que recherchent-ils ? quel problème le design peut-il aider à résoudre ?
+    <!-- Penser à l'objectif, le ton, le type de visuel, fonctionnalités, le type d'action à solliciter. -->
 
-Exemples :
+    <!-- Étudiant
+    Objectif typique : survivre au mois sans stress
+    Ton : simple, motivant, un peu ludique
+    Visuels : dynamiques, concrets (sorties, abonnement, épicerie)
+    Fonctionnalités mises de l’avant : budget hebdo, alertes “trop dépensé”, objectifs d’épargne, catégories faciles
+    CTA : “Commencer en 2 minutes” -->
 
-> Adolescents qui jouent à des jeux vidéo  
-> Parents avec de jeunes enfants  
-> Professionnels qui n'ont pas beaucoup de temps
+    <!-- Parent
+    Objectif typique : gérer une famille + prévoir
+    Ton : rassurant, organisé, fiable
+    Visuels : plus calmes, axés sur la planification (épicerie, garderie, activités, imprévus)
+    Fonctionnalités mises de l’avant : budgets par postes fixes, suivi des dépenses du foyer, objectifs (vacances, rénovations), rappels de paiements
+    CTA : “Planifier le mois” / “Voir un exemple de budget familial” -->
 
-!!! example "Mini-exercice"
-    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
-    - À qui ça s'adresse ? (donner 1–2 hypothèses)
+### Les enjeux de la désinvolture
 
-### Où / Contexte
+![](./assets/img/boys.gif){.w-100}
 
-Où et comment le visuel sera vu ?
+Si on fait abstraction des besoins et du contexte : 
 
-- Plateforme de diffusion (web, print, réseaux sociaux, signalétique, etc.)
-- Sur un cellulaire dans le métro ? Sur un écran d'ordi au travail ? Sur un panneau publicitaire ? Sur une montre ?
+* On peut difficilement justifier ses choix
+* On risque de devoir recommencer plusieurs fois (beaucoup d'irritants pour tout le monde)
+* Ça peut nuire à la marque<br>
+  ![](./assets/img/just-a-click-away.jpg){data-zoom-image .w-25}
+  ![](./assets/img/message-therapist.jpg){data-zoom-image .w-25}
+  ![](./assets/img/you-are-alone.webp){data-zoom-image .w-25}
+  ![](./assets/img/kn.webp){data-zoom-image .w-50}
 
-Conséquences possibles sur :
+### L'effet des contraintes
 
-- la taille du texte
-- la quantité d'information
-- le contraste et la lisibilité
-- la vitesse de compréhension
+Pour viser juste, il faut prendre le temps d'avoir bien compris, de laisser reposer son oeuvre, de la faire évaluer par d'autres, etc. Ça c'est les conditions idéales, mais dans le monde professionnel, c'est assez rare d'avoir peu de contrainte.
 
-!!! example "-"
+Parfois c'est pas toujours la faute du designer. Un classique pour déterminer la faisabilité d'un projet est l'acronyme [QCD](https://fr.wikipedia.org/wiki/QCDA).
 
-    ![](./assets/img/pub-adidas.webp){data-zoom-image}
-    <!-- Le magazine, en le consultant, on simule l'exercice de gym -->
-    
-### Quand / Stratégie
+![](./assets/img/qcd.png){.w-50 data-zoom-image}
 
-Le **moment** influence la réception :
+### La phase d'inspiration
 
-- Saison (été, hiver), météo, luminosité
-- Périodes fortes : rentrée, examens, fêtes, Black Friday, etc.
-- Contexte social/culturel : tendances, fatigue publicitaire, sensibilités du moment
+La phase d'inspiration est toujours très importante pour ne pas avoir à refaire la roue à chaque fois. S'inspirer des pros est la meilleure façon d'apprendre.
 
-!!! example "Mini-exercice"
-    À partir d'un même message :  
-    - Comment le visuel changerait en **rentrée** vs **période des fêtes** ?
+Voici quelques sources : 
 
-### En résumé
+* [Behance](https://www.behance.net/galleries/graphic-design)
+* [Awwwards](https://www.awwwards.com/)
+* [Dribbble](https://dribbble.com/tags/graphic-design)
+* [Pinterest](https://ca.pinterest.com/search/pins/?q=graphic%20design&rs=typed)
+* Reddit : [r/graphic_design](https://www.reddit.com/r/graphic_design/), [r/web_design](https://www.reddit.com/r/web_design/), [r/FigmaDesign](https://www.reddit.com/r/FigmaDesign/)
 
-- Pour qui est le message ?  
-- Quel effet on veut créer ?  
-- Quel contexte (où/quand) ?  
-- Quelle connotation le style apporte ?
+!!! question "Qu'est-ce que je regarde ?"
 
-## Connotation involontaire
+    Trouver des œuvres jolies, c'est bien, mais connaître le style et ses origines apporte une compréhension essentielle à la professionnalisation.
 
-Formes : https://reallygooddesigns.com/bad-graphic-design/
-Styles : Constructivisme russe <https://en.wikipedia.org/wiki/Alexander_Rodchenko>
-À l'inverse, si on invente quelque chose, par exemple l'exposition 6-7, vérifier avant s'il y a des corrélations.
+    <figure markdown>
+    ![](./assets/img/tabs.webp){.w-50 data-zoom-image}
+    <figcaption>Totally Accurate Battle Simulator</figcaption>
+    </figure>
 
-Parfois, c'est juste une question de culture générale.
+    Prenons l'exemple de l'esthétisme low-poly dans les jeux vidéo. Il est intéressant de savoir que cet esthétisme existe depuis les années 90, mais il est encore plus intéressant de savoir pourquoi ce style a resurgi dans les années 2010 : performance, coût de production. Donc son usage va au-delà de ses qualités esthétiques. Son usage fait partie d'une stratégie ! C'est la même chose en design graphique.
 
-![](./assets/img/bali-swastika.jpg){.w-25}
+    En cas de doute, utilisez par exemple <https://imgops.com/> (un genre de google images) pour trouver les origines d'une image. Pour en savoir plus sur son courant artistique, utilisez l'IA (LLM) ou allez à la bibliothèque ;)
 
-https://fr.wikipedia.org/wiki/Svastika
+### Techniques de création
 
-### Désinvolture
+Lorsqu'on crée, l'inspiration est un bon support, mais il faut connaître certaines techniques afin de faciliter le processus.
 
-Rater la cible : en design graphique, la désinvolture a un poids.
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Ma en chinois" src="https://codepen.io/tim-momo/embed/EayPJZZ?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true">
-      See the Pen <a href="https://codepen.io/tim-momo/pen/EayPJZZ">
-  Ma en chinois</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-      </iframe>
-
-### Parfaire sa culture
-
-![](./assets/img/History-of-Graphic-Design.webp){data-zoom-image}
-
-Il est pertinent de comprendre les origines d'une oeuvre, pour comprendre ses règles et sa signigication.
-
-!!! info "Comprendre ce qu'on fait"
-	Si vous vous inspirez d'oeuvre existantes, informez-vous sur leur provenance ou sur leur courant artistique.
-
-	<https://imgops.com/>, LLM, Pinterest ou carrément à la bibliothèque 📚
-
-## Techniques
-
-Vous connaissez déjà l'accronyme [C.R.A.P.](https://www.digitallearninginstitute.com/blog/visual-design-for-digital-learning-c-r-a-p-principles)
+#### C.R.A.P.
 
 ![](./assets/img/crap.png){data-zoom-image}
 
-### Principes (leviers)
+Le principe [C.R.A.P.](https://www.digitallearninginstitute.com/blog/visual-design-for-digital-learning-c-r-a-p-principles)[^crap] est un principe simple permettant d'orienter son approche au design graphique en 4 volets : contraste, répétition, alignement et proximité.
 
+#### 12(ish) principes de design graphique
+
+<figure markdown>
 ![](./assets/img/principes-of-design.png){data-zoom-image}
+<figcaption>alignement, contraste, équilibre, hiérarchie, couleurs, espacements, proportions, répétition, rythme, mouvement, accentuation, proximité, unité</figcaption>
+</figure>
 
-En vrai, il n’y a pas de recettes universelles, mais on observe des principes récurrents qui augmentent les chances qu’un visuel soit efficace.
+En vrai, il n’y a pas de recettes universelles, mais on observe des [principes](https://www.figma.com/resource-library/graphic-design-principles/) récurrents qui augmentent les chances qu’un visuel soit efficace. 
 
-Alignement, contraste, équilibre, hiérarchie, couleurs, espacements, proportions, répétition, rythme, mouvement, accentuation, proximité, unité.
-
-!!! warning "Ce ne sont pas des « règles esthétiques »…"
+!!! info "Ce ne sont pas des « règles esthétiques »"
+    
     En tout cas, pas que ! 
 	
-	Ce sont des **leviers** pour rendre un message plus clair, lisible et convaincant. Un peu comme une boîte à outils du designer.
+	Ce sont des **leviers** pour rendre un message plus clair, lisible et convaincant. Un peu comme une boîte à outils 🛠️ du designer.
 
-	---
+!!! example "Aiguisons notre œil de designer"
 
-    Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.
+    ![](./assets/img/principles-tea-before.png){data-zoom-image .w-33}
+    ![](./assets/img/principles-tea-after.png){data-zoom-image .w-33}
 
-	![](./assets/img/bad-average-good.jpg){data-zoom-image .w-25}
+    ---
 
-!!! example "Mini-exercice"
-    Afficher 2 ou 3 visuels (sites, affiches, pubs) à l'écran.  
-    - Quels principes vois-tu ? Quels principes manquent ?
+    ![](./assets/img/principles-technology-before.png){data-zoom-image .w-33}
+    ![](./assets/img/principles-technology-after.png){data-zoom-image .w-33}
 
-### Outils (matière première)
+    ---
 
-- Couleurs
-- Textures
-- Typographie
-- Lignes et formes
-- Espacements
-- Images et illustrations
+    ![](./assets/img/principles-flow-before.png){data-zoom-image .w-33}
+    ![](./assets/img/principles-flow-after.png){data-zoom-image .w-33}
 
-<!-- https://www.figma.com/resource-library/what-is-graphic-design/#key-elements-of-graphic-design -->
+    ---
+
+    ![](./assets/img/principles-marmite-before.png){data-zoom-image .w-33}
+    ![](./assets/img/principles-marmite-after.png){data-zoom-image .w-33}
+
+    ---
+
+    ![](./assets/img/principles-sanitation-before.png){data-zoom-image .w-33}
+    ![](./assets/img/principles-sanitation-after.png){data-zoom-image .w-33}
+
+    ---
+
+    Les exemples sont tirés de la chaîne YouTube de [Satori Graphics](https://www.youtube.com/@SatoriGraphics)
 
 ## Figma 
 
@@ -322,39 +304,13 @@ Rendez-vous sur <https://www.figma.com/login>
 <div class="grid grid-1-2" markdown>
 ![](./assets/img/figma-edu-step2.png){ data-zoom-image }
 
-Utiliser l'adresse courriel du CÉGEP
+Utilisez l'adresse courriel du CÉGEP
 </div>
 
 <div class="grid grid-1-2" markdown>
 ![](./assets/img/figma-edu-step3.png){ data-zoom-image }
 
-Finaliser la création de compte
-</div>
-
-### Activer la version étudiante gratuite
-
-Figma est offert gratuitement aux étudiantes et aux étudiants.
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/figma-edu-step4.png){ data-zoom-image }
-
-1. Un fois connecté, rendez-vous sur <http://www.figma.com/education/apply>
-1. Sélectionner « Enseignement Suppérieur »
-1. Compléter le formulaire avec des « oui » partout
-</div>
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/figma-edu-step5.png){ data-zoom-image }
-
-1. Sélectionner l'option « Étudiant »
-1. Sélectionner l'option « Homme-Machine »
-1. Entrer la date prévue d'obtention de diplôme
-</div>
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/figma-edu-step6.png){ data-zoom-image }
-
-Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collège Montmorency (Laval, Qc) » dans la liste sous "School".
+Finalisez la création de compte
 </div>
 
 ### Introduction à Figma
@@ -410,30 +366,18 @@ Compléter le formulaire (en anglais) et assurez-vous de sélectionner « Collè
 	
 ## Exercices
 
-@à venir
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/pattern/frame3.png)
 
+  <small>Exercice - Figma</small><br>
+  **[Mosaïque](./activite/exercice/pattern/index.md){.stretched-link .back}**
+</div>
 
-## Devoir
+## Devoir 
 
-@à venir
+<div class="grid grid-1-2" markdown>
+  ![](./activite/devoir/figma-edu/edu.avif)
 
-
-[STOP]
-
-https://www.youtube.com/watch?v=_rpaapFfZWM
-https://ca.pinterest.com/pin/4081455907260227/
-https://ca.pinterest.com/pin/5277724559555692/
-https://ca.pinterest.com/pin/5770305768309354/?e_t=e9be1fa1d99845e186b77b0e115dcff8&news_hub_id=3132778126799650496&utm_campaign=hfdigestpins&utm_content=5770305768309354&utm_medium=2004&utm_source=31&utm_term=16
-https://reallygooddesigns.com/80s-graphic-design/
-
-<!-- Exercice 1 : Autopsie d’un visuel (en duo)
-	•	Tu projettes 2–3 pubs/sites/affiches.
-	•	Ils remplissent une mini-fiche : objectif, cible, contexte, 3 choix visuels qui aident, 1 choix qui nuit.
-
-Exercice 2 : Reproduction guidée dans Figma
-	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
-
-Devoir (≈50 min)
-	•	Mini analyse (1 page) + capture ou lien Figma :
-	•	1 visuel choisi + "Quoi/Qui/Où/Quand/Comment" + 3 choix justifiés. -->
-
+  <small>Devoir - Figma</small><br>
+  **[Activer la version étudiante gratuite](./activite/devoir/figma-edu/index.md){.stretched-link .back}**
+</div>

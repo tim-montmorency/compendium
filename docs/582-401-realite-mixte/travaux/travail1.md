@@ -1,6 +1,6 @@
 # Travail 1
 
-L'objectif est de produire une application réalité augmentée.
+L'objectif est de produire une application de réalité augmentée.
 
 Celle-ci devra contenir une scène « Menu » et une scène « Jeu » (détection d'images). 
 
@@ -39,7 +39,7 @@ La thématique est libre. L'important est que vous créiez vos propres images. L
 
 - [ ] Affichez un bouton qui charge la scène « Menu » pour revenir au menu.
 - [ ] Affichez la silhouette de l'image à détecter. 
-- [ ] Lorsque la bonne image est détectée, superposez une animation et affichez la progression à l'écran (barre de progression ou images).
+- [ ] Lorsque la bonne image est détectée, superposez une animation et affichez la progression à l'écran (slider ou images).
 - [ ] Activez un son en même temps que l’animation (un son différent pour chaque animation).
 - [ ] Lorsque le joueur a détecté les trois images, affichez un message de succès avec un bouton de retour au menu et un bouton pour recommencer le jeu.
 
@@ -76,24 +76,23 @@ Les notes de cours reliées à chaque étape vous expliqueront plus en détail c
 
 Créez les contenus suivants :     
 
-
 - [ ] Plusieurs formes aux **arrêtes droites** en carton. 
 - [ ] 3 images de détection qu'on pourra scanner avec un appareil mobile. (JPG) Pour créer ces images, assemblez vos formes de carton et prenez l'assemblage en photo. Idéalement, redimensionnez ensuite vos photos au format carré (1024 x 1024 ou 2048 x 2048 sont idéals).
 - [ ] Créez la silhouette vectorielle de vos images de détection. (PNG24)
 - [ ] Recréez toutes vos formes de carton au format vectoriel. Vous pouvez changer les couleurs, ajouter des détails ainsi que des textures. (PNG24)
 - [ ] Créez ou trouvez des visuels pour les boutons et le menu. Les visuels de vos boutons doivent être en harmonie avec vos images de détection. (PNG24)
 
-Recherchez ensuite les éléments suivants (Libres de droit) :
+Recherchez ensuite les éléments suivants (libres de droits) :
 
-- [ ] Trouver une police de caractère et la télécharger (pour le menu et les messages).
-- [ ] 2 sons qui accompagneront les animations.
+- [ ] Trouvez une police de caractère et téléchargez-la (pour le menu et les messages).
+- [ ] Trouvez 2 sons qui accompagneront les animations.
 
 ### 1 | Création du projet
 
 - [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. [Créer le projet](../unity/creer_projet.md){.back}
 - [ ] Modifiez la plateforme de développement pour Android. [Changer de plateforme](../installation/configuration.md#developper-pour-android){.back}
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project. [Nomenclature](../unity/nomenclature.md){.back}
-- [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene, Scene. Une scene sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
+- [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene, Scene. Une scène sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
 
 **Tutoriel 🎥**
 
@@ -138,6 +137,7 @@ Recherchez ensuite les éléments suivants (Libres de droit) :
 - [ ] Redimensionnez vos animations et positionnez-les au-dessus de vos images de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. (Assurez-vous que chaque animation correspond au bon Image target) Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
+- [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour ce faire, dans la fenêtre Hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la Hierarchy.
 
 **Tutoriel 🎥**
 
@@ -147,7 +147,7 @@ Recherchez ensuite les éléments suivants (Libres de droit) :
 
 - [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la scène Jeu avant de la quitter ! Vous pouvez maintenant lui apporter des modifications.
 - [ ] Créez un canvas qui contiendra tous les objets de votre scène. Assurez-vous qu'il se fie à une taille d'écran de 1920 x 1080 (Scale with screen size). [Créer un canvas](../unity/UI.md#canvas){.back}
-- [ ] Dans la fenêtre Game, modifier le format de votre Scene de Free Aspect à 1920 x 1080 Landscape ou 16:9 Aspect.
+- [ ] Dans la fenêtre Game, modifiez le format de votre Scene de Free Aspect à 1920 x 1080 Landscape ou 16:9 Aspect.
 - [ ] Dans le canvas, créez un Panel. Il contiendra les objets de votre menu.
 - [ ] Créez 4 boutons dans votre Panel. Un pour quitter le jeu, un pour ouvrir les consignes, un pour ouvrir les crédits et un pour ouvrir le jeu. [Modifier le texte des boutons](../unity/UI.md#button){.back}
 - [ ] Créez un objet texte dans votre panel pour inscrire le titre de votre expérience.
@@ -186,7 +186,7 @@ Recherchez ensuite les éléments suivants (Libres de droit) :
 ### 8 | Création de la scène Jeu - Sons
 
 - [ ] Importez vos sons dans la fenêtre project en faisant un clic-droit dans cette fenêtre, puis import New Asset.
-- [ ] Ajouter une composante AudioSource sur vos GameObject animations.
+- [ ] Ajoutez une composante AudioSource sur vos GameObject animations.
 - [ ] Glissez vos clips audio dans le AudioSource et assurez-vous qu'il jouera en boucle lorsque l'objet sera activé. [Son](../code/variables.md#audiosource){.back}
 
 **Tutoriel 🎥**
@@ -203,7 +203,7 @@ Recherchez ensuite les éléments suivants (Libres de droit) :
 
 Un schéma de programmation sera créé en classe. Votre script devra comprendre les éléments suivants:     
 
-- [ ] La scène jeu montre une nouvelle image à balayer à chaque 5 secondes. 
+- [ ] La scène jeu montre une nouvelle image à balayer toutes les 5 secondes. 
 - [ ] Lorsque la bonne image est détectée, elle s'anime et un point s'ajoute à votre pointage.
 - [ ] Lorsque le joueur atteint 5 points, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu.  
 - [ ] Si la mauvaise image est balayée, un message d'erreur apparaît et une vie est perdue.
@@ -235,7 +235,7 @@ Voici une ressource pour vous aider à créer votre code:
 
 ## Remise
 
-Remettre votre travail dans le dossier suivant: 
+Remettez votre travail dans le dossier suivant :
 
 <!-- TODO : Ajouter un dossier de remise pour 2026 -->
 

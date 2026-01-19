@@ -2,6 +2,10 @@
 
 [STOP]
 
+    Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.
+    ![](./assets/img/bad-average-good.jpg){data-zoom-image .w-25}
+
+
 Typographie
 
 À enseigner

@@ -3,15 +3,58 @@ tags:
   - Exercice
 ---
 
-# Pattern
+# Mosaïque
 
-@todo à compléter
+L’objectif de cet exercice est de vous pratiquer avec les outils de Figma.
 
-## Résultat attendu
+Le but est de reproduire **à l’identique** les résultats attendus.
 
-![](./resultat.jpg){data-zoom-image}
+## Résultats attendus
 
-[Source](https://www.adobe.com/fr/learn/express/web/graphic-design-basics)
+<div class="grid" markdown>
+<figure markdown>
+![](./frame1.png){data-zoom-image}
+<figcaption>Frame 1</figcaption>
+</figure>
+<figure markdown>
+![](./frame2.png){data-zoom-image}
+<figcaption>Frame 2</figcaption>
+</figure>
+<figure markdown>
+![](./frame3.png){data-zoom-image}
+<figcaption>Frame 3</figcaption>
+</figure>
+<figure markdown>
+![](./frame4.png){data-zoom-image}
+<figcaption>Frame 4 - Piet Mondrian</figcaption>
+</figure>
+</div>
 
-## Stratégie
+## Consignes
+
+- [ ] Dans Figma, créez le projet « Exercices » s’il n’existe pas.
+- [ ] Dans le projet « Exercices », ajoutez une nouvelle composition de type « Design ».
+- [ ] Renommez la page « Mosaïque ».
+- [ ] Créez 4 _Frames_ avec une résolution de 900 × 450.
+- [ ] Utilisez exactement les couleurs des résultats attendus (utilisez la pipette).
+
+**Frame 1**
+
+- [ ] Utilisez uniquement des cercles.
+- [ ] Appliquez les couleurs de l’image de référence en utilisant la pipette.
+
+**Frame 2**
+
+- [ ] Utilisez uniquement des carrés en exploitant les coins arrondis.
+- [ ] Appliquez les couleurs de l’image de référence en utilisant la pipette.
+
+**Frame 3**
+
+- [ ] Utilisez uniquement des carrés en exploitant les coins arrondis.
+- [ ] Appliquez les couleurs de l’image de référence en utilisant la pipette.
+
+**Frame 4**
+
+- [ ] Utilisez des lignes et des carrés.
+- [ ] Appliquez les couleurs de l’image de référence en utilisant la pipette.
 

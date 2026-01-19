@@ -1,5 +1,12 @@
 # Cours 1 - Bienvenue!
 
+## Présentation Lora
+[:material-download: Présentation | Lora](https://www.figma.com/design/v15ptebRHsBtPjXfMcGsKa/Pr%C3%A9sentation?t=pfi8MC5rse8v1zqU-1){ .md-button .md-button--primary }
+
+- [ ] Dupliquer le projet
+- [ ] Modifier chaque case en ajoutant une image
+- [ ] Envoyer le résultat (S'assurer de ne pas nommer le fichier de manière identifiable)
+
 ## Plan de cours
 
 [:material-download: Plan de cours | Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAfhfEi4In-SJ2VAKNy7BX7AWHtDHkc9-K-JUB8RT2vmPo?e=bqQiVK){ .md-button .md-button--primary }
@@ -61,9 +68,10 @@ Livres:
   **[Travail 1](./travaux/travail1.md){.stretched-link .back}**
 </div>
     
-<!-- ### Création de visuels
-
-- [:pencil: Sprite](./unity/sprite.md){.back} -->
+<!--
+### Création de visuels
+- [:pencil: Sprite](./unity/sprite.md){.back} 
+-->
 
 ### Réflexion sur la thématique de votre travail 1
 
