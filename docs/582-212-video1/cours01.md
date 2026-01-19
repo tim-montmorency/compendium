@@ -73,9 +73,9 @@
 ## L’esthétique visuelle
 * [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
 
-## La caméra
+## L'équipe de production
 * Équipe et étapes de production :
-  * [Présentation caméra](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ)
+  * [équipe de prodution](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ)
 
 ## Devoir
 * Matériel à avoir avec soi en tout temps :
