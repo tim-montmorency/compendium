@@ -1,5 +1,7 @@
 # Cours 8
 
+[STOP]
+
 ## Les masques
 
 ![](./assets/images/masque-photoshop.jpg)
