@@ -4,7 +4,7 @@
 [Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww){ .md-button }   <br>
 
 ## Plan de cours
-[Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQAtHLgnFxMuS5s7IepU7D88AZWtpjclfKr1ZZc-2kDVWx8){ .md-button }   <br>
+[Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQBZkXhpMasgQZ6NQfv4p8OAAf2RbGaQ6Y4e1iEzP4K2Pvk?e=rQUgIA){ .md-button }   <br>
 
 
 ## Présentation des règles du cours
@@ -59,13 +59,8 @@
 ### Exemples de projets
 * Vidéo 1 — Bon Entendeur : [Voir la vidéo](https://www.youtube.com/watch?v=SaKFO9p8inA)
 * Vidéo 2 — Bon Entendeur : [Voir la vidéo](https://www.youtube.com/watch?v=Q8jPd0RC3eI)
-* Vidéo 3 — Palmar : [Voir la vidéo](https://www.youtube.com/watch?v=kfzDMDSGcU0)
-* Vidéo 4 — Vallée et Duhamel : [Voir le projet](https://valleeduhamel.com/portfolio-item/xero/)
-* Vidéo 5 — Lucky Love : [Voir la vidéo](https://www.youtube.com/watch?v=TMXf5mhDfW0)
-* Vidéo 6 — Lucky Love : [Voir la vidéo](https://www.youtube.com/watch?v=OCw6wvro6K8)
-* Vidéo 7 — Angèle : [Voir la vidéo](https://www.youtube.com/watch?v=a79iLjV-HKw)
-* Vidéo 8 — Angèle : [Voir la vidéo](https://www.youtube.com/watch?v=vs61OHs2g-w)
-* Vidéo 9 — Aliocha : [Voir la vidéo](https://www.youtube.com/watch?v=LImtFVtONoU)
+* Vidéo 3 - Alex acy : [Voir la vidéo](https://www.gorditos.tv/alexis)
+
 
 ### Formation des équipes
 * [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/IQBCcRGaodw0RavJlbfpe4e_AUBMLlgZh6vtFrFTKI3ul_w)
@@ -87,7 +82,10 @@
 * Installer la version DaVinci Resolve 19.1.4 à la maison :
   * [Téléchargement DaVinci Resolve](https://www.blackmagicdesign.com/support/)
 * Trouver la musique
-  *  Artlist
-  *  Suno
-  *  Udio
-  *  Vos amis
+  *  Musique libre de droits
+    *  Artlist
+    *  Suno
+    *  Udio
+    *  Vos amis
+  *  Musique non libre de droits
+## Présence
