@@ -1,13 +1,16 @@
 # Cours 1
 
---- 
 
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
 
-## Semaine 1 — Rôle de l’intégrateur & lecture d’interface
+## Semaine 1: Rôle de l’intégrateur & lecture d’interface
+
+**Posture pédagogique du cours**
+
+Web 2 vise à développer la capacité de *comprendre*, *structurer*, *adapter* et *améliorer* une interface Web, dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents. Nous apprendorons à bien les utiliser et ce, dans la deuxième moitié de la session.
 
 <!-- 
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
