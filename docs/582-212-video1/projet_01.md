@@ -1,7 +1,7 @@
-# Vidéoclip multiécran
+# Vidéoclip
 ## Description du projet
 
-Dans le cadre du cours, les étudiant(e)s doivent concevoir et réaliser un vidéoclip multiécran (split screen) de 2 à 3 minutes à partir d’une œuvre musicale choisie selon les consignes du cours.
+Dans le cadre du cours, les étudiant(e)s doivent concevoir et réaliser un vidéoclip en mosaïque de 2 à 3 minutes à partir d’une œuvre musicale choisie selon les consignes du cours.
 
 Le projet consiste à créer une vidéo dans laquelle plusieurs images sont présentées simultanément à l’écran, de manière synchronisée. Ces images ne servent pas à illustrer littéralement la musique, mais à construire une émotion par le rythme, le mouvement, la composition et le montage.
 
