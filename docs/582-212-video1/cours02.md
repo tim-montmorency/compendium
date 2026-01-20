@@ -30,3 +30,9 @@
 ## Raccords
 * [Raccords](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAzDQVJ1PVFRrwlP5TJBKsUAUFDzNOTl3i15M9WfaLHi5c?e=1Lnxn3)
 
+## Prise des présences
+
+## Devoir
+Écriture du synopsis, corriger le scénario à l'aide de Chat. 
+Création du moodboard 
+Assemblage dans le fichier de préproduction [pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
