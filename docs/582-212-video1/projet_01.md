@@ -6,19 +6,20 @@ Dans le cadre du cours, les étudiant(e)s doivent concevoir et réaliser un vid�
 Le projet consiste à créer une vidéo dans laquelle plusieurs images sont présentées simultanément à l’écran, de manière synchronisée. Ces images ne servent pas à illustrer littéralement la musique, mais à construire une émotion par le rythme, le mouvement, la composition et le montage.
 
 ## Principes du projet
-
 * Plusieurs images pour fabriquer une émotion
-* Synchronisation entre les écrans (rythme, gestes, mouvements, respirations, micro-actions)
-* Contraintes de mouvement : répétition, variation, inversion, miroir, accélération ou ralentissement
-* Unité visuelle forte, malgré la multiplicité des images
 
 ## Contraintes artistiques
+* Toute représentation **stéréotypée, clichée, illustrative ou attendue** est interdite.
+* Synchronisation entre les écrans (rythme, gestes, mouvements, respirations, micro-actions)
+* Les étudiant·e·s doivent privilégier une approche visuelle **personnelle, abstraite, sensorielle et/ou expérimentale**.  
+* Les mouvements de caméra, de corps et d’éléments visuels doivent être **intentionnels, maîtrisés et cohérents**.
+* Le projet doit explorer **au moins un principe de transformation du mouvement, du temps ou de l’espace**, parmi les suivants :
+  - **Répétition**
+  - **Inversion**
+  - **Effet miroir**
+  - **Accélération**
+  - **Ralentissement**
 
-* Le projet ne doit inclure aucune image clichée.
-* Les représentations stéréotypées, illustratives ou attendues sont interdites.
-* Les étudiant(e)s doivent privilégier une approche visuelle personnelle, abstraite, sensorielle ou expérimentale.
-* Les mouvements de caméra, de corps ou d’éléments visuels doivent être intentionnels, contrôlés et cohérents entre les différents écrans.
-* Chaque choix visuel doit pouvoir être justifié dans la démarche artistique.
 
 # Évaluations — Travail 1 : Vidéoclip multiécran
 
@@ -57,10 +58,10 @@ Elle doit démontrer que le projet est **clairement pensé, structuré et réali
 
 Les **rushes de tournage sont visionnés et commentés en classe**.
 
-Cette étape permet de vérifier :
-* la qualité technique des images,
-* la cohérence avec la préproduction,
-* la clarté des gestes, mouvements et intentions visuelles.
+* Cette étape permet de vérifier :
+ * la qualité technique des images,
+ * la cohérence avec la préproduction,
+ * la clarté des gestes, mouvements et intentions visuelles.
 
 La **présence et l’implication de tous les membres de l’équipe sont obligatoires** lors du tournage et du visionnement.
 
@@ -72,10 +73,10 @@ Si les images ne permettent pas d’atteindre les objectifs du projet, **un nouv
 
 Chaque étudiant·e doit réaliser **une version personnelle** du montage offline.
 
-Le montage offline doit établir :
-* la structure complète du vidéoclip,
-* la synchronisation des images avec la musique,
-* le rythme général du projet.
+* Le montage offline doit établir :
+ * la structure complète du vidéoclip,
+ * la synchronisation des images avec la musique,
+ * le rythme général du projet.
 
 À partir des montages individuels, l’équipe doit ensuite produire **une version commune**, intégrant les meilleurs éléments de chacun.
 
@@ -87,11 +88,11 @@ L’implication individuelle dans le montage offline est prise en compte dans l�
 
 Le montage online correspond à la **finalisation du projet**.
 
-Il doit inclure :
-* le son finalisé,
-* la colorisation appliquée,
-* les effets visuels intégrés,
-* le générique complété.
+* Il doit inclure :
+ * le son finalisé,
+ * la colorisation appliquée,
+ * les effets visuels intégrés,
+ * le générique complété.
 
 **Tous les membres de l’équipe doivent participer activement** à cette étape de finalisation.
 
