@@ -1,11 +1,16 @@
 # Cours 2
 
-
-## L’esthétique visuelle
-* [Composition d'image](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
+## Disque dur
+* Transfert des fichiers sur le disque dur.
+* [Devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgAnMGJq4LZ9Q6ZV9lT_KWEVAWkBbZgtV-PLNbocowzbxps?e=dl25wz)
+* [Exercices en classe](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgDsyu-K6PqzTb3CvCDey63kAVU0RIhdlifc11ourSUg3DA?e=CqmyPG)
 
 ## Synopsis
 * [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQA3sDO2kA90TZCLo58QeTV_AecPI22lXuRoT_1ItSZ7Xk8?e=eLjihZ)
+
+
+## L’esthétique visuelle
+* [Composition d'image](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
 
 
 ## Valeurs de plan, Axe, Storyboard
