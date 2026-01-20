@@ -52,7 +52,7 @@ Le code sera partagé en classe au cours 1.
 
 - [BJXBIO - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/BJXBIO)
 - [MPEXFU - Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/MPEXFU)
-- [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
+- [FKKGKJ - Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/FKKGKJ)
 ### Présentation de votre enseignante
 
 Je me présente, Marie-Michelle...
@@ -67,13 +67,13 @@ Lien vers l'activité (whiteboard avec post it et 3 questions)
 
 - [Tableau blanc pour le groupe 2 LUNDI AM](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBlgjOK1vODS4gGKHhFOEliAVFXSSfckk3-ApGzHIIlMfY?e=VkD1tX)
 - [Tableau blanc pour le groupe 3 LUNDI PM](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBMOIJoUryiS7rSToULwVdEAU0KEzb7S14B8zXHoY2e2Kg?e=xcVyxm)
-- [Tableau blanc pour le groupe 1 MERC AM](#)
+- [Tableau blanc pour le groupe 1 MERC AM](https://cmontmorency365-my.sharepoint.com/:wb:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDrYu5PDtkIQpL8Xew80iuuASme9GNg3WwLApAuI7Mlnsg?e=kMcL5s)
 
 ## **Bloc 1** Votre relation avec l'IA
 
 - [PYCDRD - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/PYCDRD)
 - [BCJIHB Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/BCJIHB)
-- [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
+- [LRGKZR - Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/LRGKZR)
 
 
 ## **Bloc 2** Exposé 1a: L'intégrateur à l'ère de l'IA
@@ -123,7 +123,7 @@ Action :
 
 - [XXANJI - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/XXANJI)
 - [RUDJUJ - Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/RUDJUJ)
-- [Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/)
+- [OUXJME - Lien vers activité pour le groupe 1 MERC AM](https://app.wooclap.com/OUXJME)
 
 ## **Bloc 5** Activité pratique: Analyse de code
 
