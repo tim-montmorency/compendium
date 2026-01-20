@@ -1,5 +1,8 @@
 # Cours 2
 
+## Retour sur les évaluations obligatoires en classe
+* Voir plan de cours
+
 ## Disque dur
 * Transfert des fichiers sur le disque dur.
 * [Devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgAnMGJq4LZ9Q6ZV9lT_KWEVAWkBbZgtV-PLNbocowzbxps?e=dl25wz)
@@ -21,7 +24,7 @@
 ## L’esthétique visuelle
 * [Composition d'image](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
 
-## Valeurs de plan, Axe, Storyboard
+## Valeurs de plan, axe, storyboard
 * [Valeurs de plan, axe, storyboard](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQCpyjtKdrW7TaXjg5ER8wMLAdvz8JBbbCGF7p_pBJ0uIYY?e=MVkEol)
 
 ## Raccords
