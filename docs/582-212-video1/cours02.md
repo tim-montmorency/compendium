@@ -2,7 +2,7 @@
 
 
 ## L’esthétique visuelle
-* [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
+* [Esthétique visuelle](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
 
 ## Synopsis
 * [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQA3sDO2kA90TZCLo58QeTV_AecPI22lXuRoT_1ItSZ7Xk8?e=eLjihZ)
