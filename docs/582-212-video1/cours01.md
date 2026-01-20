@@ -67,8 +67,7 @@
 
 ## L'équipe de production
 * Équipe et étapes de production :
-  * [équipe de prodution](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ)
-
+  * [Équipe de prodution](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ESxtiN2BY0dJgKzdREJtL-gB4RzfpaeDNt8apqepW6vTXQ)
 
 ## L’esthétique visuelle
 * [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g)
