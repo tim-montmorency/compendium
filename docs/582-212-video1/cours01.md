@@ -76,16 +76,15 @@
 
 ## Devoir
 * Matériel à avoir avec soi en tout temps :
-  * Disque dur
+  * Disque dur formaté avec fils USB C ou USB
   * Carte SD demandée
-* Formater vos disques durs
 * Installer la version DaVinci Resolve 19.1.4 à la maison :
   * [Téléchargement DaVinci Resolve](https://www.blackmagicdesign.com/support/)
-* Trouver la musique
+* Rencontre avec votre équipe pour trouver la musique
   *  Musique libre de droits
-    *  Artlist
-    *  Suno
-    *  Udio
+    *  [Artlist](https://artlist.io/)
+    *  [Suno](https://suno.com/)
+    *  [Udio](https://www.udio.com/)
     *  Vos amis
   *  Musique non libre de droits
-## Présence
+## Prise des présences
