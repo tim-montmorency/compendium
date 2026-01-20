@@ -338,7 +338,7 @@ Finalisez la création de compte
 
 #### Propriétés visuelles
 
-- Remplissages : solide et dégradé
+- Remplissages : solide + pipette, dégradé
 - Tracé (_stroke_)
 - Transparence
 
