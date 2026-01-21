@@ -44,3 +44,10 @@ Ce jeu propose une démo de 20 minutes. Il s'agit d'un jeu de cuisine avec des v
 [🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/lost-recipes/4584847304916084/){ .md-button }   <br>
 
 
+## Just another cooking game
+Le titre l'annonce, ce jeu est un jeu de cuisine gratuit dans lequel on cuisine dans un foodtruck pour des robots.
+
+[🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/just-another-cooking-game/6766207633442740/){ .md-button }   <br>
+
+
+
