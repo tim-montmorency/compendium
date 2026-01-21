@@ -1,4 +1,45 @@
 [STOP]
+
+Pour le grand public, le nom **Gutenberg** est surtout associé à l’invention de l’imprimerie au milieu du XVe siècle.
+
+Il est aujourd’hui au centre de nombreuses discussions dans l’univers de **WordPress**, le système de gestion de contenu le plus utilisé au monde.
+
+Ici, Gutenberg ne désigne plus une presse à imprimer, mais bien **l’éditeur de contenu de WordPress**, un outil qui permet de créer et de structurer des pages web à l’aide de blocs.
+
+## Gutenberg sur WordPress : c’est quoi exactement ?
+
+Gutenberg est l’éditeur de contenu de WordPress.
+
+Il permet de créer et de mettre en forme des pages et des articles à l’aide de blocs (texte, images, titres, boutons, etc.).
+
+Intégré à WordPress depuis la version 5.0, Gutenberg remplace l’ancien éditeur et offre une interface plus visuelle, simple et intuitive pour organiser le contenu d’un site.
+
+### Les blocs : le cœur de Gutenberg
+Dans WordPress, l’éditeur **Gutenberg** fonctionne grâce aux **blocs**.
+Les blocs sont les éléments de base qui servent à construire une page ou un article.
+
+Un bloc peut contenir du **texte**, une **image**, une **vidéo**, un **bouton**, etc.
+On peut facilement **ajouter**, **déplacer** ou **supprimer** ces blocs, simplement avec la souris.
+
+Grâce aux blocs, il est possible de créer des mises en page variées et personnalisées **sans écrire une seule ligne de code**.
+
+Les blocs sont regroupés en **six grandes catégories :**
+* **Texte** (paragraphes, titres, listes)
+* **Médias** (images, vidéos, audio)
+* **Design** (colonnes, séparateurs, espacements)
+* **Widgets** (archives, recherche, catégories)
+* **Thème** (navigation, logo du site, titre du site)
+* **Contenus embarqués** (YouTube, Spotify, réseaux sociaux)
+
+![](./assets/images/tim-gutenberg-wordpress.png){data-zoom-image}
+
+
+
+
+
+
+
+
 ## Introduction à l’environnement AMP (Apache, MySQL, PHP)
 
 AMP : Acronyme pour Apache, MySQL et PHP, utilisé pour simuler un serveur sur son ordinateur ou, communément appelé, en local.
