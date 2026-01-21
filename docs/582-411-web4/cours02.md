@@ -134,7 +134,7 @@ Pour accéder à Gutenberg dans WordPress, c’est très simple :
 
 Une fois dans l’éditeur, vous pouvez commencer à **ajouter, déplacer et modifier des blocs** pour construire votre contenu.
 
-![](./assets/images/tim-interface-gutenberg-wordpress.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-interface-gutenberg-wordpress.webp){data-zoom-image}
 
 ## Les trois zones principales de l’interface Gutenberg
 En regardant l’éditeur, on distingue trois zones principales :
@@ -171,34 +171,38 @@ Pour ajouter un nouveau bloc, suivez ces étapes :
     * Ensuite, utilisez l’icône « + » pour choisir le bloc désiré ou ouvrez l’outil d’insertion complet pour parcourir tous les blocs disponibles.
   
       
-![](./assets/images/tim-insertion-bloc-gutenberg.gif){width="50%" data-zoom-image}
+![](./assets/images/tim-insertion-bloc-gutenberg.gif){data-zoom-image}
 
 ## Ajouter et formater des blocs dans Gutenberg
 
 ### Ajouter un bloc
 Les blocs sont faciles à utiliser grâce à leurs noms explicites :
+
 * Pour un titre → ajoutez un bloc **Titre**
 * Pour une image → ajoutez un bloc **Image**
 * Pour un bouton → ajoutez un bloc **Bouton**
   
-Pour un paragraphe, vous n’avez pas besoin de choisir un bloc : taper directement dans l’espace de contenu crée automatiquement un **bloc Paragraphe**. Cela se produit aussi lorsque vous appuyez sur **Entrée**.
+Pour un paragraphe, vous n’avez pas besoin de choisir un bloc : taper directement dans l’espace de contenu crée automatiquement un **bloc Paragraphe**. 
+Cela se produit aussi lorsque vous appuyez sur **Entrée**.
 
 ### Personnaliser un bloc
 Une fois ajouté, chaque bloc est brut.
 Pour le formater, cliquez dessus pour afficher **la barre d’outils supérieure**.
 
 Les options varient selon le type de bloc :
+
 * **Bloc Image** → ajouter un filtre, ajuster la taille, etc.
 * **Bloc Titre** → alignement, niveau de titre (H2, H3…), gras, italique, barré, exposant, liens, etc.
 
 Ainsi, chaque bloc peut être **adapté facilement à vos besoins**, sans toucher au code.
 
-![](./assets/images/tim-barre-outils-gutenberg.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-barre-outils-gutenberg.webp){data-zoom-image}
 
 ## Comment personnaliser le style d’un bloc ?
 
 Le **formatage de base** n’est qu’un premier pas pour personnaliser un bloc.
 Pour aller plus loin, utilisez les **réglages avancés** disponibles pour chaque bloc.
+
 * Ces options se trouvent dans la **barre latérale droite**, sous l’onglet **« Bloc »**.
 * Les réglages proposés dépendent du type de bloc que vous éditez.
 
@@ -210,7 +214,7 @@ Pour aller plus loin, utilisez les **réglages avancés** disponibles pour chaqu
 
 Ainsi, chaque bloc peut être **adapté visuellement** selon vos besoins, sans toucher au code.
 
-![](./assets/images/tim-formatage-bloc.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-formatage-bloc.webp){data-zoom-image}
 
 
 ## Personnaliser et déplacer vos blocs
@@ -221,27 +225,30 @@ Avec le **bloc « Bouton »**, vous pouvez modifier non seulement le texte e
 Si un bloc n’est pas à l’endroit souhaité, pas de souci : **Gutenberg vous permet de le déplacer facilement.**
 
 Voici vos options :
+
 * Copier-coller :
-    * Sélectionnez le bloc en cliquant dessus.
-    * Appuyez sur Ctrl + C (PC) ou Cmd + C (Mac) pour copier, puis Ctrl + V (PC) ou Cmd + V (Mac) pour le coller à l’endroit choisi.
+ * Sélectionnez le bloc en cliquant dessus.
+ * Appuyez sur Ctrl + C (PC) ou Cmd + C (Mac) pour copier, puis Ctrl + V (PC) ou Cmd + V (Mac) pour le coller à l’endroit choisi.
 
 * Flèches de déplacement :
-    * Utilisez les deux petites flèches situées sur la barre d’outils du bloc pour le faire monter ou descendre dans la page.
+ * Utilisez les deux petites flèches situées sur la barre d’outils du bloc pour le faire monter ou descendre dans la page.
 
-![](./assets/images/tim-remonter-bloc-gutenberg.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-remonter-bloc-gutenberg.webp){data-zoom-image}
 
 ## Déplacer un bloc
 Pour changer la position d’un bloc :
+
 * Glisser-déposer : cliquez sur l’icône des six petits points dans la barre d’outils du bloc, maintenez le clic et déplacez le bloc à l’emplacement souhaité.
 
 Grouper plusieurs blocs
 Même si Gutenberg n’offre pas toutes les options d’un constructeur de page comme Elementor, vous pouvez organiser vos contenus proprement grâce aux **blocs « Design »**.
 
 Par exemple, le bloc Colonnes crée un conteneur parent pour plusieurs blocs enfants.
+
 * Chaque colonne peut contenir un bloc différent : un texte dans la colonne de droite, une image dans la colonne de gauche, etc.
 * Cela permet de créer des mises en page structurées et visuellement harmonieuses, sans toucher au code.
 
-![](./assets/images/tim-colonnes-gutenberg.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-colonnes-gutenberg.webp){data-zoom-image}
 
 Lorsque vous ajoutez des **colonnes**, elles se disposent **horizontalement** les unes à côté des autres.
 
@@ -252,18 +259,20 @@ Par exemple, vous pouvez grouper un **titre** et son **paragraphe** dans un mêm
 
 L’avantage ? Une fois les blocs regroupés, vous pouvez **appliquer la même mise en forme** à tous en même temps, ce qui facilite la cohérence du style sur votre page.
 
-![](./assets/images/tim-groupe-gutenberg.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-groupe-gutenberg.webp){data-zoom-image}
 
 ## Comment utiliser les compositions de blocs dans Gutenberg
 Les **compositions de blocs** (ou block patterns) sont des ensembles de blocs regroupés dans un seul conteneur.
 
 Ce sont comme des **modèles prêts à l’emploi** que vous pouvez insérer pour créer rapidement des sections complètes dans vos articles ou pages.
 Pour accéder aux compositions de blocs :
+
 * Ouvrez l’**outil d’insertion de blocs** (icône « + »).
 * Cliquez sur l’onglet **Compositions**.
 * Vous verrez alors les modèles disponibles, dont le nombre dépend du **thème actif** sur votre site.
 
 Les compositions de blocs sont classées en **9 catégories principales :**
+
 * Mis en avant
 * Publications
 * Texte
@@ -276,13 +285,13 @@ Les compositions de blocs sont classées en **9 catégories principales :**
 
 Ces modèles vous permettent de gagner du temps et de maintenir une mise en page cohérente sur l’ensemble de votre site.
 
-![](./assets/images/tim-compositions-blocs-gutenberg-.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-compositions-blocs-gutenberg-.webp){data-zoom-image}
 
 Pour insérer une **composition de bloc** dans votre contenu, cliquez simplement sur celle qui vous intéresse.
 
 Vous pouvez ensuite **personnaliser chaque bloc** individuellement, tant au niveau du contenu que du style.
 
-![](./assets/images/tim-explorer-compositions.gif){width="50%" data-zoom-image}
+![](./assets/images/tim-explorer-compositions.gif){data-zoom-image}
 
 ## Profiter des compositions synchronisées
 Les **compositions synchronisées** étaient autrefois appelées **blocs réutilisables**. Depuis WordPress 6.3 (août 2023), elles portent ce nouveau nom.
@@ -292,6 +301,7 @@ Une composition synchronisée est un bloc ou un groupe de blocs que vous créez 
 L’avantage ? Si vous modifiez la composition à un endroit, le changement se répercute **automatiquement sur toutes les publications** où elle est utilisée.
 
 C’est particulièrement pratique pour :
+
 * Ajouter des appels à l’action (ex : inscription à une newsletter)
 * Réutiliser un même visuel ou une même structure de contenu sur plusieurs pages
 
@@ -300,13 +310,14 @@ Les compositions synchronisées vous font **gagner du temps** et garantissent **
 ### Zoom sur les compositions synchronisées
 
 Avant de créer une composition sur WordPress, voici ce qu’il faut savoir sur les **compositions synchronisées** :
+
 * Cette fonctionnalité est intégrée nativement dans l’éditeur depuis **WordPress 6.3** (août 2023) et remplace l’ancienne option « blocs réutilisables ».
 * Une composition synchronisée permet de **réutiliser le même contenu sur tout votre site** sans avoir à le recréer à chaque fois.
 * Elles sont principalement utilisées pour les blocs situés dans la **zone de contenu principale** des articles et pages.
 * **Synchronisation automatique** : toute modification d’une composition sur une publication se répercute sur toutes les autres où elle est utilisée.
 * La création et l’enregistrement d’une composition se font **en quelques clics** depuis l’éditeur de contenu ou l’Éditeur de site.
   
-![](./assets/images/tim-repertoire-composition-blocs.webp){width="50%" data-zoom-image}
+![](./assets/images/tim-repertoire-composition-blocs.webp){data-zoom-image}
 
 
 ## Pourquoi utiliser une composition synchronisée ?
@@ -316,6 +327,7 @@ La **composition synchronisée** de WordPress (anciennement « bloc réutilisa
 Elle vous permet de **créer un bloc une seule fois** et de le réutiliser partout, sans le recréer à chaque ajout de contenu.
 
 Exemples d’usage pratiques :
+
 * Un encart (petit bloc ou section d’information isolée) **Auteur** à la fin de tous vos articles, avec photo et présentation courte.
 * Des liens vers vos **réseaux sociaux** pour inciter vos lecteurs à vous suivre.
 * Des **appels à l’action (CTA)**, par exemple pour l’inscription à votre newsletter ou le téléchargement d’un document.
@@ -334,26 +346,27 @@ Suivez ces étapes simples pour créer une composition en quelques clics.
 * Commencez par ajouter un nouvel article via **Articles > Ajouter** (ou choisissez un article ou une page existante à modifier).
 * Donnez un **titre** à votre publication, puis ajoutez le **texte** que vous souhaitez y inclure.
 
-![](./assets/images/tim-bloc-personnalise-wordpress.jpg){width="50%" data-zoom-image}
+![](./assets/images/tim-bloc-personnalise-wordpress.jpg){data-zoom-image}
 
 ### Étape 2 : Créer une composition de blocs sur WordPress
 
 Pour réaliser notre encart d’appel à l’action, nous allons **combiner plusieurs blocs en un seul**.
+
 * La solution la plus simple consiste à utiliser le **bloc « Bannière »**, qui vous permet d’ajouter facilement une image en arrière-plan.
 * Vous pouvez aussi choisir le **bloc « Groupe »**, qui permet de rassembler plusieurs blocs dans un même conteneur.
 
 Pour ajouter le bloc « Bannière », cliquez sur l’**icône +** en haut à gauche de votre page pour ouvrir l’inséreur de blocs, puis sélectionnez le bloc souhaité
 
-![](./assets/images/tim-insertion-bloc-reutilisable.png){width="50%" data-zoom-image}
+![](./assets/images/tim-insertion-bloc-reutilisable.png){data-zoom-image}
 
 
 Cliquez sur le bouton « Téléverser » pour incorporer l’image d’arrière-plan (background) de votre choix. 
 
-![](./assets/images/tim-televerser-image-bloc.png){width="50%" data-zoom-image}
+![](./assets/images/tim-televerser-image-bloc.png){data-zoom-image}
 
 Rédigez le titre de votre choix, puis personnalisez-le en utilisant les options disponibles dans les réglages du bloc.
 
-![](./assets/images/tim-modification-composition.png){width="50%" data-zoom-image}
+![](./assets/images/tim-modification-composition.png){data-zoom-image}
 
 Ajoutez maintenant un bloc **« Bouton »** à l’intérieur de votre bloc **« Bannière »**. Pour cela, cliquez à l’intérieur du bloc **Bannière** pour faire apparaître l’inserteur de blocs, puis sélectionnez le bloc **Bouton**.
 
@@ -361,7 +374,7 @@ Vous pouvez personnaliser ce bouton comme vous l’avez fait pour votre titre : 
 
 Finalement, vous obtiendrez un résultat similaire à ceci :
 
-![](./assets/images/tim-bloc-banniere-personnalise.png){width="50%" data-zoom-image}
+![](./assets/images/tim-bloc-banniere-personnalise.png){data-zoom-image}
 
 ### Étape 3 : Enregistrer la composition
 Quand votre bloc « Bannière » est prêt :
@@ -370,7 +383,7 @@ Quand votre bloc « Bannière » est prêt :
 * Sélectionnez **« Créer une composition »**, donnez-lui un nom (par exemple : « Mon CTA ») et choisissez si vous souhaitez **la synchroniser** ou non.
 
 
-![](./assets/images/tim-creation-composition.gif){width="50%" data-zoom-image}
+![](./assets/images/tim-creation-composition.gif){data-zoom-image}
 
 **Félicitations !** Votre composition WordPress, qu’elle soit synchronisée ou non, est maintenant enregistrée et prête à être utilisée dans n’importe quelle page ou publication de votre site.
 
@@ -380,12 +393,13 @@ Supposons que vous vouliez insérer votre composition à la fin d’un nouvel ar
 Créez votre article comme vous le savez déjà, puis placez le curseur à l’endroit où vous souhaitez intégrer la composition : à la fin du contenu, au milieu, ou ailleurs selon vos besoins.
 
 Ensuite, ouvrez l’inséreur de blocs.
+
 * L’onglet avec deux losanges superposés (chiffre 2 sur la capture) affiche vos **compositions synchronisées** (anciennement blocs réutilisables).
 * L’onglet **Compositions** (chiffre 1) présente toutes les autres compositions disponibles.
 
 Cliquez sur celle que vous voulez ajouter, et elle s’insérera directement dans votre publication.
 
-![](./assets/images/tim-menu-compositions-blocs.png){width="50%" data-zoom-image}
+![](./assets/images/tim-menu-compositions-blocs.png){data-zoom-image}
 
 Vous trouverez vos propres compositions (non synchronisées) dans la première catégorie intitulée **« Mes compositions »**.
 Les catégories suivantes regroupent des compositions prêtes à l’emploi, classées par type : **Texte**, **Galerie**, **En-têtes**, etc.
@@ -393,8 +407,8 @@ Les catégories suivantes regroupent des compositions prêtes à l’emploi, cla
 Pour ajouter une composition à votre contenu, il vous suffit de cliquer dessus.
 Si vous utilisez régulièrement cette fonctionnalité, vous verrez rapidement s’accumuler une liste de compositions qui peut devenir assez conséquente, facilitant ainsi la création rapide de vos publications.
 
-<img width="432" height="195" alt="image" src="https://github.com/user-attachments/assets/671ce269-5b88-4879-88ef-1daf8eae54a0" />
 
+Source : [wp-marmite](https://wpmarmite.com/wordpress/gutenberg/#)
 
 
 
