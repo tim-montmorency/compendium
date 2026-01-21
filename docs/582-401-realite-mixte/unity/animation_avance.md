@@ -31,6 +31,7 @@ Voici comment faire:
     Truc de pro: Pour sauver du temps, vous pouvez aussi simplement cliquer et glisser le Controller Animator de la fenêtre Project à votre objet ouvert dans la fenêtre Inspector. 
 
 
+![type:video](../images/2026-01-21 15-06-10.mp4)
       
 
 ## Fenêtre animation
