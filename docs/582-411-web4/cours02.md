@@ -140,17 +140,15 @@ Une fois dans l’éditeur, vous pouvez commencer à **ajouter, déplacer et mod
 En regardant l’éditeur, on distingue trois zones principales :
 
 1.	La barre supérieure (top bar)
-      1. Située en haut de la fenêtre
-      1. Permet d’ajouter des blocs, de prévisualiser et de publier votre contenu
-      
+   * Située en haut de la fenêtre
+   * Permet d’ajouter des blocs, de prévisualiser et de publier votre contenu      
 1.	La zone centrale
-    * Contient tout le contenu de votre page ou article
-    * Chaque élément (texte, image, vidéo, etc.) est un bloc indépendant que vous pouvez déplacer ou modifier
+   * Contient tout le contenu de votre page ou article
+   * Chaque élément (texte, image, vidéo, etc.) est un bloc indépendant que vous pouvez déplacer ou modifier
 1.	La barre latérale droite
-    * Comporte deux onglets :
-      
-        * Article / Page : pour modifier les paramètres généraux du contenu
-        * Bloc : pour personnaliser individuellement chaque bloc, comme son style, ses couleurs ou sa mise en page
+   * Comporte deux onglets :
+    * Article / Page : pour modifier les paramètres généraux du contenu
+    * Bloc : pour personnaliser individuellement chaque bloc, comme son style, ses couleurs ou sa mise en page
 
 ### Comment ajouter un bloc dans Gutenberg
 Pour ajouter un nouveau bloc, suivez ces étapes :
@@ -158,16 +156,15 @@ Pour ajouter un nouveau bloc, suivez ces étapes :
 1.	Repérez l’icône « + »
    * Elle se trouve en haut à gauche de la page ou dans l’espace de contenu où vous voulez insérer le bloc.
 1.	Choisissez le bloc
-    * Gutenberg propose 6 catégories de blocs :
-      
-        * Texte : paragraphes, titres, listes
-        * Médias : images, vidéos, audio
-        * Design : colonnes, séparateurs, espacements
-        * Widgets : archives, recherche, catégories
-        * Thème : navigation, logo, titre du site
-        * Contenus embarqués : YouTube, Spotify, réseaux sociaux
+   * Gutenberg propose 6 catégories de blocs :
+    * Texte : paragraphes, titres, listes
+    * Médias : images, vidéos, audio
+    * Design : colonnes, séparateurs, espacements
+    * Widgets : archives, recherche, catégories
+    * Thème : navigation, logo, titre du site
+    * Contenus embarqués : YouTube, Spotify, réseaux sociaux
           
-    * Vous pouvez cliquer sur un bloc pour l’ajouter, ou le glisser-déposer à l’endroit souhaité.
+   * Vous pouvez cliquer sur un bloc pour l’ajouter, ou le glisser-déposer à l’endroit souhaité.
 
 1.	Insérez le bloc
     * Cliquez à l’endroit où le bloc doit apparaître dans votre contenu.
