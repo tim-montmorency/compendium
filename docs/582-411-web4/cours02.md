@@ -18,13 +18,13 @@ Intégré à WordPress depuis la version 5.0, Gutenberg remplace l’ancien édi
 Dans WordPress, l’éditeur **Gutenberg** fonctionne grâce aux **blocs**.
 Les blocs sont les éléments de base qui servent à construire une page ou un article.
 
-#### Un bloc peut contenir du :
+##### Un bloc peut contenir du :
 * **texte**
 * une **image**
 * une **vidéo**
 * un **bouton**, etc.
 
-#### On peut facilement 
+##### On peut facilement 
 * **ajouter**
 * **déplacer**
 * **supprimer** ces blocs
@@ -33,7 +33,7 @@ simplement avec la souris.
 
 Grâce aux blocs, il est possible de créer des mises en page variées et personnalisées **sans écrire une seule ligne de code**.
 
-#### Les blocs sont regroupés en **six grandes catégories** :
+##### Les blocs sont regroupés en **six grandes catégories** :
 
 * **Texte** (paragraphes, titres, listes)
 * **Médias** (images, vidéos, audio)
@@ -86,6 +86,7 @@ Il fonctionne généralement par **glisser-déposer** et propose de nombreux **m
 
 
 **L’Éditeur de site de Gutenberg** fonctionne de façon assez similaire :
+
 * il permet de modifier **toutes les zones du site** (pages, articles, en-tête, pied de page, etc.)
 * il utilise aussi un système de **blocs visuels**
 
@@ -95,16 +96,20 @@ Cependant, il existe une différence importante :
 Un constructeur de page propose en général **beaucoup plus de modèles**, d’effets visuels et de réglages avancés que l’Éditeur de site de WordPress.
 
 ### En résumé : quel outil utiliser ?
+
 * Pour créer et rédiger des articles ou des pages
 → Utilisez l’éditeur de contenu de WordPress (Gutenberg)
 * Pour construire un site complet :
   * Si vous êtes à l’aise avec WordPress ou développeur → l’Éditeur de site peut suffire
   * Si vous débutez ou voulez aller vite avec plus de liberté visuelle → un constructeur de page est souvent plus simple et plus puissant
+ 
+    
 ### À retenir
 * Gutenberg est intégré à WordPress et évolue constamment
 * Les constructeurs de pages sont souvent plus flexibles, mais ajoutent une couche supplémentaire au site
 
 ## Avantages de Gutenberg
+
 * Facile à prendre en main : idéal pour éditer pages et articles sans coder.
 * Aperçu en temps réel : ce que vous voyez est ce que vous obtenez (WYSIWYG).
 * Pas besoin de code : tout se fait avec des blocs.
@@ -114,6 +119,7 @@ Un constructeur de page propose en général **beaucoup plus de modèles**, d’
 * Accessibilité : conçu pour être utilisé par tout le monde.
 
 ## Inconvénients de Gutenberg
+
 * Moins de fonctionnalités avancées pour créer des mises en page poussées par rapport à un constructeur de page.
 * Performance légèrement réduite sur de très longs contenus (chargement un peu plus lent).
 
@@ -122,6 +128,7 @@ Gutenberg est un **outil moderne et flexible** pour créer du contenu dans WordP
 
 ## Découvrir l’interface de Gutenberg
 Pour accéder à Gutenberg dans WordPress, c’est très simple :
+
 * Pour créer un **article** : allez dans **Articles > Ajouter**
 * Pour créer une **page** : allez dans **Pages > Ajouter**
 
