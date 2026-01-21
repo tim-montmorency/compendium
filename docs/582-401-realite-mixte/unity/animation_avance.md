@@ -9,7 +9,7 @@ Voici comment créer un Animator Controller:
 - [ ] Ensuite, faites un clic droit dans cette fenêtre, puis choisissez Create, Animator Controller. Vous pouvez aussi aller dans la barre de Menu et faire Assets, Create, Animator Controller.
 - [ ] Donner un nom à votre Controller et appuyez sur enter.
    
-![](./images/AnimatorController.jpg)
+![](../images/AnimatorController.jpg)
       
 
 ## Animator
