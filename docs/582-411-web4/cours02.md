@@ -34,6 +34,7 @@ simplement avec la souris.
 Grâce aux blocs, il est possible de créer des mises en page variées et personnalisées **sans écrire une seule ligne de code**.
 
 Les blocs sont regroupés en **six grandes catégories** :
+
 * **Texte** (paragraphes, titres, listes)
 * **Médias** (images, vidéos, audio)
 * **Design** (colonnes, séparateurs, espacements)
@@ -57,6 +58,7 @@ Depuis, Gutenberg a évolué.
 WordPress propose maintenant un **Éditeur de site** (anciennement appelé Full Site Editing ou FSE).
 
 Cet éditeur permet de **modifier l’ensemble du site**, pas seulement le contenu :
+
 * le header
 * le footer
 * les menus
@@ -67,6 +69,7 @@ Tout se fait avec le **même principe de blocs**.
 ### Conditions pour utiliser l’Éditeur de site
 
 Pour accéder à l’Éditeur de site, il faut respecter deux conditions :
+
 * Utiliser **WordPress 5.9 ou une version plus récente**
 * Avoir activé un **thème basé sur les blocs**
 (par exemple : Twenty Twenty-Three, Twenty Twenty-Four)
