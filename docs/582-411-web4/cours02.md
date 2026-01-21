@@ -18,12 +18,22 @@ Intégré à WordPress depuis la version 5.0, Gutenberg remplace l’ancien édi
 Dans WordPress, l’éditeur **Gutenberg** fonctionne grâce aux **blocs**.
 Les blocs sont les éléments de base qui servent à construire une page ou un article.
 
-Un bloc peut contenir du **texte**, une **image**, une **vidéo**, un **bouton**, etc.
-On peut facilement **ajouter**, **déplacer** ou **supprimer** ces blocs, simplement avec la souris.
+Un bloc peut contenir du 
+* **texte**
+* une **image**
+* une **vidéo**
+* un **bouton**, etc.
+
+On peut facilement 
+* **ajouter**
+* **déplacer**
+* **supprimer** ces blocs
+
+simplement avec la souris.
 
 Grâce aux blocs, il est possible de créer des mises en page variées et personnalisées **sans écrire une seule ligne de code**.
 
-Les blocs sont regroupés en **six grandes catégories :**
+Les blocs sont regroupés en **six grandes catégories** :
 * **Texte** (paragraphes, titres, listes)
 * **Médias** (images, vidéos, audio)
 * **Design** (colonnes, séparateurs, espacements)
