@@ -18,13 +18,13 @@ Intégré à WordPress depuis la version 5.0, Gutenberg remplace l’ancien édi
 Dans WordPress, l’éditeur **Gutenberg** fonctionne grâce aux **blocs**.
 Les blocs sont les éléments de base qui servent à construire une page ou un article.
 
-Un bloc peut contenir du 
+#### Un bloc peut contenir du 
 * **texte**
 * une **image**
 * une **vidéo**
 * un **bouton**, etc.
 
-On peut facilement 
+#### On peut facilement 
 * **ajouter**
 * **déplacer**
 * **supprimer** ces blocs
@@ -33,7 +33,7 @@ simplement avec la souris.
 
 Grâce aux blocs, il est possible de créer des mises en page variées et personnalisées **sans écrire une seule ligne de code**.
 
-Les blocs sont regroupés en **six grandes catégories** :
+#### Les blocs sont regroupés en **six grandes catégories** :
 
 * **Texte** (paragraphes, titres, listes)
 * **Médias** (images, vidéos, audio)
@@ -57,7 +57,7 @@ Depuis, Gutenberg a évolué.
 
 WordPress propose maintenant un **Éditeur de site** (anciennement appelé Full Site Editing ou FSE).
 
-Cet éditeur permet de **modifier l’ensemble du site**, pas seulement le contenu :
+##### Cet éditeur permet de **modifier l’ensemble du site**, pas seulement le contenu :
 
 * le header
 * le footer
@@ -76,7 +76,7 @@ Pour accéder à l’Éditeur de site, il faut respecter deux conditions :
 
 Si votre thème n’est pas basé sur les blocs, l’Éditeur de site ne sera pas disponible.
 
-###À retenir
+### À retenir
 * Gutenberg n’est plus seulement un éditeur de texte
 * C’est devenu un outil complet pour construire un site WordPress, visuellement et sans code
 
