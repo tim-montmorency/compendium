@@ -1,4 +1,4 @@
-[STOP]
+
 
 Pour le grand public, le nom **Gutenberg** est surtout associé à l’invention de l’imprimerie au milieu du XVe siècle.
 
@@ -31,7 +31,7 @@ Les blocs sont regroupés en **six grandes catégories :**
 * **Thème** (navigation, logo du site, titre du site)
 * **Contenus embarqués** (YouTube, Spotify, réseaux sociaux)
 
-![](./assets/images/tim-gutenberg-wordpress.png){data-zoom-image}
+![](./assets/images/tim-gutenberg-wordpress.png){width="50%" data-zoom-image}
 
 
 
