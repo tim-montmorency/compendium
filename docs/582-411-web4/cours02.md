@@ -140,8 +140,10 @@ Une fois dans l’éditeur, vous pouvez commencer à **ajouter, déplacer et mod
 En regardant l’éditeur, on distingue trois zones principales :
 
 1.	La barre supérieure (top bar)
+   
     * Située en haut de la fenêtre
     * Permet d’ajouter des blocs, de prévisualiser et de publier votre contenu
+      
 1.	La zone centrale
     * Contient tout le contenu de votre page ou article
     * Chaque élément (texte, image, vidéo, etc.) est un bloc indépendant que vous pouvez déplacer ou modifier
