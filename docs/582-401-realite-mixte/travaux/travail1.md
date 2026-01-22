@@ -130,14 +130,13 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 ### 4 | Création de la scène Jeu - Animations
 
-- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux *sprite sheets* de nos animations. [Importation SpriteSheet](../unity/anim_import.md){.back}
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les images vectorielles qui composeront nos animations. [Importation SpriteSheet](../unity/anim_import.md){.back}
 - [ ] Créez un Animator par animation pour la contrôler. [Animator Controller](../unity/anim_controller.md){.back}
 - [ ] Créez un GameObject avec la composante Animator par animation. Ceux-ci contrôleront vos animations. [GameObject Animator](../unity/anim_animator.md){.back}
-- [ ] Créez une animation pour chaque Sprite Sheet. [Créer une animation](../unity/animation.md){.back}
+- [ ] Créez une animation pour chacuns de vos groupes d'images vectorielles. [Créer une animation](../unity/animation_avance.md#creation-danimations-de-parametres-de-gameobject){.back}
 - [ ] Redimensionnez vos animations et positionnez-les au-dessus de vos images de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. (Assurez-vous que chaque animation correspond au bon Image target) Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
-- [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour ce faire, dans la fenêtre Hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la Hierarchy.
 
 **Tutoriel 🎥**
 
