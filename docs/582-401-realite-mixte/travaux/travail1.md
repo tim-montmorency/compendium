@@ -227,5 +227,5 @@ Remettez votre travail dans le dossier suivant :
 
 <!-- TODO : Ajouter un dossier de remise pour 2026 -->
 
-[📁 Remise du Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EqD3pun06hRMg_pJF1EHOx8Bb4YBZCGASLu_OV1PRCOwlg?e=bVj2Nu){ .md-button .md-button--primary }
+[📁 Remise du Travail 1 - Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgAjVG3nWe9STbGisQXInSSsAWzg31HRJYz8eK5Og_U3MTI?e=yPPKJV){ .md-button .md-button--primary }
 
