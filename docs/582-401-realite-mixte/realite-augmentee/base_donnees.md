@@ -7,7 +7,7 @@ Avant de commencer, assurez-vous d'être connecté à votre compte Vuforia sur l
 
 - [ ] Une fois connecté, assurez-vous d'être dans l'onglet My Account, puis allez dans l'onglet Target Manager du menu vert.
 - [ ] Maintenant, cliquez sur Generate Database pour créer une base de données.
-- [ ] Donnez un nom à votre base de données et sélectionnez Device puisque l'on souhaite que la base de données se sauvegarde dans l'appareil mobile sur lequel l'expérience fonctionne. De cette façon, le wifi ne sera pas nécessaire pour faire fonctionner votre jeu.
+- [ ] Donnez un nom à votre base de données et sélectionnez `Device` puisque l'on souhaite que la base de données se sauvegarde dans l'appareil mobile sur lequel l'expérience fonctionne. De cette façon, le wifi ne sera pas nécessaire pour faire fonctionner votre jeu.
 - [ ] Appuyez sur Generate.
 - [ ] Vous pouvez maintenant cliquer sur le nom de votre base de données pour l'ouvrir.
 - [ ] Pour ajouter une image, appuyez sur Add Target.

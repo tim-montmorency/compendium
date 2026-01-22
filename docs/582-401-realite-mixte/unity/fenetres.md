@@ -1,6 +1,8 @@
 # Fenêtres
-Explorons l'interface de Unity.   
-<img src="../images/schema4.jpg">
+
+Explorons l'interface de Unity. 
+
+![](../images/schema4.jpg){data-zoom-image}
     
 1. **Barre de menu**     
     Ici, vous pourrez sauvegarder votre projet, créer des objets, faire apparaître de nouvelles fenêtres...      

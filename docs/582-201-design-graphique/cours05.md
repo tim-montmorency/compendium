@@ -11,6 +11,10 @@ https://www.cmontmorency.qc.ca/college/logos-et-normes-graphiques/
 
 brief → idéation → croquis → simplification → déclinaisons, icônes cohérentes.
 
+!!! example "Démo"
+
+    ![](./assets/img/figma-logo.png){.w-50}
+
 ## Exercice
 
 Demande : Fait un logo pour la TIM
