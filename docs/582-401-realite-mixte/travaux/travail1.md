@@ -85,11 +85,11 @@ Créez les contenus suivants :
 Recherchez ensuite les éléments suivants (libres de droits) :
 
 - [ ] Trouvez une police de caractère et téléchargez-la (pour le menu et les messages).
-- [ ] Trouvez 2 sons qui accompagneront les animations.
+- [ ] Trouvez 3 sons. Une pour chaque animation.
 
 ### 1 | Création du projet
 
-- [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. [Créer le projet](../unity/creer_projet.md){.back}
+- [ ] Créez un projet `2D Built-in Render Pipeline` à partir du Unity Hub. [Créer le projet](../unity/creer_projet.md){.back}
 - [ ] Modifiez la plateforme de développement pour Android. [Changer de plateforme](../installation/configuration.md#developper-pour-android){.back}
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project. [Nomenclature](../unity/nomenclature.md){.back}
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene, Scene. Une scène sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
