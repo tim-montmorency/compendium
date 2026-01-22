@@ -1,4 +1,10 @@
-# Importer la Sprite Sheet
+## Importer une image (.jpg ou .png)
+- [ ] Allez dans le dossier Art de la fenêtre Project.
+- [ ] Faites un clic-droit, puis choisissez Import New Asset et sélectionnez les visuels à importer depuis l'explorateur de fichier. Ou encore cliquez et glissez ces visuels dans la fenêtre Project.
+- [ ] Cliquez sur l'élément que vous venez d'importer, puis assurez-vous dans la fenêtre Inspector que le Texture type de votre image est Sprite(2D and UI). Si ce n'est pas le cas, modifiez ce paramètre et appuyez sur Apply au bas de la fenêtre Inspector.
+
+
+## Importer une Sprite Sheet
 - [ ] Dans le dossier Art de la fenêtre Project, créez un dossier nommé Sprite s'il n'existe pas encore.
 - [ ] Entrez dans le nouveau dossier, faites un clic-droit, puis choisissez Import New Asset et sélectionnez la Sprite Sheet à importer depuis l'explorateur de fichier. Ou encore cliquez et glissez la Sprite Sheet dans la fenêtre Project.
 - [ ] Cliquez sur l'élément que vous venez d'importer, puis assurez-vous dans la fenêtre Inspector que le Texture type de votre image est Sprite(2D and UI).
