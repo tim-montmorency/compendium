@@ -1,3 +1,5 @@
+![](./assets/images/exercice1.png){data-zoom-image}
+
 ## Exercice 1 – Construire une page avec des blocs Gutenberg
 
 ### Objectif
