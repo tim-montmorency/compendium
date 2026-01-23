@@ -1,4 +1,4 @@
-
+![](./assets/images/gutenberg-imp.jpg){data-zoom-image}
 
 Pour le grand public, le nom **Gutenberg** est surtout associé à l’invention de l’imprimerie au milieu du XVe siècle.
 
@@ -167,8 +167,8 @@ Pour ajouter un nouveau bloc, suivez ces étapes :
    * Vous pouvez cliquer sur un bloc pour l’ajouter, ou le glisser-déposer à l’endroit souhaité.
 
 1.	Insérez le bloc
-    * Cliquez à l’endroit où le bloc doit apparaître dans votre contenu.
-    * Ensuite, utilisez l’icône « + » pour choisir le bloc désiré ou ouvrez l’outil d’insertion complet pour parcourir tous les blocs disponibles.
+   * Cliquez à l’endroit où le bloc doit apparaître dans votre contenu.
+   * Ensuite, utilisez l’icône « + » pour choisir le bloc désiré ou ouvrez l’outil d’insertion complet pour parcourir tous les blocs disponibles.
   
       
 ![](./assets/images/tim-insertion-bloc-gutenberg.gif){data-zoom-image}
@@ -469,3 +469,16 @@ Plus concrètement :
   **[Installation de base](./exercices/wp-install.md){.stretched-link .back}**
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/exercice1.jpeg)
+
+  <small>Exercice 1</small><br>
+  **[Gutenberg](./exercices/exercice1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/exercice2.jpeg)
+
+  <small>Exercice 2</small><br>
+  **[Gutenberg 2](./exercices/exercice2.md){.stretched-link .back}**
+</div>
