@@ -1,4 +1,4 @@
-# Cours 9
+# Cours 9 | Maquette
 
 [STOP]
 

@@ -1,4 +1,4 @@
-# Cours 7
+# Cours 7 | Expérience utilisateur
 
 [STOP]
 

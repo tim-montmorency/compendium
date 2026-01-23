@@ -1,4 +1,4 @@
-# Cours 6
+# Cours 6 | Composition avancée
 
 [STOP]
 

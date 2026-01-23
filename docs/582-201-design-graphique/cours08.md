@@ -1,4 +1,4 @@
-# Cours 8
+# Cours 8 | Design _responsive_
 
 [STOP]
 

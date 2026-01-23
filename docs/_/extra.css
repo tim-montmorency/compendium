@@ -26,6 +26,14 @@
   width: 100% !important;
   height: auto;
 }
+.w-75 {
+  width: 75% !important;
+  height: auto;
+}
+.w-66 {
+  width: 66% !important;
+  height: auto;
+}
 .w-50 {
   width: 50% !important;
   height: auto;
@@ -38,6 +46,10 @@
   width: 25% !important;
   height: auto;
 }
+.w-20 {
+  width: 20% !important;
+  height: auto;
+}
 .w-10 {
   width: 10% !important;
   height: auto;
@@ -48,7 +60,8 @@
 .d-inline-block {
   display: inline-block !important;
 }
-img.center {
+img.center,
+iframe.center {
   display: block;
   margin: 0 auto;
 }

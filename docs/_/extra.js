@@ -194,7 +194,6 @@ const handleExternalLinks = () => {
 
 const handleDestinations = () => {
   var destination = window.location.pathname;
-  console.log("Processing destination:", destination);
 
   var backLinks = document.querySelectorAll(".back");
 
@@ -384,18 +383,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const targetNode = document.body;
   const config = { childList: true, subtree: true };
-  const callback = function (mutationsList, observer) {
-    for (let mutation of mutationsList) {
-      console.log(mutation);
-      if (mutation.type === "childList") {
-        setTimeout(() => {
-          runFunctions();
-        }, 250);
-        break;
-      }
-    }
+
+  let scheduledRunId = null;
+
+  const shouldIgnoreMutations = (mutationsList) => {
+    // highlight.js mutates code blocks heavily; ignore those to avoid loops.
+    return mutationsList.every((mutation) => {
+      if (!(mutation.target instanceof Element)) return true;
+      return Boolean(mutation.target.closest(".hljs, pre code.hljs, code.hljs"));
+    });
   };
-  const observer = new MutationObserver(callback);
+
+  const observer = new MutationObserver((mutationsList) => {
+    if (shouldIgnoreMutations(mutationsList)) return;
+    if (scheduledRunId !== null) return;
+
+    scheduledRunId = window.setTimeout(() => {
+      scheduledRunId = null;
+      observer.disconnect();
+      runFunctions();
+      observer.observe(targetNode, config);
+    }, 250);
+  });
+
   observer.observe(targetNode, config);
 });
 
@@ -414,7 +424,14 @@ function runFunctions() {
 
   /* highlight.js initialization */
   if (typeof hljs !== "undefined") {
-    hljs.highlightAll();
+    // Only highlight blocks not already processed to avoid repeated DOM mutations.
+    document.querySelectorAll("pre code:not(.hljs)").forEach((codeEl) => {
+      try {
+        hljs.highlightElement(codeEl);
+      } catch (e) {
+        // Ignore highlighting errors; never spam console for end users.
+      }
+    });
   }
 
 }
