@@ -1,11 +1,11 @@
-# Cours 2 
+# Cours 2 | Composition
 
 [STOP]
 
-https://fr.slideshare.net/slideshow/12-visual-hierarchy-principles-every-designer-needs-to-know-130076165/130076165#2
+## Exercices
 
-Before after : https://www.justinmind.com/blog/5-excellent-website-redesigns-before-and-after/
-Before after : https://www.youtube.com/watch?v=cRqCrEx05Ro
+Retour sur les exercices
+Demander une rétroactions verbale est possible
 
 ## Comité Merch
 
@@ -32,55 +32,115 @@ Par exemple :
 > Est-ce que les utilisateurs on cliqué ?
 > Est-ce qu'ils ont lu, acheté, ou retenu l'information ?
 
-Règle du tier
+## Règle des tiers 
 
-Golden ratio
+![](./assets/img/RuleOfThirds-SideBySide.gif)
 
-Composition : https://amadine.com/useful-articles/fr/composition-in-graphic-design
+La règre des tiers est un principe classique de photographique qui vise à positionner un sujet d'intéret de façon harmonieuse. C'est un principe également très utile pour le design graphique.
+
+> Imaginons une grille **3 × 3** sur un visuel.<br>
+> Placez les éléments importants soit sur les lignes ou sur les intersections.
+
+<iframe class="aspect-16-9 w-75 center" src="https://www.youtube.com/embed/ThQOmxElMt4?si=gNBr9zvzy6NXLjQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Principes
 
-https://www2.sjsu.edu/honorsx/docs/HonsX%2012%20Principles.pdf
+<!-- https://www2.sjsu.edu/honorsx/docs/HonsX%2012%20Principles.pdf -->
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+### Contraste
+
+Le contraste, c'est la mise en opposition. Pour ce faire, on utilise la taille, les formes, la typo, la texture, les couleurs, les styles.
+
+![](./assets/img/contrast-size.jpg){.w-25 data-zoom-image}
+![](./assets/img/contrast-color.jpeg){.w-25 data-zoom-image}
+![](./assets/img/contrast-typo.png){.w-25 data-zoom-image}
+[^contrast]
+[^contrast]: <https://yesimadesigner.com/using-contrast-1/>
+
+!!! example "Analogie"
+
+	Une pièce silencieuse. 
+	
+	Un cri y sera extrêmement contrasté (opposition sonore). 
+	
+	Dans une pièce où tout le monde crie, plus personne ne se distingue.
+
+### Alignement
+
+Fil invisible qui relie les éléments. Ça transforme un tas d'objets disparates en une composition organisée, ou à l'inverse, on peut désorganiser volontairement pour provoquer ou interpeller.
+
+![](./assets/img/alignment-principle.webp){data-zoom-image}[^alignment]
+[^alignment]: <https://254-online.com/alignment-principle-design/>
+
+!!! example "Analogie"
+
+	Imaginez une troupe de soldats au garde-à-vous.
+
+	Un soldat qui n'est pas aligné évoque un manque de rigueur.
+
+	Remplacez ce même soldat par un danseur contemporain et vous avez plutôt un effet de contrast !
+
+### Équilibre
+
+Répartition du « poids visuel » dans une image. Le contraste, lui, cherche la différence, mais l'équilibre cherche la **stabilité**.
+
+!!! example "Comparaison"
+
+	Le **contraste** attire l'oeil.
+	
+	L'**équilibre** dit : « Maintenant que tu as regardé, l'information est harmonieuse et lisible. »
+
+<div class="grid align-items-top" markdown>
+<div markdown>
+![](./assets/img/balance-symmetry.png){data-zoom-image}
+
+**Équilibre symétrique**<br>
+Évoque le calme et la prévisibilité.
+</div>
 
 <div markdown>
-**Alignement**<br>Organiser les éléments sur des lignes/grilles pour créer de l’ordre et de la cohérence.
+![](./assets/img/balance-asymmetry.png){data-zoom-image}
+
+**Équilibre asymétrique**<br>
+Évoque le dynamisme et l'informel.
 </div>
 </div>
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+!!! info "Hyper important en design"
 
-<div markdown>
-**Contraste**<br>Créer une différence forte (taille, couleur, poids, forme) pour faire ressortir l’important.
-</div>
-</div>
+	L'asymétrie ne signifie pas que les éléments sont jetés au hasard, ni que c'est déséquilibré ! On compense par le poids visuel plutôt que par leur position miroir.
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+	![](./assets/img/symmetrical-balance.webp){data-zoom-image .w-25}
+	![](./assets/img/asymmetrical-balance.webp){data-zoom-image .w-25}[^balance]
 
-<div markdown>
-**Équilibre**<br>Répartir le “poids visuel” pour éviter qu’une zone paraisse trop lourde ou instable.
-</div>
-</div>
+[^balance]: <https://254-online.com/balance-principle-design/>
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+### Hiérarchie
 
-<div markdown>
-**Hiérarchie**<br>Indiquer quoi lire/voir en premier, ensuite, et en dernier.
-</div>
-</div>
+La hiérarchie sert à structurer, organiser, mettre de l'accent et aide la personne à consulter facilement les informations.
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+La hiérarchie visuelle est généralement créée par le contraste, mais pas que !
 
-<div markdown>
-**Couleurs**<br>Communiquer une intention (ambiance, connotation) et soutenir la lisibilité/attention.
-</div>
-</div>
+![](./assets/img/size-and-scale-980x551.png){.w-33 data-zoom-image}
+![](./assets/img/typeface-sizes-980x551.png){.w-33 data-zoom-image}[^hierarchy2]
+
+![](./assets/img/hierarchy-example-1.webp){.w-33 data-zoom-image}
+![](./assets/img/hierarchy-example-4.webp){.w-33 data-zoom-image}[^hierarchy]
+
+[^hierarchy]: <https://254-online.com/hierarchy-principle-of-design/>
+[^hierarchy2]: <https://blog.thenounproject.com/graphic-design-principles-hierarchy/>
+
+### Couleurs
+
+![](./assets/img/couleurs-emotions.png){data-zoom-image}
+
+En design graphique, la Couleur n'est pas qu'un choix esthétique[^couleurs] 😮! 
+
+C'est l'un des outils les plus puissants pour influencer la psychologie et renforcer les autres principes.
+
+Donc les couleurs communiquent une intention (ambiance, connotation) et agissent sur la lisibilité et l'attention.
+
+[^couleurs]: <https://deepidoo.com/psychologie-des-couleurs-et-affichage-dynamique/>
 
 <div class="grid grid-1-2" markdown>
 ![](./assets/img){data-zoom-image}
@@ -142,57 +202,18 @@ Exemple : ![](./assets/img/mucho.webp)
 Src : https://wearemucho.com/work/uc-annual-report-2022
 
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
 
-<div markdown>
-**Unité**<br>Donner l’impression que “tout appartient au même système” (style, règles, cohérence globale).
-</div>
-</div>
+### Unité
 
-Ex: https://www.panesar.studio/le-temps-chocolate
+Donner l’impression que “tout appartient au même système” (style, règles, **cohérence** globale).
 
+![](./assets/img/Decade_Chocolate_all.webp){data-zoom-image}[^unite]
 
+[^unite]: <https://www.panesar.studio/le-temps-chocolate>
 
 <!-- https://www.zekagraphic.com/12-principles-of-graphic-design/ -->
 <!-- https://www.figma.com/resource-library/graphic-design-principles/ -->
 <!-- https://medium.com/design-related/20-design-rules-you-should-never-break-bc5407a78cea -->
-
-## Approche d'un projet
-
-But : Site web pour les maisons des jeunes.
-
-On pourrait penser à regarder directement des inspirations / moodboard, mais ce serait précipité.
-
-Il faut avant définir les objectifs. Il faut des données! Par exemple : 
-
-À qui on parle?
-Sur quel média?
-Quel est le public cible, son attention span, ses habitudes, etc.
-Que fait la compétition et qu'est-ce qu'on pourrait faire de mieux?
-
-Ensuite, on fait une stratégie. APRÈS on approche le graphisme, parce que celui-ci devra répondre à ces question.
-
-Avec le temps, on devient bon pour poser les bonnes questions selon les contextes.
-
-### Design thinking
-
-take a brief, unpack the problem, brainstorm directions, weigh trade-offs.
-
-Demander le besoin plutôt que la solution au client. Le designer travaille sur la solution au probleme, pas le client.
-
-Par exemple, on peut questionner pourquoi le client veut le résultat X ou Y? En quoi ça répond à tel ou tel problème?
-
-Exemple : 
-
-Je veux une bannière.
-
-- Ok, tu veux qu'elle s'adresse à qui. 
-- Où va elle être affichée.
-- Pourquoi faire une bannière ? / Quel besoin elle doit combler? / Quel impact doit elle avoir ? (une action doit être prise par celui qui la regarde ?)
-
-## Vocabulaire plastique
-
 
 
 ## Figma
@@ -220,6 +241,13 @@ Ex: https://www.youtube.com/watch?v=xzyvO71XEaA
 
 Reproduire logo Radio Canada
 
+
+Exercice : Voici une image. Met l'emphase sur cet élément et mentionne quel principe tu as utilisé.
+
+Prendre 2 photos en respectant la regle de tier.
+
+
+
 <!-- 
 
 Démo Figma
@@ -238,3 +266,11 @@ Consignes :
 Devoir
 	•	Devoir 1 (à remettre semaine 3) : refonte d’un petit visuel (post/affiche/bannière)
 	•	6 lignes de justification (objectif + cible + 3 décisions). -->
+
+
+
+
+	https://visme.co/blog/visual-hierarchy/
+
+Before after : https://www.justinmind.com/blog/5-excellent-website-redesigns-before-and-after/
+Before after : https://www.youtube.com/watch?v=cRqCrEx05Ro

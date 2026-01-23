@@ -8,6 +8,8 @@
 ## Présentation du schéma conceptuel
 [🔎 Expériences VR](./installation/experiences.md){ .md-button } 
 
+[🛠️ Tableau à remplir Lora](https://miro.com/app/board/uXjVGMEAAtM=/?share_link_id=98212798591){ .md-button } 
+
 
 
 ## S'assurer d'avoir le paquet gratuit de Synty studio

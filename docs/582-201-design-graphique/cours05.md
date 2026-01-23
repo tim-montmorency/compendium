@@ -1,8 +1,14 @@
-# Cours 5
+# Cours 5 | Logo
 
 [STOP]
 
 LOGO
+
+## `Golden ratio`
+
+Le ratio d’or sert surtout comme un guide de proportion.
+Composition : https://amadine.com/useful-articles/fr/composition-in-graphic-design
+
 
 Logo TIM (où sont les lettres)
 
@@ -10,6 +16,10 @@ Charte graphique
 https://www.cmontmorency.qc.ca/college/logos-et-normes-graphiques/
 
 brief → idéation → croquis → simplification → déclinaisons, icônes cohérentes.
+
+!!! example "Démo"
+
+    ![](./assets/img/figma-logo.png){.w-50}
 
 ## Exercice
 

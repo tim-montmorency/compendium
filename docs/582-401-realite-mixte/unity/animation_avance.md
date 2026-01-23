@@ -1,4 +1,4 @@
-# Animations avancées    
+# Animations de paramètres
 
 ## Animator Controller
 Lorsque l'on souhaite créer une animation dans Unity, la création d'une composante Animator Controller est obligatoire. Cette composante permet de gérer les différentes animation d'un objet ou d'un groupe d'objet.     
@@ -9,7 +9,7 @@ Voici comment créer un Animator Controller:
 - [ ] Ensuite, faites un clic droit dans cette fenêtre, puis choisissez Create, Animator Controller. Vous pouvez aussi aller dans la barre de Menu et faire Assets, Create, Animator Controller.
 - [ ] Donner un nom à votre Controller et appuyez sur enter.
    
-
+![](../images/AnimatorController.jpg)
       
 
 ## Animator
@@ -31,6 +31,7 @@ Voici comment faire:
     Truc de pro: Pour sauver du temps, vous pouvez aussi simplement cliquer et glisser le Controller Animator de la fenêtre Project à votre objet ouvert dans la fenêtre Inspector. 
 
 
+![type:video](../images/animator.mp4)
       
 
 ## Fenêtre animation
@@ -64,6 +65,7 @@ Une fois l'animator créé, on est prêt à animer l'objet sur lequel il est ou 
 - [ ] Nous devons maintenant modifier le paramètre Samples pour que notre animation joue plus lentement ou plus rapidement.   
 
       
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/hr3T5MtpPZ0?si=ehF1KLm9CdMJKCUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Fenêtre Animator
 Dans Unity, la fenêtre Animatior nous permet de visualiser les animations déjà créée et de gérer les transitions entre celles-ci. Pour l'ouvrir, allez dans la barre de menu, dans l'onglet Window, Animation, Animator. Une fois la fenêtre ouverte, vous pouvez la positionner à l'emplacement de votre choix en appuyant sur son nom en haut à gauche de la fenêtre et en maintenant votre clic enfoncé.     

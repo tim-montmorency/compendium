@@ -1,12 +1,35 @@
-# Cours 3
+# Cours 3 | Typographie
 
 [STOP]
 
     Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.
     ![](./assets/img/bad-average-good.jpg){data-zoom-image .w-25}
 
+## Tutorat
 
-Typographie
+
+## Vocabulaire plastique
++ exercice
+
+
+### Design thinking
+
+take a brief, unpack the problem, brainstorm directions, weigh trade-offs.
+
+Demander le besoin plutôt que la solution au client. Le designer travaille sur la solution au probleme, pas le client.
+
+Par exemple, on peut questionner pourquoi le client veut le résultat X ou Y? En quoi ça répond à tel ou tel problème?
+
+Exemple : 
+
+Je veux une bannière.
+
+- Ok, tu veux qu'elle s'adresse à qui. 
+- Où va elle être affichée.
+- Pourquoi faire une bannière ? / Quel besoin elle doit combler? / Quel impact doit elle avoir ? (une action doit être prise par celui qui la regarde ?)
+
+
+## Typographie
 
 À enseigner
 	•	Lisibilité : tailles minimales, interlignage, longueur de ligne.

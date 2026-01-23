@@ -37,3 +37,17 @@ Ce jeu a une approche au temps qui est différente de ce qu'on connaît. C'est u
 Ce jeu est assez connu dans le monde de la VR. C'est un jeu de rythme à la guitar hero. Le jeu est payant, mais il y a un démo gratuit.
 
 [🔎 Accéder à l'application](https://www.oculus.com/deeplink/?action=view&path=/app/1758986534231171&ref=oculus_desktop){ .md-button }   <br>
+
+## Lost recipes
+Ce jeu propose une démo de 20 minutes. Il s'agit d'un jeu de cuisine avec des visuels simples et élégants.
+
+[🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/lost-recipes/4584847304916084/){ .md-button }   <br>
+
+
+## Just another cooking game
+Le titre l'annonce, ce jeu est un jeu de cuisine gratuit dans lequel on cuisine dans un foodtruck pour des robots.
+
+[🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/just-another-cooking-game/6766207633442740/){ .md-button }   <br>
+
+
+

@@ -1,4 +1,4 @@
-# Cours 4
+# Cours 4 | Couleurs
 
 [STOP]
 

@@ -85,11 +85,11 @@ Créez les contenus suivants :
 Recherchez ensuite les éléments suivants (libres de droits) :
 
 - [ ] Trouvez une police de caractère et téléchargez-la (pour le menu et les messages).
-- [ ] Trouvez 2 sons qui accompagneront les animations.
+- [ ] Trouvez 3 sons. Une pour chaque animation.
 
 ### 1 | Création du projet
 
-- [ ] Créez un projet 2D Built-in Render Pipeline à partir du Unity Hub. [Créer le projet](../unity/creer_projet.md){.back}
+- [ ] Créez un projet `2D Built-in Render Pipeline` à partir du Unity Hub. [Créer le projet](../unity/creer_projet.md){.back}
 - [ ] Modifiez la plateforme de développement pour Android. [Changer de plateforme](../installation/configuration.md#developper-pour-android){.back}
 - [ ] Créez les dossiers pour ranger vos fichiers dans la fenêtre project. [Nomenclature](../unity/nomenclature.md){.back}
 - [ ] Créez deux scènes dans votre dossier Scenes. Pour ce faire, faites un clic droit dans la fenêtre Project, puis sélectionnez Create, Scene, Scene. Une scène sera pour votre jeu et l'autre pour votre menu. Donnez-leur des noms évocateurs.
@@ -130,14 +130,13 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 ### 4 | Création de la scène Jeu - Animations
 
-- [ ] Toujours dans la scène jeu, nous allons maintenant importer les deux *sprite sheets* de nos animations. [Importation SpriteSheet](../unity/anim_import.md){.back}
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les images vectorielles qui composeront nos animations. [Importation SpriteSheet](../unity/anim_import.md){.back}
 - [ ] Créez un Animator par animation pour la contrôler. [Animator Controller](../unity/anim_controller.md){.back}
 - [ ] Créez un GameObject avec la composante Animator par animation. Ceux-ci contrôleront vos animations. [GameObject Animator](../unity/anim_animator.md){.back}
-- [ ] Créez une animation pour chaque Sprite Sheet. [Créer une animation](../unity/animation.md){.back}
+- [ ] Créez une animation pour chacuns de vos groupes d'images vectorielles. [Créer une animation](../unity/animation_avance.md#creation-danimations-de-parametres-de-gameobject){.back}
 - [ ] Redimensionnez vos animations et positionnez-les au-dessus de vos images de détection dans la fenêtre Scene. Vous pouvez utiliser l'outil RectTool (T) pour vous aider.
 - [ ] Dans la fenêtre hierarchy, glissez vos animations sur le ImageTarget créé plus tôt. (Assurez-vous que chaque animation correspond au bon Image target) Elles deviendront enfants du ImageTarget.
 - [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour se faire, dans la fenêtre hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la hierarchy.
-- [ ] Désactivez vos animations. Nous les activerons à l'aide d'un script. Pour ce faire, dans la fenêtre Hierarchy, appuyez sur votre animation. Ensuite, dans l'inspecteur, appuyez sur le crochet à côté du nom du GameObject. Celui-ci devient alors gris pâle dans la Hierarchy.
 
 **Tutoriel 🎥**
 
@@ -206,11 +205,8 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 - [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
 Voici une ressource pour vous aider à créer votre code: 
-[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }    
+[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCGwme2VNfQQJwfMoV00-46AT9qvtRzRcPFf-LXMF5mGvw?e=kd3NQ5){ .md-button }    
 
-**Tutoriel 🎥**
-
-<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/veUN337o2Nc?si=eEXHlg-frZOAN89_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 11 | Création de la scène Menu - Script UI
 
@@ -231,5 +227,5 @@ Remettez votre travail dans le dossier suivant :
 
 <!-- TODO : Ajouter un dossier de remise pour 2026 -->
 
-[📁 Remise du Travail 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EqD3pun06hRMg_pJF1EHOx8Bb4YBZCGASLu_OV1PRCOwlg?e=bVj2Nu){ .md-button .md-button--primary }
+[📁 Remise du Travail 1 - Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgAjVG3nWe9STbGisQXInSSsAWzg31HRJYz8eK5Og_U3MTI?e=yPPKJV){ .md-button .md-button--primary }
 

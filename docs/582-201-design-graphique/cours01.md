@@ -270,16 +270,6 @@ En vrai, il n’y a pas de recettes universelles, mais on observe des [principes
 
     ---
 
-    ![](./assets/img/principles-flow-before.png){data-zoom-image .w-33}
-    ![](./assets/img/principles-flow-after.png){data-zoom-image .w-33}
-
-    ---
-
-    ![](./assets/img/principles-marmite-before.png){data-zoom-image .w-33}
-    ![](./assets/img/principles-marmite-after.png){data-zoom-image .w-33}
-
-    ---
-
     ![](./assets/img/principles-sanitation-before.png){data-zoom-image .w-33}
     ![](./assets/img/principles-sanitation-after.png){data-zoom-image .w-33}
 
@@ -338,7 +328,7 @@ Finalisez la création de compte
 
 #### Propriétés visuelles
 
-- Remplissages : solide et dégradé
+- Remplissages : solide + pipette, dégradé
 - Tracé (_stroke_)
 - Transparence
 
@@ -352,10 +342,6 @@ Finalisez la création de compte
 - Figma sauvegarde automatiquement **dans le cloud**.
 - Renommer clairement les fichiers, pages et frames (éviter "Untitled" / "Frame 1").
 - Exporter (png/svg) et enregistrer la source (`.fig`).
-
-!!! example "Démo"
-
-    ![](./assets/img/figma-logo.png){.w-50}
 
 ## Exercices
 
