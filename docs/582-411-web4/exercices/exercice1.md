@@ -20,7 +20,7 @@ Votre page doit contenir les blocs suivants, dans l’ordre :
   * [ ] Texte : Bienvenue sur ma première page Gutenberg
   * [ ] Niveau : H2
 
-1, Bloc Paragraphe
+1. Bloc Paragraphe
   * [ ] Minimum 3 phrases
   * [ ] Sujet libre (ex. : présentation, hobby, formation)
 
