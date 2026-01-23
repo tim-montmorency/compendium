@@ -1,6 +1,6 @@
-![](./assets/images/exercice2.jpeg){data-zoom-image}
-
 ## Exercice intermédiaire – Mise en page avancée avec Gutenberg
+
+![](./assets/images/exercice2.jpeg){data-zoom-image}
 
 ## Objectif
 
