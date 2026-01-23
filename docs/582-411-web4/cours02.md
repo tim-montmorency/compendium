@@ -469,3 +469,16 @@ Plus concrètement :
   **[Installation de base](./exercices/wp-install.md){.stretched-link .back}**
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/exercice1.jpeg)
+
+  <small>Exercice 1</small><br>
+  **[Gutenberg](./exercices/exercice1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/exercice2.jpeg)
+
+  <small>Exercice 2</small><br>
+  **[Gutenberg 2](./exercices/exercice2.md){.stretched-link .back}**
+</div>
