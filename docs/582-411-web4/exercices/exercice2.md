@@ -1,4 +1,4 @@
-![](./assets/images/exercice2.png){data-zoom-image}
+![](./assets/images/exercice2.jpeg){data-zoom-image}
 ## Exercice intermédiaire – Mise en page avancée avec Gutenberg
 
 ## Objectif
@@ -62,7 +62,8 @@ Créez un bloc Groupe contenant :
 * [ ] Un Paragraphe
 * [ ] Un Bloc Boutons (au moins 2 boutons)
 
-👉 Stylisez :
+👉 Stylisez : 
+
 * [ ] couleurs différentes pour chaque bouton
 * [ ] alignement centré
 
@@ -78,10 +79,10 @@ Vous devez :
 
 ## Critères de réussite
 
-✔ Utilisation correcte des blocs Groupe et Colonnes
-✔ Mise en page claire et hiérarchisée
-✔ Styles cohérents sur toute la page
-✔ Blocs bien configurés (alignements, espacements, couleurs)
+1. Utilisation correcte des blocs Groupe et Colonnes
+1. Mise en page claire et hiérarchisée
+1. Styles cohérents sur toute la page
+1. Blocs bien configurés (alignements, espacements, couleurs)
 
 ## ⭐ Bonus (niveau +)
 * [ ] Transformer une section en modèle réutilisable (pattern)
