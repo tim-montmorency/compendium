@@ -35,7 +35,7 @@ GitHub Classroom (5 min)
 -->
 
 
-## Désactiver les extensions IA dans Visual Studio Code
+## GROUPE LUNDI AM : Désactiver les extensions IA dans Visual Studio Code
 
 ### Fonctionnalité IA
 
@@ -47,3 +47,14 @@ GitHub Classroom (5 min)
 
 - Allez dans extensions et vérifiez si Co-Pilot est installé, si c'est le cas, veuillez le désinstaller.
 - Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi.
+
+
+## Atelier: Schéma de navigation
+
+[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
+Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la: `nomfamille-prenom1_nomfamille-prenom2` ex:  `ouellet-marie_lambert-jean`
+
+
+<!--
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+-->
