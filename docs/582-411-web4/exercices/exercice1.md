@@ -43,10 +43,10 @@ Votre page doit contenir les blocs suivants, dans l’ordre :
 * [ ] Déplacez au moins un bloc avec la souris
 
 ## Critères de réussite
-✔ Tous les blocs demandés sont présents
-✔ Les blocs sont bien configurés
-✔ La page est lisible et structurée
-✔ Aucun code n’est utilisé
+* Tous les blocs demandés sont présents
+* Les blocs sont bien configurés
+* La page est lisible et structurée
+* Aucun code n’est utilisé
 
 ## ⭐ Bonus (optionnel)
 * [ ] Ajouter un bloc Séparateur
