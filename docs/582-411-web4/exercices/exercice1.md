@@ -1,6 +1,6 @@
-![](./assets/images/exercice1.png){data-zoom-image}
-
 ## Exercice 1 – Construire une page avec des blocs Gutenberg
+
+![](../assets/images/exercice1.jpeg){data-zoom-image}
 
 ### Objectif
 Apprendre à ajouter, organiser et configurer des blocs dans l’éditeur Gutenberg.
