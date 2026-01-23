@@ -1,3 +1,4 @@
+![](./assets/images/exercice2.png){data-zoom-image}
 ## Exercice intermédiaire – Mise en page avancée avec Gutenberg
 
 ## Objectif
@@ -23,7 +24,7 @@ Exercice – Page promotionnelle
 ### Étape 2 – Structure obligatoire de la page
 1️⃣ Section d’introduction
 
-Utilisez un bloc Groupe contenant :
+### Utilisez un bloc Groupe contenant :
 * [ ] Un Titre (H1)
 * [ ] Un Paragraphe (2 à 4 phrases)
 
@@ -31,7 +32,7 @@ Utilisez un bloc Groupe contenant :
 * [ ] une couleur de fond
 * [ ] un padding au groupe
 
-2️⃣ Section “Fonctionnalités”
+### 2️⃣ Section “Fonctionnalités”
 
 Ajoutez un bloc Colonnes (3 colonnes)
 Dans chaque colonne :
@@ -43,18 +44,20 @@ Dans chaque colonne :
 * [ ] un alignement cohérent
 * [ ] un espacement uniforme
 
-3️⃣ Section contenu enrichi
+### 3️⃣ Section contenu enrichi
 Ajoutez un bloc Média & Texte :
 * [ ] Image à gauche
 * [ ] Texte à droite (paragraphe + liste à puces)
 
 👉 Ajustez :
+
 * [ ] l’alignement vertical
 * [ ] la largeur de l’image
 
 4️⃣ Section appel à l’action (CTA)
 
 Créez un bloc Groupe contenant :
+
 * [ ] Un Titre (H2)
 * [ ] Un Paragraphe
 * [ ] Un Bloc Boutons (au moins 2 boutons)
@@ -66,6 +69,7 @@ Créez un bloc Groupe contenant :
 ### Étape 3 – Manipulations obligatoires
 
 Vous devez :
+
 * [ ] Regrouper des blocs manuellement
 * [ ] Dupliquer une section
 * [ ] Réorganiser l’ordre des blocs
