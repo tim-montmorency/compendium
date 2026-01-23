@@ -1,4 +1,4 @@
-
+![](./assets/images/gutenberg-imp.jpg){width="50%" data-zoom-image}
 
 Pour le grand public, le nom **Gutenberg** est surtout associé à l’invention de l’imprimerie au milieu du XVe siècle.
 
