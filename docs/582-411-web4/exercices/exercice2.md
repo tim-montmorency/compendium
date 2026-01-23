@@ -36,6 +36,7 @@ Exercice – Page promotionnelle
 
 Ajoutez un bloc Colonnes (3 colonnes)
 Dans chaque colonne :
+
 * [ ] Un Titre (H3)
 * [ ] Un Paragraphe
 * [ ] Une icône ou une image
@@ -46,6 +47,7 @@ Dans chaque colonne :
 
 ### 3️⃣ Section contenu enrichi
 Ajoutez un bloc Média & Texte :
+
 * [ ] Image à gauche
 * [ ] Texte à droite (paragraphe + liste à puces)
 
