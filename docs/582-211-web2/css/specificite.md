@@ -38,6 +38,10 @@
 | `div#no1.item` | 1 (balise) + 100 (ID) + 10 (classe) | 111 |
 | `.item:hover` | 10 (classe) + 10 (pseudo-classe) | 20 |
 
+## Explicateur de sélecteur (en anglais
+
+<iframe width="100%" height="500" src="https://kittygiraudel.github.io/selectors-explained/"></iframe>
+
 
 
 ## Introduction à la spécificité CSS
