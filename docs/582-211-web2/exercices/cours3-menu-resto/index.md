@@ -175,40 +175,41 @@ menu-restaurant/
 
 ## Critères d'évaluation (formatif)
 
-- **Structure HTML valide et sémantique**
-- **CSS externe avec variables**
-- **Nomenclature cohérente (BEM ou similaire)**
-- **Modèle de boîte bien appliqué**
-- **Typographie hiérarchisée et lisible**
-- **Prix alignés correctement**
-- **Badges stylisés**
-- **Séparateurs visuels** 
-- **Spécificité CSS démontrée** 
-- **Code propre et indenté**
-- **Créativité et effort visuel**|
+- Structure HTML valide et sémantique
+- CSS externe avec variables
+- Nomenclature cohérente (BEM ou similaire)
+- Modèle de boîte bien appliqué
+- Typographie hiérarchisée et lisible
+- Prix alignés correctement
+- Badges stylisés
+- Séparateurs visuels
+- Spécificité CSS démontrée
+- Code propre et indenté
+- Créativité et effort visuel
 
 
 ## Ressources utiles
 
-Outils et références
+**Outils et références externes**
 
 - [Google Fonts](https://fonts.google.com/)
 - [Coolors (palettes de couleurs)](https://coolors.co/)
 - [Validateur HTML W3C](https://validator.w3.org/)
 - [Guide BEM](http://getbem.com/)
 
-CSS Web 1
+
+**CSS Web 1**
 
 - [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
 - [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
 - [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
 - [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
 
-BEM
+**BEM**
 
 - [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
 
-Documentation/résumé Web 1 pré 2025 :
+**Documentation/résumé Web 1 pré 2025 :**
 
 - [Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
 - [Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
@@ -217,26 +218,25 @@ Documentation/résumé Web 1 pré 2025 :
 
 ## 📅 Remise
 
-**Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février) 
-**Méthode :** Push sur GitHub Classroom  
+**Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février)
+**Méthode :** *commit* et *Push* sur GitHub Classroom
 
 ### Vérification avant remise :
 
-- HTML validé W3C
-- CSS externe uniquement
+- HTML validé avec le validateur W3C
+- CSS externe uniquement (aucune style en ligne sur les balises HTML)
 - Fichiers bien nommés
 - Code indenté
-
+- README.md complété
 
 
 ## Conseils
 
-💡 Commencez simple, puis améliorez progressivement  
-💡 Testez régulièrement dans le navigateur  
-💡 Utilisez l'inspecteur pour déboguer  
-💡 Documentez vos choix avec des commentaires CSS  
-💡 Si vous êtes bloqué, cherchez d'abord, puis demandez de l'aide  
-
+💡 Commencez simple, puis améliorez progressivement
+💡 Testez régulièrement dans le navigateur
+💡 Utilisez l'inspecteur pour déboguer
+💡 Documentez vos choix avec des commentaires CSS
+💡 Si vous êtes bloqué, cherchez d'abord par vous même, puis demandez de l'aide à l'enseignante ou aux autres étudiants
 
 
 ## Exemples de restaurants (inspiration)

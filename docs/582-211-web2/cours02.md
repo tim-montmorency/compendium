@@ -66,22 +66,21 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 ## Révision sur le sujet CSS du cours Web 1
 
-CSS Web 1
+**CSS Web 1**
 
 - [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
 - [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
 - [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
 - [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
 
-BEM
+**BEM**
 
 - [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
 
-Documentation/résumé Web 1 pré 2025 :
+**Documentation/résumé Web 1 pré 2025 :**
 
 - [Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
 - [Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
-
 
 ## Les spécificités CSS
 
