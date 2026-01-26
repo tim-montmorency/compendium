@@ -65,3 +65,8 @@ Devoir court
 	•	“Typo kit” : une page Figma avec styles + règles d’utilisation (“H1 seulement 1 fois/écran”, etc.) -->
 
 	> À venir prochainement : Auto-layout (mise en page) et styles/variables (cohérence).
+
+## Exercices 
+
+https://shape.method.ac/
+https://type.method.ac/#
