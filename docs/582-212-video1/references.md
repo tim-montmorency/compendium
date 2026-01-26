@@ -8,7 +8,7 @@
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
   
 ## Banques et logos 
-* [Banques de typographies et de brosses](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
+* [Banques de typographies et de brosses](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgBXqjqVw4OsTr95DPknKWLxARsjz6hz6_Y85DRH6JIzGto?e=OX03SV)
 * [Banque sonore #1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EuoQmY1AZSRDhoU86zpeEKcBCTqcRGj6W1jfdmEU7iOEdg?e=L0ICKW)
 * [Banque sonore #2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=LMtZvF)
 * [Logo et informations pour le générique](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Etv8yNIevcdHmg8R-gTlWNUB-K1cQ9_20EFgkTDVOTEgOg?e=o7hw9C)
