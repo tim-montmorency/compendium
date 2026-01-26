@@ -140,8 +140,12 @@ Action :
 
 ## **Bloc 7** Atelier: Schéma de navigation
 
-[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
+Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la: `nomfamille-prenom1_nomfamille-prenom2` ex:  `ouellet-marie_lambert-jean`
 
+<!--
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+-->
 
 ## **Bloc 8** Présentation politique IA phase 1 
 
