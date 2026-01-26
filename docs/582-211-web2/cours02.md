@@ -1,5 +1,11 @@
 # Cours 2
 
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
+</div>
+
+
 <!-- 
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
 
