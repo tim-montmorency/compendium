@@ -33,9 +33,9 @@ On va utiliser GitHub Classroom tout au long de la session. On va faire un test 
 
 1. Individuellement,  répond par écrit à ces 3 questions :
 
-    - Une idée du texte que je retiens particulièrement
-    - Une idée qui m’a surpris ou dérangé
-    - Une phrase qui pourrait s’appliquer à mon futur métier
+- Une idée du texte que je retiens particulièrement
+- Une idée qui m’a surpris ou dérangé
+- Une phrase qui pourrait s’appliquer à mon futur métier
 
 2. Mise en commun en petits groupes
 3. Discussion collective (toute la classe)
