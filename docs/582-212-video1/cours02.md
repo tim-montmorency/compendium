@@ -5,9 +5,7 @@
 
 ## Disque dur
 * Transfert des fichiers sur le disque dur.
-* [Devoir](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgAnMGJq4LZ9Q6ZV9lT_KWEVAWkBbZgtV-PLNbocowzbxps?e=dl25wz)
-* [Exercices en classe](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgDsyu-K6PqzTb3CvCDey63kAVU0RIhdlifc11ourSUg3DA?e=CqmyPG)
-
+* [davinci](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgB5MpV2gzlhQrLO9nI6RRQMARiHGyY-gciZ3_dJz9paSOI?e=ismOry)
 
 ## Bourse
 * [Bourse de la fondation des arts de Laval](https://fondationsoutienartslaval.com/)
