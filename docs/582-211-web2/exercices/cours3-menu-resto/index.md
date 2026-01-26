@@ -100,13 +100,13 @@ Saumon frais, avocat, câpres, citron
 PLATS PRINCIPAUX
 ────────────────────────────────────────────────
 
-Steak frites                   [POPULAIRE] 24.99$
+Steak frites                 [POPULAIRE] 24.99$
 8oz AAA, sauce au poivre, frites maison
 
-Saumon grillé                              22.99$
+Saumon grillé                            22.99$
 Légumes de saison, riz basmati, beurre citronné
 
-Risotto aux champignons           [VÉGÉ]   18.99$
+Risotto aux champignons         [VÉGÉ]   18.99$
 Champignons sauvages, parmesan, truffe
 
 ────────────────────────────────────────────────
@@ -114,13 +114,13 @@ Champignons sauvages, parmesan, truffe
 DESSERTS
 ────────────────────────────────────────────────
 
-Crème brûlée                   [POPULAIRE]  7.99$
+Crème brûlée                 [POPULAIRE]  7.99$
 Vanille de Madagascar, sucre caramélisé
 
-Tarte au citron                             6.99$
+Tarte au citron                           6.99$
 Meringuée, zeste de citron frais
 
-Fondant au chocolat                         8.99$
+Fondant au chocolat                       8.99$
 Chocolat noir 70%, crème anglaise
 
 ════════════════════════════════════════════════
