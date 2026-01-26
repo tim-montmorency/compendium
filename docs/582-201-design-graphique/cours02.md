@@ -1,11 +1,10 @@
 # Cours 2 | Composition
-
+ 
 [STOP]
 
-## Exercices
+## Retour sur les exercices
 
-Retour sur les exercices.
-Demander une rétroaction verbale est possible.
+!!! note "Demander une rétroaction verbale est possible"
 
 ## Comité Merch
 
@@ -17,20 +16,7 @@ Demander une rétroaction verbale est possible.
 
 ![](./assets/img/logo-next.png)
 
-## Composition et principes
-
-Composition + principes
-
-Dans ce cours, on veut remplacer les choix instinctifs par la justification des choix.
-Pourquoi utiliser une fonte X, une forme Y ou une couleur Z.
-
-Éviter le "design to impress", même si c'est cool. Si ça peut être efficace en même temps, c'est le best.
-On veut un résultat. Quantifiable si possible.
-
-Par exemple : 
-
-> Est-ce que les utilisateurs ont cliqué ?
-> Est-ce qu'ils ont lu, acheté ou retenu l'information ?
+J'ai besoin de 2 volontaires par groupe pour faire la gestion du concours du logo 2026 !
 
 ## Règle des tiers 
 
@@ -43,9 +29,12 @@ La règle des tiers est un principe classique de photographie qui vise à positi
 
 <iframe class="aspect-16-9 w-75 center" src="https://www.youtube.com/embed/ThQOmxElMt4?si=gNBr9zvzy6NXLjQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Principes
+## Principes de design graphique
 
 <!-- https://www2.sjsu.edu/honorsx/docs/HonsX%2012%20Principles.pdf -->
+<!-- Before after : https://www.justinmind.com/blog/5-excellent-website-redesigns-before-and-after/ -->
+<!-- Before after : https://www.youtube.com/watch?v=cRqCrEx05Ro -->
+<!-- https://visme.co/blog/visual-hierarchy/ -->
 
 ### Contraste
 
@@ -287,7 +276,6 @@ Donner l’impression que “tout appartient au même système” (style, règle
 ![](./assets/img/unity-ex.png){data-zoom-image .w-25}
 ![](./assets/img/Decade_Chocolate_all.webp){data-zoom-image .w-25}
 
-
 <!-- https://www.panesar.studio/le-temps-chocolate -->
 <!-- https://www.zekagraphic.com/12-principles-of-graphic-design/ -->
 <!-- https://www.figma.com/resource-library/graphic-design-principles/ -->
@@ -295,28 +283,36 @@ Donner l’impression que “tout appartient au même système” (style, règle
 <!-- https://www2.sjsu.edu/honorsx/docs/HonsX%2012%20Principles.pdf -->
 
 
-
-Organiser une page déjà faite en appliquant des modifications.
-
-Ex. : <https://www.youtube.com/watch?v=xzyvO71XEaA>
-
 ## Figma
 
-Ligne / Vector
+Tracé et remplissage
 
-- Entrer en édition vectorielle : ++enter++ (ou double-clic)
+- Usage d'image cc0 (Ex. : [Pexels.com](https://www.pexels.com/fr-fr/))
+- Usage de vecteurs existants pour créer un pattern custom !
+- Paramètres avancés de contour
+
+Vectoriel
+
+- Entrer ou quitter l'édition vectorielle : ++enter++
 - Manipulations de tracé (points d'ancrage, courbes Bézier)
+- Supprimer un point avec ++shift+del++
 - Opérations booléennes (Union, Soustraction, Intersection, etc.)
 
-Background / texture
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/method-ac/prev1.png)
 
-- Usage de vecteurs existants pour créer un pattern custom !
+  <small>Exercice - Vectoriel</small><br>
+  **[Courbes de Bézier | method.ac](https://bezier.method.ac/){.stretched-link}**
+</div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/method-ac/prev2.png)
 
+  <small>Exercice - Vectoriel</small><br>
+  **[Opérations booléennes | method.ac](https://boolean.method.ac/){.stretched-link}**
+</div>
 
-Image CC0
-
-## Exercice 
+## Exercices
 
 <div class="grid grid-1-2" markdown>
   ![](./activite/exercice/radio-canada/radio-can-loc.webp)
@@ -326,45 +322,19 @@ Image CC0
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/radio-canada/radio-can-loc.webp)
+  ![](./activite/exercice/regle-des-tiers/Greenland-Husky-Rule-of-Thirds.webp)
 
   <small>Exercice - Figma</small><br>
-  **[Radio-Canada](./activite/exercice/radio-canada/index.md){.stretched-link .back}**
+  **[Règle des tiers](./activite/exercice/regle-des-tiers/index.md){.stretched-link .back}**
 </div>
 
+Todo : Exercices de composition
 
+## Devoir 
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/devoir/sauvetage/organisationdesafficheursindep.jpg)
 
-
-Exercice : Voici une image. Mets un **b** sur cet élément et mentionne quel principe tu as utilisé.
-
-Prendre 2 photos en respectant la règle des tiers.
-
-
-
-<!-- 
-
-Démo Figma
-	•	Align / distribute, “tidy up”, règles de marges (ex. 16/24/32).
-	•	Créer une grille 12 colonnes sur un frame (layout grid).
-
-Atelier (50 min) — “Avant/Après”
-
-Tu donnes un layout volontairement mauvais (trop serré, aucune hiérarchie).
-Consignes :
-	•	3 niveaux de hiérarchie max
-	•	1 grille (même simple)
-	•	1 marge extérieure constante
-	•	proximité logique (regrouper les éléments qui vont ensemble)
-
-Devoir
-	•	Devoir 1 (à remettre semaine 3) : refonte d’un petit visuel (post/affiche/bannière)
-	•	6 lignes de justification (objectif + cible + 3 décisions). -->
-
-
-
-
-	https://visme.co/blog/visual-hierarchy/
-
-Before after : https://www.justinmind.com/blog/5-excellent-website-redesigns-before-and-after/
-Before after : https://www.youtube.com/watch?v=cRqCrEx05Ro
+  <small>Devoir - Figma</small><br>
+  **[J'peux faire mieux que ça !](./activite/devoir/sauvetage/index.md){.stretched-link .back}**
+</div>

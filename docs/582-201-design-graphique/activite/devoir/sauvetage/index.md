@@ -4,9 +4,12 @@ tags:
   - Évaluation sommative
 ---
 
-# Sauvetage
+# J'peux faire mieux que ça !
 
-L'objectif est de refaire la mise en page d'un visuel sans changer le contenu et en améliorant la composition en mettant en pratique les principes de design graphique.
+L'objectif est de refaire la mise en page d'un design graphique 
+
+
+sans changer le contenu et en améliorant la composition en mettant en pratique les principes de design graphique.
 
 Le but n’est pas d’avoir le plus beau visuel, mais un design lisible, structuré et intentionnel.
 
