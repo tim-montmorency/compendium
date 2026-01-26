@@ -6,24 +6,16 @@
 
 ### Pointage par type de sélecteur
 
-| Type de sélecteur        | Priorité  | Score |
-| ------------------------ | --------- | ----- |
-| Balise                   | 🟢 Faible | 1     |
-| Classe                   | 🟡 Moyen  | 10    |
-| Identifiant              | 🔴 Fort   | 100   |
-| Dans le HTML directement | 🔴 Max    | 1000  |
-
-
-| Type de sélecteur | Exemple | Pointage | En savoir plus |
+| Type de sélecteur | Exemple | Pointage | Priorité |
 |------------------|--------|----------|----------------------|
-| Universel | `*` | 0 | Le plus faible. Écrasé par tous les autres. |
-| Balise | `div`, `p`, `h1` | 1 | Très faible spécificité. |
-| Classe | `.element` | 10 | Sélecteur courant et recommandé. |
-| Pseudo-classe | `.element:hover`, `:focus` | 10 | Toujours combinée à un autre sélecteur. |
-| Attribut | `[title="demo"]` | 10 | Même poids qu’une classe. |
-| ID | `#no1` | 100 | Très fort. À utiliser avec parcimonie. |
-| Style en ligne | `style="color: blue"` | 1000 | Très difficile à écraser. À éviter. |
-| `!important` | `color: red !important` | 10 000 | Dernier recours. Mauvaise pratique courante. |
+| ⚪ Universel | `*` | 0 | Le plus faible. Écrasé par tous les autres. |
+| 🟢 Balise | `div`, `p`, `h1` | 1 | Très faible spécificité. |
+| 🟡Classe | `.element` | 10 | Sélecteur courant et recommandé. |
+| 🟡Pseudo-classe | `.element:hover`, `:focus` | 10 | Toujours combinée à un autre sélecteur. |
+| 🟡 Attribut | `[title="demo"]` | 10 | Même poids qu’une classe. |
+| 🟠 ID | `#no1` | 100 | Très fort. À utiliser avec parcimonie. |
+| 🔴 Style en ligne | `style="color: blue"` | 1000 | Très difficile à écraser. À éviter. |
+| 🟤 `!important` | `color: red !important` | 10000 | Dernier recours. Mauvaise pratique courante. |
 
 ###  Sélecteurs combinés et addition des points
 
