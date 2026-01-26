@@ -32,25 +32,13 @@ On va utiliser GitHub Classroom tout au long de la session. On va faire un test 
 ### Activité
 
 1. Individuellement,  répond par écrit à ces 3 questions :
+
     - Une idée du texte que je retiens particulièrement
     - Une idée qui m’a surpris ou dérangé
     - Une phrase qui pourrait s’appliquer à mon futur métier
+
 2. Mise en commun en petits groupes
 3. Discussion collective (toute la classe)
-
-
-## GROUPE LUNDI AM : Désactiver les extensions IA dans Visual Studio Code
-
-**Fonctionnalité IA**
-
-- Ouvrez la palette de commandes en appuyant sur Ctrl+Maj+P (Windows/Linux).
-- Saisissez `Chat: Hide AI Features` dans la barre de recherche.
-- Maintenant cochez: Chat`Disable AI Features.
-
-**Extensions**
-
-- Allez dans extensions et vérifiez si Co-Pilot est installé, si c'est le cas, veuillez le désinstaller.
-- Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi.
 
 
 ## Atelier: Schéma de navigation
