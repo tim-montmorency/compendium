@@ -51,7 +51,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 ## Révision sur le sujet CSS du cours Web 1
 
-CSS
+CSS Web 1
 
 - [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
 - [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
@@ -76,9 +76,8 @@ Documentation/résumé Web 1 pré 2025 :
 
 Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
-<!--
 - [Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class){ .md-button }
--->
+
 
 ## Bootcamp de révision & diagnostique HTML+CSS
 

@@ -10,7 +10,7 @@ Vous êtes intégrateur Web pour une agence qui développe des sites pour des re
 
 - ✅ Réviser la structure HTML sémantique
 - ✅ Pratiquer le modèle de boîte CSS (padding, margin, border)
-- ✅ Comprendre la **spécificité CSS** (quelle règle gagne?)
+- ✅ Comprendre la spécificité CSS (quelle règle gagne?)
 - ✅ Appliquer une nomenclature cohérente (BEM recommandé)
 - ✅ Créer une mise en page lisible et professionnelle
 
@@ -48,8 +48,7 @@ Un menu de restaurant qui contient :
 
 ### CSS
 
-✅ **CSS externe** uniquement (fichier `style.css`)  
-✅ **Variables CSS** pour couleurs et espacements (`:root`)  
+✅ **CSS externe** uniquement (fichier `style.css`)   
 ✅ **Modèle de boîte** maîtrisé (padding, margin, border)  
 ✅ **Typographie** lisible et hiérarchisée :
    - Titre principal plus grand
@@ -68,13 +67,16 @@ Un menu de restaurant qui contient :
 
 - 📏 Largeur maximale du menu : **800px**
 - 📏 Menu **centré** sur la page
-- 🎨 Palette de couleurs cohérente (3-4 couleurs maximum)
-- 📝 Police lisible (Google Fonts recommandé)
+- 🎨 Palette de couleurs cohérente (3-4 couleurs maximum) [Coolors](https://coolors.co/)
+- 📝 Police lisible ([Google Fonts](https://fonts.google.com/) recommandé)
 - 🖼️ Pas d'images requises (optionnel si vous voulez en ajouter)
 
 
 
 ## 💡 Exemple de rendu attendu
+
+Ne pas copier-coller, utilisez-le comme inspiration seulement!
+
 ```
 ════════════════════════════════════════════════
             MENU DU RESTAURANT
@@ -89,7 +91,7 @@ Laitue romaine, croûtons, parmesan, sauce césar
 Soupe à l'oignon gratinée                 8.99$
 Oignons caramélisés, bouillon, fromage suisse
 
-Tartare de saumon              [POPULAIRE] 14.99$
+Tartare de saumon            [POPULAIRE] 14.99$
 Saumon frais, avocat, câpres, citron
 
 ────────────────────────────────────────────────
@@ -97,7 +99,7 @@ Saumon frais, avocat, câpres, citron
 PLATS PRINCIPAUX
 ────────────────────────────────────────────────
 
-Steak frites                    [POPULAIRE] 24.99$
+Steak frites                   [POPULAIRE] 24.99$
 8oz AAA, sauce au poivre, frites maison
 
 Saumon grillé                              22.99$
@@ -111,7 +113,7 @@ Champignons sauvages, parmesan, truffe
 DESSERTS
 ────────────────────────────────────────────────
 
-Crème brûlée                    [POPULAIRE]  7.99$
+Crème brûlée                   [POPULAIRE]  7.99$
 Vanille de Madagascar, sucre caramélisé
 
 Tarte au citron                             6.99$
@@ -124,72 +126,93 @@ Chocolat noir 70%, crème anglaise
 ```
 
 
+## Structure de fichiers attendue
 
-## 📦 Structure de fichiers attendue
 ```
 menu-restaurant/
 ├── index.html
 ├── style.css
-└── README.md (optionnel)
+└── README.md
 ```
 
 
 
-## ⏱️ Étapes suggérées
+## Étapes suggérées
 
 ### 1. Structure HTML (20 min)
+
 - Créer la structure de base
 - Ajouter titre principal
 - Créer les 3 sections de catégories
 - Ajouter les items avec listes
 
-### 2. CSS de base (20 min)
-- Définir les variables CSS
+### 2. CSS de base (10 min)
+
 - Styler le conteneur principal (largeur, centrage)
 - Typographie de base
 
-### 3. Style des catégories (15 min)
+### 3. Style des catégories (20 min)
+
 - Titres de catégories
 - Séparateurs visuels
 - Espacements
 
 ### 4. Style des items (25 min)
+
 - Layout nom/prix (flexbox ou float)
 - Descriptions
 - Badges
 
 ### 5. Finitions (10 min)
+
 - États hover
 - Vérifications finales
 - Validation HTML
 
+### 6. Complétez le README (5 min)
+
+- Complétez le fichier README.md avec vos réflexions sur l'exercice
 
 
-## 📊 Critères d'évaluation
+## Critères d'évaluation (formatif)
 
-| Critère | Points |
-|---------|--------|
-| **Structure HTML valide et sémantique** | 15 pts |
-| **CSS externe avec variables** | 10 pts |
-| **Nomenclature cohérente (BEM ou similaire)** | 10 pts |
-| **Modèle de boîte bien appliqué** | 10 pts |
-| **Typographie hiérarchisée et lisible** | 10 pts |
-| **Prix alignés correctement** | 5 pts |
-| **Badges stylisés** | 10 pts |
-| **Séparateurs visuels** | 5 pts |
-| **Spécificité CSS démontrée** | 10 pts |
-| **Code propre et indenté** | 10 pts |
-| **Créativité et effort visuel** | 5 pts |
-| **TOTAL** | **100 pts** |
-
+- **Structure HTML valide et sémantique**
+- **CSS externe avec variables**
+- **Nomenclature cohérente (BEM ou similaire)**
+- **Modèle de boîte bien appliqué**
+- **Typographie hiérarchisée et lisible**
+- **Prix alignés correctement**
+- **Badges stylisés**
+- **Séparateurs visuels** 
+- **Spécificité CSS démontrée** 
+- **Code propre et indenté**
+- **Créativité et effort visuel**|
 
 
 ## 🔗 Ressources utiles
+
+Outils et références
 
 - [Google Fonts](https://fonts.google.com/)
 - [Coolors (palettes de couleurs)](https://coolors.co/)
 - [Validateur HTML W3C](https://validator.w3.org/)
 - [Guide BEM](http://getbem.com/)
+
+CSS Web 1
+
+- [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
+- [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
+- [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
+- [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
+
+BEM
+
+- [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
+
+Documentation/résumé Web 1 pré 2025 :
+
+- [Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
+- [Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
 
 
 
