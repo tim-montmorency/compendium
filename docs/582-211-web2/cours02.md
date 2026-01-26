@@ -22,28 +22,17 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 [L’importance d’investir dans les compétences non techniques à l’ère de l’IA, notamment les compétences relationnelles humaines](https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/)
 
 
-<!-- 
-considérer ajouter ici le bloc 10 du cours 1 qui n,a pas été fait.
-
-
-## **Bloc 10** SETUP GITHUB CLASSROOM + DEVOIR (10 min)
-
-GitHub Classroom (5 min)
-
-...
-
--->
 
 
 ## GROUPE LUNDI AM : Désactiver les extensions IA dans Visual Studio Code
 
-### Fonctionnalité IA
+**Fonctionnalité IA**
 
 - Ouvrez la palette de commandes en appuyant sur Ctrl+Maj+P (Windows/Linux).
 - Saisissez `Chat: Hide AI Features` dans la barre de recherche.
 - Maintenant cochez: Chat`Disable AI Features.
 
-### Extensions
+**Extensions**
 
 - Allez dans extensions et vérifiez si Co-Pilot est installé, si c'est le cas, veuillez le désinstaller.
 - Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi.
@@ -60,14 +49,37 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 [👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
 -->
 
+## Révision sur le sujet CSS du cours Web 1
+
+CSS
+
+- [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
+- [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
+- [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
+- [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
+
+BEM
+
+- [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
+
+Documentation/résumé Web 1 pré 2025 :
+
+- [Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
+- [Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
+
+
 ## Les spécificités CSS
 
 [Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
 
-### Exercice
+### Exercice spécificité
 
 Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
 <!--
-- [Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class)
+- [Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class){ .md-button }
 -->
+
+## Bootcamp de révision & diagnostique HTML+CSS
+
+[Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
