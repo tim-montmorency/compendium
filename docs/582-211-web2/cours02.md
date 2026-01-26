@@ -91,9 +91,9 @@ Documentation/résumé Web 1 pré 2025 :
 
 Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
-- [Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class){ .md-button }
+[👩🏻‍💻 Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class){ .md-button }
 
 
 ## Bootcamp de révision & diagnostique HTML+CSS
 
-[Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
+[🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
