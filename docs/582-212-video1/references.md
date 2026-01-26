@@ -1,14 +1,14 @@
 # Références
 
 ## Références générales 
-* [Guide étudiant](https://teams.microsoft.com/_#/school/tab::9a8e708c-0d50-445f-8661-476b729789eb/G%C3%A9n%C3%A9ral?threadId=19:0df14bbe83b542679a319fb4fa0dcea8@thread.tacv2&ctx=channel)
+* [Guide étudiant](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww)
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
 * [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQBZkXhpMasgQZ6NQfv4p8OAAf2RbGaQ6Y4e1iEzP4K2Pvk?e=rQUgIA)
-* [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
+* [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgBoBb3o34HuSqpBFIurfjXqAbsXPfoSan4YO4Pzm7VtLEg?e=4xhgbR)
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
   
 ## Banques et logos 
-* [Banques de typographies et de brosses](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
+* [Banques de typographies et de brosses](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgBXqjqVw4OsTr95DPknKWLxARsjz6hz6_Y85DRH6JIzGto?e=OX03SV)
 * [Banque sonore #1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EuoQmY1AZSRDhoU86zpeEKcBCTqcRGj6W1jfdmEU7iOEdg?e=L0ICKW)
 * [Banque sonore #2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/timmontmorency_cmontmorency_qc_ca1/EpYjUtlJJqpFiWedxFbbDY0BWlZ3kcjUMrTFk_UEgHjw2Q?e=LMtZvF)
 * [Logo et informations pour le générique](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Etv8yNIevcdHmg8R-gTlWNUB-K1cQ9_20EFgkTDVOTEgOg?e=o7hw9C)

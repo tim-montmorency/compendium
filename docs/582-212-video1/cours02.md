@@ -1,22 +1,23 @@
 # Cours 2
 
-## Retour sur les évaluations obligatoires en classe
-* Voir plan de cours
-
 ## Disque dur
 * Transfert des fichiers sur le disque dur.
 * [davinci](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgB5MpV2gzlhQrLO9nI6RRQMARiHGyY-gciZ3_dJz9paSOI?e=ismOry)
+  
+## Retour sur les évaluations obligatoires en classe
+* Voir plan de cours
 
 ## Bourse
 * [Bourse de la fondation des arts de Laval](https://fondationsoutienartslaval.com/)
   * mi-février 
   * Soit un bourse de 1250 $ ou 2500 $
+ 
+## La préproduction
+* [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+
 
 ## La scénarisation et synopsis
 * [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQA3sDO2kA90TZCLo58QeTV_AecPI22lXuRoT_1ItSZ7Xk8?e=eLjihZ)
-
-## La préproduction
-* [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
 
 
 ## L’esthétique visuelle

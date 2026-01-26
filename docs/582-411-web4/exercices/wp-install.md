@@ -12,7 +12,7 @@ L'objectif de cet exercice est d'installer le CMS WordPress localement avec un s
 
 - [ ] [Télécharger WordPress](https://fr-ca.wordpress.org/download/) et extraire les fichiers dans le dossier des sites de MAMP (htdocs ou autrement précifié).
 - [ ] Renommez le dossier wordpress par le nom de votre projet. Ex: mon_premier_wp
-- [ ] Accédez à http://localhost/mon_premier_wp dans votre navigateur (ça peut prendre un certain temps)
+- [ ] Accédez à http://localhost:81/mon_premier_wp dans votre navigateur (ça peut prendre un certain temps)
 - [ ] Suivez l’assistant d’installation :
 
 <figure markdown>
