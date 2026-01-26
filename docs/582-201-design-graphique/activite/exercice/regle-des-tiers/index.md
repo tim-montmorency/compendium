@@ -3,17 +3,10 @@ tags:
   - Exercice
 ---
 
-# Radio-Canada
+# Règle des tiers
 
-L’objectif de cet exercice est de reproduire le logo de Radio-Canada.
+L’objectif de cet exercice est d'appliquer la règle des tiers dans une composition simple en appliquant.
 
-## Résultats attendus
-
-![](./radio-can.webp){data-zoom-image}
-
-!!! example "Analyse"
-
-    ![](./explanation.gif){.w-33}
 
 ## Consignes
 

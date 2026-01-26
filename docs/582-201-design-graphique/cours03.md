@@ -2,8 +2,15 @@
 
 [STOP]
 
+https://ca.pinterest.com/pin/7599893116499317/?e_t=fec5c47b45bc48648780f9f3ca816c93&news_hub_id=3188225014109666688&utm_campaign=hfdigestpins&utm_content=7599893116499317&utm_medium=2004&utm_source=31&utm_term=2
+
+Text + texture : https://ca.pinterest.com/pin/75364993759827485/
+
     Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.
     ![](./assets/img/bad-average-good.jpg){data-zoom-image .w-25}
+
+
+Trend 2026 : https://www.youtube.com/watch?v=IK67VeKPvzo
 
 ## Tutorat
 
@@ -30,6 +37,8 @@ Je veux une bannière.
 
 
 ## Typographie
+
+https://www.reddit.com/r/dontdeadopeninside/
 
 À enseigner
 	•	Lisibilité : tailles minimales, interlignage, longueur de ligne.
@@ -70,3 +79,13 @@ Devoir court
 
 https://shape.method.ac/
 https://type.method.ac/#
+
+<!--
+Sur l'image écrire avec une grosse fonte l'émotion évoqué par l'image. Neutre, haine, calme, drôle, etc.
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/regle-des-tiers/Greenland-Husky-Rule-of-Thirds.webp)
+
+  <small>Exercice - Figma</small><br>
+  **[Règle des tiers](./activite/exercice/regle-des-tiers/index.md){.stretched-link .back}**
+</div> -->

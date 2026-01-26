@@ -5,7 +5,7 @@ tags:
 
 # Radio-Canada
 
-L’objectif de cet exercice est de reproduire le logo de Radio-Canada.
+L’objectif de cet exercice est de reproduire le logo de Radio-Canada en utilisant la notion d'opération booléenne.
 
 ## Résultats attendus
 
@@ -13,17 +13,13 @@ L’objectif de cet exercice est de reproduire le logo de Radio-Canada.
 
 !!! example "Analyse"
 
-    ![](./explanation.gif){.w-33}
+    Le logo utilise seulement des cercles : entiers, coupés en deux ou en quarts.
+
+    ![](./explanation.gif){.w-25 data-zoom-image}
 
 ## Consignes
 
-- [ ] Dans Figma, créez le projet « Exercices » s’il n’existe pas.
-- [ ] Dans le projet « Exercices », si elle n’existe pas, ajoutez une nouvelle composition de type « Design »
-- [ ] Renommez la composition « Cours 01 ».
-- [ ] Renommez la _Page_ par le nom de cet exercice
-
-
-- [ ] Créer un _Frame_ avec une résolution de 900 × 600.
-- [ ] Les cercles doivent avoir la couleur #F4F5C3 et le fond #011715
-- [ ] Réfléchir à l'approche pour reproduire le résultat attendu
-- [ ] Reproduire à l'identique le résultat attendu
+- [ ] Dans votre projet « Exercices » de Figma, si elle n'existe pas déjà, ajoutez une nouvelle composition de type « Design » et renommez la par le numéro du cours (ex: Cours 02)
+- [ ] Créer une nouvelle Page et remplacez son nom par le titre de l'exercice.
+- [ ] Créer un Frame avec la dimension carré.
+- [ ] Reproduire à l'identique le logo de Radio-Canada.
