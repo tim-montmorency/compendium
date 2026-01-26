@@ -195,8 +195,8 @@ menu-restaurant/
 - [Google Fonts](https://fonts.google.com/)
 - [Coolors (palettes de couleurs)](https://coolors.co/)
 - [Validateur HTML W3C](https://validator.w3.org/)
-- [Guide BEM](http://getbem.com/)
-
+- [Méthodologie BEM](https://alticreation.com/blog/bem-pour-le-css/)
+- [BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
 
 **CSS Web 1**
 
@@ -208,7 +208,6 @@ menu-restaurant/
 **BEM**
 
 - [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
-- [BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
 
 **Documentation/résumé Web 1 pré 2025 :**
 
