@@ -4,22 +4,21 @@
 
 [👉 Rejoindre le GitHub Classroom](https://classroom.github.com/a/eu9a16L8){ .md-button }
 
-## 📋 Contexte
+## Contexte
 
 Vous êtes intégrateur Web pour une agence qui développe des sites pour des restaurants. Votre mission : créer la section "Menu" d'un site de restaurant en HTML et CSS.
 
 
-## 🎯 Objectifs d'apprentissage
+## Objectifs d'apprentissage
 
-- ✅ Réviser la structure HTML sémantique
-- ✅ Pratiquer le modèle de boîte CSS (padding, margin, border)
-- ✅ Comprendre la spécificité CSS (quelle règle gagne?)
-- ✅ Appliquer une nomenclature cohérente (BEM recommandé)
-- ✅ Créer une mise en page lisible et professionnelle
+- [ ] Réviser la structure HTML sémantique
+- [ ] Pratiquer le modèle de boîte CSS (padding, margin, border)
+- [ ] Comprendre la spécificité CSS (quelle règle gagne?)
+- [ ] Appliquer une nomenclature cohérente (BEM recommandé)
+- [ ] Créer une mise en page lisible et professionnelle
 
 
-
-## 📝 Ce que vous devez créer
+## Ce que vous devez créer
 
 Un menu de restaurant qui contient :
 
@@ -35,48 +34,47 @@ Un menu de restaurant qui contient :
 5. **Au moins 2 items avec un badge** "POPULAIRE" ou "VÉGÉ" ou "NOUVEAU"
 
 
-
-## 🔧 Exigences techniques
+## Exigences techniques
 
 ### HTML
 
-✅ Structure HTML5 valide (doctype, head, body)  
-✅ Balises **sémantiques** (`<section>`, `<article>`, `<header>`, etc.)  
-✅ **Listes** utilisées pour les items (ul/li ou ol/li)  
-✅ Classes CSS cohérentes (BEM recommandé)  
-✅ Code bien **indenté**  
-✅ Fichier externe `style.css` (pas de CSS inline ou internal)  
+- [ ] Structure HTML5 valide (doctype, head, body)  
+- [ ] Balises **sémantiques** (`<section>`, `<article>`, `<header>`, etc.)  
+- [ ] **Listes** utilisées pour les items (ul/li ou ol/li)  
+- [ ] Classes CSS cohérentes (BEM recommandé)  
+- [ ] Code bien **indenté**  
+- [ ] Fichier externe `style.css` (pas de CSS inline ou internal)  
 
 
 
 ### CSS
 
-✅ **CSS externe** uniquement (fichier `style.css`)   
-✅ **Modèle de boîte** maîtrisé (padding, margin, border)  
-✅ **Typographie** lisible et hiérarchisée :
-   - Titre principal plus grand
-   - Titres de catégories moyens
-   - Noms de plats en gras
-   - Descriptions plus petites et en gris
-✅ **Prix alignés à droite**  
-✅ **Badges** stylisés avec couleur de fond et border-radius  
-✅ **Séparateurs visuels** entre les catégories (border ou margin)  
-✅ **Spécificité CSS** : utiliser des sélecteurs variés (balise, classe, descendant)  
-✅ **Au moins un état :hover** (sur les items par exemple)  
+- [ ] **CSS externe** uniquement (fichier `style.css`)
+- [ ] **Modèle de boîte** maîtrisé (padding, margin, border)  
+- [ ] **Typographie** lisible et hiérarchisée :
+  - Titre principal plus grand
+  - Titres de catégories moyens
+  - Noms de plats en gras
+  - Descriptions plus petites et en gris
+- [ ] **Prix alignés à droite**  
+- [ ] **Badges** stylisés avec couleur de fond et border-radius  
+- [ ] **Séparateurs visuels** entre les catégories (border ou margin)  
+- [ ] **Spécificité CSS** : utiliser des sélecteurs variés (balise, classe, descendant)  
+- [ ] **Au moins un état :hover** (sur les items par exemple)  
 
 
 
-## 📐 Contraintes de design
+## Contraintes de design
 
-- 📏 Largeur maximale du menu : **800px**
-- 📏 Menu **centré** sur la page
-- 🎨 Palette de couleurs cohérente (3-4 couleurs maximum) [Coolors](https://coolors.co/)
-- 📝 Police lisible ([Google Fonts](https://fonts.google.com/) recommandé)
-- 🖼️ Pas d'images requises (optionnel si vous voulez en ajouter)
+- Largeur maximale du menu : **800px**
+- Menu **centré** sur la page
+- Palette de couleurs cohérente (3-4 couleurs maximum) [Coolors](https://coolors.co/)
+- Police lisible ([Google Fonts](https://fonts.google.com/) recommandé)
+- Pas d'images requises (optionnel si vous voulez en ajouter)
 
 
 
-## 💡 Exemple de rendu attendu
+## Exemple de rendu attendu
 
 Ne pas copier-coller, utilisez-le comme inspiration seulement!
 
@@ -138,8 +136,6 @@ menu-restaurant/
 └── README.md
 ```
 
-
-
 ## Étapes suggérées
 
 ### 1. Structure HTML (20 min)
@@ -192,7 +188,7 @@ menu-restaurant/
 - **Créativité et effort visuel**|
 
 
-## 🔗 Ressources utiles
+## Ressources utiles
 
 Outils et références
 
@@ -224,7 +220,7 @@ Documentation/résumé Web 1 pré 2025 :
 **Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février) 
 **Méthode :** Push sur GitHub Classroom  
 
-### ✅ Vérification avant remise :
+### Vérification avant remise :
 
 - HTML validé W3C
 - CSS externe uniquement
@@ -233,7 +229,7 @@ Documentation/résumé Web 1 pré 2025 :
 
 
 
-## 💡 Conseils
+## Conseils
 
 💡 Commencez simple, puis améliorez progressivement  
 💡 Testez régulièrement dans le navigateur  
@@ -243,7 +239,7 @@ Documentation/résumé Web 1 pré 2025 :
 
 
 
-## 🍕 Exemples de restaurants (inspiration)
+## Exemples de restaurants (inspiration)
 
 Vous pouvez vous inspirer de vrais restaurants ou inventer :
 
