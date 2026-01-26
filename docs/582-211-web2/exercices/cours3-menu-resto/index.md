@@ -1,9 +1,12 @@
 # 🍽️ EXERCICE BOOTCAMP : MENU DE RESTAURANT
 
+## Fichier de bases à récupérer via GitHub Classroom
+
+[👉 Rejoindre le GitHub Classroom](https://classroom.github.com/a/eu9a16L8){ .md-button }
+
 ## 📋 Contexte
 
 Vous êtes intégrateur Web pour une agence qui développe des sites pour des restaurants. Votre mission : créer la section "Menu" d'un site de restaurant en HTML et CSS.
-
 
 
 ## 🎯 Objectifs d'apprentissage
