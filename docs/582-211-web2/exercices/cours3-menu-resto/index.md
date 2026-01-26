@@ -89,7 +89,7 @@ ENTRÉES
 Salade César                             12.99$
 Laitue romaine, croûtons, parmesan, sauce césar
 
-Soupe à l'oignon gratinée                 8.99$
+Soupe à l oignon gratinée                 8.99$
 Oignons caramélisés, bouillon, fromage suisse
 
 Tartare de saumon            [POPULAIRE] 14.99$
