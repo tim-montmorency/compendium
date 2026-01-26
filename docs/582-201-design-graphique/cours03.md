@@ -80,6 +80,9 @@ Devoir court
 https://shape.method.ac/
 https://type.method.ac/#
 
+![](./assets/img/variations.png)
+
+
 <!--
 Sur l'image écrire avec une grosse fonte l'émotion évoqué par l'image. Neutre, haine, calme, drôle, etc.
 
