@@ -52,9 +52,22 @@ GitHub Classroom (5 min)
 ## Atelier: Schéma de navigation
 
 [👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
+
 Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la: `nomfamille-prenom1_nomfamille-prenom2` ex:  `ouellet-marie_lambert-jean`
 
 
 <!--
 [👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+-->
+
+## Les spécificités CSS
+
+[Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
+
+### Exercice
+
+Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
+
+<!--
+- [Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class)
 -->

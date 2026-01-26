@@ -1,10 +1,20 @@
-# Spécificité CSS`
+# Spécificité CSS
+
+[Lien vers contenu web 1 sur les sélecteur CSS et plus spécifiquement les spécificités](https://tim-montmorency.com/compendium/582-111-web1/cours08.html#specificite-priorite)
 
 ## Concept de spécificité synthétisé
 
 ### Pointage par type de sélecteur
 
-| Type de sélecteur | Exemple | Pointage | Remarque pédagogique |
+| Type de sélecteur        | Priorité  | Score |
+| ------------------------ | --------- | ----- |
+| Balise                   | 🟢 Faible | 1     |
+| Classe                   | 🟡 Moyen  | 10    |
+| Identifiant              | 🔴 Fort   | 100   |
+| Dans le HTML directement | 🔴 Max    | 1000  |
+
+
+| Type de sélecteur | Exemple | Pointage | En savoir plus |
 |------------------|--------|----------|----------------------|
 | Universel | `*` | 0 | Le plus faible. Écrasé par tous les autres. |
 | Balise | `div`, `p`, `h1` | 1 | Très faible spécificité. |
@@ -187,4 +197,4 @@ Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité
 
 Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
-- [Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class)
+Lien vers l'exercice sera fourni en classe.
