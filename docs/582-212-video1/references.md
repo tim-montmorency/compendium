@@ -4,7 +4,7 @@
 * [Guide étudiant](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww)
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
 * [Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQBZkXhpMasgQZ6NQfv4p8OAAf2RbGaQ6Y4e1iEzP4K2Pvk?e=rQUgIA)
-* [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Egxvu2I7VNZDvAxg55EcdwwBvyNQVrcsSEwzqSNguUPo7Q?e=E4hJZZ)
+* [Nomenclature](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgBoBb3o34HuSqpBFIurfjXqAbsXPfoSan4YO4Pzm7VtLEg?e=4xhgbR)
 * [Cahier de pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EROE8xk9chtLnZO33gl_hgMBOTZj9-KvitOQIIqjKQTZMw?e=wTnIyh)
   
 ## Banques et logos 
