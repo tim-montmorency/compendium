@@ -67,7 +67,13 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 **BEM**
 
-- [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
+- [Nomenclature BEM](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
+
+**Ajouts sur la méthodologie BEM (contenu supplémentaire sur le sujet)**
+
+- [La méthodologie de nomenclature BEM](https://alticreation.com/blog/bem-pour-le-css/)
+- [Nomenclature BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
+
 
 **Documentation/résumé Web 1 pré 2025 :**
 

@@ -114,7 +114,7 @@ Action :
 ### Fonctionnalité IA
 
 - Ouvrez la palette de commandes en appuyant sur ++Ctrl+Maj+P++ (Windows/Linux).
-- Saisissez `Chat: Leanr How to Hide AI Features` dans la barre de recherche. S'il n'est pas disponible, c'est qu'il est probablement désactivé. En tappant `Chat:`, si vous voyez l.option `Chat: Use AI Features with Copilot for free...`, cela signifie que l'option IA est désactivtée donc vous n'avez rien à faire.
+- Saisissez `Chat: Learn How to Hide AI Features` dans la barre de recherche. S'il n'est pas disponible, c'est qu'il est probablement désactivé. En tappant `Chat:`, si vous voyez l.option `Chat: Use AI Features with Copilot for free...`, cela signifie que l'option IA est désactivée donc vous n'avez rien à faire.
 - Maintenant cochez: ✔️ `Chat: Disable and Hide built-in AI Features`.
 
 ### Extensions
