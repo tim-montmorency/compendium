@@ -61,9 +61,16 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 **CSS Web 1**
 
 - [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
+  - CSS Syntaxe et règles de base
+  - Sélecteur CSS: (balise, .classe, #id), combinaison de sélecteur, descendant, *sélecteur universel , ordre de priorité, spécificité, héritage.
+  - Modèle de boîte CSS (box model) : `padding`, `margin`, `border`
+  - Propriété `display`.
 - [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
+  - Unités de mesure CSS (relative, absolue)
 - [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
+  - Sélecteurs avancés
 - [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
+  - Nomenclatures CSS, hygyène de code, méthodologie BEM
 
 **BEM**
 
