@@ -176,14 +176,14 @@ menu-restaurant/
 ## Critères d'évaluation (formatif)
 
 - Structure HTML valide et sémantique
-- CSS externe avec variables
-- Nomenclature cohérente (BEM ou similaire)
-- Modèle de boîte bien appliqué
+- CSS externe (fichier style.css, pas de styles en ligne dans les balises html)
+- Nomenclature COHÉRENTE dans tous les CSS (BEM ou autre)
+- [Modèle de boîte](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model#les_bo%C3%AEtes_en_ligne_et_bo%C3%AEte_de_bloc) bien appliqué
 - Typographie hiérarchisée et lisible
 - Prix alignés correctement
-- Badges stylisés
+- Badges stylisés (POPULAIRE, ÉGÉ, ou NOUVEAU)
 - Séparateurs visuels
-- Spécificité CSS démontrée
+- [Spécificité CSS](../../css/specificite.md) démontrée
 - Code propre et indenté
 - Créativité et effort visuel
 
@@ -219,15 +219,15 @@ menu-restaurant/
 ## 📅 Remise
 
 **Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février)
-**Méthode :** *commit* et *Push* sur GitHub Classroom
+**Méthode :** *Commit* et *Push* sur GitHub Classroom (via Github Desktop ou l'outil de Git intégré à VS Code)
 
 ### Vérification avant remise :
 
-- HTML validé avec le validateur W3C
+- HTML validé avec le validateur [W3C](https://validator.w3.org/)
 - CSS externe uniquement (aucune style en ligne sur les balises HTML)
 - Fichiers bien nommés
 - Code indenté
-- README.md complété
+- Fichier README.md complété
 
 
 ## Conseils
