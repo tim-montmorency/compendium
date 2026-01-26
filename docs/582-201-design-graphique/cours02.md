@@ -4,8 +4,8 @@
 
 ## Exercices
 
-Retour sur les exercices
-Demander une rétroactions verbale est possible
+Retour sur les exercices.
+Demander une rétroaction verbale est possible.
 
 ## Comité Merch
 
@@ -21,22 +21,22 @@ Demander une rétroactions verbale est possible
 
 Composition + principes
 
-Dans ce cours, on veut remplacer les choix instinctif par la justification des choix.
+Dans ce cours, on veut remplacer les choix instinctifs par la justification des choix.
 Pourquoi utiliser une fonte X, une forme Y ou une couleur Z.
 
-Éviter le "design to impress", même si c'est cool. Si ça peut être efficace en meme temps, c'est le best.
+Éviter le "design to impress", même si c'est cool. Si ça peut être efficace en même temps, c'est le best.
 On veut un résultat. Quantifiable si possible.
 
 Par exemple : 
 
-> Est-ce que les utilisateurs on cliqué ?
-> Est-ce qu'ils ont lu, acheté, ou retenu l'information ?
+> Est-ce que les utilisateurs ont cliqué ?
+> Est-ce qu'ils ont lu, acheté ou retenu l'information ?
 
 ## Règle des tiers 
 
 ![](./assets/img/RuleOfThirds-SideBySide.gif)
 
-La règre des tiers est un principe classique de photographique qui vise à positionner un sujet d'intéret de façon harmonieuse. C'est un principe également très utile pour le design graphique.
+La règle des tiers est un principe classique de photographie qui vise à positionner un sujet d'intérêt de façon harmonieuse. C'est un principe également très utile pour le design graphique.
 
 > Imaginons une grille **3 × 3** sur un visuel.<br>
 > Placez les éléments importants soit sur les lignes ou sur les intersections.
@@ -49,6 +49,8 @@ La règre des tiers est un principe classique de photographique qui vise à posi
 
 ### Contraste
 
+![](./assets/img/Principles-of-Design-Contrast-Example-04.png){data-zoom-image}
+
 Le contraste, c'est la mise en opposition. Pour ce faire, on utilise la taille, les formes, la typo, la texture, les couleurs, les styles.
 
 ![](./assets/img/contrast-size.jpg){.w-25 data-zoom-image}
@@ -57,7 +59,7 @@ Le contraste, c'est la mise en opposition. Pour ce faire, on utilise la taille, 
 [^contrast]
 [^contrast]: <https://yesimadesigner.com/using-contrast-1/>
 
-!!! example "Analogie"
+!!! example "Une petite analogie ⭐️"
 
 	Une pièce silencieuse. 
 	
@@ -65,20 +67,37 @@ Le contraste, c'est la mise en opposition. Pour ce faire, on utilise la taille, 
 	
 	Dans une pièce où tout le monde crie, plus personne ne se distingue.
 
+!!! info "Contraste et accessibilité"
+
+	Le contraste de couleur peut nuire à la lisibilité s'il n'est pas assez prononcé.
+
+	![](./assets/img/Principles-of-Design-Contrast-Example-03.png){data-zoom-image .w-50}
+
+	<!-- https://graphicmama.com/blog/principles-design/#principle-contrast -->
+
 ### Alignement
+
+![](./assets/img/Principles-of-Design-Alignment-Example-05.png){data-zoom-image}
+
+<!-- https://graphicmama.com/blog/principles-design/ -->
 
 Fil invisible qui relie les éléments. Ça transforme un tas d'objets disparates en une composition organisée, ou à l'inverse, on peut désorganiser volontairement pour provoquer ou interpeller.
 
-![](./assets/img/alignment-principle.webp){data-zoom-image}[^alignment]
-[^alignment]: <https://254-online.com/alignment-principle-design/>
+![](./assets/img/visme-alignement.webp){data-zoom-image}
 
-!!! example "Analogie"
+<!-- https://visme.co/blog/visual-hierarchy/ -->
+
+![](./assets/img/alignment-principle.webp){data-zoom-image}
+
+<!-- https://254-online.com/alignment-principle-design/ -->
+
+!!! example "Une petite analogie ⭐️"
 
 	Imaginez une troupe de soldats au garde-à-vous.
 
 	Un soldat qui n'est pas aligné évoque un manque de rigueur.
 
-	Remplacez ce même soldat par un danseur contemporain et vous avez plutôt un effet de contrast !
+	Remplacez ce même soldat par un danseur contemporain et vous avez plutôt un effet de contraste !
 
 ### Équilibre
 
@@ -86,7 +105,7 @@ Répartition du « poids visuel » dans une image. Le contraste, lui, cherche la
 
 !!! example "Comparaison"
 
-	Le **contraste** attire l'oeil.
+	Le **contraste** attire l'œil.
 	
 	L'**équilibre** dit : « Maintenant que tu as regardé, l'information est harmonieuse et lisible. »
 
@@ -108,12 +127,15 @@ Répartition du « poids visuel » dans une image. Le contraste, lui, cherche la
 
 !!! info "Hyper important en design"
 
-	L'asymétrie ne signifie pas que les éléments sont jetés au hasard, ni que c'est déséquilibré ! On compense par le poids visuel plutôt que par leur position miroir.
+	L'asymétrie ne signifie pas que les éléments sont jetés au hasard, ni que c'est déséquilibré ! On compense par le poids visuel plutôt que par la position miroir.
 
 	![](./assets/img/symmetrical-balance.webp){data-zoom-image .w-25}
-	![](./assets/img/asymmetrical-balance.webp){data-zoom-image .w-25}[^balance]
+	![](./assets/img/asymmetrical-balance.webp){data-zoom-image .w-25}
 
-[^balance]: <https://254-online.com/balance-principle-design/>
+	![](./assets/img/Principles-of-Design-Balance-Example-01.png){data-zoom-image .w-25}
+	![](./assets/img/Principles-of-Design-Balance-Example-02.png){data-zoom-image .w-25}
+
+<!-- https://254-online.com/balance-principle-design/ -->
 
 ### Hiérarchie
 
@@ -122,99 +144,161 @@ La hiérarchie sert à structurer, organiser, mettre de l'accent et aide la pers
 La hiérarchie visuelle est généralement créée par le contraste, mais pas que !
 
 ![](./assets/img/size-and-scale-980x551.png){.w-33 data-zoom-image}
-![](./assets/img/typeface-sizes-980x551.png){.w-33 data-zoom-image}[^hierarchy2]
+![](./assets/img/typeface-sizes-980x551.png){.w-33 data-zoom-image}
 
 ![](./assets/img/hierarchy-example-1.webp){.w-33 data-zoom-image}
-![](./assets/img/hierarchy-example-4.webp){.w-33 data-zoom-image}[^hierarchy]
+![](./assets/img/hierarchy-example-4.webp){.w-33 data-zoom-image}
 
-[^hierarchy]: <https://254-online.com/hierarchy-principle-of-design/>
-[^hierarchy2]: <https://blog.thenounproject.com/graphic-design-principles-hierarchy/>
+<!-- https://254-online.com/hierarchy-principle-of-design/ -->
+<!-- https://blog.thenounproject.com/graphic-design-principles-hierarchy/ -->
 
-### Couleurs
+### Couleur
 
 ![](./assets/img/couleurs-emotions.png){data-zoom-image}
 
-En design graphique, la Couleur n'est pas qu'un choix esthétique[^couleurs] 😮! 
+En design graphique, la couleur n'est pas qu'un choix esthétique 😮! 
 
 C'est l'un des outils les plus puissants pour influencer la psychologie et renforcer les autres principes.
 
 Donc les couleurs communiquent une intention (ambiance, connotation) et agissent sur la lisibilité et l'attention.
 
-[^couleurs]: <https://deepidoo.com/psychologie-des-couleurs-et-affichage-dynamique/>
+<!-- https://deepidoo.com/psychologie-des-couleurs-et-affichage-dynamique/ -->
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+### Le « vide »
 
-<div markdown>
-**Le vide (espace « blanc »)<br>**Laisser respirer pour améliorer la lisibilité et mettre en valeur l’essentiel.
-</div>
-</div>
+Laisser respirer pour améliorer la lisibilité et mettre en valeur l’essentiel.
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+> Less is More
 
-<div markdown>
-**Proportion**<br>Ajuster les tailles relatives pour créer du sens (importance, relation, confort visuel).
-</div>
-</div>
+![](./assets/img/turtles.png){data-zoom-image}
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+<!-- https://masterclass.ted.com/blog/visual-presentations-series-less-is-more -->
 
-<div markdown>
-**Répétition**<br>Réutiliser des éléments (styles, formes, espacements) pour créer cohérence et identité.
-</div>
-</div>
+![](./assets/img/plants-make-us-happy.webp){.w-33 data-zoom-image}
+![](./assets/img/Think_Small.jpg){data-zoom-image}
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+#### Espace négatif
 
-<div markdown>
-**Rythme**<br>Créer une cadence visuelle par la répétition + variation (comme une musique pour les yeux).
-</div>
-</div>
+Le concept d'espace négatif est une notion un peu plus avancée qui s'intègre dans la gestion du "vide" en l'utilisant pour créer une autre connotation.
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+![](./assets/img/brave-poster11.jpg){data-zoom-image .w-25}
+![](./assets/img/iraq_oil.webp){data-zoom-image .w-25}
+![](./assets/img/negative-space-in-graphic-design.webp){data-zoom-image .w-25}
+![](./assets/img/Lobster.jpg){data-zoom-image .w-25}
+![](./assets/img/negative-triangle.png){data-zoom-image .w-25}
 
-<div markdown>
-**Mouvement**<br>Guider le regard grâce aux directions, diagonales, courbes, flèches ou séquences.
-</div>
-</div>
+### Proportion
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+Ajuster les tailles relatives pour créer du sens (importance, relation, confort visuel). Pour qu'il y ait proportion ou disproportion, il faut qu'un élément soit placé en comparaison avec un autre élément.
 
-<div markdown>
-**Accentuation**<br>Mettre un élément en vedette (le point focal) pour clarifier le message principal.
-</div>
-</div>
+![](./assets/img/proportions.png){data-zoom-image}
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img){data-zoom-image}
+<!-- https://www.thirdwunder.com/blog/the-importance-of-proportion-in-design/ -->
 
-<div markdown>
-**Proximité**<br>Regrouper ce qui va ensemble et séparer ce qui est différent pour clarifier la structure.
-</div>
-</div>
+![](./assets/img/puma.png){.w-25 data-zoom-image}
+![](./assets/img/love-languages.png){.w-25 data-zoom-image}
 
-Exemple : ![](./assets/img/mucho.webp)
-Src : https://wearemucho.com/work/uc-annual-report-2022
+<!-- https://fabrikbrands.com/branding-matters/graphic-design/proportion-in-graphic-design-principles-of-design-proportion/ -->
 
+<!-- Les lettres pour jaguar sont proportionnelles, mais pas pour puma. Le m est plus large. -->
+<!-- Aussi, l'animal ne prend pas le même espace dans les 2 cas. -->
 
+### Répétition
+
+![](./assets/img/repetition-principle-of-design-blog-post-pic.webp)
+
+La répétition consiste à réutiliser des éléments similaires ou identiques dans un design. Elle peut concerner les **couleurs**, les **formes**, les **motifs**, les **textures** ou les **typographies**. La répétition contribue à créer une cohérence visuelle ainsi qu’un rythme agréable.
+
+![](./assets/img/Repetition-unifies-a-composition.webp){.w-25 data-zoom-image}
+![](./assets/img/Principles-of-Design-Color-and-Pattern-Example-06.png){.w-25 data-zoom-image}
+![](./assets/img/Principles-of-Design-Color-and-Pattern-Example-05.png){.w-25 data-zoom-image}
+
+<!-- https://www.thirdwunder.com/blog/the-importance-of-repetition-in-design/ -->
+
+### Rythme
+
+![](./assets/img/rhythm-1.webp){.w-100 data-zoom-image}
+<!-- https://www.outcrowd.io/blog/value-of-rhythm-in-design -->
+
+Créer une cadence visuelle par la répétition et des variations. Ça peut être fait avec l'usage de couleur, de forme.
+
+![](./assets/img/Adidas-Logo-1991.jpg){.w-50 data-zoom-image}
+
+![](./assets/img/rhythm-a.png){.w-25 data-zoom-image}
+![](./assets/img/rhythm-b.png){.w-25 data-zoom-image}
+![](./assets/img/rhythm-2.webp){.w-25 data-zoom-image}
+![](./assets/img/dubois.png){.w-25 data-zoom-image}
+![](./assets/img/modern-internet.png){.w-25 data-zoom-image}
+<!-- https://www.youtube.com/watch?v=seey_uNt7V8 -->
+
+### Mouvement
+
+<figure markdown>
+![](./assets/img/9-The-Great-Wave-off-Kanagawa-Movement.jpg){data-zoom-image}
+<figcaption markdown>
+[La Grande Vague de Kanagawa](https://fr.wikipedia.org/wiki/La_Grande_Vague_de_Kanagawa) - 1830
+</figcaption>
+</figure>
+
+Guider le regard grâce aux directions, diagonales, courbes, flèches ou séquences.
+
+![](./assets/img/domino.webp){.w-25 data-zoom-image}
+![](./assets/img/element-of-design-movement.webp){.w-25 data-zoom-image}
+![](./assets/img/Movement-1024x465.webp){.w-25 data-zoom-image}
+![](./assets/img/Movement-In-Graphic-Design-2.png){.w-25 data-zoom-image}
+![](./assets/img/more-pull.png){.w-25 data-zoom-image}
+
+### Emphase
+
+![](./assets/img/emphase.png){.w-100}
+
+Mettre un élément en vedette (le point focal).
+
+On peut créer de l'emphase avec le contraste, la perspective, la subordination[^subordination] et la position.
+
+[^subordination]: En art, la subordination consiste à mettre en valeur un élément central de l'image, en atténuant l'importance de l'ensemble.
+
+![](./assets/img/Emphasis4.jpg){.w-25 data-zoom-image}
+![](./assets/img/14-Visual-Hierarchy-Principles-Every-Non-Designer-Needs-to-Know-Odd-numbered-groupings-foster-balance-and-focus.webp){.w-25 data-zoom-image}
+![](./assets/img/flou-de-profondeur-de-champ-selon-4-ouverture.jpg.webp){.w-25 data-zoom-image}
+
+<!-- En art, la subordination consiste à mettre en valeur un élément central de l'image, en atténuant l'importance de l'ensemble -->
+
+<!-- https://yourartpath.com/what-is-emphasis-in-art-6-ways-to-use-it-examples -->
+
+### Proximité
+
+Regrouper ce qui va ensemble et séparer ce qui est différent pour clarifier la structure ou signifier un concept.
+
+![](./assets/img/puzzle-proximity-1-980x551.png){.w-25 data-zoom-image}
+![](./assets/img/Principles-of-Design-Proximity-Example-05.png){.w-25 data-zoom-image}
+![](./assets/img/web-proximity-design.png){.w-25 data-zoom-image}
+![](./assets/img/proximity-gestalt.png){.w-25 data-zoom-image}
+
+<!-- https://uxmisfit.com/2019/04/23/ui-design-in-practice-gestalt-principles/ -->
+<!-- https://wearemucho.com/work/uc-annual-report-2022 -->
+<!-- https://blog.thenounproject.com/grouping-and-proximity-in-graphic-design-the-art-of-visual-organization/ -->
 
 ### Unité
 
-Donner l’impression que “tout appartient au même système” (style, règles, **cohérence** globale).
+Donner l’impression que “tout appartient au même système” (style, règles, **cohérence** et harmonie globale).
 
-![](./assets/img/Decade_Chocolate_all.webp){data-zoom-image}[^unite]
+![](./assets/img/Principles-of-Design-Harmony-and-Unity-Example-02.png){data-zoom-image .w-25}
+![](./assets/img/unity-ex.png){data-zoom-image .w-25}
+![](./assets/img/Decade_Chocolate_all.webp){data-zoom-image .w-25}
 
-[^unite]: <https://www.panesar.studio/le-temps-chocolate>
 
+<!-- https://www.panesar.studio/le-temps-chocolate -->
 <!-- https://www.zekagraphic.com/12-principles-of-graphic-design/ -->
 <!-- https://www.figma.com/resource-library/graphic-design-principles/ -->
 <!-- https://medium.com/design-related/20-design-rules-you-should-never-break-bc5407a78cea -->
+<!-- https://www2.sjsu.edu/honorsx/docs/HonsX%2012%20Principles.pdf -->
 
+
+
+Organiser une page déjà faite en appliquant des modifications.
+
+Ex. : <https://www.youtube.com/watch?v=xzyvO71XEaA>
 
 ## Figma
 
@@ -226,25 +310,35 @@ Ligne / Vector
 
 Background / texture
 
-- Usage de vecteur existant pour créer un pattern custom!
+- Usage de vecteurs existants pour créer un pattern custom !
 
-> À venir prochainement : Auto-layout (mise en page) et styles/variables (cohérence).
 
-Image cc0
+
+Image CC0
 
 ## Exercice 
 
-Organiser une page déja fait en appliquant des modifications
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/radio-canada/radio-can-loc.webp)
 
-Ex: https://www.youtube.com/watch?v=xzyvO71XEaA
+  <small>Exercice - Figma</small><br>
+  **[Radio-Canada](./activite/exercice/radio-canada/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/radio-canada/radio-can-loc.webp)
+
+  <small>Exercice - Figma</small><br>
+  **[Radio-Canada](./activite/exercice/radio-canada/index.md){.stretched-link .back}**
+</div>
 
 
-Reproduire logo Radio Canada
 
 
-Exercice : Voici une image. Met l'emphase sur cet élément et mentionne quel principe tu as utilisé.
 
-Prendre 2 photos en respectant la regle de tier.
+Exercice : Voici une image. Mets un **b** sur cet élément et mentionne quel principe tu as utilisé.
+
+Prendre 2 photos en respectant la règle des tiers.
 
 
 
