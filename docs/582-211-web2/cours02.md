@@ -12,9 +12,17 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 -->
 
 
+## Présentaton de GitHub Classroom
+
+On va utiliser GitHub Classroom tout au long de la session. On va faire un test pour l'activité pratique du dernier cours...
+
+[👩🏻‍💻 Activité pratique : GitHub Classroom - Test](./exercices/cours2-github-classroom-test/index.md){ .md-button .md-button--primary }
+
 ## Retour sur l'activité pratique: Analyse de code (Bloc 5 du dernier cours)
 
 [👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
+
+[Lien GitHub Classsroom de l'activité](https://classroom.github.com/a/LXvtgKKT){ .md-button }
 
 
 ## Retour sur la lecture du devoir du dernier cours
