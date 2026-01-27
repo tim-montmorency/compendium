@@ -177,13 +177,13 @@ menu-restaurant/
 - Styler le conteneur principal (largeur, centrage)
 - Typographie de base
 
-### 3. Style des catégories (20 min)
+### 3. Style des catégories (entrées, desserts etc) (20 min)
 
 - Titres de catégories
 - Séparateurs visuels
 - Espacements
 
-### 4. Style des items (25 min)
+### 4. Style des items (plats) (25 min)
 
 - Layout nom/prix (`float` ou `inline-block`)
 - Descriptions
