@@ -181,7 +181,7 @@ menu-restaurant/
 
 ### 4. Style des items (25 min)
 
-- Layout nom/prix (flexbox ou float)
+- Layout nom/prix (`float` ou `inline-block`)
 - Descriptions
 - Badges
 
