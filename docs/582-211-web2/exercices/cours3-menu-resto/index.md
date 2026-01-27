@@ -160,9 +160,15 @@ menu-restaurant/
 
     Une fois ce premier élément maîtrisé et validé, vous pourrez simplement dupliquer le code pour créer les autres plats et catégories.
 
-Voici un exemple qui vous montre comment organiser et structurer vos éléments HTML. (Vous n’êtes pas tenu de le reproduire tel quel, mais il peut vous servir de repère.)
 
-![](./demo-decoupage-html-menu-resto.png){ data-zoom-image }
+
+<div class="grid grid-1-2" markdown>
+  ![](./demo-decoupage-html-menu-resto.png){ data-zoom-image }
+
+  Voici un exemple qui vous montre comment organiser et structurer vos éléments HTML. (Vous n’êtes pas tenu de le reproduire tel quel, mais il peut vous servir de repère.)
+</div>
+
+
 
 ### 2. CSS de base (10 min)
 
