@@ -233,6 +233,8 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 **Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février)
 **Méthode :** *Commit* et *Push* sur GitHub Classroom (via Github Desktop ou l'outil de Git intégré à VS Code)
 
+![git +, commit, Remise, push](./assets/remise-git-commit-push.png)
+
 ### Vérification avant remise :
 
 - HTML validé avec le validateur [W3C](https://validator.w3.org/)

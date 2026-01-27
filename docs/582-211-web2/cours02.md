@@ -105,3 +105,12 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 ## Bootcamp de révision & diagnostique HTML+CSS
 
 [🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
+
+## **DEVOIRS** à faire pour le prochain cours
+
+[🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
+
+Remettre avant le début du cours 3 : `+`, commit `Remise`, `push`.
+
+![git +, commit, Remise, push](./assets/remise-git-commit-push.png)
+
