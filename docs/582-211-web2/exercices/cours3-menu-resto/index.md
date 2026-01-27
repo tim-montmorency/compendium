@@ -4,6 +4,15 @@
 
 [👉 Rejoindre le GitHub Classroom](https://classroom.github.com/a/eu9a16L8){ .md-button }
 
+---
+
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
+</div>
+
+---
+
 ## Contexte
 
 Vous êtes intégrateur Web pour une agence qui développe des sites pour des restaurants. Votre mission : créer la section "Menu" d'un site de restaurant en HTML et CSS.
@@ -11,11 +20,11 @@ Vous êtes intégrateur Web pour une agence qui développe des sites pour des re
 
 ## Objectifs d'apprentissage
 
-- [ ] Réviser la structure HTML sémantique
-- [ ] Pratiquer le modèle de boîte CSS (padding, margin, border)
-- [ ] Comprendre la spécificité CSS (quelle règle gagne?)
-- [ ] Appliquer une nomenclature cohérente (BEM recommandé)
-- [ ] Créer une mise en page lisible et professionnelle
+- Réviser la structure HTML sémantique
+- Pratiquer le modèle de boîte CSS (padding, margin, border)
+- Comprendre la spécificité CSS (quelle règle gagne?)
+- Appliquer une nomenclature cohérente (BEM recommandé)
+- Créer une mise en page lisible et professionnelle
 
 
 ## Ce que vous devez créer
