@@ -50,8 +50,8 @@ Un menu de restaurant qui contient :
 ### HTML
 
 - [ ] Structure HTML5 valide (doctype, head, body)  
-- [ ] Balises **sémantiques** lorsque ça s'applique (`<section>`, `<article>`, `<header>`, `<h1>` etc.)  
-- [ ] **Listes** utilisées pour lister les imtes (plats) dans chaque catégorie (ul/li ou ol/li)  
+- [ ] Balises **sémantiques** lorsque ça s'applique et que c'est pertinent (exemples: `<section>`, `<article>`, `<header>`, `<h1>`, `<h2>` etc.)  
+- [ ] **Listes** utilisées pour lister les items (plats) dans chaque catégorie (ul/li ou ol/li)  
 - [ ] Classes CSS cohérentes (nomenclature BEM recommandé)  
 - [ ] Code bien **indenté** (clic droit / *Mettre le document en forme* (ou *Format Document* en anglais))
 - [ ] Fichier externe `style.css` (pas de CSS inline dans le HTML)  
