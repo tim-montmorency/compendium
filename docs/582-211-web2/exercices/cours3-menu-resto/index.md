@@ -145,6 +145,10 @@ menu-restaurant/
 - Créer les 3 sections de catégories
 - Ajouter les items avec listes
 
+Voici un exemple qui vous démontre comment encadrer et structuer vos éléments HTML (vous n'êtes pas tenu de copier ça mais ça peut vous orienter) :
+
+![](./demo-decoupage-html-menu-resto.png){ data-zoom-image }
+
 ### 2. CSS de base (10 min)
 
 - Styler le conteneur principal (largeur, centrage)
