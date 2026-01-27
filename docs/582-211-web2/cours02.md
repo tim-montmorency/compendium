@@ -18,11 +18,6 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 -->
 
 
-## Présentaton de GitHub Classroom
-
-On va utiliser GitHub Classroom tout au long de la session. On va faire un test pour l'activité pratique du dernier cours...
-
-[👩🏻‍💻 Activité pratique : GitHub Classroom - Test](./exercices/cours2-github-classroom-test/index.md){ .md-button .md-button--primary }
 
 ## Retour sur l'activité pratique: Analyse de code (Bloc 5 du dernier cours)
 
@@ -96,6 +91,13 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
 [👩🏻‍💻 Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com/?level=tag-vs-class){ .md-button }
+
+
+## Emmet
+
+Moteur d’autocomplétions permettant d’augmenter votre vitesse de création de balises HTML dans VS Code.
+
+[Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
 
 
 ## Bootcamp de révision & diagnostique HTML+CSS

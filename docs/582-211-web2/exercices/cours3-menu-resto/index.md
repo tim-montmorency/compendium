@@ -190,7 +190,13 @@ menu-restaurant/
 
 ## Ressources utiles
 
-**Outils et références externes**
+### Emmet
+
+Moteur d’autocomplétions permettant d’augmenter votre vitesse de création de balises HTML dans VS Code.
+
+[Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
+
+### Outils et références externes
 
 - [Google Fonts](https://fonts.google.com/)
 - [Coolors (palettes de couleurs)](https://coolors.co/)
@@ -198,18 +204,18 @@ menu-restaurant/
 - [Méthodologie BEM](https://alticreation.com/blog/bem-pour-le-css/)
 - [BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
 
-**CSS Web 1**
+### CSS Web 1*
 
 - [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
 - [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
 - [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
 - [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
 
-**BEM**
+### BEM
 
 - [BEM Documentation](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
 
-**Documentation/résumé Web 1 pré 2025 :**
+### Documentation/résumé Web 1 pré 2025 :
 
 - [Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
 - [Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
