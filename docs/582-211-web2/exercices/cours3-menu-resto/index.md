@@ -31,7 +31,7 @@ Vous êtes intégrateur Web pour une agence qui développe des sites pour des re
 
 Un menu de restaurant qui contient :
 
-### Structure minimale obligatoire :
+### Structure minimale obligatoire
 
 - [ ] **Un titre principal** pour le menu
 - [ ] **3 catégories minimum** (ex: Entrées, Plats principaux, Desserts)
@@ -115,7 +115,7 @@ Steak frites                 [POPULAIRE] 24.99$
 Saumon grillé                            22.99$
 Légumes de saison, riz basmati, beurre citronné
 
-Risotto aux champignons         [VÉGÉ]   18.99$
+Risotto aux champignons          [VÉGÉ] 18.99$
 Champignons sauvages, parmesan, truffe
 
 ────────────────────────────────────────────────
@@ -123,7 +123,7 @@ Champignons sauvages, parmesan, truffe
 DESSERTS
 ────────────────────────────────────────────────
 
-Crème brûlée                 [POPULAIRE]  7.99$
+Crème brûlée                  [POPULAIRE] 7.99$
 Vanille de Madagascar, sucre caramélisé
 
 Tarte au citron                           6.99$
