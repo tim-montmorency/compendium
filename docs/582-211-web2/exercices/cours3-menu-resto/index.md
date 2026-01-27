@@ -4,7 +4,11 @@
 
 [👉 Rejoindre le GitHub Classroom](https://classroom.github.com/a/eu9a16L8){ .md-button }
 
+<br>
+
 ---
+
+<br>
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
