@@ -194,7 +194,7 @@ menu-restaurant/
 
 Moteur d’autocomplétions permettant d’augmenter votre vitesse de création de balises HTML dans VS Code.
 
-[Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
+[Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button }
 
 ### Outils et références externes
 
