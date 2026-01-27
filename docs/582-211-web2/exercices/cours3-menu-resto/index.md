@@ -204,7 +204,7 @@ menu-restaurant/
 - [Modèle de boîte](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model#les_bo%C3%AEtes_en_ligne_et_bo%C3%AEte_de_bloc) bien appliqué
 - Typographie hiérarchisée et lisible
 - Prix alignés correctement
-- Badges stylisés (POPULAIRE, ÉGÉ, ou NOUVEAU)
+- Badges stylisés (POPULAIRE, VÉGÉ, ou NOUVEAU)
 - Séparateurs visuels
 - [Spécificité CSS](../../css/specificite.md) démontrée
 - Code propre et indenté
