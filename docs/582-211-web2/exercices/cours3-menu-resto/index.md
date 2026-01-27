@@ -229,7 +229,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 - [Méthodologie BEM](https://alticreation.com/blog/bem-pour-le-css/)
 - [BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
 
-### CSS Web 1*
+### CSS Web 1
 
 - [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
 - [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
