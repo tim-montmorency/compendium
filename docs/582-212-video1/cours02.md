@@ -32,6 +32,11 @@
 ## Prise des présences
 
 ## Devoir
-* Écriture du synopsis, corriger le scénario à l'aide de Chat. 
-* Création du moodboard 
-* Assemblage dans le fichier de préproduction [pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+* Pour le vidéoclip
+  * Avoir la musique
+  * Écriture du synopsis, corriger le scénario à l'aide de Chat. 
+  * Création du moodboard 
+  * Assemblage dans le fichier de préproduction [pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+  * Déposer le fichier de préproduction et la musique dans l'onglet de remise
+* Pour le disque dur
+  * Avoir votre disque dur avec tous les médias copiés sur celui-ci pour le prochain cours. 
