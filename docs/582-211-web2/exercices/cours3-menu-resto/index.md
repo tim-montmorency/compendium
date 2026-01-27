@@ -255,7 +255,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 - **Méthode :** *Commit* et *Push* sur GitHub Classroom (via Github Desktop ou l'outil de Git intégré à VS Code)
 
-![git +, commit, Remise, push](./assets/remise-git-commit-push.png)
+![git +, commit 'Remise', ..., push](./assets/remise-git-commit-push.png)
 
 ### Vérification avant remise :
 

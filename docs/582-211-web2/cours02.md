@@ -110,7 +110,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 [🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
 
-Remettre avant le début du cours 3 : `+`, commit `Remise`, `push`.
+Remettre avant le début du cours 3 : `+`, `commit "Remise"`, [...] `push`.
 
-![git +, commit, Remise, push](./assets/remise-git-commit-push.png)
+![git +, commit 'Remise', ..., push](./assets/remise-git-commit-push.png)
 
