@@ -103,7 +103,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
     Le reste des consignes apparaîtra à chaque semaine selon vos apprentissages. 
 
-[STOP]
+
 
 ### 2 | Préparation de Vuforia
 
@@ -178,6 +178,8 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Créez un bouton qui permettra de retourner au menu principal.
 - [ ] Affichez trois images qui représenteront la progression ou encore ajoutez un slider.
 - [ ] Ajoutez une image qui indiquera l'élément à balayer.
+
+[STOP]
 
 ### 8 | Création de la scène Jeu - Sons
 
