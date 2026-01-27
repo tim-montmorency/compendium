@@ -230,8 +230,9 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 ## 📅 Remise
 
-**Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février)
-**Méthode :** *Commit* et *Push* sur GitHub Classroom (via Github Desktop ou l'outil de Git intégré à VS Code)
+- **Date limite :** Avant le cours 3 de la semaine prochaine (2, 4 février)
+
+- **Méthode :** *Commit* et *Push* sur GitHub Classroom (via Github Desktop ou l'outil de Git intégré à VS Code)
 
 ![git +, commit, Remise, push](./assets/remise-git-commit-push.png)
 
@@ -246,11 +247,11 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 ## Conseils
 
-💡 Commencez simple, puis améliorez progressivement
-💡 Testez régulièrement dans le navigateur
-💡 Utilisez l'inspecteur pour déboguer
-💡 Documentez vos choix avec des commentaires CSS
-💡 Si vous êtes bloqué, cherchez d'abord par vous même, puis demandez de l'aide à l'enseignante ou aux autres étudiants
+- 💡 Commencez simple, puis améliorez progressivement
+- 💡 Testez régulièrement dans le navigateur
+- 💡 Utilisez l'inspecteur pour déboguer
+- 💡 Documentez vos choix avec des commentaires CSS
+- 💡 Si vous êtes bloqué, cherchez d'abord par vous même, puis demandez de l'aide à l'enseignante ou aux autres étudiants
 
 
 ## Exemples de restaurants (inspiration)
