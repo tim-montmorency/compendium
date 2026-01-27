@@ -33,14 +33,14 @@ Un menu de restaurant qui contient :
 
 ### Structure minimale obligatoire :
 
-1. **Un titre principal** pour le menu
-2. **3 catégories minimum** (ex: Entrées, Plats principaux, Desserts)
-3. **Au moins 3 items par catégorie** (9 items minimum au total)
-4. **Pour chaque item :**
-   - Nom du plat
-   - Description courte
-   - Prix
-5. **Au moins 2 items avec un badge** "POPULAIRE" ou "VÉGÉ" ou "NOUVEAU"
+- [ ] **Un titre principal** pour le menu
+- [ ] **3 catégories minimum** (ex: Entrées, Plats principaux, Desserts)
+- [ ] **Au moins 3 items par catégorie** (9 items (plats) minimum au total)
+- [ ] **Pour chaque item (plat) :**
+  - Nom du plat
+  - Description courte
+  - Prix
+- [ ] **Au moins 2 items avec un badge** "POPULAIRE" ou "VÉGÉ" ou "NOUVEAU"
 
 
 ## Exigences techniques
@@ -48,11 +48,11 @@ Un menu de restaurant qui contient :
 ### HTML
 
 - [ ] Structure HTML5 valide (doctype, head, body)  
-- [ ] Balises **sémantiques** (`<section>`, `<article>`, `<header>`, etc.)  
-- [ ] **Listes** utilisées pour les items (ul/li ou ol/li)  
-- [ ] Classes CSS cohérentes (BEM recommandé)  
-- [ ] Code bien **indenté**  
-- [ ] Fichier externe `style.css` (pas de CSS inline ou internal)  
+- [ ] Balises **sémantiques** lorsque ça s'applique (`<section>`, `<article>`, `<header>`, `<h1>` etc.)  
+- [ ] **Listes** utilisées pour lister les imtes (plats) dans chaque catégorie (ul/li ou ol/li)  
+- [ ] Classes CSS cohérentes (nomenclature BEM recommandé)  
+- [ ] Code bien **indenté** (clic droit / *Mettre le document en forme* (ou *Format Document* en anglais))
+- [ ] Fichier externe `style.css` (pas de CSS inline dans le HTML)  
 
 
 
@@ -64,21 +64,21 @@ Un menu de restaurant qui contient :
   - Titre principal plus grand
   - Titres de catégories moyens
   - Noms de plats en gras
-  - Descriptions plus petites et en gris
-- [ ] **Prix alignés à droite**  
+  - Descriptions plus petites et en gris ou plus pâle
+- [ ] **Prix alignés à droite**
 - [ ] **Badges** stylisés avec couleur de fond et border-radius  
-- [ ] **Séparateurs visuels** entre les catégories (border ou margin)  
-- [ ] **Spécificité CSS** : utiliser des sélecteurs variés (balise, classe, descendant)  
-- [ ] **Au moins un état :hover** (sur les items par exemple)  
+- [ ] **Séparateurs visuels** entre les catégories (border ou margin)
+- [ ] **Spécificité CSS** : utiliser des sélecteurs variés (balise, classe, descendant)
+- [ ] **Au moins un état de survol :hover** (sur les items par exemple)
 
 
 
 ## Contraintes de design
 
-- Largeur maximale du menu : **800px**
-- Menu **centré** sur la page
+- Largeur *maximale* du menu : **800px**
+- Menu *centré* sur la page : utilisez une technique que vous avez vue en Web1 pour centrer un élément de type block.
 - Palette de couleurs cohérente (3-4 couleurs maximum) [Coolors](https://coolors.co/)
-- Police lisible ([Google Fonts](https://fonts.google.com/) recommandé)
+- Police intéressant et lisible ([Google Fonts](https://fonts.google.com/) recommandé)
 - Pas d'images requises (optionnel si vous voulez en ajouter)
 
 
@@ -154,7 +154,13 @@ menu-restaurant/
 - Créer les 3 sections de catégories
 - Ajouter les items avec listes
 
-Voici un exemple qui vous démontre comment encadrer et structuer vos éléments HTML (vous n'êtes pas tenu de copier ça mais ça peut vous orienter) :
+!!! important
+
+    Je vous recommande de commencer par travailler uniquement sur la *première catégorie* et le *premier item (plat)* afin de bien poser les balises HTML nécessaires.
+
+    Une fois ce premier élément maîtrisé et validé, vous pourrez simplement dupliquer le code pour créer les autres plats et catégories.
+
+Voici un exemple qui vous montre comment organiser et structurer vos éléments HTML. (Vous n’êtes pas tenu de le reproduire tel quel, mais il peut vous servir de repère.)
 
 ![](./demo-decoupage-html-menu-resto.png){ data-zoom-image }
 
