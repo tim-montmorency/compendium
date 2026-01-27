@@ -5,6 +5,15 @@
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
 
+## Tutorat cette session
+
+| **NOM**            | **PLAGE HORAIRE**              | **LIEU**                                      | **DATES**                     |
+|---------------------|--------------------------------|-----------------------------------------------|--------------------------------|
+| Alexis Guilbault    | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d’aide C-1612           | 3 février au 27 avril inclus. |
+| Olivier Laliberté   | Mercredi soir – 19h-20h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 4 février au 28 avril inclus. |
+| Iryna Lysenko       | Dimanche soir – 18h-19h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 8 février au 3 mai inclus.    |
+
+
 
 ## Emmet
 
@@ -14,3 +23,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 [Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button  }
 
+
+## Retour en classe sur votre atelier: schéma de navigation du cours2
+
+[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }

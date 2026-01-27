@@ -17,6 +17,15 @@ Web 2 vise à développer la capacité de comprendre, structurer, adapter et am�
 dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
 -->
 
+## Tutorat cette session
+
+| **NOM**            | **PLAGE HORAIRE**              | **LIEU**                                      | **DATES**                     |
+|---------------------|--------------------------------|-----------------------------------------------|--------------------------------|
+| Alexis Guilbault    | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d’aide C-1612           | 3 février au 27 avril inclus. |
+| Olivier Laliberté   | Mercredi soir – 19h-20h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 4 février au 28 avril inclus. |
+| Iryna Lysenko       | Dimanche soir – 18h-19h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 8 février au 3 mai inclus.    |
+
+
 
 
 ## Retour sur l'activité pratique: Analyse de code (Bloc 5 du dernier cours)
