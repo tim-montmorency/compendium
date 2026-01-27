@@ -1,7 +1,6 @@
 # Cours 3
 
 ## Vidéoclips
-
 * [Rosalia](https://www.youtube.com/watch?v=htQBS2Ikz6c)
 * [Kendrick Lamar](https://www.youtube.com/watch?v=ecIH-4RbbOk)
 * [Clarli XCX](https://www.youtube.com/watch?v=agu22bqGHto)
@@ -9,8 +8,8 @@
 * [Flying lotus](https://vimeo.com/90796762)
 * [Hornbach](https://vimeo.com/1113169877)
 
-## Les raccords et le montage
-[Les raccords et le montage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETMNBUnU9UVGvCU_lMkEqxQBQUPM05OXeLXkz1Z9oseLlw?e=g6A158) 
+## Raccords et montage
+[Raccords et montage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETMNBUnU9UVGvCU_lMkEqxQBQUPM05OXeLXkz1Z9oseLlw?e=g6A158) 
 
 
 ## [Da Vinci - La base](da_vinci_base.md) 
@@ -102,5 +101,18 @@
   * Alt+Y : Sélectionner tous les clips après la tête de lecture.
   * Ctrl+Alt+Y : Sélectionner tous les clips avant la tête de lecture.
 
+
+## Prise des présences
+
+## Devoir
+* Pour le vidéoclip
+  * Approche de direction photo et moodboard
+  * Approche de direction artistique et moodboard
+  * Location et accessoires
+  * Casting accompagné d'un vidéo
+  * Costume 
+  * Maquillage, coiffure
+  * Assemblage dans le fichier de préproduction [pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+  * Déposer le fichier de préproduction et la musique dans l'onglet de remise sur TEAMS
 
 
