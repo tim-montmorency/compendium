@@ -9,8 +9,8 @@
 * [Flying lotus](https://vimeo.com/90796762)
 * [Hornbach](https://vimeo.com/1113169877)
 
-## Le montage
-[Le montage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETMNBUnU9UVGvCU_lMkEqxQBQUPM05OXeLXkz1Z9oseLlw?e=g6A158) 
+## Les raccords et le montage
+[Les raccords et le montage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETMNBUnU9UVGvCU_lMkEqxQBQUPM05OXeLXkz1Z9oseLlw?e=g6A158) 
 
 
 ## [Da Vinci - La base](da_vinci_base.md) 
