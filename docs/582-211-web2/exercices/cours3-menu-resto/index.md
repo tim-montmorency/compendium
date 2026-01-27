@@ -191,9 +191,9 @@ menu-restaurant/
 
 ### 5. Finitions (10 min)
 
-- États hover
+- États de survol (hover)
 - Vérifications finales
-- Validation HTML
+- Validation HTML via le W3C
 
 ### 6. Complétez le README (5 min)
 
