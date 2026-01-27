@@ -1,4 +1,4 @@
-# 🍽️ EXERCICE BOOTCAMP : MENU DE RESTAURANT
+# 🍽️ EXERCICE: MENU DE RESTAURANT
 
 ## Fichier de bases à récupérer via GitHub Classroom
 
