@@ -36,11 +36,11 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 - **Bloc 3** Démo live et discussion
 - **Bloc 4** Quiz interactif
 - **Bloc 5** Activité pratique: Analyse de code
-- **Bloc 6** Exposé : Lire une maquette comme un pro
-- **Bloc 7** Atelier: Schéma de navigation
-- **Bloc 8** Exposé: Présentation politique IA phase 1 
-- **Bloc 9** Discussion ouverte et conclusion
-- **Bloc 10** Devoir pour le prochain cours
+- ~~**Bloc 6** Exposé : Lire une maquette comme un pro~~
+- ~~**Bloc 7** Atelier: Schéma de navigation~~
+- ~~**Bloc 8** Exposé: Présentation politique IA phase 1~~
+- ~~**Bloc 9** Discussion ouverte et conclusion~~
+- **DEVOIR** Devoir pour le prochain cours
 
 
 
@@ -132,9 +132,8 @@ Action :
 
 [👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
 
-
+<!-- 
 ## **Bloc 6** Exposé 1b : Lire une maquette comme un pro
-
 
 [👩‍🏫 Exposé 1b: Lire une maquette : Télécharger le PPT :material-download:](./assets/cours01-p02-lire-maquette.pptx){ .md-button }
 
@@ -143,9 +142,8 @@ Action :
 [👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
 Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la: `nomfamille-prenom1_nomfamille-prenom2` ex:  `ouellet-marie_lambert-jean`
 
-<!--
 [👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
--->
+
 
 ## **Bloc 8** Présentation politique IA phase 1 
 
@@ -157,6 +155,8 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 ## **Bloc 9** Discussion ouverte et conclusion
 
 ...
+
+-->
 
 ## **DEVOIRS** à faire pour le prochain cours
 
