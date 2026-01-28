@@ -1,8 +1,31 @@
 # Cours 3
 
 
-## Bloc 1
-Retour sur les notions du dernier cours.
+## Bloc 1     
+
+### Menus
+
+- [:pencil: Composantes menu](./unity/UI.md){.back}
+
+### Police de caractères
+
+- [:pencil: Police de caractères](./unity/font.md){.back}   
+
+### Avancement du travail 1
+
+#### Menu UI
+
+[💼 Travail 1 - Étape 5](./travaux/travail1.md#5-creation-de-la-scene-menu-ui){ .md-button .back }     
+
+#### Menu consignes
+
+[💼 Travail 1 - Étape 6](./travaux/travail1.md#6-creation-de-la-scene-menu-consignes-et-credits){ .md-button .back }     
+
+#### Menu Jeu
+
+[💼 Travail 1 - Étape 7](./travaux/travail1.md#7-creation-de-la-scene-jeu-ui){ .md-button .back }     
+
+
 
 <!--
 #### Animations
@@ -13,10 +36,6 @@ Retour sur les notions du dernier cours.
     Attention à bien aligner vos éléments et à avoir une bonne résolution pour votre sprite sheet! 
 
 -->
-
-#### UI
-[💼 Exercice sur l'interface utilisateur](./unity/exercice_ui.md){ .md-button }     
-
 
 
 ## Bloc 2

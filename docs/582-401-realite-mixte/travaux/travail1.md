@@ -103,7 +103,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
     Le reste des consignes apparaîtra à chaque semaine selon vos apprentissages. 
 
-[STOP]
+
 
 ### 2 | Préparation de Vuforia
 
@@ -130,7 +130,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 ### 4 | Création de la scène Jeu - Animations
 
-- [ ] Toujours dans la scène jeu, nous allons maintenant importer les images vectorielles qui composeront nos animations. [Importation SpriteSheet](../unity/anim_import.md){.back}
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les images vectorielles qui composeront nos animations. [Importation Image](../unity/anim_import.md){.back}
 - [ ] Créez un Animator par animation pour la contrôler. [Animator Controller](../unity/anim_controller.md){.back}
 - [ ] Créez un GameObject avec la composante Animator par animation. Ceux-ci contrôleront vos animations. [GameObject Animator](../unity/anim_animator.md){.back}
 - [ ] Créez une animation pour chacuns de vos groupes d'images vectorielles. [Créer une animation](../unity/animation_avance.md#creation-danimations-de-parametres-de-gameobject){.back}
@@ -141,6 +141,8 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 **Tutoriel 🎥**
 
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=10cZ0tSH82XY-MKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[STOP]
 
 ### 5 | Création de la scène Menu - UI
 
@@ -178,6 +180,8 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Créez un bouton qui permettra de retourner au menu principal.
 - [ ] Affichez trois images qui représenteront la progression ou encore ajoutez un slider.
 - [ ] Ajoutez une image qui indiquera l'élément à balayer.
+
+
 
 ### 8 | Création de la scène Jeu - Sons
 
