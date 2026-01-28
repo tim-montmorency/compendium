@@ -130,7 +130,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 ### 4 | Création de la scène Jeu - Animations
 
-- [ ] Toujours dans la scène jeu, nous allons maintenant importer les images vectorielles qui composeront nos animations. [Importation SpriteSheet](../unity/anim_import.md){.back}
+- [ ] Toujours dans la scène jeu, nous allons maintenant importer les images vectorielles qui composeront nos animations. [Importation Image](../unity/anim_import.md){.back}
 - [ ] Créez un Animator par animation pour la contrôler. [Animator Controller](../unity/anim_controller.md){.back}
 - [ ] Créez un GameObject avec la composante Animator par animation. Ceux-ci contrôleront vos animations. [GameObject Animator](../unity/anim_animator.md){.back}
 - [ ] Créez une animation pour chacuns de vos groupes d'images vectorielles. [Créer une animation](../unity/animation_avance.md#creation-danimations-de-parametres-de-gameobject){.back}
