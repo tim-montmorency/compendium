@@ -10,8 +10,8 @@
 | **NOM**            | **PLAGE HORAIRE**              | **LIEU**                                      | **DATES**                     |
 |---------------------|--------------------------------|-----------------------------------------------|--------------------------------|
 | Alexis Guilbault    | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d’aide C-1612           | 3 février au 27 avril inclus. |
-| Olivier Laliberté   | Mercredi soir – 19h-20h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 4 février au 28 avril inclus. |
-| Iryna Lysenko       | Dimanche soir – 18h-19h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 8 février au 3 mai inclus.    |
+| Olivier Laliberté   | Mercredi soir – 19h-20h15      | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 4 février au 28 avril inclus. |
+| Iryna Lysenko       | Dimanche soir – 18h-19h15      | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 8 février au 3 mai inclus.    |
 
 
 
