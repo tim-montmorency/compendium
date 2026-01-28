@@ -142,6 +142,8 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=10cZ0tSH82XY-MKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+[STOP]
+
 ### 5 | Création de la scène Menu - UI
 
 - [ ] Ouvrez la scène Menu en double-cliquant sur celle-ci. N'oubliez pas de sauvegarder la scène Jeu avant de la quitter ! Vous pouvez maintenant lui apporter des modifications.
@@ -179,7 +181,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Affichez trois images qui représenteront la progression ou encore ajoutez un slider.
 - [ ] Ajoutez une image qui indiquera l'élément à balayer.
 
-[STOP]
+
 
 ### 8 | Création de la scène Jeu - Sons
 
