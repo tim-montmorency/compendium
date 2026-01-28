@@ -2,6 +2,10 @@
 
 
 ## Bloc 1
+
+#### UI
+[💼 Exercice sur l'interface utilisateur](./unity/exercice_ui.md){ .md-button }     
+
 #### Code
 - [:pencil: Quitter le jeu](./code/quitter_jeu.md)
 - [:pencil: Changement de scène](./code/changement_scene.md)
