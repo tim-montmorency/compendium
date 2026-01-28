@@ -60,32 +60,8 @@ Ajouter notes pour savoir comment importer image et animer!
 
 [💼 Travail 1 - Étape 4](./travaux/travail1.md#4-creation-de-la-scene-jeu-animations){ .md-button }     
 
-## Bloc 4     
 
-(Si le temps le permets)         
-
-### Menus
-
-- [:pencil: Composantes menu](./unity/UI.md){.back}
-
-### Police de caractères
-
-- [:pencil: Police de caractères](./unity/font.md){.back}   
-
-### Avancement du travail 1
-
-#### Menu UI
-
-[💼 Travail 1 - Étape 5](./travaux/travail1.md#5-creation-de-la-scene-menu-ui){ .md-button .back }     
-
-#### Menu consignes
-
-[💼 Travail 1 - Étape 6](./travaux/travail1.md#6-creation-de-la-scene-menu-consignes-et-credits){ .md-button .back }     
-
-#### Menu Jeu
-
-[💼 Travail 1 - Étape 7](./travaux/travail1.md#7-creation-de-la-scene-jeu-ui){ .md-button .back }     
 
 ## Devoir 
 
-- [ ] [Travail 1](./travaux/travail1.md){ .back } : étapes 2 à 7
+- [ ] [Travail 1](./travaux/travail1.md){ .back } : étapes 2 à 4
