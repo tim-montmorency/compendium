@@ -12,7 +12,7 @@ Les solides sont de simples fonds de couleur.
 
 Ils peuvent être utiles pour créer un fond de couleur à une scène ou pour faire un _fade out_ ou un _fade in_, mais principalement, les solides servent de support pour appliquer des effets et des modes de fusion. Bref, on y reviendra!
 
-[:simple-youtube: Usage d'un solide (2:24 à 3:24) | MotionCafe](https://www.youtube.com/watch?v=TLKC3xwGz8Y&t=124s)
+[:simple-youtube: Usage d'un solide (2:24 à 3:24) | MotionCafe](https://youtu.be/TLKC3xwGz8Y?si=lIfIm5P1jzwCTwdx&t=120)
 
 !!! info "Le saviez-vous ?"
 
