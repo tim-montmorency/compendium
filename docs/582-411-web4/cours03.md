@@ -9,8 +9,8 @@ Il influence la façon dont le contenu est présenté, sans modifier le contenu 
 Autrement dit, le thème est responsable du design global du site : structure des pages, styles graphiques et organisation visuelle.
 Pour définir cette représentation visuelle et graphique, un thème repose généralement sur plusieurs types de fichiers, notamment :
 *	Des fichiers de modèles (templates)
- * ex. : index.php pour les thèmes classiques
- * ex. : index.html pour les thèmes basés sur les blocs
+  * ex. : index.php pour les thèmes classiques
+  * ex. : index.html pour les thèmes basés sur les blocs
    Ces fichiers définissent la structure d’affichage des pages et du contenu.
 *	Des fichiers images
   (.jpg, .png, .gif, etc.) utilisés pour les visuels du thème.
