@@ -1,5 +1,10 @@
 # Cours 3
 
+## Annonce    
+[Bourse en soutien aux arts de Laval](https://fondationsoutienartslaval.com/poser-sa-candidature/){ .md-button .back }     
+    
+[Modalités de participation](https://fondationsoutienartslaval.com/wp-content/uploads/2025/11/Modalites-de-participation-2026.pdf){ .md-button .back }     
+
 
 ## Bloc 1     
 
