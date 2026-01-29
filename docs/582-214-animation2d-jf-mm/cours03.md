@@ -5,9 +5,6 @@
 ## Les 12 principes d'animation
 [Révision 12 principes](./cours02.md#les-12-principes-de-lanimation)
 
-## Les calques (la suite)
-
-[:material-play-circle: Les types de calque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg)
 
 ### Solides
 
