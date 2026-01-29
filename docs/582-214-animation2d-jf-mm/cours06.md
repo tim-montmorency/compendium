@@ -32,9 +32,7 @@ Date limite d'inscription: 14 mars <br>
 
 
 
-## Évaluation par les pairs du TP1a (15%) (groupe de Marie-Michelle)
 
-Ouvrez Moodle, vous vous apprêtez à évaluer un de vos pairs en classe. Soyez attentif et minutieux. Restez critique et honnête. En cas de doute, vous pouvez me poser des questions individuellement.
 
 
 
