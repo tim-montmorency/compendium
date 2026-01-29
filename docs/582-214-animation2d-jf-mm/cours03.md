@@ -214,6 +214,14 @@ Définit l’ordre des couches dans l’animation, par exemple pour s’assurer 
 -->
 
 ## Exercices
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/transmutation/transmutation-preview.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[Transmutation](./exercices_ae/transmutation/transmutation.md){.stretched-link .back}**
+</div>
+
 [🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
     
 [🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  
@@ -226,12 +234,6 @@ Définit l’ordre des couches dans l’animation, par exemple pour s’assurer 
   **[Forme complexe](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1)**
 </div>
 -->
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/transmutation/transmutation-preview.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[Transmutation](./exercices_ae/transmutation/transmutation.md){.stretched-link .back}**
-</div>
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/gaia/gaia-preview.png)
