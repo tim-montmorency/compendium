@@ -3,7 +3,6 @@
 ## Les 12 principes d'animation
 [Révision 12 principes](./cours02.md#les-12-principes-de-lanimation)
 
-
 ### Solides
 
 Les solides sont de simples fonds de couleur. 
@@ -205,11 +204,6 @@ Gère la **position**, la **rotation** et la **mise à l’échelle**. Par exemp
 ![](./assets/images/ae-puppet-recouvrement.png){ data-zoom-image }
 
 Définit l’ordre des couches dans l’animation, par exemple pour s’assurer qu’un bras passe devant ou derrière un corps.
-
-<!--
-## QUIZ FIN COURS 3 OU DÉBUT COURS 4 EN RÉVISION DU COURS 3
-[Quiz en classe](https://app.wooclap.com/HRCHUY)
--->
 
 ## Exercices
 
