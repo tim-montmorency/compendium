@@ -25,7 +25,7 @@ Il est possible également de fabriquer toutes sortes de forme avec l'outil **Pl
 
 Le panneau **Caractère** permet de modifier l'apparence du texte (police, taille, interlignage, etc.), tandis que le panneau **Paragraph** gère l'alignement et la disposition des blocs de texte. Ensemble, ils offrent un contrôle précis sur la typographie[^txtlayer].
 
-[^txtlayer]: [Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
+[Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
 
 <div class="grid grid-1-2" markdown>
   ![Panneau Caractère](./assets/images/ae/panneau-caractere.png){ data-zoom-image }
