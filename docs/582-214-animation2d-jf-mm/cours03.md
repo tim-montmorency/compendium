@@ -1,6 +1,4 @@
-# Cours 3 
-
-[STOP]
+# Cours 3
 
 ## Les 12 principes d'animation
 [Révision 12 principes](./cours02.md#les-12-principes-de-lanimation)
@@ -222,9 +220,7 @@ Définit l’ordre des couches dans l’animation, par exemple pour s’assurer 
   **[Transmutation](./exercices_ae/transmutation/transmutation.md){.stretched-link .back}**
 </div>
 
-[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
-    
-[🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  
+[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }        
 
 <!--
 <div class="grid grid-1-2" markdown>
