@@ -78,7 +78,7 @@ On y accède normalement via : Apparence > Personnaliser.
 C’est normal si :
 
 *	votre site utilise WordPress 5.9 ou plus
-*	ET un thème basé sur des blocs (ex. : Twenty Twenty-Three)
+*	Et un thème basé sur des blocs (ex. : Twenty Twenty-Three)
 
 Dans ce cas, le menu Apparence affiche seulement :
 *	Thèmes
@@ -241,39 +241,44 @@ faites toujours une sauvegarde du site.
 Source : https://wpmarmite.com/comment-personnaliser-theme-wordpress/
 
 
-Comment installer son thème WordPress
+## Comment installer son thème WordPress
 
-Qu’est-ce qu’un bon thème WordPress ?
+### Qu’est-ce qu’un bon thème WordPress ?
 Un thème WordPress sert à gérer le design et la mise en page de votre site.
 Changer de thème change donc l’apparence du site, pas son contenu.
+
 Comme un site est fait pour être visité, le thème doit :
-•	être agréable à regarder
-•	donner envie de naviguer
-•	donner envie de revenir
+
+*	être agréable à regarder
+*	donner envie de naviguer
+*	donner envie de revenir
+*	
 👉 C’est pourquoi il faut bien choisir son thème.
  
-Les caractéristiques d’un bon thème WordPress
+### Les caractéristiques d’un bon thème WordPress
 Un bon thème doit être :
-•	Facile à utiliser
-Pour ne pas perdre de temps ni se compliquer la vie.
-•	Flexible
-Il doit permettre des ajustements et des évolutions.
-•	Mis à jour régulièrement
-Pour rester sécurisé et compatible avec WordPress.
-•	Responsive
-Il doit bien s’afficher sur ordinateur, tablette et téléphone.
-•	Bien codé
-Respecte les standards WordPress et le SEO.
-•	Bien noté
-Les avis utilisateurs donnent souvent un bon indice de qualité.
-•	Léger et rapide
-Un site rapide améliore l’expérience utilisateur.
-•	Compatible avec les plugins populaires
-Comme WooCommerce si vous voulez une boutique en ligne.
-📌 Cette liste n’est pas complète, mais elle couvre l’essentiel.
+
+* Facile à utiliser
+  Pour ne pas perdre de temps ni se compliquer la vie.
+*	Flexible
+  Il doit permettre des ajustements et des évolutions.
+*	Mis à jour régulièrement
+  Pour rester sécurisé et compatible avec WordPress.
+*	Responsive
+  Il doit bien s’afficher sur ordinateur, tablette et téléphone.
+*	Bien codé
+  Respecte les standards WordPress et le SEO.
+*	Bien noté
+  Les avis utilisateurs donnent souvent un bon indice de qualité.
+*	Léger et rapide
+  Un site rapide améliore l’expérience utilisateur.
+*	Compatible avec les plugins populaires
+  Comme WooCommerce si vous voulez une boutique en ligne.
+
  
-Exemples de bons thèmes
+### Exemples de bons thèmes
 Voici quelques thèmes souvent recommandés :
+
 •	Astra
 •	Neve
 •	Kadence
