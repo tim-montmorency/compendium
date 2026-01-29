@@ -8,6 +8,7 @@ Il influence la façon dont le contenu est présenté, sans modifier le contenu 
 
 Autrement dit, le thème est responsable du design global du site : structure des pages, styles graphiques et organisation visuelle.
 Pour définir cette représentation visuelle et graphique, un thème repose généralement sur plusieurs types de fichiers, notamment :
+
 *	Des fichiers de modèles (templates)
   * ex. : index.php pour les thèmes classiques
   * ex. : index.html pour les thèmes basés sur les blocs
@@ -27,6 +28,7 @@ Lors de l’installation de WordPress, le système inclut automatiquement les th
 ### Qu’est-ce qu’un thème natif ?
 
 Un thème natif est un thème :
+
 *	fourni par défaut avec WordPress ;
 *	développé et maintenu par l’équipe WordPress ;
 *	conçu pour démontrer les bonnes pratiques et les fonctionnalités récentes de la plateforme.
@@ -35,12 +37,14 @@ Ces thèmes portent tous un nom commençant par Twenty suivi de l’année de pu
 (ex. : Twenty Twenty-One, Twenty Twenty-Two, Twenty Twenty-Three).
 
 ### Les thèmes natifs servent souvent à :
+
 *	tester les nouvelles fonctionnalités de WordPress ;
 *	comprendre la structure d’un thème bien conçu ;
 *	servir de base d’apprentissage ou de point de départ pour un projet.
 
 ### 7 bonnes raisons de personnaliser un thème WordPress
 Personnaliser un thème WordPress ne se fait pas au hasard. C’est une démarche réfléchie qui permet d’adapter le site à des besoins précis. Voici les principales raisons de le faire.
+
 1.	Avoir un site unique
 1.	Améliorer l’expérience utilisateur
 1.	Rendre le contenu plus lisible et accessible
@@ -51,16 +55,18 @@ Personnaliser un thème WordPress ne se fait pas au hasard. C’est une démarch
 
 ### Avant de personnaliser un thème WordPress : sauvegardez votre site
 Avant de modifier un thème WordPress, faites toujours une sauvegarde.
-Personnaliser un thème peut toucher :
+#### Personnaliser un thème peut toucher :
+
 *	les fichiers du site
 *	la base de données
 
 En cas d’erreur (bug, problème d’affichage, erreur de code), la sauvegarde permet de remettre le site comme avant.
 Idéalement, sauvegardez :
+
 *	les fichiers
 *	la base de données
 
-Comment sauvegarder ?
+#### Comment sauvegarder ?
 *	Avec une extension de sauvegarde 
 *	Avec un outil de gestion de site qui propose la restauration en un clic
 
@@ -70,6 +76,7 @@ On y accède normalement via : Apparence > Personnaliser.
 👉 Mais attention : il n’est pas toujours disponible.
 #### Pourquoi vous ne le voyez peut-être pas ?
 C’est normal si :
+
 *	votre site utilise WordPress 5.9 ou plus
 *	ET un thème basé sur des blocs (ex. : Twenty Twenty-Three)
 
@@ -83,6 +90,7 @@ Il est remplacé par l’Éditeur de site, qui permet de modifier tout le site a
 
 ### Quand le Customizer est-il disponible ?
 Vous aurez accès à l’Outil de personnalisation si :
+
 *	vous utilisez un thème classique (ex. : Astra)
 *	même avec une version récente de WordPress
 #### Exemple
@@ -97,6 +105,7 @@ Certains thèmes offrent beaucoup d’options (ex. : Astra), d’autres très pe
 
 #### Ce que permet généralement le Customizer
 Avec le Customizer, vous pouvez souvent :
+
 *	changer les polices et les couleurs
 *	ajouter un logo et une icône de site
 *	modifier l’apparence du blog
@@ -108,6 +117,7 @@ Avec le Customizer, vous pouvez souvent :
 ### Méthode 2 : l’Éditeur de site WordPress
 L’Éditeur de site permet de modifier tout le site (header, footer, pages, modèles) avec des blocs.
 Pour pouvoir l’utiliser, il faut :
+
 *	WordPress 5.9 ou plus
 *	un thème basé sur des blocs
 
@@ -118,6 +128,7 @@ Pour pouvoir l’utiliser, il faut :
 1.	Installez et activez le thème
 
 Ce qui change après l’activation
+
 *	Le menu Apparence est plus simple
 *	Le menu Personnaliser disparaît
 *	Un nouveau menu apparaît : Éditeur
@@ -128,6 +139,7 @@ Pour modifier le thème
 ### Quelles options sont disponibles ?
 Avec l’Éditeur de site, vous pouvez modifier tout le site avec des blocs.
 Vous pouvez :
+
 *	modifier le menu de navigation
 *	changer les couleurs et styles globaux du site
 *	modifier toutes les pages
@@ -164,8 +176,10 @@ Il peut être tentant de l’utiliser… mais il ne faut pas le faire.
 ### Conclusion :
 N’utilisez jamais l’éditeur de fichiers du thème.
 !!! info "À noter" 
-  •	Avec un thème classique, l’éditeur est accessible via Apparence > Éditeur de fichiers
-  •	Avec un thème basé sur des blocs, cet éditeur n’est souvent plus visible (et c’est une bonne chose)
+
+    •	Avec un thème classique, l’éditeur est accessible via Apparence > Éditeur de fichiers
+    •	Avec un thème basé sur des blocs, cet éditeur n’est souvent plus visible (et c’est une bonne chose)
+
 
 ### Méthode n°5 : personnaliser avec du code (la bonne façon)
 
@@ -173,6 +187,7 @@ N’utilisez jamais l’éditeur de fichiers du thème.
 Si vous devez modifier le code d’un thème, la bonne méthode est d’utiliser un thème enfant.
 
 *Un thème enfant :*
+
 *	reprend le design et les fonctions du thème parent
 *	permet de faire des modifications sans les perdre lors des mises à jour
 
@@ -180,21 +195,26 @@ Si vous devez modifier le code d’un thème, la bonne méthode est d’utiliser
 •	site plus sécurisé
 •	modifications conservées
 •	bonne pratique professionnelle
+
 !!! Warning "Attention"
-  •	il faut un minimum de connaissances en code
-  •	ce n’est pas obligatoire si vous débutez
+  
+    •	il faut un minimum de connaissances en code
+    •	ce n’est pas obligatoire si vous débutez
 
 !!! tip "Bonne nouvelle"
-  Avec un thème basé sur des blocs, vous pouvez souvent tout personnaliser sans coder, directement avec l’Éditeur de site.
+  
+    Avec un thème basé sur des blocs, vous pouvez souvent tout personnaliser sans coder, directement avec l’Éditeur de site.
 
 ###  Que modifie-t-on dans un thème enfant ?
 Généralement :
+
 *	style.css
 *	functions.php
 *	parfois d’autres fichiers (index.php, modèles, etc.)
 
 ### Le cas des thèmes sur mesure
 Pour un thème créé sur mesure :
+
 *	pas forcément besoin de thème enfant
 *	les mises à jour sont gérées par le développeur
 *	le code peut être modifié directement
@@ -203,11 +223,13 @@ Pour un thème créé sur mesure :
 Vous savez maintenant comment personnaliser un thème WordPress.
 
 ### Modifier un thème permet :
+
 *	de rafraîchir le design
 *	d’améliorer la lisibilité et l’expérience utilisateur
 *	de se démarquer des autres sites
 
 Pour personnaliser un thème, il existe plusieurs méthodes :
+
 *	l’Outil de personnalisation
 *	l’Éditeur de site
 *	un constructeur de pages
