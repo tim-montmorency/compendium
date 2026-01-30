@@ -33,21 +33,29 @@ Résultat attendu:
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton (UI > Button).
-- [ ] Créez un texte (UI > Text - TextMeshPro)  qui affiche le chiffre 0.
-- [ ] Créez un objet vide nommé `Compteur`. 
+- [ ] Créez une image (UI > Image) avec l'opacité à 0.5f. 
+- [ ] Créez un objet vide nommé `Controle`. 
 - [ ] Créez un script sur ce nouvel objet. 
-- [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente de 1 la valeur du chiffre qui est affiché sur votre écran. 
+- [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente à 1 l'opacité de votre image et que le clic suivant la réduise à 0.5f. En résumé, vous devez alterner la valeur de l'opacité entre 1 et 0.5f. 
 
+      
 ``` c#
-using TMPro;
+using UnityEngine.UI; 
 ```
 
 ``` c#
-public TextMeshProUGUI pointage;
+public Image nomImage;
+public bool myBool;
 ```
 
 ``` c#
-nombre.ToString();
+nomImage.color = new Color(nomImage.color.r, nomImage.color.g, nomImage.color.b, 1f);
+```
+
+``` c#
+if(myBool == true){
+
+}
 ```
 
 ## Démonstration
