@@ -19,7 +19,7 @@ Debug.Log(message);
 ```
 
 ## Exercice 1
-Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main comme un schéma. 
+
 
 - [ ] Créez un nouveau script sur un GameObject vide.
 - [ ] Créez une variable qui change grâce à `Time.time`.
@@ -30,6 +30,7 @@ Résultat attendu:
 ![Image](../images/resultat_debug.jpg)
 
 ## Exercice 2
+Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main comme un schéma. 
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton (UI > Button).
