@@ -1,3 +1,5 @@
+![](./assets/images/theme.png){data-zoom-image}
+
 ## Qu’est-ce qu’un thème WordPress ?
 Un thème WordPress est un ensemble de fichiers qui détermine :
 * L’apparence visuelle 
