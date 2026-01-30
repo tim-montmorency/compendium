@@ -119,6 +119,6 @@ Quelles conclusions pouvez-vous faire?
 #### Avancer le travail 1
 [💼 Travail 1 - Étapes 5 à 10](./travaux/travail1.md){ .md-button }   
 
-!! info "Étape 10"
+!!! info "Important"
 
     Pour l'étape 10, vous pouvez seulement créer le schéma de programmation. La programmation pourra être faite en classe au cours suivant. 
