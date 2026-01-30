@@ -112,5 +112,13 @@ Quelles conclusions pouvez-vous faire?
 
 
 ## Devoir 
+
+#### Terminer les exercices de programmation
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 8 à 10](./travaux/travail1.md){ .md-button }   
+[💼 Travail 1 - Étapes 5 à 10](./travaux/travail1.md){ .md-button }   
+
+!! info "Étape 10"
+
+    Pour l'étape 10, vous pouvez seulement créer le schéma de programmation. La programmation pourra être faite en classe au cours suivant. 
