@@ -347,139 +347,175 @@ La manière la plus simple d’installer un thème est directement depuis votre 
 Pour un thème premium (payant), vous aurez un fichier .zip. Il faut le téléverser dans WordPress.
 Exemple : installer le thème BeTheme acheté sur Themeforest.
 
-#### Étape 1
+
 Dans votre tableau de bord WordPress, allez dans :
 
 1. Apparence > Thèmes
- 
+![](./assets/images/installer-theme-wordpress-2048x1001.webp){data-zoom-image}
 
 2. Cliquez sur le bouton « Ajouter ». 
+![](./assets/images/ajout-theme-wordpress-2048x1143.webp){data-zoom-image}
 
-3. Cliquez sur le bouton « Téléverser un thème ». 
+4. Cliquez sur le bouton « Téléverser un thème ». 
+![](./assets/images/installer-theme-wordpress-televerser-2048x1182.webp){data-zoom-image}
 
-5.	Cliquez sur le bouton « Parcourir » pour télécharger le fichier zip de votre thème. 
+6.	Cliquez sur le bouton « Parcourir » pour télécharger le fichier zip de votre thème. 
+![](./assets/images/iinstaller-theme-premium-2048x609.webp){data-zoom-image}
 
-6.	Activer le thème
+7.	Activer le thème
 
 
-Méthode 2 : Installer un thème depuis le répertoire officiel
+### Méthode 2 : Installer un thème depuis le répertoire officiel
 Vous pouvez aussi ajouter un thème gratuit directement depuis WordPress, sans quitter votre tableau de bord.
 La procédure est très proche de celle pour installer un fichier ZIP. Voici comment faire, par exemple pour le thème Astra :
-Étape 1
+
+1.
 Connectez-vous à WordPress et allez dans :
-Apparence > Thèmes 
+
+1. Apparence > Thèmes 
+![](./assets/images/installer-theme-wordpress-2048x1001.webp){data-zoom-image}
+
 
 2. Cliquez sur le bouton « Ajouter ».
- 
-Étape 3
+![](./assets/images/ajout-theme-wordpress-2048x1143.webp){data-zoom-image}
+
+3.
 Choisissez le thème que vous voulez.
 WordPress montre par défaut les thèmes les plus populaires.
+
 Vous pouvez aussi naviguer dans les onglets pour trouver votre thème :
-•	Populaires
-•	Derniers
-•	Thèmes basés sur des blocs
-•	Favoris
- 
 
-•	soit, chercher par catégorie grâce au filtre de fonctionnalités proposé par WordPress ;
- 
+*	Populaires
+*	Derniers
+*	Thèmes basés sur des blocs
+*	Favoris
+![](./assets/images/onglets-categories-themes-wordpress-2048x816.webp){data-zoom-image}
 
-•	soit, utiliser la barre de recherche pour retrouver le thème de votre choix, ce qui implique que vous l’ayez déjà choisi.
- 
+*	soit, chercher par catégorie grâce au filtre de fonctionnalités proposé par WordPress ;
+![](./assets/images/filtre-fonctionnalites-themes-wordpress-2048x1549.webp){data-zoom-image}
+
+*	soit, utiliser la barre de recherche pour retrouver le thème de votre choix, ce qui implique que vous l’ayez déjà choisi.
+![](./assets/images/barre-recherche-themes-wordpress-2048x813.webp){data-zoom-image} 
 
 4. Installez le thème.
 Une fois votre sélection opérée, cliquez sur le bouton « Installer » : 
+![](./assets/images/installation-theme-wordpress-2048x1373.webp){data-zoom-image} 
 
 5. Activer le thème
- 
+![](./assets/images/activation-astra-2048x1007.webp){data-zoom-image}  
 
 Source : https://wpmarmite.com/installer-theme-wordpress/#
 
-Qu’est-ce qu’un plugin WordPress ?
+## Qu’est-ce qu’un plugin WordPress ?
 Un plugin (ou extension) sert à ajouter de nouvelles fonctionnalités à WordPress.
 Par exemple, il peut gérer le SEO, le e-commerce, la sécurité, le marketing, etc.
+
 Il existe des milliers de plugins gratuits sur le répertoire officiel WordPress, et beaucoup d’autres payants sur des sites spécialisés.
 Le Cœur (Core) de WordPress contient tous les fichiers de base nécessaires pour que WordPress fonctionne.
 
 Un plugin complète le Cœur pour que votre site fasse exactement ce dont vous avez besoin.
 
-Comment choisir un plugin WordPress ?
+### Comment choisir un plugin WordPress ?
 Avant d’installer un plugin, posez-vous ces questions :
-•	À quoi il sert ? Quelle fonctionnalité vous faut-il ?
-•	Peut-il vraiment faire ce que vous voulez ?
-•	Comprenez-vous ce qu’il fait ?
-•	Pouvez-vous le configurer sans casser votre site ?
+
+*	À quoi il sert ? Quelle fonctionnalité vous faut-il ?
+*	Peut-il vraiment faire ce que vous voulez ?
+*	Comprenez-vous ce qu’il fait ?
+*	Pouvez-vous le configurer sans casser votre site ?
+  
 Certains plugins mal utilisés peuvent poser des problèmes, alors soyez prudent.
+
 Regardez aussi ces points avant d’installer :
-•	Étoiles / notes : choisissez un plugin bien noté (idéalement ≥ 4 étoiles).
-•	Avis des utilisateurs : lisez ce que les autres disent.
-•	Installations actives : plus il y en a, plus c’est un bon signe (mais ce n’est pas toujours vrai).
-•	Mises à jour récentes : vérifiez que le plugin est compatible avec votre version de WordPress. 
 
-Où trouver des plugins WordPress ?
+*	Étoiles / notes : choisissez un plugin bien noté (idéalement ≥ 4 étoiles).
+*	Avis des utilisateurs : lisez ce que les autres disent.
+*	Installations actives : plus il y en a, plus c’est un bon signe (mais ce n’est pas toujours vrai).
+*	Mises à jour récentes : vérifiez que le plugin est compatible avec votre version de WordPress. 
+![](./assets/images/infos-plugin-wordpress.png){data-zoom-image}  
+
+
+## Où trouver des plugins WordPress ?
 Le répertoire officiel de WordPress est le meilleur endroit pour chercher des plugins. Il y en a des milliers, et tous sont vérifiés pour respecter les règles de WordPress.
+
 Pour chercher un plugin, vous pouvez :
-•	Par catégories : blocs, populaires, mises en avant, bêta…
-•	Avec la barre de recherche : tapez le nom du plugin ou un mot-clé (ex : SEO, formulaire, sécurité).
-•	Avec les filtres :
-o	Communautaire : gratuit et développé par la communauté
-o	Commercial : gratuit avec options payantes ou support en plus
- 
 
-Comment installer un plugin WordPress gratuit
+*	Par catégories : blocs, populaires, mises en avant, bêta…
+*	Avec la barre de recherche : tapez le nom du plugin ou un mot-clé (ex : SEO, formulaire, sécurité).
+*	Avec les filtres :
+ *	Communautaire : gratuit et développé par la communauté
+ *	Commercial : gratuit avec options payantes ou support en plus
+ ![](./assets/images/extensions-repertoire-officiel-2048x1619.webp){data-zoom-image}  
+
+## Comment installer un plugin WordPress gratuit
 Pour installer un plugin gratuit depuis le répertoire officiel :
-1.	Dans votre tableau de bord WordPress, allez dans Extensions > Ajouter.
-2.	Si vous ne voyez pas ce menu, vous utilisez peut-être WordPress.com au lieu de WordPress.org (auto-hébergé).
-3.	Dans la barre de recherche, tapez le nom du plugin ou un mot-clé (ex : SEO, formulaire, sécurité).
-4.	Cliquez sur Installer puis Activer.
-Et voilà, votre plugin est prêt à être utilisé. 
 
-Installer un plugin WordPress acheté ou téléchargé
+1.	Dans votre tableau de bord WordPress, allez dans Extensions > Ajouter.
+1.	Si vous ne voyez pas ce menu, vous utilisez peut-être WordPress.com au lieu de WordPress.org (auto-hébergé).
+1.	Dans la barre de recherche, tapez le nom du plugin ou un mot-clé (ex : SEO, formulaire, sécurité).
+1.	Cliquez sur Installer puis Activer.
+2.	
+Et voilà, votre plugin est prêt à être utilisé. 
+![](./assets/images/installer-plugin-wordpress-admin-2048x1069.webp){data-zoom-image}  
+
+
+## Installer un plugin WordPress acheté ou téléchargé
 Si vous avez un plugin premium ou téléchargé ailleurs (fichier .zip) :
+
 1.	Dans WordPress, allez dans Extensions > Ajouter.
-2.	Cliquez sur Téléverser une extension.
-3.	Choisissez le fichier .zip de votre plugin.
-4.	Cliquez sur Installer puis Activer.
+1.	Cliquez sur Téléverser une extension.
+1.	Choisissez le fichier .zip de votre plugin.
+1.	Cliquez sur Installer puis Activer.
+2.	
 Votre plugin est maintenant prêt à l’emploi.
- 
+![](./assets/images/televerser-extension-wordpress-2048x1080.webp){data-zoom-image}  
+
 
 Sélectionnez ensuite le fichier .zip de votre plugin sur votre ordinateur, et cliquez sur le bouton « Installer maintenant » :
+![](./assets/images/installation-plugin-wordpress-redirection.webp){data-zoom-image}  
  
 
 Une fois le plugin installé, cliquez également sur « Activer l’extension » pour la mettre en service :
- 
+![](./assets/images/activer-extension-zip.webp){data-zoom-image}  
 
-All-in-One WP Migration and Backup
+## All-in-One WP Migration and Backup
 Ce plugin facilite la migration, la sauvegarde et la restauration d’un site WordPress.
 Il permet de copier tout le site (base de données, images, plugins, thèmes) dans un seul fichier à exporter et réutiliser facilement.
 
 All-in-One WP Migration and Backup – Mode d’emploi simple
 1. Installer le plugin
-•	Allez dans Extensions > Ajouter sur votre tableau de bord WordPress.
-•	Cherchez All-in-One WP Migration.
-•	Cliquez sur Installer, puis Activer.
+*	Allez dans Extensions > Ajouter sur votre tableau de bord WordPress.
+*	Cherchez All-in-One WP Migration.
+*	Cliquez sur Installer, puis Activer.
 2. Faire une sauvegarde de votre site
-•	Dans le menu WordPress, cliquez sur All-in-One WP Migration > Exporter. 
-•	Choisissez Exporter vers et sélectionnez Fichier (ou un autre service si disponible, comme Google Drive). 
-•	Le plugin va créer un fichier .wpress contenant :
-o	votre base de données
-o	vos fichiers médias
-o	vos plugins
-o	votre thème
-•	Téléchargez ce fichier sur votre ordinateur. 
+*	Dans le menu WordPress, cliquez sur All-in-One WP Migration > Exporter.
+![](./assets/images/all-in-one-wp-wordpress-migration-export.png){data-zoom-image}  
+*	Choisissez Exporter vers et sélectionnez Fichier (ou un autre service si disponible, comme Google Drive).
+![](./assets/images/all-in-one-wp-wordpress-migration-file.png){data-zoom-image}  
+*	Le plugin va créer un fichier .wpress contenant :
+ *	votre base de données
+ *	vos fichiers médias
+ *	vos plugins
+ *	votre thème
+•	Téléchargez ce fichier sur votre ordinateur.
+![](./assets/images/all-in-one-wp-wordpress-migration-download.png){data-zoom-image}  
 3. Restaurer votre site
-•	Dans WordPress, allez sur All-in-One WP Migration > Importer. 
-•	Cliquez sur Importer depuis et sélectionnez le fichier .wpress que vous avez sauvegardé. 
-•	Suivez les instructions à l’écran pour restaurer votre site.
+*	Dans WordPress, allez sur All-in-One WP Migration > Importer.
+![](./assets/images/all-in-one-wp-wordpress-migration-import.png){data-zoom-image}  
+*	Cliquez sur Importer depuis et sélectionnez le fichier .wpress que vous avez sauvegardé.
+![](./assets/images/all-in-one-wp-wordpress-migration-import-file.png){data-zoom-image}  
+*	Suivez les instructions à l’écran pour restaurer votre site.
 4. Points importants
-•	Sauvegardez avant toute modification de votre site.
-•	La version gratuite a des limites pour la taille des fichiers.
-•	Pour des sauvegardes sur le cloud ou des fonctionnalités avancées, il faudra acheter la version premium.
+*	Sauvegardez avant toute modification de votre site.
+*	La version gratuite a des limites pour la taille des fichiers.
+*	Pour des sauvegardes sur le cloud ou des fonctionnalités avancées, il faudra acheter la version premium.
 
-Exportation / Importation d’une base de données
-Exportation :
- 
+## Exportation / Importation d’une base de données
+### Exportation :
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
 
-Importation :  
-  
+### Importation :  
+![](./assets/images/creation-base-de-donnees.png){data-zoom-image}
+![](./assets/images/importation-bas-de-donnees.png){data-zoom-image}   
+![](./assets/images/bouton-importer-base-de-donnees.png){data-zoom-image}   
+
 <img width="432" height="649" alt="image" src="https://github.com/user-attachments/assets/956d24a6-2ac7-44f3-91c6-552d05a125d4" />
