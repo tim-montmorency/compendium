@@ -59,23 +59,6 @@ if(myBool == true){
 }
 ```
 
-## Démonstration
-On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: 
-
-```c#
-// dans la classe, mais hors la méthode
-public int temps;
-private float compteur; 
-
-// dans la méthode Update()
-compteur += Time.deltaTime;
-
-if (compteur > 1)
-{
-  temps++; 
-  compteur = 0; 
-}
-```
 
 ## Exercice 3
 Au tableau, créez un schéma de programmation pour l'exercice 4. Écrivez ensuite votre code à la main. 
@@ -89,10 +72,6 @@ Pour activer ou désactiver un objet:
 ``` c#
 gameObject.SetActive(false);
 ```
-
-## Démonstration
-
-Comment transformer la vérification en méthode avec une valeur de retour. 
 
 ## Exercice 5
 
