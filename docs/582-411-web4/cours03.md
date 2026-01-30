@@ -279,63 +279,78 @@ Un bon thème doit être :
 ### Exemples de bons thèmes
 Voici quelques thèmes souvent recommandés :
 
-•	Astra
-•	Neve
-•	Kadence
-•	Blocksy
-•	GeneratePress
-⚠️ Attention :
-Même s’ils sont de qualité, le meilleur thème reste celui qui correspond à vos besoins.
-👉 Le bon choix dépend toujours de votre projet (site vitrine, blogue, boutique, etc.).
+*	Astra
+*	Neve
+*	Kadence
+*	Blocksy
+*	GeneratePress
+!!! warning "⚠️ Attention"
 
-5 choses à faire avant de changer de thème WordPress
+        Même s’ils sont de qualité, le meilleur thème reste celui qui correspond à vos besoins.
+        👉 Le bon choix dépend toujours de votre projet (site vitrine, blogue, boutique, etc.).
+
+## 5 choses à faire avant de changer de thème WordPress
 👉 Cette section concerne uniquement les sites déjà en ligne.
+
 Si vous débutez avec WordPress, vous pouvez passer.
 Changer de thème peut avoir des impacts visibles. Il vaut mieux se préparer.
  
-1️⃣ Faire une sauvegarde (indispensable)
+### 1️⃣ Faire une sauvegarde (indispensable)
 Avant toute chose, sauvegardez votre site.
-•	sauvegarde des fichiers
-•	sauvegarde de la base de données
+
+*	sauvegarde des fichiers
+*	sauvegarde de la base de données
+  
 En cas de problème, vous pourrez tout restaurer.
  
-2️⃣ Mettre une page de maintenance
+### 2️⃣ Mettre une page de maintenance
 Pendant le changement de thème :
-•	le site peut être mal affiché
-•	certaines pages peuvent boguer
+
+*	le site peut être mal affiché
+*	certaines pages peuvent boguer
+
 👉 Une page de maintenance informe les visiteurs que le site revient bientôt.
  
-3️⃣ Vérifier ce que faisait l’ancien thème
+### 3️⃣ Vérifier ce que faisait l’ancien thème
 Certains thèmes ajoutent des fonctions :
-•	SEO
-•	shortcodes
-•	mise en page spéciale
+
+*	SEO
+*	shortcodes
+*	mise en page spéciale
+
 ⚠️ Ces fonctions peuvent disparaître avec le nouveau thème.
  
-4️⃣ Copier le code ajouté dans functions.php
+### 4️⃣ Copier le code ajouté dans functions.php
 Si vous avez ajouté du code dans l’ancien thème :
-•	options
-•	fonctionnalités
-•	ajustements
+
+*	options
+*	fonctionnalités
+*	ajustements
+  
 👉 Pensez à recopier ce code dans le functions.php du nouveau thème (ou du thème enfant).
  
-5️⃣ Ne pas oublier le code de suivi
+### 5️⃣ Ne pas oublier le code de suivi
 Si vous utilisez :
-•	Google Analytics
-•	Jetpack Site Stats 
-•	MonsterInsights 
+
+*	Google Analytics
+*	Jetpack Site Stats 
+*	MonsterInsights 
+
 ⚠️ Le suivi peut s’arrêter si le code était dans le thème.
  
 
 
-Comment installer un thème WordPress depuis l’administration
+## Comment installer un thème WordPress depuis l’administration
 La manière la plus simple d’installer un thème est directement depuis votre tableau de bord WordPress. Suivez ces étapes :
-Méthode 1 : Installer un thème via un fichier ZIP
+
+### Méthode 1 : Installer un thème via un fichier ZIP
 Pour un thème premium (payant), vous aurez un fichier .zip. Il faut le téléverser dans WordPress.
 Exemple : installer le thème BeTheme acheté sur Themeforest.
-Étape 1
+
+#### Étape 1
 Dans votre tableau de bord WordPress, allez dans :
-Apparence > Thèmes
+
+1. Apparence > Thèmes
  
 
 2. Cliquez sur le bouton « Ajouter ». 
