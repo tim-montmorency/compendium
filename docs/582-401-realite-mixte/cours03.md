@@ -61,7 +61,6 @@ Quelles conclusions pouvez-vous faire?
 
 ## Bloc 3
 #### Code
-- [:pencil: Configuration de Visual studio Community](./installation/telechargement.md)
 - [:pencil: Événements](./code/evenements.md)        
 
 
