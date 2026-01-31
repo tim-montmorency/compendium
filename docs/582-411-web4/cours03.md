@@ -520,7 +520,7 @@ All-in-One WP Migration and Backup – Mode d’emploi simple
 ![](./assets/images/importation-bas-de-donnees.png){data-zoom-image}   
 ![](./assets/images/bouton-importer-base-de-donnees.png){data-zoom-image}   
 
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+![](./assets/images/polylang.png){data-zoom-image}   
 
 ## Qu’est-ce que Polylang ?
 
@@ -534,25 +534,25 @@ Vous pouvez ajouter autant de langues que vous voulez et faire les traductions m
 Après avoir installé et activé Polylang Pro, un assistant de configuration se lance automatiquement. Il se fait en 6 étapes simples.
 
 ### Étape 1 : Choisir les langues du site
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+![](./assets/images/polylang-langue.png){data-zoom-image}   
 
 Choisissez au moins une langue pour votre site (ex. français, anglais).
 👉 La première langue choisie devient la langue par défaut du site.
 
 ### Étape 2 : Traduire les médias (optionnel)
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+![](./assets/images/polyland-medias.png){data-zoom-image}   
 
 * Polylang vous demande si vous voulez traduire les textes des images
 (titre, description, texte alternatif).
 * ➡️ Activez ou désactivez selon vos besoins.
 
 ### Étape 3 : Définir la langue des contenus existants
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+![](./assets/images/polyland-contenu.png){data-zoom-image}   
 
 Tous vos contenus actuels (pages, articles) reçoivent une langue par défaut.
 
 ### Étape 4 : Traduire la page d’accueil (si applicable)
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+![](./assets/images/polyland-fin.png){data-zoom-image}   
 
 Si vous avez une page d’accueil fixe, Polylang vous propose de la traduire.
 
