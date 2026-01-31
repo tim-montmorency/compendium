@@ -528,7 +528,9 @@ Le fichier se trouve ici :
 !!! info "PC"
 
     C:\MAMP\bin\php\phpX.X.X\conf\php.ini
+    
     ou
+
     C:\MAMP\conf\php\phpX.X.X\conf\php.ini
 
 !!! info "Mac"
