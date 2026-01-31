@@ -724,3 +724,72 @@ Vous pouvez choisir :
 * masquer la langue actuelle
 
 ![](./assets/images/menu-langue-etrangere-tim.gif){data-zoom-image}
+
+Source : https://wpmarmite.com/polylang/#
+
+## ACF (Advanced Custom Fields)
+
+### Qu’est-ce que le plugin Advanced Custom Fields (ACF) ? 
+
+ACF est un plugin WordPress qui permet d’ajouter des champs personnalisés à vos pages, articles ou autres contenus.
+Concrètement, il sert à ajouter des infos en plus, facilement et proprement (texte, image, nombre, date, etc.).
+
+👉 Exemple :
+
+* une note,
+* un avis client,
+* une image spécifique,
+* des infos produit,
+* des détails d’événement.
+
+#### À quoi sert ACF ?
+
+ACF permet de :
+
+* mieux organiser les données dans WordPress
+* faciliter la saisie de contenu
+* afficher des infos personnalisées sur le site
+* créer des sites plus clairs et professionnels
+
+#### Ce que vous pouvez faire avec ACF
+
+* Ajouter plus de 30 types de champs (texte, image, nombre, date, choix, etc.)
+* Créer des listes répétées (ex. : témoignages)
+* Créer des galeries d’images
+* Choisir où les champs apparaissent (page précise, article, catégorie, etc.)
+* Créer des types de contenus personnalisés (portfolio, recettes, projets…)
+* Créer des pages d’options (logo, couleurs, réseaux sociaux)
+* Créer des blocs Gutenberg personnalisés
+
+### Installer ACF
+
+1. Allez dans Extensions
+1. Recherchez Advanced Custom Fields
+1. Cliquez sur Installer, puis Activer
+
+### Créer des champs avec ACF
+
+1. Allez dans ACF > Ajouter
+1. Donnez un nom au groupe de champs
+1. Ajoutez un champ (ex. : texte, nombre, image)
+1. Définissez où il apparaît (page, article, type de contenu)
+1. Enregistrez
+
+![](./assets/images/ACF-tim.webp){data-zoom-image}
+
+### Où afficher les champs ACF ?
+
+Les champs peuvent apparaître :
+
+* sur une page précise
+* sur un article
+* sur un type de contenu personnalisé (ex. produits, portfolio)
+* Afficher les champs sur le site
+
+![](./assets/images/acf2-tim.webp){data-zoom-image}
+
+Deux solutions :
+
+* Simple : utiliser un plugin ou un shortcode (ex. ACF Views)
+
+* Avancée : utiliser un peu de code PHP (pour développeurs)
