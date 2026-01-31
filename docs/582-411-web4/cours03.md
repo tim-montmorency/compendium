@@ -2,6 +2,7 @@
 
 ## Qu’est-ce qu’un thème WordPress ?
 Un thème WordPress est un ensemble de fichiers qui détermine :
+
 * L’apparence visuelle 
 * La mise en forme d’un site web
 
@@ -85,6 +86,7 @@ C’est normal si :
 *	Et un thème basé sur des blocs (ex. : Twenty Twenty-Three)
 
 Dans ce cas, le menu Apparence affiche seulement :
+
 *	Thèmes
 *	Éditeur
   
@@ -151,7 +153,7 @@ Vous pouvez :
 *	modifier ou créer des modèles (page d’accueil, articles, archives, page 404, etc.)
 *	créer et gérer des compositions (patterns)
 
-Comment ça fonctionne ?
+#### Comment ça fonctionne ?
 *	Tout se fait directement à l’écran
 *	Les changements sont visibles en temps réel
 *	Vous cliquez sur un élément (texte, image, bouton) pour le modifier
@@ -161,7 +163,7 @@ Comment ça fonctionne ?
 *	Cliquez sur une image → remplacez-la
 *	Ajoutez un bloc → il s’intègre tout de suite
 
-Ajouter et modifier des blocs
+#### Ajouter et modifier des blocs
 *	Cliquez sur + pour ajouter un bloc
 *	Sélectionnez un bloc
 *	Modifiez ses options dans le panneau Réglages
@@ -291,10 +293,11 @@ Voici quelques thèmes souvent recommandés :
 *	Kadence
 *	Blocksy
 *	GeneratePress
+
 !!! warning "⚠️ Attention"
 
-        Même s’ils sont de qualité, le meilleur thème reste celui qui correspond à vos besoins.
-        👉 Le bon choix dépend toujours de votre projet (site vitrine, blogue, boutique, etc.).
+    Même s’ils sont de qualité, le meilleur thème reste celui qui correspond à vos besoins.
+    👉 Le bon choix dépend toujours de votre projet (site vitrine, blogue, boutique, etc.).
 
 #### 5 choses à faire avant de changer de thème WordPress
 👉 Cette section concerne uniquement les sites déjà en ligne.
