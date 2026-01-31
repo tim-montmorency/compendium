@@ -520,4 +520,51 @@ All-in-One WP Migration and Backup – Mode d’emploi simple
 ![](./assets/images/importation-bas-de-donnees.png){data-zoom-image}   
 ![](./assets/images/bouton-importer-base-de-donnees.png){data-zoom-image}   
 
-<img width="432" height="649" alt="image" src="https://github.com/user-attachments/assets/956d24a6-2ac7-44f3-91c6-552d05a125d4" />
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+
+## Qu’est-ce que Polylang ?
+
+Polylang est un plugin WordPress qui permet de créer un site en une ou plusieurs langues.
+Il permet de traduire le contenu du site (pages, articles, menus, catégories, etc.).
+
+Vous pouvez ajouter autant de langues que vous voulez et faire les traductions manuellement ou avec un outil de gestion des traductions.
+
+## Comment installer Polylang sur WordPress (ultra simple)
+
+Après avoir installé et activé Polylang Pro, un assistant de configuration se lance automatiquement. Il se fait en 6 étapes simples.
+
+### Étape 1 : Choisir les langues du site
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+
+Choisissez au moins une langue pour votre site (ex. français, anglais).
+👉 La première langue choisie devient la langue par défaut du site.
+
+### Étape 2 : Traduire les médias (optionnel)
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+
+* Polylang vous demande si vous voulez traduire les textes des images
+(titre, description, texte alternatif).
+* ➡️ Activez ou désactivez selon vos besoins.
+
+### Étape 3 : Définir la langue des contenus existants
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+
+Tous vos contenus actuels (pages, articles) reçoivent une langue par défaut.
+
+### Étape 4 : Traduire la page d’accueil (si applicable)
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+
+Si vous avez une page d’accueil fixe, Polylang vous propose de la traduire.
+
+### Étape 5 : Configuration terminée 🎉
+![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+
+Polylang est prêt à être utilisé.
+Vous pouvez maintenant :
+
+* traduire vos pages et articles
+* créer des menus multilingues
+* consulter la documentation
+* ou retourner au tableau de bord
+
+👉 Votre site est maintenant prêt pour le multilingue.
