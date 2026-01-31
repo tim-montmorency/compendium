@@ -658,3 +658,30 @@ Options possibles pour les URLs :
 * avec domaine différent : monsite.fr / monsite.com
 
 ![](./assets/images/repertoire-langue-polylang-tim.webp){data-zoom-image}
+
+### Comment traduire un contenu dans une autre langue ? 
+Pour traduire un article WordPress avec Polylang :
+
+Allez dans Articles > Tous les articles
+
+Vous voyez la liste de vos articles, chacun avec des icônes de langue
+
+#### Signification des icônes
+
+* 🏳️ Drapeau : l’article existe dans cette langue → cliquez pour l’ouvrir
+* ✏️ Crayon : la traduction existe déjà → cliquez pour la modifier
+* ➕ Plus : la traduction n’existe pas encore → cliquez pour en créer une
+
+#### Ajouter une traduction
+
+1. Cliquez sur le + de la langue voulue
+1. WordPress ouvre un nouvel article
+1. Traduisez le contenu
+1. Enregistrez
+
+👉 C’est pareil pour :
+
+* les pages
+* les catégories
+* les étiquettes
+* les types de contenus personnalisés
