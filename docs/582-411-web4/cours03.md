@@ -568,3 +568,71 @@ Vous pouvez maintenant :
 * ou retourner au tableau de bord
 
 👉 Votre site est maintenant prêt pour le multilingue.
+
+## Les réglages de Polylang (ultra simple)
+
+### Polylang a 4 menus principaux :
+
+* Langues
+* Traduction des chaînes
+* Réglages
+* Configurer (relance l’assistant)
+* Menu Langues
+
+Ce menu sert à gérer les langues du site.
+
+Vous pouvez :
+
+* ajouter une langue
+* changer son nom
+* choisir le sens d’écriture (gauche → droite ou droite → gauche)
+* changer l’ordre des langues
+* choisir ou remplacer le drapeau
+
+👉 La langue par défaut est marquée par une étoile.
+Vous pouvez la changer en cliquant sur l’étoile.
+
+Vous pouvez aussi :
+
+* désactiver une langue
+* la modifier
+* la supprimer
+* Menu Traduction des chaînes
+
+Ce menu sert à traduire les petits textes du site.
+
+Exemples :
+
+* textes du thème
+* plugins
+* menus
+* widgets
+* formats de date
+
+Ces textes ne sont pas dans les pages ou articles, mais ils sont visibles sur le site.
+Les traduire rend le site plus professionnel.
+
+### Traduire les URLs (slugs)
+
+Dans ce menu, vous pouvez aussi traduire les slugs (fin des URLs).
+
+Exemple :
+
+* /fr/categorie/securite
+* /en/category/security
+  
+C’est une bonne pratique pour le SEO et la clarté du site.
+
+### Menu Réglages
+
+Ici, vous gérez les options générales :
+
+* traduire ou non les médias
+* rediriger les visiteurs selon la langue de leur navigateur
+* choisir la forme des URLs
+
+Options possibles pour les URLs :
+
+* avec dossier : monsite.com/fr/
+* avec sous-domaine : fr.monsite.com
+* avec domaine différent : monsite.fr / monsite.com
