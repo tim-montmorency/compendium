@@ -24,10 +24,10 @@ Pour définir cette représentation visuelle et graphique, un thème repose gén
 *	D’autres fichiers sources nécessaires au fonctionnement du thème
   principalement des fichiers .php pour la logique et l’intégration avec WordPress.
 
-### Thèmes natifs et types de thèmes WordPress
+#### Thèmes natifs et types de thèmes WordPress
 Lors de l’installation de WordPress, le système inclut automatiquement les thèmes natifs les plus récents développés par l’équipe officielle de WordPress.
 
-#### Qu’est-ce qu’un thème natif ?
+### Qu’est-ce qu’un thème natif ?
 
 Un thème natif est un thème :
 
@@ -57,6 +57,7 @@ Personnaliser un thème WordPress ne se fait pas au hasard. C’est une démarch
 
 #### Avant de personnaliser un thème WordPress : sauvegardez votre site
 Avant de modifier un thème WordPress, faites toujours une sauvegarde.
+
 #### Personnaliser un thème peut toucher :
 
 *	les fichiers du site
@@ -68,7 +69,7 @@ Idéalement, sauvegardez :
 *	les fichiers
 *	la base de données
 
-#### Comment sauvegarder ?
+### Comment sauvegarder ?
 *	Avec une extension de sauvegarde 
 *	Avec un outil de gestion de site qui propose la restauration en un clic
 
@@ -76,6 +77,7 @@ Idéalement, sauvegardez :
 L’Outil de personnalisation permet de modifier l’apparence d’un thème sans toucher au code.
 On y accède normalement via : Apparence > Personnaliser.
 👉 Mais attention : il n’est pas toujours disponible.
+
 #### Pourquoi vous ne le voyez peut-être pas ?
 C’est normal si :
 
@@ -95,6 +97,7 @@ Vous aurez accès à l’Outil de personnalisation si :
 
 *	vous utilisez un thème classique (ex. : Astra)
 *	même avec une version récente de WordPress
+
 #### Exemple
 * WordPress 6.x + thème Astra → Customizer disponible
 * WordPress 6.x + thème à blocs → Éditeur de site uniquement
@@ -225,7 +228,7 @@ Pour un thème créé sur mesure :
 #### Conclusion
 Vous savez maintenant comment personnaliser un thème WordPress.
 
-### Modifier un thème permet :
+#### Modifier un thème permet :
 
 *	de rafraîchir le design
 *	d’améliorer la lisibilité et l’expérience utilisateur
@@ -344,7 +347,7 @@ Si vous utilisez :
  
 
 
-## Comment installer un thème WordPress depuis l’administration
+### Comment installer un thème WordPress depuis l’administration
 La manière la plus simple d’installer un thème est directement depuis votre tableau de bord WordPress. Suivez ces étapes :
 
 #### Méthode 1 : Installer un thème via un fichier ZIP
@@ -513,7 +516,7 @@ All-in-One WP Migration and Backup – Mode d’emploi simple
 *	La version gratuite a des limites pour la taille des fichiers.
 *	Pour des sauvegardes sur le cloud ou des fonctionnalités avancées, il faudra acheter la version premium.
 
-## Exportation / Importation d’une base de données
+## Base de données : Exportation / Importation
 #### Exportation :
 ![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
 
@@ -531,17 +534,19 @@ Il permet de traduire le contenu du site (pages, articles, menus, catégories, e
 
 Vous pouvez ajouter autant de langues que vous voulez et faire les traductions manuellement ou avec un outil de gestion des traductions.
 
-## #Comment installer Polylang sur WordPress (ultra simple)
+### Comment installer Polylang sur WordPress
 
-Après avoir installé et activé Polylang Pro, un assistant de configuration se lance automatiquement. Il se fait en 6 étapes simples.
+Après avoir installé et activé Polylang, un assistant de configuration se lance automatiquement. Il se fait en 5 étapes simples.
 
 #### Étape 1 : Choisir les langues du site
+
 ![](./assets/images/polylang-langue.png){data-zoom-image}   
 
 Choisissez au moins une langue pour votre site (ex. français, anglais).
 👉 La première langue choisie devient la langue par défaut du site.
 
 #### Étape 2 : Traduire les médias (optionnel)
+
 ![](./assets/images/polyland-medias.png){data-zoom-image}   
 
 * Polylang vous demande si vous voulez traduire les textes des images
@@ -549,16 +554,19 @@ Choisissez au moins une langue pour votre site (ex. français, anglais).
 * ➡️ Activez ou désactivez selon vos besoins.
 
 #### Étape 3 : Définir la langue des contenus existants
+
 ![](./assets/images/polyland-contenu.png){data-zoom-image}   
 
 Tous vos contenus actuels (pages, articles) reçoivent une langue par défaut.
 
 #### Étape 4 : Traduire la page d’accueil (si applicable)
+
 ![](./assets/images/polyland-fin.png){data-zoom-image}   
 
 Si vous avez une page d’accueil fixe, Polylang vous propose de la traduire.
 
-#### Étape 5 : Configuration terminée 🎉
+#### Étape 5 : Configuration terminée
+
 ![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
 
 Polylang est prêt à être utilisé.
@@ -603,6 +611,7 @@ Vous pouvez aussi :
 * la modifier
 * la supprimer
 * Menu Traduction des chaînes
+  
 ![](./assets/images/etoiles-drapeau-polylang-tim.gif){data-zoom-image}
 
 Ce menu sert à traduire les petits textes du site.
@@ -614,8 +623,10 @@ Exemples :
 * menus
 * widgets
 * formats de date
+  
 ![](./assets/images/options-rapides-langues-polylang-tim.webp){data-zoom-image}
 ![](./assets/images/date-polylang-string-tim.webp){data-zoom-image}
+
 Ces textes ne sont pas dans les pages ou articles, mais ils sont visibles sur le site.
 Les traduire rend le site plus professionnel.
 
@@ -632,7 +643,7 @@ Exemple :
   
 C’est une bonne pratique pour le SEO et la clarté du site.
 
-### Menu Réglages
+#### Menu Réglages
 
 Ici, vous gérez les options générales :
 
