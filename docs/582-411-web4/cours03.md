@@ -519,14 +519,57 @@ All-in-One WP Migration and Backup – Mode d’emploi simple
 *	La version gratuite a des limites pour la taille des fichiers.
 *	Pour des sauvegardes sur le cloud ou des fonctionnalités avancées, il faudra acheter la version premium.
 
-## Base de données : Exportation / Importation
-#### Exportation :
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
+## Augmenter la valeur de téléchargement par défaut de MAMP
 
-#### Importation :  
-![](./assets/images/creation-base-de-donnees.png){data-zoom-image}
-![](./assets/images/importation-bas-de-donnees.png){data-zoom-image}   
-![](./assets/images/bouton-importer-base-de-donnees.png){data-zoom-image}   
+### Emplacement du php.ini — MAMP classique (Windows)
+
+Le fichier se trouve ici :
+
+!!! info "PC"
+
+    C:\MAMP\bin\php\phpX.X.X\conf\php.ini
+    ou
+    C:\MAMP\conf\php\phpX.X.X\conf\php.ini
+
+!!! info "Mac"
+
+    /Applications/MAMP/bin/php/phpX.X.X/conf/php.ini
+
+
+!!! tip "👉 Exemple concret"
+
+    C:\MAMP\bin\php\php8.1.12\conf\php.ini
+
+
+⚠️ Il peut y avoir plusieurs dossiers phpX.X.X
+Tu dois modifier CELUI qui est réellement utilisé.
+
+
+### Modifications à faire dans php.ini
+
+Ajoute ou modifie :
+
+``` ini
+upload_max_filesize = 256M
+post_max_size = 256M
+memory_limit = 512M
+max_execution_time = 300
+max_input_time = 300
+```
+
+
+### Redémarrage OBLIGATOIRE
+
+Indispensable :
+
+* Stop Servers
+* Start Servers dans MAMP
+
+Sans ça → aucun effet.
+
+
+
+
 
 ![](./assets/images/polylang.png){data-zoom-image}   
 
