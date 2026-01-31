@@ -666,11 +666,15 @@ Allez dans Articles > Tous les articles
 
 Vous voyez la liste de vos articles, chacun avec des icônes de langue
 
+![](./assets/images/articles-tim.webp){data-zoom-image}
+
 #### Signification des icônes
 
 * 🏳️ Drapeau : l’article existe dans cette langue → cliquez pour l’ouvrir
 * ✏️ Crayon : la traduction existe déjà → cliquez pour la modifier
 * ➕ Plus : la traduction n’existe pas encore → cliquez pour en créer une
+
+![](./assets/images/icones-polylang-tim.webp){data-zoom-image}
 
 #### Ajouter une traduction
 
@@ -685,3 +689,38 @@ Vous voyez la liste de vos articles, chacun avec des icônes de langue
 * les catégories
 * les étiquettes
 * les types de contenus personnalisés
+  
+
+#### Comment créer un menu par langue ? 
+
+* Allez dans Apparence > Menus
+* Créez un menu par langue (ex. : un menu FR, un menu EN)
+* Assignez chaque menu à son emplacement
+* Enregistrez
+
+![](./assets/images/liste-menus-tim.webp){data-zoom-image}
+
+#### Modifier un menu
+
+![](./assets/images/liste-langues-tim.webp){data-zoom-image}
+
+* Choisissez le menu à modifier dans la liste déroulante
+* Ajoutez les liens voulus
+* Enregistrez
+
+#### Ajouter le sélecteur de langue
+
+* Dans l’écran des menus, ouvrez Options de l’écran (en haut)
+* Cochez Liste des langues
+*  Ajoutez cet élément au menu
+
+#### Options du sélecteur de langue
+
+Vous pouvez choisir :
+
+* afficher les langues en liste déroulante
+* afficher le nom des langues
+* afficher les drapeaux
+* masquer la langue actuelle
+
+![](./assets/images/menu-langue-etrangere-tim.gif){data-zoom-image}
