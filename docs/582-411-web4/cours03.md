@@ -170,7 +170,7 @@ Nous allons voir les constructeurs de page plus tard durant la session.
 WordPress propose un éditeur de fichiers directement dans l’administration.
 
 Il peut être tentant de l’utiliser… mais il ne faut pas le faire.
-#### ourquoi ?
+#### Pourquoi ?
 *	Une erreur de code peut faire planter le site
 *	Les modifications sont effacées lors des mises à jour
 *	WordPress lui-même déconseille cette méthode
@@ -578,6 +578,7 @@ Vous pouvez maintenant :
 * Réglages
 * Configurer (relance l’assistant)
 * Menu Langues
+![](./assets/images/menu-polylang-tim.webp){data-zoom-image}  
 
 Ce menu sert à gérer les langues du site.
 
@@ -588,6 +589,7 @@ Vous pouvez :
 * choisir le sens d’écriture (gauche → droite ou droite → gauche)
 * changer l’ordre des langues
 * choisir ou remplacer le drapeau
+![](./assets/images/menu-langues-polylang-tim.webp){data-zoom-image}    
 
 👉 La langue par défaut est marquée par une étoile.
 Vous pouvez la changer en cliquant sur l’étoile.
@@ -598,6 +600,7 @@ Vous pouvez aussi :
 * la modifier
 * la supprimer
 * Menu Traduction des chaînes
+![](./assets/images/etoiles-drapeau-polylang-tim.gif){data-zoom-image}
 
 Ce menu sert à traduire les petits textes du site.
 
@@ -608,7 +611,8 @@ Exemples :
 * menus
 * widgets
 * formats de date
-
+![](./assets/images/options-rapides-langues-polylang-tim.webp){data-zoom-image}
+![](./assets/images/date-polylang-string-tim.webp){data-zoom-image}
 Ces textes ne sont pas dans les pages ou articles, mais ils sont visibles sur le site.
 Les traduire rend le site plus professionnel.
 
@@ -620,6 +624,8 @@ Exemple :
 
 * /fr/categorie/securite
 * /en/category/security
+
+![](./assets/images/traduction-slug-polylang-tim.webp){data-zoom-image}
   
 C’est une bonne pratique pour le SEO et la clarté du site.
 
@@ -636,3 +642,5 @@ Options possibles pour les URLs :
 * avec dossier : monsite.com/fr/
 * avec sous-domaine : fr.monsite.com
 * avec domaine différent : monsite.fr / monsite.com
+
+![](./assets/images/repertoire-langue-polylang-tim.webp){data-zoom-image}
