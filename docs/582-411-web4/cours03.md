@@ -24,10 +24,10 @@ Pour définir cette représentation visuelle et graphique, un thème repose gén
 *	D’autres fichiers sources nécessaires au fonctionnement du thème
   principalement des fichiers .php pour la logique et l’intégration avec WordPress.
 
-## Thèmes natifs et types de thèmes WordPress
+### Thèmes natifs et types de thèmes WordPress
 Lors de l’installation de WordPress, le système inclut automatiquement les thèmes natifs les plus récents développés par l’équipe officielle de WordPress.
 
-### Qu’est-ce qu’un thème natif ?
+#### Qu’est-ce qu’un thème natif ?
 
 Un thème natif est un thème :
 
@@ -38,13 +38,13 @@ Un thème natif est un thème :
 Ces thèmes portent tous un nom commençant par Twenty suivi de l’année de publication
 (ex. : Twenty Twenty-One, Twenty Twenty-Two, Twenty Twenty-Three).
 
-### Les thèmes natifs servent souvent à :
+#### Les thèmes natifs servent souvent à :
 
 *	tester les nouvelles fonctionnalités de WordPress ;
 *	comprendre la structure d’un thème bien conçu ;
 *	servir de base d’apprentissage ou de point de départ pour un projet.
 
-### 7 bonnes raisons de personnaliser un thème WordPress
+#### 7 bonnes raisons de personnaliser un thème WordPress
 Personnaliser un thème WordPress ne se fait pas au hasard. C’est une démarche réfléchie qui permet d’adapter le site à des besoins précis. Voici les principales raisons de le faire.
 
 1.	Avoir un site unique
@@ -55,7 +55,7 @@ Personnaliser un thème WordPress ne se fait pas au hasard. C’est une démarch
 1.	Créer un design sur mesure
 1.	Adapter le site à des événements ponctuels
 
-### Avant de personnaliser un thème WordPress : sauvegardez votre site
+#### Avant de personnaliser un thème WordPress : sauvegardez votre site
 Avant de modifier un thème WordPress, faites toujours une sauvegarde.
 #### Personnaliser un thème peut toucher :
 
@@ -72,7 +72,7 @@ Idéalement, sauvegardez :
 *	Avec une extension de sauvegarde 
 *	Avec un outil de gestion de site qui propose la restauration en un clic
 
-### Méthode 1 : l’Outil de personnalisation (Customizer)
+#### Méthode 1 : l’Outil de personnalisation (Customizer)
 L’Outil de personnalisation permet de modifier l’apparence d’un thème sans toucher au code.
 On y accède normalement via : Apparence > Personnaliser.
 👉 Mais attention : il n’est pas toujours disponible.
@@ -90,7 +90,7 @@ Dans ce cas, le menu Apparence affiche seulement :
 
 Il est remplacé par l’Éditeur de site, qui permet de modifier tout le site avec des blocs (header, footer, pages, etc.).
 
-### Quand le Customizer est-il disponible ?
+#### Quand le Customizer est-il disponible ?
 Vous aurez accès à l’Outil de personnalisation si :
 
 *	vous utilisez un thème classique (ex. : Astra)
@@ -116,7 +116,7 @@ Avec le Customizer, vous pouvez souvent :
 *	personnaliser le footer
 *	ajouter du CSS personnalisé
 
-### Méthode 2 : l’Éditeur de site WordPress
+#### Méthode 2 : l’Éditeur de site WordPress
 L’Éditeur de site permet de modifier tout le site (header, footer, pages, modèles) avec des blocs.
 Pour pouvoir l’utiliser, il faut :
 
@@ -138,7 +138,7 @@ Ce qui change après l’activation
 Pour modifier le thème
 * Allez dans Apparence > Éditeur
 
-### Quelles options sont disponibles ?
+#### Quelles options sont disponibles ?
 Avec l’Éditeur de site, vous pouvez modifier tout le site avec des blocs.
 Vous pouvez :
 
@@ -163,19 +163,20 @@ Ajouter et modifier des blocs
 *	Sélectionnez un bloc
 *	Modifiez ses options dans le panneau Réglages
 
-### Méthode n°3 : un constructeur de page
+#### Méthode n°3 : un constructeur de page
 Nous allons voir les constructeurs de page plus tard durant la session.
 
-### Méthode n°4 : l’éditeur de fichiers du thème
+#### Méthode n°4 : l’éditeur de fichiers du thème
 WordPress propose un éditeur de fichiers directement dans l’administration.
 
 Il peut être tentant de l’utiliser… mais il ne faut pas le faire.
+
 #### Pourquoi ?
 *	Une erreur de code peut faire planter le site
 *	Les modifications sont effacées lors des mises à jour
 *	WordPress lui-même déconseille cette méthode
 
-### Conclusion :
+#### Conclusion :
 N’utilisez jamais l’éditeur de fichiers du thème.
 !!! info "À noter" 
 
@@ -183,7 +184,7 @@ N’utilisez jamais l’éditeur de fichiers du thème.
     •	Avec un thème basé sur des blocs, cet éditeur n’est souvent plus visible (et c’est une bonne chose)
 
 
-### Méthode n°5 : personnaliser avec du code (la bonne façon)
+#### Méthode n°5 : personnaliser avec du code (la bonne façon)
 
 #### Le thème enfant 
 Si vous devez modifier le code d’un thème, la bonne méthode est d’utiliser un thème enfant.
@@ -207,21 +208,21 @@ Si vous devez modifier le code d’un thème, la bonne méthode est d’utiliser
   
     Avec un thème basé sur des blocs, vous pouvez souvent tout personnaliser sans coder, directement avec l’Éditeur de site.
 
-###  Que modifie-t-on dans un thème enfant ?
+####  Que modifie-t-on dans un thème enfant ?
 Généralement :
 
 *	style.css
 *	functions.php
 *	parfois d’autres fichiers (index.php, modèles, etc.)
 
-### Le cas des thèmes sur mesure
+#### Le cas des thèmes sur mesure
 Pour un thème créé sur mesure :
 
 *	pas forcément besoin de thème enfant
 *	les mises à jour sont gérées par le développeur
 *	le code peut être modifié directement
 
-## Conclusion
+#### Conclusion
 Vous savez maintenant comment personnaliser un thème WordPress.
 
 ### Modifier un thème permet :
@@ -237,7 +238,8 @@ Pour personnaliser un thème, il existe plusieurs méthodes :
 *	un constructeur de pages
 *	l’éditeur de fichiers  (à éviter)
 *	le code (avec de bonnes pratiques)
-### Avant toute modification :
+  
+#### Avant toute modification :
 faites toujours une sauvegarde du site.
 
 Source : https://wpmarmite.com/comment-personnaliser-theme-wordpress/
@@ -257,7 +259,7 @@ Comme un site est fait pour être visité, le thème doit :
 *	
 👉 C’est pourquoi il faut bien choisir son thème.
  
-### Les caractéristiques d’un bon thème WordPress
+#### Les caractéristiques d’un bon thème WordPress
 Un bon thème doit être :
 
 * Facile à utiliser
@@ -278,7 +280,7 @@ Un bon thème doit être :
   Comme WooCommerce si vous voulez une boutique en ligne.
 
  
-### Exemples de bons thèmes
+#### Exemples de bons thèmes
 Voici quelques thèmes souvent recommandés :
 
 *	Astra
@@ -291,13 +293,13 @@ Voici quelques thèmes souvent recommandés :
         Même s’ils sont de qualité, le meilleur thème reste celui qui correspond à vos besoins.
         👉 Le bon choix dépend toujours de votre projet (site vitrine, blogue, boutique, etc.).
 
-## 5 choses à faire avant de changer de thème WordPress
+#### 5 choses à faire avant de changer de thème WordPress
 👉 Cette section concerne uniquement les sites déjà en ligne.
 
 Si vous débutez avec WordPress, vous pouvez passer.
 Changer de thème peut avoir des impacts visibles. Il vaut mieux se préparer.
  
-### 1️⃣ Faire une sauvegarde (indispensable)
+#### 1️⃣ Faire une sauvegarde (indispensable)
 Avant toute chose, sauvegardez votre site.
 
 *	sauvegarde des fichiers
@@ -305,7 +307,7 @@ Avant toute chose, sauvegardez votre site.
   
 En cas de problème, vous pourrez tout restaurer.
  
-### 2️⃣ Mettre une page de maintenance
+#### 2️⃣ Mettre une page de maintenance
 Pendant le changement de thème :
 
 *	le site peut être mal affiché
@@ -313,7 +315,7 @@ Pendant le changement de thème :
 
 👉 Une page de maintenance informe les visiteurs que le site revient bientôt.
  
-### 3️⃣ Vérifier ce que faisait l’ancien thème
+#### 3️⃣ Vérifier ce que faisait l’ancien thème
 Certains thèmes ajoutent des fonctions :
 
 *	SEO
@@ -322,7 +324,7 @@ Certains thèmes ajoutent des fonctions :
 
 ⚠️ Ces fonctions peuvent disparaître avec le nouveau thème.
  
-### 4️⃣ Copier le code ajouté dans functions.php
+#### 4️⃣ Copier le code ajouté dans functions.php
 Si vous avez ajouté du code dans l’ancien thème :
 
 *	options
@@ -331,7 +333,7 @@ Si vous avez ajouté du code dans l’ancien thème :
   
 👉 Pensez à recopier ce code dans le functions.php du nouveau thème (ou du thème enfant).
  
-### 5️⃣ Ne pas oublier le code de suivi
+#### 5️⃣ Ne pas oublier le code de suivi
 Si vous utilisez :
 
 *	Google Analytics
@@ -345,7 +347,7 @@ Si vous utilisez :
 ## Comment installer un thème WordPress depuis l’administration
 La manière la plus simple d’installer un thème est directement depuis votre tableau de bord WordPress. Suivez ces étapes :
 
-### Méthode 1 : Installer un thème via un fichier ZIP
+#### Méthode 1 : Installer un thème via un fichier ZIP
 Pour un thème premium (payant), vous aurez un fichier .zip. Il faut le téléverser dans WordPress.
 Exemple : installer le thème BeTheme acheté sur Themeforest.
 
@@ -367,7 +369,7 @@ Dans votre tableau de bord WordPress, allez dans :
 7.	Activer le thème
 
 
-### Méthode 2 : Installer un thème depuis le répertoire officiel
+#### Méthode 2 : Installer un thème depuis le répertoire officiel
 Vous pouvez aussi ajouter un thème gratuit directement depuis WordPress, sans quitter votre tableau de bord.
 La procédure est très proche de celle pour installer un fichier ZIP. Voici comment faire, par exemple pour le thème Astra :
 
@@ -436,7 +438,7 @@ Regardez aussi ces points avant d’installer :
 ![](./assets/images/infos-plugin-wordpress.png){data-zoom-image}  
 
 
-## Où trouver des plugins WordPress ?
+### Où trouver des plugins WordPress ?
 Le répertoire officiel de WordPress est le meilleur endroit pour chercher des plugins. Il y en a des milliers, et tous sont vérifiés pour respecter les règles de WordPress.
 
 Pour chercher un plugin, vous pouvez :
@@ -448,7 +450,7 @@ Pour chercher un plugin, vous pouvez :
  *	Commercial : gratuit avec options payantes ou support en plus
  ![](./assets/images/extensions-repertoire-officiel-2048x1619.webp){data-zoom-image}  
 
-## Comment installer un plugin WordPress gratuit
+### Comment installer un plugin WordPress gratuit
 Pour installer un plugin gratuit depuis le répertoire officiel :
 
 1.	Dans votre tableau de bord WordPress, allez dans Extensions > Ajouter.
@@ -460,7 +462,7 @@ Et voilà, votre plugin est prêt à être utilisé.
 ![](./assets/images/installer-plugin-wordpress-admin-2048x1069.webp){data-zoom-image}  
 
 
-## Installer un plugin WordPress acheté ou téléchargé
+### Installer un plugin WordPress acheté ou téléchargé
 Si vous avez un plugin premium ou téléchargé ailleurs (fichier .zip) :
 
 1.	Dans WordPress, allez dans Extensions > Ajouter.
@@ -512,10 +514,10 @@ All-in-One WP Migration and Backup – Mode d’emploi simple
 *	Pour des sauvegardes sur le cloud ou des fonctionnalités avancées, il faudra acheter la version premium.
 
 ## Exportation / Importation d’une base de données
-### Exportation :
+#### Exportation :
 ![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
 
-### Importation :  
+#### Importation :  
 ![](./assets/images/creation-base-de-donnees.png){data-zoom-image}
 ![](./assets/images/importation-bas-de-donnees.png){data-zoom-image}   
 ![](./assets/images/bouton-importer-base-de-donnees.png){data-zoom-image}   
@@ -529,34 +531,34 @@ Il permet de traduire le contenu du site (pages, articles, menus, catégories, e
 
 Vous pouvez ajouter autant de langues que vous voulez et faire les traductions manuellement ou avec un outil de gestion des traductions.
 
-## Comment installer Polylang sur WordPress (ultra simple)
+## #Comment installer Polylang sur WordPress (ultra simple)
 
 Après avoir installé et activé Polylang Pro, un assistant de configuration se lance automatiquement. Il se fait en 6 étapes simples.
 
-### Étape 1 : Choisir les langues du site
+#### Étape 1 : Choisir les langues du site
 ![](./assets/images/polylang-langue.png){data-zoom-image}   
 
 Choisissez au moins une langue pour votre site (ex. français, anglais).
 👉 La première langue choisie devient la langue par défaut du site.
 
-### Étape 2 : Traduire les médias (optionnel)
+#### Étape 2 : Traduire les médias (optionnel)
 ![](./assets/images/polyland-medias.png){data-zoom-image}   
 
 * Polylang vous demande si vous voulez traduire les textes des images
 (titre, description, texte alternatif).
 * ➡️ Activez ou désactivez selon vos besoins.
 
-### Étape 3 : Définir la langue des contenus existants
+#### Étape 3 : Définir la langue des contenus existants
 ![](./assets/images/polyland-contenu.png){data-zoom-image}   
 
 Tous vos contenus actuels (pages, articles) reçoivent une langue par défaut.
 
-### Étape 4 : Traduire la page d’accueil (si applicable)
+#### Étape 4 : Traduire la page d’accueil (si applicable)
 ![](./assets/images/polyland-fin.png){data-zoom-image}   
 
 Si vous avez une page d’accueil fixe, Polylang vous propose de la traduire.
 
-### Étape 5 : Configuration terminée 🎉
+#### Étape 5 : Configuration terminée 🎉
 ![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
 
 Polylang est prêt à être utilisé.
@@ -569,15 +571,16 @@ Vous pouvez maintenant :
 
 👉 Votre site est maintenant prêt pour le multilingue.
 
-## Les réglages de Polylang (ultra simple)
+### Les réglages de Polylang
 
-### Polylang a 4 menus principaux :
+#### Polylang a 4 menus principaux :
 
 * Langues
 * Traduction des chaînes
 * Réglages
 * Configurer (relance l’assistant)
 * Menu Langues
+  
 ![](./assets/images/menu-polylang-tim.webp){data-zoom-image}  
 
 Ce menu sert à gérer les langues du site.
