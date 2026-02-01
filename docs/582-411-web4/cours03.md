@@ -416,6 +416,13 @@ Une fois votre sélection opérée, cliquez sur le bouton « Installer » :
 
 Source : https://wpmarmite.com/installer-theme-wordpress/#
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/mamp-install-preview.png)
+
+  <small>Exercice - Thème Wordpress</small><br>
+  **[Édition d'un thème](./exercices/exercice3.md){.stretched-link .back}**
+</div>
+
 ## Qu’est-ce qu’un plugin WordPress ?
 Un plugin (ou extension) sert à ajouter de nouvelles fonctionnalités à WordPress.
 Par exemple, il peut gérer le SEO, le e-commerce, la sécurité, le marketing, etc.
@@ -775,6 +782,13 @@ Vous pouvez choisir :
 
 Source : https://wpmarmite.com/polylang/#
 
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/Polylang-Plugin-Logo-tim.jpg)
+
+  <small>Exercice - Polylang</small><br>
+  **[Polylang](./exercices/exercice4.md){.stretched-link .back}**
+</div>
+
 ## ACF (Advanced Custom Fields)
 
 ### Qu’est-ce que le plugin Advanced Custom Fields (ACF) ? 
@@ -841,3 +855,10 @@ Deux solutions :
 * Simple : utiliser un plugin ou un shortcode (ex. ACF Views)
 
 * Avancée : utiliser un peu de code PHP (pour développeurs)
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/Polylang-Plugin-Logo-tim.jpg)
+
+  <small>Exercice - Advanced Custom Fields</small><br>
+  **[ACF](./exercices/exercice.md){.stretched-link .back}**
+</div>
