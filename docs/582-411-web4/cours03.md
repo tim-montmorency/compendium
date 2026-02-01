@@ -417,7 +417,7 @@ Une fois votre sélection opérée, cliquez sur le bouton « Installer » :
 Source : https://wpmarmite.com/installer-theme-wordpress/#
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/mamp-install-preview.png)
+  ![](./assets/images/theme.png)
 
   <small>Exercice - Thème Wordpress</small><br>
   **[Édition d'un thème](./exercices/exercice3.md){.stretched-link .back}**
@@ -857,7 +857,7 @@ Deux solutions :
 * Avancée : utiliser un peu de code PHP (pour développeurs)
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/Polylang-Plugin-Logo-tim.jpg)
+  ![](./assets/images/formation-wp-acf-tim.jpg)
 
   <small>Exercice - Advanced Custom Fields</small><br>
   **[ACF](./exercices/exercice.md){.stretched-link .back}**
