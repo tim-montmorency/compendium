@@ -1,3 +1,5 @@
+![](./assets/images/theming.gif){data-zoom-image}
+
 ## Exercice pratique – Utilisation de l’éditeur de thème WordPress
 
 ### Objectif
