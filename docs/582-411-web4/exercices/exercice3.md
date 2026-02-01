@@ -9,7 +9,8 @@ Apprendre à modifier l’apparence et la structure d’un site WordPress à l�
 ### Mise en place 
 
 1. Connectez-vous à l’administration WordPress
-1. Activez le thème Twenty Twenty-Four (ou tout autre thème basé sur les blocs)
+1. Activez le thème Twenty Twenty-Five
+1. Créer 2 pages avec le contenu qui vous intéresse
 1. Allez dans Apparence → Éditeur
 
 ## Étape 1 – Modifier les styles globaux
