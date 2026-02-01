@@ -624,7 +624,6 @@ Si vous avez une page d’accueil fixe, Polylang vous propose de la traduire.
 
 #### Étape 5 : Configuration terminée
 
-![](./assets/images/exportation-base-de-donnees.png){data-zoom-image}   
 
 Polylang est prêt à être utilisé.
 Vous pouvez maintenant :
@@ -657,6 +656,7 @@ Vous pouvez :
 * choisir le sens d’écriture (gauche → droite ou droite → gauche)
 * changer l’ordre des langues
 * choisir ou remplacer le drapeau
+  
 ![](./assets/images/menu-langues-polylang-tim.webp){data-zoom-image}    
 
 👉 La langue par défaut est marquée par une étoile.
@@ -670,35 +670,6 @@ Vous pouvez aussi :
 * Menu Traduction des chaînes
   
 ![](./assets/images/etoiles-drapeau-polylang-tim.gif){data-zoom-image}
-
-Ce menu sert à traduire les petits textes du site.
-
-Exemples :
-
-* textes du thème
-* plugins
-* menus
-* widgets
-* formats de date
-  
-![](./assets/images/options-rapides-langues-polylang-tim.webp){data-zoom-image}
-![](./assets/images/date-polylang-string-tim.webp){data-zoom-image}
-
-Ces textes ne sont pas dans les pages ou articles, mais ils sont visibles sur le site.
-Les traduire rend le site plus professionnel.
-
-### Traduire les URLs (slugs)
-
-Dans ce menu, vous pouvez aussi traduire les slugs (fin des URLs).
-
-Exemple :
-
-* /fr/categorie/securite
-* /en/category/security
-
-![](./assets/images/traduction-slug-polylang-tim.webp){data-zoom-image}
-  
-C’est une bonne pratique pour le SEO et la clarté du site.
 
 #### Menu Réglages
 
@@ -716,71 +687,17 @@ Options possibles pour les URLs :
 
 ![](./assets/images/repertoire-langue-polylang-tim.webp){data-zoom-image}
 
-### Comment traduire un contenu dans une autre langue ? 
-Pour traduire un article WordPress avec Polylang :
 
-Allez dans Articles > Tous les articles
 
-Vous voyez la liste de vos articles, chacun avec des icônes de langue
 
-![](./assets/images/articles-tim.webp){data-zoom-image}
 
-#### Signification des icônes
 
-* 🏳️ Drapeau : l’article existe dans cette langue → cliquez pour l’ouvrir
-* ✏️ Crayon : la traduction existe déjà → cliquez pour la modifier
-* ➕ Plus : la traduction n’existe pas encore → cliquez pour en créer une
 
-![](./assets/images/icones-polylang-tim.webp){data-zoom-image}
 
-#### Ajouter une traduction
 
-1. Cliquez sur le + de la langue voulue
-1. WordPress ouvre un nouvel article
-1. Traduisez le contenu
-1. Enregistrez
 
-👉 C’est pareil pour :
 
-* les pages
-* les catégories
-* les étiquettes
-* les types de contenus personnalisés
-  
 
-#### Comment créer un menu par langue ? 
-
-* Allez dans Apparence > Menus
-* Créez un menu par langue (ex. : un menu FR, un menu EN)
-* Assignez chaque menu à son emplacement
-* Enregistrez
-
-![](./assets/images/liste-menus-tim.webp){data-zoom-image}
-
-#### Modifier un menu
-
-![](./assets/images/liste-langues-tim.webp){data-zoom-image}
-
-* Choisissez le menu à modifier dans la liste déroulante
-* Ajoutez les liens voulus
-* Enregistrez
-
-#### Ajouter le sélecteur de langue
-
-* Dans l’écran des menus, ouvrez Options de l’écran (en haut)
-* Cochez Liste des langues
-*  Ajoutez cet élément au menu
-
-#### Options du sélecteur de langue
-
-Vous pouvez choisir :
-
-* afficher les langues en liste déroulante
-* afficher le nom des langues
-* afficher les drapeaux
-* masquer la langue actuelle
-
-![](./assets/images/menu-langue-etrangere-tim.gif){data-zoom-image}
 
 Source : https://wpmarmite.com/polylang/#
 
