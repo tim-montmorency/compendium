@@ -1,3 +1,5 @@
+![](../assets/images/event.jpg){data-zoom-image}   
+
 ## Exercice pratique – Site WordPress pour une compagnie d’événementiel
 
 ## Contexte
