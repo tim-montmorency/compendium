@@ -839,9 +839,11 @@ Les champs peuvent apparaître :
 
 Deux solutions :
 
-* Simple : utiliser un plugin ou un shortcode (ex. ACF Views)
+* Simple : utiliser un plugin ou un shortcode (ex. Advanced Views Lite)
 
 * Avancée : utiliser un peu de code PHP (pour développeurs)
+
+## Advanced Views Lite
 
 ## Exercice ACF
 
