@@ -21,7 +21,7 @@ Apprendre à modifier l’apparence et la structure d’un site WordPress à l�
  * La couleur principale
  * La couleur d’arrière-plan
 * [ ] Ouvrez la section Typographie
-* [ ]Modifiez :
+* [ ] Modifiez :
  * La police des titres
  * La taille du texte normal
 * [ ] Cliquez sur Styles → Blocs → Bouton
