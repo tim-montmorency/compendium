@@ -41,7 +41,7 @@ Apprendre à modifier l’apparence et la structure d’un site WordPress à l�
  * L’espacement vertical
 * [ ] Enregistrez
 
-## Étape 3 – Modifier le pied de page (20 min)
+## Étape 3 – Modifier le pied de page
 
 * [ ] Allez dans Parties de modèles
 * [ ] Ouvrez Pied de page
@@ -58,7 +58,7 @@ Apprendre à modifier l’apparence et la structure d’un site WordPress à l�
  * Taille du texte
 * [ ] Enregistrez
 
-## Étape 4 – Modifier un modèle de page (15 min)
+## Étape 4 – Modifier un modèle de page
 
 * [ ] Allez dans Modèles
 * [ ] Ouvrez le modèle Page
@@ -70,7 +70,7 @@ Apprendre à modifier l’apparence et la structure d’un site WordPress à l�
 * [ ] Ajustez les marges et l’espacement
 * [ ] Enregistrez
 
-## Étape 5 – Observer l’impact (10 min)
+## Étape 5 – Observer l’impact
 
 * [ ] Créez une nouvelle page
 * [ ] Ajoutez du contenu (texte + image)
