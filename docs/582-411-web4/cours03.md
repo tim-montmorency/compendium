@@ -845,6 +845,10 @@ Deux solutions :
 
 ## Advanced Views Lite
 
+![](./assets/images/oACF-advanced-views-new.png){data-zoom-image}
+![](./assets/images/ACF-advanced-views-label.png){data-zoom-image}
+![](./assets/images/ACF-advanced-views-shortcode.png){data-zoom-image}
+
 ## Exercice ACF
 
 <div class="grid grid-1-2" markdown>
