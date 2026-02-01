@@ -688,15 +688,81 @@ Options possibles pour les URLs :
 ![](./assets/images/repertoire-langue-polylang-tim.webp){data-zoom-image}
 
 
+### Sélecteur de langues
 
+Ajouter ce code dans le fichier `functions.php` du thème actif.
 
+```php
+// Shortcode de sélecteur de langue avec Polylang
+// Usage : [custom_language_switcher]
+function custom_pll_language_switcher() {
+  return pll_the_languages( array(
+    'show_flags' => 1,
+    'show_names' => 1,
+    'display_names_as' => 'name', // name ou slug
+    'echo' => 0,
+    'hide_current' => 1,
+  ) );
+}
+add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
+```
 
+Puis, dans l'édition du menu principal, ajouter le shortcode suivant :
 
+```php
+[custom_language_switcher]
+```
 
+!!! info "html et langue"
 
+    Dans la balise html de votre site, vous devriez voir apparaître un attribut `lang` qui indique la langue de votre site. Par exemple : 'fr-CA' pour français canadien.
 
+### Chaines traduisibles
 
+Pour ajouter une chaine traduisible, on peut le faire en programmation avec le code suivant. Il suffit de l'insérer dans le fichier `functions.php` du thème actif.
 
+```php
+// Ajoute des string traduisibles pour Polylang
+function my_register_strings_for_polylang() {
+  if ( function_exists( 'pll_register_string' ) ) {
+    // Ajouter ici des chaines :
+    pll_register_string( 'Comments label', 'Comments', 'Thème' );
+    // ...
+  }
+}
+add_action( 'after_setup_theme', 'my_register_strings_for_polylang' );
+```
+
+Lorsque la chaine est ajoutée, on peut utiliser un shortcode pour l'afficher. Ainsi on a un contrôle total sur les chaines traduisibles.
+
+Pour créer le shortcode, il faut ajouter le code suivant dans le fichier `functions.php` du thème actif.
+
+```php
+// Shortcode de traduction
+// Exemple : [trans text="Comments"]
+function trans_shortcode( $atts ) {
+  $atts = shortcode_atts( array('text' => ''), $atts, 'trans' );
+  if ( ! empty( $atts['text'] ) ) {
+    return pll__( $atts['text'] );
+  }
+  return '';
+}
+add_shortcode( 'trans', 'trans_shortcode' );
+```
+
+Ce qui veut dire qu'on peut maintenant, dans la gestion des blocs du site, ajouter un shortcode `[trans text="My sublime text!"]` et le texte sera traduit selon la langue du site.
+
+### Gestion des menus
+
+Avant de faire la gestion des menus, installez le plugin [Block Visibility](https://wordpress.org/plugins/block-visibility/)
+
+![](./assets/images/wp-block-visibility.png)
+
+Si notre site est bilingue français/anglais, on devra créer 2 navigations dans l'édition du thème, où se trouve le menu principal.
+
+Pour chaque navigations, configurez la visibilité en spécifiant une condition sur l'URL.
+
+![](./assets/images/wp-menu-visibility.png)
 
 
 Source : https://wpmarmite.com/polylang/#
