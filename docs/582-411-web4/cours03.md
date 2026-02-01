@@ -573,7 +573,7 @@ Sans ça → aucun effet.
 
 
 
-![](./assets/images/polylang.png){data-zoom-image}   
+![](./assets/images/Polylang-Plugin-Logo-tim.jpg){data-zoom-image}   
 
 ## Qu’est-ce que Polylang ?
 
