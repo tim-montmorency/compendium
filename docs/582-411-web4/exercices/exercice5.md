@@ -130,7 +130,7 @@ Ajoutez les champs suivants dans ce groupe :
 * Libellé : Type d’événement
 * Nom : type_evenement
 * Type : Liste déroulante (Select)
-Choix :
+##### Choix :
 
  * Mariage
  * Corporatif
@@ -154,7 +154,7 @@ Choix :
 * Libellé : Équipement inclus
 * Nom : equipement_inclus
 * Type : Cases à cocher
-Choix :
+##### Choix :
 
  * Son
  * Éclairage
@@ -167,7 +167,7 @@ Choix :
 * Libellé : Disponible à l’extérieur
 * Nom : exterieur
 * Type : Boutons radio
-Choix :
+##### Choix :
 
  * Oui
  * Non
