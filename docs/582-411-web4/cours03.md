@@ -416,6 +416,8 @@ Une fois votre sélection opérée, cliquez sur le bouton « Installer » :
 
 Source : https://wpmarmite.com/installer-theme-wordpress/#
 
+## Exercice : Édition d'un thème
+
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/theme.png)
 
@@ -782,6 +784,8 @@ Vous pouvez choisir :
 
 Source : https://wpmarmite.com/polylang/#
 
+## Exercice Polylang
+
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/Polylang-Plugin-Logo-tim.jpg)
 
@@ -856,9 +860,11 @@ Deux solutions :
 
 * Avancée : utiliser un peu de code PHP (pour développeurs)
 
+## Exercice ACF
+
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/formation-wp-acf-tim.jpg)
 
   <small>Exercice - Advanced Custom Fields</small><br>
-  **[ACF](./exercices/exercice.md){.stretched-link .back}**
+  **[ACF](./exercices/exercice5.md){.stretched-link .back}**
 </div>
