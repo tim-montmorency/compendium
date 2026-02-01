@@ -1,3 +1,5 @@
+![](../assets/images/Polylang-Plugin-Logo-tim.jpg){data-zoom-image}   
+
 ## Exercice pratique – Site multilingue avec Polylang (WordPress)
 
 ## Objectif
