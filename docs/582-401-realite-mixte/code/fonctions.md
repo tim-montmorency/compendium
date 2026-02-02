@@ -1,89 +1,59 @@
-Lorsque l'on programme des Scripts dans Unity, on utilise des fonctions. On inscrit notre code dans celles-ci et elles s'exécutent selon certaines conditions. Nous verrons ici les différentes fonctions qui existent:    
+# Méthodes dans Unity
 
-
+Les méthodes (ou fonctions) sont les blocs de construction de vos scripts. Elles s'exécutent selon des événements précis du moteur Unity.
        
+## Le Cycle de Vie (Méthodes Natives)
 
-## Start()
-Lorsque vous créez un nouveau Script dans Unity, la fonction void Start() est créée par défaut. Le nom void reviendra dans vos fonctions, il s'agit du type de Fonction. La fonction Start est exécutée une seule fois au démarrage de la scène dans laquelle elle est. Ainsi, elle est régulièrement utilisée pour initialiser des valeurs.   
+Ces méthodes sont appelées automatiquement par Unity.
 
-       
+| Méthode | Fréquence | Usage |
+| ------- | --------- | ----- |
+| `Start()` | 1 seule fois | Initialisation au moment où l’objet/script devient actif (juste avant la première frame). |
+| `Update()` | Chaque image (FPS) | Détection clavier/souris, timers, mouvements simples. |
+| `FixedUpdate()` | Rythme fixe (par défaut 0.02s). | Physique, forces, déplacements Rigidbody. |
 
-## Update()
-La fonction Update est elle aussi présente dans les nouveaux Scripts. Elle est appelée à chaque frame. Ainsi, à chaque frame on exécute les actions qui sont à l'intérieur de celle-ci. Si le jeu est à 60 frames par seconde, on fera ces actions 60 fois par seconde. On utilise généralement cette fonction pour la détection et la mise à jour de variable. Par exemple, bouger un objet lorsqu'on touche l'écran.   
+## Détection de Collisions (Triggers)
 
-       
+Utilisées lorsqu'un objet traverse une zone "Is Trigger".
 
-## FixedUpdate()
-La fonction FixedUpdate est très similaire à la Fonction Update. On l'utilise pour gérer la physique des personnages. En effet, comme elle est appelé un nombre de fois déterminé par seconde, elle est plus prévisible que le Update, ce qui nous aide à mieux controller nos personnages ou encore les éléments qui interagissent avec la physique de Unity.    
+- Condition : Au moins un des deux objets doit posséder un **Rigidbody**.
+- `OnTriggerEnter(Collider other)` : Se déclenche à l'instant de l'entrée.
+- `OnTriggerExit(Collider other)` : Se déclenche au moment où l'objet sort.
 
-       
-
-## OnTriggerEnter(Collider other)
-Cette fonction peut être utilisée dans un Script qui est sur un GameObject qui a une composante Collider dont la fonction IsTrigger est cochée. Elle sera déclenchée lorsqu'un objet ayant aussi un collider entrera dans sa zone de collision. Alors, le code présent dans cette fonction s'exécutera une fois.      
-
-Cette fonction a une particularité. En effet, vous aurez remarqué qu'il y a quelque chose d'écrit entre ses parenthèse. On appelle cela un argument. Dans le cas de OnTriggerEnter, lorsqu'on entre dans la zone de détection, le script détecte qui vient d'entrer en collision avec l'objet et le garde en mémoire. Ainsi, dans votre code, vous pourrez utilisez l'objet other pour donner des ordres à cet objet qui vient d'entrer dans la zone de détection. Par exemple, vous pouvez vérifier son identité avec le code other.name   
-
-``` csharp
+```csharp
 private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Player")) 
     {
-        if(other.name == "nom")
-        {
-            codeici;
-        }
+        Debug.Log("Le joueur est entré dans la zone !");
     }
+}
 ```
 
-Ici, on vérifie si l'objet s'appelle nom et si oui, on exécute le code entre les accolades.   
+## Créer ses propres méthodes
 
-       
+Une méthode personnalisée permet de ne pas surcharger le Update() et de réutiliser du code.
 
-## OnTriggerExit(Collider other)
-Cette fonction est la même que OnTriggerEnter, mais elle est déclenchée lorsqu'on sort de la zone de détection.    
+Structure d'une méthode
 
-       
+`[Visibilité] [Type de retour] [Nom] ( [Arguments] )`
 
-## Fonction personnalisée()
-Dans Unity, il est très fréquent de créer nos propres fonctions. Cependant, elles ne seront pas appelées automatiquement, il faudra donc les déclencher grâce à des événements ou d'autres scripts.   
-Créer une fonction est simple. Il faut inscrire le code suivant:     
+- **Visibilité** : public (accessible par d'autres scripts) ou private (interne).
+- **Type de retour** : void si elle ne renvoie rien, sinon le type de donnée (ex: int).
+- **Arguments** : Variables passées en paramètres pour être utilisées à l'intérieur.
 
-``` csharp
-
-    public void NomFonction(){
-        code ici;
-    }
-```
-
-Le code se découpe en trois partie, la première nous sert à déterminer si notre fonction est privée ou publique. Ainsi, on peut inscrire private lorsqu'on souhaite appeler cette fonction seulement dans le script dans lequel on travaille présentement. On utilise plutôt public lorsque l'on veut appeler cette fonction depuis un autre endroit, avec un événement par exemple. La deuxième partie est le type de fonction, donc void. La troisième partie est le nom de la fonction. Vous pouvez la nommer comme vous le souhaitez. Normalement, on débute le nom de la fonction avec une majuscule.       
-
-Pour exécuter cette fonction dans le script, c'est très simple. Vous devez trouver à quel moment l'appeler. Par exemple, on pourrait avoir une condition qui vérifie si un bouton est appuyé dans notre Update et démarrer la fonction lorsqu'elle est appelée.
-    
-Voici un exemple:   
-
-``` csharp
+```csharp title="Exemples"
 void Update()
+{
+    if (Input.GetKeyDown(KeyCode.Space))
     {
-        if (Input.GetButtonDown("1"))
-        {
-            NomFonction();
-        }
-        
+        ChangerEtatObjet(gameObject, false); // Appel de la fonction
     }
+}
+
+// Fonction avec argument (GameObject)
+public void ChangerEtatObjet(GameObject cible, bool etat)
+{
+    cible.SetActive(etat);
+}
 ```
-
-Ici, on appelle la fonction NomFonction lorsque la touche 1 est enfoncée.   
-
-       
-
-## Ajouter un argument à une Fonction
-Lorsqu'on crée une Fonction, on peut lui donner un argument.   
-
-``` csharp
-public void MaFonction(GameObject objet)
-    {
-        objet.SetActive(true);
-    }
-```
-
-Ici, on a donné un GameObject comme argument à la Fonction MaFonction. Ainsi, on pourra assigner un GameObject à cette fonction et le modifier en utilisant objet dans le code. Vous pourriez mettre le nom de votre choix à la place de objet. Le code précédent active le GameObject objet lorsqu'il est appelé.     
-
-Les arguments peuvent être de plusieurs types, ainsi vous pouvez choisir un bool, int, float, GameObject, button,... Toutes les composantes peuvent servir d'argument.   
