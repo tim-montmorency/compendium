@@ -120,6 +120,6 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 Remettre avant le début du cours 3 : `+`, `commit "Remise"`, [...] `push`.
 
-![git +, commit 'Remise', ..., push](./assets/remise-git-commit-push.png)
+<img srdc="./assets/remise-git-commit-push.png" width="200" alt="git [+], commit Remise, [...], push">
 
 Si vous n'arrivez pas à faire le `push`, nous allons trouver une solution ensemble en début de cours 3.
