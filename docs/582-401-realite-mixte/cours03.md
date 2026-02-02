@@ -1,5 +1,10 @@
 # Cours 3
 
+## Annonce    
+[Bourse en soutien aux arts de Laval](https://fondationsoutienartslaval.com/poser-sa-candidature/){ .md-button .back }     
+    
+[Modalités de participation](https://fondationsoutienartslaval.com/wp-content/uploads/2025/11/Modalites-de-participation-2026.pdf){ .md-button .back }     
+
 
 ## Bloc 1     
 
@@ -47,7 +52,7 @@ Quelles conclusions pouvez-vous faire?
 #### Son
 - [:pencil: Audio Listener](./unity/composantes.md#audio-listener) 
 - [:pencil: Audio Source](./unity/composantes.md#audio-source) 
-- [:pencil: Code et son](./unity/son.md)  
+
 
 ### Avancement du travail 1
 #### Sons
@@ -56,7 +61,6 @@ Quelles conclusions pouvez-vous faire?
 
 ## Bloc 3
 #### Code
-- [:pencil: Configuration de Visual studio Community](./installation/telechargement.md)
 - [:pencil: Événements](./code/evenements.md)        
 
 
@@ -108,5 +112,13 @@ Quelles conclusions pouvez-vous faire?
 
 
 ## Devoir 
+
+#### Terminer les exercices de programmation
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 8 à 10](./travaux/travail1.md){ .md-button }   
+[💼 Travail 1 - Étapes 5 à 10](./travaux/travail1.md){ .md-button }   
+
+!!! info "Important"
+
+    Pour l'étape 10, vous pouvez seulement créer le schéma de programmation. La programmation pourra être faite en classe au cours suivant. 

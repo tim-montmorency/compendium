@@ -19,7 +19,7 @@ Debug.Log(message);
 ```
 
 ## Exercice 1
-
+Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main comme un schéma. 
 
 - [ ] Créez un nouveau script sur un GameObject vide.
 - [ ] Créez une variable qui change grâce à `Time.time`.
@@ -30,35 +30,43 @@ Résultat attendu:
 ![Image](../images/resultat_debug.jpg)
 
 ## Exercice 2
-Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main comme un schéma. 
 
 - [ ] Créez une nouvelle scène.
 - [ ] Créez un bouton (UI > Button).
-- [ ] Créez une image (UI > Image) avec l'opacité à 0.5f. 
-- [ ] Créez un objet vide nommé `Controle`. 
+- [ ] Créez un texte (UI > Text - TextMeshPro)  qui affiche le chiffre 0.
+- [ ] Créez un objet vide nommé `Compteur`. 
 - [ ] Créez un script sur ce nouvel objet. 
-- [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente à 1 l'opacité de votre image et que le clic suivant la réduise à 0.5f. En résumé, vous devez alterner la valeur de l'opacité entre 1 et 0.5f. 
+- [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente de 1 la valeur du chiffre qui est affiché sur votre écran. 
 
-      
 ``` c#
-using UnityEngine.UI; 
+using TMPro;
 ```
 
 ``` c#
-public Image nomImage;
-public bool myBool;
+public TextMeshProUGUI pointage;
 ```
 
 ``` c#
-nomImage.color = new Color(nomImage.color.r, nomImage.color.g, nomImage.color.b, 1f);
+nombre.ToString();
 ```
 
-``` c#
-if(myBool == true){
+## Démonstration
+On peut utiliser ce code pour modifier notre chiffre une seule fois par seconde: 
 
+```c#
+// dans la classe, mais hors la méthode
+public int temps;
+private float compteur; 
+
+// dans la méthode Update()
+compteur += Time.deltaTime;
+
+if (compteur > 1)
+{
+  temps++; 
+  compteur = 0; 
 }
 ```
-
 
 ## Exercice 3
 Au tableau, créez un schéma de programmation pour l'exercice 4. Écrivez ensuite votre code à la main. 
@@ -72,6 +80,10 @@ Pour activer ou désactiver un objet:
 ``` c#
 gameObject.SetActive(false);
 ```
+
+## Démonstration
+
+Comment transformer la vérification en méthode avec une valeur de retour. 
 
 ## Exercice 5
 
@@ -101,9 +113,3 @@ StartCoroutine("MaCoroutine");
 - [ ] Créez un nouveau script.
 - [ ] Créez des variables pour se réferer aux objets (image).
 - [ ] Utilisez une coroutine pour alterner entre une image et l'autre.
-
-
-
-
-
-

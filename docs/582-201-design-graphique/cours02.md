@@ -417,3 +417,8 @@ Quand vous créez, corrigez ou améliorez un design, commencez par :
   <small>Devoir - Figma</small><br>
   **[J'peux faire mieux que ça !](./activite/devoir/sauvetage/index.md){.stretched-link .back}**
 </div>
+
+[STOP]
+
+AMÉLIORATION pour 2027
+Changer la partie des principes par une partie plus interactives. C'est trop magistral. Il faudrait plutôt leur donner du matériel initial et ils le positionneraient de sorte à ce que ça respecte le principe.

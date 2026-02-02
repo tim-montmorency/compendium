@@ -1,13 +1,9 @@
-# Cours 3 
+# Cours 3
 
 [STOP]
 
 ## Les 12 principes d'animation
 [Révision 12 principes](./cours02.md#les-12-principes-de-lanimation)
-
-## Les calques (la suite)
-
-[:material-play-circle: Les types de calque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ET97Qp5f26pOgspYh56l23UBtVWGLQBvrfEfSJQ_D0rMwg)
 
 ### Solides
 
@@ -15,7 +11,7 @@ Les solides sont de simples fonds de couleur.
 
 Ils peuvent être utiles pour créer un fond de couleur à une scène ou pour faire un _fade out_ ou un _fade in_, mais principalement, les solides servent de support pour appliquer des effets et des modes de fusion. Bref, on y reviendra!
 
-[:simple-youtube: Usage d'un solide (2:24 à 3:24) | MotionCafe](https://www.youtube.com/watch?v=TLKC3xwGz8Y&t=124s)
+[:simple-youtube: Usage d'un solide (2:24 à 3:24) | MotionCafe](https://youtu.be/TLKC3xwGz8Y?si=lIfIm5P1jzwCTwdx&t=120)
 
 !!! info "Le saviez-vous ?"
 
@@ -31,7 +27,7 @@ Il est possible également de fabriquer toutes sortes de forme avec l'outil **Pl
 
 Le panneau **Caractère** permet de modifier l'apparence du texte (police, taille, interlignage, etc.), tandis que le panneau **Paragraph** gère l'alignement et la disposition des blocs de texte. Ensemble, ils offrent un contrôle précis sur la typographie[^txtlayer].
 
-[^txtlayer]: [Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
+[Création et modification des calques de texte](https://helpx.adobe.com/ca_fr/after-effects/using/creating-editing-text-layers.html)
 
 <div class="grid grid-1-2" markdown>
   ![Panneau Caractère](./assets/images/ae/panneau-caractere.png){ data-zoom-image }
@@ -84,7 +80,7 @@ Il existe plusieurs applications pour les calques de texte animés : titres anim
 
 
 #### Quelques turoriels intéressants : 
-* [Tutoriel - Effet machine à écrire](https://youtu.be/vtDtALyN3rY?feature=shared)
+* [Tutoriel - Effet machine à écrire](https://youtu.be/vGgK1XJUiY8?si=WSIaOzNuZBhHjqFx&t=248)
 * [Tutoriel - Lʼécriture cursive - Ligne qui se trace](https://helpx.adobe.com/ca_fr/after-effects/using/animating-text.html)
 
 
@@ -211,15 +207,16 @@ Gère la **position**, la **rotation** et la **mise à l’échelle**. Par exemp
 
 Définit l’ordre des couches dans l’animation, par exemple pour s’assurer qu’un bras passe devant ou derrière un corps.
 
-<!--
-## QUIZ FIN COURS 3 OU DÉBUT COURS 4 EN RÉVISION DU COURS 3
-[Quiz en classe](https://app.wooclap.com/HRCHUY)
--->
-
 ## Exercices
-[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }       
-    
-[🛠️ Voiture](exercices_ae/01_voiture.md){ .md-button }  
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/transmutation/transmutation-preview.png)
+
+  <small>Exercice - After Effects</small><br>
+  **[Transmutation](./exercices_ae/transmutation/transmutation.md){.stretched-link .back}**
+</div>
+
+[🛠️ Avion](exercices_ae/01_avion.md){ .md-button }        
 
 <!--
 <div class="grid grid-1-2" markdown>
@@ -229,12 +226,6 @@ Définit l’ordre des couches dans l’animation, par exemple pour s’assurer 
   **[Forme complexe](https://www.adobe.com/ca_fr/learn/after-effects/web/draw-complex-shapes?learnIn=1)**
 </div>
 -->
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/transmutation/transmutation-preview.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[Transmutation](./exercices_ae/transmutation/transmutation.md){.stretched-link .back}**
-</div>
 
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/gaia/gaia-preview.png)
