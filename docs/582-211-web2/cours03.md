@@ -165,7 +165,7 @@ Les consignes sont dans le README.md de l'exercice.
 Faire un commit et push de vos modifications sur GitHub Classroom.
 
 
-## BLOC 7 : ATELIER - *Portfolio: Créer un système CSS documenté*
+## BLOC 9 : ATELIER - *Portfolio: Créer un système CSS documenté*
 
 !!! tip Classement de vos fichiers du cours Web 2
     Que les fichiers de l'exercice proviennent de GitHub Classroom ou d'un lien direct comme ci-bas, je vous demande de toujours télécharger et classer vos fichiers d'exercice et d'atelier au même endroit. Cet endroit doit être accessible en tout temps et sur n'importe quel poste de travail. Par exemple :
@@ -193,4 +193,7 @@ Faire un commit et push de vos modifications sur GitHub Classroom.
 
 #### Devoirs à compléter et remettre pour le prochain cours
 
-Terminer les exercices non complétés en classe, particulièrement celles du bloc 7 et celle du bloc 8.
+Terminer et remettre les exercices non complétés en classe:
+
+- celle du [bloc 8](#bloc8-exercice-renommer-du-code-mal-structure).
+- celle du [bloc 9](#bloc-9-atelier-portfolio-creer-un-systeme-css-documente).
