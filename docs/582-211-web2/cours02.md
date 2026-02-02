@@ -112,7 +112,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 
 
-## *DEVOIRS* à faire pour le prochain cours
+## DEVOIRS à faire pour le prochain cours
 
 ### Bootcamp de révision & diagnostique HTML+CSS
 
