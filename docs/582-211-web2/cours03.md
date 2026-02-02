@@ -57,21 +57,32 @@ On va faire un tour de table pour analyser chaque schéma de navigation. et en d
 
 ## Activité - Analyse de la qualité du code CSS spaghetti
 
+#### Étape 1
+
+!!! tip Classement de vos fichiers du cours Web 2
+    Que les fichiers de l'exercice proviennent de GitHub Classroom ou d'un lien direct comme ci-bas, je vous demande de toujours télécharger et classer vos fichiers d'exercice et d'atelier au même endroit. Cet endroit doit être accessible en tout temps et sur n'importe quel poste de travail. Par exemple :
+
+    - votre **disque dur exerne**
+    - votre **clé USB**
+    - votre **OneDrive**
+
 <div class="grid grid-1-2" markdown>
   
   ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
 
   <div>
     [:material-download: Cliquez pour télécharger](https://classroom.github.com/a/3Yk2bX8i){ .md-button }
-
     Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier.
-
-    Téléchargez toujours vos fichiers d'exercices et d'ateliers au même endroit, soit sur votre **disque dur exerne**, votre **clé USB** ou encore sur votre **OneDrive**.
-
-    Ouvrez le ficheir téléchargé dans VS Code pour l'analyser.
-
-    [Cliquez ici pour accéder au questionnaire.(https://forms.office.com/r/j3FyHzC6pk)]
   </div>
 </div>
+
+
+#### Étape 2
+
+Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
+
+#### Étape 3
+
+[Cliquez ici pour accéder au questionnaire. (https://forms.office.com/r/j3FyHzC6pk)]
 
 
