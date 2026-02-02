@@ -22,7 +22,7 @@ CSS fluide et système de design (jetons et variables)
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
 
-## Bloc0: remise de l'exercice de *🍽️Menu de restaurant*
+## Bloc0: REMISE de l'exercice de *🍽️Menu de restaurant*
 
 - Si ce n'est pas fait, svp le remettre maintenant.
 - Si vous avez eu de la difficiulté avec le git, n'hésitez pas à me le faire savoir, nous allons trouver une solution ensemble.
@@ -38,7 +38,7 @@ CSS fluide et système de design (jetons et variables)
 
 
 
-## Bloc1: Retour en classe sur votre *Atelier: Schéma de navigation* du cours2
+## Bloc1: RETOUR sur *Atelier: Schéma de navigation* du cours2
 
 [👩🏻‍💻 Activité : Schéma de navigation - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button }
 
@@ -48,7 +48,9 @@ On va faire un tour de table pour analyser chaque schéma de navigation. et en d
 
 
 
-## Bloc2: Activité - Analyse de la qualité du code CSS spaghetti
+## Bloc2: ACTIVITÉ - Analyse de la qualité du code CSS spaghetti
+
+Exercice individuel
 
 #### Étape 1
 
@@ -79,16 +81,16 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 [Cliquez ici pour accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)]
 
 
-## Bloc3: Exposé - Pourquoi l'architedcture CSS compte
+## Bloc3: EXPOSÉ - Pourquoi l'architecture CSS compte
 
 [👩‍🏫 Exposé 3a: Pourquoi l'architedcture CSS compte: Télécharger le PPT :material-download:](./assets/cours03-p01-importance-architecture-css.pptx){ .md-button}
 
-## Bloc4 Démo live - Composant VS utilitaire
+## Bloc4: DÉMO LIVE - Composant VS utilitaire
 
 - card-composant.html
 - card-utilitaires.html
 
-## Bloc5
+## Bloc5: ATELIER - Identifier composants/utilitaires
 
 #### Étape 1
 
@@ -100,12 +102,6 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
     - votre **OneDrive**
 
 [:material-download: Récupérer de GitHub Classroom](https://classroom.github.com/a/TY_vd_9u){ .md-button }
-
-<div class="grid grid-1-2" markdown>
-  ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
-
-  Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier (n'oublie pas de bien choisir ou tu le places, sur ton disque dur externe, ta clé USB ou ton OneDrive).
-</div>
 
 
 #### Étape 2
@@ -126,15 +122,75 @@ Créez un tableau sur Whiteboard avec 3 colonnes :"
 |-----------|--------------------|-------------------|
 | Card projet | articles de projets | `.project-card`, `.project-card__image`, etc. |
 
-## Bloc6: Exposé - Nomenclature cohérente
+#### Étape 4 - Remise
+
+- Éditez le fichier remise.md pour y ajouter le lien vers votre Whiteboard et vos noms
+- Faire un commit et push de vos modifications sur GitHub Classroom.
+
+## Bloc6: EXPOSÉ - Nomenclature cohérente
 
 [👩‍🏫 Exposé 3b: Nomenclature cohérente: Télécharger le PPT :material-download:](./assets/cours03-p02-nomenclature-coherente.pptx){ .md-button}
 
+## Bloc7: EXPOSÉ - Les variables CSS
 
-## Bloc7: EXERCICE — RENOMMER DU CODE MAL STRUCTURÉ
+[👩‍🏫 Exposé 3c: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button}
 
-## BLOC 8 : ATELIER — CRÉER UN SYSTÈME CSS DOCUMENTÉ
 
-## Devoirs à remettre pour le prochain cours
 
-...
+## Bloc8: EXERCICE - Renommer du code mal structuré
+
+
+#### Étape 1
+
+!!! tip Classement de vos fichiers du cours Web 2
+    Que les fichiers de l'exercice proviennent de GitHub Classroom ou d'un lien direct comme ci-bas, je vous demande de toujours télécharger et classer vos fichiers d'exercice et d'atelier au même endroit. Cet endroit doit être accessible en tout temps et sur n'importe quel poste de travail. Par exemple :
+
+    - votre **disque dur exerne**
+    - votre **clé USB**
+    - votre **OneDrive**
+
+[:material-download: Récupérer de GitHub Classroom](https://classroom.github.com/a/CYpdc1jC){ .md-button }
+
+
+#### Étape 2
+
+Ouvrez le fichier téléchargé dans VS Code.
+
+#### Étape 3 - Consignes
+
+Les consignes sont dans le README.md de l'exercice.
+
+#### Étape 4 - Remise
+
+Faire un commit et push de vos modifications sur GitHub Classroom.
+
+
+## BLOC 7 : ATELIER - Créer un système CSS documenté
+
+!!! tip Classement de vos fichiers du cours Web 2
+    Que les fichiers de l'exercice proviennent de GitHub Classroom ou d'un lien direct comme ci-bas, je vous demande de toujours télécharger et classer vos fichiers d'exercice et d'atelier au même endroit. Cet endroit doit être accessible en tout temps et sur n'importe quel poste de travail. Par exemple :
+
+    - votre **disque dur exerne**
+    - votre **clé USB**
+    - votre **OneDrive**
+
+[:material-download: Récupérer de GitHub Classroom](https://classroom.github.com/a/s1rEev0T){ .md-button }
+
+
+#### Étape 2
+
+Ouvrez le fichier téléchargé dans VS Code.
+
+#### Étape 3 - Consignes
+
+Les consignes sont dans le README.md de l'exercice.
+
+#### Étape 4 - Remise
+
+Faire un commit et push de vos modifications sur GitHub Classroom.
+
+## DEVOIRS
+
+#### Devoirs à compléter et remettre pour le prochain cours
+
+Terminer les exercices non complétés en classe, particulièrement celles du bloc 7 et celle du bloc 8.
