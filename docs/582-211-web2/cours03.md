@@ -66,13 +66,13 @@ On va faire un tour de table pour analyser chaque schéma de navigation. et en d
     - votre **clé USB**
     - votre **OneDrive**
 
+[:material-download: Cliquez pour télécharger](https://classroom.github.com/a/3Yk2bX8i){ .md-button }
+
 <div class="grid grid-1-2" markdown>
-  
   ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
 
   <div>
-    [:material-download: Cliquez pour télécharger](https://classroom.github.com/a/3Yk2bX8i){ .md-button }
-    Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier.
+    Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier (n'oublie pas de bien choisir ou tu le places, sur ton disque dur externe, ta clé USB ou ton OneDrive).
   </div>
 </div>
 
