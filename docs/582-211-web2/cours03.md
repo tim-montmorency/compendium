@@ -169,6 +169,9 @@ Faire un commit et push de vos modifications sur GitHub Classroom.
 
 ## BLOC 9 : ATELIER - *Portfolio: Créer un système CSS documenté*
 
+À ne pas faire pour cette semaine. On verra ça au prochain cours.
+
+<!--
 #### Étape 1
 
 !!! tip Classement de vos fichiers du cours Web 2
@@ -192,12 +195,14 @@ Les consignes sont dans le README.md de l'exercice.
 #### Étape 4 - Remise
 
 Faire un commit et push de vos modifications sur GitHub Classroom.
-
+-->
 ## DEVOIRS
 
 #### Devoirs à compléter et remettre pour le prochain cours
 
 Terminer et remettre les exercices non complétés en classe:
 
-- celle du [bloc 8](#bloc8-exercice-renommer-du-code-mal-structure).
-- celle du [bloc 9](#bloc-9-atelier-portfolio-creer-un-systeme-css-documente).
+- celle du [bloc 5](#bloc5-atelier-identifier-composantsutilitaires) en équipe (whiteboard)
+- celle du [bloc 8](#bloc8-exercice-renommer-code-mal-structure-code-spaghetti) individuel
+
+- ~~celle du [bloc 9](#bloc-9-atelier-portfolio-creer-un-systeme-css-documente)~~
