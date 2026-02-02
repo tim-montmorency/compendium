@@ -52,6 +52,7 @@ Reprendre le site de l'exercice précédent
 ### Étape 5 – Menus multilingues
 
 * [ ] Ajouter le code dans fonctions.php
+      
       ``` js
           // Shortcode de sélecteur de langue avec Polylang
           // Usage : [custom_language_switcher]
@@ -65,15 +66,16 @@ Reprendre le site de l'exercice précédent
             ) );
           }
           add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
-          }
-    ```
+          }  ```
+      
 * [ ] Aller dans apparence / éditeur
 * [ ] Sélectionner Modèles / Pages
 * [ ] Double-cliquer sur le menu en haut
 * [ ] Ajouter un bloc : Shortcode
 * [ ] Copier le code suivant
-       ``` 
-       [custom_language_switcher]
+* [ ] 
+
+       ``` [custom_language_switcher]
        ```
 
 
@@ -82,9 +84,11 @@ Reprendre le site de l'exercice précédent
    
  * En français
  * En anglais
+   
 1.Vérifiez :
 
  * Pages
  * Menus
  * Sélecteur de langue
+   
 1. Changez de langue sur différentes pages
