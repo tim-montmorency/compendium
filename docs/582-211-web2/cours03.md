@@ -83,6 +83,6 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 
 #### Étape 3
 
-[Cliquez ici pour accéder au questionnaire. (https://forms.office.com/r/j3FyHzC6pk)]
+[Cliquez ici pour accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)]
 
 
