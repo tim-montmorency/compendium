@@ -50,46 +50,46 @@ Défi: Faire jouer un son sur un GameObject.
 Quelles conclusions pouvez-vous faire? 
 
 #### Son
-- [:pencil: Audio Listener](./unity/composantes.md#audio-listener) 
-- [:pencil: Audio Source](./unity/composantes.md#audio-source) 
+- [:pencil: Audio Listener](./unity/composantes.md#audio-listener){.back}
+- [:pencil: Audio Source](./unity/composantes.md#audio-source){.back}
 
 
 ### Avancement du travail 1
 #### Sons
-[💼 Travail 1 - Étape 8](./travaux/travail1.md#8-creation-de-la-scene-jeu-sons){ .md-button }     
+[💼 Travail 1 - Étape 8](./travaux/travail1.md#8-creation-de-la-scene-jeu-sons){ .md-button .back}     
 
 
 ## Bloc 3
 #### Code
-- [:pencil: Événements](./code/evenements.md)        
+- [:pencil: Événements](./code/evenements.md){.back}        
 
 
 #### Schéma de programmation
 À partir de l'image suivante, créez un schéma de programmation pour la scène menu:      
 
-[📁 Fichier de travail](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee-LXDldCVFIov1ACJGkmEoBhqrJd0oQh0RV7K8zOrR-CA?e=cPq9id){ .md-button }    
+[📁 Fichier de travail](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/lora_boisvert_cmontmorency_qc_ca/Ee-LXDldCVFIov1ACJGkmEoBhqrJd0oQh0RV7K8zOrR-CA?e=cPq9id){ .md-button .back}    
 
 
 
 ### Avancement du travail 1
 #### Configuration des boutons
-[💼 Travail 1 - Étape 9](./travaux/travail1.md#9-creation-de-la-scene-menu-script-consignes-et-credits){ .md-button }     
+[💼 Travail 1 - Étape 9](./travaux/travail1.md#9-creation-de-la-scene-menu-script-consignes-et-credits){ .md-button .back }     
 
 
 ## Bloc 4
 #### Code
-- [:pencil: Variables](./code/variables.md)
-- [:pencil: Structure d'un script](./code/structure_script.md)
-- [:pencil: Console](./code/console.md)
-- [:pencil: Opérateurs](./code/operateur.md)
-- [:pencil: Conditions](./code/condition.md)
-- [:pencil: Boucle](./code/boucle.md)
-- [:pencil: Aléatoire](./code/aleatoire.md)
-- [:pencil: Fonctions](./code/fonctions.md)     
-- [:pencil: Coroutine](./code/coroutine.md)        
+- [:pencil: Variables](./code/variables.md){.back}
+- [:pencil: Structure d'un script](./code/structure_script.md){.back}
+- [:pencil: Console](./code/console.md){.back}
+- [:pencil: Opérateurs](./code/operateur.md){.back}
+- [:pencil: Conditions](./code/condition.md){.back}
+- [:pencil: Boucle](./code/boucle.md){.back}
+- [:pencil: Aléatoire](./code/aleatoire.md){.back}
+- [:pencil: Fonctions](./code/fonctions.md){.back}     
+- [:pencil: Coroutine](./code/coroutine.md){.back}        
 
 #### Exercices de programmation
-[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button .back }  
 
 
 #### Réflexion sur le code de détection
@@ -107,17 +107,17 @@ Quelles conclusions pouvez-vous faire?
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button }     
+[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button .back }     
 
 
 
 ## Devoir 
 
 #### Terminer les exercices de programmation
-[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button .back }  
 
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 5 à 10](./travaux/travail1.md){ .md-button }   
+[💼 Travail 1 - Étapes 5 à 10](./travaux/travail1.md){ .md-button .back }   
 
 !!! info "Important"
 

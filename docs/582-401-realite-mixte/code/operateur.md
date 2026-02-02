@@ -1,16 +1,64 @@
 # Opérateurs
-Voici une liste des opérateurs courants dans Unity:   
 
-- **+=** (myInt += 2;) additionne 2 à myInt
-- **-=** (myInt -= 2;) soustrait 2 à myInt
-- **++** (myInt ++;) additionne 1 à myInt
-- **--** (myInt --;) soustrait 1 à myInt
-- __*=__ (myInt *= 2;) multiplie myInt par 2
-- **/=** (myInt /= 2;) divise myInt en 2
-- **%=** (myInt %= 2;) calcule le reste de la division de myInt par 2
-- __+, -, * et /__ peuvent aussi être utilisés entre 2 nombres
+## Opérateurs d’affectation (modifier une variable)
 
-!!! info "Information"
+Ces opérateurs modifient la variable **et** lui réassignent le résultat.
 
-    Dans Unity, il est souvent plus simple de faire *0.5f que de diviser notre nombre en deux. Même chose pour toutes les divisions, on peut les remplacer par une multiplication par une fraction.
-       
+- **`+=`** : addition puis réaffectation
+- **`-=`** : soustraction puis réaffectation
+- **`*=`** : multiplication puis réaffectation
+- **`/=`** : division puis réaffectation
+- **`%=`** : modulo (reste) puis réaffectation
+
+Exemples :
+
+```csharp
+int myInt = 10;
+
+myInt += 2; // myInt vaut 12
+myInt -= 3; // myInt vaut 9
+myInt *= 2; // myInt vaut 18
+myInt /= 3; // myInt vaut 6
+myInt %= 4; // myInt vaut 2 (car 6 % 4 = 2)
+```
+
+## Incrémentation / décrémentation
+
+- **`++`** : ajoute 1
+- **`--`** : enlève 1
+
+```csharp
+int myInt = 10;
+
+myInt++; // myInt vaut 11
+myInt--; // myInt vaut 10
+```
+
+!!! info "Attention aux espaces"
+    En C#, on écrit `myInt++;` et `myInt--;` (pas `myInt ++;`).
+
+## Opérateurs arithmétiques (entre 2 valeurs)
+
+Vous pouvez aussi utiliser : **`+`**, **`-`**, **`*`**, **`/`** entre deux nombres.
+
+```csharp
+int a = 6;
+int b = 4;
+
+int somme = a + b;       // 10
+int produit = a * b;     // 24
+int difference = a - b;  // 2
+```
+
+!!! info "Division : int vs float"
+    - Si `a` et `b` sont des `int`, `a / b` fait une **division entière** (le résultat est arrondi vers le bas).
+    - Pour obtenir un résultat décimal, utilisez des `float` : `0.5f`, `2f`.
+
+    ```csharp
+    int x = 5;
+
+    int demiInt = x / 2;           // 2   (division entière)
+    float demiFloat1 = x / 2f;     // 2.5
+    float demiFloat2 = x * 0.5f;   // 2.5 (souvent préféré)
+    ```
+

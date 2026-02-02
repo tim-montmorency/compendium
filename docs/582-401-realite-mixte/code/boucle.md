@@ -1,21 +1,46 @@
-# Boucle
-Dans Unity, les boucles sont souvent utilisées pour compter des éléments ou interagir avec les tableaux.   
+# Boucles
 
-``` csharp
-for(int i = 0; i < 3; i++)
+Les boucles servent surtout à :
+
+- répéter une action plusieurs fois
+- parcourir un tableau (array) ou une liste (List)
+- appliquer une logique à chaque élément (ex. : désactiver des objets, compter, initialiser)
+
+## La boucle `for`
+
+```csharp
+for (int i = 0; i < 3; i++)
 {
-
+        // Ce code s’exécute 3 fois : i = 0, 1, 2
 }
 ```
 
-Ci-haut, on crée une boucle dont le code sera exécuté 3 fois avant que le code qui le suit s'exécute.   
+Le `for` a 3 parties :
 
-``` csharp
-for(int i = 0; i < myInts.Length; i++)
+- `int i = 0` : on crée l’index (départ)
+- `i < 3` : condition pour continuer
+- `i++` : on avance d’un pas à chaque tour
+
+### Parcourir un tableau
+
+En Unity, on évite les chiffres “magiques” et on utilise la longueur du tableau.
+
+```csharp
+int[] myInts = { 3, 7, 9 };
+
+for (int i = 0; i < myInts.Length; i++)
 {
-        myInts[i] =0; 
+        myInts[i] = 0;
 }
 ```
 
-Dans Unity, une pratique courante lorsqu'on crée une boucle est d'utiliser la longueur d'un tableau plutôt qu'un chiffre fixe. Ainsi, ci-haut ma boucle sera répétée autant de fois qu'il y a de chiffres dans le tableau myInts[]. Cela permet de ne pas avoir à changer le code à chaque fois que notre tableau change en longueur.   
+## `foreach`
 
+Si tu n’as pas besoin de l’index (`int i`), `foreach` est le plus simple.
+
+```csharp
+foreach (int value in myInts)
+{
+        // value = 3, puis 7, puis 9
+}
+```
