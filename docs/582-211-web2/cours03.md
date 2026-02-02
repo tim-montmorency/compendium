@@ -67,7 +67,7 @@ Exercice individuel
   ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
 
   <div>
-    Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier (n'oublie pas de bien choisir ou tu le places, sur ton disque dur externe, ta clé USB ou ton OneDrive).
+    Ensuite en haut à droite, le premier icône [⤓] te permet de télécharger le fichier de l'atelier (n'oublie pas de bien choisir ou tu le places, sur ton disque dur externe, ta clé USB ou ton OneDrive).
   </div>
 </div>
 
