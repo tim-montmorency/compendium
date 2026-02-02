@@ -72,6 +72,15 @@ iframe.center {
   border: 3px solid pink;
 }
 
+.float-right{
+  float: right !important;
+  margin-left: 1rem;
+}
+.float-left{
+  float: left !important;
+  margin-right: 1rem;
+}
+
 .sm, .small {
   font-size: 0.8em;
   line-height: 1.66;

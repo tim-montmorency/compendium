@@ -2,7 +2,9 @@
 
 [STOP]
 
-Animation
+https://www.youtube.com/watch?v=7rPa1GvX4Do&t=8s
+
+
 
 micro-interactions, règles de mouvement (durée/easing), utilité (feedback/continuité).
 
