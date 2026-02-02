@@ -10,7 +10,7 @@
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
 * Pour vos moodboards vous pouvez vous rendre sur
  * [Shot café](https://shot.cafe/)
- * [Pinterest](https://ca.pinterest.com/)
+ * [Pinterest](https://ca.pinterest.com/) 
 
 
 ## Raccords et montage
