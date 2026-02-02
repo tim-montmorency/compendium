@@ -78,7 +78,7 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 
 #### Étape 3
 
-[Cliquez ici pour accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)]
+[Cliquez ici pour accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)
 
 
 ## Bloc3: EXPOSÉ - Pourquoi l'*architecture CSS* est importante
@@ -116,7 +116,8 @@ Analysez la page `c3-composant-utilitaire.html` et identifiez :
 - Les UTILITAIRES potentiels (styles ponctuels qu'on pourrait réutiliser ailleurs)
 - La nomenclature que vous proposez pour chaque composant
 
-Créez un tableau sur Whiteboard avec 3 colonnes :"
+<br>
+Créez un tableau sur Miocrosoft Whiteboard avec 3 colonnes :
 
 | Composant | Éléments concernés | Classes proposées |
 |-----------|--------------------|-------------------|
@@ -166,6 +167,8 @@ Faire un commit et push de vos modifications sur GitHub Classroom.
 
 
 ## BLOC 9 : ATELIER - *Portfolio: Créer un système CSS documenté*
+
+#### Étape 1
 
 !!! tip Classement de vos fichiers du cours Web 2
     Que les fichiers de l'exercice proviennent de GitHub Classroom ou d'un lien direct comme ci-bas, je vous demande de toujours télécharger et classer vos fichiers d'exercice et d'atelier au même endroit. Cet endroit doit être accessible en tout temps et sur n'importe quel poste de travail. Par exemple :
