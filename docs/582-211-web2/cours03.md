@@ -99,14 +99,12 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
     - votre **clé USB**
     - votre **OneDrive**
 
-[:material-download: Cliquez pour télécharger](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBuAX-McLf_S5SzfdBRv08UAS8iGgUZP3ObJPAgA7kobbI?e=PcYOXb){ .md-button }
+[:material-download: Récupérer de GitHub Classroom](https://classroom.github.com/a/TY_vd_9u){ .md-button }
 
 <div class="grid grid-1-2" markdown>
   ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
 
-  <div>
-    Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier (n'oublie pas de bien choisir ou tu le places, sur ton disque dur externe, ta clé USB ou ton OneDrive).
-  </div>
+  Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier (n'oublie pas de bien choisir ou tu le places, sur ton disque dur externe, ta clé USB ou ton OneDrive).
 </div>
 
 
@@ -114,5 +112,29 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 
 Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 
-#### Étape 3
+#### Étape 3 - Consignes
 
+Analysez la page `c3-composant-utilitaire.html` et identifiez :
+
+- Les COMPOSANTS réutilisables (éléments qui se répètent identiquement)
+- Les UTILITAIRES potentiels (styles ponctuels qu'on pourrait réutiliser ailleurs)
+- La nomenclature que vous proposez pour chaque composant
+
+Créez un tableau sur Whiteboard avec 3 colonnes :"
+
+| Composant | Éléments concernés | Classes proposées |
+|-----------|--------------------|-------------------|
+| Card projet | articles de projets | `.project-card`, `.project-card__image`, etc. |
+
+## Bloc6: Exposé - Nomenclature cohérente
+
+[👩‍🏫 Exposé 3b: Nomenclature cohérente: Télécharger le PPT :material-download:](./assets/cours03-p02-nomenclature-coherente.pptx){ .md-button}
+
+
+## Bloc7: EXERCICE — RENOMMER DU CODE MAL STRUCTURÉ
+
+## BLOC 8 : ATELIER — CRÉER UN SYSTÈME CSS DOCUMENTÉ
+
+## Devoirs à remettre pour le prochain cours
+
+...
