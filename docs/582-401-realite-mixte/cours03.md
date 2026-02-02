@@ -105,6 +105,10 @@ Quelles conclusions pouvez-vous faire?
 Écrivez votre code pour le travail 1 à la main. Validez le ensuite avec votre enseignant. 
 
 
+[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }     
+
+
+
 ### Avancement du travail 1
 #### Script
 [💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button .back }     

@@ -31,7 +31,7 @@ Reprendre le site de l'exercice précédent
  * Vérifiez qu’elle est associée au français
 * [ ] Cliquez sur l’icône + sous English (si présente)
 
-### Étape 3 – Traduction d’une page (20 min)
+### Étape 3 – Traduction d’une page 
 
 * [ ] Créez une traduction anglaise d’une page existante
 * [ ] Modifiez :
@@ -49,30 +49,41 @@ Reprendre le site de l'exercice précédent
 * [ ] Traduisez le contenu
 * [ ] Publiez
 
-### Étape 5 – Menus multilingues (20 min)
+### Étape 5 – Menus multilingues
 
-* [ ] Allez dans Apparence → Menus
-* [ ] Créez un menu en français
- * Ajoutez les pages FR
- * Assignez-le à l’emplacement principal
-* [ ] Créez un menu en anglais
- * Ajoutez les pages EN
- * Assignez-le à l’emplacement principal (langue anglaise)
+* [ ] Ajouter le code dans fonctions.php
+      ``` js
+          // Shortcode de sélecteur de langue avec Polylang
+          // Usage : [custom_language_switcher]
+          function custom_pll_language_switcher() {
+            return pll_the_languages( array(
+              'show_flags' => 1,
+              'show_names' => 1,
+              'display_names_as' => 'name', // name ou slug
+              'echo' => 0,
+              'hide_current' => 1,
+            ) );
+          }
+          add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
+          }
+    ```
+* [ ] Aller dans apparence / éditeur
+* [ ] Sélectionner Modèles / Pages
+* [ ] Double-cliquer sur le menu en haut
+* [ ] Ajouter un bloc : Shortcode
+* [ ] Copier le code suivant
+       ``` 
+       [custom_language_switcher]
+       ```
 
-### Étape 6 – Sélecteur de langue 
-* [ ] Allez dans Apparence → Menus
-* [ ] Ajoutez l’élément Sélecteur de langue
-* [ ] Activez :
- * Affichage des noms ou drapeaux
-* [ ] Enregistrez le menu
-* [ ] Visitez le site
-* [ ] Testez le changement de langue
 
-### Étape 7 – Test final 
+### Étape 6 – Test final 
 1. Naviguez sur le site :
+   
  * En français
  * En anglais
 1.Vérifiez :
+
  * Pages
  * Menus
  * Sélecteur de langue
