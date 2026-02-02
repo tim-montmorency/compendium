@@ -62,15 +62,17 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
   
   ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
 
-  [:material-download: Cliquez pour télécharger](https://classroom.github.com/a/3Yk2bX8i){ .md-button }
+  <div>
+    [:material-download: Cliquez pour télécharger](https://classroom.github.com/a/3Yk2bX8i){ .md-button }
 
-  Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier.
+    Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier.
 
-  Téléchargez toujours vos fichiers d'exercices et d'ateliers au même endroit, soit sur votre **disque dur exerne**, votre **clé USB** ou encore sur votre **OneDrive**.
+    Téléchargez toujours vos fichiers d'exercices et d'ateliers au même endroit, soit sur votre **disque dur exerne**, votre **clé USB** ou encore sur votre **OneDrive**.
 
-  Ouvrez le ficheir téléchargé dans VS Code pour l'analyser.
+    Ouvrez le ficheir téléchargé dans VS Code pour l'analyser.
 
-  [Cliquez ici pour accéder au questionnaire.(https://forms.office.com/r/j3FyHzC6pk)]
+    [Cliquez ici pour accéder au questionnaire.(https://forms.office.com/r/j3FyHzC6pk)]
+  </div>
 </div>
 
 
