@@ -1,8 +1,5 @@
 # Cours 2
 
-## Disque dur
-* Transfert des fichiers sur le disque dur.
-* [davinci](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/IgB5MpV2gzlhQrLO9nI6RRQMARiHGyY-gciZ3_dJz9paSOI?e=ismOry)
   
 ## Retour sur les évaluations obligatoires en classe
 * Voir plan de cours

@@ -2,6 +2,11 @@
 
 [STOP]
 
+![](./assets/img/illusion-couleur.png)
+
+
+Variables : https://www.youtube.com/watch?v=as184ZLawVI (plus tard?)
+
 Figma Draw
 
 Théorie des couleurs
