@@ -142,7 +142,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 
 <iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/SZLAsk_fQtE?si=10cZ0tSH82XY-MKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[STOP]
+
 
 ### 5 | Création de la scène Menu - UI
 
@@ -211,6 +211,7 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 Voici une ressource pour vous aider à créer votre code: 
 [:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCGwme2VNfQQJwfMoV00-46AT9qvtRzRcPFf-LXMF5mGvw?e=kd3NQ5){ .md-button }    
 
+[STOP]
 
 ### 11 | Création de la scène Menu - Script UI
 
