@@ -111,11 +111,10 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 [Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button }
 
 
-## Bootcamp de révision & diagnostique HTML+CSS
 
-[🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
+## *DEVOIRS* à faire pour le prochain cours
 
-## **DEVOIRS** à faire pour le prochain cours
+### Bootcamp de révision & diagnostique HTML+CSS
 
 [🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
 
@@ -123,3 +122,4 @@ Remettre avant le début du cours 3 : `+`, `commit "Remise"`, [...] `push`.
 
 ![git +, commit 'Remise', ..., push](./assets/remise-git-commit-push.png)
 
+Si vous n'arrivez pas à faire le `push`, nous allons trouver une solution ensemble en début de cours 3.
