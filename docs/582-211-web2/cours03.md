@@ -49,7 +49,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 ## Retour en classe sur votre atelier: schéma de navigation du cours2
 
-[👩🏻:material-download: Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
 
 
 ## Retour en classe sur votre atelier: schéma de navigation du cours2
@@ -58,6 +58,19 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 ## Activité - Analyse de la qualité du code CSS spaghetti
 
-[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/3Yk2bX8i){ .md-button .md-button--primary }
+<div class="grid grid-1-2" markdown>
+  
+  ![Icone en haut à droite pour télécharger le fichier](./assets/telechargez-fichier-onedrive.png){ data-zoom-image }
 
-![alt text](./assets/telechargez-fichier-onedrive.png)
+  [:material-download: Cliquez pour télécharger](https://classroom.github.com/a/3Yk2bX8i){ .md-button }
+
+  Ensuite en haut à droite, le premier icône :material-download: te permet de télécharger le fichier de l'atelier.
+
+  Téléchargez toujours vos fichiers d'exercices et d'ateliers au même endroit, soit sur votre **disque dur exerne**, votre **clé USB** ou encore sur votre **OneDrive**.
+
+  Ouvrez le ficheir téléchargé dans VS Code pour l'analyser.
+
+  [Cliquez ici pour accéder au questionnaire.(https://forms.office.com/r/j3FyHzC6pk)]
+</div>
+
+
