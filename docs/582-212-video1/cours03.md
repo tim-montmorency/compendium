@@ -5,8 +5,13 @@
 * [Kendrick Lamar](https://www.youtube.com/watch?v=ecIH-4RbbOk)
 * [Clarli XCX](https://www.youtube.com/watch?v=agu22bqGHto)
 * [Clarli XCX](https://www.youtube.com/watch?v=Xgp7wlBfASA&t=55s)
-* [Flying lotus](https://vimeo.com/90796762)
-* [Hornbach](https://vimeo.com/1113169877)
+
+## La préproduction
+* [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+* Pour vos moodboards vous pouvez vous rendre sur
+ * [Shot café](https://shot.cafe/)
+ * [Pinterest](https://ca.pinterest.com/)
+
 
 ## Raccords et montage
 [Raccords et montage](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETMNBUnU9UVGvCU_lMkEqxQBQUPM05OXeLXkz1Z9oseLlw?e=g6A158) 
