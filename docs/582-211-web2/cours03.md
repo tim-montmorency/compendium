@@ -22,12 +22,11 @@ CSS fluide et système de design (jetons et variables)
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
 
-## Rappel: remise de l'exercice de menu de restorant
+## Bloc 0: remise de l'exercice de *🍽️ Menu de restaurant*
 
 - Si ce n'est pas fait, svp le remettre maintenant.
 - Si vous avez eu de la difficiulté avec le git, n'hésitez pas à me le faire savoir, nous allons trouver une solution ensemble.
 
-[🍽️ Menu de restaurant](./exercices/cours3-menu-resto/index.md){ .md-button }
 
 ## Tutorat cette session
 
@@ -53,6 +52,8 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 C'était un exercice en équipe. Un des membres de votre équipe doit ouvrir le dossier de l'exercice dans VS Code et ouvrir le fichier du schéma `.drawio`.
 
 On va faire un tour de table pour analyser chaque schéma de navigation. et en discuter ensemble.
+
+
 
 ## Activité - Analyse de la qualité du code CSS spaghetti
 
