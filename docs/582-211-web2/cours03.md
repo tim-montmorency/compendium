@@ -48,7 +48,7 @@ On va faire un tour de table pour analyser chaque schéma de navigation. et en d
 
 
 
-## Bloc2: ACTIVITÉ - Analyse de la qualité du code CSS spaghetti
+## Bloc2: ACTIVITÉ - *Analyse de la qualité du code CSS spaghetti*
 
 Exercice individuel
 
@@ -81,16 +81,16 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 [Cliquez ici pour accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)]
 
 
-## Bloc3: EXPOSÉ - Pourquoi l'architecture CSS compte
+## Bloc3: EXPOSÉ - Pourquoi l'*architecture CSS* est importante
 
 [👩‍🏫 Exposé 3a: Pourquoi l'architedcture CSS compte: Télécharger le PPT :material-download:](./assets/cours03-p01-importance-architecture-css.pptx){ .md-button}
 
-## Bloc4: DÉMO LIVE - Composant VS utilitaire
+## Bloc4: DÉMO LIVE - *Composant VS utilitaire*
 
 - card-composant.html
 - card-utilitaires.html
 
-## Bloc5: ATELIER - Identifier composants/utilitaires
+## Bloc5: ATELIER - *Identifier composants/utilitaires*
 
 #### Étape 1
 
@@ -127,17 +127,17 @@ Créez un tableau sur Whiteboard avec 3 colonnes :"
 - Éditez le fichier remise.md pour y ajouter le lien vers votre Whiteboard et vos noms
 - Faire un commit et push de vos modifications sur GitHub Classroom.
 
-## Bloc6: EXPOSÉ - Nomenclature cohérente
+## Bloc6: EXPOSÉ - *Nomenclature cohérente*
 
 [👩‍🏫 Exposé 3b: Nomenclature cohérente: Télécharger le PPT :material-download:](./assets/cours03-p02-nomenclature-coherente.pptx){ .md-button}
 
-## Bloc7: EXPOSÉ - Les variables CSS
+## Bloc7: EXPOSÉ - Les *variables CSS*
 
 [👩‍🏫 Exposé 3c: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button}
 
 
 
-## Bloc8: EXERCICE - Renommer du code mal structuré
+## Bloc8: EXERCICE - *Renommer code mal structuré (code spaghetti)*
 
 
 #### Étape 1
@@ -165,7 +165,7 @@ Les consignes sont dans le README.md de l'exercice.
 Faire un commit et push de vos modifications sur GitHub Classroom.
 
 
-## BLOC 7 : ATELIER - Créer un système CSS documenté
+## BLOC 7 : ATELIER - *Portfolio: Créer un système CSS documenté*
 
 !!! tip Classement de vos fichiers du cours Web 2
     Que les fichiers de l'exercice proviennent de GitHub Classroom ou d'un lien direct comme ci-bas, je vous demande de toujours télécharger et classer vos fichiers d'exercice et d'atelier au même endroit. Cet endroit doit être accessible en tout temps et sur n'importe quel poste de travail. Par exemple :
