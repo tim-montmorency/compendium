@@ -78,8 +78,9 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 
 #### Étape 3
 
-[Cliquez ici pour accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)
-
+[Groupe lundi AM: Accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)
+[Groupe lundi PM: Accéder au questionnaire](https://forms.office.com/r/wVdwjhtnsc)
+[Groupe merc. AM: Accéder au questionnaire](https://forms.office.com/r/sPsT4LpiRv)
 
 ## Bloc3: EXPOSÉ - Pourquoi l'*architecture CSS* est importante
 
@@ -117,7 +118,7 @@ Analysez la page `c3-composant-utilitaire.html` et identifiez :
 - La nomenclature que vous proposez pour chaque composant
 
 <br>
-Créez un tableau sur Miocrosoft Whiteboard avec 3 colonnes :
+Créez un tableau sur Microsoft Whiteboard avec 3 colonnes :
 
 | Composant | Éléments concernés | Classes proposées |
 |-----------|--------------------|-------------------|
