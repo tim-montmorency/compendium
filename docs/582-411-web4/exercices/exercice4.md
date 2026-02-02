@@ -52,7 +52,7 @@ Reprendre le site de l'exercice précédent
 ### Étape 5 – Menus multilingues
 
 * [ ] Ajouter le code dans fonctions.php
-      ``` 
+      ``` js
           // Shortcode de sélecteur de langue avec Polylang
           // Usage : [custom_language_switcher]
           function custom_pll_language_switcher() {
@@ -77,11 +77,13 @@ Reprendre le site de l'exercice précédent
        ```
 
 
-### Étape 7 – Test final 
+### Étape 6 – Test final 
 1. Naviguez sur le site :
+   
  * En français
  * En anglais
 1.Vérifiez :
+
  * Pages
  * Menus
  * Sélecteur de langue
