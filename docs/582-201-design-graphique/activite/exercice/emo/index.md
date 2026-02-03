@@ -16,5 +16,5 @@ Les images à utiliser sont les suivantes :
 
 ## Consignes
 
-- [ ] Dans figma, créer 4 frames, 1 par émotion.
-- [ ] Trouver une police qui représente bien l'émotion et l'inscrire par dessus l'image. 
+- [ ] Dans Figma, créer 4 frames, une par émotion. Les dimensions des frames doivent être les mêmes pour chaque émotion.
+- [ ] Trouver et appliquer une police qui, selon vous, représente bien l'émotion, puis l'inscrire par-dessus l'image. Chaque police doit avoir la même taille.
