@@ -95,6 +95,110 @@
   * Alt+Y : Sélectionner tous les clips après la tête de lecture.
   * Ctrl+Alt+Y : Sélectionner tous les clips avant la tête de lecture.
 
+### Notions: le montage audio
+* [▶️ Montage sonore track mono et stéréo 
+](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUQc8fwZD7dIoLNbJQmtmcoBwPkehrYwhT9oMOjFrXcnQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EYJL2b)
+* [▶️ Normalisation du son](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY8KmAleO-VPn3TBTEnZ9OYBZ7upASoFTHbMaxvANa62nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trWKxK)
+* [▶️ Keyframe volume](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY8KmAleO-VPn3TBTEnZ9OYBZ7upASoFTHbMaxvANa62nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trWKxK)
+* [▶️ Keyframe panoramique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY8KmAleO-VPn3TBTEnZ9OYBZ7upASoFTHbMaxvANa62nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trWKxK)
+* [▶️ keyframe pitch son](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWTF7KJwz99EqqnOjNSMjMYBa7zEhZvetVDbIzkaBMAkSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6zZfch)
+
+* 🛠️ **Gestion des pistes sonores** : Intégrer un son sur la piste appropriée en respectant le format (mono ou stéréo). <br>
+* 🛠️ **Ajustement du volume** : Monter ou descendre le volume en utilisant des keyframes pour créer des transitions sonores fluides.
+* 🛠️ **Création de panoramiques** : Configurer le son pour déplacer l’audio d’un côté à l’autre de la scène (effet de panoramique). <br>
+* 🛠️ **Effets sonores avec transitions** : Ajouter des effets sonores et appliquer des transitions de type fade in et fade out pour une entrée et une sortie sonores progressives. <br>
+* Utiliser le clip coton (3250224-hd_1920_1080_30fps.mp4) comme ambiance sonore et ajouter des transitions fade in et fade out.
+* Insérer le fichier sonore LOW-HIT_Turner_Round.wav pour marquer une transition, avec des fade in et fade out pour fluidifier l’effet.
+
+
+
+### Notions: l'inspecteur 
+* [▶️ Utilisation de l'inspecteur 1](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_video/_capsules_montage/_capsules_da_vinci/01_capsules_da_vinci/01_da_vinci_de_base/16_montage_video/04_onglet_montage_inspecteur_1.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rN6LMZ)
+* [▶️ Utilisation de l'inspecteur 2](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ed1bZq74SjtCtb-SpS5RDFEBR5TBonsT9DAi2KvzTG9pYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=syujLB)
+* [▶️ Création d'une mosaïque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfMBD0AyjY9GsfAlCABvc3oBkuRH3cFjMcGq5SzawyOL5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WetT39)
+
+* 🛠️ **Montage avec changement de dimensions** : Synchroniser les clips au tempo et réduire progressivement la taille de l'image pour créer un effet visuel dynamique. <br>
+* 🛠️ **Montage mosaïque** : Synchroniser les clips au tempo en réduisant leur taille pour créer un arrangement en mosaïque. <br>
+* 🛠️ **Montage superposé avec inversion du clip** : Couper les clips au tempo et les superposer en couches multiples. Ajouter des effets d'inversion (flipping) sur certains clips pour varier les transitions. <br>
+
+### Notions: transitions visuelles et sonores
+
+* [▶️ Fade in et fade out via Keyframe in et out](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EfO-HkWRumtGsJlB93HoQBgBqc9Gfh5eOiObvxYlRjP8sA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5UW3H3)
+* [▶️ Transition vidéo et audio](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYZICGdjsvxAuYrNqE0eYcoB7rHn2kmWGhSs0xwqeWqq4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SrbaWd)
+
+* 🛠️ **Transition audio en fondu** : Utiliser des keyframes pour créer des transitions sonores de type fade in (augmentation progressive du volume) et fade out (diminution progressive du volume).
+* 🛠️ **Transition Stretch Blur (image)** : Ajouter une transition stretch blur pour créer un effet de flou étiré entre deux clips.
+
+
+### Notions: effets visuels - vitesse
+
+* [▶️ Application d'une vitesse créée au tournage](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZDgmlg_m3pEpjrJbCG8GTMB96fYrIlvL09Or-P5C-huOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2wYOSM)
+
+* [▶️ Modification de la vitesse créée en post-prod](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZcHjcSKghhGhhu0apTIVg8BymwJBgLMah6bQNYmM6fjNg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tZBkHM)
+* [▶️ Modification de la vitesse grâce à des courbes](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EVWkfct7IlZFoKEYUpWpggUB8Savf5d248RtVmbURgnU0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1at93x)
+
+🛠️ **Changement de vitesse accéléré** : Modifier la vitesse du clip 10677317-uhd_4096_2160_25fps.mp4 pour ajuster son rythme selon les besoins du projet.
+
+🛠️ **Changement de vitesse ralenti** : Modifier la vitesse du clip 08132018_192402.mov pour ajuster son rythme selon les besoins du projet. Le clip a été tourné au ralenti. 
+
+
+### Notions: effets visuels - filtres
+
+* [▶️ Application d'un filtre](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ER5o3UEcNhJHgVsP5t2Sk-UBXLGeuFTsdEc-Bn3gpjh2lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Cz46Zw)
+
+* [▶️ Création d'un plan d'effets](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EWuDpULw6idLhcf7TEgd7v0BBS4y1RHt6vkxHTAI7mr3GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tx9q3m)
+
+* [▶️ Utilisation d'un générateur pour créer un arrière plan de couleur](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETvIRujw_dtMs4hdj9Pe_cMBh_MAUnvciK-XYxQH4d1yMA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GhhetR)
+
+* 🛠️ **Effet de flicker** : Couper des séquences dans une vidéo et superposer un générateur de couleur sur les coupes pour créer un effet de clignotement (flicker). Ajuster les effets de fusion et de transparence pour enrichir l'impact visuel.
+* 🛠️ **Effet de flou** : Appliquer un gaussian blur sur une image au début, puis réduire progressivement l'effet pour rendre l'image nette.
+
+
+
+
+
+### Notions: effets visuels - animation de texte
+
+* [▶️ Présentation du safe title et safe image](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EaA3EB_dtGNDkL9Vjm4b6iABsPFOsZzm6pIbsJxGdWMPAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BSLrjI)
+
+* [▶️ Animation d'un texte dans text plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbTkinTD3ghEg7y8Y_m1zGIBHQYzW5mT3rDMUw6KLd5-rQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3nitbc)
+
+* [▶️ Animation d'un texte pour un générique/titre et personne](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EbOl9IVDRBBAsi3KyuohQ3cBoT0o0HK8wTIgWSa6XuWZWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j6dda6)
+
+* [▶️ Animation d'un texte avec les options de fusion](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EW7hJ4yVHNhAkndb2HVNumEBtrchHYmEazYZNfAkP8VQsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBL0XA)
+
+* 🛠️ **Insertion de texte avec vidéo intégrée** : Ajouter un texte dans lequel la vidéo est visible à l'intérieur des lettres, en utilisant des masques ou des outils de fusion pour intégrer la vidéo dans la typographie.
+
+* <details>
+<summary>🛠️ Méthode </summary>
+
+### Étapes
+
+1. **Positionner les clips dans la timeline :**
+- Placez la **vidéo** sur la **piste supérieure**.
+- Ajoutez un titre (**Text+**) sur la **piste inférieure**.
+
+2. **Configurer le texte en mode Alpha :**
+- Sélectionnez le clip de texte (piste inférieure).
+- Dans **Inspector**, sous l’onglet *Composite*, changez le **Mode de Fusion** (Blend Mode) à **Alpha**.
+
+3. **Configurer la vidéo en mode Foreground :**
+- Sélectionnez le clip vidéo (piste supérieure).
+- Dans **Inspector**, sous l’onglet *Composite*, changez le **Mode de Fusion** (Blend Mode) à **Foreground**.
+
+4. **Ajuster la position et l’échelle du texte :**
+- Sélectionnez le clip de texte.
+- Dans **Inspector**, utilisez les paramètres *Transform* pour ajuster la taille, la position ou la rotation du texte.
+
+5. **Ajouter un fond (optionnel) :**
+- Insérez une autre vidéo ou une couleur unie sur une **troisième piste inférieure** pour remplir les zones hors du texte.
+
+6. **Prévisualiser et ajuster :**
+- Visionnez l’effet dans la fenêtre de lecture.
+- Affinez les paramètres de taille, position ou espacement du texte dans **Inspector**, si nécessaire.
+
+</details>
+
 
 ## Prise des présences
 
