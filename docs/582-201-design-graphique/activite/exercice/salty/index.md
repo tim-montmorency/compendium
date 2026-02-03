@@ -5,19 +5,25 @@ tags:
 
 # Salé
 
-Le but de cet exercice est de mettre en forme un mot en modifiant chacune des lettres, d'appliquer des informations obligatoires et d'effectuer une correction d'une personne tierce.
+Le but de cet exercice est de mettre en forme un ou plusieurs mots en modifiant chacune des lettres, d'appliquer des informations obligatoires et d'effectuer une correction d'une personne tierce 😬.
+
+## Exemples
+
+![](./c834487b95e44580275acae8548d0c24.jpg){.w-25 data-zoom-image}
+![](./7efd7040b371e14bf7c319020711e65a.jpg){.w-25 data-zoom-image}
+![](./9b72db2500d214b2216689cd4f854ef3.jpg){.w-25 data-zoom-image}
 
 ## Consignes
 
 - [ ] Dans Figma, ajouter un frame en format portrait
-- [ ] Inscrire un court mot d'environ 5 lettres
-- [ ] Choisir une police très grasse (ex.: Anton, Koulen, SixCaps, etc.)
+- [ ] Inscrire du texte. Petit conseil : commencez par 1 petit mot
+- [ ] Choisir une police idéalement assez grasse (ex.: Anton, Koulen, SixCaps, etc.)
 - [ ] Vectoriser le mot pour allonger les lettres et créer ainsi une composition de lettres. Soyez créatifs et créatives ! Voici un exemple du processus : 
-
+ 
   ![type:video](./salty.mp4)[^sel]
 
-- [ ] Ajouter un arrière-plan qui évoque le mot choisi.
-- [ ] Avec une autre forme (ou image vectorielle 🤷), créer une répétition soit linéaire, soit radiale pour ajouter plus de profondeur à votre création. Cette répétition peut être soit très imposante, soit très subtile. À vous de juger ce qui est le plus esthétique.
+- [ ] Ajouter un arrière-plan qui évoque le ou les mots choisis.
+- [ ] Avec une autre forme (ou image vectorielle 🤷), appliquer le concept de répétition linéaire ou radiale pour ajouter plus de profondeur à votre création. Cette répétition peut être soit très imposante, soit très subtile.
 
 Ajouts supplémentaires
 
