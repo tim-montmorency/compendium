@@ -170,7 +170,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Dans ce panel, créez un panel par étape de vos consignes.
 - [ ] Dans chaque panel d'étape, mettez des boutons pour passer à l'étape suivante ou revenir à la précédente. Mettez aussi le texte des consignes et des images pour appuyer vos consignes au besoin.
 - [ ] Dans le canvas, créez un nouveau Panel pour les crédits.
-- [ ] Dans ce panel, insérez du texte pour vos crédits et un bouton pour retourner au menu principal. TOUS les contenus qui ne viennent pas de vous doivent être crédités. 
+- [ ] Dans ce panel, insérez du texte pour vos crédits et un bouton pour retourner au menu principal. TOUS les contenus doivent être crédités. 
 
 ### 7 | Création de la scène Jeu - UI
 
@@ -180,8 +180,6 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Créez un bouton qui permettra de retourner au menu principal.
 - [ ] Affichez trois images qui représenteront la progression ou encore ajoutez un slider.
 - [ ] Ajoutez une image qui indiquera l'élément à balayer.
-
-
 
 ### 8 | Création de la scène Jeu - Sons
 
