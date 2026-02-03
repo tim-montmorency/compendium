@@ -78,9 +78,9 @@ Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
 
 #### Étape 3
 
-[Groupe lundi AM: Accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)
-[Groupe lundi PM: Accéder au questionnaire](https://forms.office.com/r/wVdwjhtnsc)
-[Groupe merc. AM: Accéder au questionnaire](https://forms.office.com/r/sPsT4LpiRv)
+- [Groupe lundi AM: Accéder au questionnaire](https://forms.office.com/r/j3FyHzC6pk)
+- [Groupe lundi PM: Accéder au questionnaire](https://forms.office.com/r/wVdwjhtnsc)
+- [Groupe merc. AM: Accéder au questionnaire](https://forms.office.com/r/sPsT4LpiRv)
 
 ## Bloc3: EXPOSÉ - Pourquoi l'*architecture CSS* est importante
 
