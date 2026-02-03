@@ -54,8 +54,6 @@ Reprendre le site de l'exercice précédent
 * [ ] Ajouter le code dans fonctions.php
       
       ``` php
-          // Shortcode de sélecteur de langue avec Polylang
-          // Usage : [custom_language_switcher]
           function custom_pll_language_switcher() {
             return pll_the_languages( array(
               'show_flags' => 1,
@@ -73,11 +71,8 @@ Reprendre le site de l'exercice précédent
 * [ ] Double-cliquer sur le menu en haut
 * [ ] Ajouter un bloc : Shortcode
 * [ ] Copier le code suivant
-* [ ] 
+* [ ] [custom_language_switcher]
 
-       ``` shortcode
-            [custom_language_switcher]
-       ```
 
 
 ### Étape 6 – Test final 
