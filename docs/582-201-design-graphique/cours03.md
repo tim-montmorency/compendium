@@ -44,16 +44,6 @@ La **graisse** (en français _bold_ c'est graisse 😅) influence directement :
 
 ![](./assets/img/fonte-graisse-italic.png){data-zoom-image}
 
-### Tailles
-
-@todo :
-
-px, rem, %
-
-vs 
-
-pt, ...
-
 ## Catégories de polices
 
 ### Sérif
@@ -185,7 +175,7 @@ Lien utile : [Agencements de différentes fontes](https://typespiration.com/)
 1. Combinaison. Éviter les polices trop similaires, ça amène plus de confusion qu'autre chose. Dans ce cas, vaut mieux choisir une variante de la même police.
 1. Lisibilité. Tester en petite taille, sur fond clair/sombre, en paragraphe (pas juste un mot).
 
-!!! example "Test de connotations"
+!!! example "Exercice rapide"
 
 	![](./assets/img/wooclap-typo.png){data-zoom-image}
 
