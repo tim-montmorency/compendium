@@ -54,7 +54,7 @@ Reprendre le site de l'exercice précédent
 * [ ] Ajouter le code dans fonctions.php
       
   
-      ```php
+```php
       // Shortcode de sélecteur de langue avec Polylang
       // Usage : [custom_language_switcher]
       function custom_pll_language_switcher() {
@@ -67,7 +67,7 @@ Reprendre le site de l'exercice précédent
         ) );
       }
       add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
-      ```
+```
 
       
 * [ ] Aller dans apparence / éditeur
