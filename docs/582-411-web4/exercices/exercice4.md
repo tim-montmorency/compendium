@@ -54,7 +54,7 @@ Reprendre le site de l'exercice précédent
 * [ ] Ajouter le code dans fonctions.php
       
       ``` php
-          function custom_pll_language_switcher() {
+      function custom_pll_language_switcher() {
             return pll_the_languages( array(
               'show_flags' => 1,
               'show_names' => 1,
@@ -64,7 +64,8 @@ Reprendre le site de l'exercice précédent
             ) );
           }
           add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
-          }  ```
+      }
+      ```
       
 * [ ] Aller dans apparence / éditeur
 * [ ] Sélectionner Modèles / Pages
