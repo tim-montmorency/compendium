@@ -53,19 +53,22 @@ Reprendre le site de l'exercice précédent
 
 * [ ] Ajouter le code dans fonctions.php
       
-      ``` php
+  
+      ```php
+      // Shortcode de sélecteur de langue avec Polylang
+      // Usage : [custom_language_switcher]
       function custom_pll_language_switcher() {
-            return pll_the_languages( array(
-              'show_flags' => 1,
-              'show_names' => 1,
-              'display_names_as' => 'name', // name ou slug
-              'echo' => 0,
-              'hide_current' => 1,
-            ) );
-          }
-          add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
+        return pll_the_languages( array(
+          'show_flags' => 1,
+          'show_names' => 1,
+          'display_names_as' => 'name', // name ou slug
+          'echo' => 0,
+          'hide_current' => 1,
+        ) );
       }
+      add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
       ```
+
       
 * [ ] Aller dans apparence / éditeur
 * [ ] Sélectionner Modèles / Pages
