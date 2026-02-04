@@ -19,11 +19,10 @@
 #### Code 
 - [:pencil: Coroutine](./code/coroutine.md)        
 
-#### Retour sur les exercices de programmation
+#### Exercices de programmation
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
 
 [:pencil: Ressource additionnelle](./code/bibliotheque_exemples.md){ .md-button }  
-
 
 #### Réflexion sur le code de détection
 1. Quelles variables sont nécessaires?    
