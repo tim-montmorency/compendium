@@ -1,5 +1,11 @@
 ## Bagnole+
 
+![](../assets/images/Bagnole-banner.png){data-zoom-image}   
+![](../assets/images/Bagnole-contenu.png){data-zoom-image}   
+![](../assets/images/Bagnole-footer.png){data-zoom-image}   
+
+[Documents pour l'exercice](../assets/documents/Bagnole+.zip)
+
 Créer une page de comparaison de véhicules avec Query Loop, ACF et Advanced Views Lite
  
 ### Objectif
