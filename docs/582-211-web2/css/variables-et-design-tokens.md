@@ -35,7 +35,7 @@ Les variables CSS (aussi appelées "custom properties") permettent de stocker de
 }
 ```
 
-#### Design Tokens : organiser vos variables comme un système
+### Design Tokens : organiser vos variables comme un système
 
 Un **design token** est une variable CSS qui représente une décision de design. Au lieu de nommer vos variables n'importe comment, vous créez un système cohérent.
 
