@@ -115,6 +115,7 @@ Avec les réglages du bloc, vous pouvez :
 ### À quoi ça sert ?
 
 *	Lister des articles, pages, CPT (Custom Post Type)
+  
 **Créer :**
   
  *	un blog
@@ -260,7 +261,7 @@ Advanced Views Lite :
 *	❌ ne crée pas de logique conditionnelle avancée
 *	❌ n’interagit pas avec l’utilisateur
 
-(Le filtrage = FacetWP / Search & Filter / JS)
+
  
 
  
