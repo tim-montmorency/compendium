@@ -43,7 +43,7 @@ Dans ACF :
    
  *	Type : Radio Button
  *	Nom : Type de véhicule
- *	Choix :
+**Choix :**
    
   *	Essence
   * Électrique
@@ -57,12 +57,13 @@ Dans ACF :
    
 *	Type : Checkbox
 *	Nom : nombre_places
-*	Choix : 
-  * 2
-  * 4
-  * 5
-  * 6
-  * 7
+**Choix :**
+ 	
+* 2
+* 4
+* 5
+* 6
+* 7
  
 **Autonomie**
    
@@ -97,7 +98,7 @@ Pour chaque véhicule :
  
 ## 4️⃣ Dans ACF (Advanced custom fields)
 1. Aller dans Field Group
-1. Complètement à droite  dans Assign View  Add new
+1. Complètement à droite → dans Assign View → Add new
  
 Dans Advenced Views
 1. Ajouter les "labels" suivants pour chaque champ
@@ -160,7 +161,7 @@ Voici l’ordre des blocs à ajouter 👇
 *	Éléments par page : 10
 
 ### Modèle de publication
-*	Mettre en : Grille  2 colonnes
+*	Mettre en : Grille → 2 colonnes
 *	Position de l’élément de la grille : Auto
 *	Colonnes : 2
 *	Espacement des blocs : Large
@@ -204,12 +205,11 @@ Voici l’ordre des blocs à ajouter 👇
    
 *	Ajouter une page avec le nom : Inventaire
 *	Aller dans les réglages à droite
-*	Dans l’onglet Page  Sélectionner Modèle
+*	Dans l’onglet Page → Sélectionner Modèle
 *	Ensuite, sélectionner Modifier le modèle
 *	Sélectionner votre modèle
 *	Publier 
 
----
 
 ## Aller voir le résultat !
 
