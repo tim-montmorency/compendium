@@ -1,5 +1,6 @@
 # Cours 4
 
+
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
@@ -46,6 +47,18 @@ Donc Peut-être lecture ou capsule video alterné avec des activités pratiques 
 Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire améliorer leur menu de restaurant en appliquant les bonnes pratiques vues en classe (nomemnclature BEM, CSS fluide, variables, architecture CSS, etc). Et leur fdaire faire un petit rédaction sur une réflexion sur les améliorations apportées.
 
 -->
+
+## Variables CSS & design tokens
+
+[📚 Contenu de cours sur les *variables CSS* et design tokens](./css/variables-et-design-tokens.md){ .md-button .md-button--primary }
+
+[👩🏻‍💻 Exercice Design tokens - Dark Academia](./exercices/){ .md-button }
+
+## Mise en espace avec *Flexbox*
+
+[📚 Contenu de cours sur *Flexbox-introduction*](./css/variables-et-design-tokens.md){ .md-button .md-button--primary }
+
+[👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact](./exercices/){ .md-button }
 
 ## DEVOIR
 
