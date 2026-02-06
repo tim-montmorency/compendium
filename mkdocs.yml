@@ -41,10 +41,17 @@ nav:
       # - Cours 15: 582-121–illustration-numerique/cours15.md
   - Web 2:
       - 582-211-web2/index.md
+      - CSS:
+        - 582-511-web5/css/index.md
+        - Spécificité: 582-211-web2/css/specificite.md
+        - Variables: 582-211-web2/css/variables-unites-fonctions.md#variables
+        - Unités relatives: 582-211-web2/css/variables-unites-fonctions.md#unites
+        - Fonctions: 582-211-web2/css/variables-unites-fonctions.md#fonctions
+        - Flexbox 01: 582-211-web2/css/flexbox01.md
       - Cours 1: 582-211-web2/cours01.md
       - Cours 2: 582-211-web2/cours02.md
       - Cours 3: 582-211-web2/cours03.md
-      # - Cours 4: 582-211-web2/cours04.md
+      - Cours 4: 582-211-web2/cours04.md
       # - Cours 5: 582-211-web2/cours05.md
       # - Cours 6: 582-211-web2/cours06.md
       # - Cours 7: 582-211-web2/cours07.md

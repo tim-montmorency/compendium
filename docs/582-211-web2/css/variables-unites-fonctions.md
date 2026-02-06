@@ -10,10 +10,12 @@ Les variables CSS (aussi appelées "custom properties") permettent de stocker de
 **Syntaxe de base :**
 
 ```css
+/* Définition de la variable dans le :root  */
 :root {
   --nom-de-la-variable: valeur;
 }
 
+/* Utilisation de la variable prédéfinie */
 .element {
   propriete: var(--nom-de-la-variable);
 }
