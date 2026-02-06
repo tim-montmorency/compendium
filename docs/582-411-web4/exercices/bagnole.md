@@ -58,11 +58,11 @@ Dans ACF :
 *	Nom : nombre_places
 *	Choix :
   
- *	2
- *	4
- *	5
- *	6
- *	7
+ * 2
+ * 4
+ * 5
+ * 6
+ * 7
  
 3. Autonomie
    
