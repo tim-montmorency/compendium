@@ -2,9 +2,8 @@
 
 ## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
-[📚 Contenu de cours: Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
-
-[📚 Contenu de cours: Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
+- [📚 Contenu de cours: Les spécificités CSS](./css/specificite.md)
+- [📚 Contenu de cours: Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/)
 
 **CSS Web 1**
 
