@@ -40,6 +40,7 @@ Dans ACF :
 ### Champs à créer
 
 1. Type de véhicule
+   
  *	Type : Radio Button
  *	Nom : Type de véhicule
  *	Choix :
@@ -48,14 +49,15 @@ Dans ACF :
   * Électrique
  
 2. Vitesse maximale
+   
 *	Type : Text
 *	Nom : Vitesse maximale
  
 3. Nombre de places
+   
 *	Type : Checkbox
 *	Nom : nombre_places
-*	Choix :
-  
+*	Choix : 
  * 2
  * 4
  * 5
@@ -63,11 +65,13 @@ Dans ACF :
  * 7
  
 4. Autonomie
+   
 *	Type : Text
 *	Nom : Autonomie
 
  
-5. Prix 
+5. Prix
+   
 *	Type : Text
 *	Nom : Prix
  
