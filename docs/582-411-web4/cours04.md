@@ -143,7 +143,7 @@ Avec les réglages du bloc, vous pouvez :
 👉 Affiche des données dynamiques d’un contenu
 ### À quoi ça sert ?
 
-*	Afficher :
+**Afficher :**
   
  *	un champ ACF
  *	l’auteur
@@ -171,10 +171,9 @@ Avec les réglages du bloc, vous pouvez :
 | | Query Loop   | Dynamic Content   |
 | ----------- | ----------- | ----------- |
 | Affiche plusieurs contenus  |✅ | ❌ |
-| Affiche un champ ACF  | ❌ (direct) | ✅ |
+| Affiche un champ ACF  | ❌  | ✅ |
 | Fonctionne en boucle  | ✅  | ❌ |
 | Page archive / liste	| ✅  | ❌  |
-| Page détail  | Cellule | ⚠️ | ✅ |
 | Filtre front-end natif | ❌ | ❌ |
  
 ## Analogie simple
@@ -215,11 +214,13 @@ Advanced Views Lite :
 
 *	affiche des champs ACF
 *	s’adapte au post courant
-*	fonctionne dans :
+**Fonctionne dans :**
+ 	
  *	une page
  *	un template
  *	un Query Loop
-*	ne contient aucune donnée en dur
+   
+Ne contient aucune donnée en dur
   
 **👉 Donc oui : 100 % dynamic content.**
  
@@ -245,7 +246,7 @@ Tu l’utilises exactement comme il faut si :
 
 *	tu as des CPT (ex : Véhicules)
 *	avec des champs ACF
-*	affichés dans :
+**Afichés dans :**
   
  *	une fiche détail
  *	une carte
