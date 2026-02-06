@@ -17,10 +17,14 @@ CSS fluide et système de design (jetons et variables)
   · CSS fluide AVANT le responsive
 -->
 
-<div class="class-content-link">
-  <img src="./assets/IA-interdite.png">
-  <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
-</div>
+## Résumé du contenu des présentations du jour
+
+[👩‍🏫 Exposé 3a: Pourquoi l'architedcture CSS compte: Télécharger le PPT :material-download:](./assets/cours03-p01-importance-architecture-css.pptx){ .md-button}
+
+[👩‍🏫 Exposé 3b: Nomenclature cohérente: Télécharger le PPT :material-download:](./assets/cours03-p02-nomenclature-coherente.pptx){ .md-button}
+
+[📚 Contenu de cours: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button}
+
 
 ## Bloc0: REMISE de l'exercice de *🍽️Menu de restaurant*
 
@@ -135,7 +139,7 @@ Créez un tableau sur Microsoft Whiteboard avec 3 colonnes :
 
 ## Bloc7: EXPOSÉ - Les *variables CSS*
 
-[👩‍🏫 Exposé 3c: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button}
+[📚 Contenu de cours 3c: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button}
 
 
 

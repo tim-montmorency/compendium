@@ -1,21 +1,45 @@
 # Cours 2
 
+## Résumé du contenu des présentations du jour
+
+[📚 Contenu de cours: Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours: Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
+
+**CSS Web 1**
+
+- [📚 CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
+  - CSS Syntaxe et règles de base
+  - Sélecteur CSS: (balise, .classe, #id), combinaison de sélecteur, descendant, *sélecteur universel , ordre de priorité, spécificité, héritage.
+  - Modèle de boîte CSS (box model) : `padding`, `margin`, `border`
+  - Propriété `display`.
+- [📚 CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
+  - Unités de mesure CSS (relative, absolue)
+- [📚 CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
+  - Sélecteurs avancés
+- [📚 CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
+  - Nomenclatures CSS, hygyène de code, méthodologie BEM
+
+**BEM**
+
+- [📚 Nomenclature BEM](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
+
+**Ajouts sur la méthodologie BEM (contenu supplémentaire sur le sujet)**
+
+- [📚 La méthodologie de nomenclature BEM](https://alticreation.com/blog/bem-pour-le-css/)
+- [📚 Nomenclature BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
+
+
+**Documentation/résumé Web 1 pré 2025 :**
+
+- [📚 Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
+- [📚 Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
+
+<!--
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
-
-
-<!-- 
-Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
-
-Les éléments fortement automatisés sont abordés de façon contextuelle.
----
-Posture pédagogique du cours
-
-Web 2 vise à développer la capacité de comprendre, structurer, adapter et améliorer une interface Web,
-dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
--->
 
 ## Tutorat cette session
 
@@ -26,7 +50,7 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 | Iryna Lysenko       | Dimanche soir – 18h-19h15      | En ligne sur TEAMS : canal Tutorat de l'équipe TIM-Programme TIM | 8 février au 3 mai inclus.    |
 
 
-
+-->
 
 ## Retour sur l'activité pratique: Analyse de code (Bloc 5 du dernier cours)
 
@@ -62,38 +86,44 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 ## Révision CSS du cours Web1
 
+[📚 Contenu de cours: Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours: Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
+
 **CSS Web 1**
 
-- [CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
+- [📚 CSS Cours 08](https://tim-montmorency.com/compendium/582-111-web1/cours08.html)
   - CSS Syntaxe et règles de base
   - Sélecteur CSS: (balise, .classe, #id), combinaison de sélecteur, descendant, *sélecteur universel , ordre de priorité, spécificité, héritage.
   - Modèle de boîte CSS (box model) : `padding`, `margin`, `border`
   - Propriété `display`.
-- [CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
+- [📚 CSS Cours 09](https://tim-montmorency.com/compendium/582-111-web1/cours09.html)
   - Unités de mesure CSS (relative, absolue)
-- [CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
+- [📚 CSS Cours 10](https://tim-montmorency.com/compendium/582-111-web1/cours10.html)
   - Sélecteurs avancés
-- [CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
+- [📚 CSS Cours 11](https://tim-montmorency.com/compendium/582-111-web1/cours11.html)
   - Nomenclatures CSS, hygyène de code, méthodologie BEM
 
 **BEM**
 
-- [Nomenclature BEM](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
+- [📚 Nomenclature BEM](https://tim-montmorency.com/compendium/582-111-web1/cours11.html#bem)
 
 **Ajouts sur la méthodologie BEM (contenu supplémentaire sur le sujet)**
 
-- [La méthodologie de nomenclature BEM](https://alticreation.com/blog/bem-pour-le-css/)
-- [Nomenclature BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
+- [📚 La méthodologie de nomenclature BEM](https://alticreation.com/blog/bem-pour-le-css/)
+- [📚 Nomenclature BEM exemples concrets](https://css-tricks.com/bem-101/#aa-more-examples-of-bem-in-action)
 
 
 **Documentation/résumé Web 1 pré 2025 :**
 
-- [Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
-- [Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
+- [📚 Résumé HTML](https://tim-montmorency.com/timdoc/582-211/html/resume/)
+- [📚 Résumé CSS](https://tim-montmorency.com/timdoc/582-211/css/resume-css/)
+
+
 
 ## Les spécificités CSS
 
-[Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
+[📚 Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
 
 ### Exercice spécificité
 
@@ -108,7 +138,7 @@ Moteur d’autocomplétions permettant d’augmenter votre vitesse de création 
 
 <div style="max-width: 800px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=ab510bf3-acce-4ffe-82a7-87b6a11438c4&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="800" height="450" frameborder="0" scrolling="no" allowfullscreen title="demo-emmet02.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-[Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
+[📚 Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
 
 
 

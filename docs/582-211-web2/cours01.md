@@ -1,10 +1,25 @@
 # Cours 1
 
+## Résumé du contenu des présentations du jour
 
+[👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button}
+
+
+<!-- 
+Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
+
+Les éléments fortement automatisés sont abordés de façon contextuelle.
+
+Posture pédagogique du cours
+Web 2 vise à développer la capacité de comprendre, structurer, adapter et améliorer une interface Web, dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
+-->
+
+<!--
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
+-->
 
 ## Semaine 1: Rôle de l’intégrateur & lecture d’interface
 
@@ -12,18 +27,8 @@
 
 Web 2 vise à développer la capacité de *comprendre*, *structurer*, *adapter* et *améliorer* une interface Web, dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents. Nous apprendorons à bien les utiliser et ce, dans la deuxième moitié de la session.
 
-<!-- 
-Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
 
-Les éléments fortement automatisés sont abordés de façon contextuelle.
----
-Posture pédagogique du cours
-
-Web 2 vise à développer la capacité de comprendre, structurer, adapter et améliorer une interface Web,
-dans un contexte professionnel où les outils de design, d’automatisation et d’IA sont présents.
--->
-
-
+<!--
 ## Ordre du jour
 
 - **Accueil**
@@ -50,7 +55,6 @@ dans un contexte professionnel où les outils de design, d’automatisation et d
 
 Le code sera partagé en classe au cours 1.
 
-
 ### Brise glace
 
 - [BJXBIO - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/BJXBIO)
@@ -59,8 +63,9 @@ Le code sera partagé en classe au cours 1.
 ### Présentation de votre enseignante
 
 Je me présente, Marie-Michelle...
+-->
 
-### Présentation du plan de cours
+## Présentation du plan de cours
 
 [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF){ .md-button .md-button--primary }
 
