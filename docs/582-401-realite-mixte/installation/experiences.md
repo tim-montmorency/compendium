@@ -2,7 +2,10 @@
 
 Avant de créer vos projets de VR, il est préférable de faire des test pour découvrir les possibilités. Voici quelques expériences gratuites qui pourraient vous intéresser.   
 
-
+## Jeux à ajouter
+- Escape simulator
+- Keep talking and nobody explodes
+- I expect you to die
       
 ## Oculus First Contact
 Première expérience que vous devriez tester avec votre casque, cette dernière vous permettra de vous familiariser avec le monde de la réalité virtuelle.
@@ -38,6 +41,7 @@ Ce jeu est assez connu dans le monde de la VR. C'est un jeu de rythme à la guit
 
 [🔎 Accéder à l'application](https://www.oculus.com/deeplink/?action=view&path=/app/1758986534231171&ref=oculus_desktop){ .md-button }   <br>
 
+
 ## Lost recipes
 Ce jeu propose une démo de 20 minutes. Il s'agit d'un jeu de cuisine avec des visuels simples et élégants.
 
@@ -48,6 +52,7 @@ Ce jeu propose une démo de 20 minutes. Il s'agit d'un jeu de cuisine avec des v
 Le titre l'annonce, ce jeu est un jeu de cuisine gratuit dans lequel on cuisine dans un foodtruck pour des robots.
 
 [🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/just-another-cooking-game/6766207633442740/){ .md-button }   <br>
+
 
 
 
