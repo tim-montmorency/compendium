@@ -214,6 +214,7 @@ Advanced Views Lite :
 
 *	affiche des champs ACF
 *	s’adapte au post courant
+  
 **Fonctionne dans :**
  	
  *	une page
