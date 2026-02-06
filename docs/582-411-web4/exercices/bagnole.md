@@ -47,7 +47,7 @@ Dans ACF :
   *	Essence
   * Électrique
  
-1. Vitesse maximale
+2. Vitesse maximale
    
 *	Type : Text
 *	Nom : Vitesse maximale
@@ -64,13 +64,13 @@ Dans ACF :
  *	6
  *	7
  
-1. Autonomie
+3. Autonomie
    
 *	Type : Text
 *	Nom : Autonomie
 
  
-1. Prix
+4. Prix
    
 *	Type : Text
 *	Nom : Prix
@@ -93,7 +93,7 @@ Pour chaque véhicule :
 •	Une image mise en avant
 •	Remplis la fiche technique
 
-1. Publier
+3. Publier
  
 ## 4️⃣ Dans ACF (Advanced custom fields)
 1. Aller dans Field Group
@@ -108,7 +108,7 @@ Dans Advenced Views
 *	Autonomie :
 *	Prix :
   
-1. Enregistrer
+2. Enregistrer
 
 ## 5️⃣ Créer un modèle « Comparaison de véhicules »
 * Nom : Comparaison de véhicules
@@ -126,7 +126,7 @@ Voici l’ordre des blocs à ajouter 👇
 *	Couleur de l’arrière-plan : #00002A
 
  
-1. Ajouter un bloc → Sélectionner l’onglet Motif → Bannières
+2. Ajouter un bloc → Sélectionner l’onglet Motif → Bannières
    
 *	Sélectionner dans la 2e page des bannière : Fullwidth Dark Banner with Heading Top Left 
 *	Changer le texte pour : Comparaison de véhicule
@@ -139,11 +139,11 @@ Voici l’ordre des blocs à ajouter 👇
 *	Couleur de l’overlay (Calque de superposition) de la bannière : #030B2D
 
  
-1. Ajouter un bloc → Spacer
+3. Ajouter un bloc → Spacer
    
 *	Hauteur : 50px
  
-1. Ajouter une boucle de requête (Queryloop)
+4. Ajouter une boucle de requête (Queryloop)
    
 *	Sélectionner : Partir à zéro
 *	Sélectionner la variante : Image, date et Titre
@@ -185,13 +185,13 @@ Voici l’ordre des blocs à ajouter 👇
 *	Ajouter un bloc : Shortcode
 *	Ajouter le Shortcode de Advanced Views Lite
   
-1. Dans la deuxième colonne
+2. Dans la deuxième colonne
    
  * Rien
  
 1. Ajouter un bloc → Sélectionner l’onglet Motif → Pieds de page
    
-Sélectionner le pieds de page → Center footer with social links
+### Sélectionner le pieds de page → Center footer with social links
 
 *	Effacer :  Titre du site
 *	Ajouter une image : logo
@@ -209,9 +209,11 @@ Sélectionner le pieds de page → Center footer with social links
 *	Sélectionner votre modèle
 *	Publier 
 
+---
+
 ## Aller voir le résultat !
 
-
+---
 
 
 ### Finalement
