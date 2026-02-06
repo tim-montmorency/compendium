@@ -247,7 +247,8 @@ Tu l’utilises exactement comme il faut si :
 
 *	tu as des CPT (ex : Véhicules)
 *	avec des champs ACF
-**Afichés dans :**
+  
+**Affichés dans :**
   
  *	une fiche détail
  *	une carte
@@ -267,7 +268,7 @@ Advanced Views Lite :
  ## Exercice : Queryloop
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/ql.jpg)
+  ![](./assets/images/ql.png)
 
   <small>Exercice - Queryloop</small><br>
   **[Queryloop](./exercices/bagnole.md){.stretched-link .back}**
