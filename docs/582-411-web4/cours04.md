@@ -1,4 +1,5 @@
-![](../assets/images/taxonomie.webp)
+![](./assets/images/taxonomie.webp){data-zoom-image}
+
 
 ## Taxonomies
 Dans WordPress, une taxonomie sert à classer et organiser le contenu.
@@ -25,7 +26,8 @@ Autre exemple :
 
 Les taxonomies aident donc à mieux classer le contenu et à le rendre plus facile à trouver.
 
-![](../assets/images/post-type.jpg)
+![](./assets/images/post-type.jpg){data-zoom-image}
+
 
 
 ## Post types (types de contenu)
@@ -51,7 +53,8 @@ Chaque post type sert à organiser le contenu selon sa fonction.
 Par exemple, un article sert à publier des nouvelles, tandis qu’un projet peut afficher une réalisation avec des images et des informations spécifiques.
 Les post types permettent donc de structurer clairement le contenu et de l’afficher de façon adaptée sur le site.
 
-![](../assets/images/ql.jpg)
+![](./assets/images/ql.jpg){data-zoom-image}
+
 
 ## Bloc Boucle de requête (Queryloop)
 
@@ -129,7 +132,8 @@ Avec les réglages du bloc, vous pouvez :
 * Parfait pour afficher plusieurs items
 * Pas de filtres interactifs natifs
 
-![](../assets/images/Dynamic_content.jpg)
+![](./assets/images/Dynamic_content.jpg){data-zoom-image}
+
  
 ## Dynamic Content
 👉 Affiche des données dynamiques d’un contenu
