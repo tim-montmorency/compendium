@@ -4,7 +4,10 @@
 ![](../assets/images/Bagnole-contenu.png){data-zoom-image}   
 ![](../assets/images/Bagnole-footer.png){data-zoom-image}   
 
+## Matériel
 [Documents pour l'exercice](../assets/documents/Bagnole+.zip)
+
+---
 
 Créer une page de comparaison de véhicules avec Query Loop, ACF et Advanced Views Lite
  
@@ -19,6 +22,7 @@ Technologies utilisées :
 ### 1️⃣ Créer le post-type « Inventaire »
 
 Dans ACF :
+
 *	Nom du post-type : Inventaire
 *	Pluriel : Inventaires
 *	Slug : inventaire
@@ -35,20 +39,25 @@ Dans ACF :
  
 ### Champs à créer
 1. Type de véhicule
+   
  *	Type : Radio Button
  *	Nom : Type de véhicule
  *	Choix :
+   
   *	Essence
   * Électrique
  
 1. Vitesse maximale
+   
 *	Type : Text
 *	Nom : Vitesse maximale
  
 1. Nombre de places
+   
 *	Type : Checkbox
 *	Nom : nombre_places
 *	Choix :
+  
  *	2
  *	4
  *	5
@@ -56,11 +65,13 @@ Dans ACF :
  *	7
  
 1. Autonomie
+   
 *	Type : Text
 *	Nom : Autonomie
 
  
 1. Prix
+   
 *	Type : Text
 *	Nom : Prix
  
@@ -81,6 +92,7 @@ Pour chaque véhicule :
 •	Ajoute un titre
 •	Une image mise en avant
 •	Remplis la fiche technique
+
 1. Publier
  
 ## 4️⃣ Dans ACF (Advanced custom fields)
@@ -89,11 +101,13 @@ Pour chaque véhicule :
  
 Dans Advenced Views
 1. Ajouter les "labels" suivants pour chaque champ
+   
 *	Type de Véhicule :
 *	Vitesse maximale :
 *	Nombre de places :
 *	Autonomie :
 *	Prix :
+  
 1. Enregistrer
 
 ## 5️⃣ Créer un modèle « Comparaison de véhicules »
@@ -104,6 +118,7 @@ Dans Advenced Views
 Voici l’ordre des blocs à ajouter 👇
  
 1. Ajouter un bloc → Sélectionner l’onglet Motif → En-têtes
+   
 *	Effacer le bloc : Titre du Site
 *	Ajouter le logo
 *	Sélectionner le menu à droite 
@@ -112,6 +127,7 @@ Voici l’ordre des blocs à ajouter 👇
 
  
 1. Ajouter un bloc → Sélectionner l’onglet Motif → Bannières
+   
 *	Sélectionner dans la 2e page des bannière : Fullwidth Dark Banner with Heading Top Left 
 *	Changer le texte pour : Comparaison de véhicule
 *	Couleur du texte : #9181007A
@@ -124,9 +140,11 @@ Voici l’ordre des blocs à ajouter 👇
 
  
 1. Ajouter un bloc → Spacer
+   
 *	Hauteur : 50px
  
 1. Ajouter une boucle de requête (Queryloop)
+   
 *	Sélectionner : Partir à zéro
 *	Sélectionner la variante : Image, date et Titre
 *	Effacer la date de publication
@@ -160,15 +178,19 @@ Voici l’ordre des blocs à ajouter 👇
 
 ### Colonnes
 1. Dans la 1ère colonne
+   
 *	Width : 100%
 *	Ajouter un bloc : titre H3 appelé Fiche technique
 *	Ajouter un bloc : séparateur
 *	Ajouter un bloc : Shortcode
 *	Ajouter le Shortcode de Advanced Views Lite
+  
 1. Dans la deuxième colonne
+   
  * Rien
  
-1. Ajouter un bloc → Sélectionner l’onglet Motif → Pieds de page 
+1. Ajouter un bloc → Sélectionner l’onglet Motif → Pieds de page
+   
 Sélectionner le pieds de page → Center footer with social links
 
 *	Effacer :  Titre du site
@@ -179,6 +201,7 @@ Sélectionner le pieds de page → Center footer with social links
 *	Sélectionner le Bloc Empiler et justifier les éléments au centre
 
 1. Aller dans vos pages
+   
 *	Ajouter une page avec le nom : Inventaire
 *	Aller dans les réglages à droite
 *	Dans l’onglet Page  Sélectionner Modèle
@@ -192,6 +215,7 @@ Sélectionner le pieds de page → Center footer with social links
 
 
 ### Finalement
+
 *	Ajouter le CSS dans Advenced Views Lite 
 *	Onglet CSS & JS
 *	Sauvegarder
