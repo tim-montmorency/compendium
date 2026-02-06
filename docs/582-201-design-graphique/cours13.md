@@ -10,6 +10,8 @@ micro-interactions, règles de mouvement (durée/easing), utilité (feedback/con
 
 <!-- Animation (micro-interactions)
 
+https://www.youtube.com/watch?v=oOJ5StJr-pU
+
 À enseigner
 	•	Motion utile : feedback, continuité, hiérarchie (pas “gadget”).
 	•	Règles simples : durée courte, easing, cohérence.

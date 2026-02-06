@@ -309,24 +309,3 @@ Même données en 4 version différentes en changeant l'emplacement.
 <!-- https://static.googleusercontent.com/media/fonts.google.com/en//knowledge/stop_stealing_sheep.pdf -->
 
 <!-- https://ca.pinterest.com/pin/7599893116499317/?e_t=fec5c47b45bc48648780f9f3ca816c93&news_hub_id=3188225014109666688&utm_campaign=hfdigestpins&utm_content=7599893116499317&utm_medium=2004&utm_source=31&utm_term=2 -->
-
-<!-- Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.![] -->
-<!-- Trend 2026 : https://www.youtube.com/watch?v=IK67VeKPvzo -->
-
-### Design thinking
-
-take a brief, unpack the problem, brainstorm directions, weigh trade-offs.
-
-Demander le besoin plutôt que la solution au client. Le designer travaille sur la solution au probleme, pas le client.
-
-Par exemple, on peut questionner pourquoi le client veut le résultat X ou Y? En quoi ça répond à tel ou tel problème?
-
-Exemple : 
-
-Je veux une bannière.
-
-- Ok, tu veux qu'elle s'adresse à qui. 
-- Où va elle être affichée.
-- Pourquoi faire une bannière ? / Quel besoin elle doit combler? / Quel impact doit elle avoir ? (une action doit être prise par celui qui la regarde ?)
-
-<!-- https://drive.google.com/file/d/17WA7dweAreqRkZPb47T2_LkcsL-jqK4C/view -->
