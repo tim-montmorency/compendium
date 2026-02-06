@@ -1,4 +1,4 @@
-![](./assets/images/exam-1.jpg){data-zoom-image}
+![](../assets/images/exam-1.jpg){data-zoom-image}
 
 ## Évaluation sommative – WordPress & Gutenberg
 
