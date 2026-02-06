@@ -15,14 +15,10 @@
 [💼 Travail 1 - Étape 11](./travaux/travail1.md#11-creation-de-la-scene-menu-script-ui){ .md-button }     
 
 
-## Bloc 2
-#### Code 
-- [:pencil: Coroutine](./code/coroutine.md)        
+## Bloc 2      
 
-#### Retour sur les exercices de programmation
+#### Exercices de programmation
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
-
-[:pencil: Ressource additionnelle](./code/bibliotheque_exemples.md){ .md-button }  
 
 
 #### Réflexion sur le code de détection
@@ -36,8 +32,6 @@
 
 #### Code travail 1
 Écrivez votre code pour le travail 1 à la main. Validez le ensuite avec votre enseignant. 
-
-[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }     
 
 
 ### Avancement du travail 1
@@ -65,9 +59,9 @@ Création de l'application
 ## Bloc 4
 
 ## Exemple de travail 2
-Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé ControleQualite.exe pour jouer à un exemple de travail 2: 
+Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé daher_elie_projet2.exe pour jouer à un exemple de travail 2: 
 
-[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eo-SZVlsOelKqB7pun1uX3QB_j5VDtW5u4Pp8w0rKkNTgA?e=DzY1C7){ .md-button }      
+[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgBaADNdw6EITKudraCmHjyuAYLCXjV0F2N7HEyCTrJakMs?e=KAZBv2){ .md-button }      
 
 
 ## Devoir

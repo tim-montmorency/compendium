@@ -118,6 +118,7 @@
   * Costume 
   * Maquillage, coiffure
   * Assemblage dans le fichier de préproduction [pré-production](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+  * Dans le dossier joindre votre musique
   * Déposer le fichier de préproduction et la musique dans l'onglet de remise sur TEAMS
 
 

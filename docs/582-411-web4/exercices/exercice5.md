@@ -104,13 +104,31 @@ Le site doit être :
 
 ### Étape 9 – Menus multilingues 
 
-* [ ] Allez dans Apparence → Menus
-* [ ] Créez 
- * Un menu français
- * Un menu anglais
-* [ ] Ajoutez les pages correspondant à chaque langue
-* [ ] Assignez chaque menu à la bonne langue
-* [ ] Ajoutez un sélecteur de langue au menu
+* [ ] Ajouter le code dans fonctions.php
+      
+  
+```php
+      // Shortcode de sélecteur de langue avec Polylang
+      // Usage : [custom_language_switcher]
+      function custom_pll_language_switcher() {
+        return pll_the_languages( array(
+          'show_flags' => 1,
+          'show_names' => 1,
+          'display_names_as' => 'name', // name ou slug
+          'echo' => 0,
+          'hide_current' => 1,
+        ) );
+      }
+      add_shortcode( 'custom_language_switcher', 'custom_pll_language_switcher' );
+```
+
+      
+* [ ] Aller dans apparence / éditeur
+* [ ] Sélectionner Modèles / Pages
+* [ ] Double-cliquer sur le menu en haut
+* [ ] Ajouter un bloc : Shortcode
+* [ ] Copier le code suivant
+* [ ] [custom_language_switcher]
 
 ## PARTIE 4 – Contenu structuré avec ACF (services)
 

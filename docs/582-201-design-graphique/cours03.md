@@ -1,7 +1,5 @@
 # Cours 3 | Typographie
 
-[STOP]
-
 ## Tutorat 
 
 | Nom | Plage horaire | Lieu | Dates |
@@ -45,16 +43,6 @@ La **graisse** (en français _bold_ c'est graisse 😅) influence directement :
 ### Italic
 
 ![](./assets/img/fonte-graisse-italic.png){data-zoom-image}
-
-### Tailles
-
-@todo :
-
-px, rem, %
-
-vs 
-
-pt, ...
 
 ## Catégories de polices
 
@@ -167,6 +155,8 @@ Ajustement, déterminé « à l’œil » par le/la designer de la police, de ce
 
 ### Cohérence (Titre vs paragraphe)
 
+![](./assets/img/fonte-combinaisons.png){data-zoom-image}
+
 Certaines polices sont super en grande taille, pour des textes courts (souvent des Display), mais bien moins performantes pour des paragraphes longs ou en petite taille, et _vice versa_. L’objectif est de choisir une police selon sa fonction (titre, texte, UI, légende) et son contexte d’utilisation.
 
 * Police de titre (display) : plus de caractère, plus de contraste, pensée pour attirer.
@@ -179,13 +169,13 @@ Lien utile : [Agencements de différentes fontes](https://typespiration.com/)
 ### Méthode simple pour choisir
 
 1. Portée du projet (_scope_). Web, app, impression, affiche, logo, réseaux sociaux ?
+  ![](./assets/img/fonte-contexts.webp){.w-50 data-zoom-image}
 1. Ton (_mood_) et message. La police porte une personnalité : sérieux, ludique, luxe, techno, institutionnel. Elle doit soutenir le message et pas le contredire. 
-1. Polyvalence. Une police est plus facile à utiliser si elle a plusieurs variations.
-1. Langues et caractères. Vérifier les accents, symboles, ligatures, guillemets français, etc. Certaines polices sont magnifiques, mais incomplètes pour la langue française.  ￼
-1. Combinaison. Éviter les polices trop similaires, ça amène plus de confusion qu'autre chose.
+1. Polyvalence, langues et caractères. Certaines polices sont magnifiques, mais peu de variations et incomplètes pour la langue française.  ￼
+1. Combinaison. Éviter les polices trop similaires, ça amène plus de confusion qu'autre chose. Dans ce cas, vaut mieux choisir une variante de la même police.
 1. Lisibilité. Tester en petite taille, sur fond clair/sombre, en paragraphe (pas juste un mot).
 
-!!! example "Connotations"
+!!! example "Exercice rapide"
 
 	![](./assets/img/wooclap-typo.png){data-zoom-image}
 
@@ -199,6 +189,10 @@ Lien utile : [Agencements de différentes fontes](https://typespiration.com/)
 
 - Certaines polices sont gratuites, «Gratuit pour usage personnel», d’autres sont payantes
 - Toujours vérifier la **licence** (web, impression, logo, app...) !
+
+  !!! example "Exemple de licence"
+
+	  <https://www.grillitype.com/shops/gt-walsheim>
 
 ### Magasinage
 
@@ -241,21 +235,15 @@ D'avoir une taille de caractère suffisament large pour faciliter la lecture.
 
 Fontes
 
-https://www.figma.com/fonts/
-
-- Polices de caractères
+- [Polices de caractères](https://www.figma.com/fonts/)
 - Interlignage
 - Alinéa (retrait de paragraphe)
 - Espacement entre paragraphes
 - Ligature avancée (ex. : Raleway, Playfair Display, Cormorant, EB Garamond, Girassol, Updock, Staatliches, Inconsolata)
 
-!!! note "Installation sur l'ordinateur"
-
-	@todo
-
 Vectoriel
 
-- Applatir
+- Applatir une police pour accéder à ses vecteurs 😱 !
 
 Effets
 
@@ -265,12 +253,14 @@ Effets
 - Flou de fond
 - Bruit
 - Texture
-- Verre
+- Verre (seulement sur les frames!)
 
-Figma : effets + fx progressifs (https://www.youtube.com/watch?v=sV-J_WH_P4k)
-Figma : Textonpaths
-Figma : Radial + Linear Repeat
-Patterns : Linear repeat & Radial repeat
+<!-- Figma : effets + fx progressifs (https://www.youtube.com/watch?v=sV-J_WH_P4k) -->
+
+Autre
+
+- _Text on path_
+- _Radial_ / _Linear Repeat_ ([tuto](https://youtu.be/Cx_kJUIM-wA?si=8eQFfF0Lg-uZL2aU&t=969))
 
 ## Exercices 
 
@@ -289,93 +279,33 @@ Patterns : Linear repeat & Radial repeat
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/allo/prev.png)
+  ![](./activite/exercice/emo/emo.gif)
 
   <small>Exercice - Figma</small><br>
-  **[Allo](./activite/exercice/allo/index.md){.stretched-link}**
+  **[Emo](./activite/exercice/emo/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/emo/happy.png)
+  ![](./activite/exercice/allo/process7.png)
 
   <small>Exercice - Figma</small><br>
-  **[Emo](./activite/exercice/emo/index.md){.stretched-link}**
+  **[Allo](./activite/exercice/allo/index.md){.stretched-link .back}**
 </div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/salty/preview.webp)
+
+  <small>Exercice - Figma</small><br>
+  **[Salé](./activite/exercice/salty/index.md){.stretched-link .back}**
+</div>
+
+[STOP]
 
 <!-- https://www.reddit.com/r/dontdeadopeninside/ -->
 Même données en 4 version différentes en changeant l'emplacement.
 ![](./assets/img/variations.png)
 
-Vectoriser une fonte pour la changer. Anton de Google Koulen
-SixCaps
 
+<!-- https://static.googleusercontent.com/media/fonts.google.com/en//knowledge/stop_stealing_sheep.pdf -->
 
-
-Fusionner une fonte avec une forme. Appliquer une image de fond.
-<!-- Text + texture : https://ca.pinterest.com/pin/75364993759827485/ -->
-
-
-
-
-https://static.googleusercontent.com/media/fonts.google.com/en//knowledge/stop_stealing_sheep.pdf  (26/27)
-
-
-<!-- Atelier
-
-“Réparer un texte illisible”
-	•	Tu fournis un bloc texte trop dense : ils doivent le rendre lisible (titres, interlignage, paragraphes, espacements).
-
-Devoir court
-	•	“Typo kit” : une page Figma avec styles + règles d’utilisation (“H1 seulement 1 fois/écran”, etc.) -->
-
-	> À venir prochainement : Auto-layout (mise en page) et styles/variables (cohérence).
-
-
-
-
-
-
-
-
-
-
-
-[STOP]
-
-
-
-
-
-
-
-
-https://ca.pinterest.com/pin/7599893116499317/?e_t=fec5c47b45bc48648780f9f3ca816c93&news_hub_id=3188225014109666688&utm_campaign=hfdigestpins&utm_content=7599893116499317&utm_medium=2004&utm_source=31&utm_term=2
-
-
-
-    Certains principes peuvent parfois entrer en conflit. C’est normal 😅 Le contexte et l'objectif à atteindre guide les choix.
-    ![](./assets/img/bad-average-good.jpg){data-zoom-image .w-25}
-
-
-Trend 2026 : https://www.youtube.com/watch?v=IK67VeKPvzo
-
-
-
-### Design thinking
-
-take a brief, unpack the problem, brainstorm directions, weigh trade-offs.
-
-Demander le besoin plutôt que la solution au client. Le designer travaille sur la solution au probleme, pas le client.
-
-Par exemple, on peut questionner pourquoi le client veut le résultat X ou Y? En quoi ça répond à tel ou tel problème?
-
-Exemple : 
-
-Je veux une bannière.
-
-- Ok, tu veux qu'elle s'adresse à qui. 
-- Où va elle être affichée.
-- Pourquoi faire une bannière ? / Quel besoin elle doit combler? / Quel impact doit elle avoir ? (une action doit être prise par celui qui la regarde ?)
-
-
-<!-- https://drive.google.com/file/d/17WA7dweAreqRkZPb47T2_LkcsL-jqK4C/view -->
+<!-- https://ca.pinterest.com/pin/7599893116499317/?e_t=fec5c47b45bc48648780f9f3ca816c93&news_hub_id=3188225014109666688&utm_campaign=hfdigestpins&utm_content=7599893116499317&utm_medium=2004&utm_source=31&utm_term=2 -->

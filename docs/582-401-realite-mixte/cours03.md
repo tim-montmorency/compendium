@@ -92,37 +92,9 @@ Quelles conclusions pouvez-vous faire?
 [💼 Exercices de programmation](./exercices/base_code.md){ .md-button .back }  
 
 
-#### Réflexion sur le code de détection
-1. Quelles variables sont nécessaires?    
-2. Quelles fonctions seront utilisées?    
-3. À quoi ressemblera le code?    
-
-#### Schéma de programmation
-1. Créer un schéma de programmation pour votre travail 1.
-2. Partagez vos schémas en équipe pour les améliorer.
-
-#### Code travail 1
-Écrivez votre code pour le travail 1 à la main. Validez le ensuite avec votre enseignant. 
-
-
-[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EWJdsTQPuRVPgBz5Lu2ZSHUBTLNfNMt24XsHZ7vI2R8STQ?e=cfHmee){ .md-button }     
-
-
-
-### Avancement du travail 1
-#### Script
-[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button .back }     
-
-
 
 ## Devoir 
 
-#### Terminer les exercices de programmation
-[💼 Exercices de programmation](./exercices/base_code.md){ .md-button .back }  
-
 #### Avancer le travail 1
-[💼 Travail 1 - Étapes 5 à 10](./travaux/travail1.md){ .md-button .back }   
+[💼 Travail 1 - Étapes 5 à 9](./travaux/travail1.md){ .md-button .back }   
 
-!!! info "Important"
-
-    Pour l'étape 10, vous pouvez seulement créer le schéma de programmation. La programmation pourra être faite en classe au cours suivant. 
