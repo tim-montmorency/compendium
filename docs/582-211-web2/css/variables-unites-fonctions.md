@@ -245,7 +245,9 @@ clamp(minimum, valeur-préférée, maximum)
 }
 ```
 
-## COMBINER tout ensemble : Exemple complet
+## COMBINER tout ensemble
+
+### Exemple complet
 
 ```css
 :root {
