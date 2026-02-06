@@ -717,40 +717,7 @@ Puis, dans l'édition du menu principal, ajouter le shortcode suivant :
 
     Dans la balise html de votre site, vous devriez voir apparaître un attribut `lang` qui indique la langue de votre site. Par exemple : 'fr-CA' pour français canadien.
 
-### Chaines traduisibles
 
-Pour ajouter une chaine traduisible, on peut le faire en programmation avec le code suivant. Il suffit de l'insérer dans le fichier `functions.php` du thème actif.
-
-```php
-// Ajoute des string traduisibles pour Polylang
-function my_register_strings_for_polylang() {
-  if ( function_exists( 'pll_register_string' ) ) {
-    // Ajouter ici des chaines :
-    pll_register_string( 'Comments label', 'Comments', 'Thème' );
-    // ...
-  }
-}
-add_action( 'after_setup_theme', 'my_register_strings_for_polylang' );
-```
-
-Lorsque la chaine est ajoutée, on peut utiliser un shortcode pour l'afficher. Ainsi on a un contrôle total sur les chaines traduisibles.
-
-Pour créer le shortcode, il faut ajouter le code suivant dans le fichier `functions.php` du thème actif.
-
-```php
-// Shortcode de traduction
-// Exemple : [trans text="Comments"]
-function trans_shortcode( $atts ) {
-  $atts = shortcode_atts( array('text' => ''), $atts, 'trans' );
-  if ( ! empty( $atts['text'] ) ) {
-    return pll__( $atts['text'] );
-  }
-  return '';
-}
-add_shortcode( 'trans', 'trans_shortcode' );
-```
-
-Ce qui veut dire qu'on peut maintenant, dans la gestion des blocs du site, ajouter un shortcode `[trans text="My sublime text!"]` et le texte sera traduit selon la langue du site.
 
 ### Gestion des menus
 
