@@ -20,11 +20,13 @@ WordPress les propose automatiquement, mais on peut aussi les modifier, les supp
 
 Autre exemple :
 
-* Type de contenu : Critiques
 * Taxonomie : Films
 * Termes : Meilleurs films, Avis, Sélections
 
-Les taxonomies aident donc à mieux classer le contenu et à le rendre plus facile à trouver.
+!!! tip "Taxonomie"
+
+    Les taxonomies aident donc à mieux classer le contenu et à le rendre plus facile à trouver.
+
 
 ![](./assets/images/post-type.jpg){data-zoom-image}
 
@@ -60,7 +62,7 @@ Les post types permettent donc de structurer clairement le contenu et de l’aff
 
 Le bloc Boucle de requête sert à afficher automatiquement une liste de contenus sur une page, sans écrire de code.
 
-Par exemple, il peut afficher :
+**Par exemple, il peut afficher :**
 
 * des articles
 * des projets
@@ -113,7 +115,7 @@ Avec les réglages du bloc, vous pouvez :
 ### À quoi ça sert ?
 
 *	Lister des articles, pages, CPT (Custom Post Type)
-*	Créer :
+**Créer :**
   
  *	un blog
  *	un portfolio
@@ -132,6 +134,7 @@ Avec les réglages du bloc, vous pouvez :
 * Parfait pour afficher plusieurs items
 * Pas de filtres interactifs natifs
 
+
 ![](./assets/images/Dynamic_content.jpg){data-zoom-image}
 
  
@@ -146,7 +149,7 @@ Avec les réglages du bloc, vous pouvez :
  *	la date
  *	une taxonomie
    
-*	Dans :
+**Dans :**
   
  *	une page de détail
  *	un template
@@ -216,8 +219,8 @@ Advanced Views Lite :
  *	un template
  *	un Query Loop
 *	ne contient aucune donnée en dur
-*	
-👉 Donc oui : 100 % dynamic content.
+  
+**👉 Donc oui : 100 % dynamic content.**
  
 ### Concrètement, ce qu’il fait
 Advanced Views Lite te permet d’afficher :
@@ -257,7 +260,6 @@ Advanced Views Lite :
 *	❌ ne crée pas de logique conditionnelle avancée
 *	❌ n’interagit pas avec l’utilisateur
 
-👉 Il affiche, il ne décide pas.
 (Le filtrage = FacetWP / Search & Filter / JS)
  
 
