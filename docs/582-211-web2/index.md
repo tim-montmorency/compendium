@@ -23,10 +23,8 @@ L’élève apprend des notions de mise en page en utilisant des techniques de b
   ![](../_/profs/mmouellet.jpg)
 
   **Marie-Michelle Ouellet**<br>
-  
   _Enseignante en Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
-
   [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF){ .md-button .md-button--primary }
 </div>
 
