@@ -12,7 +12,7 @@
 
 
 ### CONTEXTE
-Dans le cadre de cet examen, vous devez concevoir et réaliser un site web bilingue (français / anglais) pour un organisme ou une entreprise de votre choix.
+Dans le cadre de cet examen, vous devez concevoir et réaliser un site web bilingue (français / anglais) sur un thème de votre choix.
 Le site doit être conçu de manière entièrement dynamique, afin de pouvoir évoluer dans le temps sans nécessiter de reconstruction complète.
  
 ### PAGES OBLIGATOIRES
@@ -51,7 +51,9 @@ Le site présente un catalogue de produits (ex. : téléphones, ordinateurs, app
 *	Posséder sa propre structure de champs personnalisés
 *	Être affiché automatiquement à plusieurs endroits du site
 *	Utiliser un design identique, sans modification manuelle
- 
+
+---
+
 #### Option 2 — Site immobilier
 Le site présente des biens immobiliers (maisons, condos ou appartements).
 
@@ -67,7 +69,9 @@ Le site présente des biens immobiliers (maisons, condos ou appartements).
 
 *	Une page listant toutes les propriétés
 *	Une page de détail pour chaque bien
- 
+
+---
+
 #### Option 3 — Site de recettes
 Le site présente des recettes à l’aide d’un CPT.
 
@@ -79,7 +83,9 @@ Le site présente des recettes à l’aide d’un CPT.
 *	Type de repas
   
 Le contenu doit être affiché de façon dynamique (ex. : recettes récentes, recettes par catégorie).
- 
+
+---
+
 #### Option 4 — Bibliothèque de jeux vidéo
 Le site présente une collection de jeux vidéo.
 
@@ -95,7 +101,9 @@ Le site présente une collection de jeux vidéo.
 
 *	Une vue en liste
 *	Une page de détail pour chaque jeu
- 
+
+---
+
 #### Option 5 — Site de critiques (films, séries ou livres)
 Le site présente des critiques culturelles.
 
@@ -107,7 +115,9 @@ Le site présente des critiques culturelles.
 *	Durée
 
 Des listes dynamiques doivent être mises en place (ex. : les mieux notées, les plus récentes).
- 
+
+---
+
 #### Option 6 — Catalogue musical
 Le site présente un catalogue d’albums ou d’artistes.
 
@@ -131,8 +141,7 @@ Les règles suivantes doivent être respectées :
 *	Le design et le contenu doivent être clairement séparés
 *	Les modèles (templates) doivent être réutilisables
 
-
-
+---
 
 
 
@@ -197,8 +206,8 @@ Les règles suivantes doivent être respectées :
 
 ## PARTIE 4 — Query Loop avancé (25 %)
 ### Tâches obligatoires
-1.	Insérer au moins 2 Query Loop différents, chacun avec un rôle précis.
-2.	Configurer chaque Query Loop :
+1.	Insérer une Bloc Boucle de requête (Queryloop)
+2.	Configurer le Query Loop :
 
 *	Modèle personnalisé
 
