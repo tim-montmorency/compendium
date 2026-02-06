@@ -52,10 +52,11 @@ Dans ACF :
 *	Type : Text
 *	Nom : Vitesse maximale
  
-1. Nombre de places
+3. Nombre de places
    
 *	Type : Checkbox
 *	Nom : nombre_places
+  
 *	Choix :
   
  * 2
@@ -64,13 +65,13 @@ Dans ACF :
  * 6
  * 7
  
-3. Autonomie
+4. Autonomie
    
 *	Type : Text
 *	Nom : Autonomie
 
  
-4. Prix
+5. Prix
    
 *	Type : Text
 *	Nom : Prix
