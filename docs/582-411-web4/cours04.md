@@ -36,7 +36,7 @@ Mais on peut créer d’autres post types selon les besoins du site.
 
 #### Exemples :
 
-* Projets*
+* Projets
 * Événements
 * Critiques
 * Produits
@@ -57,7 +57,7 @@ Par exemple, il peut afficher :
 * des recettes
 * un portfolio
 
-C’est une version plus avancée du bloc Derniers articles.
+C’est une version plus avancée du bloc : Derniers articles.
  
 ### Comment ça fonctionne
 
@@ -102,8 +102,9 @@ Avec les réglages du bloc, vous pouvez :
 
 ### À quoi ça sert ?
 
-*	Lister des articles, pages, CPT
+*	Lister des articles, pages, CPT (Custom Post Type)
 *	Créer :
+  
  *	un blog
  *	un portfolio
  *	une grille de projets
@@ -126,11 +127,14 @@ Avec les réglages du bloc, vous pouvez :
 ### À quoi ça sert ?
 
 *	Afficher :
+  
  *	un champ ACF
  *	l’auteur
  *	la date
  *	une taxonomie
+   
 *	Dans :
+  
  *	une page de détail
  *	un template
  *	une carte
@@ -146,16 +150,8 @@ Avec les réglages du bloc, vous pouvez :
 * Parfait pour afficher des champs personnalisés
 * Ne fait pas de liste tout seul
  
-## Comparaison rapide
-* Query Loop	Dynamic Content
- * Affiche plusieurs contenus	✅	❌
- * Affiche un champ ACF	❌ (direct)	✅
-Fonctionne en boucle	✅	❌
-Page archive / liste	✅	❌
-Page détail	⚠️	✅
-Filtre front-end natif	❌	❌
 
-| ----------- | Query Loop   | Dynamic Content   |
+| | Query Loop   | Dynamic Content   |
 | ----------- | ----------- | ----------- |
 | Affiche plusieurs contenus  |✅ | ❌ |
 | Affiche un champ ACF  | ❌ (direct) | ✅ |
@@ -196,7 +192,7 @@ Utilise Dynamic Content quand :
 
 ## Advanced Views Lite = Dynamic Content
 #### Dynamic content, ça veut dire :
-afficher automatiquement des données qui changent selon le contenu affiché.
+Afficher automatiquement des données qui changent selon le contenu affiché.
 
 Advanced Views Lite :
 
@@ -221,6 +217,7 @@ Advanced Views Lite te permet d’afficher :
 *	taxonomies liées
 
 Et tout ça :
+
 *	sans PHP
 *	sans shortcode
 *	sans JS
@@ -232,15 +229,17 @@ Tu l’utilises exactement comme il faut si :
 *	tu as des CPT (ex : Véhicules)
 *	avec des champs ACF
 *	affichés dans :
+  
  *	une fiche détail
  *	une carte
  *	une Query Loop
- *	
+   
 👉 C’est propre, scalable et maintenable.
  
 ⚠️ Limite importante à connaître
 
 Advanced Views Lite :
+
 *	❌ ne filtre pas les requêtes
 *	❌ ne crée pas de logique conditionnelle avancée
 *	❌ n’interagit pas avec l’utilisateur
