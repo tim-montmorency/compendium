@@ -171,7 +171,7 @@ Les consignes sont dans le README.md de l'exercice.
 Faire un commit et push de vos modifications sur GitHub Classroom.
 
 
-## BLOC 9 : ATELIER - *Portfolio: Créer un système CSS documenté*
+## [Annulé] ~~BLOC 9 : ATELIER-*Portfolio: Créer un système CSS*~~
 
 À ne pas faire pour cette semaine. On verra ça au prochain cours.
 
