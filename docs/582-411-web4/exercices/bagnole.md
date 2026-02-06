@@ -39,7 +39,7 @@ Dans ACF :
  
 ### Champs à créer
 
-1. Type de véhicule
+**Type de véhicule**
    
  *	Type : Radio Button
  *	Nom : Type de véhicule
@@ -48,12 +48,12 @@ Dans ACF :
   *	Essence
   * Électrique
  
-2. Vitesse maximale
+**Vitesse maximale**
    
 *	Type : Text
 *	Nom : Vitesse maximale
  
-3. Nombre de places
+**Nombre de places**
    
 *	Type : Checkbox
 *	Nom : nombre_places
@@ -64,13 +64,13 @@ Dans ACF :
   * 6
   * 7
  
-4. Autonomie
+**Autonomie**
    
 *	Type : Text
 *	Nom : Autonomie
 
  
-5. Prix
+**Prix**
    
 *	Type : Text
 *	Nom : Prix
@@ -93,7 +93,7 @@ Pour chaque véhicule :
 •	Une image mise en avant
 •	Remplis la fiche technique
 
-3. Publier
+**Publier**
  
 ## 4️⃣ Dans ACF (Advanced custom fields)
 1. Aller dans Field Group
@@ -108,7 +108,7 @@ Dans Advenced Views
 *	Autonomie :
 *	Prix :
   
-2. Enregistrer
+**Enregistrer**
 
 ## 5️⃣ Créer un modèle « Comparaison de véhicules »
 * Nom : Comparaison de véhicules
@@ -117,7 +117,7 @@ Dans Advenced Views
 ## 6️⃣ Construire la structure du modèle
 Voici l’ordre des blocs à ajouter 👇
  
-1. Ajouter un bloc → Sélectionner l’onglet Motif → En-têtes
+**Ajouter un bloc → Sélectionner l’onglet Motif → En-têtes**
    
 *	Effacer le bloc : Titre du Site
 *	Ajouter le logo
@@ -126,7 +126,7 @@ Voici l’ordre des blocs à ajouter 👇
 *	Couleur de l’arrière-plan : #00002A
 
  
-2. Ajouter un bloc → Sélectionner l’onglet Motif → Bannières
+**Ajouter un bloc → Sélectionner l’onglet Motif → Bannières**
    
 *	Sélectionner dans la 2e page des bannière : Fullwidth Dark Banner with Heading Top Left 
 *	Changer le texte pour : Comparaison de véhicule
@@ -139,11 +139,11 @@ Voici l’ordre des blocs à ajouter 👇
 *	Couleur de l’overlay (Calque de superposition) de la bannière : #030B2D
 
  
-3. Ajouter un bloc → Spacer
+**Ajouter un bloc → Spacer**
    
 *	Hauteur : 50px
  
-4. Ajouter une boucle de requête (Queryloop)
+**Ajouter une boucle de requête (Queryloop)**
    
 *	Sélectionner : Partir à zéro
 *	Sélectionner la variante : Image, date et Titre
@@ -177,7 +177,7 @@ Voici l’ordre des blocs à ajouter 👇
 *	Aspect-Ratio : Wide – 16 : 9
 
 ### Colonnes
-1. Dans la 1ère colonne
+**Dans la 1ère colonne**
    
 *	Width : 100%
 *	Ajouter un bloc : titre H3 appelé Fiche technique
@@ -185,11 +185,11 @@ Voici l’ordre des blocs à ajouter 👇
 *	Ajouter un bloc : Shortcode
 *	Ajouter le Shortcode de Advanced Views Lite
   
-2. Dans la deuxième colonne
+**Dans la deuxième colonne**
    
  * Rien
  
-1. Ajouter un bloc → Sélectionner l’onglet Motif → Pieds de page
+**Ajouter un bloc → Sélectionner l’onglet Motif → Pieds de page**
    
 ### Sélectionner le pieds de page → Center footer with social links
 
@@ -200,7 +200,7 @@ Voici l’ordre des blocs à ajouter 👇
 *	Ajouter un Bloc Navigation
 *	Sélectionner le Bloc Empiler et justifier les éléments au centre
 
-1. Aller dans vos pages
+**Aller dans vos pages**
    
 *	Ajouter une page avec le nom : Inventaire
 *	Aller dans les réglages à droite
