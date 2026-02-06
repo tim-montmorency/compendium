@@ -18,9 +18,9 @@ Le site doit être conçu de manière entièrement dynamique, afin de pouvoir é
 ### PAGES OBLIGATOIRES
 **Le site doit obligatoirement comprendre :**
 
-•	Une page d’accueil
-•	Une page de contact
-•	Au moins une section de contenu dynamique liée au thème choisi
+*	Une page d’accueil
+*	Une page de contact
+*	Au moins une section de contenu dynamique liée au thème choisi
  
 ### GESTION DU CONTENU (OBLIGATOIRE)
 La gestion du contenu doit respecter les contraintes suivantes :
