@@ -2,7 +2,9 @@
 
 ## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
-[👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button}
+[Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF){ .md-button .md-button--primary }
+
+[👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button .md-button--primary } 
 
 
 <!-- 
@@ -135,7 +137,7 @@ Action :
 
 ## **Bloc 5** Activité pratique: Analyse de code
 
-[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button }
 
 <!-- 
 ## **Bloc 6** Exposé 1b : Lire une maquette comme un pro
@@ -144,10 +146,10 @@ Action :
 
 ## **Bloc 7** Atelier: Schéma de navigation
 
-[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code - GitHub Classroom](https://classroom.github.com/a/NuaqM5Jc){ .md-button  }
 Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la: `nomfamille-prenom1_nomfamille-prenom2` ex:  `ouellet-marie_lambert-jean`
 
-[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button }
 
 
 ## **Bloc 8** Présentation politique IA phase 1 
@@ -167,7 +169,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 ### Terminer l'activité pratique: Analyse de code débuté en classe
 
-[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-analyse-de-code/index.md){ .md-button  }
 
 ### Texte à lire avant le prochain cours en vue d'une discussion en classe :
 

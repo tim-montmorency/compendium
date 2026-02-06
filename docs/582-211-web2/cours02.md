@@ -81,7 +81,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 
 <!--
-[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button .md-button--primary }
+[👩🏻‍💻 Activité pratique : Analyse de code](./exercices/cours1-schema-navigation/index.md){ .md-button }
 -->
 
 ## Révision CSS du cours Web1

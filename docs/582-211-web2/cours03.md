@@ -19,11 +19,11 @@ CSS fluide et système de design (jetons et variables)
 
 ## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
-[👩‍🏫 Exposé 3a: Pourquoi l'architedcture CSS compte: Télécharger le PPT :material-download:](./assets/cours03-p01-importance-architecture-css.pptx){ .md-button}
+[👩‍🏫 Exposé 3a: Pourquoi l'architedcture CSS compte: Télécharger le PPT :material-download:](./assets/cours03-p01-importance-architecture-css.pptx){ .md-button .md-button--primary }
 
-[👩‍🏫 Exposé 3b: Nomenclature cohérente: Télécharger le PPT :material-download:](./assets/cours03-p02-nomenclature-coherente.pptx){ .md-button}
+[👩‍🏫 Exposé 3b: Nomenclature cohérente: Télécharger le PPT :material-download:](./assets/cours03-p02-nomenclature-coherente.pptx){ .md-button .md-button--primary }
 
-[📚 Contenu de cours: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button}
+[📚 Contenu de cours: Les variables CSS](https://tim-montmorency.com/timdoc/582-211/css/variables/){ .md-button .md-button--primary }
 
 
 ## Bloc0: REMISE de l'exercice de *🍽️Menu de restaurant*
