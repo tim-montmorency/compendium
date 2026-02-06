@@ -19,7 +19,7 @@ Technologies utilisées :
 *	ACF
 *	Advanced Views Lite
  
-### 1️⃣ Créer le post-type « Inventaire »
+## 1️⃣ Créer le post-type « Inventaire »
 
 Dans ACF :
 
@@ -30,7 +30,7 @@ Dans ACF :
 
 👉 Ce post-type servira à créer chaque véhicule.
  
-### 2️⃣ Créer le Field Group « Fiche technique »
+## 2️⃣ Créer le Field Group « Fiche technique »
 * Dans ACF → Field Groups → Add New
 * Nom du groupe
 * Fiche technique
@@ -38,8 +38,8 @@ Dans ACF :
  *	Post Type est égal à Inventaire
  
 ### Champs à créer
+
 1. Type de véhicule
-   
  *	Type : Radio Button
  *	Nom : Type de véhicule
  *	Choix :
@@ -48,15 +48,12 @@ Dans ACF :
   * Électrique
  
 2. Vitesse maximale
-   
 *	Type : Text
 *	Nom : Vitesse maximale
  
 3. Nombre de places
-   
 *	Type : Checkbox
 *	Nom : nombre_places
-  
 *	Choix :
   
  * 2
@@ -66,13 +63,11 @@ Dans ACF :
  * 7
  
 4. Autonomie
-   
 *	Type : Text
 *	Nom : Autonomie
 
  
-5. Prix
-   
+5. Prix 
 *	Type : Text
 *	Nom : Prix
  
