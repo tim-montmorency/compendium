@@ -6,6 +6,8 @@
   <span class="sidetext">Utilisation de l'IA générative interdite à cette phase dans la session: vous devez solidifier les bases</span>
 </div>
 
+<!-- RÉSUMÉ DU CONTENU VU AUJOURD'HUI -->
+
 <!--
 
 **Prévu au cours 3 mais n'a pas été couvert encore**

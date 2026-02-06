@@ -1,6 +1,6 @@
 # Cours 1
 
-## Résumé du contenu des présentations du jour
+## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
 [👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours01-p01-integrateur-web.pptx){ .md-button}
 

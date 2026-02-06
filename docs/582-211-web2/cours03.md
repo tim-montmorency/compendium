@@ -17,7 +17,7 @@ CSS fluide et système de design (jetons et variables)
   · CSS fluide AVANT le responsive
 -->
 
-## Résumé du contenu des présentations du jour
+## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
 [👩‍🏫 Exposé 3a: Pourquoi l'architedcture CSS compte: Télécharger le PPT :material-download:](./assets/cours03-p01-importance-architecture-css.pptx){ .md-button}
 

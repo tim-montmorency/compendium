@@ -1,6 +1,6 @@
 # Cours 2
 
-## Résumé du contenu des présentations du jour
+## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
 [📚 Contenu de cours: Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
 
