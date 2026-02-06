@@ -57,6 +57,7 @@ Dans ACF :
    
 *	Type : Checkbox
 *	Nom : nombre_places
+
 **Choix :**
  	
 * 2
@@ -88,11 +89,11 @@ Dans ACF :
 *	Mercedes AMG GT 63
 *	BMW M8
 
-Pour chaque véhicule :
+**Pour chaque véhicule :**
 
-•	Ajoute un titre
-•	Une image mise en avant
-•	Remplis la fiche technique
+*	Ajoute un titre
+*	Une image mise en avant
+*	Remplis la fiche technique
 
 **Publier**
  
