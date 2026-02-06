@@ -1,7 +1,7 @@
 
-# Variables CSS, Design Tokens, Unités relatives & Fonctions CSS
+# Variables, unités relatives & fonctions
 
-## 1. Variables CSS et Design Tokens
+## VARIABLES CSS ET DESIGN TOKENS
 
 ### Qu'est-ce qu'une variable CSS ?
 
@@ -95,7 +95,7 @@ Un **design token** est une variable CSS qui représente une décision de design
 
 
 
-## 2. Unités relatives
+## UNITÉS RELATIVES ET FLEXIBLES
 
 Les unités relatives s'adaptent au contexte, contrairement aux pixels (`px`) qui sont fixes.
 
@@ -170,7 +170,7 @@ Souvent utilisé pour les largeurs et hauteurs.
 
 
 
-## 3. Fonctions CSS
+## FONCTIONS CSS
 
 #### `calc()` - Faire des calculs
 
@@ -243,9 +243,7 @@ clamp(minimum, valeur-préférée, maximum)
 }
 ```
 
----
-
-## Combiner tout ensemble : Exemple complet
+## COMBINER tout ensemble : Exemple complet
 
 ```css
 :root {
