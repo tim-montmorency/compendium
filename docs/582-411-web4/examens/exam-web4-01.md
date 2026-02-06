@@ -16,7 +16,8 @@ Dans le cadre de cet examen, vous devez concevoir et réaliser un site web bilin
 Le site doit être conçu de manière entièrement dynamique, afin de pouvoir évoluer dans le temps sans nécessiter de reconstruction complète.
  
 ### PAGES OBLIGATOIRES
-Le site doit obligatoirement comprendre :
+**Le site doit obligatoirement comprendre :**
+
 •	Une page d’accueil
 •	Une page de contact
 •	Au moins une section de contenu dynamique liée au thème choisi
@@ -24,15 +25,20 @@ Le site doit obligatoirement comprendre :
 ### GESTION DU CONTENU (OBLIGATOIRE)
 La gestion du contenu doit respecter les contraintes suivantes :
 
-*	Le contenu doit être géré exclusivement à l’aide de :
- *	Types de publications personnalisés (Custom Post Types — CPT)
- *	Champs personnalisés créés avec Advanced Custom Fields (ACF)
-*	L’affichage du contenu doit se faire uniquement avec :
- *	Query Loop
- *	Advanced Views Lite
+**Le contenu doit être géré exclusivement à l’aide de :**
 
-⚠️ Aucun texte ou contenu ne doit être écrit directement dans les pages.
-Tout contenu en dur est strictement interdit.
+*	Types de publications personnalisés (Custom Post Types — CPT)
+*	Champs personnalisés créés avec Advanced Custom Fields (ACF)
+
+**L’affichage du contenu doit se faire uniquement avec :**
+
+*	Query Loop
+*	Advanced Views Lite
+
+!!! warning "Avertissement"
+
+    ⚠️ Aucun texte ou contenu ne doit être écrit directement dans les pages.
+    Tout contenu en dur est strictement interdit.
  
 ### CHOIX DU THÈME
 Vous devez choisir un seul des thèmes suivants :
@@ -40,7 +46,7 @@ Vous devez choisir un seul des thèmes suivants :
 #### Option 1 — Catalogue de produits
 Le site présente un catalogue de produits (ex. : téléphones, ordinateurs, appareils photo, instruments de musique).
 
-Chaque produit doit :
+**Chaque produit doit :**
 
 *	Posséder sa propre structure de champs personnalisés
 *	Être affiché automatiquement à plusieurs endroits du site
@@ -49,7 +55,7 @@ Chaque produit doit :
 #### Option 2 — Site immobilier
 Le site présente des biens immobiliers (maisons, condos ou appartements).
 
-Chaque fiche doit contenir au minimum :
+**Chaque fiche doit contenir au minimum :**
 
 *	Prix
 *	Nombre de pièces
@@ -57,7 +63,7 @@ Chaque fiche doit contenir au minimum :
 *	Quartier
 *	Type de transaction (vente ou location)
 
-Le site doit inclure :
+**Le site doit inclure :**
 
 *	Une page listant toutes les propriétés
 *	Une page de détail pour chaque bien
@@ -65,7 +71,7 @@ Le site doit inclure :
 #### Option 3 — Site de recettes
 Le site présente des recettes à l’aide d’un CPT.
 
-Chaque recette doit contenir :
+**Chaque recette doit contenir :**
 
 *	Temps de cuisson
 *	Difficulté
@@ -77,7 +83,7 @@ Le contenu doit être affiché de façon dynamique (ex. : recettes récentes, re
 #### Option 4 — Bibliothèque de jeux vidéo
 Le site présente une collection de jeux vidéo.
 
-Chaque jeu doit contenir :
+**Chaque jeu doit contenir :**
 
 *	Plateforme
 *	Genre
@@ -85,7 +91,7 @@ Chaque jeu doit contenir :
 *	Année de sortie
 *	Mode multijoueur (oui / non)
 
-Le site doit proposer :
+**Le site doit proposer :**
 
 *	Une vue en liste
 *	Une page de détail pour chaque jeu
@@ -93,7 +99,7 @@ Le site doit proposer :
 #### Option 5 — Site de critiques (films, séries ou livres)
 Le site présente des critiques culturelles.
 
-Chaque critique doit contenir :
+**Chaque critique doit contenir :**
 
 *	Note
 *	Genre
@@ -105,20 +111,21 @@ Des listes dynamiques doivent être mises en place (ex. : les mieux notées, les
 #### Option 6 — Catalogue musical
 Le site présente un catalogue d’albums ou d’artistes.
 
-Chaque élément doit contenir :
+**Chaque élément doit contenir :**
 
 *	Genre
 *	Année
 *	Durée
 *	Label
 
-Le site doit inclure :
+**Le site doit inclure :**
 
 *	Une page de liste
 *	Une page de détail
  
 ### CONTRAINTES OBLIGATOIRES
 Les règles suivantes doivent être respectées :
+
 *	Tout le contenu doit être dynamique
 *	Aucun contenu ne doit être écrit en dur dans les pages
 *	Le design et le contenu doivent être clairement séparés
@@ -140,7 +147,7 @@ Les règles suivantes doivent être respectées :
 *	Page
 *	Catégorie ou archive
 
-4.	Modifier le header et le footer au niveau global
+**Modifier le header et le footer au niveau global**
 
 ### Exigences
 *	Utilisation réelle des modèles
@@ -159,7 +166,7 @@ Les règles suivantes doivent être respectées :
 *	Extrait personnalisé
 *	Métadonnées visibles (auteur, date ou catégorie)
   
-4.	Le modèle d’article doit afficher ces données dynamiquement
+**Le modèle d’article doit afficher ces données dynamiquement**
 
 ### Critères
 *	Compréhension du principe un contenu → plusieurs affichages
@@ -174,7 +181,7 @@ Les règles suivantes doivent être respectées :
 *	Exigences : visible dans l’administration, public, archive activée
 
 #### 2️⃣ Champs personnalisés avec ACF
-*	Minimum 5 champs, par exemple :
+**Minimum 5 champs, par exemple :**
   
 *	Photo de l’artiste
 *	Discipline artistique
@@ -195,7 +202,7 @@ Les règles suivantes doivent être respectées :
 
 *	Modèle personnalisé
 
-3.	Modifier le design du modèle :
+**Modifier le design du modèle :**
    
 *	Structure des blocs
 *	Gestion des images
@@ -214,7 +221,7 @@ Les règles suivantes doivent être respectées :
 *	Articles
 *	Menus
 
-4.	Vérifier :
+**Vérifier :**
    
 *	Query Loop affichant le contenu dans la bonne langue
 *	Navigation cohérente par langue
@@ -227,13 +234,13 @@ Les règles suivantes doivent être respectées :
 
 ## PARTIE 6 — Compositions (Patterns) et réutilisation (10 %)
 ### Tâches obligatoires
-1.	Créer au moins une composition personnalisée :
+**Créer au moins une composition personnalisée :**
    
 *	Blocs dynamiques
 *	Structure réutilisable
 
-3.	Réutiliser cette composition au moins deux fois
-4.	Vérifier que la composition s’adapte automatiquement au contenu
+**Réutiliser cette composition au moins deux fois**
+**Vérifier que la composition s’adapte automatiquement au contenu**
 
 
 
