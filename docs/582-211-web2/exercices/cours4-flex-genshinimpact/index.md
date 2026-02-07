@@ -11,21 +11,69 @@ Vous créez une galerie de personnages pour le jeu Genshin Impact, avec leurs é
 - Maîtriser `display: flex`
 - Utiliser `justify-content`, `align-items`, `gap`
 - Pratiquer `flex-direction` et `flex-wrap`
+- Utiliser Flexbox à l'intérieur d'une carte pour empiler du contenu verticalement
 
 ## Consignes de base
 
 Créez une galerie de 6 cartes de personnages avec :
 
-- Nom du personnage
-- Élément (Pyro, Hydro, Cryo, etc.)
-- Couleur de fond selon l'élément
-- Layout qui s'adapte (wrapping)
+- [ ] Portrait du personnage (image fournie)
+- [ ] Nom du personnage
+- [ ] Élément (Pyro, Hydro, Cryo, etc.)
+- [ ] Couleur de fond selon l'élément
+- [ ] Layout qui s'adapte (wrapping)
+
+**Structure de chaque carte (de haut en bas) :**
+
+1. Image du personnage
+2. Nom (h3)
+3. Élément (paragraphe avec emoji)
 
 ## Fichier de départ
 
 IMPORTANT : Connectez-vous à CodePen d'abord et par la suite faire un fork du Pen de départ
 
 [Pen de départ](#){ .md-button }
+
+### Étapes recommandées
+
+**ÉTAPE 1 : La galerie (conteneur principal)**
+
+- [ ] Utilisez `display: flex` sur `.galerie`
+- [ ] Ajoutez `flex-wrap: wrap` pour permettre le passage à la ligne
+- [ ] Centrez les cartes avec `justify-content: center`
+- [ ] Espacez-les avec `gap` (suggestion : 1.5rem)
+
+**ÉTAPE 2 : Les cartes individuelles**
+
+- [ ] Définissez une largeur fixe (suggestion : 200px)
+- [ ] Ajoutez du padding, border-radius, box-shadow
+- [ ] **Utilisez Flexbox À L'INTÉRIEUR de chaque carte :**
+  - [ ] `display: flex`
+  - [ ] `flex-direction: column` (empiler verticalement)
+  - [ ] `align-items: center` (centrer horizontalement)
+  - [ ] `gap` pour espacer image, titre, élément
+
+**ÉTAPE 3 : Styliser l'image**
+
+- [ ] `width: 100%` pour qu'elle prenne toute la largeur de la carte
+- [ ] `height: auto` pour garder les proportions
+- [ ] Optionnel : border-radius pour arrondir les coins
+
+**ÉTAPE 4 : Animation au survol**
+
+- [ ] Ajoutez `transform: translateY(-5px)` sur `.carte:hover`
+- [ ] Augmentez le box-shadow au survol
+
+### Résultat attendu
+
+Une galerie responsive où :
+
+- [ ] Les cartes sont centrées et espacées uniformément
+- [ ] Elles passent à la ligne si l'écran est trop petit
+- [ ] Le contenu à l'intérieur de chaque carte est bien empilé verticalement
+- [ ] L'image, le nom et l'élément sont centrés
+- [ ] Un effet de "levée" apparaît au survol
 
 ## 🚀Vous êtes super rapide?
 
@@ -43,10 +91,10 @@ Ajoutez une barre de navigation en haut de page avec le logo Genshin et 3 liens 
 
 Créez une mise en page avec :
 
-- Header flex (logo + navigation)
-- Section hero flex (image + texte côte à côte)
-- Galerie de cartes en dessous
-- Footer flex (liens réseaux sociaux centrés)
+- [ ] Header flex (logo + navigation)
+- [ ] Section hero flex (image + texte côte à côte)
+- [ ] Galerie de cartes en dessous
+- [ ] Footer flex (liens réseaux sociaux centrés)
 
 ## Remise
 
