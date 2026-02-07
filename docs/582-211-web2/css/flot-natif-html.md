@@ -181,7 +181,7 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
     - Comment les éléments sont-ils redistribués ?
     - En quoi ce comportement est-il différent du flux normal ?
 
-<p class="codepen" data-height="800" data-theme-id="44168" data-default-tab="result" data-slug-hash="jErvvOj" data-pen-title="DEMO Flot natif html et interruption du flot avec CSS" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="700" data-theme-id="44168" data-default-tab="result" data-slug-hash="jErvvOj" data-pen-title="DEMO Flot natif html et interruption du flot avec CSS" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
     <span>See the Pen <a href="https://codepen.io/tim-momo/pen/jErvvOj">
 DEMO Flot natif html et interruption du flot avec CSS</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
