@@ -26,11 +26,12 @@ Flexbox (Flexible Box Layout) est un système de mise en page CSS qui permet d'a
 ```
 
 
-
-## Le modèle Flexbox : Conteneur et Items
+## Le modèle Flexbox : conteneur et items
 
 ### Conteneur flex (parent)
+
 L'élément qui contient les items et définit comment ils se comportent.
+
 ```css
 .conteneur {
   display: flex; /* Active Flexbox */
@@ -38,7 +39,9 @@ L'élément qui contient les items et définit comment ils se comportent.
 ```
 
 ### Items flex (enfants)
+
 Les éléments directs à l'intérieur du conteneur flex.
+
 ```html
 <div class="conteneur">
   <div class="item">1</div>
@@ -49,27 +52,18 @@ Les éléments directs à l'intérieur du conteneur flex.
 
 
 
-## Les axes : Principal et Secondaire
+## Les axes : principal et secondaire
 
 Flexbox fonctionne sur **deux axes** :
 
-### Axe principal (main axis)
-
-Direction dans laquelle les items sont disposés.
-
-### Axe secondaire (cross axis)
-
-Perpendiculaire à l'axe principal.
-
-
+- *Axe principal (main axis)* : Direction dans laquelle les items sont disposés.
+- *Axe secondaire (cross axis)* : Perpendiculaire à l'axe principal.
 
 <p class="codepen" data-height="880" data-theme-id="44168" data-default-tab="result" data-slug-hash="zxBJLOX" data-pen-title="DEMO - Flexbox" data-user="tim-momo" style="height: 880px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
       <span>See the Pen <a href="https://codepen.io/tim-momo/pen/zxBJLOX">
   DEMO - Flexbox</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-
 
 
 
@@ -137,7 +131,6 @@ Distribue l'espace entre/autour des items sur l'axe principal.
 DEMO - Flexbox justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ```css
 /* Items au début */
@@ -216,7 +209,7 @@ Aligne les items perpendiculairement à l'axe principal.
 DEMO - Flexbox justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
   </p>
-  <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 ```css
 /* Items étirés (défaut) */
@@ -380,3 +373,13 @@ flex-wrap: wrap;
   gap: 12px;
 }
 ```
+
+
+## Vous voulez apprendre en jouant?
+
+!!! warning "À propos de Flexbox Zombies"
+    Notez que cet exercice n'est pas requis pour le cours Web2. 
+    Vous pouvez le faire par vous même mais il ne sera pas utilisé dans le cadre de ce cours.
+
+[Flexbox Zombies: pour apprendre le flexbox](https://flexboxzombies.com/)
+
