@@ -62,7 +62,7 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 ## Mise en espace avec *Flexbox*
 
-[📚 Contenu de cours sur *Flexbox-introduction*](./css/variables-unites-fonctions.md){ .md-button .md-button--primary }
+[📚 Contenu de cours sur *Flexbox-introduction*](./css/flexbox01.md){ .md-button .md-button--primary }
 
 [👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact](./exercices/){ .md-button }
 
