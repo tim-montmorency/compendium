@@ -121,6 +121,24 @@ Distribue l'espace entre/autour des items sur l'axe principal.
 ```
 
 **Valeurs principales :**
+
+- `justify-content: flex-start;`
+- `justify-content: flex-end;`
+- `justify-content: center;`
+- `justify-content: space-between;`
+- `justify-content: space-around;`
+- `justify-content: space-evenly;`
+
+
+
+
+<p class="codepen" data-height="800" data-theme-id="44168" data-default-tab="result" data-slug-hash="bNexQgv" data-pen-title="DEMO - Flexbox justify-content" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/tim-momo/pen/bNexQgv">
+DEMO - Flexbox justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 ```css
 /* Items au début */
 justify-content: flex-start; /* défaut */
@@ -185,6 +203,20 @@ Aligne les items perpendiculairement à l'axe principal.
 ```
 
 **Valeurs principales :**
+
+- `align-items: stretch`
+- `align-items: flex-start;`
+- `align-items: flex-end;`
+- `align-items: center;`
+- `align-items: baseline;`
+
+
+<p class="codepen" data-height="800" data-theme-id="44168" data-default-tab="result" data-slug-hash="vEKzQmx" data-pen-title="DEMO - Flexbox justify-content" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/vEKzQmx">
+DEMO - Flexbox justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ```css
 /* Items étirés (défaut) */
@@ -280,6 +312,15 @@ Permet aux items de passer à la ligne suivante si l'espace manque.
 - `nowrap` : Tous les items sur une seule ligne (défaut)
 - `wrap` : Les items passent à la ligne si nécessaire
 - `wrap-reverse` : Comme wrap, mais en sens inverse
+
+
+<p class="codepen" data-height="800" data-theme-id="44168" data-default-tab="result" data-slug-hash="JoKaeyY" data-pen-title="DEMO - Flexbox align-items" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/tim-momo/pen/JoKaeyY">
+DEMO - Flexbox align-items</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ```css
 /* Sans wrap - items compressés */
