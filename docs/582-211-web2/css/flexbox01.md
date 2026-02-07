@@ -381,5 +381,4 @@ flex-wrap: wrap;
     Notez que cet exercice n'est pas requis pour le cours Web2. 
     Vous pouvez le faire par vous même mais il ne sera pas utilisé dans le cadre de ce cours.
 
-[Flexbox Zombies: pour apprendre le flexbox](https://flexboxzombies.com/)
-
+[Flexbox Zombies: pour apprendre CSS Flexbox en tuant des zombies !](https://flexboxzombies.com/)
