@@ -14,6 +14,7 @@ La couleur dominante de votre interface, celle qui représente votre marque ou i
 ```css
 --color-primary-500: #3B82F6; /* Bleu principal */
 ```
+
 Utilisée pour : boutons principaux, liens, éléments importants qui attirent l'attention.
 
 
@@ -25,6 +26,7 @@ Couleur complémentaire ou d'accentuation, utilisée en support de la couleur pr
 ```css
 --color-secondary-500: #8B5CF6; /* Violet secondaire */
 ```
+
 Utilisée pour : boutons secondaires, badges, éléments moins prioritaires mais importants.
 
 
@@ -36,7 +38,19 @@ Couleur d'accentuation pour attirer l'attention sur des éléments spécifiques.
 ```css
 --color-accent-500: #F59E0B; /* Orange pour notifications */
 ```
+
 Utilisée pour : notifications, alertes, call-to-action spéciaux.
+
+### Neutral (Neutre)
+
+Gamme de gris pour les textes, arrière-plans et bordures.
+
+```css
+--color-neutral-900: #111827; /* Texte principal très foncé */
+--color-neutral-50: #F9FAFB;  /* Arrière-plan très pâle */
+```
+
+Utilisée pour : textes, arrière-plans, séparateurs, ombres.
 
 ## Les variations numériques : Le système par centaines
 
