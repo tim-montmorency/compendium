@@ -116,7 +116,7 @@ Les modules modernes de mise en page permettent de contrôler le flux de manièr
 
 Ces outils permettent de créer des mises en page complexes *sans casser la logique du flux* de manière imprévisible.
 
----
+
 
 ## 4. Quand rester dans le flux?
 
@@ -144,7 +144,8 @@ out-of-flow : il ne réserve plus d’espace et peut se superposer aux autres é
 
 Comprendre cette distinction est essentiel pour éviter des mises en page “qui cassent”.
 
-[![](../assets/logo-mdn.svg) Être ou ne pas être dans le flux](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow)
+
+<a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow"><img src="../assets/logo-mdn.svg" alt="mdn" style="width: 80px;">Être ou ne pas être dans le flux</a>
 
 
 ## À retenir / Erreurs fréquentes
