@@ -65,6 +65,13 @@ Lien à venir...
 
 [👩🏻‍💻 Exercice Design tokens - Dark Academia](./exercices/cours4-variables-darkacademia/index.md){ .md-button }
 
+## Le flux (flow) HTML
+
+- Le flux natif des éléments HTML.
+- Pourquoi respecter ce flux "naturel".
+- Quand et comment interrompre ce flux avec le CSS.
+
+[📚 Contenu de cours le flux HTML](./css/flot-natif-html.md){ .md-button .md-button--primary }
 
 ## Mise en espace avec *Flexbox*
 
