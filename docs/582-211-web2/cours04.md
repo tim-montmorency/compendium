@@ -54,6 +54,8 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 [📚 Contenu de cours sur les *variables CSS* et design tokens](./css/variables-unites-fonctions.md#variables-css-et-design-tokens){ .md-button .md-button--primary }
 
+- [++ *Système de nomenclature des variables couleurs*](./systeme-noms-vars-couleurs.md)
+
 [📚 Contenu de cours sur les *unité relatives*](./css/variables-unites-fonctions.md#unites-relatives-et-flexibles){ .md-button .md-button--primary }
 
 [📚 Contenu de cours sur les *fonctions CSS*](./css/variables-unites-fonctions.md#fonctions-css){ .md-button .md-button--primary }

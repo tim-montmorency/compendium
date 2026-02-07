@@ -45,7 +45,7 @@ Quand on organise nos design tokens de couleurs, on suit généralement un syst�
 - **Secondary (Secondaire)** : Couleur complémentaire ou d'accentuation, utilisée en support de la couleur principale.
 - **Accent** : Couleur d'accentuation pour attirer l'attention sur des éléments spécifiques.
 
-[📚 Contenu de cours sur le *Système de nomenclature des couleurs*](./systeme-noms-vars-couleurs.md){ .md-button .md-button--primary }
+[📚 Contenu de cours sur le *Système de nomenclature des variables couleurs*](./systeme-noms-vars-couleurs.md){ .md-button .md-button--primary }
 
 ---
 
