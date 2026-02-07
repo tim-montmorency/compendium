@@ -42,7 +42,7 @@ nav:
   - Web 2:
       - 582-211-web2/index.md
       - CSS:
-        - 582-211-web5/css/index.md
+        - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
         - Flot HTML: 582-211-web2/css/flot-natif-html.md
         - Vars, unites, fonct.: 582-211-web2/css/variables-unites-fonctions.md

@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <!-- RÉSUMÉ DU CONTENU VU AUJOURD'HUI -->
 
 <!--
@@ -15,5 +17,17 @@
   Flexbox : Comprendre le système 
     · Gestion multilignes (flex-wrap)  (bougé au cours 5)
 
-  Je regarde la session et je veux éviter de bouger les dates de remises donc, je vais devoir couvrir le courrs 3 et une partie du cours 4 dans ce cours ci. Puis le reste du cours 4 et le cours 5 au cours 5.
+
+** Prévu au cours 5
+
+  Flexbox — Maîtriser l'espace 
+  
+  · Propriétés flex (flex-grow, flex-shrink, flex-basis) 
+  · Gestion de l'espace disponible et du débordement 
+  · Ordre des éléments (order) 
+  · Composants réutilisables : cartes, sections, navigations 
+  · Combinaisons Flexbox + contenu réel Lancement de l’atelier pratique sur les composants Flexbox
+
+
+Lancement de l’atelier pratique sur les composants Flexbox
 -->
