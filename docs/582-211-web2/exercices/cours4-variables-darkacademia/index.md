@@ -18,18 +18,21 @@ Vous créez l'interface pour une app de lecture de livres classiques, inspirée 
 ## Consignes de base
 
 1. Créez des design tokens (jetons de conception) pour :
-    - [ ] *Couleurs* : Palette Dark Academia (bruns, beiges, vert forêt, bordeaux)
-      - Au moins 3 couleurs principales avec variations (ex: `--color-primary-400`, `--color-primary-500`, `--color-primary-600`)
-    - [ ] *Espacements* : Système cohérent (au moins 5 valeurs : 4px, 8px, 16px, 24px, 32px)
-    - [ ] *Typographie* : 4 tailles de police (sm, base, lg, xl)
-    - [ ] *Bordures* : 3 rayons de bordure (sm, md, lg)
+
+- [ ] *Couleurs* : Palette Dark Academia (bruns, beiges, vert forêt, bordeaux)
+  - Au moins 3 couleurs principales avec variations (ex: `--color-primary-400`, `--color-primary-500`, `--color-primary-600`)
+- [ ] *Espacements* : Système cohérent (au moins 5 valeurs : 4px, 8px, 16px, 24px, 32px)
+- [ ] *Typographie* : 4 tailles de police (sm, base, lg, xl)
+- [ ] *Bordures* : 3 rayons de bordure (sm, md, lg)
+
 2. Créez une carte de livre avec :
-    - Titre du livre (utilisez `clamp()` pour taille fluide)
-    - Auteur
-    - Citation du livre
-    - Bouton "Commencer la lecture"
-    - Utilisez uniquement vos design tokens (pas de valeurs en dur)
-    - Tous les espacements en `rem`
+
+- [ ] Titre du livre (utilisez `clamp()` pour taille fluide)
+- [ ] Auteur
+- [ ] Citation du livre
+- [ ] Bouton "Commencer la lecture"
+- [ ] Utilisez uniquement vos design tokens (pas de valeurs en dur)
+- [ ] Tous les espacements en `rem`
 
 ## Fichier de départ
 
@@ -70,7 +73,7 @@ Ajoutez des tokens pour :
 
 Remettre le lien de votre CodePen complété dans le Devoir Teams nommé: *c4-dark-academina*. Si vous ne l'avez pas terminé pendant le cours, vous devrez le terminer en devoir et le remettre avant le cours 5.
 
-## 📚 Notes de cours reliées à l'exercice
+## 📚 Notes de cours
 
 [📚 Variables, unités relatives & fonctions](../../css/variables-unites-fonctions.md){ .md-button .md-button--primary }
 

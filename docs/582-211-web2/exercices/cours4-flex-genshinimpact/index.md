@@ -1,7 +1,7 @@
 # Exercice Genshin Impact
 
-[< retour au *cours 4*](../../cours04.md)
-[< retour aux notes de cours *flexbox - introduction*](../../css/flexbox01.md)
+- [< retour au *cours 4*](../../cours04.md)
+- [< retour aux notes de cours *flexbox - introduction*](../../css/flexbox01.md)
 
 ## Flexbox: Galerie de personnages Genshin Impact
 
@@ -103,6 +103,6 @@ Créez une mise en page avec :
 
 Remettre le lien de votre CodePen complété dans le Devoir Teams nommé: *c4-genshin-impact*. Si vous ne l'avez pas terminé pendant le cours, vous devrez le terminer en devoir et le remettre avant le cours 5.
 
-## 📚 Notes de cours reliées à l'exercice
+## 📚 Notes de cours
 
 [📚 Contenu de cours sur *Flexbox-introduction*](../../css/flexbox01.md){ .md-button .md-button--primary }
