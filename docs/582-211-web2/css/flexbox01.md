@@ -25,7 +25,7 @@ Flexbox (Flexible Box Layout) est un système de mise en page CSS qui permet d'a
 }
 ```
 
----
+
 
 ## Le modèle Flexbox : Conteneur et Items
 
@@ -72,34 +72,6 @@ Perpendiculaire à l'axe principal.
 
 
 
-```
-flex-direction: row (défaut)
-┌─────────────────────────────┐
-│  ┌───┐ ┌───┐ ┌───┐          │
-│  │ 1 │ │ 2 │ │ 3 │  ← Axe principal (horizontal)
-│  └───┘ └───┘ └───┘          │
-│  ↑                           │
-│  Axe secondaire (vertical)   │
-└─────────────────────────────┘
-
-flex-direction: column
-┌─────────────────┐
-│  ┌───────────┐  │
-│  │     1     │  │
-│  └───────────┘  │
-│  ┌───────────┐  │ ← Axe principal (vertical)
-│  │     2     │  │
-│  └───────────┘  │
-│  ┌───────────┐  │
-│  │     3     │  │
-│  └───────────┘  │
-│       ↑         │
-│  Axe secondaire │
-│   (horizontal)  │
-└─────────────────┘
-```
-
-
 
 ## Propriétés essentielles du conteneur
 
@@ -115,10 +87,12 @@ Définit la direction de l'axe principal.
 ```
 
 **Valeurs possibles :**
+
 - `row` : horizontal, gauche → droite (défaut)
 - `row-reverse` : horizontal, droite → gauche
 - `column` : vertical, haut → bas
 - `column-reverse` : vertical, bas → haut
+
 ```css
 /* Navigation horizontale */
 .nav {
