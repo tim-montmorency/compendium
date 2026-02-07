@@ -219,7 +219,7 @@ Permet aux items de passer à la ligne suivante si l'espace manque.
 - `wrap-reverse` : Comme wrap, mais en sens inverse
 
 
-<p class="codepen" data-height="800" data-theme-id="44168" data-default-tab="result" data-slug-hash="JoKaeyY" data-pen-title="DEMO - Flexbox align-items" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="880" data-theme-id="44168" data-default-tab="result" data-slug-hash="JoKaeyY" data-pen-title="DEMO - Flexbox align-items" data-user="tim-momo" style="height: 880px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JoKaeyY">
 DEMO - Flexbox align-items</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
