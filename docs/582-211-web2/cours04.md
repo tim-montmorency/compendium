@@ -52,11 +52,11 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 ## Variables CSS & design tokens
 
-[📚 Contenu de cours sur les *variables CSS* et design tokens](./css/variables-et-design-tokens.md#variables-css-et-design-tokens){ .md-button .md-button--primary }
+[📚 Contenu de cours sur les *variables CSS* et design tokens](./css/variables-unites-fonctions.md#variables-css-et-design-tokens){ .md-button .md-button--primary }
 
-[📚 Contenu de cours sur les *unité relatives et flexibles*](./css/variables-et-design-tokens.md#unites-relatives-et-flexibles){ .md-button .md-button--primary }
+[📚 Contenu de cours sur les *unité relatives et flexibles*](./css/variables-unites-fonctions.md#unites-relatives-et-flexibles){ .md-button .md-button--primary }
 
-[📚 Contenu de cours sur les *fonctions CSS*](./css/variables-et-design-tokens.md#fonctions-css){ .md-button .md-button--primary }
+[📚 Contenu de cours sur les *fonctions CSS*](./css/variables-unites-fonctions.md#fonctions-css){ .md-button .md-button--primary }
 
 
 ### Exercice Dark Academia 

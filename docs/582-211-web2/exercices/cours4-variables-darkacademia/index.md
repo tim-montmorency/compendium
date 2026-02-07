@@ -61,7 +61,7 @@ Remettre le lien de votre CodePen complété dans le Devoir Teams nommé: *c4-da
 
 ## 📚 Notes de cours reliées à l'exercice
 
-[📚 Variables, unités relatives & fonctions](../../css/variables-et-design-tokens.md){ .md-button .md-button--primary }
+[📚 Variables, unités relatives & fonctions](../../css/variables-unites-fonctions.md){ .md-button .md-button--primary }
 
 
 
