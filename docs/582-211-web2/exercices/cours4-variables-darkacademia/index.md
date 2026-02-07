@@ -32,7 +32,7 @@ Vous créez l'interface pour une app de lecture de livres classiques, inspirée 
 
 IMPORTANT : Connectez-vous à CodePen d'abord et par la suite faire un fork du Pen de départ
 
-[Pen de départ](#){ .md-button }
+[Pen de départ](https://codepen.io/tim-momo/pen/emzLKbP){ .md-button }
 
 ## 🚀Vous êtes super rapide?
 
