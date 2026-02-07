@@ -176,7 +176,7 @@ Il existe deux philosophies principales :
 | **Lisibilité CSS** | Tout regroupé | CSS minimal |
 | **Flexibilité** | Moins flexible | Très flexible |
 | **Courbe d'apprentissage** | Facile | Nécessite de connaître les classes |
-| **Exemple** | BEM, SMACSS | Tailwind CSS |
+| **Exemple** | BEM, SMACSS | Tailwind ou Bootstrap |
 
 ---
 

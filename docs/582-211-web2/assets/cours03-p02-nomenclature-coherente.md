@@ -237,7 +237,7 @@ Séparer structure et skin :
 ---
 ### Alternatives à BEM
 
-# 3. Utility-first (style Tailwind)
+# 3. Utility-first (style Tailwind ou Bootstrap)
 
 ```
 <div class="p-4 bg-white rounded shadow">

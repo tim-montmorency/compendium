@@ -58,13 +58,13 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 [📚 Contenu de cours sur les *fonctions CSS*](./css/variables-et-design-tokens.md#fonctions-css){ .md-button .md-button--primary }
 
-[👩🏻‍💻 Exercice Design tokens - Dark Academia](./exercices/){ .md-button }
+[👩🏻‍💻 Exercice Design tokens - Dark Academia](./exercices/cours4-variables-darkacademia/index.md){ .md-button }
 
 ## Mise en espace avec *Flexbox*
 
 [📚 Contenu de cours sur *Flexbox-introduction*](./css/flexbox01.md){ .md-button .md-button--primary }
 
-[👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact](./exercices/){ .md-button }
+[👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact](./exercices/cours4-flex-genshinimpact/index.md){ .md-button }
 
 ## DEVOIR
 
