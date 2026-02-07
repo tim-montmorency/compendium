@@ -151,10 +151,10 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 
 ### À retenir
 
-- Les éléments inline s'organisent horizontalement
-- Les éléments block s'empilent verticalement
-- Sortir du flux (absolute, fixed) signifie ne plus réserver d'espace
-- Flexbox et Grid sont les outils modernes recommandés pour la mise en page
+- Les éléments `inline` s'organisent *horizontalement*
+- Les éléments `block` s'empilent *verticalement*
+- Sortir du flux (`absolute`, `fixed`) signifie ne plus réserver d'espace dans le flux, ils s'affichent en dehors du fulx sur un calque par dessus.
+- `flexbox` et `grid` sont les outils modernes recommandés pour la mise en page
 
 ### Erreurs fréquentes
 
@@ -163,11 +163,9 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 - Oublier qu’un élément hors du flux peut recouvrir les autres
 - Ne pas comprendre pourquoi un élément “remonte” quand un autre est retiré du flux
 
-
-
 ## Activité rapide d’observation (en classe)
 
-À partir de la démonstration visuelle :
+À partir de la démonstration visuelle ci-bas:
 
 1. **Flux normal**
     - Quels éléments prennent de la place dans la page ?
