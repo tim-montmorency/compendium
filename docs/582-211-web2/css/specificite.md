@@ -185,8 +185,8 @@ Le simple fait d’inverser ces sélecteurs dans le code CSS donnerait priorité
 
 ## Ressources supplémentaires
 
-- [Spécificité CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
-- [Spécificité CSS - W3Schools](https://www.w3schools.com/css/css_specificity.asp)
+- [Spécificité CSS - MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Cascade/Specificity)
+- [Spécificité CSS - W3Schools (anglais)](https://www.w3schools.com/css/css_specificity.asp)
 
 
 ## Exercice
