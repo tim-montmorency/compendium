@@ -44,7 +44,7 @@ nav:
       - CSS:
         - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
-        - Flot HTML: 582-211-web2/css/flot-natif-html.md
+        - Flux HTML: 582-211-web2/css/flot-natif-html.md
         - Vars, unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
         - Vars de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
         - Flexbox 01: 582-211-web2/css/flexbox01.md
