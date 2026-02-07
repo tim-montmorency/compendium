@@ -88,4 +88,6 @@ Lien à venir...
 
 ## DEVOIR
 
-Suite à ce qu'on a vu aux cours 3 et 4, prendre votre exercice *🍽️Menu de restaurant* et améliorer son code CSS en appliquant les bonnes pratiques vues en classe.
+- Terminer l'exercice *👩🏻‍💻 Exercice Design tokens - Dark Academia*
+- Terminer l'exercice *👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact*
+- Suite à ce qu'on a vu aux cours 3 et 4, reprendre votre exercice *🍽️Menu de restaurant* et améliorer son code CSS en appliquant les bonnes pratiques vues en classe.  Nommez votre nouveau commit **Version 2.0**.
