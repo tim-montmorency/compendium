@@ -233,11 +233,6 @@ Par exemple, le jeune d'oeuf a initialement été créé avec une forme ovale pu
 
 
 <hr> 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
 
-  <small>TP1a Groupe Marie-Michelle - 13 mars</small><br>
-  **[TP1a](./exercices_ae/tp1a/tp1a.md){.stretched-link .back}**
-</div>
 
 
