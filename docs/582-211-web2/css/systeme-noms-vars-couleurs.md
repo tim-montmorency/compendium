@@ -76,7 +76,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## Comment les utiliser les variable couleur dans votre code
+## Comment les utiliser les variables couleur dans votre code
 
 ```css
 .bouton-principal {
@@ -99,7 +99,9 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 }
 ```
 
+--- 
+
 
 !!! tip "Astuce de pro"
-    Des outils en ligne comme [Coolors](https://coolors.co) ou [Tailwind Shades Generator](https://www.tints.dev/) peuvent générer automatiquement ces variations pour vous à partir d'une couleur de base !
+    Des outils en ligne comme [Coolors](https://coolors.co),  [Tailwind Shades Generator](https://www.tints.dev/), [Bootstrap Colors](https://bootstrapcolors.com/) peuvent générer automatiquement ces variations pour vous à partir d'une couleur de base !
 

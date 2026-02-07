@@ -41,15 +41,23 @@ IMPORTANT : Connectez-vous à CodePen d'abord et par la suite faire un fork du P
 
 Voici des bonus pour vous rendre encore plus fort 💪 !
 
-### ⭐ BONUS 1 - Mode clair/sombre
+### ⭐ BONUS 1 - Mode clair/sombre 
+
+> Trop avancé, faites les autres bonus/défis avant celui-ci.
 
 Ajoutez un bouton qui bascule entre un thème clair et sombre en changeant les valeurs des variables CSS.
+
+!!! danger
+
+    Attention, si vous faites ce bonus, demandez à la professeure de vous fournir le JavaScript nécessaire et peut-être quelques guides CSS.
 
 ### ⭐⭐ BONUS 2 - Typographie fluide avancée
 
 Créez un système de typographie entièrement fluide où TOUTES les tailles de police utilisent `clamp()` pour s'adapter à la taille de l'écran.
 
-### ⭐⭐⭐ DÉFI - Système complet
+C'est à dire que le `clamp()` est utilisé dans la défintion de vos variables dans le `:root`.
+
+### ⭐⭐⭐ DÉFI 3 - Système complet
 
 Ajoutez des tokens pour :
 
