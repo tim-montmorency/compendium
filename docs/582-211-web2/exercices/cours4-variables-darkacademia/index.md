@@ -2,6 +2,9 @@
 
 ## Design Tokens: Création de votre palette "Dark Academia"
 
+[< retour au *cours 4*](../../cours04.md)
+[< retour aux notes de cours *variables, unités relatives et fonctions css*](../../css/variables-unites-fonctions.md)
+
 ### Contexte
 
 Vous créez l'interface pour une app de lecture de livres classiques, inspirée de l'esthétique "Dark Academia" (bibliothèques anciennes, tons chauds, élégance vintage).

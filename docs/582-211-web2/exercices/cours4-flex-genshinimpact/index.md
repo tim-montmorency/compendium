@@ -1,5 +1,8 @@
 # Exercice Genshin Impact
 
+[< retour au *cours 4*](../../cours04.md)
+[< retour aux notes de cours *flexbox - introduction*](../../css/flexbox01.md)
+
 ## Flexbox: Galerie de personnages Genshin Impact
 
 ### Contexte
