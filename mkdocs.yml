@@ -44,9 +44,9 @@ nav:
       - CSS:
         - 582-511-web5/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
-        - Variables: 582-211-web2/css/variables-unites-fonctions.md#variables
-        - Unités relatives: 582-211-web2/css/variables-unites-fonctions.md#unites
-        - Fonctions: 582-211-web2/css/variables-unites-fonctions.md#fonctions
+        - Variables: 582-211-web2/css/variables-unites-fonctions.md#variables-css-et-design-tokens
+        - Unités relatives: 582-211-web2/css/variables-unites-fonctions.md#unites-relatives-et-flexibles
+        - Fonctions: 582-211-web2/css/variables-unites-fonctions.md#fonctions-css
         - Flexbox 01: 582-211-web2/css/flexbox01.md
       - Cours 1: 582-211-web2/cours01.md
       - Cours 2: 582-211-web2/cours02.md
