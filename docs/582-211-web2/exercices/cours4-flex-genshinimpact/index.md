@@ -36,7 +36,7 @@ Créez une galerie de 6 cartes de personnages avec :
 
 IMPORTANT : Connectez-vous à CodePen d'abord et par la suite faire un fork du Pen de départ
 
-[Pen de départ](#){ .md-button }
+[Pen de départ](https://codepen.io/tim-momo/pen/ogLPPYp){ .md-button }
 
 ### Étapes recommandées
 
