@@ -1,5 +1,11 @@
 # Cours 1
 
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
+</div>
+
+
 ## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
 - [📄 Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF)
