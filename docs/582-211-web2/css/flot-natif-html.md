@@ -71,7 +71,7 @@ Pour créer des mises en page plus complexes, CSS permet de modifier le comporte
 ### a) `float` (flottement)
 
 - Un élément flottant se place à gauche ou à droite
-- Le contenu suivant peut *s'enrouler autour*
+- Le contenu qui le suit peut *s'enrouler autour*
 - L'élément reste partiellement lié au flux, mais perturbe l'organisation normale
 
 **Exemple typique :**
@@ -167,7 +167,7 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 
 ## Activité rapide d’observation (en classe)
 
-À partir de la démonstration visuelle intégrée (CodePen) :
+À partir de la démonstration visuelle :
 
 1. **Flux normal**
     - Quels éléments prennent de la place dans la page ?
@@ -180,3 +180,10 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 3. **Flex ou Grid**
     - Comment les éléments sont-ils redistribués ?
     - En quoi ce comportement est-il différent du flux normal ?
+
+<p class="codepen" data-height="800" data-theme-id="44168" data-default-tab="result" data-slug-hash="jErvvOj" data-pen-title="DEMO Flot natif html et interruption du flot avec CSS" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/tim-momo/pen/jErvvOj">
+DEMO Flot natif html et interruption du flot avec CSS</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
