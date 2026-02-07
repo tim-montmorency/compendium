@@ -138,9 +138,8 @@ Dès qu’une mise en page devient plus structurée (colonnes, cartes, barres la
 
 Un élément est dit :
 
-in-flow : il participe normalement à l’organisation de la page
-
-out-of-flow : il ne réserve plus d’espace et peut se superposer aux autres éléments
+- *in-flow* : il participe normalement à l’organisation de la page
+- *out-of-flow* : il ne réserve plus d’espace et peut se superposer aux autres éléments
 
 Comprendre cette distinction est essentiel pour éviter des mises en page “qui cassent”.
 
