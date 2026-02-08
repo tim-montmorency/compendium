@@ -1,0 +1,338 @@
+<template>
+  <div class="memory-card" :class="{ 'is-editing': isEditing }">
+    <!-- Mode affichage -->
+    <div v-if="!isEditing" class="memory-content">
+      <div v-if="memory.image" class="memory-image">
+        <img :src="memory.image" :alt="memory.title" />
+      </div>
+      
+      <div class="memory-info">
+        <h3 class="memory-title">{{ memory.title }}</h3>
+        <p class="memory-date">{{ formattedDate }}</p>
+        <p class="memory-description">{{ memory.description }}</p>
+        
+        <div v-if="memory.tags && memory.tags.length" class="memory-tags">
+          <span 
+            v-for="tag in memory.tags" 
+            :key="tag" 
+            class="tag"
+          >
+            {{ tag }}
+          </span>
+        </div>
+      </div>
+
+      <div class="memory-actions">
+        <button @click="startEdit" class="btn-icon" title="Modifier">
+          ✏️
+        </button>
+        <button @click="confirmDelete" class="btn-icon" title="Supprimer">
+          🗑️
+        </button>
+      </div>
+    </div>
+
+    <!-- Mode édition -->
+    <form v-else @submit.prevent="saveEdit" class="memory-form">
+      <div class="form-group">
+        <label for="title">Titre</label>
+        <input
+          id="title"
+          v-model="editData.title"
+          type="text"
+          required
+          placeholder="Titre de votre souvenir"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea
+          id="description"
+          v-model="editData.description"
+          rows="4"
+          placeholder="Décrivez ce souvenir..."
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input
+          id="date"
+          v-model="editData.date"
+          type="date"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="tags">Tags (séparés par des virgules)</label>
+        <input
+          id="tags"
+          v-model="tagsInput"
+          type="text"
+          placeholder="famille, voyage, enfance..."
+        />
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">Enregistrer</button>
+        <button type="button" @click="cancelEdit" class="btn-secondary">
+          Annuler
+        </button>
+      </div>
+    </form>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue';
+import { useMuseumStore } from '@/stores/museumStore';
+
+// Props
+const props = defineProps({
+  memory: {
+    type: Object,
+    required: true
+  },
+  roomId: {
+    type: String,
+    required: true
+  }
+});
+
+// Store
+const museumStore = useMuseumStore();
+
+// État local
+const isEditing = ref(false);
+const editData = ref({});
+const tagsInput = ref('');
+
+// Computed
+const formattedDate = computed(() => {
+  if (!props.memory.date) return 'Date inconnue';
+  
+  const date = new Date(props.memory.date);
+  return date.toLocaleDateString('fr-CA', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+});
+
+// Méthodes
+const startEdit = () => {
+  // Copier les données actuelles
+  editData.value = { ...props.memory };
+  tagsInput.value = props.memory.tags ? props.memory.tags.join(', ') : '';
+  isEditing.value = true;
+};
+
+const saveEdit = () => {
+  // Convertir les tags
+  const tags = tagsInput.value
+    .split(',')
+    .map(tag => tag.trim())
+    .filter(tag => tag.length > 0);
+
+  // Mettre à jour avec les nouvelles données
+  const success = museumStore.updateMemory(props.roomId, props.memory.id, {
+    ...editData.value,
+    tags
+  });
+
+  if (success) {
+    isEditing.value = false;
+    // Notification optionnelle
+    console.log('✅ Mémoire mise à jour');
+  }
+};
+
+const cancelEdit = () => {
+  isEditing.value = false;
+  editData.value = {};
+  tagsInput.value = '';
+};
+
+const confirmDelete = () => {
+  if (confirm(`Supprimer "${props.memory.title}" ?`)) {
+    const success = museumStore.deleteMemory(props.roomId, props.memory.id);
+    if (success) {
+      console.log('✅ Mémoire supprimée');
+    }
+  }
+};
+</script>
+
+<style scoped lang="scss">
+.memory-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  &.is-editing {
+    border: 2px solid #6366f1;
+  }
+}
+
+.memory-content {
+  position: relative;
+}
+
+.memory-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.memory-info {
+  padding: 1.5rem;
+}
+
+.memory-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #1f2937;
+}
+
+.memory-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0 0 1rem 0;
+}
+
+.memory-description {
+  color: #374151;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.memory-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #e0e7ff;
+  color: #4f46e5;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.memory-actions {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-icon {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.memory-form {
+  padding: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: #6366f1;
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  flex: 1;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #6366f1;
+  color: white;
+
+  &:hover {
+    background: #4f46e5;
+  }
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+
+  &:hover {
+    background: #e5e7eb;
+  }
+}
+</style>

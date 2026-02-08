@@ -1,0 +1,55 @@
+Cours 1
+
+---
+
+https://www.youtube.com/watch?v=_rpaapFfZWM
+https://ca.pinterest.com/pin/4081455907260227/
+https://ca.pinterest.com/pin/5277724559555692/
+https://ca.pinterest.com/pin/5770305768309354/?e_t=e9be1fa1d99845e186b77b0e115dcff8&news_hub_id=3132778126799650496&utm_campaign=hfdigestpins&utm_content=5770305768309354&utm_medium=2004&utm_source=31&utm_term=16
+https://reallygooddesigns.com/80s-graphic-design/
+
+<!-- Exercice 1 : Autopsie d’un visuel (en duo)
+	•	Tu projettes 2–3 pubs/sites/affiches.
+	•	Ils remplissent une mini-fiche : objectif, cible, contexte, 3 choix visuels qui aident, 1 choix qui nuit.
+
+Exercice 2 : Reproduction guidée dans Figma
+	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
+
+Devoir (≈50 min)
+	•	Mini analyse (1 page) + capture ou lien Figma :
+	•	1 visuel choisi + "Quoi/Qui/Où/Quand/Comment" + 3 choix justifiés. -->
+
+
+#### Piège de la quantité
+
+La production 
+
+Il faut toujours porter attention à l'origine des styles, leur symbolique et signification fait parti du travail qu'un designer fait. Il existe des outils intéressant pour rapidement avoir une perspective sur une oeuvre.
+
+> <https://imgops.com/>, LLM (ex: ChatGPT), bibliothèque 📚
+
+!!! example "Trouver l'origine et la symbolique"
+
+    Admettons que vous aimez bien cette image et décidez de vous en inspirer pour le style d'une pièce de théâtre. 
+    
+    Est-ce un bon choix ?
+
+    ![](./assets/img/rodchenko.jpg){data-zoom-image .w-100}
+
+    > Secrètement, j'aimerais vous entendre dire que « ça dépend » 😛
+
+    <!-- Traduction : des livres, du savoir, partout et pour tout le monde -->
+    <!-- Objectif : démocratiser l’éducation -->
+    <!-- Connotations : Propagande, appel militant, contexte soviétique, révolution, etc. -->
+    <!-- Ton : anti-exclusivité / anti-élitisme -->
+    <!-- Symbolique : Le savoir n’est pas un luxe, c’est un bien public. -->
+    <!-- Constructivisme russe <https://en.wikipedia.org/wiki/Alexander_Rodchenko> -->
+
+<!-- Exercice 1 : Autopsie d’un visuel (en duo)
+	•	Tu projettes 2–3 pubs/sites/affiches.
+	•	Ils remplissent une mini-fiche : objectif, cible, contexte, 3 choix visuels qui aident, 1 choix qui nuit.
+
+Exercice 2 : Reproduction guidée dans Figma
+	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
+
+Faire un Pinterest de design graphique qui vous intéresse -->
