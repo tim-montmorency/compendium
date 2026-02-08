@@ -1,9 +1,9 @@
 # Exercice Dark Academia
 
-## Design Tokens: Création de votre palette "Dark Academia"
-
 - [< retour au *cours 4*](../../cours04.md)
 - [< retour aux notes de cours *variables, unités relatives et fonctions css*](../../css/variables-unites-fonctions.md)
+
+## Design Tokens: Création de votre palette "Dark Academia"
 
 ### Contexte
 
