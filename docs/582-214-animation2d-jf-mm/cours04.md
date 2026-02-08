@@ -109,12 +109,6 @@ L'outil permet de créer des **logos**, des **illustrations**, des **icônes**, 
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/ai-spirale-epaisseur.png){ data-zoom-image }
-
-  [:material-play-circle: Épaisseur de trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie)
-</div>
-
-<div class="grid grid-1-2" markdown>
   ![](./assets/images/ai-deform.png){ data-zoom-image }
 
   [:material-play-circle: Déformation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EZmlrOHAd7FBtB25jLFiV_0BmUID-i4BWHGGLEprKZshfA?e=pRgl4O)
@@ -138,7 +132,8 @@ L'outil permet de créer des **logos**, des **illustrations**, des **icônes**, 
 
   [:material-play-circle: Plume (P)](https://cmontmorency365.sharepoint.com/:f:/s/TIM-582214-Animation2d77/Eq8ZhUw3cV1IqNyni40oEZgBdq_dNHTLU51tnAMLyqFmAw?e=lwBTZr)<br>
   [:material-play-circle: Courbure](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EdEBCUstOuBDm53ceqGbNVsBIwBWuH7GxkZr7qhPyYix9w?e=Wdug0F)<br>
-  [:material-play-circle: Trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXEsMNgXyytBmvfM-W-rAU0BlKyCj0UZ6NrlleE5KkscPA?e=J5oJJS)<br>
+  [:material-play-circle: Trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXEsMNgXyytBmvfM-W-rAU0BlKyCj0UZ6NrlleE5KkscPA?e=J5oJJS) +
+  [:material-play-circle: Épaisseur de trait](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EXSERtnu2vROpH40Q_RYJawBqrU7VpFVz6UKNfY2cHf-jg?e=btRNie) <br>
   [:material-play-circle: Arc](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EfarjMb3n4lAmQ9Txg6PEzIBBe1vFkONITW7pvHF-ozADg?e=nDRVjK)<br>
   [:material-play-circle: Ciseaux](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbCiUHz89vNHlZJ-rFlhNgwBJBLCcG1O-b1DYVpIU9SLoQ?e=ZVYIng)
 </div>
@@ -233,11 +228,6 @@ Par exemple, le jeune d'oeuf a initialement été créé avec une forme ovale pu
 
 
 <hr> 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
 
-  <small>TP1a Groupe Marie-Michelle - 13 mars</small><br>
-  **[TP1a](./exercices_ae/tp1a/tp1a.md){.stretched-link .back}**
-</div>
 
 
