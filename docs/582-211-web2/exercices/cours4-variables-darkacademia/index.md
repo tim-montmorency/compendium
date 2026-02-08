@@ -21,7 +21,7 @@ Vous créez l'interface pour une app de lecture de livres classiques, inspirée 
 
 ## Consignes de base
 
-1. Créez des design tokens (jetons de conception) pour :
+**1 . Créez des design tokens (jetons de conception) pour :**
 
 - [ ] *Couleurs* : Palette Dark Academia (bruns, beiges, vert forêt, bordeaux)
   - Au moins 3 couleurs principales avec variations (ex: `--color-primary-400`, `--color-primary-500`, `--color-primary-600`)
@@ -29,7 +29,7 @@ Vous créez l'interface pour une app de lecture de livres classiques, inspirée 
 - [ ] *Typographie* : 4 tailles de police (sm, base, lg, xl)
 - [ ] *Bordures* : 3 rayons de bordure (sm, md, lg)
 
-2. Créez une carte de livre avec :
+**2 . Créez une carte de livre avec :**
 
 - [ ] Titre du livre (utilisez `clamp()` pour taille fluide)
 - [ ] Auteur
@@ -40,7 +40,7 @@ Vous créez l'interface pour une app de lecture de livres classiques, inspirée 
 
 ## Fichier de départ
 
-IMPORTANT : Connectez-vous à CodePen d'abord et par la suite faire un fork du Pen de départ
+IMPORTANT : Connectez-vous à CodePen d'abord et par la suite faire un *fork* du Pen de départ pour l'enregistrer dans votre compte et archiver votre exercice.
 
 [Pen de départ](https://codepen.io/tim-momo/pen/emzLKbP){ .md-button }
 
