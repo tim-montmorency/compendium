@@ -27,7 +27,7 @@ Dans ACF :
 
 *	Nom du post-type : Inventaire
 *	Pluriel : Inventaires
-*	Slug : inventaire
+*	Singulier : inventaire
 *	Sauvegarder
 
 👉 Ce post-type servira à créer chaque véhicule.
