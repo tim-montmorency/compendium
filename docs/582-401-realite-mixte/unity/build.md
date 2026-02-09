@@ -38,8 +38,10 @@ Afin de pouvoir builder sur votre téléphone, celui-ci devra être en mode dév
 - [ ] Finalement, appuyez sur Build ou build and run (si vous voulez l'app sur un appareil android connecté). Créez un dossier nommé build, ouvrez-le. Nommez votre appplication et appuyez sur enregistrer. Un .apk sera alors créé. C'est ce que vous devez remettre.
 - [ ] Assurez-vous de tester votre app sur un appareil mobile avant de la remettre! 
 
-      
-  
+
+### Tutoriel vidéo
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/PBDSuIeR_dg?si=8T51GUENMc1BarN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
 
 
 
