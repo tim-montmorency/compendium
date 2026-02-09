@@ -251,9 +251,12 @@ Les règles suivantes doivent être respectées :
 **Réutiliser cette composition au moins deux fois**
 **Vérifier que la composition s’adapte automatiquement au contenu**
 
+## Remise
 
 !!! warning "Remise"
 
+    Dans TEAMS / Équipe Web 4 / Général / onglet Partagé
+    
     Vous devez me remettre dans un fichier .zip les fichiers suivants :
     
     * Nom d'utilisateur
