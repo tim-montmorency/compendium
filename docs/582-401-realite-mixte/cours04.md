@@ -4,21 +4,21 @@
 ## Bloc 1
 
 #### UI
-[💼 Exercice sur l'interface utilisateur](./unity/exercice_ui.md){ .md-button }     
+[💼 Exercice sur l'interface utilisateur](./unity/exercice_ui.md){ .md-button  .back }     
 
 #### Code
-- [:pencil: Quitter le jeu](./code/quitter_jeu.md)
-- [:pencil: Changement de scène](./code/changement_scene.md)
+- [:pencil: Quitter le jeu](./code/quitter_jeu.md){ .back }
+- [:pencil: Changement de scène](./code/changement_scene.md){ .back }
 
 ### Avancement du travail 1
 #### Script UI
-[💼 Travail 1 - Étape 11](./travaux/travail1.md#11-creation-de-la-scene-menu-script-ui){ .md-button }     
+[💼 Travail 1 - Étape 11](./travaux/travail1.md#11-creation-de-la-scene-menu-script-ui){ .md-button .back }     
 
 
 ## Bloc 2      
 
 #### Exercices de programmation
-[💼 Exercices de programmation](./exercices/base_code.md){ .md-button }  
+[💼 Exercices de programmation](./exercices/base_code.md){ .md-button .back }  
 
 
 #### Réflexion sur le code de détection
@@ -36,7 +36,7 @@
 
 ### Avancement du travail 1
 #### Script
-[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button }     
+[💼 Travail 1 - Étape 10](./travaux/travail1.md#10-creation-de-la-scene-jeu-script){ .md-button .back }     
 
 
 ## Bloc 3
@@ -48,12 +48,12 @@ Répertorier les problèmes, trouver des solutions.
 
 
 ## Exportation
-- [:pencil: Exportation](./unity/build.md)  
+- [:pencil: Exportation](./unity/build.md){ .back }
 
 ### Avancement du travail 1
 Création de l'application    
 
-[💼 Travail 1 - Étape 12](./travaux/travail1.md#13-creation-de-lapplication){ .md-button }    
+[💼 Travail 1 - Étape 12](./travaux/travail1.md#13-creation-de-lapplication){ .md-button .back }    
 
 
 ## Bloc 4
@@ -61,10 +61,10 @@ Création de l'application
 ## Exemple de travail 2
 Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé daher_elie_projet2.exe pour jouer à un exemple de travail 2: 
 
-[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgBaADNdw6EITKudraCmHjyuAYLCXjV0F2N7HEyCTrJakMs?e=KAZBv2){ .md-button }      
+[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgBaADNdw6EITKudraCmHjyuAYLCXjV0F2N7HEyCTrJakMs?e=KAZBv2){ .md-button .back }
 
 
 ## Devoir
 
 ### Terminer le travail 1
-[💼 Travail 1](./travaux/travail1.md){ .md-button }    
+[💼 Travail 1](./travaux/travail1.md){ .md-button .back }    
