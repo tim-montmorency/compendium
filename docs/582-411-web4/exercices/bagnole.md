@@ -17,7 +17,9 @@ Technologies utilisées :
 
 *	Gutenberg (Query Loop)
 *	ACF
+  ![](../assets/images/acf.png){data-zoom-image}   
 *	Advanced Views Lite
+  ![](../assets/images/Advanced-Views-Lite.png){data-zoom-image}   
  
 ## 1️⃣ Créer le post-type « Inventaire »
 
@@ -32,10 +34,9 @@ Dans ACF :
  
 ## 2️⃣ Créer le Field Group « Fiche technique »
 * Dans ACF → Field Groups → Add New
-* Nom du groupe
-* Fiche technique
-* Settings
- *	Post Type est égal à Inventaire
+* Nom du groupe : Fiche technique
+* Settings → Post Type est égal à Inventaire
+
  
 ### Champs à créer
 
