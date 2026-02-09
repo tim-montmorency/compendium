@@ -206,9 +206,6 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 - [ ] Lorsque le joueur réussit à recréer les 3 images, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu et un autre nous offre de rejouer.  
 - [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
-Voici une ressource pour vous aider à créer votre code: 
-[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCGwme2VNfQQJwfMoV00-46AT9qvtRzRcPFf-LXMF5mGvw?e=kd3NQ5){ .md-button }    
-
 
 ### 11 | Création de la scène Menu - Script UI
 
