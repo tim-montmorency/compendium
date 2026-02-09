@@ -252,5 +252,19 @@ Les règles suivantes doivent être respectées :
 **Vérifier que la composition s’adapte automatiquement au contenu**
 
 
+!!! warning "Remise"
+
+    Vous devez me remettre dans un fichier .zip les fichiers suivants :
+    
+    * Nom d'utilisateur
+    * Mot de passe de votre site
+    * Fichier provenant de l'exportation de All-in-one Migration & Backup
+
+    Date de remise : Groupe du matin 8h00 le 16 février 2026
+                     Groupe de l'après-midi 12h00 le 16 février 2026
+
+    **Nom du fichier :**
+    
+    [nom de famille]-[prénom]_[nom du travail]_[#travail]_[#cours]
 
 
