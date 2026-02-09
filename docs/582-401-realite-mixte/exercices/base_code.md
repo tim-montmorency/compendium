@@ -1,109 +1,143 @@
-# **Introduction au C#**
+# Exercices de programmation
 
-## Démonstration
-
-```c#
-// dans la classe, mais hors la méthode Update()
-public float compte;
-
-private void Update()
-{
- compte = Time.time; 
-}
-```
-
-Pour imprimer une valeur dans Unity vous devez remplacer le mot message par ce que vous souhaitez imprimer.: 
-
-```c#
-Debug.Log(message); 
-```
+![](../images/06f21a161921919.63cd7887d0a70.gif){.w-100}
 
 ## Exercice 1
 
+Objectif : Assigner une `Image` dans l’`Inspector`, puis modifier son opacité au lancement
 
-- [ ] Créez un nouveau script sur un GameObject vide.
-- [ ] Créez une variable qui change grâce à `Time.time`.
-- [ ] Imprimez un message dans la console qui contient un message écrit en plus de votre chiffre qui change.
+![](../images/exercice-code-1-preview.webp){data-zoom-image .w-50}
 
-Résultat attendu:     
+- [ ] Créez une nouvelle scène nommée « Exercices »
+- [ ] Ajoutez un `Canvas`
+- [ ] Dans le `Canvas`, créez un `Panel`, puis une `Image` (enfant du `Panel`)
+- [ ] Sélectionnez l’`Image` et mettez son opacité à 50%
+- [ ] Créez un `GameObject` vide nommé « Exercice1 »
+- [ ] Ajoutez-lui un script (_component_) nommé « ExerciceShowImage »
+- [ ] Dans le script, ajoutez une variable publique de type `Image`
+- [ ] Dans l’`Inspector` de « Exercice1 », assignez votre `Image` à la variable
+- [ ] Au lancement de la scène, faites en sorte que l’image devienne opaque à 100%
 
-![Image](../images/resultat_debug.jpg)
+!!! example "Fragments de code utiles"
+
+    ```csharp
+    using UnityEngine.UI;
+    ```
+
+    ```csharp
+    public Image maBelleImage;
+    ```
+
+    ```csharp
+    maBelleImage.color = new Color(1f, 1f, 1f, 1f);
+    ```
 
 ## Exercice 2
-Avant de commencer l'exercice, prenez le temps d'écrire votre code à la main comme un schéma. 
 
-- [ ] Créez une nouvelle scène.
-- [ ] Créez un bouton (UI > Button).
-- [ ] Créez une image (UI > Image) avec l'opacité à 0.5f. 
-- [ ] Créez un objet vide nommé `Controle`. 
-- [ ] Créez un script sur ce nouvel objet. 
-- [ ] À l'aide des bouts de code suivants, créez un script pour qu'un clic de votre bouton augmente à 1 l'opacité de votre image et que le clic suivant la réduise à 0.5f. En résumé, vous devez alterner la valeur de l'opacité entre 1 et 0.5f. 
+Objectif : Utiliser un événement `onClick` pour modifier une variable et modifier la valeur d'un `Slider`.
 
-      
-``` c#
-using UnityEngine.UI; 
-```
+### Partie 1
 
-``` c#
-public Image nomImage;
-public bool myBool;
-```
+![](../images/exercice-code-2a-preview.webp){data-zoom-image .w-50}
 
-``` c#
-nomImage.color = new Color(nomImage.color.r, nomImage.color.g, nomImage.color.b, 1f);
-```
+- [ ] Créez un `GameObject` vide nommé « Exercice2 »
+- [ ] Créez un script nommé « ExerciceCompteur »
+  - [ ] Associez le script à `Exercice2` si ce n'est déjà fait
+- [ ] Dans le `Canvas` de l'exercice 1, ajoutez un nouveau `Button - TextMeshPro`
 
-``` c#
-if(myBool == true){
+> Maintenant, chaque clic sur le bouton doit augmenter un compteur et afficher sa valeur dans la console.
 
-}
-```
+- [ ] Dans le script, créez une variable publique `int` nommée `compteur` (initialisée à 0)
+- [ ] Créez une méthode publique nommée `AjouterUn` qui retourne `void`
+- [ ] Dans `AjouterUn()`, ajoutez 1 à la variable `compteur`, puis affichez la valeur dans la console
+- [ ] Si `compteur` est plus grand ou égal à `3`, affichez dans la console « Objectif atteint »
+- [ ] Dans l’`Inspector` du `Button`, connectez l’événement `On Click()` à la méthode `AjouterUn()` du script
 
+!!! example "Fragments de code utiles"
+
+    ```csharp
+    public int compteur = 0;
+    ```
+
+    ```csharp
+    compteur++;
+    ```
+
+    ```csharp
+    Debug.Log("Compteur : " + compteur);
+    ```
+
+### Partie 2
+
+![](../images/exercice-code-2b-preview.webp){data-zoom-image .w-50}
+
+- [ ] Dans le script, créez une nouvelle variable publique de type `Slider`
+- [ ] Ajoutez un `Slider` dans le `Canvas` et glisser le dans l’`Inspector` pour l’assigner à la variable
+- [ ] Dans la méthode « AjouterUn », à chaque clic, augmentez la valeur du slider de 0.33f
+
+!!! example "Fragments de code utiles"
+
+    ```csharp
+    using UnityEngine.UI;
+    ```
+
+    ```csharp
+    public Slider monSlider;
+    ```
+
+    ```csharp
+    monSlider.value += 0.33f;
+    ```
 
 ## Exercice 3
-Au tableau, créez un schéma de programmation pour l'exercice 4. Écrivez ensuite votre code à la main. 
 
-## Exercice 4
-- [ ] Créez deux GameObjects à une nouvelle scène avec Sprites de couleur différentes et désactivez-les.
-- [ ] Modifiez votre code précédent. Lorsque le temps est pair, l'image 1 est activée et la 2 désactivée. Lorsque le temps est impair, l'image 1 est désactivée et l'image 2 est activée. 
+Objectif : Utiliser un tableau de sprite, un index et un événement pour faire défiler des images comme dans un carousel.
 
-Pour activer ou désactiver un objet:
+![](../images/exercice-code-3-preview.webp){data-zoom-image .w-50}
 
-``` c#
-gameObject.SetActive(false);
-```
+- [ ] Créez un `GameObject` vide nommé « Exercice3 »
+- [ ] Créez un script nommé « ExerciceCarousel »
+  - [ ] Ajoutez le script à `Exercice3` si ce n'est déjà fait
+- [ ] Ajoutez un `Button - TextMeshPro` dans le `Canvas`
+- [ ] Ajoutez une `Image` dans le `Canvas`
 
-## Exercice 5
+> Quand on clique sur le bouton, l’image doit changer pour afficher une autre image (sprite) parmi celles qui sont configurées
 
-On veut créer un script qui alterne entre deux images. Après 5 secondes de jeu, activez l'une des images de l'exercice 4. Après 5 secondes de plus, désactivez cette image et activez en une autre.
+- [ ] Dans le script, créez une variable publique de type `int` nommée « idActif »
+- [ ] Créez un tableau de type `Sprite` nommé `cibles` et assignez-y 3 sprites de votre choix dans l’`Inspector` (vous pouvez glisser des sprites directement depuis le panneau `Project`)
+- [ ] Créez une variable publique de type `Image` nommée `recherche` et assignez-y l’image du Canvas dans l’`Inspector`
+- [ ] Au chargement, initialisez la variable `idActif` à `0` et remplacez l'image de `recherche` par celle du tableau `cibles` à l’index `idActif`
 
-Pour faire cette logique, on va utiliser une fonctionalité qui s'appelle **coroutine**. Elle va nous premettre de "pauser" une méthode et de la continuer après un délai. Voici un exemple : 
+- [ ] Créez une nouvelle méthode nommée « NextSprite »
+- [ ] Associez la méthode à l'événement « On Click » du bouton
+- [ ] Dans la méthode, augmentez `idActif` de 1
+- [ ] Si `idActif` est plus grand ou égal à la longueur du tableau `cibles`, réinitialisez `idActif` à `0` (pour boucler les images)
+- [ ] Remplacez l'image de `recherche` par celle du tableau `cibles` à l’index `idActif`
 
-``` c#
-// Dans un script MonoBehavior
-public IEnumerator MaCoroutine()
-{
- Debug.Log("Instruction immédiate");
+!!! example "Fragments de code utiles"
 
- // Pour appliquer une pause avec un délai à la coroutine
- yield return new WaitForSeconds(1f);
- Debug.Log("Instruction après la pause");
-}
-```
+    ```csharp
+    using UnityEngine.UI;
+    ```
 
-Vous aurez besoin de ce script pour partir votre coroutine:    
+    ```csharp
+    public Sprite[] cibles;
+    public int idActif;
+    public Image recherche;
+    ```
 
-``` c#
-StartCoroutine("MaCoroutine");
-```
+    ```csharp
+    idActif = 0;
+    recherche.sprite = cibles[idActif];
+    ```
 
-- [ ] Planifiez votre script comme un schéma.
-- [ ] Créez un nouveau script.
-- [ ] Créez des variables pour se réferer aux objets (image).
-- [ ] Utilisez une coroutine pour alterner entre une image et l'autre.
-
-
-
-
-
-
+    <!-- Cacher, sinon trop facile.
+    ```csharp
+    idActif++;
+    if (idActif >= cibles.Length)
+    {
+        idActif = 0;
+    }
+    recherche.sprite = cibles[idActif];
+    ```
+    -->
