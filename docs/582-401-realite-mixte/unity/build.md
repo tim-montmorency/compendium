@@ -25,7 +25,8 @@ Les crochets verts représentent le niveau de qualité qui est actuellement sél
 
 
 #### Mode développeur téléphone
-Afin de pouvoir builder sur votre téléphone, celui-ci devra être en mode développeur: 
+Afin de pouvoir builder sur votre téléphone, celui-ci devra être en mode développeur:     
+
 - [ ] Allez dans les paramètres de votre téléphone.
 - [ ] Ouvrez la section À propos du téléphone.
 - [ ] Appuyez plusieurs fois sur le numéro de version, jusqu'à ce qu'on demande votre code pour activer le mode développeur. Acceptez de l'activer.
@@ -39,6 +40,7 @@ Afin de pouvoir builder sur votre téléphone, celui-ci devra être en mode dév
 
       
   
+
 
 
 
