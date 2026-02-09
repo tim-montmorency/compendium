@@ -223,6 +223,10 @@ Voici une ressource pour vous aider à créer votre code:
 
 - [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. [Exporter pour Android](../unity/build.md){.back}
 
+**Tutoriel 🎥**
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/PBDSuIeR_dg?si=8T51GUENMc1BarN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+
 ## Remise
 
 Remettez votre travail dans le dossier suivant, votre dossier doit contenir le .apk de votre jeu et vos 3 images à scanner :
