@@ -6,6 +6,11 @@
 </div>
 
 
+## Inspecteur du navigateur
+
+* Windows ++ctrl+shift+i++ ou ++f12++
+
+
 
 
 <!-- RÉSUMÉ DU CONTENU VU AUJOURD'HUI -->
