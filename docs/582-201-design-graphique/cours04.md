@@ -1,7 +1,7 @@
 # Cours 4 | Couleurs
 
 *[RGB] : Red Green Blue
-*[CMYK] : Cyan Magenta Yellow blacK
+*[CMYK] : Cyan Magenta Yellow Key (noir)
 *[HEX] : Hexadécimal
 *[HSV] : Hue Saturation Value
 *[HSB] : Hue Saturation Brightness
@@ -11,7 +11,7 @@
 
 ## La couleur, c'est quoi ?
 
-La couleur correspond à la lumière visible. C'est donc des ondes et ça représente une toute petite partie du spectre électromagnétique.
+La couleur correspond à la lumière visible. Ce sont donc des ondes et ça représente une toute petite partie du spectre électromagnétique.
 
 ![](./assets/img/is1137-2-spectre-electromagnetique.jpg){data-zoom-image}
 
@@ -39,7 +39,7 @@ L’image qui arrive sur la rétine est inversée et le cerveau interprète ces 
 
 ## Roue chromatique
 
-Un [route chromatique](https://www.figma.com/fr-fr/roue-chromatique/) est un outil pratique pour trouver de belles combinaisons de couleurs.
+Une [roue chromatique](https://www.figma.com/fr-fr/roue-chromatique/) est un outil pratique pour trouver de belles combinaisons de couleurs.
 
 ![](./assets/img/pri-sec-ter.png){data-zoom-image}
 
@@ -65,15 +65,15 @@ La température affecte la couleur à l'écran. Si vous configurez votre écran 
 
 <!-- https://www.benq.eu/fr-fr/knowledge-center/knowledge/color-temperature.html -->
 
-La température de couleur se mesure en **Kelvin (K)**. Le blanc de référence pour les yeux humain est d'environ 6500 K.
+La température de couleur se mesure en **kelvin (K)**. Le blanc de référence pour l’œil humain est d’environ 6500 K.
 
 ![](./assets/img/temperature_couleur__3.webp){data-zoom-image .w-50}
 
 !!! note "Savais-tu ça !?"
 
-	Ce qu'on considère un blanc neutre, est en fait la température de la surface du soleil (5800 K).
+  Ce qu’on considère comme un blanc neutre est en fait la température de la surface du Soleil (5800 K).
 	
-	Évidemment, la couleurs perçue varie avec l’atmosphère, mais le lien est direct.
+	Évidemment, la couleur perçue varie avec l’atmosphère, mais le lien est direct.
 
 ### Neutres
 
@@ -186,7 +186,7 @@ Il y a aussi le tétradique et le carré, mais c'est trop difficile à maîtrise
 
 La couleur influence la perception, mais **le contexte domine toujours** (culture, marque, produit, public). 
 
-C’est-à-dire que la même couleur peut envoyer des messages différents selon l’endroit où elle est utilisée, à qui elle s’adresse et avec quels autres éléments elle est combinée (typographie, images, mots, symbole, et situation).
+C’est-à-dire que la même couleur peut envoyer des messages différents selon l’endroit où elle est utilisée, à qui elle s’adresse et avec quels autres éléments elle est combinée (typographie, images, mots, symboles et situation).
 
 Donc oui, il faut considérer [ses effets](https://99designs.com/blog/tips/color-meanings/), mais avec une certaine prudence.
 
@@ -281,7 +281,7 @@ Les nuances claires de violet sont souvent utilisées pour apaiser et calmer.
 
 > ludique, romantique, tendre, mignon, amusant
 
-Traditionnellement, le rose évoque le romantisme, la douceur et la tendresse. Il peut souvent nous rendre enjoués ou romantiques. Mais le rose peut aussi être moderne, comme le [rose millénial](https://www.theguardian.com/artanddesign/shortcuts/2017/mar/22/millennial-pink-is-the-colour-of-now-but-what-exactly-is-it), ou extravagant, voyant et rebel, comme le rose fuchsia.
+Traditionnellement, le rose évoque le romantisme, la douceur et la tendresse. Il peut souvent nous rendre enjoués ou romantiques. Mais le rose peut aussi être moderne, comme le [rose millénial](https://www.theguardian.com/artanddesign/shortcuts/2017/mar/22/millennial-pink-is-the-colour-of-now-but-what-exactly-is-it), ou extravagant, voyant et rebelle, comme le rose fuchsia.
 
 <div class="grid" markdown>
 ![](./assets/img/rose-001.avif){data-zoom-image}
@@ -369,13 +369,13 @@ Le gris est parfois considéré comme une alternative plus claire et moins forme
 
 	Cette recherche de la Harvard Medical School montre que la lumière bleue :blue_circle: des écrans freine la mélatonine, retardant le sommeil et modifiant l'alerte matinale.
 
-	En UX, le _dark mode_ et les filtres de nuit sont fait pour cela.
+  En UX, le _dark mode_ et les filtres de nuit sont faits pour cela.
 
 	[Evening use of light-emitting eReaders (2015)](https://www.pnas.org/doi/10.1073/pnas.1418490112)
 
 !!! example "Le Vert : Réduction de l'effort perçu" 
 
-	Akers et al. ont découvert que les sportifs regardant du vert :green_circle: (couleur de la nature) ressentent moins la fatigue et ont une humeur plus stable que ceux devant du gris ou du rouge.
+  Akers et al. ont découvert que les sportifs exposés au vert :green_circle: (couleur de la nature) ressentent moins la fatigue et ont une humeur plus stable que ceux devant du gris ou du rouge.
 
 	[Visual Color Perception in Green Exercise (2012)](https://pubs.acs.org/doi/10.1021/es301685g)
 
@@ -409,7 +409,7 @@ Notre perception des couleurs peut varier en fonction des couleurs environnantes
 
 ### Teinte
 
-La teinte (_Hue_) est la famille de couleur sur le cercle chromatique (rouge, bleu, vert, etc.).
+La teinte (_Hue_) est la famille de couleurs sur le cercle chromatique (rouge, bleu, vert, etc.).
 
 ![](./assets/img/def-hue.webp)
 
@@ -463,7 +463,7 @@ Petit outil pratique : <https://www.hslpicker.com/>
 
 ## Accessibilité Web
 
-L’accessibilité ne devrait pas être optionnelle. Elle assure une meilleure lisibilité et disponibilité du contenu pour le plus grand nombre de personne. Ce n'est pas rien.
+L’accessibilité ne devrait pas être optionnelle. Elle assure une meilleure lisibilité et disponibilité du contenu pour le plus grand nombre de personnes. Ce n'est pas rien.
 
 [_Contrast Checker_](https://colourcontrast.cc/)
 
