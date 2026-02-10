@@ -23,7 +23,7 @@ L'objectif de cet exercice est multiple. Il sera question de :
 
 ### Étape 1
 
-- [ ] Télécharger le [document de départ](./variable-manquante.fig){download}
+- [ ] Télécharger le [document de départ](./variable-manquante.fig)
 - [ ] Ouvrir le `.fig` dans Figma.
 
   ![](./doc-depart.png){.w-25 data-zoom-image}
