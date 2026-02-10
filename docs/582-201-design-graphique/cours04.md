@@ -25,17 +25,17 @@ L’image qui arrive sur la rétine est inversée et le cerveau interprète ces 
 
 !!! question "Savais-tu ça ?"
 
-	![](./assets/img/pomme.webp){.w-50}
+    ![](./assets/img/pomme.webp){.w-50}
 
-	Une pomme rouge paraît rouge parce qu’elle absorbe la plupart des autres couleurs et réfléchit surtout les longueurs d’onde rouges.
+    Une pomme rouge paraît rouge parce qu’elle absorbe la plupart des autres couleurs et réfléchit surtout les longueurs d’onde rouges.
 
 !!! example "Testons tes yeux"
 
-	![](./assets/img/test-yeux.jpg){.w-25 data-zoom-image}
+    ![](./assets/img/test-yeux.jpg){.w-25 data-zoom-image}
 
-	Pour permettre à ceux et celles qui ont un [problème d’anomalie de la vision des couleurs](https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs), ne transmettez pas un message uniquement par la couleur.
-	
-	<!-- https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs -->
+    Pour permettre à ceux et celles qui ont un [problème d’anomalie de la vision des couleurs](https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs), ne transmettez pas un message uniquement par la couleur.
+    
+    <!-- https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs -->
 
 ## Roue chromatique
 
@@ -71,9 +71,9 @@ La température de couleur se mesure en **kelvin (K)**. Le blanc de référence 
 
 !!! note "Savais-tu ça !?"
 
-  Ce qu’on considère comme un blanc neutre est en fait la température de la surface du Soleil (5800 K).
-	
-	Évidemment, la couleur perçue varie avec l’atmosphère, mais le lien est direct.
+    Ce qu’on considère comme un blanc neutre est en fait la température de la surface du Soleil (5800 K).
+    
+    Évidemment, la couleur perçue varie avec l’atmosphère, mais le lien est direct.
 
 ### Neutres
 
@@ -177,8 +177,8 @@ Il y a aussi le tétradique et le carré, mais c'est trop difficile à maîtrise
 !!! info "Outils d'harmonie chromatique"
 
     - <https://coolors.co/generate/>
-	- <https://color.adobe.com/fr/create/color-wheel/>
-	- <https://paletton.com/>
+    - <https://color.adobe.com/fr/create/color-wheel/>
+    - <https://paletton.com/>
 
 ## Signification des couleurs
 
@@ -355,29 +355,29 @@ Le gris est parfois considéré comme une alternative plus claire et moins forme
 
 !!! example "L'effet du rouge : performance et évitement" 
 
-	Andrew Elliot a démontré que l'exposition au rouge :red_circle:, même pendant une fraction de seconde avant une tâche intellectuelle, diminue significativement les performances des participants.
+	  Andrew Elliot a démontré que l'exposition au rouge :red_circle:, même pendant une fraction de seconde avant une tâche intellectuelle, diminue significativement les performances des participants.
 
-	[Color and Psychological Functioning (2007)](https://www.researchgate.net/publication/6482505_Color_and_psychological_functioning_The_effect_of_red_on_performance_attainment)
+	  [Color and Psychological Functioning (2007)](https://www.researchgate.net/publication/6482505_Color_and_psychological_functioning_The_effect_of_red_on_performance_attainment)
 
 !!! example "Le bleu et le rouge en Marketing" 
 
-	Kaltcheva & Weitz ont prouvé que les couleurs à haute stimulation (rouge :red_circle:/orange :orange_circle:) augmentent le rythme cardiaque (_arousal_), tandis que les couleurs froides (bleu :blue_circle:) favorisent la relaxation.
+	  Kaltcheva & Weitz ont prouvé que les couleurs à haute stimulation (rouge :red_circle:/orange :orange_circle:) augmentent le rythme cardiaque (_arousal_), tandis que les couleurs froides (bleu :blue_circle:) favorisent la relaxation.
 
-	[When Should a Retailer Create an Exciting Store Environment? (2006)](https://www.researchgate.net/publication/228676121_When_Should_a_Retailer_Create_an_Exciting_Store_Environment)
+	  [When Should a Retailer Create an Exciting Store Environment? (2006)](https://www.researchgate.net/publication/228676121_When_Should_a_Retailer_Create_an_Exciting_Store_Environment)
 
 !!! example "La lumière bleue : biologie et rythmes circadiens" 
 
-	Cette recherche de la Harvard Medical School montre que la lumière bleue :blue_circle: des écrans freine la mélatonine, retardant le sommeil et modifiant l'alerte matinale.
+	  Cette recherche de la Harvard Medical School montre que la lumière bleue :blue_circle: des écrans freine la mélatonine, retardant le sommeil et modifiant l'alerte matinale.
 
-  En UX, le _dark mode_ et les filtres de nuit sont faits pour cela.
+    En UX, le _dark mode_ et les filtres de nuit sont faits pour cela.
 
-	[Evening use of light-emitting eReaders (2015)](https://www.pnas.org/doi/10.1073/pnas.1418490112)
+	  [Evening use of light-emitting eReaders (2015)](https://www.pnas.org/doi/10.1073/pnas.1418490112)
 
 !!! example "Le Vert : Réduction de l'effort perçu" 
 
-  Akers et al. ont découvert que les sportifs exposés au vert :green_circle: (couleur de la nature) ressentent moins la fatigue et ont une humeur plus stable que ceux devant du gris ou du rouge.
+    Akers et al. ont découvert que les sportifs exposés au vert :green_circle: (couleur de la nature) ressentent moins la fatigue et ont une humeur plus stable que ceux devant du gris ou du rouge.
 
-	[Visual Color Perception in Green Exercise (2012)](https://pubs.acs.org/doi/10.1021/es301685g)
+	  [Visual Color Perception in Green Exercise (2012)](https://pubs.acs.org/doi/10.1021/es301685g)
 
 ## Contexte de couleur
 
@@ -389,18 +389,18 @@ Notre perception des couleurs peut varier en fonction des couleurs environnantes
 
 !!! info "Un peu de sorcellerie chromatique ?"
 
-	![](./assets/img/unnamed.png)
+    ![](./assets/img/unnamed.png)
 
-	Le cerveau complète, corrige et interprète. La plupart du temps ça nous aide, mais parfois ça nous trompe.
+    Le cerveau complète, corrige et interprète. La plupart du temps ça nous aide, mais parfois ça nous trompe.
 
-	<!-- https://commons.wikimedia.org/wiki/File:Wikipe-tan_wearing_The_Dress_reduced.svg -->
+    <!-- https://commons.wikimedia.org/wiki/File:Wikipe-tan_wearing_The_Dress_reduced.svg -->
 
-	![](./assets/img/The_dress_blueblackwhitegold.jpg){data-zoom-image .w-10}
-	![](./assets/img/illusion-couleur.png){data-zoom-image .w-10}
-	![](./assets/img/strawberriesssss.png){data-zoom-image .w-10}
-	![](./assets/img/a-b-colors.png){data-zoom-image .w-10}
+    ![](./assets/img/The_dress_blueblackwhitegold.jpg){data-zoom-image .w-10}
+    ![](./assets/img/illusion-couleur.png){data-zoom-image .w-10}
+    ![](./assets/img/strawberriesssss.png){data-zoom-image .w-10}
+    ![](./assets/img/a-b-colors.png){data-zoom-image .w-10}
 
-  [Illusions d'optique](https://www.illusionsindex.org/i)    
+    [Illusions d'optique](https://www.illusionsindex.org/i)    
 
 ## Définition
 
