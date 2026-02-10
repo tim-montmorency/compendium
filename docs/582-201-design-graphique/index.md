@@ -5,8 +5,6 @@ hide:
 
 # Design graphique
 
-![](./assets/img/intro.jpg){.w-100 .vfx-on-clic}
-
 <script type="module">
   import { VFX } from "https://esm.sh/@vfx-js/core";
   const img = document.querySelector(".vfx-on-clic");
