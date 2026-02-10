@@ -203,5 +203,6 @@
 ## Prise des présences
 
 ## Devoir
-* Pour le vidéoclip
-  * Créer le storyboard
+* [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
+* Créer et ajouter le storyboard dans la pré-production.
+* Ne pas oublier de déposer la musique de votre projet en ligne. 
