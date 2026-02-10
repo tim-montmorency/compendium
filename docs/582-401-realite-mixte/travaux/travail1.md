@@ -198,8 +198,7 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Créez aussi un bouton fermeture pour le panel crédits. 
 
 ### 10 | Création de la scène Jeu - Script
-
-Un schéma de programmation sera créé en classe. Votre script devra comprendre les éléments suivants:     
+Votre script devra comprendre les éléments suivants:     
 
 - [ ] La scène jeu montre l'image à recréer avec vos papiers. 
 - [ ] Lorsque la bonne image est détectée, elle s'anime et votre barre de progression avance ou votre image de progression devient opaque.
