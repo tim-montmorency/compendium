@@ -1,6 +1,8 @@
 ![](../assets/images/eeat-law.gif){data-zoom-image}
 
-## Évaluation sommative – WordPress & Gutenberg
+## Évaluation sommative – WordPress & Gutenberg  
+
+### (30% de la note finale)
 
 ### Compétences évaluées
 *	Maîtriser l’Éditeur de site (FSE) et les modèles
@@ -145,7 +147,7 @@ Les règles suivantes doivent être respectées :
 
 
 
-## PARTIE 1 — Architecture du site & modèles (10 %)
+## PARTIE 1 — Architecture du site & modèles 
 
 ### Tâches obligatoires
 
@@ -165,7 +167,7 @@ Les règles suivantes doivent être respectées :
 
 
 
-## PARTIE 2 — Contenu structuré et dynamique (25 %)
+## PARTIE 2 — Contenu structuré et dynamique 
 
 ### Tâches obligatoires
 1.	Créer au moins 6 articles, répartis dans 2 catégories
@@ -182,7 +184,7 @@ Les règles suivantes doivent être respectées :
 *	Aucun contenu « en dur » dans les modèles
 
 
-## PARTIE 3 — Custom Post Type + ACF (Contenu structuré avancé) (20 %)
+## PARTIE 3 — Custom Post Type + ACF (Contenu structuré avancé) 
 ### Tâches obligatoires
 
 #### 1️⃣ Création du Custom Post Type
@@ -204,7 +206,7 @@ Les règles suivantes doivent être respectées :
 *	Pas de duplication
 
 
-## PARTIE 4 — Query Loop avancé (25 %)
+## PARTIE 4 — Query Loop avancé 
 ### Tâches obligatoires
 1.	Insérer une Bloc Boucle de requête (Queryloop)
 2.	Configurer le Query Loop :
@@ -221,7 +223,7 @@ Les règles suivantes doivent être respectées :
 * ❌ Dupliquer du contenu manuellement
 
 
-## PARTIE 5 — Multilingue avancé avec Polylang (10 %)
+## PARTIE 5 — Multilingue avancé avec Polylang 
 ### Tâches obligatoires
 1.	Configurer Polylang (FR / EN)
 2.	Traduire :
@@ -241,7 +243,7 @@ Les règles suivantes doivent être respectées :
 
 
 
-## PARTIE 6 — Compositions (Patterns) et réutilisation (10 %)
+## PARTIE 6 — Compositions (Patterns) et réutilisation 
 ### Tâches obligatoires
 **Créer au moins une composition personnalisée :**
    
@@ -251,6 +253,25 @@ Les règles suivantes doivent être respectées :
 **Réutiliser cette composition au moins deux fois**
 **Vérifier que la composition s’adapte automatiquement au contenu**
 
+## Remise
 
+!!! warning "Remise"
+
+    Dans TEAMS / Équipe Web 4 / Général / onglet Partagé / Dossier TP1
+    
+    Vous devez me remettre dans un fichier .zip les fichiers suivants :
+    
+    * Nom d'utilisateur
+    * Mot de passe de votre site
+    * Fichier provenant de l'exportation de All-in-one Migration & Backup
+
+    Date de remise : 
+    
+    * Groupe du matin 8h00 le 16 février 2026
+    * Groupe de l'après-midi 12h00 le 16 février 2026
+
+    **Nom du fichier :**
+    
+    [nom de famille]-[prénom]_[nom du travail]_[#travail]_[#cours]
 
 

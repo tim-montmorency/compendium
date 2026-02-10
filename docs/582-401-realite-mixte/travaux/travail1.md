@@ -206,10 +206,6 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 - [ ] Lorsque le joueur réussit à recréer les 3 images, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu et un autre nous offre de rejouer.  
 - [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
-Voici une ressource pour vous aider à créer votre code: 
-[:pencil: Ressource pour vous aider](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCGwme2VNfQQJwfMoV00-46AT9qvtRzRcPFf-LXMF5mGvw?e=kd3NQ5){ .md-button }    
-
-[STOP]
 
 ### 11 | Création de la scène Menu - Script UI
 
@@ -223,6 +219,10 @@ Voici une ressource pour vous aider à créer votre code:
 ### 12 | Création de l'application
 
 - [ ] Suivez le tutoriel suivant pour exporter votre application et modifier l'écran d'intro de votre jeu. Changez aussi l'icône par défaut de votre jeu. [Exporter pour Android](../unity/build.md){.back}
+
+**Tutoriel 🎥**
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/PBDSuIeR_dg?si=8T51GUENMc1BarN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
 
 ## Remise
 

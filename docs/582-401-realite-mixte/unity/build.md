@@ -23,12 +23,27 @@ Les crochets verts représentent le niveau de qualité qui est actuellement sél
 - [ ] Toujours dans Splash Image, vous avez aussi les options de Background. Par défaut, le fond est gris pâle ou gris foncé, vous pouvez modifier cette couleur avec Background Color. Sinon, vous pouvez mettre une image de fond dans l'option Background Image. Vous pouvez ensuite cocher ou non l'option Blur Background Image pour appliquer un petit flou sur le fond.
 - [ ] Dans Other Settings, plusieurs paramètres peuvent être modifiés au besoin. Dans Identification, vous pourrez donner un nom de paquet à votre jeu, vous pouvez cocher Override Default Package Name pour le modifier. Ce nom devrait toujours être écrit en trois parties, com.Company.Projet. La première partie com reste toujours ainsi. Compagny peut être remplacé par le nom de votre choix et projet aussi. **Ne laissez pas Vuforia!!**
 
+
+#### Mode développeur téléphone
+Afin de pouvoir builder sur votre téléphone, celui-ci devra être en mode développeur:     
+
+- [ ] Allez dans les paramètres de votre téléphone.
+- [ ] Ouvrez la section À propos du téléphone.
+- [ ] Appuyez plusieurs fois sur le numéro de version, jusqu'à ce qu'on demande votre code pour activer le mode développeur. Acceptez de l'activer.
+- [ ] Ensuite, retournez dans les paramètres et recherchez Débogage USB.
+- [ ] Cochez cette option.
+- [ ] Débranchez, puis rebranchez votre téléphone à l'ordinateur. Acceptez le pop up dans la fenêtre qui s'ouvre. 
+
 #### Fenêtre Build settings
 - [ ] Finalement, appuyez sur Build ou build and run (si vous voulez l'app sur un appareil android connecté). Créez un dossier nommé build, ouvrez-le. Nommez votre appplication et appuyez sur enregistrer. Un .apk sera alors créé. C'est ce que vous devez remettre.
 - [ ] Assurez-vous de tester votre app sur un appareil mobile avant de la remettre! 
 
-      
-  
+
+### Tutoriel vidéo
+<iframe class="w-100 aspect-16-9" src="https://www.youtube.com/embed/PBDSuIeR_dg?si=8T51GUENMc1BarN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+
+
 
 
 
