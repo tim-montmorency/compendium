@@ -1,7 +1,5 @@
 # Cours 4
 
-[STOP]
-
 ## Adobe Illustrator
 
 ![](./assets/images/illustrator_banner.png)
