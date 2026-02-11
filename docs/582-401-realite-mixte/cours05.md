@@ -1,9 +1,12 @@
 # Cours 5
 
 
-## 🚨 Remise du travail 1
+## 🚨 Remise du travail 1 **REPOUSSÉ SEMAINE 6**
 
-## Tests et présentation du travail 1
+<!-- ## Tests et présentation du travail 1-->
+
+## Finalisation du travail 1 
+[🛠️ Travail 1](./travaux/travail1.md){ .md-button } 
 
 ## Présentation du schéma conceptuel
 [🔎 Expériences VR](./installation/experiences.md){ .md-button } 
