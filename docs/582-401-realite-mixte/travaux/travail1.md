@@ -206,6 +206,9 @@ Votre script devra comprendre les éléments suivants:
 - [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
 
+**Indices 🎥**
+<iframe class="w-100 aspect-16-9"src="https://www.youtube.com/embed/70CQdSvBQaU?si=poMkk3hWOALCAxaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 11 | Création de la scène Menu - Script UI
 
 - [ ] Créez un objet vide et nommez-le. Ce sera le contrôleur de votre scène.
