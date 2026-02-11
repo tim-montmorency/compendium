@@ -26,13 +26,6 @@
 2. Quelles fonctions seront utilisées?    
 3. À quoi ressemblera le code?    
 
-#### Schéma de programmation
-1. Créer un schéma de programmation pour votre travail 1.
-2. Partagez vos schémas en équipe pour les améliorer.
-
-#### Code travail 1
-Écrivez votre code pour le travail 1 à la main. Validez le ensuite avec votre enseignant. 
-
 
 ### Avancement du travail 1
 #### Script

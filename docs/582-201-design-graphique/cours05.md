@@ -2,7 +2,57 @@
 
 [STOP]
 
-LOGO
+Un logo est un repère visuel, pas une illustration.
+
+Il doit :
+
+- Identifier
+- Différencier
+- Être mémorisable
+
+Types de logos
+
+| Type |     |
+| ---- | --- | 
+| Wordmark | La typo fait tout |
+| Pictogramme | Le symbole doit survivre seul |
+| Abstrait | Sens construit dans le temps |
+| Combiné | Le plus courant |
+
+Règles
+
+- Lisible en petit
+- Fonctionne en noir
+- Simple à reconnaître
+- Reproductible partout
+- 1–2 couleurs max
+- Contraste fort
+
+Ce qui tue un logo (5 min)
+
+- Trop de détails
+- Trop de couleurs
+- Effets inutiles (ombres, dégradés)
+- Copier une tendance
+
+> Si tu dois expliquer ton logo, il est raté.
+
+Penser avant de dessiner
+
+Mini-brief express
+
+- Qui est la marque ?
+- Pour qui ?
+- Ton : sérieux / fun / premium / accessible
+- Mots-clés (3–5 max)
+
+Moodboard rapide (5 min)
+
+- Références visuelles
+- Typographies
+- Univers de formes
+
+
 
 ## `Golden ratio`
 

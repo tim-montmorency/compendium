@@ -2,7 +2,7 @@
 
 [STOP]
 
-wireframes, contenus clés, responsive, variantes, flows simples.
+wireframes, contenus clés, responsive, flows simples.
 
 https://gretelny.com/knoll-works
 

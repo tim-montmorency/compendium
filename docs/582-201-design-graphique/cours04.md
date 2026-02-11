@@ -1,9 +1,7 @@
 # Cours 4 | Couleurs
 
-[STOP]
-
 *[RGB] : Red Green Blue
-*[CMYK] : Cyan Magenta Yellow blacK
+*[CMYK] : Cyan Magenta Yellow Key (noir)
 *[HEX] : Hexadécimal
 *[HSV] : Hue Saturation Value
 *[HSB] : Hue Saturation Brightness
@@ -13,7 +11,7 @@
 
 ## La couleur, c'est quoi ?
 
-La couleur correspond à la lumière visible. C'est donc des ondes et ça représente une toute petite partie du spectre électromagnétique.
+La couleur correspond à la lumière visible. Ce sont donc des ondes et ça représente une toute petite partie du spectre électromagnétique.
 
 ![](./assets/img/is1137-2-spectre-electromagnetique.jpg){data-zoom-image}
 
@@ -27,21 +25,21 @@ L’image qui arrive sur la rétine est inversée et le cerveau interprète ces 
 
 !!! question "Savais-tu ça ?"
 
-	![](./assets/img/pomme.webp){.w-50}
+    ![](./assets/img/pomme.webp){.w-50}
 
-	Une pomme rouge paraît rouge parce qu’elle absorbe la plupart des autres couleurs et réfléchit surtout les longueurs d’onde rouges.
+    Une pomme rouge paraît rouge parce qu’elle absorbe la plupart des autres couleurs et réfléchit surtout les longueurs d’onde rouges.
 
 !!! example "Testons tes yeux"
 
-	![](./assets/img/test-yeux.jpg){.w-25 data-zoom-image}
+    ![](./assets/img/test-yeux.jpg){.w-25 data-zoom-image}
 
-	Pour permettre à ceux et celles qui ont un [problème d’anomalie de la vision des couleurs](https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs), ne transmettez pas un message uniquement par la couleur.
-	
-	<!-- https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs -->
+    Pour permettre à ceux et celles qui ont un [problème d’anomalie de la vision des couleurs](https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs), ne transmettez pas un message uniquement par la couleur.
+    
+    <!-- https://opto.ca/fr/bibliotheque-sante-oculovisuelle/anomalie-de-la-vision-des-couleurs -->
 
-## Cercle chromatique
+## Roue chromatique
 
-Un cercle chromatique est un outil pratique pour trouver de belles combinaisons de couleurs.
+Une [roue chromatique](https://www.figma.com/fr-fr/roue-chromatique/) est un outil pratique pour trouver de belles combinaisons de couleurs.
 
 ![](./assets/img/pri-sec-ter.png){data-zoom-image}
 
@@ -67,21 +65,25 @@ La température affecte la couleur à l'écran. Si vous configurez votre écran 
 
 <!-- https://www.benq.eu/fr-fr/knowledge-center/knowledge/color-temperature.html -->
 
-La température de couleur se mesure en **Kelvin (K)**. Le blanc de référence pour les yeux humain est d'environ 6500 K.
+La température de couleur se mesure en **kelvin (K)**. Le blanc de référence pour l’œil humain est d’environ 6500 K.
 
 ![](./assets/img/temperature_couleur__3.webp){data-zoom-image .w-50}
 
 !!! note "Savais-tu ça !?"
 
-	Ce qu'on considère un blanc neutre, est en fait la température de la surface du soleil (5800 K).
-	
-	Évidemment, la couleurs perçue varie avec l’atmosphère, mais le lien est direct.
+    Ce qu’on considère comme un blanc neutre est en fait la température de la surface du Soleil (5800 K).
+    
+    Évidemment, la couleur perçue varie avec l’atmosphère, mais le lien est direct.
 
 ### Neutres
 
-![](./assets/img/white-paint.png)
+<div class="grid" markdown>
+![](./assets/img/whites.png){data-zoom-image}
 
-Blancs, noirs, gris et beiges servent souvent à **stabiliser** une palette, créer de la respiration, soutenir la lisibilité !
+![](./assets/img/blacks.png){data-zoom-image}
+</div>
+
+Blancs, noirs, gris et beiges servent souvent à **stabiliser** une palette, créer de la respiration, soutenir la lisibilité ! 
 
 <!-- https://www.smashingmagazine.com/2016/04/web-developer-guide-color/ -->
 
@@ -174,9 +176,9 @@ Il y a aussi le tétradique et le carré, mais c'est trop difficile à maîtrise
 
 !!! info "Outils d'harmonie chromatique"
 
-	<https://color.adobe.com/fr/create/color-wheel/>
-
-	<https://paletton.com/>
+    - <https://coolors.co/generate/>
+    - <https://color.adobe.com/fr/create/color-wheel/>
+    - <https://paletton.com/>
 
 ## Signification des couleurs
 
@@ -184,7 +186,7 @@ Il y a aussi le tétradique et le carré, mais c'est trop difficile à maîtrise
 
 La couleur influence la perception, mais **le contexte domine toujours** (culture, marque, produit, public). 
 
-C’est-à-dire que la même couleur peut envoyer des messages différents selon l’endroit où elle est utilisée, à qui elle s’adresse et avec quels autres éléments elle est combinée (typographie, images, mots, symbole, et situation).
+C’est-à-dire que la même couleur peut envoyer des messages différents selon l’endroit où elle est utilisée, à qui elle s’adresse et avec quels autres éléments elle est combinée (typographie, images, mots, symboles et situation).
 
 Donc oui, il faut considérer [ses effets](https://99designs.com/blog/tips/color-meanings/), mais avec une certaine prudence.
 
@@ -279,7 +281,7 @@ Les nuances claires de violet sont souvent utilisées pour apaiser et calmer.
 
 > ludique, romantique, tendre, mignon, amusant
 
-Traditionnellement, le rose évoque le romantisme, la douceur et la tendresse. Il peut souvent nous rendre enjoués ou romantiques. Mais le rose peut aussi être moderne, comme le [rose millénial](https://www.theguardian.com/artanddesign/shortcuts/2017/mar/22/millennial-pink-is-the-colour-of-now-but-what-exactly-is-it), ou extravagant, voyant et rebel, comme le rose fuchsia.
+Traditionnellement, le rose évoque le romantisme, la douceur et la tendresse. Il peut souvent nous rendre enjoués ou romantiques. Mais le rose peut aussi être moderne, comme le [rose millénial](https://www.theguardian.com/artanddesign/shortcuts/2017/mar/22/millennial-pink-is-the-colour-of-now-but-what-exactly-is-it), ou extravagant, voyant et rebelle, comme le rose fuchsia.
 
 <div class="grid" markdown>
 ![](./assets/img/rose-001.avif){data-zoom-image}
@@ -307,7 +309,7 @@ Chaleureux et convivial, pratique et fiable, il peut aussi évoquer le charme d�
 
 Le noir évoque la puissance, le luxe et l'élégance, mais peut aussi symboliser le professionnalisme, la neutralité et la simplicité, à l'image du col roulé noir omniprésent de Steve Jobs ou de la « petite robe noire ». 
 
-Il peut évoquer l'audace, la force et le mystère, comme la « magie noire », la tenue entièrement noire de Dark Vador ou la robe noire d'un ninja. 
+Il peut évoquer l'audace, la force et le mystère, comme la « magie noire », la cape de Dark Vador ou la tenue d'un ninja. 
 
 Dans certains contextes et cultures, le noir peut également être associé au deuil ou à la tristesse.
 
@@ -353,29 +355,29 @@ Le gris est parfois considéré comme une alternative plus claire et moins forme
 
 !!! example "L'effet du rouge : performance et évitement" 
 
-	Andrew Elliot a démontré que l'exposition au rouge :red_circle:, même pendant une fraction de seconde avant une tâche intellectuelle, diminue significativement les performances des participants.
+	  Andrew Elliot a démontré que l'exposition au rouge :red_circle:, même pendant une fraction de seconde avant une tâche intellectuelle, diminue significativement les performances des participants.
 
-	[Color and Psychological Functioning (2007)](https://www.researchgate.net/publication/6482505_Color_and_psychological_functioning_The_effect_of_red_on_performance_attainment)
+	  [Color and Psychological Functioning (2007)](https://www.researchgate.net/publication/6482505_Color_and_psychological_functioning_The_effect_of_red_on_performance_attainment)
 
 !!! example "Le bleu et le rouge en Marketing" 
 
-	Kaltcheva & Weitz ont prouvé que les couleurs à haute stimulation (rouge :red_circle:/orange :orange_circle:) augmentent le rythme cardiaque (_arousal_), tandis que les couleurs froides (bleu :blue_circle:) favorisent la relaxation.
+	  Kaltcheva & Weitz ont prouvé que les couleurs à haute stimulation (rouge :red_circle:/orange :orange_circle:) augmentent le rythme cardiaque (_arousal_), tandis que les couleurs froides (bleu :blue_circle:) favorisent la relaxation.
 
-	[When Should a Retailer Create an Exciting Store Environment? (2006)](https://www.researchgate.net/publication/228676121_When_Should_a_Retailer_Create_an_Exciting_Store_Environment)
+	  [When Should a Retailer Create an Exciting Store Environment? (2006)](https://www.researchgate.net/publication/228676121_When_Should_a_Retailer_Create_an_Exciting_Store_Environment)
 
 !!! example "La lumière bleue : biologie et rythmes circadiens" 
 
-	Cette recherche de la Harvard Medical School montre que la lumière bleue :blue_circle: des écrans freine la mélatonine, retardant le sommeil et modifiant l'alerte matinale.
+	  Cette recherche de la Harvard Medical School montre que la lumière bleue :blue_circle: des écrans freine la mélatonine, retardant le sommeil et modifiant l'alerte matinale.
 
-	En UX, le _dark mode_ et les filtres de nuit sont fait pour cela.
+    En UX, le _dark mode_ et les filtres de nuit sont faits pour cela.
 
-	[Evening use of light-emitting eReaders (2015)](https://www.pnas.org/doi/10.1073/pnas.1418490112)
+	  [Evening use of light-emitting eReaders (2015)](https://www.pnas.org/doi/10.1073/pnas.1418490112)
 
 !!! example "Le Vert : Réduction de l'effort perçu" 
 
-	Akers et al. ont découvert que les sportifs regardant du vert :green_circle: (couleur de la nature) ressentent moins la fatigue et ont une humeur plus stable que ceux devant du gris ou du rouge.
+    Akers et al. ont découvert que les sportifs exposés au vert :green_circle: (couleur de la nature) ressentent moins la fatigue et ont une humeur plus stable que ceux devant du gris ou du rouge.
 
-	[Visual Color Perception in Green Exercise (2012)](https://pubs.acs.org/doi/10.1021/es301685g)
+	  [Visual Color Perception in Green Exercise (2012)](https://pubs.acs.org/doi/10.1021/es301685g)
 
 ## Contexte de couleur
 
@@ -387,54 +389,47 @@ Notre perception des couleurs peut varier en fonction des couleurs environnantes
 
 !!! info "Un peu de sorcellerie chromatique ?"
 
-	![](./assets/img/unnamed.png)
+    ![](./assets/img/unnamed.png)
 
-	Le cerveau complète, corrige et interprète. La plupart du temps ça nous aide.. mais parfois ça nous trompe.
+    Le cerveau complète, corrige et interprète. La plupart du temps ça nous aide, mais parfois ça nous trompe.
 
-	<!-- https://commons.wikimedia.org/wiki/File:Wikipe-tan_wearing_The_Dress_reduced.svg -->
+    <!-- https://commons.wikimedia.org/wiki/File:Wikipe-tan_wearing_The_Dress_reduced.svg -->
 
-	![](./assets/img/The_dress_blueblackwhitegold.jpg){data-zoom-image .w-10}
-	![](./assets/img/illusion-couleur.png){data-zoom-image .w-10}
-	![](./assets/img/strawberriesssss.png){data-zoom-image .w-10}
-	![](./assets/img/a-b-colors.png){data-zoom-image .w-10}
+    ![](./assets/img/The_dress_blueblackwhitegold.jpg){data-zoom-image .w-10}
+    ![](./assets/img/illusion-couleur.png){data-zoom-image .w-10}
+    ![](./assets/img/strawberriesssss.png){data-zoom-image .w-10}
+    ![](./assets/img/a-b-colors.png){data-zoom-image .w-10}
+
+    [Illusions d'optique](https://www.illusionsindex.org/i)    
 
 ## Définition
 
-Lorsque vous travaillez avec les couleurs, vous rencontrerez des termes comme teinte, saturation et nuance. Bien qu'il soit possible de s'en sortir sans connaître leur signification exacte, il est utile de les apprendre pour mieux comprendre le fonctionnement des couleurs.
+<!-- ![](./assets/img/tint-shade-hue.png){data-zoom-image .w-50} -->
+<!-- ![](./assets/img/shade-tint-tone-difference.webp){.w-25 data-zoom-image} -->
 
 ### Teinte
 
-La teinte (_Hue_) est la famille de couleur sur le cercle chromatique (rouge, bleu, vert, etc.).
+La teinte (_Hue_) est la famille de couleurs sur le cercle chromatique (rouge, bleu, vert, etc.).
 
 ![](./assets/img/def-hue.webp)
 
-### Saturation
+### Saturation / Ton
 
-La saturation est l'intensité de la couleur.
+![](./assets/img/def-saturation.webp){data-zoom-image}
 
-![](./assets/img/def-saturation.webp)
+Les deux se ressemblent beaucoup, mais sont légèrement différents.
 
-### Luminosité
+- La **saturation** c'est comme si on ajoutait ou retirait des pigments de couleur.
+- Le **ton** c'est la couleur à laquelle on ajoute du gris.
+
+### Luminosité, nuances et ombres
+
+![](./assets/img/lightness-tin-shade-hue.png){data-zoom-image}
 
 La luminosité (_lightness_) mesure à quel point c’est clair vs. foncé pour une teinte donnée.
 
-![](./assets/img/def-lightness.webp)
-
-### Teinte, ombre et ton
-
-Ce sont simplement des mixtes avec soit du blanc, du noir ou du gris moyen.
-
-#### Teinte (_tint_)
-
-![](./assets/img/def-tint.webp){.w-50 data-zoom-image}
-
-#### Ombre (_shade_)
-
-![](./assets/img/def-shades.webp){.w-50 data-zoom-image}
-
-#### Teinte (_Tint_)
-
-![](./assets/img/def-tone.webp){.w-50 data-zoom-image}
+* **_Tints_** : Nuances (couleur + blanc)
+* **_Shades_** : Ombres (couleur + noir)
 
 ## Espaces colorimétriques
 
@@ -462,15 +457,15 @@ Petit outil pratique : <https://www.hslpicker.com/>
 
 <!-- https://www.smashingmagazine.com/2012/10/the-code-side-of-color/ -->
 
-### HSL
+<!-- ### HSL
 
-![](./assets/img/hsl.webp){.w-100 data-zoom-image}
+![](./assets/img/hsl.webp){.w-100 data-zoom-image} -->
 
 ## Accessibilité Web
 
-L’accessibilité ne devrait pas être optionnelle. Elle assure une meilleure lisibilité et disponibilité du contenu pour le plus grand nombre de personne. Ce n'est pas rien.
+L’accessibilité ne devrait pas être optionnelle. Elle assure une meilleure lisibilité et disponibilité du contenu pour le plus grand nombre de personnes. Ce n'est pas rien.
 
-[_Contrast Checker_](https://webaim.org/resources/contrastchecker/)
+[_Contrast Checker_](https://colourcontrast.cc/)
 
 ## Palettes et règle 60–30–10
 
@@ -487,158 +482,24 @@ L’accessibilité ne devrait pas être optionnelle. Elle assure une meilleure l
 ![](./assets/img/original-284c2de73f8c1224e48709f5a044ff8a.webp){data-zoom-image}
 
 
-## 9) Figma : gestion des palettes (démonstration)
+## Figma
 
-> Objectif : savoir créer une palette, la tester, la réutiliser et la maintenir.
-
-### 9.1 Outils couleur dans Figma
-
-- **Sélecteur de couleur** (HSV/HEX)
-- **Pipette** : échantillonner une couleur d’une image
-- **Roue chromatique / harmonies** : explorer des relations de couleurs
-
-### 9.2 Construire une palette “propre” (méthode)
-
-1. Choisir une **couleur de marque** (ou un accent).
-2. Définir des **neutres** (fond, surface, texte).
-3. Décliner l’accent en **tons** (plus clair / plus foncé) pour états (hover, actif).
-4. Ajouter couleurs de **feedback** (succès / avertissement / erreur) si nécessaire.
-5. Tester le contraste sur les cas critiques (CTA, texte sur fond, badges).
-
-### 9.3 Styles de couleur (recommandé)
-
-- Créer des **Color styles** nommés de façon stable, par exemple :
-  - `Neutral/0` (blanc) → `Neutral/900` (presque noir)
-  - `Primary/500` (accent principal)
-  - `Primary/600` (hover), `Primary/700` (active)
-  - `Text/Primary`, `Text/Secondary` (si vous préférez des noms fonctionnels)
-
-**Pourquoi :** si la couleur change, vous modifiez le style et tout se met à jour.
-
-### 9.4 Vérification contraste (dans ou autour de Figma)
-
-- Utiliser un **contrast checker** (plugin/outils Web) sur les paires texte/fond.
-- Vérifier au moins :
-  - texte principal sur fond principal
-  - CTA (texte + bouton)
-  - liens sur fond
-  - textes secondaires (souvent le point faible)
-
-
+- Variable et palette
+- Modes de fusion
+- Règles
 
 ## Exercices
 
-Logo
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/jo/jo.png)
 
-
-	On peut simuler avec des modes de fusion dans Figma.
-
-[STOP]
-
-
-<!-- #### Imprimé
-
-![](./assets/img/Why-Printing-Uses-CMYK-Image-3.jpg){.w-25 data-zoom-image}
-![](./assets/img/print-dots.jpg){.w-25 data-zoom-image} -->
-<!-- 
-1) Impression numérique
-
-Laser / toner (électrophotographie)
-	•	Le plus courant pour : petits et moyens tirages, bureautique, documents, affiches légères, impressions à la demande.
-	•	Avantage : rapide, économique en faible quantité, personnalisation facile.
-
-Jet d’encre (inkjet)
-	•	Très courant pour : grand format (affiches, bannières, vitrine), photo, repro, signalétique.
-	•	Avantage : excellente qualité photo / dégradés, beaucoup de supports.
-
-2) Offset (lithographie offset)
-	•	Toujours dominant pour : magazines, dépliants, brochures, emballages carton, gros tirages.
-	•	C’est la “méthode classique” CMYK avec trame (AM ou FM selon l’imprimeur).
-
-3) Packaging
-
-Flexographie (flexo)
-	•	Ultra courante pour : emballages souples, étiquettes, sacs, carton ondulé.
-	•	Souvent CMYK + tons directs.
-
-Héliogravure (gravure)
-	•	Moins “visible” au quotidien, mais très utilisée pour très gros volumes (surtout certains emballages).
-	•	Coûteux à mettre en place, rentable à grande échelle.
-
-4) Sérigraphie (stencil/pochoir)
-	•	Toujours très présente pour : textile, objets, affiches, éditions limitées.
-	•	Souvent en tons directs (Pantone) + effets (fluos, métalliques). -->
-
-<!-- <div class="grid grid-1-3" markdown>
-![](./assets/img/Process-serigraphie-e1649837510113.webp){data-zoom-image}
-
-[_Halftone screening_]()
+  <small>Exercice - Figma</small><br>
+  **[JO](./activite/exercice/jo/index.md){.stretched-link .back}**
 </div>
 
-<div class="grid grid-1-3" markdown>
-![](./assets/img/Process-serigraphie-e1649837510113.webp){data-zoom-image}
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/variable-manquante/prev.jpg)
 
-[Sérigraphie](https://www.ikone-textile.fr/serigraphie-pour-les-nuls.html?srsltid=AfmBOooQ-tsYxLDDKyxsw1cYGgb8ZY3x-BIT5M4DncNHdIKEIJdSQLTQ)
-</div> -->
-
-
-![](./assets/img/illusion-couleur.png)
-
-
-Variables : https://www.youtube.com/watch?v=as184ZLawVI (plus tard?)
-
-Figma Draw
-
-Théorie des couleurs
-Harmonies
-Contrastes
-Accessibilité (AA/AAA)
-Psychologie de la couleur
-Tendances et historique des couleurs
-
-Palettes
-
-60-30-10
-	•	Contraste (texte/fond), palettes (primaire/secondaire/neutres).
-
-Théorie : https://www.youtube.com/watch?v=krFQKuxwBZg
-
-https://en.wikipedia.org/wiki/The_dress
-https://en.wikipedia.org/wiki/Checker_shadow_illusion
-
-https://www.figma.com/fr-fr/roue-chromatique/
-https://www.figma.com/fr-fr/couleurs/?lang=fr-fr
-https://www.figma.com/fr-fr/pipette-couleur/?lang=fr-fr
-https://www.figma.com/color-palettes/?lang=fr-fr
-https://www.figma.com/color-palette-generator/?lang=fr-fr
-https://www.figma.com/color-contrast-checker/?lang=fr-fr
-
-
-<!-- Démo Figma
-	•	Styles de couleurs : créer palette + noms (Primary/Surface/Text/Error…).
-	•	Variantes clair/sombre (si tu veux, sinon reste simple).
-
-Atelier
-	•	Construire une palette complète pour leur projet (4–6 couleurs + neutres + états).
-
-Devoir
-	•	Appliquer palette + typo sur 1 écran de leur futur TP (propre, aligné, lisible). -->
-
-
-
-
-<!-- #### Chaud
-
-> Énergie, passion et urgence
-
-Les couleurs chaudes sont des teintes qui vont du rouge au jaune sur la roue chromatique. Elles incluent les nuances d’orange et des variations comme or ou corail.
-
-![](./assets/img/emo-chaud.png){w-100 data-zoom-image}
-
-#### Froid
-
-> Confiance, calme et professionnalisme
-
-Les couleurs froides sont des teintes qui vont du bleu au vert et au violet sur la roue chromatique. Elles incluent des nuances comme le turquoise, le bleu sarcelle et le lavande.
-
-![](./assets/img/emo-froid.png){w-100 data-zoom-image} -->
+  <small>Exercice - Figma</small><br>
+  **[Variable manquante](./activite/exercice/variable-manquante/index.md){.stretched-link .back}**
+</div>

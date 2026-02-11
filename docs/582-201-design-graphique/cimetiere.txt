@@ -53,3 +53,115 @@ Exercice 2 : Reproduction guidée dans Figma
 	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
 
 Faire un Pinterest de design graphique qui vous intéresse -->
+
+
+
+Cours 4
+
+
+<!-- #### Imprimé
+
+![](./assets/img/Why-Printing-Uses-CMYK-Image-3.jpg){.w-25 data-zoom-image}
+![](./assets/img/print-dots.jpg){.w-25 data-zoom-image} -->
+<!-- 
+1) Impression numérique
+
+Laser / toner (électrophotographie)
+	•	Le plus courant pour : petits et moyens tirages, bureautique, documents, affiches légères, impressions à la demande.
+	•	Avantage : rapide, économique en faible quantité, personnalisation facile.
+
+Jet d’encre (inkjet)
+	•	Très courant pour : grand format (affiches, bannières, vitrine), photo, repro, signalétique.
+	•	Avantage : excellente qualité photo / dégradés, beaucoup de supports.
+
+2) Offset (lithographie offset)
+	•	Toujours dominant pour : magazines, dépliants, brochures, emballages carton, gros tirages.
+	•	C’est la “méthode classique” CMYK avec trame (AM ou FM selon l’imprimeur).
+
+3) Packaging
+
+Flexographie (flexo)
+	•	Ultra courante pour : emballages souples, étiquettes, sacs, carton ondulé.
+	•	Souvent CMYK + tons directs.
+
+Héliogravure (gravure)
+	•	Moins “visible” au quotidien, mais très utilisée pour très gros volumes (surtout certains emballages).
+	•	Coûteux à mettre en place, rentable à grande échelle.
+
+4) Sérigraphie (stencil/pochoir)
+	•	Toujours très présente pour : textile, objets, affiches, éditions limitées.
+	•	Souvent en tons directs (Pantone) + effets (fluos, métalliques). -->
+
+<!-- <div class="grid grid-1-3" markdown>
+![](./assets/img/Process-serigraphie-e1649837510113.webp){data-zoom-image}
+
+[_Halftone screening_]()
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/img/Process-serigraphie-e1649837510113.webp){data-zoom-image}
+
+[Sérigraphie](https://www.ikone-textile.fr/serigraphie-pour-les-nuls.html?srsltid=AfmBOooQ-tsYxLDDKyxsw1cYGgb8ZY3x-BIT5M4DncNHdIKEIJdSQLTQ)
+</div> -->
+
+
+![](./assets/img/illusion-couleur.png)
+
+
+Variables : https://www.youtube.com/watch?v=as184ZLawVI (plus tard?)
+
+Figma Draw
+
+Théorie des couleurs
+Harmonies
+Contrastes
+Accessibilité (AA/AAA)
+Psychologie de la couleur
+Tendances et historique des couleurs
+
+Palettes
+
+60-30-10
+	•	Contraste (texte/fond), palettes (primaire/secondaire/neutres).
+
+Théorie : https://www.youtube.com/watch?v=krFQKuxwBZg
+
+https://en.wikipedia.org/wiki/The_dress
+https://en.wikipedia.org/wiki/Checker_shadow_illusion
+
+https://www.figma.com/fr-fr/roue-chromatique/
+https://www.figma.com/fr-fr/couleurs/?lang=fr-fr
+https://www.figma.com/fr-fr/pipette-couleur/?lang=fr-fr
+https://www.figma.com/color-palettes/?lang=fr-fr
+https://www.figma.com/color-palette-generator/?lang=fr-fr
+https://www.figma.com/color-contrast-checker/?lang=fr-fr
+
+
+<!-- Démo Figma
+	•	Styles de couleurs : créer palette + noms (Primary/Surface/Text/Error…).
+	•	Variantes clair/sombre (si tu veux, sinon reste simple).
+
+Atelier
+	•	Construire une palette complète pour leur projet (4–6 couleurs + neutres + états).
+
+Devoir
+	•	Appliquer palette + typo sur 1 écran de leur futur TP (propre, aligné, lisible). -->
+
+
+
+
+<!-- #### Chaud
+
+> Énergie, passion et urgence
+
+Les couleurs chaudes sont des teintes qui vont du rouge au jaune sur la roue chromatique. Elles incluent les nuances d’orange et des variations comme or ou corail.
+
+![](./assets/img/emo-chaud.png){w-100 data-zoom-image}
+
+#### Froid
+
+> Confiance, calme et professionnalisme
+
+Les couleurs froides sont des teintes qui vont du bleu au vert et au violet sur la roue chromatique. Elles incluent des nuances comme le turquoise, le bleu sarcelle et le lavande.
+
+![](./assets/img/emo-froid.png){w-100 data-zoom-image} -->

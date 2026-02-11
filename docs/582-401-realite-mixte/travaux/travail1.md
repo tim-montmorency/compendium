@@ -198,14 +198,16 @@ Recherchez ensuite les éléments suivants (libres de droits) :
 - [ ] Créez aussi un bouton fermeture pour le panel crédits. 
 
 ### 10 | Création de la scène Jeu - Script
-
-Un schéma de programmation sera créé en classe. Votre script devra comprendre les éléments suivants:     
+Votre script devra comprendre les éléments suivants:     
 
 - [ ] La scène jeu montre l'image à recréer avec vos papiers. 
 - [ ] Lorsque la bonne image est détectée, elle s'anime et votre barre de progression avance ou votre image de progression devient opaque.
 - [ ] Lorsque le joueur réussit à recréer les 3 images, un message de succès apparaît, dans celle-ci, un bouton nous permet de retourner au menu et un autre nous offre de rejouer.  
 - [ ] En tout temps, un bouton nous permet de retourner au menu. 
 
+
+**Indices 🎥**
+<iframe class="w-100 aspect-16-9"src="https://www.youtube.com/embed/70CQdSvBQaU?si=poMkk3hWOALCAxaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 11 | Création de la scène Menu - Script UI
 
@@ -228,7 +230,6 @@ Un schéma de programmation sera créé en classe. Votre script devra comprendre
 
 Remettez votre travail dans le dossier suivant, votre dossier doit contenir le .apk de votre jeu et vos 3 images à scanner :
 
-<!-- TODO : Ajouter un dossier de remise pour 2026 -->
-
 [📁 Remise du Travail 1 - Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgCxMpkir0lSQK3uvDWJsEfkAdPi33TNAgr3fIIFjv3M1v8?e=TKfJmt){ .md-button .md-button--primary }
 
+[📁 Remise du Travail 1 - Jean-François](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/IgAC1MzjOopoQ4ZsafqF3WM3ASEUekq9_KU8BptJMR5lnKY?e=aggenZ){ .md-button .md-button--primary }
