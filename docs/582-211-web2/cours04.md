@@ -63,8 +63,6 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 ### Exercice Dark Academia 
 
-Lien à venir...
-
 [👩🏻‍💻 Exercice Design tokens - Dark Academia](./exercices/cours4-variables-darkacademia/index.md){ .md-button }
 
 ## Le flux (flow) HTML
@@ -81,8 +79,6 @@ Lien à venir...
 
 ### Exercice Galerie Genshin Impact
 
-Lien à venir...
-
 [👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact](./exercices/cours4-flex-genshinimpact/index.md){ .md-button }
 
 
@@ -90,4 +86,7 @@ Lien à venir...
 
 - Terminer l'exercice *👩🏻‍💻 Exercice Design tokens - Dark Academia*
 - Terminer l'exercice *👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact*
+
+<!--
 - Suite à ce qu'on a vu aux cours 3 et 4, reprendre votre exercice *🍽️Menu de restaurant* et améliorer son code CSS en appliquant les bonnes pratiques vues en classe.  Nommez votre nouveau commit **Version 2.0**.
+-->
