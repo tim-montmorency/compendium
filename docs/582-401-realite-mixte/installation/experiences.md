@@ -57,6 +57,11 @@ Le titre l'annonce, ce jeu est un jeu de cuisine gratuit dans lequel on cuisine 
 
 [🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/just-another-cooking-game/6766207633442740/){ .md-button }   <br>
 
+## Sail
+Sail est un jeu de pirate simple. Il peut être joué en solo ou multijoueur. 
+[🔎 Accéder à l'application](https://www.meta.com/experiences/sail-single-player/4092537967425323/){ .md-button }   <br>
+
+
 
 
 
