@@ -227,7 +227,6 @@ Votre script devra comprendre les éléments suivants:
 
 Remettez votre travail dans le dossier suivant, votre dossier doit contenir le .apk de votre jeu et vos 3 images à scanner :
 
-<!-- TODO : Ajouter un dossier de remise pour 2026 -->
-
 [📁 Remise du Travail 1 - Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgCxMpkir0lSQK3uvDWJsEfkAdPi33TNAgr3fIIFjv3M1v8?e=TKfJmt){ .md-button .md-button--primary }
 
+[📁 Remise du Travail 1 - Jean-François](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/IgAC1MzjOopoQ4ZsafqF3WM3ASEUekq9_KU8BptJMR5lnKY?e=aggenZ){ .md-button .md-button--primary }
