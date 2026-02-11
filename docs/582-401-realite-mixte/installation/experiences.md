@@ -3,7 +3,7 @@
 Avant de créer vos projets de VR, il est préférable de faire des test pour découvrir les possibilités. Voici quelques expériences gratuites qui pourraient vous intéresser.   
 
 ## Jeux à ajouter
-- Escape simulator
+
 - Keep talking and nobody explodes
 - I expect you to die
       
@@ -27,6 +27,10 @@ En 1983, John Hull, un professeur de théologie et écrivain anglais, perd défi
 
 [🔎 Accéder à l'application](https://www.oculus.com/deeplink/?action=view&path=/app/1946326588770583&ref=oculus_desktop){ .md-button }   
 
+## Escape simulator
+Jeu de simulation d'escape game dans différents environnement. 
+
+[🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/escape-simulator/6960826027306377/?srsltid=AfmBOorbBfD1Fff6crS40MVrnPzpY9tID9QPT2cBlT0C1dpZ-_oAL7wV){ .md-button }   <br>
       
 
 ## Superhot
@@ -52,6 +56,7 @@ Ce jeu propose une démo de 20 minutes. Il s'agit d'un jeu de cuisine avec des v
 Le titre l'annonce, ce jeu est un jeu de cuisine gratuit dans lequel on cuisine dans un foodtruck pour des robots.
 
 [🔎 Accéder à l'application](https://www.meta.com/fr-ca/experiences/just-another-cooking-game/6766207633442740/){ .md-button }   <br>
+
 
 
 
