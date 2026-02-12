@@ -16,7 +16,7 @@ Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé daher_e
 Utilisateurs GitHub de vos enseignants:     
 
 - LoraBoisvert
-- Enric Granzotto Llagostera (egl-mo)
+- jfcmontmorency
 
 - [ ] Créez les dossiers suivants pour ranger vos fichiers dans la fenêtre project:
 
