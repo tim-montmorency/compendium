@@ -249,6 +249,40 @@ add_action( 'after_setup_theme', 'tim_momo_editor_styles' );
   **[One more time](./devoirs/wp-custom-theme.md){.stretched-link .back}**
 </div>
 
+
+## Sous-thème FSE
+
+Lorsqu’on souhaite développer un site à partir d’un thème FSE existant, il n’est **pas recommandé de modifier directement le thème original**.
+
+À la place, il faut **créer un thème enfant** (ou *sous-thème*) basé sur ce thème FSE. Cela permet de **préserver vos modifications**, même si le thème parent est mis à jour ultérieurement. En effet, une mise à jour écraserait les fichiers du thème parent, mais **le thème enfant reste intact**.
+
+Rien de plus simple à faire ! Il suffit d'utiliser le bon vieux plugin **Create Block Theme**.
+
+![](./assets/images/create-new-block-child-theme.png)
+
+Tout ce qu'il faut s'avoir c'est que dans le thème enfant, un fichier css a été généré et qu'il contient l'information `Template`. C'est la valeur de cette information qui lie l'enfant à son parent.
+
+```css hl_lines="6"
+/*
+Theme Name: Kid
+Requires at least: 6.7
+Tested up to: 6.7
+Requires PHP: 5.7
+Template: twentytwentyfive
+Text Domain: kid
+*/
+```
+
+### Développement
+
+Quand on développe un thème FSE, ça peut être frustrant de ne pas pouvoir tester l'enregistrement d'un template.
+
+On peut revenir en arrière en réinitialisant le layout programmé. Pour ce faire, il faut aller dans Apparence > Editor > Templates et cliquer sur les trois points verticaux associés au template en question. Sélectionnez ensuite «Reset».
+
+![](./assets/images/reset.png)
+
+
+
 #### version
 
 La version du schéma JSON utilisé.
