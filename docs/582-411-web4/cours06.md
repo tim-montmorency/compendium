@@ -1098,6 +1098,94 @@ Pour les input de type radio, checkbox et select vous deviez utiliser `isset()` 
 
 Pour les input de type file, c'est pour le moins plus difficile à sécuriser. Nous pourrons l'aborder dans une autre épisode de "On aura pas le temps de regarder cela cette session" !
 
+
+## Astra – C’est quoi ?
+
+* Thème WordPress gratuit (freemium)
+* Disponible dans le répertoire officiel WordPress
+* Plus de 1 million d’installations actives
+* Un des thèmes les plus populaires (hors thèmes natifs comme Twenty Twenty)
+
+### Pourquoi Astra est populaire ?
+
+1. Facile à utiliser même sans coder
+  * Compatible avec :
+  * Gutenberg
+  * Elementor
+  * Brizy
+  * Beaver Builder
+1. Très léger → rapide à charger
+1. Conçu pour être performant
+
+### Après activation du thème
+
+* Un menu “Options d’Astra” apparaît dans Apparence
+* Tous les réglages se font dans le Personnaliseur WordPress
+
+## Version gratuite vs Pro
+### Version gratuite :
+
+* Personnalisation des couleurs
+* Typographie
+* Largeur du site
+* Logo
+* Blog (auteur, date, commentaires)
+* Boutons (couleur, arrondis)
+* Barre latérale droite / gauche / aucune
+* Ajout :
+
+  * Boutons
+  * Réseaux sociaux
+  * Barre de recherche
+  * HTML
+  * Widgets
+
+* Modifier le copyright
+
+### Version Pro :
+
+* 15 modules supplémentaires
+* Plus d’options avancées
+* Accès à plus de modèles premium
+
+## Sites prêts à importer (Starter Templates)
+* Modèles de sites complets prêts à installer
+* Nécessite l’extension Starter Templates
+* Choix selon constructeur (Gutenberg, Elementor, etc.)
+* Environ 100 modèles
+* Certains modèles = licence payante
+* Possibilité de supprimer la démo facilement
+
+## Header & Footer Builder
+* Fonctionne en glisser-déposer
+* 3 zones :
+ * Au-dessus
+ * Zone principale
+ * En-dessous
+
+* On peut déplacer les éléments librement
+* Réglages de design disponibles (marges, fond, bordures…)
+
+## Responsive
+
+Adapté aux :
+
+* Ordinateurs
+* Tablettes
+* Téléphones
+
+## En résumé
+
+Astra est :
+
+* Simple
+* Rapide
+* Flexible
+* Idéal pour débutants et pros
+* Gratuit avec options payantes
+
+
+
 #### version
 
 La version du schéma JSON utilisé.
