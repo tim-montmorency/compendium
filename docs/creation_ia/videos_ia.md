@@ -1,8 +1,12 @@
-# Création d'images vidéos assistée par Intelligence artificielle
+# Création de vidéos par intelligence artificielle
 
-## Fondements du prompt visuel
-* [Guide maître du prompt image](./videos/01_prompt_videos.md)
+## 1. Fondements du prompt vidéo
 
-## Applications et plateformes
+- [Guide maître du prompt vidéo](./videos/01_prompt_videos.md)
+
+---
+
+## 2. Plateformes de création vidéo
+
 ### Kling
-* [Création d'images avec kling](./videos/02_kling.md)
+- [Créer des vidéos avec Kling](./videos/02_kling.md)
