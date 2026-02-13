@@ -5,7 +5,7 @@
 
 ## 🧭 Introduction
 
-Midjourney V7 permet de créer des images d’une **qualité cinématographique exceptionnelle**.
+Voici comment créer des images d’une **qualité cinématographique exceptionnelle**.
 
 Ce guide t’aide à construire des **prompts cohérents, précis et expressifs**, capables de traduire les codes visuels du cinéma : cadrage, ambiance, texture, lumière.
 
