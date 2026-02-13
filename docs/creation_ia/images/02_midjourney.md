@@ -19,6 +19,9 @@
 
 - [▶️ Le Prompt (1)](https://youtu.be/cKJJ-6hK-ZA)
 - [▶️ Le Prompt (2)](https://youtu.be/luSSrc5IpPU)
+
+### Guide théorique
+
 - Consultez [la page suivante](01_prompt_images_long.md) pour plus d’informations sur la rédaction de prompts efficaces.
 
 ---
@@ -36,6 +39,9 @@
 - `--stylize 0` = désactivé  
 - `--stylize 1000` = maximum  
 
+📘 Voir le document complet des commandes :  
+- [Commandes Midjourney (V6 & V7)](03_midjourney_commandes_6_7.md)
+
 ---
 
 ## 4. Gérer la stylisation
@@ -50,6 +56,9 @@
 - `--sw 0` = désactivé  
 - `--sw 1000` = intensité maximale du style  
 
+📘 Détail des paramètres et différences entre versions :  
+- [Commandes Midjourney (V6 & V7)](03_midjourney_commandes_6_7.md)
+
 ---
 
 ## 5. Explorer les variations créatives
@@ -61,6 +70,9 @@
 ### Variety
 
 - [▶️ Variety](https://youtu.be/ePOj85Q7NfY)
+
+📘 Paramètres avancés et pondérations :  
+- [Commandes Midjourney (V6 & V7)](03_midjourney_commandes_6_7.md)
 
 ---
 
@@ -80,6 +92,11 @@
 - `--sw 100` = valeur par défaut  
 - `--sw 0` = désactivé  
 - `--sw 1000` = maximum  
+- `--iw 1` = équilibre texte / image  
+- `--cw 100` = fidélité maximale au personnage  
+
+📘 Explication détaillée des poids (`--sw`, `--iw`, `--cw`) :  
+- [Commandes Midjourney (V6 & V7)](03_midjourney_commandes_6_7.md)
 
 ---
 
@@ -96,6 +113,9 @@
 ### Création de personnages
 
 - [▶️ Création de personnages](https://youtu.be/w1JJIwy3KhQ)
+
+📘 Cohérence personnage et paramètre `--cw` :  
+- [Commandes Midjourney (V6 & V7)](03_midjourney_commandes_6_7.md)
 
 ---
 
@@ -135,3 +155,6 @@
 - `--sw 100` = valeur par défaut  
 - `--sw 0` = désactivé  
 - `--sw 1000` = maximum  
+
+📘 Référence technique complète :  
+- [Commandes Midjourney (V6 & V7)](03_midjourney_commandes_6_7.md)
