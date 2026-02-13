@@ -5,8 +5,8 @@
 
 ## Explication vidéo de Nanobanana
 
-* [▶️ Présentation de Nanobanana dans Freepik]()  <br>    
-* [▶️ Le Prompt]()  <br>
-  * Consultez [la page suivante](01_prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
-* [▶️ Effeur à ne pas faire dans Nanobanaba]()  <br>    
-* [▶️ Créer un personnage dans Nanobanana]()  <br>
+* [▶️ Présentation de Nanobanana dans Freepik](https://youtu.be/ybhx5-RKxjI)  <br>    
+* [▶️ Le Prompt](https://youtu.be/vQjMKJHbRLw)  <br>
+  * Consultez [la page suivante](01_prompt_videos.md)** pour plus d’informations sur la rédaction de prompts efficaces.
+* [▶️ Effeur à ne pas faire dans Nanobanaba](https://youtu.be/R10v1GenU7U)  <br>    
+* [▶️ Créer un personnage dans Nanobanana](https://youtu.be/LcSs01VnUZs)  <br>
