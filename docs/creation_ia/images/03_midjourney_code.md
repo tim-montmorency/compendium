@@ -1,4 +1,4 @@
-# Commandes dans MidJourney
+# Commandes dans MidJourney 6
 
 ## 1. --stylize (stylisation générale)
 **Définition** : Le paramètre **--stylize** contrôle l'intensité de la créativité que MidJourney applique lors de l'interprétation du texte du prompt. Il influence la manière dont l'image est globalement stylisée. Une valeur plus élevée entraîne un rendu plus artistique, mais potentiellement moins fidèle à la description textuelle initiale.
