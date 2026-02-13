@@ -17,7 +17,7 @@
   * Le code suivant pour Stylization 
   * --sw 1000 = style 
 * [▶️ Weirdness](https://youtu.be/UsK55Wz6eP4)  <br>    
-* [▶️ Variety](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EclRFlG-5U1GmEUm0qs7d54BEJC-8_wHMGzRyqJ1WScR1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7P01A0)  <br>    
+* [▶️ Variety](https://youtu.be/ePOj85Q7NfY)  <br>    
 * [▶️ Insérer une photo changer le look grâce au prompt](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EZef-bOa9CFFgwmYGLIldYABlu5SZjymLUCapr0VmEjVVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dxYOZx
 )  <br>    
 * [▶️ Insérer une photo changer le look grâce au style](https://uqam-my.sharepoint.com/:v:/g/personal/lavoie-pilote_francoise_uqam_ca/EYy4nAvm1oVBs-jEeWvJi2QBXOcALHnkNqTcKmyPi_veaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W3nPnb)  <br>
