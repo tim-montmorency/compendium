@@ -1,160 +1,184 @@
-## 🧭 Structure universelle du prompt vidéo
+## Structure universelle du prompt video
 
 ---
 
-> 🩵 Ordre recommandé pour les générateurs IA (Gen-3, Kling, Seedance, Runway, etc.) :
+> Ordre recommande pour les generateurs IA (Gen-3, Kling, Seedance, Runway, etc.) :
 >
-> 🎥 Mouvement de caméra → 👤 Sujet & action → 🌆 Cadre & ambiance → 🎨 Style visuel & lumière → 🧩 Langage cinématographique
+> Mouvement de camera -> Sujet & action -> Cadre & ambiance -> Style visuel & lumiere -> Langage cinematographique
 
 ---
 
-## 🎥 1. MOUVEMENT DE CAMÉRA
+## 1. MOUVEMENT DE CAMERA
 
-> 🎯 Ce que fait la caméra – rythme, direction et type de prise de vue.
+> Ce que fait la camera - rythme, direction et type de prise de vue.
 
-### 🎬 Types de mouvements
+### Types de mouvements
 
-| Type | Description | Exemples de prompt |
-| --- | --- | --- |
-| `Static camera` | Caméra fixe | *The camera is still, centered composition.* |
-| `Tracking shot` / `Travelling` | Caméra se déplace vers ou loin du sujet | *Travelling backward shot through the corridor.* |
-| `Orbiting` / `360° rotation` | Caméra tourne autour du sujet | *Orbiting shot around the couple.* |
-| `Pan left/right` | Mouvement horizontal | *Camera pans slowly to the right.* |
-| `Tilt up/down` | Mouvement vertical | *Tilt down from ceiling to character’s face.* |
-| `Handheld` | Tremblé réaliste | *Dynamic handheld camera, documentary feeling.* |
-| `Steadicam` | Fluide et stable | *Smooth Steadicam following shot.* |
-| `FPV` | Vue subjective | *First-person view — immersive perspective.* |
+| Type | Description | Exemple |
+|------|------------|---------|
+| `Static camera` | Camera fixe | The camera is still, centered composition. |
+| `Tracking shot` | Camera se deplace | Travelling backward shot through the corridor. |
+| `Orbiting` | Camera tourne autour du sujet | Orbiting shot around the couple. |
+| `Pan left/right` | Mouvement horizontal | Camera pans slowly to the right. |
+| `Tilt up/down` | Mouvement vertical | Tilt down from ceiling to character's face. |
+| `Handheld` | Tremble realiste | Dynamic handheld camera, documentary feeling. |
+| `Steadicam` | Fluide et stable | Smooth Steadicam following shot. |
+| `FPV` | Vue subjective | First-person view - immersive perspective. |
 
-### ⏱️ Vitesse de mouvement
+### Vitesse de mouvement
 
 `Slow motion` | `Fast motion` | `Dynamic motion` | `Timelapse`
 
-### 📐 Type de plan
+### Type de plan
 
 `Wide shot`, `Medium shot`, `Close-up`, `Extreme close-up`,
-
 `Over-the-shoulder`, `Two-person shot`, `Overhead`, `Symmetrical composition`
 
-💡 **Astuce :** combine *mouvement + plan + vitesse*.
-
-### Angles de caméra
-
-| Angle | Effet visuel | Exemple |
-| --- | --- | --- |
-| **Eye-level** | Neutre, naturel | *A person sitting on a bench in a park.* |
-| **High angle** | Vulnérabilité, fragilité | *Looking down at a child drawing on the pavement.* |
-| **Low angle** | Force, puissance | *A skateboarder mid-jump viewed from below.* |
-| **Aerial** | Perspective large, isolation | *Drone-like view of a forest canopy.* |
-| **Top-down** | Composition graphique | *Flat lay view of a picnic blanket with food spread out.* |
-
-> Slow-motion orbiting close-up — handheld cinematic camera.
+Astuce : combiner mouvement + plan + vitesse.
 
 ---
 
-## 👤 2. SUJET & ACTION
+## 2. SUJET & ACTION
 
-> 🎯 Qui ou quoi est filmé, et que fait-il ?
+> Qui ou quoi est filme, et que fait-il ?
 
-### 🧍‍♀️ Décrire le sujet
+### Decrire le sujet
 
-**Formule :**
+Formule :
 
-*(âge + genre) + détail distinctif + posture ou expression*
+(age + genre) + detail distinctif + posture ou expression
 
 Exemples :
 
-- *A young woman with wet hair and porcelain skin.*
-- *An elderly man in a beige coat holding a flickering lighter.*
-- *Two dancers in a foggy room — bare feet, fragile gestures.*
+- A young woman with wet hair and porcelain skin.
+- An elderly man in a beige coat holding a flickering lighter.
+- Two dancers in a foggy room - bare feet, fragile gestures.
 
-### 🎭 Décrire l’action ou l’émotion
+### Decrire l'action ou l'emotion
 
-- *She exhales slowly, lost in thought.*
-- *He turns his head as light flickers across his face.*
-- *The curtains move gently in the wind.*
-- *Tears well up; he doesn’t move.*
+- She exhales slowly, lost in thought.
+- He turns his head as light flickers across his face.
+- The curtains move gently in the wind.
+- Tears well up; he does not move.
 
-⚠️ **Évite** : gestes complexes, objets dynamiques (mains détaillées, cigarettes, lunettes).
-
-Favorise la **subtilité émotionnelle**.
+Eviter gestes complexes et objets dynamiques.
+Favoriser la subtilite emotionnelle.
 
 ---
 
-## 🌆 3. CADRE & AMBIANCE
+## 3. CADRE & AMBIANCE
 
-> 🎯 Où la scène se déroule et quelle sensation elle dégage.
+> Ou la scene se deroule et quelle sensation elle degage.
 
-### 🏠 Lieux possibles
+### Lieux possibles
 
-`In an abandoned greenhouse` · `Inside a moving train` ·
+`In an abandoned greenhouse`
+`Inside a moving train`
+`Under neon rain`
+`By the sea at dusk`
+`In a minimalist apartment`
+`Foggy forest clearing`
+`Deserted parking lot at night`
+`Crowded subway station`
 
-`Under neon rain` · `By the sea at dusk` ·
-
-`In a minimalist apartment` · `Foggy forest clearing` ·
-
-`Deserted parking lot at night` · `Crowded subway station`
-
-### 🌫️ Ambiances émotionnelles
+### Ambiances emotionnelles
 
 `Melancholic`, `Romantic`, `Dreamlike`, `Tense`, `Poetic`,
-
 `Mystical`, `Lonely`, `Surreal realism`, `Ethereal`, `Intimate`
 
-### Détails temporels et environnementaux
+### Details temporels
 
-**Heures du jour :** `Dawn` · `Morning` · `Afternoon light` · `Golden hour` · `Sunset` · `Night`
+Heures : `Dawn`, `Morning`, `Afternoon light`, `Golden hour`, `Sunset`, `Night`
 
-**Météo :** `Rain` · `Fog` · `Snow` · `Overcast sky` · `Thunderstorm` · `Sunny haze`
+Meteo : `Rain`, `Fog`, `Snow`, `Overcast sky`, `Thunderstorm`, `Sunny haze`
 
-💬 **Exemple :**
+Exemple :
 
-> In a foggy greenhouse, golden-hour sunlight filters through condensation — humid air shimmers with warmth.
+In a foggy greenhouse, golden-hour sunlight filters through condensation, humid air shimmers with warmth.
 
 ---
 
-## 🎨 4. STYLE VISUEL & LUMIÈRE
+## 4. STYLE VISUEL & LUMIERE
 
-> 🎯 L’identité esthétique du plan : couleur, texture, contraste, atmosphère.
+> Identite esthetique du plan : couleur, texture, contraste.
 
-### 🎞️ Palette et contraste
+### Palette et contraste
 
-`Desaturated colors`, `Muted tones`, `Low contrast`,
+`Desaturated colors`
+`Muted tones`
+`Low contrast`
+`Soft diffusion`
+`High contrast`
+`Golden glow`
+`Pastel tones`
+`Bleached whites`
+`Teal-and-orange look`
 
-`Soft diffusion`, `High contrast`, `Golden glow`,
+### Types d'eclairage
 
-`Pastel tones`, `Bleached whites`, `Teal-and-orange look`
-
-### 💡 Types d’éclairage
-
-| Type | Effet visuel |
-| --- | --- |
-| `Diffused lighting` | Douceur naturelle, lumière étalée |
+| Type | Effet |
+|------|-------|
+| `Diffused lighting` | Lumiere douce |
 | `Backlit` | Silhouette dramatique |
-| `Side lit` | Modelé sculptural |
-| `Top lighting` | Mystère ou pression |
+| `Side lit` | Modelage sculptural |
+| `Top lighting` | Mystere |
 | `Golden-hour light` | Chaleur nostalgique |
-| `Moonlight` | Reflet bleuté poétique |
-| `Neon lighting` | Ton moderne ou surréaliste |
-| `Underwater glow` | Lumière diffuse et onirique |
+| `Moonlight` | Reflet bleute |
+| `Neon lighting` | Ton moderne |
+| `Underwater glow` | Lumiere diffuse |
 
-### ✨ Textures et effets
+### Textures
 
-`Fine film grain` · `Soft halation` · `Realistic DOF` ·
-
-`Cinematic haze` · `Lens flare` · `Wet reflections` ·
-
-`Vapor haze` · `Subtle bloom` · `Visible pores`
-
-💬 **Exemple :**
-
-> Desaturated tones, soft halation, side lighting, fine film grain — cinematic realism.
+`Fine film grain`
+`Soft halation`
+`Realistic DOF`
+`Cinematic haze`
+`Lens flare`
+`Wet reflections`
+`Subtle bloom`
 
 ---
 
-## 🧩 5. LANGAGE CINÉMATOGRAPHIQUE
+## 5. LANGAGE CINEMATOGRAPHIQUE
 
-> 🎯 Les paramètres techniques et artistiques qui ancrent ton style.
+> Parametres techniques et artistiques.
 
-### 🎥 Caméras modernes
+### Cameras modernes
 
-ARRI Alexa Mini LF · RED Komodo 6K · Sony Venice 2 · Phantom Flex
+ARRI Alexa Mini LF  
+RED Komodo 6K  
+Sony Venice 2  
+Canon C700  
+
+### Lenses
+
+`35mm`
+`85mm`
+`24mm wide`
+`Anamorphic lens`
+`Macro lens`
+
+### Film stocks
+
+`Kodak Vision3 250D`
+`Fuji Eterna 500T`
+`CineStill 800T`
+`Kodak Portra 400`
+
+---
+
+## Methode de construction
+
+1. Mouvement de camera
+2. Sujet & action
+3. Cadre & ambiance
+4. Style visuel
+5. Langage cinematographique
+
+---
+
+## Conseils
+
+Be specific.
+Utilise un langage cinematographique clair.
+Ne surcharge pas ton prompt.
