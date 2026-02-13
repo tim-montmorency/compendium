@@ -9,4 +9,4 @@
 ## 2. Plateformes de création vidéo
 
 ### Kling
-- [Créer des vidéos avec Kling](./videos/02_kling.md)
+- [Créer des vidéos avec Kling](./videos/02_kling.md) 
