@@ -22,6 +22,6 @@ Ce cours propose une initiation aux bases de l’intelligence artificielle appli
 
 
 L’objectif est de développer une compréhension  de l’IA comme outil de recherche-création.
-
+ 
 
 
