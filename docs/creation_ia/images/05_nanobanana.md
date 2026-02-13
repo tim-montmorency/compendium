@@ -18,3 +18,4 @@
 
 ### Créer un personnage
 * [▶️ Créer un personnage dans Nanobanana](https://youtu.be/LcSs01VnUZs)  <br> 
+* [Créer un personnage dans Nanobanana](./05_nanobanana/01_nanobanana_creation_personnage.md)  <br> 
