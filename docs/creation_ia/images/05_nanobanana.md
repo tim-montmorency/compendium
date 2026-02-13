@@ -1,7 +1,7 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-header{display:none;}</style>
 
-# Nanobanana — Guide complet de création d’images
+# [Nanobanana](https://www.freepik.com/app) — Guide complet de création d’images
 
 ---
 
