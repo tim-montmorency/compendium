@@ -51,7 +51,7 @@
 
 ## 8. Modifier une image existante
 
-### Ajustements possibles
+### Variations à partir d’une image
 - Modifier l’angle
 - Modifier la pose
 - Ajuster l’expression
