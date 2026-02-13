@@ -360,12 +360,12 @@ nav:
   - Création assistée par IA:
       - creation_ia/index.md
       - Création d'images IA:
-          - creation_ia/images_ia.md
-          - Guide maître du prompt: creation_ia/images/04_midjourney_commandes_7.md
-          - Midjourney: creation_ia/images/02_midjourney.md
-          - Nanobanana: creation_ia/images/05_nanobanana.md
+        - creation_ia/images_ia.md
+        - Guide maître du prompt: creation_ia/images/04_midjourney_commandes_7.md
+        - Midjourney: creation_ia/images/02_midjourney.md
+        - Nanobanana: creation_ia/images/05_nanobanana.md
       - Création de vidéos IA:
-          - creation_ia/videos_ia.md
+        - creation_ia/videos_ia.md
 
 ###########################################################################
 
