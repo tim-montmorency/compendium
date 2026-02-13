@@ -13,6 +13,3 @@
 ### Nanobanana
   * [Création d'images avec Nanobanana](./images/05_nanobanana.md)
 
-
-* [▶️ Présentation de Midjourney](https://youtu.be/mtGyAdyR2Ak)  <br>    
-* [▶️ Le Prompt](https://youtu.be/cKJJ-6hK-ZA)  <br>
