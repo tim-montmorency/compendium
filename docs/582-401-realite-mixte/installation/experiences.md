@@ -65,7 +65,10 @@ Sail est un jeu de pirate simple. Il peut être joué en solo ou multijoueur.
 Un jeu de réalité mixte mélangeant cartes et application. Le but est de s'évader. 
 [🔎 Voir les informations](https://boardgamegeek.com/boardgame/279613/unlock-timeless-adventures){ .md-button }   <br>
 
-
+## Livres - Disponibles à l'école
+- Slush le lutin (App: Alaska)
+- Tracé de voyage (App: Artivive)
+- Bandits des mers - Tome 1 et 2 (App: Les Éditions AppLit)
 
 
 
