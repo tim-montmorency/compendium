@@ -357,10 +357,10 @@ nav:
       - Cours 14: edm3840/cours14.md
       - Cours 15: edm3840/cours15.md
   - creation_ia:
-    - creation_ia/index.md
-    - Prompt: creation_ia/01_prompt.md
-    - Création d'images avec Midjourney: creation_ia/02_midjourney.md
-    - Utilisation du code dans Midjourney: creation_ia/03_midjourney_code.md
+      - creation_ia/index.md
+      - Prompt: creation_ia/01_prompt.md
+      - Création d'images avec Midjourney: creation_ia/02_midjourney.md
+      - Utilisation du code dans Midjourney: creation_ia/03_midjourney_code.md
 
 
 ###########################################################################
