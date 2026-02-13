@@ -1,4 +1,4 @@
-# 🎬 GUIDE MAÎTRE DU PROMPT / VIDÉO
+# 🎬 Guide maître du prompt / vidéo
 
 ## 🧭 Structure universelle du prompt vidéo
 
