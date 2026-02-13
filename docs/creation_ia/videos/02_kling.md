@@ -7,5 +7,5 @@
 ## Explication vidéo de Kling
 
 * [▶️ Présentation générale de Kling](https://youtu.be/q6QsA4SHNh4)  <br>    
-* [▶️ Rédiger un prompt]()  <br>
+* [▶️ Rédiger un prompt pour kling](https://youtu.be/DTXyyHnz360)  <br>
   * Consultez [la page suivante](./01_prompt_videos.md)** pour plus d’informations sur la rédaction de prompts efficaces.      
