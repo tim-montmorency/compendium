@@ -357,15 +357,19 @@ nav:
       - Cours 14: edm3840/cours14.md
       - Cours 15: edm3840/cours15.md
 
+
   - Création assistée par IA:
-      - creation_ia/index.md
+      - creation_ia/index.md  
+      - Accueil: creation_ia/index.md
+
       - Création d'images IA:
-        - creation_ia/images_ia.md
-        - Guide maître du prompt: creation_ia/images/04_midjourney_commandes_7.md
-        - Midjourney: creation_ia/images/02_midjourney.md
-        - Nanobanana: creation_ia/images/05_nanobanana.md
+          - Guide maître du prompt: creation_ia/images/04_midjourney_commandes_7.md
+          - Midjourney: creation_ia/images/02_midjourney.md
+          - Nanobanana: creation_ia/images/05_nanobanana.md
+
       - Création de vidéos IA:
-        - creation_ia/videos_ia.md
+          - Guide maître du prompt: creation_ia/videos/01_prompt_videos.md
+          - Kling: creation_ia/videos/02_kling.md
 
 ###########################################################################
 
