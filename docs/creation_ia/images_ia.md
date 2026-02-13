@@ -1,15 +1,15 @@
-# Création d'images assistée par Intelligence artificielle
+# Création d’images par intelligence artificielle
 
-## Fondements du prompt visuel
-  * [Guide maître du prompt image](./images/01_prompt_images_long.md)
+## 1. Fondements du prompt visuel
 
-## Applications et plateformes
+- [Guide maître du prompt image](./images/01_prompt_images_long.md)
+
+---
+
+## 2. Plateformes de création d’images
+
 ### Midjourney
-  * [Création d'images avec Midjourney](./images/02_midjourney.md)
-  * Paramètres Midjourney
-    * [Version 6](./images/03_midjourney_commandes_6.md)
-    * [Version 7](./images/04_midjourney_commandes_7.md)
+- [Créer des images avec Midjourney](./images/02_midjourney.md)
 
-### Nanobanana
-  * [Création d'images avec Nanobanana](./images/05_nanobanana.md)
-
+### NanoBanana
+- [Créer des images avec NanoBanana](./images/05_nanobanana.md)
