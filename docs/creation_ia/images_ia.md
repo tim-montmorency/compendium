@@ -3,7 +3,7 @@
 ## 1. Fondements du prompt visuel
 
 - [Guide maître du prompt image](./images/01_prompt_images_long.md)
-
+ 
 ---
 
 ## 2. Plateformes de création d’images
