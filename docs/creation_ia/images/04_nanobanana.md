@@ -1,7 +1,7 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-Headher{display:none;}</style>
 
-# Utilisation de [Nanobanana](https://www.freepik.com/app)
+# Création d'images avec [Nanobanana](https://www.freepik.com/app)
 
 ## Explication vidéo de Nanobanana
 
