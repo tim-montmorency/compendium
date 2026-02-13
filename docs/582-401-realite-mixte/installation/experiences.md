@@ -5,7 +5,8 @@ Avant de créer vos projets de VR, il est préférable de faire des test pour d�
 ## Jeux à ajouter
 
 - Keep talking and nobody explodes
-- I expect you to die
+- I expect you to die - demo
+- Sondage super hot ou beat saber
       
 ## Oculus First Contact - gratuit
 Première expérience que vous devriez tester avec votre casque, cette dernière vous permettra de vous familiariser avec le monde de la réalité virtuelle.
@@ -69,6 +70,7 @@ Un jeu de réalité mixte mélangeant cartes et application. Le but est de s'év
 - Slush le lutin (App: Alaska)
 - Tracé de voyage (App: Artivive)
 - Bandits des mers - Tome 1 et 2 (App: Les Éditions AppLit)
+
 
 
 
