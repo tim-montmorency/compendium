@@ -1,4 +1,4 @@
-# 🎛 Commandes dans MidJourney 6
+# 🎛 Commandes dans MidJourney 7
 
 
 ## 🔹 Moodboard & Personalize (Personnalisation)
