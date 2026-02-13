@@ -1,7 +1,7 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-Headher{display:none;}</style>
 
-# Utilisation de [Midjourney](https://www.midjourney.com/explore?tab=hot)
+# Création d'images avec [Midjourney](https://www.midjourney.com/explore?tab=hot)
 
 ## Explication vidéo de Midjourney
 
