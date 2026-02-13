@@ -7,7 +7,7 @@
 
 * [▶️ Présentation de Midjourney](https://youtu.be/mtGyAdyR2Ak)  <br>    
 * [▶️ Le Prompt](https://youtu.be/cKJJ-6hK-ZA)  <br>
-  * Consultez [la page suivante](01_prompt.md)** pour plus d’informations sur la rédaction de prompts efficaces.
+  * Consultez [la page suivante](01_prompt_images_long.md)** pour plus d’informations sur la rédaction de prompts efficaces.
 * [▶️ Comment personnaliser Midjourney](https://youtu.be/z84tU8CWbwg)  <br>    
 * [▶️ Personalize](https://youtu.be/evq02qZSlKs)  <br>
   * Le code suivant pour Personalize permet d'activer Personalize. --stylize 100 is default, 0 is off, and 1000 is maximum
