@@ -6,7 +6,7 @@
 
 
 # Guide pour la création d'images fixes dans des modules d'intelligence artificielle
-[stop]
+
 ### Outils en ligne
 
 - [Glibatree](https://chatgpt.com/g/g-hfOosvOH7-glibatree-consistent-character-assistant
