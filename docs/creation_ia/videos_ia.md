@@ -5,4 +5,4 @@
 
 ## Applications et plateformes
 ### Kling
-* [Création d'images avec kling](./images/02_kling.md)
+* [Création d'images avec kling](./videos/02_kling.md)
