@@ -10,8 +10,8 @@
   * [Commandes dans MidJourney 6](./images/03_midjourney_commandes_6.md)
   * [Commandes dans MidJourney 7](./images/04_midjourney_commandes_7.md)
 
-## Nanobanana
-### [Création d'images avec Nanobanana](./images/05_nanobanana.md)
+### Nanobanana
+  * [Création d'images avec Nanobanana](./images/05_nanobanana.md)
 
 
 * [▶️ Présentation de Midjourney](https://youtu.be/mtGyAdyR2Ak)  <br>    
