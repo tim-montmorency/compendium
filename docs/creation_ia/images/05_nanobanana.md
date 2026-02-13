@@ -10,7 +10,7 @@
 ###  Rédiger un prompt efficace  
 * [▶️ Le Prompt](https://youtu.be/vQjMKJHbRLw)  <br>
   * Consultez [la page suivante](01_prompt_images_long.md)** pour plus d’informations sur la rédaction de prompts efficaces.
-  * 
+
 ### Erreurs fréquentes
 * [▶️ Erreur à ne pas faire dans Nanobanaba](https://youtu.be/R10v1GenU7U)  <br>
 
