@@ -3,7 +3,7 @@
 
 # Utilisation de [Nanobanana](https://www.freepik.com/app)
 
-## Explication vidéo de Midjourney
+## Explication vidéo de Nanobanana
 
 * [▶️ Présentation de Nanobanana dans Freepik]()  <br>    
 * [▶️ Le Prompt]()  <br>
