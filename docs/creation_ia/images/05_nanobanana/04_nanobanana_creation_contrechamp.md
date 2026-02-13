@@ -1,4 +1,4 @@
-# Créer un contrechamp dans Nano Banana Pro ou Nano Banana
+# Créer un contrechamp dans Nano Banana 
 
 Nano Banana disponible via :  
 * **Nano Banana Pro ou Nano Banana** (via [Freepik](https://www.freepik.com/) ou [Gemini](https://gemini.google.com/app?hl=fr))  
