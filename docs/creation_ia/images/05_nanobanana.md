@@ -3,11 +3,13 @@
 
 # Création d'images avec [Nanobanana](https://www.freepik.com/app)
 
-## Explication vidéo de Nanobanana
+###  Créer un prompt efficace
+* [Guide d'un prompt image](01_prompt_images_long.md)
+  
 ### Comprendre l'interface
 * [▶️ Présentation de Nanobanana dans Freepik](https://youtu.be/ybhx5-RKxjI)  <br>
 
-###  Rédiger un prompt efficace  
+###  Créer un prompt dans Nanobanana  
 * [▶️ Le Prompt](https://youtu.be/vQjMKJHbRLw)  <br>
   * Consultez [la page suivante](01_prompt_images_long.md)** pour plus d’informations sur la rédaction de prompts efficaces.
 
