@@ -1,43 +1,66 @@
 <style>.md-footer{display:none;}</style>
-<style>.md-Headher{display:none;}</style>
+<style>.md-header{display:none;}</style>
 
-# Création d'images avec [Nanobanana](https://www.freepik.com/app)
+# Nanobanana — Guide complet de création d’images
 
-###  Créer un prompt efficace
-* [Guide d'un prompt image](01_prompt_images_long.md)
-  
-### Comprendre l'interface
-* [▶️ Présentation de Nanobanana dans Freepik](https://youtu.be/ybhx5-RKxjI)  <br>
+---
 
-###  Créer un prompt dans Nanobanana  
-* [▶️ Le Prompt](https://youtu.be/vQjMKJHbRLw)  <br>
-  * Consultez [la page suivante](01_prompt_images_long.md)** pour plus d’informations sur la rédaction de prompts efficaces.
+## 1. Découvrir l’interface
 
-### Erreurs fréquentes
-* [▶️ Erreur à ne pas faire dans Nanobanaba](https://youtu.be/R10v1GenU7U)  <br>
+- [▶️ Présentation générale de Nanobanana](https://youtu.be/ybhx5-RKxjI)
 
-### Créer un personnage
-* [▶️ Créer un personnage dans Nanobanana](https://youtu.be/LcSs01VnUZs)  <br> 
-* [Créer un personnage dans Nanobanana](./05_nanobanana/01_nanobanana_creation_personnage.md)  <br> 
+---
 
-### Produire des images cohérentes à partir d’un personnage entraîné
-* [Produire des images avec un personnage](./05_nanobanana/02_nanobanana_image_avec_personnage.md)  <br>
+## 2. Construire un prompt
 
+- [Guide complet du prompt image](01_prompt_images_long.md)
+- [▶️ Comprendre la structure du prompt](https://youtu.be/vQjMKJHbRLw)
 
-### Générer un personnage correctement intégré dans un décor
-* [Produire des images avec un personnage](./05_nanobanana/03_nanobanana_image_avec_personnage_backgroud.md)  <br>
+---
 
-### Générer une image en reverse shot
-* [Produire des images avec un personnage](./05_nanobanana/04_nanobanana_creation_contrechamp.md)  <br>
+## 3. Éviter les erreurs fréquentes
 
-### Modifier une image existante
-* Changer l’angle  
-* Modifier la pose ou la position  
-* Ajuster l’expression  
-* Ajouter ou retirer un élément
-  * [Produire des images avec un personnage](./05_nanobanana/05_nanobanana_image_variation.md)  <br>
+- [▶️ Identifier les erreurs courantes](https://youtu.be/R10v1GenU7U)
 
-### Swap de visage tout en conservant la scène d’origine
-* [Produire des images avec un personnage](./05_nanobanana/06_nanobanana_swap_visage.md)  <br>
+---
 
-  
+## 4. Créer un personnage
+
+- [▶️ Démonstration de création d’un personnage](https://youtu.be/LcSs01VnUZs)
+- [Méthode détaillée de création](./05_nanobanana/01_nanobanana_creation_personnage.md)
+
+---
+
+## 5. Générer des images cohérentes
+
+- [Créer une série d’images avec un personnage entraîné](./05_nanobanana/02_nanobanana_image_avec_personnage.md)
+
+---
+
+## 6. Intégrer un personnage dans un décor
+
+- [Méthode d’intégration réaliste dans un environnement](./05_nanobanana/03_nanobanana_image_avec_personnage_background.md)
+
+---
+
+## 7. Créer un contrechamp
+
+- [Technique de création d’un point de vue opposé](./05_nanobanana/04_nanobanana_creation_contrechamp.md)
+
+---
+
+## 8. Modifier une image existante
+
+### Ajustements possibles
+- Modifier l’angle
+- Modifier la pose
+- Ajuster l’expression
+- Ajouter ou supprimer un élément
+
+- [Créer des variations à partir d’une image](./05_nanobanana/05_nanobanana_image_variation.md)
+
+---
+
+## 9. Remplacer un visage
+
+- [Technique de remplacement facial](./05_nanobanana/06_nanobanana_swap_visage.md)
