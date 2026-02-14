@@ -40,7 +40,7 @@ Créez une galerie de 6 cartes de personnages avec :
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuitefaites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
-[Pen de départ](https://codepen.io/tim-momo/pen/ogLPPYp){ .md-button }
+[Pen de départ | FAIRE UN FORK](https://codepen.io/tim-momo/pen/ogLPPYp){ .md-button }
 
 ### Étapes recommandées
 

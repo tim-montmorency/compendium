@@ -42,7 +42,7 @@ Vous créez l'interface pour une app de lecture de livres classiques, inspirée 
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuitefaites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
-[Pen de départ](https://codepen.io/tim-momo/pen/emzLKbP){ .md-button }
+[Pen de départ | FAIRE UN FORK](https://codepen.io/tim-momo/pen/emzLKbP){ .md-button }
 
 ## 🚀Vous êtes super rapide?
 

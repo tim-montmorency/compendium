@@ -1,4 +1,4 @@
-## Exercice UI jeu vidéo
+# Exercice UI jeu vidéo
 
 
 ## Flexbox: Interface de jeu vidéo
@@ -24,8 +24,7 @@ Vous devez créer l'interface principale d'un RPG en utilisant Flexbox. L'interf
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuitefaites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
-[Pen de départ](https://codepen.io/tim-momo/pen/){ .md-button }
-
+[Pen de départ | FAIRE UN FORK](https://codepen.io/tim-momo/pen/emzoWgw){ .md-button }
 
 ## Consignes de base
 
