@@ -12,7 +12,7 @@ ENFANT (item): Maintenant, nous allons apprendre à contrôler comment les items
 
 Ces trois propriétés travaillent ensemble pour créer des layouts vraiment flexibles et adaptatifs.
 
-## 🟡1. `flex-basis`: TAILLE DE DÉPART
+## 🟡`flex-basis`: TAILLE DE DÉPART
 
 ### Qu'est-ce que c'est ?
 
@@ -61,7 +61,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
-## 🟡2. `flex-grow`: CAPACITÉ À GRANDIR
+## 🟡`flex-grow`: CAPACITÉ À GRANDIR
 
 ### Qu'est-ce que c'est ?
 
@@ -127,7 +127,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
 
-## 🟡3. `flex-shrink`: CAPACITÉ À RÉTRÉCIR
+## 🟡`flex-shrink`: CAPACITÉ À RÉTRÉCIR
 
 ### Qu'est-ce que c'est ?
 
@@ -207,7 +207,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
-## 🟡4. `flex`: PROPRIÉTÉ RACCOURIE
+## 🟡`flex`: PROPRIÉTÉ RACCOURIE
 
 Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propriété raccourcie **`flex`**.
 
