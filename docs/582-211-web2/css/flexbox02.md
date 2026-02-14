@@ -69,11 +69,16 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 C'est un **nombre sans unité** (ratio).
 
+- `0` = false (désactivé) **VALEUR PAR DÉFAUT**
+- `1` = true (activé) et un ratio de 1x
+- `2` = activé et un ratio de 2x
+- `3` ...
+
 **Syntaxe :**
 
 ```css
 .item {
-  flex-grow: 0;  /* Ne grandit jamais (défaut) */
+  flex-grow: 0;  /* (DÉFAUT) Ne grandit jamais */
   flex-grow: 1;  /* Peut grandir */
   flex-grow: 2;  /* Grandit 2× plus que ceux à flex-grow: 1 */
 }
@@ -91,7 +96,7 @@ Imaginez un conteneur de 1000px avec 3 items :
 
 1. Espace occupé par les flex-basis : 200 + 200 + 200 = 600px
 2. Espace restant : 1000 - 600 = 400px
-3. Total des flex-grow : 1 + 1 + 2 = 4 parts
+3. Total des `flex-grow` : 1 + 1 + 2 = 4 parties
 4. Distribution :
    - Item 1 : 200px + (400px × 1/4) = 200 + 100 = **300px**
    - Item 2 : 200px + (400px × 1/4) = 200 + 100 = **300px**
@@ -114,6 +119,7 @@ Imaginez un conteneur de 1000px avec 3 items :
 ```
 
 **3 colonnes égales**
+
 ```css
 .colonne {
   flex-grow: 1;  /* Chaque colonne grandit également */
@@ -131,16 +137,21 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Qu'est-ce que c'est ?
 
-`flex-shrink` définit **dans quelle proportion** un item peut **rétrécir** si l'espace disponible est insuffisant.
+`flex-shrink` définit *dans quelle proportion* un item peut *rétrécir* si l'espace disponible est insuffisant.
 
 C'est aussi un **nombre sans unité** (ratio).
+
+- `0` = false (rétrécissement désactivé)
+- `1` = true (rétrécissement activé) et un ratio de 1x *VALEUR PAR DÉFAUT*
+- `2` = rétrécissement activé et un ratio de 2x
+- `3` ...
 
 **Syntaxe :**
 
 ```css
 .item {
-  flex-shrink: 1;  /* Peut rétrécir (défaut) */
-  flex-shrink: 0;  /* Ne rétrécit JAMAIS */
+  flex-shrink: 1;  /* (DÉFAUT) Peut rétrécir  */
+  flex-shrink: 0;  /* Ne rétrécit jamais */
   flex-shrink: 2;  /* Rétrécit 2× plus que ceux à flex-shrink: 1 */
 }
 ```
