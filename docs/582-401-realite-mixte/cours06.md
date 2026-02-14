@@ -13,7 +13,7 @@ Sacs à dos : Les sacs à dos (même petits) ne sont pas autorisés pour des rai
 
 Heure d'arrivée : Il est important d'arriver 15 minutes avant l'heure prévue.      
 
-Accès: Nous partirons de Montmo en groupe en métro. Ayez vos billets à l'avance 
+Accès: Nous partirons de Montmo en groupe en métro. Ayez vos billets de métro (Zone AB) à l'avance. 
 
 ## Devoir
 

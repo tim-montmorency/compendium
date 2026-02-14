@@ -3,11 +3,9 @@
 Ce travail vous aidera à vous familiariser avec les principes de la 3D dans Unity.    
 
 ## Exemple de travail 2
-Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé ControleQualite.exe pour jouer à un exemple de travail 2: 
+Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé daher_elie_projet2.exe pour jouer à un exemple de travail 2: 
 
-[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Eo-SZVlsOelKqB7pun1uX3QB_j5VDtW5u4Pp8w0rKkNTgA?e=DzY1C7){ .md-button }      
-
-     
+[📁 Exemple travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgBaADNdw6EITKudraCmHjyuAYLCXjV0F2N7HEyCTrJakMs?e=KAZBv2){ .md-button .back }
 
 ## 1. Préparer le projet
 
@@ -18,7 +16,7 @@ Vous pouvez télécharger le dossier et ensuite ouvrir le fichier nommé Control
 Utilisateurs GitHub de vos enseignants:     
 
 - LoraBoisvert
-- Enric Granzotto Llagostera (egl-mo)
+- jfcmontmorency
 
 - [ ] Créez les dossiers suivants pour ranger vos fichiers dans la fenêtre project:
 
