@@ -218,7 +218,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
-## 🟡`flex`: PROPRIÉTÉ RACCOURIE
+## 🟡`flex`: PROPRIÉTÉ RACCOURCIE
 
 Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propriété raccourcie **`flex`**.
 
