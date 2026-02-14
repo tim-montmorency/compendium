@@ -55,4 +55,12 @@ Révision des 2 exercices « dark académie » et « Galerie Genshin Impact »
 
 ## BLOC3 : Order + Composants réutilisables (1h)
 
+[📚 Contenu de cours *flexbox: `order`*](./css/flexbox-order.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours *Composants réutilisables*](./css/composants.md){ .md-button .md-button--primary }
+
+### Exercice
+
+[👩🏻‍💻 Exercice](./exercices/){ .md-button }
+
 ## BLOC 4 : Flexbox + contenu réel (~50 min)
