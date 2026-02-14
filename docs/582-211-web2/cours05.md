@@ -11,19 +11,22 @@
 * Windows ++ctrl+shift+i++ ou ++f12++
 
 
+## Ordre du jour
+
+- Révision exercices du dernier cours
+- Flexbox — Maîtriser l'espace 
+  - Propriétés flex (flex-grow, flex-shrink, flex-basis) 
+  - Gestion de l'espace disponible et du débordement 
+  - Ordre des éléments (order) 
+  - Composants réutilisables : cartes, sections, navigations 
+  - Combinaisons Flexbox + contenu réel Lancement de l’atelier pratique sur les composants Flexbox
+- Lancement de l’atelier pratique sur les composants Flexbox (formatif): Remise au cours 6 (23, 25 février)
 
 
 <!-- RÉSUMÉ DU CONTENU VU AUJOURD'HUI -->
 
 <!--
 
-  ** Prévu au cours 4
-
-  Flexbox : Comprendre le système 
-    · Gestion multilignes (flex-wrap)  (bougé au cours 5)
-
-
-** Prévu au cours 5
 
   Flexbox — Maîtriser l'espace 
   
@@ -36,3 +39,20 @@
 
 Lancement de l’atelier pratique sur les composants Flexbox
 -->
+
+## BLOC1 : Révision (30 min)
+
+Révision des 2 exercices « dark académie » et « Galerie Genshin Impact » 
+
+## BLOC2 : Propriétés `flex`: `flex-grow`, `flex-shrink`, `flex-basis` (50 min)
+
+[📚 Contenu de cours *`flex`: `flex-grow`, `flex-shrink`, `flex-basis`*](./css/flexbox02.md){ .md-button .md-button--primary }
+
+### Exercice
+
+[👩🏻‍💻 Exercice](./exercices/){ .md-button }
+
+
+## BLOC3 : Order + Composants réutilisables (1h)
+
+## BLOC 4 : Flexbox + contenu réel (~50 min)
