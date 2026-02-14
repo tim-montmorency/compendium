@@ -4,11 +4,11 @@
 
 ### S'appliquent au balises *items* (*ENFANT*)
 
-PARENT (conteneur): Jusqu'à présent, nous avons vu comment *positionner* (`justify-content`) et *aligner* (`align-items`) les items dans un conteneur flex. Jusqu'à présent, les propriétés qu'on a vues *s'appliquent au conteneur (balise **PARENT**)* des items qu'on souhaitent placer dans l'espace.
+PARENT (conteneur): Jusqu'à présent, nous avons vu comment *positionner* (`justify-content`) et *aligner* (`align-items`) les items dans un conteneur flex. Jusqu'à présent, les propriétés qu'on a vues *s'appliquent à la balise **PARENT** (le conteneur)* des items qu'on souhaitent placer dans l'espace.
 
 ***
 
-ENFANT (item): Maintenant, nous allons apprendre à contrôler comment les items *grandissent*, *rétrécissent* et *occupent l'espace* disponible. Contrairement au propriétés vues précédemments, ces nouvelles propriétés (`flex-basis`, `flex-grow` et `flex-shrink`) *sont appliquées aux balises **ENFANTS** (items)* du conteneur Flexbox pour gérer individuellement leur *taille* et leur *comportement*.
+ENFANT (item): Maintenant, nous allons apprendre à contrôler comment les items *grandissent*, *rétrécissent* et *occupent l'espace* disponible. Contrairement au propriétés vues précédemments, ces nouvelles propriétés (`flex-basis`, `flex-grow` et `flex-shrink`) *sont appliquées aux balises **ENFANTS** (les items)* du conteneur Flexbox pour gérer individuellement leur *taille* et leur *comportement*.
 
 Ces trois propriétés travaillent ensemble pour créer des layouts vraiment flexibles et adaptatifs.
 
