@@ -16,7 +16,7 @@ Ces trois propriétés travaillent ensemble pour créer des layouts vraiment fle
 
 ### Qu'est-ce que c'est ?
 
-`flex-basis` définit la **taille de base** d'un item **avant** que l'espace restant soit distribué.
+`flex-basis` définit la *taille de base* d'un item *avant* que l'espace restant soit distribué.
 
 C'est comme dire : "Cet item devrait idéalement faire cette taille".
 
@@ -49,11 +49,11 @@ C'est comme dire : "Cet item devrait idéalement faire cette taille".
 
 **Important :** 
 
-- En `flex-direction: row`, `flex-basis` contrôle la **largeur**
-- En `flex-direction: column`, `flex-basis` contrôle la **hauteur**
+- En `flex-direction: row`, `flex-basis` contrôle la *largeur*
+- En `flex-direction: column`, `flex-basis` contrôle la *hauteur*
 
 
-<p class="codepen" data-height="1100" data-theme-id="44168" data-default-tab="result" data-slug-hash="KwMYaoM" data-pen-title="DEMO - Flexbox flex-basis" data-user="tim-momo" style="height: 1100px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="1200" data-theme-id="44168" data-default-tab="result" data-slug-hash="KwMYaoM" data-pen-title="DEMO - Flexbox flex-basis" data-user="tim-momo" style="height: 1200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KwMYaoM">
 DEMO - Flexbox flex-basis</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
