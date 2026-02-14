@@ -473,7 +473,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 |-----------|----------|
 | Sidebar fixe + contenu flexible | `sidebar: flex: 0 0 250px` + `contenu: flex: 1` |
 | 3 colonnes égales | Toutes : `flex: 1` |
-| Colonne 2× plus large | `colonne-1: flex: 1` + `colonne-2: flex: 2` |
+| Colonne 2× plus large | `colonne-1: flex: 1` + `colonne-2: flex : 2` |
 | Élément qui garde sa taille | `flex: 0 0 auto` ou `flex: none` |
 | Cartes responsive | `flex: 1 1 300px` + `flex-wrap: wrap` |
 | Logo fixe + menu flexible | `logo: flex: 0 0 150px` + `menu: flex: 1` |
