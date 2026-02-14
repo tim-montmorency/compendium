@@ -250,9 +250,11 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 
 
 
-## Exemples pratiques complets
+## Résumé, exemples et info complémentaire
 
-### Exemple 1 : Layout classique (sidebar + contenu)
+### Exemples pratiques complets
+
+**Exemple 1 : Layout classique (sidebar + contenu)**
 
 ```css
 .conteneur {
@@ -270,14 +272,14 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-**Résultat :**
+Résultat :
 
 - Sidebar fixe à 250px
 - Contenu prend tout le reste
 
 ---
 
-### Exemple 2 : Cards flexibles dans une galerie
+**Exemple 2 : Cards flexibles dans une galerie**
 
 ```css
 .galerie {
@@ -293,7 +295,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-**Résultat :**
+Résultat :
 
 - Les cartes ont au minimum 300px
 - Elles grandissent pour remplir l'espace
@@ -301,7 +303,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 
 ---
 
-### Exemple 3 : Navigation responsive
+**Exemple 3 : Navigation responsive**
 
 ```css
 .nav {
@@ -329,7 +331,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 
 ---
 
-### Exemple 4 : Ratios personnalisés
+**Exemple 4 : Ratios personnalisés**
 
 ```css
 .conteneur {
@@ -349,7 +351,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-**Résultat :**
+Résultat :
 
 - Total : 1 + 2 + 1 = 4 parts
 - Colonne 1 : 25% de l'espace
@@ -358,7 +360,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 
 
 
-## Tableau récapitulatif
+### Tableau récapitulatif
 
 | Propriété | Défaut | Description | Exemple typique |
 |-----------|--------|-------------|-----------------|
@@ -369,9 +371,9 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 
 
 
-## Pièges courants à éviter
+### Pièges courants à éviter
 
-### ❌ Piège 1 : Oublier que flex-basis remplace width
+**❌ Piège 1 : Oublier que flex-basis remplace width**
 
 ```css
 /* ❌ Conflit possible */
@@ -386,7 +388,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-### ❌ Piège 2 : Ne pas comprendre flex: 1
+**❌ Piège 2 : Ne pas comprendre flex: 1**
 
 ```css
 /* Beaucoup pensent que flex: 1 = width: 100% */
@@ -399,7 +401,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-### ❌ Piège 3 : Oublier flex-shrink
+**❌ Piège 3 : Oublier flex-shrink**
 
 ```css
 /* ❌ Sans flex-shrink: 0, l'item peut rétrécir */
@@ -416,11 +418,11 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 ```
 
 
-## Bonnes pratiques
+### Bonnes pratiques
 
-### ✅ Utilisez la propriété raccourcie `flex`
+**✅ Utilisez la propriété raccourcie `flex`**
 
-**Plutôt que :**
+Plutôt que :
 
 ```css
 .item {
@@ -430,7 +432,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-**Écrivez :**
+Écrivez :
 
 ```css
 .item {
@@ -438,9 +440,9 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-### ✅ Soyez explicite pour les tailles fixes
+**✅ Soyez explicite pour les tailles fixes**
 
-**Plutôt que :**
+Plutôt que :
 
 ```css
 .sidebar {
@@ -448,7 +450,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-**Écrivez :**
+Écrivez :
 
 ```css
 .sidebar {
@@ -457,7 +459,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-### ✅ Combinez avec min-width et max-width pour plus de contrôle
+**✅ Combinez avec min-width et max-width pour plus de contrôle**
 
 ```css
 .item {
@@ -467,7 +469,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 }
 ```
 
-## Quand utiliser quoi ?
+### Quand utiliser quoi ?
 
 | Situation | Solution |
 |-----------|----------|
@@ -479,7 +481,7 @@ Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propr
 | Logo fixe + menu flexible | `logo: flex: 0 0 150px` + `menu: flex: 1` |
 
 
-## Résumé visuel
+### Résumé visuel
 
 ```
 flex: [grow] [shrink] [basis]
@@ -494,7 +496,7 @@ flex: none      →  inflexible, garde sa taille naturelle
 
 
 
-## À retenir
+### À retenir
 
 1. **`flex-basis`** : Taille de départ (avant distribution)
 2. **`flex-grow`** : Comment l'item grandit (ratio)
