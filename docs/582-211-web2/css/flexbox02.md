@@ -6,7 +6,7 @@ Jusqu'à présent, nous avons vu comment *positionner* et *aligner* les items da
 
 Ces trois propriétés travaillent ensemble pour créer des layouts vraiment flexibles et adaptatifs.
 
-## 🟡1. `flex-basis` - La taille de départ
+## 🟡1. `flex-basis`: TAILLE DE DÉPART
 
 ### Qu'est-ce que c'est ?
 
@@ -15,6 +15,7 @@ Ces trois propriétés travaillent ensemble pour créer des layouts vraiment fle
 C'est comme dire : "Cet item devrait idéalement faire cette taille".
 
 **Syntaxe :**
+
 ```css
 .item {
   flex-basis: 200px;  /* Taille de base en pixels */
@@ -47,7 +48,7 @@ C'est comme dire : "Cet item devrait idéalement faire cette taille".
 
 
 
-## 🟡2. `flex-grow` - La capacité à grandir
+## 🟡2. `flex-grow`: CAPACITÉ À GRANDIR
 
 ### Qu'est-ce que c'est ?
 
@@ -108,7 +109,7 @@ Imaginez un conteneur de 1000px avec 3 items :
 
 
 
-## 🟡3. `flex-shrink` - La capacité à rétrécir
+## 🟡3. `flex-shrink`: CAPACITÉ À RÉTRÉCIR
 
 ### Qu'est-ce que c'est ?
 
@@ -179,7 +180,7 @@ Total : 200 + 200 + 400 = 800px ✅
 
 ---
 
-## 🟡4. La propriété raccourcie `flex`
+## 🟡4. `flex`: PROPRIÉTÉ RACCOURIE
 
 Au lieu d'écrire les trois propriétés séparément, on peut utiliser la propriété raccourcie **`flex`**.
 
