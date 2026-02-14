@@ -1,8 +1,14 @@
 # Flexbox: Maîtriser l'espace
 
-## Les propriétés flex : flex-grow, flex-shrink, flex-basis
+## Les propriétés `flex` : `flex-grow`, `flex-shrink`, `flex-basis`
 
-Jusqu'à présent, nous avons vu comment *positionner* et *aligner* les items dans un conteneur flex. Maintenant, nous allons apprendre à contrôler comment les items *grandissent*, *rétrécissent* et *occupent l'espace* disponible.
+### S'appliquent au balises items (enfant)
+
+Jusqu'à présent, nous avons vu comment *positionner* (`justify-content`) et *aligner* (`align-items`) les *items dans un conteneur flex*. Jusqu'à présent, les propriétés qu'on a vues *s'appliquent au conteneur (balise parent)* des items qu'on souhaitent placer dans l'espace.
+
+***
+
+Maintenant, nous allons apprendre à contrôler comment les items *grandissent*, *rétrécissent* et *occupent l'espace* disponible. Contrairement au propriétés vues précédemments, ces nouvelles propriétés (`flex-basis`, `flex-grow` et `flex-shrink`) *sont appliquées aux balises enfants (items)* du conteneur Flexbox pour gérer individuellement leur *taille* et leur *comportement*.
 
 Ces trois propriétés travaillent ensemble pour créer des layouts vraiment flexibles et adaptatifs.
 
