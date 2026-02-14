@@ -2,7 +2,7 @@
 
 ---
 
-# Images par intelligence artificielle
+# Création d'images
 
 ## 1. Fondements du prompt visuel
 
@@ -18,7 +18,7 @@
 
 ---
 
-# Vidéos par intelligence artificielle
+# Création de vidéo
 
 ## 1. Fondements du prompt vidéo
 

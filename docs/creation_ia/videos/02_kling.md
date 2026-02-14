@@ -2,7 +2,8 @@
 <style>.md-footer{display:none;}</style>
 <style>.md-Headher{display:none;}</style>
 
-# Utilisation de [Kling AI](https://klingai.com/)
+
+# [Kling AI](https://klingai.com/) — Guide complet de création vidéo
 
 ## Explication vidéo de Kling
 
