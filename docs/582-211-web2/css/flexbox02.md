@@ -53,7 +53,7 @@ C'est comme dire : "Cet item devrait idéalement faire cette taille".
 - En `flex-direction: column`, `flex-basis` contrôle la *hauteur*
 
 
-<p class="codepen" data-height="1200" data-theme-id="44168" data-default-tab="result" data-slug-hash="KwMYaoM" data-pen-title="DEMO - Flexbox flex-basis" data-user="tim-momo" style="height: 1200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="1500" data-theme-id="44168" data-default-tab="result" data-slug-hash="KwMYaoM" data-pen-title="DEMO - Flexbox flex-basis" data-user="tim-momo" style="height: 1500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KwMYaoM">
 DEMO - Flexbox flex-basis</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
