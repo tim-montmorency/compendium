@@ -45,10 +45,12 @@ nav:
         - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
         - Flux HTML: 582-211-web2/css/flot-natif-html.md
-        - Vars, unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
-        - Vars de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
+        - Variab., unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
+        - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
         - Flex,justify,align,wrap: 582-211-web2/css/flexbox01.md
         - Flex,grow,shrink,basis: 582-211-web2/css/flexbox02.md
+        - Flexbox order: 582-211-web2/css/flexbox-order.md
+        - Composants réutilisables: 582-211-web2/css/composants.md
       - Cours 1: 582-211-web2/cours01.md
       - Cours 2: 582-211-web2/cours02.md
       - Cours 3: 582-211-web2/cours03.md
