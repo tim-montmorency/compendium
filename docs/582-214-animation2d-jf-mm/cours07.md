@@ -294,6 +294,4 @@ Crédit: [Machine Loop par Lera Shadova](https://dribbble.com/shots/3873973-Mach
 <div class="grid grid-1-2" markdown>
   ![](./exercices_ae/rube_goldberg/rube.jpg)
 
-  <small>Exercice - After Effects</small><br>
-  **[Rube Goldberg](./exercices_ae/rube_goldberg/rube.md){.stretched-link .back}**
 </div>
