@@ -172,7 +172,7 @@ Précisions:
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/logo-illustrator.png)
 
-  <small>Exercice</small><br>
+  <small> </small><br>
    **[Papillon](exercice_ai/06_papillon.md){.back}**<br>
   **[Pinceau](exercice_ai/06_pinceau.md){.back}**<br>
   **[Nuancier](exercice_ai/07_nuancier.md){.back}**<br>
