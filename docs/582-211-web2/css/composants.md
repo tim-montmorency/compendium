@@ -354,16 +354,33 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Liste de médias (Media Object)
 
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="JoKVwaq" data-pen-title="DEMO composant - Liste de médias (Media Object)" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/tim-momo/pen/JoKVwaq">
+DEMO composant - Liste de médias (Media Object)</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 **Structure HTML**
 
 ```html
 <div class="media">
   <div class="media__image">
-    <img src="avatar.jpg" alt="Utilisateur">
+    <img src="https://static.photos/people/200x200/216" alt="Utilisateur">
   </div>
   <div class="media__content">
-    <h4 class="media__titre">Marie Tremblay</h4>
-    <p class="media__texte">Intégratrice Web chez Montmorency</p>
+    <h4 class="media__titre">Jason Corbeau</h4>
+    <p class="media__texte">Intégrateur Web, Collège Montmorency</p>
+  </div>
+</div>
+
+<div class="media">
+  <div class="media__image">
+    <img src="https://static.photos/people/200x200/103" alt="Utilisateur">
+  </div>
+  <div class="media__content">
+    <h4 class="media__titre">Sara Gendron</h4>
+    <p class="media__texte">Designer Web, Collège Montmorency</p>
   </div>
 </div>
 ```
@@ -374,11 +391,13 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 .media {
   display: flex;
   gap: 1rem;
-  align-items: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
 }
 
 .media__image {
-  flex: 0 0 60px;  /* Taille fixe pour l'image */
+  flex: 0 0 60px; /* Taille fixe pour l'image */
+  padding: 0.2rem 0;
 }
 
 .media__image img {
@@ -386,10 +405,11 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   height: 60px;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
 }
 
 .media__content {
-  flex: 1;  /* Prend tout l'espace restant */
+  flex: 1; /* Prend tout l'espace restant */
 }
 
 .media__titre {
@@ -403,6 +423,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   color: #666;
   font-size: 0.9rem;
 }
+
 ```
 
 **Variante : Image à droite**
