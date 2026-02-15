@@ -172,9 +172,8 @@ Précisions:
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/logo-illustrator.png)
 
-  <small>Exercice - Illustrator</small><br>
-  **[Crayon et shaper](exercice_ai/05_crayon_shaper.md){.back}**<br>
-  **[Papillon](exercice_ai/06_papillon.md){.back}**<br>
+  <small>Exercice</small><br>
+   **[Papillon](exercice_ai/06_papillon.md){.back}**<br>
   **[Pinceau](exercice_ai/06_pinceau.md){.back}**<br>
   **[Nuancier](exercice_ai/07_nuancier.md){.back}**<br>
   **[Marionnette](exercice_ai/08_marionnette.md){.back}**<br>
@@ -190,11 +189,4 @@ Précisions:
 
   <small>Exercice - Illustrator</small><br>
   **[Pinceau](./exercice_ai/pinceau/pinceau.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercice_ai/speakwhite/speak-white-preview.png)
-
-  <small>Exercice - Illustrator</small><br>
-  **[Speak White](./exercice_ai/speakwhite/speak-white.md){.stretched-link .back}**
 </div>
