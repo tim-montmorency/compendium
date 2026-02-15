@@ -131,7 +131,6 @@ https://tailwindcss.com/plus/ui-blocks
 - Espacements (spacers)
 
 
-
 ## 📟Principes de conception de composants
 
 ### 1. Un composant = Une responsabilité
