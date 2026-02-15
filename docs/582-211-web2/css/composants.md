@@ -7,7 +7,7 @@ https://getbootstrap.com/docs/5.3/components/accordion/
 https://tailwindcss.com/plus/ui-blocks
 -->
 
-## 📟Qu'est-ce qu'un composant réutilisable?
+## 📟 Qu'est-ce qu'un composant réutilisable?
 
 Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
@@ -20,7 +20,7 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## 📟Pourquoi créer des composants réutilisables?
+## 📟 Pourquoi créer des composants réutilisables?
 
 ### Avantages d'utiliser des composants réutilisables
 
@@ -76,7 +76,7 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## 📟Catégories de composants courantes et quelques exemples par type
+## 📟 Catégories de composants courantes et quelques exemples par type
 
 <!--
 https://www.landingfolio.com/library
@@ -131,7 +131,7 @@ https://tailwindcss.com/plus/ui-blocks
 - Espacements (spacers)
 
 
-## 📟Principes de conception de composants
+## 📟 Principes de conception de composants
 
 ### 1. Un composant = Une responsabilité
 
@@ -208,7 +208,7 @@ https://tailwindcss.com/plus/ui-blocks
 ```
 
 
-## 📟Exemples de composants réutilisables avec Flexbox
+## 📟 Exemples de composants réutilisables avec Flexbox
 
 ### Composant 1 : Barre de navigation (Navbar)
 
@@ -608,7 +608,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 
 
-## 📟Bonnes pratiques pour les composants réutilisables
+## 📟 Bonnes pratiques pour les composants réutilisables
 
 ### 1. Nomenclature cohérente (BEM recommandé)
 
@@ -689,7 +689,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 
 
-## 📟Résumé
+## 📟 Résumé
 
 **Composants réutilisables :**
 
