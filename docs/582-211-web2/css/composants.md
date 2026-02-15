@@ -1,13 +1,13 @@
 # Composants réutilisables
 
-## Qu'est-ce qu'un composant réutilisable ?
+## Qu'est-ce qu'un composant réutilisable?
 
-Un **composant réutilisable** est un bloc de code HTML + CSS qui :
+Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
-- Peut être utilisé **plusieurs fois** dans un projet
-- A un **style cohérent** et **prévisible**
-- Est **facile à maintenir** (changer une fois = change partout)
-- S'adapte à différents **contextes et contenus**
+- Peut être utilisé *plusieurs fois* dans un projet
+- A un *style cohérent* et *prévisible*
+- Est *facile à maintenir* (changer une fois = change partout)
+- S'adapte à différents *contextes et contenus*
 
 **Pensez-y comme des LEGO :** Vous créez des pièces standardisées que vous pouvez assembler de différentes façons.
 
@@ -17,11 +17,11 @@ Un **composant réutilisable** est un bloc de code HTML + CSS qui :
 
 ### ✅ Avantages
 
-1. **Cohérence visuelle** - Même look partout sur le site
-2. **Productivité** - Codez une fois, utilisez partout
-3. **Maintenabilité** - Un seul endroit à modifier
-4. **Scalabilité** - Facile d'ajouter de nouvelles sections
-5. **Travail d'équipe** - Tout le monde utilise les mêmes composants
+1. *Cohérence visuelle* - Même look partout sur le site
+2. *Productivité* - Codez une fois, utilisez partout
+3. *Maintenabilité* - Un seul endroit à modifier
+4. *Scalabilité* - Facile d'ajouter de nouvelles sections
+5. *Travail d'équipe* - Tout le monde utilise les mêmes composants
 
 ### ❌ Sans composants réutilisables
 
@@ -100,6 +100,7 @@ Un **composant réutilisable** est un bloc de code HTML + CSS qui :
 ### 1. Un composant = Une responsabilité
 
 **❌ Mauvais :**
+
 ```css
 .carte-produit-avec-bouton-et-image-et-prix {
   /* Trop spécifique, pas réutilisable */
@@ -142,6 +143,7 @@ Un **composant réutilisable** est un bloc de code HTML + CSS qui :
 ### 3. Variantes avec modificateurs
 
 **Structure BEM (Block Element Modifier) :**
+
 ```css
 /* Block - Composant de base */
 .carte { }
@@ -237,6 +239,7 @@ Un **composant réutilisable** est un bloc de code HTML + CSS qui :
 ```
 
 **Pourquoi c'est réutilisable :**
+
 - Fonctionne avec n'importe quel nombre de liens
 - S'adapte au contenu (logo peut être texte ou image)
 - Facile d'ajouter des boutons dans `navbar__actions`
