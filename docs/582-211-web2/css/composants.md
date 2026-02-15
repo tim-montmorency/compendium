@@ -1,6 +1,6 @@
 # Composants réutilisables
 
-## Qu'est-ce qu'un composant réutilisable?
+## 📲Qu'est-ce qu'un composant réutilisable?
 
 Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
@@ -13,9 +13,9 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## Pourquoi créer des composants réutilisables?
+## 📲Pourquoi créer des composants réutilisables?
 
-### ✅ Avantages
+### Avantages d'utiliser des composants réutilisables
 
 1. *Cohérence visuelle* - Même look partout sur le site
 2. *Productivité* - Codez une fois, utilisez partout
@@ -23,7 +23,9 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 4. *Scalabilité* - Facile d'ajouter de nouvelles sections
 5. *Travail d'équipe* - Tout le monde utilise les mêmes composants
 
-### ❌ Sans composants réutilisables
+### SANS composants réutilisables
+
+❌ 
 
 ```css
 /* Code dupliqué partout 😱 */
@@ -48,7 +50,9 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 **Problème :** Si vous voulez changer le `border-radius`, vous devez modifier 3 endroits !
 
-### ✅ Avec composants réutilisables
+### AVEC composants réutilisables
+
+✅ 
 
 ```css
 /* Une seule définition 🎉 */
@@ -65,7 +69,7 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## Les types de composants courants
+## 📲Les types de composants courants
 
 #### 1. Composants de navigation
 
@@ -95,7 +99,7 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## Principes de conception de composants
+## 📲Principes de conception de composants
 
 ### 1. Un composant = Une responsabilité
 
@@ -172,7 +176,7 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 ```
 
 
-## 3. Exemples de composants réutilisables avec Flexbox
+## 📲Exemples de composants réutilisables avec Flexbox
 
 ### Composant 1 : Barre de navigation (Navbar)
 
@@ -572,7 +576,7 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## Bonnes pratiques pour les composants réutilisables
+## 📲Bonnes pratiques pour les composants réutilisables
 
 ### 1. Nomenclature cohérente (BEM recommandé)
 
@@ -650,10 +654,9 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
  */
 .navbar { }
 ```
-
 ---
 
-## Résumé
+## 📲Résumé
 
 **Composants réutilisables :**
 
