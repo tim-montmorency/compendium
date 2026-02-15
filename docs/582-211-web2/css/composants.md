@@ -123,8 +123,6 @@ https://tailwindcss.com/plus/ui-blocks
 - Infobulles (tooltips)
 - Panier d'achat (cart)
 
-s
-
 
 ### 4. Composants de mise en page
 
