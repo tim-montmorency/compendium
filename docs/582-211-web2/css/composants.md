@@ -212,7 +212,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ### Composant 1 : Barre de navigation (Navbar)
 
-#### Structure HTML
+**Structure HTML**
 
 ```html
 <nav class="navbar">
@@ -233,7 +233,7 @@ https://tailwindcss.com/plus/ui-blocks
 </nav>
 ```
 
-#### CSS avec Flexbox
+**CSS avec Flexbox**
 
 ```css
 .navbar {
@@ -284,7 +284,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ### Composant 2 : Fil d'Ariane (Breadcrumb)
 
-#### Structure HTML
+**Structure HTML**
 
 ```html
 <nav class="breadcrumb" aria-label="Fil d'Ariane">
@@ -296,7 +296,7 @@ https://tailwindcss.com/plus/ui-blocks
 </nav>
 ```
 
-#### CSS avec Flexbox
+**CSS avec Flexbox**
 
 ```css
 .breadcrumb {
@@ -340,7 +340,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ### Composant 3 : Liste de médias (Media Object)
 
-#### Structure HTML
+**Structure HTML**
 
 ```html
 <div class="media">
@@ -354,7 +354,7 @@ https://tailwindcss.com/plus/ui-blocks
 </div>
 ```
 
-#### CSS avec Flexbox
+**CSS avec Flexbox**
 
 ```css
 .media {
@@ -409,7 +409,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ### Composant 4 : Section Hero
 
-#### Structure HTML
+**Structure HTML**
 
 ```html
 <section class="hero">
@@ -427,7 +427,7 @@ https://tailwindcss.com/plus/ui-blocks
 </section>
 ```
 
-#### CSS avec Flexbox
+**CSS avec Flexbox**
 
 ```css
 .hero {
