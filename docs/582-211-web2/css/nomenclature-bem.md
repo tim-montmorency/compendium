@@ -40,6 +40,10 @@ Donner du sens à vos noms de classes
 
 ## BEM—Block Element Modifier: La méthodologie la + populaire
 
+- *B*lock
+- *E*lement
+- *M*odifier
+
 **Structure**
 
 ```
@@ -51,14 +55,16 @@ Donner du sens à vos noms de classes
 **Exemple concret**
 
 ```
-/* Block: Le composant, par exemple: card */
+/* BLOCK: 
+Le composant, par exemple: card */
 .card { ... }
 
-/* Elements: Les parties du composant image, title... */
+/* ELEMENTS: 
+Les parties du composant image, title... */
 .card__image { ... }
 .card__title { ... }
 
-/* Modifiers : 
+/* MODIFIERS : 
 Des variations du composant card: featured, compact 
 ou des variation d'un élément tel que button: primary, secondary */
 .card--featured { ... }
@@ -123,7 +129,7 @@ ou des variation d'un élément tel que button: primary, secondary */
 
 > BEM n’est pas la seule approche
 
-### 1. SMACSS (Scalable and Modular Architecture for CSS)
+### SMACSS (Scalable and Modular Architecture for CSS)
 
 ```
 /* Layout */
@@ -139,7 +145,7 @@ ou des variation d'un élément tel que button: primary, secondary */
 ```
 
 
-### 2. OOCSS (Object-Oriented CSS)
+### OOCSS (Object-Oriented CSS)
 
 Séparer structure et skin :
 
@@ -154,7 +160,7 @@ Séparer structure et skin :
 
 
 
-### 3. Utility-first (style Tailwind ou Bootstrap)
+### Utility-first (style Tailwind ou Bootstrap)
 
 ```
 <div class="p-4 bg-white rounded shadow">
