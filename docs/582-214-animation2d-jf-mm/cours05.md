@@ -183,10 +183,3 @@ Précisions:
   **[Mise en page](exercice_ai/11_mise_page.md){.back}**<br>
   **[Typographie](exercice_ai/11_typographie.md){.back}**
 </div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercice_ai/pinceau/pinceau.png)
-
-  <small>Exercice - Illustrator</small><br>
-  **[Pinceau](./exercice_ai/pinceau/pinceau.md){.stretched-link .back}**
-</div>
