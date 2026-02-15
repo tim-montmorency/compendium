@@ -59,8 +59,30 @@ Révision des 2 exercices « dark académie » et « Galerie Genshin Impact »
 
 [📚 Contenu de cours *Composants réutilisables*](./css/composants.md){ .md-button .md-button--primary }
 
-### Exercice
+### Démonstration de composant
 
-[👩🏻‍💻 Exercice](./exercices/){ .md-button }
+<!-- https://claude.ai/chat/606f69fa-27d1-462a-8b3c-2a02cc493b4a -->
+
+- Démo 1 : Media Object - Composant réutilisable
+- Démo 2 : Input Group - Composant formulaire
+- Démo 3 : Pagination - Composant de navigation
+
+### Atelier pratique : Composants Flexbox
+
+Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 février).
+
+Consignes...
 
 ## BLOC 4 : Flexbox + contenu réel (~50 min)
+
+### Exposé/Démo
+
+- Comment Flexbox se comporte avec du vrai contenu (textes longs, images, contenu dynamique)
+- Problèmes courants et solutions (débordement de texte, images qui cassent le layout)
+- Démonstration : même composant avec différents contenus
+
+### Travail sur l'atelier de composant flexbox (suite)
+
+Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 février).
+
+Consignes...
