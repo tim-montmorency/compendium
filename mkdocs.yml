@@ -44,6 +44,7 @@ nav:
       - CSS:
         - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
+        - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
         - Flux HTML: 582-211-web2/css/flot-natif-html.md
         - Variab., unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
         - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
