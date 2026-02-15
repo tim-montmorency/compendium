@@ -210,7 +210,14 @@ https://tailwindcss.com/plus/ui-blocks
 
 ## 📟 Exemples de composants réutilisables avec Flexbox
 
-### Composant 1 : Barre de navigation (Navbar)
+### Barre de navigation (Navbar)
+
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="azZxPJR" data-pen-title="DEMO Composant: NavBar" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/tim-momo/pen/azZxPJR">
+DEMO Composant: NavBar</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 **Structure HTML**
 
@@ -282,7 +289,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ---
 
-### Composant 2 : Fil d'Ariane (Breadcrumb)
+### Fil d'Ariane (Breadcrumb)
 
 **Structure HTML**
 
@@ -338,7 +345,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ---
 
-### Composant 3 : Liste de médias (Media Object)
+### Liste de médias (Media Object)
 
 **Structure HTML**
 
@@ -407,7 +414,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ---
 
-### Composant 4 : Section Hero
+### Section Hero
 
 **Structure HTML**
 
