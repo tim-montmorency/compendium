@@ -686,7 +686,8 @@ https://tailwindcss.com/plus/ui-blocks
  */
 .navbar { }
 ```
----
+
+
 
 ## 📲Résumé
 
