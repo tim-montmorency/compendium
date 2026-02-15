@@ -50,7 +50,7 @@ Révision des 2 exercices « dark académie » et « Galerie Genshin Impact »
 
 ### Exercice
 
-[👩🏻‍💻 Exercice](./exercices/cours5-ui-jeu-video/index.md){ .md-button }
+[👩🏻‍💻 Exercice - Interface de jeu vidéo](./exercices/cours5-ui-jeu-video/index.md){ .md-button }
 
 
 ## BLOC3 : Order + Composants réutilisables (1h)

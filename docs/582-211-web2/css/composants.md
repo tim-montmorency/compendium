@@ -13,7 +13,7 @@ Un **composant réutilisable** est un bloc de code HTML + CSS qui :
 
 
 
-## Pourquoi créer des composants réutilisables ?
+## Pourquoi créer des composants réutilisables?
 
 ### ✅ Avantages
 
