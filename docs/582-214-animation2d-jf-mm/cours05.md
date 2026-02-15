@@ -1,11 +1,5 @@
 # Cours 5
 
-[STOP]
-
-!!! info "Plan de cours groupe Marie-Michelle : mis-à-jour"
-
-    [Plan de cours mis-à-jour](./assets/documents/582-214_Animation2D_H2025_MMO_v2neige2.pdf)
-
 ![](./assets/images/illustrator_banner.png)
 
 ## Exportation
@@ -204,36 +198,3 @@ Précisions:
   <small>Exercice - Illustrator</small><br>
   **[Speak White](./exercice_ai/speakwhite/speak-white.md){.stretched-link .back}**
 </div>
-
-## Devoir
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp0/tp0-preview.png)
-
-  <small>Devoir formatif groupe Jean-François - 25 février</small><br>
-  **[TP0](./exercices_ae/tp0/tp0.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
-
-  <small>TP1a Groupe Marie-Michelle - 13 mars</small><br>
-  **[TP1a](./exercices_ae/tp1a/tp1a.md){.stretched-link .back}**
-</div>
-
-[STOP]
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
-
-  <small>Devoir sommatif groupe Jean-François - 18 mars</small><br>
-  **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
-</div>
-
-
-
-
-## Partie 1 remise le 26-27 février (le jour de votre cours)
-[TP1 : Partie 1 illustrations (Illustrator)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercice_ai/travail1.html)
-## Partie 2 remise le 19-20 mars (le jour de votre cours)
-[TP1 : Partie 2 animations (After effects)](https://tim-montmorency.com/compendium/582-214-animation2d-jf-mm/exercices_ae/travail1.html)
