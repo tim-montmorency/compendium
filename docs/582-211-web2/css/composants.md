@@ -1,5 +1,12 @@
 # Composants réutilisables
 
+<!--
+https://www.landingfolio.com/library
+https://www.hyperui.dev/
+https://getbootstrap.com/docs/5.3/components/accordion/
+https://tailwindcss.com/plus/ui-blocks
+-->
+
 ## 📲Qu'est-ce qu'un composant réutilisable?
 
 Un *composant réutilisable* est un bloc de code HTML + CSS qui :
@@ -69,32 +76,57 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 
 
 
-## 📲Les types de composants courants
+## 📲Catégories de composants courantes et quelques exemples par type
 
-#### 1. Composants de navigation
+<!--
+https://www.landingfolio.com/library
+https://www.hyperui.dev/
+https://getbootstrap.com/docs/5.3/components/accordion/
+https://tailwindcss.com/plus/ui-blocks
+-->
+
+### 1. Composants de navigation
 
 - Barre de navigation (navbar)
-- Menu latéral (sidebar)
+- Menu déroulant (dropdown)
+- Barre latérale (sidebar)
 - Fil d'Ariane (breadcrumb)
 - Pagination
+- Menu de pied de page (footer)
 
 ### 2. Composants de contenu
 
 - Cartes (cards)
 - Listes de médias (media objects)
 - Sections hero
+- Article de blogue
+- Titre de section (si plus que juste un `<h2>`)
 - Grilles de galeries
+- Tableau de données
+- Bannière d'annonce (jumbotron)
+- Graphiques de statistiques (stat cards)
+- Carrousels (sliders)
+- Liste de logos (logo grid ou logo cloud)
+
 
 ### 3. Composants d'interface
 
 - Boutons
+- Case à cocher
 - Formulaires
-- Modales
+- Boîte de dialogue (modales)
 - Notifications/Alerts
+- Badges
+- Onglets
+- Accordéons
+- Barre de progression (progress bars)
+- Infobulles (tooltips)
+- Panier d'achat (cart)
 
 ### 4. Composants de mise en page
+
 - Conteneurs
-- Grilles de colonnes
+- Grilles de rangées et colonnes
 - Espacements (spacers)
 
 
