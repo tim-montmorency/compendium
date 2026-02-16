@@ -230,13 +230,13 @@ Choisissez **UN thème** pour créer une cohérence visuelle :
 
 **Pour CHAQUE composant :**
 
-1. HTML sémantique
-2. Flexbox pour la mise en page
+1. HTML sémantique (évitez les div inutiles, utilisez des balises appropriées)
+2. Flexbox pour la mise en page (pas de floats, position absolute, etc.)
 3. Variables CSS utilisées (pas de valeurs en dur)
 4. Code commenté
-5. Au moins 1 variante (si applicable)
+5. Au moins 1 variante d'une des composante (modifier)
 
-**Exemple de variante :**
+**Exemple de variante (ne pas utiliser que cet exemple) :**
 
     /* Composant de base */
     .btn { }
@@ -271,7 +271,7 @@ Ajoutez en haut de votre fichier HTML :
 
 
 
-## Critères d'évaluation (Formatif) : Rétroaction en classe:
+## Critères d'évaluation (formatif): Rétroaction en classe
 
 ### Flexbox
 
