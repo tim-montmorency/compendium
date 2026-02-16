@@ -5,6 +5,7 @@
 ## La préproduction
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
   * Terminer le préprod.
+    * Correction du storyboard
     * Approche de réalisation
     * Montage visuel
     * Montage sonore
