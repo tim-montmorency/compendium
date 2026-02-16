@@ -3,7 +3,9 @@
 Mini système de composants réutilisables une interface web de type portfolio, avec Flexbox et un thème visuel cohérent.
 
 > **Durée totale :** 2h à 3h (~45 min en classe + 2h en devoir)
+
 > **Remise :** Début du cours 6 (23 ou 25 février)
+
 > **Évaluation :** Formative (rétroaction en personne au cours 6)
 
 ## Objectif
@@ -19,7 +21,7 @@ Créer un mini-système de *3 composants réutilisables* avec Flexbox que vous p
 
 ## Fichier de départ
 
-[:material-download: Atelier composants portfolio | GitHub Classroom](https://classroom.github.com/a/0uopKp36)
+[:material-download: Atelier composants portfolio | GitHub Classroom](https://classroom.github.com/a/0uopKp36){ .md-button }
 
 ## Consignes
 
@@ -27,8 +29,7 @@ Créer un mini-système de *3 composants réutilisables* avec Flexbox que vous p
 
 Choisissez **UN composant de chaque catégorie**:
 
-
-??? example "Catégorie A - Interface de contenu (choisir 1)"
+??? abstract "Catégorie A - Interface de contenu (choisir 1)"
 
     **Option A1 : Carte de projet (Project Card)**
 
@@ -58,66 +59,61 @@ Choisissez **UN composant de chaque catégorie**:
     - Liste de points forts ou skills
     - Bouton de contact
 
+??? info "Catégorie B - Navigation/Interaction (choisir 1)"
 
+    **Option B1 : Footer multi-colonnes**
 
+    - Logo/nom à gauche
+    - 2-3 colonnes de liens (Liens, Réseaux, Contact)
+    - Copyright en bas
+    - Responsive (colonnes → stack mobile)
 
-#### Catégorie B - Navigation/Interaction (choisir 1)
+    **Option B2 : Header avec navigation**
 
-**Option B1 : Footer multi-colonnes**
+    - Logo à gauche
+    - Menu de navigation au centre ou droite
+    - Bouton CTA (Contact, CV)
+    - Doit s'adapter (mobile → stack ou hamburger visuel)
 
-- Logo/nom à gauche
-- 2-3 colonnes de liens (Liens, Réseaux, Contact)
-- Copyright en bas
-- Responsive (colonnes → stack mobile)
+    **Option B3 : Tabs/Onglets**
 
-**Option B2 : Header avec navigation**
+    - 3-4 onglets horizontaux
+    - Onglet actif visuellement distinct
+    - Contenu qui change selon l'onglet (vous pouvez simuler avec du texte)
 
-- Logo à gauche
-- Menu de navigation au centre ou droite
-- Bouton CTA (Contact, CV)
-- Doit s'adapter (mobile → stack ou hamburger visuel)
+    **Option B4 : Section de contact avec formulaire et info**
 
-**Option B3 : Tabs/Onglets**
+    - Formulaire à gauche (ou en haut sur mobile)
+    - Infos de contact à droite (email, téléphone, réseaux)
+    - Layout flexible
 
-- 3-4 onglets horizontaux
-- Onglet actif visuellement distinct
-- Contenu qui change selon l'onglet (vous pouvez simuler avec du texte)
+??? example "Catégorie C - Micro-composant (choisir 1)"
 
-**Option B4 : Section de contact avec formulaire et info**
+    **Option C1 : Système de badges/tags**
 
-- Formulaire à gauche (ou en haut sur mobile)
-- Infos de contact à droite (email, téléphone, réseaux)
-- Layout flexible
+    - Badge pour technologies (HTML, CSS, JS, React, etc.)
+    - Au moins 3 variantes de couleurs
+    - Tailles variables (sm, md, lg)
 
+    **Option C2 : Système de boutons**
 
+    - Bouton primary, secondary, outline
+    - Bouton avec icône (icône + texte alignés)
+    - États : normal, hover, disabled
 
-#### Catégorie C - Micro-composant (choisir 1)
+    **Option C3 : Card de statistique (Stat Card)**
 
-**Option C1 : Système de badges/tags**
+    - Gros chiffre/pourcentage
+    - Label en dessous
+    - Icône ou emoji
+    - Minimum 3 cartes alignées
 
-- Badge pour technologies (HTML, CSS, JS, React, etc.)
-- Au moins 3 variantes de couleurs
-- Tailles variables (sm, md, lg)
+    **Option C4 : Alert/Notification**
 
-**Option C2 : Système de boutons**
-
-- Bouton primary, secondary, outline
-- Bouton avec icône (icône + texte alignés)
-- États : normal, hover, disabled
-
-**Option C3 : Card de statistique (Stat Card)**
-
-- Gros chiffre/pourcentage
-- Label en dessous
-- Icône ou emoji
-- Minimum 3 cartes alignées
-
-**Option C4 : Alert/Notification**
-
-- Message de succès (vert)
-- Message d'erreur (rouge)
-- Message d'info (bleu)
-- Icône + texte + bouton fermer
+    - Message de succès (vert)
+    - Message d'erreur (rouge)
+    - Message d'info (bleu)
+    - Icône + texte + bouton fermer
 
 ---
 
@@ -238,6 +234,7 @@ Choisissez **UN thème** pour créer une cohérence visuelle :
 
 ```
 
+---
 
 ### Étape 4 : Coder vos 3 composants (1h30-2h)
 
@@ -247,6 +244,7 @@ Choisissez **UN thème** pour créer une cohérence visuelle :
     style.css (votre CSS)
 
 **Pour CHAQUE composant :**
+
 1. HTML sémantique
 2. Flexbox pour la mise en page
 3. Variables CSS utilisées (pas de valeurs en dur)
