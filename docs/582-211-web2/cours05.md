@@ -77,12 +77,15 @@ Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 fév
 - Comment Flexbox se comporte avec du vrai contenu (textes longs, images, contenu dynamique)
 - Problèmes courants et solutions (débordement de texte, images qui cassent le layout)
 
+---
 
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
 </div>
 
+
+---
 
 ### Travail sur l'atelier de composant flexbox (suite)
 
