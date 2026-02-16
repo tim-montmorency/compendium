@@ -35,6 +35,13 @@ Créer un mini-système de *3 composants réutilisables* avec Flexbox que vous p
 
 [:material-download: Atelier composants portfolio | GitHub Classroom](https://classroom.github.com/a/0uopKp36){ .md-button }
 
+
+## Exemples concrets de composants (pour vous donner des idées, pas pour copier)
+
+- [hyperui.dev](https://www.hyperui.dev/)
+- [getbootstrap.com](https://getbootstrap.com/docs/5.3/components/accordion/)
+- [tailwindcss.com](https://tailwindcss.com/plus/ui-blocks)
+
 ## Consignes
 
 ### Étape 1 : Choisir vos 3 composants (5-10 min)

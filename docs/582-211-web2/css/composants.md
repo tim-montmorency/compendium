@@ -19,6 +19,11 @@ Un *composant réutilisable* est un bloc de code HTML + CSS qui :
 **Pensez-y comme des LEGO :** Vous créez des pièces standardisées que vous pouvez assembler de différentes façons.
 
 
+## Exemples concrets de composants
+
+- [hyperui.dev](https://www.hyperui.dev/)
+- [getbootstrap.com](https://getbootstrap.com/docs/5.3/components/accordion/)
+- [tailwindcss.com](https://tailwindcss.com/plus/ui-blocks)
 
 ## 📟 Pourquoi créer des composants réutilisables?
 
