@@ -1,6 +1,12 @@
 # Exercice UI jeu vidéo
 
 
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
+</div>
+
+
 ## Flexbox: Interface de jeu vidéo
 
 Durée : *25 minutes*
@@ -108,6 +114,12 @@ flex: 1 1 0;
 /* Pour une taille de base avec capacité à grandir */
 flex: 1 1 [taille]px;
 ```
+
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
+</div>
+
 
 ## Remise
 

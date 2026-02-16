@@ -8,6 +8,13 @@ Mini système de composants réutilisables une interface web de type portfolio, 
 
 > **Évaluation :** Formative (rétroaction en personne au cours 6)
 
+
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
+</div>
+
+
 ## Objectif
 
 Créer un mini-système de *3 composants réutilisables* avec Flexbox que vous pourrez utiliser dans vos futurs projets (portfolio futur, projets dans les cours Web 3, Web 4, Web 5, Préparation au milieu du travail etc.)
@@ -359,6 +366,13 @@ R: Au moins 1 variante pour AU MOINS 1 composant. Exemples :
 - Bouton : primary/secondary
 - Card : large/small
 - Alert : success/error/info
+
+
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
+</div>
+
 
 
 
