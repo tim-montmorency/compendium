@@ -117,5 +117,11 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 !!! tip "Astuce de pro"
-    Des outils en ligne comme [Coolors](https://coolors.co),  [Tailwind Shades Generator](https://www.tints.dev/), [Bootstrap Colors](https://bootstrapcolors.com/) peuvent générer automatiquement ces variations pour vous à partir d'une couleur de base !
+    Des outils en ligne comme 
+
+    - [Coolors](https://coolors.co), 
+    - [Tailwind Shades Generator](https://www.tints.dev/), 
+    - [Bootstrap Colors](https://bootstrapcolors.com/) 
+    
+    peuvent générer automatiquement ces variations pour vous à partir d'une couleur de base !
 

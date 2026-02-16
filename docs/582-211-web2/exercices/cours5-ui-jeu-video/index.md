@@ -11,7 +11,7 @@ Vous devez créer l'interface principale d'un RPG en utilisant Flexbox. L'interf
 
 ## Aperçu du résultat
 
-...
+...à venir...
 
 
 ## Objectifs

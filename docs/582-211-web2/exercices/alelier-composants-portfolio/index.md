@@ -17,6 +17,10 @@ Créer un mini-système de *3 composants réutilisables* avec Flexbox que vous p
 - Exercice de cohérence visuelle 🎨
 - Code que vous garderez et réutiliserez (on ne travaille pas pour rien 😉)
 
+## Fichier de départ
+
+[:material-download: Atelier composants portfolio | GitHub Classroom](https://classroom.github.com/a/0uopKp36)
+
 ## Consignes
 
 ### Étape 1 : Choisir vos 3 composants (5-10 min)
@@ -55,7 +59,7 @@ Choisissez **UN composant de chaque catégorie**:
     - Bouton de contact
 
 
----
+
 
 #### Catégorie B - Navigation/Interaction (choisir 1)
 
@@ -85,7 +89,7 @@ Choisissez **UN composant de chaque catégorie**:
 - Infos de contact à droite (email, téléphone, réseaux)
 - Layout flexible
 
----
+
 
 #### Catégorie C - Micro-composant (choisir 1)
 
@@ -183,6 +187,12 @@ Choisissez **UN thème** pour créer une cohérence visuelle :
 
 **OBLIGATOIRE** : Créez vos design tokens AVANT de coder vos composants.
 
+!!! Note "Couleur"
+    Utilsez des coutils tels que [coolors.co](https://coolors.co), [colohunt.co](https://colorhunt.co/), [cssgradient.io](https://cssgradient.io), ou des [palettes de couleurs sur Figma](https://www.figma.com/color-palettes/) pour vous aider à choisir vos couleurs et que votre palette soit harmonieuse et cohérente avec votre thème.
+
+    Pour les nuances de vos couleurs telles que `primary` et `secondary` (si nécessaire), vous pouvez utiliser [Tailwind Shades Generator](https://www.tints.dev/) pour générer automatiquement les différentes nuances (50, 100, 200... 900) à partir de votre couleur de base.
+
+```css 
     :root {
       /* ===== COULEURS ===== */
       --color-primary: #...;
@@ -226,7 +236,8 @@ Choisissez **UN thème** pour créer une cohérence visuelle :
       --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
----
+```
+
 
 ### Étape 4 : Coder vos 3 composants (1h30-2h)
 
@@ -275,52 +286,51 @@ Ajoutez en haut de votre fichier HTML :
     - [Autres notes importantes]
     -->
 
----
 
-## ✅ Critères d'évaluation (Formatif)
 
-### Flexbox (40%)
+## Critères d'évaluation (Formatif) : Rétroaction en classe:
+
+### Flexbox
+
 - ✅ Les 3 composants utilisent Flexbox de manière appropriée
 - ✅ Propriétés flex pertinentes (justify-content, align-items, gap, etc.)
 - ✅ flex-grow/shrink/basis utilisés intelligemment
 - ✅ Responsive considéré (même si basique)
 
-### Cohérence visuelle (30%)
+### Cohérence visuelle
+
 - ✅ Même palette de couleurs entre les 3 composants
 - ✅ Espacements cohérents
 - ✅ Bordures/rayons cohérents
 - ✅ Le thème choisi est respecté
 
-### Variables CSS (15%)
+### Variables CSS
+
 - ✅ Système de design tokens créé
 - ✅ Pas de valeurs en dur (couleurs, espacements)
 - ✅ Variables bien nommées et organisées
 
-### Code (15%)
+### Code
+
 - ✅ HTML sémantique
 - ✅ CSS organisé et commenté
 - ✅ Nomenclature cohérente (BEM recommandé)
 - ✅ Au moins 1 variante par composant (si applicable)
 
----
 
-## 📤 Remise
-
-**Format :** Lien CodePen OU fichiers ZIP  
-**Soumission :** Teams, avant le début du cours 6  
-**Nom du fichier :** `nom-prenom_component-kit_582-211MO`
-
----
 
 ## 💡 Conseils
 
 **Commencez simple :**
+
 - Faites fonctionner le composant de base AVANT d'ajouter des variantes
 - Mobile-first : commencez par la version mobile, puis adaptez
 
 **Réutilisez vos variables :**
 
+```css
     /* ✅ Bon */
+    
     .card {
       padding: var(--space-md);
       border-radius: var(--radius-md);
@@ -333,28 +343,20 @@ Ajoutez en haut de votre fichier HTML :
       border-radius: 8px;
       background: #363a4a;
     }
+```
 
 **Testez avec du contenu réel :**
+
 - Textes de longueurs différentes
 - Avec et sans images
 - Plusieurs instances du composant
 
 **Inspirez-vous, mais ne copiez pas :**
+
 - Regardez des portfolios sur Dribbble, Behance, Awwwards
 - Adaptez les idées à VOTRE thème
 - Le code doit être le vôtre
 
----
-
-## 🎁 Bonus (facultatif, non évalué)
-
-**Si vous finissez en avance :**
-- Ajoutez des transitions/animations au hover
-- Créez un 4e composant
-- Rendez vos composants vraiment responsive (3 breakpoints)
-- Ajoutez des états interactifs (active, focus, disabled)
-
----
 
 ## ❓ Questions fréquentes
 
@@ -372,9 +374,23 @@ R: Oui, tant que vous respectez "1 de chaque catégorie".
 
 **Q: Combien de variantes minimum ?**  
 R: Au moins 1 variante pour AU MOINS 1 composant. Exemples :
+
 - Bouton : primary/secondary
 - Card : large/small
 - Alert : success/error/info
-```
 
-Voilà ! Tout est en markdown brut, y compris les blocs de code qui sont indentés de 4 espaces pour être correctement interprétés comme du code.
+
+
+## 📤  REMISE
+
+AVANT le cours 6 (23 ou 25 février). 
+
+Envoyez votre code complété sur [GitHub Classroom](https://classroom.github.com/a/0uopKp36) (que vous avez préalablement cloné avant d'ajouter tous vos fichiers et modifications) :
+
+Via VS Code dans l'onglet git:
+
+- Ajoutez tous fichiers et modifications [+] au commit
+- Nommez votre commit "Remise".
+- Faites ensuite un push.
+
+Assurez-vous que votre code est bien poussé sur GitHub Classroom avant le début du cours 6.
