@@ -78,14 +78,14 @@ Utilisez la propriété raccourcie `flex: ? ? ?`
 
 ## Critères de réussite
 
-### ✅ Votre interface est réussie si :
+### ✅ Votre interface est réussie si
 
 - L'inventaire reste toujours à 200px de large
 - Les stats restent toujours à 250px de large
 - La carte occupe tout l'espace restant
 - Quand vous réduisez la largeur de la fenêtre, seule la carte rétrécit
 
-### ❌ Problèmes courants à éviter :
+### ❌ Problèmes courants à éviter
 
 - L'inventaire ou les stats qui rétrécissent quand la fenêtre est petite
 - La carte qui garde une taille fixe au lieu de s'adapter

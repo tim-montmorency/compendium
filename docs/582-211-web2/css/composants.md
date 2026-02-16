@@ -442,7 +442,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Section Hero
 
-<p class="codepen" data-height="300" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="XJKQGOe" data-pen-title="DEMO composant - section hero" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="700" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="XJKQGOe" data-pen-title="DEMO composant - section hero" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XJKQGOe">
 DEMO composant - section hero</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
@@ -542,7 +542,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Composant 5 : Grille de prix (pricing cards)
 
-<p class="codepen" data-height="300" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="yyJrwrg" data-pen-title="DEMO composant - Pricing cards (grille de prix)" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="yyJrwrg" data-pen-title="DEMO composant - Pricing cards (grille de prix)" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/yyJrwrg">
 DEMO composant - Pricing cards (grille de prix)</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
