@@ -1,10 +1,11 @@
 # Cours 5
-[stop]
+
 
 
 ## La préproduction
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
-  * Terminer le préprod.
+  * Terminer la préproduction pour le 9 mars
+    * Correction du storyboard
     * Approche de réalisation
     * Montage visuel
     * Montage sonore
@@ -244,9 +245,11 @@
 
 ## Devoir
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
-  * Terminer le préprod.
+  * Terminer la préproduction pour le 9 mars
+    * Correction du storyboard
     * Approche de réalisation
     * Montage visuel
     * Montage sonore
     * Équipe de tournage
     * Horaire de tournage
+ * Se préparer l'examen du prochain cours
