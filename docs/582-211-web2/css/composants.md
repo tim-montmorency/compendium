@@ -218,7 +218,7 @@ DEMO Composant: NavBar</a> by TIM Montmorency (<a href="https://codepen.io/tim-m
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-
+<!---
 **Structure HTML**
 
 ```html
@@ -281,6 +281,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 }
 ```
 
+-->
+
 **Pourquoi c'est réutilisable :**
 
 - Fonctionne avec n'importe quel nombre de liens
@@ -296,6 +298,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 DEMO composant - Fil d'Ariane</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+<!---
 
 **Structure HTML**
 
@@ -343,6 +347,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 }
 ```
 
+-->
+
 **Pourquoi c'est réutilisable :**
 
 - Fonctionne avec n'importe quel nombre de niveaux
@@ -358,6 +364,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 DEMO composant - Liste de médias (Media Object)</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+<!--
 
 **Structure HTML**
 
@@ -431,6 +439,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   flex-direction: row-reverse;
 }
 ```
+-->
+
 
 **Pourquoi c'est réutilisable :**
 
@@ -447,6 +457,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 DEMO composant - section hero</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+<!--
 
 **Structure HTML**
 
@@ -531,6 +543,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   }
 }
 ```
+-->
 
 **Pourquoi c'est réutilisable :**
 
@@ -550,6 +563,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
+<!--
 #### Structure HTML
 
 ```html
@@ -567,8 +581,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
     </ul>
     <button class="price-card__btn btn">Choisir</button>
   </div>
-  
-  <!-- Répéter pour autres plans -->
+
 </div>
 ```
 
@@ -646,6 +659,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   transform: scale(1.05);
 }
 ```
+-->
 
 **Pourquoi c'est réutilisable :**
 
