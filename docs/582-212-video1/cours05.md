@@ -252,4 +252,4 @@
     * Montage sonore
     * Équipe de tournage
     * Horaire de tournage
- * Se préparer l'examen du prochain cours
+ * Se préparer pour l'examen du prochain cours
