@@ -59,26 +59,28 @@ https://tailwindcss.com/plus/ui-blocks
 
 <!-- https://claude.ai/chat/606f69fa-27d1-462a-8b3c-2a02cc493b4a -->
 
-- Démo 1 : Media Object - Composant réutilisable
-- Démo 2 : Input Group - Composant formulaire
-- Démo 3 : Pagination - Composant de navigation
+- Démo *Liste de médias* (Media Object) - Composant réutilisable <!-- https://tailwindcss.com/plus/ui-blocks/application-ui/forms/input-groups -->
+- Démo *groupe de champs* (Input Group) - Composant formulaire
+- Démo *pagination* - Composant de navigation
 
 ### Atelier pratique : Composants Flexbox
 
 Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 février).
 
-Consignes...
+[👩🏻‍💻 Atelier mini système de composants d'un portfolio](./exercices/alelier-composants-portfolio/index.md){ .md-button }
 
 ## BLOC 4 : Flexbox + contenu réel (~50 min)
 
 ### Exposé/Démo
 
+> Démonstration : même composant avec différents contenus (reprise des démo Media Object, Input Group et Pagination).
+
 - Comment Flexbox se comporte avec du vrai contenu (textes longs, images, contenu dynamique)
 - Problèmes courants et solutions (débordement de texte, images qui cassent le layout)
-- Démonstration : même composant avec différents contenus
+
 
 ### Travail sur l'atelier de composant flexbox (suite)
 
 Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 février).
 
-Consignes...
+[👩🏻‍💻 Atelier mini système de composants d'un portfolio](./exercices/alelier-composants-portfolio/index.md){ .md-button }
