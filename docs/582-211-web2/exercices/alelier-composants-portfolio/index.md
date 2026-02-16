@@ -121,61 +121,46 @@ Choisissez **UN composant de chaque catégorie**:
 
 Choisissez **UN thème** pour créer une cohérence visuelle :
 
-**Thème 1 : Jeu vidéo en mode sombre (dark mode gamer)**
-
-- Fond sombre (#1a1a2e, #16213e)
-- Accents néons (cyan, magenta, jaune)
-- Bordures et ombres prononcées
-
-**Thème 2 : Pastel doux**
-
-- Fond clair (#f8f9fa)
-- Couleurs pastel (rose pâle, bleu ciel, lavande)
-- Bordures subtiles, coins arrondis
-
-**Thème 3 : Néon cyberpunk**
-
-- Fond noir pur
-- Néons (rose électrique, cyan, violet)
-- Effets glow, ombres colorées
-
-**Thème 4 : Minimaliste monochrome**
-
-- Noir et blanc uniquement
-- 1 seule couleur d'accent (au choix)
-- Typographie forte, espaces généreux
-
-**Thème 5 : Nature/terreux**
-
-- Verts, bruns, beiges
-- Fond crème ou blanc cassé
-- Ombres douces, coins arrondis
-
-**Thème 6 : Brutaliste**
-
-- Fond blanc ou gris très clair
-- Noir pur pour le texte et bordures épaisses (2-3px)
-- Aucun dégradé, aucune ombre
-- Coins carrés (border-radius: 0)
-- Typographie monospace ou sans-serif très bold
-- Espacements généreux et asymétriques
-- Couleurs primaires brutes (rouge pur #FF0000, bleu pur #0000FF, jaune pur #FFFF00)
-
-**Thème 7 : Glassmorphisme**
-
-- Fond avec dégradé
-- Éléments semi-transparents (backdrop-filter: blur)
-- Bordures subtiles blanches
-
-**Thème 8 : Solar punk**
-
-- Fond beige chaud ou crème (#f5f0e8, #fef9f3)
-- Palette de verts variés (vert lime, vert sauge, vert forêt)
-- Accents dorés/cuivrés (#d4a574, #b8860b)
-- Touches de turquoise et orange brûlé
-- Ombres organiques et douces
-- Coins arrondis généreux
-- Effet de texture ou grain subtil
+- **Thème 1 : Jeu vidéo en mode sombre (dark mode gamer)**
+  - Fond sombre (#1a1a2e, #16213e)
+  - Accents néons (cyan, magenta, jaune)
+  - Bordures et ombres prononcées
+- **Thème 2 : Pastel doux**
+  - Fond clair (#f8f9fa)
+  - Couleurs pastel (rose pâle, bleu ciel, lavande)
+  - Bordures subtiles, coins arrondis
+- **Thème 3 : Néon cyberpunk**
+  - Fond noir pur
+  - Néons (rose électrique, cyan, violet)
+  - Effets glow, ombres colorées
+- **Thème 4 : Minimaliste monochrome**
+  - Noir et blanc uniquement
+  - 1 seule couleur d'accent (au choix)
+  - Typographie forte, espaces généreux
+- **Thème 5 : Nature/terreux**
+  - Verts, bruns, beiges
+  - Fond crème ou blanc cassé
+  - Ombres douces, coins arrondis
+- **Thème 6 : Brutaliste**
+  - Fond blanc ou gris très clair
+  - Noir pur pour le texte et bordures épaisses (2-3px)
+  - Aucun dégradé, aucune ombre
+  - Coins carrés (border-radius: 0)
+  - Typographie monospace ou sans-serif très bold
+  - Espacements généreux et asymétriques
+  - Couleurs primaires brutes (rouge pur #FF0000, bleu pur #0000FF, jaune pur #FFFF00)
+- **Thème 7 : Glassmorphisme**
+  - Fond avec dégradé
+  - Éléments semi-transparents (backdrop-filter: blur)
+  - Bordures subtiles blanches
+- **Thème 8 : Solar punk**
+  - Fond beige chaud ou crème (#f5f0e8, #fef9f3)
+  - Palette de verts variés (vert lime, vert sauge, vert forêt)
+  - Accents dorés/cuivrés (#d4a574, #b8860b)
+  - Touches de turquoise et orange brûlé
+  - Ombres organiques et douces
+  - Coins arrondis généreux
+  - Effet de texture ou grain subtil
 
 ---
 
