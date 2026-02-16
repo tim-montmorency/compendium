@@ -8,6 +8,7 @@ Mini système de composants réutilisables une interface web de type portfolio, 
 
 > **Évaluation :** Formative (rétroaction en personne au cours 6)
 
+---
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
@@ -367,6 +368,7 @@ R: Au moins 1 variante pour AU MOINS 1 composant. Exemples :
 - Card : large/small
 - Alert : success/error/info
 
+---
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
