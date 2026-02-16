@@ -59,21 +59,19 @@ Choisissez **UN composant de chaque catégorie**:
     - Liste de points forts ou skills
     - Bouton de contact
 
-??? info "Catégorie B - Navigation/Interaction (choisir 1)"
+??? question "Catégorie B - Navigation/Interaction (choisir 1)"
 
     **Option B1 : Footer multi-colonnes**
 
     - Logo/nom à gauche
     - 2-3 colonnes de liens (Liens, Réseaux, Contact)
     - Copyright en bas
-    - Responsive (colonnes → stack mobile)
 
     **Option B2 : Header avec navigation**
 
     - Logo à gauche
     - Menu de navigation au centre ou droite
     - Bouton CTA (Contact, CV)
-    - Doit s'adapter (mobile → stack ou hamburger visuel)
 
     **Option B3 : Tabs/Onglets**
 
@@ -83,7 +81,7 @@ Choisissez **UN composant de chaque catégorie**:
 
     **Option B4 : Section de contact avec formulaire et info**
 
-    - Formulaire à gauche (ou en haut sur mobile)
+    - Formulaire à gauche
     - Infos de contact à droite (email, téléphone, réseaux)
     - Layout flexible
 
@@ -307,7 +305,7 @@ Ajoutez en haut de votre fichier HTML :
 **Commencez simple :**
 
 - Faites fonctionner le composant de base AVANT d'ajouter des variantes
-- Mobile-first : commencez par la version mobile, puis adaptez
+- Ne cherchez pas à faire un composant parfait dès le début, vous pouvez itérer
 
 **Réutilisez vos variables :**
 
