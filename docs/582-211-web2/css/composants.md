@@ -712,7 +712,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   box-shadow: var(--card-shadow);
 }
 ```
-
+<!--
 ### 4. Pensez "mobile-first"
 
 ```css
@@ -728,8 +728,9 @@ on <a href="https://codepen.io">CodePen</a>.</span>
   }
 }
 ```
+-->
 
-### 5. Documentez vos composants
+### 4. Documentez vos composants
 
 ```css
 /**
@@ -771,5 +772,6 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 - Nomenclature cohérente (BEM)
 - Variables CSS pour la cohérence
-- Mobile-first
 - Documentation
+
+<!-- - Mobile-first -->
