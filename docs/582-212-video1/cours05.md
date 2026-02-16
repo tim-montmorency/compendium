@@ -252,4 +252,4 @@
     * Montage sonore
     * Équipe de tournage
     * Horaire de tournage
- * La préproduction](https://cmontmorency365-my.
+ * Se préparer l'examen du prochain cours
