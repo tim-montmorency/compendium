@@ -500,7 +500,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 }
 
 .hero__image {
-  flex: 0 0 500px;  /* Largeur fixe pour l'image */
+  flex: 1 1 500px;  /* Largeur flexible pour l'image (basis = 500px) */
 }
 
 .hero__image img {
