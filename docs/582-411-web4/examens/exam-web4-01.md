@@ -22,9 +22,9 @@ Le site doit avoir une partie entièrement dynamique, afin de pouvoir évoluer d
 
 *	Une page d’accueil
 *	Une page de contact
-*	Au moins une section de contenu dynamique liée au thème choisi
+*	Au moins une section de contenu dynamique liée au thème choisi (comme dans l'exercice des bagnoles)
 *	6 articles
-*	Une page d'archive avec tous les articles (comme un index)
+*	Une page d'archives avec tous les articles (comme un index)
  
 ### GESTION DU CONTENU (OBLIGATOIRE)
 La gestion du contenu doit respecter les contraintes suivantes :
