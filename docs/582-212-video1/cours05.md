@@ -1,5 +1,5 @@
 # Cours 5
-[stop]
+
 
 
 ## La préproduction
