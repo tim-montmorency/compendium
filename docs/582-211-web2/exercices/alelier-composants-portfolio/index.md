@@ -391,3 +391,18 @@ Via VS Code dans l'onglet git:
 - Faites ensuite un push.
 
 Assurez-vous que votre code est bien poussé sur GitHub Classroom avant le début du cours 6.
+
+
+
+## 📚 Notes de cours
+
+[📚 Contenu de cours sur les *composants réutilisables*](../../css/composants.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours sur la *nomenclature BEM*](../../css/nomenclature-bem.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours sur *Flexbox: display: flex, direction, justify-content, aligns-items, flex-wrap*](../../css/flexbox01.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours sur *Flexbox: flex, grow, shrink, basis*](../../css/flexbox02.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours sur *Flexbox: order*](../../css/flexbox-order.md){ .md-button .md-button--primary }
+

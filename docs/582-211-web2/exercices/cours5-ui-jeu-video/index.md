@@ -123,10 +123,12 @@ flex: 1 1 [taille]px;
 </div>
 
 
-## Remise
+## REMISE
 
 Soumettez le *lien de votre CodePen* complété via le *Devoir Teams* avant le prochain cours (cours 6).
 
 ## 📚 Notes de cours
+
+[📚 Contenu de cours sur *Flexbox: display: flex, direction, justify-content, aligns-items, flex-wrap*](../../css/flexbox01.md){ .md-button .md-button--primary }
 
 [📚 Contenu de cours sur *Flexbox: flex, grow, shrink, basis*](../../css/flexbox02.md){ .md-button .md-button--primary }
