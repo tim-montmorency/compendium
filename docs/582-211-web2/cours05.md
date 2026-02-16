@@ -18,9 +18,8 @@
   - Gestion de l'espace disponible et du débordement 
   - Ordre des éléments (order) 
   - Composants réutilisables : cartes, sections, navigations 
-  - Combinaisons Flexbox + contenu réel Lancement de l’atelier pratique sur les composants Flexbox
+  - Combinaisons Flexbox + contenu réel
 - Lancement de l’atelier pratique sur les composants Flexbox (formatif): Remise au cours 6 (23, 25 février)
-
 
 
 ## BLOC1 : Révision (30 min)
