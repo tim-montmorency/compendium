@@ -1,12 +1,6 @@
 # Atelier pratique: composant de portfolio
 
-Mini système de composants réutilisables une interface web de type portfolio, avec Flexbox et un thème visuel cohérent.
-
-> **Durée totale :** 2h à 3h (~45 min en classe + 2h en devoir)
-
-> **Remise :** Début du cours 6 (23 ou 25 février)
-
-> **Évaluation :** Formative (rétroaction en personne au cours 6)
+- [< retour au *cours 5*](../../cours05.md)
 
 ---
 
@@ -14,6 +8,16 @@ Mini système de composants réutilisables une interface web de type portfolio, 
   <img src="../../assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
 </div>
+
+---
+
+Mini système de composants réutilisables une interface web de type portfolio, avec Flexbox et un thème visuel cohérent.
+
+> **Durée totale :** 2h à 3h (~45 min en classe + 2h en devoir)
+
+> **Remise :** Début du cours 6 (23 ou 25 février)
+
+> **Évaluation :** Formative (rétroaction en personne au cours 6)
 
 
 ## Objectif
