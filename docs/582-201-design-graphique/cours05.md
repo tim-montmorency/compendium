@@ -4,9 +4,15 @@
 
 ## Retour sur le Devoir 1 (moyenne d'environ 85%)
 
-> « J'ai mis le texte plus gros pour que ça prenne plus de place. »
+<div class="grid grid-1-2" markdown>
+![](./assets/img/wtf.gif)
 
-![](./assets/img/wtf.gif){.w-100}
+<div markdown>
+> « J'ai mis le texte plus gros pour que ça prenne plus de place. »<br>
+> « J'ai mis du rouge parce que c'est plus beau »<br>
+> « J'ai changé le format pour que ce soit plus carré. »<br>
+</div>
+</div>
 
 Ce que j’essaie de comprendre ici, c’est l’intention de design derrière ce choix.
 
@@ -87,6 +93,7 @@ Nous allons essayer de séparer 3 thématiques.
 <div markdown>
 <strong>Wordmark (logotype)</strong><br>
 Le nom en typographie
+<br>[:material-pinterest:](https://ca.pinterest.com/mattganser/wordmark/)
 </div>
 </div>
 
@@ -96,6 +103,7 @@ Le nom en typographie
 <div markdown>
 <strong>Lettermark (monogramme / letterform)</strong><br>
 Une lettre ou des initiales stylisées
+<br>[:material-pinterest:](https://ca.pinterest.com/search/pins/?q=lettermark%20logo%20design)
 </div>
 </div>
 
@@ -105,6 +113,7 @@ Une lettre ou des initiales stylisées
 <div markdown>
 <strong>Logos abstrait</strong><br>
 Pour les marques recherchant un style moderne et unique.
+<br>[:material-pinterest:](https://ca.pinterest.com/search/pins/?q=abstract%20logo%20design)
 </div>
 </div>
 
@@ -123,6 +132,7 @@ Les logos combinés intègrent texte et symboles
 <div markdown>
 <strong>Emblème</strong><br>
 Texte enfermé dans une forme. Souvent moins flexible et plus traditionnel.
+<br>[:material-pinterest:](https://ca.pinterest.com/rickyfullen/emblem-logos/)
 </div>
 </div>
 
@@ -132,6 +142,7 @@ Texte enfermé dans une forme. Souvent moins flexible et plus traditionnel.
 <div markdown>
 <strong>Logo mascotte</strong><br>
 Un personnage qui incarne l’identité de la marque, souvent pour créer une image sympathique et accessible.
+<br>[:material-pinterest:](https://ca.pinterest.com/ideas/mascot-logo-design/905305804973/)
 </div>
 </div>
 
@@ -191,7 +202,7 @@ Si possible, demandez l'avis d'une ou plusieurs tierces personnes.
 
 #### Espaces négatifs
 
-À cette étape, vous pouvez également réfléchir à l'usage d'espace négatifs 
+À cette étape, vous pouvez également réfléchir à l'usage d'espaces négatifs 
 
 ![](./assets/img/FedEx-logo-1.webp){.w-25 data-zoom-image}
 ![](./assets/img/negative-logo.png){.w-25 data-zoom-image}
@@ -257,7 +268,7 @@ Pringles a voulu rendre son logo plus flexible pour se diversifier.
 
 ![](./assets/img/Pringles-Logo-history-1.png){data-zoom-image .w-100}
 
-On peut supposer que le texte, plus neutre, laisse désormais plus de place à la sous marque 
+On peut supposer que le texte, plus neutre, laisse désormais plus de place à la sous-marque 
 
 ![](./assets/img/mingles.png){data-zoom-image .w-50}
 
