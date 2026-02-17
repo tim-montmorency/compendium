@@ -42,6 +42,27 @@ Créer un mini-système de *3 composants réutilisables* avec Flexbox que vous p
 - [getbootstrap.com](https://getbootstrap.com/docs/5.3/components/accordion/)
 - [tailwindcss.com](https://tailwindcss.com/plus/ui-blocks)
 
+## Exemples de portfolios d'étudiants finissants TIM (pour vous inspirer, pas pour copier)
+
+Vous pouvez donc voir certains composants en action, ils ne sont pas tous là mais ça donne une idée de ce que vous pouvez faire...
+
+- [💼 Portfolio de Ryan Dufault](https://ryandufault.github.io/portfolio-ryan-dufault/)
+- [💼 Portfolio de Thearylou Lach](https://thearyl.github.io/portfolio-thearylou-lach/)
+- [💼 Portfolio d'Anton Nikulin](https://antoha2033.github.io/portfolio-Anton-Nikulin/)
+- [💼 Portfolio de Jad Saloumi](https://jad2087.github.io/portfolio-jad-saloumi/)
+- [💼 Portfolio de William Beauvais](https://williambeauvais.github.io/portfolio-william-beauvais/)
+- [💼 Portfolio de Patricia Nassif](https://patricia642.github.io/patricia-nassif/)
+.
+- [💼 Portfolio de Audrey Dandurand](https://audreydandurand.github.io/index.html)
+- [💼 Portfolio de Justine Rousseau](https://justinersu.github.io/)
+- [💼 Portfolio de Joshua Gonzalez-Barrera](https://jxshvfx.github.io/joshuagonzalez.github.io/)
+- [💼 Portfolio de Kenza El Harrif](https://kenzaelharrif.github.io/KenzaElHarrif_portfolio/index.html)  
+- [💼 Portfolio de Delphine Grenier](https://delphineg-projets.github.io/portfolio)  
+- [💼 Portfolio de Ihab Mouhajer](https://ihabmjr.github.io/)
+- [💼 Portfolio de Daniel Sébastien Dezemma](https://dezemma.com/)  
+- [💼 Portfolio de Sitmonternna Yi](https://sitmonternna.github.io/artist_portfolio/)
+
+
 ## Consignes
 
 ### Étape 1 : Choisir vos 3 composants (5-10 min)
