@@ -1,10 +1,11 @@
 # Cours 5
-[stop]
+
 
 
 ## La préproduction
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
-  * Terminer le préprod.
+  * Terminer la préproduction pour le 9 mars
+    * Correction du storyboard
     * Approche de réalisation
     * Montage visuel
     * Montage sonore
@@ -201,7 +202,7 @@
 - Visionnez l’effet dans la fenêtre de lecture.
 - Affinez les paramètres de taille, position ou espacement du texte dans **Inspector**, si nécessaire.
 
-</details>
+
 ### Notions: effets visuels - stop motion
 
 * [▶️ Importation d'images séquentielles et création d'un plan composé](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ebkx6sG8CaZDswQ0yndtcEUByUX3qxURFj3Kam-1Ei1kIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5vsvAu)
@@ -244,9 +245,11 @@
 
 ## Devoir
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
-  * Terminer le préprod.
+  * Terminer la préproduction pour le 9 mars
+    * Correction du storyboard
     * Approche de réalisation
     * Montage visuel
     * Montage sonore
     * Équipe de tournage
     * Horaire de tournage
+ * Se préparer pour l'examen du prochain cours

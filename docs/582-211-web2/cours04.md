@@ -28,8 +28,7 @@ CSS fluide et système de design (jetons et variables)
     · Direction du flux (row, column) 
     · Alignements (justify-content, align-items, align-self) 
     · Espacement (gap)
-
-    · Gestion multilignes (flex-wrap)  (bouger au cours 5)
+    · Gestion multilignes (flex-wrap)
 
   
 

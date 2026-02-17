@@ -15,14 +15,16 @@
 
 ### CONTEXTE
 Dans le cadre de cet examen, vous devez concevoir et réaliser un site web bilingue (français / anglais) sur un thème de votre choix.
-Le site doit être conçu de manière entièrement dynamique, afin de pouvoir évoluer dans le temps sans nécessiter de reconstruction complète.
+Le site doit avoir une partie entièrement dynamique, afin de pouvoir évoluer dans le temps sans nécessiter de reconstruction complète.
  
 ### PAGES OBLIGATOIRES
 **Le site doit obligatoirement comprendre :**
 
 *	Une page d’accueil
 *	Une page de contact
-*	Au moins une section de contenu dynamique liée au thème choisi
+*	Au moins une section de contenu dynamique liée au thème choisi (comme dans l'exercice des bagnoles)
+*	6 articles
+*	Une page d'archives avec tous les articles (comme un index)
  
 ### GESTION DU CONTENU (OBLIGATOIRE)
 La gestion du contenu doit respecter les contraintes suivantes :
@@ -37,10 +39,6 @@ La gestion du contenu doit respecter les contraintes suivantes :
 *	Query Loop
 *	Advanced Views Lite
 
-!!! warning "Avertissement"
-
-    ⚠️ Aucun texte ou contenu ne doit être écrit directement dans les pages.
-    Tout contenu en dur est strictement interdit.
  
 ### CHOIX DU THÈME
 Vous devez choisir un seul des thèmes suivants :
@@ -66,11 +64,6 @@ Le site présente des biens immobiliers (maisons, condos ou appartements).
 *	Superficie
 *	Quartier
 *	Type de transaction (vente ou location)
-
-**Le site doit inclure :**
-
-*	Une page listant toutes les propriétés
-*	Une page de détail pour chaque bien
 
 ---
 
@@ -99,11 +92,6 @@ Le site présente une collection de jeux vidéo.
 *	Année de sortie
 *	Mode multijoueur (oui / non)
 
-**Le site doit proposer :**
-
-*	Une vue en liste
-*	Une page de détail pour chaque jeu
-
 ---
 
 #### Option 5 — Site de critiques (films, séries ou livres)
@@ -129,22 +117,7 @@ Le site présente un catalogue d’albums ou d’artistes.
 *	Année
 *	Durée
 *	Label
-
-**Le site doit inclure :**
-
-*	Une page de liste
-*	Une page de détail
- 
-### CONTRAINTES OBLIGATOIRES
-Les règles suivantes doivent être respectées :
-
-*	Tout le contenu doit être dynamique
-*	Aucun contenu ne doit être écrit en dur dans les pages
-*	Le design et le contenu doivent être clairement séparés
-*	Les modèles (templates) doivent être réutilisables
-
 ---
-
 
 
 ## PARTIE 1 — Architecture du site & modèles 
@@ -152,18 +125,6 @@ Les règles suivantes doivent être respectées :
 ### Tâches obligatoires
 
 1.	Installer un thème basé sur les blocs
-2.	Créer/modifier au moins 3 modèles :
-   
-*	Article
-*	Page
-*	Catégorie ou archive
-
-**Modifier le header et le footer au niveau global**
-
-### Exigences
-*	Utilisation réelle des modèles
-*	Hiérarchie visuelle claire
-*	Différence intentionnelle entre page et article
 
 
 
@@ -175,21 +136,12 @@ Les règles suivantes doivent être respectées :
    
 *	Image mise en avant
 *	Extrait personnalisé
-*	Métadonnées visibles (auteur, date ou catégorie)
-  
-**Le modèle d’article doit afficher ces données dynamiquement**
-
-### Critères
-*	Compréhension du principe un contenu → plusieurs affichages
-*	Aucun contenu « en dur » dans les modèles
-
 
 ## PARTIE 3 — Custom Post Type + ACF (Contenu structuré avancé) 
 ### Tâches obligatoires
 
 #### 1️⃣ Création du Custom Post Type
 *	Créer un post-type
-*	Exigences : visible dans l’administration, public, archive activée
 
 #### 2️⃣ Champs personnalisés avec ACF
 **Minimum 5 champs, par exemple :**
@@ -236,9 +188,6 @@ Les règles suivantes doivent être respectées :
    
 *	Query Loop affichant le contenu dans la bonne langue
 *	Navigation cohérente par langue
-### Critères
-*	Aucune page orpheline
-*	Aucune confusion dans les listes dynamiques
 
 
 
@@ -250,8 +199,6 @@ Les règles suivantes doivent être respectées :
 *	Blocs dynamiques
 *	Structure réutilisable
 
-**Réutiliser cette composition au moins deux fois**
-**Vérifier que la composition s’adapte automatiquement au contenu**
 
 ## Remise
 
