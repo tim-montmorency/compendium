@@ -176,7 +176,7 @@ Il y a aussi le tétradique et le carré, mais c'est trop difficile à maîtrise
 
 !!! info "Outils d'harmonie chromatique"
 
-    - <https://coolors.co/generate/>
+    - <https://coolors.co/generate>
     - <https://color.adobe.com/fr/create/color-wheel/>
     - <https://paletton.com/>
 
