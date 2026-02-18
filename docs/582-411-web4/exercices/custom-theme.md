@@ -1,4 +1,4 @@
-![](./assets/images/custom-theme.jpg){data-zoom-image}
+![](../assets/images/custom-theme.jpg){data-zoom-image}
 
 ## EXERCICE — Création d’un thème FSE personnalisé
 
