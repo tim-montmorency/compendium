@@ -1,4 +1,3 @@
-[STOP]
 ## Thème FSE personnalisé
 
 ![](./assets/images/wordpress-fse-companion-piece-featured.webp)
