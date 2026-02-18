@@ -1,7 +1,5 @@
 # Cours 6
 
-[STOP]
-
 ## De Illustrator à After Effects
 
 ### Préparation des calques Illustrator en vue d'importation dans After Effects
@@ -227,36 +225,10 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/text-contrast.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[Contrast](./exercices_ae/09_modes_couleur.md){.stretched-link .back}**
-</div>
-
-
-<div class="grid grid-1-2" markdown>
   ![](./exercices_ae/oscar/Oscar-Wilde-02.webp)
 
   <small>Exercice - Illustrator & After Effects</small><br>
   **[Oscar Wilde fait du yoga](./exercices_ae/oscar/oscar.md){.stretched-link .back}**
 </div>
 
-## Devoir
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
-
-  <small>Devoir sommatif groupes Jean-François - 18 mars</small><br>
-  **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
-
-  <small>Devoir sommatif (15%) groupe Marie-Michelle - 27 mars</small><br>
-  **[TP1 b](./exercices_ae/tp1/tp1b.md){.stretched-link .back}**
-</div>
-
-[STOP]
-
-https://www.vecteezy.com/vector-art/102486-free-swiss-knife-vector
