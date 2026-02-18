@@ -1,5 +1,7 @@
 # Cours 6
 
+[STOP]
+
 ## De Illustrator à After Effects
 
 Dans Illustrator<br>
