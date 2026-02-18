@@ -1,3 +1,71 @@
+## Traduction plus simple
+![](./assets/images/gtranslate.png)
+
+### C’est quoi GTranslate ?
+
+* Une extension WordPress
+* Permet de traduire automatiquement ton site
+* Fonctionne avec Google Translate
+* Version gratuite = traduction automatique
+* Version payante = SEO multilingue + URL traduites
+
+### Installation
+* Dans WordPress → **Extensions > Ajouter**
+* Cherche : **GTranslate**
+* Clique sur **Installer**
+* Clique sur **Activer**
+
+### Configuration de base
+1. Va dans Réglages > GTranslate
+2. Choisis :
+  * 🌐 Langue par défaut du site
+  * 🌎 Langues à afficher
+3. Choisis le style du sélecteur :
+  * Drapeaux
+  * Liste déroulante
+  * Texte
+4. Enregistre
+
+### Afficher le sélecteur de langue
+**Avec un bloc (thème bloc / FSE)**
+
+* Ajoute un bloc **Shortcode**
+* Mets :
+
+``` 
+  [gtranslate]
+```
+
+### Comment ça fonctionne ?
+
+* Le visiteur clique sur une langue
+* Le contenu est traduit automatiquement
+* Aucun contenu n’est dupliqué
+* Aucune traduction manuelle nécessaire (version gratuite)
+
+#### Limites version gratuite
+
+* URL non traduites
+* SEO multilingue limité
+* Traduction parfois approximative
+* Pas de gestion fine du contenu
+
+#### Version Pro (optionnelle)
+**Permet :**
+
+* URLs traduites (ex: /contact → /contact-us)
+* Indexation Google par langue
+* Traduction améliorée
+* Édition manuelle des traductions
+
+
+## Résumé
+| Tu veux…  | Solution   |
+| ----------- | ----------- |
+| Traduction automatique rapide   | GTranslate   |
+| Contrôle total et structure propre  | Polylang   |
+
+
 ## Thème FSE personnalisé
 
 ![](./assets/images/wordpress-fse-companion-piece-featured.webp)
