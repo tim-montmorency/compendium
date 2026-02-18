@@ -1165,6 +1165,7 @@ Pour les input de type radio, checkbox et select vous deviez utiliser `isset()` 
 
 Pour les input de type file, c'est pour le moins plus difficile à sécuriser. Nous pourrons l'aborder dans une autre épisode de "On aura pas le temps de regarder cela cette session" !
 
+![](./assets/images/astra.webp)
 
 ## Astra – C’est quoi ?
 
