@@ -1,3 +1,5 @@
+![](./assets/images/custom-theme.jpg){data-zoom-image}
+
 ## EXERCICE — Création d’un thème FSE personnalisé
 
 **À partir de la structure officielle minimale**
