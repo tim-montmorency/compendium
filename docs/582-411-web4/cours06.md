@@ -308,17 +308,17 @@ function tim_momo_editor_styles() {
 add_action( 'after_setup_theme', 'tim_momo_editor_styles' );
 ```
 
-## Devoir
+## Exercice
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/daftpunk.gif)
+  ![](./assets/images/custom-theme.jpg)
 
-  <small>Devoir - Wordpress</small><br>
-  **[One more time](./devoirs/wp-custom-theme.md){.stretched-link .back}**
+  <small>Exercice - Thème personnalisé</small><br>
+  **[Thème perso](./exercices/custom-theme.md){.stretched-link .back}**
 </div>
 
 
-## Sous-thème FSE
+## Thème enfant FSE (Child theme)
 
 Lorsqu’on souhaite développer un site à partir d’un thème FSE existant, il n’est **pas recommandé de modifier directement le thème original**.
 
