@@ -2,16 +2,16 @@
 
 ## De Illustrator à After Effects
 
-Dans Illustrator
-1 - Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) 
-2- "Décomposer en calques" Si tout est sur un seul calque, sélectionnez ce calque, ouvrez le menu du panneau Calques (icône menu en haut à droite) et choisissez Décomposer en calques (séquence).
-3- Extraire les sous-calques : Après la décomposition, les éléments restent des "sous-calques". Vous devez impérativement les glisser-déposer en dehors du calque parent pour qu'ils deviennent des calques principaux.
-4- Nommer vos calques. [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay)
+Dans Illustrator<br>
+1 - Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) <br>
+2- "Décomposer en calques" Si tout est sur un seul calque, sélectionnez ce calque, ouvrez le menu du panneau Calques (icône menu en haut à droite) et choisissez Décomposer en calques (séquence).<br>
+3- Extraire les sous-calques : Après la décomposition, les éléments restent des "sous-calques". Vous devez impérativement les glisser-déposer en dehors du calque parent pour qu'ils deviennent des calques principaux.<br>
+4- Nommer vos calques. [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay) <br><br>
 
-Dans After Effects
-5- Importer le fichier par Fichier > Importer > Fichier (ctrl+i), ou glicer le fichier.
-6- Dans le menu "Importer sous", choisissez Composition - Conserver les tailles de calque.
-
+Dans After Effects<br>
+5- Importer le fichier par Fichier > Importer > Fichier (ctrl+i), ou glicer le fichier.<br>
+6- Dans le menu "Importer sous", choisissez Composition - Conserver les tailles de calque.<br>
+<br>
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/giant-swiss-knife.jpg)
 
