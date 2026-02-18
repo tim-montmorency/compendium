@@ -1113,10 +1113,9 @@ switch ($choix_matiere) {
   ![](./assets/images/flamant-rose.jpg)
 
   <small>Exercice - PHP</small><br>
-  **[Copenhague](./exercices/php-flamant-rose.md){.stretched-link .back}**
+  **[Copenhague](./exercices/copenhague.md){.stretched-link .back}**
 </div>
 
-[STOP]
 
 Pour afficher du texte dans la "console", on peut utiliser la fonction `console.log`.
 
