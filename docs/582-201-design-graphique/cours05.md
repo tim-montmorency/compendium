@@ -308,3 +308,7 @@ Demande : Fait un logo pour la TIM
   <small>Devoir - Figma</small><br>
   **[Logo](./activite/devoir/logo/index.md){.stretched-link .back}**
 </div>
+
+[STOP]
+
+Todo : Retirer l'exercice dasn le plan de cours.

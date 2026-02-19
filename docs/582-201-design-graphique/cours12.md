@@ -2,12 +2,7 @@
 
 [STOP]
 
-Itération et rétroactions
-critique structurée, QA design, correction priorisée, amélioration.
-
-Test A/B : Faire tester par la communauté (la classe).
-
-Exercice en classe d'évaluation par les pairs.
+Prototype dans Figma (à partir des maquettes remises) + débrief [Remise : Wireframe / Maquette]
 
 <!-- Itération & rétroactions (remise maquette)
 
