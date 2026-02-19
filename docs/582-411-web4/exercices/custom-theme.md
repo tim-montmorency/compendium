@@ -57,79 +57,117 @@ Version: 1.0
 
 ### PARTIE 3 — Fichier theme.json
 
-**Créer un theme.json fonctionnel incluant :**
 
-* $schema
-* settings
-* layout
-* typography
-* templateParts
-
-Exigences minimales :
-
-* contentSize = 620px
-* wideSize = 1000px
-* 1 font family personnalisée
-* déclaration des templateParts (header et footer)
+```json title="Exemple de theme.json"
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": {
+      "contentSize": "620px",
+      "wideSize": "1000px"
+    },
+    "spacing": {
+      "units": ["%", "px", "em", "rem", "vh", "vw"]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+          "name": "System Font",
+          "slug": "system-font"
+        }
+      ]
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header"
+    },
+    {
+      "area": "footer",
+      "name": "footer"
+    }
+  ],
+  "version": 3
+}
+```
 
 ### PARTIE 4 — Template Parts 
 #### header.html
 
-**Doit contenir :**
 
-* Logo du site
-* Titre du site
-* Navigation
-* Spacer
+```html
+<!-- wp:group {"layout":{"inherit":"true"}} -->
+<div class="wp-block-group">
+	<!-- wp:group {"align":"full","layout":{"type":"flex","justifyContent":"space-between"},"style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:30px;padding-top:30px">
 
-**Utiliser les commentaires :**
+		<!-- wp:group {"layout":{"type":"flex"}} -->
+		<div class="wp-block-group">
+			<!-- wp:site-logo {"width":64} /-->
 
-```
-<!-- wp:site-logo /-->
-<!-- wp:site-title /-->
-<!-- wp:navigation /-->
+			<!-- wp:group -->
+			<div class="wp-block-group">
+				<!-- wp:site-title /-->
+				<!-- wp:site-tagline /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"}}}} /-->
+
+	</div>
+	<!-- /wp:group -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":50} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 ```
 
 #### footer.html
 
-**Doit contenir :**
-
-* Un paragraphe
-* Le texte :
+```html
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a></p>
+<!-- /wp:paragraph -->
 ```
-© Année – Nom du site
-```
-
-* Utiliser un bloc paragraph
 
 ### PARTIE 5 — Modèles
 #### index.html (obligatoire)
 
 **Doit contenir :**
 
-```
+```html
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
-```
-
-**Puis :**
-
-* Un bloc Query Loop affichant :
-
-  * Image mise en avant
-  * Titre
-  * Extrait
-
-**Puis :**
-
-```
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
 ```
 
 #### single.html
 
-**Doit contenir :**
+```html
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-* Header
-* Titre dynamique (post-title)
-* Contenu dynamique (post-content)
-* Footer
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+
+    <!-- wp:post-featured-image /-->
+
+    <!-- wp:post-title {"level":1} /-->
+
+    <!-- wp:post-date /-->
+    <!-- wp:post-author /-->
+
+    <!-- wp:post-content /-->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+```
