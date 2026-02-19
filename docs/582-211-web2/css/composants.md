@@ -217,7 +217,7 @@ https://tailwindcss.com/plus/ui-blocks
 
 ### Barre de navigation (Navbar)
 
-<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="azZxPJR" data-pen-title="DEMO Composant: NavBar" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="result" data-slug-hash="azZxPJR" data-pen-title="DEMO Composant: NavBar" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/azZxPJR">
 DEMO Composant: NavBar</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
@@ -298,7 +298,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Fil d'Ariane (Breadcrumb)
 
-<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="vEKMvRE" data-pen-title="DEMO composant - Fil d'Ariane" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="result" data-slug-hash="vEKMvRE" data-pen-title="DEMO composant - Fil d'Ariane" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/vEKMvRE">
 DEMO composant - Fil d'Ariane</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
@@ -364,7 +364,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Liste de médias (Media Object)
 
-<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="JoKVwaq" data-pen-title="DEMO composant - Liste de médias (Media Object)" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="result" data-slug-hash="JoKVwaq" data-pen-title="DEMO composant - Liste de médias (Media Object)" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JoKVwaq">
 DEMO composant - Liste de médias (Media Object)</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
@@ -457,7 +457,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Section Hero
 
-<p class="codepen" data-height="700" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="XJKQGOe" data-pen-title="DEMO composant - section hero" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="700" data-theme-id="43847" data-default-tab="result" data-slug-hash="XJKQGOe" data-pen-title="DEMO composant - section hero" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XJKQGOe">
 DEMO composant - section hero</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
@@ -560,7 +560,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Composant 5 : Grille de prix (pricing cards)
 
-<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="html,result" data-slug-hash="yyJrwrg" data-pen-title="DEMO composant - Pricing cards (grille de prix)" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="43847" data-default-tab="result" data-slug-hash="yyJrwrg" data-pen-title="DEMO composant - Pricing cards (grille de prix)" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/yyJrwrg">
 DEMO composant - Pricing cards (grille de prix)</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
