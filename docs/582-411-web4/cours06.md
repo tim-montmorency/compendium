@@ -396,10 +396,6 @@ Pour afficher du texte dans la page HTML, on utilise la fonction `echo`.
     document.write("Bonjour monsieur PHP !");
     ```
 
-!!! example "Go on essaye !"
-
-    Affichons notre fameux et tout premier "Hello world" en PHP !
-
 ## Commentaires
 
 === "PHP"
@@ -1172,7 +1168,7 @@ print_r($data);   // Affiche uniquement la structure
 
 Pour les input de type radio, checkbox et select vous deviez utiliser `isset()` et `in_array()` pour vérifier que la valeur est permise.
 
-Pour les input de type file, c'est pour le moins plus difficile à sécuriser. Nous pourrons l'aborder dans une autre épisode de "On aura pas le temps de regarder cela cette session" !
+
 
 ![](./assets/images/astra.webp)
 
