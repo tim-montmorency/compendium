@@ -233,6 +233,15 @@ L'option `tagName` est la balise html utilisée autour du contenu du template pa
 <!-- /wp:spacer -->
 ```
 
+#### Exemple de template footer.html
+
+```html
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a></p>
+<!-- /wp:paragraph -->
+```
+
+
 ### Modèles
 
 Le dossier `templates` contient les modèles de page.
