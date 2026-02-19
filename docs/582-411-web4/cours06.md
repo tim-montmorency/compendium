@@ -1254,27 +1254,4 @@ Astra est :
 
 
 
-#### version
-
-La version du schéma JSON utilisé.
-À partir de WP 6.1+, c’est souvent version: 2 ou 3.
-Tu peux l’ignorer en général, WordPress se débrouille selon sa version.
-
-Template (area) : https://www.w3schools.com/html/html5_semantic_elements.asp
-
-## Références
-
-https://webdevstudios.com/2022/07/05/create-fse-theme/
-https://elpuas.com/blog/let-s-create-an-fse-theme/
-https://www.wpzoom.com/blog/how-to-create-wordpress-theme/
-
-https://github.com/carolinan/fullsiteediting/tree/course/Starter%20themes
-https://fullsiteediting.com/
-https://fullsiteediting.com/block-theme-generator/
-
-https://wordpress.org/plugins/create-block-theme/
-
-https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/
-https://developer.wordpress.org/block-editor/reference-guides/core-blocks/
-
 
