@@ -265,12 +265,12 @@ Advanced Views Lite :
 *	❌ n’interagit pas avec l’utilisateur
 
 
- ## Exercice : Queryloop
+## Exercice : Les Bagnoles
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/ql.png)
+  ![](./assets/images/Bagnole-contenu.png)
 
-  <small>Exercice - Queryloop</small><br>
+  <small>Exercice - Les Bagnoles</small><br>
   **[Queryloop](./exercices/bagnole.md){.stretched-link .back}**
 </div>
 

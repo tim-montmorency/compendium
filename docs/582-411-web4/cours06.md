@@ -1,4 +1,71 @@
-[STOP]
+## Traduction plus simple
+![](./assets/images/gtranslate.png)
+
+### C’est quoi GTranslate ?
+
+* Une extension WordPress
+* Permet de traduire automatiquement ton site
+* Fonctionne avec Google Translate
+* Version gratuite = traduction automatique
+* Version payante = SEO multilingue + URL traduites
+
+### Installation
+* Dans WordPress → **Extensions > Ajouter**
+* Cherche : **GTranslate**
+* Clique sur **Installer**
+* Clique sur **Activer**
+
+### Configuration de base
+1. Va dans Réglages > GTranslate
+2. Choisis :
+  * 🌐 Langue par défaut du site
+  * 🌎 Langues à afficher
+3. Choisis le style du sélecteur :
+  * Drapeaux
+  * Liste déroulante
+  * Texte
+4. Enregistre
+
+### Afficher le sélecteur de langue
+**Avec un bloc (thème bloc / FSE)**
+
+* Ajoute un bloc **Shortcode**
+* Mets :
+
+``` 
+  [gtranslate]
+```
+
+### Comment ça fonctionne ?
+
+* Le visiteur clique sur une langue
+* Le contenu est traduit automatiquement
+* Aucun contenu n’est dupliqué
+* Aucune traduction manuelle nécessaire (version gratuite)
+
+#### Limites version gratuite
+
+* URL non traduites
+* SEO multilingue limité
+* Traduction parfois approximative
+* Pas de gestion fine du contenu
+
+#### Version Pro (optionnelle)
+**Permet :**
+
+* URLs traduites (ex: /contact → /contact-us)
+* Indexation Google par langue
+* Traduction améliorée
+* Édition manuelle des traductions
+
+
+## Résumé
+| Tu veux…  | Solution   |
+| ----------- | ----------- |
+| Traduction automatique rapide   | GTranslate   |
+| Contrôle total et structure propre  | Polylang   |
+
+
 ## Thème FSE personnalisé
 
 ![](./assets/images/wordpress-fse-companion-piece-featured.webp)
@@ -166,6 +233,15 @@ L'option `tagName` est la balise html utilisée autour du contenu du template pa
 <!-- /wp:spacer -->
 ```
 
+#### Exemple de template footer.html
+
+```html
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a></p>
+<!-- /wp:paragraph -->
+```
+
+
 ### Modèles
 
 Le dossier `templates` contient les modèles de page.
@@ -241,17 +317,17 @@ function tim_momo_editor_styles() {
 add_action( 'after_setup_theme', 'tim_momo_editor_styles' );
 ```
 
-## Devoir
+## Exercice
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/daftpunk.gif)
+  ![](./assets/images/custom-theme.jpg)
 
-  <small>Devoir - Wordpress</small><br>
-  **[One more time](./devoirs/wp-custom-theme.md){.stretched-link .back}**
+  <small>Exercice - Thème personnalisé</small><br>
+  **[Thème perso](./exercices/custom-theme.md){.stretched-link .back}**
 </div>
 
 
-## Sous-thème FSE
+## Thème enfant FSE (Child theme)
 
 Lorsqu’on souhaite développer un site à partir d’un thème FSE existant, il n’est **pas recommandé de modifier directement le thème original**.
 
@@ -319,10 +395,6 @@ Pour afficher du texte dans la page HTML, on utilise la fonction `echo`.
     ``` js
     document.write("Bonjour monsieur PHP !");
     ```
-
-!!! example "Go on essaye !"
-
-    Affichons notre fameux et tout premier "Hello world" en PHP !
 
 ## Commentaires
 
@@ -1046,10 +1118,9 @@ switch ($choix_matiere) {
   ![](./assets/images/flamant-rose.jpg)
 
   <small>Exercice - PHP</small><br>
-  **[Copenhague](./exercices/php-flamant-rose.md){.stretched-link .back}**
+  **[Copenhague](./exercices/copenhague.md){.stretched-link .back}**
 </div>
 
-[STOP]
 
 Pour afficher du texte dans la "console", on peut utiliser la fonction `console.log`.
 
@@ -1097,8 +1168,9 @@ print_r($data);   // Affiche uniquement la structure
 
 Pour les input de type radio, checkbox et select vous deviez utiliser `isset()` et `in_array()` pour vérifier que la valeur est permise.
 
-Pour les input de type file, c'est pour le moins plus difficile à sécuriser. Nous pourrons l'aborder dans une autre épisode de "On aura pas le temps de regarder cela cette session" !
 
+
+![](./assets/images/astra.webp)
 
 ## Astra – C’est quoi ?
 
@@ -1186,28 +1258,5 @@ Astra est :
 * Gratuit avec options payantes
 
 
-
-#### version
-
-La version du schéma JSON utilisé.
-À partir de WP 6.1+, c’est souvent version: 2 ou 3.
-Tu peux l’ignorer en général, WordPress se débrouille selon sa version.
-
-Template (area) : https://www.w3schools.com/html/html5_semantic_elements.asp
-
-## Références
-
-https://webdevstudios.com/2022/07/05/create-fse-theme/
-https://elpuas.com/blog/let-s-create-an-fse-theme/
-https://www.wpzoom.com/blog/how-to-create-wordpress-theme/
-
-https://github.com/carolinan/fullsiteediting/tree/course/Starter%20themes
-https://fullsiteediting.com/
-https://fullsiteediting.com/block-theme-generator/
-
-https://wordpress.org/plugins/create-block-theme/
-
-https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/
-https://developer.wordpress.org/block-editor/reference-guides/core-blocks/
 
 

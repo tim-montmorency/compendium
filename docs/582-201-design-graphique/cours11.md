@@ -2,23 +2,6 @@
 
 [STOP]
 
-Prototypage
-
-liens, overlays, transitions, tests rapides, préparation démo.
-
-<!-- Prototypage
-
-À enseigner
-	•	Prototype = tester un parcours, pas “faire joli”.
-	•	Interactions : navigation, overlays, transitions simples.
-	•	Test rapide : observer sans expliquer.
-
-Démo
-	•	Prototype d’un flow complet + overlay modal.
-
-Atelier
-	•	Prototype cliquable du parcours principal.
-	•	Test en dyades : 1 teste, 1 observe (notes).
-
-Devoir
-	•	Corriger 5 problèmes identifiés. -->
+Préflight checklist (grille, spacing, typo, contraste, parcours, responsive minimum)
+Critique en dyades/triades (2 rondes) + mini “journal d’itération”
+Corrections guidées

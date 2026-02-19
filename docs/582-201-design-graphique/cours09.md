@@ -1,31 +1,10 @@
-# Cours 9 | Maquette
+# Cours 9
 
 [STOP]
 
-Maquette + IA
+Post-mortem + pipeline Pub : déclinaisons (formats), exports, mockups, QA [Remise : Publicité]
 
 Figma Make
 https://www.figma.com/fr-fr/solutions/createur-sites-web-ia/?lang=fr-fr
 
-Wireframe → maquette graphique
-UI visuel
-Cohérence
-IA encadrée (exploration, contenu)
-Justification.
-
-<!-- (remise TP1)
-
-À enseigner
-	•	Passer wireframe → maquette (hiérarchie, cohérence, lisibilité).
-	•	IA : usage cadré (moodboard, variations, images de contenu, microcopy).
-
-Démo
-	•	Transformer un écran filaire en écran final (styles + composants).
-	•	Création composants clés (bouton, champ, card, nav).
-
-Atelier
-	•	Maquetter 2 écrans finalisés (pas juste “en cours”).
-	•	Vérification : alignements, marges constantes, contraste.
-
-Devoir
-	•	Consolider la direction visuelle + 1 écran supplémentaire. -->
+Test A/B (cours 9, 11 ou 12)
