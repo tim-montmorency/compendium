@@ -1,7 +1,5 @@
 # Cours 5
 
-[STOP]
-
 ![](./assets/images/illustrator_banner.png)
 
 ## Exportation

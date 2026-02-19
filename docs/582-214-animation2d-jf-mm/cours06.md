@@ -4,16 +4,15 @@
 
 ## De Illustrator à After Effects
 
-### Préparation des calques Illustrator en vue d'importation dans After Effects
+Dans Illustrator<br>
+1 - Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) <br>
+2- "Décomposer en calques" Si tout est sur un seul calque, sélectionnez ce calque, ouvrez le menu du panneau Calques (icône menu en haut à droite) et choisissez Décomposer en calques (séquence).<br>
+3- Extraire les sous-calques : Après la décomposition, les éléments restent des "sous-calques". Vous devez impérativement les glisser-déposer en dehors du calque parent pour qu'ils deviennent des calques principaux.<br>
+4- Nommer vos calques. [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay) <br>
 
-Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant.
-
-!!! tip "Distribuer rapidement chaque tracé ou groupe de tracés sur leur propre calque"
-    Vous devez d'abord créer les calques et glisser chaque éléments sur un calque indépendant: On sélectionne le calque parent et en haut à droite de la fenêtre de calque, vous cliquez ☰. Ensuite cliquez sur **Décomposer en calques(séquence)**.
-
-[:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt)
-
-[:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay)
+Dans After Effects<br>
+5- Importer le fichier par Fichier > Importer > Fichier (ctrl+i), ou glicer le fichier.<br>
+6- Dans le menu "Importer sous", choisissez Composition - Conserver les tailles de calque.<br>
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/giant-swiss-knife.jpg)
@@ -25,21 +24,6 @@ Afin de séparer chaque éléments sur chaque calque, vous devez d'abord créer 
 
 ### Dans After Effetcs: importer un fichier Illustrator  
 
-`Fichier > Importer > Fichier` (++ctrl+i++)
-
-**Composition** : After Effects crée une composition qui conserve chacune des couches de votre fichier Illustrator en tant que calque individuel.
-
-![](./assets/images/ae-load-ai-comp-calque.png)
-
-<!--
-**Métrage** (ou Footage) : Le fichier est importé comme une image unique, sans distinction de calques.
-
-![](./assets/images/ae-load-ai-metrage.png)
-
-Si on a choisi l'option "Métrage" une nouvelle fenêtre apparaîtra. On peut alors choisir **Composition** si on a oublié de le faire initialement.
-
-![](./assets/images/ae-load-ai-metrage-comp-calque.png)
--->
 
 
 #### Gestion des calques dans AE
@@ -227,36 +211,10 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/text-contrast.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[Contrast](./exercices_ae/09_modes_couleur.md){.stretched-link .back}**
-</div>
-
-
-<div class="grid grid-1-2" markdown>
   ![](./exercices_ae/oscar/Oscar-Wilde-02.webp)
 
   <small>Exercice - Illustrator & After Effects</small><br>
   **[Oscar Wilde fait du yoga](./exercices_ae/oscar/oscar.md){.stretched-link .back}**
 </div>
 
-## Devoir
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
-
-  <small>Devoir sommatif groupes Jean-François - 18 mars</small><br>
-  **[TP1](./exercices_ae/tp1/tp1.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/tp1/tp1-preview.png)
-
-  <small>Devoir sommatif (15%) groupe Marie-Michelle - 27 mars</small><br>
-  **[TP1 b](./exercices_ae/tp1/tp1b.md){.stretched-link .back}**
-</div>
-
-[STOP]
-
-https://www.vecteezy.com/vector-art/102486-free-swiss-knife-vector
