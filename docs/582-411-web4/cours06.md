@@ -998,6 +998,27 @@ if (isset($_POST['identifiant'])) {
 }
 ?>
 ```
+1. $_POST
+
+$_POST est une **superglobale PHP**.
+
+Elle contient les données envoyées par un formulaire HTML avec :
+
+```html
+<form method="post">
+```
+2. isset()
+
+```php
+isset($_POST['nom'])
+```
+
+Vérifie si la variable existe.
+
+👉 Ça évite une erreur si le formulaire n’a pas encore été soumis.
+
+**Sans isset(), PHP afficherait un avertissement.**
+
 
 ### Sécurité
 
