@@ -288,8 +288,9 @@ Choisissez **UN thème** pour créer une cohérence visuelle :
 
 ### Étape 5 : Documentation (15 min)
 
-Ajoutez en haut de votre fichier HTML :
+Ajoutez en haut de votre fichier *HTML* :
 
+```html
     <!--
     PORTFOLIO COMPONENT KIT
     Par: [Votre nom]
@@ -306,6 +307,35 @@ Ajoutez en haut de votre fichier HTML :
     - Flexbox utilisé pour tous les layouts
     - [Autres notes importantes]
     -->
+```
+
+Documentez chaque composant dans votre *CSS* avec un commentaire clair et complet, par exemple :
+
+```css
+/**
+ * Navbar - Barre de navigation principale
+ * 
+ * Utilisation :
+ * <nav class="navbar">
+ *   <div class="navbar__logo">...</div>
+ *   <ul class="navbar__menu">...</ul>
+ * </nav>
+ *
+ * Elements :
+ * navbar__logo : Logo ou nom du portfolio
+ * navbar__menu : Menu de navigation (liens vers sections)
+ * 
+ * Variantes :
+ * .navbar--dark : Version sombre
+ */
+
+.navbar { 
+  display: flex;
+  ...
+}
+```
+
+
 
 
 

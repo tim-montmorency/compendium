@@ -742,6 +742,9 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### 4. Documentez vos composants
 
+
+Documentez chaque composant dans le fichier *CSS* avec un commentaire clair et descriptif du composant, de ses éléments et, si applicable, de ses variantes. Par exemple :
+
 ```css
 /**
  * Navbar - Barre de navigation principale
@@ -751,14 +754,21 @@ on <a href="https://codepen.io">CodePen</a>.</span>
  *   <div class="navbar__logo">...</div>
  *   <ul class="navbar__menu">...</ul>
  * </nav>
+ *
+ * Elements :
+ * navbar__logo : Logo ou nom du portfolio
+ * navbar__menu : Menu de navigation (liens vers sections)
  * 
  * Variantes :
  * .navbar--dark : Version sombre
- * .navbar--fixed : Position fixe en haut
  */
-.navbar { }
-```
 
+.navbar { 
+  /* ici commence les styles du composant et de ses éléments */
+  display: flex;
+  ...
+}
+```
 
 
 ## 📟 Résumé
