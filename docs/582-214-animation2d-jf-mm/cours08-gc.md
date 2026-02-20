@@ -2,6 +2,16 @@
 
 [STOP]
 
+## Plan de match
+
+-Retour sur le cours jusqu'à maintenant
+-Regard sur les notions et évaluation à venir
+-Présentation de ressources sur l'animation et After Effects
+-Les masques
+-Présentation de quelques effets (vitesse de lecture, tuiles et transitions)
+-La notion de parallaxe, les caméras et les calques en disposition 3d
+-Devoir
+
 ## Les masques
 
 ![](./assets/images/masque-photoshop.jpg)
@@ -156,13 +166,12 @@ Aussi, on peut très bien utiliser l'effet Echo pour ajouter encore plus d'inten
 ## Prochainement
 
 * Formules d'animation (expression)
-* Préparation du Kino
-* Kino (20%)
 * Système de particules
-* TP2 (50%, en équipe de 2)
+* TP2 
 
-## Exercices
+## Devoir
 
+<!--
 Après un TP plus formatif que créatif, c'est enfin le moment d'exprimer sa créativité !!
 
 <div class="grid grid-1-2" markdown>
@@ -179,7 +188,6 @@ Après un TP plus formatif que créatif, c'est enfin le moment d'exprimer sa cr�
   **[AMV](./exercices_ae/amv/amv.md){.stretched-link .back}**
 </div>
 
-<!--
 [🛠️ Cinéma](exercices_ae/04_cinema.md){ .md-button }
 [🛠️ Masque](exercices_ae/04_masque.md){ .md-button }
 [🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }
