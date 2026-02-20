@@ -1024,7 +1024,7 @@ Vérifie si la variable existe.
 
 ![](./assets/images/security.gif){.w-100}
 
-**Injection XSS — c’est un concept très important en sécurité web.**
+### Injection XSS — c’est un concept très important en sécurité web.
 
 #### C’est quoi une injection XSS ?
 
@@ -1097,10 +1097,10 @@ Convertit les caractères spéciaux :
 
 | Caractère   | Devient   |
 | ----------- | ----------- |
-| <   | &lt;  |
-| >   | &gt;  |
-| "   | &quot;   |
-| '   |	&#039;	 |
+| <   		  | `&lt;`  |
+| >   		  | `&gt;`  |
+| "  		  | `&quot;`  |
+| '   		  |	`&#039;`	|
 
 Donc :
 ```php
