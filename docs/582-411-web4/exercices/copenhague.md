@@ -2,6 +2,7 @@
 tags:
   - Exercice
 ---
+[Screenshot](../assets/sreenshot.png)
 
 # Copenhague
 
