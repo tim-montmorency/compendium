@@ -2,8 +2,6 @@
 tags:
   - Exercice
 ---
-[Screenshot](../assets/sreenshot.png)
-
 # Copenhague
 
 ![](../assets/images/flamant-rose.jpg){.w-100}
