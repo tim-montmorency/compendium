@@ -70,6 +70,14 @@ Dans cette troisième partie, il sera question de dynamiser l'entête et le pied
 </body>
 </html>
 ```
+- [ ] Dans votre index.php, ajouté l'entête et le pied de page.
+```php
+<?php include 'header.php'; ?>
+
+<h2>Accueil</h2>
+
+<?php include 'footer.php'; ?>
+```
 
 ### Quatrième partie
 
