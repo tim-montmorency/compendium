@@ -26,6 +26,10 @@ Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier
 
 [👩🏻‍💻 Exercice *Flexbox: Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/){ .md-button }
 
+--
+
+> [Notes pédagogiques sur les 2 exercices](./exercices/cours6-ui-dashboard/note-pedago-exerc-cours6.html)
+
 
 ## Figma Auto Layout et Dev Mode : De la maquette à l’intégration
 
