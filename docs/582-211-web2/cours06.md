@@ -53,14 +53,13 @@ Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier
 
 Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
 
-### Étapes :
 
-Le choix de la maquette: l'enseignante va vous attribuer une maquette Figma à intégrer. Elle est différente pour chacun. Certains se ressemble sur le thème mais les éléments et la structure sont différents.
+## DEVOIR pour le prochain cours (8 ou 10 mars)
 
-1. **Analyse de la maquette** : Utiliser le Dev Mode pour comprendre la structure, les espacements, les styles et les valeurs CSS.
-2. **Planification de l’intégration** : Décider de l’architecture HTML, des composants réutilisables, de la nomenclature des classes et du système de tokens à utiliser.
-3. **Intégration** : Écrire le code HTML et CSS en s’inspirant du code généré par Figma, mais en l’adaptant pour créer un code propre et maintenable.
-    - **Flexbox** : Utiliser Flexbox pour recréer la structure de la maquette, en traduisant les règles d’auto-layout de Figma en propriétés CSS appropriées.
-    - Structurez **composants réutilisables**
-    - Attention il y a **plusieurs éléments à corriger** à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de décider comment les corriger.
-4. **Documentation** : Documenter les décisions techniques prises lors de l’intégration. Documenter par composant.
+Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semaine de rattrapage.
+
+- Terminer les 3 exercices pratiques sur Flexbox et Figma auto-layout + Dev Mode
+- Débuter le projet 1 : analyse de la maquette et planification de l’intégration (architecture HTML, composants réutilisables, nomenclature des classes, système de tokens)
+
+!!! danger "Semaine de rattrapage (2–8 mars)"
+    Travail autonome intensif : c’est votre responsabilité de planifier votre temps et de faire des progrès significatifs sur le projet 1. Profitez des ressources disponibles, des rencontres individuelles en classe et de l'aide des tuteurs pour obtenir du soutien.
