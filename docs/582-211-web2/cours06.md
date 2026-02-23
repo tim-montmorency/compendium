@@ -27,8 +27,8 @@ Lancement du Projet 1 : assemblage d’interface (35%)
 
 Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier sur les compostants Flexbox réutilisables (portfolio)*](./exercices/alelier-composants-portfolio/index.md) (remise au 23, 25 février)
 
-- [👩🏻‍💻 Exercice 1](#){ .md-button }
-- [👩🏻‍💻 Exercice 2](#){ .md-button }
+- [👩🏻‍💻 Exercice *Flexbox: UI Dashboard*](./exercices/cours6-ui-dashboard/){ .md-button }
+- [👩🏻‍💻 Exercice *Flexbox: Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/){ .md-button }
 
 
 ## Figma Auto Layout et Dev Mode : De la maquette à l’intégration
