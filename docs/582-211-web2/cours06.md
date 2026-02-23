@@ -28,14 +28,16 @@ Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier
 
 
 <!--
- pour prof 
-[Notes pédagogiques sur les 2 exercices](./exercices/cours6-ui-dashboard/note-pedago-exerc-cours6.html)
- -->
+Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:
+[Notes pédagogiques sur les 2 exercices](./exercices/cours6-ui-dashboard/flexbox-exercices-cours6-note-pedago.html)
+-->
 
 
 ## Figma Auto Layout et Dev Mode : De la maquette à l’intégration
 
-[📚 Contenu de cours *Flexbox: Figma Auto Layout*](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/){ .md-button .md-primary }
+[📚 Contenu de cours *Figma Auto Layout (flexbox)*](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/){ .md-button .md-primary }
+
+[📚 Contenu de cours *Figma: variables*](https://tim-montmorency.com/timdoc/582-211/css/figma-variables/){ .md-button .md-primary }
 
 [👩🏻‍💻 Exercice - Carte salle de conférence - Figma Dev Mode](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/carte-salle-conference/){ .md-button }
 
