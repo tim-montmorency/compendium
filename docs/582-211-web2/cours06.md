@@ -50,7 +50,7 @@ Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’i
 - [👩🏻‍💻 Instructions *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
 
-## DEVOIR pour le prochain cours (8 ou 10 mars)
+## DEVOIR pour le prochain cours (lundi 9 ou merc. 11 mars)
 
 Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semaine de rattrapage.
 
