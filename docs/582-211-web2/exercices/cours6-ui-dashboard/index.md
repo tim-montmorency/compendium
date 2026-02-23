@@ -14,7 +14,7 @@ Reproduire une interface de type dashboard avec des cartes de statistiques, une 
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuitefaites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
-[Pen de départ | FAIRE UN FORK](https://codepen.io/tim-momo/pen/){ .md-button }
+[Pen de départ | FAIRE UN FORK](https://codepen.io/tim-momo/pen/KwgPvYz){ .md-button }
 
 
 ## Ce que ça renforce dans votre maîtrise de flexbox
@@ -46,3 +46,16 @@ Reproduire une interface de type dashboard avec des cartes de statistiques, une 
 │                  │  └──────────────┘    │
 └──────────────────┴──────────────────────┘
 ```
+
+
+## REMISE
+
+Soumettez le *lien de votre CodePen* complété via le *Devoir Teams* avant le prochain cours (cours 7).
+
+## 📚 Notes de cours
+
+[📚 Contenu de cours sur *Flexbox: display: flex, direction, justify-content, aligns-items, flex-wrap*](../../css/flexbox01.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours sur *Flexbox: flex, grow, shrink, basis*](../../css/flexbox02.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours sur *Flexbox: orders*](../../css/flexbox-order.md){ .md-button .md-button--primary }

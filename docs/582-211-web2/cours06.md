@@ -37,18 +37,18 @@ Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier
 
 [📚 Contenu de cours *Figma Dev Mode*](./css/figma-devmode.md){ .md-button .md-primary }
 
-## De *Dev Mode* à *décision professionnelle*
+## De Dev Mode à décision professionnelle
 
-- [👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours06-p01-charte-devmode.pptx){ .md-button }
+[👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours06-p01-charte-devmode.pptx){ .md-button }
 
 
-## Lancement du projet 1 : Assemblage d’interface (35%)
+## Lancement du projet-1: Assemblage d’interface (35%)
 
 ### Objectif
 
 Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
 
-- [👩🏻‍💻 Instructions *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
+[👩🏻‍💻 Instructions *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
 
 ## DEVOIR pour le prochain cours (lundi 9 ou merc. 11 mars)
