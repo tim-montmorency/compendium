@@ -15,6 +15,10 @@ Reproduire une interface de type résultats de recherche (pensez Airbnb, Spotify
 
 Le défi central est que les éléments doivent se comporter différemment selon l'espace disponible — ce qui rend `flex-grow` / `flex-shrink` / `flex-basis` incontournables.
 
+## Aperçu de l'interface à reproduire
+
+
+
 
 ## Fichier de départ
 

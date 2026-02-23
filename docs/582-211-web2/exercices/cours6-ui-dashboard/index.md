@@ -14,6 +14,10 @@
 
 Reproduire une interface de type dashboard avec des cartes de statistiques, une section principale et une barre latérale. Le défi est que chaque composant a une direction flex différente, et les conteneurs s'imbriquent sur 3 niveaux.
 
+## Aperçu de l'interface à reproduire
+
+
+
 ## Fichier de départ
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuitefaites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
