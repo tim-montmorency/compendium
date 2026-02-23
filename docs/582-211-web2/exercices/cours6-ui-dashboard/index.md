@@ -27,6 +27,9 @@ Reproduire une interface de type dashboard avec des cartes de statistiques, une 
 - Comprendre que `justify-content` et `align-items` changent de rôle selon la direction
 - Gérer l'alignement vertical ET horizontal dans le même composant
 
+
+
+<!--
 ## Structure des composants à reproduire :
 
 ```
@@ -50,7 +53,7 @@ Reproduire une interface de type dashboard avec des cartes de statistiques, une 
 │                  │  └──────────────┘    │
 └──────────────────┴──────────────────────┘
 ```
-
+-->
 
 ## REMISE
 

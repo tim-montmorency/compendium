@@ -22,6 +22,8 @@ Le défi central est que les éléments doivent se comporter différemment selon
 
 [Pen de départ | FAIRE UN FORK](https://codepen.io/tim-momo/pen/XJjraLa){ .md-button }
 
+
+<!--
 ## Structure des composants à reproduire
 
 ```
@@ -51,6 +53,8 @@ Carte résultat (row) :
 │              │ [Tags][Prix]    │
 └────────────────────────────────┘
 ```
+-->
+
 
 
 ## REMISE
