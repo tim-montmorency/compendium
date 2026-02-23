@@ -1,8 +1,8 @@
 # Cours 6
 
-[STOP]
-
 ## De Illustrator à After Effects
+
+Vous pouvez maintenant apporter vos images de Illustrator pour les animer!
 
 Dans Illustrator<br>
 1 - Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) <br>
