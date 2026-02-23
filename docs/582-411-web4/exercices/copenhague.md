@@ -2,7 +2,6 @@
 tags:
   - Exercice
 ---
-
 # Copenhague
 
 ![](../assets/images/flamant-rose.jpg){.w-100}
@@ -50,13 +49,33 @@ Vous devriez maintenant pourvoir reproduire le resultat attendu.
 Dans cette troisième partie, il sera question de dynamiser l'entête et le pied de page du site que vous êtes en train de créer. Cela permettra d'éviter la répétition de code.
 
 - [ ] Crééez un nouveau fichier `header.php` et placez-y le code HTML de l'entête du site qui se répète sur les deux pages.
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon site</title>
+</head>
+<body>
+
+<header>
+    <h1>Mon site</h1>
+</header>
+```
+
 - [ ] Crééez un nouveau fichier `footer.php` et placez-y le code HTML du pied de page qui se répète sur les deux pages.
+```html
+</body>
+</html>
+```
+- [ ] Dans votre index.php, ajouté l'entête et le pied de page.
+```php
+<?php include 'header.php'; ?>
 
-!!! warning "Attention"
+<h2>Accueil</h2>
 
-    Il est important de vérifier que l'indentation de `header.php` soit cohérente avec celle du `footer.php`.
-
-- [ ] Dans `index.php` et `reponse.php`, incluez le code HTML de l'entête et du pied de page à l'aide de la fonction `include`.
+<?php include 'footer.php'; ?>
+```
 
 ### Quatrième partie
 

@@ -2,6 +2,55 @@
 
 [STOP]
 
+## Plan de match
+
+- Retour sur le cours jusqu'à maintenant
+- Regard sur les notions et évaluations à venir
+- Présentation de ressources sur l'animation et After Effects
+- Les masques
+- Présentation de quelques effets (vitesse de lecture, tuiles et transitions)
+- La notion de parallaxe, les caméras et les calques en disposition 3d
+- Présentation des TP
+- Devoir
+
+## Retour sur le cours
+
+- Comment se passe votre session?
+- Retour sur les notions (quels sont les éléments importants? quelle est votre appréciation de l'animation et de After Effects?)
+
+## Notions et évaluations à venir
+
+### Notions 
+
+- Masques
+- Parallaxe et caméra
+- Notions de scénarisation et préproduction
+- Éditeur de courbes
+- Expressions
+- Particules
+- Des effets, des effets et des effets
+
+![](./assets/images/EffectsEverywhere.jpg)
+
+### Évaluations
+
+- TP2 : Animation d'une scène en parallaxe (présentation d'une oeuvre multimédia existante comme  un film ou un jeu) individuel (ou en équipe de 2) 
+- Synthèse : Animation d'un très court métrage (explication d'un sujet) en équipe de 2
+
+## Nouvelles ressources
+
+### Video Copilot (site web)
+
+![](./assets/images/VideoCopilot.png)
+
+[Video Copilot](https://www.videocopilot.net/) est un site web qui représente une ressource très reconnue et très estimée par la communauté dans le domaine de l'animation, du motion design et des effets spéciaux (VFX). Le site est surtout reconnu pour ses tutoriels animés par Andrew Kramer : un pionner dans le domaine. La plateforme offre également des extensions pour After Effects comme des effets premiums (Optical flare, Element 3D, etc.), mais aussi gratuits (Saber, FX console, Sure Target, Color Vibrance, etc.). Bien qu'on se concentre sur le motion design dans le cadre du cours, plusieurs tuto sont utiles pour apprendre les bases d'After Effects, mais aussi plusieurs sont pertinents pour ajouter ou améliorer vos vidéos.      
+
+### Corridor crew (chaîne Youtube)
+
+![](./assets/images/CorridorCrew.png)
+
+[Corridor Crew](https://www.youtube.com/@CorridorCrew) est une chaîne Youtube principalement connue pour ses capsules d'analyse sur les effets spéciaux (VFX Artists React), mais aussi sur l'animation (Animators React). Ses derniers sont très appréciés par l'industrie et ils ont l'habitude de recevoir des vétérans dans leurs capsules comme Andrew Kramer, Adam Savage ainsi que des superviseurs de grandes entreprises d'effets spéciaux (Bad Robot, ILM, Weta, Rodeo FX, etc.). Bien qu'il n'y ait pas de tutoriel en soi, la chaîne propose tout de même de l'apprentissage concret par des analyses d'effets, une approche pédagogique accessible, des  démonstrations pratiques ainsi que des professionnels qui explique leur choix, méthodes et défis.    
+
 ## Les masques
 
 ![](./assets/images/masque-photoshop.jpg)
@@ -156,13 +205,12 @@ Aussi, on peut très bien utiliser l'effet Echo pour ajouter encore plus d'inten
 ## Prochainement
 
 * Formules d'animation (expression)
-* Préparation du Kino
-* Kino (20%)
 * Système de particules
-* TP2 (50%, en équipe de 2)
+* TP2 
 
-## Exercices
+## Devoir
 
+<!--
 Après un TP plus formatif que créatif, c'est enfin le moment d'exprimer sa créativité !!
 
 <div class="grid grid-1-2" markdown>
@@ -179,7 +227,6 @@ Après un TP plus formatif que créatif, c'est enfin le moment d'exprimer sa cr�
   **[AMV](./exercices_ae/amv/amv.md){.stretched-link .back}**
 </div>
 
-<!--
 [🛠️ Cinéma](exercices_ae/04_cinema.md){ .md-button }
 [🛠️ Masque](exercices_ae/04_masque.md){ .md-button }
 [🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }
