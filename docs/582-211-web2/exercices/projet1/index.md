@@ -22,7 +22,9 @@ VOUS SERONT ENVOYÉ PAR COURRIEL *LE 24 FÉVRIER AU PLUS TARD*.
 
 ### Étapes
 
-0. **Préparation** : Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
+0. **Préparation**: 
+    - Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
+    - Création de votre répertoire GitHub, nommez-le : `nom-prenom-projet1-web2` (non lié à GitHub Classrooom, c’est un repo personnel).
 1. **Le choix de la maquette**: l'enseignante va vous attribuer une maquette Figma à intégrer.
 2. **Lecture du biref du client** : comprendre les exigences et les objectifs du projet.
 3. **Analyse de la maquette** : Utiliser le Dev Mode pour comprendre la structure, les espacements, les styles et les valeurs CSS.
