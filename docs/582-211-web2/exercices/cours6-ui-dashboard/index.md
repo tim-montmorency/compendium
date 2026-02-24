@@ -1,7 +1,7 @@
 # Interface de tableau de bord (Dashboard UI)
 
 
-- [< retour au *cours 6*](../../cours06.md)
+[< retour au *cours 6*](../../cours06.md)
 
 ---
 
