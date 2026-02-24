@@ -39,7 +39,9 @@ Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:
 
 [📚 Contenu de cours *Figma: variables*](https://tim-montmorency.com/timdoc/582-211/css/figma-variables/){ .md-button .md-primary }
 
+<!-- 
 [👩🏻‍💻 Exercice - Carte salle de conférence - Figma Dev Mode](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/carte-salle-conference/){ .md-button }
+-->
 
 ## Figma Dev Mode
 
@@ -63,7 +65,9 @@ Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’i
 
 Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semaine de rattrapage.
 
-- Terminer les 3 exercices pratiques sur Flexbox et Figma auto-layout + Dev Mode
+- Terminer les liens des CodePen des 2 exercices pratiques de renforcement Flexbox :
+  - *UI Dashboard*
+  - *Page de résultats de recherche*.
 - Débuter le projet 1 : analyse de la maquette et planification de l’intégration (architecture HTML, composants réutilisables, nomenclature des classes, système de tokens)
 
 !!! danger "Semaine de rattrapage (2–8 mars)"

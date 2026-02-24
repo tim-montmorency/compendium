@@ -1,6 +1,10 @@
 
 # Projet 1: Assemblage d’interface
 
+[< retour au *cours 6*](../../cours06.md)
+
+---
+
 !!! danger "Important"
     Les consignes et les critères d’évaluation du projet 1 sont en cours de finalisation. Ils seront publiés sur cette page, ici même, au plus tard le 24 février en fin de journée.
     La maquette Figma individuelle et le brief du client seront envoyés par Teams, individuellement, au plus tard le 24 février en fin de journée.

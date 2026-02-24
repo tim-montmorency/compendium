@@ -1,6 +1,6 @@
 # Page de résultats de recherche (SERP)
 
-- [< retour au *cours 6*](../../cours06.md)
+[< retour au *cours 6*](../../cours06.md)
 
 ---
 
