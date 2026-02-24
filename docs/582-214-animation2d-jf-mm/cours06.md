@@ -88,9 +88,9 @@ Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"<br><br>
 
 ![](./assets/images/export.png){ data-zoom-image }
 
-## Effets
+## Effets et code
 
-Voici quelques effets intéressants à essayer<br><br>
+Voici quelques effets intéressants qui s'animent avec du code! essayer<br><br>
 
 Pour ajouter une boucle en code:<br>
 [📁 Loop Out Ping pong](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=23RGPG){ .md-button }  <br>
