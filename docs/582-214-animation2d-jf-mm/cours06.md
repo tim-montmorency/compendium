@@ -96,11 +96,11 @@ Pour ajouter une boucle en code:<br>
 [📁 Loop Out Ping pong](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=23RGPG){ .md-button }  <br>
 
 Pour plier et annimer:<br>
-[📁 Bend it Ex. arbre au vent](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }<br>
+[📁 Bend it Ex. arbre au vent](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }<br><br>
 [📁 Onde progressive Ex. Drapeau au vent](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=2GJlA0){ .md-button } <br> 
 
 Pour créer des traits animés:<br>
-[📁 Réduire les tracés Ex. Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br>
+[📁 Réduire les tracés Ex. Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br><br>
 [📁 Goutte Loop Out](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=GgSZWd){ .md-button } <br>
 
 ## Typographie cinétique
@@ -197,11 +197,5 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
   **[Typography audacieuse](./exercices_ae/typo-audacieuse/typo.md){.stretched-link .back}**
 </div>
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/oscar/Oscar-Wilde-02.webp)
-
-  <small>Exercice - Illustrator & After Effects</small><br>
-  **[Oscar Wilde fait du yoga](./exercices_ae/oscar/oscar.md){.stretched-link .back}**
-</div>
 
 
