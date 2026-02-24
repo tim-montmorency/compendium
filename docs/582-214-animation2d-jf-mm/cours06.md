@@ -2,15 +2,15 @@
 
 ## De Illustrator à After Effects
 
-Vous pouvez maintenant apporter vos images de Illustrator pour les animer!
+Comment importer vos image de Illustrator pour les animer dans After Effects? Voici les 6 étapes
 
-Dans Illustrator<br>
+**Dans Illustrator**<br>
  - 1 Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparer des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) <br>
  - 2 "Décomposer en calques" Si tout est sur un seul calque, sélectionnez ce calque, ouvrez le menu du panneau Calques (icône menu en haut à droite) et choisissez Décomposer en calques (séquence).<br>
  - 3 Extraire les sous-calques : Après la décomposition, les éléments restent des "sous-calques". Vous devez impérativement les glisser-déposer en dehors du calque parent pour qu'ils deviennent des calques principaux.<br>
  - 4 Nommer vos calques. [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay) <br>
 
-Dans After Effects<br>
+**Dans After Effects**<br>
  - 5 Importer le fichier par Fichier > Importer > Fichier (ctrl+i), ou glicer le fichier.<br>
  - 6 Dans le menu "Importer sous", choisissez Composition - Conserver les tailles de calque.<br>
 
@@ -22,7 +22,7 @@ Dans After Effects<br>
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-## Gestion des calques Illustrator dans After Effects
+### Gestion des calques Illustrator dans After Effects
 
 ![](./assets/images/oups.png)
 
@@ -39,7 +39,6 @@ Clic droit > Remplacer le métrage > Fichier (choisir le fichier Illustrator) : 
 [:material-play-circle: Conversion calque illustrator en calque de forme](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EUyUFWWUoVdAmD3oXbSUD0sB8rC3YJgeHFVlIU41NPRWvA?e=Mlt4vS) 
 
 Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du calque vectoriel.
-
 ## Audio
 
 ![](./assets/images/audio.gif){ .w-100 }
@@ -53,7 +52,7 @@ Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du ca
 
 ![](./assets/images/audio-panel.png){ data-zoom-image }
 
-Marqueurs
+### Marqueurs
 
 Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`. Ainsi, même lorsque tous les calques sont réduits, on peut toujours visualiser où se situent les repères afin syncroniser les animations et les sons ponctuels. 
 
@@ -73,47 +72,46 @@ Téléchargez les fichiers  **[Le couteau suisse](./assets/images/suisse.eps)**<
 - [ ] Synchroniser avec l'[effet sonore](./assets/audio/lala.mp3)
 -->
 
-
-
-
-
-## Exportation de projet After Effets en format vidéo
+## Exportation vidéo
 
 [:material-play-circle: Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=f5Nt2e)
 
-### Diffusion web et réseaux sociaux
-Format : H.264 puis "YouTube 1080p Full HD" ou "Vimeo 1080p Full HD"
+**Diffusion web et réseaux sociaux**<br>
+Format : H.264 puis "YouTube 1080p Full HD" ou "Vimeo 1080p Full HD"<br>
 
-### Qualité professionnelle avec compression
-Format : Quicktime puis Apple ProRes 422 / 4444 (idéal pour montage et étalonnage)
+**Qualité professionnelle avec compression**<br>
+Format : Quicktime puis Apple ProRes 422 / 4444 (idéal pour montage et étalonnage)<br>
 
-### Archivage haute qualité
-Format : Quicktime puis CineForm ou DNxHR/DNxHD (Haute qualité, mais fichiers lourds)
-Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
+**Archivage haute qualité**<br>
+Format : Quicktime puis CineForm ou DNxHR/DNxHD (Haute qualité, mais fichiers lourds)<br>
+Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"<br><br>
 
 ![](./assets/images/export.png){ data-zoom-image }
 
-## Effets
+## Effets et code
 
-Voici quelques effets intéressants à essayer<br><br>
+Voici quelques effets intéressants qui s'animent avec du code! essayer<br><br>
 
+Pour ajouter une boucle en code:<br>
 [📁 Loop Out Ping pong](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=23RGPG){ .md-button }  <br>
-[📁 Bend it](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }<br>
-[📁 Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br> 
+
+Pour plier et annimer:<br>
+[📁 Bend it Ex. arbre au vent](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }<br>
+[📁 Onde progressive Ex. Drapeau au vent](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=2GJlA0){ .md-button } <br> 
+
+Pour créer des traits animés:<br>
+[📁 Réduire les tracés Ex. Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br>
 [📁 Goutte Loop Out](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=GgSZWd){ .md-button } <br>
-[📁 Onde progressive](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=2GJlA0){ .md-button }   
-[📁 Lettre en 3D](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVdQNho5RytFh6UUKRjBA3wBEe4o7k5f4S6gdjQcBsi56w?e=3H46lj){ .md-button }
+
 ## Typographie cinétique
 
-La typographie cinétique (de l’anglais _kinetic typography_) est une technique d’animation impliquant la **présentation dynamique d’un texte** dans le temps, souvent **associée à un son** ou à des **vidéos musicales**, afin de transmettre ou de renforcer un message. 
+La typographie cinétique ( _kinetic typography_) est une technique d’animation impliquant la **présentation dynamique d’un texte**, souvent **associée à un son** ou à des **vidéos musicales**, afin de transmettre ou de renforcer un message. 
 
 Elle utilise le mouvement, la **taille**, les changements de **couleur** et d’autres effets visuels pour ajouter une couche de sens et d’émotion aux mots écrits. 
 
 Il s’agit d’une méthode populaire dans les **films**, les **publicités** et les **présentations vidéo** pour capter l’attention et accroître l’engagement du public.
 
 ![type:video](./assets/videos/kintetic.mp4){ .w-100 }
-
-Bref, de l'animation de texte.
 
 ### 20 inspirations de typographies cinétiques très intéressantes
 
@@ -175,9 +173,7 @@ Penser à ajouter l'exploration de 3 presets d'animation de texte.
 Inspirations:
 https://www.creativebloq.com/typography/examples-kinetic-typography-11121304
 https://www.linearity.io/blog/kinetic-typography/
-
 -->
-
 ## Modes de fusion
 
 Les modes de fusion des calques contrôlent la manière dont chaque calque se fond avec les calques qu’il recouvre. 
