@@ -38,6 +38,10 @@
   width: 50% !important;
   height: auto;
 }
+.mw-50 {
+  max-width: 50%;
+  height: auto;
+}
 .w-33 {
   width: 33.33% !important;
   height: auto;

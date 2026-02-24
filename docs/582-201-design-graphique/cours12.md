@@ -2,18 +2,8 @@
 
 [STOP]
 
-Prototype dans Figma (à partir des maquettes remises) + débrief [Remise : Wireframe / Maquette]
+![](./assets/img/1_0a669CsI3zvW3Qq-sZMojQ.gif){.w-100}
 
-<!-- Itération & rétroactions (remise maquette)
+Prototype dans Figma
 
-À enseigner
-	•	Critique structurée : objectif → problème → suggestion.
-	•	QA design : alignements, spacing, cohérence, contrastes, états.
-	•	Priorisation : “impact fort d’abord”.
-
-Atelier
-	•	Critique en équipes + feuille de rétroaction.
-	•	Plan d’itération : 8 correctifs priorisés.
-
-Devoir
-	•	Appliquer les correctifs (version 2). -->
+https://www.youtube.com/watch?v=k1iwiHJrAWI&list=PLx-zZQ15gdAoBlqqy_kv0t4z07YYyGIZi
