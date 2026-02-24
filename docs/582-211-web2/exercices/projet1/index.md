@@ -15,16 +15,19 @@ Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’i
 
 ## Contexte
 
-Projet individuel
+*Projet individuel*
 
-Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de transformer une maquette Figma fournie par un designer en une page web fonctionnelle. Vous devez analyser la maquette, comprendre les intentions du designer à travers le Dev Mode, et utiliser Flexbox pour recréer la structure de la maquette tout en produisant un code propre et maintenable.
+Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de transformer une maquette Figma fournie par un designer en une page web fonctionnelle. 
 
-## Vous allez tous recevoir
+Vous devez analyser la maquette, comprendre les intentions du designer à travers le *Dev Mode* de Figma, et utiliser Flexbox pour recréer la structure de la maquette tout en produisant un code propre et maintenable.
 
-VOUS SERONT ENVOYÉ PAR TEAMS (conversation privée) *LE 24 FÉVRIER AU PLUS TARD*.
+## Vous allez tous recevoir:
 
 - Une maquette Figma complète avec auto-layout avec des défauts intentionnels à corriger.
 - Un brief du "client" avec des exigences spécifiques
+
+!!! warning
+    Ils vous seront envoyés par TEAMS (conversation privée) au plus tard le 24 février en fin de journée.
 
 À noter que la maquette et le brief sont différents pour chaque étudiant. Certains se ressemblent au niveau du thème mais les éléments et la structure sont différents.
 
