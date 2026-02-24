@@ -1,93 +1,83 @@
 # Cours 6 | Composition avancée
 
-[STOP]
-
-## Grid system
-
 ![](./assets/img/grid-system.avif)
 
-* Pourquoi : alignement, rythme, cohérence
-* Concepts à montrer :
-  * colonnes (ex. 12), marges, gutters
-  * grilles “layout grid” sur Frame
-  * aligner sur la grille ≠ tout coller sur les lignes (laisser respirer)
-* Démo : créer une frame Desktop + Mobile, appliquer grilles adaptées
+## Retour sur le Devoir 02
 
-## Auto layout
+## Guides de mise en page
 
-Auto Layout
-https://www.youtube.com/watch?v=TyaGpGDFczw
+![](./assets/img/systeme-de-grille.png){ data-zoom-image }
 
-* Pourquoi : composants “vivants” (texte variable, boutons, listes)
-* À montrer absolument :
-  * Auto-layout vertical vs horizontal
-  * padding, spacing, alignment
-  * “Hug / Fill / Fixed” (le trio magique)
-  * nested auto-layout (card dans une liste, etc.)
-* Démo : bouton + card + liste d’items
+Les guides de mise en page s'affichen sous forme de grille ou de coloone / lignes.
 
-## Constraints
+![](./assets/img/guide-de-mise-en-age-grid.png){ data-zoom-image }
 
-* Pourquoi : le resize intelligent
-* À montrer :
-  * Left/Right/Center/Scale
-  * Top/Bottom/Center
-  * quand utiliser Constraints vs Auto-layout
-* Démo : header qui s’étire, bouton qui reste à droite, image qui scale
+## Contraintes
+
+![](./assets/img/constraint.webp)
+
+Pour appliquer des contraintes sur des éléments, ceux-ci doivent se trouver dans un _Frame_.
+
+![](./assets/img/containtes-compared.png){ data-zoom-image .w-50 }
+
+[Documentation sur les contraintes](https://help.figma.com/hc/en-us/articles/360039957734-Apply-constraints-to-define-how-layers-resize)
+
+## Verrouiller les proportions (_Aspect Ratio_)
+
+![](./assets/img/aspect-ratio-fig.webp){.w-100}
+
+## Introduction à la mise en page automatique (_Auto Layout_)
+
+![](./assets/img/TOOLTIP_4_GRID_GIF1_4X.gif)
+
+_Auto Layout_ dans Figma est l’équivalent conceptuel des layouts Flexbox en CSS. Ça peut servir à construire des grilles via des frames imbriquées.
+
+Pour ce faire, créer un nouveau _Frame_ et sélectionnez la mise en page automatique « Grille ».
+
+![](./assets/img/auto-layout-grid.png){ data-zoom-image }
+
+![](./assets/img/auto-layout-grid-2x2.png){ data-zoom-image }
+
+!!! note "Notez que l'icône du Frame a été modifiée"
+
+    ![](./assets/img/auto-layout-to-grid.png){ data-zoom-image }
 
 ## Masques
 
-* Pourquoi : recadrage propre, formes, avatars, bannières
-* À montrer :
-  * “Use as Mask”
-  * recadrer une image dans un container
-  * masque non-rectangulaire (cercle/avatar, forme custom simple)
-* Démo : avatar rond + image hero recadrée
+![](./assets/img/masque.webp)
+
+N'utilisez pas un masque si vous pouvez faire la même chose avec un remplissage.
+
+![](./assets/img/how-to-mask.png){ data-zoom-image .w-50 }
+
+Attention à l'ordre des calques. Le masque doit être en dessous.
+
+### Masque par luminosité
+
+![](./assets/img/mask-luminance.png){ data-zoom-image .w-50 }
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/variable-manquante/prev.jpg)
+  ![](./activite/exercice/galerie/oizo.png)
 
   <small>Exercice - Figma</small><br>
-  **[-](./activite/exercice/variable-manquante/index.md){.stretched-link .back}**
+  **[Galerie d'art](./activite/exercice/galerie/index.md){.stretched-link .back}**
 </div>
 
-<!-- Composition avancée 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/trio/preview.png)
 
-grilles plus structurées (https://www.youtube.com/watch?v=hYu69kgxmLg)
-densité d’info
-rythme
-sections
+  <small>Exercice - Figma</small><br>
+  **[Trio](./activite/exercice/trio/index.md){.stretched-link .back}**
+</div>
 
-patterns UI de base
-https://www.youtube.com/watch?v=qPL3ubdlkRM&t=3s
-https://www.youtube.com/watch?v=m7kUGmNkPoc
- UI palette : https://www.tints.dev/palette/v1:Z29sZHxGQkJGMjR8MzAwfHB8MHwwfDB8MTAwfGE
-- Créer des **Color styles** nommés de façon stable, par exemple :
-  - `Neutral/0` (blanc) → `Neutral/900` (presque noir)
-  - `Primary/500` (accent principal)
-  - `Primary/600` (hover), `Primary/700` (active)
-  - `Text/Primary`, `Text/Secondary` (si vous préférez des noms fonctionnels)
-- Utiliser un **contrast checker** (plugin/outils Web) sur les paires texte/fond.
-- Vérifier au moins :
-  - texte principal sur fond principal
-  - CTA (texte + bouton)
-  - liens sur fond
-  - textes secondaires (souvent le point faible) -->
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/cyberpunk/preview.png)
 
-<!-- Composition avancée (remise logo)
+  <small>Exercice - Figma</small><br>
+  **[Cyberpunk 2077](./activite/exercice/cyberpunk/index.md){.stretched-link .back}**
+</div>
 
-À enseigner
-* Grilles (8pt system), sections, densité, répétition intentionnelle.
-* “Scannabilité” : titres, blocs, CTA, alignements.
 
-Démo
-* Layout grid + auto-layout pour sections (cards/listes).
 
-Atelier
-* Construire une landing page structurée (wire visuel, pas encore UX détaillée) :
-* header / hero / 2 sections / footer
-
-Devoir
-* Nettoyer la page + cohérence des styles (typo/couleurs/espacements). -->
