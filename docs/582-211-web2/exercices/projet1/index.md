@@ -74,8 +74,9 @@ Décider :
 ### 6. Documentation
 
 - Documenter les décisions techniques prises lors de l’intégration. [Documenter par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html#4-documentez-vos-composants).
-
-- Utilisez les commentaires HTML et CSS pour documenter ainsi que le README.md du projet.
+- Pour documenter:
+  - rédiger des commentaires HTML `<!-- -->` et CSS `/* */` et
+  - créer un fichier `README.md` pour expliquer votre démarche, vos choix techniques et les défis rencontrés.
 
 !!! warning
     L'évaluation du projet dépend de la *qualité de votre documentation*. C'est avec cette démarche que vous pouvez vraiment expliquer votre travail d'analyse, vos choix techniques et démontrer votre compréhension des concepts.
