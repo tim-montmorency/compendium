@@ -50,11 +50,18 @@ Comprendre les exigences et les objectifs du projet.
 
 ### 3. Analyse de la maquette
 
-Utiliser le *Dev Mode* de Figma (extension Figma for VS Code) pour comprendre la structure, les espacements, les styles et les valeurs CSS.
+La maquette que vous recevrez a été conçue avec des règles d’*auto-layout* de Figma qui correspondent à des propriétés CSS spécifiques sous le concept de Flexbox. Votre tâche est d’analyser la maquette en utilisant le *Dev Mode* de Figma pour identifier ces règles et comprendre comment elles se traduisent en HTML/CSS.
+
+Utiliser le *Dev Mode* (via l'extension Figma for VS Code) pour analyser et comprendre la structure, les espacements, les styles et les valeurs CSS. Démarrer avec la base générée par le Dev Mode et ensuite adapter et corriger pour créer un code propre et maintenable . Puis, fixeres défauts intentionnels qui ont été laissés dans la maquette.
 
 ### 4. Planification de l’intégration
 
-Décider de l’*architecture HTM*L, des *composants réutilisables*, de la *nomenclature des classes (BEM)* et du* système de tokens (variables)* à utiliser.
+Décider :
+
+- de l’*architecture HTML*,
+- des *composants réutilisables*,
+- de la *nomenclature des classes (BEM)*.
+- et du *système de tokens (variables)* à utiliser.
 
 ### 5. Intégration
 
@@ -62,7 +69,7 @@ Décider de l’*architecture HTM*L, des *composants réutilisables*, de la *nom
 
 - *Flexbox* : Utiliser Flexbox pour recréer la structure de la maquette, en traduisant les règles d’auto-layout de Figma en propriétés CSS appropriées.
 - Structurez *composants réutilisables*
-- Attention il y a *plusieurs éléments à corriger* à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de décider comment les corriger.
+- Attentio, il y a *plusieurs éléments à corriger* à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de les repérer et de décider comment les corriger.
 
 ### 6. Documentation
 
