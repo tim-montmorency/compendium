@@ -5,14 +5,14 @@
 Vous pouvez maintenant apporter vos images de Illustrator pour les animer!
 
 Dans Illustrator<br>
-1 - Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparation des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) <br>
-2- "Décomposer en calques" Si tout est sur un seul calque, sélectionnez ce calque, ouvrez le menu du panneau Calques (icône menu en haut à droite) et choisissez Décomposer en calques (séquence).<br>
-3- Extraire les sous-calques : Après la décomposition, les éléments restent des "sous-calques". Vous devez impérativement les glisser-déposer en dehors du calque parent pour qu'ils deviennent des calques principaux.<br>
-4- Nommer vos calques. [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay) <br>
+ - 1 Séparer les éléments à animer sur des calques individuels ([:material-play-circle: Séparer des calques animés](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERC8vR9l20BLpguxQ-27JOABlZ5BHqBPrMKReA9RR14vGQ?e=1B2vQt) ) <br>
+ - 2 "Décomposer en calques" Si tout est sur un seul calque, sélectionnez ce calque, ouvrez le menu du panneau Calques (icône menu en haut à droite) et choisissez Décomposer en calques (séquence).<br>
+ - 3 Extraire les sous-calques : Après la décomposition, les éléments restent des "sous-calques". Vous devez impérativement les glisser-déposer en dehors du calque parent pour qu'ils deviennent des calques principaux.<br>
+ - 4 Nommer vos calques. [:material-play-circle: Nomenclature des calques](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Eea10yK5n49Im7lS5wwrmU4B2s_D1WXRAE4q_WH_ECWHww?e=q5R6ay) <br>
 
 Dans After Effects<br>
-5- Importer le fichier par Fichier > Importer > Fichier (ctrl+i), ou glicer le fichier.<br>
-6- Dans le menu "Importer sous", choisissez Composition - Conserver les tailles de calque.<br>
+ - 5 Importer le fichier par Fichier > Importer > Fichier (ctrl+i), ou glicer le fichier.<br>
+ - 6 Dans le menu "Importer sous", choisissez Composition - Conserver les tailles de calque.<br>
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/giant-swiss-knife.jpg)
@@ -22,11 +22,7 @@ Dans After Effects<br>
   <small>Ajuster le vectoriel, vérifier la cohérence des positions et anticiper l'animation<br>Synchronisation avec l'[effet sonore](./assets/audio/lala.mp3)</small>
 </div>
 
-### Dans After Effetcs: importer un fichier Illustrator  
-
-
-
-#### Gestion des calques dans AE
+## Gestion des calques Illustrator dans After Effects
 
 ![](./assets/images/oups.png)
 
@@ -44,9 +40,6 @@ Clic droit > Remplacer le métrage > Fichier (choisir le fichier Illustrator) : 
 
 Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du calque vectoriel.
 
-
-
-
 ## Audio
 
 ![](./assets/images/audio.gif){ .w-100 }
@@ -60,7 +53,7 @@ Dans le panneau montage, clic-droit > Créer > Créer des formes à partir du ca
 
 ![](./assets/images/audio-panel.png){ data-zoom-image }
 
-### Marqueurs
+Marqueurs
 
 Pour la synchronisation de l'audio avec l'animation, il est très utile d'utiliser des marqueurs. Pour en ajouter, cliquez : `Calque > Marqueurs > Ajouter un repère`. Ainsi, même lorsque tous les calques sont réduits, on peut toujours visualiser où se situent les repères afin syncroniser les animations et les sons ponctuels. 
 
@@ -89,24 +82,27 @@ Téléchargez les fichiers  **[Le couteau suisse](./assets/images/suisse.eps)**<
 [:material-play-circle: Exportation](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EeWZd6JaVOhGnr8mxzEdcaEB5Zp3XG9HCr5FkgMZ32SXuA?e=f5Nt2e)
 
 ### Diffusion web et réseaux sociaux
-
 Format : H.264 puis "YouTube 1080p Full HD" ou "Vimeo 1080p Full HD"
 
 ### Qualité professionnelle avec compression
-
 Format : Quicktime puis Apple ProRes 422 / 4444 (idéal pour montage et étalonnage)
 
 ### Archivage haute qualité
-
 Format : Quicktime puis CineForm ou DNxHR/DNxHD (Haute qualité, mais fichiers lourds)
 Préréglage : "GoPro CineForm YUV 10 bits" ou "DNxHR HQX 10-bit"
 
 ![](./assets/images/export.png){ data-zoom-image }
 
+## Effets
 
+Voici quelques effets intéressants à essayer<br><br>
 
-
-
+[📁 Loop Out Ping pong](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/Efe2JQiXykRNmmTNkxiPZ-4BAlDB7F7THCPlvwNaTKAqow?e=23RGPG){ .md-button }  <br>
+[📁 Bend it](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ESKGZY5CKUBGvHl2i6FtASQBGNrbN2CLUvsuu-Q5HKNI8w?e=O99Cuc){ .md-button }<br>
+[📁 Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br> 
+[📁 Goutte Loop Out](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=GgSZWd){ .md-button } <br>
+[📁 Onde progressive](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=2GJlA0){ .md-button }   
+[📁 Lettre en 3D](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EVdQNho5RytFh6UUKRjBA3wBEe4o7k5f4S6gdjQcBsi56w?e=3H46lj){ .md-button }
 ## Typographie cinétique
 
 La typographie cinétique (de l’anglais _kinetic typography_) est une technique d’animation impliquant la **présentation dynamique d’un texte** dans le temps, souvent **associée à un son** ou à des **vidéos musicales**, afin de transmettre ou de renforcer un message. 
@@ -181,17 +177,10 @@ https://www.creativebloq.com/typography/examples-kinetic-typography-11121304
 https://www.linearity.io/blog/kinetic-typography/
 
 -->
-### Considérations pour l'animation de la typographie
-
- - Déterminer l'**audience et le message**, ce qu'on veut communiquer par le mouvement
- - Techniques d'animation: **explorez plusieurs techniques** d'animation typographique, choisissez ensuite les techniques qui complètent bien le contenu.
- - **Choix typographique**: Sélectionnez la police la plus appropriée pour votre animation
- - Le **débit et le rythme** de vos animations doivent être minutieusement travaillés afin de créer une fluidité et un effet engageant
- - Restez **cohérent** du début à la fin au niveau des techniques d'animation, du rythme et du style visuel.
 
 ## Modes de fusion
 
-Les modes de fusion des calques contrôlent la manière dont chaque calque se fond ou interagit avec les calques qu’il recouvre. 
+Les modes de fusion des calques contrôlent la manière dont chaque calque se fond avec les calques qu’il recouvre. 
 
 [Modes de fusion (blending modes) dans After Effects](https://helpx.adobe.com/ca_fr/after-effects/using/blending-modes-layer-styles.html)
 
@@ -200,6 +189,8 @@ Pour accéder aux modes de fusion[^fusion], sélectionner un calque. Si la colon
 ![](./assets/images/mode-fusion.png)
 
 [^fusion]: <https://www.la-retouche-photo.com/photoshop-cours-005-les-modes-de-fusion/>
+
+[📁 Tutoriel: fusion pour typographie](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ERPPMtvTbkFNvnqoU-6lV-0BipSXZQEyRrKeQZgwhrApVQ?e=gIu8tY){ .md-button }    
 
 ## Exercices
 
