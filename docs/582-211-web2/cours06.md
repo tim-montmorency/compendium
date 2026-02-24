@@ -33,21 +33,26 @@ Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:
 -->
 
 
-## Figma Auto Layout et Dev Mode : De la maquette à l’intégration
+## Figma Auto Layout, Dev Mode : De la maquette à l’intégration
+
+### Figma Auto Layout
 
 [📚 Contenu de cours *Figma Auto Layout (flexbox)*](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/){ .md-button .md-primary }
-
-[📚 Contenu de cours *Figma: variables*](https://tim-montmorency.com/timdoc/582-211/css/figma-variables/){ .md-button .md-primary }
 
 <!-- 
 [👩🏻‍💻 Exercice - Carte salle de conférence - Figma Dev Mode](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/carte-salle-conference/){ .md-button }
 -->
 
-## Figma Dev Mode
+### Figma Dev Mode
 
 [📚 Contenu de cours *Figma Dev Mode*](./css/figma-devmode.md){ .md-button .md-primary }
 
-## De Dev Mode à décision professionnelle
+### Les variables dans Figma
+
+[📚 Contenu de cours *Figma: variables*](./css/figma-variables.md){ .md-button .md-primary }
+
+
+### De Dev Mode à décision professionnelle
 
 [👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours06-p01-charte-devmode.pptx){ .md-button }
 
