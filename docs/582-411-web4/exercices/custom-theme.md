@@ -2,6 +2,9 @@
 
 ## EXERCICE — Création d’un thème FSE personnalisé
 
+## Matériel requis
+[Screenshot](../assets/screenshot.png)
+
 **À partir de la structure officielle minimale**
 
 ### Objectifs
