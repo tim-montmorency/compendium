@@ -9,13 +9,11 @@
     Les consignes et les critères d’évaluation du projet 1 sont en cours de finalisation. Ils seront publiés sur cette page, ici même, au plus tard le 24 février en fin de journée.
     La maquette Figma individuelle et le brief du client seront envoyés par Teams, individuellement, au plus tard le 24 février en fin de journée.
 
-## Évaluation
+## Objectif et évaluation
 
-35% de la note finale du cours
+**ÉVALUATION:** 35% de la note finale du cours
 
-## Objectif
-
-Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
+**OBJECTIF:** Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
 
 ## Contexte
 
@@ -46,7 +44,7 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 24 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
 
-### 2.Lecture du brief du client
+### 2. Lecture du brief du client
 
 Comprendre les exigences et les objectifs du projet.
 
@@ -66,7 +64,7 @@ Décider de l’*architecture HTM*L, des *composants réutilisables*, de la *nom
 - Structurez *composants réutilisables*
 - Attention il y a *plusieurs éléments à corriger* à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de décider comment les corriger.
 
-### 6.Documentation
+### 6. Documentation
 
 - Documenter les décisions techniques prises lors de l’intégration. [Documenter par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html#4-documentez-vos-composants).
 
