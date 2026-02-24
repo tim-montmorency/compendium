@@ -37,18 +37,43 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 ## Étapes
 
-- 0.**Préparation**:
-  - Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
-  - Création de votre répertoire GitHub, nommez-le : `nom-prenom-projet1-web2` (non lié à GitHub Classrooom, c’est un repo personnel).
-- 1.**Le choix de la maquette**: l'enseignante va vous attribuer une maquette Figma à intégrer.
-- Lecture du biref du client** : comprendre les exigences et les objectifs du projet.
-- 3.**Analyse de la maquette** : Utiliser le Dev Mode pour comprendre la structure, les espacements, les styles et les valeurs CSS.
-- 4.**Planification de l’intégration** : Décider de l’architecture HTML, des composants réutilisables, de la nomenclature des classes et du système de tokens à utiliser.
-- 5.**Intégration** : Écrire le code HTML et CSS en s’inspirant du code généré par Figma, mais en l’adaptant pour créer un code propre et maintenable.
-  - **Flexbox** : Utiliser Flexbox pour recréer la structure de la maquette, en traduisant les règles d’auto-layout de Figma en propriétés CSS appropriées.
-  - Structurez **composants réutilisables**
-  - Attention il y a **plusieurs éléments à corriger** à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de décider comment les corriger.
-- 6.**Documentation** : Documenter les décisions techniques prises lors de l’intégration. Documenter par composant.
+### 0. Préparation
+
+- Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
+- Création de votre répertoire GitHub, nommez-le : `nom-prenom-projet1-web2` (non lié à GitHub Classrooom, c’est un repo personnel).
+
+### 1. Le choix de la maquette
+
+Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 24 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
+
+### 2.Lecture du biref du client
+
+Comprendre les exigences et les objectifs du projet.
+
+### 3. Analyse de la maquette
+
+Utiliser le *Dev Mode* de Figma (extension Figma for VS Code) pour comprendre la structure, les espacements, les styles et les valeurs CSS.
+
+### 4. Planification de l’intégration
+
+Décider de l’*architecture HTM*L, des *composants réutilisables*, de la *nomenclature des classes (BEM)* et du* système de tokens (variables)* à utiliser.
+
+### 5. Intégration
+
+Écrire le code HTML et CSS en s’inspirant du code généré par Figma via le Dev Mode, mais en l’adaptant pour créer un code propre et maintenable.
+
+- *Flexbox* : Utiliser Flexbox pour recréer la structure de la maquette, en traduisant les règles d’auto-layout de Figma en propriétés CSS appropriées.
+- Structurez *composants réutilisables*
+- Attention il y a *plusieurs éléments à corriger* à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de décider comment les corriger.
+
+### 6.Documentation
+
+- Documenter les décisions techniques prises lors de l’intégration. [Documenter par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html#4-documentez-vos-composants).
+
+- Utilisez les commentaires HTML et CSS pour documenter ainsi que le README.md du projet.
+
+!!! warning
+    L'évaluation du projet dépend de la *qualité de votre documentation*. C'est avec cette démarche que vous pouvez vraiment expliquer votre travail d'analyse, vos choix techniques et démontrer votre compréhension des concepts.
 
 ## Calendrier du projet
 
