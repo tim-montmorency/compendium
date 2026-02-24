@@ -100,7 +100,7 @@ Pour plier et annimer:<br>
 [📁 Onde progressive Ex. Drapeau au vent](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EX9ajx8UpMxCqE_Ed9PsYlIBlPqeaHhtyH7W2-vJ3sjBGQ?e=2GJlA0){ .md-button } <br> 
 
 Pour créer des traits animés:<br>
-[📁 Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br>
+[📁 Réduire les tracés Ex. Goutte](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/EbTWdoyUo3NDvs0zyxz3U1wBPjyHqOjtHH7jLdiRGCO4ZA?e=0NN7K4){ .md-button }   <br>
 [📁 Goutte Loop Out](https://cmontmorency365.sharepoint.com/:v:/s/TIM-582214-Animation2d77/ETxZvGlMdL1CisMBrtucYZUBBXWDcGTiq03-DEA3SEBKgA?e=GgSZWd){ .md-button } <br>
 
 ## Typographie cinétique
