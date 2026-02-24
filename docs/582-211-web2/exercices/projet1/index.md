@@ -8,18 +8,17 @@
 !!! danger "Important"
     Les consignes et les critères d’évaluation du projet 1 sont en cours de finalisation. Ils seront publiés sur cette page, ici même, au plus tard le 24 février en fin de journée.
     La maquette Figma individuelle et le brief du client seront envoyés par Teams, individuellement, au plus tard le 24 février en fin de journée.
-
 ## Objectif et évaluation
 
 **ÉVALUATION:** 35% de la note finale du cours
 
-**OBJECTIF:** Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
+**OBJECTIF:** Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques : segmenter l'interface en [composants réutilisables](../../css/composants.md), appliquer la [nomenclature BEM](../../css/nomenclature-bem.md) et les concepts de Flexbox ([`display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-wrap`](../../css/flexbox01.md) | [`flex-grow`, `flex-shrink`, `flex-basis`, `flex`](../../css/flexbox02.md)  | [`order`](../../css/flexbox-order.md)), mettre en place un [système de tokens (variables CSS)](../../css/variables-unites-fonctions.md) et documenter votre travail de manière professionnelle.
 
 ## Contexte
 
 *Projet individuel*
 
-Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de transformer une maquette Figma fournie par un designer en une page web fonctionnelle. 
+Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de transformer une maquette Figma fournie par un designer en une page web fonctionnelle.
 
 Vous devez analyser la maquette, comprendre les intentions du designer à travers le *Dev Mode* de Figma, et utiliser Flexbox pour recréer la structure de la maquette tout en produisant un code propre et maintenable.
 
