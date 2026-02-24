@@ -46,7 +46,7 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 24 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
 
-### 2.Lecture du biref du client
+### 2.Lecture du brief du client
 
 Comprendre les exigences et les objectifs du projet.
 

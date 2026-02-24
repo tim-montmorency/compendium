@@ -65,10 +65,16 @@ Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’i
 
 Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semaine de rattrapage.
 
-- Terminer les liens des CodePen des 2 exercices pratiques de renforcement Flexbox :
-  - *UI Dashboard*
-  - *Page de résultats de recherche*.
-- Débuter le projet 1 : analyse de la maquette et planification de l’intégration (architecture HTML, composants réutilisables, nomenclature des classes, système de tokens)
+- *Terminer les 2 exercices pratiques de renforcement Flexbox* et remettre les 2 liens des CodePen dans le devoir TEAMS attitré avant le cours 7 :
+  - UI Dashboard
+  - Page de résultats de recherche
+- *Débuter le projet 1* :
+  - création du repo GitHub personnel pour le projet 1
+  - lecture des consignes complètes du projet 1
+  - lecture du brief du client qui vous est attitré
+  - analyse de la maquette qui vous est attitrée (via le Dev Mode de Figma)
+  - planification de l’intégration (architecture HTML, composants réutilisables, nomenclature des classes, système de tokens (variables))
+  - début de l’intégration (HTML/CSS) du projet
 
 !!! danger "Semaine de rattrapage (2–8 mars)"
     Travail autonome intensif : c’est votre responsabilité de planifier votre temps et de faire des progrès significatifs sur le projet 1. Profitez des ressources disponibles, des rencontres individuelles en classe et de l'aide des tuteurs pour obtenir du soutien.
