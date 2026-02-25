@@ -6,8 +6,8 @@
 ---
 
 !!! danger "Important"
-    Les consignes et les critères d’évaluation du projet 1 sont en cours de finalisation. Ils seront publiés sur cette page, ici même, au plus tard le 24 février en fin de journée.
-    La maquette Figma individuelle et le brief du client seront envoyés par Teams, individuellement, au plus tard le 24 février en fin de journée.
+    Les consignes et les critères d’évaluation du projet 1 sont en cours de finalisation. Ils seront publiés sur cette page, ici même, au plus tard le 26 février en fin de journée.
+    La maquette Figma individuelle et le brief du client seront envoyés par Teams, individuellement, au plus tard le 26 février en fin de journée.
 ## Objectif et évaluation
 
 **ÉVALUATION:** 35% de la note finale du cours
@@ -28,7 +28,7 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 - Un brief du "client" avec des exigences spécifiques
 
 !!! warning
-    Ils vous seront envoyés par TEAMS (conversation privée) au plus tard le 24 février en fin de journée.
+    Ils vous seront envoyés par TEAMS (conversation privée) au plus tard le 26 février en fin de journée.
 
 À noter que la maquette et le brief sont différents pour chaque étudiant. Certains se ressemblent au niveau du thème mais les éléments et la structure sont différents.
 
@@ -41,7 +41,7 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 ### 1. Le choix de la maquette
 
-Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 24 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
+Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 26 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
 
 ### 2. Lecture du brief du client
 
@@ -84,7 +84,7 @@ Décider :
 
 | Date | Activité |
 |------|----------|
-| **Cours 6 (23 ou 25 fév.)** | Lancement du projet + 24 février: attribution des entreprises et maquettes |
+| **Cours 6 (23 ou 25 fév.)** | Lancement du projet + 26 février: attribution des entreprises et maquettes |
 | **2–8 mars** | **SEMAINE DE RATTRAPAGE** — Travail autonome intensif |
 | **Cours 7 (9 ou 11 mars)** | Travail en classe + rencontres individuelles |
 | **Cours 8 (16 ou 18 mars)** | **REMISE** + Présentations orales |
