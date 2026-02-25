@@ -8,10 +8,9 @@
 - Regard sur les notions et évaluations à venir
 - Présentation de ressources sur l'animation et After Effects
 - Les masques
-- Présentation de quelques effets (vitesse de lecture, tuiles et transitions)
 - La notion de parallaxe, les caméras et les calques en disposition 3d
-- Présentation des TP
 - Devoir
+- Présentation des TP
 
 ## Retour sur le cours
 
@@ -22,12 +21,19 @@
 
 ### Notions 
 
+#### Cours 8
 - Masques
 - Parallaxe et caméra
+  
+#### Cours 9
 - Notions de scénarisation et préproduction
-- Éditeur de courbes
+- Éditeur de courbes et modulation de la vitesse 
 - Expressions
+
+#### Cours 10
 - Particules
+
+#### À tous les cours
 - Des effets, des effets et des effets
 
 ![](./assets/images/EffectsEverywhere.jpg)
@@ -63,7 +69,7 @@ Vous avez aussi déjà vu ce concept dans le cours de Photoshop.
 
 [:material-play-circle: Masque](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/jfcartier_cmontmorency_qc_ca/EYDK-EAzAEdMjdwlkX8gluQBym5K49hF_bpY_-LRvu0DKw)
 
-### Création de masque
+### Création de masques
 
 1. Sélectionner le calque à masquer.
 1. Choisir un des outils de dessin (**formes** ou **plume**).
@@ -120,117 +126,34 @@ Utiliser une vidéo en noir et blanc pour créer un effet de masque progressif s
 1. Sélectionner le calque inférieur.
 1. Dans la colonne Application d'un cache, choisir le calque qui doit servir de matte.
 
-## Vitesse de lecture vidéo
+## Parallaxe et Caméra
 
-![](./assets/images/time-remap.png)
+![](./assets/images/Parallax.png)
 
-**Activer le remappage temporel** : Permet de lisser la vitesse de lecture à l'aide de keyframes.
+La parallaxe c'est le décalage d'un objet par rapport à un autre lorsque l'observateur change de point de vue. En vidéo, on voit les objets proches bouger plus vite et les objets loin bouger plus lentement. Sans parallaxe, une image est plate comme un dessin : [exemple](https://www.youtube.com/watch?v=2z4OTRFuLP8). Néanmoins, il est possible de créer un effet de parallaxe pour donner vie à nos images dans After Effects. Pour y arriver, il est nécessaire de disposer des calques en relation de distance et d'animer une caméra. Pour se pratiquer, nos allons faire un exercice simple.  
 
-**Extension temporelle...** : Modifie la vitesse de lecture de la vidéo, en accéléré ou au ralenti.
+1. Télécharger le dossier de départ
+2. Découper les claques dans Photoshop
+3. Importer les calques dans After Effects
+4. Disposer les calques dans l'espace 3d
+5. Ajouter et animer une caméra
 
-Raccourci pertinent : ++ctrl+shift+d++ pour couper un calque vidéo en 2 à la position de la tête de lecture.
+![](./assets/images/3d.png){ data-zoom-image }
 
-## Quelques techniques pour l'exercice AMV
+Pour activer le mode caméra, il suffit d'ajouter un calque de caméra.
 
-[Tableau de traduction des effets](https://www.blog-motion-design.hellohubert.fr/2021/08/12/after-effects-liste-des-effets-en-anglais-traduit-en-francais/)
+![](./assets/images/camlayer.png){ data-zoom-image }
 
-### Tuiles
+Ensuite, activer les options 3d des calques qui doivent être affectés par la caméra.
 
-Avant : 
+![](./assets/images/active3d.png){ data-zoom-image }
 
-![type:video](./assets/videos/tuile-avant.mp4)
+Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est préférable de changer la disposition des vues de 1 vue à 4 vues.
 
-Après :
+![](./assets/images/4%20vues.png){ data-zoom-image }
 
-![type:video](./assets/videos/tuile-apres.mp4)
-
-Outils : **Juxstaposition directionnelle** (Motion Tile) ou **CC Repetile**.
-
-![](./assets/images/juxta.png)
-
-![](./assets/images/cc-repetile.png)
-
-### Wiggle
-
-Outils : Tremblement - position et Tremblement - rotation
-
-Si vous utilisez CC Repetile par exemple, vous devez placer les effets wiggle après.
-
-### Transition "Punch zoom"
-
-![type:video](./assets/videos/transition-anime.mp4)
-
-Pour effectuer cette transition, on utilise deux outils de base (scale, alpha) et l'effet Flou gaussien.
-
-Encore mieux que le flou gaussien, utilisez le flou objectif appareil photo.
-
-### Transition en glitch
-
-![type:video](./assets/videos/glitch.mp4)
-
-Le concept est de prendre 2 clips et d'en faire une précomposition.
-
-Puis, on duplique la précomposition 3 fois puis à chaque claque, on applique Décalage des couches.
-
-On change ensuite le mode de chaque précomposition à Écran.
-
-Finalement, on anime dans la plage de transition, chaque calque avec un effet de Tremblement - position.
-
-### Transition pan
-
-Pour cet effet, il faut simplement modifier la position de droite à gauche des deux clips tout en utilisant CC Repetile.
-
-Pour un effet plus jolie, ne pas oublier la gestion des ease et le flou de mouvement.
-
-### Intensité
-
-Ajoutez par exemple un Flou encadré accéléré lorsqu'une action rapide est effectuée. Idéalement, on ajuste horizontalement ou verticalement pour orienter le flou !
-
-Avant : 
-
-![type:video](./assets/videos/fast-blur-avant.mp4)
-
-Après :
-
-![type:video](./assets/videos/fast-blur-apres.mp4)
-
-Aussi, on peut très bien utiliser l'effet Echo pour ajouter encore plus d'intensité !
-
-![type:video](./assets/videos/echo.mp4)
-
-
-
-
-
-## Prochainement
-
-* Formules d'animation (expression)
-* Système de particules
-* TP2 
+## Regard
 
 ## Devoir
 
-<!--
-Après un TP plus formatif que créatif, c'est enfin le moment d'exprimer sa créativité !!
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/rube_goldberg/rube.gif)
-
-  <small>Exercice - After Effects</small><br>
-  **[Rube Goldberg](./exercices_ae/rube_goldberg/rube.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/amv/amv.gif)
-
-  <small>Exercice - After Effects</small><br>
-  **[AMV](./exercices_ae/amv/amv.md){.stretched-link .back}**
-</div>
-
-[🛠️ Cinéma](exercices_ae/04_cinema.md){ .md-button }
-[🛠️ Masque](exercices_ae/04_masque.md){ .md-button }
-[🛠️ Typographie et masque](exercices_ae/09_typo_masque.md){ .md-button }
-[🛠️ Texturing](exercices_ae/09_texturing.md){ .md-button }
-
-[Vidéo initiale](https://www.pexels.com/video/man-jumps-into-the-water-3827674/)
--->
