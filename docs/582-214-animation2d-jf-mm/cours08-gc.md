@@ -61,7 +61,7 @@
 
 ![](./assets/images/masque-photoshop.jpg)
 
-Un masque est une forme appliquée à un calque pour masquer une partie de son contenu. 
+Un masque est une forme appliquée à un calque pour masquer (ou découper) une partie de son contenu. 
 
 Il est souvent utilisé pour créer des effets de transition, révéler du texte ou des images, ou appliquer des modifications localisées.
 
@@ -88,21 +88,18 @@ Les masques possèdent plusieurs propriétés accessibles dans le panneau Timeli
 * Opacité : Ajuste la transparence du masque.
 * Expansion : Agrandit ou réduit la zone du masque.
 
-### Masque de suivi
+## Exercice ajout d'un masque 
 
-![](./assets/images/mask-suivi.png)
+<div class="grid grid-1-2" markdown>
+  ![](./exercices_ae/gaia/gaia-preview.png)
 
-![](./assets/images/suivi-panel.png)
-
-![type:video](./assets/videos/suivi.mp4)
-
-### Alignement du masque
-
-Il est possible de déplacer le masque vectoriel manuellement, mais pour ce faire, il faut d'abord sélectionner les points d'ancrage. Quant à l'alignement, ce n'est pas possible, car cette fonctionnalité fonctionne seulement pour les calques. Il faudrait alors créer ce qu'on appelle un cache (matte).
+  <small>Exercice - After Effects</small><br>
+  **[Masque](./exercices_ae/masques-gc/masques.md){.stretched-link .back}**
+</div>
 
 ## Matte
 
-Un [cache](https://helpx.adobe.com/ca_fr/after-effects/using/track-mattes-and-traveling-mattes.html) (ou matte) permet d’utiliser un calque comme masque pour un autre. Il existe deux modes de cache :
+Un [cache](https://helpx.adobe.com/ca_fr/after-effects/using/track-mattes-and-traveling-mattes.html) (ou matte) permet d’utiliser un calque comme masque pour un autre. En gros, un masque découpe **dans** un calque et un matte découpe **avec** un calque. Il existe deux modes de cache :
 
 ### Alpha
 
@@ -125,6 +122,20 @@ Utiliser une vidéo en noir et blanc pour créer un effet de masque progressif s
 1. Placer un calque au-dessus de celui à masquer.
 1. Sélectionner le calque inférieur.
 1. Dans la colonne Application d'un cache, choisir le calque qui doit servir de matte.
+
+## Exercice ajout d'un cache 
+
+### Masque de suivi
+
+![](./assets/images/mask-suivi.png)
+
+![](./assets/images/suivi-panel.png)
+
+![type:video](./assets/videos/suivi.mp4)
+
+### Alignement du masque
+
+Il est possible de déplacer le masque vectoriel manuellement, mais pour ce faire, il faut d'abord sélectionner les points d'ancrage. Quant à l'alignement, ce n'est pas possible, car cette fonctionnalité fonctionne seulement pour les calques. Il faudrait alors créer ce qu'on appelle un cache (matte).
 
 ## Parallaxe et Caméra
 
@@ -152,7 +163,7 @@ Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est
 
 ![](./assets/images/4%20vues.png){ data-zoom-image }
 
-## Regard
+## Regarder le TP
 
 ## Devoir
 
