@@ -1,6 +1,6 @@
 # Masques 
 
-[Dossier de départ :material-download:](./masque.zip){ .md-button .md-button--primary }
+[Dossier de départ :material-download:](./masques-gc.zip){ .md-button .md-button--primary }
 
 ## Ajout de masque
 
@@ -29,3 +29,4 @@
 - [ ] Supprimer le calque de texte 
 - [ ] Ajouter l'image Négatif devant la pré-composition Background
 - [ ] Appliquer le cache en mode Luma sur la pré-composition Background
+
