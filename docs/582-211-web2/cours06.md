@@ -65,7 +65,7 @@ Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’i
 
 [👩🏻‍💻 Instructions *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
-Notez que vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 26 février en fin de journée.
+Notez que vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 27 février en fin de journée.
 
 
 ## DEVOIR pour le prochain cours (lundi 9 ou merc. 11 mars)
@@ -75,7 +75,7 @@ Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semai
 - *Terminer les 2 exercices pratiques de renforcement Flexbox* et remettre les 2 liens des CodePen dans le devoir TEAMS attitré avant le cours 7 :
   - UI Dashboard
   - Page de résultats de recherche
-- *Débuter le projet 1* (vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 26 février en fin de journée) :
+- *Débuter le projet 1* (vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 27 février en fin de journée) :
   - création du repo GitHub personnel pour le projet 1
   - lecture des consignes complètes du projet 1
   - lecture du brief du client qui vous est attitré
