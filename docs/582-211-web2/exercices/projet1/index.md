@@ -38,6 +38,10 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 - Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
 - Création de votre répertoire GitHub, nommez-le : `nom-prenom-projet1-web2` (non lié à GitHub Classrooom, c’est un repo personnel).
+- Faites un clone en local (sur votre OneDrive ou votre disque dur externe) de votre repo GitHub.
+- Préparez votre environnement de travail (VSCode, extension Figma for VS Code, etc.).
+- Ajoutez à votre répertoire un README.md pour présenter votre projet et un DOCUMENTATION.md pour documenter votre démarche d’intégration.
+- Faites un premier commit avec un message clair pour marquer le début de votre projet. Et poussez ce commit sur GitHub.
 
 ### 1. Le choix de la maquette
 
@@ -62,7 +66,7 @@ Décider :
 - de la *nomenclature des classes (BEM)*.
 - et du *système de tokens (variables)* à utiliser.
 
-Dans un fichier `README.md`, documenter votre démarche de planification et les décisions prises: liste des composants réutilisables identifiés, l’architecture HTML proposée, la nomenclature BEM choisie et le système de tokens (variables) mis en place.
+Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification et les décisions prises: liste des composants réutilisables identifiés, l’architecture HTML proposée, la nomenclature BEM choisie et le système de tokens (variables) mis en place.
 
 ### 5. Intégration
 
@@ -77,7 +81,8 @@ Dans un fichier `README.md`, documenter votre démarche de planification et les 
 - Documenter les décisions techniques prises lors de l’intégration. [Documenter par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html#4-documentez-vos-composants).
 - Pour documenter:
   - rédiger des commentaires HTML `<!-- -->` et CSS `/* */` et
-  - créer un fichier `README.md` pour expliquer votre démarche, vos choix techniques et les défis rencontrés.
+  - créer un fichier `DOCUMENTATION.md` pour expliquer votre démarche, vos choix techniques et les défis rencontrés.
+  - créer un fichier `README.md` pour présenter le projet.
 
 !!! warning
     L'évaluation du projet dépend de la *qualité de votre documentation*. C'est avec cette démarche que vous pouvez vraiment expliquer votre travail d'analyse, vos choix techniques et démontrer votre compréhension des concepts.
