@@ -30,11 +30,8 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 ## Vous allez tous recevoir:
 
-- Une maquette Figma complète avec auto-layout avec des défauts intentionnels à corriger.
-- Un brief du "client" avec des exigences spécifiques
-
-!!! warning
-    Ils vous seront envoyés par TEAMS (conversation privée) au plus tard le 27 février en fin de journée.
+- Une maquette Figma complète avec auto-layout avec des défauts intentionnels à corriger (par Teams, individuellement)
+- [Un brief du projet accepssible ici même](./Projet1_Brief.pdf)
 
 À noter que la maquette et le brief sont différents pour chaque étudiant. Certains se ressemblent au niveau du thème mais les éléments et la structure sont différents.
 
