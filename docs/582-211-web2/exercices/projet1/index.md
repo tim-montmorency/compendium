@@ -84,10 +84,10 @@ Décider :
 
 | Date | Activité |
 |------|----------|
-| **Cours 6 (23 ou 25 fév.)** | Lancement du projet + 27 février: attribution des entreprises et maquettes |
-| **2–8 mars** | **SEMAINE DE RATTRAPAGE** — Travail autonome intensif |
-| **Cours 7 (9 ou 11 mars)** | Travail en classe + rencontres individuelles |
-| **Cours 8 (16 ou 18 mars)** | **REMISE** + Présentations orales |
+| **Semaine 6 (vendredi 27 février)** | Lancement du projet le 27 février: attribution des entreprises et maquettes |
+| **2–8 mars** | **SEMAINE DE RATTRAPAGE** — Travail autonome intensif (vous devez avoir avancé pour montrer l'avancement de votre travail en classe au cours 7) |
+| **Cours 7 (9 ou 11 mars)** | **Travail en classe + rencontres individuelles** |
+| **Cours 8 (16 ou 18 mars)** | **REMISE** |
 
 
 ## Critères d’évaluation (à venir)

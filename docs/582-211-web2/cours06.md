@@ -33,9 +33,11 @@ Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:
 -->
 
 
-## Figma Auto Layout, Dev Mode : De la maquette à l’intégration
+## Figma Auto Layout et vabiables
 
-### Figma Auto Layout
+### Figma Auto Layout et correspondance avec Flexbox
+
+Mise en place de la maquette avec des règles d’auto-layout qui correspondent à des propriétés CSS spécifiques sous le concept de Flexbox.
 
 [📚 Contenu de cours *Figma Auto Layout (flexbox)*](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/){ .md-button .md-primary }
 
@@ -43,19 +45,32 @@ Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:
 [👩🏻‍💻 Exercice - Carte salle de conférence - Figma Dev Mode](https://tim-montmorency.com/timdoc/582-211/css/flexbox-figma-auto-layout/exercices/carte-salle-conference/){ .md-button }
 -->
 
-### Figma Dev Mode
-
-[📚 Contenu de cours *Figma Dev Mode*](./css/figma-devmode.md){ .md-button .md-primary }
-
 ### Les variables dans Figma
+
+Comment créer un système de variables dans Figma pour les couleurs, les typographies et les espacements, et comment les utiliser dans une maquette.
 
 [📚 Contenu de cours *Figma: variables*](./css/figma-variables.md){ .md-button .md-primary }
 
 
+## Figma Dev Mode
+
+### Dev Mode
+
+Dev Mode : lecture de l'intention du designer généré par Figma à partir d’une maquette avec des règles d’auto-layout, et analyse critique du code auto-généré.
+
+[📚 Contenu de cours *Figma Dev Mode*](./css/figma-devmode.md){ .md-button .md-primary }
+
+#### Utilisation du Dev Mode de Figma à l'intérieur de VSCode
+
+[Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension)
+
+### Export d'images et d'icônes dans Figma
+
+[:material-play-circle: Export d'images à partir d'une maquette Figma](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQB-87veJfcxR79OhR04fIJRAdvaXydvDLg1V9o5-ywCoN4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K3uA6x)
+
 ### De Dev Mode à décision professionnelle
 
 [👩‍🏫 Exposé 1a: L'intégrateur à l'ère de l'IA: Télécharger le PPT :material-download:](./assets/cours06-p01-charte-devmode.pptx){ .md-button }
-
 
 ## Lancement du projet-1: Assemblage d’interface (35%)
 
