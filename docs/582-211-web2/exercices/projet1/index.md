@@ -5,9 +5,15 @@
 
 ---
 
-!!! danger "Important"
-    Les consignes et les critères d’évaluation du projet 1 sont en cours de finalisation. Ils seront publiés sur cette page, ici même, au plus tard le 27 février en fin de journée.
-    La maquette Figma individuelle et le brief du client seront envoyés par Teams, individuellement, au plus tard le 27 février en fin de journée.
+## LE BRIEF COMPLET POUR LE PROJET 1 
+
+LE BRIEF COMPLET EST DISPONIBLE ICI : 
+[Projet 1: Brief complet (PDF)](./Projet1_Brief.pdf){ .md-button .md-primary }
+
+Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
+[Grille d'auto-évaluation du projet 1 (PDF)](./Projet1_Grille_Autoevaluation.pdf){ .md-button .md-primary }
+
+
 ## Objectif et évaluation
 
 **ÉVALUATION:** 35% de la note finale du cours
@@ -97,6 +103,15 @@ Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification 
 | **Cours 8 (16 ou 18 mars)** | **REMISE** |
 
 
-## Critères d’évaluation (à venir)
+## Critères d’évaluation    
 
-...
+Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf]()
+
+| Catégorie | Pondération |
+|-----------|-------------|
+| Structure et organisation du code | 20% |
+| Système de design (variables/tokens) | 15% |
+| Maîtrise de Flexbox | 30% |
+| Fidélité à la maquette | 15% |
+| Documentation et justifications | 20% |
+
