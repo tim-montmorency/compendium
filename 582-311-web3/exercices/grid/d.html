@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exo 4 — Item qui s'étend</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 120px);
+        gap: 12px;
+        max-width: 1000px;
+        margin: 2rem auto;
+      }
+      .cell {
+        background: #e9eef5;
+        border: 1px solid #c7d2e0;
+        display: grid;
+        place-items: center;
+        font: 600 1rem/1.2 system-ui, sans-serif;
+        border-radius: 8px;
+      }
+      /* L'item .big s'étend sur 2 colonnes et 2 rangées */
+      .big {
+        grid-column: 2 / span 2; /* colonnes 2 et 3 */
+        grid-row: 1 / span 2; /* rangées 1 et 2 */
+        background: #cfe1ff;
+        border-color: #9bb8ff;
+        font-size: 1.1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Placement manuel (un item occupe 2 colonnes et 2 rangées) -->
+
+    <div class="grid">
+      <div class="cell">1</div>
+      <div class="cell big">Item qui s’étend (2×2)</div>
+      <div class="cell">3</div>
+      <div class="cell">4</div>
+      <div class="cell">5</div>
+      <div class="cell">6</div>
+      <div class="cell">7</div>
+      <div class="cell">8</div>
+      <div class="cell">9</div>
+      <div class="cell">10</div>
+      <div class="cell">11</div>
+      <div class="cell">12</div>
+    </div>
+  </body>
+</html>

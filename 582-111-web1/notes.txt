@@ -1,0 +1,120 @@
+TP1 / TP2 les faire jouer au jeu le cours avant l'énoncé.
+
+- Modification dans la console pour débloquer un champ de formulaire
+- Affichage d'information utile dans un commentaire du HTML ou dans un meta
+- Portion d'une image cliquable
+- Changer la lisibilité d'un mot en css
+- Réponse à une question dans l'URL.
+- Mot important dissimulé dans un bloc de texte.
+- Texte encodé.
+- Enigme simple, question quiz ou formule à résoudre
+- Indice dissimulé dans une image
+- Indice dans le nom de l'image
+
+https://cleanup.pictures/
+https://image-upscaling.net/upscaling
+Pexel
+https://deepai.org/machine-learning-model/text2img
+https://deepmind.google/models/imagen/
+Chatgpt
+
+
+
+Relume (wireframe)
+Fullcircle pour le tp final
+
+
+
+Important de l'indentation
+
+
+
+CanIuse
+
+
+
+----
+
+Cours 01 - Mis de côté
+
+> L’expérience utilisateur regroupe tous les aspects de l’interaction entre un utilisateur final et une entreprise, ses services et ses produits. Pour offrir une expérience exemplaire, il ne suffit pas de répondre aux besoins de l’utilisateur : il faut le faire avec simplicité, fluidité et plaisir. Une bonne UX nécessite une collaboration entre plusieurs disciplines (ingénierie, marketing, design) pour créer un tout cohérent.[^nng]
+
+### Les 7 facettes d'une UX de Peter Morville
+
+| Facette                       | Définition |
+|-------------------------------|------------|
+| **Utile** (_useful_)          | Le contenu ou la fonctionnalité répond à un besoin réel. |
+| **Utilisable** (_usable_)     | Le produit est facile à utiliser, sans effort inutile. |
+| **Attractif** (_desirable_)   | L’interface est attrayante et suscite des émotions positives. |
+| **Trouvable** (_findable_)    | L’information est facile à localiser et à parcourir. |
+| **Accessible** (_accessible_) | Tout le monde peut l’utiliser, y compris les personnes en situation de handicap. |
+| **Crédible** (_credible_)     | Le contenu et l’interface inspirent confiance. |
+| **Précieux** (_valuable_)     | Le produit crée de la valeur pour l’utilisateur **et** pour l’organisation. |
+
+### Draw.io
+
+![draw-io](https://github.com/user-attachments/assets/2be5053f-6e20-4630-90a4-e72e939a31e6)
+
+Draw.io est un outil en ligne de création de diagrammes et de schémas. Il permet aux utilisateurs de concevoir des diagrammes de flux, des organigrammes, des diagrammes de réseau, des schémas de base de données, des maquettes d'interface utilisateur, des plans d'architecture et bien d'autres types de graphiques visuels.
+
+L'outil offre une interface conviviale qui facilite la création de diagrammes professionnels, même pour les personnes qui ne sont pas des concepteurs expérimentés.
+
+[Draw.io](https://draw.io)
+
+## Lexique
+
+* **HTML** : Langage de balisage pour structurer le contenu Web
+* **CSS** : Langage de style pour la présentation visuelle
+* **UX** : Expérience utilisateur (User eXperience)
+* **UI** : Interface utilisateur (User Interface)
+* **Frontend** : Partie visible d'une application Web (côté client)
+* **Backend** : Partie serveur d'une application (côté serveur)
+* **Responsive** : Mise en forme qui s'adapte à tous les écrans
+
+## Composantes d’une page Web et interactivité
+
+Web components : <https://blog.kamathrohan.com/atomic-design-methodology-for-building-design-systems-f912cf714f53>
+
+/autres/composantes-web.html
+
+## Métiers du Web
+
+| Métier                     | Description                                    | Compétences clés |
+|----------------------------|------------------------------------------------|------------------|
+| Développeur Frontend       | Interface utilisateur (HTML/CSS/JS)            | HTML, CSS, JavaScript, React/Vue |
+| Développeur Backend        | Serveurs, bases de données, API, sécurité      | PHP, Python, Node.js, bases de données |
+| Intégrateur Web            | Maquettes graphiques → code HTML/CSS           | HTML, CSS, responsive design |
+| Designer UX/UI             | Expérience utilisateur et interface graphique  | Figma, Adobe XD, recherche utilisateur |
+| Gestionnaire de projet Web | Coordination des équipes et ressources         | Gestion de projet, communication |
+
+**Autres métiers connexes** : SEO, rédaction Web, analyse Web, DevOps, sécurité Web.
+
+### Un Web à plusieurs niveaux
+
+![Niveaux du Web](./assets/images/clear-deep-dark.webp)
+
+#### Web surfacique
+
+C'est la partie d'Internet accessible à tous via les moteurs de recherche classiques comme <google.ca>, le site du collège ou <lapresse.ca>.
+
+#### Web profond
+
+Partie du Web qui n'est pas accessible aux internautes au moyen des moteurs de recherche usuels[^webprofond]. Cela inclut les bases de données, les intranets ou les contenus protégés par mot de passe (ex. : Netflix, Gmail, AccèsD). Cette portion représente la majorité du Web. Certains estiment qu'elle en constitue jusqu'à 95%[^avast] du Web !
+
+[^webprofond]: [Définition de la toile profonde | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26544511/toile-profonde)
+[^avast]: [Avast – Dark web: facts and myths](https://www.avast.com/c-dark-web-facts)
+
+#### Web caché
+
+Partie du Web invisible à laquelle on peut accéder en utilisant des navigateurs Web spéciaux et des logiciels permettant le cryptage des communications[^webcache].
+
+[^webcache]: [Définition du Web caché | OQLF](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26557092/web-cache)
+
+<!-- ## Un peu d'histoire
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/timeline1/thumb.gif)
+
+  <small>Ligne du temps ludique</small><br>
+  **[La fabuleuse histoire de l'Internet](./exercices/timeline1/index.md){.stretched-link .back}**
+</div> -->
