@@ -555,8 +555,10 @@ Avant de terminer, vous devez réaliser au moins deux des défis suivants. Il n'
 - [ ] Exporter le jeu à l'aide du bouton build dans File, build settings. Sauvegarder le tout dans un dossier nommé **Build**.
 - [ ] Remettez le dossier build de votre jeu dans un dossier à votre nom dans le dossier de remise:
 
-[📁 Remise Travail 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Etxrw-BcDyBIiQBwBSHKIIAB5nD74_l8FJF2CNYIjjQPbw?e=JYEvdE){ .md-button }   
-     
+[📁 Remise Travail 2 - Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Etxrw-BcDyBIiQBwBSHKIIAB5nD74_l8FJF2CNYIjjQPbw?e=JYEvdE){ .md-button }   
+
+[📁 Remise Travail 2 - Jean-François](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/IgDe8ntuQNxnTKcHmC9XV4j8AdDHxo4ugwJOWN5YnPDnImw){ .md-button }   
+
 
 ## Notes de cours 📚
 [:pencil: Prefabs](../unity/prefabs.md){ .md-button }
