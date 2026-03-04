@@ -91,7 +91,7 @@ Les masques possèdent plusieurs propriétés accessibles dans le panneau Timeli
 
 ## Exercice ajout d'un masque 
 
-[Dossier de départ :material-download:](./exercices_ae/masques-gc.zip){ .md-button .md-button--primary }
+[Dossier de départ :material-download:](./exercices_ae/masques-gc/masques-gc.zip){ .md-button .md-button--primary }
 
 ## Matte
 
@@ -159,11 +159,14 @@ Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est
 
 ![](./assets/images/4%20vues.png){ data-zoom-image }
 
+## Exercice parallaxe
+
+[Dossier de départ :material-download:](./exercices_ae/parallaxe.zip){ .md-button .md-button--primary }
+
 ## Regarder vos TP??
 
 ## Devoir
 
-- Masques et mattes
-- Caméra et parallaxe
+
 
 
