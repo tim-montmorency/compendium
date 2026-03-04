@@ -21,7 +21,7 @@ Le projet doit comprendre les demandes suivantes :
 
 La préproduction doit comprendre :
 
-### 🎬 Storyboard
+### Storyboard
 
 - Le nom et le type de l’œuvre  
 - Une description du ton  
@@ -30,7 +30,7 @@ La préproduction doit comprendre :
 - Indication des mouvements de caméra ou des éléments  
 - Indication sonore  
 
-### 🎨 Moodboard
+### Moodboard
 
 - Références visuelles  
 - Palette de couleurs  
