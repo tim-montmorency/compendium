@@ -1,5 +1,20 @@
 # Cours 9
 [STOP]
+
+## Notions de scénarisation et préproduction
+
+Avant d'ouvrir After Effects et d'animer, il est idéal de déterminer une démarche entre termes d'intention et de ton, mais aussi en termes de direction artistique et de rythme. En gros, on se pose les questions suivantes : 
+- À qui ça s'addresse et quel est l'émotion à faire vivre?
+- Quel est le ton (informatif, dramatique, humoristique, poétique…)?
+- De quoi ça doit avoir l'air (en termes de formes, couleurs et typo)?
+- Quel sera le rythme (rapide, lent), combien de plans et quels seront les mouvements (caméra et éléments)?
+
+Pour répondre à ses questions, il est idéal de noter le tout dans un fichier texte, mais pour le rythme et la direction artistique, deux outils nous serons particulièrement utiles : le moodboard et le storyboard. 
+
+### Moodboard
+
+### Storyboard
+
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
 
