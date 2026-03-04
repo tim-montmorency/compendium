@@ -91,12 +91,7 @@ Les masques possèdent plusieurs propriétés accessibles dans le panneau Timeli
 
 ## Exercice ajout d'un masque 
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/gaia/gaia-preview.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[Masque](./exercices_ae/masques-gc/masques.md){.stretched-link .back}**
-</div>
+[Dossier de départ :material-download:](./exercices_ae/masques-gc.zip){ .md-button .md-button--primary }
 
 ## Matte
 
@@ -164,8 +159,11 @@ Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est
 
 ![](./assets/images/4%20vues.png){ data-zoom-image }
 
-## Regarder le TP
+## Regarder vos TP??
 
 ## Devoir
+
+- Masques et mattes
+- Caméra et parallaxe
 
 
