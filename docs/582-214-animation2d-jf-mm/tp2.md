@@ -15,8 +15,6 @@ Le projet doit comprendre les demandes suivantes :
 2. Animation  
 3. Livrable (remise)
 
----
-
 ## Préproduction
 
 La préproduction doit comprendre :
@@ -35,8 +33,6 @@ La préproduction doit comprendre :
 - Références visuelles  
 - Palette de couleurs  
 - Typographie envisagée  
-
----
 
 ## Animation
 
@@ -59,8 +55,6 @@ L’animation doit comprendre les éléments suivants :
   - Les noms des TTP et autres en remerciements
   - Le logo TIM
 
----
-
 ## Livrable
 
 Le tout doit être remis dans un dossier à votre nom avec les éléments suivants :
@@ -70,14 +64,10 @@ Le tout doit être remis dans un dossier à votre nom avec les éléments suivan
 - Le storyboard
 - Le moodboard
 
----
-
 ## Consignes additionnelles
 
 - Travail individuel  
 - Présentation en classe lors du **cours 11 (22-23 avril 2026)**
-
----
 
 # CRITÈRES D’ÉVALUATION
 
@@ -95,8 +85,6 @@ Le tout doit être remis dans un dossier à votre nom avec les éléments suivan
 ## Livrables — /10
 - Respect du ton et de l’intention — /5  
 - Conformité des éléments — /5  
-
----
 
 ## Total — /100
 
