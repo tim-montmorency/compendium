@@ -18,8 +18,8 @@ Lancement du Projet 1 : assemblage d’interface (35%)
 -->
 
 <div class="class-content-link">
-  <img src="./assets/IA-restreinte.png">
-  <span class="sidetext">PHASE 2: Utilisation de l'IA permise mais limitée. VOUS POUVEZ vérifier et comparer après avoir codé. VOUS NE POUVEZ PAS générer la structure de base du code. Pourquoi ? Vous devez démontrer votre maîtrise autonome.</span>
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
 </div>
 
 
