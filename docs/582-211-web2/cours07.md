@@ -5,6 +5,13 @@
   <span class="sidetext">PHASE 2: Utilisation de l'IA permise mais limitée. VOUS POUVEZ vérifier et comparer après avoir codé. VOUS NE POUVEZ PAS générer la structure de base du code. Pourquoi ? Vous devez démontrer votre maîtrise autonome.</span>
 </div>
 
+## Remise
+
+Remise des liens CodePen des 2 exercices du derniers cours (dans Teams)
+
+- UI Dashboard
+- Page de résultats de recherche
+
 
 ## RAPPEL Politique d'utilisation de l'IA — Phase 2
 
@@ -24,8 +31,14 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
 
 ## Travail en classe sur le Projet 1 
 
-Travail en classe sur le Projet 1 : assemblage d’interface (35%) 
+[👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
+
+Travail en classe sur le Projet 1.
 
 Objectif : Avancer sur le projet 1 en classe avec la possibilité de poser des questions à l’enseignante et d’avoir des rencontres individuelles pour la rétroaction.
 
+## DEVOIR
 
+Terminer le Projet 1 pour la remise au cours 8 (16 ou 18 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
+
+[👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }

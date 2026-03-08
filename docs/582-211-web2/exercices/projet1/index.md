@@ -2,6 +2,8 @@
 
 [< retour au *cours 6*](../../cours06.md)
 
+[< retour au *cours 7*](../../cours07.md)
+
 
 ---
 
