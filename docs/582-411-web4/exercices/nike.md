@@ -2,7 +2,7 @@
 
 ## Matériel
 
-[Télécharger les images](../assets/documents/mike-images.zip)
+[Télécharger les images](../assets/documents/nike-images.zip)
 
 [Télécharger les vidéos part.1](../assets/documents/nike-video-part-1.zip)
 
