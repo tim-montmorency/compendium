@@ -39,7 +39,7 @@ Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:
 -->
 
 
-## Figma Auto Layout et vabiables
+## Figma Auto Layout et variables
 
 ### Figma Auto Layout et correspondance avec Flexbox
 
