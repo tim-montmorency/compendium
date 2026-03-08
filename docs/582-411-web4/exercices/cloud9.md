@@ -2,7 +2,7 @@
 
 ## Matériel
 
-[Télécharger les documents](../assets/documents/Cloud9-images.zip)
+[Télécharger les documents](../assets/documents/cloud9-images.zip)
 
 ## Wordpress
 * [ ]	Ouvrez votre installation WordPress
