@@ -17,6 +17,12 @@ Lancement du Projet 1 : assemblage d’interface (35%)
 
 -->
 
+<div class="class-content-link">
+  <img src="./assets/IA-restreinte.png">
+  <span class="sidetext">PHASE 2: Utilisation de l'IA permise mais limitée. VOUS POUVEZ vérifier et comparer après avoir codé. VOUS NE POUVEZ PAS générer la structure de base du code. Pourquoi ? Vous devez démontrer votre maîtrise autonome.</span>
+</div>
+
+
 
 ## Pratique et renforcement Flexbox
 

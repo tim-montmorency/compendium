@@ -1,7 +1,14 @@
-
 # Projet 1: Assemblage d’interface
 
 [< retour au *cours 6*](../../cours06.md)
+
+
+---
+
+<div class="class-content-link">
+  <img src="./assets/IA-restreinte.png">
+  <span class="sidetext">PHASE 2: Utilisation de l'IA permise mais limitée. VOUS POUVEZ vérifier et comparer après avoir codé. VOUS NE POUVEZ PAS générer la structure de base du code. Pourquoi ? Vous devez démontrer votre maîtrise autonome.</span>
+</div>
 
 
 ## LE BRIEF COMPLET POUR LE PROJET 
@@ -86,6 +93,7 @@ Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification 
 - Pour documenter:
   - rédiger des commentaires HTML `<!-- -->` et CSS `/* */` et
   - créer un fichier `DOCUMENTATION.md` pour expliquer votre démarche, vos choix techniques et les défis rencontrés.
+    - Inclure dans la documentation une section sur l’utilisation de l’IA (si applicable): quel outil IA, quelle version, la date, le prompt utilisé et quelle partie du code a été validée ou améliorée avec l’IA.
   - créer un fichier `README.md` pour présenter le projet.
 
 !!! warning
@@ -122,3 +130,18 @@ Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf](
 Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
 
 [Grille d'auto-évaluation du projet 1 (PDF)](./Projet1_Grille_Autoevaluation.pdf){ .md-button .md-primary }
+
+## Politique d'utilisation de l'IA — Phase 2
+
+Si vous utilisez l'IA pour le projet 1, vous devez l'inscrire dans le fichier  *documentation.md* : quel outil IA, quelle version, la date, le prompt et quelle partie du code pour avez validé ou amélioré avec l'IA.
+
+Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
+
+- PERMIS : Vérifier et comparer votre code après l'avoir écrit vous-même
+- PERMIS : Poser des questions conceptuelles pour comprendre
+- PERMIS : Déboguer un problème spécifique dans votre code
+- INTERDIT : Générer la structure de base ou des sections complètes
+- INTERDIT : Copier-coller du code IA sans le comprendre
+- INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
+
+<span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera.
