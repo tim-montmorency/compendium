@@ -19,6 +19,8 @@
 
     Assurez-vous de ne pas avoir d’en-tête ou pied de page prédéfini
 
+![](../assets/images/elementor-element.png){data-zoom-image}
+
 * [ ]   Allez dans Paramètres de la page / Mise en page
 * [ ]   Choisissez “Valeur par défaut”
 * [ ]   Publier
