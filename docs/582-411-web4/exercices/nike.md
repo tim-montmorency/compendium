@@ -361,7 +361,7 @@ Assurez-vous que le JavaScript a été correctement collé. Il arrive parfois qu
 
 ## Pieds de page dans le Thème Astra
 
-![](../assets/images/nike-footer.jpg){data-zoom-image}
+![](../assets/images/nike-footer.png){data-zoom-image}
 
 ![](../assets/images/nike-footer-2.png){data-zoom-image}
 
