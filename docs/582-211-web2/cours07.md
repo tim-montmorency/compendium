@@ -12,7 +12,7 @@
   </div>
 </div>
 
-## Remise
+## Remise et révision
 
 Remise des liens CodePen des 2 exercices du derniers cours (dans Teams)
 
