@@ -74,6 +74,7 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Revener à l'en-tête
 * [ ]   Dans Secondary Menu : couleur du texte --> Noir
 * [ ]   Famille de police : Inter, Sans-Serif
+* [ ]   Choisissez la roue dentée de la première ligne et modifiez la couleur de l'arrière-plan : #CBED62
 * [ ]   Dans Astra, aller dans CSS additionnel et ajouter le CSS suivant.
 
 ```css
