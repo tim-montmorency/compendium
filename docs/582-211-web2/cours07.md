@@ -1,5 +1,7 @@
 # Cours 7
 
+<!-- Possibilité  de repouser la remise du Projet 1 au cours 9 (23-25 mars) car je leur ai envoyé les instructions vendredi soir très tard alors qu'ils deaient les avoir au 6...  C'est un peu de ma faute. Aussi je dois prendre en considération que le groupe du lundi am a manqué toute la partie du le devmode et l'auto-layout. Je pense devoir faire une révision pour eux... Donc je vais voir ou ils en sont en les rencontrant pendant le cours et je verrai ce que je fais...  -->
+
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
   <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
