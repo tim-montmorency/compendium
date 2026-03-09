@@ -23,6 +23,7 @@
 
 * [ ]   Allez dans Paramètres de la page / Mise en page
 * [ ]   Choisissez “Valeur par défaut”
+* [ ]   Masquer le titre
 * [ ]   Publier
 
 Aller voir à quoi ressemble votre page !
@@ -99,7 +100,7 @@ Aller voir à quoi ressemble votre page !
 }
 ```
 
-## Main
+## Main dans Elementor
 
 ##### Section
 
