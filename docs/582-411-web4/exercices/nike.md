@@ -34,6 +34,8 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Appuyer sur **personnaliser**
 * [ ]   Dans l'en-tête : sur la 2e ligne à gauche ajouter --> Site Title & Logo
 * [ ]   À l'intérieur, ajouter l'image nike-logo.png
+* [ ]   Effacer le titre du site web
+* [ ]   Taille du logo : **102px**
 * [ ]   Au centre de l'en-tête, ajouter menu principal
 * [ ]   Dans celui-ci, aller à configurer le menu
 * [ ]   Sous menu Principal, cliquer sur modifier le menu
@@ -54,7 +56,7 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Au bout de la 2e ligne, ajouter un bouton
 * [ ]   Ajouter le texte du bouton : **Créer votre compte**
 * [ ]   Ajouter la couleur du texte : #1E293B et l'arrière-plan : #CBED62
-* [ ]   Ajouter le rayon de courbure : 40px 40px 40px 40px
+* [ ]   Ajouter le rayon de bordure : 40px 40px 40px 40px
 * [ ]   Ajouter une marge interne de : 12px 30px 12px 30px
 
 * [ ]   Sur la 1ère ligne de l'en-tête, ajouter Secondary Menu
@@ -345,7 +347,7 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Ajouter un bouton --> Continuez avec un icône de flèche vers la droite à la fin
 * [ ]   Ajouter la couleur du texte : #1E293B et l'arrière-plan : #CBED62
 * [ ]   Ajouter la couleur Survol du texte : #ffffff et l'arrière-plan : #000000
-* [ ]   Ajouter le rayon de courbure : 50px 50px 50px 50px
+* [ ]   Ajouter le rayon de bordure : 50px 50px 50px 50px
 * [ ]   Ajouter une marge interne de : 8px 20px 8px 20px
 
 * [ ]   Ajouter l'image souliers.png dans la 2e colonne
