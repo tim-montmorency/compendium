@@ -255,6 +255,13 @@ Elementor permet de créer un site WordPress visuellement en utilisant des conte
 ## Exercice : Elementor
 
 <div class="grid grid-1-2" markdown>
+  ![](./assets/images/nike.png)
+
+  <small>Exercice - Elementor</small><br>
+  **[Nike](./exercices/nike.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
   ![](./assets/images/cloud9.png)
 
   <small>Exercice - Elementor</small><br>
