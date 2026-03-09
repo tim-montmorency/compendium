@@ -22,7 +22,7 @@
 
 Aller voir à quoi ressemble votre page !
 
-## Header
+## Header dans le Thème Astra
 
 ![](../assets/images/nike-header.png){data-zoom-image}
 
@@ -346,7 +346,7 @@ Aller voir à quoi ressemble votre page !
 
 * [ ]   Ajouter l'image souliers.png dans la 2e colonne
 
-## Pieds de page
+## Pieds de page dans le Thème Astra
 
 ![](../assets/images/nike-footer.png){data-zoom-image}
 
