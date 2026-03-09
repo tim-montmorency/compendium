@@ -296,6 +296,11 @@ Aller voir à quoi ressemble votre page !
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+
+!!! warning "Important"
+
+Assurez-vous que le JavaScript a été correctement collé. Il arrive parfois que le CSS reste en mémoire et soit recopié deux fois.
+
 ### Section 2
 
 * [ ]   Ajouter un conteneur Flexbox --> Colonne à l'aide du rectangle dans la page
