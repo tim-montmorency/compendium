@@ -21,6 +21,15 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams)
 - UI Dashboard
 - Page de résultats de recherche
 
+## Travail en classe sur le Projet 1 
+
+!!! warning 
+    Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
+
+    Cette mesure pourrait s’appliquer *particulièrement aux étudiants qui n’ont pas réalisé les exercices récents* (Flexbox dans CodePen) *ni l’évaluation formative* (atelier de composants du portfolio) des dernières semaines, puisque je n’ai *pas encore eu l’occasion de valider leurs acquis individuels*.
+
+[👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
+
 
 ## RAPPEL Politique d'utilisation de l'IA — Phase 2
 
@@ -35,16 +44,22 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
 - INTERDIT : Copier-coller du code IA sans le comprendre
 - INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
 
-<span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera.
+<span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera. Vous devez aussi documenter tout prompt à l'IA dans le cadre de ce projet.
 
 
 ## Travail en classe sur le Projet 1 
 
+!!! warning 
+    Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
+
+    Cette mesure pourrait s’appliquer *particulièrement aux étudiants qui n’ont pas réalisé les exercices récents* (Flexbox dans CodePen) *ni l’évaluation formative* (atelier de composants du portfolio) des dernières semaines, puisque je n’ai *pas encore eu l’occasion de valider leurs acquis individuels*.
+
 [👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
-Travail en classe sur le Projet 1.
+### Objectif
 
-Objectif : Avancer sur le projet 1 en classe avec la possibilité de poser des questions à l’enseignante et d’avoir des rencontres individuelles pour la rétroaction.
+Avancer sur le projet 1 en classe avec la possibilité de poser des questions à l’enseignante et d’avoir des rencontres individuelles pour la rétroaction.
+
 
 ## DEVOIR
 
