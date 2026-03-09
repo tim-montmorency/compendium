@@ -45,8 +45,7 @@ Aller voir à quoi ressemble votre page !
         Contact
 
 * [ ]   Revener à l'en-tête
-* [ ]   Dans le menu principal, ajuster le rayon de courbure : 50% 50% 50% 50%
-* [ ]   Couleur du texte : noir
+* [ ]   Dans le menu principal, couleur du texte : noir
 * [ ]   Couleur d'arrière-plan au survol : #CBED62
 * [ ]   Famille de police : Inter, Sans-Serif
 * [ ]   Espacement --> Menu : 0 40px 0 40px
