@@ -13,15 +13,34 @@ Pour répondre à ses questions, il est idéal de noter le tout dans un fichier 
 
 ### Moodboard
 
+![](./assets/images/cours09-gc/3061382.webp)
+
+Le moodboard est un outil qui sert à donner la direction artistique : quel sera le visuel et le *feel* de notre projet. Les éléments importants à mettre dans les moodboard durant **le cadre du cours** sont les suivants : 
+
+- Des images d'inspirations
+- Une palette de couleurs
+- Des exemples de typo pour les titres et les paragraphes
+  
 ### Storyboard
+
+![](./assets/images/cours09-gc/Jeremys_Lie_Storyboard.original.jpg)
+
+Le storyboard quant à lui est un outil qui sert à donner de indications de rythme, de cadrage et de mouvement (caméra et mise en scène). On peut faire un storyboard en faisant des dessins physiques sur du papier ou avec un logiciel de traitement d'images matriciel/vectoriel. En ce qui nous concerne, je vais vous inviter à utiliser [Storyboarder](https://wonderunit.com/storyboarder/), un logiciel qui permet de lier des dessins sur une ligne du temps avec un générateur de plans et qu'on peut même lier à Photoshop. 
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
 
+![](./assets/images/cours09-gc/demo-easing.gif)
+
+Nous avons travaillé avec le lissage (soit à l'entrée, à la sortie ou les deux), néanmoins il est possible de personnaliser le lissage avec un outil qu'on appelle, l'éditeur de graphique ou *graph editor*. Cet outil nous permet de régler la courbe d'accélération/ralentissement de notre projet et nous permet d'avoir des effets d'animation particuliers. 
+
+N.B. il est également possible d'appliquer des effets de lissage sur nos [animations web](https://easings.net/). Petite règle de base en web : il est idéal d'utiliser des accélérations à l'entrée pour des éléments interactifs (comme des boutons) et des ralentissement à l'entrée pour des animations de décorations (fondu, translations, etc.). 
+
+Il est important de se souvenir d'utiliser le graphique de vitesse pour les animations de position et le graphique de valeur pour la rotation, l'échelle et l'opacité. 
+
 [:material-play-circle: Éditeur de graphique (graph editor)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY0GAEKJYR9DsCPY7jjrF8cB4I1E5fM8Sm_FjQxlRsw9SQ?e=BgYJMZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)¸
 
 [:material-play-circle: Éditer les courbes de vitesse](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EctinuyOULZBnaicYDWPIZEBsTTw0CuinbDUXpMz3r9_ow?e=6G4P4B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
 
 [:material-play-circle: Explode Out et Into the Wall](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESwLmiwfV1NMkiZj-d-TqOoBx2cbg8z3wrO_9QX6s6jqNg?e=HWXYdv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -32,15 +51,11 @@ Pour répondre à ses questions, il est idéal de noter le tout dans un fichier 
 [Cours 2](./cours02.md)
  -->
 
-
-
 ## Alignement et distribution
 
 ![](./assets/images/repartition.png)
 
 La distribution se trouve dans le panneau "Aligner".
-
-
 
 ## Expressions
 
