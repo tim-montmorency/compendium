@@ -10,6 +10,9 @@
 
 ## Wordpress
 * [ ]	Ouvrez votre installation WordPress
+* [ ]	Installer le thème Astra
+* [ ]	Installer l'extension Elementor
+* [ ]	Installer l'extension Custom CSS for Elementor
 * [ ]	Créez une nouvelle page
 * [ ]	Cliquez sur “Modifier avec Elementor”
 !!! tip "Indice"
