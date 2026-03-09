@@ -9,7 +9,14 @@
 
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
-  <span class="sidetext">PHASE 2: Utilisation de l'IA permise mais limitée. VOUS POUVEZ vérifier et comparer après avoir codé. VOUS NE POUVEZ PAS générer la structure de base du code. Pourquoi ? Vous devez démontrer votre maîtrise autonome.</span>
+  <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
+    <ul>
+        <li>👍VOUS POUVEZ vérifier et comparer, APRÈS avoir codé</li>
+        <li>🚫VOUS NE POUVEZ PAS générer la structure de base de votre code</li>
+        <li>Si vous utilisez l'<em>IA</em>, vous devez noter chaque utilisation de celle-ci dans le fichier <code>documentation.md</code></li>
+    </ul>
+    <p>Pourquoi ? Vous devez démontrer votre maîtrise autonome.</p>
+  </div>
 </div>
 
 
@@ -123,6 +130,9 @@ Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf](
 | Fidélité à la maquette | 15% |
 | Documentation et justifications | 20% |
 
+
+
+
 ## LE BRIEF COMPLET POUR LE PROJET
 
 <span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
@@ -132,6 +142,8 @@ Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf](
 Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
 
 [Grille d'auto-évaluation du projet 1 (PDF)](./Projet1_Grille_Autoevaluation.pdf){ .md-button .md-primary }
+
+
 
 ## Politique d'utilisation de l'IA — Phase 2
 
@@ -147,3 +159,17 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
 - INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
 
 <span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera.
+
+---
+
+<div class="class-content-link">
+  <img src="./assets/IA-restreinte.png">
+  <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
+    <ul>
+        <li>👍VOUS POUVEZ vérifier et comparer, APRÈS avoir codé</li>
+        <li>🚫VOUS NE POUVEZ PAS générer la structure de base de votre code</li>
+        <li>Si vous utilisez l'<em>IA</em>, vous devez noter chaque utilisation de celle-ci dans le fichier <code>documentation.md</code></li>
+    </ul>
+    <p>Pourquoi ? Vous devez démontrer votre maîtrise autonome.</p>
+  </div>
+</div>

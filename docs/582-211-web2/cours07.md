@@ -2,7 +2,14 @@
 
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
-  <span class="sidetext">PHASE 2: Utilisation de l'IA permise mais limitée. VOUS POUVEZ vérifier et comparer après avoir codé. VOUS NE POUVEZ PAS générer la structure de base du code. Pourquoi ? Vous devez démontrer votre maîtrise autonome.</span>
+  <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
+    <ul>
+        <li>👍VOUS POUVEZ vérifier et comparer, APRÈS avoir codé</li>
+        <li>🚫VOUS NE POUVEZ PAS générer la structure de base de votre code</li>
+        <li>Si vous utilisez l'<em>IA</em>, vous devez noter chaque utilisation de celle-ci dans le fichier <code>documentation.md</code></li>
+    </ul>
+    <p>Pourquoi ? Vous devez démontrer votre maîtrise autonome.</p>
+  </div>
 </div>
 
 ## Remise

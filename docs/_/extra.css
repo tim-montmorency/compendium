@@ -664,6 +664,15 @@ stop:before {
   display: block;
   font-weight: bold;
 }
+.class-content-link .sidetext ul,
+.class-content-link .sidetext p {
+  margin: 0;
+  font-size: 70%;
+  font-weight: normal;
+}
+.class-content-link .sidetext ul li {
+  margin-bottom: 0 !important;
+}
 
 .important-label {
   display: inline-block;
