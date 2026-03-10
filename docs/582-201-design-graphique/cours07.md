@@ -89,11 +89,11 @@ Assurez-vous toujours d'un bon contrast des couleurs. Utilisez <https://colourco
 
 **Alignement**
 
-![](./assets/img/alignment-grid-1024x436.png)){data-zoom-image}
+![](./assets/img/alignment-grid-1024x436.png){data-zoom-image}
 
 ## L'adaptation au contexte
 
-![](./assets/img/e12eeffe585ec9fc482bc943b0b380c6359b6d50.png){.w-100}
+![](./assets/img/e12eeffe585ec9fc482bc943b0b380c6359b6d50.png){.w-100 data-zoom-image}
 
 Le même message ne se présente pas toujours de la même façon selon l'endroit où il apparaît et selon la stratégie de la campagne publicitaire.
 
@@ -105,6 +105,8 @@ Certaines campagnes veulent faire connaitre le nom d'une marque, d'autres veulen
 | **Story Instagram** | Scrolle vite, pouce sur l'écran          | Accroche ultra-rapide, peu de texte, format vertical |
 | **Feed Instagram**  | Scrolle le fil, contexte social          | Image forte, texte court, identité visuelle visible  |
 | **Google Display**  | Est en train de faire autre chose        | Intrusion légère, message minimaliste, CTA évident   |
+
+![](./assets/img/contextes.png){.w-50 data-zoom-image}
 
 Voici quelques formats :
 
@@ -127,7 +129,7 @@ Voici quelques formats :
 
 ![](./assets/img/massive-attack.jpg){.w-100}
 
-On apprend à concevoir des publicités, mais il est important de comprendre d’abord l’écosystème dans lequel elles circulent.
+On aborde aujourd'hui la publicité Web, mais il est important de comprendre aussi son écosystème.
 
 ### Le modèle économique
 
