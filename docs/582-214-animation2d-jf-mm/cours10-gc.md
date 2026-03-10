@@ -1,36 +1,7 @@
 [STOP]
 # Cours 10
 
-## Line art
-
-[:material-play-circle: Line art - Tutoriel 1/2](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/02_capsules_video/02_capsules_after_effects/31_effets/06_animation_line_art/01_animation_line_art_visage.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sM7mSg)
-
-[:material-play-circle: Line art - Tutoriel 2/2](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Animation%202D/animation%202D%202025/02_capsules_video/02_capsules_after_effects/31_effets/06_animation_line_art/02_animation_line_art_fleur.mov?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=erARCl)
-
-## Illustrator 🫠
-
-![](./assets/images/ezlayers.png){ data-zoom-image }
-
-Pour transformer rapidement des groupes en calques dans Adobe Illustrator, suivez ces étapes :
-
-1. **Sélection des groupes** : Dans le panneau Calques, sélectionnez les groupes que vous souhaitez convertir en calques distincts. ￼
-1. **Accès au menu des options** : Cliquez sur l’icône de menu (représentée par trois lignes horizontales) en haut à droite du panneau Calques. ￼
-1. **Décomposition en calques** : Choisissez l’option « Décomposer en calques (séquence) ». Cette commande répartit chaque élément du groupe sur son propre calque, facilitant ainsi leur gestion individuelle.  ￼
-1. **Réorganisation des calques** : Les nouveaux calques créés sont imbriqués sous le calque principal. Pour les déplacer au niveau supérieur, sélectionnez-les et faites-les glisser en dehors du calque parent, ou utilisez la commande « Rassembler sur un nouveau calque » pour les regrouper.  ￼
-
-Source : <https://helpx.adobe.com/lu_fr/illustrator/using/layers.html>
-
-## Séquencer une animation
-
-Couper un calque vidéo en 2 à la position de la tête de lecture: ++ctrl+shift+d++ 
-
-Séquencer (mettre bout à bout) des calques : <br>
-Sélection des calques. Clic-droit. Assistant d'image-clé/Calqus de séquence.
-![alt text](./assets/images/ae/ae-ass-img-cle_calque-de-sequnce.png)
-
-Résultat :
-![alt text](./assets/images/ae/ae-ass-img-cle_calque-de-sequnce_RESULT.png)
-
+## Suivi et masquage avancé
 
 ## Vitesse de lecture vidéo
 
