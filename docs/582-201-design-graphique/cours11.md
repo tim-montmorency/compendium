@@ -1,4 +1,4 @@
-# Cours 11
+# Cours 11 | Prototype
 
 [STOP]
 

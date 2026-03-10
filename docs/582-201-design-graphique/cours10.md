@@ -1,4 +1,4 @@
-# Cours 10
+# Cours 10 | Système de design
 
 [STOP]
 
