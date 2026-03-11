@@ -9,7 +9,7 @@ Dans le readme :
 - [ ] Une carte de votre environnement virtuel 
 - [ ] Un schéma de programmation ou d'interactivité
 
-Dans projects :  
+Dans projects ou Trello :  
 
 - [ ] Créez un tableau avec les tâches principales de votre jeu (Éléments à créer, à programmer,…) 
 - [ ] Pour chaque tâche, détaillez les assets à créer
