@@ -14,9 +14,9 @@
   </div>
 </div>
 
-## Remise et révision
+## Remise aujourd'hui (23-25 mars)
 
-Remise des liens CodePen des 2 exercices du derniers cours (dans Teams)
+Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 213/25 mars
 
 - UI Dashboard
 - Page de résultats de recherche
