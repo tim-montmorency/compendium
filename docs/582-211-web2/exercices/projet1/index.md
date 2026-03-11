@@ -47,32 +47,32 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 À noter que la maquette et le brief sont différents pour chaque étudiant. Certains se ressemblent au niveau du thème mais les éléments et la structure sont différents.
 
-## Étapes
+# Étapes
 
-### 0. Préparation
+## 0. Préparation (avant le 9/11 mars)
 
 - Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
 - Création de votre répertoire GitHub, nommez-le : `nom-prenom-projet1-web2` (non lié à GitHub Classrooom, c’est un repo personnel).
 - Faites un clone en local (sur votre OneDrive ou votre disque dur externe) de votre repo GitHub.
 - Préparez votre environnement de travail (VSCode, extension Figma for VS Code, etc.).
-- Ajoutez à votre répertoire un README.md pour présenter votre projet et un DOCUMENTATION.md pour documenter votre démarche d’intégration.
+- Ajoutez à votre répertoire un `README.md` pour présenter votre projet et un `DOCUMENTATION.md` pour documenter votre démarche d’intégration.
 - Faites un premier commit avec un message clair pour marquer le début de votre projet. Et poussez ce commit sur GitHub.
 
-### 1. Le choix de la maquette
+## 1. Le choix de la maquette (avant le 9/11 mars)
 
 Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 27 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
 
-### 2. Lecture du brief du client
+## 2. Lecture du brief du client (avant le 9/11 mars)
 
 Comprendre les exigences et les objectifs du projet.
 
-### 3. Analyse de la maquette
+## 3. Analyse de la maquette (avant le 9/11 mars)
 
 La maquette que vous recevrez a été conçue avec des règles d’*auto-layout* de Figma qui correspondent à des propriétés CSS spécifiques sous le concept de Flexbox. Votre tâche est d’analyser la maquette en utilisant le *Dev Mode* de Figma pour identifier ces règles et comprendre comment elles se traduisent en HTML/CSS.
 
 Utiliser le *Dev Mode* (via l'extension Figma for VS Code) pour analyser et comprendre la structure, les espacements, les styles et les valeurs CSS. Démarrer avec la base générée par le Dev Mode et ensuite adapter et corriger pour créer un code propre et maintenable . Puis, fixeres défauts intentionnels qui ont été laissés dans la maquette.
 
-### 4. Planification de l’intégration
+## 4. Planification de l’intégration (avant le 9/11 mars)
 
 Décider :
 
@@ -83,7 +83,7 @@ Décider :
 
 Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification et les décisions prises: liste des composants réutilisables identifiés, l’architecture HTML proposée, la nomenclature BEM choisie et le système de tokens (variables) mis en place.
 
-### 5. Intégration
+## 5. Intégration (du 9/11 mars au 23/25 mars)
 
 Écrire le code HTML et CSS en s’inspirant du code généré par Figma via le Dev Mode, mais en l’adaptant pour créer un code propre et maintenable.
 
@@ -91,7 +91,7 @@ Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification 
 - Structurez *composants réutilisables*
 - Attention, il y a *plusieurs éléments à corriger* à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de les repérer et de décider comment les corriger.
 
-### 6. Documentation
+## 6. Documentation (du 9/11 mars au 23/25 mars)
 
 - Documenter les décisions techniques prises lors de l’intégration. *Documenter par composant*.
 - Pour documenter:
@@ -116,7 +116,7 @@ Ajouter des commentaires pour séparer visuellement les grandes sections de la p
 
 ![HTML: commentaires par section (démo)](../../assets/commentaires-html.png)
 
-## Ce qu'on attend dans le CSS
+### Ce qu'on attend dans le CSS
 
 Ajouter un **bloc de commentaire descriptif juste avant les styles de chaque composant**. Ce bloc doit expliquer :
 
