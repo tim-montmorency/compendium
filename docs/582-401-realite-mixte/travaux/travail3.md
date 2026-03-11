@@ -29,5 +29,5 @@ On vise des équipes de 3.
 ## Remise
 
 Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
-[📁 Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/EuyNWLjHvnxPqPRiz6w8G08BhltAFOQm4P7kHai5QuqqAA?e=68qUHJ){ .md-button }   
+[📁 Dossier remise Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgAq5OwX6wlzSaxYi6QtE0FpAd1kxwFjyxUPlBVzIT9giOU?e=XZxQeV){ .md-button }   
 
