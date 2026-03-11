@@ -41,6 +41,9 @@ nav:
       # - Cours 15: 582-121–illustration-numerique/cours15.md
   - Web 2:
       - 582-211-web2/index.md
+      - Projets:
+        - 582-211-web2/exercices/projet1.index.md
+        - Projet 1: 582-211-web2/exercices/projet1.index.md
       - CSS:
         - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
