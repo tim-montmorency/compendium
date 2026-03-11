@@ -41,11 +41,11 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 [👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
 
-## RAPPEL Politique d'utilisation de l'IA — Phase 2
+## PHASE 2: Politique d'utilisation de l'IA
 
 Si vous utilisez l'IA pour le projet 1, vous devez l'inscrire dans le fichier  *documentation.md* : quel outil IA, quelle version, la date, le prompt et quelle partie du code pour avez validé ou amélioré avec l'IA.
 
-Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
+Durant le *Projet 1*, vous vous vous situez en *Phase 2* de la *politique IA du cours* :
 
 - PERMIS : Vérifier et comparer votre code après l'avoir écrit vous-même
 - PERMIS : Poser des questions conceptuelles pour comprendre
