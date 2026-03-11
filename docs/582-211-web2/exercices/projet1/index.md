@@ -8,7 +8,7 @@
 ---
 
 <div class="class-content-link">
-  <img src="./assets/IA-restreinte.png">
+  <img src="../../assets/IA-restreinte.png">
   <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
     <ul>
         <li>👍VOUS POUVEZ vérifier et comparer, APRÈS avoir codé</li>
@@ -112,11 +112,16 @@ Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification 
 
 | Date | Activité |
 |------|----------|
-| **Semaine 6 (vendredi 27 février)** | Lancement du projet le 27 février: attribution des entreprises et maquettes |
-| **2–8 mars** | **SEMAINE DE RATTRAPAGE** — Travail autonome intensif (vous devez avoir avancé pour montrer l'avancement de votre travail en classe au cours 7) |
-| **Cours 7 (9 ou 11 mars)** | **Travail en classe + rencontres individuelles** |
-| **Cours 8 (16 ou 18 mars)** | **REMISE** |
+| Semaine 6 (vendredi 27 février) | Lancement du projet 27 février: attribution des entreprises et maquettes |
+| 2–8 mars** | SEMAINE DE RATTRAPAGE — Travail autonome intensif (vous devez avoir avancé pour montrer l'avancement de votre travail en classe au cours 7) |
+| Cours 7 groupes du lundi (9 mars ~~11 mars~~) | Travail en classe + rencontres individuelles |
+| Cours 8 seulement le groupe du mercredi (18 mars)| PAS DE TRAVAIL EN CLASSE SUR LE PROJET mais possiblité de rencontre à la demande |
+| Avant le cours 9 (23 ou 25 mars) | REMISE |
 
+!!!danger "Groupe du mercredi: À propos de la levée de cours du mercr. 11 mars"
+    Le cours du mercredi 18 mars sera consacré à autre chose : *vous n'aurez pas de temps en classe pour avancer le Projet 1*. Prévoyez donc de travailler à la maison ou lors des autres périodes de la semaine.
+
+    Le 18 mars, une courte période sera disponible pour des questions individuelles ponctuelles, mais uniquement si vous êtes déjà bien avancés. Rappel important : il est impossible de réaliser un projet de qualité et d'atteindre tous les critères d'évaluation en une seule semaine — planifiez en conséquence. <span class="important-label">N'attendez surtout pas au 18 mars pour débuter — ce serait compromettre vos chances de succès</span>, ce se condamner à remettre un travail incomplet.
 
 ## Critères d’évaluation
 
@@ -163,7 +168,7 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
 ---
 
 <div class="class-content-link">
-  <img src="./assets/IA-restreinte.png">
+  <img src="../../assets/IA-restreinte.png">
   <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
     <ul>
         <li>👍VOUS POUVEZ vérifier et comparer, APRÈS avoir codé</li>

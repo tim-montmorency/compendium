@@ -63,6 +63,6 @@ Avancer sur le projet 1 en classe avec la possibilité de poser des questions à
 
 ## DEVOIR
 
-Terminer le Projet 1 pour la remise au cours 8 (16 ou 18 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
+Terminer le Projet 1 pour la remise ~~avant le cours 8 (16 ou 18 mars)~~ <span class="important-label">REPORTÉ</span> avant le cours 9 (23 ou 25 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
 
 [👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
