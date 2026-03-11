@@ -26,6 +26,60 @@ On vise des équipes de 3.
 - [ ] Le projet doit être recherché, on doit essayer de se distinguer de ce qui existe déjà et qui a déjà été vu.
 - [ ] Vous devez remettre le projet au format exporté en plus d'une capture vidéo de l'expérience.
 
+## Exemples de travaux
+*Les consignes de ces travaux peuvent différer des vôtres, mais vous ouvriront à des possibilités.  
+
+### Poly-pêche
+Un jeu de pêche en réalité virtuelle.
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQB9SNpM2l6KTJqHe6Ee7wKSAU4jL4tNDiX2_BLkKbeYmQI?e=MOnI4A){ .md-button }   
+
+
+### Donjon temporel
+Donjon temporel vous permet de traverser un donjon, il y a des énigmes à résoudre, des parcours physiques à réussir et une mécanique de jeu qui permet de découvrir deux points de vue de la même pièce.   
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQD3e-J_LksOQ7cBVXHZTqYlAdBfOfDel-F05ExkCDTvZGk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ID3BBW){ .md-button }   
+
+
+### Éco6tème
+Un jeu dans un univers spatial qui vous donne plusieurs énigmes à résoudre.  
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCJS6SQvBonRL-IrY0dZGvrAbacA6ealcIl3Iih7yjaFCg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZHfF3T){ .md-button }   
+
+
+### Mystimix
+Mystimix offre une expérience interactive et immersive plongeant les joueurs dans la peau d'un magicien qui doit élaborer des recettes de sorts en combinant divers ingrédients et en explorant les mystères de la magie.  
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAa0fMqGHZFT67Ppaug2TbRAeQ_olWKe2qWftjDSysMK9o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VYBbe5){ .md-button }   
+
+
+### Délire sucré
+Un jeu de cuisine à la Overcook avec un style japonnais. 
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBQ8SAx05YRSLbpfwJfIEZXAX6mMnCnhXgps-I9z-DMffs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ujczif){ .md-button }   
+
+### Mothbar
+Un jeu qui vous plonge dans la peau d'un barman qui sert des monstres.   
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQDAy6OsxbafTqtFeMTBHfztAWc9n-jGqyw0wUXOPMSTNl4?e=qh7qKb){ .md-button }   
+
+### Fleuriste
+Un jeu avec des clients qui vous permet de leur servir des bouquets de fleurs.   
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCOXzzgw8YSZ697g60hX4kAVsHQa445PP1sxkHysn_wIw?e=XWcDfz){ .md-button }   
+
+
+### Océan
+Un jeu qui vous permets d'amasser des coquillages dans un fond marin.   
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAeocqqKrCIR4AromauPv_cAV8F3TmkEOVYD2TgANAL_d8?e=2QaOyS){ .md-button }   
+
+
+### Jeu d'évasion
+Un jeu d'évasion à travers les époques.
+
+[🎥 Vidéo du projet](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/lora_boisvert_cmontmorency_qc_ca/Documents/Documents/VR/Remises/2023/03_ProjetFinal/gameplay_documentation.mkv?csf=1&web=1&e=4ec5tq){ .md-button }   
+
+
 ## Remise
 
 Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
