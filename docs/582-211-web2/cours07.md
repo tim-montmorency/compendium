@@ -28,8 +28,8 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
 
 Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 9 ou 11 mars
 
-- UI Dashboard
-- Page de résultats de recherche
+- [👩🏻‍💻 Exercice *UI Dashboard*](./exercices/cours6-ui-dashboard/)
+- [👩🏻‍💻 Exercice *Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/)
 
 !!! info
     <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
