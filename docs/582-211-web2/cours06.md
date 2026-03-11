@@ -32,6 +32,11 @@ Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier
 
 [👩🏻‍💻 Exercice *Flexbox: Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/){ .md-button }
 
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
+
 
 <!--
 Note pédagogiques pour prof pour les 2 exercices de pratique sur Flexbox:

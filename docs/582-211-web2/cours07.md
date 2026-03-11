@@ -24,12 +24,17 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
   </div>
 </div>
 
-## Remise aujourd'hui (9-11 mars)
+## Remise des exercices du dernier cours
 
-Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 213/25 mars
+Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 9 ou 11 mars
 
 - UI Dashboard
 - Page de résultats de recherche
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
 ## Travail en classe sur le Projet 1 
 

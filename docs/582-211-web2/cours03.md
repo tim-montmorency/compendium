@@ -79,7 +79,6 @@ Exercice individuel
   </div>
 </div>
 
-
 #### Étape 2
 
 Ouvrez le fichier téléchargé dans VS Code pour l'analyser.
@@ -149,7 +148,6 @@ Créez un tableau sur Microsoft Whiteboard avec 3 colonnes :
 
 ## Bloc8: EXERCICE - *Renommer code mal structuré (code spaghetti)*
 
-
 #### Étape 1
 
 !!! tip Classement de vos fichiers du cours Web 2
@@ -174,10 +172,6 @@ Les consignes sont dans le README.md de l'exercice.
 
 Faire un commit et push de vos modifications sur GitHub Classroom.
 
-
-## [Annulé] ~~BLOC 9 : ATELIER-*Portfolio: Créer un système CSS*~~
-
-À ne pas faire pour cette semaine. On verra ça au prochain cours.
 
 <!--
 #### Étape 1
@@ -213,4 +207,3 @@ Terminer et remettre les exercices non complétés en classe:
 - celle du [bloc 5](#bloc5-atelier-identifier-composantsutilitaires) en équipe (whiteboard)
 - celle du [bloc 8](#bloc8-exercice-renommer-code-mal-structure-code-spaghetti) individuel
 
-- ~~celle du [bloc 9](#bloc-9-atelier-portfolio-creer-un-systeme-css-documente)~~
