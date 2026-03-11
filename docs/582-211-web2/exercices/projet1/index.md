@@ -27,7 +27,7 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
 </div>
 
 
-## LE BRIEF COMPLET POUR LE PROJET 
+## LE BRIEF COMPLET
 
 <span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
 
@@ -66,12 +66,11 @@ Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâc
 
 Vous devez analyser la maquette, comprendre les intentions du designer à travers le *Dev Mode* de Figma, et utiliser Flexbox pour recréer la structure de la maquette tout en produisant un code propre et maintenable.
 
-## Vous avez reçu, le 27 février sur Teams:
+## La maquette de design à intégrer
 
-- Une maquette Figma complète avec auto-layout avec des défauts intentionnels à corriger (par Teams, individuellement)
-- [Un brief du projet accessible ici même](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6) 
+Vous avez reçu, le 27 février sur Teams (individuellement): une maquette de design Figma configurée avec **auto-layout**. Elle contient des défauts intentionnels à corriger.
 
-À noter que la maquette et le brief sont différents pour chaque étudiant. Certains se ressemblent au niveau du thème mais les éléments et la structure sont différents.
+À noter que la maquette est différente pour chaque étudiant. Certaines se ressemblent au niveau du thème mais les éléments et la structure sont différents.
 
 ---
 
