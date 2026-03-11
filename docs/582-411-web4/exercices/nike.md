@@ -10,25 +10,33 @@
 
 ## Wordpress
 * [ ]	Ouvrez votre installation WordPress
+* [ ]	Installer le thème Astra
+* [ ]	Installer l'extension Elementor
+* [ ]	Installer l'extension Custom CSS for Elementor
 * [ ]	Créez une nouvelle page
 * [ ]	Cliquez sur “Modifier avec Elementor”
 !!! tip "Indice"
 
     Assurez-vous de ne pas avoir d’en-tête ou pied de page prédéfini
 
+![](../assets/images/elementor-element.png){data-zoom-image}
+
 * [ ]   Allez dans Paramètres de la page / Mise en page
 * [ ]   Choisissez “Valeur par défaut”
+* [ ]   Masquer le titre
 * [ ]   Publier
 
 Aller voir à quoi ressemble votre page !
 
-## Header
+## Header dans le Thème Astra
 
 ![](../assets/images/nike-header.png){data-zoom-image}
 
 * [ ]   Appuyer sur **personnaliser**
 * [ ]   Dans l'en-tête : sur la 2e ligne à gauche ajouter --> Site Title & Logo
 * [ ]   À l'intérieur, ajouter l'image nike-logo.png
+* [ ]   Effacer le titre du site web
+* [ ]   Taille du logo : **102px**
 * [ ]   Au centre de l'en-tête, ajouter menu principal
 * [ ]   Dans celui-ci, aller à configurer le menu
 * [ ]   Sous menu Principal, cliquer sur modifier le menu
@@ -42,15 +50,14 @@ Aller voir à quoi ressemble votre page !
         Contact
 
 * [ ]   Revener à l'en-tête
-* [ ]   Dans le menu principal, ajuster le rayon de courbure : 50% 50% 50% 50%
-* [ ]   Couleur du texte : noir
+* [ ]   Dans le menu principal, couleur du texte : noir
 * [ ]   Couleur d'arrière-plan au survol : #CBED62
 * [ ]   Famille de police : Inter, Sans-Serif
 * [ ]   Espacement --> Menu : 0 40px 0 40px
 * [ ]   Au bout de la 2e ligne, ajouter un bouton
 * [ ]   Ajouter le texte du bouton : **Créer votre compte**
 * [ ]   Ajouter la couleur du texte : #1E293B et l'arrière-plan : #CBED62
-* [ ]   Ajouter le rayon de courbure : 40px 40px 40px 40px
+* [ ]   Ajouter le rayon de bordure : 40px 40px 40px 40px
 * [ ]   Ajouter une marge interne de : 12px 30px 12px 30px
 
 * [ ]   Sur la 1ère ligne de l'en-tête, ajouter Secondary Menu
@@ -67,6 +74,7 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Revener à l'en-tête
 * [ ]   Dans Secondary Menu : couleur du texte --> Noir
 * [ ]   Famille de police : Inter, Sans-Serif
+* [ ]   Choisissez la roue dentée de la première ligne et modifiez la couleur de l'arrière-plan : #CBED62
 * [ ]   Dans Astra, aller dans CSS additionnel et ajouter le CSS suivant.
 
 ```css
@@ -93,7 +101,7 @@ Aller voir à quoi ressemble votre page !
 }
 ```
 
-## Main
+## Main dans Elementor
 
 ##### Section
 
@@ -288,6 +296,11 @@ Aller voir à quoi ressemble votre page !
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+
+!!! warning "Important"
+
+Assurez-vous que le JavaScript a été correctement collé. Il arrive parfois que le CSS reste en mémoire et soit recopié deux fois.
+
 ### Section 2
 
 * [ ]   Ajouter un conteneur Flexbox --> Colonne à l'aide du rectangle dans la page
@@ -341,14 +354,16 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Ajouter un bouton --> Continuez avec un icône de flèche vers la droite à la fin
 * [ ]   Ajouter la couleur du texte : #1E293B et l'arrière-plan : #CBED62
 * [ ]   Ajouter la couleur Survol du texte : #ffffff et l'arrière-plan : #000000
-* [ ]   Ajouter le rayon de courbure : 50px 50px 50px 50px
+* [ ]   Ajouter le rayon de bordure : 50px 50px 50px 50px
 * [ ]   Ajouter une marge interne de : 8px 20px 8px 20px
 
 * [ ]   Ajouter l'image souliers.png dans la 2e colonne
 
-## Pieds de page
+## Pieds de page dans le Thème Astra
 
 ![](../assets/images/nike-footer.png){data-zoom-image}
+
+![](../assets/images/nike-footer-2.png){data-zoom-image}
 
 * [ ]   Couleur d'arrière-plan : #CBED62
 

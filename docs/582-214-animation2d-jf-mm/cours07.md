@@ -1,7 +1,5 @@
 # Cours 7
 
-[STOP]
-
 <!--
 ## Séquencer les animations
 
@@ -62,13 +60,11 @@ Projet
 ```
 
 
-## Zoom-in dans une scène
+### Zoom-in dans une scène
 
 Précomposition et animation de l'échelle (scale). C'est aussi simple que ça !
 
-
-
-## Effets
+## Effets * Pour développer votre style! 
 
 Les effets permettent de modifier l’apparence, le comportement ou les propriétés d’un calque.
 
@@ -276,22 +272,7 @@ https://www.youtube.com/watch?v=Jw6P4lnFT6I
 
 !!! info "Vous en voulez plus !?"
 
-    Et bien c'est votre chance, voici une série de tutoriels pour [15 effets d'animations](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=iokzaN).
+Et bien c'est votre chance, voici une série de tutoriels pour [15 effets d'animations](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EgSlyZzm2LZBk4qd09ymzw4B3po1iwPcpWXeuNVJWFRS-A?e=iokzaN).
 
 
 
-![](./assets/images/machine-loop_lera-shadova.gif)
-Crédit: [Machine Loop par Lera Shadova](https://dribbble.com/shots/3873973-Machine-loop)
-
-
-
-## Exercice
-
-[Onde Progressive](exercices_ae/08_ondeProgressive.md){ .md-button .back }
-
-[Bend It](exercices_ae/08_bendIt.md){ .md-button .back }
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/rube_goldberg/rube.jpg)
-
-</div>

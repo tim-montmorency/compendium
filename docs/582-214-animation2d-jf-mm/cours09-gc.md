@@ -13,15 +13,36 @@ Pour répondre à ses questions, il est idéal de noter le tout dans un fichier 
 
 ### Moodboard
 
+Le moodboard est un outil qui sert à donner la direction artistique : quel sera le visuel et le *feel* de notre projet. Les éléments importants à mettre dans les moodboard durant **le cadre du cours** sont les suivants : 
+
+- Des images d'inspirations
+- Une palette de couleurs
+- Des exemples de typo pour les titres et les paragraphes
+
+![](./assets/images/cours09-gc/3061382.webp)
+  
 ### Storyboard
+
+Le storyboard quant à lui est un outil qui sert à donner de indications de rythme, de cadrage et de mouvement (caméra et mise en scène). On peut faire un storyboard en faisant des dessins physiques sur du papier ou avec un logiciel de traitement d'images matriciel/vectoriel. En ce qui nous concerne, je vais vous inviter à utiliser [Storyboarder](https://wonderunit.com/storyboarder/), un logiciel qui permet de lier des dessins sur une ligne du temps avec un générateur de plans et qu'on peut même lier à Photoshop. 
+
+![](./assets/images/cours09-gc/Jeremys_Lie_Storyboard.original.jpg)
+
+### Exercice en devoir
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
 
+Nous avons travaillé avec le lissage (soit à l'entrée, à la sortie ou les deux), néanmoins il est possible de personnaliser le lissage avec un outil qu'on appelle, l'éditeur de graphique ou *graph editor*. Cet outil nous permet de régler la courbe d'accélération/ralentissement de notre projet et nous permet d'avoir des effets d'animation particuliers. 
+
+![](./assets/images/cours09-gc/demo-easing.gif)
+
+N.B. il est également possible d'appliquer des effets de lissage sur nos [animations web](https://easings.net/). Petite règle de base en web : il est idéal d'utiliser des accélérations à l'entrée pour des éléments interactifs (comme des boutons) et des ralentissement à l'entrée pour des animations de décorations (fondu, translations, etc.). 
+
+Il est important de se souvenir d'utiliser le graphique de vitesse pour les animations de position et le graphique de valeur pour la rotation, l'échelle et l'opacité. 
+
 [:material-play-circle: Éditeur de graphique (graph editor)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EY0GAEKJYR9DsCPY7jjrF8cB4I1E5fM8Sm_FjQxlRsw9SQ?e=BgYJMZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)¸
 
 [:material-play-circle: Éditer les courbes de vitesse](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EctinuyOULZBnaicYDWPIZEBsTTw0CuinbDUXpMz3r9_ow?e=6G4P4B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
 
 [:material-play-circle: Explode Out et Into the Wall](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/ESwLmiwfV1NMkiZj-d-TqOoBx2cbg8z3wrO_9QX6s6jqNg?e=HWXYdv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -32,29 +53,17 @@ Pour répondre à ses questions, il est idéal de noter le tout dans un fichier 
 [Cours 2](./cours02.md)
  -->
 
-
-
 ## Alignement et distribution
 
 ![](./assets/images/repartition.png)
 
 La distribution se trouve dans le panneau "Aligner".
 
-
+### Exercice : reproduction de l'exemple
 
 ## Expressions
 
-Quelques expressions québécoises
-
-> Avoir les mains pleines de pouces<br>
-> Avoir l’air d’la chienne à Jacques<br>
-> Avoir de l’eau dans la cave<br>
-> Se tirer une bûche<br>
-> Attacher sa tuque
-
----
-
-Blague à part, en After Effetcs une expression est un **bout de code** basé sur le langage **JavaScript** qu’on peut appliquer à une propriété de calque pour l'animer.
+Dans le langage courant, une expression est une manière de communiquer alors qu'en mathématique, on parle plutôt d'une combinaison de chiffres, de variables et d'opérations. Dans After Effetcs, une expression est un **bout de code** basé sur le langage **JavaScript** qu’on peut appliquer à une propriété de calque pour l'animer. On peut donc, utiliser du code pour animer plutôt que d'utiliser des *keyframe*. À la grande question pourquoi animer avec du code plutôt que des keyframes? C'est que dans certains cas, il est préférable d'écrire quelques lignes plutôt que passer beaucoup de temps à multiplier, paramétrer ou placer le timing de keyframe. Les utilisations les plus courantes sont : les boucles (loop), les valeurs aléatoires (wiggle) et modifier le framerate d'un calque (posterizeTime). Autrement, on peut automatiser l'animation de tous les paramètres d'un calque.       
 
 ### Ajouter une expression
 
@@ -69,8 +78,6 @@ Blague à part, en After Effetcs une expression est un **bout de code** basé su
 ![](./assets/images/expression-cheatsheet.webp){ data-zoom-image }
 
 #### Time
-
-
 
 La variable `time` est utilisée dans les expressions pour représenter le **temps actuel de la composition en secondes**.
 
@@ -166,13 +173,7 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
 ![type:video](./assets/videos/posterize.mp4)
 
-### Options pour expressions
-
-![type:video](./assets/videos/expression_fields.mp4)
-
-![](./assets/images/option-controls.png)
-
-!!! info "Copier/coller"
+### Info "Copier/coller"
 
     Lorsqu'on clic droit sur une propriété affectée par une expression, on peut cliquer sur "Copier l'expression seulement".
 
@@ -180,153 +181,7 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
     Il est aussi possible de coller l'expression sur une autre propriété. 
 
-## Effets sur les calques de forme
-
-![](./assets/images/formlayer-fx.png){ data-zoom-image }
-
-![type:video](./assets/videos/repeat.mp4)
-
-Pour créer une explosion
-
-1. Créer une forme
-1. Dans la transformation de la forme, ajuster la position à 0,0
-1. Centrer le point d'encrage sur la forme
-1. Centrer la forme dans la composition
-1. Cliquer sur Ajouter et sélectionner Répétition
-1. Modifier le nombre de copies à 12
-1. Dans la transformation de la répétition, ajuster la position à 0,0
-1. Dans la transformation de la répétition, ajuster la rotation à 360 / 12
-1. Enfin, dans le tracé de la forme, changer la position Y à une valeur inférieure
-
-!!! info "Avec un tracé"
-
-    Il est également possible d'utiliser un tracé.
-
-    Cliquer sur Ajouter et sélectionner Réduire les tracés.
-    
-    Ainsi, on peut modifier aussi la longeur des traits.
-
-## Visualiser les déformations
-
-Utiliser simplement la grille
-
-![](./assets/images/grid-sans-effet.png)
-
-![](./assets/images/grid-et-effet.png)
-
-## Ligne et effet onde progressive
-
-![type:video](./assets/videos/wave.mp4)
-
-## Blob
-
-![type:video](./assets/videos/blob.mp4)
-
-![](./assets/images/blob-fx.png)
-
-![](./assets/images/blob-layers.png)
-
-## Exercices
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/fonte/preview.png)
-
-  <small>Exercice - After Effects</small><br>
-  **[:melting_face:](./exercices_ae/fonte/index.md){.stretched-link .back}**
-</div>
-
+## [Présentation du TP2](./tp2.md)
 
 ## Devoirs pour le prochain cours
 
-Groupe Jean-François
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/kino-preparation/training.gif)
-
-  <small>Exercice - After Effects</small><br>
-  **[Préparation au Kino](./exercices_ae/kino-preparation/index.md){.stretched-link .back}**
-</div>
-
-Groupe Marie-Michelle
-<div class="grid grid-1-2" markdown>
-  ![](./exercices_ae/kino-preparation-mm/training.gif)
-
-  <small>Exercice - After Effects</small><br>
-  **[Préparation au Kino - Classe Marie-Michelle](./exercices_ae/kino-preparation-mm/index.md){.stretched-link .back}**
-</div>
-
-
-[STOP]
-
-[🛠️ Loop Out](exercices_ae/07_loopOut.md)
-
-[🛠️ Expressions](exercices_ae/07_expressions.md)
-
-## Animation complexe avec le graph editor
-
-https://www.youtube.com/watch?v=HpVtzOtaHlg
-
-### Variables
-
-```js
-a = 100
-```
-
-### Conditions (if)
-
-L'instruction `if` permet d’exécuter une action seulement si une condition est vraie. 
-
-C'est utile pour déclencher un comportement seulement dans certaines situations, comme lorsque le temps dépasse une certaine valeur, ou si une case à cocher est activée.
-
-```js
-if (time > 2) {
-  100
-} else {
-  0
-}
-```
-
-### Expression complexe
-
-![type:video](./assets/videos/expression-scale.mp4)
-
-![](./assets/images/expression-scale.png)
-
-```js
-amp = .1;        // amplitude de l’oscillation : plus c’est haut, plus ça rebondit fort
-freq = 2.0;      // fréquence de l’oscillation : nombre d’oscillations par seconde
-decay = 8.0;     // atténuation : plus c’est haut, plus le rebond s'arrête vite
-n = 0;           // index du keyframe actif
-time_max = 4;    // durée maximale pendant laquelle l'effet s'applique après un keyframe
-
-// Vérifie s’il y a des keyframes
-if (numKeys > 0){
-  n = nearestKey(time).index; // trouve l’index de la keyframe la plus proche du temps actuel
-  if (key(n).time > time){
-    n--; // si elle est dans le futur, on prend la précédente (celle « avant »)
-  }
-}
-
-// Calcule le temps écoulé depuis le dernier keyframe
-if (n == 0){ 
-	t = 0; // si aucun keyframe avant maintenant, t = 0 → pas d’effet
-}else{
-	t = time - key(n).time; // temps écoulé depuis le dernier keyframe
-}
-
-// Si on est après un keyframe, et dans la fenêtre de rebond autorisée
-if (n > 0 && t < time_max){
-	v = velocityAtTime(key(n).time - thisComp.frameDuration/10);  // vitesse du calque juste avant le keyframe
-	// Applique une oscillation basée sur la vitesse + une sinusoïde + une atténuation exponentielle
-	value + v * amp * Math.sin(freq * t * 2 * Math.PI) / Math.exp(decay * t);
-}else{
-	value;   // sinon, on retourne la valeur normale de la propriété
-}
-
-```
-
-References
-
-Burst : https://www.youtube.com/watch?v=4UtNW5FFXT8
-Repeater : https://www.youtube.com/watch?v=WLFO4nBLpDw
-Blob : https://www.youtube.com/watch?v=M4qnk40aBls
-Sine : https://www.youtube.com/watch?v=DY73Kyk0T7A
