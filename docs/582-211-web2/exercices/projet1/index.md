@@ -81,6 +81,8 @@ Vous avez reçu, le 27 février sur Teams (individuellement): une maquette de de
 
 ## *0. Préparation* (terminer avant le 9/11 mars)
 
+    TERMINÉ... C'était à faire avant le 9/11 mars
+
 - Assurez-vous d’avoir une bonne compréhension de Flexbox, de Figma Auto Layout et du Dev Mode avant de commencer le projet.
 - Création de votre répertoire GitHub, nommez-le : `nom-prenom-projet1-web2` (non lié à GitHub Classrooom, c’est un repo personnel).
 - Faites un clone en local (sur votre OneDrive ou votre disque dur externe) de votre repo GitHub.
@@ -88,21 +90,31 @@ Vous avez reçu, le 27 février sur Teams (individuellement): une maquette de de
 - Ajoutez à votre répertoire un `README.md` pour présenter votre projet et un `DOCUMENTATION.md` pour documenter votre démarche d’intégration.
 - Faites un premier commit avec un message clair pour marquer le début de votre projet. Et poussez ce commit sur GitHub.
 
-## *1. La maquette* (terminer avant le 9/11 mars)
+## *1. Réception de la maquette*
+
+    TERMINÉ... C'était à faire avant le 9/11 mars
 
 Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 27 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
 
-## *2. Lecture des consignes ici et du brief du client* (avant le 9/11 mars)
+## *2. Lecture des consignes ici et celles du brief-client*
+
+    TERMINÉ... C'était à faire avant le 9/11 mars
 
 Comprendre les exigences et les objectifs du projet.
 
-## *3. Analyse de la maquette* (terminer avant le 9/11 mars)
+## *3. Analyse de la maquette reçue*
 
-La maquette que vous recevrez a été conçue avec des règles d’*auto-layout* de Figma qui correspondent à des propriétés CSS spécifiques sous le concept de Flexbox. Votre tâche est d’analyser la maquette en utilisant le *Dev Mode* de Figma pour identifier ces règles et comprendre comment elles se traduisent en HTML/CSS.
+    TERMINÉ... C'était à faire avant le 9/11 mars
 
-Utiliser le *Dev Mode* (via l'extension Figma for VS Code) pour analyser et comprendre la structure, les espacements, les styles et les valeurs CSS. Démarrer avec la base générée par le Dev Mode et ensuite adapter et corriger pour créer un code propre et maintenable . Puis, fixeres défauts intentionnels qui ont été laissés dans la maquette.
+La maquette que vous avez reçue été conçue avec des règles d’**auto-layout** de Figma qui correspondent à des propriétés CSS spécifiques sous le concept de Flexbox.
 
-## 4. *Planification de l’intégration* (terminer avant le 9/11 mars)
+Votre tâche est d’analyser la maquette en utilisant le *Dev Mode* de Figma pour identifier ces règles et comprendre comment elles se traduisent en HTML/CSS.
+
+Utiliser le **Dev Mode** (via l'extension Figma for VS Code) pour analyser et comprendre la structure, les espacements, les styles et les valeurs CSS. Démarrer avec la base générée par le **Dev Mode** et ensuite *adapter et corriger pour créer un code propre et maintenable*. Puis, fixer les défauts intentionnels qui ont été laissés dans la maquette.
+
+## 4. *Planification de l’intégration*
+
+    TERMINÉ... C'était à faire avant le 9/11 mars
 
 Décider :
 
@@ -113,7 +125,9 @@ Décider :
 
 Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification et les décisions prises: liste des composants réutilisables identifiés, l’architecture HTML proposée, la nomenclature BEM choisie et le système de tokens (variables) mis en place.
 
-## 5. *Intégration* (en cours... du 9/11 mars au 23/25 mars)
+## 5. *Intégration*
+
+    EN COURS... du 9/11 mars au 23/25 mars
 
 Écrire le code HTML et CSS en s’inspirant du code généré par Figma via le Dev Mode, mais en l’adaptant pour créer un code propre et maintenable.
 
@@ -121,7 +135,9 @@ Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification 
 - Structurez *composants réutilisables*
 - Attention, il y a *plusieurs éléments à corriger* à partir de la maquette qui vous a été fournie, c'est normal et c'est prévu ainsi. C'est à vous de les repérer et de décider comment les corriger.
 
-## 6. *Documentation* (en cours... du 9/11 mars au 23/25 mars)
+## 6. *Documentation*
+
+    EN COURS... du 9/11 mars au 23/25 mars
 
 - Documenter les décisions techniques prises lors de l’intégration. *Documenter par composant*.
 - Pour documenter:
@@ -181,8 +197,6 @@ Ajouter un **bloc de commentaire descriptif juste avant les styles de chaque com
 
 ## Critères d’évaluation
 
-Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf]()
-
 | Catégorie | Pondération |
 |-----------|-------------|
 | Structure et organisation du code | 20% |
@@ -191,17 +205,15 @@ Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf](
 | Fidélité à la maquette | 15% |
 | Documentation et justifications | 20% |
 
-
-## LE BRIEF COMPLET POUR LE PROJET
-
-<span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
-
-[Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
-
 Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
 
 [Grille d'auto-évaluation du projet 1 (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQD3neVlTndPTb3awg4vQg3MAdxJSR2UqJQh_9z2LLUrZl4?e=wbLRbx){ .md-button .md-primary }
 
+## Le brief du projet
+
+<span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
+
+[Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
 
 
 ## Politique d'utilisation de l'IA — Phase 2
