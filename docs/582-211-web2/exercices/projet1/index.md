@@ -175,7 +175,13 @@ Ajouter un **bloc de commentaire descriptif juste avant les styles de chaque com
 
 ![CSS: commentaires par composant (démo)](../../assets/commentaires-css-composants.png)
 
+<br>
+<br>
+
 > 💡 En résumé : le commentaire HTML dit où on est dans la page. Le commentaire CSS dit ce qu'est le composant, comment l'utiliser et quelles variantes existent.
+
+
+<br>
 
 !!! warning
     L'évaluation du projet dépend de la *qualité de votre documentation*.  C'est avec cette démarche que vous pouvez vraiment expliquer votre travail d'analyse, vos choix techniques et démontrer votre compréhension des concepts.
