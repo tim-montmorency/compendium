@@ -93,15 +93,45 @@ Dans un fichier `DOCUMENTATION.md`, documenter votre démarche de planification 
 
 ### 6. Documentation
 
-- Documenter les décisions techniques prises lors de l’intégration. [Documenter par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html#4-documentez-vos-composants).
+- Documenter les décisions techniques prises lors de l’intégration. *Documenter par composant*.
 - Pour documenter:
   - rédiger des commentaires HTML `<!-- -->` et CSS `/* */` et
-  - créer un fichier `DOCUMENTATION.md` pour expliquer votre démarche, vos choix techniques et les défis rencontrés.
-    - Inclure dans la documentation une section sur l’utilisation de l’IA (si applicable): quel outil IA, quelle version, la date, le prompt utilisé et quelle partie du code a été validée ou améliorée avec l’IA.
-  - créer un fichier `README.md` pour présenter le projet.
+  - créer un fichier `DOCUMENTATION.md` pour expliquer:
+    - votre démarche,
+    - vos choix techniques,
+    - les défis rencontrés.
+    - si application, dans fichier `DOCUMENTATION.md` ajouter une *section sur l’utilisation de l’IA* : 
+      - quel outil IA,
+      - quelle version,
+      - la date,
+      - le prompt utilisé,
+      - et quelle partie du code a été validée ou améliorée avec l’IA.
+  - créer un fichier `README.md` pour présenter le projet (voir le brief pour les détails).
+
+<!-- [Documenter par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html#4-documentez-vos-composants). -->
+
+### Ce qu'on attend dans le HTML
+
+Ajouter des commentaires pour séparer visuellement les grandes sections de la page. C'est tout ce qui est attendu dans le HTML — pas besoin d'expliquer le CSS ici.
+
+![HTML: commentaires par section (démo)](../../assets/commentaires-html.png)
+
+## Ce qu'on attend dans le CSS
+
+Ajouter un **bloc de commentaire descriptif juste avant les styles de chaque composant**. Ce bloc doit expliquer :
+
+- le nom du composant (B),
+- le rôle du composant,
+- la structure HTML attendue (les classes et balises utilisées),
+- les éléments (E) qui le composent (éléments BEM `__`),
+- les variantes (M) disponibles (modificateurs BEM `--`), s'il y en a.
+
+![CSS: commentaires par composant (démo)](../../assets/commentaires-css-composants.png)
+
+> 💡 En résumé : le commentaire HTML dit où on est dans la page. Le commentaire CSS dit ce qu'est le composant, comment l'utiliser et quelles variantes existent.
 
 !!! warning
-    L'évaluation du projet dépend de la *qualité de votre documentation*. C'est avec cette démarche que vous pouvez vraiment expliquer votre travail d'analyse, vos choix techniques et démontrer votre compréhension des concepts.
+    L'évaluation du projet dépend de la *qualité de votre documentation*.  C'est avec cette démarche que vous pouvez vraiment expliquer votre travail d'analyse, vos choix techniques et démontrer votre compréhension des concepts.
 
 ## Calendrier du projet
 
