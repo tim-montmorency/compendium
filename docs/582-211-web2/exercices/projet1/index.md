@@ -27,16 +27,14 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
 </div>
 
 
-## LE BRIEF COMPLET
+## Le brief complet
 
 <span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
 
 [Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
 
 
-## Objectif et évaluation
-
-### Évaluation
+## Évaluation
 
 35% de la note finale du cours
 
@@ -44,7 +42,7 @@ Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation s
 
 [Grille d'auto-évaluation du projet 1 (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQD3neVlTndPTb3awg4vQg3MAdxJSR2UqJQh_9z2LLUrZl4?e=wbLRbx){ .md-button .md-primary }
 
-### Objectif
+## Objectif
 
 Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques. Vous devez:
 
@@ -65,6 +63,7 @@ Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques. Vous d
 Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de transformer une maquette Figma fournie par un designer en une page web fonctionnelle.
 
 Vous devez analyser la maquette, comprendre les intentions du designer à travers le *Dev Mode* de Figma, et utiliser Flexbox pour recréer la structure de la maquette tout en produisant un code propre et maintenable.
+
 
 ## La maquette de design à intégrer
 
