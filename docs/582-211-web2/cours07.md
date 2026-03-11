@@ -58,12 +58,12 @@ Si vous utilisez l'IA pour le projet 1, vous devez l'inscrire dans le fichier  *
 
 Durant le *Projet 1*, vous vous vous situez en *Phase 2* de la *politique IA du cours* :
 
-- PERMIS : Vérifier et comparer votre code après l'avoir écrit vous-même
-- PERMIS : Poser des questions conceptuelles pour comprendre
-- PERMIS : Déboguer un problème spécifique dans votre code
-- INTERDIT : Générer la structure de base ou des sections complètes
-- INTERDIT : Copier-coller du code IA sans le comprendre
-- INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
+- ✅PERMIS : Vérifier et comparer votre code après l'avoir écrit vous-même
+- ✅PERMIS : Poser des questions conceptuelles pour comprendre
+- ✅PERMIS : Déboguer un problème spécifique dans votre code
+- ❌INTERDIT : Générer la structure de base ou des sections complètes
+- ❌INTERDIT : Copier-coller du code IA sans le comprendre
+- ❌INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
 
 <span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera. Vous devez aussi documenter tout prompt à l'IA dans le cadre de ce projet.
 
