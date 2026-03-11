@@ -143,10 +143,10 @@ Ajouter un **bloc de commentaire descriptif juste avant les styles de chaque com
 | Cours 8 seulement le groupe du mercredi (18 mars)| PAS DE TRAVAIL EN CLASSE SUR LE PROJET mais possiblité de rencontre à la demande |
 | Avant le cours 9 (23 ou 25 mars) | REMISE |
 
-!!!danger "Groupe du mercredi: À propos de la levée de cours du mercr. 11 mars"
-    Le cours du mercredi 18 mars sera consacré à autre chose : *vous n'aurez pas de temps en classe pour avancer le Projet 1*. Prévoyez donc de travailler à la maison ou lors des autres périodes de la semaine.
+!!!danger "Gr. du merc: Considérant la levée de cours du mercr. 11 mars"
+    Le cours du 11 mars était prévu comme période complète de travail en classe sur le Projet 1. Donc vous devez avancer par vous même ce jour là ou à un autre moment de la semaine. Le cours du mercredi 18 mars sera consacré à autre chose : *vous n'aurez pas de temps en classe pour avancer le Projet 1*. Prévoyez donc de travailler à la maison ou lors des autres périodes de la semaine.
 
-    Le 18 mars, une courte période sera disponible pour des questions individuelles ponctuelles, mais uniquement si vous êtes déjà bien avancés. Rappel important : il est impossible de réaliser un projet de qualité et d'atteindre tous les critères d'évaluation en une seule semaine — planifiez en conséquence. <span class="important-label">N'attendez surtout pas au 18 mars pour débuter — ce serait compromettre vos chances de succès</span>, ce se condamner à remettre un travail incomplet.
+    Le 18 mars, une courte période sera disponible pour des questions individuelles ponctuelles à la demande, mais uniquement si vous êtes déjà bien avancés. Rappel important : il est impossible de réaliser un projet de qualité et d'atteindre tous les critères d'évaluation en une seule semaine — planifiez en conséquence. <span class="important-label">N'attendez surtout pas au 18 mars pour débuter</span>: ce serait compromettre vos chances de succès, ce se condamner à remettre un travail incomplet.
 
 ## Critères d’évaluation
 
