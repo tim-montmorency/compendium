@@ -216,7 +216,7 @@ Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation s
 [Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
 
 
-## Politique d'utilisation de l'IA — Phase 2
+## Politique de l'IA: Phase 2
 
 Si vous utilisez l'IA pour le projet 1, vous devez l'inscrire dans le fichier  *documentation.md* : quel outil IA, quelle version, la date, le prompt et quelle partie du code pour avez validé ou amélioré avec l'IA.
 
