@@ -229,10 +229,6 @@ Notre attention est naturellement attirée par ce qui **choque**, **inquiète**,
 
     Chez les jeunes, entretenir des vulnérabilités pour garder l’attention plus longtemps est documenté : «[We make body image issues worse for one in three teen girls](https://www.wsj.com/tech/personal-tech/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739)», «[Facebook Knows Instagram Is Toxic for Teen Girls, Company Documents Show](https://www.congress.gov/117/meeting/house/114054/documents/HHRG-117-IF02-20210922-SD003.pdf)».
 
-## Divers
-
-<https://boomerangfu.fandom.com/wiki/Characters>
-
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
