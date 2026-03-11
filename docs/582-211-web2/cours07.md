@@ -1,6 +1,16 @@
 # Cours 7
 
-<!-- Possibilité  de repouser la remise du Projet 1 au cours 9 (23-25 mars) car je leur ai envoyé les instructions vendredi soir très tard alors qu'ils deaient les avoir au 6...  C'est un peu de ma faute. Aussi je dois prendre en considération que le groupe du lundi am a manqué toute la partie du le devmode et l'auto-layout. Je pense devoir faire une révision pour eux... Donc je vais voir ou ils en sont en les rencontrant pendant le cours et je verrai ce que je fais...  -->
+<!-- 
+Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commencé et ce, 1 semaine avant la remise,  je devrais prévoir une remise #1 du projet au cours une semaine avant la remise ou peut-être même 2 semaine avant la remise dépendemment ou je place les cours. Cette remise #1 qui comprendrait les étapes :
+
+- 0. Préparation
+- 1. La maquette
+- 2. Lecture des consignes ici et du brief du client
+- 3. Analyse de la maquette
+- 4. Planification de l’intégration
+
+Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la documentation (en parallèle) et qu'il ne trainent pas de la patte. Car j'ai l'impresson que j'en ai échappé qq-uns qui n'avaient même pas encore créé leur répertoire github au cours 7 (remise au cours 8). Et la plupart ont commencé à rédiger du HTML sans même planifier leur composant. LE PLAN AVANT LE HANDS-ON!!
+-->
 
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
@@ -14,7 +24,7 @@
   </div>
 </div>
 
-## Remise aujourd'hui (23-25 mars)
+## Remise aujourd'hui (9-11 mars)
 
 Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 213/25 mars
 

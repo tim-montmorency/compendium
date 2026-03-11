@@ -1,5 +1,17 @@
 # Projet 1: Assemblage d’interface
 
+<!-- 
+Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commencé et ce, 1 semaine avant la remise,  je devrais prévoir une remise #1 du projet au cours une semaine avant la remise ou peut-être même 2 semaine avant la remise dépendemment ou je place les cours. Cette remise #1 qui comprendrait les étapes :
+
+- 0. Préparation
+- 1. La maquette
+- 2. Lecture des consignes ici et du brief du client
+- 3. Analyse de la maquette
+- 4. Planification de l’intégration
+
+Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la documentation (en parallèle) et qu'il ne trainent pas de la patte. Car j'ai l'impresson que j'en ai échappé qq-uns qui n'avaient même pas encore créé leur répertoire github au cours 7 (remise au cours 8). Et la plupart ont commencé à rédiger du HTML sans même planifier leur composant. LE PLAN AVANT LE HANDS-ON!!
+-->
+
 ---
 
 <div class="class-content-link">
@@ -58,11 +70,11 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 - Ajoutez à votre répertoire un `README.md` pour présenter votre projet et un `DOCUMENTATION.md` pour documenter votre démarche d’intégration.
 - Faites un premier commit avec un message clair pour marquer le début de votre projet. Et poussez ce commit sur GitHub.
 
-## 1. Le choix de la maquette (avant le 9/11 mars)
+## 1. La maquette (avant le 9/11 mars)
 
 Marie-Michelle va vous attribuer personnellement une maquette Figma à intégrer (vous la recevrez dans une conversation du TEAMS au plus tard le 27 février en fin de journée). Chaque maquette a été conçue pour mettre en valeur des aspects spécifiques de l’intégration web et pour vous permettre de démontrer votre capacité à analyser et à traduire une conception visuelle en code HTML/CSS fonctionnel.
 
-## 2. Lecture du brief du client (avant le 9/11 mars)
+## 2. Lecture des consignes ici et du brief du client (avant le 9/11 mars)
 
 Comprendre les exigences et les objectifs du projet.
 

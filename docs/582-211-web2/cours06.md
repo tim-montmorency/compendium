@@ -80,6 +80,18 @@ Dev Mode : lecture de l'intention du designer généré par Figma à partir d’
 
 ## Lancement du projet-1: Assemblage d’interface (35%)
 
+<!-- 
+Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commencé et ce, 1 semaine avant la remise,  je devrais prévoir une remise #1 du projet au cours une semaine avant la remise ou peut-être même 2 semaine avant la remise dépendemment ou je place les cours. Cette remise #1 qui comprendrait les étapes :
+
+- 0. Préparation
+- 1. La maquette
+- 2. Lecture des consignes ici et du brief du client
+- 3. Analyse de la maquette
+- 4. Planification de l’intégration
+
+Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la documentation (en parallèle) et qu'il ne trainent pas de la patte. Car j'ai l'impresson que j'en ai échappé qq-uns qui n'avaient même pas encore créé leur répertoire github au cours 7 (remise au cours 8). Et la plupart ont commencé à rédiger du HTML sans même planifier leur composant. LE PLAN AVANT LE HANDS-ON!!
+-->
+
 ### Objectif
 
 Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
@@ -87,15 +99,19 @@ Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’i
 [👩🏻‍💻 Instructions *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
 
+
+
+
+
 ## DEVOIR pour le prochain cours (lundi 9 ou merc. 11 mars)
 
 Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semaine de rattrapage.
 
-- *Terminer les 2 exercices pratiques de renforcement Flexbox* et remettre les 2 liens des CodePen dans le devoir TEAMS attitré avant le cours 7 :
+- *Terminer les 2 exercices pratiques de renforcement Flexbox* et remettre les 2 liens des CodePen dans le devoir TEAMS attitré avant le cours 7 (9/11 mars):
   - UI Dashboard
   - Page de résultats de recherche
 
-- *Débuter le projet 1* (vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 27 février en fin de journée) :
+- *Débuter le projet 1* (vous recevrez votre maquette Figma attitrée dans une conversation TEAMS le 27 février):
   - création du repo GitHub personnel pour le projet 1
   - lecture des consignes complètes du projet 1
   - lecture du brief du client qui vous est attitré
