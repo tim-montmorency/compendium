@@ -33,18 +33,18 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
 
 [Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
 
+
+## Objectif et évaluation
+
+### Évaluation
+
+35% de la note finale du cours
+
 Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
 
 [Grille d'auto-évaluation du projet 1 (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQD3neVlTndPTb3awg4vQg3MAdxJSR2UqJQh_9z2LLUrZl4?e=wbLRbx){ .md-button .md-primary }
 
-
-## Objectif et évaluation
-
-### ÉVALUATION
-
-35% de la note finale du cours
-
-### OBJECTIF
+### Objectif
 
 Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques. Vous devez:
 
