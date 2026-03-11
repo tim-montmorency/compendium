@@ -24,11 +24,11 @@
 
 <span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
 
-[Projet 1: Brief complet (PDF)](./Projet1_Brief.pdf){ .md-button .md-primary }
+[Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
 
 Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
 
-[Grille d'auto-évaluation du projet 1 (PDF)](./Projet1_Grille_Autoevaluation.pdf){ .md-button .md-primary }
+[Grille d'auto-évaluation du projet 1 (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQD3neVlTndPTb3awg4vQg3MAdxJSR2UqJQh_9z2LLUrZl4?e=wbLRbx){ .md-button .md-primary }
 
 
 ## Objectif et évaluation
@@ -136,17 +136,15 @@ Voir la grille détaillée dans le document [Projet1_Grille_Autoevaluation.pdf](
 | Documentation et justifications | 20% |
 
 
-
-
 ## LE BRIEF COMPLET POUR LE PROJET
 
 <span class="important-label">IMPORTANT</span> LE BRIEF COMPLET EST DISPONIBLE ICI : 
 
-[Projet 1: Brief complet (PDF)](./Projet1_Brief.pdf){ .md-button .md-primary }
+[Projet 1: Brief complet (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA83L9vcZpPTbvHwFbi1_Y6AQMVLAEXuOghB8megCIsZ6k?e=xc8sP6){ .md-button .md-primary }
 
 Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation suivante :
 
-[Grille d'auto-évaluation du projet 1 (PDF)](./Projet1_Grille_Autoevaluation.pdf){ .md-button .md-primary }
+[Grille d'auto-évaluation du projet 1 (PDF)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQD3neVlTndPTb3awg4vQg3MAdxJSR2UqJQh_9z2LLUrZl4?e=wbLRbx){ .md-button .md-primary }
 
 
 

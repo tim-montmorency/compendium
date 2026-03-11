@@ -60,7 +60,6 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
 
 Avancer sur le projet 1 en classe avec la possibilité de poser des questions à l’enseignante et d’avoir des rencontres individuelles pour la rétroaction.
 
-
 ## DEVOIR
 
 Terminer le Projet 1 pour la remise ~~avant le cours 8 (16 ou 18 mars)~~ <span class="important-label">REPORTÉ</span> avant le cours 9 (23 ou 25 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
