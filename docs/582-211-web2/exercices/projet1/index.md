@@ -40,9 +40,23 @@ Les critères d'évaluation sont détaillés dans la grille d'auto-évaluation s
 
 ## Objectif et évaluation
 
-**ÉVALUATION:** 35% de la note finale du cours
+### ÉVALUATION
 
-**OBJECTIF:** Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques : segmenter l'interface en [composants réutilisables](../../css/composants.md), appliquer la [nomenclature BEM](../../css/nomenclature-bem.md) et les concepts de Flexbox ([`display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-wrap`](../../css/flexbox01.md) | [`flex-grow`, `flex-shrink`, `flex-basis`, `flex`](../../css/flexbox02.md)  | [`order`](../../css/flexbox-order.md)), mettre en place un [système de tokens (variables CSS)](../../css/variables-unites-fonctions.md) et documenter votre travail de manière professionnelle.
+35% de la note finale du cours
+
+### OBJECTIF
+
+Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques. Vous devez:
+
+- Recoder la maquette en HTML/CSS de façon fluide et flexible. Donc si on redimensionne la fenêtre du navigateur, les éléments de la page doivent se repositionner et s'adapter jusqu'à un minimum de 800px. Pour ce faire, vous devez :
+  - mettre en place un [système de tokens (variables CSS)](../../css/variables-unites-fonctions.md),
+  - segmenter l'interface en [composants réutilisables](../../css/composants.md), 
+  - appliquer la [nomenclature BEM](../../css/nomenclature-bem.md) sur les classes des composants,
+  - appliquer les concepts de Flexbox qu'on a vu en classe ([`display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-wrap`](../../css/flexbox01.md) | [`flex-grow`, `flex-shrink`, `flex-basis`, `flex`](../../css/flexbox02.md)  | [`order`](../../css/flexbox-order.md))
+  
+- Documenter votre travail de manière professionnelle :
+  - rédiger des *commentaires par composant* dans le fichier `styles.css`,
+  - et documenter le projet via `DOCUMENTATION.md` et `README.md.`
 
 ## Contexte
 
