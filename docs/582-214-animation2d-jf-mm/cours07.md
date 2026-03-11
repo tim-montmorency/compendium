@@ -64,7 +64,7 @@ Projet
 
 Précomposition et animation de l'échelle (scale). C'est aussi simple que ça !
 
-## Effets
+## Effets * Pour développer votre style! 
 
 Les effets permettent de modifier l’apparence, le comportement ou les propriétés d’un calque.
 
