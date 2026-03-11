@@ -24,7 +24,7 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
   </div>
 </div>
 
-## Remise des exercices du dernier cours
+## Remise des exercices
 
 Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 9 ou 11 mars
 
