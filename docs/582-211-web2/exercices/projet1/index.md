@@ -75,7 +75,11 @@ Vous devez analyser la maquette, comprendre les intentions du designer à traver
 
 ---
 
-# Étapes
+*
+
+---
+
+<h1>Étapes</h1>
 
 ## *0. Préparation* (terminer avant le 9/11 mars)
 
