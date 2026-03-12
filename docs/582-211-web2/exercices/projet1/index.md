@@ -62,9 +62,9 @@ Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques. Vous d
 
 *Projet individuel*
 
-Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de transformer une maquette Figma fournie par un designer en une page web fonctionnelle.
+Vous êtes un intégrateur web travaillant pour une agence de design. Votre tâche est de *transformer une maquette Figma fournie par un designer en une page web fonctionnelle*.
 
-Vous devez analyser la maquette, comprendre les intentions du designer à travers le *Dev Mode* de Figma, et utiliser Flexbox pour recréer la structure de la maquette tout en produisant un code propre et maintenable.
+Vous devez *analyser* la maquette, *comprendre les intentions du designer* à travers le **Dev Mode** de Figma, et *utiliser Flexbox pour recréer la structure* de la maquette tout en produisant un *code propre et maintenable*.
 
 
 ## La maquette de design à intégrer
