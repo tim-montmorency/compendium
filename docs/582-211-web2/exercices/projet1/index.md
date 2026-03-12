@@ -50,8 +50,10 @@ Intégrer une maquette Figma en HTML/CSS en suivant les bonnes pratiques. Vous d
   - mettre en place un [système de tokens (variables CSS)](../../css/variables-unites-fonctions.md),
   - segmenter l'interface en [composants réutilisables](../../css/composants.md), 
   - appliquer la [nomenclature BEM](../../css/nomenclature-bem.md) sur les classes des composants,
-  - appliquer les concepts de Flexbox qu'on a vu en classe ([`display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-wrap`](../../css/flexbox01.md) | [`flex-grow`, `flex-shrink`, `flex-basis`, `flex`](../../css/flexbox02.md)  | [`order`](../../css/flexbox-order.md))
-  
+  - appliquer les concepts de Flexbox qu'on a vus en classe:
+    - [`display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-wrap`](../../css/flexbox01.md)
+    - [`flex-grow`, `flex-shrink`, `flex-basis` et le raccourcis `flex`](../../css/flexbox02.md)
+    - [`order`: pour changer l'ordre des éléments dans le flex](../../css/flexbox-order.md))
 - Documenter votre travail de manière professionnelle :
   - rédiger des *commentaires par composant* dans le fichier `styles.css`,
   - et documenter le projet via `DOCUMENTATION.md` et `README.md.`
