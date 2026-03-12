@@ -75,11 +75,9 @@ Vous avez reçu, le 27 février sur Teams (individuellement): une maquette de de
 
 ---
 
-*
+<br>
 
----
-
-<h1>Étapes</h1>
+## LES ÉTAPES DU PROJET
 
 ## 0. Préparation
 
