@@ -73,11 +73,10 @@ Vous avez reçu, le 27 février sur Teams (individuellement): une maquette de de
 
 À noter que la maquette est différente pour chaque étudiant. Certaines se ressemblent au niveau du thème mais les éléments et la structure sont différents.
 
----
 
-<br>
+*
 
-## LES ÉTAPES DU PROJET
+<h2 style="padding-bottom:0; border: none;">LES ÉTAPES DU PROJET`</h2>
 
 ## 0. Préparation
 
