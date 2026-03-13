@@ -2,12 +2,12 @@
 <p>Voici plusieurs informations qui te seront utiles pour ton stage</p>
      
 
-<h2>Plan de cours</h2>
+## Plan de cours    
 <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBMvlMIkpWHS6eGXsXelF9tAXhIRBYZTsfjiBCk1EJKL1g?e=Ca1kpk">Plan de cours</a>
 
      
 
-<h2>Exemple de convention de stage</h2>
+## Exemple de convention de stage    
 <p>Voici un exemple du contrat que votre employeur devra signer:</p>
 <a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCoDHfBupJ4QJpRmlCseFWpASODLfYRB2KgcULrw8cn2Xk?e=JhIIeZ">Contrat de stage</a>
 
@@ -15,7 +15,7 @@
 <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EV3x8GIx-r9Lm_xdYITLQe4BA0oIkN51p594kXRC7TG_wQ?e=yekiPl">Consulter le document</a>
 
 
-<h2>Calendrier et échéancier hiver</h2>
+## Calendrier et échéancier hiver    
 
 <table>
   <tr>   </tr>
@@ -38,9 +38,19 @@
 
 </table>
 
+
+## Journal de bord
+<a href="https://github.com/tim-montmorency-stages/nom_prenom_rapport_stage">Modèle de journal de bord</a>
+
+- [ ] Rejoindre l'organisation tim-montmorency-stages
+- [ ] Ouvrir le modèle et cliquer sur Use this template, create a new repository
+- [ ] Changer le owner pour tim-montmorency-stages
+- [ ] Le nom du repo doit être nom_prenom_rapport_stage
+- [ ] La visibilité doit être privée
+- [ ] Cliquez sur Create repository
      
 
-<h2>Calendrier et échéancier automne</h2>
+## Calendrier et échéancier automne    
 
 <table>
        <tr>   </tr>
@@ -61,8 +71,8 @@
 
       
 
-<h2>Rôles et responsabilités</h2>
-<h2>Du stagiaire</h2>
+## Rôles et responsabilités    
+## Du stagiaire    
 <p><ul>
 <li>Entretenir de bonnes relations avec l’équipe de travail d'accueil.</li>  
 
@@ -84,7 +94,7 @@
 </ul>
 </p>
 
-<h2>Du ou de la professeur(e) superviseur(e)</h2>
+## Du ou de la professeur(e) superviseur(e)    
 <p><ul>
 <li>Veiller au respect des exigences de stage. </li>  
 
@@ -105,7 +115,7 @@
 </ul>
 </p>
 
-<h2>Du ou de la maître de stage</h2>
+## Du ou de la maître de stage    
 <p><ul>
 <li>En tant que praticien du milieu professionnel, collaborer au développement des compétences professionnelles des stagiaires. </li>  
 
@@ -126,7 +136,7 @@
 
      
 
-<h2>Objectifs et modalités</h2>
+## Objectifs et modalités    
 <p>
 <h4>À PROPOS DU STAGE – 582-611 MO - Stage en entreprise </h4>
 
@@ -187,7 +197,7 @@
 
 
 
-<h2>Répertoires spécialisés pour vous aider dans vos recherches</h2>
+## Répertoires spécialisés pour vous aider dans vos recherches    
 <table>
        <tr>   </tr>
 <tr>
@@ -262,7 +272,7 @@
 
       
 
-<h2>Répertoire généraux</h2>
+## Répertoire généraux    
 <table>
 
   <tr>   </tr>
@@ -302,7 +312,7 @@
 
      
 
-<h2>Compétences du programme d'études</h2>
+## Compétences du programme d'études    
 <p>Ces compétences peuvent être utiles pour votre cv ou portfolio, cependant mettez-les uniquement si vous les maîtrisez!</p>
 
 •	Designer, coder et publier des sites Web dynamiques (Figma, Visual Studio Code, HTML, CSS, JavaScript, PHP, SQL,)    
