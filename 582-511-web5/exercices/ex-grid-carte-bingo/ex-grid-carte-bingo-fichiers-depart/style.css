@@ -1,0 +1,55 @@
+/* Exercice 2 — Carte de bingo (5×5)
+ * Consignes :
+ * 1) Appliquer display: grid; sur .bingo
+ * 2) Définir 5 colonnes égales et 5 rangées égales (ex: 80px de hauteur)
+ *    grid-template-columns: repeat(5, 1fr);
+ *    grid-template-rows: repeat(5, 80px);
+ * 3) Ajouter un gap (ex: 6px)
+ */
+
+:root {
+  --bg: #0f172a;
+  --card: #0b1220;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --cell: #111827;
+  --accent: #22d3ee;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container { max-width: 720px; margin: 40px auto; padding: 0 16px; }
+
+h1 { margin: 0 0 8px; font-size: 1.5rem; }
+.hint { margin: 0 0 24px; color: var(--muted); }
+
+.bingo {
+  background: var(--card);
+  padding: 12px;
+  border-radius: 14px;
+}
+
+.cell {
+  display: grid;
+  place-items: center;
+  background: var(--cell);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cell:nth-child(13) {
+  background: rgba(34, 211, 238, 0.15);
+  border-color: rgba(34, 211, 238, 0.35);
+  color: var(--text);
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.55);
+}

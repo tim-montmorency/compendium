@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Notes pédagogiques — Exercices Flexbox</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f8f7f4;
+      --surface: #ffffff;
+      --border: #e2ddd5;
+      --primary: #1a1a2e;
+      --a: #6c63ff;
+      --b: #e63946;
+      --warn: #f59e0b;
+      --ok: #10b981;
+      --text: #1a1a2e;
+      --muted: #6b7280;
+      --font: 'DM Sans', sans-serif;
+      --mono: 'DM Mono', monospace;
+    }
+    body { font-family: var(--font); background: var(--bg); color: var(--text); padding: 2rem; max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 0.25rem; }
+    .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.2rem; font-weight: 700; margin: 2rem 0 1rem; padding: 0.6rem 1rem; border-radius: 8px; }
+    h2.a { background: rgba(108,99,255,0.1); color: var(--a); border-left: 4px solid var(--a); }
+    h2.b { background: rgba(230,57,70,0.1); color: var(--b); border-left: 4px solid var(--b); }
+    h3 { font-size: 1rem; font-weight: 700; margin: 1.5rem 0 0.5rem; }
+    p { font-size: 0.9rem; line-height: 1.7; color: var(--muted); margin-bottom: 0.5rem; }
+    strong { color: var(--text); }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+    .piege { border-left: 4px solid var(--warn); background: #fffbeb; }
+    .solution { border-left: 4px solid var(--ok); background: #f0fdf4; }
+    .tag { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.72rem; font-weight: 600; margin-right: 0.3rem; margin-bottom: 0.3rem; }
+    .tag-a { background: rgba(108,99,255,0.12); color: var(--a); }
+    .tag-b { background: rgba(230,57,70,0.12); color: var(--b); }
+    .tag-warn { background: #fef3c7; color: #92400e; }
+    code { font-family: var(--mono); font-size: 0.82rem; background: #f1f0ec; padding: 0.1rem 0.35rem; border-radius: 4px; color: var(--primary); }
+    .code-block { font-family: var(--mono); font-size: 0.8rem; background: var(--primary); color: #e8eaf6; padding: 1rem; border-radius: 8px; line-height: 1.8; margin: 0.5rem 0; white-space: pre; overflow-x: auto; }
+    .comment { color: #8b92b8; }
+    .prop { color: #6c63ff; }
+    .val { color: #43e97b; }
+    .selector { color: #ff6584; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.75rem 0; }
+    th { background: var(--primary); color: white; padding: 0.5rem 0.75rem; text-align: left; font-weight: 600; }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); color: var(--muted); }
+    td:first-child { font-family: var(--mono); font-size: 0.78rem; color: var(--text); }
+    tr:last-child td { border-bottom: none; }
+    .divider { border: none; border-top: 2px solid var(--border); margin: 2.5rem 0; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 600px) { .grid2 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<h1>Notes pédagogiques — Exercices Flexbox</h1>
+<p class="subtitle">582-211 Web 2 · Usage interne · Ne pas distribuer aux étudiants</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 class="a">Exercice A — Interface Dashboard</h2>
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p>Cet exercice force les étudiants à <strong>changer de direction flex à chaque niveau d'imbrication</strong>. C'est le cœur de la difficulté : comprendre que <code>justify-content</code> et <code>align-items</code> ne font pas la même chose selon que la direction est <code>row</code> ou <code>column</code>.</p>
+
+<h3>Les 5 pièges intentionnels</h3>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 1</span>
+  <strong>Le body oublié</strong>
+  <p>La plupart des étudiants ne pensent pas à mettre <code>display: flex; flex-direction: column</code> sur le <code>body</code>. Résultat : <code>.layout</code> ne prend pas toute la hauteur disponible, et la sidebar et le main semblent "flotter".</p>
+  <div class="code-block"><span class="comment">/* Ce que l'étudiant oublie */</span>
+<span class="selector">body</span> {
+  <span class="prop">display</span>: <span class="val">flex</span>;
+  <span class="prop">flex-direction</span>: <span class="val">column</span>;
+  <span class="prop">min-height</span>: <span class="val">100vh</span>;
+}</div>
+  <p><strong>Signe que c'est raté :</strong> le footer (s'il y en avait un) ne colle pas au bas de la page. La sidebar est trop courte.</p>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 2</span>
+  <strong>justify vs align selon la direction</strong>
+  <p>Dans le header (<code>flex-direction: row</code>), centrer verticalement se fait avec <code>align-items: center</code>. Mais si un étudiant met <code>justify-content: center</code>, les 3 groupes se tassent au milieu horizontalement. C'est le piège classique de la confusion entre les deux axes.</p>
+  <div class="grid2">
+    <div class="code-block"><span class="comment">/* ✅ Correct */</span>
+<span class="selector">.header</span> {
+  <span class="prop">display</span>: <span class="val">flex</span>;
+  <span class="prop">flex-direction</span>: <span class="val">row</span>;
+  <span class="prop">align-items</span>: <span class="val">center</span>;
+  <span class="prop">justify-content</span>: <span class="val">space-between</span>;
+}</div>
+    <div class="code-block"><span class="comment">/* ❌ Erreur fréquente */</span>
+<span class="selector">.header</span> {
+  <span class="prop">display</span>: <span class="val">flex</span>;
+  <span class="prop">flex-direction</span>: <span class="val">row</span>;
+  <span class="prop">justify-content</span>: <span class="val">center</span>;
+  <span class="comment">/* Les 3 blocs sont au milieu !</span>
+  <span class="comment">   space-between a disparu */</span>
+}</div>
+  </div>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 3</span>
+  <strong>La sidebar qui rétrécit</strong>
+  <p>Sans <code>flex-shrink: 0</code>, la sidebar peut rétrécir en dessous de ses 220px quand le contenu principal est large. L'étudiant pensera que son <code>width: 220px</code> est cassé — en réalité, Flexbox distribue le rétrécissement sur tous les enfants par défaut.</p>
+  <div class="code-block"><span class="selector">.sidebar</span> {
+  <span class="prop">width</span>: <span class="val">220px</span>;
+  <span class="prop">flex-shrink</span>: <span class="val">0</span>; <span class="comment">/* Sans ça : la sidebar peut rétrécir */</span>
+}</div>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 4</span>
+  <strong>Les 3 cartes stats à taille égale</strong>
+  <p>Beaucoup d'étudiants vont mettre <code>width: 33%</code> sur les cartes. Ça fonctionne, mais ce n'est pas la bonne approche Flexbox. La bonne réponse est <code>flex: 1</code> sur chaque <code>.stat-card</code>, ce qui distribue l'espace disponible également entre les 3 cartes — et continue de fonctionner si on en ajoute ou retire une.</p>
+  <div class="grid2">
+    <div class="code-block"><span class="comment">/* ✅ Idiomatique Flexbox */</span>
+<span class="selector">.stat-card</span> {
+  <span class="prop">flex</span>: <span class="val">1</span>;
+}</div>
+    <div class="code-block"><span class="comment">/* ⚠️ Fonctionne mais fragile */</span>
+<span class="selector">.stat-card</span> {
+  <span class="prop">width</span>: <span class="val">33%</span>;
+  <span class="comment">/* Que faire si on veut 4 cartes? */</span>
+}</div>
+  </div>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 5</span>
+  <strong>L'image de la feature-card qui rétrécit</strong>
+  <p>Sans <code>flex-shrink: 0</code> sur <code>.feature-card__image</code>, l'image (200px de large) rétrécira pour "donner de la place" au texte. L'étudiant verra l'image se compresser sans comprendre pourquoi. C'est le même principe que la sidebar, dans un autre contexte.</p>
+</div>
+
+<h3>Questions à poser pendant l'encadrement</h3>
+<div class="card">
+  <p>→ <em>"Sur quel axe est ton conteneur ? Montre-moi avec ton doigt."</em></p>
+  <p>→ <em>"Si la direction est column, que fait justify-content ? Et align-items ?"</em></p>
+  <p>→ <em>"Pourquoi est-ce que ta sidebar rétrécit si tu as mis width: 220px ?"</em></p>
+  <p>→ <em>"Comment est-ce que les 3 cartes se partagent l'espace ? Qui décide ?"</em></p>
+  <p>→ <em>"À quel niveau d'imbrication es-tu là ? Montre-moi le conteneur parent."</em></p>
+</div>
+
+<hr class="divider">
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 class="b">Exercice B — Page de résultats de recherche</h2>
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p>Cet exercice déplace la difficulté vers la <strong>distribution de l'espace</strong>. L'étudiant doit comprendre <em>qui</em> grandit, <em>qui</em> rétrécit, et <em>qui</em> reste fixe — dans plusieurs contextes différents au sein de la même page.</p>
+
+<h3>Le concept central : le triangle flex-grow / flex-shrink / flex-basis</h3>
+
+<div class="card">
+  <table>
+    <tr>
+      <th>Propriété</th>
+      <th>Ce qu'elle fait</th>
+      <th>Valeur par défaut</th>
+      <th>Utilisation dans cet exercice</th>
+    </tr>
+    <tr>
+      <td>flex-grow</td>
+      <td>Est-ce que cet élément prend l'espace libre ?</td>
+      <td>0 (non)</td>
+      <td>Input de recherche, zone de résultats, corps des cartes</td>
+    </tr>
+    <tr>
+      <td>flex-shrink</td>
+      <td>Est-ce que cet élément peut rétrécir ?</td>
+      <td>1 (oui)</td>
+      <td>0 sur logo, bouton, image de carte, panneau filtres</td>
+    </tr>
+    <tr>
+      <td>flex-basis</td>
+      <td>Quelle est la taille de départ ?</td>
+      <td>auto</td>
+      <td>calc(50% - 0.5rem) sur les cartes résultats</td>
+    </tr>
+    <tr>
+      <td>flex: 1</td>
+      <td>Raccourci : grow:1 shrink:1 basis:0</td>
+      <td>—</td>
+      <td>Zone résultats, corps des cartes, inputs prix</td>
+    </tr>
+  </table>
+</div>
+
+<h3>Les 5 pièges intentionnels</h3>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 1</span>
+  <strong>L'input de recherche vs le bouton</strong>
+  <p>C'est le piège le plus intuitif — et souvent mal résolu. L'étudiant va soit mettre <code>width: 100%</code> sur l'input (qui déborde), soit ne rien mettre (l'input garde sa taille naturelle). La bonne réponse : <code>flex: 1</code> sur l'input, <code>flex-shrink: 0</code> sur le bouton.</p>
+  <div class="code-block"><span class="selector">.search-bar__input</span> { <span class="prop">flex</span>: <span class="val">1</span>; }
+<span class="selector">.search-bar__btn</span>   { <span class="prop">flex-shrink</span>: <span class="val">0</span>; }</div>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 2</span>
+  <strong>Le panneau de filtres qui cède</strong>
+  <p>Même problème que la sidebar dans l'exercice A, mais plus subtil ici car le panneau de filtres a beaucoup de contenu — l'étudiant ne voit pas forcément qu'il rétrécit. Demander : <em>"Est-ce que ton panneau a exactement 260px ?"</em> → Inspecter dans DevTools.</p>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 3</span>
+  <strong>Les cartes à 2 par ligne avec flex-wrap</strong>
+  <p>C'est là qu'on introduit <code>flex-basis</code> concrètement. La logique :</p>
+  <div class="code-block"><span class="selector">.result-card</span> {
+  <span class="prop">flex-basis</span>: <span class="val">calc(50% - 0.5rem)</span>; <span class="comment">/* 50% moins la moitié du gap */</span>
+  <span class="prop">flex-grow</span>:  <span class="val">1</span>;             <span class="comment">/* Si seule sur la ligne, elle s'étire */</span>
+  <span class="prop">flex-shrink</span>: <span class="val">1</span>;             <span class="comment">/* Peut légèrement rétrécir */</span>
+  <span class="prop">max-width</span>: <span class="val">calc(50% - 0.5rem)</span>; <span class="comment">/* Empêche de dépasser 50% */</span>
+}</div>
+  <p>L'erreur fréquente : <code>width: 50%</code> sans le gap → les cartes débordent ou ne rentrent pas. Profiter de ce piège pour expliquer pourquoi <code>flex-basis</code> + <code>gap</code> est plus propre que de gérer les marges manuellement.</p>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 4</span>
+  <strong>L'image de la carte qui rétrécit (encore !)</strong>
+  <p>Même concept que l'exercice A, mais en contexte différent — renforcer la compréhension. Si l'image de la carte rétrécit, les emojis se compressent et l'interface casse. C'est un excellent moment pour montrer que <code>flex-shrink: 0</code> est une protection, pas une exception rare.</p>
+</div>
+
+<div class="card piege">
+  <span class="tag tag-warn">⚠️ Piège 5 (le plus formateur)</span>
+  <strong>Le prix qui s'aligne à droite avec margin-left: auto</strong>
+  <p>L'astuce <code>margin-left: auto</code> dans un conteneur flex est l'une des plus utiles — et les moins connues. Au lieu d'utiliser <code>justify-content: space-between</code> (qui affecte tous les enfants), on pousse un seul élément spécifique à droite.</p>
+  <div class="grid2">
+    <div class="code-block"><span class="comment">/* ✅ Pousse juste le prix */</span>
+<span class="selector">.result-card__price</span> {
+  <span class="prop">margin-left</span>: <span class="val">auto</span>;
+}</div>
+    <div class="code-block"><span class="comment">/* ⚠️ Affecte TOUS les enfants */</span>
+<span class="selector">.result-card__tags</span> {
+  <span class="prop">justify-content</span>: <span class="val">space-between</span>;
+  <span class="comment">/* Les tags sont aussi espacés */</span>
+}</div>
+  </div>
+  <p><strong>Explication à donner :</strong> "Dans Flexbox, <code>margin: auto</code> absorbe tout l'espace disponible dans cette direction. C'est comme mettre un ressort invisible entre l'élément et ses voisins."</p>
+</div>
+
+<h3>Questions à poser pendant l'encadrement</h3>
+<div class="card">
+  <p>→ <em>"Qui doit grandir dans cette barre de recherche ? Qui doit rester fixe ?"</em></p>
+  <p>→ <em>"Si je rétrécis la fenêtre, est-ce que le panneau de filtres garde ses 260px ?"</em></p>
+  <p>→ <em>"Pourquoi est-ce que tu as mis flex-basis et pas width sur les cartes ?"</em></p>
+  <p>→ <em>"Comment tu ferais si tu voulais 3 cartes par ligne au lieu de 2 ?"</em></p>
+  <p>→ <em>"Explique-moi ce que fait margin-left: auto sur le prix."</em></p>
+</div>
+
+<hr class="divider">
+
+<h2 style="font-size:1.1rem; font-weight:700; margin-bottom:1rem;">Séquençage suggéré en classe</h2>
+
+<div class="card">
+  <table>
+    <tr>
+      <th>Temps</th>
+      <th>Activité</th>
+      <th>Exercice</th>
+    </tr>
+    <tr>
+      <td>Cours 4</td>
+      <td>Introduction Flexbox — axes, direction, alignement</td>
+      <td>Exercice A (commencé en classe)</td>
+    </tr>
+    <tr>
+      <td>Cours 5</td>
+      <td>flex-grow, shrink, basis — distribution de l'espace</td>
+      <td>Exercice A (terminé) + Exercice B (commencé)</td>
+    </tr>
+    <tr>
+      <td>Avant cours 6</td>
+      <td>Devoir</td>
+      <td>Exercice B terminé + Atelier composants</td>
+    </tr>
+    <tr>
+      <td>Cours 6</td>
+      <td>Rétroaction + pivot vers lecture critique / Projet 1</td>
+      <td>—</td>
+    </tr>
+  </table>
+</div>
+
+<div class="card solution">
+  <strong>💡 Note sur la progression pédagogique</strong>
+  <p>Ces deux exercices reprennent les mêmes concepts (<code>flex-shrink: 0</code> sur les éléments fixes, <code>flex: 1</code> pour absorber l'espace) dans deux contextes visuellement très différents. C'est intentionnel : la répétition contextuelle aide à généraliser la règle plutôt que de mémoriser une solution.</p>
+  <p style="margin-top:0.5rem">À la fin de l'exercice B, un étudiant devrait être capable d'expliquer <em>pourquoi</em> il a mis <code>flex-shrink: 0</code> quelque part — pas juste de le copier parce que ça marche.</p>
+</div>
+
+</body>
+</html>

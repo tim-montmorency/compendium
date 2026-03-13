@@ -1,0 +1,167 @@
+Cours 1
+
+---
+
+https://www.youtube.com/watch?v=_rpaapFfZWM
+https://ca.pinterest.com/pin/4081455907260227/
+https://ca.pinterest.com/pin/5277724559555692/
+https://ca.pinterest.com/pin/5770305768309354/?e_t=e9be1fa1d99845e186b77b0e115dcff8&news_hub_id=3132778126799650496&utm_campaign=hfdigestpins&utm_content=5770305768309354&utm_medium=2004&utm_source=31&utm_term=16
+https://reallygooddesigns.com/80s-graphic-design/
+
+<!-- Exercice 1 : Autopsie d’un visuel (en duo)
+	•	Tu projettes 2–3 pubs/sites/affiches.
+	•	Ils remplissent une mini-fiche : objectif, cible, contexte, 3 choix visuels qui aident, 1 choix qui nuit.
+
+Exercice 2 : Reproduction guidée dans Figma
+	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
+
+Devoir (≈50 min)
+	•	Mini analyse (1 page) + capture ou lien Figma :
+	•	1 visuel choisi + "Quoi/Qui/Où/Quand/Comment" + 3 choix justifiés. -->
+
+
+#### Piège de la quantité
+
+La production 
+
+Il faut toujours porter attention à l'origine des styles, leur symbolique et signification fait parti du travail qu'un designer fait. Il existe des outils intéressant pour rapidement avoir une perspective sur une oeuvre.
+
+> <https://imgops.com/>, LLM (ex: ChatGPT), bibliothèque 📚
+
+!!! example "Trouver l'origine et la symbolique"
+
+    Admettons que vous aimez bien cette image et décidez de vous en inspirer pour le style d'une pièce de théâtre. 
+    
+    Est-ce un bon choix ?
+
+    ![](./assets/img/rodchenko.jpg){data-zoom-image .w-100}
+
+    > Secrètement, j'aimerais vous entendre dire que « ça dépend » 😛
+
+    <!-- Traduction : des livres, du savoir, partout et pour tout le monde -->
+    <!-- Objectif : démocratiser l’éducation -->
+    <!-- Connotations : Propagande, appel militant, contexte soviétique, révolution, etc. -->
+    <!-- Ton : anti-exclusivité / anti-élitisme -->
+    <!-- Symbolique : Le savoir n’est pas un luxe, c’est un bien public. -->
+    <!-- Constructivisme russe <https://en.wikipedia.org/wiki/Alexander_Rodchenko> -->
+
+<!-- Exercice 1 : Autopsie d’un visuel (en duo)
+	•	Tu projettes 2–3 pubs/sites/affiches.
+	•	Ils remplissent une mini-fiche : objectif, cible, contexte, 3 choix visuels qui aident, 1 choix qui nuit.
+
+Exercice 2 : Reproduction guidée dans Figma
+	•	Refaire une mini-UI (titre + sous-titre + image + bouton) en respectant : alignements, marges constantes, hiérarchie simple.
+
+Faire un Pinterest de design graphique qui vous intéresse -->
+
+
+
+Cours 4
+
+
+<!-- #### Imprimé
+
+![](./assets/img/Why-Printing-Uses-CMYK-Image-3.jpg){.w-25 data-zoom-image}
+![](./assets/img/print-dots.jpg){.w-25 data-zoom-image} -->
+<!-- 
+1) Impression numérique
+
+Laser / toner (électrophotographie)
+	•	Le plus courant pour : petits et moyens tirages, bureautique, documents, affiches légères, impressions à la demande.
+	•	Avantage : rapide, économique en faible quantité, personnalisation facile.
+
+Jet d’encre (inkjet)
+	•	Très courant pour : grand format (affiches, bannières, vitrine), photo, repro, signalétique.
+	•	Avantage : excellente qualité photo / dégradés, beaucoup de supports.
+
+2) Offset (lithographie offset)
+	•	Toujours dominant pour : magazines, dépliants, brochures, emballages carton, gros tirages.
+	•	C’est la “méthode classique” CMYK avec trame (AM ou FM selon l’imprimeur).
+
+3) Packaging
+
+Flexographie (flexo)
+	•	Ultra courante pour : emballages souples, étiquettes, sacs, carton ondulé.
+	•	Souvent CMYK + tons directs.
+
+Héliogravure (gravure)
+	•	Moins “visible” au quotidien, mais très utilisée pour très gros volumes (surtout certains emballages).
+	•	Coûteux à mettre en place, rentable à grande échelle.
+
+4) Sérigraphie (stencil/pochoir)
+	•	Toujours très présente pour : textile, objets, affiches, éditions limitées.
+	•	Souvent en tons directs (Pantone) + effets (fluos, métalliques). -->
+
+<!-- <div class="grid grid-1-3" markdown>
+![](./assets/img/Process-serigraphie-e1649837510113.webp){data-zoom-image}
+
+[_Halftone screening_]()
+</div>
+
+<div class="grid grid-1-3" markdown>
+![](./assets/img/Process-serigraphie-e1649837510113.webp){data-zoom-image}
+
+[Sérigraphie](https://www.ikone-textile.fr/serigraphie-pour-les-nuls.html?srsltid=AfmBOooQ-tsYxLDDKyxsw1cYGgb8ZY3x-BIT5M4DncNHdIKEIJdSQLTQ)
+</div> -->
+
+
+![](./assets/img/illusion-couleur.png)
+
+
+Variables : https://www.youtube.com/watch?v=as184ZLawVI (plus tard?)
+
+Figma Draw
+
+Théorie des couleurs
+Harmonies
+Contrastes
+Accessibilité (AA/AAA)
+Psychologie de la couleur
+Tendances et historique des couleurs
+
+Palettes
+
+60-30-10
+	•	Contraste (texte/fond), palettes (primaire/secondaire/neutres).
+
+Théorie : https://www.youtube.com/watch?v=krFQKuxwBZg
+
+https://en.wikipedia.org/wiki/The_dress
+https://en.wikipedia.org/wiki/Checker_shadow_illusion
+
+https://www.figma.com/fr-fr/roue-chromatique/
+https://www.figma.com/fr-fr/couleurs/?lang=fr-fr
+https://www.figma.com/fr-fr/pipette-couleur/?lang=fr-fr
+https://www.figma.com/color-palettes/?lang=fr-fr
+https://www.figma.com/color-palette-generator/?lang=fr-fr
+https://www.figma.com/color-contrast-checker/?lang=fr-fr
+
+
+<!-- Démo Figma
+	•	Styles de couleurs : créer palette + noms (Primary/Surface/Text/Error…).
+	•	Variantes clair/sombre (si tu veux, sinon reste simple).
+
+Atelier
+	•	Construire une palette complète pour leur projet (4–6 couleurs + neutres + états).
+
+Devoir
+	•	Appliquer palette + typo sur 1 écran de leur futur TP (propre, aligné, lisible). -->
+
+
+
+
+<!-- #### Chaud
+
+> Énergie, passion et urgence
+
+Les couleurs chaudes sont des teintes qui vont du rouge au jaune sur la roue chromatique. Elles incluent les nuances d’orange et des variations comme or ou corail.
+
+![](./assets/img/emo-chaud.png){w-100 data-zoom-image}
+
+#### Froid
+
+> Confiance, calme et professionnalisme
+
+Les couleurs froides sont des teintes qui vont du bleu au vert et au violet sur la roue chromatique. Elles incluent des nuances comme le turquoise, le bleu sarcelle et le lavande.
+
+![](./assets/img/emo-froid.png){w-100 data-zoom-image} -->
