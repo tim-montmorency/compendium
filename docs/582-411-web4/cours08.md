@@ -356,3 +356,14 @@ Exemples d’extensions utiles :
 * Woocommerce Memberships
 * WooCommerce Bookings
 * Mailchimp for WooCommerce
+* 
+
+## Exercice : Glidex
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/glidex-section-hero.png)
+
+  <small>Exercice - WoocCommerce</small><br>
+  **[Glidex](./exercices/glidex.md){.stretched-link .back}**
+</div>
+
