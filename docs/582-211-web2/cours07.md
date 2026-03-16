@@ -26,7 +26,11 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 
     Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
+<br>
+
 ---
+
+<br>
 
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
@@ -51,13 +55,19 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 
 ### Groupe du mercreci: Accédez au quiz en direct
 
-[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF){ .md-button }
+[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF)
 
 ### Groupes du lundi: Accédez au quiz asynchrone
 
 En guise de révision, faites le quiz à votre propre rythme. 20 questions.
 
-[Groupes du lundi AM et PM: Quiz à votre rythme](./exercices/cours7-revision-wooclap.md){ .md-button }
+**Groupes du lundi AM et PM:**
+
+- [quiz à votre rythme sur le site du cours](./exercices/cours7-revision-wooclap.md)
+- ou
+- [quiz à votre rythme sur Wooclap](https://app.wooclap.com/LURBYP/questionnaires/69b88f4eeace7bc1b31a1a9b)
+
+Note: c'est le même quesitonnaire dasn les deux cas masi l'interface est différente.
 
 ## Travail en classe sur le Projet 1 
 
