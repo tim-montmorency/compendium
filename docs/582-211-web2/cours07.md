@@ -49,13 +49,13 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 - Variables CSS
 - Nommer les classes avec la nomenclature BEM
 
-### Accéder au quiz
+### Groupe du mercreci: Accédez au quiz en direct
 
 [Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF){ .md-button }
 
-### Les groupes du lundi
+### Groupes du lundi: Accédez au quiz autonome
 
-Vous pouvez, en guise de révision, faite le quiz à votre propre rythme. 20 questions.
+En guise de révision, faites le quiz à votre propre rythme. 20 questions.
 
 [Groupes du lundi AM et PM: Quiz à votre rythme](./exercices/cours7-revision-wooclap.md){ .md-button }
 
