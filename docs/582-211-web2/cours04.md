@@ -63,6 +63,11 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 [👩🏻‍💻 Exercice Design tokens - Dark Academia](./exercices/cours4-variables-darkacademia/index.md){ .md-button }
 
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
+
 ## Le flux (flow) HTML
 
 - Le flux natif des éléments HTML.
@@ -78,6 +83,11 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 ### Exercice Galerie Genshin Impact
 
 [👩🏻‍💻 Exercice flexbox - Galerie Genshin Impact](./exercices/cours4-flex-genshinimpact/index.md){ .md-button }
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
 
 ## DEVOIR

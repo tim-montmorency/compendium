@@ -152,3 +152,8 @@ Remettre avant le début du cours 3 : `+`, `commit "Remise"`, [...] `push`.
 <img src="./assets/remise-git-commit-push.png" width="200" alt="git [+], commit Remise, [...], push">
 
 Si vous n'arrivez pas à faire le `push`, nous allons trouver une solution ensemble en début de cours 3.
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.

@@ -4,7 +4,8 @@
 + Climbing gym (salle d’escalade) < 
 + Local bubble tea shop (boutique de bubble tea locale) < 
 + Environment Protection NGO (ONG environnementale) < 
-+ Immersive experience creative agency (Agence créative d'expérience immersive) <
++ Immersive experience creative agency (Agence créative d'expérience immersive) 
+
 + Tech startup (startup tech) <
 
 + Cultural festival (festival culturel) DONE

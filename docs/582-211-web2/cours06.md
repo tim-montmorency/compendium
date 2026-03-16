@@ -1,5 +1,7 @@
 # Cours 6
 
+Lundi 23 février / mercredi 25 février
+
 <!---
 REMISE DU RÉSULTAT DE L’ATELIER SUR LES COMPOSANTS FLEXBOX (POUR UNE ÉVALUATION FORMATIVE) 
 
@@ -31,6 +33,11 @@ Simultanément: rencontres individuelles pour la rétroaction de votre [*Atelier
 [👩🏻‍💻 Exercice *Flexbox: UI Dashboard*](./exercices/cours6-ui-dashboard/){ .md-button }
 
 [👩🏻‍💻 Exercice *Flexbox: Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/){ .md-button }
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
 
 <!--
@@ -80,29 +87,41 @@ Dev Mode : lecture de l'intention du designer généré par Figma à partir d’
 
 ## Lancement du projet-1: Assemblage d’interface (35%)
 
+<!-- 
+Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commencé et ce, 1 semaine avant la remise,  je devrais prévoir une remise #1 du projet au cours une semaine avant la remise ou peut-être même 2 semaine avant la remise dépendemment ou je place les cours. Cette remise #1 qui comprendrait les étapes :
+
+- 0. Préparation
+- 1. La maquette
+- 2. Lecture des consignes ici et du brief du client
+- 3. Analyse de la maquette
+- 4. Planification de l’intégration
+
+Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la documentation (en parallèle) et qu'il ne trainent pas de la patte. Car j'ai l'impresson que j'en ai échappé qq-uns qui n'avaient même pas encore créé leur répertoire github au cours 7 (remise au cours 8). Et la plupart ont commencé à rédiger du HTML sans même planifier leur composant. LE PLAN AVANT LE HANDS-ON!!
+-->
+
 ### Objectif
 
 Intégrer une maquette Figma en HTML/CSS en utilisant les bonnes pratiques d’intégration et en appliquant les concepts de Flexbox.
 
 [👩🏻‍💻 Instructions *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
-Notez que vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 27 février en fin de journée.
+
+
+
 
 
 ## DEVOIR pour le prochain cours (lundi 9 ou merc. 11 mars)
 
 Le prochain cours est dans 2 semaines, puisque la semaine prochaine est la semaine de rattrapage.
 
-- *Terminer les 2 exercices pratiques de renforcement Flexbox* et remettre les 2 liens des CodePen dans le devoir TEAMS attitré avant le cours 7 :
+- *Terminer les 2 exercices pratiques de renforcement Flexbox* et remettre les 2 liens des CodePen dans le devoir TEAMS attitré avant le cours 7 (9/11 mars):
   - UI Dashboard
   - Page de résultats de recherche
-- *Débuter le projet 1* (vous recevrez votre maquette Figma attitrée dans une conversation TEAMS au plus tard le 27 février en fin de journée) :
+
+- *Débuter le projet 1* (vous recevrez votre maquette Figma attitrée dans une conversation TEAMS le 27 février):
   - création du repo GitHub personnel pour le projet 1
   - lecture des consignes complètes du projet 1
   - lecture du brief du client qui vous est attitré
   - analyse de la maquette qui vous est attitrée (via le Dev Mode de Figma)
   - planification de l’intégration (architecture HTML, composants réutilisables, nomenclature des classes, système de tokens (variables))
   - début de l’intégration (HTML/CSS) du projet
-
-!!! danger "Semaine de rattrapage (2–8 mars)"
-    Travail autonome intensif : c’est votre responsabilité de planifier votre temps et de faire des progrès significatifs sur le projet 1. Profitez des ressources disponibles, des rencontres individuelles en classe et de l'aide des tuteurs pour obtenir du soutien.

@@ -33,6 +33,11 @@ Révision des 2 exercices « dark académie » et « Galerie Genshin Impact »
 
 [👩🏻‍💻 Exercice - Interface de jeu vidéo](./exercices/cours5-ui-jeu-video/index.md){ .md-button }
 
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
+
 
 
 
@@ -91,3 +96,8 @@ Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 fév
 Atelier pratique : Composants Flexbox (formatif): Remise au cours 6 (23, 25 février).
 
 [👩🏻‍💻 Atelier mini système de composants d'un portfolio](./exercices/alelier-composants-portfolio/index.md){ .md-button }
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices et ateliers :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.

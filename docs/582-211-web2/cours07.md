@@ -1,6 +1,32 @@
 # Cours 7
 
-<!-- Possibilité  de repouser la remise du Projet 1 au cours 9 (23-25 mars) car je leur ai envoyé les instructions vendredi soir très tard alors qu'ils deaient les avoir au 6...  C'est un peu de ma faute. Aussi je dois prendre en considération que le groupe du lundi am a manqué toute la partie du le devmode et l'auto-layout. Je pense devoir faire une révision pour eux... Donc je vais voir ou ils en sont en les rencontrant pendant le cours et je verrai ce que je fais...  -->
+Lundi 9 mars / mercredi 18 mars
+
+<!-- 
+Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commencé et ce, 1 semaine avant la remise,  je devrais prévoir une remise #1 du projet au cours une semaine avant la remise ou peut-être même 2 semaine avant la remise dépendemment ou je place les cours. Cette remise #1 qui comprendrait les étapes :
+
+- 0. Préparation
+- 1. La maquette
+- 2. Lecture des consignes ici et du brief du client
+- 3. Analyse de la maquette
+- 4. Planification de l’intégration
+
+Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la documentation (en parallèle) et qu'il ne trainent pas de la patte. Car j'ai l'impresson que j'en ai échappé qq-uns qui n'avaient même pas encore créé leur répertoire github au cours 7 (remise au cours 8). Et la plupart ont commencé à rédiger du HTML sans même planifier leur composant. LE PLAN AVANT LE HANDS-ON!!
+-->
+
+## Annnonce
+
+Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours d'aujoud'hui. Si ce n'est pas fait, je vous donne 5 minutes pour les remettre maintenant...
+
+- [👩🏻‍💻 Exercice *UI Dashboard*](./exercices/cours6-ui-dashboard/)
+- [👩🏻‍💻 Exercice *Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/)
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
+
+---
 
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
@@ -14,12 +40,26 @@
   </div>
 </div>
 
-## Remise et révision
+## Quiz time! Révision du cours 1 à 7
 
-Remise des liens CodePen des 2 exercices du derniers cours (dans Teams)
+### Sujet?
 
-- UI Dashboard
-- Page de résultats de recherche
+- Flexbox
+- Concept des composants réutilisables
+- Variables CSS
+- Nommer les classes avec la nomenclature BEM
+
+### Accéder au quiz
+
+[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF){ .md-button }
+
+### Les groupes du lundi
+
+Vous pouvez, en guise de révision personnelle, faite le quiz à votre propre rythme. 20 questions.
+
+[Groupe du lundi AM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
+
+[Groupe du lundi PM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
 
 ## Travail en classe sur le Projet 1 
 
@@ -31,21 +71,26 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams)
 [👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
 
 
-## RAPPEL Politique d'utilisation de l'IA — Phase 2
+## Politique de l'IA: Phase 2
 
-Si vous utilisez l'IA pour le projet 1, vous devez l'inscrire dans le fichier  *documentation.md* : quel outil IA, quelle version, la date, le prompt et quelle partie du code pour avez validé ou amélioré avec l'IA.
+Si vous utilisez l'IA pour le projet 1, vous devez l'inscrire dans le fichier  *documentation.md* : 
 
-Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
+- quel outil IA,
+- quelle version,
+- la date,
+- le prompt
+- et quelle partie du code pour avez validé ou amélioré avec l'IA.
 
-- PERMIS : Vérifier et comparer votre code après l'avoir écrit vous-même
-- PERMIS : Poser des questions conceptuelles pour comprendre
-- PERMIS : Déboguer un problème spécifique dans votre code
-- INTERDIT : Générer la structure de base ou des sections complètes
-- INTERDIT : Copier-coller du code IA sans le comprendre
-- INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
+Durant le *Projet 1*, vous vous vous situez en *Phase 2* de la *politique IA du cours* :
+
+- ✅PERMIS : Vérifier et comparer votre code après l'avoir écrit vous-même
+- ✅PERMIS : Poser des questions conceptuelles pour comprendre
+- ✅PERMIS : Déboguer un problème spécifique dans votre code
+- ❌INTERDIT : Générer la structure de base ou des sections complètes
+- ❌INTERDIT : Copier-coller du code IA sans le comprendre
+- ❌INTERDIT : Utiliser l'IA comme substitut à votre apprentissage
 
 <span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera. Vous devez aussi documenter tout prompt à l'IA dans le cadre de ce projet.
-
 
 ## Travail en classe sur le Projet 1 
 
@@ -60,9 +105,8 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
 
 Avancer sur le projet 1 en classe avec la possibilité de poser des questions à l’enseignante et d’avoir des rencontres individuelles pour la rétroaction.
 
-
 ## DEVOIR
 
-Terminer le Projet 1 pour la remise au cours 8 (16 ou 18 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
+Terminer le Projet 1 pour la remise ~~avant le cours 8 (16 ou 18 mars)~~ <span class="important-label">REPORTÉ</span> avant le cours 8 (23 ou 25 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
 
 [👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
