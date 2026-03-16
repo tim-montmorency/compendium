@@ -55,11 +55,9 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 
 ### Les groupes du lundi
 
-Vous pouvez, en guise de révision personnelle, faite le quiz à votre propre rythme. 20 questions.
+Vous pouvez, en guise de révision, faite le quiz à votre propre rythme. 20 questions.
 
-[Groupe du lundi AM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
-
-[Groupe du lundi PM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
+[Groupes du lundi AM et PM: Quiz à votre rythme](./exercices/cours7-revision-wooclap.md){ .md-button }
 
 ## Travail en classe sur le Projet 1 
 
