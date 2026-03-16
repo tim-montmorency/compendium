@@ -5,6 +5,9 @@
 ## Plan de cours
 * [📑 Nouveau plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBLOxvfu_6MR5B6KK_dU8IJAfDPQG4zsnNGamtn5E6WUXg?e=KNGYRH)
 
+### Réservation du studio
+* [Lien pour réserver le studio](https://teamup.com/ks5tb2ed4b9yetgo9v)
+
 ## [Caméra - La base](references/Caméra.md) 
 
 ### Powerpoint
