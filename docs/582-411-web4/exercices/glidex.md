@@ -51,7 +51,6 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Border-Width : 2 2 2 2
 * [ ]   Rayon de bordure : 40px 40px 40px 40px
 * [ ]   Marge-interne : 8px 30px 8px 30px
-* [ ]   Ajouter le lien vers votre page boutique
 
 ### Account
 * [ ]   Icon Size 20px
@@ -65,6 +64,10 @@ Aller voir à quoi ressemble votre page !
 * [ ]   Arrière-plan : transparent
 * [ ]   Hauteur : 110px
 * [ ]   Taille de la bordure inférieur : 0
+
+![](../assets/images/glidex-footer-1.png){data-zoom-image}
+
+![](../assets/images/glidex-footer-2.png){data-zoom-image}
 
 ### Pied de page
 * [ ]   Ajouter un Widget au centre
@@ -422,12 +425,12 @@ Faites en sorte que votre carousel ressemble à celui-ci :
 #### Colonne de Gauche
 
 * [ ]   Direction : Vertical
-* [ ]   Balise HTML : Span
 
 * [ ]   Ajouter un titre
 
             Explorer les jeux VR
 
+* [ ]   Balise HTML : Span
 * [ ]   Famille de police : Inter
 * [ ]   POids : 600
 
