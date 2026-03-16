@@ -32,3 +32,4 @@
     * Montage sonore
     * Équipe de tournage
     * Horaire de tournage
+  * [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/r/sites/stockageFLPilote/Documents%20partages/tous_les_travaux_etudiants/video_I/2026_hiver/partie_01D_final?csf=1&web=1&e=jmHig1)
