@@ -51,7 +51,7 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 
 ### Accéder au quiz
 
-[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/){ .md-button }
+[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF){ .md-button }
 
 ### Les groupes du lundi
 
