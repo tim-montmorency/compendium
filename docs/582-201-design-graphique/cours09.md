@@ -13,6 +13,24 @@ https://www.youtube.com/watch?v=LTsIKT9dslU
 
 ![](./assets/img/figma-make-ex.png)
 
+
+## Composants (_Components_)
+
+![](./assets/img/components-figma.png){data-zoom-image .w-75}
+
+Les composants permettent de créer des éléments réutilisables. Modifier le composant principal met à jour toutes ses instances automatiquement.
+
+C'est essentiel pour les déclinaisons : **un seul bouton, une seule carte** → décliné sur 10 écrans, modifiable en un clic.
+
+- Créer un composant : ++ctrl+alt+k++ (Windows) / ++cmd+opt+k++ (Mac)
+- L'icône des composants est un losange ◆
+
+!!! tip "Bonne pratique"
+
+    Regroupez tous vos composants sur une page dédiée « 🧩 Composants » dans votre fichier Figma.
+
+
+
 ## L'IA en design graphique
 
 L'intelligence artificielle est maintenant partout dans les outils de création. Ce n'est pas une tendance qui va disparaître. C'est une réalité du métier.
