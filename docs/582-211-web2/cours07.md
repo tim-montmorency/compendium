@@ -40,6 +40,27 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
   </div>
 </div>
 
+## Quiz time! Révision du cours 1 à 7
+
+### Sujet?
+
+- Flexbox
+- Concept des composants réutilisables
+- Variables CSS
+- Nommer les classes avec la nomenclature BEM
+
+### Accéder au quiz
+
+[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/){ .md-button }
+
+### Les groupes du lundi
+
+Vous pouvez, en guise de révision personnelle, faite le quiz à votre propre rythme. 20 questions.
+
+[Groupe du lundi AM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
+
+[Groupe du lundi PM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
+
 ## Travail en classe sur le Projet 1 
 
 !!! warning 

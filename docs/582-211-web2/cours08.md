@@ -24,18 +24,6 @@ Vous devriez avoir remis, AVANT votre cours d'aujourd'hui le projet 1.
 Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 -->
 
-## Quiz time! Révision du cours 1 à 7
-
-### Sujet?
-
-- Flexbox
-- Concept des composants réutilisables
-- Variables CSS
-- Nommer les classes avec la nomenclature BEM
-
-### Accéder au quiz
-
-[Groupe du mercredi matin](https://app.wooclap.com/){ .md-button }
 
 ## Activité 1: Amorce: le constat du site qui casse (10 min)
 
