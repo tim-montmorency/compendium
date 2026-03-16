@@ -2,6 +2,9 @@
 
 
 
+## Plan de cours
+* [📑 Nouveau plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBLOxvfu_6MR5B6KK_dU8IJAfDPQG4zsnNGamtn5E6WUXg?e=KNGYRH)
+
 ## [Caméra - La base](references/Caméra.md) 
 
 ### Powerpoint
