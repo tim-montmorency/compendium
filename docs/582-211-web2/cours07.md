@@ -1,5 +1,7 @@
 # Cours 7
 
+Lundi 9 mars / mercredi 18 mars
+
 <!-- 
 Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commencé et ce, 1 semaine avant la remise,  je devrais prévoir une remise #1 du projet au cours une semaine avant la remise ou peut-être même 2 semaine avant la remise dépendemment ou je place les cours. Cette remise #1 qui comprendrait les étapes :
 
@@ -12,6 +14,20 @@ Si je refais ce projet, puisque je constate que plusieurs n'ont même pas commen
 Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la documentation (en parallèle) et qu'il ne trainent pas de la patte. Car j'ai l'impresson que j'en ai échappé qq-uns qui n'avaient même pas encore créé leur répertoire github au cours 7 (remise au cours 8). Et la plupart ont commencé à rédiger du HTML sans même planifier leur composant. LE PLAN AVANT LE HANDS-ON!!
 -->
 
+## Annnonce
+
+Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours d'aujoud'hui. Si ce n'est pas fait, je vous donne 5 minutes pour les remettre maintenant...
+
+- [👩🏻‍💻 Exercice *UI Dashboard*](./exercices/cours6-ui-dashboard/)
+- [👩🏻‍💻 Exercice *Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/)
+
+!!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
+
+---
+
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
   <div class="sidetext">PHASE 2: Utilisation de l'<em>IA</em> permise mais limitée.
@@ -23,18 +39,6 @@ Et ainsi m'assurer que ce qu'il reste à faire c'est l'intégration et la docume
     <p>Pourquoi ? Vous devez démontrer votre maîtrise autonome.</p>
   </div>
 </div>
-
-## Remise des exercices
-
-Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le cours du 9 ou 11 mars
-
-- [👩🏻‍💻 Exercice *UI Dashboard*](./exercices/cours6-ui-dashboard/)
-- [👩🏻‍💻 Exercice *Page de résultats de recherche*](./exercices/cours6-resultats-de-recherche/)
-
-!!! info
-    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
-
-    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
 ## Travail en classe sur le Projet 1 
 
@@ -67,7 +71,6 @@ Durant le *Projet 1*, vous vous vous situez en *Phase 2* de la *politique IA du 
 
 <span class="important-label">IMPORTANT:</span> Vous êtes responsable de tout le code remis. Vous devez comprendre et pouvoir justifier chaque ligne à la demande de l’enseignante qui vous évaluera. Vous devez aussi documenter tout prompt à l'IA dans le cadre de ce projet.
 
-
 ## Travail en classe sur le Projet 1 
 
 !!! warning 
@@ -83,6 +86,6 @@ Avancer sur le projet 1 en classe avec la possibilité de poser des questions à
 
 ## DEVOIR
 
-Terminer le Projet 1 pour la remise ~~avant le cours 8 (16 ou 18 mars)~~ <span class="important-label">REPORTÉ</span> avant le cours 9 (23 ou 25 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
+Terminer le Projet 1 pour la remise ~~avant le cours 8 (16 ou 18 mars)~~ <span class="important-label">REPORTÉ</span> avant le cours 8 (23 ou 25 mars). Voir le brief complet du projet et la grille d'auto-évaluation pour les critères d'évaluation détaillés.
 
 [👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
