@@ -146,7 +146,7 @@ Aller voir à quoi ressemble votre page !
 
 ## Elementor
 
-* [ ]   Créer un page Accueil dans Wordpress
+* [ ]   Aller dans votre page d'accueil
 * [ ]   Éditer la page Accueil dans Elementor
 * [ ]   Ajouter une section Conteneur
 * [ ]   Nommer-le : Section Hero
