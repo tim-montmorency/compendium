@@ -1,5 +1,7 @@
 # Cours 6
 
+Lundi 23 février / mercredi 25 février
+
 <!---
 REMISE DU RÉSULTAT DE L’ATELIER SUR LES COMPOSANTS FLEXBOX (POUR UNE ÉVALUATION FORMATIVE) 
 
