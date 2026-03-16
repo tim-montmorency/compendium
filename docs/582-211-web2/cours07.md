@@ -53,7 +53,7 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 
 [Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF){ .md-button }
 
-### Groupes du lundi: Accédez au quiz autonome
+### Groupes du lundi: Accédez au quiz asynchrone
 
 En guise de révision, faites le quiz à votre propre rythme. 20 questions.
 
