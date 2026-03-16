@@ -356,7 +356,7 @@ Exemples d’extensions utiles :
 * Woocommerce Memberships
 * WooCommerce Bookings
 * Mailchimp for WooCommerce
-* 
+  
 
 ## Exercice : Glidex
 
