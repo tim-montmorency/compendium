@@ -4,7 +4,7 @@
 [Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww){ .md-button }   <br>
 
 ## Plan de cours
-[Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/IQBZkXhpMasgQZ6NQfv4p8OAAf2RbGaQ6Y4e1iEzP4K2Pvk?e=rQUgIA){ .md-button }   <br>
+[Plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBLOxvfu_6MR5B6KK_dU8IJAfDPQG4zsnNGamtn5E6WUXg?e=KNGYRH){ .md-button }   <br>
 
 
 ## Présentation des règles du cours
