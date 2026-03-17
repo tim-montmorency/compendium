@@ -67,7 +67,7 @@ En guise de révision, faites le quiz à votre propre rythme. 20 questions.
 - ou
 - [quiz à votre rythme sur Wooclap](https://app.wooclap.com/LURBYP/questionnaires/69b88f4eeace7bc1b31a1a9b)
 
-Note: c'est le même quesitonnaire dasn les deux cas masi l'interface est différente.
+Note: Pour chacun des deux liens, c'est le même questionnaire mais l'interface est différente.
 
 ## Travail en classe sur le Projet 1 
 
