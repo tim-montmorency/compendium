@@ -1,273 +1,183 @@
-# Cours 8 | Responsive
+# Cours 8 | Impression et _responsive_
 
-[STOP]
+## L'impression (_Print_)
 
-![](./assets/img/formats-banner.webp){.w-100}
+![](./assets/img/cropped-20-Sallie-Harker-Art-Print-Residence-september-2022-scaled-1.jpg){.w-100}
 
-## Un message, plusieurs supports
+L'impression, quoique bien moins présente de nos jours, fait encore partie du décor. Que ce soit pour des **bannières** de spectacles, des **dépliants** chez le dentiste, des **menus** au restaurant ou des **publicités** dans les abribus, le concept est encore très présent.
 
-En design graphique, une création n'existe presque jamais dans un seul contexte. Une même campagne peut vivre sur une affiche imprimée, un story Instagram, un bandeau Google, un écran de présentation et une carte de visite — **en même temps**.
+### Résolution et qualité
 
-> Le message est le même. Le support change tout.
+![](./assets/img/dpi-example.jpg)
 
-Le défi : adapter le visuel **sans diluer le message**, en respectant les contraintes propres à chaque format (dimensions, lisibilité, résolution, comportement de l'utilisateur).
+La résolution physique se mesure souvent en **pouces** ou en **centimètres**, pas en pixels.
 
-!!! example "Étude de cas : une affiche de festival"
+La densité d’impression (qualité) se calcule en **dpi** (dots per inch) ou **ppp** (points par pouce) en français.
 
-    Un festival de musique doit communiquer sa programmation. Son équipe prépare :
-    
-    - Une affiche 24×36 po (impression)
-    - Un bandeau numérique 970×250 px (web)
-    - Une story Instagram 1080×1920 px (mobile)
-    - Un post Facebook 1200×628 px (fil d'actualité)
+En général, une impression de qualité nécessite au moins **300 dpi**.
 
-    Ce n'est pas la même information présentée de la même façon. C'est la même **intention** déclinée selon les **contraintes** de chaque support.
+!!! info "Figma travaille en pixels à 72 dpi. Pour obtenir une qualité d'impression de 300 dpi, exporter à `4.17x` la taille d'origine."
+ 
+### Formats
 
-## Les formats courants
+<!-- https://www.a0-size.com/american-paper-sizes/
+https://www.adobe.com/fr/creativecloud/design/discover/a0-format.html -->
 
-### Impression (_Print_)
+![](./assets/img/a0.png){ data-zoom-image }
 
-![](./assets/img/print-formats.png){data-zoom-image .w-75}
+[Norme internationale](https://fr.wikipedia.org/wiki/Format_de_papier) : formats A, B et C
 
-Les formats physiques les plus communs en design graphique :
+Autres formats très utilisés ici :
 
-| Format | Dimensions | Usage typique |
-| --- | --- | --- |
-| Lettre | 8,5 × 11 po | Flyer, affiche intérieure |
-| Tabloïd | 11 × 17 po | Affiche, programme |
-| A3 | 297 × 420 mm | Affiche, dépliant |
-| A4 | 210 × 297 mm | Brochure, flyer |
-| Grand format | Variable | Bannière, bâche, mupi |
+* Lettre (8.5 x 11)
+* Légal (8.5 x 14)
 
-!!! warning "L'impression, c'est du CMYK et du DPI"
+### Spectre des couleurs
 
-    - **DPI** (_Dots Per Inch_) : résolution en points par pouce. L'impression nécessite au minimum **300 DPI**. Les écrans tournent à 72–96 DPI. Exporter une image d'écran pour l'imprimer = image floue 🙁
-    - **CMYK** : le mode colorimétrique de l'imprimerie. Les couleurs vives en RGB peuvent paraître plus ternes une fois imprimées.
+![](./assets/img/00+LEAD+RGB+CMYK.png){.w-100 data-zoom-image}
 
-#### Le fond perdu (_Bleed_)
+![](./assets/img/Couleur-RVB-ou-CMJN.webp){.w-50 data-zoom-image}
+![](./assets/img/1dxorzrrgtqb1.jpg){.w-25 data-zoom-image}
 
-![](./assets/img/bleed-diagram.png){data-zoom-image .w-50}
+CMYK (ou CMJN) est le mode colorimétrique utilisé en imprimerie.
 
-Quand on imprime et qu'on rogne le papier, la lame de coupe n'est jamais parfaite à 0,1 mm près. Si ton fond s'arrête exactement au bord, tu risques d'avoir une mince bande blanche sur le bord de l'impression.
+L’espace colorimétrique RGB est plus large que CMYK. Certaines couleurs très vives visibles à l’écran ne peuvent donc pas être reproduites exactement à l’impression.
 
-La solution : **étendre le fond de 3 mm au-delà du bord** de l'affiche.
+### Fond perdu et marges
 
-![](./assets/img/bleed-safe-zone.png){data-zoom-image .w-50}
+![](./assets/img/Bleed-diagram.jpg){ data-zoom-image }
 
-- **Zone de sécurité** : les éléments importants (texte, logo) doivent rester à **au moins 5 mm** des bords.
-- **Fond perdu** : l'arrière-plan doit dépasser de **3 mm** de chaque côté.
+![](./assets/img/bleed-sample2.jpg){ data-zoom-image }
 
-!!! info "Dans Figma"
-
-    Figma ne gère pas nativement le fond perdu. L'approche : agrandir le _frame_ de 6 mm (3 mm × 2) dans chaque dimension, et travailler le design à l'intérieur de la zone de sécurité.
-
-### Formats numériques
-
-#### Réseaux sociaux
-
-![](./assets/img/social-media-sizes.png){data-zoom-image}
-
-Les formats bougent souvent ! Voici les formats les plus stables :
-
-| Plateforme | Format | Dimensions |
-| --- | --- | --- |
-| Instagram – Post carré | 1:1 | 1080 × 1080 px |
-| Instagram – Story / Reels | 9:16 | 1080 × 1920 px |
-| Facebook – Post paysage | 1.91:1 | 1200 × 628 px |
-| LinkedIn – Post | 1.91:1 | 1200 × 628 px |
-| TikTok – Vidéo | 9:16 | 1080 × 1920 px |
-| Pinterest – Pin vertical | 2:3 | 1000 × 1500 px |
-
-!!! tip "Référence à jour"
-
-    Les formats changent régulièrement. Consultez [sproutsocial.com/insights/social-media-image-sizes-guide](https://sproutsocial.com/insights/social-media-image-sizes-guide/) avant un vrai projet.
-
-#### Formats publicitaires Web (_Display_)
-
-![](./assets/img/display-ad-sizes.png){data-zoom-image .w-75}
-
-Les formats publicitaires sont standardisés par l'IAB (_Interactive Advertising Bureau_). Les plus courants :
-
-| Nom | Dimensions | Usage |
-| --- | --- | --- |
-| Leaderboard | 728 × 90 px | Haut de page |
-| Medium Rectangle | 300 × 250 px | Sidebar, contenu |
-| Large Rectangle | 336 × 280 px | Contenu |
-| Half Page | 300 × 600 px | Sidebar premium |
-| Billboard | 970 × 250 px | Haut de page large |
-| Mobile Banner | 320 × 50 px | Mobile |
-
-!!! note "Pour Meta Ads (Facebook / Instagram)"
-
-    Meta recommande le format carré 1080 × 1080 px pour les publicités image, car il s'adapte à la fois au fil et à la story (avec recadrage automatique).
-
-### Présentation (_Slides_)
-
-| Logiciel | Format standard |
+| Concept | Description |
 | --- | --- |
-| PowerPoint / Google Slides | 16:9 → 1920 × 1080 px |
-| Figma (présentation) | Libre, souvent 1920 × 1080 px |
+| Fond perdu (_bleed_) | Zone qui dépasse la taille finale pour éviter un bord blanc après coupe. Souvent **3 mm**. |
+| Ligne de coupe (_trim_) | Taille finale du document une fois coupé. |
+| Marge de sécurité (_safety_) | Zone intérieure où placer textes et éléments importants. Souvent **5 mm**. |
 
-## Adapter un design : ce qui change
+!!! example "Quelles valeurs utiliser ?"
 
-Quand on décline un design sur plusieurs formats, **tout** peut être à revoir :
+    C'est normalement **l'imprimeur** qui fournit ces spécifications.
 
-**La hiérarchie**  
-Sur une affiche, on peut avoir 3 niveaux d'info (titre, détails, CTA). Sur un bannière 728 × 90, on n'a souvent de la place que pour **un seul message**.
+    Vistaprint, par exemple, place ses modèles dans la section *Specs & Templates* du produit que l'on souhaite commander. 
+    
+    Utilisez SVG pour Figma.
 
-**La typographie**  
-Une fonte à 14 px lisible sur desktop devient illisible sur mobile ou en impression. Taille minimale pratique : 16 px à l'écran, 9 pt en impression.
+    <div class="grid grid-1-4" markdown>
+    ![](./assets/img/NPIB24730-hero-FlatMenu-T2-NA-nico.jpeg)
 
-**Le cadrage et la composition**  
-Un visuel centré sur une affiche peut devenir mal cadré dans un format vertical 9:16. Prévoir des marges de sécurité intelligentes dès le début.
+    [Impression de menus](https://www.vistaprint.ca/marketing-materials/flat-menus){.stretched-link}
+    </div>
 
-**Le contenu**  
-Moins de place = **moins d'information**. Il faut apprendre à couper sans trahir le message. Qu'est-ce qui est vraiment essentiel ?
+### Exportation pour l'imprimeur
 
-!!! example "Règle pratique ✂️"
+![](./assets/img/colooooooooors.gif){.w-100}
 
-    Sur une affiche : titre + sous-titre + 3 informations clés + CTA.  
-    Sur une story : titre + CTA.  
-    Sur un bandeau 728 × 90 : **une seule phrase + logo**.
+L’imprimeur n’est pas responsable des oublis du designer. Il est donc impératif de bien préparer ses documents.
 
-## _Auto Layout_ : concevoir pour l'adaptabilité
+1. Retirer toutes les lignes de guide (marges, lignes de coupe, fond perdu).
+1. Exporter en PDF. La plupart du temps, les imprimeurs préfèrent ce format parce qu’il conserve fidèlement la mise en page.
+1. Vectoriser tous les textes. C’est très important : les polices utilisées ne sont pas nécessairement installées chez l’imprimeur.
+  * Illustrator : Create Outlines
+  * Figma : Aplatir
 
-![](./assets/img/auto-layout-intro.gif){.w-100}
+## Responsive
 
-_Auto Layout_ dans Figma permet de créer des composants **vivants** : ils s'adaptent à leur contenu et à leur contenant.  
-
-C'est l'équivalent du **Flexbox** en CSS.
-
-### Horizontal vs. Vertical
-
-![](./assets/img/auto-layout-direction.png){data-zoom-image .w-50}
+![](./assets/img/auto-layout-vert-hor.png)
 
 Un _Auto Layout_ peut s'organiser en **ligne** (horizontal) ou en **colonne** (vertical). Les deux peuvent être imbriqués pour créer des grilles complexes.
-
-### Padding et espacement
-
-![](./assets/img/auto-layout-spacing.png){data-zoom-image .w-50}
-
-- **Padding** : espace intérieur entre le contenu et les bords du _frame_.
-- **Gap** (_spacing between items_) : espace entre les éléments enfants.
-
-### Le trio magique : Hug / Fill / Fixed
-
-![](./assets/img/hug-fill-fixed.png){data-zoom-image}
-
-C'est ici que ça devient puissant :
-
-| Mode | Description | Quand l'utiliser |
-| --- | --- | --- |
-| **Hug** | Le _frame_ se colle au contenu | Bouton, étiquette, badge |
-| **Fill** | L'élément remplit l'espace disponible | Colonne flexible, fond |
-| **Fixed** | Taille fixe, peu importe le contenu | Image, icône, bloc précis |
-
-!!! example "Exemple classique : un bouton"
-
-    Un bouton bien fait :
-    - Le texte est en **Fixed** (taille précise)
-    - Le _frame_ du bouton est en **Hug** (s'adapte au texte)
-    - Le bouton dans un conteneur est en **Fill** (prend la largeur disponible)
-    
-    Résultat : changez le texte du bouton, le bouton se redimensionne tout seul 🪄
-
-### _Auto Layout_ imbriqué (_Nested_)
-
-![](./assets/img/nested-auto-layout.png){data-zoom-image .w-75}
-
-On peut imbriquer des _frames_ Auto Layout pour créer des grilles et des layouts complexes.
-
-> Exemple : une liste de cartes (colonnes horizontales) contenant chacune une image, un titre et un bouton (colonne verticale).
 
 !!! tip "Raccourci"
 
     ++shift+a++ : ajouter l'Auto Layout à une sélection
 
-## Responsive et points de rupture (_Breakpoints_)
+### Exemple de mise en page automatique horizontale
 
-![](./assets/img/responsive-breakpoints.png){data-zoom-image .w-75}
+![](./assets/img/auto-layout-livres.png){data-zoom-image}
 
-Sur le web, un design doit s'adapter à plusieurs tailles d'écran. On définit des **points de rupture** (_breakpoints_) là où la mise en page change.
+[Télécharger les images des livres](./assets/documents/livres.zip)
 
-Les points de rupture les plus courants (en px) :
+On cherche ici à reproduire l'équivalent d'une mise en page CSS :
 
-| Taille | Largeur |
-| --- | --- |
-| Mobile | < 768 px |
-| Tablette | 768 – 1024 px |
-| Desktop | > 1024 px |
-| Large desktop | > 1280 px |
+- `display: flex;`
+- `justify-content: center;`
+- `align-items: end;`
 
-### Dans Figma : simuler le responsive
+Première notion, le positionnement :
 
-Pour représenter les déclinaisons responsive dans Figma, on crée **plusieurs _frames_** côte à côte — une par taille d'écran — avec les mêmes composants réorganisés.
+1. On applique d'abord la mise en page horizontale sur un _frame_ et on y ajoute les éléments désirés (les livres).
+1. S'assurer d'avoir des dimensions fixes (`1920x1080`).
+1. Choisir l'alignement désiré (centré en bas).
+1. Corriger les espaces et marges en fonction des besoins.
+1. On peut retirer le remplissage du frame.
 
-![](./assets/img/responsive-figma-frames.png){data-zoom-image}
+Deuxième notion, l'enveloppage :
 
-!!! info "Figma Sites"
+1. Changer l'alignement : en haut à gauche.
+1. Cliquer sur l'icône « Envelopper ».
+1. Changer la hauteur du frame pour l'ajuster au contenu.
+1. Redimensionner le frame pour tester que l'enveloppage fonctionne comme désiré.
 
-    Figma Sites est une fonctionnalité qui permet de publier un design directement en site Web réel, avec une gestion des _breakpoints_ intégrée.
+![](./assets/img/auto-layout-livres2.png){data-zoom-image}
 
-    <iframe class="aspect-16-9 w-75 center" src="https://www.youtube.com/embed/Wqvia5z1les" title="Figma Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+!!! example "À la verticale alors ?"
 
-## Composants (_Components_)
+    Même principe.
 
-![](./assets/img/components-figma.png){data-zoom-image .w-75}
+    L'avantage de ce type de mise en page, c'est aussi qu'on peut ajouter ou retirer des éléments à la volée !
 
-Les composants permettent de créer des éléments réutilisables. Modifier le composant principal met à jour toutes ses instances automatiquement.
+    ![](./assets/img/autolayout-add-remove.webp){data-zoom-image .w-25}
 
-C'est essentiel pour les déclinaisons : **un seul bouton, une seule carte** → décliné sur 10 écrans, modifiable en un clic.
+### _Auto Layout_ imbriqué 
 
-- Créer un composant : ++ctrl+alt+k++ (Windows) / ++cmd+opt+k++ (Mac)
-- L'icône des composants est un losange ◆
+C'est ici que ça devient très intéressant !
 
-!!! tip "Bonne pratique"
+On peut imbriquer des _frames_ _Auto Layout_ vectical, horizontal ou en grille, pour créer des mises en page complexes. 
 
-    Regroupez tous vos composants sur une page dédiée « 🧩 Composants » dans votre fichier Figma.
+<div class="grid grid-1-2" markdown>
+![](./assets/img/td-sunshine.jpg)
 
-## Figma
+<div markdown>
+Pour ceux et celles qui aiment apprendre en vidéo, _TD Sunshine_ résume bien le concept de mise en page automatique.<br>
+[Youtube](https://youtu.be/EVBaM-a8v4w?si=Wue8oGeEm1_dg2ce){.stretched-link}
+</div>
+</div>
 
-### Export pour l'impression
+## Technique du jour
 
-Pour exporter un fichier prêt pour l'impression :
+![](./assets/img/original-98d3702f7c1323dd562c2d53666fa189.webp){data-zoom-image}
 
-1. Sélectionner le _frame_
-2. Export → **PDF**
-3. S'assurer que les dimensions correspondent à la taille physique souhaitée
+![](./assets/img/etapes-technique-bg-flou.png){data-zoom-image}
 
-!!! warning "Figma travaille en pixels, l'impression en pouces/mm"
+[Idée originale | Dribbble](https://dribbble.com/shots/25800072-Cabin-Booking-Card-UI)
 
-    Pour une affiche 8,5 × 11 po à 300 DPI :  
-    8,5 × 300 = **2550 px** de large  
-    11 × 300 = **3300 px** de haut
+<!-- https://coolors.co/image-picker -->
 
-### Export pour le web
+## Communauté Figma
 
-- Formats recommandés : **PNG** (transparence), **JPG** (photo, fond opaque), **SVG** (vectoriel, logo)
-- Activer l'option **2×** pour les écrans Retina/HiDPI
+![](./assets/img/community.png)
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/declination/prev.png)
+  ![](./activite/exercice/menu/ex.jpeg)
 
   <small>Exercice - Figma</small><br>
-  **[Déclinaison de formats](./activite/exercice/declination/index.md){.stretched-link .back}**
+  **[Menu du jour](./activite/exercice/menu/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/bouton-autolayout/prev.png)
+  ![](./activite/exercice/gateau/cake.jpg)
 
   <small>Exercice - Figma</small><br>
-  **[Bouton Auto Layout](./activite/exercice/bouton-autolayout/index.md){.stretched-link .back}**
+  **[C'est du gâteau !](./activite/exercice/gateau/index.md){.stretched-link .back}**
 </div>
 
 ## Devoir
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/devoir/declination/prev.jpg)
+  ![](./activite/devoir/pub/Display-Advertising.png)
 
   <small>Devoir - Figma</small><br>
-  **[Affiche déclinée](./activite/devoir/declination/index.md){.stretched-link .back}**
+  **[Publicité Web](./activite/devoir/pub/index.md){.stretched-link .back}**
 </div>
