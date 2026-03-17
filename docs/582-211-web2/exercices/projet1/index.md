@@ -249,3 +249,32 @@ Durant le Projet 1, vous êtes en Phase 2 de la politique IA du cours :
     <p>Pourquoi ? Vous devez démontrer votre maîtrise autonome.</p>
   </div>
 </div>
+
+
+## Modalités de remise
+
+- **Date limite révisé** : Cours 9 (23 ou 25 mars) ~~cours 8 : 16 ou 18 mars~~ — AVANT le début du cours
+- **Plateforme et forme** : sur [Teams/Devoirs "Projet 1 (35%)"](https://teams.microsoft.com/l/entity/66aeee93-507d-479a-a3ef-8f494af43945/classroom?context=%7B%22subEntityId%22%3A%22%7B%5C%22version%5C%22%3A%5C%221.0%5C%22%2C%5C%22config%5C%22%3A%7B%5C%22classes%5C%22%3A%5B%7B%5C%22id%5C%22%3A%5C%2291ad530b-3c18-4d81-b4f4-743e3a2ebb95%5C%22%2C%5C%22assignmentIds%5C%22%3A%5B%5C%228d8822a5-3f57-471b-920b-a5478342f4dd%5C%22%5D%7D%5D%7D%2C%5C%22action%5C%22%3A%5C%22navigate%5C%22%2C%5C%22view%5C%22%3A%5C%22assignment-viewer%5C%22%2C%5C%22appId%5C%22%3A%5C%22ccb65bcd-04ba-421a-8791-a299a70904b6%5C%22%2C%5C%22deeplinkType%5C%22%3A4%7D%22%2C%22channelId%22%3Anull%7D) remettre simplement le **lien du répertoire GitHub *PUBLIC*** (ça ressemble à un lien qui est construit comme celui-ci : https://github.com/nomdutilisation/nom-du-repertoire)
+
+- **Format** : Seulement remettre un lien GitHub
+
+  > Important: le répertoire doit être ✅ public et non ❌ privé (afin que je puisse y avoir accès)
+
+  > Suite à la remise, il ne vous est plus permis de faire de *push* ❌ supplémentaire sur le répertoire. Si j'en vois, sachez que ce que je vais évaluer est le dernier *commit/push* effectué AVANT la date de remise finale de votre groupe.
+
+
+
+  À noter que ce répertoire GitHub contient tous vos fichiers de projet donc vous n’avez pas à remettre les fichiers eux même dans Teams, juste le lien vers le répertoire. 
+
+  Le répertoire en ligne sur GitHub doit contenir tous ces fichiers de travail complétés :
+
+  - `index.html`
+  - `styles.css`
+  - dossiers `assets` avec vos images etc…
+  - `README.md`
+  - `DOCUMENTATION.md`
+
+
+### Assurez-vous que votre répertoire GitHub est pulic
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0dfb3d81-bf4c-4333-b9f5-1ff566d30972&nav=%7B%22playbackOptions%22%3A%7B%22startTimeInSeconds%22%3A0%7D%7D&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="github-rendre-public.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
