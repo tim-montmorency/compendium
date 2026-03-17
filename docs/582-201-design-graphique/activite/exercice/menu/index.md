@@ -3,7 +3,7 @@ tags:
   - Exercice
 ---
 
-# Menu
+# Menu du jour
 
 ![](./head.jpg){.w-100}
 

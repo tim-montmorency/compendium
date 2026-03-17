@@ -29,6 +29,9 @@
 * [▶️ Format fichier](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQDGZVZOvgoDRplzcbtdedxmAe3lUyzgHjpJnYjCbQVXyzs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PAgA6o)
 * [▶️ Interlaced progressif](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQDh9cKjML14QLj9kFPzbUNfAYHF20UqMAc_qu2an8fhHAU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Z7l8e4)
 
+## Exercices
+* [Exercices](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC4XhYCSsZfQ61DRgSFDn2lAUR89OTvpMNCePnAlPDdCT8?e=c0WoCC)
+
 ## Devoir
 * [La préproduction](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/IQAThPMZPXIbS52Tt94Jf4YDATk2Y_fir4rTkCCKoykE2TM?e=YTQwQK)
   * Terminer la préproduction pour le 23/24 mars
