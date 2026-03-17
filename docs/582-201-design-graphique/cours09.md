@@ -1,4 +1,4 @@
-# Cours 9 | Composantes
+# Cours 9 | Composantes et Figma Sites
 
 [STOP]
 
@@ -13,6 +13,20 @@ https://www.youtube.com/watch?v=LTsIKT9dslU
 
 ![](./assets/img/figma-make-ex.png)
 
+## Responsive et points de rupture (_Breakpoints_)
+
+![](./assets/img/responsive-breakpoints.png){data-zoom-image .w-75}
+
+Sur le web, un design doit s'adapter à plusieurs tailles d'écran. On définit des **points de rupture** (_breakpoints_) là où la mise en page change.
+
+Les points de rupture les plus courants (en px) :
+
+| Taille | Largeur |
+| --- | --- |
+| Mobile | < 768 px |
+| Tablette | 768 – 1024 px |
+| Desktop | > 1024 px |
+| Large desktop | > 1280 px |
 
 ## Composants (_Components_)
 
@@ -29,7 +43,15 @@ C'est essentiel pour les déclinaisons : **un seul bouton, une seule carte** →
 
     Regroupez tous vos composants sur une page dédiée « 🧩 Composants » dans votre fichier Figma.
 
+## Figma Sites
 
+![](./assets/img/responsive-figma-frames.png){data-zoom-image}
+
+!!! info "Figma Sites"
+
+    Figma Sites est une fonctionnalité qui permet de publier un design directement en site Web réel, avec une gestion des _breakpoints_ intégrée.
+
+    <iframe class="aspect-16-9 w-75 center" src="https://www.youtube.com/embed/Wqvia5z1les" title="Figma Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## L'IA en design graphique
 
@@ -257,6 +279,14 @@ Les propriétés permettent de rendre certains aspects d'un composant **modifiab
 ---
 
 ## Exercices
+
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/exercice/declination/prev.png)
+
+  <small>Exercice - Figma</small><br>
+  **[Déclinaison de formats](./activite/exercice/declination/index.md){.stretched-link .back}**
+</div>
 
 <div class="grid grid-1-2" markdown>
   ![](./activite/exercice/button-states/preview.png)
