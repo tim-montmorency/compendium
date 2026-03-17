@@ -2,6 +2,12 @@
 
 
 
+## Plan de cours
+* [📑 Nouveau plan de cours](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBLOxvfu_6MR5B6KK_dU8IJAfDPQG4zsnNGamtn5E6WUXg?e=KNGYRH)
+
+### Réservation du studio
+* [Lien pour réserver le studio](https://teamup.com/ks5tb2ed4b9yetgo9v)
+
 ## [Caméra - La base](references/Caméra.md) 
 
 ### Powerpoint
@@ -32,3 +38,4 @@
     * Montage sonore
     * Équipe de tournage
     * Horaire de tournage
+  * [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/r/sites/stockageFLPilote/Documents%20partages/tous_les_travaux_etudiants/video_I/2026_hiver/partie_01D_final?csf=1&web=1&e=jmHig1)

@@ -1,7 +1,5 @@
 # Cours 8
 
-[STOP]
-
 ## Plan de match
 
 - Retour sur le cours jusqu'à maintenant
@@ -166,6 +164,8 @@ Finalement, pour bien voir ce qui se produit et pour bien animer le tout, il est
 ## Regarder vos TP??
 
 ## Devoir
+
+Le devoir du cours 8 est dans le Teams avec un fichier de départ et une (très longue) capsule. 
 
 
 

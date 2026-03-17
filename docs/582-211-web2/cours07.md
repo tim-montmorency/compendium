@@ -26,7 +26,11 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 
     Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
+<br>
+
 ---
+
+<br>
 
 <div class="class-content-link">
   <img src="./assets/IA-restreinte.png">
@@ -49,17 +53,21 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 - Variables CSS
 - Nommer les classes avec la nomenclature BEM
 
-### Accéder au quiz
+### Groupe du mercreci: Accédez au quiz en direct
 
-[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF){ .md-button }
+[Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF)
 
-### Les groupes du lundi
+### Groupes du lundi: Accédez au quiz asynchrone
 
-Vous pouvez, en guise de révision personnelle, faite le quiz à votre propre rythme. 20 questions.
+En guise de révision, faites le quiz à votre propre rythme. 20 questions.
 
-[Groupe du lundi AM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
+**Groupes du lundi AM et PM:**
 
-[Groupe du lundi PM: Quiz à votre rythme](https://app.wooclap.com/){ .md-button }
+- [quiz à votre rythme sur le site du cours](./exercices/cours7-revision-wooclap.md)
+- ou
+- [quiz à votre rythme sur Wooclap](https://app.wooclap.com/LURBYP/questionnaires/69b88f4eeace7bc1b31a1a9b)
+
+Note: Pour chacun des deux liens, c'est le même questionnaire mais l'interface est différente.
 
 ## Travail en classe sur le Projet 1 
 
