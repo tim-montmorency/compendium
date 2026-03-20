@@ -2,19 +2,25 @@
 
 ## Activité 1 : Le site qui casse (10 min)
 
-### Objectif
+Présentation et observation.
 
-Faire *sentir* le problème avant d'apprendre la solution. Créer un besoin.
+## Objectif
 
-### Déroulement
+*Sentir/comprendre* le **problème** avant d'apprendre la **solution**.
 
-Ton enseignante ouvre 2–3 sites connus dans le navigateur et rétrécit la fenêtre en direct.
+## Déroulement
 
-**Observe et réponds (discussion orale) :**
+Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. Ces saites sont flexibles (stylisé avec flexbox) mais non 100% *responsives*. Donc sur mobile, on va avoir un problème d'affichage.
+
+1. [Studio créatif](https://tim-montmorency.com/compendium/582-211-web2/demo-sans-responsive-sans-minwidth.html)
+2. [Studio créatif - Sections avec `min-width: 1100px;`](https://tim-montmorency.com/compendium/582-211-web2/demo-sans-responsive.html)
+
+**Observe et réponds (discussion en classe) :**
 
 - Qu'est-ce qui se casse en premier ?
-
-- À quel moment le site devient inutilisable ?
+- À quel moment le site devient inutilisable/illisbile ?
 - Selon toi, pourquoi ça arrive ?
 
-> **À retenir :** Le responsive ne corrige pas un site cassé — il anticipe les contraintes dès le départ.
+---
+
+> **À retenir :** Le principe du *responsive* ne corrige pas un site cassé: il anticipe les contraintes dès le départ.
