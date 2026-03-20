@@ -4,7 +4,9 @@
 
 ## Prêt des casques oculus
 
-[🛠️ Formulaire à remplir](https://cmontmorency365.sharepoint.com/:w:/s/TIM-programmeTIM752/IQADWkesB3tXRrtaO1bjuJSTAcuiCCcutg3KcJGTdBNj4_M?e=M0T3Si){ .md-button } 
+[🛠️ Formulaire à remplir - Lora](https://cmontmorency365.sharepoint.com/:w:/s/TIM-programmeTIM752/IQADWkesB3tXRrtaO1bjuJSTAcuiCCcutg3KcJGTdBNj4_M?e=M0T3Si){ .md-button } 
+
+[🛠️ Formulaire à remplir - JF](https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-programmeTIM752/Documents%20partages/TTP%20-%20R%C3%A9servations/582_401_mo_realite_virtuelle_formulaire_emprunt_JF.docx?d=wc6fcf331a2b54f4aa79d0f4aa88fa282&csf=1&web=1&e=VGrAqJ){ .md-button } 
 
 
 ### Casques de réalité virtuelle
