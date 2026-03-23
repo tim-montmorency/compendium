@@ -113,7 +113,7 @@ size: 16:9
 
 | Mobile-first | Desktop-first |
 |---|---|
-| Partir du minimum essentiel et ajouter de la complexité au fur et à mesure que l'espace augmente. | Partir de la version riche et retirer des éléments au fur et à mesure que l'espace diminue. |
+| Partir du minimum essentiel et ajouter de la complexité au fur et à mesure que l'espace augmente. | Partir de la version riche et retirer des éléments ou simplifier le visuel au fur et à mesure que l'espace diminue. |
 
 ```css
 /* Mobile-first */
@@ -133,7 +133,7 @@ size: 16:9
   .nav { flex-direction: column; }
 }
 ```
-**On retire ↑**
+**On écrase les styles pour simplifier ↑**
 
 ---
 
