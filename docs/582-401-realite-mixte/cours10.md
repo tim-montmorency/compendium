@@ -1,17 +1,5 @@
 # Cours 10
 
-[STOP]
-
-### Retour sur GitHub
-- [:pencil: Github](./unity/github.md)
-
-#### Exercice conflits
-
-### Casques de réalité virtuelle
-- [:pencil: Meta Quest Link - Relier le casque et l'ordinateur](./unity/meta_quest_link.md)
-
-#### Exercice 
-Tester la scène Démo et regarder les méthodes de prise des objets. 
 
 ## Interagir avec les manettes et l'environnement
 - [:pencil: Prendre et lancer des objets](unity/interaction_vr.md)
