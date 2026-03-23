@@ -17,7 +17,7 @@ Introduction au responsive
 
 Vous devriez avoir remis, AVANT votre cours d'aujourd'hui le projet 1.
 
-[👩🏻‍💻 *PROJET 1: ASSSEMBLAGE D'INTERFACE*](./exercices/projet1/index.md){ .md-button }
+- [PROJET 1: ASSSEMBLAGE D'INTERFACE](./exercices/projet1/index.md)
 
 <!--
 <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours. La première évaluation sommative est le Projet 1 — pour y être évalué adéquatement, *vous devez avoir participé activement à toutes les activités d'apprentissage précédentes*.
