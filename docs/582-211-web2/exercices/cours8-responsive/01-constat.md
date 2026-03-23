@@ -12,11 +12,15 @@ Présentation et observation.
 
 Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. Ces saites sont flexibles (stylisé avec flexbox) mais non 100% *responsives*. Donc sur mobile, on va avoir un problème d'affichage.
 
-### Pixel&Co : https://tinyurl.com/*2m3pauwv*
+### Pixel&Co : https://tinyurl.com/*v*
 
-1. [Pixel&Co](https://tim-montmorency.com/compendium/582-211-web2/demo-sans-responsive-sans-minwidth.html)
-  - Tappez ce url sur vos téléphones cellulaires: [https://tinyurl.com/2m3pauwv](https://tinyurl.com/2m3pauwv)
-2. [Pixel&Co - Sections avec `min-width: 1100px;`](https://tim-montmorency.com/compendium/582-211-web2/demo-sans-responsive.html)
+- [Sans viewport](../../demos/no-resp01.html)
+- [Avec Viewport](../../demos/no-resp02.html)
+
+
+- Tappez ce url sur vos téléphones cellulaires: []()
+
+
 
 **Observe et réponds (discussion en classe) :**
 
