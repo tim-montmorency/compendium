@@ -1,5 +1,15 @@
 # Cours 8 | Impression et _responsive_
 
+## Commandez votre veste TIM 2026 !
+
+![](./assets/img/zip.png){.w-100}
+
+C'est maintenant le temps de commander votre veste TIM 2026 🎉🎉🎉
+ 
+📆 Vous avez jusqu'à vendredi prochain (27 mars) pour effectuer vos commandes !
+
+[Feuille de commande](https://forms.office.com/r/f9FZ4r0BeD?origin=lprLink){ .md-button .md-button--primary }
+
 ## L'impression (_Print_)
 
 ![](./assets/img/cropped-20-Sallie-Harker-Art-Print-Residence-september-2022-scaled-1.jpg){.w-100}

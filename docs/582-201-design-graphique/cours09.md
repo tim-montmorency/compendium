@@ -11,6 +11,16 @@
 * L'importance de comprendre les contraintes : les alignements et la mise à l'échelle
 * Largeur et hauteur configurées dynamiquement : l'ajustement au contenu ou remplir le contenant
 
+## Commandez votre veste TIM 2026 !
+
+![](./assets/img/zip.png){.w-100}
+
+C'est maintenant le temps de commander votre veste TIM 2026 🎉🎉🎉
+ 
+📆 Vous avez jusqu'à vendredi prochain (27 mars) pour effectuer vos commandes !
+
+[Feuille de commande](https://forms.office.com/r/f9FZ4r0BeD?origin=lprLink){ .md-button .md-button--primary }
+
 ## Composantes (_Components_)
 
 ![](./assets/img/component-figma-new.png){data-zoom-image}
