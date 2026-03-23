@@ -10,7 +10,7 @@
 
 Faire fonctionner la mécanique de base une première fois dans tes mains — d'abord à l'intérieur d'un composant, ensuite sur la mise en page globale.
 
----
+
 
 ## Phase 1 — La carte qui se retourne
 
@@ -240,7 +240,7 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
 
 > **Note :** As-tu inclus `<meta name="viewport" ...>` ? Sans lui, la media query ne fonctionnera pas sur mobile. Vérifie.
 
----
+
 
 ## Phase 2 — La grille qui se réorganise
 
