@@ -4,9 +4,9 @@
 
 Présentation et observation.
 
-## Objectif
 
-*Sentir/comprendre* le **problème** avant d'apprendre la **solution**.
+
+*Objectif:* **Sentir/comprendre** le **problème** avant d'apprendre la **solution**.
 
 ## Déroulement
 
@@ -24,7 +24,8 @@ Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. C
 </head>
 ```
 
-[Sans viewport](../../demos/no-resp01.html) ou sur votre cellulaire: ­[https://bit.ly/4lQ5bRS](https://bit.ly/*4lQ5bRS*)
+- [Sans viewport](../../demos/no-resp01.html) 
+- ou tappez ce URL sur votre cellulaire: ­[https://bit.ly/*4lQ5bRS*](https://bit.ly/4lQ5bRS): 4, L minuscule...
 
 #### Avec viewport
 
@@ -37,7 +38,8 @@ Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. C
 </head>
 ```
 
-[Avec Viewport](../../demos/no-resp02.html) ou sur votre cellulaire: ­[https://bit.ly/4br7pU7](https://bit.ly/*4br7pU7*)
+- [Avec Viewport](../../demos/no-resp02.html) 
+- ou tappez ce URL sur votre cellulaire:  ­[https://bit.ly/*4br7pU7*](https://bit.ly/4br7pU7)
 
 
 - Tappez ce url sur vos téléphones cellulaires: []()
