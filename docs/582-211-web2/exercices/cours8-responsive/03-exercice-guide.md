@@ -213,7 +213,7 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
 
 ### Ta mission — Phase 1
 
-À partir de **600px de large**, chaque carte doit passer en disposition horizontale : pochette à gauche, texte à droite.
+À partir de **1600px de large**, chaque carte doit passer en disposition horizontale : pochette à gauche, texte à droite.
 
 **Ajoute une media query** dans le fichier pour obtenir ce résultat. Tu n'as pas le droit de modifier le HTML.
 
@@ -253,8 +253,8 @@ Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'
 | Largeur de fenêtre | Disposition |
 |--------------------|-------------|
 | Moins de 600px | **1 colonne** — les cartes s'empilent *(déjà en place)* |
-| Entre 600px et 1099px | **2 colonnes** — les cartes côte à côte |
-| 1100px et plus | **4 colonnes** — toutes les cartes sur une seule rangée |
+| Entre 600px et 1599px | **2 colonnes** — les cartes côte à côte |
+| 1600px et plus | **1 colonne** — toutes les cartes s'empilent |
 
 **Ajoute les media queries nécessaires** sur `.grille` et `.card`. Tu n'as toujours pas le droit de modifier le HTML.
 
@@ -276,8 +276,14 @@ Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'
 }
 
 @media (min-width: ???) {
+
+  .grille {
+    /* flex-direction: ??? */
+    /* flex-wrap: ??? */
+  }
+
   .card {
-    /* Et pour 4 colonnes ? */
+   
   }
 }
 ```
@@ -289,7 +295,7 @@ Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'
 ### Validation — Phase 2
 
 - [ ] À moins de 600px : les cartes s'empilent en 1 colonne.
-- [ ] Entre 600px et 1099px : les cartes s'affichent en 2 colonnes.
-- [ ] À 1100px et plus : les 4 cartes tiennent sur une seule rangée.
+- [ ] Entre 600px et 1599px : les cartes s'affichent en 2 colonnes.
+- [ ] À 1600px et plus : les cartes s'empilent en 1 colonne (mais elles ont un style horizontal)
 - [ ] Aucun débordement horizontal à aucune taille d'écran.
 - [ ] **Bonus :** Les cartes d'une même rangée ont toutes la même hauteur.
