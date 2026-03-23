@@ -1,5 +1,3 @@
-[STOP]
-
 # TP2 – Animation d’une scène en parallaxe  
 **(20% de la note finale)**
 
