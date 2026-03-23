@@ -1,7 +1,5 @@
 # Cours 9
 
-[STOP]
-
 ## 🚨 Présentation des plans de projet
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
@@ -22,9 +20,6 @@
 
 ### Interagir avec les manettes et l'environnement
 - [:pencil: Prendre et lancer des objets](unity/interaction_vr.md)
-
-### Exercice
-Ajouter la VR à votre projet 2 et essayez de lancer des objets. 
 
 
 ## Devoir: Avancement du projet final
