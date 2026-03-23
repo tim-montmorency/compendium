@@ -48,6 +48,12 @@
 
   * Si vous êtes développeur, c’est une excellente façon d’implémenter la parallaxe sans avoir recours à des plugins.
 
+## Elementor PRO
+
+##### Scrolling Effect
+
+![](./assets/images/Motion-effects-1.png){data-zoom-image}
+
 ## Créez des effets de parallaxe avec Elementor
 
 ![](./assets/images/royal.png){data-zoom-image}
