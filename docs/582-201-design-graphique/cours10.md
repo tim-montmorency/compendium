@@ -281,3 +281,7 @@ Avant de passer à la maquette de votre projet, vérifiez que votre système est
   <small>Exercice - Figma</small><br>
   **[Composants imbriqués](./activite/exercice/design-system-composants/index.md){.stretched-link .back}**
 </div>
+
+
+## Devoir
+

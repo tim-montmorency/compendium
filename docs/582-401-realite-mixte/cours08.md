@@ -1,5 +1,15 @@
 # Cours 8
 
+## Commandez votre veste TIM 2026 !
+
+![](./images/zip.png){.w-100}
+
+C'est maintenant le temps de commander votre veste TIM 2026 🎉🎉🎉
+ 
+📆 Vous avez jusqu'à vendredi prochain (27 mars) pour effectuer vos commandes !
+
+[Feuille de commande](https://forms.office.com/r/f9FZ4r0BeD?origin=lprLink){ .md-button .md-button--primary }
+
 ## 🚨 Remise du travail 2
 
 ## Prêt des casques oculus

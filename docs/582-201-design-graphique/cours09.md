@@ -1,261 +1,96 @@
 # Cours 9 | Composantes et Figma Sites
 
-[STOP]
+![](./assets/img/1_xnE7ROIC-V5H1HbAvjr8XA.png){.w-100}
 
-https://www.youtube.com/watch?v=LTsIKT9dslU
-
-<!-- @note : Le devoir 03 est remis la veille de ce cours
-@note : Ce cours vise à discuter de l'intelligence artificiel en design graphique. Les composantes en Figma.
-
-@idées : Aborder 3-4 techniques de création en design graphique et en design graphique web. -->
+<!-- Espoir : https://www.youtube.com/watch?v=LTsIKT9dslU -->
 
 ## Retour sur le Devoir 03
 
-![](./assets/img/figma-make-ex.png)
+## Retour sur l'exercice du gâteau
 
-## Responsive et points de rupture (_Breakpoints_)
+* L'importance de comprendre les contraintes : les alignements et la mise à l'échelle
+* Largeur et hauteur configurées dynamiquement : l'ajustement au contenu ou remplir le contenant
 
-![](./assets/img/responsive-breakpoints.png){data-zoom-image .w-75}
+## Commandez votre veste TIM 2026 !
 
-Sur le web, un design doit s'adapter à plusieurs tailles d'écran. On définit des **points de rupture** (_breakpoints_) là où la mise en page change.
+![](./assets/img/zip.png){.w-100}
 
-Les points de rupture les plus courants (en px) :
+C'est maintenant le temps de commander votre veste TIM 2026 🎉🎉🎉
+ 
+📆 Vous avez jusqu'à vendredi prochain (27 mars) pour effectuer vos commandes !
 
-| Taille | Largeur |
-| --- | --- |
-| Mobile | < 768 px |
-| Tablette | 768 – 1024 px |
-| Desktop | > 1024 px |
-| Large desktop | > 1280 px |
+[Feuille de commande](https://forms.office.com/r/f9FZ4r0BeD?origin=lprLink){ .md-button .md-button--primary }
 
-## Composants (_Components_)
+## Composantes (_Components_)
 
-![](./assets/img/components-figma.png){data-zoom-image .w-75}
+![](./assets/img/component-figma-new.png){data-zoom-image}
 
-Les composants permettent de créer des éléments réutilisables. Modifier le composant principal met à jour toutes ses instances automatiquement.
+Une **composante** Figma est un élément réutilisable.
 
-C'est essentiel pour les déclinaisons : **un seul bouton, une seule carte** → décliné sur 10 écrans, modifiable en un clic.
+On le crée une fois et on peut l'utiliser partout ensuite. Si on modifie la composante source, toutes les copies se mettent à jour automatiquement. 
 
-- Créer un composant : ++ctrl+alt+k++ (Windows) / ++cmd+opt+k++ (Mac)
-- L'icône des composants est un losange ◆
+Voici des exemples : 
+
+- [ant.design](https://ant.design/components/overview/)
+- [shadcn](https://ui.shadcn.com/docs/components/)
+- [daisyui](https://daisyui.com/components/)
+- [material ui](https://mui.com/material-ui/all-components/)
+
+!!! tip "Créer une composante"
+
+    Pour créer une composante, sélectionner un ou plusieurs éléments puis ++ctrl+alt+k++ (Windows) ou ++cmd+opt+k++ (Mac).
+
+### Instances
+
+![](./assets/img/components-instances.png){data-zoom-image}
+
+Une instance c'est juste le nom donné à une copie d'une composante. Quand on fait un copier/coller d'une composante, ça crée une instance.
+
+!!! tip "Modifications"
+
+    On peut modifier les instances dans une certaine mesure. On ne peut pas toutefois déplacer des éléments. Le positionnement est géré par la composante de base.
+
+    Aussi, il n'est pas possible de supprimer des éléments. Si on le fait, vous verrez que ce dernier est simplement caché dans la liste des calques.
+
+!!! tip "Réinitialiser une instance"
+
+    Pour **réinitialiser une instance** : Clic droit puis *Réinitialiser l'instance*. Ça va retirer les modifications effectuées à l'instance.
+
+!!! tip "Détacher une instance"
+
+    Pour **détacher une instance** : Clic droit puis *Detach instance* (à éviter sauf cas exceptionnel). Ainsi, il n'y aura plus de lien avec la composante source.
+
+### Variantes
+
+![](./assets/img/variantes.png){data-zoom-image}
+
+Les variantes permettent de regrouper plusieurs états d'un même composant. Par exemple, un bouton avec ses 5 états (Default, Hover, Active, Focused, Disabled) est un seul composant avec 5 variantes.
+
+IMPORTANT : Pour que cela fonctionne, il faut sélectionner l'ensemble de composantes et configurer les paramètres afin de spécifier chaque valeur associée à chaque état.
+
+!!! tip "Créer des variantes"
+
+    **Méthode 1**
+
+    Pour créer des variantes, sélectionner plusieurs composants du même type, puis dans la colonne de droite, cliquer sur le bouton « Combiner en tant que variantes » : 
+
+    ![](./assets/img/combiner-variantes.png){data-zoom-image}
+
+    **Méthode 2**
+
+    Si aucune composante n'est encore créée, sélectionner les éléments, puis dans la colonne de droite, cliquez sur les trois petits points et sélectionnez « Créer un ensemble de composants » :
+
+    ![](./assets/img/ensemble-de-composants.png){data-zoom-image}
 
 !!! tip "Bonne pratique"
 
-    Regroupez tous vos composants sur une page dédiée « 🧩 Composants » dans votre fichier Figma.
-
-## Figma Sites
-
-![](./assets/img/responsive-figma-frames.png){data-zoom-image}
-
-!!! info "Figma Sites"
-
-    Figma Sites est une fonctionnalité qui permet de publier un design directement en site Web réel, avec une gestion des _breakpoints_ intégrée.
-
-    <iframe class="aspect-16-9 w-75 center" src="https://www.youtube.com/embed/Wqvia5z1les" title="Figma Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## L'IA en design graphique
-
-L'intelligence artificielle est maintenant partout dans les outils de création. Ce n'est pas une tendance qui va disparaître. C'est une réalité du métier.
-
-Mais attention : **l'IA ne remplace pas la réflexion de design**. Elle accélère l'exécution, elle inspire, elle automatise. La pensée stratégique, elle, reste entre vos mains.
-
-### À quoi ça sert concrètement ?
-
-Les outils IA en design graphique servent principalement à :
-
-- **Générer des visuels** (images, textures, illustrations, icônes) à partir d'une description
-- **Suggérer des palettes** et des combinaisons typographiques
-- **Prototyper rapidement** à partir d'une simple idée
-- **Retoucher ou compléter** des images existantes
-- **Générer du contenu** (textes fictifs réalistes pour les maquettes)
-
-### Les outils principaux
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/midjourney-example.jpg){data-zoom-image}
-
-<div markdown>
-**Midjourney / DALL·E / Firefly**  
-Génération d'images à partir de prompts textuels.  
-Très utile pour créer des moodboards, des visuels d'ambiance ou des illustrations rapidement.
-
-> ⚠️ Vérifiez toujours les droits d'utilisation des images générées.
-</div>
-</div>
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/figma-ai.png){data-zoom-image}
-
-<div markdown>
-**Figma AI (Make / First Draft)**  
-Directement dans Figma, l'IA peut générer une première maquette à partir d'une description, renommer des calques automatiquement, remplir des données fictives, etc.  
-
-[Figma Make](https://www.figma.com/fr-fr/ai/)
-</div>
-</div>
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/remove-bg.png){data-zoom-image}
-
-<div markdown>
-**Détourage et retouche IA**  
-Des outils comme [remove.bg](https://www.remove.bg/fr) ou le détourage automatique dans Figma permettent de supprimer un arrière-plan en un clic.
-</div>
-</div>
-
-### Les limites à connaître
-
-!!! warning "Ce que l'IA ne fait pas bien (encore)"
-
-    - Comprendre le **contexte stratégique** de votre projet
-    - Respecter une **identité graphique** existante sans ajustement manuel
-    - Générer du texte **en français sans fautes** dans les visuels
-    - Produire des **vecteurs propres** utilisables directement
-    - **Justifier** ses propres choix esthétiques
-
-!!! danger "Le piège de l'IA en contexte scolaire"
-
-    Utiliser l'IA pour décrire votre propre travail ou pour générer votre processus créatif, c'est contourner l'essentiel du cours : **apprendre à penser par vous-mêmes**.
-
-    L'IA peut être un outil dans votre processus. Elle ne peut pas être le processus lui-même.
-
-### Prompts efficaces pour le design
-
-Un bon *prompt* IA, c'est un peu comme un brief de design : plus c'est précis, meilleur est le résultat.
-
-| Élément | Exemple |
-| --- | --- |
-| **Sujet** | affiche de festival de musique électronique |
-| **Style visuel** | style brutaliste, palette monochromatique violette |
-| **Contexte/support** | format portrait, web, fond sombre |
-| **Ce qu'on veut éviter** | pas de photos réalistes, pas de texte |
-
-> **Exemple de prompt** : *"Minimalist poster for an electronic music festival, dark purple monochromatic palette, brutalist typography, abstract geometric shapes, no text, vertical format"*
-
----
-
-## 4 techniques de création en design graphique Web
-
-### 1. Flat Design
-
-![](./assets/img/flat-design-example.jpg){data-zoom-image .w-100}
-
-**C'est quoi ?**  
-Des formes simples, des couleurs unies, pas d'ombres ni de dégradés. L'information est transmise par la forme et la couleur, sans effet 3D ni texture.
-
-**Pourquoi ça marche ?**  
-Rapide à charger, facile à adapter à tous les formats, très lisible. C'est le langage visuel dominant du Web depuis les années 2010.
-
-**Exemples** : interfaces Google, icônes iOS, Material Design
-
-**À retenir** : le flat design exige une excellente maîtrise de la hiérarchie et des couleurs, puisqu'il ne peut pas « tricher » avec des effets.
-
----
-
-### 2. Glassmorphisme
-
-![](./assets/img/glassmorphism-example.jpg){data-zoom-image .w-100}
-
-**C'est quoi ?**  
-Des éléments d'interface qui imitent du verre dépoli : fond semi-transparent avec flou de fond (_backdrop blur_), bordure lumineuse subtile, légère transparence.
-
-**Pourquoi ça marche ?**  
-Crée une profondeur élégante et moderne sans alourdir. Très populaire dans les interfaces premium (macOS, iOS, Windows 11).
-
-**Figma** : utiliser l'effet **Flou de fond** (_Background blur_) + remplissage avec opacité réduite sur un **Frame**.
-
-!!! warning "Attention à l'accessibilité"
-    Le glassmorphisme peut réduire le contraste texte/fond. Toujours vérifier la lisibilité.
-
----
-
-### 3. Brutalisme Web
-
-![](./assets/img/brutalism-web.jpg){data-zoom-image .w-100}
-
-**C'est quoi ?**  
-Une esthétique volontairement crue, directe, non polie. Typographies massives, couleurs criardes, bordures épaisses, asymétrie assumée. C'est une réaction contre le design "trop propre".
-
-**Pourquoi ça marche ?**  
-Mémorable, identitaire, percutant. Très efficace pour des marques culturelles, créatives ou qui veulent se démarquer.
-
-**Exemples** : [Balenciaga](https://www.balenciaga.com/), [Bloomberg Businessweek](https://www.bloomberg.com/businessweek), sites d'artistes indépendants.
-
-!!! example "Le brutalisme c'est pas du mauvais design"
-
-    Le paradoxe du brutalisme, c'est qu'il est **très difficile à bien faire**. Un design brutaliste raté ressemble à un bug. Un design brutaliste réussi est immédiatement reconnaissable et mémorable. La différence ? **L'intention**.
-
----
-
-### 4. Micro-interactions et design statique
-
-**C'est quoi ?**  
-Même sans animation, le design peut **anticiper** les états interactifs : survol, clic, état actif, état désactivé. Ces états doivent être conçus dès la maquette graphique.
-
-**Pourquoi c'est important en Web ?**  
-Un bouton qui ne change pas visuellement au survol, c'est une mauvaise expérience utilisateur. Le design graphique Web doit prévoir ces états.
-
-**Les états à designer systématiquement :**
-
-| État | Description |
-| --- | --- |
-| `Default` | L'état normal |
-| `Hover` | La souris est dessus |
-| `Active` / `Pressed` | En cours de clic |
-| `Focused` | Navigation clavier |
-| `Disabled` | Non disponible |
-
----
-
-## Figma | Composantes (_Components_)
-
-![](./assets/img/components-banner.png){.w-100}
-
-Un **composant** Figma, c'est un élément réutilisable. Vous le créez une fois, et vous pouvez l'utiliser partout dans votre projet. Si vous modifiez l'original (le *master*), toutes les copies se mettent à jour automatiquement.
-
-C'est la base de tout design system.
-
-### Composant maître et instances
-
-<div class="grid grid-1-2" markdown>
-![](./assets/img/component-master.png){data-zoom-image}
-
-<div markdown>
-**Composant maître** (icône violette ♦)  
-L'original. Toute modification ici se propage automatiquement.
-
-**Instance** (icône creuse ◇)  
-Une copie liée au maître. On peut personnaliser certaines propriétés sans briser le lien.
-</div>
-</div>
-
-**Créer un composant** : Sélectionner un ou plusieurs éléments → ++ctrl+alt+k++ (Windows) ou ++cmd+opt+k++ (Mac)
-
-**Détacher une instance** : Clic droit → *Detach instance* (à éviter sauf cas exceptionnel)
-
-### Pourquoi utiliser des composants ?
-
-!!! success "3 bonnes raisons"
-
-    1. **Cohérence** : Tous vos boutons ont exactement le même style partout.
-    2. **Rapidité** : Modifier un composant maître = modifier 50 boutons en une seconde.
-    3. **Organisation** : Vos composants apparaissent dans le panneau *Assets* et sont réutilisables entre pages.
-
-### Variantes (_Variants_)
-
-![](./assets/img/figma-variants.png){data-zoom-image}
-
-Les variantes permettent de regrouper plusieurs états d'un même composant dans une seule entité.
-
-> **Exemple** : Un bouton avec ses 5 états (Default, Hover, Active, Focused, Disabled) est un seul composant avec 5 variantes.
-
-**Créer des variantes** : Sélectionner plusieurs composants du même type → clic sur *Combine as variants* dans le panneau de droite.
+    Nommez vos composants avec une structure claire : `Catégorie/Nom/Variante`  
+    
+    Ex. : `Bouton/Primaire/Default`, `Bouton/Primaire/Hover`
 
 ### Propriétés de composant
 
-![](./assets/img/figma-component-properties.png){data-zoom-image}
-
-Les propriétés permettent de rendre certains aspects d'un composant **modifiables par l'instance** sans briser le lien au maître.
+Les propriétés permettent de rendre certains aspects d'un composant **modifiables par l'instance** sans briser le lien au composant de base.
 
 | Propriété | Exemple d'usage |
 | --- | --- |
@@ -264,40 +99,105 @@ Les propriétés permettent de rendre certains aspects d'un composant **modifiab
 | **Instance swap** | Remplacer une icône par une autre |
 | **Variant** | Changer l'état (Default → Hover) |
 
-!!! tip "Bonne pratique"
+Les propriétés sont configurables sur les éléments d'une composante et quand on sélectionne la composante, on voit toutes les propriétés dans la colonne de droite.
 
-    Nommez vos composants avec une structure claire :  
-    `Catégorie/Nom/Variante`  
-    Ex. : `Bouton/Primaire/Default`, `Bouton/Primaire/Hover`
+!!! tip "Exemple concret"
+
+    ![](./assets/img/btn-component.png){.w-50 data-zoom-image}
+
+    ![](./assets/img/propriete-bool.png){data-zoom-image}
+
+    ![](./assets/img/propriete-text.png){data-zoom-image}
+
+    ![](./assets/img/propriete-swap.png){data-zoom-image}
 
 ### Organisation des composants
 
-- Créez une **page dédiée** aux composants (ex. : « 🧩 Composants »)
-- Regroupez-les dans des **frames nommées** par catégorie (Boutons, Icônes, Cartes, etc.)
-- Utilisez le panneau **Assets** (++shift+i++) pour retrouver et glisser vos composants
+La bonne pratique est de créer une **page dédiée** aux composants (ex. : « Components ») :
 
----
+![](./assets/img/page-for-components.png){data-zoom-image}
+
+Ils seront disponibles dans le panneau **Ressources** (_Assets_).
+
+![](./assets/img/components-in-ressources.png){data-zoom-image}
+
+Pour rendre ces composantes accessibles dans d'autres projets, vous devez publier la bibliothèque : 
+
+![](./assets/img/publish-biblio.png){data-zoom-image}
+
+## Introduction à Figma Sites
+
+![](./assets/img/1_KQIrfuuGU_HKl2-qSH_pog.png){.w-100 data-zoom-image}
+
+Figma Sites est une fonctionnalité qui permet de publier un design directement en site Web réel, avec une gestion des _breakpoints_ intégrée.
+
+![](./assets/img/figma-sites-among-others.png){data-zoom-image}
+
+<!-- ![](./assets/img/figma-sites-blank.png){data-zoom-image} -->
+
+### Blocs
+
+Les **blocs** sont les éléments de base d'une page Figma Sites. Chaque section de votre site est un bloc distinct qui s'empile verticalement.
+
+![](./assets/img/figma-sites-blocs.png){data-zoom-image}
+
+Chaque bloc se comporte comme un _frame_ avec _Auto Layout_ vertical. On peut :
+
+- **Ajouter un bloc** via le panneau de gauche ou le bouton `+` entre les sections
+- **Réorganiser les blocs** par glisser-déposer
+- **Configurer les blocs** pour chaque _breakpoints_ (desktop, tablette, mobile)
+
+### Bibliothèques de composantes
+
+Figma Sites donne accès aux composantes créées dans d'autres fichiers Figma à condition d'avoir publié la bibliothèque de celles-ci.
+
+### Paramètres du site
+
+Avant de publier, configurez les paramètres globaux de votre site via l'icône ⚙️ :
+
+| Paramètre | Description |
+| --- | --- |
+| **Titre du site** | Apparaît dans l'onglet du navigateur (balise `<title>`) |
+| **Description** | Texte affiché dans les résultats de recherche (balise `<meta>`) |
+| **Favicon** | Petite icône affichée dans l'onglet du navigateur |
+| **Domaine** | URL personnalisée ou sous-domaine Figma par défaut |
+| **Image de partage** | Image affichée lors du partage sur les réseaux sociaux (_Open Graph_) |
+
+### Publication
+
+Une fois votre design prêt et vos paramètres configurés :
+
+1. Cliquez sur **Publish** en haut à gauche de l'éditeur
+2. Ajuster le titre du site au besoin
+3. Confirmez la publication
+
+Votre site est maintenant en ligne avec une URL Figma (ex. : `identifiant.figma.site`).
+
+À chaque modification, il faut **republier** pour mettre à jour le site en ligne. 
+
+!!! warning "Attention"
+
+    Avec le forfait éducationnel, vous n'avez droit qu'à un seul site publié à la fois.
 
 ## Exercices
 
-
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/declination/prev.png)
+  ![](./activite/exercice/angine-de-poitrine/preview.webp)
 
   <small>Exercice - Figma</small><br>
-  **[Déclinaison de formats](./activite/exercice/declination/index.md){.stretched-link .back}**
+  **[Angine de poitrine](./activite/exercice/angine-de-poitrine/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/button-states/preview.png)
+  ![](./activite/exercice/avatar/preview.webp)
 
   <small>Exercice - Figma</small><br>
-  **[États d'un bouton](./activite/exercice/button-states/index.md){.stretched-link .back}**
+  **[Avatar](./activite/exercice/avatar/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/card-component/preview.png)
+  ![](./activite/exercice/figma-sites/preview.webp)
 
   <small>Exercice - Figma</small><br>
-  **[Carte réutilisable](./activite/exercice/card-component/index.md){.stretched-link .back}**
+  **[Un site et que ça saute !](./activite/exercice/figma-sites/index.md){.stretched-link .back}**
 </div>

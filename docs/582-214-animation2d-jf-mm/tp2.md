@@ -1,5 +1,3 @@
-[STOP]
-
 # TP2 – Animation d’une scène en parallaxe  
 **(20% de la note finale)**
 
@@ -45,7 +43,7 @@ L’animation doit comprendre les éléments suivants :
   2. Un plan intermédiaire
   3. Un arrière-plan
   4. Une animation en effet parallaxe (déplacement d’une caméra)
-  5. Au moins une animation avec keyframe
+  5. Au moins une animation avec keyframe (avec lissage)
   6. Au moins un masque (ou cache)
 - Un titre animé (title reveal) 
 - Un générique de fin avec les éléments suivants :

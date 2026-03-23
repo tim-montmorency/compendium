@@ -1,9 +1,8 @@
 # Cours 9
-[STOP]
-
 ## Notions de scénarisation et préproduction
 
-Avant d'ouvrir After Effects et d'animer, il est idéal de déterminer une démarche entre termes d'intention et de ton, mais aussi en termes de direction artistique et de rythme. En gros, on se pose les questions suivantes : 
+Avant d'ouvrir After Effects et d'animer, il est idéal de déterminer une démarche entre termes d'intention et de ton, mais aussi en termes de direction artistique et de rythme. En gros, on se pose les questions suivantes :  
+
 - À qui ça s'addresse et quel est l'émotion à faire vivre?
 - Quel est le ton (informatif, dramatique, humoristique, poétique…)?
 - De quoi ça doit avoir l'air (en termes de formes, couleurs et typo)?
@@ -28,6 +27,23 @@ Le storyboard quant à lui est un outil qui sert à donner de indications de ryt
 ![](./assets/images/cours09-gc/Jeremys_Lie_Storyboard.original.jpg)
 
 ### Exercice en devoir
+
+### Éclairage en 3d 
+
+Nous avons récement positionné des calques dans un environnement 3d, nous pouvons maintenant passer à l'étape suivante qui est d'ajouter un éclairage. Bien que cela ne fera pas parti de l'évaluation, cette notion reste tout de même pertinente. Il est entièrement possible d'ajouter de l'éclairage en 2d, néanmoins cet effet prend tout son sens lorsqu'on fait du parallaxe. 
+
+#### Procédure 
+
+Pour ajouter une source de lumière, il suffit d'aller dans Calque > Nouveau > Lumière 
+
+Il existe 4 types de lumière dans After Effects : 
+
+- Parallèle : Lumière globale (comme le soleil) qui éclaire toute la scène de manière uniforme (à éviter)
+- Spot : Cône de lumière directionnel dont on peut régler l'angle, la direction, la distance, la couleur, etc. Le plus utile pour nous (fonctionne essentiellement comme un projecteur)
+- Pontuelle : Émet une lumière dans toutes les directions depuis un point (comme une ampoule)
+- Ambiante : Éclaire uniformément et sans ombre (généralement utile pour rehausser la luminosité globale) 
+
+On peut également jouer avec les ombrage si un calque est devant la source de lumière.
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
@@ -139,19 +155,12 @@ Attention avec l'offset. Si la valeur à la fin de son animation est à 0, il s'
 
 ![type:video](./assets/videos/wiggle.mp4)
 
-La fonction `wiggle()` permet d'ajouter un effet de tremblement.
+La fonction `wiggle()` permet d'ajouter un effet de variation aléatoire.
 
 Elle recoit 2 paramètres:
 
-* La **frequence** du tremblement par seconde (ex: 4)
-* L'**amplitude** du tremblement ou l'intensité (ex: 40)
-
-La fonction `wiggle()` permet d’ajouter un effet de tremblement.
-
-Elle reçoit deux paramètres :
-
-* La **fréquence** (ex. : 4 tremblements par seconde)
-* L’**amplitude** (ex. : 40 pixels de variation)
+* La **frequence** de la variation par seconde ou la vitesse (ex: 4)
+* L'**amplitude** de la variation ou l'intensité (ex: 40)
 
 ```js
 wiggle(4, 40);
@@ -183,5 +192,7 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
 ## [Présentation du TP2](./tp2.md)
 
-## Devoirs pour le prochain cours
+## Devoir pour le prochain cours  
+
+### Amorcer la pré-production du TP2, il y a des capsules dans le dossier TP2 du TEAMS du cours.
 
