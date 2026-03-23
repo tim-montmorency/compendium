@@ -6,13 +6,16 @@
 
 .
 
+<!-- Slide 8 -->
+
 ### Objectif
 
 Faire fonctionner la mécanique de base une première fois dans tes mains.
 
 ### Point de départ
 
-Crée un fichier `exercice-mq.html` avec ce code :
+- [ ] Dans ton dossier de classement de fichiers du cours "Web2", crée un dossier `exerc-mediaqueries` et ouvre ce dossier dans VS Code.
+- [ ] Dans ce dossier, via VS Code, crée un un fichier `index.html` et ajoutes-y  ce code :
 
 ```html
 <!DOCTYPE html>
@@ -28,7 +31,7 @@ Crée un fichier `exercice-mq.html` avec ce code :
       padding: 0;
     }
 
-    .carte {
+    .card {
       display: flex;
       flex-direction: column;
       gap: 1rem;
@@ -38,18 +41,18 @@ Crée un fichier `exercice-mq.html` avec ce code :
       margin: 2rem auto;
     }
 
-    .carte__image {
+    .card__img {
       background-color: #ccc;
       height: 200px;
       border-radius: 8px;
     }
 
-    .carte__texte h2 {
+    .card__txt h2 {
       font-size: 1.25rem;
       margin-bottom: 0.5rem;
     }
 
-    .carte__texte p {
+    .card__txt p {
       color: #555;
       line-height: 1.6;
     }
@@ -59,9 +62,9 @@ Crée un fichier `exercice-mq.html` avec ce code :
   </style>
 </head>
 <body>
-  <div class="carte">
-    <div class="carte__image"></div>
-    <div class="carte__texte">
+  <div class="card">
+    <div class="card__img"><img src="https://static.photos/blurred/1024x576" alt="Description de la photo."></div>
+    <div class="card__desc">
       <h2>Titre de la carte</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Pellentesque habitant morbi tristique senectus et netus.</p>
@@ -84,7 +87,7 @@ Crée un fichier `exercice-mq.html` avec ce code :
     /* flex-direction: ??? */
   }
 
-  .carte__image {
+  .card__image {
     /* width: ??? */
     /* height: ??? */  /* hint: tu dois fixer une hauteur minimale */
     /* flex-shrink: 0 */
