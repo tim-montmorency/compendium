@@ -1,5 +1,9 @@
 # Analyse de maquettes *responsive*
 
+<!-- Slide 7 -->
+
+[< retour au *cours 8*](../../cours08.md)
+
 ## Activité 2 : Analyse de maquettes responsive (25 min)
 
 Format: En équipe de 2.

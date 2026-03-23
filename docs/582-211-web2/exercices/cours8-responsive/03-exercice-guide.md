@@ -1,6 +1,10 @@
 # Exercice guidé: requête média (media query)
 
+[< retour au *cours 8*](../../cours08.md)
+
 ## Activité 3 — Premier exercice guidé : une media query (15 min)
+
+.
 
 ### Objectif
 

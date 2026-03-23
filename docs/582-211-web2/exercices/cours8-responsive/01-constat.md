@@ -1,4 +1,14 @@
-# Amorce: le constat du site qui casse
+# Le constat du site qui casse
+
+
+[< retour au *cours 8*](../../cours08.md)
+
+
+## Activité 1: Amorce: le site qui casse
+
+-
+
+<!-- Slide 2 -->
 
 ## Objectif
 

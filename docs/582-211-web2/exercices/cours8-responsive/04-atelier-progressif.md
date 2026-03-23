@@ -1,6 +1,10 @@
 # Atelier progressif
 
+[< retour au *cours 8*](../../cours08.md)
+
 ## Activité 4: Atelier progressif : Responsive en paliers (60 min)
+
+.
 
 ### Objectif
 
