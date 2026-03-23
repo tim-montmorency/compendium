@@ -12,10 +12,32 @@ Présentation et observation.
 
 Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. Ces saites sont flexibles (stylisé avec flexbox) mais non 100% *responsives*. Donc sur mobile, on va avoir un problème d'affichage.
 
-### Pixel&Co : https://tinyurl.com/*v*
+### Pixel&Co
 
-- [Sans viewport](../../demos/no-resp01.html)
-- [Avec Viewport](../../demos/no-resp02.html)
+#### Sans viewport
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <!-- PAS de viewport meta — intentionnel pour la démo -->
+    <title>PIXEL & CO — Studio numérique</title>
+</head>
+```
+
+[Sans viewport](../../demos/no-resp01.html) ou sur votre cellulaire: ­[https://bit.ly/4lQ5bRS](https://bit.ly/*4lQ5bRS*)
+
+#### Avec viewport
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <!-- meta viewport configuré pour que la page soit responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>PIXEL & CO — Studio numérique</title>
+</head>
+```
+
+[Avec Viewport](../../demos/no-resp02.html) ou sur votre cellulaire: ­[https://bit.ly/4br7pU7](https://bit.ly/*4br7pU7*)
 
 
 - Tappez ce url sur vos téléphones cellulaires: []()
