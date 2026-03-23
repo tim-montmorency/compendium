@@ -46,8 +46,8 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
       color: #fff;
     }
 
-    /* --- Conteneur de la grille --- */
-    .grille {
+    /* --- Conteneur de la grille de cartes --- */
+    .layout-grid {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
@@ -63,39 +63,20 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
       border-radius: 10px;
     }
 
-    /* --- Pochette (bloc coloré) --- */
     .card__img {
       border-radius: 6px;
       overflow: hidden;
       height: 200px;
       flex-shrink: 0;
-      display: flex;
-      align-items: flex-end;
-      padding: 1rem;
     }
 
-    .card__img span {
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      line-height: 1.3;
-      text-transform: uppercase;
+    .card__img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
-    /* Couleurs uniques par album */
-    .card--billie   .card__img { background: linear-gradient(135deg, #1a3a5c, #0a1628); }
-    .card--billie   .card__img span { color: #7ab8e8; }
-
-    .card--sabrina  .card__img { background: linear-gradient(135deg, #c8a882, #7a4f2e); }
-    .card--sabrina  .card__img span { color: #f5e6d3; }
-
-    .card--charli   .card__img { background: linear-gradient(135deg, #7ab84a, #3d6020); }
-    .card--charli   .card__img span { color: #d4f0a8; }
-
-    .card--weeknd   .card__img { background: linear-gradient(135deg, #1a0a2e, #4a1a6e); }
-    .card--weeknd   .card__img span { color: #c8a0e8; }
-
-    /* --- Contenu texte --- */
     .card__txt {
       display: flex;
       flex-direction: column;
@@ -147,12 +128,13 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
 
   <h1>🎧 Albums à écouter absolument</h1>
 
-  <div class="grille">
+  <div class="layout-grid">
 
     <!-- Carte 1 -->
-    <div class="card card--billie">
+    <div class="card">
       <div class="card__img">
-        <span>Billie Eilish<br>Hit Me Hard and Soft</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/26/Billie_Eilish_-_Hit_Me_Hard_and_Soft_%28album_cover%29.png"
+             alt="Pochette de HIT ME HARD AND SOFT de Billie Eilish">
       </div>
       <div class="card__txt">
         <span class="card__genre">Pop alternative</span>
@@ -164,9 +146,10 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
     </div>
 
     <!-- Carte 2 -->
-    <div class="card card--sabrina">
+    <div class="card">
       <div class="card__img">
-        <span>Sabrina Carpenter<br>Short n' Sweet</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/Sabrina_Carpenter_-_Short_n%27_Sweet.png"
+             alt="Pochette de Short n' Sweet de Sabrina Carpenter">
       </div>
       <div class="card__txt">
         <span class="card__genre">Pop</span>
@@ -178,9 +161,10 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
     </div>
 
     <!-- Carte 3 -->
-    <div class="card card--charli">
+    <div class="card">
       <div class="card__img">
-        <span>Charli XCX<br>BRAT</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Charli_XCX_-_Brat.png"
+             alt="Pochette de BRAT de Charli XCX">
       </div>
       <div class="card__txt">
         <span class="card__genre">Hyperpop · Dance</span>
@@ -192,9 +176,10 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
     </div>
 
     <!-- Carte 4 -->
-    <div class="card card--weeknd">
+    <div class="card">
       <div class="card__img">
-        <span>The Weeknd<br>Hurry Up Tomorrow</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/The_Weeknd_-_Hurry_Up_Tomorrow.png"
+             alt="Pochette de Hurry Up Tomorrow de The Weeknd">
       </div>
       <div class="card__txt">
         <span class="card__genre">R&B · Synth-pop</span>
@@ -205,7 +190,7 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
       </div>
     </div>
 
-  </div><!-- fin .grille -->
+  </div><!-- fin .layout-grid -->
 
 </body>
 </html>
@@ -240,7 +225,7 @@ Faire fonctionner la mécanique de base une première fois dans tes mains — d'
 
 > **Note :** As-tu inclus `<meta name="viewport" ...>` ? Sans lui, la media query ne fonctionnera pas sur mobile. Vérifie.
 
----
+
 
 ## Phase 2 — La grille qui se réorganise
 
@@ -248,7 +233,7 @@ Tu as maintenant une carte qui s'adapte à l'intérieur. Il est temps d'adapter 
 
 ### Ta mission — Phase 2
 
-Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'écran :
+Le conteneur `.layout-grid` doit changer de nombre de colonnes selon la largeur de l'écran :
 
 | Largeur de fenêtre | Disposition |
 |--------------------|-------------|
@@ -256,7 +241,7 @@ Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'
 | Entre 600px et 1099px | **2 colonnes** — les cartes côte à côte |
 | 1100px et plus | **4 colonnes** — toutes les cartes sur une seule rangée |
 
-**Ajoute les media queries nécessaires** sur `.grille` et `.card`. Tu n'as toujours pas le droit de modifier le HTML.
+**Ajoute les media queries nécessaires** sur `.layout-grid` et `.card`. Tu n'as toujours pas le droit de modifier le HTML.
 
 ```css
 /* Indice de structure */
@@ -264,7 +249,7 @@ Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'
    Il te reste à ajouter les deux breakpoints suivants : */
 
 @media (min-width: ???) {
-  .grille {
+  .layout-grid {
     /* flex-direction: ??? */
     /* flex-wrap: ??? */
   }
@@ -282,7 +267,7 @@ Le conteneur `.grille` doit changer de nombre de colonnes selon la largeur de l'
 }
 ```
 
-> 💡 **Indice :** En phase 2, tu travailles sur `.grille` (comment les cartes se placent entre elles) et non plus sur `.card` (ce qui se passe à l'intérieur d'une carte). Ce sont deux niveaux distincts.
+> 💡 **Indice :** En phase 2, tu travailles sur `.layout-grid` (comment les cartes se placent entre elles) et non plus sur `.card` (ce qui se passe à l'intérieur d'une carte). Ce sont deux niveaux distincts.
 
 > 💡 **Rappel `calc()` :** Pour obtenir 2 cartes par rangée avec un `gap` de `1.5rem`, la largeur de chaque carte se calcule ainsi : `calc(50% - 0.75rem)`. Pourquoi `-0.75rem` ? Parce que le gap total (`1.5rem`) est divisé entre les deux cartes — chacune cède la moitié.
 
