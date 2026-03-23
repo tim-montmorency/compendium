@@ -10,19 +10,11 @@ Présentation et observation.
 
 ## Déroulement
 
-Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. Ces saites sont flexibles (stylisé avec flexbox) mais non 100% *responsives*. Donc sur mobile, on va avoir un problème d'affichage.
+Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. Ces sites sont flexibles (stylisé avec `flexbox`) mais non 100% *responsives*. Donc sur mobile, on va avoir un problème d'affichage.
 
 ### Pixel&Co
 
 #### Sans viewport
-
-```html
-<head>
-    <meta charset="UTF-8">
-    <!-- PAS de viewport meta — intentionnel pour la démo -->
-    <title>PIXEL & CO — Studio numérique</title>
-</head>
-```
 
 - [Sans viewport](../../demos/no-resp01.html) 
 - ou tappez ce URL sur votre cellulaire: ­[https://bit.ly/*4lQ5bRS*](https://bit.ly/4lQ5bRS): 4, L minuscule...
@@ -42,11 +34,7 @@ Je vous montre 3 sites dans le navigateur et rétrécit la fenêtre en direct. C
 - ou tappez ce URL sur votre cellulaire:  ­[https://bit.ly/*4br7pU7*](https://bit.ly/4br7pU7)
 
 
-- Tappez ce url sur vos téléphones cellulaires: []()
-
-
-
-**Observe et réponds (discussion en classe) :**
+### Observe et réponds (discussion en classe) :
 
 - Qu'est-ce qui se casse en premier ?
 - À quel moment le site devient inutilisable/illisbile ?
