@@ -214,7 +214,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
 - [ ] L'approche mobile-first est respectée
 - [ ] Le code est commenté (pourquoi ce breakpoint, pourquoi cette valeur)
 
----
+
 
 ## Synthèse — La règle à retenir
 
@@ -232,7 +232,7 @@ Avant de déclarer ton interface responsive, vérifie :
 - [ ] Tes breakpoints ont été choisis en observant le contenu, pas un appareil spécifique
 - [ ] L'approche mobile-first est respectée (`min-width`, pas `max-width`)
 
----
+
 
 ## Références utiles
 
