@@ -27,6 +27,10 @@ L’objectif de ce travail est de reproduire le plus fidèlement possible le sit
 
 [Télécharger les documents](../assets/documents/AI-Max.zip)
 
+## Thème
+
+* Astra
+
 ## Famille de police
 * Readex Pro
 
@@ -66,3 +70,7 @@ L’objectif de ce travail est de reproduire le plus fidèlement possible le sit
 * Masonery & Justified Gallery
 * Post Carousel Lite
 * Woo Product Grid
+
+## Structure des conteneurs
+
+![](../assets/images/ai-max-structure.png){data-zoom-image}
