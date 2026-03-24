@@ -173,7 +173,7 @@ Tous les groupes: terminer l'exercice: [Activité 3: première *media query*: al
 !!! warning "Devoir additionnel pour gr mercredi"
     Ne concerne que le groupe du mercredi
 
-    Terminer l'exercice: [Activité 4 - Atelier prograssif](./exercices/cours8-responsive/04-atelier-progressif.md)
+    Terminer l'exercice: [Activité 4 - Atelier progressif](./exercices/cours8-responsive/04-atelier-progressif.md)
 
 
 
@@ -182,7 +182,7 @@ Tous les groupes: terminer l'exercice: [Activité 3: première *media query*: al
 !!! danger "Groupe mercredi"
     Tout ce qui suit dans cette page ne concerne que le groupe du mercredi.
 
-<!-- Le gr du merc aura cours 8 le 25 mars et cours 9 le  8 avril. Comme 2 semaines séparent, je veux couvrir la révision de l'activité 3 en classe. On aura le temps puisque le quiz a été fait à la semaine 7 (contrairement aux groupe du lundi qui ont fait le quiz au début du cours 8 et qui a pris 45 min...).  De plus, je veux qu'il commence l'activité 4 (atelier prograssif) en classe et le termine en devoir (ils ont 2 semaines)...  Quant aux groupes du lundis, je leur donerais au cours 9 (30 mairs) et ils devront le faire en devoir pour lke cours10 (13 avril) et ils auront aussi 2 semaines entre...-->
+<!-- Le gr du merc aura cours 8 le 25 mars et cours 9 le  8 avril. Comme 2 semaines séparent, je veux couvrir la révision de l'activité 3 en classe. On aura le temps puisque le quiz a été fait à la semaine 7 (contrairement aux groupe du lundi qui ont fait le quiz au début du cours 8 et qui a pris 45 min...).  De plus, je veux qu'il commence l'activité 4 (atelier progressif) en classe et le termine en devoir (ils ont 2 semaines)...  Quant aux groupes du lundis, je leur donerais au cours 9 (30 mairs) et ils devront le faire en devoir pour lke cours10 (13 avril) et ils auront aussi 2 semaines entre...-->
 
 
 ### Retour en groupe-classe
