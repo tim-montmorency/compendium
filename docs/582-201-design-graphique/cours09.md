@@ -84,7 +84,7 @@ IMPORTANT : Pour que cela fonctionne, il faut sélectionner l'ensemble de compos
 
 !!! tip "Créer un instance"
 
-    Dans l'onglet des ressources, vous pouvez simplement prendre votre nouvelle composante et la glisser dans le projet.
+    Dans l'onglet des ressources, vous pouvez simplement prendre votre nouvelle composante et la glisser dans votre composition.
 
 !!! tip "Bonne pratique"
 
