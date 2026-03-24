@@ -2,7 +2,7 @@
 
 [< retour au *cours 8*](../../cours08.md)
 
-## Activité 3 — Premier exercice guidé : une media query (15 min)
+## Activité 3 — Exercice : une media query (30 min)
 
 <!-- Slide 8 -->
 

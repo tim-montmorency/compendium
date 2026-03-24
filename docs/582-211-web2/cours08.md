@@ -145,23 +145,31 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 [👩🏻‍💻 Activité 2 - 25 min](./exercices/cours8-responsive/02-analyse-maquettes-responsive.md){ .md-button }
 
 
-## Activité 3: Exercice guidé : première *media query* (15 min)
+## Activité 3: Exercice : première *media query* (30 min)
 
 <!-- Slide 08 -->
 
-[👩🏻‍💻 Activité 3 - 15 min](./exercices/cours8-responsive/03-exercice-guide.md){ .md-button }
+[👩🏻‍💻 Activité 3 - 30 min](./exercices/cours8-responsive/03-exercice-guide.md){ .md-button }
 
-## ------ PAUSE -------
+ !!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
+
+
+
+
+<!--
 
 ### Retour en groupe-classe
 
-<!-- Slide 09 -->
+ Slide 09 
 
 Révision de votre activité 3.
 
 ## Activité 4: Atelier progressif (60 min)
 
-<!-- Slide 10 -->
+ Slide 10 
 
 🟢 Base
 🟡 Intermédiaire
@@ -171,8 +179,21 @@ Révision de votre activité 3.
 
 ## Retour collectif : convivialité mobile (15 min)
 
-<!-- Slide 11 -->
+ Slide 11 
 
 ## Clôture : la règle des breakpoints
 
-<!-- Slide 12 -->
+ Slide 12 
+ 
+ 
+ -->
+
+
+ ## Devoirs
+
+ Terminer l'exercice [Activité 3: première *media query*](./exercices/cours8-responsive/03-exercice-guide.md)
+
+ !!! info
+    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours.
+
+    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
