@@ -24,9 +24,9 @@ Vous devriez avoir remis, AVANT votre cours d'aujourd'hui le projet 1.
 Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 -->
 
-## Fichier Power Point de présentation du cours
+## Fichier PowerPoint du cours
 
-[📚 Contenu du cours d'aujourd'hui](./assets/cours08-responsive-mediaqueries.pdf){ .md-button }
+[👩‍🏫 Exposé reponsive: Télécharger le PPT :material-download:](./assets/cours08-responsive-mediaqueries.pdf){ .md-button }
 
 
 ## Activité 1: Amorce: le constat du site qui casse (10 min)

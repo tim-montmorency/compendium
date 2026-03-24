@@ -2,7 +2,7 @@
 # Le responsive: medias queries et breakpoints
 
 
-[📚 Contenu du cours *Responsive* (PDF)](./assets/cours08-responsive-mediaqueries.pdf){ .md-button }
+[👩‍🏫 Exposé reponsive: Télécharger le PPT :material-download:](../assets/cours08-responsive-mediaqueries.pdf){ .md-button }
 
 
 ## Responsive
