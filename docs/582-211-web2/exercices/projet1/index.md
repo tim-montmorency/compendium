@@ -76,7 +76,7 @@ Vous avez reçu, le 27 février sur Teams (individuellement): une maquette de de
 
 *
 
-<h2 style="padding-bottom:0; border: none; color: #ef5552; font-size: 130%;">LES ÉTAPES DU PROJET</h2>
+<h2 style="padding-bottom:0; border: none; color: #ef5552; font-size: 3em;">LES ÉTAPES DU PROJET</h2>
 
 ## 0. Préparation
 
