@@ -195,9 +195,9 @@ Révision de votre activité 3.
 
 <!-- Slide 10   -->
 
-🟢 Base
-🟡 Intermédiaire
-🔴 Avancé
+- 🟢 Base
+- 🟡 Intermédiaire
+- 🔴 Avancé
 
 [👩🏻‍💻 Activité 4 - Atelier progressif](./exercices/cours8-responsive/04-atelier-progressif.md){ .md-button }
 
