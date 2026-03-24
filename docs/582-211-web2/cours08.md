@@ -13,7 +13,7 @@ Introduction au responsive
 
 -->
 
-## Annonces et rappel
+## Annonce
 
 Vous devriez avoir remis, AVANT votre cours d'aujourd'hui le projet 1.
 
