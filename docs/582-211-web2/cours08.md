@@ -156,46 +156,74 @@ Retour et discussion en groupe-classe
 
 [👩🏻‍💻 Activité 3: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md){ .md-button }
 
- !!! info
+!!! info
     <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours.
 
     Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
-<!--
+
+## Devoirs
+
+### Devoirs pour tous
+
+Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+
+### Devoirs pour gr mercredi
+
+!!! warning "Devoirs pour gr mercredi"
+    Ne concerne que le groupe du mercredi
+
+    Terminer l'exercice: [Activité 4 - Atelier prograssif](./exercices/cours8-responsive/04-atelier-progressif.md)
+
+
+
+## Groupe mercredi seulement
+
+!!! danger "Groupe mercredi"
+    Tout ce qui suit dasn cette page ne concerne que le groupe du mercredi.
+
+<!-- Le gr du merc aura cours 8 le 25 mars et cours 9 le  8 avril. Comme 2 semaines séparent, je veux couvrir la révision de l'activité 3 en classe. On aura le temps puisque le quiz a été fait à la semaine 7 (contrairement aux groupe du lundi qui ont fait le quiz au début du cours 8 et qui a pris 45 min...).  De plus, je veux qu'il commence l'activité 4 (atelier prograssif) en classe et le termine en devoir (ils ont 2 semaines)...  Quant aux groupes du lundis, je leur donerais au cours 9 (30 mairs) et ils devront le faire en devoir pour lke cours10 (13 avril) et ils auront aussi 2 semaines entre...-->
+
 
 ### Retour en groupe-classe
 
- Slide 09 
+<!-- Slide 09  -->
 
 Révision de votre activité 3.
 
 ## Activité 4: Atelier progressif (60 min)
 
- Slide 10 
+<!-- Slide 10   -->
 
 🟢 Base
 🟡 Intermédiaire
 🔴 Avancé
 
-[👩🏻‍💻 Activité 4 - 60 min](./exercices/cours8-responsive/04-atelier-progressif.md){ .md-button }
+[👩🏻‍💻 Activité 4 - Atelier progressif](./exercices/cours8-responsive/04-atelier-progressif.md){ .md-button }
 
-## Retour collectif : convivialité mobile (15 min)
+ <!-- ## Retour collectif sur l'activité 4
 
- Slide 11 
+Convivialité mobile.-->
 
-## Clôture : la règle des breakpoints
+<!--  Slide 11   -->
 
- Slide 12 
+ <!-- ## Clôture : la règle des breakpoints -->
+
+
+
+ <!-- Slide 12   -->
  
- 
- -->
+## Devoirs
+
+### Devoirs pour tous
+
+Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
 
- ## Devoirs
+### Devoirs pour gr mercredi
 
- Terminer l'exercice [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+!!! warning "Devoirs pour gr mercredi"
+    Ne concerne que le groupe du mercredi.
 
- !!! info
-    <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours.
+    Terminer l'exercice: [Activité 4 - Atelier progressif](./exercices/cours8-responsive/04-atelier-progressif.md)
 
-    Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
