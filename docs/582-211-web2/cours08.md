@@ -163,11 +163,9 @@ Retour et discussion en groupe-classe
 
 ## Devoirs
 
-### Devoirs pour tous
+Tous les groupes: terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
-Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
-
-!!! warning "Devoirs pour gr mercredi"
+!!! warning "Devoir additionnel pour gr mercredi"
     Ne concerne que le groupe du mercredi
 
     Terminer l'exercice: [Activité 4 - Atelier prograssif](./exercices/cours8-responsive/04-atelier-progressif.md)
@@ -212,13 +210,12 @@ Slide 12
  
 ## Devoirs
 
-### Devoirs pour tous
-
-Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+Tous les groupes: Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
 
-!!! warning "Devoirs pour gr mercredi"
-    Ne concerne que le groupe du mercredi.
+!!! warning "Devoir additionnel pour gr mercredi"
+
+    Ne concerne que le groupe du mercredi. 
 
     Terminer l'exercice: [Activité 4 - Atelier progressif](./exercices/cours8-responsive/04-atelier-progressif.md)
 
