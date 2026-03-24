@@ -167,8 +167,6 @@ Retour et discussion en groupe-classe
 
 Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
-### Devoirs pour gr mercredi
-
 !!! warning "Devoirs pour gr mercredi"
     Ne concerne que le groupe du mercredi
 
@@ -218,8 +216,6 @@ Slide 12
 
 Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
-
-### Devoirs pour gr mercredi
 
 !!! warning "Devoirs pour gr mercredi"
     Ne concerne que le groupe du mercredi.
