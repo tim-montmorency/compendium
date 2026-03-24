@@ -141,7 +141,7 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 ```
 
 
-## Activité 2: Analyse de maquettes *responsive* (25 min)
+## Activité 2: Analyse de maquettes responsive (25 min)
 
 <!-- Slide 07 -->
 
@@ -150,7 +150,7 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 Retour et discussion en groupe-classe
 
 
-## Activité 3: Exercice : première *media query* (30 min)
+## Activité 3: Exercice : première media query (30 min)
 
 <!-- Slide 08 -->
 
