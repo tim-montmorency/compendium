@@ -81,7 +81,7 @@ Un breakpoint = là où ton contenu souffre
 - **`{ ... }`** → Règles CSS qui s'appliquent seulement si la condition est vraie
 
 
-## Exposé *mobile-first* vs *desktop-first*
+## Exposé mobile-first vs desktop-first
 
 <!-- Slide 06 -->
 
@@ -118,7 +118,7 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 **↑ On retire, on écrase des styles, on simplifie pour les petits écrans**
 
 
-### min-width vs max-width
+### min-width VS max-width
 
 **✅ *Mobile-first*: On part du petit, on ajoute des changements pour les écrans qui un un *min*imum d'une largeur X et +**
 
