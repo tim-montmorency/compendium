@@ -2,6 +2,10 @@
 
 [STOP]
 
+Miser sur des méthodes de création.
+Difficulté avec l'inspiration.
+
+
 ![](./assets/img/design-system.png)
 <!-- 
 @note : Ce cours vise à enseigner la notion de Design system dans Figma. 
