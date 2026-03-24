@@ -125,7 +125,9 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 ```css
 /* Mobile-first (recommandé) */
 /* Styles de base = mobile */
-@media (min-width: 768px) { /* ajoute, écrase les styles pour le grand */ }
+@media (min-width: 768px) { 
+  /* ajoute, écrase les styles pour le grand */ 
+}
 ```
 
 **⚠️ *Desktop-first*: On part du grand, on retire des éléments et on fait des changements pour les écrans qui un un *max*imum d'une largeur X et -**
@@ -133,7 +135,9 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 ```css 
 /* Desktop-first */
 /* Styles de base = desktop */
-@media (max-width: 767px) { /* retire, réduit, écrase les styles pour simplifier pour le petit */ }
+@media (max-width: 767px) { 
+  /* retire, réduit, écrase les styles pour simplifier pour le petit */ 
+}
 ```
 
 
