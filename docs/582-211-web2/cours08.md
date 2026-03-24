@@ -87,7 +87,7 @@ Un breakpoint = là où ton contenu souffre
 
 ### Mobile-first
 
-Partir du minimum essentiel et ajouter de la complexité au fur et à mesure que l'espace augmente.
+Partir du *minimum essentiel* et ajouter de la complexité au fur et à mesure que l'espace augmente.
 
 ```css
 /* Mobile-first */
@@ -98,7 +98,7 @@ Partir du minimum essentiel et ajouter de la complexité au fur et à mesure que
 }
 ```
 
-**On ajoute ↑**
+**↑ On ajoute ds éléments, de l'espace etc. pour les écrans plus larges**
 
 
 ### Desktop-first
@@ -115,8 +115,7 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 }
 ```
 
-**On retire ↑**
-
+**↑ On retire, on écrase des styles, on simplifie pour les petits écrans**
 
 
 ### min-width vs max-width
@@ -142,22 +141,21 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 
 <!-- Slide 07 -->
 
-[👩🏻‍💻 Activité 2 - 25 min](./exercices/cours8-responsive/02-analyse-maquettes-responsive.md){ .md-button }
+[👩🏻‍💻 Activité 2: analyse de 3 captures écran d'un site (mobile/tablette/desktop)](./exercices/cours8-responsive/02-analyse-maquettes-responsive.md){ .md-button }
+
+Retour et discussion en groupe-classe
 
 
 ## Activité 3: Exercice : première *media query* (30 min)
 
 <!-- Slide 08 -->
 
-[👩🏻‍💻 Activité 3 - 30 min](./exercices/cours8-responsive/03-exercice-guide.md){ .md-button }
+[👩🏻‍💻 Activité 3: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md){ .md-button }
 
  !!! info
     <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours.
 
     Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
-
-
-
 
 <!--
 
@@ -191,7 +189,7 @@ Révision de votre activité 3.
 
  ## Devoirs
 
- Terminer l'exercice [Activité 3: première *media query*](./exercices/cours8-responsive/03-exercice-guide.md)
+ Terminer l'exercice [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
  !!! info
     <span class="important-label">Rappel concernant les exercices :</span> il est primordial de compléter tous les exercices afin de développer les compétences visées dans ce cours.
