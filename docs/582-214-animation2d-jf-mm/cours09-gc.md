@@ -190,6 +190,19 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
     Il est aussi possible de coller l'expression sur une autre propriété. 
 
+
+## Exercice Expression
+
+Pour mettre le tout en pratique, nous allons utiliser les expressions pour animer.  
+
+- Ajouter une lumière en face de la chandelle
+- Utiliser l'expression Wiggle pour animer une variation d'intensité de luminosité
+- Ajouter l'escargot
+- Utiliser des puppet pins pour le mouvement du corps et une expression loopOut pour répéter à l'infini
+- Utiliser des expressions pour la faire se déplacer
+
+[Dossier de départ :material-download:](./exercices_ae/exercice-expression.zip){ .md-button .md-button--primary }
+
 ## [Présentation du TP2](./tp2.md)
 
 ## Devoir pour le prochain cours  
