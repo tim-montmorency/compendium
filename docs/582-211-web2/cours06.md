@@ -19,7 +19,11 @@ Lancement du Projet 1 : assemblage d’interface (35%)
 
 -->
 
+<br>
+
 ---
+
+<br>
 
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
