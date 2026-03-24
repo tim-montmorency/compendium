@@ -11,7 +11,6 @@ L'IA a été entraînée sur des millions de sites qui utilisent 768px comme bre
 **Mais c'est un choix arbitraire basé sur des appareils spécifiques, pas sur votre design.**
 
 
-
 ## Le vrai problème
 
 ❌ **Approche "device-first" (mauvaise) :**
@@ -123,6 +122,7 @@ Exemple : Une grille de cartes
 - Sur 1400px, 3 colonnes laissent trop d'espace vide
 
 **Meilleure approche :**
+
 ```css
 .grid {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

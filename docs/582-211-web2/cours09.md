@@ -14,6 +14,11 @@ Responsive avancé + Introduction à Grid
 - Comparaison Flexbox / Grid
 -->
 
+## Breakpoints arbitraires
+
+[Breakpoints arbitraires](./css/breakpoints-arbitraires.md)
+
+
 
 ## Retour sur l'exercice "Première *media query*: albums de musique"
 
