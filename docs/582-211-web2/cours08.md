@@ -64,6 +64,9 @@ Un breakpoint = là où ton contenu souffre
 > Règle : Ajoute un breakpoint quand ton contenu te le demande — jamais en ciblant un appareil.
 
 
+
+#### Éviter les breakpoints arbitraires
+
 - [Éviter les breakpoints arbitraires](./css/breakpoints-arbitraires.md)
 
 ### Media query (requête média)

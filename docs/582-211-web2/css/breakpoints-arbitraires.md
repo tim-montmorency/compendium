@@ -1,4 +1,4 @@
-# Le problème du breakpoint magine et générique 768px
+# Le problème du breakpoint générique 768px
 
 ## Pourquoi l'IA choisit souvent 768px ?
 
