@@ -36,6 +36,8 @@ La préproduction doit comprendre :
 
 L’animation doit comprendre les éléments suivants :
 
+- Une résolution de **1920 x 1080**
+- Une cadence de **30 images par secondes (30fps)**
 - Une durée entre **10 et 30 secondes**
 - L’intégration d’une bande sonore (musique et/ou effets sonores)
 - La présence de **3 plans distincts** et chaque plan doit comprendre :
@@ -43,7 +45,7 @@ L’animation doit comprendre les éléments suivants :
   2. Un plan intermédiaire
   3. Un arrière-plan
   4. Une animation en effet parallaxe (déplacement d’une caméra)
-  5. Au moins une animation avec keyframe (avec lissage)
+  5. Au moins une animation avec keyframe 
   6. Au moins un masque (ou cache)
 - Un titre animé (title reveal) 
 - Un générique de fin avec les éléments suivants :

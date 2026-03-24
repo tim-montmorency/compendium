@@ -82,6 +82,10 @@ IMPORTANT : Pour que cela fonctionne, il faut sélectionner l'ensemble de compos
 
     ![](./assets/img/ensemble-de-composants.png){data-zoom-image}
 
+!!! tip "Créer un instance"
+
+    Dans l'onglet des ressources, vous pouvez simplement prendre votre nouvelle composante et la glisser dans votre composition.
+
 !!! tip "Bonne pratique"
 
     Nommez vos composants avec une structure claire : `Catégorie/Nom/Variante`  
