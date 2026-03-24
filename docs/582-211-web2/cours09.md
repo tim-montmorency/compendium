@@ -40,7 +40,7 @@ ici: couper grid, ce n'étaiot pas prévu cette session de toute manière. par c
 Retour en groupe classe sur votre exercice [Première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
 
-## Atelier Zone-Out (breakpoint-media queries) (60 min)
+## Atelier Zone-Out 🎮 (breakpoint-media queries) (60 min)
 
 <!--  Cours 8 - Slide 10  -->
 
@@ -53,7 +53,7 @@ Retour en groupe classe sur votre exercice [Première *media query*: albums de m
 [👩🏻‍💻 Activité 4 - 60 min](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
 
 
-### Retour collectif sur l'atelier Zone-Out: convivialité mobile
+### Retour collectif sur l'atelier Zone-Out 🎮: convivialité mobile
 
 <!--  Cours 8 - Slide 11  -->
 

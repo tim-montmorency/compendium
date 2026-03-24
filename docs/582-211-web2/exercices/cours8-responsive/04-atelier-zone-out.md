@@ -1,4 +1,4 @@
-# Atelier progressif
+# Atelier Zone-Out 🎮
 
 [< retour au *cours 8*](../../cours08.md)
 
