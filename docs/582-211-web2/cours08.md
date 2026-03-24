@@ -161,7 +161,6 @@ Retour et discussion en groupe-classe
 
     Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
-
 ## Devoirs
 
 ### Devoirs pour tous
@@ -201,17 +200,17 @@ Révision de votre activité 3.
 
 [👩🏻‍💻 Activité 4 - Atelier progressif](./exercices/cours8-responsive/04-atelier-progressif.md){ .md-button }
 
- <!-- ## Retour collectif sur l'activité 4
+<!-- 
+## Retour collectif sur l'activité 4
+Convivialité mobile.
+Slide 11   
 
-Convivialité mobile.-->
+-->
 
-<!--  Slide 11   -->
-
- <!-- ## Clôture : la règle des breakpoints -->
-
-
-
- <!-- Slide 12   -->
+<!--
+ ## Clôture : la règle des breakpoints  
+Slide 12  
+ -->
  
 ## Devoirs
 
