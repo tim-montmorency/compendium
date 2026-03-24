@@ -35,17 +35,17 @@ Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble d
 
 [👩🏻‍💻 Activité 1 - 10 min](./exercices/cours8-responsive/01-constat.md){ .md-button }
 
-## Exposé : les concepts de base
+## Les concepts de base
 
 - Définition qu'est-ce que le *responsive* <!-- Slide 03 -->
 - Points de rupture (*breakpoints*) <!-- Slide 04 -->
 - La syntaxe de base d'une requête média (*media query*)  <!-- Slide 5 -->
 
-### Responsive
+## Responsive
 
 **Définition**: Un design responsive *adapte la mise en page* à la *contrainte d'affichage* courante, peu importe l'appareil.
 
-### Breakpoint (point de rupture)
+## Breakpoint (point de rupture)
 
 Un breakpoint = là où ton contenu souffre
 
@@ -65,13 +65,13 @@ Un breakpoint = là où ton contenu souffre
 
 
 
-#### Éviter les breakpoints arbitraires
+### Éviter les breakpoints arbitraires
 
 - [Éviter les breakpoints arbitraires](./css/breakpoints-arbitraires.md)
 
-### Media query (requête média)
+## Media query (requête média)
 
-#### La syntaxe d'une media query
+### La syntaxe d'une media query
 
 ```css
 @media (min-width: 768px) {
@@ -86,7 +86,7 @@ Un breakpoint = là où ton contenu souffre
 - **`{ ... }`** → Règles CSS qui s'appliquent seulement si la condition est vraie
 
 
-## Exposé mobile-first vs desktop-first
+## Préparation mobile-first vs desktop-first
 
 <!-- Slide 06 -->
 
