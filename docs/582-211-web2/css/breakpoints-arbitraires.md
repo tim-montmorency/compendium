@@ -1,4 +1,4 @@
-# Le problème du breakpoint magine et générique 768px
+# Le problème du breakpoint générique 768px
 
 ## Pourquoi l'IA choisit souvent 768px ?
 
@@ -9,7 +9,6 @@ L'IA a été entraînée sur des millions de sites qui utilisent 768px comme bre
 - Bootstrap l'a popularisé (`md` breakpoint)
 
 **Mais c'est un choix arbitraire basé sur des appareils spécifiques, pas sur votre design.**
-
 
 
 ## Le vrai problème
@@ -123,6 +122,7 @@ Exemple : Une grille de cartes
 - Sur 1400px, 3 colonnes laissent trop d'espace vide
 
 **Meilleure approche :**
+
 ```css
 .grid {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

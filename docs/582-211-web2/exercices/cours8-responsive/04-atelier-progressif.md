@@ -214,7 +214,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
 - [ ] L'approche mobile-first est respectée
 - [ ] Le code est commenté (pourquoi ce breakpoint, pourquoi cette valeur)
 
----
+
 
 ## Synthèse — La règle à retenir
 
@@ -232,11 +232,12 @@ Avant de déclarer ton interface responsive, vérifie :
 - [ ] Tes breakpoints ont été choisis en observant le contenu, pas un appareil spécifique
 - [ ] L'approche mobile-first est respectée (`min-width`, pas `max-width`)
 
----
+
 
 ## Références utiles
 
-- [MDN — Media queries](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_media_queries/Using_media_queries)
-- [MDN — Viewport meta tag](https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag)
-- [CSS Tricks — A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
-- [La Console — Responsive](https://laconsole.dev)
+- [Notes du cours Web 2 - Responsive, media queries, breakpoints...](../../css/mediaqueries-breakpoints.md)
+- [MDN — Media queries](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Media_queries/Using)
+- [MDN — Viewport meta tag](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/meta/name/viewport)
+- [CSS Tricks — A Complete Guide to CSS Media Queries (anglais)](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+- [La Console — Responsive](https://laconsole.dev/formations/css/media-queries)
