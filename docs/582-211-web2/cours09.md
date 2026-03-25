@@ -23,9 +23,12 @@ ici: couper grid, ce n'étaiot pas prévu cette session de toute manière. par c
 
 -->
 
-## Quiz révision responsive
+## Quiz time! Révision *responsive*
 
-Lien Wooclap à venir
+- [Groupe du lundi matin](https://app.wooclap.com/PEXXHC)
+- [Groupe du lundi après-midi](https://app.wooclap.com/)
+- [Groupe du mercredi](https://app.wooclap.com/)
+
 
 <!-- https://claude.ai/chat/243ae008-a5c9-424e-bf51-6a7c95515fd2 -->
 
