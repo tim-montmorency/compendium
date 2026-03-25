@@ -23,6 +23,11 @@ ici: couper grid, ce n'étaiot pas prévu cette session de toute manière. par c
 
 -->
 
+## Quiz révision responsive
+
+Lien Wooclap à venir
+
+<!-- https://claude.ai/chat/243ae008-a5c9-424e-bf51-6a7c95515fd2 -->
 
 
 ## Breakpoints arbitraires

@@ -304,7 +304,27 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 - **Tablette (600px–899px)** : 2 colonnes
 - **Desktop (≥ 900px)** : 3 colonnes
 
+
 **Indice :** Pour gérer les colonnes avec Flexbox, pense à `flex-basis` et `calc()` pour tenir compte du `gap`.
+
+> 💡 **Savais-tu que…**
+>
+> En Flexbox, le `gap` crée de l'espace *entre* les éléments, mais cet espace est **soustrait de la largeur disponible** du conteneur. Résultat : si tu donnes `flex-basis: 50%` à tes cartes avec un `gap` actif, les deux cartes ensemble dépassent 100% — et la deuxième tombe à la ligne.
+>
+> La solution : soustraire la part du gap qui revient à chaque carte avec `calc()`.
+>
+> ```css
+> /* Exemple pour 2 colonnes avec gap: 1.5rem */
+> /* Le gap est partagé entre 2 cartes → chacune cède 0.75rem */
+> .player-card {
+>   flex-basis: calc(50% - 0.75rem);
+> }
+> ```
+>
+> Pour 3 colonnes, il y a 2 gaps à répartir entre 3 cartes: le calcul change un peu.
+> Essaie de le déduire par toi-même avant de passer au niveau suivant !
+>
+> 📖 [En savoir plus — Flexbox, gap et calc()](../../css/flexbox-gap-calc.md)
 
 **Critères de réussite :**
 
@@ -377,7 +397,7 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 - [ ] Les deux configurations sont visuellement propres
 - [ ] `clamp()` est utilisé pour la typographie
 - [ ] L'approche mobile-first est respectée
-- [ ] Le code est commenté (pourquoi ce breakpoint, pourquoi cette valeur)
+- [ ] Le code doit être est commenté (expliquer: pourquoi ce breakpoint, pourquoi cette valeur)...
 
 
 
