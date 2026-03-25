@@ -6,25 +6,29 @@
 
 <!-- Slide 10 -->
 
-> 🎮 **Univers de l'atelier : ZONEOUT 2026**
-> Tu travailles sur le site officiel de **ZONEOUT**, un tournoi battle royale québécois annuel basé sur le jeu fictif **Dropzone**. Le site doit être accessible autant sur mobile (les joueurs vérifient leurs stats entre deux parties) que sur desktop (pour les spectateurs en direct).
+> 🎮 **Univers de l'atelier : ZONE-OUT 2026**
+>
+> Tu travailles sur le site officiel de **ZONE-OUT**, un tournoi battle royale québécois annuel basé sur le jeu fictif **Dropzone**. Le site doit être accessible autant sur mobile (les joueurs vérifient leurs stats entre deux parties) que sur desktop (pour les spectateurs en direct).
 
 ### Objectif
 
-Consolider la compréhension des media queries à travers des défis de complexité croissante.
+Consolider la compréhension des requêtes médias (media queries) à travers des défis de complexité croissante.
 
 ### Consignes générales
 
-- Travaille en autonomie ou en équipe de deux.
+- Travail individuel.
 - Avance à ton rythme : il n'est pas obligatoire de tout terminer en classe.
-- Ce qui n'est pas terminé en classe est à compléter **avant le cours 9**.
-- Pose des questions à l'enseignante si tu es bloqué·e plus de 5 minutes.
+- Ce qui n'est pas terminé en classe est à compléter en devoir. Tu disposes de 2 semaines pour le terminer. Tu dois le terminer et le remettre:
+  - groupe du mercredi: cours 9: *mercredi le 8 avril*
+  - groupes du lundi: cours 10: *lundi le 13 avril*
+- En classe, pose des questions à l'enseignante si tu es bloqué·e plus de 5 minutes.
+- Hors classe: tu peux obtenir de l'aide avec [les tuteurs TIM](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) au C-1612 les mardis OU à distance sur [Teams dans ce canal](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d).
 
 ---
 
 ### 🟢 Niveau 1 — Navigation du tournoi
 
-**Défi :** La barre de navigation du site ZONEOUT est horizontale sur grand écran. Sur mobile, elle doit s'empiler verticalement pour rester utilisable.
+**Défi :** La barre de navigation du site ZONE-OUT est horizontale sur grand écran. Sur mobile, elle doit s'empiler verticalement pour rester utilisable.
 
 **Code de départ :**
 
@@ -34,7 +38,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZONEOUT 2026</title>
+  <title>ZONE-OUT 2026</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -44,49 +48,66 @@ Consolider la compréhension des media queries à travers des défis de complexi
       background-color: #0d0d1a;
       padding: 1rem 2rem;
       border-bottom: 3px solid #ff4fcb;
+      box-shadow: 0 0 10px #ff4fcb;
     }
 
     .site-nav__logo {
       color: #ff4fcb;
+      text-shadow: 0 0 5px #ff4fcb;
       font-weight: 900;
       font-size: 1.2rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .site-nav ul{
+      list-style: none;
     }
 
     .site-nav__list {
-      list-style: none;
       display: flex;
-      /* À modifier avec une media query */
+      gap: 0.8rem;
+      /* TODO: Comment placer la nav par défaut (avant les media queries)? */
+
     }
 
-    .site-nav__list a {
+    .site-nav__link {
       color: #eee;
       text-decoration: none;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 0.2rem;
       display: block;
       text-transform: uppercase;
       font-size: 0.85rem;
       letter-spacing: 0.05em;
     }
 
-    .site-nav__list a:hover {
+    .site-nav__link:hover {
       color: #ff4fcb;
       background-color: rgba(255, 79, 203, 0.1);
       border-radius: 4px;
     }
+
+    /**TODO: ajouter ici la classe de type modificateur pour la page active */
+
+
+    /* 
+    TODO: Sous ce commentaire, ajouter les media queries nécessaires pour compléter l'exercice.
+    */
+
   </style>
 </head>
 <body>
   <nav class="site-nav">
-    <div class="site-nav__logo">ZONEOUT</div>
+    <div class="site-nav__logo">ZONE-OUT</div>
     <ul class="site-nav__list">
-      <li><a href="#">Accueil</a></li>
-      <li><a href="#">Tournois</a></li>
-      <li><a href="#">Classement</a></li>
-      <li><a href="#">Équipes</a></li>
-      <li><a href="#">Billetterie</a></li>
+      <li><a href="#" class="site-nav__link">Accueil</a></li>
+      <li><a href="#" class="site-nav__link">Tournois</a></li>
+      <li><a href="#" class="site-nav__link">Classement</a></li>
+      <li><a href="#" class="site-nav__link">Équipes</a></li>
+      <li><a href="#" class="site-nav__link">Billetterie</a></li>
+      <li><a href="#" class="site-nav__link">Horaire</a></li>
+      <li><a href="#" class="site-nav__link">FAQ</a></li>
+      <li><a href="#" class="site-nav__link">Contact</a></li>
     </ul>
   </nav>
 </body>
@@ -104,6 +125,11 @@ Consolider la compréhension des media queries à travers des défis de complexi
 - [ ] Le code est mobile-first (on part du petit, on ajoute pour le grand)
 - [ ] Aucun overflow horizontal
 
+**Ajout supplémentaire :**
+
+- Ajoute une classe de type "modificateur" sur le lien *Accueil* pour indiquer visuellement la page "active". En BEM, une variation d'apparence sur un élément existant s'exprime avec un modificateur (M), révise tes notes sur la nomenclature BEM au besoin.
+- Stylise ce modificateur en ajoutant une bordure rose sous le lien.
+
 ---
 
 ### 🟡 Niveau 2 — Leaderboard des joueurs
@@ -118,7 +144,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZONEOUT 2026 — Classement</title>
+  <title>ZONE-OUT 2026 — Classement</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -135,6 +161,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
       text-transform: uppercase;
       letter-spacing: 0.1em;
       color: #ff4fcb;
+      text-shadow: 0 0 5px #ff4fcb;
       margin-bottom: 1.5rem;
     }
 
@@ -142,6 +169,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
       display: flex;
       flex-wrap: wrap;
       gap: 1.5rem;
+       /* Gestion du flexbox du conteneur des cartes ici. */
     }
 
     .player-card {
@@ -157,13 +185,14 @@ Consolider la compréhension des media queries à travers des défis de complexi
       height: 56px;
       border-radius: 50%;
       background: #ff4fcb;
+      box-shadow: 0 0 10px #ff4fcb;
       margin-bottom: 0.75rem;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 900;
       font-size: 1.2rem;
-      color: #0d0d1a;
+      color: #2a2a4a;
     }
 
     .player-card__name {
@@ -193,10 +222,15 @@ Consolider la compréhension des media queries à travers des défis de complexi
       color: #eee;
       font-size: 1rem;
     }
+
+    /* 
+    TODO: Sous ce commentaire, ajouter les media queries nécessaires pour compléter l'exercice.
+    */
+
   </style>
 </head>
 <body>
-  <h2 class="leaderboard-title">🏆 Classement — ZONEOUT 2026</h2>
+  <h2 class="leaderboard-title">🏆 Classement — ZONE-OUT 2026</h2>
   <div class="player-grid">
 
     <div class="player-card">
@@ -282,7 +316,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
 
 ### 🔴 Niveau 3 — Page d'accueil du tournoi
 
-**Défi :** Le héros de la page d'accueil ZONEOUT se réorganise complètement entre mobile et desktop, avec des changements typographiques.
+**Défi :** Le héros de la page d'accueil ZONE-OUT se réorganise complètement entre mobile et desktop, avec des changements typographiques.
 
 **Point de départ :** Structure HTML fournie — à toi d'écrire tout le CSS responsive.
 
@@ -292,7 +326,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZONEOUT 2026 — Tournoi Battle Royale</title>
+  <title>ZONE-OUT 2026 — Tournoi Battle Royale</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: sans-serif; background: #0d0d1a; color: #eee; }
@@ -309,7 +343,7 @@ Consolider la compréhension des media queries à travers des défis de complexi
       <span class="tournament-hero__label">Battle Royale • Édition 2026</span>
       <h1 class="tournament-hero__title">Entre dans la zone. Sors en champion.</h1>
       <p class="tournament-hero__desc">
-        ZONEOUT est le plus grand tournoi Dropzone du Québec.
+        ZONE-OUT est le plus grand tournoi Dropzone du Québec.
         256 joueurs. Un seul vainqueur. Inscris-toi avant le 15 avril.
       </p>
       <div class="tournament-hero__actions">
