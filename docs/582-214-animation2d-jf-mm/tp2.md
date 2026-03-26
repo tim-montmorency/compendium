@@ -66,7 +66,7 @@ Le tout doit être remis dans un dossier à votre nom avec les éléments suivan
 
 ## Consignes additionnelles
 
-- Travail individuel  
+- Travail individuel ou en équipe de deux (pour une équipe de deux, il faut combiner 2 parties individuelles où chacun est responsable de sa partie)  
 - Présentation en classe lors du **cours 11 (22-23 avril 2026)**
 
 # CRITÈRES D’ÉVALUATION
