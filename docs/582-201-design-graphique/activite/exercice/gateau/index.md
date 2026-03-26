@@ -53,7 +53,7 @@ L'objectif de cet exercice est de mettre en pratique les techniques de mise en p
 
 ![](./avatar.webp){.w-25 data-zoom-image}
 
-### Étape 2 | Le menu
+### Étape 3 | Le menu
 
 ![](./menu.png){data-zoom-image}
 
@@ -67,7 +67,7 @@ L'objectif de cet exercice est de mettre en pratique les techniques de mise en p
 
 - [ ] Ajouter un effet d'ombre portée sous le menu. 
 
-### Étape 3 | Zone du titre
+### Étape 4 | Zone du titre
 
 - [ ] Ajouter 3 petits avatars superposés avec un nombre de commentaires à leur droite. Grouper le tout.
 
@@ -79,7 +79,7 @@ L'objectif de cet exercice est de mettre en pratique les techniques de mise en p
 
 ![](./title-comments.webp){.w-25 data-zoom-image}
 
-### Étape 4 | Les ingrédients
+### Étape 5 | Les ingrédients
 
 - [ ] Ajouter un « titre 2 » pour la liste des ingrédients.
 
@@ -102,7 +102,7 @@ Pour la liste des ingrédients, commençons par la mise en forme d'une seule lig
 
 ![](./pre-final.webp){.w-25 data-zoom-image}
 
-### Étape 5 | Finition
+### Étape 6 | Finition
 
 - [ ] Ajouter un rectangle vide entre le lien des commentaires et le titre Ingrédients.
 
