@@ -61,6 +61,33 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
+### Le `gap` doit être calculé dans la largeur (flex-basis) des items
+
+En Flexbox, le `gap` crée de l'espace entre les éléments, mais cet espace est soustrait de la largeur disponible du conteneur.
+
+Résultat : si tu donnes `flex-basis: 50%` à tes items côte-à-côte avec un `gap` actif, les deux items ensemble dépassent 100% du conteneur.
+
+La solution : soustraire la part du `gap` qui revient à chaque largeur d'item avec `calc()`.
+
+```css
+/* 
+Exemple pour 2 colonnes avec gap: 1.5rem 
+Le gap est partagé entre 2 items → chacune cède 0.75rem.
+Utilisaton de la fonction css calc() pour calculer le flex-basis.
+*/
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.item {
+  flex-basis: calc(50% - 0.75rem);
+}
+```
+
+[Flexbox, `gap` et `calc()` — gérer les colonnes en pourcentage](./flexbox-gap-calc.md){ .md-button }
+
+
 ## 🟡`flex-grow`: CAPACITÉ À GRANDIR
 
 ### Qu'est-ce que c'est ?
