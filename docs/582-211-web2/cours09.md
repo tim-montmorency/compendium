@@ -74,6 +74,21 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 <!--  Cours 8 - Slide 11  -->
 
+
+`RETOUR COLLECTIF — CONVIVIALITÉ MOBILE`
+
+# Responsive ≠ Accessible (mais c'est un début)
+
+| 👆 Cibles tactiles ≥ 44px | 📖 Texte lisible sans zoom |
+|---|---|
+| Les doigts ne sont pas des curseurs. Un lien de 20px de haut est inutilisable sur mobile. | Corps du texte : 16px minimum. Si l'utilisateur doit zoomer, c'est ton problème. |
+
+| ↔ Pas de scroll horizontal | 🔲 Espacements adaptés |
+|---|---|
+| C'est la signature d'un site non responsive. Teste à toutes les tailles. | Les marges et paddings pensés pour desktop sont souvent trop serrés sur mobile. |
+
+*On approfondit l'accessibilité au cours 13. Aujourd'hui : poser les bases.*
+
 ### La règle des breakpoints
 
 <!-- Cours 8 - Slide 12  -->

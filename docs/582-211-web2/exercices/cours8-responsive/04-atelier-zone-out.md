@@ -350,6 +350,7 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: sans-serif; background: #0d0d1a; color: #eee; }
+    .tournament-hero { width: 100vw; height: 60vh; }
 
     /* Écris tout ton CSS ici */
     /* Pense mobile-first */
