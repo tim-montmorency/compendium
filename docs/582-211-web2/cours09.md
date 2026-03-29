@@ -16,12 +16,13 @@ Responsive avancé
 Transitions et animations UX – Partie A
 - Transitions CSS au service de l'expérience utilisateur
 
-
 -->
 
 ## Annonces
 
 ### Plan de cours révisé
+
+[📄 Plan de cours révisé :material-download:](){ .md-button}
 
 ### Aujourd'hui
 
@@ -41,34 +42,32 @@ Transitions et animations UX – Partie A
 - [Groupe du lundi après-midi](https://app.wooclap.com/)
 - [Groupe du mercredi](https://app.wooclap.com/)
 
+## Retour sur exercice "Première *media query*: albums de musique"
 
+<!-- Groupes lundi seulement: Cours 8 - Slide 09  -->
+
+[Première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+
+## Gap et des largeur de colonnes dans les grilles Flexbox
+
+[📚 Contenu de cours: Flexbox: `gap` et largeur de colonnes](./css/flexbox-gap-calc.md)
 
 ## Breakpoints arbitraires
 
 [Breakpoints arbitraires](./css/breakpoints-arbitraires.md)
 
 
-
-## Retour sur l'exercice "Première *media query*: albums de musique"
-
-<!-- Cours 8 - Slide 09  -->
-
-<!-- Groupes lundi seulement -->
-
-Retour en groupe classe sur votre exercice [Première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
-
-
 ## Atelier Zone-Out 🎮 (breakpoint-media queries) (60 min)
 
-<!--  Cours 8 - Slide 10  -->
+<!--  Groupes lundi seulement : Cours 8 - Slide 10  -->
 
-<!-- Groupes lundi seulement -->
-
-🟢 Base
-🟡 Intermédiaire
-🔴 Avancé
+- 🟢 Niveau 1
+- 🟡 Niveau 2
+- 🔴 Niveau 3
 
 [👩🏻‍💻 Activité 4 - 60 min](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
+
+Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 
 ### Retour collectif sur l'atelier Zone-Out 🎮: convivialité mobile
@@ -77,12 +76,13 @@ Retour en groupe classe sur votre exercice [Première *media query*: albums de m
 
 ### La règle des breakpoints
 
- <!-- Cours 8 - Slide 12  -->
+<!-- Cours 8 - Slide 12  -->
 
 
 ## Requêtes média avancées
 
-
 ## Stratégies de breakpoints raisonnées
+
+## Transitions CSS au service de l'expérience utilisateur
  
  

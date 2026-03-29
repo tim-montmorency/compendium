@@ -170,6 +170,8 @@ Retour et discussion en groupe-classe
 
 Tous les groupes: terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
+<br><br>
+
 !!! warning "Devoir additionnel pour gr mercredi"
     Ne concerne que le groupe du mercredi
 
@@ -195,9 +197,9 @@ Révision de votre activité 3.
 
 <!-- Slide 10   -->
 
-- 🟢 Base
-- 🟡 Intermédiaire
-- 🔴 Avancé
+- 🟢 Niveau 1
+- 🟡 Niveau 2
+- 🔴 Niveau 3
 
 [👩🏻‍💻 Activité 4 - Atelier Zone-Out 🎮](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
 
@@ -216,6 +218,8 @@ Slide 12
 ## Devoirs
 
 Tous les groupes: Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+
+<br><br>
 
 
 !!! warning "Devoir additionnel pour gr mercredi"
