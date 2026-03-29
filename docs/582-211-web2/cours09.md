@@ -4,24 +4,36 @@ Lundi 30 mars / mercredi 8 avril
 
 <!--
 
-Responsive avancé + Introduction à Grid 
+Note: Pour les groupes lundi, pas eu le temps de passer à travers tout le cours 8... je veux le faire ici.
+
+---
+
+Responsive avancé
 
 - Requêtes média avancées (orientation, prefers-color-scheme, etc.) 
 - Stratégies de breakpoints raisonnées 
 
-- RETIRÉ Introduction conceptuelle à CSS Grid 
-- RETIRÉGrilles bidimensionnelles (lignes ET colonnes)  
-- RETIRÉ Quand Grid est plus pertinent que Flexbox 
-- RETIRÉ Comparaison Flexbox / Grid
+Transitions et animations UX – Partie A
+- Transitions CSS au service de l'expérience utilisateur
+
+
 -->
 
+## Annonces
 
+### Plan de cours révisé
 
-<!-- Pour les groupes lundi, apr eux le temps de passer à travers tout le cours 8... je veux le faire ici mais je sais aussi que je dois réviser et couper ici et un peu tout le reste de la session pour arriver. je dois rebouger des sujets.
+### Aujourd'hui
 
-ici: couper grid, ce n'étaiot pas prévu cette session de toute manière. par contre, je dois surement ramener des thème prévues au cours 10 à 14 en cascade vers ici...
+- Quiz de révision
+- Contenu du jour
+  - Requêtes média avancées
+  - Stratégies de breakpoints raisonnées
+  - Transitions CSS
+- Rencontres individuelles ciblées pour valider le projet 1 (ou prise de r-v à l'extérieur du cours si nécessaire)
 
--->
+!!! warning "Rappel ce propos"
+    Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
 
 ## Quiz time! Révision *responsive*
 
@@ -29,8 +41,6 @@ ici: couper grid, ce n'étaiot pas prévu cette session de toute manière. par c
 - [Groupe du lundi après-midi](https://app.wooclap.com/)
 - [Groupe du mercredi](https://app.wooclap.com/)
 
-
-<!-- https://claude.ai/chat/243ae008-a5c9-424e-bf51-6a7c95515fd2 -->
 
 
 ## Breakpoints arbitraires
@@ -68,5 +78,11 @@ Retour en groupe classe sur votre exercice [Première *media query*: albums de m
 ### La règle des breakpoints
 
  <!-- Cours 8 - Slide 12  -->
+
+
+## Requêtes média avancées
+
+
+## Stratégies de breakpoints raisonnées
  
  
