@@ -125,11 +125,11 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 - `skew`
 - `transform-orgin`
 
-[📚 Contenu de cours: Transformation CSS ↗](https://tim-montmorency.com/timdoc/582-211/css/transformation/)
+[📚 Contenu de cours: Transformation CSS ↗](https://tim-montmorency.com/timdoc/582-211/css/transformation/){ .md-button .md-button--primary }
 
 ### Exercice transformation
 
-[👩🏻‍💻 Exercice translate, rotate, scale, skew](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/)
+[👩🏻‍💻 Exercice translate: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
 
 ## 🔁 Transitions CSS
 
@@ -139,11 +139,15 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 - `transition-timing-function`
 - `transition-delay`
 
-[📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/)
+[📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/){ .md-button .md-button--primary }
 
 ### Exercice transition
 
-...
+[👩🏻‍💻 Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/){ .md-button }
+
+[👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/){ .md-button }
+
+[👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
 
 ## Devoirs
 
