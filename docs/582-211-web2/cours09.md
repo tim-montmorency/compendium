@@ -153,6 +153,8 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 -->
 
+## DEVOIR
+
 - Terminer l'atelier Zone-Out 🎮 
 - Terminer l'exercice carte adaptative media queries avancées
 - Terminer l'exercice transformations CSS
