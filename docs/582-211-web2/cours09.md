@@ -93,6 +93,16 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 <!-- Cours 8 - Slide 12  -->
 
+`SYNTHÈSE — À RETENIR `
+
+✓ Choisir un breakpoint en observant le contenu
+✓ Écrire une media query avec la bonne syntaxe
+✓ Appliquer l'approche mobile-first (min-width)
+✓ Inclure le viewport meta tag (toujours)
+✓ Tester la convivialité mobile de base
+
+> Ajoute un breakpoint quand ton contenu te le demande.
+
 
 ## Requêtes média avancées
 
