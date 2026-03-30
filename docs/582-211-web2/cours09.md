@@ -106,14 +106,15 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 ## Requêtes média avancées
 
-[📄 Contenu de cours: Requêtes média avancées](./css/mediaqueries-avance.md){ .md-button}
+[📚 Contenu de cours: Requêtes média avancées](./css/mediaqueries-avance.md){ .md-button .md-button--primary }
 
 ## Stratégies de breakpoints raisonnées
 
-[📄 Contenu de cour: Breakpoints arbitraires](./css/breakpoints-arbitraires.md)
+[📚 Contenu de cour: Breakpoints arbitraires](./css/breakpoints-arbitraires.md){ .md-button .md-button--primary }
 
 ## Exercice media queries et breakpoints
 
+[👩🏻‍💻 Exercice carte adaptative media queries avancées](./exercices/ex-carte-adaptable-mediaqueries.md){ .md-button }
 
 ## Transitions CSS au service de l'expérience utilisateur
 
@@ -122,7 +123,7 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 ## Devoirs
 
 - Terminer l'atelier Zone-Out 🎮 (si pas fait en classe)
-- Terminer l'exercice media queries et breakpoints
+- Terminer l'exercice carte adaptative media queries avancées
 - Terminer l'exercice transitions CSS
  
  
