@@ -382,8 +382,11 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 </html>
 ```
 
-**Aperçu :**
+**Aperçu Desktop :**
 ![](./04-zoneout-niv3-desktop.png)
+
+**Aperçu Mobile :**
+![](./04-zoneout-niv3-mobile.png)
 
 **Exigences :**
 
