@@ -64,7 +64,7 @@ Transitions et animations UX – Partie A
 
 Vous débutez en classe mais vous allez devoir le terminer en devoir pour le prochain cours dans 2 semaines (13 avril).
 
-[👩🏻‍💻 Activité 4](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
+[👩🏻‍💻 Atelier Zone-Out 🎮 (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
 
 Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
