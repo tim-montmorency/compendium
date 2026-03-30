@@ -36,13 +36,13 @@ Transitions et animations UX – Partie A
 !!! warning "Rappel ce propos"
     Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
 
-## Quiz time! Révision *responsive*
+## Quiz time! Révision *responsive* (30 min)
 
 - [Groupe du lundi matin](https://app.wooclap.com/PEXXHC)
 - [Groupe du lundi après-midi](https://app.wooclap.com/)
 - [Groupe du mercredi](https://app.wooclap.com/)
 
-## Retour sur exercice "Première *media query*: albums de musique"
+## Retour sur exercice "Première *media query*: albums de musique" (15 min)
 
 <!-- Groupes lundi seulement: Cours 8 - Slide 09  -->
 
@@ -52,12 +52,8 @@ Transitions et animations UX – Partie A
 
 [📚 Contenu de cours: Flexbox: `gap` et largeur de colonnes](./css/flexbox-gap-calc.md)
 
-## Breakpoints arbitraires
 
-[Breakpoints arbitraires](./css/breakpoints-arbitraires.md)
-
-
-## Atelier Zone-Out 🎮 (breakpoint-media queries) (60 min)
+## Atelier Zone-Out 🎮 (breakpoint-media queries) (20-25 min)
 
 <!--  Groupes lundi seulement : Cours 8 - Slide 10  -->
 
@@ -65,14 +61,17 @@ Transitions et animations UX – Partie A
 - 🟡 Niveau 2
 - 🔴 Niveau 3
 
-[👩🏻‍💻 Activité 4 - 60 min](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
+Vous débutez en classe mais vous allez devoir le terminer en devoir pour le prochain cours dans 2 semaines (13 avril).
+
+[👩🏻‍💻 Activité 4](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
 
 Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
+<!--
 
 ### Retour collectif sur l'atelier Zone-Out 🎮: convivialité mobile
 
-<!--  Cours 8 - Slide 11  -->
+ Cours 8 - Slide 11  
 
 
 `RETOUR COLLECTIF — CONVIVIALITÉ MOBILE`
@@ -91,7 +90,7 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 ### La règle des breakpoints
 
-<!-- Cours 8 - Slide 12  -->
+ Cours 8 - Slide 12  
 
 `SYNTHÈSE — À RETENIR `
 
@@ -102,12 +101,28 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 ✓ Tester la convivialité mobile de base
 
 > Ajoute un breakpoint quand ton contenu te le demande.
+-->
 
 
 ## Requêtes média avancées
 
+[📄 Contenu de cours: Requêtes média avancées](./css/mediaqueries-avance.md){ .md-button}
+
 ## Stratégies de breakpoints raisonnées
 
+[📄 Contenu de cour: Breakpoints arbitraires](./css/breakpoints-arbitraires.md)
+
+## Exercice media queries et breakpoints
+
+
 ## Transitions CSS au service de l'expérience utilisateur
+
+## Exercice transitions CSS
+
+## Devoirs
+
+- Terminer l'atelier Zone-Out 🎮 (si pas fait en classe)
+- Terminer l'exercice media queries et breakpoints
+- Terminer l'exercice transitions CSS
  
  
