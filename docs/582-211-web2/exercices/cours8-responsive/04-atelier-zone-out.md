@@ -350,7 +350,7 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: sans-serif; background: #0d0d1a; color: #eee; }
-    .tournament-hero { width: 100vw; height: 60vh; border-bottom: 1px solid #ff4fcb;}
+    .tournament-hero { width: 100vw; height: auto; border-bottom: 1px solid #ff4fcb;}
 
     /* Écris tout ton CSS ici */
     /* Pense mobile-first */
@@ -382,15 +382,19 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 </html>
 ```
 
+**Aperçu :**
+![](./04-zoneout-niv3-desktop.png)
+
 **Exigences :**
 
 - Styliser les boutons comme sur l'aperçu.
-- Ajouter des marge sur le titre et sous-titres pour aérer la mise en page (comme sur l'aperçu).
+- Ajouter des marges sur le titre et sous-titre pour aérer la mise en page (comme sur l'aperçu). Vous pourrez revenir ajuster cela à la fin.
 - Dans `.tournament-hero__content` le texte doit être centré verticalement et aligné à gauche (utilise Flexbox pour ça).
 
 | Propriété | Mobile | Desktop (≥ 768px) |
 |-----------|--------|-------------------|
-| Layout `.tournament-hero` | en colonne | en rangée (50/50) |
+| Layout du héros `.tournament-hero` | hauteur automatique | hauteur de la fenêtre du navigateur |
+| Layout du héros `.tournament-hero` | en colonne | en rangée (50/50) |
 | `.tournament-hero__title` font-size | `clamp(1.75rem, 5vw, 1.75rem)` | `clamp(1.75rem, 4vw, 5rem)` |
 | `.tournament-hero__visual` hauteur | `200px` | hauteur de la section |
 | `.tournament-hero__visual` background | `#ff4fcb` | `#ff4fcb` |
