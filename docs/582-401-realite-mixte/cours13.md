@@ -1,7 +1,5 @@
 # Cours 13
 
-[STOP]
-
 ## Post processing
 - [:pencil: Post processing](unity/postprocessing.md)
 

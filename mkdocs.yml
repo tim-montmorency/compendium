@@ -51,10 +51,14 @@ nav:
         - Flux HTML: 582-211-web2/css/flot-natif-html.md
         - Variab., unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
         - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
-        - Flex,justify,align,wrap: 582-211-web2/css/flexbox01.md
+        - Flex,justify,align,gap,wrap: 582-211-web2/css/flexbox01.md
         - Flex,grow,shrink,basis: 582-211-web2/css/flexbox02.md
         - Flexbox order: 582-211-web2/css/flexbox-order.md
+        - Flexbox gap calc largeur col: 582-211-web2/css/flexbox-gap-calc.md
         - Composants réutilisables: 582-211-web2/css/composants.md
+        - Responsive (media queries): 582-211-web2/css/mediaqueries-breakpoints.md
+        - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
+        - Breakpoints arbitraires:  582-211-web2/css/breakpoints-arbitraires.md
       - Cours 1: 582-211-web2/cours01.md
       - Cours 2: 582-211-web2/cours02.md
       - Cours 3: 582-211-web2/cours03.md
@@ -62,8 +66,8 @@ nav:
       - Cours 5: 582-211-web2/cours05.md
       - Cours 6: 582-211-web2/cours06.md
       - Cours 7: 582-211-web2/cours07.md
-      # - Cours 8: 582-211-web2/cours08.md
-      # - Cours 9: 582-211-web2/cours09.md
+      - Cours 8: 582-211-web2/cours08.md
+      - Cours 9: 582-211-web2/cours09.md
       # - Cours 10: 582-211-web2/cours10.md
       # - Cours 11: 582-211-web2/cours11.md
       # - Cours 12: 582-211-web2/cours12.md
@@ -101,7 +105,8 @@ nav:
       - Cours 7: 582-214-animation2d-jf-mm/cours07.md
       - Cours 8: 582-214-animation2d-jf-mm/cours08-gc.md
       # - Cours 8: 582-214-animation2d-jf-mm/cours08.md
-      - Cours 9: 582-214-animation2d-jf-mm/cours09.md
+      - Cours 9: 582-214-animation2d-jf-mm/cours09-gc.md
+      # - Cours 9: 582-214-animation2d-jf-mm/cours09.md
       # - Cours 9-mm: 582-214-animation2d-jf-mm/cours09-mm.md
       - Cours 10: 582-214-animation2d-jf-mm/cours10.md
       # - Cours 10-mm: 582-214-animation2d-jf-mm/cours10-mm.md
@@ -112,6 +117,7 @@ nav:
       - Cours 13: 582-214-animation2d-jf-mm/cours13.md
       - Cours 14: 582-214-animation2d-jf-mm/cours14.md
       - Cours 15: 582-214-animation2d-jf-mm/cours15.md
+      - TP2: 582-214-animation2d-jf-mm/tp2.md
   - Web 3:
       - 582-311-web3/index.md
       - Cours 1: 582-311-web3/cours01.md

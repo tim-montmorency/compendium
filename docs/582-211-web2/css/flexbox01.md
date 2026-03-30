@@ -65,9 +65,11 @@ Flexbox fonctionne sur **deux axes** :
 
 
 
-## Propriétés essentielles du **conteneur**
+## Propriétés essentielles du **conteneur** (parent)
 
-### `display:flex` - Activation de flexbox
+On utilise les propriétés qui suivent sur le conteneur (balise parent directe) des items à placer dans l'espace.
+
+## `display:flex` - Activation de flexbox
 
 
 ```css
@@ -110,9 +112,9 @@ Par défaut (si non spécifié) la direction de l'axe principal est horizontale 
 }
 ```
 
----
 
-### `justify-content` - Alignement sur l'axe principal
+
+## `justify-content` - Alignement sur l'axe principal
 
 Distribue l'espace entre/autour des items sur l'axe principal.
 
@@ -142,9 +144,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
 
----
 
-### `align-items` - Alignement sur l'axe secondaire
+## `align-items` - Alignement sur l'axe secondaire
 
 Aligne les items perpendiculairement à l'axe principal.
 
@@ -172,9 +173,9 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
----
 
-### `gap` - Espacement entre les items
+
+## `gap` - Espacement entre les items
 
 Crée un espace uniforme entre tous les items (plus simple que `margin`).
 
@@ -209,9 +210,36 @@ Crée un espace uniforme entre tous les items (plus simple que `margin`).
 }
 ```
 
----
 
-### `flex-wrap` - Passage à la ligne
+### Le `gap` doit être calculé dans la largeur des items
+
+En Flexbox, le `gap` crée de l'espace entre les éléments, mais cet espace est soustrait de la largeur disponible du conteneur.
+
+Résultat : si tu donnes `width: 50%` à tes items côte-à-côte avec un `gap` actif, les deux items ensemble dépassent 100% du conteneur.
+
+La solution : soustraire la part du `gap` qui revient à chaque largeur d'item avec `calc()`.
+
+```css
+/* 
+Exemple pour 2 colonnes avec gap: 1.5rem 
+Le gap est partagé entre 2 items → chacune cède 0.75rem.
+Utilisaton de la fonction css calc() pour calculer le résultat: 
+*/
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.item {
+  width: calc(50% - 0.75rem);
+}
+```
+
+[Flexbox, `gap` et `calc()` — gérer les colonnes en pourcentage](./flexbox-gap-calc.md){ .md-button }
+
+
+
+## `flex-wrap` - Passage à la ligne
 
 Permet aux items de passer à la ligne suivante si l'espace manque.
 ```css

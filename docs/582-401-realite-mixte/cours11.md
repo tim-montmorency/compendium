@@ -1,14 +1,5 @@
 # Cours 11
 
-[STOP]
-
-## L'OSC
-- [:pencil: Configuration de l'OSC](osc/configuration.md)
-- [:pencil: Réception d'OSC](osc/recevoir.md)
-- [:pencil: Envoi d'OSC](osc/envoyer.md)
-
-## Spout 
-- [:pencil:Envoi de flux vidéo de Unity via Spout](unity/spout.md)
 
 ## Éclairage
 - [:pencil: Éclairage](unity/eclairage.md)
@@ -79,4 +70,3 @@ Analyse de l'évaluation. Discussion sur les prochaines étapes. Choisir les obj
 
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
 
-Payer la sortie dans col.net

@@ -1,5 +1,3 @@
-[STOP]
-
 # TP2 – Animation d’une scène en parallaxe  
 **(20% de la note finale)**
 
@@ -38,6 +36,8 @@ La préproduction doit comprendre :
 
 L’animation doit comprendre les éléments suivants :
 
+- Une résolution de **1920 x 1080**
+- Une cadence de **30 images par secondes (30fps)**
 - Une durée entre **10 et 30 secondes**
 - L’intégration d’une bande sonore (musique et/ou effets sonores)
 - La présence de **3 plans distincts** et chaque plan doit comprendre :
@@ -45,7 +45,7 @@ L’animation doit comprendre les éléments suivants :
   2. Un plan intermédiaire
   3. Un arrière-plan
   4. Une animation en effet parallaxe (déplacement d’une caméra)
-  5. Au moins une animation avec keyframe
+  5. Au moins une animation avec keyframe 
   6. Au moins un masque (ou cache)
 - Un titre animé (title reveal) 
 - Un générique de fin avec les éléments suivants :
@@ -66,7 +66,7 @@ Le tout doit être remis dans un dossier à votre nom avec les éléments suivan
 
 ## Consignes additionnelles
 
-- Travail individuel  
+- Travail individuel ou en équipe de deux (pour une équipe de deux, il faut combiner 2 parties individuelles où chacun est responsable de sa partie)  
 - Présentation en classe lors du **cours 11 (22-23 avril 2026)**
 
 # CRITÈRES D’ÉVALUATION

@@ -1,9 +1,8 @@
 # Cours 9
-[STOP]
-
 ## Notions de scénarisation et préproduction
 
-Avant d'ouvrir After Effects et d'animer, il est idéal de déterminer une démarche entre termes d'intention et de ton, mais aussi en termes de direction artistique et de rythme. En gros, on se pose les questions suivantes : 
+Avant d'ouvrir After Effects et d'animer, il est idéal de déterminer une démarche entre termes d'intention et de ton, mais aussi en termes de direction artistique et de rythme. En gros, on se pose les questions suivantes :  
+
 - À qui ça s'addresse et quel est l'émotion à faire vivre?
 - Quel est le ton (informatif, dramatique, humoristique, poétique…)?
 - De quoi ça doit avoir l'air (en termes de formes, couleurs et typo)?
@@ -28,6 +27,23 @@ Le storyboard quant à lui est un outil qui sert à donner de indications de ryt
 ![](./assets/images/cours09-gc/Jeremys_Lie_Storyboard.original.jpg)
 
 ### Exercice en devoir
+
+### Éclairage en 3d 
+
+Nous avons récement positionné des calques dans un environnement 3d, nous pouvons maintenant passer à l'étape suivante qui est d'ajouter un éclairage. Bien que cela ne fera pas parti de l'évaluation, cette notion reste tout de même pertinente. Il est entièrement possible d'ajouter de l'éclairage en 2d, néanmoins cet effet prend tout son sens lorsqu'on fait du parallaxe. 
+
+#### Procédure 
+
+Pour ajouter une source de lumière, il suffit d'aller dans Calque > Nouveau > Lumière 
+
+Il existe 4 types de lumière dans After Effects : 
+
+- Parallèle : Lumière globale (comme le soleil) qui éclaire toute la scène de manière uniforme (à éviter)
+- Spot : Cône de lumière directionnel dont on peut régler l'angle, la direction, la distance, la couleur, etc. Le plus utile pour nous (fonctionne essentiellement comme un projecteur)
+- Pontuelle : Émet une lumière dans toutes les directions depuis un point (comme une ampoule)
+- Ambiante : Éclaire uniformément et sans ombre (généralement utile pour rehausser la luminosité globale) 
+
+On peut également jouer avec les ombrage si un calque est devant la source de lumière.
 
 ## Courbes temporelles et spatiales (timing)
 <!-- https://www.youtube.com/watch?v=HpVtzOtaHlg -->
@@ -139,19 +155,12 @@ Attention avec l'offset. Si la valeur à la fin de son animation est à 0, il s'
 
 ![type:video](./assets/videos/wiggle.mp4)
 
-La fonction `wiggle()` permet d'ajouter un effet de tremblement.
+La fonction `wiggle()` permet d'ajouter un effet de variation aléatoire.
 
 Elle recoit 2 paramètres:
 
-* La **frequence** du tremblement par seconde (ex: 4)
-* L'**amplitude** du tremblement ou l'intensité (ex: 40)
-
-La fonction `wiggle()` permet d’ajouter un effet de tremblement.
-
-Elle reçoit deux paramètres :
-
-* La **fréquence** (ex. : 4 tremblements par seconde)
-* L’**amplitude** (ex. : 40 pixels de variation)
+* La **frequence** de la variation par seconde ou la vitesse (ex: 4)
+* L'**amplitude** de la variation ou l'intensité (ex: 40)
 
 ```js
 wiggle(4, 40);
@@ -181,7 +190,40 @@ Pour créer l'effet dans la vidéo ci-dessous, on ajoute simplement un effet de 
 
     Il est aussi possible de coller l'expression sur une autre propriété. 
 
+
+## Exercice Expression
+
+Pour mettre le tout en pratique, nous allons utiliser les expressions pour animer.  
+
+- Ajouter une lumière en face de la chandelle
+- Utiliser l'expression Wiggle pour animer une variation d'intensité de luminosité
+- Ajouter l'escargot
+- Utiliser des puppet pins pour le mouvement du corps et une expression loopOut pour répéter à l'infini
+- Utiliser des expressions pour la faire se déplacer
+
+[Dossier de départ :material-download:](./exercices_ae/exercice-expression.zip){ .md-button .md-button--primary }
+
 ## [Présentation du TP2](./tp2.md)
 
-## Devoirs pour le prochain cours
+## Devoir pour le prochain cours  
 
+### Amorcer la pré-production du TP2
+
+Il y aura une évaluation formative de votre pré-prod au prochain cours 
+
+### Liste des capsules de démonstration 
+
+#### Question fondamentale : Pour la capsule de montage vidéo, voulez avec Adobe Premiere Pro (meilleur workflow, mais nouveau logiciel) ou Davinci Resolve (Workflow plus long, mais logiciel familié)?
+
+- 1- [Recherche d'inspiration](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQAZfKY8g6DsSK3Q59uxBV2DAX53iIX_NuLPmgHhFQBNTlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bJk1gh) (10 mins)
+- 2a- [Moodboard](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQAtDtDchoacTKnWaG9bMf3lAeMHV_YJ9h7V7xqDwMEHRn8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fzvPgT) (23 mins)
+- 2b- [Assets et Storyboard](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQCyBeGYNwhKRo5XAf4Zj3zGAb5_N2zleSmHwr5Nio80XK0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hWnhFU) (23 mins)
+- 3a- [Photoshop 1](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQCUyX-tBMP8TJtJwYcKPRqnATdbcxj-lNQdWeYlrT0B0FM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BDSYJo) (28 mins)
+- 3b- [Photoshop 2](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQDo5qsVc-5MSpbAJD03pH7AAS_lG1h3Ux64b2OqTBBN-OI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FDfEtH) (21 mins)
+- 3c- [Photoshop 3](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQDtNZSl_P-LQ7Zhg5g1uciiAeAH4PeCS8zO1ksr78f81vU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iuxbD2) (12 mins)
+- 4a- [After Effects 1](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQB9kfsOJvKVRpjk1Dpl8XBwAdWrhHsED3ID3dr1y6sH0qs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bmDrxD) (21 mins)
+- 4b- [After Effects 2](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQBV4oj-lmB8QpbbohFy5Z0fAY0A2o29NmXsiM4I_BXzKRA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tqQAMJ) (28 mins)
+- 4c- [After Effects 3](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQBLy7VASLZAR7HbjtIAbGc2AXvGYyJCaDrddeo9HPnL-zE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5oylEp) (13 mins)
+- 5- [Titre et générique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQByk2_-z9iWR4g0niuCWFvQATAFKJ-0DBgUntnG8pTW7_E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=adFcYR) (25 mins)
+- 6- [6-Colorisation et montage final](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQC22PouW2eOSJweR6HRkmMGAVzH2cDvGBhD5_gQZ5A169I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zE44zH) (17 mins)
+- [Résultat final](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQDO_5fEY7b4QY7QYC5yTLHbAVTWhfHDn0RTceFTMkSc3r8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NGamRC)

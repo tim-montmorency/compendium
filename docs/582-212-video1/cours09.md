@@ -22,11 +22,11 @@ Cours du 23/24 mars 2026
 ### Powerpoint
 * [Présentation](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQAziNkLlP1JTJybAQGXlgJAAT7jDxws_4rBOgLoG6NCnNQ?e=x6ix4i)
 
-### Notions: Le Litepanel
+### Capsules: Le Litepanel
 * [Le litepanel : partie 1](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/dominic_roberts_cmontmorency_qc_ca/Documents/h26/video_1/cours/capsules_francoise/litepanel/litepanel_01.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EtHYng)
 * [Le litepanel : partie 2](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/dominic_roberts_cmontmorency_qc_ca/Documents/h26/video_1/cours/capsules_francoise/litepanel/litepanel_02.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SXrYIv)
 
-### Notions: Spot Ellipsoidal
+### Reference: Spot Ellipsoidal
 * [Reference](references/spot_ellipsoïdal.md)
 
 ## Exercices
