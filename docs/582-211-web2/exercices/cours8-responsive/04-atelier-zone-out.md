@@ -383,10 +383,14 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 ```
 
 **Aperçu Desktop :**
-![](./04-zoneout-niv3-desktop.png)
+
+![Demo desktop](./04-zoneout-niv3-desktop.png)
+
+<br>
 
 **Aperçu Mobile :**
-![](./04-zoneout-niv3-mobile.png)
+
+<img src="./04-zoneout-niv3-mobile.png" alt="Demo mobile" style="width: 300px;"
 
 **Exigences :**
 
