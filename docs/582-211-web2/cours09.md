@@ -155,7 +155,10 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 ## DEVOIR
 
-- Terminer l'atelier Zone-Out 🎮 
-- Terminer l'exercice carte adaptative media queries avancées
-- Terminer l'exercice transformations CSS
-<!-- - Terminer les exercices transition CSS
+- Terminer l'atelier Zone-Out (3 fichiers HTML groupés et compressés .zip)
+- Terminer l'exercice carte adaptative media queries avancées (1 CodePen)
+- Terminer l'exercice transformations CSS (6 CodePens distincts)
+
+
+
+<!--  Terminer les exercices transition CSS -->
