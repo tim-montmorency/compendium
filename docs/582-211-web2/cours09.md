@@ -112,13 +112,37 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 [📚 Contenu de cour: Breakpoints arbitraires](./css/breakpoints-arbitraires.md){ .md-button .md-button--primary }
 
-## Exercice media queries et breakpoints
+### Exercice media queries et breakpoints
 
 [👩🏻‍💻 Exercice carte adaptative media queries avancées](./exercices/ex-carte-adaptable-mediaqueries.md){ .md-button }
 
-## Transitions CSS au service de l'expérience utilisateur
+## ↗ Transformation CSS
 
-## Exercice transitions CSS
+- `translate`
+- `rotate`
+- `scale`
+- `skew`
+- `transform-orgin`
+
+[📚 Contenu de cours: Transformation CSS ↗](https://tim-montmorency.com/timdoc/582-211/css/transformation/)
+
+### Exercice transformation
+
+[👩🏻‍💻 Exercice translate, rotate, scale, skew](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/)
+
+## 🔁 Transitions CSS
+
+- `transition`
+- `transition-property`
+- `transition-duration`
+- `transition-timing-function`
+- `transition-delay`
+
+[📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/)
+
+### Exercice transition
+
+...
 
 ## Devoirs
 
