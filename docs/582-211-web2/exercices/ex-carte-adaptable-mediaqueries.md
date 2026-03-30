@@ -1,6 +1,8 @@
 
 # Exercice carte adaptable avec media queries avancés
 
+[< retour au *cours 9*](../../cours09.md)
+
 ## Contexte
 
 Vous avez une carte de profil simple. Elle doit s'adapter intelligemment à différents contextes — pas juste en largeur, mais aussi en respectant les préférences de l'utilisateur.

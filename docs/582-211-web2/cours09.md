@@ -49,7 +49,7 @@ Transitions et animations UX – Partie A
 
 [Première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
-## Gap et des largeur de colonnes dans les grilles Flexbox
+## Gap et largeur de colonnes dans les grilles Flexbox
 
 [📚 Contenu de cours: Flexbox: `gap` et largeur de colonnes](./css/flexbox-gap-calc.md)
 
