@@ -44,7 +44,7 @@ Le style `:hover` sur le bouton ne doit s'appliquer que sur les appareils avec `
 ??? info "Pour activer les *Emulate CSS media feature...* dans les DevTools de Chrome :"
  
     - Ouvrez l'inspecteur
-    - Tappez Ctrl + Shift + P
+    - Tappez Ctrl + Shift + P ++ctrl+shift+p++
     - Tappez "Show Rendering" et sélectionnez l'option
     - Puis recherchez les options d'émulation
 
