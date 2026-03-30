@@ -131,6 +131,8 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 [👩🏻‍💻 Exercice translate: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
 
+
+<!--
 ## 🔁 Transitions CSS
 
 - `transition`
@@ -149,9 +151,9 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 [👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
 
-## Devoirs
+-->
 
 - Terminer l'atelier Zone-Out 🎮 
 - Terminer l'exercice carte adaptative media queries avancées
 - Terminer l'exercice transformations CSS
-- Terminer les exercices transition CSS
+<!-- - Terminer les exercices transition CSS
