@@ -10,11 +10,11 @@
 >
 > Tu travailles sur le site officiel de **ZONE-OUT**, un tournoi battle royale québécois annuel basé sur le jeu fictif **Dropzone**. Le site doit être accessible autant sur mobile (les joueurs vérifient leurs stats entre deux parties) que sur desktop (pour les spectateurs en direct).
 
-### Objectif
+## Objectif
 
 Consolider la compréhension des requêtes médias (media queries) à travers des défis de complexité croissante.
 
-### Consignes générales
+## Consignes générales
 
 - Travail individuel.
 - Avance à ton rythme : il n'est pas obligatoire de tout terminer en classe.
@@ -24,13 +24,13 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 - En classe, pose des questions à l'enseignante si tu es bloqué·e plus de 5 minutes.
 - Hors classe: tu peux obtenir de l'aide avec [les tuteurs TIM](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/) au C-1612 les mardis OU à distance sur [Teams dans ce canal](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d).
 
----
 
-### 🟢 Niveau 1 — Navigation du tournoi
+
+## 🟢 Niveau 1 — Navigation du tournoi
 
 **Défi :** La barre de navigation du site ZONE-OUT est horizontale sur grand écran. Sur mobile, elle doit s'empiler verticalement pour rester utilisable.
 
-**Code de départ :**
+### Code de départ
 
 ```html
 <!DOCTYPE html>
@@ -114,12 +114,12 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 </html>
 ```
 
-**Résultat attendu :**
+### Résultat attendu
 
 - **≥ 768px** : liens côte à côte (horizontal)
 - **< 768px** : liens empilés (vertical), pleine largeur
 
-**Critères de réussite :**
+### Critères de réussite
 
 - [ ] La navigation fonctionne dans les deux configurations
 - [ ] Le code est mobile-first (on part du petit, on ajoute pour le grand)
@@ -130,13 +130,13 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 - Ajoute une classe de type "modificateur" sur le lien *Accueil* pour indiquer visuellement la page "active". En BEM, une variation d'apparence sur un élément existant s'exprime avec un modificateur (M), révise tes notes sur la nomenclature BEM au besoin.
 - Stylise ce modificateur en ajoutant une bordure rose sous le lien.
 
----
 
-### 🟡 Niveau 2 — Leaderboard des joueurs
+
+## 🟡 Niveau 2 — Leaderboard des joueurs
 
 **Défi :** La page de classement affiche les fiches joueurs en grille. Elle passe de 1 → 2 → 3 colonnes selon l'espace disponible.
 
-**Code de départ :**
+### Code de départ
 
 ```html
 <!DOCTYPE html>
@@ -298,12 +298,15 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 </html>
 ```
 
-**Résultat attendu :**
+<br>
+
+### Résultat attendu
 
 - **Mobile (< 600px)** : 1 colonne
 - **Tablette (600px–899px)** : 2 colonnes
 - **Desktop (≥ 900px)** : 3 colonnes
 
+<br>
 
 **Indice :** Pour gérer les colonnes avec Flexbox, pense à `flex-basis` et `calc()` pour tenir compte du `gap`.
 
@@ -326,19 +329,21 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 >
 > 📖 [En savoir plus — Flexbox, gap et calc()](../../css/flexbox-gap-calc.md)
 
-**Critères de réussite :**
+### Critères de réussite
 
 - [ ] Les trois paliers fonctionnent correctement
 - [ ] Les cartes ont la même hauteur dans une même rangée (bonus)
 - [ ] L'approche mobile-first est respectée
 
----
 
-### 🔴 Niveau 3 — Page d'accueil du tournoi
+
+## 🔴 Niveau 3 — Page d'accueil du tournoi
 
 **Défi :** Le héros de la page d'accueil ZONE-OUT se réorganise complètement entre mobile et desktop, avec des changements typographiques.
 
-**Point de départ :** Structure HTML fournie — à toi d'écrire tout le CSS responsive.
+### Point de départ
+
+**Structure HTML fournie — à toi d'écrire tout le CSS responsive.**
 
 ```html
 <!DOCTYPE html>
@@ -384,19 +389,19 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 
 <br>
 
-**Aperçu Desktop :**
+### Aperçu Desktop 
 
 ![Demo desktop](./04-zoneout-niv3-desktop.png)
 
 
-**Aperçu Mobile :**
+### Aperçu Mobile
 
 <img src="./04-zoneout-niv3-mobile.png" alt="Demo mobile" style="width: 300px;">
 
 
 <br>
 
-**Exigences :**
+### Exigences
 
 - Styliser les boutons comme sur l'aperçu.
 - Ajouter des marges sur le titre et sous-titre pour aérer la mise en page (comme sur l'aperçu). Vous pourrez revenir ajuster cela à la fin.
@@ -412,7 +417,7 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 | Boutons `.tournament-hero__actions` | empilés (colonne) | côte à côte (rangée) |
 | Padding `.tournament-hero__content` | `2rem` | `4rem` |
 
-**Critères de réussite :**
+### Critères de réussite
 
 - [ ] Les deux configurations sont visuellement propres
 - [ ] `clamp()` est utilisé pour la typographie
