@@ -1,6 +1,7 @@
 # Atelier Zone-Out 🎮
 
-[< retour au *cours 8*](../../cours08.md)
+- [< retour au *cours 8*](../../cours08.md)
+- [< retour au *cours 9*](../../cours09.md)
 
 ## Contexte
 
