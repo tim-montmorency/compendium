@@ -784,7 +784,7 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 }
 
 .wtfbaconsoda {
-  display: none;
+  /* display: none; */
 }
 .wtfbaconsoda-trigger {
   cursor: cell;

@@ -13,70 +13,94 @@ tags:
 
 ## Déroulement
 
+On s'assoit à des places différentes de l'habitude.
+
 ### Phase 1 - Désorientation
 
-Dessiner ce qui vous passe par la tête sans lever le crayon pendant 5 minutes.
-
-Lumières : spots chauds
-Musique : drone ambient lent (ex. Brian Eno)
+Ferme les écrans
 Matériel : Feuille de papier + Crayon
 
-Ensuite : chacun regarde ce qu'il a dessiné et écrit 3 mots libres qui décrivent l'émotion du dessin. Pas de logique. Instinct seulement.
+Lumières : chauds
+Musique : 
+- [Terminus - meganeko](./A-Meganeko-Terminus.mp3)
 
-### Phase 2 - Le noir absolu ( BOF)
+Dessiner sans lever le crayon. 
 
-Lumières : noir
-Musique : montée progressive, Burial ou équivalent
+1. Ce que représente la nature pour toi
+1. Un souvenir d'enfance
+1. Le goût de ton plat préféré
 
-2A — Dessin à l'aveugle (10 min)
-Chacun a une feuille et un crayon. Dans le noir complet, ils dessinent ce que la musique leur évoque. Impossible de voir ce qu'on fait → impossible de se juger → le tracé devient honnête.
+### Phase 2 - Moodboard
 
-2B — Le stroboscope (5-7 min)
-Ils se lèvent et bougent dans la classe au rythme du strobe. Tu passes une musique avec un beat fort (techno minimal ou industriel). Après 2-3 minutes, lumière subite → tout le monde se fige dans une position. Ils doivent ensuite dessiner la position dans laquelle ils étaient figés. Corps + dessin.
+Ouvre les écrans
 
-⚠️ Avertis pour le stroboscope à l'avance (photosensibilité).
+Lumières : vert
+Musique :
+- [Alcatraz - Cusco](./B-Alcatraz.mp3)
+- [Shin Sekai - Para One](./C-Para-One-SPECTRE_Shin-Sekai.mp3)
 
-### Phase 3 - Chrono
+<!-- - Unreal Story Part 2 - Fred Nevché, French 79
+- Fugue Italienne - La Femme
+- Ponyo on the Cliff by the Sea - Movie Version - Joe Hisaishi -->
 
-Lumières : spots colorés, changeants
-Musique : rythme moyen, instrumentale
+**2A — Écrire des mots / dessiner à l'écoute (15 min)**
+2 pistes audio sont jouées l'une après l'autre. Pour chaque piste, les étudiants dessinent et ce que la musique leur évoque. 
 
-Portrait de la personne à ta gauche, sans regarder la feuille
-Dessine ta peur la plus absurde
-Invente un logo pour une entreprise qui vend quelque chose d'impossible
-Écris le nom d'une émotion et remplis la feuille de formes qui ressemblent à cette émotion
-Dessine ta mémoire la plus ancienne
-Invente un personnage en 3 traits
+**2B — Recherche d'images (15 min)**
+Les mêmes 2 pistes sont rejouées. Les étudiants ouvrent un nouveau fichier Figma avec 2 pages (une par chanson). Pour chaque piste, ils cherchent des images (photos, textures, couleurs, ambiances) qui correspondent à ce que la musique leur fait ressentir et à ce qu'ils ont dessiné. Minimum 30 images par page.
 
-But : dissocier création et perfection. La vitesse est une contrainte libératrice.
+**2C — Tri (5 min)**
+Réduire chaque page à 10 images essentielles. Garder uniquement ce qui capture le mieux l'émotion de la piste.
+
+Ensuite, on se lève et on se place en ligne devant le tableau blanc.
+
+### Phase 3 - Dessin collectif
+
+Ferme les écrans
+
+Lumières : aucune, lumière de vos cell / stroboscope
+
+Musique : 
+- [Timeout - Spaze Windu](./D-Timeout.mp3)
+- [Ratatat - Abrasive](./D2-RATATAT-ABRASIVE.mp3)
+- [Castilian - Ceephax Acid Crew](./E-Castilian.mp3)
+
+À tour de rôle, chaque personne dispose de 10 secondes pour dessiner au tableau blanc. La personne suivante continue le dessin en s'appuyant directement sur ce qui existe déjà.
 
 ### Phase 4 - Cadavre exquis
 
-Lumières : spots neutres
-Musique : jazz ou post-rock doux
+<!-- Inventé par les peintre et poètes surréalistes en 1925 -->
 
-Chacun en part 1 et le passe au suivant Plusieurs versions circulent en même temps :
-Visuel classique : feuille pliée en accordéon, chacun dessine une section sans voir le reste. 5-6 passages. Révélation collective à la fin.
+Lumières : Bleu
+Musique : 
+- [Diver - Jukio Kallio](./F-Jukio-Kallio-Diver.mp3)
 
-Cadavre narratif : même chose mais avec des phrases. Sujet / verbe / complément. Les résultats sont souvent surréalistes et drôles — ça détend et ça montre que l'absurde est une source créative valide.
+On pli une feuille en 3, la première personne commence par la tête. Il faut laisse dépasser un peu les traits pour aider la personne suivante.
 
-### Phase 5 — Tableau blanc
+La personne suivante dessine ne corps.
 
-Lumières : changement dramatique, plus intense / Musique : montée
-Les deux tableaux blancs deviennent des espaces de création collective.
+La dernière, dessine de bas du corps.
 
-Tableau 1 — La toile commune : tout le monde peut dessiner en même temps, par-dessus les autres, sans se concerter. Personne ne possède l'espace.
+On passe au suivant 3 fois. Chacun devrait avoir dessiné chacune des parties.
 
-Tableau 2 — La constellation d'idées : tu écris un mot au centre (ex. "solitude", "fête", "machine"). Chacun vient ajouter une association, un dessin, un mot dérivé. En 10 minutes, le tableau est plein.
+### Phase 5 — Le cercle
 
-### Phase 6 — Le cercle
+Ouvre les écrans
 
-Lumières : spots neutres
-Musique : lo-fi chill ou instrumentale douce
+Lumières : Mauve
+Musique : 
+- [Mirai Sekai - Continuous Mix - Varien, 7 Minutes Dead](./G-Varien7MinutesDead-MiraiSekai.mp3)
+- [Unreal Story Part 1 - Fred Nevché, French 79](./Unreal-Story-Part-1.mp3)
+- [Unreal Story Part 2 - Fred Nevché, French 79](./Unreal-Story-Part-2.mp3)
 
-Chaque étudiant ouvre Figma sur son ordinateur. Un seul cercle est placé au centre de l'artboard. À partir de ce cercle, il doit créer une illustration en utilisant les outils de Figma (formes, couleurs, traits, etc.).
+Chaque étudiant ouvre Figma sur son ordinateur. 
 
-Chaque étudiant pige ou choisit un sujet parmi la liste suivante :
+Il choisi un objet rond.
+Il l'écrit dans Figma.
+Le dessine une fois.
+Il passe à l'ordi du voisin, et dessine une version différente de celles déjà dessinées.
+
+Idées : 
 
 1. Une boule de cristal
 2. Une boule de billard
@@ -92,18 +116,9 @@ Chaque étudiant pige ou choisit un sujet parmi la liste suivante :
 12. Une roue de vélo
 13. Un bouton de chemise
 14. Un emoji
-15. Une planète Saturne (cercle + anneau)
+15. Une planète comme Saturne (cercle + anneau)
 16. Un volant de voiture
 17. Une boussole
 18. Un hublot de sous-marin
 19. Une bulle de savon
 20. Un globe terrestre
-
-### Phase 7 - Moodboard
-
-Lumières : retour aux spots, atmosphère calme
-Musique : ambient doux
-
-40 images min en 15 minutes. Pas de sélection, pas de tri.
-5 minutes pour en garder 15.
-

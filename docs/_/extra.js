@@ -359,7 +359,7 @@ const handleCheckboxesWithFireworks = (fireworks, fireworksContainer) => {
 
 const { fireworks, fireworksContainer } = initializeFireworks();
 
-// Easter egg : 10 clics sur .wtfbaconsoda-trigger affiche .wtfbaconsoda
+// Easter egg : 5 clics sur .wtfbaconsoda-trigger affiche .wtfbaconsoda
 const initBaconSoda = () => {
   let clickCount = 0;
   const trigger = document.querySelector('.wtfbaconsoda-trigger');
@@ -368,7 +368,7 @@ const initBaconSoda = () => {
 
   trigger.addEventListener('click', () => {
     clickCount++;
-    if (clickCount >= 10) {
+    if (clickCount >= 5) {
       target.style.display = 'block';
     }
   });

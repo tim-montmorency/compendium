@@ -1,5 +1,7 @@
 # Cours 10 | Le cours #10
 
+<!-- /activite/exercice/seance-de-creation -->
+
 ## Exercices
 
 Séance de création dirigée
@@ -39,11 +41,11 @@ Un _[design system](https://www.figma.com/fr-fr/blog/design-systems-101-what-is-
 
 ![](./assets/img/design-system-colors-kromatika.png){data-zoom-image .w-100}
 
-D'abord on défini l'ensemble des couleurs de notre système : rouge, bleu, vert, etc.
+D'abord on définit l'ensemble des couleurs de notre système : rouge, bleu, vert, etc.
 
 Ensuite on décline chacune de ces couleurs en plusieurs teintes (_tints_ / _shades_), de très pâle à très foncé. Traditionnellement, on les nomme par bond de 100 (entre 0 et 1000).
 
-Notez qu'aux extrémités, on y va plus granulairement. En effet, les couleurs pâles et foncée demandent souvent plus de subtilités.
+Notez qu'aux extrémités, on y va plus granulairement. En effet, les couleurs pâles et foncées demandent souvent plus de subtilités.
 
 <figure markdown>
 ![](./assets/img/design-system-colors-a.png){data-zoom-image .w-50}
@@ -149,7 +151,7 @@ En code, ça pourrait ressembler à ceci :
 
 #### Darkmode dans Figma
 
-Pour activer la notion de darkmode, assurez vous d'avoir de mettre 2 valeurs (colonnes) à une même variable.
+Pour activer la notion de darkmode, assurez-vous de mettre 2 valeurs (colonnes) à une même variable.
 
 ![](./assets/img/light-dark-mode-variables.png){data-zoom-image .w-33}
 
@@ -171,11 +173,10 @@ Pour ajouter ce type de système dans votre document, passez par l'onglet Ressou
 ![](./assets/img/community-design-system-step2.png){data-zoom-image .w-25}
 ![](./assets/img/community-design-system-step3.png){data-zoom-image .w-25}
 
-Pour l'activer, sélectionnez une de ses instance de composante et activez sa variation sombre dans la section Apparence.
+Pour l'activer, sélectionnez une de ses instances de composante et activez sa variation sombre dans la section Apparence.
 
 ![](./assets/img/community-design-system-component.png){data-zoom-image .w-25}
 ![](./assets/img/community-design-system-darkmode.png){data-zoom-image .w-25}
-
 
 
 ## Typographie
@@ -227,9 +228,9 @@ La typographie dans un design system définit **toutes les combinaisons** de pol
 
 ## Dimensions
 
-Un design système cherche à encâdrer le plus de cas de figure possible. Pour ce faire, il se doit être assez flexible. Ainsi, il faut réfléchir à plusieurs cas de figure qu'on pourrait catégoriser : XS, S, M, L, XL
+Un design system cherche à encadrer le plus de cas de figure possible. Pour ce faire, il se doit d'être assez flexible. Ainsi, il faut réfléchir à plusieurs cas de figure qu'on pourrait catégoriser : XS, S, M, L, XL
 
-Ainsi, on peut baser nos composantes sur ce principe. Par exemples, les boutons :
+Ainsi, on peut baser nos composantes sur ce principe. Par exemple, les boutons :
 
 ![](./assets/img/btn-filled-diff.png){data-zoom-image}
 
@@ -261,18 +262,17 @@ Ils sont souvent normalisés par des **multiple de 4 ou 8** :
 
 ![](./assets/img/design-system-icons-set.png){data-zoom-image}
 
-Dépendament des usages, on va catégoriser les groupes d'icônes selon leurs fonctions : alertes, fichiers, formulaire, etc.
+Selon les usages, on va catégoriser les groupes d'icônes selon leurs fonctions : alertes, fichiers, formulaire, etc.
 
 !!! example "Quelques exemples"
 
     - [Material Symbols](https://fonts.google.com/icons) (Google)
     - [Heroicons](https://heroicons.com/) (Tailwind)
-    - [Phosphor Icons](https://phosphoricons.com/)
-    - [Lucide](https://lucide.dev/)
+    - [Feather](https://feathericons.com/)
 
 ## Applicabilité d'un *design system*
 
-![](./assets/img/two-female-programmers-working-on-new-project-they-working-late-at-night-at-the-office.webp){data-zoom-image .w-100}
+![](./assets/img/two-female-programmers-working-on-new-project-they-working-late-at-night-at-the-office.webp){.w-100}
 
 L'intégration d'un _design system_ en développement Web reste exigeante. 
 
@@ -302,15 +302,15 @@ Le développeur agit alors davantage comme **architecte** que comme **exécutant
     ![](./assets/img/humandesign-before.webp){data-zoom-image}
     ![](./assets/img/humandesign-after.webp){data-zoom-image}
     </div>
-
-    Source : <https://www.youtube.com/watch?v=LTsIKT9dslU>
+    
+<!-- Source : https://www.youtube.com/watch?v=LTsIKT9dslU -->
 
 ### Stitch (Google)
 
 Stitch vise à automatiser les _design systems_ via les Design Tokens, assurant une cohérence entre design et code sans avoir à gérer chaque variation manuellement.
 
 <figure markdown>
-![Interface de Stitch](./assets/img/stitch.png)
+![Interface de Stitch](./assets/img/stitch.png){data-zoom-image}
 <figcaption markdown>[stitch.withgoogle.com](https://stitch.withgoogle.com/)</figcaption>
 </figure>
 

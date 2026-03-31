@@ -55,11 +55,6 @@ Vous devez refaire le design des **2 pages** du site choisi, déclinées en Desk
 - [ ] Une page principale contenant tous les frames
 - [ ] Une page nommée « Components » contenant votre composante personnalisée
 
-### Grille de mise en page
-
-- [ ] **Desktop** : système à **12 colonnes**
-- [ ] **Mobile** : système à **2 ou 3 colonnes**
-
 ### Structure des pages
 
 La page **Accueil** doit contenir au minimum :
@@ -133,9 +128,9 @@ Sur Teams, remettre **un seul fichier zip** nommé `nomfamille-prenom-devoir04.z
 | **Structure des pages** | **2** | :material-arrow-right: La page Accueil contient : entête avec navigation, section héro, cartes et pied de page.<br>:material-arrow-right: La page Formulaire contient : entête, formulaire(s) et pied de page. |
 | **Composantes** | **3** | :material-arrow-right: Au moins 3 composantes du Simple Design System sont utilisées.<br>:material-arrow-right: La version sombre des composantes est utilisée dans les frames en mode sombre.<br>:material-arrow-right: Une composante de type variante est créée dans la page « Components » et utilisée dans au moins un frame. |
 | **Variables clair / sombre** | **2** | :material-arrow-right: Une collection de variables de couleurs avec les modes Clair et Sombre est configurée.<br>:material-arrow-right: Les variables sont appliquées aux maquettes et le basculement entre les modes fonctionne sans intervention manuelle. |
-| **Responsive** | **3** | :material-arrow-right: La grille de mise en page est utilisée (12 colonnes en desktop, 2-3 colonnes en mobile).<br>:material-arrow-right: L'auto-layout est utilisé correctement (contenus qui s'étirent, se compriment ou se réorganisent selon le frame).<br>:material-arrow-right: Les contraintes sont configurées correctement et le contenu s'adapte au redimensionnement. |
+| **Responsive** | **2** | :material-arrow-right: L'auto-layout est utilisé correctement (contenus qui s'étirent, se compriment ou se réorganisent selon le frame).<br>:material-arrow-right: Les contraintes sont configurées correctement et le contenu s'adapte au redimensionnement. |
 | **Hiérarchie visuelle** | **2** | :material-arrow-right: L'ordre de lecture est intentionnel : titre principal, contenu secondaire et appels à l'action sont clairement différenciés (taille, poids, couleur, espacement).<br>:material-arrow-right: La refonte représente une amélioration visible et justifiable par rapport au site original. |
 | **Qualité visuelle** | **1** | Typographie lisible, palette harmonieuse, contrastes suffisants et espacement soigné. L'ensemble est cohérent d'un frame à l'autre. |
 | **Document d'accompagnement** | **2** | :material-arrow-right: Le document est complet : toutes les sections sont présentes et chaque élément est localisé dans les maquettes.<br>:material-arrow-right: Les justifications sont précises et démontrent une compréhension des choix effectués. |
 | **Rigueur** | **1** | Respect des consignes |
-| **Total** | **/ 18** | *(converti en 20 % de la note finale)* |
+| **Total** | **17** | *(converti en 20 % de la note finale)* |
