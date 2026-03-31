@@ -1,291 +1,326 @@
-# Cours 10 | Système de design
+# Cours 10 | Le cours #10
 
-[STOP]
+<!-- /activite/exercice/seance-de-creation -->
 
-Miser sur des méthodes de création.
-Difficulté avec l'inspiration.
+## Exercices
 
+Séance de création dirigée
 
-![](./assets/img/design-system.png)
-<!-- 
-@note : Ce cours vise à enseigner la notion de Design system dans Figma. 
+![](./assets/img/llllllllllllllllll.gif){.w-100 .wtfbaconsoda-trigger}
 
-Design system
-https://www.figma.com/fr-fr/blog/design-systems-101-what-is-a-design-system/
+<div class="wtfbaconsoda" markdown>
 
-https://www.youtube.com/watch?v=6_t66Ef0Llk -->
+## Système de design
 
-## Qu'est-ce qu'un design system ?
+![](./assets/img/design-system-preview.png){.w-100 data-zoom-image}
 
-Un **design system** (ou système de design), c'est un ensemble de règles, de composants réutilisables et de décisions de design documentées qui permettent à une équipe de créer des interfaces **cohérentes**, **rapidement** et **à grande échelle**.
+Un _design system_ (ou système de design), est un ensemble de règles, de composants réutilisables et de décisions de design documentées qui permettent à une équipe de créer des interfaces **cohérentes**, **rapidement** et **à grande échelle**.
 
-> C'est un peu la « grammaire » d'une interface : quand tout le monde parle le même langage visuel, la communication est plus fluide et les erreurs diminuent.
+### Ce que contient un _design system_
 
-### Pourquoi ça existe ?
-
-Imaginez une équipe de 10 designers et 5 développeurs qui travaillent sur la même application. Sans système commun :
-
-- Les boutons ont 6 tailles différentes selon qui les a dessinés 😬
-- Les couleurs varient d'une page à l'autre
-- Chaque changement de couleur principale demande des heures de corrections
-
-Avec un design system, **une seule modification** se propage partout automatiquement.
-
-### Ce que contient un design system
-
-<figure markdown>
-![](./assets/img/design-system-anatomy.png){data-zoom-image}
-<figcaption>Les grandes couches d'un design system</figcaption>
-</figure>
-
-Un design system complet est composé de plusieurs couches :
+Un _[design system](https://www.figma.com/fr-fr/blog/design-systems-101-what-is-a-design-system/)_ complet est composé de 4 couches :
 
 | Couche | Contenu |
 | --- | --- |
 | **Fondations** | Couleurs, typographie, espacements, icônes, grilles |
-| **Composants** | Boutons, champs, cartes, menus, modales... |
-| **Patterns** | Formulaires, navigation, listes, états d'erreur... |
-| **Documentation** | Règles d'usage, do/don't, principes |
+| **Composants** | Boutons, champs, cartes, menus, modals |
+| **Patterns** | Formulaires, navigation, listes, états d'erreur |
+| **Documentation** | Règles d'usage, _do/don't_, principes |
 
-Dans ce cours, on va se concentrer sur les **fondations** et les **composants**, qui sont la base de tout le reste.
+!!! example "Exemples"
 
-### Exemples de design systems publics
+    Plusieurs entreprises publient leur _design system_ :
 
-Plusieurs grandes entreprises publient leur design system. C'est une mine d'or pour apprendre.
+    - Google : [Material Design](https://m3.material.io/)
+    - Apple : [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+    - Microsoft : [Fluent Design](https://fluent2.microsoft.design/)
+    - Shopify : [Polaris](https://polaris.shopify.com/)
+    - Atlassian : [Atlassian Design System](https://atlassian.design/) (Jira)
 
-- [Material Design](https://m3.material.io/) — Google
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) — Apple
-- [Fluent Design](https://fluent2.microsoft.design/) — Microsoft
-- [Polaris](https://polaris.shopify.com/) — Shopify
-- [Atlassian Design System](https://atlassian.design/) — Jira/Confluence
+## Palette de couleurs
 
-!!! tip "Regardez comment ils documentent leurs composants"
+![](./assets/img/design-system-colors-kromatika.png){data-zoom-image .w-100}
 
-    La façon dont ces entreprises décrivent leurs règles est presque aussi instructive que les règles elles-mêmes. Ça vous donnera une bonne idée de la rigueur attendue dans le milieu.
+D'abord on définit l'ensemble des couleurs de notre système : rouge, bleu, vert, etc.
 
----
+Ensuite on décline chacune de ces couleurs en plusieurs teintes (_tints_ / _shades_), de très pâle à très foncé. Traditionnellement, on les nomme par bond de 100 (entre 0 et 1000).
 
-## Les fondations (_Foundations_)
-
-Les fondations, c'est tout ce qui doit être défini **avant** de commencer à dessiner des composants. C'est la base sur laquelle tout le reste s'appuie.
-
-### Palette de couleurs
-
-Une palette bien construite pour le Web comporte plusieurs niveaux :
+Notez qu'aux extrémités, on y va plus granulairement. En effet, les couleurs pâles et foncées demandent souvent plus de subtilités.
 
 <figure markdown>
-![](./assets/img/design-system-colors.png){data-zoom-image}
-<figcaption>Exemple de palette structurée avec rôles sémantiques</figcaption>
+![](./assets/img/design-system-colors-a.png){data-zoom-image .w-50}
+<figcaption markdown>[Tailwind - Couleurs](https://tailwindcss.com/docs/colors)</figcaption>
 </figure>
 
-| Type | Rôle | Exemple |
-| --- | --- | --- |
-| **Primaire** | Couleur principale de la marque | Boutons, liens, éléments actifs |
-| **Secondaire** | Couleur d'appui ou de contraste | Badges, accents |
-| **Neutre** | Gris pour les fonds, les textes, les bordures | Fonds, textes de contenu |
-| **Sémantique** | Couleurs à sens fixe | ✅ Succès, ⚠️ Avertissement, ❌ Erreur, ℹ️ Info |
+```css title="Exemple"
+:root {
+  --blue-500: #3b82f6;
+  --blue-700: #1d4ed8;
+  --red-500: #ef4444;
+  --gray-100: #f3f4f6;
+  --gray-900: #111827;
 
-!!! info "La règle du naming sémantique"
-
-    Dans un design system, on ne nomme **jamais** une couleur par sa valeur visuelle.
-
-    | ❌ À éviter | ✅ À préférer |
-    | --- | --- |
-    | `bleu-foncé` | `couleur-primaire` |
-    | `gris-clair` | `fond-secondaire` |
-    | `rouge` | `couleur-erreur` |
-
-    Pourquoi ? Parce que si vous décidez un jour que votre couleur primaire devient verte, le nom `bleu-foncé` ne voudra plus rien dire.
-
-### Typographie
-
-<figure markdown>
-![](./assets/img/design-system-type-scale.png){data-zoom-image}
-<figcaption>Exemple d'échelle typographique</figcaption>
-</figure>
-
-La typographie dans un design system définit **toutes les combinaisons** de police, taille, graisse et interlignage utilisées dans l'interface.
-
-| Niveau | Usage typique | Taille indicative |
-| --- | --- | --- |
-| **Display / H1** | Titres de page, héros | 48–72px |
-| **H2** | Titres de section | 32–40px |
-| **H3** | Sous-titres | 24–28px |
-| **Body Large** | Intro, texte mis en valeur | 18–20px |
-| **Body** | Texte courant | 14–16px |
-| **Caption** | Légendes, notes, labels | 11–12px |
-
-!!! warning "Pas plus de 2 polices dans un système"
-
-    Dans la grande majorité des cas, un design system utilise **une police pour les titres** et **une pour le texte courant**, parfois la même pour les deux. Multiplier les polices crée de l'incohérence.
-
-### Espacements (_Spacing_)
-
-<figure markdown>
-![](./assets/img/design-system-spacing.png){data-zoom-image}
-<figcaption>Système d'espacements basé sur une unité de base</figcaption>
-</figure>
-
-L'espacement, c'est la distance entre les éléments : marges internes (_padding_), marges externes (_margin_), espacements entre items, etc.
-
-La plupart des systèmes utilisent un **multiple de 4 ou 8** comme unité de base :
-
-`4 — 8 — 12 — 16 — 24 — 32 — 48 — 64 — 96...`
-
-> Pourquoi 8 ? Parce que la plupart des écrans ont des densités de pixels multiples de 8, et les composants s'alignent naturellement.
-
-!!! example "Analogie : la portée musicale 🎵"
-
-    Une portée musicale a des lignes régulières et espacées de façon identique. Le musicien peut y placer n'importe quelle note, mais l'espacement reste toujours cohérent. Un système d'espacement, c'est pareil : les distances varient, mais selon une logique fixe.
-
-### Icônes
-
-Un design system définit **une bibliothèque d'icônes cohérente** : même style (trait, rempli, outline), même taille de grille de base (souvent 24×24px), même convention de nommage.
-
-Des bibliothèques libres de référence :
-
-- [Material Symbols](https://fonts.google.com/icons) — Google
-- [Heroicons](https://heroicons.com/) — Tailwind
-- [Phosphor Icons](https://phosphoricons.com/)
-- [Lucide](https://lucide.dev/)
-
----
-
-## Les variables Figma
-
-![](./assets/img/figma-variables-banner.png){.w-100}
-
-Les **variables** dans Figma permettent de stocker des valeurs (couleurs, nombres, textes, booléens) et de les réutiliser partout dans le fichier. C'est le mécanisme qui donne vie aux fondations d'un design system.
-
-### Créer une variable de couleur
-
-1. Ouvrir le panneau **Local variables** (icône en haut à droite du panneau des calques, ou via le menu ressources)
-2. Créer une collection (ex. : `Couleurs`)
-3. Ajouter une variable de type **Color**
-4. Lui donner un nom sémantique (ex. : `primaire/500`)
-5. L'appliquer au remplissage d'un élément via le panneau de droite
-
-!!! success "La vraie puissance : les modes (_Modes_)"
-
-    Les variables peuvent avoir plusieurs **modes**. C'est ce qui permet, par exemple, de basculer l'ensemble d'une interface entre **mode clair** et **mode sombre** en un seul clic.
-
-    ![](./assets/img/figma-variable-modes.png){data-zoom-image .w-50}
-
-### Variables numériques
-
-Vous pouvez aussi créer des variables pour vos espacements :
-
-- `spacing/xs` = `4`
-- `spacing/sm` = `8`
-- `spacing/md` = `16`
-- `spacing/lg` = `32`
-
-Puis les appliquer aux _padding_ de vos auto-layouts. Modifier la valeur de `spacing/md` met à jour **tous** les composants qui l'utilisent.
-
----
-
-## Construire un mini design system dans Figma
-
-Voici la démarche recommandée pour construire un système minimal mais fonctionnel.
-
-### Étape 1 — Organisation du fichier
-
-Créez une page dédiée dans votre fichier Figma :
-
-```
-📄 🎨 Fondations
-📄 🧩 Composants
-📄 📐 Maquettes
+  /* On appelle ce type de variable des « design tokens », « tokens primitifs » ou « global tokens » */
+}
 ```
 
-### Étape 2 — Définir les variables
+### Sémantique
 
-Dans la page **Fondations**, définissez vos variables :
+Séparer le sens (intention) de l’apparence. Un exemple qui le fait bien : [daisyui](https://daisyui.com/docs/colors/).
 
-- [ ] Palette de couleurs (primaire, neutre, sémantique)
-- [ ] Échelle typographique (styles de texte)
-- [ ] Espacements (variables numériques)
+| Nom     | Signification |
+| ------- | ------------- |
+| primary | Couleur principale de la marque (Boutons, liens, éléments actifs) |
+| secondaire | Couleur d'appui ou de contraste |
+| success | confirmation |
+| danger  | erreur |
+| warning | attention |
+| info    | neutre informatif |
 
-!!! tip "Les _Text Styles_ dans Figma"
+![](./assets/img/design-system-semantic.png){.w-50 data-zoom-image}
 
-    En plus des variables, Figma permet de créer des **styles de texte** réutilisables. Sélectionnez un texte formaté → icône « + » dans la section *Text* du panneau → nommez le style (ex. : `Titre/H1`).
+```css title="Exemple"
+:root {
+    /* ... */
 
-### Étape 3 — Créer les composants de base
+    /* Rôles (sémantique) */
+    --primary: var(--blue-500);
+    --danger: var(--red-500);
 
-Dans la page **Composants**, construisez au minimum :
+    /* L'usage (composants) */
+    --primary-bg: var(--primary);
+    --primary-text: #fff;
+    --primary-border: var(--blue-700);
 
-- [ ] Un bouton (avec variantes : Default, Hover, Disabled)
-- [ ] Un champ de texte (_input_)
-- [ ] Une carte (_card_) avec image, titre, description
-- [ ] Une icône encapsulée dans un composant
+    --btn-bg: #ffffff;
+    --btn-text: #1a1a1a;
+}
+```
 
-### Étape 4 — Documenter
+### Version foncée (_darkmode_)
 
-Chaque composant devrait être accompagné de règles d'usage minimales directement dans Figma, sous forme de notes ou de frames d'annotation.
+On pourrait croire qu'en mode foncé, on a juste besoin d'inverser les déclinaisons pour s'adapter à un mode foncé, mais ce serait une erreur.
+
+![](./assets/img/dark-mode-color-diff.png){data-zoom-image .w-50}
+
+Si le fond est blanc, il n'est pas nécessairement noir dans le darkmode. On met souvent du gris foncé pour que ce soit moins fatigant pour les yeux. Les couleurs doivent alors aussi s'ajuster en conséquence.
+
+!!! warning "L'accessibilité doit toujours faire partie du processus de décision des couleurs"
+
+En code, ça pourrait ressembler à ceci : 
+
+```css title="Exemple complet"
+
+/* 1. Mode clair */
+
+:root {
+    /* Tokens (valeurs brutes) */
+    --blue-500: #3b82f6;
+    --blue-700: #1d4ed8;
+    --red-500: #ef4444;
+
+    /* Rôles (sémantique) */
+    --primary: var(--blue-500);
+    --danger: var(--red-500);
+
+    /* L'usage (composants) */
+    --primary-bg: var(--primary);
+    --primary-text: #fff;
+    --primary-border: var(--blue-700);
+
+    --btn-bg: #ffffff;
+    --btn-text: #1a1a1a;
+}
+
+/* 2. Mode Sombre (Automatique + Manuel) */
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+        --blue-500: #60a5fa;
+        --btn-bg: #111827;
+        --btn-text: #f9fafb;
+    }
+}
+
+[data-theme='dark'] {
+    --blue-500: #60a5fa;
+    --btn-bg: #111827;
+    --btn-text: #f9fafb;
+}
+```
+
+#### Darkmode dans Figma
+
+Pour activer la notion de darkmode, assurez-vous de mettre 2 valeurs (colonnes) à une même variable.
+
+![](./assets/img/light-dark-mode-variables.png){data-zoom-image .w-33}
+
+Dans la configuration du frame, on peut spécifier quelle version utiliser (clair ou sombre).
+
+![](./assets/img/light-dark-mode-config.png){data-zoom-image .w-33}
+
+Ainsi, toutes les couleurs s'ajusteront en fonction du contexte de la maquette !
+
+![](./assets/img/light-dark-mode.png){data-zoom-image .w-33}
+
+#### _Design system_ de la communauté
+
+Plus souvent qu'autrement, les _Design system_ contemporains viennent avec une version sombre. 
+
+Pour ajouter ce type de système dans votre document, passez par l'onglet Ressources : 
+
+![](./assets/img/community-design-system-step1.png){data-zoom-image .w-25}
+![](./assets/img/community-design-system-step2.png){data-zoom-image .w-25}
+![](./assets/img/community-design-system-step3.png){data-zoom-image .w-25}
+
+Pour l'activer, sélectionnez une de ses instances de composante et activez sa variation sombre dans la section Apparence.
+
+![](./assets/img/community-design-system-component.png){data-zoom-image .w-25}
+![](./assets/img/community-design-system-darkmode.png){data-zoom-image .w-25}
+
+
+## Typographie
 
 <figure markdown>
-![](./assets/img/design-system-doc.png){data-zoom-image}
-<figcaption>Exemple de documentation inline dans Figma</figcaption>
+![](./assets/img/design-system-typescale.png){data-zoom-image .w-50}
+<figcaption>Typescale</figcaption>
 </figure>
 
----
+La typographie dans un design system définit **toutes les combinaisons** de police, taille, graisse et interlignage utilisées dans l'interface :
 
-## Composants avancés : _Nested components_
+```css title="Exemple de css"
+:root {
+    /* 1. Font Family */
+    --font-family: 'Inter', system-ui, -apple-system, sans-serif;
 
-Les composants peuvent être **imbriqués** les uns dans les autres. C'est là que la puissance du système se révèle vraiment.
+    /* 2. Font sizes */
+    --font-size-sm: 0.875rem;    /* 14px */
+    --font-size-base: 1rem;      /* 16px - Par défaut */
+    --font-size-lg: 1.125rem;    /* 18px */
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img/nested-components.png){data-zoom-image}
+    /* 3. Font weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
 
-<div markdown>
-**Exemple : un composant Carte**
+    /* 4. Line heights */
+    --line-height-none: 1;
+    --line-height-tight: 1.25;
+    --line-height-snug: 1.375;
+    --line-height-normal: 1.5;
+}
+```
 
-La carte contient :
+!!! info "Généralement, pas plus de 2 polices dans un système de design"
 
-- Un composant **Image** (avec variante portrait/paysage)
-- Un composant **Badge** (avec variantes de couleur)
-- Un composant **Bouton** (avec ses états)
+!!! example "De nos jours ..."
 
-Modifier le composant Bouton met à jour automatiquement **toutes** les cartes dans tout le projet.
-</div>
-</div>
+    ![](./assets/img/m3-theming-typo.png){data-zoom-image .w-25}
 
-!!! info "Règle d'or des composants imbriqués"
+    En vérité, les typescale contemporains ne sont plus fixes. La tendance actuelle est d'utiliser `clamp()` en css.
 
-    Commencez toujours par les **plus petits composants** (atomes) avant d'assembler les plus grands (molécules, organismes). C'est la logique de l'**Atomic Design**, une méthode populaire pour structurer les design systems.
+    ```css
+    :root {
+        /* La police va varier de 1rem à 1.5rem selon la largeur de l'écran à cause du 2vw */
+        --font-size-xyz: clamp(1rem, 2vw + 0.5rem, 1.5rem);
+    }
+    ```
 
-    ![](./assets/img/atomic-design.png){data-zoom-image .w-75}
+## Dimensions
 
----
+Un design system cherche à encadrer le plus de cas de figure possible. Pour ce faire, il se doit d'être assez flexible. Ainsi, il faut réfléchir à plusieurs cas de figure qu'on pourrait catégoriser : XS, S, M, L, XL
 
-## Mini _checklist_ design system 🧠
+Ainsi, on peut baser nos composantes sur ce principe. Par exemple, les boutons :
 
-Avant de passer à la maquette de votre projet, vérifiez que votre système est en place :
+![](./assets/img/btn-filled-diff.png){data-zoom-image}
 
-1. **Couleurs** : palette définie, noms sémantiques, variables créées
-2. **Typographie** : styles de texte créés pour chaque niveau (H1 → Caption)
-3. **Espacements** : unité de base choisie (4 ou 8), valeurs cohérentes
-4. **Composants** : boutons, inputs et cartes créés avec variantes
-5. **Organisation** : pages et calques nommés clairement
+### Variations
 
----
+![](./assets/img/btns.png){data-zoom-image}
 
-## Exercices
+<!-- 
+## Espacements
 
-<div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/design-system-fondations/preview.png)
+![](./assets/img/Spacers.png){data-zoom-image}
 
-  <small>Exercice - Figma</small><br>
-  **[Fondations](./activite/exercice/design-system-fondations/index.md){.stretched-link .back}**
-</div>
+Les espacements, marges internes (_padding_), marges externes (_margin_), espacements entre items, doivent également être prévus.
 
-<div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/design-system-composants/preview.png)
+Ils sont souvent normalisés par des **multiple de 4 ou 8** :
 
-  <small>Exercice - Figma</small><br>
-  **[Composants imbriqués](./activite/exercice/design-system-composants/index.md){.stretched-link .back}**
-</div>
+* 4px
+* 8px
+* 12px
+* 16px
+* 24px
+* 32px
+* 48px
+* 64px
+* 96px
+* etc -->
 
+## Icônes
+
+![](./assets/img/design-system-icons-set.png){data-zoom-image}
+
+Selon les usages, on va catégoriser les groupes d'icônes selon leurs fonctions : alertes, fichiers, formulaire, etc.
+
+!!! example "Quelques exemples"
+
+    - [Material Symbols](https://fonts.google.com/icons) (Google)
+    - [Heroicons](https://heroicons.com/) (Tailwind)
+    - [Feather](https://feathericons.com/)
+
+## Applicabilité d'un *design system*
+
+![](./assets/img/two-female-programmers-working-on-new-project-they-working-late-at-night-at-the-office.webp){.w-100}
+
+L'intégration d'un _design system_ en développement Web reste exigeante. 
+
+Chaque composante doit être codée, testée et documentée, ce qui demande beaucoup de temps. 
+
+De plus, même de petits changements peuvent entraîner des effets en cascade et nécessiter de nouveaux tests et déploiements.
+
+### Figma
+
+![](./assets/img/pyact6phx2nvttrnvnco.gif){.w-50}
+
+Figma facilite la transition vers le code grâce au Dev Mode, qui expose directement les propriétés CSS. 
+
+Toutefois, le code généré n’est pas prêt pour la production : la logique, l’accessibilité et la réutilisabilité doivent encore être prises en charge par le développeur.
+
+### IA
+
+![](./assets/img/vintage-robot.webp){.w-50}
+
+L’IA générative réduit cet écart en produisant rapidement du code de base à partir de designs. 
+
+Le développeur agit alors davantage comme **architecte** que comme **exécutant**.
+
+!!! info "Connexion émotionnelle"
+
+    <div class="grid" markdown>
+    ![](./assets/img/humandesign-before.webp){data-zoom-image}
+    ![](./assets/img/humandesign-after.webp){data-zoom-image}
+    </div>
+    
+<!-- Source : https://www.youtube.com/watch?v=LTsIKT9dslU -->
+
+### Stitch (Google)
+
+Stitch vise à automatiser les _design systems_ via les Design Tokens, assurant une cohérence entre design et code sans avoir à gérer chaque variation manuellement.
+
+<figure markdown>
+![Interface de Stitch](./assets/img/stitch.png){data-zoom-image}
+<figcaption markdown>[stitch.withgoogle.com](https://stitch.withgoogle.com/)</figcaption>
+</figure>
 
 ## Devoir
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/devoir/refonte/raisons-refonte-site-web-entreprise-768x430.webp)
+
+  <small>Devoir - Figma</small><br>
+  **[Refonte d'un site Web](./activite/devoir/refonte/index.md){.stretched-link .back}**
+</div>
+
+</div>

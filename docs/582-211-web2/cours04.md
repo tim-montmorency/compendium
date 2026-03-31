@@ -48,6 +48,19 @@ Aussi, je ne sais pas si c'est le moment mais j'avais pensé leur faire faire am
 
 -->
 
+## Unités relatives et unités flexibles
+
+<!-- Ajout 28 mars 2026 suite à l'évaluation du projet 1, je me rends compte que plusieurs considèrent "rem" comme flexible alors qu'en fait c'est une unité relative à la taille de texte de base du document exprimée en px (sin on défini c'est 16px), donc 3 rem 48px donc valeur fix et non flexible (flexibilité de la page et responsieve...)  Donc je pense que je devrais l'aborder au cours 2 3 ou 4 si je redonne ce cours.
+-->
+
+- em (relative par le zoom du navigateur) - exprimé en multiple d'une valeur en px DONC MOINS RESPONSIVE PUISQUE FIXE
+- rem (relative par le zoom du navigateur) - exprimé en multiple d'une valeur en px DONC MOINS RESPONSIVE PUISQUE FIXE
+- % (relative par la dimension de son conteneur parent)
+- vw (relative par rapport à la largeur de la fenêtre du navigateur)
+- vh (relative par rapport à la hauteur de la fenêtre du navigateur)
+
+
+
 ## Variables CSS & design tokens
 
 [📚 Contenu de cours sur les *variables CSS* et design tokens](./css/variables-unites-fonctions.md#variables-css-et-design-tokens){ .md-button .md-button--primary }
