@@ -29,7 +29,7 @@ Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble d
 [👩‍🏫 Exposé reponsive: Télécharger le PPT :material-download:](./assets/cours08-responsive-mediaqueries.pdf){ .md-button }
 
 
-## Activité 1: Amorce: le constat du site qui casse (10 min)
+## Activité 1: Amorce: le constat du site qui casse
 
 <!-- Slide 02 -->
 
@@ -146,8 +146,7 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 ```
 
 
-## Activité 2: Analyse de maquettes responsive (25 min)
-
+## Activité 2: Analyse de maquettes responsive
 <!-- Slide 07 -->
 
 [👩🏻‍💻 Activité 2: analyse de 3 captures écran d'un site (mobile/tablette/desktop)](./exercices/cours8-responsive/02-analyse-maquettes-responsive.md){ .md-button }
@@ -155,7 +154,7 @@ Partir de la version riche et retirer des éléments au fur et à mesure que l'e
 Retour et discussion en groupe-classe
 
 
-## Activité 3: Exercice : première media query (30 min)
+## Activité 3: Exercice : première media query
 
 <!-- Slide 08 -->
 
@@ -166,34 +165,8 @@ Retour et discussion en groupe-classe
 
     Par ailleurs, tel que précisé au plan de cours, la complétion de l'ensemble des exercices de la session vous permet d'obtenir la note maximale de 10/10, ce qui représente *10 % de la note finale*.
 
-## Devoirs
 
-Tous les groupes: terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
-
-<br><br>
-
-!!! warning "Devoir additionnel pour gr mercredi"
-    Ne concerne que le groupe du mercredi
-
-    Terminer l'exercice: [Activité 4 - Atelier Zone-Out 🎮](./exercices/cours8-responsive/04-atelier-zone-out.md)
-
-
-
-## Groupe mercredi seulement
-
-!!! danger "Groupe mercredi"
-    Tout ce qui suit dans cette page ne concerne que le groupe du mercredi.
-
-<!-- Le gr du merc aura cours 8 le 25 mars et cours 9 le  8 avril. Comme 2 semaines séparent, je veux couvrir la révision de l'activité 3 en classe. On aura le temps puisque le quiz a été fait à la semaine 7 (contrairement aux groupe du lundi qui ont fait le quiz au début du cours 8 et qui a pris 45 min...).  De plus, je veux qu'il commence l'activité 4 (atelier zone-out 🎮) en classe et le termine en devoir (ils ont 2 semaines)...  Quant aux groupes du lundis, je leur donerais au cours 9 (30 mairs) et ils devront le faire en devoir pour lke cours10 (13 avril) et ils auront aussi 2 semaines entre...-->
-
-
-### Retour en groupe-classe
-
-<!-- Slide 09  -->
-
-Révision de votre activité 3.
-
-### Activité 4: Atelier Zone-Out 🎮 (60 min)
+### Activité 4: Atelier Zone-Out 🎮
 
 <!-- Slide 10   -->
 
@@ -217,14 +190,6 @@ Slide 12
  
 ## Devoirs
 
-Tous les groupes: Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+- Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
-<br><br>
-
-
-!!! warning "Devoir additionnel pour gr mercredi"
-
-    Ne concerne que le groupe du mercredi. 
-
-    Terminer l'exercice: [Activité 4 - Atelier Zone-Out 🎮](./exercices/cours8-responsive/04-atelier-zone-out.md)
-
+- Terminer l'exercice: [Activité 4 - Atelier Zone-Out 🎮](./exercices/cours8-responsive/04-atelier-zone-out.md)
