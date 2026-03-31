@@ -37,13 +37,13 @@ Transitions et animations UX – Partie A
 !!! warning "Rappel ce propos"
     Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
 
-## Quiz time! Révision *responsive* (30 min)
+## Quiz time! Révision *responsive*
 
 - [Groupe du lundi matin](https://app.wooclap.com/PEXXHC)
 - [Groupe du lundi après-midi](https://app.wooclap.com/QLMCRO)
 - [Groupe du mercredi](https://app.wooclap.com/IZZAKH)
 
-## Retour sur exercice "Première *media query*: albums de musique" (15 min)
+## Retour sur exercice "Première *media query*: albums de musique"
 
 <!-- Groupes lundi seulement: Cours 8 - Slide 09  -->
 
@@ -54,7 +54,7 @@ Transitions et animations UX – Partie A
 [📚 Contenu de cours: Flexbox: `gap` et largeur de colonnes](./css/flexbox-gap-calc.md)
 
 
-## Atelier Zone-Out 🎮 (breakpoint-media queries) (20-25 min)
+## Atelier Zone-Out 🎮 (breakpoint-media queries)
 
 <!--  Groupes lundi seulement : Cours 8 - Slide 10  -->
 
