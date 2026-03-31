@@ -2,13 +2,13 @@
 
 [< retour au *cours 8*](../../cours08.md)
 
-## Activité 4 : Atelier progressif — Responsive en paliers (60 min)
+## Contexte
 
 <!-- Slide 10 -->
 
-> 🎮 **Univers de l'atelier : ZONE-OUT 2026**
->
-> Tu travailles sur le site officiel de **ZONE-OUT**, un tournoi battle royale québécois annuel basé sur le jeu fictif **Dropzone**. Le site doit être accessible autant sur mobile (les joueurs vérifient leurs stats entre deux parties) que sur desktop (pour les spectateurs en direct).
+### 🎮 **Univers de l'atelier : ZONE-OUT 2026**
+
+Tu travailles sur le site officiel de **ZONE-OUT**, un tournoi battle royale québécois annuel basé sur le jeu fictif **Dropzone**. Le site doit être accessible autant sur mobile (les joueurs vérifient leurs stats entre deux parties) que sur desktop (pour les spectateurs en direct).
 
 ## Objectif
 
