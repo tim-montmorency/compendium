@@ -22,7 +22,7 @@ Transitions et animations UX – Partie A
 
 ### Plan de cours révisé
 
-- [📄 Plan de cours précédent :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF)
+- 📄 [Plan de cours précédent :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDH5terZdgPTajQCJfCfsnyAZ592dF3MqRfR2-gSkD3bQM?e=b0jArF)
 - [📄 Plan de cours RÉVISÉ (mis à jour le 29 mars) :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDTIATHK-79TJaZEiQhMukbASV3gvYqLQNSOtjosfZgHU4?e=Gtxp3O){ .md-button}
 
 ### Aujourd'hui
@@ -37,24 +37,24 @@ Transitions et animations UX – Partie A
 !!! warning "Rappel ce propos"
     Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
 
-## Quiz time! Révision *responsive* (30 min)
+## Quiz time! Révision *responsive*
 
 - [Groupe du lundi matin](https://app.wooclap.com/PEXXHC)
-- [Groupe du lundi après-midi](https://app.wooclap.com/)
-- [Groupe du mercredi](https://app.wooclap.com/)
+- [Groupe du lundi après-midi](https://app.wooclap.com/QLMCRO)
+- [Groupe du mercredi](https://app.wooclap.com/IZZAKH)
 
-## Retour sur exercice "Première *media query*: albums de musique" (15 min)
+## Retour sur exercice "Première *media query*: albums de musique"
 
 <!-- Groupes lundi seulement: Cours 8 - Slide 09  -->
 
 [Première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
-## Gap et des largeur de colonnes dans les grilles Flexbox
+## Gap et largeur de colonnes dans les grilles Flexbox
 
 [📚 Contenu de cours: Flexbox: `gap` et largeur de colonnes](./css/flexbox-gap-calc.md)
 
 
-## Atelier Zone-Out 🎮 (breakpoint-media queries) (20-25 min)
+## Atelier Zone-Out 🎮 (breakpoint-media queries)
 
 <!--  Groupes lundi seulement : Cours 8 - Slide 10  -->
 
@@ -64,7 +64,7 @@ Transitions et animations UX – Partie A
 
 Vous débutez en classe mais vous allez devoir le terminer en devoir pour le prochain cours dans 2 semaines (13 avril).
 
-[👩🏻‍💻 Activité 4](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
+[👩🏻‍💻 Atelier Zone-Out 🎮 (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
 
 Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
@@ -125,12 +125,14 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 - `skew`
 - `transform-orgin`
 
-[📚 Contenu de cours: Transformation CSS ↗](https://tim-montmorency.com/timdoc/582-211/css/transformation/)
+[📚 Contenu de cours: Transformation CSS ↗](https://tim-montmorency.com/timdoc/582-211/css/transformation/){ .md-button .md-button--primary }
 
 ### Exercice transformation
 
-[👩🏻‍💻 Exercice translate, rotate, scale, skew](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/)
+[👩🏻‍💻 Exercice translate: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
 
+
+<!--
 ## 🔁 Transitions CSS
 
 - `transition`
@@ -139,17 +141,24 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 - `transition-timing-function`
 - `transition-delay`
 
-[📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/)
+[📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/){ .md-button .md-button--primary }
 
 ### Exercice transition
 
-...
+[👩🏻‍💻 Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/){ .md-button }
 
-## Devoirs
+[👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/){ .md-button }
 
-- Terminer l'atelier Zone-Out 🎮 (si pas fait en classe)
-- Terminer l'exercice carte adaptative media queries avancées
-- Terminer l'exercice transformations CSS
-- Terminer l'exercice transitions CSS
- 
- 
+[👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
+
+-->
+
+## DEVOIR
+
+- Terminer l'atelier Zone-Out (3 fichiers HTML groupés et compressés .zip)
+- Terminer l'exercice carte adaptative media queries avancées (1 CodePen)
+- Terminer l'exercice transformations CSS (6 CodePens distincts)
+
+
+
+<!--  Terminer les exercices transition CSS -->
