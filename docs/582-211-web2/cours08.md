@@ -188,7 +188,7 @@ Slide 11
 Slide 12  
  -->
  
-## Devoirs
+## DEVOIRS
 
 - Terminer l'exercice: [Activité 3: première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
 
