@@ -390,7 +390,7 @@ Consolider la compréhension des requêtes médias (media queries) à travers de
 
 **Aperçu Mobile :**
 
-<img src="./04-zoneout-niv3-mobile.png" alt="Demo mobile" style="width: 300px;"
+<img src="./04-zoneout-niv3-mobile.png" alt="Demo mobile" style="width: 300px;">
 
 **Exigences :**
 
