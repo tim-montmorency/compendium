@@ -1,7 +1,7 @@
 
 # Exercice carte adaptable avec media queries avancés
 
-[< retour au *cours 9*](../../cours09.md)
+[< retour au *cours 9*](../cours09.md)
 
 ## Contexte
 
