@@ -40,8 +40,8 @@ Transitions et animations UX – Partie A
 ## Quiz time! Révision *responsive* (30 min)
 
 - [Groupe du lundi matin](https://app.wooclap.com/PEXXHC)
-- [Groupe du lundi après-midi](https://app.wooclap.com/)
-- [Groupe du mercredi](https://app.wooclap.com/)
+- [Groupe du lundi après-midi](https://app.wooclap.com/QLMCRO)
+- [Groupe du mercredi](https://app.wooclap.com/IZZAKH)
 
 ## Retour sur exercice "Première *media query*: albums de musique" (15 min)
 
