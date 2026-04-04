@@ -492,6 +492,8 @@ extra_javascript:
   - _/tooltip.js
 
 plugins:
+  - search:
+      lang: fr
   - material/offline
   - material/tags
   - material/typeset
