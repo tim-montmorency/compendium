@@ -5,6 +5,8 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 
 - Poke interaction
 - Grimpe
+- Saut
+- Ascenseur
 - Déplacement par téléportation
 
 ## Se déplacer en réalité virtuelle
