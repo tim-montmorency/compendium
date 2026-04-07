@@ -16,10 +16,15 @@ En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, 
 - [:pencil: Déplacement automatique](unity/deplacementAutomatiqueVR.md)
 
 
+## Interagir avec les manettes et l'environnement
+- [:pencil: Méthode de sélection des objets](unity/methode_selection.md)
+- [:pencil: XR socket - Socle pour les objets](unity/xr_socket.md)
+- [:pencil: Interaction simple](unity/simpleInteraction.md)
+
+
 ## Éclairage
 - [:pencil: Éclairage](unity/eclairage.md)
 - Survoler Sky and fog volume
-
 
 ## Audio
 
