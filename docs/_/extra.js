@@ -359,6 +359,21 @@ const handleCheckboxesWithFireworks = (fireworks, fireworksContainer) => {
 
 const { fireworks, fireworksContainer } = initializeFireworks();
 
+// Easter egg : 5 clics sur .wtfbaconsoda-trigger affiche .wtfbaconsoda
+const initBaconSoda = () => {
+  let clickCount = 0;
+  const trigger = document.querySelector('.wtfbaconsoda-trigger');
+  const target = document.querySelector('.wtfbaconsoda');
+  if (!trigger || !target) return;
+
+  trigger.addEventListener('click', () => {
+    clickCount++;
+    if (clickCount >= 5) {
+      target.style.display = 'block';
+    }
+  });
+};
+
 
 
 
@@ -420,6 +435,7 @@ function runFunctions() {
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);
   addCustomStyles("582-511-web5", "582-211-web2");
   initModal();
+  initBaconSoda();
   // selectIframe();
 
   /* highlight.js initialization */

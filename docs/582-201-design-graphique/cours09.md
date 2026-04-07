@@ -2,8 +2,6 @@
 
 ![](./assets/img/1_xnE7ROIC-V5H1HbAvjr8XA.png){.w-100}
 
-<!-- Espoir : https://www.youtube.com/watch?v=LTsIKT9dslU -->
-
 ## Retour sur le Devoir 03
 
 ## Retour sur l'exercice du gâteau

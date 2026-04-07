@@ -1,10 +1,14 @@
 # Cours 10 | Le cours #10
 
-[STOP]
+<!-- /activite/exercice/seance-de-creation -->
 
-## Séance de création dirigée
+## Exercices
 
-![](./assets/img/llllllllllllllllll.gif){.w-100}
+Séance de création dirigée
+
+![](./assets/img/llllllllllllllllll.gif){.w-100 .wtfbaconsoda-trigger}
+
+<div class="wtfbaconsoda" markdown>
 
 ## Système de design
 
@@ -37,28 +41,32 @@ Un _[design system](https://www.figma.com/fr-fr/blog/design-systems-101-what-is-
 
 ![](./assets/img/design-system-colors-kromatika.png){data-zoom-image .w-100}
 
-D'abord on défini l'ensemble des couleurs de notre système : rouge, bleu, vert, etc.
+D'abord on définit l'ensemble des couleurs de notre système : rouge, bleu, vert, etc.
 
 Ensuite on décline chacune de ces couleurs en plusieurs teintes (_tints_ / _shades_), de très pâle à très foncé. Traditionnellement, on les nomme par bond de 100 (entre 0 et 1000).
 
-Notez qu'aux extrémités, on y va plus granulairement. En effet, les couleurs pâles et foncée demandent souvent plus de subtilités.
+Notez qu'aux extrémités, on y va plus granulairement. En effet, les couleurs pâles et foncées demandent souvent plus de subtilités.
 
+<figure markdown>
 ![](./assets/img/design-system-colors-a.png){data-zoom-image .w-50}
+<figcaption markdown>[Tailwind - Couleurs](https://tailwindcss.com/docs/colors)</figcaption>
+</figure>
 
 ```css title="Exemple"
 :root {
-  /* TOKENS */
   --blue-500: #3b82f6;
   --blue-700: #1d4ed8;
   --red-500: #ef4444;
   --gray-100: #f3f4f6;
   --gray-900: #111827;
+
+  /* On appelle ce type de variable des « design tokens », « tokens primitifs » ou « global tokens » */
 }
 ```
 
 ### Sémantique
 
-Séparer le sens (intention) de l’apparence.
+Séparer le sens (intention) de l’apparence. Un exemple qui le fait bien : [daisyui](https://daisyui.com/docs/colors/).
 
 | Nom     | Signification |
 | ------- | ------------- |
@@ -73,19 +81,19 @@ Séparer le sens (intention) de l’apparence.
 
 ```css title="Exemple"
 :root {
-  /* TOKENS */
-  --blue-500: #3b82f6;
-  --blue-700: #1d4ed8;
-  --red-500: #ef4444;
+    /* ... */
 
-  /* RÔLES (sémantique) */
-  --primary: var(--blue-500);
-  --danger: var(--red-500);
+    /* Rôles (sémantique) */
+    --primary: var(--blue-500);
+    --danger: var(--red-500);
 
-  /* LOGIQUE D'USAGE */
-  --primary-bg: var(--primary);
-  --primary-text: #fff;
-  --primary-border: var(--blue-700);
+    /* L'usage (composants) */
+    --primary-bg: var(--primary);
+    --primary-text: #fff;
+    --primary-border: var(--blue-700);
+
+    --btn-bg: #ffffff;
+    --btn-text: #1a1a1a;
 }
 ```
 
@@ -99,6 +107,78 @@ Si le fond est blanc, il n'est pas nécessairement noir dans le darkmode. On met
 
 !!! warning "L'accessibilité doit toujours faire partie du processus de décision des couleurs"
 
+En code, ça pourrait ressembler à ceci : 
+
+```css title="Exemple complet"
+
+/* 1. Mode clair */
+
+:root {
+    /* Tokens (valeurs brutes) */
+    --blue-500: #3b82f6;
+    --blue-700: #1d4ed8;
+    --red-500: #ef4444;
+
+    /* Rôles (sémantique) */
+    --primary: var(--blue-500);
+    --danger: var(--red-500);
+
+    /* L'usage (composants) */
+    --primary-bg: var(--primary);
+    --primary-text: #fff;
+    --primary-border: var(--blue-700);
+
+    --btn-bg: #ffffff;
+    --btn-text: #1a1a1a;
+}
+
+/* 2. Mode Sombre (Automatique + Manuel) */
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+        --blue-500: #60a5fa;
+        --btn-bg: #111827;
+        --btn-text: #f9fafb;
+    }
+}
+
+[data-theme='dark'] {
+    --blue-500: #60a5fa;
+    --btn-bg: #111827;
+    --btn-text: #f9fafb;
+}
+```
+
+#### Darkmode dans Figma
+
+Pour activer la notion de darkmode, assurez-vous de mettre 2 valeurs (colonnes) à une même variable.
+
+![](./assets/img/light-dark-mode-variables.png){data-zoom-image .w-33}
+
+Dans la configuration du frame, on peut spécifier quelle version utiliser (clair ou sombre).
+
+![](./assets/img/light-dark-mode-config.png){data-zoom-image .w-33}
+
+Ainsi, toutes les couleurs s'ajusteront en fonction du contexte de la maquette !
+
+![](./assets/img/light-dark-mode.png){data-zoom-image .w-33}
+
+#### _Design system_ de la communauté
+
+Plus souvent qu'autrement, les _Design system_ contemporains viennent avec une version sombre. 
+
+Pour ajouter ce type de système dans votre document, passez par l'onglet Ressources : 
+
+![](./assets/img/community-design-system-step1.png){data-zoom-image .w-25}
+![](./assets/img/community-design-system-step2.png){data-zoom-image .w-25}
+![](./assets/img/community-design-system-step3.png){data-zoom-image .w-25}
+
+Pour l'activer, sélectionnez une de ses instances de composante et activez sa variation sombre dans la section Apparence.
+
+![](./assets/img/community-design-system-component.png){data-zoom-image .w-25}
+![](./assets/img/community-design-system-darkmode.png){data-zoom-image .w-25}
+
+
 ## Typographie
 
 <figure markdown>
@@ -108,35 +188,49 @@ Si le fond est blanc, il n'est pas nécessairement noir dans le darkmode. On met
 
 La typographie dans un design system définit **toutes les combinaisons** de police, taille, graisse et interlignage utilisées dans l'interface :
 
-```
---font-family
---font-size
---font-weight
---line-height
---letter-spacing
+```css title="Exemple de css"
+:root {
+    /* 1. Font Family */
+    --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+    /* 2. Font sizes */
+    --font-size-sm: 0.875rem;    /* 14px */
+    --font-size-base: 1rem;      /* 16px - Par défaut */
+    --font-size-lg: 1.125rem;    /* 18px */
+
+    /* 3. Font weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* 4. Line heights */
+    --line-height-none: 1;
+    --line-height-tight: 1.25;
+    --line-height-snug: 1.375;
+    --line-height-normal: 1.5;
+}
 ```
 
 !!! info "Généralement, pas plus de 2 polices dans un système de design"
 
-!!! success "Typescale dynamique !"
-
-    En vérité, les typescale contemporains ne sont plus fixes. 
-    
-    Par exemple, un H1 pourrait s'afficher entre 57px sur une tablette et en 64px sur desktop. Les tailles sont responsive.
+!!! example "De nos jours ..."
 
     ![](./assets/img/m3-theming-typo.png){data-zoom-image .w-25}
 
+    En vérité, les typescale contemporains ne sont plus fixes. La tendance actuelle est d'utiliser `clamp()` en css.
+
+    ```css
+    :root {
+        /* La police va varier de 1rem à 1.5rem selon la largeur de l'écran à cause du 2vw */
+        --font-size-xyz: clamp(1rem, 2vw + 0.5rem, 1.5rem);
+    }
+    ```
+
 ## Dimensions
 
-Un design système cherche à encâdrer le plus de cas de figure possible. Pour ce faire, il se doit être assez flexible. Ainsi, il faut réfléchir à plusieurs cas de figure qu'on pourrait catégoriser :
+Un design system cherche à encadrer le plus de cas de figure possible. Pour ce faire, il se doit d'être assez flexible. Ainsi, il faut réfléchir à plusieurs cas de figure qu'on pourrait catégoriser : XS, S, M, L, XL
 
-* XS
-* S
-* M
-* L
-* XL
-
-Ainsi, on peut baser nos composantes sur ce principe. Par exemples, les boutons :
+Ainsi, on peut baser nos composantes sur ce principe. Par exemple, les boutons :
 
 ![](./assets/img/btn-filled-diff.png){data-zoom-image}
 
@@ -144,9 +238,10 @@ Ainsi, on peut baser nos composantes sur ce principe. Par exemples, les boutons 
 
 ![](./assets/img/btns.png){data-zoom-image}
 
+<!-- 
 ## Espacements
 
-![](./assets/img/Spacers.png)
+![](./assets/img/Spacers.png){data-zoom-image}
 
 Les espacements, marges internes (_padding_), marges externes (_margin_), espacements entre items, doivent également être prévus.
 
@@ -161,52 +256,71 @@ Ils sont souvent normalisés par des **multiple de 4 ou 8** :
 * 48px
 * 64px
 * 96px
-* etc
+* etc -->
 
 ## Icônes
 
 ![](./assets/img/design-system-icons-set.png){data-zoom-image}
 
-Dépendament des usages, on va catégoriser les groupes d'icônes selon leurs fonctions : 
-
-* Actions
-* Alerts
-* Médias
-* Contenu
-* Communications
-* Fichiers
-* Formulaire
-* etc
+Selon les usages, on va catégoriser les groupes d'icônes selon leurs fonctions : alertes, fichiers, formulaire, etc.
 
 !!! example "Quelques exemples"
 
     - [Material Symbols](https://fonts.google.com/icons) (Google)
     - [Heroicons](https://heroicons.com/) (Tailwind)
-    - [Phosphor Icons](https://phosphoricons.com/)
-    - [Lucide](https://lucide.dev/)
+    - [Feather](https://feathericons.com/)
 
 ## Applicabilité d'un *design system*
 
-Concevoir un système de design est une étape stratégique, mais son application dans un contexte de développement Web réel représente un défi technique majeur. Chaque composante doit être codée de manière isolée, testée et documentée, ce qui exige un investissement en temps considérable. 
+![](./assets/img/two-female-programmers-working-on-new-project-they-working-late-at-night-at-the-office.webp){.w-100}
 
-Une fois qu'une composante est programmée et intégrée, les modifications ne sont jamais prises à la légère. Un changement, même minime (comme une variation d'espacement ou de couleur), peut avoir des répercussions en cascade sur l'ensemble de l'interface, nécessitant une nouvelle phase de développement, de tests de régression et de déploiement.
+L'intégration d'un _design system_ en développement Web reste exigeante. 
+
+Chaque composante doit être codée, testée et documentée, ce qui demande beaucoup de temps. 
+
+De plus, même de petits changements peuvent entraîner des effets en cascade et nécessiter de nouveaux tests et déploiements.
 
 ### Figma
 
-L'outil **Figma** a transformé la transposition des maquettes vers le code. Grâce au **Mode Développeur (Dev Mode)**, les propriétés CSS (couleurs, typographies, flexbox) sont directement inspectables, ce qui réduit les erreurs d'interprétation. Cependant, Figma ne livre pas encore de code "prêt à la production" : le développeur doit toujours structurer la logique (React, Vue, etc.), gérer l'accessibilité (ARIA) et s'assurer de la réutilisabilité des composants. Cela reste une phase chronophage, bien que mieux balisée qu'auparavant.
+![](./assets/img/pyact6phx2nvttrnvnco.gif){.w-50}
 
-### L'apport de l'intelligence artificielle
+Figma facilite la transition vers le code grâce au Dev Mode, qui expose directement les propriétés CSS. 
 
-L'émergence de l'IA générative promet de réduire drastiquement ce fossé. La transformation est déjà visible avec des outils capables de convertir instantanément une image ou un fichier de design en code fonctionnel (comme **v0.dev**, **Anima** ou **Builder.io**). L'IA permet de générer la structure de base (boilerplate), laissant au développeur le rôle crucial de superviseur et d'architecte plutôt que de rédacteur de code répétitif.
+Toutefois, le code généré n’est pas prêt pour la production : la logique, l’accessibilité et la réutilisabilité doivent encore être prises en charge par le développeur.
+
+### IA
+
+![](./assets/img/vintage-robot.webp){.w-50}
+
+L’IA générative réduit cet écart en produisant rapidement du code de base à partir de designs. 
+
+Le développeur agit alors davantage comme **architecte** que comme **exécutant**.
+
+!!! info "Connexion émotionnelle"
+
+    <div class="grid" markdown>
+    ![](./assets/img/humandesign-before.webp){data-zoom-image}
+    ![](./assets/img/humandesign-after.webp){data-zoom-image}
+    </div>
+    
+<!-- Source : https://www.youtube.com/watch?v=LTsIKT9dslU -->
 
 ### Stitch (Google)
 
-**Stitch** est une initiative de Google qui vise à automatiser la création et la synchronisation des *design systems*. Plutôt que de coder manuellement chaque variation, Stitch facilite l'utilisation des **Design Tokens** (variables universelles de design) pour assurer une cohérence parfaite entre Figma et le code source.
+Stitch vise à automatiser les _design systems_ via les Design Tokens, assurant une cohérence entre design et code sans avoir à gérer chaque variation manuellement.
 
-![Interface de Stitch](./assets/img/stitch.png)
-
-> **Ressource :** Découvrez l'approche de Google sur [stitch.withgoogle.com](https://stitch.withgoogle.com/)
+<figure markdown>
+![Interface de Stitch](./assets/img/stitch.png){data-zoom-image}
+<figcaption markdown>[stitch.withgoogle.com](https://stitch.withgoogle.com/)</figcaption>
+</figure>
 
 ## Devoir
 
-Devoir 04
+<div class="grid grid-1-2" markdown>
+  ![](./activite/devoir/refonte/raisons-refonte-site-web-entreprise-768x430.webp)
+
+  <small>Devoir - Figma</small><br>
+  **[Refonte d'un site Web](./activite/devoir/refonte/index.md){.stretched-link .back}**
+</div>
+
+</div>

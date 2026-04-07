@@ -783,4 +783,9 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   color: #ef5552
 }
 
-
+.wtfbaconsoda {
+  display: none;
+}
+.wtfbaconsoda-trigger {
+  cursor: cell;
+}
