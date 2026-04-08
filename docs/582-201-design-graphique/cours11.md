@@ -2,116 +2,97 @@
 
 [STOP]
 
-<!-- @note : Ce cours vise à enseigner la notion de Prototype dans Figma.  -->
+## Annonces
 
-## Les trois stades d'un projet Web
-
-Avant de parler de prototypage, il faut bien comprendre où ça s'inscrit dans le processus de création d'une interface.
+### Exposition
 
 <figure markdown>
-![](./assets/img/wireframe-mockup-prototype.png){data-zoom-image}
-<figcaption>Les trois stades : filaire → maquette graphique → prototype</figcaption>
+![](./assets/img/jo76_16_20260324_ra_900x480.jpg)
+<figcaption markdown>
+[Montréal 1976 : une épreuve olympique](https://www.musee-mccord-stewart.ca/fr/expositions/montreal-1976-epreuve-olympique/)
+</figcaption>
 </figure>
 
-### 1. La maquette filaire (_Wireframe_)
+### Concours d'essais audiovisuels
 
-![](./assets/img/wireframe-example.png){data-zoom-image .w-100}
+![](./assets/img/essais-audiovisuel.png){.w-100}
+
+Le fameux concours d'essais audiovisuels aura encore lieu cette année !
+Ce concours est une belle occasion d'obtenir une bourse en argent (jusqu'à 175$) et de bonifier votre portfolio ! 
+ 
+Date limite de remise : **10 mai 2026**
+ 
+Vous trouverez ici les détails de l'appel à candidatures: [Appel a candidature 2026.pdf](./assets/documents/Appel-a-candidature-2026.pdf)
+ 
+Des questions? Adressez-les à **Lora Boisvert** ou **Thomas O Fredericks** sur Teams.
+
+## À ce point ci ...
+
+<div class="grid" markdown>
+![](./assets/img/aoe2h6.jpg)
+
+![](./assets/img/aoe2ik.jpg)
+</div>
+
+[Wooclap](https://app.wooclap.com/ANDYMEME?from=instruction-slide)
+
+## À partir de maintenant, on évite ces formulations
+
+> « Depuis la nuit des temps »<br>
+> « Grosso modo »<br>
+> « En général »<br>
+> « Tout le monde sait que »<br>
+> « C’est évident que »
+
+Ces expressions sont trop vagues, généralisantes ou non justifiées.
+
+### En Web
+
+« En savoir plus » est trop générique et manque de précision sur l’action. C'est dailleurs problématique pour l'accessibilité.
+
+Il faut que l'étape après l'action soit limpide :
+
+* « À propos du festival »
+* « Découvrir le festival »
+* « Voir la programmation »
+* « Acheter un billet »
+
+## Trois étapes
+
+1. La maquette filaire (_Wireframe_)
+1. La maquette graphique (_Mockup_)
+1. Le prototype
 
 **C'est quoi ?**  
-Un plan en noir et blanc, sans couleurs ni typographie finale. On s'intéresse uniquement à la **structure** : où vont les blocs, quelle est la hiérarchie, comment l'information est organisée.
 
-**Analogie** : les plans d'architecte avant la construction. On ne choisit pas la couleur des murs avant de savoir combien il y en a.
-
-**Ce qu'on y décide** :
-- La disposition des éléments sur la page
-- La navigation (menus, onglets, boutons)
-- Le contenu prioritaire vs secondaire
-- Le parcours utilisateur
-
-!!! info "Outils courants"
-    Figma, FigJam, papier/crayon, Balsamiq
-
----
-
-### 2. La maquette graphique (_Mockup_)
-
-![](./assets/img/mockup-example.png){data-zoom-image .w-100}
-
-**C'est quoi ?**  
-La version **visuellement finalisée** du wireframe. Couleurs, typographie, icônes, images réelles, espacements précis. Tout est à sa place définitive — mais rien ne bouge encore.
-
-**Ce qu'on y décide** :
-- L'identité visuelle (design system appliqué)
-- Les états visuels des composants
-- La cohérence graphique de l'ensemble
-
-!!! warning "Une maquette graphique n'est pas interactive"
-    Elle ressemble à l'application finale, mais c'est encore une image statique. On ne peut pas cliquer dessus.
-
----
-
-### 3. Le prototype
-
-![](./assets/img/prototype-example.gif){data-zoom-image .w-100}
-
-**C'est quoi ?**  
-Un prototype, c'est une maquette graphique à laquelle on a ajouté des **interactions** : cliquer sur un bouton navigue vers une autre page, appuyer ouvre une modale, swiper change l'écran, etc.
+Un prototype, c'est une maquette graphique à laquelle on ajoute des **interactions**. On peut cliquer sur des boutons, naviguer vers d'autres pages, ouvrir un _pop up_, _swiper_ pour changer l'écran, etc.
 
 **À quoi ça sert ?**
+
 - Simuler l'expérience réelle **avant** de coder
 - Tester avec de vraies personnes (tests utilisateurs)
 - Présenter et valider le design avec un client
 - Repérer les problèmes de navigation tôt (avant que ça coûte cher)
 
-> Le prototype est le document qui fait le pont entre le design et le développement.
-
-!!! example "Analogie : la répétition générale 🎭"
-    Une pièce de théâtre ne s'improvise pas le soir de la première. On répète, on ajuste, on corrige. Le prototype, c'est la répétition générale de l'interface.
-
----
-
 ## Parcours utilisateur (_User Flow_)
+
+![](./assets/img/user-flow-end.webp)
 
 Avant de commencer à connecter des écrans dans Figma, il faut savoir **ce qu'on connecte**.
 
 Un **parcours utilisateur**, c'est la séquence d'étapes qu'une personne suit pour accomplir une tâche dans l'interface.
 
-<figure markdown>
-![](./assets/img/user-flow-example.png){data-zoom-image}
-<figcaption>Exemple de parcours utilisateur pour une connexion</figcaption>
-</figure>
+## Figma 
 
-### Comment le construire
+Retirer le fond d'une image en 1 clic
 
-Posez-vous la question : **"Qu'est-ce que l'utilisateur veut accomplir ?"**
-
-Puis décrivez chaque étape :
-
-```
-Accueil → [Clic sur "Se connecter"] → Page de connexion 
-→ [Saisie email + mot de passe] → [Clic "Connexion"] 
-  → Si succès → Tableau de bord
-  → Si erreur → Message d'erreur + retour formulaire
-```
-
-!!! tip "Dessinez votre flow avant de prototyper"
-    Un schéma rapide sur FigJam vous évitera de connecter des écrans dans le désordre et de vous perdre dans votre propre prototype.
-
----
+Crédits IA
 
 ## Prototypage dans Figma
 
 ### L'onglet Prototype
 
-<div class="grid grid-1-2" markdown>
-![](./assets/img/figma-prototype-tab.png){data-zoom-image}
 
-<div markdown>
-Dans Figma, le prototypage se passe dans l'**onglet Prototype** du panneau de droite (à côté de "Design" et "Variables").
-
-Lorsqu'un élément est sélectionné, vous pouvez lui ajouter des **interactions**.
-</div>
-</div>
 
 ### Connexions (_Connections_)
 
@@ -294,3 +275,12 @@ Avant de remettre ou de présenter un prototype, vérifiez :
   <small>Exercice - Figma</small><br>
   **[Toggle interactif](./activite/exercice/proto-toggle/index.md){.stretched-link .back}**
 </div>
+
+
+[STOP]
+
+Note : Probablement traiter la notion de prototype avant Figma Sites afin que la création d'une url soit une nouveauté intéressante.
+Parler du prototype ensuite est un léger pas en arrière.
+La notion de prototype devrait s'ajouter par dessus Figma Sites. C'est plus logique ainsi. C'est d'ailleur ce que figma semble suggérer.
+
+Faire un jeu avec 
