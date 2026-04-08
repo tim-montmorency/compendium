@@ -10,20 +10,6 @@
 ## Exercice
 [🛠️ Manette interactive](exercices/interaction_vr.md){ .md-button } 
 
-## Casse-tête d'experts
-En équipes de 4 ou 5, à partir de la scène DemoScene disponible dans Assets, Samples, XR Interaction Toolkit, 2.X.X, Starter Assets.     
-
-- Poke interaction
-- Grimpe
-- Déplacement par téléportation
-
-## Se déplacer en réalité virtuelle
-- [:pencil: Déplacement avec le joystick des manettes](unity/deplacement_vr.md)
-- [:pencil: Téléportation](unity/teleportation.md)
-- [:pencil: Grimper en VR](unity/grimper.md)
-- [:pencil: Sauter en VR](unity/sauter.md)
-- [:pencil: Ascenseur en VR](unity/ascenseur.md)  
-
 
 ## Canvas
 
