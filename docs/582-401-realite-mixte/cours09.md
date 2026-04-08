@@ -17,7 +17,7 @@ Des questions? Adressez-les à **Lora Boisvert** ou **Thomas O Fredericks** sur 
 
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
-## Début de la création du projet final
+## Début de la création du projet final !
 
 ### GitHub
 - [:pencil: Github](./unity/github.md)
