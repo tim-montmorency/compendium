@@ -742,6 +742,8 @@ stop:before {
 .finishing .md-typeset p strong,
 .finishing .md-typeset li strong {
   font-weight: 600;
+  color: hsla(from var(--md-typeset-color) h s l / 1);
+  /*color: var(--md-typeset-color);*/
 }
 
 
