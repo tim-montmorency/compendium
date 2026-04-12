@@ -1,5 +1,7 @@
 # Composants adaptatifs intelligents
 
+<!-- https://laconsole.dev/formations/css/container-queries -->
+
 ## Le problème des media queries
 
 Avec les **media queries classiques**, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
@@ -17,9 +19,11 @@ Imaginez : vous créez un composant `.card` avec une media query qui dit *« à 
 }
 ```
 
----
+
 
 ## La solution : Container Queries
+
+<!-- https://laconsole.dev/formations/css/container-queries -->
 
 Les **container queries** (`@container`) permettent à un composant de s'adapter à la taille de son *propre conteneur parent*, pas à celle de l'écran. C'est exactement ce dont on a besoin pour créer des composants vraiment réutilisables.
 
@@ -55,7 +59,7 @@ Les **container queries** (`@container`) permettent à un composant de s'adapter
 
 > 🔎 **À observer :** redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
 
----
+
 
 ## Media queries vs Container queries
 
@@ -91,7 +95,7 @@ Posez-vous la question : **est-ce que le changement de style concerne la mise en
 
 <!-- CODEPEN: Comparaison côte à côte — Media query vs Container query -->
 
----
+
 
 ## Nommer ses conteneurs
 
@@ -126,7 +130,7 @@ Quand on a plusieurs conteneurs imbriqués, nommer ses conteneurs devient **esse
 
 > 💡 **Bonne pratique :** même si vous n'avez qu'un seul conteneur, prenez l'habitude de le nommer. Ça documente l'intention, ça évite les surprises si vous ajoutez un conteneur parent plus tard, et ça rend le code beaucoup plus lisible.
 
----
+
 
 ## Architecture CSS pour composants adaptatifs
 
@@ -190,7 +194,7 @@ Tout comme les media queries ont leurs propres unités, les container queries in
 
 > 💡 **Analogie :** `cqi` est aux container queries ce que `vw` est aux media queries — mais relatif au conteneur plutôt qu'à la fenêtre.
 
----
+
 
 ## Cas d'usage réels
 
@@ -238,7 +242,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 
 <!-- CODEPEN: Atelier — Transformer un composant media-query en container-query -->
 
----
+
 
 ## Support navigateurs
 
@@ -264,7 +268,7 @@ Les container queries sont **supportées par tous les navigateurs modernes** dep
 
 > ✅ Chrome 105+, Firefox 110+, Safari 16+ — tous supportent `@container`. En 2026, la couverture mondiale dépasse 95 %.
 
----
+
 
 ## Résumé
 
