@@ -52,14 +52,14 @@ Imaginez : vous créez un composant `.card` avec une media query qui dit *« à 
 
 Les **container queries** (`@container`) permettent à un composant de s'adapter à la taille de son *propre conteneur parent*, pas à celle de l'écran. C'est exactement ce dont on a besoin pour créer des composants vraiment réutilisables.
 
-### Syntaxe de base : deux étapes
+## ✦ Syntaxe de base : deux étapes
 
 1. **Définir le conteneur** 
   avec un nom `container-name` et un type `container-type`
 2. **Déclarer un container query** 
   `@container nom-du-container (min-width: 400px){ }`
 
-### 1. Définir le conteneur
+### ✦ 1. Définir le conteneur
 
 Pour déclarer un container query, il faut d'abord *définir un conteneur* !
 
@@ -68,7 +68,7 @@ Cela équivaut à dire à la balise parent quelle incarnera le *contexte de mesu
 Cela se fait via les propriétés `container-type` et `container-name` sur le parent du composant. 
 
 
-```css "Définir le conteneur sur le PARENT"
+```css title="Définir le conteneur sur le PARENT"
 /* Étape 1 : Définir le conteneur */
 .card-wrapper {
   container-type: inline-size;
@@ -83,11 +83,14 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
      - `container-type: size` (largeur ET hauteur) 
      - `container-type: normal` (pas de mesure, mais le nom est disponible pour du style conditionnel).
 
-### 2. Déclarer la requête *Container query*
+
+### ✦ 2. Déclarer la requête *Container query*
+
 
 Écrire la *container query* : « si mon conteneur fait X de large (ou plus), alors... ».
 
-```css "Déclarer la requête"
+
+```css title="Déclarer la requête"
 /* Étape 2 : Déclarer la requête  */
 @container card-wrapper (min-width: 400px) {
   .card {
@@ -105,9 +108,7 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 
 
 <!-- CODEPEN: Exemple interactif — Carte qui s'adapte à son conteneur -->
-
-
-## ✦ Exemple interactif: Carte qui s'adapte à son conteneur
+### Exemple interactif: Carte qui s'adapte à son conteneur
 
 !!! example "🔎 À observer"
     Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
@@ -198,7 +199,7 @@ container: nom / type
 }
 ```
 
-!!! "💡 Bonne pratique"
+!!! info 💡Bonne pratique
     Même si vous n'avez qu'un seul conteneur, prenez l'habitude de le nommer. Ça documente l'intention, ça évite les surprises si vous ajoutez un conteneur parent plus tard, et ça rend le code beaucoup plus lisible.
 
 
@@ -210,7 +211,7 @@ Une bonne architecture isole chaque composant dans son propre contexte. L'idée 
 
 On déclare le `container` sur un élément *wrapper* autour du composant, pas sur le composant lui-même. Pourquoi ? Parce qu'un élément ne peut pas se mesurer lui-même (ça créerait une dépendance circulaire).
 
-```css "Pattern recommandé : wrapper + composant"
+```css title="Pattern recommandé : wrapper + composant"
 /* ────────────────────────────────────────────
    Pattern recommandé : wrapper + composant
    ──────────────────────────────────────────── */
