@@ -60,6 +60,12 @@ Les **container queries** (`@container`) permettent à un composant de s'adapter
 > 🔎 **À observer :** redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
 
 
+### Nouvelles unités pour container queries
+
+- `cqw` : 1% de la largeur du conteneur
+- `cqh` : 1% de la hauteur du conteneur
+
+<!-- https://laconsole.dev/formations/css/container-queries -->
 
 ## Media queries vs Container queries
 
