@@ -40,25 +40,37 @@ Imaginez : vous créez un composant `.card` avec une media query qui dit *« à 
 
 
 
-## La solution : Container Queries
+## La solution: *Container Queries*
 
 <!-- https://laconsole.dev/formations/css/container-queries -->
 
 Les **container queries** (`@container`) permettent à un composant de s'adapter à la taille de son *propre conteneur parent*, pas à celle de l'écran. C'est exactement ce dont on a besoin pour créer des composants vraiment réutilisables.
 
-### Syntaxe de base — deux étapes
+### Syntaxe de base : deux étapes
 
-1. **Déclarer le conteneur** — dire au parent « tu es un contexte de mesure ».
+1. **Déclarer le conteneur**
 2. **Écrire la requête** sur l'enfant — « si mon conteneur fait X de large, alors... ».
 
-```css
+### 1. Déclarer le conteneur
+
+Déclarer au parent « tu es un contexte de mesure, tu es le CONTENEUR d'un composant ». 
+
+C'est la première étape, indispensable pour que les *container queries* fonctionnent.
+
+```css "Déclarer le conteneur sur le PARENT"
 /* Étape 1 : déclarer le conteneur sur le PARENT */
 .card-wrapper {
   container-type: inline-size;
-  /* optionnel mais recommandé : nommer le conteneur */
+  /* optionnel mais recommandé: nommer le conteneur */
   container-name: card;
 }
+```
 
+### 2. Écrire la requête
+
+Écrire la requête sur l'enfant: « si mon conteneur fait X de large (ou plus), alors... ».
+
+```css "Écrire la requête sur l'ENFANT"
 /* Étape 2 : écrire la requête sur l'ENFANT */
 @container card (min-width: 400px) {
   .card {
@@ -66,7 +78,7 @@ Les **container queries** (`@container`) permettent à un composant de s'adapter
     gap: 1.5rem;
   }
   .card__image {
-    width: 40%;
+    width: 30%;
     flex-shrink: 0;
   }
 }
@@ -76,7 +88,19 @@ Les **container queries** (`@container`) permettent à un composant de s'adapter
 
 <!-- CODEPEN: Exemple interactif — Carte qui s'adapte à son conteneur -->
 
-> 🔎 **À observer :** redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
+
+## ✦ Exemple interactif: Carte qui s'adapte à son conteneur
+
+!!! example "🔎 À observer"
+    Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
+
+<p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO Container queries - Carte qui s'adapte à son conteneur" data-version="2" data-default-tab="result" data-slug-hash="PwGxZNM" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f51-4aed-7415-9a6b-a495b73df6ea">
+  DEMO Container queries - Carte qui s'adapte à son conteneur</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 ### Nouvelles unités pour container queries
