@@ -51,3 +51,15 @@ Au terme de ce cours, l’élève conçoit des produits communicationnels cohér
 _Enseignant en Techniques d'intégration multimédia_<br>
 :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br>
 </div>
+
+[STOP]
+
+Quelques conclusions
+
+Note : Pour les exercices, j'ajouterais des points pour la correction effectuée suite aux commentaires du prof. L'idée est de les faire mettre en pratique des améliorations. Il manque beaucoup de ça dans le cours actuel.
+
+- Faire comprendre à l'étudiant que l'échec en design c'est essentiel à l'apprentissage. Il ne faut pas avoir peur d'échouer. Par exemple, faire une proposition qui n'est pas efficace soit esthétiquement, soit techniquement, soit graphiquement, soit communicationnellement parlant.
+
+Note : Il faut beaucoup plus d'exercices de type Trouvez l'erreur : "Qu'est-ce qui ne convient pas dans cette proposition graphique ?". Ça doit être quasiment à chaque cours. Sinon ils n'aiguisent pas leur oeil de designer
+
+Note : Ajouter très tot un exemple de comment on devrait faire un moodboard. Quitte à ce que le prof le fasse devant la classe.

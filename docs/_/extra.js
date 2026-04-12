@@ -391,6 +391,94 @@ const addCustomStyles = (...folders) => {
 };
 
 
+// ==========================================================================
+// RECHERCHE LIMITÉE À LA SECTION COURANTE
+// Filtre les résultats de recherche pour n'afficher que ceux
+// appartenant au même sous-dossier (enfant direct de /docs/) que la page courante.
+// ==========================================================================
+
+// Détermine le chemin de base du site à partir des feuilles de style Material
+const getBasePath = () => {
+  const link = document.querySelector('link[rel="stylesheet"][href*="assets/stylesheets"]');
+  if (link) {
+    const pathname = new URL(link.href).pathname;
+    const idx = pathname.indexOf('/assets/stylesheets');
+    if (idx !== -1) return pathname.substring(0, idx + 1);
+  }
+  return '/';
+};
+
+// Extrait le premier sous-dossier d'un pathname relatif au basePath
+const getSubfolder = (pathname, basePath) => {
+  if (!pathname.startsWith(basePath)) return null;
+  return pathname.slice(basePath.length).split('/')[0] || null;
+};
+
+const SITE_BASE_PATH = getBasePath();
+
+// Cache la recherche sur les pages au root de /docs/ (aucun sous-dossier)
+const toggleSearchVisibility = () => {
+  const currentSubfolder = getSubfolder(window.location.pathname, SITE_BASE_PATH);
+  const searchForm = document.querySelector('.md-search');
+  if (!searchForm) return;
+
+  if (!currentSubfolder || currentSubfolder === '_') {
+    searchForm.style.display = 'none';
+  } else {
+    searchForm.style.display = '';
+  }
+};
+
+// Filtre les résultats de recherche pour la section courante
+const initScopedSearch = () => {
+  toggleSearchVisibility();
+
+  const resultList = document.querySelector('.md-search-result__list');
+  if (!resultList) return;
+
+  let filtering = false;
+
+  const filterResults = () => {
+    if (filtering) return;
+    filtering = true;
+
+    const currentSubfolder = getSubfolder(window.location.pathname, SITE_BASE_PATH);
+    const items = [...resultList.children];
+
+    // Si pas de sous-dossier (ex: page d'accueil), pas de résultats
+    if (!currentSubfolder || currentSubfolder === '_') {
+      items.forEach(item => (item.style.display = 'none'));
+      filtering = false;
+      return;
+    }
+
+    let visibleCount = 0;
+    items.forEach(item => {
+      const link = item.querySelector('a');
+      if (!link) return;
+      const resultSubfolder = getSubfolder(new URL(link.href).pathname, SITE_BASE_PATH);
+      if (resultSubfolder === currentSubfolder) {
+        item.style.display = '';
+        visibleCount++;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    const meta = document.querySelector('.md-search-result__meta');
+    if (meta && items.length > 0) {
+      meta.textContent = visibleCount > 0
+        ? `${visibleCount} résultat${visibleCount > 1 ? 's' : ''} dans cette section`
+        : 'Aucun résultat dans cette section';
+    }
+
+    filtering = false;
+  };
+
+  new MutationObserver(filterResults).observe(resultList, { childList: true });
+};
+
+
 // Exécution de logique au chargement de la page
 document.addEventListener("DOMContentLoaded", () => {
   runOnce();
@@ -428,6 +516,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function runFunctions() {
   //initializeSortableTables();
   toggleLogoButtonVisibility();
+  toggleSearchVisibility();
   addOpenExampleLinks();
   handleExternalLinks();
   handleDestinations();
@@ -455,6 +544,7 @@ function runFunctions() {
 function runOnce() {
   removeMainTabsNavigation();
   replaceLogoLinkWithSpan();
+  initScopedSearch();
 }
 
 
