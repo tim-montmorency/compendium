@@ -499,7 +499,6 @@ plugins:
   - material/offline
   - material/tags
   - material/typeset
-  - mkdocs-badges
   - mkdocs-video:
       is_video: true
       video_autoplay: true
