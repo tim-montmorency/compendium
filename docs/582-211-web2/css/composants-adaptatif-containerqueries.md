@@ -15,9 +15,19 @@ S|container queries||  S|media queries|| S|@container||  S|container-type|| S|co
 
 Avec les *media queries classiques*, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
 
-> ⚠️ **Le problème concret :** une carte `.card` affichée en pleine largeur doit être en format horizontal. La même carte placée dans une sidebar étroite doit être en format vertical. Avec les media queries, impossible de le savoir — le composant ne connaît pas son contexte.
 
-Imaginez : vous créez un composant `.card` avec une media query qui dit *« à partir de 600px, passe en horizontal »*. Mais 600px, c'est 600px de *quoi* ? De l'écran ! Pas du conteneur. Donc si la carte est dans une colonne de 300px sur un grand écran, elle sera quand même en horizontal — et ça casse tout.
+!!! warning "Le problème concret"
+    Une carte `.card` affichée en pleine largeur doit être en *format horizontal*.
+    La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*. 
+    Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="DEMO Container queries - Carte qui s'adapte à son conteneur" src="https://codepen.io/editor/tim-momo/embed/019d7f51-4aed-7415-9a6b-a495b73df6ea?default-tab=result&theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f51-4aed-7415-9a6b-a495b73df6ea">
+  DEMO Container queries - Carte qui s'adapte à son conteneur</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+Imaginez : vous créez un composant `.card` avec une media query qui dit *« à partir de 600px, passe en horizontal »*. Mais 600px, c'est 600px de *quoi* ? De l'écran (viewport), pas du conteneur de la carte. Donc si la carte est dans une colonne de 300px sur un grand écran, elle sera quand même en horizontal, et ça casse tout.
 
 ```css
 /* ❌ Le problème : on se fie à la fenêtre, pas au conteneur */
