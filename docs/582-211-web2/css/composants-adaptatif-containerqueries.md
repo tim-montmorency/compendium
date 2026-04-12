@@ -8,7 +8,7 @@ Jusqu'ici, vos composants s'adaptaient à la *taille de l'écran*. Maintenant, i
 
 |Example badge|works|
 
-S|container queries||  S|media queries|| S|@container||  S|container-type|| S|composants réutilisables|| 
+S|container queries||  S|media queries|| S|@container||  S|container-type|| S|composants réutilisables||
 
 
 ## Pourquoi les media queries ne suffisent pas

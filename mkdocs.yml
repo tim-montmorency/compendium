@@ -54,7 +54,7 @@ nav:
         - Flex,justify,align,gap,wrap: 582-211-web2/css/flexbox01.md
         - Flex,grow,shrink,basis: 582-211-web2/css/flexbox02.md
         - Flexbox order: 582-211-web2/css/flexbox-order.md
-        - Flexbox gap calc largeur col: 582-211-web2/css/flexbox-gap-calc.md
+        - Flexbox gap calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
         - Composants réutilisables: 582-211-web2/css/composants.md
         - Composants adaptatifs (CQ): 582-211-web2/css/composants-adaptatif-containerqueries.md
         - Container queries (CQ): 582-211-web2/css/containerqueries-utilisation.md

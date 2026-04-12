@@ -20,10 +20,12 @@ Composants adaptatifs intelligents
 - `transition-duration`
 - `transition-timing-function`
 - `transition-delay`
+`
+<br>
 
 [📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/){ .md-button .md-button--primary }
 
-### Exercice transition
+### Exercices transition
 
 [👩🏻‍💻 Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/){ .md-button }
 
@@ -33,9 +35,11 @@ Composants adaptatifs intelligents
 
 
 
-## Requêtes de conteneur - Container queries
+## Composants adaptatifs intelligents
 
-[📚 Contenu de cours: Requêtes de conteneur - Container queries](./css/container-queries.md)
+[📚 Contenu de cours: Composant adaptatif intelligent: Intro au Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
+
+[📚 Contenu de cours: Container Queries - Utilisaiton](./css/containerqueries-utilisation.md){ .md-button .md-button--primary }
 
 <!--
 https://laconsole.dev/formations/css/container-queries 
@@ -43,7 +47,7 @@ https://laconsole.dev/formations/css/container-queries
 
 ### Unités des requête de conteneur et typo fluide
 
-[Unités des requête de conteneur et typo fluide](https://moderncss.dev/container-query-units-and-fluid-typography/)
+[Unités des requête de conteneur et typo fluide](https://moderncss.dev/container-query-units-and-fluid-typography/){ .md-button .md-button--primary }
 
 ## Lancement du projet final
 
