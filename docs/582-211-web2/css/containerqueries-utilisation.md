@@ -86,4 +86,13 @@ Tout comme les media queries ont leurs propres unités, les *container queries* 
 ```
 
 !!! tip Analogie
-    `cqi` est aux container queries ce que `vw` est aux media queries, mais relatif au conteneur plutôt qu'à la fenêtre.
+    `cqw` ou `cqi` sont aux container queries ce que `vw` est aux media queries, mais relatifs au conteneur plutôt qu'à la fenêtre.
+
+
+## Résumé
+
+1. **Définissez le conteneur sur le parent** avec `container: nom / inline-size`.
+2. **Déclarez la requête container query** avec `@container nom (min-width: Xpx) { ... }`.
+3. **Styles de base = mobile-first**. Les container queries enrichissent, elles ne remplacent pas.
+4. **Media queries pour le layout global**, container queries pour les composants réutilisables.
+5. **Toujours nommer ses conteneurs** pour la lisibilité et la maintenabilité.

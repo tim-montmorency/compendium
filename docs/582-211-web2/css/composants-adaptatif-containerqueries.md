@@ -210,11 +210,17 @@ Une bonne architecture isole chaque composant dans son propre contexte. L'idée 
 
 On déclare le `container` sur un élément *wrapper* autour du composant, pas sur le composant lui-même. Pourquoi ? Parce qu'un élément ne peut pas se mesurer lui-même (ça créerait une dépendance circulaire).
 
-```css title="Pattern recommandé : wrapper + composant"
-/* ────────────────────────────────────────────
-   Pattern recommandé : wrapper + composant
-   ──────────────────────────────────────────── */
+```html title="HTML - Pattern recommandé : wrapper + composant"
+<div class="card-container"> <!-- wrapper conteneur -->
+  <article class="card"> <!-- composant carte -->
+    <img class="card__image">
+    <h2 class="card__title">Titre de la carte</h2>
+    <p class="card__excerpt">Extrait de la carte...</p>
+  </article>
+</div>
+```
 
+```css title="CSS - Pattern recommandé : wrapper + composant"
 /* 1. Le wrapper déclare le contexte */
 .card-container {
   container-type: inline-size;
@@ -244,14 +250,14 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 }
 ```
 
-#### ✦ Exemple interactif
+#### Exemple interactif
 
 !!! example "🔎 À observer"
     Redimensionnez la fenêtre et observez les trois cartes. Elles s'adaptent chacune à leur conteneur, pas à l'écran. La carte dans la sidebar reste verticale même sur grand écran, tandis que les autres passent en horizontal.
 
 <!-- CODEPEN: Le même composant dans 3 contextes différents -->
 
-<p class="codepen" data-theme-id="50210" data-height="900" data-pen-title="DEMO Container queries - même composant dans 3 contextes différents" data-version="2" data-default-tab="result" data-slug-hash="azmQdmY" data-user="tim-momo" style="height: 900px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="750" data-pen-title="DEMO Container queries - même composant dans 3 contextes différents" data-version="2" data-default-tab="result" data-slug-hash="azmQdmY" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f59-464c-7bbd-9e9f-0dae69e417d1">
   DEMO Container queries - même composant dans 3 contextes différents</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -259,21 +265,21 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 
 
 
-### Unités pour container queries
+### *Unités* : nouvelles unités de mesure pour container queries
 
 <!-- https://laconsole.dev/formations/css/container-queries -->
 
 Tout comme les media queries ont leurs propres unités, les *container queries* introduisent des **unités relatives au conteneur** :
 
 
-| Unité  | Description                                               | Exemple d’usage      |Équivalent Viewport|
-|--------|-----------------------------------------------------------|----------------------|-------------------|
-| `cqw`  | 1% de la largeur du conteneur                             | `width: 50cqw;`      | `vw`              |
-| `cqh`  | 1% de la hauteur du conteneur                             | `height: 100cqh;`    | `vh`              |
-| `cqmin`| La plus petite des deux dimensions (`cqw` ou `cqh`)       | `font-size: 5cqmin;` | `vmin`            |
-| `cqmax`| La plus grande des deux dimensions (`cqw` ou `cqh`)       | `font-size: 5cqmax;` | `vmax`            |
-| `cqi`  | 1% de la taille du conteneur sur l'axe inline (largeur)   | `font-size: 20cqi;`  | `vi`              |
-| `cqb`  | 1% de la taille du conteneur sur l'axe block (hauteur)    | `font-size: 20cqb;`  | `vb`              |
+| Unité  | Description                                          | Exemple d’usage           |Équivalent Viewport|
+|--------|------------------------------------------------------|---------------------------|-------------------|
+| `cqw`  | 1% de la largeur du conteneur                        | `width: 50cqw;`           | `vw`              |
+| `cqh`  | 1% de la hauteur du conteneur                        | `height: 100cqh;`         | `vh`              |
+| `cqmin`| La plus petite des deux dimensions (`cqw` ou `cqh`)  | `font-size: 5cqmin;`      | `vmin`            |
+| `cqmax`| La plus grande des deux dimensions (`cqw` ou `cqh`)  | `font-size: 5cqmax;`      | `vmax`            |
+| `cqi`  | 1% de la taille du conteneur sur l'axe inline (largeur)| `font-size: 20cqi;`     | `vi`              |
+| `cqb`  | 1% de la taille du conteneur sur l'axe block (hauteur)| `font-size: 20cqb;`      | `vb`              |
 
 
 <!--
@@ -295,17 +301,17 @@ Tout comme les media queries ont leurs propres unités, les *container queries* 
 ```
 
 !!! tip Analogie
-    `cqi` est aux container queries ce que `vw` est aux media queries, mais relatif au conteneur plutôt qu'à la fenêtre.
+    `cqw` ou `cqi` sont aux container queries ce que `vw` est aux media queries, mais relatifs au conteneur plutôt qu'à la fenêtre.
 
 
 
 ## Cas d'usage réels
 
-Les container queries ne servent pas qu'aux cartes. Voici des situations concrètes où ils font une vraie différence.
+Les container queries ne servent pas qu'aux cartes. Voici d'autres situations concrètes où ils font une différence.
 
 ### Navigation qui se replie
 
-```html
+```html title="HTML - Navigation qui se replie"
 <div class="nav-wrapper">
   <nav class="nav"> <!-- composant nav -->
     <button class="nav__burger">☰</button>
@@ -318,7 +324,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 </div>
 ```
 
-```css
+```css title="CSS - Navigation qui se replie"
 .nav-wrapper {
   container-type: inline-size;
   container-name: nav;
@@ -341,7 +347,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 ### Liste de tags qui se réorganise
 
 
-```html
+```html  title="HTML - Liste de tags qui se réorganise"
 <div class="tags-wrapper">
   <div class="tags-list"> <!-- composant liste de badges -->
     <span class="tag">CSS</span> <!-- composant d'un badge -->
@@ -351,7 +357,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 </div>
 ```
 
-```css
+```css title="CSS - Liste de tags qui se réorganise"
 .tags-wrapper {
   container-type: inline-size;
   container-name: tags;
@@ -394,7 +400,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 
 ### Liste de cartes qui s'adapte
 
-```html
+```html title="HTML - Liste de cartes qui s'adapte"
 <div class="cards-wrapper">
 
   <div class="cards-list"> <!-- composant liste de cartes -->
@@ -413,7 +419,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 
 ```
 
-```css
+```css title="CSS - Liste de cartes qui s'adapte"
 .cards-wrapper {
   container-type: inline-size;
   container-name: cards;
@@ -484,7 +490,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 
 <!-- CODEPEN: Atelier — Transformer un composant media-query en container-query -->
 
-<p class="codepen" data-theme-id="50210" data-height="900" data-pen-title="EXERC container queries -  transformer un composant media-query en container-query" data-version="2" data-default-tab="result" data-slug-hash="ByLGjQy" data-user="tim-momo" style="height: 900px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height=750" data-pen-title="EXERC container queries -  transformer un composant media-query en container-query" data-version="2" data-default-tab="result" data-slug-hash="ByLGjQy" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3">
   EXERC container queries -  transformer un composant media-query en container-query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -521,8 +527,8 @@ Les container queries sont **supportées par tous les navigateurs modernes** dep
 
 ## Résumé
 
-1. **Déclarez le conteneur sur le parent** avec `container: nom / inline-size`.
-2. **Écrivez la requête sur l'enfant** avec `@container nom (min-width: Xpx) { ... }`.
+1. **Définissez le conteneur sur le parent** avec `container: nom / inline-size`.
+2. **Déclarez la requête container query** avec `@container nom (min-width: Xpx) { ... }`.
 3. **Styles de base = mobile-first**. Les container queries enrichissent, elles ne remplacent pas.
 4. **Media queries pour le layout global**, container queries pour les composants réutilisables.
 5. **Toujours nommer ses conteneurs** pour la lisibilité et la maintenabilité.
