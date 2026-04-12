@@ -21,16 +21,6 @@ Avec les *media queries classiques*, on dit au composant comment se comporter se
     La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*. 
     Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
 
-iframe
-
-<iframe height="500" style="width: 100%;" scrolling="no" title="DEMO Container queries - Carte qui s'adapte à son conteneur" src="https://codepen.io/editor/tim-momo/embed/019d7f51-4aed-7415-9a6b-a495b73df6ea?default-tab=result&theme-id=44168" frameborder="no" loading="lazy" allowtransparency="true">
-  See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f51-4aed-7415-9a6b-a495b73df6ea">
-  DEMO Container queries - Carte qui s'adapte à son conteneur</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-
-p codepen
 
 <p class="codepen" data-theme-id="44168" data-height="500" data-pen-title="DEMO Container queries - Carte qui s'adapte à son conteneur" data-version="2" data-default-tab="result" data-slug-hash="PwGxZNM" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f51-4aed-7415-9a6b-a495b73df6ea">
@@ -113,7 +103,7 @@ C'est la première étape, indispensable pour que les *container queries* foncti
   DEMO Container queries - Carte qui s'adapte à son conteneur</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 
@@ -157,7 +147,7 @@ Posez-vous la question : **est-ce que le changement de style concerne la mise en
   DEMO Container queries - Comparaison media query vs container query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 ## Nommer ses conteneurs
@@ -252,7 +242,7 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
   DEMO Container queries - même composant dans 3 contextes différents</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 ## Les unités de conteneur
@@ -346,7 +336,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
   EXERC container queries -  transformer un composant media-query en container-query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 
