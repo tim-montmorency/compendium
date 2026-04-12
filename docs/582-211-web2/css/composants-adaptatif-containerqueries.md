@@ -13,9 +13,7 @@ S|container queries||  S|media queries|| S|@container||  S|container-type|| S|co
 
 ## Pourquoi les media queries ne suffisent pas
 
-
-
-Avec les **media queries classiques**, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
+Avec les *media queries classiques*, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
 
 > ⚠️ **Le problème concret :** une carte `.card` affichée en pleine largeur doit être en format horizontal. La même carte placée dans une sidebar étroite doit être en format vertical. Avec les media queries, impossible de le savoir — le composant ne connaît pas son contexte.
 
