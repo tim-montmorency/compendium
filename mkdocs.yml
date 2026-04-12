@@ -496,10 +496,10 @@ extra_javascript:
 plugins:
   - search:
       lang: fr
-  - badges
   - material/offline
   - material/tags
   - material/typeset
+  - mkdocs-badges
   - mkdocs-video:
       is_video: true
       video_autoplay: true

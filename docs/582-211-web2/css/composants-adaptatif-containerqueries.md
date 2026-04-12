@@ -54,7 +54,6 @@ Imaginez : vous créez un composant `.card` avec une media query qui dit *« à 
 
 ## La solution: *Container Queries*
 
-<!-- https://laconsole.dev/formations/css/container-queries -->
 
 Les **container queries** (`@container`) permettent à un composant de s'adapter à la taille de son *propre conteneur parent*, pas à celle de l'écran. C'est exactement ce dont on a besoin pour créer des composants vraiment réutilisables.
 
