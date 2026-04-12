@@ -54,7 +54,7 @@ Les **container queries** (`@container`) permettent à un composant de s'adapter
 
 ## ✦ Syntaxe de base : deux étapes
 
-1. **Définir le conteneur** 
+1. **Définir le conteneur**
   avec un nom `container-name` et un type `container-type`
 2. **Déclarer un container query** 
   `@container nom-du-container (min-width: 400px){ }`
@@ -85,7 +85,6 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 
 
 ### ✦ 2. Déclarer la requête *Container query*
-
 
 Écrire la *container query* : « si mon conteneur fait X de large (ou plus), alors... ».
 
