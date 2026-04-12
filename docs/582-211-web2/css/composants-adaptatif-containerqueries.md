@@ -1,8 +1,19 @@
 # Composants adaptatifs intelligents
 
+Jusqu'ici, vos composants s'adaptaient à la *taille de l'écran*. Maintenant, ils vont s'adapter à la *taille de leur conteneur* : ce qui change tout à la façon d'écrire du CSS réutilisable!
+
 <!-- https://laconsole.dev/formations/css/container-queries -->
 
-## Le problème des media queries
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+|Example badge|works|
+
+S|container queries||  S|media queries|| S|@container||  S|container-type|| S|composants réutilisables|| 
+
+
+## Pourquoi les media queries ne suffisent pas
+
+
 
 Avec les **media queries classiques**, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
 
