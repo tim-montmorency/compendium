@@ -305,12 +305,29 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 
 ### Navigation qui se replie
 
+```html
+<div class="nav-wrapper">
+  <nav class="nav"> <!-- composant nav -->
+    <button class="nav__burger">☰</button>
+    <ul class="nav__links">
+      <li class="nav__item"><a href="#">Accueil</a></li>
+      <li class="nav__item"><a href="#">À propos</a></li>
+      <li class="nav__item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+```
+
 ```css
 .nav-wrapper {
+  container-type: inline-size;
+  container-name: nav;
+
+  /* ou la version racourcie: */
   container: nav / inline-size;
 }
 
-/* Par défaut : navigation hamburger */
+/* Par défaut (mobile first) : navigation hamburger */
 .nav__links  { display: none; }
 .nav__burger { display: block; }
 
@@ -321,10 +338,122 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
 }
 ```
 
+### Liste de tags qui se réorganise
+
+
+```html
+<div class="tags-wrapper">
+  <div class="tags-list"> <!-- composant liste de badges -->
+    <span class="tag">CSS</span> <!-- composant d'un badge -->
+    <span class="tag">JavaScript</span> <!-- composant d'un badge -->
+    <span class="tag">HTML</span> <!-- composant d'un badge -->
+  </div>
+</div>
+```
+
+```css
+.tags-wrapper {
+  container-type: inline-size;
+  container-name: tags;
+
+  /* ou la version racourcie: */
+  container: tags / inline-size;
+}
+
+.tags-list {
+  /* les tags s'empilent par défaut sur une seule colonne */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  background: var(--surface);
+  border-radius: 999px;
+  font-size: 0.875rem;
+}
+
+@container tags (min-width: 400px) {
+  .tags-list {
+    /* sur conteneur plus large, les tags s'alignent en rangée
+     et passent à la 2e ou 3e ligne si besoin */
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@container tags (min-width: 600px) {
+  .tag{
+    /* plus de padding et texte plus gros sur conteneur large */
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+```
+
+### Liste de cartes qui s'adapte
+
+```html
+<div class="cards-wrapper">
+
+  <div class="cards-list"> <!-- composant liste de cartes -->
+    <article class="card"> <!-- composant carte -->
+      <img class="card__image">
+      <p class="card__desc">...</p>
+      ...
+    </article>
+    <article class="card"> <!-- composant carte -->
+      <img class="card__image">
+      <p class="card__desc">...</p>
+    </article>
+  </div>
+
+</div>
+
+```
+
+```css
+.cards-wrapper {
+  container-type: inline-size;
+  container-name: cards;
+
+  /* ou la version racourcie: */
+  container: cards / inline-size;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@container cards (min-width: 500px) {
+  .cards-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* chaque carte prend au moins 200px */
+    flex-basis: 200px; 
+  }
+}
+```
+
+
+
+<!-- Grille Grid mais ils ne l'ont pas vu... 
 ### Grille qui s'auto-organise
 
 ```css
-.grid-wrapper {
+.grid-wrapper { 
+  container-type: inline-size;
+  container-name: grid;
+
+  /* ou la version racourcie: */
   container: grid / inline-size;
 }
 
@@ -334,6 +463,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
   gap: 1rem;
 }
 
+
 @container grid (min-width: 400px) {
   .auto-grid { grid-template-columns: repeat(2, 1fr); }
 }
@@ -342,6 +472,7 @@ Les container queries ne servent pas qu'aux cartes. Voici des situations concrè
   .auto-grid { grid-template-columns: repeat(3, 1fr); }
 }
 ```
+-->
 
 ## Exercice: Transformer un composant media-query en container-query
 
