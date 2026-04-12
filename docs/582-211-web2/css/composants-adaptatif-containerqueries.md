@@ -1,8 +1,12 @@
 # Composants adaptatifs intelligents
 
+<!-- https://laconsole.dev/formations/css/container-queries -->
+
 Jusqu'ici, vos composants s'adaptaient à la *taille de l'écran*. Maintenant, ils vont s'adapter à la *taille de leur conteneur* : ce qui change tout à la façon d'écrire du CSS réutilisable!
 
-<!-- https://laconsole.dev/formations/css/container-queries -->
+
+
+<!-- badges mkdocs-badges à installer correctement....
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
@@ -10,6 +14,7 @@ Jusqu'ici, vos composants s'adaptaient à la *taille de l'écran*. Maintenant, i
 
 S|container queries||  S|media queries|| S|@container||  S|container-type|| S|composants réutilisables||
 
+-->
 
 ## Pourquoi les media queries ne suffisent pas
 
@@ -49,8 +54,8 @@ Les **container queries** (`@container`) permettent à un composant de s'adapter
 
 ### Syntaxe de base : deux étapes
 
-1. **Déclarer le conteneur**
-2. **Écrire la requête** sur l'enfant — « si mon conteneur fait X de large, alors... ».
+1. **Déclarer le conteneur** avec un nom et un type
+2. **Écrire la requête** sur l'enfant
 
 ### 1. Déclarer le conteneur
 
