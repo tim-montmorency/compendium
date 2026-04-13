@@ -1,7 +1,7 @@
 # Projet intégrateur: Solarix
 
-582-211-MO : Web 2 | Session H2026 <br>
-Pondération : 55 points<br>
+**582-211-MO** : Web 2 | Session H2026 <br>
+**Pondération** : 55 points<br>
 **Remise de la planification** : cours 11 (20 ou 22 avril)<br>
 **Remise finale** : cours 15 (11 ou 14 mai)<br>
 
@@ -141,7 +141,12 @@ Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vo
 - [Maquette préliminaire: Format grand écran :material-download:](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBHTIsqKEzQQqQopOZecPOfAZiY6sRh4aY9QBYMR_At5zo?e=vEubmQ)
 - [Maquette préliminaire: Format mobile :material-download:](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQCqzZYkXDBpQJ15A51dopvjAcswgqmSbru1DI_nJvicttI?e=UfhcKH)
 
-**Contenu attendu :**
+#### Étapes de la planification
+
+- Créer un dépôt GitHub public nommé `nom-prenom-projet-solarix`, le rendre public ou accorder l'accès à l'enseignante
+- Créer un fichier `PLANIFICATION.md` dans votre dépôt GitHub
+
+#### Contenu attendu :
 
 1. **Analyse de la maquette** : Identifiez et nommez tous les composants de l'interface. Faites un schéma ou une liste annotée.
 
@@ -162,6 +167,8 @@ Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vo
 5. **Conception de la zone libre** : Décrivez ou esquissez votre vision pour la zone de stats globales. Comment allez-vous la mettre en page tout en restant cohérent avec le reste de l'interface?
 
 **Format de remise :** Fichier `PLANIFICATION.md` déposé dans votre dépôt GitHub.
+
+Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un dossier `assets` à votre dépôt, puis [insérez-les images en markdown](https://www.markdownguide.org/basic-syntax/#images-1) dans votre fichier `PLANIFICATION.md` avec des liens relatifs.
 
 ---
 
