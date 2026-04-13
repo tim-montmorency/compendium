@@ -1,6 +1,6 @@
 # Projet intégrateur: Solarix
 
-**582-211-MO — Web 2 | Session H2026**  
+**582-211-MO : Web 2 | Session H2026**  
 **Pondération : 55 points**  
 **Remise finale : cours 15 (11 ou 14 mai)**
 
@@ -8,12 +8,12 @@
 
 ## Mise en contexte
 
-Solarix est un jeu de rôle fictif à l'esthétique Solarpunk — un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
+Solarix est un jeu de rôle fictif à l'esthétique Solarpunk : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
 
 Vous recevez :
+
 - La maquette Figma (version desktop et mobile)
 - Un canevas de départ (fichiers HTML et JavaScript fournis)
-- Le contenu textuel et les assets visuels (images, icônes)
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
@@ -38,10 +38,10 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 |---|---|
 | Barre de navigation latérale | Avatar, nom du personnage, liens de navigation (desktop) / barre de navigation en bas (mobile) |
 | Carte de profil | Avatar, nom, niveau, rang, barre de progression XP |
-| Zone de stats globales ⭐ | 4 statistiques clés (quêtes terminées, temps de jeu, alliés, insignes) |
+| ⭐ Zone de stats globales  | 4 statistiques clés (quêtes terminées, temps de jeu, alliés, insignes) |
 | Cartes de quêtes récentes | 3 cartes avec image, titre, description, statut et récompenses |
 
-> ⭐ **Zone libre** — La zone de stats globales est la section que vous devez **concevoir vous-même**. Le contenu est fourni (les 4 statistiques et leurs valeurs), mais la mise en page et le traitement visuel sont libres. Votre conception doit demeurer cohérente avec le système visuel de la maquette fournie.
+> ⭐ **Zone libre** : La zone de stats globales est la section que vous devez **concevoir vous-même**. Le contenu est fourni (les 4 statistiques et leurs valeurs), mais la mise en page et le traitement visuel sont libres. Votre conception doit demeurer cohérente avec le système visuel de la maquette fournie.
 
 
 
@@ -77,23 +77,32 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 - Audit obligatoire avec Lighthouse ou axe DevTools (voir journal de bord, semaine 4)
 
 
-
 ## Politique d'utilisation de l'intelligence artificielle
 
-Ce projet se déroule en **Phase 3** de la politique IA du cours : l'IA est encouragée comme outil professionnel.
+Ce projet se déroule en **Phase 3** de la politique IA du cours.
+
+**Non autorisé :**
+
+- Utiliser l'IA pour générer du code sans le comprendre ou le modifier
+- Se contenter de copier-coller du code généré sans jugement critique
+- Utiliser l'IA pour faire le travail à votre place
 
 **Autorisé :**
 
-- Générer du code, analyser des solutions, comparer des approches
+- Poser des questions, analyser des solutions, comparer des approches
 - Utiliser l'IA pour déboguer, optimiser ou améliorer votre code
 - S'en servir pour explorer des solutions alternatives
 
+!!! warning
+    Vous devez vous en tenir strictement aux techniques que nous avons vues en classe. L'utilisation de techniques avancées non vues en classe (ex. : CSS Grid, JavaScript, frameworks CSS) même si elles sont suggérées par une IA, n'est pas autorisée et peut entraîner une pénalité.
+
 **Toujours obligatoire, peu importe l'outil utilisé :**
 
-- Comprendre chaque ligne de code remise
-- Être capable de l'expliquer et de le justifier à l'oral
-- En assurer la qualité, la cohérence et l'accessibilité
-- Documenter au fur et à mesure l'utilisation de l'IA dans le journal de bord (l'outil IA et ta requête (ton prompt))
+- *Comprendre* chaque ligne de code remise
+- Être *capable de l'expliquer et de le justifier* à l'oral
+- En assurer la *qualité*, la *cohérence* et l'*accessibilité* du code
+- En assurer la *réutilisabilité* et la *flexibilité* des composants
+- *Documenter au fur et à mesure l'utilisation de l'IA* dans le journal de bord : noimmer l'outil IA et ta requête exacte (ton prompt)
 
 !!! danger Important sur la documentation de tes prompts
     Tout contenu généré par une IA doit être cité en mentionnant le nom de l'outil IA et ta requête (ton prompt) utilisée. Ne pas le mentionner constitue du *plagiat*.
@@ -106,17 +115,18 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 
 ---
 
-### Semaine 1 — Planification *(10 points)*
+### Semaine 1: Planification | 13 au 19 avril
 
-**Remise : avant le début du cours 13 (27 avril)**
+> 10 points (10% de la note finale)
+> **Remise : avant le début du prochain cours (cours 11 - 20/22 avril)**
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
 **Contenu attendu :**
 
-1. **Analyse de la maquette** — Identifiez et nommez tous les composants de l'interface. Faites un schéma ou une liste annotée.
+1. **Analyse de la maquette** : Identifiez et nommez tous les composants de l'interface. Faites un schéma ou une liste annotée.
 
-2. **Nomenclature CSS prévue** — Pour chaque composant identifié, définissez les noms de classes BEM que vous prévoyez utiliser (en anglais).  
+2. **Nomenclature CSS prévue** : Pour chaque composant identifié, définissez les noms de classes BEM que vous prévoyez utiliser (en anglais).  
    Exemple :
    ```
    .quest-card
@@ -126,19 +136,20 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
    .quest-card__status--completed
    ```
 
-3. **Découpage en tâches** — Listez les étapes de votre intégration dans l'ordre où vous prévoyez les réaliser.
+3. **Découpage en tâches** : Listez les étapes de votre intégration dans l'ordre où vous prévoyez les réaliser.
 
-4. **Stratégie responsive** — Décrivez brièvement comment vous prévoyez gérer le passage desktop → mobile pour chaque composant. Justifiez votre choix entre media queries et container queries pour au moins un composant.
+4. **Stratégie responsive** : Décrivez brièvement comment vous prévoyez gérer le passage desktop → mobile pour chaque composant. Justifiez votre choix entre media queries et container queries pour au moins un composant.
 
-5. **Conception de la zone libre** — Décrivez ou esquissez votre vision pour la zone de stats globales. Comment allez-vous la mettre en page tout en restant cohérent avec le reste de l'interface?
+5. **Conception de la zone libre** : Décrivez ou esquissez votre vision pour la zone de stats globales. Comment allez-vous la mettre en page tout en restant cohérent avec le reste de l'interface?
 
 **Format de remise :** Fichier `PLANIFICATION.md` déposé dans votre dépôt GitHub.
 
 ---
 
-### Semaine 2 — Structure HTML *(incluse dans les 30 points du code)*
+### Semaine 2: Structure HTML | 20 au 26 avril
 
-**Remise : avant le début du cours 14 (4 mai)**
+> incluse dans les 30 points du code
+> **Remise : avant le début du cours 14 (4 mai)**
 
 **Contenu attendu :**
 
@@ -147,7 +158,7 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 - Attributs d'accessibilité de base en place
 - Aucun style CSS requis à cette étape (ou très minimal)
 
-**Journal de bord — questions de la semaine 2 :**
+**Journal de bord : questions de la semaine 2 :**
 > Répondez dans votre fichier `JOURNAL.md`.
 
 1. Quelle décision de structure HTML vous a demandé le plus de réflexion? Expliquez votre raisonnement.
@@ -156,9 +167,10 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
 ---
 
-### Semaine 3 — CSS et responsive *(incluse dans les 30 points du code)*
+### Semaine 3: CSS et responsive | 27 avril au 3 mai
 
-**Remise : avant le début du cours 15 (11 mai) — en même temps que la remise finale*
+> incluse dans les 30 points du code
+> *Remise : avant le début du cours 15 (11 mai) : en même temps que la remise finale*
 
 **Contenu attendu :**
 
@@ -168,7 +180,8 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 - Nomenclature BEM appliquée
 - Zone libre intégrée
 
-**Journal de bord — questions de la semaine 3 :**
+**Journal de bord : questions de la semaine 3 :**
+
 > Répondez dans votre fichier `JOURNAL.md`.
 
 1. Quel composant vous a posé le plus de difficultés en responsive? Comment avez-vous résolu le problème?
@@ -179,8 +192,10 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
 ---
 
-### Semaine 4 — Finalisation et accessibilité *(incluse dans les 30 points du code + journal)*
-**Remise finale : avant le début du cours 15 (11 ou 14 mai)**
+### Semaine 4:  Finalisation et accessibilité | 4 au 10 mai
+
+> incluse dans les 30 points du code
+> **Remise finale : avant le début du cours 15 (11 ou 14 mai)**
 
 **Contenu attendu :**
 - Interface finalisée et peaufinée
@@ -188,7 +203,8 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 - Journal de bord complet
 - Dépôt GitHub à jour
 
-**Journal de bord — questions de la semaine 4 :**
+**Journal de bord : questions de la semaine 4 :**
+
 > Répondez dans votre fichier `JOURNAL.md`.
 
 1. Effectuez un audit d'accessibilité avec Lighthouse ou axe DevTools. Nommez deux problèmes identifiés et expliquez comment vous les avez corrigés.
@@ -196,46 +212,58 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 3. Quel est l'aspect de votre CSS dont vous êtes le plus satisfait? Pourquoi?
 4. Si vous recommenciez ce projet, qu'est-ce que vous feriez différemment?
 
+## REMISE
+
+### Dates
+
+- Remise planification: avant le début du cours 11 (20 ou 22 avril)
+- Remise finale: avant le début du cours final (11 ou 14 mai)
+
+### Format de remise
+
+**Dépôt GitHub** nommé `nom-prenom-projet-solarix`. Votre dépôt GitHub doit être public.
+
+- Pour la remise de la planification (20-22 avril) votre dépot github doit inclure fichier un `PLANIFICATION.md` avec les éléments décrits dans la section "Semaine 1: Planification". Votre dépôt GitHub doit être public et le lien doit être soumis via le Devoir associé dans Teams.
+
+- Pour remise finale votre dépot github doit inclure :
+  ```
+  solarix/
+  ├── index.html
+  ├── styles/
+  │   └── main.css (ou structure de votre choix)
+  ├── assets/
+  │   └── (images et icônes fournis)
+  ├── PLANIFICATION.md
+  └── JOURNAL.md
+  ```
+
+!!! danger Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt privé sans accès accordé équivaut à une remise manquante.
 
 
-## Format de remise
+## Présentation orale : cours 15
 
-**Dépôt GitHub** contenant :
-
-```
-solarix/
-├── index.html
-├── styles/
-│   └── main.css (ou structure de votre choix)
-├── assets/
-│   └── (images et icônes fournis)
-├── PLANIFICATION.md
-└── JOURNAL.md
-```
-
-> Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt privé sans accès accordé équivaut à une remise manquante.
-
-
-
-## Présentation orale — cours 15 *(5 points)*
+> 5 points (5% de la note finale)
+> **Remise : avant le début du prochain cours (cours 11 - 20/22 avril)**
 
 Chaque étudiant présente son interface au reste de la classe. La présentation doit couvrir :
 
-1. **L'interface finale** — démonstration en direct aux trois résolutions
-2. **Deux décisions techniques** — expliquez pourquoi vous avez fait ce choix (ex. : choix de Flexbox vs container query, structure BEM d'un composant)
-3. **La zone libre** — présentez votre conception et justifiez vos choix visuels
-4. **L'utilisation de l'IA** — si utilisée, montrez un exemple concret de votre démarche (requête → résultat → jugement critique)
-5. **Un défi rencontré** — qu'est-ce qui a été difficile et comment l'avez-vous surmonté?
+1. **L'interface finale**: démonstration en direct aux trois résolutions
+2. **Deux décisions techniques**  : expliquez pourquoi vous avez fait ce choix (ex. : choix de Flexbox vs container query, structure BEM d'un composant)
+3. **La zone libre**  : présentez votre conception et justifiez vos choix visuels
+4. **L'utilisation de l'IA**  : si utilisée, montrez un exemple concret de votre démarche (requête → résultat → jugement critique)
+5. **Un défi rencontré**  : qu'est-ce qui a été difficile et comment l'avez-vous surmonté?
 
-> La présence à la remise et à la présentation est obligatoire. Une absence entraîne la note 0 pour la présentation, même si le travail a été remis en ligne.
+!!! warning
+    La présence à la remise et à la présentation est obligatoire. Une absence entraîne la note 0 pour la présentation, même si le travail a été remis en ligne.
 
-> L'enseignante peut poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
+!!! question
+    L'enseignante peut poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
 
 
 ## Grille d'évaluation
 
-### Planification — 10 points
+### Planification  : 10 points
 
 | Critère | Points |
 |---|---|
@@ -247,33 +275,33 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 ---
 
-### Code et interface — 30 points
+### Code et interface : 30 points
 
 | Critère | Points |
 |---|---|
-| **Structure HTML** — sémantique, hiérarchie, attributs d'accessibilité | 5 pts |
-| **Fidélité à la maquette** — desktop et mobile | 5 pts |
-| **Flexbox** — utilisation appropriée et maîtrisée | 4 pts |
-| **Responsive mobile first** — trois résolutions, media queries et/ou container queries justifiés | 5 pts |
-| **Variables CSS et système cohérent** — couleurs, espacements, typographie | 3 pts |
-| **Nomenclature BEM** — appliquée par composant, cohérente, en anglais | 3 pts |
-| **Zone libre** — cohérence visuelle, qualité d'exécution, sens esthétique | 3 pts |
-| **Accessibilité** — contraste, focus, tailles de cible, audit complété | 2 pts |
+| **Structure HTML** : sémantique, hiérarchie, attributs d'accessibilité | 5 pts |
+| **Fidélité à la maquette** : desktop et mobile | 5 pts |
+| **Flexbox** : utilisation appropriée et maîtrisée | 4 pts |
+| **Responsive mobile first** : trois résolutions, media queries et/ou container queries justifiés | 5 pts |
+| **Variables CSS et système cohérent** : couleurs, espacements, typographie | 3 pts |
+| **Nomenclature BEM** : appliquée par composant, cohérente, en anglais | 3 pts |
+| **Zone libre** : cohérence visuelle, qualité d'exécution, sens esthétique | 3 pts |
+| **Accessibilité** : contraste, focus, tailles de cible, audit complété | 2 pts |
 
 ---
 
-### Journal de bord — 10 points
+### Journal de bord : 10 points
 
 | Critère | Points |
 |---|---|
-| Semaine 2 — questions complètes et réfléchies | 2 pts |
-| Semaine 3 — questions complètes, choix techniques justifiés | 4 pts |
-| Semaine 4 — audit d'accessibilité documenté, regard critique | 2 pts |
-| Qualité générale — honnêteté, profondeur, évolution visible | 2 pts |
+| Semaine 2 : questions complètes et réfléchies | 2 pts |
+| Semaine 3 : questions complètes, choix techniques justifiés | 4 pts |
+| Semaine 4 : audit d'accessibilité documenté, regard critique | 2 pts |
+| Qualité générale : honnêteté, profondeur, évolution visible | 2 pts |
 
 ---
 
-### Présentation orale — 5 points
+### Présentation orale : 5 points
 
 | Critère | Points |
 |---|---|
@@ -292,12 +320,11 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 - Contenu du cours Web 2 : [tim-montmorency.com/compendium/582-211-web2](https://tim-montmorency.com/compendium/582-211-web2/)
 - Documentation MDN : [developer.mozilla.org/fr/docs/Web](https://developer.mozilla.org/fr/docs/Web)
-- Guide Flexbox — CSS Tricks : [css-tricks.com/snippets/css/a-guide-to-flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- Guide Grid — CSS Tricks : [css-tricks.com/snippets/css/complete-guide-grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- Guide Flexbox : CSS Tricks : [css-tricks.com/snippets/css/a-guide-to-flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - Validateur HTML/CSS : [validator.w3.org](https://validator.w3.org/)
 - Méthodologie BEM : [getbem.com](https://getbem.com/)
 
----
 
 
-*Pour toute question, contactez l'enseignante par Teams de préférence. Comptez un délai de deux journées ouvrables pour obtenir une réponse.*
+!!! info
+    *Pour toute question, contactez l'enseignante par Teams de préférence. Comptez un délai de deux journées ouvrables pour obtenir une réponse.*
