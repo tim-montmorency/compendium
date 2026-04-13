@@ -68,6 +68,14 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 - Noms de classes, identifiants et variables CSS rédigés en **anglais**
 - Code annoté via des commentaires CSS
 
+
+#### Animations et transitions CSS
+
+- Les consignes pour les animations et transitions seront données dans les prochaines semaines. Elles devront être réalisées en CSS et respecter les critères suivants :
+  - Pertinentes et subtiles : elles doivent améliorer l'expérience utilisateur sans être distrayantes
+  - Performantes : éviter les propriétés qui causent des ralentissements (ex. : `box-shadow`, `filter`)
+  - Accessibles : fournir une alternative statique pour les utilisateurs qui préfèrent réduire les animations (via `prefers-reduced-motion`)
+
 ### Responsive
 
 - Trois points de rupture minimum : mobile, tablette, desktop
