@@ -83,7 +83,7 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 
 ## Politique d'utilisation de l'intelligence artificielle
 
-Ce projet se déroule en **Phase 3** de la politique IA du cours.
+Vous pourrez utiliser des outils d'IA pour vous assister dans ce projet, *EXCEPTÉ dans la phase de planification (semaine 1) où l'utilisation de l'IA est strictement interdite*. Pour les autres phases, voici les règles à suivre :
 
 **Non autorisé :**
 
@@ -125,6 +125,13 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 > Remise : avant le début du prochain cours (cours 11 - 20/22 avril)
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
+
+#### Interdit d'utiliser l'IA pour la phase de planification
+
+<div class="class-content-link">
+  <img src="../assets/assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA générative ou d'agent IA interdits à cette phase du projet. Tu dois démontrer tes capacités de planification et d'intégration.</span>
+</div>
 
 #### Maquette préliminaire pour la planification
 
