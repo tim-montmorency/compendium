@@ -299,4 +299,5 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 ---
 
+
 *Pour toute question, contactez l'enseignante par Teams de préférence. Comptez un délai de deux journées ouvrables pour obtenir une réponse.*
