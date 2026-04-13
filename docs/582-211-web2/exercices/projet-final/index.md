@@ -130,16 +130,21 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 ### Semaine 1: Planification | 13 au 19 avril
 
 > 10 points (10% de la note finale)
+
 > Remise : avant le début du prochain cours (cours 11 - 20/22 avril)
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
 #### Interdit d'utiliser l'IA pour la phase de planification
 
+-
+
 <div class="class-content-link">
-  <img src="../assets/assets/IA-interdite.png">
-  <span class="sidetext">Utilisation de l'IA générative ou d'agent IA interdits à cette phase du projet. Tu dois démontrer tes capacités de planification et d'intégration.</span>
+  <img src="../../assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA INTERDITE à cette phase du projet. Tu dois démontrer tes capacités de planification et d'intégration.</span>
 </div>
+
+-
 
 #### Maquette préliminaire pour la planification
 
@@ -191,6 +196,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 ### Semaine 2: Structure HTML | 20 au 26 avril
 
 > incluse dans les 30 points du code
+
 > Remise : avant le début du cours 14 (4 mai)
 
 **Contenu attendu :**
@@ -212,6 +218,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 ### Semaine 3: CSS et responsive | 27 avril au 3 mai
 
 > incluse dans les 30 points du code
+
 > Remise : avant le début du cours 15 (11 mai) : en même temps que la remise finale
 
 **Contenu attendu :**
@@ -237,9 +244,11 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 ### Semaine 4:  Finalisation et accessibilité | 4 au 10 mai
 
 > incluse dans les 30 points du code
+
 > Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
 **Contenu attendu :**
+
 - Interface finalisée et peaufinée
 - Audit d'accessibilité complété
 - Journal de bord complet
@@ -269,6 +278,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 - Pour la remise de la planification (20-22 avril) votre dépot github doit inclure fichier un `PLANIFICATION.md` avec les éléments décrits dans la section "Semaine 1: Planification". Votre dépôt GitHub doit être *privé* et l'accès à l'enseignante doit être accordé. Le lien veres le dépot GitHub doit être soumis via le Devoir associé dans Teams.
 
 - Pour remise finale votre dépot github doit inclure :
+
   ```
   solarix/
   ├── index.html
@@ -280,13 +290,15 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
   └── JOURNAL.md
   ```
 
-!!! danger Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt privé sans accès accordé équivaut à une remise manquante. Pour accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
+!!! danger
+    Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt *privé* sans accès accordé équivaut à une remise manquante. Pour accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
 
 
 ## Présentation orale : cours 15
 
 > 5 points (5% de la note finale)
-> **Remise : avant le début du prochain cours (cours 11 - 20/22 avril)**
+
+> Remise : avant le début du prochain cours (cours 11 - 20/22 avril)
 
 Chaque étudiant présente son interface au reste de la classe. La présentation doit couvrir :
 
@@ -322,14 +334,15 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 | Critère | Points |
 |---|---|
-| **Structure HTML** : sémantique, hiérarchie, attributs d'accessibilité | 5 pts |
-| **Fidélité à la maquette** : desktop et mobile | 5 pts |
+| **Structure HTML** : sémantique, hiérarchie, attributs d'accessibilité | 4 pts |
+| **Fidélité à la maquette** : desktop et mobile | 4 pts |
 | **Flexbox** : utilisation appropriée et maîtrisée | 4 pts |
 | **Responsive mobile first** : trois résolutions, media queries et/ou container queries justifiés | 5 pts |
 | **Variables CSS et système cohérent** : couleurs, espacements, typographie | 3 pts |
 | **Nomenclature BEM** : appliquée par composant, cohérente, en anglais | 3 pts |
 | **Zone libre** : cohérence visuelle, qualité d'exécution, sens esthétique | 3 pts |
-| **Accessibilité** : contraste, focus, tailles de cible, audit complété | 2 pts |
+| **Animations et transitions** : pertinentes, performantes, accessibles | 2 pts |
+| **Accessibilité** : contraste, focus, tailles de cible, préférence de thème (sombre), audit complété | 2 pts |
 
 ---
 
