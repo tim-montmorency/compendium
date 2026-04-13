@@ -12,6 +12,12 @@ Composants adaptatifs intelligents
 · Architecture CSS pour composants adaptatifs
 
 -->
+## Révision des exercices du cours précédent
+
+- [👩🏻‍💻 Atelier Zone-Out 🎮 (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md)
+- [🎨 Carte adaptative media queries avancées](./exercices/ex-carte-adaptable-mediaqueries.md) (1 CodePen)
+- [↗ Transform: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/)
+
 
 ## 🔁 Transitions CSS
 
@@ -54,7 +60,7 @@ https://laconsole.dev/formations/css/container-queries
 
 ## Lancement du projet final
 
-[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button .md-button--primary }
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
 
 
 ## Devoirs
