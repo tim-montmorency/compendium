@@ -122,7 +122,7 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 ### Semaine 1: Planification | 13 au 19 avril
 
 > 10 points (10% de la note finale)
-> **Remise : avant le début du prochain cours (cours 11 - 20/22 avril)**
+> Remise : avant le début du prochain cours (cours 11 - 20/22 avril)
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
@@ -176,7 +176,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 ### Semaine 2: Structure HTML | 20 au 26 avril
 
 > incluse dans les 30 points du code
-> **Remise : avant le début du cours 14 (4 mai)**
+> Remise : avant le début du cours 14 (4 mai)
 
 **Contenu attendu :**
 
@@ -197,7 +197,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 ### Semaine 3: CSS et responsive | 27 avril au 3 mai
 
 > incluse dans les 30 points du code
-> *Remise : avant le début du cours 15 (11 mai) : en même temps que la remise finale*
+> Remise : avant le début du cours 15 (11 mai) : en même temps que la remise finale
 
 **Contenu attendu :**
 
@@ -222,7 +222,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 ### Semaine 4:  Finalisation et accessibilité | 4 au 10 mai
 
 > incluse dans les 30 points du code
-> **Remise finale : avant le début du cours 15 (11 ou 14 mai)**
+> Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
 **Contenu attendu :**
 - Interface finalisée et peaufinée
