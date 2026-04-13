@@ -4,7 +4,7 @@
 **Pondération : 55 points**  
 **Remise finale : cours 15 (11 ou 14 mai)**
 
----
+
 
 ## Mise en contexte
 
@@ -17,7 +17,7 @@ Vous recevez :
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
----
+
 
 ## Objectifs d'apprentissage ciblés
 
@@ -26,7 +26,7 @@ Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que
 - Produire un code CSS lisible, maintenable et bien documenté
 - Utiliser l'intelligence artificielle comme outil professionnel de façon critique et réfléchie
 
----
+
 
 ## Description de l'interface à intégrer
 
@@ -43,16 +43,18 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 
 > ⭐ **Zone libre** — La zone de stats globales est la section que vous devez **concevoir vous-même**. Le contenu est fourni (les 4 statistiques et leurs valeurs), mais la mise en page et le traitement visuel sont libres. Votre conception doit demeurer cohérente avec le système visuel de la maquette fournie.
 
----
+
 
 ## Exigences techniques
 
 ### HTML
+
 - Structure sémantique rigoureuse (`header`, `nav`, `main`, `section`, `article`, etc.)
 - Respect de la hiérarchie des titres
 - Attributs d'accessibilité (`alt`, `aria-label`, `aria-current`, etc.)
 
 ### CSS
+
 - Approche **mobile first** obligatoire
 - **Flexbox** obligatoire pour la mise en page des composants
 - Utilisation judicieuse de **media queries** et/ou de **container queries** selon le contexte :
@@ -64,34 +66,39 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 - Code annoté via des commentaires CSS
 
 ### Responsive
+
 - Trois points de rupture minimum : mobile, tablette, desktop
 - La disposition doit être fidèle à la maquette fournie à chaque résolution
 
 ### Accessibilité
+
 - Respect des critères WCAG de base (contraste, focus visible, tailles de cible)
 - Navigation possible au clavier
 - Audit obligatoire avec Lighthouse ou axe DevTools (voir journal de bord, semaine 4)
 
----
+
 
 ## Politique d'utilisation de l'intelligence artificielle
 
 Ce projet se déroule en **Phase 3** de la politique IA du cours : l'IA est encouragée comme outil professionnel.
 
 **Autorisé :**
+
 - Générer du code, analyser des solutions, comparer des approches
 - Utiliser l'IA pour déboguer, optimiser ou améliorer votre code
 - S'en servir pour explorer des solutions alternatives
 
 **Toujours obligatoire, peu importe l'outil utilisé :**
+
 - Comprendre chaque ligne de code remise
 - Être capable de l'expliquer et de le justifier à l'oral
 - En assurer la qualité, la cohérence et l'accessibilité
-- Documenter l'utilisation de l'IA dans le journal de bord
+- Documenter au fur et à mesure l'utilisation de l'IA dans le journal de bord (l'outil IA et ta requête (ton prompt))
 
-> Tout contenu généré par une IA doit être cité en mentionnant le nom de l'outil, la version et la requête utilisée. Ne pas le mentionner constitue du plagiat.
+!!! danger Important sur la documentation de tes prompts
+    Tout contenu généré par une IA doit être cité en mentionnant le nom de l'outil IA et ta requête (ton prompt) utilisée. Ne pas le mentionner constitue du *plagiat*.
 
----
+
 
 ## Structure du projet et livrables
 
@@ -100,6 +107,7 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 ---
 
 ### Semaine 1 — Planification *(10 points)*
+
 **Remise : avant le début du cours 13 (27 avril)**
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
@@ -129,9 +137,11 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 ---
 
 ### Semaine 2 — Structure HTML *(incluse dans les 30 points du code)*
+
 **Remise : avant le début du cours 14 (4 mai)**
 
 **Contenu attendu :**
+
 - HTML complet de l'interface intégré dans le canevas fourni
 - Structure sémantique respectée
 - Attributs d'accessibilité de base en place
@@ -147,9 +157,11 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 ---
 
 ### Semaine 3 — CSS et responsive *(incluse dans les 30 points du code)*
+
 **Remise : avant le début du cours 15 (11 mai) — en même temps que la remise finale*
 
 **Contenu attendu :**
+
 - CSS complet de l'interface (approche mobile first)
 - Responsive fonctionnel aux trois résolutions
 - Variables CSS définies et utilisées
@@ -184,7 +196,7 @@ Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 3. Quel est l'aspect de votre CSS dont vous êtes le plus satisfait? Pourquoi?
 4. Si vous recommenciez ce projet, qu'est-ce que vous feriez différemment?
 
----
+
 
 ## Format de remise
 
@@ -203,7 +215,7 @@ solarix/
 
 > Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt privé sans accès accordé équivaut à une remise manquante.
 
----
+
 
 ## Présentation orale — cours 15 *(5 points)*
 
@@ -219,7 +231,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 > L'enseignante peut poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
----
+
 
 ## Grille d'évaluation
 
@@ -274,7 +286,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 **Total : 55 points**
 
----
+
 
 ## Ressources
 
