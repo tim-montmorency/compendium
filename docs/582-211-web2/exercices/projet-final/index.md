@@ -37,7 +37,7 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 
 | Composant | Description |
 |---|---|
-| Barre de navigation latérale | Avatar, nom du personnage, liens de navigation (desktop) / barre de navigation en bas (mobile) |
+| Barre de navigation latérale | Avatar, nom du personnage, liens de navigation (desktop) / barre de navigation fixée en bas (mobile) |
 | Carte de profil | Avatar, nom, niveau, rang, barre de progression XP |
 | ⭐ Zone de stats globales  | 4 statistiques clés (quêtes terminées, temps de jeu, alliés, insignes) |
 | Cartes de quêtes récentes | 3 cartes avec image, titre, description, statut et récompenses |
@@ -53,6 +53,7 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 - Structure sémantique rigoureuse (`header`, `nav`, `main`, `section`, `article`, etc.)
 - Respect de la hiérarchie des titres
 - Attributs d'accessibilité (`alt`, `aria-label`, `aria-current`, etc.)
+- Code propre et lisible : indentation, sections séparées clairement par des commentaires
 
 ### CSS
 
@@ -62,6 +63,7 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
   - Utiliser les **media queries** pour les changements de disposition globale (ex. : sidebar → bottom nav)
   - Utiliser les **container queries** pour les composants qui doivent s'adapter à leur conteneur plutôt qu'à la fenêtre
 - **Variables CSS** pour les couleurs, espacements et typographie
+- Faire une version *mode sombre (dark mode)* en modifiant uniquement les variables CSS et en utilisant les requêtes média de préférence de thème de l'utilisateur
 - Nomenclature **BEM** appliquée par composant défini (pas nécessairement partout, mais de façon cohérente et justifiée)
 - Noms de classes, identifiants et variables CSS rédigés en **anglais**
 - Code annoté via des commentaires CSS
@@ -76,6 +78,7 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 - Respect des critères WCAG de base (contraste, focus visible, tailles de cible)
 - Navigation possible au clavier
 - Audit obligatoire avec Lighthouse ou axe DevTools (voir journal de bord, semaine 4)
+- Version *mode sombre (dark mode)* pour respecter les préférence de thème de l'utilisateur
 
 
 ## Politique d'utilisation de l'intelligence artificielle
