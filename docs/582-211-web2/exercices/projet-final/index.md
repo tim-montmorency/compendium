@@ -1,14 +1,15 @@
 # Projet intégrateur: Solarix
 
-**582-211-MO : Web 2 | Session H2026**  
-**Pondération : 55 points**  
-**Remise finale : cours 15 (11 ou 14 mai)**
+582-211-MO : Web 2 | Session H2026
+Pondération : 55 points
+**Remise de la planification** : cours 11 (20 ou 22 avril)
+**Remise finale** : cours 15 (11 ou 14 mai)
 
 
 
 ## Mise en contexte
 
-Solarix est un jeu de rôle fictif à l'esthétique Solarpunk : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
+*Solarix* est un jeu de rôle fictif à l'esthétique *Solarpunk* : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
 
 Vous recevez :
 
