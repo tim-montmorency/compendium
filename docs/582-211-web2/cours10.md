@@ -43,16 +43,22 @@ Composants adaptatifs intelligents
 
 <!--
 https://laconsole.dev/formations/css/container-queries 
--->
+
 
 ### Unités des requête de conteneur et typo fluide
 
 [Unités des requête de conteneur et typo fluide](https://moderncss.dev/container-query-units-and-fluid-typography/){ .md-button .md-button--primary }
 
+-->
+
+
 ## Lancement du projet final
 
-...
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button .md-button--primary }
 
 
 ## Devoirs
 
+- Projet intégrateur - Planification: remise au prochain cours (10%)
+- Terminer les exercices de transition CSS
+- Terminer l'exercice de composant adaptatif intelligent (container queries)
