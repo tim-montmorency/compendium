@@ -123,6 +123,21 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
+#### Maquette préliminaire pour la planification
+
+Veuillez noter que pour la planification, vous devez travailler à partir de la *maquette préliminaire* fournie ici. Le contenu de la maquette finale à intégrer va possiblement un peu varier mais les grandes lignes de la mise en page restent les mêmes.
+
+Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vous allez concevoir (zone de statistiques du joueur). L'objectif de cette étape-ci est de vous concentrer sur l'analyse de la *structure globale* et des *composants de base* avant d'ajouter votre propre conception pour la zone libre.
+
+**Aperçu de la maquette préliminaire :**
+
+<img src="./Solarix-Desktop-thumbnail.png" alt="Aperçu de la maquette desktop" width="200">
+
+**Téléchargez les maquettes préliminaires pour la planification ici :**
+
+- [Maquette préliminaire: Format grand écran :material-download:](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBHTIsqKEzQQqQopOZecPOfAZiY6sRh4aY9QBYMR_At5zo?e=vEubmQ)
+- [Maquette préliminaire: Format mobile :material-download:](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQCqzZYkXDBpQJ15A51dopvjAcswgqmSbru1DI_nJvicttI?e=UfhcKH)
+
 **Contenu attendu :**
 
 1. **Analyse de la maquette** : Identifiez et nommez tous les composants de l'interface. Faites un schéma ou une liste annotée.
