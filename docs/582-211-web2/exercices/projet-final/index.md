@@ -42,7 +42,14 @@ L'interface comprend **une vue principale** : le tableau de bord du joueur.
 | ⭐ Zone de stats globales  | 4 statistiques clés (quêtes terminées, temps de jeu, alliés, insignes) |
 | Cartes de quêtes récentes | 3 cartes avec image, titre, description, statut et récompenses |
 
-> ⭐ **Zone libre** : La zone de stats globales est la section que vous devez **concevoir vous-même**. Le contenu est fourni (les 4 statistiques et leurs valeurs), mais la mise en page et le traitement visuel sont libres. Votre conception doit demeurer cohérente avec le système visuel de la maquette fournie.
+> ⭐ **Zone libre** : La zone de stats globales est la section que vous devez **concevoir vous-même**. Le contenu est fourni (les 4 statistiques et leurs valeurs), mais la mise en page et le traitement visuel sont libres. Votre conception doit demeurer cohérente avec le système visuel de la maquette fournie. 
+
+Voici le contenu de la ⭐**zone libre** à intégrer :
+
+- Quêtes terminées : 142
+- Temps de jeu : 1204h
+- Alliés : 38
+- Insignes : 12
 
 
 
@@ -185,7 +192,11 @@ Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vo
 
 4. **Stratégie responsive** : Décrivez brièvement comment vous prévoyez gérer le passage desktop → mobile pour chaque composant. Justifiez votre choix entre media queries et container queries pour au moins un composant.
 
-5. **Conception de la zone libre** : Décrivez ou esquissez votre vision pour la zone de stats globales. Comment allez-vous la mettre en page tout en restant cohérent avec le reste de l'interface?
+5. **Conception de la zone libre** : Décrivez ou esquissez votre vision pour la zone de stats globales. Comment allez-vous la mettre en page tout en restant cohérent avec le reste de l'interface? Voici le contenu de la zone libre à intégrer :
+   - Quêtes terminées : 142
+   - Temps de jeu : 1204h
+   - Alliés : 38
+   - Insignes : 12
 
 **Format de remise :** Fichier `PLANIFICATION.md` déposé dans votre dépôt GitHub.
 
