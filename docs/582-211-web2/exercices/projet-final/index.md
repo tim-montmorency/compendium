@@ -141,10 +141,11 @@ Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vo
 - [Maquette préliminaire: Format grand écran :material-download:](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBHTIsqKEzQQqQopOZecPOfAZiY6sRh4aY9QBYMR_At5zo?e=vEubmQ)
 - [Maquette préliminaire: Format mobile :material-download:](https://cmontmorency365-my.sharepoint.com/:i:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQCqzZYkXDBpQJ15A51dopvjAcswgqmSbru1DI_nJvicttI?e=UfhcKH)
 
-#### Étapes de la planification
+#### Étapes de la planification :
 
-- Créer un dépôt GitHub public nommé `nom-prenom-projet-solarix`, le rendre public ou accorder l'accès à l'enseignante
-- Créer un fichier `PLANIFICATION.md` dans votre dépôt GitHub
+- Créer un dépôt GitHub *privé* nommé `nom-prenom-projet-solarix`.
+  - Accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
+- Créer un fichier `PLANIFICATION.md` dans votre dépôt GitHub.
 
 #### Contenu attendu :
 
@@ -247,9 +248,10 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 
 ### Format de remise
 
-**Dépôt GitHub** nommé `nom-prenom-projet-solarix`. Votre dépôt GitHub doit être public.
+- **Dépôt GitHub** nommé `nom-prenom-projet-solarix`. Votre dépôt GitHub doit être *privé*.
+  - Accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
 
-- Pour la remise de la planification (20-22 avril) votre dépot github doit inclure fichier un `PLANIFICATION.md` avec les éléments décrits dans la section "Semaine 1: Planification". Votre dépôt GitHub doit être public et le lien doit être soumis via le Devoir associé dans Teams.
+- Pour la remise de la planification (20-22 avril) votre dépot github doit inclure fichier un `PLANIFICATION.md` avec les éléments décrits dans la section "Semaine 1: Planification". Votre dépôt GitHub doit être *privé* et l'accès à l'enseignante doit être accordé. Le lien veres le dépot GitHub doit être soumis via le Devoir associé dans Teams.
 
 - Pour remise finale votre dépot github doit inclure :
   ```
@@ -263,7 +265,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
   └── JOURNAL.md
   ```
 
-!!! danger Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt privé sans accès accordé équivaut à une remise manquante.
+!!! danger Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt privé sans accès accordé équivaut à une remise manquante. Pour accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
 
 
 ## Présentation orale : cours 15
