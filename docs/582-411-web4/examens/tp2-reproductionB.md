@@ -23,6 +23,11 @@
 ## Lien vers le site web
 [Omero B](https://tp2steph.tim-momo.com/trflhs-62/)
 
+## Matériel
+
+[Omero B](../assets/documents/Omero-2.zip)
+
+
 ## Objectif du travail
 Dans ce travail pratique, vous devrez recréer un site web existant en utilisant les outils vus en classe.
 
@@ -128,6 +133,10 @@ Bon travail !
 
 
 🧮 Total : ______ / 100
+
+!!! Tip "Information"
+
+    Votre note est calculée sur 100 points, puis convertie sur 30 %, qui représente la pondération de ce travail dans votre note finale.
 
 ---
 
