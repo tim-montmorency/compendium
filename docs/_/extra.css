@@ -713,9 +713,9 @@ stop:before {
   margin-top: 0;
 }
 
-/*.finishing .md-typeset h1:has(+ p) {
+.finishing .md-typeset h1:has(+ p) {
   margin-bottom: 0;
-}*/
+}
 
 .finishing .md-typeset h3 {
   font-size: 1.9em;
