@@ -1,9 +1,9 @@
 # Projet intégrateur: Solarix
 
-582-211-MO : Web 2 | Session H2026
-Pondération : 55 points
-**Remise de la planification** : cours 11 (20 ou 22 avril)
-**Remise finale** : cours 15 (11 ou 14 mai)
+582-211-MO : Web 2 | Session H2026 <br>
+Pondération : 55 points<br>
+**Remise de la planification** : cours 11 (20 ou 22 avril)<br>
+**Remise finale** : cours 15 (11 ou 14 mai)<br>
 
 
 
