@@ -37,8 +37,9 @@ Composants adaptatifs intelligents
 
 [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/){ .md-button }
 
+<!-- nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
 [👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
-
+-->
 
 
 ## Composants adaptatifs intelligents
@@ -66,5 +67,5 @@ https://laconsole.dev/formations/css/container-queries
 ## Devoirs
 
 - Projet intégrateur - Planification: remise au prochain cours (10%)
-- Terminer les exercices de transition CSS
+- Terminer les exercices 2 de transition CSS
 - Terminer l'exercice de composant adaptatif intelligent (container queries)

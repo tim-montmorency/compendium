@@ -133,7 +133,9 @@ Révision et questions sur les concepts de breakpoint et media queries à traver
 
 [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/){ .md-button }
 
+<!--  nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
 [👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
+-->
 
 ## DEVOIRS
 
@@ -147,4 +149,6 @@ Terminer les exercices transition CSS
 
 - [Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)
 - [Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)
+<!-- nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
 - [Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/)
+-->
