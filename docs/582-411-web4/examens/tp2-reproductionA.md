@@ -19,6 +19,11 @@
 ## Lien vers le site web
 [Omero A](https://tp2steph.tim-momo.com/xlrf2-24/)
 
+## Matériel
+
+[Omero A](../assets/documents/Omero-1.zip)
+
+
 ## Objectif du travail
 Dans ce travail pratique, vous devrez recréer un site web existant en utilisant les outils vus en classe.
 
@@ -123,6 +128,10 @@ Bon travail !
 
 
 🧮 Total : ______ / 100
+
+!!! Tip "Information"
+
+    Votre note est calculée sur 100 points, puis convertie sur 30 %, qui représente la pondération de ce travail dans votre note finale.
 
 ---
 
