@@ -25,9 +25,7 @@ Avec les *media queries classiques*, on dit au composant comment se comporter se
 
 ## Exemple concret du problème
 
-> Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen** et redimensionner la fenêtre. Vous pouvez aussi explorer le code CSS.
-
-Une carte `.card` affichée en pleine largeur doit être en *format horizontal*.
+Une carte `.card` affichée en *pleine largeur dans le `<main>`* doit être en *format horizontal*.
 
 La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*.
 
@@ -35,7 +33,7 @@ Avec les media queries, impossible de le savoir: le composant *ne connaît pas s
 
 > Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen** et redimensionner la fenêtre. Vous pouvez aussi explorer le code CSS.
 
-<p class="codepen" data-theme-id="50210" data-height="550" data-pen-title="DEMO sans Container queries" data-version="2" data-default-tab="result" data-slug-hash="XJjomrv" data-user="tim-momo" style="height: 550px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="420" data-pen-title="DEMO sans Container queries" data-version="2" data-default-tab="result" data-slug-hash="XJjomrv" data-user="tim-momo" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d89aa-76a0-774e-ae00-525ae307729c">
   DEMO sans Container queries</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -90,8 +88,11 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 ```
 
 !!! tip "Le plus courant: inline-size"
-    Le type le plus courant: `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
+    Le type le plus courant:
+    `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
+
     Les autres type de conteneur sont:
+
     - `container-type: size` (largeur ET hauteur) 
     - `container-type: normal` (pas de mesure, mais le nom est disponible pour du style conditionnel).
 
