@@ -18,14 +18,22 @@ S|container queries||  S|media queries|| S|@container||  S|container-type|| S|co
 
 ## Pourquoi les media queries ne suffisent pas
 
-Avec les *media queries classiques*, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
+Avec les *media queries classiques*, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples, mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
 
 
-!!! warning "Le problème concret"
-    Une carte `.card` affichée en pleine largeur doit être en *format horizontal*.
-    La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*. 
-    Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
 
+
+## Exemple concret du problème
+
+> Voir dans le CodePen ci-dessous. Pour mieux le constater, cliquer sur "Edit on CodePen" et redimensionner la fenêtre.
+
+Une carte `.card` affichée en pleine largeur doit être en *format horizontal*.
+
+La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*. 
+
+Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
+
+> Voir dans le CodePen ci-dessous. Pour mieux le constater, cliquer sur "Edit on CodePen" et redimensionner la fenêtre.
 
 <p class="codepen" data-theme-id="50210" data-height="550" data-pen-title="DEMO sans Container queries" data-version="2" data-default-tab="result" data-slug-hash="XJjomrv" data-user="tim-momo" style="height: 550px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d89aa-76a0-774e-ae00-525ae307729c">
@@ -35,7 +43,11 @@ Avec les *media queries classiques*, on dit au composant comment se comporter se
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-Imaginez : vous créez un composant `.card` avec une media query qui dit *« à partir de 600px, passe en horizontal »*. Mais 600px, c'est 600px de *quoi* ? De l'écran (viewport), pas du conteneur de la carte. Donc si la carte est dans une colonne de 300px sur un grand écran, elle sera quand même en horizontal, et ça casse tout.
+Imaginez : vous créez un composant `.card` avec une media query qui dit *« à partir de 600px, passe en horizontal »*. 
+
+Mais 600px, c'est 600px de *quoi* ? De l'écran (viewport), pas du conteneur de la carte. 
+
+Donc si la carte est dans une colonne de 300px sur un grand écran, elle sera quand même en horizontal, et ça casse tout.
 
 ```css
 /* ❌ Le problème : on se fie à la fenêtre, pas au conteneur */
