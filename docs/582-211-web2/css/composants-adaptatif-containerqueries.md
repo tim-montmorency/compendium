@@ -91,7 +91,6 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 
 !!! tip "Le plus courant: inline-size"
     Le type le plus courant: `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
-
     Les autres type de conteneur sont:
     - `container-type: size` (largeur ET hauteur) 
     - `container-type: normal` (pas de mesure, mais le nom est disponible pour du style conditionnel).
