@@ -258,6 +258,8 @@ Ainsi, on vient de créer un `toggle` !
 
 [STOP]
 
+Note : La matière se donne en 1h et les exercices prennent max 1h à faire. Alors c'est un peu court finalement.
+
 Note : Probablement traiter la notion de prototype avant Figma Sites afin que la création d'une url soit une nouveauté intéressante.
 Parler du prototype ensuite est un léger pas en arrière.
 La notion de prototype devrait s'ajouter par dessus Figma Sites. C'est plus logique ainsi. C'est d'ailleurs ce que Figma semble suggérer.
