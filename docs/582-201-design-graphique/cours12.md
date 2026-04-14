@@ -2,7 +2,17 @@
 
 [STOP]
 
+Exercices d'IA / outils builtin figma : 
+
+* Remove background
+* Remove un élément dans l'image
+* Vectoriser un élément
+* Générer une image
+* Améliorer la résolution
+
 Exercices que je suis le client + mini présentations.
+
+Explorer la possibilité que chacun soit un client.
 
 ## Retour sur le Devoir 04
 

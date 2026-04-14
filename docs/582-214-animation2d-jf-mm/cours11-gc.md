@@ -1,14 +1,39 @@
-[STOP]
-
 # Cours 11
 
 ## Ordre du jour
 
+- [Présentation du concours d'essai audiovisuel](#présentation-du-concours-dessai-audiovisuel)
+- [Retour sur le montage vidéo](#retour-sur-le-montage-vidéo)
 - [Outils additionnels dans Illustrator](#outils-additionnels-dans-illustrator)
 - [Rigging et arborescence](#rigging-et-arborescence)
 - [Travailler en équipe avec After Effects](#travailler-en-équipe-avec-after-effects)
 - [Présentation du travail synthèse](#présentation-du-travail-synthèse)
 
+## Présentation du concours d'essai audiovisuel
+
+Le fameux concours d'essais audiovisuels aura encore lieu cette année !
+ 
+Ce concours est une belle occasion d'obtenir une bourse en argent (jusqu'à 175$) et de bonifier votre portfolio ! 
+ 
+Date limite de remise : 10 mai 2026 
+ 
+Vous trouverez [ici](https://cmontmorency365.sharepoint.com/:b:/r/sites/TIM-programmeTIM752/Documents%20partages/Concours%20essais%20audiovisuels/Appel%20a%20candidature%202026.pdf?csf=1&web=1&e=UCFoag) les détails de l'appel aux candidatures.
+ 
+Des questions? Adressez-les à Lora Boisvert ou à Thomas O Fredericks
+
+## Retour sur le montage vidéo
+
+Tel que mentionné dans les cours précédant, After Effects n'est pas un outil de montage vidéo, mais bien d'intégration (compositing), de conception d'effets spéciaux visuels (VFX) et de conception graphique animée (motion design). Malgré que le montage soit possible, il reste que ce n'est pas l'outil idéal. Pour travailler de manière optimale, il est préférable d'exporter nos compositions dans un logiciel de montage comme Adobe Premiere Pro ou Davinci Resolve. 
+
+### Intégration dans Premiere Pro
+
+Sans doute la méthode la plus facile, pour faire le montage de nos compositions dans Premiere Pro, il suffit de les importer directement dans Premiere Pro au format After Effects (.aep). Ensuite, il est possible de modifier dans After Effects et de sauvegarder pour actualiser automatiquement dans Premiere Pro sans avoir à exporter ou faire de rendu au préalable.
+
+### Intégration dans Davinci Resolve
+
+Bien que la méthode est assez semblable pour travailler dans Davinci Resolve, il suffit d'exporter un rendu (au format .mp4 par exemple). Par contre, le processus est à recommencer à chaque fois qu'une composition est modifiée dans After Effects. 
+
+### Démonstration
 
 ## Outils additionnels dans Illustrator
 
@@ -97,3 +122,5 @@ Si cette méthode ne fonctionne toujours pas, je vous recommande de m'écrire su
     Évitez les espaces, les caractères accentués et les caractères speciaux dans les noms de fichier.
 
 ## Présentation du travail synthèse
+
+![](./assets/images/cours11-gc/i-know-kung-animation.webp)
