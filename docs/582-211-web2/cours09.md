@@ -31,7 +31,8 @@ Transitions et animations UX – Partie A
 - Contenu du jour
   - Requêtes média avancées
   - Stratégies de breakpoints raisonnées
-  - Transitions CSS
+  - Transformation CSS
+  - Transitions CSS (mercredi seulement)
 - Rencontres individuelles ciblées pour valider le projet 1 (ou prise de r-v à l'extérieur du cours si nécessaire)
 
 !!! warning "Rappel ce propos"
@@ -43,41 +44,39 @@ Transitions et animations UX – Partie A
 - [Groupe du lundi après-midi](https://app.wooclap.com/QLMCRO)
 - [Groupe du mercredi](https://app.wooclap.com/IZZAKH)
 
+<!-- 
 ## Retour sur exercice "Première *media query*: albums de musique"
-
-<!-- Groupes lundi seulement: Cours 8 - Slide 09  -->
-
+Groupes lundi seulement: Cours 8 - Slide 09  
 [Première *media query*: albums de musique](./exercices/cours8-responsive/03-exercice-guide.md)
+-->
 
 ## Gap et largeur de colonnes dans les grilles Flexbox
 
 [📚 Contenu de cours: Flexbox: `gap` et largeur de colonnes](./css/flexbox-gap-calc.md)
 
 
-## Atelier Zone-Out 🎮 (breakpoint-media queries)
+## Atelier Zone-Out 🎮 (lundi seulement)
 
-<!--  Groupes lundi seulement : Cours 8 - Slide 10  -->
-
-- 🟢 Niveau 1
-- 🟡 Niveau 2
-- 🔴 Niveau 3
-
+<!--  Groupes lundi seulement : Cours 8 - Slide 10  
+🟢 Niveau 1
+🟡 Niveau 2
+🔴 Niveau 3 
 Vous débutez en classe mais vous allez devoir le terminer en devoir pour le prochain cours dans 2 semaines (13 avril).
+-->
 
 [👩🏻‍💻 Atelier Zone-Out 🎮 (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
 
-Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
-
-<!--
-
-### Retour collectif sur l'atelier Zone-Out 🎮: convivialité mobile
-
- Cours 8 - Slide 11  
 
 
-`RETOUR COLLECTIF — CONVIVIALITÉ MOBILE`
+## Retour collectif sur l'atelier Zone-Out (mercredi seulement)
 
-# Responsive ≠ Accessible (mais c'est un début)
+<!-- Cours 8 - Slide 11  -->
+
+Révision et questions sur les concepts de breakpoint et media queries à travers l'atelier Zone-Out.
+
+[👩🏻‍💻 Atelier Zone-Out 🎮 (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md){ .md-button }
+
+### Responsive ≠ Accessible (mais c'est un début)
 
 | 👆 Cibles tactiles ≥ 44px | 📖 Texte lisible sans zoom |
 |---|---|
@@ -87,22 +86,8 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 |---|---|
 | C'est la signature d'un site non responsive. Teste à toutes les tailles. | Les marges et paddings pensés pour desktop sont souvent trop serrés sur mobile. |
 
-*On approfondit l'accessibilité au cours 13. Aujourd'hui : poser les bases.*
-
-### La règle des breakpoints
-
- Cours 8 - Slide 12  
-
-`SYNTHÈSE — À RETENIR `
-
-✓ Choisir un breakpoint en observant le contenu
-✓ Écrire une media query avec la bonne syntaxe
-✓ Appliquer l'approche mobile-first (min-width)
-✓ Inclure le viewport meta tag (toujours)
-✓ Tester la convivialité mobile de base
 
 > Ajoute un breakpoint quand ton contenu te le demande.
--->
 
 
 ## Requêtes média avancées
@@ -129,10 +114,9 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 ### Exercice transformation
 
-[👩🏻‍💻 Exercice translate: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
+[👩🏻‍💻 Exercice transform: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
 
 
-<!--
 ## 🔁 Transitions CSS
 
 - `transition`
@@ -149,16 +133,22 @@ Pendant l'exercice: Rencontres individuelles ciblées pour valider le projet 1.
 
 [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/){ .md-button }
 
+<!--  nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
 [👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
-
 -->
 
-## DEVOIR
+## DEVOIRS
 
-- Terminer l'atelier Zone-Out (3 fichiers HTML groupés et compressés .zip)
-- Terminer l'exercice carte adaptative media queries avancées (1 CodePen)
-- Terminer l'exercice transformations CSS (6 CodePens distincts)
+- Terminer l'[atelier Zone-Out (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md) (*groupes du lundi seulement* car le groupe du mercredi c'est déjà remis)
+- Terminer l'[exercice carte adaptative media queries avancées](./exercices/ex-carte-adaptable-mediaqueries.md) (1 CodePen)
+- Terminer l'[exercice transform: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/) (6 CodePens distincts)
 
+### Pour le groupe du mercredi seulement
 
+Terminer les exercices transition CSS
 
-<!--  Terminer les exercices transition CSS -->
+- [Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)
+- [Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)
+<!-- nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
+- [Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/)
+-->

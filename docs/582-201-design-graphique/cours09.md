@@ -2,13 +2,37 @@
 
 ![](./assets/img/1_xnE7ROIC-V5H1HbAvjr8XA.png){.w-100}
 
+## Annonces
+
+### Exposition
+
+<figure markdown>
+![](./assets/img/jo76_16_20260324_ra_900x480.jpg)
+<figcaption markdown>
+[Montréal 1976 : une épreuve olympique](https://www.musee-mccord-stewart.ca/fr/expositions/montreal-1976-epreuve-olympique/)
+</figcaption>
+</figure>
+
+### Concours d'essais audiovisuels
+
+![](./assets/img/essais-audiovisuel.png){.w-100}
+
+Le fameux concours d'essais audiovisuels aura encore lieu cette année !
+Ce concours est une belle occasion d'obtenir une bourse en argent (jusqu'à 175$) et de bonifier votre portfolio ! 
+ 
+Date limite de remise : **10 mai 2026**
+ 
+Vous trouverez ici les détails de l'appel à candidatures: [Appel a candidature 2026.pdf](./assets/documents/Appel-a-candidature-2026.pdf)
+ 
+Des questions? Adressez-les à **Lora Boisvert** ou **Thomas O Fredericks** sur Teams.
+
 ## Retour sur le Devoir 03
 
 ## Retour sur l'exercice du gâteau
 
 * L'importance de comprendre les contraintes : les alignements et la mise à l'échelle
 * Largeur et hauteur configurées dynamiquement : l'ajustement au contenu ou remplir le contenant
-
+<!-- 
 ## Commandez votre veste TIM 2026 !
 
 ![](./assets/img/zip.png){.w-100}
@@ -17,7 +41,7 @@ C'est maintenant le temps de commander votre veste TIM 2026 🎉🎉🎉
  
 📆 Vous avez jusqu'à vendredi prochain (27 mars) pour effectuer vos commandes !
 
-[Feuille de commande](https://forms.office.com/r/f9FZ4r0BeD?origin=lprLink){ .md-button .md-button--primary }
+[Feuille de commande](https://forms.office.com/r/f9FZ4r0BeD?origin=lprLink){ .md-button .md-button--primary } -->
 
 ## Composantes (_Components_)
 

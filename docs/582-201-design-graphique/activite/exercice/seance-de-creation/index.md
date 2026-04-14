@@ -58,7 +58,7 @@ Ensuite, on se lève et on se place en ligne devant le tableau blanc.
 
 Ferme les écrans
 
-Lumières : aucune, lumière de vos cell / stroboscope
+Lumières : aucune, lumière de vos cell / [stroboscope](https://www.youtube.com/watch?v=cJVjbrdZQI4)
 
 Musique : 
 - [Timeout - Spaze Windu](./D-Timeout.mp3)

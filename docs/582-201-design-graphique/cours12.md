@@ -2,6 +2,18 @@
 
 [STOP]
 
+Exercices d'IA / outils builtin figma : 
+
+* Remove background
+* Remove un élément dans l'image
+* Vectoriser un élément
+* Générer une image
+* Améliorer la résolution
+
+Exercices que je suis le client + mini présentations.
+
+Explorer la possibilité que chacun soit un client.
+
 ## Retour sur le Devoir 04
 
 ![](./assets/img/1_0a669CsI3zvW3Qq-sZMojQ.gif){.w-100}
@@ -290,3 +302,7 @@ Pour marquer un élément comme exportable :
   <small>Exercice - Figma</small><br>
   **[Test A/B](./activite/exercice/ab-test/index.md){.stretched-link .back}**
 </div>
+
+## Devoir
+
+https://www.figma.com/proto/wozH7xzVNQw2aIR8jymeTL/Hackerman-1977?scaling=scale-down&content-scaling=fixed

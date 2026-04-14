@@ -1,10 +1,23 @@
 # Cours 9
 
+## Concours d'essais audiovisuels
+
+![](./images/essais-audiovisuel.png){.w-100}
+
+Le fameux concours d'essais audiovisuels aura encore lieu cette année !
+Ce concours est une belle occasion d'obtenir une bourse en argent (jusqu'à 175$) et de bonifier votre portfolio ! 
+ 
+Date limite de remise : **10 mai 2026**
+ 
+Vous trouverez ici les détails de l'appel à candidatures: [Appel a candidature 2026.pdf](./images/Appel-a-candidature-2026.pdf)
+ 
+Des questions? Adressez-les à **Lora Boisvert** ou **Thomas O Fredericks** sur Teams.
+
 ## 🚨 Présentation des plans de projet
+
 [🛠️ Plan de travail 3](./consignes/plandetravail.md){ .md-button } 
 
-
-## Début de la création du projet final
+## Début de la création du projet final !
 
 ### GitHub
 - [:pencil: Github](./unity/github.md)
