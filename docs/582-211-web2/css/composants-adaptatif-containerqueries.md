@@ -183,14 +183,6 @@ Quand on a plusieurs conteneurs imbriqués, nommer ses conteneurs devient **esse
   container-name: sidebar;
 }
 
-/* 
-Raccourci d'une déclaration de conteneur : 
-container: nom / type 
-*/
-.gridwrapper {
-  container: gridwrapper / inline-size;
-}
-
 /* Cibler un conteneur nommé précis */
 @container page (min-width: 900px) {
   .widget { flex-direction: row; }
@@ -201,8 +193,8 @@ container: nom / type
 }
 ```
 
-!!! info 💡Bonne pratique
-    Même si vous n'avez qu'un seul conteneur, prenez l'habitude de le nommer. Ça documente l'intention, ça évite les surprises si vous ajoutez un conteneur parent plus tard, et ça rend le code beaucoup plus lisible.
+!!! info Bonne pratique
+    💡 Même si vous n'avez qu'un seul conteneur, prenez l'habitude de le nommer. Ça documente l'intention, ça évite les surprises si vous ajoutez un conteneur parent plus tard, et ça rend le code beaucoup plus lisible.
 
 
 ## Architecture CSS pour composants adaptatifs
