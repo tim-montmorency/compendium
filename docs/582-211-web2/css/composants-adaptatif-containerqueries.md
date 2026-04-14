@@ -87,7 +87,7 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 }
 ```
 
-!!! tip "Le plus courant: inline-size"
+!!! tip "Le type le plus courant: `inline-size`"
     Le type le plus courant:
     `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
 

@@ -31,8 +31,9 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 }
 ```
 
-!!! info Le type le plus courant: inline-size
-    `container-type: inline-size`: le plus courant. On mesure seulement la largeur (l'axe inline).
+!!! tip "Le type le plus courant: `inline-size`"
+    Le type le plus courant:
+    `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
 
     Les autres type de conteneur sont:
 
