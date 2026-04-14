@@ -263,10 +263,12 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 }
 ```
 
+---
+
 #### Exemple interactif
 
-!!! example "🔎 À observer"
-    Redimensionnez la fenêtre et observez les trois cartes. Elles s'adaptent chacune à leur conteneur, pas à l'écran. La carte dans la sidebar reste verticale même sur grand écran, tandis que les autres passent en horizontal.
+!!! example "À observer"
+    Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen**. Redimensionnez la fenêtre et observez les trois cartes. Elles s'adaptent chacune à leur conteneur, pas à l'écran. La carte dans la sidebar reste verticale même sur grand écran, tandis que les autres passent en horizontal.
 
 <!-- CODEPEN: Le même composant dans 3 contextes différents -->
 
@@ -278,7 +280,7 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 
 
 
-### *Unités* : nouvelles unités de mesure pour container queries
+## *Unités* : nouvelles unités de mesure pour container queries
 
 <!-- https://laconsole.dev/formations/css/container-queries -->
 
