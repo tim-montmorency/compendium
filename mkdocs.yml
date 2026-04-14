@@ -110,7 +110,7 @@ nav:
       # - Cours 9-mm: 582-214-animation2d-jf-mm/cours09-mm.md
       - Cours 10: 582-214-animation2d-jf-mm/cours10-gc.md
       # - Cours 10-mm: 582-214-animation2d-jf-mm/cours10-mm.md
-      - Cours 11: 582-214-animation2d-jf-mm/cours11.md
+      - Cours 11: 582-214-animation2d-jf-mm/cours11-gc.md
       # - Cours 11-mm: 582-214-animation2d-jf-mm/cours11-mm.md
       - Cours 12: 582-214-animation2d-jf-mm/cours12.md
       # - Cours 12-mm: 582-214-animation2d-jf-mm/cours12-mm.md
@@ -118,6 +118,7 @@ nav:
       - Cours 14: 582-214-animation2d-jf-mm/cours14.md
       - Cours 15: 582-214-animation2d-jf-mm/cours15.md
       - TP2: 582-214-animation2d-jf-mm/tp2.md
+      - Travail synthèse: 582-214-animation2d-jf-mm/synthese.md
   - Web 3:
       - 582-311-web3/index.md
       - Cours 1: 582-311-web3/cours01.md
