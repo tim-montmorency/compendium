@@ -256,6 +256,15 @@ Ainsi, on vient de créer un `toggle` !
   **[C'est logique !](./activite/exercice/lock/index.md){.stretched-link .back}**
 </div>
 
+## Devoir
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/devoir/refonte/raisons-refonte-site-web-entreprise-768x430.webp)
+
+  <small>Devoir - Figma</small><br>
+  **[Refonte d'un site Web](./activite/devoir/refonte/index.md){.stretched-link .back}**
+</div>
+
 [STOP]
 
 Note : La matière se donne en 1h et les exercices prennent max 1h à faire. Alors c'est un peu court finalement.

@@ -27,16 +27,18 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 /* Étape 1 : Définir le conteneur */
 .card-wrapper {
   container-type: inline-size;
-  /* optionnel mais recommandé: nommer le conteneur */
-  container-name: card;
+  container-name: card-wrap;
 }
 ```
 
-!!! info 💡 Le type le plus courant: `inline-size`
-     **`container-type: inline-size`**: le plus courant. On mesure seulement la largeur (l'axe inline). 
-     Les autres type de conteneur sont:
-     - `container-type: size` (largeur ET hauteur) 
-     - `container-type: normal` (pas de mesure, mais le nom est disponible pour du style conditionnel).
+!!! tip "Le type le plus courant: `inline-size`"
+    Le type le plus courant:
+    `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
+
+    Les autres type de conteneur sont:
+
+    - `container-type: size` (largeur ET hauteur) 
+    - `container-type: normal` (pas de mesure, mais le nom est disponible pour du style conditionnel).
 
 
 ## ✦ 2. Déclarer la container query
@@ -45,8 +47,10 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 
 
 ```css title="Déclarer la requête"
-/* Étape 2 : Déclarer la requête  */
-@container card-wrapper (min-width: 400px) {
+/* Étape 2 : Déclarer la requête avec @container 
+et le nom attribué au conteneur plus haut, 
+dans ce cas-ci, nous l'avons appelé `card-wrap` */
+@container card-wrap (min-width: 400px) {
   .card {
     flex-direction: row;
     gap: 1.5rem;

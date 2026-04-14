@@ -734,19 +734,20 @@ stop:before {
   opacity: 0.5;
 }
 
-.finishing .md-typeset p,
-.finishing .md-typeset li,
-.finishing .md-typeset td {
-  font-weight: 300;
+.finishing .md-typeset,
+.finishing .md-sidebar{
+  p,
+  li,
+  td {
+    font-weight: 300;
+
+    strong{
+      font-weight: 600;
+      color: hsla(from var(--md-typeset-color) h s l / 1);
+    }
+  }
 }
 
-.finishing .md-typeset p strong,
-.finishing .md-typeset li strong,
-.finishing .md-typeset td strong {
-  font-weight: 600;
-  color: hsla(from var(--md-typeset-color) h s l / 1);
-  /*color: var(--md-typeset-color);*/
-}
 
 
 body[data-md-color-scheme="slate"].finishing .md-typeset kbd {

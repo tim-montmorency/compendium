@@ -6,9 +6,7 @@
 
 Séance de création dirigée
 
-![](./assets/img/llllllllllllllllll.gif){.w-100 .wtfbaconsoda-trigger}
-
-<div class="wtfbaconsoda" markdown>
+![](./assets/img/llllllllllllllllll.gif){.w-100}
 
 ## Système de design
 
@@ -321,6 +319,4 @@ Stitch vise à automatiser les _design systems_ via les Design Tokens, assurant 
 
   <small>Devoir - Figma</small><br>
   **[Refonte d'un site Web](./activite/devoir/refonte/index.md){.stretched-link .back}**
-</div>
-
 </div>
