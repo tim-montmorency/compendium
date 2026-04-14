@@ -25,15 +25,15 @@ Avec les *media queries classiques*, on dit au composant comment se comporter se
 
 ## Exemple concret du problème
 
-> Voir dans le CodePen ci-dessous. Pour mieux le constater, cliquer sur "Edit on CodePen" et redimensionner la fenêtre.
+> Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen** et redimensionner la fenêtre. Vous pouvez aussi explorer le code CSS.
 
 Une carte `.card` affichée en pleine largeur doit être en *format horizontal*.
 
-La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*. 
+La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*.
 
 Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
 
-> Voir dans le CodePen ci-dessous. Pour mieux le constater, cliquer sur "Edit on CodePen" et redimensionner la fenêtre.
+> Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen** et redimensionner la fenêtre. Vous pouvez aussi explorer le code CSS.
 
 <p class="codepen" data-theme-id="50210" data-height="550" data-pen-title="DEMO sans Container queries" data-version="2" data-default-tab="result" data-slug-hash="XJjomrv" data-user="tim-momo" style="height: 550px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d89aa-76a0-774e-ae00-525ae307729c">
@@ -89,8 +89,8 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 }
 ```
 
-!!! tip 
-    Le type le plus courant: `container-type: inline-size`. On mesure seulement la largeur (l'axe inline).
+!!! tip "Le plus courant: inline-size"
+    Le type le plus courant: `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
 
     Les autres type de conteneur sont:
     - `container-type: size` (largeur ET hauteur) 
@@ -125,7 +125,7 @@ dans ce cas-ci, nous l'avons appelé `card-wrap` */
 ### Exemple interactif: Carte qui s'adapte à son conteneur
 
 !!! example "🔎 À observer"
-    Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
+    Ouvrez l'exemple ci-dessous en cliquant sur **Edit on CodePen**. Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
 
 <p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO Container queries - Carte qui s'adapte à son conteneur" data-version="2" data-default-tab="result" data-slug-hash="PwGxZNM" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f51-4aed-7415-9a6b-a495b73df6ea">
