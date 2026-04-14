@@ -122,9 +122,11 @@ dans ce cas-ci, nous l'avons appelé `card-wrap` */
 
 
 <!-- CODEPEN: Exemple interactif — Carte qui s'adapte à son conteneur -->
-### Exemple interactif: Carte qui s'adapte à son conteneur
+### Exemple : Carte qui s'adapte à son conteneur
 
-!!! example "🔎 À observer"
+Reprenons l'exemple de la carte qui doit être en horizontal dans le `<main>` et en vertical dans la sidebar. Avec les *container queries*, c'est possible !
+
+!!! example "À observer"
     Ouvrez l'exemple ci-dessous en cliquant sur **Edit on CodePen**. Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
 
 <p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO Container queries - Carte qui s'adapte à son conteneur" data-version="2" data-default-tab="result" data-slug-hash="PwGxZNM" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
