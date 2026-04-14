@@ -272,7 +272,7 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 
 <!-- CODEPEN: Le même composant dans 3 contextes différents -->
 
-<p class="codepen" data-theme-id="50210" data-height="750" data-pen-title="DEMO Container queries - même composant dans 3 contextes différents" data-version="2" data-default-tab="result" data-slug-hash="azmQdmY" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO Container queries - même composant dans 3 contextes différents" data-version="2" data-default-tab="result" data-slug-hash="azmQdmY" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f59-464c-7bbd-9e9f-0dae69e417d1">
   DEMO Container queries - même composant dans 3 contextes différents</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
