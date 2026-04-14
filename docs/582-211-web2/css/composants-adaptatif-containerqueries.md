@@ -25,11 +25,11 @@ Avec les *media queries classiques*, on dit au composant comment se comporter se
 
 ## Exemple concret du problème
 
-Une carte `.card` affichée en *pleine largeur dans le `<main>`* doit être en *format horizontal*.
+🡺 Une carte `.card` affichée en *pleine largeur dans le `<main>`* doit être en *format horizontal*.
 
-La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*.
+🡺 La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*.
 
-Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
+❯❯❯❯ Avec les media queries, impossible de le savoir: le composant `.card` *ne connaît pas son contexte*.
 
 > Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen** et redimensionner la fenêtre. Vous pouvez aussi explorer le code CSS.
 
