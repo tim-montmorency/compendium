@@ -233,6 +233,7 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
   border-radius: var(--radius);
   padding: 1.25rem;
 }
+.card__excerpt  { display: none; } /* caché sur petit conteneur */
 
 /* 3. Le composant s'adapte via @container */
 @container card-container (min-width: 400px) {
@@ -242,7 +243,7 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 
 @container card-container (min-width: 600px) {
   .card__title    { font-size: 1.5rem; }
-  .card__excerpt  { display: block; } /* caché sur petit conteneur */
+  .card__excerpt  { display: block; } /* affiché sur grand conteneur */
 }
 ```
 
