@@ -114,7 +114,7 @@ Révision et questions sur les concepts de breakpoint et media queries à traver
 
 ### Exercice transformation
 
-[👩🏻‍💻 Exercice translate: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
+[👩🏻‍💻 Exercice transform: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/){ .md-button }
 
 
 ## 🔁 Transitions CSS
@@ -133,13 +133,15 @@ Révision et questions sur les concepts de breakpoint et media queries à traver
 
 [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/){ .md-button }
 
+<!--  nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
 [👩🏻‍💻 Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/){ .md-button }
+-->
 
 ## DEVOIRS
 
 - Terminer l'[atelier Zone-Out (breakpoint-media queries)](./exercices/cours8-responsive/04-atelier-zone-out.md) (*groupes du lundi seulement* car le groupe du mercredi c'est déjà remis)
 - Terminer l'[exercice carte adaptative media queries avancées](./exercices/ex-carte-adaptable-mediaqueries.md) (1 CodePen)
-- Terminer l'[exercice translate: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/) (6 CodePens distincts)
+- Terminer l'[exercice transform: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/) (6 CodePens distincts)
 
 ### Pour le groupe du mercredi seulement
 
@@ -147,4 +149,6 @@ Terminer les exercices transition CSS
 
 - [Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)
 - [Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)
+<!-- nécessite peusdo-class ::after et ::before et ils ne l'ont pas vu
 - [Exercice transitions: Boutons](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/)
+-->

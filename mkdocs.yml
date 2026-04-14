@@ -42,8 +42,8 @@ nav:
   - Web 2:
       - 582-211-web2/index.md
       - Projets:
-        - 582-211-web2/exercices/projet1/index.md
-        - Projet 1: 582-211-web2/exercices/projet1/index.md
+        - Projet1 (mi-session): 582-211-web2/exercices/projet1/index.md
+        - Projet intégrateur (final): 582-211-web2/exercices/projet-final/index.md
       - CSS:
         - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
@@ -54,11 +54,13 @@ nav:
         - Flex,justify,align,gap,wrap: 582-211-web2/css/flexbox01.md
         - Flex,grow,shrink,basis: 582-211-web2/css/flexbox02.md
         - Flexbox order: 582-211-web2/css/flexbox-order.md
-        - Flexbox gap calc largeur col: 582-211-web2/css/flexbox-gap-calc.md
+        - Flexbox gap calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
         - Composants réutilisables: 582-211-web2/css/composants.md
-        - Responsive (media queries): 582-211-web2/css/mediaqueries-breakpoints.md
-        - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
-        - Breakpoints arbitraires:  582-211-web2/css/breakpoints-arbitraires.md
+        - Composants adaptatifs (CQ): 582-211-web2/css/composants-adaptatif-containerqueries.md
+        - Container queries (CQ): 582-211-web2/css/containerqueries-utilisation.md
+        - Responsive et media queries(MQ): 582-211-web2/css/mediaqueries-breakpoints.md
+        - Media queries(MQ) avancées: 582-211-web2/css/mediaqueries-avance.md
+        - Breakpoints arbitraires:  582-211-web2/css/breakpoints-arbitraires.md 
       - Cours 1: 582-211-web2/cours01.md
       - Cours 2: 582-211-web2/cours02.md
       - Cours 3: 582-211-web2/cours03.md
@@ -68,7 +70,7 @@ nav:
       - Cours 7: 582-211-web2/cours07.md
       - Cours 8: 582-211-web2/cours08.md
       - Cours 9: 582-211-web2/cours09.md
-      # - Cours 10: 582-211-web2/cours10.md
+      - Cours 10: 582-211-web2/cours10.md
       # - Cours 11: 582-211-web2/cours11.md
       # - Cours 12: 582-211-web2/cours12.md
       # - Cours 13: 582-211-web2/cours13.md
