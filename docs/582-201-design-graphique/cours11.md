@@ -1,7 +1,5 @@
 # Cours 11 | Prototype
 
-[STOP]
-
 ## Annonces
 
 ### Exposition
@@ -18,7 +16,7 @@
 ![](./assets/img/essais-audiovisuel.png){.w-100}
 
 Le fameux concours d'essais audiovisuels aura encore lieu cette année !
-Ce concours est une belle occasion d'obtenir une bourse en argent (jusqu'à 175$) et de bonifier votre portfolio ! 
+Ce concours est une belle occasion d'obtenir une bourse en argent (jusqu'à 175$) et de bonifier votre portfolio !
  
 Date limite de remise : **10 mai 2026**
  
@@ -26,44 +24,65 @@ Vous trouverez ici les détails de l'appel à candidatures: [Appel a candidature
  
 Des questions? Adressez-les à **Lora Boisvert** ou **Thomas O Fredericks** sur Teams.
 
-## À ce point ci ...
+## Ajustement
+
+![](./assets/img/idontknow.jpg){.w-50}
+
+Y a-t-il quelque chose que tout le monde semble comprendre, sauf vous ? Au point où vous n’osez plus demander ce que c’est ou comment ça fonctionne ?
+
+```txt title="Exemples"
+- C'est quoi un frame dans Figma ?
+- C'est quoi un breakpoint ?
+- C'est quoi WASD ou QWERTY ?
+
+- Comment faire un copy / paste.
+- Comment zipper un fichier.
+
+- Comment différencier «ça» et «sa» ou encore, quand mettre un «é» ou un «er» pour un verbe.
+- Qu'est-ce que la gauche et la droite en politique ?
+```
+
+Ça peut être à propos du cours, du programme ou simplement quelque chose la vie en général.
+
+## Formulations à éviter
+
+Les expressions suivantes sont trop vagues, généralisantes ou non justifiées. Il est préférable de les éviter.
 
 <div class="grid" markdown>
-![](./assets/img/aoe2h6.jpg)
-
-![](./assets/img/aoe2ik.jpg)
-</div>
-
-[Wooclap](https://app.wooclap.com/ANDYMEME?from=instruction-slide)
-
-## À partir de maintenant, on évite ces formulations
+![](./assets/img/jona.webp)
 
 > « Depuis la nuit des temps »<br>
-> « Grosso modo »<br>
-> « En général »<br>
 > « Tout le monde sait que »<br>
-> « C’est évident que »
+> « C’est évident que »<br>
+> « Grosso modo »
+</div>
 
-Ces expressions sont trop vagues, généralisantes ou non justifiées.
+!!! example "Dans le milieu académique, si on affirme quelque chose, il faut être en mesure de l'accompagner d'une preuve ou d'une justification."
 
 ### En Web
 
-« En savoir plus » est trop générique et manque de précision sur l’action. C'est dailleurs problématique pour l'accessibilité.
+L'équivalent en Web et le « En savoir plus ». Beaucoup trop générique, cette mention manque de précision sur l’action. C'est par ailleurs problématique pour l'accessibilité.
 
-Il faut que l'étape après l'action soit limpide :
+Il faut que l'étape après l'action soit **limpide** :
 
 * « À propos du festival »
 * « Découvrir le festival »
 * « Voir la programmation »
 * « Acheter un billet »
 
-## Trois étapes
+## Prototype
 
-1. La maquette filaire (_Wireframe_)
+![](./assets/img/proto.gif){.w-100}
+
+Phases de design pour un projet Web :
+
+1. La maquette filaire (_Wireframe_) (:simple-figma: Sketchy Wireframes)
 1. La maquette graphique (_Mockup_)
 1. Le prototype
 
-**C'est quoi ?**  
+Ces étapes permettent de structurer la conception, de valider les choix progressivement et d’éviter les retours en arrière coûteux en temps et en effort.
+
+**C'est quoi un prototype ?**  
 
 Un prototype, c'est une maquette graphique à laquelle on ajoute des **interactions**. On peut cliquer sur des boutons, naviguer vers d'autres pages, ouvrir un _pop up_, _swiper_ pour changer l'écran, etc.
 
@@ -74,6 +93,12 @@ Un prototype, c'est une maquette graphique à laquelle on ajoute des **interacti
 - Présenter et valider le design avec un client
 - Repérer les problèmes de navigation tôt (avant que ça coûte cher)
 
+!!! example "IA et professionnalisme"
+
+    La génération de design se fera de plus en plus et on aura tendance à passer directement au prototype. 
+    
+    Toutefois, il reste préférable de conserver l’étape des wireframes (design d’information), afin de clarifier les besoins.
+
 ## Parcours utilisateur (_User Flow_)
 
 ![](./assets/img/user-flow-end.webp)
@@ -82,205 +107,159 @@ Avant de commencer à connecter des écrans dans Figma, il faut savoir **ce qu'o
 
 Un **parcours utilisateur**, c'est la séquence d'étapes qu'une personne suit pour accomplir une tâche dans l'interface.
 
-## Figma 
+Dans un site Web existant, il est possible de connaître le parcours utilisateur avec des outils comme Google Analytics.
 
-Retirer le fond d'une image en 1 clic
-
-Crédits IA
+![](./assets/img/ga4.png){data-zoom-image .w-25}
 
 ## Prototypage dans Figma
 
-### L'onglet Prototype
+Dans Figma, le prototypage s'oriente vers Figma Sites. Toutefois, comme celle-ci est encore en _beta_, toutes les options n'y sont pas encore disponibles. Concentrons-nous donc sur la méthode conventionnelle avec l'onglet Prototype.
 
+![](./assets/img/figma-prototype-onglet.png)
 
+### Lien simple
 
-### Connexions (_Connections_)
+Pour ajouter un lien qui pointe vers un autre écran (_frame_) :
 
-Pour connecter deux écrans :
+1. Passez en mode **Prototype**
+2. Survolez un élément. Un petit plus encerclé apparaît. Ça s'affiche seulement en mode « Prototype ».
+3. Glissez du "plus" vers l'écran de destination
 
-1. Passez en mode **Prototype** (onglet en haut à droite)
-2. Survolez un élément cliquable → une flèche bleue apparaît
-3. Glissez cette flèche vers l'écran de destination
-4. Configurez le déclencheur et l'action
+![](./assets/img/prototype-ez.webp){data-zoom-image}
 
-<figure markdown>
-![](./assets/img/figma-connection.gif){data-zoom-image}
-<figcaption>Création d'une connexion entre deux frames</figcaption>
-</figure>
+#### Variation manuelle
 
-### Déclencheurs (_Triggers_)
+![](./assets/img/prototype-manuel.webp){data-zoom-image}
 
-Le déclencheur définit **quelle action de l'utilisateur** lance l'interaction.
+### Tester
 
-| Déclencheur | Usage typique |
-| --- | --- |
-| **On Click** | Boutons, liens, cartes cliquables |
-| **On Hover** | Menus déroulants, tooltips |
-| **On Drag** | Sliders, carousels, swipe mobile |
-| **On Press** | Boutons tactiles, appui long |
-| **While Hovering** | Animations de survol continues |
-| **After Delay** | Splash screen, chargement automatique |
-| **Key / Gamepad** | Interactions clavier |
+![](./assets/img/proto-view-modes.png){data-zoom-image}
 
-### Actions
+Le mode **Présenter** affiche le prototype en pleine page, tandis que l'aperçu ouvre une fenêtre flottante que l'on peut déplacer. Cette dernière est beaucoup plus pratique lors de la conception. Le mode Présenter est plutôt destiné aux présentations officielles.
 
-L'action définit **ce qui se passe** après le déclencheur.
+Le dernier frame sélectionné détermine le point de départ du test.
 
-| Action | Description |
-| --- | --- |
-| **Navigate to** | Aller vers un autre frame (navigation principale) |
-| **Open overlay** | Afficher un élément par-dessus (modale, menu, tooltip) |
-| **Scroll to** | Faire défiler jusqu'à un élément |
-| **Back** | Revenir à l'écran précédent |
-| **Close overlay** | Fermer un overlay ouvert |
-| **Set variable** | Modifier la valeur d'une variable (états interactifs) |
+![](./assets/img/proto-test.webp){data-zoom-image .w-50}
 
----
+!!! info "En mode présentation, lorsqu'on clique ailleurs que sur une zone interactive, un encadré bleu apparaît sur les zones cliquables."
 
-## Transitions et animations
+#### Mode présentation et responsive
 
-Une fois la connexion créée, vous pouvez définir **comment** la transition se produit.
+On peut activer l'option responsive, mais il faut avoir pensé le site Web en amont.
 
-<figure markdown>
-![](./assets/img/figma-transition.png){data-zoom-image .w-75}
-<figcaption>Options de transition entre deux écrans</figcaption>
-</figure>
+![](./assets/img/proto-test-opts.png){data-zoom-image .w-25}
 
-### Types de transitions
+### Superposition
 
-| Type | Effet |
-| --- | --- |
-| **Instant** | Changement immédiat, sans animation |
-| **Dissolve** | Fondu enchaîné |
-| **Move In / Out** | L'écran entre ou sort par un côté |
-| **Push** | L'écran suivant pousse l'actuel |
-| **Slide In / Out** | Glissement (pour les menus latéraux, tiroirs) |
-| **Smart Animate** | Animation intelligente basée sur les changements de propriétés |
+Un **modal** (ou superposition dans Figma) est un élément qui s'affiche **par-dessus** l'écran actuel sans naviguer vers un nouvel écran. 
 
-!!! info "Smart Animate ✨"
-    Si deux frames contiennent des éléments **avec le même nom**, Figma anime automatiquement la transition entre leurs propriétés (position, taille, opacité, couleur...). C'est l'outil le plus puissant pour des animations fluides sans effort.
+<!-- ![](./assets/img/proto-superposition.png){data-zoom-image .w-25} -->
 
-### Courbes d'accélération (_Easing_)
+![type:video](./assets/video/proto-modal-open.mp4){.h-auto}
 
-![](./assets/img/easing-curves.png){data-zoom-image .w-75}
+Lorsqu'on ajoute une superposition, on peut aussi configurer un « overlay », c'est-à-dire une couleur de fond qui se place entre le site Web et le modal. Cela fait mieux ressortir le modal.
+ 
+#### Fermer une superposition
 
-L'easing définit le **rythme** de l'animation. Une animation linéaire semble mécanique. Une courbe d'easing la rend naturelle.
+<!-- ![](./assets/img/proto-superposition-close.png){data-zoom-image .w-25} -->
 
-| Courbe | Effet ressenti |
-| --- | --- |
-| **Linear** | Mécanique, robotique |
-| **Ease In** | Démarre lentement, accélère |
-| **Ease Out** | Démarre rapidement, ralentit (le plus naturel pour les UI) |
-| **Ease In and Out** | Doux au départ et à l'arrivée |
-| **Spring** | Effet de rebond, vivant, tactile |
+![](./assets/img/proto-modal-close.webp){data-zoom-image}
 
----
+### Délai
 
-## Overlays
+Les délais sont assez simples à configurer. Par exemple, un modal qui vient d'être affiché peut disparaître après 1 seconde.
 
-Un **overlay** est un élément qui s'affiche **par-dessus** l'écran actuel sans naviguer vers un nouvel écran. C'est le mécanisme derrière les modales, les menus contextuels, les _bottom sheets_, les _tooltips_.
+![](./assets/img/proto-delai.webp){data-zoom-image}
 
-<figure markdown>
-![](./assets/img/overlay-example.png){data-zoom-image}
-<figcaption>Exemple d'overlay : une modale de confirmation</figcaption>
-</figure>
+![](./assets/img/proto-delai-ex.webp){data-zoom-image}
 
-### Configurer un overlay
+### Scroll
 
-1. Sélectionnez l'élément déclencheur (ex. : bouton "Supprimer")
-2. Dans l'action, choisissez **Open overlay**
-3. Sélectionnez le frame qui servira d'overlay
-4. Configurez la **position** (centre, bas, haut, côté)
-5. Activez **Close when clicking outside** si nécessaire
+![](./assets/img/proto-scroll.webp){data-zoom-image}
 
-!!! tip "Préparez vos overlays sur la même page"
-    Placez les frames d'overlay à côté de vos écrans principaux, pas dans un autre coin du fichier. Ça facilite la lecture du prototype et la gestion des connexions.
+#### Position fixed !
 
----
+Comme en CSS, on peut reproduire le même effet qu'un `position: fixed;` !
 
-## Variables et états interactifs
+![](./assets/img/proto-scroll-fixed.webp){data-zoom-image}
+
+### Variables et états interactifs
 
 Les **variables de prototype** permettent de créer des interfaces qui **réagissent** selon des conditions, sans naviguer vers un nouvel écran.
 
-### Exemple concret : un bouton toggle
+Voici un exemple :
 
-<figure markdown>
-![](./assets/img/figma-variable-boolean.gif){data-zoom-image .w-50}
-<figcaption>Un toggle qui change d'état avec une variable booléenne</figcaption>
-</figure>
+D'abord, créer une variable de type Nombre.
 
-1. Créez une variable **Boolean** (ex. : `activé`) avec la valeur `false`
-2. Sur le composant Toggle, ajoutez une interaction **On Click → Set variable** `activé = !activé`
-3. Utilisez cette variable dans une **condition** pour afficher la version ON ou OFF du composant
+![](./assets/img/proto-var-num.png){.w-25 data-zoom-image}
+![](./assets/img/proto-var.png){.w-25 data-zoom-image}
 
-!!! info "C'est l'équivalent d'un `useState` en React"
-    Si vous avez déjà fait du React, la logique est exactement la même. Une variable change, l'interface se met à jour.
+Ensuite, ajouter la variable à un champ texte !
 
----
+![](./assets/img/proto-var-txt.png){.w-25 data-zoom-image}
 
-## Prévisualiser et partager
+Ajouter une interaction au clic d'un autre élément dans la page. Choisir « Définir une variable » et configurer la cible et la valeur. Ici, on incrémente la même valeur de 1.
 
-### Prévisualisation locale
+![](./assets/img/proto-var-var.png){.w-25 data-zoom-image}
+![](./assets/img/proto-var-inc.png){.w-25 data-zoom-image}
 
-Cliquez sur l'icône ▶ **Présenter** en haut à droite (ou ++ctrl+alt+enter++) pour lancer votre prototype dans le navigateur.
+Voici le résultat :
 
-!!! tip "Choisissez un Frame de départ"
-    Dans l'onglet Prototype, cliquez sur un frame et activez **Starting frame** pour définir par quel écran le prototype démarre.
+![](./assets/img/proto-var-res.webp){data-zoom-image}
 
-### Partager le prototype
+### Conditions
 
-1. Cliquez sur **Share** en haut à droite
-2. Activez **Anyone with the link → can view**
-3. Copiez le lien et partagez-le
+On peut afficher un élément ou une image selon l'état d'une variable booléenne ! Par exemple, si la variable est à `true`, on voit le lien, sinon il est caché.
 
-Le destinataire peut naviguer dans le prototype **sans avoir de compte Figma**.
+Voici comment faire.
 
-!!! tip "Mode Présentation vs mode Design"
-    Le lien partagé peut s'ouvrir en mode **Présentation** (prototype interactif) ou en mode **Design** (vue des calques). Assurez-vous que le lien pointe vers la présentation.
+D'abord, on crée une variable booléenne (ex : `patate`).
 
----
+Ensuite, on sélectionne l'élément en question et on fait un clic droit sur le petit œil dans la section Apparence. On sélectionne la variable `patate`.
 
-## Checklist du prototype ✅
+![](./assets/img/proto-var-ex.png){.w-25 data-zoom-image}
 
-Avant de remettre ou de présenter un prototype, vérifiez :
+Maintenant, quand une action est faite, par exemple un clic sur un bouton, on peut effectuer une condition. Voici un exemple de logique :
 
-1. **Flow complet** : peut-on accomplir la tâche principale de bout en bout sans tomber sur une impasse ?
-2. **Retour arrière** : y a-t-il toujours un moyen de revenir en arrière (bouton retour, fermer une modale) ?
-3. **Frame de départ** : le prototype démarre bien sur le bon écran
-4. **Transitions cohérentes** : le même type de transition est utilisé pour des gestes similaires
-5. **Overlays fonctionnels** : les modales et menus s'ouvrent et se ferment correctement
-6. **Nom des frames** : tous les écrans sont nommés clairement (pas "Frame 47")
+- SI `patate` est égale à `FALSE`
+- Définir `patate` sur `TRUE`
 
----
+Dans la section autre (équivalent de `else`), on pourrait ajouter 
+
+- Définir `patate` sur `FALSE`
+
+Ainsi, on vient de créer un `toggle` !
+
+!!! example "Exemple un peu plus complet"
+
+    ![](./assets/img/proto-condition.png){data-zoom-image}
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/proto-navigation/preview.png)
+![](./assets/img/atthispoint.png)
 
-  <small>Exercice - Figma</small><br>
-  **[Navigation multi-écrans](./activite/exercice/proto-navigation/index.md){.stretched-link .back}**
+[Wooclap](https://app.wooclap.com/ANDYMEME?from=instruction-slide){.stretched-link}<br>Code : ANDYMEME
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/proto-overlay/preview.png)
+  ![](./activite/exercice/prototype/preview.jpg)
 
   <small>Exercice - Figma</small><br>
-  **[Modale et overlay](./activite/exercice/proto-overlay/index.md){.stretched-link .back}**
+  **[Mon premier prototype](./activite/exercice/prototype/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/proto-toggle/preview.gif)
+  ![](./activite/exercice/lock/preview.webp)
 
   <small>Exercice - Figma</small><br>
-  **[Toggle interactif](./activite/exercice/proto-toggle/index.md){.stretched-link .back}**
+  **[C'est logique !](./activite/exercice/lock/index.md){.stretched-link .back}**
 </div>
-
 
 [STOP]
 
 Note : Probablement traiter la notion de prototype avant Figma Sites afin que la création d'une url soit une nouveauté intéressante.
 Parler du prototype ensuite est un léger pas en arrière.
-La notion de prototype devrait s'ajouter par dessus Figma Sites. C'est plus logique ainsi. C'est d'ailleur ce que figma semble suggérer.
+La notion de prototype devrait s'ajouter par dessus Figma Sites. C'est plus logique ainsi. C'est d'ailleurs ce que Figma semble suggérer.
 
 Faire un jeu avec 
