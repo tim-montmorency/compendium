@@ -2,14 +2,25 @@
 
 Lundi 20 avril / mercredi 22 avril
 
-## Accessibilité & robustesse d’interface 
+<!--
+Annonce de la Phase 3 de la politique IA : L'IA est maintenant encouragée
+Workflow professionnel avec IA : générer → analyser → critiquer → améliorer
 
-- Contraste et lisibilité (WCAG) 
-- Focus visible et navigation clavier 
-- Tailles de clic/touch adaptées 
-- États interactifs accessibles (hover, focus, active) 
-- Textes alternatifs et structure sémantique 
-- Tests d'accessibilité (outils : Lighthouse, axe DevTools)
+Composants adaptatifs intelligents (suite) 
+Pratique et exercices 
+
+Refactorisation, qualité CSS et collaboration avec l'IA 
+· Refactorisation : lisibilité, cohérence, simplification 
+· Code smell en CSS (redondance, spécificité excessive, etc.) 
+· Techniques de prompting pour du CSS maintenable 
+· Workflow : IA → audit → amélioration 
+· Comparer plusieurs solutions générées par IA 
+· Identifier les hallucinations et erreurs courantes de l'IA
+-->
+
+- Composants adaptatifs intelligents (suite) : Pratique et exercices 
+- Refactorisation, qualité CSS et collaboration avec l'IA 
+- Travail sur le projet.
 
 <!--
 Leur montrer Figma Make. Et voici pourquoi ça ne devrait pas les décourager si tu le présentes bien — mais d'abord, ses failles honnêtes.
@@ -17,6 +28,7 @@ Leur montrer Figma Make. Et voici pourquoi ça ne devrait pas les décourager si
 Ce que Figma Make (Claude 3.7 en arrière) génère mal en CSS/intégration web :
 
 Son take:
+
 "- La structure sémantique HTML : je produis souvent des div là où un nav, main, article ou figure aurait été plus approprié. Je fais semblant de comprendre la sémantique, mais je la sacrifie souvent pour faire quelque chose qui "marche".
 
 - L'accessibilité : c'est peut-être ma plus grande lacune. Focus visible, ordre de navigation clavier, attributs ARIA... je les oublie ou je les applique de façon superficielle. Un audit Lighthouse va souvent me démolir.
