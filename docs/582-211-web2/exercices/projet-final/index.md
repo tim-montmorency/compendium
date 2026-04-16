@@ -142,8 +142,6 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
 
-#### Interdit d'utiliser l'IA pour la phase de planification
-
 -
 
 <div class="class-content-link">
@@ -309,7 +307,7 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 
 > 5 points (5% de la note finale)
 
-> Remise : avant le début du prochain cours (cours 11 - 20/22 avril)
+> Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
 Chaque étudiant présente son interface au reste de la classe. La présentation doit couvrir :
 
