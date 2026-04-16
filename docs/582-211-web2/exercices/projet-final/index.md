@@ -200,6 +200,8 @@ Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vo
 
 Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un dossier `assets` à votre dépôt, puis [insérez-les images en markdown](https://www.markdownguide.org/basic-syntax/#images-1) dans votre fichier `PLANIFICATION.md` avec des liens relatifs.
 
+Remettre le lien de votre dépot GitHub du projet via le Devoir associé dans Teams avant votre cours du 20 ou 22 avril (avant le début du cours).
+
 ---
 
 ### Semaine 2: Structure HTML | 20 au 26 avril
@@ -283,6 +285,8 @@ Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un doss
 
 - **Dépôt GitHub** nommé `nom-prenom-projet-solarix`. Votre dépôt GitHub doit être *privé*.
   - Accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
+
+- Remettre le lien de votre dépot GitHub du projet via le Devoir associé dans Teams avant les dates de remise indiquées.
 
 - Pour la remise de la planification (20-22 avril) votre dépot github doit inclure fichier un `PLANIFICATION.md` avec les éléments décrits dans la section "Semaine 1: Planification". Votre dépôt GitHub doit être *privé* et l'accès à l'enseignante doit être accordé. Le lien veres le dépot GitHub doit être soumis via le Devoir associé dans Teams.
 
