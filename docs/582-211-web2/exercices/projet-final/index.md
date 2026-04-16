@@ -339,7 +339,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 | Nomenclature BEM cohérente et en anglais | 2 pts |
 | Découpage en tâches réaliste et ordonné | 2 pts |
 | Stratégie responsive décrite et justifiée | 2 pts |
-| Vision claire pour la zone libre | 1 pts |
+| Vision claire pour la zone libre | 1 pt |
 
 ---
 
