@@ -313,7 +313,9 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 > Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
-Chaque étudiant présente son interface au reste de la classe. La présentation doit couvrir :
+La présentation orale du projet sera individuelle entre l'étudiant et l'enseignante. Elle se déroulera lors du cours 15 (11 ou 14 mai) et durera environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+
+Chaque étudiant présente son interface. La présentation doit couvrir :
 
 1. **L'interface finale**: démonstration en direct aux trois résolutions
 2. **Deux décisions techniques**  : expliquez pourquoi vous avez fait ce choix (ex. : choix de Flexbox vs container query, structure BEM d'un composant)
@@ -325,7 +327,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
     La présence à la remise et à la présentation est obligatoire. Une absence entraîne la note 0 pour la présentation, même si le travail a été remis en ligne.
 
 !!! question
-    L'enseignante peut poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
+    L'enseignante va poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
 
 
@@ -370,7 +372,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 ---
 
-### Présentation orale : 5 points
+### Présentation devant l'enseignante : 5 points
 
 | Critère | Points |
 |---|---|
@@ -378,6 +380,9 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 | Justification claire d'au moins deux décisions techniques | 2 pts |
 | Présentation de la zone libre et de ses choix | 1 pt |
 | Capacité à répondre aux questions de relance | 1 pt |
+
+!!! question
+    L'enseignante va poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
 ---
 
