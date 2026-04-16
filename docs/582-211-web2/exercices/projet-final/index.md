@@ -200,7 +200,7 @@ Veuillez noter aussi que cette maquette ne comprend pas la zone libre ⭐ que vo
 
 Si vous avez des images à ajouter (votre esquisse par exemple), ajoutez un dossier `assets` à votre dépôt, puis [insérez-les images en markdown](https://www.markdownguide.org/basic-syntax/#images-1) dans votre fichier `PLANIFICATION.md` avec des liens relatifs.
 
-Remettre le lien de votre dépot GitHub du projet via le Devoir associé dans Teams avant votre cours du 20 ou 22 avril (avant le début du cours).
+Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.md` via le Devoir associé dans Teams avant votre cours du 20 ou 22 avril (avant le début du cours).
 
 ---
 
