@@ -41,8 +41,6 @@ nav:
       # - Cours 15: 582-121–illustration-numerique/cours15.md
   - Web 2:
       - 582-211-web2/index.md
-      - Projet1 (mi-session): 582-211-web2/exercices/projet1/index.md
-      - Projet intégrateur (final): 582-211-web2/exercices/projet-final/index.md
       - CSS:
         - 582-211-web2/css/index.md
         - Spécificité: 582-211-web2/css/specificite.md
@@ -60,6 +58,8 @@ nav:
         - Responsive et media queries(MQ): 582-211-web2/css/mediaqueries-breakpoints.md
         - Media queries(MQ) avancées: 582-211-web2/css/mediaqueries-avance.md
         - Breakpoints arbitraires:  582-211-web2/css/breakpoints-arbitraires.md 
+      - Projet1 (mi-session): 582-211-web2/exercices/projet1/index.md
+      - Projet intégrateur (final): 582-211-web2/exercices/projet-final/index.md
       - Cours 1: 582-211-web2/cours01.md
       - Cours 2: 582-211-web2/cours02.md
       - Cours 3: 582-211-web2/cours03.md
