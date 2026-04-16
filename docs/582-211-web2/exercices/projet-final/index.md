@@ -335,11 +335,11 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 | Critère | Points |
 |---|---|
-| Identification complète et juste des composants | 2 pts |
+| Identification complète et juste des composants | 3 pts |
 | Nomenclature BEM cohérente et en anglais | 2 pts |
 | Découpage en tâches réaliste et ordonné | 2 pts |
 | Stratégie responsive décrite et justifiée | 2 pts |
-| Vision claire pour la zone libre | 2 pts |
+| Vision claire pour la zone libre | 1 pts |
 
 ---
 
