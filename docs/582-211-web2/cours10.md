@@ -44,9 +44,9 @@ Composants adaptatifs intelligents
 
 ## Composants adaptatifs intelligents
 
-[📚 Contenu de cours: Composant adaptatif intelligent: Intro au Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
+[📚 Composant adaptatif intelligent: Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
 
-[📚 Contenu de cours: Container Queries - Utilisaiton](./css/containerqueries-utilisation.md){ .md-button .md-button--primary }
+[📚 Container Queries: Utilisation (RÉSUMÉ)](./css/containerqueries-utilisation.md){ .md-button .md-button--primary }
 
 <!--
 https://laconsole.dev/formations/css/container-queries 
