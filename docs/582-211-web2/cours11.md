@@ -18,9 +18,24 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 · Identifier les hallucinations et erreurs courantes de l'IA
 -->
 
+## Annonce
+
+### Présentations finales du projet de synthèse
+
+Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours 14 (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+
+[Présentation orales](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+
+### Sondage pour la remise
+
+Sondage sur votre horaire du 15 mai (enseigné comme un mercredi).
+
+Je considère le 15 mai comme une journée de rencontres pour vos présentations finales du projet de sythèse. C'est enseigné comme un mercredi (journée de rattrapage du verglas). Donc tout dépend de votre horaire ce jour là et si vos profs prévoient reprendre un cours ce jour-là ou pas. 
+
+*L'idée c'est de vous accorder un cours complet supplémentaires pour avancer sur votre projet de synthèse.* Il était prévu que vous remettiez et présentiez votre projet de synthèse au dernier cours de la session le 11 mai (groupes du lundi) ou le 14 mai (groupe du mercredi). Si on considère le 15 mai comme une journée de rencontre pour les présentations individuelles, ça vous laisse un cours de plus pour avancer sur votre projet de synthèse.
 
 
-## Objectif du jour
+## Objectif du cours d'aujourd'hui
 
 À la fin du cours d'aujourd'hui, vous serez en mesure d'intégrer l'IA dans votre "workflow" de façon professionnelle et critique:
 
