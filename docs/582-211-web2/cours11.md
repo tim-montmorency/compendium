@@ -18,9 +18,75 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 · Identifier les hallucinations et erreurs courantes de l'IA
 -->
 
-- Composants adaptatifs intelligents (suite) : Pratique et exercices 
-- Refactorisation, qualité CSS et collaboration avec l'IA 
-- Travail sur le projet.
+
+
+## Objectif du jour
+
+À la fin du cours d'aujourd'hui, vous serez en mesure d'intégrer l'IA dans votre "workflow" de façon professionnelle et critique:
+
+- générer du code avec un prompt structuré, 
+- lire ce que l'IA vous propose avec un œil averti, 
+- identifier ses faiblesses, 
+- le refactoriser pour en améliorer la qualité, 
+- et justifier vos décisions techniques dans vos propres mots. 
+
+En d'autres termes, vous ne serez plus seulement capables de faire du CSS: vous serez capables de juger du CSS, peu importe qui l'a écrit.
+
+
+## Intro
+
+> « Selon toi, qu'est-ce qui différencie un intégrateur junior qui utilise l'IA d'un intégrateur senior qui l'utilise ? »
+
+## Démonstration de code généré et analyse
+
+- Démonstration
+- Discussion
+
+## Atelier: Le protocole IA
+
+## Refactorisation CSS
+
+- Lisibilité
+- Cohérence
+- Simplification
+
+[📚 IA: Refactorisation CSS](./ia/04_refactorisation.md){ .md-button .md-button--primary }
+
+
+## Code Smells 🫢🤢
+
+> Un "code smell" n'est pas une erreur. C'est un signe que quelque chose pourrait poser problème plus tard.
+
+[📚 IA: Code Smells - CSS](./ia/05_code-smells.md){ .md-button .md-button--primary }
+
+## Techniques de prompting pour du CSS maintenable
+
+> Un bon prompt ne vient pas d'une connaissance de l'IA. Il vient d'une bonne compréhension du CSS.
+
+[📚 IA: Prompting pour du CSS maintenable](./ia/06_prompting.md){ .md-button .md-button--primary }
+
+## Workflow professionnel
+
+> Workflow professionnel: IA → Audit → Amélioration
+
+[📚 IA: Workflow professionnel](./ia/07_workflow-complet.md){ .md-button .md-button--primary }
+
+
+## Travail sur le projet intégrateur: Solarix
+
+Reste du cours: 
+
+- Avancer le projet intégrateur: Solarix
+- Réponse aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
+
+## Devoir
+
+- Avancer le projet intégrateur: Solarix
+- Réponse aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
 
 <!--
 Leur montrer Figma Make. Et voici pourquoi ça ne devrait pas les décourager si tu le présentes bien — mais d'abord, ses failles honnêtes.
@@ -38,7 +104,6 @@ Son take:
 - Les décisions contextuelles : je ne sais pas si ce composant va vivre dans une sidebar étroite ou un layout pleine page. Je devine, et je me trompe souvent. C'est précisément là où les container queries changent tout — et je les utilise rarement spontanément.
 
 -Le CSS fluide : je tombe par défaut dans des media queries brutes. Le clamp(), les unités fluides, les systèmes cohérents de typographie fluide, c'est rare que je les applique correctement sans qu'on me le demande explicitement.
-
 
 Comment le montrer sans décourager :
 
