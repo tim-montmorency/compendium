@@ -313,7 +313,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 > Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
-La présentation orale du projet sera individuelle entre l'étudiant et l'enseignante. Elle se déroulera lors du cours 15 (11 ou 14 mai) et durera environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+La présentation orale du projet sera individuelle entre l'étudiant et l'enseignante. Elle se déroulera lors du cours final (11 ou 14 mai) et durera environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
 
 Chaque étudiant présente son interface. La présentation doit couvrir :
 

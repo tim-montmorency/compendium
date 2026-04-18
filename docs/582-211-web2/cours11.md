@@ -2,8 +2,18 @@
 
 Lundi 20 avril / mercredi 22 avril
 
+
+---
+
+<div class="class-content-link">
+  <img src="./assets/IA-libre-dirigee.png">
+  <span class="sidetext">PHASE 3: Utilisation de l'IA permise à cette phase dans la session. Vous devez cependant rester critique, vérifier les résultats, comprendre chaque ligne de code.</span>
+</div>
+
 <!--
 Annonce de la Phase 3 de la politique IA : L'IA est maintenant encouragée
+
+
 Workflow professionnel avec IA : générer → analyser → critiquer → améliorer
 
 Composants adaptatifs intelligents (suite) 
@@ -22,28 +32,30 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 
 ### Présentations finales du projet de synthèse
 
-Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours 14 (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours final (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
 
 [Présentation orales](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
-### Sondage pour la remise
+<!-- ### Sondage pour la remise 
+
+JHÉSITE PERSONNELLEMENT: 14 soir = finitot mais pas dans ce scénario...
 
 Sondage sur votre horaire du 15 mai (enseigné comme un mercredi).
 
 Je considère le 15 mai comme une journée de rencontres pour vos présentations finales du projet de sythèse. C'est enseigné comme un mercredi (journée de rattrapage du verglas). Donc tout dépend de votre horaire ce jour là et si vos profs prévoient reprendre un cours ce jour-là ou pas. 
 
 *L'idée c'est de vous accorder un cours complet supplémentaires pour avancer sur votre projet de synthèse.* Il était prévu que vous remettiez et présentiez votre projet de synthèse au dernier cours de la session le 11 mai (groupes du lundi) ou le 14 mai (groupe du mercredi). Si on considère le 15 mai comme une journée de rencontre pour les présentations individuelles, ça vous laisse un cours de plus pour avancer sur votre projet de synthèse.
-
+-->
 
 ## Objectif du cours d'aujourd'hui
 
 À la fin du cours d'aujourd'hui, vous serez en mesure d'intégrer l'IA dans votre "workflow" de façon professionnelle et critique:
 
-- générer du code avec un prompt structuré, 
-- lire ce que l'IA vous propose avec un œil averti, 
-- identifier ses faiblesses, 
-- le refactoriser pour en améliorer la qualité, 
-- et justifier vos décisions techniques dans vos propres mots. 
+- générer du code avec un prompt structuré,
+- lire ce que l'IA vous propose avec un œil averti,
+- identifier ses faiblesses,
+- le refactoriser pour en améliorer la qualité,
+- et justifier vos décisions techniques dans vos propres mots.
 
 En d'autres termes, vous ne serez plus seulement capables de faire du CSS: vous serez capables de juger du CSS, peu importe qui l'a écrit.
 
@@ -82,7 +94,8 @@ En d'autres termes, vous ne serez plus seulement capables de faire du CSS: vous 
 
 ## Workflow professionnel
 
-> Workflow professionnel: IA → Audit → Amélioration
+> Workflow professionnel: Générer (IA) → analyser (audit) → critiquer → améliorer
+
 
 [📚 IA: Workflow professionnel](./ia/07_workflow-complet.md){ .md-button .md-button--primary }
 
@@ -102,30 +115,3 @@ Reste du cours:
 - Réponse aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
-
-<!--
-Leur montrer Figma Make. Et voici pourquoi ça ne devrait pas les décourager si tu le présentes bien — mais d'abord, ses failles honnêtes.
-
-Ce que Figma Make (Claude 3.7 en arrière) génère mal en CSS/intégration web :
-
-Son take:
-
-"- La structure sémantique HTML : je produis souvent des div là où un nav, main, article ou figure aurait été plus approprié. Je fais semblant de comprendre la sémantique, mais je la sacrifie souvent pour faire quelque chose qui "marche".
-
-- L'accessibilité : c'est peut-être ma plus grande lacune. Focus visible, ordre de navigation clavier, attributs ARIA... je les oublie ou je les applique de façon superficielle. Un audit Lighthouse va souvent me démolir.
-
-- La maintenabilité du CSS : je génère du CSS qui fonctionne, mais qui est souvent redondant, peu cohérent dans la nomenclature, sans système de design tokens réfléchi. C'est du code jetable, pas du code professionnel.
-
-- Les décisions contextuelles : je ne sais pas si ce composant va vivre dans une sidebar étroite ou un layout pleine page. Je devine, et je me trompe souvent. C'est précisément là où les container queries changent tout — et je les utilise rarement spontanément.
-
--Le CSS fluide : je tombe par défaut dans des media queries brutes. Le clamp(), les unités fluides, les systèmes cohérents de typographie fluide, c'est rare que je les applique correctement sans qu'on me le demande explicitement.
-
-Comment le montrer sans décourager :
-
-L'erreur serait de montrer Figma Make en disant "regardez ce que ça produit" et de passer à autre chose. L'approche pédagogique forte, c'est de montrer Make et d'auditer ensemble le résultat en direct. Laisser les étudiants trouver les problèmes eux-mêmes. Ça devient une démonstration que leur regard critique vaut plus que ma vitesse de génération.
-Ton plan de cours fait d'ailleurs exactement ça au cours 11 : auditer du code généré par IA pour l'accessibilité. C'est le bon moment pour introduire Make, pas au début.
-
-Le vrai message à leur faire passer :
-
-Figma Make peut produire un prototype en 30 secondes. Mais le mettre en production de façon accessible, maintenable et cohérente ? Ça, c'est encore un travail humain. Et le marché le sait.
--->
