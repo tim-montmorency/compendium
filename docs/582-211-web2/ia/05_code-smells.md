@@ -1,8 +1,7 @@
-# Cours 11 — Code Smells en CSS
+# Code Smells en CSS
 
 > *Un "code smell" n'est pas une erreur. C'est un signe que quelque chose pourrait poser problème plus tard.*
 
----
 
 ## Pourquoi apprendre à reconnaître les code smells ?
 
@@ -10,7 +9,6 @@ Le code généré par l'IA est souvent **correct mais fragile**. Il fonctionne d
 
 Reconnaître les code smells, c'est **lire le code comme un professionnel** : pas juste vérifier que ça marche, mais anticiper ce qui pourrait casser.
 
----
 
 ## Les code smells CSS les plus fréquents
 
@@ -137,7 +135,6 @@ L'IA génère souvent des composants sans penser aux états `:hover`, `:focus`, 
 
 **Pourquoi c'est un problème :** Un composant sans états interactifs n'est pas accessible et n'est pas terminé. C'est le signe le plus courant d'un code généré et non audité.
 
----
 
 ## Outil de détection rapide
 

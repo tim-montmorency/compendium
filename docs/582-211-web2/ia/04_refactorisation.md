@@ -1,6 +1,6 @@
-# Cours 11 — Refactorisation CSS : lisibilité, cohérence, simplification
+# Refactorisation CSS : lisibilité, cohérence, simplification
 
----
+
 
 ## Qu'est-ce que refactoriser ?
 
@@ -10,7 +10,7 @@ En CSS, ça veut dire : supprimer la redondance, clarifier les intentions, regro
 
 > *« Refactoriser, ce n'est pas réécrire. C'est nettoyer. »*
 
----
+
 
 ## Pourquoi refactoriser est une compétence professionnelle
 
@@ -21,7 +21,7 @@ Dans un milieu de travail :
 
 Savoir refactoriser, c'est savoir **prendre une responsabilité sur le code** — pas juste le faire fonctionner.
 
----
+
 
 ## Les trois axes de la refactorisation CSS
 
@@ -95,7 +95,6 @@ div.card > p.card__text { color: var(--color-text); }
 .card__text { color: var(--color-text); }
 ```
 
----
 
 ## Processus de refactorisation recommandé
 
@@ -106,7 +105,6 @@ div.card > p.card__text { color: var(--color-text); }
 5. **Supprimer le superflu.** Propriétés par défaut, sélecteurs trop spécifiques, règles dupliquées.
 6. **Tester visuellement à chaque étape.** La refactorisation ne doit rien changer à l'affichage.
 
----
 
 ## Exercice rapide en classe
 

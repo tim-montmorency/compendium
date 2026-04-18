@@ -1,8 +1,7 @@
-# Cours 11 — Workflow professionnel : IA → Audit → Amélioration
+# Workflow professionnel : IA → Audit → Amélioration
 
 > *Ce document est une fiche de référence que tu peux garder ouverte pendant tes projets.*
 
----
 
 ## Vue d'ensemble du workflow
 
@@ -28,7 +27,6 @@ DOCUMENTATION (commentaires + justifications)
 LIVRAISON
 ```
 
----
 
 ## Étape par étape
 
@@ -185,7 +183,6 @@ Un composant est prêt à livrer quand :
 - [ ] Le code est commenté aux endroits non évidents
 - [ ] Les décisions non évidentes sont justifiées
 
----
 
 ## Résumé en une phrase
 

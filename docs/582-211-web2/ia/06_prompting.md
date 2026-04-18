@@ -1,8 +1,7 @@
-# Cours 11 — Techniques de prompting pour du CSS maintenable
+# Techniques de prompting pour du CSS maintenable
 
 > *Un bon prompt ne vient pas d'une connaissance de l'IA. Il vient d'une bonne compréhension du CSS.*
 
----
 
 ## Le principe de base
 
@@ -10,7 +9,6 @@ La qualité du code généré est **directement proportionnelle à la précision
 
 Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont précis, moins tu as à refactoriser. C'est pourquoi les Phase 1 et 2 de ce cours existaient.
 
----
 
 ## Anatomie d'un bon prompt CSS
 
@@ -39,7 +37,6 @@ Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes
 selon la largeur disponible.
 ```
 
----
 
 ## Les niveaux de précision
 
@@ -91,7 +88,6 @@ Génère un composant "carte de témoignage" avec [...]
 ```
 → Le code généré s'intègre directement dans le projet sans ajustement de variables.
 
----
 
 ## Techniques spécifiques
 
@@ -139,7 +135,6 @@ avec les variantes : succès, avertissement, erreur.
 ```
 L'IA peut apprendre ta convention à partir d'un exemple — c'est beaucoup plus fiable que de tout lui expliquer verbalement.
 
----
 
 ## Ce que l'IA ne peut pas faire à ta place
 
@@ -153,7 +148,6 @@ Même avec un prompt parfait, l'IA ne peut pas :
 
 > C'est pour ça que le workflow est **IA → audit → amélioration**, et pas juste **IA → livraison**.
 
----
 
 ## Exercice de comparaison en classe
 
