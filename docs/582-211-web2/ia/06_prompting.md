@@ -1,6 +1,8 @@
 # Techniques de prompting pour du CSS maintenable
 
-> Un bon prompt ne vient pas d'une connaissance de l'IA. Il vient d'une bonne compréhension du CSS.
+> Un bon prompt ne vient pas d'une connaissance de l'IA.
+>
+> Il vient d'une bonne compréhension du CSS.
 
 
 ## Le principe de base
