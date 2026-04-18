@@ -1,6 +1,6 @@
 # Techniques de prompting pour du CSS maintenable
 
-> *Un bon prompt ne vient pas d'une connaissance de l'IA. Il vient d'une bonne compréhension du CSS.*
+> Un bon prompt ne vient pas d'une connaissance de l'IA. Il vient d'une bonne compréhension du CSS.
 
 
 ## Le principe de base
@@ -14,26 +14,20 @@ Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont 
 
 Un prompt efficace contient idéalement **5 éléments** :
 
-[Composant]+[Structure attendue]+[Contraintes CSS]+[Conventions]+[Contexte]
+> *[Composant]*+*[Structure attendue]*+*[Contraintes CSS]*+*[Conventions]*+*[Contexte]*
 
 ### Exemple complet :
 
-```
-Génère un composant HTML/CSS "carte de produit" contenant une image, 
-un titre, une description courte et un bouton "Ajouter au panier".
-
-Contraintes CSS :
-- Utilise des variables pour les couleurs (--color-primary, 
-  --color-surface, --color-text, --color-text-muted) et les espacements 
-  (--space-sm, --space-md, --space-lg)
-- Utilise container queries pour l'adaptation (pas de media queries)
-- Nomme les classes selon la méthodologie BEM
-- Inclus les états :hover et :focus-visible sur le bouton
-- Utilise rem pour la typographie, pas px
-
-Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes 
-selon la largeur disponible.
-```
+> *Génère un composant HTML/CSS "carte de produit" contenant une image, un titre, une description courte et un bouton "Ajouter au panier".*
+>
+> *Contraintes CSS :*
+> *- Utilise des variables pour les couleurs (--color-primary, --color-surface, --color-text, --color-text-muted) et les espacements  (--space-sm, --space-md, --space-lg)*
+> *- Utilise container queries pour l'adaptation (pas de media queries)*
+> *- Nomme les classes selon la méthodologie BEM*
+> *- Inclus les états :hover et :focus-visible sur le bouton*
+> *- Utilise rem pour la typographie, pas px* 
+>
+> *Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes selon la largeur disponible.*
 
 
 ## Les niveaux de précision
