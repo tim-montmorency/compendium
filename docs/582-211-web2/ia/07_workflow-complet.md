@@ -30,8 +30,6 @@ LIVRAISON
 
 ## Étape par étape
 
----
-
 ### 1. Préparer le brief
 
 Avant d'ouvrir l'outil IA, réponds à ces questions :
@@ -39,11 +37,14 @@ Avant d'ouvrir l'outil IA, réponds à ces questions :
 - Quel est le composant ? Quelle est sa fonction ?
 - Quelles données contient-il ?
 - Dans quel contexte sera-t-il utilisé (grille, sidebar, pleine largeur) ?
-- Quelles custom properties de mon système dois-je respecter ?
+- Quelles propriétés de mon système dois-je respecter (y a-t-il des variables CSS à utiliser/respecter) ?
 - Quelle convention de nommage est-ce que j'utilise dans ce projet ?
 - Y a-t-il des contraintes d'accessibilité spécifiques ?
 
 > Plus tu réponds à ces questions avant de prompter, moins tu refactoriseras après.
+
+
+<br>
 
 ---
 
@@ -57,11 +58,14 @@ Utilise la structure suivante :
 
 Inclure dans le prompt :
 
-- Les noms de custom properties à utiliser (ou la liste de celles disponibles)
+- Les noms de variables CSS à utiliser (ou la liste de celles disponibles)
 - La méthode de nommage (BEM, etc.)
 - Le système d'adaptation préféré (container queries vs media queries)
 - Les unités à utiliser (`rem` pour la typo, `%` ou `vw` pour les largeurs fluides)
 - La demande explicite d'états interactifs (`:hover`, `:focus-visible`)
+
+
+<br>
 
 ---
 
@@ -72,9 +76,12 @@ Après la génération, **ne pas exécuter immédiatement**.
 Lire le code de haut en bas et noter :
 
 - Est-ce que la structure HTML est sémantiquement correcte ?
-- Est-ce que les custom properties utilisées existent dans mon système ?
+- Est-ce que les variables utilisées existent dans mon système ?
 - Est-ce que le nommage respecte mes conventions ?
 - Est-ce que je vois des signaux d'alarme évidents (valeurs magiques, `!important`, sélecteurs profonds) ?
+
+
+<br>
 
 ---
 
@@ -86,6 +93,9 @@ Afficher dans le navigateur. Se poser les questions :
 - Qu'est-ce qui manque visuellement ?
 - Est-ce que le composant "casse" à certaines tailles ?
 - Est-ce que la navigation au clavier fonctionne (tab, focus visible) ?
+
+
+<br>
 
 ---
 
@@ -104,11 +114,15 @@ Parcourir le code avec la grille des 7 questions (voir *Code Smells en CSS*) :
 | États `:hover` et `:focus-visible` présents ? | États manquants |
 
 Ajouter des commentaires inline dans le code :
+
 ```css
 /* ✅ BON : … */
 /* ⚠️ DISCUTABLE : … */
 /* ❌ ERREUR : … → À corriger : … */
 ```
+
+
+<br>
 
 ---
 
@@ -117,12 +131,15 @@ Ajouter des commentaires inline dans le code :
 Si tu as généré plusieurs versions avec des prompts différents, comparer sur :
 
 - Qualité du nommage
-- Utilisation du système de design (custom properties)
+- Utilisation du système de design (variables CSS)
 - Logique de l'adaptation (container queries bien placées ?)
 - Lisibilité et maintenabilité
 - Accessibilité
 
 Choisir la meilleure base — pas forcément la plus élaborée.
+
+
+<br>
 
 ---
 
@@ -137,6 +154,9 @@ Appliquer les corrections identifiées lors de l'audit :
 - Regrouper et réorganiser selon une logique lisible
 
 Tester visuellement après chaque modification significative.
+
+
+<br>
 
 ---
 
@@ -175,6 +195,9 @@ Deux niveaux de documentation :
 - Pourquoi ce nommage plutôt qu'un autre ?
 - Qu'est-ce que l'IA a bien fait ? Qu'est-ce que tu as dû corriger ?
 
+
+<br>
+
 ---
 
 ### 9. Livrer
@@ -183,7 +206,7 @@ Un composant est prêt à livrer quand :
 
 - [ ] Il fonctionne aux résolutions prévues
 - [ ] Il est navigable au clavier (tab, focus visible)
-- [ ] Les custom properties utilisées sont toutes définies dans le système
+- [ ] Les variables CSS utilisées sont toutes définies dans le système
 - [ ] Le nommage est cohérent avec le reste du projet
 - [ ] Les états interactifs sont présents et accessibles
 - [ ] Le code est commenté aux endroits non évidents
