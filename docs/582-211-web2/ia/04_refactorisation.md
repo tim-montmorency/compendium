@@ -29,9 +29,20 @@ Savoir refactoriser, c'est savoir **prendre une responsabilité sur le code** �
 
 Le code lisible se lit comme une intention, pas comme une liste de propriétés.
 
-**Avant :**
+**Avant 01 :**
 ```css
 .card { background: #fff; padding: 16px; border-radius: 8px; display: flex; flex-direction: column; gap: 12px; max-width: 400px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+```
+
+**ou avant 02 :**
+```css
+.card{background: #fff; 
+padding: 16px;border-radius: 8px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; 
+    max-width: 400px; 
+box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 ```
 
 **Après :**
