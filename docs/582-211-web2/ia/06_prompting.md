@@ -39,6 +39,7 @@ selon la largeur disponible.
 ## Les niveaux de précision
 
 ### Niveau 1 : Prompt vague (à éviter après la Phase 1)
+
 ```
 Fais-moi une carte CSS.
 ```
@@ -47,15 +48,18 @@ Fais-moi une carte CSS.
 ---
 
 ### Niveau 2 : Prompt structuré (minimum acceptable)
+
 ```
 Génère une carte HTML/CSS avec un titre, une description et un bouton. 
 Utilise des variables et le nommage BEM.
 ```
+
 → Résultat correct mais incomplet. Probablement sans container queries ni états.
 
 ---
 
 ### Niveau 3 : Prompt avec contraintes (standard professionnel)
+
 ```
 Génère un composant "carte d'article" en HTML/CSS avec :
 - Image de couverture, titre (h3), extrait (p), lien "Lire la suite"
@@ -67,11 +71,13 @@ Génère un composant "carte d'article" en HTML/CSS avec :
 - État :hover sur le lien, :focus-visible visible et contrasté
 - Aucune valeur px pour la typographie (utilise rem)
 ```
+
 → Résultat directement utilisable avec peu de refactorisation.
 
 ---
 
 ### Niveau 4 : Prompt avec système de design existant (avancé)
+
 ```
 En utilisant ces variables déjà définies dans mon système :
 --color-primary: #2563eb
@@ -84,6 +90,7 @@ En utilisant ces variables déjà définies dans mon système :
 
 Génère un composant "carte de témoignage" avec [...]
 ```
+
 → Le code généré s'intègre directement dans le projet sans ajustement de variables.
 
 
@@ -95,21 +102,25 @@ Génère 3 variantes CSS du même composant en utilisant des approches
 différentes : une avec Flexbox, une avec Grid, une avec container queries. 
 Explique brièvement les avantages de chaque approche.
 ```
+
 Utile pour comparer et choisir la meilleure décision pour ton contexte.
 
 ---
 
 ### Demander une explication avec le code
+
 ```
 [...prompt du composant...]
 Pour chaque décision CSS non évidente, ajoute un commentaire qui explique 
 POURQUOI tu as fait ce choix (pas ce que ça fait, mais pourquoi).
 ```
+
 Force l'IA à produire une documentation partielle : que tu pourras valider ou corriger.
 
 ---
 
 ### Demander un audit, pas une génération
+
 ```
 Voici mon CSS actuel pour un composant de carte :
 [coller le code]
@@ -118,11 +129,13 @@ Identifie les code smells présents (valeurs magiques, spécificité excessive,
 redondance, etc.) et propose une version refactorisée. Explique chaque 
 changement.
 ```
+
 Utile pour la refactorisation de code existant.
 
 ---
 
 ### Demander de respecter une convention existante
+
 ```
 Voici un exemple de composant déjà codé dans mon projet :
 [coller un exemple de composant existant]
@@ -131,6 +144,7 @@ En respectant exactement la même structure BEM, les mêmes noms de custom
 properties et la même organisation du CSS, génère un composant "badge" 
 avec les variantes : succès, avertissement, erreur.
 ```
+
 L'IA peut apprendre ta convention à partir d'un exemple : c'est beaucoup plus fiable que de tout lui expliquer verbalement.
 
 
