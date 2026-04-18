@@ -136,7 +136,7 @@ Si tu as généré plusieurs versions avec des prompts différents, comparer sur
 - Lisibilité et maintenabilité
 - Accessibilité
 
-Choisir la meilleure base — pas forcément la plus élaborée.
+Choisir la meilleure base : pas forcément la plus élaborée.
 
 
 <br>
@@ -167,7 +167,7 @@ Deux niveaux de documentation :
 **Commentaires dans le CSS** (pour le lecteur du code) :
 
 ```css
-/* Conteneur principal — container-type requis pour les container queries enfants */
+/* Conteneur principal : container-type requis pour les container queries enfants */
 .testimonial-card {
   container-type: inline-size;
 }
