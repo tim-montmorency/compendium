@@ -37,7 +37,7 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 
 Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours final (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
 
-[Présentation orales](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+[Consignes des présentations orales du projet de synthèse](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
 <!-- ### Sondage pour la remise 
 
