@@ -23,7 +23,7 @@ Génère un composant HTML/CSS "carte de produit" contenant une image,
 un titre, une description courte et un bouton "Ajouter au panier".
 
 Contraintes CSS :
-- Utilise des custom properties pour les couleurs (--color-primary, 
+- Utilise des variables pour les couleurs (--color-primary, 
   --color-surface, --color-text, --color-text-muted) et les espacements 
   (--space-sm, --space-md, --space-lg)
 - Utilise container queries pour l'adaptation (pas de media queries)
@@ -42,14 +42,14 @@ selon la largeur disponible.
 ```
 Fais-moi une carte CSS.
 ```
-→ Résultat générique, valeurs magiques, pas de custom properties, aucun état interactif.
+→ Résultat générique, valeurs magiques, pas de variables, aucun état interactif.
 
 ---
 
 ### Niveau 2 : Prompt structuré (minimum acceptable)
 ```
 Génère une carte HTML/CSS avec un titre, une description et un bouton. 
-Utilise des custom properties et le nommage BEM.
+Utilise des variables et le nommage BEM.
 ```
 → Résultat correct mais incomplet. Probablement sans container queries ni états.
 
@@ -59,7 +59,7 @@ Utilise des custom properties et le nommage BEM.
 ```
 Génère un composant "carte d'article" en HTML/CSS avec :
 - Image de couverture, titre (h3), extrait (p), lien "Lire la suite"
-- Custom properties : --color-surface, --color-text, --color-accent, 
+- Variables : --color-surface, --color-text, --color-accent, 
   --space-sm, --space-md, --radius-md
 - Container queries (pas de media queries) pour passer d'une disposition 
   en colonne (< 400px) à une disposition en ligne (≥ 400px)
@@ -73,7 +73,7 @@ Génère un composant "carte d'article" en HTML/CSS avec :
 
 ### Niveau 4 : Prompt avec système de design existant (avancé)
 ```
-En utilisant ces custom properties déjà définies dans mon système :
+En utilisant ces variables déjà définies dans mon système :
 --color-primary: #2563eb
 --color-surface: #ffffff
 --color-text: #1e293b
