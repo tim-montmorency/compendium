@@ -2,12 +2,15 @@
 
 Lundi 20 avril / mercredi 22 avril
 
+<br>
 
 ---
 
+<br>
+
 <div class="class-content-link">
   <img src="./assets/IA-libre-dirigee.png">
-  <span class="sidetext">PHASE 3: Utilisation de l'IA permise à cette phase dans la session. Vous devez cependant rester critique, vérifier les résultats, comprendre chaque ligne de code.</span>
+  <span class="sidetext">PHASE 3: Utilisation de l'IA permise à cette phase dans la session. Vous devez cependant rester critique, vérifier les résultats, comprendre chaque ligne de votre code.</span>
 </div>
 
 <!--
