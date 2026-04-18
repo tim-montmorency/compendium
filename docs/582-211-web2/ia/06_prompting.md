@@ -7,7 +7,7 @@
 
 La qualité du code généré est **directement proportionnelle à la précision de tes instructions**. L'IA ne peut pas deviner ton système de design, tes conventions de nommage, ou tes contraintes d'accessibilité : tu dois les lui fournir.
 
-Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont précis, moins tu as à refactoriser. C'est pourquoi les Phase 1 et 2 de ce cours existaient.
+Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont précis, moins tu as à refactoriser. C'est pourquoi les Phase 1 (IA interdit) et 2 (IA permis mais limité) de ce cours existaient.
 
 
 ## Anatomie d'un bon prompt CSS
@@ -38,7 +38,7 @@ selon la largeur disponible.
 
 ## Les niveaux de précision
 
-### Niveau 1 : Prompt vague (à éviter après la Phase 1)
+### Niveau 1 : Prompt trop vague
 
 ```
 Fais-moi une carte CSS.
