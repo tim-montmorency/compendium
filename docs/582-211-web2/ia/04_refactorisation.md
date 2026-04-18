@@ -171,6 +171,7 @@ div.testimonial-card > div.testimonial-card__author {
 ```
 
 **Pistes de réflexion :**
+
 - Quelles valeurs se répètent et mériteraient d'être des variables ?
 - Quels sélecteurs sont trop spécifiques ?
 - Quelles propriétés sont superflues (valeurs par défaut) ?
