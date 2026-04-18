@@ -56,6 +56,7 @@ Utilise la structure suivante :
 ```
 
 Inclure dans le prompt :
+
 - Les noms de custom properties à utiliser (ou la liste de celles disponibles)
 - La méthode de nommage (BEM, etc.)
 - Le système d'adaptation préféré (container queries vs media queries)
@@ -69,6 +70,7 @@ Inclure dans le prompt :
 Après la génération, **ne pas exécuter immédiatement**.
 
 Lire le code de haut en bas et noter :
+
 - Est-ce que la structure HTML est sémantiquement correcte ?
 - Est-ce que les custom properties utilisées existent dans mon système ?
 - Est-ce que le nommage respecte mes conventions ?
@@ -113,6 +115,7 @@ Ajouter des commentaires inline dans le code :
 ### 6. Comparer (si plusieurs variantes)
 
 Si tu as généré plusieurs versions avec des prompts différents, comparer sur :
+
 - Qualité du nommage
 - Utilisation du système de design (custom properties)
 - Logique de l'adaptation (container queries bien placées ?)
@@ -126,6 +129,7 @@ Choisir la meilleure base — pas forcément la plus élaborée.
 ### 7. Refactoriser
 
 Appliquer les corrections identifiées lors de l'audit :
+
 - Remplacer les valeurs magiques par des variables
 - Simplifier les sélecteurs
 - Supprimer le superflu
@@ -141,6 +145,7 @@ Tester visuellement après chaque modification significative.
 Deux niveaux de documentation :
 
 **Commentaires dans le CSS** (pour le lecteur du code) :
+
 ```css
 /* Conteneur principal — container-type requis pour les container queries enfants */
 .testimonial-card {
@@ -164,6 +169,7 @@ Deux niveaux de documentation :
 ```
 
 **Justifications de décisions** (pour le projet ou la présentation) :
+
 - Pourquoi container queries plutôt que media queries ?
 - Pourquoi cette valeur de breakpoint ?
 - Pourquoi ce nommage plutôt qu'un autre ?

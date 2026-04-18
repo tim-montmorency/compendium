@@ -4,7 +4,7 @@
 
 ## Qu'est-ce que refactoriser ?
 
-Refactoriser, c'est **améliorer la structure du code sans changer son comportement**. Le résultat visuel reste identique — mais le code devient plus lisible, plus maintenable, et plus facile à faire évoluer.
+Refactoriser, c'est **améliorer la structure du code sans changer son comportement**. Le résultat visuel reste identique : mais le code devient plus lisible, plus maintenable, et plus facile à faire évoluer.
 
 En CSS, ça veut dire : supprimer la redondance, clarifier les intentions, regrouper ce qui va ensemble, et nommer ce qu'on manipule.
 
@@ -19,7 +19,7 @@ Dans un milieu de travail :
 - Le code généré par l'IA est souvent fonctionnel mais verbeux et peu cohérent
 - Un projet qui grandit avec du mauvais CSS devient rapidement ingérable
 
-Savoir refactoriser, c'est savoir **prendre une responsabilité sur le code** — pas juste le faire fonctionner.
+Savoir refactoriser, c'est savoir **prendre une responsabilité sur le code** : pas juste le faire fonctionner.
 
 
 
@@ -89,7 +89,7 @@ Trois conventions d'unités différentes dans le même fichier. Quand ce fichier
 
 ### 3. Simplification
 
-Supprimer ce qui n'est pas nécessaire. L'IA a tendance à surspécifier — à écrire plus de CSS qu'il n'en faut pour être "sûre".
+Supprimer ce qui n'est pas nécessaire. L'IA a tendance à surspécifier : à écrire plus de CSS qu'il n'en faut pour être "sûre".
 
 **Exemples de CSS superflu courant :**
 

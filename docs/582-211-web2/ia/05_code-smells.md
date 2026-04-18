@@ -5,7 +5,7 @@
 
 ## Pourquoi apprendre à reconnaître les code smells ?
 
-Le code généré par l'IA est souvent **correct mais fragile**. Il fonctionne dans le contexte pour lequel il a été généré — mais il se casse quand le projet évolue, quand un autre composant interagit avec lui, ou quand une résolution d'écran inattendue se présente.
+Le code généré par l'IA est souvent **correct mais fragile**. Il fonctionne dans le contexte pour lequel il a été généré : mais il se casse quand le projet évolue, quand un autre composant interagit avec lui, ou quand une résolution d'écran inattendue se présente.
 
 Reconnaître les code smells, c'est **lire le code comme un professionnel** : pas juste vérifier que ça marche, mais anticiper ce qui pourrait casser.
 
@@ -25,7 +25,7 @@ Des nombres qui apparaissent sans explication et qui seront oubliés dans 3 sema
 .card { padding: var(--space-md); margin-top: var(--space-lg); font-size: var(--text-sm); }
 ```
 
-**Pourquoi c'est un problème :** Impossible de savoir d'où vient `23px`. Si le système de design change, tu dois chercher et remplacer chaque valeur manuellement — et tu en rateras.
+**Pourquoi c'est un problème :** Impossible de savoir d'où vient `23px`. Si le système de design change, tu dois chercher et remplacer chaque valeur manuellement : et tu en rateras.
 
 <br>
 
@@ -43,7 +43,7 @@ body > main > section div.card > p.card__description { color: var(--color-text);
 .card__description { color: var(--color-text); }
 ```
 
-**Pourquoi c'est un problème :** Un sélecteur très spécifique "gagne" sur les règles plus simples, même quand elles devraient s'appliquer. Ça crée des conflits impossibles à débogguer sans augmenter la spécificité partout — une spirale vers l'enfer du `!important`.
+**Pourquoi c'est un problème :** Un sélecteur très spécifique "gagne" sur les règles plus simples, même quand elles devraient s'appliquer. Ça crée des conflits impossibles à débogguer sans augmenter la spécificité partout : une spirale vers l'enfer du `!important`.
 
 <br>
 
@@ -96,7 +96,7 @@ ul { list-style: disc; }                 /* déjà la valeur par défaut */
 span { display: inline; }               /* inline est la valeur par défaut de <span> */
 ```
 
-**Pourquoi c'est un problème :** Ça alourdit le code inutilement et ça brouille la lecture — on ne sait plus ce qui est une décision intentionnelle et ce qui est du remplissage.
+**Pourquoi c'est un problème :** Ça alourdit le code inutilement et ça brouille la lecture : on ne sait plus ce qui est une décision intentionnelle et ce qui est du remplissage.
 
 <br>
 
@@ -122,7 +122,7 @@ span { display: inline; }               /* inline est la valeur par défaut de <
 .card__footer { }
 ```
 
-**Pourquoi c'est un problème :** Les classes génériques (`blue`, `big`) ne survivent pas à un changement de design. Les conventions mélangées rendent le code imprévisible — tu ne sais jamais comment nommer la prochaine chose.
+**Pourquoi c'est un problème :** Les classes génériques (`blue`, `big`) ne survivent pas à un changement de design. Les conventions mélangées rendent le code imprévisible : tu ne sais jamais comment nommer la prochaine chose.
 
 <br>
 

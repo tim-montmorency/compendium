@@ -5,7 +5,7 @@
 
 ## Le principe de base
 
-La qualité du code généré est **directement proportionnelle à la précision de tes instructions**. L'IA ne peut pas deviner ton système de design, tes conventions de nommage, ou tes contraintes d'accessibilité — tu dois les lui fournir.
+La qualité du code généré est **directement proportionnelle à la précision de tes instructions**. L'IA ne peut pas deviner ton système de design, tes conventions de nommage, ou tes contraintes d'accessibilité : tu dois les lui fournir.
 
 Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont précis, moins tu as à refactoriser. C'est pourquoi les Phase 1 et 2 de ce cours existaient.
 
@@ -14,9 +14,7 @@ Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont 
 
 Un prompt efficace contient idéalement **5 éléments** :
 
-```
-[Composant] + [Structure attendue] + [Contraintes CSS] + [Conventions] + [Contexte]
-```
+[Composant]+[Structure attendue]+[Contraintes CSS]+[Conventions]+[Contexte]
 
 ### Exemple complet :
 
@@ -40,7 +38,7 @@ selon la largeur disponible.
 
 ## Les niveaux de précision
 
-### Niveau 1 — Prompt vague (à éviter après la Phase 1)
+### Niveau 1 : Prompt vague (à éviter après la Phase 1)
 ```
 Fais-moi une carte CSS.
 ```
@@ -48,7 +46,7 @@ Fais-moi une carte CSS.
 
 ---
 
-### Niveau 2 — Prompt structuré (minimum acceptable)
+### Niveau 2 : Prompt structuré (minimum acceptable)
 ```
 Génère une carte HTML/CSS avec un titre, une description et un bouton. 
 Utilise des custom properties et le nommage BEM.
@@ -57,7 +55,7 @@ Utilise des custom properties et le nommage BEM.
 
 ---
 
-### Niveau 3 — Prompt avec contraintes (standard professionnel)
+### Niveau 3 : Prompt avec contraintes (standard professionnel)
 ```
 Génère un composant "carte d'article" en HTML/CSS avec :
 - Image de couverture, titre (h3), extrait (p), lien "Lire la suite"
@@ -73,7 +71,7 @@ Génère un composant "carte d'article" en HTML/CSS avec :
 
 ---
 
-### Niveau 4 — Prompt avec système de design existant (avancé)
+### Niveau 4 : Prompt avec système de design existant (avancé)
 ```
 En utilisant ces custom properties déjà définies dans mon système :
 --color-primary: #2563eb
@@ -107,7 +105,7 @@ Utile pour comparer et choisir la meilleure décision pour ton contexte.
 Pour chaque décision CSS non évidente, ajoute un commentaire qui explique 
 POURQUOI tu as fait ce choix (pas ce que ça fait, mais pourquoi).
 ```
-Force l'IA à produire une documentation partielle — que tu pourras valider ou corriger.
+Force l'IA à produire une documentation partielle : que tu pourras valider ou corriger.
 
 ---
 
@@ -133,7 +131,7 @@ En respectant exactement la même structure BEM, les mêmes noms de custom
 properties et la même organisation du CSS, génère un composant "badge" 
 avec les variantes : succès, avertissement, erreur.
 ```
-L'IA peut apprendre ta convention à partir d'un exemple — c'est beaucoup plus fiable que de tout lui expliquer verbalement.
+L'IA peut apprendre ta convention à partir d'un exemple : c'est beaucoup plus fiable que de tout lui expliquer verbalement.
 
 
 ## Ce que l'IA ne peut pas faire à ta place
@@ -143,7 +141,7 @@ Même avec un prompt parfait, l'IA ne peut pas :
 - **Connaître ton contexte projet** (sauf si tu le lui fournis)
 - **Tester visuellement le résultat** dans ton navigateur
 - **Décider ce qui est pertinent** pour ton utilisateur spécifique
-- **Garantir l'accessibilité** — elle peut en écrire la syntaxe, pas en évaluer le sens
+- **Garantir l'accessibilité** : elle peut en écrire la syntaxe, pas en évaluer le sens
 - **Justifier ses décisions** de façon fiable (elle peut inventer des justifications plausibles mais fausses)
 
 > C'est pour ça que le workflow est **IA → audit → amélioration**, et pas juste **IA → livraison**.
