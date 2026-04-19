@@ -23,11 +23,30 @@ Un prompt efficace contient idéalement *5 éléments* :
 > *Génère un composant HTML/CSS "carte de produit" contenant une image, un titre, une description courte et un bouton "Ajouter au panier".*
 >
 > *Contraintes CSS :*
+>
 > *- Utilise des variables pour les couleurs (--color-primary, --color-surface, --color-text, --color-text-muted) et les espacements  (--space-sm, --space-md, --space-lg)*
+>
 > *- Utilise container queries pour l'adaptation (pas de media queries)*
+>
 > *- Nomme les classes selon la méthodologie BEM*
+>
 > *- Inclus les états :hover et :focus-visible sur le bouton*
+>
 > *- Utilise rem pour la typographie, pas px* 
+>
+> *Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes selon la largeur disponible.*
+
+### autre test:
+
+> *Génère un composant HTML/CSS "carte de produit" contenant une image, un titre, une description courte et un bouton "Ajouter au panier".*
+>
+> *Contraintes CSS :*
+>
+> *- Utilise des variables pour les couleurs (--color-primary, --color-surface, --color-text, --color-text-muted) et les espacements (--space-sm, --space-md, --space-lg)*  
+> *- Utilise container queries pour l'adaptation (pas de media queries)*  
+> *- Nomme les classes selon la méthodologie BEM*  
+> *- Inclus les états :hover et :focus-visible sur le bouton*  
+> *- Utilise rem pour la typographie, pas px*
 >
 > *Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes selon la largeur disponible.*
 
