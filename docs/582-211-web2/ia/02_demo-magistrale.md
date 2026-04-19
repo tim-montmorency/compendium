@@ -1,4 +1,4 @@
-# Cours 11 — Guide de démonstration magistrale : L'IA en temps réel
+# Guide de démonstration magistrale : L'IA en temps réel
 
 **Durée estimée : 20–25 minutes**  
 **Format : Démonstration par l'enseignante, observation active par les étudiants**

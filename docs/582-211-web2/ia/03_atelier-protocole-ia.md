@@ -1,4 +1,4 @@
-# Cours 11 — Atelier : Le protocole IA → Audit → Amélioration
+# Atelier : Le protocole IA → Audit → Amélioration
 
 **Durée estimée : 45–60 minutes**  
 **Format : Travail individuel en classe**

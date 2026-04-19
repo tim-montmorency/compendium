@@ -1,4 +1,4 @@
-# Cours 11 — Amorce : Le contrat de Phase 3
+#  Amorce : Le contrat de Phase 3
 
 **Durée estimée : 15 minutes**  
 **Format : Discussion orale, table ronde**
