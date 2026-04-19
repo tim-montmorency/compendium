@@ -36,6 +36,8 @@ Un prompt efficace contient idéalement *5 éléments* :
 >
 > *Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes selon la largeur disponible.*
 
+<br>
+
 ### autre test:
 
 > *Génère un composant HTML/CSS "carte de produit" contenant une image, un titre, une description courte et un bouton "Ajouter au panier".*
@@ -60,6 +62,8 @@ Fais-moi une carte CSS.
 ```
 → Résultat générique, valeurs magiques, pas de variables, aucun état interactif.
 
+<br>
+
 ---
 
 ### Niveau 2 : Prompt structuré (minimum acceptable)
@@ -70,6 +74,8 @@ Utilise des variables et le nommage BEM.
 ```
 
 → Résultat correct mais incomplet. Probablement sans *container queries* ni états.
+
+<br>
 
 ---
 
@@ -89,6 +95,8 @@ Génère un composant "carte d'article" en HTML/CSS avec :
 ```
 
 → Résultat directement utilisable avec peu de refactorisation.
+
+<br>
 
 ---
 
