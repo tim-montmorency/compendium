@@ -24,26 +24,6 @@ Un prompt efficace contient idéalement *5 éléments* :
 >
 > *Contraintes CSS :*
 >
-> *- Utilise des variables pour les couleurs (--color-primary, --color-surface, --color-text, --color-text-muted) et les espacements  (--space-sm, --space-md, --space-lg)*
->
-> *- Utilise container queries pour l'adaptation (pas de media queries)*
->
-> *- Nomme les classes selon la méthodologie BEM*
->
-> *- Inclus les états :hover et :focus-visible sur le bouton*
->
-> *- Utilise rem pour la typographie, pas px* 
->
-> *Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes selon la largeur disponible.*
-
-<br>
-
-### autre test:
-
-> *Génère un composant HTML/CSS "carte de produit" contenant une image, un titre, une description courte et un bouton "Ajouter au panier".*
->
-> *Contraintes CSS :*
->
 > *- Utilise des variables pour les couleurs (--color-primary, --color-surface, --color-text, --color-text-muted) et les espacements (--space-sm, --space-md, --space-lg)*  
 > *- Utilise container queries pour l'adaptation (pas de media queries)*  
 > *- Nomme les classes selon la méthodologie BEM*  
@@ -57,9 +37,8 @@ Un prompt efficace contient idéalement *5 éléments* :
 
 ### Niveau 1 : Prompt trop vague
 
-```
-Fais-moi une carte CSS.
-```
+> *Fais-moi une carte CSS.*
+
 → Résultat générique, valeurs magiques, pas de variables, aucun état interactif.
 
 <br>
@@ -68,10 +47,8 @@ Fais-moi une carte CSS.
 
 ### Niveau 2 : Prompt structuré (minimum acceptable)
 
-```
-Génère une carte HTML/CSS avec un titre, une description et un bouton. 
-Utilise des variables et le nommage BEM.
-```
+> *Génère une carte HTML/CSS avec un titre, une description et un bouton.* 
+> *Utilise des variables et le nommage BEM.*
 
 → Résultat correct mais incomplet. Probablement sans *container queries* ni états.
 
@@ -81,18 +58,14 @@ Utilise des variables et le nommage BEM.
 
 ### Niveau 3 : Prompt avec contraintes (standard professionnel)
 
-```
-Génère un composant "carte d'article" en HTML/CSS avec :
-
-- Image de couverture, titre (h3), extrait (p), lien "Lire la suite"
-- Variables : --color-surface, --color-text, --color-accent, 
-  --space-sm, --space-md, --radius-md
-- Container queries (pas de media queries) pour passer d'une disposition 
-  en colonne (verticale) (< 400px) à une disposition en ligne (horizontale) (≥ 400px)
-- Classes BEM : .article-card, .article-card__image, .article-card__body, etc.
-- État :hover sur le lien, :focus-visible visible et contrasté
-- Aucune valeur px pour la typographie (utilise rem)
-```
+> *Génère un composant "carte d'article" en HTML/CSS avec :*
+>
+> *- Image de couverture, titre (h3), extrait (p), lien "Lire la suite"*
+> *- Variables : --color-surface, --color-text, --color-accent, --space-sm, --space-md, --radius-md*
+> *- Container queries (pas de media queries) pour passer d'une disposition en colonne (verticale) (< 400px) à une disposition en ligne (horizontale) (≥ 400px)*
+> *- Classes BEM : .article-card, .article-card__image, .article-card__body, etc.*
+> *- État :hover sur le lien, :focus-visible visible et contrasté*
+> *- Aucune valeur px pour la typographie (utilise rem)*
 
 → Résultat directement utilisable avec peu de refactorisation.
 
@@ -102,18 +75,17 @@ Génère un composant "carte d'article" en HTML/CSS avec :
 
 ### Niveau 4 : Prompt avec système de design existant (avancé)
 
-```
-En utilisant ces variables déjà définies dans mon système :
---color-primary: #2563eb
---color-surface: #ffffff
---color-text: #1e293b
---space-sm: 0.5rem
---space-md: 1rem
---space-lg: 1.5rem
---radius-md: 0.5rem
-
-Génère un composant "carte de témoignage" avec [...]
-```
+> *En utilisant ces variables déjà définies dans mon système :*
+>
+> --color-primary: #2563eb
+> --color-surface: #ffffff
+> --color-text: #1e293b
+> --space-sm: 0.5rem
+> --space-md: 1rem
+> --space-lg: 1.5rem
+> --radius-md: 0.5rem
+>
+> *Génère un composant "carte de témoignage" avec [...]*
 
 → Le code généré s'intègre directement dans le projet sans ajustement de variables.
 
@@ -123,11 +95,8 @@ Génère un composant "carte de témoignage" avec [...]
 
 ### Demander plusieurs variantes
 
-```
-Génère 4 variantes CSS du même composant en utilisant des approches 
-différentes : une avec CSS Flexbox, une avec CSS Grid, une avec container queries, une avec media queries. 
-Explique brièvement les avantages de chaque approche.
-```
+> *Génère 4 variantes CSS du même composant en utilisant des approches différentes : une avec CSS Flexbox, une avec CSS Grid, une avec container queries, une avec media queries. 
+> *Explique brièvement les avantages de chaque approche.*
 
 Utile pour comparer et choisir la meilleure décision pour ton contexte.
 
@@ -135,11 +104,8 @@ Utile pour comparer et choisir la meilleure décision pour ton contexte.
 
 ### Demander une explication avec le code
 
-```
-[...prompt du composant...]
-Pour chaque décision CSS non évidente, ajoute un commentaire qui explique 
-POURQUOI tu as fait ce choix (pas ce que ça fait, mais pourquoi).
-```
+> *[...prompt du composant...]*
+> *Pour chaque décision CSS non évidente, ajoute un commentaire qui explique POURQUOI tu as fait ce choix (pas ce que ça fait, mais pourquoi).*
 
 Force l'IA à produire une documentation partielle : que tu pourras valider ou corriger.
 
@@ -147,14 +113,10 @@ Force l'IA à produire une documentation partielle : que tu pourras valider ou c
 
 ### Demander un audit, pas une génération
 
-```
-Voici mon CSS actuel pour un composant de carte :
-[coller le code]
-
-Identifie les code smells présents (valeurs magiques, spécificité excessive, 
-redondance, etc.) et propose une version refactorisée. Explique chaque 
-changement.
-```
+> *Voici mon CSS actuel pour un composant de carte :*
+> *[coller le code]*
+>
+> *Identifie les code smells présents (valeurs magiques, spécificité excessive, redondance, etc.) et propose une version refactorisée. Explique chaque changement.*
 
 Utile pour la refactorisation de code existant.
 
@@ -162,14 +124,10 @@ Utile pour la refactorisation de code existant.
 
 ### Demander de respecter une convention existante
 
-```
-Voici un exemple de composant déjà codé dans mon projet :
-[coller un exemple de composant existant]
+> *Voici un exemple de composant déjà codé dans mon projet :*
+> *[coller un exemple de composant existant]*
 
-En respectant exactement la même structure BEM, les mêmes noms de custom 
-properties et la même organisation du CSS, génère un composant "badge" 
-avec les variantes : succès, avertissement, erreur.
-```
+> *En respectant exactement la même structure BEM, les mêmes noms de variables et la même organisation du CSS, génère un composant "badge" avec les variantes : succès, avertissement, erreur.*
 
 L'IA peut apprendre ta convention à partir d'un exemple : c'est beaucoup plus fiable que de tout lui expliquer verbalement.
 
