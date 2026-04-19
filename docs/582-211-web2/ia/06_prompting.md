@@ -69,7 +69,7 @@ Génère une carte HTML/CSS avec un titre, une description et un bouton.
 Utilise des variables et le nommage BEM.
 ```
 
-→ Résultat correct mais incomplet. Probablement sans container queries ni états.
+→ Résultat correct mais incomplet. Probablement sans *container queries* ni états.
 
 ---
 
@@ -77,11 +77,12 @@ Utilise des variables et le nommage BEM.
 
 ```
 Génère un composant "carte d'article" en HTML/CSS avec :
+
 - Image de couverture, titre (h3), extrait (p), lien "Lire la suite"
 - Variables : --color-surface, --color-text, --color-accent, 
   --space-sm, --space-md, --radius-md
 - Container queries (pas de media queries) pour passer d'une disposition 
-  en colonne (< 400px) à une disposition en ligne (≥ 400px)
+  en colonne (verticale) (< 400px) à une disposition en ligne (horizontale) (≥ 400px)
 - Classes BEM : .article-card, .article-card__image, .article-card__body, etc.
 - État :hover sur le lien, :focus-visible visible et contrasté
 - Aucune valeur px pour la typographie (utilise rem)
@@ -108,13 +109,15 @@ Génère un composant "carte de témoignage" avec [...]
 
 → Le code généré s'intègre directement dans le projet sans ajustement de variables.
 
+<!-- 
 
 ## Techniques spécifiques
 
 ### Demander plusieurs variantes
+
 ```
-Génère 3 variantes CSS du même composant en utilisant des approches 
-différentes : une avec Flexbox, une avec Grid, une avec container queries. 
+Génère 4 variantes CSS du même composant en utilisant des approches 
+différentes : une avec CSS Flexbox, une avec CSS Grid, une avec container queries, une avec media queries. 
 Explique brièvement les avantages de chaque approche.
 ```
 
@@ -162,6 +165,7 @@ avec les variantes : succès, avertissement, erreur.
 
 L'IA peut apprendre ta convention à partir d'un exemple : c'est beaucoup plus fiable que de tout lui expliquer verbalement.
 
+-->
 
 ## Ce que l'IA ne peut pas faire à ta place
 
