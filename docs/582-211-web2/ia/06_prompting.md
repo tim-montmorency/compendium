@@ -14,9 +14,9 @@ Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont 
 
 ## Anatomie d'un bon prompt CSS
 
-Un prompt efficace contient idéalement **5 éléments** :
+Un prompt efficace contient idéalement *5 éléments* :
 
-> *[Composant]*+*[Structure attendue]*+*[Contraintes CSS]*+*[Conventions]*+*[Contexte]*
+**[Composant]**+**[Structure attendue]**+**[Contraintes CSS]**+**[Conventions]**+**[Contexte]**
 
 ### Exemple complet :
 
