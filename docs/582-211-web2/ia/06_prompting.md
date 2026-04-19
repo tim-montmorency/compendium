@@ -11,7 +11,6 @@ La qualité du code généré est **directement proportionnelle à la précision
 
 Plus tu maîtrises le CSS, plus tes prompts sont précis. Plus tes prompts sont précis, moins tu as à refactoriser. C'est pourquoi les Phase 1 (IA interdit) et 2 (IA permis mais limité) de ce cours existaient.
 
-
 ## Anatomie d'un bon prompt CSS
 
 Un prompt efficace contient idéalement *5 éléments* :
@@ -24,11 +23,11 @@ Un prompt efficace contient idéalement *5 éléments* :
 >
 > *Contraintes CSS :*
 >
-> *- Utilise des variables pour les couleurs (--color-primary, --color-surface, --color-text, --color-text-muted) et les espacements (--space-sm, --space-md, --space-lg)*  
+> *- Utilise des variables pour les couleurs (`--color-primary`, `--color-surface`, `--color-text`, `--color-text-muted`) et les espacements (`--space-sm`, `--space-md`, `--space-lg`)*  
 > *- Utilise container queries pour l'adaptation (pas de media queries)*  
 > *- Nomme les classes selon la méthodologie BEM*  
-> *- Inclus les états :hover et :focus-visible sur le bouton*  
-> *- Utilise rem pour la typographie, pas px*
+> *- Inclus les états `:hover` et `:focus-visible` sur le bouton*  
+> *- Utilise `rem` pour la typographie, pas `px`*
 >
 > *Contexte : ce composant sera utilisé dans une grille de 1 à 3 colonnes selon la largeur disponible.*
 
@@ -47,7 +46,7 @@ Un prompt efficace contient idéalement *5 éléments* :
 
 ### Niveau 2 : Prompt structuré (minimum acceptable)
 
-> *Génère une carte HTML/CSS avec un titre, une description et un bouton.* 
+> *Génère une carte HTML/CSS avec un titre, une description et un bouton.*
 > *Utilise des variables et le nommage BEM.*
 
 → Résultat correct mais incomplet. Probablement sans *container queries* ni états.
@@ -61,11 +60,11 @@ Un prompt efficace contient idéalement *5 éléments* :
 > *Génère un composant "carte d'article" en HTML/CSS avec :*
 >
 > *- Image de couverture, titre (h3), extrait (p), lien "Lire la suite"*
-> *- Variables : --color-surface, --color-text, --color-accent, --space-sm, --space-md, --radius-md*
-> *- Container queries (pas de media queries) pour passer d'une disposition en colonne (verticale) (< 400px) à une disposition en ligne (horizontale) (≥ 400px)*
-> *- Classes BEM : .article-card, .article-card__image, .article-card__body, etc.*
-> *- État :hover sur le lien, :focus-visible visible et contrasté*
-> *- Aucune valeur px pour la typographie (utilise rem)*
+> *- Variables : `--color-surface`, `--color-text`, `--color-accent`, `--space-sm`, `--space-md`, `--radius-md`*
+> *- Container queries (pas de media queries) pour passer d'une disposition en colonne (verticale) (`< 400px`) à une disposition en ligne (horizontale) (`≥ 400px`)*
+> *- Classes BEM : `.article-card`, `.article-card__image`, `.article-card__body`, etc.*
+> *- État `:hover` sur le lien, `:focus-visible` visible et contrasté*
+> *- Aucune valeur `px` pour la typographie (utilise `rem`)*
 
 → Résultat directement utilisable avec peu de refactorisation.
 
@@ -77,13 +76,13 @@ Un prompt efficace contient idéalement *5 éléments* :
 
 > *En utilisant ces variables déjà définies dans mon système :*
 >
-> --color-primary: #2563eb
-> --color-surface: #ffffff
-> --color-text: #1e293b
-> --space-sm: 0.5rem
-> --space-md: 1rem
-> --space-lg: 1.5rem
-> --radius-md: 0.5rem
+> `--color-primary`: `#2563eb`
+> `--color-surface`: `#ffffff`
+> `--color-text`: `#1e293b`
+> `--space-sm`: `0.5rem`
+> `--space-md`: `1rem`
+> `--space-lg`: `1.5rem`
+> `--radius-md`: `0.5rem`
 >
 > *Génère un composant "carte de témoignage" avec [...]*
 
