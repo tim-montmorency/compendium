@@ -2,7 +2,7 @@
 
 ## Qu'est-ce qu'une pseudo-classe ?
 
-Une pseudo-classe est un mot-clé ajouté à un sélecteur qui cible un élément selon son **état** ou sa **position** dans le document : sans avoir à ajouter une classe dans le HTML.
+Une pseudo-classe est un mot-clé ajouté à un sélecteur qui cible un élément selon son *état* ou sa *position* dans le document : sans avoir à ajouter une classe dans le HTML.
 
 ```css
 /* Cible le bouton quand la souris est dessus */
@@ -15,7 +15,7 @@ La pseudo-classe commence toujours par **deux-points** (`:`).
 
 ## Qu'est-ce qu'un pseudo-élément ?
 
-Un pseudo-élément cible une **partie précise** d'un élément, ou génère du contenu **avant ou après** lui : toujours sans toucher au HTML.
+Un pseudo-élément cible une *partie précise* d'un élément, ou génère du contenu *avant ou après* lui, toujours sans toucher au HTML.
 
 ```css
 /* Insère du contenu avant chaque paragraphe */
@@ -30,7 +30,7 @@ Le pseudo-élément commence toujours par **deux doubles-points** (`::`).
 
 ## Pseudo-classes d'état
 
-Ces pseudo-classes réagissent aux **interactions de l'utilisateur** ou à l'**état d'un élément de formulaire**.
+Ces pseudo-classes réagissent aux *interactions de l'utilisateur* ou à l'*état d'un élément de formulaire*.
 
 ### `:hover`
 
@@ -108,7 +108,7 @@ button:focus-visible {
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO: Pseudo-classes: Focus-visible" data-version="2" data-default-tab="result" data-slug-hash="MYjRbZv" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO: Pseudo-classes: Focus-visible" data-version="2" data-default-tab="result" data-slug-hash="MYjRbZv" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da868-23db-7cd6-94bf-6b51a408f74b">
   DEMO: Pseudo-classes: Focus-visible</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
