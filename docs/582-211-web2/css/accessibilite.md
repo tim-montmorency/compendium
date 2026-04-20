@@ -52,7 +52,7 @@ Chrome DevTools affiche le ratio de contraste directement dans le color picker :
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO accessibilité: constrate" data-version="2" data-default-tab="result" data-slug-hash="JoRVEKx" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="900" data-pen-title="DEMO accessibilité: constrate" data-version="2" data-default-tab="result" data-slug-hash="JoRVEKx" data-user="tim-momo" style="height: 900px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da899-7223-79fb-8060-f2b5ecabf817">
   DEMO accessibilité: constrate</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
