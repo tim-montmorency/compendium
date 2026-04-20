@@ -32,11 +32,6 @@ Un composant HTML est déjà stylisé. **Tu ne peux pas modifier le HTML.** Ton 
 
 ## Consignes
 
-1. [ ] ça c'est supposé être le no1
-2. [ ] ça c'est supposé être le no2
-
-.
-
 - [ ] 1. ça c'est supposé être le no1
 - [ ] 2. ça c'est supposé être le no2
 
