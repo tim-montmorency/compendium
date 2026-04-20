@@ -142,7 +142,7 @@ button:disabled {
 
 ### `:checked`
 
-Cible une case à cocher ou un bouton radio **coché**.
+Cible une case à cocher ou un bouton radio *coché*.
 
 ```css
 input[type="checkbox"]:checked {
@@ -171,7 +171,7 @@ input:checked ~ .toggle-fond {
 
 ## Pseudo-classes structurelles
 
-Ces pseudo-classes ciblent des éléments selon leur **position dans le DOM** : leur rang parmi leurs frères et sœurs.
+Ces pseudo-classes ciblent des éléments selon leur *position dans le DOM* : leur rang parmi leurs frères et sœurs.
 
 ### `:first-child` et `:last-child`
 
