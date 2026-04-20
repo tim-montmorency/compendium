@@ -28,6 +28,8 @@ Pour profiter des avantages du Dev Mode de Figma, connectez-vous à votre compte
 
 Dans le dossier de départ vous trouverez les fichiers d'une des polices de caractères utilisées dans la maquette. Installez la localement sur votre ordinateur pour les utiliser dans la maquette Figma. Vous pourrez aussi importer la police dans votre projet via `@font-face` ou via un CDN si elle est disponible (ex. : Google Fonts).
 
+> Afin que Figma accède aux fontes installées sur votre ordinateur, vous devez installer un petit programme appelé "Installation de polices Figma". Téléchargez-le et installez-le à partir de ce lien : [Figma Font Helper](https://www.figma.com/fr-fr/downloads/). Une fois installé, redémarrez votre ordinateur pour que les changements prennent effet. Après cela, Figma devrait pouvoir accéder aux polices installées localement, y compris celles que vous venez d'ajouter.
+
 
 ## Objectifs d'apprentissage ciblés
 
