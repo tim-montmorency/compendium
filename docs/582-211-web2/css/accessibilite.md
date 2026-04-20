@@ -34,6 +34,15 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 
 <br>
 
+<p class="codepen" data-theme-id="50173" data-height="100" data-pen-title="DEMO Accessibilité - Contraste" data-version="2" data-default-tab="result" data-slug-hash="GgjLGpY" data-user="tim-momo" style="height: 100px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019dab5c-3444-7a74-893a-298f54d139eb">
+  DEMO Accessibilité - Contraste</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+<br>
+
 ### Vérifier le contraste directement dans DevTools
 
 Chrome DevTools affiche le ratio de contraste directement dans le color picker :
