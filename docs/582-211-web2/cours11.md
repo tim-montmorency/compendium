@@ -38,11 +38,17 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 ## Pseudo-classes CSS et pseudo-éléments CSS
 
+<!--
 ### États
 
 ### Structurels
 
 ### Pseudo-éléments
+
+-->
+
+[📚 Contenu de cours: Pseudo-classes et pseudo-éléments](./css/pseudo-classes.md){ .md-button .md-button--primary }
+
 
 ### Exercice
 
