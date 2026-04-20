@@ -193,7 +193,7 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO accessibilité: etats" data-version="2" data-default-tab="result" data-slug-hash="ZYpZLpo" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="1200" data-pen-title="DEMO accessibilité: etats" data-version="2" data-default-tab="result" data-slug-hash="ZYpZLpo" data-user="tim-momo" style="height: 1200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da89c-0ae6-760e-98ff-1fc52dde791d">
   DEMO accessibilité: etats</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
