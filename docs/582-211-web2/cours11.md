@@ -45,6 +45,13 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 [📚 Container Queries: RÉSUMÉ](./css/containerqueries-utilisation.md){ .md-button }
 
+### Exercice Container-query
+
+<span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuite faites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
+
+<!-- ![Controls / Fork](../assets/codepen2-fork.png) -->
+
+[Pen de départ | FAIRE UN FORK](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef){ .md-button }
 
 ## Pseudo-classes CSS et pseudo-éléments CSS
 

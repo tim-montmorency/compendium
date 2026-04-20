@@ -495,7 +495,7 @@ Les container queries ne servent pas qu'aux cartes. Voici d'autres situations co
 ```
 -->
 
-## Exercice: Transformer un composant media-query en container-query
+## Exercice Container-query
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuite faites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
