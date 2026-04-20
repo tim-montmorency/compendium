@@ -50,11 +50,12 @@ Cours du 20/21 avril
 
 
 ## Exercices
-- Faire un court montage sonore d'environ 45 secondes
+Avec les médias qui se trouvent dans devoir/tp_générique_ouverture
+- Faire un court montage sonore d'environ 1 minute
 - Faire un montage visuel sur le montage sonore que vous venez de faire
 
 ## Devoir
 * Terminer et remettre vos exercices en classe
-    * [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/s/stockageFLPilote/IgBCMFrGPCCeSZlxEoaW-HMVAaPHBmCKmR9gz618T-xDDJg?e=Uc2eTJ)
+    * [Dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAr3-GngpvkTKAJFDsEMFbGAS2Tth7cWrLguXmJFhcBV3k?e=85cIVO)
 
 * Commencer votre montage offline 
