@@ -79,7 +79,7 @@ Pour le reste du cours:
 ## Devoir
 
 - Avancer le projet intégrateur: Solarix
-  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du cours 11, pour que je puisse les repérer facilement lors de la correction).
+  - Choisir une chose vue aujourd'hui dans le cours 11 et l'appliquer dans votre projet (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
   - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
