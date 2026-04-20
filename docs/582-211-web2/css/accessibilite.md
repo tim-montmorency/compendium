@@ -53,7 +53,6 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 
 <img src="../assets/devtools-contraste.png" alt="Capture d'écran du color picker de Chrome DevTools montrant le ratio de contraste et les icônes de validation" style="width: 200px; height: auto; border: 1px solid #ccc; padding: 4px;">
 
-
 <br>
 
 > ℹ️ **Rappel : les variables CSS ne règlent pas le problème**
