@@ -11,8 +11,10 @@
 
 ### Fichiers de départ
 
-- La maquette Figma (version desktop et mobile) - [Maquette Figma](https://www.figma.com/files/team/1139665994227813052/project/589825138?fuid=1139656376820697736) (notez que je travaille présentement à reconfigurer le permissions de la maquette pour que vous puissiez accéder au *devMode*, je vous tiens au courant).
-- Un canevas de départ (fichiers HTML et JavaScript fournis) -  [Canevas de départ](./depart-solarix.zip)
+- La maquette Figma (version desktop et mobile) :
+  - D'abord accéder à l'équipe *Web 2* de Figma [via ce lien](https://www.figma.com/team_invite/redeem/5DfH3v5mGAYvPU12BYLtQu?t=PC7OFho7hsSucnUJ-21) et accpeter.
+  - Ensuite, accédez au *DevMode* de la [Maquette Figma Solarix](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&m=dev) - Notez bien que la maquette format mobile se trouve sur une autre page que celle du formatdesktop (voir la panneau à gauche pour naviguer entre les pages).
+- Voici le canevas de départ pour démarrer votre projet (fichiers HTML et JavaScript) -  [Canevas de départ](./depart-solarix.zip)
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
