@@ -1,4 +1,4 @@
-# Flexbox, `gap` et `calc()` — gérer les colonnes en pourcentage
+# Flexbox, `gap` et `calc()`: gérer les colonnes en %
 
 ## Le problème
 
