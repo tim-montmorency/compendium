@@ -11,14 +11,17 @@
 
 *Solarix* est un jeu de rôle fictif à l'esthétique *Solarpunk* : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
 
-Vous recevez :
+### Vous recevez :
 
 - La maquette Figma (version desktop et mobile) - [Maquette Figma](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&t=Gt69l1PjsBPV188o-1) (notez que je travaille présentement à reconfigurer le permissions de la maquette pour que vous puissiez accéder au *devMode*, je vous tiens au courant).
 - Un canevas de départ (fichiers HTML et JavaScript fournis) -  [Canevas de départ](./depart-solarix.zip)
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
+### Dev Mode dans Figma (rappel)
 
+- [Note de cours de Dev Mode du cours Web 2](../../css/figma-devmode.md)
+- [Documentation complète du DevMode de Figma](https://help.figma.com/hc/fr/articles/15023124644247-Guide-sur-Dev-Mode)
 
 ## Objectifs d'apprentissage ciblés
 
