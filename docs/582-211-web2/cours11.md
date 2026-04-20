@@ -34,6 +34,17 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 [Consignes des présentations orales du projet Solarix](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
+### Retour sur exercices du cours 10
+
+- [👩🏻‍💻 Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)
+- [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)
+
+## Composants adaptatifs intelligents (suite du dernier cours)
+
+[📚 Composant adaptatif intelligent: Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
+
+[📚 Container Queries: RÉSUMÉ](./css/containerqueries-utilisation.md){ .md-button }
+
 
 
 ## Pseudo-classes CSS et pseudo-éléments CSS
@@ -62,7 +73,6 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 ### Démo Lighthouse
 
 Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
-
 
 
 ## Travail sur le projet Solarix
