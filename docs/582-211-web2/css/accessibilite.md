@@ -2,7 +2,7 @@
 
 ## Ce n'est pas une checklist
 
-L'accessibilité n'est pas une étape qu'on ajoute à la fin. C'est une série de **décisions techniques** qu'on prend tout au long de l'intégration.
+L'accessibilité n'est pas une étape qu'on ajoute à la fin. C'est une série de *décisions techniques* qu'on prend tout au long de l'intégration.
 
 Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le code généré par l'IA passe rarement les audits d'accessibilité sans correction. Il produit du HTML qui fonctionne visuellement, mais ignore systématiquement ce qui n'est pas visible à l'écran.
 
@@ -12,7 +12,7 @@ Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le
 
 ### Les deux seuils à retenir (WCAG AA)
 
-Le **WCAG** (Web Content Accessibility Guidelines) définit des ratios de contraste minimaux entre la couleur du texte et son arrière-plan.
+Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contraste minimaux entre la couleur du texte et son arrière-plan.
 
 | Type de contenu | Ratio minimal |
 |---|---|
