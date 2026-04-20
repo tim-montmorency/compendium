@@ -1,0 +1,18 @@
+/*
+    Commentaires à supprimer avant la remise
+
+    - Assurez-vous de placer les fichiers index.html, styles.css et le dossier assets directement à la racine de votre répertoire GitHub (de PAS y placer le dossier "depart-solarix", seulement son contenu). Juste à côté de votre ficheir PLANIFICATION.md déjà présent.
+
+    - En format desktop, tout l'interface doit être visible entièrement SANS aucune barre de défilement. 
+    Elle doit s'étendre sur toute la largeur de la fenêtre (viewport) et la hauteur de la fenêtre (viewport) et doit s'adapter à différentes tailles d'écran (responsive).
+  
+    - En format mobile, tout l'interface doit être visible en largeur (sans barre de défilement horizontale) mais elle sera défilable verticalement.
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
