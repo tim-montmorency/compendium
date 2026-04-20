@@ -45,14 +45,16 @@
 
 - [:pencil: Délais et répétition](./code/bibliotheque_exemples.md#delais-et-executions-periodiques-avec-invoke-et-invokerepeating)
 - [:pencil: Création et destruction d'objets](./code/bibliotheque_exemples.md#creation-et-destruction-dobjets)
-- [:pencil: Navigation Nav Mesh](./code/bibliotheque_exemples.md#la-navigation-ai-avec-navmesh)
+- [:pencil: Navigation Nav Mesh](./code/bibliotheque_exemples.md#la-navigation-ai-avec-navmesh)    
 
-**L'OSC**
+**L'OSC**    
+
 - [:pencil: Configuration de l'OSC](osc/configuration.md)
 - [:pencil: Réception d'OSC](osc/recevoir.md)
 - [:pencil: Envoi d'OSC](osc/envoyer.md)
 
-**Spout** 
+**Spout**     
+
 - [:pencil:Envoi de flux vidéo de Unity via Spout](unity/spout.md)
 
 
