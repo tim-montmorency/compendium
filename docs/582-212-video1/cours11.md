@@ -64,4 +64,4 @@ Effets
 
 
 * Remettre vos rushes de tournage dans le dossier de remise
-    * [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/s/stockageFLPilote/IgBCMFrGPCCeSZlxEoaW-HMVAaPHBmCKmR9gz618T-xDDJg?e=Uc2eTJ)
+    * [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/s/stockageFLPilote/IgBCMFrGPCCeSZlxEoaW-HMVAQFeo5IoE8Dgw8Zpu7rlVyg?e=kDh3On)
