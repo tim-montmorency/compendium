@@ -38,14 +38,9 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 ## Pseudo-classes CSS et pseudo-éléments CSS
 
-<!--
-### États
-
-### Structurels
-
-### Pseudo-éléments
-
--->
+- États
+- Structurels
+- Pseudo-éléments
 
 [📚 Contenu de cours: Pseudo-classes et pseudo-éléments](./css/pseudo-classes.md){ .md-button .md-button--primary }
 
@@ -56,16 +51,13 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 ## Accessibilité & robustesse
 
-### Contraste et lisibilité 
+- Contraste et lisibilité
+- Focus et navigation clavier
+- Tailles de clic/touch et états interactifs
+- Structure sémantique et textes alternatifs
+- Démo Lighthouse
 
-
-### Focus et navigation clavier 
-
-### Tailles de clic/touch et états interactifs 
-
-### Structure sémantique et textes alternatifs 
-
-### Démo Lighthouse 
+[📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
 
 
 
