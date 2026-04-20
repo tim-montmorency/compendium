@@ -43,6 +43,7 @@ nav:
       - 582-211-web2/index.md
       - CSS:
         - 582-211-web2/css/index.md
+        - Accessibilité: 582-211-web2/css/accessibilite.md
         - Spécificité: 582-211-web2/css/specificite.md
         - Pseudo-classes: 582-211-web2/css/pseudo-classes.md
         - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md

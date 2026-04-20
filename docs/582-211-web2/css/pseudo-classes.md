@@ -2,7 +2,7 @@
 
 ## Qu'est-ce qu'une pseudo-classe ?
 
-Une pseudo-classe est un mot-clé ajouté à un sélecteur qui cible un élément selon son **état** ou sa **position** dans le document — sans avoir à ajouter une classe dans le HTML.
+Une pseudo-classe est un mot-clé ajouté à un sélecteur qui cible un élément selon son *état* ou sa *position* dans le document : sans avoir à ajouter une classe dans le HTML.
 
 ```css
 /* Cible le bouton quand la souris est dessus */
@@ -15,7 +15,7 @@ La pseudo-classe commence toujours par **deux-points** (`:`).
 
 ## Qu'est-ce qu'un pseudo-élément ?
 
-Un pseudo-élément cible une **partie précise** d'un élément, ou génère du contenu **avant ou après** lui — toujours sans toucher au HTML.
+Un pseudo-élément cible une *partie précise* d'un élément, ou génère du contenu *avant ou après* lui, toujours sans toucher au HTML.
 
 ```css
 /* Insère du contenu avant chaque paragraphe */
@@ -30,7 +30,7 @@ Le pseudo-élément commence toujours par **deux doubles-points** (`::`).
 
 ## Pseudo-classes d'état
 
-Ces pseudo-classes réagissent aux **interactions de l'utilisateur** ou à l'**état d'un élément de formulaire**.
+Ces pseudo-classes réagissent aux *interactions de l'utilisateur* ou à l'*état d'un élément de formulaire*.
 
 ### `:hover`
 
@@ -43,6 +43,11 @@ Cible un élément quand le curseur est positionné dessus.
 }
 ```
 
+<br>
+
+---
+
+
 ### `:active`
 
 Cible un élément au moment précis où il est cliqué (entre le clic et le relâchement).
@@ -53,9 +58,14 @@ Cible un élément au moment précis où il est cliqué (entre le clic et le rel
 }
 ```
 
+<br>
+
+---
+
+
 ### `:focus`
 
-Cible un élément qui a reçu le focus — que ce soit au clic, au clavier, ou programmatiquement.
+Cible un élément qui a reçu le focus : que ce soit au clic, au clavier, ou programmatiquement.
 
 ```css
 input:focus {
@@ -64,13 +74,20 @@ input:focus {
 }
 ```
 
-### `:focus-visible` — La distinction importante
+<br>
+
+---
+
+
+### `:focus-visible` : La distinction importante
 
 > ⚠️ **Un peu d'histoire**
 >
 > Pendant des années, les designers retiraient le contour de focus avec `outline: none` parce qu'il apparaissait au clic et « abîmait » le design. Problème : cela rendait la navigation au clavier invisible pour les personnes qui en dépendent (malvoyants, troubles moteurs, utilisateurs avancés).
 >
 > `:focus-visible` a été créé pour résoudre ce conflit : le contour apparaît **uniquement quand le focus vient du clavier**, pas du clic souris.
+
+<br>
 
 ```css
 /* ❌ À ne pas faire : retire le focus pour tout le monde */
@@ -89,7 +106,19 @@ button:focus-visible {
 }
 ```
 
-See the Pen [DEMO - :focus vs :focus-visible](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+<br>
+
+<p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO: Pseudo-classes: Focus-visible" data-version="2" data-default-tab="result" data-slug-hash="MYjRbZv" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da868-23db-7cd6-94bf-6b51a408f74b">
+  DEMO: Pseudo-classes: Focus-visible</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+<br>
+
+---
+
 
 ### `:disabled`
 
@@ -106,9 +135,14 @@ button:disabled {
 <button disabled>Option indisponible</button>
 ```
 
+<br>
+
+---
+
+
 ### `:checked`
 
-Cible une case à cocher ou un bouton radio **coché**.
+Cible une case à cocher ou un bouton radio *coché*.
 
 ```css
 input[type="checkbox"]:checked {
@@ -125,16 +159,19 @@ input:checked ~ .toggle-fond {
 }
 ```
 
-See the Pen [DEMO - :checked toggle sans JS](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+<br>
 
-
-
-
+<p class="codepen" data-theme-id="50210" data-height="1000" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da86b-ab5c-7923-85c3-c878d79491ed">
+  DEMO: pseudo-classes: checked</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 ## Pseudo-classes structurelles
 
-Ces pseudo-classes ciblent des éléments selon leur **position dans le DOM** — leur rang parmi leurs frères et sœurs.
+Ces pseudo-classes ciblent des éléments selon leur *position dans le DOM* : leur rang parmi leurs frères et sœurs.
 
 ### `:first-child` et `:last-child`
 
@@ -159,6 +196,10 @@ li:first-child {
   color: #2d6a4f;
 }
 ```
+
+---
+
+<br>
 
 ### `:nth-child()`
 
@@ -186,11 +227,24 @@ li:nth-child(3n+1) {
 }
 ```
 
-See the Pen [DEMO - :nth-child()](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+
+<br>
+
+<p class="codepen" data-theme-id="50210" data-height="900" data-pen-title="DEMO: Pseudo-classes: nth-child" data-version="2" data-default-tab="result" data-slug-hash="XJjQNwE" data-user="tim-momo" style="height: 900px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da877-eae3-7358-aaa9-1b9eb118b14a">
+  DEMO: Pseudo-classes: nth-child</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
+---
+
+<br>
 
 ### `:not()`
 
-Cible tous les éléments **sauf** ceux qui correspondent au sélecteur entre parenthèses.
+Cible tous les éléments *sauf* ceux qui correspondent au sélecteur entre parenthèses.
 
 ```css
 /* Tous les items sauf le premier */
@@ -234,7 +288,7 @@ li:not(:first-child) {
 
 ## Pseudo-éléments
 
-Les pseudo-éléments génèrent du **contenu purement décoratif** à partir du CSS, sans polluer le HTML.
+Les pseudo-éléments *génèrent du contenu purement décoratif* à partir du CSS, sans polluer le HTML.
 
 ### `::before` et `::after`
 
@@ -248,7 +302,9 @@ Insèrent un élément **avant** ou **après** le contenu d'un élément.
 }
 ```
 
-**Cas d'usage 1 — Décoration sans HTML**
+<br>
+
+**Cas d'usage 1 : Décoration sans HTML**
 
 ```css
 /* Guillemets autour d'une citation */
@@ -261,7 +317,9 @@ blockquote::after {
 }
 ```
 
-**Cas d'usage 2 — Badge ou indicateur**
+<br>
+
+**Cas d'usage 2 : Badge ou indicateur**
 
 ```css
 /* Badge "Nouveau" positionné sur une carte */
@@ -283,7 +341,9 @@ blockquote::after {
 }
 ```
 
-**Cas d'usage 3 — Flèche décorative animée**
+<br>
+
+**Cas d'usage 3 : Flèche décorative animée**
 
 ```css
 /* Flèche qui se déplace au survol */
@@ -298,17 +358,28 @@ blockquote::after {
 }
 ```
 
+<br>
+
 > ℹ️ **Contenu informatif vs décoratif**
 >
 > Le contenu généré par `::before` et `::after` **n'est pas lu** par les lecteurs d'écran (dans la majorité des navigateurs). C'est pourquoi on les réserve aux éléments purement décoratifs. Si l'information est importante, elle doit être dans le HTML.
 
-See the Pen [DEMO - ::before et ::after](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+
+<br>
+
+
+<p class="codepen" data-theme-id="50210" data-height="1000" data-pen-title="DEMO: Pseudo-elements: ::before ::after" data-version="2" data-default-tab="result" data-slug-hash="xbEeRNa" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da878-7631-7b4e-a82f-9a24f5513807">
+  DEMO: Pseudo-elements: ::before ::after</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 
 ## Combiner les pseudo-classes et pseudo-éléments
 
-La vraie puissance vient de leur **combinaison**. On peut empiler plusieurs pseudo-classes, ou combiner une pseudo-classe avec un pseudo-élément.
+La vraie puissance vient de leur *combinaison*. On peut empiler plusieurs pseudo-classes, ou combiner une pseudo-classe avec un pseudo-élément.
 
 ```css
 /* ::after seulement au survol */
@@ -334,7 +405,7 @@ li:first-child::before {
 
 
 
-## Résumé — Quoi utiliser quand ?
+## Résumé : Quoi utiliser quand ?
 
 | Besoin | Sélecteur |
 |---|---|

@@ -26,7 +26,7 @@ Lundi 20 avril / mercredi 22 avril
 
 Rappel: si ce n'est pas fait, vous devez remettre la planification de votre projet Solarix maintenant (était dû avant votre cours d'aujourd'hui).
 
-[Consignes de la planification du projet Solarix](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+[Consignes de la planification du projet Solarix](./exercices/projet-final/index.html#semaine-1-planification-13-au-19-avril){ .md-button }
 
 ### Présentations finales ddu projet Solarix
 
@@ -38,14 +38,9 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 ## Pseudo-classes CSS et pseudo-éléments CSS
 
-<!--
-### États
-
-### Structurels
-
-### Pseudo-éléments
-
--->
+- États
+- Structurels
+- Pseudo-éléments
 
 [📚 Contenu de cours: Pseudo-classes et pseudo-éléments](./css/pseudo-classes.md){ .md-button .md-button--primary }
 
@@ -56,20 +51,21 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 ## Accessibilité & robustesse
 
-### Contraste et lisibilité 
+- Contraste et lisibilité
+- Focus et navigation clavier
+- Tailles de clic/touch et états interactifs
+- Structure sémantique et textes alternatifs
+- Démo Lighthouse
+
+[📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
+
+### Démo Lighthouse
+
+Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
 
 
-### Focus et navigation clavier 
 
-### Tailles de clic/touch et états interactifs 
-
-### Structure sémantique et textes alternatifs 
-
-### Démo Lighthouse 
-
-
-
-## Travail sur le projet intégrateur: Solarix
+## Travail sur le projet Solarix
 
 Pour le reste du cours:
 
@@ -83,7 +79,7 @@ Pour le reste du cours:
 ## Devoir
 
 - Avancer le projet intégrateur: Solarix
-  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du cours 11, pour que je puisse les repérer facilement lors de la correction).
+  - Choisir une chose vue aujourd'hui dans le cours 11 et l'appliquer dans votre projet (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
   - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
