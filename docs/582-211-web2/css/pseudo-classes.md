@@ -244,7 +244,7 @@ li:nth-child(3n+1) {
 
 ### `:not()`
 
-Cible tous les éléments **sauf** ceux qui correspondent au sélecteur entre parenthèses.
+Cible tous les éléments *sauf* ceux qui correspondent au sélecteur entre parenthèses.
 
 ```css
 /* Tous les items sauf le premier */
@@ -288,7 +288,7 @@ li:not(:first-child) {
 
 ## Pseudo-éléments
 
-Les pseudo-éléments génèrent du **contenu purement décoratif** à partir du CSS, sans polluer le HTML.
+Les pseudo-éléments *génèrent du contenu purement décoratif* à partir du CSS, sans polluer le HTML.
 
 ### `::before` et `::after`
 
@@ -302,6 +302,8 @@ Insèrent un élément **avant** ou **après** le contenu d'un élément.
 }
 ```
 
+<br>
+
 **Cas d'usage 1 : Décoration sans HTML**
 
 ```css
@@ -314,6 +316,8 @@ blockquote::after {
   content: "\00a0»";
 }
 ```
+
+<br>
 
 **Cas d'usage 2 : Badge ou indicateur**
 
@@ -375,7 +379,7 @@ blockquote::after {
 
 ## Combiner les pseudo-classes et pseudo-éléments
 
-La vraie puissance vient de leur **combinaison**. On peut empiler plusieurs pseudo-classes, ou combiner une pseudo-classe avec un pseudo-élément.
+La vraie puissance vient de leur *combinaison*. On peut empiler plusieurs pseudo-classes, ou combiner une pseudo-classe avec un pseudo-élément.
 
 ```css
 /* ::after seulement au survol */
