@@ -59,6 +59,10 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 [📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
 
+### Démo Lighthouse
+
+Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
+
 
 
 ## Travail sur le projet intégrateur: Solarix
