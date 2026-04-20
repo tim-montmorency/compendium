@@ -42,7 +42,7 @@ Composants adaptatifs intelligents
 -->
 
 
-## Composants adaptatifs intelligents
+## Composants adaptatifs intelligents (Container queries)
 
 [📚 Composant adaptatif intelligent: Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
 

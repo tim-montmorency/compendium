@@ -39,7 +39,9 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 - [👩🏻‍💻 Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)
 - [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)
 
-## Composants adaptatifs intelligents (suite du dernier cours)
+## Composants adaptatifs intelligents (Container queries)
+
+Suite du dernier cours...
 
 [📚 Composant adaptatif intelligent: Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
 
