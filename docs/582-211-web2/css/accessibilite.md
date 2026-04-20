@@ -120,6 +120,15 @@ Un indicateur de focus accessible doit être :
 
 <br>
 
+<p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="DEMO accessibilité: focus" data-version="2" data-default-tab="result" data-slug-hash="pvEBYzP" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019dad33-ad5a-767e-8a34-921a551e4fee">
+  DEMO accessibilité: focus</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+<br>
+
 ### Tester soi-même
 
 La méthode la plus rapide : **pose ta souris et navigue avec ++tab++**.
