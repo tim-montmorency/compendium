@@ -47,7 +47,6 @@ Cible un élément quand le curseur est positionné dessus.
 
 ---
 
-<br>
 
 ### `:active`
 
@@ -63,7 +62,6 @@ Cible un élément au moment précis où il est cliqué (entre le clic et le rel
 
 ---
 
-<br>
 
 ### `:focus`
 
@@ -80,7 +78,6 @@ input:focus {
 
 ---
 
-<br>
 
 ### `:focus-visible` — La distinction importante
 
@@ -89,6 +86,8 @@ input:focus {
 > Pendant des années, les designers retiraient le contour de focus avec `outline: none` parce qu'il apparaissait au clic et « abîmait » le design. Problème : cela rendait la navigation au clavier invisible pour les personnes qui en dépendent (malvoyants, troubles moteurs, utilisateurs avancés).
 >
 > `:focus-visible` a été créé pour résoudre ce conflit : le contour apparaît **uniquement quand le focus vient du clavier**, pas du clic souris.
+
+<br>
 
 ```css
 /* ❌ À ne pas faire : retire le focus pour tout le monde */
@@ -120,7 +119,6 @@ button:focus-visible {
 
 ---
 
-<br>
 
 ### `:disabled`
 
@@ -141,7 +139,6 @@ button:disabled {
 
 ---
 
-<br>
 
 ### `:checked`
 
@@ -161,6 +158,8 @@ input:checked ~ .toggle-fond {
   background-color: #2d6a4f;
 }
 ```
+
+<br>
 
 <p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da86b-ab5c-7923-85c3-c878d79491ed">
@@ -198,6 +197,10 @@ li:first-child {
 }
 ```
 
+---
+
+<br>
+
 ### `:nth-child()`
 
 Cible des éléments selon une formule ou un mot-clé.
@@ -224,6 +227,9 @@ li:nth-child(3n+1) {
 }
 ```
 
+
+<br>
+
 <p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO: Pseudo-classes: nth-child" data-version="2" data-default-tab="result" data-slug-hash="XJjQNwE" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da877-eae3-7358-aaa9-1b9eb118b14a">
   DEMO: Pseudo-classes: nth-child</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -232,6 +238,9 @@ li:nth-child(3n+1) {
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
+---
+
+<br>
 
 ### `:not()`
 
@@ -328,6 +337,8 @@ blockquote::after {
 }
 ```
 
+<br>
+
 **Cas d'usage 3 — Flèche décorative animée**
 
 ```css
@@ -343,9 +354,15 @@ blockquote::after {
 }
 ```
 
+<br>
+
 > ℹ️ **Contenu informatif vs décoratif**
 >
 > Le contenu généré par `::before` et `::after` **n'est pas lu** par les lecteurs d'écran (dans la majorité des navigateurs). C'est pourquoi on les réserve aux éléments purement décoratifs. Si l'information est importante, elle doit être dans le HTML.
+
+
+<br>
+
 
 <p class="codepen" data-theme-id="50210" data-height="1000" data-pen-title="DEMO: Pseudo-elements: ::before ::after" data-version="2" data-default-tab="result" data-slug-hash="xbEeRNa" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da878-7631-7b4e-a82f-9a24f5513807">
