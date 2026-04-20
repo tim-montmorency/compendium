@@ -38,7 +38,7 @@ Un composant HTML est déjà stylisé. **Tu ne peux pas modifier le HTML.** Ton 
   - [ ] La première carte doit afficher un badge "Nouveau" au-dessus d'elle, positionné en haut à gauche. Utilise le pseudo-élément `::before` sur `.cartes .carte:first-child` 
   - [ ] La propriété content doit valoir "Nouveau". 
   - [ ] Donne-lui un fond vert (`--couleur-accent-clair`), un texte vert foncé (`--couleur-accent`), un `padding` de `2px 8px`, un `border-radius` de `99px` et un `font-size` de `0.7rem`.
-  - [ ] Pour le positionner : `position absolute`,` top: -10px`, `left: 12px`.
+  - [ ] Pour le positionner : `position absolute`,`top: -10px`, `left: 12px`.
 - [ ] 2. `::after`
   - [ ] Chaque carte doit afficher une flèche "→" en bas à droite.
   - [ ] Utilise `::after` sur `.carte`.
@@ -57,8 +57,6 @@ Un composant HTML est déjà stylisé. **Tu ne peux pas modifier le HTML.** Ton 
 
 [📚 Contenu de cours *pseudo-classes*](../../css/pseudo-classes.md){ .md-button .md-button--primary }
 
-
 ---
 
 - [< retour au *cours 11*](../../cours11.md)
-

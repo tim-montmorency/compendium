@@ -46,7 +46,6 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 [📚 Container Queries: RÉSUMÉ](./css/containerqueries-utilisation.md){ .md-button }
 
 
-
 ## Pseudo-classes CSS et pseudo-éléments CSS
 
 - États
