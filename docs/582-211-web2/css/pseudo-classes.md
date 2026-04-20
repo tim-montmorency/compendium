@@ -2,7 +2,7 @@
 
 ## Qu'est-ce qu'une pseudo-classe ?
 
-Une pseudo-classe est un mot-clé ajouté à un sélecteur qui cible un élément selon son **état** ou sa **position** dans le document — sans avoir à ajouter une classe dans le HTML.
+Une pseudo-classe est un mot-clé ajouté à un sélecteur qui cible un élément selon son **état** ou sa **position** dans le document : sans avoir à ajouter une classe dans le HTML.
 
 ```css
 /* Cible le bouton quand la souris est dessus */
@@ -15,7 +15,7 @@ La pseudo-classe commence toujours par **deux-points** (`:`).
 
 ## Qu'est-ce qu'un pseudo-élément ?
 
-Un pseudo-élément cible une **partie précise** d'un élément, ou génère du contenu **avant ou après** lui — toujours sans toucher au HTML.
+Un pseudo-élément cible une **partie précise** d'un élément, ou génère du contenu **avant ou après** lui : toujours sans toucher au HTML.
 
 ```css
 /* Insère du contenu avant chaque paragraphe */
@@ -65,7 +65,7 @@ Cible un élément au moment précis où il est cliqué (entre le clic et le rel
 
 ### `:focus`
 
-Cible un élément qui a reçu le focus — que ce soit au clic, au clavier, ou programmatiquement.
+Cible un élément qui a reçu le focus : que ce soit au clic, au clavier, ou programmatiquement.
 
 ```css
 input:focus {
@@ -79,7 +79,7 @@ input:focus {
 ---
 
 
-### `:focus-visible` — La distinction importante
+### `:focus-visible` : La distinction importante
 
 > ⚠️ **Un peu d'histoire**
 >
@@ -171,7 +171,7 @@ input:checked ~ .toggle-fond {
 
 ## Pseudo-classes structurelles
 
-Ces pseudo-classes ciblent des éléments selon leur **position dans le DOM** — leur rang parmi leurs frères et sœurs.
+Ces pseudo-classes ciblent des éléments selon leur **position dans le DOM** : leur rang parmi leurs frères et sœurs.
 
 ### `:first-child` et `:last-child`
 
@@ -302,7 +302,7 @@ Insèrent un élément **avant** ou **après** le contenu d'un élément.
 }
 ```
 
-**Cas d'usage 1 — Décoration sans HTML**
+**Cas d'usage 1 : Décoration sans HTML**
 
 ```css
 /* Guillemets autour d'une citation */
@@ -315,7 +315,7 @@ blockquote::after {
 }
 ```
 
-**Cas d'usage 2 — Badge ou indicateur**
+**Cas d'usage 2 : Badge ou indicateur**
 
 ```css
 /* Badge "Nouveau" positionné sur une carte */
@@ -339,7 +339,7 @@ blockquote::after {
 
 <br>
 
-**Cas d'usage 3 — Flèche décorative animée**
+**Cas d'usage 3 : Flèche décorative animée**
 
 ```css
 /* Flèche qui se déplace au survol */
@@ -401,7 +401,7 @@ li:first-child::before {
 
 
 
-## Résumé — Quoi utiliser quand ?
+## Résumé : Quoi utiliser quand ?
 
 | Besoin | Sélecteur |
 |---|---|

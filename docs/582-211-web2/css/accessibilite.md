@@ -6,7 +6,7 @@ L'accessibilité n'est pas une étape qu'on ajoute à la fin. C'est une série d
 
 Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le code généré par l'IA passe rarement les audits d'accessibilité sans correction. Il produit du HTML qui fonctionne visuellement, mais ignore systématiquement ce qui n'est pas visible à l'écran.
 
----
+
 
 ## Contraste et lisibilité
 
@@ -23,12 +23,12 @@ Le **WCAG** (Web Content Accessibility Guidelines) définit des ratios de contra
 ```css
 /* ❌ Problème fréquent : texte trop pâle sur fond clair */
 .label {
-  color: #aaaaaa; /* ratio ~2.3:1 sur blanc — insuffisant */
+  color: #aaaaaa; /* ratio ~2.3:1 sur blanc : insuffisant */
 }
 
 /* ✅ Correction */
 .label {
-  color: #767676; /* ratio ~4.5:1 sur blanc — seuil exact */
+  color: #767676; /* ratio ~4.5:1 sur blanc : seuil exact */
 }
 ```
 
@@ -38,7 +38,7 @@ Chrome DevTools affiche le ratio de contraste directement dans le color picker :
 
 1. Inspecte un élément texte
 2. Clique sur la pastille de couleur dans le panneau CSS
-3. Le ratio s'affiche — un ✓ indique que le seuil AA est atteint, ✓✓ indique AAA
+3. Le ratio s'affiche : un ✓ indique que le seuil AA est atteint, ✓✓ indique AAA
 
 > ℹ️ **Rappel : les variables CSS ne règlent pas le problème**
 >
@@ -46,7 +46,7 @@ Chrome DevTools affiche le ratio de contraste directement dans le color picker :
 
 See the Pen [DEMO - Contraste et lisibilité](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
 
----
+
 
 ## Focus visible et navigation clavier
 
@@ -59,7 +59,7 @@ Certains utilisateurs ne peuvent pas utiliser une souris : personnes avec des tr
 Tu as vu `:focus-visible` dans la section précédente. C'est ici que son importance prend tout son sens :
 
 ```css
-/* ❌ Ce pattern est partout — et il brise l'accessibilité */
+/* ❌ Ce pattern est partout : et il brise l'accessibilité */
 * {
   outline: none;
 }
@@ -89,7 +89,7 @@ Un indicateur de focus accessible doit être :
   outline: 2px solid #2d6a4f;
   outline-offset: 3px;
   /* outline-offset sépare le contour de l'élément
-     — évite qu'il se confonde avec la bordure */
+     : évite qu'il se confonde avec la bordure */
 }
 ```
 
@@ -97,13 +97,13 @@ Un indicateur de focus accessible doit être :
 
 La méthode la plus rapide : **pose ta souris et navigue avec Tab**.
 
-- `Tab` — avancer vers l'élément focusable suivant
-- `Shift + Tab` — reculer
-- `Entrée` ou `Espace` — activer un bouton ou un lien
+- `Tab` : avancer vers l'élément focusable suivant
+- `Shift + Tab` : reculer
+- `Entrée` ou `Espace` : activer un bouton ou un lien
 
 Si tu perds ta position à un moment, c'est un problème d'accessibilité.
 
----
+
 
 ## Tailles de clic et états interactifs
 
@@ -167,11 +167,11 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 
 > ⚠️ **L'erreur la plus fréquente**
 >
-> Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas — l'état actif est le seul feedback visuel disponible.
+> Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas : l'état actif est le seul feedback visuel disponible.
 
 See the Pen [DEMO - États interactifs](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
 
----
+
 
 ## Structure sémantique et textes alternatifs
 
@@ -180,7 +180,7 @@ See the Pen [DEMO - États interactifs](https://codepen.io/tim-momo/pen/XXXXXXX)
 Un code accessible commence par un HTML qui utilise les **bonnes balises** pour les bons usages. Les lecteurs d'écran se fient à la sémantique pour annoncer le contenu aux utilisateurs.
 
 ```html
-<!-- ❌ Div soup — aucune information structurelle -->
+<!-- ❌ Div soup : aucune information structurelle -->
 <div class="header">
   <div class="nav">
     <div class="nav-item">Accueil</div>
@@ -215,27 +215,27 @@ Les titres (`h1` à `h6`) structurent la page comme une table des matières. Un 
 <h3>Sous-section</h3>
 ```
 
-> ℹ️ Si tu veux un `h3` qui ressemble visuellement à un `h2`, **change le style CSS** — ne change pas la balise.
+> ℹ️ Si tu veux un `h3` qui ressemble visuellement à un `h2`, **change le style CSS** : ne change pas la balise.
 
 ### Textes alternatifs
 
 Toute image qui porte une **information** doit avoir un attribut `alt` descriptif. Une image purement décorative doit avoir un `alt` vide pour être ignorée par les lecteurs d'écran.
 
 ```html
-<!-- ❌ Alt manquant — le lecteur d'écran lit le nom du fichier -->
+<!-- ❌ Alt manquant : le lecteur d'écran lit le nom du fichier -->
 <img src="graphique-ventes-q3.png">
 
-<!-- ❌ Alt inutile — répète ce que l'entourage dit déjà -->
+<!-- ❌ Alt inutile : répète ce que l'entourage dit déjà -->
 <img src="logo.png" alt="image du logo">
 
 <!-- ✅ Alt informatif -->
 <img src="graphique-ventes-q3.png" alt="Ventes Q3 2025 : hausse de 23% par rapport à Q2">
 
-<!-- ✅ Image décorative — ignorée par les lecteurs d'écran -->
+<!-- ✅ Image décorative : ignorée par les lecteurs d'écran -->
 <img src="separateur-decoratif.png" alt="">
 ```
 
----
+
 
 ## Auditer avec Lighthouse et axe DevTools
 
@@ -251,30 +251,31 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 2. Onglet **Lighthouse**
 3. Coche **Accessibility** (décoche les autres pour aller plus vite)
 4. Clique **Analyze page load**
-5. Lis le rapport — chaque problème est expliqué avec sa cause et son impact
+5. Lis le rapport : chaque problème est expliqué avec sa cause et son impact
 
 ### Ce que Lighthouse ne détecte pas
 
 Lighthouse automatise environ **30 à 40% des vérifications** d'accessibilité. Le reste requiert une vérification manuelle. Un score de 100 ne garantit pas une page accessible.
 
 Ce qu'il ne peut pas détecter automatiquement :
+
 - Si les textes alternatifs sont **pertinents** (il détecte leur absence, pas leur qualité)
 - Si la navigation clavier est **logique** (ordre du focus)
 - Si le contenu est **compréhensible** pour quelqu'un qui ne voit pas la page
 
 > ℹ️ **À venir dans 2-3 semaines**
 >
-> Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 — c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
+> Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
 
 ### Démo en classe
 
-La démo suivante présente une page avec des erreurs d'accessibilité intentionnelles. On va l'auditer ensemble avec Lighthouse et axe DevTools pour voir exactement ce que les outils détectent — et ce qu'ils manquent.
+La démo suivante présente une page avec des erreurs d'accessibilité intentionnelles. On va l'auditer ensemble avec Lighthouse et axe DevTools pour voir exactement ce que les outils détectent : et ce qu'ils manquent.
 
-[Voir la page de démo →](https://codepen.io/tim-momo/pen/XXXXXXX)
+[Voir la page de démo →](https://elated-meadow-ladybird.codepen.app/)
 
 ---
 
-## Résumé — Ce qu'un intégrateur doit toujours vérifier
+## Résumé : Ce qu'un intégrateur doit toujours vérifier
 
 | Quoi vérifier | Comment |
 |---|---|
@@ -283,5 +284,5 @@ La démo suivante présente une page avec des erreurs d'accessibilité intention
 | Zones cliquables ≥ 44px | Inspecter les dimensions dans DevTools |
 | États hover, focus, active | Tester manuellement chaque état |
 | Hiérarchie des titres | Onglet Accessibility dans DevTools |
-| Textes alternatifs pertinents | Lire chaque alt à voix haute — est-ce utile? |
+| Textes alternatifs pertinents | Lire chaque alt à voix haute : est-ce utile? |
 | Audit global | Lighthouse > Accessibility |
