@@ -5,6 +5,8 @@
 
 ---
 
+<br>
+
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA générative ou d'agent de codage IA interdits poru cet exercice</span>
@@ -18,7 +20,7 @@ Maintenant que tu connais ces sélecteurs, mets-les en pratique.
 
 Un composant HTML est déjà stylisé. **Tu ne peux pas modifier le HTML.** Ton travail : compléter le CSS aux endroits indiqués pour appliquer les pseudo-classes et pseudo-éléments vus en cours.
 
-## Aperçu du résultat
+<!-- ## Aperçu du résultat -->
 
 
 
