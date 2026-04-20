@@ -5,13 +5,11 @@
 **Remise de la planification** : cours 11 (20 ou 22 avril)<br>
 **Remise finale** : cours 15 (11 ou 14 mai)<br>
 
-
-
 ## Mise en contexte
 
 *Solarix* est un jeu de rôle fictif à l'esthétique *Solarpunk* : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
 
-### Vous recevez :
+### Fichiers de départ
 
 - La maquette Figma (version desktop et mobile) - [Maquette Figma](https://www.figma.com/files/team/1139665994227813052/project/589825138?fuid=1139656376820697736) (notez que je travaille présentement à reconfigurer le permissions de la maquette pour que vous puissiez accéder au *devMode*, je vous tiens au courant).
 - Un canevas de départ (fichiers HTML et JavaScript fournis) -  [Canevas de départ](./depart-solarix.zip)
@@ -20,8 +18,16 @@ Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que
 
 ### Dev Mode dans Figma (rappel)
 
+Pour profiter des avantages du Dev Mode de Figma, connectez-vous à votre compte Figma, puis accédez à la maquette via le lien fourni. Une fois dans la maquette, activez le Dev Mode en cliquant sur l'icône `</>` en haut à droite de l'interface. Cela vous permettra d'inspecter les éléments de la maquette, de voir les propriétés CSS générées automatiquement et d'accéder aux ressources (images, icônes) nécessaires pour votre intégration.
+
 - [Note de cours de Dev Mode du cours Web 2](../../css/figma-devmode.md)
 - [Documentation complète du DevMode de Figma](https://help.figma.com/hc/fr/articles/15023124644247-Guide-sur-Dev-Mode)
+
+
+### Typographie
+
+Dans le dossier de départ vous trouverez les fichiers d'une des polices de caractères utilisées dans la maquette. Installez la localement sur votre ordinateur pour les utiliser dans la maquette Figma. Vous pourrez aussi importer la police dans votre projet via `@font-face` ou via un CDN si elle est disponible (ex. : Google Fonts).
+
 
 ## Objectifs d'apprentissage ciblés
 
