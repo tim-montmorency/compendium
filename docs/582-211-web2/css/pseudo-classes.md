@@ -108,7 +108,7 @@ button:focus-visible {
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="500" data-pen-title="DEMO: Pseudo-classes: Focus-visible" data-version="2" data-default-tab="result" data-slug-hash="MYjRbZv" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO: Pseudo-classes: Focus-visible" data-version="2" data-default-tab="result" data-slug-hash="MYjRbZv" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da868-23db-7cd6-94bf-6b51a408f74b">
   DEMO: Pseudo-classes: Focus-visible</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -161,7 +161,7 @@ input:checked ~ .toggle-fond {
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da86b-ab5c-7923-85c3-c878d79491ed">
   DEMO: pseudo-classes: checked</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -230,7 +230,7 @@ li:nth-child(3n+1) {
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO: Pseudo-classes: nth-child" data-version="2" data-default-tab="result" data-slug-hash="XJjQNwE" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="900" data-pen-title="DEMO: Pseudo-classes: nth-child" data-version="2" data-default-tab="result" data-slug-hash="XJjQNwE" data-user="tim-momo" style="height: 900px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da877-eae3-7358-aaa9-1b9eb118b14a">
   DEMO: Pseudo-classes: nth-child</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
