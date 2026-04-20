@@ -9,3 +9,10 @@ Lundi 27 avril / mercredi 29 avril
 •	États de chargement, feedback visuel
 •	Motion design accessible (prefers-reduced-motion)
 -->
+
+## Devoir
+
+- Terminer le projet intégrateur: Solarix
+- Répondre aux questions du *journal de bord - Semaine 3* d'ici le prochain cours.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }

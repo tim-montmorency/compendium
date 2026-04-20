@@ -2,8 +2,6 @@
 
 Lundi 20 avril / mercredi 22 avril
 
-
-
 <!-- 
 ## Pseudo-classe, pseudo-elements
 
@@ -19,4 +17,65 @@ Lundi 20 avril / mercredi 22 avril
 - États interactifs accessibles (hover, focus, active)
 - Textes alternatifs et structure sémantique
 - Tests d'accessibilité (outils : Lighthouse, axe DevTools)
-->
+-->
+
+
+## Annonces
+
+### Remise de la planification du projet Solarix
+
+Rappel: si ce n'est pas fait, vous devez remettre la planification de votre projet Solarix maintenant (était dû avant votre cours d'aujourd'hui).
+
+[Consignes de la planification du projet Solarix](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+
+### Présentations finales ddu projet Solarix
+
+Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours final (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+
+[Consignes des présentations orales du projet Solarix](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+
+
+
+## Pseudo-classes CSS et pseudo-éléments CSS
+
+### États
+
+### Structurels
+
+### Pseudo-éléments
+
+### Exercice
+
+## Accessibilité & robustesse
+
+### Contraste et lisibilité 
+
+
+### Focus et navigation clavier 
+
+### Tailles de clic/touch et états interactifs 
+
+### Structure sémantique et textes alternatifs 
+
+### Démo Lighthouse 
+
+
+
+## Travail sur le projet intégrateur: Solarix
+
+Pour le reste du cours:
+
+- Je suis disponible pour des rencontres individuelles pour vous aider à avancer votre projet Solarix.
+- Avancer le projet intégrateur: Solarix
+  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du cours 11, pour que je puisse les repérer facilement lors de la correction).
+  - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
+
+## Devoir
+
+- Avancer le projet intégrateur: Solarix
+  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du cours 11, pour que je puisse les repérer facilement lors de la correction).
+  - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }

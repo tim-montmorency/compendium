@@ -33,7 +33,9 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 
 ### Présentations finales du projet de synthèse
 
-Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours final (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+Les présentations seront individuelles entre l'étudiant et l'enseignante.
+
+Je vous attribue votre créneau horaire précis aujourd'hui.
 
 [Consignes des présentations orales du projet de synthèse](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
@@ -91,18 +93,11 @@ En d'autres termes, vous ne serez plus seulement capables de faire du CSS: vous 
 [📚 IA: Workflow professionnel](./ia/07_workflow-complet.md){ .md-button .md-button--primary }
 
 
-## Travail sur le projet intégrateur: Solarix
 
-Reste du cours: 
-
-- Avancer le projet intégrateur: Solarix
-- Réponse aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
-
-[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
 
 ## Devoir
 
-- Avancer le projet intégrateur: Solarix
-- Réponse aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+- Terminer le projet intégrateur: Solarix
+- Répondre aux questions du *journal de bord - Semaine 4* d'ici la remise.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
