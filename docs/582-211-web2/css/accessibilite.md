@@ -43,23 +43,23 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 
 <br>
 
-### Vérifier le contraste directement dans DevTools
+### Vérifier le contraste directement dans *DevTools*
 
-Chrome DevTools affiche le ratio de contraste directement dans le color picker :
+*Chrome DevTools* affiche le ratio de contraste directement dans le *color picker* :
 
 1. Inspecte un élément texte
 2. Clique sur la pastille de couleur dans le panneau CSS
 3. Le ratio s'affiche : un ✓ indique que le seuil AA est atteint, ✓✓ indique AAA
 
+![alt text](../assets/devtools-contraste.png)
+
 <br>
 
 > ℹ️ **Rappel : les variables CSS ne règlent pas le problème**
 >
-> Définir `--couleur-texte: #aaa` dans `:root` et l'utiliser partout ne garantit pas un contraste suffisant. Le ratio dépend toujours de la **combinaison** texte + arrière-plan. Un même gris peut être acceptable sur blanc et inaccessible sur fond coloré.
+> Définir `--couleur-texte: #aaa` dans `:root` et l'utiliser partout ne garantit pas un contraste suffisant. Le ratio dépend toujours de la **combinaison texte + arrière-plan**. Un même gris peut être acceptable sur blanc et inaccessible sur fond coloré.
 
 
-
-<br>
 
 <p class="codepen" data-theme-id="50210" data-height="1100" data-pen-title="DEMO accessibilité: constrate" data-version="2" data-default-tab="result" data-slug-hash="JoRVEKx" data-user="tim-momo" style="height: 1100px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da899-7223-79fb-8060-f2b5ecabf817">
@@ -122,11 +122,16 @@ Un indicateur de focus accessible doit être :
 
 ### Tester soi-même
 
-La méthode la plus rapide : **pose ta souris et navigue avec ++Tab ↹++**.
+La méthode la plus rapide : **pose ta souris et navigue avec ++tab++**.
 
+- ++tab++ : avancer vers l'élément focusable suivant
+- ++shift+tab++ : reculer
+- ++enter++ ou ++space++ : activer un bouton ou un lien
+<!--
 - ++Tab ↹++ : avancer vers l'élément focusable suivant
 - ++Shift ⇧++ + ++Tab ↹++ : reculer
-- ++Ente ⏎++ ou ++Espace ␠++ : activer un bouton ou un lien
+- ++Enter ⏎++ ou ++Espace ␠++ : activer un bouton ou un lien
+-->
 
 Si tu perds ta position à un moment, c'est un problème d'accessibilité.
 
