@@ -26,7 +26,7 @@ Lundi 20 avril / mercredi 22 avril
 
 Rappel: si ce n'est pas fait, vous devez remettre la planification de votre projet Solarix maintenant (était dû avant votre cours d'aujourd'hui).
 
-[Consignes de la planification du projet Solarix](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+[Consignes de la planification du projet Solarix](./exercices/projet-final/index.html#semaine-1-planification-13-au-19-avril){ .md-button }
 
 ### Présentations finales ddu projet Solarix
 
