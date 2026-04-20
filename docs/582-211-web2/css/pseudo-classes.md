@@ -43,6 +43,12 @@ Cible un élément quand le curseur est positionné dessus.
 }
 ```
 
+<br>
+
+---
+
+<br>
+
 ### `:active`
 
 Cible un élément au moment précis où il est cliqué (entre le clic et le relâchement).
@@ -52,6 +58,12 @@ Cible un élément au moment précis où il est cliqué (entre le clic et le rel
   transform: scale(0.97);
 }
 ```
+
+<br>
+
+---
+
+<br>
 
 ### `:focus`
 
@@ -63,6 +75,12 @@ input:focus {
   outline: 2px solid #2d6a4f;
 }
 ```
+
+<br>
+
+---
+
+<br>
 
 ### `:focus-visible` — La distinction importante
 
@@ -89,7 +107,20 @@ button:focus-visible {
 }
 ```
 
-See the Pen [DEMO - :focus vs :focus-visible](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+<br>
+
+<p class="codepen" data-theme-id="50210" data-height="500" data-pen-title="DEMO: Pseudo-classes: Focus-visible" data-version="2" data-default-tab="result" data-slug-hash="MYjRbZv" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da868-23db-7cd6-94bf-6b51a408f74b">
+  DEMO: Pseudo-classes: Focus-visible</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+<br>
+
+---
+
+<br>
 
 ### `:disabled`
 
@@ -105,6 +136,12 @@ button:disabled {
 ```html
 <button disabled>Option indisponible</button>
 ```
+
+<br>
+
+---
+
+<br>
 
 ### `:checked`
 
@@ -125,11 +162,12 @@ input:checked ~ .toggle-fond {
 }
 ```
 
-See the Pen [DEMO - :checked toggle sans JS](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
-
-
-
-
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da86b-ab5c-7923-85c3-c878d79491ed">
+  DEMO: pseudo-classes: checked</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 ## Pseudo-classes structurelles
