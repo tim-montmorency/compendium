@@ -51,7 +51,8 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 2. Clique sur la pastille de couleur dans le panneau CSS
 3. Le ratio s'affiche : un ✓ indique que le seuil AA est atteint, ✓✓ indique AAA
 
-![alt text](../assets/devtools-contraste.png)
+<img src="../assets/devtools-contraste.png" alt="Capture d'écran du color picker de Chrome DevTools montrant le ratio de contraste et les icônes de validation" style="width: 200px; height: auto; border: 1px solid #ccc; padding: 4px;">
+
 
 <br>
 
