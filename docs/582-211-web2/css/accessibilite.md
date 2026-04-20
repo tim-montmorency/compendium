@@ -32,6 +32,8 @@ Le **WCAG** (Web Content Accessibility Guidelines) définit des ratios de contra
 }
 ```
 
+<br>
+
 ### Vérifier le contraste directement dans DevTools
 
 Chrome DevTools affiche le ratio de contraste directement dans le color picker :
@@ -40,12 +42,22 @@ Chrome DevTools affiche le ratio de contraste directement dans le color picker :
 2. Clique sur la pastille de couleur dans le panneau CSS
 3. Le ratio s'affiche : un ✓ indique que le seuil AA est atteint, ✓✓ indique AAA
 
+<br>
+
 > ℹ️ **Rappel : les variables CSS ne règlent pas le problème**
 >
 > Définir `--couleur-texte: #aaa` dans `:root` et l'utiliser partout ne garantit pas un contraste suffisant. Le ratio dépend toujours de la **combinaison** texte + arrière-plan. Un même gris peut être acceptable sur blanc et inaccessible sur fond coloré.
 
-See the Pen [DEMO - Contraste et lisibilité](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
 
+
+<br>
+
+<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO accessibilité: constrate" data-version="2" data-default-tab="result" data-slug-hash="JoRVEKx" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da899-7223-79fb-8060-f2b5ecabf817">
+  DEMO accessibilité: constrate</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 ## Focus visible et navigation clavier
@@ -53,6 +65,8 @@ See the Pen [DEMO - Contraste et lisibilité](https://codepen.io/tim-momo/pen/XX
 ### Pourquoi c'est important
 
 Certains utilisateurs ne peuvent pas utiliser une souris : personnes avec des troubles moteurs, malvoyants qui utilisent un lecteur d'écran, utilisateurs avancés qui naviguent au clavier. Pour eux, le focus visible est le seul indicateur de leur position sur la page.
+
+<br>
 
 ### Le lien direct avec `:focus-visible`
 
@@ -75,6 +89,8 @@ Tu as vu `:focus-visible` dans la section précédente. C'est ici que son import
 }
 ```
 
+<br>
+
 ### Ce que doit indiquer un état de focus
 
 Un indicateur de focus accessible doit être :
@@ -92,6 +108,8 @@ Un indicateur de focus accessible doit être :
      : évite qu'il se confonde avec la bordure */
 }
 ```
+
+<br>
 
 ### Tester soi-même
 
@@ -135,6 +153,8 @@ Le WCAG 2.5.5 recommande une zone cliquable d'au moins **44 × 44 pixels** pour 
 }
 ```
 
+<br>
+
 ### Les trois états interactifs obligatoires
 
 Un élément cliquable doit avoir un style distinct pour chacun de ces états :
@@ -165,11 +185,20 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 }
 ```
 
+<br>
+
 > ⚠️ **L'erreur la plus fréquente**
 >
 > Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas : l'état actif est le seul feedback visuel disponible.
 
-See the Pen [DEMO - États interactifs](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+<br>
+
+<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO accessibilité: etats" data-version="2" data-default-tab="result" data-slug-hash="ZYpZLpo" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da89c-0ae6-760e-98ff-1fc52dde791d">
+  DEMO accessibilité: etats</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 
@@ -199,6 +228,8 @@ Un code accessible commence par un HTML qui utilise les **bonnes balises** pour 
 </header>
 ```
 
+<br>
+
 ### Hiérarchie des titres
 
 Les titres (`h1` à `h6`) structurent la page comme une table des matières. Un lecteur d'écran peut naviguer directement d'un titre à l'autre.
@@ -216,6 +247,8 @@ Les titres (`h1` à `h6`) structurent la page comme une table des matières. Un 
 ```
 
 > ℹ️ Si tu veux un `h3` qui ressemble visuellement à un `h2`, **change le style CSS** : ne change pas la balise.
+
+<br>
 
 ### Textes alternatifs
 
@@ -245,6 +278,8 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 
 **axe DevTools** (extension Chrome) est plus précis sur les **violations spécifiques** du WCAG. Il indique exactement quel critère est violé et pourquoi.
 
+<br>
+
 ### Comment lancer un audit Lighthouse
 
 1. Ouvre DevTools (`F12` ou `Cmd+Option+I`)
@@ -252,6 +287,8 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 3. Coche **Accessibility** (décoche les autres pour aller plus vite)
 4. Clique **Analyze page load**
 5. Lis le rapport : chaque problème est expliqué avec sa cause et son impact
+
+<br>
 
 ### Ce que Lighthouse ne détecte pas
 
@@ -267,13 +304,15 @@ Ce qu'il ne peut pas détecter automatiquement :
 >
 > Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
 
+<br>
+
 ### Démo en classe
 
 La démo suivante présente une page avec des erreurs d'accessibilité intentionnelles. On va l'auditer ensemble avec Lighthouse et axe DevTools pour voir exactement ce que les outils détectent : et ce qu'ils manquent.
 
 [Voir la page de démo →](https://elated-meadow-ladybird.codepen.app/)
 
----
+
 
 ## Résumé : Ce qu'un intégrateur doit toujours vérifier
 
