@@ -65,7 +65,7 @@ Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspectio
 
 
 
-## Travail sur le projet intégrateur: Solarix
+## Travail sur le projet Solarix
 
 Pour le reste du cours:
 
