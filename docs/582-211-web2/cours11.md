@@ -46,6 +46,8 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante. Elle
 
 ### Exercice
 
+[👩🏻‍💻 Exercice pseudo-classes](./exercices/pseudo-classes/index.md){ .md-button }
+
 ## Accessibilité & robustesse
 
 ### Contraste et lisibilité 
