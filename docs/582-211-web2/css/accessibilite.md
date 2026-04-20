@@ -113,11 +113,11 @@ Un indicateur de focus accessible doit être :
 
 ### Tester soi-même
 
-La méthode la plus rapide : **pose ta souris et navigue avec ++Tab++**.
+La méthode la plus rapide : **pose ta souris et navigue avec ++Tab ↹++**.
 
-- ++Tab++ : avancer vers l'élément focusable suivant
-- ++Shift++ + ++Tab++ : reculer
-- ++Enter++ ou ++Espace++ : activer un bouton ou un lien
+- ++Tab ↹++ : avancer vers l'élément focusable suivant
+- ++Shift ⇧++ + ++Tab ↹++ : reculer
+- ++Ente ⏎++ ou ++Espace ␠++ : activer un bouton ou un lien
 
 Si tu perds ta position à un moment, c'est un problème d'accessibilité.
 
@@ -319,7 +319,7 @@ La démo suivante présente une page avec des erreurs d'accessibilité intention
 | Quoi vérifier | Comment |
 |---|---|
 | Contraste texte / fond | DevTools color picker, ou [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) |
-| Focus clavier visible | Naviguer à la Tab et observer |
+| Focus clavier visible | Naviguer à la ++Tab ↹++ et observer |
 | Zones cliquables ≥ 44px | Inspecter les dimensions dans DevTools |
 | États hover, focus, active | Tester manuellement chaque état |
 | Hiérarchie des titres | Onglet Accessibility dans DevTools |
