@@ -55,22 +55,21 @@ Un composant HTML est déjà stylisé. **Tu ne peux pas modifier le HTML.** Ton 
 - [ ] 6. `:nth-child()`
   - [ ] Les éléments pairs de la liste doivent avoir un fond blanc : background-color: #fff.
 - [ ] 7. `:not()` + `::before`
-  - [ ] Tous les éléments de la liste SAUF le premier doivent avoir un padding-left de 2rem (ils sont "en retrait").
-  - [ ] Le premier élément doit avoir un petit cercle coloré devant lui via ::before : 8px × 8px, border-radius 50%, background var(--couleur-accent), display inline-block.
+  - [ ] Tous les éléments de la liste SAUF le premier doivent avoir un `padding-left` de `2rem` (ils sont "en retrait").
+  - [ ] Le premier élément doit avoir un petit cercle coloré devant lui via `::before : 8px × 8px, border-radius 50%, background var(--couleur-accent), display inline-block`.
 - [ ] 8. `:checked`
   Quand la case est cochée :
-  - [ ] Le .toggle-fond doit devenir var(--couleur-accent)
-  - [ ] Le .toggle-bouton doit se déplacer de 18px vers la droite (transform: translateX(18px))
+  - [ ] Le `.toggle-fond` doit devenir `var(--couleur-accent)`
+  - [ ] Le `.toggle-bouton` doit se déplacer de 18px vers la droite (`transform: translateX(18px)`)
     - [ ] Astuce : utilise le combinateur ~ (sibling) après input:checked pour cibler les éléments frères.
-    - [ ] Exemple : .toggle-enveloppe input:checked ~ .toggle-fond { }
-- [ ] 9. `:disabled`
-  Le troisième toggle est désactivé (attribut disabled dans le HTML). 
+    - [ ] Exemple : `.toggle-enveloppe input:checked ~ .toggle-fond { }`
+- [ ] 9. `:disabled` Le troisième toggle est désactivé (attribut disabled dans le HTML).
   Quand un input est disabled :
   - [ ] Le curseur de .toggle-rangee doit devenir "not-allowed"
-  - [ ] Le texte de la rangée doit devenir var(--couleur-texte-secondaire)
-  - [ ] Le .toggle-fond doit avoir une opacité de 0.4
-    - [ ] Astuce : utilise :has() pour remonter du input désactivé jusqu'à .toggle-rangee.
-    - [ ] Exemple : .toggle-rangee:has(input:disabled) { }
+  - [ ] Le texte de la rangée doit devenir `var(--couleur-texte-secondaire)`
+  - [ ] Le `.toggle-fond` doit avoir une opacité de 0.4
+    - [ ] Astuce : utilise `:has()` pour remonter du input désactivé jusqu'à .toggle-rangee.
+    - [ ] Exemple : `.toggle-rangee:has(input:disabled) { }`
 
 
 ## 📚 Notes de cours
