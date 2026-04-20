@@ -162,7 +162,7 @@ input:checked ~ .toggle-fond {
 }
 ```
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO: pseudo-classes: checked" data-version="2" data-default-tab="result" data-slug-hash="wBzZoNM" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da86b-ab5c-7923-85c3-c878d79491ed">
   DEMO: pseudo-classes: checked</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -224,7 +224,14 @@ li:nth-child(3n+1) {
 }
 ```
 
-See the Pen [DEMO - :nth-child()](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+<p class="codepen" data-theme-id="50210" data-height="800" data-pen-title="DEMO: Pseudo-classes: nth-child" data-version="2" data-default-tab="result" data-slug-hash="XJjQNwE" data-user="tim-momo" style="height: 800px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da877-eae3-7358-aaa9-1b9eb118b14a">
+  DEMO: Pseudo-classes: nth-child</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
 
 ### `:not()`
 
@@ -340,7 +347,12 @@ blockquote::after {
 >
 > Le contenu généré par `::before` et `::after` **n'est pas lu** par les lecteurs d'écran (dans la majorité des navigateurs). C'est pourquoi on les réserve aux éléments purement décoratifs. Si l'information est importante, elle doit être dans le HTML.
 
-See the Pen [DEMO - ::before et ::after](https://codepen.io/tim-momo/pen/XXXXXXX) by TIM Montmorency ([@tim-momo](https://codepen.io/tim-momo)) on [CodePen](https://codepen.io).
+<p class="codepen" data-theme-id="50210" data-height="1000" data-pen-title="DEMO: Pseudo-elements: ::before ::after" data-version="2" data-default-tab="result" data-slug-hash="xbEeRNa" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da878-7631-7b4e-a82f-9a24f5513807">
+  DEMO: Pseudo-elements: ::before ::after</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 
