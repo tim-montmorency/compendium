@@ -48,7 +48,7 @@ Un composant HTML est déjà stylisé. **Tu ne peux pas modifier le HTML.** Ton 
   - [ ] Au survol d'une carte, change la couleur de sa bordure pour `--couleur-accent.`
 - [ ] 4. `:focus-visible`
   - [ ] Les cartes sont focusables (`tabindex="0"` dans le HTML).
-  - [ ] Quand elles reçoivent le focus clavier (touche ++Tab ↹++), elles doivent afficher un contour visible : `outline: 2px solid var(--couleur-accent);  outline-offset: 3px;`
+  - [ ] Quand elles reçoivent le focus clavier (touche ++Tab++), elles doivent afficher un contour visible : `outline: 2px solid var(--couleur-accent);  outline-offset: 3px;`
   - [ ] Note : utilise `:focus-visible` et NON `:focus`, pour que le contour n'apparaisse pas au clic souris.
 - [ ] 5. `:last-child`
   - [ ] Le dernier élément de la liste ne doit pas avoir de bordure inférieure (border-bottom: none).
