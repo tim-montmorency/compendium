@@ -14,7 +14,7 @@
 Vous recevez :
 
 - La maquette Figma (version desktop et mobile) - [Maquette Figma](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&t=Gt69l1PjsBPV188o-1) (notez que je travaille présentement à reconfigurer le permissions de la maquette pour que vous puissiez accéder au *devMode*, je vous tiens au courant).
-- Un canevas de départ (fichiers HTML et JavaScript fournis) - Le lien vers le canevas de départ vous sera publié le 20 avril lors de la remise de la planification (en fin de journée).
+- Un canevas de départ (fichiers HTML et JavaScript fournis) -  [Canevas de départ](./depart-solarix.zip)
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
