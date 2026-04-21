@@ -55,8 +55,6 @@ On peut ajouter des gif animés dans Figma. Ils sont visibles dans l'aperçu d'u
 
 ## Animations Figma
 
-[Figma for Edu: Smart animate with Figma (Community)](https://www.figma.com/community/file/1530633211952065600/figma-for-edu-smart-animate-with-figma?q_id=6578031d-f87b-42b9-9e45-b1d9a12a1fd0)
-
 <!-- @note : Ce cours vise à enseigner la notion d'animations dans Figma. -->
 
 <!-- https://www.youtube.com/watch?v=oOJ5StJr-pU
@@ -92,9 +90,11 @@ Par exemple une animation au hover de la souris. Simplement une rétroaction vis
 
 ![](./assets/img/btn-hover-anim.webp){data-zoom-image .w-33}
 
-## Lissage
+## Exemples
 
-![](./assets/img/lissage-figma.png){data-zoom-image}
+[Figma for Edu: Smart animate with Figma (Community)](https://www.figma.com/community/file/1530633211952065600/figma-for-edu-smart-animate-with-figma?q_id=6578031d-f87b-42b9-9e45-b1d9a12a1fd0)
+
+[C'est l'temps d'jouer](https://www.figma.com/design/o6D5Akp0ZgwvqGDM4wq6Zo/C-est-l-temps-d-jouer?node-id=5-10&t=lmjFB7PEdA5laxsS-1)
 
 ## Devoir
 
