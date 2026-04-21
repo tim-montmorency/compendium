@@ -18,16 +18,22 @@ S|container queries||  S|media queries|| S|@container||  S|container-type|| S|co
 
 ## Pourquoi les media queries ne suffisent pas
 
-Avec les *media queries classiques*, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples — mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
+Avec les *media queries classiques*, on dit au composant comment se comporter selon la largeur totale de la *fenêtre du navigateur*. Ça fonctionne bien dans des cas simples, mais dès qu'on place le même composant dans des contextes différents, ça devient un cauchemar.
 
 
-!!! warning "Le problème concret"
-    Une carte `.card` affichée en pleine largeur doit être en *format horizontal*.
-    La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*. 
-    Avec les media queries, impossible de le savoir: le composant *ne connaît pas son contexte*.
 
 
-<p class="codepen" data-theme-id="50210" data-height="550" data-pen-title="DEMO sans Container queries" data-version="2" data-default-tab="result" data-slug-hash="XJjomrv" data-user="tim-momo" style="height: 550px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+## Exemple concret du problème
+
+🡺 Une carte `.card` affichée en *pleine largeur dans le `<main>`* doit être en *format horizontal*.
+
+🡺 La même `.card` placée dans une *sidebar* très étroite doit être en *format vertical*.
+
+❯❯❯❯ Avec les media queries, impossible de le savoir: le composant `.card` *ne connaît pas son contexte*.
+
+> Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen** et redimensionner la fenêtre. Vous pouvez aussi explorer le code CSS.
+
+<p class="codepen" data-theme-id="50210" data-height="520" data-pen-title="DEMO sans Container queries" data-version="2" data-default-tab="result" data-slug-hash="XJjomrv" data-user="tim-momo" style="height: 520px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d89aa-76a0-774e-ae00-525ae307729c">
   DEMO sans Container queries</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -35,7 +41,11 @@ Avec les *media queries classiques*, on dit au composant comment se comporter se
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-Imaginez : vous créez un composant `.card` avec une media query qui dit *« à partir de 600px, passe en horizontal »*. Mais 600px, c'est 600px de *quoi* ? De l'écran (viewport), pas du conteneur de la carte. Donc si la carte est dans une colonne de 300px sur un grand écran, elle sera quand même en horizontal, et ça casse tout.
+Imaginez : vous créez un composant `.card` avec une media query qui dit *« à partir de 600px, passe en horizontal »*. 
+
+Mais 600px, c'est 600px de *quoi* ? De l'écran (viewport), pas du conteneur de la carte. 
+
+Donc si la carte est dans une colonne de 300px sur un grand écran, elle sera quand même en horizontal, et ça casse tout.
 
 ```css
 /* ❌ Le problème : on se fie à la fenêtre, pas au conteneur */
@@ -73,13 +83,13 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 /* Étape 1 : Définir le conteneur */
 .card-wrapper {
   container-type: inline-size;
-  /* optionnel mais recommandé: nommer le conteneur */
   container-name: card-wrap;
 }
 ```
 
-!!! info Le type le plus courant: `inline-size`
-    💡  **`container-type: inline-size`**: le plus courant. On mesure seulement la largeur (l'axe inline).
+!!! tip "Le type le plus courant: `inline-size`"
+    Le type le plus courant:
+    `container-type: inline-size` avec lequel mesure seulement la largeur (l'axe inline).
 
     Les autres type de conteneur sont:
 
@@ -93,7 +103,9 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 
 
 ```css title="Déclarer la requête"
-/* Étape 2 : Déclarer la requête  */
+/* Étape 2 : Déclarer la requête avec @container 
+et le nom attribué au conteneur plus haut, 
+dans ce cas-ci, nous l'avons appelé `card-wrap` */
 @container card-wrap (min-width: 400px) {
   .card {
     flex-direction: row;
@@ -110,10 +122,12 @@ Cela se fait via les propriétés `container-type` et `container-name` sur le pa
 
 
 <!-- CODEPEN: Exemple interactif — Carte qui s'adapte à son conteneur -->
-### Exemple interactif: Carte qui s'adapte à son conteneur
+### Exemple : Carte qui s'adapte à son conteneur
 
-!!! example "🔎 À observer"
-    Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
+Reprenons l'exemple de la carte qui doit être en horizontal dans le `<main>` et en vertical dans la sidebar. Avec les *container queries*, c'est possible !
+
+!!! example "À observer"
+    Ouvrez l'exemple ci-dessous en cliquant sur **Edit on CodePen**. Redimensionnez la fenêtre. La carte dans la colonne étroite reste verticale même sur grand écran. La carte en pleine largeur passe en horizontal. C'est parce que chaque carte répond à son *conteneur*, pas à l'écran.
 
 <p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO Container queries - Carte qui s'adapte à son conteneur" data-version="2" data-default-tab="result" data-slug-hash="PwGxZNM" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f51-4aed-7415-9a6b-a495b73df6ea">
@@ -232,6 +246,8 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
   border-radius: var(--radius);
   padding: 1.25rem;
 }
+/* Résumé de l'article (excerpt) CACHÉ sur petit conteneur */
+.card__excerpt  { display: none; } 
 
 /* 3. Le composant s'adapte via @container */
 @container card-container (min-width: 400px) {
@@ -241,18 +257,22 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 
 @container card-container (min-width: 600px) {
   .card__title    { font-size: 1.5rem; }
-  .card__excerpt  { display: block; } /* caché sur petit conteneur */
+   /* Résumé de l'article (excerpt) AFFICHÉ sur grand conteneur */
+  .card__excerpt  { display: block; } 
+ 
 }
 ```
 
+---
+
 #### Exemple interactif
 
-!!! example "🔎 À observer"
-    Redimensionnez la fenêtre et observez les trois cartes. Elles s'adaptent chacune à leur conteneur, pas à l'écran. La carte dans la sidebar reste verticale même sur grand écran, tandis que les autres passent en horizontal.
+!!! example "À observer"
+    Pour mieux observer 🔎 le phénomène dans le CodePen ci-dessous, cliquer sur **Edit on CodePen**. Redimensionnez la fenêtre et observez les trois cartes. Elles s'adaptent chacune à leur conteneur, pas à l'écran. La carte dans la sidebar reste verticale même sur grand écran, tandis que les autres passent en horizontal.
 
 <!-- CODEPEN: Le même composant dans 3 contextes différents -->
 
-<p class="codepen" data-theme-id="50210" data-height="750" data-pen-title="DEMO Container queries - même composant dans 3 contextes différents" data-version="2" data-default-tab="result" data-slug-hash="azmQdmY" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="700" data-pen-title="DEMO Container queries - même composant dans 3 contextes différents" data-version="2" data-default-tab="result" data-slug-hash="azmQdmY" data-user="tim-momo" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f59-464c-7bbd-9e9f-0dae69e417d1">
   DEMO Container queries - même composant dans 3 contextes différents</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -260,7 +280,7 @@ On déclare le `container` sur un élément *wrapper* autour du composant, pas s
 
 
 
-### *Unités* : nouvelles unités de mesure pour container queries
+## *Unités* : nouvelles unités de mesure pour container queries
 
 <!-- https://laconsole.dev/formations/css/container-queries -->
 
@@ -475,21 +495,15 @@ Les container queries ne servent pas qu'aux cartes. Voici d'autres situations co
 ```
 -->
 
-## Exercice: Transformer un composant media-query en container-query
+## Exercice Container-query
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuite faites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
 <!-- ![Controls / Fork](../assets/codepen2-fork.png) -->
 
-[Pen de départ | FAIRE UN FORK](https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3){ .md-button }
+[Pen de départ | FAIRE UN FORK](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef){ .md-button }
 
 <!-- CODEPEN: Atelier — Transformer un composant media-query en container-query -->
-
-<p class="codepen" data-theme-id="50210" data-height=750" data-pen-title="EXERC container queries -  transformer un composant media-query en container-query" data-version="2" data-default-tab="result" data-slug-hash="ByLGjQy" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3">
-  EXERC container queries -  transformer un composant media-query en container-query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
 
 
@@ -527,3 +541,11 @@ Les container queries sont **supportées par tous les navigateurs modernes** dep
 3. **Styles de base = mobile-first**. Les container queries enrichissent, elles ne remplacent pas.
 4. **Media queries pour le layout global**, container queries pour les composants réutilisables.
 5. **Toujours nommer ses conteneurs** pour la lisibilité et la maintenabilité.
+
+
+
+<p class="codepen" data-theme-id="50210" data-height=750" data-pen-title="EXERC container queries -  transformer un composant media-query en container-query" data-version="2" data-default-tab="result" data-slug-hash="ByLGjQy" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3">
+  EXERC container queries -  transformer un composant media-query en container-query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
