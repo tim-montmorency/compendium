@@ -2,38 +2,102 @@
 
 Lundi 20 avril / mercredi 22 avril
 
-## Accessibilité & robustesse d’interface 
+<!-- 
+## Pseudo-classe, pseudo-elements
 
-- Contraste et lisibilité (WCAG) 
-- Focus visible et navigation clavier 
-- Tailles de clic/touch adaptées 
-- États interactifs accessibles (hover, focus, active) 
-- Textes alternatifs et structure sémantique 
+- Pseudo-classes d'état — ce que vos étudiant·es connaissent déjà un peu : `:hover`, `:focus`, `:focus-visible`, `:active`, `:disabled`, `:checked`
+- Pseudo-classes structurelles — les plus utiles pour éviter les classes inutiles : `:first-child`, `:last-child`, `:nth-child()`, `:not()`
+- Pseudo-éléments — pour éviter les éléments décoratifs dans le HTML : `::before`, `::after`
+
+## Finitions, accessibilité & robustesse d’interface
+
+- Contraste et lisibilité (WCAG)
+- Focus visible et navigation clavier
+- Tailles de clic/touch adaptées
+- États interactifs accessibles (hover, focus, active)
+- Textes alternatifs et structure sémantique
 - Tests d'accessibilité (outils : Lighthouse, axe DevTools)
-
-<!--
-Leur montrer Figma Make. Et voici pourquoi ça ne devrait pas les décourager si tu le présentes bien — mais d'abord, ses failles honnêtes.
-
-Ce que Figma Make (Claude 3.7 en arrière) génère mal en CSS/intégration web :
-
-Son take:
-"- La structure sémantique HTML : je produis souvent des div là où un nav, main, article ou figure aurait été plus approprié. Je fais semblant de comprendre la sémantique, mais je la sacrifie souvent pour faire quelque chose qui "marche".
-
-- L'accessibilité : c'est peut-être ma plus grande lacune. Focus visible, ordre de navigation clavier, attributs ARIA... je les oublie ou je les applique de façon superficielle. Un audit Lighthouse va souvent me démolir.
-
-- La maintenabilité du CSS : je génère du CSS qui fonctionne, mais qui est souvent redondant, peu cohérent dans la nomenclature, sans système de design tokens réfléchi. C'est du code jetable, pas du code professionnel.
-
-- Les décisions contextuelles : je ne sais pas si ce composant va vivre dans une sidebar étroite ou un layout pleine page. Je devine, et je me trompe souvent. C'est précisément là où les container queries changent tout — et je les utilise rarement spontanément.
-
--Le CSS fluide : je tombe par défaut dans des media queries brutes. Le clamp(), les unités fluides, les systèmes cohérents de typographie fluide, c'est rare que je les applique correctement sans qu'on me le demande explicitement.
-
-
-Comment le montrer sans décourager :
-
-L'erreur serait de montrer Figma Make en disant "regardez ce que ça produit" et de passer à autre chose. L'approche pédagogique forte, c'est de montrer Make et d'auditer ensemble le résultat en direct. Laisser les étudiants trouver les problèmes eux-mêmes. Ça devient une démonstration que leur regard critique vaut plus que ma vitesse de génération.
-Ton plan de cours fait d'ailleurs exactement ça au cours 11 : auditer du code généré par IA pour l'accessibilité. C'est le bon moment pour introduire Make, pas au début.
-
-Le vrai message à leur faire passer :
-
-Figma Make peut produire un prototype en 30 secondes. Mais le mettre en production de façon accessible, maintenable et cohérente ? Ça, c'est encore un travail humain. Et le marché le sait.
 -->
+
+
+## Annonces
+
+### Remise de la planification du projet Solarix
+
+Rappel: si ce n'est pas fait, vous devez remettre la planification de votre projet Solarix maintenant (était dû avant votre cours d'aujourd'hui).
+
+[PLANIFICATION du projet Solarix](./exercices/projet-final/index.html#semaine-1-planification-13-au-19-avril){ .md-button }
+
+### Présentations finales ddu projet Solarix
+
+Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours final (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+
+[PRÉSENTATIONS orales du projet Solarix](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+
+### Retour sur exercices du cours 10
+
+- [👩🏻‍💻 Exercice transitions: Spiderman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)
+- [👩🏻‍💻 Exercice transitions Bojack Horseman](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)
+
+## Composants adaptatifs intelligents (Container queries)
+
+Suite du dernier cours...
+
+[📚 Composant adaptatif intelligent: Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
+
+[📚 Container Queries: RÉSUMÉ](./css/containerqueries-utilisation.md){ .md-button }
+
+### Exercice Container-query
+
+<span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuite faites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
+
+<!-- ![Controls / Fork](../assets/codepen2-fork.png) -->
+
+[Pen de départ | FAIRE UN FORK](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef){ .md-button }
+
+## Pseudo-classes CSS et pseudo-éléments CSS
+
+- États
+- Structurels
+- Pseudo-éléments
+
+[📚 Contenu de cours: Pseudo-classes et pseudo-éléments](./css/pseudo-classes.md){ .md-button .md-button--primary }
+
+
+### Exercice
+
+[👩🏻‍💻 Exercice pseudo-classes](./exercices/pseudo-classes/index.md){ .md-button }
+
+## Accessibilité & robustesse
+
+- Contraste et lisibilité
+- Focus et navigation clavier
+- Tailles de clic/touch et états interactifs
+- Structure sémantique et textes alternatifs
+- Démo Lighthouse
+
+[📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
+
+### Démo Lighthouse
+
+Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
+
+
+## Travail sur le projet Solarix
+
+Pour le reste du cours:
+
+- Je suis disponible pour des rencontres individuelles pour vous aider à avancer votre projet Solarix.
+- Avancer le projet intégrateur: Solarix
+  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du cours 11, pour que je puisse les repérer facilement lors de la correction).
+  - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
+
+## Devoir
+
+- Avancer le projet intégrateur: Solarix
+  - Choisir une chose vue aujourd'hui dans le cours 11 et l'appliquer dans votre projet (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
+  - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
+
+[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }

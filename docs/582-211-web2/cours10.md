@@ -42,11 +42,11 @@ Composants adaptatifs intelligents
 -->
 
 
-## Composants adaptatifs intelligents
+## Composants adaptatifs intelligents (Container queries)
 
 [📚 Composant adaptatif intelligent: Container Queries](./css/composants-adaptatif-containerqueries.md){ .md-button .md-button--primary }
 
-[📚 Container Queries: Utilisation (RÉSUMÉ)](./css/containerqueries-utilisation.md){ .md-button .md-button--primary }
+[📚 Container Queries: Utilisation (RÉSUMÉ)](./css/containerqueries-utilisation.md){ .md-button }
 
 <!--
 https://laconsole.dev/formations/css/container-queries 

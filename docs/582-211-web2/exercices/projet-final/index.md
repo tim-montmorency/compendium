@@ -3,21 +3,36 @@
 **582-211-MO** : Web 2 | Session H2026 <br>
 **Pondération** : 55 points<br>
 **Remise de la planification** : cours 11 (20 ou 22 avril)<br>
-**Remise finale** : cours 15 (11 ou 14 mai)<br>
-
-
+**Remise finale** : cours final (11 ou 14 mai)<br>
 
 ## Mise en contexte
 
 *Solarix* est un jeu de rôle fictif à l'esthétique *Solarpunk* : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
 
-Vous recevez :
+### Fichiers de départ
 
-- La maquette Figma (version desktop et mobile)
-- Un canevas de départ (fichiers HTML et JavaScript fournis)
+- La maquette Figma (version desktop et mobile) :
+  - D'abord accéder à l'équipe *Web 2* de Figma [via ce lien](https://www.figma.com/team_invite/redeem/5DfH3v5mGAYvPU12BYLtQu?t=PC7OFho7hsSucnUJ-21) et accepter.
+  - Ensuite, accédez au *DevMode* de la [Maquette Figma Solarix](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&m=dev) - Notez bien que la maquette format mobile se trouve sur une autre page que celle du format desktop (voir la panneau à gauche pour naviguer entre les pages).
+- Voici le canevas de départ pour démarrer votre projet (fichiers HTML et JavaScript) -  [Canevas de départ](./depart-solarix.zip)
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
+#### Dev Mode dans Figma (rappel)
+
+Pour profiter des avantages du Dev Mode de Figma, connectez-vous à votre compte Figma, puis accédez à la maquette via le lien fourni. Une fois dans la maquette, activez le Dev Mode en cliquant sur l'icône `</>` en haut à droite de l'interface. Cela vous permettra d'inspecter les éléments de la maquette, de voir les propriétés CSS générées automatiquement et d'accéder aux ressources (images, icônes) nécessaires pour votre intégration.
+
+- [Note de cours de Dev Mode du cours Web 2](../../css/figma-devmode.md)
+- [Documentation complète du DevMode de Figma](https://help.figma.com/hc/fr/articles/15023124644247-Guide-sur-Dev-Mode)
+
+
+#### Typographie
+
+Dans le dossier de départ vous trouverez *les fichiers d'une des polices de caractères* utilisées dans la maquette. Installez la localement sur votre ordinateur pour les utiliser dans la maquette Figma. Vous devrez aussi importer la police dans votre projet via `@font-face`.
+
+*L'autre police de caractère est accessible via Google Fonts*, vous devez donc l'importer dans votre projet via `@import` ou via un lien dans le `<head>` de votre HTML.
+
+> Notez bien: Afin que Figma accède aux fontes installées sur votre ordinateur, vous devez installer un petit programme appelé "Installation de polices Figma". Téléchargez-le et installez-le à partir de ce lien : [Figma Font Helper](https://www.figma.com/fr-fr/downloads/). Une fois installé, redémarrez votre ordinateur pour que les changements prennent effet. Après cela, Figma devrait pouvoir accéder aux polices installées localement, y compris celles que vous venez d'ajouter.
 
 
 ## Objectifs d'apprentissage ciblés
@@ -313,7 +328,9 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 > Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
-Chaque étudiant présente son interface au reste de la classe. La présentation doit couvrir :
+La présentation orale du projet sera individuelle entre l'étudiant et l'enseignante. Elle se déroulera lors du cours final (11 ou 14 mai) et durera environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+
+Chaque étudiant présente son interface. La présentation doit couvrir :
 
 1. **L'interface finale**: démonstration en direct aux trois résolutions
 2. **Deux décisions techniques**  : expliquez pourquoi vous avez fait ce choix (ex. : choix de Flexbox vs container query, structure BEM d'un composant)
@@ -325,7 +342,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
     La présence à la remise et à la présentation est obligatoire. Une absence entraîne la note 0 pour la présentation, même si le travail a été remis en ligne.
 
 !!! question
-    L'enseignante peut poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
+    L'enseignante va poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
 
 
@@ -370,7 +387,7 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 
 ---
 
-### Présentation orale : 5 points
+### Présentation devant l'enseignante : 5 points
 
 | Critère | Points |
 |---|---|
@@ -378,6 +395,9 @@ Chaque étudiant présente son interface au reste de la classe. La présentation
 | Justification claire d'au moins deux décisions techniques | 2 pts |
 | Présentation de la zone libre et de ses choix | 1 pt |
 | Capacité à répondre aux questions de relance | 1 pt |
+
+!!! question
+    L'enseignante va poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
 ---
 

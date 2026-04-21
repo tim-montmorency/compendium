@@ -495,21 +495,15 @@ Les container queries ne servent pas qu'aux cartes. Voici d'autres situations co
 ```
 -->
 
-## Exercice: Transformer un composant media-query en container-query
+## Exercice Container query
 
 <span class="important-label">IMPORTANT</span> : Connectez-vous à CodePen d'abord et ensuite faites un *FORK* du Pen de départ pour l'enregistrer dans votre compte, archiver l'exercice et pouvoir avoir un lien unique vers votre exercice complété pour la remise.
 
 <!-- ![Controls / Fork](../assets/codepen2-fork.png) -->
 
-[Pen de départ | FAIRE UN FORK](https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3){ .md-button }
+[Pen de départ | FAIRE UN FORK](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef){ .md-button }
 
 <!-- CODEPEN: Atelier — Transformer un composant media-query en container-query -->
-
-<p class="codepen" data-theme-id="50210" data-height=750" data-pen-title="EXERC container queries -  transformer un composant media-query en container-query" data-version="2" data-default-tab="result" data-slug-hash="ByLGjQy" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3">
-  EXERC container queries -  transformer un composant media-query en container-query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
 
 
@@ -547,3 +541,11 @@ Les container queries sont **supportées par tous les navigateurs modernes** dep
 3. **Styles de base = mobile-first**. Les container queries enrichissent, elles ne remplacent pas.
 4. **Media queries pour le layout global**, container queries pour les composants réutilisables.
 5. **Toujours nommer ses conteneurs** pour la lisibilité et la maintenabilité.
+
+
+
+<p class="codepen" data-theme-id="50210" data-height=750" data-pen-title="EXERC container queries -  transformer un composant media-query en container-query" data-version="2" data-default-tab="result" data-slug-hash="ByLGjQy" data-user="tim-momo" style="height: 750px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019d7f5b-5857-7693-85e5-47c41b4acdf3">
+  EXERC container queries -  transformer un composant media-query en container-query</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
