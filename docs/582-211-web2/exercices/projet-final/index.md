@@ -3,7 +3,7 @@
 **582-211-MO** : Web 2 | Session H2026 <br>
 **Pondération** : 55 points<br>
 **Remise de la planification** : cours 11 (20 ou 22 avril)<br>
-**Remise finale** : cours 15 (11 ou 14 mai)<br>
+**Remise finale** : cours final (11 ou 14 mai)<br>
 
 ## Mise en contexte
 
@@ -12,13 +12,13 @@
 ### Fichiers de départ
 
 - La maquette Figma (version desktop et mobile) :
-  - D'abord accéder à l'équipe *Web 2* de Figma [via ce lien](https://www.figma.com/team_invite/redeem/5DfH3v5mGAYvPU12BYLtQu?t=PC7OFho7hsSucnUJ-21) et accpeter.
-  - Ensuite, accédez au *DevMode* de la [Maquette Figma Solarix](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&m=dev) - Notez bien que la maquette format mobile se trouve sur une autre page que celle du formatdesktop (voir la panneau à gauche pour naviguer entre les pages).
+  - D'abord accéder à l'équipe *Web 2* de Figma [via ce lien](https://www.figma.com/team_invite/redeem/5DfH3v5mGAYvPU12BYLtQu?t=PC7OFho7hsSucnUJ-21) et accepter.
+  - Ensuite, accédez au *DevMode* de la [Maquette Figma Solarix](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&m=dev) - Notez bien que la maquette format mobile se trouve sur une autre page que celle du format desktop (voir la panneau à gauche pour naviguer entre les pages).
 - Voici le canevas de départ pour démarrer votre projet (fichiers HTML et JavaScript) -  [Canevas de départ](./depart-solarix.zip)
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
-### Dev Mode dans Figma (rappel)
+#### Dev Mode dans Figma (rappel)
 
 Pour profiter des avantages du Dev Mode de Figma, connectez-vous à votre compte Figma, puis accédez à la maquette via le lien fourni. Une fois dans la maquette, activez le Dev Mode en cliquant sur l'icône `</>` en haut à droite de l'interface. Cela vous permettra d'inspecter les éléments de la maquette, de voir les propriétés CSS générées automatiquement et d'accéder aux ressources (images, icônes) nécessaires pour votre intégration.
 
@@ -26,7 +26,7 @@ Pour profiter des avantages du Dev Mode de Figma, connectez-vous à votre compte
 - [Documentation complète du DevMode de Figma](https://help.figma.com/hc/fr/articles/15023124644247-Guide-sur-Dev-Mode)
 
 
-### Typographie
+#### Typographie
 
 Dans le dossier de départ vous trouverez *les fichiers d'une des polices de caractères* utilisées dans la maquette. Installez la localement sur votre ordinateur pour les utiliser dans la maquette Figma. Vous devrez aussi importer la police dans votre projet via `@font-face`.
 
