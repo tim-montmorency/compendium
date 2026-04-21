@@ -18,7 +18,7 @@ Ce projet compte pour **30%** de votre note finale. Il est remis **et** présent
   **[Hackerman 1977](https://www.figma.com/proto/wozH7xzVNQw2aIR8jymeTL/Hackerman-1977?scaling=scale-down&content-scaling=fixed){.stretched-link}**
 </div>
 
-Pour les curieuses et les curieux, le [fichier source du jeu Hackerman 1977](./Hackerman-1977.fig)
+Pour les curieuses et les curieux, la [source du jeu Hackerman 1977](https://www.figma.com/design/c9xB0a85MuB4Imni8vLJZ3/Hackerman-1977--copie-?node-id=0-1&t=ZRNdRALZJm0Rm8vy-1)
 
 ## Échéances
 
