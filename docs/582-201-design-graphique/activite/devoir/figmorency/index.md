@@ -102,7 +102,7 @@ Le jeu s'ouvre sur une **séquence d'introduction animée** (comme dans *Hackerm
 
 !!! note "Il peut y avoir plusieurs séquences enchaînées. C'est une bonne occasion d'introduire l'histoire du jeu."
 
-## Présentation orale (cours 15)
+## Présentation orale (cours 15) 
 
 Au cours 15, vous présenterez votre jeu à la classe en **10 minutes**.
 
