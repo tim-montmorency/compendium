@@ -35,9 +35,6 @@ jobs:
       - name: Build mkdocs
         run: mkdocs build
 
-      - name: Configure git for large push
-        run: git config --global http.postBuffer 524288000
-
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
