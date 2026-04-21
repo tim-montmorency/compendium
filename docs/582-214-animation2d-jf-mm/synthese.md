@@ -16,7 +16,6 @@ Le projet doit comprendre les demandes suivantes :
 2. Montage animé  
 3. Présentation en classe
 
-
 ## Préproduction
 
 La préproduction doit être remise au **cours 13**.  
@@ -45,21 +44,19 @@ Elle doit comprendre les éléments suivants :
 - Palette de **5 couleurs**  
 - **2 typographies** envisagées  
 
-
 ## Montage animé
 
 ### Paramètres techniques
 
 - Résolution : **1920 x 1080**  
-- Cadence : **30 images par seconde (30 fps)**  
-- Durée par partie individuelle : **minimum 30 secondes**  
+- Cadence : **30 images par seconde (30 fps)**   
 - Durée totale du montage assemblé : **minimum 1 minute**  
+- Un travail individuel est permis **sous réserve d'approbation de l'enseignant**
 
 > La durée minimale doit être respectée. Au-delà, la qualité prime sur la
 > quantité : un montage maîtrisé sera toujours mieux évalué qu'un montage long
 > et inégal. Le non-respect de la durée minimale sera pénalisé dans le critère
 > de présence des éléments demandés.
-
 
 ### Animation (After Effects)
 
@@ -81,7 +78,6 @@ Chaque partie individuelle doit comprendre **au minimum** :
 | Title reveal animé *(évalué séparément — voir grille)* | 1 |
 | Élément vectoriel créé par l'étudiant·e *(évalué séparément — voir grille)* | 1 |
 
-
 ### Générique de fin
 
 Le générique de fin doit inclure :
@@ -92,13 +88,11 @@ Le générique de fin doit inclure :
 - Les remerciements (TTP et autres)  
 - Le logo TIM  
 
-
 ### Traitement visuel
 
 - Traitement de **luminosité et/ou de contraste**  
 - Traitement de **teinte et/ou de saturation**  
 - Intégration cohérente d'éléments **vectoriels et matriciels** (au moins un de chaque)  
-
 
 ### Montage vidéo et sonore
 
@@ -107,16 +101,12 @@ Le générique de fin doit inclure :
 - Synchronisation du son avec les animations  
 - Le montage final est assemblé dans **le logiciel de votre choix** et exporté en `.mp4`  
 
-
 ## Structure du travail en équipe
 
-- Travail en **équipe de deux**, composé de **2 parties individuelles assemblées**
-  pour une durée totale minimale de **1 minute**  
+- Un travail en **équipe de deux** est composé de **2 parties individuelles assemblées** pour une durée totale minimale de **1 minute**  
 - Chaque membre est responsable d'une section distincte et clairement identifiable  
 - Les deux parties doivent former un ensemble cohérent sur le plan esthétique et sonore  
-- Chaque partie individuelle doit satisfaire à l'ensemble des exigences
-  d'animation et de traitement visuel  
-
+- Chaque partie individuelle doit satisfaire à l'ensemble des exigences d'animation et de traitement visuel  
 
 ## Dossier de remise
 
@@ -131,7 +121,6 @@ Le dossier, nommé au nom de l'équipe, doit contenir :
 > Le non-respect des exigences de remise (fichiers manquants, format incorrect)
 > sera pénalisé dans le critère de présence et intégration des éléments demandés.
 
-
 ## Présentation en classe
 
 - Présentation lors du **cours 15 (12–15 mai 2026)**  
@@ -142,12 +131,17 @@ Le dossier, nommé au nom de l'équipe, doit contenir :
   - L'élément dont vous êtes le plus fier  
   - Ce qui pourrait être amélioré  
 
-
 ## Consignes additionnelles
 
-- Les images sous copyright sont permises  
+Pour **ne pas** participer au concours d'essai audiovisuel
+
+- Les médias sous copyright sont permis.  
 - **Aucune image générée par intelligence artificielle n'est autorisée**  
 
+Pour participer au concours d'essai audiovisuel
+
+- **Les images sous copyright ne sont pas permises**    
+- L’utilisation de médias libres de droits (et IA) est permise jusqu’à concurrence de 30%. Ceux-ci doivent être crédités.
 
 ## Calendrier
 
@@ -158,7 +152,6 @@ Le dossier, nommé au nom de l'équipe, doit contenir :
 | Cours 13 | **Remise de la préproduction** — recherche de médias et début du développement |
 | Cours 14 | Développement des animations — période de travail supervisé |
 | Cours 15 | **Remise finale et présentation en classe** |
-
 
 # CRITÈRES D'ÉVALUATION
 
