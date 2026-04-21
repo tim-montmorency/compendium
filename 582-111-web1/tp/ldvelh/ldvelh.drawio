@@ -1,0 +1,286 @@
+<mxfile host="65bd71144e" scale="1" border="50">
+    <diagram id="93IKqOJNLAimZ4znNsm2" name="Page-1">
+        <mxGraphModel dx="675" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-1" target="-WBcl4eppXQbbGwAUBCd-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-1" value="&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AMORCE&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;Vous entrez dans une taverne sombre, près du village. L’air sent la bière et le bois humide.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="190" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-WBcl4eppXQbbGwAUBCd-6" target="-WBcl4eppXQbbGwAUBCd-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-WBcl4eppXQbbGwAUBCd-6" target="-WBcl4eppXQbbGwAUBCd-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-6" value="&lt;p class=&quot;p1&quot;&gt;Le conflit&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;À peine assis, une bande d’orcs vous encercle. Leur chef gronde : « La bourse, étranger ! »&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="430" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-14" target="-WBcl4eppXQbbGwAUBCd-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-14" value="Fuir" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="550" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-15" target="-WBcl4eppXQbbGwAUBCd-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-15" value="Négocier" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="975" y="550" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-19" target="-WBcl4eppXQbbGwAUBCd-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-19" value="S’asseoir au bar" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="320" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-22" target="-WBcl4eppXQbbGwAUBCd-25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-WBcl4eppXQbbGwAUBCd-22" target="-WBcl4eppXQbbGwAUBCd-26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-22" value="&lt;p class=&quot;p1&quot;&gt;La fuite&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;Vous bondissez et filez vers la porte. Les orcs renversent des tables pour vous bloquer.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="690" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-25" target="-WBcl4eppXQbbGwAUBCd-40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-25" value="Prendre les ruelles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="847" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-26" target="-WBcl4eppXQbbGwAUBCd-52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-26" value="Dégainer l’arme" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="847" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-34" target="-WBcl4eppXQbbGwAUBCd-36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="850" y="810" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1015" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-34" target="-WBcl4eppXQbbGwAUBCd-37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1060" y="830" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1015" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-34" value="&lt;p class=&quot;p1&quot;&gt;La négociation&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;Vous levez les mains et proposez une tournée. Les orcs se jaugent du regard.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="690" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-36" target="-WBcl4eppXQbbGwAUBCd-48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-36" value="Payer une tournée" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="847" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-37" target="-WBcl4eppXQbbGwAUBCd-50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-37" value="Arnaquer les orcs" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1085" y="847" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-40" target="-WBcl4eppXQbbGwAUBCd-41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-40" value="&lt;p class=&quot;p1&quot;&gt;Ruelles&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;Vous réalisez que les ruelles sont obstruées par des montagnes de déchets. Aucun passage n’est possible.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="960" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-41" target="-WBcl4eppXQbbGwAUBCd-6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="160" y="1160"/>
+                            <mxPoint x="160" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-41" value="Rebrousser chemin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="1130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-48" target="-WBcl4eppXQbbGwAUBCd-56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-48" value="La tournée&lt;div&gt;&lt;br&gt;&lt;div&gt;Les chopes se remplissent et la tension retombe. Vous entendez une naine marmonner à côté de vous.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="960" width="240" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-50" target="jgzv0vW1M-o7QsH-jK9U-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-50" value="&lt;p class=&quot;p1&quot;&gt;Supercherie&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;Vous tentez de leur donner un sac de pièces vide, mais ils&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;découvrent votre supercherie et vous poignardent sans hésiter.&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="960" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-52" target="jgzv0vW1M-o7QsH-jK9U-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-52" value="&lt;p class=&quot;p1&quot;&gt;Le combat&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;Vous brandissez votre arme, mais les orcs vous submergent et vous désarment. L&#39;un deux vous pousse dans la cheminée où les flammes vous engloutissent.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="960" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-WBcl4eppXQbbGwAUBCd-56" target="-WBcl4eppXQbbGwAUBCd-58" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-56" value="Tendre l&#39;oreille" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="1130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-WBcl4eppXQbbGwAUBCd-58" value="SCENE PONT AVEC L&#39;AVENTURE SUIVANTE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="1250" width="240" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-1" value="Recommencer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="1130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-3" value="Recommencer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="1085" y="1130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-7" target="jgzv0vW1M-o7QsH-jK9U-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-7" value="&lt;div&gt;AMORCE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Vous arrivez devant l’entrée d’une crypte cachée sous un vieux cimetière." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1760" y="170" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-8" target="jgzv0vW1M-o7QsH-jK9U-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1885" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-8" target="jgzv0vW1M-o7QsH-jK9U-13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1885" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-8" value="&lt;div&gt;La salle des torches&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;La crypte s’ouvre sur une salle circulaire, éclairée par deux torches qui vacillent. Une odeur de poussière et de fer rouillé flotte dans l’air.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1750" y="430" width="270" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-9" target="jgzv0vW1M-o7QsH-jK9U-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-9" value="Descendre l’escalier" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1845" y="310" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-12" target="jgzv0vW1M-o7QsH-jK9U-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-12" value="Prendre le couloir sombre" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1625" y="560" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-13" target="jgzv0vW1M-o7QsH-jK9U-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-13" value="Examiner l’autel" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="2070" y="560" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-14" target="jgzv0vW1M-o7QsH-jK9U-16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1665" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-14" target="jgzv0vW1M-o7QsH-jK9U-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1665" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-14" value="&lt;div&gt;Le couloir sombre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Le couloir s’enfonce dans l’obscurité. Des os craquent sous vos pas.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="690" width="230" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-15" target="jgzv0vW1M-o7QsH-jK9U-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-15" value="&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Continuer malgré tout&lt;/b&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1710" y="850" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-16" target="jgzv0vW1M-o7QsH-jK9U-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1500" y="890"/>
+                            <mxPoint x="1500" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-16" value="Rebrousser chemin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="850" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-23" target="jgzv0vW1M-o7QsH-jK9U-25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-23" value="Adieu&lt;br&gt;&lt;br&gt;Le plancher s’effondre sous vos pieds et vous tombez dans un trou sans fond, condamné à chuter pour l’éternité." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1640" y="980" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-25" value="Recommencer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="1710" y="1140" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-27" target="jgzv0vW1M-o7QsH-jK9U-29" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2110" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-27" target="jgzv0vW1M-o7QsH-jK9U-30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2110" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-27" value="&lt;div&gt;L’autel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;L’autel est couvert de runes effacées. Une dalle au sol semble légèrement déplacée.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1980" y="690" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-29" target="jgzv0vW1M-o7QsH-jK9U-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-29" value="Ouvrir la dalle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1970" y="850" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-30" target="jgzv0vW1M-o7QsH-jK9U-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2280" y="890"/>
+                            <mxPoint x="2280" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-30" value="Ignorer et revenir en arrière" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="2160" y="850" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-32" target="jgzv0vW1M-o7QsH-jK9U-36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-32" value="&lt;div&gt;Le passage secret&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous soulevez la dalle et découvrez un escalier étroit. Un souffle étrange s’élève des profondeurs.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1885" y="980" width="250" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jgzv0vW1M-o7QsH-jK9U-36" target="jgzv0vW1M-o7QsH-jK9U-37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-36" value="Descendre" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="1970" y="1140" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jgzv0vW1M-o7QsH-jK9U-37" value="SCENE PONT AVEC L&#39;AVENTURE SUIVANTE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1890" y="1270" width="240" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

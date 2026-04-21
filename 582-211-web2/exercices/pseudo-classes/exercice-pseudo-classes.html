@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice — Pseudo-classes & pseudo-éléments</title>
+  <style>
+
+    /* ============================================================
+       BASE — Ne pas modifier cette section
+       ============================================================ */
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --couleur-fond: #f5f4f0;
+      --couleur-surface: #ffffff;
+      --couleur-bordure: #e0ddd6;
+      --couleur-texte-principal: #1a1a18;
+      --couleur-texte-secondaire: #6b6b67;
+      --couleur-accent: #2d6a4f;
+      --couleur-accent-clair: #d8f3dc;
+      --couleur-danger: #c0392b;
+      --couleur-danger-clair: #fdecea;
+      --rayon: 12px;
+      --ombre: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background-color: var(--couleur-fond);
+      color: var(--couleur-texte-principal);
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      color: var(--couleur-texte-secondaire);
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--couleur-bordure);
+      padding-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 0.75rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--couleur-texte-secondaire);
+      margin-bottom: 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+
+    /* ============================================================
+       SECTION 1 — CARTES
+       ============================================================ */
+
+    .cartes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .carte {
+      background: var(--couleur-surface);
+      border: 1px solid var(--couleur-bordure);
+      border-radius: var(--rayon);
+      padding: 1.25rem;
+      cursor: pointer;
+      /* outline retiré intentionnellement — à corriger dans l'exercice */
+      outline: none;
+      position: relative;
+      transition: border-color 0.2s;
+    }
+
+    .carte-titre {
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .carte-desc {
+      font-size: 0.85rem;
+      color: var(--couleur-texte-secondaire);
+      line-height: 1.5;
+    }
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 1 — ::before
+       La première carte doit afficher un badge "Nouveau" au-dessus
+       d'elle, positionné en haut à gauche.
+       Utilise le pseudo-élément ::before sur .cartes .carte:first-child
+       La propriété content doit valoir "Nouveau".
+       Donne-lui un fond vert (--couleur-accent-clair), un texte vert
+       foncé (--couleur-accent), un padding de 2px 8px, un border-radius
+       de 99px et un font-size de 0.7rem.
+       Pour le positionner : position absolute, top: -10px, left: 12px.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 2 — ::after
+       Chaque carte doit afficher une flèche "→" en bas à droite.
+       Utilise ::after sur .carte.
+       La flèche doit se déplacer de 4px vers la droite au survol
+       de la carte (combine ::after avec :hover).
+       Ajoute une transition de 0.2s sur transform.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 3 — :hover
+       Au survol d'une carte, change la couleur de sa bordure
+       pour var(--couleur-accent).
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 4 — :focus-visible
+       Les cartes sont focusables (tabindex="0" dans le HTML).
+       Quand elles reçoivent le focus clavier (touche Tab),
+       elles doivent afficher un contour visible :
+       outline: 2px solid var(--couleur-accent)
+       outline-offset: 3px
+       Note : utilise :focus-visible et NON :focus, pour que
+       le contour n'apparaisse pas au clic souris.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* ============================================================
+       SECTION 2 — LISTE
+       ============================================================ */
+
+    .liste {
+      list-style: none;
+      border: 1px solid var(--couleur-bordure);
+      border-radius: var(--rayon);
+      overflow: hidden;
+    }
+
+    .liste li {
+      padding: 0.85rem 1.1rem;
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--couleur-bordure);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 5 — :last-child
+       Le dernier élément de la liste ne doit pas avoir
+       de bordure inférieure (border-bottom: none).
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 6 — :nth-child()
+       Les éléments pairs de la liste doivent avoir un fond
+       légèrement différent : background-color: var(--couleur-fond).
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 7 — :not() + ::before
+       Tous les éléments de la liste SAUF le premier doivent avoir
+       un padding-left de 2rem (ils sont "en retrait").
+       Le premier élément doit avoir un petit cercle coloré devant
+       lui via ::before : 8px × 8px, border-radius 50%,
+       background var(--couleur-accent), display inline-block.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* ============================================================
+       SECTION 3 — TOGGLES
+       ============================================================ */
+
+    .toggles {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .toggle-rangee {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    .toggle-enveloppe {
+      position: relative;
+      width: 40px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+
+    .toggle-enveloppe input[type="checkbox"] {
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      cursor: pointer;
+      margin: 0;
+      z-index: 1;
+    }
+
+    .toggle-fond {
+      position: absolute;
+      inset: 0;
+      background: var(--couleur-bordure);
+      border-radius: 99px;
+      transition: background 0.2s;
+    }
+
+    .toggle-bouton {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 16px;
+      height: 16px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.2s;
+      pointer-events: none;
+    }
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 8 — :checked
+       Quand la case est cochée :
+       - Le .toggle-fond doit devenir var(--couleur-accent)
+       - Le .toggle-bouton doit se déplacer de 18px vers la droite
+         (transform: translateX(18px))
+       Astuce : utilise le combinateur ~ (sibling) après input:checked
+       pour cibler les éléments frères.
+       Exemple : .toggle-enveloppe input:checked ~ .toggle-fond { }
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       CONSIGNE 9 — :disabled
+       Le troisième toggle est désactivé (attribut disabled dans le HTML).
+       Quand un input est disabled :
+       - Le curseur de .toggle-rangee doit devenir "not-allowed"
+       - Le texte de la rangée doit devenir var(--couleur-texte-secondaire)
+       - Le .toggle-fond doit avoir une opacité de 0.4
+       Astuce : utilise :has() pour remonter du input désactivé
+       jusqu'à .toggle-rangee.
+       Exemple : .toggle-rangee:has(input:disabled) { }
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* Écris ta réponse ici ↓ */
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Exercice — Pseudo-classes &amp; pseudo-éléments</h1>
+
+  <!-- ============================================================
+       RÈGLE D'OR : Tu ne modifies pas le HTML.
+       Toutes tes réponses vont dans le CSS, aux endroits indiqués.
+       ============================================================ -->
+
+
+  <!-- SECTION 1 — CARTES -->
+  <section>
+    <h2>Cartes (consignes 1 à 4)</h2>
+    <div class="cartes">
+      <div class="carte" tabindex="0">
+        <p class="carte-titre">Flexbox</p>
+        <p class="carte-desc">Disposition sur un axe principal</p>
+      </div>
+      <div class="carte" tabindex="0">
+        <p class="carte-titre">Grid</p>
+        <p class="carte-desc">Mise en page bidimensionnelle</p>
+      </div>
+      <div class="carte" tabindex="0">
+        <p class="carte-titre">Container queries</p>
+        <p class="carte-desc">Composants vraiment adaptatifs</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION 2 — LISTE -->
+  <section>
+    <h2>Liste (consignes 5 à 7)</h2>
+    <ul class="liste">
+      <li>Premier élément — mis en valeur</li>
+      <li>Deuxième élément</li>
+      <li>Troisième élément</li>
+      <li>Quatrième élément</li>
+      <li>Cinquième élément — pas de bordure en bas</li>
+    </ul>
+  </section>
+
+
+  <!-- SECTION 3 — TOGGLES -->
+  <section>
+    <h2>Toggles (consignes 8 à 9)</h2>
+    <div class="toggles">
+
+      <label class="toggle-rangee">
+        <div class="toggle-enveloppe">
+          <input type="checkbox" checked>
+          <div class="toggle-fond"></div>
+          <div class="toggle-bouton"></div>
+        </div>
+        Notifications activées
+      </label>
+
+      <label class="toggle-rangee">
+        <div class="toggle-enveloppe">
+          <input type="checkbox">
+          <div class="toggle-fond"></div>
+          <div class="toggle-bouton"></div>
+        </div>
+        Mode sombre
+      </label>
+
+      <label class="toggle-rangee">
+        <div class="toggle-enveloppe">
+          <input type="checkbox" disabled>
+          <div class="toggle-fond"></div>
+          <div class="toggle-bouton"></div>
+        </div>
+        Option indisponible
+      </label>
+
+    </div>
+  </section>
+
+</body>
+</html>

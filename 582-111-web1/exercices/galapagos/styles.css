@@ -1,0 +1,37 @@
+html{
+    font-size: 20px;
+    line-height: 1.6;
+}
+body {
+    background: url(./galapagos-banner.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem;
+}
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.8);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px 24px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+}
+section iframe {
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    border: 1px solid #e1e1e1;
+    background: black;
+    width: 100%;
+}

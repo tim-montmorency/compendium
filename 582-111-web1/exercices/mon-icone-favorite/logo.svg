@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Plan-de-travail1" serif:id="Plan de travail1" x="0" y="0" width="1024" height="1024" style="fill:none;"/>
+    <g id="Plan-de-travail11" serif:id="Plan de travail1">
+        <g>
+            <path d="M1023.98,814.287L807.539,814.287L606.65,452.831L606.65,644.185C606.65,738.036 530.362,814.131 436.265,814.131C367.034,814.131 313.378,773.587 287.244,726.565L189.319,550.378L189.319,813.975L-0.002,813.975L-0.002,209.713L216.455,209.713L417.329,571.147L417.329,379.823C417.329,285.964 493.617,209.869 587.721,209.869C651.839,209.869 707.654,245.204 736.742,297.413L1023.98,814.287Z" style="fill:rgb(0,39,104);fill-rule:nonzero;"/>
+            <path d="M1024,210.029L1024,814.284L1023.99,814.284L834.679,473.656L834.679,210.029L1024,210.029Z" style="fill:rgb(36,178,25);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+html{
+  font-size: 20px;
+}
+
+body {
+  background: url(./assets/images/background.jpg) no-repeat scroll top center;
+  background-size: contain;
+  background-color: rgb(14, 20, 32);
+  color: #f9fafb;
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  color: #45f882;
+}
+
+header {
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10vw;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header img {
+  max-width: 180px;
+  height: auto;
+  display: inline-block;
+}
+
+main {
+  clear: both;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+figcaption{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.surtitre {
+  color: #45f882;
+  font-size: 26px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  padding-top: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  line-height: 1;
+  margin: 0 0 1rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 7rem;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+caption {
+  padding: 1rem;
+  font-style: italic;
+  color: rgba(69, 248, 130, 0.5);
+  text-align: center;
+  font-size: 0.875rem;
+  position: relative;
+}
+
+caption strong, caption b {
+  display: inline-block;
+  padding: 0 0.25rem;
+
+}
+
+caption:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 4px;
+  border-radius: 999px;
+  background-color: rgba(69, 248, 130, 0.5);
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  font-size: 0.87rem;
+  padding: 12px 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+td {
+  background-color: rgba(69, 248, 130, 0.02);
+  padding: 14px 16px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+td:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  height: 6rem;
+  font-size: 3rem;
+}
+
+td:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  height: 6rem;
+}
+
+td:last-child img {
+  width: 70px;
+  height: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background: var(--g3-row);
+}
+tbody tr:hover {
+  background: var(--g3-hover);
+}
+
+section {
+  background: url(./assets/images/join-banner.jpg) repeat-y fixed center center / cover;
+  padding: 6rem 25vw;
+  margin: 6rem 0 0;
+}
+
+section .btn {
+  display: inline-block;
+  background-color: #33f57a;
+  color: #003c00;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  border: none;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+  font-size: 0.875rem;
+}
+
+input:not([type="submit"]) {
+  padding: 1rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+footer blockquote {
+  display: inline-block;
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin: 3rem 0;
+  text-align: left;
+  background-color: rgba(69, 248, 130, 0.02);
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+footer cite {
+  display: block;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+}
+
+footer cite:before {
+  content: "";
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  background-color: rgba(69, 248, 130, 1);
+}
+
+footer cite:after {
+  content: "";
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='darkgreen' class='bi bi-chat-square-heart' viewBox='0 0 16 16'%3E%3Cpath d='M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'/%3E%3Cpath d='M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132'/%3E%3C/svg%3E") no-repeat center center;
+  background-size: 60%; 
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1.37rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  color: rgb(11, 42, 22);
+  text-align: center;
+  line-height: 3rem;
+  font-size: 2rem;;
+}

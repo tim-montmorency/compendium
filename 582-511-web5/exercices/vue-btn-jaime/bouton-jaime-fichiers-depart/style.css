@@ -1,0 +1,72 @@
+:root {
+  --fg: #111;
+  --muted: #666;
+  --bg: #fafafa;
+  --btn: #ffffff;
+  --btn-border: #d1d5db;
+  --btn-like: #ef4444;
+  --btn-like-text: #fff;
+  --focus: #3b82f6;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 2rem;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.list {
+  display: grid;
+  gap: 0.75rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+}
+.item-name {
+  font-weight: 600;
+}
+
+.like-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  border: 1px solid var(--btn-border);
+  background: var(--btn);
+  color: var(--fg);
+  border-radius: 999px;
+  padding: .4rem .75rem;
+  cursor: pointer;
+  transition: transform .05s ease, background .2s ease, color .2s ease, border-color .2s ease;
+}
+.like-btn:hover { transform: translateY(-1px); }
+.like-btn:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.like-btn .heart {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* État liké */
+.like-btn.liked {
+  background: var(--btn-like);
+  color: var(--btn-like-text);
+  border-color: var(--btn-like);
+}
