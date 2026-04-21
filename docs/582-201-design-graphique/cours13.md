@@ -1,281 +1,320 @@
-# Cours 13 | Animation
+# Cours 13
 
 [STOP]
 
-![](./assets/img/animation-banner.webp){.w-100}
 
-<!-- @note : Ce cours vise à enseigner la notion d'animations dans Figma. -->
 
-https://www.youtube.com/watch?v=oOJ5StJr-pU
-https://www.youtube.com/watch?v=7rPa1GvX4Do&t=8s
 
-## L'animation, c'est pas de la décoration
 
-Avant de plonger dans les outils, il faut démystifier ce que l'animation fait dans une interface.
 
-Une animation bien conçue n'est **pas là pour impressionner**. Elle est là pour **communiquer**.
 
-> Une interface qui bouge sans raison fatigue l'utilisateur.  
-> Une interface qui bouge pour une raison le guide.
 
-### Ce que l'animation communique
 
-| Animation | Message implicite |
-| --- | --- |
-| Un élément glisse depuis le bas | « Ce contenu vient d'apparaître » |
-| Un bouton rebondit légèrement au clic | « J'ai bien reçu ton action » |
-| Une page se dissout en fondu | « On passe à autre chose » |
-| Un élément tremble | « Il y a une erreur » |
-| Un spinner tourne | « Attends, je traite ta demande » |
-| Un élément se déplace latéralement | « On avance dans un flux séquentiel » |
 
-!!! example "Analogie : la signalisation routière 🚦"
-    Un feu de circulation ne change pas de couleur pour être beau. Il change pour dire « arrête » ou « avance ». L'animation en UI, c'est la même chose : chaque mouvement a une signification fonctionnelle.
+
+
+
+
+A/B
+
+Exercices d'IA / outils builtin figma : 
+
+* Remove background
+* Remove un élément dans l'image
+* Vectoriser un élément
+* Générer une image
+* Améliorer la résolution
+
+Exercices que je suis le client + mini présentations.
+
+Explorer la possibilité que chacun soit un client.
+
+## Retour sur le Devoir 04
+
+![](./assets/img/1_0a669CsI3zvW3Qq-sZMojQ.gif){.w-100}
+<!-- 
+@note : Le devoir 04 est remis la veille de ce cours
+@note : Ce cours vise à enseigner le Prototype ainsi que la notion de test A/B. Intrduction aux animation Figma également.
+
+https://www.youtube.com/watch?v=k1iwiHJrAWI&list=PLx-zZQ15gdAoBlqqy_kv0t4z07YYyGIZi -->
+
+## Le prototype comme outil de validation
+
+Au cours 11, on a appris à **construire** un prototype. Aujourd'hui, on apprend à s'en **servir** : valider des décisions de design avant d'investir du temps dans le développement.
+
+Un prototype n'est pas une fin en soi. C'est un **outil de conversation** — avec un client, avec un utilisateur, avec soi-même.
+
+!!! example "Analogie : la maquette d'architecte 🏗️"
+    Un architecte ne construit pas un immeuble pour voir si les appartements sont trop petits. Il fait une maquette. Le prototype en design, c'est pareil : tester vite, échouer vite, corriger vite.
 
 ---
 
-## Les trois types d'animation en UI
+## Tests utilisateurs (_User Testing_)
 
-### 1. Micro-interactions
+### Pourquoi tester ?
 
-![](./assets/img/micro-interaction-example.gif){data-zoom-image .w-100}
+<figure markdown>
+![](./assets/img/user-testing-gap.png){data-zoom-image}
+<figcaption>L'écart entre ce que le designer pense et ce que l'utilisateur comprend</figcaption>
+</figure>
 
-**C'est quoi ?**  
-Une micro-interaction est une petite animation déclenchée par une **action précise** de l'utilisateur. Elle dure rarement plus de 300ms.
+Le problème classique en design : **vous n'êtes pas votre utilisateur**.
 
-**Son rôle** :
-- Confirmer qu'une action a été reçue (_feedback_)
-- Indiquer un changement d'état
-- Guider subtilement vers l'action suivante
+Vous connaissez trop bien votre propre interface. Vous savez où cliquer, ce que les icônes veulent dire, pourquoi tel bouton est là. Votre utilisateur, lui, arrive sans cette connaissance.
 
-**Exemples concrets** :
+Les tests utilisateurs servent à combler cet écart **avant** le code.
 
-<div class="grid" markdown>
+!!! info "Le nombre magique : 5 utilisateurs"
+    Des recherches de Nielsen Norman Group montrent que **5 utilisateurs** suffisent à identifier ~85% des problèmes d'utilisabilité d'une interface. Pas besoin de recruter 100 personnes.
+
+### Comment mener un test simple
+
+**Avant le test :**
+- Préparez un **scénario** : "Tu viens d'ouvrir l'app. Trouve comment changer ton mot de passe."
+- Ne donnez **aucune instruction de navigation** (on teste l'interface, pas la mémoire)
+- Assurez-vous que le prototype couvre le parcours testé de bout en bout
+
+**Pendant le test :**
+- Demandez à la personne de **penser à voix haute** : "Dis-moi ce que tu regardes, ce que tu t'apprêtes à faire."
+- Ne la guidez **jamais**. Si elle est bloquée, notez-le — c'est exactement ce qu'on cherche.
+- Observez : où hésite-t-elle ? Où clique-t-elle d'abord ? Qu'est-ce qu'elle cherche des yeux ?
+
+**Après le test :**
+- Notez les points de friction (là où la personne a hésité, raté un clic, dit "huh ?")
+- Regroupez les problèmes par fréquence et par gravité
+- Priorisez : qu'est-ce qui **bloque** vs qu'est-ce qui **agace** ?
+
+| Gravité | Description | Priorité |
+| --- | --- | --- |
+| 🔴 **Bloquant** | L'utilisateur ne peut pas accomplir la tâche | Corriger immédiatement |
+| 🟠 **Majeur** | La tâche est accomplie avec difficulté | Corriger avant lancement |
+| 🟡 **Mineur** | Irritant, mais la tâche est accomplie | Corriger si possible |
+| 🟢 **Cosmétique** | Préférence subjective | Optionnel |
+
+---
+
+## Test A/B
+
+### C'est quoi ?
+
+![](./assets/img/ab-test-example.png){data-zoom-image .w-100}
+
+Un test A/B consiste à **comparer deux versions** d'un même élément pour déterminer laquelle performe mieux selon un objectif précis (plus de clics, moins d'abandons, meilleur taux de conversion, etc.).
+
+- **Version A** : la version actuelle (ou la première proposition)
+- **Version B** : la variante à tester (un seul changement à la fois)
+
+!!! warning "Un seul changement à la fois"
+    Si vous changez simultanément la couleur du bouton, son texte et sa position, vous ne saurez jamais **lequel** de ces changements a fait la différence. En A/B testing, on isole chaque variable.
+
+### Exemples de questions de test A/B
+
+| Question | Version A | Version B |
+| --- | --- | --- |
+| Quel libellé de bouton génère plus de clics ? | "S'inscrire" | "Commencer gratuitement" |
+| Quelle mise en page retient plus longtemps ? | Image à gauche | Image à droite |
+| Quelle couleur d'alerte est plus remarquée ? | Rouge | Orange |
+| Quel placement du CTA performe mieux ? | En haut de page | Après le texte de présentation |
+
+### A/B testing en prototype Figma
+
+Dans Figma, vous pouvez simuler un test A/B en créant **deux parcours parallèles** et en testant chaque version avec un groupe de personnes différent.
+
+<figure markdown>
+![](./assets/img/ab-figma-flow.png){data-zoom-image}
+<figcaption>Deux flows distincts dans un même fichier Figma pour un test A/B</figcaption>
+</figure>
+
+**Étapes :**
+
+1. Dupliquez le frame à tester
+2. Modifiez **un seul élément** dans la version B
+3. Créez deux starting frames distincts (A et B)
+4. Partagez le lien A à un groupe, le lien B à l'autre
+5. Observez et comparez les résultats
+
+!!! tip "En contexte professionnel"
+    Les vrais tests A/B en production se font avec des outils comme Google Optimize, VWO ou des solutions maison qui mesurent automatiquement les clics, le temps passé et les conversions. Le prototype Figma permet de valider l'hypothèse **avant** d'implémenter quoi que ce soit.
+
+---
+
+## Travail par itérations
+
+Le design n'est jamais terminé du premier coup. Le processus professionnel fonctionne par **cycles d'itération**.
+
+<figure markdown>
+![](./assets/img/iteration-cycle.png){data-zoom-image .w-75}
+<figcaption>Le cycle d'itération en design</figcaption>
+</figure>
+
+```
+Proposition → Feedback → Révision → Nouvelle proposition → ...
+```
+
+### Les commentaires dans Figma
+
+<div class="grid grid-1-2" markdown>
+![](./assets/img/figma-comments.png){data-zoom-image}
+
 <div markdown>
-**Like** 🤍 → ❤️  
-L'icône cœur grossit brièvement avant de rester remplie. On comprend immédiatement que l'action a fonctionné.
-</div>
-<div markdown>
-**Toggle** ○ → ●  
-L'indicateur glisse doucement. L'animation montre que l'état a basculé, pas juste que la couleur a changé.
-</div>
-<div markdown>
-**Bouton de chargement**  
-Le texte "Envoyer" devient un spinner, puis une coche. Trois états, trois animations, zéro ambiguïté.
+Figma intègre un système de commentaires directement sur le fichier.
+
+**Pour laisser un commentaire :**
+- Mode commentaire : ++c++
+- Cliquez sur l'élément concerné
+- Rédigez votre note
+- Mentionnez un collaborateur avec `@nom`
+
+**Pour résoudre un commentaire :**
+- Cliquez sur ✓ **Resolve** une fois la correction apportée
 </div>
 </div>
 
-!!! info "Les 4 composantes d'une micro-interaction (Dan Saffer)"
-    1. **Déclencheur** — Qu'est-ce qui lance l'animation ? (clic, survol, chargement)
-    2. **Règles** — Qu'est-ce qui se passe exactement ?
-    3. **Feedback** — Comment l'interface répond visuellement ?
-    4. **Boucles et modes** — Est-ce que ça se répète ? Est-ce que ça s'arrête ?
+!!! info "Bonne pratique"
+    Un bon commentaire de révision précise **quoi** changer et **pourquoi**, pas juste "j'aime pas ça". Ex. : *"Le contraste texte/fond ne passe pas le ratio WCAG AA — essaie une teinte plus foncée."*
+
+### Versions et historique
+
+Figma sauvegarde automatiquement l'historique des versions. Vous pouvez nommer des versions clés :
+
+**Menu principal → File → Save to Version History**
+
+Nommez vos versions avec une convention claire :
+- `v1.0 — Première proposition`
+- `v1.1 — Corrections retour client`
+- `v2.0 — Refonte navigation`
 
 ---
 
-### 2. Transitions entre écrans
+## _Smart Animate_ — Introduction
 
-![](./assets/img/screen-transition-example.gif){data-zoom-image .w-100}
+_Smart Animate_ est la fonctionnalité de transition la plus puissante de Figma. On l'a effleuré au cours 11 ; on le met vraiment en pratique ici.
 
-**C'est quoi ?**  
-L'animation qui accompagne le **changement de contexte** dans une interface : aller d'une page à une autre, ouvrir un panneau, revenir en arrière.
+### Le principe
 
-**Son rôle** :
-- Maintenir la **continuité spatiale** (l'utilisateur comprend où il va)
-- Indiquer la **direction** du flow (avancer vs revenir)
-- Réduire la désorientation lors des changements brusques
-
-### Logique directionnelle
-
-La direction de la transition doit correspondre à la **logique de navigation** :
-
-| Geste / Action | Direction attendue |
-| --- | --- |
-| Aller vers une sous-page | Glisse vers la **gauche** |
-| Revenir en arrière | Glisse vers la **droite** |
-| Ouvrir un panneau inférieur | Monte depuis le **bas** |
-| Fermer le panneau | Redescend vers le **bas** |
-| Ouvrir une modale | Fondu + légère montée |
-| Navigation par onglets | Glisse selon la **position de l'onglet** |
-
-!!! warning "Incohérence directionnelle = désorientation"
-    Si parfois vous naviguez vers la gauche et parfois vers la droite pour la même action, l'utilisateur perd ses repères. La direction doit être **systématique et prévisible**.
-
----
-
-### 3. Smart Animate — Approfondissement
-
-On a introduit Smart Animate au cours 12. On l'applique maintenant à des cas plus complexes.
-
-**Rappel du principe** : Figma compare deux frames, trouve les éléments qui portent le **même nom**, et anime automatiquement la différence de leurs propriétés.
-
-#### Cas avancé 1 : menu hamburger → menu ouvert
+Figma compare **automatiquement** deux frames et anime les différences de propriétés (position, taille, rotation, opacité, couleur) pour chaque élément **portant le même nom**.
 
 <figure markdown>
-![](./assets/img/hamburger-animation.gif){data-zoom-image .w-50}
-<figcaption>Animation d'un menu hamburger en croix</figcaption>
+![](./assets/img/smart-animate-demo.gif){data-zoom-image}
+<figcaption>Smart Animate entre deux états d'une carte</figcaption>
 </figure>
 
-**Comment ça marche** :
-- Frame A : 3 lignes horizontales nommées `ligne-1`, `ligne-2`, `ligne-3`
-- Frame B : même noms, mais `ligne-1` pivotée à 45°, `ligne-2` à opacité 0, `ligne-3` pivotée à -45°
-- Transition Smart Animate → Figma anime automatiquement la rotation de chaque ligne
+### Règle fondamentale
 
-#### Cas avancé 2 : liste → détail (_shared element transition_)
+!!! danger "Le nom des calques, c'est sacré"
+    Pour que Smart Animate fonctionne, les éléments doivent porter **exactement le même nom** dans les deux frames. Un espace en trop, une majuscule différente, et Figma les traite comme deux éléments distincts — pas d'animation.
+
+### Cas d'usage typiques
+
+| Interaction | Ce que fait Smart Animate |
+| --- | --- |
+| Bouton au survol | Couleur de fond + légère montée |
+| Carte qui s'expand | Hauteur augmente, nouveau contenu apparaît |
+| Menu qui s'ouvre | Items glissent vers le bas |
+| Onglet actif | Indicateur de soulignement se déplace |
+| Loader → Résultat | Transition fluide entre deux états de page |
+
+### Exercice de base : le bouton animé
+
+**Objectif** : créer un bouton qui réagit visuellement au survol.
+
+1. Créez un composant `Bouton/Default` avec fond `#5B5EF4` et texte blanc
+2. Dupliquez-le → renommez `Bouton/Hover`, changez le fond à `#3D40D6` et ajoutez une légère ombre
+3. Dans le composant `Bouton/Default`, ajoutez une interaction :
+   - Déclencheur : **While Hovering**
+   - Action : **Change to** `Bouton/Hover`
+   - Transition : **Smart Animate**, Ease Out, 200ms
+4. Testez en prévisualisation
+
+---
+
+## _Handoff_ — Passer le design au développement
+
+![](./assets/img/figma-dev-mode.png){.w-100}
+
+Une fois le prototype validé, il faut **transmettre le design à l'équipe de développement**. Ce moment s'appelle le _handoff_.
+
+### Le mode Développement (_Dev Mode_)
+
+Figma propose un **mode Dev** (icône `</>` en haut à droite) qui permet aux développeurs de :
+
+- Inspecter chaque élément et récupérer ses propriétés exactes (taille, couleur, espacement, typographie)
+- Copier automatiquement le code CSS, iOS ou Android d'un élément
+- Voir quels composants sont liés à la bibliothèque
+- Naviguer dans les assets exportables
 
 <figure markdown>
-![](./assets/img/shared-element.gif){data-zoom-image .w-50}
-<figcaption>La carte de liste devient la page de détail</figcaption>
+![](./assets/img/figma-inspect.png){data-zoom-image}
+<figcaption>Le panneau d'inspection en mode Dev</figcaption>
 </figure>
 
-**Comment ça marche** :
-- Sur la page liste : une carte nommée `carte-produit` (petite, en bas)
-- Sur la page détail : le même élément nommé `carte-produit` (plein écran, en haut)
-- Smart Animate anime le changement de position et de taille → l'effet de zoom partagé
+### Ce que le développeur a besoin de trouver
 
-!!! tip "C'est exactement l'animation native d'iOS et Android"
-    Les transitions de Google Play ou de l'App Store utilisent ce principe. Vos maquettes peuvent l'imiter fidèlement dans Figma.
+Pour qu'un handoff se passe bien, votre fichier Figma doit être irréprochable sur ces points :
 
-#### Cas avancé 3 : onboarding avec progression
-
-<figure markdown>
-![](./assets/img/onboarding-animation.gif){data-zoom-image .w-50}
-<figcaption>Indicateur de progression animé entre les étapes</figcaption>
-</figure>
-
-**Comment ça marche** :
-- Chaque étape est un frame distinct
-- L'indicateur de progression (barre ou points) porte le même nom dans chaque frame
-- Sa largeur (ou position) change d'un frame à l'autre
-- Smart Animate anime la progression
-
----
-
-## Timing et rythme
-
-L'animation la plus belle peut sembler cassée si son timing est mauvais.
-
-### Les règles de durée
-
-| Type d'animation | Durée recommandée |
+| Élément | Ce qu'on attend |
 | --- | --- |
-| Micro-interaction (feedback) | 100–200ms |
-| Transition entre états | 200–300ms |
-| Transition entre écrans | 300–400ms |
-| Animation d'entrée de page | 400–600ms |
-| Animation ambiante (loop) | Selon le rythme voulu |
+| **Calques** | Nommés clairement, groupés logiquement |
+| **Couleurs** | Toutes dans des variables ou styles |
+| **Typographie** | Tous les styles de texte définis |
+| **Espacements** | Réguliers et cohérents (multiples de 4/8) |
+| **Assets** | Images et icônes marquées comme exportables |
+| **Composants** | Tous les états documentés |
+| **Prototype** | Flow complet et fonctionnel |
 
-!!! warning "Trop lent = frustrant. Trop vite = imperceptible."
-    200ms est souvent le sweet spot pour les interactions tactiles mobiles. En dessous, l'œil ne le voit pas. Au-dessus, l'attente devient perceptible.
+!!! tip "Un fichier bien nommé, c'est du respect pour le développeur"
+    Et pour vous dans six mois, quand vous devrez rouvrir ce fichier.
 
-### Les courbes d'easing revisitées
+### Exporter les assets
 
-On les a vues au cours 11. Voici leur usage en contexte d'animation d'interface :
+Pour marquer un élément comme exportable :
 
-<figure markdown>
-![](./assets/img/easing-ui-context.png){data-zoom-image}
-<figcaption>Quelle courbe pour quel usage</figcaption>
-</figure>
+1. Sélectionnez l'élément
+2. Dans le panneau de droite, cliquez sur **+** dans la section *Export*
+3. Choisissez le format (PNG, SVG, PDF, WebP...)
+4. Définissez la résolution (1x, 2x, 3x pour le mobile)
 
-| Courbe | Quand l'utiliser |
-| --- | --- |
-| **Ease Out** | Éléments qui **entrent** dans l'écran. Le mouvement part vite et s'installe doucement, comme quelque chose qui arrive et s'arrête. |
-| **Ease In** | Éléments qui **sortent** de l'écran. Ils démarrent lentement puis s'éloignent rapidement. |
-| **Ease In and Out** | Éléments qui se **déplacent** d'un point à un autre sur l'écran. |
-| **Spring** | Feedback tactile, toggles, éléments qui ont une sensation de **poids physique**. |
-| **Linear** | Loaders, spinners, animations continues. Pas pour des éléments qui entrent/sortent. |
-
-!!! example "La métaphore physique 🌍"
-    Dans la vraie vie, rien ne démarre et ne s'arrête instantanément. Une voiture accélère, puis freine. Une porte s'ouvre lentement au début, puis s'immobilise en s'arrêtant. Le **Ease Out** simule ce comportement naturel pour les éléments qui atterrissent dans l'interface.
+!!! info "SVG pour les icônes et vecteurs, PNG/WebP pour les photos"
+    Les icônes et illustrations en SVG restent nettes à toutes les tailles. Les photos en PNG ou WebP gardent leurs dégradés.
 
 ---
 
-## Animations d'interface : bonnes pratiques
+## Checklist avant remise du projet final 🧠
 
-### ✅ À faire
+À partir du cours 12, vous commencez à travailler sur votre **projet final** (prototype d'app mobile). Voici ce que votre fichier devrait démontrer :
 
-- **Cohérence** : utilisez les mêmes durées et courbes pour les mêmes types d'actions à travers toute l'application.
-- **Intentionnalité** : chaque animation a un rôle fonctionnel (confirmer, guider, orienter). Si vous ne pouvez pas l'expliquer, supprimez-la.
-- **Sobriété mobile** : sur mobile, les animations doivent être plus courtes que sur desktop (l'utilisateur est dans l'action, pas dans la contemplation).
-- **Réduire le mouvement** : respectez le réglage système "Réduire les animations" (_prefers-reduced-motion_). Certains utilisateurs ont des troubles vestibulaires ou de l'épilepsie photosensible.
+**Structure du fichier**
+- [ ] Pages nommées clairement (Fondations, Composants, Maquettes, Prototype)
+- [ ] Frames nommées avec le nom de l'écran (pas "Frame 1")
+- [ ] Calques organisés et nommés
 
-### ❌ À éviter
+**Design System**
+- [ ] Variables de couleur définies
+- [ ] Styles de texte créés
+- [ ] Composants principaux (boutons, inputs, cartes) avec variantes
 
-- **Animations de chargement sur tout** : si chaque élément entre en rebondissant à l'ouverture de la page, l'utilisateur attend juste que ça finisse.
-- **Boucles infinies sans raison** : un GIF qui boucle en arrière-plan attire constamment l'attention, même quand ce n'est pas voulu.
-- **Transitions opposées à la logique de navigation** : glisser vers la droite pour "avancer" casse les conventions mobiles.
-- **Animations trop lentes** : au-delà de 500ms pour une interaction tactile, l'interface semble lente même si elle ne l'est pas.
-
----
-
-## Animations dans Figma : récapitulatif des outils
-
-| Outil | Usage |
-| --- | --- |
-| **Smart Animate** | Transitions fluides entre composants ou frames avec éléments identiquement nommés |
-| **While Hovering** | État de survol animé (desktop uniquement) |
-| **After Delay** | Déclencher une animation automatiquement après X ms |
-| **Scroll Animate** | Animer des éléments lors du défilement de la page |
-| **Component Interaction** | Interactions définies directement dans un composant réutilisable |
-
-### Scroll Animate
-
-![](./assets/img/figma-scroll-animate.gif){data-zoom-image .w-75}
-
-Figma permet d'animer des éléments **en réponse au défilement** d'une frame scrollable.
-
-**Comment l'activer** :
-
-1. Créez une frame avec **Overflow scrolling** activé (dans les propriétés de la frame)
-2. Sélectionnez un élément à l'intérieur
-3. Dans l'onglet Prototype → **Scroll behavior** → choisissez l'animation (opacity, position, scale)
-
-Utile pour simuler des effets de parallaxe, d'apparition progressive ou de navigation sticky.
-
----
-
-## Préparer le projet final
-
-Les cours 14 et 15 sont consacrés à la réalisation et à la présentation du **projet final** (prototype complet d'une app mobile Android ou Apple).
-
-### Ce qu'on attend au niveau des animations
-
-Le projet final n'est pas un exercice d'animation. Les animations doivent être **au service de l'expérience**, pas de la démonstration technique.
-
-**Minimum attendu** :
-- [ ] Au moins **3 micro-interactions** cohérentes (boutons, toggles, states)
-- [ ] Transitions entre écrans avec **direction logique**
-- [ ] Au moins **une transition Smart Animate** sur un élément partagé
-
-**Bonus** :
-- [ ] Animation d'onboarding
-- [ ] Scroll animate sur au moins un écran
-- [ ] Animation d'état de chargement (_loading state_)
-
-!!! tip "Commencez par le flow, terminez par les animations"
-    N'animez pas une interface dont la navigation n'est pas encore finalisée. Les animations sont la **dernière couche** qu'on ajoute, pas la première.
+**Prototype**
+- [ ] Flow complet de bout en bout
+- [ ] Au moins une transition Smart Animate
+- [ ] Au moins un overlay fonctionnel (modale ou menu)
+- [ ] Frame de départ défini
+- [ ] Lien de partage fonctionnel
 
 ---
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/like-animation/preview.gif)
+  ![](./activite/exercice/smart-animate-card/preview.gif)
 
   <small>Exercice - Figma</small><br>
-  **[Micro-interaction Like](./activite/exercice/like-animation/index.md){.stretched-link .back}**
+  **[Carte expandable](./activite/exercice/smart-animate-card/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/screen-transition/preview.gif)
+  ![](./activite/exercice/ab-test/preview.png)
 
   <small>Exercice - Figma</small><br>
-  **[Transition liste → détail](./activite/exercice/screen-transition/index.md){.stretched-link .back}**
+  **[Test A/B](./activite/exercice/ab-test/index.md){.stretched-link .back}**
 </div>
 
-<div class="grid grid-1-2" markdown>
-  ![](./activite/exercice/hamburger-menu/preview.gif)
-
-  <small>Exercice - Figma</small><br>
-  **[Menu hamburger animé](./activite/exercice/hamburger-menu/index.md){.stretched-link .back}**
-</div>
