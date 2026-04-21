@@ -28,7 +28,7 @@ Rappel: si ce n'est pas fait, vous devez remettre la planification de votre proj
 
 [PLANIFICATION du projet Solarix](./exercices/projet-final/index.html#semaine-1-planification-13-au-19-avril){ .md-button }
 
-### Présentations finales ddu projet Solarix
+### Présentations finales du projet Solarix
 
 Les présentations seront individuelles entre l'étudiant et l'enseignante. Elles se déroulent lors du cours final (11 ou 14 mai) et dureront environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
 
@@ -89,7 +89,7 @@ Pour le reste du cours:
 
 - Je suis disponible pour des rencontres individuelles pour vous aider à avancer votre projet Solarix.
 - Avancer le projet intégrateur: Solarix
-  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du cours 11, pour que je puisse les repérer facilement lors de la correction).
+  - Choisir une chose vue aujourd'hui et l'appliquer dans votre projet (notez en commentaire dans le code que vous avez appliqué des notions du *cours 11*, pour que je puisse les repérer facilement lors de la correction).
   - Répondre aux questions du *journal de bord - Semaine 2* d'ici la semaine prochaine.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
