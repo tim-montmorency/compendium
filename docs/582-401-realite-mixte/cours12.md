@@ -37,9 +37,9 @@
 
 - [:pencil: Tir](unity/tir.md)
 
-**Physique Pont et porte**
+**Physique Pont, porte et levier**
 
-- [:pencil: Pont et porte](unity/physique.md)
+- [:pencil: Pont, porte et levier](unity/physique.md)
 
 **Code**
 
