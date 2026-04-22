@@ -152,7 +152,7 @@ Le projet se déroule sur **4 semaines** avec un livrable par semaine.
 ### Semaine 1: Planification | 13 au 19 avril
 
 > 10 points (10% de la note finale)
-
+>
 > Remise : avant le début du prochain cours (cours 11 - 20/22 avril)
 
 Avant d'écrire une seule ligne de code, vous planifiez votre intégration.
@@ -221,9 +221,9 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ### Semaine 2: Structure HTML | 20 au 26 avril
 
-> incluse dans les 30 points du code
-
-> Remise : avant le début du cours 14 (4 mai)
+> incluse dans les 30 points du code de la remise finale (30% de la note finale)
+>
+> Remise : avant le début du cours 15 (11 ou 14 mai): en même temps que la remise finale
 
 **Contenu attendu :**
 
@@ -243,9 +243,9 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ### Semaine 3: CSS et responsive | 27 avril au 3 mai
 
-> incluse dans les 30 points du code
-
-> Remise : avant le début du cours 15 (11 mai) : en même temps que la remise finale
+> incluse dans les 30 points du code de la remise finale (30% de la note finale)
+>
+> Remise : avant le début du cours 15 (11 ou 14 mai): en même temps que la remise finale
 
 **Contenu attendu :**
 
@@ -269,9 +269,9 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ### Semaine 4:  Finalisation et accessibilité | 4 au 10 mai
 
-> incluse dans les 30 points du code
-
-> Remise finale : avant le début du cours 15 (11 ou 14 mai)
+> incluse dans les 30 points du code de la remise finale (30% de la note finale)
+> 
+> Remise finale : > Remise : avant le début du cours 15 (11 ou 14 mai)
 
 **Contenu attendu :**
 
@@ -324,8 +324,8 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ## Présentation orale : cours 15
 
-> 5 points (5% de la note finale)
-
+> 5 points (5% de la note finale) - Mais peut affecter la note globale si l'étudiant n'est pas capable d'expliquer son propre code lors de la présentation orale avec l'enseignante.
+> 
 > Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
 La présentation orale du projet sera individuelle entre l'étudiant et l'enseignante. Elle se déroulera lors du cours final (11 ou 14 mai) et durera environ 10 minutes par étudiant. Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
