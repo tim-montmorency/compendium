@@ -26,7 +26,7 @@ La maquette Figma (version desktop et mobile) :
 
 Voici le canevas de départ pour démarrer votre projet (fichiers HTML et JavaScript) :
 
-[:material-note-stack: Fichiers de départ .zip :material-download:](./depart-solarix.zip){ .md-button }
+[:material-file-replace-outline: Fichiers de départ .zip :material-download:](./depart-solarix.zip){ .md-button }
 
 Les images exportées prêtes à être intégrées (icônes et images) :
 
