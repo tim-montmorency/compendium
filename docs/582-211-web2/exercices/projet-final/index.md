@@ -14,7 +14,10 @@
 - La maquette Figma (version desktop et mobile) :
   - D'abord accéder à l'équipe *Web 2* de Figma [via ce lien](https://www.figma.com/team_invite/redeem/5DfH3v5mGAYvPU12BYLtQu?t=PC7OFho7hsSucnUJ-21) et accepter.
   - Ensuite, accédez au *DevMode* de la [Maquette Figma Solarix](https://www.figma.com/design/MnfQC5u5xTquxOcTsOQa7E/Solarix-maquettes-finales?node-id=0-1&m=dev) - Notez bien que la maquette format mobile se trouve sur une autre page que celle du format desktop (voir la panneau à gauche pour naviguer entre les pages).
-- Voici le canevas de départ pour démarrer votre projet (fichiers HTML et JavaScript) -  [Canevas de départ](./depart-solarix.zip)
+- Voici le canevas de départ pour démarrer votre projet (fichiers HTML et JavaScript)
+  [Canevas de départ :material-download:](./depart-solarix.zip){ .md-button }
+- Les images exportées prêtes à être intégrées (icônes et images) :
+  [Dossier d'images :material-download:](https://cmontmorency365-my.sharepoint.com/:u:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%202%20(css)/04-projets/projet-final-solarix/00-etudiants/images.zip?csf=1&web=1&e=UI6i3O){ md-button }
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 
