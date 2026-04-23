@@ -10,6 +10,12 @@ Lundi 27 avril / mercredi 29 avril
 •	Motion design accessible (prefers-reduced-motion)
 -->
 
+## Vérificatiion de votre jounral de bord
+
+- La semaine 2 devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 2 et appliqué au moins une chose vue dans le cours 11 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
+- Nous entamons maintenant la semaine 3.
+
+
 ## Quiz time! Révision
 
 - [Groupe du lundi matin: MFAQQI](https://app.wooclap.com/MFAQQI)
@@ -21,21 +27,12 @@ Lundi 27 avril / mercredi 29 avril
 - [👩🏻‍💻 Exercice "Container query"](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef)
 - [👩🏻‍💻 Exercice "Pseudo-classes"](./exercices/pseudo-classes/index.md)
 
-## Accessibilité & robustesse
+Finalement, je cours d'aujourd'hui est sur l'animation CSS.'
 
-- Contraste et lisibilité
-- Focus et navigation clavier
-- Tailles de clic/touch et états interactifs
-- Structure sémantique et textes alternatifs
-- Démo Lighthouse
+15-30 min au début, le reste du cours c'est travail sur le projet Solarix.
 
-[📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
 
-### Démo Lighthouse
-
-Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
-
-## Aninations CSS
+## Aninmtions CSS
 
 - Animation VS Transitions CSS 
 - Animations simples et intentionnelles (pas décoratives)
@@ -46,7 +43,7 @@ Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspectio
 ## Devoir
 
 - Avancer le projet intégrateur: Solarix
-  - Choisir une chose vue aujourd'hui dans le cours 12 et l'appliquer dans votre projet (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
+  - Choisir une chose vue aujourd'hui dans le cours 12 (animation) et l'appliquer dans votre projet (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
   - Répondre aux questions du *journal de bord - Semaine 3* d'ici le prochain cours.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }

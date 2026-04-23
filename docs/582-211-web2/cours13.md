@@ -2,7 +2,7 @@
 
 Lundi 4 mai / mercredi 6 mai
 
-
+<!--
 
 <br>
 
@@ -11,7 +11,6 @@ Lundi 4 mai / mercredi 6 mai
   <span class="sidetext">PHASE 3: Utilisation de l'IA permise à cette phase dans la session. Vous devez cependant rester critique, vérifier les résultats, comprendre chaque ligne de votre code.</span>
 </div>
 
-<!--
 Annonce de la Phase 3 de la politique IA : L'IA est maintenant encouragée
 
 
@@ -29,6 +28,12 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 · Identifier les hallucinations et erreurs courantes de l'IA
 -->
 
+## Vérificatiion de votre jounral de bord
+
+- La semaine 2 devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 2 et appliqué au moins une chose vue dans le cours 11 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
+- Nous entamons maintenant la semaine 3.
+
+
 ## Annonce
 
 ### Présentations finales du projet de synthèse
@@ -39,6 +44,32 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 
 [Consignes des présentations orales du projet de synthèse](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
+
+
+
+Finalement, je cours d'aujourd'hui est sur l'accessiblité.
+
+15-30 min au début, le reste du cours c'est travail sur le projet Solarix.
+
+## Accessibilité & robustesse
+
+- Contraste et lisibilité
+- Focus et navigation clavier
+- Tailles de clic/touch et états interactifs
+- Structure sémantique et textes alternatifs
+- Démo Lighthouse
+
+[📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
+
+
+
+### Démo Lighthouse
+
+Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
+
+
+
+<!--
 
 ## Objectif du cours d'aujourd'hui
 
@@ -93,11 +124,12 @@ En d'autres termes, vous ne serez plus seulement capables de faire du CSS: vous 
 [📚 IA: Workflow professionnel](./ia/07_workflow-complet.md){ .md-button .md-button--primary }
 
 
-
+-->
 
 ## Devoir
 
 - Terminer le projet intégrateur: Solarix
+- Appliquer les règles d'accessibilité vues aujourd'hui dans votre projet.
 - Répondre aux questions du *journal de bord - Semaine 4* d'ici la remise.
 
 [CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
