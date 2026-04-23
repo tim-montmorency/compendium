@@ -262,7 +262,7 @@ Ainsi, on vient de créer un `toggle` !
   ![](./activite/devoir/refonte/raisons-refonte-site-web-entreprise-768x430.webp)
 
   <small>Devoir - Figma</small><br>
-  **[Refonte d'un site Web](./activite/devoir/refonte/index.md){.stretched-link .back}**
+  **[Continuer | Refonte d'un site Web](./activite/devoir/refonte/index.md){.stretched-link .back}**
 </div>
 
 [STOP]
