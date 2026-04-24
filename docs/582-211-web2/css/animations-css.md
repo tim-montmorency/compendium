@@ -1,4 +1,4 @@
-# Animation
+# Animation en CSS
 
 ## @keyframes
 
