@@ -33,7 +33,7 @@ Pour une animation plus élaborée, il est possible de spécifier plusieurs éta
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-name / Keyframes" data-default-tab="result" data-slug-hash="QWBoOQm" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-name / Keyframes" data-default-tab="result" data-slug-hash="QWBoOQm" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWBoOQm">
   Animation-name / Keyframes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -73,7 +73,7 @@ Par exemple, trois fois la même animation `animation-name: left-to-right`, mais
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-duration" data-default-tab="result" data-slug-hash="xxJBYEp" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-duration" data-default-tab="result" data-slug-hash="xxJBYEp" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/xxJBYEp">
   Animation-duration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -94,7 +94,7 @@ L'exemple suivant contient six fois la même animation, mais avec des rythmes di
 5. `ease-out` — ralentit en fin de parcours ⤵️
 6. `cubic-bezier` — rythme personnalisable via une courbe de Bézier
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-timing-function" data-default-tab="result" data-slug-hash="KKBEQaM" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-timing-function" data-default-tab="result" data-slug-hash="KKBEQaM" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KKBEQaM">
   Animation-timing-function</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -124,7 +124,7 @@ Par exemple :
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-iteration-count" data-default-tab="result" data-slug-hash="LYBaQLB" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-iteration-count" data-default-tab="result" data-slug-hash="LYBaQLB" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYBaQLB">
   Animation-iteration-count</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -181,7 +181,7 @@ Par exemple :
 <br>
 
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-direction" data-default-tab="result" data-slug-hash="VwBRQxg" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-direction" data-default-tab="result" data-slug-hash="VwBRQxg" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/VwBRQxg">
   Animation-direction</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -225,7 +225,7 @@ Par exemple :
 <br>
 
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-fill-mode" data-default-tab="result" data-slug-hash="KKBEoKX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-fill-mode" data-default-tab="result" data-slug-hash="KKBEoKX" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KKBEoKX">
   Animation-fill-mode</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -255,7 +255,7 @@ Valeurs possibles :
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="Animation-play-state" data-default-tab="result" data-slug-hash="JjBzLGz" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-play-state" data-default-tab="result" data-slug-hash="JjBzLGz" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjBzLGz">
   Animation-play-state</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
