@@ -1,4 +1,4 @@
-# Introduction à Flexbox
+# Flexbox (dir,justify,align,wrap)
 
 ## Qu'est-ce que Flexbox ?
 
