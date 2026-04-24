@@ -138,7 +138,7 @@ Par exemple :
 
 <br>
 
-> 📝 **Exercice** — [Animation - Fantôme](exercices/fantome/)  
+> 📝 **Exercice** — [Animation - Fantôme](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/fantome/)  
 > Pour cet exercice nous allons animer le déplacement d'un fantôme 👻.
 
 
@@ -194,13 +194,13 @@ Par exemple :
 
 <br>
 
-> 📝 **Exercice** — [Animation - Pong](exercices/pong/)  
+> 📝 **Exercice** — [Animation - Pong](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/pong/)  
 > Pour cet exercice vous devrez animer en CSS la balle d'un des premiers jeux vidéo d'arcade au monde, c'est-à-dire Pong!
 
-> 📝 **Exercice** — [Animation - Yo-yo](exercices/yo-yo/)  
+> 📝 **Exercice** — [Animation - Yo-yo](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/yo-yo/)  
 > Pour cet exercice nous allons animer l'un des plus vieux jeux au monde, le Yo-yo!
 
-> 📝 **Exercice** — [Animation - Pendule](exercices/pendule/)  
+> 📝 **Exercice** — [Animation - Pendule](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/pendule/)  
 > Pour cet exercice nous allons animer un pendule.
 
 
@@ -240,7 +240,7 @@ Par exemple :
 
 
 
-> 📝 **Exercice** — [Animation - Billes](exercices/billes/)  
+> 📝 **Exercice** — [Animation - Billes](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/billes/)  
 > Pour cet exercice nous allons animer 5 billes blanches.
 
 
@@ -268,7 +268,7 @@ Valeurs possibles :
 
 <br>
 
-> 📝 **Exercice** — [Animation - New Super Luigi](exercices/new-super-luigi/)  
+> 📝 **Exercice** — [Animation - New Super Luigi](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/new-super-luigi/)  
 > Pour cet exercice, vous devrez recréer une scène du château du niveau Frosted Glacier du jeu New Super Luigi sur la Wii U.
 
 

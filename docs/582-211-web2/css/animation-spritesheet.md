@@ -118,5 +118,5 @@ Par exemple, nous avons dix images clés constituant l'animation de Donald Trump
 
 <br> <br>
 
-> 📝 **Exercice** — [Animation Sprite Sheet - Sonic Knuckles](exercices/sonic-knuckles/)  
+> 📝 **Exercice** — [Animation Sprite Sheet - Sonic Knuckles](https://tim-montmorency.com/timdoc/582-211/css/animation-sprite-sheet/exercices/sonic-knuckles/)  
 > Pour cet exercice, vous devrez animer l'ancien rival et maintenant meilleur ami de Sonic : Knuckles!

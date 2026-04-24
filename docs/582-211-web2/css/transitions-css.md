@@ -53,7 +53,7 @@ Par exemple, au survol trois fois la même transition, mais avec des durées dif
 
 <br>
 
-> 📝 **Exercice** — [Transition - Spider-Man](exercices/spider-man/)  
+> 📝 **Exercice** — [Transition - Spider-Man](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/spider-man/)  
 > Pour cet exercice nous allons effectuer une transition sur le masque de Spider-Man afin de le faire passer d'un costume à un autre.
 
 
@@ -154,7 +154,7 @@ Dans l'ordre: `transition-property` `transition-duration` `transition-delay` `tr
 
 <br>
 
-> 📝 **Exercice** — [Transition - BoJack Horseman](exercices/bojack-horseman/)  
+> 📝 **Exercice** — [Transition - BoJack Horseman (et pseudo-classes)](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/bojack-horseman/)  
 > Pour cet exercice nous allons animer les cartes présentant les personnages principaux de la série animée BoJack Horseman 🐴.
 
 
@@ -182,8 +182,8 @@ En la plaçant sur `:hover` uniquement, la transition n'existe que lorsque l'ét
 
 <br>
 
-> 📝 **Exercice** — [Transition - Boutons](exercices/boutons/)  
+> 📝 **Exercice** — [Transition - Boutons (et pseudo-elements)](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/boutons/)  
 > Pour cet exercice nous allons indiquer quel bouton est survolé à l'aide de l'émoji ☝️.
 
-> 📝 **Exercice** — [Transition - Fantôme + Mario](exercices/fantome-mario/)  
+> 📝 **Exercice** — [Transition - Fantôme + Mario (et animation CSS)](https://tim-montmorency.com/timdoc/582-211/css/transition/exercices/fantome-mario/)  
 > Pour cet exercice nous allons récupérer l'animation du déplacement de fantôme 👻 réalisée dans un exercice précédent. Cependant, comme tout bon fantôme, celui-ci devra se figer lorsque Mario le regardera 👀.
