@@ -595,7 +595,7 @@ Les unités relatives se basent sur la dimension d'un parent pour déterminer le
 !!! tip
     `0`, peu importe l'unité de mesure, reste `0`. Il n'est donc pas nécessaire de spécifier l'unité : `0px`, `0em`, `0%` = `0`.
 
-## Fontes (polices de caractères)
+## Font
 
 ### color
 
@@ -646,11 +646,13 @@ font-weight: bold;
 
 Par défaut, si aucune graisse n'est spécifiée, le texte est en `normal` *(400)*.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — font-weight</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="LYBBNoQ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYBBNoQ">CSS — font-weight</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### font-size
 
@@ -662,11 +664,13 @@ font-size: 16px;
 
 Par défaut, la majorité des navigateurs attribuent `16px`. Bien que les `px` soient très répandus, les `rem` et `em` offrent des avantages notables.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="xxJJVoX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/xxJJVoX">CSS — font-size</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### font-style
 
@@ -675,11 +679,13 @@ La propriété `font-style` permet de définir si un texte doit apparaître en i
 - `normal` *(par défaut)*
 - `italic`
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="rNrreXj" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNrreXj">CSS — font-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### line-height
 
@@ -689,11 +695,13 @@ line-height: 1.5;
 
 Définit une hauteur de ligne de `24px` si la taille de texte est de `16px`, puisque `16px × 1.5 = 24px`. Généralement, un `line-height` de base est défini sur la balise `<body>` afin d'affecter tous les éléments de la page.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — line-height</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="ZEjjOzB" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/ZEjjOzB">CSS — line-height</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### letter-spacing
 
@@ -703,8 +711,8 @@ La propriété `letter-spacing` permet de spécifier l'espacement entre chacune 
 letter-spacing: 0.5em; /* 16px × 0.5 = 8px d'espace entre chaque lettre */
 ```
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — letter-spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="yLqqJLJ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/yLqqJLJ">CSS — letter-spacing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
@@ -721,21 +729,25 @@ La propriété `text-align` détermine l'alignement horizontal du texte.
 - `center`
 - `justify`
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — text-align</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="QWBBGwJ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWBBGwJ">CSS — text-align</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### text-decoration
 
 La propriété `text-decoration` permet d'ajouter ou de retirer une ligne à un texte. Elle accepte plusieurs arguments : le type de ligne, sa couleur et son style.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — text-decoration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="KKBBNdE" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KKBBNdE">CSS — text-decoration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### text-transform
 
@@ -746,23 +758,28 @@ La propriété `text-transform` permet de modifier la casse d'un texte.
 - `uppercase` — transforme en majuscules
 - `capitalize` — met en majuscule la première lettre de chaque mot
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — text-transform</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="vYaayGJ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/vYaayGJ">CSS — text-transform</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### text-stroke
 
 La propriété `-webkit-text-stroke`, bien que non standard *(d'où son préfixe `-webkit-`)*, est supportée par tous les navigateurs majeurs. Elle accepte deux valeurs : l'épaisseur du trait entourant le texte et sa couleur.
 
-> ❌ **Erreur fréquente** — Lorsque le préfixe `-webkit-` est oublié, l'effet ne s'affiche pas.
+!!! danger "Erreur fréquente"
+    Lorsque le préfixe `-webkit-` est oublié, l'effet ne s'affiche pas.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — -webkit-text-stroke</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="VwBBmmW" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/VwBBmmW">CSS — -webkit-text-stroke</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### text-shadow
 
@@ -774,28 +791,18 @@ La propriété `text-shadow` permet d'ajouter une ombre à un texte. Elle accept
 }
 ```
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — text-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="rNrrWjV" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNrrWjV">CSS — text-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 ## width & height
 
-Les propriétés `width` et `height` permettent de définir respectivement la largeur et la hauteur d'un élément. Par défaut, leur valeur est `auto`.
+Les propriétés `width` et `height` permettent de définir respectivement la *largeur* et la *hauteur* d'un élément. Par défaut, leur valeur est `auto`.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — height</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### min-width & min-height
 
@@ -807,18 +814,6 @@ Permettent de définir une **largeur et une hauteur minimum** à un élément.
   min-width: 400px; /* prend le dessus sur width si nécessaire */
 }
 ```
-
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — min-width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — min-height</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### max-width & max-height
 
@@ -833,18 +828,6 @@ Permettent de définir une **largeur et une hauteur maximale** à un élément.
 
 > 💡 `max-width: 100%` est régulièrement appliqué aux images afin qu'elles ne dépassent jamais de l'écran.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — max-width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — max-height</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-
 
 ## Border
 
@@ -854,11 +837,13 @@ La propriété `border` permet d'ajouter une bordure à un élément.
 
 Définit la taille de la bordure.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — border-width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="rNrKMRN" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNrKMRN">CSS — border-width</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### border-style
 
@@ -874,39 +859,48 @@ Définit le style de la bordure. Styles disponibles :
 - `inset` — bordure 3D donnant l'impression que l'élément est enfoncé
 - `outset` — bordure 3D donnant l'impression que l'élément ressort
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — border-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="QWBxKXY" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWBxKXY">CSS — border-style</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### border-color
 
 Définit la couleur de la bordure.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — border-color</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="rNrKWNV" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/rNrKWNV">CSS — border-color</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### Syntaxe courte
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — border syntaxe courte</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+`border:` largeur type couleur
+
+```css
+border: 1px solid #000000;
+```
+
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="eYjKBNN" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/eYjKBNN">CSS — border syntaxe courte</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### border-radius
 
-Permet de définir des coins arrondis sur un élément. Cette propriété s'applique qu'une bordure soit visible ou non.
+Permet de définir des coins arrondis sur un élément. 
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — border-radius</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+!!! info
+    Cette propriété s'applique qu'une bordure soit visible ou non.
 
 ### Contrôle des coins individuellement
 
@@ -916,6 +910,14 @@ Permet de définir des coins arrondis sur un élément. Cette propriété s'appl
 - `border-bottom-left-radius`
 
 Les coins peuvent aussi être spécifiés à même la propriété `border-radius`, dans le sens des aiguilles d'une montre ⌚️ en commençant par le coin supérieur gauche.
+
+Par exemple: 
+
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="KKBeNmK" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KKBeNmK">CSS — border syntaxe courte</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 ## Box-model
@@ -929,9 +931,12 @@ La boîte CSS est constituée de 4 parties :
 3. La **bordure** (`border`) — la bordure entourant l'élément.
 4. La **marge extérieure** (`margin`) — l'espace entre la boîte et celles à proximité.
 
-![Schéma du box model CSS](images/box-model.webp)
+![Schéma du box model CSS](../assets/box-model.webp)
 
-Pour obtenir la dimension réelle de l'élément, il faut additionner le `padding` et le `border`. La `margin` n'affecte pas la dimension réelle puisqu'elle se trouve à l'extérieur.
+Pour obtenir la dimension réelle de l'élément, il faut additionner le `padding` et le `border`. 
+
+!!! warning
+    La `margin` n'affecte pas la dimension réelle puisqu'elle se trouve à l'extérieur.
 
 Par exemple, si un élément a un `width` de `200px` et un `padding` de `50px` :
 
@@ -942,11 +947,6 @@ Par exemple, si un élément a un `width` de `200px` et un `padding` de `50px` :
 | 50px | `padding-right` |
 | **300px** | **Total** |
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — box-model</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
 ## Linear gradient
@@ -957,6 +957,14 @@ La propriété `background-image` accepte la fonction `linear-gradient()` pour d
 background-image: linear-gradient(#00c774, #3c38ba);
 ```
 
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="gOjjpdQ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/gOjjpdQ">CSS — box-model</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
+
 ### Orientation
 
 Par défaut, les dégradés sont verticaux. Mots-clés disponibles :
@@ -966,7 +974,28 @@ Par défaut, les dégradés sont verticaux. Mots-clés disponibles :
 - `to bottom` *(par défaut)*
 - `to left`
 
-Pour des dégradés diagonaux : `to top left`, `to top right`, `to bottom left`, `to bottom right`.
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — box-model</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+Pour des dégradés diagonaux :
+
+- `to top left`
+- `to top right`
+- `to bottom left`
+- `to bottom right`
+
+<br>
+
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — box-model</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
 
 ### Degrés
 
@@ -975,6 +1004,8 @@ Il est aussi possible de spécifier une rotation en degrés pour plus de précis
 ```css
 background-image: linear-gradient(90deg, #00c774, #3c38ba); /* équivalent de "to right" */
 ```
+
+---
 
 ### Points d'arrêt
 
@@ -1000,13 +1031,13 @@ La propriété `box-sizing` permet de spécifier si le `padding` et le `border` 
 
 Évite que l'espace alloué au **contenu** change de dimension lorsqu'un `padding` ou `border` lui est ajouté — mais la taille totale de l'élément augmente.
 
-![Illustration content-box : sans padding à gauche, avec padding à droite — l'élément s'agrandit](images/content-box.png)
+![Illustration content-box : sans padding à gauche, avec padding à droite — l'élément s'agrandit](../assets/content-box.png)
 
 ### border-box
 
 Donne priorité à la **dimension réelle** de la boîte : le `padding` et le `border` sont absorbés à l'intérieur de la taille définie.
 
-![Illustration border-box : sans padding à gauche, avec padding à droite — l'élément conserve sa taille](images/border-box.png)
+![Illustration border-box : sans padding à gauche, avec padding à droite — l'élément conserve sa taille](../assets/border-box.png)
 
 `border-box` est particulièrement utile lorsque les éléments ont une dimension en `%` :
 
@@ -1027,13 +1058,13 @@ La majorité des développeurs convertissent toutes les boîtes en `border-box` 
 * { box-sizing: border-box; }
 ```
 
-> 💡 Il est conseillé de toujours débuter vos feuilles de style avec cette ligne !
+!!! tip
+    Il est conseillé de toujours débuter vos feuilles de style avec cette ligne :
+    ```
+    * { box-sizing: border-box; }
+    ```
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — box-sizing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 
 ## Float
@@ -1046,15 +1077,17 @@ Valeurs disponibles :
 - `left` — l'élément flotte à gauche ⬅️
 - `right` — l'élément flotte à droite ➡️
 
-### Impact sur le display
-
-Pour que le contenu `inline` puisse s'enrouler autour d'un élément en `float`, celui-ci doit avoir une dimension calculable. Les éléments `inline` sont donc automatiquement convertis en `display: block` dès que `float` leur est attribué.
 
 <p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — float</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+### Impact sur le display
+
+Pour que le contenu `inline` puisse s'enrouler autour d'un élément en `float`, celui-ci doit avoir une dimension calculable. Les éléments `inline` sont donc automatiquement convertis en `display: block` dès que `float` leur est attribué.
+
 
 
 ## Opacity
@@ -1063,24 +1096,21 @@ La propriété `opacity` permet de gérer l'opacité d'un élément. Une valeur 
 
 La propriété affecte l'ensemble de l'élément, incluant son contenu et ses enfants.
 
-> ⚠️ Bien que certains navigateurs acceptent les valeurs en pourcentages, il est conseillé d'utiliser une valeur entre `0` et `1` pour éviter des problèmes de compatibilité.
-
 <p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — opacity</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+!!! warning 
+    Bien que certains navigateurs acceptent les valeurs en pourcentages, il est conseillé d'utiliser une valeur entre `0` et `1` pour éviter des problèmes de compatibilité.
 
 ## Z-index
 
 Par défaut, une balise HTML se positionne toujours par-dessus celles qui la précèdent dans le code. On peut modifier cet ordre d'empilement en spécifiant une valeur de `z-index`.
 
-> ⚠️ Seuls les éléments ayant une propriété `position` définie à une valeur autre que `static` sont impactés par `z-index`.
-
-### Contexte d'empilement
-
-Les éléments partageant un même parent peuvent être déplacés en avant ou en arrière les uns des autres grâce à `z-index` — c'est ce que l'on appelle le contexte d'empilement.
+!!! warning 
+    Seuls les éléments ayant une propriété `position` définie à une valeur autre que `static` sont impactés par `z-index`.
 
 <p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — z-index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -1088,29 +1118,63 @@ Les éléments partageant un même parent peuvent être déplacés en avant ou e
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+---
+
+### Z-index: Contexte d'empilement
+
+Les éléments partageant un même parent peuvent être déplacés en avant ou en arrière les uns des autres grâce à `z-index` — c'est ce que l'on appelle le contexte d'empilement.
+
+
+
 
 ## Box-shadow
 
 La propriété `box-shadow` permet d'ajouter une ombre à un élément. Une ombre nécessite d'être décalée de son parent via une valeur sur X, Y ou les deux.
 
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — z-index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+---
+
 ### Couleur
 
 Ajouter une unité de couleur à la fin pour spécifier la couleur de l'ombre.
+
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="mdjjLYm" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdjjLYm">CSS — z-index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### Flou
 
 Une 3e valeur insérée avant la couleur permet de flouter l'ombre.
 
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="dyjjeBX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/dyjjeBX">CSS — z-index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 ### Étendue
 
 Une 4e valeur permet d'augmenter ou de diminuer la taille de l'ombre par rapport à celle de son élément.
+
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="JjBBZjY" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjBBZjY">CSS — z-index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### Direction
 
 Par défaut, les ombres sont projetées vers l'extérieur. Le mot-clé `inset` passé en premier argument projette l'ombre vers l'intérieur, créant une illusion de profondeur.
 
-<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="XXXXXXX" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/XXXXXXX">CSS — box-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+<p class="codepen" data-theme-id="50210" data-height="300" data-pen-title="CSS" data-default-tab="result" data-slug-hash="qByyKEZ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qByyKEZ">CSS — box-shadow</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
