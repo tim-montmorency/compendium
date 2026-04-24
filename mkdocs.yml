@@ -44,10 +44,11 @@ nav:
       - CSS:
         - 582-211-web2/css/index.md
         - Accessibilité: 582-211-web2/css/accessibilite.md
-        - Spécificité: 582-211-web2/css/specificite.md
+        - Flux HTML: 582-211-web2/css/flot-natif-html.md
+        - Spécificité CSS: 582-211-web2/css/specificite-css.md
         - Pseudo-classes: 582-211-web2/css/pseudo-classes.md
         - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
-        - Flux HTML: 582-211-web2/css/flot-natif-html.md
+        - Unités vw,vh,calc,clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
         - Variab., unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
         - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
         - Flex,justify,align,gap,wrap: 582-211-web2/css/flexbox01.md

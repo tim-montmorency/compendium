@@ -210,7 +210,7 @@ menu-restaurant/
 - Prix alignés correctement
 - Badges stylisés (POPULAIRE, VÉGÉ, ou NOUVEAU)
 - Séparateurs visuels
-- [Spécificité CSS](../../css/specificite.md) démontrée
+- [Spécificité CSS](../../css/specificite-css.md) démontrée
 - Code propre et indenté
 - Créativité et effort visuel
 
