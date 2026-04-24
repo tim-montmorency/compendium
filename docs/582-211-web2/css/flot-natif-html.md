@@ -153,7 +153,7 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 
 - Les éléments `inline` s'organisent *horizontalement*
 - Les éléments `block` s'empilent *verticalement*
-- Sortir du flux (`absolute`, `fixed`) signifie ne plus réserver d'espace dans le flux, ils s'affichent en dehors du fulx sur un calque par dessus.
+- Sortir du flux (`absolute`, `fixed`) signifie ne plus réserver d'espace dans le flux, ils s'affichent en dehors du flux sur un calque par dessus.
 - `flexbox` et `grid` sont les outils modernes recommandés pour la mise en page
 
 ### Erreurs fréquentes
