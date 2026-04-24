@@ -258,6 +258,16 @@ Valeurs possibles :
 > 📝 **Exercice** — [Animation - New Super Luigi](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/new-super-luigi/)  
 > Pour cet exercice, vous devrez recréer une scène du château du niveau Frosted Glacier du jeu New Super Luigi sur la Wii U.
 
+## `animation-timeline`
+
+`animation-timeline: scroll()` et `animation-timeline: view()` : les animations pilotées par le *scroll* sont maintenant supportées dans tous les navigateurs majeurs (Safari 26 vient de les adopter en 2025, Chrome/Firefox depuis 2023).
+
+C'est une révolution : zéro JavaScript pour des *effets de parallaxe*, d'*apparition au scroll*, etc.
+
+## `animation-trigger`
+
+Propriété CSS très récent (support de Chrome 145, fin 2025), permet de déclencher une animation CSS à un `offset` de *scroll* précis, sans `IntersectionObserver`.
+
 
 ## Différence entre transition et animation
 
