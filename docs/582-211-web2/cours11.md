@@ -68,20 +68,6 @@ Suite du dernier cours...
 
 [👩🏻‍💻 Exercice pseudo-classes](./exercices/pseudo-classes/index.md){ .md-button }
 
-## Accessibilité & robustesse
-
-- Contraste et lisibilité
-- Focus et navigation clavier
-- Tailles de clic/touch et états interactifs
-- Structure sémantique et textes alternatifs
-- Démo Lighthouse
-
-[📚 Contenu de cours: Accessibilité](./css/accessibilite.md){ .md-button .md-button--primary }
-
-### Démo Lighthouse
-
-Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
-
 
 ## Travail sur le projet Solarix
 
