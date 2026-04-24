@@ -42,7 +42,7 @@ nav:
   - Web 2:
       - 582-211-web2/index.md
       - CSS général:
-        - 582-211-web2/css/index.md
+        - 582-211-web2/css/resume-bases-css-web1.md
         - Accessibilité: 582-211-web2/css/accessibilite.md
         - Animations CSS: 582-211-web2/css/animations-css.md
         - Anim spritesheet: 582-211-web2/css/animation-spritesheet.md
@@ -55,17 +55,18 @@ nav:
         - Variab., unités, fonct.: 582-211-web2/css/variables-unites-fonctions.md
         - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
       - CSS par composants:
-        - 582-211-web2/css/index.md
+        - 582-211-web2/css/composants.md
         - Composants réutilisables: 582-211-web2/css/composants.md
         - Composant + Container queries: 582-211-web2/css/composants-adaptatif-containerqueries.md
         - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
       - CSS Flexbox:
+        - 582-211-web2/css/flexbox01.md
         - Flex,justify,align,gap,wrap: 582-211-web2/css/flexbox01.md
         - Flex,grow,shrink,basis: 582-211-web2/css/flexbox02.md
         - Flexbox order: 582-211-web2/css/flexbox-order.md
         - Flexbox gap calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
       - CSS responsive:        
-        - 582-211-web2/css/index.md
+        - 582-211-web2/css/mediaqueries-breakpoints.md
         - Media queries(MQ): 582-211-web2/css/mediaqueries-breakpoints.md
         - Media queries(MQ) avancées: 582-211-web2/css/mediaqueries-avance.md
         - Breakpoints arbitraires:  582-211-web2/css/breakpoints-arbitraires.md 
