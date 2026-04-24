@@ -71,7 +71,6 @@ Par exemple, trois fois la même animation `animation-name: left-to-right`, mais
 2. 2 secondes
 3. 3 secondes
 
-<br>
 
 <p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-duration" data-default-tab="result" data-slug-hash="xxJBYEp" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/xxJBYEp">
@@ -121,8 +120,6 @@ Par exemple :
 2. Joue 2×
 3. Joue à l'infini ♾️
 
-
-<br>
 
 <p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-iteration-count" data-default-tab="result" data-slug-hash="LYBaQLB" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/LYBaQLB">
@@ -178,9 +175,6 @@ Par exemple :
 2. Renversé
 3. Alterné
 
-<br>
-
-
 <p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-direction" data-default-tab="result" data-slug-hash="VwBRQxg" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/VwBRQxg">
   Animation-direction</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -217,13 +211,8 @@ Valeurs possibles :
 
 Par exemple :
 
-1. None
-2. Forwards
-
-
-
-<br>
-
+1. 1 en vert : `animation-fill-mode : none`
+2. 2 en bleu: `animation-fill-mode : forwards`
 
 <p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-fill-mode" data-default-tab="result" data-slug-hash="KKBEoKX" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KKBEoKX">
@@ -252,8 +241,6 @@ Valeurs possibles :
 
 - `running` — l'animation joue
 - `paused` — l'animation est en pause
-
-<br>
 
 <p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-play-state" data-default-tab="result" data-slug-hash="JjBzLGz" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjBzLGz">
