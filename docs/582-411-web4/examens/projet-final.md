@@ -1,6 +1,6 @@
 # TP FINAL — SITE WEB POUR UNE ENTREPRISE
 
-![bienvenue](../assets/images/Projet-final.jpg){.w-100}
+![bienvenue](./assets/images/Projet-final.jpg){.w-100}
 
 ## Objectif
 
