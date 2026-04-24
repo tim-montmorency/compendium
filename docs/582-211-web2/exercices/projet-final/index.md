@@ -235,7 +235,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ### Semaine 2: Structure HTML | 20 au 26 avril
 
-> incluse dans les 30 points du code de la remise finale (30% de la note finale)
+> Évaluation incluse dans les 30 points du code de la remise finale (30% de la note finale)
 >
 > Remise : avant le début du cours 15 (11 ou 14 mai): en même temps que la remise finale
 
@@ -257,7 +257,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ### Semaine 3: CSS et responsive | 27 avril au 3 mai
 
-> incluse dans les 30 points du code de la remise finale (30% de la note finale)
+> Évaluation incluse dans les 30 points du code de la remise finale (30% de la note finale)
 >
 > Remise : avant le début du cours 15 (11 ou 14 mai): en même temps que la remise finale
 
@@ -283,7 +283,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ### Semaine 4:  Finalisation et accessibilité | 4 au 10 mai
 
-> incluse dans les 30 points du code de la remise finale (30% de la note finale)
+> Évaluation incluse dans les 30 points du code de la remise finale (30% de la note finale)
 > 
 > Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
