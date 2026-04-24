@@ -46,7 +46,7 @@ Pour une animation plus élaborée, il est possible de spécifier plusieurs éta
 > 📖 [En savoir plus sur la règle CSS `@keyframes` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/At-rules/@keyframes)
 
 
-## animation-name
+## `animation-name`
 
 Permet d'attribuer une animation à partir de son nom de référence en indiquant quel [@keyframes](#keyframes) appliquer à quel élément.
 
@@ -61,7 +61,7 @@ Par exemple, pour appliquer l'animation nommée `anim` à l'élément ayant la c
 > 📖 [En savoir plus sur la propriété `animation-name` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-name)
 
 
-## animation-duration
+## `animation-duration`
 
 Définit la durée d'une animation. Ce nombre peut être en secondes ou en millisecondes. `1s = 1000ms`.
 
@@ -81,7 +81,7 @@ Par exemple, trois fois la même animation `animation-name: left-to-right`, mais
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## animation-timing-function
+## `animation-timing-function`
 
 Dicte à l'animation son rythme. Par exemple, dans l'animation précédente on remarque que chaque carré accélère progressivement avant de ralentir ensuite. Ce rythme est appelé `ease` et est celui par défaut des animations.
 
@@ -111,7 +111,7 @@ L'exemple suivant contient six fois la même animation, mais avec des rythmes di
 > Outil développé par Lea Verou permettant de créer et de visualiser facilement des courbes de Bézier.
 
 
-## animation-iteration-count
+## `animation-iteration-count`
 
 Indique le nombre de fois qu'une animation doit être jouée *(par défaut `1`)*. Ce nombre peut être compris entre `0` et `∞` et accepte les fractions. Il est aussi possible de spécifier `infinite` pour qu'elle joue à l'infini.
 
@@ -142,8 +142,8 @@ Par exemple :
 > Pour cet exercice nous allons animer le déplacement d'un fantôme 👻.
 
 
-## animation-delay
-
+## `animation-delay
+`
 Définit le délai d'attente avant de démarrer une animation. Par défaut, cette propriété est à `0s`. Si une valeur négative est attribuée, l'animation débutera déjà commencée, comme si l'équivalent de la valeur s'était déjà écoulée.
 
 Par exemple :
@@ -161,7 +161,7 @@ Par exemple :
 > 📖 [En savoir plus sur la propriété `animation-delay` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-delay)
 
 
-## animation-direction
+## `animation-direction`
 
 Indique la direction dans laquelle une animation doit être jouée.
 
@@ -204,7 +204,7 @@ Par exemple :
 > Pour cet exercice nous allons animer un pendule.
 
 
-## animation-fill-mode
+## `animation-fill-mode`
 
 Indique l'apparence que doit prendre l'élément lorsque l'animation est terminée.
 
@@ -244,7 +244,7 @@ Par exemple :
 > Pour cet exercice nous allons animer 5 billes blanches.
 
 
-## animation-play-state
+## `animation-play-state`
 
 Indique si une animation doit jouer ou être en pause.
 
