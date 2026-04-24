@@ -22,7 +22,7 @@ Lundi 27 avril / mercredi 29 avril
 - [Groupe du lundi après-midi: ZCBYTG](https://app.wooclap.com/ZCBYTG)
 - [Groupe du mercredi](https://app.wooclap.com/)
 
-## Révsion des exercices du cours précédent
+## Révision des exercices du cours précédent
 
 - [👩🏻‍💻 Exercice "Container query"](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef)
 - [👩🏻‍💻 Exercice "Pseudo-classes"](./exercices/pseudo-classes/index.md)
