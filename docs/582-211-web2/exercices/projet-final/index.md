@@ -285,7 +285,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 > incluse dans les 30 points du code de la remise finale (30% de la note finale)
 > 
-> Remise finale : > Remise : avant le début du cours 15 (11 ou 14 mai)
+> Remise finale : avant le début du cours 15 (11 ou 14 mai)
 
 **Contenu attendu :**
 
