@@ -73,16 +73,20 @@ animation-play-state
 animation-timeline
 animation-timing-function
 
+<!--
 ## Événements
 
 Toutes les animations, même celles d'une durée de 0 seconde, déclenchent des évènements d'animation.
+
+Vous pouvez ensuite les capter en JavaScript pour exécuter autre chose...
 
 - animationstart
 - animationend
 - animationcancel
 - animationiteration
 
-## Propriétés d'animation CSS en détail
+-->
+
 
 
 ### `animation-name`
@@ -243,10 +247,10 @@ Indique l'apparence que doit prendre l'élément lorsque l'animation est termin�
 
 Valeurs possibles :
 
-- `none` — redevient tel qu'avant l'animation *(par défaut)*
-- `forwards` — garde l'apparence donnée par l'animation à la fin
-- `backwards` — garde l'apparence donnée par l'animation au début
-- `both` — combine l'apparence donnée par l'animation au début et à la fin
+- `none` : redevient tel qu'avant l'animation *(par défaut)*
+- `forwards` : garde l'apparence donnée par l'animation à la fin
+- `backwards` : garde l'apparence donnée par l'animation au début
+- `both` : combine l'apparence donnée par l'animation au début et à la fin
 
 Par exemple :
 
