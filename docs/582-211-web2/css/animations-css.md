@@ -8,6 +8,12 @@ Quelques ressources intéressantes à explorer
 - [Scroll driven animations](https://scroll-driven-animations.style/)
 - [CSS Scroll Effects: 50 Interactive Animations to Try](https://prismic.io/blog/css-scroll-effects)
 
+
+## Utiliser les animations CSS
+
+https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using
+
+
 ## Règle CSS @keyframes
 
 Les *keyframes* indiquent les étapes constituant une animation.
