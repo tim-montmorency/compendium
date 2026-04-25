@@ -56,7 +56,7 @@ nav:
         - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
       - CSS par composants:
         - 582-211-web2/css/composants.md
-        - Composant + Container queries: 582-211-web2/css/composants-adaptatif-containerqueries.md
+        - Composant adaptatifs: 582-211-web2/css/composants-adaptatif-containerqueries.md
         - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
       - CSS Flexbox:
         - 582-211-web2/css/flexbox01.md
