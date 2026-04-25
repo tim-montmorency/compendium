@@ -1,5 +1,13 @@
 # Animation en CSS
 
+Quelques ressources intéressantes à explorer
+
+- [Animista](https://animista.net/): Une biliothèque d'animations CSS à la demande
+- [UIverse](https://uiverse.io/): Une biliothèque Open-Source d'élément UI animés
+- [Cool CSS Animations](https://coolcssanimation.com/)
+- [Scroll driven animations](https://scroll-driven-animations.style/)
+- [CSS Scroll Effects: 50 Interactive Animations to Try](https://prismic.io/blog/css-scroll-effects)
+
 ## @keyframes
 
 Les *keyframes* indiquent les étapes constituant une animation.
@@ -258,13 +266,22 @@ Valeurs possibles :
 > 📝 **Exercice** — [Animation - New Super Luigi](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/new-super-luigi/)  
 > Pour cet exercice, vous devrez recréer une scène du château du niveau Frosted Glacier du jeu New Super Luigi sur la Wii U.
 
-## `animation-timeline`
+## Animations activé par le *scroll", sans JavaScript!
+
+*NOUVEAU NOUVEAU NOUVEAU*
+
+- [AlsaCreation: Les animations liées au scroll avec css](https://www.alsacreations.com/article/lire/1935-animations-liees-au-scroll-en-css.html) (FR)
+- [MDN: `animation-timeline: scroll`](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timeline/scroll) (FR)
+- [MDN: CSS scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) (EN)
+- [Webkit: A guide to Scroll-driven Animations with just CSS](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/) (EN)
+
+### `animation-timeline`
 
 `animation-timeline: scroll()` et `animation-timeline: view()` : les animations pilotées par le *scroll* sont maintenant supportées dans tous les navigateurs majeurs (Safari 26 vient de les adopter en 2025, Chrome/Firefox depuis 2023).
 
 C'est une révolution : zéro JavaScript pour des *effets de parallaxe*, d'*apparition au scroll*, etc.
 
-## `animation-trigger`
+### `animation-trigger`
 
 Propriété CSS très récent (support de Chrome 145, fin 2025), permet de déclencher une animation CSS à un `offset` de *scroll* précis, sans `IntersectionObserver`.
 
