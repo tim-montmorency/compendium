@@ -41,37 +41,37 @@ L’objectif est de créer un site qui pourrait réellement être mis en ligne p
 ### Gaming
 !!! example "Télécharger"
     
-    [Fichiers Gaming](../assets/documents/Projet%20final%20Electro.zip)
+    [Fichiers Gaming](../assets/documents/Projet-final-Gaming.zip)
 
 ### Guitare / musique
 !!! example "Télécharger"
     
-    [Fichiers Guitare](../assets/documents/Projet%20final%20Electro.zip)
+    [Fichiers Guitare](../assets/documents/Projet-final-Guitare.zip)
 
 ### Jus 
 !!! example "Télécharger"
     
-    [Fichiers Jus](../assets/documents/Projet%20final%20Jus.zip)
+    [Fichiers Jus](../assets/documents/Projet-final-Jus.zip)
 
 ### Écouteurs
 !!! example "Télécharger"
     
-    [Fichiers Écouteurs](../assets/documents/Projet%20final%20Electro.zip)
+    [Fichiers Écouteurs](../assets/documents/Projert-final-Hphone.zip)
 
 ### Scooter futuriste
 !!! example "Télécharger"
     
-    [Fichiers Scooter](../assets/documents/Projet%20final%20Electro.zip)
+    [Fichiers Scooter](../assets/documents/Projet-final-Scootex.zip)
 
 ### Cupcakes et beignes
 !!! example "Télécharger"
     
-    [Fichiers Sweeny](../assets/documents/Projet%20final%20Electro.zip)
+    [Fichiers Sweeny](../assets/documents/Projet-final-Sweeny.zip)
 
 ### Réalité virtuelle (VR)
 !!! example "Télécharger"
     
-    [Fichiers VR](../assets/documents/Projet%20final%20Electro.zip)
+    [Fichiers VR](../assets/documents/Projet-final-VR.zip)
 
 👉 Toutes les images nécessaires vous seront fournies.
 
