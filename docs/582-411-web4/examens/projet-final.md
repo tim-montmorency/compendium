@@ -185,7 +185,6 @@ L’objectif est de créer un site qui pourrait réellement être mis en ligne p
 * Unlimited Elements
 * Contact Form 7
 * WooCommerce
-* ACF
 * GTranslate
 
 
