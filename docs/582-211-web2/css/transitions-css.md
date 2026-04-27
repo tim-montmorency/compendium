@@ -12,17 +12,24 @@ On peut utiliser la valeur `all` pour appliquer une transition à toutes les pro
 !!! warning 
     Utiliser `all` avec parcimonie afin d'éviter d'impacter négativement les performances de votre transition.
 
+    
+<br>
+
 Il est aussi possible de spécifier plusieurs propriétés en les séparant par une virgule :
 
 ```css
 transition-property: background-color, width, margin-top;
 ```
 
+<br>
+
 !!! danger "Erreur fréquente"
     Ce ne sont pas toutes les propriétés qui sont compatibles avec l'effet de transition. Par exemple, `display` ou `background-image` ne peuvent pas effectuer de transition. Voir la [liste MDN des propriétés capables d'effectuer une transition](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_animated_properties).
 
     Essentiellement, toute propriété acceptant des valeurs *numériques* ou de *couleur* peut faire l'objet d'une transition.
 
+
+<br>
 
 > 🛠️ **Outil** — [Animatable](https://projects.verou.me/animatable/)  
 > Lea Verou 👩‍💻 a mis sur pied une page permettant de visualiser rapidement les différentes propriétés animables.
