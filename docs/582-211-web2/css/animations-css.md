@@ -335,7 +335,7 @@ Propriété CSS très récent (support de Chrome 145, fin 2025), permet de décl
 
 ## Démo résumé
 
-<p class="codepen" data-theme-id="50210" data-height="1000" data-pen-title="DEMO animation css au scoll timeline, trigger, stagger etc" data-version="2" data-default-tab="result" data-slug-hash="VYKovOO" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50210" data-height="600" data-pen-title="DEMO animation css au scoll timeline, trigger, stagger etc" data-version="2" data-default-tab="result" data-slug-hash="VYKovOO" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019dc1e6-61a8-7a86-a046-6cba82ddab35">
   DEMO animation css au scoll timeline, trigger, stagger etc</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
