@@ -98,6 +98,7 @@ L’objectif est de créer un site qui pourrait réellement être mis en ligne p
 
 * une section hero
 * une mise en valeur des produits (featured products)
+* Minimum 5 sections dans votre page d'accueil
 * une structure visuelle travaillée (sections, images, hiérarchie)
 
 ---
