@@ -88,7 +88,6 @@ Vous pouvez ensuite les capter en JavaScript pour exécuter autre chose...
 -->
 
 
-
 ### `animation-name`
 
 Permet d'attribuer une animation à partir de son nom de référence en indiquant quel [@keyframes](#keyframes) appliquer à quel élément.
@@ -103,6 +102,7 @@ Par exemple, pour appliquer l'animation nommée `anim` à l'élément ayant la c
 
 > 📖 [En savoir plus sur la propriété `animation-name` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-name)
 
+---
 
 ### `animation-duration`
 
@@ -122,6 +122,7 @@ Par exemple, trois fois la même animation `animation-name: left-to-right`, mais
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+---
 
 ### `animation-timing-function`
 
@@ -152,6 +153,7 @@ L'exemple suivant contient six fois la même animation, mais avec des rythmes di
 > 🛠️ **Outil** — [Cubic-Bezier.com](https://cubic-bezier.com/)  
 > Outil développé par Lea Verou permettant de créer et de visualiser facilement des courbes de Bézier.
 
+---
 
 ### `animation-iteration-count`
 
@@ -181,8 +183,9 @@ Par exemple :
 > 📝 **Exercice** — [Animation - Fantôme](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/fantome/)  
 > Pour cet exercice nous allons animer le déplacement d'un fantôme 👻.
 
+---
 
-### `animation-delay
+### `animation-delay`
 `
 Définit le délai d'attente avant de démarrer une animation. Par défaut, cette propriété est à `0s`. Si une valeur négative est attribuée, l'animation débutera déjà commencée, comme si l'équivalent de la valeur s'était déjà écoulée.
 
@@ -200,6 +203,8 @@ Par exemple :
 
 > 📖 [En savoir plus sur la propriété `animation-delay` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-delay)
 
+
+---
 
 ### `animation-direction`
 
@@ -240,6 +245,7 @@ Par exemple :
 > 📝 **Exercice** — [Animation - Pendule](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/pendule/)  
 > Pour cet exercice nous allons animer un pendule.
 
+---
 
 ### `animation-fill-mode`
 
@@ -275,6 +281,7 @@ Par exemple :
 > 📝 **Exercice** — [Animation - Billes](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/billes/)  
 > Pour cet exercice nous allons animer 5 billes blanches.
 
+---
 
 ### `animation-play-state`
 
@@ -301,6 +308,8 @@ Valeurs possibles :
 > 📝 **Exercice** — [Animation - New Super Luigi](https://tim-montmorency.com/timdoc/582-211/css/animation/exercices/new-super-luigi/)  
 > Pour cet exercice, vous devrez recréer une scène du château du niveau Frosted Glacier du jeu New Super Luigi sur la Wii U.
 
+---
+
 ### Animations activé par le *scroll", sans JavaScript!
 
 *NOUVEAU NOUVEAU NOUVEAU*
@@ -310,13 +319,16 @@ Valeurs possibles :
 - [MDN: CSS scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) (EN)
 - [Webkit: A guide to Scroll-driven Animations with just CSS](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/) (EN)
 
+
 #### `animation-timeline`
 
 `animation-timeline: scroll()` et `animation-timeline: view()` : les animations pilotées par le *scroll* sont maintenant supportées dans tous les navigateurs majeurs (Safari 26 vient de les adopter en 2025, Chrome/Firefox depuis 2023).
 
 C'est une révolution : zéro JavaScript pour des *effets de parallaxe*, d'*apparition au scroll*, etc.
-#
-### `animation-trigger`
+
+
+
+#### `animation-trigger`
 
 Propriété CSS très récent (support de Chrome 145, fin 2025), permet de déclencher une animation CSS à un `offset` de *scroll* précis, sans `IntersectionObserver`.
 
