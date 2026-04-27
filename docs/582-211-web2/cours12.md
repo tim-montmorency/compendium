@@ -29,18 +29,16 @@ Lundi 27 avril / mercredi 29 avril
 - [👩🏻‍💻 Exercice "Container query"](https://codepen.io/editor/tim-momo/pen/019dab78-abb3-7e2d-80c8-cbb1cc9a25ef)
 - [👩🏻‍💻 Exercice "Pseudo-classes"](./exercices/pseudo-classes/index.md)
 
-Finalement, je cours d'aujourd'hui est sur l'animation CSS.'
 
-15-30 min au début, le reste du cours c'est travail sur le projet Solarix.
-
-
-## Aninmtions CSS
+## Animations CSS
 
 - Animation VS Transitions CSS 
 - Animations simples et intentionnelles (pas décoratives)
 - Performance des animations (transform, opacity)
 - États de chargement, feedback visuel
 - Motion design accessible (prefers-reduced-motion)
+
+[📚 Animations CSS](./css/animations-css.md){ .md-button .md-button--primary }
 
 ## Devoir
 
