@@ -62,7 +62,7 @@ nav:
         - 582-211-web2/css/flexbox01.md
         - Flex, grow, shrink, basis: 582-211-web2/css/flexbox02.md
         - Flexbox order: 582-211-web2/css/flexbox-order.md
-        - gap calc() largeur colonne: 582-211-web2/css/flexbox-gap-calc.md
+        - gap et calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
       - CSS responsive:        
         - 582-211-web2/css/mediaqueries-breakpoints.md
         - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
