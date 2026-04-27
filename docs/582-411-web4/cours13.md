@@ -1,5 +1,6 @@
 # Projet final
 
+![](./assets/images/projet-final.jpg){data-zoom-image}
 
 !!! tip "Lien"
 
