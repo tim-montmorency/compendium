@@ -310,7 +310,7 @@ Valeurs possibles :
 
 ---
 
-### Animations activé par le *scroll", sans JavaScript!
+### Animations activées par le *scroll*, sans JavaScript!
 
 *NOUVEAU NOUVEAU NOUVEAU*
 
