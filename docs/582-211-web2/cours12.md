@@ -10,10 +10,12 @@ Lundi 27 avril / mercredi 29 avril
 •	Motion design accessible (prefers-reduced-motion)
 -->
 
-## Vérificatiion de votre jounral de bord
+## Solarix: Vérification de votre journal de bord
 
-- La semaine 2 devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 2 et appliqué au moins une chose vue dans le cours 11 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
-- Nous entamons maintenant la semaine 3.
+- [La semaine 2](./exercices/projet-final/index.html#semaine-2-structure-html-20-au-26-avril) devrait être complétée. Vous devriez avoir répondu à toutes les [questions de la semaine 2](./exercices/projet-final/index.html#semaine-2-structure-html-20-au-26-avril) et appliqué au moins une chose vue dans le cours 11 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
+- Nous entamons maintenant la [semaine 3 du projet](./exercices/projet-final/index.html#semaine-3-css-et-responsive-27-avril-au-3-mai)...
+
+[Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
 ## Quiz time! Révision
