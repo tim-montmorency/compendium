@@ -7,38 +7,38 @@ Cours du 27/28 avril
 
 
 ## Rappel Projet Vidéoclip
-- [Consignes du projet](projet_01.md)
-- Remises à venir
-    - Montage offline: 4/5 mai
-    - Montage online: 11/12 mai
+* [Consignes du projet](projet_01.md)
+* Remises à venir
+    * Montage offline: 4/5 mai
+    * Montage online: 11/12 mai
 
 
 ## Rappel Da Vinci
 
 ### Commencer un nouveau projet
-- Préférences
-    - Emplacementsdes espaces de stockage
-    - Emplacement de sauvegarde (back-up)
-- Créer un nouveau projet
-- Paramètres de projet
-    - Résolution de la timeline -> 1920 x 1080 HD
-    - Format de pixel -> Carré
-    - Fréquence d'images de la timeline -> mettre la même fréquence d'image que vos crushes de tournage.
-    - Format des médias proxys -> DNxHR HQ
-    - Format du média optimisé -> DNxHR HQ
-    - Format du rendu -> DNxHR HQ
-    - Dossier de travail -> Selectionner votre dossier Caches
-- Importer les médias
-    - Selectionner votre dossier de media -> clic droit -> Ajouter les dossiers et les sous-dossiers à la bibliothèque de médias (créer des chutiers)
+* Préférences
+    * Emplacementsdes espaces de stockage
+    * Emplacement de sauvegarde (back-up)
+* Créer un nouveau projet
+* Paramètres de projet
+    * Résolution de la timeline -> 1920 x 1080 HD
+    * Format de pixel -> Carré
+    * Fréquence d'images de la timeline -> mettre la même fréquence d'image que vos crushes de tournage.
+    * Format des médias proxys -> DNxHR HQ
+    * Format du média optimisé -> DNxHR HQ
+    * Format du rendu -> DNxHR HQ
+    * Dossier de travail -> Selectionner votre dossier Caches
+* Importer les médias
+    * Selectionner votre dossier de media -> clic droit -> Ajouter les dossiers et les sous-dossiers à la bibliothèque de médias (créer des chutiers)
 
 ### Partie Offline
-- Montage sonore
-- Montage visuel
+* Montage sonore
+* Montage visuel
 
 ### Partie Online
-- Colorimétrie
-- Effets visuels
-- Credits
+* Colorimétrie
+* Effets visuels
+* Credits
 
 ## Devoir
 * Terminer et remettre vos montages offline
