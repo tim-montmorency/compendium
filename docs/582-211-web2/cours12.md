@@ -40,10 +40,19 @@ Lundi 27 avril / mercredi 29 avril
 
 [📚 Animations CSS](./css/animations-css.md){ .md-button .md-button--primary }
 
+## Travail sur le projet
+
+Pour le reste du cours:
+
+- Je suis disponible pour des rencontres individuelles pour vous aider à avancer votre projet Solarix.
+- Avancer le projet intégrateur: Solarix
+  - Vous devriez avoir terminé ce qui était prévu pour al semaine 2 et entâmer ce qui est prévu pour la semaine 3, dès maintenant.
+  - Répondre aux questions du *journal de bord - Semaine 3* d'ici la semaine prochaine.
+
+
 ## Devoir
 
 - Avancer le projet intégrateur: Solarix
-  - Choisir une chose vue aujourd'hui dans le cours 12 (animation) et l'appliquer dans votre projet (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
   - Répondre aux questions du *journal de bord - Semaine 3* d'ici le prochain cours.
   - Continuez votre projet pour compléter la partie [semaine 3](./exercices/projet-final/index.html#semaine-3-css-et-responsive-27-avril-au-3-mai) d'ici le prochain cours.
 
