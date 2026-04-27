@@ -11,7 +11,7 @@ Quelques ressources intéressantes à explorer
 
 ## Utiliser les animations CSS
 
-https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using
+[MDN : Utiliser les animations CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using)
 
 
 ## Règle CSS @keyframes
