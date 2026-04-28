@@ -1,4 +1,4 @@
-# Introduction à Flexbox
+# Flexbox (direction, justify-content, align-items, wrap)
 
 ## Qu'est-ce que Flexbox ?
 

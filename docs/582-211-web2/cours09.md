@@ -125,7 +125,7 @@ Révision et questions sur les concepts de breakpoint et media queries à traver
 - `transition-timing-function`
 - `transition-delay`
 
-[📚 Contenu de cours: Transitions CSS 🔁](https://tim-montmorency.com/timdoc/582-211/css/transition/){ .md-button .md-button--primary }
+[📚 Contenu de cours: Transitions CSS 🔁](./css/transitions-css.md){ .md-button .md-button--primary }
 
 ### Exercice transition
 

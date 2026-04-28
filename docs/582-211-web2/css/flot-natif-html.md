@@ -60,7 +60,7 @@ Le flux est influencé par le box model, qui définit l’espace occupé par un 
 
 Les marges sont particulièrement importantes, car elles créent des espacements entre les éléments dans le flux.
 
-!!! warning À noter :
+!!! warning "À noter :"
     Les marges verticales de certains éléments de bloc peuvent *fusionner* (margin collapsing).
     Cela explique pourquoi deux éléments peuvent parfois sembler avoir “moins d’espace que prévu” entre eux.
 
@@ -144,7 +144,7 @@ Un élément est dit :
 Comprendre cette distinction est essentiel pour éviter des mises en page “qui cassent”.
 
 
-<a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow"><img src="../assets/logo-mdn.svg" alt="mdn" style="width: 80px;">Être ou ne pas être dans le flux</a>
+> <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow"> <img src="../assets/logo-mdn.svg" alt="mdn" style="width: 80px;"> : Être ou ne pas être dans le flux</a>
 
 
 ## À retenir / Erreurs fréquentes
@@ -153,7 +153,7 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 
 - Les éléments `inline` s'organisent *horizontalement*
 - Les éléments `block` s'empilent *verticalement*
-- Sortir du flux (`absolute`, `fixed`) signifie ne plus réserver d'espace dans le flux, ils s'affichent en dehors du fulx sur un calque par dessus.
+- Sortir du flux (`absolute`, `fixed`) signifie ne plus réserver d'espace dans le flux, ils s'affichent en dehors du flux sur un calque par dessus.
 - `flexbox` et `grid` sont les outils modernes recommandés pour la mise en page
 
 ### Erreurs fréquentes
@@ -163,7 +163,9 @@ Comprendre cette distinction est essentiel pour éviter des mises en page “qui
 - Oublier qu’un élément hors du flux peut recouvrir les autres
 - Ne pas comprendre pourquoi un élément “remonte” quand un autre est retiré du flux
 
-## Activité rapide d’observation (en classe)
+## Activité rapide d’observation
+
+> En classe ou à la maison observez le comportement des éléments dans différentes configurations de mise en page ci-bas. Essayez de répondre aux questions suivantes :
 
 À partir de la démonstration visuelle ci-bas:
 

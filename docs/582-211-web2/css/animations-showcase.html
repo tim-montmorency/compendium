@@ -1,0 +1,307 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--dur:3s}
+body{font-family:var(--font-sans);background:transparent;color:var(--color-text-primary)}
+.wrap{padding:1rem 0 2rem}
+.tabs{display:flex;gap:6px;margin-bottom:1.5rem;flex-wrap:wrap}
+.tab{padding:6px 14px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:transparent;color:var(--color-text-secondary);font-size:13px;cursor:pointer;transition:all .2s}
+.tab.active{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary)}
+.panel{display:none}.panel.active{display:block}
+.stage{height:160px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);background:var(--color-background-secondary);display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:1rem;position:relative}
+pre{font-family:var(--font-mono);font-size:12px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:12px 16px;overflow-x:auto;line-height:1.6;color:var(--color-text-secondary)}
+.kw{color:#7F77DD}.prop{color:#1D9E75}.val{color:#D85A30}.at{color:#BA7517}
+.ctrl{display:flex;align-items:center;gap:12px;margin-bottom:1rem;font-size:13px;color:var(--color-text-secondary);flex-wrap:wrap}
+.ctrl label{display:flex;align-items:center;gap:8px}
+.ctrl input[type=range]{width:120px}
+.lbl{font-size:12px;font-weight:500;min-width:40px}
+.note{font-size:12px;color:var(--color-text-secondary);margin-top:6px;padding:8px 12px;border-left:2px solid var(--color-border-secondary);border-radius:0}
+
+/* === DEMO 1 : keyframes multiples === */
+@keyframes orbit{
+  0%  {transform:translate(0px,0px) rotate(0deg)}
+  25% {transform:translate(60px,-40px) rotate(90deg)}
+  50% {transform:translate(80px,0px) rotate(180deg)}
+  75% {transform:translate(60px,40px) rotate(270deg)}
+  100%{transform:translate(0px,0px) rotate(360deg)}
+}
+@keyframes trail2{0%{transform:translate(0,0) rotate(0deg)} 25%{transform:translate(60px,-40px) rotate(90deg)} 50%{transform:translate(80px,0) rotate(180deg)} 75%{transform:translate(60px,40px) rotate(270deg)} 100%{transform:translate(0,0) rotate(360deg)}}
+.orb-wrap{position:relative;width:200px;height:140px;display:flex;align-items:center;justify-content:center}
+.orb{position:absolute;width:16px;height:16px;border-radius:3px;animation:orbit var(--dur1,3s) var(--ease1,ease-in-out) var(--iter1,infinite)}
+.orb.a{background:#7F77DD;animation-name:orbit}
+.orb.b{background:#1D9E75;animation-name:trail2;animation-delay:.4s;opacity:.65;width:12px;height:12px}
+.orb.c{background:#D85A30;animation-name:trail2;animation-delay:.8s;opacity:.4;width:8px;height:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--color-border-primary);position:absolute}
+
+/* === DEMO 2 : timing-function === */
+.balls-wrap{display:flex;gap:0;align-items:flex-end;justify-content:center;width:100%;height:120px;padding:0 20px}
+.ball-col{display:flex;flex-direction:column;align-items:center;gap:6px;flex:1;max-width:70px}
+.ball-col span{font-size:10px;color:var(--color-text-secondary);text-align:center;line-height:1.3}
+.ball{width:18px;height:18px;border-radius:50%;background:var(--color-text-primary);opacity:.85}
+@keyframes drop-linear     {0%,100%{transform:translateY(0)} 50%{transform:translateY(-70px)}}
+@keyframes drop-ease       {0%,100%{transform:translateY(0)} 50%{transform:translateY(-70px)}}
+@keyframes drop-ease-in    {0%,100%{transform:translateY(0)} 50%{transform:translateY(-70px)}}
+@keyframes drop-ease-out   {0%,100%{transform:translateY(0)} 50%{transform:translateY(-70px)}}
+@keyframes drop-ease-in-out{0%,100%{transform:translateY(0)} 50%{transform:translateY(-70px)}}
+@keyframes drop-bounce{0%{transform:translateY(0)} 60%{transform:translateY(-70px)} 75%{transform:translateY(-50px)} 85%{transform:translateY(-65px)} 100%{transform:translateY(0)}}
+.b-linear     {background:#7F77DD;animation:drop-linear      2s linear       infinite}
+.b-ease       {background:#1D9E75;animation:drop-ease        2s ease         infinite}
+.b-ei         {background:#D85A30;animation:drop-ease-in     2s ease-in      infinite}
+.b-eo         {background:#BA7517;animation:drop-ease-out    2s ease-out     infinite}
+.b-eio        {background:#D4537E;animation:drop-ease-in-out 2s ease-in-out  infinite}
+.b-bounce     {background:#378ADD;animation:drop-bounce      2s cubic-bezier(.36,.07,.19,.97) infinite}
+
+/* === DEMO 3 : direction + fill-mode === */
+.cards-wrap{display:flex;gap:16px;align-items:center;justify-content:center}
+@keyframes slide-in{from{transform:translateX(-60px);opacity:0} to{transform:translateX(0);opacity:1}}
+.card-demo{width:64px;height:64px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary);background:var(--color-background-primary);display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--color-text-secondary);text-align:center;padding:4px;line-height:1.3;animation:slide-in 1s}
+.d-normal  {animation-direction:normal;   animation-fill-mode:none}
+.d-reverse {animation-direction:reverse;  animation-fill-mode:forwards}
+.d-alt     {animation-direction:alternate;animation-fill-mode:both;animation-iteration-count:4}
+
+/* === DEMO 4 : stagger === */
+@keyframes pop{0%{transform:scale(0) rotate(-20deg);opacity:0} 60%{transform:scale(1.2) rotate(5deg)} 100%{transform:scale(1) rotate(0deg);opacity:1}}
+.grid-wrap{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;align-items:center;padding:8px}
+.sq{width:22px;height:22px;border-radius:4px;animation:pop .5s ease both}
+
+/* === DEMO 5 : scroll-driven === */
+.scroll-box{height:160px;overflow-y:auto;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-tertiary);background:var(--color-background-secondary);position:relative}
+.scroll-inner{height:800px;padding:12px;display:flex;flex-direction:column;gap:10px}
+@keyframes reveal-item{from{opacity:0;transform:translateX(-20px)} to{opacity:1;transform:translateX(0)}}
+.scroll-item{padding:10px 14px;border-radius:var(--border-radius-md);background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);font-size:13px;animation:reveal-item linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
+.progress-bar{position:sticky;top:0;height:3px;background:var(--color-border-tertiary);border-radius:2px;z-index:2}
+.progress-fill{height:100%;border-radius:2px;background:#7F77DD;animation:grow-bar linear;animation-timeline:scroll(nearest block)}
+@keyframes grow-bar{from{width:0%} to{width:100%}}
+.scroll-hint{font-size:11px;color:var(--color-text-secondary);text-align:center;padding:4px 0;position:sticky;top:4px;z-index:3}
+
+/* === DÉMO 6 : prefers-reduced-motion === */
+@keyframes spin-demo{to{transform:rotate(360deg)}}
+@keyframes pulse-demo{0%,100%{transform:scale(1)} 50%{transform:scale(1.2)}}
+.motion-pair{display:flex;gap:40px;align-items:center;justify-content:center}
+.motion-box{display:flex;flex-direction:column;align-items:center;gap:10px;font-size:12px;color:var(--color-text-secondary);text-align:center}
+.spinner-demo{width:36px;height:36px;border-radius:8px;background:#7F77DD}
+.spinner-full{animation:spin-demo 1.2s linear infinite}
+.spinner-reduced{animation:pulse-demo 1.2s ease-in-out infinite}
+</style>
+
+<div class="wrap">
+<div class="tabs" id="tabs"></div>
+
+<!-- PANEL 1 : @keyframes & stagger -->
+<div class="panel" id="p0">
+  <div class="stage">
+    <div class="orb-wrap">
+      <div class="dot"></div>
+      <div class="orb a"></div>
+      <div class="orb b"></div>
+      <div class="orb c"></div>
+    </div>
+  </div>
+  <div class="ctrl">
+    <label>Durée
+      <input type="range" min="0.5" max="6" step="0.5" value="3" id="dur1">
+      <span class="lbl" id="dur1-lbl">3s</span>
+    </label>
+    <label>Rythme
+      <select id="ease1" style="font-size:13px;padding:4px 8px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:var(--color-background-primary);color:var(--color-text-primary)">
+        <option>ease-in-out</option><option>linear</option><option>ease</option><option>ease-in</option><option>ease-out</option>
+      </select>
+    </label>
+  </div>
+<pre><span class="at">@keyframes</span> <span class="val">orbit</span> {
+  <span class="kw">0%</span>   { <span class="prop">transform</span>: <span class="val">translate(0, 0) rotate(0deg)</span> }
+  <span class="kw">25%</span>  { <span class="prop">transform</span>: <span class="val">translate(60px, -40px) rotate(90deg)</span> }
+  <span class="kw">50%</span>  { <span class="prop">transform</span>: <span class="val">translate(80px, 0) rotate(180deg)</span> }
+  <span class="kw">75%</span>  { <span class="prop">transform</span>: <span class="val">translate(60px, 40px) rotate(270deg)</span> }
+  <span class="kw">100%</span> { <span class="prop">transform</span>: <span class="val">translate(0, 0) rotate(360deg)</span> }
+}
+
+<span class="kw">.orb-b</span> { <span class="prop">animation-delay</span>: <span class="val">0.4s</span> } <span class="kw">/* stagger */</span>
+<span class="kw">.orb-c</span> { <span class="prop">animation-delay</span>: <span class="val">0.8s</span> }</pre>
+  <p class="note">Les 3 carrés partagent les mêmes keyframes. Le <strong>stagger</strong> (décalage progressif du delay) crée l'effet de traînée.</p>
+</div>
+
+<!-- PANEL 2 : timing-function -->
+<div class="panel" id="p1">
+  <div class="stage">
+    <div class="balls-wrap">
+      <div class="ball-col"><div class="ball b-linear"></div><span>linear</span></div>
+      <div class="ball-col"><div class="ball b-ease"></div><span>ease</span></div>
+      <div class="ball-col"><div class="ball b-ei"></div><span>ease-in</span></div>
+      <div class="ball-col"><div class="ball b-eo"></div><span>ease-out</span></div>
+      <div class="ball-col"><div class="ball b-eio"></div><span>ease-in-out</span></div>
+      <div class="ball-col"><div class="ball b-bounce"></div><span>cubic-bezier</span></div>
+    </div>
+  </div>
+<pre><span class="prop">animation-timing-function</span>: <span class="val">linear</span>;         <span class="kw">/* vitesse constante */</span>
+<span class="prop">animation-timing-function</span>: <span class="val">ease</span>;           <span class="kw">/* défaut */</span>
+<span class="prop">animation-timing-function</span>: <span class="val">ease-in</span>;        <span class="kw">/* démarre lentement */</span>
+<span class="prop">animation-timing-function</span>: <span class="val">ease-out</span>;       <span class="kw">/* ralentit en fin */</span>
+<span class="prop">animation-timing-function</span>: <span class="val">ease-in-out</span>;    <span class="kw">/* lent au début et fin */</span>
+<span class="prop">animation-timing-function</span>: <span class="val">cubic-bezier(.36,.07,.19,.97)</span>; <span class="kw">/* rebond custom */</span></pre>
+  <p class="note">Même animation, mêmes keyframes. Seul le <code>timing-function</code> change. La bille bleue a un rebond simulé avec <code>cubic-bezier()</code>.</p>
+</div>
+
+<!-- PANEL 3 : direction + fill-mode -->
+<div class="panel" id="p2">
+  <div class="stage">
+    <div class="cards-wrap" id="cards-wrap">
+      <div class="card-demo d-normal" id="cd-normal">normal<br>none</div>
+      <div class="card-demo d-reverse" id="cd-rev">reverse<br>forwards</div>
+      <div class="card-demo d-alt" id="cd-alt">alternate<br>×4</div>
+    </div>
+  </div>
+  <button onclick="replayCards()" style="font-size:12px;padding:5px 12px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:transparent;color:var(--color-text-secondary);cursor:pointer;margin-bottom:1rem">Rejouer</button>
+<pre><span class="kw">.card-a</span> {
+  <span class="prop">animation-direction</span>: <span class="val">normal</span>;      <span class="prop">animation-fill-mode</span>: <span class="val">none</span>;
+}
+<span class="kw">.card-b</span> {
+  <span class="prop">animation-direction</span>: <span class="val">reverse</span>;     <span class="prop">animation-fill-mode</span>: <span class="val">forwards</span>;
+}
+<span class="kw">.card-c</span> {
+  <span class="prop">animation-direction</span>:   <span class="val">alternate</span>;
+  <span class="prop">animation-iteration-count</span>: <span class="val">4</span>;
+}</pre>
+  <p class="note"><code>fill-mode: forwards</code> garde l'état final — la carte B reste visible. <code>none</code> ramène la carte A à son point de départ.</p>
+</div>
+
+<!-- PANEL 4 : stagger avancé -->
+<div class="panel" id="p3">
+  <div class="stage">
+    <div class="grid-wrap" id="stagger-grid"></div>
+  </div>
+  <div class="ctrl">
+    <label>Nb de carrés
+      <input type="range" min="4" max="36" step="4" value="16" id="sq-count" oninput="buildGrid(this.value)">
+      <span class="lbl" id="sq-lbl">16</span>
+    </label>
+    <label>Délai entre
+      <input type="range" min="20" max="200" step="10" value="60" id="sq-delay" oninput="buildGrid(document.getElementById('sq-count').value)">
+      <span class="lbl" id="sq-delay-lbl">60ms</span>
+    </label>
+  </div>
+<pre><span class="kw">.sq:nth-child(n)</span> {
+  <span class="prop">animation-delay</span>: <span class="val">calc(n * 60ms)</span>; <span class="kw">/* stagger via calc() */</span>
+}</pre>
+  <p class="note">En pratique, le stagger est généré en JS ou via la propriété CSS <code>--i</code> : <code>animation-delay: calc(var(--i) * 60ms)</code>.</p>
+</div>
+
+<!-- PANEL 5 : scroll-driven -->
+<div class="panel" id="p4">
+  <div class="scroll-box" id="sbox">
+    <div class="progress-bar"><div class="progress-fill"></div></div>
+    <div class="scroll-inner" id="scroll-inner"></div>
+  </div>
+  <p style="font-size:12px;color:var(--color-text-secondary);margin-top:6px;text-align:center">Faites défiler dans la boîte ci-dessus</p>
+<pre><span class="kw">.item</span> {
+  <span class="prop">animation</span>: <span class="val">reveal linear both</span>;
+  <span class="prop">animation-timeline</span>: <span class="val">view()</span>;       <span class="kw">/* NEW 2024 */</span>
+  <span class="prop">animation-range</span>: <span class="val">entry 0% entry 60%</span>;
+}
+<span class="kw">.progress</span> {
+  <span class="prop">animation-timeline</span>: <span class="val">scroll(nearest block)</span>;
+}</pre>
+  <p class="note">Zéro JavaScript. La barre de progression et les apparitions sont pilotées par <code>animation-timeline</code> — une propriété disponible dans tous les navigateurs majeurs depuis 2024-2025.</p>
+</div>
+
+<!-- PANEL 6 : prefers-reduced-motion -->
+<div class="panel" id="p5">
+  <div class="stage">
+    <div class="motion-pair">
+      <div class="motion-box">
+        <div class="spinner-demo spinner-full"></div>
+        <span>Sans la media query<br><code style="font-size:10px">rotation complète</code></span>
+      </div>
+      <div class="motion-box">
+        <div class="spinner-demo spinner-reduced"></div>
+        <span>Avec reduced-motion<br><code style="font-size:10px">pulsation subtile</code></span>
+      </div>
+    </div>
+  </div>
+<pre><span class="kw">.spinner</span> {
+  <span class="prop">animation</span>: <span class="val">spin 1.2s linear infinite</span>;
+}
+
+<span class="at">@media</span> (<span class="prop">prefers-reduced-motion</span>: <span class="val">reduce</span>) {
+  <span class="kw">.spinner</span> {
+    <span class="prop">animation</span>: <span class="val">pulse 1.2s ease-in-out infinite</span>;
+  }
+}</pre>
+  <p class="note">Certains utilisateurs ont des conditions vestibulaires ou épileptiques. Remplacer les animations intenses par des alternatives subtiles est une exigence d'accessibilité (WCAG 2.3.3).</p>
+</div>
+
+</div>
+
+<script>
+const panels=[
+  {id:'p0',label:'Keyframes & trail'},
+  {id:'p1',label:'Timing functions'},
+  {id:'p2',label:'Direction & fill'},
+  {id:'p3',label:'Stagger'},
+  {id:'p4',label:'Scroll-driven (nouveau)'},
+  {id:'p5',label:'Accessibilité'}
+];
+const tabsEl=document.getElementById('tabs');
+panels.forEach((p,i)=>{
+  const btn=document.createElement('button');
+  btn.className='tab'+(i===0?' active':'');
+  btn.textContent=p.label;
+  btn.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(t=>t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(p.id).classList.add('active');
+  };
+  tabsEl.appendChild(btn);
+});
+document.getElementById('p0').classList.add('active');
+
+const dur1=document.getElementById('dur1');
+const ease1=document.getElementById('ease1');
+function updateOrb(){
+  document.querySelectorAll('.orb').forEach(o=>{
+    o.style.animationDuration=dur1.value+'s';
+    o.style.animationTimingFunction=ease1.value;
+  });
+  document.getElementById('dur1-lbl').textContent=dur1.value+'s';
+}
+dur1.addEventListener('input',updateOrb);
+ease1.addEventListener('change',updateOrb);
+
+function replayCards(){
+  ['cd-normal','cd-rev','cd-alt'].forEach(id=>{
+    const el=document.getElementById(id);
+    el.style.animation='none';
+    el.offsetHeight;
+    el.style.animation='';
+  });
+}
+
+const colors=['#7F77DD','#1D9E75','#D85A30','#BA7517','#D4537E','#378ADD','#639922','#D85A30'];
+function buildGrid(n){
+  n=parseInt(n);
+  const delay=parseInt(document.getElementById('sq-delay').value);
+  document.getElementById('sq-lbl').textContent=n;
+  document.getElementById('sq-delay-lbl').textContent=delay+'ms';
+  const g=document.getElementById('stagger-grid');
+  g.innerHTML='';
+  for(let i=0;i<n;i++){
+    const d=document.createElement('div');
+    d.className='sq';
+    d.style.background=colors[i%colors.length];
+    d.style.animationDelay=(i*delay)+'ms';
+    d.style.animationDuration='.5s';
+    g.appendChild(d);
+  }
+}
+buildGrid(16);
+
+const items=['Les keyframes définissent les étapes','animation-duration contrôle la vitesse','timing-function change le rythme','iteration-count pour les boucles','animation-delay pour décaler','direction: normal, reverse, alternate','fill-mode: ce qui reste après','play-state: pause et reprise','Stagger = délai progressif','scroll-driven: piloté par le scroll','prefers-reduced-motion: accessibilité','La propriété shorthand animation'];
+const si=document.getElementById('scroll-inner');
+items.forEach(txt=>{
+  const d=document.createElement('div');
+  d.className='scroll-item';
+  d.textContent=txt;
+  si.appendChild(d);
+});
+</script>

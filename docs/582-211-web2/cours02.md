@@ -9,7 +9,7 @@
 
 ## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
-- [📚 Contenu de cours: Les spécificités CSS](./css/specificite.md)
+- [📚 Contenu de cours: Les spécificités CSS](./css/specificite-css.md)
 - [📚 Contenu de cours: Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/)
 
 **CSS Web 1**
@@ -85,7 +85,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 ## Révision CSS du cours Web1
 
-[📚 Contenu de cours: Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
+[📚 Contenu de cours: Les spécificités CSS](./css/specificite-css.md){ .md-button .md-button--primary }
 
 [📚 Contenu de cours: Emmet dans VS Code](https://tim-montmorency.com/timdoc/582-211/html/emmet/){ .md-button .md-button--primary }
 
@@ -122,7 +122,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 ## Les spécificités CSS
 
-[📚 Les spécificités CSS](./css/specificite.md){ .md-button .md-button--primary }
+[📚 Les spécificités CSS](./css/specificite-css.md){ .md-button .md-button--primary }
 
 ### Exercice spécificité
 

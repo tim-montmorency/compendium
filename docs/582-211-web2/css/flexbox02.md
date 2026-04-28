@@ -1,4 +1,4 @@
-# Flexbox: Maîtriser l'espace
+# Flexbox: Maîtriser l'espace (grow, shrink, basis)
 
 ## Les propriétés `flex` : `flex-grow`, `flex-shrink`, `flex-basis`
 
