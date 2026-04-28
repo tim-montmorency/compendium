@@ -63,3 +63,5 @@ Note : Pour les exercices, j'ajouterais des points pour la correction effectuée
 Note : Il faut beaucoup plus d'exercices de type Trouvez l'erreur : "Qu'est-ce qui ne convient pas dans cette proposition graphique ?". Ça doit être quasiment à chaque cours. Sinon ils n'aiguisent pas leur oeil de designer
 
 Note : Ajouter très tot un exemple de comment on devrait faire un moodboard. Quitte à ce que le prof le fasse devant la classe.
+
+Pour le tp final, il devrait être fait 100% a la main. C'est une erreur de faire faire les images ia.

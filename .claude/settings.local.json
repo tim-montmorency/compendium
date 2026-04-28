@@ -2,7 +2,34 @@
   "permissions": {
     "allow": [
       "Bash(xargs du:*)",
-      "Bash(find /Users/jf/Documents/GitHub/compendium/ -maxdepth 1 -type d -exec du -sh {} \\\\;)"
+      "Bash(find /Users/jf/Documents/GitHub/compendium/ -maxdepth 1 -type d -exec du -sh {} \\\\;)",
+      "Read(//private/tmp/**)",
+      "Bash(unzip -o /Users/jf/Desktop/logs_65475372024.zip -d logs_analysis)",
+      "Bash(unzip -o /Users/jf/Desktop/logs_65476409052.zip -d logs2)",
+      "Bash(sort -t'|' -k2 -rn)",
+      "Bash(grep -v \"^$\")",
+      "Bash(unzip -o /Users/jf/Desktop/logs_65477121158.zip -d logs3)",
+      "Bash(find docs/ -type f \\\\\\( -name \"*.mp4\" -o -name \"*.webm\" -o -name \"*.mov\" -o -name \"*.avi\" -o -name \"*.gif\" -o -name \"*.psd\" -o -name \"*.ai\" -o -name \"*.fig\" -o -name \"*.zip\" \\\\\\) -exec du -sh {} \\\\;)",
+      "Bash(git config *)",
+      "Bash(git checkout *)",
+      "Bash(git reset *)",
+      "Bash(git merge *)",
+      "Bash(sed -n '10150,10165p' /Users/jf/Documents/GitHub/XR/T3/crevier-mendoza_JeuVr_TP3_582-401MO/Travail_03_VR/Assets/Scenes/Jeu.unity)",
+      "Bash(sed -n '23350,23365p' /Users/jf/Documents/GitHub/XR/T3/crevier-mendoza_JeuVr_TP3_582-401MO/Travail_03_VR/Assets/Scenes/Jeu.unity)",
+      "Bash(sed -n '23720,23730p' /Users/jf/Documents/GitHub/XR/T3/crevier-mendoza_JeuVr_TP3_582-401MO/Travail_03_VR/Assets/Scenes/Jeu.unity)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Read(//Users/jf/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/96ebd597-5679-4655-8983-5e75d3bc9a35/0314951e-0c4d-4559-846c-f3732fc7a016/skills/xlsx/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(pip3 install *)",
+      "Read(//Users/jf/Documents/GitHub/**)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5174)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp"
     ]
   }
 }
