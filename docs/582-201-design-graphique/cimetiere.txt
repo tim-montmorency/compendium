@@ -165,3 +165,99 @@ Les couleurs chaudes sont des teintes qui vont du rouge au jaune sur la roue chr
 Les couleurs froides sont des teintes qui vont du bleu au vert et au violet sur la roue chromatique. Elles incluent des nuances comme le turquoise, le bleu sarcelle et le lavande.
 
 ![](./assets/img/emo-froid.png){w-100 data-zoom-image} -->
+
+
+
+
+
+
+## Test A/B
+
+### C'est quoi ?
+
+![](./assets/img/ab-test-example.png){data-zoom-image .w-100}
+
+Un test A/B consiste à **comparer deux versions** d'un même élément pour déterminer laquelle performe mieux selon un objectif précis (plus de clics, moins d'abandons, meilleur taux de conversion, etc.).
+
+- **Version A** : la version actuelle (ou la première proposition)
+- **Version B** : la variante à tester (un seul changement à la fois)
+
+!!! warning "Un seul changement à la fois"
+    Si vous changez simultanément la couleur du bouton, son texte et sa position, vous ne saurez jamais **lequel** de ces changements a fait la différence. En A/B testing, on isole chaque variable.
+
+### Exemples de questions de test A/B
+
+| Question | Version A | Version B |
+| --- | --- | --- |
+| Quel libellé de bouton génère plus de clics ? | "S'inscrire" | "Commencer gratuitement" |
+| Quelle mise en page retient plus longtemps ? | Image à gauche | Image à droite |
+| Quelle couleur d'alerte est plus remarquée ? | Rouge | Orange |
+| Quel placement du CTA performe mieux ? | En haut de page | Après le texte de présentation |
+
+### A/B testing en prototype Figma
+
+Dans Figma, vous pouvez simuler un test A/B en créant **deux parcours parallèles** et en testant chaque version avec un groupe de personnes différent.
+
+<figure markdown>
+![](./assets/img/ab-figma-flow.png){data-zoom-image}
+<figcaption>Deux flows distincts dans un même fichier Figma pour un test A/B</figcaption>
+</figure>
+
+**Étapes :**
+
+1. Dupliquez le frame à tester
+2. Modifiez **un seul élément** dans la version B
+3. Créez deux starting frames distincts (A et B)
+4. Partagez le lien A à un groupe, le lien B à l'autre
+5. Observez et comparez les résultats
+
+!!! tip "En contexte professionnel"
+    Les vrais tests A/B en production se font avec des outils comme Google Optimize, VWO ou des solutions maison qui mesurent automatiquement les clics, le temps passé et les conversions. Le prototype Figma permet de valider l'hypothèse **avant** d'implémenter quoi que ce soit.
+
+---
+
+## Travail par itérations
+
+Le design n'est jamais terminé du premier coup. Le processus professionnel fonctionne par **cycles d'itération**.
+
+<figure markdown>
+![](./assets/img/iteration-cycle.png){data-zoom-image .w-75}
+<figcaption>Le cycle d'itération en design</figcaption>
+</figure>
+
+```
+Proposition → Feedback → Révision → Nouvelle proposition → ...
+```
+
+### Les commentaires dans Figma
+
+<div class="grid grid-1-2" markdown>
+![](./assets/img/figma-comments.png){data-zoom-image}
+
+<div markdown>
+Figma intègre un système de commentaires directement sur le fichier.
+
+**Pour laisser un commentaire :**
+- Mode commentaire : ++c++
+- Cliquez sur l'élément concerné
+- Rédigez votre note
+- Mentionnez un collaborateur avec `@nom`
+
+**Pour résoudre un commentaire :**
+- Cliquez sur ✓ **Resolve** une fois la correction apportée
+</div>
+</div>
+
+!!! info "Bonne pratique"
+    Un bon commentaire de révision précise **quoi** changer et **pourquoi**, pas juste "j'aime pas ça". Ex. : *"Le contraste texte/fond ne passe pas le ratio WCAG AA — essaie une teinte plus foncée."*
+
+### Versions et historique
+
+Figma sauvegarde automatiquement l'historique des versions. Vous pouvez nommer des versions clés :
+
+**Menu principal → File → Save to Version History**
+
+Nommez vos versions avec une convention claire :
+- `v1.0 — Première proposition`
+- `v1.1 — Corrections retour client`
+- `v2.0 — Refonte navigation`

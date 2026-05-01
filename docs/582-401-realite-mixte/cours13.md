@@ -23,12 +23,18 @@
 
 - [:pencil: Eau](unity/eau.md)
 
-**Mains en VR**
+**Mains en VR**    
 
-- [:pencil: Mains VR](unity/vr_mains.md)
+- [:pencil: Mains VR](unity/vr_mains.md)    
 
-**Modifier code d'un script XR**
+**Modifier code d'un script XR**    
 - [:pencil: Code XR](https://youtu.be/5iDaLX4aEu0)
+
+## Nouvelles ressources 
+
+**Configurer les boutons de la manette en VR**       
+- [:pencil: Manette VR](unity/boutonManetteVR.md)    
+
 
 ## Avancement du projet final
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 

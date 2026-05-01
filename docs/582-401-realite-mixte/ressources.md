@@ -163,6 +163,7 @@
 - [Méthode de sélection des objets](unity/methode_selection.md)
 - [XR socket - Socle pour les objets](unity/xr_socket.md)
 - [Mains VR](unity/vr_mains.md)
+- [Configurer les boutons de la manette](unity/boutonManetteVR.md)
 
 #### Se déplacer en réalité virtuelle
 

@@ -6,9 +6,9 @@ tags:
 
 # Figmorency
 
-L'objectif de ce projet est de concevoir un **jeu vidéo point-and-click jouable** en utilisant exclusivement les outils de prototypage de Figma : variables, logiques conditionnelles, composantes, animations et transitions.
+L'objectif de ce projet est de concevoir un **jeu vidéo point-and-click jouable** en utilisant les outils de prototypage de Figma : variables, logiques conditionnelles, composantes, animations et transitions. Aucun code externe ni autre logiciel de prototypage n'est permis.
 
-Ce projet compte pour **30%** de votre note finale. Il est remis **et** présenté oralement au cours 15.
+Il s'agit d'un **projet individuel** qui compte pour **30%** de votre note finale. Il est remis **et** présenté oralement au cours 15.
 
 ## Exemple
 
@@ -24,7 +24,7 @@ Ce projet compte pour **30%** de votre note finale. Il est remis **et** présent
 
 | Étape | Échéance |
 | :--- | :--- |
-| **FigJam validé par l'enseignant** | Cours 12 |
+| **FigJam validé par l'enseignant** | Cours 13 |
 | **Remise + présentation orale** | Cours 15 |
 
 ## Le concept
@@ -35,7 +35,7 @@ Définir le jeu sur un **FigJam**.
 - [ ] **Synopsis** : contexte, personnage(s) et objectif
 - [ ] **Ambiance** : humoristique, mystérieux, horreur, rétro, etc.
 - [ ] **Moodboard** : au moins 6 références visuelles (jeux, films, illustrations) qui inspirent votre direction artistique.
-- [ ] **Carte des scènes** (au moins 5) : un schéma montrant les scènes du jeu et les liens entre elles. Les mécaniques utilisées dans chaque scène doivent y être indiquées. Voici un exemple :
+- [ ] **Carte des scènes** : un schéma montrant les scènes du jeu (au moins 5 en tout) et les liens entre elles. Les mécaniques utilisées dans chaque scène doivent y être indiquées. Voici un exemple :
 
 ![](./2D-rough-level-map.jpg){data-zoom-image .w-10}
 ![](./schema.png){data-zoom-image .w-25}
@@ -86,7 +86,9 @@ La narration peut être humoristique, dramatique ou absurde, mais elle doit êtr
 
 La cohérence visuelle, la créativité et les techniques de design graphique apprises en classe seront rigoureusement évaluées.
 
-Vous pouvez au besoin utiliser des sources externes, mais la cohérence graphique est primordiale.
+Vous pouvez utiliser des ressources visuelles externes (photos, illustrations, images générées par IA, etc.). Les principes de design graphique vus en classe doivent cependant être respectés : poids visuel, hiérarchie, palette de couleurs, typographie. 
+
+!!! warning "La cohérence graphique est primordiale."
 
 - [ ] Une **palette de couleurs** et une **typographie** cohérentes sont appliquées dans toutes les scènes.
 - [ ] Le jeu comporte **au moins 5 scènes distinctes**.
@@ -103,104 +105,40 @@ Le jeu s'ouvre sur une **séquence d'introduction animée** (comme dans *Hackerm
 
 ## Présentation orale (cours 15) 
 
-Au cours 15, vous présenterez votre jeu à la classe en **10 minutes**.
+Au cours 15, vous présenterez **individuellement** votre jeu à la classe en **10 minutes**.
 
 Vous devrez couvrir :
 
-- [ ] Votre **concept** : synopsis, ambiance, univers visuel.
-- [ ] Vos **mécaniques** : lesquelles avez-vous implantées et comment fonctionnent-elles techniquement dans Figma ?
-- [ ] Les **défis rencontrés** pendant le projet et comment vous les avez résolus.
-- [ ] Ce que vous feriez si vous aviez à recommencer le projet.
+- [ ] **Démonstration** : présenter le jeu en direct dans Figma.
+- [ ] **Concept** : synopsis, ambiance et choix de direction artistique justifiés.
+- [ ] **Mécaniques** : lesquelles avez-vous implantées et comment fonctionnent-elles ?
+- [ ] **Défis rencontrés** : ce qui n'a pas fonctionné et comment vous l'avez résolu.
+- [ ] **Recul** : ce que vous feriez différemment si vous recommenciez.
 
-## Remise et grille d'évaluation
+## Remise (cours 15)
 
-À venir
+La remise se fait sur **Teams** sous forme d'un fichier `.zip` nommé `nomfamille-prenom-projetfinal.zip`. 
 
-[STOP]
+Il doit contenir :
 
-## Remise
-
-Date : Cours 15 (remise du lien + présentation orale)
-
-Sur Teams, remettre **un seul fichier zip** nommé `nomfamille-prenom-projetfinal.zip` comprenant :
-
-- [ ] `nomfamille-prenom-projetfinal.fig` fichier source Figma
-- [ ] `nomfamille-prenom-projetfinal-figjam.pdf` export du tableau FigJam
-- [ ] `nomfamille-prenom-projetfinal-lien.txt` lien vers le prototype en mode lecture
+- [ ] Le fichier source : `nomfamille-prenom-projetfinal.fig`
+- [ ] Le FigJam en PDF : : `nomfamille-prenom-projetfinal.pdf`
+- [ ] Le lien partagé publiquement vers le prototype
 
 ## Grille d'évaluation
 
-### Document de conception -  2 pts
-
-| Points | Détails |
-| :---: | :--- |
-| 2 | Tous les éléments sont présents. Le moodboard est pertinent. La carte des scènes correspond fidèlement au jeu livré. |
-| 1 | Des éléments manquent ou le FigJam ne reflète pas le jeu final. |
-| 0 | Absent ou incomplet au point d'être inexploitable. |
-
-### Direction artistique -  4 pts
-
-| Points | Détails |
-| :---: | :--- |
-| 4 | L'univers visuel est cohérent et original. Palette, typographie et éléments graphiques sont harmonieux dans toutes les scènes. L'interface s'intègre à l'univers. |
-| 3 | La cohérence est globalement présente, mais quelques scènes ou éléments d'interface détonent. |
-| 2 | L'identité visuelle existe, mais l'application est inégale d'une scène à l'autre. |
-| 1 | Peu d'effort d'unité visuelle. Les scènes semblent traitées séparément. |
-| 0 | Aucune direction artistique perceptible. |
-
-### Mécaniques techniques -  6 pts
-
-**Mécaniques obligatoires -  2 pts**
-
-| Points | Détails |
-| :---: | :--- |
-| 2 | La navigation est animée et fluide. L'action conditionnelle inter-scènes fonctionne correctement dans les deux sens. |
-| 1 | L'une des deux mécaniques obligatoires fonctionne, ou les deux fonctionnent partiellement. |
-| 0 | Les mécaniques obligatoires sont absentes ou non fonctionnelles. |
-
-**Mécaniques au choix -  2 pts**
-
-| Points | Détails |
-| :---: | :--- |
-| 2 | Au moins 2 mécaniques au choix sont implantées et fonctionnent correctement du point de vue du joueur. |
-| 1 | Une seule mécanique au choix est présente, ou les deux fonctionnent partiellement. |
-| 0 | Aucune mécanique au choix n'est implantée. |
-
-**Utilisation des variables et conditions -  2 pts**
-
-| Points | Détails |
-| :---: | :--- |
-| 2 | Les variables sont nommées clairement et utilisées à bon escient. Les conditions produisent des résultats cohérents selon l'état du jeu. |
-| 1 | Les variables fonctionnent, mais leur usage est approximatif ou redondant. |
-| 0 | Aucune variable ou condition n'est utilisée. |
-
-### Expérience de jeu -  3 pts
-
-| Points | Détails |
-| :---: | :--- |
-| 3 | Le jeu se joue de début à fin sans blocage. Les messages contextuels guident le joueur. On comprend ce qu'on peut faire sans explication extérieure. |
-| 2 | Le jeu est jouable, mais certains moments sont confus ou un blocage mineur est possible. |
-| 1 | La progression est difficile à suivre ou nécessite une explication pour être comprise. |
-| 0 | Le jeu n'est pas jouable de bout en bout. |
-
-### Introduction animée -  2 pts
-
-| Points | Détails |
-| :---: | :--- |
-| 2 | L'introduction est animée, soignée et cohérente avec l'ambiance. Elle donne envie de jouer. |
-| 1 | Une animation est présente, mais l'introduction est sommaire ou mal intégrée à l'univers. |
-| 0 | Absente ou non animée. |
-
-### Présentation orale -  3 pts
-
-| Points | Détails |
-| :---: | :--- |
-| 3 | Le concept est expliqué clairement. Les mécaniques sont présentées avec précision. Un défi et une réflexion sur la version 2 sont abordés. Le temps est respecté. |
-| 2 | La présentation est complète, mais certains éléments sont survolés ou la structure manque de clarté. |
-| 1 | La présentation est incomplète ou difficile à suivre. |
-| 0 | Absence ou refus de présenter. |
-
----
+| Critère | 2 points | 1 point | 0 point |
+| ------- | -------- | ------- | ------- |
+| **FigJam** | Complet et validé | Incomplet ou peu détaillé | Absent ou non validé |
+| **Introduction animée** | Informations complètes, séquences animées, intégrée à l'univers, mène à une action pour commencer | Présente, mais incomplète ou peu soignée | Absente |
+| **Scènes obligatoires** | Menu principal, scène d'échec et de victoire sont fonctionnelles et permettent de recommencer | Incomplet ou partiellement fonctionnel | Absent ou non fonctionnel |
+| **Navigation et logique** | - La navigation entre scènes est agréable et animé subtilement. <br>- Au moins une action dans une scène influence l'état d'une autre | Partiellement fonctionnel | Absent ou non fonctionnel |
+| **Mécaniques au choix** | 4 mécaniques ou plus, toutes fonctionnelles et bien intégrées à l'univers | Incomplet ou partiellement fonctionnel | Absent ou non fonctionnel |
+| **Narration** | Messages contextuels et indices présents, entièrement en français, cohérents avec l'ambiance | Partiellement intégrée | Absente ou non conforme |
+| **Scènes de jeu** | Au moins 5 scènes distinctes, excluant le menu, l'introduction, la victoire et l'échec | 3 ou 4 scènes distinctes | Moins de 3 scènes ou scènes trop similaires |
+| **Direction artistique** | Palette, typographie et interface cohérentes; principes de design appliqués avec intention | Principes partiellement respectés | Principes non maîtrisés |
+| **Présentation orale** | Couvre tous les points demandés, propos clair et maîtrisé, durée respectée | Un ou deux points manquants ou dépassement de temps notable | Insuffisante ou absente |
+| **Respect des consignes** | Remise complète et conforme | Un ou deux éléments manquants ou mal nommés | Remise incomplète ou non conforme |
 
 **Total : / 20 points**
 

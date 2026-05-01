@@ -8,8 +8,8 @@ Cours du 13/14 avril
 
 ## Rappel
 Évaluations à venir
-- [Consignes offline](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EfB9wpiSijRDuRE-b99xoogBko5jH-F-xl-NNBs1UcAU3A?e=mK2ZZa) (à faire à la maison)
-- [Consignes online](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Eirc1eOoyoJOohvGRqzrdq4BPvVgMuWo1bCLzf8SYhPf1g?e=MDjgWc) (à faire à la maison)
+- [Consignes offline]() (à faire à la maison)
+- [Consignes online]() (à faire à la maison)
 
 
 ## Notions
