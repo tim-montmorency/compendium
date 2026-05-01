@@ -1,7 +1,24 @@
 # Collaboration avec GitHub
 
-Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même projet Unity. Ici nous verrons comment configurer votre projet.   
+Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même projet Unity. Ici nous verrons comment configurer votre projet.
 
+<!--
+## Prérequis
+
+Avant de commencer, assurez-vous que **Git LFS** (Large File Storage) est installé sur votre machine. Git LFS permet de stocker efficacement les gros fichiers binaires (textures, audio, vidéos, modèles 3D…) sans alourdir l'historique Git.
+
+=== "Mac"
+    ```bash
+    brew install git-lfs
+    git lfs install
+    ```
+
+=== "Windows"
+    Téléchargez et installez Git LFS depuis [git-lfs.com](https://git-lfs.com), puis dans un terminal :
+    ```bash
+    git lfs install
+    ```
+-->
 
 !!! warning "Attention"
 
@@ -15,9 +32,43 @@ Il est possible d'utiliser GitHub pour travailler à plusieurs sur le même proj
 - [ ] Cloner votre repo dans GitHub desktop pour travailler dessus.
 - [ ] Créer un projet unity (High Definition 3D (HDRP) pour travail VR, version 2022.3.45) dans le dossier de votre repo GitHub.
 - [ ] Déplacer le .gitignore dans le dossier de projet Unity.
+- [ ] Ajouter un fichier `.gitattributes` à la racine du projet Unity (voir ci-dessous).
 - [ ] Faire un commit dans GitHub desktop pour inclure notre projet Unity.
 - [ ] Ensuite, push to origin pour envoyer notre projet en ligne.
 - [ ] Dans GitHub en ligne, allez ajouter votre coéquipier dans Collaborators.
+
+<!-- 
+#### Fichier `.gitattributes`
+
+Créez un fichier nommé `.gitattributes` à la racine du projet Unity (au même niveau que le dossier `Assets`) avec le contenu suivant :
+
+```gitattributes
+# Activer le smart merge de Unity (UnityYAMLMerge)
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+
+# Stocker les fichiers binaires avec Git LFS
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+``` 
+-->
 
 ### Coéquipier 2
 - [ ] Accepter l'invitation de collaboration.
