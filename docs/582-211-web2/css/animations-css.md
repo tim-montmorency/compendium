@@ -61,17 +61,17 @@ Pour une animation plus élaborée, il est possible de spécifier plusieurs éta
 
 ## Propriétés d'animation CSS
 
-animation (raccourcie)
-animation-composition
-animation-delay
-animation-direction
-animation-duration
-animation-fill-mode
-animation-iteration-count
-animation-name
-animation-play-state
-animation-timeline
-animation-timing-function
+- animation (raccourcie)
+- animation-composition
+- animation-delay
+- animation-direction
+- animation-duration
+- animation-fill-mode
+- animation-iteration-count
+- animation-name
+- animation-play-state
+- animation-timeline
+- animation-timing-function
 
 <!--
 ## Événements
@@ -258,10 +258,12 @@ Valeurs possibles :
 - `backwards` : garde l'apparence donnée par l'animation au début
 - `both` : combine l'apparence donnée par l'animation au début et à la fin
 
+<br>
+
 Par exemple :
 
-1. 1 en vert : `animation-fill-mode : none`
-2. 2 en bleu: `animation-fill-mode : forwards`
+1. en vert : `animation-fill-mode : none`
+2. en bleu: `animation-fill-mode : forwards`
 
 <p class="codepen" data-theme-id="50210" data-height="400" data-pen-title="Animation-fill-mode" data-default-tab="result" data-slug-hash="KKBEoKX" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KKBEoKX">
@@ -285,7 +287,9 @@ Par exemple :
 
 ### `animation-play-state`
 
-Indique si une animation doit jouer ou être en pause.
+Indique si une animation doit *jouer* ou être en *pause*.
+
+<br>
 
 Valeurs possibles :
 

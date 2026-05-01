@@ -35,7 +35,7 @@ transition-property: background-color, width, margin-top;
 > Lea Verou 👩‍💻 a mis sur pied une page permettant de visualiser rapidement les différentes propriétés animables.
 
 
-## transition-duration
+## `transition-duration`
 
 Définit la durée de la transition. Ce nombre peut être en secondes ou en millisecondes. `1s = 1000ms`.
 
@@ -64,9 +64,11 @@ Par exemple, au survol trois fois la même transition, mais avec des durées dif
 > Pour cet exercice nous allons effectuer une transition sur le masque de Spider-Man afin de le faire passer d'un costume à un autre.
 
 
-## transition-timing-function
+## `transition-timing-function`
 
 Dicte le rythme de la transition. Par exemple, dans la transition précédente on remarque que chaque carré accélère progressivement avant de ralentir ensuite. Ce rythme est appelé `ease` et est celui par défaut des transitions.
+
+<br>
 
 L'exemple suivant contient six fois la même transition au survol, mais avec des rythmes différents :
 
@@ -97,7 +99,7 @@ L'exemple suivant contient six fois la même transition au survol, mais avec des
 > Outil développé par Lea Verou permettant de créer et de visualiser facilement des courbes de Bézier.
 
 
-## transition-delay
+## `transition-delay`
 
 Définit le temps d'attente avant le début d'une transition. Par défaut, sa valeur est `0s`, ce qui signifie que la transition démarre immédiatement. Si une valeur négative est spécifiée, la transition commencera comme si ce laps de temps s'était déjà écoulé — l'animation démarrera donc à quelque part au milieu de sa course.
 
@@ -133,21 +135,25 @@ Afin de simplifier l'écriture des transitions, il est possible de regrouper tou
 
 Il suffit d'appeler la propriété `transition` et de lui passer au minimum deux valeurs :
 
-1. La ou les propriétés à transitionner
-2. La durée de la transition
+1. La ou les *propriétés* à transitionner
+2. La *durée* de la transition
+
+<br>
 
 Par exemple :
 
-```css
+```css "Par exemple :"
 transition-property: transform;
 transition-duration: 1s;
 ```
 
 Pourrait devenir :
 
-```css
+```css "Pourrait devenir :"
 transition: transform 1s;
 ```
+
+---
 
 ### Syntaxe courte: Valeurs optionnelles
 
@@ -170,6 +176,8 @@ Dans l'ordre: `transition-property` `transition-duration` `transition-delay` `tr
 Par défaut, *une transition définie sur l'élément de base* s'applique dans les deux sens : à l'entrée du survol et à la sortie.
 
 En la plaçant sur `:hover` uniquement, la transition n'existe que lorsque l'état est actif donc le retour à l'état initial se fait donc sans animation.
+
+<br>
 
 **Par exemple :**
 
