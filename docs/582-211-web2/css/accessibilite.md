@@ -55,13 +55,12 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 
 <br>
 
-> ℹ️ **Rappel : les variables CSS ne règlent pas le problème**
->
-> Définir `--couleur-texte: #aaa` dans `:root` et l'utiliser partout ne garantit pas un contraste suffisant. Le ratio dépend toujours de la **combinaison texte + arrière-plan**. Un même gris peut être acceptable sur blanc et inaccessible sur fond coloré.
+!!! warning "Rappel : les variables CSS ne règlent pas le problème"
+    Définir `--couleur-texte: #aaa` dans `:root` et l'utiliser partout ne garantit pas un contraste suffisant. Le ratio dépend toujours de la **combinaison texte + arrière-plan**. Un même gris peut être acceptable surfond blanc et inaccessible sur fond coloré.
 
+<br>
 
-
-<p class="codepen" data-theme-id="50210" data-height="1100" data-pen-title="DEMO accessibilité: constrate" data-version="2" data-default-tab="result" data-slug-hash="JoRVEKx" data-user="tim-momo" style="height: 1100px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50173" data-height="1000" data-pen-title="DEMO accessibilité: constrate" data-version="2" data-default-tab="result" data-slug-hash="JoRVEKx" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da899-7223-79fb-8060-f2b5ecabf817">
   DEMO accessibilité: constrate</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
