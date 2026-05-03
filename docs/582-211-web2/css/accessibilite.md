@@ -61,7 +61,7 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 
 ### Petit exercice d'observation
 
-- [ ] 1. Ouvre le wiki du cours, la page courante dans Google Chrome: https://tim-montmorency.com/compendium/582-211-web2/css/accessibilite.html
+- [ ] 1. Ouvre le wiki du cours, la page courante dans Google Chrome: [https://tim-montmorency.com/compendium/582-211-web2/css/accessibilite.html#petit-exercice-dobservation](https://tim-montmorency.com/compendium/582-211-web2/css/accessibilite.html#petit-exercice-dobservation)
 - [ ] 2. Si ce n'est pas le cas, mets le site en **dark mode** via cet icône en haut à droite: <img src="../assets/ico-darkmode.png" alt="Bouton dark mode" style="width: 30px; display: inline;">
 - [ ] 3. Inspecte *ce texte jaune* ⬅️
 - [ ] 4. Clique sur la pastille de couleur dans le panneau CSS
