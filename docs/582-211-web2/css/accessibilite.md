@@ -6,7 +6,7 @@ L'accessibilité n'est pas une étape qu'on ajoute à la fin. C'est une série d
 
 Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le code généré par l'IA passe rarement les audits d'accessibilité sans correction. Il produit du HTML qui fonctionne visuellement, mais ignore systématiquement ce qui n'est pas visible à l'écran.
 
-## Grandes lignes
+### Grand résumé
 
 - Contraste et lisibilité¶
 - Focus visible et navigation clavier
