@@ -360,7 +360,7 @@ Ce qu'il ne peut pas détecter automatiquement :
 
 La démo suivante présente une page avec des erreurs d'accessibilité intentionnelles. On va l'auditer ensemble avec Lighthouse et axe DevTools pour voir exactement ce que les outils détectent : et ce qu'ils manquent.
 
-[Voir la page de démo →](https://elated-meadow-ladybird.codepen.app/)
+[Voir la page de démo →](https://kid-synthetique.github.io/demo-accessibilite_maison-verdure/)
 
 
 
