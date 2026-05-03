@@ -315,10 +315,49 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 <img src="separateur-decoratif.png" alt="">
 ```
 
-### Les attributs `aria`
 
-Aria-label, aria-current
+### Attributs ARIA essentiels
 
+Quand le HTML sémantique ne suffit pas à décrire l'intention d'un élément, les attributs **ARIA** (*Accessible Rich Internet Applications*) prennent le relais. Ils transmettent aux technologies d'assistance des informations que le code visuel ne peut pas exprimer seul.
+
+Les quatre attributs les plus courants en intégration :
+
+**`aria-label`** : Donne un nom explicite à un élément interactif quand son contenu textuel est absent ou insuffisant (ex. : un bouton avec seulement une icône).
+
+```html
+<!-- ❌ Le lecteur d'écran annonce "bouton" sans contexte -->
+<button><img src="fermer.svg"></button>
+
+<!-- ✅ Le lecteur d'écran annonce "Fermer le menu" -->
+<button aria-label="Fermer le menu"><img src="fermer.svg" alt=""></button>
+```
+
+**`aria-hidden`** : Masque un élément aux technologies d'assistance. Utile pour les icônes décoratives ou les éléments visuels redondants.
+
+```html
+<!-- L'icône est décorative : le lecteur d'écran l'ignore -->
+<span aria-hidden="true">★</span> Favori
+```
+
+**`aria-expanded`** : Indique si un élément dépliable (accordéon, menu) est ouvert ou fermé. Doit être mis à jour dynamiquement via JavaScript.
+
+```html
+<button aria-expanded="false" aria-controls="menu-nav">
+  Menu
+</button>
+<nav id="menu-nav" hidden>...</nav>
+```
+
+**`role`** : Redéfinit le rôle sémantique d'un élément quand la balise HTML ne reflète pas son usage réel.
+
+```html
+<!-- Une div utilisée comme bouton : le clavier ne fonctionnera pas
+     sans tabindex, mais le rôle aide les lecteurs d'écran -->
+<div role="button" tabindex="0">Ajouter au panier</div>
+```
+
+!!! tip "Règle d'or ARIA"
+    N'utilise pas ARIA pour corriger un mauvais choix de balise sémantique. Si tu peux utiliser `<button>`, `<nav>` ou `<a>`, fais-le : c'est toujours préférable.
 
 
 ## *Auditer* avec Lighthouse et axe DevTools
@@ -374,4 +413,5 @@ La démo suivante présente une page avec des erreurs d'accessibilité intention
 | États hover, focus, active | Tester manuellement chaque état |
 | Hiérarchie des titres | Onglet Accessibility dans DevTools |
 | Textes alternatifs pertinents | Lire chaque alt à voix haute : est-ce utile? |
+| Attributs ARIA présents et pertinents | Lire chaque attribut : est-ce qu'il compense un vrai manque sémantique? |
 | Audit global | Lighthouse > Accessibility |
