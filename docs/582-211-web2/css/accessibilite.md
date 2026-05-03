@@ -133,7 +133,7 @@ Un indicateur de focus accessible doit être :
 
 <br>
 
-<p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="DEMO accessibilité: focus" data-version="2" data-default-tab="result" data-slug-hash="pvEBYzP" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50173" data-height="340" data-pen-title="DEMO accessibilité: focus" data-version="2" data-default-tab="result" data-slug-hash="pvEBYzP" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019dad33-ad5a-767e-8a34-921a551e4fee">
   DEMO accessibilité: focus</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -223,15 +223,14 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 
 <br>
 
-> ⚠️ **L'erreur la plus fréquente**
->
-> Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas : l'état actif est le seul feedback visuel disponible.
+!!! warning "L'erreur la plus fréquente"
+    Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas : l'état actif est le seul feedback visuel disponible.
 
 <br>
 
-<p class="codepen" data-theme-id="50210" data-height="1200" data-pen-title="DEMO accessibilité: etats" data-version="2" data-default-tab="result" data-slug-hash="ZYpZLpo" data-user="tim-momo" style="height: 1200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-theme-id="50173" data-height="1000" data-pen-title="DEMO accessibilité: états interactifs" data-version="2" data-default-tab="result" data-slug-hash="ZYpZLpo" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019da89c-0ae6-760e-98ff-1fc52dde791d">
-  DEMO accessibilité: etats</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  DEMO accessibilité: états interactifs</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
@@ -336,9 +335,8 @@ Ce qu'il ne peut pas détecter automatiquement :
 - Si la navigation clavier est **logique** (ordre du focus)
 - Si le contenu est **compréhensible** pour quelqu'un qui ne voit pas la page
 
-> ℹ️ **À venir dans 2-3 semaines**
->
-> Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
+!!! tip "À venir dans 1 semaine"
+    Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
 
 <br>
 
