@@ -341,7 +341,7 @@ Ce qu'il ne peut pas détecter automatiquement :
 - Si la navigation clavier est **logique** (ordre du focus)
 - Si le contenu est **compréhensible** pour quelqu'un qui ne voit pas la page
 
-!!! tip "À venir dans 1 semaine"
+!!! tip "Cette semaine, avant la remise"
     Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
 
 <br>
