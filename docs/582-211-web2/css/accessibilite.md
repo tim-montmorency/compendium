@@ -14,7 +14,7 @@ Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le
 - Structure sémantique et textes alternatifs
 - Auditer avec Lighthouse et axe DevTools
 
-## Contraste et lisibilité
+## *Contraste* et lisibilité
 
 ### Les deux seuils à retenir (WCAG AA)
 
@@ -49,7 +49,7 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 
 <br>
 
-### Vérifier le contraste directement dans *DevTools*
+### Vérifier le contraste directement dans DevTools
 
 *Chrome DevTools* affiche le ratio de contraste directement dans le *color picker* :
 
@@ -88,7 +88,7 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## Focus visible et navigation clavier
+## *Focus visible* et navigation clavier
 
 ### Pourquoi c'est important
 
@@ -165,7 +165,7 @@ Si tu perds ta position à un moment, c'est un problème d'accessibilité.
 
 
 
-## Tailles de clic et états interactifs
+## *Tailles de clic* et états interactifs
 
 ### La taille minimale recommandée
 
@@ -243,7 +243,7 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 
 
 
-## Structure sémantique et textes alternatifs
+## Structure *sémantique* et *textes alternatifs*
 
 ### Le HTML sémantique comme fondation
 
