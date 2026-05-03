@@ -347,7 +347,7 @@ La présentation orale du projet sera individuelle entre l'étudiant et l'enseig
 Chaque étudiant présente son interface. La présentation doit couvrir :
 
 1. **L'interface finale**: démonstration en direct aux trois résolutions
-2. **Deux décisions techniques**  : expliquez pourquoi vous avez fait ce choix (ex. : choix de Flexbox vs container query, structure BEM d'un composant)
+2. **Deux décisions techniques**  : expliquez pourquoi vous avez fait ce choix (ex. : expliquer le placement de certains éléments avec Flexbox, media query VS container query, structure BEM d'un composant)
 3. **La zone libre**  : présentez votre conception et justifiez vos choix visuels
 4. **L'utilisation de l'IA**  : si utilisée, montrez un exemple concret de votre démarche (requête → résultat → jugement critique)
 5. **Un défi rencontré**  : qu'est-ce qui a été difficile et comment l'avez-vous surmonté?

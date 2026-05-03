@@ -247,7 +247,7 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 
 
 
-## Structure *sémantique* et *textes alternatifs*
+## Structure HTML *sémantique* 
 
 ### Le HTML sémantique comme fondation
 
@@ -295,7 +295,9 @@ Les titres (`h1` à `h6`) structurent la page comme une table des matières. Un 
 
 <br>
 
-### Textes alternatifs
+## Attributs d'accessibilité
+
+### Textes alternatifs via l'attribut `alt`
 
 Toute image qui porte une **information** doit avoir un attribut `alt` descriptif. Une image purement décorative doit avoir un `alt` vide pour être ignorée par les lecteurs d'écran.
 
@@ -312,6 +314,10 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 <!-- ✅ Image décorative : ignorée par les lecteurs d'écran -->
 <img src="separateur-decoratif.png" alt="">
 ```
+
+### Les attributs `aria`
+
+Aria-label, aria-current
 
 
 
