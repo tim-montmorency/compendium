@@ -12,7 +12,7 @@ Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le
 - *Focus visible* et *navigation clavier*
 - *Tailles de clic* et *états interactifs*
 - *Structure sémantique* 
-- *Attributs* d'accessiblité: *Textes alternatifs* et *AREA*
+- *Attributs* d'accessiblité: *Textes alternatifs*, *AREA*, *lien entre label et input*
 - *Auditer* avec [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb) et [axe DevTools](https://chromewebstore.google.com/detail/lhdoppojpmngadmnindnejefpokejbdd?utm_source=item-share-cb)
 
 ## *Contraste* et *lisibilité*
@@ -323,7 +323,9 @@ Quand le HTML sémantique ne suffit pas à décrire l'intention d'un élément, 
 
 Les quatre attributs les plus courants en intégration :
 
-**`aria-label`** : Donne un nom explicite à un élément interactif quand son contenu textuel est absent ou insuffisant (ex. : un bouton avec seulement une icône).
+#### `aria-label`
+
+Donne un nom explicite à un élément interactif quand son contenu textuel est absent ou insuffisant (ex. : un bouton avec seulement une icône).
 
 ```html
 <!-- ❌ Le lecteur d'écran annonce "bouton" sans contexte -->
@@ -333,14 +335,18 @@ Les quatre attributs les plus courants en intégration :
 <button aria-label="Fermer le menu"><img src="fermer.svg" alt=""></button>
 ```
 
-**`aria-hidden`** : Masque un élément aux technologies d'assistance. Utile pour les icônes décoratives ou les éléments visuels redondants.
+#### `aria-hidden`
+
+Masque un élément aux technologies d'assistance. Utile pour les icônes décoratives ou les éléments visuels redondants.
 
 ```html
 <!-- L'icône est décorative : le lecteur d'écran l'ignore -->
 <span aria-hidden="true">★</span> Favori
 ```
 
-**`aria-expanded`** : Indique si un élément dépliable (accordéon, menu) est ouvert ou fermé. Doit être mis à jour dynamiquement via JavaScript.
+#### `aria-expanded`
+
+Indique si un élément dépliable (accordéon, menu) est ouvert ou fermé. Doit être mis à jour dynamiquement via JavaScript.
 
 ```html
 <button aria-expanded="false" aria-controls="menu-nav">
@@ -349,7 +355,9 @@ Les quatre attributs les plus courants en intégration :
 <nav id="menu-nav" hidden>...</nav>
 ```
 
-**`role`** : Redéfinit le rôle sémantique d'un élément quand la balise HTML ne reflète pas son usage réel.
+#### `role`
+
+Redéfinit le rôle sémantique d'un élément quand la balise HTML ne reflète pas son usage réel.
 
 ```html
 <!-- Une div utilisée comme bouton : le clavier ne fonctionnera pas
@@ -357,8 +365,24 @@ Les quatre attributs les plus courants en intégration :
 <div role="button" tabindex="0">Ajouter au panier</div>
 ```
 
+<br>
+
 !!! tip "Règle d'or ARIA"
     N'utilise pas ARIA pour corriger un mauvais choix de balise sémantique. Si tu peux utiliser `<button>`, `<nav>` ou `<a>`, fais-le : c'est toujours préférable.
+
+### *Liens entre champs `<input>` et étiquettes `<label>`*
+
+Tout champ de formulaire doit être **explicitement lié** à son étiquette via l'attribut `for` (sur le `<label>`) et `id` (sur le champ). Sans ce lien, le lecteur d'écran ne sait pas à quoi correspond le champ.
+
+```html
+<!-- ❌ Label et champ non liés : le lecteur d'écran les annonce séparément -->
+<label>Courriel</label>
+<input type="email">
+
+<!-- ✅ Lien explicite : cliquer sur le label active le champ -->
+<label for="courriel">Courriel</label>
+<input type="email" id="courriel">
+```
 
 
 ## *Auditer* avec Lighthouse et axe DevTools
@@ -368,6 +392,9 @@ Les quatre attributs les plus courants en intégration :
 [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb) (intégré à Chrome DevTools) donne un **score global** et une liste de problèmes avec leur impact. Idéal pour un audit rapide et une vue d'ensemble.
 
 **[axe DevTools](https://chromewebstore.google.com/detail/lhdoppojpmngadmnindnejefpokejbdd?utm_source=item-share-cb)** (extension Chrome) est plus précis sur les **violations spécifiques** du WCAG. Il indique exactement quel critère est violé et pourquoi.
+
+!!! info "En savoir plus sur le score d'accessiblité de LightHouse"
+    [Visitez la documentation (en français) de LightHouse sur le score de l'audit sur l'accessibilité](https://developer.chrome.com/docs/lighthouse/accessibility/scoring?hl=fr)
 
 <br>
 
