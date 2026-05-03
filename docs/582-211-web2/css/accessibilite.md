@@ -297,7 +297,7 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 <img src="logo.png" alt="image du logo">
 
 <!-- ✅ Alt informatif -->
-<img src="graphique-ventes-q3.png" alt="Ventes Q3: hausse: 23% par rapport à Q2">
+<img src="graphique-ventes-q3.png" alt="Ventes Q3:hausse:23% par rapport à Q2">
 
 <!-- ✅ Image décorative : ignorée par les lecteurs d'écran -->
 <img src="separateur-decoratif.png" alt="">
