@@ -66,7 +66,7 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 - [ ] 3. Inspecte *ce texte jaune* ⬅
 - [ ] 4. Clique sur la pastille de couleur dans le panneau CSS
 - [ ] 5. Observe le ratio de contraste...  Quel est-il? Est-ce que ça passe les normes de lisiblité et d'accessibilité selon WCAG ?
-- [ ] 6. Change maintenet le site en **light mode** via cet icône en haut à droite: <img src="../assets/ico-lightmode.pngpng" alt="Bouton light mode" style="width: 30px; display: inline;">
+- [ ] 6. Change maintenet le site en **light mode** via cet icône en haut à droite: <img src="../assets/ico-lightmode.png" alt="Bouton light mode" style="width: 30px; display: inline;">
 - [ ] 7. Inspecte *ce texte jaune* ⬅
 - [ ] 8. Clique sur la pastille de couleur dans le panneau CSS
 - [ ] 9. Observe le ratio de contraste...  Maintenant qu'est-il? Est-ce que ça passe les normes de lisiblité et d'accessibilité selon WCAG ?
@@ -341,8 +341,8 @@ Ce qu'il ne peut pas détecter automatiquement :
 - Si la navigation clavier est **logique** (ordre du focus)
 - Si le contenu est **compréhensible** pour quelqu'un qui ne voit pas la page
 
-!!! tip "Cette semaine, avant la remise"
-    Tu auras à faire un audit Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
+!!! tip "Cette semaine (semaine 4), avant la remise"
+    Tu auras à faire un audit d'accessibilité avec Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
 
 <br>
 
