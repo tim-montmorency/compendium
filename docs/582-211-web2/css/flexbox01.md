@@ -78,7 +78,7 @@ On utilise les propriétés qui suivent sur le conteneur (balise parent directe)
 }
 ```
 
-### `flex-direction` - Direction du flux
+### :material-flex-direction: `flex-direction` - Direction du flux
 
 Définit la direction de l'axe principal.
 
