@@ -22,7 +22,7 @@ Lundi 27 avril / mercredi 29 avril
 
 - [Groupe du lundi matin: MFAQQI](https://app.wooclap.com/MFAQQI)
 - [Groupe du lundi après-midi: ZCBYTG](https://app.wooclap.com/ZCBYTG)
-- [Groupe du mercredi](https://app.wooclap.com/)
+- [Groupe du mercredi](https://app.wooclap.com/PUAYQN)
 
 ## Révision des exercices du cours précédent
 
@@ -46,7 +46,7 @@ Pour le reste du cours:
 
 - Je suis disponible pour des rencontres individuelles pour vous aider à avancer votre projet Solarix.
 - Avancer le projet intégrateur: Solarix
-  - Vous devriez avoir terminé ce qui était prévu pour al semaine 2 et entâmer ce qui est prévu pour la semaine 3, dès maintenant.
+  - Vous devriez avoir terminé ce qui était prévu pour la semaine 2 et entâmer ce qui est prévu pour la semaine 3, dès maintenant.
   - Répondre aux questions du *journal de bord - Semaine 3* d'ici la semaine prochaine.
 
 

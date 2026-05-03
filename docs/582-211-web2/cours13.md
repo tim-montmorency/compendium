@@ -30,8 +30,11 @@ Refactorisation, qualité CSS et collaboration avec l'IA
 
 ## Vérificatiion de votre jounral de bord
 
-- La semaine 2 devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 2 et appliqué au moins une chose vue dans le cours 11 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 11* afin que je puisse les repérer facilement lors de la correction).
-- Nous entamons maintenant la semaine 3.
+- La semaine 3 devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 3 et appliqué au moins une chose vue dans le cours 12 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
+- Nous entamons maintenant la dernière semaine, la semaine 4.
+
+
+[Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
 ## Annonce
@@ -42,14 +45,10 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante.
 
 Je vous attribue votre créneau horaire précis aujourd'hui.
 
-[Consignes des présentations orales du projet de synthèse](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+[Voici l'ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
 
 
 
-
-Finalement, je cours d'aujourd'hui est sur l'accessiblité.
-
-15-30 min au début, le reste du cours c'est travail sur le projet Solarix.
 
 ## Accessibilité & robustesse
 
