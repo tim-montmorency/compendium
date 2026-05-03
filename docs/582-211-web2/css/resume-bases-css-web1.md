@@ -84,7 +84,7 @@ font-family: Arial;
 Chaque déclaration est constituée d'une **propriété** et d'une **valeur**.
 
 
-## Padding
+## :material-padding: Padding
 
 La propriété `padding` définit l'espace entre le contenu et ses extrémités.
 
@@ -150,7 +150,7 @@ Afin d'obtenir un format 16/9, il suffit de ramener la valeur de hauteur de cett
 Cet élément sera donc toujours dans un format 16/9, peu importe la largeur de son parent.
 
 
-## Margin
+## :material-margin: Margin
 
 La propriété `margin` définit un espace vide devant être respecté autour d'un élément — bref, une marge.
 
