@@ -186,10 +186,10 @@ Le WCAG 2.5.5 recommande une zone cliquable d'au moins **44 × 44 pixels** pour 
 .btn-icone {
   width: 16px;
   height: 16px;
-  padding: 14px; /* zone de clic : 44×44px */
+  padding: 14px; /* zone de clic : 44×44px: 16px+14px+14px=44px */
 }
 
-/* ✅ Ou avec min-width / min-height */
+/* ✅ Ou avec min-width / min-height et centrer avec flexbox */
 .btn-icone {
   min-width: 44px;
   min-height: 44px;
@@ -234,7 +234,7 @@ Un élément cliquable doit avoir un style distinct pour chacun de ces états :
 <br>
 
 !!! warning "L'erreur la plus fréquente"
-    Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas : l'état actif est le seul feedback visuel disponible.
+    Définir uniquement `:hover` et oublier `:focus-visible` et `:active`. Sur mobile, `:hover` n'existe pas : l'état `:active` est le seul feedback visuel disponible.
 
 <br>
 
