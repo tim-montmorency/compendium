@@ -8,7 +8,7 @@ Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le
 
 ### Grand résumé
 
-- Contraste et lisibilité¶
+- Contraste et lisibilité
 - Focus visible et navigation clavier
 - Tailles de clic et états interactifs
 - Structure sémantique et textes alternatifs
@@ -315,7 +315,7 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 
 
 
-## Auditer avec Lighthouse et axe DevTools
+## *Auditer* avec Lighthouse et axe DevTools
 
 ### Deux outils, deux usages
 
