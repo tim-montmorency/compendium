@@ -8,13 +8,14 @@ Ce qui distingue un intégrateur compétent d'un outil qui génère du code : le
 
 ### Grand résumé
 
-- Contraste et lisibilité
-- Focus visible et navigation clavier
-- Tailles de clic et états interactifs
-- Structure sémantique et textes alternatifs
-- Auditer avec Lighthouse et axe DevTools
+- *Contraste* et *lisibilité*
+- *Focus visible* et *navigation clavier*
+- *Tailles de clic* et *états interactifs*
+- *Structure sémantique* 
+- *Attributs* d'accessiblité: *Textes alternatifs* et *AREA*
+- *Auditer* avec [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb) et [axe DevTools](https://chromewebstore.google.com/detail/lhdoppojpmngadmnindnejefpokejbdd?utm_source=item-share-cb)
 
-## *Contraste* et lisibilité
+## *Contraste* et *lisibilité*
 
 ### Les deux seuils à retenir (WCAG AA)
 
@@ -92,7 +93,7 @@ Le *WCAG* (Web Content Accessibility Guidelines) définit des ratios de contrast
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## *Focus visible* et navigation clavier
+## *Focus visible* et *navigation clavier*
 
 ### Pourquoi c'est important
 
@@ -169,7 +170,7 @@ Si tu perds ta position à un moment, c'est un problème d'accessibilité.
 
 
 
-## *Tailles de clic* et états interactifs
+## *Tailles de clic* et *états interactifs*
 
 ### La taille minimale recommandée
 
@@ -295,9 +296,9 @@ Les titres (`h1` à `h6`) structurent la page comme une table des matières. Un 
 
 <br>
 
-## Attributs d'accessibilité
+## *Attributs* d'accessibilité
 
-### Textes alternatifs via l'attribut `alt`
+### *Textes alternatifs* via l'attribut `alt`
 
 Toute image qui porte une **information** doit avoir un attribut `alt` descriptif. Une image purement décorative doit avoir un `alt` vide pour être ignorée par les lecteurs d'écran.
 
@@ -316,7 +317,7 @@ Toute image qui porte une **information** doit avoir un attribut `alt` descripti
 ```
 
 
-### Attributs ARIA essentiels
+### *Attributs ARIA* essentiels
 
 Quand le HTML sémantique ne suffit pas à décrire l'intention d'un élément, les attributs **ARIA** (*Accessible Rich Internet Applications*) prennent le relais. Ils transmettent aux technologies d'assistance des informations que le code visuel ne peut pas exprimer seul.
 
@@ -364,9 +365,9 @@ Les quatre attributs les plus courants en intégration :
 
 ### Deux outils, deux usages
 
-**Lighthouse** (intégré à Chrome DevTools) donne un **score global** et une liste de problèmes avec leur impact. Idéal pour un audit rapide et une vue d'ensemble.
+[Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb) (intégré à Chrome DevTools) donne un **score global** et une liste de problèmes avec leur impact. Idéal pour un audit rapide et une vue d'ensemble.
 
-**axe DevTools** (extension Chrome) est plus précis sur les **violations spécifiques** du WCAG. Il indique exactement quel critère est violé et pourquoi.
+**[axe DevTools](https://chromewebstore.google.com/detail/lhdoppojpmngadmnindnejefpokejbdd?utm_source=item-share-cb)** (extension Chrome) est plus précis sur les **violations spécifiques** du WCAG. Il indique exactement quel critère est violé et pourquoi.
 
 <br>
 
