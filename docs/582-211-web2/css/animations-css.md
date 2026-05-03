@@ -314,7 +314,7 @@ Valeurs possibles :
 
 ---
 
-### Animations activées par le *scroll*, sans JavaScript!
+### Animations activées par le scroll, sans JavaScript!
 
 *NOUVEAU NOUVEAU NOUVEAU*
 
