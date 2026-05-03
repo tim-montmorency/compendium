@@ -10,7 +10,7 @@
  https://tim-montmorency.com/timdoc/index/web/css/
  https://tim-montmorency.com/timdoc/index/web/html/
 
- 
+
 
  Les icones proviennent de material design 
 
@@ -20,4 +20,11 @@
  https://fonts.google.com/icons?icon.query=align&icon.size=24&icon.color=%231f1f1f
  https://fonts.google.com/icons?icon.query=border&icon.size=24&icon.color=%231f1f1f
  https://fonts.google.com/icons?icon.query=padding&icon.size=24&icon.color=%231f1f1f
+
+
+ Oups finalement material design for mkdocs ne semble pas avori autant d'icones... 
+
+ https://pictogrammers.com/library/mdi/
+
+ 
 -->
