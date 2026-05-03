@@ -1,9 +1,8 @@
 
 # Variables, unités relatives & fonctions
 
-## VARIABLES CSS ET DESIGN TOKENS
 
-### Variable CSS
+## Variable CSS et design tokens
 
 Les variables CSS (aussi appelées "custom properties") permettent de stocker des valeurs réutilisables dans votre code. Au lieu de répéter `#3B82F6` partout, vous définissez la valeur une fois et la réutilisez.
 
@@ -37,7 +36,7 @@ Les variables CSS (aussi appelées "custom properties") permettent de stocker de
 }
 ```
 
-#### Système de nomenclature des couleurs
+### Système de nomenclature des couleurs
 
 Quand on organise nos design tokens de couleurs, on suit généralement un système de nomenclature standardisé qui vient de frameworks comme [Tailwind](https://tailwindcss.com/docs/colors) ou [Bootstrap](https://getbootstrap.com/docs/5.3/customize/color/) et des systèmes de design professionnels.
 
@@ -109,11 +108,11 @@ Un **design token** est une variable CSS qui représente une décision de design
 
 
 
-## UNITÉS RELATIVES ET FLEXIBLES
+## Unités relatives et flexibles
 
 Les unités relatives s'adaptent au contexte, contrairement aux pixels (`px`) qui sont fixes.
 
-#### `rem` - Relative à la racine (root)
+### `rem` - Relative à la racine (root)
 
 `1rem` = taille de police définie sur l'élément `<html>` (généralement 16px par défaut dans les navigateurs)
 
@@ -184,9 +183,9 @@ Souvent utilisé pour les largeurs et hauteurs.
 
 
 
-## FONCTIONS CSS
+## Fonctions CSS
 
-#### `calc()` - Faire des calculs
+### `calc()` - Faire des calculs
 
 Permet de combiner différentes unités et faire des opérations mathématiques.
 ```css
@@ -210,7 +209,7 @@ width: calc(100% - 20px); /* ✅ Bon */
 width: calc(100%-20px);    /* ❌ Ne fonctionnera pas */
 ```
 
-#### `clamp()` - Valeur fluide avec limites
+### `clamp()` - Valeur fluide avec limites
 
 Définit une valeur qui s'adapte mais reste entre un minimum et un maximum.
 
@@ -244,7 +243,7 @@ clamp(minimum, valeur-préférée, maximum)
 
 **Pourquoi c'est génial ?** Crée des designs fluides sans media queries !
 
-#### `min()` et `max()` - Choisir la plus petite/grande valeur
+### `min()` et `max()` - Choisir la plus petite/grande valeur
 ```css
 /* Prend la PLUS PETITE valeur */
 .element {
