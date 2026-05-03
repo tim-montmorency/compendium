@@ -38,7 +38,7 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 
 ### Démo Lighthouse
 
-Demo de [Maison Verdure](https://elated-meadow-ladybird.codepen.app/), inspection avec Lighthouse (Chrome DevTools).
+Demo de [Maison Verdure](https://kid-synthetique.github.io/demo-accessibilite_maison-verdure/), inspection avec Lighthouse (Chrome DevTools).
 
 
 ## Devoir
