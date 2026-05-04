@@ -367,6 +367,38 @@ Redéfinit le rôle sémantique d'un élément quand la balise HTML ne reflète 
 
 <br>
 
+##### Repères de navigation (landmarks)
+
+[Le document doit avoir une *balise ARIA principale* (main landmark)](https://dequeuniversity.com/rules/axe/4.11/landmark-one-main?lang=fr). 
+
+
+### Repères de navigation (*landmarks*)
+
+Pour qu'un lecteur d'écran puisse **sauter directement au contenu principal** sans réécouter l'entête à chaque page, la page doit contenir une balise `<main>`. C'est ce qu'on appelle un *landmark* ARIA : un repère de navigation structurel.
+
+Il est recommandé d'utiliser conjointement les balises HTML5 sémantiques **et** leurs équivalents ARIA, pour maximiser la compatibilité avec toutes les technologies d'assistance :
+
+| Balise HTML5 | Équivalent ARIA |
+|---|---|
+| `<header>` | `role="banner"` |
+| `<nav>` | `role="navigation"` |
+| `<main>` | `role="main"` |
+| `<footer>` | `role="contentinfo"` |
+
+```html
+<!-- ✅ Structure robuste : HTML5 + ARIA -->
+<header role="banner">...</header>
+<nav role="navigation">...</nav>
+<main role="main">...</main>
+<footer role="contentinfo">...</footer>
+```
+
+!!! tip
+    En pratique, les navigateurs modernes reconnaissent bien les balises HTML5 seules. Ajouter le `role` ARIA reste une bonne habitude pour garantir la compatibilité avec les lecteurs d'écran plus anciens.
+
+
+<br>
+
 !!! tip "Règle d'or ARIA"
     N'utilise pas ARIA pour corriger un mauvais choix de balise sémantique. Si tu peux utiliser `<button>`, `<nav>` ou `<a>`, fais-le : c'est toujours préférable.
 
