@@ -141,15 +141,15 @@ Toutes les animations et transitions doivent être réalisées en CSS uniquement
 
 ### Responsive
 
-- Trois points de rupture minimum : mobile, tablette, desktop
+- Deux points de rupture minimum pour 3 formats de layout: *mobile*, *tablette*, *desktop*
 - La disposition doit être fidèle à la maquette fournie à chaque résolution
 
 ### Accessibilité
 
 - Respect des critères WCAG de base (contraste, focus visible, tailles de cible)
 - Navigation possible au clavier
-- Audit obligatoire avec Lighthouse ou axe DevTools (voir journal de bord, semaine 4)
-- Version *mode sombre (dark mode)* pour respecter les préférence de thème de l'utilisateur
+- Audit obligatoire avec **Lighthouse** (inclus dans Google Chrome) ou **axe DevTools** (extension Google Chrome (installation d'extension bloqué par le collège)). Voir journal de bord, semaine 4.
+- Créer une version *mode sombre (dark mode)* pour respecter les préférence de thème de l'utilisateur.
 
 
 ## Politique d'utilisation de l'intelligence artificielle
@@ -316,6 +316,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 **Contenu attendu :**
 
+- Ajout des [transitions des éléments interactifs et animations CSS](#animations-et-transitions-nouveau)
 - Interface finalisée et peaufinée
 - Audit d'accessibilité complété
 - Journal de bord complet
