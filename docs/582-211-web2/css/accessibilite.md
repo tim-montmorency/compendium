@@ -428,7 +428,7 @@ Tout champ de formulaire doit être **explicitement lié** à son étiquette via
 
 ### Deux outils, deux usages
 
-[Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb) (intégré à Chrome DevTools) donne un **score global** et une liste de problèmes avec leur impact. Idéal pour un audit rapide et une vue d'ensemble.
+**[Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb)** (intégré à Chrome DevTools) donne un **score global** et une liste de problèmes avec leur impact. Idéal pour un audit rapide et une vue d'ensemble.
 
 **[axe DevTools](https://chromewebstore.google.com/detail/lhdoppojpmngadmnindnejefpokejbdd?utm_source=item-share-cb)** (extension Chrome) est plus précis sur les **violations spécifiques** du WCAG. Il indique exactement quel critère est violé et pourquoi.
 
@@ -458,7 +458,7 @@ Ce qu'il ne peut pas détecter automatiquement :
 - Si le contenu est **compréhensible** pour quelqu'un qui ne voit pas la page
 
 !!! tip "Cette semaine (semaine 4), avant la remise"
-    Tu auras à faire un audit d'accessibilité avec Lighthouse sur ton propre projet intégrateur. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais.
+    Tu auras à faire un audit d'accessibilité avec Lighthouse sur ton propre projet Solarix. L'objectif n'est pas d'atteindre 100 : c'est de comprendre chaque problème signalé et de pouvoir expliquer comment tu le corrigerais (ou comment tu l'as corrigé).
 
 <br>
 
