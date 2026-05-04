@@ -26,8 +26,8 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 ## Quiz de révision des animations CSS
 
 - [Groupe du lundi matin: EMRDZR](https://app.wooclap.com/EMRDZR)
-- [Groupe du lundi après-midi: ](https://app.wooclap.com/)
-- [Groupe du mercredi](https://app.wooclap.com/)
+- [Groupe du lundi après-midi: DLXNSS](https://app.wooclap.com/DLXNSS)
+- [Groupe du mercredi: QMIPHQ](https://app.wooclap.com/QMIPHQ)
 
 
 
