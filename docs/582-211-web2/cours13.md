@@ -3,7 +3,7 @@
 Lundi 4 mai / mercredi 6 mai
 
 
-## Vérification de votre journal de bord
+## Projet Solarix: Journal de bord
 
 - La [semaine 3](./exercices/projet-final/index.html#semaine-3-css-et-responsive-27-avril-au-3-mai) devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 3 et appliqué au moins une chose vue dans le cours 12 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
 - Nous entamons maintenant la dernière semaine, [la semaine 4](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai).
@@ -12,7 +12,7 @@ Lundi 4 mai / mercredi 6 mai
 [Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
-## À propos des présentations finales du projet de synthèse
+## Projet Solarix: Présentations finales
 
 Les présentations seront individuelles entre l'étudiant et l'enseignante.
 
@@ -29,6 +29,10 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 - [Groupe du lundi après-midi: DLXNSS](https://app.wooclap.com/DLXNSS)
 - [Groupe du mercredi: QMIPHQ](https://app.wooclap.com/QMIPHQ)
 
+
+## Projet Solarix: transitions et animations
+
+[CONSIGNES des *transition et animations* pour Solarix](./exercices/projet-final/index.html#animations-et-transitions-nouveau){ .md-button }
 
 
 ## Accessibilité & robustesse

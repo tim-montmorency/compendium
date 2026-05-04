@@ -105,7 +105,7 @@ Voici le contenu de la ⭐**zone libre** à intégrer :
 - Code annoté via des commentaires CSS
 
 
-#### Animations et transitions CSS <span class="important-label">NOUVEAU</span>
+#### Animations et transitions <span class="important-label">NOUVEAU</span>
 
 
 Toutes les animations et transitions doivent être réalisées en CSS uniquement. Elles doivent respecter les critères suivants :
