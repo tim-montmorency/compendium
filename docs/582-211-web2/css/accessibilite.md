@@ -385,6 +385,13 @@ Tout champ de formulaire doit être **explicitement lié** à son étiquette via
 ```
 
 
+## Langue du document et texte des liens
+
+- Langue de la page : <html lang="fr"> permet au lecteur d'écran de prononcer correctement le contenu. Simple et souvent oublié.
+- Liens explicites : Un lien qui dit *"cliquez ici"* ou *"en savoir plus"* est inutilisable hors contexte. Le texte du lien doit décrire la destination.
+
+
+
 ## *Auditer* avec Lighthouse et axe DevTools
 
 ### Deux outils, deux usages
