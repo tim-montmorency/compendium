@@ -3,7 +3,7 @@
 Lundi 4 mai / mercredi 6 mai
 
 
-## Vérification de votre jounral de bord
+## Vérification de votre journal de bord
 
 - La [semaine 3](./exercices/projet-final/index.html#semaine-3-css-et-responsive-27-avril-au-3-mai) devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 3 et appliqué au moins une chose vue dans le cours 12 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
 - Nous entamons maintenant la dernière semaine, [la semaine 4](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai).
@@ -21,6 +21,13 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 [Voici l'ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
 
 [Consignes pour vous préparer pour la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+
+
+## Quiz de révision des animations CSS
+
+- [Groupe du lundi matin: EMRDZR](https://app.wooclap.com/EMRDZR)
+- [Groupe du lundi après-midi: ](https://app.wooclap.com/)
+- [Groupe du mercredi](https://app.wooclap.com/)
 
 
 

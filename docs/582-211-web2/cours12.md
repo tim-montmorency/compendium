@@ -22,7 +22,7 @@ Lundi 27 avril / mercredi 29 avril
 
 - [Groupe du lundi matin: MFAQQI](https://app.wooclap.com/MFAQQI)
 - [Groupe du lundi après-midi: ZCBYTG](https://app.wooclap.com/ZCBYTG)
-- [Groupe du mercredi](https://app.wooclap.com/PUAYQN)
+- [Groupe du mercredi: PUAYQN](https://app.wooclap.com/PUAYQN)
 
 ## Révision des exercices du cours précédent
 
