@@ -3,7 +3,7 @@
 Lundi 4 mai / mercredi 6 mai
 
 
-## Vérificatiion de votre jounral de bord
+## Vérification de votre jounral de bord
 
 - La [semaine 3](./exercices/projet-final/index.html#semaine-3-css-et-responsive-27-avril-au-3-mai) devrait être complétée. Vous devriez avoir répondu à toutes les questions de la semaine 3 et appliqué au moins une chose vue dans le cours 12 dans votre projet Solarix (notez en commentaire dans le code ce que vous avez appliqué des notions du *cours 12* afin que je puisse les repérer facilement lors de la correction).
 - Nous entamons maintenant la dernière semaine, [la semaine 4](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai).
