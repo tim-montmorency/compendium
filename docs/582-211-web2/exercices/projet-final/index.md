@@ -186,7 +186,7 @@ Vous pourrez utiliser des outils d'IA pour vous assister dans ce projet, *EXCEPT
 
 ## Structure du projet et livrables
 
-Le projet se déroule sur **4 semaines** avec un livrable par semaine.
+Le projet se déroule sur **4 semaines** avec un "livrable" par semaine. (livrable est entre guillemets car tu n'as pas à remettre mais on s'attend à ce que tu aies complété la partie de la semaine pour bien suivre le groupe).
 
 ---
 
