@@ -8,5 +8,7 @@ Vous devez remettre les éléments suivants: Le dossier build de votre projet (c
 
 [🛠️ Dossier de remise Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgCly5FAxBBZT5B-Efz9kFQ6AaWjBxqH1w9wObPrqpbL8kY?e=gPLL9C){ .md-button } 
 
+[🛠️ Dossier de remise JF](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/IgBxuRjbXED6T5TcOK3ZtOYTASmZZAX1VtKOBDZnTmJUYF8?e=mfZpwH){ .md-button } 
+
 
 [🛠️ Travail 3](./travaux/travail3.md){ .md-button } 
