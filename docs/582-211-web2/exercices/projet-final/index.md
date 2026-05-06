@@ -190,7 +190,7 @@ Le projet se déroule sur **4 semaines** avec un "livrable" par semaine. (livrab
 
 ---
 
-### Semaine 1: Planification | 13 au 19 avril
+### *Semaine 1*: Planification | 13 au 19 avril
 
 > 10 points (10% de la note finale)
 >
@@ -260,7 +260,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ---
 
-### Semaine 2: Structure HTML | 20 au 26 avril
+### *Semaine 2*: Structure HTML | 20 au 26 avril
 
 > Évaluation incluse dans les 30 points du code de la remise finale (30% de la note finale)
 >
@@ -282,7 +282,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ---
 
-### Semaine 3: CSS et responsive | 27 avril au 3 mai
+### *Semaine 3*: CSS et responsive | 27 avril au 3 mai
 
 > Évaluation incluse dans les 30 points du code de la remise finale (30% de la note finale)
 >
@@ -308,7 +308,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 
 ---
 
-### Semaine 4:  Finalisation et accessibilité | 4 au 10 mai
+### *Semaine 4*:  Finalisation et accessibilité | 4 au 10 mai
 
 > Évaluation incluse dans les 30 points du code de la remise finale (30% de la note finale)
 > 
