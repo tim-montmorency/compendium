@@ -83,5 +83,8 @@ Un jeu d'évasion à travers les époques.
 ## Remise
 
 Vous devez remettre les éléments suivants: Le dossier build de votre projet (contient le .exe), une vidéo de démonstration de votre jeu (commentez vos actions) dans le dossier suivant:
-[📁 Dossier remise Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgAq5OwX6wlzSaxYi6QtE0FpAd1kxwFjyxUPlBVzIT9giOU?e=XZxQeV){ .md-button }   
+
+[📁 Dossier remise Lora](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/IgAq5OwX6wlzSaxYi6QtE0FpAd1kxwFjyxUPlBVzIT9giOU?e=XZxQeV){ .md-button }
+
+[📁 Dossier remise JF](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/IgB3wWqZk7cMRazkhFQMhsrPAQV33TyfJLdXza48zBVFCvQ?e=R2l5xz){ .md-button }
 
