@@ -61,7 +61,7 @@ https://laconsole.dev/formations/css/container-queries
 
 ## Lancement du projet final
 
-[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
+[CONSIGNES Projet intégrateur: :material-flare: Solarix](./exercices/projet-final/){ .md-button }
 
 
 ## Devoirs

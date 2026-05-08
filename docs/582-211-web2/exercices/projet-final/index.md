@@ -1,4 +1,4 @@
-# Projet intégrateur: Solarix
+# Projet intégrateur: :material-flare: Solarix
 
 **582-211-MO** : Web 2 | Session H2026 <br>
 **Pondération** : 55 points<br>
