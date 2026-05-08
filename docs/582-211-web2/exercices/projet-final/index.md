@@ -107,12 +107,7 @@ Voici le contenu de la ⭐**zone libre** à intégrer :
 
 #### Animations et transitions <span class="important-label">NOUVEAU</span>
 
-
-Toutes les animations et transitions doivent être réalisées en CSS uniquement. Elles doivent respecter les critères suivants :
-
-- **Pertinentes et subtiles :** elles doivent améliorer l'expérience utilisateur sans être distrayantes
-- **Performantes :** éviter les propriétés qui causent des ralentissements (ex. : `box-shadow`, `filter`)
-- **Accessibles :** fournir une alternative statique pour les utilisateurs qui préfèrent réduire les animations (via `prefers-reduced-motion`)
+Toutes les animations et transitions doivent être réalisées en CSS uniquement. 
 
 <br>
 
@@ -120,28 +115,27 @@ Toutes les animations et transitions doivent être réalisées en CSS uniquement
 
 **Ce qui est attendu**
 
-1. **Transition sur les cartes de quêtes**
-    Au survol d'une carte de quête, celle-ci doit se déplacer vers le haut de quelques pixels, son ombre portée doit s'intensifier légèrement. Cet effet de survol permet d'indiquer à l'utilisateur que cedtte carte est interactive et cliquable.
-2. **Transition sur les liens de navigation**
-    Les liens de la navigation (sidebar desktop et barre mobile en bas) doivent réagir visuellement au survol et au focus clavier. La transition doit être subtile : un changement de couleur ou d'opacité suffit.
-3. **Animation de la barre de progression XP**
-    Au chargement de la page, la barre de progression doit s'animer depuis 0% jusqu'à sa valeur finale (70%). L'animation ne doit jouer qu'une seule fois.
-4. **Animation sur l'icône ⚡ du niveau**
-    L'icône ⚡associée au niveau du personnage doit être animée en boucle de façon subtile, pour lui donner vie sans attirer l'attention de manière excessive.
-
----
 
 1. **Transition sur les cartes de quêtes**
   - Au survol d'une carte de quête, celle-ci doit se déplacer vers le haut de quelques pixels, son ombre portée doit s'intensifier légèrement. Cet effet de survol permet d'indiquer à l'utilisateur que cedtte carte est interactive et cliquable.
 2. **Transition sur les liens de navigation**
   - Les liens de la navigation (sidebar desktop et barre mobile en bas) doivent réagir visuellement au survol et au focus clavier. La transition doit être subtile : un changement de couleur ou d'opacité suffit.
 3. **Animation de la barre de progression XP**
-  - Au chargement de la page, la barre de progression doit s'animer depuis 0% jusqu'à sa valeur finale (70%). L'animation ne doit jouer qu'une seule fois.
+  - Au charg:mment de la page, la barre de progression doit s'animer depuis 0% jusqu'à sa valeur finale (70%). L'animation ne doit jouer qu'une seule fois.
 4. **Animation sur l'icône ⚡ du niveau**
   - L'icône ⚡associée au niveau du personnage doit être animée en boucle de façon subtile, pour lui donner vie sans attirer l'attention de manière excessive.
 
+.
+
+Les animations et transitions doivent respecter les critères suivants :
+
+- **Pertinentes et subtiles :** elles doivent améliorer l'expérience utilisateur sans être distrayantes
+- **Performantes :** éviter les propriétés qui causent des ralentissements (ex. : `box-shadow`, `filter`)
+- **Accessibles :** fournir une alternative statique pour les utilisateurs qui préfèrent réduire les animations.
+
+
 !!! warning "Accessibilité obligatoire"
-     Toutes vos animations et transitions doivent être désactivées ou réduites pour les utilisateurs ayant activé la préférence de réduction de mouvement sur leur système. Utiliser la medias queries pertinente pour ça et ajoutez-y simplement ceci:
+    Les animations et transitions doivent être désactivées ou réduites pour les utilisateurs ayant activé la préférence de réduction de mouvement sur leur système. Utiliser la medias queries pertinente pour ça et ajoutez-y simplement ceci:
 
     ```css
     * {
