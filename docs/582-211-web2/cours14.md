@@ -10,9 +10,9 @@ Les présentations sont individuelles entre l'étudiant et l'enseignante.
 
 [Rappel des consignes pour vous préparer à la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
-Elles se déroulent lors du cours 14 (11 ou 14 mai) et dureront environ 10 minutes par étudiant.
+Elles se déroulent lors du cours 14 (11 ou 14 mai) et dureront 10 minutes par étudiant.
 
-Vous aurez un créneau horaire précis qui vous sera communiqué à l'avance.
+[Voici l'ordre de passage de chacun](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
 
 
 
