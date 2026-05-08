@@ -446,9 +446,9 @@ Chaque étudiant présente son interface. La présentation doit couvrir :
 !!! question
     L'enseignante va poser des questions de relance sur votre code. L'incapacité à expliquer votre propre code peut affecter votre note globale.
 
----
 
-**Total : 55 points**
+
+### Total : 55 points
 
 
 

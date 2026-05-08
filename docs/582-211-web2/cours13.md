@@ -18,7 +18,7 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante.
 
 Je vous attribue votre créneau horaire précis aujourd'hui.
 
-[:material-list: Voici l'ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
+[:material-format-list-numbered: Voici l'ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
 
 [:material-podium: Consignes pour vous préparer pour la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
