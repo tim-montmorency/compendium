@@ -118,7 +118,7 @@ Toutes les animations et transitions doivent être réalisées en CSS uniquement
 
 <span class="important-label">NOUVEAU: instructions ajoutées le 3 mai 2026</span> <br>
 
-##### Ce qui est attendu
+**Ce qui est attendu**
 
 1. **Transition sur les cartes de quêtes**
     Au survol d'une carte de quête, celle-ci doit se déplacer vers le haut de quelques pixels, son ombre portée doit s'intensifier légèrement. Cet effet de survol permet d'indiquer à l'utilisateur que cedtte carte est interactive et cliquable.
