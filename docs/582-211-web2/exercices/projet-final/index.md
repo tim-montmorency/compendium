@@ -369,7 +369,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
     Le dépôt doit être accessible à l'enseignante au moment de la remise. Un dépôt *privé* sans accès accordé équivaut à une remise manquante. Pour accorder l'accès à votre dépot à l'enseignante via le nom d'utilisateur `kid-synthetique` (Settings / Collaborators and teams / Add people).
 
 
-## Présentation orale : cours 15
+## material-podium: Présentation orale : cours 15
 
 > 5 points (5% de la note finale) - Mais peut affecter la note globale si l'étudiant n'est pas capable d'expliquer son propre code lors de la présentation orale avec l'enseignante.
 > 

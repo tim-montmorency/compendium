@@ -8,13 +8,11 @@ Lundi 11 mai / jeudi 14 mai
 
 Les présentations sont individuelles entre l'étudiant et l'enseignante.
 
-[Rappel des consignes pour vous préparer à la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+[material-podium: Consignes pour vous préparer à la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
 Elles se déroulent lors du cours 14 (11 ou 14 mai) et dureront 10 minutes par étudiant.
 
-[Voici l'ordre de passage de chacun](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
-
-
+[:material-format-list-numbered: Voici l'ordre de passage de chacun](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
 
 
 

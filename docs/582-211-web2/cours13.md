@@ -60,4 +60,4 @@ Demo de [Maison Verdure](https://kid-synthetique.github.io/demo-accessibilite_ma
 - Répondre aux [questions du *journal de bord - Semaine 4*](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai) d'ici la remise.
 - Préparer votre présentation orale du projet: [Rappel des consignes de la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15)
 
-[CONSIGNES Projet intégrateur: Solarix](./exercices/projet-final/){ .md-button }
+[CONSIGNES Projet intégrateur: :material-flare: Solarix](./exercices/projet-final/){ .md-button }
