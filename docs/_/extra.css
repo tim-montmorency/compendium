@@ -803,6 +803,13 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 }
 
 
+.finishing .md-typeset .md-button{
+  border-radius: 0.5rem;
+  padding: .625em 1rem;
+}
+
+
+
 .ico-primary{
   color: #ef5552
 }
