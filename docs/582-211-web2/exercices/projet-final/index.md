@@ -116,7 +116,7 @@ Toutes les animations et transitions doivent être réalisées en CSS uniquement
 
 <br>
 
-<span class="important-label">NOUVEAU: instructions ajoutéele 3 mai 2026</span> <br>
+<span class="important-label">NOUVEAU: instructions ajoutées le 3 mai 2026</span> <br>
 
 ##### Ce qui est attendu
 
