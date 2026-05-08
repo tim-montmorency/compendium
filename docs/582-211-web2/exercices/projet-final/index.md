@@ -141,7 +141,7 @@ Toutes les animations et transitions doivent être réalisées en CSS uniquement
 
 ### Responsive
 
-- Deux points de rupture minimum pour 3 formats de layout: *mobile*, *tablette*, *desktop*
+- Deux points de rupture (*breakpoints*) minimum pour 3 formats de layout: *mobile*, *tablette*, *desktop*. 
 - La disposition doit être fidèle à la maquette fournie à chaque résolution
 
 ### Accessibilité
