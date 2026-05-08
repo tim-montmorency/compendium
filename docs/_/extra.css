@@ -794,6 +794,14 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   list-style-type: circle;
 }
 
+.finishing .md-typeset .emojione svg, 
+.finishing .md-typeset .gemoji svg, 
+.finishing  .md-typeset .twemoji svg
+ {
+  fill: #ff92a5;
+  margin-right: 0.2rem; 
+}
+
 
 .ico-primary{
   color: #ef5552
