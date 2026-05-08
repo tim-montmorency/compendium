@@ -7,7 +7,7 @@
 
 Quand GitHub Desktop signale un conflit dans un fichier `.unity`, **n'essayez pas de résoudre le conflit manuellement** et **ne faites pas de commit**. 
 
-Unity recommande d'utiliser son outil UnityYAMLMerge (Smart merge) pour résoudre de type de fichier. Voici comment faire :
+Unity recommande d'utiliser son outil UnityYAMLMerge (Smart merge) pour résoudre ce type de fichier. Voici comment faire :
 
 === "Mac"
     1. Sur Mac, télécharge [fix-conflict.sh](scripts/fix-conflict.sh)
