@@ -9,7 +9,7 @@ Lundi 4 mai / mercredi 6 mai
 - Nous entamons maintenant la dernière semaine, [la semaine 4](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai).
 
 
-[:material-psychiatry: :material-sunny: Projet Solarix](./exercices/projet-final/index.html){ .md-button }
+[:material-flare: Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
 ## Projet Solarix: Présentations finales
@@ -18,7 +18,7 @@ Les présentations seront individuelles entre l'étudiant et l'enseignante.
 
 Je vous attribue votre créneau horaire précis aujourd'hui.
 
-[:material-list-arrow: Voici l'ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
+[:material-list: Voici l'ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQBw7iJW1LIwSq2_29yAUyd3AZ9VQi0dnD8qhBpMVi_cEAk?e=e0562c){ .md-button }
 
 [:material-podium: Consignes pour vous préparer pour la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
