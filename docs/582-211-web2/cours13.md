@@ -9,7 +9,7 @@ Lundi 4 mai / mercredi 6 mai
 - Nous entamons maintenant la dernière semaine, [la semaine 4](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai).
 
 
-[Projet Solarix](./exercices/projet-final/index.html){ .md-button }
+[:material-psychiatry: :material-sunny: Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
 ## Projet Solarix: Présentations finales
