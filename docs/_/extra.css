@@ -794,9 +794,9 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   list-style-type: circle;
 }
 
-.finishing .md-typeset .emojione svg, 
-.finishing .md-typeset .gemoji svg, 
-.finishing  .md-typeset .twemoji svg
+.finishing .md-typeset .md-button .emojione svg, 
+.finishing .md-typeset .md-button .gemoji svg, 
+.finishing  .md-typeset .md-button .twemoji svg
  {
   fill: #ff92a5;
   margin-right: 0.2rem; 
