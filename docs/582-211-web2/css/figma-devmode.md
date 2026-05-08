@@ -1,6 +1,6 @@
 # Figma Dev Mode
 
-## D’abord : c’est quoi vraiment Dev Mode ?
+## C’est quoi le DevMode?
 
 ![](../assets/devmode1-UI3-guide-to-dev-mode.png)
 ![](../assets/devmode2-UI3-inspect-panel.png)

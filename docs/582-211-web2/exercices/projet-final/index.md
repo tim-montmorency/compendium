@@ -7,7 +7,7 @@
 
 ## Mise en contexte
 
-*Solarix* est un jeu de rôle fictif à l'esthétique *Solarpunk :material-flare:* :material-flare: : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
+*Solarix* est un jeu de rôle fictif à l'esthétique *Solarpunk :material-flare:* : un univers où technologie et nature coexistent harmonieusement. Votre mandat : intégrer le **tableau de bord du joueur** de ce jeu à partir d'une maquette fournie.
 
 Votre travail consiste à **structurer le HTML et écrire tout le CSS** pour que l'interface soit fidèle à la maquette, fluide, responsive et accessible.
 

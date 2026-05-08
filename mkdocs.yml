@@ -54,6 +54,7 @@ nav:
         - Transitions CSS: 582-211-web2/css/transitions-css.md
         - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
         - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
+        - Figma DevMode: 582-211-web2/css/figma-devmode.md
       - CSS par composants:
         - 582-211-web2/css/composants.md
         - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
