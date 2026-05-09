@@ -14,7 +14,7 @@ Lundi 4 mai / mercredi 6 mai
 [:material-flare: Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
-## Projet Solarix: Présentations finales
+## Projet Solarix: :material-podium: Présentations finales
 
 Les présentations seront individuelles entre l'étudiant et l'enseignante.
 
@@ -60,6 +60,6 @@ Demo de [Maison Verdure](https://kid-synthetique.github.io/demo-accessibilite_ma
 - Faire un [audit d'accessibilité](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai)
 - Appliquer les règles d'accessibilité vues aujourd'hui (cours 13) dans votre projet.
 - Répondre aux [questions du *:material-typewriter: journal de bord - Semaine 4*](./exercices/projet-final/index.html#semaine-4-finalisation-et-accessibilite-4-au-10-mai) d'ici la remise.
-- Préparer votre présentation orale du projet: [Rappel des consignes de la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15)
+- Préparer votre :material-podium: présentation orale du projet: [Rappel des consignes de la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15)
 
 [CONSIGNES Projet intégrateur: :material-flare: Solarix](./exercices/projet-final/){ .md-button }

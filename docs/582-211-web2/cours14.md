@@ -9,7 +9,7 @@ Lundi 11 mai / jeudi 14 mai
 
 Remise AVANT votre période habituelle de cours.  Commit et push sur GitHub + remettre le lien de votre GitHub dans Teams, dans le devoir attitré.
 
-## Présentations orales
+## :material-podium: Présentations orales
 
 Les présentations sont individuelles entre l'étudiant et l'enseignante.
 

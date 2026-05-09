@@ -434,7 +434,7 @@ Chaque étudiant présente son interface. La présentation doit couvrir :
 
 ---
 
-### Présentation devant l'enseignante : 5 points
+### Présentation :material-podium: devant l'enseignante : 5 points
 
 | Critère | Points |
 |---|---|
