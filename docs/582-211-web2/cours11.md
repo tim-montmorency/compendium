@@ -20,7 +20,7 @@ Lundi 20 avril / mercredi 22 avril
 -->
 
 
-## Annonces
+## :material-account-voice: Annonces
 
 ### Remise de la planification du projet Solarix
 

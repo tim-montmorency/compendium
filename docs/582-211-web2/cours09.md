@@ -18,7 +18,7 @@ Transitions et animations UX – Partie A
 
 -->
 
-## Annonces
+## Annonces :material-account-voice:
 
 ### Plan de cours révisé
 
