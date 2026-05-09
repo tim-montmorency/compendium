@@ -32,7 +32,7 @@ Lundi 27 avril / mercredi 29 avril
 
 ## :material-animation-play: Animations CSS  :material-heart:{ .animate }
 
-- Animation VS Transitions CSS 
+- :material-animation-play: Animation VS :material-transition: Transitions CSS 
 - Animations simples et intentionnelles (pas décoratives)
 - Performance des animations (transform, opacity)
 - États de chargement, feedback visuel
