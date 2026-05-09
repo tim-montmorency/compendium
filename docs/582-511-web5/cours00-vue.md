@@ -2,6 +2,10 @@
 # Cours 1.2
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
+
+
+icones material design disponibles dans mkdocs, rechercher le mot "material" + l'icone recherchéehttps://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+
 -->
 
 ## Ceci est le contenu du jour
