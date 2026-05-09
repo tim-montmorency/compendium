@@ -69,7 +69,7 @@ Flexbox fonctionne sur **deux axes** :
 
 On utilise les propriétés qui suivent sur le conteneur (balise parent directe) des items à placer dans l'espace.
 
-## `display:flex` - Activation de flexbox
+## 🟡 `display:flex` - Activation de flexbox
 
 
 ```css
@@ -78,7 +78,7 @@ On utilise les propriétés qui suivent sur le conteneur (balise parent directe)
 }
 ```
 
-### `flex-direction` - Direction du flux
+## 🟡 `flex-direction` - Direction du flux
 
 
 
@@ -116,7 +116,7 @@ Par défaut (si non spécifié) la direction de l'axe principal est horizontale 
 
 
 
-## `justify-content` - Alignement sur l'axe principal
+## 🟡 `justify-content` - Alignement sur l'axe principal
 
 Distribue l'espace entre/autour des items sur l'axe principal.
 
@@ -147,7 +147,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
-## `align-items` - Alignement sur l'axe secondaire
+## 🟡 `align-items` - Alignement sur l'axe secondaire
 
 Aligne les items perpendiculairement à l'axe principal.
 
@@ -177,7 +177,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 
 
-## `gap` - Espacement entre les items
+## 🟡 `gap` - Espacement entre les items
 
 Crée un espace uniforme entre tous les items (plus simple que `margin`).
 
@@ -241,7 +241,7 @@ Utilisaton de la fonction css calc() pour calculer le résultat:
 
 
 
-## `flex-wrap` - Passage à la ligne
+## 🟡 `flex-wrap` - Passage à la ligne
 
 Permet aux items de passer à la ligne suivante si l'espace manque.
 ```css
