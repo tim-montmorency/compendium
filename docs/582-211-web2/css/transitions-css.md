@@ -1,9 +1,9 @@
-# Transition
+# :material-transition: Transition CSS
 
 Les transitions permettent de passer d'un état A à un état B d'une façon élégante.
 
 
-## transition-property
+## `transition-property`
 
 Définit la ou les propriété(s) affectées par une transition.
 
@@ -56,7 +56,7 @@ Par exemple, au survol trois fois la même transition, mais avec des durées dif
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `transition-duration` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-duration)
+> 📖:simple-mdnwebdocs: [En savoir plus sur la propriété `transition-duration` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-duration)
 
 <br>
 
@@ -90,7 +90,7 @@ L'exemple suivant contient six fois la même transition au survol, mais avec des
 
 <br> 
 
-> 📖 [En savoir plus sur la propriété `transition-timing-function` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-timing-function)
+> 📖:simple-mdnwebdocs: [En savoir plus sur la propriété `transition-timing-function` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-timing-function)
 
 
 <br>
@@ -121,7 +121,7 @@ Par exemple au survol :
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `transition-delay` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-delay)
+> 📖:simple-mdnwebdocs: [En savoir plus sur la propriété `transition-delay` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-delay)
 
 
 <br>

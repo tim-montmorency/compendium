@@ -19,7 +19,7 @@ Composants adaptatifs intelligents
 - [↗ Transform: Pyramide, fleur, abysse, chevron, banderole et papillon](https://tim-montmorency.com/timdoc/582-211/css/transformation/exercices/formes/)
 
 
-## 🔁 Transitions CSS
+## :material-transition: Transitions CSS
 
 - `transition`
 - `transition-property`

@@ -30,7 +30,7 @@ Lundi 27 avril / mercredi 29 avril
 - [👩🏻‍💻 Exercice "Pseudo-classes"](./exercices/pseudo-classes/index.md)
 
 
-## Animations CSS
+## :material-animation-play: Animations CSS
 
 - Animation VS Transitions CSS 
 - Animations simples et intentionnelles (pas décoratives)

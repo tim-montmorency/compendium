@@ -32,7 +32,7 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 - [Groupe du mercredi: QMIPHQ](https://app.wooclap.com/QMIPHQ)
 
 
-## Projet Solarix: transitions et animations
+## Projet Solarix: transitions et :material-animation-play: animations
 
 [CONSIGNES des *transition et animations* pour Solarix](./exercices/projet-final/index.html#animations-et-transitions-nouveau){ .md-button }
 

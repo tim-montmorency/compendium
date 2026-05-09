@@ -1,4 +1,4 @@
-# Animation en CSS
+# :material-animation-play: Animation en CSS
 
 Quelques ressources intéressantes à explorer
 
