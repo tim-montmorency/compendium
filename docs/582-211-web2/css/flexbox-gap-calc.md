@@ -103,7 +103,7 @@ Pas besoin de `calc()` — Grid s'en occupe tout seul. C'est l'une des raisons p
 
 ## Références
 
-- [MDN — flex-basis](https://developer.mozilla.org/fr/docs/Web/CSS/flex-basis)
-- [MDN — gap (Flexbox)](https://developer.mozilla.org/fr/docs/Web/CSS/gap)
-- [MDN — calc()](https://developer.mozilla.org/fr/docs/Web/CSS/calc)
+- [:simple-mdnwebdocs: MDN — flex-basis](https://developer.mozilla.org/fr/docs/Web/CSS/flex-basis)
+- [:simple-mdnwebdocs: MDN — gap (Flexbox)](https://developer.mozilla.org/fr/docs/Web/CSS/gap)
+- [:simple-mdnwebdocs: MDN — calc()](https://developer.mozilla.org/fr/docs/Web/CSS/calc)
 - [CSS Tricks — A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)

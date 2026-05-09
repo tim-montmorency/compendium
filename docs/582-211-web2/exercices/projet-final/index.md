@@ -455,7 +455,7 @@ Chaque étudiant présente son interface. La présentation doit couvrir :
 ## Ressources
 
 - Contenu du cours Web 2 : [tim-montmorency.com/compendium/582-211-web2](https://tim-montmorency.com/compendium/582-211-web2/)
-- Documentation MDN : [developer.mozilla.org/fr/docs/Web](https://developer.mozilla.org/fr/docs/Web)
+- Documentation MDN : [:simple-mdnwebdocs: developer.mozilla.org/fr/docs/Web](https://developer.mozilla.org/fr/docs/Web)
 - Guide Flexbox : CSS Tricks : [css-tricks.com/snippets/css/a-guide-to-flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - Validateur HTML/CSS : [validator.w3.org](https://validator.w3.org/)
 - Méthodologie BEM : [getbem.com](https://getbem.com/)

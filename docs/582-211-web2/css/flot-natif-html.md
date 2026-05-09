@@ -144,7 +144,7 @@ Un élément est dit :
 Comprendre cette distinction est essentiel pour éviter des mises en page “qui cassent”.
 
 
-> <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow"> <img src="../assets/logo-mdn.svg" alt="mdn" style="width: 80px;"> : Être ou ne pas être dans le flux</a>
+> :simple-mdnwebdocs: <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow"> <img src="../assets/logo-mdn.svg" alt="mdn" style="width: 80px;"> : Être ou ne pas être dans le flux</a>
 
 
 ## À retenir / Erreurs fréquentes

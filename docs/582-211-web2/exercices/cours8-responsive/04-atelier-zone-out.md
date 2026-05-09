@@ -447,7 +447,7 @@ Avant de déclarer ton interface responsive, vérifie :
 ## Références utiles
 
 - [Notes du cours Web 2 - Responsive, media queries, breakpoints...](../../css/mediaqueries-breakpoints.md)
-- [MDN — Media queries](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Media_queries/Using)
-- [MDN — Viewport meta tag](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/meta/name/viewport)
+- [:simple-mdnwebdocs: MDN — Media queries](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Media_queries/Using)
+- [:simple-mdnwebdocs: MDN — Viewport meta tag](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/meta/name/viewport)
 - [CSS Tricks — A Complete Guide to CSS Media Queries (anglais)](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 - [La Console — Responsive](https://laconsole.dev/formations/css/media-queries)

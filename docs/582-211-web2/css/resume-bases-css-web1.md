@@ -102,7 +102,7 @@ Lorsqu'une seule valeur est fournie, celle-ci est appliquée aux 4 côtés de l'
 !!! warning
     La propriété `padding` n'accepte pas les valeurs négatives.
 
-> 📖  Pour en savoir plus, consultez la page [padding](https://developer.mozilla.org/fr/docs/Web/CSS/padding) de MDN.
+> 📖 :simple-mdnwebdocs:  Pour en savoir plus, consultez la page [padding](https://developer.mozilla.org/fr/docs/Web/CSS/padding) de MDN.
 
 ---
 

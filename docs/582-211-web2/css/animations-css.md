@@ -11,7 +11,7 @@ Quelques ressources intéressantes à explorer
 
 ## Utiliser les animations CSS
 
-[MDN : Utiliser les animations CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using)
+[:simple-mdnwebdocs: MDN : Utiliser les animations CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using)
 
 
 ## Règle CSS @keyframes
@@ -57,7 +57,7 @@ Pour une animation plus élaborée, il est possible de spécifier plusieurs éta
 <small>À gauche, `@keyframes` utilisant un `from` et un `to`. <br>
 À droite, `@keyframes` utilisant des pourcentages (%).</small>
 
-> 📖 [En savoir plus sur la règle CSS `@keyframes` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/At-rules/@keyframes)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la règle CSS `@keyframes` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/At-rules/@keyframes)
 
 ## Propriétés d'animation CSS
 
@@ -100,7 +100,7 @@ Par exemple, pour appliquer l'animation nommée `anim` à l'élément ayant la c
 }
 ```
 
-> 📖 [En savoir plus sur la propriété `animation-name` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-name)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-name` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-name)
 
 ---
 
@@ -146,7 +146,7 @@ L'exemple suivant contient six fois la même animation, mais avec des rythmes di
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `animation-timing-function` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timing-function)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-timing-function` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timing-function)
 
 <br>
 
@@ -175,7 +175,7 @@ Par exemple :
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `animation-iteration-count` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-iteration-count)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-iteration-count` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-iteration-count)
 
 
 <br>
@@ -201,7 +201,7 @@ Par exemple :
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `animation-delay` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-delay)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-delay` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-delay)
 
 
 ---
@@ -232,7 +232,7 @@ Par exemple :
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `animation-direction` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-direction)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-direction` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-direction)
 
 <br>
 
@@ -274,7 +274,7 @@ Par exemple :
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `animation-fill-mode` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-fill-mode)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-fill-mode` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-fill-mode)
 
 <br>
 
@@ -305,7 +305,7 @@ Valeurs possibles :
 
 <br>
 
-> 📖 [En savoir plus sur la propriété `animation-play-state` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-play-state)
+> 📖 [:simple-mdnwebdocs: En savoir plus sur la propriété `animation-play-state` via MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-play-state)
 
 <br>
 
@@ -319,8 +319,8 @@ Valeurs possibles :
 *NOUVEAU NOUVEAU NOUVEAU*
 
 - [AlsaCreation: Les animations liées au scroll avec css](https://www.alsacreations.com/article/lire/1935-animations-liees-au-scroll-en-css.html) (FR)
-- [MDN: `animation-timeline: scroll`](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timeline/scroll) (FR)
-- [MDN: CSS scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) (EN)
+- [:simple-mdnwebdocs: MDN: `animation-timeline: scroll`](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timeline/scroll) (FR)
+- [:simple-mdnwebdocs: MDN: CSS scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) (EN)
 - [Webkit: A guide to Scroll-driven Animations with just CSS](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/) (EN)
 
 
