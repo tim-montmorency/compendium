@@ -13,7 +13,7 @@ Remise AVANT votre période habituelle de cours.  Commit et push sur GitHub + re
 
 Les présentations sont individuelles entre l'étudiant et l'enseignante.
 
-[material-podium: Consignes pour vous préparer à la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
+[:material-podium: Consignes pour vous préparer à la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
 Elles se déroulent lors du cours 14 (11 ou 14 mai) et dureront 10 minutes par étudiant.
 
