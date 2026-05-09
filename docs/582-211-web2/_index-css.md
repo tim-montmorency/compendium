@@ -28,3 +28,6 @@
 
  
 -->
+
+
+<!-- UPDATE quelques jours plus tard : icons : https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search -->

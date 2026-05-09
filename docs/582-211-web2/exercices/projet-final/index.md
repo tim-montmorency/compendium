@@ -153,7 +153,7 @@ Les animations et transitions doivent respecter les critères suivants :
 
 - Respect des critères WCAG de base (contraste, focus visible, tailles de cible)
 - Navigation possible au clavier
-- Audit obligatoire avec **Lighthouse** (inclus dans Google Chrome) ou **axe DevTools** (extension Google Chrome (installation d'extension bloqué par le collège)). Voir journal de bord, semaine 4.
+- Audit obligatoire avec **Lighthouse** (inclus dans Google Chrome) ou **axe DevTools** (extension Google Chrome (installation d'extension bloqué par le collège)). Voir :material-typewriter: bord, semaine 4.
 - Créer une version *mode sombre (dark mode)* pour respecter les préférence de thème de l'utilisateur.
 
 
@@ -182,7 +182,7 @@ Vous pourrez utiliser des outils d'IA pour vous assister dans ce projet, *EXCEPT
 - Être *capable de l'expliquer et de le justifier* à l'oral
 - En assurer la *qualité*, la *cohérence* et l'*accessibilité* du code
 - En assurer la *réutilisabilité* et la *flexibilité* des composants
-- *Documenter au fur et à mesure l'utilisation de l'IA* dans le journal de bord : noimmer l'outil IA et ta requête exacte (ton prompt)
+- *Documenter au fur et à mesure l'utilisation de l'IA* dans le :material-typewriter: journal de bord :material-typewriter: : noimmer l'outil IA et ta requête exacte (ton prompt)
 
 !!! danger Important sur la documentation de tes prompts
     Tout contenu généré par une IA doit être cité en mentionnant le nom de l'outil IA et ta requête (ton prompt) utilisée. Ne pas le mentionner constitue du *plagiat*.
@@ -278,7 +278,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 - Attributs d'accessibilité de base en place
 - Aucun style CSS requis à cette étape (ou très minimal)
 
-**Journal de bord : questions de la semaine 2 :**
+**:material-typewriter: Journal de bord : questions de la semaine 2 :**
 > Répondez dans votre fichier `JOURNAL.md`.
 
 1. Quelle décision de structure HTML vous a demandé le plus de réflexion? Expliquez votre raisonnement.
@@ -301,7 +301,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 - Nomenclature BEM appliquée
 - Zone libre intégrée
 
-**Journal de bord : questions de la semaine 3 :**
+**:material-typewriter: Journal de bord : questions de la semaine 3 :**
 
 > Répondez dans votre fichier `JOURNAL.md`.
 
@@ -324,7 +324,7 @@ Remettre le lien de votre dépot GitHub du projet et le fichier `PLANIFICATION.m
 - Ajout des [transitions des éléments interactifs et animations CSS](#animations-et-transitions-nouveau)
 - Interface finalisée et peaufinée
 - Audit d'accessibilité complété
-- Journal de bord complet
+- Journal de bord :material-typewriter: complet
 - Dépôt GitHub à jour
 
 **Journal de bord : questions de la semaine 4 :**
@@ -423,7 +423,7 @@ Chaque étudiant présente son interface. La présentation doit couvrir :
 
 ---
 
-### Journal de bord : 10 points
+### Journal de bord :material-typewriter: : 10 points
 
 | Critère | Points |
 |---|---|

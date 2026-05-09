@@ -5,6 +5,9 @@
   <span class="sidetext">Utilisation de l'IA générative ou d'agent IA interdits à cette phase dans la session: vous devez solidifier les bases d'abord !</span>
 </div>
 
+
+<!-- icons : https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search -->
+
 ## RÉSUMÉ DU CONTENU VU AUJOURD'HUI
 
 - [📄 Plan de cours (mis à jour le 29 mars) :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDTIATHK-79TJaZEiQhMukbASV3gvYqLQNSOtjosfZgHU4?e=Gtxp3O)

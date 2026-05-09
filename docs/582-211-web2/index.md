@@ -3,6 +3,9 @@ hide:
   - toc
 ---
 
+
+<!-- icons : https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search -->
+
 # Web 2
 
 ## Descriptif du cours

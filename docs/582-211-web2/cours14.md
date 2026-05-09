@@ -2,6 +2,9 @@
 
 Lundi 11 mai / jeudi 14 mai
 
+
+<!-- icons : https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search -->
+
 ## Remise projet synthèse
 
 Remise AVANT votre période habituelle de cours.  Commit et push sur GitHub + remettre le lien de votre GitHub dans Teams, dans le devoir attitré.
