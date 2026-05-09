@@ -1,4 +1,4 @@
-# :material-animation-play: Animation en CSS :material-heart:{ .animate }
+# :material-animation-play: Animation CSS :material-heart:{ .animate }
 
 Quelques ressources intéressantes à explorer
 
