@@ -120,7 +120,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 
 
-## Les spécificités CSS
+## Les spécificités CSS :material-code-block-braces:
 
 [📚 Les spécificités CSS](./css/specificite-css.md){ .md-button .md-button--primary }
 
@@ -133,7 +133,7 @@ Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
 
 
-## Emmet
+## Emmet :material-code-block-braces:
 
 Moteur d’autocomplétions permettant d’augmenter votre vitesse de création de balises HTML dans VS Code.
 

@@ -1,4 +1,4 @@
-# Cours 1
+# Cours 1:material-code-block-braces:
 
 <div class="class-content-link">
   <img src="./assets/IA-interdite.png">
