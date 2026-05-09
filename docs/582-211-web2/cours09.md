@@ -38,7 +38,7 @@ Transitions et animations UX – Partie A
 !!! warning "Rappel ce propos"
     Suite à la remise du projet 1, je me réserve la possibilité de vous convoquer à une *courte entrevue individuelle surprise* afin de vérifier votre *compréhension personnelle du code que vous avez remis* et de vous évaluer en conséquence.
 
-## Quiz time! Révision *responsive*
+## :material-chat-question: Quiz time! Révision *responsive*
 
 - [Groupe du lundi matin](https://app.wooclap.com/PEXXHC)
 - [Groupe du lundi après-midi](https://app.wooclap.com/QLMCRO)

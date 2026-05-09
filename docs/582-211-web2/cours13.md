@@ -25,7 +25,7 @@ Je vous attribue votre créneau horaire précis aujourd'hui.
 [:material-podium: Consignes pour vous préparer pour la présentation](./exercices/projet-final/index.html#presentation-orale-cours-15){ .md-button }
 
 
-## Quiz de révision des animations CSS
+## :material-chat-question: Quiz de révision des animations CSS
 
 - [Groupe du lundi matin: EMRDZR](https://app.wooclap.com/EMRDZR)
 - [Groupe du lundi après-midi: DLXNSS](https://app.wooclap.com/DLXNSS)

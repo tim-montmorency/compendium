@@ -128,7 +128,7 @@ Important: si exercice d'équipe lorsqu'on demande *Create new team*, nommez la:
 
 Un quiz amusant pour apprendre et pratiquer la spécificité en CSS.
 
-[👩🏻‍💻 Exercice: spécificité CSS - 20 questions 20 questions. ](https://css-specificity.smnarnold.com){ .md-button }
+[👩🏻‍💻 Exercice: spécificité CSS - :material-chat-question: 20 questions 20 questions. ](https://css-specificity.smnarnold.com){ .md-button }
 
 
 

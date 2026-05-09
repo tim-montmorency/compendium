@@ -15,6 +15,12 @@
 
 
 <!-- 
+
+NOTE 9 mai 2026: si je redonne le cours: rajouter un ou 2 petits examens d'évalition de compréhension individuelle (choix de réponse style forms). 
+
+
+
+
 Le cours se concentre sur les savoirs qui nécessitent un jugement professionnel humain, notamment l’architecture CSS, la lisibilité, l’adaptation responsive et l’accessibilité. 
 
 Les éléments fortement automatisés sont abordés de façon contextuelle.
@@ -136,7 +142,7 @@ Action :
 - Allez dans extensions et vérifiez si Co-Pilot est installé, si c'est le cas, veuillez le désinstaller.
 - Recherchez aussi pour Chat GPT ou autre outil IA que vous connaissez et désinstallez les aussi
 
-## **Bloc 4** Quiz interactif
+## **Bloc 4** :material-chat-question: Quiz interactif
 
 - [XXANJI - Lien vers activité pour le groupe 2 LUNDI AM](https://app.wooclap.com/XXANJI)
 - [RUDJUJ - Lien vers activité pour le groupe 3 LUNDI PM](https://app.wooclap.com/RUDJUJ)

@@ -18,7 +18,7 @@ Lundi 27 avril / mercredi 29 avril
 [:material-flare: Projet Solarix](./exercices/projet-final/index.html){ .md-button }
 
 
-## Quiz time! Révision
+## :material-chat-question: Quiz time! Révision
 
 - [Groupe du lundi matin: MFAQQI](https://app.wooclap.com/MFAQQI)
 - [Groupe du lundi après-midi: ZCBYTG](https://app.wooclap.com/ZCBYTG)

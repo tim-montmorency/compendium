@@ -4,6 +4,13 @@ hide:
 ---
 
 
+<!-- 
+
+NOTE 9 mai 2026: si je redonne le cours: rajouter un ou 2 petits examens d'évalition de compréhension individuelle (choix de réponse style forms). 
+
+-->
+
+
 <!-- icons : https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search -->
 
 # Web 2

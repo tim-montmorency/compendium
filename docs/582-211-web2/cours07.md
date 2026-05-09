@@ -44,7 +44,7 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
   </div>
 </div>
 
-## Quiz time! Révision du cours 1 à 7
+## :material-chat-question: Quiz time! Révision du cours 1 à 7
 
 ### Sujet?
 
@@ -53,11 +53,11 @@ Remise des liens CodePen des 2 exercices du derniers cours (dans Teams) AVANT le
 - Variables CSS
 - Nommer les classes avec la nomenclature BEM
 
-### Groupe du mercreci: Accédez au quiz en direct
+### Groupe du mercreci: Accédez au :material-chat-question: quiz en direct
 
 [Groupe du mercredi matin: Quiz en direct](https://app.wooclap.com/YMTCKF)
 
-### Groupes du lundi: Accédez au quiz asynchrone
+### Groupes du lundi: Accédez au :material-chat-question: quiz asynchrone
 
 En guise de révision, faites le quiz à votre propre rythme. 20 questions.
 
