@@ -1,4 +1,4 @@
-# Animation sprite sheet intermédiaire
+# Animation spritesheet intermédiaire
 
 ## Rappel
 

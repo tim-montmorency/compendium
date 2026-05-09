@@ -1,4 +1,4 @@
-# Animation Sprite Sheet
+# Animation SpriteSheet
 
 Pensez au cinéma 📽️. Une pellicule contient de nombreuses images 🎞️. Chaque image représente une étape dans un mouvement.
 
