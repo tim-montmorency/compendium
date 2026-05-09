@@ -11,7 +11,7 @@ Quelques ressources intéressantes à explorer
 
 ## Utiliser les animations CSS
 
-[:simple-mdnwebdocs: MDN : Utiliser les animations CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using)
+:simple-mdnwebdocs: [MDN : Utiliser les animations CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using)
 
 
 ## Règle CSS @keyframes
@@ -319,8 +319,8 @@ Valeurs possibles :
 *NOUVEAU NOUVEAU NOUVEAU*
 
 - [AlsaCreation: Les animations liées au scroll avec css](https://www.alsacreations.com/article/lire/1935-animations-liees-au-scroll-en-css.html) (FR)
-- [:simple-mdnwebdocs: MDN: `animation-timeline: scroll`](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timeline/scroll) (FR)
-- [:simple-mdnwebdocs: MDN: CSS scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) (EN)
+- :simple-mdnwebdocs: [MDN: `animation-timeline: scroll`](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/animation-timeline/scroll) (FR)
+- :simple-mdnwebdocs: [MDN: CSS scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) (EN)
 - [Webkit: A guide to Scroll-driven Animations with just CSS](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/) (EN)
 
 
