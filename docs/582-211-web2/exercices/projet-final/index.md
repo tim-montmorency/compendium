@@ -88,7 +88,7 @@ Voici le contenu de la ⭐**zone libre** à intégrer :
 
 - Structure sémantique rigoureuse (`header`, `nav`, `main`, `section`, `article`, etc.)
 - Respect de la hiérarchie des titres
-- Attributs d'accessibilité (`alt`, `aria-label`, `aria-current`, etc.)
+- Attributs d'accessibilité (`alt`, `aria-label`, `role`, etc.)
 - Code propre et lisible : indentation, sections séparées clairement par des commentaires
 
 ### CSS
