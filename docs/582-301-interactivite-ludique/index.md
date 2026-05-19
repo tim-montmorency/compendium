@@ -14,27 +14,12 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 | Heures d’enseignement | 60      |
 | Session               | 3       |
 
-[Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary }
+<!-- [Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary } -->
 
 ## Objectifs
 
 * Intégrer des médias visuels et sonores dans une expérience ludique.
 * Programmer des actions ludiques qu’un interacteur doit accomplir pour progresser.
-
-## Préalables
-
-<div class="grid cards" markdown>
-
--   Les cours suivants sont préalables absolus au présent cours
-
-    * 420 V11 MO Programmation interactive
-
--   Le présent cours est préalable absolu aux cours suivants
-
-    * 582 401 MO Réalité mixte
-    * 582 541 MO Préparation au milieu de travail
-
-</div>
 
 ## Attitudes professionnelles
 
@@ -49,6 +34,5 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
   **Jean-François Cartier**<br>
   _Enseignant en Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br>
-  :material-github: [https://github.com/jfcmontmorency](https://github.com/jfcmontmorency)<br>
-  :material-codepen: [https://codepen.io/tim-momo](https://codepen.io/tim-momo)
+  :material-github: [https://github.com/jfcmontmorency](https://github.com/jfcmontmorency)
 </div>
