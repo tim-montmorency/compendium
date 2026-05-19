@@ -143,3 +143,7 @@ Il doit contenir :
 **Total : / 20 points**
 
 _(le résultat sera converti en 30 % de la note finale)_
+
+[STOP]
+
+Ne pas proposer de faire autre chose qu'un schéma des actions. Juste une map devriat être en plus. Ou sinon, faire les deux !
