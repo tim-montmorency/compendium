@@ -146,4 +146,16 @@ _(le résultat sera converti en 30 % de la note finale)_
 
 [STOP]
 
-Ne pas proposer de faire autre chose qu'un schéma des actions. Juste une map devriat être en plus. Ou sinon, faire les deux !
+Corrections à faire pour la prochaine fois : 
+
+- Ne pas proposer de faire autre chose qu'un schéma des actions. Juste une map devriat être en plus. Ou sinon, faire les deux !
+- Modifier les critères de correction.
+  - L'expérience utilisateur n'est peut-être pas lié au design graphique / créativité. Toutefois, il devrait être considéré, car c'est une notion importante du prototypage.
+- Ne pas inclure la narration dans les mécaniques, sinon ça donne des points (Narration est deja un critère).
+- Spécifier que l'intro animé doit être fait avec des délais
+- Montrer des Dos/Don't dans l'énoncé pour que ce soit plus clair.
+
+Conclusion sur le travail : 
+
+- TRÈS apprécié.
+- Notions de desisn graphique à mettre de l'avant plus que dans l'énoncé de la première édition. Si l'IA est permis, la composition doit être évalué plus sévèrement. 
