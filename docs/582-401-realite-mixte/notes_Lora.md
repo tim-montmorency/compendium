@@ -1,3 +1,20 @@
+**Notes rencontre post mortem:** 
+Plus de scénarisation, moins de logiciel (connaître mieux avant) 
+Ar = les impressionne moins. 
+Idée: 
+Semaine 1 à 5: Travail 3D + sortie
+Semaine 6 et 7: Scénarisation gros projet
+Semaines 8 à 15: Gros projet 
+Trouver une autre façon d'apporter AR. 
+Truc en ar qui influençent la personne dans le casque. 
+Idée de dôme. 
+Multi-joueur? 
+Mélanger avec osc pour changer éclairage? 
+Idée de gamejam 
+Level design - en 3D et continuer un projet dans unity avec ça. 
+Recréer un espace en 3D comme l'espace réel. 
+Réalité mixte dans les casques. 
+
 
 Cours 2: Vérif si unity android bien installé (Test tablette affiche dans Unity remote et build possible) 
 Switch créer bonnes images avant créer base données
