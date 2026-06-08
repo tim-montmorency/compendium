@@ -20,6 +20,64 @@ const generateHash = (str) => {
   tables.forEach((table) => new Tablesort(table));
 }; */
 
+
+const teamsMessage = () => {
+  const isTeamsApp = navigator.userAgent.includes("Teams/");
+
+  if (isTeamsApp) {
+    
+      // 1. Ajouter le margin-top de 4rem au body
+      document.body.style.paddingTop = "4rem";
+
+      // 2. Créer le conteneur de la bannière (div de 4rem de haut)
+      const banner = document.createElement("div");
+      banner.style.position = "absolute";
+      banner.style.top = "0";
+      banner.style.left = "0";
+      banner.style.width = "100%";
+      banner.style.height = "4rem";
+      banner.style.backgroundColor = "#000"; // Jaune d'avertissement léger
+      banner.style.color = "#fff";           // Texte assorti
+      banner.style.display = "flex";
+      banner.style.justifyContent = "space-between";
+      banner.style.alignItems = "center";
+      banner.style.padding = "0 1.5rem";
+      banner.style.boxSizing = "border-box";
+      banner.style.fontFamily = "sans-serif";
+      banner.style.fontSize = "0.75rem";
+      banner.style.zIndex = "9999"; // S'assurer qu'elle reste visible
+
+      // 3. Ajouter le texte d'avertissement
+      const text = document.createElement("span");
+      text.innerHTML = "👉 Certains liens peuvent mal fonctionner si les notes sont consultées dans Teams. Veuillez idéalement ouvrir la page dans un navigateur web.";
+      banner.appendChild(text);
+
+      // 4. Ajouter le bouton pour ouvrir dans le navigateur
+      const button = document.createElement("button");
+      button.textContent = "Ouvrir dans le navigateur";
+      
+      // Style du bouton
+      button.style.padding = "0.5rem 1rem";
+      button.style.backgroundColor = "#DA584B";
+      button.style.color = "#fff";
+      button.style.border = "none";
+      button.style.cursor = "pointer";
+      button.style.fontWeight = "bold";
+      button.style.fontSize = "0.75rem";
+      button.style.marginLeft = "1rem";
+
+      // Action du bouton
+      button.addEventListener("click", () => {
+          window.open(window.location.href, "_blank");
+      });
+      
+      banner.appendChild(button);
+
+      // 5. Injecter la bannière au tout début du body
+      document.body.insertBefore(banner, document.body.firstChild);
+  }
+}
+
 // Suppression de la navigation principale sous forme d'onglets
 // On retire en javascript parce qu'on veut conserver les onglets en mobile
 const removeMainTabsNavigation = () => {
@@ -542,6 +600,7 @@ function runFunctions() {
 }
 
 function runOnce() {
+  teamsMessage();
   removeMainTabsNavigation();
   replaceLogoLinkWithSpan();
   initScopedSearch();
