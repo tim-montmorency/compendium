@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 9
-  - Mardi 29 octobre
----
-
 # Cours 9
+
+[STOP]
 
 Vue d'ensemble de la session :
 

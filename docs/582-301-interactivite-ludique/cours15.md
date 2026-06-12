@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 15
-  - Mardi 10 décembre
----
+# Cours 15
 
-# Présentations orales
+[STOP]
 
 [Groupe AM](./cours15am.md)
 

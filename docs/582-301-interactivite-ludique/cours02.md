@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 2
-  - Mardi 2 septembre
----
+# Cours 2
 
-# Phaser
+[STOP]
 
 ## Maths
 

@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 12
-  - Mardi 19 novembre
----
-
 # Cours 12
+
+[STOP]
 
 ## Transition de scène
 

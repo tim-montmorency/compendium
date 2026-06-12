@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 7
-  - Mardi 8 octobre
----
+# Cours 7
 
-# Animations programmées
+[STOP]
 
 ## Interpolation
 

@@ -1,39 +1,75 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Sélectionner toutes les galeries
-  const galleries = document.querySelectorAll(".gallery");
+let _glightbox = null;
 
-  // Parcourir chaque galerie
-  galleries.forEach((gallery) => {
-    // Trouver toutes les images dans la galerie
-    const images = gallery.querySelectorAll("img");
+const initGLightbox = () => {
+  if (typeof GLightbox === "undefined") return;
 
-    const paragraphs = gallery.querySelectorAll("p");
-    paragraphs.forEach((p) => {
-      while (p.firstChild) {
-        gallery.appendChild(p.firstChild);
-      }
+  let changed = false;
+
+  // Handle .gallery containers — images grouped per gallery
+  document.querySelectorAll(".gallery:not([data-glightbox-ready])").forEach((gallery, i) => {
+    gallery.setAttribute("data-glightbox-ready", "");
+    changed = true;
+
+    // Flatten paragraphs (MkDocs wraps inline content in <p>)
+    gallery.querySelectorAll("p").forEach((p) => {
+      while (p.firstChild) gallery.appendChild(p.firstChild);
       p.remove();
     });
 
-    // Transformer chaque image pour être compatible avec LightGallery
-    images.forEach((img) => {
-      // Créer un lien autour de chaque image si nécessaire
-      if (!img.closest("a")) {
-        const link = document.createElement("a");
-        link.href = img.src; // Utiliser l'attribut src de l'image pour lier à la version grand format
-        //link.setAttribute("data-lg-size", "1200-800"); // Exemple de dimensions (à ajuster si nécessaire)
-
-        // Insérer l'image dans le lien
-        img.parentNode.insertBefore(link, img);
-        link.appendChild(img);
+    gallery.querySelectorAll("img").forEach((img) => {
+      if (img.closest("a")) {
+        const a = img.closest("a");
+        a.classList.add("glightbox");
+        a.dataset.gallery = `gallery-${i}`;
+      } else {
+        const a = document.createElement("a");
+        a.href = img.src;
+        a.className = "glightbox";
+        a.dataset.gallery = `gallery-${i}`;
+        img.parentNode.insertBefore(a, img);
+        a.appendChild(img);
       }
     });
-
-    // Initialiser LightGallery sur la galerie
-    lightGallery(gallery, {
-      selector: "a", // Indique que seuls les éléments <a> seront pris en compte
-    });
   });
+
+  // Handle individual zoomable images (data-zoom-image attribute)
+  document.querySelectorAll("img[data-zoom-image]:not([data-glightbox-ready])").forEach((img) => {
+    img.setAttribute("data-glightbox-ready", "");
+    changed = true;
+
+    if (!img.closest("a")) {
+      const a = document.createElement("a");
+      a.href = img.src;
+      a.className = "glightbox";
+      img.parentNode.insertBefore(a, img);
+      a.appendChild(img);
+    }
+  });
+
+  if (!changed) return;
+
+  if (_glightbox) _glightbox.destroy();
+  _glightbox = GLightbox({ selector: ".glightbox" });
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  initGLightbox();
+
+  // Re-init on SPA navigation (MkDocs Material instant loading)
+  const observer = new MutationObserver((mutations) => {
+    const relevant = mutations.some(
+      (m) =>
+        m.type === "childList" &&
+        [...m.addedNodes].some(
+          (n) =>
+            n.nodeType === Node.ELEMENT_NODE &&
+            !n.closest?.(".hljs, pre code.hljs")
+        )
+    );
+    if (relevant) initGLightbox();
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 });

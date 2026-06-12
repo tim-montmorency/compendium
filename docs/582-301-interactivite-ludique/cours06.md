@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 6
-  - Mardi 1er octobre
----
+# Cours 6
 
-# Matrice d'images & états
+[STOP]
 
 ## Annonces
 

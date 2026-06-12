@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 3
-  - Mardi 10 septembre
----
+# Cours 03
 
-# Scènes & HUD
+[STOP]
 
 ## Exercices du cours 2
 

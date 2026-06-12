@@ -453,36 +453,6 @@ body[data-md-color-scheme="slate"] img.invert {
   object-position: center;
 }
 
-/* =========================
-   ZOOM IMAGE
-   ========================= */
-[data-zoom-backdrop] {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 900;
-  background-color: var(--md-default-bg-color);
-  opacity: 0;
-  transition: opacity 400ms ease;
-  pointer-events: none;
-}
-[data-zoom-backdrop="active"] {
-  opacity: 1;
-  pointer-events: auto;
-}
-[data-zoom-image] {
-  position: relative;
-  transform: none;
-  transition: transform 400ms ease, border-radius 400ms ease;
-  cursor: zoom-in;
-}
-[data-zoom-image="active"] {
-  z-index: 1000;
-  cursor: zoom-out;
-  border-radius: 0;
-}
 
 /* =========================
    FENÊTRE MODAL

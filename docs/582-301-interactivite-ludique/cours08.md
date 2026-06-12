@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 8
-  - Mardi 22 octobre
----
+# Cours 08
 
-# Superposition
+[STOP]
 
 Précédemment, nous avons vu la fonction `collider` pour les collisions : `this.physics.add.collider(Objets_A, Objets_B);`. Elle permet de gérer les collisions physiques entre deux objets ou groupes d'objets.
 

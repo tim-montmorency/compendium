@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 5
-  - Mardi 24 septembre
----
+# Cours 5
 
-# Déplacements 2/2
+[STOP]
 
 **Dimensions du jeu vidéo** : Je suggère d'utiliser une résolution maximale de 1280x720 (HD), idéalement **960x600** (WebGL). C'est le bon compromis entre qualité visuelle et performance. De plus, ca doit entrer dans l'interace itch.io.
 

@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 10
-  - Mardi 5 novembre
----
-
 # Cours 10
+
+[STOP]
 
 ## Annonce
 

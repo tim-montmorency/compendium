@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 13
-  - Mardi 26 novembre
----
-
 # Cours 13
+
+[STOP]
 
 ## Réusinage (Refactoring)
 

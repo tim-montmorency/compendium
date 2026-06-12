@@ -1,5 +1,7 @@
 # Interactivité ludique
 
+![](./assets/img/Thank-Goodness-You-re-Here.gif){.w-100}
+
 ## Descriptif du cours
 
 L’élève réalise un projet ludique sur ordinateur qui intègre des images et des échantillons sonores. Il doit créer une expérience ludique à travers laquelle l’interacteur progresse selon ses actions.

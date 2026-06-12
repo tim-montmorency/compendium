@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 4
-  - Mardi 17 septembre
----
+# Cours 4
 
-# Déplacements 1/2
+[STOP]
 
 ## Déplacement par pixels
 

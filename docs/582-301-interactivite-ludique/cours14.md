@@ -1,10 +1,6 @@
----
-tags:
-  - Cours 14
-  - Mardi 3 décembre
----
-
 # Cours 14
+
+[STOP]
 
 ## itch.io
 
