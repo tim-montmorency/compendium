@@ -154,7 +154,7 @@ Dans le jeu [Keep Talking and Nobody Explodes (2015)](https://store.steampowered
 
 #### Distributeurs
 
-[Steam](https://steampowered.com/) | [Itch.io](https://itch.io/) | [Epic Games](https://www.epicgames.com/) | [GOG](https://www.gog.com/)
+[Steam](https://steampowered.com/) | [Itch.io](https://itch.io/) | [Game Jolt](https://gamejolt.com/) | [Epic Games](https://www.epicgames.com/)
 
 #### Statistiques et Données
 
@@ -163,7 +163,7 @@ Dans le jeu [Keep Talking and Nobody Explodes (2015)](https://store.steampowered
 * [HowLongToBeat](https://howlongtobeat.com/) (Durée des jeux)
 * [IsThereAnyDeal](https://isthereanydeal.com/) (Historique des prix)
 
-#### Assets
+<!-- #### Assets
 
 * [Itch.io](https://itch.io/game-assets/free/tag-2d)
 * [Craftpix](https://craftpix.net/freebies/)
@@ -178,26 +178,26 @@ Dans le jeu [Keep Talking and Nobody Explodes (2015)](https://store.steampowered
 * [Reddit : r/gamedevscreens](https://www.reddit.com/r/gamedevscreens/)
 * [Reddit : r/destroymygame](https://www.reddit.com/r/DestroyMyGame/)
 * [Reddit : r/indiedev](https://www.reddit.com/r/IndieDev/)
-* [Reddit : r/gamedesign](https://www.reddit.com/r/gamedesign/)
+* [Reddit : r/gamedesign](https://www.reddit.com/r/gamedesign/) -->
 
 ### Genres de jeux principaux
 
 Plutôt que de lister les centaines de sous-genres existants, voici les grandes catégories fondamentales et les styles les plus populaires que vous risquez de côtoyer[^videogamestypes].
 
-* **Action / Réflexes :** Axé sur l'habileté manuelle et le tempo.
-    * *Exemples :* Plateforme (*Super Mario*), Tir (*Counter-Strike*, *Resident Evil*), Combat (*Street Fighter*), Rythme (*Beat Saber*), Roguelike (*Hades*).
-* **Aventure / Narration :** Met l'accent sur l'histoire, l'exploration et les choix.
-    * *Exemples :* Monde ouvert (*GTA V*), Point & Click (*Monkey Island*), Film interactif (*Life Is Strange*).
-* **Réflexion / Casse-tête :** Fait appel aux méninges, à la logique ou à la physique.
-    * *Exemples :* Logique (*Tetris*, *The Witness*), Évasion (*Escape Simulator*), Physique (*Kerbal Space Program*).
-* **Jeu de rôle (RPG) :** Axé sur l'évolution des statistiques d'un personnage et les choix narratifs.
-    * *Exemples :* Action-RPG (*Diablo 4*), RPG Tactique (*Baldur’s Gate 3*).
-* **Stratégie & Gestion :** Demande de la planification, de la gestion de ressources ou de la tactique militaire.
-    * *Exemples :* Gestion (*Cities: Skylines*, *Stardew Valley*), Stratégie (*Civilization VI*, *League of Legends*).
-* **Simulations & Bac à sable :** Recréation d'activités réelles ou liberté totale de création.
-    * *Exemples :* Conduite (*Euro Truck*), Simulation de vie (*The Sims*), Sandbox (*Minecraft*).
-* **Hybrides & OVNI :** Jeux inclassables ou conceptuels.
-    * *Exemples :* Cartes (*Balatro*), Incrémentiel (*(the) Gnorp Apologue*).
+* **Action, réflexes**
+  > *Exemples :* Plateforme (*[Super Mario](https://supermario-game.com/fr)*), Tir (*[Counter-Strike](https://www.counter-strike.net/cs2)*, *[Resident Evil](https://www.residentevil.com/)*), Combat (*[Street Fighter](https://www.streetfighter.com/)*), Rythme (*[Beat Saber](https://beatsaber.com/)*), Roguelike (*[Hades](https://www.supergiantgames.com/games/hades-ii/)*).
+* **Aventure, narration**
+  > *Exemples :* Monde ouvert (*[GTA V](https://www.rockstargames.com/gta-v)*), Point & Click (*[Monkey Island](https://returntomonkeyisland.com/)*), Film interactif (*[Life Is Strange](https://lifeisstrange.square-enix-games.com/en-us)*).
+* **Réflexion, casse-tête**
+  > *Exemples :* Logique (*[Tetris](https://play.tetris.com/)*, *[The Witness](https://www.playstation.com/en-ca/games/the-witness/)*), Évasion (*[Escape Simulator](https://pinestudio.com/games/escape-simulator/)*), Physique (*[Kerbal Space Program](https://www.kerbalspaceprogram.com/)*).
+* **Jeu de rôle (RPG)**
+  > *Exemples :* Action-RPG (*[Diablo 4](https://diablo4.blizzard.com/fr-fr/)*), RPG Tactique (*[Baldur’s Gate 3](https://baldursgate3.game/)*).
+* **Stratégie, gestion**
+  > *Exemples :* Gestion (*[Cities: Skylines](https://www.paradoxinteractive.com/games/cities-skylines/about)*, *[Stardew Valley](https://www.stardewvalley.net/)*), Stratégie (*[Civilization](https://civilization.2k.com/)*, *[League of Legends](https://www.leagueoflegends.com/en-us/)*).
+* **Simulations, bac à sable**
+  > *Exemples :* Conduite (*[Euro Truck](https://eurotrucksimulator2.com/)*), Simulation de vie (*[Paralives](https://www.paralives.com/)*), Sandbox (*[Minecraft](https://www.minecraft.net/fr-fr)*).
+* **Divers**
+  > *Exemples :* Cartes (*[Balatro](https://www.playbalatro.com/)*), Incrémentiel (*[(the) Gnorp Apologue](https://gnorp.dev/)*).
 
 [^videogamestypes]: [Liste complète des genres de jeux vidéo (Wikipédia)](https://fr.wikipedia.org/wiki/Genre_de_jeu_vid%C3%A9o)
 
@@ -210,7 +210,7 @@ Pour concevoir un jeu, il faut savoir **où** on y joue et **avec quoi** on le c
 | **PC & Consoles** | Windows, Mac, PlayStation, Xbox, Switch, Steam Deck | Clavier/Souris, Manette, Joystick |
 | **Mobile** | iOS, Android | Écran tactile, Gyroscopes |
 | **Réalités (VR/AR)** | Meta Quest, PlayStation VR, Apple Vision Pro | Manettes à détection de mouvement, Suivi des mains/yeux |
-| **Infonuagique (Cloud)** | Xbox Cloud Gaming, NVIDIA GeForce Now, ~~Stadia~~ :fontawesome-solid-skull-crossbones: | Multiplateforme (dépend du flux) |
+| **Infonuagique (Cloud)** | Xbox Cloud Gaming, NVIDIA GeForce Now | Multiplateforme (dépend du flux) |
 | **Navigateur Web** | Portails HTML5 / WebGL / WebAssembly | Clavier/Souris, Tactique |
 
 ## Prérequis
@@ -234,6 +234,59 @@ Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à un 
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+## Boucles de jeu
+
+Une **boucle de jeu** est une séquence d'actions que le joueur répète tout au long de la partie. C'est le moteur rythmique du jeu — ce que le joueur *fait*, encore et encore.
+
+Une boucle bien conçue est **simple à comprendre** et **assez riche pour rester intéressante**.
+
+### Boucle principale *(core loop)*
+
+La boucle principale est la séquence d'actions fondamentale — ce que le joueur répète en quelques secondes ou minutes.
+
+```mermaid
+graph LR
+    A(Agir) --> B(Résultat)
+    B --> C(Récompense ou punition)
+    C --> A
+```
+
+<div class="grid grid-1-2" markdown>
+![Elden Ring](./assets/img/games/elden-ring.jpg){data-zoom-image}
+
+Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/), la boucle principale est : *explorer une zone → affronter un ennemi → mourir ou vaincre → récupérer des runes → s'améliorer → explorer plus loin*.
+</div>
+
+!!! tip "Exprimer une boucle en verbes d'action"
+    Pour décrire une boucle principale, on utilise des **verbes d'action concrets**.
+
+    > ❌ *"Le joueur ressent la tension de l'exploration"*  
+    > ✅ *"Le joueur explore, attaque, meurt, réapparaît et recommence"*
+
+### Boucle méta *(meta loop)*
+
+La boucle méta est la boucle de **long terme** — ce qui motive le joueur à relancer le jeu d'une session à l'autre. Elle s'appuie souvent sur la progression, les déblocages ou l'amélioration permanente.
+
+<div class="grid grid-1-2" markdown>
+![(the) Gnorp Apologue](./assets/img/games/gnorp.jpg){data-zoom-image}
+
+Dans [(the) Gnorp Apologue (2023)](https://store.steampowered.com/app/1473350/the_Gnorp_Apologue/), la boucle méta est : *accumuler des éclats → acheter des améliorations → accumuler encore plus vite → débloquer de nouvelles mécaniques*. On répète la même boucle principale, mais on est toujours plus puissant.
+</div>
+
+### Boucles secondaires
+
+Les boucles secondaires sont des activités **optionnelles** qui enrichissent l'expérience sans être au cœur du jeu : quêtes annexes, collections, personnalisation, mini-jeux, etc.
+
+<div class="grid grid-1-2" markdown>
+![Dave the Diver](./assets/img/games/dave-the-diver.jpg){data-zoom-image}
+
+Dans [Dave the Diver (2023)](https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/), la boucle principale est *plonger → chasser du poisson → remonter*. La boucle secondaire — gérer le restaurant le soir — n'est pas obligatoire, mais elle donne une raison supplémentaire de rejouer.
+</div>
+
+!!! abstract "À retenir"
+    Un jeu solide a généralement **une boucle principale claire**, **une boucle méta motivante** et **quelques boucles secondaires** pour la variété.  
+    Quand une des trois est mal conçue, le jeu paraît creux ou répétitif.
+
 ## Cadriciels (Frameworks & Moteurs)
 
 Un cadriciel/moteur est une bibliothèque d'outils et de fonctionnalités destinés à aider les développeurs. Au lieu de tout reprogrammer à partir de zéro (moteur physique, gestion audio, rendu des images), on utilise une structure existante pour gagner du temps.
@@ -255,11 +308,6 @@ On y détaille le **concept**, les **mécaniques**, l'**histoire**, la **directi
 
 !!! question "Est-ce un document définitif ?"
     Absolument pas. En cours de route, des idées tombent à l'eau, d'autres s'ajoutent suite aux phases de test. C'est un document vivant (*live document*), même s'il doit garder une base stable pour éviter que le projet ne parte dans tous les sens (*scope creep*).
-
-
-
-
-
 
 ## Unity
 
@@ -319,15 +367,35 @@ Une fois l’installation terminée, cette version de l’éditeur Unity appara�
 
 Lorsque vous créez un nouveau projet, je vous conseille de tout de suite créer les dossiers suivants dans votre fenêtre Project. Ainsi, vous pourrez classer vos ressources dès que vous les importez:
 
-Animation
-Art
-Audio
-Font
-Materials (en 3D seulement)
-Prefabs
-Rendering (Si nécessaire)
-Scenes
-Scripts
+```txt
+Assets/
+  ├── 📁 Plugins (Pour les assets téléchargés sur l'Asset Store)
+  └── 📂 _Project
+        ├── 📁 Animations
+        ├── 📂 Art
+        │    ├── 📁 Materials
+        │    ├── 📁 Models
+        │    └── 📁 Textures
+        ├── 📁 Audio
+        ├── 📁 Fonts
+        ├── 📁 Prefabs
+        ├── 📁 Rendering
+        ├── 📁 Scenes
+        └── 📁 Scripts
+```
 
-## Exercices
+## Devoirs
 
+<div class="grid grid-1-2" markdown>
+  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
+
+  <small>Devoir - Unity</small><br>
+  **[Essential Pathway #1](./devoirs/pathway-essentials-1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
+
+  <small>Devoir - Conception</small><br>
+  **[Analyse d'un jeu existant](./devoirs/gdd.md){.stretched-link .back}**
+</div>
