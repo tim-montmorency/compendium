@@ -1,795 +1,543 @@
-# Cours 2 | Lignes de commande & Git
+# Cours 2 | _Framework_ CSS
 
-*[CLI] : Command-Line Interface
+<!-- **Savoirs :** #5 Cadriciel facilitant l'intégration · #9 Positionnement · #17 Réactivité (media queries) -->
 
-## :octicons-terminal-16: Lignes de commande
+*[CLI]: Command-Line Interface
+*[CDN]: Content Delivery Network
+*[npm]: Node Package Manager
+*[OKLCH]: OK👌 Lightness Chroma Hue
 
-![](./assets/images/command.webp){ .w-100 }
+<!-- Au dernier cours, vous avez apprivoisé le **terminal**. Aujourd'hui, on s'en sert pour de vrai 🤓. -->
 
-La [ligne de commande](https://fr.wikipedia.org/wiki/Commandes_Unix) est un outil qui permet d’interagir avec un ordinateur en tapant des commandes textuelles.
+![](./assets/images/d8b3cd809cf65ca8c4e3fb8c4a110b8f.gif){.aspect-16-9 .w-100}
 
-On écris des lignes de commande dans un CLI, aussi appelé « Terminal ».
+En Web 2, vous écriviez tout votre CSS **à la main**. 
 
-![Terminal](./assets/images/terminal.png)
+Cette session, on découvre un pilier du développement moderne&nbsp;: les cadriciels CSS (ou _frameworks_ CSS). Un **_framework_ CSS**, c'est du CSS déjà préparé qu'on branche à une page Web pour la styler sans partir de zéro.
 
-Contrairement à une interface graphique (GUI) où vous cliquez sur des boutons, ici, vous tapez directement ce que vous voulez faire.
+Il en existe une grande variété, mais **[Tailwind](https://tailwindcss.com/)** est aujourd'hui le plus utilisé. Toutefois, afin d'aténuer la courbe d'apprentissage de ce nouveau concept, nous commencerons avec un minuscule _framework_ nommé [**Milligram**](https://milligram.io/).
 
-*[GUI] : Graphical User Interface
+## Introduction au _frameworks CSS_
 
-Les lignes de commande sont très utile en développement web et pour configurer les serveurs, entre autres.
-
-!!! info "Bon à savoir"
-
-    * En ligne de commande, lorsqu'on voit `.` ou `./`, cela signifie le répertoire courant.
-    * Lorsqu'on voit `..` ou `../`, ça signifie le répertoire parent.
-    * On peut utiliser la touche ++tab++ pour compléter une ligne de commande.
-
-### Où se trouve le terminal ?
-
-* En **Windows**, utilisez l'application **PowerShell[^powershell]** plutôt que command prompt.
-* En **macOS**, utilisez l'application **Terminal[^terminal_osx]**.
-* En **Linux**, utilisez l'application **Terminal[^terminal_unix]**.
-
-[^powershell]: [https://learn.microsoft.com/fr-ca/training/modules/introduction-to-powershell/](https://learn.microsoft.com/fr-ca/training/modules/introduction-to-powershell/)
-[^terminal_osx]: [https://support.apple.com/fr-ca/guide/terminal/welcome/mac](https://support.apple.com/fr-ca/guide/terminal/welcome/mac)
-[^terminal_unix]: [https://ubuntu.com/tutorials/command-line-for-beginners](https://ubuntu.com/tutorials/command-line-for-beginners) (en anglais)
-
-### Position
-
-Affichager l'emplacement avec « pwd »
-
-*[pwd]: Acronyme pour « Print Working Directory » en anglais
-
-=== "Windows"
-
-    ![pwd](./assets/images/pwd.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    pwd
-
-    # Résultat : C:\Windows
-    ```
-
-### Navigation
-
-#### Liste
-
-Lister des fichiers et dossiers avec « ls »
-
-*[ls]: Diminutif du mot « list » en anglais
-
-=== "Windows"
-
-    ![ls](./assets/images/ls.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    ls
-    ```
-
-#### Déplacement
-
-Changer de répertoire avec « cd »
-
-*[cd]: Acronyme pour « Change Directory » en anglais
-
-=== "Windows"
-
-    ![cd](./assets/images/cd.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    cd nom_du_dossier
-    ```
-
-    ```powershell
-    cd ./nom_du_dossier # identique à la commande précédente
-    ```
-
-    ```powershell
-    cd .. # Se déplace au répertoire parent
-    ```
-
-### Fichiers
-
-#### Création
-
-Créer un fichier avec « touch »
-
-=== "Windows"
-
-    ![touch](./assets/images/touch.png)
-
-=== "Ligne de commande"
-
-    ```bash
-    touch nom_du_fichier.txt
-    ```
-
-#### Lecture
-
-Lire le contenu d'un fichier avec « cat »
-
-*[cat]: Diminutif du mot « concatenate » en anglais
-
-=== "Windows"
-
-    ![cat](./assets/images/cat.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    cat nom_du_fichier.txt
-    ```
-
-#### Écriture
-
-Écrire dans un fichier avec « echo »
-
-```powershell
-echo "Texte à ajouter" >> nom_du_fichier.txt
-echo "Texte en deuxième ligne" >> nom_du_fichier.txt
-echo "Texte en troisième ligne!" >> nom_du_fichier.txt
-```
-
-```powershell
-echo "Finalement, remplace tout par ceci" > nom_du_fichier.txt
-```
-
-#### Déplacement
-
-Déplacer, ou renommer!!, un fichier avec « mv »
-
-*[mv]: Diminutif du mot « move » en anglais
-
-```powershell
-mv nom_du_fichier.txt nouveau_nom.txt
-```
-
-```powershell
-mv nom_du_fichier.txt assets/nom_du_fichier.txt
-```
-
-#### Suppression
-
-Supprimer un fichier ou un répertoire avec « rm »
-
-=== "Windows"
-
-    ![rm](./assets/images/rm.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    rm nom_du_fichier.txt
-    ```
-
-### Dossiers
-
-#### Création
-
-Créer un fichier avec « mkdir »
-
-*[mkdir]: Diminutif des mots « make » et « directory » en anglais
-
-=== "Windows"
-
-    ![mkdir](./assets/images/mkdir.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    mkdir nom_du_dossier
-    ```
-
-#### Supprimer un dossier
-
-Supprimer un dossier avec « rm -r ». L’option `-r` signifie récursif (recursive en anglais), ce qui permet de supprimer tout les contenus d'un dossier.
-
-*[rm]: Diminutif du mot « remove »  en anglais
-
-=== "Windows"
-
-    ![rm](./assets/images/rm.png)
-
-=== "Ligne de commande"
-
-    ```powershell
-    rm -r nom_du_dossier
-    ```
-
-### Exercice en ligne de commande
+![](./assets/images/get-in.png)
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/mandala.jpeg)
+  ![](./activite/milligram/preview.gif){.aspect-4-3}
 
-  <small>Exercice - CLI</small><br>
-  **[Mandala](./exercices/cli-mandala.md){.stretched-link}**
+  <small>Exercice - Milligram</small><br>
+  **[Mon premier _framework_](./activite/milligram/index.md){.stretched-link .back}**
 </div>
 
-## Markdown
+## Tailwind
 
-Le Markdown est un langage de balisage léger créé par John Gruber permettant d'écrire des blogs, de la documentation ou des livres dans un format simple et standardisé. Le Markdown peut ensuite être converti facilement en divers formats, notamment: Word, PDF, EPUB ou HTML.
+![](./assets/images/tailwind-banner.png)
 
-Sa grande force réside dans sa simplicité permettant de se concentrer sur l'écriture du texte lui-même, tout en offrant des options de mise en page de base.
+Tailwind est aussi un _framework CSS_, mais sa philosophie est différente.
 
-Il existe plusieurs variations de Markdown. Cependant, nous nous concentrerons sur le [Markdown Github](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Milligram fournit des classes **« sémantiques »** toutes faites&nbsp;: `.button`, `.row`, `.column`.
 
-### Titres
+Tailwind fournit des classes **« utilitaires »**. Il donne des **micro-classes** qui font chacune une seule petite chose, qu'on **compose** soi-même. Le but de Tailwind est de ne plus jamais coder de CSS 😈
 
-=== "Markdown"
+=== "Milligram"
 
-    ```markdown
-    # H1
-    ## H2
-    ### H3
-    #### H4
-    ##### H5
-    ###### H6
+    ```html
+    <a href="#" class="button">
+      Voir la bande annonce
+    </a>
     ```
 
-=== "Résultat"
+=== ":simple-tailwindcss: Tailwind"
 
-    <h1>H1</h1>
-    <h2>H2</h1>
-    <h3>H3</h1>
-    <h4>H4</h1>
-    <h5>H5</h1>
-    <h6>H6</h1>
-
-### Accentuation
-
-=== "Markdown"
-
-    ```markdown
-    *Italic*
-    **Bold**
+    ```html
+    <a href="#" class="px-6 py-2 bg-purple-600 text-white rounded font-bold uppercase">
+      Voir la bande annonce
+    </a>
     ```
 
-=== "Résultat"
+### La documentation
 
-    *Italic*
+Personne ne mémorise par coeur les classes de Tailwind. On utilise la [documentation](https://tailwindcss.com/docs) et l'autocomplétion de VS Code.
 
-    **Bold**
+!!! warning "Tailwind CSS vs. Tailwind Plus" 
 
-### Liste non ordonnée
+    Dans la doc, vous verrez peut-être Tailwind Plus. Ignorez cette partie, elle est payante.
 
-=== "Markdown"
+    ![](./assets/images/tailwind-plus.png){data-zoom-image .w-50}
 
-    ```markdown
-    - Item 1
-    - Item 2
-    - Item 3
-    ```
+### Installation
 
-=== "Résultat"
-
-    - Item 1
-    - Item 2
-    - Item 3
-
-### Liste ordonnée
-
-=== "Markdown"
-
-    ```markdown
-    1. Item 1
-    1. Item 2
-    1. Item 3
-    ```
-
-=== "Résultat"
-
-    1. Item 1
-    1. Item 2
-    1. Item 3
-
-### Lien
-
-=== "Markdown"
-
-    ```markdown
-    [Momo](https://tim-montmorency.com/)
-    ```
-
-=== "Résultat"
-
-    [Momo](https://tim-montmorency.com/)
-
-### Image
-
-=== "Markdown"
-
-    ```markdown
-    ![Texte alternative de mon image](https://picsum.photos/160/90)
-    ```
-
-=== "Résultat"
-
-    ![Texte alternative de mon image](https://picsum.photos/160/90)
-
-### Citation
-
-=== "Markdown"
-
-    ```markdown
-    > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme.
-    >
-    > — Giacomo Leopardi
-    ```
-
-=== "Résultat"
-
-    > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme.
-    >
-    > — Giacomo Leopardi
-
-### Code
-
-=== "Markdown"
-
-    ````markdown
-    ```javascript
-    function exclamation() {
-        return "!";
-    }
-    ```
-    ````
-
-=== "Résultat"
-
-    ```javascript
-    function exclamation() {
-        return "!";
-    }
-    ```
-
-### Trait horizontal
-
-=== "Markdown"
-
-    ```markdown
-    ---
-    ```
-
-=== "Résultat"
-
-    ---
-
-### Tableaux
-
-=== "Markdown"
-
-    ```markdown
-    | Entête 1 | Entête 2 | Entête 3 |
-    | -------- | -------- | -------- |
-    | Ligne 1  | Data 1   | Data 2   |
-    | Ligne 2  | Data 3   | Data 4   |
-    ```
-
-=== "Résultat"
-
-    | Entête 1 | Entête 2 | Entête 3 |
-    | -------- | -------- | -------- |
-    | Ligne 1  | Data 1   | Data 2   |
-    | Ligne 2  | Data 3   | Data 4   |
-
-### Outil
+![](./assets/images/vhs-vcr.gif){.w-100}
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/toolbox.jpg)
+  ![](./activite/tailwind-install/kido.gif){.aspect-4-3}
 
-  <small>Outil - Markdown</small><br>
-  **[Dellinger - WYSIWYG Markdown](https://dillinger.io/){.stretched-link}**
+  <small>Exercice - Tailwind</small><br>
+  **[Installation Tailwind en CDN](./activite/tailwind-install/index.md){.stretched-link .back}**
 </div>
 
-### Exercice Markdown
+### Espacements
+
+<!-- ![](./assets/images/padding.gif){.w-100} -->
+
+Les classes d'espacement ([padding](https://tailwindcss.com/docs/padding) et [margin](https://tailwindcss.com/docs/margin)) se construisent avec ce motif :
+
+```txt
+<propriété><côté*>-<size>
+```
+
+<div class="grid cards" markdown>
+
+| Propriété | |
+| --- | --- |
+| `m` | `margin` |
+| `p` | `padding` |
+
+| Coté (facultatif) | |
+| --- | --- |
+| `t` | `top` |
+| `b` | `bottom` |
+| `l` | `left` |
+| `r` | `right` |
+| `x` | `right` + `left` |
+| `y` | `top` + `bottom` |
+
+| Unité | |
+| --- | --- |
+| `0` | `0rem` |
+| `1` | `0.25rem` |
+| `2` | `0.5rem` |
+| `3` | `0.75rem` |
+| `4` | `1rem` |
+| ... | |
+
+</div>
+
+<p class="aspect-1-1 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Spacing Builder" data-version="2" data-default-tab="result" data-slug-hash="KwaxmeB" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f90bb-8006-7a5a-8b63-ff33d6f6ef04">
+  Tailwind4 Spacing Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+On pourra alors utiliser ce type de classe dans le HTML. Voici un exemple : 
+
+<p class="aspect-6-1 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Premier pas" data-version="2" data-default-tab="html,result" data-slug-hash="JoEmOeb" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa47b-527e-78a4-ac8d-e11aa07a9cd0">
+  Tailwind4 Premier pas</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+
+### Couleurs
+
+![](./assets/images/rainbow-colors.gif)
+
+Les classes de [couleur](https://tailwindcss.com/docs/colors) se construisent généralement avec ce motif :
+
+```txt
+<propriété>-<couleur>-<tinte>/<transparence>
+```
+
+Plusieurs propriétés peuvent être colorées. Ici on peut voir trois classiques : [couleur de fond](https://tailwindcss.com/docs/background-color), [texte](https://tailwindcss.com/docs/color) et [bordure](https://tailwindcss.com/docs/border-color).
+
+<p class="aspect-4-3 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Color Builder" data-version="2" data-default-tab="result" data-slug-hash="xbgajvQ" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f947a-8ba9-7e36-9437-57ba13d5b7c7">
+  Tailwind4 Color Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+!!! note "Notez qu'il n'est pas possible de changer la tinte d'une couleur définitive comme le blanc, le noir et la transparence."
+
+<!-- 
+#### Au sujet des nuances
+
+Tailwind utilise une échelle numérique de 11 niveaux de nuances pour chaque couleur. La valeur 500 représente la couleur de base.
+
+<p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Color Palette" data-version="2" data-default-tab="result" data-slug-hash="bNgxKYr" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f94a9-a91a-77a3-9b39-d8088f0f9841">
+  Tailwind4 Color Palette</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+Pour ajouter une nuance, c'est assez simple, voici un exemple : 
+
+```html
+<style type="text/tailwindcss">
+@theme {
+    --color-pink-925: oklch(0.346 0.131 3.170); 
+}
+</style>
+```
+
+Ensuite la classe `.bg-pink-925` ou encore `.text-pink-925` sera disponible. Ce qui veut dire qu'on pourra faire ça :
+
+```html
+<h1 class="text-pink-925">Allo</h1>
+```
+
+#### OKLCH ?
+
+Oui, OKLCH, ah et bienvenue au 21e siècle soit dit en passant !
+
+> Si on vous proposait une palette de couleurs de 16.7 millions de possibilités, vous diriez que c'est clairement pas assez ! Right ?<br>
+> ![](./assets/images/shannon-sharpe-shay.gif)
+
+La technologie sRGB, ce sur quoi repose l'hexadécimal (ex. : `#ff3388`), fut conçue pour les écrans des années 90 👵
+
+`oklch` n'a pas de limite théorique du nombre de couleurs. C'est d'ailleurs sur quoi sont basées les couleurs dans Tailwind
+
+<https://oklch.net/> -->
+
+### Typograpie
+
+![](./assets/images/a.gif){.w-100}
+
+<p class="aspect-1-1 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Typography Builder" data-version="2" data-default-tab="result" data-slug-hash="ogBaxEv" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f9fd4-5df0-76ec-a45a-2cbe17ce64c2">
+  Tailwind4 Typography Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+```html
+<style type="text/tailwindcss">
+@theme {
+    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Merriweather', serif;
+    --font-mono: 'Fira Code', monospace;
+}
+</style>
+```
+
+😜 Évidemment, il ne faut pas oublier de lier les GoogleFonts dans le HTML avec leur script d'importation.
+
+![](./assets/images/google-font-import.png){data-zoom-image .w-25}
+
+### Bordures
+
+Les configurations [radius](https://tailwindcss.com/docs/border-radius), [width](https://tailwindcss.com/docs/border-width), [color](https://tailwindcss.com/docs/border-color) et [style](https://tailwindcss.com/docs/border-style) sont gérées pour les propriétés `border` et les `outline`. La syntaxe est la suivante : 
+
+```
+rounded-<size>
+border-<size>
+border-<style>
+border-<couleur>-<tinte>
+```
+
+<p class="aspect-4-3 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Border Builder" data-version="2" data-default-tab="result" data-slug-hash="pvRxWVa" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa424-7fa7-754e-9c73-8b3703f02580">
+  Tailwind4 Border Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+### Exercice sur les bases
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/markdown.jpg)
+  ![](./activite/tailwind-intro/banner-bases.jpg){.aspect-4-3}
 
-  <small>Exercice - Markdown</small><br>
-  **[Tutoriel Markdown](https://www.markdowntutorial.com/){.stretched-link}**
+  <small>Exercice - Tailwind</small><br>
+  **[Bases Tailwind](./activite/tailwind-intro/base.md){.stretched-link .back}**
 </div>
 
-## Git
+## Tailwind Suite
 
-Git est un outil qui vous protège de vous-même. Il permet en quelque sorte de faire des « checkpoints » ou en français, des points de sauvegarde :material-content-save-outline:, dans un projet.
+### Grandeurs (_sizing_)
 
-![Git](./assets/images/git.webp)
+Les dimensions comme le [`width`](https://tailwindcss.com/docs/width) et le [`height`](https://tailwindcss.com/docs/height) suivent la même syntaxe : 
 
-Ainsi, vous pouvez modifier votre projet l'esprit tranquille, puisqu'il vous permet de revenir en arrière en cas de besoin.
-
-### Répertoire :material-source-repository:
-
-Un répertoire (« repository » ou « repo » en anglais) est le nom donné au dossier :material-folder-open: surveillé par Git. À chaque `commit`, tous les changements effectués à l'intérieur de celui-ci seront enregistrés par Git.
-
-!!! info ".git"
-
-    Lorsqu'un dossier est surveillé par Git, un dossier caché nommé `.git` s'ajoutera à la racine. Il contient les données données de version, de branches et de configuration Git.
-
-### Commit
-
-À tout moment, il est possible de sauvegarder en local (sur son ordinateur) l'avancement d'un projet :material-content-save-outline: avec Git.
-
-On doit dabord choisir quels fichiers ou changements on souhaite sauvegarder. Cette étape est appelée `staging` ou `stage`. Ensuite, on peut faire une sauvegarde acccompagnée d'un petit commentaire[^gitcomment]. Cette étape est appelée `commit` :octicons-git-commit-16:.
-
-[^gitcomment]: [Comment rédiger un bon commit](https://medium.com/@hritik.jaiswal/how-to-write-a-good-commit-message-9d2d533b9052) (en anglais)
-
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Git - Commit" src="https://codepen.io/tim-momo/embed/abgjPBv?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/abgjPBv">
-  Git - Commit</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! example "Ligne de commande"
-
-    Connaître la liste des fichiés ajoutés, modifiés ou supprimés : `git status`
-
-    Ajouter des fichiers au commit : `git add NOM_DU_FICHIER`
-
-    Pour ajouter tous les fichiers créés et modifiés : `git add -A`
-
-    Enregistrer un nouveau commit : `git commit -m "Votre note ici"`
-
-### Push
-
-Idéalement, un commit est ensuite poussé vers un service infonuagique :material-cloud: comme GitHub :octicons-mark-github-16: par exemple.
-
-*[infonuagique] : L'informatique en nuage (cloud computing) est la pratique consistant à utiliser des serveurs informatiques à distance, hébergés dans des centres de données connectés à Internet pour stocker, gérer et traiter des données, plutôt qu'un serveur local ou un ordinateur personnel. - Wikipedia
-
-C'est ce qu'on appel faire un `push` :material-publish:.
-
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Git - Push" src="https://codepen.io/tim-momo/embed/vYqavWW?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/vYqavWW">
-  Git - Push</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! example "Ligne de commande"
-
-    Envoyer le commit au serveur distant : `git push`
-
-### Branches
-
-Par défaut, tous les répertoires ont une branche principale appelée `main`. Lorsqu'un `push` est effectué, les changements sont envoyés vers cette branche.
-
-Travailler sur des branches séparées permet de développer de nouvelles fonctionnalités ou corriger des bugs sans affecter la branche principale (`main`). Cela aide à maintenir un projet stable.
-
-Dans l'image ci-dessous, chaque couleur représente une `branch` différente et chaque cercle représente un `commit`.
-
-![](./assets/images/git-branches.png)
-
-!!! example "Ligne de commande"
-
-    Voir la liste des branches : `git branch`
-
-    Créer une branche : `git branch NOM_DE_LA_BRANCHE`
-
-    Se déplacer sur une nouvelle branche : `git checkout NOM_DE_LA_BRANCHE`
-
-### Merge
-
-Une fois vos modifications terminées sur une branche, utilisez git merge [branche] pour fusionner ces changements dans une autre branche, comme main.
-
-![](./assets/images/git-merge.png)
-
-!!! example "Ligne de commande"
-
-    Intégrer une branche à la branch courante : `git merge NOM_DE_LA_BRANCHE`
-
-### Collaboration
-
-Git permet de travailler simultanément sur un même projet.
-
-Admettons qu'une équipe doivent développer le même projet sur GitHub.
-
-Chaque développeur va faire une copie du projet sur son ordinateur. On appelle cette étape, faire un `clone`.
-
-Lorqu'un membre de l'équipe effectue un `push`, les autres développeurs doivent se synchroniser manuellement.
-
-Ils doivent donc effectuer un `pull` avant de faire un `push` à leur tour.
-
-<iframe class="aspect-2-1" height="300" style="width: 100%;" scrolling="no" title="Git - Collaboration" src="https://codepen.io/tim-momo/embed/NWZBJrp?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/NWZBJrp">
-  Git - Collaboration</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! example "Ligne de commande"
-
-    Télécharge (clone) un projet distant :  `git clone URL`
-
-### Conflits
-
-![](./assets/images/sweat.webp)
-
-Qui dit collaboration, dit conflits potentiels.
-
-Les conflits surviennent lorsque deux développeurs modifient le même fichier.
-
-:white_check_mark: Git combine automatiquement les modifications si elles sont sur des lignes différentes.
-
-:x: Si les mêmes lignes sont modifiées, un conflit est créé.
-
-```js linenums="48" title="Exemple de conflit"
-<<<<<<< HEAD
-let isStudent = false; (vous)
-⩵⩵⩵⩵
-let estEtudiant=false; (le dev distant)
->>>>>>>
+```txt
+<w>-<value>
+<h>-<value>
 ```
 
-!!! tip "Petit truc"
+Les valeurs peuvent être : 
 
-    Pour minimiser les conflits, effectuez des `commit` + `push` régulièrement, au minimum une fois par jour!
+* une fraction (ex.: `1/4`, `2/3`, ...)
+* une valeur fixe (ex.: `4`, `10`, ...)
+* un conteneur (`xs`, `sm`, `md`, `lg`, `xl`, `2xl`, `3xl` ...).
 
-#### Résolution de conflit
+On peut aussi utiliser le mot `screen` pour signifier la largeur de la fenêtre du navigateur (ex.: `w-screen` équivaut à `width: 100vw;`). Si vous avez besoin de vous rafaichir la mémoire sur les unités relatives au _viewport_, consultez la page [Viewport units sur web.dev](https://web.dev/blog/viewport-units?hl=fr).
 
-Choisissez le code pertinent, supprimez l’autre ainsi que les marqueurs.
+Enfin, si on veut ajouter un `min-width` ou `max-width`, on peut le faire avec cette syntaxe : 
 
-```js linenums="49" title="Exemple de conflit résolu"
-let isStudent = false;
+```txt
+min-<w>-<value>
+max-<w>-<value>
 ```
 
-!!! warning "Attention"
+<p class="aspect-4-3 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Sizing Builder" data-version="2" data-default-tab="result" data-slug-hash="YPNJgPq" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa96c-2019-7042-a6bf-cacf1e8cd8a7">
+  Tailwind4 Sizing Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<!-- <script async src="https://public.codepenassets.com/embed/index.js"></script> -->
 
-    Lorsqu'on résout un conflit, nécessairement, on supprime le code de quelqu'un. Afin d'éviter des conflits, cette fois, de l'ordre interpersonnels, communiquez avec l'auteur du code supprimé pour l'informer de votre décision. Il est toujours préférable de maintenir une attitude respectueuse :material-peace: et professionnelle :material-tie:.
+[Codepen](https://es-d-75839172920260731-019fa96c-2019-7042-a6bf-cacf1e8cd8a7.codepen.dev/)
 
-### .gitignore
+!!! info "Valeur arbitraire"
 
-Git permet d’ignorer certains fichiers ou dossiers en utilisant un fichier nommé `.gitignore`.
+    Il est également possible de spécifier une [valeur arbitraire](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values) en l'inscrivant entre crochets. 
 
-#### Ignorer un fichier
+    ```html title="Exemple"
+    <div class="w-[5px]">
+        ...
+    </div>
+    ```
 
-Pour ignorer un fichier spécifique, ajoutez simplement son nom dans le fichier `.gitignore`.
+#### Conteneurs Tailwind
 
-Par exemple, pour ignorer `notes_perso.txt`, ajoutez :
+Les conteneurs Tailwind c'est juste des dimentions normalisées qu'on peut appliquer sur certaines classes. L'important ici est juste de savoir que ça existe.
 
-```yaml
-notes_perso.txt
+| Taille | rem |
+| :--- | :--- |
+| **xs** | `20rem` |
+| **sm** | `24rem` |
+| **md** | `28rem` |
+| **lg** | `32rem` |
+| **xl** | `36rem` |
+| **2xl** | `42rem` |
+| ... |  |
+
+<!-- ### Position
+
+![](./assets/images/tailwind-abs.png){data-zoom-image}
+
+Tailwind a déjà toutes les classes nécessaires pour gérer les [positions](https://tailwindcss.com/docs/position#relatively-positioning-elements) (ex.: `relative`, `absolute`) et les [positionnements](https://tailwindcss.com/docs/top-right-bottom-left) (ex.: `top`, `left`, `z`).
+
+
+
+- Aspect-ratio
+- Display
+- Float
+- object-fit
+- Position
+- z-index -->
+
+### Effets
+
+Les effets CSS comme [box-shadow](https://tailwindcss.com/docs/box-shadow), [opacity](https://tailwindcss.com/docs/opacity) ou les [filtres](https://tailwindcss.com/docs/filter-blur) sont faciles à utiliser, mais demandent de bien comprendre leur fonctionnement. C'est pourquoi il sera recommandé ici de consulter la documentation officielle pour maîtriser leur syntaxe.
+
+<p class="aspect-4-3 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Effect Builder" data-version="2" data-default-tab="result" data-slug-hash="myRzBor" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa438-98cf-79bd-a38c-8ce021ca9b1f">
+  Tailwind4 Effect Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+### Display
+
+<!-- ![](./assets/images/grid.gif){.w-100} -->
+
+| Classe Tailwind | Équivalent CSS |
+| :--- | :--- |
+| `block` | `display: block;` |
+| `inline-block` | `display: inline-block;` |
+| `inline` | `display: inline;` |
+| `flex` | `display: flex;` |
+| `inline-flex` | `display: inline-flex;` |
+| `grid` | `display: grid;` |
+| `hidden` | `display: none;` |
+
+#### Flexbox
+
+Le mode flex s'active avec la classe `flex` sur le **parent**. On configure ensuite la disposition des enfants avec ces classes :
+
+| Classe (parent) | Effet |
+| :--- | :--- |
+| [`flex-row`](https://tailwindcss.com/docs/flex-direction) / `flex-col` | Enfants en ligne ou en colonne |
+| [`flex-wrap`](https://tailwindcss.com/docs/flex-wrap) | Les enfants retournent à la ligne si l'espace manque |
+| [`justify-<value>`](https://tailwindcss.com/docs/justify-content) | Alignement sur l'axe **principal** |
+| [`items-<value>`](https://tailwindcss.com/docs/align-items) | Alignement sur l'axe **secondaire** |
+| [`gap-<size>`](https://tailwindcss.com/docs/gap) | Espace entre les enfants |
+
+<p class="aspect-1-1 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Flexbox Builder" data-version="2" data-default-tab="result" data-slug-hash="gbgddXN" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f9582-b6c0-708a-a0d6-8fb1b75f7471">
+  Tailwind4 Flexbox Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+Chaque **enfant** peut aussi être configuré individuellement :
+
+| Classe (enfant) | Effet |
+| :--- | :--- |
+| [`flex-1`](https://tailwindcss.com/docs/flex) / `grow` | L'enfant grandit pour occuper l'espace disponible |
+| [`shrink-0`](https://tailwindcss.com/docs/flex-shrink) | L'enfant ne rétrécit pas |
+| [`basis-<size>`](https://tailwindcss.com/docs/flex-basis) | Taille de départ de l'enfant avant distribution de l'espace |
+| [`self-start/center/end`](https://tailwindcss.com/docs/align-self) | Aligne cet enfant seul, différemment des autres |
+| [`order-<n>`](https://tailwindcss.com/docs/order) | Change l'ordre visuel sans toucher au HTML |
+
+#### Grid
+
+Le mode grid s'active avec la classe `grid` sur le **parent**. On définit ensuite le nombre de colonnes/rangées avec ces classes :
+
+| Classe (parent) | Effet |
+| :--- | :--- |
+| [`grid-cols-<n>`](https://tailwindcss.com/docs/grid-template-columns) | Nombre de colonnes |
+| [`grid-rows-<n>`](https://tailwindcss.com/docs/grid-template-rows) | Nombre de rangées |
+| [`gap-<size>`](https://tailwindcss.com/docs/gap) | Espace entre les cellules (aussi `gap-x-`/`gap-y-`) |
+
+<p class="aspect-1-1 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Grid Builder" data-version="2" data-default-tab="result" data-slug-hash="ZYLMqEr" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f95c6-a3da-7b9e-b0f6-31dd36b5a6da">
+  Tailwind4 Grid Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+Chaque **enfant** peut ensuite occuper plusieurs cellules :
+
+| Classe (enfant) | Effet |
+| :--- | :--- |
+| [`col-span-<n>`](https://tailwindcss.com/docs/grid-column) | Occupe `n` colonnes |
+| [`row-span-<n>`](https://tailwindcss.com/docs/grid-row) | Occupe `n` rangées |
+| [`col-start-<n>`](https://tailwindcss.com/docs/grid-column) / `col-end-<n>` | Position précise de début/fin (colonne) |
+| [`row-start-<n>`](https://tailwindcss.com/docs/grid-row) / `row-end-<n>` | Position précise de début/fin (rangée) |
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+### Responsive
+
+![](./assets/images/responsive-anim.gif){.w-100}
+
+Pour spécifier une classe à un breakpoint donné, il faut ajouter le préfixe du breakpoint à une classe Tailwind : 
+
+```txt title="Syntaxe"
+<prefixe>:<classe>
 ```
 
-On peut aussi utiliser un « wildcard » (`*`) si on ne connais pas le nom du ou des fichiers à exclure.
-
-```yaml
-# Git ignorera tous les fichiers avec l'extension .txt
-*.txt
+```txt title="Exemple"
+md:bg-red-100
 ```
 
-#### Ignorer un dossier
+Les différents [breakpoints](https://tailwindcss.com/docs/responsive-design) sont les suivants : 
 
-Pour ignorer un dossier, ajoutez son nom suivi de `/`.
+| Préfixe | Largeur minimale |
+| :--- | :--- |
+| `sm` | 40rem |
+| `md` | 48rem |
+| `lg` | 64rem |
+| `xl` | 80rem |
+| `2xl` | 96rem |
 
-```yaml
-node_modules/
+<p class="aspect-4-3 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Responsive" data-version="2" data-default-tab="result" data-slug-hash="EaZedyO" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019f95e1-5d6c-7eba-bb88-c0bc2d1b1c36">
+  Tailwind4 Responsive</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+[Codepen](https://es-d-68836318620260729-019f95e1-5d6c-7eba-bb88-c0bc2d1b1c36.codepen.dev/)
+
+### Interactivité
+
+Les [pseudo-classes](https://tailwindcss.com/docs/hover-focus-and-other-states) comme `:hover` ou `:focus` sont configurables de la même façon que les breakpoints.
+
+```txt
+hover:<classe tailwind>
+focus:<classe tailwind>
 ```
 
-### Exercices Git
+<p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 hover" data-version="2" data-default-tab="result" data-slug-hash="jEyezme" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa585-e18b-7c63-893e-60579635652e">
+  Tailwind4 hover</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+### Mode sombre (_darkmode_)
+
+![](./assets/images/allumette.gif){.w-100}
+
+Tailwind vient nativement avec le concept de [_dark mode_](https://tailwindcss.com/docs/dark-mode). Pour en faire usage, il existe quelques méthodes.
+
+#### Méthode automatique (`prefers-color-scheme`)
+
+Selon la préférence du navigateur. C'est la plus simple. Pour ce faire, il ne suffit que de spécifier l'état en darkmode avec `dark:`
+
+```txt title="syntaxe"
+dark:<classe tailwind>
+```
+
+```html title="exemple"
+<div class="bg-white dark:bg-black">
+    Fond en blanc par défaut, mais en noir si le OS est configuré en darkmode.
+</div>
+```
+
+#### Méthode manuelle
+
+On doit d'abord indiquer à Tailwind une règle spéciale via sa balise `<style>`.
+Ainsi, si la classe `dark` est présente dans le HTML, cette partie sera forcée en _darkmode_.
+
+```html
+<head>
+    ...
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @custom-variant dark (&:where(.dark, .dark *));
+    </style>
+</head>
+```
+
+<p class="aspect-1-1 codepen" data-theme-id="50173" data-height="300" data-pen-title="Untitled" data-version="2" data-default-tab="result" data-slug-hash="bNgmvvx" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa5a1-112e-7f64-bb0a-1a573a8bd51f">
+  Untitled</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+```html title="Partie javascript du bouton"
+<button id="darkmode-toggle">Passer en mode clair</button>
+...
+<script>
+    // Ajoute/retire la classe "dark" sur la balise <html>
+    document.getElementById("darkmode-toggle").addEventListener("click", function() {
+        document.documentElement.classList.toggle('dark');
+    });
+</script>
+```
+
+### Transform
+
+<p class="aspect-4-3 codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind4 Transform Builder" data-version="2" data-default-tab="result" data-slug-hash="myRzXdN" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/019fa4e7-3175-7963-bd26-d643dca0008b">
+  Tailwind4 Transform Builder</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+La [translation](https://tailwindcss.com/docs/translate) peut se faire en pourcentage avec des fractions (ex.: `1/4`) ou des valeurs fixes (ex.: `4`). Un axe (`x`, `y`) peut être spécifié. La valeur `full` représente une translation de `100%`.
+
+```txt
+translate-<value>
+translate-<axe>-<value>
+```
+
+La [rotation](https://tailwindcss.com/docs/rotate) se fait simplement en degrés. Un axe (`x`, `y` ou `z`) peut être spécifié.
+
+```txt
+rotate-<value>
+rotate-<axe>-<value>
+```
+
+L'[échelle](https://tailwindcss.com/docs/scale) (_scale_) se fait normalement en pourcentage (ex. `110` pour 110%). Un axe (`x`, `y` ou `z`) peut être spécifié.
+
+```txt
+scale-<value>
+scale-<axe>-<value>
+```
+
+!!! note "Une valeur négative peut être spécifié en appliquant un «-» avant la classe. (ex.: `-scale-10`)"
+
+## Exercices 
+
+
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/dolly.jpg)
+  ![](./activite/gratuit/bait.gif){.aspect-4-3}
 
-  <small>Exercice - Git</small><br>
-  Cloner un projet GitHub en ligne de commande
+  <small>Exercice - Tailwind</small><br>
+  **[Gratuit](./activite/gratuit/index.md){.stretched-link .back}**
 </div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/git-gud.png)
-
-  <small>Exercice - Git</small><br>
-  **[Git en ligne de commande](https://nic-hartley.github.io/git-gud/){.stretched-link}**
-</div>
-
-## Github
-
-![](./assets/images/github-banner.webp)
-
-GitHub est un service en ligne qui permet de stocker et partager vos projets Git avec d’autres personnes.
-
-Disons que c'est la partie concernée par la notion de `push` avec Git :wink:
-
-### Collaboration
-
-Héberger un projet sur GitHub est gratuit et beaucoup de projets sont publics afin de pouvoir être consultés/modifiés au besoin.
-
-Parmi ces projets, on retrouve plusieurs librairies connues, telles que :
-
-* [Bootstrap](https://github.com/twbs/bootstrap)
-* [jQuery](https://github.com/jquery/jquery)
-* [React](https://github.com/facebook/react)
-
-On y retrouve également plusieurs organisations d'envergures :
-
-* [NASA](https://github.com/nasa)
-* [Microsoft](https://github.com/microsoft) Propriétaire de GitHub depuis 2018
-* [Google](https://github.com/google)
-
-### Création d'un répertoire
-
-Pour créer un répertoire, il suffit d'être connecté à GitHub et de se rendre sur la page d'accueil. En haut à gauche de l'interface, un bouton `New` permet d'accéder à la page d'initialisation d'un nouveau repo.
-
-![](./assets/images/github-new.png){data-zoom-image}
-
-#### Nouveau répertoire
-
-Sur cette page, il suffit d'entrer le nom désiré du repo, une brève description et son statut (privé ou public).
-
-De plus, il est possible de spécifier si un fichier README devrait être créé, de spécifier si l'on souhaite utiliser un .gitignore et si une licence devrait être attribuée au projet.
-
-![](./assets/images/github-new-configs.png){data-zoom-image}
-
-### README
-
-Le fichier README sert à présenter un projet. Il indique généralement la raison d'être du projet et souvent comment l'utiliser.
-
-Sur GitHub, un fichier README situé à la racine d'un projet sera automatiquement détecté puis affiché sous les dossiers du projet en question.
-
-C'est une porte d'entrée extrêmement importante dans un contexte de collaboration grand public.
-
-Son contenu est traditionnellement rédigé en Markdown, d'où l'extension `.md`.
-
-### Gitignore
-
-Le fichier .gitignore permet de spécifier à Git des fichiers ou dossiers à l'intérieur du repo qu'il ne devrait pas surveiller et pousser vers le serveur (GitHub).
-
-Voici un exemple de .gitignore :
-
-```bash title=".gitignore"
-node_modules/
-
-.sass-cache/
-
-mes-notes-perso.txt
-```
-
-### Licenses
-
-Si un repo n'a aucune licence, il est possible d'utiliser son contenu librement.
-
-Cependant, certaines licences vont spécifier:
-
-* de créditer l'auteur
-* que son usage est réservé aux projets à but non lucratif
-* de ne pas modifier le contenu
-* etc.
-
-Voici un [petit guide](https://choosealicense.com/) (en anglais) pour vous aider à choisir une licence.
-
-### Clone
-
-Si vous avez créé votre repo en ligne, vous voudrez assurément travailler dessus sur un ordinateur, soit au collège ou à la maison.
-
-Pour ce faire, il faut repérer le bouton vert `Code` en haut à droite de votre page de répertoire.
-
-![](./assets/images/github-code-btn.png){data-zoom-image}
-
-En cliquant sur celui-ci, vous aurez les options de:
-
-Copier l'url du répertoire, ce qui peut-être requis par certains logiciels concurrents à GitHub Desktop.
-
-![](./assets/images/github-code-popup.png){data-zoom-image}
-
-Pour effectuer un clone en ligne de commande, vous pouvez utiliser l'url indiquée.
-
-Pour cloner avec le logiciel « GitHub Desktop », assurez vous d'abord que celui-ci soit installé, puis cliquez sur le lien « Open with GitHub Desktop ».
-
-### Fork
-
-Pour modifier un repo en ligne, il faut en être l'auteur ou en avoir obtenu la permission.
-
-Néanmoins, il est possible d'être intéressé par un projet et de vouloir s'en servir comme point de départ pour créer sa propre variation.
-
-Pour ce faire, il est possible d'effectuer un `fork`. Cette commande copie le repo GitHub en question vers son compte GitHub. Puisque cette copie du repo vous appartient, vous pouvez effectuer des modifications et des `push` sur celle-ci.
-
-Pour ce faire, il faut cliquer sur le bouton « Fork » en haut à droite du répertoire que l'on désire copier.
-
-![](./assets/images/github-code-btn.png){data-zoom-image}
-
-### Alternatives
-
-Les deux plus grands compétiteurs à GitHub sont :
-
-* Bitbucket :fontawesome-brands-bitbucket:
-* GitLab :fontawesome-brands-gitlab:
-
-### Exercice Github
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/mandala-git.jpg)
-
-  <small>Exercice - Git</small><br>
-  **[Mandala Git](./exercices/git-mandala.md){.stretched-link}**
-</div>
-
-## Github Desktop
-
-![](./assets/images/GHD-banner.jpg)
-
-L'interface en ligne de commande de Git permet aux développeurs de travailler sans interface graphique en tapant des lignes de commandes directement dans un terminal. Cette technique est puissante, efficace et ne présente que très peu d'inconvénients, outre qu'elle peut paraître intimidante de prime abord.
-
-Pour rendre Git plus accessible, GitHub a créé l'application gratuite GitHub Desktop offrant une interface graphique, permettant d'utiliser des boutons plutôt que d'entrer des lignes de commande sous forme de texte.
-
-[Télécharger Github Desktop](https://desktop.github.com/download/)
-
-### Authentification
-
-![](./assets/images/GHD-first.png){data-zoom-image}
-
-![](./assets/images/GHD-auth.png){data-zoom-image}
-
-![](./assets/images/GHD-config.png){data-zoom-image}
-
-### Clone via Github
-
-![](./assets/images/GHD-open.png){data-zoom-image}
-
-![](./assets/images/GHD-Browser.png){data-zoom-image}
-
-![](./assets/images/GHD-clone.png){data-zoom-image}
-
-### Clone manuel
-
-![](./assets/images/GHD-clone-man.png){data-zoom-image}
-
-![](./assets/images/GHD-clone-man-repo.png){data-zoom-image}
-
-### Repo / Branch / Fetch et Pull
-
-![](./assets/images/GHD-menu.png){data-zoom-image}
-
-**Current Repository** indique le répertoire/projet sur lequel vous, vous trouver. Au clic, il vous permet de passer d'un projet à un autre.
-
-**Current Branch** indique la branche courante. Au clic, il est possible de changer de branche.
-
-**Fetch origin** indique quand GitHub Desktop a vérifié pour la dernière fois si de nouveaux changements étaient disponibles en ligne. Cliquer sur cet onglet forcera GitHub à effectuer une nouvelle vérification. Si un changement existe, le bouton changement pour un "Pull origin".
-
-### Commit
-
-![](./assets/images/GHD-stage.png){data-zoom-image}
-
-![](./assets/images/GHD-commit.png){data-zoom-image}
-
-**Changes** indique le nombre de fichiers modifiés depuis le dernier commit et les affiches, sous forme de liste.
-
-**History** lorsque sélectionné, indique tous les précédents commits, du plus récent aux plus anciens, et permet de voir le détail de chaque fichier modifié.
-
-### Push
-
-![](./assets/images/GHD-commited.png){data-zoom-image}
-
-## Se déplacer entre commits (rollback)
-
-![](./assets/images/GHD-rollback.png){data-zoom-image}
-
-### Alternatives
-
-Il existe plusieurs alternatives à GitHub Desktop, notamment:
-
-* Sourcetree :fontawesome-brands-sourcetree:
-* GitKraken :fontawesome-brands-gitkraken:
-
-
-### Exercice Github Desktop
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/prometheus.jpg)
-
-  <small>Exercice - Git</small><br>
-  **[Prometheus](./exercices/ghd-prometheus.md){.stretched-link}**
-</div>
-
-[STOP]
-
-RÉFLEXION
-
-Ce cours fini entre 1h et 30min plus tôt.
-La matière enseignée avec Github est trop semblable à celle du cours de muséologie. Il faut la remplacer.
-
-Peut-être aborder vi, vim, nano ?
-
-Peut-être aborder la notion de github Pages ou encore les actions ?

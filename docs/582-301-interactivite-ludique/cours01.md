@@ -1,7 +1,5 @@
 # Cours 1
 
-[STOP]
-
 *[LTS] : Long-Term Support
 
 ![](./assets/img/southpark.gif){.w-100}
@@ -311,6 +309,8 @@ On y détaille le **concept**, les **mécaniques**, l'**histoire**, la **directi
 
 ## Unity
 
+![type:video](./assets/video/unity-games.webm)
+
 ### Création de compte
 
 ### Configuration système requise
@@ -326,25 +326,9 @@ https://unity.com/products/unity-student
 
 ## Unity Hub
 
-### Installation
+Pour installer Unity, il faut d'abord se créer un compte.
 
-1. Rendez-vous sur la page de [téléchargement de Unity](https://unity.com/download).
-2. Sélectionnez l’une des options correspondant à votre système d’exploitation. Un fichier nommé UnityHubSetup sera téléchargé. Le nom du fichier peut varier selon la version du Hub et votre système d’exploitation.
-3. Repérez le fichier UnityHubSetup que vous venez de télécharger et lancez-le.
-4. Suivez les instructions propres à votre plateforme afin d’installer Unity Hub.
-    * Si vous n’avez pas encore créé de compte Unity, vous serez invité à le faire durant cette étape.
-    * Une fois connecté à Unity Hub, celui-ci vous guidera pour installer la plus récente version LTS de l’éditeur Unity. Les versions LTS sont les versions les plus récentes ayant fait l’objet de tests complets et offrant une stabilité accrue.
-5. Sélectionnez Installer l’éditeur Unity (Install Unity Editor) afin de télécharger et d’installer la dernière version LTS de l’éditeur Unity.
-
-![](./assets/img/install-unity-hub-step1.png){data-zoom-image}
-
-![](./assets/img/install-unity-hub-step2.png){data-zoom-image}
-
-![](./assets/img/install-unity-hub-step3.png){data-zoom-image}
-
-![](./assets/img/install-unity-hub-step4.png){data-zoom-image}
-
-![](./assets/img/install-unity-hub-step5.png){data-zoom-image}
+[Installation unity hub](./extra/installation-unity-hub.md)
 
 ### Installer Unity 6
 
@@ -399,3 +383,27 @@ Assets/
   <small>Devoir - Conception</small><br>
   **[Analyse d'un jeu existant](./devoirs/gdd.md){.stretched-link .back}**
 </div>
+
+
+Notes : 
+
+Commencer le cours avec le gdd. Comme ça ensuite on enchaine avec les sujets du gdd.
+
+https://learn.unity.com/tutorial/fill-out-a-game-design-document
+https://www.codecks.io/blog/2023/how-to-design-your-steam-store-page/
+https://www.codecks.io/blog/2020/curious-expedition-financial-history/
+https://www.graybeardgames.com/download/diablo_pitch.pdf
+https://www.reddit.com/r/gamedesign/comments/7ze7xq/finished_game_design_document_examples/
+https://www.codecks.io/blog/writing-modern-game-design-documents/
+https://www.productionalchemist.com/p/why-game-design-docs-still-matter
+
+
+Gdd : https://www.youtube.com/watch?v=lxFbog6jpVU
+Management d'un projet : https://www.youtube.com/watch?v=kJP45RqyXN8
+Dev + design process : https://www.youtube.com/watch?v=YdKPCFlFbOA
+https://www.youtube.com/watch?v=aBZZXoV9MUk
+
+https://craftpix.net/freebies/filter/2d-game-kits/
+https://www.gameart2d.com/#gsc.tab=0
+https://www.mixamo.com/#/
+https://itch.io/game-assets/free

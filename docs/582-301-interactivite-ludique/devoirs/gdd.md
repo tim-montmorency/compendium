@@ -2,6 +2,8 @@
 
 *[GDD] : Game Design Document
 
+https://www.figma.com/community/file/1657116644655532636/document-de-conception-gdd
+
 ## Consigne
 
 Choisis un jeu vidéo que tu connais bien. Remplis chacune des cases ci-dessous en te mettant dans la peau du concepteur qui a *conçu* ce jeu — pas du joueur qui l'a joué.

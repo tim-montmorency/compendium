@@ -14,7 +14,7 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
 | Heures d’enseignement | 60      |
 | Session               | 3       |
 
-[Plan de cours :material-download:](./assets/documents/plan-cours_web_3_A2025.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/plan-cours_web_3_A2026.pdf){ .md-button .md-button--primary }
 
 ## Objectifs
 

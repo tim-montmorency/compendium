@@ -70,7 +70,7 @@ const teamsMessage = () => {
 
       // 4. Ajouter le texte d'avertissement
       const text = document.createElement("span");
-      text.innerHTML = "Teams gère mal certaines fonctionnalités Web 🤷<br>Il est recommandé de consulter les notes dans un navigateur";
+      text.innerHTML = "Teams gère mal certaines fonctionnalités Web 🤷<br>Il est recommandé de consulter cette page dans un navigateur";
       banner.appendChild(text);
 
       // 5. Injecter la bannière au tout début du body
@@ -589,6 +589,12 @@ function runFunctions() {
   if (typeof hljs !== "undefined") {
     // Only highlight blocks not already processed to avoid repeated DOM mutations.
     document.querySelectorAll("pre code:not(.hljs)").forEach((codeEl) => {
+      // Les blocs ```txt (lexer Pygments "text") ne contiennent aucun <span>,
+      // car Pygments ne les colore pas. Sans classe de langage, hljs se rabat
+      // sur la détection automatique et peut les prendre à tort pour du XML.
+      // On les laisse donc tels quels (texte brut, non coloré).
+      if (codeEl.children.length === 0) return;
+
       try {
         hljs.highlightElement(codeEl);
       } catch (e) {

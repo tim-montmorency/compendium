@@ -521,6 +521,9 @@ extra_javascript:
   - _/gallery.js
   - _/tooltip.js
 
+hooks:
+  - hooks/codepen_wrap.py
+
 plugins:
   - search:
       lang: fr
