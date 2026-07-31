@@ -25,9 +25,9 @@ Tous les [poissons-clowns](https://fr.wikipedia.org/wiki/Poisson-clown) naissent
 
 Dans chaque colonie, on observe la hiérarchie suivante :
 
-- **Femelle dominante** — la plus grosse
-- **Mâle reproducteur** — le 2e plus gros
-- **Mâles non reproducteurs** — les plus petits
+- **Femelle dominante** - la plus grosse
+- **Mâle reproducteur** - le 2e plus gros
+- **Mâles non reproducteurs** - les plus petits
 
 Si la femelle meurt, le mâle dominant change de sexe et devient la nouvelle femelle !
 

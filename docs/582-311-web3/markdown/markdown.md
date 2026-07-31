@@ -106,14 +106,14 @@ Il existe plusieurs variations de Markdown. Cependant, nous nous concentrerons s
     ```markdown
     > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme.
     >
-    > — Giacomo Leopardi
+    > - Giacomo Leopardi
     ```
 
 === "Résultat"
 
     > La patience est la plus héroïque des vertus, précisément parce qu'elle n'a pas la moindre apparence d'héroïsme.
     >
-    > — Giacomo Leopardi
+    > - Giacomo Leopardi
 
 ### Code
 

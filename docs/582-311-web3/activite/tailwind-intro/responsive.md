@@ -1,10 +1,10 @@
-# Introduction à Tailwind | Les bases
+# Introduction à Tailwind | Responsive
 
-![](./banner-bases.jpg){.w-100}
+![](./banner-responsive.jpg){.w-100}
 
-L'objectif est de compléter la portion « Bases » du jeu interactif.
+L'objectif est de compléter la portion « Responsive » du jeu interactif.
 
-- [ ] Complétez la section « Bases »
+- [ ] Complétez la section « Responsive »
 
 [Jeu d'introduction à Tailwind](https://jfcmontmorency.codeberg.page/tailwind-basics/){ .md-button .md-button--primary }
 

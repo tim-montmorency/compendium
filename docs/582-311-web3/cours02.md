@@ -1,5 +1,7 @@
 # Cours 2 | _Framework_ CSS
 
+[STOP]
+
 <!-- **Savoirs :** #5 Cadriciel facilitant l'intégration · #9 Positionnement · #17 Réactivité (media queries) -->
 
 *[CLI]: Command-Line Interface
@@ -234,16 +236,14 @@ border-<couleur>-<tinte>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
-### Exercice sur les bases
+---
 
 <div class="grid grid-1-2" markdown>
   ![](./activite/tailwind-intro/banner-bases.jpg){.aspect-4-3}
 
   <small>Exercice - Tailwind</small><br>
-  **[Bases Tailwind](./activite/tailwind-intro/base.md){.stretched-link .back}**
+  **[Intro à Tailwind | Les bases](./activite/tailwind-intro/base.md){.stretched-link .back}**
 </div>
-
-## Tailwind Suite
 
 ### Grandeurs (_sizing_)
 
@@ -397,6 +397,13 @@ Chaque **enfant** peut ensuite occuper plusieurs cellules :
 | [`row-start-<n>`](https://tailwindcss.com/docs/grid-row) / `row-end-<n>` | Position précise de début/fin (rangée) |
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/tailwind-intro/banner-layout.jpg){.aspect-4-3}
+
+  <small>Exercice - Tailwind</small><br>
+  **[Intro à Tailwind | Layout](./activite/tailwind-intro/layout.md){.stretched-link .back}**
+</div>
+
 ### Responsive
 
 ![](./assets/images/responsive-anim.gif){.w-100}
@@ -429,6 +436,13 @@ Les différents [breakpoints](https://tailwindcss.com/docs/responsive-design) so
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 [Codepen](https://es-d-68836318620260729-019f95e1-5d6c-7eba-bb88-c0bc2d1b1c36.codepen.dev/)
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/tailwind-intro/banner-responsive.jpg){.aspect-4-3}
+
+  <small>Exercice - Tailwind</small><br>
+  **[Intro à Tailwind | Responsive](./activite/tailwind-intro/responsive.md){.stretched-link .back}**
+</div>
 
 ### Interactivité
 

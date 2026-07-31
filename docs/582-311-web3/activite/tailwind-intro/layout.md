@@ -1,10 +1,10 @@
-# Introduction à Tailwind | Les bases
+# Introduction à Tailwind | Layout
 
-![](./banner-bases.jpg){.w-100}
+![](./banner-layout.jpg){.w-100}
 
-L'objectif est de compléter la portion « Bases » du jeu interactif.
+L'objectif est de compléter la portion « Layout » du jeu interactif. Ça traite des notions de flexbox et grid dans tailwind ;)
 
-- [ ] Complétez la section « Bases »
+- [ ] Complétez la section « Layout »
 
 [Jeu d'introduction à Tailwind](https://jfcmontmorency.codeberg.page/tailwind-basics/){ .md-button .md-button--primary }
 
