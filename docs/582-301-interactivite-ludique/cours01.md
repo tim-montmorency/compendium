@@ -4,6 +4,20 @@
 
 ![](./assets/img/southpark.gif){.w-100}
 
+<!-- ## Déroulement de la séance
+
+| Temps | Activité |
+|---|---|
+| 0h00 – 0h20 | Accueil, plan de cours, tour de table |
+| 0h20 – 1h20 | Théorie : le ludisme, les boucles de jeu, les moteurs (les sections ci-dessous restent ta **référence** - on les survole en classe) |
+| 1h20 – 1h40 | Activité formative : [analyse d'un jeu existant](./devoirs/gdd.md) |
+| 1h40 – 1h55 | Pause |
+| 1h55 – 3h25 | **Pratique : Unity Essentials Pathway - partie 1**, chacun à son rythme |
+| 3h25 – 3h35 | Présentation des devoirs |
+
+!!! info "Avant la séance"
+    Idéalement, arrive avec **Unity Hub et Unity 6 déjà installés** ([guide d'installation](./extra/installation-unity-hub.md)). Les postes du labo sont déjà prêts. -->
+
 ## Le ludisme
 
 > **Ludisme** n.m.[^ludisme]<br>
@@ -12,13 +26,13 @@
 
 [^ludisme]: [Définition du mot ludisme selon Larousse](https://www.larousse.fr/dictionnaires/francais/ludisme/48009)
 
-Le ludisme se caractérise par l’**engagement** et l'ensemble des **comportements** d'une personne envers un **jeu**. 
+Le ludisme se caractérise par l'**engagement** et l'ensemble des **comportements** d'une personne envers un **jeu**. 
 
-La notion d’**amusement** et d'**expérimentation** est essentielle au développement de l’aspect ludique de l'expérience.
+La notion d'**amusement** et d'**expérimentation** est essentielle au développement de l'aspect ludique de l'expérience.
 
 ### :speaking_head: Narration
 
-La façon dont l’histoire est racontée, mise en oeuvre ou vécue. Cela inclut les **dialogues**, l'**ambiance**, les **décisions** des joueurs et le **scénario**, qu'il soit linéaire ou interactif.
+La façon dont l'histoire est racontée, mise en oeuvre ou vécue. Cela inclut les **dialogues**, l'**ambiance**, les **décisions** des joueurs et le **scénario**, qu'il soit linéaire ou interactif.
 
 <div class="grid grid-1-2" markdown>
 ![Donjons et Dragons](./assets/img/games/dnd-dm.jpg){data-zoom-image}
@@ -50,7 +64,7 @@ Dans le jeu [Portal (2007)](https://store.steampowered.com/app/400/Portal/), les
 
 ### :paintbrush: **Visuel**
 
-Éléments visuels, comme l'environnement, le matériel, les interfaces, les illustrations et les effets. C'est ce qui détermine l’identité visuelle et l’ambiance.
+Éléments visuels, comme l'environnement, le matériel, les interfaces, les illustrations et les effets. C'est ce qui détermine l'identité visuelle et l'ambiance.
 
 <div class="grid grid-1-2" markdown>
 ![Dixit](./assets/img/games/dixit.webp){data-zoom-image}
@@ -59,14 +73,14 @@ Dans le jeu de société [Dixit](https://boardgamegeek.com/boardgame/39856/dixit
 </div>
 
 <div class="grid grid-1-2" markdown>
-![Thank Goodness You’re Here!](./assets/img/games/thank-goodness-youre-here.webp){data-zoom-image}
+![Thank Goodness You're Here!](./assets/img/games/thank-goodness-youre-here.webp){data-zoom-image}
 
-Dans le jeu [Thank Goodness You’re Here! (2024)](https://store.steampowered.com/app/2366980/Thank_Goodness_Youre_Here/), les dessins, à eux seuls, transportent les utilisateurs dans un univers grotesque.
+Dans le jeu [Thank Goodness You're Here! (2024)](https://store.steampowered.com/app/2366980/Thank_Goodness_Youre_Here/), les dessins, à eux seuls, transportent les utilisateurs dans un univers grotesque.
 </div>
 
 ### :musical_note: **Son**
 
-L'audio détermine souvent l’identité du jeu, supporte son immersion, orienter le joueur et lorsque c'est vraiment bien fait, communique des émotions !
+L'audio détermine souvent l'identité du jeu, supporte son immersion, orienter le joueur et lorsque c'est vraiment bien fait, communique des émotions !
 
 <div class="grid grid-1-2" markdown>
 ![](./assets/img/games/marco-polo.webp){data-zoom-image}
@@ -189,7 +203,7 @@ Plutôt que de lister les centaines de sous-genres existants, voici les grandes 
 * **Réflexion, casse-tête**
   > *Exemples :* Logique (*[Tetris](https://play.tetris.com/)*, *[The Witness](https://www.playstation.com/en-ca/games/the-witness/)*), Évasion (*[Escape Simulator](https://pinestudio.com/games/escape-simulator/)*), Physique (*[Kerbal Space Program](https://www.kerbalspaceprogram.com/)*).
 * **Jeu de rôle (RPG)**
-  > *Exemples :* Action-RPG (*[Diablo 4](https://diablo4.blizzard.com/fr-fr/)*), RPG Tactique (*[Baldur’s Gate 3](https://baldursgate3.game/)*).
+  > *Exemples :* Action-RPG (*[Diablo 4](https://diablo4.blizzard.com/fr-fr/)*), RPG Tactique (*[Baldur's Gate 3](https://baldursgate3.game/)*).
 * **Stratégie, gestion**
   > *Exemples :* Gestion (*[Cities: Skylines](https://www.paradoxinteractive.com/games/cities-skylines/about)*, *[Stardew Valley](https://www.stardewvalley.net/)*), Stratégie (*[Civilization](https://civilization.2k.com/)*, *[League of Legends](https://www.leagueoflegends.com/en-us/)*).
 * **Simulations, bac à sable**
@@ -234,13 +248,13 @@ Ce sont les critères que les joueurs doivent satisfaire avant d'accéder à un 
 
 ## Boucles de jeu
 
-Une **boucle de jeu** est une séquence d'actions que le joueur répète tout au long de la partie. C'est le moteur rythmique du jeu — ce que le joueur *fait*, encore et encore.
+Une **boucle de jeu** est une séquence d'actions que le joueur répète tout au long de la partie. C'est le moteur rythmique du jeu - ce que le joueur *fait*, encore et encore.
 
 Une boucle bien conçue est **simple à comprendre** et **assez riche pour rester intéressante**.
 
 ### Boucle principale *(core loop)*
 
-La boucle principale est la séquence d'actions fondamentale — ce que le joueur répète en quelques secondes ou minutes.
+La boucle principale est la séquence d'actions fondamentale - ce que le joueur répète en quelques secondes ou minutes.
 
 ```mermaid
 graph LR
@@ -263,7 +277,7 @@ Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/)
 
 ### Boucle méta *(meta loop)*
 
-La boucle méta est la boucle de **long terme** — ce qui motive le joueur à relancer le jeu d'une session à l'autre. Elle s'appuie souvent sur la progression, les déblocages ou l'amélioration permanente.
+La boucle méta est la boucle de **long terme** - ce qui motive le joueur à relancer le jeu d'une session à l'autre. Elle s'appuie souvent sur la progression, les déblocages ou l'amélioration permanente.
 
 <div class="grid grid-1-2" markdown>
 ![(the) Gnorp Apologue](./assets/img/games/gnorp.jpg){data-zoom-image}
@@ -278,7 +292,7 @@ Les boucles secondaires sont des activités **optionnelles** qui enrichissent l'
 <div class="grid grid-1-2" markdown>
 ![Dave the Diver](./assets/img/games/dave-the-diver.jpg){data-zoom-image}
 
-Dans [Dave the Diver (2023)](https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/), la boucle principale est *plonger → chasser du poisson → remonter*. La boucle secondaire — gérer le restaurant le soir — n'est pas obligatoire, mais elle donne une raison supplémentaire de rejouer.
+Dans [Dave the Diver (2023)](https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/), la boucle principale est *plonger → chasser du poisson → remonter*. La boucle secondaire - gérer le restaurant le soir - n'est pas obligatoire, mais elle donne une raison supplémentaire de rejouer.
 </div>
 
 !!! abstract "À retenir"
@@ -298,7 +312,7 @@ Un cadriciel/moteur est une bibliothèque d'outils et de fonctionnalités destin
 
 ## Document de conception de jeu (GDD)
 
-Le **Game Design Document** (GDD) décrit tous les aspects fondamentaux d’un jeu vidéo. Rédigé durant la phase de conceptualisation, il sert de boussole à l'équipe tout au long du développement.
+Le **Game Design Document** (GDD) décrit tous les aspects fondamentaux d'un jeu vidéo. Rédigé durant la phase de conceptualisation, il sert de boussole à l'équipe tout au long du développement.
 
 On y détaille le **concept**, les **mécaniques**, l'**histoire**, la **direction artistique**, le **design sonore**, le **level design** et les **technologies retenues**.
 
@@ -332,20 +346,20 @@ Pour installer Unity, il faut d'abord se créer un compte.
 
 ### Installer Unity 6
 
-Si vous avez déjà Unity Hub, mais qu’une version plus ancienne de Unity est installée sur votre ordinateur, suivez ces étapes pour installer Unity 6
+Si vous avez déjà Unity Hub, mais qu'une version plus ancienne de Unity est installée sur votre ordinateur, suivez ces étapes pour installer Unity 6
 
-1. Dans Unity Hub, ouvrez l’onglet Installs (Installations).
-2. Cliquez sur le bouton Install Editor (Installer l’éditeur) afin d’installer une nouvelle version de Unity.
+1. Dans Unity Hub, ouvrez l'onglet Installs (Installations).
+2. Cliquez sur le bouton Install Editor (Installer l'éditeur) afin d'installer une nouvelle version de Unity.
 3. Dans la section Unity 6 Releases, cliquez sur Install pour la version correspondant à votre plateforme.
-    > Remarque : Sur macOS, vous devrez choisir entre un processeur Apple Silicon ou Intel. Si vous ne savez pas quel type de processeur équipe votre Mac, consultez l’article d’assistance d’Apple à ce sujet.
-4. À l’étape Add Modules (Ajouter des modules), sélectionnez l’option disponible sous DEV TOOLS afin d’installer un environnement de développement compatible.
+    > Remarque : Sur macOS, vous devrez choisir entre un processeur Apple Silicon ou Intel. Si vous ne savez pas quel type de processeur équipe votre Mac, consultez l'article d'assistance d'Apple à ce sujet.
+4. À l'étape Add Modules (Ajouter des modules), sélectionnez l'option disponible sous DEV TOOLS afin d'installer un environnement de développement compatible.
     * Windows : sélectionnez Visual Studio.
     * macOS : sélectionnez Visual Studio Code.
-    L’installation de l’un de ces outils vous permettra d’écrire, d’exécuter et de déboguer votre code plus efficacement dans vos projets Unity.
-5. Cliquez sur Continue (Continuer) pour lancer l’installation.
-    > Remarque : L’éditeur Unity est une application puissante et de grande taille. Le téléchargement et l’installation peuvent prendre plusieurs minutes.
+    L'installation de l'un de ces outils vous permettra d'écrire, d'exécuter et de déboguer votre code plus efficacement dans vos projets Unity.
+5. Cliquez sur Continue (Continuer) pour lancer l'installation.
+    > Remarque : L'éditeur Unity est une application puissante et de grande taille. Le téléchargement et l'installation peuvent prendre plusieurs minutes.
 
-Une fois l’installation terminée, cette version de l’éditeur Unity apparaîtra dans l’onglet Installs de Unity Hub.
+Une fois l'installation terminée, cette version de l'éditeur Unity apparaîtra dans l'onglet Installs de Unity Hub.
 
 ## Structure de fichier
 
@@ -368,6 +382,30 @@ Assets/
         └── 📁 Scripts
 ```
 
+## Pratique - Unity Essentials Pathway, partie 1
+
+!!! abstract "Objectif de la pratique"
+    Apprivoiser l'éditeur Unity **à ton rythme** avec le parcours officiel [Unity Essentials](https://learn.unity.com/pathway/unity-essentials). Ce que tu ne termines pas en classe se finit en devoir. Au prochain cours, on s'en sert pour faire un **jeu complet en une séance**.
+
+### Mise en route
+
+- [ ] Crée ton compte Unity (ou connecte-toi) - le même servira pour Unity Hub, l'Asset Store et Unity Learn
+- [ ] Vérifie que **Unity Hub et Unity 6** sont installés ([guide d'installation](./extra/installation-unity-hub.md))
+- [ ] Va sur [learn.unity.com](https://learn.unity.com) et ouvre le parcours **Unity Essentials**
+
+### À compléter (en classe, puis en devoir)
+
+- [ ] Module de prise en main de l'éditeur : interface, fenêtres, layout
+- [ ] Navigation dans la Scene view (voler, zoomer, cadrer)
+- [ ] Création et manipulation de GameObjects (déplacer ++w++ · pivoter ++e++ · redimensionner ++r++ · dupliquer ++ctrl+d++ · cadrer ++f++)
+- [ ] Premiers pas avec le Play mode
+
+!!! tip "Le contenu est en anglais"
+    Active les sous-titres au besoin, et note tes questions : on y répond en début de cours 2. L'anglais technique fait partie du métier - autant s'y mettre tout de suite.
+
+!!! warning "Play mode = bac à sable"
+    Tout ce que tu modifies **pendant** le Play mode est perdu quand tu l'arrêtes. Vérifie toujours que tu n'es pas en Play avant d'éditer ta scène. C'est le piège numéro 1 des débutants - le Pathway te le montrera.
+
 ## Devoirs
 
 <div class="grid grid-1-2" markdown>
@@ -384,8 +422,18 @@ Assets/
   **[Analyse d'un jeu existant](./devoirs/gdd.md){.stretched-link .back}**
 </div>
 
+<div class="grid grid-1-2" markdown>
+  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
 
-Notes : 
+  <small>Travail 1 - Conception (10 %)</small><br>
+  **[GDD de ton jeu de session](./devoirs/gdd-jeu.md){.stretched-link .back}**
+</div>
+
+## Savoirs essentiels touchés
+
+Logiciels d'intégration d'expériences ludiques, choix du logiciel, installation et configuration des ressources, classement des fichiers et des médias.
+
+<!-- Notes de préparation (archivées) :
 
 Commencer le cours avec le gdd. Comme ça ensuite on enchaine avec les sujets du gdd.
 
@@ -397,7 +445,6 @@ https://www.reddit.com/r/gamedesign/comments/7ze7xq/finished_game_design_documen
 https://www.codecks.io/blog/writing-modern-game-design-documents/
 https://www.productionalchemist.com/p/why-game-design-docs-still-matter
 
-
 Gdd : https://www.youtube.com/watch?v=lxFbog6jpVU
 Management d'un projet : https://www.youtube.com/watch?v=kJP45RqyXN8
 Dev + design process : https://www.youtube.com/watch?v=YdKPCFlFbOA
@@ -407,3 +454,4 @@ https://craftpix.net/freebies/filter/2d-game-kits/
 https://www.gameart2d.com/#gsc.tab=0
 https://www.mixamo.com/#/
 https://itch.io/game-assets/free
+-->
