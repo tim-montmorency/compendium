@@ -56,6 +56,8 @@ Le joueur doit savoir **où aller** sans qu'on le lui dise. Les outils, par ordr
 * **Les lignes** : chemins, clôtures, façades et rangées d'arbres pointent naturellement quelque part - fais-les pointer au bon endroit
 * **Les landmarks** : un repère visible de partout (tour, arbre géant, statue). Le joueur ne se perd jamais s'il peut toujours se dire « la tour est par là »
 
+Ce langage visuel repose sur deux concepts : l'**affordance** — la forme d'un objet suggère son usage (un baril rouge « demande » d'exploser, une corniche peinte « demande » d'être escaladée) — et le ***signposting*** — l'ensemble des indices (peinture, lumière, son) qui dirigent l'attention vers le chemin critique, sans texte ni flèche.
+
 <div class="grid grid-1-2" markdown>
 ![Elden Ring](./assets/img/games/elden-ring.jpg){data-zoom-image}
 

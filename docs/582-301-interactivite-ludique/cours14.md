@@ -22,7 +22,7 @@ Avant-dernière séance : on teste sérieusement, on corrige, on publie un build
 
 Après 12 semaines dessus, tu sais où est la clé, tu connais le chemin optimal, tu évites les bugs par réflexe **sans même le savoir**. C'est la *malédiction de la connaissance* : impossible de dé-savoir ce qu'on sait. Un nouveau joueur, lui, arrive vierge - et voit ton jeu tel qu'il est vraiment.
 
-C'est pour ça que les studios testent sans relâche : Valve fait jouer des inconnus **chaque semaine** depuis Half-Life, et réécrit ses niveaux d'après ce qu'ils font (pas ce qu'ils disent). Le playtest n'est pas un contrôle qualité de fin de chaîne - c'est un instrument de design.
+C'est pour ça que les studios testent sans relâche : Valve fait jouer des inconnus **chaque semaine** depuis Half-Life, et réécrit ses niveaux d'après ce qu'ils font (pas ce qu'ils disent). Le playtest n'est pas un contrôle qualité de fin de chaîne - c'est un instrument de design. Après la sortie, la **télémétrie** prend le relais : les données de jeu réelles (où les joueurs meurent, où ils bloquent, ce qu'ils ignorent) guident les ajustements.
 
 ### La règle d'or : observer en silence
 
