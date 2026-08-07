@@ -70,34 +70,9 @@ Deux règles d'or : **les Must d'abord, toujours** - un Could terminé ne compen
 
 ## Pratique
 
-### 1. Intégration et rattrapage
+Intégration et rattrapage, test croisé en deux passes, présentation éclair, création des issues et remise du Jalon 2.
 
-- [ ] Passe la checklist du cahier des charges **honnêtement**, item par item, en jouant à ton jeu
-- [ ] Tout item manquant devient ta priorité **immédiate** - les notes des cours 3 à 9 sont tes références, et je suis là
-- [ ] Item bloqué depuis plus de 15 minutes? Lève la main **aujourd'hui** : c'est LA séance de déblocage
-
-### 2. Test croisé
-
-- [ ] Échange de poste avec un pair - un **différent** de celui du Jalon 1. Joue **sans explication**
-- [ ] Note pour l'autre : (1) où tu bloques, (2) ce que tu ne comprends pas, (3) un bug s'il y en a
-- [ ] Récupère tes retours : chaque point deviendra une issue dans 30 minutes
-
-### 3. Présentation éclair (45 secondes)
-
-- [ ] Ta tranche verticale **en direct** : du titre à la victoire, devant la classe. C'est court, c'est stressant, c'est exactement l'exercice - au cours 15, ce sera 3 minutes et tu seras prêt
-
-### 4. Le plan de production
-
-- [ ] Sur github.com → ton dépôt → onglet **Issues** → **New issue**
-- [ ] Transforme ta liste du devoir + les retours du test en issues : une tâche par issue, préfixe `[MUST]`, `[SHOULD]` ou `[COULD]` dans le titre
-- [ ] Minimum requis : **toutes tes tâches Must sont des issues.** C'est ton contrat avec toi-même - et ta gestion de production fait partie de la grille du projet final
-- [ ] Vérifie l'équation : nombre de Must ≤ ce qui se fait en ~3 séances (souviens-toi : × 2)
-
-### 5. Build et remise
-
-- [ ] Compile, lance le build, vérifie (son inclus!)
-- [ ] Commit : `Jalon 2 : tranche verticale` → Push
-- [ ] Remets le build selon la consigne
+[Exercice - Tranche verticale et plan de production :material-arrow-right:](./exercices/cours10-tranche-verticale.md){ .md-button .md-button--primary }
 
 !!! success "Jalon 2 - sommatif (25 %)"
     **Livrable :** tranche verticale jouable - tous les systèmes du cahier des charges présents au moins minimalement, build compilé.
@@ -108,11 +83,12 @@ Deux règles d'or : **les Must d'abord, toujours** - un Could terminé ne compen
 
 ## Devoir
 
-- [ ] Entame tes issues **Must**, dans l'ordre. Ferme chaque issue terminée (le petit bouton « Close » - et la petite satisfaction qui vient avec)
+* Entame tes issues **Must**, dans l'ordre. Ferme chaque issue terminée (le petit bouton « Close » - et la petite satisfaction qui vient avec)
 
 ## Ressources
 
 * [Guide GitHub : About issues](https://docs.github.com/fr/issues/tracking-your-work-with-issues/about-issues)
+* [Heuristiques d'évaluation d'un jeu](./extra/heuristiques.md) - la grille complète et la fiche d'observation
 
 ## Savoirs essentiels touchés
 

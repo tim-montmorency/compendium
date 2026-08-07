@@ -1,5 +1,6 @@
 mkdocs>=1.6
 mkdocs-material>=9.7.1
+beautifulsoup4
 mkdocs-audio
 mkdocs-render-stopper
 mkdocs-video

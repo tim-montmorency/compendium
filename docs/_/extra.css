@@ -713,10 +713,6 @@ stop:before {
   background-color: transparent;
 }
 
-#__mermaid_0 .edge-depth-0 {
-  stroke-width: 1;
-}
-
 .md-typeset figure {
   width: auto;
 }
@@ -911,7 +907,9 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   padding: .625em 1rem;
 }
 
-
+.mermaid{
+  text-align: center;
+}
 
 @keyframes animate {
 

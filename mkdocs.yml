@@ -523,6 +523,7 @@ extra_javascript:
 
 hooks:
   - hooks/codepen_wrap.py
+  - hooks/external_links.py
 
 plugins:
   - search:

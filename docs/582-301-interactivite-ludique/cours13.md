@@ -80,24 +80,16 @@ Hors devis : une issue **[COULD]**, pas une exigence. (Fonctionne aussi en WebGL
 
 Et la version ligue majeure - un **classement en ligne partagé entre tous les joueurs** - est documentée en annexe : [Leaderboard en ligne (UGS)](./extra/leaderboard-ugs.md). Réservée aux [MUST]-finis.
 
-## Mise en ligne du build de test
-
-- [ ] Vérifie le module Web (Unity Hub) et la compression (**Gzip + Decompression Fallback**)
-- [ ] **File → Build Profiles → Web → Switch Platform** (⏳ la conversion prend quelques minutes)
-- [ ] **Build** dans un dossier `BuildsWeb` hors de `Assets` → ⏳ **lance-le et passe en production pendant l'attente**
-- [ ] Zippe le **contenu** du dossier de build → sur itch.io : nouvelle page (ou réutilise celle du jeu de session) → mode **HTML** → téléverse → coche « played in browser » → viewport 1280 × 720
-- [ ] **Teste dans le navigateur** : chargement, jeu, son. Puis fais-le tester par un voisin depuis SON poste
-- [ ] Garde la page en **Draft/Restricted** : elle devient publique à la remise finale
-
 ## Production
 
-- [ ] Issues **Must** d'abord - il en reste combien? C'est le moment de le savoir précisément
-- [ ] Commit de fin de séance : `Production S13 : premier build web en ligne` → Push
+Compiler en WebGL, régler la compression, téléverser sur itch.io et tester la page - puis production.
+
+[Exercice - Build web et mise en ligne :material-arrow-right:](./exercices/cours13-build-web.md){ .md-button .md-button--primary }
 
 ## Devoir
 
-- [ ] Rédige la version quasi finale de ta page itch.io : description avec contrôles, captures, **crédits complets**
-- [ ] Mets ton `README.md` au niveau : concept, boucle, moodboard, crédits - il sera lu pour la grille
+* Rédige la version quasi finale de ta page itch.io : description avec contrôles, captures, **crédits complets**
+* Mets ton `README.md` au niveau : concept, boucle, moodboard, crédits - il sera lu pour la grille
 
 ## Ressources
 

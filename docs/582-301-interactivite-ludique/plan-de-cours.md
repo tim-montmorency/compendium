@@ -2,7 +2,7 @@
 
 ## Approche pédagogique
 
-Deux jeux dans la session : une prise en main au cours 1 (Unity Essentials Pathway en classe), un **jeu express** guidé au cours 2 (« I don't know what I'm doing, but I made a game »), puis **LE jeu de session**, démarré dès la séance 3 et construit couche par couche jusqu'à sa publication en ligne. Tous les concepts nécessaires sont vus **avant la séance 10**; ensuite, place à la production, avec des capsules d'enrichissement non bloquantes. L'élève passe environ 12 séances sur son propre jeu.
+Deux jeux dans la session : une prise en main au cours 1 (tutoriel Get Started With Unity en classe), un **jeu express** guidé au cours 2 (« I don't know what I'm doing, but I made a game »), puis **LE jeu de session**, démarré dès la séance 3 et construit couche par couche jusqu'à sa publication en ligne. Tous les concepts nécessaires sont vus **avant la séance 10**; ensuite, place à la production, avec des capsules d'enrichissement non bloquantes. L'élève passe environ 12 séances sur son propre jeu.
 
 ### Cahier des charges commun du jeu de session
 
@@ -31,8 +31,8 @@ Liberté totale sur le thème et l'univers; obligations techniques identiques po
 
 | # | Séance | Contenu | Jalon |
 |---|--------|---------|-------|
-| 1 | [Moteur de jeu et prise en main](./cours01.md) | Moteurs, ludisme, boucles de jeu; **Unity Essentials Pathway partie 1 en classe** (à finir en devoir) | |
-| 2 | [I made a game](./cours02.md) | **Jeu express complet en une séance** : monde Synty, personnage (prefab), trigger de victoire, build, **mise en ligne itch.io** | **Jalon 0** : un jeu complet, en ligne |
+| 1 | [Moteur de jeu et prise en main](./cours01.md) | Moteurs, ludisme, boucles de jeu; **tutoriel Get Started With Unity en classe** (à finir en devoir) | |
+| 2 | [I made a game](./cours02.md) | **Jeu express complet en une séance** : monde Synty, personnage (prefab), trigger de victoire, build, **mise en ligne itch.io**; document de conception (**GDD**) | **Jalon 0** : un jeu complet, en ligne |
 
 ### Phase 2 - Le jeu de session, couche par couche (S3–S10)
 

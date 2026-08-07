@@ -4,6 +4,13 @@
 
 *[LTS] : Long-Term Support
 *[UX] : User Experience
+*[FPS] : First Person Shooters
+
+[^ludisme]: [Définition du mot ludisme selon Larousse](https://www.larousse.fr/dictionnaires/francais/ludisme/48009)
+[^mda]: [Hunicke, LeBlanc & Zubek, 2004](https://users.cs.northwestern.edu/~hunicke/MDA.pdf)
+[^gap]: [*User Experience Design for Inexperienced Gamers: GAP – Game Approachability Principles*](https://doi.org/10.1007/978-1-84882-963-3_8)
+[^flow]: [Sweetser, 2020, OzCHI/ACM](https://dl.acm.org/doi/10.1145/3441000.3441048)
+[^fail]: [*The Art of Failure*, MIT Press, 2013](https://mitpress.mit.edu/9780262529952/the-art-of-failure/)
 
 ## Le ludisme
 
@@ -13,20 +20,31 @@
 > Comportement caractérisé par la recherche systématique du jeu sous toutes ses formes.<br>
 > latin *ludus*, jeu, [*ludologie*](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26502181/ludologie)
 
-[^ludisme]: [Définition du mot ludisme selon Larousse](https://www.larousse.fr/dictionnaires/francais/ludisme/48009)
-
 Le ludisme, c'est l'**engagement** et les **comportements** d'une personne envers un **jeu**. 
 
 L'**amusement** et l'**expérimentation** sont essentiels au développement de l'aspect ludique de l'expérience.
 
-Comment fait-on pour créer une expérience ludique ? On travaille l'expérience utilisateur (_UX_) avec une **palette d'ingrédients** — pas une liste de cases à cocher : aucun jeu ne les utilise tous (*Tetris* n'a pas de narration, *Dear Esther* n'a pas de défi). Chaque jeu compose sa propre recette.
+!!! example "Comment créer une expérience ludique ?"
 
-!!! abstract "Le cadre MDA : des règles à l'émotion"
-    Un modèle célèbre ([Hunicke, LeBlanc & Zubek, 2004](https://users.cs.northwestern.edu/~hunicke/MDA.pdf)) explique comment ces ingrédients s'assemblent : le designer code des **Mécaniques** (règles : hauteur de saut, points de vie) → qui produisent des **Dynamiques** en jeu (comportements émergents : camper, faire du *speedrun*) → qui déclenchent des **Esthétiques** (émotions : défi, découverte, camaraderie). Le joueur vit le chemin **inverse** : il ressent d'abord, comprend les règles ensuite. Concevoir un jeu, c'est régler des mécaniques pour viser une émotion.
+    > On travaille l'expérience utilisateur (_UX_) dans le but de provoquer une émotion.
+
+    Le concepteur développe des **mécaniques** (ex. : saut, points de vie) ce qui produit des **Dynamiques** en jeu (ex. : camper, faire une *speedrun*) pour déclencher du plaisir (ex. : défi, découverte, camaraderie)[^mda]:. 
+
+    Le joueur vit le chemin **inverse**. Il ressent d'abord puis comprends les règles ensuite.
+
+## Expérience ludique
+
+![](./assets/img/mixing-chemicals-veritasium.gif){.w-100}
+
+Ce qui suit sont des stratégies pour concevoir une expérience ludique. 
+
+Tout ne doit pas **obligatoirement** se trouver dans un même jeu, mais ça aide ;)
 
 ### :speaking_head: Narration
 
-Raconter une histoire donne un **sens** aux actions du joueur (ex. : on ne pousse pas un bouton, on sauve quelqu'un!). 
+Raconter une histoire donne un **sens** aux actions du joueur 
+
+> On ne pousse pas un bouton, on sauve quelqu'un !
 
 Par les **dialogues**, l'**ambiance**, les **décisions** et le **scénario**, la narration crée un investissement émotionnel et l'envie de connaître la suite.
 
@@ -37,21 +55,28 @@ Dans [Donjons & Dragons](https://fr.wikipedia.org/wiki/Donjons_et_Dragons), la n
 </div>
 
 <div class="grid grid-1-2" markdown>
-![Call of Juarez](./assets/img/games/call-of-juarez.jpg){data-zoom-image}
+![Call of Juarez](./assets/img/games/call-of-juarez.jpg){data-zoom-image} 
 
 Dans [Call of Juarez (2013)](https://fr.wikipedia.org/wiki/Call_of_Juarez:_Gunslinger), la narration sonore est continuellement guidée par les actions des joueurs.
 </div>
 
+!!! question "Comment raconter une histoire ?"
+
+    On verra plus tard comment fabriquer une histoire à partir de [techniques de création narratives](./extra/narration.md){.back}.
+
 ### :fontawesome-solid-gears: **Mécanique**
 
 Les règles et systèmes qui déterminent **comment on interagit avec le jeu**. 
+
+> Sauter, crocheter, courrir...<br>
+> Règle des pions aux échecs
 
 Une bonne mécanique génère des **choix intéressants** et un plaisir de **maîtrise** (comprendre, expérimenter, s'améliorer).
 
 <div class="grid grid-1-2" markdown>
 ![Magic: The Gathering](./assets/img/games/mtg.jpg){data-zoom-image}
 
-Dans [Magic: The Gathering](https://magic.wizards.com/), la mécanique du « *Tap* » force le joueur à faire des stratégies en indiquant visuellement qu'une ressource ou une créature a été utilisée pour le tour.
+Dans [Magic: The Gathering](https://magic.wizards.com/), la mécanique du « *Tap* » active une ressource ou une créature.
 </div>
 
 <div class="grid grid-1-2" markdown>
@@ -60,8 +85,44 @@ Dans [Magic: The Gathering](https://magic.wizards.com/), la mécanique du « *Ta
 Dans [Portal (2011)](https://fr.wikipedia.org/wiki/Portal_2), les joueurs doivent résoudre des énigmes en manipulant des trous de ver.
 </div>
 
-!!! example "Le gameplay émergent"
-    Quand les règles sont conçues comme des **systèmes qui interagissent** (le feu brûle le bois, l'électricité traverse l'eau, le vent propage le feu), les joueurs inventent des solutions que personne n'a scriptées. C'est tout le plaisir de *Tears of the Kingdom* ou des *immersive sims* comme *Deus Ex* : le jeu surprend même ses créateurs.
+### :material-school: Prise en main
+
+<!-- Une mécanique géniale ne vaut rien si le joueur **abandonne avant de la comprendre**. -->
+
+Les premières minutes doivent enseigner : 
+
+* En jouant plutôt qu'en expliquant
+* Une notion à la fois et accompagné de rétroaction (renforcement positif)
+* S'il y a beaucoup de mécaniques, n'enseignez pas tout en même temps
+
+<div class="grid grid-1-2" markdown>
+![Plants vs. Zombies](./assets/img/games/plants-vs-zombies.jpg){data-zoom-image}
+
+Dans [Plants vs. Zombies (2009)](https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition/), chaque niveau n'introduit **qu'une seule nouvelle plante**.
+</div>
+
+!!! tip "Les 10 principes GAP (*Game Approachability Principles*)"
+
+    Desurvire & Wiberg[^gap] proposent une grille pour concevoir de meilleurs tutoriels et premiers niveaux, particulièrement pour les joueurs occasionnels :
+
+    1. **Pratique** : offrir assez d'occasions de pratiquer chaque nouvelle habileté
+    2. **Démonstration** : montrer le jeu de plus d'une façon
+    3. **Renforcement** : donner une rétroaction aux actions du joueur
+    4. **Sentiment de compétence** : le joueur se sent habile après l'entraînement initial
+    5. **Échafaudage** : aide générale, puis plus précise **au besoin**
+    6. **Contrôle** : le joueur s'identifie à son personnage et voit qu'il affecte le monde
+    7. **Bonnes pratiques** : ne pas punir deux fois le même échec, varier les activités, doser le rythme
+    8. **Objectifs clairs** : le joueur sait ce qu'il doit faire et y arrive
+    9. **Information au bon moment** : juste ce qu'il faut, quand il le faut
+    10. **Maîtrise** : à la fin, le joueur a réellement appris de nouvelles habiletés
+
+!!! success "Le tutoriel invisible"
+
+    ![](./assets/img/skip-tuto.gif){.w-33}
+
+    Le meilleur tutoriel est celui qu'on ne remarque pas.
+
+    Si on concoit les premières scènes de façon à ce qu'il n'existe **qu'une seule action possible**. Le joueur croit résoudre l'énigme par lui même, mais en réalité, on lui enseigne les règles une à une.
 
 ### :paintbrush: **Visuel**
 
@@ -83,7 +144,7 @@ Dans [Thank Goodness You're Here! (2024)](https://store.steampowered.com/app/236
 
 ### :musical_note: **Son**
 
-Le son **immerge** là où l'image ne fait que montrer. 
+L'image montre et le son **immerge**. 
 
 Le son installe une **émotion**, **oriente** le joueur (ex. : un danger à venir) et **récompense** les actions.
 
@@ -103,7 +164,7 @@ Dans [A Blind Legend (2016)](https://store.steampowered.com/app/437530/A_Blind_L
 
     Le son est souvent mis de côté. Peut-être parce que c'est moins tangible qu'une image 🤷 ?
 
-    Pourtant, il joue un rôle tout aussi important que l'image. 
+    Pourtant, il est **aussi important que l'image**. 
     
     Le son c'est l'équivalent du glaçage sur un gâteau d'aniversaire. C'est pas obligatoire.. mais un peu quand même 😅
 
@@ -114,12 +175,6 @@ Dans [A Blind Legend (2016)](https://store.steampowered.com/app/437530/A_Blind_L
 Éveiller la **curiosité**, puis (surtout) la **récompenser**.
 
 Ça peut être en découvrant une nouvelle salle, une section secrète ou une information.
-
-<!-- <div class="grid grid-1-2" markdown>
-![](./assets/img/games/chasse-tresor.webp){data-zoom-image}
-
-Dans une [chasse aux trésors](https://fr.wikipedia.org/wiki/Chasse_au_tr%C3%A9sor), l'objectif est assez intéressant pour se donner tout le mal pour le trouver. Ça ne doit être ni trop difficile, ni trop facile.
-</div> -->
 
 <div class="grid grid-1-2" markdown>
 ![Escape Room](./assets/img/games/escape-room.jpg){data-zoom-image}
@@ -135,17 +190,19 @@ Dans [Dave the diver (2023)](https://store.steampowered.com/app/1868140/DAVE_THE
 
 ### :crossed_swords: **Défi**
 
-Un jeu trop facile peut provoquer l'ennui, trop difficile, la frustration/découragement.
+Un jeu trop facile peut provoquer l'ennui. Un jeu trop difficile provoque la frustration et le découragement.
 
-Un obstacle à la hauteur des compétences du joueur crée un état d'engagement, mais ce qui le fait continuer est la récompense.
-
-<!-- Cet équilibre ennui/frustration se nomme ***flow*** ([Sweetser, 2020, OzCHI/ACM](https://dl.acm.org/doi/10.1145/3441000.3441048)). Jesper Juul ([*The Art of Failure*, MIT Press, 2013](https://mitpress.mit.edu/9780262529952/the-art-of-failure/)) montre même qu'on recherche l'échec pour rendre la réussite signifiante. Mais le défi n'est pas obligatoire — dans le [cadre MDA](https://users.cs.northwestern.edu/~hunicke/MDA.pdf), le *challenge* n'est qu'une des **huit esthétiques** du plaisir de jeu; les jeux *cozy* et les *walking simulators* misent plutôt sur la découverte et la sensation. Certains jeux maintiennent même le *flow* en trichant : l'**ajustement dynamique de la difficulté** (*DDA*) module en douce le nombre d'ennemis ou les objets échappés selon ta performance — comme le « AI Director » de *Left 4 Dead*. -->
+Un obstacle à la hauteur des compétences/attentes du joueur crée un état d'engagement, mais ce qui le fait continuer est la récompense.
 
 <div class="grid grid-1-2" markdown>
 ![Elden Ring](./assets/img/games/elden-ring.jpg){data-zoom-image}
 
-Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/), l'échec est utilisé comme un outil pour emplifier la gratification de réussite.
+Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/), l'échec est la mécanique principale du jeu.
 </div>
+
+!!! tip "L'art de l'échec 😮"
+
+    Cet équilibre ennui / frustration se nomme ***flow***[^flow]. Même que parfois, on recherche l'échec pour rendre la réussite signifiante[^fail].
 
 ### :trophy: **Accomplissements**
 
@@ -176,85 +233,61 @@ Néanmoins, pour être efficace et convainquantes, ces dynamiques doivent être 
 <div class="grid grid-1-2" markdown>
 ![Keep Talking and Nobody Explodes](./assets/img/games/keep-talking-and-nobody-explodes.jpg){data-zoom-image}
 
-Dans [Keep Talking and Nobody Explodes (2015)](https://store.steampowered.com/app/341800/Keep_Talking_and_Nobody_Explodes/), un des joueurs doit désamorcer une bombe en suivant les instructions des autres joueurs qui ne voient pas ladite bombe.
+Dans [Keep Talking and Nobody Explodes (2015)](https://store.steampowered.com/app/341800/Keep_Talking_and_Nobody_Explodes/), un des joueurs doit désamorcer une bombe en suivant les instructions d'autres joueurs qui ne la voient pas.
 </div>
-
-<!-- 
-!!! quote "Références"
-    Cette palette d'ingrédients est une synthèse pédagogique ancrée dans la recherche récente :
-
-    * Rigby, S. & Ryan, R. M. (2011). *Glued to Games: How Video Games Draw Us In and Hold Us Spellbound*. Praeger — les trois besoins psychologiques que les jeux satisfont : **compétence** (défi), **autonomie** (agentivité), **relation** (coopération/compétition).
-    * Juul, J. (2013). [*The Art of Failure: An Essay on the Pain of Playing Video Games*](https://mitpress.mit.edu/9780262529952/the-art-of-failure/). MIT Press — pourquoi on recherche des jeux qui nous font échouer.
-    * Isbister, K. (2016). [*How Games Move Us: Emotion by Design*](https://mitpress.mit.edu/9780262534451/how-games-move-us/). MIT Press — comment mécaniques, narration et jeu social produisent l'émotion.
-    * Fullerton, T. (2018). *Game Design Workshop: A Playcentric Approach to Creating Innovative Games* (4ᵉ éd.). CRC Press — le manuel de conception centrée sur l'expérience du joueur.
-    * Schell, J. (2019). *The Art of Game Design: A Book of Lenses* (3ᵉ éd.). CRC Press — manuel de référence sur les « lentilles » d'analyse de l'expérience de jeu.
-    * Sweetser, P. (2020). [*GameFlow 2020: 15 Years of a Model of Player Enjoyment*](https://dl.acm.org/doi/10.1145/3441000.3441048). OzCHI '20, ACM — bilan de 200+ applications du modèle **GameFlow** : concentration, défi, habiletés, contrôle, buts clairs, rétroaction, immersion, interaction sociale.
-    * Tyack, A. & Mekler, E. D. (2020). [*Self-Determination Theory in HCI Games Research: Current Uses and Open Questions*](https://doi.org/10.1145/3313831.3376723). CHI '20, ACM — revue de 110 études sur la motivation des joueurs.
-
-    **Classiques fondateurs** (toujours cités par la recherche ci-dessus) : Huizinga, *Homo Ludens* (1938); Caillois, *Les jeux et les hommes* (1958); Csikszentmihalyi, *Flow* (1990); Hunicke, LeBlanc & Zubek, [cadre MDA et ses 8 esthétiques](https://users.cs.northwestern.edu/~hunicke/MDA.pdf) (2004). -->
 
 ## Jeu vidéo
 
 ![](./assets/img/videogame-types-heading.jpg)
 
+Les jeux vidéos sont une façon très efficace d'aborder l'expérience ludique. Si efficace, qu'annuellement, cette industrie génère mondialement plus de [200 milliards USD](https://afjv.com/news/12036_l-industrie-des-jeux-video-a-franchi-la-barre-des-200-mds-en-2025.htm).
+
 ### Distributeurs
 
-Les canaux par lesquels un jeu se rend aux joueurs — chaque écosystème a les siens :
+* **PC** : :simple-steam: [Steam](https://steampowered.com/), :simple-epicgames: [Epic Games Store](https://store.epicgames.com/), :simple-battledotnet:[Battle.net](https://us.shop.battle.net/) et [_bien d'autres_](https://www.pcgamer.com/pc-gamings-many-launchers-reviewed-for-2024-steam-still-puts-the-rest-to-shame/)
+* **Consoles** : :simple-playstation: [PlayStation Store](https://store.playstation.com/), :material-nintendo-switch: [Nintendo eShop](https://www.nintendo.com/us/store/), :fontawesome-brands-xbox: [Xbox Store](https://www.xbox.com/microsoft-store)
+* **Mobile** : :simple-appstore: [App Store](https://www.apple.com/app-store/), :simple-googleplay: [Google Play](https://play.google.com/)
+* **Web** : :fontawesome-brands-itch-io: [Itch.io](https://itch.io/), [Game Jolt](https://gamejolt.com/), [Newgrounds](https://www.newgrounds.com/), [Poki](https://poki.com/), [CrazyGames](https://www.crazygames.com/)
 
-* **PC** : [Steam](https://steampowered.com/), [Epic Games Store](https://store.epicgames.com/), [GOG](https://www.gog.com/), [Itch.io](https://itch.io/), [Game Jolt](https://gamejolt.com/)
-* **Consoles** : [PlayStation Store](https://store.playstation.com/), [Nintendo eShop](https://www.nintendo.com/us/store/), [Xbox Store](https://www.xbox.com/microsoft-store)
-* **Mobile** : [App Store](https://www.apple.com/app-store/), [Google Play](https://play.google.com/)
-* **Web** : [Itch.io](https://itch.io/games/platform-web), [Newgrounds](https://www.newgrounds.com/), [Poki](https://poki.com/), [CrazyGames](https://www.crazygames.com/)
-
-!!! note ""
-    C'est sur **Itch.io** que nous publierons nos jeux (build WebGL) — gratuit, sans processus d'approbation, et jouable directement dans le navigateur.
-
-#### Statistiques et Données
+### Statistiques et Données
 
 * [SteamDB](https://steamdb.info/) (Données Steam)
 * [Games Stats](https://games-stats.com/) (Statistiques de ventes)
+* [IsThereAnyDeal](https://isthereanydeal.com/) (Historique des prix. Équivalent Steam de <https://keepa.com/>.)
 * [HowLongToBeat](https://howlongtobeat.com/) (Durée des jeux)
-* [IsThereAnyDeal](https://isthereanydeal.com/) (Historique des prix)
 
-### Plateformes & Contrôles
+## Genres de jeux
 
-Le mot « plateforme » désigne pêle-mêle des machines (*Switch*), des systèmes (*Windows, iOS*), des technologies (*WebGL*) et des services (*GeForce Now*). Pour concevoir un jeu, la question utile est plus simple : **sur quel appareil joue-t-on, avec quels contrôles, et dans quel contexte ?** Chaque réponse impose des choix de design.
+![](./assets/img/game-genres.jpg){.w-100}
 
-| Support (appareil) | Exemples | Contrôles typiques | Conséquences pour le design |
-| :--- | :--- | :--- | :--- |
-| **PC** | Windows, Mac, Linux, Steam Deck | Clavier / Souris, Manette | Précision de la souris, raccourcis, options graphiques |
-| **Consoles** | PlayStation, Xbox, Switch | Manette | UI lisible de loin (télé), navigation aux boutons |
-| **Mobile** | iOS, Android | Écran tactile, Gyroscope | Sessions courtes, gros boutons, doigts qui masquent l'écran |
-| **Réalités (VR/AR)** | Meta Quest, PS VR2, Apple Vision Pro | Manettes de mouvement, mains/yeux | Confort (cinétose), interactions physiques |
-| **Navigateur Web** | HTML5 / WebGL / WebAssembly | Clavier / Souris | Chargement léger, jouable sans installation — **notre cible avec Itch.io** |
+Il existe des centaines de [genres de jeux vidéos](https://steamdb.info/tags/) et les étiqueter n'aide pas beaucoup à en concevoir un. Ce qui aide, c'est de nommer **ce que le jeu exploite chez le joueur**. Voici trois grandes catégories de jeux :
 
-!!! note "Et le *cloud gaming* ?"
-    Xbox Cloud Gaming ou GeForce Now ne sont pas des appareils : ce sont des **services de diffusion** qui font tourner le jeu ailleurs et streament l'image vers n'importe lequel des supports ci-dessus. Pour le designer, une contrainte s'ajoute : la latence.
+* :material-lightning-bolt: **Action/Arcade** : exploite l'**exécution en temps réel**
+  > Réflexes, timing, précision. Le joueur sait souvent ce qui s'en vient : le défi est de l'exécuter au bon moment.
+  >
+  > *[Mortal Kombat](https://fr.wikipedia.org/wiki/Mortal_Kombat)*, *[Counter-Strike](https://www.counter-strike.net/cs2)*, *[Beat Saber](https://beatsaber.com/)*
+* :material-magnify: **Aventure** : exploite le **dévoilement d'information**
+  > Le joueur ne devient pas meilleur : c'est le **monde** qui se révèle. Une carte, une intrigue, une règle cachée, un mensonge.
+  >
+  > *[Monkey Island](https://returntomonkeyisland.com/)*, *[Outer Wilds](https://www.mobiusdigitalgames.com/outer-wilds.html)*, *[Firewatch](https://en.wikipedia.org/wiki/Firewatch)*
+* :material-chess-rook: **Stratégie** : exploite la **gestion de ressources**
+  > De l'or, des unités, du temps, de l'espace, de l'attention. Le défi est de choisir où dépenser ce qu'on n'a pas en quantité suffisante.
+  >
+  > *[Civilization](https://civilization.2k.com/)*, *[Stardew Valley](https://www.stardewvalley.net/)*, *[Balatro](https://www.playbalatro.com/)*
 
-### Genres de jeux
+<!-- !!! note "Petite note"
 
-Plutôt que de lister les centaines de [sous-genres existants](https://steamdb.info/tags/), voici des grandes lignes de catégories de jeu :
+    Énormément de jeux sont des combinaisons de ces trois catégories. -->
 
-* **Action, réflexes**
-  > *Exemples :* Plateforme (*[Super Mario](https://supermario-game.com/fr)*, Hollow Knight, Rayman Legends), Tir (*[Counter-Strike](https://www.counter-strike.net/cs2)*, *[Resident Evil](https://www.residentevil.com/)*, Fortnite, Valorant), Combat (*[Street Fighter](https://www.streetfighter.com/)*, Super Smash Bros, Mortal Kombat), Rythme (*[Beat Saber](https://beatsaber.com/)*, Geometry Dash, Just Dance), Roguelike (*[Hades](https://www.supergiantgames.com/games/hades-ii/)*, The Binding of Isaac, Dead Cells).
-* **Aventure, narration**
-  > *Exemples :* Monde ouvert (*[GTA V](https://www.rockstargames.com/gta-v)*, Red Dead Redemption 2, The Legend of Zelda, Ghost of Tsushima), Point & Click (*[Monkey Island](https://returntomonkeyisland.com/)*, Fran bow, The Case of the Golden Idol, Disco Elysium), Film interactif (*[Life Is Strange](https://lifeisstrange.square-enix-games.com/en-us)*, Until Dawn, Detroit: Become Human).
-* **Réflexion, casse-tête**
-  > *Exemples :* Logique (*[Tetris](https://play.tetris.com/)*, *[The Witness](https://www.playstation.com/en-ca/games/the-witness/)*, Portal 2), Évasion (*[Escape Simulator](https://pinestudio.com/games/escape-simulator/)*, Outer Wilds, The Room), Physique (*[Kerbal Space Program](https://www.kerbalspaceprogram.com/)*, Poly Bridge, Teardown).
-* **Jeu de rôle (RPG)**
-  > *Exemples :* Action-RPG (*[Diablo 4](https://diablo4.blizzard.com/fr-fr/)*, Elden Ring, Cyberpunk 2077), RPG Tactique (*[Baldur's Gate 3](https://baldursgate3.game/)*, XCOM 2).
-* **Stratégie, gestion**
-  > *Exemples :* Gestion (*[Cities: Skylines](https://www.paradoxinteractive.com/games/cities-skylines/about)*, *[Stardew Valley](https://www.stardewvalley.net/)*, RimWorld), Stratégie (*[Civilization](https://civilization.2k.com/)*, *[League of Legends](https://www.leagueoflegends.com/en-us/)*).
-* **Simulations, bac à sable**
-  > *Exemples :* Simulation de vie (*[Paralives](https://www.paralives.com/)*, Les Sims), Sandbox (*[Minecraft](https://www.minecraft.net/fr-fr)*, Terraria), Simulateurs (*[Euro Truck](https://eurotrucksimulator2.com/)*, Flight Simulator).
-* **Divers**
-  > *Exemples :* Cartes (*[Balatro](https://www.playbalatro.com/)*, Hearthstone, Slay the Spire), Incrémentiel/Clicker (*[(the) Gnorp Apologue](https://gnorp.dev/)*), Party (Mario Party, Among Us, Jeux sur Netflix).
+## Théorie du jeu vidéo
 
-## Prérequis
+### Prérequis
+
+![](./assets/img/lockeandkey.webp){.w-100}
 
 > J'ai besoin de A pour faire B. 
 
-Les prérequis sont des critères que le joueur doit satisfaire pour faire autre chose. En design de jeu, ce concept porte le nom de _gating_.
+Les prérequis sont des critères que le joueur doit satisfaire pour faire autre chose. En design de jeu, ce concept porte le nom de ***gating***.
 
 Ça sert à contrôler le **rythme**, **enseigner les mécaniques**, maintenir le **défi**, créer un sentiment de **maîtrise** et alimenter la logique de **récompense**.
 
@@ -278,31 +311,26 @@ Sa forme la plus classique est le mécanisme **serrure / clé** :
     * Brown, M. [*Boss Keys*](https://www.youtube.com/playlist?list=PLc38fcMFcV_ul4D6OChdWhsNsYY3NA5B2) (Game Maker's Toolkit) — analyse vidéo du *gating* dans les donjons de *Zelda* et les *metroidvania*.
     * [*The Level Design Book*, chap. « Gates »](https://book.leveldesignbook.com/process/layout/typology/gates) — typologie des *gates* (hard/soft, direction, lock and key) et bonnes pratiques. -->
 
-### Types de prérequis (_gating_)
-
-En design, on classe les *gates* selon **ce que le joueur doit acquérir ou démontrer** pour franchir la barrière :
+#### Types de _gating_
 
 1. **Progression** : Niveau de personnage requis
-  - Avoir le niveau 10 pour entrer dans le donjon
-  - Crochetage niveau 75 pour déverouiller certains cadnas
+  > Avoir le niveau 10 pour entrer dans le donjon
 1. **Économie** : Quantité de ressources accumulées 
-  - Avoir 1000 pièces d'or pour acheter une maison
-  - Collecter assez d'étoiles pour ouvrir certaines portes
+  > Avoir 1000 pièces d'or pour acheter une maison
 1. **Inventaire** : Possession d'un objet spécifique 
-  - Trouver une carte bleue pour ouvrir les portes bleus 
+  > Trouver une carte bleue pour ouvrir les portes bleus 
 1. **Scénario** : Choix narratif active ou désactive un élément du jeu 
-  - Un garde bloque la porte du village tant qu'on n'a pas parlé au vieux Kamajī
+  > Un garde bloque la porte du village tant qu'on n'a pas parlé au vieux Kamajī
 1. **Compétence du personnage** : Capacité apprise 
-  - Débloquer le double-saut pour traverser le ravin
+  > Débloquer le double-saut pour traverser le ravin
 1. **Environnement** : Conditions contextuelles
-  - Attendre qu'il fasse nuit pour cueillir une fleur spéciale
+  > Attendre qu'il fasse nuit pour cueillir une fleur spéciale
 1. **Habileté du joueur** : C'est le *joueur* qui doit s'améliorer, pas son personnage 
-  - Un boss infranchissable tant qu'on n'a pas maîtrisé ses séquences d'attaque
+  > Un boss infranchissable tant qu'on n'a pas maîtrisé ses séquences d'attaque
 1. **Connaissance** : Informations à découvrir par l'expérimentation pour progresser 
-  - Manger une pomme en sautant fait lever le soleil
+  > Manger une pomme en sautant fait lever le soleil
 
-
-| Type de *gate* | Ce qui déverrouille | Expérience produite |
+<!-- | Type de *gate* | Ce qui déverrouille | Expérience produite |
 | -------------- | ------------------- | ------------------- |
 | Progression | Niveau / statistiques | Croissance, investissement |
 | Économie | Monnaie / matériaux | Gestion, accumulation |
@@ -311,67 +339,53 @@ En design, on classe les *gates* selon **ce que le joueur doit acquérir ou dém
 | Compétence du personnage | Nouvelle action (verbe) | Retour sur ses pas, carte qui s'ouvre |
 | Environnement | État du monde / moment | Routine, observation |
 | Habileté du joueur | Maîtrise, réflexes | Triomphe sur la difficulté |
-| Connaissance | Information comprise | Eurêka! |
+| Connaissance | Information comprise | Eurêka! | -->
 
-## Boucles de jeu
+### Boucles de jeu
 
 ![](./assets/img/game-loop-banner.gif){.aspect-4-3}
 
-Une **boucle de jeu** est une séquence d'actions que le joueur répète tout au long de la partie.
+Une **boucle de jeu** ([_game loop_](https://gamedesignskills.com/game-design/core-loops-in-gameplay/)) est une séquence d'actions que le joueur répète tout au long de la partie.
 
-Une boucle bien conçue est **simple à comprendre**, mais assez **riche** pour rester intéressante.
+Ça sert à bien comprendre les mécaniques et leur fréquences. On dit qu'avant de développer un jeu, il est essentiel de connaitre ses boucles. Comme ça, ça donne une bonne idée de l'envergure du projet.
 
-### Boucle principale *(core loop)*
+Voici un exemple pour un FPS.
 
-La boucle principale est la séquence d'actions fondamentale - ce que le joueur répète en quelques secondes ou minutes.
+<figure markdown>
+![](./assets/img/devil-daggers-video-game.gif){.w-50}
+</figure>
+
+<!-- 
+| À chaque instant | Aux 10 minutes | Aux heures | Aux journées |
+| --- | --- | --- | --- | 
+| Viser un ennemi, le tirer, avancer | Entrer dans une salle, fouiller partout, trouver des armes/items (_loot_) | Ajuster l'équipement (_loadout_), finir une mission, recevoir des upgrades | Débloquer des personnages, accomplir des _achievements_, acheter des _skins_ |  -->
 
 ```mermaid
-graph LR
-    A(Agir) --> B(Résultat)
-    B --> C(Récompense ou punition)
-    C --> A
+%%{init: {"flowchart": {"curve": "linear"}}}%%
+graph TD
+    
+    direction TD
+      
+      A1(Viser un ennemi) --> A2
+      A2(Tirer) --> A3
+      A3(Avancer) --> A1
+
+      A3 -->|Aux 5 min| B1
+      B1(Entrer dans une salle):::min --> B2
+      B2(Fouiller):::min --> B3
+      B3(Récolter des items):::min --> A3
+        
+      A3 -->|Aux heures| C1
+      C1(Finir le niveau):::hour --> C2
+      C2(Ajuster l'équipement):::hour --> C3
+      C3(Accomplir une mission):::hour --> C4
+      C4(Recevoir des upgrades):::hour --> C1
+
+  classDef min fill:transparent;
+  classDef hour stroke:#666666,fill:transparent;
 ```
 
-<div class="grid grid-1-2" markdown>
-![Elden Ring](./assets/img/games/elden-ring.jpg){data-zoom-image}
-
-Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/), la boucle principale est : *explorer une zone → affronter un ennemi → mourir ou vaincre → récupérer des runes → s'améliorer → explorer plus loin*.
-</div>
-
-!!! tip "Exprimer une boucle en verbes d'action"
-    Pour décrire une boucle principale, on utilise des **verbes d'action concrets**.
-
-    > ❌ *"Le joueur ressent la tension de l'exploration"*  
-    > ✅ *"Le joueur explore, attaque, meurt, réapparaît et recommence"*
-
-    Ces **verbes** (*sauter, tirer, se cacher, parler, construire*) sont le vocabulaire que tu donnes au joueur. Règle d'or : chaque verbe doit servir à quelque chose de **distinct** — pas deux outils dont l'un est juste une version plus puissante de l'autre (c'est l'*orthogonalité*).
-
-<!-- ### Boucle méta *(meta loop)*
-
-La boucle méta est la boucle de **long terme** - ce qui motive le joueur à relancer le jeu d'une session à l'autre. Elle s'appuie souvent sur la progression, les déblocages ou l'amélioration permanente.
-
-Dans [(the) Gnorp Apologue (2023)](https://store.steampowered.com/app/1473350/the_Gnorp_Apologue/), la boucle méta est : *accumuler des éclats → acheter des améliorations → accumuler encore plus vite → débloquer de nouvelles mécaniques*. On répète la même boucle principale, mais on est toujours plus puissant. -->
-
-### Boucles optionnelles
-
-Les boucles optionnelles enrichissent l'expérience sans être au cœur du jeu : quêtes annexes, collections, personnalisation, mini-jeux, etc.
-
-<div class="grid grid-1-2" markdown>
-![Dave the Diver](./assets/img/games/dave-the-diver.jpg){data-zoom-image}
-
-Dans [Dave the Diver (2023)](https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/), la boucle principale est *plonger → chasser du poisson → remonter*. La boucle optionnelle - gérer le restaurant le soir - n'est pas obligatoire, mais elle donne une raison supplémentaire de rejouer.
-</div>
-
-<!-- ### Boucles de rétroaction
-
-À ne pas confondre avec les boucles d'actions ci-dessus : la **boucle de rétroaction** décrit comment le système réagit au succès ou à l'échec du joueur.
-
-* **Positive** (*snowballing*) : le succès nourrit le succès. Dans *Civilization*, chaque ville capturée fournit les ressources pour capturer la suivante. Risque : une partie « décidée » dès le début, sans espoir pour le perdant.
-* **Négative** (*rubber-banding*) : le système freine le meneur ou aide le retardataire. Dans *Mario Kart*, le dernier reçoit la carapace bleue, le premier des bananes. Utilité : des parties serrées jusqu'à la fin. -->
-
-!!! abstract "À retenir"
-    Un jeu solide a une **boucle principale claire** et quelques **boucles optionnelles** pour la variété.  
-    Quand la boucle principale est mal conçue, le jeu paraît creux ou répétitif.
+Pour voir d'autres exemples, consultez la page [_Designing The Core Gameplay Loop: A Beginner’s Guide_](https://gamedesignskills.com/game-design/core-loops-in-gameplay/).
 
 ## Moteurs de jeu vidéo
 
@@ -379,11 +393,11 @@ Dans [Dave the Diver (2023)](https://store.steampowered.com/app/1868140/DAVE_THE
 ![](./assets/img/godot_l1200.jpg){data-zoom-image .aspect-1-1}
 
 <div markdown>
-### Godot
+### [Godot](https://godotengine.org/fr/)
 
-Un moteur 100 % gratuit et open-source, léger et en pleine ascension. Il se distingue par son architecture innovante basée sur des _nodes_ et des scènes. (Langage : GDScript)
+Un moteur 100 % gratuit, open-source et très léger. 
 
-> *Exemples :* [Brotato, Dome Keeper, ...](https://godotengine.org/showcase/).
+<!-- > *Exemples :* [Brotato, Dome Keeper, ...](https://godotengine.org/showcase/). -->
 </div>
 </div>
 
@@ -391,11 +405,11 @@ Un moteur 100 % gratuit et open-source, léger et en pleine ascension. Il se dis
 ![](./assets/img/unreal-engine.png){data-zoom-image .aspect-1-1}
 
 <div markdown>
-### Unreal Engine
+### [Unreal Engine](https://www.unrealengine.com/)
 
-Le moteur de choix pour les superproductions (jeux AAA) et le photoréalisme. (Langage : C++/Verse, Blueprints)
+Le moteur de choix pour les superproductions (jeux AAA) et le photoréalisme.
 
-> *Exemples :* [Fortnite, Borderlands 4, Claire Obscure, Black Myth: Wykong, ...](https://www.unrealengine.com/en-US/games).
+<!-- > *Exemples :* [Fortnite, Borderlands 4, Claire Obscure, Black Myth: Wykong, ...](https://www.unrealengine.com/en-US/games). -->
 </div>
 </div>
 
@@ -403,155 +417,128 @@ Le moteur de choix pour les superproductions (jeux AAA) et le photoréalisme. (L
 ![](./assets/img/unity6.jpeg){data-zoom-image .aspect-1-1}
 
 <div markdown>
-### Unity (⭐️ Choix du cours)
+### [Unity](https://unity.com/) (⭐️ Choix du cours)
 
-Le moteur le plus polyvalent et le plus utilisé dans l'industrie. (Langage : C#)
+Le moteur le plus polyvalent et le plus utilisé dans l'industrie.
 
-> *Exemples :* [Rust, Hollow Knight, Outer Wilds, Pokémon GO, Among Us, ...](https://unity.com/madewith).
+<!-- > *Exemples :* [Rust, Hollow Knight, Outer Wilds, Pokémon GO, Among Us, ...](https://unity.com/madewith). -->
 </div>
 </div>
 
-!!! question "Pourquoi choisir Unity ?"
+<!-- !!! question "Pourquoi choisir Unity ?"
 
     - Export WebGL pour jouer directement dans le navigateur
     - Communauté très large et beaucoup de documentation
     - Compte éducationnel gratuit
-    - Sera probablement utilisé en Réalité mixte ;)
+    - Sera très probablement utilisé en Réalité mixte ;) -->
 
 ### Les outils spécialisés
 
-Tous les jeux n'ont pas besoin d'un moteur hyper polyvalent.
-
 * [Phaser](https://phaser.io/) : cadriciel **JavaScript** pour jeux 2D sur le web.
 * [Twine](https://twinery.org/) : récits interactifs à embranchements, sans code !
-* [Ren'Py](https://www.renpy.org/) : *visual novels* (roman + dialogues + choix).
 * [Bitsy](https://bitsy.org/) : minuscules jeux en *pixel art*, dans le navigateur.
 * [GameMaker](https://gamemaker.io/) : moteur dédié à la **2D**, langage GML (*Undertale*, *Hotline Miami*).
-* [RPG Maker](https://www.rpgmakerweb.com/) : RPG 2D à la *Zelda/Final Fantasy* sans programmation (*To the Moon*, *Omori*).
-
-## Document de conception de jeu (GDD)
-
-![](./assets/img/gddbanner.jpg)
-
-Le **Game Design Document** (GDD) décrit tous les aspects fondamentaux d'un jeu vidéo. Rédigé durant la phase de conceptualisation, il sert de fondation au développement.
-
-[Modèle de GDD](https://www.figma.com/fr-fr/communaute/file/1657116644655532636/document-de-conception-gdd){ .md-button .md-button--primary }
-
-!!! question "Est-ce un document définitif ?"
-
-    Absolument pas. En cours de route, des idées tombent à l'eau, d'autres s'ajoutent suite aux phases de test. C'est un document vivant (*live document*), même s'il doit garder une base stable pour éviter que le projet ne parte dans tous les sens (*scope creep*).
+* [RPG Maker](https://www.rpgmakerweb.com/) : RPG 2D à la *Zelda/Final Fantasy* sans code (*To the Moon*, *Omori*).
 
 ## Unity
 
-![type:video](./assets/video/unity-games.webm)
+![type:video](./assets/video/unity-games.webm){.h-auto}
 
-### Création de compte
+Unity fonctionne sur la majorité des ordinateurs. À moins que votre machine soit particulièrement ancienne, elle devrait satisfaire la [configuration système requise](https://docs.unity3d.com/Manual/system-requirements.html).
 
-### Configuration système requise
+Unity fonctionne sur une base de licence. L'une est gratuite et les autres sont [payantes](https://unity.com/fr/products) en fonction des revenus au cours des 12 derniers mois.
 
-https://docs.unity3d.com/Manual/system-requirements.html
+<div class="grid grid-1-3 align-items-top" markdown>
+![](./assets/img/money.gif)
 
-### Plan
+| Version | Coût par utilisateur |
+| --- | --- |
+| **Unity Personal** | **Gratuit** ♥️, si revenus inférieurs à 200 000 $ USD |
+| **Unity Pro** | 210 $ USD / mois, si revenus entre 200 001 $ et 24,9 millions $ USD |
+| **Unity Enterprise** | _Sur devis_, si revenus supérieurs à 25 millions $ USD |
+| **Unity Industry** | _Sur devis_, si obligatoire dès 1 000 000 $ USD pour un usage industriel (hors jeux/divertissement) |
+</div>
 
-En tant qu'étudiant-e, vous avez accès au [compte éducationnel](https://unity.com/products/unity-student) qui donne accès à l'éditeur Pro de Unity. Il donne également accès à un paquet d'assets premium gratuitement.
+TLDR; c'est gratuit :wink:
 
-https://unity.com/products/unity-student
+### Installation
+
+Unity a besoin du logiciel Unity Hub pour être installé. 
+
+Unity Hub sert, entre autres, à gérer les versions de Unity et créer des projets.
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/img/unity6.png)
+
+  **[Compte Unity et installation](./extra/installation-unity-hub.md){.stretched-link .back}**<br>
+</div>
+
+## Présentation de Unity Hub et Unity
+
+<div markdown class="grid">
+<figure markdown>
+![](./assets/img/unity-hub-interface.png){data-zoom-image}
+<figcaption markdown>Unity Hub</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/img/unity-interface.png){data-zoom-image}
+<figcaption markdown>Unity</figcaption>
+</figure>
+</div>
+
+### Panneaux
+
+![](./assets/img/unity-interface-num.png){data-zoom-image}
+
+1. **Barre de menu** : Regroupe les options globales du logiciel (sauvegarde, paramètres généraux et ouverture de nouvelles fenêtres).
+2. **Panneau _Hierarchy_** : Liste tous les objets (GameObjects) de la scène active et permet d'organiser leurs relations de parenté (parent/enfant).
+3. **Panneau _Scene_** : L'espace de travail visuel (2D/3D) pour construire votre niveau en y plaçant vos objets. (Le test du jeu se fait dans l'onglet Game).
+4. **Barre d'outils** : Fournit les outils de manipulation spatiale pour sélectionner, déplacer, pivoter et redimensionner les objets de la scène.
+5. **Panneau _Inspector_** : Affiche et permet de modifier les propriétés et composants (Components) de l'élément sélectionné (objet ou ressource).
+6. **Panneau _Project_** : L'explorateur de fichiers. Il rassemble toutes vos ressources (Assets), importées (modèles, sons) ou créées dans Unity (scripts, matériaux).
+
+### Assets store
+
+[Asset Store](https://assetstore.unity.com/) est le magazin de Unity pour ajouter des objets 2D, 3D, des scripts et des matériaux aux projets. Voici comment l'utiliser : 
+
+1. Dans la barre de menu de Unity, cliquez sur `Window` > `Package Management` > `Asset Store`. Une page Web s'ouvrira.
+1. Cliquer sur une des ressources.
+1. Appuyez suz « _Add to my assets_ », acceptez les conditions et revenez dans Unity.
+1. Cliquez sur `Window` > `Package Management` > `Package Manager`. Une petit fenêtre s'ouvrira.
+1. Pour ajouter la ressource du Assets Store à votre projet, cliquez dessus, puis sur « Download »
+1. Une fois téléchargé. Cliquez sur « Import ... to project » (puis sur « Install / Upgrade » si demandé).
+1. Une autre fenêtre s'ouvrira, cliquez sur « Import ».
+
+Avec le compte éducationnel, vous avez accès gratuitement aux assets de « POLYGON - Sampler Pack - Art by Synty » d'une valeur de 80 $ USD.
 
 
-## Unity Hub
-
-Pour installer Unity, il faut d'abord se créer un compte.
-
-[Installation unity hub](./extra/installation-unity-hub.md)
-
-### Installer Unity 6
-
-Si vous avez déjà Unity Hub, mais qu'une version plus ancienne de Unity est installée sur votre ordinateur, suivez ces étapes pour installer Unity 6
-
-1. Dans Unity Hub, ouvrez l'onglet Installs (Installations).
-2. Cliquez sur le bouton Install Editor (Installer l'éditeur) afin d'installer une nouvelle version de Unity.
-3. Dans la section Unity 6 Releases, cliquez sur Install pour la version correspondant à votre plateforme.
-    > Remarque : Sur macOS, vous devrez choisir entre un processeur Apple Silicon ou Intel. Si vous ne savez pas quel type de processeur équipe votre Mac, consultez l'article d'assistance d'Apple à ce sujet.
-4. À l'étape Add Modules (Ajouter des modules), sélectionnez l'option disponible sous DEV TOOLS afin d'installer un environnement de développement compatible.
-    * Windows : sélectionnez Visual Studio.
-    * macOS : sélectionnez Visual Studio Code.
-    L'installation de l'un de ces outils vous permettra d'écrire, d'exécuter et de déboguer votre code plus efficacement dans vos projets Unity.
-5. Cliquez sur Continue (Continuer) pour lancer l'installation.
-    > Remarque : L'éditeur Unity est une application puissante et de grande taille. Le téléchargement et l'installation peuvent prendre plusieurs minutes.
-
-Une fois l'installation terminée, cette version de l'éditeur Unity apparaîtra dans l'onglet Installs de Unity Hub.
-
-## Structure de fichier
-
-Lorsque vous créez un nouveau projet, je vous conseille de tout de suite créer les dossiers suivants dans votre fenêtre Project. Ainsi, vous pourrez classer vos ressources dès que vous les importez:
-
-```txt
-Assets/
-  ├── 📁 Plugins (Pour les assets téléchargés sur l'Asset Store)
-  └── 📂 _Project
-        ├── 📁 Animations
-        ├── 📂 Art
-        │    ├── 📁 Materials
-        │    ├── 📁 Models
-        │    └── 📁 Textures
-        ├── 📁 Audio
-        ├── 📁 Fonts
-        ├── 📁 Prefabs
-        ├── 📁 Rendering
-        ├── 📁 Scenes
-        └── 📁 Scripts
-```
-
-## Pratique - Unity Essentials Pathway, partie 1
-
-!!! abstract "Objectif de la pratique"
-    Apprivoiser l'éditeur Unity **à ton rythme** avec le parcours officiel [Unity Essentials](https://learn.unity.com/pathway/unity-essentials). Ce que tu ne termines pas en classe se finit en devoir. Au prochain cours, on s'en sert pour faire un **jeu complet en une séance**.
-
-### Mise en route
-
-- [ ] Crée ton compte Unity (ou connecte-toi) - le même servira pour Unity Hub, l'Asset Store et Unity Learn
-- [ ] Vérifie que **Unity Hub et Unity 6** sont installés ([guide d'installation](./extra/installation-unity-hub.md))
-- [ ] Va sur [learn.unity.com](https://learn.unity.com) et ouvre le parcours **Unity Essentials**
-
-### À compléter (en classe, puis en devoir)
-
-- [ ] Module de prise en main de l'éditeur : interface, fenêtres, layout
-- [ ] Navigation dans la Scene view (voler, zoomer, cadrer)
-- [ ] Création et manipulation de GameObjects (déplacer ++w++ · pivoter ++e++ · redimensionner ++r++ · dupliquer ++ctrl+d++ · cadrer ++f++)
-- [ ] Premiers pas avec le Play mode
-
-!!! tip "Le contenu est en anglais"
-    Active les sous-titres au besoin, et note tes questions : on y répond en début de cours 2. L'anglais technique fait partie du métier - autant s'y mettre tout de suite.
-
-!!! warning "Play mode = bac à sable"
-    Tout ce que tu modifies **pendant** le Play mode est perdu quand tu l'arrêtes. Vérifie toujours que tu n'es pas en Play avant d'éditer ta scène. C'est le piège numéro 1 des débutants - le Pathway te le montrera.
 
 ## Devoirs
 
 <div class="grid grid-1-2" markdown>
-  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
+  ![](./devoirs/get-started-with-unity/banner.png){.aspect-4-3}
 
   <small>Devoir - Unity</small><br>
-  **[Essential Pathway #1](./devoirs/pathway-essentials-1.md){.stretched-link .back}**
+  **[Tutoriel pour commencer avec Unity](./devoirs/get-started-with-unity/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
+  ![](./assets/img/student.avif){.aspect-4-3}
 
-  <small>Devoir - Conception</small><br>
-  **[Analyse d'un jeu existant](./devoirs/gdd.md){.stretched-link .back}**
+  <small>Devoir - Unity</small><br>
+  **[Faire la demande de compte éducationnel](./extra/installation-unity-hub.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./devoir/bs-devoir1/tarte-pomme.jpg)
+  ![](./assets/img/polygon.webp){.aspect-4-3}
 
-  <small>Travail 1 - Conception (10 %)</small><br>
-  **[GDD de ton jeu de session](./devoirs/gdd-jeu.md){.stretched-link .back}**
+  <small>Devoir - Unity</small><br>
+  **[Ajouter le Sampler Pack à votre compte éducationnel](https://tim-montmorency.com/compendium/582-401-realite-mixte/cours01.html#ajouter-le-sampler-pack-de-synty-studios-a-vos-assets:~:text=POLYGON%20%2D%20Sampler%20Pack){.stretched-link .back}**
 </div>
 
-## Savoirs essentiels touchés
 
-Logiciels d'intégration d'expériences ludiques, choix du logiciel, installation et configuration des ressources, classement des fichiers et des médias.
+<!-- Savoirs essentiels touchés : Logiciels d'intégration d'expériences ludiques, choix du logiciel, installation et configuration des ressources. -->
 
 <!-- Notes de préparation (archivées) :
 
