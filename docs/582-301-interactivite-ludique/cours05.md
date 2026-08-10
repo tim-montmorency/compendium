@@ -1,235 +1,109 @@
 # Cours 5
 
-## Interactions et progression
+## Validation du GDD et démarrage du jeu de session
 
-Le cœur du devis - et du cours : **présenter une action à accomplir, détecter sa réussite, faire progresser l'interacteur**. Aujourd'hui, on comprend ce qui rend une interaction *bonne* (les 4 notions), puis on programme la brique de base de toute progression : le **clé/porte** - par rétro-ingénierie.
+À partir d'aujourd'hui, une seule cible : **ton jeu**, construit couche par couche jusqu'à sa publication à la fin de la session. La séance **verrouille** ton concept, t'apprend à le protéger (versionning) et pose ses fondations (greybox).
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h15 | Retour : les Debug.Log du devoir, questions |
-| 0h15 – 1h30 | Théorie : les 4 notions d'interaction, la détection, le patron clé/porte |
+| 0h00 – 0h20 | Remise des GDD + constats de groupe |
+| 0h20 – 1h00 | Théorie : greyboxing, métriques, materials |
+| 1h00 – 1h30 | Théorie : versionning (Git/GitHub) |
 | 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Pratique : rétro-ingénierie et détournement du clé/porte |
-| 3h20 – 3h35 | Rituel de commit + devoirs | -->
+| 1h45 – 3h20 | Pratique : validations individuelles (5 min chacun) + démarrage du projet |
+| 3h20 – 3h35 | Premier commit + devoirs | -->
 
+!!! important "Remise aujourd'hui"
+    Le [GDD de ton jeu de session](./devoirs/gdd-jeu.md) (**Travail 1 - conception, 10 %**) se remet au **début de la séance**.
 
-## Qu'est-ce qu'une interaction?
+## La validation : cinq minutes, et c'est verrouillé
 
-Une interaction, c'est une boucle complète entre l'interacteur et le système :
+Chacun passe **cinq minutes** avec moi pendant la pratique. On regarde trois choses seulement :
 
-```mermaid
-graph LR
-    A(J'agis) --> B(Le système détecte)
-    B --> C(Le système répond)
-    C --> A
-```
+1. Ta **boucle** tient-elle en une phrase de verbes?
+2. Tes conditions de **victoire et d'échec** se traduisent-elles en `if`?
+3. Ton **scope** est-il faisable en 11 séances?
 
-Si un des trois maillons manque, il n'y a **pas** d'interaction :
+Si les trois passent, ton GDD est **verrouillé** : c'est la version de référence pour le reste de la session. Si l'un des trois accroche, on le règle sur place - c'est le but du rendez-vous, pas une mauvaise nouvelle.
 
-* J'appuie sur un bouton et rien ne se passe → pas de réponse : frustration
-* Le jeu répond sans que j'aie agi → cinématique, pas interaction
-* J'agis, le jeu a détecté, mais ne me le montre pas → le pire cas : l'interacteur croit que ça n'a pas marché
+!!! warning "Verrouillé ne veut pas dire figé"
+    Un GDD reste un document **vivant** : des idées tomberont, d'autres s'ajouteront après les tests. Ce qui est verrouillé, c'est le **noyau** - la mécanique principale, la boucle, la condition de victoire. Changer de noyau à la semaine 10, c'est recommencer sa session.
 
-!!! question "Discussion de groupe (5 min)"
-    Quel est le plus **petit** jeu possible? Un bouton qui allume une lumière, est-ce un jeu? Qu'est-ce qui manque pour que ça le devienne? *(Indice : un objectif, une possibilité d'échec…)*
+## Théorie
 
-## Les 4 notions d'interaction
+### Le greyboxing : valider l'espace avant de le décorer
 
-Ces quatre termes sont ceux du devis ministériel - mais surtout, ce sont quatre **outils de conception**. Pour chacun, demande-toi : « et dans MON jeu? »
+En studio, aucun niveau ne commence par les beaux assets. On construit d'abord en **blocs gris** (d'où le nom) : des cubes, des plans, des volumes bruts. Pourquoi?
 
-### 1. L'interacteur
+* **La vitesse** : ton croquis de GDD devient jouable en 20 minutes
+* **La vérité** : on découvre en marchant que le couloir est trop long, la salle trop vide, le saut impossible - des choses invisibles sur papier
+* **L'économie** : déplacer un cube coûte 2 secondes; redécorer une salle complète coûte une soirée
 
-> La personne qui **agit** dans l'expérience - pas celle qui la regarde.
+La règle : **on décore seulement ce qui est validé en gris.** Décorer un niveau mal proportionné, c'est décorer deux fois.
 
-Au cinéma, on est spectateur : l'œuvre se déroule identiquement qu'on soit là ou non. Dans un jeu, l'œuvre **n'existe pas sans nous** : personne n'appuie sur les touches, rien ne se passe. C'est le renversement fondamental : concevoir un jeu, ce n'est pas raconter des scènes, c'est **concevoir des actions**.
+!!! tip "Les métriques : le secret des pros"
+    Avant de construire, mesure ton personnage : sa hauteur, la hauteur de son saut, sa vitesse. Toutes tes dimensions en découlent - hauteur d'un obstacle sautable, largeur d'un fossé franchissable, distance « longue ». Les studios documentent ces *metrics*; toi, note-les dans ton README.
 
-<div class="grid grid-1-2" markdown>
-![Donjons et Dragons](./assets/img/games/dnd-dm.jpg){data-zoom-image}
+### Les materials : la couleur de ton monde
 
-Dans [Donjons & Dragons](https://fr.wikipedia.org/wiki/Donjons_et_Dragons), le maître de jeu prépare un monde - mais ce sont les joueurs qui décident où aller. Le MJ conçoit des **possibilités d'action**, pas un scénario fixe. C'est exactement ton travail de designer.
-</div>
+Tout objet 3D porte un **material** : sa « peinture ». Un material URP définit la **couleur** (Base Map), l'aspect **métallique**, le **lustre** (Smoothness) et même l'**émission** (l'objet devient une source de lumière - on s'en servira au cours 13 avec le bloom).
 
-**Conséquence pratique pour ton GDD :** relis ta boucle de jeu. Chaque élément doit être un **verbe que l'interacteur exécute** (ramasser, sauter, activer, éviter), pas un événement qu'il subit (« le pont s'effondre », « la musique devient inquiétante »). Les événements existent, mais ils *répondent* aux verbes.
+Créer un material prend 20 secondes : **Project → clic droit → Create → Material**, choisis la Base Map, glisse-le sur l'objet. C'est tout.
 
-### 2. L'affordance
+Pourquoi en parler aujourd'hui? Parce que ton greybox mérite un **code de couleurs** : sol gris, murs gris foncé, objets interactifs en jaune vif. Avant même le premier asset Synty, ton niveau communique déjà - c'est de l'affordance à coût zéro, et le jury de studio fait exactement ça dans ses prototypes.
 
-> Ce qu'un objet **suggère** qu'on peut faire avec lui - avant toute explication.
+### Le versionning : la ceinture de sécurité
 
-Le concept vient de la psychologie de la perception (Gibson) et du design d'objets (Norman) : une poignée ronde *appelle* la rotation, une barre horizontale *appelle* la poussée. Quand une porte a une poignée qu'il faut pousser, le design a échoué - on appelle ça une « porte de Norman ».
+Trois histoires vraies, entendues chaque session :
 
-📺 *À regarder :* [It's not you. Bad doors are everywhere. (Vox, 5 min)](https://www.youtube.com/watch?v=yY96hTb8WgI) - le meilleur résumé du concept en vidéo.
+* « Mon projet ne s'ouvre plus depuis la mise à jour » 💀
+* « J'ai supprimé un dossier pour faire de la place » 💀
+* « Ça marchait hier, j'ai changé plein d'affaires, je ne sais plus quoi » 💀
 
-Le jeu vidéo a bâti tout un **langage d'affordances**, que tes joueurs connaissent déjà sans le savoir :
+**Git** règle les trois : il prend des photos (*commits*) de ton projet à chaque étape. Tu peux regarder l'historique, comparer, **revenir en arrière**. **GitHub** en garde une copie en ligne : ton disque dur peut mourir, pas ton jeu.
 
-| Convention | Signification apprise |
+Trois mots de vocabulaire, c'est tout ce qu'il faut :
+
+| Terme | C'est quoi | Analogie |
+|---|---|---|
+| **Commit** | Une photo de ton projet + un message | Une sauvegarde nommée dans un jeu |
+| **Push** | Envoyer tes commits sur GitHub | Téléverser sa sauvegarde dans le nuage |
+| **.gitignore** | La liste de ce qu'on ne photographie PAS | Unity régénère `Library/` tout seul : inutile de le sauvegarder (et il pèse des Go!) |
+
+!!! important "Le rituel, à chaque fin de séance, jusqu'à la fin de la session"
+    1. **Commit** avec un message clair
+    2. **Push** vers GitHub
+    3. Vérifier sur github.com que c'est bien là
+
+Un bon message de commit dit **ce qui a changé** :
+
+| ❌ Mauvais | ✅ Bon |
 |---|---|
-| Bloc « ? » brillant (*Super Mario*) | Frappe-moi |
-| Baril rouge (*à peu près tous les FPS*) | J'explose, tire dessus |
-| Objet qui flotte et tourne | Ramasse-moi |
-| Rebord peint en jaune (*Uncharted*, *The Last of Us*) | Grimpable |
-| Fissure dans un mur (*Zelda*) | Il y a un secret derrière |
-| Lumière au bout d'un couloir | Le chemin est par là |
+| `update` | `Ajout du systeme cle/porte` |
+| `aaaaa` | `Correction : la porte restait ouverte au redemarrage` |
+| `cours 8` | `Sonorisation : musique ambiance + son de collecte` |
 
-Ce langage est si codifié que la « peinture jaune » fait débat chez les designers : trop d'affordance tue l'immersion, pas assez perd le joueur. Ton curseur à toi : un **petit jeu de 5 minutes n'a pas le temps de perdre son joueur** - assume des affordances claires.
-
-<div class="grid grid-1-2" markdown>
-![Portal](./assets/img/games/portal.jpg){data-zoom-image}
-
-Dans [Portal (2007)](https://store.steampowered.com/app/400/Portal/), tout le design est une leçon d'affordance : surfaces blanches = portail possible, surfaces sombres = impossible. Le joueur l'apprend en 2 minutes, sans un mot de tutoriel.
-</div>
-
-!!! example "Mini-activité (5 min)"
-    Regarde autour de toi dans le local : trouve **3 affordances physiques** (des objets qui te « disent » comment les utiliser). Puis, dans ta tête, applique le filtre à ton GDD : qu'est-ce qui, dans ton niveau, dira au joueur « viens ici, ramasse-moi, méfie-toi »?
-
-**Dans ton jeu, l'affordance se fabrique avec :** la couleur (contraste avec le décor), la lumière (éclaire ce qui compte), le mouvement (au cours 9, on fera flotter et tourner tes collectables - l'œil est attiré par ce qui bouge), et la position (au centre du chemin = important).
-
-### 3. L'engagement
-
-> Ce qui **retient** l'interacteur dans l'expérience - ce qui fait qu'il continue.
-
-Le modèle classique est celui du *flow* (Csikszentmihalyi) : l'engagement vit dans le couloir entre l'ennui et l'anxiété.
-
-```mermaid
-graph LR
-    subgraph "Défi vs Compétence"
-    A["Défi trop bas<br>→ ENNUI"]
-    B["Défi bien dosé<br>→ FLOW 🎯"]
-    C["Défi trop haut<br>→ FRUSTRATION"]
-    end
-```
-
-<div class="grid grid-1-2" markdown>
-![Elden Ring](./assets/img/games/elden-ring.jpg){data-zoom-image}
-
-[Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/) vit volontairement à la frontière de la frustration - et le dosage est si précis que surmonter un boss procure une joie qu'aucun jeu facile ne donne. Le défi n'est pas l'ennemi de l'engagement : le défi **mal dosé** l'est.
-</div>
-
-L'engagement se nourrit aussi de **curiosité** (qu'y a-t-il derrière cette porte?) et de **récompense** (le détour qui contient un trésor). Retiens le principe pour le cours 11 (level design) : *toute curiosité provoquée doit être récompensée*.
-
-**Dans ton jeu :** ta mécanique unique doit avoir une courbe - sa première utilisation est un tutoriel, sa dernière un petit défi. Si ramasser la clé n° 1 et la clé n° 3 sont exactement pareils, l'engagement s'érode.
-
-### 4. L'agentivité
-
-> Le sentiment que ses actions **comptent** - que le monde répond et se souvient.
-
-<div class="grid grid-1-2" markdown>
-![Baldurs gate 3](./assets/img/games/baldurs-gate-3.webp){data-zoom-image}
-
-Dans [Baldur's Gate 3 (2023)](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/), l'agentivité est reine : les choix modifient l'histoire, les relations, l'issue des quêtes. Mais l'agentivité n'exige pas cette échelle…
-</div>
-
-L'agentivité existe à deux niveaux :
-
-* **Micro** : chaque action reçoit une réponse immédiate - le bouton s'enfonce, le son confirme, la porte s'ouvre parce que **j'ai** trouvé la clé. C'est l'agentivité que TON jeu doit maîtriser, et elle recoupe le feedback (cours 8).
-* **Macro** : mes choix changent la suite (fins multiples, chemins alternatifs). Luxueux, optionnel, hors scope pour cette session.
-
-L'ennemi de l'agentivité, c'est le **faux choix** : deux portes qui mènent au même endroit, un dialogue dont toutes les réponses donnent la même suite. Le joueur le sent - et se désengage.
-
-!!! question "Discussion de groupe (5 min)"
-    Une cinématique interrompt-elle l'agentivité? Et un *quick time event* (« appuie sur X pour ne pas mourir »)? Où passe la ligne entre « j'agis » et « j'obéis »?
-
-### Les 4 notions en une phrase
-
-> Un **interacteur** perçoit ce qu'il peut faire (**affordance**), a envie de le faire (**engagement**), et constate que ça compte (**agentivité**).
-
-Ton système clé/porte d'aujourd'hui va cocher les quatre cases. Vraiment.
-
-
-## Des notions au code : détecter une action
-
-### Rappel et approfondissement : les triggers
-
-Au cours 2, tu as utilisé un trigger sans tout comprendre. Maintenant, le tour complet. Unity t'offre **trois événements** par trigger :
-
-| Événement | Se déclenche… | Analogie |
-|---|---|---|
-| `OnTriggerEnter` | à l'instant où un objet **entre** | la sonnette |
-| `OnTriggerStay` | à **chaque image** tant qu'il est dedans | le détecteur de présence |
-| `OnTriggerExit` | à l'instant où il **sort** | le « au revoir » du commerce |
-
-Aujourd'hui on n'utilise que `Enter` - mais garde `Exit` en tête : c'est lui qui permettra « la lumière s'éteint quand je quitte la pièce ».
-
-### Les conditions techniques (à connaître, sinon rien ne marche)
-
-1. Les deux objets ont un **Collider**
-2. Celui qui détecte a **Is Trigger** coché
-3. Au moins un des deux doit **bouger physiquement** : un Rigidbody ou un CharacterController (ton personnage Starter Assets en a un - c'est pour ça que ça marche!)
-4. Le filtre `CompareTag("Player")` évite qu'un ennemi ou un objet qui roule déclenche ta porte
-
-!!! tip "Démonstration en direct"
-    Je monte le système devant vous avec un `Debug.Log` dans chaque événement (`Enter`, `Stay`, `Exit`) - regardez la Console : `Stay` spamme des dizaines de messages par seconde. C'est la démonstration physique de `Update()` vs « une fois ».
-
-### Tags et layers : identifier et filtrer
-
-Deux systèmes d'étiquetage que tout projet Unity utilise - et qu'on confond toujours :
-
-| | **Tag** | **Layer** |
-|---|---|---|
-| Répond à | « Qui es-tu? » | « Avec qui interagis-tu? » |
-| Par objet | Un seul | Un seul |
-| Usage principal | Identifier dans le code (`CompareTag`) | Filtrer la **physique** (qui collisionne avec qui) et la **caméra** (qui est visible) |
-| Exemples | `Player`, `Collectable` | `Ground`, `IgnoreRaycast` |
-
-Créer un tag : Inspector → menu **Tag** → **Add Tag…** → **+** → nomme-le → reviens sur l'objet et **assigne-le** (l'oubli d'assignation est le piège : créer ne suffit pas!).
-
-Les layers, tu les utilises déjà sans le savoir : le champ **Ground Layers** de ton personnage Starter Assets dit au raycast de détection du sol « seul ce qui est sur le layer Ground compte comme un sol ». On y revient au cours 9.
-
-### Le patron clé/porte : la brique de toute progression
-
-Derrière **presque tout système de progression de presque tous les jeux** se cache la même logique :
-
-```mermaid
-graph LR
-    A(Ramasser la clé) --> B["aCle = true"]
-    B --> C(Toucher la porte)
-    C --> D{"aCle?"}
-    D -- oui --> E(La porte s'ouvre)
-    D -- non --> F(Message d'échec)
-```
-
-La ligne `aCle = true`, c'est ta première rencontre avec **l'état du jeu** (*game state*) : une variable qui **se souvient** de ce que l'interacteur a accompli. Toute la progression d'un jeu, du plus petit au plus grand, est une collection de variables comme celle-là.
-
-« Clé » et « porte » sont des métaphores. Regarde n'importe quel jeu avec cette lunette :
-
-| « Clé » | « Porte » | Jeu type |
-|---|---|---|
-| La clé du donjon | La porte du boss | *Zelda* (le patron à l'état pur) |
-| Le double saut débloqué | La corniche trop haute | Metroidvania (*Hollow Knight*) - la capacité EST une clé |
-| 3 emblèmes ramassés | La statue qui pivote | *Resident Evil* |
-| Le boss vaincu | Le pont qui apparaît | à peu près tout |
-| L'indice trouvé | Le cadenas à code | *Escape room* |
-
-<div class="grid grid-1-2" markdown>
-![Hollow Knight](./assets/img/games/hollow-knight.jpg){data-zoom-image}
-
-Dans [Hollow Knight (2017)](https://store.steampowered.com/app/367520/Hollow_Knight/), la carte entière est un réseau de portes (corniches, murs, abîmes) dont les clés sont des **capacités**. Quand tu obtiens le dash, des dizaines de « portes » s'ouvrent d'un coup, partout. Même patron, échelle géniale.
-</div>
-
-📺 *Pour aller plus loin :* la série [Boss Keys (Game Maker's Toolkit)](https://www.youtube.com/playlist?list=PLc38fcMFcV_ul4D6OChdWhsNsYY3NA5B2) décortique les donjons de Zelda uniquement sous l'angle clés/portes. Fascinant - et exactement notre sujet.
-
-!!! question "À toi (2 min, dans ta tête)"
-    Dans TON jeu : quelle est ta clé? Quelle est ta porte? Si tu ne peux pas répondre en une phrase chacune, on le règle ensemble pendant la pratique.
+Dans 6 semaines, quand tu chercheras « c'était quand, la dernière fois que la porte marchait? », tu remercieras tes messages.
 
 
 ## Pratique
 
-Faire fonctionner un système de progression fourni, le lire jusqu'à le comprendre, puis le détourner pour ton jeu.
+Créer le projet, importer les ressources, ouvrir le dépôt GitHub, rédiger le README et bloquer le greybox du niveau.
 
-[Exercice - Rétro-ingénierie du clé/porte :material-arrow-right:](./exercices/cours05-cle-porte.md){ .md-button .md-button--primary }
+[Exercice - Démarrer TON jeu :material-arrow-right:](./exercices/cours05-demarrer-ton-jeu.md){ .md-button .md-button--primary }
 
 ## Devoir
 
-* Ajoute une **deuxième** interaction à ton jeu (le patron est le même - c'est un copier-adapter, pas un recommencer)
-* Test d'affordance maison : montre ton écran à quelqu'un 5 secondes et demande « qu'est-ce qui a l'air interactif? ». S'il ne nomme pas ta clé, augmente son contraste
+* Termine le greybox et commence l'habillage Synty des zones validées
+* Commit + push à chaque séance de travail - le rituel s'applique aussi à la maison
 
 ## Ressources
 
-* [Boss Keys - la série sur le design clés/portes (GMTK)](https://www.youtube.com/playlist?list=PLc38fcMFcV_ul4D6OChdWhsNsYY3NA5B2)
-* [It's not you. Bad doors are everywhere. (Vox)](https://www.youtube.com/watch?v=yY96hTb8WgI) - l'affordance en 5 minutes
-* [Documentation Unity : Collider.OnTriggerEnter](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html)
+* [Guide GitHub Desktop (officiel)](https://docs.github.com/fr/desktop)
+* [Level design : le greyboxing (article, en anglais)](https://book.leveldesignbook.com/process/blockout)
 
 ## Savoirs essentiels touchés
 
-Notions d'interaction (interacteur, affordance, engagement, agentivité), interactions virtuelles, détection de collisions pour le déclenchement d'événements, programmation d'un système de clé et de porte, progression en fonction de la réussite d'une action.
+Création d'un environnement virtuel navigable, intégration d'images dans l'environnement virtuel, classement des fichiers et des médias.

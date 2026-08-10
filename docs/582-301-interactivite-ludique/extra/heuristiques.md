@@ -18,9 +18,9 @@ La grille ci-dessous vient d'un recensement de la recherche en UX de jeu[^koeffe
 
 | Moment | Ce que tu utilises | Pourquoi |
 |---|---|---|
-| **GDD (S3)** | Les 6 questions sur papier (ci-dessous) | Le reste est indécidable tant que rien n'est jouable |
-| **Jalon 1 (S7)** | Section B : interface et rétroaction | C'est ce qui existe à ce stade |
-| **Jalon 2 (S10)** | La [fiche d'observation](#la-fiche-dobservation-jalon-2) complète | Tous les systèmes sont là : c'est le moment où la grille paie |
+| **GDD (S4-S5)** | Les 6 questions sur papier (ci-dessous) | Le reste est indécidable tant que rien n'est jouable |
+| **Jalon 1 (S8)** | Section B : interface et rétroaction | C'est ce qui existe à ce stade |
+| **Jalon 2 (S11)** | La [fiche d'observation](#la-fiche-dobservation-jalon-2) complète | Tous les systèmes sont là : c'est le moment où la grille paie |
 | **S14 - gel** | Passe complète en solo sur ton propre jeu | Dernière chance de corriger avant le gel |
 
 La règle : **une heuristique cochée sans preuve ne vaut rien.** Le format utile est toujours *heuristique → respectée / violée / N/A → ce que j'ai vu → à quel moment*. « Menu : violé » n'aide personne. « Menu : violé - au 3e essai je cherchais encore comment recommencer après ma mort, j'ai fermé la fenêtre » se corrige en dix minutes.

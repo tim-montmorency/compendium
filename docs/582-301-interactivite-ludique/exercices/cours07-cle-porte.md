@@ -1,6 +1,6 @@
 # Exercice - Rétro-ingénierie du clé/porte
 
-> Exercice du [cours 5](../cours05.md)
+> Exercice du [cours 7](../cours07.md)
 
 !!! abstract "La méthode d'aujourd'hui"
     On ne part pas de zéro : je te fournis un système **fonctionnel**, tu le fais marcher, tu le **lis** jusqu'à le comprendre, puis tu le **détournes** pour ton jeu. C'est la méthode de travail des studios - et celle du reste de la session.
@@ -64,7 +64,7 @@ public class Porte : MonoBehaviour
         if (other.CompareTag("Player") && aCle)
         {
             batantDePorte.SetActive(false); // Pour l'instant : la porte "disparaît".
-                                            // Au cours 9, on l'animera pour vrai.
+                                            // Au cours 10, on l'animera pour vrai.
         }
     }
 }

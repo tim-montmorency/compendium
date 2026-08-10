@@ -20,7 +20,7 @@ Avant-dernière séance : on teste sérieusement, on corrige, on publie un build
 
 ### Tu es aveugle à ton propre jeu
 
-Après 12 semaines dessus, tu sais où est la clé, tu connais le chemin optimal, tu évites les bugs par réflexe **sans même le savoir**. C'est la *malédiction de la connaissance* : impossible de dé-savoir ce qu'on sait. Un nouveau joueur, lui, arrive vierge - et voit ton jeu tel qu'il est vraiment.
+Après 10 semaines dessus, tu sais où est la clé, tu connais le chemin optimal, tu évites les bugs par réflexe **sans même le savoir**. C'est la *malédiction de la connaissance* : impossible de dé-savoir ce qu'on sait. Un nouveau joueur, lui, arrive vierge - et voit ton jeu tel qu'il est vraiment.
 
 C'est pour ça que les studios testent sans relâche : Valve fait jouer des inconnus **chaque semaine** depuis Half-Life, et réécrit ses niveaux d'après ce qu'ils font (pas ce qu'ils disent). Le playtest n'est pas un contrôle qualité de fin de chaîne - c'est un instrument de design. Après la sortie, la **télémétrie** prend le relais : les données de jeu réelles (où les joueurs meurent, où ils bloquent, ce qu'ils ignorent) guident les ajustements.
 
@@ -36,7 +36,7 @@ Ce qu'on observe (les actes) vaut plus que ce qu'on demande (les mots) : les tes
 
 ### Trier le feedback : le problème est vrai, la solution rarement
 
-Règle des studios : quand un testeur dit « vous devriez ajouter une minicarte », le **problème** est réel (il s'est perdu), la **solution** proposée est rarement la bonne (la tienne : mieux guider - cours 11). Note le problème, décide toi-même du remède.
+Règle des studios : quand un testeur dit « vous devriez ajouter une minicarte », le **problème** est réel (il s'est perdu), la **solution** proposée est rarement la bonne (la tienne : mieux guider - cours 12). Note le problème, décide toi-même du remède.
 
 | Retour reçu | Nature | Action |
 |---|---|---|
@@ -45,7 +45,7 @@ Règle des studios : quand un testeur dit « vous devriez ajouter une minicarte 
 | « Moi j'aurais fait un jeu différent » | ⚪ Opinion | Merci - et c'est tout. C'est TON jeu |
 
 !!! warning "Gel des fonctionnalités (*feature freeze*)"
-    À partir d'aujourd'hui : **on ne rajoute plus de systèmes - on répare et on polit.** C'est une pratique universelle de l'industrie, et la raison est mécanique : toute fonctionnalité ajoutée peut casser trois choses qui marchaient (une *régression*), et il ne reste plus de temps pour s'en apercevoir. Une fonctionnalité de dernière minute, c'est un bug livré au jury. Les issues [COULD] non commencées se ferment en « pas cette fois » - sans regret : *un petit jeu fini* était le plan depuis le cours 3.
+    À partir d'aujourd'hui : **on ne rajoute plus de systèmes - on répare et on polit.** C'est une pratique universelle de l'industrie, et la raison est mécanique : toute fonctionnalité ajoutée peut casser trois choses qui marchaient (une *régression*), et il ne reste plus de temps pour s'en apercevoir. Une fonctionnalité de dernière minute, c'est un bug livré au jury. Les issues [COULD] non commencées se ferment en « pas cette fois » - sans regret : *un petit jeu fini* était le plan depuis le cours 4.
 
 ### Où investir la dernière semaine (le polish payant)
 

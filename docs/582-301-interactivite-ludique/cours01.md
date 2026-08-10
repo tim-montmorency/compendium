@@ -500,6 +500,8 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et créer des proj
 
 ### Assets store
 
+![](./assets/img/asset-store.png){.w-100}
+
 [Asset Store](https://assetstore.unity.com/) est le magazin de Unity pour ajouter des objets 2D, 3D, des scripts et des matériaux aux projets. Voici comment l'utiliser : 
 
 1. Dans la barre de menu de Unity, cliquez sur `Window` > `Package Management` > `Asset Store`. Une page Web s'ouvrira.
@@ -510,55 +512,30 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et créer des proj
 1. Une fois téléchargé. Cliquez sur « Import ... to project » (puis sur « Install / Upgrade » si demandé).
 1. Une autre fenêtre s'ouvrira, cliquez sur « Import ».
 
-Avec le compte éducationnel, vous avez accès gratuitement aux assets de « POLYGON - Sampler Pack - Art by Synty » d'une valeur de 80 $ USD.
-
-
+Avec le compte éducationnel, vous avez accès gratuitement aux assets de « [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048) » d'une valeur de 80 $ USD.
 
 ## Devoirs
 
 <div class="grid grid-1-2" markdown>
-  ![](./devoirs/get-started-with-unity/banner.png){.aspect-4-3}
+  ![](./devoirs/get-started-with-unity/banner.png){.aspect-16-9}
 
   <small>Devoir - Unity</small><br>
   **[Tutoriel pour commencer avec Unity](./devoirs/get-started-with-unity/index.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/img/student.avif){.aspect-4-3}
+  ![](./assets/img/student.avif){.aspect-16-9}
 
-  <small>Devoir - Unity</small><br>
+  <small>Devoir</small><br>
   **[Faire la demande de compte éducationnel](./extra/installation-unity-hub.md){.stretched-link .back}**
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/img/polygon.webp){.aspect-4-3}
+  ![](./assets/img/polygon.webp){.aspect-16-9}
 
-  <small>Devoir - Unity</small><br>
-  **[Ajouter le Sampler Pack à votre compte éducationnel](https://tim-montmorency.com/compendium/582-401-realite-mixte/cours01.html#ajouter-le-sampler-pack-de-synty-studios-a-vos-assets:~:text=POLYGON%20%2D%20Sampler%20Pack){.stretched-link .back}**
+  <small>Devoir</small><br>
+  **[Ajouter le « Sampler Pack » gratuit à votre compte](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){.stretched-link .back}**<br>
+  <small>Pour être gratuit, le compte éducationnel doit être actif</small>
 </div>
 
-
 <!-- Savoirs essentiels touchés : Logiciels d'intégration d'expériences ludiques, choix du logiciel, installation et configuration des ressources. -->
-
-<!-- Notes de préparation (archivées) :
-
-Commencer le cours avec le gdd. Comme ça ensuite on enchaine avec les sujets du gdd.
-
-https://learn.unity.com/tutorial/fill-out-a-game-design-document
-https://www.codecks.io/blog/2023/how-to-design-your-steam-store-page/
-https://www.codecks.io/blog/2020/curious-expedition-financial-history/
-https://www.graybeardgames.com/download/diablo_pitch.pdf
-https://www.reddit.com/r/gamedesign/comments/7ze7xq/finished_game_design_document_examples/
-https://www.codecks.io/blog/writing-modern-game-design-documents/
-https://www.productionalchemist.com/p/why-game-design-docs-still-matter
-
-Gdd : https://www.youtube.com/watch?v=lxFbog6jpVU
-Management d'un projet : https://www.youtube.com/watch?v=kJP45RqyXN8
-Dev + design process : https://www.youtube.com/watch?v=YdKPCFlFbOA
-https://www.youtube.com/watch?v=aBZZXoV9MUk
-
-https://craftpix.net/freebies/filter/2d-game-kits/
-https://www.gameart2d.com/#gsc.tab=0
-https://www.mixamo.com/#/
-https://itch.io/game-assets/free
--->

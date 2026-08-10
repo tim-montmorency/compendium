@@ -1,131 +1,179 @@
 # Cours 12
 
+## Production - capsule Level design
 
-## Production - capsule Game feel
-
-Prends deux jeux identiques en mécaniques. Dans le premier, ramasser une pièce la fait disparaître en silence. Dans le second, elle **éclate en particules**, le compteur *pop*, un *ding* satisfaisant retentit. Même code, même design - le second est « meilleur ». Cet écart a un nom : le **game feel**, ou « juice ».
+La production est lancée : l'essentiel de la séance se passe sur ton jeu, piloté par tes issues. La capsule du jour t'outille pour rendre ton **niveau** meilleur - elle n'est pas un prérequis pour livrer, mais c'est peut-être elle qui fera dire « oh, c'est bien fait » aux joueurs.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 1h00 | Capsule : game feel, post-processing, transitions |
-| 1h00 – 1h30 | Applications express : l'éclat + le bloom |
-| 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Production (issues) |
+| 0h00 – 0h45 | Capsule : level design |
+| 0h45 – 1h00 | Application express : diagnostic de ton niveau |
+| 1h00 – 1h15 | Pause |
+| 1h15 – 3h20 | Production (issues) |
 | 3h20 – 3h35 | Rituel de commit | -->
 
 
-## Capsule - Game feel
+## Capsule - Level design
 
-### Pourquoi ça marche
+### Le level design : l'espace qui raconte la boucle
 
-Le cerveau adore les réponses **immédiates, multiples et légèrement exagérées** à ses actions. C'est du feedback (cours 8) poussé au niveau sensoriel : non seulement je *sais* que l'action a réussi, mais je le *ressens*. C'est le prolongement direct de l'agentivité - le monde ne se contente pas de répondre, il **célèbre**.
+Le level design est un métier à part entière : concevoir l'**espace** pour qu'il serve le gameplay. Un bon niveau n'est pas un beau décor - c'est un décor qui **enseigne, guide, dose et récompense** sans un mot de tutoriel. Ton niveau unique doit faire les quatre.
 
-📺 *Les deux classiques du sujet (à voir absolument) :* [Juice it or lose it (conférence, 15 min)](https://www.youtube.com/watch?v=Fy0aCDmgnxg) - la démonstration en direct d'un Breakout qui passe de morne à jouissif - et [Secrets of Game Feel (GMTK)](https://www.youtube.com/watch?v=216_5nu4aVQ).
+### Le rythme : tension et repos
+
+Un bon niveau respire : moment d'action → respiration → action plus intense → grande respiration. Tout en tension épuise; tout en repos ennuie (le couloir du flow, cours 7 - appliqué à l'espace).
+
+Trace la courbe de TON niveau : où sont les pics? S'il n'y a pas de vallées, ajoute un moment contemplatif (un point de vue, une salle sûre). S'il n'y a pas de pic final, ton arrivée à l'objectif est plate.
+
+### Donner une forme au parcours : le cercle de Dan Harmon
+
+!!! warning "C'est un outil de **niveau**, pas de scénario"
+    Le cercle décrit le **parcours du joueur dans l'espace**. Ce n'est pas une histoire à écrire, pas des dialogues à ajouter, pas des cinématiques. Rappel du piège 4 (cours 5) : l'histoire habille la boucle, elle ne la remplace pas. Ici, chaque temps du cercle est un **endroit** et une **action**.
+
+[Dan Harmon](https://en.wikipedia.org/wiki/Dan_Harmon) (*Community*, *Rick and Morty*) a simplifié le voyage du héros de Campbell en **huit temps**, pour écrire des épisodes de 22 minutes. La version courte tient en une ligne : *un personnage part chercher quelque chose, le paie cher, et revient changé.*
+
+Ça se transpose presque mot pour mot sur ta boucle clé/porte :
+
+```mermaid
+graph LR
+    A(1. You<br>zone sûre) --> B(2. Need<br>la porte) --> C(3. Go<br>le seuil) --> D(4. Search<br>explorer)
+    D --> E(5. Find<br>la clé) --> F(6. Take<br>le prix!) --> G(7. Return<br>revenir) --> H(8. Change<br>victoire)
+```
+
+| Temps | Dans ton niveau |
+|---|---|
+| 1. **You** | Le spawn. Zone calme, sûre : le joueur comprend où il est et comment il bouge |
+| 2. **Need** | La **porte verrouillée**, visible tôt. C'est le désir qui met tout en marche |
+| 3. **Go** | Franchir le seuil : quitter la zone sûre pour l'inconnu |
+| 4. **Search** | L'exploration, les détours, les impasses, les premiers échecs |
+| 5. **Find** | La **clé**. Le joueur obtient ce qu'il cherchait |
+| 6. **Take** | **Le prix à payer.** Il n'y a pas de retour gratuit |
+| 7. **Return** | Le chemin du retour vers la porte - le même espace, une autre tension |
+| 8. **Change** | La porte s'ouvre. État final, victoire, et le joueur n'est plus le même |
+
+#### Le temps qui manque toujours : *Take*
+
+Presque tous les jeux de la classe font ceci : trouver la clé → ouvrir la porte → gagner. Trois temps sur huit, et **rien ne coûte rien**. C'est la raison n° 1 pour laquelle un niveau techniquement complet reste plat.
+
+*Take*, c'est le moment où obtenir la clé **change le monde** :
+
+* Ramasser la clé déclenche une **alarme** (son + lumière rouge : cours 8 et 12)
+* La salle se **referme** derrière toi - le chemin du retour n'est plus celui de l'aller
+* La clé est **lourde** : tu cours moins vite tant que tu la portes
+* Un ennemi, un piège ou une poursuite **s'active** au ramassage
+* Le décor bascule : la musique change, les lumières s'éteignent
+
+Une phrase de conception, souvent moins d'une heure d'implémentation - et ton niveau a une forme au lieu d'une ligne droite.
+
+#### Le bonus de production : *Return*
+
+Le temps 7 te fait **réutiliser un espace que tu as déjà construit**, au lieu d'en fabriquer un neuf. Le joueur repasse par où il est venu, mais l'endroit a changé de sens : ce qui était un couloir tranquille à l'aller devient une course à l'arrivée.
+
+Dans un cours où ton pire ennemi est le scope, c'est un argument de **production** autant que de design : plus de tension, zéro mètre carré de plus à modéliser.
+
+### Les lumières : l'outil de guidage n° 1
+
+Avant de guider par la lumière, il faut connaître ses sources. Unity (URP) en offre trois principales :
+
+| Source | Métaphore | Usage type |
+|---|---|---|
+| **Directional Light** | Le soleil : partout, parallèle, une seule direction | L'éclairage global de ta scène (il y en a déjà une!) |
+| **Point Light** | Une ampoule : rayonne dans toutes les directions | Lampadaire, torche, lueur d'un objet important |
+| **Spot Light** | Un projecteur : un cône orienté | Mettre l'objectif « sous le projecteur », littéralement |
+
+Les réglages qui comptent : **Color** (chaude = accueillant, froide = danger - raconte avec la température!), **Intensity**, **Range** (portée des Point/Spot) et **Shadow Type** (des ombres = du réalisme, mais un coût - *No Shadows* sur les petites lumières décoratives).
+
+!!! tip "La lumière émissive"
+    Un material avec **Emission** activée « brille » par lui-même (un cristal, un écran, des champignons luminescents). Combiné au bloom du cours 13, c'est l'effet le plus spectaculaire du cours pour 30 secondes de travail.
+
+### Guider sans flèches
+
+Le joueur doit savoir **où aller** sans qu'on le lui dise. Les outils, par ordre de subtilité :
+
+* **La lumière** : l'œil va vers la clarté. Éclaire ta destination, laisse les impasses dans la pénombre
+* **La couleur** : une tache contrastée dans un décor uniforme est un aimant (la peinture jaune du cours 7!)
+* **Les lignes** : chemins, clôtures, façades et rangées d'arbres pointent naturellement quelque part - fais-les pointer au bon endroit
+* **Les landmarks** : un repère visible de partout (tour, arbre géant, statue). Le joueur ne se perd jamais s'il peut toujours se dire « la tour est par là »
+
+Ce langage visuel repose sur deux concepts : l'**affordance** — la forme d'un objet suggère son usage (un baril rouge « demande » d'exploser, une corniche peinte « demande » d'être escaladée) — et le ***signposting*** — l'ensemble des indices (peinture, lumière, son) qui dirigent l'attention vers le chemin critique, sans texte ni flèche.
 
 <div class="grid grid-1-2" markdown>
-![Anger Foot](./assets/img/games/anger-foot.jpg){data-zoom-image}
+![Elden Ring](./assets/img/games/elden-ring.jpg){data-zoom-image}
 
-[Anger Foot (2024)](https://store.steampowered.com/app/1978590/Anger_Foot/) : chaque porte défoncée déclenche particules, secousse, sons percutants. Le jeu entier est construit sur la satisfaction sensorielle d'une seule action. Le juice n'est pas un vernis, c'est un pilier de design.
+Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/), l'Erdtree - l'arbre doré - est visible depuis presque partout : landmark absolu. Sans aucune flèche, tu sais toujours grossièrement où est « l'objectif ». Les parcs Disney font pareil avec le château (les *weenies* de Walt).
 </div>
 
-### La boîte à outils
+### La lisibilité : si tout brille, rien ne brille
 
-| Outil | Effet | Coût |
-|---|---|---|
-| **Particules** | Éclat à la collecte, poussière au pas, halo sur l'objectif | Faible - l'outil du jour |
-| **Screen shake** | Micro-secousse sur un impact : le monde « encaisse » | Faible, ⚠️ à doser |
-| **Squash & stretch** | L'objet s'écrase/s'étire (cours 9!) : la vie | Moyen |
-| **Pop d'échelle** | Le compteur qui grossit brièvement quand il change | Faible |
-| **Hitstop** | Micro-pause de quelques millisecondes à l'impact : le poids | Faible |
-| **Couches sonores** | Un grand moment = 2-3 sons superposés (impact + récompense) | Faible |
-| **Pitch aléatoire** | Chaque répétition du son varie légèrement : jamais mécanique | Trivial (2 lignes!) |
+L'affordance appliquée à l'espace : ce qui est **interactif** doit se distinguer de ce qui est **décoratif**. Ta clé flotte et tourne (cours 10) - assure-toi que le décor autour reste calme. Le contrat implicite avec le joueur : « ce qui bouge/brille me concerne; le reste est du paysage ». Romps ce contrat et il touchera à tout (ou à rien).
 
-Le pitch aléatoire, cadeau immédiat - dans n'importe quel son répété :
+### Placer l'objectif : visible tôt, atteignable tard
 
-```csharp
-// Au lieu d'un PlayClipAtPoint direct, sur une AudioSource :
-source.pitch = Random.Range(0.9f, 1.1f); // Entre -10% et +10% à chaque fois
-source.PlayOneShot(sonPas);
-```
+Le vieux truc des grands niveaux : montre la destination dès le début (la porte verrouillée bien en vue), fais-la mériter (la clé demande un détour). Le joueur comprend l'objectif en 5 secondes ET a une raison d'explorer - c'est ta boucle de jeu **racontée par l'espace**.
 
-### Le Particle System en 5 réglages
+Corollaire : **récompense les détours**. Un recoin exploré doit contenir quelque chose (un son, un visuel sympa, un raccourci…). La curiosité punie (cul-de-sac vide) éteint l'envie d'explorer - pour tout le reste du jeu.
 
-**GameObject → Effects → Particle System.** Le module a 30 sections; 5 font 90 % du travail :
+### La forme de ton niveau
 
-| Réglage | Rôle |
-|---|---|
-| **Looping** | En continu (fontaine) ou une rafale (explosion)? Décoche pour une rafale |
-| **Start Lifetime** | Durée de vie de chaque particule (0.5–1 s pour un éclat) |
-| **Start Speed** | Vitesse d'éjection |
-| **Start Color** | LA couleur de ton effet - accorde-la à l'objet |
-| **Emission → Bursts** | « 20 particules d'un coup au temps 0 » : l'éclat type |
+Un niveau a une **topologie** : la façon dont ses espaces se connectent. Trois formes couvrent presque tout ce qui se fait[^ashwell] - et tu es probablement en train d'en construire une sans le savoir.
 
-!!! warning "Le dosage - et l'accessibilité"
-    Le juice **amplifie ce qui compte** : si TOUT tremble et éclate, plus rien n'a d'importance - et tu fatigues le joueur. Garde tes gros effets pour tes grands moments. Attention aussi à l'accessibilité : flashs rapides (photosensibilité) et screen shake intense (nausée) doivent rester modestes. Les studios offrent des options pour les désactiver; toi, reste simplement raisonnable.
+[^ashwell]: Adapté des *Standard Patterns in Choice-Based Games* de Sam Kabo Ashwell (2015), recensés par David E. Millard dans *Strange Patterns* (2022). Ces patrons décrivent à l'origine des structures de **choix narratifs**; on les emprunte ici comme formes d'**espace**.
 
-!!! question "Discussion (3 min)"
-    Pourquoi le *hitstop* (geler le jeu 3 centièmes de seconde à l'impact) donne-t-il une sensation de **poids**? Qu'est-ce que ça dit de la perception du temps par le joueur?
+=== "Le couloir"
 
-### Le post-processing : le filtre Instagram de ton jeu
+    ```mermaid
+    graph LR
+        A(Départ) --> B(Salle) --> C(Salle) --> D(Objectif)
+        B --> B2(Impasse)
+        C --> C2(Impasse)
+    ```
 
-Le **post-processing** applique des effets à l'image entière, après le rendu - c'est ce qui sépare visuellement un prototype d'un jeu « fini ». Dans URP, tout passe par un **Volume** :
+    Un chemin principal, quelques impasses courtes. **C'est ce que 80 % des niveaux deviennent par défaut**, parce que c'est ce qui sort naturellement d'un greybox.
 
-* **Bloom** : les zones lumineuses « débordent » - combiné à un material émissif (cours 11), ton cristal rayonne pour vrai
-* **Vignette** : assombrit les bords - concentre le regard, ambiance instantanée
-* **Color Adjustments** : teinte globale, contraste, saturation - l'humeur de ton moodboard appliquée à l'image
+    Ça marche, mais le joueur ne fait jamais de choix : il avance ou il recule.
 
-Mise en place (une fois) : Hierarchy → **Volume → Global Volume** → bouton **New** (Profile) → **Add Override** → choisis tes effets. Vérifie que ta caméra a **Post Processing** coché. C'est tout - et c'est réversible : le Volume se désactive d'un clic.
+=== "La place centrale ⭐️"
 
-!!! warning "La main légère"
-    Le post-processing est un condiment : un bloom subtil transforme; un bloom à fond aveugle. Règle, recule, compare avec/sans (la case du Volume). Si on « voit l'effet » avant de voir le jeu, c'est trop.
+    ```mermaid
+    graph LR
+        B(Aile ouest) <--> A(Place centrale)
+        C(Aile nord<br>la clé!) <--> A
+        D(Aile est) <--> A
+        A --> E(Objectif)
+    ```
 
-### Les transitions de scène en douceur
+    Une place au milieu, des branches qu'on explore et d'où on **revient**. La porte est visible depuis le centre; la clé est au bout d'une seule branche.
 
-Un changement de scène sec (coupure brute) fait amateur; un **fondu au noir** de une demi-seconde fait produit fini. La recette sans grand code :
+    **Le meilleur choix pour un niveau unique** : le joueur choisit son ordre, ne se perd jamais (il rentre toujours au centre), et l'espace paraît trois fois plus grand qu'un couloir de même superficie.
 
-1. Dans chaque scène : un Canvas `Fondu` avec une **Image noire plein écran** (ancres étirées aux 4 coins) - **Raycast Target décoché** (sinon elle bloque tes boutons!)
-2. Une animation `FonduEntree` (alpha 1 → 0, ~0.5 s) jouée automatiquement à l'arrivée (état par défaut de l'Animator)
-3. Pour la sortie, le duo que tu connais déjà - une animation `FonduSortie` (alpha 0 → 1) + `Invoke` :
+=== "La boucle"
 
-```csharp
-using UnityEngine;
-using UnityEngine.SceneManagement;
+    ```mermaid
+    graph LR
+        A(Départ) --> B(Zone) --> C(Zone) --> D(Zone) --> A
+    ```
 
-public class FonduDeScene : MonoBehaviour
-{
-    public Animator animFondu;      // L'Animator de l'image noire
-    private string sceneCible;
+    Le même parcours, refait plusieurs fois - et chaque passage révèle ou débloque quelque chose de neuf (un raccourci qui s'ouvre, une porte qu'on comprend enfin).
 
-    public void ChangerScene(string nom)   // Remplace tes LoadScene directs
-    {
-        sceneCible = nom;
-        animFondu.Play("FonduSortie");     // L'écran devient noir...
-        Invoke("Charger", 0.5f);           // ...puis on charge (durée = celle du clip)
-    }
+    De la rejouabilité pour zéro mètre carré supplémentaire. C'est la structure d'*Outer Wilds* et de *Hades*. Ambitieux, mais redoutable.
 
-    private void Charger()
-    {
-        SceneManager.LoadScene(sceneCible);
-    }
-}
-```
-
-Tout est déjà connu : Animator (cours 9), Invoke (cours 8), LoadScene (cours 6). Le game feel, c'est souvent juste tes acquis, mieux orchestrés.
+!!! tip "Le passage du couloir à la place centrale"
+    C'est la modification la plus rentable de la séance. Prends ton couloir, choisis la salle du milieu, élargis-la, rends la porte visible depuis là, et rebranche tes impasses dessus comme des branches. Une après-midi de greybox - et ton niveau change de catégorie.
 
 ## Production
 
-Applications express : l'éclat de collecte et le post-processing (bloom, vignette), puis production sur tes issues.
+Application express : diagnostiquer le guidage et la forme de ton niveau, puis production sur tes issues.
 
-[Exercice - Game feel : l'éclat, le bloom et la production :material-arrow-right:](./exercices/cours12-game-feel.md){ .md-button .md-button--primary }
+[Exercice - Diagnostic de level design et production :material-arrow-right:](./exercices/cours12-level-design.md){ .md-button .md-button--primary }
 
 ## Devoir
 
-* Poursuivre ses issues
+* Poursuivre ses issues (Must d'abord, toujours)
 
 ## Ressources
 
-* [Juice it or lose it (la conférence culte)](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
-* [Secrets of Game Feel (GMTK)](https://www.youtube.com/watch?v=216_5nu4aVQ)
-* [Documentation Unity : Particle System](https://docs.unity3d.com/Manual/class-ParticleSystem.html)
+* [Modèles narratifs](./extra/narration.md) - Harmon, Kishōtenketsu, et comment raconter sans texte
+* [The Level Design Book (référence libre, en anglais)](https://book.leveldesignbook.com/)
+* [GMTK - la chaîne de référence sur le design de jeu](https://www.youtube.com/@GMTK)

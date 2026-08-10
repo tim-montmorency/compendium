@@ -1,6 +1,6 @@
 # Exercice - Diagnostic de level design et production
 
-> Exercice du [cours 11](../cours11.md)
+> Exercice du [cours 12](../cours12.md)
 
 ## Application express (15 min)
 
@@ -17,4 +17,4 @@
 - [ ] Les améliorations de level design que tu viens d'identifier → nouvelles issues `[SHOULD]`
 - [ ] Coincé plus de 15 minutes? Lève la main - c'est à ça que sert la production supervisée
 - [ ] Élève rapide, issues Must terminées? Pige dans les [**Recettes avancées**](../extra/recettes-avancees.md) (double saut, dash, projectiles…) - en issues [COULD]
-- [ ] Commit de fin de séance : `Production S11 : ...` → Push
+- [ ] Commit de fin de séance : `Production S12 : ...` → Push

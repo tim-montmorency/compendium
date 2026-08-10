@@ -1,6 +1,6 @@
 # Exercice - Sonoriser TON jeu
 
-> Exercice du [cours 7](../cours07.md)
+> Exercice du [cours 8](../cours08.md)
 
 ### 1. Choisir et importer
 
@@ -56,6 +56,6 @@ private void OnTriggerEnter(Collider other)
 - [ ] Remets le build selon la consigne de remise
 
 !!! success "Jalon 1 - sommatif (15 %)"
-    **Livrable :** build compilé et navigable intégrant images et sons, avec menu (titre → jeu → fin).
-    **Grille :** environnement navigable · images intégrées et classées · musique/ambiance · au moins 2 échantillons déclenchés par événements · flux de scènes fonctionnel · build qui se lance · sources citées au README.
-    C'est l'**activité de rétroaction de l'objectif 1** : *intégrer des médias visuels et sonores dans une expérience ludique*.
+    **Livrable :** build compilé et navigable de TON jeu, intégrant images et sons.
+    **Grille :** environnement navigable construit avec les assets Synty · images intégrées et fichiers classés · musique ou ambiance sonore · au moins 2 échantillons déclenchés par des événements du jeu · build qui se lance · sources citées au README.
+    C'est l'**activité de rétroaction de l'objectif 1** : *intégrer des médias visuels et sonores dans une expérience ludique*. Le menu, le HUD et la caméra ne sont **pas** évalués ici - ils arrivent au cours 9.

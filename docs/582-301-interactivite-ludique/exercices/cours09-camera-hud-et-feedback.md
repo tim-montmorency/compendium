@@ -1,6 +1,8 @@
-# Exercice - Caméra, scènes et menu
+# Exercice - Caméra, HUD et feedback
 
-> Exercice du [cours 6](../cours06.md)
+> Exercice du [cours 9](../cours09.md)
+
+## Partie 1 - La caméra
 
 ### 1. Raffiner la caméra de TON jeu
 
@@ -20,8 +22,11 @@
 **Images 2D : sprites et spritesheets.** Si ton jeu est en vue 2D (ou pour tes images d'interface) :
 
 - [ ] Importe une image dans `_Project/Art` → Inspector → **Texture Type → Sprite (2D and UI)** → Apply. Elle devient utilisable dans le monde 2D et dans les Canvas
-- [ ] Une **spritesheet** (plusieurs images dans un seul fichier - tu connais le principe du web!) : **Sprite Mode → Multiple** → **Open Sprite Editor** → **Slice → Grid by Cell Size** → Apply. Chaque case devient un sprite individuel (et peut nourrir une animation image par image au cours 9)
+- [ ] Une **spritesheet** (plusieurs images dans un seul fichier - tu connais le principe du web!) : **Sprite Mode → Multiple** → **Open Sprite Editor** → **Slice → Grid by Cell Size** → Apply. Chaque case devient un sprite individuel (et peut nourrir une animation image par image au cours 10)
 
+## Partie 2 - Les écrans Titre et Fin
+
+Au cours 3, tu as monté un flux Titre → Jeu → Victoire en vitesse, sur ton jeu express. Aujourd'hui, on le monte **pour vrai** sur ton jeu de session : c'est la première et la dernière impression du joueur.
 
 ### 3. La scène Titre
 
@@ -70,7 +75,7 @@ public class MenuManager : MonoBehaviour
 
 - [ ] GameObject vide `Menu` dans la scène Titre → attache le script
 - [ ] Sélectionne le bouton « Jouer » → Inspector → **On Click ()** → **+** → glisse l'objet `Menu` → menu déroulant → **MenuManager → AllerAuJeu()**
-- [ ] ▶️ Teste (le clic doit lancer une erreur « scène pas dans le build » - normal, on la règle à l'étape 6!)
+- [ ] ▶️ Teste (le clic doit lancer une erreur « scène pas dans le build » - normal, on la règle à l'étape 7!)
 
 !!! warning "Bouton qui ne réagit pas? Diagnostic en 3 points"
     1. La scène contient-elle un **EventSystem**? (il vient avec le Canvas - si tu l'as supprimé, recrée-le : UI → Event System)
@@ -95,6 +100,96 @@ public class MenuManager : MonoBehaviour
 - [ ] ▶️ Depuis `Titre` : Jouer → gagner → Rejouer → gagner → Menu. Le tour complet, deux fois, sans accroc
 - [ ] Bonus : un bouton « Quitter » au titre (il ne fera rien dans l'éditeur - c'est prévu, tu sais pourquoi)
 
-### 8. Le rituel
+## Partie 3 - Le HUD et la rétroaction
 
-- [ ] Commit : `Flux de scenes complet : titre, jeu, fin` → Push
+### 8. Le Canvas HUD
+
+- [ ] Dans ta scène `Jeu` : **UI → Canvas**, nomme-le `HUD`
+- [ ] **Canvas Scaler → Scale With Screen Size → 1920 × 1080** (le réflexe, encore)
+
+### 9. Le compteur
+
+- [ ] **UI → Text - TextMeshPro** dans le HUD, nomme-le `CompteurTexte`
+- [ ] **Ancre en haut à gauche** (Rect Transform → carré d'ancres) + position à ~30 px des bords
+- [ ] Texte de départ : `Cles : 0 / 1` - adapte le mot à ton jeu (gemmes, offrandes, batteries…)
+- [ ] Crée `CompteurHUD.cs` sur un GameObject vide `GestionHUD` :
+
+```csharp
+using UnityEngine;
+using TMPro; // La boîte à outils TextMeshPro : sans elle, pas de TextMeshProUGUI
+
+public class CompteurHUD : MonoBehaviour
+{
+    public TextMeshProUGUI texte;   // Glisser CompteurTexte ici
+    public int objectif = 1;        // Le total à collecter (règle-le dans l'Inspector)
+    private int compte = 0;         // L'état : combien on en a (private : protégé)
+
+    public void Incrementer()       // La porte d'entrée officielle (cours 7, le duo private/public!)
+    {
+        compte++;
+        texte.text = "Cles : " + compte + " / " + objectif;
+    }
+}
+```
+
+**Lecture rapide :** `using TMPro` en haut, sinon le type `TextMeshProUGUI` n'existe pas. La ligne `texte.text = ...` **assemble** du texte avec `+` : nombres et mots se combinent. Et retrouve le patron du cours 7 : état `private`, méthode `public` - c'est partout, c'est voulu.
+
+- [ ] Dans `Cle.cs`, ajoute la référence et l'appel :
+
+```csharp
+public CompteurHUD hud; // Glisser l'objet GestionHUD dans l'Inspector
+// ...dans OnTriggerEnter, après le son :
+hud.Incrementer();
+```
+
+- [ ] **Branche tout dans l'Inspector** (le texte dans GestionHUD, GestionHUD dans la clé) → ▶️ le compteur monte à la collecte
+- [ ] `NullReferenceException`? Tu sais quoi faire depuis le cours 6 : un champ est vide quelque part
+
+- [ ] **Une icône vaut mille mots** : importe une petite image (clé, gemme…) → Inspector → **Texture Type → Sprite (2D and UI)** → puis **UI → Image** dans le HUD, à gauche du compteur, et assigne ton sprite. `🗝 2/3` se lit encore plus vite que `Cles : 2/3`
+
+### 10. Le feedback d'échec
+
+- [ ] **UI → Text - TextMeshPro** dans le HUD : `MessageEchec` (« Il te faut une clé! »), centré, visible… puis **désactive-le** (case en haut de l'Inspector) : il n'apparaîtra que sur un échec
+- [ ] Complète `Porte.cs` :
+
+```csharp
+public GameObject messageEchec; // Glisser MessageEchec ici
+public AudioClip sonEchec;      // Un son sourd, négatif
+
+private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Player"))
+    {
+        if (aCle)
+        {
+            batantDePorte.SetActive(false); // (animé au cours 10!)
+        }
+        else
+        {
+            // L'ÉCHEC A DROIT À SON FEEDBACK, double canal :
+            AudioSource.PlayClipAtPoint(sonEchec, transform.position);
+            messageEchec.SetActive(true);
+            Invoke("CacherMessage", 2f); // Appelle CacherMessage dans 2 secondes
+        }
+    }
+}
+
+private void CacherMessage()
+{
+    messageEchec.SetActive(false);
+}
+```
+
+**La nouveauté : `Invoke("NomDeMethode", delai)`** - « appelle cette méthode dans X secondes ». C'est ta première minuterie! Un message qui reste affiché pour toujours est un bug; deux secondes, c'est lu et disparu.
+
+- [ ] ▶️ Teste **les deux chemins** : sans clé → message + son d'échec (et le message disparaît après 2 s); avec clé → ouverture + son de réussite
+
+### 11. Passe UX
+
+- [ ] Recule ta chaise, plisse les yeux : ton HUD se lit-il en une seconde? Trop petit? Trop d'info?
+- [ ] Redimensionne la fenêtre Game (étire-la, écrase-la) : le HUD reste-t-il aux coins? Sinon → ancres
+- [ ] Le HUD respecte-t-il ton ambiance (couleurs, typo)? Deux minutes d'accord visuel changent tout
+
+### 12. Le rituel
+
+- [ ] Commit : `Camera, flux de scenes, HUD et feedback succes/echec` → Push

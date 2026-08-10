@@ -1,6 +1,6 @@
 # Exercice - Premiers scripts et contrôles
 
-> Exercice du [cours 4](../cours04.md)
+> Exercice du [cours 6](../cours06.md)
 
 ### 1. Ton premier script, sur un objet de test
 
@@ -62,7 +62,7 @@ Les variables `public`, tu sais maintenant ce que c'est - le contrôleur Starter
 |---|---|---|
 | **Move Speed** | vitesse de marche | contemplatif : lent · nerveux : rapide |
 | **Sprint Speed** | vitesse de course | grand niveau : sprint généreux |
-| **Jump Height** | hauteur de saut | ⚠️ recalibre tes métriques du cours 3! |
+| **Jump Height** | hauteur de saut | ⚠️ recalibre tes métriques du cours 5! |
 | **Gravity** | chute | -30 : lourd et sec · -9.8 : flottant |
 
 - [ ] Mets à jour tes **métriques** dans le README si le saut a changé

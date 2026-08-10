@@ -1,166 +1,153 @@
 # Cours 4
 
-## Contrôles et programmation minimum
+## Concevoir : la boucle, le scope, le GDD
 
-Le C# « de survie » : juste assez de programmation pour **comprendre ce que tu copies, modifier ce qu'on te donne, et déboguer sans paniquer**. On ne forme pas des programmeurs en une séance - on forme des intégrateurs qui n'ont pas peur du code.
+Tu viens de fabriquer un jeu sans l'avoir conçu. Aujourd'hui, l'inverse : on conçoit avant de construire. C'est la séance la plus « papier » de la session - et probablement celle qui décidera si ton jeu de session sera **fini** en décembre.
+
+Tu as maintenant l'argument qui manque à la plupart des débutants : **tu sais ce que coûte une porte**. Deux séances dans Unity t'ont donné une intuition de la charge de travail. C'est exactement ce qu'il faut pour concevoir quelque chose de réalisable.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h15 | Retour : état des environnements, questions |
-| 0h15 – 1h30 | Théorie : le code comme description de comportements |
+| 0h00 – 0h20 | Remise et retour de groupe sur les jeux express |
+| 0h20 – 0h50 | Retour sur les analyses de jeux : ce qu'on a appris des autres |
+| 0h50 – 1h30 | Théorie : la boucle, le scope, la victoire programmable |
 | 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Pratique : premier script, expériences de débogage, réglage du feel |
-| 3h20 – 3h35 | Rituel de commit + devoirs | -->
+| 1h45 – 2h15 | Théorie : les 5 pièges classiques du GDD |
+| 2h15 – 3h25 | Atelier : rédaction du GDD de TON jeu, en classe, avec moi dans la salle |
+| 3h25 – 3h35 | Devoirs | -->
+
+!!! important "Remise aujourd'hui"
+    Le [jeu express](./devoirs/jeu-express.md) (**Évaluation 1 - acquis Unity, 10 %**) se remet au **début de la séance** : lien itch.io + build.
+
+
+## Retour : ce que vos analyses de jeux ont montré
+
+Vous avez chacun décortiqué un jeu existant ([devoir formatif](./devoirs/gdd.md)). On met en commun 20 minutes - et vous allez constater trois choses, systématiquement :
+
+1. Les jeux que vous aimez ont des boucles **courtes et répétables**, pas des scénarios
+2. Leur condition de victoire tient en une phrase
+3. Les meilleurs font **peu de choses**, très bien
+
+Ces trois constats sont exactement le programme du reste de la séance.
 
 
 ## Théorie
 
-### Pourquoi programmer, si les prefabs existent?
+### La boucle de jeu : des verbes, pas une ambiance
 
-Au cours 2, un prefab t'a donné un personnage complet sans une ligne de code. Alors pourquoi apprendre C#? Parce que les prefabs donnent des comportements **génériques** - et que ton jeu, lui, est **spécifique**. Personne n'a fait de prefab « la porte s'ouvre quand on dépose l'offrande sur l'autel de MON jeu ». Le code, c'est la colle entre les blocs : tu assembleras toujours plus que tu ne créeras, mais la colle, c'est toi.
+Une **boucle de jeu** (*core loop*) est la séquence d'actions que le joueur répète tout au long de la partie. C'est le cœur battant de ton concept - et c'est ce qui se programme.
 
-Un script ne fait qu'une chose : **décrire un comportement**. « Chaque seconde, tourne de 90 degrés. » « Quand le joueur entre ici, joue ce son. » Si tu peux le dire en français, tu peux presque l'écrire en C#.
+> ❌ *« Le joueur explore une forêt mystérieuse et découvre ses secrets »*
 
-### Anatomie d'un script
+C'est une ambiance, pas une boucle. Où sont les **verbes**?
 
-```csharp
-using UnityEngine;                      // 1. La boîte à outils Unity
+> ✅ *« Le joueur cherche 3 offrandes cachées, les rapporte à l'autel en évitant les zones de brume, et déverrouille le portail »*
 
-public class MonScript : MonoBehaviour  // 2. Le nom DOIT être identique au fichier
-{
-    public float vitesse = 5f;          // 3. Variable : visible dans l'Inspector
+!!! tip "Le test des 30 secondes"
+    Décris ce que le joueur **fait** pendant les 30 premières secondes de jeu. S'il te faut plus d'une phrase de verbes concrets, la boucle n'est pas encore trouvée.
 
-    void Start()                        // 4. S'exécute UNE fois, au démarrage
-    {
-        Debug.Log("Le jeu commence!");
-    }
+### La condition de victoire : littéralement une ligne de code
 
-    void Update()                       // 5. S'exécute À CHAQUE image (~60x/seconde)
-    {
-        // C'est ici que vivent le mouvement, la détection des touches...
-    }
-}
-```
+« On gagne quand on a fini » ne se programme pas. Une bonne condition de victoire se traduit directement :
 
-1. `using UnityEngine;` → « j'emprunte la boîte à outils Unity » : sans elle, pas de `Debug.Log`, pas de `transform`
-2. Le fichier `MonScript.cs` doit contenir `class MonScript` - le moindre écart et Unity refuse de l'attacher (tu vas le vivre tantôt, exprès)
-3. Une variable `public` apparaît dans l'**Inspector** : on peut la régler **sans toucher au code**, y compris pendant que le jeu tourne
-4. et 5. `Start` = une fois; `Update` = en continu. La moitié des bugs de débutant viennent d'une confusion entre les deux
-
-!!! abstract "Un script est un composant"
-    Comme un Collider ou un AudioSource : il ne fait **rien** tant qu'il n'est pas attaché à un GameObject. Un script parfait qui traîne dans un dossier n'exécute jamais rien - 2ᵉ cause de « ça marche pas » chez les débutants.
-
-### Les variables : les boîtes mémoire du jeu
-
-| Type | Contient | Exemples dans un jeu |
-|---|---|---|
-| `int` | Un entier | vies, nombre de clés, score |
-| `float` | Un décimal (suffixe `f`) | vitesse (`4.5f`), volume, gravité |
-| `bool` | vrai / faux | `aCle`, `estAuSol`, `partieTerminee` |
-| `string` | Du texte | le nom du joueur, un message |
-
-Tout l'état de ton jeu - ce que le joueur a accompli, où il en est - vit dans des variables. La progression du devis? Des `bool` et des `int` qui changent de valeur.
-
-**`public` ou `private`?** `public` = visible dans l'Inspector ET accessible par les autres scripts. `private` = interne. Réflexe simple pour l'instant : les valeurs à régler (vitesse, volume) → `public`; l'état interne (aCle) → `private`.
-
-### Le temps : Update et deltaTime
-
-Ton jeu dessine ~60 images par seconde - mais un vieux portable en dessine 30, et une machine de gamer 144. Si tu écris « avance de 0.1 à chaque Update », ton personnage va **2× plus vite** sur la machine 2× plus rapide. Inacceptable.
-
-La solution : `Time.deltaTime` - le temps écoulé depuis l'image précédente. En multipliant par lui, tu parles en **unités par seconde**, identiques partout :
-
-```csharp
-transform.Rotate(0f, 90f * Time.deltaTime, 0f); // 90°/seconde, sur TOUTES les machines
-```
-
-Retiens la règle : **tout mouvement dans Update() se multiplie par Time.deltaTime.**
-
-### Les conditions : le jeu entier repose là-dessus
-
-```csharp
-if (nbCles >= 3)
-{
-    OuvrirPorte();
-}
-else
-{
-    AfficherMessage("Il manque des cles!");
-}
-```
-
-| Opérateur | Signifie | Exemple |
-|---|---|---|
-| `==` | est égal à (⚠️ deux `=`!) | `if (vies == 0)` |
-| `>=` `<=` `>` `<` | comparaisons | `if (score >= 100)` |
-| `&&` | ET (les deux vraies) | `if (aCle && estDevantPorte)` |
-| `\|\|` | OU (au moins une vraie) | `if (vies == 0 \|\| tempsEcoule)` |
-| `!` | NON (inverse) | `if (!partieTerminee)` |
-
-*Si le joueur a la clé ET touche la porte, alors ouvre.* Tu reconnais le cours 5 de la semaine prochaine? Tout le gameplay est fait de ces phrases.
-
-### Les méthodes : nommer un bloc d'actions
-
-```csharp
-void OuvrirPorte()          // Définir : voici ce que "OuvrirPorte" veut dire
-{
-    porte.SetActive(false);
-    JouerSon();
-}
-
-OuvrirPorte();              // Appeler : fais-le maintenant
-```
-
-Pourquoi découper en méthodes? Pour **lire** : un script bien découpé se lit comme une recette (« RamasserCle, MettreAJourHUD, VerifierVictoire »). Unity fournit des méthodes-événements qu'il appelle **pour toi** au bon moment :
-
-| Événement | Unity l'appelle… |
+| Formulation vague | Formulation programmable |
 |---|---|
-| `Start()` | une fois, au démarrage de l'objet |
-| `Update()` | à chaque image |
-| `OnTriggerEnter(Collider other)` | quand un objet entre dans le trigger (cours 2!) |
-| `OnCollisionEnter(Collision c)` | quand un objet solide frappe l'objet |
+| « Explorer le niveau » | « Atteindre la zone de sortie » → `OnTriggerEnter` |
+| « Ramasser des objets » | « Ramasser LES 3 gemmes » → `if (gemmes >= 3)` |
+| « Survivre » | « Survivre 60 secondes » → `if (chrono >= 60)` |
 
-### La Console : ta lampe de poche
+Même exercice pour la **défaite** : sans possibilité d'échec, il n'y a pas de tension - et le devis du cours demande explicitement la mesure de la réussite **et** de l'échec.
 
-**Window → Panels → Console.** Deux usages :
+Si tu ne peux pas remplir la colonne de droite pour ton jeu, on le règle ensemble pendant l'atelier.
 
-**1. Voir ce qui se passe** - `Debug.Log("Cle ramassee!");` affiche ton message à l'exécution. C'est l'outil n° 1 de diagnostic : « est-ce que ce code s'exécute? mets un Log dedans. »
+### Le scope : faisons le calcul ensemble
 
-**2. Lire les erreurs** - une erreur rouge se lit de gauche à droite :
+À partir du cours 5, il te reste **11 séances**, soit environ **22 h en classe + 11 h de devoirs = ~33 heures de production totale**. Pas de quoi faire *Elden Ring*.
 
-```
-Assets/_Project/Scripts/Tourneur.cs(12,9): error CS1002: ; expected
-└──────────── OÙ ─────────────┘└─ ligne 12 ─┘└────── QUOI ──────┘
-```
+Ton avantage sur un studio professionnel : tu peux faire un jeu **petit et fini**. Eux ne peuvent plus.
 
-**Double-clique sur l'erreur** : Unity ouvre le fichier à la bonne ligne. L'erreur reine du débutant :
+<div class="grid grid-1-2" markdown>
+![(the) Gnorp Apologue](./assets/img/games/gnorp.jpg){data-zoom-image}
 
-> `NullReferenceException: Object reference not set to an instance of an object`
+[(the) Gnorp Apologue (2023)](https://store.steampowered.com/app/1473350/the_Gnorp_Apologue/) : un développeur **seul**, un seul écran, une seule idée poussée à fond - un succès critique et commercial. Le scope réduit n'est pas un compromis, c'est une stratégie.
+</div>
 
-Traduction : « tu me demandes d'utiliser quelque chose qui n'est **pas branché** ». Cause n° 1 : un champ vide dans l'Inspector (tu as oublié d'y glisser l'objet). Vérifie tes champs avant de vérifier ton code.
+!!! important "Les contraintes dures du cours"
+    **1 mécanique principale · 1 niveau · assets Synty (POLYGON Sampler Pack) seulement.**
 
-!!! info "Réglage à faire une fois"
-    Nos projets utilisent le nouveau **Input System** (via Starter Assets). Pour que les exemples simples (`Input.GetKey`) fonctionnent aussi :
-    **Edit → Project Settings → Player → Active Input Handling → Both**.
+    Ce ne sont pas des limites arbitraires : ce sont les trois décisions qui font qu'un projet étudiant se termine. Le thème et l'univers, eux, sont **entièrement libres**.
+
+### Les 5 pièges classiques du GDD
+
+Chaque cohorte tombe dans les mêmes pièges. Les voici **avant** que tu écrives, pas après.
+
+#### Piège 1 : le jeu trop grand
+
+« Un monde ouvert avec 3 biomes, un système de craft et des donjons. » Relis le calcul ci-dessus. Un studio met des *années-personnes* sur un monde ouvert.
+
+#### Piège 2 : la boucle vague
+
+Le test des 30 secondes, encore. Si ta boucle contient les mots « ambiance », « atmosphère » ou « découvrir » sans un seul verbe d'action, elle n'existe pas.
+
+#### Piège 3 : la victoire implicite
+
+Voir le tableau plus haut. Si ta condition de victoire ne se transforme pas en `if`, ce n'est pas une condition de victoire.
+
+#### Piège 4 : le jeu-film
+
+Un GDD où tout est cinématique, dialogue et retournement narratif… mais où l'interacteur ne fait que marcher entre les moments scriptés. Rappel du cours 1 : la **narration** est un ingrédient du ludisme - mais le devis exige des **actions à accomplir** avec réussite, échec et progression. L'histoire habille la boucle; elle ne la remplace pas.
+
+#### Piège 5 : l'ambiance sans mécanique (ou l'inverse)
+
+Certains GDD ont un moodboard superbe et aucune mécanique; d'autres, une mécanique béton dans un univers générique « château avec des squelettes ». Les deux moitiés doivent se répondre : ta mécanique de lumière appelle un univers sombre; ton univers de plage appelle des mécaniques de marée. Le mariage des deux, c'est ça, un concept.
+
+!!! tip "Le filtre à cinq minutes"
+    Les cinq pièges se détectent avec [six questions](./extra/heuristiques.md#les-6-questions-du-gdd) tirées de la grille d'heuristiques qu'on utilisera aux jalons. Passe-les sur ton GDD **avant** de le remettre : si tu bloques sur une seule d'entre elles, on en parle en priorité à ta validation du cours 5.
+
+### Le cahier des charges commun
+
+Ton thème est libre, mais ton jeu devra contenir ceci - et ton GDD doit déjà en tenir compte :
+
+* Environnement navigable construit avec les assets Synty
+* Personnage contrôlable
+* Système de progression type **clé/porte**
+* HUD et indications **visuelles et sonores** des réussites et des échecs
+* Échantillons sonores déclenchés par les événements du jeu
+* États du personnage détectés et animés
+* Menu (titre → jeu → fin)
+* Build compilé et **publié en ligne** (itch.io, WebGL) avec README et crédits
+
+Lis cette liste comme un **cadeau**, pas comme une contrainte : c'est la table des matières de ton jeu, déjà écrite.
 
 
-## Pratique
+## Atelier
 
-Écrire, casser et réparer ton premier script, réagir au clavier et régler le « feel » de ton personnage.
+Rédiger le GDD de ton jeu de session, en classe, pendant que je circule. Sortir d'ici avec un concept qui tient debout.
 
-[Exercice - Premiers scripts et contrôles :material-arrow-right:](./exercices/cours04-controles-et-premier-script.md){ .md-button .md-button--primary }
+[Atelier - Le GDD de ton jeu :material-arrow-right:](./exercices/cours04-atelier-gdd.md){ .md-button .md-button--primary }
 
-## Devoir
+## Devoirs
 
-* Peaufine les contrôles de ton jeu jusqu'à ce que « ça se sente bien » (fais-le tester!)
-* Place 3 `Debug.Log` utiles dans ton projet (ex. : un message quand on entre dans une zone) - on s'en sert au cours 5
+<div class="grid grid-1-2" markdown>
+  ![](./assets/img/game-genres.jpg){.aspect-4-3}
+
+  <small>Travail 1 - Conception (10 %)</small><br>
+  **[GDD de ton jeu de session](./devoirs/gdd-jeu.md){.stretched-link .back}**
+</div>
+
+* Termine ton [GDD](./devoirs/gdd-jeu.md) - 11 éléments, dont le croquis, le moodboard et les médias cités - **remise au début du cours 5**
+* Passe-le au [filtre des six questions](./extra/heuristiques.md#les-6-questions-du-gdd) avant de le remettre
+* Repère les prefabs Synty dont tu auras besoin : ouvre le pack et note leurs noms. Si ce que tu imagines n'existe pas dans le pack, mieux vaut le savoir **maintenant**
 
 ## Ressources
 
-* [Documentation Unity : MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
-* [Unity Learn : Beginner Scripting (série officielle, gratuite)](https://learn.unity.com/project/beginner-gameplay-scripting)
+* [Fill Out a Game Design Document (Unity Learn)](https://learn.unity.com/tutorial/fill-out-a-game-design-document)
+* [Writing modern game design documents (Codecks)](https://www.codecks.io/blog/writing-modern-game-design-documents/)
+* [Designing the core gameplay loop : a beginner's guide](https://gamedesignskills.com/game-design/core-loops-in-gameplay/)
+* [Le pitch de *Diablo* (1994), 8 pages](https://www.graybeardgames.com/download/diablo_pitch.pdf) - le document qui a lancé un des plus gros jeux de l'histoire
 
 ## Savoirs essentiels touchés
 
-Environnement de programmation, déplacement dans l'environnement virtuel.
+Notions d'interaction (interacteur, engagement), présentation d'actions à accomplir, mesure de la réussite et de l'échec, progression en fonction de la réussite d'une action - au stade de la conception.

@@ -1,10 +1,10 @@
 # Exercice - Animations et états du personnage
 
-> Exercice du [cours 9](../cours09.md)
+> Exercice du [cours 10](../cours10.md)
 
 ### 1. Animer un collectable (flottement + rotation)
 
-L'affordance du cours 5 en action : **l'œil est attiré par ce qui bouge**. Ta clé doit flotter.
+L'affordance du cours 7 en action : **l'œil est attiré par ce qui bouge**. Ta clé doit flotter.
 
 - [ ] Crée un GameObject vide `ParentCle` à (0,0,0) → glisse ta clé **comme enfant** → replace le parent où était la clé
     > Pourquoi un parent? Pour animer l'enfant **localement** : l'animation reste valide peu importe où tu déplaces le parent dans le niveau

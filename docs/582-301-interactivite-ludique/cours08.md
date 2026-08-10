@@ -1,90 +1,116 @@
 # Cours 8
 
-## HUD et rétroaction au joueur
+## Le son - et Jalon 1
 
-Comment ton jeu **parle** au joueur : afficher l'état du monde (le HUD) et communiquer clairement chaque réussite **et** chaque échec. C'est un pilier du devis - et la différence entre un jeu compréhensible et un jeu frustrant.
+Ferme les yeux devant un bon jeu : tu sais encore tout ce qui se passe. Ouvre les yeux et coupe le son : le jeu semble mort. Aujourd'hui : comprendre ce que le son **fait**, puis sonoriser ton jeu. La séance se termine par le **premier jalon sommatif**.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h15 | Retour sur le Jalon 1 : constats de groupe |
-| 0h15 – 1h30 | Théorie : les interfaces de jeu, les ancres, le feedback |
-| 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Pratique : HUD + feedback de succès et d'échec |
-| 3h20 – 3h35 | Rituel de commit + devoirs | -->
+| 0h00 – 0h10 | Retour express, questions |
+| 0h10 – 1h10 | Théorie : le design sonore, l'audio dans Unity |
+| 1h10 – 1h25 | Pause |
+| 1h25 – 2h30 | Pratique : sonoriser ton jeu |
+| 2h30 – 3h00 | Test croisé par les pairs (grille) |
+| 3h00 – 3h25 | Présentations éclair |
+| 3h25 – 3h35 | Build + remise du Jalon 1 | -->
 
 
 ## Théorie
 
-### Les interfaces de jeu : un petit zoo
+### Les 4 fonctions du son dans un jeu
 
-Toute information transmise au joueur passe par une interface - mais pas toujours celle qu'on croit :
-
-| Type | C'est où? | Exemples |
+| Fonction | Ce que ça fait | Exemple |
 |---|---|---|
-| **HUD** (non-diégétique) | Par-dessus le jeu, hors du monde | Compteur de pièces, minicarte, barre de vie |
-| **Diégétique** | DANS le monde du jeu | La jauge de vie sur le dos de l'armure (*Dead Space*), le compteur au tableau de bord d'un jeu de course |
-| **Spatiale** | Dans l'espace, mais pas « du monde » | Le contour lumineux d'un objet interactif, une flèche au sol |
-
-La tendance moderne : le moins de HUD possible, le plus de diégétique possible - le monde lui-même informe. Ton jeu fera les deux : un HUD minimal + de l'affordance dans le monde (ta clé qui flotte, cours 9).
-
-!!! question "Discussion (3 min)"
-    Pourquoi *Dead Space* a-t-il mis la barre de vie SUR le personnage plutôt qu'au coin de l'écran? Qu'est-ce que ça change pour l'immersion? Pour la lisibilité en plein combat?
-
-### Les 3 règles du HUD
-
-1. **Minimal** : n'affiche que ce dont le joueur a besoin *maintenant*. Chaque élément de plus dilue les autres. L'anti-modèle : l'écran de MMO tapissé de barres, cartes et boutons - illisible pour un nouveau venu
-2. **Lisible en une seconde** : contraste fort, typo suffisante, positions conventionnelles (vie en haut à gauche, score en haut à droite - les conventions existent, profites-en)
-3. **Cohérent** : mêmes couleurs, même typo, même langage que ton ambiance. Un HUD futuriste sur un jeu médiéval, ça grince
-
-**Compteur, jauge ou icônes?** Un nombre précis qui monte → compteur (`Cles : 2/3`). Une ressource continue qui varie → jauge (vie, oxygène). Une petite quantité fixe → icônes (3 cœurs). Choisis selon ta donnée, pas selon l'esthétique.
-
-### Les ancres : pour que ça tienne à tous les écrans
-
-Chaque élément UI a une **ancre** (Anchor) : le point de l'écran auquel il est accroché. Un compteur ancré **en haut à gauche** reste en haut à gauche sur un 16:9, un ultrawide ou un projecteur. Sans ancre correcte, ton HUD centré sur TON écran déborde sur celui du jury.
-
-Mode d'emploi : sélectionne l'élément → **Rect Transform** → clique le carré d'ancres → choisis le coin. Combiné au **Canvas Scaler** (1920 × 1080, cours 6), ton interface devient indestructible.
-
-### Le feedback : la moitié de l'agentivité
-
-Souviens-toi du cours 5 : l'agentivité, c'est sentir que ses actions **comptent**. Le feedback en est le mécanisme concret - et il doit être **immédiat** (sous ~100 ms, sinon le cerveau ne relie plus l'action à la réponse).
-
-La règle d'or du devis : le **double canal**, pour les réussites ET les échecs :
-
-| Événement | Canal visuel | Canal sonore |
-|---|---|---|
-| ✅ Clé ramassée | La clé disparaît + le compteur s'incrémente | Son de collecte clair |
-| ❌ Porte sans clé | Message « Il te faut une clé! » | Son sourd, négatif |
+| **Feedback** | Confirme qu'une action a marché (ou pas) | Le *ding* de la pièce de Mario |
+| **Ambiance** | Installe le lieu et l'émotion | Vent, grillons, drone inquiétant |
+| **Orientation** | Guide sans image | Une cascade qu'on entend avant de la voir |
+| **Information** | Prévient, avertit | Le cœur qui bat quand la vie est basse |
 
 <div class="grid grid-1-2" markdown>
-![Undertale](./assets/img/games/undertale.jpg){data-zoom-image}
+![A Blind Legend](./assets/img/games/a-blind-legend.jpg){data-zoom-image}
 
-[Undertale (2015)](https://store.steampowered.com/app/391540/Undertale/) : interface minimale, mais chaque action reçoit une réponse nette - texte qui tremble, sons distinctifs, cœur qui clignote. Un budget minuscule, un feedback impeccable : c'est une question de design, pas de moyens.
+[A Blind Legend (2016)](https://store.steampowered.com/app/437530/A_Blind_Legend/) pousse la logique au bout : **aucune image**. Le joueur navigue et se bat uniquement à l'oreille. Preuve que le son n'accompagne pas le jeu - il PEUT être le jeu.
 </div>
 
-**L'échec est le canal le plus oublié - et le plus important.** Quand une action ne marche pas, le joueur doit savoir : (1) que ça n'a PAS marché, (2) idéalement pourquoi, (3) implicitement quoi faire. « Il te faut une clé! » fait les trois en quatre mots. Le silence, lui, fait croire à un bug.
+<div class="grid grid-1-2" markdown>
+![Hidden Folks](./assets/img/games/hidden-folks.jpg){data-zoom-image}
+
+[Hidden Folks (2017)](https://store.steampowered.com/app/435400/Hidden_Folks/) : tous les sons sont faits **à la bouche** - et c'est devenu l'identité du jeu. Leçon : la cohérence sonore bat la qualité studio. Tes sons doivent se ressembler entre eux.
+</div>
 
 !!! example "Mini-activité (5 min)"
-    Pense au dernier jeu où tu as été frustré. La frustration venait-elle de la difficulté… ou de ne pas **comprendre** pourquoi ça ne marchait pas? La distinction est exactement notre sujet : un bon jeu peut être dur, il ne doit jamais être muet.
+    J'ouvre un jeu au projecteur, écran caché, haut-parleurs ouverts. À l'oreille seulement : que se passe-t-il? Comment le savez-vous? - Voilà tout ce que ton jeu muet ne communique pas encore.
+
+### Les couches d'une bande sonore de jeu
+
+1. **Musique** : l'émotion de fond - en boucle, discrète
+2. **Ambiance** : le lieu (vent, foule, machines) - souvent oubliée, énorme différence
+3. **SFX** (effets) : les actions - courts, réactifs
+4. **UI** : les clics et confirmations de menus
+
+Un petit jeu n'a pas besoin des quatre. **Minimum vital pour le jalon : une musique/ambiance + des SFX sur les événements importants.** Et n'oublie pas l'outil le plus sous-estimé : le **silence** - un moment sans musique juste avant la victoire la rend deux fois plus forte.
+
+### Formats : lequel pour quoi?
+
+| Format | Compression | Latence | Usage recommandé |
+|---|---|---|---|
+| `.wav` | Aucune (lourd) | Nulle | **SFX** - la réactivité avant tout |
+| `.ogg` | Bonne (léger) | Faible | **Musique et ambiances** |
+| `.mp3` | Bonne | Variable | Acceptable pour la musique |
+
+### L'audio dans Unity : 3 pièces
+
+* **AudioClip** : le fichier son importé (ta matière première)
+* **AudioSource** : le composant qui **joue** un clip - c'est lui qu'on configure
+* **AudioListener** : les « oreilles » - **une seule** par scène, déjà sur ta caméra. Deux Listeners = avertissement et chaos
+
+Les paramètres d'AudioSource qui comptent :
+
+| Paramètre | Effet |
+|---|---|
+| **AudioClip** | Le son à jouer |
+| **Play On Awake** | Joue dès le démarrage (oui pour la musique, non pour les SFX) |
+| **Loop** | En boucle (musique, ambiances) |
+| **Volume** | 0 à 1 - ta musique devrait vivre autour de 0.3 |
+| **Pitch** | Vitesse/hauteur - on s'en servira au cours 13 pour le juice |
+| **Spatial Blend** | 0 = **2D** (partout pareil : musique, UI) · 1 = **3D** (localisé : cascade, radio) |
+
+Trois façons de déclencher un son par code - choisis la bonne :
+
+| Méthode | Comportement | Usage |
+|---|---|---|
+| `source.Play()` | Joue le clip de l'AudioSource | Musique, boucles |
+| `source.PlayOneShot(clip)` | Joue par-dessus, sans couper | SFX répétés (pas, tirs) |
+| `AudioSource.PlayClipAtPoint(clip, position)` | Crée une source temporaire à un endroit | **SFX d'un objet qui disparaît** (notre clé!) |
+
+Pourquoi `PlayClipAtPoint` pour la clé? Parce que `SetActive(false)` coupe tout ce que l'objet jouait - la source temporaire, elle, survit à l'objet. Piège classique évité.
+
+### Où trouver des sons - et l'obligation de citer
+
+* [Freesound](https://freesound.org) - immense, vérifier la licence de chaque son
+* [Kenney](https://kenney.nl/assets?q=audio) - packs entiers en **CC0** (usage libre, même commercial)
+* [Pixabay](https://pixabay.com/sound-effects/) - libre d'utilisation, simple
+
+Deux licences à connaître : **CC0** = fais ce que tu veux · **CC-BY** = libre, mais tu DOIS créditer l'auteur. Chaque son de ton jeu entre dans ton README : *titre - auteur - source (lien) - licence*. C'est exigé au projet final, c'est la loi, et c'est le réflexe professionnel.
 
 
 ## Pratique
 
-Construire le Canvas HUD, le compteur, le feedback d'échec, puis faire une passe UX sur la lisibilité.
+Choisir et importer tes sons, poser l'ambiance et les SFX sur événements, puis tester, présenter et remettre le Jalon 1.
 
-[Exercice - HUD et feedback de réussite/échec :material-arrow-right:](./exercices/cours08-hud-et-feedback.md){ .md-button .md-button--primary }
+[Exercice - Sonoriser TON jeu :material-arrow-right:](./exercices/cours08-sonoriser-ton-jeu.md){ .md-button .md-button--primary }
 
 ## Devoir
 
-* Complète le HUD pour tout ce que ton jeu doit communiquer - et **rien de plus** (règle 1!)
-* Passe chaque interaction de ton jeu au test du double canal : réussite = visuel + son? échec = visuel + son? Complète les trous
+* Applique les correctifs issus des retours de ton pair
 
 ## Ressources
 
-* [Game UI Database](https://www.gameuidatabase.com/) - des milliers de captures d'interfaces de jeux, classées. Mine d'or d'inspiration
-* [Documentation Unity : TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/index.html)
+* [Freesound](https://freesound.org) · [Kenney Audio](https://kenney.nl/assets?q=audio) · [Pixabay SFX](https://pixabay.com/sound-effects/)
+* [Documentation Unity : AudioSource](https://docs.unity3d.com/ScriptReference/AudioSource.html)
 
 ## Savoirs essentiels touchés
 
-Intégration d'une interface graphique HUD, indication visuelle et sonore des réussites et échecs d'interaction, fonctionnement d'une interface virtuelle.
+Intégration de médias sonores dans l'environnement virtuel, déclenchement d'échantillons sonores, compilation de l'application.

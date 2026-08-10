@@ -4,7 +4,7 @@
 
 ## Objectif
 
-Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document sera validé puis **verrouillé** à la séance 3 : réfléchis maintenant, tu construiras ensuite.
+Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document sera validé puis **verrouillé** à la séance 5 : réfléchis maintenant, tu construiras ensuite.
 
 !!! important "Contraintes dures"
     **1 mécanique principale, 1 niveau, assets Synty (POLYGON Sampler Pack) seulement.**
@@ -26,8 +26,8 @@ Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document 
 
 ## Remise
 
-* **Échéance :** début de la séance 3
-* **Format :** document dans ton dépôt GitHub (`devoirs/gdd.md` ou PDF) - le concept et le moodboard iront ensuite dans le README de ton projet
+* **Échéance :** début de la séance 5
+* **Format :** PDF ou lien Figma - le concept et le moodboard iront ensuite dans le README de ton dépôt (créé au cours 5)
 * **Évaluation :** sommative - **10 %** de la note finale
 
 !!! tip "Petit et fini"

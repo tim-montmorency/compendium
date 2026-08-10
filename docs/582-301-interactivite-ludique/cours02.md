@@ -1,132 +1,259 @@
 # Cours 2
 
-## I don't know what I'm doing, but I made a game
+<!-- ![](./assets/img/get-in.jpg){.w-100} -->
 
-Aujourd'hui, tu fais **un jeu complet** : un monde, un personnage, un objectif, une victoire, un vrai build. En une séance. C'est possible parce que le tutoriel Get Started With Unity t'a déjà appris l'éditeur - et parce qu'on n'écrit presque pas de code : le personnage vient d'un prefab officiel, et le seul script de la journée est **fourni et expliqué ligne par ligne**.
+*[URP] : Universal Render Pipeline
 
-Tu ne comprendras pas tout. **C'est prévu.** Chaque notion effleurée aujourd'hui sera reprise en profondeur dans les prochaines semaines (voir la carte des notions en bas de page).
+## Commencer un nouveau jeu
 
-<!-- ## Déroulement de la séance
+![](./assets/img/car-cranking.gif){.w-100}
 
-| Temps | Activité |
-|---|---|
-| 0h00 – 0h15 | Retour sur le tutoriel Get Started With Unity : questions, dépannage |
-| 0h15 – 0h50 | Théorie : colliders et triggers, scènes, compilation, mise en ligne |
-| 0h50 – 2h00 | Pratique guidée 1/2 : le monde et le personnage |
-| 2h00 – 2h15 | Pause |
-| 2h15 – 3h20 | Pratique guidée 2/2 : la victoire, le build, la mise en ligne |
-| 3h20 – 3h35 | Jalon 0 : on essaie les jeux des voisins | -->
+Étape 1 : Déterminer ce qu'on veut faire avec un document de conception (On y reviendra)
 
- 
-## Théorie
+Étape 2 : Créer un projet ***Universal 3D***
 
-### Collisions : détecter que quelque chose se passe
+Étape 3 : Ajuster la structure du dossier « 📁 Assets »
 
-Un objet peut détecter qu'un autre le touche grâce à un **Collider** - une forme invisible (boîte, sphère, capsule) attachée au GameObject.
+### Structure de dossiers
 
-| | Collider « solide » | Collider **Trigger** |
-|---|---|---|
-| Effet physique | Bloque (mur, sol) | Laisse passer (fantôme) |
-| Utilité | Empêcher de traverser | **Détecter un passage** |
-| Événement C# | `OnCollisionEnter` | `OnTriggerEnter` |
-| Exemples | Murs, plancher, caisses | Zone d'arrivée, pièce à ramasser, piège |
+À chaque nouveau projet, il sera important de bien classer ses fichiers. 
 
-!!! tip "L'intuition"
-    Un trigger, c'est un **rayon laser de magasin** : il ne bloque personne, mais il *sait* que tu es passé - et il peut déclencher quelque chose (un son, une porte, une victoire…).
+Voici une structure suggérée.
 
-### Les scènes : les « écrans » du jeu
-
-Une **scène** est un contenant : ton niveau en est une, ton écran de victoire en sera une autre. Le `SceneManager` permet de passer de l'une à l'autre par code. Un jeu complet, c'est presque toujours plusieurs scènes reliées : titre → jeu → fin.
-
-### La structure de fichier
-
-Unity n'impose aucun rangement : c'est à toi de le faire, **dès la création du projet**. Un `Assets/` en vrac devient ingérable en trois semaines.
-
-La convention : tout ce qui vient de l'Asset Store dans `Plugins`, tout ce que tu produis dans `_Project` (le `_` le garde en haut de la liste).
-
-```txt
-Assets/
-  ├── 📁 Plugins (Pour les assets téléchargés sur l'Asset Store)
-  └── 📂 _Project
-        ├── 📁 Animations
-        ├── 📂 Art
-        │    ├── 📁 Materials
-        │    ├── 📁 Models
-        │    └── 📁 Textures
-        ├── 📁 Audio
-        ├── 📁 Fonts
-        ├── 📁 Prefabs
-        ├── 📁 Rendering
-        ├── 📁 Scenes
-        └── 📁 Scripts
+```txt 
+📁 Assets
+ ├── 📁 _MOMO
+ │    ├── 📁 Animations
+ │    ├── 📁 Audio
+ │    ├── 📁 Fonts
+ │    ├── 📁 Materials
+ │    ├── 📁 Prefabs ⭐️ Utile aujourd'hui
+ │    ├── 📁 Scenes 💅 Déplacé ici
+ │    └── 📁 Scripts
+ └── ...
 ```
 
-### La compilation (build)
+<div class="grid align-items-top" markdown>
+<figure markdown>
+  ![](./assets/img/assets-structure-before.png){data-zoom-image}
+  <figcaption markdown>Par défaut</figcaption>
+</figure>
 
-Jusqu'ici, ton jeu n'existe que dans l'éditeur. **Compiler**, c'est produire une application autonome (`.exe` / `.app`) que n'importe qui peut lancer sans Unity. C'est l'étape qui transforme « mon projet » en « mon jeu ».
+<figure markdown>
+  ![](./assets/img/assets-structure-after.png){data-zoom-image}
+  <figcaption markdown>Structure ajustée</figcaption>
+</figure>
+</div>
 
-### La mise en ligne : itch.io
 
-[itch.io](https://itch.io) est LA plateforme des jeux indépendants et des game jams : n'importe qui peut y publier un jeu gratuitement, avec sa page, sa description et ses visuels. C'est là que ton jeu de session sera publié à la fin du cours - alors autant y mettre ton tout premier jeu dès aujourd'hui.
+!!! note "Dossier Scenes à déplacer"
+
+    Dans un nouveau projet, le dossier « 📁 Scenes » existe déjà à la racine du dossier « 📁 Assets ». Vous pouvez simplement le déplacer dans votre structure de dossier.
+
+!!! note "Asset store"
+
+    Tout ce qui sera importé d'ailleur se positionnera normalement à la racine du dossier « 📁 Assets ». Il sera important de les laisser à cet endroit pour éviter des problèmes plus tard.
+
+!!! note "Pourquoi _MOMO ?"
+
+    On vut juste séparer vos documents custom du reste.
+
+    Le «_» dans le nom du dossier sert juste à ce qu'il soit toujours affiché en premier sous « 📁 Assets ».
+
+    Finalement, «MOMO» est juste une suggestion. Le dossier pourrait très bien s'appeler « _Project », « _Perso » ou siplement « _ »
+
+!!! note "Nomenclature"
+
+    Pour les dossiers et fichiers, évitez les espaces dans leur nom.
+
+    Utilisez la convention _Pascal Case_ (ex. : MonBeauDossier) ou _Pascal Snake Case_ (ex. : Mon_Beau_Dossier).
+
+## Demo
+
+![](./assets/img/glasses-anime.gif){.w-100}
+
+### Mise en place
+
+- Modifier la structure de fichiers
+
+- Ajoutez un cube et renommer le « Plancher »
+- Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
+- L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
+
+- Ajouter un autre cube et renommer le « Pente »
+- Changer sa dimension/position/échelle pour créer une pente qui donne vers le plancher <br>![](./assets/img/pente.png){data-zoom-image .w-10} 
+
+!!! info "Gizmo"
+
+    Pour voir la caméra et autres éléments importants, activez les options : ![](./assets/img/view-options-btn.png), puis affichez les _Gizmos_ ![](./assets/img/gizmos-btn.png)
+
+    Notez qu'on voit maintenant la caméra et la lumière directionnelle (soleil)
+
+### Physique
+
+![](./assets/img/physics.webp){.w-50}
+
+- Noter la notion de collider sur le « Plancher »
+- Ajouter une sphère en haut de la pente
+
+!!! info "Petit truc"
+ 
+    ++ctrl+shift++ + `drag` le carré central pour positionner l'élément sur la surface d'un autre gameobject"
+
+!!! info "Donner le shortcut ++f++ pour zoomer sur un objet"
+
+- Play 🤨
+- Stop
+- Ajouter un RigidBody à la sphere via « Add Component »
+
+!!! info "Rigidbody"
+
+    Rigidbody, ça ajoute une masse à un objet et par défaut, ça utilise la gravité. Autrement dit, on active la physique pour cet objet.
+
+- Play 👌<br>![](./assets/img/demo-rigidbody.webp){data-zoom-image .w-10} 
+- Stop
+
+- Désactiver ***Sphere Collider*** de la sphère
+- Ajouter un ***Box Collider*** via « Add Component »
+
+- Play 🤗<br>![](./assets/img/demo-collider.webp){data-zoom-image .w-10} 
+- Stop
+
+- Remet le ***Sphere Collider*** pour la suite
+
+### Action / réaction
+
+![](./assets/img/snap.gif){.w-50}
+
+Le but ici est d'entrer dans une zone et activer/désactiver quelque chose d'autre. Pour nous faciliter la vie, ajoutons [Enhanced Trigger Box](https://assetstore.unity.com/packages/tools/game-toolkits/enhanced-trigger-box-72826) à nos assets.
+
+- `Project` > `Enhanced Trigger Box` > `Prefabs` > `ETB`. Glisse une instance sur la scène.<br>![](./assets/img/demo-etb.png){data-zoom-image .w-10} 
+- Dans `Inspector` > `Enhanced Trigger Box (Script)` > `Modify Gameobject Response`, clic sur ***Select A Response*** puis ***Modify Gameobject Response***.
+- GameObject : Glissez-y le GameObject « Pente »
+- Assigne le tag « Player » à la Sphere.
+- Play<br>![](./assets/img/demo-etb.webp){data-zoom-image .w-10} 
+
+!!! info "Explication"
+
+    Quand le GameObject avec le ***Trigger Tag*** « Player » entre dans la boite rouge, ça déclenche la réponse configurée.
+
+    Pour que ça fonctionne, le GameObject qui a le Tag doit avoir un collider.
+
+- Créer un `Gameobject empty` et renommer le « Spawn »
+
+Retourner sur le ETB :
+
+- Supprimer `Modify Gameobject Response`
+- Positionnez le en haut de la Pente
+- Ajouter `Teleport Response` 
+- Ajouter la Sphere dans `Target Gameobject`
+- Ajouter « Spawn » dans `Destination`
+- Finalement, dans `After Trigger`, choisir `Do Noting`
+- Play<br>![](./assets/img/demo-teleport.webp){data-zoom-image .w-10} 
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/boucle-la/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - Unity</small><br>
+  **[Boucle là !](./exercices/boucle-la/index.md){.stretched-link .back}**<br>
+</div>
+
+## Scene
+
+![type:video](./assets/video/scene-ex.webm){.h-auto}
+
+Les scènes en Unity sont différents lieux ou interfaces qui sont traditionnellement séparés par un écran de chargement.
+
+Pour créer une nouvelle scène, dans le dossier scène, clic-droit > `Create` > `Scene` > `Scene`.
+
+!!! info "Skybox manquant"
+
+    ![](./assets/img/no-sky.png){data-zoom-image .w-33}
+
+    `Window` > `Rendering` > `Lighting` > onglet `Environment` → `Skybox Material` : assigne `Default-Skybox`
+
+<!-- !!! info "Global Volume manquant"
+
+    Pour l'ajouter, dans le panneau _Hierarchy_, clic-droit > `Volume` > `Global Volume`.
+
+    Sélectionne le, puis dans le panneau _Inspector_, trouve le composant _Volume_.
+
+	  À côté du champ _Profile_, clique sur le bouton _New_ pour créer un nouveau profil vierge, ou clique sur le petit point de sélection pour assigner le profil par défaut qui était utilisé dans la SampleScene. -->
+
+### Changer de scène
+
+Pour changer de scène, il faut d'abord configurer les scènes du build.
+
+Il faut mentionner manuellement les scènes qui font officiellement parti de notre jeu.
+
+- `File` > `Build Profiles`
+- Dans la colonne de gauche, clic sur `Scene List`
+- Il faut glisser manuellement les scènes de notre jeu dans cette case !<br>![](./assets/img/scene-list.png){data-zoom-image} 
+
+Un fois les scènes ajoutées dans la liste, on peut utiliser un UTB (_Enhanced Trigger Box_) pour déclencher un changement de scène.
+
+- Dans la liste des réponses, choisir `Load Level Response`
+- Dans `Scene Name`, inscrire le nom de la scène vers où il faut se diriger (⚠️ il faut que ce soit le nom exacte)
+- Play<br>![](./assets/img/poulet.webp){data-zoom-image .w-10}
+
+## Ajouter SyntyStudio à un projet
+
+![](./assets/img/polygon.webp)
+
+L'avantage du _pack_ est qu'il contient des centaines de modèles 3D **cohérents entre eux**. Visuellement, c'est plus sérieux que d'avoir plusieurs assets qui ne partagent pas le même esthétique.
+
+Pour l'ajouter rapidement : 
+
+1. Cliquez sur « _Asset Store_ » puis sur `My Assets`.<br>![](./assets/img/asset-store-my-assets.png){data-zoom-image .w-25}
+1. Ça va ouvrir le `Package Manager`. Cliquez sur `POLYGON - Sampler Pack - Art by Synty` puis sur ***Download***. 
+1. Lorsque c'est fait, cliquez sur ***Import***. Vous devriez voir «SyntyStudios» dans le panneau ***Project*** : <br>![](./assets/img/synthy-in-projects.png){data-zoom-image .w-25}
+
+### Conversion nécessaire
+
+![](./assets/img/wrong-shader.png){data-zoom-image}
+
+Bon, là, si vous ajoutez tout de suite des assets de « SyntyStudio » vous devriez faire face à un problème de _Shaders_ incompatibles. Quand ça arrive, Unity affiche les assets en magenta.
+
+Pas de panique, ça veut juste dire que l'asset utilise un shader qui n'est pas reconnu par la technologie URP (ce sur quoi notre projet est basé). Il faut donc convertir le _pack_ avant de pouvoir l'utiliser :
+
+1. Clic sur `Window` > `Rendering` > `Render Pipeline Converter`.
+1. Dans la fenêtre qui s'ouvre, coche "Material Reference Converter" et "Material Shader Converter".
+1. Clic sur le bouton `Scan`.
+1. Quand c'est terminé, clic sur `Convert Assets`.
+
+Là, ça fonctionne !
+
+![](./assets/img/updated-shader.png){data-zoom-image .w-50}
+
+### Ajouter des assets à la scène
+
+1. Dans le panneau ***Project***, ouvre le dossier `SyntyStudios` > `PolygonAdventure` > `Prefabs` > `Environments`
+1. Glisse `SM_Env_Road_Straight_01` sur le panneau ***Scene***.
+1. Repositionnez le prefab au centre de l'environnement (`x=0`, `y=0` et `z=0`).
+
+!!! info "Pour éviter des problèmes, ne modifiez pas le scale des prefabs"
+
+1. Dans le panneau ***Project***, ouvre le dossier `SyntyStudios` > `PolygonAdventure` > `Prefabs` > `Characters`
+1. Glisse un personnage sur le panneau ***Scene***.
+
+[Exercice - Le monde et le personnage :material-arrow-right:](./exercices/cours02-monde-et-personnage.md){ .md-button .md-button--primary }
 
 
-## Pratique
+* [Starter Assets: Character Controllers | URP](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961)
 
-Un monde, un personnage, un objectif, une victoire, un build et une page itch.io - en une séance.
 
-[Exercice - Un jeu complet en une séance :material-arrow-right:](./exercices/cours02-premier-jeu-complet.md){ .md-button .md-button--primary }
 
-## La carte des notions : « je n'ai pas tout compris »
 
-Parfait - c'est prévu. Tout ce qu'on vient d'effleurer sera repris en profondeur, morceau par morceau, appliqué à **ton** jeu :
 
-| Tu viens d'effleurer… | On le maîtrisera au… |
-|---|---|
-| Le script C# copié-collé | **Cours 4** (programmation) |
-| Les triggers et `CompareTag` | **Cours 5** (interactions) |
-| Le changement de scène, les menus | **Cours 6** (caméra, scènes, menu) |
-| Le build | **Cours 7** (jalon 1), puis **cours 13** (publication web) |
-| La page itch.io | **Cours 13** (publication WebGL, crédits) |
 
-## Et maintenant, TON jeu : le document de conception (GDD)
 
-![](./assets/img/gddbanner.jpg)
-
-Tu viens de fabriquer un jeu sans l'avoir conçu - c'était l'exercice. À partir du prochain cours, c'est l'inverse : une seule cible, **ton** jeu, pendant 12 séances. Et ça commence sur papier.
-
-Le **Game Design Document** (GDD) décrit tous les aspects fondamentaux d'un jeu vidéo. Rédigé durant la phase de conceptualisation, il sert de fondation au développement : c'est lui qui t'évite de partir dans tous les sens (*scope creep*) et qui rend ton jeu **réalisable** en une session.
-
-[Modèle de GDD](https://www.figma.com/fr-fr/communaute/file/1657116644655532636/document-de-conception-gdd){ .md-button .md-button--primary }
-
-!!! question "Est-ce un document définitif ?"
-
-    Non. En cours de route, des idées tombent à l'eau, d'autres s'ajoutent après les phases de test. C'est un document **vivant** - mais il doit garder une base stable, sinon le projet dérive. C'est pourquoi ton GDD sera validé puis **verrouillé** au cours 3.
-
-!!! tip "Six questions à te poser avant de remettre ton GDD"
-
-    Les [heuristiques d'évaluation d'un jeu](./extra/heuristiques.md) sont une grille de diagnostic qu'on utilisera aux jalons, sur des jeux jouables. Mais [six d'entre elles](./extra/heuristiques.md#les-6-questions-du-gdd) se répondent dès maintenant, sur papier - et ce sont exactement celles qui font échouer un GDD.
 
 ## Devoirs
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/img/gddbanner.jpg){.aspect-4-3}
+<!-- * **Termine ton mini-monde** : il doit se parcourir du départ à l'arrivée sans rester coincé -->
+<!-- * Terminer le [tutoriel Get Started With Unity](./devoirs/get-started-with-unity/index.md) si ce n'est pas fait -->
+<!-- * Apporte des idées : au [cours 3](./cours03.md), ton jeu express devient jouable et publiable - et on commence à parler de **ton** jeu de session -->
 
-  <small>Devoir - Conception</small><br>
-  **[Analyse d'un jeu existant](./devoirs/gdd.md){.stretched-link .back}**
-</div>
+<!-- ## Savoirs essentiels touchés
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/img/game-genres.jpg){.aspect-4-3}
-
-  <small>Travail 1 - Conception (10 %)</small><br>
-  **[GDD de ton jeu de session](./devoirs/gdd-jeu.md){.stretched-link .back}**
-</div>
-
-* Fais l'**analyse d'un jeu existant** avant de rédiger ton GDD : c'est l'échauffement, et ça prend 30 minutes
-* Remets ton [GDD](./devoirs/gdd-jeu.md) - 11 éléments, dont le moodboard et les médias cités - **au début du cours 3**
-* Terminer le [tutoriel Get Started With Unity](./devoirs/get-started-with-unity/index.md) si ce n'est pas fait
-* Fais essayer ton build à quelqu'un (ami, parent, coloc) et note ses 3 premières réactions
-
-## Savoirs essentiels touchés
-
-Installation et configuration des ressources, classement des fichiers, création d'un environnement virtuel navigable, intégration d'images, détection de collisions pour le déclenchement d'événements, transitions de scènes, compilation de l'application.
+Logiciels d'intégration d'expériences ludiques, installation et configuration des ressources, classement des fichiers et des médias, création d'un environnement virtuel navigable, intégration d'images dans l'environnement virtuel, déplacement dans l'environnement virtuel. -->

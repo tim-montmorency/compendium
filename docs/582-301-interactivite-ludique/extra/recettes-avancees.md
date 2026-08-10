@@ -3,7 +3,7 @@
 Ces recettes sont **hors cahier des charges** : rien ici n'est requis pour réussir le cours. Elles existent pour les élèves dont les issues [MUST] sont terminées et qui veulent pousser leur jeu plus loin - en issues **[COULD]**. Chaque recette est autoportante et n'utilise que des notions vues en classe (plus une nouveauté : les coroutines, en fin de page).
 
 !!! warning "Rappel du cours 14"
-    Après le gel des fonctionnalités (S14), on n'ajoute plus rien - ces recettes se font aux cours 11 à 13, pas la veille de la remise.
+    Après le gel des fonctionnalités (S14), on n'ajoute plus rien - ces recettes se font aux cours 12 à 13, pas la veille de la remise.
 
 
 ## 1. Le double saut
@@ -27,7 +27,7 @@ if (sautsRestants > 0)
 
 **Dans les Starter Assets :** ouvre `ThirdPersonController.cs` et trouve la méthode `JumpAndGravity()`. Repère la condition qui autorise le saut (elle vérifie `Grounded`) : c'est là que ta logique de compteur s'insère. Travaille sur une **copie commitée** du projet - modifier un script des Starter Assets est une vraie opération de rétro-ingénierie : lis d'abord, comprends, modifie ensuite.
 
-**Le feedback obligatoire :** un double saut sans indication est un bug aux yeux du joueur. Son distinct sur le 2ᵉ saut + particules sous les pieds (cours 12).
+**Le feedback obligatoire :** un double saut sans indication est un bug aux yeux du joueur. Son distinct sur le 2ᵉ saut + particules sous les pieds (cours 13).
 
 
 ## 2. Le dash
@@ -142,7 +142,7 @@ public class PorteADelai : MonoBehaviour
 }
 ```
 
-`yield return new WaitForSeconds(x)` = « mets cette séquence en pause x secondes, le jeu continue de tourner ». C'est l'outil des mises en scène : la porte qui gronde AVANT de s'ouvrir, le compte à rebours, l'apparition progressive. Ton `Invoke` du cours 8 reste parfait pour les cas simples; la coroutine prend le relais dès qu'il y a une **séquence**.
+`yield return new WaitForSeconds(x)` = « mets cette séquence en pause x secondes, le jeu continue de tourner ». C'est l'outil des mises en scène : la porte qui gronde AVANT de s'ouvrir, le compte à rebours, l'apparition progressive. Ton `Invoke` du cours 9 reste parfait pour les cas simples; la coroutine prend le relais dès qu'il y a une **séquence**.
 
 
 ## Par où commencer?
@@ -155,4 +155,4 @@ public class PorteADelai : MonoBehaviour
 | Une porte, un autel, un rituel | Coroutine de mise en scène |
 | Un score et de la compétition | [Leaderboard en ligne (annexe)](./leaderboard-ugs.md) - la plus ambitieuse |
 
-Une seule à la fois, en issue [COULD], commit avant/après. Et le feedback n'est pas optionnel : une capacité sans son ni visuel n'existe pas (cours 8, toujours).
+Une seule à la fois, en issue [COULD], commit avant/après. Et le feedback n'est pas optionnel : une capacité sans son ni visuel n'existe pas (cours 9, toujours).

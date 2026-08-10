@@ -1,111 +1,166 @@
 # Cours 6
 
-## Caméra, scènes et menu
+## Contrôles et programmation minimum
 
-Comment le joueur **voit** ton jeu, et comment il y **entre et en sort**. La caméra n'est pas un détail technique : c'est elle qui décide de ce que le joueur sait, ressent et comprend. Et le menu n'est pas de la décoration : c'est la poignée de main de ton jeu.
+Le C# « de survie » : juste assez de programmation pour **comprendre ce que tu copies, modifier ce qu'on te donne, et déboguer sans paniquer**. On ne forme pas des programmeurs en une séance - on forme des intégrateurs qui n'ont pas peur du code.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h15 | Retour : les deuxièmes interactions, questions |
-| 0h15 – 1h30 | Théorie : la caméra comme choix de design, scènes, interface |
+| 0h00 – 0h15 | Retour : état des environnements, questions |
+| 0h15 – 1h30 | Théorie : le code comme description de comportements |
 | 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Pratique : caméra raffinée + flux titre → jeu → fin |
+| 1h45 – 3h20 | Pratique : premier script, expériences de débogage, réglage du feel |
 | 3h20 – 3h35 | Rituel de commit + devoirs | -->
 
 
 ## Théorie
 
-### La caméra est un choix de design, pas un réglage
+### Pourquoi programmer, si les prefabs existent?
 
-Change la caméra d'un jeu et tu changes le jeu. Le même labyrinthe vu du dessus est un puzzle (je vois le plan), vu à la première personne est un jeu d'horreur (je ne vois rien venir). Chaque genre a son alliance caméra-gameplay :
+Au cours 2, un prefab t'a donné un personnage complet sans une ligne de code. Alors pourquoi apprendre C#? Parce que les prefabs donnent des comportements **génériques** - et que ton jeu, lui, est **spécifique**. Personne n'a fait de prefab « la porte s'ouvre quand on dépose l'offrande sur l'autel de MON jeu ». Le code, c'est la colle entre les blocs : tu assembleras toujours plus que tu ne créeras, mais la colle, c'est toi.
 
-| Point de vue | Ce que le joueur sait | Genres types |
-|---|---|---|
-| **Vue de dessus** (top-down) | Le plan complet : stratégie | Zelda classique, jeux de gestion |
-| **Vue de côté** (side-scroller) | La trajectoire : précision | Plateformers, *Hollow Knight* |
-| **3ᵉ personne** | Son corps dans l'espace | Aventure, action |
-| **1ʳᵉ personne** | Seulement ce qui est devant : immersion, tension | FPS, horreur |
+Un script ne fait qu'une chose : **décrire un comportement**. « Chaque seconde, tourne de 90 degrés. » « Quand le joueur entre ici, joue ce son. » Si tu peux le dire en français, tu peux presque l'écrire en C#.
 
-<div class="grid grid-1-2" markdown>
-![Hollow Knight](./assets/img/games/hollow-knight.jpg){data-zoom-image}
+### Anatomie d'un script
 
-[Hollow Knight (2017)](https://store.steampowered.com/app/367520/Hollow_Knight/) : caméra de côté, orthographique - parce que le jeu EST une affaire de trajectoires et de plateformes. La caméra sert la mécanique.
-</div>
+```csharp
+using UnityEngine;                      // 1. La boîte à outils Unity
 
-<div class="grid grid-1-2" markdown>
-![God of War](./assets/img/games/god-of-war.jpg){data-zoom-image}
+public class MonScript : MonoBehaviour  // 2. Le nom DOIT être identique au fichier
+{
+    public float vitesse = 5f;          // 3. Variable : visible dans l'Inspector
 
-[God of War (2018)](https://store.steampowered.com/app/1593500/God_of_War/) : caméra 3ᵉ personne très rapprochée, à l'épaule - un choix radical pour un jeu d'action, fait pour l'intimité avec les personnages. La caméra sert l'émotion.
-</div>
+    void Start()                        // 4. S'exécute UNE fois, au démarrage
+    {
+        Debug.Log("Le jeu commence!");
+    }
 
-**Et ton jeu?** Ta caméra Starter Assets est en 3ᵉ personne par défaut - mais sa distance et sa hauteur changent tout : proche = tendu et intime, loin = vue d'ensemble et sécurité. C'est le réglage du jour.
-
-### Orthographique vs perspective : les deux projections
-
-| | **Perspective** | **Orthographique** |
-|---|---|---|
-| Profondeur | Loin = petit (comme l'œil) | Tout à la même échelle |
-| Paramètre clé | **Field of View** (angle, en °) | **Size** (demi-hauteur du cadre) |
-| Sensation | Espace, immersion | Lisibilité, précision, style graphique |
-| Usages | La plupart des jeux 3D | 2D, pixel art, top-down, puzzle, stratégie |
-
-Le devis du cours demande la configuration de la **caméra virtuelle 2D** - c'est la caméra orthographique. Dans Unity, c'est le même composant Camera : un menu **Projection** les sépare. Tu configureras les deux aujourd'hui, et tu garderas celle qui sert ton jeu.
-
-!!! question "Discussion (3 min)"
-    *Dixit* du cours 1, *Monument Valley*, *Age of Empires* : pourquoi tant de jeux de réflexion et de stratégie choisissent-ils l'orthographique? *(Indice : que perd-on avec la perspective quand on veut comparer des distances?)*
-
-### Cinemachine : la caméra qui se règle au lieu de se programmer
-
-Une bonne caméra de suivi est étonnamment difficile à programmer (lissage, obstacles, anticipation…). **Cinemachine** est la réponse de Unity : des « caméras virtuelles » qu'on **règle** dans l'Inspector.
-
-Les trois concepts :
-
-* **Virtual Camera (vcam)** : un point de vue configuré - la vraie caméra obéit à la vcam active
-* **Follow / Look At** : la cible à suivre / à regarder (ton personnage)
-* **Damping** : le lissage - 0 = caméra rigide collée au personnage; élevé = caméra « molle » qui traîne derrière. C'est LE paramètre de feel de caméra
-
-### Les scènes et leur flux
-
-Une **scène** est un contenant : ton niveau en est une, ton écran titre en sera une autre. Un jeu complet, c'est un **flux** :
-
-```mermaid
-graph LR
-    A(Titre) -->|Jouer| B(Jeu)
-    B -->|Victoire| C(Fin)
-    C -->|Rejouer| B
-    C -->|Menu| A
+    void Update()                       // 5. S'exécute À CHAQUE image (~60x/seconde)
+    {
+        // C'est ici que vivent le mouvement, la détection des touches...
+    }
+}
 ```
 
-Pourquoi un écran titre, même pour un petit jeu? (1) Le joueur choisit quand commencer - pas de jeu qui démarre pendant qu'on regarde ailleurs; (2) c'est la **première impression** : titre, ambiance, promesse; (3) le devis demande une interface virtuelle (menu) - la voici.
+1. `using UnityEngine;` → « j'emprunte la boîte à outils Unity » : sans elle, pas de `Debug.Log`, pas de `transform`
+2. Le fichier `MonScript.cs` doit contenir `class MonScript` - le moindre écart et Unity refuse de l'attacher (tu vas le vivre tantôt, exprès)
+3. Une variable `public` apparaît dans l'**Inspector** : on peut la régler **sans toucher au code**, y compris pendant que le jeu tourne
+4. et 5. `Start` = une fois; `Update` = en continu. La moitié des bugs de débutant viennent d'une confusion entre les deux
 
-Techniquement : `SceneManager.LoadScene("NomDeLaScene")` - la ligne exacte de ton jeu express. Et la **Build Profiles list** : seules les scènes inscrites peuvent être chargées; la position 0 démarre en premier.
+!!! abstract "Un script est un composant"
+    Comme un Collider ou un AudioSource : il ne fait **rien** tant qu'il n'est pas attaché à un GameObject. Un script parfait qui traîne dans un dossier n'exécute jamais rien - 2ᵉ cause de « ça marche pas » chez les débutants.
 
-### L'interface : Canvas, EventSystem, boutons
+### Les variables : les boîtes mémoire du jeu
 
-* **Canvas** : le panneau invisible où vivent TOUS les éléments d'interface. Réglage à faire systématiquement : **Canvas Scaler → Scale With Screen Size → 1920 × 1080** - sinon ton interface change de taille d'un écran à l'autre
-* **EventSystem** : créé automatiquement avec le Canvas, c'est lui qui détecte les clics. **Ne le supprime jamais** - un menu qui ne répond pas, c'est presque toujours lui qui manque
-* **Button** : un bouton a un événement **On Click ()** dans l'Inspector : on y branche une méthode `public` d'un script. Pas de code de détection de clic à écrire - on **branche**, littéralement
-* **Événements sans code** : On Click () ne branche pas que des scripts! Glisse n'importe quel GameObject et choisis **GameObject → SetActive** : le bouton peut afficher/masquer un panneau **sans une ligne de code**. Beaucoup de comportements simples (panneau de crédits, aide, image qui apparaît) se font entièrement dans l'Inspector
+| Type | Contient | Exemples dans un jeu |
+|---|---|---|
+| `int` | Un entier | vies, nombre de clés, score |
+| `float` | Un décimal (suffixe `f`) | vitesse (`4.5f`), volume, gravité |
+| `bool` | vrai / faux | `aCle`, `estAuSol`, `partieTerminee` |
+| `string` | Du texte | le nom du joueur, un message |
+
+Tout l'état de ton jeu - ce que le joueur a accompli, où il en est - vit dans des variables. La progression du devis? Des `bool` et des `int` qui changent de valeur.
+
+**`public` ou `private`?** `public` = visible dans l'Inspector ET accessible par les autres scripts. `private` = interne. Réflexe simple pour l'instant : les valeurs à régler (vitesse, volume) → `public`; l'état interne (aCle) → `private`.
+
+### Le temps : Update et deltaTime
+
+Ton jeu dessine ~60 images par seconde - mais un vieux portable en dessine 30, et une machine de gamer 144. Si tu écris « avance de 0.1 à chaque Update », ton personnage va **2× plus vite** sur la machine 2× plus rapide. Inacceptable.
+
+La solution : `Time.deltaTime` - le temps écoulé depuis l'image précédente. En multipliant par lui, tu parles en **unités par seconde**, identiques partout :
+
+```csharp
+transform.Rotate(0f, 90f * Time.deltaTime, 0f); // 90°/seconde, sur TOUTES les machines
+```
+
+Retiens la règle : **tout mouvement dans Update() se multiplie par Time.deltaTime.**
+
+### Les conditions : le jeu entier repose là-dessus
+
+```csharp
+if (nbCles >= 3)
+{
+    OuvrirPorte();
+}
+else
+{
+    AfficherMessage("Il manque des cles!");
+}
+```
+
+| Opérateur | Signifie | Exemple |
+|---|---|---|
+| `==` | est égal à (⚠️ deux `=`!) | `if (vies == 0)` |
+| `>=` `<=` `>` `<` | comparaisons | `if (score >= 100)` |
+| `&&` | ET (les deux vraies) | `if (aCle && estDevantPorte)` |
+| `\|\|` | OU (au moins une vraie) | `if (vies == 0 \|\| tempsEcoule)` |
+| `!` | NON (inverse) | `if (!partieTerminee)` |
+
+*Si le joueur a la clé ET touche la porte, alors ouvre.* Tu reconnais le cours 7 de la semaine prochaine? Tout le gameplay est fait de ces phrases.
+
+### Les méthodes : nommer un bloc d'actions
+
+```csharp
+void OuvrirPorte()          // Définir : voici ce que "OuvrirPorte" veut dire
+{
+    porte.SetActive(false);
+    JouerSon();
+}
+
+OuvrirPorte();              // Appeler : fais-le maintenant
+```
+
+Pourquoi découper en méthodes? Pour **lire** : un script bien découpé se lit comme une recette (« RamasserCle, MettreAJourHUD, VerifierVictoire »). Unity fournit des méthodes-événements qu'il appelle **pour toi** au bon moment :
+
+| Événement | Unity l'appelle… |
+|---|---|
+| `Start()` | une fois, au démarrage de l'objet |
+| `Update()` | à chaque image |
+| `OnTriggerEnter(Collider other)` | quand un objet entre dans le trigger (cours 3!) |
+| `OnCollisionEnter(Collision c)` | quand un objet solide frappe l'objet |
+
+### La Console : ta lampe de poche
+
+**Window → Panels → Console.** Deux usages :
+
+**1. Voir ce qui se passe** - `Debug.Log("Cle ramassee!");` affiche ton message à l'exécution. C'est l'outil n° 1 de diagnostic : « est-ce que ce code s'exécute? mets un Log dedans. »
+
+**2. Lire les erreurs** - une erreur rouge se lit de gauche à droite :
+
+```
+Assets/_Project/Scripts/Tourneur.cs(12,9): error CS1002: ; expected
+└──────────── OÙ ─────────────┘└─ ligne 12 ─┘└────── QUOI ──────┘
+```
+
+**Double-clique sur l'erreur** : Unity ouvre le fichier à la bonne ligne. L'erreur reine du débutant :
+
+> `NullReferenceException: Object reference not set to an instance of an object`
+
+Traduction : « tu me demandes d'utiliser quelque chose qui n'est **pas branché** ». Cause n° 1 : un champ vide dans l'Inspector (tu as oublié d'y glisser l'objet). Vérifie tes champs avant de vérifier ton code.
+
+!!! info "Réglage à faire une fois"
+    Nos projets utilisent le nouveau **Input System** (via Starter Assets). Pour que les exemples simples (`Input.GetKey`) fonctionnent aussi :
+    **Edit → Project Settings → Player → Active Input Handling → Both**.
 
 
 ## Pratique
 
-Raffiner la caméra, explorer la 2D orthographique, construire les scènes Titre et Fin et relier le flux complet.
+Écrire, casser et réparer ton premier script, réagir au clavier et régler le « feel » de ton personnage.
 
-[Exercice - Caméra, scènes et menu :material-arrow-right:](./exercices/cours06-camera-scenes-menu.md){ .md-button .md-button--primary }
+[Exercice - Premiers scripts et contrôles :material-arrow-right:](./exercices/cours06-controles-et-premier-script.md){ .md-button .md-button--primary }
 
 ## Devoir
 
-* Habille tes écrans Titre et Fin selon ton moodboard (couleurs, typo, image de fond)
-* **Apporte tes écouteurs au prochain cours : on sonorise!**
+* Peaufine les contrôles de ton jeu jusqu'à ce que « ça se sente bien » (fais-le tester!)
+* Place 3 `Debug.Log` utiles dans ton projet (ex. : un message quand on entre dans une zone) - on s'en sert au cours 7
 
 ## Ressources
 
-* [Documentation Cinemachine](https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html)
-* [Documentation Unity : Canvas Scaler](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/script-CanvasScaler.html)
+* [Documentation Unity : MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
+* [Unity Learn : Beginner Scripting (série officielle, gratuite)](https://learn.unity.com/project/beginner-gameplay-scripting)
 
 ## Savoirs essentiels touchés
 
-Configuration de la caméra virtuelle 2D, fonctionnement d'une interface virtuelle (menu), transitions de scènes.
+Environnement de programmation, déplacement dans l'environnement virtuel.

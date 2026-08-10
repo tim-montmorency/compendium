@@ -2,7 +2,10 @@
 
 ## Approche pédagogique
 
-Deux jeux dans la session : une prise en main au cours 1 (tutoriel Get Started With Unity en classe), un **jeu express** guidé au cours 2 (« I don't know what I'm doing, but I made a game »), puis **LE jeu de session**, démarré dès la séance 3 et construit couche par couche jusqu'à sa publication en ligne. Tous les concepts nécessaires sont vus **avant la séance 10**; ensuite, place à la production, avec des capsules d'enrichissement non bloquantes. L'élève passe environ 12 séances sur son propre jeu.
+Deux jeux dans la session. D'abord une prise en main au cours 1 (tutoriel Get Started With Unity en classe), puis un **jeu express** guidé sur deux séances (« I don't know what I'm doing, but I made a game ») : un jeu complet, publié, qui sert de **première évaluation des acquis Unity**. Ce n'est qu'ensuite - une fois qu'on sait ce que coûte une porte - qu'on conçoit **LE jeu de session**, construit couche par couche de la séance 5 jusqu'à sa publication en ligne. Tous les concepts nécessaires sont vus **avant la séance 11**; ensuite, place à la production, avec des capsules d'enrichissement non bloquantes.
+
+!!! note "Pourquoi concevoir au cours 4 et pas au cours 1?"
+    Un GDD écrit avant d'avoir touché à Unity est une liste de souhaits. Après deux séances passées à fabriquer un jeu, l'élève a une intuition de la charge de travail - et son scope devient réaliste tout seul. C'est le remède au piège numéro un du cours : le jeu trop grand.
 
 ### Cahier des charges commun du jeu de session
 
@@ -17,58 +20,70 @@ Liberté totale sur le thème et l'univers; obligations techniques identiques po
 * Menu (titre → jeu → fin)
 * Build compilé et **publié en ligne (itch.io, WebGL)** avec README et crédits
 
-**Contraintes dures :** 1 mécanique principale, 1 niveau, assets Synty seulement. GDD verrouillé après validation (séance 3).
+**Contraintes dures :** 1 mécanique principale, 1 niveau, assets Synty seulement. GDD verrouillé après validation (séance 5).
 
 ### Rituels
 
-* **GitHub dès le début du jeu de session (séance 3)** : un dépôt par élève, commit de fin de séance, README comme devlog, issues comme liste de tâches (dès la séance 10)
+* **GitHub dès le début du jeu de session (séance 5)** : un dépôt par élève, commit de fin de séance, README comme devlog, issues comme liste de tâches (dès la séance 11)
 * **À chaque jalon** : test croisé par les pairs (grille d'observation) + présentation éclair devant la classe
 
 
 ## Déroulement des 15 séances
 
-### Phase 1 - Prise en main et jeu express (S1–S2)
+### Phase 1 - Prise en main et jeu express (S1–S3)
 
 | # | Séance | Contenu | Jalon |
 |---|--------|---------|-------|
 | 1 | [Moteur de jeu et prise en main](./cours01.md) | Moteurs, ludisme, boucles de jeu; **tutoriel Get Started With Unity en classe** (à finir en devoir) | |
-| 2 | [I made a game](./cours02.md) | **Jeu express complet en une séance** : monde Synty, personnage (prefab), trigger de victoire, build, **mise en ligne itch.io**; document de conception (**GDD**) | **Jalon 0** : un jeu complet, en ligne |
+| 2 | [I made a game (1/2)](./cours02.md) | Projet, classement des fichiers, prefabs; monde Synty navigable et personnage jouable | |
+| 3 | [I made a game (2/2)](./cours03.md) | Colliders et triggers, scènes, menu minimal, build, **mise en ligne itch.io**; introduction au **GDD** | **Jalon 0** : un jeu complet, en ligne |
 
-### Phase 2 - Le jeu de session, couche par couche (S3–S10)
+### Phase 2 - Conception et démarrage (S4–S5)
 
 | # | Séance | Contenu | Jalon |
 |---|--------|---------|-------|
-| 3 | [GDD et démarrage](./cours03.md) | Game loop, scope, validation et verrouillage des GDD, **versionning (Git/GitHub)**, environnement navigable | Remise **GDD (10 %)** |
-| 4 | [Contrôles et programmation minimum](./cours04.md) | C# de survie, Input System, debugging | |
-| 5 | [Interactions et progression](./cours05.md) | Affordance/agentivité, triggers, clé/porte par rétro-ingénierie | |
-| 6 | [Caméra, scènes et menu](./cours06.md) | Caméra 2D/3D, transitions, flux titre → jeu → fin | |
-| 7 | [Le son](./cours07.md) | Intégration et déclenchement d'échantillons | **Jalon 1 (15 %)** + rétroaction objectif 1 |
-| 8 | [HUD et rétroaction au joueur](./cours08.md) | HUD, succès/échec, UX de base | |
-| 9 | [Animation et états](./cours09.md) | Animator, détection et indication d'état | |
-| 10 | [Consolidation : tranche verticale](./cours10.md) | Intégration, rattrapage, plan de production (issues) | **Jalon 2 (25 %)** + rétroaction objectif 2 |
+| 4 | [Concevoir : la boucle, le scope, le GDD](./cours04.md) | Boucle de jeu, victoire programmable, scope, les 5 pièges; **atelier GDD en classe** | Remise **jeu express (10 %)** |
+| 5 | [Validation du GDD et démarrage](./cours05.md) | Validation et verrouillage des GDD, greyboxing et métriques, materials, **versionning (Git/GitHub)** | Remise **GDD (10 %)** |
 
-### Phase 3 - Production (S11–S15)
+### Phase 3 - Le jeu de session, couche par couche (S6–S11)
+
+| # | Séance | Contenu | Jalon |
+|---|--------|---------|-------|
+| 6 | [Contrôles et programmation minimum](./cours06.md) | C# de survie, Input System, debugging | |
+| 7 | [Interactions et progression](./cours07.md) | Affordance/agentivité, triggers, clé/porte par rétro-ingénierie | |
+| 8 | [Le son](./cours08.md) | Intégration et déclenchement d'échantillons | **Jalon 1 (15 %)** + rétroaction objectif 1 |
+| 9 | [Caméra, HUD et rétroaction](./cours09.md) | Caméra 2D/3D, flux titre → jeu → fin soigné, HUD, succès/échec | |
+| 10 | [Animation et états](./cours10.md) | Animator, détection et indication d'état | |
+| 11 | [Consolidation : tranche verticale](./cours11.md) | Intégration, rattrapage, plan de production (issues) | **Jalon 2 (20 %)** + rétroaction objectif 2 |
+
+### Phase 4 - Production (S12–S15)
 
 | # | Séance | Capsule (non bloquante) | Jalon |
 |---|--------|--------------------------|-------|
-| 11 | [Production](./cours11.md) | Level design | |
-| 12 | [Production](./cours12.md) | Game feel et effets | |
-| 13 | [Production](./cours13.md) | Publication en ligne (WebGL, itch.io) | |
+| 12 | [Production](./cours12.md) | Level design | |
+| 13 | [Production](./cours13.md) | Publication en ligne (WebGL, itch.io) et game feel | |
 | 14 | [Production](./cours14.md) | Tests par les pairs, gel des fonctionnalités | Build de validation publié |
-| 15 | [Remise et présentation](./cours15.md) | - | **Projet final (50 %)** |
+| 15 | [Remise et présentation](./cours15.md) | - | **Projet final (45 %)** |
 
 
 ## Évaluations sommatives
 
 | Évaluation | Séance | Pondération |
 |------------|--------|-------------|
-| GDD enrichi (9 éléments + moodboard + médias cités) | S3 | 10 % |
-| Jalon 1 - build navigable avec médias intégrés (objectif 1) | S7 | 15 % |
-| Jalon 2 - tranche verticale, tous les systèmes (objectif 2) | S10 | 25 % |
-| Projet final - jeu complet publié en ligne | S15 | 50 % |
+| Jeu express - acquis Unity (environnement, personnage, trigger, scènes, build, publication) | S4 | 10 % |
+| GDD enrichi (11 éléments + moodboard + médias cités) | S5 | 10 % |
+| Jalon 1 - build navigable avec médias intégrés (objectif 1) | S8 | 15 % |
+| Jalon 2 - tranche verticale, tous les systèmes (objectif 2) | S11 | 20 % |
+| Projet final - jeu complet publié en ligne | S15 | 45 % |
 
-Les jalons évaluent **le même jeu en construction** : personne ne repart de zéro, et personne ne joue sa session sur une seule remise. La grille du projet final inclut la citation des médias externes et la qualité du dépôt (commits réguliers, README, issues).
+Les deux premières évaluations arrivent **tôt** et sont de nature différente : une pratique (le jeu express, qui mesure directement les gestes Unity de l'objectif 1) et une écrite (le GDD). Les jalons, eux, évaluent **le même jeu en construction** : personne ne repart de zéro, et personne ne joue sa session sur une seule remise. La grille du projet final inclut la citation des médias externes et la qualité du dépôt (commits réguliers, README, issues).
 
 ## Couverture des savoirs essentiels
 
-Tous les savoirs essentiels des deux objectifs sont enseignés avant la séance 10 : objectif 1 (logiciels, installation, environnement navigable, caméra 2D, classement des fichiers, images, sons, animation, compilation) en S1–S7 et S9; objectif 2 (notions d'interaction, programmation, menu, déplacement, interactions, collisions, transitions, progression, clé/porte, HUD, succès/échec, échantillons, états du personnage) en S2–S10. La compilation est pratiquée dès S2, puis à chaque jalon et en WebGL à partir de S13. Les deux activités de rétroaction exigées ont lieu aux jalons S7 et S10. Level design, game feel, publication, sauvegardes, performance et versionning sont des enrichissements hors devis, en capsules non bloquantes ou en rituels.
+Tous les savoirs essentiels des deux objectifs sont enseignés avant la séance 11.
+
+**Objectif 1 - intégrer des médias visuels et sonores dans une expérience ludique :** logiciels et installation (S1), classement des fichiers et environnement navigable (S2, S5), intégration d'images (S2, S9), sons (S8), animation (S10), caméra 2D (S9), compilation (S3, puis à chaque jalon, et en WebGL à partir de S13). Le **jeu express (S4)** évalue à lui seul la majorité de ces savoirs, en situation.
+
+**Objectif 2 - programmer des actions ludiques pour la progression :** notions d'interaction (S4 en conception, S7 en profondeur), collisions et déclenchement d'événements (S3, S7), transitions de scènes et interface virtuelle/menu (S3, S9), environnement de programmation et déplacement (S6), interactions virtuelles et système clé/porte (S7), progression selon la réussite (S7, S11), HUD et indication des réussites et échecs (S9), échantillons sonores déclenchés (S8), états du personnage détectés et animés (S10).
+
+Les deux activités de rétroaction exigées ont lieu aux jalons S8 et S11. Level design, game feel, publication web, sauvegardes, performance et versionning sont des enrichissements hors devis, en capsules non bloquantes ou en rituels.

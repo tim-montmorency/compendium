@@ -1,11 +1,11 @@
 # Exercice - Tranche verticale et plan de production
 
-> Exercice du [cours 10](../cours10.md)
+> Exercice du [cours 11](../cours11.md)
 
 ### 1. Intégration et rattrapage
 
 - [ ] Passe la checklist du cahier des charges **honnêtement**, item par item, en jouant à ton jeu
-- [ ] Tout item manquant devient ta priorité **immédiate** - les notes des cours 3 à 9 sont tes références, et je suis là
+- [ ] Tout item manquant devient ta priorité **immédiate** - les notes des cours 5 à 10 sont tes références, et je suis là
 - [ ] Item bloqué depuis plus de 15 minutes? Lève la main **aujourd'hui** : c'est LA séance de déblocage
 
 ### 2. Test croisé : les deux passes
@@ -50,7 +50,7 @@ Ton pair revient à **ton** poste et joue à **ton** jeu. Tu le regardes.
 - [ ] Sur github.com → ton dépôt → onglet **Issues** → **New issue**
 - [ ] Transforme ta liste du devoir + les retours du test en issues : une tâche par issue, préfixe `[MUST]`, `[SHOULD]` ou `[COULD]` dans le titre
 - [ ] Minimum requis : **toutes tes tâches Must sont des issues.** C'est ton contrat avec toi-même - et ta gestion de production fait partie de la grille du projet final
-- [ ] Vérifie l'équation : nombre de Must ≤ ce qui se fait en ~3 séances (souviens-toi : × 2)
+- [ ] Vérifie l'équation : nombre de Must ≤ ce qui se fait en ~2 séances (souviens-toi : × 2)
 
 ### 5. Build et remise
 

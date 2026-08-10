@@ -1,95 +1,106 @@
 # Cours 10
 
-## Consolidation : la tranche verticale - Jalon 2
+## Animation et états du personnage
 
-Dernière séance d'apprentissage obligatoire. Après aujourd'hui, **tout ce qui est nécessaire pour finir ton jeu a été vu** - il reste 5 séances pour le finir bien. La séance sert à intégrer, rattraper, planifier la production… et livrer une **tranche verticale** complète.
+Un monde immobile est un décor; un monde qui bouge est vivant. Aujourd'hui : animer les éléments visuels de ton jeu, comprendre la machine qui décide *quelle* animation joue *quand* (l'Animator), et détecter **l'état** de ton personnage pour le montrer au joueur - par l'image et par le son.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h35 | Théorie : la tranche verticale, planifier une production |
-| 0h35 – 2h15 | Pratique : intégration et rattrapage (pause incluse) |
-| 2h15 – 2h45 | Test croisé par les pairs |
-| 2h45 – 3h10 | Présentations éclair |
-| 3h10 – 3h35 | Création des issues GitHub + build + remise du Jalon 2 | -->
+| 0h00 – 0h15 | Retour : HUD et feedbacks, questions |
+| 0h15 – 1h30 | Théorie : principes d'animation, l'Animator, les machines à états |
+| 1h30 – 1h45 | Pause |
+| 1h45 – 3h20 | Pratique : animer le décor, la porte, sonoriser les états |
+| 3h20 – 3h35 | Rituel de commit + devoirs | -->
 
 
 ## Théorie
 
-### La tranche verticale : le concept industriel du jour
+### Tu sais déjà animer
 
-Imagine ton jeu comme un gâteau étagé : chaque étage est un système (déplacement, interactions, son, HUD, animation…). Deux façons d'en couper une part :
+Tu as fait de l'After Effects : des **keyframes**, de l'**interpolation**, des courbes d'**easing**. Unity anime exactement pareil - tu poses des valeurs à des moments, le moteur remplit les trous :
 
-| | Tranche **horizontale** | Tranche **verticale** |
+```
+frame 0 :  y = 0
+frame 30 : y = 0.5     ← Unity interpole tout ce qui est entre
+frame 60 : y = 0
+```
+
+La différence avec After Effects : ici, l'animation doit **réagir au joueur**. Un film joue toujours pareil; ta porte ne s'ouvre que si l'interacteur a la clé. D'où la deuxième moitié du cours : la machine à états.
+
+### Trois principes d'animation qui changent tout
+
+Des 12 principes classiques de Disney, trois font 90 % du travail dans un jeu :
+
+* **Anticipation** : un petit mouvement inverse avant le mouvement principal (s'accroupir avant de sauter). Sans elle, tout paraît téléporté
+* **Squash & stretch** : les objets s'écrasent et s'étirent à l'impact - c'est ce qui rend une balle « vivante » et un bloc « mort ». On s'en resservira au cours 13
+* **Timing** : lent = lourd, majestueux; rapide = léger, nerveux. Ta porte de château et ta porte de saloon n'ont pas le même timing
+
+<div class="grid grid-1-2" markdown>
+![Blasphemous](./assets/img/games/blasphemous.jpg){data-zoom-image}
+
+[Blasphemous (2019)](https://store.steampowered.com/app/774361/Blasphemous/) : du pixel art, donc peu d'images - mais chaque animation a une anticipation et un timing si soignés que le combat « pèse ». L'animation, c'est du design avant d'être du dessin.
+</div>
+
+### Les 3 pièces de l'animation Unity
+
+| Pièce | Rôle | Analogie |
 |---|---|---|
-| C'est quoi | UN système complet, les autres absents | TOUS les systèmes, chacun minimal |
-| Exemple | « Mon niveau est magnifique mais rien n'est interactif » | « Tout marche, rien n'est poli » |
-| Ce qu'on apprend | Presque rien sur le jeu final | **Si le jeu fonctionne** |
+| **Animation Clip** | UNE séquence de keyframes (position, rotation, couleur, intensité…) | Une chanson |
+| **Animator Controller** | Le graphe qui décide quel clip joue quand | Le DJ |
+| **Animator** (composant) | Exécute le controller sur un GameObject | Le haut-parleur |
 
-L'industrie ne jure que par la verticale : c'est elle qu'on montre aux éditeurs, elle qui révèle les vrais problèmes (les systèmes qui se parlent mal), elle qui rassure. **Ton livrable d'aujourd'hui est une tranche verticale** : tous les systèmes présents, même modestes.
+!!! warning "Deux fenêtres au nom cruel"
+    **Animation** (on crée les clips, les keyframes) et **Animator** (on organise les états et transitions). Les confondre est LE piège de la séance. Mnémo : Anima**tion** = créa**tion**; Anima**tor** = organisa**teur**.
 
-Pourquoi c'est la bonne stratégie pour toi aussi? Parce qu'à partir d'une tranche verticale, **chaque heure de travail améliore un jeu qui marche déjà**. L'inverse - polir un système pendant que d'autres n'existent pas - c'est risquer d'arriver à la semaine 15 avec un niveau splendide… injouable.
+### La machine à états : le cerveau
 
-### La checklist du cahier des charges
+Un **état** = « ce que l'objet fait en ce moment » (fermée / en train de s'ouvrir / ouverte). Une **transition** = le passage autorisé d'un état à l'autre, sous condition. Un **paramètre** = la variable qui déclenche la condition.
 
-| Système | Vu au cours | Présent dans ton jeu? |
-|---|---|---|
-| Environnement navigable (assets Synty) | 3 | ☐ |
-| Personnage contrôlable, feel réglé | 4 | ☐ |
-| Progression type clé/porte | 5 | ☐ |
-| Caméra raffinée + flux titre → jeu → fin | 6 | ☐ |
-| Musique + échantillons sur événements | 7 | ☐ |
-| HUD + feedback succès **et** échec | 8 | ☐ |
-| Animations (collectable + porte) + états sonorisés | 9 | ☐ |
-| Build qui compile | 2, 7 | ☐ |
+```mermaid
+graph LR
+    A(Fermee) -->|"ouvrir = true"| B(Ouverture)
+    B --> C(Ouverte)
+```
 
-### Planifier une production : les issues GitHub
+Tu as déjà rencontré ce concept sans le nom : `aCle` du cours 7 EST un état. La machine à états, c'est la version visuelle et animée de tes `bool`.
 
-Il te reste ~5 séances. La différence entre les élèves qui finissent bien et les autres n'est pas le talent - c'est **la liste**. Une liste dans ta tête ment (elle oublie, elle gonfle, elle stresse); une liste écrite se gère.
+!!! warning "Loop Time : le piège"
+    Un clip destiné à jouer **une fois** (porte qui s'ouvre) : sélectionne le clip → **décoche Loop Time**. Sinon ta porte s'ouvrira… en boucle, pour l'éternité. Symptôme classique : « mon animation clignote ».
 
-L'outil du métier : les **issues** GitHub. Une tâche = une issue, avec un titre d'action :
+### L'état du personnage : détecter, puis montrer
 
-| ❌ Mauvaise issue | ✅ Bonne issue |
-|---|---|
-| « Finir le jeu » | « Ajouter le son d'ouverture de la porte du fond » |
-| « Bugs » | « Corriger : on peut sauter par-dessus le mur nord » |
-| « Améliorer le niveau » | « Éclairer le chemin vers l'autel (guidage) » |
+Le devis demande de **détecter l'état du personnage** (au sol, dans les airs, en collision) et de l'**indiquer** visuellement et par le son. Comment un jeu sait-il qu'un personnage est « au sol »?
 
-Priorise avec **MoSCoW**, la méthode des studios (simplifiée en trois niveaux) :
+* **Le raycast** : un rayon invisible tiré vers le bas - s'il touche le sol à moins de X cm, on est au sol. (Un laser de mesure, littéralement)
+* **Le CharacterController** : expose directement `isGrounded`
 
-* **[MUST]** - sans ça, le jeu n'est pas remettable (un trou dans le cahier des charges, un bug bloquant)
-* **[SHOULD]** - améliore clairement l'expérience (un son manquant, un feedback faible)
-* **[COULD]** - si le temps le permet (le juice, les secrets, le poli)
+Ton contrôleur Starter Assets fait déjà cette détection et pilote un Animator complet avec des paramètres (`Speed`, `Grounded`, `Jump`, `FreeFall`). Aujourd'hui on ne le réécrit pas - on l'**observe** (rétro-ingénierie, comme au cours 7), puis on le **sonorise**.
 
-Deux règles d'or : **les Must d'abord, toujours** - un Could terminé ne compense pas un Must manquant. Et **estime × 2** : tout prend deux fois plus longtemps que prévu; si ta liste de Must dépasse ~3 séances, coupe dans le contenu, pas dans le sommeil.
-
-!!! tip "Le mur des 90 %"
-    Dicton d'industrie : « les premiers 90 % du jeu prennent 90 % du temps; les derniers 10 % prennent l'autre 90 % ». Les finitions (menus, transitions, bugs bizarres) coûtent toujours plus cher qu'on pense. C'est exactement pourquoi les 5 prochaines séances existent - et pourquoi le *feature freeze* arrivera au cours 14.
+```mermaid
+graph LR
+    A(Au sol) -->|saut| B(Dans les airs)
+    B -->|"atterrissage → POUF + son"| A
+```
 
 
 ## Pratique
 
-Intégration et rattrapage, test croisé en deux passes, présentation éclair, création des issues et remise du Jalon 2.
+Animer un collectable et une porte, observer la machine à états du personnage et la sonoriser.
 
-[Exercice - Tranche verticale et plan de production :material-arrow-right:](./exercices/cours10-tranche-verticale.md){ .md-button .md-button--primary }
-
-!!! success "Jalon 2 - sommatif (25 %)"
-    **Livrable :** tranche verticale jouable - tous les systèmes du cahier des charges présents au moins minimalement, build compilé.
-    C'est l'**activité de rétroaction de l'objectif 2** : *programmer des actions ludiques qu'un interacteur doit accomplir pour progresser*.
-
-!!! abstract "À partir d'ici"
-    Plus aucune notion bloquante. Les cours 11 à 14 sont dédiés à la **production**, avec des capsules d'enrichissement (level design, game feel, publication) - utiles, jamais nécessaires pour livrer. Ton pilote : ta liste d'issues.
+[Exercice - Animations et états du personnage :material-arrow-right:](./exercices/cours10-animations-et-etats.md){ .md-button .md-button--primary }
 
 ## Devoir
 
-* Entame tes issues **Must**, dans l'ordre. Ferme chaque issue terminée (le petit bouton « Close » - et la petite satisfaction qui vient avec)
+* Au moins **3 animations** intégrées à ton jeu (collectable, porte, + une au choix)
+* Rédige ta **liste des tâches restantes** (tout ce qui manque à ton jeu, en vrac) : on la transforme en plan de production au prochain cours - c'est le jalon 2!
 
 ## Ressources
 
-* [Guide GitHub : About issues](https://docs.github.com/fr/issues/tracking-your-work-with-issues/about-issues)
-* [Heuristiques d'évaluation d'un jeu](./extra/heuristiques.md) - la grille complète et la fiche d'observation
+* [Les 12 principes d'animation (vidéo, sous-titres FR)](https://www.youtube.com/watch?v=uDqjIdI4bF4)
+* [Documentation Unity : Animator Controller](https://docs.unity3d.com/Manual/class-AnimatorController.html)
 
 ## Savoirs essentiels touchés
 
-Consolidation de l'ensemble : progression en fonction de la réussite d'une action, compilation de l'application, et tous les savoirs des cours 3 à 9 réinvestis.
+Animation d'éléments visuels, détection de l'état du personnage (collision, au sol, dans les airs), indication visuelle et animation de l'état du personnage, déclenchement d'échantillons sonores.

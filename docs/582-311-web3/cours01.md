@@ -1,6 +1,6 @@
 # Cours 1
 
-[STOP]
+
 
 <!-- **Savoirs :** #9 Positionnement selon les maquettes -->
 

@@ -1,6 +1,6 @@
 # Exercice - Démarrer TON jeu
 
-> Exercice du [cours 3](../cours03.md)
+> Exercice du [cours 5](../cours05.md)
 
 !!! info "Pendant les validations"
     Je rencontre chaque élève ~5 minutes pour valider (et verrouiller) son GDD : boucle en verbes, victoire programmable, scope réaliste. Pendant ton attente, avance les étapes ci-dessous - elles sont identiques pour tous, peu importe ton concept.

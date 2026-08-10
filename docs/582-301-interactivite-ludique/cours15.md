@@ -33,9 +33,9 @@ La structure, éprouvée :
     Interdiction formelle de commencer par « c'est pas fini » ou « j'ai pas eu le temps de… ». Personne ne voit les fonctionnalités absentes - tout le monde voit celles qui sont là. Les studios ne présentent jamais ce qui manque; toi non plus. Et si la démo plante en direct : souris, relance, continue. Ça arrive aux plus grands (littéralement, à chaque E3).
 
 !!! example "Le trac, parlons-en"
-    Trois minutes devant la classe, c'est plus stressant qu'un examen - et c'est voulu : présenter son travail EST une compétence du métier, au même titre qu'Unity. Tu l'as pratiquée 30 secondes au cours 7, 45 au cours 10. Aujourd'hui, 3 minutes. La courbe de difficulté, encore elle.
+    Trois minutes devant la classe, c'est plus stressant qu'un examen - et c'est voulu : présenter son travail EST une compétence du métier, au même titre qu'Unity. Tu l'as pratiquée 30 secondes au cours 8, 45 au cours 11. Aujourd'hui, 3 minutes. La courbe de difficulté, encore elle.
 
-!!! success "Évaluation sommative finale (50 %)"
+!!! success "Évaluation sommative finale (45 %)"
     **Livrable :** expérience ludique publiée sur itch.io, intégrant images et échantillons sonores, dans laquelle l'interacteur progresse en accomplissant des actions.
     **Grille :** cahier des charges technique complet (progression, HUD, feedbacks visuels et sonores, sons déclenchés, états animés, menu, build web) · qualité et lisibilité de l'expérience · page itch.io et README · citation des médias · qualité du dépôt (commits réguliers, issues).
 
