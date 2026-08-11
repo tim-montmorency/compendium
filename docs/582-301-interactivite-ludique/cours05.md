@@ -1,109 +1,135 @@
 # Cours 5
 
-## Validation du GDD et démarrage du jeu de session
+## Concevoir, écrire, démarrer
 
-À partir d'aujourd'hui, une seule cible : **ton jeu**, construit couche par couche jusqu'à sa publication à la fin de la session. La séance **verrouille** ton concept, t'apprend à le protéger (versionning) et pose ses fondations (greybox).
+Tu as fait un jeu. Tu sais maintenant ce que coûte une porte. C'est exactement le moment de concevoir le tien — parce qu'un GDD écrit avant d'avoir touché à Unity est une liste de souhaits.
+
+**Remise du GDD (5 %) en fin de séance.**
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h20 | Remise des GDD + constats de groupe |
-| 0h20 – 1h00 | Théorie : greyboxing, métriques, materials |
-| 1h00 – 1h30 | Théorie : versionning (Git/GitHub) |
-| 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Pratique : validations individuelles (5 min chacun) + démarrage du projet |
-| 3h20 – 3h35 | Premier commit + devoirs | -->
+| 0h00 – 0h40 | La boucle de jeu, le scope, les 5 pièges |
+| 0h40 – 1h10 | Techniques narratives |
+| 1h10 – 1h25 | Pause |
+| 1h25 – 2h05 | Atelier GDD + validation |
+| 2h05 – 2h25 | Liste de sprint et colonne Won't |
+| 2h25 – 3h10 | C# de survie |
+| 3h10 – 3h35 | Prefabs custom, kit de scripts, remise | -->
 
-!!! important "Remise aujourd'hui"
-    Le [GDD de ton jeu de session](./devoirs/gdd-jeu.md) (**Travail 1 - conception, 10 %**) se remet au **début de la séance**.
+## Concevoir
 
-## La validation : cinq minutes, et c'est verrouillé
+### La boucle de jeu : des verbes, pas une ambiance
 
-Chacun passe **cinq minutes** avec moi pendant la pratique. On regarde trois choses seulement :
+### Les 4 notions d'interaction
 
-1. Ta **boucle** tient-elle en une phrase de verbes?
-2. Tes conditions de **victoire et d'échec** se traduisent-elles en `if`?
-3. Ton **scope** est-il faisable en 11 séances?
+#### L'interacteur
 
-Si les trois passent, ton GDD est **verrouillé** : c'est la version de référence pour le reste de la session. Si l'un des trois accroche, on le règle sur place - c'est le but du rendez-vous, pas une mauvaise nouvelle.
+#### L'affordance
 
-!!! warning "Verrouillé ne veut pas dire figé"
-    Un GDD reste un document **vivant** : des idées tomberont, d'autres s'ajouteront après les tests. Ce qui est verrouillé, c'est le **noyau** - la mécanique principale, la boucle, la condition de victoire. Changer de noyau à la semaine 10, c'est recommencer sa session.
+#### L'engagement
 
-## Théorie
+#### L'agentivité
 
-### Le greyboxing : valider l'espace avant de le décorer
+### La condition de victoire
 
-En studio, aucun niveau ne commence par les beaux assets. On construit d'abord en **blocs gris** (d'où le nom) : des cubes, des plans, des volumes bruts. Pourquoi?
+### Le scope : faisons le calcul ensemble
 
-* **La vitesse** : ton croquis de GDD devient jouable en 20 minutes
-* **La vérité** : on découvre en marchant que le couloir est trop long, la salle trop vide, le saut impossible - des choses invisibles sur papier
-* **L'économie** : déplacer un cube coûte 2 secondes; redécorer une salle complète coûte une soirée
+### Les 5 pièges classiques du GDD
 
-La règle : **on décore seulement ce qui est validé en gris.** Décorer un niveau mal proportionné, c'est décorer deux fois.
+### Le cahier des charges commun
 
-!!! tip "Les métriques : le secret des pros"
-    Avant de construire, mesure ton personnage : sa hauteur, la hauteur de son saut, sa vitesse. Toutes tes dimensions en découlent - hauteur d'un obstacle sautable, largeur d'un fossé franchissable, distance « longue ». Les studios documentent ces *metrics*; toi, note-les dans ton README.
+## Raconter
 
-### Les materials : la couleur de ton monde
+### Techniques narratives
 
-Tout objet 3D porte un **material** : sa « peinture ». Un material URP définit la **couleur** (Base Map), l'aspect **métallique**, le **lustre** (Smoothness) et même l'**émission** (l'objet devient une source de lumière - on s'en servira au cours 13 avec le bloom).
+#### La narration environnementale
 
-Créer un material prend 20 secondes : **Project → clic droit → Create → Material**, choisis la Base Map, glisse-le sur l'objet. C'est tout.
+#### *Show, don't tell*
 
-Pourquoi en parler aujourd'hui? Parce que ton greybox mérite un **code de couleurs** : sol gris, murs gris foncé, objets interactifs en jaune vif. Avant même le premier asset Synty, ton niveau communique déjà - c'est de l'affordance à coût zéro, et le jury de studio fait exactement ça dans ses prototypes.
+#### Raconter par le level design
 
-### Le versionning : la ceinture de sécurité
+#### La cinématique minimale
 
-Trois histoires vraies, entendues chaque session :
+## Atelier GDD
 
-* « Mon projet ne s'ouvre plus depuis la mise à jour » 💀
-* « J'ai supprimé un dossier pour faire de la place » 💀
-* « Ça marchait hier, j'ai changé plein d'affaires, je ne sais plus quoi » 💀
+### Écrire
 
-**Git** règle les trois : il prend des photos (*commits*) de ton projet à chaque étape. Tu peux regarder l'historique, comparer, **revenir en arrière**. **GitHub** en garde une copie en ligne : ton disque dur peut mourir, pas ton jeu.
+### Valider : cinq minutes, et c'est verrouillé
 
-Trois mots de vocabulaire, c'est tout ce qu'il faut :
+## Planifier (un peu)
 
-| Terme | C'est quoi | Analogie |
-|---|---|---|
-| **Commit** | Une photo de ton projet + un message | Une sauvegarde nommée dans un jeu |
-| **Push** | Envoyer tes commits sur GitHub | Téléverser sa sauvegarde dans le nuage |
-| **.gitignore** | La liste de ce qu'on ne photographie PAS | Unity régénère `Library/` tout seul : inutile de le sauvegarder (et il pèse des Go!) |
+!!! warning "Ce n'est pas encore un backlog"
+    Aujourd'hui : **8 cartes maximum**, un seul objectif — se rendre au prototype jouable du [cours 7](./cours07.md). Le vrai backlog s'écrit là-bas, une fois que le prototype existe et que tu sais ce que coûte une heure de ton propre travail.
 
-!!! important "Le rituel, à chaque fin de séance, jusqu'à la fin de la session"
-    1. **Commit** avec un message clair
-    2. **Push** vers GitHub
-    3. Vérifier sur github.com que c'est bien là
+### La liste de sprint
 
-Un bon message de commit dit **ce qui a changé** :
+### La colonne `Won't` : trois choses que tu ne feras pas
 
-| ❌ Mauvais | ✅ Bon |
-|---|---|
-| `update` | `Ajout du systeme cle/porte` |
-| `aaaaa` | `Correction : la porte restait ouverte au redemarrage` |
-| `cours 8` | `Sonorisation : musique ambiance + son de collecte` |
+### Le devlog : format imposé
 
-Dans 6 semaines, quand tu chercheras « c'était quand, la dernière fois que la porte marchait? », tu remercieras tes messages.
+## C# de survie
 
+### Pourquoi programmer, si le ETB existe?
+
+### Anatomie d'un script
+
+### Les variables : les boîtes mémoire du jeu
+
+### Le temps : `Update` et `deltaTime`
+
+### Les conditions
+
+### Les méthodes : nommer un bloc d'actions
+
+### La Console : ta lampe de poche
+
+### Usage cool : générer des GameObjects
+
+## Les prefabs custom
+
+### Créer, instancier, surcharger
+
+### Les variantes et les prefabs imbriqués
+
+## Le kit de scripts
+
+!!! tip "À conserver précieusement"
+    Compteur, minuterie, santé et dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chacun est commenté, exposé dans l'Inspector, et appelable depuis un ETB. Le kit s'enrichit d'une séance à l'autre.
 
 ## Pratique
 
-Créer le projet, importer les ressources, ouvrir le dépôt GitHub, rédiger le README et bloquer le greybox du niveau.
-
-[Exercice - Démarrer TON jeu :material-arrow-right:](./exercices/cours05-demarrer-ton-jeu.md){ .md-button .md-button--primary }
-
-## Devoir
-
-* Termine le greybox et commence l'habillage Synty des zones validées
-* Commit + push à chaque séance de travail - le rituel s'applique aussi à la maison
+## Devoirs
 
 ## Ressources
 
-* [Guide GitHub Desktop (officiel)](https://docs.github.com/fr/desktop)
-* [Level design : le greyboxing (article, en anglais)](https://book.leveldesignbook.com/process/blockout)
-
 ## Savoirs essentiels touchés
 
-Création d'un environnement virtuel navigable, intégration d'images dans l'environnement virtuel, classement des fichiers et des médias.
+<!--
+================================================================
+NOTES DE RÉDACTION — à supprimer une fois la séance écrite
+================================================================
+À rapatrier depuis .archive/ (voir .archive/MIGRATION.md) :
+  - .archive/cours04.md  § La boucle de jeu : des verbes, pas une ambiance
+                         § La condition de victoire
+                         § Le scope : faisons le calcul ensemble
+                         § Les 5 pièges classiques du GDD
+                         § Le cahier des charges commun
+                         § Atelier
+  - .archive/cours05.md  § La validation : cinq minutes, et c'est verrouillé
+  - .archive/cours06.md  § Anatomie d'un script / Les variables / Le temps
+                         § Les conditions / Les méthodes / La Console
+  - .archive/cours07.md  § Qu'est-ce qu'une interaction?
+                         § Les 4 notions d'interaction
+  - .archive/cours03.md  § Les prefabs
+                         § Et maintenant, TON jeu : le GDD
+  - .archive/exercices/cours04-atelier-gdd.md
+  - .archive/exercices/cours05-demarrer-ton-jeu.md
+  - devoirs/gdd.md et devoirs/gdd-jeu.md (à relire, pondération 5 % maintenant)
+
+À écrire à neuf : techniques narratives, devlog, liste de sprint + Won't,
+Instantiate en boucle, ET SURTOUT le kit de scripts (dépendance de
+toutes les séances suivantes).
+================================================================
+-->

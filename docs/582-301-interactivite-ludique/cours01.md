@@ -498,21 +498,14 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et créer des proj
 5. **Panneau _Inspector_** : Affiche et permet de modifier les propriétés et composants (Components) de l'élément sélectionné (objet ou ressource).
 6. **Panneau _Project_** : L'explorateur de fichiers. Il rassemble toutes vos ressources (Assets), importées (modèles, sons) ou créées dans Unity (scripts, matériaux).
 
-### Assets store
+## Assets
 
-![](./assets/img/asset-store.png){.w-100}
+<div class="grid grid-1-2" markdown>
+  ![](./extra/assets/banner.png)
 
-[Asset Store](https://assetstore.unity.com/) est le magazin de Unity pour ajouter des objets 2D, 3D, des scripts et des matériaux aux projets. Voici comment l'utiliser : 
-
-1. Dans la barre de menu de Unity, cliquez sur `Window` > `Package Management` > `Asset Store`. Une page Web s'ouvrira.
-1. Cliquer sur une des ressources.
-1. Appuyez suz « _Add to my assets_ », acceptez les conditions et revenez dans Unity.
-1. Cliquez sur `Window` > `Package Management` > `Package Manager`. Une petit fenêtre s'ouvrira.
-1. Pour ajouter la ressource du Assets Store à votre projet, cliquez dessus, puis sur « Download »
-1. Une fois téléchargé. Cliquez sur « Import ... to project » (puis sur « Install / Upgrade » si demandé).
-1. Une autre fenêtre s'ouvrira, cliquez sur « Import ».
-
-Avec le compte éducationnel, vous avez accès gratuitement aux assets de « [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048) » d'une valeur de 80 $ USD.
+  <small>Documentation</small><br>
+  **[Assets](./extra/assets/index.md){.stretched-link .back}**<br>
+</div>
 
 ## Devoirs
 

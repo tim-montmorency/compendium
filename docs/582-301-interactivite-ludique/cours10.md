@@ -1,106 +1,87 @@
 # Cours 10
 
-## Animation et états du personnage
+## PNJ et intelligence artificielle
 
-Un monde immobile est un décor; un monde qui bouge est vivant. Aujourd'hui : animer les éléments visuels de ton jeu, comprendre la machine qui décide *quelle* animation joue *quand* (l'Animator), et détecter **l'état** de ton personnage pour le montrer au joueur - par l'image et par le son.
+Un couloir vide est un couloir. Le même couloir avec quelqu'un qui patrouille dedans est une décision. Aujourd'hui : faire bouger quelque chose qui n'est pas le joueur.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h15 | Retour : HUD et feedbacks, questions |
-| 0h15 – 1h30 | Théorie : principes d'animation, l'Animator, les machines à états |
-| 1h30 – 1h45 | Pause |
-| 1h45 – 3h20 | Pratique : animer le décor, la porte, sonoriser les états |
-| 3h20 – 3h35 | Rituel de commit + devoirs | -->
+| 0h00 – 0h50 | NavMesh et NavMeshAgent |
+| 0h50 – 1h20 | Patrouille par waypoints |
+| 1h20 – 1h35 | Pause |
+| 1h35 – 2h20 | Détection : distance, cône de vision, Raycast |
+| 2h20 – 2h50 | La machine à états du PNJ |
+| 2h50 – 3h35 | Atelier | -->
 
+## Le NavMesh
 
-## Théorie
+### Ce que c'est : une carte de ce qui est marchable
 
-### Tu sais déjà animer
+### Le *baking* du NavMesh
 
-Tu as fait de l'After Effects : des **keyframes**, de l'**interpolation**, des courbes d'**easing**. Unity anime exactement pareil - tu poses des valeurs à des moments, le moteur remplit les trous :
+### Le `NavMeshAgent`
 
-```
-frame 0 :  y = 0
-frame 30 : y = 0.5     ← Unity interpole tout ce qui est entre
-frame 60 : y = 0
-```
+### Zones et obstacles
 
-La différence avec After Effects : ici, l'animation doit **réagir au joueur**. Un film joue toujours pareil; ta porte ne s'ouvre que si l'interacteur a la clé. D'où la deuxième moitié du cours : la machine à états.
+## Faire bouger un PNJ
 
-### Trois principes d'animation qui changent tout
+### La patrouille par waypoints
 
-Des 12 principes classiques de Disney, trois font 90 % du travail dans un jeu :
+### La poursuite
 
-* **Anticipation** : un petit mouvement inverse avant le mouvement principal (s'accroupir avant de sauter). Sans elle, tout paraît téléporté
-* **Squash & stretch** : les objets s'écrasent et s'étirent à l'impact - c'est ce qui rend une balle « vivante » et un bloc « mort ». On s'en resservira au cours 13
-* **Timing** : lent = lourd, majestueux; rapide = léger, nerveux. Ta porte de château et ta porte de saloon n'ont pas le même timing
+### Le retour au poste
 
-<div class="grid grid-1-2" markdown>
-![Blasphemous](./assets/img/games/blasphemous.jpg){data-zoom-image}
+## La détection
 
-[Blasphemous (2019)](https://store.steampowered.com/app/774361/Blasphemous/) : du pixel art, donc peu d'images - mais chaque animation a une anticipation et un timing si soignés que le combat « pèse ». L'animation, c'est du design avant d'être du dessin.
-</div>
+### Par distance : simple et souvent suffisant
 
-### Les 3 pièces de l'animation Unity
+### Le cône de vision
 
-| Pièce | Rôle | Analogie |
-|---|---|---|
-| **Animation Clip** | UNE séquence de keyframes (position, rotation, couleur, intensité…) | Une chanson |
-| **Animator Controller** | Le graphe qui décide quel clip joue quand | Le DJ |
-| **Animator** (composant) | Exécute le controller sur un GameObject | Le haut-parleur |
+### Le `Raycast` : la ligne de vue
 
-!!! warning "Deux fenêtres au nom cruel"
-    **Animation** (on crée les clips, les keyframes) et **Animator** (on organise les états et transitions). Les confondre est LE piège de la séance. Mnémo : Anima**tion** = créa**tion**; Anima**tor** = organisa**teur**.
+!!! tip "L'ordre des tests compte"
+    Distance, puis angle, puis ligne de vue. Un `Raycast` coûte plus cher qu'une soustraction — inutile de le lancer si le joueur est à cinquante mètres.
 
-### La machine à états : le cerveau
+## La machine à états du PNJ
 
-Un **état** = « ce que l'objet fait en ce moment » (fermée / en train de s'ouvrir / ouverte). Une **transition** = le passage autorisé d'un état à l'autre, sous condition. Un **paramètre** = la variable qui déclenche la condition.
+### Patrouille → alerte → poursuite → perte de trace
 
-```mermaid
-graph LR
-    A(Fermee) -->|"ouvrir = true"| B(Ouverture)
-    B --> C(Ouverte)
-```
+### Les temporisations : pourquoi un PNJ ne doit pas réagir instantanément
 
-Tu as déjà rencontré ce concept sans le nom : `aCle` du cours 7 EST un état. La machine à états, c'est la version visuelle et animée de tes `bool`.
+## Le PNJ non hostile
 
-!!! warning "Loop Time : le piège"
-    Un clip destiné à jouer **une fois** (porte qui s'ouvre) : sélectionne le clip → **décoche Loop Time**. Sinon ta porte s'ouvrira… en boucle, pour l'éternité. Symptôme classique : « mon animation clignote ».
+### Le marchand, le guide
 
-### L'état du personnage : détecter, puis montrer
+### Le dialogue déclenché par ETB
 
-Le devis demande de **détecter l'état du personnage** (au sol, dans les airs, en collision) et de l'**indiquer** visuellement et par le son. Comment un jeu sait-il qu'un personnage est « au sol »?
+## La rétroaction du PNJ
 
-* **Le raycast** : un rayon invisible tiré vers le bas - s'il touche le sol à moins de X cm, on est au sol. (Un laser de mesure, littéralement)
-* **Le CharacterController** : expose directement `isGrounded`
+### L'animation
 
-Ton contrôleur Starter Assets fait déjà cette détection et pilote un Animator complet avec des paramètres (`Speed`, `Grounded`, `Jump`, `FreeFall`). Aujourd'hui on ne le réécrit pas - on l'**observe** (rétro-ingénierie, comme au cours 7), puis on le **sonorise**.
+### Le son
 
-```mermaid
-graph LR
-    A(Au sol) -->|saut| B(Dans les airs)
-    B -->|"atterrissage → POUF + son"| A
-```
+### L'indicateur visuel
 
+!!! note "Contenir l'ambition"
+    NavMesh, patrouille et détection : **ça suffit**. Pas d'arbre de comportement, pas de *behavior tree* d'asset store, pas de dialogue à embranchements, pas de combat à états multiples. Un PNJ qui patrouille, qui te voit et qui te poursuit produit déjà 90 % de la tension recherchée — et c'est faisable en une séance. Tout ce qui va au-delà mange trois semaines de production et finit rarement dans le build final.
 
 ## Pratique
 
-Animer un collectable et une porte, observer la machine à états du personnage et la sonoriser.
-
-[Exercice - Animations et états du personnage :material-arrow-right:](./exercices/cours10-animations-et-etats.md){ .md-button .md-button--primary }
-
-## Devoir
-
-* Au moins **3 animations** intégrées à ton jeu (collectable, porte, + une au choix)
-* Rédige ta **liste des tâches restantes** (tout ce qui manque à ton jeu, en vrac) : on la transforme en plan de production au prochain cours - c'est le jalon 2!
+## Devoirs
 
 ## Ressources
 
-* [Les 12 principes d'animation (vidéo, sous-titres FR)](https://www.youtube.com/watch?v=uDqjIdI4bF4)
-* [Documentation Unity : Animator Controller](https://docs.unity3d.com/Manual/class-AnimatorController.html)
-
 ## Savoirs essentiels touchés
 
-Animation d'éléments visuels, détection de l'état du personnage (collision, au sol, dans les airs), indication visuelle et animation de l'état du personnage, déclenchement d'échantillons sonores.
+<!--
+================================================================
+NOTES DE RÉDACTION — à supprimer une fois la séance écrite
+================================================================
+SÉANCE ENTIÈREMENT À ÉCRIRE — aucune source dans l'ancien plan.
+
+Prévoir : exercices/cours10-pnj-et-navmesh.md
+Prévoir : un ou deux scripts pour le kit (PatrolAgent, VisionCone).
+================================================================
+-->

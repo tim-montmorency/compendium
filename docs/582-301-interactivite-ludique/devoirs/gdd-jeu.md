@@ -28,7 +28,7 @@ Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document 
 
 * **Échéance :** début de la séance 5
 * **Format :** PDF ou lien Figma - le concept et le moodboard iront ensuite dans le README de ton dépôt (créé au cours 5)
-* **Évaluation :** sommative - **10 %** de la note finale
+* **Évaluation :** sommative - **5 %** de la note finale
 
 !!! tip "Petit et fini"
     Le piège numéro un : viser trop grand. Un petit jeu terminé et poli vaut infiniment mieux qu'un grand jeu abandonné. Si tu hésites entre deux idées, choisis la plus petite.

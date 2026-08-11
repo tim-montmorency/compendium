@@ -166,6 +166,9 @@ nav:
       - Cours 13: 582-301-interactivite-ludique/cours13.md
       - Cours 14: 582-301-interactivite-ludique/cours14.md
       - Cours 15: 582-301-interactivite-ludique/cours15.md
+      - Documentation:
+        - 582-301-interactivite-ludique/index.md
+        - Assets: 582-301-interactivite-ludique/extra/assets/index.md
   - Video 1:
       - 582-212-video1/index.md
       - Références: 582-212-video1/references.md
