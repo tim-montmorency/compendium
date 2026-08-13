@@ -1,9 +1,5 @@
 # Cours 15
 
-## Remise et présentations
-
-Version *gold*. Le jeu est en ligne, la page existe, les crédits sont écrits. Il reste à le montrer.
-
 !!! abstract ":material-check-decagram: Projet final — 80 %"
     Remise en début de séance, puis oraux. La grille détaillée est dans le [plan de cours](./plan-de-cours.md#grille-du-projet-final-80).
 

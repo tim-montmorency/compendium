@@ -5,88 +5,100 @@
 *[FBX]: Filmbox — format d'échange de modèles 3D
 *[GDD]: Game Design Document
 
-## Personnage et progression
-
-![](./assets/img/street-fighter.gif){.w-50}
-
-Ton monde tient debout, mais personne n'y habite. Aujourd'hui : un personnage contrôlable, une caméra qui le suit, et surtout un **système de progression** — de quoi empêcher le joueur d'aller où il veut, quand il veut.
-
-Le tout **sans écrire une ligne de code**. C'est possible parce que le [Enhanced Trigger Box](./cours02.md) sait déjà tout faire : mémoriser une variable, la vérifier ailleurs, ouvrir une porte. On code au [cours 5](./cours05.md) — pas parce que c'est nécessaire, mais parce que c'est utile.
-
 ## Ajouter un personnage jouable
 
-Il y a trois façons de placer une caméra. Soit elle est **fixe**, soit elle suit le personnage (**3e personne**), soit elle est à la place de ses yeux (**1re personne**).
+![](./assets/img/1_S5fdmU3gdwvN0riM3rN5XQ.gif){.w-100}
 
-Unity fournit un package gratuit qui contient les deux contrôleurs, déjà animés et branchés sur le clavier et la souris.
+Dans les jeux en 3D, la gestion de la caméra se divise généralement en trois grandes catégories :
 
-* [Starter Assets: Character Controllers | URP](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961)
+* **Caméra fixe** : le joueur observe le personnage qu'il déplace depuis un point de vue prédéfini<br>![](./assets/img/resident-evil-3-jill.gif){data-zoom-image .w-33}
+* Vue à la **3e personne** : la caméra est placée derrière le personnage et suit l'ensemble de ses mouvements<br>![](./assets/img/silent-hill-2-remake-hotel.gif){data-zoom-image .w-33}
+* Vue à la **1re personne** : la caméra incarne les yeux du personnage, et les mouvements du joueur y sont directement appliqués<br>![](./assets/img/fps-example.gif){data-zoom-image .w-33}
 
-!!! info "À faire une seule fois par projet"
+Pour contrôler un personnage, il faut quand même programmer un peu. 
 
-    Le package doit d'abord être lié à ton compte Unity (`Add to My Assets` sur la page ci-dessus), puis importé via `Window` > `Package Manager` > `My Assets`.
-
-    Il installe aussi ses deux dépendances : ***Input System*** (lire le clavier et la souris) et ***Cinemachine*** (les caméras intelligentes). Unity redémarrera peut-être : c'est normal.
+Pour l'instant, on va essayer de limiter la programmation et utiliser un controlleur de personnage déjà fait : [Starter Assets: Character Controllers | URP](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961).
 
 ### Première personne
 
-- Désactive « Main Camera »
+![](./assets/img/fps-config.png){data-zoom-image}
+
+- Ajoute "Starter Assets: Character Controllers" à ton projet
+- Désactive la « Main Camera » par défaut
 - Dans `Starter Assets` > `Runtime` > `FirstPersonController` > `Prefabs`, glisse ***NestedParent_Unpack*** sur la scène
-- Clic-droit sur l'objet dans la Hierarchy > `Prefab` > `Unpack`, puis sors son contenu du parent
+- Clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`
 - Positionne le joueur **au-dessus** du sol, à ton point de départ
-- Play ▶️ : ++w+a+s+d++ pour bouger, ++space++ pour sauter, la souris pour regarder
-
-!!! warning "Il tombe à l'infini?"
-
-    Le personnage démarre soit **sous** le sol, soit à côté. Remonte-le en `y` et vérifie que ton sol a bien un collider ([cours 2](./cours02.md)).
+- Play<br>(++w+a+s+d++ pour bouger, ++space++ pour sauter, la souris pour regarder)
 
 ### Troisième personne
 
-La 3e personne, c'est le même personnage **plus une caméra qui le suit**. C'est cette caméra qui demande une étape de plus.
+![](./assets/img/tps-capsule-config.png){data-zoom-image}
 
-- Dans `Starter Assets` > `Runtime` > `ThirdPersonController` > `Prefabs`, glisse ***NestedParent_Unpack*** sur la scène, puis `Unpack`
-- Tu obtiens deux objets : ***PlayerArmature*** (le personnage) et ***PlayerFollowCamera*** (la caméra Cinemachine)
-- Sélectionne ***PlayerFollowCamera*** > dans l'Inspector, champ `Follow` : glisse-y ***PlayerCameraRoot*** (il est **à l'intérieur** de PlayerArmature)
-- Play ▶️
+- Ajoute "Starter Assets: Character Controllers" à ton projet
+- Désactive la « Main Camera » par défaut
+- Dans `Starter Assets` > `Runtime` > `ThirdPersonController` > `Prefabs`, glisse ***NestedParentCapsule_Unpack*** sur la scène
+- Clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`
+<!-- - Sélectionne ***PlayerFollowCamera*** > dans l'Inspector, champ `Follow` : glisse-y ***PlayerCameraRoot*** (il est **à l'intérieur** de PlayerArmature) -->
+- Play<br>(++w+a+s+d++ pour bouger, ++space++ pour sauter, la souris pour regarder)
 
-!!! tip "Raccourci officiel"
+### ETB
 
-    Si le montage se défait : `Tools` > `Starter Assets` > `Reset Third Person Controller Armature`. Unity rebranche tout.
+Maintenant, on veut que notre personnage interagisse avec Enhanced Trigger Box. Souvenez-vous pour ce faire, il faut 2 choses  :
 
-!!! danger "Une seule caméra, un seul AudioListener"
+* l'élément qui interagisse avec le ETB ait le `Tag` **Player**
+* ce même élément doit posseder un ***Collider***
 
-    Deux caméras actives = image imprévisible. Deux ***AudioListener*** = avertissement dans la console et son qui déraille. Si Unity chiale, cherche la caméra en trop.
+Sélectionne ton personnage, trouver la capsule (qui a un _Capsule Collider_) et dans le panneau _Inspector_, assigne le `Tag` **Player**.
 
-!!! note "Cette caméra, on l'explique plus tard"
+<div class="grid cards" markdown>
+<figure markdown>
+![](./assets/img/fps-etb.webp)
+<figcaption>1ère personne</figcaption>
+</figure>
 
-    Le contrôleur 3e personne embarque une caméra ***Cinemachine*** déjà réglée. Aujourd'hui on l'utilise sans comprendre; on la démonte au complet au [cours 6](./cours06.md) — *damping*, *dead zone*, changement de caméra, cinématiques.
+<figure markdown>
+![](./assets/img/tps-etb.webp)
+<figcaption>3e personne</figcaption>
+</figure>
+</div>
 
-### Le tag `Player`
+<!-- On peut afficher le ETB visuellement en lui ajoutant un Mesh Filter (Cube) et un Mesh Renderer (avec un Material). -->
 
-Sélectionne ton personnage > en haut de l'Inspector, `Tag` : **Player**.
+## Prefab
 
-Sans ce tag, **aucun ETB ne le verra passer**. C'est le piège numéro un de la séance, et il coûte des points dans la grille du jeu express.
+![](./assets/img/prefabs-banner.png){.w-100}
 
-!!! question "Sur quel objet, exactement?"
+Un prefab c'est un objet ou un groupe d'objets qu'on enregistre pour le réutiliser. C'est un modèle sur lequel toutes les copies vont garder une référence.
 
-    Sur le **parent** — celui qui porte le `CharacterController`. En 3e personne, c'est ***PlayerArmature***, pas le mesh à l'intérieur.
+### Le bonhomme de neige
 
-### Un mot sur l'Input System
+1 bonhomme de neige c'est facile à faire. 3 sphères et hop, c'est fait.
 
-Tu n'as rien branché et pourtant ++w+a+s+d++ fonctionne. Le package a installé un ***Input Actions*** (`StarterAssets.inputactions`) : une table qui associe des **actions** nommées (Move, Look, Jump, Sprint) à des **touches**.
+Admettons que je veuille ajouter 10 bonhommes de neige dans mon jeu. Je pourrais le dupliquer 10 fois, mais pas l'idéal. Si ensuite je veux ajouter une carotte pour le nez, je dois le faire pour les 10 ! Il faudrait avoir à le faire une seule fois pour tous les bonhommes. Ça, ça s'appelle faire un prefab.
 
-Double-clique le fichier pour l'ouvrir. Tu peux y ajouter une touche sans code — on s'en servira au [cours 5](./cours05.md). Pour aujourd'hui, sache seulement que ça existe et où ça vit.
+- Crééer un gameobject vide, nomme le « bonhomme de neige » et y mettre les 3 sphères.<br>![](./assets/img/mrplow1.png){data-zoom-image .w-10}
+- Glisser « bonhomme de neige » dans le panneau _Project_ dans le dossier prefab que vous devirez déjà avoir si vous avez bien fait votre structure de dossiers ;)
+- Supprimer « bonhomme de neige » du panneau _Hierarchy_
+- Glisser le prefab « bonhomme de neige » sur la scène (on reconnait le prefab par un cube turquoise)<br>![](./assets/img/mrplow2.png){data-zoom-image .w-10}
+- Dubliquer le prefab et repositionnez le, 10 fois<br>![](./assets/img/mrplow3.png){data-zoom-image .w-10}
 
----
+Testons l'avantage d'utiliser des prefabs. Ajoutons une carotte pour le nez.
 
-## La progression : le *gating*
+- Dans le panneau _Project_, double-clic sur le prefab « bonhomme de neige »<br>![](./assets/img/mrplow4.png){data-zoom-image .w-10}
+- Ajouter une carotte pour le nez<br>![](./assets/img/mrplow5.png){data-zoom-image .w-10}
+- Sauvegarder et revenir de l'édition en cliquant sur la petite flèche dans le panneau hierarchy<br>![](./assets/img/prefab-backbtn.png){data-zoom-image .w-10}
 
-![](./assets/img/gating-banner.webp){.w-100}
+### Détacher un prefab
 
-### Rappel du cours 1
+Pour détacher un prefab, clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`.
 
-Au [cours 1](./cours01.md), on a vu le ***gating*** : les prérequis qu'un joueur doit satisfaire pour avancer. Ça sert à contrôler le **rythme**, à **enseigner** les mécaniques, à maintenir le **défi** et à alimenter la **récompense**.
+Il n'y aura plus de référence au prefab, donc si on change le prefab, ca ne changera plus cet élément.
 
-C'était de la théorie. Aujourd'hui, chaque type de *gate* devient un montage concret dans l'ETB.
+## La progression
+
+![](./assets/img/matthew-mc-conaughey-all-right.gif){.w-100}
+
+Les prérequis (_gates_) qu'un joueur doit satisfaire pour avancer sert à contrôler le **rythme** du jeu, à **enseigner** les mécaniques, à maintenir le **défi** et à alimenter la **récompense**.
 
 | Type de *gate* | Exemple | Montage ETB |
 |---|---|---|
@@ -99,13 +111,7 @@ C'était de la théorie. Aujourd'hui, chaque type de *gate* devient un montage c
 | **Habileté du joueur** | Rester dans la zone 5 secondes | `Condition Time` dans les options de base |
 | **Compétence** | Le double saut débloqué | `Modify GameObject` > *Enable Component* sur le script de saut |
 
-!!! success "Le point important de la séance"
-
-    Huit types de *gating* — **huit** — sont réalisables aujourd'hui, à la souris, dans l'Inspector. Le code ne vient pas déverrouiller de nouvelles possibilités : il viendra rendre plus **propre** et plus **réutilisable** ce que tu sais déjà faire.
-
 ### Les trois événements d'un trigger
-
-Unity offre trois moments de détection. L'ETB les gère pour toi, mais il faut savoir qu'ils existent :
 
 | Événement | Se déclenche… | Analogie |
 |---|---|---|
@@ -216,7 +222,7 @@ Deux ETB et une variable. C'est tout.
     Un *player pref* est écrit sur le disque de la machine. Relance ton jeu demain : `aCle` vaut encore `1` et ta porte est déjà ouverte. Trois solutions :
 
     1. **Un ETB de remise à zéro** au démarrage : un ETB avec ***Disable Entry Check*** coché (il se déclenche immédiatement, sans attendre personne) et une `Player Pref Response` qui remet `aCle` à `0`
-    2. Le faire depuis la scène de menu, au [cours 4](./cours04.md)
+    2. Le faire depuis la scène de menu, au [cours 5](./cours05.md)
     3. `Edit` > `Clear All PlayerPrefs` pendant tes tests
 
     C'est aussi ta première rencontre avec la **sauvegarde** — on y revient au [cours 11](./cours11.md).
@@ -290,6 +296,8 @@ graph LR
 
     Le type ***Humanoid*** dit à Unity : « ce squelette a deux bras, deux jambes et une tête ». Unity peut alors faire du **retargeting** — appliquer n'importe quelle animation humanoïde à n'importe quel personnage humanoïde. C'est ce qui te permet de garder les animations des Starter Assets avec ton personnage Synty.
 
+    La [documentation Unity sur la configuration de l'avatar](https://docs.unity3d.com/Manual/ConfiguringtheAvatar.html) détaille chaque os si un cercle refuse de passer au vert.
+
 ### 3. Remplacer le mesh
 
 - Déplie ***PlayerArmature*** dans la Hierarchy : tu y trouves un enfant qui porte le mesh (le mannequin) et un ***PlayerCameraRoot***
@@ -330,22 +338,15 @@ Jusqu'ici, ton jeu n'existe que dans l'éditeur. **Compiler** (*build*), c'est p
 
 ![](./assets/img/exercice.jpg)
 
+
+## Troisième personne rigged
+
+!
+
+
 ## Pratique
 
 [Exercice — Le personnage et la progression :material-arrow-right:](./exercices/cours03-personnage-et-progression.md){ .md-button .md-button--primary }
-
-## Ce qu'on a effleuré
-
-Tout ce qu'on vient de survoler sera repris en profondeur, appliqué à **ton** jeu :
-
-| Tu viens d'effleurer… | On le maîtrisera au… |
-|---|---|
-| La caméra Cinemachine | **Cours 6** — caméra, 2.5D, cinématiques |
-| L'Input System | **Cours 5** — C# et contrôles |
-| L'état du jeu (`aCle`) | **Cours 5** — variables, puis **cours 11** (sauvegarde) |
-| Les animations du personnage | **Cours 6** — Animator et machine à états |
-| Le son du ramassage | **Cours 7** — design sonore |
-| Le build | **Cours 11** — WebGL et itch.io |
 
 ## Devoirs
 
@@ -356,17 +357,14 @@ Tout ce qu'on vient de survoler sera repris en profondeur, appliqué à **ton** 
   **[Le jeu express](./devoirs/jeu-express.md){.stretched-link .back}**
 </div>
 
-* **Avance ton [jeu express](./devoirs/jeu-express.md)** : personnage jouable, au moins **une** progression clé/porte, une fin. Il se termine en classe au [cours 4](./cours04.md) et se remet à la fin de cette séance-là
+* **Termine et dépose ton [jeu express](./devoirs/jeu-express.md)** : personnage jouable, au moins **une** progression clé/porte, une fin, un build. **À déposer la veille du [cours 4](./cours04.md)** — on l'utilise en classe pour le retour collectif
 * Fais un **build** et fais-le essayer à quelqu'un (ami, parent, coloc). Note ses **3 premières réactions** sans l'aider — c'est ton premier playtest, et on en reparle au [cours 12](./cours12.md)
 
-## Ressources
-
-* [Starter Assets: Character Controllers | URP](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961)
-* [Enhanced Trigger Box — documentation complète](https://github.com/alexander-scott/Enhanced-Trigger-Box/blob/master/README.md)
-* [Mixamo](https://www.mixamo.com) — auto-rigger et bibliothèque d'animations
-* [Documentation Unity : Avatar humanoïde](https://docs.unity3d.com/Manual/ConfiguringtheAvatar.html)
-* [Boss Keys — la série sur le design clés/portes (GMTK)](https://www.youtube.com/playlist?list=PLc38fcMFcV_ul4D6OChdWhsNsYY3NA5B2)
-
-## Savoirs essentiels touchés
-
-Déplacement d'un personnage dans l'environnement virtuel, détection de collisions pour le déclenchement d'événements, interactions virtuelles, programmation d'un système de clé et de porte, progression en fonction de la réussite d'une action, intégration d'images dans l'environnement virtuel, compilation de l'application.
+<!--
+Savoirs essentiels touchés (note pour l'enseignant) :
+Déplacement d'un personnage dans l'environnement virtuel, détection de
+collisions pour le déclenchement d'événements, interactions virtuelles,
+programmation d'un système de clé et de porte, progression en fonction de
+la réussite d'une action, intégration d'images dans l'environnement
+virtuel, compilation de l'application.
+-->

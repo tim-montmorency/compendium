@@ -1,9 +1,5 @@
 # Cours 13
 
-## Production + capsule
-
-Plus de matière obligatoire. À partir d'aujourd'hui, la séance t'appartient : tu travailles sur tes *issues* prioritaires et je circule. La capsule du jour est facultative et ne bloque rien.
-
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -35,8 +31,6 @@ Au choix :
 ## Production encadrée
 
 ## Devoirs
-
-## Ressources
 
 <!--
 ================================================================

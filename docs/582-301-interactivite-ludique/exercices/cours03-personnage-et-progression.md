@@ -9,16 +9,17 @@
 
 - [ ] Importe les **Starter Assets: Character Controllers (URP)** via `Package Manager` > `My Assets`
 - [ ] Choisis ta perspective et monte le contrôleur correspondant :
-    - **Première personne** : glisse `NestedParent_Unpack` du `FirstPersonController`, `Unpack`, désactive « Main Camera »
-    - **Troisième personne** : glisse `NestedParent_Unpack` du `ThirdPersonController`, `Unpack`, puis mets `PlayerCameraRoot` dans le champ `Follow` de `PlayerFollowCamera`
+    - **Première personne** : glisse `NestedParent_Unpack` du `FirstPersonController`, puis clic-droit > `Prefab` > **`Unpack Completely`**
+    - **Troisième personne** : glisse `NestedParent_Unpack` du `ThirdPersonController`, **`Unpack Completely`**, puis mets `PlayerCameraRoot` dans le champ `Follow` de `PlayerFollowCamera`
+- [ ] **Désactive la « Main Camera » d'origine de la scène** — celle qu'Unity avait créée tout seul. Celle du contrôleur, qui porte le `CinemachineBrain`, reste active
 - [ ] Place le personnage **au-dessus** du sol, à ton point de départ
 - [ ] Assigne le tag **Player** au parent (celui qui porte le `CharacterController`)
 - [ ] ▶️ Marche, saute, regarde autour
 
 !!! warning "Diagnostic en 3 questions"
     1. Il tombe à l'infini? Ton sol n'a pas de collider, ou le personnage démarre dessous
-    2. L'écran est noir? Deux caméras actives, ou aucune
-    3. Un avertissement `AudioListener`? Il y en a deux — désactive celui de la Main Camera
+    2. L'écran est noir? Tu as désactivé la caméra du contrôleur au lieu de celle de la scène
+    3. Un avertissement `AudioListener`? Il y en a deux — la Main Camera d'origine est encore active
 
 ## 2. La clé
 
@@ -106,4 +107,4 @@
 ## 8. Avant de partir
 
 - [ ] Fais essayer ton build à un voisin. Regarde-le jouer **sans parler**
-- [ ] Note ce qu'il n'a pas compris — c'est ta liste de travail pour le [cours 4](../cours04.md)
+- [ ] Note ce qu'il n'a pas compris — c'est ta dernière liste de corrections avant le dépôt du jeu express

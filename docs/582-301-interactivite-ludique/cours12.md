@@ -1,9 +1,5 @@
 # Cours 12
 
-## Tests utilisateurs et plan de production
-
-Tu es la pire personne au monde pour évaluer ton jeu : tu sais où sont les portes. Aujourd'hui, quelqu'un d'autre y joue et tu n'as pas le droit de l'aider.
-
 !!! abstract ":material-comment-check: Jalon formatif F3 — Alpha (*feature complete*)"
     **Dépôt en début de séance :** build WebGL publié en ligne. **Attendu :** toutes les mécaniques du GDD branchées, niveau complet parcourable. Après ce point, plus aucune fonctionnalité nouvelle.
 
@@ -72,9 +68,9 @@ Voir [les heuristiques d'utilisabilité](./extra/heuristiques.md), appliquées a
 
 ## Devoirs
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================

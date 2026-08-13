@@ -1,9 +1,5 @@
 # Cours 6
 
-## Animation, caméra et états
-
-Ton personnage glisse comme un fantôme et ta caméra donne la nausée. Aujourd'hui : les états, les transitions, et le démontage de cette caméra Cinemachine que tu utilises sans le savoir depuis trois semaines.
-
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -83,9 +79,9 @@ Ton personnage glisse comme un fantôme et ta caméra donne la nausée. Aujourd'
 
 ## Devoirs
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================

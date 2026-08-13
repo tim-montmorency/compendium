@@ -1,9 +1,5 @@
 # Cours 7
 
-## Le son et le backlog
-
-Ferme les yeux devant un bon jeu : tu sais encore tout ce qui se passe. Ouvre les yeux et coupe le son : le jeu semble mort. Aujourd'hui, le son — puis, pendant que je passe vous voir un par un, le vrai plan de production.
-
 !!! abstract ":material-comment-check: Jalon formatif F1 — Prototype jouable"
     En deuxième partie de séance, je passe vous voir individuellement. **Attendu :** un greybox navigable, un personnage contrôlable, une interaction, un début et une fin. Laid, mais jouable d'un bout à l'autre.
 
@@ -78,9 +74,9 @@ Ferme les yeux devant un bon jeu : tu sais encore tout ce qui se passe. Ouvre le
 
 ## Devoirs
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================

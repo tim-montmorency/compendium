@@ -30,7 +30,7 @@ L'**amusement** et l'**expérimentation** sont essentiels au développement de l
 
     Le concepteur développe des **mécaniques** (ex. : saut, points de vie) ce qui produit des **Dynamiques** en jeu (ex. : camper, faire une *speedrun*) pour déclencher du plaisir (ex. : défi, découverte, camaraderie)[^mda]:. 
 
-    Le joueur vit le chemin **inverse**. Il ressent d'abord puis comprends les règles ensuite.
+    Le joueur vit le chemin **inverse**. Il ressent d'abord puis comprend les règles ensuite.
 
 ## Expérience ludique
 
@@ -40,7 +40,7 @@ Ce qui suit sont des stratégies pour concevoir une expérience ludique.
 
 Tout ne doit pas **obligatoirement** se trouver dans un même jeu, mais ça aide ;)
 
-### :speaking_head: Narration
+### :speaking_head: **Narration**
 
 Raconter une histoire donne un **sens** aux actions du joueur 
 
@@ -68,7 +68,7 @@ Dans [Call of Juarez (2013)](https://fr.wikipedia.org/wiki/Call_of_Juarez:_Gunsl
 
 Les règles et systèmes qui déterminent **comment on interagit avec le jeu**. 
 
-> Sauter, crocheter, courrir...<br>
+> Sauter, crocheter, courir...<br>
 > Règle des pions aux échecs
 
 Une bonne mécanique génère des **choix intéressants** et un plaisir de **maîtrise** (comprendre, expérimenter, s'améliorer).
@@ -85,14 +85,14 @@ Dans [Magic: The Gathering](https://magic.wizards.com/), la mécanique du « *Ta
 Dans [Portal (2011)](https://fr.wikipedia.org/wiki/Portal_2), les joueurs doivent résoudre des énigmes en manipulant des trous de ver.
 </div>
 
-### :material-school: Prise en main
+### :material-school: **Prise en main**
 
 <!-- Une mécanique géniale ne vaut rien si le joueur **abandonne avant de la comprendre**. -->
 
 Les premières minutes doivent enseigner : 
 
 * En jouant plutôt qu'en expliquant
-* Une notion à la fois et accompagné de rétroaction (renforcement positif)
+* Une notion à la fois et accompagnée de rétroaction (renforcement positif)
 * S'il y a beaucoup de mécaniques, n'enseignez pas tout en même temps
 
 <div class="grid grid-1-2" markdown>
@@ -122,7 +122,7 @@ Dans [Plants vs. Zombies (2009)](https://store.steampowered.com/app/3590/Plants_
 
     Le meilleur tutoriel est celui qu'on ne remarque pas.
 
-    Si on concoit les premières scènes de façon à ce qu'il n'existe **qu'une seule action possible**. Le joueur croit résoudre l'énigme par lui même, mais en réalité, on lui enseigne les règles une à une.
+    Si on conçoit les premières scènes de façon à ce qu'il n'existe **qu'une seule action possible**. Le joueur croit résoudre l'énigme par lui-même, mais en réalité, on lui enseigne les règles une à une.
 
 ### :paintbrush: **Visuel**
 
@@ -133,7 +133,7 @@ Le visuel invite le joueur à entrer dans l'univers et à y rester. Il rend auss
 <div class="grid grid-1-2" markdown>
 ![Dixit](./assets/img/games/dixit.webp){data-zoom-image}
 
-Dans [Dixit](https://boardgamegeek.com/boardgame/39856/dixit), le graphisme surréalistes des cartes forcent les joueurs à imaginer des associations d'idées abstraites.
+Dans [Dixit](https://boardgamegeek.com/boardgame/39856/dixit), le graphisme surréaliste des cartes force les joueurs à imaginer des associations d'idées abstraites.
 </div>
 
 <div class="grid grid-1-2" markdown>
@@ -166,7 +166,7 @@ Dans [A Blind Legend (2016)](https://store.steampowered.com/app/437530/A_Blind_L
 
     Pourtant, il est **aussi important que l'image**. 
     
-    Le son c'est l'équivalent du glaçage sur un gâteau d'aniversaire. C'est pas obligatoire.. mais un peu quand même 😅
+    Le son c'est l'équivalent du glaçage sur un gâteau d'anniversaire. C'est pas obligatoire... mais un peu quand même 😅
 
     ![](./assets/img/cake.png){data-zoom-image .w-50}
 
@@ -179,7 +179,7 @@ Dans [A Blind Legend (2016)](https://store.steampowered.com/app/437530/A_Blind_L
 <div class="grid grid-1-2" markdown>
 ![Escape Room](./assets/img/games/escape-room.jpg){data-zoom-image}
 
-Dans un [jeu d'évasion](https://en.wikipedia.org/wiki/Escape_room), fouiller le pièces et manipuler les objets permet d'avancer dans le jeu.
+Dans un [jeu d'évasion](https://en.wikipedia.org/wiki/Escape_room), fouiller les pièces et manipuler les objets permet d'avancer dans le jeu.
 </div>
 
 <div class="grid grid-1-2" markdown>
@@ -206,7 +206,7 @@ Dans [Elden Ring (2022)](https://store.steampowered.com/app/1245620/ELDEN_RING/)
 
 ### :trophy: **Accomplissements**
 
-Les récompenses (*achievements*, mais aussi items et *upgrades*,) **valident la progression** du joueur et fixent des objectifs à poursuivre.
+Les récompenses (*achievements*, mais aussi items et *upgrades*) **valident la progression** du joueur et fixent des objectifs à poursuivre.
 
 <div class="grid grid-1-2" markdown>
 ![(the) Gnorp Apologue](./assets/img/games/gnorp.jpg){data-zoom-image}
@@ -228,7 +228,7 @@ Dans [Baldurs gate 3 (2023)](https://store.steampowered.com/app/1086940/Baldurs_
 
 **Rivalité**, **entraide**, **négociation** et **trahison** sont des dynamiques extrêmement intéressantes pour l'engagement des joueurs. 
 
-Néanmoins, pour être efficace et convainquantes, ces dynamiques doivent être performées par des humains.
+Néanmoins, pour être efficaces et convaincantes, ces dynamiques doivent être performées par des humains.
 
 <div class="grid grid-1-2" markdown>
 ![Keep Talking and Nobody Explodes](./assets/img/games/keep-talking-and-nobody-explodes.jpg){data-zoom-image}
@@ -240,7 +240,7 @@ Dans [Keep Talking and Nobody Explodes (2015)](https://store.steampowered.com/ap
 
 ![](./assets/img/videogame-types-heading.jpg)
 
-Les jeux vidéos sont une façon très efficace d'aborder l'expérience ludique. Si efficace, qu'annuellement, cette industrie génère mondialement plus de [200 milliards USD](https://afjv.com/news/12036_l-industrie-des-jeux-video-a-franchi-la-barre-des-200-mds-en-2025.htm).
+Les jeux vidéo sont une façon très efficace d'aborder l'expérience ludique. Si efficace, qu'annuellement, cette industrie génère mondialement plus de [200 milliards USD](https://afjv.com/news/12036_l-industrie-des-jeux-video-a-franchi-la-barre-des-200-mds-en-2025.htm).
 
 ### Distributeurs
 
@@ -260,7 +260,7 @@ Les jeux vidéos sont une façon très efficace d'aborder l'expérience ludique.
 
 ![](./assets/img/game-genres.jpg){.w-100}
 
-Il existe des centaines de [genres de jeux vidéos](https://steamdb.info/tags/) et les étiqueter n'aide pas beaucoup à en concevoir un. Ce qui aide, c'est de nommer **ce que le jeu exploite chez le joueur**. Voici trois grandes catégories de jeux :
+Il existe des centaines de [genres de jeux vidéo](https://steamdb.info/tags/) et les étiqueter n'aide pas beaucoup à en concevoir un. Ce qui aide, c'est de nommer **ce que le jeu exploite chez le joueur**. Voici trois grandes catégories de jeux :
 
 * :material-lightning-bolt: **Action/Arcade** : exploite l'**exécution en temps réel**
   > Réflexes, timing, précision. Le joueur sait souvent ce qui s'en vient : le défi est de l'exécuter au bon moment.
@@ -318,9 +318,9 @@ Sa forme la plus classique est le mécanisme **serrure / clé** :
 1. **Économie** : Quantité de ressources accumulées 
   > Avoir 1000 pièces d'or pour acheter une maison
 1. **Inventaire** : Possession d'un objet spécifique 
-  > Trouver une carte bleue pour ouvrir les portes bleus 
+  > Trouver une carte bleue pour ouvrir les portes bleues 
 1. **Scénario** : Choix narratif active ou désactive un élément du jeu 
-  > Un garde bloque la porte du village tant qu'on n'a pas parlé au vieux Kamajī
+  > Un garde bloque la porte du village tant qu'on n'a pas parlé au vieux Kamaji
 1. **Compétence du personnage** : Capacité apprise 
   > Débloquer le double-saut pour traverser le ravin
 1. **Environnement** : Conditions contextuelles
@@ -347,9 +347,9 @@ Sa forme la plus classique est le mécanisme **serrure / clé** :
 
 Une **boucle de jeu** ([_game loop_](https://gamedesignskills.com/game-design/core-loops-in-gameplay/)) est une séquence d'actions que le joueur répète tout au long de la partie.
 
-Ça sert à bien comprendre les mécaniques et leur fréquences. On dit qu'avant de développer un jeu, il est essentiel de connaitre ses boucles. Comme ça, ça donne une bonne idée de l'envergure du projet.
+Ça sert à bien comprendre les mécaniques et leurs fréquences. On dit qu'avant de développer un jeu, il est essentiel de connaitre ses boucles. Comme ça, ça donne une bonne idée de l'envergure du projet.
 
-Voici un exemple pour un FPS.
+Voici un exemple pour un _FPS_.
 
 <figure markdown>
 ![](./assets/img/devil-daggers-video-game.gif){.w-50}
@@ -409,7 +409,7 @@ Un moteur 100 % gratuit, open-source et très léger.
 
 Le moteur de choix pour les superproductions (jeux AAA) et le photoréalisme.
 
-<!-- > *Exemples :* [Fortnite, Borderlands 4, Claire Obscure, Black Myth: Wykong, ...](https://www.unrealengine.com/en-US/games). -->
+<!-- > *Exemples :* [Fortnite, Borderlands 4, Clair Obscur, Black Myth: Wukong, ...](https://www.unrealengine.com/en-US/games). -->
 </div>
 </div>
 
@@ -459,13 +459,13 @@ Unity fonctionne sur une base de licence. L'une est gratuite et les autres sont 
 | **Unity Industry** | _Sur devis_, si obligatoire dès 1 000 000 $ USD pour un usage industriel (hors jeux/divertissement) |
 </div>
 
-TLDR; c'est gratuit :wink:
+***TLDR;*** c'est gratuit :wink:
 
 ### Installation
 
 Unity a besoin du logiciel Unity Hub pour être installé. 
 
-Unity Hub sert, entre autres, à gérer les versions de Unity et créer des projets.
+Unity Hub sert, entre autres, à gérer les versions de Unity et à créer des projets.
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/img/unity6.png)
@@ -492,11 +492,11 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et créer des proj
 ![](./assets/img/unity-interface-num.png){data-zoom-image}
 
 1. **Barre de menu** : Regroupe les options globales du logiciel (sauvegarde, paramètres généraux et ouverture de nouvelles fenêtres).
-2. **Panneau _Hierarchy_** : Liste tous les objets (GameObjects) de la scène active et permet d'organiser leurs relations de parenté (parent/enfant).
-3. **Panneau _Scene_** : L'espace de travail visuel (2D/3D) pour construire votre niveau en y plaçant vos objets. (Le test du jeu se fait dans l'onglet Game).
+2. **Panneau _Hierarchy_** : Liste tous les objets (_GameObjects_) de la scène active et permet d'organiser leurs relations de parenté (parent/enfant).
+3. **Panneau _Scene_** : L'espace de travail visuel (2D/3D) pour construire votre niveau en y plaçant vos objets. (Le test du jeu se fait dans l'onglet _Game_).
 4. **Barre d'outils** : Fournit les outils de manipulation spatiale pour sélectionner, déplacer, pivoter et redimensionner les objets de la scène.
-5. **Panneau _Inspector_** : Affiche et permet de modifier les propriétés et composants (Components) de l'élément sélectionné (objet ou ressource).
-6. **Panneau _Project_** : L'explorateur de fichiers. Il rassemble toutes vos ressources (Assets), importées (modèles, sons) ou créées dans Unity (scripts, matériaux).
+5. **Panneau _Inspector_** : Affiche et permet de modifier les propriétés et composants (_Components_) de l'élément sélectionné (objet ou ressource).
+6. **Panneau _Project_** : L'explorateur de fichiers. Il rassemble toutes vos ressources (_Assets_), importées (modèles, sons) ou créées dans Unity (scripts, matériaux).
 
 ## Assets
 
@@ -527,7 +527,7 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et créer des proj
   ![](./assets/img/polygon.webp){.aspect-16-9}
 
   <small>Devoir</small><br>
-  **[Ajouter le « Sampler Pack » gratuit à votre compte](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){.stretched-link .back}**<br>
+  **[Ajouter le « _Sampler Pack_ » gratuit à votre compte](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){.stretched-link .back}**<br>
   <small>Pour être gratuit, le compte éducationnel doit être actif</small>
 </div>
 

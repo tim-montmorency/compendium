@@ -1,9 +1,5 @@
 # Cours 9
 
-## Lumière et level design
-
-Le meilleur outil de guidage du joueur n'est ni une flèche ni un marqueur de quête. C'est une lumière. Aujourd'hui : éclairer, guider, et transformer ton greybox en lieu.
-
 !!! abstract ":material-comment-check: Jalon formatif F2 — Tranche verticale"
     Rotation individuelle en deuxième partie. **Attendu :** un segment court mais **fini** — habillé, animé, sonorisé, éclairé. Pas le jeu au complet : l'échantillon qui prouve le niveau de qualité que tu vises.
 
@@ -23,6 +19,14 @@ Le meilleur outil de guidage du joueur n'est ni une flèche ni un marqueur de qu
 ## La tranche verticale
 
 ### Le concept industriel du jour
+
+## Les materials
+
+### Albedo, métallique, lissage, émission
+
+### Les variantes de materials Synty
+
+### Un material par usage, pas un par objet
 
 ## L'éclairage
 
@@ -80,9 +84,9 @@ Le meilleur outil de guidage du joueur n'est ni une flèche ni un marqueur de qu
 !!! warning "Premier build WebGL"
     Dépose ton jeu sur une page itch.io **privée** cette semaine. Fonctionnel avant tout, pas beau. Les surprises de build WebGL sont nombreuses et il ne faut pas les découvrir la semaine de la remise finale.
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================
@@ -98,8 +102,10 @@ NOTES DE RÉDACTION — à supprimer une fois la séance écrite
                          § Placer l'objectif : visible tôt, atteignable tard
                          § La forme de ton niveau
   - .archive/cours13.md  § Le post-processing : le filtre Instagram de ton jeu
-  - .archive/cours05.md  § Le greyboxing : valider l'espace avant de le décorer
   - .archive/cours11.md  § La tranche verticale : le concept industriel du jour
+  - .archive/cours03.md  § Les materials
+                         § Bonus : changer un material en jeu
+  - .archive/cours05.md  § Les materials : la couleur de ton monde
   - .archive/exercices/cours12-level-design.md
   - .archive/exercices/cours11-tranche-verticale.md
 

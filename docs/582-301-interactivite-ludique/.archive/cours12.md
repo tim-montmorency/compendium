@@ -88,6 +88,8 @@ Les réglages qui comptent : **Color** (chaude = accueillant, froide = danger - 
 !!! tip "La lumière émissive"
     Un material avec **Emission** activée « brille » par lui-même (un cristal, un écran, des champignons luminescents). Combiné au bloom du cours 13, c'est l'effet le plus spectaculaire du cours pour 30 secondes de travail.
 
+!!! tip "Baking"
+
 ### Guider sans flèches
 
 Le joueur doit savoir **où aller** sans qu'on le lui dise. Les outils, par ordre de subtilité :

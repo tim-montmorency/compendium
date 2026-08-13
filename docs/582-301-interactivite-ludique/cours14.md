@@ -1,9 +1,5 @@
 # Cours 14
 
-## Production et gel des fonctionnalités
-
-À partir d'aujourd'hui, plus rien de nouveau. On corrige, on polit, on publie. Toute idée géniale qui arrive maintenant va dans la colonne `Won't` — et c'est une compétence professionnelle, pas un renoncement.
-
 !!! abstract ":material-comment-check: Jalon formatif F4 — Bêta / *release candidate*"
     Dernière rotation individuelle. **Attendu :** contenu complet, fonctionnalités gelées, build de validation publié en ligne.
 
@@ -56,8 +52,6 @@
 ### Montrer ses *issues* fermées
 
 ## Devoirs
-
-## Ressources
 
 <!--
 ================================================================

@@ -1,9 +1,5 @@
 # Cours 11
 
-## Publication et persistance
-
-Un jeu que personne ne peut lancer n'existe pas. Aujourd'hui : le sortir de Unity, le mettre en ligne, et faire en sorte qu'il se souvienne de quelque chose.
-
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -79,9 +75,9 @@ Un jeu que personne ne peut lancer n'existe pas. Aujourd'hui : le sortir de Unit
 
 ## Devoirs
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================

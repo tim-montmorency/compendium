@@ -8,13 +8,13 @@ Cette carte indique, bloc par bloc, où va chaque section. À utiliser au moment
 
 | Ancien fichier | Ancien titre | Destination principale |
 |----------------|--------------|------------------------|
-| `cours03.md` | I made a game (2/2) | → **c03** (personnage) + **c04** (materials, son) + **c05** (GDD) |
-| `cours04.md` | Concevoir : la boucle, le scope, le GDD | → **c05** |
-| `cours05.md` | Validation du GDD et démarrage | → **c05** (validation, Git) + **c09** (greyboxing) |
+| `cours03.md` | I made a game (2/2) | → **c03** (personnage) + **c04** (GDD) + **c05** (prefabs) + **c09** (materials) |
+| `cours04.md` | Concevoir : la boucle, le scope, le GDD | → **c04** |
+| `cours05.md` | Validation du GDD et démarrage | → **c04** (validation, Git, greybox) + **c09** (materials, greyboxing) |
 | `cours06.md` | Contrôles et programmation minimum | → **c05** (C# de survie) |
-| `cours07.md` | Interactions et progression | → **c03** (clé/porte) + **c05** (notions d'interaction) |
+| `cours07.md` | Interactions et progression | → **c03** (clé/porte) + **c04** (notions d'interaction) |
 | `cours08.md` | Le son | → **c07** |
-| `cours09.md` | Caméra, HUD et rétroaction | → **c04** (Canvas, HUD) + **c06** (caméra, Cinemachine) |
+| `cours09.md` | Caméra, HUD et rétroaction | → **c05** (Canvas, HUD) + **c06** (caméra, Cinemachine) |
 | `cours10.md` | Animation et états | → **c06** |
 | `cours11.md` | Consolidation : tranche verticale | → **c07** (backlog, issues) + **c09** (tranche verticale) |
 | `cours12.md` | Level design | → **c09** |
@@ -33,27 +33,32 @@ Cette carte indique, bloc par bloc, où va chaque section. À utiliser au moment
 
 **À écrire à neuf :** rigging Mixamo d'un T-pose Synty, réglage de l'avatar humanoïde, substitution du mesh dans le Third Person Controller.
 
-### → Nouveau cours 04 - Interface, habillage et premier script
-
-| Source | Section |
-|--------|---------|
-| `.archive/cours09.md` | Canvas, EventSystem, boutons · Les interfaces de jeu : un petit zoo · Les 3 règles du HUD · Les ancres · Le feedback |
-| `.archive/cours03.md` | Les materials · Bonus : changer un material en jeu |
-| `.archive/cours05.md` | Les materials : la couleur de ton monde · Le versionning : la ceinture de sécurité |
-
-**À écrire à neuf :** TextMeshPro (import des essentiels, polices custom), script fourni branché sur `Button.onClick`, création du tableau GitHub Projects.
-
-### → Nouveau cours 05 - Concevoir, écrire, démarrer
+### → Nouveau cours 04 - Concevoir et planifier
 
 | Source | Section |
 |--------|---------|
 | `.archive/cours04.md` | La boucle de jeu : des verbes, pas une ambiance · La condition de victoire · Le scope : faisons le calcul · Les 5 pièges classiques du GDD · Le cahier des charges commun · Atelier |
-| `.archive/cours05.md` | La validation : cinq minutes, et c'est verrouillé |
-| `.archive/cours06.md` | Anatomie d'un script · Les variables · Le temps : Update et deltaTime · Les conditions · Les méthodes · La Console |
+| `.archive/cours05.md` | La validation : cinq minutes, et c'est verrouillé · Le versionning : la ceinture de sécurité · Le greyboxing |
 | `.archive/cours07.md` | Qu'est-ce qu'une interaction? · Les 4 notions d'interaction (interacteur, affordance, engagement, agentivité) |
-| `.archive/cours03.md` | Les prefabs · Et maintenant, TON jeu : le document de conception (GDD) |
+| `.archive/cours03.md` | Et maintenant, TON jeu : le document de conception (GDD) |
+| `.archive/exercices/` | `cours04-atelier-gdd.md` · `cours05-demarrer-ton-jeu.md` |
 
-**À écrire à neuf :** techniques narratives, devlog (format imposé), liste de sprint 8 cartes + colonne `Won't`, générer des GameObjects par script, **kit de scripts prêts à brancher**.
+**À écrire à neuf :** techniques narratives, devlog (format imposé), tableau GitHub Projects, liste de sprint 8 cartes + colonne `Won't`.
+
+**Attention :** séance où on n'ouvre presque pas Unity. Terminer par le greybox.
+
+### → Nouveau cours 05 - Interface et premier code
+
+| Source | Section |
+|--------|---------|
+| `.archive/cours09.md` | Canvas, EventSystem, boutons · Les interfaces de jeu : un petit zoo · Les 3 règles du HUD · Les ancres · Le feedback |
+| `.archive/cours06.md` | Anatomie d'un script · Les variables · Le temps : Update et deltaTime · Les conditions · Les méthodes · La Console |
+| `.archive/cours03.md` | Les prefabs |
+| `.archive/exercices/` | `cours06-controles-et-premier-script.md` · `cours09-camera-hud-et-feedback.md` (partie HUD) |
+
+**À écrire à neuf :** TextMeshPro (import des essentiels, polices custom), script fourni branché sur `Button.onClick`, `Instantiate` en boucle, et **le kit de scripts prêts à brancher** — dépendance de toutes les séances suivantes.
+
+**Les materials sont partis au cours 9** (passe visuelle) : la séance est déjà bien assez chargée.
 
 ### → Nouveau cours 06 - Animation, caméra et états
 
@@ -88,8 +93,9 @@ Cette carte indique, bloc par bloc, où va chaque section. À utiliser au moment
 |--------|---------|
 | `.archive/cours12.md` | Le level design : l'espace qui raconte la boucle · Le rythme : tension et repos · Le cercle de Dan Harmon · Les lumières : l'outil de guidage n° 1 · Guider sans flèches · La lisibilité · Placer l'objectif · La forme de ton niveau |
 | `.archive/cours13.md` | Le post-processing : le filtre Instagram de ton jeu |
-| `.archive/cours05.md` | Le greyboxing : valider l'espace avant de le décorer |
 | `.archive/cours11.md` | La tranche verticale : le concept industriel du jour |
+| `.archive/cours03.md` | Les materials · Bonus : changer un material en jeu |
+| `.archive/cours05.md` | Les materials : la couleur de ton monde · Le greyboxing |
 
 **À écrire à neuf :** types de lumières et *baking* (lightmaps, Light Probes, objets statiques), skybox et brouillard, une recette Shader Graph.
 
@@ -140,13 +146,13 @@ Le dossier `exercices/` suit lui aussi l'ancien découpage. Copie conservée dan
 
 | Ancien fichier | Nouveau numéro |
 |----------------|----------------|
-| `cours03-personnage-habillage-victoire.md` | → c03 (personnage) et c04 (habillage) - **à scinder** |
-| `cours04-atelier-gdd.md` | → c05 |
-| `cours05-demarrer-ton-jeu.md` | → c05 |
-| `cours06-controles-et-premier-script.md` | → c04 (premier script) et c05 (C#) - **à scinder** |
-| `cours07-cle-porte.md` | → c03 |
+| `cours03-personnage-habillage-victoire.md` | → **fait** : `exercices/cours03-personnage-et-progression.md` |
+| `cours04-atelier-gdd.md` | → c04 |
+| `cours05-demarrer-ton-jeu.md` | → c04 |
+| `cours06-controles-et-premier-script.md` | → c05 (en entier) |
+| `cours07-cle-porte.md` | → **fait** : intégré à `exercices/cours03-personnage-et-progression.md`, version sans code (ETB) |
 | `cours08-sonoriser-ton-jeu.md` | → c07 |
-| `cours09-camera-hud-et-feedback.md` | → c04 (HUD) et c06 (caméra) - **à scinder** |
+| `cours09-camera-hud-et-feedback.md` | → c05 (HUD) et c06 (caméra) - **à scinder** |
 | `cours10-animations-et-etats.md` | → c06 |
 | `cours11-tranche-verticale.md` | → c09 (F2) |
 | `cours12-level-design.md` | → c09 |

@@ -50,4 +50,4 @@ Vue du dessus ou en perspective - l'important est de montrer la disposition de l
 > En quoi la boucle de jeu que tu as décrite explique-t-elle pourquoi ce jeu est amusant - ou pas ?
 
 
-*Cette activité est formative. Elle te prépare à rédiger le **Travail 1 - GDD de ton propre jeu**, à remettre au début de la séance 5. Aucune note ici : c'est un échauffement, et on met les analyses en commun au cours 4.*
+*Cette activité est formative. Elle te prépare à rédiger le **Travail 1 - GDD de ton propre jeu**, à remettre à la séance 4. Aucune note ici : c'est un échauffement, et on met les analyses en commun au cours 4.*

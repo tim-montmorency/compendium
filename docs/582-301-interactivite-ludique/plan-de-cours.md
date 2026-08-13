@@ -4,15 +4,15 @@
 
 Deux jeux dans la session.
 
-D'abord un **jeu express** construit en classe des séances 1 à 4 : environnement, personnage, progression, menu, build. Aucun code écrit par l'élève - le **Enhanced Trigger Box** fait le travail. À la séance 4, tout le monde a un jeu complet, compilé, qui se termine. C'est la première évaluation des acquis Unity.
+D'abord un **jeu express** construit en classe des séances 1 à 3 : environnement, personnage, progression, fin, build. Aucun code écrit par l'élève - le **Enhanced Trigger Box** fait le travail. Il se dépose la veille de la séance 4 : tout le monde a alors un jeu complet, compilé, qui se termine. C'est la première évaluation des acquis Unity.
 
-Ensuite - une fois qu'on sait ce que coûte une porte - on conçoit **LE jeu de session** (séance 5), qu'on construit couche par couche jusqu'à sa publication en ligne. Tous les concepts nécessaires aux deux objectifs ministériels sont vus **avant la séance 12**; ensuite, place à la production.
+Ensuite - une fois qu'on sait ce que coûte une porte - on conçoit **LE jeu de session** (séance 4), qu'on construit couche par couche jusqu'à sa publication en ligne. Tous les concepts nécessaires aux deux objectifs ministériels sont vus **avant la séance 12**; ensuite, place à la production.
 
 !!! note "Pourquoi le ETB avant le code?"
     Le Enhanced Trigger Box permet, dès la séance 2, de déclencher une animation, une lumière, un changement d'état, une méthode d'un script, une texture, un son, un changement de scène - et de conditionner tout ça à une distance, une touche, un regard de caméra ou la valeur d'une variable custom. Autrement dit : **toute la logique de jeu du cours est accessible sans écrire une ligne.** Le C# arrive plus tard, non pas comme le prix d'entrée, mais comme un outil pour ce que le ETB ne fait pas.
 
-!!! note "Pourquoi concevoir au cours 5 et pas au cours 1?"
-    Un GDD écrit avant d'avoir touché à Unity est une liste de souhaits. Après quatre séances passées à fabriquer un jeu, l'élève a une intuition de la charge de travail - et son scope devient réaliste tout seul. C'est le remède au piège numéro un du cours : le jeu trop grand.
+!!! note "Pourquoi concevoir au cours 4 et pas au cours 1?"
+    Un GDD écrit avant d'avoir touché à Unity est une liste de souhaits. Après trois séances passées à fabriquer un jeu, l'élève a une intuition de la charge de travail - et son scope devient réaliste tout seul. C'est le remède au piège numéro un du cours : le jeu trop grand.
 
 ### Cahier des charges commun du jeu de session
 
@@ -27,12 +27,12 @@ Liberté totale sur le thème et l'univers; obligations techniques identiques po
 * Éclairage travaillé et post-traitement
 * Build compilé et **publié en ligne (itch.io, WebGL)** avec README et crédits des médias
 
-**Contraintes dures :** 1 mécanique principale, 1 niveau, assets Synty seulement (+ médias libres cités). GDD verrouillé après validation (séance 5).
+**Contraintes dures :** 1 mécanique principale, 1 niveau, assets Synty seulement (+ médias libres cités). GDD verrouillé après validation (séance 4).
 
 ### Rituels
 
 * **GitHub dès la séance 4** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes)
-* **Un seul outil de suivi : GitHub Projects**, par-dessus les *issues* du dépôt. Liste de sprint à la S5, backlog complet à la S7, revue à chaque jalon. Pas de Trello en parallèle - deux sources de vérité, c'est un élève qui répond « c'était dans l'autre outil ». Bonus : un commit contenant `closes #12` ferme la carte tout seul, ce qui donne enfin une raison d'écrire de vrais messages de commit.
+* **Un seul outil de suivi : GitHub Projects**, par-dessus les *issues* du dépôt. Liste de sprint à la S4, backlog complet à la S7, revue à chaque jalon. Pas de Trello en parallèle - deux sources de vérité, c'est un élève qui répond « c'était dans l'autre outil ». Bonus : un commit contenant `closes #12` ferme la carte tout seul, ce qui donne enfin une raison d'écrire de vrais messages de commit.
 * **Fin de chaque séance** : 10 min de « montre ton écran au voisin » - test croisé informel
 * **Structure des séances de la phase 3** : matière en première partie, puis **atelier avec rotation individuelle** de l'enseignant - c'est là que se font les jalons formatifs
 * **À chaque jalon formatif** : avis écrit + liste de tâches nominative déposée en *issues* GitHub
@@ -55,20 +55,20 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 ## Déroulement des 15 séances
 
-### Phase 1 - Le jeu express, sans code (S1–S4)
+### Phase 1 - Le jeu express, sans code (S1–S3)
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
 | 1 | [Moteur de jeu et prise en main](./cours01.md) | Théorie du jeu, moteurs, **Get Started With Unity** | |
 | 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **ETB**, Synty + URP | |
-| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1re/3e personne, *gating* par ETB, rigging Mixamo | |
-| 4 | [Interface, habillage et premier script](./cours04.md) | Canvas, TextMeshPro, menu, bouton + script fourni, materials, GitHub | :material-check-decagram: **Jeu express (15 %)** |
+| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1re/3e personne, *gating* par ETB, rigging Mixamo, build | :material-check-decagram: **Jeu express (15 %)** — déposé la veille de la S4 |
 
-### Phase 2 - Conception du jeu de session (S5)
+### Phase 2 - Concevoir, puis outiller (S4–S5)
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
-| 5 | [Concevoir, écrire, démarrer](./cours05.md) | Boucle de jeu, scope, narration, **atelier GDD**, devlog, C# de survie, prefabs custom | :material-check-decagram: **GDD (5 %)** |
+| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, GitHub, devlog, liste de sprint | :material-check-decagram: **GDD (5 %)** |
+| 5 | [Interface et premier code](./cours05.md) | Canvas, TextMeshPro, menu, HUD, script fourni, **C# de survie**, prefabs, kit de scripts | |
 
 ### Phase 3 - Couche par couche (S6–S11)
 
@@ -77,7 +77,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 | 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, Cinemachine, 2.5D, transitions de scènes, cinématique (Timeline) | |
 | 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** |
 | 8 | [Particules, VFX et *game feel*](./cours08.md) | Particle System, projectiles (Instantiate), *juice* | |
-| 9 | [Lumière et level design](./cours09.md) | Types de lumières, *baking*, post-traitement, greyboxing → dressing, guidage | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
+| 9 | [Lumière et level design](./cours09.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
 | 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, machine à états simple | |
 | 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README/crédits, sauvegarde, performance | |
 
@@ -125,38 +125,49 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 !!! tip "Ajout recommandé"
     Terminer la séance par **un build qui se lance en dehors de Unity**. Voir son jeu dans une fenêtre autonome à la troisième semaine change complètement le rapport au projet.
 
-### S4 - Interface, habillage et premier script
+### S4 - Concevoir et planifier
 
-* **Canvas** : modes de rendu, ancrages, résolution de référence, `CanvasScaler`
-* **TextMeshPro** : import des essentiels, polices custom, matériaux de texte
-* **Menu** titre → jeu → fin : boutons, navigation, `Time.timeScale` pour la pause
-* **Premier script** : un `MonoBehaviour` fourni, branché sur `Button.onClick`
-    * Le code est **donné**, commenté ligne par ligne; l'élève ne l'écrit pas, il le lit et le branche
-    * Objectif : démystifier, pas enseigner la programmation
-* **Materials** : albedo, métallique, lissage, émission; variantes de materials Synty
-* **GitHub** : dépôt, `.gitignore` Unity, premier commit, `README.md` comme devlog, création du tableau **GitHub Projects** (vide pour l'instant)
-* **Remise du jeu express**
+**Le jeu express est déposé la veille**, ce qui libère la séance et permet d'ouvrir sur un retour collectif à chaud.
 
-!!! warning "Séance chargée"
-    Si le temps manque, les *materials* peuvent glisser en S9 (passe visuelle) sans casser la progression. Le Canvas et GitHub, eux, ne peuvent pas bouger : le menu ferme le jeu express et le dépôt doit exister avant le jeu de session.
-
-### S5 - Concevoir, écrire, démarrer
-
+* **Retour sur les jeux express** : ce qui a marché, ce qui a coûté cher
 * **Boucle de jeu** : action → rétroaction → progression; boucle courte vs boucle longue
+* **Les 4 notions d'interaction** : interacteur, affordance, engagement, agentivité
+* **Condition de victoire**, et pourquoi un jeu sans fin n'est pas un jeu
 * **Scope** : les 5 pièges (jeu trop grand, mécanique floue, trop d'assets, narration sans support, pas de fin)
 * **Techniques narratives** : narration environnementale, *show don't tell*, narration par le level design, notes/objets, cinématique minimale
 * **Atelier GDD en classe**, puis validation et **verrouillage** du document
+* **GitHub** : dépôt, `.gitignore` Unity, premier commit, `README.md` comme **devlog** (format imposé : capture + 3 lignes + ce qui bloque), création du tableau **GitHub Projects**
 * **Liste de sprint** (20 min, à ne pas confondre avec un backlog) :
     * **8 cartes maximum**, un seul objectif - se rendre au prototype jouable de la S7
     * **La colonne `Won't`** : trois choses écrites noir sur blanc qu'on ne fera **pas** dans cette version. Couper le multijoueur ou les cinq niveaux ne demande pas d'avoir codé quoi que ce soit - ça demande de regarder son GDD en face. C'est de la conception, donc ça se fait maintenant.
     * Le vrai backlog attend la S7, une fois le prototype construit
-* **Devlog** : format imposé (capture + 3 lignes + ce qui bloque), lié au dépôt GitHub
-* **C# de survie** : variables, `Start`/`Update`, `public` (et pourquoi ça apparaît dans l'Inspector), `GetComponent`, `Debug.Log`
+* **Démarrage du greybox** du jeu de session
+
+!!! warning "La séance où on n'ouvre presque pas Unity"
+    Quatre heures de conception pour un groupe de 3e session, c'est le risque de cette séance. Deux garde-fous : la mise en place de GitHub est concrète et manuelle, et la séance **se termine par le greybox** — les élèves repartent avec l'éditeur ouvert, pas seulement avec un document.
+
+!!! note "Pourquoi planifier ici plutôt qu'après le menu"
+    La mémoire du jeu express est encore chaude. Un élève qui vient de finir un jeu estime mieux qu'un élève qui vient de faire un menu. Le GDD est aussi verrouillé une semaine plus tôt, ce qui laisse trois séances avant le prototype F1 au lieu de deux.
+
+### S5 - Interface et premier code
+
+* **Canvas** : modes de rendu, ancrages, résolution de référence, `CanvasScaler`
+* **TextMeshPro** : import des essentiels, polices custom, matériaux de texte
+* **HUD** : les 3 règles, les ancres, tenir à toutes les résolutions
+* **Menu** titre → jeu → fin : boutons, navigation, `Time.timeScale` pour la pause
+* **Le feedback** : la moitié de l'agentivité
+* **Premier script** : un `MonoBehaviour` fourni, branché sur `Button.onClick`
+    * Le code est **donné**, commenté ligne par ligne; l'élève ne l'écrit pas, il le lit et le branche
+    * Objectif : démystifier - une heure plus tard, il écrira le sien
+* **C# de survie** : variables, `Start`/`Update`, `public` (et pourquoi ça apparaît dans l'Inspector), conditions, méthodes, `GetComponent`, `Debug.Log`
 * **Usage cool** : générer des GameObjects par script (`Instantiate` dans une boucle) - grille, cercle, dispersion aléatoire
 * **Prefabs custom** : créer, instancier, variantes, override, prefab imbriqué
-* Démarrage du greybox du jeu de session
-
 * **Kit de scripts prêts à brancher** remis à cette séance : compteur, minuterie, santé/dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chaque script est commenté, exposé dans l'Inspector, et appelable depuis un ETB. Vu que le C# reste volontairement minimal, ce kit détermine directement le plafond de ce que les élèves peuvent fabriquer - il s'enrichit d'une séance à l'autre.
+
+!!! note "Démystifier, puis enseigner"
+    Le script fourni vient **avant** le C# de survie, dans la même séance. C'est l'ordre qui compte : on prouve d'abord que le code n'est qu'un composant de plus, ensuite on l'ouvre.
+
+    Les *materials* sont partis en S9 avec la passe visuelle - cette séance est déjà bien assez chargée.
 
 ### S6 - Animation, caméra et états
 
@@ -208,7 +219,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 **Bloc 2 - Atelier backlog (pendant la rotation F1)**
 
 * **Construction du backlog de production**, maintenant que le prototype existe
-    * **MoSCoW** : `Must` (sans ça ce n'est pas mon jeu) · `Should` (ça le rend bon) · `Could` (si le temps le permet) · `Won't` (repris et enrichi depuis la S5)
+    * **MoSCoW** : `Must` (sans ça ce n'est pas mon jeu) · `Should` (ça le rend bon) · `Could` (si le temps le permet) · `Won't` (repris et enrichi depuis la S4)
     * **Une carte = une séance de labo maximum (~2 h).** « Faire le niveau » n'est pas une carte, c'est un aveu. La décomposition *est* la compétence d'estimation.
     * **Ordonnancement par risque** : on construit d'abord ce qui est inconnu ou effrayant, pas ce qui est confortable. L'ordre spontané - du plus facile au plus difficile - garantit de découvrir le problème bloquant à la S13.
     * Tenu dans **GitHub Projects**, par-dessus les *issues* du dépôt
@@ -218,7 +229,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
     La rencontre se fait **le tableau ouvert** : au lieu de demander « où en es-tu? », on valide les priorités à chaud et les tâches de l'enseignant s'ajoutent au même endroit, dans le même format que celles de l'élève.
 
-!!! tip "Pourquoi le backlog ici et pas à la S5"
+!!! tip "Pourquoi le backlog ici et pas à la S4"
     Un backlog écrit avant le prototype est une liste de features **imaginées**; écrit après, c'est une liste de features **rencontrées**. À la S7, l'élève sait ce qu'une heure de son propre travail produit - et il connaît ses problèmes : sa caméra donne la nausée, sa porte ne s'ouvre pas. C'est la pratique réelle des studios : le backlog de production s'écrit à la fin de la pré-production, une fois que le prototype a désamorcé les risques du design.
 
     Bénéfice pratique : construire son backlog est un travail individuel et silencieux qui ne demande pas la présence de l'enseignant. C'est le meilleur usage possible des deux heures de rotation.
@@ -334,8 +345,8 @@ Trois notes seulement, et **quatre jalons formatifs** entre les deux dernières.
 
 | Évaluation | Séance | Pondération |
 |------------|--------|-------------|
-| **Jeu express** - acquis Unity (environnement, personnage, physique, trigger, scènes, menu, habillage, build) | S4 | 15 % |
-| **GDD** - concept, boucle, scope, niveau, médias prévus, ambiance | S5 | 5 % |
+| **Jeu express** - acquis Unity (environnement, personnage, physique, trigger, scènes, habillage, build) | déposé la veille de la S4 | 15 % |
+| **GDD** - concept, boucle, scope, niveau, médias prévus, ambiance | S4 | 5 % |
 | **Projet final** - jeu complet publié, README et crédits, oral | S15 | 80 % |
 
 Les deux premières arrivent tôt et sont de nature différente : une pratique, qui mesure les gestes Unity de l'objectif 1 en situation, et une écrite, courte, qui sert surtout à verrouiller le scope. Le reste de la session est **formatif** : l'élève construit un seul jeu, encadré, et n'est noté qu'une fois - mais sur un travail dont la trajectoire a été corrigée quatre fois.
@@ -400,25 +411,25 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Logiciels et installation | S1 |
 | Classement des fichiers | S2, S4 (dépôt) |
 | Environnement navigable | S2, S3, S9 |
-| Intégration d'images et de médias visuels | S2, S4, S8, S9 |
-| Sons et échantillons | S4 (survol), S7 (profondeur) |
+| Intégration d'images et de médias visuels | S2, S8, S9 |
+| Sons et échantillons | S3 (survol), S7 (profondeur) |
 | Animation | S3 (rigging), S6 (profondeur) |
 | Configuration d'une caméra 2D | S6, traité en **2.5D** : orthographique, contrainte d'axe, cadrage plat dans un monde 3D |
-| Compilation | S3, S4, puis à chaque jalon; WebGL à partir de S11 |
+| Compilation | S3, puis à chaque jalon; WebGL à partir de S11 |
 
 **Objectif 2 - programmer des actions ludiques pour la progression**
 
 | Savoir | Séances |
 |--------|---------|
-| Notions d'interaction, affordance, agentivité | S1, S5 |
+| Notions d'interaction, affordance, agentivité | S1, S4 |
 | Collisions et déclenchement d'événements | S2, S3 |
 | Transitions de scènes | S2, S6 |
-| Interface virtuelle et menu | S4 |
-| Environnement de programmation | S4 (script fourni), S5 (C#) |
+| Interface virtuelle et menu | S5 |
+| Environnement de programmation | S5 (script fourni, puis C#) |
 | Déplacement d'un personnage | S3 (sans code), S5 |
 | Interactions virtuelles, système clé/porte | S3, S5 |
 | Progression selon la réussite ou l'échec | S3 (ETB + variables), S6, S10 |
-| HUD, indication des réussites et échecs | S4, S8 |
+| HUD, indication des réussites et échecs | S5, S8 |
 | Échantillons sonores déclenchés | S7 |
 | États du personnage détectés et animés | S6 |
 

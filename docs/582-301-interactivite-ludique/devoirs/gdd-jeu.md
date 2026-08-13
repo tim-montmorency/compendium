@@ -26,8 +26,8 @@ Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document 
 
 ## Remise
 
-* **Échéance :** début de la séance 5
-* **Format :** PDF ou lien Figma - le concept et le moodboard iront ensuite dans le README de ton dépôt (créé au cours 5)
+* **Échéance :** fin de la séance 4, après l'atelier et la validation
+* **Format :** PDF ou lien Figma - le concept et le moodboard iront ensuite dans le README de ton dépôt (créé au cours 4)
 * **Évaluation :** sommative - **5 %** de la note finale
 
 !!! tip "Petit et fini"

@@ -1,58 +1,65 @@
 # Cours 4
 
-## Interface, habillage et premier script
+!!! abstract ":material-check-decagram: Remise du jeu express — 15 %"
+    **À déposer la veille du cours.** Environnement navigable, personnage contrôlable, physique, trigger, scènes, habillage, build.
 
-Un jeu sans menu n'est pas un jeu, c'est une scène Unity. Aujourd'hui on ferme la boucle : un écran titre, un HUD, une fin, un habillage — et le premier bout de code de ta vie, qu'on te donne tout écrit.
-
-**Remise du jeu express (15 %) en fin de séance.**
+!!! abstract ":material-check-decagram: Remise du GDD — 5 %"
+    À la fin de la séance, après l'atelier et la validation. Le document est ensuite **verrouillé**.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h10 | Retour, questions |
-| 0h10 – 1h00 | Canvas, TextMeshPro, ancres |
-| 1h00 – 1h30 | Menu titre → jeu → fin |
+| 0h00 – 0h20 | Retour sur les jeux express remis |
+| 0h20 – 1h00 | La boucle de jeu, la victoire, le scope, les 5 pièges |
+| 1h00 – 1h30 | Techniques narratives |
 | 1h30 – 1h45 | Pause |
-| 1h45 – 2h15 | Premier script : lire, brancher, comprendre |
-| 2h15 – 2h50 | Materials |
-| 2h50 – 3h20 | GitHub : dépôt, commit, Projects |
-| 3h20 – 3h35 | Build et remise du jeu express | -->
+| 1h45 – 2h35 | Atelier GDD + validation et verrouillage |
+| 2h35 – 3h05 | GitHub : dépôt, devlog, Projects |
+| 3h05 – 3h25 | Liste de sprint et colonne Won't |
+| 3h25 – 3h35 | Démarrage du greybox | -->
 
-## L'interface
+## Retour sur les jeux express
 
-### Canvas, EventSystem, boutons
+## Concevoir
 
-### TextMeshPro
+### La boucle de jeu : des verbes, pas une ambiance
 
-### Les interfaces de jeu : un petit zoo
+### Les 4 notions d'interaction
 
-### Les 3 règles du HUD
+#### L'interacteur
 
-### Les ancres : tenir à tous les écrans
+#### L'affordance
 
-## Le flux de scènes
+#### L'engagement
 
-### Titre → jeu → fin
+#### L'agentivité
 
-### La pause et `Time.timeScale`
+### La condition de victoire
 
-## Le feedback : la moitié de l'agentivité
+### Le scope : faisons le calcul ensemble
 
-## Ton premier script
+### Les 5 pièges classiques du GDD
 
-!!! note "Le code est donné"
-    Tu ne l'écris pas, tu le **lis** et tu le **branches**. L'objectif du jour est de démystifier, pas d'apprendre à programmer. Ça, c'est la semaine prochaine.
+### Le cahier des charges commun
 
-### Anatomie de ce qu'on te donne
+## Raconter
 
-### Brancher une méthode sur `Button.onClick`
+### Techniques narratives
 
-## Les materials
+#### La narration environnementale
 
-### Albedo, métallique, lissage, émission
+#### *Show, don't tell*
 
-### Les variantes de materials Synty
+#### Raconter par le level design
+
+#### La cinématique minimale
+
+## Atelier GDD
+
+### Écrire
+
+### Valider : cinq minutes, et c'est verrouillé
 
 ## GitHub
 
@@ -62,33 +69,55 @@ Un jeu sans menu n'est pas un jeu, c'est une scène Unity. Aujourd'hui on ferme 
 
 ### Le README comme devlog
 
+### Le devlog : format imposé
+
 ### Créer le tableau GitHub Projects
 
-## Remise du jeu express
+## Planifier (un peu)
 
-## Ressources
+!!! warning "Ce n'est pas encore un backlog"
+    Aujourd'hui : **8 cartes maximum**, un seul objectif — se rendre au prototype jouable du [cours 7](./cours07.md). Le vrai backlog s'écrit là-bas, une fois que le prototype existe et que tu sais ce que coûte une heure de ton propre travail.
 
-## Savoirs essentiels touchés
+### La liste de sprint
+
+### La colonne `Won't` : trois choses que tu ne feras pas
+
+## Démarrer
+
+### Le greybox de ton niveau
+
+## Devoirs
+
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
+
+-->
 
 <!--
 ================================================================
 NOTES DE RÉDACTION — à supprimer une fois la séance écrite
 ================================================================
 À rapatrier depuis .archive/ (voir .archive/MIGRATION.md) :
-  - .archive/cours09.md  § Canvas, EventSystem, boutons
-                         § Les interfaces de jeu : un petit zoo
-                         § Les 3 règles du HUD
-                         § Les ancres
-                         § Le feedback : la moitié de l'agentivité
-                         § Rappel : le flux de scènes
-  - .archive/cours03.md  § Les materials
-                         § Bonus : changer un material en jeu
-  - .archive/cours05.md  § Les materials : la couleur de ton monde
+  - .archive/cours04.md  § La boucle de jeu : des verbes, pas une ambiance
+                         § La condition de victoire
+                         § Le scope : faisons le calcul ensemble
+                         § Les 5 pièges classiques du GDD
+                         § Le cahier des charges commun
+                         § Atelier
+  - .archive/cours05.md  § La validation : cinq minutes, et c'est verrouillé
                          § Le versionning : la ceinture de sécurité
-  - .archive/exercices/cours06-controles-et-premier-script.md (partie script)
-  - .archive/exercices/cours09-camera-hud-et-feedback.md (partie HUD)
+                         § Le greyboxing : valider l'espace avant de le décorer
+  - .archive/cours07.md  § Qu'est-ce qu'une interaction?
+                         § Les 4 notions d'interaction
+  - .archive/cours03.md  § Et maintenant, TON jeu : le GDD
+  - .archive/exercices/cours04-atelier-gdd.md
+  - .archive/exercices/cours05-demarrer-ton-jeu.md
+  - devoirs/gdd.md et devoirs/gdd-jeu.md (pondération 5 % maintenant)
 
-À écrire à neuf : TextMeshPro, le tableau GitHub Projects, la grille
-de correction du jeu express (15 %).
+À écrire à neuf : techniques narratives, devlog (format imposé), tableau
+GitHub Projects, liste de sprint + colonne Won't, grille de correction du
+jeu express (15 %).
+
+ATTENTION — séance sans presque pas de Unity. Terminer par le démarrage
+du greybox pour que les élèves repartent avec l'éditeur ouvert.
 ================================================================
 -->

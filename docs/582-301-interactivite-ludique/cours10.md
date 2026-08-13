@@ -1,9 +1,5 @@
 # Cours 10
 
-## PNJ et intelligence artificielle
-
-Un couloir vide est un couloir. Le même couloir avec quelqu'un qui patrouille dedans est une décision. Aujourd'hui : faire bouger quelque chose qui n'est pas le joueur.
-
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -71,9 +67,9 @@ Un couloir vide est un couloir. Le même couloir avec quelqu'un qui patrouille d
 
 ## Devoirs
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================

@@ -39,7 +39,7 @@ C'est une évaluation des **acquis techniques**, pas du talent de designer. Le j
 
 ## Remise
 
-* **Échéance :** début de la séance 4
+* **Échéance :** **la veille de la séance 4** — on s'en sert en classe pour le retour collectif
 * **Format :** projet compressé + build compressé
 
 !!! warning "Les trois pièges qui coûtent des points chaque session"

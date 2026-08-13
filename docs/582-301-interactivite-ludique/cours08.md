@@ -1,9 +1,5 @@
 # Cours 8
 
-## Particules, VFX et *game feel*
-
-Deux jeux avec exactement les mêmes règles : l'un est mou, l'autre est jouissif. La différence n'est pas dans les règles. Elle est dans les 200 millisecondes qui suivent chaque clic.
-
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -74,9 +70,9 @@ Deux jeux avec exactement les mêmes règles : l'un est mou, l'autre est jouissi
 
 ## Devoirs
 
-## Ressources
+<!-- Savoirs essentiels touchés (note pour l'enseignant) :
 
-## Savoirs essentiels touchés
+-->
 
 <!--
 ================================================================
