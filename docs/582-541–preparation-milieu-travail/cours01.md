@@ -4,7 +4,7 @@
 
 ## Plan de cours
  
-[📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUWwACJgnypNg84pk8frp5gB4ozDwHnxN9N1rCoDW1BLiA?e=rNFy0U){ .md-button }             
+[📋 Consulter le plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQAK1D9_B0MnRqPPbw8c-T6_AU34LwSkj1PsosdSoKqytVg?e=WB0X7n){ .md-button }             
 
 ## Médiagraphie
 [📋 Guide sur la recherche d'emploi](https://la-voie.cssdm.gouv.qc.ca/wp-content/uploads/sites/42/2022/10/CV_guide_recherche_emploi.pdf){ .md-button }             
@@ -14,24 +14,17 @@
 
 ## Capsule du cours
 [🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
-
-## Créer son journal de bord
-Ajout à l'équipe GitHub des stages
-
-[🛠️ Copier le template du journal de préparation](https://github.com/tim-montmorency-preparation-stage/modele_journal_preparation_stage){ .md-button }      
+ 
 
 
 ## Créer son profil     
-Suivre les consignes du document mon_profil.md
+Suivre les consignes du document suivant:
+
+[🛠️ Miro Profil](https://miro.com/app/board/uXjVHxlfmaY=/?share_link_id=629734370388){ .md-button }     
 
       
 ## Chasse aux compétences douces
 
-
-## 5 à 7
-[🛠️ Inscription](https://www.eventbrite.ca/e/billets-activite-de-maillage-laval-carrefour-des-talents-1412761771489?aff=oddtdtcreator){ .md-button }   
-
-Invitations pour la journée carrière? 
 
 
 ## Journée carrière     
@@ -43,6 +36,12 @@ Création d'une liste de tâches
 
 Visite de la salle
 
+## 28 août
+### Présentation sur le portfolio    
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
+
+### Consignes pour le portfolio    
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
 
 
 ## Devoir

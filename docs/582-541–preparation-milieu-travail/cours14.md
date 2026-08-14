@@ -1,4 +1,27 @@
 # Cours 14
+
+
+
+## Retour sur la journée carrière
+Remplir le document bilan_journee_carriere dans GitHub. 
+
+## Autoévaluation et évaluation en groupe des comités
+[🛠️ Formulaire à remplir](https://forms.office.com/r/1ZQX8yAAKu){ .md-button }    
+
+
+## Mes finances, mes choix
+[📁 Quiz d'introduction 1](https://lautorite.qc.ca/grand-public/outils-et-calculateurs/jeux-questionnaires){ .md-button }
+
+* Jeu du chalet  
+ 
+[📁 Gabarit de budget](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfIHotoBNcJIsXsLY3zxppYBNWEMB1aIb3YCwOT62sD4Jw?e=24rj8o){ .md-button }
+
+* Cahier du participant
+
+[📁 Tableau Miro définitions](https://miro.com/app/board/uXjVJr1O44w=/?share_link_id=463831373978){ .md-button }
+
+* Investir sans cravate   
+
  
 ## Guide du travailleur autonome
 [📁 Accéder au guide](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edg24C6YapVOiRO9agjLVsoBkFHpwhdj7osLAUoZNOf7jA?e=VFV52N){ .md-button }
