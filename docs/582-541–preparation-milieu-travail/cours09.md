@@ -21,14 +21,6 @@ Remplir le document contenu_cv sur GitHub.
 
 Démonstration CV de l'an dernier
 
-## Correction des contenus de CV
-En équipes de 2, vérifiez le contenu de votre cv. Voici des pistes à explorer:      
-* Le courriel est professionnel
-* Le titre de l'emploi est juste
-* Les tâches sont concises
-* Les tâches sont claires (Pour les gens qui n'ont jamais fait cet emploi)
-* Orthographe
-* Syntaxe
 
 ## Temps pour avancer votre CV
 [🛠️ Consignes cv](./stages/cv.md){ .md-button }    
@@ -41,6 +33,15 @@ En équipes de 2, vérifiez le contenu de votre cv. Voici des pistes à explorer
 [📁 Réponses questions types d'entrevues](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET_Wz-HYOYJAkQrAam7cvTcB1EkgC1BmvsG3XWmSeYm6qg?e=w5bSvM){ .md-button }  
 
 [📁 Se préparer aux entrevues (Université de Sherbrooke)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX8dYqrpNsVHpvzDCXJ2naIBDuKzkEvUCkd-AMu2FqKX9g?e=omxN6P){ .md-button }  
+
+
+
+## Préparation à la simulation d'entrevue
+Remplir la première partie du document simulation_entrevue sur GitHub. 
+
+## Devoir
+Terminer les documents GitHub sur les candidatures courriel et les simulation d'entrevue. 
+
 
 ## Devoir
 Terminer le portfolio

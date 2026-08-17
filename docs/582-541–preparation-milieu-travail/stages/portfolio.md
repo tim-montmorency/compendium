@@ -22,8 +22,9 @@ Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez
  
 Le format de votre planification de portfolio est libre. La planification doit cependant contenir les éléments suivants: 
 
-#### Compétences
-Nommez les compétences que vous aimeriez utiliser en stage. Ajoutez-en au besoin.:     
+**Compétences**
+Nommez les compétences que vous aimeriez utiliser en stage. Ajoutez-en au besoin.:    
+ 
 - [ ] Designer, coder et publier des sites Web dynamiques    
 - [ ] Réaliser et tourner des vidéos    
 - [ ] Animer des créations 2D et 3D    
@@ -36,8 +37,9 @@ Nommez les compétences que vous aimeriez utiliser en stage. Ajoutez-en au besoi
 - [ ] Collaborer avec diverses disciplines artistiques ou interdisciplinaires    
 
 
-#### Logiciels 
+**Logiciels** 
 Nommez les logiciels avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:     
+
 - [ ] Visual Studio Code
 - [ ] Photoshop
 - [ ] Illustrator
@@ -55,8 +57,9 @@ Nommez les logiciels avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:
 - [ ] MadMapper
 - [ ] Microsoft Teams
 
-#### Langage de programmation
-Nommez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:    
+**Langage de programmation**
+Nommez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.: 
+
 - [ ] HTML
 - [ ] CSS
 - [ ] JavaScript
@@ -66,10 +69,10 @@ Nommez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:
 - [ ] C++ (Arduino)
 - [ ] Connaissance de systèmes de gestion de contenu (CMS)
 
-#### Objectif de carrière
+**Objectif de carrière**
 Insérer votre objectif de carrière dans cette section. 
 
-#### Projet 1 
+**Projet 1** 
 Nom de votre projet:     
 Mention académique ou personnel:     
 Réalisé dans le cadre du cours:        
@@ -83,64 +86,7 @@ Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 p
 Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
 Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
 
-#### Projet 2 
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-
-#### Projet 3 
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-#### Projet 4
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-#### Projet 5 (Optionnel)
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-#### Projet 6 (Optionnel)
+**Projet 2**
 Nom de votre projet:     
 Mention académique ou personnel:     
 Réalisé dans le cadre du cours:        
@@ -155,7 +101,64 @@ Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
 
 
-#### Processus de création
+**Projet 3** 
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+**Projet 4**
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+**Projet 5 (Optionnel)**
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+**Projet 6 (Optionnel)**
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+
+**Processus de création**
 Sélectionnez un de vos projets et insérez son processus de création. À l'aide d'images et de texte vous devez expliquer le processus de création étape par étape de votre projet. 
 
 
@@ -201,23 +204,23 @@ Les éléments suivants doivent être présents dans votre portfolio :
 
 ## Exemples de portfolios
 
-[💼 Portfolio de Mikael Arseneau](https://mikaelarseneau.github.io/portfolio-Mikael-Arseneau/index.html)  
+[💼 Portfolio de Mikael Arseneau](https://mikaelarseneau.github.io/portfolio-Mikael-Arseneau/index.html){ .md-button } 
 
-[💼 Portfolio de Matis Ghariani](https://matisgh.github.io/portfolio-matis-ghariani/)
+[💼 Portfolio de Matis Ghariani](https://matisgh.github.io/portfolio-matis-ghariani/){ .md-button } 
 
-[💼 Portfolio de Anton Nikulin](https://antoha2033.github.io/portfolio-Anton-Nikulin/index.html)
+[💼 Portfolio de Anton Nikulin](https://antoha2033.github.io/portfolio-Anton-Nikulin/index.html){ .md-button } 
 
-[💼 Portfolio de Jade Hebert](https://jadehebert.com/)
+[💼 Portfolio de Jade Hebert](https://jadehebert.com/){ .md-button } 
 
-[💼 Portfolio de Alexandre Gendron](https://alexandregendroncm.github.io/portfolio-alexandre-gendron/)
+[💼 Portfolio de Alexandre Gendron](https://alexandregendroncm.github.io/portfolio-alexandre-gendron/){ .md-button } 
 
-[💼 Portfolio de Patricia Nassif](https://patricia642.github.io/patricia-nassif/)
+[💼 Portfolio de Patricia Nassif](https://patricia642.github.io/patricia-nassif/){ .md-button } 
 
-[💼 Portfolio de Dana Saavedra-Torrano](https://d4n40.github.io/portfolio-dana-saavedratorrano/)
+[💼 Portfolio de Dana Saavedra-Torrano](https://d4n40.github.io/portfolio-dana-saavedratorrano/){ .md-button } 
 
-[💼 Portfolio de Benjamin Ferland](https://benjaminferland.github.io/portfolio-benjamin-ferland/)
+[💼 Portfolio de Benjamin Ferland](https://benjaminferland.github.io/portfolio-benjamin-ferland/){ .md-button } 
 
-[💼 Portfolio de Thearylou Lach](https://thearyl.github.io/portfolio-thearylou-lach/)
+[💼 Portfolio de Thearylou Lach](https://thearyl.github.io/portfolio-thearylou-lach/){ .md-button } 
 
 [💼 Portfolio de Justine Rousseau](https://justinersu.github.io/){ .md-button }    
 

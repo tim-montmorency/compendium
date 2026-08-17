@@ -5,7 +5,7 @@
 ## Plan de cours    
 <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBMvlMIkpWHS6eGXsXelF9tAXhIRBYZTsfjiBCk1EJKL1g?e=Ca1kpk">Plan de cours</a>
 
- ## Calendrier et échéancier automne    
+## Calendrier et échéancier automne    
 
 <table>
        <tr>   </tr>
@@ -48,7 +48,6 @@
 
 </table>    
 
-     
 
 ## Objectifs et modalités    
 <p>
@@ -273,7 +272,7 @@
       
 
 ## Rôles et responsabilités    
-## Du stagiaire    
+### Du stagiaire    
 <p><ul>
 <li>Entretenir de bonnes relations avec l’équipe de travail d'accueil.</li>  
 
@@ -295,7 +294,7 @@
 </ul>
 </p>
 
-## Du ou de la professeur(e) superviseur(e)    
+### Du ou de la professeur(e) superviseur(e)    
 <p><ul>
 <li>Veiller au respect des exigences de stage. </li>  
 
@@ -316,7 +315,7 @@
 </ul>
 </p>
 
-## Du ou de la maître de stage    
+### Du ou de la maître de stage    
 <p><ul>
 <li>En tant que praticien du milieu professionnel, collaborer au développement des compétences professionnelles des stagiaires. </li>  
 

@@ -16,7 +16,7 @@
 
 ## Atelier sur la recherche d'emploi
  
-[🛠️ Activité](https://miro.com/app/board/uXjVHxOBRug=/?share_link_id=127391963492)
+[🛠️ Activité](https://miro.com/app/board/uXjVHxOBRug=/?share_link_id=127391963492){ .md-button }   
  
 
 ### Répertoires pour vous aider dans vos recherches
@@ -107,11 +107,27 @@
 
 </table>
 
+
+## Activité sur l'objectif de carrière
+1. Remplis les trous de la phrase suivante:    
+Je souhaite obtenir un poste de X dans le domaine X, où je pourrai utiliser mes compétences en X et X.
+2. Utilise ton imagination ou une IA pour créer des variantes de formulation. 
+3. Mélange les variantes que tu préfères afin d'obtenir un objectif de carrière personnalisé. 
+
 ## Liste collaborative d'employeurs
-[🛠️ Ajouter 5 entreprises à la liste](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
 
+Ajouter 5 employeurs potentiels à la liste en suivant les consignes: 
 
+- [ ] Mettre le nom de l'entreprise dans la colonne entreprise
+- [ ] Sélectionner le type de compagnie dans la colonne catégorie
+- [ ] Copier l'adresse du site internet dans la colonne site internet
+- [ ] Copier le courriel des ressources humaines dans la colonne courriel
+- [ ] Inscrire le nom d'une personne ressource (RH ou président) dans la colonne personne ressource
+- [ ] Incrire la ville de la compagnie dans la colonne ville
+- [ ] Inscrire votre nom dans la colonne Élève responsable
+- [ ] Les colonnes entreprise contactée et présence à la journée carrière seront utilisées une autre semaine
 
+[🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
 
 
 
