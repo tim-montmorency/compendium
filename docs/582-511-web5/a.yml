@@ -1,0 +1,84 @@
+nav:
+  - Web 5:
+      - 582-511-web5/index.md
+      - CSS Grid:
+        - 582-511-web5/css/grid/intro.md
+        - Conteneur template: 582-511-web5/css/grid/grid-template-cols-rows.md
+        - Espacement: 582-511-web5/css/grid/gap.md
+        - Unités: 582-511-web5/css/grid/unites.md
+        - Placement col row: 582-511-web5/css/grid/grid-col-row.md
+        - Placement area: 582-511-web5/css/grid/grid-area.md
+        - Nommer espaces areas: 582-511-web5/css/grid/grid-template-areas.md
+      - Vue-js:
+        - 582-511-web5/vue/index.md
+        - Intro et installation: 582-511-web5/vue/intro-install.md
+        - Création d'une app: 582-511-web5/vue/creation-app.md
+        - Création app Vue+Vite: 582-511-web5/vue/creation-projet-CLI.md
+        - Données et interpolation: 582-511-web5/vue/interpolation.md
+        - Méthode et événem. v-on: 582-511-web5/vue/methodes-evenements.md
+        - Classe dynamique: 582-511-web5/vue/classe-dynamique.md
+        - Condition v-if: 582-511-web5/vue/condition.md
+        - Tableau[ ]+ boucle v-for: 582-511-web5/vue/boucle.md
+        - Éléments d'un formulaire: 582-511-web5/vue/elements-de-formulaire.md
+        - Propriété calculée: 582-511-web5/vue/propriete-calculee.md
+        - Composant: 582-511-web5/vue/composante.md
+        - Props: 582-511-web5/vue/props.md
+        - Émettre (emit):  582-511-web5/vue/emit.md
+        - SFC:  582-511-web5/vue/sfc.md
+        - Architecture composants: 582-511-web5/vue/architecture-composants.md
+        - View (page): 582-511-web5/vue/view.md
+        - Routes: 582-511-web5/vue/router-and-views.md
+        - Pinia stores: 582-511-web5/vue/pinia.md
+        - Charger json store Pinia: 582-511-web5/vue/pinia-load-data-json.md
+      - Fetch API:
+        - 582-511-web5/fetch.md
+        - Fetch API: 582-511-web5/fetch.html#fetch-api
+        - Promesse JS: 582-511-web5/fetch.html#promesses-javascript
+        - Gestion données reçues: 582-511-web5/fetch.html#gestions-des-donnees-recues
+      - Projet app créative:
+        - 582-511-web5/projets/appweb-creative/index.md
+        - Calendrier: 582-511-web5/projets/appweb-creative/calendrier.md
+        - Intro: 582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.md
+        - Cahier de charges A: 582-511-web5/projets/appweb-creative/cahier_charges_memoires.md
+        - Cahier de charges B: 582-511-web5/projets/appweb-creative/cahier_charges_chemin.md
+        - Fondation du projet: 582-511-web5/projets/appweb-creative/aide-fondation.md
+        - A-Interac-Formulaire et CRUD: 582-511-web5/projets/appweb-creative/memoire-form-CRUD.md
+        - B-Interac-Système conséquences: 582-511-web5/projets/appweb-creative/chemin-tracking-consequences.md
+        - A-Persistance (optionnel): 582-511-web5/projets/appweb-creative/memoire-persistance-donnees.md
+        - QA Controle de la qualité: 582-511-web5/projets/appweb-creative/qa.md
+        - QA Calendrier: 582-511-web5/projets/appweb-creative/qa1-calendrier-qa.md
+        - QA Brief: 582-511-web5/projets/appweb-creative/qa2-template-brief-projet.md
+        - QA Tests externes: 582-511-web5/projets/appweb-creative/qa3-grille-test-externe.md
+        - QA Carte Trello pour bogues: 582-511-web5/projets/appweb-creative/qa4-template-carte-trello.md
+        - QA Rapport final: 582-511-web5/projets/appweb-creative/qa5-template-rapport-complet-qa.md
+        - Déploiement du projet live: 582-511-web5/projets/appweb-creative/deploiement-github-pages.md
+      - Cours 15.2: 582-511-web5/cours15b.md
+      - Cours 15.1: 582-511-web5/cours15a.md
+      - Cours 14.2: 582-511-web5/cours14b.md
+      - Cours 14.1: 582-511-web5/cours14a.md
+      - Cours 13.2: 582-511-web5/cours13b.md
+      - Cours 13.1: 582-511-web5/cours13a.md
+      - Cours 12.2: 582-511-web5/cours12b.md
+      - Cours 12.1: 582-511-web5/cours12a.md
+      - Cours 11.2: 582-511-web5/cours11b.md
+      - Cours 11.1: 582-511-web5/cours11a.md
+      - Cours 10.2: 582-511-web5/cours10b.md
+      - Cours 10.1: 582-511-web5/cours10a.md
+      - Cours 9.2: 582-511-web5/cours09b.md
+      - Cours 9.1: 582-511-web5/cours09a.md
+      - Cours 8.2: 582-511-web5/cours08b.md
+      - Cours 8.1: 582-511-web5/cours08a.md
+      - Cours 7.2: 582-511-web5/cours07b.md
+      - Cours 7.1: 582-511-web5/cours07a.md
+      - Cours 6.2: 582-511-web5/cours06b.md
+      - Cours 6.1: 582-511-web5/cours06a.md
+      - Cours 5.2: 582-511-web5/cours05b.md
+      - Cours 5.1: 582-511-web5/cours05a.md
+      - Cours 4.2: 582-511-web5/cours04b.md
+      - Cours 4.1: 582-511-web5/cours04a.md
+      - Cours 3.2: 582-511-web5/cours03b.md
+      - Cours 3.1: 582-511-web5/cours03a.md
+      - Cours 2.2: 582-511-web5/cours02b.md
+      - Cours 2.1: 582-511-web5/cours02a.md
+      - Cours 1.2: 582-511-web5/cours01b.md
+      - Cours 1.1: 582-511-web5/cours01a.md
