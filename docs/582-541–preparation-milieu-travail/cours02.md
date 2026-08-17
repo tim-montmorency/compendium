@@ -16,7 +16,7 @@
 
 ## Atelier sur la recherche d'emploi
  
-Voir l'onglet RechercheEmploi sur Teams. 
+[🛠️ Activité](https://miro.com/app/board/uXjVHxOBRug=/?share_link_id=127391963492)
  
 
 ### Répertoires pour vous aider dans vos recherches
@@ -117,3 +117,6 @@ Voir l'onglet RechercheEmploi sur Teams.
 
 
 ## Devoir
+Terminer la planification du portfolio. 
+
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        

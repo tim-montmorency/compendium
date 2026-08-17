@@ -12,6 +12,8 @@ Remplir le document objectif sur GitHub.
 [Créateur de Adobe](https://new.express.adobe.com/tools/generate-qr-code) 
 
 
+## Cartes d'affaires
+Rencontre individuelle pour corriger les cartes d'affaires. 
 
 ## Devoir
 Avancer le portfolio.    

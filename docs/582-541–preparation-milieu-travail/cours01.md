@@ -18,9 +18,33 @@
 
 
 ## Créer son profil     
-Suivre les consignes du document suivant:
 
-[🛠️ Miro Profil](https://miro.com/app/board/uXjVHxlfmaY=/?share_link_id=629734370388){ .md-button }     
+[🛠️ Miro Profil](https://miro.com/app/board/uXjVHxlfmaY=/?share_link_id=629734370388){ .md-button }    
+
+### Consignes
+- [ ] Crée une copie du tableau nommé Prénom, nom
+- [ ] Remplace Prénom, nom par ton nom.
+- [ ] Pour la classe, choisis un des éléments suivants: Designer, intégrateur web, modélisateur 3D, Monteur vidéo, concepteur sonore...
+- [ ] Va sur le [site 16 personnalités](https://www.16personalities.com/fr/test-de-personnalite) et effectue le test de personnalité.
+- [ ] Change la couleur de fond du tableau à ton nom par celle de ton type de personnalité.
+- [ ] Fait une capture-écran de la section Traits de personnalité et remplace la cadre 16 personnalités par celle-ci.
+- [ ] Dans la section type, inscrit le type que le test t'a donné.
+- [ ] Pour les sections parcours professionnel, développement personnel et relations, choisis un point fort et un point faible qui te correspondent et transcris-les dans ta fiche.
+- [ ] Pour les compétences, change la couleur des cercles pour indiquer ta compétence avec chaque élément. Tu peux changer les titres et les logiciels. Le but est d'avoir un aperçu de tes meilleures compétences.
+- [ ] Pour ton environnement idéal, voici des choix: petite entreprise, grande entreprise, travailleur autonome, organisme culturel, milieu scolaire...
+- [ ] Mode de travail: Hybride, présence ou à distance?
+- [ ] Stage idéal: un stage encadré ou avec une grande autonomie?
+- [ ] Futur: Milieu du travail, université, voyage, ou indécis?
+- [ ] Territoire: Encercle la zone idéale pour ton stage.
+- [ ] Transport: Comment te déplaces-tu?
+- [ ] Intérêts: Coche les cases des domaines qui t'intéressent pour ton stage.
+- [ ] Compagnies: Trouve 5 compagnies qui pourraient t'intéresser pour ton stage. Insère leur logo avec le lien vers leur site web. Voici des sites pour t'aider à trouver des ressources:
+[XN Québec](https://www.xnquebec.co/repertoire-des-membres/) 
+[Guilde du jeu vidéo](https://www.laguilde.quebec/fr/membres/) 
+[Synthèse](https://polesynthese.com/repertoire/studio-creatif)
+- [ ] Quête: Tente de trouver une quête pour ton personnage! Quel est son objectif dans sa recherche de stage?
+
+ 
 
       
 ## Chasse aux compétences douces
