@@ -35,8 +35,7 @@ Remplir le document bilan_journee_carriere dans GitHub.
 * Travailleur autonome: + 15 à 20%
 
 
-## Le journal de bord
-* Présentation de la grille de correction
+## Suivi sur les stages
 * Explication de la prise de rendez-vous
 
 ## Finances

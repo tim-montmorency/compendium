@@ -1,13 +1,20 @@
 # Cours 9
 
 ## Activité sur le cv 
-Qu'est-ce que doit contenir un cv?     
+Qu'est-ce que doit contenir un cv?  
 
-Voir l'onglet ActiviteCV sur Teams. 
+Insérer les éléments nécessaires selon vous ici: 
 
-## Activité sur le contenu de votre CV
-Remplir le document contenu_cv sur GitHub.
 
+[🛠️ Activité CV](https://miro.com/app/board/uXjVHxRM6E8=/?share_link_id=18427745299){ .md-button }   
+
+
+
+## Création du contenu de votre CV
+
+Réaliser l'activité suivante:      
+
+[🛠️ Contenu CV](./activites/contenu-cv.md){ .md-button }   
 
 ## Présentation sur le cv   
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVyO4I6ZyrpItmxxqMTH2bMBkqWKR6zRhRTug3VbdkKmkA?e=4HOTYb){ .md-button }  
@@ -37,11 +44,12 @@ Démonstration CV de l'an dernier
 
 
 ## Préparation à la simulation d'entrevue
-Remplir la première partie du document simulation_entrevue sur GitHub. 
+Réaliser l'activité suivante:      
+
+[🛠️ Préparation à la simulation d'entrevue](./activites/simulation-entrevue.md){ .md-button }   
 
 ## Devoir
-Terminer les documents GitHub sur les candidatures courriel et les simulation d'entrevue. 
+- [ ] Avancer le CV.
+- [ ] Terminer la préparation à la simulation d'entrevue. 
 
 
-## Devoir
-Terminer le portfolio

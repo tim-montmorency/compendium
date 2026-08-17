@@ -2,22 +2,23 @@
 
 ## Tâches
 
-- [ ] Inviter nouvelles entreprises
-- [ ] Prendre photo pro
+- [ ] Inviter de nouvelles entreprises
+- [ ] Prendre photos pro
 - [ ] Avancer les comités
 - [ ] Simuler votre entrevue
-- [ ] Remplir le github après l'entrevue
-- [ ] Avancer portfolio
+- [ ] Remplir l'activité après l'entrevue
 
 ## Dernières invitations
 [🛠️ Modèle courriel](./stages/journeeCarriere.md){ .md-button }    
 
 Vous devez inviter les entreprises à votre nom qui sont encore en blanc dans la section à contacter:  
-[🛠️ Liste d'entreprises](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfoMe3Rzg7FGihjnoKGn7OcBMEdYWxjf1mPycznkJt4y1A?e=hdsfDi){ .md-button }    
+[🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
 
 
 ## Simulations d'entrevues
-Après votre entrevue, remplissez la deuxième partie du document simulation_entrevue dans votre journal de bord. 
+Après votre entrevue, répondez aux questions de l'activité suivante: 
+
+[🛠️ Retour sur la simulation d'entrevue](./activites/apres-simulation.md){ .md-button }   
 
 
 ## Prise de photos
@@ -28,4 +29,4 @@ Photo pro pour votre Linkedin.
 
 
 ## Devoir
-Terminer la lettre de présentation
+- [ ] Terminer le CV

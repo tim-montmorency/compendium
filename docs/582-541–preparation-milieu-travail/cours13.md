@@ -6,8 +6,7 @@ Tous les groupes sont présents le 9 novembre pendant la journée de rattrapage 
 
 ## À préparer avant la journée carrière
 - [ ] Terminer et remettre le devoir Prérequis pour la journée carrière dans l'équipe Stage TIM - 2026
-- [ ] Remplir les pages 01 à 11 dans votre journal de bord sur GitHub.
-- [ ] Porter une attention particulière à 11_recherche_entreprise. Vous devez répondre aux questions pour les 3 entreprises que vous souhaitez rencontrer en priorité à la journée carrière. Ce devoir est votre préparation pour la rencontre. Prenez également le temps de visiter le site web des autres entreprises que vous avez mentionnées dans vos intérêts.
+- [ ] Effectuer des recherches sur les entreprises présentes à la journée carrière
 - [ ] Terminer vos tâches de comité. 
 
 
@@ -30,13 +29,12 @@ Tous les groupes sont présents le 9 novembre pendant la journée de rattrapage 
 
 ## À faire après la journée carrière
 - [ ] Transmettre votre candidature aux employeurs rencontrés qui vous intéressent réellement pour confirmer votre intérêt. 
-- [ ] À chaque fois que vous transmettez une candidature: L'ajouter dans le fichier 12_suivi_candidatures_stage sur GitHub.
+- [ ] À chaque fois que vous transmettez une candidature: L'ajouter dans votre fichier de suivi. 
 
 ## Si vous recevez une offre de stage 
 - [ ] Compléter le devoir Informations sur ton stage dans l'équipe Stage Tim - 2026.
 - [ ] Avertir Lora sur teams. 
 
 
-
 ## Devoir
-À partir de maintenant, faire des suivis dans le document suivi_candidatures_stage dès que vous faites des démarches. 
+À partir de maintenant, faire des suivis dans votre fichier de suivi dès que vous faites des démarches. 
