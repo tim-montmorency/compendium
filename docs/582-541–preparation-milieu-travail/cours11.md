@@ -41,4 +41,4 @@ Remplir le document linkedin dans GitHub.
 
 
 ## Envoi des premières candidatures
-Pour les compagnies non-présentes à la journée carrière
+Pour les compagnies non-présentes à la journée carrière. 
