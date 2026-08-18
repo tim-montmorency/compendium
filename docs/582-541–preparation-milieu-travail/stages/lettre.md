@@ -56,6 +56,7 @@ Votre lettre doit contenir les sections suivantes:
 - [ ] Rédaction (La lettre est personnalisée et est sérieuse. Elle est honnête et vous met bien en valeur.)
 - [ ] Qualité du français
 - [ ] Mise en page (Les sections sont clairement identifiées et bien séparées, l'interligne est présent et la mise en page est épurée)
+- [ ] Identité visuelle (Vous devez faire un clin d'oeil à votre identité visuelle dans la lettre, sans alourdir sa présentation)
 
 ## Date de remise
 * **2 novembre**: Remise de la lettre pour les étudiants d'Enric
@@ -64,7 +65,7 @@ Votre lettre doit contenir les sections suivantes:
 
 ## Grille d'évaluation 
 
-| Critère | % | Excellent — 4 | Bon — 3 | À travailler — 2 | Non présent — 1 |
+| Critère | % | Excellent — 4 | Bon — 3 | À travailler — 2 | Absent — 1 |
 |---|---:|---|---|---|---|
 | **Identification de la lettre** | **10** | Toutes les informations sont présentes et bien présentées. | La plupart des informations sont présentes. | Il manque plusieurs informations ou la présentation manque de clarté. | Élément absent |
 | **Premier paragraphe** | **15** | Le premier paragraphe démontre votre connaissance de l'entreprise et du poste pour lequel vous appliquez. Vous parlez de ce que vous pouvez leur apporter. | Le premier paragraphe démontre une connaissance de base de l'entreprise et du poste pour lequel vous appliquez. Vous parlez un peu de ce que vous pouvez leur apporter. | Le premier paragraphe n'est pas personnalisé à l'entreprise pour laquelle vous appliquez. Le poste pour lequel vous appliquez ne semble pas clair. Vous parlez un peu de ce que vous pouvez leur apporter. | Élément absent |
