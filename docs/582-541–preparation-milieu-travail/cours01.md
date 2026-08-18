@@ -61,10 +61,10 @@ Discussion sur les comités
 Création d'une liste de tâches
 
 
-### Présentation sur le portfolio    
+## Présentation sur le portfolio    
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
-### Consignes pour le portfolio    
+## Consignes pour le portfolio    
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
 
 
