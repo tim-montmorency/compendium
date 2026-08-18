@@ -13,7 +13,10 @@ Votre carte devrait être en adéquation avec l'identité visuelle de votre port
 [🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }    
 
 
-## Demo reel
+## Démo-reel
+
+[📺 Activité démo-reel](./activites/demo-reel){ .md-button }
+
 
 ## Formation des comités pour la journée carrière
 [🛠️ Comités](./stages/journeeCarriere.md){ .md-button }    
