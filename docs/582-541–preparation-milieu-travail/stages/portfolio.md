@@ -4,7 +4,7 @@
 ## Description
 Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels. Pour le cours de préparation au milieu de travail, c'est le contenu de ce portfolio qui sera évalué.
 
-[➜ Instructions spécifiques au cours de **Web 5**](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html){ .md-button }
+[➜ Instructions spécifiques au cours de **Web 5**](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio/){ .md-button }
 
 
 ## Technologies permises
@@ -194,7 +194,7 @@ Les éléments suivants doivent être présents dans votre portfolio :
 
 ### Grille de correction
 
-| Critère | Pondération | Excellent — 4 | Super — 3 | À retravailler — 2 | Insuffisant — 1 |
+| Critère | % | Excellent — 4 | Super — 3 | À retravailler — 2 | Insuffisant — 1 |
 |---|---:|---|---|---|---|
 | **Description des projets** | **20** | La description du projet qu'on vous a demandé et du projet que vous avez réalisé est claire et détaillée. Elle nous permet de bien comprendre le contexte de réalisation et le produit final. | La description du projet qu'on vous a demandé et du projet que vous avez réalisé est assez claire. Elle nous permet de comprendre le contexte de réalisation et le produit final. | La description du projet qu'on vous a demandé et du projet que vous avez réalisé est à retravailler. Elle nous permet de comprendre sommairement le contexte de réalisation et le produit final. | La description ne permet pas de comprendre le projet réalisé ou son contexte, le tout devra être retravaillé. |
 | **Documentation des projets** | **20** | Tous les projets sont supportés par une documentation claire et pertinente. La qualité des médias est impeccable. Le support nous aide à comprendre le projet. | La plupart des projets sont supportés par une documentation claire et pertinente. La qualité des médias est bien. Le support nous aide à comprendre le projet. | Quelques projets sont supportés par une documentation claire et pertinente. La qualité des médias est à travailler. Le support devrait être clarifié pour nous aider à comprendre le projet. | La documentation des projets doit être retravaillée. Elle n'est pas suffisante pour un document professionnel. |

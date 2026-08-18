@@ -47,7 +47,7 @@ Vous serez également évalués sur les éléments suivants:
 ## Grille d'évaluation 
 
 
-| Critère | Points | Excellent — 4 | Bon — 3 | Moyen — 2 | À travailler — 1 |
+| Critère | % | Excellent — 4 | Bon — 3 | Moyen — 2 | À travailler — 1 |
 |---|---:|---|---|---|---|
 | **Objectif de carrière** | **5** | L'objectif est présent et bien rédigé. | L'objectif est présent mais il manque de clarté ou de précision. | L'objectif est présent mais il est très général ou peu développé. | L'objectif est absent ou incompréhensible. |
 | **Section identification** | **5** | Nom, adresse, numéro de téléphone, courriel professionnel, aucun renseignement privé. | La plupart des informations importantes sont présentes mais il manque un élément. | Plusieurs informations importantes sont absentes ou incorrectes. | Les informations d'identification sont incomplètes ou inadaptées. |

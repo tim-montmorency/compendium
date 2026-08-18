@@ -64,7 +64,7 @@ Votre lettre doit contenir les sections suivantes:
 
 ## Grille d'évaluation 
 
-| Critère | Pondération | Excellent — 4 | Bon — 3 | À travailler — 2 | Non présent — 1 |
+| Critère | % | Excellent — 4 | Bon — 3 | À travailler — 2 | Non présent — 1 |
 |---|---:|---|---|---|---|
 | **Identification de la lettre** | **10** | Toutes les informations sont présentes et bien présentées. | La plupart des informations sont présentes. | Il manque plusieurs informations ou la présentation manque de clarté. | Élément absent |
 | **Premier paragraphe** | **15** | Le premier paragraphe démontre votre connaissance de l'entreprise et du poste pour lequel vous appliquez. Vous parlez de ce que vous pouvez leur apporter. | Le premier paragraphe démontre une connaissance de base de l'entreprise et du poste pour lequel vous appliquez. Vous parlez un peu de ce que vous pouvez leur apporter. | Le premier paragraphe n'est pas personnalisé à l'entreprise pour laquelle vous appliquez. Le poste pour lequel vous appliquez ne semble pas clair. Vous parlez un peu de ce que vous pouvez leur apporter. | Élément absent |
