@@ -13,9 +13,11 @@ Votre carte devrait être en adéquation avec l'identité visuelle de votre port
 [🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }    
 
 
-## Démo-reel
+## Demo reel
 
-[📺 Activité démo-reel](./activites/demo-reel){ .md-button }
+Présentation du projet de demo reel ou bande de démonstration.
+
+[🛠️ Consignes demo reel](./activites/demo-reel){ .md-button }
 
 
 ## Formation des comités pour la journée carrière
@@ -25,7 +27,7 @@ Votre carte devrait être en adéquation avec l'identité visuelle de votre port
 
 ## Devoir  
 - [ ] Terminer la carte d'affaire.
-- [ ] Avancer le Demo reel.
+- [ ] Avancer le demo reel.
 - [ ] Avancer le portfolio.
 
 
