@@ -60,9 +60,7 @@ Discussion sur les comités
 
 Création d'une liste de tâches
 
-Visite de la salle
 
-## 28 août
 ### Présentation sur le portfolio    
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
