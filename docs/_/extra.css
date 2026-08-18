@@ -774,8 +774,13 @@ stop:before {
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-}
 
+
+
+}
+/* =========================
+   Styles de projet (ajout Marie-Michelle)
+   ========================= */
 :root{
   --proj-coral: oklch(72% 0.14 27);
   --proj-teal: oklch(72% 0.12 200);
@@ -788,7 +793,6 @@ stop:before {
   --proj-divider: oklch(28% 0.015 264);
   --proj-divider-2: oklch(32% 0.02 264);
 }
-
 .proj-content{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--proj-text);max-width:900px;}
 .proj-content h1{font-size:26px;font-weight:800;letter-spacing:.01em;margin:0 0 16px;color:#fff;}
 .proj-content h2{font-size:18px;font-weight:700;color:#fff;margin:32px 0 16px;padding-top:20px;border-top:1px solid var(--proj-divider);}
@@ -846,13 +850,13 @@ stop:before {
 .proj-mini-card-head strong{font-size:13px;color:#fff;}
 .proj-mini-card p{font-size:12px;line-height:1.6;color:var(--proj-text-dim);margin:0;}
 
-/* stat block  */
+/* stat block (40%) */
 .proj-stat-block{display:flex;align-items:center;gap:18px;background:var(--proj-card-bg);border:1px solid var(--proj-card-border);border-radius:8px;padding:16px 20px;}
 .proj-stat-block .proj-stat{font-size:34px;font-weight:800;color:var(--proj-coral);flex:none;}
 .proj-stat-block p{font-size:13px;line-height:1.65;margin:0;}
 .proj-stat-block strong{color:#fff;}
 
-/* section labels  */
+/* section labels (formative / sommative) */
 .proj-section-label{display:flex;align-items:center;gap:8px;margin-bottom:14px;font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;}
 .proj-section-label::before{content:"";width:9px;height:9px;border-radius:50%;flex:none;}
 .proj-label-teal{color:var(--proj-teal);}
@@ -887,6 +891,23 @@ stop:before {
   .proj-role-grid,.proj-tech-grid,.proj-check-grid-2,.proj-two-col,.proj-deliverable-grid,.proj-stepper{grid-template-columns:1fr;}
   .proj-stepper::before{display:none;}
 }
+
+/* ===== Overrides contre les styles de base du site =====
+   Le sélecteur double #proj1a.proj-content augmente la spécificité
+   (id + classe) pour battre les règles génériques du site (h2, ul, li)
+   sans avoir besoin de !important. Placé en fin de feuille de style
+   pour aussi gagner en cas d'égalité de spécificité. */
+#proj1a.proj-content h2{font-size:18px;font-weight:700;margin:32px 0 16px;padding-top:20px;border-top:1px solid var(--proj-divider);color:#fff;}
+#proj1a.proj-content ul{margin:0;padding:0;}
+#proj1a.proj-content .proj-check-list,
+#proj1a.proj-content .proj-check-grid-2{list-style:none;}
+#proj1a.proj-content .proj-check-list li,
+#proj1a.proj-content .proj-check-grid-2 li{padding-left:22px;}
+#proj1a.proj-content .proj-deliverable-grid ul{padding:0 6px 0 18px;}
+#proj1a.proj-content .proj-final-block ul{padding-left:18px;}
+
+
+
 
 /* =========================
    FINITIONS (ajout Marie-Michelle)
