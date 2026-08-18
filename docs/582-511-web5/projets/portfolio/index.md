@@ -51,7 +51,7 @@
 
 <div class="proj-callout">
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.8"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/></svg>
-  <div><strong>Format du livrable</strong> — un site fait entièrement à la main, sans CMS ni thème préfabriqué. C'est ce qui démontre le mieux que vous savez concevoir et coder un site de zéro, une compétence directement valorisée par les employeurs du milieu.</div>
+  <div><strong>Format du livrable</strong> : un site fait entièrement à la main, sans CMS ni thème préfabriqué. C'est ce qui démontre le mieux que vous savez concevoir et coder un site de zéro, une compétence directement valorisée par les employeurs du milieu.</div>
 </div>
 
 <div class="proj-block">
@@ -79,7 +79,7 @@
 </div>
 
 <div class="proj-block">
-  <div class="proj-block-title">Journal de bord — 5 questions à chaque bloc de cours</div>
+  <div class="proj-block-title">Journal de bord : 5 questions à chaque bloc de cours</div>
   <div class="proj-timeline">
     <ol>
       <li><span class="proj-num">1</span><span class="proj-q">Qu'est-ce que j'ai accompli depuis le dernier bloc?</span></li>
@@ -103,7 +103,7 @@
 </div>
 
 <div class="proj-callout proj-callout-amber" style="margin-bottom:32px;">
-  <strong>Utilisation de l'IA</strong> — permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.
+  <strong>Utilisation de l'IA</strong> : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.
 </div>
 
 <h2>Critères d'évaluation</h2>
@@ -114,8 +114,8 @@
 
 <h2>Modalités d'évaluation et dates de remise</h2>
 
-<div class="proj-section-label proj-label-teal">Remises formatives — ne comptent pas dans la note finale</div>
-<p class="proj-subtext proj-indent">Ces trois étapes vous permettent de recevoir des rétroactions concrètes et d'ajuster votre travail avant la remise finale — c'est là que se construit la qualité de votre portfolio.</p>
+<div class="proj-section-label proj-label-teal">Remises formatives : ne comptent pas dans la note finale</div>
+<p class="proj-subtext proj-indent">Ces trois étapes vous permettent de recevoir des rétroactions concrètes et d'ajuster votre travail avant la remise finale : c'est là que se construit la qualité de votre portfolio.</p>
 
 <div class="proj-stepper">
   <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Semaine 2</div><div class="proj-step-title">Planification</div></div>
@@ -144,7 +144,7 @@
   </ul>
 </div>
 
-<div class="proj-section-label proj-label-coral">Remise finale — sommative, compte pour 40% de la note</div>
+<div class="proj-section-label proj-label-coral">Remise finale : sommative, compte pour 40% de la note</div>
 <div class="proj-final-block">
   <div class="proj-final-num">
     <div class="proj-final-circle">4</div>
