@@ -1,13 +1,11 @@
 # Cours 7
 
-## ⚠️ Heure des cours modifié
-Tous les groupes font une visite le 14 octobre. 
+## 🚨 Remise et présentation du portfolio 
 
-Adresse: 1 Place Ville Marie, #12102, Montréal, QC H3B 3Y1
+## Évaluation formative du portfolio d'un collègue
 
-Conférence: 12h30 à 14h
+## Correction des portfolios
 
-## Programme
-Visite de l'agence
-Présentation de l'agence
-Présentation sur le marché du travail
+
+## Devoir
+Corriger le portfolio selon les commentaires reçus. 

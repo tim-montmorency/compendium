@@ -1,11 +1,15 @@
 # Cours 8 
 
-## 🚨 Remise et présentation du portfolio 
+## ⚠️ Heure des cours modifié
+Tous les groupes vont font une visite le 14 octobre. 
 
-## Évaluation formative du portfolio d'un collègue
+Adresse:
 
-## Correction des portfolios
+Conférence: 12h30 à 14h
+
+## Programme
+Visite de l'agence
+Présentation de l'agence
+Présentation sur le marché du travail
 
 
-## Devoir
-Corriger le portfolio selon les commentaires reçus. 

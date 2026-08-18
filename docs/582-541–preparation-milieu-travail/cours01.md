@@ -12,10 +12,6 @@
 [📋 Activités pour aller plus loin](https://cdn.careercruising.com/clientservice/Activit%C3%A9s%20de%20recherche%20d'emploi.pdf){ .md-button }
 
 
-## Capsule du cours
-[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
- 
-
 
 ## Créer son profil     
 
@@ -44,21 +40,16 @@
 [Synthèse](https://polesynthese.com/repertoire/studio-creatif)
 - [ ] Quête: Tente de trouver une quête pour ton personnage! Quel est son objectif dans sa recherche de stage?
 
-
-      
-## Chasse aux compétences douces
-
-## Créer sa structure
-Dans le cadre du cours, plusieurs documents écrits seront créés. À vous de décider si vous voulez faire les exercices papier, dans un document word ou autre. Si jamais vous souhaitez réaliser le tout dans Github, vous pouvez copier le modèle suivant:     
-
-[🛠️ Modèle GitHub](https://github.com/tim-montmorency-preparation-stage/modele_preparation-stage-2026.git){ .md-button } 
+## Capsule du cours
+[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
+ 
 
 ## Journée carrière     
 Discussion sur les comités   
 
 ![Journee2023](image/PXL_20231108_182433460.MP.jpg)
 
-Création d'une liste de tâches
+
 
 
 ## Présentation sur le portfolio    
@@ -67,6 +58,8 @@ Création d'une liste de tâches
 ## Consignes pour le portfolio    
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
 
+
+## Activité sur l'identité visuelle
 
 ## Devoir
 Recherche de projets pour votre portfolio. Au prochain cours vous devez apporter les images, captures écrans et vidéos.

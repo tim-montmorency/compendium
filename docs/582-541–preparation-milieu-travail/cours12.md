@@ -6,6 +6,13 @@
 Évaluation de la lettre d'un collègue
 
 
+## Présentation sur la réputation numérique et LinkedIn
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
+
+## Création d'un profil LinkedIn
+Réaliser l'activité suivante:      
+
+[🛠️ Profil linkedin](./activites/linkedin.md){ .md-button }   
 
 ## Rédiger une candidature
 [🛠️ Courriel Stage](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETGMt9JgHCRItRu1tpKrgDcBrqPqN-blpKqOIh929QCoAg?e=A0Yk4Y){ .md-button }     
