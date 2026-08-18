@@ -2,7 +2,8 @@
 
 <!-- ![](./assets/img/get-in.jpg){.w-100} -->
 
-*[URP] : Universal Render Pipeline
+*[URP]: Universal Render Pipeline
+*[CES]: Collision Event System
 
 ## Commencer un nouveau jeu
 
@@ -66,20 +67,20 @@ Voici une structure suggérée.
 
     Utilisez la convention _Pascal Case_ (ex. : MonBeauDossier) ou _Pascal Snake Case_ (ex. : Mon_Beau_Dossier).
 
-## Demo
+## Démo
 
 ![](./assets/img/glasses-anime.gif){.w-100}
 
 ### Mise en place
 
-- Modifier la structure de fichiers
+1. Modifier la structure de fichiers
 
-- Ajoutez un cube et renommer le « Plancher »
-- Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
-- L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
+1. Ajoutez un cube et renommer le « Plancher »
+1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
+1. L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
 
-- Ajouter un autre cube et renommer le « Pente »
-- Changer sa dimension/position/échelle pour créer une pente qui donne vers le plancher <br>![](./assets/img/pente.png){data-zoom-image .w-10} 
+1. Ajouter un autre cube et renommer le « Pente »
+1. Changer sa dimension/position/échelle pour créer une pente qui donne vers le plancher <br>![](./assets/img/pente.png){data-zoom-image .w-10} 
 
 !!! info "Gizmo"
 
@@ -87,114 +88,223 @@ Voici une structure suggérée.
 
     Notez qu'on voit maintenant la caméra et la lumière directionnelle (soleil)
 
+!!! info "Raccourci : ++f++ (zoom sur un objet)"
+
+<!-- !!! info "Positionner un élément sur une surface"
+
+    Quand on glisse un élément du panneau Project sur la scène, vous verrez que celui-ci se positionne SUR les surfaces.
+
+    Ensuite, le repositionnement ne suit plus cette logique. Sauf si on utilise le raccourci : ++ctrl+shift++ + `drag`. -->
+
 ### Physique
 
 ![](./assets/img/physics.webp){.w-50}
 
-- Noter la notion de collider sur le « Plancher »
+- Noter la notion de _collider_ sur le « Plancher »
+
+  > :material-arrow-collapse-horizontal: Un collider est une carapace invisible qui permet au moteur physique de Unity de détecter les collisions et d'empêcher les objets de se traverser.
+
 - Ajouter une sphère en haut de la pente
-
-!!! info "Petit truc"
- 
-    ++ctrl+shift++ + `drag` le carré central pour positionner l'élément sur la surface d'un autre gameobject"
-
-!!! info "Donner le shortcut ++f++ pour zoomer sur un objet"
-
-- Play 🤨
+- Play<br>![](./assets/img/decu.jpg){.w-20}
 - Stop
-- Ajouter un RigidBody à la sphere via « Add Component »
 
-!!! info "Rigidbody"
+  !!! tip "Attention au mode Play"
 
-    Rigidbody, ça ajoute une masse à un objet et par défaut, ça utilise la gravité. Autrement dit, on active la physique pour cet objet.
+      Lorsque vous effectuez des modifications en mode ***Play***, sachez qu'elles sont temporaire et qu'elles disparaîtront après le ***Stop***.
 
-- Play 👌<br>![](./assets/img/demo-rigidbody.webp){data-zoom-image .w-10} 
+#### RigidBody
+
+- Ajouter un ***RigidBody*** à la sphere via `Add Component` dans le panneau _Inspector_
+
+    > :material-food-apple: Rigidbody, ça ajoute une masse à un objet et par défaut, ça applique la gravité.
+
+- Play<br>![](./assets/img/demo-rigidbody.webp){data-zoom-image .w-10} 
 - Stop
+
+#### Collider
+
+C'est cool les _Colliders_, mais c'est avec des Rigidbody qu'on en voit l'utilité.
+
+Selon la forme des objets, les colliders changent. Par défaut, une sphère a un collider sphérique. 
+
+Pour le fun : 
 
 - Désactiver ***Sphere Collider*** de la sphère
-- Ajouter un ***Box Collider*** via « Add Component »
-
-- Play 🤗<br>![](./assets/img/demo-collider.webp){data-zoom-image .w-10} 
+- Ajouter un ***Box Collider*** via `Add Component`
+- Play<br>![](./assets/img/demo-collider.webp){data-zoom-image .w-10} 
 - Stop
-
 - Remet le ***Sphere Collider*** pour la suite
 
-!!! info "Murs invisibles"
+### Mesh Renderer
 
-    Les murs invisibles servent à confiner le joueur dans une zone définie sans bloquer la vue. Idéalement, leur placement doit paraître naturel pour ne pas frustrer le joueur ou ressembler à un bogue.
+![](./assets/img/Mesh-Renderer.png){.w-50 data-zoom-image}
 
-    Pour en créer un, ajoutez simplement un cube et décochez son **Mesh Renderer**.<br>![](./assets/img/invisible-wall.png){data-zoom-image .w-10} 
+Le _Mesh Renderer_ c'est l'enveloppe, le manteau de la forme. C'est ce qu'on voit au final. Ça utilise ce qu'on appelle un _shader_ pour afficher une surface, mais bon, on y reviendra une fois.
+
+!!! question "Pourquoi on désactiverait ça ?"
+
+    Super utile ! 
+
+    ![](./assets/img/mesh-renderer-wall.png){data-zoom-image .w-25} 
     
-    L'objet gardera ses propriétés de collision tout en devenant invisible.
+    On veut parfois limiter le déplacement d'un personnage sans l'afficher explicitement.
+    
+    Par exemple, une fin de map, ou encore, un pont quand on ne veut pas que le personnage tombe sur les côtés, ce genre de chose.
 
-### Action / réaction
+    <div class="grid" markdown>
+    ![](./assets/img/mesh-renderer-wall-visible.webp){data-zoom-image}
 
-#### Faire disparaitre un GameObject
+    ![](./assets/img/mesh-renderer-wall-invisible.webp){data-zoom-image}
+    </div>
 
-![](./assets/img/snap.gif){.w-50}
+### Mesh Filter
 
-Le but ici est d'entrer dans une zone et activer/désactiver quelque chose d'autre. Pour nous faciliter la vie, ajoutons d'abord [Enhanced Trigger Box](./extra/assets/index.md){.back} à nos assets. 
+![](./assets/img/Mesh-Filter.png){.w-50 data-zoom-image}
 
-- `Project` > `Enhanced Trigger Box` > `Prefabs` > `ETB`. Glisse une instance sur la scène.<br>![](./assets/img/demo-etb.png){data-zoom-image .w-10} 
-- Assigne le tag « Player » à la Sphere.
-- Dans `Inspector` > `Enhanced Trigger Box (Script)` > `On Trigger`, clic sur le + et ajoute ***Modify Gameobject***.
-- Dans le champ `Obj` : Glissez-y le GameObject « Pente »
-
-- Play<br>![](./assets/img/demo-etb.webp){data-zoom-image .w-10} 
-
-#### Téléporter un GameObject
-
-![](./assets/img/teleport-goku.gif){.w-50}
-
-- Créer un GameObject vide et renommer le « Portal »
-- Positionnez le en haut de la Pente
-
-- Dans `Inspector` > `Enhanced Trigger Box (Script)` > `On Trigger`, supprimer ***Modify Gameobject***.
-- Ajouter `Teleport`
-- Glisser la Sphere dans le champ `Target Object`
-- Ajouter « Portal » dans le champ `Destination`
-- Finalement, dans `After Trigger`, choisir `Do Noting`
-- Play<br>![](./assets/img/demo-teleport.webp){data-zoom-image .w-10} 
-
-### Exemples ETB
-
-***Enhanced Trigger Box*** vient avec une scène d'exemple pour montrer toutes les fonctionnalités possibles. 
-
-- `Project` > `Enhanced Trigger Box` > `Examples`, cliquez sur la scène Examples.
-
-![](./assets/img/ETB-examples.png){data-zoom-image .w-50}
+Finalement, le _Mesh Filter_ c'est le squelette géométrique (juste des points et des polygones). C'est un peu l'équivalent des vecteurs d'une image vectorielle.
 
 ---
 
-![](./assets/img/exercice.jpg)
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/gravite/giphy.gif){.aspect-4-3}
 
-### Scene
+  <small>Exercice - Unity</small><br>
+  **[Isaac Newton](./exercices/gravite/index.md){.stretched-link .back}**<br>
+</div>
 
-![type:video](./assets/video/scene-ex.webm){.h-auto}
+## Action / réaction
 
-Les scènes en Unity sont différents lieux ou interfaces qui sont traditionnellement séparés par un écran de chargement.
+![](./assets/img/action-reaction.gif){.aspect-16-9}
 
-Pour créer une nouvelle scène, dans le dossier scène, clic-droit > `Create` > `Scene` > `Scene`.
+La base d'une jeu vidéo c'est d'effectuer une action et que cette action a une répercussion. En Web, le classique c'est le lien ou le bouton. On click et il se passe quelque chose.
 
-!!! info "Skybox manquant ?"
+En jeu vidéo, il y a ça et plus encore. Quand on contrôle un personnage, celui ci interagit avec son environnement. Que ce soit lorsqu'il tire un ennemi ou lorsqu'il tombe dans un trou, une réaction se produit.
 
-    ![](./assets/img/no-sky.png){data-zoom-image .w-25}
+En Unity, on parle surtout de **collision**. Quand le projectif entre en collision avec l'ennemie ou quand le personne tombe dans le trou, il entre en collision avec le trou, il se passe telle ou telle chose.
 
-    `Window` > `Rendering` > `Lighting` > onglet `Environment` → `Skybox Material` : assigne `Default-Skybox`
+## Collision Event System (CES)
 
-#### Changer de scène
+![](./assets/img/demo-etb.png){.w-50 data-zoom-image}
 
-Pour changer de scène, il faut d'abord configurer les scènes du build. On doit mentionner manuellement à Unity les scènes qui font officiellement parti de notre jeu.
+Pour faciliter la gestion des événements liés à des collisions, installons le package [Collider Event System](./extra/assets/index.md#collision-event-system).
 
-- `File` > `Build Profiles`
-- Dans la colonne de gauche, clic sur `Scene List`
-- Il faut glisser manuellement les scènes de notre jeu dans cette case !<br>![](./assets/img/scene-list.png){data-zoom-image} 
+Dans le panneau _Project_, glissez un prefab du package sur la scène. 
 
-Un fois les scènes ajoutées dans la liste, on peut utiliser un ETB (_Enhanced Trigger Box_) pour déclencher un changement de scène.
+Ex : `Packages` > `Collider Event System` > `Prefabs` > `Trigger Cube`
 
-- Dans la liste des réponses, choisir `Load Scene`
-- Dans `Load Level Name`, inscrire le nom **EXACTE** de la scène vers où il faut se diriger
-- Play<br>![](./assets/img/poulet.webp){data-zoom-image .w-10}
+1. Positionnez le à l'endroit où vous voulez effectuer une détection de collision.
+1. Dans le panneau _Inspector_, sous _Collider Event_, on peut ajouter un comportement lorsqu'une collision est détectée dans la section ***Actions*** :
+
+![](./assets/img/inspector-collider-event-addAction.png){data-zoom-image}
+
+Les actions possibles sont les suivantes : 
+
+| Action | Effet |
+| :--- | :--- |
+| **Animation** | Déclenche une animation |
+| **Audio** | Lecture d'une piste audio |
+| **GameObject** | Affiche, cache ou détruit un objet. |
+| **Instantiate Prefab** | Fait apparaitre un prefab |
+| **Invoke Events** | Permet de déclencher un script custom |
+| **Material** | Change l'apparence d'un objet |
+| **Rigidbody** | Retire ou applique la physique sur un objet |
+| **Scene** | Change de scène |
+| **Transform** | Modifie la position, rotation ou l'échelle d'un objet |
+| **Variable** | Assigne une valeur à une variable |
+
+[Démo | :simple-youtube: Youtube](https://youtu.be/fPTQaOyGsa0){ .md-button .md-button--primary }
+
+### Changer l'affichage d'un objet avec CES
+
+![](./assets/img/snap.gif){.w-50}
+
+Pour activer ou désactiver manuellement un objet dans Unity, on doit simplement cocher ou décocher la case à cocher dans le panneau _Inspector_.
+
+![](./assets/img/activate-deactivate.png){data-zoom-image .w-25}
+
+Toutefois, il est également possible de le faire dynamiquement en programmation, ou avec « Collision Event System ». Voici la marche à suivre pour cette dernière :
+
+1. Ajouter un prefab du « Collision Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Game Object »
+1. _Target mode_ : _Specific object_
+1. _Target_ : Glisser depuis le panneau _Hierarchy_ un des _GameObjects_ (ex: le plancher)
+1. _Operation_ : laisser à Disable
+
+<div class="grid" markdown>
+<figure markdown>
+![](./assets/img/CES-gameobject-disable.webp){data-zoom-image}
+<figcaption>Désactiver un GameObject actif</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/img/CES-gameobject-enable.webp){data-zoom-image}
+<figcaption>Activer un GameObject inactif</figcaption>
+</figure>
+</div>
+
+### Téléporter un objet avec CES
+
+![](./assets/img/teleport-goku.gif){.w-50}
+
+1. Ajouter un prefab du « Collision Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Transform »
+1. _Target mode_ : _Entering Objects_ (les éléments qui entrent en collision avec le CES)
+1. _Value Source_ : _Fixed Value_
+1. Cocher _Position_ et spécifier des valeurs
+
+![type:video](./assets/video/CES-transform-position.webm){.h-auto .w-50}
+
+### Changer la rotation d'un objet avec CES
+
+1. Ajouter un prefab du « Collision Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Transform »
+1. _Target mode_ : _Specific object_
+1. _Target_ : Glisser depuis le panneau _Hierarchy_ un des _GameObjects_ (ex: _Pente_)
+1. _Value Source_ : _Fixed Value_
+1. Cocher _Rotation_ et spécifier des valeurs
+1. Cocher _Animate_
+1. _Duration_ (en secondes) : 3
+
+![type:video](./assets/video/CES-transform-rotation.webm){.h-auto .w-50}
+
+---
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/boucle-la/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - Unity</small><br>
+  **[Boucle là !](./exercices/boucle-la/index.md){.stretched-link .back}**<br>
+</div>
+
+## Prefab
+
+![](./assets/img/prefabs-banner.png){.w-100}
+
+Un prefab c'est un objet ou un groupe d'objets qu'on enregistre pour le réutiliser. C'est un modèle sur lequel toutes les copies vont garder une référence.
+
+### Le bonhomme de neige
+
+1 bonhomme de neige c'est facile à faire. 3 sphères et hop, c'est fait.
+
+Admettons que je veuille ajouter 10 bonhommes de neige dans mon jeu. Je pourrais le dupliquer 10 fois, mais pas l'idéal. Si ensuite je veux ajouter une carotte pour le nez, je dois le faire pour les 10 ! Il faudrait avoir à le faire une seule fois pour tous les bonhommes. Ça, ça s'appelle faire un prefab.
+
+- Crééer un gameobject vide, nomme le « bonhomme de neige » et y mettre les 3 sphères.<br>![](./assets/img/mrplow1.png){data-zoom-image .w-10}
+- Glisser « bonhomme de neige » dans le panneau _Project_ dans le dossier prefab que vous devirez déjà avoir si vous avez bien fait votre structure de dossiers ;)
+- Supprimer « bonhomme de neige » du panneau _Hierarchy_
+- Glisser le prefab « bonhomme de neige » sur la scène (on reconnait le prefab par un cube turquoise)<br>![](./assets/img/mrplow2.png){data-zoom-image .w-10}
+- Dubliquer le prefab et repositionnez le, 10 fois<br>![](./assets/img/mrplow3.png){data-zoom-image .w-10}
+
+Testons l'avantage d'utiliser des prefabs. Ajoutons une carotte pour le nez.
+
+- Dans le panneau _Project_, double-clic sur le prefab « bonhomme de neige »<br>![](./assets/img/mrplow4.png){data-zoom-image .w-10}
+- Ajouter une carotte pour le nez<br>![](./assets/img/mrplow5.png){data-zoom-image .w-10}
+- Sauvegarder et revenir de l'édition en cliquant sur la petite flèche dans le panneau hierarchy<br>![](./assets/img/prefab-backbtn.png){data-zoom-image .w-10}
+
+### Détacher un prefab
+
+Pour détacher un prefab, clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`.
+
+Il n'y aura plus de référence au prefab, donc si on change le prefab, ca ne changera plus cet élément.
 
 ## SyntyStudio
 
@@ -202,7 +312,7 @@ Un fois les scènes ajoutées dans la liste, on peut utiliser un ETB (_Enhanced 
 
 L'avantage du _pack_ est qu'il contient des centaines de modèles 3D **cohérents entre eux**. Visuellement, c'est plus sérieux que d'avoir plusieurs assets qui ne partagent pas le même esthétique.
 
-[Installation via Asset Store](./extra/assets/index.md)
+[Installation via Asset Store](./extra/assets/index.md#polygon-sampler-pack-synty-studiostm)
 
 ### Conversion nécessaire
 
@@ -262,14 +372,7 @@ Voici deux exemples :
 
 Une fois le *gate* choisi, l'environnement se construit en conséquence.
 
-## Exercices
 
-<div class="grid grid-1-2" markdown>
-  ![](./exercices/boucle-la/giphy.gif){.aspect-4-3}
-
-  <small>Exercice - Unity</small><br>
-  **[Boucle là !](./exercices/boucle-la/index.md){.stretched-link .back}**<br>
-</div>
 
 
 <!-- Note à moi meme : Ajouter un autre exercice sur un usage un peu plus avancé de ETB (avec des conditions cette fois-ci) -->

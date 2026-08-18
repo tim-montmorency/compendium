@@ -5,6 +5,8 @@
 *[FBX]: Filmbox — format d'échange de modèles 3D
 *[GDD]: Game Design Document
 
+https://github.com/jfcmontmorency/collider-event-system.git#v0.1.7
+
 ## Ajouter un personnage jouable
 
 ![](./assets/img/1_S5fdmU3gdwvN0riM3rN5XQ.gif){.w-100}
@@ -52,47 +54,18 @@ Sélectionne ton personnage, trouver la capsule (qui a un _Capsule Collider_) et
 
 <div class="grid cards" markdown>
 <figure markdown>
-![](./assets/img/fps-etb.webp)
+![](./assets/img/fps-etb.webp){data-zoom-image}
 <figcaption>1ère personne</figcaption>
 </figure>
 
 <figure markdown>
-![](./assets/img/tps-etb.webp)
+![](./assets/img/tps-etb.webp){data-zoom-image}
 <figcaption>3e personne</figcaption>
 </figure>
 </div>
 
 <!-- On peut afficher le ETB visuellement en lui ajoutant un Mesh Filter (Cube) et un Mesh Renderer (avec un Material). -->
 
-## Prefab
-
-![](./assets/img/prefabs-banner.png){.w-100}
-
-Un prefab c'est un objet ou un groupe d'objets qu'on enregistre pour le réutiliser. C'est un modèle sur lequel toutes les copies vont garder une référence.
-
-### Le bonhomme de neige
-
-1 bonhomme de neige c'est facile à faire. 3 sphères et hop, c'est fait.
-
-Admettons que je veuille ajouter 10 bonhommes de neige dans mon jeu. Je pourrais le dupliquer 10 fois, mais pas l'idéal. Si ensuite je veux ajouter une carotte pour le nez, je dois le faire pour les 10 ! Il faudrait avoir à le faire une seule fois pour tous les bonhommes. Ça, ça s'appelle faire un prefab.
-
-- Crééer un gameobject vide, nomme le « bonhomme de neige » et y mettre les 3 sphères.<br>![](./assets/img/mrplow1.png){data-zoom-image .w-10}
-- Glisser « bonhomme de neige » dans le panneau _Project_ dans le dossier prefab que vous devirez déjà avoir si vous avez bien fait votre structure de dossiers ;)
-- Supprimer « bonhomme de neige » du panneau _Hierarchy_
-- Glisser le prefab « bonhomme de neige » sur la scène (on reconnait le prefab par un cube turquoise)<br>![](./assets/img/mrplow2.png){data-zoom-image .w-10}
-- Dubliquer le prefab et repositionnez le, 10 fois<br>![](./assets/img/mrplow3.png){data-zoom-image .w-10}
-
-Testons l'avantage d'utiliser des prefabs. Ajoutons une carotte pour le nez.
-
-- Dans le panneau _Project_, double-clic sur le prefab « bonhomme de neige »<br>![](./assets/img/mrplow4.png){data-zoom-image .w-10}
-- Ajouter une carotte pour le nez<br>![](./assets/img/mrplow5.png){data-zoom-image .w-10}
-- Sauvegarder et revenir de l'édition en cliquant sur la petite flèche dans le panneau hierarchy<br>![](./assets/img/prefab-backbtn.png){data-zoom-image .w-10}
-
-### Détacher un prefab
-
-Pour détacher un prefab, clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`.
-
-Il n'y aura plus de référence au prefab, donc si on change le prefab, ca ne changera plus cet élément.
 
 ## La progression
 
@@ -110,6 +83,14 @@ Les prérequis (_gates_) qu'un joueur doit satisfaire pour avancer sert à contr
 | **Connaissance** | Comprendre qu'il faut regarder la statue | `Camera Condition` (*Looking At*) sur la statue |
 | **Habileté du joueur** | Rester dans la zone 5 secondes | `Condition Time` dans les options de base |
 | **Compétence** | Le double saut débloqué | `Modify GameObject` > *Enable Component* sur le script de saut |
+
+
+@todo : 
+
+Exercice
+
+- Ajouter une joueur
+- Ajouter un gameobject
 
 ### Les trois événements d'un trigger
 

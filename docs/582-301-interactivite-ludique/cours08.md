@@ -13,6 +13,8 @@
 
 ## Le Particle System
 
+https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
+
 ### Les modules essentiels
 
 ### Le Particle System en 5 réglages

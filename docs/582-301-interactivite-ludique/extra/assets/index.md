@@ -6,7 +6,7 @@ Les ***assets*** sont les ressources graphiques ou logicielles qui composent un 
 
 ## Installation dans Unity
 
-### Via Asset Store
+### Via Asset Store :simple-unity:
 
 ![](./asset-store.png){.w-50}
 
@@ -41,19 +41,32 @@ La façon manuelle d'installer des assets se fait via un fichier avec l'extensio
 1. Choisissez un fichier avec l'extension `.unitypackage`
 1. Une petite fenêtre « *Import Unity Package* » apparaîtra. Cliquez sur le bouton « *Import* »
 
+### Via un repo Git
+
+1. Cliquez sur `Window` > `Package Management` > `Package Manager`. Une petite fenêtre s'ouvrira, celle du « *Package Manager* ».
+1. Cliquez sur le bouton ![+](./install-plus-icon.png) et choisir « _Install package from git URL..._ »
+1. Ajoutez l'URL et cliquez `Install`
+
+Pour voir le _package_ installé, cliquez sur `All Packages`, il devrait être dans la liste. 
+
+Certains packages ont des outils qu'on peut téléchager en plus. Il se trouvent normalement sous l'onglet Samples.<br>![](./samples.png){data-zoom-image .w-20}
+
 ## Assets du cours
 
-### Enhanced Trigger Box
-
-![](./Enhanced-Trigger-Box.png)
+### Collision Event System
 
 <!-- https://assetstore.unity.com/packages/tools/game-toolkits/enhanced-trigger-box-72826 -->
+![](./Enhanced-Trigger-Box.png)
 
-Enhanced Trigger Box sert à faciliter les événements en Unity. Quand un élément entre en contact avec la boite « ETB », on peut déclencher plusieurs événements et ce, sans programmation.
+***Collision Event System*** permet de faciliter la gestion des événements suite à une collision en Unity. 
 
-Pour le cours, nous n'utiliserons pas la version de l'Asset Store, mais celle-ci :
+Lorsqu'un GameObject entre en contact avec un des prefab du plugin, le plugin peut déclencher plusieurs événements et ce, sans programmation.
 
-[Enhanced Trigger Box (unitypackage)](./EnhancedTriggerBox-202608.unitypackage){ .md-button .md-button--primary download }
+Il n'est malheureusement pas disponible via l'Asset Store. Il doit être installé via un repo Git.
+
+URL : <https://github.com/jfcmontmorency/collider-event-system.git> 
+
+!!! example "Une scène de démonstration est téléchargeable dans l'onglet _Samples_ du _package_"
 
 ### POLYGON - Sampler Pack | Synty Studios™
 
@@ -61,7 +74,7 @@ Pour le cours, nous n'utiliserons pas la version de l'Asset Store, mais celle-ci
 
 Avec le compte éducationnel, vous avez accès gratuitement à « [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048) » d'une valeur de 80 $ USD. Le _pack_ contient des centaines de modèles _low poly_ 3D **cohérents entre eux**.
 
-[POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){ .md-button .md-button--primary }
+[Sampler Pack | :simple-unity: AssetStore](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){ .md-button .md-button--primary }
 
 ## Autres ressources
 

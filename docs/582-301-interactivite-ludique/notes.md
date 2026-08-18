@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=irMiPwLefwg
 
 
 
-
+https://jaredamlin.medium.com/how-to-replace-unitys-3rd-person-armature-9339dbaabc48
 
 Commencer le cours avec le gdd. Comme ça ensuite on enchaine avec les sujets du gdd.
 
