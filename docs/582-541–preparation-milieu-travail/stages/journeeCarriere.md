@@ -1,38 +1,6 @@
 # Journée carrière
 
-lora.boisvert@cmontmorency.qc.ca
 
-## Invitation pour les employeurs
-Objet: Stage printemps 2026 
-
-Bonjour,  
-Je me présente, [Prénom nom], finissant en Techniques d’intégration multimédia au Collège Montmorency. Nous sommes actuellement à la recherche de milieux de stage pour notre cohorte.  
-
-•	Période du stage : du 30 mars au 15 mai 2026 (7 semaines, environ 32 h par semaine, pour un total de 225 heures).  
-•	Disponibilité : 4 à 5 jours par semaine.  
-•	Rémunération : le stage peut être rémunéré ou non, selon vos possibilités.  
-
-Nous possédons des compétences variées en création et production multimédia : design, développement Web, jeux vidéo, animation 2D/3D, montage vidéo, son, interactivité… Nous sommes prêts à mettre ces acquis en pratique dans le cadre d’un projet qui répond à vos besoins (par exemple une production multimédia destinée au Web, une œuvre d’art interactive).  
-
-Journée carrière  
-Le 10 novembre, nous organisons une journée carrière au Collège Montmorency (13h à 16h). Cet événement vous permettra de :  
-•	Présenter votre entreprise et vos projets,  
-•	Échanger directement avec les finissants,  
-•	Identifier des profils correspondant à vos besoins.  
-Si cette opportunité vous intéresse, merci de confirmer votre présence avant le 31 octobre.  
-
-Impossible d’être présent?  
-Vous pouvez tout de même nous transmettre une offre de stage en complétant les informations suivantes :  
-•	Nom de l’entreprise :  
-•	Site web :  
-•	Description des tâches du stage :  
-•	Courriel pour poser sa candidature :  
-Les finissants intéressés vous feront ensuite parvenir leurs candidatures.  
-
-N'hésitez pas si vous avez des questions!   
-Merci de contribuer à la formation de la relève en multimédia!  
-
-[Signature]  
 
 ## Comités et tâches
 ### Design  (3)
@@ -83,3 +51,41 @@ Merci de contribuer à la formation de la relève en multimédia!
 * Trouver une méthode pour la gestion du temps à la journée carrière (système de rotation)
 * Chapeauter les différents comités
 * Faire le lien entre les comités au besoin
+
+
+
+
+## Invitation pour les employeurs
+Objet: Stage printemps 2026 
+
+Bonjour,  
+Je me présente, [Prénom nom], finissant en Techniques d’intégration multimédia au Collège Montmorency. Nous sommes actuellement à la recherche de milieux de stage pour notre cohorte.  
+
+•	Période du stage : du 5 avril au 21 mai 2027 (7 semaines, environ 32 h par semaine, pour un total de 225 heures).  
+•	Disponibilité : 4 à 5 jours par semaine.  
+•	Rémunération : le stage peut être rémunéré ou non, selon vos possibilités.  
+
+Nous possédons des compétences variées en création et production multimédia : design, développement Web, jeux vidéo, animation 2D/3D, montage vidéo, son, interactivité… Nous sommes prêts à mettre ces acquis en pratique dans le cadre d’un projet qui répond à vos besoins (par exemple une production multimédia destinée au Web, une œuvre d’art interactive).  
+
+Journée carrière  
+Le 9 novembre, nous organisons une journée carrière au Collège Montmorency (13h à 16h). Cet événement vous permettra de :  
+•	Présenter votre entreprise et vos projets,  
+•	Échanger directement avec les finissants,  
+•	Identifier des profils correspondant à vos besoins.  
+Si cette opportunité vous intéresse, merci de confirmer votre présence avant le 31 octobre.  
+
+Impossible d’être présent?  
+Vous pouvez tout de même nous transmettre une offre de stage en complétant les informations suivantes :  
+•	Nom de l’entreprise :  
+•	Site web :  
+•	Description des tâches du stage :  
+•	Courriel pour poser sa candidature :  
+Les finissants intéressés vous feront ensuite parvenir leurs candidatures.  
+
+N'hésitez pas si vous avez des questions!   
+Merci de contribuer à la formation de la relève en multimédia!  
+
+[Signature]  
+
+## Si l'employeur répond, me transmettre sa réponse
+lora.boisvert@cmontmorency.qc.ca

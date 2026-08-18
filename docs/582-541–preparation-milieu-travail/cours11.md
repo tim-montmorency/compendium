@@ -36,5 +36,14 @@ En équipes.
 ## Rédaction des lettres de présentation
 
 
+## Présentation sur la réputation numérique et LinkedIn
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
+
+## Création d'un profil LinkedIn
+Réaliser l'activité suivante:      
+
+[🛠️ Profil linkedin](./activites/linkedin.md){ .md-button }   
+
+
 ## Devoir
 Terminer la lettre de présentation

@@ -2,7 +2,7 @@
 
 
 ## Portfolio
-* Évaluation formative du portfolio d'un collègue de classe.
+Évaluation formative du portfolio d'un collègue de classe.
 
 
 ## Cartes d'affaires

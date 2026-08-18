@@ -44,12 +44,14 @@
 [Synthèse](https://polesynthese.com/repertoire/studio-creatif)
 - [ ] Quête: Tente de trouver une quête pour ton personnage! Quel est son objectif dans sa recherche de stage?
 
- 
 
       
 ## Chasse aux compétences douces
 
+## Créer sa structure
+Dans le cadre du cours, plusieurs documents écrits seront créés. À vous de décider si vous voulez faire les exercices papier, dans un document word ou autre. Si jamais vous souhaitez réaliser le tout dans Github, vous pouvez copier le modèle suivant:     
 
+[🛠️ Modèle GitHub](https://github.com/tim-montmorency-preparation-stage/modele_preparation-stage-2026.git){ .md-button } 
 
 ## Journée carrière     
 Discussion sur les comités   

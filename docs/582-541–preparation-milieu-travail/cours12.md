@@ -5,14 +5,6 @@
 ## Formatif
 Évaluation de la lettre d'un collègue
 
-## Présentation sur la réputation numérique et LinkedIn
-[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EeS2-7HVvn9BqSLWfVwYppMB3QpEyqy8QjRpO_JziEaVnA?e=Afu0wC){ .md-button }  
-
-## Création d'un profil LinkedIn
-Réaliser l'activité suivante:      
-
-[🛠️ Profil linkedin](./activites/linkedin.md){ .md-button }   
-
 
 
 ## Rédiger une candidature
@@ -40,6 +32,18 @@ Réaliser l'activité suivante:
 Temps pour enregistrer un nouveau message vocal sur votre téléphone. 
 
 ## Temps pour les comités
+
+## Création d'un document de suivi pour votre recherche de stage
+Créer vous un document dans lequel vous noterez toutes vos démarches de recherche de stage. Voici un modèle pour vous inspirer:     
+
+| Nom de l'entreprise | Nom de la personne à contacter  | Courriel de la personne à contacter | Ville | Date d'envoi de la candidature | Date de relance | Date d'entrevue | Réponse |
+| -------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+
 
 
 ## Devoir 
