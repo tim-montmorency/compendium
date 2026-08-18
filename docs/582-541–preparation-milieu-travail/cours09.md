@@ -1,51 +1,55 @@
 # Cours 9
 
-## Nouvelles
-### UQAT: Les portes ouvertes se dérouleront ce samedi de 12h00 à 16h00  
-* Événement Facebook : [https://www.facebook.com/events/760145816653614/760175549983974/](https://www.facebook.com/events/760145816653614/760175549983974/)  
-* Événement LinkedIn :[https://www.linkedin.com/events/7378431361344315393/](https://www.linkedin.com/events/7378431361344315393/)   
-* Inscription à l'événement :[https://go.uqat.ca/po-mtl](https://go.uqat.ca/po-mtl)    
+## Activité sur le cv 
+Qu'est-ce que doit contenir un cv?  
 
-### Bourses de persévérance (Avant le 11 novembre)  
-Ces bourses s’adressent aux étudiant.es :    
-
-* Être inscrit au Collège Montmorency dans un programme menant à un DEC, à temps plein ou à temps partiel, pendant les sessions A25, H26, E26.  
-* Être en voie de compléter son DEC à l’été 2026 maximum.  
-* Ne pas avoir déjà obtenu une bourse de persévérance.  
-* N’avoir aucune mesure disciplinaire au dossier (par exemple : manquement au code de vie).
-
- [📁 Formulaire](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUyXCNZea4RMsCKKaTYa_dYBmdhKt_FpeUYlho27yjaR8g?e=8GOtAd){ .md-button }    
-
-### Tournée des universités
-Mardi 28 octobre, à l’agora, entre 11h00 et 15h00 (lors du trou à l’horaire).  
-
-Tous les établissements universitaires québécois ainsi que l’Université d’Ottawa auront un kiosque. Ce sera l’occasion pour la population étudiante d’obtenir des informations sur les programmes d’études offerts, les conditions d’admission, la vie étudiante, les programmes d’échange à l’international et encore plus.  
-
-## Tâches
-
-- [ ] Inviter nouvelles entreprises
-- [ ] Prendre photo pro
-- [ ] Avancer les comités
-- [ ] Simuler votre entrevue
-- [ ] Remplir le github après l'entrevue
-- [ ] Avancer portfolio
-
-## Dernières invitations
-[🛠️ Modèle courriel](./stages/journeeCarriere.md){ .md-button }    
-
-Vous devez inviter les entreprises à votre nom qui sont encore en blanc dans la section à contacter:  
-[🛠️ Liste d'entreprises](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfoMe3Rzg7FGihjnoKGn7OcBMEdYWxjf1mPycznkJt4y1A?e=hdsfDi){ .md-button }    
+Insérer les éléments nécessaires selon vous ici: 
 
 
-## Simulations d'entrevues
-Après votre entrevue, remplissez la deuxième partie du document simulation_entrevue dans votre journal de bord. 
+[🛠️ Activité CV](https://miro.com/app/board/uXjVHxRM6E8=/?share_link_id=18427745299){ .md-button }   
 
 
-## Prise de photos
-Photo pro pour votre Linkedin. 
+
+## Création du contenu de votre CV
+
+Réaliser l'activité suivante:      
+
+[🛠️ Contenu CV](./activites/contenu-cv.md){ .md-button }   
+
+## Présentation sur le cv   
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EVyO4I6ZyrpItmxxqMTH2bMBkqWKR6zRhRTug3VbdkKmkA?e=4HOTYb){ .md-button }  
+
+## Exemples de cv 
+[🔍 Modèle avec les consignes](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX6pCsmo_q9Psv5T5b5B9dUBuoP-ebaTqFtJ9UqVyK3eHA?e=NfsHGT){ .md-button }  
+
+[🔍 Carolyn Stransky](https://carolstran.github.io/cv/){ .md-button }      
+
+[🔍 Montmorency p.5 à 9](https://www.cmontmorency.qc.ca/wp-content/uploads/2023/11/Petit-guide-de-recherche-demploi.pdf){ .md-button }      
+
+Démonstration CV de l'an dernier
 
 
-## Temps pour les comités
+## Temps pour avancer votre CV
+[🛠️ Consignes cv](./stages/cv.md){ .md-button }    
+
+## Conférence du CJE
+<p>Trucs et pratique pour les entrevues.</p>
+
+[📁 Voir le résumé de la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETzIwGIgHLhArOJsQdHbAbwBtkCTVpLdZv_5MKYJPUshag?e=XPGcCN){ .md-button }  
+
+[📁 Réponses questions types d'entrevues](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET_Wz-HYOYJAkQrAam7cvTcB1EkgC1BmvsG3XWmSeYm6qg?e=w5bSvM){ .md-button }  
+
+[📁 Se préparer aux entrevues (Université de Sherbrooke)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX8dYqrpNsVHpvzDCXJ2naIBDuKzkEvUCkd-AMu2FqKX9g?e=omxN6P){ .md-button }  
+
+
+
+## Préparation à la simulation d'entrevue
+Réaliser l'activité suivante:      
+
+[🛠️ Préparation à la simulation d'entrevue](./activites/simulation-entrevue.md){ .md-button }   
 
 ## Devoir
-Terminer le portfolio
+- [ ] Avancer le CV.
+- [ ] Terminer la préparation à la simulation d'entrevue. 
+
+

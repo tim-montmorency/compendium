@@ -1,25 +1,28 @@
 # Cours 4
 
-## 🚨 Remise des planifications de portfolio
 
-## Conférence du CJE
-<p>Trucs et pratique pour les entrevues.</p>
+## Activité sur les cartes d'affaires
+Créez votre carte d'affaire. Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur. Assurez-vous que la police est lisible et de bonne taille!     
 
-[📁 Voir le résumé de la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETzIwGIgHLhArOJsQdHbAbwBtkCTVpLdZv_5MKYJPUshag?e=XPGcCN){ .md-button }  
+Au minimum, elle doit contenir les informations suivantes: Votre nom, votre courriel, votre ou vos domaine(s) d'intérêt.     
 
-[📁 Réponses questions types d'entrevues](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ET_Wz-HYOYJAkQrAam7cvTcB1EkgC1BmvsG3XWmSeYm6qg?e=w5bSvM){ .md-button }  
+Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone.   
 
-[📁 Se préparer aux entrevues (Université de Sherbrooke)](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EX8dYqrpNsVHpvzDCXJ2naIBDuKzkEvUCkd-AMu2FqKX9g?e=omxN6P){ .md-button }  
+Votre carte devrait être en adéquation avec l'identité visuelle de votre portfolio.
 
-## Activité sur l'objectif de carrière
-Remplir le document objectif sur GitHub.
+[🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }    
 
-## Rencontres individuelles pour le CV 
 
+## Demo reel
+
+## Formation des comités pour la journée carrière
+[🛠️ Comités](./stages/journeeCarriere.md){ .md-button }    
+
+## Temps pour avancer le portfolio
 
 ## Devoir  
+- [ ] Terminer la carte d'affaire.
+- [ ] Avancer le Demo reel.
+- [ ] Avancer le portfolio.
 
-Remplir le document preparation_entrevue sur GitHub.     
 
-Terminer le cv.     
-[🛠️ Consignes cv](./stages/cv.md){ .md-button }     

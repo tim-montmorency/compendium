@@ -11,15 +11,13 @@ icones material design disponibles dans mkdocs, rechercher le mot "material" + l
 - [ ] Activer notifications Canal Général dans Teams Web 5
 - [ ] Plan de cours
 - [ ] Quiz diagnostique CSS
-- [ ] Révision CSS Flexbox
-- [ ] Série d'exercices CSS Flexbox
 
 <!-- Idée explorer https://uiverse.io/ : idée leur faire développer un élément UI spécial animé qu'ils peuvent partager sur uiverse et leur codepen, faire partie de leur portfolio  -->
 
 ## Brise-glace 🧊🔨❄️
 
-- [Groupe 1 lundi AM](https://app.wooclap.com/TMYTEU)
-- [Groupe 2 lundi PM](https://app.wooclap.com/SSRTQJ)
+- [Groupe 1 lundi AM](https://app.wooclap.com/)
+- [Groupe 2 lundi PM](https://app.wooclap.com/)
 
 ## Activer notifications TEAMS
 
@@ -29,13 +27,14 @@ IMPORTANT: Activer notifications Canal Général dans Teams Web 5
 
 ## Plan de cours 📄🎓
 
-[📄 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=8IxzJg){ .md-button .md-button--primary }
+[📄 Plan de cours](#){ .md-button .md-button--primary }
 
-## Quiz diagnostique CSS 🕵️✍️
+## Quiz diagnostique 🕵️✍️
 
-- [Groupe 1 lundi AM](https://app.wooclap.com/PJBPRX)
-- [Groupe 2 lundi PM](https://app.wooclap.com/USBJPG)
+- [Groupe 1 lundi AM](https://app.wooclap.com/)
+- [Groupe 2 lundi PM](https://app.wooclap.com/)
 
+<!-- 
 ## Révision CSS <img src="./assets/css-logo.svg" style="width: 50px;">
 
 [<img src="./assets/css-logo.svg" style="width: 20px; margin-bottom: -7px;"> Glossaire CSS de TIM-Momo](https://tim-montmorency.com/timdoc/582-211/css/){ .md-button :target="_blank" }
@@ -65,3 +64,5 @@ IMPORTANT: Activer notifications Canal Général dans Teams Web 5
 ## Devoirs
 
 À terminer pour ce mercredi: les 5 exercices flexbox débutés en classe.
+
+-->

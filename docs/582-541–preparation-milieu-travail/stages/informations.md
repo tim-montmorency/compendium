@@ -5,14 +5,24 @@
 ## Plan de cours    
 <a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBMvlMIkpWHS6eGXsXelF9tAXhIRBYZTsfjiBCk1EJKL1g?e=Ca1kpk">Plan de cours</a>
 
-     
+## Calendrier et échéancier automne    
 
-## Exemple de convention de stage    
-<p>Voici un exemple du contrat que votre employeur devra signer:</p>
-<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCoDHfBupJ4QJpRmlCseFWpASODLfYRB2KgcULrw8cn2Xk?e=JhIIeZ">Contrat de stage</a>
+<table>
+       <tr>   </tr>
+    <tr>
+        <th>Semaines 1 à 12 </th>
+        <th>Préparer son portfolio, son demo reel, mettre à jour son cv et sa lettre de présentation.</th>        
+</tr>
+<tr>
+    <th>Semaine 13</th>
+    <th>9 novembre : Journée Carrière : Événement de rencontre des employeurs</th>
+</tr>
+<tr>
+    <th>Semaine 14 à 15</th>
+    <th>Finir sa recherche de stage, remettre les informations de ton milieu pour la signature du contrat</th>
+</tr>
 
-## Droits et obligations des stagiaires, risques en stage
-<a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EV3x8GIx-r9Lm_xdYITLQe4BA0oIkN51p594kXRC7TG_wQ?e=yekiPl">Consulter le document</a>
+</table>
 
 
 ## Calendrier et échéancier hiver    
@@ -20,121 +30,24 @@
 <table>
   <tr>   </tr>
      <tr>
-        <th>Semaine du 23 mars 2026 </th>
-        <th>Rencontre préparatoire au stage de 13h à 16h au grand studio.</th>        
+        <th>Semaine du 29 mars 2027 </th>
+        <th>Rencontre préparatoire au stage.</th>        
 </tr>
 <tr>
-    <th>30 mars 2026</th>
+    <th>5 avril 2027</th>
     <th>Début du stage</th>
 </tr>
 <tr>
-    <th>15 mai 2026</th>
+    <th>21 mai 2027</th>
     <th>Fin du stage</th>
 </tr>
 <tr>
-    <th>22 mai 2026</th>
+    <th>28 mai 2027</th>
     <th>Présentation finale du stage de 13h à 16h au grand studio.</th>
 </tr>
 
-</table>
+</table>    
 
-
-## Journal de bord
-<a href="https://github.com/tim-montmorency-stages/nom_prenom_rapport_stage">Modèle de journal de bord</a>
-
-- [ ] Rejoindre l'organisation tim-montmorency-stages
-- [ ] Ouvrir le modèle et cliquer sur Use this template, create a new repository
-- [ ] Changer le owner pour tim-montmorency-stages
-- [ ] Le nom du repo doit être nom_prenom_rapport_stage
-- [ ] La visibilité doit être privée
-- [ ] Cliquez sur Create repository
-     
-
-## Calendrier et échéancier automne    
-
-<table>
-       <tr>   </tr>
-    <tr>
-        <th>Semaines 1 à 9 </th>
-        <th>Préparer son portfolio, mettre à jour son cv et sa lettre de présentation.</th>        
-</tr>
-<tr>
-    <th>Semaine 11</th>
-    <th>10 novembre : Journée Carrière : Événement de rencontre des employeurs</th>
-</tr>
-<tr>
-    <th>Semaine 11 à 15</th>
-    <th>Finir sa recherche de stage, remettre les informations de ton milieu pour la signature du contrat</th>
-</tr>
-
-</table>
-
-      
-
-## Rôles et responsabilités    
-## Du stagiaire    
-<p><ul>
-<li>Entretenir de bonnes relations avec l’équipe de travail d'accueil.</li>  
-
-<li>Réaliser les tâches confiées par le milieu de travail et le maitre de stage. </li>
-
-<li>Afficher une attitude positive envers les tâches confiées.</li> 
-
-<li>Être ponctuel. </li> 
-
-<li>Faire preuve d’initiative et d'autonomie. </li> 
-
-<li>Appliquer et respecter les politiques, procédures, règles et directives transmises par l’entreprise d’accueil ou le superviseur de stage.   </li> 
-
-<li>Prendre toutes les précautions nécessaires et raisonnables pour éviter un événement qui pourrait mettre en danger sa santé, son intégrité ou sa sécurité et celle d’autrui.  </li> 
-
-<li>Effectuer les heures prévues au stage, à moins d’avis contraire de l’entreprise d’accueil. En cas de problème majeur, signaler immédiatement toute absence au maitre de stage de l’entreprise d’accueil ainsi qu’au superviseur du stage de l’établissement d’enseignement d’attache. </li>  
-
-<li>Se présenter au public sous le titre de stagiaire. </li> 
-</ul>
-</p>
-
-## Du ou de la professeur(e) superviseur(e)    
-<p><ul>
-<li>Veiller au respect des exigences de stage. </li>  
-
-<li>Assurer un rôle d’intermédiaire entre l’établissement d’enseignement et le milieu de stage.  </li>
-
-<li>Communiquer avec le maitre de stage et agir comme personne-ressource auprès des maitres de stage et des étudiants stagiaires. </li> 
-
-<li>Effectuer des suivis (courriel, journal de stage, portfolio, etc.). </li> 
-
-<li>Accompagner les stagiaires avant, pendant et après le stage. </li> 
-
-<li>Favoriser les apprentissages, le développement des compétences et la réflexion sur la pratique. </li> 
-
-<li>Fournir la documentation nécessaire aux maitres de stage et aux étudiants stagiaires. </li> 
-
-<li>Évaluer le stage : distinguer les moments d’évaluation et réserver à la fin une période définie pour l’évaluation sommative finale. </li>  
-
-</ul>
-</p>
-
-## Du ou de la maître de stage    
-<p><ul>
-<li>En tant que praticien du milieu professionnel, collaborer au développement des compétences professionnelles des stagiaires. </li>  
-
-<li>Assurer une supervision rapprochée et un soutien dans la démarche du stagiaire. </li>
-
-<li>Confier au stagiaire, en accord avec le superviseur du stage de l’établissement d’enseignement d’attache, des tâches et des responsabilités en rapport direct avec des compétences du programme d’études. </li> 
-
-<li>Fournir un espace de travail personnel au stagiaire et faciliter l’accès aux locaux, équipements et autres ressources nécessaires au déroulement du stage. </li> 
-
-<li>Informer le stagiaire de toutes les règles de sécurité en vigueur au sein de son entreprise et fournir les équipements de protection individuels requis pour l’exécution des tâches en lien avec le stage.  </li> 
-
-<li>Maintenir une communication régulière avec le superviseur de stage de l’établissement d’enseignement d’attache et l’aviser de tout problème sérieux qui pourrait survenir. </li> 
-
-<li>Contribuer à l’évaluation formative du stagiaire (formulaires d'évaluation de l'expérience, rencontres avec le superviseur de stage…) </li> 
-
-</ul>
-</p>
-
-     
 
 ## Objectifs et modalités    
 <p>
@@ -154,13 +67,13 @@
 
 !!! info
 
-    <b>Aucune rémunération ne peut être exigée</b> pour le stage. Par ailleurs, certains stagiaires pourraient avoir une entente particulière avec certains employeurs qui souhaiteraient rémunérer leur stage. (Cette entente se fait entre l'employeur et l'étudiant uniquement. Il s'agit d'une entente séparée qui ne fait pas partie des modalités de la convention de stage avec l'institution d'enseignement.)
+    <b>Aucune rémunération ne peut être exigée</b> pour le stage. Par ailleurs, certains stagiaires pourraient avoir une entente particulière avec certains employeurs qui souhaiteraient rémunérer leur stage. 
 
 <p>Guidé par l’employeuse ou l’employeur ainsi que par le professeur responsable de superviser le stage, tu réaliseras toutes les étapes de la production, de la planification jusqu’à la présentation d'un produit à l’entreprise. À l’aide des outils, des ressources fournies par le milieu et des compétences acquises au fil de sa formation, tu concevras un produit qui répondra aux attentes d'une clientèle. </p>
 
 !!! info
 
-    Ton stage se déroulera sur 7 semaines, entre la période du <b> 30 mars au 15 mai 2026</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  
+    Ton stage se déroulera sur 7 semaines, entre la période du <b> 5 avril au 21 mai 2027</b> (approximativement les semaines 10 à 16 du calendrier scolaire). Tu devras avoir fait 225 h en milieu de travail <b>(moyenne de 32h par semaine)</b>.  
 
 <p>Durant ton stage, tu devras documenter le processus de réalisation du produit multimédia dans un rapport de stage. Les sections du rapport couvriront notamment:</p> 
 
@@ -182,13 +95,13 @@
 
   
 
-<p>Ton stage se terminera par une <b>présentation en classe</b> auprès de tes collègues. Dans ce contexte, tu seras appelé à présenter une synthèse du travail accompli et évaluer tes habiletés, compétences et les défis personnels à surmonter.</p>
+<p>Ton stage se terminera par une <b>activité en classe</b> auprès de tes collègues. Dans ce contexte, tu seras appelé à présenter une synthèse du travail accompli et évaluer tes habiletés, compétences et les défis personnels à surmonter.</p>
 
 !!! info
 
-    Tu devras être libre le <b>22 mai</b> pour la présentation finale du stage. 
+    Tu devras être libre le <b>28 mai</b> pour la présentation finale du stage. 
 
-<p>Avant le mois de février, tu dois avoir identifié clairement tes disponibilités pour la période du stage et les avoir communiqués à ton employeur.</p> 
+<p>Avant le mois de mars, tu dois avoir identifié clairement tes disponibilités pour la période du stage et les avoir communiqués à ton employeur.</p> 
 
 </p>
 
@@ -331,3 +244,93 @@
 <p>Pour de plus amples détails, le site Web du programme de Techniques d’intégration multimédia comporte un ensemble d'informations pertinentes :</p>
 
 <a href="https://www.cmontmorency.qc.ca/programmes/nos-programmes-detudes/techniques/techniques-dintegration-multimedia/description-du-programme/  ">Descriptif du programme</a>
+
+
+## Exemple de convention de stage    
+<p>Voici un exemple du contrat que votre employeur devra signer:</p>
+<a href="https://cmontmorency365-my.sharepoint.com/:w:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCoDHfBupJ4QJpRmlCseFWpASODLfYRB2KgcULrw8cn2Xk?e=JhIIeZ">Contrat de stage</a>
+
+
+## Droits et obligations des stagiaires, risques en stage
+<a href="https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EV3x8GIx-r9Lm_xdYITLQe4BA0oIkN51p594kXRC7TG_wQ?e=yekiPl">Consulter le document</a>
+
+
+
+
+## Journal de bord
+<a href="https://github.com/tim-montmorency-stages/nom_prenom_rapport_stage">Modèle de journal de bord</a>
+
+- [ ] Rejoindre l'organisation tim-montmorency-stages
+- [ ] Ouvrir le modèle et cliquer sur Use this template, create a new repository
+- [ ] Changer le owner pour tim-montmorency-stages
+- [ ] Le nom du repo doit être nom_prenom_rapport_stage
+- [ ] La visibilité doit être privée
+- [ ] Cliquez sur Create repository
+     
+
+
+      
+
+## Rôles et responsabilités    
+### Du stagiaire    
+<p><ul>
+<li>Entretenir de bonnes relations avec l’équipe de travail d'accueil.</li>  
+
+<li>Réaliser les tâches confiées par le milieu de travail et le maitre de stage. </li>
+
+<li>Afficher une attitude positive envers les tâches confiées.</li> 
+
+<li>Être ponctuel. </li> 
+
+<li>Faire preuve d’initiative et d'autonomie. </li> 
+
+<li>Appliquer et respecter les politiques, procédures, règles et directives transmises par l’entreprise d’accueil ou le superviseur de stage.   </li> 
+
+<li>Prendre toutes les précautions nécessaires et raisonnables pour éviter un événement qui pourrait mettre en danger sa santé, son intégrité ou sa sécurité et celle d’autrui.  </li> 
+
+<li>Effectuer les heures prévues au stage, à moins d’avis contraire de l’entreprise d’accueil. En cas de problème majeur, signaler immédiatement toute absence au maitre de stage de l’entreprise d’accueil ainsi qu’au superviseur du stage de l’établissement d’enseignement d’attache. </li>  
+
+<li>Se présenter au public sous le titre de stagiaire. </li> 
+</ul>
+</p>
+
+### Du ou de la professeur(e) superviseur(e)    
+<p><ul>
+<li>Veiller au respect des exigences de stage. </li>  
+
+<li>Assurer un rôle d’intermédiaire entre l’établissement d’enseignement et le milieu de stage.  </li>
+
+<li>Communiquer avec le maitre de stage et agir comme personne-ressource auprès des maitres de stage et des étudiants stagiaires. </li> 
+
+<li>Effectuer des suivis (courriel, journal de stage, portfolio, etc.). </li> 
+
+<li>Accompagner les stagiaires avant, pendant et après le stage. </li> 
+
+<li>Favoriser les apprentissages, le développement des compétences et la réflexion sur la pratique. </li> 
+
+<li>Fournir la documentation nécessaire aux maitres de stage et aux étudiants stagiaires. </li> 
+
+<li>Évaluer le stage : distinguer les moments d’évaluation et réserver à la fin une période définie pour l’évaluation sommative finale. </li>  
+
+</ul>
+</p>
+
+### Du ou de la maître de stage    
+<p><ul>
+<li>En tant que praticien du milieu professionnel, collaborer au développement des compétences professionnelles des stagiaires. </li>  
+
+<li>Assurer une supervision rapprochée et un soutien dans la démarche du stagiaire. </li>
+
+<li>Confier au stagiaire, en accord avec le superviseur du stage de l’établissement d’enseignement d’attache, des tâches et des responsabilités en rapport direct avec des compétences du programme d’études. </li> 
+
+<li>Fournir un espace de travail personnel au stagiaire et faciliter l’accès aux locaux, équipements et autres ressources nécessaires au déroulement du stage. </li> 
+
+<li>Informer le stagiaire de toutes les règles de sécurité en vigueur au sein de son entreprise et fournir les équipements de protection individuels requis pour l’exécution des tâches en lien avec le stage.  </li> 
+
+<li>Maintenir une communication régulière avec le superviseur de stage de l’établissement d’enseignement d’attache et l’aviser de tout problème sérieux qui pourrait survenir. </li> 
+
+<li>Contribuer à l’évaluation formative du stagiaire (formulaires d'évaluation de l'expérience, rencontres avec le superviseur de stage…) </li> 
+
+</ul>
+</p>
+

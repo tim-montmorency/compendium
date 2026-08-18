@@ -7,7 +7,7 @@
  [📁 Informations stages](./stages/informations.md){ .md-button }    
 
  Rejoindre l'équipe Teams des stages: 
- khy7jex
+ x9qbphn
  
 
 ## Présentation sur la recherche de stage ou d'emploi
@@ -16,7 +16,7 @@
 
 ## Atelier sur la recherche d'emploi
  
-Voir l'onglet RechercheEmploi sur Teams. 
+[🛠️ Activité](https://miro.com/app/board/uXjVHxOBRug=/?share_link_id=127391963492){ .md-button }   
  
 
 ### Répertoires pour vous aider dans vos recherches
@@ -107,35 +107,32 @@ Voir l'onglet RechercheEmploi sur Teams.
 
 </table>
 
+
+## Activité sur l'objectif de carrière
+1. Remplis les trous de la phrase suivante:    
+Je souhaite obtenir un poste de X dans le domaine X, où je pourrai utiliser mes compétences en X et X.
+2. Utilise ton imagination ou une IA pour créer des variantes de formulation. 
+3. Mélange les variantes que tu préfères afin d'obtenir un objectif de carrière personnalisé. 
+
 ## Liste collaborative d'employeurs
-[🛠️ Ajouter 5 entreprises à la liste](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfoMe3Rzg7FGihjnoKGn7OcBMEdYWxjf1mPycznkJt4y1A?e=hdsfDi){ .md-button }    
 
-## Activité sur le cv 
-Qu'est-ce que doit contenir un cv?     
+Ajouter 5 employeurs potentiels à la liste en suivant les consignes: 
 
-Voir l'onglet ActiviteCV sur Teams. 
+- [ ] Mettre le nom de l'entreprise dans la colonne entreprise
+- [ ] Sélectionner le type de compagnie dans la colonne catégorie
+- [ ] Copier l'adresse du site internet dans la colonne site internet
+- [ ] Copier le courriel des ressources humaines dans la colonne courriel
+- [ ] Inscrire le nom d'une personne ressource (RH ou président) dans la colonne personne ressource
+- [ ] Incrire la ville de la compagnie dans la colonne ville
+- [ ] Inscrire votre nom dans la colonne Élève responsable
+- [ ] Les colonnes entreprise contactée et présence à la journée carrière seront utilisées une autre semaine
 
-## Activité sur le contenu de votre CV
-Remplir le document contenu_cv sur GitHub.
+[🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
 
-## Activité sur les cartes d'affaires
-Créez votre carte d'affaire. Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur. Assurez-vous que la police est lisible et de bonne taille!     
-
-Au minimum, elle doit contenir les informations suivantes: Votre nom, votre courriel, votre ou vos domaine(s) d'intérêt.     
-
-Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone, le logo tim ou le nom du programme.     
-
-[🛠️ Gabarit de carte](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }    
-
-[🛠️ Modèle figma](https://www.figma.com/design/gaSoBysHBWoTXB6CgGahux/comite_design?node-id=0-1&t=3etaaBa5RIiy44T3-1){ .md-button }    
-
-[🛠️ Modèle Canva](https://www.canva.com/design/DAFuVbXSGew/kyvBCIboJuQwbZ-oMrlTfQ/edit?utm_content=DAFuVbXSGew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ){ .md-button }    
-
-[🛠️ Logo tim](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/lora_boisvert_cmontmorency_qc_ca/EUfMOcw0PChFoiJQzPhdTZ8BSxUsxgDwW5F-EGN8IbeSgw?e=ClgcH1){ .md-button }    
 
 
 
 ## Devoir
-Terminer le document sur le contenu du CV. 
+Terminer la planification du portfolio. 
 
-Terminer votre carte d'affaires.
+[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        

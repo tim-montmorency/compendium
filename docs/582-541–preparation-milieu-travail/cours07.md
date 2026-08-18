@@ -1,7 +1,7 @@
 # Cours 7
 
 ## ⚠️ Heure des cours modifié
-Tous les groupes vont chez Sid Lee au trou à l'horaire. 
+Tous les groupes font une visite le 14 octobre. 
 
 Adresse: 1 Place Ville Marie, #12102, Montréal, QC H3B 3Y1
 
