@@ -21,7 +21,7 @@ Voici une structure suggérée.
 
 ```txt 
 📁 Assets
- ├── 📁 _MOMO
+ ├── 📁 _
  │    ├── 📁 Animations
  │    ├── 📁 Audio
  │    ├── 📁 Fonts
@@ -53,13 +53,11 @@ Voici une structure suggérée.
 
     Tout ce qui sera importé d'ailleur se positionnera normalement à la racine du dossier « 📁 Assets ». Il sera important de les laisser à cet endroit pour éviter des problèmes plus tard.
 
-!!! note "Pourquoi _MOMO ?"
+!!! note "Pourquoi _ ?"
 
-    On vut juste séparer vos documents custom du reste.
+    Séparer les éléments personnalisés du reste.
 
-    Le «_» dans le nom du dossier sert juste à ce qu'il soit toujours affiché en premier sous « 📁 Assets ».
-
-    Finalement, «MOMO» est juste une suggestion. Le dossier pourrait très bien s'appeler « _Project », « _Perso » ou siplement « _ »
+    Le «_» affichera le dossier en premier sous « 📁 Assets ».
 
 !!! note "Nomenclature"
 
@@ -76,7 +74,7 @@ Voici une structure suggérée.
 1. Modifier la structure de fichiers
 
 1. Ajoutez un cube et renommer le « Plancher »
-1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
+1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)f
 1. L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
 
 1. Ajouter un autre cube et renommer le « Pente »
@@ -143,9 +141,7 @@ Le _Mesh Renderer_ c'est l'enveloppe, le manteau de la forme. C'est ce qu'on voi
 
 !!! question "Pourquoi on désactiverait ça ?"
 
-    Super utile ! 
-
-    ![](./assets/img/mesh-renderer-wall.png){data-zoom-image .w-25} 
+    Super utile !<br>![](./assets/img/mesh-renderer-wall.png){data-zoom-image .w-10} 
     
     On veut parfois limiter le déplacement d'un personnage sans l'afficher explicitement.
     
@@ -156,6 +152,9 @@ Le _Mesh Renderer_ c'est l'enveloppe, le manteau de la forme. C'est ce qu'on voi
 
     ![](./assets/img/mesh-renderer-wall-invisible.webp){data-zoom-image}
     </div>
+
+    > Ôte-toi de mon soleil !<br>
+    > - Diogène
 
 ### Mesh Filter
 
@@ -337,15 +336,7 @@ Là, ça fonctionne !
 1. Glissez par exemple, `SM_Env_Road_Straight_01` sur le panneau ***Scene***.
 1. Repositionnez le prefab au centre de l'environnement (`x=0`, `y=0` et `z=0`).
 
-!!! info "Pour éviter des problèmes, ne modifiez pas le scale des prefabs"
-
 ### Mesh Collider vs Box Collider
-
-Certains modèles 3D incluent par défaut un **Mesh Collider**. Si son utilisation est pertinente pour des surfaces complexes (comme un terrain), elle est souvent superflue pour des objets plus simples. 
-
-*Mesh Collider* est très gourmand en ressources, car le processeur doit calculer les collisions pour chaque polygone. Il faut donc se demander si une telle précision de collision est vraiment nécessaire.
-
-Si ce n'est pas le cas, privilégiez toujours un collider de forme primitive (Box, Capsule ou Sphere) afin d'optimiser les performances de votre jeu.
 
 <div class="grid" markdown>
 ![](./assets/img/mesh-collider-example.jpg){data-zoom-image}
@@ -353,6 +344,12 @@ Si ce n'est pas le cas, privilégiez toujours un collider de forme primitive (Bo
 ![](./assets/img/box-collider-example.jpg){data-zoom-image}
 </div>
 
+> Moins le collider est complexe, plus le jeu est performant
+
+Certains modèles 3D incluent par défaut un **Mesh Collider**. Si son utilisation est pertinente pour des surfaces complexes (comme un terrain) on garde, mais souvent ce n'est pas pertinent. 
+
+*Mesh Collider* est très gourmand en ressources, car le processeur doit calculer les collisions pour chaque polygone.
+<!-- 
 ## Un environnement qui se tient
 
 ![](./assets/img/Game-Level-Gray-Boxing.webp)
@@ -370,18 +367,20 @@ Voici deux exemples :
 - **Inventaire** : un ETB sur une clé enregistre une variable à `true`. Un autre ETB sur une porte vérifie si la variable est `true`, si oui, elle disparait
 - **Habileté du joueur** : un parcours demande de la précision sinon on tombe dans un ETB et il nous téléporte vers le début du parcours
 
-Une fois le *gate* choisi, l'environnement se construit en conséquence.
-
-
-
-
-<!-- Note à moi meme : Ajouter un autre exercice sur un usage un peu plus avancé de ETB (avec des conditions cette fois-ci) -->
+Une fois le *gate* choisi, l'environnement se construit en conséquence. -->
 
 ## Devoirs
 
+<div class="grid grid-1-2" markdown>
+  ![](./devoirs/protolude/assets.png){.aspect-4-3}
+
+  <small>Devoir - Unity</small><br>
+  **[Protolude : Partie 1 seulement](./devoirs/protolude/index.md){.stretched-link .back}**<br>
+</div>
+<!-- 
 * **Termine ton mini-monde** : un départ, un chemin, une arrivée évidente - sol continu, colliders en place, aucun endroit où on reste coincé ou on tombe dans le vide
 * Ce monde est la base de ton [jeu express](./devoirs/jeu-express.md) (**Évaluation 1 - 10 %**) : lis la grille dès maintenant
-* Apporte des idées : au [cours 3](./cours03.md), ton monde devient **jouable** (personnage, matériaux, son, victoire) - et on commence à parler de **ton** jeu de session
+* Apporte des idées : au [cours 3](./cours03.md), ton monde devient **jouable** (personnage, matériaux, son, victoire) - et on commence à parler de **ton** jeu de session -->
 
 <!-- ## Savoirs essentiels touchés
 Logiciels d'intégration d'expériences ludiques, installation et configuration des ressources, classement des fichiers et des médias, création d'un environnement virtuel navigable, intégration d'images dans l'environnement virtuel, déplacement dans l'environnement virtuel. -->

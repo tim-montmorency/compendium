@@ -18,6 +18,13 @@
 
 ### Les 3 pièces de l'animation Unity
 
+### Du T-pose Synty au personnage animé : le rigging Mixamo
+
+!!! note "Reporté du cours 3"
+    Au [cours 3](./cours03.md), le personnage Synty a simplement remplacé le mannequin gris : il glisse en T-pose. C'est ici qu'on lui donne un **squelette** (auto-rigger [Mixamo](https://www.mixamo.com)), un **avatar humanoïde**, et donc l'accès à toutes les animations humanoïdes — celles des Starter Assets, celles de Mixamo, et plus tard celles des PNJ du [cours 10](./cours10.md).
+
+    Prévoir un **plan B** : Mixamo n'est plus maintenu par Adobe et a déjà connu des pannes de plusieurs jours. Garder des personnages Synty déjà riggés sur le lecteur de classe.
+
 ### L'Animator : contrôleur, états, paramètres
 
 ### La machine à états : le cerveau

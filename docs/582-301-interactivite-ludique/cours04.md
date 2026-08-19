@@ -6,6 +6,10 @@
 !!! abstract ":material-check-decagram: Remise du GDD — 5 %"
     À la fin de la séance, après l'atelier et la validation. Le document est ensuite **verrouillé**.
 
+## Test
+
+Test des jeux en classe.
+
 
 ## Scene
 

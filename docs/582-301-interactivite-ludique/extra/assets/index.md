@@ -62,19 +62,31 @@ Certains packages ont des outils qu'on peut téléchager en plus. Il se trouvent
 
 Lorsqu'un GameObject entre en contact avec un des prefab du plugin, le plugin peut déclencher plusieurs événements et ce, sans programmation.
 
-Il n'est malheureusement pas disponible via l'Asset Store. Il doit être installé via un repo Git.
+Il n'est pas encore disponible via l'Asset Store. Il doit être installé via un repo Git avec l'URL suivante :
 
-URL : <https://github.com/jfcmontmorency/collider-event-system.git> 
+```txt
+https://github.com/jfcmontmorency/collider-event-system.git
+```
 
-!!! example "Une scène de démonstration est téléchargeable dans l'onglet _Samples_ du _package_"
+!!! success "Demo"
+
+    Une scène de démonstration est téléchargeable dans l'onglet _Samples_ du _package_.
 
 ### POLYGON - Sampler Pack | Synty Studios™
 
 ![](./polygon-sampler-pack.jpg)
 
-Avec le compte éducationnel, vous avez accès gratuitement à « [POLYGON - Sampler Pack](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048) » d'une valeur de 80 $ USD. Le _pack_ contient des centaines de modèles _low poly_ 3D **cohérents entre eux**.
+Avec le compte éducationnel, vous avez accès gratuitement à « POLYGON - Sampler Pack » d'une valeur de 80 $ USD. Le _pack_ contient des centaines de modèles _low poly_ 3D **cohérents entre eux**.
 
 [Sampler Pack | :simple-unity: AssetStore](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){ .md-button .md-button--primary }
+
+### Starter Assets: Character Controllers | URP
+
+![](./chracter-controller.webp)
+
+Package officiel de Unity Technologies, il permet l'ajout d'un personnage controllable à la première ou à la troisième personne.
+
+[Character Controllers | :simple-unity: AssetStore](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961){ .md-button .md-button--primary }
 
 ## Autres ressources
 

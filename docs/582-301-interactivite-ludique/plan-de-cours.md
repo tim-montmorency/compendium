@@ -61,7 +61,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 |---|--------|-------------------|-------|
 | 1 | [Moteur de jeu et prise en main](./cours01.md) | Théorie du jeu, moteurs, **Get Started With Unity** | |
 | 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **ETB**, Synty + URP | |
-| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1re/3e personne, *gating* par ETB, rigging Mixamo, build | :material-check-decagram: **Jeu express (15 %)** — déposé la veille de la S4 |
+| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1re/3e personne, *gating* par ETB, habillage Synty du personnage, build | :material-check-decagram: **Jeu express (15 %)** — déposé la veille de la S4 |
 
 ### Phase 2 - Concevoir, puis outiller (S4–S5)
 
@@ -119,7 +119,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * Notion d'**Input System** (survol : où sont les touches, comment en ajouter une)
 * Le tag `Player` et pourquoi tout en dépend
 * **Gating** (rappel S1) mis en œuvre concrètement avec le ETB : clé → porte, zone bloquée, variable custom vérifiée plus loin
-* **Habiller le personnage** : rigging d'un T-pose Synty via **Mixamo**, réglage de l'avatar humanoïde, substitution du mesh dans le Third Person Controller
+* **Habiller le personnage** : substitution du mannequin gris par un personnage **T-pose Synty** dans le Third Person Controller — sans *rigging*, donc sans animation pour l'instant. L'auto-rigger **Mixamo** et l'avatar humanoïde sont reportés à la **S6**, où ils servent enfin à quelque chose
 * Premier build local
 
 !!! tip "Ajout recommandé"
@@ -176,6 +176,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Animator** : contrôleur, états, paramètres (`bool`, `float`, `trigger`), transitions et conditions
 * **Machine à états** appliquée au personnage : idle, marche, course, saut, action - détection et indication de l'état
 * **Blend Tree** simple (marche → course)
+* **Rigging du T-pose Synty via Mixamo** (reporté de la S3), avatar **humanoïde** et *retargeting* — le personnage arrête enfin de glisser les bras en croix
 * Animations Mixamo appliquées au perso Synty; *Animation Events*
 * Animer des objets du décor (porte, plateforme, mécanisme) avec la fenêtre **Animation**
 
@@ -413,7 +414,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Environnement navigable | S2, S3, S9 |
 | Intégration d'images et de médias visuels | S2, S8, S9 |
 | Sons et échantillons | S3 (survol), S7 (profondeur) |
-| Animation | S3 (rigging), S6 (profondeur) |
+| Animation | S6 (rigging + Animator) |
 | Configuration d'une caméra 2D | S6, traité en **2.5D** : orthographique, contrainte d'axe, cadrage plat dans un monde 3D |
 | Compilation | S3, puis à chaque jalon; WebGL à partir de S11 |
 

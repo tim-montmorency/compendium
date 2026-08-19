@@ -67,19 +67,17 @@
 
 ## 5. Habiller le personnage
 
-- [ ] Repère le FBX d'un personnage dans ton pack Synty
-- [ ] Sur [Mixamo](https://www.mixamo.com) : `Upload Character` → place les marqueurs → `Skeleton LOD: Standard (65)` → `Download` en **FBX for Unity**, pose **T-pose**
-- [ ] Dans Unity : onglet `Rig` → `Animation Type: Humanoid` → `Avatar Definition: Create From This Model` → `Apply`
-- [ ] `Configure…` : vérifie que les os sont **verts**
-- [ ] Glisse le personnage riggé comme **enfant de PlayerArmature**, en position `0, 0, 0`
-- [ ] Désactive l'ancien mesh gris
-- [ ] Sur `PlayerArmature` > `Animator` > `Avatar` : assigne le **nouvel** avatar
-- [ ] Réassigne le **material Synty** sur ton personnage (Mixamo l'a perdu)
-- [ ] Ajuste le `Scale Factor` et la capsule du `CharacterController` si nécessaire
-- [ ] ▶️ Marche, cours, saute — les animations des Starter Assets fonctionnent sur ton personnage
+- [ ] Repère un personnage en **T-pose** dans ton pack Synty (`Prefabs` > `Characters`, ou le FBX dans `Models`)
+- [ ] Glisse-le comme **enfant de PlayerArmature**, en position `0, 0, 0`
+- [ ] Désactive l'ancien mesh gris (ne le supprime pas)
+- [ ] Ajuste le `Scale Factor` du FBX et la capsule du `CharacterController` si nécessaire
+- [ ] ▶️ Ton jeu a maintenant un visage
 
-!!! tip "Mixamo est en panne?"
-    Utilise un personnage **déjà riggé** du lecteur de classe et reprends à l'avant-dernière étape. Ne perds pas ta séance là-dessus.
+!!! note "Il glisse les bras en croix?"
+    Normal : un T-pose Synty n'a pas de squelette, donc aucune animation ne s'y applique. On le riggera au [cours 6](../cours06.md), avec l'Animator. Aujourd'hui, ce qui compte c'est l'**identité visuelle** et le **build**.
+
+!!! tip "Ton personnage a déjà un squelette?"
+    Certains packs en livrent. Onglet `Rig` → `Animation Type: Humanoid` → `Avatar Definition: Create From This Model` → `Apply`. Si `Configure…` montre des os **verts**, assigne ce nouvel avatar dans l'`Animator` de PlayerArmature et les animations partent tout de suite.
 
 ## 6. À toi : détourner le patron
 
@@ -92,7 +90,7 @@
 | Statue à regarder → passage ouvert | La condition devient ***Camera Condition*** (*Looking At*) |
 | 3 gemmes → sortie déverrouillée | `Player Pref Value` = `++` sur chaque gemme · condition ***greater than or equal to*** `3` |
 
-- [ ] Fais-en un **prefab** : glisse ta clé (ETB compris) dans `📁 _MOMO/Prefabs`. Duplique-la : tu as maintenant un moule
+- [ ] Fais-en un **prefab** : glisse ta clé (ETB compris) dans `📁 _/Prefabs`. Duplique-la : tu as maintenant un moule
 - [ ] Renomme tes objets pour qu'ils racontent TON jeu — `LevierSalleDesMachines`, pas `ETB (3)`
 - [ ] **Passe d'affordance** : ta clé est-elle visible et désirable? Ta porte a-t-elle l'air d'une porte et pas d'un mur décoratif? Si non, change sa couleur ou son material
 

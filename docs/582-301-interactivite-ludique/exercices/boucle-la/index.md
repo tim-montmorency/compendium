@@ -21,4 +21,4 @@ L'objectif de cet exercice est de :
 
 ![type:video](./loop-dark.webm){data-zoom-image .h-100}
 
-- [ ] Ajouter au CES une autre _Action_ de type _Transform_, mais cette fois-ci, elle affectera la rotation du _Directional Light_ pour descendre le soleil à chaque collision de sphère détectée.
+- [ ] Ajouter au CES une autre _Action_ de type _Transform_, mais cette fois-ci, elle affectera la rotation du _Directional Light_ pour descendre le soleil à chaque collision de sphère.

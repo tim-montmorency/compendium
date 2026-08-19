@@ -31,7 +31,7 @@ C'est une évaluation des **acquis techniques**, pas du talent de designer. Le j
 | **Physique** | Au moins un objet utilise réellement la physique (`Rigidbody` + `Collider` cohérent avec la forme) | 5 |
 | **Détection et victoire** | Un **ETB** correctement configuré déclenche la fin : tag `Player` assigné au personnage, zone bien placée, réponse `Load Scene` avec le nom **exact** de la scène, scènes présentes dans la *Scene List* | 20 |
 | **Habillage** | Au moins un **material** créé et appliqué, et au moins un **son** dans la scène (ambiance en boucle ou effet déclenché) | 10 |
-| **Classement des fichiers** | L'arborescence vue au cours 2 est respectée (`_MOMO` avec `Scenes`, `Scripts`, `Materials`, `Audio`…), les imports laissés à la racine d'`Assets` | 5 |
+| **Classement des fichiers** | L'arborescence vue au cours 2 est respectée (`_` avec `Scenes`, `Scripts`, `Materials`, `Audio`…), les imports laissés à la racine d'`Assets` | 5 |
 | **Compilation** | Un build autonome qui se lance et se joue du début à la fin | 5 |
 | | **Total** | **100** |
 

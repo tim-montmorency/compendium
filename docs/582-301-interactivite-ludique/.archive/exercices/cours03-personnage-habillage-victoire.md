@@ -41,13 +41,13 @@ Ouvre le projet `JeuExpress` du cours 2 et la scène de ton monde.
 ### 4. Un prefab à toi
 
 - [ ] Crée un GameObject vide « Bonhomme », mets-y 3 sphères empilées
-- [ ] Glisse-le dans `📁 _MOMO/Prefabs` : son nom devient **bleu**
+- [ ] Glisse-le dans `📁 _/Prefabs` : son nom devient **bleu**
 - [ ] Dépose 4 ou 5 copies dans ton monde
 - [ ] Double-clic sur le prefab, modifie-le, `Save` → **toutes** les copies changent
 
 ### 5. Les materials
 
-- [ ] Dans `📁 _MOMO/Materials`, clic droit → **Create → Material**, nomme-le `M_Sol`
+- [ ] Dans `📁 _/Materials`, clic droit → **Create → Material**, nomme-le `M_Sol`
 - [ ] Choisis une couleur dans ***Base Map***, glisse le material sur ton plancher
 - [ ] Crée-en un deuxième, `M_Objectif`, dans une couleur **vive** (ou avec de l'***Emission***) → applique-le à un repère bien visible à l'endroit d'arrivée
 - [ ] Amuse-toi 2 minutes avec `Smoothness` : mat vs miroir
@@ -58,14 +58,14 @@ Ouvre le projet `JeuExpress` du cours 2 et la scène de ton monde.
 ### 6. Le son
 
 - [ ] Télécharge 2 sons libres de droits ([Kenney](https://kenney.nl/assets?q=audio), [Pixabay](https://pixabay.com/sound-effects/), [Freesound](https://freesound.org)) : une **ambiance** en boucle et un **effet** court
-- [ ] Dépose-les dans `📁 _MOMO/Audio`
+- [ ] Dépose-les dans `📁 _/Audio`
 - [ ] GameObject vide « Ambiance » → **Add Component → Audio Source** → ton clip, `Play On Awake` ✅, `Loop` ✅, `Volume` 0.3
 - [ ] *(Optionnel)* Sur un objet du décor : une deuxième Audio Source avec ***Spatial Blend*** à **1** → le son devient localisé
 - [ ] Note dans un fichier `credits.txt` : *titre - auteur - lien - licence* pour chaque son
 
 ### 7. La zone de victoire (ETB)
 
-- [ ] **File → New Scene** → **Save As** → `Victoire` dans `📁 _MOMO/Scenes`
+- [ ] **File → New Scene** → **Save As** → `Victoire` dans `📁 _/Scenes`
 - [ ] Décore-la : un sol, un objet, une couleur - et un son de fanfare (`Play On Awake` ✅, `Loop` ❌)
 - [ ] Rouvre ta scène de jeu
 - [ ] **File → Build Profiles → Scene List** : glisse-y tes **deux** scènes, ta scène de jeu en **position 0**

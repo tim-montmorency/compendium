@@ -71,7 +71,7 @@ Un **prefab**, c'est un GameObject transformé en **moule** : on le range dans l
 
 - Ajoute un GameObject vide, nomme-le « Bonhomme »
 - Dedans, ajoute 3 sphères empilées (`3D Object` > `Sphere`)
-- Glisse « Bonhomme » depuis la Hierarchy vers ton dossier `📁 _MOMO/Prefabs` : le nom devient **bleu**, c'est un prefab
+- Glisse « Bonhomme » depuis la Hierarchy vers ton dossier `📁 _/Prefabs` : le nom devient **bleu**, c'est un prefab
 - Dépose-en 4 ou 5 copies dans la scène
 - Double-clic sur le prefab pour l'ouvrir en mode édition, change quelque chose, `Save` : **toutes** les copies ont changé
 
@@ -96,7 +96,7 @@ Un material URP définit quatre choses utiles tout de suite :
 
 Créer un material prend 20 secondes :
 
-1. Dans `📁 _MOMO/Materials`, clic-droit > `Create` > `Material`. Nomme-le (ex. : `M_Plancher`)
+1. Dans `📁 _/Materials`, clic-droit > `Create` > `Material`. Nomme-le (ex. : `M_Plancher`)
 1. Dans l'Inspector, clic sur le carré blanc à côté de ***Base Map*** et choisis une couleur
 1. **Glisse le material** depuis le Project directement sur l'objet dans la scène (ou dans la Hierarchy)
 
@@ -129,7 +129,7 @@ Coupe le son d'un bon jeu : il a l'air mort. On voit le design sonore en profond
 
 ### Trois pièces à connaître
 
-* **AudioClip** : le fichier son importé (ta matière première, dans `📁 _MOMO/Audio`)
+* **AudioClip** : le fichier son importé (ta matière première, dans `📁 _/Audio`)
 * **AudioSource** : le composant qui **joue** un clip - c'est lui qu'on configure
 * **AudioListener** : les « oreilles ». **Une seule par scène**, déjà présente sur ta caméra
 
@@ -145,7 +145,7 @@ Les paramètres d'AudioSource qui comptent aujourd'hui :
 
 ### Une ambiance de fond (2D)
 
-- Télécharge un son libre de droits (voir plus bas) et dépose-le dans `📁 _MOMO/Audio`
+- Télécharge un son libre de droits (voir plus bas) et dépose-le dans `📁 _/Audio`
 - Crée un GameObject vide nommé « Ambiance » > `Add Component` > ***Audio Source***
 - Glisse ton clip dans `AudioClip`, coche `Play On Awake` et `Loop`, baisse le `Volume` à 0.3
 - Play ▶️
@@ -185,7 +185,7 @@ Tu as déjà tout ce qu'il faut : au cours 2, l'ETB a fait disparaître un objet
 
 Le montage minimal :
 
-1. Une **scène de fin** (`Victoire`), créée et sauvegardée dans `📁 _MOMO/Scenes`
+1. Une **scène de fin** (`Victoire`), créée et sauvegardée dans `📁 _/Scenes`
 1. Les deux scènes ajoutées à la ***Scene List*** (`File` > `Build Profiles`), avec ta scène de jeu en **position 0**
 1. Un **ETB** à l'endroit d'arrivée, réponse ***Load Scene*** > `Load Level Name` : le nom **exact** de la scène de fin
 1. Le tag `Player` sur ton personnage
