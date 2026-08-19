@@ -12,10 +12,6 @@
 [📋 Activités pour aller plus loin](https://cdn.careercruising.com/clientservice/Activit%C3%A9s%20de%20recherche%20d'emploi.pdf){ .md-button }
 
 
-## Capsule du cours
-[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
- 
-
 
 ## Créer son profil     
 
@@ -44,29 +40,26 @@
 [Synthèse](https://polesynthese.com/repertoire/studio-creatif)
 - [ ] Quête: Tente de trouver une quête pour ton personnage! Quel est son objectif dans sa recherche de stage?
 
+## Capsule du cours
+[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
  
-
-      
-## Chasse aux compétences douces
-
-
 
 ## Journée carrière     
 Discussion sur les comités   
 
 ![Journee2023](image/PXL_20231108_182433460.MP.jpg)
 
-Création d'une liste de tâches
 
-Visite de la salle
 
-## 28 août
-### Présentation sur le portfolio    
+
+## Présentation sur le portfolio    
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
-### Consignes pour le portfolio    
+## Consignes pour le portfolio    
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
 
+
+## Activité sur l'identité visuelle
 
 ## Devoir
 Recherche de projets pour votre portfolio. Au prochain cours vous devez apporter les images, captures écrans et vidéos.

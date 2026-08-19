@@ -4,7 +4,7 @@
 ## Description
 Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez à réaliser un portfolio web qui vous permettra de vous présenter aux employeurs potentiels. Pour le cours de préparation au milieu de travail, c'est le contenu de ce portfolio qui sera évalué.
 
-[➜ Instructions spécifiques au cours de **Web 5**](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio.html){ .md-button }
+[➜ Instructions spécifiques au cours de **Web 5**](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio/){ .md-button }
 
 
 ## Technologies permises
@@ -22,7 +22,7 @@ Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez
  
 Le format de votre planification de portfolio est libre. La planification doit cependant contenir les éléments suivants: 
 
-**Compétences**
+**Compétences**    
 Nommez les compétences que vous aimeriez utiliser en stage. Ajoutez-en au besoin.:    
  
 - [ ] Designer, coder et publier des sites Web dynamiques    
@@ -37,7 +37,7 @@ Nommez les compétences que vous aimeriez utiliser en stage. Ajoutez-en au besoi
 - [ ] Collaborer avec diverses disciplines artistiques ou interdisciplinaires    
 
 
-**Logiciels** 
+**Logiciels**     
 Nommez les logiciels avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:     
 
 - [ ] Visual Studio Code
@@ -57,7 +57,7 @@ Nommez les logiciels avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:
 - [ ] MadMapper
 - [ ] Microsoft Teams
 
-**Langage de programmation**
+**Langage de programmation**    
 Nommez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.: 
 
 - [ ] HTML
@@ -69,10 +69,10 @@ Nommez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:
 - [ ] C++ (Arduino)
 - [ ] Connaissance de systèmes de gestion de contenu (CMS)
 
-**Objectif de carrière**
+**Objectif de carrière**    
 Insérer votre objectif de carrière dans cette section. 
 
-**Projet 1** 
+**Projet 1**      
 Nom de votre projet:     
 Mention académique ou personnel:     
 Réalisé dans le cadre du cours:        
@@ -86,64 +86,7 @@ Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 p
 Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
 Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
 
-**Projet 2**
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-
-**Projet 3** 
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-**Projet 4**
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-**Projet 5 (Optionnel)**
-Nom de votre projet:     
-Mention académique ou personnel:     
-Réalisé dans le cadre du cours:        
-Individuel ou en équipe:     
-Nom de vos coéquipiers:      
-Votre ou vos rôle(s) dans le projet:     
-Logiciels ou techniques utilisées:    
-Catégorie du projet:      
-Description courte du projet (Résumé en 1 phrase):     
-Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
-Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
-Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
-
-**Projet 6 (Optionnel)**
+**Projet 2**    
 Nom de votre projet:     
 Mention académique ou personnel:     
 Réalisé dans le cadre du cours:        
@@ -158,7 +101,64 @@ Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
 
 
-**Processus de création**
+**Projet 3**     
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+**Projet 4**    
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+**Projet 5 (Optionnel)**    
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+**Projet 6 (Optionnel)**    
+Nom de votre projet:     
+Mention académique ou personnel:     
+Réalisé dans le cadre du cours:        
+Individuel ou en équipe:     
+Nom de vos coéquipiers:      
+Votre ou vos rôle(s) dans le projet:     
+Logiciels ou techniques utilisées:    
+Catégorie du projet:      
+Description courte du projet (Résumé en 1 phrase):     
+Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):     
+Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):     
+Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):     
+
+
+**Processus de création**    
 Sélectionnez un de vos projets et insérez son processus de création. À l'aide d'images et de texte vous devez expliquer le processus de création étape par étape de votre projet. 
 
 
@@ -191,6 +191,19 @@ Les éléments suivants doivent être présents dans votre portfolio :
 * **Cohérence du portfolio**: Le portfolio est cohérent, les compétences que vous avez sélectionnées sont mises en valeur par vos projets. 
 * **Qualité de l'identité visuelle**: L'identité visuelle choisie est forte et cohérente. 
 * **Qualité du français**
+
+### Grille de correction
+
+| Critère | % | Excellent — 4 | Super — 3 | À retravailler — 2 | Insuffisant — 1 |
+|---|---:|---|---|---|---|
+| **Description des projets** | **20** | La description du projet qu'on vous a demandé et du projet que vous avez réalisé est claire et détaillée. Elle nous permet de bien comprendre le contexte de réalisation et le produit final. | La description du projet qu'on vous a demandé et du projet que vous avez réalisé est assez claire. Elle nous permet de comprendre le contexte de réalisation et le produit final. | La description du projet qu'on vous a demandé et du projet que vous avez réalisé est à retravailler. Elle nous permet de comprendre sommairement le contexte de réalisation et le produit final. | La description ne permet pas de comprendre le projet réalisé ou son contexte, le tout devra être retravaillé. |
+| **Documentation des projets** | **20** | Tous les projets sont supportés par une documentation claire et pertinente. La qualité des médias est impeccable. Le support nous aide à comprendre le projet. | La plupart des projets sont supportés par une documentation claire et pertinente. La qualité des médias est bien. Le support nous aide à comprendre le projet. | Quelques projets sont supportés par une documentation claire et pertinente. La qualité des médias est à travailler. Le support devrait être clarifié pour nous aider à comprendre le projet. | La documentation des projets doit être retravaillée. Elle n'est pas suffisante pour un document professionnel. |
+| **Informations générales des projets** | **10** | Les informations générales sur vos projets sont présentes, claires et complètes. (Nom du projet, cours ou cadre dans lequel il a été réalisé, mention individuel ou en équipe, nom de vos coéquipiers, votre rôle, catégorie du projet, logiciel ou technique utilisé) | La plupart des informations sur vos projets sont présentes, claires et complètes. | Les informations générales sur vos projets sont présentes, mais manquent de clarté. | Les informations générales sur vos projets doivent être clarifiées ou ajoutées. |
+| **Processus de création** | **20** | Pour un des projets, vous avez documenté le processus de réalisation. À l'aide de phrases claires et de supports visuels pertinents, vous expliquez étape par étape la réalisation du projet. Un moodboard, une vidéo de making of ou des descriptions écrites détaillées nous permettent de bien comprendre votre processus. | Le processus de création a été documenté, mais il manque parfois de clarté. Certains éléments gagneraient à être clarifiés. Certains supports visuels ou écrits supplémentaires pourraient nous aider à mieux comprendre le processus. | Le processus de création est parfois confus. Plus de détails et/ou de supports visuels seraient nécessaires pour assurer une bonne compréhension du lecteur. | Le processus n'est pas présent. |
+| **Cohérence du portfolio** | **10** | Les compétences que vous avez sélectionnées sont en lien avec les différents projets que vous avez choisi. Le portfolio vous met bien en valeur. Il démontre parfaitement vos compétences ainsi que votre polyvalence ou votre spécialisation dans un domaine précis. | Les compétences que vous avez sélectionnées sont souvent en lien avec les différents projets que vous avez choisi. Le portfolio vous met assez bien en valeur. Il démontre vos compétences ainsi que votre polyvalence ou votre spécialisation dans un domaine précis. | Les compétences que vous avez sélectionnées sont parfois en lien avec les différents projets que vous avez choisi. Le portfolio vous met plutôt bien en valeur. Il démontre quelques compétences ainsi que votre polyvalence ou votre spécialisation dans un domaine précis. | La planification de portfolio manque de cohérence. Les différents éléments n'ont pas nécessairement de liens entre eux. On arrive difficilement à comprendre la spécialisation ou la polyvalence de l'étudiant. |
+| **Identité visuelle** | **10** | Vous avez créé une identité visuelle forte et originale. Elle vous représente bien. | Votre identité visuelle est intéressante, elle pourrait être plus créative. | L'identité visuelle est à retravailler pour être claire et cohérente. | L'identité visuelle doit être revue. |
+| **Qualité du français** | **10** | La planification contient peu ou pas de fautes, sa structure est excellente. | La planification a quelques erreurs et/ou la structure est à retravailler. | L'orthographe ou la structure de la planification de portfolio sont à retravailler pour permettre une bonne compréhension. | La qualité du français n'est pas professionnelle. Plusieurs problèmes de syntaxe ou d'orthographe empêchent une lecture fluide. |
+| **TOTAL** | **100** | | | | |
 
 ### Contenu du portfolio
 * **Identification du portfolio**: Elle est présente, professionnelle et nous permet de vous joindre facilement. Vous n'avez pas mis d'information sensible.

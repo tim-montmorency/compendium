@@ -1,16 +1,20 @@
 # Cours 5
 
+## 🚨 Remise des Demo reel
 
-## Portfolio
-* Évaluation formative du portfolio d'un collègue de classe.
+## 🚨 Remise des cartes d'affaire
 
 
 ## Cartes d'affaires
 Rencontre individuelle pour corriger formativement les cartes d'affaires. 
 
-## Devoir
+## Portfolio
+* Évaluation formative du portfolio d'un collègue de classe.
+* Temps pour avancer le portfolio
 
-- [ ] Avancer le Demo reel.
+
+
+## Devoir
 - [ ] Avancer le portfolio.
 
 [🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      

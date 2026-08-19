@@ -21,5 +21,7 @@ De 12h30 à 15h30 au grand studio
 ### Groupe PM 
 - 16h à 17h - Conseillère d'orientation - Camille Lafond
 
-## Devoir
-Remplir le document bilan_recherche_stage sur GitHub. 
+## Bilan sur la recherche de stage
+Réaliser l'activité suivante:      
+
+[🛠️ Bilan recherche de stage](./activites/bilan-recherche-stage.md){ .md-button }   
