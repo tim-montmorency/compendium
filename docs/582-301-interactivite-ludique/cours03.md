@@ -5,6 +5,15 @@
 *[FBX]: Filmbox — format d'échange de modèles 3D
 *[GDD]: Game Design Document
 
+https://github.com/jfcmontmorency/collider-event-system.git#v0.1.7
+
+À faire rapidement : 
+
+- Changement de scène
+- Texte à l'écran (legacy)
+- Ajout d'un son
+
+
 ## Ajouter un personnage jouable
 
 ![](./assets/img/1_S5fdmU3gdwvN0riM3rN5XQ.gif){.w-100}
@@ -52,47 +61,18 @@ Sélectionne ton personnage, trouver la capsule (qui a un _Capsule Collider_) et
 
 <div class="grid cards" markdown>
 <figure markdown>
-![](./assets/img/fps-etb.webp)
+![](./assets/img/fps-etb.webp){data-zoom-image}
 <figcaption>1ère personne</figcaption>
 </figure>
 
 <figure markdown>
-![](./assets/img/tps-etb.webp)
+![](./assets/img/tps-etb.webp){data-zoom-image}
 <figcaption>3e personne</figcaption>
 </figure>
 </div>
 
 <!-- On peut afficher le ETB visuellement en lui ajoutant un Mesh Filter (Cube) et un Mesh Renderer (avec un Material). -->
 
-## Prefab
-
-![](./assets/img/prefabs-banner.png){.w-100}
-
-Un prefab c'est un objet ou un groupe d'objets qu'on enregistre pour le réutiliser. C'est un modèle sur lequel toutes les copies vont garder une référence.
-
-### Le bonhomme de neige
-
-1 bonhomme de neige c'est facile à faire. 3 sphères et hop, c'est fait.
-
-Admettons que je veuille ajouter 10 bonhommes de neige dans mon jeu. Je pourrais le dupliquer 10 fois, mais pas l'idéal. Si ensuite je veux ajouter une carotte pour le nez, je dois le faire pour les 10 ! Il faudrait avoir à le faire une seule fois pour tous les bonhommes. Ça, ça s'appelle faire un prefab.
-
-- Crééer un gameobject vide, nomme le « bonhomme de neige » et y mettre les 3 sphères.<br>![](./assets/img/mrplow1.png){data-zoom-image .w-10}
-- Glisser « bonhomme de neige » dans le panneau _Project_ dans le dossier prefab que vous devirez déjà avoir si vous avez bien fait votre structure de dossiers ;)
-- Supprimer « bonhomme de neige » du panneau _Hierarchy_
-- Glisser le prefab « bonhomme de neige » sur la scène (on reconnait le prefab par un cube turquoise)<br>![](./assets/img/mrplow2.png){data-zoom-image .w-10}
-- Dubliquer le prefab et repositionnez le, 10 fois<br>![](./assets/img/mrplow3.png){data-zoom-image .w-10}
-
-Testons l'avantage d'utiliser des prefabs. Ajoutons une carotte pour le nez.
-
-- Dans le panneau _Project_, double-clic sur le prefab « bonhomme de neige »<br>![](./assets/img/mrplow4.png){data-zoom-image .w-10}
-- Ajouter une carotte pour le nez<br>![](./assets/img/mrplow5.png){data-zoom-image .w-10}
-- Sauvegarder et revenir de l'édition en cliquant sur la petite flèche dans le panneau hierarchy<br>![](./assets/img/prefab-backbtn.png){data-zoom-image .w-10}
-
-### Détacher un prefab
-
-Pour détacher un prefab, clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`.
-
-Il n'y aura plus de référence au prefab, donc si on change le prefab, ca ne changera plus cet élément.
 
 ## La progression
 
@@ -110,6 +90,14 @@ Les prérequis (_gates_) qu'un joueur doit satisfaire pour avancer sert à contr
 | **Connaissance** | Comprendre qu'il faut regarder la statue | `Camera Condition` (*Looking At*) sur la statue |
 | **Habileté du joueur** | Rester dans la zone 5 secondes | `Condition Time` dans les options de base |
 | **Compétence** | Le double saut débloqué | `Modify GameObject` > *Enable Component* sur le script de saut |
+
+
+@todo : 
+
+Exercice
+
+- Ajouter une joueur
+- Ajouter un gameobject
 
 ### Les trois événements d'un trigger
 
@@ -254,64 +242,38 @@ Deux ETB et une variable. C'est tout.
 
 ![](./assets/img/polygon.webp){.w-50}
 
-Le personnage des Starter Assets est un mannequin gris. Tes assets Synty contiennent des dizaines de personnages — mais ce sont des **modèles figés en T-pose**, sans squelette. Il faut les *rigger*.
+Le personnage des Starter Assets est un mannequin gris. Ton pack Synty contient des dizaines de personnages : aujourd'hui, on fait le geste le plus simple qui soit — **on échange le mannequin contre l'un d'eux**.
 
 ### Ce qu'on va faire
 
 ```mermaid
 graph LR
-    A[Personnage Synty<br/>T-pose, sans squelette] --> B[Mixamo<br/>auto-rigger]
-    B --> C[FBX riggé<br/>+ avatar humanoïde]
-    C --> D[Remplace le mesh<br/>du PlayerArmature]
+    A[Personnage Synty<br/>T-pose] --> B[Enfant de PlayerArmature<br/>position 0, 0, 0]
+    B --> C[Mannequin gris<br/>désactivé]
 ```
 
-### 1. Le rigging avec Mixamo
+### La substitution, en quatre gestes
 
-[Mixamo](https://www.mixamo.com) est gratuit avec un compte Adobe.
-
-- Repère le FBX de ton personnage dans le dossier Synty (`Models` ou `Characters`)
-- Sur Mixamo : `Upload Character`, dépose le FBX
-- L'auto-rigger te demande de placer des marqueurs : menton, poignets, coudes, genoux, aine. Prends ton temps — **c'est la seule étape qui demande de la précision**
-- `Skeleton LOD` : **Standard (65)**
-- Attends l'aperçu animé, puis `Download`
-  - `Format` : **FBX for Unity (.fbx)**
-  - `Pose` : **T-pose**
-
-!!! warning "Plan B — Mixamo est un outil non maintenu"
-
-    Adobe garde Mixamo gratuit, mais ne le met plus à jour et le service a connu des pannes de plusieurs jours. **Ne construis pas ta séance de travail dessus sans filet.**
-
-    Si le site est en panne : des personnages Synty **déjà riggés** sont déposés sur le lecteur de classe. Tu les importes et tu sautes directement à l'étape 3.
-
-### 2. L'avatar humanoïde dans Unity
-
-- Glisse le FBX téléchargé dans `📁 _MOMO/Models`
-- Sélectionne-le > onglet ***Rig*** dans l'Inspector
-  - `Animation Type` : **Humanoid**
-  - `Avatar Definition` : **Create From This Model**
-  - `Apply`
-- Clic sur ***Configure…*** : Unity montre le squelette qu'il a compris. Les cercles doivent être **verts**. Un os en rouge = un marqueur mal placé sur Mixamo
-
-!!! info "Pourquoi Humanoid?"
-
-    Le type ***Humanoid*** dit à Unity : « ce squelette a deux bras, deux jambes et une tête ». Unity peut alors faire du **retargeting** — appliquer n'importe quelle animation humanoïde à n'importe quel personnage humanoïde. C'est ce qui te permet de garder les animations des Starter Assets avec ton personnage Synty.
-
-    La [documentation Unity sur la configuration de l'avatar](https://docs.unity3d.com/Manual/ConfiguringtheAvatar.html) détaille chaque os si un cercle refuse de passer au vert.
-
-### 3. Remplacer le mesh
-
-- Déplie ***PlayerArmature*** dans la Hierarchy : tu y trouves un enfant qui porte le mesh (le mannequin) et un ***PlayerCameraRoot***
-- Glisse ton personnage riggé **comme enfant de PlayerArmature**, position `0, 0, 0`
-- Désactive (ou supprime) l'ancien mesh
-- Sélectionne ***PlayerArmature*** > composant ***Animator*** > champ `Avatar` : glisse le **nouvel** avatar
-- Laisse le `Controller` tel quel — c'est lui qui contient les animations
+- Repère un personnage en **T-pose** dans ton pack Synty (`Prefabs` > `Characters`, ou le FBX dans `Models`)
+- Déplie ***PlayerArmature*** dans la Hierarchy : tu y trouves l'enfant qui porte le mesh (le mannequin) et un ***PlayerCameraRoot***
+- Glisse ton personnage Synty **comme enfant de PlayerArmature**, position `0, 0, 0`
+- Désactive l'ancien mesh gris — ne le supprime pas, c'est ton point de comparaison
 - Play ▶️
 
-!!! warning "Les trois pièges du remplacement"
+!!! warning "Il glisse les bras en croix, et c'est normal"
 
-    1. **Les materials sont perdus.** Mixamo renvoie le FBX sans les materials Synty. Réassigne le material du pack (une seule texture *atlas* pour tout le personnage)
-    2. **L'échelle.** Si ton personnage fait trois mètres ou dix centimètres, ajuste `Scale Factor` dans l'onglet `Model` du FBX
-    3. **La capsule.** Le `CharacterController` de PlayerArmature a une hauteur et un rayon fixes. Ajuste-les à ton nouveau personnage, sinon il traverse les murs ou flotte
+    Un modèle Synty en T-pose n'a **pas de squelette** : Unity ne peut donc pas lui appliquer les animations des Starter Assets. Ton personnage se déplace, mais sans bouger.
+
+    C'est assumé pour aujourd'hui. L'objectif de la séance est que ton jeu **ait un visage** et qu'il **compile**. On le fera bouger au [cours 6](./cours06.md), quand on ouvrira l'Animator : c'est là que le *rigging* prend son sens, pour ton personnage comme pour les PNJ du [cours 10](./cours10.md).
+
+!!! tip "Ton personnage Synty a déjà un squelette?"
+
+    Certains packs livrent des personnages déjà riggés. Vérifie en trente secondes : sélectionne le FBX > onglet ***Rig*** > `Animation Type` : **Humanoid** > `Avatar Definition` : **Create From This Model** > `Apply`. Si ***Configure…*** montre des os **verts**, glisse ce nouvel avatar dans le champ `Avatar` de l'***Animator*** de PlayerArmature : les animations fonctionnent immédiatement.
+
+!!! warning "Les deux réglages à surveiller"
+
+    1. **L'échelle.** Si ton personnage fait trois mètres ou dix centimètres, ajuste `Scale Factor` dans l'onglet `Model` du FBX
+    2. **La capsule.** Le `CharacterController` de PlayerArmature a une hauteur et un rayon fixes. Ajuste-les à ton nouveau personnage, sinon il traverse les murs ou il flotte
 
 ---
 
@@ -337,11 +299,6 @@ Jusqu'ici, ton jeu n'existe que dans l'éditeur. **Compiler** (*build*), c'est p
 ---
 
 ![](./assets/img/exercice.jpg)
-
-
-## Troisième personne rigged
-
-!
 
 
 ## Pratique

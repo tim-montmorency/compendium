@@ -6,6 +6,39 @@
 !!! abstract ":material-check-decagram: Remise du GDD — 5 %"
     À la fin de la séance, après l'atelier et la validation. Le document est ensuite **verrouillé**.
 
+## Test
+
+Test des jeux en classe.
+
+
+## Scene
+
+![type:video](./assets/video/scene-ex.webm){.h-auto}
+
+Les scènes en Unity sont différents lieux ou interfaces qui sont traditionnellement séparés par un écran de chargement.
+
+Pour créer une nouvelle scène, dans le dossier scène, clic-droit > `Create` > `Scene` > `Scene`.
+
+!!! info "Skybox manquant ?"
+
+    ![](./assets/img/no-sky.png){data-zoom-image .w-25}
+
+    `Window` > `Rendering` > `Lighting` > onglet `Environment` → `Skybox Material` : assigne `Default-Skybox`
+
+### Changer de scène
+
+Pour changer de scène, il faut d'abord configurer les scènes du build. On doit mentionner manuellement à Unity les scènes qui font officiellement parti de notre jeu.
+
+- `File` > `Build Profiles`
+- Dans la colonne de gauche, clic sur `Scene List`
+- Il faut glisser manuellement les scènes de notre jeu dans cette case !<br>![](./assets/img/scene-list.png){data-zoom-image} 
+
+Un fois les scènes ajoutées dans la liste, on peut utiliser un ETB (_Enhanced Trigger Box_) pour déclencher un changement de scène.
+
+- Dans la liste des réponses, choisir `Load Scene`
+- Dans `Load Level Name`, inscrire le nom **EXACTE** de la scène vers où il faut se diriger
+- Play<br>![](./assets/img/poulet.webp){data-zoom-image .w-10}
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -85,6 +118,8 @@
 ## Démarrer
 
 ### Le greybox de ton niveau
+
+Un greybox c'est l'équivalent d'un Wireframe en Web.
 
 ## Devoirs
 

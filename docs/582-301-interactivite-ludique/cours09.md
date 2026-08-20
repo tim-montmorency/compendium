@@ -30,6 +30,8 @@
 
 ## L'éclairage
 
+https://www.youtube.com/watch?v=5rxMdiCkQGk
+
 ### Les types de lumières
 
 ### Temps réel vs *baked*

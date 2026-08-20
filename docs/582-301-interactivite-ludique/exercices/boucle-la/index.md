@@ -1,41 +1,24 @@
 # Boucle-là !
 
+*[CES]: Collision Event System
+
 ![](./giphy.gif){.w-100}
 
 À la manière d'une [machine de Rube Goldberg](https://en.wikipedia.org/wiki/Rube_Goldberg_machine), utilisez la physique de Unity pour donner un parcours infini à une sphère.
 
 L'objectif de cet exercice est de : 
 
-- pratiquer le positionnement spatial en Unity
-- faire usage de la physique
-- créer un événement quand la sphère atteint une zone
-
-## Résultat suggéré
-
-![type:video](./output.webm){data-zoom-image .h-100}
+- créer un événement quand les sphères atteignent une zone
 
 ## Consignes
 
-!!! warning "Attention au mode Play"
+![type:video](./loop.webm){data-zoom-image .h-100}
 
-    Lorsque vous effectuez des modifications en mode ***Play***, sachez qu'elles sont temporaire et qu'elles disparaîtront après le ***Stop***.
+- [ ] Ajoutez un prefab CES à la fin du parcours des sphères
+- [ ] Configurez le CES pour qu'il repositionne les sphères à une coordonnée fixe et qu'il les redimensionne.
 
-### Première partie
+## Finale
 
-- [ ] Dans un projet « 3D Universal », ajoutez des cubes sur une scène
-- [ ] Assurez-vous que l'axe z de tous les cubes soit à 0
-- [ ] Redimensionnez et déplacez les cubes de sorte à fabriquer un parcours
-- [ ] Ajoutez une sphère au début du parcours
-- [ ] Pour activer la physique de la sphère, ajoutez-y un Rigidbody
-- [ ] Testez votre parcours de sorte à ce que la sphère puisse le terminer
+![type:video](./loop-dark.webm){data-zoom-image .h-100}
 
-### Seconde partie
-
-- [ ] Ajoutez un prefab ETB ([Enhanced Trigger Box](../../extra/assets/index.md){.back}) à la fin du parcours pour interagir avec la sphère
-- [ ] Assignez le tag « Player » à la sphère
-- [ ] Ajoutez un GameObject vide et positionnez-le au début du parcours
-- [ ] Configurez l'ETB de sorte qu'à chaque fois que la sphère entre dans sa zone, celle-ci se téléporte à la position du GameObject vide.
-
-### Bonus
-
-- [ ] Positionne la lumière directionnelle de sorte à ce qu'on voit le soleil dans la caméra
+- [ ] Ajouter au CES une autre _Action_ de type _Transform_, mais cette fois-ci, elle affectera la rotation du _Directional Light_ pour descendre le soleil à chaque collision de sphère.

@@ -1,12 +1,7 @@
 # Cours 14
 
-
-
-## Retour sur la journée carrière
-Remplir le document bilan_journee_carriere dans GitHub. 
-
-## Autoévaluation et évaluation en groupe des comités
-[🛠️ Formulaire à remplir](https://forms.office.com/r/1ZQX8yAAKu){ .md-button }    
+## Retour sur la journée carrière et évaluation des comités
+[🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/1ZQX8yAAKu){ .md-button }   
 
 
 ## Mes finances, mes choix
