@@ -115,7 +115,7 @@ Ajouter 5 employeurs potentiels à la liste en suivant les consignes:
 
 
 
-## Temps pour avancer le portfolio
+## Temps pour avancer le portfolio, le demo reel ou la carte d'affaires
 
 ## Devoir  
 - [ ] Avancer la carte d'affaire.
