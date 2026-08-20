@@ -7,6 +7,31 @@
 icones material design disponibles dans mkdocs, rechercher le mot "material" + l'icone recherchéehttps://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
 -->
 
+## Descriptif du cours
+
+Le cours permet à l’élève de réaliser l’entièreté d’un produit multimédia en ligne. En collaboration avec les membres de son équipe, il exécute toutes les étapes d’un processus de production: planification, design, programmation, intégration des médias, débogage et finalement sa présentation.
+
+L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’un projet expérientiel à l’aide d’outils de communication, d’outils de gestion de code source et d’outils de gestion de bogues.
+
+| Spécifications        | Valeur  |
+| --------------------- | ------- |
+| Code                  | 582-511 |
+| Pondération           | 3-5-3   |
+| Unités                | 3⅔      |
+| Heures d’enseignement | 120     |
+| Session               | 5       |
+
+<div class="grid grid-auto" markdown>
+  ![](../_/profs/mmouellet.jpg)
+
+  **Marie-Michelle Ouellet**<br>
+  _Enseignante en Techniques d'intégration multimédia_<br>
+  :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
+  [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=NybgeQ){ .md-button .md-button--primary }
+</div>
+<br> <br>
+
+[STOP]
 
 #### CSS
 
@@ -64,27 +89,3 @@ icones material design disponibles dans mkdocs, rechercher le mot "material" + l
 - [Vue: Routes](./router-and-views.md)
 - [Vue: Pinia stores](./vue/pinia.md)
 - [Vue: Pinia stores: Charger données json dans Store Pinia](./vue/pinia-load-data-json.md)
-
-## Descriptif du cours
-
-Le cours permet à l’élève de réaliser l’entièreté d’un produit multimédia en ligne. En collaboration avec les membres de son équipe, il exécute toutes les étapes d’un processus de production: planification, design, programmation, intégration des médias, débogage et finalement sa présentation.
-
-L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’un projet expérientiel à l’aide d’outils de communication, d’outils de gestion de code source et d’outils de gestion de bogues.
-
-| Spécifications        | Valeur  |
-| --------------------- | ------- |
-| Code                  | 582-511 |
-| Pondération           | 3-5-3   |
-| Unités                | 3⅔      |
-| Heures d’enseignement | 120     |
-| Session               | 5       |
-
-<div class="grid grid-auto" markdown>
-  ![](../_/profs/mmouellet.jpg)
-
-  **Marie-Michelle Ouellet**<br>
-  _Enseignante en Techniques d'intégration multimédia_<br>
-  :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
-  [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/EVMfkW5UxttFkK8D4Lg3Z7cBGXUX4_v1-7USGwyAbjmIRQ?e=NybgeQ){ .md-button .md-button--primary }
-</div>
-<br> <br> <br> <br> 
