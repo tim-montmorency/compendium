@@ -210,8 +210,8 @@ Six notes, dont quatre légères, et **quatre jalons de rétroaction individuell
 | 1 | **[Le devoir 01](./devoirs/get-started-with-unity.md)** — *Get Started With Unity* | vérifié au début de la S2 | **2 %** |
 | 2 | **[Le jeu express](./devoirs/protolude/index.md)** — acquis Unity | déposé la veille de la S4 | **13 %** |
 | 3 | **[Le GDD de ton jeu de session](./devoirs/gdd-jeu.md)** | fin de la S4 | **5 %** |
-| 4 | **Le carnet de bord 1** — mise en place du backlog | S7, pendant F1 | **5 %** |
-| 5 | **Le carnet de bord 2** — tenue du carnet | S14, pendant F4 | **5 %** |
+| 4 | **Le carnet de bord 1** — suivi de production et classement | S7, pendant F1 | **5 %** |
+| 5 | **Le carnet de bord 2** — tenue du suivi et du classement | S14, pendant F4 | **5 %** |
 | 6 | **[Le projet final](./devoirs/projet-final.md)** — jeu complet publié + oral | S15 | **70 %** |
 | | | **Total** | **100 %** |
 
@@ -310,31 +310,38 @@ Concevoir le jeu qui sera réalisé pendant toute la session. Le document est va
 
 **Séance 7 et séance 14 · corrigé pendant la rencontre individuelle, écran ouvert**
 
-Même logique qu'un cahier de laboratoire : on note **la tenue de ton suivi de production**, jamais l'état de ton jeu. Des observables factuels, vérifiables en trois minutes.
+Même logique qu'un cahier de laboratoire : on note **la tenue de ton travail**, jamais l'état de ton jeu. Des observables factuels, vérifiables en trois minutes. Deux choses sont regardées : le **classement de tes fichiers et de tes médias** — un savoir essentiel du cours, observé cette fois sur ton projet de session — et la **tenue de ton suivi de production**.
 
 **Carnet de bord 1 — mise en place · S7 · 5 %**
 
 | Observable | Pts |
 |---|---|
 | Le tableau **GitHub Projects** existe et est alimenté depuis la S4 | 1 |
-| Backlog **priorisé MoSCoW**, avec la colonne `Won't` réellement remplie | 2 |
-| Cartes **découpées** : aucune ne dépasse une séance de labo | 1 |
+| Backlog **priorisé MoSCoW** (colonne `Won't` remplie), cartes **découpées** : aucune ne dépasse une séance de labo | 1 |
 | **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque) | 1 |
+| **Arborescence du projet Unity** conforme à la convention de la S2; les imports restent à la racine d'`Assets` | 1 |
+| **Crédits des médias amorcés** au README : chaque média externe déjà utilisé y est cité avec sa source et sa licence | 1 |
 
 **Carnet de bord 2 — tenue · S14 · 5 %**
 
 | Observable | Pts |
 |---|---|
-| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 2 |
+| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 1 |
 | **Issues des jalons F1 à F3 traitées** : fermées, ou reportées explicitement | 1 |
-| **Backlog vivant** : cartes déplacées, repriorisées, ajoutées en cours de route | 1 |
-| **Commits liés aux issues** (`closes #12`) et messages lisibles | 1 |
+| **Backlog vivant** et **commits liés aux issues** (`closes #12`), messages lisibles | 1 |
+| **Arborescence tenue** : le projet n'a pas dérivé — pas de fichiers orphelins à la racine, nommage cohérent | 1 |
+| **Crédits des médias complets** et à jour au README | 1 |
 
 !!! warning "Ça ne se rattrape pas la veille"
     Les dates de commit et l'historique du tableau sont horodatés. C'est la seule évaluation du cours qu'on ne peut pas fabriquer à la dernière minute — et c'est voulu.
 
-!!! abstract "Attitude professionnelle évaluée"
-    **Rigueur** — tenue du suivi de production, traçabilité du travail, réponse à la rétroaction.
+!!! tip "Les crédits, deux fois en cours de route"
+    C'est la tâche que **tout le monde reporte**. Les inscrire au fur et à mesure te coûte cinq minutes à chaque jalon; les reconstituer de mémoire la veille de la remise t'en coûtera deux heures, et il t'en manquera.
+
+!!! abstract "Ce qui est évalué"
+    **Savoir essentiel** — Objectif 1 : *Classement des fichiers et des médias*
+
+    **Attitude professionnelle** — *Rigueur* : tenue du suivi de production, traçabilité du travail, réponse à la rétroaction.
 
 ---
 
@@ -407,7 +414,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Installation et configuration des ressources nécessaires | S1, S2 | Jeu express |
 | Création d'un environnement virtuel navigable | S2, S3, S9 | Jeu express · Projet final |
 | Configuration de la caméra virtuelle 2D | S6 *(traité en 2.5D)* | Projet final |
-| Classement des fichiers et des médias | S2, S4 | Jeu express · Projet final |
+| Classement des fichiers et des médias | S2, S4, S11 | Jeu express · **Carnets de bord (S7, S14)** · Projet final |
 | Intégration d'images dans l'environnement virtuel | S2, S8, S9 | Jeu express · Projet final |
 | Intégration de médias sonores dans l'environnement virtuel | S3 *(survol)*, S7 | Jeu express · Projet final |
 | Animation d'éléments visuels | S6, S8 | Projet final |

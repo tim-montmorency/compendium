@@ -178,9 +178,10 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 |---|----------|------------------|----------|---------|
 | G1 | **Build WebGL** fonctionnel **publié sur itch.io** | Compilation de l'application | S11 | F3 · S15 |
 | G2 | **Arborescence de projet** respectée, imports laissés à la racine d'`Assets` | Classement des fichiers et des médias | S2 | F4 |
-| G3 | **README** : concept, commandes, **crédits de tous les médias externes avec leur licence** | Classement des médias | S11 | S15 |
+| G3 | **README** : concept, commandes, **crédits de tous les médias externes avec leur licence**. Tenu **au fur et à mesure**, pas reconstitué à la fin — c'est vérifié aux deux carnets de bord | Classement des fichiers et des médias | S4, S11 | Carnet S7 · S14 · S15 |
 | G4 | **`PlayerPrefs`** : au moins le volume, plus une donnée de progression | *(pratique professionnelle)* | S11 | F4 |
 | G5 | **Devlog** tenu : une entrée par séance depuis la S4 | *(rigueur)* | S4 | Carnet S7 · S14 |
+| G8 | **Arborescence du projet** tenue tout au long de la session, pas remise au propre à la fin | Classement des fichiers et des médias | S2 | Carnet S7 · S14 |
 | G6 | **Aucun défaut visible de finition** : pas de magenta, pas d'objet flottant, pas de texte provisoire, pas de collider manquant | *(rigueur)* | — | F4 |
 | G7 | La **carte de preuves** est remplie dans le README | *(rigueur)* | S11 | S15 |
 
@@ -374,7 +375,7 @@ Trois genres, trois ambiances, trois univers. **Le même squelette, la même cha
     | Installation et configuration des ressources | *évalué au devoir 01 et au jeu express* |
     | Création d'un environnement virtuel navigable | **A1, A2** |
     | Configuration de la caméra virtuelle 2D | **D6** |
-    | Classement des fichiers et des médias | **G2, G3** |
+    | Classement des fichiers et des médias | **G2, G3, G8** — également évalué aux deux carnets de bord |
     | Intégration d'images dans l'environnement virtuel | **D1, D2** |
     | Intégration de médias sonores | **E1, E3, E4** |
     | Animation d'éléments visuels | **D4, D7** |
@@ -404,6 +405,6 @@ Trois genres, trois ambiances, trois univers. **Le même squelette, la même cha
     | Attitude | Exigence(s) | Critère |
     |---|---|---|
     | **Créativité** | **H1 à H5** | Créativité et cohérence du parti pris — 12 % |
-    | **Rigueur** | **G5, G6, G7** + issues des jalons | Rigueur — 12 % · Finition — 5 % · Carnet de bord — 10 % (hors projet) |
+    | **Rigueur** | **G5, G6, G7, G8** + issues des jalons | Rigueur — 12 % · Finition — 5 % · Carnet de bord — 10 % (hors projet) |
 
     Les 14 savoirs de l'objectif 2 sont évalués dans le projet final. Trois savoirs de l'objectif 1 — tous relatifs au choix et à l'installation du logiciel — le sont plus tôt, au devoir 01 et au jeu express : ils ne se démontrent qu'une fois.

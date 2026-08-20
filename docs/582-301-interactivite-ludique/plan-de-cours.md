@@ -361,38 +361,50 @@ Six notes, dont quatre légères, et **quatre jalons de rétroaction individuell
 | **Devoir 01** - tutoriel *Get Started With Unity*, capture du build publié | vérifié au début de la S2 | 2 % |
 | **Jeu express** - acquis Unity (environnement, personnage, physique, trigger, scènes, habillage, build) | déposé la veille de la S4 | 13 % |
 | **GDD** - concept, boucle, scope, niveau, médias prévus, ambiance | S4 | 5 % |
-| **Carnet de bord 1** - mise en place du backlog | S7, pendant F1 | 5 % |
-| **Carnet de bord 2** - tenue du carnet | S14, pendant F4 | 5 % |
+| **Carnet de bord 1** - suivi de production et classement | S7, pendant F1 | 5 % |
+| **Carnet de bord 2** - tenue du suivi et du classement | S14, pendant F4 | 5 % |
 | **Projet final** - jeu complet publié, README et crédits, oral | S15 | 70 % |
 
 Les quatre premières notes arrivent tôt et sont légères : **25 % de la note finale est acquise avant la S15**. Elles mesurent quatre choses distinctes - un pipeline technique parcouru au complet (devoir 01), les gestes Unity de l'objectif 1 en situation (jeu express), un scope verrouillé par écrit (GDD), et la tenue du suivi de production (carnet de bord).
 
 **L'état du jeu, lui, n'est jamais noté avant la remise finale.** Les quatre jalons produisent un avis écrit et une liste de tâches nominative, pas une note : un élève ne peut donc pas perdre de points sur une chose qu'on ne lui a pas encore enseignée ou signalée. Ce qui est noté en cours de route, c'est la **régularité** - que le backlog vive et que le devlog se remplisse semaine après semaine. C'est le seul élément du dispositif qui ne se rattrape pas la veille de la remise.
 
-### Le carnet de bord
+### Le carnet de bord - suivi de production et classement
 
-Même logique qu'un cahier de laboratoire : on note **la tenue du suivi**, jamais l'état du jeu. Des observables binaires, vérifiables **écran ouvert en trois minutes** pendant la rotation individuelle qui a déjà lieu à chaque jalon - donc aucune correction hors classe.
+Même logique qu'un cahier de laboratoire : on note **la tenue du travail**, jamais l'état du jeu. Des observables factuels, vérifiables **écran ouvert en trois minutes** pendant la rotation individuelle qui a déjà lieu à chaque jalon - donc aucune correction hors classe.
+
+Chaque grille porte sur deux choses : le **savoir essentiel** *classement des fichiers et des médias* (objectif 1), observé cette fois sur le projet de session, et l'attitude professionnelle **rigueur**.
 
 **Carnet de bord 1 - mise en place · S7, pendant F1 · 5 %**
 
 | Observable | Pts |
 |------------|-----|
 | Le tableau **GitHub Projects** existe et est alimenté depuis la S4 | 1 |
-| Backlog **priorisé MoSCoW**, avec la colonne `Won't` réellement remplie | 2 |
-| Cartes **découpées** : aucune ne dépasse une séance de labo (pas de « faire le niveau ») | 1 |
+| Backlog **priorisé MoSCoW** (colonne `Won't` remplie), cartes **découpées** : aucune ne dépasse une séance de labo | 1 |
 | **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque) | 1 |
+| **Arborescence du projet Unity** conforme à la convention de la S2; les imports restent à la racine d'`Assets` | 1 |
+| **Crédits des médias amorcés** au README : chaque média externe déjà utilisé y est cité avec sa source et sa licence | 1 |
 
 **Carnet de bord 2 - tenue · S14, pendant F4 · 5 %**
 
 | Observable | Pts |
 |------------|-----|
-| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 2 |
+| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 1 |
 | **Issues des jalons F1 à F3 traitées** : fermées, ou reportées explicitement et assumées | 1 |
-| **Backlog vivant** : cartes déplacées, repriorisées, ajoutées en cours de route | 1 |
-| **Commits liés aux issues** (`closes #12`) et messages lisibles | 1 |
+| **Backlog vivant** et **commits liés aux issues** (`closes #12`), messages lisibles | 1 |
+| **Arborescence tenue** : le projet n'a pas dérivé - pas de fichiers orphelins à la racine, nommage cohérent | 1 |
+| **Crédits des médias complets** et à jour au README | 1 |
 
 !!! tip "Pourquoi ça fonctionne comme levier"
     Un élève qui ne touche pas à son jeu pendant trois semaines ne peut pas fabriquer un devlog crédible la veille : les dates de commit et l'historique du tableau sont horodatés. C'est la seule pièce du dispositif qu'on **ne peut pas rattraper à la dernière minute** - et c'est exactement ce qu'on cherche.
+
+!!! note "Pourquoi les crédits sont ici et pas seulement à la S15"
+    Les crédits des médias sont un savoir essentiel, et c'est aussi la tâche que **tout le monde reporte**. Les exiger deux fois en cours de route, sur ce qui est déjà utilisé, coûte cinq minutes à l'élève et lui évite de reconstituer trente sources de mémoire la veille de la remise. Le même geste sert le savoir et la rigueur.
+
+!!! abstract "Ce qui est évalué"
+    **Savoir essentiel** - *Classement des fichiers et des médias* (objectif 1), observé sur le projet de session.
+
+    **Attitude professionnelle** - *Rigueur* : tenue du suivi de production, traçabilité du travail, réponse à la rétroaction.
 
 ### Jalons formatifs et rencontres individuelles
 
@@ -460,7 +472,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Savoir | Séances |
 |--------|---------|
 | Logiciels et installation | S1 |
-| Classement des fichiers | S2, S4 (dépôt) |
+| Classement des fichiers et des médias | S2, S4 (dépôt), S11 (crédits) — évalué au jeu express, **aux deux carnets de bord** et au projet final |
 | Environnement navigable | S2, S3, S9 |
 | Intégration d'images et de médias visuels | S2, S8, S9 |
 | Sons et échantillons | S3 (survol), S7 (profondeur) |

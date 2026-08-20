@@ -5,8 +5,10 @@
 
     Vous repartez avec un avis écrit et une liste de tâches déposée en *issues* dans votre dépôt.
 
-!!! abstract ":material-check-decagram: Carnet de bord 1 — mise en place (5 %)"
-    Corrigé pendant la même rencontre, tableau ouvert. Ce n'est **pas** l'état du jeu qui est noté, c'est la tenue du suivi : le tableau GitHub Projects alimenté depuis la S4, un backlog priorisé MoSCoW avec la colonne `Won't` remplie, des cartes découpées, et au moins trois entrées de devlog. [Grille](./plan-de-cours.md#le-carnet-de-bord)
+!!! abstract ":material-check-decagram: Carnet de bord 1 — suivi de production et classement (5 %)"
+    Corrigé pendant la même rencontre, tableau ouvert. Ce n'est **pas** l'état du jeu qui est noté : le tableau GitHub Projects alimenté depuis la S4, un backlog priorisé MoSCoW avec la colonne `Won't` remplie, au moins trois entrées de devlog — et le **classement de tes fichiers et de tes médias** : arborescence conforme à la convention de la S2, crédits des médias déjà utilisés inscrits au README.
+
+    Savoir essentiel évalué : *classement des fichiers et des médias*. [Grille complète](./plan-de-cours.md#le-carnet-de-bord-suivi-de-production-et-classement)
 
 <!-- ## Déroulement de la séance
 
