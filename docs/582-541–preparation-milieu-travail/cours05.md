@@ -14,7 +14,7 @@ Rencontre individuelle pour corriger formativement les cartes d'affaires.
 
 
 ## Temps pour les comités de la journée carrière
-[🛠️ Comités](./journee-carriere.md){ .md-button }    
+[🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
 
 
 
@@ -27,6 +27,6 @@ Ajouter 5 employeurs potentiels à la liste:
 ## Devoir
 - [ ] Avancer le portfolio.
 
-[🛠️ Consignes Portfolio](./portfolio.md){ .md-button }      
+[🛠️ Consignes Portfolio](./evaluations/portfolio.md){ .md-button }      
 
 

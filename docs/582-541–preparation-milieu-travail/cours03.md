@@ -5,7 +5,7 @@
 
 
 ## Formation des comités pour la journée carrière
-[🛠️ Comités](./stages/journeeCarriere.md){ .md-button }    
+[🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
 
 
 ## Liste collaborative d'employeurs

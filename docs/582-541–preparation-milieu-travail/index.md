@@ -27,12 +27,12 @@ Le cours permet à l’élève de créer un portfolio numérique qui démontre s
 
 ## Évaluations sommatives
 
-[🛠️ Portfolio (planification 15% et contenu 30%)](./portfolio.md){ .md-button }
+[🛠️ Portfolio (planification 15% et contenu 30%)](./evaluations/portfolio.md){ .md-button }
 
-[🛠️ Journée carrière 10%](./journee-carriere.md){ .md-button }
+[🛠️ Journée carrière 10%](./evaluations/journee-carriere.md){ .md-button }
 
-[🛠️ Demo reel 20%](./demo-reel.md){ .md-button }
+[🛠️ Demo reel 20%](./evaluations/demo-reel.md){ .md-button }
 
-[🛠️ Lettre de présentation 10%](./lettre.md){ .md-button }
+[🛠️ Lettre de présentation 10%](./evaluations/lettre.md){ .md-button }
 
-[🛠️ Curriculum vitae (CV) 15%](./cv.md){ .md-button }
+[🛠️ Curriculum vitae (CV) 15%](./evaluations/cv.md){ .md-button }

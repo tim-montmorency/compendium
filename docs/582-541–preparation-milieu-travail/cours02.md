@@ -27,7 +27,7 @@ Je souhaite obtenir un poste de X dans le domaine X, où je pourrai utiliser mes
 
 Présentation du projet de demo reel ou bande de démonstration.
 
-[🛠️ Consignes Demo reel](./demo-reel){ .md-button }
+[🛠️ Consignes Demo reel](./evaluations/demo-reel){ .md-button }
 
 
 
@@ -46,4 +46,4 @@ Votre carte devrait être en adéquation avec l'identité visuelle de votre port
 ## Devoir
 Terminer la planification du portfolio. 
 
-[🛠️ Consignes portfolio](./portfolio.md){ .md-button }        
+[🛠️ Consignes portfolio](./evaluations/portfolio.md){ .md-button }        

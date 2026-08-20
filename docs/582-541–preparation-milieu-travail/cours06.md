@@ -23,7 +23,7 @@ Réaliser l'activité suivante:
 
 
 ## Temps pour avancer votre CV
-[🛠️ Consignes cv](./cv.md){ .md-button }    
+[🛠️ Consignes cv](./evaluations/cv.md){ .md-button }    
 
 
 
