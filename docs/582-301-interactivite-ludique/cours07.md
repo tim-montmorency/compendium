@@ -5,6 +5,9 @@
 
     Vous repartez avec un avis écrit et une liste de tâches déposée en *issues* dans votre dépôt.
 
+!!! abstract ":material-check-decagram: Carnet de bord 1 — mise en place (5 %)"
+    Corrigé pendant la même rencontre, tableau ouvert. Ce n'est **pas** l'état du jeu qui est noté, c'est la tenue du suivi : le tableau GitHub Projects alimenté depuis la S4, un backlog priorisé MoSCoW avec la colonne `Won't` remplie, des cartes découpées, et au moins trois entrées de devlog. [Grille](./plan-de-cours.md#le-carnet-de-bord)
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -41,9 +44,9 @@
 #### Les snapshots
 
 !!! example "Trois usages de snapshot"
-    Étouffer le jeu quand le menu pause s'ouvre. Passer en « sous l'eau » en entrant dans une zone. Baisser la musique pendant un dialogue. Le tout déclenchable par ETB.
+    Étouffer le jeu quand le menu pause s'ouvre. Passer en « sous l'eau » en entrant dans une zone. Baisser la musique pendant un dialogue. Le tout déclenchable par CES.
 
-### Déclencher un son : ETB, *Animation Event*, script
+### Déclencher un son : CES, *Animation Event*, script
 
 ### Où trouver des sons — et l'obligation de citer
 

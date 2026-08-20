@@ -1,6 +1,6 @@
 # Plan de cours — 582-301-MO
 
-*[ETB]: Enhanced Trigger Box
+*[CES]: Collider Event System
 *[GDD]: Game Design Document
 *[URP]: Universal Render Pipeline
 *[HUD]: Head-Up Display
@@ -30,8 +30,10 @@
 
 ### Attitudes professionnelles
 
-* Rigueur
-* Créativité
+* **Rigueur** — tenue du carnet de bord, réalisation des tâches des jalons, finition
+* **Créativité** — cohérence du parti pris, décisions de conception assumées
+
+Les deux sont **évaluées** : elles pèsent 24 des 70 points du projet final, plus les 10 % du carnet de bord.
 
 ### Deux jeux dans la session
 
@@ -40,9 +42,11 @@
 **② Le jeu de session** (S4 à S15) — conçu à la S4, une fois qu'on sait ce que coûte une porte, puis construit couche par couche jusqu'à sa publication en ligne. Tous les savoirs essentiels sont enseignés **avant la S12**; les quatre dernières séances sont consacrées à la production.
 
 !!! note "Cahier des charges du jeu de session"
-    Liberté totale sur le thème; obligations techniques identiques pour tous : environnement navigable en assets Synty · personnage contrôlable et animé, avec états détectés · progression type clé/porte (au moins deux étapes) · menu et HUD · indications **visuelles et sonores** des réussites et des échecs · échantillons sonores déclenchés par le jeu · éclairage et post-traitement · build **publié en ligne** (itch.io, WebGL) avec README et crédits.
+    Liberté totale sur le thème; obligations techniques identiques pour tous : **trois zones** distinctes et navigables en assets Synty · **trois portes** utilisant **trois types de *gating* différents**, dont au moins un vrai système clé/serrure · personnage contrôlable et animé, avec états détectés · menu et HUD · indications **visuelles et sonores** des réussites et des échecs · échantillons sonores déclenchés par le jeu · une cinématique déclenchée par une action · un PNJ · éclairage et post-traitement · build **publié en ligne** (itch.io, WebGL) avec README et crédits.
 
-    **Contraintes dures :** 1 mécanique principale, 1 niveau, assets Synty seulement (+ médias libres cités). GDD verrouillé après validation à la S4.
+    **Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD verrouillé après validation à la S4.
+
+    L'énoncé complet — socle d'exigences, 12 étapes séance par séance, backlog de départ — est dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
 
 ---
 
@@ -51,15 +55,15 @@
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
 | | **Phase 1 — Le jeu express, sans code** | | |
-| 1 | [Moteur de jeu et prise en main](./cours01.md) | Théorie du jeu, moteurs, interface Unity, *Get Started With Unity* | |
-| 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **ETB**, Synty + URP | |
-| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1<sup>re</sup>/3<sup>e</sup> personne, *gating* par ETB, habillage Synty, build | :material-check-decagram: **Jeu express (15 %)** — la veille de la S4 |
+| 1 | [Moteur de jeu et prise en main](./cours01.md) | Théorie du jeu, moteurs, interface Unity, *Get Started With Unity* | :material-check-decagram: **Devoir 01 (2 %)** — vérifié à la S2 |
+| 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **CES**, Synty + URP | |
+| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1<sup>re</sup>/3<sup>e</sup> personne, *gating* par CES, habillage Synty, build | :material-check-decagram: **Jeu express (13 %)** — la veille de la S4 |
 | | **Phase 2 — Concevoir, puis outiller** | | |
 | 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, GitHub, devlog, sprint | :material-check-decagram: **GDD (5 %)** |
 | 5 | [Interface et premier code](./cours05.md) | Canvas, TextMeshPro, menu, HUD, premier script, **C# de survie**, prefabs | |
 | | **Phase 3 — Couche par couche** | | |
 | 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, rigging, Cinemachine, 2.5D, cinématique | |
-| 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; backlog MoSCoW | :material-comment-check: **F1 — Prototype jouable** |
+| 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; backlog MoSCoW | :material-comment-check: **F1 — Prototype jouable**<br>+ :material-check-decagram: **Carnet de bord 1 (5 %)** |
 | 8 | [Particules, VFX et *game feel*](./cours08.md) | Particle System, projectiles, *juice* | |
 | 9 | [Lumière et level design](./cours09.md) | Lumières, *baking*, post-traitement, greyboxing → dressing, guidage | :material-comment-check: **F2 — Tranche verticale**<br>+ rétroaction **objectif 1** |
 | 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, machine à états simple | |
@@ -67,8 +71,8 @@
 | | **Phase 4 — Production** | | |
 | 12 | [Tests utilisateurs et plan de production](./cours12.md) | Heuristiques, protocole de playtest, *issues* et priorisation | :material-comment-check: **F3 — Alpha**<br>+ rétroaction **objectif 2** |
 | 13 | [Production + capsule](./cours13.md) | Atelier encadré; capsule d'enrichissement au choix | |
-| 14 | [Production + gel](./cours14.md) | Atelier encadré, gel des fonctionnalités, préparation de l'oral | :material-comment-check: **F4 — Bêta / RC** publiée |
-| 15 | [Remise et présentations](./cours15.md) | Oraux et démonstrations | :material-check-decagram: **Projet final (80 %)** |
+| 14 | [Production + gel](./cours14.md) | Atelier encadré, gel des fonctionnalités, préparation de l'oral | :material-comment-check: **F4 — Bêta / RC** publiée<br>+ :material-check-decagram: **Carnet de bord 2 (5 %)** |
+| 15 | [Remise et présentations](./cours15.md) | Oraux et démonstrations | :material-check-decagram: **Projet final (70 %)** |
 
 :material-check-decagram: évaluation sommative &nbsp;·&nbsp; :material-comment-check: jalon formatif avec rencontre individuelle
 
@@ -86,14 +90,14 @@
 * Création de projet, structure de dossiers et hygiène de nommage
 * `Rigidbody`, masse, gravité, contraintes; Box vs Mesh Collider; `isTrigger`
 * Scènes multiples et changement de scène
-* **Enhanced Trigger Box** : réponses (détruire, déplacer, activer, jouer un son, charger une scène, appeler une méthode) et conditions (distance, touche, regard de caméra, variable)
+* **Collider Event System** : réponses (détruire, déplacer, activer, jouer un son, charger une scène, appeler une méthode) et conditions (distance, touche, regard de caméra, variable)
 * POLYGON Sampler Pack : import, conversion des materials vers URP, assemblage d'un environnement navigable
 
 **S3 — Personnage et progression**
 
 * Starter Assets: Character Controllers (URP), 1<sup>re</sup> et 3<sup>e</sup> personne; survol de l'Input System
 * Le tag `Player` et pourquoi tout en dépend
-* *Gating* concret avec l'ETB : clé → porte, zone bloquée, variable vérifiée plus loin
+* *Gating* concret avec l'CES : clé → porte, zone bloquée, variable vérifiée plus loin
 * Habillage du personnage : substitution du mannequin gris par un personnage T-pose Synty
 * Premier build local
 
@@ -123,7 +127,7 @@
 * Animator : contrôleur, états, paramètres, transitions; **machine à états** du personnage (idle / marche / course / saut / action)
 * Blend Tree; rigging du T-pose Synty, avatar humanoïde et *retargeting*; *Animation Events*
 * Animer le décor (porte, plateforme, mécanisme)
-* Cinemachine : *virtual camera*, priorités, *follow / look at*, *damping*, *confiner*, changement de caméra par ETB
+* Cinemachine : *virtual camera*, priorités, *follow / look at*, *damping*, *confiner*, changement de caméra par CES
 * **Caméra 2D traitée en 2.5D** : orthographique vs perspective, contrainte d'axe, *side-scroller*, vue de dessus, isométrique, *parallax*
 * Transitions de scènes propres, écran de chargement, fondu; cinématique (Timeline + Signal Emitter)
 
@@ -131,8 +135,8 @@
 
 * `AudioListener`, `AudioSource`, `AudioClip`; formats et import
 * 2D vs 3D : *spatial blend*, atténuation; ambiance en boucle, son localisé, *one shot*
-* **Audio Mixer** : groupes, effets, paramètres exposés, *snapshots* déclenchés par ETB
-* Déclenchement par ETB, par *Animation Event*, par script
+* **Audio Mixer** : groupes, effets, paramètres exposés, *snapshots* déclenchés par CES
+* Déclenchement par CES, par *Animation Event*, par script
 * Sources et licences (Freesound, Kenney, Pixabay); obligation de créditer
 * Culture du métier : FMOD et Wwise en démo
 * Atelier **backlog MoSCoW** dans GitHub Projects
@@ -160,7 +164,7 @@
 * Patrouille par waypoints, poursuite, retour au poste
 * Détection : distance, cône de vision, `Raycast`
 * Machine à états du PNJ : patrouille → alerte → poursuite → perte de trace
-* PNJ non hostile (marchand, guide, dialogue par ETB); rétroaction animée, sonore et visuelle
+* PNJ non hostile (marchand, guide, dialogue par CES); rétroaction animée, sonore et visuelle
 
 **S11 — Publication et persistance**
 
@@ -199,20 +203,38 @@
 
 ## Évaluations
 
-Trois notes sommatives seulement, et **quatre jalons formatifs** entre les deux dernières.
+Six notes, dont quatre légères, et **quatre jalons de rétroaction individuelle**. L'état de ton jeu n'est noté qu'une seule fois, à la toute fin.
 
 | # | Évaluation | Séance | Pondération |
 |---|------------|--------|-------------|
-| 1 | **[Le jeu express](./devoirs/jeu-express.md)** — acquis Unity | déposé la veille de la S4 | **15 %** |
-| 2 | **[Le GDD de ton jeu de session](./devoirs/gdd-jeu.md)** | fin de la S4 | **5 %** |
-| 3 | **Le projet final** — jeu complet publié + oral | S15 | **80 %** |
+| 1 | **[Le devoir 01](./devoirs/get-started-with-unity.md)** — *Get Started With Unity* | vérifié au début de la S2 | **2 %** |
+| 2 | **[Le jeu express](./devoirs/protolude/index.md)** — acquis Unity | déposé la veille de la S4 | **13 %** |
+| 3 | **[Le GDD de ton jeu de session](./devoirs/gdd-jeu.md)** | fin de la S4 | **5 %** |
+| 4 | **Le carnet de bord 1** — mise en place du backlog | S7, pendant F1 | **5 %** |
+| 5 | **Le carnet de bord 2** — tenue du carnet | S14, pendant F4 | **5 %** |
+| 6 | **[Le projet final](./devoirs/projet-final.md)** — jeu complet publié + oral | S15 | **70 %** |
 | | | **Total** | **100 %** |
 
-Les deux premières arrivent tôt et sont de nature différente : une **pratique**, qui mesure les gestes Unity de l'objectif 1 en situation, et une **écrite**, courte, qui sert surtout à verrouiller le scope. Le reste de la session est formatif : l'élève construit un seul jeu, encadré, et n'est noté qu'une fois — mais sur un travail dont la trajectoire a été corrigée quatre fois.
+Les quatre premières arrivent tôt et sont légères : **25 % de la note est acquise avant la S15**. Elles mesurent quatre choses différentes — un pipeline technique parcouru au complet, les gestes Unity de l'objectif 1 en situation, un scope verrouillé par écrit, et la tenue du suivi de production.
+
+**L'état de ton jeu, lui, n'est jamais noté avant la remise finale.** Les quatre jalons produisent un avis écrit et une liste de tâches nominative, pas une note : tu ne peux pas perdre de points sur une chose qu'on ne t'a pas encore enseignée ou signalée. Ce qui est noté en cours de route, c'est la **régularité**.
 
 ---
 
-### Évaluation 1 — Le jeu express (15 %)
+### Évaluation 1 — Le devoir 01 (2 %)
+
+**Séance 1 · vérifié au début de la séance 2**
+
+Terminer le tutoriel *Get Started With Unity* commencé en classe, jusqu'à la dernière étape : **le build web publié sur Unity Play**. Ce qui est corrigé, c'est la **capture de ton jeu publié** — pas le tutoriel. L'artéfact prouve à lui seul que Unity est installé, configuré et fonctionnel, et que le pipeline de compilation a été parcouru au complet.
+
+**Barème :** tout ou rien. Capture déposée sur Léa = **2 / 2**, sinon **0**.
+
+!!! abstract "Savoirs essentiels évalués"
+    **Objectif 1** — Installation et configuration des ressources nécessaires · Compilation de l'application
+
+---
+
+### Évaluation 2 — Le jeu express (13 %)
 
 **Séance 3 · à déposer la veille de la séance 4**
 
@@ -223,20 +245,21 @@ Démontrer la maîtrise des **gestes de base d'Unity** vus aux séances 2 et 3 :
 1. Le dossier du projet Unity compressé — sans `Library/` ni `Builds/`
 2. Le build compressé séparément : le jeu doit se lancer sans ouvrir Unity
 
-**Grille — 100 points**
+**Grille — 13 points**
 
 | Critère | Ce qu'on regarde | Points |
 |---|---|---|
-| **Environnement** | Un monde en prefabs Synty : un départ, un parcours, une arrivée identifiable. Le décor sert l'objectif, le chemin est lisible. Materials convertis (rien en magenta) | 15 |
-| **Solidité de l'environnement** | On ne traverse pas le décor et on ne tombe pas hors du monde : sol continu, colliders, murs invisibles aux limites, passages assez larges | 15 |
-| **Objectif et *gating*** | Un but clair et **au moins un prérequis** entre le joueur et sa victoire : une clé, un pont à activer, un passage à trouver, un saut à réussir | 10 |
-| **Personnage contrôlable** | Le prefab Starter Assets (1<sup>re</sup> **ou** 3<sup>e</sup> personne) fonctionne : déplacement, saut, caméra | 15 |
-| **Physique** | Au moins un objet utilise réellement la physique (`Rigidbody` + collider cohérent avec la forme) | 5 |
-| **Détection et victoire** | Un **ETB** correctement configuré déclenche la fin : tag `Player` assigné, zone bien placée, `Load Scene` avec le nom exact, scènes présentes dans la *Scene List* | 20 |
-| **Habillage** | Au moins un **material** créé et appliqué, et au moins un **son** dans la scène (ambiance en boucle ou effet déclenché) | 10 |
-| **Classement des fichiers** | L'arborescence vue à la S2 est respectée; les imports restent à la racine d'`Assets` | 5 |
-| **Compilation** | Un build autonome qui se lance et se joue du début à la fin | 5 |
-| | **Total** | **100** |
+| **Environnement** | Un monde en prefabs Synty : un départ, un parcours, une arrivée identifiable. Le décor sert l'objectif, le chemin est lisible. Materials convertis (rien en magenta) | 2 |
+| **Qualité technique de l'environnement** | On ne traverse pas le décor et on ne tombe jamais dans le vide : sol continu, colliders, murs invisibles aux limites, passages assez larges | 2 |
+| **Prérequis et personnage** | Un prérequis sépare le joueur de sa victoire, et une interaction en débloque une autre (condition CES). Le Starter Assets (1<sup>re</sup> **ou** 3<sup>e</sup> personne) fonctionne : déplacement, saut, caméra | 3 |
+| **Physique** | Au moins un objet autre que le personnage utilise réellement la physique | 1 |
+| **Détection et victoire** | Un **CES** correctement configuré déclenche la fin par un changement de scène | 1 |
+| **Structure de fichier** | L'arborescence vue à la S2 est respectée; les imports restent à la racine d'`Assets` | 1 |
+| **Compilation** | Un build autonome qui se lance et se joue du début à la fin | 1 |
+| **Rigueur et créativité** | Qualité générale d'exécution, et créativité démontrée par l'environnement et l'interaction | 2 |
+| | **Total** | **13** |
+
+[Consignes détaillées et modèle de remise](./devoirs/protolude/index.md)
 
 !!! abstract "Savoirs essentiels évalués"
     **Objectif 1** — Logiciels d'intégration d'expériences ludiques · Installation et configuration des ressources nécessaires · Classement des fichiers et des médias · Création d'un environnement virtuel navigable · Intégration d'images dans l'environnement virtuel · Intégration de médias sonores dans l'environnement virtuel · Compilation de l'application
@@ -245,13 +268,13 @@ Démontrer la maîtrise des **gestes de base d'Unity** vus aux séances 2 et 3 :
 
 ---
 
-### Évaluation 2 — Le GDD de ton jeu de session (5 %)
+### Évaluation 3 — Le GDD de ton jeu de session (5 %)
 
 **Séance 4 · remis en fin de séance, après l'atelier et la validation**
 
 Concevoir le jeu qui sera réalisé pendant toute la session. Le document est validé puis **verrouillé** : on réfléchit maintenant, on construit ensuite. Format : PDF ou lien Figma. Le concept et le moodboard iront ensuite dans le README du dépôt GitHub.
 
-**Les 11 éléments à remettre**
+**Les 14 éléments à remettre**
 
 | # | Élément | Attendu |
 |---|---------|---------|
@@ -259,16 +282,19 @@ Concevoir le jeu qui sera réalisé pendant toute la session. Le document est va
 | 2 | Genre | |
 | 3 | Jeu de référence | Quel jeu existant inspire le tien? |
 | 4 | Concept | 2 à 3 phrases : de quoi s'agit-il, qui est le joueur? |
-| 5 | Boucle de jeu centrale | Ce que le joueur *fait*, encore et encore, en **verbes d'action concrets** |
-| 6 | Victoire et défaite | Conditions explicites |
-| 7 | Croquis du niveau | À main levée, vue du dessus ou en perspective |
-| 8 | Assets Synty prévus | Quels éléments du POLYGON Sampler Pack? |
-| 9 | Ambiance | 3 adjectifs qui décrivent le *feeling* visé |
-| 10 | Moodboard | 4 à 8 images de référence |
-| 11 | Médias externes cités | Sons, musiques ou images hors Synty, avec source et licence |
+| 5 | **Parti pris en une phrase** | « Un jeu lent et inquiétant dans une station vide. » C'est l'intention que tu devras tenir, et elle est évaluée au critère **créativité** |
+| 6 | Boucle de jeu centrale | Ce que le joueur *fait*, encore et encore, en **verbes d'action concrets** |
+| 7 | Victoire et défaite | Conditions explicites. Pas de défaite? Justifie-le ici |
+| 8 | **Tes 3 zones** | Ce qui distingue chacune : lieu, palette, ambiance sonore, ce qu'on y fait |
+| 9 | **Tes 3 portes** | Le **type de *gating*** de chacune. Trois types **différents**, dont au moins un vrai système clé/serrure |
+| 10 | **Découpage technique** | 3 scènes séparées ou 1 monde continu? Et pourquoi |
+| 11 | Croquis du niveau | À main levée, avec les 3 zones et les 3 portes identifiées |
+| 12 | Assets Synty prévus | Quels éléments du POLYGON Sampler Pack? |
+| 13 | Moodboard | 4 à 8 images de référence |
+| 14 | Médias externes cités | Sons, musiques ou images hors Synty, avec source et licence |
 
 !!! important "Contraintes dures"
-    1 mécanique principale · 1 niveau · assets Synty seulement. Le cahier des charges technique commun s'applique. Le thème et l'univers sont entièrement libres.
+    1 mécanique principale · 1 niveau en 3 zones · assets Synty seulement · 3 à 10 minutes de jeu. Le cahier des charges technique commun s'applique. Le thème et l'univers sont entièrement libres.
 
 !!! abstract "Savoirs essentiels évalués"
     **Objectif 2** — Notions d'interaction : interacteur, affordance, engagement et agentivité · Présentation des actions à accomplir · Conception de la progression en fonction de la réussite d'une action
@@ -280,7 +306,39 @@ Concevoir le jeu qui sera réalisé pendant toute la session. Le document est va
 
 ---
 
-### Évaluation 3 — Le projet final (80 %)
+### Évaluations 4 et 5 — Le carnet de bord (2 × 5 %)
+
+**Séance 7 et séance 14 · corrigé pendant la rencontre individuelle, écran ouvert**
+
+Même logique qu'un cahier de laboratoire : on note **la tenue de ton suivi de production**, jamais l'état de ton jeu. Des observables factuels, vérifiables en trois minutes.
+
+**Carnet de bord 1 — mise en place · S7 · 5 %**
+
+| Observable | Pts |
+|---|---|
+| Le tableau **GitHub Projects** existe et est alimenté depuis la S4 | 1 |
+| Backlog **priorisé MoSCoW**, avec la colonne `Won't` réellement remplie | 2 |
+| Cartes **découpées** : aucune ne dépasse une séance de labo | 1 |
+| **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque) | 1 |
+
+**Carnet de bord 2 — tenue · S14 · 5 %**
+
+| Observable | Pts |
+|---|---|
+| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 2 |
+| **Issues des jalons F1 à F3 traitées** : fermées, ou reportées explicitement | 1 |
+| **Backlog vivant** : cartes déplacées, repriorisées, ajoutées en cours de route | 1 |
+| **Commits liés aux issues** (`closes #12`) et messages lisibles | 1 |
+
+!!! warning "Ça ne se rattrape pas la veille"
+    Les dates de commit et l'historique du tableau sont horodatés. C'est la seule évaluation du cours qu'on ne peut pas fabriquer à la dernière minute — et c'est voulu.
+
+!!! abstract "Attitude professionnelle évaluée"
+    **Rigueur** — tenue du suivi de production, traçabilité du travail, réponse à la rétroaction.
+
+---
+
+### Évaluation 6 — Le projet final (70 %)
 
 **Séance 15 · version *gold***
 
@@ -290,15 +348,23 @@ Un jeu complet, publié en ligne, présenté à l'oral. La remise comprend le d�
 
 | Critère | Ce qu'on regarde | Pondération |
 |---------|------------------|-------------|
-| **Réalisation des tâches et recommandations des jalons** | Les *issues* `must` issues des quatre rencontres sont fermées, et démontrées à l'oral | **25 %** |
-| **Intégration des médias — objectif 1** | Visuel, animation, son, lumière : environnement construit et habillé, images intégrées, médias sonores intégrés, éléments visuels animés | **20 %** |
-| **Programmation des actions et de la progression — objectif 2** | Actions à accomplir présentées, collisions et évènements, clé/porte, HUD, indications de réussite et d'échec, états du personnage détectés et indiqués | **20 %** |
-| **Finition et publication** | Build WebGL fonctionnel, page itch.io, README, crédits des médias; le jeu se lance, se termine et se recommence | **10 %** |
+| **Intégration des médias — objectif 1** | Visuel, animation, son, lumière, caméra : environnement habillé, images intégrées, médias sonores, éléments animés, cinématique *(sections D et E du socle)* | **18 %** |
+| **Actions et progression — objectif 2** | Structure en 3 zones, 3 portes, interactions, collisions, HUD, indications de réussite et d'échec, états du personnage *(sections A, B, C)* | **18 %** |
+| **Créativité et cohérence du parti pris** | Intention nommée au GDD et tenue, zones réellement distinctes, détournement d'un outil du cours, décisions justifiées à l'oral *(section H)* | **12 %** |
+| **Rigueur — réalisation des tâches des jalons** | Les *issues* `must` issues des quatre rencontres sont fermées, et démontrées à l'oral | **12 %** |
+| **Finition et publication** | Build WebGL fonctionnel, page itch.io, README, crédits, carte de preuves; aucun défaut visible; le jeu se lance, se termine et se recommence *(section G)* | **5 %** |
 | **Oral et démonstration** | Concept et boucle, tâches reçues et traitées, une difficulté technique résolue, ce qui serait fait autrement | **5 %** |
-| | **Total** | **80 %** |
+| | **Total** | **70 %** |
 
-!!! note "Pourquoi le premier critère est le plus lourd"
-    Il évalue la **capacité à recevoir de la rétroaction et à en faire quelque chose** — ce qui relève directement de l'attitude professionnelle *rigueur* inscrite au devis. C'est aussi ce qui rend la note équitable entre un projet ambitieux et un projet modeste : chacun est évalué sur les tâches calibrées pour **son** projet.
+!!! note "Comment le socle se traduit en note"
+    **Les savoirs essentiels se notent en présent / absent** : chaque exigence du socle fonctionne, ou elle ne fonctionne pas. Il n'y a rien à discuter.
+
+    **Créativité et rigueur se notent en qualité**, et pèsent ensemble 24 des 70 points. C'est là que se joue la différence entre deux jeux qui cochent les mêmes cases — et ce sont les deux attitudes professionnelles inscrites au devis.
+
+    **Aucun point d'ampleur nulle part.** Une quatrième zone ou une deuxième mécanique ne rapporte rien. Le chemin le plus court vers une bonne note est de livrer exactement le socle, avec une intention claire, très bien fait.
+
+!!! warning "La carte de preuves"
+    À la remise, ton README contient une table indiquant, pour chaque exigence du socle, **où elle se trouve et comment y accéder en jouant**. La règle : **ce qui n'est pas déclaré n'est pas corrigé**. Je ne cherche pas tes fonctionnalités dans ton jeu, je vais où tu me dis d'aller — en retour, une exigence déclarée est garantie d'être regardée.
 
 !!! abstract "Savoirs essentiels évalués"
     **Objectif 1** — Création d'un environnement virtuel navigable · Configuration de la caméra virtuelle (traitée en 2.5D) · Classement des fichiers et des médias · Intégration d'images dans l'environnement virtuel · Intégration de médias sonores dans l'environnement virtuel · Animation d'éléments visuels · Compilation de l'application
@@ -306,7 +372,7 @@ Un jeu complet, publié en ligne, présenté à l'oral. La remise comprend le d�
     **Objectif 2** — Notions d'interaction · Environnement de programmation · Fonctionnement d'une interface virtuelle (menu) · Déplacement dans l'environnement virtuel · Interactions virtuelles · Détection de collisions pour le déclenchement d'évènements · Transitions de scènes · Progression en fonction de la réussite d'une action · Système de clé et de porte · Intégration d'un HUD · Indication visuelle et sonore des réussites et échecs · Déclenchement d'échantillons sonores · Détection de l'état du personnage · Indication visuelle et animation de l'état du personnage
 
 !!! warning "Filet de sécurité"
-    Le build **alpha de la S12 est publié en ligne** et sert d'artéfact de repli si rien n'est remis à la S15. Les quatre jalons rendent tout décrochage visible dès la S7, avec sept semaines pour réagir.
+    Le build **alpha de la S12 est publié en ligne** et sert d'artéfact de repli si rien n'est remis à la S15. Les quatre jalons rendent tout décrochage visible dès la S7, avec sept semaines pour réagir. Et 25 % de la note est déjà acquise avant la remise finale.
 
 ---
 
@@ -316,10 +382,10 @@ Chaque jalon suit le même déroulé : matière en première partie de séance, 
 
 | # | Séance | Nom de production | État attendu du jeu |
 |---|--------|-------------------|---------------------|
-| **F1** | S7 | **Prototype jouable** (*first playable*) | Greybox navigable, personnage contrôlable, une interaction, un début et une fin. Laid, mais jouable de bout en bout |
+| **F1** | S7 | **Prototype jouable** (*first playable*) | Les 3 zones traversables en greybox, les 3 portes fonctionnelles, un début et une fin. Laid, mais jouable de bout en bout<br>:material-check-decagram: **Carnet de bord 1 corrigé pendant la rencontre** |
 | **F2** | S9 | **Tranche verticale** (*vertical slice*) | Un segment court mais **fini** : habillé, animé, sonorisé, éclairé — l'échantillon qui prouve le niveau de qualité visé<br>:material-comment-check: **Activité de rétroaction — objectif 1** |
 | **F3** | S12 | **Alpha** (*feature complete*) | Toutes les mécaniques du GDD branchées, niveau complet parcourable, build WebGL en ligne. Plus aucune fonctionnalité après ce point<br>:material-comment-check: **Activité de rétroaction — objectif 2** |
-| **F4** | S14 | **Bêta / *release candidate*** | Contenu complet, fonctionnalités gelées, build de validation publié. Correctifs et polissage seulement |
+| **F4** | S14 | **Bêta / *release candidate*** | Contenu complet, fonctionnalités gelées, build de validation publié. Correctifs et polissage seulement<br>:material-check-decagram: **Carnet de bord 2 corrigé pendant la rencontre** |
 
 La remise de la S15 correspond au ***gold*** : la version qu'on expédie.
 

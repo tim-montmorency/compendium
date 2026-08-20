@@ -53,12 +53,12 @@ Certains packages ont des outils qu'on peut téléchager en plus. Il se trouvent
 
 ## Assets du cours
 
-### Collision Event System
+### Collider Event System
 
 <!-- https://assetstore.unity.com/packages/tools/game-toolkits/enhanced-trigger-box-72826 -->
 ![](./Enhanced-Trigger-Box.png)
 
-***Collision Event System*** permet de faciliter la gestion des événements suite à une collision en Unity. 
+***Collider Event System*** permet de faciliter la gestion des événements suite à une collision en Unity. 
 
 Lorsqu'un GameObject entre en contact avec un des prefab du plugin, le plugin peut déclencher plusieurs événements et ce, sans programmation.
 

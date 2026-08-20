@@ -10,7 +10,7 @@
 
 ### 2. Test croisé : les deux passes
 
-Trente minutes, avec un pair **différent** de celui du Jalon 1. Imprime ou ouvre la [fiche d'observation](../extra/heuristiques.md#la-fiche-dobservation-jalon-2) : douze items, une colonne « ce que j'ai vu ».
+Trente minutes, avec un pair **différent** de celui du jalon F1. Imprime ou ouvre la [fiche d'observation](../extra/heuristiques.md#la-fiche-dobservation-jalon-2) : douze items, une colonne « ce que j'ai vu ».
 
 **Pourquoi deux passes plutôt qu'une?** Parce que la recherche en UX de jeu montre que la grille et l'observation trouvent des problèmes **différents**, avec très peu de recoupement. Sur quatre jeux commerciaux, l'évaluation par grille a trouvé 43 problèmes d'accessibilité contre 22 pour le test utilisateur - mais le test utilisateur a trouvé 185 problèmes de jouabilité contre 47. Faire une seule des deux, c'est rater la moitié des problèmes de ton jeu.
 
@@ -55,5 +55,5 @@ Ton pair revient à **ton** poste et joue à **ton** jeu. Tu le regardes.
 ### 5. Build et remise
 
 - [ ] Compile, lance le build, vérifie (son inclus!)
-- [ ] Commit : `Jalon 2 : tranche verticale` → Push
+- [ ] Commit : `Tranche verticale` → Push
 - [ ] Remets le build selon la consigne

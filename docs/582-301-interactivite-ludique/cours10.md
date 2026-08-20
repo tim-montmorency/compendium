@@ -50,7 +50,7 @@
 
 ### Le marchand, le guide
 
-### Le dialogue déclenché par ETB
+### Le dialogue déclenché par CES
 
 ## La rétroaction du PNJ
 

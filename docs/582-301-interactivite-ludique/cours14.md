@@ -5,6 +5,9 @@
 
     On passe ensemble les *issues* `must` encore ouvertes. **Ce qui reste à la fin de cette rencontre est exactement ce qui sera vérifié au cours 15** — aucune surprise possible à la remise.
 
+!!! abstract ":material-check-decagram: Carnet de bord 2 — tenue (5 %)"
+    Corrigé pendant la même rencontre. Un devlog par séance depuis la S7, les *issues* des jalons F1 à F3 traitées, un backlog qui a bougé, des commits liés aux *issues*. Les dates sont horodatées : ça ne se fabrique pas la veille. [Grille](./plan-de-cours.md#le-carnet-de-bord)
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |

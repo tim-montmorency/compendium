@@ -1,9 +1,12 @@
 # Cours 2
 
+!!! abstract ":material-check-decagram: Vérification du devoir 01 (2 %)"
+    En début de séance, écran ouvert : la capture de ton jeu publié sur Unity Play. Rien à déposer d'autre.
+
 <!-- ![](./assets/img/get-in.jpg){.w-100} -->
 
 *[URP]: Universal Render Pipeline
-*[CES]: Collision Event System
+*[CES]: Collider Event System
 
 ## Commencer un nouveau jeu
 
@@ -181,7 +184,7 @@ En jeu vidéo, il y a ça et plus encore. Quand on contrôle un personnage, celu
 
 En Unity, on parle surtout de **collision**. Quand le projectif entre en collision avec l'ennemie ou quand le personne tombe dans le trou, il entre en collision avec le trou, il se passe telle ou telle chose.
 
-## Collision Event System (CES)
+## Collider Event System (CES)
 
 ![](./assets/img/demo-etb.png){.w-50 data-zoom-image}
 
@@ -221,9 +224,9 @@ Pour activer ou désactiver manuellement un objet dans Unity, on doit simplement
 
 ![](./assets/img/activate-deactivate.png){data-zoom-image .w-25}
 
-Toutefois, il est également possible de le faire dynamiquement en programmation, ou avec « Collision Event System ». Voici la marche à suivre pour cette dernière :
+Toutefois, il est également possible de le faire dynamiquement en programmation, ou avec « Collider Event System ». Voici la marche à suivre pour cette dernière :
 
-1. Ajouter un prefab du « Collision Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Ajouter un prefab du « Collider Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
 1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Game Object »
 1. _Target mode_ : _Specific object_
 1. _Target_ : Glisser depuis le panneau _Hierarchy_ un des _GameObjects_ (ex: le plancher)
@@ -245,7 +248,7 @@ Toutefois, il est également possible de le faire dynamiquement en programmation
 
 ![](./assets/img/teleport-goku.gif){.w-50}
 
-1. Ajouter un prefab du « Collision Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Ajouter un prefab du « Collider Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
 1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Transform »
 1. _Target mode_ : _Entering Objects_ (les éléments qui entrent en collision avec le CES)
 1. _Value Source_ : _Fixed Value_
@@ -255,7 +258,7 @@ Toutefois, il est également possible de le faire dynamiquement en programmation
 
 ### Changer la rotation d'un objet avec CES
 
-1. Ajouter un prefab du « Collision Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Ajouter un prefab du « Collider Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
 1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Transform »
 1. _Target mode_ : _Specific object_
 1. _Target_ : Glisser depuis le panneau _Hierarchy_ un des _GameObjects_ (ex: _Pente_)
@@ -364,8 +367,8 @@ Un monde où on se promène, ce n'est pas encore un jeu. Il manque un **but** et
 
 Voici deux exemples : 
 
-- **Inventaire** : un ETB sur une clé enregistre une variable à `true`. Un autre ETB sur une porte vérifie si la variable est `true`, si oui, elle disparait
-- **Habileté du joueur** : un parcours demande de la précision sinon on tombe dans un ETB et il nous téléporte vers le début du parcours
+- **Inventaire** : un CES sur une clé enregistre une variable à `true`. Un autre CES sur une porte vérifie si la variable est `true`, si oui, elle disparait
+- **Habileté du joueur** : un parcours demande de la précision sinon on tombe dans un CES et il nous téléporte vers le début du parcours
 
 Une fois le *gate* choisi, l'environnement se construit en conséquence. -->
 
@@ -379,7 +382,7 @@ Une fois le *gate* choisi, l'environnement se construit en conséquence. -->
 </div>
 <!-- 
 * **Termine ton mini-monde** : un départ, un chemin, une arrivée évidente - sol continu, colliders en place, aucun endroit où on reste coincé ou on tombe dans le vide
-* Ce monde est la base de ton [jeu express](./devoirs/jeu-express.md) (**Évaluation 1 - 10 %**) : lis la grille dès maintenant
+* Ce monde est la base de ton [jeu express](./devoirs/protolude/index.md) (**Évaluation 1 - 13 %**) : lis la grille dès maintenant
 * Apporte des idées : au [cours 3](./cours03.md), ton monde devient **jouable** (personnage, matériaux, son, victoire) - et on commence à parler de **ton** jeu de session -->
 
 <!-- ## Savoirs essentiels touchés

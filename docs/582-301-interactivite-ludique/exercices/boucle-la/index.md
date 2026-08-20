@@ -1,6 +1,6 @@
 # Boucle-là !
 
-*[CES]: Collision Event System
+*[CES]: Collider Event System
 
 ![](./giphy.gif){.w-100}
 

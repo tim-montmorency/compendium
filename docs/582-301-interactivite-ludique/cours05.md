@@ -43,7 +43,12 @@
 
 ## C# de survie
 
-### Pourquoi programmer, si le ETB existe?
+!!! important "Un script écrit par toi est exigé au projet final"
+    L'exigence **B6** du [travail final](./devoirs/projet-final.md) demande **au moins un script C# écrit par toi**, dont tu peux expliquer chaque ligne à l'oral. Pas un script du kit branché : un que **tu** as écrit.
+
+    Une quinzaine de lignes suffisent. Tu n'as pas à trouver l'idée aujourd'hui — garde simplement l'œil ouvert : dès qu'un besoin de ton jeu résiste au kit et au CES, c'est ton script. Si rien ne s'est présenté d'ici le [cours 11](./cours11.md), on en choisit un ensemble.
+
+### Pourquoi programmer, si le CES existe?
 
 ### Anatomie d'un script
 
@@ -68,7 +73,7 @@
 ## Le kit de scripts
 
 !!! tip "À conserver précieusement"
-    Compteur, minuterie, santé et dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chacun est commenté, exposé dans l'Inspector, et appelable depuis un ETB. Le kit s'enrichit d'une séance à l'autre.
+    Compteur, minuterie, santé et dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chacun est commenté, exposé dans l'Inspector, et appelable depuis un CES. Le kit s'enrichit d'une séance à l'autre.
 
 ## Pratique
 

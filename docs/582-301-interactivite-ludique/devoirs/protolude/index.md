@@ -1,10 +1,10 @@
 # Protolude
 
-*[CES]: Collision Event System
+*[CES]: Collider Event System
 
 L'objectif du projet est de construire un niveau de jeu vidéo en y plaçant un personnage contrôlable qui pourra déclencher un événement de victoire.
 
-Ce projet compte pour 15% de la note finale.
+Ce projet compte pour **13 %** de la note finale.
 
 ## Partie 1 | L'habillage 🏔️
 
@@ -12,7 +12,7 @@ Ce projet compte pour 15% de la note finale.
 
 - [ ] Créer une nouveau projet « _Universal 3D_ » et nommez le « Protolude »
 - [ ] Appliquer la classification de dossier apprise en classe
-- [ ] Ajouter le _package_ de ***SyntyStudio*** et ***Collision Event System***
+- [ ] Ajouter le _package_ de ***SyntyStudio*** et ***Collider Event System***
 - [ ] Positionnner des prefabs SyntyStudio pour façoner un niveau de jeu
   > Varier la quantité et la diversité pour donner de l'ampleur au monde
 - [ ] S'assurer que le pesonnage ne tombera jamais dans le vide
@@ -24,7 +24,7 @@ Ce projet compte pour 15% de la note finale.
 
 - [ ] Ajouter le package *Starter Assets: Character Controllers | URP*
 - [ ] Ajouter un personnage jouable à la première ou à la troisième personne avec le .
-- [ ] Configurer les interactions avec _Collision Event System_
+- [ ] Configurer les interactions avec _Collider Event System_
   > Une interaction doit en débloquer une autre. L'usage de condition est nécessaire.
 - [ ] Déclencher la fin du jeu par un changement de scène
 - [ ] Ajouter au moins un objet, autre que le personnage, qui utilise la physique
@@ -58,16 +58,24 @@ Pour limiter la taille de votre remise, une fois Unity fermé, vous pouvez suppr
 
 | Critère | Attentes | Points |
 |---|---|---|
-| **Environnement** | Un monde construit avec les prefabs SyntyStudio. On identifie facilement le parcours à faire. La quantité et la diversité de prefabs utilisés témoignent d'un effort considérable. | 3 |
+| **Environnement** | Un monde construit avec les prefabs SyntyStudio. On identifie facilement le parcours à faire. La quantité et la diversité de prefabs utilisés témoignent d'un effort considérable. | 2 |
 | **Qualité technique de l'environnement** | On ne passe pas au travers du décor et on ne tombe jamais dans le vide. Ce critère évalue aussi la minutie et l'attention aux détails. | 2 |
-| **Prérequis et personnage** | Un prérequis sépare le joueur de sa victoire. Une interaction initiale doit être complétée pour en débloquer une autre en s'appuyant sur le principe de condition du _Collision Event System_. Le  _Character Controllers_ est utilisé pour se déplacer et effectuer les interactions. | 3 |
+| **Prérequis et personnage** | Un prérequis sépare le joueur de sa victoire. Une interaction initiale doit être complétée pour en débloquer une autre en s'appuyant sur le principe de condition du _Collider Event System_. Le  _Character Controllers_ est utilisé pour se déplacer et effectuer les interactions. | 3 |
 | **Physique** | Au moins un objet autre que le personnage doit être affecté par la physique. | 1 |
 | **Détection et victoire** | Un **CES** correctement configuré déclenche la fin du jeu par un changement de scène. | 1 |
 | **Structure de fichier** | Les dossiers suivent la classification attendue dans le cours. | 1 |
 | **Compilation** | Un build Windows fonctionnel | 1 |
-| **Rigueur et créativité** | Qualité générale d'exécution et créativité démontrée par l'environnement et l'interaction. | 3 |
-| | **Total** | **15** |
+| **Rigueur et créativité** | Qualité générale d'exécution et créativité démontrée par l'environnement et l'interaction. | 2 |
+| | **Total** | **13** |
 
-<!-- ## Savoirs essentiels évalués
+## Savoirs essentiels évalués
 
-Logiciels d'intégration d'expériences ludiques, installation et configuration des ressources, classement des fichiers et des médias, création d'un environnement virtuel navigable, intégration d'images dans l'environnement virtuel, déplacement dans l'environnement virtuel, détection de collisions pour le déclenchement d'événements, transitions de scènes, compilation de l'application. -->
+* Logiciels d'intégration d'expériences ludiques
+* Installation et configuration des ressources nécessaires
+* Classement des fichiers et des médias
+* Création d'un environnement virtuel navigable
+* Intégration d'images dans l'environnement virtuel
+* Déplacement dans l'environnement virtuel
+* Détection de collisions pour le déclenchement d'évènements
+* Transitions de scènes
+* Compilation de l'application

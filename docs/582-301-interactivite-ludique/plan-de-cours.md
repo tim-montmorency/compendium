@@ -1,15 +1,19 @@
 # Plan de cours
 
+## Attitudes professionnelles
+
+Deux attitudes sont inscrites au devis départemental pour ce cours, et **les deux sont évaluées** : la **rigueur** (tenue du carnet de bord, réalisation des tâches des jalons, finition) et la **créativité** (cohérence du parti pris, décisions de conception assumées). Elles pèsent ensemble 24 des 70 points du projet final, plus les 10 % du carnet de bord.
+
 ## Approche pédagogique
 
 Deux jeux dans la session.
 
-D'abord un **jeu express** construit en classe des séances 1 à 3 : environnement, personnage, progression, fin, build. Aucun code écrit par l'élève - le **Enhanced Trigger Box** fait le travail. Il se dépose la veille de la séance 4 : tout le monde a alors un jeu complet, compilé, qui se termine. C'est la première évaluation des acquis Unity.
+D'abord un **jeu express** construit en classe des séances 1 à 3 : environnement, personnage, progression, fin, build. Aucun code écrit par l'élève - le **Collider Event System** fait le travail. Il se dépose la veille de la séance 4 : tout le monde a alors un jeu complet, compilé, qui se termine. C'est la première évaluation des acquis Unity.
 
 Ensuite - une fois qu'on sait ce que coûte une porte - on conçoit **LE jeu de session** (séance 4), qu'on construit couche par couche jusqu'à sa publication en ligne. Tous les concepts nécessaires aux deux objectifs ministériels sont vus **avant la séance 12**; ensuite, place à la production.
 
-!!! note "Pourquoi le ETB avant le code?"
-    Le Enhanced Trigger Box permet, dès la séance 2, de déclencher une animation, une lumière, un changement d'état, une méthode d'un script, une texture, un son, un changement de scène - et de conditionner tout ça à une distance, une touche, un regard de caméra ou la valeur d'une variable custom. Autrement dit : **toute la logique de jeu du cours est accessible sans écrire une ligne.** Le C# arrive plus tard, non pas comme le prix d'entrée, mais comme un outil pour ce que le ETB ne fait pas.
+!!! note "Pourquoi le CES avant le code?"
+    Le Collider Event System permet, dès la séance 2, de déclencher une animation, une lumière, un changement d'état, une méthode d'un script, une texture, un son, un changement de scène - et de conditionner tout ça à une distance, une touche, un regard de caméra ou la valeur d'une variable custom. Autrement dit : **toute la logique de jeu du cours est accessible sans écrire une ligne.** Le C# arrive plus tard, non pas comme le prix d'entrée, mais comme un outil pour ce que le CES ne fait pas.
 
 !!! note "Pourquoi concevoir au cours 4 et pas au cours 1?"
     Un GDD écrit avant d'avoir touché à Unity est une liste de souhaits. Après trois séances passées à fabriquer un jeu, l'élève a une intuition de la charge de travail - et son scope devient réaliste tout seul. C'est le remède au piège numéro un du cours : le jeu trop grand.
@@ -20,18 +24,20 @@ Liberté totale sur le thème et l'univers; obligations techniques identiques po
 
 * Environnement navigable construit avec les assets Synty (POLYGON Sampler Pack)
 * Personnage contrôlable, animé, avec états détectés (idle / marche / course / saut / action)
-* Système de progression type clé/porte (au moins deux étapes de *gating*)
+* **Trois zones** distinctes et **trois portes** utilisant **trois types de *gating* différents**, dont au moins un vrai système clé/serrure
 * Menu fonctionnel (titre → jeu → fin) et HUD
 * Indications **visuelles et sonores** des réussites et des échecs
 * Échantillons sonores déclenchés par les événements du jeu
 * Éclairage travaillé et post-traitement
 * Build compilé et **publié en ligne (itch.io, WebGL)** avec README et crédits des médias
 
-**Contraintes dures :** 1 mécanique principale, 1 niveau, assets Synty seulement (+ médias libres cités). GDD verrouillé après validation (séance 4).
+**Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD verrouillé après validation (séance 4).
+
+L'énoncé complet, ses 33 exigences et ses 12 étapes sont dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
 
 ### Rituels
 
-* **GitHub dès la séance 4** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes)
+* **GitHub dès la séance 4** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes). La tenue du tableau et du devlog est **notée** à la S7 et à la S14 (carnet de bord, 5 % chacun)
 * **Un seul outil de suivi : GitHub Projects**, par-dessus les *issues* du dépôt. Liste de sprint à la S4, backlog complet à la S7, revue à chaque jalon. Pas de Trello en parallèle - deux sources de vérité, c'est un élève qui répond « c'était dans l'autre outil ». Bonus : un commit contenant `closes #12` ferme la carte tout seul, ce qui donne enfin une raison d'écrire de vrais messages de commit.
 * **Fin de chaque séance** : 10 min de « montre ton écran au voisin » - test croisé informel
 * **Structure des séances de la phase 3** : matière en première partie, puis **atelier avec rotation individuelle** de l'enseignant - c'est là que se font les jalons formatifs
@@ -59,9 +65,9 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
-| 1 | [Moteur de jeu et prise en main](./cours01.md) | Théorie du jeu, moteurs, **Get Started With Unity** | |
-| 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **ETB**, Synty + URP | |
-| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1re/3e personne, *gating* par ETB, habillage Synty du personnage, build | :material-check-decagram: **Jeu express (15 %)** — déposé la veille de la S4 |
+| 1 | [Moteur de jeu et prise en main](./cours01.md) | Théorie du jeu, moteurs, **Get Started With Unity** | :material-check-decagram: **Devoir 01 (2 %)** — vérifié au début de la S2 |
+| 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **CES**, Synty + URP | |
+| 3 | [Personnage et progression](./cours03.md) | Starter Assets 1re/3e personne, *gating* par CES, habillage Synty du personnage, build | :material-check-decagram: **Jeu express (13 %)** — déposé la veille de la S4 |
 
 ### Phase 2 - Concevoir, puis outiller (S4–S5)
 
@@ -75,7 +81,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
 | 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, Cinemachine, 2.5D, transitions de scènes, cinématique (Timeline) | |
-| 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** |
+| 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** + :material-check-decagram: **Carnet de bord 1 (5 %)** |
 | 8 | [Particules, VFX et *game feel*](./cours08.md) | Particle System, projectiles (Instantiate), *juice* | |
 | 9 | [Lumière et level design](./cours09.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
 | 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, machine à états simple | |
@@ -87,8 +93,8 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 |---|--------|-------------------|-------|
 | 12 | [Tests utilisateurs et plan de production](./cours12.md) | Heuristiques, protocole de playtest, *issues* et priorisation | :material-comment-check: **F3 - Alpha** + rétroaction objectif 2 |
 | 13 | [Production + capsule](./cours13.md) | Atelier encadré; capsule d'enrichissement au choix | |
-| 14 | [Production + gel](./cours14.md) | Atelier encadré, gel des fonctionnalités | :material-comment-check: **F4 - Bêta / RC** publiée |
-| 15 | [Remise et présentations](./cours15.md) | Oraux | :material-check-decagram: **Projet final (80 %)** |
+| 14 | [Production + gel](./cours14.md) | Atelier encadré, gel des fonctionnalités | :material-comment-check: **F4 - Bêta / RC** publiée + :material-check-decagram: **Carnet de bord 2 (5 %)** |
+| 15 | [Remise et présentations](./cours15.md) | Oraux | :material-check-decagram: **Projet final (70 %)** |
 
 :material-check-decagram: évaluation sommative &nbsp;·&nbsp; :material-comment-check: jalon formatif avec rencontre individuelle
 
@@ -108,7 +114,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * Création de projet, **structure de dossiers** et hygiène de nommage
 * Rigidbody, masse, gravité, contraintes; Box vs Mesh Collider; `isTrigger`
 * Scènes multiples et changement de scène
-* **Enhanced Trigger Box** : réponses (détruire, déplacer, activer/désactiver, jouer un son, charger une scène, appeler une méthode) et conditions (distance, touche, regard de caméra, variable custom)
+* **Collider Event System** : réponses (détruire, déplacer, activer/désactiver, jouer un son, charger une scène, appeler une méthode) et conditions (distance, touche, regard de caméra, variable custom)
 * POLYGON Sampler Pack : import, **conversion des materials vers URP**, assemblage d'un environnement solide et navigable
 
 ### S3 - Personnage et progression
@@ -118,7 +124,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * Troisième personne (la caméra Cinemachine est déjà configurée dans le package - on l'utilise sans l'expliquer, le démontage arrive en S6)
     * Notion d'**Input System** (survol : où sont les touches, comment en ajouter une)
 * Le tag `Player` et pourquoi tout en dépend
-* **Gating** (rappel S1) mis en œuvre concrètement avec le ETB : clé → porte, zone bloquée, variable custom vérifiée plus loin
+* **Gating** (rappel S1) mis en œuvre concrètement avec le CES : clé → porte, zone bloquée, variable custom vérifiée plus loin
 * **Habiller le personnage** : substitution du mannequin gris par un personnage **T-pose Synty** dans le Third Person Controller — sans *rigging*, donc sans animation pour l'instant. L'auto-rigger **Mixamo** et l'avatar humanoïde sont reportés à la **S6**, où ils servent enfin à quelque chose
 * Premier build local
 
@@ -162,7 +168,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **C# de survie** : variables, `Start`/`Update`, `public` (et pourquoi ça apparaît dans l'Inspector), conditions, méthodes, `GetComponent`, `Debug.Log`
 * **Usage cool** : générer des GameObjects par script (`Instantiate` dans une boucle) - grille, cercle, dispersion aléatoire
 * **Prefabs custom** : créer, instancier, variantes, override, prefab imbriqué
-* **Kit de scripts prêts à brancher** remis à cette séance : compteur, minuterie, santé/dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chaque script est commenté, exposé dans l'Inspector, et appelable depuis un ETB. Vu que le C# reste volontairement minimal, ce kit détermine directement le plafond de ce que les élèves peuvent fabriquer - il s'enrichit d'une séance à l'autre.
+* **Kit de scripts prêts à brancher** remis à cette séance : compteur, minuterie, santé/dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chaque script est commenté, exposé dans l'Inspector, et appelable depuis un CES. Vu que le C# reste volontairement minimal, ce kit détermine directement le plafond de ce que les élèves peuvent fabriquer - il s'enrichit d'une séance à l'autre.
 
 !!! note "Démystifier, puis enseigner"
     Le script fourni vient **avant** le C# de survie, dans la même séance. C'est l'ordre qui compte : on prouve d'abord que le code n'est qu'un composant de plus, ensuite on l'ouvre.
@@ -186,7 +192,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * *Virtual Camera*, priorités, *follow / look at*, *body* et *aim*
     * *Damping*, *dead zone*, *soft zone* - pourquoi une caméra qui suit trop bien donne la nausée
     * *Confiner* (Cinemachine Confiner) pour empêcher la caméra de traverser les murs
-    * Changement de caméra par ETB (*priority blending*)
+    * Changement de caméra par CES (*priority blending*)
 * **Perspective vs orthographique**, et le **2.5D** comme cadrage du cours : un monde 3D, mais une caméra et un déplacement contraints sur un plan
     * Trois cas montés en démo : *side-scroller* orthographique, vue de dessus, isométrique
     * Verrouillage d'un axe de déplacement; *parallax* obtenu gratuitement en 3D
@@ -196,7 +202,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 * **Transitions de scènes** propres : `SceneManager`, écran de chargement, fondu
 * **Cinématique** : Timeline + Cinemachine, verrouillage des contrôles pendant la cutscene, *Signal Emitter*
-* Déclenchement du tout par ETB
+* Déclenchement du tout par CES
 
 !!! note "Sur le savoir essentiel « caméra 2D »"
     Le cours est entièrement en 3D. Plutôt que de faire une parenthèse 2D artificielle, le savoir est couvert par le **2.5D** : caméra orthographique, contrainte d'axe, cadrage plat. L'élève sait configurer une caméra 2D à la fin de la séance - il l'a simplement fait dans un monde 3D, ce qui correspond à la pratique réelle.
@@ -212,8 +218,8 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * **Groupes** (bus) : musique / SFX / UI / ambiance - chaque `AudioSource` est routée vers un groupe, on règle 40 sons d'un coup
     * Effets par groupe : *lowpass*, *reverb*, *compressor*, *duck volume*
     * **Paramètres exposés** : brancher un slider du menu Options sur le volume d'un groupe
-    * **Snapshots** : un instantané de tous les réglages du mixeur, rappelable et *interpolable* dans le temps. Trois usages concrets - étouffer le jeu quand le menu pause s'ouvre, passer en « sous l'eau » en entrant dans une zone, baisser la musique pendant un dialogue. Le tout déclenchable par ETB.
-* Déclenchement : par ETB, par *Animation Event*, par script fourni
+    * **Snapshots** : un instantané de tous les réglages du mixeur, rappelable et *interpolable* dans le temps. Trois usages concrets - étouffer le jeu quand le menu pause s'ouvre, passer en « sous l'eau » en entrant dans une zone, baisser la musique pendant un dialogue. Le tout déclenchable par CES.
+* Déclenchement : par CES, par *Animation Event*, par script fourni
 * **Sources et licences** : freesound, Kenney, Pixabay - et l'obligation de créditer dans le README
 * **Culture du métier (15 min, démo seulement)** : FMOD et Wwise, ce que sont les *middlewares* audio et pourquoi les studios les utilisent - sans les installer
 
@@ -229,6 +235,8 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     Rotation individuelle pendant que la classe construit son backlog. Attendu : greybox navigable, personnage contrôlable, une interaction, un début et une fin. C'est le premier contrôle de scope réel - un GDD trop gros se voit ici, et il reste huit semaines pour corriger le tir.
 
     La rencontre se fait **le tableau ouvert** : au lieu de demander « où en es-tu? », on valide les priorités à chaud et les tâches de l'enseignant s'ajoutent au même endroit, dans le même format que celles de l'élève.
+
+    C'est aussi le moment où se corrige le **carnet de bord 1 (5 %)** : quatre observables binaires, trois minutes, écran ouvert.
 
 !!! tip "Pourquoi le backlog ici et pas à la S4"
     Un backlog écrit avant le prototype est une liste de features **imaginées**; écrit après, c'est une liste de features **rencontrées**. À la S7, l'élève sait ce qu'une heure de son propre travail produit - et il connaît ses problèmes : sa caméra donne la nausée, sa porte ne s'ouvre pas. C'est la pratique réelle des studios : le backlog de production s'écrit à la fin de la pré-production, une fois que le prototype a désamorcé les risques du design.
@@ -271,7 +279,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * Patrouille par waypoints; poursuite; retour au poste
 * **Détection** : distance, cône de vision, `Raycast` (ligne de vue)
 * Machine à états simple du PNJ (patrouille → alerte → poursuite → perte de trace)
-* PNJ non hostile : marchand, guide, dialogue déclenché par ETB
+* PNJ non hostile : marchand, guide, dialogue déclenché par CES
 * Rétroaction du PNJ : animation, son, indicateur visuel
 
 !!! note "Contenir l'ambition - IA"
@@ -284,6 +292,8 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **itch.io** : page de projet, upload, *embed*, visuels de page, description, crédits
 * `README.md` final et **crédits des médias** *(critère de la grille finale)*
 * **Sauvegarde** : `PlayerPrefs` - progression (dernier niveau atteint), options (volume, sensibilité), meilleur score. `SetInt` / `SetFloat` / `SetString`, `Save`, `DeleteAll` pour tester.
+    * Amené comme **ce qu'il y a sous la case `Persistent`** du CES, utilisée sans le savoir depuis la S3
+    * **Atelier du script custom** : l'exigence B6 du projet demande un script C# écrit par l'élève. Ceux qui n'en ont pas encore repartent d'ici avec le leur - le meilleur score sauvegardé est le sujet de repli, court et utile.
 * **Performance** : Profiler en survol, *batching*, nombre de lumières temps réel, taille des textures
 
 !!! note "Contenir l'ambition - sauvegarde"
@@ -328,9 +338,11 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 !!! abstract "Jalon formatif F4 - Bêta / *release candidate*"
     Dernière rotation individuelle. Attendu : **contenu complet**, fonctionnalités gelées, build de validation en ligne. On passe ensemble les *issues* `must` encore ouvertes : ce qui reste à la fin de cette rencontre est exactement ce qui sera vérifié à la S15. Aucune surprise possible à la remise.
 
+    C'est aussi le moment où se corrige le **carnet de bord 2 (5 %)**.
+
 ### S15 - Remise et présentations
 
-* Remise du **projet final (80 %)** - version *gold*
+* Remise du **projet final (70 %)** - version *gold*
 * Oraux : 5 min par élève
     * concept et boucle de jeu
     * **les tâches reçues aux jalons et ce qui en a été fait** - l'élève ouvre son dépôt et montre les *issues* fermées
@@ -342,15 +354,45 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 ## Évaluation
 
-Trois notes seulement, et **quatre jalons formatifs** entre les deux dernières.
+Six notes, dont quatre légères, et **quatre jalons de rétroaction individuelle**. L'état du jeu n'est noté qu'une seule fois, à la toute fin.
 
 | Évaluation | Séance | Pondération |
 |------------|--------|-------------|
-| **Jeu express** - acquis Unity (environnement, personnage, physique, trigger, scènes, habillage, build) | déposé la veille de la S4 | 15 % |
+| **Devoir 01** - tutoriel *Get Started With Unity*, capture du build publié | vérifié au début de la S2 | 2 % |
+| **Jeu express** - acquis Unity (environnement, personnage, physique, trigger, scènes, habillage, build) | déposé la veille de la S4 | 13 % |
 | **GDD** - concept, boucle, scope, niveau, médias prévus, ambiance | S4 | 5 % |
-| **Projet final** - jeu complet publié, README et crédits, oral | S15 | 80 % |
+| **Carnet de bord 1** - mise en place du backlog | S7, pendant F1 | 5 % |
+| **Carnet de bord 2** - tenue du carnet | S14, pendant F4 | 5 % |
+| **Projet final** - jeu complet publié, README et crédits, oral | S15 | 70 % |
 
-Les deux premières arrivent tôt et sont de nature différente : une pratique, qui mesure les gestes Unity de l'objectif 1 en situation, et une écrite, courte, qui sert surtout à verrouiller le scope. Le reste de la session est **formatif** : l'élève construit un seul jeu, encadré, et n'est noté qu'une fois - mais sur un travail dont la trajectoire a été corrigée quatre fois.
+Les quatre premières notes arrivent tôt et sont légères : **25 % de la note finale est acquise avant la S15**. Elles mesurent quatre choses distinctes - un pipeline technique parcouru au complet (devoir 01), les gestes Unity de l'objectif 1 en situation (jeu express), un scope verrouillé par écrit (GDD), et la tenue du suivi de production (carnet de bord).
+
+**L'état du jeu, lui, n'est jamais noté avant la remise finale.** Les quatre jalons produisent un avis écrit et une liste de tâches nominative, pas une note : un élève ne peut donc pas perdre de points sur une chose qu'on ne lui a pas encore enseignée ou signalée. Ce qui est noté en cours de route, c'est la **régularité** - que le backlog vive et que le devlog se remplisse semaine après semaine. C'est le seul élément du dispositif qui ne se rattrape pas la veille de la remise.
+
+### Le carnet de bord
+
+Même logique qu'un cahier de laboratoire : on note **la tenue du suivi**, jamais l'état du jeu. Des observables binaires, vérifiables **écran ouvert en trois minutes** pendant la rotation individuelle qui a déjà lieu à chaque jalon - donc aucune correction hors classe.
+
+**Carnet de bord 1 - mise en place · S7, pendant F1 · 5 %**
+
+| Observable | Pts |
+|------------|-----|
+| Le tableau **GitHub Projects** existe et est alimenté depuis la S4 | 1 |
+| Backlog **priorisé MoSCoW**, avec la colonne `Won't` réellement remplie | 2 |
+| Cartes **découpées** : aucune ne dépasse une séance de labo (pas de « faire le niveau ») | 1 |
+| **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque) | 1 |
+
+**Carnet de bord 2 - tenue · S14, pendant F4 · 5 %**
+
+| Observable | Pts |
+|------------|-----|
+| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 2 |
+| **Issues des jalons F1 à F3 traitées** : fermées, ou reportées explicitement et assumées | 1 |
+| **Backlog vivant** : cartes déplacées, repriorisées, ajoutées en cours de route | 1 |
+| **Commits liés aux issues** (`closes #12`) et messages lisibles | 1 |
+
+!!! tip "Pourquoi ça fonctionne comme levier"
+    Un élève qui ne touche pas à son jeu pendant trois semaines ne peut pas fabriquer un devlog crédible la veille : les dates de commit et l'historique du tableau sont horodatés. C'est la seule pièce du dispositif qu'on **ne peut pas rattraper à la dernière minute** - et c'est exactement ce qu'on cherche.
 
 ### Jalons formatifs et rencontres individuelles
 
@@ -384,20 +426,28 @@ L'objectif n'est pas que tout le monde livre le même jeu, mais que **tout le mo
 
 L'élève peut **négocier** une tâche au moment de la rencontre; ce qui est retenu est consigné. Rien d'oral : en cas de désaccord à la fin de la session, seule la trace écrite compte.
 
-### Grille du projet final (80 %)
+### Grille du projet final (70 %)
 
-| Critère | Pondération |
-|---------|-------------|
-| **Réalisation des tâches et recommandations des jalons** (*issues* `must` fermées, démontrées à l'oral) | 25 % |
-| Intégration des médias : visuel, animation, son, lumière - **objectif 1** | 20 % |
-| Programmation des actions et de la progression - **objectif 2** | 20 % |
-| Finition et publication : build WebGL fonctionnel, page itch.io, README, crédits des médias, le jeu se lance / se termine / se recommence | 10 % |
-| Oral et démonstration | 5 % |
+Détail complet des exigences dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
 
-Le premier critère est le plus lourd, et c'est voulu : il évalue la **capacité à recevoir de la rétroaction et à en faire quelque chose**, ce qui relève directement de l'attitude professionnelle *rigueur* inscrite au devis. C'est aussi ce qui rend la note équitable entre un projet ambitieux et un projet modeste.
+| Critère | Ce qu'on regarde | Pondération |
+|---------|------------------|-------------|
+| **Objectif 1 - intégration des médias** | Visuel, animation, son, lumière, caméra *(sections D et E du socle)* | 18 % |
+| **Objectif 2 - actions et progression** | Structure, portes, interactions, rétroaction *(sections A, B, C)* | 18 % |
+| **Créativité et cohérence du parti pris** | Intention nommée et tenue, zones réellement distinctes, détournement d'un outil, décisions justifiées à l'oral *(section H)* | 12 % |
+| **Rigueur - réalisation des tâches des jalons** | *Issues* `must` fermées, démontrées à l'oral | 12 % |
+| **Finition et publication** | Build WebGL, itch.io, README, crédits, carte de preuves, aucun défaut visible *(section G)* | 5 % |
+| **Oral et démonstration** | Concept, tâches reçues et ce qui en a été fait, une difficulté technique et sa résolution, ce qui serait fait autrement | 5 % |
+
+**Les savoirs essentiels se notent en présent / absent** - l'exigence fonctionne ou elle ne fonctionne pas, il n'y a rien à discuter. **Créativité et rigueur se notent en qualité**, et pèsent ensemble 24 % des 70 : ce sont les deux attitudes professionnelles inscrites au devis départemental, et c'est là que se joue la différence entre deux jeux qui cochent les mêmes cases. Un jeu bâclé peut obtenir tous ses points de savoirs et perdre les deux attitudes.
+
+**Aucun point d'ampleur nulle part.** Une quatrième zone ou une deuxième mécanique ne rapporte rien. Le chemin le plus court vers une bonne note est de livrer exactement le socle, avec une intention claire, très bien fait.
+
+!!! note "La carte de preuves"
+    À la remise, le README contient une table indiquant, pour chaque exigence du socle, **où elle se trouve et comment y accéder en jouant**. La règle : **ce qui n'est pas déclaré n'est pas corrigé**. L'enseignant ne cherche pas les fonctionnalités dans le jeu, il va où l'élève lui dit d'aller - en retour, une exigence déclarée est garantie d'être regardée.
 
 !!! warning "Filet de sécurité"
-    Avec 80 % sur une seule remise, un projet abandonné en fin de session est irrécupérable. Deux garde-fous : le build **alpha de la S12 est publié en ligne** et sert d'artéfact de repli si rien n'est remis à la S15; et les quatre jalons rendent tout décrochage visible dès la S7, avec sept semaines pour réagir.
+    Avec 70 % sur une seule remise, un projet abandonné en fin de session reste lourd de conséquences - même si 25 % de la note est déjà acquise avant la S15. Deux garde-fous supplémentaires : le build **alpha de la S12 est publié en ligne** et sert d'artéfact de repli si rien n'est remis à la S15; et les quatre jalons rendent tout décrochage visible dès la S7, avec sept semaines pour réagir.
 
 ---
 
@@ -429,7 +479,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Environnement de programmation | S5 (script fourni, puis C#) |
 | Déplacement d'un personnage | S3 (sans code), S5 |
 | Interactions virtuelles, système clé/porte | S3, S5 |
-| Progression selon la réussite ou l'échec | S3 (ETB + variables), S6, S10 |
+| Progression selon la réussite ou l'échec | S3 (CES + variables), S6, S10 |
 | HUD, indication des réussites et échecs | S5, S8 |
 | Échantillons sonores déclenchés | S7 |
 | États du personnage détectés et animés | S6 |

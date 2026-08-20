@@ -51,7 +51,7 @@
 
 #### Le Confiner : empêcher la caméra de traverser les murs
 
-#### Changer de caméra par ETB
+#### Changer de caméra par CES
 
 ### Orthographique vs perspective
 

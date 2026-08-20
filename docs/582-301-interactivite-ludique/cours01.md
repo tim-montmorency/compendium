@@ -1,5 +1,10 @@
 # Cours 1
 
+!!! abstract ":material-check-decagram: Devoir 01 — Get Started With Unity (2 %)"
+    Le tutoriel est **commencé en classe aujourd'hui**. Termine-le d'ici la prochaine séance et dépose la **capture de ton jeu publié sur Unity Play**.
+
+    Vérification au début du cours 2, écran ouvert. Barème tout ou rien. [Consignes complètes](./devoirs/get-started-with-unity.md)
+
 <style>.md-sidebar--secondary .md-nav .md-nav { display: none; }</style>
 
 *[LTS] : Long-Term Support
