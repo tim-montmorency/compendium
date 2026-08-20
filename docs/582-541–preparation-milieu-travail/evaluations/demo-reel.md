@@ -44,3 +44,11 @@ Généralement, les demo reels montrent des captures d'écran animées ou statiq
 
 - Groupe de Lora : 24 septembre.
 - Groupe d'Enric : 28 septembre.
+
+## ## Exemples de demo reels
+
+[Josh Adam Bell (conception sonore)](https://youtu.be/hIus8Uim4Ww){ .md-button}
+
+[Seyed M. Tabatabaei (animation)](https://eyeseyed.com/projects/media/fortnite/){ .md-button}
+
+[Drew Jimenez (édition vidéo / VFX)](https://www.youtube.com/watch?v=ART4ltmSY3Q){ .md-button }
