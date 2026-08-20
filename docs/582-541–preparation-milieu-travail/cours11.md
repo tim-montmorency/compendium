@@ -16,7 +16,7 @@
 - [ ] Remplir l'activité après l'entrevue
 
 ## Dernières invitations
-[🛠️ Modèle courriel](./stages/journeeCarriere.md){ .md-button }    
+[🛠️ Modèle courriel](./journee-carriere.md){ .md-button }    
 
 Vous devez inviter les entreprises à votre nom qui sont encore en blanc dans la section à contacter:  
 [🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    

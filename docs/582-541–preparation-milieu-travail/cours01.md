@@ -1,4 +1,8 @@
 # Cours 1 - Bienvenue! 
+
+Groue Enric : 24 août.
+Groupe Lora : 27 août.
+
 ## Wooclap
 
 
@@ -56,7 +60,7 @@ Discussion sur les comités
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EfuGrArFjcNNo8O5EU8_nlIBscRdiKx7aGiCC1lV7bEGVA?e=ilMnWo){ .md-button }  
 
 ## Consignes pour le portfolio    
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }        
+[🛠️ Consignes portfolio](./portfolio.md){ .md-button }        
 
 
 ## Activité sur l'identité visuelle

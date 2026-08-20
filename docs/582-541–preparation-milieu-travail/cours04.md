@@ -13,5 +13,5 @@
 - [ ] Avancer le portfolio
 
 
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }     
+[🛠️ Consignes portfolio](./portfolio.md){ .md-button }     
 

@@ -1,6 +1,6 @@
 # Cours 5
 
-## 🚨 Remise des Demo reel
+## 🚨 Remise des demo reel
 
 ## 🚨 Remise des cartes d'affaire
 
@@ -14,7 +14,7 @@ Rencontre individuelle pour corriger formativement les cartes d'affaires.
 
 
 ## Temps pour les comités de la journée carrière
-[🛠️ Comités](./stages/journeeCarriere.md){ .md-button }    
+[🛠️ Comités](./journee-carriere.md){ .md-button }    
 
 
 
@@ -27,6 +27,6 @@ Ajouter 5 employeurs potentiels à la liste:
 ## Devoir
 - [ ] Avancer le portfolio.
 
-[🛠️ Consignes portfolio](./stages/portfolio.md){ .md-button }      
+[🛠️ Consignes Portfolio](./portfolio.md){ .md-button }      
 
 

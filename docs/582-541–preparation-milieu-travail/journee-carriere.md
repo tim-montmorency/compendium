@@ -1,7 +1,5 @@
 # Journée carrière
 
-
-
 ## Comités et tâches
 ### Design  (3)
 * Mise en page d'une invitation pour les employeurs

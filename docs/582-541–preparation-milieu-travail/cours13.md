@@ -1,8 +1,7 @@
 # Cours 13 
 
-
 ## ⚠️ Heure des cours modifié
-Tous les groupes sont présents le 9 novembre pendant la journée de rattrapage de 11h45 à 17h.
+Tous les groupes sont présents le **9 novembre** pendant la journée de rattrapage de 11h45 à 17h.
 
 ## À préparer avant la journée carrière
 - [ ] Terminer et remettre le devoir Prérequis pour la journée carrière dans l'équipe Stage TIM - 2026

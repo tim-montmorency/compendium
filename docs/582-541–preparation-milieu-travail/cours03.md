@@ -8,8 +8,6 @@
 [🛠️ Comités](./stages/journeeCarriere.md){ .md-button }    
 
 
-
-
 ## Liste collaborative d'employeurs
 
 Ajouter 5 employeurs potentiels à la liste en suivant les consignes: 
@@ -112,7 +110,6 @@ Ajouter 5 employeurs potentiels à la liste en suivant les consignes:
 
 
 </table>
-
 
 
 ## Temps pour avancer le portfolio, le demo reel ou la carte d'affaires

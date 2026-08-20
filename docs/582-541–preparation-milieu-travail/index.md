@@ -24,3 +24,15 @@ Le cours permet à l’élève de créer un portfolio numérique qui démontre s
 | Unités                | 1⅓      |
 | Heures d’enseignement | 60      |
 | Session               | 5       |
+
+## Évaluations sommatives
+
+[🛠️ Portfolio (planification 15% et contenu 30%)](./portfolio.md){ .md-button }
+
+[🛠️ Journée carrière 10%](./journee-carriere.md){ .md-button }
+
+[🛠️ Demo reel 20%](./demo-reel.md){ .md-button }
+
+[🛠️ Lettre de présentation 10%](./lettre.md){ .md-button }
+
+[🛠️ Curriculum vitae (CV) 15%](./cv.md){ .md-button }
