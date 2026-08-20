@@ -45,7 +45,7 @@ Généralement, les demo reels montrent des captures d'écran animées ou statiq
 - Groupe de Lora : 24 septembre.
 - Groupe d'Enric : 28 septembre.
 
-## ## Exemples de demo reels
+## Exemples de demo reels
 
 [Josh Adam Bell (conception sonore)](https://youtu.be/hIus8Uim4Ww){ .md-button}
 
