@@ -60,9 +60,13 @@ Discussion sur les comités
 
 
 ## Activité sur l'identité visuelle
+* En équipe, chacun doit choisir des cartes avec des mots qui représentent l'esthétique souhaitée pour son portfolio.
+* Ensuite, faire une recherche internet et collecter des images qui représentent cette esthétique.
+* Assembler les images dans un moodboard avec une palette de couleur et des typos pour définir votre identité visuelle. 
 
 ## Devoir
-Recherche de projets pour votre portfolio. Au prochain cours vous devez apporter les images, captures écrans et vidéos.
+* Recherche de projets pour votre portfolio. Au prochain cours vous devez apporter les images, captures écrans et vidéos. 
+* Compléter votre identité visuelle. 
 
 [STOP]
 <p>Design: Mise en page d'une invitation pour les employeurs et de cartes d'affaires</p>
