@@ -1,0 +1,1 @@
+--8<-- "../582-541–preparation-milieu-travail/cours01.md"
