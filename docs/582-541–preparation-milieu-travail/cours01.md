@@ -8,7 +8,11 @@ Groupe Lora : 27 août.
 
 ## Plan de cours
  
-[📋 Consulter le plan de cours de Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCz6WAkD5eyQ7dWShQvGLUXAdOaINIT0Dfu1bv5Dy1S3Us?e=doGy9u){ .md-button }             
+[📋 Consulter le plan de cours de Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCz6WAkD5eyQ7dWShQvGLUXAdOaINIT0Dfu1bv5Dy1S3Us?e=doGy9u){ .md-button }         
+
+
+[🛠️ Choix visite université](https://forms.cloud.microsoft/r/bJxtFbJuGr){ .md-button }    
+
 
 ## Médiagraphie
 [📋 Guide sur la recherche d'emploi](https://la-voie.cssdm.gouv.qc.ca/wp-content/uploads/sites/42/2022/10/CV_guide_recherche_emploi.pdf){ .md-button }             
