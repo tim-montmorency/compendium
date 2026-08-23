@@ -3,13 +3,13 @@
 !!! abstract ":material-check-decagram: Remise du jeu express — 13 %"
     **À déposer la veille du cours.** Environnement navigable, personnage contrôlable, physique, trigger, scènes, habillage, build.
 
-!!! abstract ":material-check-decagram: Remise du GDD — 5 %"
-    À la fin de la séance, après l'atelier et la validation. Le document est ensuite **verrouillé**.
+!!! abstract ":material-check-decagram: GDD — 5 %, à remettre avant le cours 5"
+    Tu l'ébauches en atelier aujourd'hui, tu le finis chez toi. **Remise avant le début du cours 5**, où il sera validé avec toi individuellement puis **verrouillé**.
 
 !!! important "Le chantier de la session s'ouvre aujourd'hui"
     C'est la séance où ton jeu de session démarre. Lis l'énoncé complet maintenant : il contient le socle d'exigences, les 12 étapes séance par séance, et le backlog de départ à importer dans ton tableau GitHub.
 
-    **[Travail final — Le jeu de session (70 %)](./devoirs/projet-final.md)**
+    **[Travail final — Le jeu de session (80 %)](./devoirs/projet-final.md)**
 
 ## Test
 

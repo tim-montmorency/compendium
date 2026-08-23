@@ -7,6 +7,9 @@
 
     Les observations recueillies pendant les tests du jour alimentent directement la rencontre : tu arrives avec des données, pas avec tes impressions.
 
+!!! tip "Après aujourd'hui"
+    **Plus aucune fonctionnalité nouvelle.** Les cours 13 et 14 servent à finir et à polir ce qui existe déjà, pas à ajouter ce qui manque. Si une idée te vient maintenant, note-la dans la colonne `Won't` de ton tableau — c'est là qu'elle est utile.
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |

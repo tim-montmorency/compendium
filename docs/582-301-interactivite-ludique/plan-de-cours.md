@@ -2,7 +2,7 @@
 
 ## Attitudes professionnelles
 
-Deux attitudes sont inscrites au devis départemental pour ce cours, et **les deux sont évaluées** : la **rigueur** (tenue du carnet de bord, réalisation des tâches des jalons, finition) et la **créativité** (cohérence du parti pris, décisions de conception assumées). Elles pèsent ensemble 24 des 70 points du projet final, plus les 10 % du carnet de bord.
+Deux attitudes sont inscrites au devis départemental pour ce cours, et **les deux sont évaluées** : la **rigueur** (réalisation des tâches reçues aux jalons, finition, classement des fichiers et des médias) et la **créativité** (cohérence du parti pris, décisions de conception assumées). Elles pèsent ensemble 24 des 80 points du projet final.
 
 ## Approche pédagogique
 
@@ -31,13 +31,13 @@ Liberté totale sur le thème et l'univers; obligations techniques identiques po
 * Éclairage travaillé et post-traitement
 * Build compilé et **publié en ligne (itch.io, WebGL)** avec README et crédits des médias
 
-**Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD verrouillé après validation (séance 4).
+**Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD remis avant la séance 5, validé individuellement puis verrouillé à la séance 5.
 
 L'énoncé complet, ses 33 exigences et ses 12 étapes sont dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
 
 ### Rituels
 
-* **GitHub dès la séance 4** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes). La tenue du tableau et du devlog est **notée** à la S7 et à la S14 (carnet de bord, 5 % chacun)
+* **GitHub dès la séance 5** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes). La tenue du tableau et du devlog n'est **pas notée en soi** - elle est regardée à chaque jalon, et ce qui manque devient une *issue* `must`, comptée au projet final
 * **Un seul outil de suivi : GitHub Projects**, par-dessus les *issues* du dépôt. Liste de sprint à la S4, backlog complet à la S7, revue à chaque jalon. Pas de Trello en parallèle - deux sources de vérité, c'est un élève qui répond « c'était dans l'autre outil ». Bonus : un commit contenant `closes #12` ferme la carte tout seul, ce qui donne enfin une raison d'écrire de vrais messages de commit.
 * **Fin de chaque séance** : 10 min de « montre ton écran au voisin » - test croisé informel
 * **Structure des séances de la phase 3** : matière en première partie, puis **atelier avec rotation individuelle** de l'enseignant - c'est là que se font les jalons formatifs
@@ -50,10 +50,10 @@ Certains sujets sont ouverts sans être approfondis. C'est délibéré : chacun 
 | Sujet | Ce qu'on fait | Ce qu'on ne fait pas | Séance |
 |-------|---------------|----------------------|--------|
 | **IA / PNJ** | NavMesh, patrouille par waypoints, détection par distance et cône de vision, machine à états simple | Arbres de comportement, systèmes de dialogue à embranchements, combat à états multiples | S10 |
-| **Shader Graph** | Une seule recette montée en direct (dissolution ou eau), copiable telle quelle | Théorie des nœuds, mathématiques de shader, exercice noté | S9 |
+| **Shader Graph** | Une seule recette montée en direct (dissolution ou eau), copiable telle quelle | Théorie des nœuds, mathématiques de shader, exercice noté | S8 |
 | **Sauvegarde** | `PlayerPrefs` : progression, options, meilleur score | Sérialisation JSON, chemins de fichiers, versionnage et corruption des sauvegardes | S11 |
 | **Middleware audio** | Démo de 15 min (FMOD, Wwise) pour le vocabulaire | Installation, intégration, banques - incompatible avec la contrainte WebGL | S7 |
-| **VFX Graph** | Mention de son existence | Enseignement; le Particle System couvre tous les besoins du cours | S8 |
+| **VFX Graph** | Mention de son existence | Enseignement; le Particle System couvre tous les besoins du cours | S9 |
 
 Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à quoi servent les capsules de la S13. Mais aucune évaluation n'en dépend.
 
@@ -73,17 +73,17 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
-| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, GitHub, devlog, liste de sprint | :material-check-decagram: **GDD (5 %)** |
-| 5 | [Interface et premier code](./cours05.md) | Canvas, TextMeshPro, menu, HUD, script fourni, **C# de survie**, prefabs, kit de scripts | |
+| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, devlog, liste de sprint | :material-check-decagram: **GDD (5 %)** — remis avant la S5 |
+| 5 | [Ouvrir le chantier : HUD et premier code](./cours05.md) | Canvas, TextMeshPro, HUD, script fourni, **C# de survie**, prefabs, kit de scripts · **validation individuelle des GDD** | |
 
 ### Phase 3 - Couche par couche (S6–S11)
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
-| 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, Cinemachine, 2.5D, transitions de scènes, cinématique (Timeline) | |
-| 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** + :material-check-decagram: **Carnet de bord 1 (5 %)** |
-| 8 | [Particules, VFX et *game feel*](./cours08.md) | Particle System, projectiles (Instantiate), *juice* | |
-| 9 | [Lumière et level design](./cours09.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
+| 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, Cinemachine, 2.5D, **menu**, transitions de scènes, cinématique (Timeline) | |
+| 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** |
+| 8 | [Lumière et level design](./cours08.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | |
+| 9 | [Particules, VFX et *game feel*](./cours09.md) | Particle System, projectiles (Instantiate), *juice* | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
 | 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, machine à états simple | |
 | 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README/crédits, sauvegarde, performance | |
 
@@ -93,10 +93,14 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 |---|--------|-------------------|-------|
 | 12 | [Tests utilisateurs et plan de production](./cours12.md) | Heuristiques, protocole de playtest, *issues* et priorisation | :material-comment-check: **F3 - Alpha** + rétroaction objectif 2 |
 | 13 | [Production + capsule](./cours13.md) | Atelier encadré; capsule d'enrichissement au choix | |
-| 14 | [Production + gel](./cours14.md) | Atelier encadré, gel des fonctionnalités | :material-comment-check: **F4 - Bêta / RC** publiée + :material-check-decagram: **Carnet de bord 2 (5 %)** |
-| 15 | [Remise et présentations](./cours15.md) | Oraux | :material-check-decagram: **Projet final (70 %)** |
+| 14 | [Production + gel](./cours14.md) | Atelier encadré, gel des fonctionnalités | :material-comment-check: **F4 - Bêta / RC** publiée |
+| 15 | [Remise et présentations](./cours15.md) | Oraux | :material-check-decagram: **Projet final (80 %)** |
 
 :material-check-decagram: évaluation sommative &nbsp;·&nbsp; :material-comment-check: jalon formatif avec rencontre individuelle
+
+!!! note "Les semaines sans jalon ne sont pas des semaines sans travail"
+    Seules les séances portant un jalon exigent un état précis du jeu **ce jour-là**. Entre les deux, l'élève avance selon les étapes de son [énoncé de projet](./devoirs/projet-final.md) - et chaque séance s'ouvre sur un repère « où tu devrais être rendu », qui indique la direction sans créer d'échéance.
+
 
 ---
 
@@ -141,26 +145,32 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Condition de victoire**, et pourquoi un jeu sans fin n'est pas un jeu
 * **Scope** : les 5 pièges (jeu trop grand, mécanique floue, trop d'assets, narration sans support, pas de fin)
 * **Techniques narratives** : narration environnementale, *show don't tell*, narration par le level design, notes/objets, cinématique minimale
-* **Atelier GDD en classe**, puis validation et **verrouillage** du document
-* **GitHub** : dépôt, `.gitignore` Unity, premier commit, `README.md` comme **devlog** (format imposé : capture + 3 lignes + ce qui bloque), création du tableau **GitHub Projects**
-* **Liste de sprint** (20 min, à ne pas confondre avec un backlog) :
+* **Atelier GDD en classe** - le document est **remis avant la séance 5**, puis validé individuellement et **verrouillé** à la S5
+* **Devlog** : le format imposé du `README.md` (capture + 3 lignes + ce qui bloque). L'outil se monte à la S5, avec le projet
+* **Liste de sprint** (20 min, à ne pas confondre avec un backlog) - **sur papier**, elle sera saisie dans le tableau à la S5 :
     * **8 cartes maximum**, un seul objectif - se rendre au prototype jouable de la S7
     * **La colonne `Won't`** : trois choses écrites noir sur blanc qu'on ne fera **pas** dans cette version. Couper le multijoueur ou les cinq niveaux ne demande pas d'avoir codé quoi que ce soit - ça demande de regarder son GDD en face. C'est de la conception, donc ça se fait maintenant.
     * Le vrai backlog attend la S7, une fois le prototype construit
-* **Démarrage du greybox** du jeu de session
+* **Croquis du niveau** : les 3 zones et les 3 portes, à main levée, en fin de séance
 
-!!! warning "La séance où on n'ouvre presque pas Unity"
-    Quatre heures de conception pour un groupe de 3e session, c'est le risque de cette séance. Deux garde-fous : la mise en place de GitHub est concrète et manuelle, et la séance **se termine par le greybox** — les élèves repartent avec l'éditeur ouvert, pas seulement avec un document.
+!!! warning "La séance où on n'ouvre pas Unity"
+    Une séance entière de conception pour un groupe de 3e session, c'est le risque de cette séance - et il a augmenté depuis que la mise en place du projet est partie à la S5. Le garde-fou qui reste est **le papier** : atelier GDD, liste de sprint, croquis des zones et des portes. Rien de magistral après la première heure; l'élève écrit, dessine et découpe pendant tout le reste.
+
+    Si le groupe décroche quand même, la soupape est de **remonter la création du dépôt GitHub** ici : c'est concret, manuel, et ça ne dépend pas du projet Unity.
 
 !!! note "Pourquoi planifier ici plutôt qu'après le menu"
     La mémoire du jeu express est encore chaude. Un élève qui vient de finir un jeu estime mieux qu'un élève qui vient de faire un menu. Le GDD est aussi verrouillé une semaine plus tôt, ce qui laisse trois séances avant le prototype F1 au lieu de deux.
 
-### S5 - Interface et premier code
+!!! note "Pourquoi la remise est avant la S5, et pas en fin de séance"
+    Un GDD bâclé dans les vingt dernières minutes du cours n'est pas un GDD, c'est un formulaire rempli. En le faisant remettre avant la séance suivante, l'élève l'écrit au calme - et surtout, **je peux le lire avant de le valider**. La validation individuelle demande dix minutes par élève : elle se fait à la S5, pendant que la classe travaille.
+
+### S5 - Ouvrir le chantier : HUD et premier code
+
+**Le GDD est remis avant la séance.** La séance est bâtie autour de la **validation individuelle** : matière courte en première partie, puis rotation pendant que la classe monte son projet.
 
 * **Canvas** : modes de rendu, ancrages, résolution de référence, `CanvasScaler`
 * **TextMeshPro** : import des essentiels, polices custom, matériaux de texte
 * **HUD** : les 3 règles, les ancres, tenir à toutes les résolutions
-* **Menu** titre → jeu → fin : boutons, navigation, `Time.timeScale` pour la pause
 * **Le feedback** : la moitié de l'agentivité
 * **Premier script** : un `MonoBehaviour` fourni, branché sur `Button.onClick`
     * Le code est **donné**, commenté ligne par ligne; l'élève ne l'écrit pas, il le lit et le branche
@@ -170,10 +180,21 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Prefabs custom** : créer, instancier, variantes, override, prefab imbriqué
 * **Kit de scripts prêts à brancher** remis à cette séance : compteur, minuterie, santé/dégâts, collectible, *spawner*, changement de scène différé, *screen shake*, suivi d'objet. Chaque script est commenté, exposé dans l'Inspector, et appelable depuis un CES. Vu que le C# reste volontairement minimal, ce kit détermine directement le plafond de ce que les élèves peuvent fabriquer - il s'enrichit d'une séance à l'autre.
 
+**Atelier - pendant la validation individuelle des GDD :**
+
+* Créer le **projet Unity** du jeu de session, appliquer la structure de dossiers de la S2
+* **Synchroniser avec GitHub** : dépôt, `.gitignore` Unity, premier commit, tableau **GitHub Projects** alimenté
+* **Greybox de la zone 1**, et **HUD** monté en parallèle
+
 !!! note "Démystifier, puis enseigner"
     Le script fourni vient **avant** le C# de survie, dans la même séance. C'est l'ordre qui compte : on prouve d'abord que le code n'est qu'un composant de plus, ensuite on l'ouvre.
 
     Les *materials* sont partis en S9 avec la passe visuelle - cette séance est déjà bien assez chargée.
+
+!!! note "Pourquoi le menu n'est plus ici"
+    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. Le menu part en **S6**, où il retrouve les transitions de scènes : un menu titre → jeu → fin, c'est un `SceneManager` avec des boutons. Le sujet arrive entier au lieu d'être coupé en deux.
+
+    Le **HUD**, lui, reste ici : il se monte en même temps que le greybox, et il n'a besoin d'aucune transition de scène pour exister.
 
 ### S6 - Animation, caméra et états
 
@@ -198,8 +219,9 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * Verrouillage d'un axe de déplacement; *parallax* obtenu gratuitement en 3D
     * Pourquoi presque tout ce qu'on appelle « 2D » dans l'industrie moderne est en fait du 2.5D
 
-**Bloc 3 - Mise en scène**
+**Bloc 3 - Menu, transitions et mise en scène**
 
+* **Menu** titre → jeu → fin : boutons, navigation, `Time.timeScale` pour la pause *(déplacé de la S5)*
 * **Transitions de scènes** propres : `SceneManager`, écran de chargement, fondu
 * **Cinématique** : Timeline + Cinemachine, verrouillage des contrôles pendant la cutscene, *Signal Emitter*
 * Déclenchement du tout par CES
@@ -236,8 +258,6 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
     La rencontre se fait **le tableau ouvert** : au lieu de demander « où en es-tu? », on valide les priorités à chaud et les tâches de l'enseignant s'ajoutent au même endroit, dans le même format que celles de l'élève.
 
-    C'est aussi le moment où se corrige le **carnet de bord 1 (5 %)** : quatre observables binaires, trois minutes, écran ouvert.
-
 !!! tip "Pourquoi le backlog ici et pas à la S4"
     Un backlog écrit avant le prototype est une liste de features **imaginées**; écrit après, c'est une liste de features **rencontrées**. À la S7, l'élève sait ce qu'une heure de son propre travail produit - et il connaît ses problèmes : sa caméra donne la nausée, sa porte ne s'ouvre pas. C'est la pratique réelle des studios : le backlog de production s'écrit à la fin de la pré-production, une fois que le prototype a désamorcé les risques du design.
 
@@ -249,15 +269,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 !!! tip "Ajout recommandé"
     Un **exercice de sonorisation à l'aveugle** : on joue le jeu d'un camarade sans le son et on liste les 5 moments qui en réclament un. Rapide, et ça règle le problème du « j'ai mis une musique et c'est tout ».
 
-### S8 - Particules, VFX et *game feel*
-
-* **Particle System** : modules essentiels (emission, shape, over lifetime, collision), materials de particules
-* Recettes : poussière de pas, étincelles, fumée, ramassage d'objet, portail
-* **Projectiles** : `Instantiate` (reprise de S5), `Destroy`, `Rigidbody.AddForce`, détection d'impact, *object pooling* (mention)
-* **Trails**, *decals*, mention de VFX Graph (sans l'enseigner)
-* **Game feel / juice** : *screen shake*, *hit stop*, mise à l'échelle au ramassage, courbes d'animation, cumul son + particule + UI sur un même événement
-
-### S9 - Lumière et level design
+### S8 - Lumière et level design
 
 * **Lumières** : directionnelle, point, spot; temps réel vs *baked*; *Light Probes*
 * **Lightmapping** : paramètres, objets statiques, temps de calcul
@@ -265,13 +277,24 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Post-traitement URP** : `Volume`, bloom, vignette, *color adjustments*, *depth of field*, *tonemapping*
 * **Level design** : du greybox au décor final, métriques (largeur de couloir, hauteur de saut), lisibilité, guidage du joueur (lumière, couleur, ligne de fuite, contraste), rythme du niveau
 * **Shader Graph** : **une seule** recette montée en direct (dissolution ou eau)
+
+!!! note "Pourquoi la lumière avant les particules"
+    Inversé par rapport à l'ordre initial, et c'est délibéré : la **tranche verticale du jalon F2 doit être éclairée**. Enseigner l'éclairage la semaine même du jalon demandait à l'élève d'arriver avec quelque chose qu'il n'avait pas encore appris à faire. Il a maintenant une séance complète pour habiller et éclairer sa zone 1 avant qu'on la regarde.
+
+!!! note "Contenir l'ambition - Shader Graph"
+    **Une** recette, montée en direct, du début à la fin. Pas de théorie des nœuds, pas de mathématiques de shader, pas d'exercice noté. L'objectif est que l'élève sache que l'outil existe et qu'il puisse copier la recette dans son jeu. Shader Graph est un cours à lui seul; s'y engager ici, c'est perdre la passe d'éclairage et de level design, qui rapporte dix fois plus visuellement.
+
+### S9 - Particules, VFX et *game feel*
+
+* **Particle System** : modules essentiels (emission, shape, over lifetime, collision), materials de particules
+* Recettes : poussière de pas, étincelles, fumée, ramassage d'objet, portail
+* **Projectiles** : `Instantiate` (reprise de S5), `Destroy`, `Rigidbody.AddForce`, détection d'impact, *object pooling* (mention)
+* **Trails**, *decals*, mention de VFX Graph (sans l'enseigner)
+* **Game feel / juice** : *screen shake*, *hit stop*, mise à l'échelle au ramassage, courbes d'animation, cumul son + particule + UI sur un même événement
 * **Devoir** : premier build WebGL déposé sur une page itch.io privée (fonctionnel avant tout, pas beau) - les surprises de build WebGL ne doivent pas être découvertes la semaine de la remise finale
 
 !!! abstract "Jalon formatif F2 - Tranche verticale"
     Rotation individuelle en deuxième partie. Attendu : **un segment court mais fini** - habillé, animé, sonorisé, éclairé. Pas le jeu au complet : l'échantillon qui prouve le niveau de qualité visé. C'est aussi la **rétroaction sur l'objectif 1**, tous les savoirs de médias visuels et sonores étant maintenant enseignés.
-
-!!! note "Contenir l'ambition - Shader Graph"
-    **Une** recette, montée en direct, du début à la fin. Pas de théorie des nœuds, pas de mathématiques de shader, pas d'exercice noté. L'objectif est que l'élève sache que l'outil existe et qu'il puisse copier la recette dans son jeu. Shader Graph est un cours à lui seul; s'y engager ici, c'est perdre la passe d'éclairage et de level design, qui rapporte dix fois plus visuellement.
 
 ### S10 - PNJ et intelligence artificielle
 
@@ -338,11 +361,9 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 !!! abstract "Jalon formatif F4 - Bêta / *release candidate*"
     Dernière rotation individuelle. Attendu : **contenu complet**, fonctionnalités gelées, build de validation en ligne. On passe ensemble les *issues* `must` encore ouvertes : ce qui reste à la fin de cette rencontre est exactement ce qui sera vérifié à la S15. Aucune surprise possible à la remise.
 
-    C'est aussi le moment où se corrige le **carnet de bord 2 (5 %)**.
-
 ### S15 - Remise et présentations
 
-* Remise du **projet final (70 %)** - version *gold*
+* Remise du **projet final (80 %)** - version *gold*
 * Oraux : 5 min par élève
     * concept et boucle de jeu
     * **les tâches reçues aux jalons et ce qui en a été fait** - l'élève ouvre son dépôt et montre les *issues* fermées
@@ -354,57 +375,47 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 ## Évaluation
 
-Six notes, dont quatre légères, et **quatre jalons de rétroaction individuelle**. L'état du jeu n'est noté qu'une seule fois, à la toute fin.
+Quatre notes seulement, et **quatre jalons de rétroaction individuelle** entre les deux dernières. L'état du jeu n'est noté qu'une seule fois, à la toute fin.
 
 | Évaluation | Séance | Pondération |
 |------------|--------|-------------|
 | **Devoir 01** - tutoriel *Get Started With Unity*, capture du build publié | vérifié au début de la S2 | 2 % |
 | **Jeu express** - acquis Unity (environnement, personnage, physique, trigger, scènes, habillage, build) | déposé la veille de la S4 | 13 % |
-| **GDD** - concept, boucle, scope, niveau, médias prévus, ambiance | S4 | 5 % |
-| **Carnet de bord 1** - suivi de production et classement | S7, pendant F1 | 5 % |
-| **Carnet de bord 2** - tenue du suivi et du classement | S14, pendant F4 | 5 % |
-| **Projet final** - jeu complet publié, README et crédits, oral | S15 | 70 % |
+| **GDD** - concept, boucle, scope, niveau, médias prévus, ambiance | remis avant la S5, validé à la S5 | 5 % |
+| **Projet final** - jeu complet publié, README et crédits, oral | S15 | 80 % |
 
-Les quatre premières notes arrivent tôt et sont légères : **25 % de la note finale est acquise avant la S15**. Elles mesurent quatre choses distinctes - un pipeline technique parcouru au complet (devoir 01), les gestes Unity de l'objectif 1 en situation (jeu express), un scope verrouillé par écrit (GDD), et la tenue du suivi de production (carnet de bord).
+Les trois premières arrivent tôt et sont légères : **20 % de la note est acquise avant la S15**. Elles mesurent trois choses distinctes - un pipeline technique parcouru au complet (devoir 01), les gestes Unity de l'objectif 1 en situation (jeu express), et un scope verrouillé par écrit (GDD).
 
-**L'état du jeu, lui, n'est jamais noté avant la remise finale.** Les quatre jalons produisent un avis écrit et une liste de tâches nominative, pas une note : un élève ne peut donc pas perdre de points sur une chose qu'on ne lui a pas encore enseignée ou signalée. Ce qui est noté en cours de route, c'est la **régularité** - que le backlog vive et que le devlog se remplisse semaine après semaine. C'est le seul élément du dispositif qui ne se rattrape pas la veille de la remise.
+**Tout le reste de la session est formatif.** Les quatre jalons produisent un avis écrit et une liste de tâches nominative, pas une note : un élève ne peut pas perdre de points sur une chose qu'on ne lui a pas encore enseignée ou signalée. Ce qui a été demandé aux jalons revient au projet final, par le critère *réalisation des tâches* - la rétroaction a donc un poids réel, mais différé et connu d'avance.
 
-### Le carnet de bord - suivi de production et classement
+!!! note "Pourquoi le suivi de production n'est pas noté"
+    Le tableau, le backlog et le devlog sont des **rituels**, pas des objets d'évaluation : l'objectif de ce cours est de **faire** un jeu, pas de gérer un projet. Aucun savoir essentiel du devis ne porte sur la gestion de projet, et une note qui ne s'appuie sur aucun savoir est difficile à défendre.
 
-Même logique qu'un cahier de laboratoire : on note **la tenue du travail**, jamais l'état du jeu. Des observables factuels, vérifiables **écran ouvert en trois minutes** pendant la rotation individuelle qui a déjà lieu à chaque jalon - donc aucune correction hors classe.
+    Le levier existe quand même : un suivi négligé se voit à chaque jalon, devient une *issue* `must`, et se paie au critère **rigueur** du projet final.
 
-Chaque grille porte sur deux choses : le **savoir essentiel** *classement des fichiers et des médias* (objectif 1), observé cette fois sur le projet de session, et l'attitude professionnelle **rigueur**.
+### Le suivi de production (formatif)
 
-**Carnet de bord 1 - mise en place · S7, pendant F1 · 5 %**
+À chaque jalon, la rotation individuelle se fait **tableau ouvert**. Ce n'est pas noté : c'est la liste de ce que je regarde, et tout ce qui manque repart en *issue* `must` - donc au critère **rigueur** du projet final.
 
-| Observable | Pts |
-|------------|-----|
-| Le tableau **GitHub Projects** existe et est alimenté depuis la S4 | 1 |
-| Backlog **priorisé MoSCoW** (colonne `Won't` remplie), cartes **découpées** : aucune ne dépasse une séance de labo | 1 |
-| **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque) | 1 |
-| **Arborescence du projet Unity** conforme à la convention de la S2; les imports restent à la racine d'`Assets` | 1 |
-| **Crédits des médias amorcés** au README : chaque média externe déjà utilisé y est cité avec sa source et sa licence | 1 |
+**À la S7 (F1) - la mise en place**
 
-**Carnet de bord 2 - tenue · S14, pendant F4 · 5 %**
+- [ ] Le tableau **GitHub Projects** existe et est alimenté depuis la S4
+- [ ] Backlog **priorisé MoSCoW**, colonne `Won't` réellement remplie
+- [ ] Cartes **découpées** : aucune ne dépasse une séance de labo (« faire le niveau » n'est pas une carte)
+- [ ] **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque)
+- [ ] **Arborescence** conforme à la convention de la S2; imports laissés à la racine d'`Assets`
+- [ ] **Crédits amorcés** au README : chaque média externe déjà utilisé y est cité avec sa source et sa licence
 
-| Observable | Pts |
-|------------|-----|
-| **Devlog tenu** : une entrée par séance depuis la S7 (deux manquantes tolérées) | 1 |
-| **Issues des jalons F1 à F3 traitées** : fermées, ou reportées explicitement et assumées | 1 |
-| **Backlog vivant** et **commits liés aux issues** (`closes #12`), messages lisibles | 1 |
-| **Arborescence tenue** : le projet n'a pas dérivé - pas de fichiers orphelins à la racine, nommage cohérent | 1 |
-| **Crédits des médias complets** et à jour au README | 1 |
+**À la S14 (F4) - la tenue**
 
-!!! tip "Pourquoi ça fonctionne comme levier"
-    Un élève qui ne touche pas à son jeu pendant trois semaines ne peut pas fabriquer un devlog crédible la veille : les dates de commit et l'historique du tableau sont horodatés. C'est la seule pièce du dispositif qu'on **ne peut pas rattraper à la dernière minute** - et c'est exactement ce qu'on cherche.
+- [ ] **Devlog tenu** : une entrée par séance depuis la S7
+- [ ] **Issues des jalons F1 à F3** fermées, ou reportées explicitement et assumées
+- [ ] **Backlog vivant** et **commits liés aux issues** (`closes #12`)
+- [ ] **Arborescence tenue** : le projet n'a pas dérivé - pas de fichiers orphelins à la racine, nommage cohérent
+- [ ] **Crédits complets** et à jour au README
 
-!!! note "Pourquoi les crédits sont ici et pas seulement à la S15"
-    Les crédits des médias sont un savoir essentiel, et c'est aussi la tâche que **tout le monde reporte**. Les exiger deux fois en cours de route, sur ce qui est déjà utilisé, coûte cinq minutes à l'élève et lui évite de reconstituer trente sources de mémoire la veille de la remise. Le même geste sert le savoir et la rigueur.
-
-!!! abstract "Ce qui est évalué"
-    **Savoir essentiel** - *Classement des fichiers et des médias* (objectif 1), observé sur le projet de session.
-
-    **Attitude professionnelle** - *Rigueur* : tenue du suivi de production, traçabilité du travail, réponse à la rétroaction.
+!!! tip "Les crédits, deux fois en cours de route"
+    C'est la tâche que **tout le monde reporte**. Les inscrire au fur et à mesure coûte cinq minutes à chaque jalon; les reconstituer de mémoire la veille de la remise en coûte deux heures, et il en manquera. Les demander tôt n'est pas une formalité : c'est le savoir essentiel *classement des fichiers et des médias*, qui se joue au critère **finition** du projet final.
 
 ### Jalons formatifs et rencontres individuelles
 
@@ -438,20 +449,20 @@ L'objectif n'est pas que tout le monde livre le même jeu, mais que **tout le mo
 
 L'élève peut **négocier** une tâche au moment de la rencontre; ce qui est retenu est consigné. Rien d'oral : en cas de désaccord à la fin de la session, seule la trace écrite compte.
 
-### Grille du projet final (70 %)
+### Grille du projet final (80 %)
 
 Détail complet des exigences dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
 
 | Critère | Ce qu'on regarde | Pondération |
 |---------|------------------|-------------|
-| **Objectif 1 - intégration des médias** | Visuel, animation, son, lumière, caméra *(sections D et E du socle)* | 18 % |
-| **Objectif 2 - actions et progression** | Structure, portes, interactions, rétroaction *(sections A, B, C)* | 18 % |
+| **Objectif 1 - intégration des médias** | Visuel, animation, son, lumière, caméra *(sections D et E du socle)* | 22 % |
+| **Objectif 2 - actions et progression** | Structure, portes, interactions, rétroaction *(sections A, B, C)* | 22 % |
 | **Créativité et cohérence du parti pris** | Intention nommée et tenue, zones réellement distinctes, détournement d'un outil, décisions justifiées à l'oral *(section H)* | 12 % |
 | **Rigueur - réalisation des tâches des jalons** | *Issues* `must` fermées, démontrées à l'oral | 12 % |
-| **Finition et publication** | Build WebGL, itch.io, README, crédits, carte de preuves, aucun défaut visible *(section G)* | 5 % |
+| **Finition et publication** | Build WebGL, itch.io, README, **crédits des médias**, arborescence, carte de preuves, aucun défaut visible *(section G)* | 7 % |
 | **Oral et démonstration** | Concept, tâches reçues et ce qui en a été fait, une difficulté technique et sa résolution, ce qui serait fait autrement | 5 % |
 
-**Les savoirs essentiels se notent en présent / absent** - l'exigence fonctionne ou elle ne fonctionne pas, il n'y a rien à discuter. **Créativité et rigueur se notent en qualité**, et pèsent ensemble 24 % des 70 : ce sont les deux attitudes professionnelles inscrites au devis départemental, et c'est là que se joue la différence entre deux jeux qui cochent les mêmes cases. Un jeu bâclé peut obtenir tous ses points de savoirs et perdre les deux attitudes.
+**Les savoirs essentiels se notent en présent / absent** - l'exigence fonctionne ou elle ne fonctionne pas, il n'y a rien à discuter. **Créativité et rigueur se notent en qualité**, et pèsent ensemble 24 des 80 points : ce sont les deux attitudes professionnelles inscrites au devis départemental, et c'est là que se joue la différence entre deux jeux qui cochent les mêmes cases. Un jeu bâclé peut obtenir tous ses points de savoirs et perdre les deux attitudes.
 
 **Aucun point d'ampleur nulle part.** Une quatrième zone ou une deuxième mécanique ne rapporte rien. Le chemin le plus court vers une bonne note est de livrer exactement le socle, avec une intention claire, très bien fait.
 
@@ -459,7 +470,7 @@ Détail complet des exigences dans [Travail final — Le jeu de session](./devoi
     À la remise, le README contient une table indiquant, pour chaque exigence du socle, **où elle se trouve et comment y accéder en jouant**. La règle : **ce qui n'est pas déclaré n'est pas corrigé**. L'enseignant ne cherche pas les fonctionnalités dans le jeu, il va où l'élève lui dit d'aller - en retour, une exigence déclarée est garantie d'être regardée.
 
 !!! warning "Filet de sécurité"
-    Avec 70 % sur une seule remise, un projet abandonné en fin de session reste lourd de conséquences - même si 25 % de la note est déjà acquise avant la S15. Deux garde-fous supplémentaires : le build **alpha de la S12 est publié en ligne** et sert d'artéfact de repli si rien n'est remis à la S15; et les quatre jalons rendent tout décrochage visible dès la S7, avec sept semaines pour réagir.
+    Avec 80 % sur une seule remise, un projet abandonné en fin de session est irrécupérable. Deux garde-fous : le build **alpha de la S12 est publié en ligne** et sert d'artéfact de repli si rien n'est remis à la S15; et les quatre jalons rendent tout décrochage visible dès la S7, avec sept semaines pour réagir.
 
 ---
 
@@ -472,8 +483,8 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Savoir | Séances |
 |--------|---------|
 | Logiciels et installation | S1 |
-| Classement des fichiers et des médias | S2, S4 (dépôt), S11 (crédits) — évalué au jeu express, **aux deux carnets de bord** et au projet final |
-| Environnement navigable | S2, S3, S9 |
+| Classement des fichiers et des médias | S2, S5 (dépôt), S11 (crédits) - évalué au jeu express et au projet final (critère *finition*), vérifié sans note à chaque jalon |
+| Environnement navigable | S2, S3, S8 |
 | Intégration d'images et de médias visuels | S2, S8, S9 |
 | Sons et échantillons | S3 (survol), S7 (profondeur) |
 | Animation | S6 (rigging + Animator) |
@@ -487,12 +498,12 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Notions d'interaction, affordance, agentivité | S1, S4 |
 | Collisions et déclenchement d'événements | S2, S3 |
 | Transitions de scènes | S2, S6 |
-| Interface virtuelle et menu | S5 |
+| Interface virtuelle et menu | S5 (HUD), S6 (menu) |
 | Environnement de programmation | S5 (script fourni, puis C#) |
 | Déplacement d'un personnage | S3 (sans code), S5 |
 | Interactions virtuelles, système clé/porte | S3, S5 |
 | Progression selon la réussite ou l'échec | S3 (CES + variables), S6, S10 |
-| HUD, indication des réussites et échecs | S5, S8 |
+| HUD, indication des réussites et échecs | S5, S9 |
 | Échantillons sonores déclenchés | S7 |
 | États du personnage détectés et animés | S6 |
 

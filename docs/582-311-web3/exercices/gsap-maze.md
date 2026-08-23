@@ -10,6 +10,10 @@ Vous disposez de 13 heures pour aider Sarah à sortir du labyrinthe!
 
 [Lien](https://codepen.io/tim-momo/live/MWNGNeE/dda629f5a49d4abaf0832a1990d2e622)
 
+!!! warning "N'oubliez pas le fork"
+
+    Connectez-vous à CodePen, faites un **Fork**, puis **Save**. Copiez ensuite le lien `.../live/...` dans le `README.md` de votre dépôt `web3-exercices` — c'est lui qui sert de preuve à la remise.
+
 ## Instructions
 
 - [ ] Veuillez effectuer un fork du [codepen de départ](https://codepen.io/tim-momo/pen/PoMeMGP)

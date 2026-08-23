@@ -1,5 +1,12 @@
 # Cours 10
 
+!!! tip "Où tu devrais être rendu"
+    Ta zone 1 est finie, et ton premier build WebGL est en ligne sur une page privée.
+
+    **Cette semaine :** ton PNJ.
+
+    ⏭️ **Le jalon 3 est dans deux séances**, et c'est un dépôt : toutes les mécaniques branchées, les trois zones parcourables **et habillées**, build WebGL en ligne. L'habillage des zones 2 et 3 ne se fait pas en une soirée — commence-le cette semaine, en parallèle du PNJ.
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |

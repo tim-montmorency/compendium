@@ -5,79 +5,78 @@
 
     C'est aussi la **rétroaction sur l'objectif 1** : tous les savoirs de médias visuels et sonores sont maintenant enseignés.
 
+!!! tip "D'ici le jalon 3"
+    Trois séances, et c'est le jalon le plus déterminant de la session. **Cours 10 :** ton PNJ. **Cours 11 :** la mise en ligne pour de vrai. **En parallèle, dès maintenant :** l'habillage et l'éclairage des zones 2 et 3 — tu sais désormais ce que ça coûte, applique-le.
+
+    Le jalon 3 est un **dépôt** : ton build WebGL doit être en ligne **en début de séance**, pas pendant.
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h50 | Les lumières et le baking |
-| 0h50 – 1h20 | Post-traitement URP |
+| 0h00 – 0h50 | Le Particle System |
+| 0h50 – 1h20 | Recettes de particules |
 | 1h20 – 1h35 | Pause |
-| 1h35 – 2h30 | Level design : rythme, guidage, lisibilité |
-| 2h30 – 2h50 | Une recette Shader Graph |
-| 2h50 – 3h35 | Atelier + rotation F2 | -->
+| 1h35 – 2h20 | Projectiles : Instantiate, AddForce, impact |
+| 2h20 – 3h00 | Game feel : la boîte à outils |
+| 3h00 – 3h35 | Atelier + rotation F2 | -->
 
-## La tranche verticale
+## Le Particle System
 
-### Le concept industriel du jour
+https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
 
-## Les materials
+### Les modules essentiels
 
-### Albedo, métallique, lissage, émission
+### Le Particle System en 5 réglages
 
-### Les variantes de materials Synty
+### Les materials de particules
 
-### Un material par usage, pas un par objet
+### Recettes
 
-## L'éclairage
+#### Poussière de pas
 
-https://www.youtube.com/watch?v=5rxMdiCkQGk
+#### Étincelles
 
-### Les types de lumières
+#### Fumée
 
-### Temps réel vs *baked*
+#### Ramassage d'objet
 
-### Le lightmapping : objets statiques et temps de calcul
+#### Portail
 
-### Les *Light Probes*
+### Trails et decals
 
-### Skybox, brouillard, lumière ambiante
+### VFX Graph : ce que c'est, et pourquoi on ne l'ouvre pas
 
-### L'émission
+## Les projectiles
 
-## Le post-traitement URP
+### `Instantiate` : le retour
 
-### Le `Volume`
+### `Destroy` et la durée de vie
 
-### Bloom, vignette, *color adjustments*
+### `Rigidbody.AddForce`
 
-### *Depth of field* et *tonemapping*
+### Détecter l'impact
 
-## Le level design
+### L'*object pooling*, en une phrase
 
-### L'espace qui raconte la boucle
+## Le *game feel*
 
-### Du greybox au décor : le dressing
+### Pourquoi ça marche
 
-### Le greyboxing : valider l'espace avant de le décorer
+### La boîte à outils
 
-### Les métriques : largeur de couloir, hauteur de saut
+#### Le *screen shake*
 
-### Le rythme : tension et repos
+#### Le *hit stop*
 
-### Donner une forme au parcours : le cercle de Dan Harmon
+#### La mise à l'échelle au ramassage
 
-### Les lumières : l'outil de guidage n° 1
+#### Les courbes d'animation
 
-### Guider sans flèches
+### La règle du cumul
 
-### La lisibilité : si tout brille, rien ne brille
-
-### Placer l'objectif : visible tôt, atteignable tard
-
-## Shader Graph
-
-!!! note "Une seule recette"
-    On monte **une** recette en direct, du début à la fin — dissolution ou eau — et tu la copies dans ton jeu. Pas de théorie des nœuds, pas de mathématiques de shader. Shader Graph est un cours à lui seul; s'y engager ici coûterait la passe d'éclairage, qui rapporte dix fois plus.
+!!! tip "Un événement, trois canaux"
+    Ramasser une pièce, ce n'est pas un son. C'est un son **plus** une particule **plus** un chiffre qui bouge dans le HUD **plus** un petit *pop* d'échelle. Séparément, chacun est anodin. Ensemble, c'est ce qui fait qu'on veut le refaire.
 
 ## Pratique
 
@@ -95,24 +94,16 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk
 NOTES DE RÉDACTION — à supprimer une fois la séance écrite
 ================================================================
 À rapatrier depuis .archive/ (voir .archive/MIGRATION.md) :
-  - .archive/cours12.md  § Le level design : l'espace qui raconte la boucle
-                         § Le rythme : tension et repos
-                         § Le cercle de Dan Harmon
-                         § Les lumières : l'outil de guidage n° 1
-                         § Guider sans flèches
-                         § La lisibilité : si tout brille, rien ne brille
-                         § Placer l'objectif : visible tôt, atteignable tard
-                         § La forme de ton niveau
-  - .archive/cours13.md  § Le post-processing : le filtre Instagram de ton jeu
-  - .archive/cours11.md  § La tranche verticale : le concept industriel du jour
-  - .archive/cours03.md  § Les materials
-                         § Bonus : changer un material en jeu
-  - .archive/cours05.md  § Les materials : la couleur de ton monde
-  - .archive/exercices/cours12-level-design.md
-  - .archive/exercices/cours11-tranche-verticale.md
+  - .archive/cours13.md  § Capsule 2 - Game feel
+                         § Pourquoi ça marche
+                         § La boîte à outils
+                         § Le Particle System en 5 réglages
+  - .archive/exercices/cours13-publication-et-game-feel.md (partie game feel)
 
-À écrire à neuf : types de lumières, baking et lightmaps, Light Probes,
-skybox et brouillard, la recette Shader Graph, et la grille d'avis
-écrit du jalon F2 (rétroaction objectif 1).
+À écrire à neuf : les recettes de particules, tout le bloc projectiles
+(Instantiate, AddForce, impact, pooling), trails et decals.
+
+Rappel : Instantiate a été introduit au cours 5 (générer des GameObjects).
+C'est ici qu'il trouve son usage.
 ================================================================
 -->

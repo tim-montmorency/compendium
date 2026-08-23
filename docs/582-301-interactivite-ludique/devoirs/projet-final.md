@@ -4,7 +4,7 @@
 *[CES]: Collider Event System
 *[PNJ]: Personnage non joueur
 
-**70 % de la note finale · remis à la séance 15**
+**80 % de la note finale · remis à la séance 15**
 
 ---
 
@@ -19,7 +19,7 @@ Le thème, le genre et l'univers sont **entièrement libres**. La structure, ell
 
     **Les savoirs essentiels** se notent en *présent / absent*. Chaque exigence du socle est là et fonctionne, ou elle ne l'est pas.
 
-    **La rigueur** et **la créativité** — les deux attitudes professionnelles inscrites au devis de ce cours — se notent en qualité, et elles pèsent **34 % de la note du projet**.
+    **La rigueur** et **la créativité** — les deux attitudes professionnelles inscrites au devis de ce cours — se notent en qualité, et elles pèsent **24 des 80 points du projet**.
 
     **L'ampleur ne se note pas.** Ajouter une quatrième zone, une deuxième mécanique ou dix minutes de jeu ne rapporte aucun point. La créativité se mesure à des **décisions**, jamais à du volume : un jeu de six minutes peut être plus créatif qu'un jeu de vingt, et c'est régulièrement le cas.
 
@@ -114,14 +114,14 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 
 | # | Exigence | Savoir essentiel | Enseigné | Vérifié |
 |---|----------|------------------|----------|---------|
-| A1 | **Trois zones** entièrement navigables : on ne traverse pas le décor, on ne tombe pas hors du monde | Création d'un environnement virtuel navigable | S2, S3, S9 | F1 · F3 |
-| A2 | Les trois zones passent les **tests de la carte postale, du chronomètre et de la raison d'exister** | Création d'un environnement navigable | S9 | F3 |
+| A1 | **Trois zones** entièrement navigables : on ne traverse pas le décor, on ne tombe pas hors du monde | Création d'un environnement virtuel navigable | S2, S3, S8 | F1 · F3 |
+| A2 | Les trois zones passent les **tests de la carte postale, du chronomètre et de la raison d'exister** | Création d'un environnement navigable | S8 | F3 |
 | A3 | **Trois portes**, utilisant **trois types de *gating* différents** | Progression selon la réussite d'une action | S3, S5 | F1 |
 | A4 | Au moins une porte est un vrai **système clé/serrure** | Programmation d'un système de clé et de porte | S3, S5 | F1 |
 | A5 | **Chaque porte passe le test des trois questions** | Progression · Affordance | S1, S4 | F1 · F3 |
 | A6 | Un **début**, une **fin** atteignable, et la possibilité de **recommencer** sans relancer le jeu | Progression · Transitions de scènes | S2, S6 | F4 |
 | A7 | Une **condition de défaite** explicite, ou une justification écrite au GDD si ton jeu n'en a pas | Progression selon la réussite ou l'échec | S4 | F1 |
-| A8 | **Menu** titre → jeu → fin, plus un menu **pause** fonctionnel | Fonctionnement d'une interface virtuelle | S5 | F2 |
+| A8 | **Menu** titre → jeu → fin, plus un menu **pause** fonctionnel | Fonctionnement d'une interface virtuelle | S6 | F2 |
 | A9 | Au moins **trois transitions de scènes** propres | Transitions de scènes | S2, S6 | F2 |
 
 ### B · Personnage et interactions
@@ -139,8 +139,8 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 
 | # | Exigence | Savoir essentiel | Enseigné | Vérifié |
 |---|----------|------------------|----------|---------|
-| C1 | **Chaque réussite** produit une indication **visuelle ET sonore** | Indication visuelle et sonore des réussites | S5, S7, S8 | F2 |
-| C2 | **Chaque échec** produit une indication **visuelle ET sonore** distincte de la réussite | Indication visuelle et sonore des échecs | S5, S7, S8 | F2 |
+| C1 | **Chaque réussite** produit une indication **visuelle ET sonore** | Indication visuelle et sonore des réussites | S5, S7, S9 | F2 |
+| C2 | **Chaque échec** produit une indication **visuelle ET sonore** distincte de la réussite | Indication visuelle et sonore des échecs | S5, S7, S9 | F2 |
 | C3 | **HUD** affichant au moins **un indicateur de progression** | Intégration d'une interface graphique HUD | S5 | F2 |
 | C4 | Le HUD **tient à deux résolutions différentes** — teste-le | Interface virtuelle | S5 | F4 |
 
@@ -149,10 +149,10 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 | # | Exigence | Savoir essentiel | Enseigné | Vérifié |
 |---|----------|------------------|----------|---------|
 | D1 | Environnement construit avec les **assets Synty**, materials convertis URP — **rien en magenta** | Intégration d'images dans l'environnement virtuel | S2 | F2 |
-| D2 | Au moins **une image importée par toi** intégrée au monde ou à l'interface | Intégration d'images | S2, S9 | F2 |
-| D3 | **Éclairage travaillé** et **post-traitement** : chaque zone a sa propre ambiance lumineuse | Intégration de médias visuels | S9 | F3 |
+| D2 | Au moins **une image importée par toi** intégrée au monde ou à l'interface | Intégration d'images | S2, S8 | F2 |
+| D3 | **Éclairage travaillé** et **post-traitement** : chaque zone a sa propre ambiance lumineuse | Intégration de médias visuels | S8 | F3 |
 | D4 | Au moins **un élément de décor animé** (porte, plateforme, mécanisme) | Animation d'éléments visuels | S6 | F2 |
-| D5 | Au moins **trois systèmes de particules** distincts, liés à des événements du jeu | Intégration de médias visuels | S8 | F3 |
+| D5 | Au moins **trois systèmes de particules** distincts, liés à des événements du jeu | Intégration de médias visuels | S9 | F3 |
 | D6 | **Caméra Cinemachine configurée volontairement** (*follow*, *damping*, *confiner*), plus **un moment de cadrage contraint** | Configuration de la caméra virtuelle | S6 | F2 |
 | D7 | Au moins **une cinématique** (Timeline + Cinemachine) **déclenchée par une action**, contrôles verrouillés, reprise propre | Animation d'éléments visuels · Caméra | S6 | F2 |
 
@@ -178,10 +178,10 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 |---|----------|------------------|----------|---------|
 | G1 | **Build WebGL** fonctionnel **publié sur itch.io** | Compilation de l'application | S11 | F3 · S15 |
 | G2 | **Arborescence de projet** respectée, imports laissés à la racine d'`Assets` | Classement des fichiers et des médias | S2 | F4 |
-| G3 | **README** : concept, commandes, **crédits de tous les médias externes avec leur licence**. Tenu **au fur et à mesure**, pas reconstitué à la fin — c'est vérifié aux deux carnets de bord | Classement des fichiers et des médias | S4, S11 | Carnet S7 · S14 · S15 |
+| G3 | **README** : concept, commandes, **crédits de tous les médias externes avec leur licence**. Tenu **au fur et à mesure**, pas reconstitué à la fin — vérifié sans note à chaque jalon | Classement des fichiers et des médias | S4, S11 | F1 · F4 · S15 |
 | G4 | **`PlayerPrefs`** : au moins le volume, plus une donnée de progression | *(pratique professionnelle)* | S11 | F4 |
-| G5 | **Devlog** tenu : une entrée par séance depuis la S4 | *(rigueur)* | S4 | Carnet S7 · S14 |
-| G8 | **Arborescence du projet** tenue tout au long de la session, pas remise au propre à la fin | Classement des fichiers et des médias | S2 | Carnet S7 · S14 |
+| G5 | **Devlog** tenu : une entrée par séance depuis la S4 — pas noté en soi, mais son absence devient une *issue* `must` aux jalons | *(rituel de métier)* | S4 | F1 · F4 |
+| G8 | **Arborescence du projet** tenue tout au long de la session, pas remise au propre à la fin | Classement des fichiers et des médias | S2 | F1 · F4 · S15 |
 | G6 | **Aucun défaut visible de finition** : pas de magenta, pas d'objet flottant, pas de texte provisoire, pas de collider manquant | *(rigueur)* | — | F4 |
 | G7 | La **carte de preuves** est remplie dans le README | *(rigueur)* | S11 | S15 |
 
@@ -243,43 +243,46 @@ Tu ne t'attribues **aucune note** — tu indiques seulement où regarder. Compte
 
 | Étape | Séance | Ce que tu construis | Livrable à la fin |
 |-------|--------|---------------------|-------------------|
-| **É1** | S4 | Concevoir et ouvrir le chantier | GDD verrouillé (dont **parti pris** et **découpage des zones**) · dépôt + tableau créés · greybox de la zone 1 amorcé |
-| **É2** | S5 | Le squelette | Menu titre → jeu → fin cliquable · HUD ancré · zone 1 parcourable |
-| **É3** | S6 | Le personnage vivant | 5 états animés · caméra Cinemachine réglée · **la cinématique** déclenchée par une action |
+| **É1** | S4 | Concevoir | GDD ébauché en atelier (dont **parti pris**, **3 zones**, **3 portes**, **découpage**) · liste de sprint sur papier · croquis du niveau · **GDD remis avant la S5** |
+| **É2** | S5 | Ouvrir le chantier | **GDD validé et verrouillé** · projet Unity créé et rangé · dépôt GitHub synchronisé, tableau alimenté · zone 1 en greybox parcourable · HUD ancré (même vide) |
+| **É3** | S6 | Le personnage vivant et le menu | 5 états animés · caméra Cinemachine réglée · **menu titre → jeu → fin** cliquable · **la cinématique** déclenchée par une action |
 | **É4** | S7 | **Prototype jouable — jalon F1** | Les 3 zones traversables en greybox · **les 3 portes fonctionnent et passent le test des trois questions** · début et fin · backlog MoSCoW monté |
-| **É5** | S7–S8 | Le son et le *juice* | 3 ambiances · 5 sons déclenchés · réussite et échec ont chacun son et effet visuel · **ton script custom écrit et branché** |
-| **É6** | S9 | **Tranche verticale — jalon F2** | La **zone 1 est finie** : habillée, éclairée, animée, sonorisée · premier build WebGL sur page privée |
-| **É7** | S10 | L'habitant | Le PNJ patrouille, détecte, réagit |
-| **É8** | S11 | Publier | Page itch.io en ligne · README + crédits · `PlayerPrefs` branché · **carte de preuves amorcée** |
-| **É9** | S12 | **Alpha — jalon F3** | Les 3 zones habillées · **tests de la carte postale et du chronomètre passés** · build en ligne · 3 playtests reçus |
-| **É10** | S13 | Corriger | Les *issues* issues des playtests sont fermées ou reclassées |
-| **É11** | S14 | **Gel — jalon F4** | Contenu complet · checklist de finition · build de validation publié |
-| **É12** | S15 | *Gold* | Version finale publiée · **carte de preuves complète** · oral de 10 minutes |
+| **É5** | S7 | Le son | 3 ambiances · 5 sons déclenchés · au moins un son spatialisé · Audio Mixer et slider de volume |
+| **É6** | S8 | Habiller et éclairer | La **zone 1 est finie** : habillée, éclairée, animée, sonorisée — prête pour le jalon F2 |
+| **É7** | S9 | Le *juice* — **jalon F2** | 3 systèmes de particules · réussite et échec ont chacun son effet visuel · **ton script custom écrit et branché** · premier build WebGL sur page privée |
+| **É8** | S10 | L'habitant | Le PNJ patrouille, détecte, réagit |
+| **É9** | S11 | Publier | Page itch.io en ligne · README + crédits · `PlayerPrefs` branché · **carte de preuves amorcée** |
+| **É10** | S12 | **Alpha — jalon F3** | Les 3 zones habillées · **tests de la carte postale et du chronomètre passés** · build en ligne · 3 playtests reçus |
+| **É11** | S13 | Corriger | Les *issues* issues des playtests sont fermées ou reclassées |
+| **É12** | S14 | **Gel — jalon F4** | Contenu complet · checklist de finition · build de validation publié |
+| **É13** | S15 | *Gold* | Version finale publiée · **carte de preuves complète** · oral de 10 minutes |
 
 !!! warning "L'étape É6 est celle qui décide de ta session"
-    Finir **une seule zone au complet** à la S9 est plus important que d'avoir esquissé les trois. C'est là que tu découvres ce que « fini » coûte réellement — et il te reste six semaines pour appliquer ce prix aux deux autres, ou pour décider d'en couper une.
+    Finir **une seule zone au complet** à la S8 est plus important que d'avoir esquissé les trois. C'est là que tu découvres ce que « fini » coûte réellement — et il te reste six semaines pour appliquer ce prix aux deux autres, ou pour décider d'en couper une.
 
 ---
 
 ## Ton backlog de départ
 
-À la séance 4, tu crées ton tableau **GitHub Projects** et tu importes ces cartes. Ce sont **les exigences du socle transformées en tâches**. Tu ajouteras les tiennes par-dessus — celles qui viennent de *ton* jeu.
+À la séance 5, tu crées ton tableau **GitHub Projects** et tu importes ces cartes. Ce sont **les exigences du socle transformées en tâches**. Tu ajouteras les tiennes par-dessus — celles qui viennent de *ton* jeu.
 
-Un **jalon GitHub** par étape (`É1` à `É12`), une *issue* par ligne :
+Un **jalon GitHub** par étape (`É1` à `É13`), une *issue* par ligne :
 
 ```txt
 É1  Rédiger le GDD, y inscrire le parti pris en une phrase
 É1  Choisir le découpage des zones (3 scènes ou monde continu) et le noter au GDD
 É1  Choisir les 3 types de gating et les noter au GDD
-É1  Créer le dépôt, le .gitignore Unity, le tableau Projects
-É1  Greyboxer la zone 1
+É1  Dessiner le croquis du niveau avec les 3 zones et les 3 portes
+É1  Remettre le GDD avant le cours 5
 
-É2  Monter le menu titre, pause et fin
+É2  Créer le projet Unity et appliquer la structure de dossiers
+É2  Créer le dépôt, le .gitignore Unity, le tableau Projects, y saisir la liste de sprint
+É2  Greyboxer la zone 1 et la rendre parcourable de bout en bout
 É2  Ancrer le HUD et le tester à deux résolutions
-É2  Rendre la zone 1 parcourable de bout en bout
 
 É3  Rigger le personnage (Mixamo) et monter les 5 états
 É3  Régler la caméra Cinemachine (follow, damping, confiner)
+É3  Monter le menu titre, pause et fin
 É3  Monter la cinématique et la déclencher par une action
 
 É4  Greyboxer les zones 2 et 3
@@ -291,35 +294,37 @@ Un **jalon GitHub** par étape (`É1` à `É12`), une *issue* par ligne :
 
 É5  Poser les 3 ambiances sonores
 É5  Placer les 5 échantillons déclenchés
-É5  Créer le retour de réussite (son + particule + HUD)
-É5  Créer le retour d'échec (son + particule + HUD)
+É5  Ajouter au moins un son spatialisé en 3D
 É5  Configurer l'Audio Mixer et le slider de volume
-É5  Écrire ton script custom et l'appeler depuis un CES (Invoke Events)
 
 É6  Habiller la zone 1 (prefabs, materials, image importée)
 É6  Éclairer la zone 1 et régler le post-traitement
 É6  Animer un élément de décor
-É6  Publier un premier build WebGL sur une page privée
 
-É7  Baker le NavMesh
-É7  Monter le PNJ : patrouille, détection, réaction
+É7  Créer le retour de réussite (son + particule + HUD)
+É7  Créer le retour d'échec (son + particule + HUD)
+É7  Écrire ton script custom et l'appeler depuis un CES (Invoke Events)
+É7  Publier un premier build WebGL sur une page privée
 
-É8  Créer la page itch.io et publier le build
-É8  Rédiger le README et les crédits des médias
-É8  Brancher PlayerPrefs (volume + progression)
-É8  Amorcer la carte de preuves
+É8  Baker le NavMesh
+É8  Monter le PNJ : patrouille, détection, réaction
 
-É9  Habiller et éclairer les zones 2 et 3
-É9  Passer le test de la carte postale (3 captures côte à côte)
-É9  Chronométrer chaque zone (1 min minimum, 10 min au total)
-É9  Publier l'alpha
-É9  Faire tester par 3 camarades et consigner les observations
+É9  Créer la page itch.io et publier le build
+É9  Rédiger le README et les crédits des médias
+É9  Brancher PlayerPrefs (volume + progression)
+É9  Amorcer la carte de preuves
 
-É10 Fermer les issues issues des playtests
-É11 Passer la checklist de finition (magenta, objets flottants, textes provisoires)
-É11 Publier le build de validation
-É12 Compléter la carte de preuves
-É12 Publier la version finale et préparer l'oral
+É10 Habiller et éclairer les zones 2 et 3
+É10 Passer le test de la carte postale (3 captures côte à côte)
+É10 Chronométrer chaque zone (1 min minimum, 10 min au total)
+É10 Publier l'alpha
+É10 Faire tester par 3 camarades et consigner les observations
+
+É11 Fermer les issues issues des playtests
+É12 Passer la checklist de finition (magenta, objets flottants, textes provisoires)
+É12 Publier le build de validation
+É13 Compléter la carte de preuves
+É13 Publier la version finale et préparer l'oral
 ```
 
 !!! tip "Une carte = une séance de labo maximum"
@@ -331,18 +336,18 @@ Un **jalon GitHub** par étape (`É1` à `É12`), une *issue* par ligne :
 
 | Critère | Ce qu'on regarde | Pondération |
 |---------|------------------|-------------|
-| **Objectif 1 — intégration des médias** | Sections **D** et **E** : visuel, animation, son, lumière, caméra | **18 %** |
-| **Objectif 2 — actions et progression** | Sections **A**, **B** et **C** : structure, portes, interactions, rétroaction | **18 %** |
+| **Objectif 1 — intégration des médias** | Sections **D** et **E** : visuel, animation, son, lumière, caméra | **22 %** |
+| **Objectif 2 — actions et progression** | Sections **A**, **B** et **C** : structure, portes, interactions, rétroaction | **22 %** |
 | **Créativité et cohérence du parti pris** | Section **H** : intention nommée et tenue, zones réellement distinctes, détournement d'un outil, décisions justifiées à l'oral | **12 %** |
 | **Rigueur — réalisation des tâches des jalons** | Les *issues* `must` déposées aux quatre jalons sont fermées, et démontrées à l'oral | **12 %** |
-| **Finition et publication** | Section **G** : build WebGL, itch.io, README, crédits, carte de preuves, aucun défaut visible | **5 %** |
+| **Finition et publication** | Section **G** : build WebGL, itch.io, README, **crédits des médias**, arborescence, carte de preuves, aucun défaut visible | **7 %** |
 | **Oral et démonstration** | Concept, tâches reçues et ce qui en a été fait, une difficulté technique et sa résolution, ce que tu ferais autrement | **5 %** |
-| | | **70 %** |
+| | | **80 %** |
 
 !!! note "Comment le socle se traduit en note"
     Les exigences des sections **A** à **G** se notent en **présent / absent** : c'est là que se joue la maîtrise des savoirs essentiels, et il n'y a rien à discuter — l'exigence fonctionne ou elle ne fonctionne pas.
 
-    Les sections **H** et **Rigueur** se notent en **qualité**, et c'est là que se joue la différence entre deux jeux qui cochent les mêmes cases. Un jeu bâclé peut obtenir tous ses points de savoirs et perdre les 24 % d'attitudes ; c'est exactement ce que le devis départemental demande d'évaluer.
+    Les sections **H** et **Rigueur** se notent en **qualité**, et c'est là que se joue la différence entre deux jeux qui cochent les mêmes cases. Un jeu bâclé peut obtenir tous ses points de savoirs et perdre les 24 points d'attitudes ; c'est exactement ce que le devis départemental demande d'évaluer.
 
     **Aucun point d'ampleur nulle part.** Une quatrième zone ne rapporte rien. Le chemin le plus court vers une bonne note est de livrer **exactement le socle, avec une intention claire, très bien fait.**
 
@@ -375,7 +380,7 @@ Trois genres, trois ambiances, trois univers. **Le même squelette, la même cha
     | Installation et configuration des ressources | *évalué au devoir 01 et au jeu express* |
     | Création d'un environnement virtuel navigable | **A1, A2** |
     | Configuration de la caméra virtuelle 2D | **D6** |
-    | Classement des fichiers et des médias | **G2, G3, G8** — également évalué aux deux carnets de bord |
+    | Classement des fichiers et des médias | **G2, G3, G8** — critère *finition et publication* |
     | Intégration d'images dans l'environnement virtuel | **D1, D2** |
     | Intégration de médias sonores | **E1, E3, E4** |
     | Animation d'éléments visuels | **D4, D7** |
@@ -405,6 +410,8 @@ Trois genres, trois ambiances, trois univers. **Le même squelette, la même cha
     | Attitude | Exigence(s) | Critère |
     |---|---|---|
     | **Créativité** | **H1 à H5** | Créativité et cohérence du parti pris — 12 % |
-    | **Rigueur** | **G5, G6, G7, G8** + issues des jalons | Rigueur — 12 % · Finition — 5 % · Carnet de bord — 10 % (hors projet) |
+    | **Rigueur** | **G5, G6, G7, G8** + issues des jalons | Rigueur — 12 % · Finition et publication — 7 % |
 
     Les 14 savoirs de l'objectif 2 sont évalués dans le projet final. Trois savoirs de l'objectif 1 — tous relatifs au choix et à l'installation du logiciel — le sont plus tôt, au devoir 01 et au jeu express : ils ne se démontrent qu'une fois.
+
+    **G4** (`PlayerPrefs`) et **G5** (devlog) dépassent le devis : ce sont des rituels de métier, pas des savoirs. Le suivi de production n'est donc **pas noté en soi** — le cours évalue la fabrication d'un jeu, pas la gestion d'un projet. Il est vérifié à chaque jalon, et ce qui manque devient une *issue* `must` qui compte au critère **rigueur**.
