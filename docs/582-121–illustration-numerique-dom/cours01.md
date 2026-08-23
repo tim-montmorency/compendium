@@ -1,22 +1,32 @@
 # Cours 1 - Bienvenue!
 
+## Présentation
+[📁 Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCaNXiqIQlIR55pbTBNeUsyARwx8m3BDAm73hmcfSY1tco?e=pE0mb4){ .md-button }   <br>
+
+## Ordre du jour
+- Plan de cours
+- Ressources du programme
+- Reglements en classe
+- Explications du projet 1
 
 ## Plan de cours
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
 
-## Tutorat 
+## Ressources du programme
+
+### Tutorat 
 * [Horaire](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/)
 * [Tutorat en ligne](https://teams.microsoft.com/l/channel/19%3aa5c1ef4c4cba41eb9f492adbcc9eb7a5%40thread.tacv2/Tutorat%2520(en%2520ligne)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d)
 * [Tutorat sur rendez-vous](https://teams.microsoft.com/l/channel/19%3aa8d3c53a199d48f0bc3d727af399b147%40thread.tacv2/Tutorat%2520(sur%2520rendez-vous)?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) 
 
-## Guide étudiant
+### Guide étudiant
 * [Guide](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
 
-## Teams
+### Teams
 * [Tim programme TIM](https://teams.microsoft.com/l/team/19%3A0df14bbe83b542679a319fb4fa0dcea8%40thread.tacv2/conversations?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d)
-* [Wiki](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique/)
+* [Wiki](https://tim-montmorency.com/compendium/582-121%E2%80%93illustration-numerique-dom/index.html)
   
-## Présentation du plan de cours et règles
+### Présentation du plan de cours et règles
 * Importance du cours dans le cadre du programme
   *  Importance de l'esprit de cohorte, cohésion
   *  Porte-folio
@@ -28,6 +38,12 @@
 * Utilisation du téléphone cellulaire
 * Résolution des conflits
 * Achat de matériel
+
+### Contact des techniciens en travaux pratiques
+* William Racine
+* Antoine Allard
+  * On les contacte uniquement par Teams
+  * Local : C1647 ou C1706
 
 ##  Règles des locaux [(Voir guide étudiant)](https://cmontmorency365.sharepoint.com/:w:/s/TIM-TTP/EbebEUjsWoxDuyPH2j7hBh0BhVJNmxQqNb5hnf7wbii4tQ?e=VdBbLr)
 * Heures d'ouvertures
@@ -45,18 +61,6 @@
 * Période de disponibilité : sur rendez-vous uniquement par TEAMS ou en présence les lundis et mardis
 * On me contacte uniquement par Teams, je ne vais pas répondre via Col.net
 * Local : C-1651
-
-## Contact des techniciens en travaux pratiques
-* William Racine
-* Antoine Allard
-  * On les contacte uniquement par Teams
-  * Local : C1647 ou C1706
- 
-## Parcours professeure 
-[📁 Démo](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EoXof15gcg5Coi-w89uA4lwBuFkJoZGi3nojR1EkjHChww?e=XOgz9G%22%20\t%20%22_blank){ .md-button }   <br>
-
-## Vous et moi...
-* La valise
 
 ## Explication du projet 1
   [📁 Projet 1](./projets/projet01.md){ .md-button }   <br>
