@@ -1,7 +1,5 @@
 # Journée carrière
 
-
-
 ## Comités et tâches
 ### Design  (3)
 * Mise en page d'une invitation pour les employeurs
@@ -87,5 +85,5 @@ Merci de contribuer à la formation de la relève en multimédia!
 
 [Signature]  
 
-## Si l'employeur répond, me transmettre sa réponse
+**Si l'employeur répond positivement, me transmettre sa réponse**
 lora.boisvert@cmontmorency.qc.ca

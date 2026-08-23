@@ -37,7 +37,7 @@ En équipes.
 
 
 ## Rédaction des lettres de présentation
-[🛠️ Consignes lettre](./stages/lettre.md){ .md-button }    
+[🛠️ Consignes lettre](./evaluations/lettre.md){ .md-button }    
 
 
 ## Devoir

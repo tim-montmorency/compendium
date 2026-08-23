@@ -6,6 +6,5 @@
 
 ## Correction des portfolios
 
-
 ## Devoir
 Corriger le portfolio selon les commentaires reçus. 

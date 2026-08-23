@@ -17,59 +17,59 @@ nav:
       - Cours 14: 582-111-web1/cours14.md
       - Cours 15: 582-111-web1/cours15.md
   - Illustration numérique:
-      - 582-121–illustration-numerique/index.md
-      - Références: 582-121–illustration-numerique/references.md
-      - Projet 1: 582-121–illustration-numerique/projets/projet01.md
-      - Projet 2: 582-121–illustration-numerique/projets/projet02.md
+      - 582-121–illustration-numerique-dom/index.md
+      - Références: 582-121–illustration-numerique-dom/references.md
+      - Projet 1: 582-121–illustration-numerique-dom/projets/projet01.md
+      - Projet 2: 582-121–illustration-numerique-dom/projets/projet02.md
       # - AI: 582-121–illustration-numerique/ai/ai.md
       # - Kling: 582-121–illustration-numerique/ai/klingai.md
       # - Midjourney: 582-121–illustration-numerique/ai/midjourney.md
-      - Cours 1: 582-121–illustration-numerique/cours01.md
-      - Cours 2: 582-121–illustration-numerique/cours02.md
-      - Cours 3: 582-121–illustration-numerique/cours03.md
-      - Cours 4: 582-121–illustration-numerique/cours04.md
-      - Cours 5: 582-121–illustration-numerique/cours05.md
-      - Cours 6: 582-121–illustration-numerique/cours06.md
-      - Cours 7: 582-121–illustration-numerique/cours07.md
-      - Cours 8: 582-121–illustration-numerique/cours08.md
-      - Cours 9: 582-121–illustration-numerique/cours09.md
-      - Cours 10: 582-121–illustration-numerique/cours10.md
-      - Cours 11: 582-121–illustration-numerique/cours11.md
-      - Cours 12: 582-121–illustration-numerique/cours12.md
-      - Cours 13: 582-121–illustration-numerique/cours13.md
-      - Cours 14: 582-121–illustration-numerique/cours14.md
+      - Cours 1: 582-121–illustration-numerique-dom/cours01.md
+      - Cours 2: 582-121–illustration-numerique-dom/cours02.md
+      - Cours 3: 582-121–illustration-numerique-dom/cours03.md
+      - Cours 4: 582-121–illustration-numerique-dom/cours04.md
+      - Cours 5: 582-121–illustration-numerique-dom/cours05.md
+      - Cours 6: 582-121–illustration-numerique-dom/cours06.md
+      - Cours 7: 582-121–illustration-numerique-dom/cours07.md
+      - Cours 8: 582-121–illustration-numerique-dom/cours08.md
+      - Cours 9: 582-121–illustration-numerique-dom/cours09.md
+      - Cours 10: 582-121–illustration-numerique-dom/cours10.md
+      - Cours 11: 582-121–illustration-numerique-dom/cours11.md
+      - Cours 12: 582-121–illustration-numerique-dom/cours12.md
+      - Cours 13: 582-121–illustration-numerique-dom/cours13.md
+      - Cours 14: 582-121–illustration-numerique-dom/cours14.md
       # - Cours 15: 582-121–illustration-numerique/cours15.md
   - Web 2:
       - 582-211-web2/index.md
       - CSS général:
-        - 582-211-web2/css/resume-bases-css-web1.md
-        - Accessibilité: 582-211-web2/css/accessibilite.md
-        - Animations CSS: 582-211-web2/css/animations-css.md
-        - Anim spritesheet: 582-211-web2/css/animation-spritesheet.md
-        - Anim spritesh. responsive: 582-211-web2/css/animation-spritesheet-responsive.md
-        - Flux HTML: 582-211-web2/css/flot-natif-html.md
-        - Spécificité CSS: 582-211-web2/css/specificite-css.md
-        - Pseudo-classes: 582-211-web2/css/pseudo-classes.md
-        - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
-        - Transitions CSS: 582-211-web2/css/transitions-css.md
-        - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
-        - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
-        - Figma DevMode: 582-211-web2/css/figma-devmode.md
+          - 582-211-web2/css/resume-bases-css-web1.md
+          - Accessibilité: 582-211-web2/css/accessibilite.md
+          - Animations CSS: 582-211-web2/css/animations-css.md
+          - Anim spritesheet: 582-211-web2/css/animation-spritesheet.md
+          - Anim spritesh. responsive: 582-211-web2/css/animation-spritesheet-responsive.md
+          - Flux HTML: 582-211-web2/css/flot-natif-html.md
+          - Spécificité CSS: 582-211-web2/css/specificite-css.md
+          - Pseudo-classes: 582-211-web2/css/pseudo-classes.md
+          - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
+          - Transitions CSS: 582-211-web2/css/transitions-css.md
+          - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
+          - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
+          - Figma DevMode: 582-211-web2/css/figma-devmode.md
       - CSS par composants:
-        - 582-211-web2/css/composants.md
-        - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
-        - Composant adaptatifs: 582-211-web2/css/composants-adaptatif-containerqueries.md
+          - 582-211-web2/css/composants.md
+          - Nomenclature BEM: 582-211-web2/css/nomenclature-bem.md
+          - Composant adaptatifs: 582-211-web2/css/composants-adaptatif-containerqueries.md
       - CSS Flexbox:
-        - 582-211-web2/css/flexbox01.md
-        - Flex, grow, shrink, basis: 582-211-web2/css/flexbox02.md
-        - Flexbox order: 582-211-web2/css/flexbox-order.md
-        - gap et calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
-      - CSS responsive:        
-        - 582-211-web2/css/mediaqueries-breakpoints.md
-        - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
-        - Breakpoints arbitraires:  582-211-web2/css/breakpoints-arbitraires.md 
-        - Container queries: 582-211-web2/css/composants-adaptatif-containerqueries.md
-        - Container queries (RÉSUMÉ): 582-211-web2/css/containerqueries-utilisation.md
+          - 582-211-web2/css/flexbox01.md
+          - Flex, grow, shrink, basis: 582-211-web2/css/flexbox02.md
+          - Flexbox order: 582-211-web2/css/flexbox-order.md
+          - gap et calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
+      - CSS responsive:
+          - 582-211-web2/css/mediaqueries-breakpoints.md
+          - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
+          - Breakpoints arbitraires: 582-211-web2/css/breakpoints-arbitraires.md
+          - Container queries: 582-211-web2/css/composants-adaptatif-containerqueries.md
+          - Container queries (RÉSUMÉ): 582-211-web2/css/containerqueries-utilisation.md
       - Projet 1 (mi-session): 582-211-web2/exercices/projet1/index.md
       - Projet final - Solarix: 582-211-web2/exercices/projet-final/index.md
       - Cours 1: 582-211-web2/cours01.md
@@ -167,8 +167,8 @@ nav:
       - Cours 14: 582-301-interactivite-ludique/cours14.md
       - Cours 15: 582-301-interactivite-ludique/cours15.md
       - Documentation:
-        - 582-301-interactivite-ludique/index.md
-        - Assets: 582-301-interactivite-ludique/extra/assets/index.md
+          - 582-301-interactivite-ludique/index.md
+          - Assets: 582-301-interactivite-ludique/extra/assets/index.md
   - Video 1:
       - 582-212-video1/index.md
       - Références: 582-212-video1/references.md
@@ -188,7 +188,7 @@ nav:
       - Cours 11: 582-212-video1/cours11.md
       - Cours 12: 582-212-video1/cours12.md
       - Cours 13: 582-212-video1/cours13.md
-      - Cours 14: 582-212-video1/cours14.md 
+      - Cours 14: 582-212-video1/cours14.md
       - Cours 15: 582-212-video1/cours15.md
   - Video 2:
       - 582-312–video2/index.md
@@ -215,7 +215,7 @@ nav:
       - Cours 11: 582-312–video2/cours11.md
       - Cours 12: 582-312–video2/cours12.md
       - Cours 13: 582-312–video2/cours13.md
-      - Cours 14: 582-312–video2/cours14.md 
+      - Cours 14: 582-312–video2/cours14.md
       # - Cours 15: 582-312–video2/cours15.md
   - Réalité mixte:
       - 582-401-realite-mixte/index.md
@@ -289,7 +289,7 @@ nav:
       - 12 octobre: 582-541–preparation-milieu-travail/12octobre.md
       - Cours 6 - 14 octobre: 582-541–preparation-milieu-travail/cours06.md
       - Cours 7 - 14 octobre: 582-541–preparation-milieu-travail/cours07.md
-      - Cours 8: 582-541–preparation-milieu-travail/cours08.md          
+      - Cours 8: 582-541–preparation-milieu-travail/cours08.md
       - Cours 9: 582-541–preparation-milieu-travail/cours09.md
       - Cours 10: 582-541–preparation-milieu-travail/cours10.md
       - Cours 11: 582-541–preparation-milieu-travail/cours11.md
@@ -299,6 +299,11 @@ nav:
       - Cours 15: 582-541–preparation-milieu-travail/cours15.md
       - 26 et 30 novembre: 582-541–preparation-milieu-travail/30novembre.md
       - 3 et 7 décembre: 582-541–preparation-milieu-travail/3decembre.md
+      - Portfolio: 582-541–preparation-milieu-travail/evaluations/portfolio.md
+      - Demo reel: 582-541–preparation-milieu-travail/evaluations/demo-reel.md
+      - Curriculum vitae: 582-541–preparation-milieu-travail/evaluations/cv.md
+      - Lettre de présentation: 582-541–preparation-milieu-travail/evaluations/lettre.md
+      - Journée carrière: 582-541–preparation-milieu-travail/evaluations/journee-carriere.md
   - edm3840:
       - edm3840/index.md
       - Références: edm3840/references.md
@@ -326,21 +331,17 @@ nav:
       - Cours 14: edm3840/cours14.md
       - Cours 15: edm3840/cours15.md
 
-
-
   - Création assistée par IA:
-      - creation_ia/index.md 
+      - creation_ia/index.md
       - Création d'images IA:
-        - creation_ia/images_videos_ia.md
-        - Guide maître du prompt image: creation_ia/images/01_prompt_images_long.md
-        - Midjourney: creation_ia/images/02_midjourney.md
-        - Nanobanana: creation_ia/images/05_nanobanana.md
+          - creation_ia/images_videos_ia.md
+          - Guide maître du prompt image: creation_ia/images/01_prompt_images_long.md
+          - Midjourney: creation_ia/images/02_midjourney.md
+          - Nanobanana: creation_ia/images/05_nanobanana.md
       - Création de vidéos IA:
-        - creation_ia/images_videos_ia.md 
-        - Guide maître du prompt vidéo: creation_ia/videos/01_prompt_videos.md
-        - Kling: creation_ia/videos/02_kling.md
-
-
+          - creation_ia/images_videos_ia.md
+          - Guide maître du prompt vidéo: creation_ia/videos/01_prompt_videos.md
+          - Kling: creation_ia/videos/02_kling.md
 
 ###########################################################################
 
@@ -423,7 +424,6 @@ extra:
     property: G-BFKT7FS4P2
   include:
     - robots.txt
-
 
 extra_css:
   - https://unpkg.com/tippy.js@6/animations/shift-away.css
