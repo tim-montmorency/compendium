@@ -1,10 +1,12 @@
 # Cours 4
 
-⚠️ Groupe Lora: 17 septembre
-⚠️ Groupe Enric: 14 septembre
+!!! info "Dates"
+
+    - Groupe Enric (semaine 3) : 14 septembre.
+    - Groupe Lora (semaine 4) : 17 septembre.
+
 
 ## 🚨 Remise et présentation des planifications de portfolio
-
 
 
 ## Devoir     

@@ -1,7 +1,10 @@
 # Cours 1 - Bienvenue! 
 
-Groue Enric : 24 août.
-Groupe Lora : 27 août.
+!!! info "Dates"
+
+    - Groupe Enric : 24 août.
+    - Groupe Lora : 27 août.
+
 
 ## Wooclap
 
@@ -10,6 +13,7 @@ Groupe Lora : 27 août.
  
 [📋 Consulter le plan de cours de Lora](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQCz6WAkD5eyQ7dWShQvGLUXAdOaINIT0Dfu1bv5Dy1S3Us?e=doGy9u){ .md-button }         
 
+[📋 Consulter le plan de cours d'Enric](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/egllagostera_cmontmorency_qc_ca/IQCvYgk_SZlLRpbl8wJdC-J_AfzySn5GocbbD3AjPifrS3w?e=Yb6Qz6){ .md-button } 
 
 [🛠️ Choix visite université](https://forms.cloud.microsoft/r/bJxtFbJuGr){ .md-button }    
 
@@ -43,9 +47,9 @@ Groupe Lora : 27 août.
 - [ ] Transport: Comment te déplaces-tu?
 - [ ] Intérêts: Coche les cases des domaines qui t'intéressent pour ton stage.
 - [ ] Compagnies: Trouve 5 compagnies qui pourraient t'intéresser pour ton stage. Insère leur logo avec le lien vers leur site web. Voici des sites pour t'aider à trouver des ressources:
-[XN Québec](https://www.xnquebec.co/repertoire-des-membres/) 
-[Guilde du jeu vidéo](https://www.laguilde.quebec/fr/membres/) 
-[Synthèse](https://polesynthese.com/repertoire/studio-creatif)
+  - [XN Québec](https://www.xnquebec.co/repertoire-des-membres/) 
+  - [Guilde du jeu vidéo](https://www.laguilde.quebec/fr/membres/) 
+  - [Synthèse](https://polesynthese.com/repertoire/studio-creatif)
 - [ ] Quête: Tente de trouver une quête pour ton personnage! Quel est son objectif dans sa recherche de stage?
 
 ## Capsule du cours
@@ -56,8 +60,6 @@ Groupe Lora : 27 août.
 Discussion sur les comités   
 
 ![Journee2023](image/PXL_20231108_182433460.MP.jpg)
-
-
 
 
 ## Présentation sur le portfolio    

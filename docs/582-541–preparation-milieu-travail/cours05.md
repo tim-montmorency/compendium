@@ -1,5 +1,11 @@
 # Cours 5
 
+!!! info "Dates"
+
+    - Groupe Enric : 28 septembre.
+    - Groupe Lora : 24 septembre.
+
+
 ## 🚨 Remise des demo reel
 
 ## 🚨 Remise des cartes d'affaire

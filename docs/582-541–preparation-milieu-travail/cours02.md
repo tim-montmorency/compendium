@@ -1,5 +1,12 @@
 # Cours 2
 
+!!! info "Dates"
+
+    - Groupe Enric : 31 août.
+    - Groupe Lora : 3 septembre.
+
+
+
 ## Présentation des stages
  [📁 Informations stages](./stages/informations.md){ .md-button }    
 
