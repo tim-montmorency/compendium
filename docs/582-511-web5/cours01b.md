@@ -3,8 +3,10 @@
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 
-icones material design disponibles dans mkdocs, rechercher le mot "material" + l'icone recherchéehttps://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+icones material design disponibles dans mkdocs, rechercher le mot "material" + l'icone recherchée https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
 -->
+
+
 
 ## Aujourd'hui
 

@@ -12,18 +12,14 @@ icones material design disponibles dans mkdocs, rechercher le mot "material" + l
 - [ ] Plan de cours
 - [ ] Quiz diagnostique CSS
 
-<!-- Idée explorer https://uiverse.io/ : idée leur faire développer un élément UI spécial animé qu'ils peuvent partager sur uiverse et leur codepen, faire partie de leur portfolio  -->
 
 ## Brise-glace 🧊🔨❄️
 
-- [Groupe 1 lundi AM](https://app.wooclap.com/)
-- [Groupe 2 lundi PM](https://app.wooclap.com/)
+<!-- Idée d'activité: Sondage humain / ligne de positionnement
 
-## Activer notifications TEAMS
+Une ligne imaginaire dans la classe, d'un mur à l'autre. Tu lances des affirmations et ils se placent physiquement sur le spectre « tout à fait d'accord » → « pas du tout » : « Je suis à l'aise avec les animations CSS », « J'ai déjà utilisé un framework JS », « Le travail d'équipe me stresse plus que le travail solo », « Je me sens prêt pour la dernière année du programme ». Ça bouge, ça fait discuter (« pourquoi t'es là toi? »), et honnêtement — ça peut remplacer ou compléter le diagnostic CSS/JS que j'avais mis au bloc 1.1, en version hors écran et beaucoup plus vivante qu'un quiz. Tu repars avec un portrait réel du groupe en 10 minutes.
+-->
 
-IMPORTANT: Activer notifications Canal Général dans Teams Web 5
-
-<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=6ed557ad-760b-4710-8f42-2fbc550f8c7a&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="teams-web5-activer-notifications.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## Plan de cours 📄🎓
 
@@ -31,8 +27,23 @@ IMPORTANT: Activer notifications Canal Général dans Teams Web 5
 
 ## Quiz diagnostique 🕵️✍️
 
-- [Groupe 1 lundi AM](https://app.wooclap.com/)
-- [Groupe 2 lundi PM](https://app.wooclap.com/)
+- [Gr1 mercredi AM](https://app.wooclap.com/)
+- [Gr2 mercredi PM](https://app.wooclap.com/)
+
+## Mise en place des outils et logiciels pour le cours Web 5
+
+### Activer notifications TEAMS
+
+!!!warning IMPORTANT: Activer notifications Canal *Général* dans Teams Web5
+
+<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=6ed557ad-760b-4710-8f42-2fbc550f8c7a&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="teams-web5-activer-notifications.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+### Procédure pour activer GitHub Education + GitHub Copilot Pro + VS Code
+
+[:material-github: :material-microsoft-visual-studio-code: Guide GitHub Education + GitHub Copilot Pro + VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+
+
+
 
 <!-- 
 ## Révision CSS <img src="./assets/css-logo.svg" style="width: 50px;">

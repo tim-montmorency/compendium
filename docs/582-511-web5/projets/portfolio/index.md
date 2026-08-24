@@ -101,9 +101,7 @@
     <p>Un·e collègue teste votre portfolio à partir d'une grille guidée; vous documentez les correctifs apportés.</p>
   </div>
 </div>
-
-<div class="proj-callout proj-callout-amber" style="margin-bottom:32px;">
-  <strong>Utilisation de l'IA</strong> : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.
+. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.
 </div>
 
 <h2>Critères d'évaluation</h2>
@@ -136,6 +134,8 @@
     <li>Journal de bord complété jusqu'à ce point</li>
     <li>Rétroaction audio ou vidéo individuelle de l'enseignante, en parcourant les maquettes et le journal à l'écran</li>
   </ul>
+<div class="proj-callout proj-callout-amber" style="margin-bottom:32px;">
+  <strong>Utilisation de l'IA</strong> : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension
   <ul>
     <li>Avancement du code</li>
     <li>Auto-évaluation à partir de la grille critériée</li>
