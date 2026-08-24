@@ -58,44 +58,36 @@
 ✅ GitHub Copilot Pro est maintenant activé.
 
 
-## 💻 Installer VS Code
-
-1. Aller sur 👉 https://code.visualstudio.com
-2. Télécharger VS Code
-3. Installer VS Code
-
-
 
 ## 🔌 Installer GitHub Copilot
 
-1. Ouvrir VS Code
+1. Ouvrir Visual Studio Code
 2. Ouvrir **Extensions** (`Ctrl + Shift + X`)
 3. Rechercher :
 
-```text
-GitHub Copilot
-```
+    ```text
+    GitHub Copilot
+    ```
 
 4. Cliquer sur **Install**
 
 Vérifier que les extensions suivantes sont installées :
 
-✅ GitHub Copilot
-
-✅ GitHub Copilot Chat
-
+- [ ] GitHub Copilot
+- [ ] GitHub Copilot Chat
 
 
-## 🔑 Se connecter à GitHub dans VS Code
+
+## 🔑 Se connecter à GitHub dans Visual Studio Code
 
 1. Cliquer sur l'icône **Compte** 👤
 2. Choisir **Sign in with GitHub**
 3. Autoriser l'accès dans le navigateur
-4. Revenir dans VS Code
+4. Revenir dans Visual Studio Code
 
-✅ VS Code est maintenant connecté à GitHub.
+✅ Visual Studio Code est maintenant connecté à GitHub.
 
-## ⭐ Vérifier que Copilot Pro est actif dans VS Code
+## ⭐ Vérifier que 'Copilot Pro' est actif dans Visual Studio Code
 
 1. Repérer l'icône **GitHub Copilot** 🤖 (coin inférieur droit)
 2. Cliquer sur l'icône
@@ -110,7 +102,7 @@ Vérifier que les extensions suivantes sont installées :
 Créer un fichier :
 
 ```js
-app.js
+script.js
 ```
 
 Écrire :
@@ -122,6 +114,8 @@ function addition(a, b) {
 Si du code apparaît en gris 👻 :
 
 ✅ GitHub Copilot fonctionne !
+
+Tu peux appyer sur la touche `Tab ⭾` pour accepter la suggestion ou la touche `Esc` (`Échap`) pour la refuser.
 
 
 
