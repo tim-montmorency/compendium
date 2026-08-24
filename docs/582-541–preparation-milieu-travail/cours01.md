@@ -1,7 +1,10 @@
 # Cours 1 - Bienvenue! 
 
-Groue Enric : 24 août.
-Groupe Lora : 27 août.
+!!! info "Dates"
+
+    - Groupe Enric : 24 août.
+    - Groupe Lora : 27 août.
+
 
 ## Wooclap
 
