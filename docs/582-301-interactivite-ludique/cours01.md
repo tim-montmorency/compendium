@@ -29,7 +29,7 @@ L'**amusement** et l'**expérimentation** sont essentiels au développement de l
 
     > On travaille l'expérience utilisateur (_UX_) dans le but de provoquer une émotion.
 
-    Le concepteur développe des **mécaniques** (ex. : saut, points de vie) ce qui produit des **Dynamiques** en jeu (ex. : camper, faire une *speedrun*) pour déclencher du plaisir (ex. : défi, découverte, camaraderie)[^mda]:. 
+    Le concepteur développe des **mécaniques** (ex. : saut, points de vie) ce qui produit des **Dynamiques** en jeu (ex. : camper, faire une *speedrun*) pour déclencher du plaisir (ex. : défi, découverte, camaraderie)[^mda]. 
 
     Le joueur vit le chemin **inverse**. Il ressent d'abord puis comprend les règles ensuite.
 
@@ -83,7 +83,7 @@ Dans [Magic: The Gathering](https://magic.wizards.com/), la mécanique du « *Ta
 <div class="grid grid-1-2" markdown>
 ![Portal](./assets/img/games/portal.jpg){data-zoom-image}
 
-Dans [Portal (2011)](https://fr.wikipedia.org/wiki/Portal_2), les joueurs doivent résoudre des énigmes en manipulant des trous de ver.
+Dans [Portal 2 (2011)](https://fr.wikipedia.org/wiki/Portal_2), les joueurs doivent résoudre des énigmes en manipulant des trous de ver.
 </div>
 
 ### :material-school: **Prise en main** (tuto)
