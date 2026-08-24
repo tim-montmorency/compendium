@@ -41,7 +41,7 @@ Une ligne imaginaire dans la classe, d'un mur à l'autre. Tu lances des affirmat
 
 ### Procédure pour activer GitHub Education + GitHub Copilot Pro + VS Code
 
-[:material-github: :material-microsoft-visual-studio-code: Guide GitHub Education + GitHub Copilot Pro + VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
 
 
 
