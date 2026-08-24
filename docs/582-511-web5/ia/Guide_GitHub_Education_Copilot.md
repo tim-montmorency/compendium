@@ -1,4 +1,4 @@
-# GitHub Education + GitHub Copilot Pro + VS Code
+# GitHub Education, Copilot Pro, VScode
 
 ## 🚀 GitHub Education
 
@@ -45,19 +45,17 @@
 4. Dans la section **Usage**, cliquer sur **Upgrade plan**
 5. Vérifier le message :
 
-```text
-🎉 Congratulations!
-You are eligible to use GitHub Copilot Pro for free.
-```
+    ```text
+    🎉 Congratulations!
+    You are eligible to use GitHub Copilot Pro for free.
+    ```
 
+    ![Activation GitHub Copilot Pro](./assets/github-copilot-pro.png)
 6. Cliquer sur **Get access to GitHub Copilot**
 7. Accepter les options proposées
 8. Cliquer sur **Save and Complete**
 
 ✅ GitHub Copilot Pro est maintenant activé.
-
-![Activation GitHub Copilot Pro](./assets/github-copilot-pro.png)
-
 
 
 ## 💻 Installer VS Code
