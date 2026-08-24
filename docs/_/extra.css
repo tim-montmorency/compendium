@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+[data-md-color-primary=red] {
+    --md-primary-fg-color: #EA3343;
+    --md-primary-fg-color--light: #e57171;
+    --md-primary-fg-color--dark: #e53734;
+}
+
+.md-logo img{
+  border-radius: 0;
+}
+
 .spoiler {
   display: inline-block;
   position: relative;
 
+  /* EA3343 */
   &:before {
     content: "";
     position: absolute;
@@ -590,9 +603,9 @@ body[data-md-color-scheme="slate"] img.invert {
 
 .btn-open-modal {
   cursor: pointer;
-  border: .1rem solid #ef5552;
+  border: .1rem solid #EA3343;
   border-radius: 100%;
-  color: #ef5552;
+  color: #EA3343;
   display: inline-block;
   font-weight: 700;
   padding: 1em;
@@ -602,7 +615,7 @@ body[data-md-color-scheme="slate"] img.invert {
 }
 
 .btn-open-modal:hover {
-  background-color: #ef5552;
+  background-color: #EA3343;
   color: white;
   text-decoration: none;
 }
@@ -735,7 +748,7 @@ stop:before {
   height: 65px;
   content: "";
   background-color: rgba(255, 255, 255, 0.05);
-  border: 2px solid #ef5552;
+  border: 2px solid #EA3343;
   top: 0;
   left: 0;
   position: absolute;
@@ -766,7 +779,7 @@ stop:before {
 
 .important-label {
   display: inline-block;
-  background-color: #ef5552;
+  background-color: #EA3343;
   color: white;
   font-size: 0.75rem;
   font-weight: bold;
@@ -918,7 +931,7 @@ stop:before {
    FINITIONS (ajout Marie-Michelle)
    ========================= */
 .finishing .md-typeset>div>h1 {
-  color: #ef5552;
+  color: #EA3343;
   text-transform: uppercase;
   font-size: 2.7rem;
 }
@@ -1068,10 +1081,8 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   animation: animate 1000ms infinite;
 }
 
-
-
 .ico-primary {
-  color: #ef5552
+  color: #EA3343
 }
 
 .wtfbaconsoda {
@@ -1080,4 +1091,24 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 
 .wtfbaconsoda-trigger {
   cursor: cell;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Interactivité ludique                                                    */
+/* ------------------------------------------------------------------------ */
+
+.ancestor-interactivite-ludique{
+
+  font-family: "Poppins", sans-serif;
+
+  .md-nav__link[href$="cours15.html"] {
+    padding-bottom: .625em;
+    border-bottom: 1px solid var(--md-code-bg-color); 
+  }
+
+  .md-header--shadow{
+    box-shadow: 0 0 0 0 transparent;
+  }
+
+
 }

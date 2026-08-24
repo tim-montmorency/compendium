@@ -52,10 +52,12 @@ private void OnTriggerEnter(Collider other)
 ### 6. Build et remise
 
 - [ ] Compile un build → **lance-le** → vérifie que le son joue dans le build (pas juste dans l'éditeur!)
-- [ ] Commit : `Jalon 1 : sonorisation complete` → Push
-- [ ] Remets le build selon la consigne de remise
+- [ ] Commit : `Sonorisation complete` → Push
+- [ ] Garde ce build : c'est lui que tu montreras au jalon F2 du [cours 9](../cours09.md)
 
-!!! success "Jalon 1 - sommatif (15 %)"
-    **Livrable :** build compilé et navigable de TON jeu, intégrant images et sons.
-    **Grille :** environnement navigable construit avec les assets Synty · images intégrées et fichiers classés · musique ou ambiance sonore · au moins 2 échantillons déclenchés par des événements du jeu · build qui se lance · sources citées au README.
-    C'est l'**activité de rétroaction de l'objectif 1** : *intégrer des médias visuels et sonores dans une expérience ludique*. Le menu, le HUD et la caméra ne sont **pas** évalués ici - ils arrivent au cours 9.
+!!! success "Tu prépares le jalon F2 (cours 9) — formatif, aucune note"
+    **Attendu au cours 9 :** une **tranche verticale** — un segment court mais fini, habillé, animé, sonorisé, éclairé. Pas le jeu au complet.
+
+    **Ce que je regarderai :** environnement navigable construit avec les assets Synty · images intégrées et fichiers classés · une ambiance sonore · au moins 2 échantillons déclenchés par des événements · build qui se lance · sources citées au README.
+
+    C'est l'**activité de rétroaction de l'objectif 1** : *intégrer des médias visuels et sonores dans une expérience ludique*. Tu repars avec un avis écrit et des *issues*, **pas avec une note** — l'état du jeu n'est évalué qu'au cours 15.

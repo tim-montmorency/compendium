@@ -1,5 +1,18 @@
 # Cours 6
 
+[STOP]
+
+!!! info "Le menu arrive ici"
+    Le menu titre → jeu → fin était prévu à la S5; il a été déplacé ici, où il retrouve les transitions de scènes. Un menu, c'est un `SceneManager` avec des boutons — autant voir les deux ensemble.
+
+!!! tip "Où tu devrais être rendu"
+    Ton projet Unity existe, il est sur GitHub, ta zone 1 se traverse en greybox.
+
+    **Cette semaine :** ton personnage prend vie — rigging, cinq états animés — et tu montes ta cinématique.
+
+    ⏭️ **La semaine prochaine, c'est le jalon 1.** Tes **trois** zones doivent être traversables et tes **trois** portes doivent fonctionner. Si les zones 2 et 3 n'existent pas encore, c'est cette semaine qu'elles se greyboxent — pas la veille.
+
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -51,7 +64,7 @@
 
 #### Le Confiner : empêcher la caméra de traverser les murs
 
-#### Changer de caméra par ETB
+#### Changer de caméra par CES
 
 ### Orthographique vs perspective
 

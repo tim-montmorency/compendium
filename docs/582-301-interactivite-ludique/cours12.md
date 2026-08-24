@@ -1,11 +1,16 @@
 # Cours 12
 
+[STOP]
+
 !!! abstract ":material-comment-check: Jalon formatif F3 — Alpha (*feature complete*)"
     **Dépôt en début de séance :** build WebGL publié en ligne. **Attendu :** toutes les mécaniques du GDD branchées, niveau complet parcourable. Après ce point, plus aucune fonctionnalité nouvelle.
 
     C'est le jalon le plus déterminant — la liste de tâches qui en sort est celle sur laquelle se joue la finition. C'est aussi la **rétroaction sur l'objectif 2**.
 
     Les observations recueillies pendant les tests du jour alimentent directement la rencontre : tu arrives avec des données, pas avec tes impressions.
+
+!!! tip "Après aujourd'hui"
+    **Plus aucune fonctionnalité nouvelle.** Les cours 13 et 14 servent à finir et à polir ce qui existe déjà, pas à ajouter ce qui manque. Si une idée te vient maintenant, note-la dans la colonne `Won't` de ton tableau — c'est là qu'elle est utile.
 
 <!-- ## Déroulement de la séance
 

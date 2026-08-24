@@ -31,8 +31,8 @@ Ouvre le projet `JeuExpress` du cours 2 et la scène de ton monde.
 
 - [ ] Choisis **un** prérequis entre le joueur et sa victoire ([cours 1](../cours01.md)) : une clé à ramasser, un pont à activer, un passage à trouver, un saut à réussir
 - [ ] Construis-le avec ce que tu connais :
-    - **Pont/porte qui s'active** : un ETB ailleurs dans le monde, réponse ***Modify Gameobject*** → `Enable` sur l'objet
-    - **Clé** : un premier ETB avec la réponse ***Player Pref*** (`aCle` = `1`), et sur la porte un second ETB avec la condition ***Player Pref*** (`aCle` égal à `1`)
+    - **Pont/porte qui s'active** : une zone CES ailleurs dans le monde, action ***Game Object*** → `Operation` **Enable** sur l'objet
+    - **Clé** : crée une `Bool Variable` `aCle`, puis une première zone CES avec l'action ***Variable*** (`aCle` = ✅) et, sur la porte, une seconde zone avec la condition ***Variable*** (`aCle` attendu à ✅)
 - [ ] ▶️ **Play** : vérifie qu'on **ne peut pas** gagner sans passer par là
 
 !!! tip "Le décor doit dire où aller"
@@ -63,21 +63,22 @@ Ouvre le projet `JeuExpress` du cours 2 et la scène de ton monde.
 - [ ] *(Optionnel)* Sur un objet du décor : une deuxième Audio Source avec ***Spatial Blend*** à **1** → le son devient localisé
 - [ ] Note dans un fichier `credits.txt` : *titre - auteur - lien - licence* pour chaque son
 
-### 7. La zone de victoire (ETB)
+### 7. La zone de victoire (CES)
 
 - [ ] **File → New Scene** → **Save As** → `Victoire` dans `📁 _/Scenes`
 - [ ] Décore-la : un sol, un objet, une couleur - et un son de fanfare (`Play On Awake` ✅, `Loop` ❌)
 - [ ] Rouvre ta scène de jeu
 - [ ] **File → Build Profiles → Scene List** : glisse-y tes **deux** scènes, ta scène de jeu en **position 0**
-- [ ] Glisse un prefab **ETB** à l'endroit d'arrivée, redimensionne la zone pour qu'on ne puisse pas la manquer
-- [ ] Réponse ***Audio Response*** → `Response Type` **Sound Effect** → ton effet court
-- [ ] Réponse ***Load Level*** → `Load Level Name` : `Victoire` (le nom **exact**, majuscule comprise)
+- [ ] Glisse un prefab **`Trigger Cube`** à l'endroit d'arrivée, redimensionne la zone pour qu'on ne puisse pas la manquer
+- [ ] `Required Tags` = `Player`
+- [ ] `Add Action` > ***Audio*** → ton effet court
+- [ ] `Add Action` > ***Scene*** → `Operation` **Load**, puis **glisse la scène `Victoire`** dans le champ `Scene Asset`
 - [ ] ▶️ **Play** : marche jusqu'à la zone → l'écran de victoire apparaît 🎉
 
 !!! warning "Rien ne se passe?"
     1. Le tag `Player` est-il **assigné** au personnage (pas juste créé)?
-    2. Le nom dans `Load Level Name` est-il **identique** au nom du fichier de scène?
-    3. La scène `Victoire` est-elle bien dans la ***Scene List***?
+    2. Le champ `Scene Asset` contient-il bien la scène (glissée, pas tapée)?
+    3. La scène `Victoire` est-elle bien dans la ***Scene List***? Sans ça, ça marche dans l'éditeur et ça casse dans le build.
 
 ### 8. Compiler
 
@@ -90,4 +91,4 @@ Ouvre le projet `JeuExpress` du cours 2 et la scène de ton monde.
 
 ### 9. Avant de partir
 
-- [ ] Relis la [grille de remise](../devoirs/jeu-express.md) : tout y est? Ce qui manque se termine en devoir, pour le début du cours 4
+- [ ] Relis la [grille de remise](../devoirs/protolude/index.md) : tout y est? Ce qui manque se termine en devoir, pour le début du cours 4

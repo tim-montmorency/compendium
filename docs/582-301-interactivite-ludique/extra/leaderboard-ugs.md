@@ -5,7 +5,7 @@ Un **classement mondial des scores**, en ligne, partagé entre tous les joueurs 
 !!! warning "Positionnement dans le cours"
     **Hors devis, hors cahier des charges** : issue [COULD], à tenter seulement quand tes [MUST] sont finis, et jamais après le gel du cours 14. Prérequis : être à l'aise avec les cours 6-7-9 (scripts, références, HUD). C'est la recette la plus ambitieuse du cours - mais elle utilise le service **officiel** de Unity, gratuit à notre échelle, et elle fonctionne en WebGL.
 
-**Le concept :** ton jeu envoie le score à Unity Cloud (le serveur de Unity); n'importe quelle copie du jeu peut ensuite lire le classement. Contrairement à `PlayerPrefs` (cours 13) qui sauvegarde **localement** (sur l'appareil du joueur), le leaderboard vit **en ligne**, partagé.
+**Le concept :** ton jeu envoie le score à Unity Cloud (le serveur de Unity); n'importe quelle copie du jeu peut ensuite lire le classement. Contrairement à `PlayerPrefs` (cours 11) qui sauvegarde **localement** (sur l'appareil du joueur), le leaderboard vit **en ligne**, partagé.
 
 
 ## Étape 1 - Configuration dans Unity Cloud (Dashboard)

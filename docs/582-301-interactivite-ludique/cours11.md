@@ -1,5 +1,14 @@
 # Cours 11
 
+[STOP]
+
+!!! tip "Où tu devrais être rendu"
+    Ton PNJ patrouille, détecte et réagit. Tes zones 2 et 3 sont en cours d'habillage.
+
+    **Cette semaine :** la mise en ligne pour de vrai — page itch.io, README, crédits des médias, sauvegarde.
+
+    ⏭️ **La semaine prochaine, jalon 3 : dépôt de l'alpha en début de séance.** C'est le dernier moment où on ajoute des fonctionnalités. Tout ce qui n'est pas branché à ce moment-là ne le sera jamais — et c'est très bien ainsi.
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
@@ -50,6 +59,11 @@
 
 ## La sauvegarde
 
+!!! info "Tu sauvegardes déjà, depuis le cours 3"
+    La case **`Persistent`** d'une Variable du CES écrit sa valeur sur le disque et la recharge au lancement suivant. Tu t'en sers depuis huit semaines sans savoir ce qu'il y a dessous.
+
+    Ce qu'il y a dessous, c'est `PlayerPrefs`. On l'ouvre aujourd'hui — non pas parce que la case ne suffit pas, mais parce que **dès que tu écris ton propre script**, c'est l'outil dont tu as besoin : la case coche une Variable du CES, elle ne sauvegarde pas ce que ton code à toi calcule.
+
 ### `PlayerPrefs` : trois clés suffisent
 
 ### `SetInt`, `SetFloat`, `SetString`, `Save`
@@ -60,6 +74,18 @@
 
 !!! note "Contenir l'ambition"
     `PlayerPrefs` suffit. Ton jeu a un niveau et une mécanique — il n'y a rien à sérialiser qui ne tienne pas dans trois clés. JSON existe pour les états complexes, les chemins de fichiers, les versions de sauvegarde et la corruption de données. C'est un sujet de session avancée.
+
+!!! important "Ton script custom — exigence B6 du projet"
+    Ton jeu doit contenir **au moins un script C# écrit par toi**, dont tu peux expliquer chaque ligne à l'oral du cours 15. Pas un script du kit branché : un que **tu** as écrit.
+
+    Il n'a pas besoin d'être gros — une quinzaine de lignes suffisent. Ce qui compte, c'est qu'il fasse quelque chose que **ni le kit ni le CES ne savent faire** dans ton jeu. Quelques candidats raisonnables :
+
+    * un meilleur score sauvegardé avec `PlayerPrefs`, affiché au menu
+    * un compteur qui calcule quelque chose (temps restant, distance parcourue, précision)
+    * une petite règle propre à ton jeu : « si le joueur a les trois fragments **et** qu'il est de nuit, alors… »
+    * un effet que tu déclenches depuis une action ***Invoke Events*** du CES
+
+    Si tu n'as toujours pas d'idée à ce stade de la session, **le meilleur score est le bon choix** : c'est court, c'est utile, et ça te fait pratiquer `PlayerPrefs` pour de vrai.
 
 ## La performance
 

@@ -1,9 +1,18 @@
 # Cours 7
 
+[STOP]
+
 !!! abstract ":material-comment-check: Jalon formatif F1 — Prototype jouable"
     En deuxième partie de séance, je passe vous voir individuellement. **Attendu :** un greybox navigable, un personnage contrôlable, une interaction, un début et une fin. Laid, mais jouable d'un bout à l'autre.
 
     Vous repartez avec un avis écrit et une liste de tâches déposée en *issues* dans votre dépôt.
+
+    **Je regarde aussi ton suivi**, tableau ouvert — sans note : le tableau alimenté depuis la S4, un backlog priorisé MoSCoW avec la colonne `Won't` remplie, trois entrées de devlog, l'arborescence conforme à la convention de la S2, et les crédits déjà inscrits au README pour les médias que tu utilises. Ce qui manque repart en *issue* `must`. [La liste complète](./plan-de-cours.md#le-suivi-de-production-formatif)
+
+!!! tip "D'ici le jalon 2"
+    Deux séances, deux passes. **Cette semaine :** la sonorisation — ambiances, échantillons déclenchés, mixeur. **La semaine prochaine :** l'habillage et l'éclairage de ta zone 1.
+
+    Au bout des deux, tu as la **tranche verticale** du jalon 2 : une seule zone, mais finie. Une zone finie vaut mieux que trois esquissées — c'est là que tu découvres ce que « fini » coûte vraiment, et il te restera six semaines pour appliquer ce prix aux deux autres.
 
 <!-- ## Déroulement de la séance
 
@@ -41,9 +50,9 @@
 #### Les snapshots
 
 !!! example "Trois usages de snapshot"
-    Étouffer le jeu quand le menu pause s'ouvre. Passer en « sous l'eau » en entrant dans une zone. Baisser la musique pendant un dialogue. Le tout déclenchable par ETB.
+    Étouffer le jeu quand le menu pause s'ouvre. Passer en « sous l'eau » en entrant dans une zone. Baisser la musique pendant un dialogue. Le tout déclenchable par CES.
 
-### Déclencher un son : ETB, *Animation Event*, script
+### Déclencher un son : CES, *Animation Event*, script
 
 ### Où trouver des sons — et l'obligation de citer
 

@@ -1,5 +1,9 @@
 # Cours 10
 
+!!! info "Dates"
+
+    - Groupe Enric : 19 octobre.
+    - Groupe Lora : 22 octobre.
 
 ## Présentation sur la recherche de stage ou d'emploi
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }         
@@ -37,7 +41,7 @@ En équipes.
 
 
 ## Rédaction des lettres de présentation
-[🛠️ Consignes lettre](./stages/lettre.md){ .md-button }    
+[🛠️ Consignes lettre](./evaluations/lettre.md){ .md-button }    
 
 
 ## Devoir

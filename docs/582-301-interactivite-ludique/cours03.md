@@ -1,11 +1,13 @@
 # Cours 3
 
-*[ETB]: Enhanced Trigger Box
+[STOP]
+
+*[CES]: Collider Event System
 *[URP]: Universal Render Pipeline
 *[FBX]: Filmbox — format d'échange de modèles 3D
 *[GDD]: Game Design Document
 
-https://github.com/jfcmontmorency/collider-event-system.git#v0.1.7
+https://github.com/jfcmontmorency/collider-event-system.git
 
 À faire rapidement : 
 
@@ -50,12 +52,12 @@ Pour l'instant, on va essayer de limiter la programmation et utiliser un control
 <!-- - Sélectionne ***PlayerFollowCamera*** > dans l'Inspector, champ `Follow` : glisse-y ***PlayerCameraRoot*** (il est **à l'intérieur** de PlayerArmature) -->
 - Play<br>(++w+a+s+d++ pour bouger, ++space++ pour sauter, la souris pour regarder)
 
-### ETB
+### Collider Event System
 
-Maintenant, on veut que notre personnage interagisse avec Enhanced Trigger Box. Souvenez-vous pour ce faire, il faut 2 choses  :
+Maintenant, on veut que notre personnage interagisse avec le **Collider Event System**. Souvenez-vous, pour ce faire, il faut 2 choses :
 
-* l'élément qui interagisse avec le ETB ait le `Tag` **Player**
-* ce même élément doit posseder un ***Collider***
+* l'élément qui interagit avec le CES a le `Tag` **Player**
+* ce même élément doit posséder un ***Collider***
 
 Sélectionne ton personnage, trouver la capsule (qui a un _Capsule Collider_) et dans le panneau _Inspector_, assigne le `Tag` **Player**.
 
@@ -71,7 +73,9 @@ Sélectionne ton personnage, trouver la capsule (qui a un _Capsule Collider_) et
 </figure>
 </div>
 
-<!-- On peut afficher le ETB visuellement en lui ajoutant un Mesh Filter (Cube) et un Mesh Renderer (avec un Material). -->
+!!! tip "Les prefabs tout faits"
+
+    Plutôt que d'ajouter un Collider et un composant **Collider Event** à la main, glisse un prefab prêt à l'emploi depuis `Packages` > `Collider Event System` > `Prefabs` : ***Trigger Cube***, ***Trigger Sphere*** ou ***Trigger Capsule***. Le collider est déjà en `Is Trigger` et le composant est déjà attaché — il ne reste qu'à ajouter tes conditions et tes actions.
 
 
 ## La progression
@@ -80,16 +84,16 @@ Sélectionne ton personnage, trouver la capsule (qui a un _Capsule Collider_) et
 
 Les prérequis (_gates_) qu'un joueur doit satisfaire pour avancer sert à contrôler le **rythme** du jeu, à **enseigner** les mécaniques, à maintenir le **défi** et à alimenter la **récompense**.
 
-| Type de *gate* | Exemple | Montage ETB |
+| Type de *gate* | Exemple | Montage CES |
 |---|---|---|
-| **Inventaire** | Trouver la carte bleue | `Player Pref Response` sur la clé → `Player Pref Condition` sur la porte |
-| **Économie** | Amasser 3 gemmes | `Player Pref Response` avec la valeur `++` → `Player Pref Condition` *greater than or equal to* `3` |
-| **Progression** | Atteindre le niveau 10 | Même chose, avec un pref numérique qui monte |
-| **Scénario** | Parler au vieux Kamajī | Un ETB devant le PNJ pose le pref `aParle = 1` |
-| **Environnement** | Attendre que le pont bascule | `Transform Condition` sur la rotation du pont |
-| **Connaissance** | Comprendre qu'il faut regarder la statue | `Camera Condition` (*Looking At*) sur la statue |
-| **Habileté du joueur** | Rester dans la zone 5 secondes | `Condition Time` dans les options de base |
-| **Compétence** | Le double saut débloqué | `Modify GameObject` > *Enable Component* sur le script de saut |
+| **Inventaire** | Trouver la carte bleue | Action ***Variable*** sur la clé → Condition ***Variable*** sur la porte |
+| **Économie** | Amasser 3 gemmes | Action ***Variable*** en `Value Mode` : **Additive** → Condition ***Variable*** *Greater Than Or Equal* `3` |
+| **Progression** | Atteindre le niveau 10 | Même chose, avec une `Int Variable` qui monte |
+| **Scénario** | Parler au vieux Kamajī | Un CES devant le PNJ met la variable `aParle` à `true` |
+| **Environnement** | Attendre que le pont bascule | Condition ***Rotation*** sur le pont |
+| **Connaissance** | Comprendre qu'il faut regarder la statue | Condition ***Looking At*** sur la statue |
+| **Habileté du joueur** | Rester dans la zone 5 secondes | `Hold Time` : `5` dans les options de base |
+| **Compétence** | Le double saut débloqué | Action ***Game Object*** > `Operation` : **Enable** sur l'objet du saut |
 
 
 @todo : 
@@ -107,20 +111,20 @@ Exercice
 | **Présence** | à **chaque image** tant qu'il est dedans | le détecteur de présence |
 | **Sortie** | à l'instant où il **sort** | le « au revoir » du commerce |
 
-Dans l'ETB, la sortie s'active en mettant `After Trigger` à ***Execute Exit Responses*** : une deuxième liste de réponses apparaît. C'est comme ça qu'on fait « la lumière s'éteint quand je quitte la pièce ».
+Dans le CES, la sortie s'active en mettant `After Trigger` à ***Execute Exit Actions*** : une deuxième liste d'actions apparaît. C'est comme ça qu'on fait « la lumière s'éteint quand je quitte la pièce ».
 
 ### Les conditions techniques
 
 Rien ne marche si l'une de ces quatre choses manque :
 
 1. Les deux objets ont un **Collider**
-2. Celui qui détecte a **Is Trigger** coché (l'ETB l'a déjà)
+2. Celui qui détecte a **Is Trigger** coché (les prefabs `Trigger Cube`, `Sphere` et `Capsule` l'ont déjà)
 3. Au moins un des deux **bouge physiquement** : un `Rigidbody` ou un `CharacterController`. Ton personnage Starter Assets en a un — c'est pour ça que ça fonctionne
-4. Le champ **Trigger Tags** de l'ETB contient `Player` — sinon n'importe quel caillou qui roule déclenche ta porte
+4. Le champ **Required Tags** du CES contient `Player` — laisse-le vide et n'importe quel caillou qui roule déclenche ta porte
 
-!!! tip "Debug Trigger Box"
+!!! tip "Debug Logging"
 
-    Coche ***Debug Trigger Box*** dans les options de base : l'ETB écrit dans la Console à chaque fois qu'il est déclenché. Quand rien ne fonctionne, c'est la première case à cocher — elle te dit si le problème est **avant** (rien n'entre) ou **après** (ça entre mais la condition bloque).
+    ***Debug Logging*** est coché **par défaut** dans les options de base : le CES écrit dans la Console chaque fois qu'il se déclenche et chaque fois qu'il sort. Quand rien ne fonctionne, c'est la première chose à lire — elle te dit si le problème est **avant** (rien n'entre) ou **après** (ça entre, mais une condition bloque).
 
 ### Tags et layers
 
@@ -130,7 +134,7 @@ Deux systèmes d'étiquetage qu'on confond toujours :
 |---|---|---|
 | Répond à | « Qui es-tu? » | « Avec qui interagis-tu? » |
 | Par objet | Un seul | Un seul |
-| Sert à | **Identifier** (le champ `Trigger Tags` de l'ETB) | Filtrer la **physique** et ce que la **caméra** voit |
+| Sert à | **Identifier** (le champ `Required Tags` du CES) | Filtrer la **physique** et ce que la **caméra** voit |
 | Exemples | `Player`, `Collectable` | `Ground`, `IgnoreRaycast` |
 
 Créer un tag : Inspector → menu `Tag` → `Add Tag…` → `+` → nomme-le → **reviens sur l'objet et assigne-le**.
@@ -151,14 +155,14 @@ Derrière presque tout système de progression de presque tous les jeux se cache
 
 ```mermaid
 graph LR
-    A(Ramasser la clé) --> B["aCle = 1"]
+    A(Ramasser la clé) --> B["aCle = true"]
     B --> C(Toucher la porte)
-    C --> D{"aCle = 1 ?"}
+    C --> D{"aCle = true ?"}
     D -- oui --> E(La porte s'ouvre)
     D -- non --> F(Message d'échec)
 ```
 
-La ligne `aCle = 1`, c'est **l'état du jeu** (*game state*) : une valeur qui **se souvient** de ce que le joueur a accompli. Toute progression, du plus petit au plus grand jeu, est une collection de valeurs comme celle-là.
+La ligne `aCle = true`, c'est **l'état du jeu** (*game state*) : une valeur qui **se souvient** de ce que le joueur a accompli. Toute progression, du plus petit au plus grand jeu, est une collection de valeurs comme celle-là.
 
 « Clé » et « porte » sont des métaphores. Regarde n'importe quel jeu avec cette lunette :
 
@@ -180,53 +184,67 @@ Dans [Hollow Knight (2017)](https://store.steampowered.com/app/367520/Hollow_Kni
 
 ### Le montage, sans code
 
-Deux ETB et une variable. C'est tout.
+Deux zones CES et une Variable. C'est tout.
 
-**① La clé** — un ETB autour de l'objet à ramasser
+**⓪ La Variable** — l'état du jeu, créé une seule fois
 
-| Champ | Valeur |
-|---|---|
-| `Trigger Tags` | `Player` |
-| Réponse ***Player Pref Response*** | `Player Pref Key` : `aCle` · `Type` : int · `Value` : `1` |
-| Réponse ***Modify GameObject*** | `GameObject` : l'objet clé · `Modify Type` : **Disable** |
-| Réponse ***Audio Response*** | `Response Type` : SoundEffect · ton clip de ramassage |
-| `After Trigger` | **Destroy Trigger Box** |
+`Assets` > `Create` > `Collider Event System` > `Variables` > ***Bool Variable***, nomme-la `aCle`, et range-la dans `📁 _/Variables`.
 
-**② La porte** — un ETB devant la porte, un peu plus grand qu'elle
+Tu peux aussi la créer à la volée : le bouton **+** à côté du champ `Target Variable`, dans une condition ou une action, la crée sur-le-champ.
+
+**① La clé** — un `Trigger Cube` autour de l'objet à ramasser
 
 | Champ | Valeur |
 |---|---|
-| `Trigger Tags` | `Player` |
-| Condition ***Player Pref Condition*** | `Condition Type` : **equal to** · `Key` : `aCle` · `Type` : int · `Value` : `1` · ✅ **Refresh Every Frame** |
-| Réponse ***Modify GameObject*** | `GameObject` : le battant · `Modify Type` : **Disable** |
-| Réponse ***Set Material Property*** | le cadre passe au vert (`_BaseColor`, type Colour, `Change Duration` : 1) |
+| `Required Tags` | `Player` |
+| Action ***Variable*** | `Target Variable` : `aCle` · `Value` : ✅ (true) |
+| Action ***Game Object*** | `Target Mode` : **Specific Object** · `Target` : l'objet clé · `Operation` : **Disable** |
+| Action ***Audio*** | ton clip de ramassage |
+| `After Trigger` | **Destroy** |
 
-!!! danger "Coche Refresh Every Frame"
+**② La porte** — un `Trigger Cube` devant la porte, un peu plus grand qu'elle
 
-    Sans cette case, l'ETB lit la valeur **une seule fois au démarrage du jeu** et la garde en mémoire. Ta clé aura beau être ramassée, la porte lira encore l'ancienne valeur. C'est le bogue le plus vicieux de la séance parce que tout **a l'air** correct.
+| Champ | Valeur |
+|---|---|
+| `Required Tags` | `Player` |
+| Condition ***Variable*** | `Target Variable` : `aCle` · valeur attendue : ✅ (true) |
+| Action ***Game Object*** | `Target` : le battant · `Operation` : **Disable** |
+| Action ***Material*** | le cadre passe au vert |
 
-!!! danger "Les Player Prefs survivent à la fermeture du jeu"
+!!! danger "Une Variable est partagée"
 
-    Un *player pref* est écrit sur le disque de la machine. Relance ton jeu demain : `aCle` vaut encore `1` et ta porte est déjà ouverte. Trois solutions :
+    Une Variable est un **asset**, pas un composant : tous les objets qui pointent vers `aCle` lisent et écrivent la **même** valeur. C'est exactement ce qu'on veut pour une clé de progression.
 
-    1. **Un ETB de remise à zéro** au démarrage : un ETB avec ***Disable Entry Check*** coché (il se déclenche immédiatement, sans attendre personne) et une `Player Pref Response` qui remet `aCle` à `0`
-    2. Le faire depuis la scène de menu, au [cours 5](./cours05.md)
-    3. `Edit` > `Clear All PlayerPrefs` pendant tes tests
+    Mais si tu veux donner des points de vie à chacun de tes cinq ennemis, une seule Variable ne suffit pas — il en faudrait cinq, ou un script. Retiens la règle : **une Variable = un état du jeu**, pas un état d'objet.
 
-    C'est aussi ta première rencontre avec la **sauvegarde** — on y revient au [cours 11](./cours11.md).
+!!! danger "Persistent : à ne cocher qu'en connaissance de cause"
+
+    Une Variable a une case **Persistent**. Cochée, sa valeur est écrite sur le disque et rechargée au lancement suivant : relance ton jeu demain, `aCle` vaut encore `true` et ta porte est **déjà ouverte**. Décochée — c'est le défaut — tout repart à la valeur d'origine à chaque partie.
+
+    Pour un système clé/porte : **laisse-la décochée**. Persistent sert à ce qui doit survivre entre deux parties : le meilleur score, le volume, le dernier niveau atteint. C'est ta première rencontre avec la **sauvegarde** — on y revient au [cours 11](./cours11.md).
+
+!!! tip "Déclencher sans zone de collision"
+
+    Certaines conditions n'ont rien à voir avec un endroit : « quand le joueur a 3 clés », « quand le pont a fini de pivoter ». Pour celles-là, utilise le composant **Condition Watcher** au lieu de **Collider Event** : pas de collider, pas de zone — il évalue ses conditions en continu depuis le début de la scène.
 
 ### Variantes, même patron
 
 | Variante | Ce qui change |
 |---|---|
-| Levier → pont qui apparaît | `Modify Type` devient **Enable** sur le pont |
-| Bouton → lumière qui révèle un passage | La réponse devient ***Lighting Response*** |
+| Levier → pont qui apparaît | `Operation` devient **Enable** sur le pont |
+| Bouton → lumière qui révèle un passage | Action ***Game Object*** > **Enable** sur la lumière |
 | Offrande déposée → portail actif | Identique, seul l'habillage change |
-| **3 gemmes → sortie déverrouillée** | Sur chaque gemme : `Player Pref Value` = `++` · sur la sortie : condition ***greater than or equal to*** `3` |
+| **3 gemmes → sortie déverrouillée** | Sur chaque gemme : Action ***Variable*** en `Value Mode` **Additive**, `+1` sur une `Int Variable` · sur la sortie : Condition ***Variable*** *Greater Than Or Equal* `3` |
 
-!!! tip "Le `++` de l'ETB"
+!!! tip "Le mode Additive"
 
-    Dans une `Player Pref Response`, écrire `++` dans le champ valeur **incrémente** le pref au lieu de l'écraser. Un seul prefab de gemme, dupliqué dix fois, et ton compteur fonctionne. C'est ta première variable qui compte.
+    Dans une Action ***Variable***, `Value Mode` : **Additive** **ajoute** à la valeur courante au lieu de l'écraser (Int et Float seulement). Un seul prefab de gemme, dupliqué dix fois, et ton compteur fonctionne. C'est ta première variable qui compte.
+
+!!! tip "Hint Material — montrer que l'interaction existe"
+
+    Dans les options de base, coche ***Show Hint Material*** : un matériau est appliqué à un objet **tant que les conditions ne sont pas toutes remplies**, et l'original revient dès qu'elles le sont. La porte reste surlignée tant que tu n'as pas la clé, l'objet à ramasser brille tant que tu n'as pas appuyé sur ++e++.
+
+    C'est la façon la plus rapide de rendre une **affordance** lisible — et c'est directement l'exigence **B5** de ton [projet de session](./devoirs/projet-final.md) : *on comprend sur quoi agir sans qu'on te le dise*.
 
 !!! question "À toi, deux minutes"
 
@@ -234,7 +252,7 @@ Deux ETB et une variable. C'est tout.
 
 !!! note "Et appeler du vrai code?"
 
-    La réponse ***Send Message Response*** appelle une **méthode d'un script** que tu aurais écrit, avec un paramètre. C'est la passerelle entre l'ETB et le C# — celle qu'on empruntera au [cours 5](./cours05.md), quand écrire une méthode aura un sens.
+    L'action ***Invoke Events*** expose un `UnityEvent` : tu y glisses un objet de la scène et tu choisis une **méthode** d'un de ses scripts. C'est la passerelle entre le CES et le C# — celle qu'on empruntera au [cours 5](./cours05.md), quand écrire une méthode aura un sens.
 
 ---
 
@@ -310,11 +328,11 @@ Jusqu'ici, ton jeu n'existe que dans l'éditeur. **Compiler** (*build*), c'est p
 <div class="grid grid-1-2" markdown>
   ![](./assets/img/unity6.png){.aspect-4-3}
 
-  <small>Évaluation 1 — Acquis Unity (15 %)</small><br>
-  **[Le jeu express](./devoirs/jeu-express.md){.stretched-link .back}**
+  <small>Évaluation 1 — Acquis Unity (13 %)</small><br>
+  **[Le jeu express](./devoirs/protolude/index.md){.stretched-link .back}**
 </div>
 
-* **Termine et dépose ton [jeu express](./devoirs/jeu-express.md)** : personnage jouable, au moins **une** progression clé/porte, une fin, un build. **À déposer la veille du [cours 4](./cours04.md)** — on l'utilise en classe pour le retour collectif
+* **Termine et dépose ton [jeu express](./devoirs/protolude/index.md)** : personnage jouable, au moins **une** progression clé/porte, une fin, un build. **À déposer la veille du [cours 4](./cours04.md)** — on l'utilise en classe pour le retour collectif
 * Fais un **build** et fais-le essayer à quelqu'un (ami, parent, coloc). Note ses **3 premières réactions** sans l'aider — c'est ton premier playtest, et on en reparle au [cours 12](./cours12.md)
 
 <!--

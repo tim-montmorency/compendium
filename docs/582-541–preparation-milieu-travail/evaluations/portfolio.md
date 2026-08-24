@@ -179,8 +179,12 @@ Les éléments suivants doivent être présents dans votre portfolio :
 
 
 ## Dates de remise
-* **10 ou 14 septembre**: Remise de la planification de portfolio
-* **9 octobre**: Remise du portfolio final
+
+!!! info "Dates"
+
+    - Groupe Enric : Planification (14 septembre) et portfolio final (15 octobre).
+    - Groupe Lora : Planification (17 septembre) et portfolio final (8 octobre).
+
 
 ## Critères d'évaluation
 ### Planification de portfolio

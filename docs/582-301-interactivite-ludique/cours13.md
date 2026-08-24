@@ -1,5 +1,14 @@
 # Cours 13
 
+[STOP]
+
+!!! tip "Où tu devrais être rendu"
+    Ton alpha est en ligne, tu as reçu les observations de trois camarades et tu les as transformées en tâches priorisées.
+
+    **Cette semaine :** tu fermes les tâches prioritaires. La capsule d'enrichissement est **facultative** — si tu es en retard, tu la sautes sans remords et tu travailles.
+
+    ⏭️ **La semaine prochaine, jalon 4 :** contenu complet et gel des fonctionnalités.
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |

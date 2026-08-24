@@ -14,9 +14,8 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 | Pondération           | 2-2-1   |
 | Unités                | 1⅔      |
 | Heures d’enseignement | 60      |
-| Session               | 3       |
 
-<!-- [Plan de cours :material-download:](./assets/documents/582301MO-InteractiviteLudique-A2024.pdf){ .md-button .md-button--primary } -->
+[Plan de cours :material-download:](./assets/document/582311MO-Interactivite-ludique-A2026.pdf){ .md-button .md-button--primary }
 
 ## Objectifs
 
@@ -34,7 +33,7 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
   ![](../_/profs/jfcartier.jpg)
 
   **Jean-François Cartier**<br>
-  _Enseignant en Techniques d'intégration multimédia_<br>
+  _Enseignant | Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [jfcartier@cmontmorency.qc.ca](mailto:jfcartier@cmontmorency.qc.ca)<br>
   :material-github: [https://github.com/jfcmontmorency](https://github.com/jfcmontmorency)
 </div>

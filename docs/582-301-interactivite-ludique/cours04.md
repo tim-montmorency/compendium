@@ -1,10 +1,17 @@
 # Cours 4
 
-!!! abstract ":material-check-decagram: Remise du jeu express — 15 %"
+[STOP]
+
+!!! abstract ":material-check-decagram: Remise du jeu express — 13 %"
     **À déposer la veille du cours.** Environnement navigable, personnage contrôlable, physique, trigger, scènes, habillage, build.
 
-!!! abstract ":material-check-decagram: Remise du GDD — 5 %"
-    À la fin de la séance, après l'atelier et la validation. Le document est ensuite **verrouillé**.
+!!! abstract ":material-check-decagram: GDD — 5 %, à remettre avant le cours 5"
+    Tu l'ébauches en atelier aujourd'hui, tu le finis chez toi. **Remise avant le début du cours 5**, où il sera validé avec toi individuellement puis **verrouillé**.
+
+!!! important "Le chantier de la session s'ouvre aujourd'hui"
+    C'est la séance où ton jeu de session démarre. Lis l'énoncé complet maintenant : il contient le socle d'exigences, les 12 étapes séance par séance, et le backlog de départ à importer dans ton tableau GitHub.
+
+    **[Travail final — Le jeu de session (80 %)](./devoirs/projet-final.md)**
 
 ## Test
 
@@ -33,10 +40,11 @@ Pour changer de scène, il faut d'abord configurer les scènes du build. On doit
 - Dans la colonne de gauche, clic sur `Scene List`
 - Il faut glisser manuellement les scènes de notre jeu dans cette case !<br>![](./assets/img/scene-list.png){data-zoom-image} 
 
-Un fois les scènes ajoutées dans la liste, on peut utiliser un ETB (_Enhanced Trigger Box_) pour déclencher un changement de scène.
+Un fois les scènes ajoutées dans la liste, on peut utiliser un CES (_Collider Event System_) pour déclencher un changement de scène.
 
-- Dans la liste des réponses, choisir `Load Scene`
-- Dans `Load Level Name`, inscrire le nom **EXACTE** de la scène vers où il faut se diriger
+- Dans la liste des actions, `Add Action` > ***Scene***
+- `Operation` : **Load**
+- **Glisse la scène** de destination dans le champ `Scene Asset` — il n'y a pas de nom à taper, ce qui élimine d'un coup les fautes de frappe et l'ambiguïté entre deux scènes qui portent le même nom
 - Play<br>![](./assets/img/poulet.webp){data-zoom-image .w-10}
 
 <!-- ## Déroulement de la séance
@@ -150,7 +158,7 @@ NOTES DE RÉDACTION — à supprimer une fois la séance écrite
 
 À écrire à neuf : techniques narratives, devlog (format imposé), tableau
 GitHub Projects, liste de sprint + colonne Won't, grille de correction du
-jeu express (15 %).
+jeu express (13 %).
 
 ATTENTION — séance sans presque pas de Unity. Terminer par le démarrage
 du greybox pour que les élèves repartent avec l'éditeur ouvert.

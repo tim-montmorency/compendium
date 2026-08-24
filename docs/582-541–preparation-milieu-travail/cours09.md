@@ -8,9 +8,9 @@ Adresse:
 Conférence: 12h30 à 14h
 
 ## Programme
-Visite de l'agence
-Présentation de l'agence
-Présentation sur le marché du travail
+- Visite de l'agence
+- Présentation de l'agence
+- Présentation sur le marché du travail
 
 
 
