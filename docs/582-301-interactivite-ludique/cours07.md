@@ -1,5 +1,7 @@
 # Cours 7
 
+[STOP]
+
 !!! abstract ":material-comment-check: Jalon formatif F1 — Prototype jouable"
     En deuxième partie de séance, je passe vous voir individuellement. **Attendu :** un greybox navigable, un personnage contrôlable, une interaction, un début et une fin. Laid, mais jouable d'un bout à l'autre.
 

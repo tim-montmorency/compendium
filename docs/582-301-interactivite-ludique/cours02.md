@@ -1,5 +1,7 @@
 # Cours 2
 
+[STOP]
+
 !!! abstract ":material-check-decagram: Vérification du devoir 01 (2 %)"
     En début de séance, écran ouvert : la capture de ton jeu publié sur Unity Play. Rien à déposer d'autre.
 

@@ -1,5 +1,7 @@
 # Cours 13
 
+[STOP]
+
 !!! tip "Où tu devrais être rendu"
     Ton alpha est en ligne, tu as reçu les observations de trois camarades et tu les as transformées en tâches priorisées.
 

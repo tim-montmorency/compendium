@@ -1,5 +1,7 @@
 # Cours 6
 
+[STOP]
+
 !!! info "Le menu arrive ici"
     Le menu titre → jeu → fin était prévu à la S5; il a été déplacé ici, où il retrouve les transitions de scènes. Un menu, c'est un `SceneManager` avec des boutons — autant voir les deux ensemble.
 

@@ -1,5 +1,7 @@
 # Cours 11
 
+[STOP]
+
 !!! tip "Où tu devrais être rendu"
     Ton PNJ patrouille, détecte et réagit. Tes zones 2 et 3 sont en cours d'habillage.
 

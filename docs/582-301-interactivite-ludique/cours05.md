@@ -1,5 +1,7 @@
 # Cours 5
 
+[STOP]
+
 !!! abstract ":material-check-decagram: GDD remis avant le début de la séance (5 %)"
     Je valide les GDD **un par un** pendant que la classe travaille. Ton document est verrouillé à la fin de notre rencontre : après ça, on construit, on ne reconçoit plus.
 

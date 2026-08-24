@@ -1,5 +1,7 @@
 # Cours 12
 
+[STOP]
+
 !!! abstract ":material-comment-check: Jalon formatif F3 — Alpha (*feature complete*)"
     **Dépôt en début de séance :** build WebGL publié en ligne. **Attendu :** toutes les mécaniques du GDD branchées, niveau complet parcourable. Après ce point, plus aucune fonctionnalité nouvelle.
 

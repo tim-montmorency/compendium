@@ -1,5 +1,7 @@
 # Cours 15
 
+[STOP]
+
 !!! abstract ":material-check-decagram: Projet final — 80 %"
     Remise en début de séance, puis oraux. La grille détaillée est dans le [plan de cours](./plan-de-cours.md#grille-du-projet-final-80), et le socle d'exigences dans l'[énoncé du projet](./devoirs/projet-final.md).
 

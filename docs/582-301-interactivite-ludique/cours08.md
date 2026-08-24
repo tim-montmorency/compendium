@@ -1,5 +1,7 @@
 # Cours 8
 
+[STOP]
+
 !!! tip "Où tu devrais être rendu"
     Le prototype du jalon 1 est passé, tes ambiances sonores sont posées, ton backlog est monté.
 

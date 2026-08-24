@@ -1,5 +1,7 @@
 # Cours 4
 
+[STOP]
+
 !!! abstract ":material-check-decagram: Remise du jeu express — 13 %"
     **À déposer la veille du cours.** Environnement navigable, personnage contrôlable, physique, trigger, scènes, habillage, build.
 

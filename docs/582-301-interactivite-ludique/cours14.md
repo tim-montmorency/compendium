@@ -1,5 +1,7 @@
 # Cours 14
 
+[STOP]
+
 !!! tip "Où tu devrais être rendu"
     Ton contenu est complet. Les tâches issues des jalons précédents sont fermées, ou tu peux expliquer pourquoi elles ne le sont pas.
 

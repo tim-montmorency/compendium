@@ -1,5 +1,7 @@
 # Cours 9
 
+[STOP]
+
 !!! abstract ":material-comment-check: Jalon formatif F2 — Tranche verticale"
     Rotation individuelle en deuxième partie. **Attendu :** un segment court mais **fini** — habillé, animé, sonorisé, éclairé. Pas le jeu au complet : l'échantillon qui prouve le niveau de qualité que tu vises.
 
