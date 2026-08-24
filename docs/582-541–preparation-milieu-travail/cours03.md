@@ -1,7 +1,9 @@
 # Cours 3
 
-⚠️ Groupe Lora: 10 septembre
-⚠️ Groupe Enric: 21 septembre
+!!! info "Dates"
+
+    - Groupe Enric (semaine 4) : 21 septembre.
+    - Groupe Lora (semaine 3) : 10 septembre.
 
 
 ## Formation des comités pour la journée carrière
@@ -117,4 +119,5 @@ Ajouter 5 employeurs potentiels à la liste en suivant les consignes:
 ## Devoir  
 - [ ] Avancer la carte d'affaire.
 - [ ] Avancer le demo reel.
-- [ ] Terminer la planification de portfolio.
+- [ ] (Groupe de Lora) Terminer la planification de portfolio.
+- [ ] (Groupe d'Enric) Avancer le portfolio.

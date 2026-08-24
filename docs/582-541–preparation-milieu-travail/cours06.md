@@ -1,5 +1,9 @@
 # Cours 6
 
+!!! info "Dates"
+
+    - Groupe Enric : 6 octobre.
+    - Groupe Lora : 1 octobre.
 
 ## Activité sur le cv 
 Qu'est-ce que doit contenir un cv?  

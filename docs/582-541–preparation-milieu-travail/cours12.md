@@ -1,5 +1,10 @@
 # Cours 12
 
+!!! info "Dates"
+
+    - Groupe Enric : 2 novembre.
+    - Groupe Lora : 5 novembre.
+
 ## 🚨 Remise de la lettre de présentation
 
 ## Formatif

@@ -1,5 +1,10 @@
 # Cours 11
 
+!!! info "Dates"
+
+    - Groupe Enric : 26 octobre.
+    - Groupe Lora : 29 octobre.
+
 ## 🚨 Remise des CV
 
 ## Évaluation formative du CV par les pairs
