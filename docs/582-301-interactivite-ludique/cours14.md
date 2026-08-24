@@ -1,14 +1,18 @@
 # Cours 14
 
+!!! tip "Où tu devrais être rendu"
+    Ton contenu est complet. Les tâches issues des jalons précédents sont fermées, ou tu peux expliquer pourquoi elles ne le sont pas.
+
+    **Cette semaine :** on gèle. Correctifs et polissage seulement, puis build de validation publié avant de partir.
+
+    ⏭️ **Il reste une semaine.** Ce qui n'est pas dans le build de validation d'aujourd'hui a très peu de chances d'être dans la version finale.
+
 !!! abstract ":material-comment-check: Jalon formatif F4 — Bêta / *release candidate*"
     Dernière rotation individuelle. **Attendu :** contenu complet, fonctionnalités gelées, build de validation publié en ligne.
 
     On passe ensemble les *issues* `must` encore ouvertes. **Ce qui reste à la fin de cette rencontre est exactement ce qui sera vérifié au cours 15** — aucune surprise possible à la remise.
 
-!!! abstract ":material-check-decagram: Carnet de bord 2 — tenue du suivi et du classement (5 %)"
-    Corrigé pendant la même rencontre. Un devlog par séance depuis la S7, les *issues* des jalons F1 à F3 traitées, un backlog qui a bougé, des commits liés aux *issues* — plus l'**arborescence tenue** et les **crédits des médias complets** au README. Les dates sont horodatées : ça ne se fabrique pas la veille.
-
-    Savoir essentiel évalué : *classement des fichiers et des médias*. [Grille complète](./plan-de-cours.md#le-carnet-de-bord-suivi-de-production-et-classement)
+    **Dernier coup d'œil au suivi**, sans note : un devlog par séance depuis la S7, les *issues* des jalons F1 à F3 traitées, l'arborescence tenue, et surtout les **crédits des médias complets** au README — c'est la dernière occasion de les compléter avant qu'ils comptent au critère *finition*. [La liste complète](./plan-de-cours.md#le-suivi-de-production-formatif)
 
 <!-- ## Déroulement de la séance
 

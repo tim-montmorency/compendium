@@ -60,7 +60,7 @@ En fait, la programmation en chat n'est même plus tant utilisée. On est plus �
 
 ![](./assets/images/claude-code.png){data-zoom-image}
   
-Ces modèles reposent sur l'usage de tokens et d'une large fenêtre de contexte. Plus il y a de contexte, plus l'IA « comprend » l'application globale.
+Ces modèles reposent sur l'usage de tokens et d'une large fenêtre de contexte. Plus il y a de contexte, plus l'IA « comprend » l'application globale. [Github Copilot Educationnel](https://docs.github.com/fr/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students)
 
 ### C'est génial, non ?
 

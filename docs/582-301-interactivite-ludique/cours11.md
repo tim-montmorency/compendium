@@ -1,5 +1,12 @@
 # Cours 11
 
+!!! tip "Où tu devrais être rendu"
+    Ton PNJ patrouille, détecte et réagit. Tes zones 2 et 3 sont en cours d'habillage.
+
+    **Cette semaine :** la mise en ligne pour de vrai — page itch.io, README, crédits des médias, sauvegarde.
+
+    ⏭️ **La semaine prochaine, jalon 3 : dépôt de l'alpha en début de séance.** C'est le dernier moment où on ajoute des fonctionnalités. Tout ce qui n'est pas branché à ce moment-là ne le sera jamais — et c'est très bien ainsi.
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |

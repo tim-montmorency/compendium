@@ -4,7 +4,7 @@
 
 ## Objectif
 
-Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document sera validé puis **verrouillé** à la séance 4 : réfléchis maintenant, tu construiras ensuite.
+Concevoir le jeu que tu vas réaliser **pendant toute la session**. Tu l'ébauches en atelier à la séance 4, tu le remets **avant la séance 5**, et il est validé avec toi puis **verrouillé** pendant la séance 5 : réfléchis maintenant, tu construiras ensuite.
 
 !!! important "Contraintes dures"
     **1 mécanique principale, 1 niveau en 3 zones, assets Synty (POLYGON Sampler Pack) seulement.** Durée de jeu : **3 minutes minimum, 10 maximum**.
@@ -29,9 +29,13 @@ Concevoir le jeu que tu vas réaliser **pendant toute la session**. Ce document 
 
 ## Remise
 
-* **Échéance :** fin de la séance 4, après l'atelier et la validation
-* **Format :** PDF ou lien Figma - le concept et le moodboard iront ensuite dans le README de ton dépôt (créé au cours 4)
+* **Échéance :** **avant le début de la séance 5**
+* **Format :** PDF ou lien Figma - le concept et le moodboard iront ensuite dans le README de ton dépôt (créé au cours 5)
+* **Validation :** individuelle, en classe à la séance 5, pendant que le groupe monte son projet. Le document est **verrouillé** à la fin de la rencontre
 * **Évaluation :** sommative - **5 %** de la note finale
+
+!!! warning "Pourquoi ce n'est pas remis en fin de séance 4"
+    Un GDD bâclé dans les vingt dernières minutes du cours n'est pas un GDD, c'est un formulaire rempli. Tu l'écris au calme, et surtout : je peux le **lire avant** de le valider avec toi.
 
 !!! tip "Petit et fini"
     Le piège numéro un : viser trop grand. Un petit jeu terminé et poli vaut infiniment mieux qu'un grand jeu abandonné. Si tu hésites entre deux idées, choisis la plus petite.

@@ -6,6 +6,10 @@ Pour cet exercice, vous devez à l’aide de GSAP animer une voiture afin de la 
 
 ![type:video](../assets/videos/gsap-voiture-jaune.mp4)
 
+!!! warning "N'oubliez pas le fork"
+
+    Connectez-vous à CodePen, faites un **Fork**, puis **Save**. Copiez ensuite le lien `.../live/...` dans le `README.md` de votre dépôt `web3-exercices` — c'est lui qui sert de preuve à la remise.
+
 ## Instructions
 
 - [ ] Veuillez effectuer un fork du [codepen de départ](https://codepen.io/tim-momo/pen/ZEgyeGL)

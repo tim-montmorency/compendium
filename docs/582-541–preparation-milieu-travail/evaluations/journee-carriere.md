@@ -85,5 +85,5 @@ Merci de contribuer à la formation de la relève en multimédia!
 
 [Signature]  
 
-## Si l'employeur répond, me transmettre sa réponse
+**Si l'employeur répond positivement, me transmettre sa réponse**
 lora.boisvert@cmontmorency.qc.ca

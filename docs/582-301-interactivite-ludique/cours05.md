@@ -1,5 +1,16 @@
 # Cours 5
 
+!!! abstract ":material-check-decagram: GDD remis avant le début de la séance (5 %)"
+    Je valide les GDD **un par un** pendant que la classe travaille. Ton document est verrouillé à la fin de notre rencontre : après ça, on construit, on ne reconçoit plus.
+
+!!! tip "Pendant que j'appelle les élèves"
+    Tu montes ton chantier, dans cet ordre :
+
+    1. Créer le **projet Unity** du jeu de session et appliquer la structure de dossiers de la S2
+    2. **Synchroniser avec GitHub** : dépôt, `.gitignore` Unity, premier commit, tableau **GitHub Projects** avec ta liste de sprint de la S4
+    3. **Greybox de la zone 1**, et le **HUD** monté en parallèle
+
+
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |

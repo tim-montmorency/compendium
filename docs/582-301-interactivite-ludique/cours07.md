@@ -5,10 +5,12 @@
 
     Vous repartez avec un avis écrit et une liste de tâches déposée en *issues* dans votre dépôt.
 
-!!! abstract ":material-check-decagram: Carnet de bord 1 — suivi de production et classement (5 %)"
-    Corrigé pendant la même rencontre, tableau ouvert. Ce n'est **pas** l'état du jeu qui est noté : le tableau GitHub Projects alimenté depuis la S4, un backlog priorisé MoSCoW avec la colonne `Won't` remplie, au moins trois entrées de devlog — et le **classement de tes fichiers et de tes médias** : arborescence conforme à la convention de la S2, crédits des médias déjà utilisés inscrits au README.
+    **Je regarde aussi ton suivi**, tableau ouvert — sans note : le tableau alimenté depuis la S4, un backlog priorisé MoSCoW avec la colonne `Won't` remplie, trois entrées de devlog, l'arborescence conforme à la convention de la S2, et les crédits déjà inscrits au README pour les médias que tu utilises. Ce qui manque repart en *issue* `must`. [La liste complète](./plan-de-cours.md#le-suivi-de-production-formatif)
 
-    Savoir essentiel évalué : *classement des fichiers et des médias*. [Grille complète](./plan-de-cours.md#le-carnet-de-bord-suivi-de-production-et-classement)
+!!! tip "D'ici le jalon 2"
+    Deux séances, deux passes. **Cette semaine :** la sonorisation — ambiances, échantillons déclenchés, mixeur. **La semaine prochaine :** l'habillage et l'éclairage de ta zone 1.
+
+    Au bout des deux, tu as la **tranche verticale** du jalon 2 : une seule zone, mais finie. Une zone finie vaut mieux que trois esquissées — c'est là que tu découvres ce que « fini » coûte vraiment, et il te restera six semaines pour appliquer ce prix aux deux autres.
 
 <!-- ## Déroulement de la séance
 
