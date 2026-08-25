@@ -2,7 +2,7 @@
 
 ## 🚀 GitHub Education
 
-### 1️⃣ Créer un compte GitHub
+### 1️⃣ Si ce n'est pas encore fait, créer un compte GitHub
 
 1. Aller sur 👉 https://github.com
 2. Cliquer sur **Sign Up**
@@ -24,6 +24,8 @@
 6. Soumettre la demande
 
 ⏳ Attendre l'approbation de GitHub.
+
+!!! tip :material-timetable: L'approbation peut prendre quelques heures à quelques jours. Vérifier votre courriel pour la confirmation de l'approbation.
 
 ---
 
