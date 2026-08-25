@@ -38,7 +38,7 @@ Une ligne imaginaire dans la classe, d'un mur à l'autre. Tu lances des affirmat
 
     <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=6ed557ad-760b-4710-8f42-2fbc550f8c7a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="teams-web5-activer-notifications.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-### Procédure pour activer GitHub Education + GitHub Copilot Pro + VS Code
+### Procédure pour activer :material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code
 
 [:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
 
