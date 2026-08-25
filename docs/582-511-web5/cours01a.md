@@ -1,5 +1,14 @@
 # Cours 1.1
 
+Recap Grid
+https://tim-montmorency.com/compendium/582-311-web3/cours01.html#css-grid
+
+Recap Flexbox
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox01.html
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox02.html
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox-order.html
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox-gap-calc.html
+
 ## Aujourd'hui
 
 - [ ] Brise-glace
