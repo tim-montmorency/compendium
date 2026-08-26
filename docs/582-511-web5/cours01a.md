@@ -132,8 +132,10 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 !!! tip "Pour réviser avant de répondre"
     [Aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/)
 
-- [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG)
-- [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ)
+À faire en devoir
+
+- [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
+- [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB/questionnaires/6a8f2209e16d5b91fd7796a6)
 
 ## Mise en place des outils et logiciels pour le cours Web 5
 
@@ -156,4 +158,8 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 ## DEVOIR pour vendredi
 
-Compléter le quiz diagnostique JavaScript
+Faire (à ton rythme) le quiz diagnostique JavaScript
+
+
+- [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
+- [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB/questionnaires/6a8f2209e16d5b91fd7796a6)
