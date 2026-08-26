@@ -135,7 +135,7 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 À faire en devoir
 
 - [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
-- [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB/questionnaires/6a8f2209e16d5b91fd7796a6)
+- [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ/questionnaires/6a8f53523c3db622bc47fcb3)
 
 ## Mise en place des outils et logiciels pour le cours Web 5
 
@@ -162,4 +162,4 @@ Faire (à ton rythme) le quiz diagnostique JavaScript
 
 
 - [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
-- [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB/questionnaires/6a8f2209e16d5b91fd7796a6)
+- [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ/questionnaires/6a8f53523c3db622bc47fcb3)
