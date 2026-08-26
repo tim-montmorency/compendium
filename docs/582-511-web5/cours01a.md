@@ -8,6 +8,7 @@
 - [ ] Plan de cours
 - [ ] Quiz diagnostique CSS + JS
 - [ ] Mise en place des comptes (GitHub Education + Copilot, Figma Éducation)
+- [ ] Devoir
 
 ## Brise-glace 🧊🔨❄️
 
@@ -25,7 +26,6 @@
     5. L'IA fait déjà partie de ma façon de coder.
     6. J'ai hâte de travailler sur un projet créatif plutôt que sur des exercices.
     7. Je sais déjà ce que je veux faire après le DEC.
-
 
 
 
@@ -67,7 +67,7 @@ Web 5 est le cours **intégrateur** de votre 5e session : il rassemble ce que vo
 
 ## Plan de cours 📄🎓
 
-[:material-file-document-outline: Plan de cours](#){ .md-button .md-button--primary }
+[:material-file-document-outline: Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDTYB5eNYuIT7NKFELpmV9gAT0c5x58pU_X_G5hhFsUTxE?e=mW4Xc8){ .md-button .md-button--primary }
 
 ## Le travail assisté par IA 🤖
 
@@ -153,3 +153,7 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 <!-- NOUVEAU : sujet séparé à traiter ensemble, même traitement pas-à-pas que le guide GitHub -->
 
 [:simple-figma: Figma Éducation](ia/Guide_Figma_Education.md){ .md-button .md-button--primary :target="_blank" }
+
+## DEVOIR pour vendredi
+
+Compléter le quiz diagnostique JavaScript
