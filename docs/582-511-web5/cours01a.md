@@ -118,11 +118,11 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 !!! tip "Pour réviser avant de répondre"
     Le contenu est réparti sur plusieurs cours précédents :
-
-    - [Flexbox (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/flexbox01.html)
+    - [Flexbox intro (Web 2)](https://tim-montmorency.com/timdoc/582-211/css/flexbox/)
+    - [Flexbox intermédiaire (Web 2)](https://tim-montmorency.com/timdoc/582-211/css/flexbox-intermediaire/)
+    - [Flexbox avancé (Web 2)](https://tim-montmorency.com/timdoc/582-211/css/flexbox-avance/)
     - [CSS Grid (Web 3)](https://tim-montmorency.com/compendium/582-311-web3/cours01.html#css-grid)
     - [Animations CSS (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/animations-css.html)
-    - [Variables, unités et fonctions (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/variables-unites-fonctions.html)
 
 - [Gr1 mercredi AM](https://app.wooclap.com/BZPPADO)
 - [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB)
@@ -130,7 +130,9 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 ### JavaScript
 
 !!! tip "Pour réviser avant de répondre"
-    [Aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/)
+    [Aide-mémoire JavaScript de Jean-François Cartier](https://jfcmontmorency.github.io/aide-memoire/)
+    [Quelques notions de JavaScript sur timdoc](https://tim-montmorency.com/timdoc/index/web/javascript/)
+    [Bibliothèque de ressources JavaScript D'Akram Nasr](https://discovro-js.netlify.app/)
 
 À faire en devoir
 
