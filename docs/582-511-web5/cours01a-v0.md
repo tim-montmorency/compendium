@@ -1,5 +1,14 @@
 # Cours 1.1
 
+Recap Grid
+https://tim-montmorency.com/compendium/582-311-web3/cours01.html#css-grid
+
+Recap Flexbox
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox01.html
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox02.html
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox-order.html
+https://tim-montmorency.com/compendium/582-211-web2/css/flexbox-gap-calc.html
+
 ## Aujourd'hui
 
 - [ ] Brise-glace
@@ -11,23 +20,7 @@
 
 ## Brise-glace 🧊🔨❄️
 
-**Sondage humain, ligne de positionnement.** Aucun matériel, juste de l'espace pour bouger.
-
-??? info "Comment ça marche"
-    Une ligne imaginaire traverse la classe d'un mur à l'autre. Un bout représente **« tout à fait d'accord »**, l'autre **« pas du tout d'accord »**. Pour chaque affirmation, les étudiants se placent physiquement sur le spectre selon leur réponse. Prendre 30 à 60 secondes pour discuter avec 1 ou 2 personnes proches sur la ligne avant de passer à l'affirmation suivante. Durée totale : environ 10 minutes.
-
-    **Affirmations à lancer** (dans l'ordre, ou à piger selon l'énergie du groupe) :
-
-    1. Je suis à l'aise avec les animations CSS.
-    2. J'ai déjà utilisé un framework ou une librairie JavaScript (Anime.js, Chart.js, etc.).
-    3. Le travail d'équipe me stresse plus que le travail solo.
-    4. Je me sens prêt pour la dernière année du programme.
-    5. L'IA fait déjà partie de ma façon de coder.
-    6. J'ai hâte de travailler sur un projet créatif plutôt que sur des exercices.
-    7. Je sais déjà ce que je veux faire après le DEC.
-
-
-
+<!-- À définir ensemble, candidat retenu : sondage humain / ligne de positionnement -->
 
 ## Présentation du cours 🎬
 
@@ -73,8 +66,6 @@ Web 5 est le cours **intégrateur** de votre 5e session : il rassemble ce que vo
 
 L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change votre vitesse de travail, pas votre responsabilité : vous devez être capable d'expliquer et de défendre tout ce que vous livrez.
 
-[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
-
 La compétence clé se déplace : la question n'est plus « comment mémoriser la syntaxe », c'est « comment décrire clairement ce que je veux, puis reconnaître si la réponse est bonne ».
 
 ### Quatre moments où l'IA intervient
@@ -114,26 +105,8 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 ## Quiz diagnostique 🕵️✍️
 
-### CSS
-
-!!! tip "Pour réviser avant de répondre"
-    Le contenu est réparti sur plusieurs cours précédents :
-
-    - [Flexbox (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/flexbox01.html)
-    - [CSS Grid (Web 3)](https://tim-montmorency.com/compendium/582-311-web3/cours01.html#css-grid)
-    - [Animations CSS (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/animations-css.html)
-    - [Variables, unités et fonctions (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/variables-unites-fonctions.html)
-
-- [Gr1 mercredi AM](https://app.wooclap.com/BZPPADO)
-- [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB)
-
-### JavaScript
-
-!!! tip "Pour réviser avant de répondre"
-    [Aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/)
-
-- [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG)
-- [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ)
+- [Gr1 mercredi AM](https://app.wooclap.com/)
+- [Gr2 mercredi PM](https://app.wooclap.com/)
 
 ## Mise en place des outils et logiciels pour le cours Web 5
 
