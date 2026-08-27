@@ -1,9 +1,5 @@
 # Cours 1
 
-
-
-<!-- **Savoirs :** #9 Positionnement selon les maquettes -->
-
 *[CLI]: Command-Line Interface
 *[pwd]: Print Working Directory
 *[ls]: List
@@ -60,94 +56,667 @@ En fait, la programmation en chat n'est même plus tant utilisée. On est plus �
 
 ![](./assets/images/claude-code.png){data-zoom-image}
   
-Ces modèles reposent sur l'usage de tokens et d'une large fenêtre de contexte. Plus il y a de contexte, plus l'IA « comprend » l'application globale. [Github Copilot Educationnel](https://docs.github.com/fr/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students)
+Ces modèles reposent sur l'usage de tokens et d'une large fenêtre de contexte. Plus il y a de contexte, plus l'IA « comprend » l'application globale. 
 
 ### C'est génial, non ?
 
-Le _vibe coding_ et l'_agentic coding_ favorisent malheureusement la paresse intellectuelle. Sans compréhension technique pour superviser l'agent, on troque la rigueur contre une perte de contrôle sur le code qu'on ne comprend plus.
+Ouais. On sait que ça favorise la paresse intellectuelle, et alors ? Tant pis, tout le monde le fait 🤷
 
-> Prenez votre temps 🧘
+Partons de là, mais essayons de développer des compétences en chemin tout de même. 
 
-Prenez le temps de **comprendre** le code généré, de **lire** les explications, de **remettre en question** les solutions proposées et de **valider** les décisions prises par l’agent.
+Ça passe par l'attitude. On pourrait le voir de 2 manières. Soit on utilise l'IA comme : 
 
-<!-- La venue des calculatrices a démocratisé l'accès au calcul rapide, éliminé les erreurs humaines et transformé l'éducation. En automatisant les tâches répétitives, elle a permis de se concentrer sur l'analyse et la résolution de problèmes complexes. -->
-    
-## Plan de cours
+- tremplin pour accomplir en se développant (active le processus cognitif pour comprendre)
+- raccourci pour accomplir en se débarrassant (sans exploiter le processus cognitif) 
 
-[Plan de cours :material-download:](./assets/documents/plan-cours_web_3_A2026.pdf){ .md-button .md-button--primary }
+[Github Copilot Educationnel](https://docs.github.com/fr/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students)
 
 ## CSS Grid
 
 ![](./assets/images/the-grid.gif){.w-100}
 
-En Web 2, vous avez vu Flexbox. Il y a juste une dernière notion à connaitre pour avoir fait le tour du CSS, le `display: grid;`.
+En Web 2, vous avez vu Flexbox. Il reste une dernière petite notion pour avoir fait le tour de la mise en page en CSS&nbsp;: le `display: grid;`.
 
-Le [système de grille](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Grid_layout) permet, pour sa part, d’organiser une page Web en lignes et colonnes, un peu comme un tableau invisible sur lequel on place des éléments.
+Le [système de grille](https://css-tricks.com/complete-guide-css-grid-layout/)[^josh] permet d'organiser une page Web en lignes et colonnes, un peu comme un tableau invisible sur lequel on place des éléments.
 
-Contrairement à Flexbox, qui aligne les éléments les uns après les autres dans un seul axe (horizontal OU vertical), Grid est pensé pour gérer les deux axes en même temps. Donc avec grid, il n'y a pas de principe d'orientation comme en flex.
+[^josh]: [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
 
-[Guide css-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) (_[Cheatsheet](https://css-tricks.com/wp-content/uploads/2022/02/css-grid-poster.png)_)
+### `flexbox` vs. `grid`
 
-### Quand l'utiliser ?
+<div class="grid" markdown>
+![](./assets/images/flex-vs-grid.webp){data-zoom-image}
 
-* Pour construire des layouts de page (header, nav, aside, main, footer).
-* Pour des galeries d’images où les items doivent s’adapter automatiquement.
-* Pour organiser du contenu sous forme de tableaux flexibles et responsives.
+![](./assets/images/Flexbox-Container-Inside-a-Grid-Container.png){data-zoom-image}
+</div>
 
-https://jfcmontmorency.github.io/css-grid-playground/
+**Usages de `flexbox`** : Une barre de navigation, une rangée de boutons, un groupe d'étiquettes<br>
+**Usages de `grid`** : Le squelette d'une page, une galerie, un tableau de bord, tableau responsive.
 
 ### Activer Grid
 
+Par défaut, une grille crée **une seule colonne** et **autant de rangées qu'il y a d'enfants**.
+
 ```html title="HTML"
 <div class="grille">
-  <div>A</div>
-  <div>B</div>
-  <div>C</div>
-  <div>D</div>
-  <div>E</div>
+  <div>E1</div>
+  <div>E2</div>
+  <div>E3</div>
+  ...
 </div>
 ```
 
-```css title="CSS"
-.grille {
+<div class="gf-demo" data-gf>
+  <div class="gf-panel">
+    <p class="gf-title">Hauteur non spécifiée (automatique)</p>
+    <div class="gf-code">.grille {
   display: grid;
-}
-```
+}</div>
+    <label class="gf-control"><span>Nombre d'enfants&nbsp;: <b class="gf-count">3</b></span><input type="range" min="1" max="5" value="3"></label>
+  </div>
+  <div class="gf-stage">
+    <div class="gf-scene"><div class="gf-grid"></div></div>
+    <label class="gf-check"><input type="checkbox" checked> Voir en perspective</label>
+  </div>
+</div>
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid" src="https://codepen.io/tim-momo/embed/dPGyQzB?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/dPGyQzB">
-  Web Grid</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<div class="gf-demo" data-gf data-fixed>
+  <div class="gf-panel">
+    <p class="gf-title">Hauteur spécifiée</p>
+    <div class="gf-code">.grille {
+  display: grid;
+  height: 260px;
+}</div>
+    <label class="gf-control"><span>Nombre d'enfants&nbsp;: <b class="gf-count">3</b></span><input type="range" min="1" max="5" value="3"></label>
+  </div>
+  <div class="gf-stage">
+    <div class="gf-scene"><div class="gf-grid"></div></div>
+    <label class="gf-check"><input type="checkbox" checked> Voir en perspective</label>
+  </div>
+</div>
 
-Tous les enfants directs deviennent des items de la grille, mais pour que le comportement de grille se fasse voir, il faut spécifier les colonnes / lignes. Sinon on dirait de simples div normales.
+<style>
+  .gf-demo {
+    display: grid;
+    grid-template-columns: minmax(300px, 360px) 1fr;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--md-default-fg-color--lightest, #ddd);
+    border-radius: 8px;
+  }
+  @media screen and (max-width: 44.9em) {
+    .gf-demo { grid-template-columns: 1fr; }
+  }
+  .gf-demo .gf-title {
+    margin: 0 0 .6rem;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    opacity: .7;
+  }
+  .gf-demo .gf-control {
+    margin-top: .7rem;
+    display: block;
+    font-family: var(--md-code-font-family, monospace);
+    font-size: .7rem;
+  }
+  .gf-demo .gf-control > span { display: block; margin-bottom: .2rem; }
+  .gf-demo input[type="range"] { width: 100%; }
+  .gf-demo .gf-check {
+    display: flex;
+    margin-top: .7rem;
+    gap: .4rem;
+    align-items: center;
+    font-family: var(--md-code-font-family, monospace);
+    font-size: .7rem;
+    cursor: pointer;
+  }
+  .gf-demo .gf-code {
+    margin: .7rem 0 0;
+    padding: .55rem .7rem;
+    font-family: var(--md-code-font-family, monospace);
+    font-size: .68rem;
+    white-space: pre;
+    background: var(--md-code-bg-color, #f5f5f5);
+    border-radius: 4px;
+  }
+
+  .gf-demo .gf-stage {
+    display: grid;
+    min-height: 280px;
+    padding: 20px;
+    perspective: 900px;
+    place-items: center;
+  }
+  .gf-demo .gf-scene {
+    width: min(100%, 300px);
+    transform-style: preserve-3d;
+    transition: transform .55s ease;
+  }
+  .gf-demo.gf-3d .gf-scene { transform: rotateX(15deg) rotateY(-25deg) scale(.825); }
+  .gf-demo .gf-grid {
+    box-sizing: border-box;
+    display: grid;
+    gap: 1px;
+    width: 100%;
+    padding: 8px;
+    background: var(--md-code-bg-color, #f5f5f5);
+    border: 2px dashed var(--md-default-fg-color--light, #999);
+    border-radius: 6px;
+    transform-style: preserve-3d;
+  }
+  .gf-demo[data-fixed] .gf-grid { height: 260px; }
+  .gf-demo .gf-cell {
+    border: 1px dashed var(--md-default-fg-color--lighter, #bbb);
+    border-radius: 4px;
+  }
+  .gf-demo .gf-item {
+    display: grid;
+    padding: .6rem;
+    font: 700 .75rem var(--md-code-font-family, monospace);
+    color: #0b1a2b;
+    background: #8fb8e0;
+    border-radius: 4px;
+    place-items: center;
+    transition: transform .55s ease;
+  }
+  .gf-demo.gf-3d .gf-item { transform: translateZ(32px); }
+
+  .ga-hint {
+    margin: .6rem 0 0;
+    font-size: .72rem;
+    line-height: 1.4;
+    opacity: .75;
+  }
+  .ga-grid {
+    position: relative;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(var(--ga-cols), 1fr);
+    grid-template-rows: repeat(var(--ga-rows), 46px);
+    gap: 6px;
+    width: 100%;
+    max-width: 420px;
+    padding: 8px;
+    background: var(--md-code-bg-color, #f5f5f5);
+    border: 2px dashed var(--md-default-fg-color--light, #999);
+    border-radius: 6px;
+    user-select: none;
+    touch-action: none;
+    cursor: crosshair;
+  }
+  .ga-grid .ga-cell {
+    border: 1px dashed var(--md-default-fg-color--lighter, #bbb);
+    border-radius: 4px;
+  }
+  .ga-grid .ga-cell.ga-hover {
+    background: rgba(143, 184, 224, .35);
+  }
+  .ga-grid .ga-item {
+    display: grid;
+    place-items: center;
+    font: 700 .78rem/1 var(--md-code-font-family, monospace);
+    color: #0b1a2b;
+    background: #8fb8e0;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+
+  .ga-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    padding: 18px 0 0 20px;
+  }
+  .ga-colnums, .ga-rownums {
+    position: absolute;
+    display: grid;
+    pointer-events: none;
+    transition: opacity .15s ease;
+    font: 700 .62rem/1 var(--md-code-font-family, monospace);
+    color: var(--md-default-fg-color--light, #888);
+  }
+  .ga-colnums {
+    top: 10px;
+    z-index: 10;
+    left: 21px;
+    right: 0;
+    height: 18px;
+    grid-template-columns: repeat(var(--ga-cols), 1fr);
+    column-gap: 6px;
+    padding: 0 10px;
+  }
+  .ga-rownums {
+    top: 19px;
+    z-index: 10;
+    left: 10px;
+    bottom: 0;
+    width: 20px;
+    grid-template-rows: repeat(var(--ga-rows), 46px);
+    row-gap: 6px;
+    padding: 10px 0;
+  }
+  .ga-numtoggle-off .ga-colnums,
+  .ga-numtoggle-off .ga-rownums {
+    opacity: 0;
+  }
+  .ga-numcell {
+    position: relative;
+  }
+  .ga-linenum {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .ga-colnums .ga-linenum {
+    left: 0;
+    bottom: 0;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .ga-colnums .ga-linenum-end {
+    left: calc(100% - 1px);
+  }
+  .ga-rownums .ga-linenum {
+    top: 0;
+    right: 0;
+    flex-direction: row;
+    transform: translateY(-50%);
+  }
+  .ga-rownums .ga-linenum-end {
+    top: calc(100% - 1px);
+  }
+  .ga-linenum .ga-tick {
+    background: var(--md-default-fg-color--light, #999);
+  }
+  .ga-colnums .ga-linenum .ga-tick { width: 1px; height: 20px; }
+  .ga-rownums .ga-linenum .ga-tick { width: 20px; height: 1px; }
+
+  .gta-preview {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas:
+      "sidebar header"
+      "sidebar main";
+    gap: 6px;
+    width: 100%;
+    max-width: 340px;
+    min-height: 200px;
+    padding: 8px;
+    background: var(--md-code-bg-color, #f5f5f5);
+    border: 2px dashed var(--md-default-fg-color--light, #999);
+    border-radius: 6px;
+  }
+  .gta-preview .gta-area {
+    position: relative;
+    display: grid;
+    place-items: center;
+    font: 700 .78rem/1 var(--md-code-font-family, monospace);
+    border: 1px dashed var(--md-default-fg-color--lighter, #bbb);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .gta-preview .gta-area.gta-active {
+    color: #0b1a2b;
+    background: #8fb8e0;
+    border-color: transparent;
+  }
+  .gta-preview .gta-area .gta-child-badge {
+    display: none;
+    position: absolute;
+    right: 6px;
+    bottom: 4px;
+    font-size: .6rem;
+  }
+  .gta-preview .gta-area.gta-active .gta-child-badge {
+    display: block;
+  }
+</style>
+
+<script>
+  (function () {
+    function buildGap(root) {
+      if (root.dataset.ready) return;
+      root.dataset.ready = "1";
+
+      var grid = root.querySelector(".gf-grid");
+      var persp = root.querySelector("input[type=checkbox]");
+      var colSlider = root.querySelector(".gf-colgap-slider");
+      var rowSlider = root.querySelector(".gf-rowgap-slider");
+      var colOut = root.querySelector(".gf-colgap");
+      var rowOut = root.querySelector(".gf-rowgap");
+      var code = root.querySelector(".gf-code");
+
+      grid.style.gridTemplateColumns = "1fr 1fr";
+      grid.style.gridTemplateRows = "1fr 1fr";
+
+      function render() {
+        var colGap = Number(colSlider.value);
+        var rowGap = Number(rowSlider.value);
+        colOut.textContent = colGap;
+        rowOut.textContent = rowGap;
+        root.classList.toggle("gf-3d", persp.checked);
+
+        grid.style.columnGap = colGap + "px";
+        grid.style.rowGap = rowGap + "px";
+        code.textContent = ".grille {\n  column-gap: " + colGap + "px;\n  row-gap: " + rowGap + "px;\n}";
+
+        var html = "";
+        for (var r = 1; r <= 2; r++) {
+          for (var c = 1; c <= 2; c++) {
+            html += '<div class="gf-cell" style="grid-row:' + r + ';grid-column:' + c + '"></div>';
+          }
+        }
+        for (var j = 1; j <= 4; j++) {
+          var col = ((j - 1) % 2) + 1;
+          var row = Math.floor((j - 1) / 2) + 1;
+          html += '<div class="gf-item" style="grid-row:' + row + ';grid-column:' + col + '">E' + j + '</div>';
+        }
+        grid.innerHTML = html;
+      }
+
+      colSlider.addEventListener("input", render);
+      rowSlider.addEventListener("input", render);
+      persp.addEventListener("change", render);
+      render();
+    }
+
+    function build(root) {
+      if (root.dataset.gfGap !== undefined) {
+        buildGap(root);
+        return;
+      }
+      if (root.dataset.ready) return;
+      root.dataset.ready = "3";
+
+      var grid = root.querySelector(".gf-grid");
+      var slider = root.querySelector("input[type=range]");
+      var persp = root.querySelector("input[type=checkbox]");
+      var count = root.querySelector(".gf-count");
+
+      function render() {
+        var n = Number(slider.value);
+        count.textContent = n;
+        root.classList.toggle("gf-3d", persp.checked);
+
+        var cols = root.dataset.gfColumns;
+        var rows = root.dataset.gfRows;
+        var numCols, numRows;
+
+        if (rows) {
+          // Pas de grid-template-columns : la grille reste sur 1 seule
+          // colonne et ajoute des rangées implicites, comme en vrai CSS.
+          numCols = 1;
+          numRows = n;
+          grid.style.gridTemplateRows = rows;
+        } else {
+          numCols = cols ? cols.trim().split(/\s+/).length : 1;
+          numRows = Math.ceil(n / numCols);
+          if (cols) {
+            grid.style.gridTemplateColumns = cols;
+          }
+        }
+
+        var html = "";
+        for (var r = 1; r <= numRows; r++) {
+          for (var c = 1; c <= numCols; c++) {
+            html += '<div class="gf-cell" style="grid-row:' + r + ';grid-column:' + c + '"></div>';
+          }
+        }
+        for (var j = 1; j <= n; j++) {
+          var col = ((j - 1) % numCols) + 1;
+          var row = Math.floor((j - 1) / numCols) + 1;
+          html += '<div class="gf-item" style="grid-row:' + row + ';grid-column:' + col + '">E' + j + '</div>';
+        }
+        grid.innerHTML = html;
+      }
+
+      slider.addEventListener("input", render);
+      persp.addEventListener("change", render);
+      render();
+    }
+
+    function buildArea(root) {
+      if (root.dataset.ready) return;
+      root.dataset.ready = "1";
+
+      var wrap = root.querySelector(".ga-wrap");
+      var stage = root.querySelector(".ga-grid");
+      var colnums = root.querySelector(".ga-colnums");
+      var rownums = root.querySelector(".ga-rownums");
+      var numToggle = root.querySelector(".ga-numtoggle");
+      var code = root.querySelector(".gf-code");
+      var cols = Number(stage.dataset.cols) || 4;
+      var rows = Number(stage.dataset.rows) || 4;
+
+      // Sur .ga-wrap (ancêtre commun) pour que .ga-colnums et .ga-rownums
+      // héritent les mêmes pistes que .ga-grid, sans mesure en pixels.
+      wrap.style.setProperty("--ga-cols", cols);
+      wrap.style.setProperty("--ga-rows", rows);
+
+      var cellsHtml = "";
+      for (var r = 1; r <= rows; r++) {
+        for (var c = 1; c <= cols; c++) {
+          cellsHtml += '<div class="ga-cell" data-col="' + c + '" data-row="' + r + '" style="grid-column:' + c + ';grid-row:' + r + '"></div>';
+        }
+      }
+      stage.innerHTML = cellsHtml;
+
+      var item = document.createElement("div");
+      item.className = "ga-item";
+      item.textContent = " ";
+      stage.appendChild(item);
+
+      var cells = Array.prototype.slice.call(stage.querySelectorAll(".ga-cell"));
+      var dragging = false;
+      var start = null;
+
+      function cellFromPoint(clientX, clientY) {
+        var rect = stage.getBoundingClientRect();
+        var col = Math.floor(((clientX - rect.left) / rect.width) * cols) + 1;
+        var row = Math.floor(((clientY - rect.top) / rect.height) * rows) + 1;
+        col = Math.min(Math.max(col, 1), cols);
+        row = Math.min(Math.max(row, 1), rows);
+        return { col: col, row: row };
+      }
+
+      function apply(c1, c2, r1, r2) {
+        item.style.gridColumn = c1 + " / " + (c2 + 1);
+        item.style.gridRow = r1 + " / " + (r2 + 1);
+        cells.forEach(function (cell) {
+          var c = Number(cell.dataset.col);
+          var r = Number(cell.dataset.row);
+          cell.classList.toggle("ga-hover", c >= c1 && c <= c2 && r >= r1 && r <= r2);
+        });
+        code.textContent = ".enfant {\n  grid-column: " + c1 + " / " + (c2 + 1) + ";\n  grid-row: " + r1 + " / " + (r2 + 1) + ";\n}";
+      }
+
+      function update(clientX, clientY) {
+        var current = cellFromPoint(clientX, clientY);
+        var c1 = Math.min(start.col, current.col);
+        var c2 = Math.max(start.col, current.col);
+        var r1 = Math.min(start.row, current.row);
+        var r2 = Math.max(start.row, current.row);
+        apply(c1, c2, r1, r2);
+      }
+
+      stage.addEventListener("pointerdown", function (e) {
+        dragging = true;
+        start = cellFromPoint(e.clientX, e.clientY);
+        stage.setPointerCapture(e.pointerId);
+        update(e.clientX, e.clientY);
+        e.preventDefault();
+      });
+      stage.addEventListener("pointermove", function (e) {
+        if (!dragging) return;
+        update(e.clientX, e.clientY);
+      });
+      stage.addEventListener("pointerup", function () {
+        dragging = false;
+      });
+
+      function buildLineNumbers() {
+        // .ga-colnums / .ga-rownums répliquent les mêmes pistes que .ga-grid
+        // (via --ga-cols / --ga-rows) : une "case" par colonne/rangée, dans
+        // laquelle le numéro de ligne se positionne en absolute. La dernière
+        // case reçoit en plus le numéro de la ligne finale (cols+1 / rows+1).
+        var colHtml = "";
+        for (var c = 1; c <= cols; c++) {
+          colHtml += '<span class="ga-numcell" style="grid-column:' + c + '">';
+          colHtml += '<span class="ga-linenum">' + c + '<span class="ga-tick"></span></span>';
+          if (c === cols) {
+            colHtml += '<span class="ga-linenum ga-linenum-end">' + (c + 1) + '<span class="ga-tick"></span></span>';
+          }
+          colHtml += '</span>';
+        }
+        colnums.innerHTML = colHtml;
+
+        var rowHtml = "";
+        for (var r = 1; r <= rows; r++) {
+          rowHtml += '<span class="ga-numcell" style="grid-row:' + r + '">';
+          rowHtml += '<span class="ga-linenum">' + r + '<span class="ga-tick"></span></span>';
+          if (r === rows) {
+            rowHtml += '<span class="ga-linenum ga-linenum-end">' + (r + 1) + '<span class="ga-tick"></span></span>';
+          }
+          rowHtml += '</span>';
+        }
+        rownums.innerHTML = rowHtml;
+      }
+
+      function syncNumToggle() {
+        root.classList.toggle("ga-numtoggle-off", !numToggle.checked);
+      }
+
+      numToggle.addEventListener("change", syncNumToggle);
+
+      apply(2, 3, 2, 3);
+      buildLineNumbers();
+      syncNumToggle();
+    }
+
+    function buildAreas(root) {
+      if (root.dataset.ready) return;
+      root.dataset.ready = "1";
+
+      // La grille de zones est fixe (celle de l'exemple ci-dessus) : on ne
+      // fait varier que le grid-area du .enfant, en cliquant une zone.
+      var AREAS = ["sidebar", "header", "main"];
+
+      var preview = root.querySelector(".gta-preview");
+      var code = root.querySelector(".gf-code");
+      var current = "sidebar";
+
+      var previewHtml = "";
+      AREAS.forEach(function (name) {
+        previewHtml += '<div class="gta-area" data-area="' + name + '" style="grid-area:' + name + '">' + name + '<span class="gta-child-badge">.enfant</span></div>';
+      });
+      preview.innerHTML = previewHtml;
+
+      var zones = Array.prototype.slice.call(preview.querySelectorAll(".gta-area"));
+
+      function render() {
+        zones.forEach(function (z) {
+          z.classList.toggle("gta-active", z.dataset.area === current);
+        });
+        code.textContent = ".grille {\n  display: grid;\n  grid-template-columns: 2fr 5fr;\n  grid-template-rows: 50px 1fr;\n  grid-template-areas:\n    'sidebar header'\n    'sidebar main';\n}\n.enfant {\n  grid-area: " + current + ";\n}";
+      }
+
+      zones.forEach(function (z) {
+        z.addEventListener("click", function () {
+          current = z.dataset.area;
+          render();
+        });
+      });
+
+      render();
+    }
+
+    function initAll() {
+      document.querySelectorAll("[data-gf]").forEach(build);
+      document.querySelectorAll("[data-ga]").forEach(buildArea);
+      document.querySelectorAll("[data-gta]").forEach(buildAreas);
+    }
+
+    if (window.document$ && window.document$.subscribe) {
+      window.document$.subscribe(initAll);
+    } else if (document.readyState !== "loading") {
+      initAll();
+    } else {
+      document.addEventListener("DOMContentLoaded", initAll);
+    }
+  })();
+</script>
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/grid-a/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - CSS</small><br>
+  **[Grid | La base](./exercices/grid-a/index.md){.stretched-link .back}**
+</div>
 
 ### Colonnes et lignes
 
-Les propriétés [`grid-template-columns`](https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns) et [`grid-template-rows`](https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows) sont la base pour créer un quadrillage précis.
+Les propriétés [`grid-template-columns`](https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns) et [`grid-template-rows`](https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows) sont la base pour créer un quadrillage.
 
 #### `grid-template-columns`
 
-Définit la largeur des colonnes de la grille.
+Pour définir des colonnes, on inscrit des largeurs séparées par des espaces. Les enfants de la grille occuperont ces dimensions.
 
 ```css
 .grille {
   display: grid;
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 300px auto;
 }
+
+/*
+Affiche 2 colonnes :
+|-------------|---------------------------------|
+     300px                   auto
+*/
 ```
 
-Crée 3 colonnes :
+Bien que cet exemple soit assez fréquent, parfois on veut une structure un peu plus complexe et dynamique. On travaillera alors avec la notion de fraction.
 
-* une fixe de 100px
-* une fluide qui prend l’espace restant (1fr = 1 fraction)
-* une fixe de 100px
+<!-- ![](./assets/images/col-fraction.jpg){data-zoom-image .w-50} -->
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid" src="https://codepen.io/tim-momo/embed/qEbBgbX?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/qEbBgbX">
-  Web Grid</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+Pour ce faire avec `grid`, nous utiliserons, non pas l'unité de pourcentage, mais plutôt l'unité de mesure de fraction : `fr`.
+
+![](./assets/images/grid-fraction.jpg){data-zoom-image}
+
+
+<div class="gf-demo" data-gf data-gf-columns="1fr 2fr 1fr">
+  <div class="gf-panel">
+    <p class="gf-title">Colonnes en fractions</p>
+    <div class="gf-code">.grille {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}</div>
+    <label class="gf-control"><span>Nombre d'enfants&nbsp;: <b class="gf-count">2</b></span><input type="range" min="1" max="8" value="2"></label>
+  </div>
+  <div class="gf-stage">
+    <div class="gf-scene"><div class="gf-grid"></div></div>
+    <label class="gf-check"><input type="checkbox" checked> Voir en perspective</label>
+  </div>
+</div>
+
+!!! info "Les programmeurs sont paresseux"
+
+    Admettons que je veuille faire une grille pour un calendrier. Ça me prend 7 colonnes pour chaque jour de la semaine. 
+    
+    Je pourrais faire : 
+
+    ```css
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    ```
+
+    mais la fonction `repeat` permet de faire ça plus proprement :
+
+    ```css
+    grid-template-columns: repeat(7, 1fr);
+    ```
 
 #### `grid-template-rows`
 
@@ -158,84 +727,33 @@ Définit la hauteur des rangées.
   display: grid;
   grid-template-rows: 100px auto 50px;
 }
-```
 
-Crée 3 lignes :
-
-* une de 100px
-* une qui s’adapte au contenu (auto)
-* une de 50px
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid template columns" src="https://codepen.io/tim-momo/embed/qEbBgNX?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/qEbBgNX">
-  Web Grid template columns</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-#### Raccourcis utiles
-
-```css title="repeat()"
-grid-template-columns: repeat(3, 1fr);
-/* 
-est identique à 
-grid-template-columns: 1fr 1fr 1fr;
+/*
+Affiche 3 lignes :
+- une de 100px de haut
+- une qui s'adapte au contenu (auto)
+- une de 50px de haut
 */
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid template rows" src="https://codepen.io/tim-momo/embed/PwZoVpV?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/PwZoVpV">
-  Web Grid template rows</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-```css title="repeat + auto-fit = responsive !"
-/* 
-Chaque colonne doit avoir au moins 150px,
-mais peut grandir jusqu’à occuper une fraction de l’espace dispo.
-*/
-grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-```
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid template columns repeat" src="https://codepen.io/tim-momo/embed/ogbNmWE?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/ogbNmWE">
-  Web Grid template columns repeat</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-!!! question "À vous de jouer"
-
-    Avant de continuer, recréez une grille de 4 colonnes égales et 2 rangées de 100px chacune (`grid-template-columns` + `grid-template-rows`) directement dans un des CodePen ci-dessus.
-
-### Zones
-
-![](./assets/images/grid-template-area.png){.w-50 data-zoom-image}
-
-La propriété `grid-template-areas` donne un nom à des zones de la grille. Ça sert à être plus lisible et facile à maintenir.
-
-```css title="Exemple"
-.grille {
+<div class="gf-demo" data-gf data-gf-rows="140px 70px">
+  <div class="gf-panel">
+    <p class="gf-title">Rangées</p>
+    <div class="gf-code">.grille {
   display: grid;
-  grid-template-columns: 30px 1fr 1fr;
-  grid-template-rows: 60px 1fr;
-  grid-template-areas:
-    "allo allo allo"
-    "bravo cadeau cadeau";
-}
-```
+  grid-template-rows: 140px 70px;
+}</div>
+    <label class="gf-control"><span>Nombre d'enfants&nbsp;: <b class="gf-count">3</b></span><input type="range" min="1" max="6" value="1"></label>
+  </div>
+  <div class="gf-stage">
+    <div class="gf-scene"><div class="gf-grid"></div></div>
+    <label class="gf-check"><input type="checkbox" checked> Voir en perspective</label>
+  </div>
+</div>
 
-Puis on assigne chaque élément :
+!!! note "Notez ceci"
 
-```css title="Exemple"
-.div1 { grid-area: allo; }
-.div2 { grid-area: bravo; }
-.div3 { grid-area: cadeau; }
-```
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - template-area" src="https://codepen.io/tim-momo/embed/wBMBYjZ?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/wBMBYjZ">
-  Web Grid - template-area</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+    Quand on configure par exemple 2 lignes, le navigateur va déjà prévoir la hauteur, même si aucun enfant n'est présent.
 
 ### Espacements
 
@@ -255,155 +773,82 @@ Propriétés :
 }
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - justify-content" src="https://codepen.io/tim-momo/embed/XJXJxqN?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XJXJxqN">
-  Web Grid - justify-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/grid-b/giphy.gif){.aspect-4-3}
 
-### Alignement global du contenu
-
-Les propriétés `justify-content` et `align-content` gèrent l’alignement de l’ensemble de la grille, pas des items individuellement.
-
-#### `justify-content`
-
-![](./assets/images/justify-content.png){.w-50 data-zoom-image}
-
-Aligne la grille entière horizontalement dans le conteneur, si celui-ci est plus large que la somme des colonnes.
-
-```css title="Exemple"
-.grille {
-  justify-content: center;   /* centre la grille horizontalement */
-}
-```
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - align-content" src="https://codepen.io/tim-momo/embed/dPGPgmd?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/dPGPgmd">
-  Web Grid - align-content</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-#### `align-content`
-
-![](./assets/images/align-content.png){.w-50 data-zoom-image}
-
-Aligne la grille entière verticalement, si la hauteur du conteneur est plus grande que celle des lignes.
-
-```css title="Exemple"
-.grille {
-  align-content: space-between;
-}
-```
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - align-items / justify-items" src="https://codepen.io/tim-momo/embed/EaPadQW?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/EaPadQW">
-  Web Grid - align-items / justify-items</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-### Alignement des items dans les cellules
-
-#### `align-items` / `justify-items`
-
-<div class="grid" markdown>
-<figure markdown>
-![](./assets/images/align-items.png){data-zoom-image}
-<figcaption>align-items</figcaption>
-</figure>
-<figure markdown>
-![](./assets/images/justify-items.png){data-zoom-image}
-<figcaption>justify-items</figcaption>
-</figure>
+  <small>Exercice - CSS</small><br>
+  **[Grid | Mise en page](./exercices/grid-b/index.md){.stretched-link .back}**
 </div>
 
-Les propriétés `align-items` et `justify-items` contrôlent l’alignement par défaut des items dans leurs cellules.
+### Fusion de cellule
 
-```scss title="Exemple"
-.grille {
-  //...
-  align-items: end;
-  justify-items: center;
+Ah là ça commence !
+
+Maintenant qu'on a configuré la grille, on peut configurer les enfants et c'est là que ça devient vraiment intéressant ! Un enfant n'est pas contraint d'exister dans une cellule. Il peut s'étendre sur plusieurs.
+
+Pour cela, on peut spécifier de où à où il doit aller, sur les colonnes comme sur les lignes.
+
+```css title="Exemple"
+.enfant {
+  grid-column: 1 / 3; /* De la ligne 1 à la ligne 3 (2 colonnes) */
+  grid-row: 1 / 2; /* De la ligne 1 à la ligne 2 (1 rangée) */
 }
 ```
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid - align-self / justify-self" src="https://codepen.io/tim-momo/embed/YPwPJEa?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/YPwPJEa">
-  Web Grid - align-self / justify-self</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-Tous les enfants s’aligneront ainsi, sauf si un item définit ses propres règles.
-
-#### `align-self` / `justify-self`
-
-<div class="grid" markdown>
-<figure markdown>
-![](./assets/images/align-self.png){data-zoom-image}
-<figcaption>align-self</figcaption>
-</figure>
-<figure markdown>
-![](./assets/images/justify-self.png){data-zoom-image}
-<figcaption>justify-self</figcaption>
-</figure>
+<div class="gf-demo" data-ga>
+  <div class="gf-panel">
+    <p class="gf-title">Fusionner des cellules</p>
+    <div class="gf-code">.enfant {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}</div>
+  </div>
+  <div class="gf-stage">
+    <div class="ga-wrap">
+      <div class="ga-colnums"></div>
+      <div class="ga-rownums"></div>
+      <div class="ga-grid" data-cols="4" data-rows="4"></div>
+    </div>
+    <label class="gf-check"><input type="checkbox" class="ga-numtoggle" checked> Afficher les repères</label>
+  </div>
 </div>
 
-Permettent d’aligner un item individuel dans sa cellule.
+#### Span
 
-```scss title="Exemple"
-.item {
-  align-self: end;         
-  justify-self: center;    
-}
-```
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Web Grid testing" src="https://codepen.io/tim-momo/embed/XJXJxbm?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/tim-momo/pen/XJXJxbm">
-  Web Grid testing</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
-#### `place-items`
-
-`place-items` est un raccourci pratique qui combine `align-items` (axe vertical) et `justify-items` (axe horizontal) en une seule propriété.
+On peut aussi configurer le nombre de cases à occuper sans spécifier d'emplacement.
 
 ```css
-.grille {
-  /* équivalent à align-items: center; justify-items: center; */
-  place-items: center;
+.enfant-x { 
+  grid-column: span 2;
+  /* occupera 2 colonnes à partir de son emplacement */
 }
 ```
 
-Note : `place-items` s'applique au conteneur de la grille et définit l'alignement par défaut pour tous les items. Les propriétés individuelles `align-self` / `justify-self` peuvent toujours être utilisées pour surcharger l'alignement d'un item spécifique.
+![](./assets/images/grid-span-ex.png){data-zoom-image .w-33}
 
-### Placement manuel
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/grid-c/giphy.gif){.aspect-4-3}
 
-Les propriétés de positionnement permettent de définir précisément où commence et finit un élément dans la grille.
+  <small>Exercice - CSS</small><br>
+  **[Grid | Spirale](./exercices/grid-c/index.md){.stretched-link .back}**
+</div>
 
-#### `grid-row-start` / `grid-row-end`
+### Responsive
 
-Définissent sur quelle ligne horizontale un item commence et finit :
-
-```css
-.item {
-  grid-row-start: 1;    /* commence à la 1ère ligne horizontale */
-  grid-row-end: 3;      /* finit avant la 3e ligne horizontale */
-  /* L'item occupe donc les rangées 1 et 2 */
-}
+```css title="repeat + auto-fit = responsive !"
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 ```
 
-#### `grid-column-start` / `grid-column-end`
+| Config | Rôle |
+| --- | --- |
+| `minmax(150px, 1fr)` | Chaque colonne fait **au minimum 150px**, et **au maximum** une part de l'espace disponible |
+| `auto-fit` | Le navigateur **calcule lui-même combien de colonnes entrent**, au lieu d'un nombre fixe |
 
-Définissent sur quelle ligne verticale un item commence et finit :
+Résultat&nbsp;: la galerie passe toute seule de 4 colonnes sur un écran large à 1 colonne sur un téléphone. Aucun point d'arrêt à écrire.
 
-```css
-.item {
-  grid-column-start: 2;  /* commence à la 2e ligne verticale */
-  grid-column-end: 5;    /* finit avant la 5e ligne verticale */
-  /* L'item occupe donc les colonnes 2, 3 et 4 */
-}
-```
+### Les valeurs négatives
 
-Note : Il est possible d'utiliser des valeurs négatives 🤪 Elles comptent à partir de la fin de la grille : `-1` correspond à la dernière ligne, peu importe le nombre de colonnes ou de rangées.
+Les lignes se comptent aussi **à partir de la fin**&nbsp;: `-1` est toujours la dernière ligne, peu importe le nombre de colonnes.
 
 ```css
 .item {
@@ -411,63 +856,280 @@ Note : Il est possible d'utiliser des valeurs négatives 🤪 Elles comptent à 
 }
 ```
 
-#### Raccourcis `grid-column` / `grid-row`
+### Régions
 
-![](./assets/images/grid-column.png){.w-50 data-zoom-image}
+![](./assets/images/grid-area-fr.png){data-zoom-image}
 
-Les propriétés `grid-column` et `grid-row` permettent à un item d’occuper plusieurs cases de la grille.
+Tout ça pour en arriver aux régions (_areas_). 
 
-```scss
-.item {
-  /* Raccourci pour grid-column-start: 2 et grid-column-end: 5 */
-  grid-column: 2 / 5; 
-    
-  /* Raccourci pour grid-row-start: 1 et grid-row-end: 3 */
-  grid-row: 1 / 3;    
-}
+Avec `grid-template-areas`, il est possible de concevoir le modèle de la grille avec des mots clés en css ! Ensuite, on assigne à l'enfant le mot clé avec la propriété `grid-area` et voilà, l'enfant va se positionner dans le layout.
+
+```html
+<div class="grille">
+  <div class="enfant"></div>
+  ...
+</div>
 ```
 
-Très utile pour créer des mises en page asymétriques (un bloc plus grand que les autres).
-
-#### Raccourci des raccourcis `grid-area`
-
-![](./assets/images/grid-area.png){.w-50 data-zoom-image}
-
-`grid-area` combine toutes les propriétés de positionnement en une seule ligne :
-
-```scss
-.item {
-  grid-area: 1 / 5 / 4 / 6;
-
-  // Équivalent à :
-  //   grid-row-start: 1
-  //   grid-column-start: 5  
-  //   grid-row-end: 4
-  //   grid-column-end: 6
+<div class="gf-demo" data-gta>
+  <div class="gf-panel">
+    <div class="gf-code">.grille {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar main';
 }
+.enfant {
+  grid-area: sidebar;
+}</div>
+  </div>
+  <div class="gf-stage">
+    <div class="gta-preview"></div>
+  </div>
+</div>
+
+DONC, pour reproduire le layout, on aurait : 
+
+```html
+<div class="grille">
+  <div class="enfant1"></div>
+  <div class="enfant2"></div>
+  <div class="enfant3"></div>
+</div>
 ```
-
-L'ordre des valeurs est : `row-start / column-start / row-end / column-end`
-
-##### Note sur le mot-clé `span`
-
-Dans le système grid, `span` est un mot-clé utile pour indiquer qu'un item doit occuper un certain nombre de lignes ou colonnes sans préciser explicitement l'index de fin.
 
 ```css
-/* 
-Commence à la colonne 2 et s'étend sur 3 colonnes (2,3,4) 
-Équivalent de : .item { grid-column: 2 / 5; }
-*/
-.item { grid-column: 2 / span 3; }
+.grille {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar main';
+}
+.enfant1 {
+  grid-area: sidebar;
+}
+.enfant2 {
+  grid-area: header;
+}
+.enfant3 {
+  grid-area: main;
+}
 ```
 
-### En résumé : trois façons de positionner un item
+!!! note "Ordre des contenus et accessibilité"
 
-| Propriété | Quand l'utiliser | Exemple |
-|---|---|---|
-| `grid-template-areas` + `grid-area: nom` | Mise en page nommée et facile à visualiser (header / nav / main / footer) | `grid-area: header;` |
-| `grid-column` / `grid-row` | Placement rapide par numéros de lignes | `grid-column: 2 / 5;` |
-| `grid-area: r1 / c1 / r2 / c2` | Positionnement précis en une seule déclaration | `grid-area: 1 / 5 / 4 / 6;` |
+    Notez qu'il est important que l'ordre des contenus dans le HTML reste logique.
+
+    En effet, l'usage de `grid-template-areas` fonctionne avec n'importe quel ordre du contenu. Cependant, les liseuses vont lire le contenu HTML séquentiellement.
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/grid-d/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - CSS</small><br>
+  **[Grid | Squelette](./exercices/grid-d/index.md){.stretched-link .back}**
+</div>
+
+### Alignement global du contenu
+
+Les configurations d'alignement ressemblent beaucoup à celles de flexbox.
+
+<div class="ga-demo" id="ga-demo">
+  <div class="ga-panel">
+    <p class="ga-legend">Sur le conteneur — la grille entière</p>
+    <label>justify-content
+      <select data-scope="grid" data-prop="justify-content">
+        <option value="">normal (défaut)</option>
+        <option>start</option><option>center</option><option>end</option>
+        <option>space-between</option><option>space-around</option><option>space-evenly</option>
+      </select>
+    </label>
+    <label>align-content
+      <select data-scope="grid" data-prop="align-content">
+        <option value="">normal (défaut)</option>
+        <option>start</option><option>center</option><option>end</option>
+        <option>space-between</option><option>space-around</option><option>space-evenly</option>
+      </select>
+    </label>
+
+    <p class="ga-legend">Sur le conteneur — tous les items</p>
+    <label>justify-items
+      <select data-scope="grid" data-prop="justify-items">
+        <option value="">stretch (défaut)</option>
+        <option>start</option><option>center</option><option>end</option>
+      </select>
+    </label>
+    <label>align-items
+      <select data-scope="grid" data-prop="align-items">
+        <option value="">stretch (défaut)</option>
+        <option>start</option><option>center</option><option>end</option>
+      </select>
+    </label>
+
+    <p class="ga-legend">Sur l'item 3 seulement</p>
+    <label>justify-self
+      <select data-scope="item" data-prop="justify-self">
+        <option value="">auto (défaut)</option>
+        <option>start</option><option>center</option><option>end</option><option>stretch</option>
+      </select>
+    </label>
+    <label>align-self
+      <select data-scope="item" data-prop="align-self">
+        <option value="">auto (défaut)</option>
+        <option>start</option><option>center</option><option>end</option><option>stretch</option>
+      </select>
+    </label>
+
+    <button type="button" class="ga-reset">Tout remettre à zéro</button>
+  </div>
+
+  <div class="ga-right">
+    <div class="ga-stage">
+      <div class="ga-grid">
+        <div>1</div><div>2</div><div class="ga-pick">3</div>
+        <div>4</div><div>5</div><div>6</div>
+      </div>
+    </div>
+    <pre class="ga-code"><code></code></pre>
+  </div>
+</div>
+
+<style>
+  .ga-demo {
+    display: grid;
+    grid-template-columns: minmax(200px, 260px) 1fr;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--md-default-fg-color--lightest, #ddd);
+    border-radius: 8px;
+  }
+  @media screen and (max-width: 44.9em) {
+    .ga-demo { grid-template-columns: 1fr; }
+  }
+  .ga-demo .ga-legend {
+    margin: .9rem 0 .35rem;
+    font-size: .62rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    opacity: .65;
+  }
+  .ga-demo .ga-panel > .ga-legend:first-child { margin-top: 0; }
+  .ga-demo label {
+    display: grid;
+    gap: .15rem;
+    margin-bottom: .45rem;
+    font-family: var(--md-code-font-family, monospace);
+    font-size: .68rem;
+  }
+  .ga-demo select {
+    width: 100%;
+    padding: .3rem .4rem;
+    font: inherit;
+    color: inherit;
+    background: var(--md-default-bg-color, #fff);
+    border: 1px solid var(--md-default-fg-color--lighter, #ccc);
+    border-radius: 4px;
+  }
+  .ga-demo .ga-reset {
+    margin-top: .8rem;
+    padding: .35rem .7rem;
+    font-size: .7rem;
+    color: inherit;
+    cursor: pointer;
+    background: var(--md-code-bg-color, #f5f5f5);
+    border: 1px solid var(--md-default-fg-color--lighter, #ccc);
+    border-radius: 4px;
+  }
+  .ga-demo .ga-stage { height: 260px; }
+  .ga-demo .ga-grid {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-auto-rows: 58px;
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: var(--md-code-bg-color, #f5f5f5);
+    border: 2px dashed var(--md-default-fg-color--light, #999);
+    border-radius: 6px;
+  }
+  .ga-demo .ga-grid > div {
+    display: grid;
+    min-width: 34px;
+    min-height: 26px;
+    padding: .3rem .5rem;
+    font: 700 .8rem/1 var(--md-code-font-family, monospace);
+    color: #0b1a2b;
+    background: #8fb8e0;
+    border-radius: 4px;
+    place-items: center;
+  }
+  .ga-demo .ga-grid > .ga-pick {
+    background: #f0a882;
+    outline: 2px solid #c2410c;
+  }
+  .ga-demo .ga-code {
+    margin: .8rem 0 0;
+    font-size: .7rem;
+  }
+</style>
+
+<script>
+  (function () {
+    function init() {
+      var root = document.getElementById("ga-demo");
+      if (!root || root.dataset.ready) return;
+      root.dataset.ready = "1";
+
+      var grid = root.querySelector(".ga-grid");
+      var item = root.querySelector(".ga-pick");
+      var out = root.querySelector(".ga-code code");
+      var fields = root.querySelectorAll("select");
+
+      function render() {
+        var onGrid = [], onItem = [];
+        fields.forEach(function (f) {
+          var target = f.dataset.scope === "grid" ? grid : item;
+          target.style.setProperty(f.dataset.prop, f.value);
+          if (!f.value) return;
+          (f.dataset.scope === "grid" ? onGrid : onItem)
+            .push("  " + f.dataset.prop + ": " + f.value + ";");
+        });
+
+        var css = ".grille {\n  display: grid;\n  grid-template-columns: repeat(3, 70px);\n  gap: 8px;\n"
+          + (onGrid.length ? onGrid.join("\n") + "\n" : "") + "}";
+        if (onItem.length) {
+          css += "\n\n.item-3 {\n" + onItem.join("\n") + "\n}";
+        }
+        out.textContent = css;
+      }
+
+      fields.forEach(function (f) { f.addEventListener("change", render); });
+      root.querySelector(".ga-reset").addEventListener("click", function () {
+        fields.forEach(function (f) { f.value = ""; });
+        render();
+      });
+      render();
+    }
+
+    if (window.document$ && window.document$.subscribe) {
+      window.document$.subscribe(init);
+    } else if (document.readyState !== "loading") {
+      init();
+    } else {
+      document.addEventListener("DOMContentLoaded", init);
+    }
+  })();
+</script>
+
+
+
 
 ## Lignes de commande
 
@@ -475,7 +1137,7 @@ Commence à la colonne 2 et s'étend sur 3 colonnes (2,3,4)
 
 La [ligne de commande](https://fr.wikipedia.org/wiki/Commandes_Unix) est un outil qui permet d’interagir avec un ordinateur (en local ou à distance) en tapant des commandes textuelles.
 
-On écrit ces commandes dans une interface textuelle (CLI) appelé « Terminal » ou « Console ».
+On écrit ces commandes dans une interface textuelle (CLI) appelée « Terminal » ou « Console ».
 
 <!-- Ça exécute un **Shell** (le programme qui interprète les commandes, comme Bash, Zsh ou PowerShell) 😅. -->
 
@@ -503,41 +1165,31 @@ Aucune installation n'est normalement requise. Un terminal existe déjà sur vot
 
 [^powershell]: [https://learn.microsoft.com/fr-ca/training/modules/introduction-to-powershell/](https://learn.microsoft.com/fr-ca/training/modules/introduction-to-powershell/)
 [^terminal_osx]: [https://support.apple.com/fr-ca/guide/terminal/welcome/mac](https://support.apple.com/fr-ca/guide/terminal/welcome/mac)
-[^terminal_unix]: [https://ubuntu.com/tutorials/command-line-for-beginners](https://ubuntu.com/tutorials/command-line-for-beginners) (en anglais)
+[^terminal_unix]: [https://ubuntu.com/tutorials/command-line-for-beginners](https://ubuntu.com/tutorials/command-line-for-beginners)
 
-!!! danger "Sacré Windows 😤"
+!!! danger "Windows ..."
 
-    C'est bien connu, Windows est très propriétaire dans son approche et ses lignes de commande lui sont propres.
+    Windows a ses propres lignes de commande.
 
     Le hic c'est que dans le monde du Web, la grande majorité des serveurs fonctionnent sous Linux et non sur Windows.
     
-    Il est donc important d'apprendre les commandes Linux. Pour ce faire sous Windows, on utilise généralement une alternative à PowerShell (comme **Git Bash** ou **WSL**). C'est le moyen le plus simple d'exécuter des lignes de commande Linux sans changer de système.
+    Il est donc important d'apprendre les commandes Linux. Pour ce faire sous Windows, on utilise généralement une alternative à PowerShell (comme **Git Bash** ou **WSL**).
 
-    Au Cégep, « **Git Bash** » est déjà installé 🙌. Si vous devez l'installer à la maison, consulter le [guide d'installation de « Git Bash »](./extra/git-bash.md).
+    Au Cégep, « **Git Bash** » est déjà installé 🙌. Si vous devez l'installer à la maison, consultez le [guide d'installation de « Git Bash »](./extra/git-bash.md).
 
-Il y a plusieurs autres accès pour communiquer en ligne de commande. Par exemple, vscode a une interface de terminal. Github desktop aussi.
+!!! info "Plein d'alternatives"
+
+    Il y a plusieurs autres accès pour communiquer en ligne de commande. Par exemple, VS Code a une interface de terminal. GitHub Desktop aussi.
 
 ## Commandes courantes
 
-Lorsque vous naviguez dans Windows, vous utilisez une interface graphique. Vous cliquez sur des fenêtres et des dossiers pour vous déplacer sur votre ordinateur. En réalité, cette interface n’est qu’une façade. En arrière-plan, le système exécute des commandes pour réaliser chacune de vos actions.
+Lorsque vous naviguez dans Windows, vous utilisez une interface graphique. Vous cliquez sur des fenêtres et des dossiers pour vous déplacer sur votre ordinateur. En vrai, c'est juste une façade. En arrière-plan, le système exécute des commandes pour réaliser chacune des actions.
 
 Nous allons maintenant apprendre à naviguer sur l’ordinateur uniquement à l’aide de la ligne de commande. 
 
-Voici une petite introduction aux commandes `pwd`, `ls` et `cd` (à consulter en plein écran) :
+Voici une petite introduction aux commandes de base `pwd`, `ls` et `cd` :
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQEFxLZyQ8RuiIhJKTtB9zumjvPRaKMiLIkDr9vmb7auj_YUNUE4jSJHzsNiRUdkcsAFkPWpdqUxQN/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<!-- Voici une liste de commandes courantes que nous allons élaborer : 
-
-* `pwd` : Affiche le répertoire courant
-* `ls` : Liste le contenu du répertoire
-* `cd` : Change le répertoire actuel
-* `cat` : Concaténe et affiche le contenu d'un fichier
-* `cp` : Copie le fichier
-* `mv` : Déplace ou renomme de fichier
-* `rm` : Supprime un fichier
-* `touch` : Crée un fichier vide
-* `mkdir` : Crée un nouveau dossier -->
 
 ### Répertoire courant : `pwd`
 
@@ -589,37 +1241,17 @@ Elle fait l'équivalent de double cliquer sur des dossiers dans l'Explorateur Wi
 
     ![cd](./assets/images/cd.png){data-zoom-image}
 
-
 #### Chemins relatifs
 
 Vous vous souvenez des chemins relatifs ? 
 
-Chemin relatif : `./images/chat.jpg`
+Chemin relatif : `./images/chat.jpg`<br>
 Chemin absolu : `/c/Users/123456789/OneDrive/Desktop/mon-site-web/images/chat.jpg`
 
 Le chemin relatif qui commence par un "." veut dire que le chemin commence par le répertoire courant.
 
-Admettons qu'on se trouve dans le répertoire `mon-site-web`, le point est un raccourci pour écrire : `/c/Users/123456789/OneDrive/Desktop/mon-site-web`.
+![](./assets/images/relative-ex.jpg){data-zoom-image}
 
-```ps
-pwd
-# /c/Users/123456789/OneDrive/Desktop/mon-site-web
-cd images
-pwd
-# /c/Users/123456789/OneDrive/Desktop/mon-site-web/images
-```
-
-#### Parent
-
-Si le simple point `.` représente le répertoire courant, le double point `..` représente le dossier parent.
-
-```ps
-pwd
-# /c/Users/123456789/OneDrive/Desktop/mon-site-web
-cd ..
-pwd
-# /c/Users/123456789/OneDrive/Desktop
-```
 
 ### Nouveau dossier : `mkdir`
 
@@ -755,17 +1387,6 @@ nano nom_du_fichier.txt
 * La commande `clear` permet de nettoyer le terminal
 
 ## Exercices
-
-<div class="grid grid-1-2" markdown>
-  ![](./exercices/spirale/spirale2.gif)
-
-  <small>Exercice - grid</small><br>
-  **[Spirale](./exercices/spirale/index.md){.stretched-link .back}**
-</div>
-
-https://gridcritters.com/
-
-https://stephaniewalter.design/blog/fun-places-to-learn-css-layout-part-2-grid-layout/
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/mandala.jpeg)

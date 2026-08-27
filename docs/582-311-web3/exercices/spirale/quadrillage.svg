@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" width="460" height="460" role="img" aria-label="Grille de 3 colonnes et 3 rangees ou les boites 1 a 5 occupent chacune une seule case, dans l ordre du HTML">
+  <rect x="0" y="0" width="460" height="460" fill="#212529"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+    <g fill="none" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="6 5">
+      <rect x="30" y="30" width="400" height="400"/>
+      <line x1="163.3" y1="30" x2="163.3" y2="430"/>
+      <line x1="296.6" y1="30" x2="296.6" y2="430"/>
+      <line x1="30" y1="163.3" x2="430" y2="163.3"/>
+      <line x1="30" y1="296.6" x2="430" y2="296.6"/>
+    </g>
+    <g fill="none" stroke="#ffffff" stroke-width="2">
+      <rect x="30" y="30" width="133.3" height="133.3"/>
+      <rect x="163.3" y="30" width="133.3" height="133.3"/>
+      <rect x="296.6" y="30" width="133.3" height="133.3"/>
+      <rect x="30" y="163.3" width="133.3" height="133.3"/>
+      <rect x="163.3" y="163.3" width="133.3" height="133.3"/>
+    </g>
+    <text x="96.6" y="105">1</text>
+    <text x="230" y="105">2</text>
+    <text x="363.3" y="105">3</text>
+    <text x="96.6" y="238">4</text>
+    <text x="230" y="238">5</text>
+    <text x="363.3" y="245" font-size="15" fill="#6b7280">vide</text>
+    <text x="96.6" y="378" font-size="15" fill="#6b7280">vide</text>
+    <text x="230" y="378" font-size="15" fill="#6b7280">vide</text>
+    <text x="363.3" y="378" font-size="15" fill="#6b7280">vide</text>
+  </g>
+</svg>
