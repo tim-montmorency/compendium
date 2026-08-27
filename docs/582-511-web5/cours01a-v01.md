@@ -8,7 +8,6 @@
 - [ ] Plan de cours
 - [ ] Quiz diagnostique CSS + JS
 - [ ] Mise en place des comptes (GitHub Education + Copilot, Figma Éducation)
-- [ ] Devoir
 
 ## Brise-glace 🧊🔨❄️
 
@@ -27,7 +26,13 @@
     6. J'ai hâte de travailler sur un projet créatif plutôt que sur des exercices.
     7. Je sais déjà ce que je veux faire après le DEC.
 
+<!--
+!!! tip "Double usage"
+    Les affirmations 1, 2 et 5 donnent un portrait réel et rapide du groupe (confort en CSS, exposition aux frameworks, rapport à l'IA), en complément du quiz diagnostique plus formel. Les autres servent surtout à faire parler et bouger le groupe.
 
+
+Pas de débreffage formel requis, l'intérêt est dans le mouvement et les conversations courtes en chemin.
+-->
 
 ## Présentation du cours 🎬
 
@@ -38,15 +43,15 @@ Web 5 est le cours **intégrateur** de votre 5e session : il rassemble ce que vo
 | Projet | Format | Pondération | Période |
 |---|---|---|---|
 | **Portfolio** | Individuel | 40 % | Semaines 1 à 7 |
-| **Projet intégrateur** *(scrollytelling)* | Équipe de 2 | 60 % | Semaines 7 à 15 |
+| **Projet intégrateur** | Équipe de 2 | 60 % | Semaines 7 à 15 |
 
 !!! tip
     Aucun examen dans ce cours. Toute l'évaluation repose sur ces deux projets, avec des jalons formatifs en cours de route pour vous laisser le droit à l'erreur avant chaque remise sommative.
 
-### Coenseignement avec Préparation au milieu du travail
+### Coenseignement avec *Préparation au milieu du travail
 
 !!! note "Le portfolio est un projet conjoint"
-    - **Web 5** s'occupe du **contenant** : site web, code, design, UX, qualité
+    - **Web 5** s'occupe du **contenant** : site web, code, design, UX, qualité#
     - **Préparation au milieu du travail** (Lora / Enric) s'occupe du **contenu** : CV, lettre de présentation, démo reel
 
 ### Nouveautés cette session
@@ -67,13 +72,11 @@ Web 5 est le cours **intégrateur** de votre 5e session : il rassemble ce que vo
 
 ## Plan de cours 📄🎓
 
-[:material-file-document-outline: Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDTYB5eNYuIT7NKFELpmV9gAT0c5x58pU_X_G5hhFsUTxE?e=mW4Xc8){ .md-button .md-button--primary }
+[:material-file-document-outline: Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDTYB5eNYuIT7NKFELpmV9gAT0c5x58pU_X_G5hhFsUTxE?e=fwGhnk){ .md-button .md-button--primary }
 
 ## Le travail assisté par IA 🤖
 
 L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change votre vitesse de travail, pas votre responsabilité : vous devez être capable d'expliquer et de défendre tout ce que vous livrez.
-
-[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
 
 La compétence clé se déplace : la question n'est plus « comment mémoriser la syntaxe », c'est « comment décrire clairement ce que je veux, puis reconnaître si la réponse est bonne ».
 
@@ -114,30 +117,8 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 ## Quiz diagnostique 🕵️✍️
 
-### CSS
-
-!!! tip "Pour réviser avant de répondre"
-    Le contenu est réparti sur plusieurs cours précédents :
-    - [Flexbox intro (Web 2)](https://tim-montmorency.com/timdoc/582-211/css/flexbox/)
-    - [Flexbox intermédiaire (Web 2)](https://tim-montmorency.com/timdoc/582-211/css/flexbox-intermediaire/)
-    - [Flexbox avancé (Web 2)](https://tim-montmorency.com/timdoc/582-211/css/flexbox-avance/)
-    - [CSS Grid (Web 3)](https://tim-montmorency.com/compendium/582-311-web3/cours01.html#css-grid)
-    - [Animations CSS (Web 2)](https://tim-montmorency.com/compendium/582-211-web2/css/animations-css.html)
-
 - [Gr1 mercredi AM](https://app.wooclap.com/BZPPADO)
 - [Gr2 mercredi PM](https://app.wooclap.com/EJQMHPB)
-
-### JavaScript
-
-!!! tip "Pour réviser avant de répondre"
-    [Aide-mémoire JavaScript de Jean-François Cartier](https://jfcmontmorency.github.io/aide-memoire/)
-    [Quelques notions de JavaScript sur timdoc](https://tim-montmorency.com/timdoc/index/web/javascript/)
-    [Bibliothèque de ressources JavaScript D'Akram Nasr](https://discovro-js.netlify.app/)
-
-À faire en devoir
-
-- [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
-- [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ/questionnaires/6a8f53523c3db622bc47fcb3)
 
 ## Mise en place des outils et logiciels pour le cours Web 5
 
@@ -157,11 +138,3 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 <!-- NOUVEAU : sujet séparé à traiter ensemble, même traitement pas-à-pas que le guide GitHub -->
 
 [:simple-figma: Figma Éducation](ia/Guide_Figma_Education.md){ .md-button .md-button--primary :target="_blank" }
-
-## DEVOIR pour vendredi
-
-Faire (à ton rythme) le quiz diagnostique JavaScript
-
-
-- [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
-- [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ/questionnaires/6a8f53523c3db622bc47fcb3)

@@ -74,7 +74,8 @@ Discussion sur les comités
 * Ensuite, faire une recherche internet et collecter des images qui représentent cette esthétique.
 * Assembler les images dans un moodboard avec une palette de couleur et des typos pour définir votre identité visuelle.
 
-Voici des inspirations pour la présentation de votre identité: 
+Voici des inspirations pour la présentation de votre identité:     
+
 [📁 Exemples identites](https://canva.link/umecx1hp5xrxf71){ .md-button }     
 
 
