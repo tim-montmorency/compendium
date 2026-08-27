@@ -115,50 +115,85 @@
 <h2>Modalités d'évaluation et dates de remise</h2>
 
 <div class="proj-section-label proj-label-teal">Remises formatives — ne comptent pas dans la note finale</div>
-<p class="proj-subtext proj-indent">Ces trois étapes vous permettent de recevoir des rétroactions concrètes et d'ajuster votre travail avant la remise finale — c'est là que se construit la qualité de votre portfolio.</p>
+<p class="proj-subtext proj-indent">Ces deux étapes vous permettent de recevoir des rétroactions concrètes et d'ajuster votre travail avant la remise finale, c'est là que se construit la qualité de votre portfolio.</p>
 
 <div class="proj-stepper">
-  <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Semaine 2 · 2 sept</div><div class="proj-step-title">Planification</div></div>
-  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">Semaine 3 · 11 sept</div><div class="proj-step-title">Design</div></div>
-  <div class="proj-step"><div class="proj-step-num">3</div><div class="proj-step-week">Semaine 6 · 2 oct</div><div class="proj-step-title">Intégration + QA</div></div>
+  <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Enric : 14 sept · Lora : 17 sept</div><div class="proj-step-title">Planification et design</div></div>
+  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">Semaine 6 · 2 oct</div><div class="proj-step-title">Version Beta</div></div>
 </div>
 
 <div class="proj-deliverable-grid">
   <ul>
     <li>Dépôt GitHub initialisé</li>
     <li>Moodboard</li>
+    <li>Maquettes visuelles mobile et desktop</li>
     <li>Justification des choix technologiques</li>
     <li>Plan de contenu et architecture du site</li>
-    <li>Rétroaction collective de l'enseignante en classe, basée sur la grille critériée</li>
-  </ul>
-  <ul>
-    <li>Maquettes visuelles mobile et desktop</li>
     <li>Journal de bord complété jusqu'à ce point</li>
-    <li>Rétroaction audio ou vidéo individuelle de l'enseignante, en parcourant les maquettes et le journal à l'écran (groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre)</li>
+    <li>Rétroaction formative individuelle : groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre</li>
   </ul>
   <ul>
-    <li>Avancement du code</li>
-    <li>Auto-évaluation à partir de la grille critériée</li>
-    <li>Résultats des tests par les pairs documentés et correctifs apportés</li>
-    <li>Évaluation par les pairs structurée à partir de la grille de tests guidés</li>
+    <li>Version Beta déployée et fonctionnelle en ligne</li>
+    <li>Grille de validation qualité amorcée</li>
+    <li>Lancement des tests par les pairs cette semaine-là (résultats et correctifs à documenter pour la remise finale)</li>
   </ul>
 </div>
 
 <div class="proj-section-label proj-label-coral">Remise finale — sommative, compte pour 40% de la note</div>
 <div class="proj-final-block">
   <div class="proj-final-num">
-    <div class="proj-final-circle">4</div>
+    <div class="proj-final-circle">3</div>
     <div class="proj-final-week">Semaine 7 · mi-session</div>
+    <div class="proj-final-dates">Lora : 8 oct<br>Enric : 15 oct</div>
   </div>
   <div class="proj-final-text">
     <strong>Portfolio complet et présentation devant le jury.</strong>
     <ul>
       <li>Dépôt du site en ligne</li>
       <li>Journal de bord complété pour l'ensemble du projet</li>
+      <li>Auto-évaluation à partir de la grille critériée, résultats des tests par les pairs documentés et correctifs apportés</li>
       <li>Présentation devant le jury : groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre (~5 min par étudiant·e, suivies de questions)</li>
       <li>Évaluation du produit final, de la démarche de contrôle de qualité, du processus documenté (journal et commits Git) et de la capacité à justifier ses choix devant un employeur potentiel</li>
     </ul>
   </div>
 </div>
+
+<h2>Sites de référence d'inspiration</h2>
+
+<h3>Inspirations graphiques / web design</h3>
+<ul class="proj-ref-list">
+  <li>• <a href="https://www.awwwards.com/" target="_blank">Awwwards</a></li>
+  <li>• <a href="https://www.cssdesignawards.com/" target="_blank">CSS Design Awards</a></li>
+  <li>• <a href="https://dribbble.com/shots/popular/web-design" target="_blank">Dribbble, Web Design (popular shots)</a></li>
+  <li>• <a href="https://www.behance.net/search/projects/portfolio" target="_blank">Behance, Portfolios</a></li>
+</ul>
+
+<h3>Références intemporelles</h3>
+<ul class="proj-ref-list">
+  <li>• <a href="https://material.io/" target="_blank">Material Design</a></li>
+  <li>• <a href="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" target="_blank">Théorie des couleurs, La Cascade</a></li>
+</ul>
+
+<h3>Exemples de portfolios d'anciens étudiants</h3>
+<ul class="proj-ref-list">
+  <li>💼 <a href="https://emerykbelisle.com/" target="_blank">Portfolio de Émeryk Bélisle</a></li>
+  <li>💼 <a href="https://mikaelarseneau.github.io/portfolio-Mikael-Arseneau/index.html" target="_blank">Portfolio de Mikael Arseneau</a></li>
+  <li>💼 <a href="https://matisgh.github.io/portfolio-matis-ghariani/" target="_blank">Portfolio de Matis Ghariani</a></li>
+  <li>💼 <a href="https://antoha2033.github.io/portfolio-Anton-Nikulin/index.html" target="_blank">Portfolio de Anton Nikulin</a></li>
+  
+  <li>💼 <a href="https://thearyl.github.io/portfolio-thearylou-lach/" target="_blank">Portfolio de Thearylou Lach</a></li>
+  <li>💼 <a href="https://audreydandurand.github.io/index.html" target="_blank">Portfolio de Audrey Dandurand</a></li>
+  <li>💼 <a href="https://justinersu.github.io/" target="_blank">Portfolio de Justine Rousseau</a></li>
+  <li>💼 <a href="https://victorgileau.github.io/victorgileau_portfolio/index.html" target="_blank">Portfolio de Victor Gileau</a></li>
+  <li>💼 <a href="https://jxshvfx.github.io/joshuagonzalez.github.io/" target="_blank">Portfolio de Joshua Gonzalez-Barrera</a></li>
+
+  <li>💼 <a href="https://kenzaelharrif.github.io/KenzaElHarrif_portfolio/index.html" target="_blank">Portfolio de Kenza El Harrif</a></li>
+  <li>💼 <a href="https://delphineg-projets.github.io/portfolio" target="_blank">Portfolio de Delphine Grenier</a></li>
+  <li>💼 <a href="https://ihabmjr.github.io/" target="_blank">Portfolio de Ihab Mouhajer</a></li>
+  <li>💼 <a href="https://dezemma.com/" target="_blank">Portfolio de Daniel Sébastien Dezemma</a></li>
+  <li>💼 <a href="https://sitmonternna.github.io/artist_portfolio/" target="_blank">Portfolio de Sitmonternna Yi</a></li>
+
+  <li>💼 <a href="https://benjaminferland.github.io/portfolio-benjamin-ferland/" target="_blank">Portfolio de Benjamin Ferland</a></li>
+</ul>
 
 </div>

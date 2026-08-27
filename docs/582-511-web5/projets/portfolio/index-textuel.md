@@ -1,4 +1,4 @@
-# Projet 1 : Votre Portfolio en ligne
+# Projet 1 : VOtre Portfolio en ligne
 
 ## Mise en situation
 
@@ -97,10 +97,41 @@ Ce projet compte pour **40 % de la note finale** du cours Web 5 et est évalué 
 
 ### Remises formatives
 
-- **Remise 1 : Planification et mise en place** *(semaine 2, 2 septembre)* : dépôt GitHub initialisé, document de planification incluant le moodboard, la justification des choix technologiques, le plan de contenu et l'architecture du site. **Rétroaction collective** de l'enseignante en classe, basée sur la grille critériée.
-- **Remise 2 : Design** *(semaine 3, 11 septembre)* : maquettes visuelles mobile et desktop, journal de bord complété jusqu'à ce point. **Rétroaction audio ou vidéo individuelle** de l'enseignante, en parcourant les maquettes et le journal à l'écran (groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre).
-- **Remise 3 : Intégration et contrôle de qualité** *(semaine 6, 2 octobre)* : avancement du code, auto-évaluation complétée à partir de la grille critériée, résultats des tests par les pairs documentés et correctifs apportés. **Évaluation par les pairs** structurée à partir de la grille de tests guidés.
+- **Remise 1 : Planification et design** *(groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre)* : dépôt GitHub initialisé, moodboard, maquettes visuelles mobile et desktop, justification des choix technologiques, plan de contenu et architecture du site, journal de bord complété jusqu'à ce point. **Rétroaction formative individuelle** de l'enseignante.
+- **Remise 2 : Version Beta** *(semaine 6, 2 octobre)* : version Beta déployée et fonctionnelle en ligne, grille de validation qualité amorcée. Lancement des tests par les pairs cette semaine-là ; **les résultats et correctifs seront documentés pour la remise finale**.
 
 ### Remise finale : sommative (40%)
 
-- **Remise 4 : Portfolio complet et présentation devant le jury** *(semaine 7, mi-session)* : dépôt du site en ligne, journal de bord complété pour l'ensemble du projet, présentation devant le jury (groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre). Durée approximative : 5 minutes de présentation par étudiant·e, suivies de questions du jury. L'évaluation porte sur le produit final, la démarche de contrôle de qualité, le processus documenté (journal de bord et commits Git) et la capacité à justifier ses choix devant un employeur potentiel.
+- **Remise 3 : Portfolio complet et présentation devant le jury** *(semaine 7, mi-session)* : dépôt du site en ligne, journal de bord complété pour l'ensemble du projet, auto-évaluation à partir de la grille critériée, résultats des tests par les pairs documentés et correctifs apportés, présentation devant le jury (groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre). Durée approximative : 5 minutes de présentation par étudiant·e, suivies de questions du jury. L'évaluation porte sur le produit final, la démarche de contrôle de qualité, le processus documenté (journal de bord et commits Git) et la capacité à justifier ses choix devant un employeur potentiel.
+
+## Sites de référence d'inspiration
+
+### Inspirations graphiques / web design
+
+- [Awwwards](https://www.awwwards.com/)
+- [CSS Design Awards](https://www.cssdesignawards.com/)
+- [Dribbble, Web Design (popular shots)](https://dribbble.com/shots/popular/web-design)
+- [Behance, Portfolios](https://www.behance.net/search/projects/portfolio)
+
+### Références intemporelles
+
+- [Material Design](https://material.io/)
+- [Théorie des couleurs, La Cascade](https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur)
+
+### Exemples de portfolios d'anciens étudiants
+
+- 💼 [Portfolio de Émeryk Bélisle](https://emerykbelisle.com/)
+- 💼 [Portfolio de Mikael Arseneau](https://mikaelarseneau.github.io/portfolio-Mikael-Arseneau/index.html)
+- 💼 [Portfolio de Matis Ghariani](https://matisgh.github.io/portfolio-matis-ghariani/)
+- 💼 [Portfolio de Anton Nikulin](https://antoha2033.github.io/portfolio-Anton-Nikulin/index.html)
+- 💼 [Portfolio de Thearylou Lach](https://thearyl.github.io/portfolio-thearylou-lach/)
+- 💼 [Portfolio de Audrey Dandurand](https://audreydandurand.github.io/index.html)
+- 💼 [Portfolio de Justine Rousseau](https://justinersu.github.io/)
+- 💼 [Portfolio de Victor Gileau](https://victorgileau.github.io/victorgileau_portfolio/index.html)
+- 💼 [Portfolio de Joshua Gonzalez-Barrera](https://jxshvfx.github.io/joshuagonzalez.github.io/)
+- 💼 [Portfolio de Kenza El Harrif](https://kenzaelharrif.github.io/KenzaElHarrif_portfolio/index.html)
+- 💼 [Portfolio de Delphine Grenier](https://delphineg-projets.github.io/portfolio)
+- 💼 [Portfolio de Ihab Mouhajer](https://ihabmjr.github.io/)
+- 💼 [Portfolio de Daniel Sébastien Dezemma](https://dezemma.com/)
+- 💼 [Portfolio de Sitmonternna Yi](https://sitmonternna.github.io/artist_portfolio/)
+- 💼 [Portfolio de Benjamin Ferland](https://benjaminferland.github.io/portfolio-benjamin-ferland/)
