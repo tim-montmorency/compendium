@@ -12,9 +12,8 @@ Au terme de ce cours, l’élève combine les notions de mise en page avec feuil
 | Pondération           | 1-3-2   |
 | Unités                | 2       |
 | Heures d’enseignement | 60      |
-| Session               | 3       |
 
-[Plan de cours :material-download:](./assets/documents/plan-cours_web_3_A2026.pdf){ .md-button .md-button--primary }
+[Plan de cours :material-download:](./assets/documents/582311MO-Web3-A2026.pdf){ .md-button .md-button--primary }
 
 ## Objectifs
 

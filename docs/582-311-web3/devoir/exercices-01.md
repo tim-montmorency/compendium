@@ -57,12 +57,13 @@ Dépôt d'exercices du cours 582-311-MO, session A2026.
 
 | # | Exercice | Cours | Type | Lien / dossier | Auto |
 |---|----------|:-----:|------|----------------|:----:|
-| 1 | Spirale | 1 | CodePen | https://codepen.io/… | ✅ |
-| 2 | Mandala | 1 | Capture | `preuves/mandala.png` | ✅ |
-| 3 | Gratuit | 2 | CodePen | https://codepen.io/… | 🟡 |
-| 4 | Digger → Vite | 3 | Dossier | `04-digger-vite/` | ✅ |
-| 5 | Digger avancé | 4 | Dossier | `05-digger-avance/` | 🟡 |
-| 6 | Digger en ligne | 5 | Site en ligne | https://….github.io/… | ❌ |
+| 1 | Grid pas à pas | 1 | CodePen | https://codepen.io/… | ✅ |
+| 2 | Spirale | 1 | CodePen | https://codepen.io/… | ✅ |
+| 3 | Mandala | 1 | Capture | `preuves/mandala.png` | ✅ |
+| 4 | Gratuit | 2 | CodePen | https://codepen.io/… | 🟡 |
+| 5 | Digger → Vite | 3 | Dossier | `04-digger-vite/` | ✅ |
+| 6 | Digger avancé | 4 | Dossier | `05-digger-avance/` | 🟡 |
+| 7 | Digger en ligne | 5 | Site en ligne | https://….github.io/… | ❌ |
 ```
 
 La colonne **Auto** est votre auto-évaluation, remplie au moment du retour sur les exercices en début de séance&nbsp;:
@@ -89,14 +90,15 @@ La colonne **Auto** est votre auto-évaluation, remplie au moment du retour sur 
 
 | # | Exercice | Cours | Points |
 |:-:|---|:-:|:-:|
-| 1 | **Spirale** — grille CSS complète (`grid-template-areas`, `grid-area`) | 1 | 2 |
-| 2 | **Mandala** — arborescence créée et détruite en ligne de commande | 1 | 2 |
-| 3 | **Gratuit** — maquette reproduite en classes utilitaires Tailwind | 2 | 2 |
-| 4 | **Digger → Vite** — migration npm + Vite, Tailwind installé, composantes DaisyUI | 3 | 2 |
-| 5 | **Digger avancé** — hero, drawer responsive, tabs, carousel, thème maison | 4 | 2 |
-| 6 | **Digger en ligne** — build publié et validé au W3C | 5 | 2 |
+| 1 | **Grid pas à pas** — les huit étapes présentes dans le pen, commentées | 1 | 2 |
+| 2 | **Spirale** — grille CSS complète, en zones nommées **et** en lignes | 1 | 2 |
+| 3 | **Mandala** — arborescence créée et détruite en ligne de commande | 1 | 2 |
+| 4 | **Gratuit** — maquette reproduite en classes utilitaires Tailwind | 2 | 2 |
+| 5 | **Digger → Vite** — migration npm + Vite, Tailwind installé, composantes DaisyUI | 3 | 2 |
+| 6 | **Digger avancé** — hero, drawer responsive, tabs, carousel, thème maison | 4 | 2 |
+| 7 | **Digger en ligne** — build publié et validé au W3C | 5 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
-| | | **Total** | **/14** |
+| | | **Total** | **/16** |
 
 Pour chaque exercice&nbsp;:
 

@@ -397,6 +397,8 @@ Chaque **enfant** peut ensuite occuper plusieurs cellules :
 | [`row-start-<n>`](https://tailwindcss.com/docs/grid-row) / `row-end-<n>` | Position précise de début/fin (rangée) |
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+https://www.tailwindgen.com/ (choisir le format HTML et non JSX)
+
 <div class="grid grid-1-2" markdown>
   ![](./activite/tailwind-intro/banner-layout.jpg){.aspect-4-3}
 
