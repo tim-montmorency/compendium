@@ -118,9 +118,9 @@
 <p class="proj-subtext proj-indent">Ces trois étapes vous permettent de recevoir des rétroactions concrètes et d'ajuster votre travail avant la remise finale — c'est là que se construit la qualité de votre portfolio.</p>
 
 <div class="proj-stepper">
-  <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Semaine 2</div><div class="proj-step-title">Planification</div></div>
-  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">Semaine 3</div><div class="proj-step-title">Design</div></div>
-  <div class="proj-step"><div class="proj-step-num">3</div><div class="proj-step-week">Semaine 6</div><div class="proj-step-title">Intégration + QA</div></div>
+  <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Semaine 2 · 2 sept</div><div class="proj-step-title">Planification</div></div>
+  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">Semaine 3 · 11 sept</div><div class="proj-step-title">Design</div></div>
+  <div class="proj-step"><div class="proj-step-num">3</div><div class="proj-step-week">Semaine 6 · 2 oct</div><div class="proj-step-title">Intégration + QA</div></div>
 </div>
 
 <div class="proj-deliverable-grid">
@@ -134,7 +134,7 @@
   <ul>
     <li>Maquettes visuelles mobile et desktop</li>
     <li>Journal de bord complété jusqu'à ce point</li>
-    <li>Rétroaction audio ou vidéo individuelle de l'enseignante, en parcourant les maquettes et le journal à l'écran</li>
+    <li>Rétroaction audio ou vidéo individuelle de l'enseignante, en parcourant les maquettes et le journal à l'écran (groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre)</li>
   </ul>
   <ul>
     <li>Avancement du code</li>
@@ -155,7 +155,7 @@
     <ul>
       <li>Dépôt du site en ligne</li>
       <li>Journal de bord complété pour l'ensemble du projet</li>
-      <li>Présentation devant le jury (~5 min par étudiant·e, suivies de questions)</li>
+      <li>Présentation devant le jury : groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre (~5 min par étudiant·e, suivies de questions)</li>
       <li>Évaluation du produit final, de la démarche de contrôle de qualité, du processus documenté (journal et commits Git) et de la capacité à justifier ses choix devant un employeur potentiel</li>
     </ul>
   </div>

@@ -1,4 +1,4 @@
-# Projet 1 : VOtre Portfolio en ligne
+# Projet 1 : Votre Portfolio en ligne
 
 ## Mise en situation
 
@@ -97,10 +97,10 @@ Ce projet compte pour **40 % de la note finale** du cours Web 5 et est évalué 
 
 ### Remises formatives
 
-- **Remise 1 : Planification et mise en place** *(semaine 2)* : dépôt GitHub initialisé, document de planification incluant le moodboard, la justification des choix technologiques, le plan de contenu et l'architecture du site. **Rétroaction collective** de l'enseignante en classe, basée sur la grille critériée.
-- **Remise 2 : Design** *(semaine 3)* : maquettes visuelles mobile et desktop, journal de bord complété jusqu'à ce point. **Rétroaction audio ou vidéo individuelle** de l'enseignante, en parcourant les maquettes et le journal à l'écran.
-- **Remise 3 : Intégration et contrôle de qualité** *(semaine 6)* : avancement du code, auto-évaluation complétée à partir de la grille critériée, résultats des tests par les pairs documentés et correctifs apportés. **Évaluation par les pairs** structurée à partir de la grille de tests guidés.
+- **Remise 1 : Planification et mise en place** *(semaine 2, 2 septembre)* : dépôt GitHub initialisé, document de planification incluant le moodboard, la justification des choix technologiques, le plan de contenu et l'architecture du site. **Rétroaction collective** de l'enseignante en classe, basée sur la grille critériée.
+- **Remise 2 : Design** *(semaine 3, 11 septembre)* : maquettes visuelles mobile et desktop, journal de bord complété jusqu'à ce point. **Rétroaction audio ou vidéo individuelle** de l'enseignante, en parcourant les maquettes et le journal à l'écran (groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre).
+- **Remise 3 : Intégration et contrôle de qualité** *(semaine 6, 2 octobre)* : avancement du code, auto-évaluation complétée à partir de la grille critériée, résultats des tests par les pairs documentés et correctifs apportés. **Évaluation par les pairs** structurée à partir de la grille de tests guidés.
 
 ### Remise finale : sommative (40%)
 
-- **Remise 4 : Portfolio complet et présentation devant le jury** *(semaine* 7*, mi-session)* : dépôt du site en ligne, journal de bord complété pour l'ensemble du projet, présentation devant le jury. Durée approximative : 5 minutes de présentation par étudiant·e, suivies de questions du jury. L'évaluation porte sur le produit final, la démarche de contrôle de qualité, le processus documenté (journal de bord et commits Git) et la capacité à justifier ses choix devant un employeur potentiel.
+- **Remise 4 : Portfolio complet et présentation devant le jury** *(semaine 7, mi-session)* : dépôt du site en ligne, journal de bord complété pour l'ensemble du projet, présentation devant le jury (groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre). Durée approximative : 5 minutes de présentation par étudiant·e, suivies de questions du jury. L'évaluation porte sur le produit final, la démarche de contrôle de qualité, le processus documenté (journal de bord et commits Git) et la capacité à justifier ses choix devant un employeur potentiel.
