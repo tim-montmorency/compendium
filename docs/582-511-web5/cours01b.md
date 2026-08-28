@@ -141,10 +141,9 @@ Vous avez déjà utilisé Git en Web 3, avec **GitHub Desktop** (initialisation,
 ### Rappel express, version VS Code
 
 - **Source Control** : icône dans la barre latérale gauche (ou `Ctrl+Shift+G`)
-- **Mise en zone (stage)** : le `+` à côté d'un fichier modifié
+- **Ajouter au commit** : le `+` à côté d'un fichier modifié
 - **Commit** : écrire le message dans la boîte de texte en haut, puis ✓ (ou `Ctrl+Enter`)
 - **Push/Pull** : les flèches de synchronisation en bas du panneau (ou dans la barre d'état)
-- **Branches** : le nom de la branche actuelle est cliquable en bas à gauche, pour en changer ou en créer une (surtout utile en équipe pour l'intégrateur)
 
 !!! tip
     Même logique que GitHub Desktop, juste dans une autre fenêtre. Si un concept semble flou, c'est probablement l'interface qui change, pas l'idée derrière.
