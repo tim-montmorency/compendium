@@ -23,6 +23,11 @@ Dans le cadre du cours, plusieurs documents écrits seront créés. À vous de d
 
 [🛠️ Modèle GitHub](https://github.com/tim-montmorency-preparation-stage/modele_preparation-stage-2026.git){ .md-button } 
 
+## Activité      
+
+* Temps pour débuter la planification de portfolio
+* Rencontres individuelles pour présenter son identité visuelle
+
 ## Activité sur l'objectif de carrière
 1. Remplis les trous de la phrase suivante:    
 Je souhaite obtenir un poste de X dans le domaine X, où je pourrai utiliser mes compétences en X et X.
