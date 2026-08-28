@@ -3,7 +3,9 @@
 
 ## Aujourd'hui
 
-- [ ] Rappel : activer notifications Canal Général dans Teams Web 5 *(oublié au cours 1.1)*
+- [ ] Annonces
+  - [ ] Activer notification dans Teams
+  - [ ] Les cellullaires en classe: présentation et discussion
 - [ ] Le travail assisté par IA
 - [ ] Intégrité intellectuelle et usage encadré de l'IA
 - [ ] Réflexion sur son identité professionnelle (persona)
@@ -13,6 +15,17 @@
 
 !!! warning "Rappel oublié au cours 1.1"
     Assurez-vous d'avoir activé les notifications du canal *Général* dans Teams Web5. Voir la procédure au [cours 1.1](cours01a.md#activer-notifications-teams).
+
+## Les cellullaires en classe: discussion et règles
+
+### Étude et projet pilote
+
+Présentation de la *perception des étudiants* des effets de la mesure de mise à distance du téléphone sur leur *réussite scolaire*.
+
+<!-- 
+https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/02_contenu_cours/projet-recherche-air-du-cellulaire.pptx?d=w16426d8c0a8d4a6688a0632271ab3624&csf=1&web=1&e=9k4y0v 
+-->
+
 
 ## Le travail assisté par IA 🤖
 
