@@ -26,7 +26,7 @@ Présentation de la *perception des étudiants* des effets de la mesure de mise 
 https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/02_contenu_cours/projet-recherche-air-du-cellulaire.pptx?d=w16426d8c0a8d4a6688a0632271ab3624&csf=1&web=1&e=9k4y0v 
 -->
 
-.
+
 
 ## Le travail assisté par IA 🤖
 
