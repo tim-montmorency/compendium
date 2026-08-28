@@ -947,6 +947,7 @@ stop:before {
 .proj-ref-list li{font-size:14.5px;line-height:1.75;color:var(--proj-text);}
 .proj-ref-list a{color:var(--proj-text-dim);text-decoration:underline;}
 
+#proj1a.proj-content h3{font-size:16px !important;font-weight:600 !important;}
 
 
 /* =========================
