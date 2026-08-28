@@ -162,16 +162,16 @@
 
 <h3>Inspirations graphiques / web design</h3>
 <ul class="proj-ref-list">
-  <li>• <a href="https://www.awwwards.com/" target="_blank">Awwwards</a></li>
-  <li>• <a href="https://www.cssdesignawards.com/" target="_blank">CSS Design Awards</a></li>
-  <li>• <a href="https://dribbble.com/shots/popular/web-design" target="_blank">Dribbble, Web Design (popular shots)</a></li>
-  <li>• <a href="https://www.behance.net/search/projects/portfolio" target="_blank">Behance, Portfolios</a></li>
+  <li><a href="https://www.awwwards.com/" target="_blank">Awwwards</a></li>
+  <li><a href="https://www.cssdesignawards.com/" target="_blank">CSS Design Awards</a></li>
+  <li><a href="https://dribbble.com/shots/popular/web-design" target="_blank">Dribbble, Web Design (popular shots)</a></li>
+  <li><a href="https://www.behance.net/search/projects/portfolio" target="_blank">Behance, Portfolios</a></li>
 </ul>
 
 <h3>Références intemporelles</h3>
 <ul class="proj-ref-list">
-  <li>• <a href="https://material.io/" target="_blank">Material Design</a></li>
-  <li>• <a href="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" target="_blank">Théorie des couleurs, La Cascade</a></li>
+  <li><a href="https://material.io/" target="_blank">Material Design</a></li>
+  <li><a href="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" target="_blank">Théorie des couleurs, La Cascade</a></li>
 </ul>
 
 <h3>Exemples de portfolios d'anciens étudiants</h3>
