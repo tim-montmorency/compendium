@@ -27,6 +27,7 @@ https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmor
 -->
 
 
+
 ## Le travail assisté par IA 🤖
 
 L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change votre vitesse de travail, pas votre responsabilité : vous devez être capable d'expliquer et de défendre tout ce que vous livrez.
