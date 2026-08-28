@@ -138,7 +138,7 @@ Avant de commencer les maquettes, prenez un moment pour définir **pour qui** vo
 
 Vous avez déjà utilisé Git en Web 3, avec **GitHub Desktop** (initialisation, commit, push/pull, branches, fusion). Cette session, on bascule vers le **panneau Source Control intégré de VS Code** : mêmes concepts, mais sans quitter votre éditeur pour committer.
 
-### Rappel express, version VS Code
+### Gestion de Git directement dans VS Code
 
 - **Source Control** : icône dans la barre latérale gauche (ou `Ctrl+Shift+G`)
 - **Ajouter au commit** : le `+` à côté d'un fichier modifié
