@@ -200,3 +200,5 @@ La qualité de la langue s'ajoute séparément, comme pour toutes les évaluatio
 - Initialisation du dépôt GitHub nommé selon la convention `portfolio-prenom-nom`.
 - Amorce de PLANIFICATION.md et de JOURNAL.md.  Pousser vos premiers commits sur GitHub. 
 - Tout est détaillé sur la [page du projet portfolio](projets/portfolio/index.md#devoirs).
+  
+(Note: Pas de remise pour officielle mercredi mais vous devez avoir minimalement créé les fichiers .md, votre dépot github, avoir fait un commit et un push et avoir amorcé un moodboard).
