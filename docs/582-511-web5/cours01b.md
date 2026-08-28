@@ -31,7 +31,7 @@ https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmor
 
 L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change votre vitesse de travail, pas votre responsabilité : vous devez être capable d'expliquer et de défendre tout ce que vous livrez.
 
-[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](./assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
 
 La compétence clé se déplace : la question n'est plus « comment mémoriser la syntaxe », c'est « comment décrire clairement ce que je veux, puis reconnaître si la réponse est bonne ».
 
