@@ -106,7 +106,25 @@
 </p>
 
 
-     
+## FAQ
+
+**Est-ce que je dois avoir terminé tous mes cours pour faire mon stage?**     
+Tous les cours de la technique sont obligatoires pour avoir accès au stage. Les cours de base peuvent être incomplets, mais il ne doit pas vous en manquer trop.     
+
+**Est-ce que les stages sont habituellement payés?**     
+La rémunération n'est pas obligatoire, il arrive que certains stages soient payés, mais c'est moins de 50% des stages.      
+
+**Est-ce que je peux terminer mes cours de base en même temps que mon stage?**     
+Nous pouvons accepter que vous suiviez un cours en même temps que le stage, mais celui-ci doit être le lundi matin ou le vendredi après-midi pour que vous soyez libre pendant la plupart des heures de travail de l'entreprise.      
+
+**Qu'est-ce qui arrive si je ne trouve pas de stage?**     
+Le cours de stage doit être réalisé l'hiver d'après. Cependant, ce n'est jamais arrivé. Il faut parfois beaucoup d'efforts pour trouver un lieu de stage, mais ce n'est pas une mission impossible!     
+
+**Est-ce que plusieurs stagiaires peuvent réaliser un stage au même endroit?**    
+Un maximum de 2 étudiants par milieu de stage est établi.      
+
+**Est-ce que je peux faire mon stage à d'autres dates?**     
+Le calendrier des stages est fixe, ainsi, il faut trouver un employeur qui a des projets durant cette période.     
 
 
 
