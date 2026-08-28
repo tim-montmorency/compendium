@@ -136,7 +136,9 @@ Avant de commencer les maquettes, prenez un moment pour définir **pour qui** vo
 
 ## Gestion de version et conventions de nommage 🗂️
 
-Vous avez déjà utilisé Git en Web 3, avec **GitHub Desktop** (initialisation, commit, push/pull, branches, fusion). Cette session, on bascule vers le **panneau Source Control intégré de VS Code** : mêmes concepts, mais sans quitter votre éditeur pour committer.
+Vous avez déjà utilisé Git en Web 3, avec **GitHub Desktop** (initialisation, commit, push/pull, branches, fusion). 
+
+Cette session, on bascule vers le **panneau Source Control intégré de VS Code** : mêmes concepts, mais sans quitter votre éditeur pour committer.
 
 ### Gestion de Git directement dans VS Code
 
@@ -153,6 +155,8 @@ Vous avez déjà utilisé Git en Web 3, avec **GitHub Desktop** (initialisation,
 Convention : `portfolio-prenom-nom`, tout en minuscules, tirets, sans accents ni espaces.
 
 Exemple : `portfolio-zoe-tremblay`
+
+Votre répertoire doit être *privé*. Invitez moi comme collaborateur à votre répertoire. Mon compte est *marie-michelle-ouellet*.
 
 ### Nommer ses commits
 
