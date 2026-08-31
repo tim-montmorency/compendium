@@ -18,9 +18,12 @@ Dans le cadre des cours *Web 5* et *Préparation au milieu de travail* vous avez
 * Mise en page **adéquate** d'un portfolio pour un employeur
 * Identité visuelle **cohérente**
 
-## Contenu obligatoire de votre planification de portfolio
+## Contenu obligatoire de votre **planification de portfolio**
  
 Le format de votre planification de portfolio est libre. La planification doit cependant contenir les éléments suivants: 
+
+**Fiche d'identité visuelle**
+Image qui montre les principales caractéristiques de votre identité visuelle : palette de couleurs, typographie, formes, approche de composition, trois images d'inspiration.
 
 **Compétences**    
 Nommez les compétences que vous aimeriez utiliser en stage. Ajoutez-en au besoin.:    
@@ -166,7 +169,7 @@ Sélectionnez un de vos projets et insérez son processus de création. À l'aid
 
 
 
-## Contenu obligatoire de votre portfolio
+## Contenu obligatoire de votre **portfolio**
 Votre portfolio doit être en lien avec vos intérêts. 
 
 Les éléments suivants doivent être présents dans votre portfolio :
