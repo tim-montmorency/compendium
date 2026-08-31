@@ -29,15 +29,15 @@ Généralement, les demo reels montrent des captures d'écran animées ou statiq
 
 ## Étapes
 
-• [ ] Lister les projets réalisés qui sont pertinents au profil professionnel que vous voulez communiquer.
-• [ ] Collecter les informations de base de chaque projet (titre, date, rôle, outils) et les images, vidéos et autres médias nécessaires. 
-• [ ] Si vous remarquez que vous n’avez pas des images avec une bonne résolution / couleur / plans, recapturer ces médias selon vos besoins (images plus proches, exportations avec une bonne résolution, etc.).
-• [ ] Prioriser entre les différents projets et choisir un ordre de présentation.
-• [ ] Scénariser la vidéo avec une liste ou un scénarimage pour planifier chaque scène. Choisir les différentes images ou séquences vidéo à inclure pour chaque projet. 
-• [ ] Faire le montage de la vidéo et ajout des informations textuelles.
-• [ ] Appliquer votre identité visuelle aux différents éléments de la vidéo.
-• [ ] Vérifier les titres, les informations et les crédits.
-• [ ] Faire le contrôle de qualité technique de la vidéo : résolution,  équilibre de couleurs et contraste, équilibre sonore, format et encoding, disponibilité en ligne.
+* [ ] Lister les projets réalisés qui sont pertinents au profil professionnel que vous voulez communiquer.
+* [ ] Collecter les informations de base de chaque projet (titre, date, rôle, outils) et les images, vidéos et autres médias nécessaires. 
+* [ ] Si vous remarquez que vous n’avez pas des images avec une bonne résolution / couleur / plans, recapturer ces médias selon vos besoins (images plus proches, exportations avec une bonne résolution, etc.).
+* [ ] Prioriser entre les différents projets et choisir un ordre de présentation.
+* [ ] Scénariser la vidéo avec une liste ou un scénarimage pour planifier chaque scène. Choisir les différentes images ou séquences vidéo à inclure pour chaque projet. 
+* [ ] Faire le montage de la vidéo et ajout des informations textuelles.
+* [ ] Appliquer votre identité visuelle aux différents éléments de la vidéo.
+* [ ] Vérifier les titres, les informations et les crédits.
+* [ ] Faire le contrôle de qualité technique de la vidéo : résolution,  équilibre de couleurs et contraste, équilibre sonore, format et encoding, disponibilité en ligne.
 
 
 ## Critères d'évaluation
