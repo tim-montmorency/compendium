@@ -16,7 +16,8 @@ Au besoin, consultez le [guide de création de compte et d'installation de Unity
 - [ ] Sous l'onglet ***Projects***, créez un nouveau projet.
 - [ ] Sélectionnez le template « _Get Started With Unity_[^get] » (au besoin, cliquez sur _Download Template_)<br>![](./get-started.png){data-zoom-image .w-25}
 - [ ] Nommez le projet « Commencer avec Unity »
-- [ ] Sélectionnez un chemin pour enregistrer le projet (ex. : votre disque dur)
+- [ ] Sélectionnez un chemin pour enregistrer le projet
+  - Au CÉGEP, enregistrez votre projet dans `Documents/Code_Unity`, sinon Windows Defender analysera tous les fichiers et ce serait beaucoup plus long de commencer votre projet
 - [ ] Laissez le reste intact et cliquez sur « _Create project_ »
 - [ ] Complétez les 5 étapes du tutoriel<br>![](./tuto-steps.png){data-zoom-image .w-25}
 

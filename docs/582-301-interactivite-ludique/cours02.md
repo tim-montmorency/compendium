@@ -1,28 +1,124 @@
 # Cours 2
 
-[STOP]
-
-!!! abstract ":material-check-decagram: Vérification du devoir 01 (2 %)"
-    En début de séance, écran ouvert : la capture de ton jeu publié sur Unity Play. Rien à déposer d'autre.
-
-<!-- ![](./assets/img/get-in.jpg){.w-100} -->
-
 *[URP]: Universal Render Pipeline
 *[CES]: Collider Event System
 
-## Commencer un nouveau jeu
+## Commencer un jeu
 
 ![](./assets/img/car-cranking.gif){.w-100}
 
-1. Déterminer ce qu'on veut faire avec un document de conception (On y reviendra)
-1. Dans Unity Hub, créer un projet ***Universal 3D***
-1. Ajuster la structure du dossier « 📁 Assets »
+D'abord, on doit déterminer ce qu'on veut faire avec une **planification structurée** (on y reviendra un peu plus tard dans la session).
 
-### Structure de dossiers
+Ensuite, on embarque dans Unity pour faire un **mini-prototype**. Le but ici est de tester notre **boucle de jeu** (game loop).
 
-À chaque nouveau projet, il sera important de bien classer ses fichiers. 
+Aujourd'hui, on va passer directement au prototypage. Cela permettra deux choses. D'abord, ça nous familiarisera avec le moteur Unity et de nous donner une certaine confiance pour la suite. Ensuite, ça devrait justifier l'importance de l'étape que nous venons d'omettre 😈
 
-Voici une structure suggérée.
+## GitHub
+
+![](./assets/img/github-banner.webp)
+
+Les projets Unity peuvent s'enregistrer sur GitHub. C'est même recommandé de le faire ! Comme ça, pas besoin de trainer de disque dur.
+
+Première chose à faire, **se connecter à GitHub** !
+
+### Ajouter un nouveau projet Unity
+
+Dans Unity Hub,
+
+1. Dans _Projects_, cliquez sur « ***+ New Project*** »
+1. Sélectionnez la version 6 de Unity
+1. Cliquer sur « Universal 3D » (URP)
+1. Choisir un nouveau nom (_Project name_). Exemple : `Protolude`
+1. Choisir l'emplacement (_Location_) 
+  - Au collège, dans le dossier `Documents/Code_Unity` idéalement
+
+Là, il y a deux méthodes pour connecter Unity à Github.
+
+#### Méthode 1 : _Source control provider_
+
+![](./assets/img/git-methode-1.jpg)
+
+Avant de créer le projet, on créer une passerelle avec GitHub
+
+1. Choisir GitHub <br><figure markdown>![](./assets/img/source-control-provider.png){data-zoom-image .w-50}</figure>
+1. Cliquer sur « ***Get a token*** »<br><figure markdown>![](./assets/img/source-control-provider-pat.png){data-zoom-image .w-50}</figure>
+1. Confirmer l'accès<br><figure markdown>![](./assets/img/confirm-access.png){data-zoom-image .w-50}</figure>
+1. Cliquer sur Generate token<br><figure markdown>![](./assets/img/new-personal-token.png){data-zoom-image .w-50}</figure>
+1. Copier le token d'accès dans votre presse papier<br><figure markdown>![](./assets/img/new-personal-token-generated.png){data-zoom-image .w-50}</figure>
+1. Retourner sur Unity Hub
+1. Entrer le token d'acccès et cliquer sur Authorize<br><figure markdown>![](./assets/img/new-personnal-token-autorize.png){data-zoom-image .w-50}</figure>
+1. Enfin, cliquer sur « ***+ Create project*** »
+1. Ouvrir l'application :simple-github: **GitHub Desktop**
+1. Cliquer sur `File > Add local repository`
+1. Choisir le chemin vers le projet créé et cliquer sur « Add repository »
+1. La fenêtre "Initialize Git LFS" devrait apparaitre. Cliquer sur Initialize Git LFS <br><figure markdown>![](./assets/img/git-lfs.png){data-zoom-image .w-50}</figure>
+1. Cliquer sur « _Publish branch_ » <br><figure markdown>![](./assets/img/publish-branch.png){data-zoom-image .w-50}</figure>
+
+#### Méthode 2 : Manuellement
+
+![](./assets/img/git-methode-2.jpg)
+
+1. Cliquer sur « ***+ Create project*** » (sans choisir de _source control provider_)
+1. Télécharger le gitignore Unity et le placer à la racine du projet : <https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore>
+1. Changer son nom de `Unity.gitignore` à `.gitignore`
+  ```txt title="Résultat attendu"
+  📁 ton-projet-unity
+  ├── 📁 Assets
+  ├── 📁 Library
+  ├── 📁 Logs
+  ├── 📁 Packages
+  ├── ...
+  └── .gitignore 👈
+  ```
+1. Ouvrir l'application :simple-github: **GitHub Desktop**
+1. Cliquer sur `File > Add local repository`
+1. Choisir le chemin vers le projet créé et cliquer sur « Add repository »
+1. Une erreur devrait apparaitre. Cliquer sur le lien « _create a repository_ »<br><figure markdown>![](./assets/img/no-repo-no-bueno.png){data-zoom-image .w-50}</figure>
+1. La fenêtre « Create a new repository » apparait :
+  - Vérifier que le nom est correct
+  - Ajouter une courte description
+  - Cocher "Initialize this repository with a README"
+  - Sélectionner Unity dans la liste de "Git ignore"
+  - Vous pouvez mettre MIT License pour la "License"<br><figure markdown>![](./assets/img/no-bueno-new-repo.png){data-zoom-image .w-50}</figure>
+  - Cliquer sur « Create repository »
+1. La fenêtre « Publish repository » apparait. 
+  - Vous pouvez simplement décocher « Keep this code private » et cliquer sur « Publish repository »<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
+
+!!! info "À faire une seule fois par projet"
+
+    Toute cette section (créer le répertoire, initialiser Git LFS, publier) ne se fait qu'**une fois, au tout début du projet**.
+
+    L'étape du *token d'accès*, elle, ne se fait qu'**une fois par compte GitHub sur un poste donné** : Unity Hub le mémorise. Aux projets suivants, GitHub sera déjà sélectionné dans le _source control provider_.
+
+    Par la suite, le travail quotidien se résume à `pull` -> travailler -> `commit` -> `push`.
+
+!!! danger "Ton répertoire doit être public"
+
+    C'est **ce répertoire-là** que tu remettras comme [devoir Protolude](./devoirs/protolude/index.md) : l'URL, rien d'autre. Ni zip, ni dossier à nettoyer.
+
+    Vérifie sa visibilité tout de suite, peu importe la méthode que tu as suivie : sur github.com, `Settings` > `General` > tout en bas > `Change repository visibility` > **Public**.
+
+    Le test qui ne ment pas : ouvre l'URL dans une **fenêtre de navigation privée**. Si tu tombes sur un 404, moi aussi — et c'est 1 point de rigueur.
+
+### Travailler avec GitHub
+
+![](./assets/img/git-out.jpg){.w-50}
+
+La version officielle de votre projet est maintenant celle qui se trouve sur GitHub !
+
+++ctrl+s++ n'est plus suffisant. À partir de maintenant, pour sauvegarder un projet, il sera **essentiel** d'effectuer un `commit` + `push`. Sinon ça revient à ne pas le sauvegarder du tout.
+
+Si vous voulez travailler sur un autre ordinateur, il faut juste cloner le projet avant de l'ouvrir avec Unity.
+
+Si vous voulez travailler sur un ordinateur qui a deja un clone, mais que la version sur github est plus récente, n'oubliez pas de faire un `pull` !
+
+Voilà !
+
+## Structure de dossiers
+
+![](./assets/img/folder-swift.gif){.w-100}
+
+À chaque nouveau projet, il sera important de bien classer ses fichiers. Voici la structure recommandée pour le cours :
 
 ```txt 
 📁 Assets
@@ -31,8 +127,8 @@ Voici une structure suggérée.
  │    ├── 📁 Audio
  │    ├── 📁 Fonts
  │    ├── 📁 Materials
- │    ├── 📁 Prefabs ⭐️ Utile aujourd'hui
- │    ├── 📁 Scenes 💅 Déplacé ici
+ │    ├── 📁 Prefabs ⭐️ Utile aujourd'hui même
+ │    ├── 📁 Scenes 💅 Déplacé ici !
  │    └── 📁 Scripts
  └── ...
 ```
@@ -64,11 +160,9 @@ Voici une structure suggérée.
 
     Le «_» affichera le dossier en premier sous « 📁 Assets ».
 
-!!! note "Nomenclature"
+!!! note "GitHub"
 
-    Pour les dossiers et fichiers, évitez les espaces dans leur nom.
-
-    Utilisez la convention _Pascal Case_ (ex. : MonBeauDossier) ou _Pascal Snake Case_ (ex. : Mon_Beau_Dossier).
+    Notez que les dossiers vides ne sont pas enregistrés dans git.
 
 ## Démo
 
@@ -190,7 +284,7 @@ En Unity, on parle surtout de **collision**. Quand le projectif entre en collisi
 
 ![](./assets/img/demo-etb.png){.w-50 data-zoom-image}
 
-Pour faciliter la gestion des événements liés à des collisions, installons le package [Collider Event System](./extra/assets/index.md#collision-event-system).
+Pour faciliter la gestion des événements liés à des collisions, installons le package [Collider Event System](./extra/assets/index.md#collider-event-system).
 
 Dans le panneau _Project_, glissez un prefab du package sur la scène. 
 
@@ -216,7 +310,7 @@ Les actions possibles sont les suivantes :
 | **Transform** | Modifie la position, rotation ou l'échelle d'un objet |
 | **Variable** | Assigne une valeur à une variable |
 
-[Démo | :simple-youtube: Youtube](https://youtu.be/fPTQaOyGsa0){ .md-button .md-button--primary }
+[Démo | :simple-youtube: Youtube](https://youtu.be/jXNzGtv4pdM){ .md-button .md-button--primary }
 
 ### Changer l'affichage d'un objet avec CES
 
@@ -318,6 +412,10 @@ L'avantage du _pack_ est qu'il contient des centaines de modèles 3D **cohérent
 
 [Installation via Asset Store](./extra/assets/index.md#polygon-sampler-pack-synty-studiostm)
 
+!!! quote "J'ai pas encore mon compte éducationnel"
+    
+    Si vous ne l'avez pas encore 🤨 vous pouvez le télécharger [ici](https://cmontmorency365-my.sharepoint.com/:u:/g/personal/jfcartier_cmontmorency_qc_ca/IQD9pUXpPylCRL1Y3sSWsg17AfVhPb8LMoRxMa5SfhzYkcU?e=KEK0eD), mais cette solution doit être temporaire.
+
 ### Conversion nécessaire
 
 ![](./assets/img/wrong-shader.png){data-zoom-image .w-50}
@@ -376,11 +474,14 @@ Une fois le *gate* choisi, l'environnement se construit en conséquence. -->
 
 ## Devoirs
 
+!!! abstract ":material-check-decagram: Vérification du devoir 01 (2 %)"
+
+
 <div class="grid grid-1-2" markdown>
   ![](./devoirs/protolude/assets.png){.aspect-4-3}
 
   <small>Devoir - Unity</small><br>
-  **[Protolude : Partie 1 seulement](./devoirs/protolude/index.md){.stretched-link .back}**<br>
+  **[Protolude : Partie 1](./devoirs/protolude/index.md){.stretched-link .back}**<br>
 </div>
 <!-- 
 * **Termine ton mini-monde** : un départ, un chemin, une arrivée évidente - sol continu, colliders en place, aucun endroit où on reste coincé ou on tombe dans le vide

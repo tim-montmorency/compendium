@@ -102,18 +102,6 @@ Un fois les scènes ajoutées dans la liste, on peut utiliser un CES (_Collider 
 
 ### Valider : cinq minutes, et c'est verrouillé
 
-## GitHub
-
-### Le dépôt et le `.gitignore` Unity
-
-### Le premier commit
-
-### Le README comme devlog
-
-### Le devlog : format imposé
-
-### Créer le tableau GitHub Projects
-
 ## Planifier (un peu)
 
 !!! warning "Ce n'est pas encore un backlog"
