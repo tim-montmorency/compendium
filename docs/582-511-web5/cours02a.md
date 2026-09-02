@@ -266,3 +266,6 @@ En dyade ou petit groupe, présentez vos directions et recevez une critique selo
 
 - Réaliser les maquettes Figma pour les directions retenues. Si vous utilisez l'IA de Figma, citez vos prompts dans le [journal de bord](projets/portfolio/index.md#journal-de-bord-journalmd)..
 - **Rappel : vendredi 4 sept, pas de cours.** Travail autonome : avancer les maquettes Figma et justifier vos choix technos dans `PLANIFICATION.md`.
+- Si tu ne l'as pas encore fait, complète le quiz diagnostique JavaScript
+  - [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
+  - [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ/questionnaires/6a8f53523c3db622bc47fcb3)
