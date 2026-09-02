@@ -1,6 +1,4 @@
-# Cours 2 | _Framework_ CSS
-
-[STOP]
+# Cours 2
 
 <!-- **Savoirs :** #5 Cadriciel facilitant l'intégration · #9 Positionnement · #17 Réactivité (media queries) -->
 
@@ -8,6 +6,76 @@
 *[CDN]: Content Delivery Network
 *[npm]: Node Package Manager
 *[OKLCH]: OK👌 Lightness Chroma Hue
+
+## Tutorat
+
+| Qui | Quand | Où |
+| :--- | :--- | :--- |
+| Alexis Guilbault | Mardi<br>12h30 à 14h10 | En personne au Centre d’aide C-1612 |
+| Olivier Laliberté | Mercredi<br>20h00 à 21h15 | [Sur Teams](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
+| Thomas Bozelko | Jeudi<br>20h00 à 21h15 | [Sur Teams](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
+| Kellie Gravel | Dimanche<br>19h00 à 20h15 | [Sur Teams](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
+
+[Calendrier](https://www.cmontmorency.qc.ca/etudiants/services-aux-etudiants/aide-a-la-reussite/aide-techniques/centre-aide-integration-multimedia/)
+
+## Retour sur les exercices
+
+CSS grid + Mandala
+
+## Classroom50
+
+![](./assets/images/github-classroom-1200-630.webp){.w-100}
+
+Pour les exercices en classe, nous travaillerons désormais avec Classroom 50. Un outil d'attribution de devoir via GitHub.
+
+Pour commencer, veuillez remplir le formulaire suivant :
+
+[:material-microsoft: Formulaire à remplir](https://forms.cloud.microsoft/r/NcsY2CbZwb){ .md-button .md-button--primary }
+
+!!! quote "Pause"
+
+    Avec vos informations, je pourrai vous faire parvenir une invitation au projet Classroom 50.
+
+    🕐 Donnez-moi juste le temps de compiler vos informations. Ça devrait pas être trop long.
+
+    Vous devriez recevoir un lien par courriel, sinon : <https://github.com/orgs/tim-w3/invitation>
+
+<!-- 
+https://classroom50.org/
+
+Formater un csv avec les colonnes suivantes :
+
+username, first_name, last_name, email, section, role
+
+section = ex. 000001, role = student
+-->
+
+### Les exercices
+
+Pour les exercices, un lien vous sera remis en temps et lieu.
+
+Vous serez alors dirigé vers une page comme celle-ci : 
+
+<figure markdown>
+![](./assets/images/classroom50-accept-devoir.png){.w-50 data-zoom-image}
+<figcaption markdown>Cliquer sur « Accepter le devoir »</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/classroom50-accepted-devoir.png){.w-50 data-zoom-image}
+<figcaption markdown>Cliquer sur « Ouvrir le dépôt »</figcaption>
+</figure>
+
+<figure markdown>
+![](./assets/images/classroom50-devoir-repo.png){.w-50 data-zoom-image}
+<figcaption markdown>Cloner le dépôt avec GitHub Desktop</figcaption>
+</figure>
+
+Dans l'image ci-dessus, vous remarquerez 2 lignes en rouge. Ces lignes doivent simplement être ignorées : ne les modifiez pas. Elles sont requises pour fonctionner avec Classroom 50.
+
+Complétez l'exercice demandé et n'oubliez pas de faire un commit + push. Cela officialisera la complétion de votre exercice.
+
+## Cadriciel CSS
 
 <!-- Au dernier cours, vous avez apprivoisé le **terminal**. Aujourd'hui, on s'en sert pour de vrai 🤓. -->
 
@@ -17,9 +85,9 @@ En Web 2, vous écriviez tout votre CSS **à la main**.
 
 Cette session, on découvre un pilier du développement moderne&nbsp;: les cadriciels CSS (ou _frameworks_ CSS). Un **_framework_ CSS**, c'est du CSS déjà préparé qu'on branche à une page Web pour la styler sans partir de zéro.
 
-Il en existe une grande variété, mais **[Tailwind](https://tailwindcss.com/)** est aujourd'hui le plus utilisé. Toutefois, afin d'aténuer la courbe d'apprentissage de ce nouveau concept, nous commencerons avec un minuscule _framework_ nommé [**Milligram**](https://milligram.io/).
+Il en existe une grande variété, mais **Tailwind** est aujourd'hui le plus utilisé. Toutefois, afin d'aténuer la courbe d'apprentissage de ce nouveau concept, nous commencerons avec un minuscule _framework_ nommé [**Milligram**](https://milligram.io/).
 
-## Introduction au _frameworks CSS_
+## Introduction au _framework_ CSS
 
 ![](./assets/images/get-in.png)
 
@@ -34,7 +102,7 @@ Il en existe une grande variété, mais **[Tailwind](https://tailwindcss.com/)**
 
 ![](./assets/images/tailwind-banner.png)
 
-Tailwind est aussi un _framework CSS_, mais sa philosophie est différente.
+**[Tailwind](https://tailwindcss.com/)** est aussi un _framework CSS_, mais sa philosophie est différente.
 
 Milligram fournit des classes **« sémantiques »** toutes faites&nbsp;: `.button`, `.row`, `.column`.
 
@@ -58,13 +126,9 @@ Tailwind fournit des classes **« utilitaires »**. Il donne des **micro-classes
 
 ### La documentation
 
-Personne ne mémorise par coeur les classes de Tailwind. On utilise la [documentation](https://tailwindcss.com/docs) et l'autocomplétion de VS Code.
+La [documentation Tailwind](https://tailwindcss.com/docs) est la source d'information la plus fiable. Toutefois, elle peut être mélangeante, car en un clic on peut passer de Tailwind CSS à Tailwind Plus qui est la partie payante du site. Ignorez la simplement.
 
-!!! warning "Tailwind CSS vs. Tailwind Plus" 
-
-    Dans la doc, vous verrez peut-être Tailwind Plus. Ignorez cette partie, elle est payante.
-
-    ![](./assets/images/tailwind-plus.png){data-zoom-image .w-50}
+![](./assets/images/tailwind-plus.png){data-zoom-image .w-50}
 
 ### Installation
 
@@ -193,7 +257,7 @@ La technologie sRGB, ce sur quoi repose l'hexadécimal (ex. : `#ff3388`), fut co
 
 <https://oklch.net/> -->
 
-### Typograpie
+### Typographie
 
 ![](./assets/images/a.gif){.w-100}
 
@@ -290,7 +354,7 @@ max-<w>-<value>
 
 #### Conteneurs Tailwind
 
-Les conteneurs Tailwind c'est juste des dimentions normalisées qu'on peut appliquer sur certaines classes. L'important ici est juste de savoir que ça existe.
+Les conteneurs Tailwind c'est juste des dimensions normalisées qu'on peut appliquer sur certaines classes. L'important ici est juste de savoir que ça existe.
 
 | Taille | rem |
 | :--- | :--- |
