@@ -1,6 +1,16 @@
 
-## setup vs code
+# Cours 2.1
 
+!!! danger RAPPEL: Pas de cours officiel ce vendredi 4 septembre
+      Tel que prévu au plan de cours, il n'y aura pas de cours officiel vendredi le 4 septembre. 
+      
+      Vous pouvez venir au laboratoire pour avancer votre portfolio ou travailler de chez vous.
+
+      Raison pour laquelle il n'y a pas de cours ce vendredi : je viendrai vous visiter les 14 et 17 septembre prochains dans les cours de *Préparation au milieu du travail* pour l'évaluation formative *Planification et design* (rencontre et rétroaction).
+   
+
+
+## Setup Visual Studio Code
 Installer extention pour Visual Studio Code en *français* : [French Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-fr)
 
 ## Copilot pas-à-pas

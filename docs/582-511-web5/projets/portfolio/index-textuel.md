@@ -59,7 +59,6 @@ Peu importe vos choix technologiques, les éléments suivants sont exigés :
 Dans un contexte professionnel réel, un développeur ou une développeuse choisit ses outils en fonction des besoins du projet, puis justifie ses décisions. C'est exactement ce qu'on vous demande ici. Pour chacun des éléments suivants, vous devrez choisir l'approche qui convient le mieux à votre projet **et en expliquer la raison** dans votre document de planification (PLANIFICATION.md) :
 
 - **Gestion des données** : séparer les données de vos projets dans une base de données ou fichier externe (par exemple, le format *.json*). Ces données devront être récupérées et affichées de façon asynchrone au chargement de la page du portfolio. Selon la nature de votre portfolio et l’aisance de mise à jour des données des projets, sélectionner le type de base de données ou CMS et la technique de récupération de données de votre choix.
-- **Interactivité et composantes** : développer et intégrer un composant Vue.js de votre choix, ce qui vous semble le plus pertinent pour votre portfolio.
 - **Animations** : utiliser GSAP, une autre librairie, ou des animations CSS purs.
 - **Structure de navigation** : one-pager, multipages, ou autre : selon votre concept.
 - **Hébergement** : GitHub Pages ou un autre service d’hébergement de votre choix (si vous utilisez un CMS avec des technologies exécutables au niveau serveur, alors il faut sélectionner un hébergeur en fonction de la technologie utilisée).

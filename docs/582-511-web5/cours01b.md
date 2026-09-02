@@ -204,6 +204,6 @@ La qualité de la langue s'ajoute séparément, comme pour toutes les évaluatio
 - Débuter le moodboard (Figma ou autre logiciel dans lequel vous êtes à l'aise). Pas de gabarit imposé, mais il doit être professionnel selon ce que vous avez appris jusqu'à maintenant sur la présentation d'un moodboard.
 - Initialisation du dépôt GitHub nommé selon la convention `portfolio-prenom-nom`.
 - Amorce de PLANIFICATION.md et de JOURNAL.md.  Pousser vos premiers commits sur GitHub. 
-- Tout est détaillé sur la [page du projet portfolio](projets/portfolio/index.md#devoirs).
+- Tout est détaillé sur la [page visuelle du projet portfolio](projets/portfolio/index.md) ou la [page textuelle du projet portfolio](projets/portfolio/index-textuel.md) ou la page textuelle (index-textuel.md).
   
 (Note: Pas de remise pour officielle mercredi mais vous devez avoir minimalement créé les fichiers .md, votre dépot github, avoir fait un commit et un push et avoir amorcé un moodboard).
