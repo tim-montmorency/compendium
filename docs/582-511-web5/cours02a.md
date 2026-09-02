@@ -49,6 +49,14 @@
    .
    Raison pour laquelle il n'y a pas de cours ce vendredi : je viendrai vous visiter les 14 et 17 septembre prochains dans les cours de *Préparation au milieu du travail* pour l'évaluation formative *Planification et design* (rencontre et rétroaction).
 
+## Nouvel onglet "Ressources" dans équipe Web5 dans Teams
+
+J'ai ajouté une liste de ressources dans l'onglet dans Teams : [Banques images, vidéos, sons](https://teams.microsoft.com/l/channel/19%3Akg79zqaoKvusLmQcOv1FMc-7s2_dn5sIYYbqCsZE-EE1%40thread.tacv2/tab%3A%3Afdbe09cb-4550-4e1a-9c53-6226ba4a0f6c?context=%7B%22channelId%22%3A%2219%3Akg79zqaoKvusLmQcOv1FMc-7s2_dn5sIYYbqCsZE-EE1%40thread.tacv2%22%7D&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d)
+ 
+Banques d'images libre de droit, sons, icônes, polices de caractère, palettes de couleur, banque de vidéos etc.
+
+ 
+
 ## Compléter l'activation des outils 🛠️
 
 ### GitHub Copilot Pro
