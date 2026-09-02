@@ -1,4 +1,23 @@
-# Journée carrière
+# Journée carrière (10%)
+
+## Description
+Ton implication dans la création de la journée carrière sera évaluée. Tu devras participer activement aux activités de ton comité pour faire de cette journée un succès.
+
+## Critères d'évaluation
+* **Implication active dans les comités:** Vous devez vous impliquer activement dans votre comité et vous assurez que les tâches sont bien réparties entre les membres.    
+* **Contribution significative à l'invitation des employeurs:** Vous devez participer activement aux activités d'invitation des employeurs et respecter les minimums demandés par l'enseignant.    
+* **Préparation adéquate pour les entrevues:** Ce critère sera évalué en partie au cours 11 avec les simulations d'entrevue et en partie avec votre autoévaluation dans le bilan.    
+* **Bilan juste:** Vous faites une analyse complète et réfléchie de votre expérience avec la journée carrière. Vous savez noter vos bons coups comme ceux à améliorer.     
+
+## Grille d'évaluation
+
+| Critère | Pondération | Excellent — 4 | Bon — 3 | Correct — 2 | À améliorer — 0 |
+|---|---:|---|---|---|---|
+| **Implication active dans les comités** | **40** | Vous avez démontré un engagement exceptionnel et une participation proactive dans toutes les activités du comité. | Vous avez montré un bon niveau d'engagement et avez participé activement à la plupart des activités du comité. | Votre implication était adéquate, avec une participation limitée aux activités du comité. | Votre participation au comité était insuffisante et nécessite une amélioration significative. |
+| **Contribution significative à l'invitation des employeurs** | **20** | Vous avez joué un rôle clé dans l'invitation des employeurs, assurant leur présence lors de l'événement. | Vous avez contribué de manière significative à l'invitation des employeurs, bien que quelques opportunités aient été manquées. | Votre contribution à l'invitation des employeurs était acceptable, mais manquait d'impact. | Vous n'avez pas suffisamment contribué à l'invitation des employeurs, ce qui a limité leur participation. |
+| **Préparation adéquate pour les entrevues** | **20** | Vous avez montré une préparation exemplaire pour les entrevues, avec des recherches approfondies et une pratique efficace. | Vous avez bien préparé vos entrevues, avec quelques recherches et pratiques nécessaires. | Votre préparation pour les entrevues était acceptable mais manquait de profondeur. | Votre préparation pour les entrevues était insuffisante et nécessite une attention particulière. |
+| **Bilan juste** | **20** | Vous avez fourni une analyse complète et réfléchie des résultats de la journée carrière. | Votre bilan était bon, mais aurait pu inclure plus de détails ou d'analyses. | Votre bilan était adéquat, mais manquait de réflexion critique. | Votre bilan était superficiel et nécessite une réévaluation approfondie. |
+| **TOTAL** | **100** | | | | |
 
 ## Comités et tâches
 ### Design  (3)
@@ -54,7 +73,7 @@
 
 
 ## Invitation pour les employeurs
-Objet: Stage printemps 2026 
+Objet: Stage printemps 2027 
 
 Bonjour,  
 Je me présente, [Prénom nom], finissant en Techniques d’intégration multimédia au Collège Montmorency. Nous sommes actuellement à la recherche de milieux de stage pour notre cohorte.  
