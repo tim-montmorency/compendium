@@ -103,7 +103,7 @@
 </div>
 
 <div class="proj-callout proj-callout-amber" style="margin-bottom:32px;" id="utilisation-de-lia">
-  <h2>Utilisation de l'IA</h2> 
+  <h3>Utilisation de l'IA</h3> 
   <p>Utilisation de l'IA : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.</p>
 
   <h3>Comment citer?</h3>
