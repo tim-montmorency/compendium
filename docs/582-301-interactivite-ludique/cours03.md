@@ -256,6 +256,70 @@ Tu peux aussi la créer à la volée : le bouton **+** à côté du champ `Targe
 
 ---
 
+## L'échec
+
+![](./assets/img/devil-daggers-video-game.gif){.w-100}
+
+Un jeu où on ne peut pas perdre n'est pas un jeu, c'est une visite guidée. Le devis du cours ne parle pas de « victoire », il parle de **mesure et communication de la réussite — succès _ou_ échec**. La progression a donc une deuxième moitié, et on la monte exactement comme la première : **un CES de plus**.
+
+### Trois montages, un seul principe
+
+| Montage | Le principe | Le CES |
+|---|---|---|
+| **La zone piège** | Lave, ravin, laser, eau profonde : on y entre, c'est fini | `Trigger Cube` sur la zone → Action ***Scene*** |
+| **La zone qu'on doit fuir** | On peut y entrer, mais pas y rester | Le même, avec `Hold Time` : `3` |
+| **Le danger mobile** | Un rocher qui roule, une sphère qui tombe | L'objet a un `Rigidbody` — il te **pousse** dans une zone piège |
+
+### Recommencer : l'Action Scene pointée sur elle-même
+
+Ta victoire charge une **autre** scène. Ton échec charge **la même** — et c'est tout ce que ça prend pour recommencer.
+
+| Champ | Valeur |
+|---|---|
+| `Required Tags` | `Player` |
+| Action ***Scene*** | `Operation` : **Load** · `Scene Asset` : **ta scène courante** |
+| Action ***Audio*** | le son qui fait mal |
+| `Hold Time` | `0` pour une mort instantanée, `3` pour laisser une chance de sortir |
+
+!!! tip "Hold Time, le compte à rebours du pauvre"
+
+    `Hold Time` compte les secondes **tant que le joueur est dans la zone**. S'il en sort avant la fin, le compteur retombe à zéro et rien ne se passe. Une seule valeur transforme donc un piège mortel en zone à traverser vite : la lave qu'on peut franchir en courant, le laser qu'on peut esquiver, le sable mouvant dont on peut se sortir.
+
+!!! danger "Recharger la scène ne remet **pas** le jeu à zéro"
+
+    Souviens-toi : une Variable est un **asset**, pas un objet de la scène. Elle survit donc au rechargement. Tu meurs après avoir ramassé la clé, tu repars au début du niveau — mais `aCle` vaut encore ✅ et ta porte s'ouvre au premier contact.
+
+    Deux réponses, aucune n'est mauvaise — c'est une décision de **design** :
+
+    * **Tu gardes tes acquis.** C'est le comportement d'un *checkpoint* : on refait le parcours, pas les énigmes. Tu n'as rien à faire.
+    * **Tu repars vraiment à zéro.** Ajoute sur la zone de danger une Action ***Variable*** qui remet `aCle` à ❌ (false), **placée avant** l'action ***Scene***.
+
+    Le monde se recharge, la mémoire du jeu non. C'est la même distinction qu'au [cours 11](./cours11.md), quand on parlera de sauvegarde.
+
+!!! warning "La scène doit être dans les Build Settings"
+
+    Une scène absente de `File` > `Build Profiles` > ***Scene List*** se charge dans l'éditeur et **plante dans le build**. Le CES t'affiche l'avertissement directement dans l'Inspector — lis-le.
+
+!!! tip "Le danger mobile et son collider"
+
+    Un objet qui roule a besoin d'un collider **solide** (`Is Trigger` décoché), sinon il traverse le sol. Un CES, lui, a besoin d'un collider **trigger**. Les deux ne sont pas le même collider.
+
+    Le montage le plus simple évite complètement le problème : **le rocher ne tue pas, il pousse**. C'est le ravin en dessous qui contient le CES — et ton rocher coche du même coup l'exigence « un objet qui utilise la physique ».
+
+    Si tu tiens à ce que le contact lui-même soit mortel : garde le collider solide et ajoute sur le **même objet** un second collider, un peu plus grand, avec `Is Trigger` coché. C'est lui que le composant *Collider Event* écoutera.
+
+### Alternative : la téléportation
+
+Recharger la scène est brutal. Une Action ***Transform*** en `Target Mode` : ***Entering Objects*** qui renvoie le joueur à sa position de départ produit un échec plus doux, sans écran de chargement — c'est le montage vu au [cours 2](./cours02.md#teleporter-un-objet-avec-ces), recyclé tel quel.
+
+!!! question "Doser, deux minutes"
+
+    Un danger qu'on ne voit **pas** venir n'est pas difficile, il est injuste : le joueur n'apprend rien de sa mort, il la subit. Un danger visible qu'on rate quand même, lui, se transforme en « encore une fois ».
+
+    Dans ton jeu : est-ce qu'on **voit** le danger avant de le toucher? Est-ce qu'on comprend, en mourant, **ce qu'on aurait dû faire**?
+
+---
+
 ## Habiller le personnage
 
 ![](./assets/img/polygon.webp){.w-50}
@@ -332,8 +396,8 @@ Jusqu'ici, ton jeu n'existe que dans l'éditeur. **Compiler** (*build*), c'est p
   **[Le jeu express](./devoirs/protolude/index.md){.stretched-link .back}**
 </div>
 
-* **Termine et dépose ton [jeu express](./devoirs/protolude/index.md)** : personnage jouable, au moins **une** progression clé/porte, une fin, un build. **À déposer la veille du [cours 4](./cours04.md)** — on l'utilise en classe pour le retour collectif
-* Fais un **build** et fais-le essayer à quelqu'un (ami, parent, coloc). Note ses **3 premières réactions** sans l'aider — c'est ton premier playtest, et on en reparle au [cours 12](./cours12.md)
+* **Termine et dépose ton [jeu express](./devoirs/protolude/index.md)** : personnage jouable, au moins **une** progression clé/porte, **un danger qui peut te faire échouer**, une fin. `commit` + `push`, puis dépose **l'URL de ton répertoire public** dans le devoir Teams — **la veille du [cours 4](./cours04.md)**, on l'utilise en classe pour le retour collectif
+* Fais un **build** et fais-le essayer à quelqu'un (ami, parent, coloc). Il n'est pas remis — c'est simplement la seule façon de savoir que ton jeu tient debout hors de l'éditeur. Note ses **3 premières réactions** sans l'aider : c'est ton premier playtest, et on en reparle au [cours 12](./cours12.md)
 
 <!--
 Savoirs essentiels touchés (note pour l'enseignant) :

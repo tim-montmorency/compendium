@@ -105,7 +105,32 @@ L'état du jeu se crée **une seule fois**, et les deux zones s'y branchent ensu
 !!! tip "Le raccourci de l'affordance : Hint Material"
     Dans les options de base, coche ***Show Hint Material*** et glisse un material bien visible : il sera appliqué **tant que les conditions ne sont pas remplies**, puis retiré automatiquement. Ta porte reste surlignée tant que tu n'as pas la clé. Deux clics, et l'interaction devient lisible sans un mot d'explication.
 
-## 8. La fin et le build
+## 8. Le danger
+
+L'autre moitié de la progression : on doit aussi pouvoir **perdre**.
+
+- [ ] Choisis l'endroit où ça fait mal : un ravin, une flaque de lave, le vide sous une passerelle, un couloir surveillé
+- [ ] Glisse un **`Trigger Cube`** dessus et étire-le aux dimensions de la zone
+- [ ] Options de base : `Required Tags` = `Player`
+- [ ] `Add Action` > ***Scene*** : `Operation` **Load**, `Scene Asset` = **ta scène courante**
+    > Oui, elle-même. Recharger la scène où on se trouve, c'est exactement ça, recommencer.
+- [ ] `Add Action` > ***Audio*** : le son qui fait mal
+- [ ] ▶️ Va te jeter dedans
+
+Puis essaie **une** des deux variantes :
+
+- [ ] **Le sursis** : `Hold Time` : `3` — la zone ne tue que si on y reste trois secondes. Sors avant, le compteur retombe à zéro
+- [ ] **La sanction douce** : remplace l'action ***Scene*** par une Action ***Transform***, `Target Mode` ***Entering Objects***, qui replace le joueur à ton point de départ. Pas d'écran de chargement, on perd juste son chemin
+
+!!! danger "Tu meurs — et tu as encore la clé"
+
+    Recharge ta scène après avoir ramassé la clé : le monde repart à neuf, mais `aCle` vaut toujours ✅. Une Variable est un **asset**, elle ne vit pas dans la scène et ne se recharge pas avec elle.
+
+    Si tu veux une vraie reprise à zéro : ajoute sur la zone de danger une Action ***Variable*** qui remet `aCle` à ❌, **avant** l'action ***Scene***. Sinon, garde-la — c'est un *checkpoint*, et c'est un choix défendable.
+
+- [ ] **Passe de lisibilité** : est-ce qu'on **voit** le danger avant de le toucher? Un piège invisible n'est pas difficile, il est injuste. Couleur, material, particules, un cadavre de PNJ au fond du trou — donne un indice
+
+## 9. La fin et le build
 
 - [ ] Une scène `Victoire` créée et ajoutée à la `Scene List` (`File` > `Build Profiles`)
 - [ ] Une zone CES à l'arrivée avec l'action ***Scene*** : `Operation` **Load**, et **glisse la scène** dans le champ `Scene Asset` (pas de nom à taper — ça évite les fautes de frappe)
@@ -116,7 +141,7 @@ L'état du jeu se crée **une seule fois**, et les deux zones s'y branchent ensu
 !!! danger "La scène doit être dans les Build Settings"
     Charger une scène absente de la liste **fonctionne dans l'éditeur** et **échoue dans le build**. Unity a une commodité en Play Mode qui retrouve la scène par son nom dans tout le projet; le jeu compilé, lui, ne l'a pas. Vérifie ta `Scene List` avant de compiler.
 
-## 9. Avant de partir
+## 10. Avant de partir
 
 - [ ] Fais essayer ton build à un voisin. Regarde-le jouer **sans parler**
 - [ ] Note ce qu'il n'a pas compris — c'est ta dernière liste de corrections avant le dépôt du jeu express
