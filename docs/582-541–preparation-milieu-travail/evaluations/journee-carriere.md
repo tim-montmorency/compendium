@@ -11,7 +11,7 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 
 ## Grille d'évaluation
 
-| Critère | Pondération | Excellent — 4 | Bon — 3 | Correct — 2 | À améliorer — 0 |
+| Critère | % | Excellent — 4 | Bon — 3 | Correct — 2 | À améliorer — 0 |
 |---|---:|---|---|---|---|
 | **Implication active dans les comités** | **40** | Vous avez démontré un engagement exceptionnel et une participation proactive dans toutes les activités du comité. | Vous avez montré un bon niveau d'engagement et avez participé activement à la plupart des activités du comité. | Votre implication était adéquate, avec une participation limitée aux activités du comité. | Votre participation au comité était insuffisante et nécessite une amélioration significative. |
 | **Contribution significative à l'invitation des employeurs** | **20** | Vous avez joué un rôle clé dans l'invitation des employeurs, assurant leur présence lors de l'événement. | Vous avez contribué de manière significative à l'invitation des employeurs, bien que quelques opportunités aient été manquées. | Votre contribution à l'invitation des employeurs était acceptable, mais manquait d'impact. | Vous n'avez pas suffisamment contribué à l'invitation des employeurs, ce qui a limité leur participation. |
