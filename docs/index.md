@@ -15,7 +15,7 @@
 ## Session 3
 
 * [582-301 | Interactivité ludique](./582-301-interactivite-ludique)
-* [582-311 | Web 3](./582-311-web3)
+* [582-311 | Web 3](./582-311-web3)<br>(Archives : [a2024](./web3-a2024), [a2025](./web3-a2025))
 * [582-312 | Vidéo 2](./582-312–video2)
 
 ## Session 4

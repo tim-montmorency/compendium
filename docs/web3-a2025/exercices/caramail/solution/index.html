@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caramail</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-dark text-light d-flex align-items-center">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-4">
+          <div class="text-center">
+            <img src="./caramail.png" alt="Icône d'une lettre trempée dans du caramel" class="img-fluid mb-4" />
+          </div>
+          <h1 class="mb-4 text-center">CaraMail</h1>
+
+          <form id="contact-form" novalidate>
+            <div class="mb-3 form-floating">
+              <input id="to_mail" class="form-control" type="email" name="to_mail" required placeholder="name@example.com" />
+              <label for="to_mail" class="form-label">Courriel du destinataire</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <input id="subject" class="form-control" type="text" name="subject" required autocomplete="name" placeholder="Suivi sur le TP1" />
+              <label for="subject" class="form-label">Sujet</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <textarea id="message" class="form-control" name="mon_message" rows="5" required placeholder="Votre message..."></textarea>
+              <label for="message" class="form-label">Message</label>
+            </div>
+            <div class="text-center"> 
+              <input type="submit" id="sendBtn" class="btn btn-lg btn-success mb-3 w-100" value="Envoyer" />
+              <div id="status" class="text-muted small" aria-live="polite"></div>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/@emailjs/browser/dist/email.min.js"></script>
+
+    <script>
+      const public_key = "j1sLMcu8Oro4S755r";
+      const service_id = "service_8qgjltg";
+      const template_id = "template_gjdervd";
+
+      emailjs.init({
+        publicKey: public_key,
+      });
+
+      const form = document.getElementById("contact-form");
+      const statusEl = document.getElementById("status");
+      const btn = document.getElementById("sendBtn");
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        btn.disabled = true;
+        statusEl.textContent = "Envoi en cours...";
+
+        const templateParams = {
+          sujet: form.subject.value,
+          mon_message: form.mon_message.value,
+          email: form.to_mail.value,
+        };
+
+        emailjs
+          .send(service_id, template_id, templateParams)
+          .then((response) => {
+            statusEl.textContent = "Message envoyé ✅";
+            form.reset();
+          })
+          .catch((err) => {
+            console.log("Erreur...", err);
+            statusEl.textContent = "Erreur d’envoi ❌";
+          })
+          .finally(() => {
+            btn.disabled = false;
+          });
+      });
+    </script>
+  </body>
+</html>
