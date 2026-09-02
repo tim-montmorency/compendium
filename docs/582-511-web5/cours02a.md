@@ -236,9 +236,14 @@ Le design ne part plus d'une page blanche. L'IA de Figma sert à explorer rapide
 !!! warning "Rappel : la frontière Figma"
     L'IA de Figma sert au **design** : diverger, explorer, prototyper. Le code livré reste **codé à la main**, Copilot en soutien au niveau du code seulement. Le code généré par Figma Make peut être inspecté comme référence, jamais livré tel quel.
 
+### Apprendre à utiliser **Figma First Draft** pour générer des directions visuelles
+
+[:material-figma: Figma First Draft](https://help.figma.com/hc/en-us/articles/1500000828232-Use-First-Draft-to-generate-designs-with-AI){ .md-button :target="_blank" }
+
+
 ### La boucle diverger / converger
 
-1. **Diverger** : générer plusieurs directions visuelles très différentes les unes des autres avec Figma First Draft, à partir d'un brief clair (votre persona, votre moodboard).
+1. **Diverger** : générer plusieurs directions visuelles très différentes les unes des autres avec *Figma First Draf*t, à partir d'un brief clair (votre persona, votre moodboard).
 2. **Converger** : évaluer chaque direction contre des critères précis, pas selon un simple coup de cœur.
 
 ## Atelier : diverger, 3 à 4 directions 🌱
