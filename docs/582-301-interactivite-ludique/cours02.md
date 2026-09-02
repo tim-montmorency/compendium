@@ -1,7 +1,5 @@
 # Cours 2
 
-[STOP]
-
 *[URP]: Universal Render Pipeline
 *[CES]: Collider Event System
 
@@ -56,7 +54,7 @@ Avant de créer le projet, on créer une passerelle avec GitHub
 1. La fenêtre "Initialize Git LFS" devrait apparaitre. Cliquer sur Initialize Git LFS <br><figure markdown>![](./assets/img/git-lfs.png){data-zoom-image .w-50}</figure>
 1. Cliquer sur « _Publish branch_ » <br><figure markdown>![](./assets/img/publish-branch.png){data-zoom-image .w-50}</figure>
 
-#### Méthode 2 : Manuellement
+#### Méthode 2 : À l'ancienne 👵
 
 ![](./assets/img/git-methode-2.jpg)
 
@@ -84,23 +82,10 @@ Avant de créer le projet, on créer une passerelle avec GitHub
   - Vous pouvez mettre MIT License pour la "License"<br><figure markdown>![](./assets/img/no-bueno-new-repo.png){data-zoom-image .w-50}</figure>
   - Cliquer sur « Create repository »
 1. La fenêtre « Publish repository » apparait. 
-  - Vous pouvez simplement décocher « Keep this code private » et cliquer sur « Publish repository »<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
+  - Décocher « Keep this code private »
+  - Cliquer sur « Publish repository »<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
 
-!!! info "À faire une seule fois par projet"
-
-    Toute cette section (créer le répertoire, initialiser Git LFS, publier) ne se fait qu'**une fois, au tout début du projet**.
-
-    L'étape du *token d'accès*, elle, ne se fait qu'**une fois par compte GitHub sur un poste donné** : Unity Hub le mémorise. Aux projets suivants, GitHub sera déjà sélectionné dans le _source control provider_.
-
-    Par la suite, le travail quotidien se résume à `pull` -> travailler -> `commit` -> `push`.
-
-!!! danger "Ton répertoire doit être public"
-
-    C'est **ce répertoire-là** que tu remettras comme [devoir Protolude](./devoirs/protolude/index.md) : l'URL, rien d'autre. Ni zip, ni dossier à nettoyer.
-
-    Vérifie sa visibilité tout de suite, peu importe la méthode que tu as suivie : sur github.com, `Settings` > `General` > tout en bas > `Change repository visibility` > **Public**.
-
-    Le test qui ne ment pas : ouvre l'URL dans une **fenêtre de navigation privée**. Si tu tombes sur un 404, moi aussi — et c'est 1 point de rigueur.
+!!! note "À faire juste une fois par projet"
 
 ### Travailler avec GitHub
 
