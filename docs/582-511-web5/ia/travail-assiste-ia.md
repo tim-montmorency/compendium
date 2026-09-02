@@ -13,7 +13,7 @@ Avant, une grande partie du métier consistait à mémoriser la syntaxe. Aujourd
 
 Attention au piège : pour juger si une réponse de l'IA est bonne, il faut comprendre les fondations. C'est justement parce que tu connais le HTML, le CSS et le JavaScript que tu peux repérer une erreur, choisir la bonne solution et garder le contrôle du projet. L'IA ne remplace pas cette compréhension, elle la met à profit.
 
-## Quatre moments où l'IA intervient
+## Quatre moments où vous pouvez utiliser l'IA pour vous accompgner
 
 L'IA n'est pas utile qu'au moment d'écrire du code. Elle intervient à quatre moments distincts.
 

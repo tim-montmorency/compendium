@@ -71,6 +71,7 @@
   <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans PLANIFICATION.md :</p>
   <div class="proj-tech-grid">
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><div class="proj-tech-name">Données</div><div class="proj-tech-desc">BD ou fichier externe (JSON), affiché de façon asynchrone.</div></div>
+
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-amber)" stroke-width="1.7"><path d="M4 18l5-9 3 5 2-3 6 7"/></svg><div class="proj-tech-name">Animations</div><div class="proj-tech-desc">GSAP, une autre librairie, ou CSS pur.</div></div>
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h4M13 8.5l3-1.5M13 15.5l3 1.5"/></svg><div class="proj-tech-name">Navigation</div><div class="proj-tech-desc">One-pager, multipages, ou autre.</div></div>
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-teal)" stroke-width="1.7"><path d="M4 14a5 5 0 015-5 4 4 0 018 0 4 4 0 010 8H6a4 4 0 01-2-7.5"/></svg><div class="proj-tech-name">Hébergement</div><div class="proj-tech-desc">GitHub Pages ou un autre service.</div></div>
@@ -101,8 +102,25 @@
   </div>
 </div>
 
-<div class="proj-callout proj-callout-amber" style="margin-bottom:32px;">
-  <strong>Utilisation de l'IA</strong> : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.
+<div class="proj-callout proj-callout-amber" style="margin-bottom:32px;" id="utilisation-de-lia">
+  <h2>Utilisation de l'IA</h2> 
+  <p>Utilisation de l'IA : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.</p>
+
+  <h3>Comment citer?</h3>
+
+  <p>Pour ce cours, cette citation se fait directement dans votre <code>JOURNAL.md</code>.</p>
+
+  <p>Vous ne devez pas inclure les autocomplétions de Copilot (VS Code) dans votre journal, mais vous devez inclure toute question posée à l'IA que ce soit avec Co-Pilot intégré VS Code ou autre outil IAG (Figma, ChatGPT, etc.).</p>
+
+  <h3>Éléments à inclure</h3>
+
+  <ul>
+    <li><strong>Date :</strong> La date précise du prompt ou de la question posée à l'IA.</li>
+    <li><strong>Prompt :</strong> Le texte exact utilisé en <em>italique</em>.</li>
+    <li><strong>Outil :</strong> Le nom du logiciel utilisé.</li>
+    <li><strong>Résultat :</strong> Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).</li>
+  </ul>
+
 </div>
 
 <h2>Critères d'évaluation</h2>

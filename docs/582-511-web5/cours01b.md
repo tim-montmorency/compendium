@@ -36,14 +36,14 @@ L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change vot
 
 La compétence clé se déplace : la question n'est plus « comment mémoriser la syntaxe », c'est « comment décrire clairement ce que je veux, puis reconnaître si la réponse est bonne ».
 
-### Quatre moments où l'IA intervient
+### Quatre moments où vous pouvez utiliser l'IA pour vous accompgner
 
 - **Planifier** : décrire une fonctionnalité et faire générer une structure de projet ou un plan de réalisation étape par étape, avant d'écrire une ligne.
 - **Générer** : compléter du code à partir d'une intention claire (un nom de fonction, un commentaire décrivant l'effet voulu).
 - **Déboguer** : coller un message d'erreur et le faire expliquer dans son contexte. C'est souvent l'usage le plus rentable au quotidien.
 - **Réviser** : demander comment simplifier ou améliorer un bout de code qui fonctionne déjà. L'IA agit alors comme un pair programmeur.
 
-### La boucle de travail
+### La boucle de travail (en petit itérations)
 
 1. **Intention et critères** : avant de demander quoi que ce soit, savoir ce qu'on veut obtenir et à quoi ressemble un bon résultat.
 2. **Générer par incréments** : une petite portion à la fois, jamais une fonctionnalité complète d'un coup.
@@ -80,11 +80,27 @@ Le Collège Montmorency encadre l'utilisation de l'IA générative selon une éc
 
 **Ce cours se situe au niveau 2.** L'IA est permise sans restriction, à une seule condition : **citer selon les normes** le contenu qui en provient.
 
-### Comment citer
+### Comment citer?
 
-Pour une citation en bonne et due forme (format APA), utilisez le [modèle officiel de citation d'un échange avec un agent conversationnel](https://mondiapason.ca/fr/outil-bibliographique/apa/web-et-communications/echange-avec-un-agent-conversationnel).
+Pour ce cours, cette citation se fait directement dans votre `JOURNAL.md`.
 
-Pour ce cours, cette citation se fait directement dans votre `JOURNAL.md` plutôt que dans une bibliographie séparée : voir la boucle de travail avec l'IA plus haut, et la clause « Utilisation de l'IA » de la [page du projet portfolio](projets/portfolio/index.md#utilisation-de-lia).
+Vous ne devez pas inclure les autocompétions de Copilot (VS Code) dans votre journal, mais vous devez inclure toute question posée à l'IA que ce soit avec Co-Pilot intégré VS Code ou autre outil IAG (Figma, ChatGPT, etc.).
+
+### Éléments à inclure
+
+- **Date :** La date précise du prompt ou de la question posée à l'IA.
+- **Prompt :** Le texte exact utilisé en italique.
+- **Outil :** Le nom du logiciel utilisé.
+- **Résultat :** Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).
+
+### Exemple de citation dans `JOURNAL.md` :
+
+```markdown
+- **Date :** 2026-09-01
+- **Prompt :** "Crée une liste de cartes de projets en HTML et CSS, avec la technique CSS Grid, qui s'adapte à la largeur de l'écran. Chaque carte doit contenir une image, un titre et une description."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Le code généré par l'IA a été intégré dans le fichier `index.html` et `style.css`. J'ai ensuite moi même modifié la couleur de fond des cartes et ajusté la taille de la police pour améliorer la lisibilité.
+```
 
 !!! info "Pour aller plus loin"
     Le [Guide étudiant pour une utilisation responsable de l'IA](https://view.genially.com/66476e2be05b530014fee212/interactive-content-guide-etudiant-pour-une-utilisation-responsable-de-lia) du Collège couvre l'ensemble des situations (révision de cours, travaux, tests et examens, tutorat), pas seulement la citation.
