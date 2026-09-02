@@ -144,7 +144,7 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 ### Références intemporelles
 
 - [Material Design](https://material.io/)
-- [Théorie des couleurs, La Cascade](https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur)
+- [Théorie des couleurs](https://99designs.fr/blog/conseils-design/la-theorie-des-couleurs/)
 
 ### Exemples de portfolios d'anciens étudiants
 
