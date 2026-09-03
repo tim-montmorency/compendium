@@ -63,23 +63,13 @@ Avant de créer le projet, on créer une passerelle avec GitHub
 ![](./assets/img/git-methode-2.jpg)
 
 1. Cliquer sur « ***+ Create project*** » (sans choisir de _source control provider_)
-1. Télécharger le gitignore Unity et le placer à la racine du projet : <https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore>
-1. Changer son nom de `Unity.gitignore` à `.gitignore`
-  ```txt title="Résultat attendu"
-  📁 ton-projet-unity
-  ├── 📁 Assets
-  ├── 📁 Library
-  ├── 📁 Logs
-  ├── 📁 Packages
-  ├── ...
-  └── .gitignore 👈
-  ```
 1. Ouvrir l'application :simple-github: **GitHub Desktop**
 1. Cliquer sur `File > Add local repository`
 1. Choisir le chemin vers le projet créé et cliquer sur « Add repository »
 1. Une erreur devrait apparaitre. Cliquer sur le lien « _create a repository_ »<br><figure markdown>![](./assets/img/no-repo-no-bueno.png){data-zoom-image .w-50}</figure>
 1. La fenêtre « Create a new repository » apparait :
   - Vérifier que le nom est correct
+  - Ne touchez pas au chemin, il devrait être normalement bien configuré
   - Ajouter une courte description
   - Cocher "Initialize this repository with a README"
   - Sélectionner Unity dans la liste de "Git ignore"
@@ -164,7 +154,7 @@ Voilà !
 1. Modifier la structure de fichiers
 
 1. Ajoutez un cube et renommer le « Plancher »
-1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)f
+1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
 1. L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
 
 1. Ajouter un autre cube et renommer le « Pente »
