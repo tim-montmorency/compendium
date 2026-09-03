@@ -3,6 +3,10 @@
 *[URP]: Universal Render Pipeline
 *[CES]: Collider Event System
 
+## Activités sociales
+
+[:material-microsoft: Formulaire à remplir](https://forms.cloud.microsoft/r/NTZn25YFT5){ .md-button .md-button--primary }
+
 ## Commencer un jeu
 
 ![](./assets/img/car-cranking.gif){.w-100}

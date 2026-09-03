@@ -9,6 +9,10 @@
 *[npm]: Node Package Manager
 *[OKLCH]: OK👌 Lightness Chroma Hue
 
+## Activités sociales
+
+[:material-microsoft: Formulaire à remplir](https://forms.cloud.microsoft/r/NTZn25YFT5){ .md-button .md-button--primary }
+
 ## Tutorat
 
 | Qui | Quand | Où |
