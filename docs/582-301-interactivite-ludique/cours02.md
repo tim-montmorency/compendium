@@ -416,6 +416,8 @@ Bon, là, si vous ajoutez tout de suite des assets de « SyntyStudio » vous dev
 Pas de panique, ça veut juste dire que l'asset utilise un shader qui n'est pas reconnu par la technologie URP (ce sur quoi notre projet est basé). Il faut donc convertir le _pack_ avant de pouvoir l'utiliser :
 
 1. Clic sur `Window` > `Rendering` > `Render Pipeline Converter`.
+1. **Source Pipeline** doit être à `Built-in`
+1. **Target Pipeline** doit être à `Universal Render Pipeline (Universal Renderer)`
 1. Dans la fenêtre qui s'ouvre, coche « ***Material Reference Converter*** » et « ***Material Shader Converter*** ».
 1. Clic sur le bouton `Scan`.
 1. Quand c'est terminé, clic sur `Convert Assets`.
