@@ -58,4 +58,7 @@ Votre carte devrait être en adéquation avec l'identité visuelle de votre port
 ## Devoir
 Terminer la planification du portfolio. 
 
-[🛠️ Consignes portfolio](./evaluations/portfolio.md){ .md-button }        
+[🛠️ Consignes portfolio](./evaluations/portfolio.md){ .md-button }          
+
+Avancer le Demo reel.    
+[🛠️ Consignes Demo reel](./evaluations/demo-reel){ .md-button }
