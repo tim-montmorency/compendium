@@ -2,8 +2,6 @@
 
 <!-- **Savoirs :** #5 Cadriciel facilitant l'intégration · #9 Positionnement · #17 Réactivité (media queries) -->
 
-[STOP]
-
 *[CLI]: Command-Line Interface
 *[CDN]: Content Delivery Network
 *[npm]: Node Package Manager
