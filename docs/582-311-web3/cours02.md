@@ -371,6 +371,9 @@ Les conteneurs Tailwind c'est juste des dimensions normalisées qu'on peut appli
 | **2xl** | `42rem` |
 | ... |  |
 
+<!-- @faire-en-classe : Ré-expliquer la notion de rem. -->
+<!-- @besoin : Petit outil qui montre les container. -->
+
 <!-- ### Position
 
 ![](./assets/images/tailwind-abs.png){data-zoom-image}
