@@ -1,6 +1,8 @@
-# Cours 5 | Mise en ligne : GitHub Pages & cPanel
+# Cours 5 
 
 [STOP]
+
+| Mise en ligne : GitHub Pages & cPanel
 
 <!-- **Savoirs :** #4 Compatibilité navigateurs · #12 Validation (via le build/déploiement) -->
 

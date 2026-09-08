@@ -18,19 +18,7 @@
 Test des jeux en classe.
 
 
-## Scene
 
-![type:video](./assets/video/scene-ex.webm){.h-auto}
-
-Les scènes en Unity sont différents lieux ou interfaces qui sont traditionnellement séparés par un écran de chargement.
-
-Pour créer une nouvelle scène, dans le dossier scène, clic-droit > `Create` > `Scene` > `Scene`.
-
-!!! info "Skybox manquant ?"
-
-    ![](./assets/img/no-sky.png){data-zoom-image .w-25}
-
-    `Window` > `Rendering` > `Lighting` > onglet `Environment` → `Skybox Material` : assigne `Default-Skybox`
 
 ### Changer de scène
 

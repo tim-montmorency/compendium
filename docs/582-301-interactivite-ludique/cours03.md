@@ -7,14 +7,76 @@
 *[FBX]: Filmbox — format d'échange de modèles 3D
 *[GDD]: Game Design Document
 
-https://github.com/jfcmontmorency/collider-event-system.git
+## Raccourcis
 
-À faire rapidement : 
+* ++q++ : ![](./assets/img/view-tool.jpg) View
+* ++w++ : ![](./assets/img/move-tool.jpg) Move
+* ++e++ : ![](./assets/img/rotate-tool.jpg) Rotate
+* ++r++ : ![](./assets/img/scale-tool.jpg) Scale
+* ++t++ : ![](./assets/img/rect-tool.jpg) Rect
+* ++y++ : ![](./assets/img/transform-tool.jpg) Transform
 
-- Changement de scène
-- Texte à l'écran (legacy)
-- Ajout d'un son
+## Scene
 
+![type:video](./assets/video/scene-ex.webm){.h-auto}
+
+Les scènes en Unity sont différents lieux ou interfaces qui sont traditionnellement séparés par un écran de chargement.
+
+### Créer une nouvelle 
+
+Dans le panneau Project : 
+
+- 📁 Assets > 📁 _ > 📁 Scenes
+- Clic-droit > `Create` > `Scene` > `Scene`
+
+### Changement de scène avec CES
+
+Collider Event > Actions > Scene
+
+![](./assets/img/CES-scene.png){data-zoom-image}
+
+Pour changer de scène à la collision, il ne suffit que de glisser la scene dans le champ Scene Asset.
+
+Pour les autres options, voici l'explication :
+
+|          | Load                             | Load Async                             |
+| -------- | -------------------------------- | -------------------------------------- |
+| :material-checkbox-blank-outline: Additive  | Petite scène, transition simple (peut saccader)  | Grosse scène, pour éviter le _freeze_ (Permet un écran de chargement) |
+| :material-checkbox-marked-outline: Additive | Petit overlay (UI, menu)         | Streaming de contenu en cours de jeu            |
+
+## Skybox
+
+![](./assets/img/skybox-empty.png){.w-100}
+
+La configuration du skybox se trouve :
+
+`Window` > `Rendering` > `Lighting` > onglet `Environment` > `Skybox Material`
+
+Le Material par défaut est `Default-Skybox`.
+
+Pour en ajouter d'autres, il faut créer d'autres Material, mais nous n'en sommes pas encore à cet étape.
+
+Avec l'aide de l'asset gratuit « [Skybox Series Free](./extra/assets/index.html#skybox-series-free) », vous aurez d'autres options pour configurer `Skybox Material`.
+    
+---
+
+## UI - Introduction
+
+legacy?
+
+## Son
+
+## Personnage jouable
+
+## Habillement du personnage
+
+## Tags et CES
+
+## Build
+
+
+
+<!-- 
 
 ## Ajouter un personnage jouable
 
@@ -28,7 +90,7 @@ Dans les jeux en 3D, la gestion de la caméra se divise généralement en trois 
 
 Pour contrôler un personnage, il faut quand même programmer un peu. 
 
-Pour l'instant, on va essayer de limiter la programmation et utiliser un controlleur de personnage déjà fait : [Starter Assets: Character Controllers | URP](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961).
+Pour l'instant, on va essayer de limiter la programmation et utiliser un controlleur de personnage déjà fait : [Character Controllers | URP](./extra/assets/index.md).
 
 ### Première personne
 
@@ -397,7 +459,7 @@ Jusqu'ici, ton jeu n'existe que dans l'éditeur. **Compiler** (*build*), c'est p
 </div>
 
 * **Termine et dépose ton [jeu express](./devoirs/protolude/index.md)** : personnage jouable, au moins **une** progression clé/porte, **un danger qui peut te faire échouer**, une fin. `commit` + `push`, puis dépose **l'URL de ton répertoire public** dans le devoir Teams — **la veille du [cours 4](./cours04.md)**, on l'utilise en classe pour le retour collectif
-* Fais un **build** et fais-le essayer à quelqu'un (ami, parent, coloc). Il n'est pas remis — c'est simplement la seule façon de savoir que ton jeu tient debout hors de l'éditeur. Note ses **3 premières réactions** sans l'aider : c'est ton premier playtest, et on en reparle au [cours 12](./cours12.md)
+* Fais un **build** et fais-le essayer à quelqu'un (ami, parent, coloc). Il n'est pas remis — c'est simplement la seule façon de savoir que ton jeu tient debout hors de l'éditeur. Note ses **3 premières réactions** sans l'aider : c'est ton premier playtest, et on en reparle au [cours 12](./cours12.md) -->
 
 <!--
 Savoirs essentiels touchés (note pour l'enseignant) :

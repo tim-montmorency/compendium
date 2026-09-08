@@ -168,11 +168,11 @@ Voilà !
 
 !!! info "Raccourci : ++f++ (zoom sur un objet)"
 
-<!-- !!! info "Positionner un élément sur une surface"
+!!! info "Positionner un élément sur une surface"
 
     Quand on glisse un élément du panneau Project sur la scène, vous verrez que celui-ci se positionne SUR les surfaces.
 
-    Ensuite, le repositionnement ne suit plus cette logique. Sauf si on utilise le raccourci : ++ctrl+shift++ + `drag`. -->
+    Ensuite, le repositionnement ne suit plus cette logique. Sauf si on utilise le raccourci : ++ctrl+shift++ + `drag`.
 
 ### Physique
 
@@ -415,6 +415,10 @@ Pas de panique, ça veut juste dire que l'asset utilise un shader qui n'est pas 
 Là, ça fonctionne !
 
 ![](./assets/img/updated-shader.png){data-zoom-image .w-50}
+
+!!! example "Prototype"
+
+    Certains materials peuvent être encore brisés. C'est parce que SyntyStudio utilise parfois des _shaders_ personnalisés. Pour corriger cela, dans le panneau Project, tapez "URP_ExtractMe" dans la barre de recherche. Double-cliquez dessus sur l'élément trouvé, puis cliquez sur Import.
 
 ### Ajouter des assets sur la scène
 

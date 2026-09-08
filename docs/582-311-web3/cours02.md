@@ -2,16 +2,10 @@
 
 <!-- **Savoirs :** #5 Cadriciel facilitant l'intégration · #9 Positionnement · #17 Réactivité (media queries) -->
 
-[STOP]
-
 *[CLI]: Command-Line Interface
 *[CDN]: Content Delivery Network
 *[npm]: Node Package Manager
 *[OKLCH]: OK👌 Lightness Chroma Hue
-
-## Activités sociales
-
-[:material-microsoft: Formulaire à remplir](https://forms.cloud.microsoft/r/NTZn25YFT5){ .md-button .md-button--primary }
 
 ## Tutorat
 
@@ -618,8 +612,6 @@ scale-<axe>-<value>
 !!! note "Une valeur négative peut être spécifié en appliquant un «-» avant la classe. (ex.: `-scale-10`)"
 
 ## Exercices 
-
-
 
 <div class="grid grid-1-2" markdown>
   ![](./activite/gratuit/bait.gif){.aspect-4-3}

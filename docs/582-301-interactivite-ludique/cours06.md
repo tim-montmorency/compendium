@@ -2,6 +2,31 @@
 
 [STOP]
 
+
+## Élections provinciales 2026
+
+Lundi le 5 octobre 2026
+
+Vous devriez avoir reçu votre carte d’information de l’électeur pour savoir où voter. Sinon, [trouvez votre bureau de vote](https://www.electionsquebec.qc.ca/voter/ou-et-quand-voter/).
+
+Pour connaitre qui se présentent dans votre circonscription ainsi que ses enjeux spécifiques, [cherchez votre circonscription](https://www.electionsquebec.qc.ca/cartes-electorales/circonscriptions-provinciales/).
+
+### La Boussole électorale
+
+![](./assets/images/boussole.jpg)
+
+La Boussole électorale est un outil développé par des politologues pour vous aider à comparer vos opinions avec celles des partis.
+
+<div class="grid" markdown>
+![](./assets/images/boussole-result1.png){ data-zoom-image }
+
+![](./assets/images/boussole-result2.png){ data-zoom-image }
+</div>
+
+[boussole.radio-canada.ca](https://boussole.radio-canada.ca/){ .md-button .md-button--primary }
+
+
+
 !!! info "Le menu arrive ici"
     Le menu titre → jeu → fin était prévu à la S5; il a été déplacé ici, où il retrouve les transitions de scènes. Un menu, c'est un `SceneManager` avec des boutons — autant voir les deux ensemble.
 

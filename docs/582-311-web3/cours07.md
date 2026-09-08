@@ -8,6 +8,25 @@
 *[DOM]: Document Object Model
 *[npm]: Node Package Manager
 
+
+## Composantes Web
+
+![](./assets/images/web-components.png){.w-100}
+
+Règle général, un site Web se segmente en plusieurs partie. La première est la structure, celle qui défini l'emplacemennt de l'entête, de la navigation, du contenu principal, etc. et la seconde en plusieur c'est la façon dont on affiche l'information. Quand un type d'affichage revient plusieurs fois à travers les pages, on tente d'éviter de copier coller sa structure à chaque page. On fait alors des modèles réutilisables nommées composantes (_components_).
+
+
+Une page Web se construit à partir de blocs : un en-tête, une navigation, une liste d'articles, une carte de produit, un pied de page. 
+
+Plusieurs de ces blocs reviennent d'une page à l'autre, souvent avec la même apparence mais un contenu différent. Plutôt que d'en recopier le code à chaque endroit, on en fait un modèle réutilisable auquel on fournit des données. C'est ce qu'on appelle une composante (_component_).
+
+La page devient alors un assemblage de composantes plutôt qu'un long document HTML.
+
+[Exemples de composantes Web](https://ui.shadcn.com/docs/components){ .md-button .md-button--primary }
+
+
+---
+
 ![](./assets/images/alpinejs-banner.jpg){.w-100}
 
 Au cours 4, vos composantes DaisyUI vous ont donné de l'interactivité « gratuite »&nbsp;: un `drawer` qui s'ouvre, des `tabs` qui changent… le tout **sans JavaScript**, grâce à des astuces HTML/CSS.
