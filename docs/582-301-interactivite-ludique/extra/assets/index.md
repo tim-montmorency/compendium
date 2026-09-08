@@ -86,10 +86,19 @@ Avec le compte éducationnel, vous avez accès gratuitement à « POLYGON - Samp
 
 Package officiel de Unity Technologies, il permet l'ajout d'un personnage controllable à la première ou à la troisième personne.
 
-[Character Controllers | :simple-unity: AssetStore](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-267961){ .md-button .md-button--primary }
+[Character Controllers | :simple-unity: AssetStore](https://assetstore.unity.com/packages/essentials/starter-assets-character-controllers-urp-196526){ .md-button .md-button--primary }
+
+### Skybox Series Free
+
+![](./skybox.webp)
+
+Packager permettant de configurer un différent _Skybox_ dans Unity.
+
+[Skybox Series Free | :simple-unity: AssetStore](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633){ .md-button .md-button--primary }
 
 ## Autres ressources
 
 * <https://kenney.nl/assets/category:3D> (Assets)
 * <https://itch.io/game-assets/free/tag-3d> (Assets)
 * <https://www.mixamo.com/> (Animation)
+* <https://assetstore.unity.com/top-assets/top-free> (Assets gratuits)

@@ -1,9 +1,11 @@
 # Cours 2
 
-[STOP]
-
 *[URP]: Universal Render Pipeline
 *[CES]: Collider Event System
+
+## Activités sociales
+
+[:material-microsoft: Formulaire à remplir](https://forms.cloud.microsoft/r/NTZn25YFT5){ .md-button .md-button--primary }
 
 ## Commencer un jeu
 
@@ -56,51 +58,28 @@ Avant de créer le projet, on créer une passerelle avec GitHub
 1. La fenêtre "Initialize Git LFS" devrait apparaitre. Cliquer sur Initialize Git LFS <br><figure markdown>![](./assets/img/git-lfs.png){data-zoom-image .w-50}</figure>
 1. Cliquer sur « _Publish branch_ » <br><figure markdown>![](./assets/img/publish-branch.png){data-zoom-image .w-50}</figure>
 
-#### Méthode 2 : Manuellement
+#### Méthode 2 : À l'ancienne 👵
 
 ![](./assets/img/git-methode-2.jpg)
 
 1. Cliquer sur « ***+ Create project*** » (sans choisir de _source control provider_)
-1. Télécharger le gitignore Unity et le placer à la racine du projet : <https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore>
-1. Changer son nom de `Unity.gitignore` à `.gitignore`
-  ```txt title="Résultat attendu"
-  📁 ton-projet-unity
-  ├── 📁 Assets
-  ├── 📁 Library
-  ├── 📁 Logs
-  ├── 📁 Packages
-  ├── ...
-  └── .gitignore 👈
-  ```
 1. Ouvrir l'application :simple-github: **GitHub Desktop**
 1. Cliquer sur `File > Add local repository`
 1. Choisir le chemin vers le projet créé et cliquer sur « Add repository »
 1. Une erreur devrait apparaitre. Cliquer sur le lien « _create a repository_ »<br><figure markdown>![](./assets/img/no-repo-no-bueno.png){data-zoom-image .w-50}</figure>
 1. La fenêtre « Create a new repository » apparait :
   - Vérifier que le nom est correct
+  - Ne touchez pas au chemin, il devrait être normalement bien configuré
   - Ajouter une courte description
   - Cocher "Initialize this repository with a README"
   - Sélectionner Unity dans la liste de "Git ignore"
   - Vous pouvez mettre MIT License pour la "License"<br><figure markdown>![](./assets/img/no-bueno-new-repo.png){data-zoom-image .w-50}</figure>
   - Cliquer sur « Create repository »
 1. La fenêtre « Publish repository » apparait. 
-  - Vous pouvez simplement décocher « Keep this code private » et cliquer sur « Publish repository »<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
+  - Décocher « Keep this code private »
+  - Cliquer sur « Publish repository »<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
 
-!!! info "À faire une seule fois par projet"
-
-    Toute cette section (créer le répertoire, initialiser Git LFS, publier) ne se fait qu'**une fois, au tout début du projet**.
-
-    L'étape du *token d'accès*, elle, ne se fait qu'**une fois par compte GitHub sur un poste donné** : Unity Hub le mémorise. Aux projets suivants, GitHub sera déjà sélectionné dans le _source control provider_.
-
-    Par la suite, le travail quotidien se résume à `pull` -> travailler -> `commit` -> `push`.
-
-!!! danger "Ton répertoire doit être public"
-
-    C'est **ce répertoire-là** que tu remettras comme [devoir Protolude](./devoirs/protolude/index.md) : l'URL, rien d'autre. Ni zip, ni dossier à nettoyer.
-
-    Vérifie sa visibilité tout de suite, peu importe la méthode que tu as suivie : sur github.com, `Settings` > `General` > tout en bas > `Change repository visibility` > **Public**.
-
-    Le test qui ne ment pas : ouvre l'URL dans une **fenêtre de navigation privée**. Si tu tombes sur un 404, moi aussi — et c'est 1 point de rigueur.
+!!! note "À faire juste une fois par projet"
 
 ### Travailler avec GitHub
 
@@ -175,7 +154,7 @@ Voilà !
 1. Modifier la structure de fichiers
 
 1. Ajoutez un cube et renommer le « Plancher »
-1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)f
+1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
 1. L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
 
 1. Ajouter un autre cube et renommer le « Pente »
@@ -189,11 +168,11 @@ Voilà !
 
 !!! info "Raccourci : ++f++ (zoom sur un objet)"
 
-<!-- !!! info "Positionner un élément sur une surface"
+!!! info "Positionner un élément sur une surface"
 
     Quand on glisse un élément du panneau Project sur la scène, vous verrez que celui-ci se positionne SUR les surfaces.
 
-    Ensuite, le repositionnement ne suit plus cette logique. Sauf si on utilise le raccourci : ++ctrl+shift++ + `drag`. -->
+    Ensuite, le repositionnement ne suit plus cette logique. Sauf si on utilise le raccourci : ++ctrl+shift++ + `drag`.
 
 ### Physique
 
@@ -427,13 +406,19 @@ Bon, là, si vous ajoutez tout de suite des assets de « SyntyStudio » vous dev
 Pas de panique, ça veut juste dire que l'asset utilise un shader qui n'est pas reconnu par la technologie URP (ce sur quoi notre projet est basé). Il faut donc convertir le _pack_ avant de pouvoir l'utiliser :
 
 1. Clic sur `Window` > `Rendering` > `Render Pipeline Converter`.
-1. Dans la fenêtre qui s'ouvre, coche « ***Material Reference Converter*** » et « ***Material Shader Converter*** ».
+1. **Source Pipeline** = `Built-in`
+1. **Target Pipeline** = `Universal Render Pipeline (Universal Renderer)`
+1. Coche « ***Material Reference Converter*** » et « ***Material Shader Converter*** ».
 1. Clic sur le bouton `Scan`.
 1. Quand c'est terminé, clic sur `Convert Assets`.
 
 Là, ça fonctionne !
 
 ![](./assets/img/updated-shader.png){data-zoom-image .w-50}
+
+!!! example "Prototype"
+
+    Certains materials peuvent être encore brisés. C'est parce que SyntyStudio utilise parfois des _shaders_ personnalisés. Pour corriger cela, dans le panneau Project, tapez "URP_ExtractMe" dans la barre de recherche. Double-cliquez dessus sur l'élément trouvé, puis cliquez sur Import.
 
 ### Ajouter des assets sur la scène
 

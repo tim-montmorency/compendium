@@ -939,7 +939,7 @@ Les configurations d'alignement ressemblent beaucoup à celles de flexbox.
 
 <div class="ga-demo" id="ga-demo">
   <div class="ga-panel">
-    <p class="ga-legend">Sur le conteneur — la grille entière</p>
+    <p class="ga-legend">Sur le conteneur : la grille entière</p>
     <label>justify-content
       <select data-scope="grid" data-prop="justify-content">
         <option value="">normal (défaut)</option>
@@ -955,7 +955,7 @@ Les configurations d'alignement ressemblent beaucoup à celles de flexbox.
       </select>
     </label>
 
-    <p class="ga-legend">Sur le conteneur — tous les items</p>
+    <p class="ga-legend">Sur le conteneur : tous les items</p>
     <label>justify-items
       <select data-scope="grid" data-prop="justify-items">
         <option value="">stretch (défaut)</option>

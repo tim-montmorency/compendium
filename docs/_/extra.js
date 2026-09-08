@@ -117,54 +117,54 @@ const replaceLogoLinkWithSpan = () => {
 
 // Ajout d'un lien "Ouvrir l'exemple" sous les iframes spécifiques de codepen
 // Si le iframe est configuré à éditable et que le theme est celui sans tabs, on ajoute un lien vers l'exemple.
-const addOpenExampleLinks = () => {
-  const iframes = document.querySelectorAll("iframe");
+// const addOpenExampleLinks = () => {
+//   const iframes = document.querySelectorAll("iframe");
 
-  iframes.forEach((iframe) => {
-    const url = new URL(iframe.src);
-    const existingLink =
-      iframe.parentNode.tagName === "FIGURE" &&
-      iframe.parentNode.querySelector("figcaption a.codepen-open");
+//   iframes.forEach((iframe) => {
+//     const url = new URL(iframe.src);
+//     const existingLink =
+//       iframe.parentNode.tagName === "FIGURE" &&
+//       iframe.parentNode.querySelector("figcaption a.codepen-open");
 
-    // Vérifie si le lien existe déjà pour cet iframe
-    if (
-      url.searchParams.get("editable") === "true" &&
-      url.searchParams.get("theme-id") === "50173" &&
-      !existingLink
-    ) {
-      // Extrait l'identifiant du Pen de l'URL du iframe
-      let penUrl = url.pathname;
+//     // Vérifie si le lien existe déjà pour cet iframe
+//     if (
+//       url.searchParams.get("editable") === "true" &&
+//       url.searchParams.get("theme-id") === "50173" &&
+//       !existingLink
+//     ) {
+//       // Extrait l'identifiant du Pen de l'URL du iframe
+//       let penUrl = url.pathname;
 
-      // Remplacement spécifique selon la structure du lien
-      if (penUrl.includes("/embed/preview")) {
-        penUrl = penUrl.replace("/embed/preview", "/full");
-      } else if (penUrl.includes("/embed")) {
-        penUrl = penUrl.replace("/embed", "/full");
-      }
+//       // Remplacement spécifique selon la structure du lien
+//       if (penUrl.includes("/embed/preview")) {
+//         penUrl = penUrl.replace("/embed/preview", "/full");
+//       } else if (penUrl.includes("/embed")) {
+//         penUrl = penUrl.replace("/embed", "/full");
+//       }
 
-      // Construit l'URL complète
-      const fullPenUrl = `https://codepen.io${penUrl}`;
+//       // Construit l'URL complète
+//       const fullPenUrl = `https://codepen.io${penUrl}`;
 
-      // Création de l'élément figure
-      const figure = document.createElement("figure");
+//       // Création de l'élément figure
+//       const figure = document.createElement("figure");
 
-      // Déplacement de l'iframe dans le figure
-      iframe.parentNode.insertBefore(figure, iframe);
-      figure.appendChild(iframe);
+//       // Déplacement de l'iframe dans le figure
+//       iframe.parentNode.insertBefore(figure, iframe);
+//       figure.appendChild(iframe);
 
-      // Création du figcaption avec le lien
-      const figcaption = document.createElement("figcaption");
-      const link = document.createElement("a");
-      link.href = fullPenUrl;
-      link.className = "codepen-open";
-      link.textContent = "Ouvrir l’exemple";
-      link.target = "_blank";
+//       // Création du figcaption avec le lien
+//       const figcaption = document.createElement("figcaption");
+//       const link = document.createElement("a");
+//       link.href = fullPenUrl;
+//       link.className = "codepen-open";
+//       link.textContent = "Ouvrir l’exemple";
+//       link.target = "_blank";
 
-      figcaption.appendChild(link);
-      figure.appendChild(figcaption);
-    }
-  });
-};
+//       figcaption.appendChild(link);
+//       figure.appendChild(figcaption);
+//     }
+//   });
+// };
 
 const handleDestinations = () => {
   var destination = window.location.pathname;
@@ -491,7 +491,7 @@ function runFunctions() {
   //initializeSortableTables();
   toggleLogoButtonVisibility();
   toggleSearchVisibility();
-  addOpenExampleLinks();
+  // addOpenExampleLinks();
   handleDestinations();
   addBreadcrumb();
   handleCheckboxesWithFireworks(fireworks, fireworksContainer);

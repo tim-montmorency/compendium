@@ -5,6 +5,8 @@
     - Groupe Enric (semaine 4) : 21 septembre.
     - Groupe Lora (semaine 3) : 10 septembre.
 
+## Capsule du cours
+[🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
 
 ## Formation des comités pour la journée carrière
 [🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    

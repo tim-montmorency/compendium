@@ -1,6 +1,8 @@
-# Cours 4 | DaisyUI avancé
+# Cours 4
 
 [STOP]
+
+ | DaisyUI avancé
 
 <!-- **Savoirs :** #6 Réutilisation de composantes adaptées · #17 Réactivité -->
 
