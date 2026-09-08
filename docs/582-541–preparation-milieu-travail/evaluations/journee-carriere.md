@@ -20,11 +20,14 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 | **TOTAL** | **100** | | | | |
 
 ## Comités et tâches
-### Design  (3)
+### Design  (5)
 Objectif : créer l'identité visuelle et tous les supports visuels de la journée.    
 * Mise en page d'une invitation pour les employeurs
 * Création de la signalétique pour la journée carrière (flèches, affichage pour les tables)
 * Créer des fiches de présentation des entreprises
+* Créer une vidéo des projets des étudiants pour la télé
+* Création d'une playlist pour la journée carrière
+
 
 ### Communication (2 par classe)
 Objectif : gérer les communications avec les employeurs et les étudiants.    
@@ -33,6 +36,12 @@ Objectif : gérer les communications avec les employeurs et les étudiants.
 * Mise au point de l'horaire
 * Création d'un horaire personnalisé pour chaque étudiant (Sondage pour employeurs qu'ils veulent rencontrer)
 * Rédaction d'un courriel avec les informations pratiques pour les employeurs (stationnement, horaire,...)
+
+### Organisation des simulations d'entrevues (2 par classe)
+Objectif: aider avec la préparation des simulations d'entrevues.      
+* Faire des recherches sur les entreprises de la journée carrière.
+* Préparer des questions ciblées sur les entreprises pour les étudiants.
+* Assister aux simulations d'entrevues, poser des questions et donner des commentaires. 
 
 ### Répertoire des stagiaires (5)
 Objectif : permettre aux employeurs de découvrir facilement les étudiants.      
@@ -58,14 +67,12 @@ Objectif : accueillir les employeurs et assurer leur confort.
 * Faire l'accueil des employeurs
 * Effectuer des 'refill' pour les employeurs
 
-### Studio (6)
+### Studio (3 par classe)
 Objectif : s'assurer que l'espace et le matériel sont prêts et fonctionnels.     
 * Création de la liste d'équipements (projecteur vidéo, éclairage, système de son, rallonges électriques)
 * Création d'une liste de mobilier (chaises, tables, nappes, porte-manteau...)
 * Rédaction des courriels pour l'emprunt de matériel
-* Création d'une playlist pour la journée carrière
 * Plan de la salle (disposition des tables, zone d'attente...)
-* Créer une vidéo des projets des étudiants pour la télé
 * Montage de la salle
 * Démontage de la salle
 
