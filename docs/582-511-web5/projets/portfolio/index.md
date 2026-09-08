@@ -61,14 +61,15 @@
     <li>Site responsive (mobile et desktop), sans bogue majeur</li>
     <li>Code commenté dans vos propres mots</li>
     <li>Déploiement en ligne (GitHub Pages recommandé)</li>
-    <li>Journal de bord complété (JOURNAL.md)</li>
+    <li>Planification documentée (<em>PLANIFICATION.md</em>)</li>
+    <li>Journal de bord complété (<em>JOURNAL.md</em>)</li>
     <li>Démarche de contrôle de qualité documentée</li>
   </ul>
 </div>
 
 <div class="proj-block">
   <div class="proj-block-title">Vos choix technologiques : à justifier dans votre planification</div>
-  <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans PLANIFICATION.md :</p>
+  <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans <em>PLANIFICATION.md</em> :</p>
   <div class="proj-tech-grid">
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><div class="proj-tech-name">Données</div><div class="proj-tech-desc">BD ou fichier externe (JSON), affiché de façon asynchrone.</div></div>
 
@@ -103,7 +104,7 @@
 </div>
 
 <div class="proj-callout proj-callout-amber" style="margin-bottom:32px;" id="utilisation-de-lia">
-  <h3>Utilisation de l'IA</h3> 
+  <h3>Utilisation de l'IA</h3>
   <p>Utilisation de l'IA : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.</p>
 
   <h3>Comment citer?</h3>
@@ -114,12 +115,12 @@
 
   <h3>Éléments à inclure</h3>
 
-  <ul>
-    <li><strong>Date :</strong> La date précise du prompt ou de la question posée à l'IA.</li>
-    <li><strong>Prompt :</strong> Le texte exact utilisé en <em>italique</em>.</li>
-    <li><strong>Outil :</strong> Le nom du logiciel utilisé.</li>
-    <li><strong>Résultat :</strong> Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).</li>
-  </ul>
+  -<strong>Date :</strong> La date précise du prompt ou de la question posée à l'IA.<br>
+  -<strong>Prompt :</strong> Le texte exact utilisé en <em>italique</em>.<br>
+  -<strong>Outil :</strong> Le nom du logiciel utilisé.<br>
+  -<strong>Résultat :</strong> Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).
+
+  <br>
 
 </div>
 
@@ -253,7 +254,7 @@ table.proj-rubric th.lv-exc{color:var(--proj-teal);}
 <h3>Références intemporelles</h3>
 <ul class="proj-ref-list">
   <li><a href="https://material.io/" target="_blank">Material Design</a></li>
-  <li><a href="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" target="_blank">Théorie des couleurs, La Cascade</a></li>
+  <li><a href="https://99designs.fr/blog/conseils-design/la-theorie-des-couleurs/" target="_blank">Théorie des couleurs</a></li>
 </ul>
 
 <h3>Exemples de portfolios d'anciens étudiants</h3>

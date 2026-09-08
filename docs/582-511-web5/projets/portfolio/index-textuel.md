@@ -12,11 +12,12 @@ Soumettre un portfolio, ce n'est pas seulement livrer un beau site. C'est démon
 
 ### Vos responsabilités (étudiant·e)
 
-- Planifier votre portfolio et **justifier vos choix technologiques** dans un document de planification
-- Concevoir les maquettes visuelles (mobile et desktop)
+- Planifier votre portfolio et **justifier vos choix technologiques** dans un document nommé *PLANIFICAITON.md*.
+- Concevoir les maquettes visuelles dans Figma (mobile et desktop)
 - Développer le site web en mobilisant les technologies de votre choix (dans le cadre des balises établies)
 - Commenter votre code dans vos propres mots afin de démontrer votre compréhension
-- Maintenir un **journal de bord** tout au long du projet, en répondant aux questions fournies à chaque bloc
+- Maintenir un **journal de bord** (*JOURNAL.md*) tout au long du projet, en répondant aux questions fournies à chaque bloc
+- Inscrire vos questions posées à l'IA dans votre journal de bord (*JOURNAL.md*), en précisant la date, le prompt, l'outil utilisé et le résultat obtenu
 - Utiliser **Git** avec des commits réguliers, fréquents et bien nommés
 - Conduire une démarche de contrôle de qualité : tester votre portfolio selon une grille fournie, puis faire tester votre site par un pair
 - Déployer votre site en ligne
@@ -59,7 +60,7 @@ Peu importe vos choix technologiques, les éléments suivants sont exigés :
 Dans un contexte professionnel réel, un développeur ou une développeuse choisit ses outils en fonction des besoins du projet, puis justifie ses décisions. C'est exactement ce qu'on vous demande ici. Pour chacun des éléments suivants, vous devrez choisir l'approche qui convient le mieux à votre projet **et en expliquer la raison** dans votre document de planification (PLANIFICATION.md) :
 
 - **Gestion des données** : séparer les données de vos projets dans une base de données ou fichier externe (par exemple, le format *.json*). Ces données devront être récupérées et affichées de façon asynchrone au chargement de la page du portfolio. Selon la nature de votre portfolio et l’aisance de mise à jour des données des projets, sélectionner le type de base de données ou CMS et la technique de récupération de données de votre choix.
-- **Animations** : utiliser GSAP, une autre librairie, ou des animations CSS purs.
+- **Animations** : utiliser [GSAP](https://gsap.com/), [Animejs](https://animejs.com/), une autre librairie, ou des animations CSS purs.
 - **Structure de navigation** : one-pager, multipages, ou autre : selon votre concept.
 - **Hébergement** : GitHub Pages ou un autre service d’hébergement de votre choix (si vous utilisez un CMS avec des technologies exécutables au niveau serveur, alors il faut sélectionner un hébergeur en fonction de la technologie utilisée).
 
@@ -75,6 +76,24 @@ Il n'y a pas de mauvais choix, mais tout choix doit être justifié au départ d
 4. Quelle est ma prochaine étape concrète?
 5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
 
+#### Utilisation de l'IA
+
+L'IA est permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans votre journal de bord ou via un lien de conversation partagé dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct. À la fin du projet, lors de la présentation, vous serez invité à le faire devant la classe à la demande de l’enseignante.
+
+
+##### Comment citer?
+
+Pour ce cours, cette citation se fait directement dans votre *JOURNAL.md*.
+
+Vous ne devez pas inclure les autocomplétions de Copilot (VS Code) dans votre journal, mais vous devez inclure toute question posée à l'IA que ce soit avec Co-Pilot intégré VS Code ou autre outil IAG (Figma, ChatGPT, etc.).
+
+##### Éléments à inclure
+
+- *Date :* La date précise du prompt ou de la question posée à l'IA.
+- *Prompt :* Le texte exact utilisé en *italique*.
+- *Outil :* Le nom du logiciel utilisé.
+- *Résultat :* Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).
+
 ### Contrôle de qualité
 
 Vous devrez mener et documenter une démarche de contrôle de qualité en deux volets :
@@ -82,9 +101,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 - **Auto-évaluation** : à l'aide de la grille critériée fournie, vous évaluez vous-même votre portfolio avant la remise 3.
 - **Tests par les pairs** : un·e collègue teste votre portfolio à partir d'une grille de tests guidés et vous remet ses observations écrites. Vous documentez ensuite les correctifs que vous avez apportés à la suite de ces tests.
 
-### Utilisation de l'IA
 
-L'IA est permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans votre journal de bord ou via un lien de conversation partagé dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct. À la fin du projet, lors de la présentation, vous serez invité à le faire devant la classe à la demande de l’enseignante.
 
 ## Critères d'évaluation
 
@@ -125,12 +142,60 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 
 ### Remises formatives
 
-- **Remise 1 : Planification et design** *(groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre)* : dépôt GitHub initialisé, moodboard, maquettes visuelles mobile et desktop, justification des choix technologiques, plan de contenu et architecture du site, journal de bord complété jusqu'à ce point. **Rétroaction formative individuelle** de l'enseignante.
-- **Remise 2 : Version Beta** *(semaine 6, 2 octobre)* : version Beta déployée et fonctionnelle en ligne, grille de validation qualité amorcée. Lancement des tests par les pairs cette semaine-là ; **les résultats et correctifs seront documentés pour la remise finale**.
+#### Remise 1 : Planification et design *(groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre)*
+
+- dépôt GitHub initialisé:
+  - fichiers README.md, PLANIFICATION.md et JOURNAL.md créés,
+  - commits réguliers, fréquents et bien nommés.
+- moodboard exporté en PDF et déposé dans le dépôt GitHub,
+- maquettes visuelles (Figma) mobile et desktop exportées en PDF et déposées dans le dépôt GitHub,,
+- justification des choix technologiques (PLANIFICATION.md),
+- journal de bord complété jusqu'à ce point (JOURNAL.md),
+  - 5 questions à répondre pour le premier bloc du projet,
+  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
+
+**Rétroaction formative individuelle** de l'enseignante.
+  
+#### Remise 2 : Version Beta *(semaine 6, 2 octobre)*
+
+- design corrigé et adapté, suite à la rétroaction de la remise 1,
+- dépôt GitHub mis à jour:
+  - structure de dossiers cohérente et convention de nommage uniforme,
+  - fichiers README.md, PLANIFICATION.md et JOURNAL.md mis-à-jour,
+  - commits réguliers, fréquents et bien nommés. avec commits réguliers et bien nommés,
+- intégration HTML/CSS/JS fonctionnelle, avec commentaires dans le code,
+- intégration des contenus textuels et médias,
+- journal de bord complété jusqu'à ce point (JOURNAL.md),
+  - 5 questions à répondre pour le deuxième bloc du projet,
+  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
+- version Beta déployée et fonctionnelle en ligne,
+- grille de validation qualité amorcée.
+- lancement des tests par les pairs cette semaine-là : **les résultats et correctifs seront documentés pour la remise finale**.
 
 ### Remise finale : sommative (40%)
 
-- **Remise 3 : Portfolio complet et présentation devant le jury** *(semaine 7, mi-session)* : dépôt du site en ligne, journal de bord complété pour l'ensemble du projet, auto-évaluation à partir de la grille critériée, résultats des tests par les pairs documentés et correctifs apportés, présentation devant le jury (groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre). Durée approximative : 5 minutes de présentation par étudiant·e, suivies de questions du jury. L'évaluation porte sur le produit final, la démarche de contrôle de qualité, le processus documenté (journal de bord et commits Git) et la capacité à justifier ses choix devant un employeur potentiel.
+#### Remise 3 : Portfolio complet et présentation devant le jury *(semaine 7 | gr. Lora : 8 oct. | gr. d'Enric : 15 oct.)*
+
+- dépôt du site en ligne (déploiment sur un serveur web de votre choix),
+- justification des choix technologiques tel que présenté à la remsie 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),
+- journal de bord complété pour l'ensemble du projet (JOURNAL.md)
+  - 5 questions à répondre pour le dernier bloc du projet,
+  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
+- auto-évaluation à partir de la grille critériée,
+- résultats des tests par les pairs documentés et correctifs apportés,
+- présentation devant le jury (groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre).
+  
+*Durée approximative :*
+
+- 5 minutes de présentation par étudiant·e,
+- suivies de questions du jury.
+  
+*L'évaluation porte sur :*
+
+- le produit final (qualité du design, de l'expérience utilisateur, de l'interactivité et du code),
+- la démarche de contrôle de qualité,
+- le processus documenté (journal de bord, commits Git, commentaires dans le code, justification des choix technologiques),
+- et la capacité à justifier ses choix et son processus devant un employeur potentiel.
 
 ## Sites de référence d'inspiration
 
