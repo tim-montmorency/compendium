@@ -142,9 +142,10 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 
 ### Remises formatives
 
-#### Remise 1 : Planification et design *(groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre)*
+#### Remise 1 : Planification et design *(gr. Enric 14 sept. | gr. Lora 17 sept.)*
 
-- dépôt GitHub initialisé:
+- dépôt GitHub initialisé, 
+  <span class="important-label">IMPORTANT</span>, le dépôt doit être privé et vous devez inviter *marie-michelle-ouellet* comme collaboratrice
   - fichiers README.md, PLANIFICATION.md et JOURNAL.md créés,
   - commits réguliers, fréquents et bien nommés.
 - moodboard exporté en PDF et déposé dans le dépôt GitHub,
