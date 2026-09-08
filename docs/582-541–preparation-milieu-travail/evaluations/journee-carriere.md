@@ -21,11 +21,13 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 
 ## Comités et tâches
 ### Design  (3)
+Objectif : créer l'identité visuelle et tous les supports visuels de la journée.    
 * Mise en page d'une invitation pour les employeurs
-* Signalétique pour la journée carrière (flèches? Affichage pour les tables)
+* Création de la signalétique pour la journée carrière (flèches, affichage pour les tables)
 * Créer des fiches de présentation des entreprises
 
 ### Communication (2 par classe)
+Objectif : gérer les communications avec les employeurs et les étudiants.    
 * Répartir les invitations entre les étudiants
 * Suivi des invitations et des réponses
 * Mise au point de l'horaire
@@ -33,6 +35,7 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 * Rédaction d'un courriel avec les informations pratiques pour les employeurs (stationnement, horaire,...)
 
 ### Répertoire des stagiaires (5)
+Objectif : permettre aux employeurs de découvrir facilement les étudiants.      
 * Créer une page web qui regroupe les liens vers les informations des stagiaires (Avec photos du comité photo?)
 * Récupérer les CV de tous les stagiaires
 * Récupérer les liens vers les portfolios des stagiaires
@@ -40,12 +43,14 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 * Faire la programmation du répertoire
 
 ### Photo  (3 par classe)
+Objectif : produire des photos professionnelles cohérentes pour le répertoire et les communications.     
 * Choisir un concept pour les photos professionnelles
 * Faire la réservation d'équipement
 * Prendre les photos
 * Faire le traitement des photos réalisées
 
 ### Réception  (2)
+Objectif : accueillir les employeurs et assurer leur confort.       
 * Trouver le financement pour l'activité
 * Trouver une personne pour prêter des pichets et des ecocup pour l'eau
 * Faire la liste d'achat
@@ -54,12 +59,13 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 * Effectuer des 'refill' pour les employeurs
 
 ### Studio (6)
+Objectif : s'assurer que l'espace et le matériel sont prêts et fonctionnels.     
 * Création de la liste d'équipements (projecteur vidéo, éclairage, système de son, rallonges électriques)
 * Création d'une liste de mobilier (chaises, tables, nappes, porte-manteau...)
 * Rédaction des courriels pour l'emprunt de matériel
 * Création d'une playlist pour la journée carrière
 * Plan de la salle (disposition des tables, zone d'attente...)
-* Créer une vidéo ou un powerpoint des projets des étudiants pour la télé
+* Créer une vidéo des projets des étudiants pour la télé
 * Montage de la salle
 * Démontage de la salle
 
@@ -67,7 +73,7 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 * Création d'un trello pour regrouper les tâches des 2 classes afin de pouvoir faire des suivis
 * Trouver une méthode pour la gestion du temps à la journée carrière (système de rotation)
 * Chapeauter les différents comités
-* Faire le lien entre les comités au besoin
+* Faire le lien entre les comités
 
 
 

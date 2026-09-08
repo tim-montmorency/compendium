@@ -7,6 +7,11 @@
 *[npm]: Node Package Manager
 *[OKLCH]: OK👌 Lightness Chroma Hue
 
+<!--
+## Activités sociales
+
+[:material-microsoft: Formulaire à remplir](https://forms.cloud.microsoft/r/NTZn25YFT5){ .md-button .md-button--primary }
+-->
 ## Tutorat
 
 | Qui | Quand | Où |
@@ -365,6 +370,9 @@ Les conteneurs Tailwind c'est juste des dimensions normalisées qu'on peut appli
 | **xl** | `36rem` |
 | **2xl** | `42rem` |
 | ... |  |
+
+<!-- @faire-en-classe : Ré-expliquer la notion de rem. -->
+<!-- @besoin : Petit outil qui montre les container. -->
 
 <!-- ### Position
 
