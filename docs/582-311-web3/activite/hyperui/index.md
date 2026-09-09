@@ -32,3 +32,7 @@ L'objectif de cet exercice est d'appliquer sur une page Web certaines composante
   - Padding sur tous les côtés de `1rem`
   - Fond blanc
 - [ ] Uniformiser les couleurs utilisées (turquoise et indigo) par une seule couleur Tailwind de votre choix
+
+[STOP]
+
+https://tim-w3.github.io/hyperui-marketing-solution/

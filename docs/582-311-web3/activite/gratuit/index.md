@@ -27,3 +27,7 @@ L'objectif de cet exercice est d'appliquer les classes Tailwind afin de reprodui
 
       * Les commentaires avec un emoji de cadeau 🎁 représentent du code donné par l'enseignant
       * Les commentaires avec un emoji de lumière 💡 sont des indices et vous devrez trouver la solution
+
+[STOP]
+
+https://tim-w3.github.io/tailwind-qrcard-solution/

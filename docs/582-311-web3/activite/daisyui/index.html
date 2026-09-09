@@ -1,80 +1,162 @@
-<!-- 2. Appliquer un thème par défaut (de son choix) -->
-<!DOCTYPE html>
-<html lang="fr" data-theme="nord">
+<!doctype html>
+<!-- 2. Ajouter un thème de votre choix -->
+<html lang="fr" data-theme="light">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Démo DaisyUI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Structure Tailwind + composantes daisyUI</title>
 
-  <!-- 1. Installer cdn tailwind + daisyui -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+  <!-- 1. Connecter tailwind et daisyui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="p-4">
+<!-- 3. Appliquer la classe `bg-base-200` à `<body>` permettra de discriminer le contenu principal des autres régions de la page -->
 
-  <!-- 3. Ajouter une composante DaisyUI Navbar -->
+<body class="bg-base-200">
 
-  <div class="navbar bg-base-100 shadow-sm">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-          <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
-          </svg>
+  <!-- 4. Applique la structure "Layout header + aside + main + footer" -->
+  <div id="squelette-du-site" class="grid grid-rows-[auto_1fr_auto] min-h-screen gap-8">
+
+    <!-- 5. Sur le header, ajoute les classes "sticky top-0 z-30" -->
+    <header class="sticky top-0 z-30">
+
+      <!-- 6. Ajouter une "Navbar with title and icon" -->
+      <!-- 7. Dans la navbar, remplacer le bouton par une composante "Theme Controller" de votre choix et configurez le. -->
+      <div class="navbar bg-base-100 shadow-sm">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">daisyUI</a>
         </div>
-        <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-          <li><a>Homepage</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>About</a></li>
-        </ul>
+        <div class="flex-none">
+          <input type="checkbox" value="synthwave" class="toggle theme-controller" />
+        </div>
       </div>
-    </div>
-    <div class="navbar-center">
-      <a class="btn btn-ghost text-xl">daisyUI</a>
-    </div>
-    <div class="navbar-end">
-      <button class="btn btn-ghost btn-circle">
-        <svg aria-label="Search" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-        </svg>
-      </button>
-      <button class="btn btn-ghost btn-circle">
-        <div class="indicator">
-          <svg aria-label="Notifications" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-          </svg>
-          <span class="badge badge-xs badge-primary indicator-item"></span>
+
+    </header>
+
+
+    <div class="grid sm:grid-cols-[16rem_1fr] gap-8">
+
+      <aside>
+
+        <!-- 8. Dans aside, ajouter une composante « Collapsible submenu » -->
+        <!-- 8b. Appliquer une classe pour permettre à un des éléments du menu de s'affichié actif (sélectionné si on veut). Vous trouverez ça dans la documentation des menus. -->
+
+        <ul class="menu bg-base-200 rounded-box w-full">
+          <li><a>Item 1</a></li>
+          <li>
+            <details open>
+              <summary>Parent</summary>
+              <ul>
+                <li><a class="menu-active">Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+                <li>
+                  <details open>
+                    <summary>Parent</summary>
+                    <ul>
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
+
+      </aside>
+
+      <main>
+
+        <!-- 9. Dans le <main>, ajouter une colonne centrée avec une largeur maximale d'environ 3xl. Tout le contenu ira dedans. -->
+        <!-- 9b. La colonne centrée devrait s'afficher en flexbox pour permettre d'ajouter un gap afin de séparer les enfants. -->
+
+        <div class="max-w-3xl mx-auto flex flex-col gap-8">
+
+
+          <!-- 10. Dans la colonne centrée, ajouter une composante Breadcrumb -->
+          <div class="breadcrumbs text-sm">
+            <ul>
+              <li><a>Home</a></li>
+              <li><a>Documents</a></li>
+              <li>Add Document</li>
+            </ul>
+          </div>
+
+          <!-- 11. Dans la colonne centrée, ajouter une composante Alert -->
+
+          <div role="alert" class="alert alert-info alert-outline">
+            <span>12 unread messages. Tap to see.</span>
+          </div>
+
+          <!-- 12. Dans la colonne centrée, ajouter un h1 et un paragraphe. Ajustez la taille du titre. -->
+
+          <h1 class="text-5xl font-bold">Allo !</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula, ante nec scelerisque
+            fermentum, mauris nisi efficitur sapien, vel maximus leo elit sed lacus. Nam nec dapibus lacus, congue
+            tincidunt elit. Cras ut mi in nisl gravida iaculis vel et risus. Aenean aliquam eu dolor faucibus gravida.
+            Duis consequat eros id elit commodo, nec laoreet nunc sollicitudin. Fusce accumsan magna sed augue
+            vestibulum mollis. Nunc ornare gravida molestie.</p>
+
+          <!-- 13. Dans la colonne centrée, ajouter une grille à 2 colonnes et insérer dans chaque colonne une composante Card -->
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="card bg-primary text-primary-content w-96">
+              <div class="card-body">
+                <h2 class="card-title">Card title!</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-primary text-primary-content w-96">
+              <div class="card-body">
+                <h2 class="card-title">Card title!</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </button>
+      </main>
     </div>
+
+    <!-- 14. Remplacer <footer> avec une composante Footer -->
+
+    <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+
   </div>
-
- <!-- 4. Ajouter une composante DaisyUI Hero -->
-
- <div class="hero bg-base-200 min-h-screen">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold">Hello there</h1>
-      <p class="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
-      </p>
-      <button class="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-
-<!-- 5. Ajouter un conteneur Tailwind  -->
-
-
 </body>
 
 </html>
+
+<!-- 15. Ajuster les gap pour faire respirer la page -->
+<!-- 16. Formatter le code -->
