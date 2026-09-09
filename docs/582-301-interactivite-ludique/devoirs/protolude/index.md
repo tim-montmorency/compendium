@@ -23,12 +23,12 @@ Ce projet compte pour **13 %** de la note finale.
 
 ## Partie 2 | L'interactivité 🪤
 
-- [ ] Ajouter le package *Starter Assets: Character Controllers | URP*
+- [ ] Ajouter le package [Character Controllers](../../unity-assets/index.md#character-controllers)
 - [ ] Ajouter un personnage jouable à la troisième personne
 - [ ] Appliquer un des personnages SyntyStudio à la place du robot
 - [ ] Ajouter au moins un objet, autre que le personnage, qui utilise la physique
   > Doit être cohérent avec l'esthétique du jeu
-- [ ] Configurer les interactions avec _Collider Event System_
+- [ ] Configurer les interactions avec CES
   > Une interaction doit en débloquer une autre. L'usage de condition est nécessaire.
 - [ ] Déclencher la fin du jeu par un changement de scène
 - [ ] Ajouter au moins un **danger** qui peut faire échouer le joueur

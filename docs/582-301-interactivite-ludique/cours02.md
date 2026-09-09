@@ -265,7 +265,7 @@ En Unity, on parle surtout de **collision**. Quand le projectif entre en collisi
 
 ![](./assets/img/demo-etb.png){.w-50 data-zoom-image}
 
-Pour faciliter la gestion des événements liés à des collisions, installons le package [Collider Event System](./extra/assets/index.md#collider-event-system).
+Pour faciliter la gestion des événements liés à des collisions, installons le package [Collider Event System](./unity-assets/index.md#collider-event-system).
 
 Dans le panneau _Project_, glissez un prefab du package sur la scène. 
 
@@ -391,7 +391,7 @@ Il n'y aura plus de référence au prefab, donc si on change le prefab, ca ne ch
 
 L'avantage du _pack_ est qu'il contient des centaines de modèles 3D **cohérents entre eux**. Visuellement, c'est plus sérieux que d'avoir plusieurs assets qui ne partagent pas le même esthétique.
 
-[Installation via Asset Store](./extra/assets/index.md#polygon-sampler-pack-synty-studiostm)
+[Installation via Asset Store](./unity-assets/index.md#polygon-sampler-pack-synty-studiostm)
 
 !!! quote "J'ai pas encore mon compte éducationnel"
     
@@ -419,6 +419,16 @@ Là, ça fonctionne !
 !!! example "Prototype"
 
     Certains materials peuvent être encore brisés. C'est parce que SyntyStudio utilise parfois des _shaders_ personnalisés. Pour corriger cela, dans le panneau Project, tapez "URP_ExtractMe" dans la barre de recherche. Double-cliquez dessus sur l'élément trouvé, puis cliquez sur Import.
+
+!!! danger "Erreur d'inattention"
+
+    Si vous avez convertis en Universal Render Pipeline (2D Renderer), vous devez soit recommencer, soit appliquer la procédure suivante.
+
+    - Créer un dossier « Editor » dans Assets.
+    - Télécharger et déplacer dans le dossier Editor le [script de récupération](./extra/Convert2DMaterialsToURPLit.cs).
+    - Sur Unity, vous devriez voir l'onglet "Tools". Cliquer sur `URP` > `3. Convertir vers URP Lit (tout le projet)`
+
+    Idée originale de Christophe Granger.
 
 ### Ajouter des assets sur la scène
 
@@ -463,13 +473,13 @@ Une fois le *gate* choisi, l'environnement se construit en conséquence. -->
 
 !!! abstract ":material-check-decagram: Vérification du devoir 01 (2 %)"
 
-
 <div class="grid grid-1-2" markdown>
   ![](./devoirs/protolude/assets.png){.aspect-4-3}
 
   <small>Devoir - Unity</small><br>
   **[Protolude : Partie 1](./devoirs/protolude/index.md){.stretched-link .back}**<br>
 </div>
+
 <!-- 
 * **Termine ton mini-monde** : un départ, un chemin, une arrivée évidente - sol continu, colliders en place, aucun endroit où on reste coincé ou on tombe dans le vide
 * Ce monde est la base de ton [jeu express](./devoirs/protolude/index.md) (**Évaluation 1 - 13 %**) : lis la grille dès maintenant

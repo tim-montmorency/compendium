@@ -26,6 +26,8 @@
 
 ## Les materials
 
+CES : hint material.
+
 ### Albedo, métallique, lissage, émission
 
 ### Les variantes de materials Synty
