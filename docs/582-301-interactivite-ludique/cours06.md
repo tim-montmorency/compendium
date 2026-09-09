@@ -65,6 +65,8 @@ La Boussole électorale est un outil développé par des politologues pour vous 
 
 ### L'Animator : contrôleur, états, paramètres
 
+Note : Animation + transition (fadetoblack + switchscene)
+
 ### La machine à états : le cerveau
 
 ### Le Blend Tree : marche → course

@@ -488,10 +488,10 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et à créer des p
 ## Assets
 
 <div class="grid grid-1-2" markdown>
-  ![](./extra/assets/banner.png)
+  ![](./unity-assets/banner.png)
 
   <small>Documentation</small><br>
-  **[Assets](./extra/assets/index.md){.stretched-link .back}**<br>
+  **[Assets](./unity-assets/index.md){.stretched-link .back}**<br>
 </div>
 
 ## Devoirs

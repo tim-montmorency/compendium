@@ -31,7 +31,7 @@ L'objectif de cet exercice est de :
 
 ### Seconde partie
 
-- [ ] Ajoutez un prefab ETB ([Enhanced Trigger Box](../../extra/assets/index.md){.back}) à la fin du parcours pour interagir avec la sphère
+- [ ] Ajoutez un prefab ETB ([Enhanced Trigger Box](../../unity-assets/index.md){.back}) à la fin du parcours pour interagir avec la sphère
 - [ ] Assignez le tag « Player » à la sphère
 - [ ] Ajoutez un GameObject vide et positionnez-le au début du parcours
 - [ ] Configurez l'ETB de sorte qu'à chaque fois que la sphère entre dans sa zone, celle-ci se téléporte à la position du GameObject vide.

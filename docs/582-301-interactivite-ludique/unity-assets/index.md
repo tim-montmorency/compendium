@@ -80,7 +80,7 @@ Avec le compte éducationnel, vous avez accès gratuitement à « POLYGON - Samp
 
 [Sampler Pack | :simple-unity: AssetStore](https://assetstore.unity.com/packages/3d/environments/polygon-sampler-pack-art-by-synty-207048){ .md-button .md-button--primary }
 
-### Starter Assets: Character Controllers | URP
+### Character Controllers
 
 ![](./chracter-controller.webp)
 
