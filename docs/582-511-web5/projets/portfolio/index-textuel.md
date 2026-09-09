@@ -13,7 +13,8 @@ Soumettre un portfolio, ce n'est pas seulement livrer un beau site. C'est démon
 ### Vos responsabilités (étudiant·e)
 
 - Planifier votre portfolio et **justifier vos choix technologiques** dans un document nommé *PLANIFICAITON.md*.
-- Concevoir les maquettes visuelles dans Figma (mobile et desktop)
+- Concevoir les maquettes visuelles dans Figma (mobile et desktop) et ajouter les fichiers PDF exportés dans votre dépôt GitHub.
+- Créer un ficheir *README.md* dans votre dépôt GitHub, inscrivez-y : votre nom et un lien vers votre Figma Design.
 - Développer le site web en mobilisant les technologies de votre choix (dans le cadre des balises établies)
 - Commenter votre code dans vos propres mots afin de démontrer votre compréhension
 - Maintenir un **journal de bord** (*JOURNAL.md*) tout au long du projet, en répondant aux questions fournies à chaque bloc
@@ -144,17 +145,23 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 
 #### Remise 1 : Planification et design *(gr. Enric 14 sept. | gr. Lora 17 sept.)*
 
-- dépôt GitHub initialisé, 
+- dépôt GitHub initialisé et doit contenir:
   <span class="important-label">IMPORTANT</span>, le dépôt doit être privé et vous devez inviter *marie-michelle-ouellet* comme collaboratrice
-  - fichiers README.md, PLANIFICATION.md et JOURNAL.md créés,
-  - commits réguliers, fréquents et bien nommés.
-- moodboard exporté en PDF et déposé dans le dépôt GitHub,
-- maquettes visuelles (Figma) mobile et desktop exportées en PDF et déposées dans le dépôt GitHub,,
-- justification des choix technologiques (PLANIFICATION.md),
-- idées d'animation documentées (PLANIFICATION.md) : quoi animer, comment, sur quel événement,
-- journal de bord complété jusqu'à ce point (JOURNAL.md),
-  - 5 questions à répondre pour le premier bloc du projet,
-  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
+  - ficheir *README.md* dans votre dépôt GitHub, inscrivez-y :
+    - votre nom,
+    - votre programme d'études et le nom du collège,
+    - votre courriel,
+    - un lien vers votre portfolio en ligne (le futur url de votre portfolio),
+    - un lien vers votre Figma Design.
+      - Lorsque vous copiez le lien dans Figma, assurez-vous de me donner accès à modifier votre fichier Figma en ligne afin que je puisse le consulter et le commenter. Mon courriel pour Figma est *marie-michelle.ouellet@cmontmorency.qc.ca*.
+  - commits réguliers, fréquents et bien nommés,
+  - moodboard exporté en PDF et déposé dans le dépôt GitHub,
+  - maquettes visuelles (Figma) mobile et desktop exportées en PDF et déposées dans le dépôt GitHub,
+  - justification des choix technologiques (*PLANIFICATION.md*),
+  - idées d'animation documentées (*PLANIFICATION.md*) : quoi animer, comment, sur quel événement,
+  - journal de bord complété jusqu'à ce point (*JOURNAL.md*),
+    - 5 questions à répondre pour le premier bloc du projet,
+    - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
 
 **Rétroaction formative individuelle** de l'enseignante.
   
