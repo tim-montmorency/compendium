@@ -36,7 +36,7 @@ Voici l'[horaire en ligne](https://www.cmontmorency.qc.ca/etudiants/services-aux
 
 Avant chaque séance de tutorat, il y aura une annonce faite par le tuteur pour annoncer sa disponibilité. Cette annonce sera faite dans le [canal *Général* du groupe Teams *TIM - Programme TIM*](https://teams.microsoft.com/l/channel/19%3A0df14bbe83b542679a319fb4fa0dcea8%40thread.tacv2/General?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d).
 
-Pour le tutorat en ligne, ilsuffit d'envoyer un message privé au tuteur ou à la tutrice, ou directrement dans le [canal *Tutorat* du groupe Teams *TIM - Programme TIM*](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d).
+Pour le tutorat en ligne, il suffit d'envoyer un message privé au tuteur ou à la tutrice, ou directrement dans le [canal *Tutorat* du groupe Teams *TIM - Programme TIM*](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d).
 
 Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
 

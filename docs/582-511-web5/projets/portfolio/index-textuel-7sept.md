@@ -60,7 +60,7 @@ Peu importe vos choix technologiques, les éléments suivants sont exigés :
 Dans un contexte professionnel réel, un développeur ou une développeuse choisit ses outils en fonction des besoins du projet, puis justifie ses décisions. C'est exactement ce qu'on vous demande ici. Pour chacun des éléments suivants, vous devrez choisir l'approche qui convient le mieux à votre projet **et en expliquer la raison** dans votre document de planification (PLANIFICATION.md) :
 
 - **Gestion des données** : séparer les données de vos projets dans une base de données ou fichier externe (par exemple, le format *.json*). Ces données devront être récupérées et affichées de façon asynchrone au chargement de la page du portfolio. Selon la nature de votre portfolio et l’aisance de mise à jour des données des projets, sélectionner le type de base de données ou CMS et la technique de récupération de données de votre choix.
-- **Animations** : utiliser [GSAP](https://gsap.com/), [Animejs](https://animejs.com/), une autre librairie, ou des animations CSS purs. Précisez ce que vous voulez animer, comment, et sur quel événement utilisateur (défilement, survol, clic).
+- **Animations** : utiliser [GSAP](https://gsap.com/), [Animejs](https://animejs.com/), une autre librairie, ou des animations CSS purs.
 - **Structure de navigation** : one-pager, multipages, ou autre : selon votre concept.
 - **Hébergement** : GitHub Pages ou un autre service d’hébergement de votre choix (si vous utilisez un CMS avec des technologies exécutables au niveau serveur, alors il faut sélectionner un hébergeur en fonction de la technologie utilisée).
 
@@ -151,7 +151,6 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 - moodboard exporté en PDF et déposé dans le dépôt GitHub,
 - maquettes visuelles (Figma) mobile et desktop exportées en PDF et déposées dans le dépôt GitHub,,
 - justification des choix technologiques (PLANIFICATION.md),
-- idées d'animation documentées (PLANIFICATION.md) : quoi animer, comment, sur quel événement,
 - journal de bord complété jusqu'à ce point (JOURNAL.md),
   - 5 questions à répondre pour le premier bloc du projet,
   - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
