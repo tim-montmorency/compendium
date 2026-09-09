@@ -43,8 +43,8 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
 
 ## Projet portfolio
 
-- [Détails du projet](../projets/portfolio/index-textuel.md)
-- [Version résumée et visuelle](../projets/portfolio/index.md)
+- [Détails du projet](./projets/portfolio/index-textuel.md)
+- [Version résumée et visuelle](./projets/portfolio/index.md)
 
 ??? tip "À propos du github privé et l'invitation de l'enseignante"
 
@@ -189,8 +189,8 @@ Documentez votre idée dans `PLANIFICATION.md` :
 
 ### Portfolio : remise 1
 
-- [Détails du projet](../projets/portfolio/index-textuel.md)
-- [Version résumée et visuelle](../projets/portfolio/index.md)
+- [Détails du projet](./projets/portfolio/index-textuel.md)
+- [Version résumée et visuelle](./projets/portfolio/index.md)
 
 
 **À remettre pour la semaine prochaine (gr. Enric 14 sept. | gr. Lora 17 sept.) :**
