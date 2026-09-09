@@ -13,7 +13,7 @@
 
 ## Tutorat
 
-Vous vous êtes déjà possiblement trouvés dans cette situation&nbsp;:
+Vous vous êtes déjà possiblement trouvés dans cette situation:
 
 **HELP... I NEEP HELP, PLEASE !**
 
@@ -46,7 +46,7 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
 - [Détails du projet](../projets/portfolio/index-textuel.md)
 - [Version résumée et visuelle](../projets/portfolio/index.md)
 
-??? tip À propos du github privé et l'invitation de l'enseignante
+??? tip "À propos du github privé et l'invitation de l'enseignante"
 
     Le dépôt GitHub doit être **privé** et vous devez inviter *marie-michelle-ouellet* comme collaboratrice. Si vous ne le faites pas, vous ne pourrez pas obtenir de rétroaction sur votre projet. Si ce n'est pas fait, faites le maintenant pour la remise 1 *planification et du design* de la semaine prochaine (gr Enric 14 sept. | gr Lora 17 sept.).
 
@@ -69,10 +69,7 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
     - 2397931/portfolio-sarah-muller-francois
     - Kliraaa/portfolio-iryna-lysenko
 
-
 ## Workflow design assisté par IA : diverger, copier, raffiner
-
-[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](assets/documents/Web5_workflow-design-ia.pptx){ .md-button .md-button--primary :target="_blank" }
 
 Figma Make et Google Stitch génèrent un premier jet en quelques minutes. Cette page explique où s'arrête l'IA et où commence votre travail : comment passer d'un jet généré à un fichier Figma Design que vous raffinez à la main, et comment distinguer l'inspiration de la copie intégrale.
 
@@ -140,12 +137,53 @@ Si le bouton ne fonctionne pas pour ton modèle, l'alternative est de **recréer
 !!! tip "Nuance professionnelle"
     Ce workflow accéléré brille pour du volume élevé et une complexité modérée : pages d'atterrissage, sites vitrines, gabarits marketing. Pour du design de produit complexe, l'IA reste un point de départ, le jugement humain fait le raffinage. L'IA accélère le brouillon, pas le jugement.
 
+### Pensez déjà aux animations
+
+Sans les prototyper dans Figma : juste y réfléchir pendant que vous travaillez le design. Plusieurs de ces idées, vous les connaissez déjà via Anime.js en Web 3.
+
+| Technique | Description | |
+|---|---|---|
+| **Parallax** | L'arrière-plan bouge plus lentement que le premier plan. | ✅ vu avec Anime.js |
+| **Révélation au scroll** | Un élément apparaît en fondu et monte légèrement à l'écran. | ✅ comme un `.from()` Anime.js |
+| **Cascade (stagger)** | Plusieurs éléments apparaissent l'un après l'autre, léger délai. | ✅ `stagger()` Anime.js |
+| **Épinglage (pinning)** | Une section reste fixe pendant que le contenu progresse. | 🆕 nouveau |
+| **Texte révélé** | Mots ou lignes qui apparaissent un à un. | 🆕 nouveau |
+| **Barre de progression** | Un indicateur visuel qui avance avec la lecture. | 🆕 nouveau |
+
+!!! warning "Obligatoire"
+    Les animations pilotées par le défilement (scroll) sont obligatoires.
+
+**À considérer aussi**, des interactions dynamiques : survol (hover), clic, transition vers une autre page.
+
+Vous n'avez pas encore vu GSAP ni les animations pilotées par le défilement en cours, ça viendra plus tard dans la session. Aujourd'hui, on planifie l'**idée**, pas la technique.
+
+Documentez votre idée dans `PLANIFICATION.md` :
+
+```markdown
+- **Élément à animer :** [ex. les cartes de projets]
+- **Type d'animation :** [ex. fondu et léger déplacement vers le haut]
+- **Déclencheur :** [ex. apparition au défilement, survol, clic]
+```
+
+!!! danger "Exigé pour la Remise 1"
+    Ce n'est pas juste une bonne pratique suggérée : c'est un livrable exigé de la Remise 1, au même titre que la justification des choix technologiques.
+
+#### Des exemples pour s'inspirer
+
+- [Best Parallax Websites](https://www.awwwards.com/websites/parallax/), collection vivante de sites primés, plusieurs variantes de l'effet
+- [Best Scroll Websites](https://www.awwwards.com/websites/scrolling/), sites où le défilement est au cœur de l'expérience
+- [Collection Parallax : variantes](https://www.awwwards.com/awwwards/collections/parallax/), scroll horizontal, navigation canvas, typographie à glisser
+- [20 GSAP ScrollTrigger Examples](https://animation-addons.com/blog/gsap-scrolltrigger-examples/), aperçus en direct avec courte explication de chaque effet
+- [Documentation officielle ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/), référence technique pour plus tard dans la session
+
 ### En atelier aujourd'hui
 
 - **Raffiner** les maquettes mobile et desktop, à partir des directions retenues.
 - **Filtrer** selon persona, accessibilité, et maintenant : justifiable et distinctif.
 - **S'assister** des outils gratuits de Figma (auto-layout, contenu, images, vectorisation).
+- **Anticiper** les animations au scroll et les interactions, sans les prototyper.
 - **Documenter** chaque changement substantiel dans `JOURNAL.md`.
+
 
 ## Devoir
 
@@ -161,7 +199,7 @@ Si le bouton ne fonctionne pas pour ton modèle, l'alternative est de **recréer
   - Structure de dossiers cohérente et convention de nommage uniforme.
   - Fichiers README.md, PLANIFICATION.md et JOURNAL.md créés.
   - Commits réguliers, fréquents et bien nommés.
-- Fichier *PLANIFICATION.md* complété, incluant la justification des choix technologiques et de design.
+- Fichier *PLANIFICATION.md* complété, incluant la justification des choix technologiques, de design et d'animations prévues.
 - Design mobile et desktop (Figma Design), adapté à votre style et à votre persona. Vous devrez l'exporter en PDF et le déposer dans le dépôt GitHub.
 - *JOURNAL.md*:
   - Journal de bord documentant toutes les étapes du processus, incluant les versions initiales générées par Figma Make ou Stitch, et les modifications apportées.
