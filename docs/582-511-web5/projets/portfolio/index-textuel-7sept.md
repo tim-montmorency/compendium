@@ -13,8 +13,7 @@ Soumettre un portfolio, ce n'est pas seulement livrer un beau site. C'est démon
 ### Vos responsabilités (étudiant·e)
 
 - Planifier votre portfolio et **justifier vos choix technologiques** dans un document nommé *PLANIFICAITON.md*.
-- Concevoir les maquettes visuelles dans Figma (mobile et desktop) et ajouter les fichiers PDF exportés dans votre dépôt GitHub.
-- Créer un ficheir *README.md* dans votre dépôt GitHub, inscrivez-y : votre nom et un lien vers votre Figma Design.
+- Concevoir les maquettes visuelles dans Figma (mobile et desktop)
 - Développer le site web en mobilisant les technologies de votre choix (dans le cadre des balises établies)
 - Commenter votre code dans vos propres mots afin de démontrer votre compréhension
 - Maintenir un **journal de bord** (*JOURNAL.md*) tout au long du projet, en répondant aux questions fournies à chaque bloc
@@ -61,7 +60,7 @@ Peu importe vos choix technologiques, les éléments suivants sont exigés :
 Dans un contexte professionnel réel, un développeur ou une développeuse choisit ses outils en fonction des besoins du projet, puis justifie ses décisions. C'est exactement ce qu'on vous demande ici. Pour chacun des éléments suivants, vous devrez choisir l'approche qui convient le mieux à votre projet **et en expliquer la raison** dans votre document de planification (PLANIFICATION.md) :
 
 - **Gestion des données** : séparer les données de vos projets dans une base de données ou fichier externe (par exemple, le format *.json*). Ces données devront être récupérées et affichées de façon asynchrone au chargement de la page du portfolio. Selon la nature de votre portfolio et l’aisance de mise à jour des données des projets, sélectionner le type de base de données ou CMS et la technique de récupération de données de votre choix.
-- **Animations** : utiliser [GSAP](https://gsap.com/), [Animejs](https://animejs.com/), une autre librairie, ou des animations CSS purs. Précisez ce que vous voulez animer, comment, et sur quel événement utilisateur (défilement, survol, clic).
+- **Animations** : utiliser [GSAP](https://gsap.com/), [Animejs](https://animejs.com/), une autre librairie, ou des animations CSS purs.
 - **Structure de navigation** : one-pager, multipages, ou autre : selon votre concept.
 - **Hébergement** : GitHub Pages ou un autre service d’hébergement de votre choix (si vous utilisez un CMS avec des technologies exécutables au niveau serveur, alors il faut sélectionner un hébergeur en fonction de la technologie utilisée).
 
@@ -145,23 +144,16 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 
 #### Remise 1 : Planification et design *(gr. Enric 14 sept. | gr. Lora 17 sept.)*
 
-- dépôt GitHub initialisé et doit contenir:
+- dépôt GitHub initialisé, 
   <span class="important-label">IMPORTANT</span>, le dépôt doit être privé et vous devez inviter *marie-michelle-ouellet* comme collaboratrice
-  - ficheir *README.md* dans votre dépôt GitHub, inscrivez-y :
-    - votre nom,
-    - votre programme d'études et le nom du collège,
-    - votre courriel,
-    - un lien vers votre portfolio en ligne (le futur url de votre portfolio),
-    - un lien vers votre Figma Design.
-      - Lorsque vous copiez le lien dans Figma, assurez-vous de me donner accès à modifier votre fichier Figma en ligne afin que je puisse le consulter et le commenter. Mon courriel pour Figma est *marie-michelle.ouellet@cmontmorency.qc.ca*.
-  - commits réguliers, fréquents et bien nommés,
-  - moodboard exporté en PDF et déposé dans le dépôt GitHub,
-  - maquettes visuelles (Figma) mobile et desktop exportées en PDF et déposées dans le dépôt GitHub,
-  - justification des choix technologiques (*PLANIFICATION.md*),
-  - idées d'animation documentées (*PLANIFICATION.md*) : quoi animer, comment, sur quel événement,
-  - journal de bord complété jusqu'à ce point (*JOURNAL.md*),
-    - 5 questions à répondre pour le premier bloc du projet,
-    - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
+  - fichiers README.md, PLANIFICATION.md et JOURNAL.md créés,
+  - commits réguliers, fréquents et bien nommés.
+- moodboard exporté en PDF et déposé dans le dépôt GitHub,
+- maquettes visuelles (Figma) mobile et desktop exportées en PDF et déposées dans le dépôt GitHub,,
+- justification des choix technologiques (PLANIFICATION.md),
+- journal de bord complété jusqu'à ce point (JOURNAL.md),
+  - 5 questions à répondre pour le premier bloc du projet,
+  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
 
 **Rétroaction formative individuelle** de l'enseignante.
   

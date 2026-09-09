@@ -234,7 +234,7 @@
   <div class="proj-tech-grid">
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><div class="proj-tech-name">Données</div><div class="proj-tech-desc">BD ou fichier externe (JSON), affiché de façon asynchrone.</div></div>
 
-    <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-amber)" stroke-width="1.7"><path d="M4 18l5-9 3 5 2-3 6 7"/></svg><div class="proj-tech-name">Animations</div><div class="proj-tech-desc">GSAP, une autre librairie, ou CSS pur. Précisez quoi animer, comment, sur quel événement.</div></div>
+    <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-amber)" stroke-width="1.7"><path d="M4 18l5-9 3 5 2-3 6 7"/></svg><div class="proj-tech-name">Animations</div><div class="proj-tech-desc">GSAP, une autre librairie, ou CSS pur.</div></div>
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h4M13 8.5l3-1.5M13 15.5l3 1.5"/></svg><div class="proj-tech-name">Navigation</div><div class="proj-tech-desc">One-pager, multipages, ou autre.</div></div>
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-teal)" stroke-width="1.7"><path d="M4 14a5 5 0 015-5 4 4 0 018 0 4 4 0 010 8H6a4 4 0 01-2-7.5"/></svg><div class="proj-tech-name">Hébergement</div><div class="proj-tech-desc">GitHub Pages ou un autre service.</div></div>
   </div>
@@ -370,12 +370,10 @@ table.proj-rubric th.lv-exc{color:var(--proj-teal);}
   <ul>
     <li>Dépôt GitHub initialisé</li>
     <li>Moodboard</li>
-    <li>Maquettes visuelles mobile et desktop (<em>Figma</em>)</li>
-    <li>Lien de la maquette Figma partagée avec la professeure via un lien dans le <em>README.md</em></li>
-    <li>Justification des choix technologiques (<em>PLANIFICATION.md</em>)</li>
-    <li>Idées d'animation documentées (<em>PLANIFICATION.md</em>) : quoi animer, comment, sur quel événement</li>
+    <li>Maquettes visuelles mobile et desktop</li>
+    <li>Justification des choix technologiques</li>
     <li>Plan de contenu et architecture du site</li>
-    <li>Journal de bord complété jusqu'à ce point (<em>JOURNAL.md</em>)</li>
+    <li>Journal de bord complété jusqu'à ce point</li>
     <li>Rétroaction formative individuelle : groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre</li>
   </ul>
   <ul>
