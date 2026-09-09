@@ -1,3 +1,164 @@
+<style>
+/* =========================
+   Styles de projet (ajout temporaire Marie-Michelle)
+   ========================= */
+
+:root{
+  --proj-coral: oklch(72% 0.14 27);
+  --proj-teal: oklch(72% 0.12 200);
+  --proj-amber: oklch(76% 0.12 85);
+  --proj-card-bg: oklch(24% 0.016 264);
+  --proj-card-border: oklch(30% 0.018 264);
+  --proj-text: oklch(80% 0.006 264);
+  --proj-text-dim: oklch(72% 0.008 264);
+  --proj-text-faint: oklch(60% 0.008 264);
+  --proj-divider: oklch(28% 0.015 264);
+  --proj-divider-2: oklch(32% 0.02 264);
+}
+.proj-content{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--proj-text);max-width:900px;}
+.proj-content h1{font-size:26px;font-weight:800;letter-spacing:.01em;margin:0 0 16px;color:#fff;}
+.proj-content h2{font-size:18px;font-weight:700;color:#fff;margin:32px 0 16px;padding-top:20px;border-top:1px solid var(--proj-divider);}
+.proj-content p{font-size:14.5px;line-height:1.75;margin:0 0 10px;}
+
+/* repere badges under h1 */
+.proj-badges{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px;}
+.proj-badge{display:flex;align-items:center;gap:8px;background:var(--proj-card-bg);border:1px solid var(--proj-divider-2);border-radius:6px;padding:8px 14px;font-size:12.5px;}
+.proj-badge strong{color:#fff;}
+.proj-badge svg{flex:none;}
+
+/* role / tech cards grid */
+.proj-role-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.proj-role-card{background:var(--proj-card-bg);border:1px solid var(--proj-card-border);border-radius:8px;padding:16px;}
+.proj-role-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;}
+.proj-role-head span{font-weight:700;font-size:13.5px;color:#fff;}
+
+/* checklists (checkmark bullets) */
+.proj-check-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;}
+.proj-check-list li{position:relative;padding-left:22px;font-size:12px;line-height:1.5;color:var(--proj-text-dim);}
+.proj-check-list li::before{content:"✓";position:absolute;left:0;top:0;width:15px;height:15px;font-size:11px;font-weight:700;color:var(--proj-coral);border:1.5px solid var(--proj-coral);border-radius:4px;display:flex;align-items:center;justify-content:center;line-height:1;}
+.proj-check-grid-2{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 20px;}
+.proj-check-grid-2 li{position:relative;padding-left:22px;font-size:12.5px;line-height:1.5;color:var(--proj-text);}
+.proj-check-grid-2 li::before{content:"✓";position:absolute;left:0;top:1px;width:15px;height:15px;font-size:10px;font-weight:700;color:#fff;background:var(--proj-coral);border-radius:50%;display:flex;align-items:center;justify-content:center;line-height:1;}
+
+.proj-block{margin-bottom:24px;}
+.proj-block-title{font-weight:700;font-size:14px;color:#fff;margin-bottom:10px;}
+.proj-subtext{font-size:12.5px;color:var(--proj-text-dim);line-height:1.6;margin:0 0 12px;}
+
+/* callout boxes (format livrable, IA) */
+.proj-callout{display:flex;gap:10px;background:transparent;padding:0;margin-bottom:16px;font-size:13.5px;line-height:1.65;color:var(--proj-text);}
+.proj-callout svg{flex:none;margin-top:2px;}
+.proj-callout strong{color:#fff;}
+.proj-callout-amber{background:oklch(25% 0.025 55);border:1px solid oklch(35% 0.03 55);border-radius:8px;padding:14px 16px;font-size:12.5px;color:oklch(82% 0.01 85);}
+.proj-callout-amber strong{color:#fff;}
+
+/* tech choices tile grid */
+.proj-tech-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+.proj-tech-tile{background:var(--proj-card-bg);border:1px solid var(--proj-card-border);border-radius:8px;padding:12px;}
+.proj-tech-tile svg{margin-bottom:6px;}
+.proj-tech-tile .proj-tech-name{font-size:11.5px;font-weight:700;color:#fff;margin-bottom:3px;}
+.proj-tech-tile .proj-tech-desc{font-size:11px;line-height:1.5;color:var(--proj-text-dim);}
+
+/* journal de bord numbered timeline */
+.proj-timeline{position:relative;padding-left:6px;}
+.proj-timeline::before{content:"";position:absolute;left:15px;top:4px;bottom:4px;width:1px;background:var(--proj-divider-2);}
+.proj-timeline ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;}
+.proj-timeline li{position:relative;display:flex;gap:14px;align-items:flex-start;font-size:13px;color:var(--proj-text);}
+.proj-timeline li .proj-num{position:relative;z-index:1;flex:none;width:30px;height:30px;border-radius:50%;background:oklch(30% 0.02 264);border:1px solid oklch(38% 0.02 264);color:var(--proj-coral);font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;}
+.proj-timeline li .proj-q{padding-top:5px;}
+
+.proj-two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;}
+.proj-mini-card{background:var(--proj-card-bg);border:1px solid var(--proj-card-border);border-radius:8px;padding:14px;}
+.proj-mini-card-head{display:flex;gap:8px;align-items:center;margin-bottom:6px;}
+.proj-mini-card-head strong{font-size:13px;color:#fff;}
+.proj-mini-card p{font-size:12px;line-height:1.6;color:var(--proj-text-dim);margin:0;}
+
+/* stat block (40%) */
+.proj-stat-block{display:flex;align-items:center;gap:18px;background:var(--proj-card-bg);border:1px solid var(--proj-card-border);border-radius:8px;padding:16px 20px;}
+.proj-stat-block .proj-stat{font-size:34px;font-weight:800;color:var(--proj-coral);flex:none;}
+.proj-stat-block p{font-size:13px;line-height:1.65;margin:0;}
+.proj-stat-block strong{color:#fff;}
+
+/* section labels (formative / sommative) */
+.proj-section-label{display:flex;align-items:center;gap:8px;margin-bottom:14px;font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;}
+.proj-section-label::before{content:"";width:9px;height:9px;border-radius:50%;flex:none;}
+.proj-label-teal{color:var(--proj-teal);}
+.proj-label-teal::before{background:var(--proj-teal);}
+.proj-label-coral{color:var(--proj-coral);}
+.proj-label-coral::before{background:var(--proj-coral);}
+.proj-indent{margin:-6px 0 18px 17px;}
+
+/* 3-step stepper */
+.proj-stepper{position:relative;display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:6px;}
+.proj-stepper::before{content:"";position:absolute;top:16px;left:25%;right:25%;height:2px;background:var(--proj-divider-2);z-index:0;}
+.proj-step{position:relative;z-index:1;text-align:center;}
+.proj-step .proj-step-num{width:32px;height:32px;border-radius:50%;background:oklch(28% 0.02 264);border:2px solid var(--proj-teal);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;font-size:13px;}
+.proj-step .proj-step-week{font-size:11px;font-weight:700;color:var(--proj-teal);text-transform:uppercase;letter-spacing:.03em;}
+.proj-step .proj-step-title{font-size:12px;font-weight:700;color:#fff;margin-top:2px;}
+
+.proj-deliverable-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;font-size:11.5px;line-height:1.55;color:var(--proj-text-dim);margin-bottom:28px;}
+.proj-deliverable-grid ul{margin:0;padding:0 6px 0 18px;}
+.proj-deliverable-grid li{margin-bottom:5px;}
+
+/* final summative block */
+.proj-final-block{display:flex;gap:18px;align-items:center;background:oklch(25% 0.028 27);border:1px solid oklch(38% 0.05 27);border-radius:10px;padding:18px 22px;}
+.proj-final-block .proj-final-num{flex:none;display:flex;flex-direction:column;align-items:center;}
+.proj-final-block .proj-final-circle{width:46px;height:46px;border-radius:50%;background:var(--proj-coral);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px;margin-bottom:6px;}
+.proj-final-block .proj-final-week{font-size:11px;font-weight:800;color:var(--proj-coral);text-transform:uppercase;letter-spacing:.03em;white-space:nowrap;}
+.proj-final-block .proj-final-dates{font-size:10px;font-weight:600;color:var(--proj-text-dim);text-transform:none;letter-spacing:0;white-space:nowrap;margin-top:3px;}
+.proj-final-block .proj-final-text{font-size:13px;line-height:1.6;color:oklch(85% 0.006 264);}
+.proj-final-block .proj-final-text strong{color:#fff;display:block;margin-bottom:6px;}
+.proj-final-block ul{margin:0;padding-left:18px;}
+.proj-final-block li{margin-bottom:4px;}
+
+@media (max-width:700px){
+  .proj-role-grid,.proj-tech-grid,.proj-check-grid-2,.proj-two-col,.proj-deliverable-grid,.proj-stepper{grid-template-columns:1fr;}
+  .proj-stepper::before{display:none;}
+}
+
+#proj1a.proj-content h2{font-size:18px;font-weight:700;margin:32px 0 16px;padding-top:20px;border-top:1px solid var(--proj-divider);color:#fff;}
+#proj1a.proj-content ul,
+#proj1a.proj-content ol{margin:0;padding:0;}
+#proj1a.proj-content li{margin:0;}
+#proj1a.proj-content .proj-check-list,
+#proj1a.proj-content .proj-check-grid-2{list-style:none;}
+#proj1a.proj-content .proj-check-list li,
+#proj1a.proj-content .proj-check-grid-2 li{padding-left:22px;}
+#proj1a.proj-content .proj-deliverable-grid ul{padding:0 6px 0 18px;}
+#proj1a.proj-content .proj-final-block ul{padding-left:18px;}
+#proj1a.proj-content .proj-timeline ol{padding:0;}
+#proj1a.proj-content .proj-timeline li{padding-left:0;}
+#proj1a.proj-content,
+#proj1a.proj-content *,
+#proj1a.proj-content *::before,
+#proj1a.proj-content *::after{box-sizing:border-box;}
+#proj1a.proj-content{display:block;float:none;columns:auto;width:auto;}
+#proj1a.proj-content > *{float:none;clear:both;width:auto;max-width:100%;position:static;}
+#proj1a.proj-content > .proj-badges{display:flex;}
+#proj1a.proj-content > .proj-role-grid{display:grid;grid-template-columns:repeat(3,1fr);}
+#proj1a.proj-content > .proj-two-col{display:grid;grid-template-columns:1fr 1fr;}
+#proj1a.proj-content > .proj-stat-block{display:flex;}
+#proj1a.proj-content > .proj-section-label{display:flex;}
+#proj1a.proj-content > .proj-stepper{display:grid;grid-template-columns:repeat(2,1fr);position:relative;}
+#proj1a.proj-content > .proj-deliverable-grid{display:grid;grid-template-columns:repeat(2,1fr);}
+#proj1a.proj-content > .proj-final-block{display:flex;}
+#proj1a.proj-content > .proj-callout{display:flex;}
+#proj1a.proj-content > .proj-callout-amber{display:block;}
+#proj1a.proj-content .proj-role-grid > *,
+#proj1a.proj-content .proj-tech-grid > *,
+#proj1a.proj-content .proj-two-col > *,
+#proj1a.proj-content .proj-deliverable-grid > *,
+#proj1a.proj-content .proj-stepper > *{min-width:0;float:none;}
+#proj1a.proj-content .proj-final-block > .proj-final-text{flex:1;min-width:0;}
+#proj1a.proj-content .proj-final-block > .proj-final-num{flex:none;}
+/* listes de liens de référence (inspirations, tendances, portfolios) : taille du texte courant, liens gris pâle */
+.proj-ref-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;}
+.proj-ref-list li{font-size:14.5px;line-height:1.75;color:var(--proj-text);}
+.proj-ref-list a{color:var(--proj-text-dim);text-decoration:underline;}
+
+#proj1a.proj-content h3{font-size:16px !important;font-weight:600 !important;}
+</style>
+
+
 
 <div class="proj-content" id="proj1a">
 
@@ -61,14 +222,15 @@
     <li>Site responsive (mobile et desktop), sans bogue majeur</li>
     <li>Code commenté dans vos propres mots</li>
     <li>Déploiement en ligne (GitHub Pages recommandé)</li>
-    <li>Journal de bord complété (JOURNAL.md)</li>
+    <li>Planification documentée (<em>PLANIFICATION.md</em>)</li>
+    <li>Journal de bord complété (<em>JOURNAL.md</em>)</li>
     <li>Démarche de contrôle de qualité documentée</li>
   </ul>
 </div>
 
 <div class="proj-block">
   <div class="proj-block-title">Vos choix technologiques : à justifier dans votre planification</div>
-  <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans PLANIFICATION.md :</p>
+  <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans <em>PLANIFICATION.md</em> :</p>
   <div class="proj-tech-grid">
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><div class="proj-tech-name">Données</div><div class="proj-tech-desc">BD ou fichier externe (JSON), affiché de façon asynchrone.</div></div>
 
@@ -103,7 +265,7 @@
 </div>
 
 <div class="proj-callout proj-callout-amber" style="margin-bottom:32px;" id="utilisation-de-lia">
-  <h3>Utilisation de l'IA</h3> 
+  <h3>Utilisation de l'IA</h3>
   <p>Utilisation de l'IA : permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct.</p>
 
   <h3>Comment citer?</h3>
@@ -114,12 +276,12 @@
 
   <h3>Éléments à inclure</h3>
 
-  <ul>
-    <li><strong>Date :</strong> La date précise du prompt ou de la question posée à l'IA.</li>
-    <li><strong>Prompt :</strong> Le texte exact utilisé en <em>italique</em>.</li>
-    <li><strong>Outil :</strong> Le nom du logiciel utilisé.</li>
-    <li><strong>Résultat :</strong> Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).</li>
-  </ul>
+  -<strong>Date :</strong> La date précise du prompt ou de la question posée à l'IA.<br>
+  -<strong>Prompt :</strong> Le texte exact utilisé en <em>italique</em>.<br>
+  -<strong>Outil :</strong> Le nom du logiciel utilisé.<br>
+  -<strong>Résultat :</strong> Une description de ce que l'IA a généré, et ce que vous avez fait avec ce résultat (accepté tel quel, modifié, rejeté, etc.).
+
+  <br>
 
 </div>
 
@@ -253,7 +415,7 @@ table.proj-rubric th.lv-exc{color:var(--proj-teal);}
 <h3>Références intemporelles</h3>
 <ul class="proj-ref-list">
   <li><a href="https://material.io/" target="_blank">Material Design</a></li>
-  <li><a href="https://la-cascade.io/theorie-des-couleurs-1-signification-de-la-couleur" target="_blank">Théorie des couleurs, La Cascade</a></li>
+  <li><a href="https://99designs.fr/blog/conseils-design/la-theorie-des-couleurs/" target="_blank">Théorie des couleurs</a></li>
 </ul>
 
 <h3>Exemples de portfolios d'anciens étudiants</h3>

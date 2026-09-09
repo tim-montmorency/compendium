@@ -55,7 +55,6 @@ J'ai ajouté une liste de ressources dans l'onglet dans Teams : [Banques images,
  
 Banques d'images libre de droit, sons, icônes, polices de caractère, palettes de couleur, banque de vidéos etc.
 
- 
 
 ## Compléter l'activation des outils 🛠️
 

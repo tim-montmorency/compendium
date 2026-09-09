@@ -290,7 +290,8 @@ nav:
       - 582-511-web5/index.md
       - Projets: 
         - 582-511-web5/projets/portfolio/index.md
-        - Portfolio: 582-511-web5/projets/portfolio/index.md
+        - Portfolio résumé : 582-511-web5/projets/portfolio/index.md
+        - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
       - I.A.:
         - 582-511-web5/ia/travail-assiste-ia.md
         - 582-511-web5/ia/citer-utilisation-ia-journal.md
@@ -298,13 +299,11 @@ nav:
         - 582-211-web2/css/specificite-css.md
         - Général:
             - 582-211-web2/css/resume-bases-css-web1.md
-            - Accessibilité: 582-211-web2/css/accessibilite.md
-            - Animations CSS: 582-211-web2/css/animations-css.md
             - Spécificité CSS: 582-211-web2/css/specificite-css.md
-            - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
             - Transitions CSS: 582-211-web2/css/transitions-css.md
+            - Animations CSS: 582-211-web2/css/animations-css.md
+            - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
             - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
-            - Variab. de couleurs: 582-211-web2/css/systeme-noms-vars-couleurs.md
         - CSS Flexbox:
             - 582-211-web2/css/flexbox01.md
             - Flex, grow, shrink, basis: 582-211-web2/css/flexbox02.md
@@ -324,7 +323,9 @@ nav:
       - Cours 1.1: 582-511-web5/cours01a.md
       - Cours 1.2: 582-511-web5/cours01b.md
       - Cours 2.1: 582-511-web5/cours02a.md
-#     - Cours 2.2: 582-511-web5/cours02b.md     
+#     - Cours 2.2: 582-511-web5/cours02b.md
+      - Cours 3.1: 582-511-web5/cours03a.md
+
   - Contrôle de la qualité:
       - 582-533-controle-qualite/index.md
       - Cours 1: 582-533-controle-qualite/cours01.md
