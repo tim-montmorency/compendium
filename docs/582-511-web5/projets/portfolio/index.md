@@ -370,11 +370,12 @@ table.proj-rubric th.lv-exc{color:var(--proj-teal);}
   <ul>
     <li>Dépôt GitHub initialisé</li>
     <li>Moodboard</li>
-    <li>Maquettes visuelles mobile et desktop</li>
-    <li>Justification des choix technologiques</li>
-    <li>Idées d'animation documentées : quoi animer, comment, sur quel événement</li>
+    <li>Maquettes visuelles mobile et desktop (<em>Figma</em>)</li>
+    <li>Lien de la maquette Figma partagée avec la professeure via un lien dans le <em>README.md</em></li>
+    <li>Justification des choix technologiques (<em>PLANIFICATION.md</em>)</li>
+    <li>Idées d'animation documentées (<em>PLANIFICATION.md</em>) : quoi animer, comment, sur quel événement</li>
     <li>Plan de contenu et architecture du site</li>
-    <li>Journal de bord complété jusqu'à ce point</li>
+    <li>Journal de bord complété jusqu'à ce point (<em>JOURNAL.md</em>)</li>
     <li>Rétroaction formative individuelle : groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre</li>
   </ul>
   <ul>
