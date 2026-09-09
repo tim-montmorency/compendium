@@ -71,6 +71,8 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
 
 ## Workflow design assisté par IA : diverger, copier, raffiner
 
+[:material-file-powerpoint-box: Workflow design assisté par IA : diverger, copier, raffiner](assets/documents/Web5_workflow-design-ia.pptx){ .md-button .md-button--primary :target="_blank" }
+
 Figma Make et Google Stitch génèrent un premier jet en quelques minutes. Cette page explique où s'arrête l'IA et où commence votre travail : comment passer d'un jet généré à un fichier Figma Design que vous raffinez à la main, et comment distinguer l'inspiration de la copie intégrale.
 
 !!! note "L'essentiel en 3 points"
