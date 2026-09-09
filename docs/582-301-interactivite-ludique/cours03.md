@@ -234,6 +234,10 @@ Au cours 01, nous avons vu la notion de prérequis (inventaire, économie, progr
 - **Présence** : Se déclenche **X secondes** suite à une collision soutenue. <br>Ex. : Trop longtemps dans une zone de feu charge la scène _Game Over_<br>![](./assets/img/ces-hold-time.png){data-zoom-image .w-10}
 - **Sortie** : Se déclenche quand l'objet **sort** de la zone. <br>Ex. : Sortir d'une pièce ferme sa lumière<br>![](./assets/img/ces-exit-action.png){data-zoom-image .w-10}
 
+## Démo
+
+![](./assets/img/glasses-anime.gif){.w-100}
+
 ## Compiler
 
 ![](./assets/img/build.gif){.w-100}
