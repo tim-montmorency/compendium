@@ -2,6 +2,15 @@
 
 [STOP]
 
+git ligne de commande
+git vscode
+
+Codeberg
+Bitbucket
+Console dans vscode
+
+
+
 | Mise en ligne : GitHub Pages & cPanel
 
 <!-- **Savoirs :** #4 Compatibilité navigateurs · #12 Validation (via le build/déploiement) -->

@@ -2,6 +2,11 @@
 
 [STOP]
 
+Reproduction de : https://bitbucket.org/product/ ?
+
+Refresh js?
+
+
  | DaisyUI avancé
 
 <!-- **Savoirs :** #6 Réutilisation de composantes adaptées · #17 Réactivité -->
