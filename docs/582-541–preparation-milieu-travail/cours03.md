@@ -8,7 +8,12 @@
 ## Capsule du cours
 [🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
 
-## Organisation du travail
+## Organisation du travail      
+1. Créer la liste de tâches collaborativement.
+2. Créer une copie de la liste.
+3. Déplacer dans la colonne fait ce qui est déjà fait pour vous.
+4. Déplacer dans la colonne aujourd'hui vos objectifs du cours, en haut étant votre priorité.
+
 [🛠️ Création d'une liste de tâches](https://miro.com/app/board/uXjVHo0WzOw=/?share_link_id=829769879316){ .md-button }     
 
 
