@@ -2,12 +2,12 @@
 
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
-  <a href="./portfolio/index.md">Projet Portfolio : consignes sommaires</a>
+  <a href="./portfolio/index.html">Projet Portfolio : consignes sommaires</a>
 </div>
 
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
-  <a href="./portfolio/index-textuel.md">Projet Portfolio : consignes complètes (en détail)</a>
+  <a href="./portfolio/index-textuel.html">Projet Portfolio : consignes complètes (en détail)</a>
 </div>
 
 ---
