@@ -423,6 +423,8 @@ Le code de Milligram est sous `node_modules`, donc on pourrait simplement lier l
 
     Lier chaque fichier à la main depuis `node_modules`, ce n'est pas idéal. D'ailleurs, personne fait ça 😆
 
+
+
 ## Vite
 
 ![](./assets/images/vite-banner.png){.w-100}
@@ -430,198 +432,64 @@ Le code de Milligram est sous `node_modules`, donc on pourrait simplement lier l
 **[Vite](https://vite.dev/)** est un **outil de compilation** (_build tool_) en ligne de commande qui nous permettra de travailler avec Tailwind / DaisyUI sans l'usage de CDN.
 
 
-1. Créer un dossier pour le projet
+1. Créer un dossier pour le projet<div>
   ```sh
   mkdir mon-projet
   ```
-1. Se déplacer dans le dossier
-```sh
-cd mon-projet
-```
-1. Installe vite, tailwind et daisyui avec la commande `npm`
-```sh
-npm install vite tailwindcss @tailwindcss/vite daisyui
-```
+  </div>
+1. Se déplacer dans le dossier<div>
+  ```sh
+  cd mon-projet
+  ```
+  </div>
+1. Installe vite, tailwind et daisyui avec la commande `npm`<div>
+  ```sh
+  npm install vite tailwindcss @tailwindcss/vite daisyui
+  ```
+  </div>
 1. Ouvre le projet dans VSCode
-1. À la racine, crée un fichier `vite.config.mjs` et ajoute ce contenu :
-```js
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+1. À la racine, crée un fichier `vite.config.mjs` et ajoute ce contenu :<div>
+  ```js
+  import { defineConfig } from 'vite'
+  import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig({
-  base: './',
-  plugins: [tailwindcss()]
-})
-```
-1. À la racine, crée un fichier `style.css` et ajoute ce contenu :
-```css
-@import "tailwindcss";
-@plugin "daisyui";
-```
-1. À la racine, crée un fichier `index.html` et ajoute ce contenu :
-```html
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Mon projet</title>
-  </head>
-  <body>
-    <button class="btn btn-primary">Bouton daisyUI</button>
-  </body>
-</html>
-```
-1. De retour en ligne de commande, exécuter : 
-```sh
-npx vite
-```
+  export default defineConfig({
+    base: './',
+    plugins: [tailwindcss()]
+  })
+  ```
+  </div>
+1. À la racine, crée un fichier `style.css` et ajoute ce contenu :<div>
+  ```css
+  @import "tailwindcss";
+  @plugin "daisyui";
+  ```
+  </div>
+1. À la racine, crée un fichier `index.html` et ajoute ce contenu :<div>
+  ```html
+  <!doctype html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/style.css">
+      <title>Mon projet</title>
+    </head>
+    <body>
+      <button class="btn btn-primary">Bouton daisyUI</button>
+    </body>
+  </html>
+  ```
+  </div>
+1. De retour en ligne de commande, exécuter :<div>
+  ```sh
+  npx vite preview
+  ```
+  </div>
 
 Pour arrêter le serveur : ++ctrl+c++
 
-
-## Composantes de base
-
-On pige dans la [documentation DaisyUI](https://daisyui.com/components/) 🌼. Chaque composante suit la même logique&nbsp;: une **classe de base**, puis des **modificateurs** (couleur, taille, style).
-
-### Bouton (`btn`)
-
-La composante la plus utilisée. Anatomie&nbsp;: `btn` + une couleur + (optionnel) un style + (optionnel) une taille.
-
-```html
-<button class="btn btn-primary btn-lg">Cliquez-moi</button>
+```sh
+npx vite build
+npx vite preview
 ```
-
-| Catégorie | Classes |
-| :--- | :--- |
-| **Couleurs** | `btn-primary` · `btn-secondary` · `btn-accent` · `btn-neutral` · `btn-info` · `btn-success` · `btn-warning` · `btn-error` |
-| **Styles** | `btn-outline` · `btn-soft` · `btn-dash` · `btn-ghost` · `btn-link` |
-| **Tailles** | `btn-xs` · `btn-sm` · `btn-md` _(défaut)_ · `btn-lg` · `btn-xl` |
-| **Formes** | `btn-wide` · `btn-block` · `btn-square` · `btn-circle` |
-
-<!-- CODEPEN: Constructeur de boutons DaisyUI (couleur × style × taille) -->
-
-### Badge (`badge`)
-
-Petite étiquette, souvent pour un statut ou un compteur.
-
-```html
-<span class="badge badge-primary">Nouveau</span>
-<span class="badge badge-outline badge-lg">42</span>
-```
-
-Mêmes modificateurs de couleur que le bouton, plus les styles `badge-outline`, `badge-soft`, `badge-dash`, `badge-ghost` et les tailles `badge-xs` à `badge-xl`.
-
-### Alerte (`alert`)
-
-Message contextuel adressé à l'utilisateur.
-
-```html
-<div class="alert alert-success">
-  <span>✅ Votre profil a été enregistré.</span>
-</div>
-```
-
-| Catégorie | Classes |
-| :--- | :--- |
-| **Couleurs** | `alert-info` · `alert-success` · `alert-warning` · `alert-error` |
-| **Styles** | `alert-outline` · `alert-soft` · `alert-dash` |
-
-<!-- CODEPEN: Les 4 types d'alertes DaisyUI côte à côte -->
-
-### Carte (`card`)
-
-Conteneur polyvalent pour regrouper image, titre, texte et actions.
-
-```html
-<div class="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="./assets/images/chat.jpg" alt="Chat"></figure>
-  <div class="card-body">
-    <h2 class="card-title">Mon chat</h2>
-    <p>Le plus beau des félins.</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Adopter</button>
-    </div>
-  </div>
-</div>
-```
-
-| Sous-classe / variante | Rôle |
-| :--- | :--- |
-| `card-body` | Zone de contenu (padding intérieur) |
-| `card-title` | Titre de la carte |
-| `card-actions` | Zone des boutons |
-| `card-side` | Image à côté du contenu plutôt qu'au-dessus |
-| `image-full` | Image en arrière-plan, contenu par-dessus |
-
-<!-- CODEPEN: Carte DaisyUI (verticale, card-side, image-full) -->
-
-### Navbar (`navbar`)
-
-Barre de navigation en haut de page. On la structure en trois zones.
-
-```html
-<div class="navbar bg-base-100 shadow-sm">
-  <div class="navbar-start">
-    <a class="btn btn-ghost text-xl">Digger</a>
-  </div>
-  <div class="navbar-center">
-    <ul class="menu menu-horizontal px-1">
-      <li><a>Accueil</a></li>
-      <li><a>Contact</a></li>
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <button class="btn btn-primary">Connexion</button>
-  </div>
-</div>
-```
-
-`navbar-start`, `navbar-center` et `navbar-end` répartissent le contenu à gauche, au centre et à droite.
-
-### Menu (`menu`)
-
-Liste de liens verticale ou horizontale, utilisée seule ou dans une navbar / un tiroir.
-
-```html
-<ul class="menu bg-base-200 rounded-box w-56">
-  <li class="menu-title">Sections</li>
-  <li><a class="menu-active">Accueil</a></li>
-  <li><a>Galerie</a></li>
-  <li><a>Contact</a></li>
-</ul>
-```
-
-Utilisez `menu-horizontal` pour l'afficher en ligne, `menu-title` pour un en-tête de groupe, et `menu-active` sur le lien courant.
-
-!!! tip "Combiner DaisyUI + Tailwind"
-
-    Une composante DaisyUI reste **surchargeable** avec les utilitaires Tailwind. Par exemple, pour arrondir davantage un bouton, l'espacer et l'agrandir au survol&nbsp;:
-
-    ```html
-    <button class="btn btn-primary rounded-full mt-4 hover:scale-105">Go</button>
-    ```
-
-    On approfondira cette surcharge, ainsi que les composantes **interactives** (drawer, tabs, carousel…) et les **thèmes**, au **cours 4**.
-
-## Devoir 1
-
-<!-- À COMPLÉTER : présentation du premier devoir.
-Carte de devoir au format habituel, ex. :
-
-<div class="grid grid-1-2" markdown>
-  ![](./devoir/daisy-devoir1/preview.jpg){.aspect-4-3}
-
-  <small>Devoir 1</small><br>
-  **[Titre du devoir](./devoir/daisy-devoir1/index.md){.stretched-link .back}**
-</div>
--->
-
-## Exercice
-
-<!-- À COMPLÉTER : carte d'exercice DaisyUI (dossier activite/daisyui à créer), même gabarit que les cartes du cours 2. -->
-
-- [ ] Migrez le projet **Digger** vers **Vite** (npm + build).
-- [ ] Remplacez le CDN Tailwind par l'installation via `@tailwindcss/vite`.
-- [ ] Ajoutez **DaisyUI** et reconstruisez la page d'accueil avec une `navbar`, une `card` et des `btn`.
