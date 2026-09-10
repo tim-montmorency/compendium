@@ -162,7 +162,7 @@
 
 <div class="proj-content" id="proj1a">
 
-<h1>Projet 1 : Votre Portfolio en ligne</h1>
+<h1>Projet Portfolio : consignes sommaires</h1>
 
 <div class="proj-badges">
   <div class="proj-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9"/></svg><span><strong>40%</strong> de la note finale</span></div>

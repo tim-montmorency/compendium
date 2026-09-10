@@ -1,4 +1,4 @@
-# Projet 1 : VOtre Portfolio en ligne
+# Projet Portfolio: consignes complètes
 
 ## Mise en situation
 
@@ -183,7 +183,7 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 
 ### Remise finale : sommative (40%)
 
-#### Remise 3 : Portfolio complet et présentation devant le jury *(semaine 7 | gr. Lora : 8 oct. | gr. d'Enric : 15 oct.)*
+#### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *(semaine 7 | gr. Lora : 8 oct. | gr. Enric : 15 oct.)*
 
 - dépôt du site en ligne (déploiment sur un serveur web de votre choix),
 - justification des choix technologiques tel que présenté à la remsie 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),

@@ -289,8 +289,8 @@ nav:
   - Web 5:
       - 582-511-web5/index.md
       - Projets: 
-        - 582-511-web5/projets/portfolio/index.md
-        - Portfolio résumé : 582-511-web5/projets/portfolio/index.md
+        - 582-511-web5/projets/index.md
+        - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
         - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
       - I.A.:
         - 582-511-web5/ia/travail-assiste-ia.md
