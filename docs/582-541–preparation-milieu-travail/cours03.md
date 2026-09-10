@@ -8,6 +8,11 @@
 ## Capsule du cours
 [🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
 
+## Activité      
+
+* Temps pour avancer la planification de portfolio, l'identité visuelle, la carte d'affaires et le démo reel
+* Rencontres individuelles pour présenter son avancement
+
 ## Formation des comités pour la journée carrière
 [🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
 
