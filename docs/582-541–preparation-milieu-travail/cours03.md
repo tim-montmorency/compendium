@@ -8,6 +8,10 @@
 ## Capsule du cours
 [🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
 
+## Organisation du travail
+[🛠️ Création d'une liste de tâches](https://miro.com/app/board/uXjVHo0WzOw=/?share_link_id=829769879316){ .md-button }     
+
+
 ## Activité      
 
 * Temps pour avancer la planification de portfolio, l'identité visuelle, la carte d'affaires et le démo reel
