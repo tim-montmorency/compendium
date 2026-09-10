@@ -69,6 +69,8 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
     - 2397931/portfolio-sarah-muller-francois
     - Kliraaa/portfolio-iryna-lysenko
 
+
+
 ## Workflow design assisté par IA : diverger, copier, raffiner
 
 [:material-file-powerpoint-box: Workflow design assisté par IA : diverger, copier, raffiner](assets/documents/Web5_workflow-design-ia.pptx){ .md-button .md-button--primary :target="_blank" }
@@ -114,6 +116,9 @@ Même réflexe que pour le code généré par IA, appliqué au design.
 ### Le workflow technique
 
 #### Depuis Figma Make
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0201aebd-0be6-4321-af38-a65a443c0247&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="export-de-figma-make-vers-figma-design.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 
 1. Dans l'aperçu du fichier Make, naviguer jusqu'à l'écran voulu.
 2. Cliquer **« Copy design »** en haut de Figma Make.
