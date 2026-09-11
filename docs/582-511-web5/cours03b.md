@@ -86,8 +86,8 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 | Option | Comment ça marche | Bon pour |
 |---|---|---|
 | **Fichier JSON local** | Un fichier `projets.json` dans votre dépôt, chargé avec `fetch()`. Aucun serveur, aucun compte externe. | La majorité d'entre vous. Simple, fiable, fonctionne directement sur GitHub Pages. |
-| **Base de données en ligne (gratuite)** | Vos données vivent ailleurs (Airtable, Google Sheets publié en JSON, Supabase, Firebase), récupérées par une requête `fetch()` vers une URL au lieu d'un fichier local. | Si vous voulez pouvoir modifier vos projets sans toucher au code ni redéployer. |
-| **Petit CMS headless gratuit** (Contentful, Sanity) | Une interface d'édition de contenu en ligne (texte riche, images), qui expose vos données via une API. | Si vous avez déjà utilisé ce genre d'outil ou voulez une vraie interface de gestion de contenu. Un peu plus de configuration au départ. |
+| **Base de données en ligne (gratuite)** | Vos données vivent ailleurs ([Airtable](https://airtable.com), [Google Sheets](https://sheets.google.com) publié en JSON, [Supabase](https://supabase.com), [Firebase](https://firebase.google.com)), récupérées par une requête `fetch()` vers une URL au lieu d'un fichier local. | Si vous voulez pouvoir modifier vos projets sans toucher au code ni redéployer. |
+| **Petit CMS headless gratuit** ([Contentful](https://contentful.com), [Sanity](https://sanity.io)) | Une interface d'édition de contenu en ligne (texte riche, images), qui expose vos données via une API. | Si vous avez déjà utilisé ce genre d'outil ou voulez une vraie interface de gestion de contenu. Un peu plus de configuration au départ. |
 
 !!! tip
     Le JSON local est le choix par défaut le plus sûr pour ce projet. Une base de données en ligne, ce n'est pas plus « avancé » en soi, c'est utile seulement si la mise à jour fréquente du contenu est un vrai besoin pour vous.
@@ -97,7 +97,7 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 ### 2. Animations 🎬
 
 | Outil | Ce que c'est | À considérer | Ressources pour apprendre |
-|---|---|---|
+|---|---|---|---|
 | **CSS pur** (transitions, keyframes) | Ce que vous connaissez déjà de Web 2. | Suffisant pour la majorité des interactions simples (survol, apparition). Le plus léger, aucune dépendance. | [MDN CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), [MDN CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) |
 | **Anime.js** | Une librairie JS légère, que vous avez déjà utilisée dans vos cours précédents. | Bon compromis : plus de contrôle que le CSS, syntaxe que vous connaissez déjà. | [Documentation officielle Anime.js](https://animejs.com/documentation) |
 | **GSAP** | La librairie professionnelle standard de l'industrie pour l'animation web. | Puissante, mais pas encore enseignée formellement, ce sera fait à l'intégrateur. Si vous la choisissez maintenant, ce sera en autodidacte (documentation officielle, Copilot en soutien), et ce sera à documenter dans votre journal. | [Documentation officielle GSAP](https://gsap.com/docs/v3/) |
