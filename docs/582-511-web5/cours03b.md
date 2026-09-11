@@ -21,9 +21,6 @@
   <a href="./projets/portfolio/index-textuel.html#remise-1-planification-et-design-gr-enric-14-sept-gr-lora-17-sept">Instructions de la <em>Remise 1 : Planification et design</em> (gr. Enric 14 sept. | gr. Lora 17 sept.)</a>
 </div>
 
-!!! warning "le prochain cours (merc 16 septembre)"
-    Étant donné que la remise 1 est prévue pour le **groupe Enric, 14 septembre** et le **groupe Lora, 17 septembre**, le prochain cours (mercredi 16 septembre) ne sera pas consacré à la planification et au design. Nous entamerons plutôt l'étape suivante. Donc pour les étudiants de Lora: ne vous attendez pas à utiliser le cours de mercredi pour terminer vos maquettes Figma ou votre planification.
-
 
 ## Aujourd'hui
 
@@ -33,8 +30,8 @@
 - [ ] Finaliser `PLANIFICATION.md`
 - [ ] Journal de bord
 
-!!! info "Rappel : remise 1 la semaine prochaine"
-    Planification et design à remettre : **groupe Enric, 14 septembre** · **groupe Lora, 17 septembre**. C'est votre dernier bloc de cours pour finaliser `PLANIFICATION.md` avant la remise.
+!!! warning "Rappel : remise 1 la semaine prochaine"
+    Planification et design à remettre : **groupe Enric, 14 septembre** · **groupe Lora, 17 septembre**. Donc aujourd'hui c'est votre dernier bloc de cours pour finaliser `PLANIFICATION.md` et le design de l'interface de votre portfolio avant la remise.
 
 ## Retour sur Figma
 
