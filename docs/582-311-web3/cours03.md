@@ -446,6 +446,11 @@ Voici un usage de Vite sans _framework_ JavaScript.
   cd mon-projet
   ```
   </div>
+1. Initialise npm avec : <div>
+  ```sh
+  npm init
+  ```
+  </div>
 1. Installe vite, tailwind et daisyui avec la commande `npm`<div>
   ```sh
   npm install vite tailwindcss @tailwindcss/vite daisyui
