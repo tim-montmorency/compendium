@@ -33,7 +33,7 @@
 
 ## Aujourd'hui
 
-- [ ] Retour sur l'export de Figma Make vers Figma Design
+- [ ] Retour sur Figma (FR, Make > Design, partager le lien avec l'enseignante)
 - [ ] Tour d'horizon : les 4 choix technologiques à justifier dans `PLANIFICATION.md`
 - [ ] Finaliser vos maquettes Figma (mobile + desktop)
 - [ ] Finaliser `PLANIFICATION.md`
