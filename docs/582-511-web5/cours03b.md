@@ -77,7 +77,9 @@ Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'ex
 
 ### 1. Gestion des données 🗂️
 
-Vos projets (titre, description, image, catégorie, lien) doivent être séparés du HTML et chargés de façon asynchrone. Trois familles d'options :
+Vos projets (titre, description, image, catégorie, lien) doivent être séparés du reste du HTML et chargés de façon asynchrone en JavaScript. 
+
+**Trois familles d'options :**
 
 | Option | Comment ça marche | Bon pour |
 |---|---|---|
@@ -155,7 +157,11 @@ function chargerProjets() {
 
 Les deux font exactement la même chose : `fetch()` retourne une promesse, `async`/`await` l'écrit de façon plus linéaire, `.then()` l'enchaîne étape par étape. Aucune n'est « meilleure », c'est une question de préférence et de ce que vous avez déjà pratiqué.
 
-Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bloc 5.1, c'est votre aide-mémoire JS qui couvre déjà `fetch`/async : [aide-mémoire UJavaScript de JF Cartier](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" }.
+Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bloc 5.1, c'est votre aide-mémoire JS qui couvre déjà `fetch`/async : 
+- [Aide-mémoire JavaScript de JF Cartier](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" }
+- [Promesse JavaScript](https://tim-montmorency.com/timdoc/582-424MO/javascript/promesses-js/){ :target="_blank" }
+- [Fetch API](https://tim-montmorency.com/timdoc/582-424MO/javascript/fetch-api/){ :target="_blank" }
+- [Structure du JSON et accès aux propriétés](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ :target="_blank" }
 
 ## Maintenant, à vous 📝
 
