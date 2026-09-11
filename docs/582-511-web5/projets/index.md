@@ -24,6 +24,6 @@
 </div>
 
 <div class="class-content-link">
-  <img src="./assets/icon-portfolio.svg">
-  <a href="./portfolio/index-textuel.html#remise-3-portfolio-complet-et-presentation-devant-le-jury-semaine-7-gr-lora-8-oct-gr-denric-15-oct">Instructions de la <em>Remise FINALE : Portfolio complet et présentation devant le jury</em> (semaine 7 | gr. Lora 8 oct. | gr. Enric 15 oct.)</a>
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./portfolio/index-textuel.html#remise-3-finale-portfolio-complet-et-presentation-devant-le-jury-semaine-7-gr-lora-8-oct-gr-enric-15-oct">Instructions de la <em>Remise FINALE : Portfolio complet et présentation devant le jury</em> (semaine 7 | gr. Lora 8 oct. | gr. Enric 15 oct.)</a>
 </div>
