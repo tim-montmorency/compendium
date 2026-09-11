@@ -89,9 +89,6 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 | **Base de données en ligne (gratuite)** | Vos données vivent ailleurs ([Airtable](https://airtable.com), [Google Sheets](https://sheets.google.com) publié en JSON, [Supabase](https://supabase.com), [Firebase](https://firebase.google.com)), récupérées par une requête `fetch()` vers une URL au lieu d'un fichier local. | Si vous voulez pouvoir modifier vos projets sans toucher au code ni redéployer. |
 | **Petit CMS headless gratuit** ([Contentful](https://contentful.com), [Sanity](https://sanity.io)) | Une interface d'édition de contenu en ligne (texte riche, images), qui expose vos données via une API. | Si vous avez déjà utilisé ce genre d'outil ou voulez une vraie interface de gestion de contenu. Un peu plus de configuration au départ. |
 
-!!! tip
-    Le JSON local est le choix par défaut le plus sûr pour ce projet. Une base de données en ligne, ce n'est pas plus « avancé » en soi, c'est utile seulement si la mise à jour fréquente du contenu est un vrai besoin pour vous.
-
 ---
 
 ### 2. Animations 🎬
