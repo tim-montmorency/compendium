@@ -101,6 +101,23 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 
 Peu importe l'outil, précisez dans `PLANIFICATION.md` : **quoi** vous voulez animer, **comment**, et **sur quel événement** (scroll, survol, clic).
 
+Documentez votre idée dans `PLANIFICATION.md` avec ce format:
+
+```markdown
+- **Élément à animer :** [ex. les cartes de projets]
+- **Type d'animation :** [ex. fondu et léger déplacement vers le haut]
+- **Déclencheur :** [ex. apparition au défilement, survol, clic]
+```
+
+
+#### Des exemples pour s'inspirer d'animations web
+
+- [Best Parallax Websites](https://www.awwwards.com/websites/parallax/), collection vivante de sites primés, plusieurs variantes de l'effet
+- [Best Scroll Websites](https://www.awwwards.com/websites/scrolling/), sites où le défilement est au cœur de l'expérience
+- [Collection Parallax : variantes](https://www.awwwards.com/awwwards/collections/parallax/), scroll horizontal, navigation canvas, typographie à glisser
+- [20 GSAP ScrollTrigger Examples](https://animation-addons.com/blog/gsap-scrolltrigger-examples/), aperçus en direct avec courte explication de chaque effet
+- [Documentation officielle ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/), référence technique pour plus tard dans la session
+
 ### 3. Structure de navigation 🧭
 
 Deux grandes familles, selon votre concept :
