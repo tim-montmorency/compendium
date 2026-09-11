@@ -162,7 +162,7 @@
 
 <div class="proj-content" id="proj1a">
 
-<h1>Projet 1 : Votre Portfolio en ligne</h1>
+<h1>Projet Portfolio : consignes sommaires</h1>
 
 <div class="proj-badges">
   <div class="proj-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9"/></svg><span><strong>40%</strong> de la note finale</span></div>
@@ -231,6 +231,8 @@
 <div class="proj-block">
   <div class="proj-block-title">Vos choix technologiques : à justifier dans votre planification</div>
   <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans <em>PLANIFICATION.md</em> :</p>
+  <p><a href="https://tim-montmorency.com/compendium/582-511-web5/cours03b.html#les-4-choix-technologiques-de-votre-portfolio" target="_blank">Consulter les détails et explications concernant ces 4 choix technologiques dans le cours 3.2.</a></p>
+
   <div class="proj-tech-grid">
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><div class="proj-tech-name">Données</div><div class="proj-tech-desc">BD ou fichier externe (JSON), affiché de façon asynchrone.</div></div>
 
@@ -239,6 +241,9 @@
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-teal)" stroke-width="1.7"><path d="M4 14a5 5 0 015-5 4 4 0 018 0 4 4 0 010 8H6a4 4 0 01-2-7.5"/></svg><div class="proj-tech-name">Hébergement</div><div class="proj-tech-desc">GitHub Pages ou un autre service.</div></div>
   </div>
 </div>
+
+
+
 
 <div class="proj-block">
   <div class="proj-block-title">Journal de bord : 5 questions à chaque bloc de cours</div>

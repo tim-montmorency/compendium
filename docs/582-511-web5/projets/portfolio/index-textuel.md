@@ -1,4 +1,4 @@
-# Projet 1 : VOtre Portfolio en ligne
+# Projet Portfolio: consignes complètes
 
 ## Mise en situation
 
@@ -64,6 +64,8 @@ Dans un contexte professionnel réel, un développeur ou une développeuse chois
 - **Animations** : utiliser [GSAP](https://gsap.com/), [Animejs](https://animejs.com/), une autre librairie, ou des animations CSS purs. Précisez ce que vous voulez animer, comment, et sur quel événement utilisateur (défilement, survol, clic).
 - **Structure de navigation** : one-pager, multipages, ou autre : selon votre concept.
 - **Hébergement** : GitHub Pages ou un autre service d’hébergement de votre choix (si vous utilisez un CMS avec des technologies exécutables au niveau serveur, alors il faut sélectionner un hébergeur en fonction de la technologie utilisée).
+
+[:material-file-document-outline: Voir les explications en détail pour les 4 choix technologiques dans le cours 3.2](https://tim-montmorency.com/compendium/582-511-web5/cours03b.html#les-4-choix-technologiques-de-votre-portfolio){ .md-button :target="_blank" }
 
 Il n'y a pas de mauvais choix, mais tout choix doit être justifié au départ dans la planification (PLANIFICATION.md) et tout changement de choix en cours de projet soit être justifié dans le journal de bord (JOURNAL.md).
 
@@ -183,7 +185,7 @@ Votre portfolio est évalué selon la grille critériée suivante. La qualité d
 
 ### Remise finale : sommative (40%)
 
-#### Remise 3 : Portfolio complet et présentation devant le jury *(semaine 7 | gr. Lora : 8 oct. | gr. d'Enric : 15 oct.)*
+#### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *(semaine 7 | gr. Lora : 8 oct. | gr. Enric : 15 oct.)*
 
 - dépôt du site en ligne (déploiment sur un serveur web de votre choix),
 - justification des choix technologiques tel que présenté à la remsie 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),

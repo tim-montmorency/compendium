@@ -13,7 +13,7 @@ Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusq
     - La vérification peut prendre un certain temps (de quelques minutes à quelques jours). Ce n'est pas toujours instantané, pas de panique.
     - Ton statut est valide **un an**, après quoi il faut le refaire vérifier.
 
----
+
 
 ## 1️⃣ Créer un compte Figma
 
@@ -25,7 +25,19 @@ Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusq
 !!! tip
     Utilise ton adresse du collège dès le départ : c'est ce qui accélère la vérification à l'étape suivante.
 
----
+
+## Changer la langue de Figma en français
+
+### Sur le site web de Figma
+
+1. Aller sur le site Figma (pas l'app) et défiler jusqu'au pied de page et vous verrez la liste déroulnante pour changer la langue. 
+2. Sélectionner **Français**.
+
+![alt text](./assets/figma-francais.png)
+
+### Dans l'application Figma
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=9bab5590-634f-4255-ac19-bf8f3f8739e1&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="changer-langue-figm-app.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
 ## 2️⃣ Demander le statut Éducation
 
@@ -45,7 +57,7 @@ Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusq
 
 <!-- capture d'écran suggérée : le formulaire de vérification Éducation -->
 
----
+
 
 ## 3️⃣ Confirmer par courriel
 
@@ -53,7 +65,7 @@ Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusq
 2. Ouvrir le courriel de Figma et cliquer sur le **lien de vérification**
 3. Ce lien confirme ton compte et finalise l'inscription ✅
 
----
+
 
 ## 4️⃣ Vérifier que le forfait Éducation est actif
 
@@ -63,8 +75,6 @@ Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusq
 
 !!! success "C'est bon si..."
     Tu vois que tu as accès aux fonctions du forfait Professional (projets illimités, historique de versions, etc.). Ton compte est prêt pour le cours.
-
----
 
 ## ✅ Test rapide
 
@@ -77,6 +87,14 @@ Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusq
 !!! warning "Usage réservé à l'apprentissage"
     Le forfait Éducation est destiné à un usage **scolaire et pédagogique**. Il ne doit pas servir à du travail commercial ou à des contrats payants. Si tu fais de la pige à côté, ce travail doit vivre sur un compte séparé. C'est la principale raison pour laquelle des comptes se font signaler.
 
----
 
-**Retour au sujet :** [Le travail assisté par IA](../travail-assiste-ia.md)
+## Figma Make vers Figma Design
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0201aebd-0be6-4321-af38-a65a443c0247&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="export-de-figma-make-vers-figma-design.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+## Partager le lien de votre design Figma avec votre enseignante
+
+1. Inviter votre enseignante à votre projet Figma (marie-michelle.ouellet@cmontmorency.qc.ca) avec le rôle **Can edit** (peut éditer).
+2. Copier le lien de partage de votre design Figma et l'ajouter dans le fichier *README.md* de votre dépôt GitHub.
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=43ce894a-6553-4d12-988d-490b461bb499&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="partager-design-avec-prof.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>

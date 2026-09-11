@@ -213,7 +213,7 @@ La qualité de la langue s'ajoute séparément, comme pour toutes les évaluatio
 !!! note
     La grille complète, avec les indicateurs et les niveaux de performance détaillés, vous sera présentée en classe.
 
-## Devoir
+## Devoirs 📓
 
 ### Projet portfolio
 

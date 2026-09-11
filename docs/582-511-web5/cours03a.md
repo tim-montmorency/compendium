@@ -23,11 +23,9 @@ Bonnne nouvelle, on a une solution pour toi! Le tutorat!
  
 ### Comment ça marche ?
 
-![](../582-111-web1/assets/images/programme-tim.png)
-
 | NOM | PLAGE HORAIRE | LIEU | DATES |
 |---|---|---|---|
-| *Alexis Guilbault (3e)* | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d'aide C-1612 | 8 sept au 8 déc. inclus. |
+| *Alexis Guilbault (3e)* | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d'aide C-1602 | 8 sept au 8 déc. inclus. |
 | *Olivier Laliberté (3e)* | Mercredi soir – 20h-21h15 | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 9 sept au 9 déc. inclus. |
 | Thomas Bozelko (2e) | Jeudi soir – 20h-21h15 | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 10 sept au 10 déc. inclus |
 | Kellie Gravel (2e) | Dimanche soir – 19h-20h15 | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 13 sept au 13 déc. inclus. |
@@ -43,8 +41,8 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
 
 ## Projet portfolio
 
-- [Détails du projet](./projets/portfolio/index-textuel.md)
-- [Version résumée et visuelle](./projets/portfolio/index.md)
+- [Consignes complètes (en détail)](./projets/portfolio/index-textuel.md)
+- [Consignes sommaires visuelle](./projets/portfolio/index.md)
 
 ??? tip "À propos du github privé et l'invitation de l'enseignante"
 
@@ -68,6 +66,8 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
     - nurkouu/portfolio-nurlika-richard
     - 2397931/portfolio-sarah-muller-francois
     - Kliraaa/portfolio-iryna-lysenko
+
+
 
 ## Workflow design assisté par IA : diverger, copier, raffiner
 
@@ -114,6 +114,9 @@ Même réflexe que pour le code généré par IA, appliqué au design.
 ### Le workflow technique
 
 #### Depuis Figma Make
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0201aebd-0be6-4321-af38-a65a443c0247&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="export-de-figma-make-vers-figma-design.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 
 1. Dans l'aperçu du fichier Make, naviguer jusqu'à l'écran voulu.
 2. Cliquer **« Copy design »** en haut de Figma Make.
@@ -187,12 +190,12 @@ Documentez votre idée dans `PLANIFICATION.md` :
 - **Documenter** chaque changement substantiel dans `JOURNAL.md`.
 
 
-## Devoir
+## Devoirs 📓
 
 ### Portfolio : remise 1
 
-- [Détails du projet](./projets/portfolio/index-textuel.md)
-- [Version résumée et visuelle](./projets/portfolio/index.md)
+- [Consignes complètes (en détail)](./projets/portfolio/index-textuel.md)
+- [Consignes sommaires visuelle](./projets/portfolio/index.md)
 
 
 **À remettre pour la semaine prochaine (gr. Enric 14 sept. | gr. Lora 17 sept.) :**
