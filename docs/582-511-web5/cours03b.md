@@ -126,11 +126,15 @@ Documentez votre idée dans `PLANIFICATION.md` avec ce format:
 Deux grandes familles, selon votre concept :
 
 **One-pager avec pop-up**
-Toutes les données sont chargées une seule fois au chargement de la page. Un clic sur un projet ouvre une fenêtre modale (ex. l'élément natif `<dialog>`) qui affiche le détail, sans changer de page.
+
+Toutes les données sont chargées une seule fois au chargement de la page. Un clic sur un projet ouvre une fenêtre modale (ex. l'élément natif `<dialog>`) qui affiche le détail en plus gros plan, sans changer de page.
 
 **One-pager avec carousel**
 
+Toutes les données sont chargées une seule fois, les projets défilent dans un carrousel (un projet visible à la fois, flèches ou points de navigation). Pas de fenêtre modale, le détail du projet est directement dans la carte qui défile.
+
 **Multipages avec paramètre d'URL**
+
 La page d'accueil liste les projets (cartes), chacune pointant vers une page comme `projet.html?id=cafe-du-coin`. La page projet lit ce paramètre dans l'URL et va chercher, dans le même JSON (ou la même source), les données du projet correspondant pour les afficher.
 
 ```js
