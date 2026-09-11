@@ -37,6 +37,9 @@
 !!! warning "Rappel : remise 1 la semaine prochaine"
     Planification et design à remettre : **groupe Enric, 14 septembre** · **groupe Lora, 17 septembre**. Donc aujourd'hui c'est votre dernier bloc de cours pour finaliser `PLANIFICATION.md` et le design de l'interface de votre portfolio avant la remise.
 
+
+[:material-file-powerpoint-box: Workflow design assisté par IA : diverger, copier, raffiner](assets/documents/cours03b.pptx){ .md-button .md-button--primary :target="_blank" }
+
 ## Retour sur Figma
 
 ### Changer la langue de Figma en français
