@@ -240,6 +240,9 @@
   </div>
 </div>
 
+[:material-file-document-outline: Voir les explications en détail pour les 4 choix technologiques dans le cours 3.2](https://tim-montmorency.com/compendium/582-511-web5/cours03b.html#les-4-choix-technologiques-de-votre-portfolio)
+
+
 <div class="proj-block">
   <div class="proj-block-title">Journal de bord : 5 questions à chaque bloc de cours</div>
   <div class="proj-timeline">

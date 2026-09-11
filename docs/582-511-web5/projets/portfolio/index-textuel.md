@@ -65,6 +65,8 @@ Dans un contexte professionnel réel, un développeur ou une développeuse chois
 - **Structure de navigation** : one-pager, multipages, ou autre : selon votre concept.
 - **Hébergement** : GitHub Pages ou un autre service d’hébergement de votre choix (si vous utilisez un CMS avec des technologies exécutables au niveau serveur, alors il faut sélectionner un hébergeur en fonction de la technologie utilisée).
 
+[:material-file-document-outline: Voir les explications en détail pour les 4 choix technologiques dans le cours 3.2](https://tim-montmorency.com/compendium/582-511-web5/cours03b.html#les-4-choix-technologiques-de-votre-portfolio){ .md-button :target="_blank" }
+
 Il n'y a pas de mauvais choix, mais tout choix doit être justifié au départ dans la planification (PLANIFICATION.md) et tout changement de choix en cours de projet soit être justifié dans le journal de bord (JOURNAL.md).
 
 ### Journal de bord (JOURNAL.md)

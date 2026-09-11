@@ -65,8 +65,6 @@
 
 Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'expliquer dans `PLANIFICATION.md`**. Il n'y a pas de mauvais choix, seulement des choix pas justifiés. L'objectif aujourd'hui : que vous ayez une idée claire de comment chaque option fonctionne concrètement, avant de trancher.
 
-[:material-file-document-outline: Voir les consignes complètes du portfolio](./projets/portfolio/index-textuel.html#vos-choix-technologiques-a-justifier-dans-votre-planification){ .md-button :target="_blank" }
-
 ---
 
 ### 1. Gestion des données 🗂️
