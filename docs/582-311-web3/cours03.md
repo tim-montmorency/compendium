@@ -508,6 +508,12 @@ npx vite build
 
 Ça va créer un dossier dans lequel on retrouve le html/css/js optimisé et prêt à mettre en ligne !
 
+Pour tester le build, exécutez : 
+
+```sh
+npx vite preview
+```
+
 ### GitHub
 
 Lorsqu'on ajoute un projet du genre sur GitHub, il n'est pas nécessaire d'ajouter le dossier de distribution ni node_modules comme mentionné plus tôt.
