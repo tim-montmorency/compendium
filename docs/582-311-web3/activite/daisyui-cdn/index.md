@@ -49,8 +49,8 @@ L'objectif de cet exercice est de faire un usage technique des composantes Daisy
 
 ### Colonne principale (_main_)
 
-- [ ] Dans `<main>`, ajouter une colonne centrée avec une largeur maximale d'environ 3xl. Tout le contenu ira dedans -->
-  - [ ] La colonne centrée doit s'afficher en flexbox afin d'appliquer un gap pour séparer les enfants -->
+- [ ] Dans `<main>`, ajouter une colonne centrée avec une largeur maximale d'environ 3xl. Tout le contenu ira dedans
+  - [ ] La colonne centrée doit s'afficher en flexbox afin d'appliquer un gap pour séparer les enfants
 
 #### Dans la colonne centrée ...
 
