@@ -42,9 +42,32 @@
 !!! info "Rappel : remise 1 la semaine prochaine"
     Planification et design à remettre : **groupe Enric, 14 septembre** · **groupe Lora, 17 septembre**. C'est votre dernier bloc de cours pour finaliser `PLANIFICATION.md` avant la remise.
 
-## Retour sur Figma Make vers Figma Deisgn
+## Retour sur Figma
+
+### Changer la langue de Figma en français
+
+#### Sur le site web
+
+1. Aller sur le site Figma (pas l'app) et défiler jusqu'au pied de page et vous verrez la liste déroulnante pour changer la langue. 
+2. Sélectionner **Français**.
+
+![alt text](./ia/assets/figma-francais.png)
+
+#### Dans l'application Figma
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=9bab5590-634f-4255-ac19-bf8f3f8739e1&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="changer-langue-figm-app.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+### Figma Make vers Figma Design
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=0201aebd-0be6-4321-af38-a65a443c0247&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="export-de-figma-make-vers-figma-design.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+### Partager le lien de votre design Figma avec votre enseignante
+
+1. Inviter votre enseignante à votre projet Figma (marie-michelle.ouellet@cmontmorency.qc.ca) avec le rôle **Can edit** (peut éditer).
+2. Copier le lien de partage de votre design Figma et l'ajouter dans le fichier *README.md* de votre dépôt GitHub.
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=43ce894a-6553-4d12-988d-490b461bb499&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="partager-design-avec-prof.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 
 ## Les 4 choix technologiques de votre portfolio 🎯
 
