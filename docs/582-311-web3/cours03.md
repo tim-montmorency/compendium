@@ -368,7 +368,12 @@ D'abord, `npm` s'utilise en ligne de commande ! On peut donc faire un test avec 
 1. Se déplacer dans `Documents` avec `cd`
 1. Créer un dossier `test` avec `mkdir`
 1. Se déplacer dans `test` avec `cd`
-1. Exécuter la ligne de commande suivante :<div markdown>
+1. Exécuter la ligne de commande suivante pour initialiser le projet :<div markdown>
+  ```bash
+  npm init
+  ```
+  </div>
+1. puis celle-ci pour installer la technologie milligram :<div markdown>
   ```bash
   npm install milligram
   ```
