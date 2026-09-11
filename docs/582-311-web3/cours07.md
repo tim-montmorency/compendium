@@ -1,6 +1,67 @@
-# Cours 7 | Alpine.js
+# Cours 7
 
 [STOP]
+
+Lit
+Retour sur js
+
+https://lucide.dev/guide/lucide/getting-started
+
+
+
+```js
+class DaisyuiCard extends HTMLElement {
+  connectedCallback() {
+    // 1. capturer le contenu original AVANT d'écraser innerHTML
+    const figure = this.querySelector('[slot="figure"]');
+    const title  = this.querySelector('[slot="title"]');
+    const actions = this.querySelector('[slot="actions"]');
+    const body = [...this.children].filter(el => !el.hasAttribute('slot'));
+
+    // 2. classes selon les attributs
+    const classes = ['card'];
+    if (this.hasAttribute('border')) classes.push('card-border');
+    if (this.hasAttribute('dash')) classes.push('card-dash');
+    if (this.hasAttribute('side')) classes.push('card-side');
+    if (this.hasAttribute('image-full')) classes.push('image-full');
+    const size = this.getAttribute('size');
+    if (size) classes.push(`card-${size}`); // xs | sm | md | lg | xl
+
+    // 3. reconstruire le markup daisyUI
+    this.className = classes.join(' ');
+    this.innerHTML = '';
+    if (figure) this.append(figure);
+
+    const cardBody = document.createElement('div');
+    cardBody.className = 'card-body';
+    if (title) {
+      title.classList.add('card-title');
+      cardBody.append(title);
+    }
+    cardBody.append(...body);
+    if (actions) {
+      actions.classList.add('card-actions');
+      cardBody.append(actions);
+    }
+    this.append(cardBody);
+  }
+}
+customElements.define('daisyui-card', DaisyuiCard);
+```
+
+```html
+<daisyui-card border size="lg" side>
+  <img slot="figure" src="ryu.png">
+  <h2 slot="title">Card Title <span class="badge badge-secondary">NEW</span></h2>
+  <p>Texte libre ici</p>
+  <div slot="actions">
+    <button class="btn btn-primary">Buy Now</button>
+  </div>
+</daisyui-card>
+```
+
+
+
 
 <!-- **Savoirs :** #11 Sauvegarde côté client (localStorage) · #15 Interactivité · #18 Introduction à un cadriciel JavaScript -->
 

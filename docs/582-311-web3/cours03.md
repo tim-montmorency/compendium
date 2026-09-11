@@ -1,9 +1,7 @@
 # Cours 3
 
-[STOP]
-
 <!-- **Savoirs :** #5 Cadriciel facilitant l'intégration · #6 Réutilisation de composantes -->
-<!-- @sudo : Mini changement relatif au plan de cours. Je vais montrer HyperUi et d'autres options avant d'embarquer dans daisy. -->
+<!-- @sudo : Mini changement relatif au plan de cours. Je vais montrer HyperUI et d'autres options avant d'embarquer dans daisy. -->
 
 *[CDN]: Content Delivery Network
 *[npm]: Node Package Manager
@@ -84,7 +82,7 @@ Ci-dessous, quelques exemples de mise en forme utiles.
 </section>
 ```
 
-### Colonne contrée + 3 colonnes
+### Colonne centrée + 3 colonnes
 
 <p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind - Structures fréquentes - Colonne centrée  + 3 colonnes" data-version="2" data-default-tab="result" data-slug-hash="dPvMJor" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/01a07dc9-f5d1-7631-8603-06b2db1ae14d">
@@ -103,7 +101,7 @@ Ci-dessous, quelques exemples de mise en forme utiles.
 </div>
 ```
 
-### Text sur image
+### Texte sur image
 
 <p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="Tailwind - Structures fréquentes - Superposition" data-version="2" data-default-tab="result" data-slug-hash="yyMOpNo" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/01a07dc7-6122-74e7-ac50-e875bb298f61">
@@ -340,10 +338,10 @@ Pour passer de l'un à l'autre, il faut donc permuter la valeur de `data-theme` 
 ### Exercice DaisyUI
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/daisyui/giphy2.gif){.aspect-4-3}
+  ![](./activite/daisyui-cdn/giphy2.gif){.aspect-4-3}
 
   <small>Exercice - DaisyUI</small><br>
-  **[DaisyUI](./activite/daisyui/index.md){.stretched-link .back}**
+  **[DaisyUI](./activite/daisyui-cdn/index.md){.stretched-link .back}**
 </div>
 
 ## Gestionnaire de paquets
@@ -379,7 +377,7 @@ D'abord, `npm` s'utilise en ligne de commande ! On peut donc faire un test avec 
 
   ```txt
   📁 test
-  ├── 📁 node_module
+  ├── 📁 node_modules
   │    ├── 📁 milligram
   │    │    ├── 📁 dist
   │    │    │    ├── 📄 milligram.css 👈
@@ -423,14 +421,15 @@ Le code de Milligram est sous `node_modules`, donc on pourrait simplement lier l
 
     Lier chaque fichier à la main depuis `node_modules`, ce n'est pas idéal. D'ailleurs, personne fait ça 😆
 
-
-
 ## Vite
 
 ![](./assets/images/vite-banner.png){.w-100}
 
 **[Vite](https://vite.dev/)** est un **outil de compilation** (_build tool_) en ligne de commande qui nous permettra de travailler avec Tailwind / DaisyUI sans l'usage de CDN.
 
+### Vite vanille
+
+Voici un usage de Vite sans _framework_ JavaScript.
 
 1. Créer un dossier pour le projet<div>
   ```sh
@@ -449,7 +448,7 @@ Le code de Milligram est sous `node_modules`, donc on pourrait simplement lier l
   </div>
 1. Ouvre le projet dans VSCode
 1. À la racine, crée un fichier `vite.config.mjs` et ajoute ce contenu :<div>
-  ```js
+  ```js title="vite.config.mjs"
   import { defineConfig } from 'vite'
   import tailwindcss from '@tailwindcss/vite'
 
@@ -460,19 +459,19 @@ Le code de Milligram est sous `node_modules`, donc on pourrait simplement lier l
   ```
   </div>
 1. À la racine, crée un fichier `style.css` et ajoute ce contenu :<div>
-  ```css
+  ```css title="style.css"
   @import "tailwindcss";
   @plugin "daisyui";
   ```
   </div>
 1. À la racine, crée un fichier `index.html` et ajoute ce contenu :<div>
-  ```html
+  ```html title="index.html"
   <!doctype html>
   <html lang="fr">
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/style.css">
+      <link rel="stylesheet" href="./style.css">
       <title>Mon projet</title>
     </head>
     <body>
@@ -483,13 +482,53 @@ Le code de Milligram est sous `node_modules`, donc on pourrait simplement lier l
   </div>
 1. De retour en ligne de commande, exécuter :<div>
   ```sh
-  npx vite preview
+  npx vite
   ```
   </div>
 
 Pour arrêter le serveur : ++ctrl+c++
 
+### Build
+
+Pour effectuer un build, exécutez : 
+
 ```sh
 npx vite build
-npx vite preview
 ```
+
+Ça va créer un dossier dans lequel on retrouve le html/css/js optimisé et prêt à mettre en ligne !
+
+### GitHub
+
+Lorsqu'on ajoute un projet du genre sur GitHub, il n'est pas nécessaire d'ajouter le dossier de distribution ni node_modules comme mentionné plus tôt.
+
+```gitignore title=".gitignore"
+node_modules/
+dist/
+
+# Cache de vite
+.vite/
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+```
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/daisyui-vite/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - Vite</small><br>
+  **[DaisyUI + Vite](./activite/daisyui-vite/index.md){.stretched-link .back}**
+</div>
+
+### Avantages
+
+* Indépendance. Ça compile les classes Tailwind sans requête à un site externe
+* Ça va nous permettre d'ajouter un thème DaisyUI custom. Impossible avec le CDN
+* Ça va nous permettre de configurer les thèmes par défaut (dépendamment du `prefers-color-scheme` par exemple). Impossible avec le CDN
+* Ouvre l'accès à tout l'écosystème `npm` ❤️
+* Optimise le déploiement
+* Contexte complet pour les outils d'IA : le code des librairies est présent localement
