@@ -75,6 +75,8 @@ Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'ex
 
 [:material-file-document-outline: Voir les consignes complètes du portfolio](./projets/portfolio/index-textuel.html#vos-choix-technologiques-a-justifier-dans-votre-planification){ .md-button :target="_blank" }
 
+---
+
 ### 1. Gestion des données 🗂️
 
 Vos projets (titre, description, image, catégorie, lien) doivent être séparés du reste du HTML et chargés de façon asynchrone en JavaScript. 
@@ -90,14 +92,16 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 !!! tip
     Le JSON local est le choix par défaut le plus sûr pour ce projet. Une base de données en ligne, ce n'est pas plus « avancé » en soi, c'est utile seulement si la mise à jour fréquente du contenu est un vrai besoin pour vous.
 
+---
+
 ### 2. Animations 🎬
 
-| Outil | Ce que c'est | À considérer |
+| Outil | Ce que c'est | À considérer | Ressources pour apprendre |
 |---|---|---|
-| **CSS pur** (transitions, keyframes) | Ce que vous connaissez déjà de Web 2. | Suffisant pour la majorité des interactions simples (survol, apparition). Le plus léger, aucune dépendance. |
-| **Anime.js** | Une librairie JS légère, que vous avez déjà utilisée dans vos cours précédents. | Bon compromis : plus de contrôle que le CSS, syntaxe que vous connaissez déjà. |
-| **GSAP** | La librairie professionnelle standard de l'industrie pour l'animation web. | Puissante, mais pas encore enseignée formellement, ce sera fait à l'intégrateur. Si vous la choisissez maintenant, ce sera en autodidacte (documentation officielle, Copilot en soutien), et ce sera à documenter dans votre journal. |
-| **Scroll-driven animation (CSS natif)** | `animation-timeline: scroll()`, une fonctionnalité CSS récente qui anime un élément en fonction du défilement, sans JS. | Élégant et natif, mais support navigateur encore inégal (à vérifier). Aussi vu plus en profondeur à l'intégrateur. |
+| **CSS pur** (transitions, keyframes) | Ce que vous connaissez déjà de Web 2. | Suffisant pour la majorité des interactions simples (survol, apparition). Le plus léger, aucune dépendance. | [MDN CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), [MDN CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) |
+| **Anime.js** | Une librairie JS légère, que vous avez déjà utilisée dans vos cours précédents. | Bon compromis : plus de contrôle que le CSS, syntaxe que vous connaissez déjà. | [Documentation officielle Anime.js](https://animejs.com/documentation) |
+| **GSAP** | La librairie professionnelle standard de l'industrie pour l'animation web. | Puissante, mais pas encore enseignée formellement, ce sera fait à l'intégrateur. Si vous la choisissez maintenant, ce sera en autodidacte (documentation officielle, Copilot en soutien), et ce sera à documenter dans votre journal. | [Documentation officielle GSAP](https://gsap.com/docs/v3/) |
+| **Scroll-driven animation (CSS natif)** | `animation-timeline: scroll()`, une fonctionnalité CSS récente qui anime un élément en fonction du défilement, sans JS. | Élégant et natif, mais support navigateur encore inégal (à vérifier). Aussi vu plus en profondeur à l'intégrateur. | [Scroll-driven animation: Guide pratique](https://jolicode.com/blog/scroll-driven-animations-en-css-guide-pratique-pour-saffranchir-du-javascript) |
 
 Peu importe l'outil, précisez dans `PLANIFICATION.md` : **quoi** vous voulez animer, **comment**, et **sur quel événement** (scroll, survol, clic).
 
@@ -118,12 +122,16 @@ Documentez votre idée dans `PLANIFICATION.md` avec ce format:
 - [20 GSAP ScrollTrigger Examples](https://animation-addons.com/blog/gsap-scrolltrigger-examples/), aperçus en direct avec courte explication de chaque effet
 - [Documentation officielle ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/), référence technique pour plus tard dans la session
 
+---
+
 ### 3. Structure de navigation 🧭
 
 Deux grandes familles, selon votre concept :
 
 **One-pager avec pop-up**
 Toutes les données sont chargées une seule fois au chargement de la page. Un clic sur un projet ouvre une fenêtre modale (ex. l'élément natif `<dialog>`) qui affiche le détail, sans changer de page.
+
+**One-pager avec carousel**
 
 **Multipages avec paramètre d'URL**
 La page d'accueil liste les projets (cartes), chacune pointant vers une page comme `projet.html?id=cafe-du-coin`. La page projet lit ce paramètre dans l'URL et va chercher, dans le même JSON (ou la même source), les données du projet correspondant pour les afficher.
@@ -136,6 +144,8 @@ const idProjet = params.get('id'); // "cafe-du-coin"
 
 !!! note
     C'est ça, « passer le projet en paramètre dans l'URL » : pas besoin de routeur ni de cadriciel, juste la chaîne de requête (`?id=...`) et `URLSearchParams`. On détaille le code plus tard, aujourd'hui c'est pour que vous compreniez le principe avant de choisir.
+
+---
 
 ### 4. Hébergement 🌐
 
