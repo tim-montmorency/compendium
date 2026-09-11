@@ -23,11 +23,9 @@ Bonnne nouvelle, on a une solution pour toi! Le tutorat!
  
 ### Comment ça marche ?
 
-![](../582-111-web1/assets/images/programme-tim.png)
-
 | NOM | PLAGE HORAIRE | LIEU | DATES |
 |---|---|---|---|
-| *Alexis Guilbault (3e)* | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d'aide C-1612 | 8 sept au 8 déc. inclus. |
+| *Alexis Guilbault (3e)* | Trou horaire – Mardi 12h30-14h10 | En personne au Centre d'aide C-1602 | 8 sept au 8 déc. inclus. |
 | *Olivier Laliberté (3e)* | Mercredi soir – 20h-21h15 | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 9 sept au 9 déc. inclus. |
 | Thomas Bozelko (2e) | Jeudi soir – 20h-21h15 | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 10 sept au 10 déc. inclus |
 | Kellie Gravel (2e) | Dimanche soir – 19h-20h15 | En ligne sur TEAMS : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 13 sept au 13 déc. inclus. |
@@ -43,8 +41,8 @@ Pour le tutorat en présence il suffit de se présenter au **local C-1602**.
 
 ## Projet portfolio
 
-- [Détails du projet](./projets/portfolio/index-textuel.md)
-- [Version résumée et visuelle](./projets/portfolio/index.md)
+- [Consignes complètes (en détail)](./projets/portfolio/index-textuel.md)
+- [Consignes sommaires visuelle](./projets/portfolio/index.md)
 
 ??? tip "À propos du github privé et l'invitation de l'enseignante"
 
