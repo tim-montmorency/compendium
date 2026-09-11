@@ -231,6 +231,8 @@
 <div class="proj-block">
   <div class="proj-block-title">Vos choix technologiques : à justifier dans votre planification</div>
   <p class="proj-subtext">Pour chacun des éléments suivants, choisissez l'approche qui convient le mieux à votre projet et expliquez la raison dans <em>PLANIFICATION.md</em> :</p>
+  <p><a href="https://tim-montmorency.com/compendium/582-511-web5/cours03b.html#les-4-choix-technologiques-de-votre-portfolio" target="_blank">Consulter les détails et explications concernant ces 4 choix technologiques dans le cours 3.2.</a></p>
+
   <div class="proj-tech-grid">
     <div class="proj-tech-tile"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--proj-coral)" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><div class="proj-tech-name">Données</div><div class="proj-tech-desc">BD ou fichier externe (JSON), affiché de façon asynchrone.</div></div>
 
@@ -240,7 +242,7 @@
   </div>
 </div>
 
-[:material-file-document-outline: Voir les explications en détail pour les 4 choix technologiques dans le cours 3.2](https://tim-montmorency.com/compendium/582-511-web5/cours03b.html#les-4-choix-technologiques-de-votre-portfolio)
+
 
 
 <div class="proj-block">
