@@ -73,7 +73,7 @@
 
 Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'expliquer dans `PLANIFICATION.md`**. Il n'y a pas de mauvais choix, seulement des choix pas justifiés. L'objectif aujourd'hui : que vous ayez une idée claire de comment chaque option fonctionne concrètement, avant de trancher.
 
-[:material-file-document-outline: Voir les consignes complètes du portfolio](../projets/portfolio/index-textuel.md#vos-choix-technologiques-a-justifier-dans-votre-planification){ .md-button :target="_blank" }
+[:material-file-document-outline: Voir les consignes complètes du portfolio](./projets/portfolio/index-textuel.html#vos-choix-technologiques-a-justifier-dans-votre-planification){ .md-button :target="_blank" }
 
 ### 1. Gestion des données 🗂️
 
@@ -155,7 +155,7 @@ function chargerProjets() {
 
 Les deux font exactement la même chose : `fetch()` retourne une promesse, `async`/`await` l'écrit de façon plus linéaire, `.then()` l'enchaîne étape par étape. Aucune n'est « meilleure », c'est une question de préférence et de ce que vous avez déjà pratiqué.
 
-Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bloc 5.1, c'est votre aide-mémoire JS qui couvre déjà `fetch`/async : [aide-mémoire](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" }.
+Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bloc 5.1, c'est votre aide-mémoire JS qui couvre déjà `fetch`/async : [aide-mémoire UJavaScript de JF Cartier](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" }.
 
 ## Maintenant, à vous 📝
 
