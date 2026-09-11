@@ -21,6 +21,10 @@
   <a href="./projets/portfolio/index-textuel.html#remise-1-planification-et-design-gr-enric-14-sept-gr-lora-17-sept">Instructions de la <em>Remise 1 : Planification et design</em> (gr. Enric 14 sept. | gr. Lora 17 sept.)</a>
 </div>
 
+!!! tip "RAPPEL d'Eric et Lora : un de vos projet doit présenter le *processus de création*."
+    Eric et Lora veulent que je vous rappelle qu'un de vos projet doit présenter le *processus de création complet*. Je vous communique ce rappel pour éviter les oublis.
+
+
 
 ## Aujourd'hui
 
