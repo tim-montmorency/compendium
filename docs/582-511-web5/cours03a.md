@@ -192,12 +192,12 @@ Documentez votre idée dans `PLANIFICATION.md` :
 - **Documenter** chaque changement substantiel dans `JOURNAL.md`.
 
 
-## Devoir
+## Devoirs 📓
 
 ### Portfolio : remise 1
 
-- [Détails du projet](./projets/portfolio/index-textuel.md)
-- [Version résumée et visuelle](./projets/portfolio/index.md)
+- [Consignes complètes (en détail)](./projets/portfolio/index-textuel.md)
+- [Consignes sommaires visuelle](./projets/portfolio/index.md)
 
 
 **À remettre pour la semaine prochaine (gr. Enric 14 sept. | gr. Lora 17 sept.) :**

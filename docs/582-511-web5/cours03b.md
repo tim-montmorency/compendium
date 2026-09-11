@@ -21,6 +21,8 @@
   <a href="./projets/portfolio/index-textuel.html#remise-1-planification-et-design-gr-enric-14-sept-gr-lora-17-sept">Instructions de la <em>Remise 1 : Planification et design</em> (gr. Enric 14 sept. | gr. Lora 17 sept.)</a>
 </div>
 
+!!! warning "le prochain cours (merc 16 septembre)"
+    Étant donné que la remise 1 est prévue pour le **groupe Enric, 14 septembre** et le **groupe Lora, 17 septembre**, le prochain cours (mercredi 16 septembre) ne sera pas consacré à la planification et au design. Nous entamerons plutôt l'étape suivante. Donc pour les étudiants de Lora: ne vous attendez pas à utiliser le cours de mercredi pour terminer vos maquettes Figma ou votre planification.
 
 
 ## Aujourd'hui
@@ -185,3 +187,25 @@ Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bl
 ## Maintenant, à vous 📝
 
 Avec ces 4 choix plus clairs, terminez vos maquettes Figma et complétez `PLANIFICATION.md`. Je circule pour répondre aux questions.
+
+## Devoirs 📓
+
+### Portfolio : remise 1
+
+- [Consignes complètes (en détail)](./projets/portfolio/index-textuel.md)
+- [Consignes sommaires visuelle](./projets/portfolio/index.md)
+
+**À remettre pour la semaine prochaine (gr. Enric 14 sept. | gr. Lora 17 sept.) :**
+
+- Github initialisé, privé, avec invitation de l'enseignante comme collaboratrice.
+  - Structure de dossiers cohérente et convention de nommage uniforme.
+  - Fichiers README.md, PLANIFICATION.md et JOURNAL.md créés.
+  - Commits réguliers, fréquents et bien nommés.
+- Fichier *PLANIFICATION.md* complété, incluant la justification des choix technologiques, de design et d'animations prévues.
+- Design mobile et desktop (Figma Design), adapté à votre style et à votre persona. Vous devrez l'exporter en PDF et le déposer dans le dépôt GitHub.
+- *JOURNAL.md*:
+  - Journal de bord documentant toutes les étapes du processus, incluant les versions initiales générées par Figma Make ou Stitch, et les modifications apportées.
+  - Répondre aux 5 questions du premier bloc du projet.
+  - Inscrire toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
+
+<span class="important-label">Important</span>: Tout pousser sur votre dépôt GitHub avant la date limite et remettre le lien (URL) du dépôt dans le devoir sur TEAMS.

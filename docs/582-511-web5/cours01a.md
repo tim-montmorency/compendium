@@ -158,10 +158,9 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 [:simple-figma: Figma Éducation](ia/Guide_Figma_Education.md){ .md-button .md-button--primary :target="_blank" }
 
-## DEVOIR pour vendredi
+## Devoirs 📓
 
 Faire (à ton rythme) le quiz diagnostique JavaScript
-
 
 - [Gr1 mercredi AM](https://app.wooclap.com/NDPKHTG/questionnaires/6a8f2142e16d5b91fd769a75)
 - [Gr2 mercredi PM](https://app.wooclap.com/XCQUADJ/questionnaires/6a8f53523c3db622bc47fcb3)
