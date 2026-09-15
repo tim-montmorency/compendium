@@ -1,3 +1,10 @@
+<!--
+Piste — Capsule d'enrichissement possible : Behavior (Unity 6)
+1. Rappel : ennemi codé avec un switch sur un état (patrouille → poursuite).
+2. Même ennemi refait dans Behavior, puis ajout d'une attaque et d'une fuite — montre l'intérêt de l'outil quand le comportement grossit.
+- Vérifier la compatibilité avec la version Unity du labo avant de préparer la démo.
+-->
+
 # Cours 13
 
 [STOP]

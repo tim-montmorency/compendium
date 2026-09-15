@@ -1,3 +1,8 @@
+<!--
+Piste — Package Recorder (Unity Registry)
+- Capture vidéo / GIF directement dans l'éditeur : captures pour la page itch.io, le README et l'oral.
+-->
+
 # Cours 11
 
 [STOP]

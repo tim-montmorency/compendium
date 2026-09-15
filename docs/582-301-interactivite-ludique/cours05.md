@@ -1,3 +1,9 @@
+<!--
+Piste — Packages à présenter
+- ProBuilder (Unity Registry) : démo — blockout / greybox du niveau directement dans Unity, en vue du jalon F1 (cours 7).
+- Polybrush (Unity Registry) : mentionner seulement, pas de démo — sculpture, peinture de vertex, dispersion d'objets sur les maillages ProBuilder.
+-->
+
 # Cours 5
 
 [STOP]
