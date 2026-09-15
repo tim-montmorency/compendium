@@ -81,7 +81,13 @@ Il n'y a pas de mauvais choix, mais tout choix doit être justifié au départ d
 
 #### Utilisation de l'IA
 
-L'IA est permise pour vous aider à apprendre et à déboguer, mais pas pour remplacer votre compréhension. Tout usage doit être documenté dans votre journal de bord ou via un lien de conversation partagé dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct. À la fin du projet, lors de la présentation, vous serez invité à le faire devant la classe à la demande de l’enseignante.
+L'IA est permise pour vous aider à vous inspirer, apprendre et à déboguer, mais pas pour remplacer votre compréhension.
+
+Le code généré par *Figma Make* ou *Google Stitch* peut être inspecté comme référence, jamais livré tel quel. De toute façon, on n'utilise pas React.js pour ce projet.
+
+Le code généré par *Co-Pilot* dans VS Code est permis mais vous devez travailler par incrément et comprendre tout le code de votre site.
+
+**Tout usage doit être documenté dans votre journal de bord** ou via un lien de conversation partagé dans le journal de bord. Vous devez en tout temps être en mesure d'expliquer et de modifier votre code en direct. À la fin du projet, lors de la présentation, vous serez invité à le faire devant la classe à la demande de l’enseignante.
 
 
 ##### Comment citer?
