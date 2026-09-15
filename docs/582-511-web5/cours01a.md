@@ -150,7 +150,7 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 ### Procédure pour activer GitHub Education + GitHub Copilot Pro + VS Code
 
-[:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
 
 ### Procédure pour activer Figma Éducation
 

@@ -11,14 +11,46 @@
 
 
 
-## Rappel: Le travail assisté par l'IA (Figma Make, Stitch, GitHub Co-Pilot, etc.)
+
+
+## Code généré par IA
+
+### Figma Make ou Stitch (ou autre) lors de la phase design
+
+[:material-file-powerpoint-box: Diapositives PPT: Code généré par Figma Make ou Google Stitch](assets/documents/Web5-codefigmamake-vs-tontravail.pptx){ .md-button .md-button--primary :target="_blank" }
+
+### Rappel Le travail assisté par l'IA
 
 [Le travail assisté par l'IA](https://tim-montmorency.com/compendium/582-511-web5/ia/travail-assiste-ia.html){ .md-button }
 
 [:material-file-powerpoint-box: Diapositives PPT : Le travail assisté par IA](assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
 
 
+## Paramétrage de GitHub Co-Pilot
+
+Rappel (ou changement de licence): 
+[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+
+[:material-github: Paramétrage de GitHub Copilot](./ia/parametrage-copilot.md)
+
+!!! danger "Faire approuver votre paramétrage avant de quitter"
+    Une fois vos réglages faits, venez me les montrer avant de quitter le cours aujourd'hui. Je vérifie et note chaque étudiant individuellement : tant que ce n'est pas approuvé par moi, ce n'est pas considéré comme fait.
 
 
-[:material-file-powerpoint-box: Code généré par Figma Make ou Google Stitch](assets/documents/Web5-codefigmamake-vs-tontravail.pptx){ .md-button .md-button--primary :target="_blank" }
+## Approche par composant pour structurer votre code HTML/CSS/JS
 
+Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'un projet). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
+
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button .md-button--primary :target="_blank" }
+
+## Nomenclature BEM pour vos classes CSS
+
+Une convention de nommage des classes CSS qui reflète la structure du composant (ex. `card__title` pour le titre d'une carte).
+
+[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button .md-button--primary :target="_blank" }
+
+## Devoirs
+
+### Portfolio
+
+Créer la structure de fichiers et dossiers de votre portfolio, avec un premier composant HTML/CSS/JS créé, commenté et fonctionnel. Faites des commits git et pushez sur votre dépôt GitHub. Le tout doit être fait avant la prochaine classe ce vendredi.
