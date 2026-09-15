@@ -33,7 +33,7 @@ La Boussole électorale est un outil développé par des politologues pour vous 
 !!! tip "Où tu devrais être rendu"
     Ton projet Unity existe, il est sur GitHub, ta zone 1 se traverse en greybox.
 
-    **Cette semaine :** ton personnage prend vie — rigging, cinq états animés — et tu montes ta cinématique.
+    **Cette semaine :** ton personnage prend vie — au moins trois états détectés et rendus visibles — et tu montes ta cinématique.
 
     ⏭️ **La semaine prochaine, c'est le jalon 1.** Tes **trois** zones doivent être traversables et tes **trois** portes doivent fonctionner. Si les zones 2 et 3 n'existent pas encore, c'est cette semaine qu'elles se greyboxent — pas la veille.
 

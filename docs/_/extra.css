@@ -835,6 +835,7 @@ stop:before {
   color: white;
 }
 
+.opacity-50,
 .finishing .md-typeset del {
   opacity: 0.5;
 }

@@ -41,10 +41,15 @@ Ce squelette accepte n'importe quel genre :
 | **Action** | Franchir un gouffre | Semer un garde | Atteindre l'extraction avant l'alarme |
 | **Exploration** | Rapporter un objet | Réunir trois fragments | Découvrir le passage caché |
 | **Narratif** | Convaincre le passeur | Rapporter ce qu'il a demandé | Choisir devant la dernière porte |
+| **Progression** | Franchir le premier palier | Gagner la capacité qui ouvre le passage | Le château, accessible au niveau 3 |
 
-### Trois types de *gating* différents
+### Un système de *gating* cohérent
 
-Tes trois portes doivent utiliser **trois types différents** parmi ceux-ci :
+Tes trois portes ne sont pas trois obstacles indépendants : elles forment **un système**, cohérent avec ton genre et avec ton parti pris. Ce système peut être **transversal** — la même logique aux trois portes — ou **propre à chaque zone**, pourvu que l'ensemble se tienne.
+
+*Un jeu où le personnage monte de niveau ouvre logiquement ses portes par le niveau : le château est accessible au niveau 3. Un jeu d'infiltration ouvre les siennes en déjouant quelqu'un. Un jeu d'énigme, en comprenant.*
+
+Voici les types disponibles. **Ce n'est pas une liste à cocher** : c'est un menu où choisir la famille qui sert ton jeu.
 
 | Type | L'interacteur doit… |
 |------|---------------------|
@@ -57,7 +62,19 @@ Tes trois portes doivent utiliser **trois types différents** parmi ceux-ci :
 | **Découverte** | Trouver un passage qui ne se voit pas au premier regard |
 | **Négociation** | Obtenir quelque chose d'un PNJ |
 
-**Au moins une des trois doit être un vrai système clé/serrure** — c'est un savoir essentiel nommément inscrit au devis.
+**Au moins une des trois doit être un vrai système clé/serrure** — c'est un savoir essentiel nommément inscrit au devis. Il s'habille dans à peu près n'importe quel univers : une carte d'accès, un mot de passe, une pièce de mécanisme, la confiance d'un PNJ.
+
+#### Les deux tests du système
+
+!!! abstract "Le test de la phrase unique"
+    Décris ton système en une phrase qui commence par « Dans mon jeu, on avance en… ».
+
+    Si la phrase a besoin d'un « et aussi », ce n'est pas un système, c'est une collection.
+
+!!! abstract "Le test du retrait"
+    Retire une porte par la pensée. Le jeu devient-il **meilleur** ?
+
+    Si oui, cette porte ne servait pas l'expérience : c'était un péage. Une porte existe pour rendre le passage satisfaisant, pas pour prouver que tu sais en fabriquer une — ça, c'était le Protolude.
 
 ### Le test des trois questions
 
@@ -73,19 +90,17 @@ Tes trois portes doivent utiliser **trois types différents** parmi ceux-ci :
     **3. Qu'est-ce qui change quand elle s'ouvre ?**
     Quelque chose de **perceptible** se produit — un son **et** un changement visuel — et l'état reste changé. Une porte qui s'ouvre en silence n'a pas récompensé l'effort qu'elle a exigé.
 
-### Trois zones, deux découpages possibles
+### Trois zones, trois scènes
 
-Tu choisis, et tu **écris ton choix dans ton GDD** à la séance 4.
+Ton jeu est découpé en **trois scènes Unity, une par zone**, reliées par des transitions. Ce n'est pas un choix à faire : c'est la structure imposée.
 
-| | **A · Trois scènes séparées** | **B · Un monde continu** |
-|---|---|---|
-| Comment | Une scène Unity par zone, chargée par transition | Une seule scène, trois secteurs séparés par des portes |
-| Pour | Tu peux couper la zone 3 en fin de session et il reste un jeu · bakes d'éclairage légers · chargement WebGL rapide | Immersion continue, aucun temps de chargement · un seul éclairage à régler |
-| Contre | Coupures ressenties · trois éclairages à régler | Rien à couper si tu prends du retard · bake lourd · risque de dépassement en WebGL |
-| Surveille | Que chaque scène soit bien dans la *Scene List* | La taille du bake et le nombre de lumières temps réel |
+!!! tip "Pourquoi cette contrainte"
+    Parce qu'elle te donne un filet. Si la semaine 13 se passe mal, tu peux **couper la zone 3 et il reste un jeu**. Dans un monde continu, il n'y a rien à couper sans tout casser.
 
-!!! tip "Si tu hésites"
-    Prends **A**. Pouvoir couper une zone sans casser le jeu est le meilleur filet de sécurité que tu puisses te donner, et tu ne sais pas encore comment se passera ta semaine 13.
+    En prime : des *bakes* d'éclairage plus légers, un chargement WebGL plus rapide, et les trois transitions de scènes propres que demande **A9**.
+
+!!! warning "Ce qu'il faut surveiller"
+    Que **chaque scène soit bien dans la *Scene List*** du *Build Profile*. Une scène absente de la liste ne se charge pas dans le build — et ça se découvre toujours la veille de la remise.
 
 ---
 
@@ -116,7 +131,7 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 |---|----------|------------------|----------|---------|
 | A1 | **Trois zones** entièrement navigables : on ne traverse pas le décor, on ne tombe pas hors du monde | Création d'un environnement virtuel navigable | S2, S3, S8 | F1 · F3 |
 | A2 | Les trois zones passent les **tests de la carte postale, du chronomètre et de la raison d'exister** | Création d'un environnement navigable | S8 | F3 |
-| A3 | **Trois portes**, utilisant **trois types de *gating* différents** | Progression selon la réussite d'une action | S3, S5 | F1 |
+| A3 | **Trois portes** fonctionnelles, qui bloquent réellement la progression | Progression selon la réussite d'une action | S3, S5 | F1 |
 | A4 | Au moins une porte est un vrai **système clé/serrure** | Programmation d'un système de clé et de porte | S3, S5 | F1 |
 | A5 | **Chaque porte passe le test des trois questions** | Progression · Affordance | S1, S4 | F1 · F3 |
 | A6 | Un **début**, une **fin** atteignable, et la possibilité de **recommencer** sans relancer le jeu | Progression · Transitions de scènes | S2, S6 | F4 |
@@ -129,11 +144,18 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 | # | Exigence | Savoir essentiel | Enseigné | Vérifié |
 |---|----------|------------------|----------|---------|
 | B1 | Personnage **contrôlable** (1re ou 3e personne), déplacement et caméra confortables | Déplacement dans l'environnement virtuel | S3 | F1 |
-| B2 | **Cinq états détectés et animés** : immobile, marche, course, saut, action | Détection et animation de l'état du personnage | S6 | F2 |
+| B2 | Le **personnage** a au moins **trois états détectés**, et chaque état produit un changement **perceptible** : animation, effet, son ou changement de matériau | Détection et animation de l'état du personnage | S6 | F2 |
 | B3 | Au moins **trois interactions distinctes** déclenchées par l'interacteur | Interactions virtuelles | S3, S5 | F1 |
 | B4 | Toutes les interactions passent par une **détection de collision** correctement configurée | Détection de collisions pour le déclenchement d'évènements | S2 | F1 |
 | B5 | Les **affordances sont lisibles** : on comprend où aller et sur quoi agir **sans qu'on te le dise** | Notions d'interaction : affordance, agentivité | S1, S4 | F2 · playtests S12 |
 | B6 | Au moins **un script C# écrit par toi** — pas seulement un script du kit branché — appelé depuis une action ***Invoke Events*** du CES ou attaché à un objet, et dont tu peux expliquer **chaque ligne** | Environnement de programmation | S5, S11 | Oral S15 |
+
+!!! note "B2 — ce que « personnage » veut dire ici"
+    Le personnage, c'est **ce que tu contrôles**. Dans un jeu de course, c'est la voiture.
+
+    Un humanoïde riggé avec ses cinq états — immobile, marche, course, saut, action — en est une façon, et les *Starter Assets* la donnent presque gratuitement : c'est le chemin le plus court si ton jeu s'y prête. Une voiture qui penche en virage, un vaisseau qui incline ses ailerons, une boule qui laisse une traînée en sont d'autres, et elles valent autant.
+
+    L'**animation de personnage n'est pas obligatoire**. La détection d'état et sa manifestation visible, oui — c'est un savoir essentiel du devis.
 
 ### C · Rétroaction — *le cœur de l'objectif 2*
 
@@ -178,9 +200,9 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 |---|----------|------------------|----------|---------|
 | G1 | **Build WebGL** fonctionnel **publié sur itch.io** | Compilation de l'application | S11 | F3 · S15 |
 | G2 | **Arborescence de projet** respectée, imports laissés à la racine d'`Assets` | Classement des fichiers et des médias | S2 | F4 |
-| G3 | **README** : concept, commandes, **crédits de tous les médias externes avec leur licence**. Tenu **au fur et à mesure**, pas reconstitué à la fin — vérifié sans note à chaque jalon | Classement des fichiers et des médias | S4, S11 | F1 · F4 · S15 |
+| G3 | **README** : concept, commandes, **crédits de tous les médias externes avec leur licence**. Tenu **au fur et à mesure**, pas reconstitué à la fin — vérifié sans note à chaque jalon | Classement des fichiers et des médias | S5, S11 | F1 · F4 · S15 |
 | G4 | **`PlayerPrefs`** : au moins le volume, plus une donnée de progression | *(pratique professionnelle)* | S11 | F4 |
-| G5 | **Devlog** tenu : une entrée par séance depuis la S4 — pas noté en soi, mais son absence devient une *issue* `must` aux jalons | *(rituel de métier)* | S4 | F1 · F4 |
+| G5 | **Devlog** tenu : une entrée par séance depuis la S5 — pas noté en soi, mais son absence devient une *issue* `must` aux jalons | *(rituel de métier)* | S5 | F1 · F4 |
 | G8 | **Arborescence du projet** tenue tout au long de la session, pas remise au propre à la fin | Classement des fichiers et des médias | S2 | F1 · F4 · S15 |
 | G6 | **Aucun défaut visible de finition** : pas de magenta, pas d'objet flottant, pas de texte provisoire, pas de collider manquant | *(rigueur)* | — | F4 |
 | G7 | La **carte de preuves** est remplie dans le README | *(rigueur)* | S11 | S15 |
@@ -196,6 +218,7 @@ Chaque ligne est une **exigence minimale**, reliée à un savoir essentiel du de
 | H3 | Au moins **un détournement** d'un outil vu en classe, documenté au devlog : un CES qui ne sert pas à une porte, une lumière qui sert de guide, un son qui sert d'indice | Créativité | S15 |
 | H4 | Tu peux **nommer trois décisions de conception** et dire pourquoi tu les as prises | Créativité · Rigueur | Oral S15 |
 | H5 | Ton jeu **ne ressemble pas à la démo du cours** | Créativité | S15 |
+| H6 | Ton **système de *gating* est cohérent** avec ton genre et ton parti pris, et chaque porte **participe au plaisir de jeu** : elle passe le test du retrait | Créativité | F1 · F3 · S15 |
 
 ---
 
@@ -216,6 +239,26 @@ Ce sont des **maximums**, pas des objectifs. Les dépasser n'ajoute aucun point 
     Multijoueur · système de dialogue à embranchements · inventaire avec interface de gestion · combat à plusieurs états · monde ouvert · génération procédurale · modèles 3D modélisés par toi.
 
     Ce ne sont pas des interdictions morales : chacun est un cours à lui seul, et chacun a déjà coûté sa session à quelqu'un. Si l'un te démange, garde-le pour la capsule de la S13 — **mais après avoir livré le socle.**
+
+---
+
+## Si tu termines en avance
+
+Le socle est un **plancher**, pas un objectif. Un projet qui atteint toutes les exigences à la S11 et qui s'arrête là n'a pas fini de faire un jeu : il a fini de livrer une liste.
+
+Dans ce cas, des **tâches supplémentaires** te sont proposées individuellement, en atelier. Elles sont choisies pour **approfondir ton parti pris** — rendre une zone plus lisible, donner du poids à une porte, resserrer une boucle, soigner un moment — jamais pour ajouter du volume.
+
+!!! warning "Ce que ces tâches ne sont pas"
+    Une quatrième zone. Une deuxième mécanique. Dix minutes de jeu de plus.
+
+    Ces trois choses ne rapportent rien et sont explicitement plafonnées, juste au-dessus.
+
+!!! note "Comment elles comptent"
+    Elles **ne créent aucune nouvelle exigence**. Le socle reste le socle, identique pour tout le monde, et il est écrit ici en entier.
+
+    Elles sont le **moyen** d'atteindre le haut de critères qui existent déjà : la créativité (section **H**) et la rigueur, qui se notent en qualité et pèsent **24 des 80 points**. Un jeu qui livre le socle sans plus est *fait*. Un jeu où l'intention se lit dans chaque zone est *bien fait* — et c'est exactement cette différence que ces 24 points mesurent.
+
+    À l'oral, tu dis **quelles tâches tu as reçues et ce que tu en as fait**. C'est déjà inscrit au critère *Oral et démonstration*.
 
 ---
 
@@ -243,9 +286,9 @@ Tu ne t'attribues **aucune note** — tu indiques seulement où regarder. Compte
 
 | Étape | Séance | Ce que tu construis | Livrable à la fin |
 |-------|--------|---------------------|-------------------|
-| **É1** | S4 | Concevoir | GDD ébauché en atelier (dont **parti pris**, **3 zones**, **3 portes**, **découpage**) · liste de sprint sur papier · croquis du niveau · **GDD remis avant la S5** |
+| **É1** | S4 | Concevoir | GDD ébauché en atelier (dont **parti pris**, **3 zones**, **3 portes**, **système de *gating***) · liste de sprint sur papier · croquis du niveau · **GDD remis avant la S5** |
 | **É2** | S5 | Ouvrir le chantier | **GDD validé et verrouillé** · projet Unity créé et rangé · dépôt GitHub synchronisé, tableau alimenté · zone 1 en greybox parcourable · HUD ancré (même vide) |
-| **É3** | S6 | Le personnage vivant et le menu | 5 états animés · caméra Cinemachine réglée · **menu titre → jeu → fin** cliquable · **la cinématique** déclenchée par une action |
+| **É3** | S6 | Le personnage vivant et le menu | **3 états détectés et rendus visibles** · caméra Cinemachine réglée · **menu titre → jeu → fin** cliquable · **la cinématique** déclenchée par une action |
 | **É4** | S7 | **Prototype jouable — jalon F1** | Les 3 zones traversables en greybox · **les 3 portes fonctionnent et passent le test des trois questions** · début et fin · backlog MoSCoW monté |
 | **É5** | S7 | Le son | 3 ambiances · 5 sons déclenchés · au moins un son spatialisé · Audio Mixer et slider de volume |
 | **É6** | S8 | Habiller et éclairer | La **zone 1 est finie** : habillée, éclairée, animée, sonorisée — prête pour le jalon F2 |
@@ -270,8 +313,7 @@ Un **jalon GitHub** par étape (`É1` à `É13`), une *issue* par ligne :
 
 ```txt
 É1  Rédiger le GDD, y inscrire le parti pris en une phrase
-É1  Choisir le découpage des zones (3 scènes ou monde continu) et le noter au GDD
-É1  Choisir les 3 types de gating et les noter au GDD
+É1  Définir le système de gating du jeu et le noter au GDD
 É1  Dessiner le croquis du niveau avec les 3 zones et les 3 portes
 É1  Remettre le GDD avant le cours 5
 
@@ -280,7 +322,7 @@ Un **jalon GitHub** par étape (`É1` à `É13`), une *issue* par ligne :
 É2  Greyboxer la zone 1 et la rendre parcourable de bout en bout
 É2  Ancrer le HUD et le tester à deux résolutions
 
-É3  Rigger le personnage (Mixamo) et monter les 5 états
+É3  Monter au moins 3 états du personnage et les rendre visibles (riggage Mixamo si humanoïde)
 É3  Régler la caméra Cinemachine (follow, damping, confiner)
 É3  Monter le menu titre, pause et fin
 É3  Monter la cinématique et la déclencher par une action
@@ -350,6 +392,8 @@ Un **jalon GitHub** par étape (`É1` à `É13`), une *issue* par ligne :
     Les sections **H** et **Rigueur** se notent en **qualité**, et c'est là que se joue la différence entre deux jeux qui cochent les mêmes cases. Un jeu bâclé peut obtenir tous ses points de savoirs et perdre les 24 points d'attitudes ; c'est exactement ce que le devis départemental demande d'évaluer.
 
     **Aucun point d'ampleur nulle part.** Une quatrième zone ne rapporte rien. Le chemin le plus court vers une bonne note est de livrer **exactement le socle, avec une intention claire, très bien fait.**
+
+    C'est « très bien fait » qui est exigeant, pas le socle. Cocher toutes les cases des sections **A** à **G** donne les points de savoirs; les 24 points d'attitudes se gagnent au-dessus.
 
 ---
 

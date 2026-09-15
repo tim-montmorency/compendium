@@ -10,7 +10,8 @@
 
     1. Créer le **projet Unity** du jeu de session et appliquer la structure de dossiers de la S2
     2. **Synchroniser avec GitHub** : dépôt, `.gitignore` Unity, premier commit, tableau **GitHub Projects** avec ta liste de sprint de la S4
-    3. **Greybox de la zone 1**, et le **HUD** monté en parallèle
+    3. **Ouvrir ton devlog** dans le `README.md` — format imposé : une capture, trois lignes, ce qui bloque. Une entrée par séance à partir d'aujourd'hui
+    4. **Greybox de la zone 1**, et le **HUD** monté en parallèle
 
 
 <!-- ## Déroulement de la séance
@@ -25,6 +26,26 @@
 | 2h50 – 3h15 | Prefabs custom |
 | 3h15 – 3h35 | Le kit de scripts + atelier | -->
 
+## Trello
+
+![](./assets/img/trello-banner.webp){.w-100}
+
+Kanban, sprint et 🎉
+
+* Semaine 5 | 24 septembre
+* Semaine 6 | 1 octobre
+* Semaine 7 | 8 octobre 🏃🏻‍♂️ Sprint 1 : Prototype
+* Semaine 8 | 22 octobre  
+* Semaine 9 | 29 octobre 🏃🏻‍♂️ Sprint 2 : Tranche verticale
+* Semaine 10 | 5 novembre  
+* Semaine 11 | 12 novembre  
+* Semaine 12 | 19 novembre 🏃🏻‍♂️ Sprint 3 : Alpha
+* Semaine 13 | 26 novembre  
+* Semaine 14 | 3 décembre 🏃🏻‍♂️ Sprint 4 : Beta
+* Semaine 15 | 10 décembre 🏃🏻‍♂️ Sprint 5 : Oral
+
+Applications similaires à Trello : [GitHub Project](https://docs.github.com/fr/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects), [kan.bn](https://kan.bn/)
+
 ## L'interface
 
 ### Canvas, EventSystem, boutons
@@ -37,11 +58,13 @@
 
 ### Les ancres : tenir à tous les écrans
 
+
 ## Le flux de scènes
 
 ### Titre → jeu → fin
 
 ### La pause et `Time.timeScale`
+
 
 ## Le feedback : la moitié de l'agentivité
 
@@ -53,6 +76,7 @@
 ### Anatomie de ce qu'on te donne
 
 ### Brancher une méthode sur `Button.onClick`
+
 
 ## C# de survie
 
@@ -76,6 +100,7 @@
 ### La Console : ta lampe de poche
 
 ### Usage cool : générer des GameObjects
+
 
 ## Les prefabs custom
 
