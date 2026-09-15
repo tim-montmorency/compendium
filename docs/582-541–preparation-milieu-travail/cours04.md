@@ -36,6 +36,10 @@ Au plaisir d’échanger avec vous,
 
 L’équipe de **L’incubateur Théâtral**
 
+## Questions
+
+Avez-vous des questions pour les anciens finissants de TIM? 
+
 
 
 ## 🚨 Remise et présentation des planifications de portfolio
