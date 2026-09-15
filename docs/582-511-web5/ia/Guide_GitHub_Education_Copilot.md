@@ -1,4 +1,4 @@
-# GitHub Education, Copilot Pro, VScode
+# GitHub Education, Copilot, VS Code
 
 ## 🚀 GitHub Education
 
@@ -11,10 +11,10 @@
 
 ---
 
-
 ### 2️⃣ Rejoindre GitHub Education
 
-!!!info :material-cellphone-check: Faire d'abord une impression-écran de votre carte étudiante numérique disponible sur l'application mobile du collège Montmorency et la transférer sur votre ordinateur pour l'utiliser comme preuve d'inscription.
+!!! info ":material-cellphone-check: Preuve d'inscription"
+    Faire d'abord une impression-écran de votre carte étudiante numérique disponible sur l'application mobile du collège Montmorency et la transférer sur votre ordinateur pour l'utiliser comme preuve d'inscription.
 
 1. Aller sur 👉 https://education.github.com
 2. Cliquer sur **Join GitHub Education**
@@ -25,7 +25,8 @@
 
 ⏳ Attendre l'approbation de GitHub.
 
-!!! tip :material-timetable: L'approbation peut prendre quelques heures à quelques jours. Vérifier votre courriel pour la confirmation de l'approbation.
+!!! tip ":material-timetable: Délai"
+    L'approbation peut prendre quelques heures à quelques jours. Vérifier votre courriel pour la confirmation de l'approbation.
 
 ---
 
@@ -35,31 +36,38 @@
 2. Vérifier que le statut est :
 ✅ **Verified Student**
 
+!!! warning "Votre courriel scolaire doit être l'adresse primaire"
+    Dans **Settings → Emails**, assurez-vous que le courriel scolaire vérifié est bien votre adresse **primaire** sur GitHub. C'est la cause la plus fréquente d'un bénéfice qui reste bloqué même après une vérification réussie.
+
 ---
 
-## 🤖 Activer GitHub Copilot Pro
+## 🤖 Activer GitHub Copilot (plan Student)
 
-⚠️ Faire cette étape seulement après l'approbation GitHub Education.
+!!! info "Ça s'appelle maintenant « Copilot Student », pas « Copilot Pro »"
+    Depuis mars 2026, GitHub a séparé le bénéfice étudiant du plan Pro. Vous obtenez maintenant un plan distinct, **GitHub Copilot Student**, gratuit avec votre statut vérifié. C'est normal si vous voyez ce nom plutôt que « Pro » : ça reste le même niveau d'accès pour ce cours (complétions, chat).
 
-1. Aller sur 👉 https://github.com
-2. Cliquer sur votre photo de profil
-3. Cliquer sur **Copilot settings**
-4. Dans la section **Usage**, cliquer sur **Upgrade plan**
-5. Vérifier le message :
+⚠️ Faire cette étape seulement après l'approbation GitHub Education (étape 3 ci-dessus).
 
-    ```text
-    🎉 Congratulations!
-    You are eligible to use GitHub Copilot Pro for free.
-    ```
+1. Retourner sur 👉 https://github.com/settings/education/benefits
+2. Repérer **GitHub Copilot** dans la liste de vos bénéfices actifs
+3. Cliquer sur le bouton d'activation associé, directement **depuis cette page**
+4. Accepter les options proposées
+5. Cliquer sur **Save and Complete**
 
-    ![Activation GitHub Copilot Pro](./assets/github-copilot-pro.png)
-6. Cliquer sur **Get access to GitHub Copilot**
-7. Accepter les options proposées
-8. Cliquer sur **Save and Complete**
+✅ GitHub Copilot Student est maintenant activé.
 
-✅ GitHub Copilot Pro est maintenant activé.
+!!! danger "Ne pas passer par Copilot settings → Upgrade plan"
+    Ce chemin-là (photo de profil → **Copilot settings** → **Upgrade plan**) mène maintenant au vrai **Copilot Pro payant** (environ 10 $/mois), pas au bénéfice étudiant gratuit. L'activation gratuite se fait uniquement depuis la page des bénéfices Education à l'étape 1 ci-dessus.
 
+### Si l'activation ne débloque pas
 
+GitHub a mis en pause puis rouvert graduellement les nouvelles inscriptions à Copilot en 2026, donc un délai après la vérification est normal.
+
+1. Vérifier que le courriel primaire est bien le courriel scolaire (voir plus haut)
+2. Attendre jusqu'à une semaine après la vérification
+3. Si toujours bloqué après une semaine : [contacter le support GitHub Education](https://support.github.com) pour une synchronisation manuelle du compte
+
+---
 
 ## 🔌 Installer GitHub Copilot
 
@@ -78,7 +86,7 @@ Vérifier que les extensions suivantes sont installées :
 - [ ] GitHub Copilot
 - [ ] GitHub Copilot Chat
 
-
+---
 
 ## 🔑 Se connecter à GitHub dans Visual Studio Code
 
@@ -89,15 +97,16 @@ Vérifier que les extensions suivantes sont installées :
 
 ✅ Visual Studio Code est maintenant connecté à GitHub.
 
-## ⭐ Vérifier que 'Copilot Pro' est actif dans Visual Studio Code
+## ⭐ Vérifier que Copilot Student est actif dans Visual Studio Code
 
 1. Repérer l'icône **GitHub Copilot** 🤖 (coin inférieur droit)
 2. Cliquer sur l'icône
 3. Vérifier que le compte GitHub affiché est le bon
 4. Vérifier que Copilot est activé
 
-✅ Copilot Pro devrait être disponible automatiquement.
+✅ Copilot Student devrait être disponible automatiquement.
 
+---
 
 ## ✅ Test rapide
 
@@ -117,9 +126,9 @@ Si du code apparaît en gris 👻 :
 
 ✅ GitHub Copilot fonctionne !
 
-Tu peux appyer sur la touche `Tab ⭾` pour accepter la suggestion ou la touche `Esc` (`Échap`) pour la refuser.
+Tu peux appuyer sur la touche `Tab ⭾` pour accepter la suggestion ou la touche `Esc` (`Échap`) pour la refuser.
 
-
+---
 
 ## 💬 Test du Chat IA
 
@@ -129,6 +138,5 @@ Tu peux appyer sur la touche `Tab ⭾` pour accepter la suggestion ou la touche 
 ```text
 Explique-moi cette fonction JavaScript.
 ```
-
 
 ✅ Vous êtes prêt à développer avec l'IA ! 🚀
