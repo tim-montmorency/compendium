@@ -368,7 +368,12 @@ D'abord, `npm` s'utilise en ligne de commande ! On peut donc faire un test avec 
 1. Se déplacer dans `Documents` avec `cd`
 1. Créer un dossier `test` avec `mkdir`
 1. Se déplacer dans `test` avec `cd`
-1. Exécuter la ligne de commande suivante :<div markdown>
+1. Exécuter la ligne de commande suivante pour initialiser le projet :<div markdown>
+  ```bash
+  npm init
+  ```
+  </div>
+1. puis celle-ci pour installer la technologie milligram :<div markdown>
   ```bash
   npm install milligram
   ```
@@ -441,6 +446,11 @@ Voici un usage de Vite sans _framework_ JavaScript.
   cd mon-projet
   ```
   </div>
+1. Initialise npm avec : <div>
+  ```sh
+  npm init
+  ```
+  </div>
 1. Installe vite, tailwind et daisyui avec la commande `npm`<div>
   ```sh
   npm install vite tailwindcss @tailwindcss/vite daisyui
@@ -497,6 +507,12 @@ npx vite build
 ```
 
 Ça va créer un dossier dans lequel on retrouve le html/css/js optimisé et prêt à mettre en ligne !
+
+Pour tester le build, exécutez : 
+
+```sh
+npx vite preview
+```
 
 ### GitHub
 

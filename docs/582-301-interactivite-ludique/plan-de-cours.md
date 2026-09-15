@@ -23,8 +23,8 @@ Ensuite - une fois qu'on sait ce que coûte une porte - on conçoit **LE jeu de 
 Liberté totale sur le thème et l'univers; obligations techniques identiques pour tous :
 
 * Environnement navigable construit avec les assets Synty (POLYGON Sampler Pack)
-* Personnage contrôlable, animé, avec états détectés (idle / marche / course / saut / action)
-* **Trois zones** distinctes et **trois portes** utilisant **trois types de *gating* différents**, dont au moins un vrai système clé/serrure
+* Personnage contrôlable, avec au moins trois états détectés et rendus visibles (animation, effet, son ou matériau)
+* **Trois zones** distinctes et **trois portes** formant un **système de *gating* cohérent** avec le genre du jeu, dont au moins un vrai système clé/serrure
 * Menu fonctionnel (titre → jeu → fin) et HUD
 * Indications **visuelles et sonores** des réussites et des échecs
 * Échantillons sonores déclenchés par les événements du jeu
@@ -37,7 +37,7 @@ L'énoncé complet, ses 33 exigences et ses 12 étapes sont dans [Travail final 
 
 ### Rituels
 
-* **GitHub dès la séance 5** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes). La tenue du tableau et du devlog n'est **pas notée en soi** - elle est regardée à chaque jalon, et ce qui manque devient une *issue* `must`, comptée au projet final
+* **GitHub dès la séance 5** : un dépôt par élève, commit de fin de séance, README comme **devlog** (capture d'écran + 3 lignes), ouvert le jour même où le dépôt est créé. La tenue du tableau et du devlog n'est **pas notée en soi** - elle est regardée à chaque jalon, et ce qui manque devient une *issue* `must`, comptée au projet final
 * **Un seul outil de suivi : GitHub Projects**, par-dessus les *issues* du dépôt. Liste de sprint à la S4, backlog complet à la S7, revue à chaque jalon. Pas de Trello en parallèle - deux sources de vérité, c'est un élève qui répond « c'était dans l'autre outil ». Bonus : un commit contenant `closes #12` ferme la carte tout seul, ce qui donne enfin une raison d'écrire de vrais messages de commit.
 * **Fin de chaque séance** : 10 min de « montre ton écran au voisin » - test croisé informel
 * **Structure des séances de la phase 3** : matière en première partie, puis **atelier avec rotation individuelle** de l'enseignant - c'est là que se font les jalons formatifs
@@ -73,8 +73,8 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
-| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, devlog, liste de sprint | :material-check-decagram: **GDD (5 %)** — remis avant la S5 |
-| 5 | [Ouvrir le chantier : HUD et premier code](./cours05.md) | Canvas, TextMeshPro, HUD, script fourni, **C# de survie**, prefabs, kit de scripts · **validation individuelle des GDD** | |
+| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, liste de sprint | :material-check-decagram: **GDD (5 %)** — remis avant la S5 |
+| 5 | [Ouvrir le chantier : HUD et premier code](./cours05.md) | Canvas, TextMeshPro, HUD, script fourni, **C# de survie**, prefabs, kit de scripts, **devlog** · **validation individuelle des GDD** | |
 
 ### Phase 3 - Couche par couche (S6–S11)
 
@@ -146,7 +146,6 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Scope** : les 5 pièges (jeu trop grand, mécanique floue, trop d'assets, narration sans support, pas de fin)
 * **Techniques narratives** : narration environnementale, *show don't tell*, narration par le level design, notes/objets, cinématique minimale
 * **Atelier GDD en classe** - le document est **remis avant la séance 5**, puis validé individuellement et **verrouillé** à la S5
-* **Devlog** : le format imposé du `README.md` (capture + 3 lignes + ce qui bloque). L'outil se monte à la S5, avec le projet
 * **Liste de sprint** (20 min, à ne pas confondre avec un backlog) - **sur papier**, elle sera saisie dans le tableau à la S5 :
     * **8 cartes maximum**, un seul objectif - se rendre au prototype jouable de la S7
     * **La colonne `Won't`** : trois choses écrites noir sur blanc qu'on ne fera **pas** dans cette version. Couper le multijoueur ou les cinq niveaux ne demande pas d'avoir codé quoi que ce soit - ça demande de regarder son GDD en face. C'est de la conception, donc ça se fait maintenant.
@@ -402,13 +401,13 @@ Les trois premières arrivent tôt et sont légères : **20 % de la note est acq
 - [ ] Le tableau **GitHub Projects** existe et est alimenté depuis la S4
 - [ ] Backlog **priorisé MoSCoW**, colonne `Won't` réellement remplie
 - [ ] Cartes **découpées** : aucune ne dépasse une séance de labo (« faire le niveau » n'est pas une carte)
-- [ ] **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque)
+- [ ] **Devlog** : au moins 3 entrées au format imposé (capture + 3 lignes + ce qui bloque) — une par séance depuis la S5
 - [ ] **Arborescence** conforme à la convention de la S2; imports laissés à la racine d'`Assets`
 - [ ] **Crédits amorcés** au README : chaque média externe déjà utilisé y est cité avec sa source et sa licence
 
 **À la S14 (F4) - la tenue**
 
-- [ ] **Devlog tenu** : une entrée par séance depuis la S7
+- [ ] **Devlog tenu** : une entrée par séance depuis la S5
 - [ ] **Issues des jalons F1 à F3** fermées, ou reportées explicitement et assumées
 - [ ] **Backlog vivant** et **commits liés aux issues** (`closes #12`)
 - [ ] **Arborescence tenue** : le projet n'a pas dérivé - pas de fichiers orphelins à la racine, nommage cohérent

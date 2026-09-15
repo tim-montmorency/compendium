@@ -111,7 +111,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 #### Remise 1 : Planification et design *(gr. Enric 14 sept. | gr. Lora 17 sept.)*
 
 - dépôt GitHub initialisé et doit contenir:
-  <span class="important-label">IMPORTANT</span>, le dépôt doit être privé et vous devez inviter *marie-michelle-ouellet* comme collaboratrice
+  - <span class="important-label">IMPORTANT</span>, le dépôt doit être privé et vous devez inviter *marie-michelle-ouellet* comme collaboratrice
   - ficheir *README.md* dans votre dépôt GitHub, inscrivez-y :
     - votre nom,
     - votre programme d'études et le nom du collège,

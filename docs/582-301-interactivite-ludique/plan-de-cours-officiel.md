@@ -42,7 +42,7 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 **② Le jeu de session** (S4 à S15) — conçu à la S4, une fois qu'on sait ce que coûte une porte, puis construit couche par couche jusqu'à sa publication en ligne. Tous les savoirs essentiels sont enseignés **avant la S12**; les quatre dernières séances sont consacrées à la production.
 
 !!! note "Cahier des charges du jeu de session"
-    Liberté totale sur le thème; obligations techniques identiques pour tous : **trois zones** distinctes et navigables en assets Synty · **trois portes** utilisant **trois types de *gating* différents**, dont au moins un vrai système clé/serrure · personnage contrôlable et animé, avec états détectés · menu et HUD · indications **visuelles et sonores** des réussites et des échecs · échantillons sonores déclenchés par le jeu · une cinématique déclenchée par une action · un PNJ · éclairage et post-traitement · build **publié en ligne** (itch.io, WebGL) avec README et crédits.
+    Liberté totale sur le thème; obligations techniques identiques pour tous : **trois zones** distinctes et navigables en assets Synty · **trois portes** formant un **système de *gating* cohérent** avec le genre du jeu, dont au moins un vrai système clé/serrure · personnage contrôlable, avec au moins trois états détectés et rendus visibles · menu et HUD · indications **visuelles et sonores** des réussites et des échecs · échantillons sonores déclenchés par le jeu · une cinématique déclenchée par une action · un PNJ · éclairage et post-traitement · build **publié en ligne** (itch.io, WebGL) avec README et crédits.
 
     **Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD remis avant la S5, validé individuellement puis verrouillé à la S5.
 
@@ -59,8 +59,8 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 | 2 | [Physique, triggers et monde Synty](./cours02.md) | Dossiers, physique, colliders, scènes, **CES**, Synty + URP | |
 | 3 | [Personnage et progression](./cours03.md) | Starter Assets 1<sup>re</sup>/3<sup>e</sup> personne, *gating* par CES, habillage Synty, build | :material-check-decagram: **Jeu express (13 %)** — la veille de la S4 |
 | | **Phase 2 — Concevoir, puis outiller** | | |
-| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, devlog, liste de sprint, croquis | :material-check-decagram: **GDD (5 %)** — remis avant la S5 |
-| 5 | [Ouvrir le chantier : HUD et premier code](./cours05.md) | Canvas, TextMeshPro, HUD, premier script, **C# de survie**, prefabs · **validation individuelle des GDD** | |
+| 4 | [Concevoir et planifier](./cours04.md) | Boucle de jeu, scope, narration, **atelier GDD**, liste de sprint, croquis | :material-check-decagram: **GDD (5 %)** — remis avant la S5 |
+| 5 | [Ouvrir le chantier : HUD et premier code](./cours05.md) | Canvas, TextMeshPro, HUD, premier script, **C# de survie**, prefabs, **devlog** · **validation individuelle des GDD** | |
 | | **Phase 3 — Couche par couche** | | |
 | 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, rigging, Cinemachine, 2.5D, **menu**, transitions, cinématique | |
 | 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; backlog MoSCoW | :material-comment-check: **F1 — Prototype jouable** |
@@ -113,7 +113,6 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 * Condition de victoire; scope et ses 5 pièges
 * Techniques narratives : narration environnementale, level design narratif, cinématique minimale
 * **Atelier GDD** — le document est **remis avant la S5**
-* Le format imposé du devlog (capture + 3 lignes + ce qui bloque)
 * Liste de sprint (8 cartes max) et colonne `Won't`, **sur papier**; croquis du niveau avec les 3 zones et les 3 portes
 
 **S5 — Ouvrir le chantier : HUD et premier code**
@@ -292,8 +291,8 @@ La remise se fait **avant** la séance 5, et pas en fin de séance 4 : un GDD b�
 | 6 | Boucle de jeu centrale | Ce que le joueur *fait*, encore et encore, en **verbes d'action concrets** |
 | 7 | Victoire et défaite | Conditions explicites. Pas de défaite? Justifie-le ici |
 | 8 | **Tes 3 zones** | Ce qui distingue chacune : lieu, palette, ambiance sonore, ce qu'on y fait |
-| 9 | **Tes 3 portes** | Le **type de *gating*** de chacune. Trois types **différents**, dont au moins un vrai système clé/serrure |
-| 10 | **Découpage technique** | 3 scènes séparées ou 1 monde continu? Et pourquoi |
+| 9 | **Tes 3 portes** | Le **système de *gating*** du jeu et ce que chaque porte y fait, dont au moins un vrai système clé/serrure |
+| 10 | **Découpage technique** | Trois scènes, une par zone (imposé). Nomme-les |
 | 11 | Croquis du niveau | À main levée, avec les 3 zones et les 3 portes identifiées |
 | 12 | Assets Synty prévus | Quels éléments du POLYGON Sampler Pack? |
 | 13 | Moodboard | 4 à 8 images de référence |
@@ -316,9 +315,9 @@ La remise se fait **avant** la séance 5, et pas en fin de séance 4 : un GDD b�
 
 À chaque jalon, la rencontre se fait **tableau ouvert**. Ce n'est pas noté : c'est la liste de ce que je regarde, et **tout ce qui manque repart en *issue* `must`** — donc au critère *réalisation des tâches* du projet final.
 
-**À la S7 (F1)** — le tableau GitHub Projects alimenté depuis la S4 · un backlog priorisé MoSCoW avec la colonne `Won't` remplie · des cartes découpées · au moins 3 entrées de devlog · l'arborescence conforme à la convention de la S2 · les crédits amorcés au README pour les médias déjà utilisés.
+**À la S7 (F1)** — le tableau GitHub Projects alimenté depuis la S4 · un backlog priorisé MoSCoW avec la colonne `Won't` remplie · des cartes découpées · au moins 3 entrées de devlog, une par séance depuis la S5 · l'arborescence conforme à la convention de la S2 · les crédits amorcés au README pour les médias déjà utilisés.
 
-**À la S14 (F4)** — un devlog par séance depuis la S7 · les *issues* des jalons F1 à F3 fermées ou reportées explicitement · un backlog vivant et des commits liés aux *issues* · l'arborescence tenue · les crédits complets.
+**À la S14 (F4)** — un devlog par séance depuis la S5 · les *issues* des jalons F1 à F3 fermées ou reportées explicitement · un backlog vivant et des commits liés aux *issues* · l'arborescence tenue · les crédits complets.
 
 !!! note "Pourquoi ce n'est pas noté"
     L'objectif de ce cours est de **faire** un jeu, pas de gérer un projet. Aucun savoir essentiel du devis ne porte sur la gestion de projet — le tableau, le backlog et le devlog sont des **rituels de métier**, utiles, mais qui ne sont pas la compétence évaluée.

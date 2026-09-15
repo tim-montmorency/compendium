@@ -27,6 +27,14 @@ Dans le panneau Project :
 - 📁 Assets > 📁 _ > 📁 Scenes
 - Clic-droit > `Create` > `Scene` > `Scene`
 
+### Ajouter une scène au Build
+
+Pour changer de scène, il faut d'abord configurer les scènes du build. On doit mentionner manuellement à Unity les scènes qui font officiellement parti de notre jeu.
+
+- `File` > `Build Profiles`
+- Dans la colonne de gauche, clic sur `Scene List`
+- Il faut glisser manuellement les scènes de notre jeu dans cette case !<br>![](./assets/img/scene-list.png){data-zoom-image} 
+
 ### Changement de scène avec CES
 
 Collider Event > Actions > Scene

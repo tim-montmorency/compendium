@@ -1,3 +1,8 @@
+<!--
+Piste — Packages en lien avec le feedback
+- DOTween (Asset Store, gratuit) : animations par code en une ligne (échelle, secousse, fondu) — utile pour le game feel d'un ramassage ou d'un bouton.
+-->
+
 # Cours 9
 
 [STOP]

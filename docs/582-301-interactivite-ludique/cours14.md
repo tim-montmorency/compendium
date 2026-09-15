@@ -14,7 +14,7 @@
 
     On passe ensemble les *issues* `must` encore ouvertes. **Ce qui reste à la fin de cette rencontre est exactement ce qui sera vérifié au cours 15** — aucune surprise possible à la remise.
 
-    **Dernier coup d'œil au suivi**, sans note : un devlog par séance depuis la S7, les *issues* des jalons F1 à F3 traitées, l'arborescence tenue, et surtout les **crédits des médias complets** au README — c'est la dernière occasion de les compléter avant qu'ils comptent au critère *finition*. [La liste complète](./plan-de-cours.md#le-suivi-de-production-formatif)
+    **Dernier coup d'œil au suivi**, sans note : un devlog par séance depuis la S5, les *issues* des jalons F1 à F3 traitées, l'arborescence tenue, et surtout les **crédits des médias complets** au README — c'est la dernière occasion de les compléter avant qu'ils comptent au critère *finition*. [La liste complète](./plan-de-cours.md#le-suivi-de-production-formatif)
 
 <!-- ## Déroulement de la séance
 

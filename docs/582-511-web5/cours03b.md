@@ -21,8 +21,8 @@
   <a href="./projets/portfolio/index-textuel.html#remise-1-planification-et-design-gr-enric-14-sept-gr-lora-17-sept">Instructions de la <em>Remise 1 : Planification et design</em> (gr. Enric 14 sept. | gr. Lora 17 sept.)</a>
 </div>
 
-!!! tip "RAPPEL d'Eric et Lora : un de vos projet doit présenter le *processus de création*."
-    Eric et Lora veulent que je vous rappelle qu'un de vos projet doit présenter le *processus de création complet*. Je vous communique ce rappel pour éviter les oublis.
+!!! tip "RAPPEL d'Enric et Lora : un de vos projet doit présenter le *processus de création*."
+    Enric et Lora veulent que je vous rappelle qu'un de vos projet doit présenter le *processus de création complet*. Je vous communique ce rappel pour éviter les oublis.
 
 
 
@@ -37,8 +37,6 @@
 !!! warning "Rappel : remise 1 la semaine prochaine"
     Planification et design à remettre : **groupe Enric, 14 septembre** · **groupe Lora, 17 septembre**. Donc aujourd'hui c'est votre dernier bloc de cours pour finaliser `PLANIFICATION.md` et le design de l'interface de votre portfolio avant la remise.
 
-
-[:material-file-powerpoint-box: Workflow design assisté par IA : diverger, copier, raffiner](assets/documents/cours03b.pptx){ .md-button .md-button--primary :target="_blank" }
 
 ## Retour sur Figma
 
@@ -69,6 +67,8 @@
 
 ## Les 4 choix technologiques de votre portfolio 🎯
 
+[:material-file-powerpoint-box: 4 choix technologiques de votre portfolio 🎯](assets/documents/cours03b.pptx){ .md-button .md-button--primary :target="_blank" }
+
 Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'expliquer dans `PLANIFICATION.md`**. Il n'y a pas de mauvais choix, seulement des choix pas justifiés. L'objectif aujourd'hui : que vous ayez une idée claire de comment chaque option fonctionne concrètement, avant de trancher.
 
 ---
@@ -83,7 +83,9 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 |---|---|---|
 | **Fichier JSON local** | Un fichier `projets.json` dans votre dépôt, chargé avec `fetch()`. Aucun serveur, aucun compte externe. | La majorité d'entre vous. Simple, fiable, fonctionne directement sur GitHub Pages. |
 | **Base de données en ligne (gratuite)** | Vos données vivent ailleurs ([Airtable](https://airtable.com), [Google Sheets](https://sheets.google.com) publié en JSON, [Supabase](https://supabase.com), [Firebase](https://firebase.google.com)), récupérées par une requête `fetch()` vers une URL au lieu d'un fichier local. | Si vous voulez pouvoir modifier vos projets sans toucher au code ni redéployer. |
-| **Petit CMS headless gratuit** ([Contentful](https://contentful.com), [Sanity](https://sanity.io)) | Une interface d'édition de contenu en ligne (texte riche, images), qui expose vos données via une API. | Si vous avez déjà utilisé ce genre d'outil ou voulez une vraie interface de gestion de contenu. Un peu plus de configuration au départ. |
+| **Petit CMS headless\* gratuit** ([Contentful](https://www.contentful.com/headless-cms/), [Sanity](https://www.sanity.io/unified-content-operations-system)) | Une interface d'édition de contenu en ligne (texte riche, images), qui expose vos données via une API. | Si vous avez déjà utilisé ce genre d'outil ou voulez une vraie interface de gestion de contenu. Un peu plus de configuration au départ. |
+
+\* **Définition d'un CMS headless** : Un CMS sans tête (headless CMS) est un système de gestion de contenu dont le back-end (stockage des données et édition des données) est totalement séparé du front-end (affichage et design)
 
 ---
 
@@ -91,7 +93,7 @@ Vos projets (titre, description, image, catégorie, lien) doivent être séparé
 
 | Outil | Ce que c'est | À considérer | Ressources pour apprendre |
 |---|---|---|---|
-| **CSS pur** (transitions, keyframes) | Ce que vous connaissez déjà de Web 2. | Suffisant pour la majorité des interactions simples (survol, apparition). Le plus léger, aucune dépendance. | [MDN CSS Transitions](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), [MDN CSS Animations](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Animations/Using_CSS_animations) |
+| **CSS pur** (transitions, keyframes) | Ce que vous connaissez déjà de Web 2. | Suffisant pour la majorité des interactions simples (survol, apparition). Le plus léger, aucune dépendance. | <ul><li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Transitions/Using">MDN: CSS Transitions</a></li><li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Animations/Using">MDN: CSS Animations</a></li><li><a href="../582-211-web2/css/animations-css.html">Web2: CSS Transitions</a></li><li><a href="../582-211-web2/css/transitions-css.html">Web2: CSS Animations</a></li></ul> |
 | **Anime.js** | Une librairie JS légère, que vous avez déjà utilisée dans vos cours précédents. | Bon compromis : plus de contrôle que le CSS, syntaxe que vous connaissez déjà. | [Documentation officielle Anime.js](https://animejs.com/documentation) |
 | **GSAP** | La librairie professionnelle standard de l'industrie pour l'animation web. | Puissante, mais pas encore enseignée formellement, ce sera fait à l'intégrateur. Si vous la choisissez maintenant, ce sera en autodidacte (documentation officielle, Copilot en soutien), et ce sera à documenter dans votre journal. | [Documentation officielle GSAP](https://gsap.com/docs/v3/) |
 | **Scroll-driven animation (CSS natif)** | `animation-timeline: scroll()`, une fonctionnalité CSS récente qui anime un élément en fonction du défilement, sans JS. | Élégant et natif, mais support navigateur encore inégal (à vérifier). Aussi vu plus en profondeur à l'intégrateur. | [Scroll-driven animation: Guide pratique](https://jolicode.com/blog/scroll-driven-animations-en-css-guide-pratique-pour-saffranchir-du-javascript) |
@@ -150,7 +152,7 @@ const idProjet = params.get('id'); // "cafe-du-coin"
 |---|---|---|
 | **GitHub Pages** | `votre-nom.github.io/nom-du-depot` | Recommandé, déjà lié à votre dépôt. Aucune configuration serveur. |
 | **Netlify** | `nom-du-projet.netlify.app` | Déploiement automatique depuis GitHub, gratuit, offre aussi des fonctions serverless si jamais vous en avez besoin. |
-| **Vercel** | `nom-du-projet.vercel.app` | Même principe que Netlify. |
+| [**Vercel**](https://vercel.com/) | `nom-du-projet.vercel.app` | Même principe que Netlify. |
 | **Cloudflare Pages** | `nom-du-projet.pages.dev` | Même principe, très rapide. |
 
 **Nom de domaine personnalisé (optionnel)** : au lieu du sous-domaine gratuit, vous pouvez acheter un vrai domaine (quelques dollars par année, chez un registraire comme Namecheap ou OVH) et le pointer vers l'hébergeur choisi. Pas exigé pour ce projet, mais bon à savoir pour votre futur portfolio professionnel.
