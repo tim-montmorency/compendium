@@ -34,7 +34,7 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
 ---
 
-## 2. Sur github.com/settings/copilot/features
+## 2. Sur [github.com/settings/copilot/features](https://github.com/settings/copilot/features)
 
 !!! danger "Obligatoire : Suggestions matching public code → Block"
     Ce réglage compare vos suggestions à environ 150 caractères de code public sur GitHub. Si un match est trouvé, la suggestion n'est simplement pas montrée. Ça évite de vous retrouver, sans le savoir, avec du code copié d'un dépôt sous licence dans votre portfolio. Question d'intégrité, pas juste de style.
@@ -89,6 +89,6 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 | Suggestions de texte fantôme | VS Code, panneau Copilot | Obligatoire — activé |
 | Suggestions de texte fantôme (Markdown) | VS Code, panneau Copilot | Obligatoire — désactivé |
 | Suggestions de prochaine modification | VS Code, panneau Copilot | Recommandé — activé |
-| Suggestions matching public code | github.com/settings/copilot/features | Obligatoire — Block |
+| Suggestions matching public code | [github.com/settings/copilot/features](https://github.com/settings/copilot/features) | Obligatoire — Block |
 | Mode Agent | Chat Copilot, boutons du bas | Obligatoire — Agent + Interactif + Manual permissions |
 | `.github/copilot-instructions.md` | Racine du dépôt | Recommandé — à créer |

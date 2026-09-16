@@ -25,9 +25,9 @@
 ## Paramétrage de GitHub Copilot
 
 Rappel (ou changement de licence) :
-[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_b lank" }
 
-[:material-github: Paramétrage de GitHub Copilot](ia/parametrage-copilot.md){ .md-button }
+[:material-github: Paramétrage de GitHub Copilot](ia/parametrage-copilot.md){ .md-button .md-button--primary :target="_blank" }
 
 !!! danger "Faire approuver votre paramétrage avant de quitter"
     Une fois vos réglages faits, venez me les montrer avant de quitter le cours aujourd'hui. Je vérifie et note chaque étudiant individuellement : tant que ce n'est pas approuvé par moi, ce n'est pas considéré comme fait.
