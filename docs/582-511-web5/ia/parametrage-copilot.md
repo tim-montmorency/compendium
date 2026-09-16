@@ -7,7 +7,7 @@ Ce guide fixe une base commune de paramétrage, pour que tout le monde parte du 
 
     [:material-github: Activer GitHub Copilot (plan Student)](Guide_GitHub_Education_Copilot.md){ .md-button :target="_blank" }
 
----
+
 
 ## 1. Dans VS Code, panneau Copilot
 
@@ -32,7 +32,7 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 - **Codebase Semantic Index** : optionnel. Utile sur un gros projet pour que Copilot comprenne l'ensemble du code, pas nécessaire pour la taille d'un portfolio.
 - **Session Sync** : pas nécessaire pour ce cours, laisser tel quel.
 
----
+
 
 ## 2. Sur [github.com /settings/copilot/features](https://github.com/settings/copilot/features)
 
@@ -43,7 +43,7 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
     Marche à suivre : profil → **Copilot Settings** → section **Privacy**, **Suggestions matching public code** → changer la valeur pour **Blocked**.
 
----
+
 
 ## 3. Dans le chat Copilot : quel mode utiliser pour le portfolio
 
@@ -68,7 +68,7 @@ L'interface a changé récemment, voici ce qu'on y trouve vraiment (pas ce que l
 
     Le harnais (bouton **Copilot/Local/Cloud/Claude**) n'a pas d'impact sur cette consigne, laissez-le sur Copilot.
 
----
+
 
 ## 4. Le fichier `.github/copilot-instructions.md`
 
@@ -102,7 +102,7 @@ Une convention de nommage des classes CSS qui reflète la structure du composant
 
 [Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button :target="_blank" }
 
----
+
 
 ## En un coup d'œil
 
