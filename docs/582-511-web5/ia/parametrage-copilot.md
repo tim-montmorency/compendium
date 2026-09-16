@@ -41,7 +41,7 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 !!! danger "Obligatoire : Suggestions matching public code → Block"
     Ce réglage compare vos suggestions à environ 150 caractères de code public sur GitHub. Si un match est trouvé, la suggestion n'est simplement pas montrée. Ça évite de vous retrouver, sans le savoir, avec du code copié d'un dépôt sous licence dans votre portfolio. Question d'intégrité, pas juste de style.
 
-    Marche à suivre : profil → **Settings** → **Copilot** → **Features**, section **Privacy**, menu déroulant **Suggestions matching public code** → **Block**.
+    Marche à suivre : profil → **Copilot Settings** → section **Privacy**, **Suggestions matching public code** → changer la valeur pour **Blocked**.
 
 ---
 
@@ -88,7 +88,7 @@ Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un 
 
 [Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button :target="_blank" }
 
-\* **Nomenclature BEM pour vos classes CSS**
+\*\* **Nomenclature BEM pour vos classes CSS**
 
 Une convention de nommage des classes CSS qui reflète la structure du composant (ex. `card__title` pour le titre d'une carte).
 
