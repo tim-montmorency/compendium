@@ -7,7 +7,7 @@ Ce guide fixe une base commune de paramétrage, pour que tout le monde parte du 
 
     [:material-github: Activer GitHub Copilot (plan Student)](Guide_GitHub_Education_Copilot.md){ .md-button :target="_blank" }
 
-
+---
 
 ## 1. Dans VS Code, panneau Copilot
 
@@ -32,7 +32,7 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 - **Codebase Semantic Index** : optionnel. Utile sur un gros projet pour que Copilot comprenne l'ensemble du code, pas nécessaire pour la taille d'un portfolio.
 - **Session Sync** : pas nécessaire pour ce cours, laisser tel quel.
 
-
+---
 
 ## 2. Sur github.com/settings/copilot/features
 
@@ -41,28 +41,24 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
     Marche à suivre : profil → **Settings** → **Copilot** → **Features**, section **Privacy**, menu déroulant **Suggestions matching public code** → **Block**.
 
+---
 
+## 3. Dans le chat Copilot : quel mode utiliser pour le portfolio
 
-## 3. Dans `settings.json` (VS Code)
+L'interface a changé récemment, voici ce qu'on y trouve vraiment (pas ce que les articles en ligne en disaient il y a deux semaines). Dans la vue Chat, trois boutons empilés en bas contrôlent le comportement, en plus du choix de base :
 
-Ouvrir avec `Ctrl+Maj+P` → **Préférences : Ouvrir les paramètres utilisateur (JSON)**.
+1. **Le mode de base** : **Ask** ou **Agent**. Ask ne touche jamais vos fichiers, il répond seulement. Agent peut agir sur votre code.
+2. **Le style de travail** (une fois en Agent) : **Interactif** (étape par étape, votre accord à chaque fois), **Plan** (planifie d'abord, exécute quand vous êtes prêt), **Autopilot** (travaille de façon autonome selon les permissions).
+3. **Les permissions** : **Manual permissions** (demande votre approbation) ou **Allow all** (exécute sans demander).
 
-!!! warning "Recommandé pour le portfolio : désactiver le mode Agent"
-    Le mode Agent peut modifier plusieurs fichiers et exécuter des commandes de façon autonome, sans supervision ligne par ligne. Pour un projet où l'objectif est d'écrire le HTML/CSS à la main, ça va à l'encontre de la boucle IA du cours (petits incréments, compris avant d'accepter).
+!!! danger "Obligatoire pour le portfolio : Agent + Interactif + Manual permissions"
+    Restez sur cette combinaison. C'est l'équivalent de l'ancien « mode Edit » qu'on cherchait : des changements ciblés, un à la fois, toujours révisés avant d'être appliqués. Ça correspond à la boucle IA du cours (petits incréments, compris avant d'accepter).
 
-    Important à comprendre : ceci se règle par machine, sur votre propre poste. Personne ne peut le forcer à distance. C'est une consigne de cours à respecter, pas un verrou technique, au même titre que la frontière déjà établie pour Figma Make : documentez dans `JOURNAL.md` si vous l'utilisez quand même, et pourquoi.
+    **Évitez Autopilot et Allow all** pour ce projet : la combinaison agit de façon autonome sur plusieurs fichiers sans supervision ligne par ligne, ce qui va à l'encontre de l'objectif d'écrire le HTML/CSS vous-même. Si vous les utilisez quand même pour explorer, documentez-le dans `JOURNAL.md` et pourquoi, au même titre que la frontière déjà établie pour Figma Make.
 
-    Ajoutez ce qui n'est pas déjà présent dans votre `settings.json`, à la suite des autres réglages (n'oubliez pas la virgule finale de la ligne précédente) :
+    Le harnais (bouton **Copilot/Local/Cloud/Claude**) n'a pas d'impact sur cette consigne, laissez-le sur Copilot.
 
-    ```json
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "github.copilot.enable": {
-        "markdown": false,
-    },
-    "chat.agent.enabled": false,
-    ```
-
-
+---
 
 ## 4. Le fichier `.github/copilot-instructions.md`
 
@@ -75,22 +71,16 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 
 - Projet en HTML/CSS/JS vanilla, aucun framework.
 - HTML sémantique obligatoire (article, section, nav...), pas de <div> par défaut.
-- CSS organisé par composants (un fichier ou un bloc de code commenté par composant*).
-- Convention de nommage des classes : [ex. la convention BEM** ou autre].
+- CSS organisé par composants (un fichier ou un bloc par composant).
+- Convention de nommage des classes : [ex. BEM, ou la vôtre].
 - Commentaires de code en français.
 - Ne jamais suggérer de librairie externe sans que je la demande explicitement.
 ```
 
 !!! tip
-    Ce fichier se met à jour au fil du projet. Si vous adoptez une convention en cours de route (nommage, structure de dossiers), ajoutez-la dans ce fichier plutôt que de compter sur votre mémoire pour rester cohérent d'un composant à l'autre.
+    Ce fichier se met à jour au fil du projet. Si vous adoptez une convention en cours de route (nommage, structure de dossiers), ajoutez-la ici plutôt que de compter sur votre mémoire pour rester cohérent d'un composant à l'autre.
 
-\* *Approche par composant :* un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'article). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
-
-[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button .md-button--primary :target="_blank" }
-
-\*\* *Nomenclature BEM :* une convention de nommage des classes CSS qui reflète la structure du composant (ex. `card__title` pour le titre d'une carte).
-
-[Nomenclature BEM](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button .md-button--primary :target="_blank" }
+---
 
 ## En un coup d'œil
 
@@ -100,9 +90,5 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 | Suggestions de texte fantôme (Markdown) | VS Code, panneau Copilot | Obligatoire — désactivé |
 | Suggestions de prochaine modification | VS Code, panneau Copilot | Recommandé — activé |
 | Suggestions matching public code | github.com/settings/copilot/features | Obligatoire — Block |
-| Mode Agent | `settings.json` | Recommandé — désactivé |
+| Mode Agent | Chat Copilot, boutons du bas | Obligatoire — Agent + Interactif + Manual permissions |
 | `.github/copilot-instructions.md` | Racine du dépôt | Recommandé — à créer |
-
-
-!!! danger "Faire approuver votre paramétrage avant de quitter"
-    Une fois vos réglages faits, venez me les montrer avant de quitter le cours aujourd'hui. Je vérifie et note chaque étudiant individuellement : tant que ce n'est pas approuvé par moi, ce n'est pas considéré comme fait.
