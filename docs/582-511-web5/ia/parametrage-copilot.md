@@ -49,16 +49,16 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
 L'interface a changé récemment, voici ce qu'on y trouve vraiment (pas ce que les articles en ligne en disaient il y a deux semaines). Dans la vue Chat, trois boutons empilés en bas contrôlent le comportement, en plus du choix de base :
 
-1. **Le mode de base** : 
-   - **Ask** ou 
-   - **Agent**. 
+1. **Le mode de base** :
+   - **Ask** ou
+   - *Agent*
    - Ask ne touche jamais vos fichiers, il répond seulement. Agent peut agir sur votre code.
-2. **Le style de travail** (une fois en Agent) : 
-   - **Interactif** (étape par étape, votre accord à chaque fois), 
-   - **Plan** (planifie d'abord, exécute quand vous êtes prêt), 
+2. **Le style de travail** (une fois en Agent) :
+   - *Interactif* (étape par étape, votre accord à chaque fois),
+   - **Plan** (planifie d'abord, exécute quand vous êtes prêt),
    - **Autopilot** (travaille de façon autonome selon les permissions).
-3. **Les permissions** : 
-   - **Manual permissions** (demande votre approbation) ou 
+3. **Les permissions** :
+   - *Manual permissions* (demande votre approbation) ou
    - **Allow all** (exécute sans demander).
 
 !!! danger "Obligatoire pour le portfolio : Agent + Interactif + Manual permissions"
@@ -81,8 +81,8 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 
 - Projet en HTML/CSS/JS vanilla, aucun framework.
 - HTML sémantique obligatoire (article, section, nav...), pas <div> par défaut.
-- CSS organisé par composants\* (un fichier ou un bloc de code par composant).
-- Convention de nommage des classes : [ex. BEM\*\*, ou la vôtre].
+- CSS organisé par composants* (un fichier ou un bloc de code par composant).
+- Convention de nommage des classes : [ex. BEM**, ou la vôtre].
 - Commentaires de code en français.
 - Ne jamais suggérer de librairie externe sans que je la demande explicitement.
 ```
