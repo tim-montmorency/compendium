@@ -64,3 +64,9 @@ portfolio-prenom-nom/
 ## Pourquoi séparer par composant
 
 Un fichier CSS ou JS par composant, ça veut dire qu'un incrément de votre boucle Copilot correspond à un fichier, pas à une section arbitraire d'un gros fichier. Ça rend aussi vos commits plus clairs : un commit qui touche `carte-projet.css` et `carte-projet.js` documente précisément ce qui a changé.
+
+### Approche par composant pour structurer votre code HTML/CSS/JS
+
+Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'un projet). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
+
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button :target="_blank" }
