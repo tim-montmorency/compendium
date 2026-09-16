@@ -70,6 +70,7 @@ En direct dans VS Code, sur un vrai composant (la carte de projet) : intention �
 | Générer par petits incréments | Complétion en ligne |
 | Un changement plus large (renommer, restructurer) | Chat, **Agent** + **Interactif** + **Manual permissions** |
 | Comprendre quelque chose de généré | Chat, **Ask** |
+| Commit git | Faire un commit avec une description claire et concise et un push sur github |
 
 !!! tip
     Pas tout ce qui précède ne va dans le journal. Les complétions en ligne ne se documentent pas, seuls les vrais prompts/questions délibérés le sont.
