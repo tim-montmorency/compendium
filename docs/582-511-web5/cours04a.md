@@ -4,6 +4,29 @@
 !!! danger "📱 Téléphones cellulaires en classe"
     Il est dorénavant obligatoire de conserver son téléphone hors de votre portée d'attention, sinon vous devrez le laisser dans la boîte prévue à cet effet. C'est une résolution de département et nous devons suivre la procédure pour toutes les classes. Aucune exception.
 
+
+## Projet portfolio
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio/index.html">Projet Portfolio : consignes sommaires</a>
+</div>
+
+---
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio/index-textuel.html">Projet Portfolio : consignes complètes (en détail)</a>
+</div>
+
+---
+
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio/index-textuel.html#remise-1-planification-et-design-gr-enric-14-sept-gr-lora-17-sept">Instructions de la <em>Remise 1 : Planification et design</em> <gr>(gr. Enric 14 sept. | gr. Lora 17 sept.)</a>
+</div>
+
+
 ## Aujourd'hui
 
 - [ ] Code généré par IA : Figma Make, Stitch, maquette vivante vs code livré
