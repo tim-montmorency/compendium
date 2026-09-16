@@ -91,4 +91,8 @@ Une convention de nommage des classes CSS qui reflète la structure du composant
 
 ### Portfolio
 
-Créer la structure de fichiers et dossiers de votre portfolio, avec un premier composant HTML/CSS/JS créé, commenté et fonctionnel. Faites des commits git et pushez sur votre dépôt GitHub. Le tout doit être fait avant la prochaine classe ce vendredi.
+Créer la structure de fichiers et dossiers de votre portfolio, avec un premier composant HTML/CSS/JS créé, commenté et fonctionnel. 
+
+Faire des commits git et pousser (push) sur votre dépôt GitHub.
+
+Le tout doit être fait avant la prochaine classe ce vendredi.
