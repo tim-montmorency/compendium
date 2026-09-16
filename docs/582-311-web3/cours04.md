@@ -2,165 +2,268 @@
 
 [STOP]
 
-Reproduction de : https://bitbucket.org/product/ ?
-
-Refresh js?
-
-
- | DaisyUI avancé
-
-<!-- **Savoirs :** #6 Réutilisation de composantes adaptées · #17 Réactivité -->
-
+*[CDN]: Content Delivery Network
+*[npm]: Node Package Manager
 *[HMR]: Hot Module Replacement
 
-![](./assets/images/daisyui-banner.png){.w-100}
+## Retour sur les exercices
 
-Au dernier cours, vous avez installé DaisyUI et utilisé ses composantes de base (`btn`, `card`, `navbar`…). Aujourd'hui, on monte d'un cran&nbsp;:
+![](./assets/images/this-is-fine.gif){.w-100}
 
-<div class="grid grid-1-4" markdown>
-  ![](./assets/images/interactive.gif){.aspect-4-3 .w-100}
+[DaisyUI](./activite/daisyui-cdn/index.md) · [DaisyUI + Vite](./activite/daisyui-vite/index.md)
 
-  :material-cursor-default-click: Des composantes **interactives** (souvent sans JavaScript)
+## Récapitulatif
+
+<did class="grid" markdown>
+![](./assets/images/recap-dev.jpg){data-zoom-image}
+![](./assets/images/recap-dev-back.jpg){data-zoom-image}
 </div>
 
-<div class="grid grid-1-4" markdown>
-  ![](./assets/images/allumette.gif){.aspect-4-3 .w-100}
+!!! note "Go Live"
 
-  :material-palette: La gestion des **thèmes** - le super-pouvoir de DaisyUI
-</div>
+    « Live Server » et « Vite » affichent tous deux la page dans le navigateur en hot reload. 
+    
+    💅 La différence est que Vite lit sa configuration (`vite.config.mjs`), va chercher les librairies dans `node_modules` et transforme le code.
 
-## Composantes avancées
+## Vite + `style.css`
 
-Contrairement aux composantes de base, celles-ci gèrent souvent de l'**interactivité** (ouverture, défilement, onglets…). Le plus surprenant&nbsp;: la plupart fonctionnent **sans une seule ligne de JavaScript**, grâce à des astuces HTML/CSS. On pige toujours dans la [documentation](https://daisyui.com/components/).
+| Instruction | Rôle | Exemple |
+| :--- | :--- | :--- |
+| `@import` | Ajoute le css des classes tailwind dans le html | `@import "tailwindcss";` |
+| `@plugin` | Ajoute les classes daisyui présentes dans le html | `@plugin "daisyui";` |
 
-### Hero
+La recette est toujours la même :
 
-Le [`hero`](https://daisyui.com/components/hero/) est une grande bannière d'accueil, idéale en haut de page.
+1. Installer le paquet : `npm install nom-du-paquet`
+1. Ajouter **une ligne** dans `style.css`
+1. Utiliser les nouvelles classes dans le HTML
 
-```html
-<div class="hero min-h-96 bg-base-200">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold">Bienvenue</h1>
-      <p class="py-6">Le meilleur site de la session.</p>
-      <button class="btn btn-primary">Commencer</button>
-    </div>
-  </div>
-</div>
+## Thèmes avec Vite
+
+Avec le CDN, on liait `daisyui@5` et `daisyui@5/themes.css` (tous les thèmes).
+
+Avec npm, on ne va charger que ce qu'on a besoin.
+
+Dans `style.css`, la ligne `@plugin "daisyui";` active `light` et `dark`. C'est tout.
+
+### Activer des thèmes
+
+```css title="style.css"
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: emerald --default, synthwave --prefersdark;
+}
 ```
 
-Pour un hero avec **image de fond** et voile assombri, on ajoute `hero-overlay`&nbsp;:
-
-```html
-<div class="hero min-h-96" style="background-image: url(./assets/images/fond.jpg);">
-  <div class="hero-overlay"></div>
-  <div class="hero-content text-neutral-content text-center">
-    <h1 class="text-5xl font-bold">Digger</h1>
-  </div>
-</div>
-```
-
-<!-- CODEPEN: Hero simple vs hero avec image de fond + overlay -->
-
-### Tabs (onglets)
-
-Les [`tabs`](https://daisyui.com/components/tab/) organisent le contenu en onglets. Avec des `<input type="radio">` partageant le même `name`, on obtient des onglets **fonctionnels sans JavaScript**.
-
-```html
-<div class="tabs tabs-border">
-  <input type="radio" name="mes_onglets" class="tab" aria-label="Onglet 1" checked>
-  <div class="tab-content p-4">Contenu du premier onglet</div>
-
-  <input type="radio" name="mes_onglets" class="tab" aria-label="Onglet 2">
-  <div class="tab-content p-4">Contenu du deuxième onglet</div>
-</div>
-```
-
-| Style de conteneur | Effet |
+| Drapeau | Rôle |
 | :--- | :--- |
-| `tabs-border` | Soulignement sous l'onglet actif |
-| `tabs-lift` | Onglets « soulevés » (style dossier) |
-| `tabs-box` | Onglets dans une boîte arrondie |
+| `--default` | Thème appliqué par défaut |
+| `--prefersdark` | Thème utilisé si le système est en mode sombre |
+| `themes: all;` | Active **tous** les thèmes intégrés (comme le CDN) |
 
-!!! warning "Le piège du `name`"
 
-    Tous les `<input>` d'un même groupe d'onglets **doivent partager le même `name`**. Deux groupes d'onglets sur la même page&nbsp;? Deux `name` différents, sinon ils se contrôlent entre eux.
-
-<!-- CODEPEN: Tabs (tabs-border, tabs-lift, tabs-box) -->
-
-### Dropdown (menu déroulant)
-
-Le [`dropdown`](https://daisyui.com/components/dropdown/) affiche un menu au clic.
+On choisit ensuite le thème actif avec l'attribut `data-theme` :
 
 ```html
-<div class="dropdown">
-  <div tabindex="0" role="button" class="btn m-1">Menu ▾</div>
-  <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-    <li><a>Profil</a></li>
-    <li><a>Déconnexion</a></li>
-  </ul>
-</div>
+<html data-theme="synthwave">
 ```
 
-| Modificateur | Effet |
+et le controlleur de thème fonctionne de la même façon :
+
+```html title="Interrupteur clair/sombre"
+<input type="checkbox" value="synthwave" class="toggle theme-controller" />
+```
+
+## Thème personnalisé
+
+<https://daisyui.com/theme-generator/>
+
+```css title="style.css"
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "momo-light";
+  color-scheme: "light";
+  ...
+}
+@plugin "daisyui/theme" {
+  name: "momo-dark";
+  color-scheme: "dark";
+  ...
+}
+```
+
+!!! warning "Thème maison et configuration"
+
+    Les premières lignes du thème personnalisé servent à remplacer la configuration dans `@plugin "daisyui"` : 
+
+    ```css
+    @plugin "daisyui/theme" {
+      name: "momo-light";
+      color-scheme: "light";
+      default: false; 👈
+      prefersdark: false; 👈
+      ...
+    }
+    ```
+
+## Polices : Fontsource
+
+Google Fonts ne publie **pas** de paquet `npm` officiel. [Fontsource](https://fontsource.org/) empaquette les mêmes polices libres (et d'autres) pour `npm`. Les fichiers de police sont alors **inclus dans le projet** : aucune requête vers Google, et la page fonctionne hors ligne !
+
+### Installation
+
+1. Chercher la police sur [fontsource.org](https://fontsource.org/)
+1. Installer le paquet (ex. la fonte Poppins) :<div markdown>
+  ```sh
+  npm install @fontsource/poppins
+  ```
+  </div>
+1. Importer les graisses voulues dans `style.css` :<div markdown>
+  ```css title="style.css"
+  @import "tailwindcss";
+  @import "@fontsource/poppins"; 
+  @import "@fontsource/poppins/700.css";
+  ```
+  </div>
+1. Déclarer la police comme police par défaut de Tailwind :<div markdown>
+  ```css title="style.css"
+  @theme {
+    --font-sans: "Poppins", sans-serif;
+  }
+  ```
+  </div>
+
+## Icônes
+
+![](./assets/images/lucide.png){.w-100}
+
+[Lucide](https://lucide.dev/icons/) propose plus de 1 500 icônes libres. 
+
+<!-- [Iconify](https://iconify.design/docs/usage/css/tailwind/tailwind4/) est une autre alternative. -->
+
+```sh
+npm install lucide-static
+```
+
+<!-- ```css title="style.css"
+@plugin "@iconify/tailwind4";
+``` -->
+
+```css title="style.css"
+@import "tailwindcss";
+@import "lucide-static/font/lucide.css";
+```
+
+```html
+<div class="icon-send"></div>
+```
+
+<!-- ```html
+<span class="icon-[lucide--rocket]"></span>
+<span class="icon-[lucide--heart] size-8 text-error"></span>
+``` -->
+
+<!-- La classe suit le modèle `icon-[collection--nom-de-l-icone]`. L'icône prend la couleur du texte et se dimensionne avec `size-*`. -->
+
+<!-- !!! tip "Changer de collection" -->
+
+<!-- Iconify donne accès à plus de 200 collections. Il suffit d'installer le paquet correspondant, par exemple `@iconify-json/ph` pour Phosphor, puis d'utiliser `icon-[ph--rocket]`. Le nom exact de chaque icône se trouve sur [icon-sets.iconify.design](https://icon-sets.iconify.design/). -->
+
+<!-- !!! example "Bouton clair/sombre avec icônes" -->
+
+<!-- La composante [`swap`](https://daisyui.com/components/swap/) combinée au `theme-controller` : -->
+
+<!-- ```html
+<label class="swap swap-rotate">
+  <input type="checkbox" value="dark" class="theme-controller" />
+  <span class="swap-off icon-[lucide--sun] size-6"></span>
+  <span class="swap-on icon-[lucide--moon] size-6"></span>
+</label>
+``` -->
+
+## Typographie
+
+Tailwind retire tous les styles par défaut : un `<h2>`, un `<ul>` ou un `<blockquote>` s'affichent comme du texte ordinaire. Le plugin [Typography](https://github.com/tailwindlabs/tailwindcss-typography) règle ça avec une seule classe.
+
+```sh
+npm install -D @tailwindcss/typography
+```
+
+```css title="style.css"
+@plugin "@tailwindcss/typography";
+```
+
+```html
+<article class="prose">
+  <h1>Titre</h1>
+  <p>Paragraphe…</p>
+  <ul><li>Liste</li></ul>
+  <blockquote>Citation</blockquote>
+</article>
+```
+
+| Classe | Effet |
 | :--- | :--- |
-| `dropdown-end` | Aligne le menu à droite |
-| `dropdown-top` / `dropdown-left` / `dropdown-right` | Direction d'ouverture |
-| `dropdown-hover` | Ouvre au survol plutôt qu'au clic |
+| `prose` | Met en forme tout le contenu enfant |
+| `prose-sm` / `prose-lg` / `prose-xl` | Taille générale du texte |
 
-<!-- CODEPEN: Dropdown (positions et dropdown-hover) -->
+## Animations : Animate.css
 
-### Carousel
+[Animate.css](https://animate.style/) est une bibliothèque d'animations CSS.
 
-Le [`carousel`](https://daisyui.com/components/carousel/) fait défiler des éléments horizontalement.
-
-```html
-<div class="carousel rounded-box w-64">
-  <div class="carousel-item w-full">
-    <img src="./assets/images/1.jpg" alt="Image 1">
-  </div>
-  <div class="carousel-item w-full">
-    <img src="./assets/images/2.jpg" alt="Image 2">
-  </div>
-</div>
+```sh
+npm install animate.css
 ```
 
-Ajoutez `carousel-center` pour centrer l'élément actif, ou `carousel-vertical` pour un défilement vertical. Des ancres (`#slide1`, `#slide2`…) permettent d'ajouter des boutons de navigation précédents/suivants.
-
-<!-- CODEPEN: Carousel avec boutons de navigation -->
-
-### Drawer (tiroir latéral)
-
-Le [`drawer`](https://daisyui.com/components/drawer/) est un panneau latéral coulissant, parfait pour un menu mobile.
-
-```html
-<div class="drawer">
-  <input id="mon-tiroir" type="checkbox" class="drawer-toggle" />
-  <div class="drawer-content">
-    <label for="mon-tiroir" class="btn btn-primary drawer-button">Ouvrir le menu</label>
-  </div>
-  <div class="drawer-side">
-    <label for="mon-tiroir" class="drawer-overlay"></label>
-    <ul class="menu bg-base-200 min-h-full w-80 p-4">
-      <li><a>Accueil</a></li>
-      <li><a>Contact</a></li>
-    </ul>
-  </div>
-</div>
+```css title="style.css"
+@import "animate.css";
 ```
 
-| Modificateur | Effet |
+```html
+<h1 class="animate__animated animate__fadeInDown">Bienvenue</h1>
+```
+
+| Classe | Effet |
 | :--- | :--- |
-| `drawer-end` | Tiroir à droite |
-| `lg:drawer-open` | Tiroir **toujours visible** sur grand écran (menu fixe), coulissant sur mobile |
+| `animate__animated` | Obligatoire, active l'animation |
+| `animate__bounce`, `animate__fadeInUp`… | L'animation choisie ([liste complète](https://animate.style/)) |
+| `animate__delay-1s` … `animate__delay-5s` | Délai avant le départ |
+| `animate__slow` / `animate__fast` | Durée |
+| `animate__infinite` | Répétition sans fin |
 
-!!! tip "Responsive : le meilleur des deux mondes"
+!!! note "Au chargement seulement"
 
-    `lg:drawer-open` transforme le tiroir en menu latéral permanent sur écran large, tout en gardant le bouton hamburger sur mobile. Un seul composant, deux comportements.
+    Sans JavaScript, l'animation joue **une fois, au chargement de la page**. Déclencher une animation au défilement ou au clic viendra plus tard, avec **GSAP**.
 
-!!! note "Interactivité « gratuite »"
+## Récapitulatif
 
-    Tabs, dropdown et drawer fonctionnent grâce à des astuces HTML/CSS (`radio`, `checkbox`, `tabindex`), **sans JavaScript**. On verra plus tard, avec **Alpine.js**, comment ajouter de l'interactivité plus poussée (états dynamiques, données, conditions).
+```css title="style.css"
+/* 1. Imports (toujours en haut) */
+@import "tailwindcss";
+@import "@fontsource/poppins";
+@import "@fontsource/poppins/700.css";
+@import "animate.css";
+
+/* 2. Plugins */
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+@plugin "@tailwindcss/typography";
+@plugin "@iconify/tailwind4";
+
+/* 3. Thème maison */
+@plugin "daisyui/theme" {
+  name: "montmorency";
+  color-scheme: light;
+  --color-primary: oklch(55% 0.3 264);
+}
+
+/* 4. Variables Tailwind */
+@theme {
+  --font-sans: "Poppins", sans-serif;
+}
+```
 
 ## Adapter et surcharger une composante
 
@@ -180,131 +283,26 @@ La grande force de DaisyUI&nbsp;: une composante n'est pas figée. On **combine*
     </button>
     ```
 
-Règle simple&nbsp;: **DaisyUI pose la base, Tailwind ajuste**. Si une composante ne correspond pas exactement à votre maquette, ajoutez des utilitaires Tailwind plutôt que de repartir de zéro.
+Règle simple&nbsp;: **DaisyUI pose la base, Tailwind ajuste**. Si une composante ne correspond pas exactement à la maquette, on ajoute des utilitaires Tailwind plutôt que de repartir de zéro.
 
 !!! tip "Les couleurs sémantiques, encore"
 
-    Utilisez toujours les couleurs **sémantiques** (`bg-primary`, `text-base-content`, `badge-error`) plutôt que les couleurs fixes de Tailwind (`bg-red-500`). Pourquoi&nbsp;? Parce qu'au prochain changement de thème, **tout** s'adapte automatiquement. C'est exactement l'objet de la section suivante.
+    Toujours utiliser les couleurs **sémantiques** (`bg-primary`, `text-base-content`, `badge-error`) plutôt que les couleurs fixes de Tailwind (`bg-red-500`). Pourquoi&nbsp;? Parce qu'au prochain changement de thème, **tout** s'adapte automatiquement. C'est tout l'intérêt des thèmes.
 
-## Les thèmes
+## Exercices
 
-C'est LE super-pouvoir de DaisyUI. Un **thème**, c'est une palette complète de couleurs sémantiques appliquée d'un coup. DaisyUI en fournit une trentaine [prêts à l'emploi](https://daisyui.com/docs/themes/).
+<div class="grid grid-1-2" markdown>
+  <!-- TODO : ajouter un aperçu (giphy.gif) -->
+  ![](./activite/daisyui-vitrine/preview.png){.aspect-4-3}
 
-Quelques thèmes intégrés&nbsp;: `light` · `dark` · `cupcake` · `synthwave` · `retro` · `cyberpunk` · `valentine` · `dracula` · `night` · `coffee` · `winter` · `nord` · `sunset`… (34 au total).
+  <small>Exercice - DaisyUI + Vite</small><br>
+  **[Vitrine](./activite/daisyui-vitrine/index.md){.stretched-link .back}**
+</div>
 
-### Activer des thèmes
+<div class="grid grid-1-2" markdown>
+  <!-- TODO : ajouter un aperçu (giphy.gif) -->
+  ![](./activite/npm-article/preview.png){.aspect-4-3}
 
-On gère les thèmes en ajoutant des accolades après `@plugin "daisyui"` dans le CSS&nbsp;:
-
-```css title="src/style.css"
-@import "tailwindcss";
-@plugin "daisyui" {
-  themes: light --default, dark --prefersdark, cupcake, synthwave;
-}
-```
-
-| Drapeau | Rôle |
-| :--- | :--- |
-| `--default` | Thème appliqué par défaut |
-| `--prefersdark` | Thème utilisé si le système est en mode sombre |
-| `themes: all;` | Active **tous** les thèmes intégrés |
-| `themes: false;` | Désactive les thèmes et retire les couleurs DaisyUI |
-
-On choisit ensuite le thème actif avec l'attribut `data-theme`&nbsp;:
-
-```html
-<html data-theme="cupcake">
-```
-
-!!! info "Un thème pour une seule section"
-
-    `data-theme` fonctionne sur **n'importe quel** élément, et les thèmes s'imbriquent sans limite&nbsp;:
-
-    ```html
-    <div data-theme="dark">
-      Sombre ici… <span data-theme="retro">…mais rétro ici !</span>
-    </div>
-    ```
-
-<!-- CODEPEN: Même page rendue avec 3 thèmes différents (data-theme) -->
-
-### Bouton clair/sombre
-
-DaisyUI offre une classe [`theme-controller`](https://daisyui.com/components/theme-controller/) qui change le thème **sans JavaScript**. N'importe quel `<input>` (case à cocher, radio, `toggle`, `swap`) portant cette classe applique le thème indiqué dans son `value` quand il est activé.
-
-```html title="Interrupteur clair/sombre"
-<input type="checkbox" value="dark" class="toggle theme-controller" />
-```
-
-```html title="Choix parmi plusieurs thèmes (radio)"
-<input type="radio" name="theme" value="light"    class="radio theme-controller" checked />
-<input type="radio" name="theme" value="dark"     class="radio theme-controller" />
-<input type="radio" name="theme" value="cupcake"  class="radio theme-controller" />
-```
-
-!!! note "Et pour mémoriser le choix ?"
-
-    `theme-controller` change le thème, mais ne le **retient pas** au rechargement. Pour ça, il faut du JavaScript et du `localStorage` - on verra exactement ça avec **Alpine.js** plus tard dans la session.
-
-<!-- CODEPEN: theme-controller (toggle clair/sombre + radios de thèmes) -->
-
-### Créer son thème maison
-
-On définit un thème sur mesure avec `@plugin "daisyui/theme"`. Chaque couleur est une variable en **OKLCH** (vu au cours 2 😉).
-
-```css title="src/style.css"
-@import "tailwindcss";
-@plugin "daisyui";
-@plugin "daisyui/theme" {
-  name: "montmorency";
-  default: true;            /* thème par défaut */
-  color-scheme: light;      /* couleur des contrôles natifs du navigateur */
-
-  --color-primary: oklch(55% 0.3 264);
-  --color-primary-content: oklch(98% 0.01 264);
-  --color-secondary: oklch(70% 0.25 200);
-  --color-accent: oklch(65% 0.25 160);
-  --color-base-100: oklch(98% 0.02 240);
-  --color-base-content: oklch(20% 0.05 240);
-
-  --radius-box: 0.5rem;     /* arrondi des cartes, alertes… */
-  --radius-field: 0.25rem;  /* arrondi des boutons, champs… */
-  --border: 1px;            /* épaisseur des bordures */
-}
-```
-
-Les principales variables d'un thème&nbsp;:
-
-| Variable | Contrôle |
-| :--- | :--- |
-| `--color-primary` … `-content` | Couleur principale et son texte lisible |
-| `--color-secondary` / `--color-accent` | Couleurs d'appoint |
-| `--color-base-100/200/300` | Fonds de la page |
-| `--color-info/success/warning/error` | Couleurs d'état |
-| `--radius-box` / `--radius-field` / `--radius-selector` | Arrondis (cartes / champs / sélecteurs) |
-| `--border` | Épaisseur des bordures |
-| `--depth` / `--noise` | Effets de profondeur et de grain |
-
-!!! tip "Le générateur de thèmes"
-
-    Plutôt que d'écrire les couleurs à la main, utilisez le [générateur de thèmes DaisyUI](https://daisyui.com/theme-generator/)&nbsp;: vous choisissez visuellement, il génère le code à coller. Idéal pour partir d'une charte graphique.
-
-!!! example "Personnaliser un thème existant"
-
-    Vous aimez `light` mais voulez juste changer le primaire&nbsp;? Redéfinissez le thème avec le **même nom**&nbsp;; le reste est hérité.
-
-    ```css
-    @plugin "daisyui/theme" {
-      name: "light";
-      default: true;
-      --color-primary: blue;
-    }
-    ```
-
-## Exercice
-
-<!-- À COMPLÉTER : carte d'exercice DaisyUI avancé (dossier activite à créer), même gabarit que les cartes du cours 2. -->
-
-- [ ] Ajoutez à votre projet **Digger** un `hero`, un menu `drawer` responsive (`lg:drawer-open`) et un bouton `theme-controller` clair/sombre.
-- [ ] Intégrez une section en `tabs` et un `carousel` d'images.
-- [ ] Créez un **thème maison** aux couleurs de votre choix avec le générateur, et faites-en le thème par défaut.
+  <small>Exercice - npm</small><br>
+  **[Article](./activite/npm-article/index.md){.stretched-link .back}**
+</div>

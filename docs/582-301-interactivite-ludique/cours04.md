@@ -6,6 +6,10 @@
 
 [STOP]
 
+## Cellulaires
+
+Projet pilote
+
 ## Playtest
 
 ![](./assets/img/1b6107e18d1efb9a39e643929e6a7730.gif){.w-100}
@@ -31,7 +35,7 @@ Phase de test des jeux en classe. (Ne pas expliquer son jeu)
 
 ++v++ : Vertex Snap
 
-++ctrl+shift++ + drag : L'objet se positionne à la surface d'un autre objet.
+++ctrl+shift++ + drag : L'objet se positionne à la surface d'un autre objet
 
 ## Boucle de jeu
 
