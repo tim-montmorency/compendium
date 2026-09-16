@@ -36,6 +36,8 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
 ## 2. Sur [github.com/settings/copilot/features](https://github.com/settings/copilot/features)
 
+![Suggestions matching public code](../assets/github-copilot-suggestions-matching-public-code.png)
+
 !!! danger "Obligatoire : Suggestions matching public code → Block"
     Ce réglage compare vos suggestions à environ 150 caractères de code public sur GitHub. Si un match est trouvé, la suggestion n'est simplement pas montrée. Ça évite de vous retrouver, sans le savoir, avec du code copié d'un dépôt sous licence dans votre portfolio. Question d'intégrité, pas juste de style.
 
@@ -71,14 +73,26 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 
 - Projet en HTML/CSS/JS vanilla, aucun framework.
 - HTML sémantique obligatoire (article, section, nav...), pas de <div> par défaut.
-- CSS organisé par composants (un fichier ou un bloc par composant).
-- Convention de nommage des classes : [ex. BEM, ou la vôtre].
+- CSS organisé par composants\* (un fichier ou un bloc de code par composant).
+- Convention de nommage des classes : [ex. BEM\*\*, ou la vôtre].
 - Commentaires de code en français.
 - Ne jamais suggérer de librairie externe sans que je la demande explicitement.
 ```
 
 !!! tip
     Ce fichier se met à jour au fil du projet. Si vous adoptez une convention en cours de route (nommage, structure de dossiers), ajoutez-la ici plutôt que de compter sur votre mémoire pour rester cohérent d'un composant à l'autre.
+
+\* **Approche par composant pour structurer votre code HTML/CSS/JS**
+
+Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'un projet). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
+
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button .md-button--primary :target="_blank" }
+
+\* **Nomenclature BEM pour vos classes CSS**
+
+Une convention de nommage des classes CSS qui reflète la structure du composant (ex. `card__title` pour le titre d'une carte).
+
+[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button .md-button--primary :target="_blank" }
 
 ---
 
