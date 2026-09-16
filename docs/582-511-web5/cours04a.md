@@ -48,7 +48,8 @@
 ## Paramétrage de GitHub Copilot
 
 Rappel (ou changement de licence) :
-[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_b lank" }
+
+[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button  :target="_b lank" }
 
 [:material-github: Paramétrage de GitHub Copilot](ia/parametrage-copilot.md){ .md-button .md-button--primary :target="_blank" }
 
