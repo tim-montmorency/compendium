@@ -260,7 +260,7 @@
 
 
 <div class="proj-block">
-  <div class="proj-block-title">Journal de bord : 5 questions à chaque bloc de cours</div>
+  <div class="proj-block-title">Journal de bord (*JOURNAL.md*) : 5 questions à chaque bloc de cours (avant chacune des 3 remises)</div>
   <div class="proj-timeline">
     <ol>
       <li><span class="proj-num">1</span><span class="proj-q">Qu'est-ce que j'ai accompli depuis le dernier bloc?</span></li>
