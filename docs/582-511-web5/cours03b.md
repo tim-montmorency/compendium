@@ -67,7 +67,7 @@
 
 ## Les 4 choix technologiques de votre portfolio 🎯
 
-[:material-file-powerpoint-box: 4 choix technologiques de votre portfolio 🎯](assets/documents/Web5-portfolio-planificatino-4choixtechno.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: 4 choix technologiques de votre portfolio 🎯](assets/documents/Web5_portfolio-planification-4choix-techno.pptx){ .md-button .md-button--primary :target="_blank" }
 
 Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'expliquer dans `PLANIFICATION.md`**. Il n'y a pas de mauvais choix, seulement des choix pas justifiés. L'objectif aujourd'hui : que vous ayez une idée claire de comment chaque option fonctionne concrètement, avant de trancher.
 

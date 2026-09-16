@@ -17,7 +17,7 @@
 
 ### Figma Make ou Stitch (ou autre) lors de la phase design
 
-[:material-file-powerpoint-box: Diapositives PPT: Code généré par Figma Make ou Google Stitch](assets/documents/Web5-codefigmamake-vs-tontravail.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: Diapositives PPT: Code généré par Figma Make ou Google Stitch](assets/documents/Web5_codefigmamake-vs-tontravail.pptx){ .md-button .md-button--primary :target="_blank" }
 
 ### Rappel Le travail assisté par l'IA
 

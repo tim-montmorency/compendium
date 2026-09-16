@@ -57,7 +57,7 @@ Ouvrir avec `Ctrl+Maj+P` → **Préférences : Ouvrir les paramètres utilisateu
     ```json
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
-        "markdown": true,
+        "markdown": false,
     },
     "chat.agent.enabled": false,
     ```
@@ -75,7 +75,7 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 
 - Projet en HTML/CSS/JS vanilla, aucun framework.
 - HTML sémantique obligatoire (article, section, nav...), pas de <div> par défaut.
-- CSS organisé par composants (un bloc de code commenté par composant*).
+- CSS organisé par composants (un fichier ou un bloc de code commenté par composant*).
 - Convention de nommage des classes : [ex. la convention BEM** ou autre].
 - Commentaires de code en français.
 - Ne jamais suggérer de librairie externe sans que je la demande explicitement.
