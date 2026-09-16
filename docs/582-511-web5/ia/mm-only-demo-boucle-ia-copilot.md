@@ -16,7 +16,6 @@ Durée approximative : 20-25 minutes.
 | Comprendre quelque chose de généré | Chat, **Ask** |
 | ~~Tout faire d'un coup~~ | **Agent** + **Autopilot** + **Allow all**, à montrer mais pas à utiliser aujourd'hui |
 
----
 
 ## 1. L'intention (avant d'ouvrir Copilot)
 
@@ -101,7 +100,6 @@ Rappel important à faire ici : **pas tout ce qui précède ne va dans le journa
 
 C'est le bon moment pour faire écrire l'entrée devant eux, pas juste l'expliquer.
 
----
 
 ## Note sur la portée JS
 
