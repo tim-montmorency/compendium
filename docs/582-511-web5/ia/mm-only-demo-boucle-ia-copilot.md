@@ -14,6 +14,7 @@ Durée approximative : 20-25 minutes.
 | Générer par petits incréments | Complétion en ligne |
 | Un changement plus large (renommer, restructurer) | Chat, **Agent** + **Interactif** + **Manual permissions** |
 | Comprendre quelque chose de généré | Chat, **Ask** |
+| Commit git | Faire un commit avec une description claire et concise et un push sur github |
 | ~~Tout faire d'un coup~~ | **Agent** + **Autopilot** + **Allow all**, à montrer mais pas à utiliser aujourd'hui |
 
 
