@@ -4,11 +4,7 @@
 *[CES]: Collider Event System
 *[PNJ]: Personnage non joueur
 
-[STOP]
-
-## Cellulaires
-
-Projet pilote
+## Cellulaires 📱
 
 ## Playtest
 

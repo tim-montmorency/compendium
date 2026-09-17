@@ -6,6 +6,8 @@
 *[npm]: Node Package Manager
 *[HMR]: Hot Module Replacement
 
+## Cellulaires 📱
+
 ## Retour sur les exercices
 
 ![](./assets/images/this-is-fine.gif){.w-100}
@@ -14,10 +16,53 @@
 
 ## Récapitulatif
 
-<did class="grid" markdown>
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-npm-init.png){data-zoom-image}
+
+:simple-npm: `npm init`
+</div>
+
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-npm-install-daisy.png){data-zoom-image}
+
+:simple-npm: `npm install xyz`
+</div>
+
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-npm-install.png){data-zoom-image}
+
+:simple-npm: `npm install`
+</div>
+
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-npx-vite.png){data-zoom-image}
+
+:simple-vite: `npx vite`
+</div>
+
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-npx-vite-build.png){data-zoom-image}
+
+:simple-vite: `npx vite build`
+</div>
+
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-npx-vite-preview.png){data-zoom-image}
+
+:simple-vite: `npx vite preview`
+</div>
+
+<div class="grid grid-1-4" markdown>
+![](./assets/images/recap-gitignore.png){data-zoom-image}
+
+:simple-github: `.gitignore`
+</div>
+
+
+<!-- <did class="grid" markdown>
 ![](./assets/images/recap-dev.jpg){data-zoom-image}
 ![](./assets/images/recap-dev-back.jpg){data-zoom-image}
-</div>
+</div> -->
 
 !!! note "Go Live"
 
@@ -32,21 +77,25 @@
 | `@import` | Ajoute le css des classes tailwind dans le html | `@import "tailwindcss";` |
 | `@plugin` | Ajoute les classes daisyui présentes dans le html | `@plugin "daisyui";` |
 
-La recette est toujours la même :
+Pour l'instant, la recette est toujours la même :
 
 1. Installer le paquet : `npm install nom-du-paquet`
-1. Ajouter **une ligne** dans `style.css`
+1. Ajouter les lignes nécessaires dans `style.css`
 1. Utiliser les nouvelles classes dans le HTML
 
 ## Thèmes avec Vite
 
+![](./assets/images/daisyui-themes.png)
+
 Avec le CDN, on liait `daisyui@5` et `daisyui@5/themes.css` (tous les thèmes).
 
-Avec npm, on ne va charger que ce qu'on a besoin.
+Avec npm, on charge seulement ce qu'on a besoin.
 
 Dans `style.css`, la ligne `@plugin "daisyui";` active `light` et `dark`. C'est tout.
 
 ### Activer des thèmes
+
+Pour activer des thèmes, il faut configurer le plugin DaisyUI :
 
 ```css title="style.css"
 @import "tailwindcss";
@@ -58,9 +107,16 @@ Dans `style.css`, la ligne `@plugin "daisyui";` active `light` et `dark`. C'est 
 | Drapeau | Rôle |
 | :--- | :--- |
 | `--default` | Thème appliqué par défaut |
-| `--prefersdark` | Thème utilisé si le système est en mode sombre |
-| `themes: all;` | Active **tous** les thèmes intégrés (comme le CDN) |
+| `--prefersdark` | Thème utilisé si le système est en mode sombre. Par contre, le theme switcher devra alors être géré avec JavaScript. |
+| `themes: all;` | Active **tous** les thèmes intégrés (Comme le CDN. Ne pas utiliser) |
 
+<!-- 
+Si `--prefersdark` est spécifié : 
+<input id="theme" type="checkbox" class="toggle theme-controller" />
+<script>
+  const sombre = matchMedia('(prefers-color-scheme: dark)').matches;
+  document.querySelector('#theme').value = sombre ? 'bumblebee' : 'halloween';
+</script> -->
 
 On choisit ensuite le thème actif avec l'attribut `data-theme` :
 
@@ -76,24 +132,29 @@ et le controlleur de thème fonctionne de la même façon :
 
 ## Thème personnalisé
 
-<https://daisyui.com/theme-generator/>
+- Aller à l'adresse suivante : <https://daisyui.com/theme-generator/>
+- Changer le nom du theme
+- Configurer le thème
+- Cliquer sur le bouton « **{ } CSS** ». Le code devra être collé dans le fichier `style.css`.
+
 
 ```css title="style.css"
 @import "tailwindcss";
 @plugin "daisyui";
-@plugin "daisyui/theme" {
+
+@plugin "daisyui/theme" { 👈 Theme personnalisé A
   name: "momo-light";
   color-scheme: "light";
   ...
 }
-@plugin "daisyui/theme" {
+@plugin "daisyui/theme" { 👈 Theme personnalisé B
   name: "momo-dark";
   color-scheme: "dark";
   ...
 }
 ```
 
-!!! warning "Thème maison et configuration"
+!!! warning "Thème personnalisé et configuration"
 
     Les premières lignes du thème personnalisé servent à remplacer la configuration dans `@plugin "daisyui"` : 
 
@@ -107,29 +168,34 @@ et le controlleur de thème fonctionne de la même façon :
     }
     ```
 
-## Polices : Fontsource
+## Polices
 
-Google Fonts ne publie **pas** de paquet `npm` officiel. [Fontsource](https://fontsource.org/) empaquette les mêmes polices libres (et d'autres) pour `npm`. Les fichiers de police sont alors **inclus dans le projet** : aucune requête vers Google, et la page fonctionne hors ligne !
+![](./assets/images/font-source-banner.png){.w-100}
 
-### Installation
+Google Fonts ne publie malheurement pas de paquet `npm` officiel. 
+
+[Fontsource](https://fontsource.org/) empaquette les mêmes polices libres (et d'autres) pour `npm`. Les fichiers de police sont alors **inclus dans le projet** ! Alors aucune requête vers Google et la page fonctionne hors ligne 🤌
+
+### Installation de Fontsource
 
 1. Chercher la police sur [fontsource.org](https://fontsource.org/)
-1. Installer le paquet (ex. la fonte Poppins) :<div markdown>
+  - Sur Fontsource, la page d'installation propose l'installation _static_ ou _variable_. Choisir Static.
+  - Certaines polices n'existent qu'en version statique (ex.: Poppins).
+1. Installer le paquet (ex. la fonte Inter) :<div markdown>
   ```sh
-  npm install @fontsource/poppins
+  npm install @fontsource/inter
   ```
   </div>
 1. Importer les graisses voulues dans `style.css` :<div markdown>
   ```css title="style.css"
-  @import "tailwindcss";
-  @import "@fontsource/poppins"; 
-  @import "@fontsource/poppins/700.css";
+  @import "@fontsource/inter/400.css"; 
+  @import "@fontsource/inter/700.css";
   ```
   </div>
 1. Déclarer la police comme police par défaut de Tailwind :<div markdown>
   ```css title="style.css"
   @theme {
-    --font-sans: "Poppins", sans-serif;
+    --font-sans: "Inter", sans-serif;
   }
   ```
   </div>
@@ -138,17 +204,13 @@ Google Fonts ne publie **pas** de paquet `npm` officiel. [Fontsource](https://fo
 
 ![](./assets/images/lucide.png){.w-100}
 
-[Lucide](https://lucide.dev/icons/) propose plus de 1 500 icônes libres. 
+[Lucide](https://lucide.dev/icons/) permet d'ajouter à son site les quelques 1 500 icônes développées à partir de Feather Icons.
 
-<!-- [Iconify](https://iconify.design/docs/usage/css/tailwind/tailwind4/) est une autre alternative. -->
+### Installation de Lucide
 
 ```sh
 npm install lucide-static
 ```
-
-<!-- ```css title="style.css"
-@plugin "@iconify/tailwind4";
-``` -->
 
 ```css title="style.css"
 @import "tailwindcss";
@@ -159,32 +221,25 @@ npm install lucide-static
 <div class="icon-send"></div>
 ```
 
-<!-- ```html
-<span class="icon-[lucide--rocket]"></span>
-<span class="icon-[lucide--heart] size-8 text-error"></span>
-``` -->
+La taille de l'icône ne peut pas être spécifiée directement (ex. : `<span class="text-xl icon-send"></span>`), car sa taille est configurée pour être celle de son parent (`font-size: inherit;`).
 
-<!-- La classe suit le modèle `icon-[collection--nom-de-l-icone]`. L'icône prend la couleur du texte et se dimensionne avec `size-*`. -->
+```html
+<span class="text-xl">
+  <span class="icon-send"></span>
+</span>
+```
 
-<!-- !!! tip "Changer de collection" -->
+!!! note "Alternative"
 
-<!-- Iconify donne accès à plus de 200 collections. Il suffit d'installer le paquet correspondant, par exemple `@iconify-json/ph` pour Phosphor, puis d'utiliser `icon-[ph--rocket]`. Le nom exact de chaque icône se trouve sur [icon-sets.iconify.design](https://icon-sets.iconify.design/). -->
-
-<!-- !!! example "Bouton clair/sombre avec icônes" -->
-
-<!-- La composante [`swap`](https://daisyui.com/components/swap/) combinée au `theme-controller` : -->
-
-<!-- ```html
-<label class="swap swap-rotate">
-  <input type="checkbox" value="dark" class="theme-controller" />
-  <span class="swap-off icon-[lucide--sun] size-6"></span>
-  <span class="swap-on icon-[lucide--moon] size-6"></span>
-</label>
-``` -->
+    [Iconify](https://iconify.design/docs/usage/css/tailwind/tailwind4/) est une solide alternative qui propose encore plus de possibilités. Tellement que trop c'est comme pas assez 😅
 
 ## Typographie
 
-Tailwind retire tous les styles par défaut : un `<h2>`, un `<ul>` ou un `<blockquote>` s'affichent comme du texte ordinaire. Le plugin [Typography](https://github.com/tailwindlabs/tailwindcss-typography) règle ça avec une seule classe.
+Tailwind retire tous les styles par défaut : un `<h2>`, un `<ul>` ou un `<blockquote>` s'affichent comme du texte ordinaire.
+
+Le plugin [Typography](https://github.com/tailwindlabs/tailwindcss-typography) règle ça avec une seule classe : `.prose`.
+
+### Installation du plugin `Typography`
 
 ```sh
 npm install -D @tailwindcss/typography
@@ -208,9 +263,13 @@ npm install -D @tailwindcss/typography
 | `prose` | Met en forme tout le contenu enfant |
 | `prose-sm` / `prose-lg` / `prose-xl` | Taille générale du texte |
 
-## Animations : Animate.css
+## Animations
+
+![](./assets/images/animatecss.png){.w-100}
 
 [Animate.css](https://animate.style/) est une bibliothèque d'animations CSS.
+
+### Installation d'Animate.css
 
 ```sh
 npm install animate.css
@@ -236,73 +295,39 @@ npm install animate.css
 
     Sans JavaScript, l'animation joue **une fois, au chargement de la page**. Déclencher une animation au défilement ou au clic viendra plus tard, avec **GSAP**.
 
-## Récapitulatif
+## Exemple
 
 ```css title="style.css"
-/* 1. Imports (toujours en haut) */
+/* Imports (toujours en haut) */
 @import "tailwindcss";
-@import "@fontsource/poppins";
-@import "@fontsource/poppins/700.css";
+@import "@fontsource/Inter/400.css";
+@import "@fontsource/Inter/700.css";
 @import "animate.css";
 
-/* 2. Plugins */
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
 }
-@plugin "@tailwindcss/typography";
-@plugin "@iconify/tailwind4";
-
-/* 3. Thème maison */
 @plugin "daisyui/theme" {
   name: "montmorency";
   color-scheme: light;
   --color-primary: oklch(55% 0.3 264);
 }
 
-/* 4. Variables Tailwind */
+@plugin "@tailwindcss/typography";
+
+@plugin "@iconify/tailwind4";
+
+/* Variables Tailwind */
 @theme {
-  --font-sans: "Poppins", sans-serif;
+  --font-sans: "Inter", sans-serif;
 }
 ```
-
-## Adapter et surcharger une composante
-
-La grande force de DaisyUI&nbsp;: une composante n'est pas figée. On **combine** ses classes avec les utilitaires **Tailwind** pour l'ajuster au pixel près.
-
-=== "DaisyUI seul"
-
-    ```html
-    <button class="btn btn-primary">Envoyer</button>
-    ```
-
-=== "DaisyUI + Tailwind"
-
-    ```html
-    <button class="btn btn-primary rounded-full px-10 shadow-lg hover:scale-105 transition">
-      Envoyer
-    </button>
-    ```
-
-Règle simple&nbsp;: **DaisyUI pose la base, Tailwind ajuste**. Si une composante ne correspond pas exactement à la maquette, on ajoute des utilitaires Tailwind plutôt que de repartir de zéro.
-
-!!! tip "Les couleurs sémantiques, encore"
-
-    Toujours utiliser les couleurs **sémantiques** (`bg-primary`, `text-base-content`, `badge-error`) plutôt que les couleurs fixes de Tailwind (`bg-red-500`). Pourquoi&nbsp;? Parce qu'au prochain changement de thème, **tout** s'adapte automatiquement. C'est tout l'intérêt des thèmes.
 
 ## Exercices
 
 <div class="grid grid-1-2" markdown>
-  <!-- TODO : ajouter un aperçu (giphy.gif) -->
-  ![](./activite/daisyui-vitrine/preview.png){.aspect-4-3}
+  ![](./activite/login-unity/prev.png){.aspect-4-3}
 
   <small>Exercice - DaisyUI + Vite</small><br>
-  **[Vitrine](./activite/daisyui-vitrine/index.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  <!-- TODO : ajouter un aperçu (giphy.gif) -->
-  ![](./activite/npm-article/preview.png){.aspect-4-3}
-
-  <small>Exercice - npm</small><br>
-  **[Article](./activite/npm-article/index.md){.stretched-link .back}**
+  **[Vitrine](./activite/login-unity/index.md){.stretched-link .back}**
 </div>
