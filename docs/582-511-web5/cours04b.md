@@ -99,8 +99,8 @@ Commit final avant de partir.
 
 Afin de s'assurer d'arriver à livrer le prochain à temps, mercredi prochain, vous devrez avoir intégré au moins :
 
-- Pour les One-Pager: 50% de la version desktop de votre page unique
-- Pour les Multi-pages: 50% du total de vos pages
+- Pour les One-Pager: minimum 60% de la version desktop de votre page unique
+- Pour les Multi-pages: 60% du total de vos pages
 
 !!! warning "Responsiveness"
     À mesure que vous avancez, même si les pages ne sont pas prêtes pour mobile, assurez-vous qu'elles soient responsives, c'est à dire que le format et le contenu s'adapent à la largeur de l'écran. Vous pouvez tester en réduisant la largeur de votre fenêtre de navigateur ou en utilisant les outils de test responsive dans l'inspecteur du navigateur.
