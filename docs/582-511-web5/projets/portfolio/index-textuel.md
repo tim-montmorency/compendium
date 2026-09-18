@@ -141,15 +141,16 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 - design corrigé et adapté, suite à la rétroaction de la remise 1,
 - dépôt GitHub mis à jour:
   - structure de dossiers cohérente et convention de nommage uniforme,
-  - fichiers README.md, PLANIFICATION.md et JOURNAL.md mis-à-jour,
+  - fichiers *README.md*, *PLANIFICATION.md* et *JOURNAL.md* mis-à-jour,
   - commits réguliers, fréquents et bien nommés. avec commits réguliers et bien nommés,
 - intégration HTML/CSS/JS fonctionnelle, avec commentaires dans le code,
+- version desktop ET mobile complet et fonctionnels (tout est responsive et s'adapte en fonction de la largeur de l'écran),
 - intégration des contenus textuels et médias,
 - journal de bord complété jusqu'à ce point (JOURNAL.md),
   - 5 questions à répondre pour le deuxième bloc du projet,
   - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
-- version Beta déployée et fonctionnelle en ligne,
-- grille de validation qualité amorcée.
+- version BETA déployée et fonctionnelle en ligne,
+- grille de validation qualité amorcée,
 - lancement des tests par les pairs cette semaine-là : **les résultats et correctifs seront documentés pour la remise finale**.
 
 ### Remise finale : sommative (40%)
