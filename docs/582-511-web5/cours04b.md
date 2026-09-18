@@ -17,6 +17,11 @@
 - [ ] Sprints de travail encadrés
 - [ ] Journal de bord
 
+## Retour sur arborescence
+
+- variables CSS
+- @import des variables dans les autres fichiers.
+
 ## Desktop d'abord, mobile ensuite
 
 Vos maquettes Figma ont été pensées en desktop d'abord. Bien que vous puissiez faire du mobile first, il est plus simple pour vous de suivre l'ordre de conception de vos maquettes. On commence donc par le HTML/CSS desktop, puis on fait une passe responsive pour le mobile.
@@ -27,7 +32,9 @@ On code donc dans cet ordre : le HTML/CSS desktop d'abord, une passe responsive 
 
 [Développement mobile-first - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#developpement-mobile-first){ .md-button :target="_blank" }
 
+## Démo layout responsive
 
+[Démo layout responsive](./css/demo-layout-responsive.html){ .md-button }
 
 ### Media queries (requêtes média)
 
