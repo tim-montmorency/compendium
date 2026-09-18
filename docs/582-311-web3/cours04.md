@@ -1,7 +1,5 @@
 # Cours 4
 
-[STOP]
-
 *[CDN]: Content Delivery Network
 *[npm]: Node Package Manager
 *[HMR]: Hot Module Replacement
