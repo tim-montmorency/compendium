@@ -50,6 +50,9 @@ La page utilise trois _packages_ supplémentaires : **FontSource** (Poppins), **
 - [ ] Installer les trois paquets
 - [ ] Vérifier dans `package.json` que les trois _packages_ y sont
 - [ ] Ajuster le nécessaire dans `style.css`
+  - [ ] Importer et utiliser la fonte Poppins
+  - [ ] Importer Lucide
+  - [ ] Importer animate.css 
 
 !!! example "Vérification"
 
