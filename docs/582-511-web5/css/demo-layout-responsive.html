@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Démo : mise en page globale responsive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+
+  /* ===========================
+     1. Variables de couleurs
+     =========================== */
+  :root {
+    --color-primary: #ef5552;
+    --color-bg: #272a35;
+    --color-item-1: #ff8a80;
+    --color-item-2: #ffab91;
+    --color-item-3: #ffcc80;
+    --color-text: #ffffff;
+    --color-text-secondary: #b0b3c1;
+  }
+
+  /* ===========================
+     2. Base
+     =========================== */
+  * , *::before, *::after {
+    box-sizing: border-box; /* padding et bordures inclus dans la largeur, pas ajoutés par-dessus */
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+  }
+
+  h1, h2, h3 { margin: 0 0 0.5em; font-weight: 700; }
+  p { margin: 0 0 1em; color: var(--color-text-secondary); }
+
+  /* ===========================
+     3. Le patron .inner
+     Le coeur de la démo : chaque section peut avoir
+     un arrière-plan pleine largeur, pendant que SON
+     CONTENU reste limité en largeur et centré.
+     =========================== */
+  .inner {
+    width: 100%;          /* prend toute la largeur disponible... */
+    max-width: 1200px;    /* ...mais jamais plus que 1200px */
+    margin-inline: auto;  /* centre le bloc horizontalement */
+    padding-inline: 24px; /* espace de respiration à gauche/droite sur petit écran */
+
+    /* Repère visuel pour la démo seulement : montre où .inner
+       commence et finit. À retirer dans un vrai projet. */
+    outline: 1px dashed rgba(255, 255, 255, 0.25);
+    outline-offset: -1px;
+  }
+
+  /* ===========================
+     4. Header
+     =========================== */
+  header {
+    background: var(--color-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+  }
+
+  .logo {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-text);
+  }
+
+  nav ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  nav a:hover,
+  nav a:focus-visible {
+    color: var(--color-primary);
+  }
+
+  /* ===========================
+     5. Hero
+     Seule exception dans cette page : le hero occupe
+     100vw / 100vh plutôt que de suivre le patron .inner.
+
+     Attention (bon réflexe à montrer en classe) : 100vw
+     inclut la largeur de la barre de défilement verticale,
+     ce qui peut créer un léger débordement horizontal.
+     width: 100% n'a pas ce problème. On garde 100vw ici
+     volontairement, pour illustrer l'unité elle-même.
+     =========================== */
+  section.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-primary);
+    padding-inline: 24px;
+  }
+
+  section.hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-text);
+  }
+
+  section.hero p {
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 40ch;
+  }
+
+  /* ===========================
+     6. Sections de contenu
+     Le bloc <section> n'a pas de largeur fixée : en tant
+     qu'élément de bloc, il prend déjà 100% de la largeur
+     du parent. Seule sa couleur de fond change.
+     Le contenu, lui, passe toujours par .inner.
+     =========================== */
+  section {
+    padding-block: 80px;
+  }
+
+  section:nth-of-type(2) { background: var(--color-item-1); }
+  section:nth-of-type(3) { background: var(--color-item-2); }
+  section:nth-of-type(4) { background: var(--color-item-3); }
+
+  section:nth-of-type(2) h2,
+  section:nth-of-type(3) h2,
+  section:nth-of-type(4) h2,
+  section:nth-of-type(2) p,
+  section:nth-of-type(3) p,
+  section:nth-of-type(4) p {
+    color: #272a35; /* texte foncé sur les fonds pastel, meilleur contraste */
+  }
+
+  /* ===========================
+     7. Footer
+     =========================== */
+  footer {
+    background: #1c1e26;
+    padding-block: 40px;
+  }
+
+  footer .inner {
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  /* ===========================
+     8. Responsive
+     =========================== */
+  @media (max-width: 640px) {
+    header .inner {
+      flex-direction: column;
+      gap: 12px;
+      padding-block: 16px;
+    }
+
+    nav ul {
+      gap: 20px;
+    }
+
+    section {
+      padding-block: 48px;
+    }
+  }
+
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="inner">
+      <span class="logo">Mon Portfolio</span>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="accueil">
+      <h1>section.hero</h1>
+      <p>width: 100vw / height: 100vh — occupe l'écran au complet, sans passer par .inner.</p>
+    </section>
+
+    <section id="projets">
+      <div class="inner">
+        <h2>section — arrière-plan pleine largeur</h2>
+        <p>Le fond de cette section touche les deux bords de l'écran. Son contenu, lui, reste dans .inner : max-width 1200px, centré, avec du padding à gauche et à droite.</p>
+      </div>
+    </section>
+
+    <section id="a-propos">
+      <div class="inner">
+        <h2>Même patron, couleur différente</h2>
+        <p>Chaque section suit exactement la même structure : &lt;section&gt; pour la couleur de fond, &lt;div class="inner"&gt; pour la largeur du contenu. Seule la variable de couleur change.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="inner">
+        <h2>Rétrécissez la fenêtre</h2>
+        <p>Sous 640px, la navigation passe en colonne et l'espacement vertical des sections diminue. Le contenu ne dépasse jamais la largeur de l'écran, peu importe la taille.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="inner">
+      <p>Démo de mise en page — Web 5</p>
+    </div>
+  </footer>
+
+</body>
+</html>
