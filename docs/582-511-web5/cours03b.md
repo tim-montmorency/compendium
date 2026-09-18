@@ -4,20 +4,6 @@
 
 <div class="class-content-link">
   <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio/index.html">Projet Portfolio : consignes sommaires</a>
-</div>
-
----
-
-<div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio/index-textuel.html">Projet Portfolio : consignes complètes (en détail)</a>
-</div>
-
----
-
-<div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.svg">
   <a href="./projets/portfolio/index-textuel.html#remise-1-planification-et-design-gr-enric-14-sept-gr-lora-17-sept">Instructions de la <em>Remise 1 : Planification et design</em> (gr. Enric 14 sept. | gr. Lora 17 sept.)</a>
 </div>
 
