@@ -21,7 +21,8 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 
 ## Comités et tâches
 ### Design  (5)
-Objectif : créer l'identité visuelle et tous les supports visuels de la journée.    
+Objectif : créer l'identité visuelle et tous les supports visuels de la journée.      
+
 * Mise en page d'une invitation pour les employeurs
 * Création de la signalétique pour la journée carrière (flèches, affichage pour les tables)
 * Créer des fiches de présentation des entreprises
@@ -30,7 +31,8 @@ Objectif : créer l'identité visuelle et tous les supports visuels de la journ�
 
 
 ### Communication (2 par classe)
-Objectif : gérer les communications avec les employeurs et les étudiants.    
+Objectif : gérer les communications avec les employeurs et les étudiants.      
+
 * Répartir les invitations entre les étudiants
 * Suivi des invitations et des réponses
 * Mise au point de l'horaire
@@ -38,13 +40,15 @@ Objectif : gérer les communications avec les employeurs et les étudiants.
 * Rédaction d'un courriel avec les informations pratiques pour les employeurs (stationnement, horaire,...)
 
 ### Organisation des simulations d'entrevues (2 par classe)
-Objectif: aider avec la préparation des simulations d'entrevues.      
+Objectif: aider avec la préparation des simulations d'entrevues.       
+
 * Faire des recherches sur les entreprises de la journée carrière.
 * Préparer des questions ciblées sur les entreprises pour les étudiants.
 * Assister aux simulations d'entrevues, poser des questions et donner des commentaires. 
 
 ### Répertoire des stagiaires (5)
 Objectif : permettre aux employeurs de découvrir facilement les étudiants.      
+
 * Créer une page web qui regroupe les liens vers les informations des stagiaires (Avec photos du comité photo?)
 * Récupérer les CV de tous les stagiaires
 * Récupérer les liens vers les portfolios des stagiaires
@@ -53,6 +57,7 @@ Objectif : permettre aux employeurs de découvrir facilement les étudiants.
 
 ### Photo  (3 par classe)
 Objectif : produire des photos professionnelles cohérentes pour le répertoire et les communications.     
+
 * Choisir un concept pour les photos professionnelles
 * Faire la réservation d'équipement
 * Prendre les photos
@@ -60,6 +65,7 @@ Objectif : produire des photos professionnelles cohérentes pour le répertoire 
 
 ### Réception  (2)
 Objectif : accueillir les employeurs et assurer leur confort.       
+
 * Trouver le financement pour l'activité
 * Trouver une personne pour prêter des pichets et des ecocup pour l'eau
 * Faire la liste d'achat
@@ -69,6 +75,7 @@ Objectif : accueillir les employeurs et assurer leur confort.
 
 ### Studio (3 par classe)
 Objectif : s'assurer que l'espace et le matériel sont prêts et fonctionnels.     
+
 * Création de la liste d'équipements (projecteur vidéo, éclairage, système de son, rallonges électriques)
 * Création d'une liste de mobilier (chaises, tables, nappes, porte-manteau...)
 * Rédaction des courriels pour l'emprunt de matériel
