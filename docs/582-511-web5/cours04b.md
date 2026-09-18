@@ -1,49 +1,106 @@
 # Cours 4.2
-<!-- merc. 17 sept. -->
-<!--
-!!! Tip "Rappel"
-    - Portfolio, prochaine remise: Design: *mercredi 24 septembre*.
-    - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
+<!-- vend. 18 sept. -->
 
--->
+## Projet portfolio
+
+!!! warning "Remise de la version Beta (finale et prête à tester) dans 2 semaines"
+    - La remise de la version Beta du portfolio est le *vendredi 2 octobre*, donc dans 2 semaines.
+    - La remise finale du portfolio est prévue pour :
+      -  gr. Lora : *jeudi 8 octobre*
+      -  gr. Enric : *jeudi 15 octobre*
+
 ## Aujourd'hui
 
-- [ ] Présentation de la prochaine remise: [Design du portfolio](./projets/portfolio-remise2.md).
-- [ ] Cours dédié aux *rencontres prof/étudiant* pour faire le tour de votre remise de planification. Évaluation formative sous forme de rétroaction et conseils.
-- [ ] Cours dédié au *design de votre portfolio*, à remettre mercredi prochain le *24 septembre*.
+- [ ] Desktop first ou mobile first?
+- [ ] Introduction à la méthode Pomodoro
+- [ ] Comment démarrer un composant
+- [ ] Sprints de travail encadrés
+- [ ] Journal de bord
 
-## Projet portfolio (25%)
+## Desktop d'abord, mobile ensuite
 
-<div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio.html">Projet Portfolio - Infos générales</a>
-</div>
+[Media query (requête média) - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#media-query-requete-media){ .md-button :target="_blank" }
 
-<div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio-remise2.html">Instructions de la remise 2: design 24 septembre</a>
-</div>
+[Media query (requête média) - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media){ .md-button :target="_blank" }
 
-## Rentontres et évaluation formative
+Vos maquettes Figma ont été pensées en desktop d'abord. Bien que vous puissiez faire du mobile first, il est plus simple pour vous de suivre l'ordre de conception de vos maquettes. On commence donc par le HTML/CSS desktop, puis on fait une passe responsive pour le mobile.
 
-Rétroactions
+[Mobile-first VS desktop-first - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#mobile-first-vs-desktop-first){ .md-button :target="_blank" }
 
-<!-- https://forms.office.com/Pages/ResponsePage.aspx?id=x5Wp_94QyE6V2yjtBXZFXaPeP_R__StAixcWl8JEzpNUOTdSM1BPN1lPTUJLVUNVUDlEM1o4RlFFVi4u -->
+[Développement mobile-first - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#developpement-mobile-first){ .md-button :target="_blank" }
+
+On code donc dans cet ordre : le HTML/CSS desktop d'abord, une passe responsive séparée pour le mobile plus tard. Les [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media) qu'on a vues au cours 2.1 s'appliquent de la même façon, seulement dans l'autre sens (`max-width` plutôt que `min-width`).
+
+## La méthode Pomodoro, pour aujourd'hui
+
+!!! info "Le principe"
+    Des *sprints* de travail minutés, entrecoupés de vraies *pauses*. Un objectif annoncé et une fin en vue, ça coupe court à la dérive, contrairement à « vous avez le reste du cours pour travailler ».
+
+**Déroulement du bloc** :
+
+1. Sprint 1 (30-35 min, plus long pour le démarrage)
+2. Pause courte (5 min)
+3. Sprint 2 (25 min)
+4. Pause longue (15 min)
+5. Sprint 3 (25 min)
+6. Pause courte (5 min)
+7. Sprint 4 (25 min)
+
+!!! danger "Au début de chaque sprint"
+    Dans votre journal de bord *JOURNAL.md*, sous un titre *COURS 4.1 Sprints*, notez un objectif précis et atteignable pour les *prochaines 25 minutes*. 
+    
+    Exemple: « Terminer le HTML de ma carte de projet », et non pas « avancer mon portfolio ».
+
+!!! tip "À la fin de chaque sprint"
+    2 minutes de bilan : objectif atteint ou non, qu'est-ce qu'on ajuste pour le prochain sprint.
+
+Pendant les pauses : une vraie pause, pas une suite déguisée du travail à l'écran.
+
+## Comment démarrer un composant
+
+Vous n'avez pas fait de HTML/CSS depuis un moment (Web 4 étant surtout de la gestion WordPress). 
+
+Voici le point de départ non ambigu, la même démarche que la démo du dernier cours :
+
+1. Choisir un composant non commencé
+2. Coller le frame Figma correspondant dans le chat Copilot
+3. Écrire l'intention (ce que le composant doit faire, ses états (survol, clic, focus) si applicable)
+4. Générer le HTML sémantique par petits incréments
+5. Nommer les classes CSS selon BEM (ou autre nomenclature)
+6. Générer les styles CSS
+7. S'assurer que tout est responsive minimalement (tailles des éléments qui s'adaptent à la largeur de l'écran)
+8. Tester dans le navigateur
+9. Commit
+10. Documenter dans le journal de bord *JOURNAL.md* : date, prompt (questions à l'IA), résultat décrit bièvement.
+
+!!! warning "Responsiveness"
+    À mesure que vous avancez, même si les pages ne sont pas prêtes pour mobile, assurez-vous qu'elles soient responsives, c'est à dire que le format et le contenu s'adapent à la largeur de l'écran. Vous pouvez tester en réduisant la largeur de votre fenêtre de navigateur ou en utilisant les outils de test responsive dans l'inspecteur du navigateur.
+
+!!! tip "Pas d'animation pour le moment, concentrez vous sur la structure et le style (composant et mise en page globale)"
+    On ne fait pas d'animation pour le moment, on se concentre sur la structure et le style. L'animation viendra vendredi prochain.
+
+[:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button }
+
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button }
+
+[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button }
+
+## Sprints de travail
+
+Le reste du cours, en sprints Pomodoro. Un composant à la fois, un commit par composant terminé.
+
+## Clôture
+
+Entrée au journal de bord : quels prompts Copilot avez-vous utilisés pendant les sprints (pas les complétions en ligne, les vraies questions/demandes délibérées).
+
+Commit final avant de partir.
 
 ## Devoir
 
-- Terminer les exercices [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/), [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md) d'ici lundi prochain le 22 septembre.
+Afin de s'assurer d'arriver à livrer le prochain à temps, mercredi prochain, vous devrez avoir intégré au moins :
 
-- Faire le [design](./projets/portfolio-remise2.md) du [portfolio](./projets/portfolio.md) à remettre avant le cours de mercredi le 24 septembre.
+- Pour les One-Pager: 50% de la version desktop de votre page unique
+- Pour les Multi-pages: 50% du total de vos pages
 
-<!--
-TUTEUR MOMO-BOT
-<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
-
-<div class="modal" id="modal-momobot">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
-  </div>
-</div>
--->
+!!! warning "Responsiveness"
+    À mesure que vous avancez, même si les pages ne sont pas prêtes pour mobile, assurez-vous qu'elles soient responsives, c'est à dire que le format et le contenu s'adapent à la largeur de l'écran. Vous pouvez tester en réduisant la largeur de votre fenêtre de navigateur ou en utilisant les outils de test responsive dans l'inspecteur du navigateur.
