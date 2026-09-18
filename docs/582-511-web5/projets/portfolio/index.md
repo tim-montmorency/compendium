@@ -310,8 +310,8 @@
 <p class="proj-subtext proj-indent">Ces deux étapes vous permettent de recevoir des rétroactions concrètes et d'ajuster votre travail avant la remise finale, c'est là que se construit la qualité de votre portfolio.</p>
 
 <div class="proj-stepper">
-  <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Enric : 14 sept · Lora : 17 sept</div><div class="proj-step-title">Planification et design</div></div>
-  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">Semaine 6 · 2 oct</div><div class="proj-step-title">Version Beta</div></div>
+  <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Enric: 14 sept · Lora: 17 sept</div><div class="proj-step-title">Planification et design</div></div>
+  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">2 oct</div><div class="proj-step-title">Version Beta</div></div>
 </div>
 
 <div class="proj-deliverable-grid">
@@ -337,8 +337,8 @@
 <div class="proj-final-block">
   <div class="proj-final-num">
     <div class="proj-final-circle">3</div>
-    <div class="proj-final-week">Semaine 7 · mi-session</div>
-    <div class="proj-final-dates">Lora : 8 oct<br>Enric : 15 oct</div>
+    <div class="proj-final-week">Mi-session</div>
+    <div class="proj-final-dates">Lora: 8 oct<br>Enric: 15 oct</div>
   </div>
   <div class="proj-final-text">
     <strong>Portfolio complet et présentation devant le jury.</strong>

@@ -136,7 +136,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 
 **Rétroaction formative individuelle** de l'enseignante.
   
-#### Remise 2 : Version Beta *(semaine 6, 2 octobre)*
+#### Remise 2 : Version Beta *(merc. 2 octobre)*
 
 - design corrigé et adapté, suite à la rétroaction de la remise 1,
 - dépôt GitHub mis à jour:
@@ -154,7 +154,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 
 ### Remise finale : sommative (40%)
 
-#### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *(semaine 7 | gr. Lora : 8 oct. | gr. Enric : 15 oct.)*
+#### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *(gr Lora: 8 oct | gr Enric: 15 oct)*
 
 - dépôt du site en ligne (déploiment sur un serveur web de votre choix),
 - justification des choix technologiques tel que présenté à la remsie 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),
