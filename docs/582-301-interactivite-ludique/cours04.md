@@ -4,7 +4,7 @@
 *[CES]: Collider Event System
 *[PNJ]: Personnage non joueur
 
-[STOP]
+## Cellulaires 📱
 
 ## Playtest
 
@@ -31,7 +31,7 @@ Phase de test des jeux en classe. (Ne pas expliquer son jeu)
 
 ++v++ : Vertex Snap
 
-++ctrl+shift++ + drag : L'objet se positionne à la surface d'un autre objet.
+++ctrl+shift++ + drag : L'objet se positionne à la surface d'un autre objet
 
 ## Boucle de jeu
 
