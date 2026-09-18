@@ -76,8 +76,13 @@ Voici le point de départ non ambigu, la même démarche que la démo du dernier
 !!! warning "Responsiveness"
     À mesure que vous avancez, même si les pages ne sont pas prêtes pour mobile, assurez-vous qu'elles soient responsives, c'est à dire que le format et le contenu s'adapent à la largeur de l'écran. Vous pouvez tester en réduisant la largeur de votre fenêtre de navigateur ou en utilisant les outils de test responsive dans l'inspecteur du navigateur.
 
+!!! tip "Pas d'animation pour le moment, concentrez vous sur la structure et le style (composant et mise en page globale)"
+    On ne fait pas d'animation pour le moment, on se concentre sur la structure et le style. L'animation viendra vendredi prochain.
+
 [:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button }
+
 [Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button }
+
 [Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button }
 
 ## Sprints de travail
