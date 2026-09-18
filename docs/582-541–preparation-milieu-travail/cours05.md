@@ -27,7 +27,8 @@ Rencontre individuelle pour corriger formativement les cartes d'affaires.
 
 ## Liste collaborative d'employeurs
 
-Ajouter 5 employeurs potentiels à la liste: 
+Ajouter 3 employeurs potentiels à la liste pour avoir un total de 8 employeurs par étudiant:     
+
 [🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
 
 ## Devoir
