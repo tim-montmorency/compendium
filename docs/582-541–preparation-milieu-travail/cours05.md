@@ -18,18 +18,24 @@ Rencontre individuelle pour corriger formativement les cartes d'affaires.
 * Évaluation formative du portfolio d'un collègue de classe.
 * Temps pour avancer le portfolio
 
-
-## Temps pour les comités de la journée carrière
-[🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
-
-
-
-
 ## Liste collaborative d'employeurs
 
 Ajouter 3 employeurs potentiels à la liste pour avoir un total de 8 employeurs par étudiant:     
 
 [🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
+
+
+## Temps pour les comités de la journée carrière    
+
+[🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
+
+
+
+## Temps pour les invitations de la journée carrière
+Envoyer vos 8 invitations lorsque le comité communication a approuvé vos entreprises. Vous assurez de modifier les champs [Prénom, nom].         
+
+[🛠️ Invitation](./evaluations/journee-carriere.md){ .md-button }    
+
 
 ## Devoir
 - [ ] Avancer le portfolio.
