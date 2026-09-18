@@ -136,13 +136,13 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 
 **Rétroaction formative individuelle** de l'enseignante.
   
-#### Remise 2 : Version Beta *(merc. 2 octobre)*
+#### Remise 2 : Version Beta *(vendredi 2 octobre)*
 
 - design corrigé et adapté, suite à la rétroaction de la remise 1,
 - dépôt GitHub mis à jour:
   - structure de dossiers cohérente et convention de nommage uniforme,
   - fichiers *README.md*, *PLANIFICATION.md* et *JOURNAL.md* mis-à-jour,
-  - commits réguliers, fréquents et bien nommés. avec commits réguliers et bien nommés,
+  - commits réguliers, fréquents et bien nommés, avec commits réguliers et bien nommés,
 - intégration HTML/CSS/JS fonctionnelle, avec commentaires dans le code,
 - version desktop ET mobile complet et fonctionnels (tout est responsive et s'adapte en fonction de la largeur de l'écran),
 - intégration des contenus textuels et médias,
