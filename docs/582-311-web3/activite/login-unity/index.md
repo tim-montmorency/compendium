@@ -50,6 +50,9 @@ La page utilise trois _packages_ supplémentaires : **FontSource** (Poppins), **
 - [ ] Installer les trois paquets
 - [ ] Vérifier dans `package.json` que les trois _packages_ y sont
 - [ ] Ajuster le nécessaire dans `style.css`
+  - [ ] Importer et utiliser la fonte Poppins
+  - [ ] Importer Lucide
+  - [ ] Importer animate.css 
 
 !!! example "Vérification"
 
@@ -85,6 +88,7 @@ Sur desktop, la page est divisée en **deux colonnes**. Un visuel à gauche (cac
 
 S'inspirer de la structure **« Texte sur image »** vue au cours 3.
 
+- [ ] Télécharger l'[image de fond](./bg.jpg)
 - [ ] Télécharger le logo svg de Unity sur <https://simpleicons.org/>
 - [ ] Faire **#5, #6 et #7** d'`index.html`
 

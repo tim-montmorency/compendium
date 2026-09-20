@@ -11,6 +11,7 @@ portfolio-prenom-nom/
 ├── projet.html (si applicable multipages)
 ├── css/
 │   ├── base.css
+│   ├── variables.css
 │   ├── layout.css
 │   └── composants/
 │       ├── carte-projet.css
@@ -34,13 +35,27 @@ portfolio-prenom-nom/
 │   └── JOURNAL.md
 ```
 
+## Pour utiliser les variables CSS dans les autres fichiers CSS
+
+Pour utiliser les variables CSS définies dans `variables.css` dans les autres fichiers CSS, il faut importer au début de chaque fichier:
+
+```css
+@import url('variables.css');
+```
+
+ou si le fichier est dans un dossier suppérieur au fichier CSS dans lequel vous voulez l'utiliser, utilisez le chemin relatif approprié. Par exemple, si vous êtes dans `css/composants/carte-projet.css`, vous devez écrire:
+
+```css
+@import url('../variables.css');
+```
+
 ## Ce que contient chaque dossier
 
 | Fichier/dossier | Rôle |
 |---|---|
 | `index.html` | Page d'accueil, la liste de vos projets. |
 | `projet.html` | Page de détail d'un projet, seulement si vous avez choisi la structure multipages. |
-| `css/base.css` | Reset, variables CSS, typographie et couleurs globales (voir cours 2.1). |
+| `css/variables.css` | Variables CSS spécifiques à votre projet. |
 | `css/layout.css` | La disposition générale de la page (grid/flexbox), pas le contenu d'un composant précis. |
 | `css/composants/` | Un fichier par composant (carte, navigation, modale...), nommé selon la nomenclature BEM. |
 | `js/main.js` | Le point d'entrée : appelle `data.js`, puis initialise les composants avec les données reçues. |

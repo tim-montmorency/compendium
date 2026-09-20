@@ -17,21 +17,39 @@
 - [ ] Sprints de travail encadrés
 - [ ] Journal de bord
 
-## Desktop d'abord, mobile ensuite
+## Retour sur arborescence
 
-[Media query (requête média) - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#media-query-requete-media){ .md-button :target="_blank" }
+- variables CSS
+- @import des variables dans les autres fichiers.
 
-[Media query (requête média) - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media){ .md-button :target="_blank" }
+## Interface "responsive": adaptable à la largeur de l'écran
+
+Utiliser les unités relatives (%, vh, vw et rem) plutôt que les unités absolues (px) pour les largeurs des éléments afin de les rendre adaptables à la largeur de l'écran.
+
+[Démo layout responsive](./css/demo-layout-responsive.html){ .md-button }
+
+### Desktop d'abord, mobile ensuite
 
 Vos maquettes Figma ont été pensées en desktop d'abord. Bien que vous puissiez faire du mobile first, il est plus simple pour vous de suivre l'ordre de conception de vos maquettes. On commence donc par le HTML/CSS desktop, puis on fait une passe responsive pour le mobile.
+
+On code donc dans cet ordre : le HTML/CSS desktop d'abord, une passe responsive séparée pour le mobile plus tard.
 
 [Mobile-first VS desktop-first - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#mobile-first-vs-desktop-first){ .md-button :target="_blank" }
 
 [Développement mobile-first - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#developpement-mobile-first){ .md-button :target="_blank" }
 
-On code donc dans cet ordre : le HTML/CSS desktop d'abord, une passe responsive séparée pour le mobile plus tard. Les [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media) qu'on a vues au cours 2.1 s'appliquent de la même façon, seulement dans l'autre sens (`max-width` plutôt que `min-width`).
 
-## La méthode Pomodoro, pour aujourd'hui
+### Media queries (requêtes média)
+
+Les [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media) qu'on a vues au cours 2.1 s'appliquent de la même façon, seulement dans l'autre sens (`max-width` plutôt que `min-width`).
+
+[Media query (requête média) - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#media-query-requete-media){ .md-button :target="_blank" }
+
+[Media query (requête média) - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media){ .md-button :target="_blank" }
+
+
+
+## La méthode *Pomodoro*, pour aujourd'hui
 
 !!! info "Le principe"
     Des *sprints* de travail minutés, entrecoupés de vraies *pauses*. Un objectif annoncé et une fin en vue, ça coupe court à la dérive, contrairement à « vous avez le reste du cours pour travailler ».
@@ -51,18 +69,23 @@ On code donc dans cet ordre : le HTML/CSS desktop d'abord, une passe responsive 
     
     Exemple: « Terminer le HTML de ma carte de projet », et non pas « avancer mon portfolio ».
 
+.
+
 !!! tip "À la fin de chaque sprint"
     2 minutes de bilan : objectif atteint ou non, qu'est-ce qu'on ajuste pour le prochain sprint.
 
-Pendant les pauses : une vraie pause, pas une suite déguisée du travail à l'écran.
+.
 
-## Comment démarrer un composant
+
+*Pendant les pauses :* une *vraie pause*, pas une suite déguisée du travail à l'écran.
+
+## Comment *démarrer un composant*
 
 Vous n'avez pas fait de HTML/CSS depuis un moment (Web 4 étant surtout de la gestion WordPress). 
 
 Voici le point de départ non ambigu, la même démarche que la démo du dernier cours :
 
-1. Choisir un composant non commencé
+1. Choisir un composant pas encore débuté
 2. Coller le frame Figma correspondant dans le chat Copilot
 3. Écrire l'intention (ce que le composant doit faire, ses états (survol, clic, focus) si applicable)
 4. Générer le HTML sémantique par petits incréments
@@ -99,8 +122,8 @@ Commit final avant de partir.
 
 Afin de s'assurer d'arriver à livrer le prochain à temps, mercredi prochain, vous devrez avoir intégré au moins :
 
-- Pour les One-Pager: 50% de la version desktop de votre page unique
-- Pour les Multi-pages: 50% du total de vos pages
+- Pour les One-Pager: minimum 60% de la version desktop de votre page unique
+- Pour les Multi-pages: 60% du total de vos pages
 
 !!! warning "Responsiveness"
     À mesure que vous avancez, même si les pages ne sont pas prêtes pour mobile, assurez-vous qu'elles soient responsives, c'est à dire que le format et le contenu s'adapent à la largeur de l'écran. Vous pouvez tester en réduisant la largeur de votre fenêtre de navigateur ou en utilisant les outils de test responsive dans l'inspecteur du navigateur.
