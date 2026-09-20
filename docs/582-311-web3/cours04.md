@@ -231,6 +231,10 @@ La taille de l'icône ne peut pas être spécifiée directement (ex. : `<span cl
 
     [Iconify](https://iconify.design/docs/usage/css/tailwind/tailwind4/) est une solide alternative qui propose encore plus de possibilités. Tellement que trop c'est comme pas assez 😅
 
+!!! note "Logos"
+
+    On trouve plusieurs logos populaires sur ce site : http://simpleicons.org. Il n'est toutefois pas question de librairies `npm`. C'est surtout une ressource pour de fichiers svg.
+
 ## Typographie
 
 Tailwind retire tous les styles par défaut : un `<h2>`, un `<ul>` ou un `<blockquote>` s'affichent comme du texte ordinaire.
