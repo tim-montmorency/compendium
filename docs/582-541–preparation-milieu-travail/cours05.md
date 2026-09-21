@@ -8,6 +8,10 @@
 
 ## 🚨 Remise des demo reel
 
+## Demo reel
+Évaluation formative par les pairs.  
+
+
 ## 🚨 Remise des cartes d'affaire
 
 

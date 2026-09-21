@@ -71,9 +71,8 @@ Objectif : accueillir les employeurs et assurer leur confort.
 * Faire la liste d'achat
 * Faire les achats
 * Faire l'accueil des employeurs
-* Effectuer des 'refill' pour les employeurs
 
-### Studio (3 par classe)
+### Studio / Salle (3 par classe)
 Objectif : s'assurer que l'espace et le matériel sont prêts et fonctionnels.     
 
 * Création de la liste d'équipements (projecteur vidéo, éclairage, système de son, rallonges électriques)
@@ -88,8 +87,6 @@ Objectif : s'assurer que l'espace et le matériel sont prêts et fonctionnels.
 * Trouver une méthode pour la gestion du temps à la journée carrière (système de rotation)
 * Chapeauter les différents comités
 * Faire le lien entre les comités
-
-
 
 
 ## Invitation pour les employeurs
