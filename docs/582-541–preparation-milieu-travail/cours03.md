@@ -23,11 +23,11 @@
 * Temps pour avancer le portfolio, la carte d'affaires et le démo reel
 * Rencontres individuelles pour présenter son avancement
 * Rappel des instructions de la **carte d'affaires**:
-    * Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur. Assurez-vous que la police est lisible et de bonne taille!
-    * Au minimum, elle doit contenir les informations suivantes: Votre nom, votre courriel, votre ou vos domaine(s) d'intérêt.
-    * Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone.
-    * Votre carte devrait être en adéquation avec l'identité visuelle de votre portfolio.
-    * Éviter Figma, parce que ce logiciel n'a pas la gestion de couleurs (CMYK) ou les options d'exportation adéquats pour l'impression.
+* La carte doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur. Assurez-vous que la police est lisible et de bonne taille!
+* Au minimum, elle doit contenir les informations suivantes: Votre nom, votre courriel, votre ou vos domaine(s) d'intérêt.
+* Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone.
+* Votre carte devrait être en adéquation avec l'identité visuelle de votre portfolio.
+* Éviter Figma, parce que ce logiciel n'a pas la gestion de couleurs (CMYK) ou les options d'exportation adéquats pour l'impression.
 
 [ℹ️ Gabarit de carte d'affaires](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }
 
