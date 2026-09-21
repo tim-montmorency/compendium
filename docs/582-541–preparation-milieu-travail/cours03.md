@@ -4,23 +4,32 @@
 
     - Groupe Enric (semaine 4) : 21 septembre.
     - Groupe Lora (semaine 3) : 10 septembre.
-
+<!--
 ## Capsule du cours
 [🎥 Une capsule](https://polesynthese.com/orientation-professionnelle-en-creation-numerique/capsules-videos-les-metiers-du-numerique){ .md-button }     
+-->
 
 ## Organisation du travail      
 1. Créer la liste de tâches collaborativement.
 2. Créer une copie de la liste.
-3. Déplacer dans la colonne fait ce qui est déjà fait pour vous.
-4. Déplacer dans la colonne aujourd'hui vos objectifs du cours, en haut étant votre priorité.
+3. Déplacer dans la colonne «fait» ce qui est déjà fait pour vous.
+4. Déplacer dans la colonne «aujourd'hui» vos objectifs du cours, en haut étant votre priorité.
 
 [🛠️ Création d'une liste de tâches](https://miro.com/app/board/uXjVHo0WzOw=/?share_link_id=829769879316){ .md-button }     
 
 
 ## Activité      
 
-* Temps pour avancer la planification de portfolio, l'identité visuelle, la carte d'affaires et le démo reel
+* Temps pour avancer le portfolio, la carte d'affaires et le démo reel
 * Rencontres individuelles pour présenter son avancement
+* Rappel des instructions de la **carte d'affaires**:
+    * Elle doit faire 3.5" x 2", avoir un bleed de 3.625" x 2.125". Elle peut être recto-verso en couleur. Assurez-vous que la police est lisible et de bonne taille!
+    * Au minimum, elle doit contenir les informations suivantes: Votre nom, votre courriel, votre ou vos domaine(s) d'intérêt.
+    * Elle peut aussi avoir les informations suivantes: Votre ville, le lien vers votre portfolio, votre numéro de téléphone.
+    * Votre carte devrait être en adéquation avec l'identité visuelle de votre portfolio.
+    * Éviter Figma, parce que ce logiciel n'a pas la gestion de couleurs (CMYK) ou les options d'exportation adéquats pour l'impression.
+
+[ℹ️ Gabarit de carte d'affaires](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/EQumMbUc6W9GsMbtp-FYDxcBREMEu1_OuXnVDoX0KRCOxA?e=CEawy0){ .md-button }
 
 ## Formation des comités pour la journée carrière
 [🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
