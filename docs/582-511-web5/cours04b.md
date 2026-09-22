@@ -19,6 +19,8 @@
 
 ## Retour sur arborescence
 
+[:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button .md-button--primary :target="_blank" }
+
 - variables CSS
 - @import des variables dans les autres fichiers.
 
