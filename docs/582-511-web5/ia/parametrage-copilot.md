@@ -86,7 +86,7 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 # Instructions pour GitHub Copilot : Portfolio
 
 - Projet en HTML/CSS/JS vanilla, aucun framework.
-- HTML sémantique obligatoire (article, section, nav...), pas de <div> par défaut.
+- HTML sémantique obligatoire (article, section, nav), pas de <div> par défaut.
 - CSS organisé par composants\* (un fichier ou un bloc de code par composant).
 - Convention de nommage des classes : [ex. BEM\*\*, ou la vôtre].
 - Commentaires de code en français.
