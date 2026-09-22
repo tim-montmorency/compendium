@@ -41,7 +41,7 @@
   p { margin: 0 0 1em; color: var(--color-text-secondary); }
 
   code {
-    background: rgba(255, 255, 255, 0.92); /* fond pâle, contraste avec le texte foncé */
+    background: color-mix(in srgb, var(--color-text-secondary), white 50%);
     color: var(--color-bg);
     font-family: 'Courier New', monospace;
     font-weight: 600;
@@ -125,7 +125,7 @@
      =========================== */
   section.hero {
     width: 100%;
-    height: calc(100vh - 67px); /* 100vh - la hauteur du header qui contient la nav */
+    height: calc(100vh - 68px); /* 100vh - la hauteur du header qui contient la nav */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,13 +228,13 @@
       <h1><code>section.hero</code></h1>
       <p><code>width: 100%;
         height: calc(100vh - 67px);</code> 
-        <br> occupe l'écran au complet, sans passer par <code>.inner</code>.</p>
+        <br> occupe l'écran au complet, sans passer par <code>div.inner</code> <br> <small>(voir les sections suivantes pour le principe du .inner).</small></p>
     </section>
 
     <section id="projets">
       <div class="inner">
         <h2><code>&lt;section&gt;</code> — arrière-plan pleine largeur</h2>
-        <p>Le fond de cette section touche les deux bords de l'écran. Son contenu, lui, reste dans <code>.inner</code> : <code>max-width: 1200px</code>, centré, avec du padding à gauche et à droite.</p>
+        <p>Le fond de cette section touche les deux bords de l'écran. Son contenu, lui, reste dans <code>div.inner</code> : <code>max-width: 1200px</code>, centré, avec du padding à gauche et à droite.</p>
       </div>
     </section>
 

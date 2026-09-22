@@ -1,96 +1,112 @@
 # Cours 5.1
-<!-- lun. 22 sept. -->
-<!--
-!!! Tip "Rappel"
-    - Portfolio, prochaine remise: Design: *mercredi 24 septembre*.
-    - Examen à venir: *lundi le 6 octobre*. Sujets: Javascript l'API Fetch, Vue.js et Css Grid.
--->
+<!-- mer. 23 sept. -->
+
 ## Aujourd'hui
 
-- [ ] Suivi compte Figma
-- [ ] Retour Vue.js de lundi dernier:
-  - [ ] Condition (v-if, v-else, v-show)
-  - [ ] Rendu de listes (v-for sur tableau de données)
-- [ ] Vue: formulaire
-- [ ] Vue: propriété calculée
+- [ ] Recentrage : où en êtes-vous?
+- [ ] La boucle IA, la suite (Agent, révision, Ask, commit, journal)
+- [ ] Mini-exercice : à vous d'essayer
+- [ ] Grand atelier de production (Pomodoro)
+- [ ] Mini-pont JS : DOM, événements, `fetch`
+- [ ] Bilan et engagement
 
+!!! danger "Rattrapage : si vous n'avez pas eu le cours 4.2"
+    Le cours 4.2 (panne d'électricité) n'a pas eu lieu pour votre groupe. Deux choses à rattraper par vous-même avant ou pendant l'atelier d'aujourd'hui :
 
-## Révision des exercices
+    [:material-view-grid: Interface responsive adaptable à la largeur de l'écran](cours04b.md#interface-responsive-adaptable-a-la-largeur-de-lecran){ .md-button :target="_blank" }
 
-- [Collection de films: Classe dynamique](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/)
- <!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/vEBYxrr)-->
+    - **Comment démarrer un composant** : choisir un composant non commencé, coller le frame Figma dans Copilot, écrire l'intention, générer le HTML par petits incréments, nommer selon BEM, générer le CSS, tester, commit.
 
-- [NBA Part.2 - Méthode unique avec paramètres](./exercices/vue-NBA-methode-avec-parametres.md)
- <!--  ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByoeMjL)-->
+## Recentrage
 
-## Vue: Condition (v-if, v-else, v-show)
+Le défi n'est plus de produire des pages isolées. Le défi est maintenant de terminer un portfolio cohérent, intégrable et présentable pour la bêta du **2 octobre**.
 
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/condition.html">Vue: Rendu conditionnel avec v-if, v-else et v-show</a>
-</div>
+Tour de table rapide :
 
-## Vue: Rendu de listes (v-for sur tableau de données)
+- Où en est votre portfolio?
+- Quel est votre principal blocage?
+- Qu'est-ce qu'il vous manque pour être prêt le 2 octobre?
 
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/boucle.html">Vue: Rendu de liste avec v-for</a>
-</div>
+## La boucle IA, la suite
 
+La démo du cours 4.1 s'est arrêtée après l'intention et la complétion en ligne (le prompt en commentaire pour la carte de projet). Voici la suite, celle qui protège réellement votre travail.
 
-### 2 exercices v-for et v-if
+| Étape | À utiliser |
+|---|---|
+| Un changement plus large (renommer, restructurer) | Chat, Agent, avec révision avant d'accepter |
+| Comprendre quelque chose de généré | Chat, Ask |
+| Après chaque incrément | Commit, avec un message qui décrit le changement |
+| Prompts délibérés (pas les complétions) | Documentés dans `JOURNAL.md` |
 
-[🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md){ .md-button } 
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/ByogzEv)-->
+!!! danger "Le principe reste le même peu importe les boutons"
+    Toujours réviser un changement avant de l'accepter. Jamais une action autonome sur plusieurs fichiers sans supervision.
 
+    [:material-swap-horizontal: Ce que vous voyez selon votre poste](ia/modes-copilot-ancien-nouveau.md){ .md-button }
+    [:material-github: Paramétrage complet](ia/parametrage-copilot.md){ .md-button }
 
-[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/OJdOXYo)-->
+**En direct** : reprendre la carte de projet là où la démo du 4.1 s'est arrêtée. Renommer ses classes selon BEM avec Agent (réviser le diff), poser une question en Ask sur une ligne CSS, commit, puis écrire l'entrée `JOURNAL.md` correspondante devant vous.
 
+## Mini-exercice : à vous d'essayer (15 min)
 
-## Vue: Formulaires (v-model)
+Individuellement, sur votre propre portfolio, un petit changement qui couvre les quatre utilisations qu'on vient de voir :
 
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/elements-de-formulaire.html">Vue: Éléments de formulaire (v-model)</a>
-</div>
+1. Choisir une petite modification sur un composant déjà commencé (renommer une classe, ajuster une propriété, corriger un détail).
+2. La demander via **Agent**, réviser le diff avant d'accepter.
+3. Poser une question en **Ask** sur une ligne du résultat que vous ne comprenez pas encore.
+4. **Commit**.
+5. Écrire l'entrée **`JOURNAL.md`** correspondante.
 
+Je circule pendant l'exercice pour valider que chacun a bien vu les quatre étapes, pas seulement fait un changement.
 
-## Vue: Propriété calculée (computed)
+## Grand atelier de production
 
+Structure Pomodoro, comme au cours 4.2 : sprints de 25 minutes, objectif précis annoncé au début de chaque sprint, bilan de 2 minutes à la fin.
 
-<div class="class-content-link">
-  <img src="./vue/assets/logo-vue.svg">
-  <a href="./vue/propriete-calculee.html">Vue: Propriété calculée (computed)</a>
-</div>
+Choisir une cible par sprint :
 
+- Compléter une section
+- Rendre une section responsive
+- Harmoniser les composants
+- Améliorer la navigation
+- Ajouter du contenu manquant
 
-### Questionnaire de révision + 1 exercice
+Un commit par composant terminé. Trace de vos prompts dans `JOURNAL.md` au fil de l'atelier, pas à la fin.
 
-[❓Questionnaire de révision Vue.js](./exercices/vue-questionnaire-w3.md){ .md-button } 
-➜ Solution💡 directement sur chaque question du questionnaire
+## Pause (15 min)
 
-[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } 
-<!-- ➜ [Solution💡](https://codepen.io/tim-momo/pen/gOqKxXL) -->
+## Mini-pont JS
 
+Pas un cours complet de JavaScript, deux exemples courts pour préparer le bloc 5.2.
 
-## Devoirs
+**DOM et événements** :
 
-- [ ] Pour mercredi: terminer le [design de votre porfolio](./projets/portfolio-remise2.md)
-- [ ] Pour lundi prochain: Terminer vos exercices *Vue.js*
-  - [🧑🏽‍💻 Collection de films Part.2 - Boucle v-for](./exercices/vue-collection-films-boucle-v-for.md)
-  - [🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/)
-  - [🤔 Questionnaire Vue](./exercices/vue-questionnaire-w3.md)
-  - [🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/)
+```html
+<button id="btnTheme">Changer le thème</button>
+```
 
-<!--
-TUTEUR MOMO-BOT
-<button class="btn-open-modal place-bottom-right" data-modal="momobot">🤖</button>
+```javascript
+document.querySelector('#btnTheme').addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+});
+```
 
-<div class="modal" id="modal-momobot">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe src="https://tuteur-ai-web5.netlify.app" width="100%" style="width: 100%; height: 80vh;"></iframe>
-  </div>
-</div>
--->
+**`fetch` minimal** : charger un `projets.json` statique et afficher une seule valeur, pas encore la boucle de rendu complète.
+
+```javascript
+async function chargerProjets() {
+  const reponse = await fetch('data/projets.json');
+  const projets = await reponse.json();
+  console.log(projets[0].titre); // juste pour voir que ça fonctionne
+}
+chargerProjets();
+```
+
+La prochaine étape sera de rendre vos composants interactifs de cette façon, et d'afficher toutes les données plutôt qu'une seule.
+
+## Bilan et engagement
+
+Chacun remplit le formulaire avant de partir (2 minutes, individuel) :
+
+[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button .md-button--primary :target="_blank" }
+
+Entrée au journal de bord avant de partir.
