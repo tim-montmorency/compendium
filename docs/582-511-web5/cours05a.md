@@ -29,6 +29,14 @@ Tour de table rapide :
 
 ## La boucle IA, la suite
 
+<!-- 
+
+Cours 4.1 (mais finalement jamais complété) https://tim-montmorency.com/compendium/582-511-web5/ia/mm-only_demo-boucle-ia-copilot_v1-initiale.md 
+
+Cours 5.1 (aujourd'hui) https://tim-montmorency.com/compendium/582-511-web5/ia/mm-only_demo-boucle-ia-copilot_v2-reprise.md 
+
+-->
+
 La démo du cours 4.1 s'est arrêtée après l'intention et la complétion en ligne (le prompt en commentaire pour la carte de projet). Voici la suite, celle qui protège réellement votre travail.
 
 | Étape | À utiliser |
