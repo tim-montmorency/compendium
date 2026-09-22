@@ -40,6 +40,16 @@
   h1, h2, h3 { margin: 0 0 0.5em; font-weight: 700; }
   p { margin: 0 0 1em; color: var(--color-text-secondary); }
 
+  code {
+    background: rgba(255, 255, 255, 0.92); /* fond pâle, contraste avec le texte foncé */
+    color: var(--color-bg);
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
   /* ===========================
      3. Le patron .inner
      Le coeur de la démo : chaque section peut avoir
@@ -54,7 +64,7 @@
 
     /* Repère visuel pour la démo seulement : montre où .inner
        commence et finit. À retirer dans un vrai projet. */
-    outline: 1px dashed rgba(255, 255, 255, 0.25);
+    outline: 2px dashed rgba(255, 255, 255, 0.50);
     outline-offset: -1px;
   }
 
@@ -114,8 +124,8 @@
      volontairement, pour illustrer l'unité elle-même.
      =========================== */
   section.hero {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: calc(100vh - 67px); /* 100vh - la hauteur du header qui contient la nav */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,28 +225,30 @@
   <main>
 
     <section class="hero" id="accueil">
-      <h1>section.hero</h1>
-      <p>width: 100vw / height: 100vh — occupe l'écran au complet, sans passer par .inner.</p>
+      <h1><code>section.hero</code></h1>
+      <p><code>width: 100%;
+        height: calc(100vh - 67px);</code> 
+        <br> occupe l'écran au complet, sans passer par <code>.inner</code>.</p>
     </section>
 
     <section id="projets">
       <div class="inner">
-        <h2>section — arrière-plan pleine largeur</h2>
-        <p>Le fond de cette section touche les deux bords de l'écran. Son contenu, lui, reste dans .inner : max-width 1200px, centré, avec du padding à gauche et à droite.</p>
+        <h2><code>&lt;section&gt;</code> — arrière-plan pleine largeur</h2>
+        <p>Le fond de cette section touche les deux bords de l'écran. Son contenu, lui, reste dans <code>.inner</code> : <code>max-width: 1200px</code>, centré, avec du padding à gauche et à droite.</p>
       </div>
     </section>
 
     <section id="a-propos">
       <div class="inner">
         <h2>Même patron, couleur différente</h2>
-        <p>Chaque section suit exactement la même structure : &lt;section&gt; pour la couleur de fond, &lt;div class="inner"&gt; pour la largeur du contenu. Seule la variable de couleur change.</p>
+        <p>Chaque section suit exactement la même structure : <code>&lt;section&gt;</code> pour la couleur de fond, <code>&lt;div class="inner"&gt;</code> pour la largeur du contenu. Seule la variable de couleur change.</p>
       </div>
     </section>
 
     <section id="contact">
       <div class="inner">
         <h2>Rétrécissez la fenêtre</h2>
-        <p>Sous 640px, la navigation passe en colonne et l'espacement vertical des sections diminue. Le contenu ne dépasse jamais la largeur de l'écran, peu importe la taille.</p>
+        <p>Sous <code>640px</code>, la navigation passe en colonne et l'espacement vertical des sections diminue. Le contenu ne dépasse jamais la largeur de l'écran, peu importe la taille.</p>
       </div>
     </section>
 
@@ -244,7 +256,7 @@
 
   <footer>
     <div class="inner">
-      <p>Démo de mise en page — Web 5</p>
+      <p>Démo de mise en page classique et responsive | Web 5</p>
     </div>
   </footer>
 
