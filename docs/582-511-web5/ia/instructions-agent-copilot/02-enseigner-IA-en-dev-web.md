@@ -85,7 +85,6 @@ Objectif :
 
 Développer l'esprit critique.
 
----
 
 ## Activité 2
 
@@ -95,7 +94,6 @@ Objectif :
 
 Analyser les avantages et les inconvénients.
 
----
 
 ## Activité 3
 
@@ -105,7 +103,6 @@ Objectif :
 
 Développer les compétences d'analyse.
 
----
 
 ## Activité 4
 

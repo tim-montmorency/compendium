@@ -24,7 +24,6 @@ Exemple :
 
 Créer une application de gestion de tâches.
 
----
 
 ## Étape 2
 
@@ -35,7 +34,6 @@ Prompt :
 Donne-moi un plan détaillé.
 Ne génère aucun code.
 
----
 
 ## Étape 3
 
@@ -48,7 +46,6 @@ Exemples :
 - CSS
 - JavaScript
 
----
 
 ## Étape 4
 
@@ -60,7 +57,6 @@ Exemples :
 - Analyse de problèmes
 - Suggestions de correction
 
----
 
 ## Étape 5
 
@@ -114,7 +110,6 @@ Expliquer chaque propriété utilisée.
 
 ✅ Utiliser Auto la majorité du temps
 
----
 
 ## À éviter
 
