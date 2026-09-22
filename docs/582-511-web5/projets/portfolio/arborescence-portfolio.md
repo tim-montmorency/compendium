@@ -1,4 +1,4 @@
-# Arborescence du dépôt : portfolio
+# Arborescence du dépôt portfolio
 
 Structurer vos dossiers avant d'écrire du code évite de tout réorganiser à la moitié du projet. Cette structure de départ s'aligne avec l'approche par composants et avec vos choix technologiques (gestion des données, structure de navigation).
 
@@ -37,17 +37,19 @@ portfolio-prenom-nom/
 
 ## Pour utiliser les variables CSS dans les autres fichiers CSS
 
-Pour utiliser les variables CSS définies dans `variables.css` dans les autres fichiers CSS, il faut importer au début de chaque fichier:
+!!! danger "Erratum : oubliez le `@import` du cours de vendredi"
+    Je vous ai montré `@import` vendredi pour partager les variables CSS entre fichiers, je me rétracte. `@import` force le navigateur à télécharger vos fichiers CSS un à la suite de l'autre plutôt qu'en parallèle, un vrai problème de performance, pas juste un détail de style. La bonne façon : lier chaque fichier CSS séparément dans le `<head>` de votre HTML, comme montré ci-dessous. Aucun `@import` nulle part dans vos fichiers CSS.
 
-```css
-@import url('variables.css');
+Pour utiliser les variables CSS définies dans `variables.css` dans les autres fichiers CSS, il faut le lier avant les autres dans le `<head>` de votre fichier HTML :
+
+```html
+<link rel="stylesheet" href="css/variables.css"> <!-- le premier -->
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/composants/carte-projet.css">
 ```
 
-ou si le fichier est dans un dossier suppérieur au fichier CSS dans lequel vous voulez l'utiliser, utilisez le chemin relatif approprié. Par exemple, si vous êtes dans `css/composants/carte-projet.css`, vous devez écrire:
-
-```css
-@import url('../variables.css');
-```
+Une variable déclarée dans `:root` à l'intérieur de `variables.css` devient disponible pour toute la page, dans n'importe quel autre fichier CSS lié dans le HTML. Aucun lien entre les fichiers CSS eux-mêmes n'est nécessaire.
 
 ## Ce que contient chaque dossier
 
