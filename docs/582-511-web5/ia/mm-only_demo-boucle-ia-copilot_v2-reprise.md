@@ -1,6 +1,8 @@
 # Démo : la boucle IA, la suite (cours 5.1)
 
-Notes d'animation, pas une page à publier. Reprend la même carte de projet que la démo du 4.1, mais cette fois avec votre vrai design Figma plutôt qu'un exemple générique, plus convaincant en démo live.
+Notes pour moi même, pas une page à publier. 
+
+Reprend la même carte de projet que la démo du 4.1 (git demo-portfolio), mais cette fois avec votre vrai design Figma plutôt qu'un exemple générique, plus convaincant en démo live.
 
 **Composant choisi** : une carte de la grille de projets (ex. BIOME), colonne image + numéro superposé, puis titre, catégorie/année, tags de compétences.
 

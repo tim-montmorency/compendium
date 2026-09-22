@@ -1,4 +1,4 @@
-# Modes du chat Copilot : le principe, puis ce que vous voyez réellement
+# Modes du chat Copilot
 
 ## Le principe, peu importe l'interface
 
@@ -18,8 +18,10 @@ VS Code 1.132 (ou la version installée par l'école, non mise à jour depuis).
 
 ![](./assets/vscode132-copilot-chat-02.png)
 
+<!--
 !!! info "Sur la langue de l'interface"
-    Les captures utilisées pour ce guide viennent d'un poste où le pack de langue française n'était pas activé (la personne qui les a prises n'utilise pas VS Code elle-même). Les étudiants sont censés avoir installé ce pack, leur écran devrait donc être partiellement en français. Cela dit, GitHub ne traduit pas tout : certains termes propres à Copilot (comme ceux ci-dessous) risquent de rester en anglais même avec le pack activé, on l'a déjà vu ailleurs dans ce guide.
+    Les captures utilisées pour ce guide viennent d'un poste où le "French Language Pack for Visual Studio Code" n'était pas activé. Vous êtes sont censés avoir installé ce pack, votre écran devrait donc être partiellement en français. Cela dit, GitHub ne traduit pas tout : certains termes propres à Copilot (comme ceux ci-dessous) risquent de rester en anglais même avec le pack activé, on l'a déjà vu ailleurs dans ce guide.
+ -->
 
 - Bas du chat : boutons **Agent** et **Models**.
 - Cliquer sur **Agent** n'ouvre qu'un seul choix, rester en **Agent** (`Configure Custom Agents...`).
@@ -43,8 +45,8 @@ Interface partiellement en français si le pack de langue est installé (certain
 
 ![](./assets/vscode-copilot-chat-default-permission-always-ask.png)
 
-!!! info "Cette section a déjà changé une fois depuis sa rédaction"
-    Il y a deux jours, cette même interface montrait des boutons **Interactif**/**Plan**/**Autopilot** et **Manual permissions**/**Allow all** séparés, plutôt que ce qui est décrit ci-dessus. C'est exactement pourquoi ce guide mène par le principe plutôt que par les noms de boutons : ils ne tiennent pas deux jours, même sur un seul poste.
+!!! danger "Consigne pour le portfolio, sur vos ordinateurs personnels"
+    Cliquez sur **Default permissions** et cherchez l'option qui demande votre accord à chaque changement, pas celle qui exécute automatiquement sans demander. Le nom exact peut varier, le comportement à choisir reste le même : rien ne s'applique sans que vous l'ayez vu passer.
 
 ## Peu importe le poste devant vous
 

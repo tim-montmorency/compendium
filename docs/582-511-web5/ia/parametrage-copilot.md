@@ -27,28 +27,28 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
 ### Suggestions inline
 
+### Fichier html, css, js (n'importe quoi excepté le markdown)
+
 !!! danger "Obligatoire : Suggestions de texte fantôme → activé"
     C'est la complétion en ligne de base, celle qu'on utilise pour générer par petits incréments. Doit rester active.
 
 ![](./assets/copilot-suggestioin-inline-active-pour-autres-types.png)
+
+#### Suggestions de prochaine modification (3e case)
+
+!!! tip "Recommandé : Suggestions de prochaine modification → activé"
+    Prédit votre prochain changement logique (pas juste la ligne suivante). Utile, faible risque, aucune raison de le désactiver.
+
+### Markdown
 
 !!! danger "Obligatoire : Suggestions de texte fantôme pour Markdown → désactivé"
     `JOURNAL.md` et `PLANIFICATION.md` sont vos mots, pas des textes à faire complèter par l'IA. Si Copilot vous souffle vos propres réflexions pendant que vous documentez votre usage de l'IA, ça vide l'exercice de son sens. Décocher cette case précisément pour protéger ça.
 
 ![](./assets/copilot-suggestioin-inline-desactiver-pour-markdown.png)
 
-!!! tip "Recommandé : Suggestions de prochaine modification → activé"
-    Prédit votre prochain changement logique (pas juste la ligne suivante). Utile, faible risque, aucune raison de le désactiver.
 
-!!! tip "Recommandé : Eagerness → Auto"
-    Contrôle à quel point Copilot propose des suggestions de façon proactive. Le réglage par défaut convient pour ce cours.
 
-### Le reste du panneau
-
-- **Codebase Semantic Index** : optionnel. Utile sur un gros projet pour que Copilot comprenne l'ensemble du code, pas nécessaire pour la taille d'un portfolio.
-- **Session Sync** : pas nécessaire pour ce cours, laisser tel quel.
-
-## 2. Sur [github.com/settings/copilot/features](https://github.com/settings/copilot/features)
+## 2. Sur [github.com /settings/ copilot/ features](https://github.com/settings/copilot/features)
 
 *Applique le principe 3.*
 
@@ -63,14 +63,10 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
 *Applique le principe 4 : un changement doit toujours être révisé avant d'être appliqué.*
 
-C'est la section la plus susceptible d'être déjà périmée quand vous la lisez, l'interface a changé trois fois dans la même journée pendant qu'on la rédigeait. Le principe reste simple : peu importe les boutons devant vous, cherchez la combinaison qui vous fait réviser chaque changement, pas celle qui agit toute seule.
+Un bouton *Default permissions* en bas et choisissez l'option *Ask when approval settings don't apply* afin que rien de ce qui est suggéré ou généré comme code soit automatiquement approuvé sans que vous ne le révisiez vous même.
 
-!!! danger "Le principe, dans les mots à retenir"
-    Trouvez l'équivalent de « étape par étape, mon accord à chaque fois ». Évitez l'équivalent de « autonome, sans demander ». Si vous ne savez pas lequel est lequel, testez sur un petit changement avant de l'utiliser sur votre projet.
+![](./assets/vscode-copilot-chat-default-permission-always-ask.png)
 
-**Comment ça se traduit dans l'interface actuelle** (sur votre poste précis, voir le détail poste de labo vs portable personnel) :
-
-Cherchez un bouton de permissions (nommé « Default permissions » sur la plupart des postes en ce moment) et une option de mode qui n'agit pas de façon autonome sur plusieurs fichiers sans vous demander. Les noms exacts varient d'un poste à l'autre et changent souvent, le détail concret par type de poste est dans le guide dédié :
 
 [:material-swap-horizontal: Ce que vous voyez selon votre poste (labo ou personnel)](modes-copilot-ancien-nouveau.md){ .md-button :target="_blank" }
 
