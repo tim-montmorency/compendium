@@ -85,8 +85,8 @@ Vous n'avez pas fait de HTML/CSS depuis un moment (Web 4 étant surtout de la ge
 
 Voici le point de départ non ambigu, la même démarche que la démo du dernier cours :
 
-1. Choisir un composant pas encore débuté
-2. Coller le frame Figma correspondant dans le chat Copilot
+1. Choisir un composant à intégrer
+2. Si vous le souhaitez, coller le frame Figma correspondant dans le chat Copilot
 3. Écrire l'intention (ce que le composant doit faire, ses états (survol, clic, focus) si applicable)
 4. Générer le HTML sémantique par petits incréments
 5. Nommer les classes CSS selon BEM (ou autre nomenclature)
