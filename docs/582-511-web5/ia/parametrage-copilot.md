@@ -67,7 +67,6 @@ Un bouton *Default permissions* en bas et choisissez l'option *Ask when approval
 
 ![](./assets/vscode-copilot-chat-default-permission-always-ask.png)
 
-
 [:material-swap-horizontal: Ce que vous voyez selon votre poste (labo ou personnel)](modes-copilot-ancien-nouveau.md){ .md-button :target="_blank" }
 
 !!! danger "Obligatoire pour le portfolio"
