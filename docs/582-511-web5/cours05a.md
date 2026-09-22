@@ -60,23 +60,26 @@ Je circule pendant l'exercice pour valider que chacun a bien vu les quatre étap
 
 ## Grand atelier de production
 
-Structure Pomodoro, comme au cours 4.2 : sprints de 25 minutes, objectif précis annoncé au début de chaque sprint, bilan de 2 minutes à la fin.
+Structure Pomodoro, comme au cours 4.2 :
 
-Choisir une cible par sprint :
+- sprints de 25 minutes, objectif précis annoncé au début de chaque sprint, bilan de 2 minutes à la fin.
+- pause 5 min
+- et on repart
+
+Choisir un objectif spécifique par sprint :
 
 - Compléter une section
+- Créer un nouveau composant (spécifier le composant)
 - Rendre une section responsive
 - Harmoniser les composants
 - Améliorer la navigation
 - Ajouter du contenu manquant
 
-Un commit par composant terminé. Trace de vos prompts dans `JOURNAL.md` au fil de l'atelier, pas à la fin.
+Un commit par composant ou section terminé. Trace de vos prompts dans `JOURNAL.md` au fil de l'atelier, pas à la fin.
 
-## Pause (15 min)
 
 ## Mini-pont JS
 
-Pas un cours complet de JavaScript, deux exemples courts pour préparer le bloc 5.2.
 
 **DOM et événements** :
 
@@ -90,7 +93,12 @@ document.querySelector('#btnTheme').addEventListener('click', () => {
 });
 ```
 
-**`fetch` minimal** : charger un `projets.json` statique et afficher une seule valeur, pas encore la boucle de rendu complète.
+---
+
+
+**`fetch` minimal** : charger un `projets.json` statique ou faire un appel API à une base de données externe. Puis afficher une seule valeur (titre) dans la console. Deux syntaxes possibles, selon celle que vous avez déjà vue :
+
+**Avec `async`/`await`**
 
 ```javascript
 async function chargerProjets() {
@@ -101,6 +109,18 @@ async function chargerProjets() {
 chargerProjets();
 ```
 
+**Avec `.then()`**
+
+```javascript
+fetch('data/projets.json')
+  .then(reponse => reponse.json())
+  .then(projets => {
+    console.log(projets[0].titre); // juste pour voir que ça fonctionne
+  });
+```
+
+Les deux font exactement la même chose. Utilisez celle avec laquelle vous êtes le plus à l'aise.
+
 La prochaine étape sera de rendre vos composants interactifs de cette façon, et d'afficher toutes les données plutôt qu'une seule.
 
 ## Bilan et engagement
@@ -110,3 +130,21 @@ Chacun remplit le formulaire avant de partir (2 minutes, individuel) :
 [:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button .md-button--primary :target="_blank" }
 
 Entrée au journal de bord avant de partir.
+
+## Devoir
+
+### Portfolio
+
+Terminer l'intégration HTML/CSS de votre portfolio d'ici vendredi (cours 5.2), afin que toute la classe puisse commencer le JavaScript et les animations sans que la structure de base soit encore à finir.
+
+Concrètement, avant vendredi :
+
+- Toutes les sections et tous les composants de votre portfolio sont codés en HTML sémantique et stylés en CSS (desktop, la passe mobile viendra plus tard).
+- Nomenclature BEM respectée, un composant à la fois, comme vu jusqu'à maintenant.
+- Commits réguliers, poussés sur votre dépôt GitHub.
+- `JOURNAL.md` à jour avec vos prompts Copilot de la semaine.
+
+!!! danger "Si vous arrivez vendredi avec du HTML/CSS inachevé"
+    Vous allez devoir rattraper cette partie en parallèle du JS et des animations, ce qui rend les deux plus difficiles à suivre. Utilisez l'atelier d'aujourd'hui et le temps autonome d'ici vendredi en conséquence.
+
+
