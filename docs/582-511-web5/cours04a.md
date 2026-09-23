@@ -48,7 +48,7 @@ Rappel (ou changement de licence) :
 
 ## Boucle IA avec Copilot : démonstration
 
-<!-- https://tim-montmorency.com/compendium/582-511-web5/ia/mm-only-demo-boucle-ia-copilot.html -->
+<!-- https://tim-montmorency.com/compendium/582-511-web5/ia/mm-only_demo-boucle-ia-copilot_v1-initiale.md -->
 
 En direct dans VS Code, sur un vrai composant (la carte de projet) : intention écrite avant de générer, complétion en ligne pour les petits incréments, puis un changement plus large à réviser avant de l'accepter, et enfin la documentation dans `JOURNAL.md`.
 
