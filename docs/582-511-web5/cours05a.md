@@ -59,7 +59,7 @@ Voici la suite :
 
 **En direct** : reprendre la carte de projet là où la démo du 4.1 s'est arrêtée. Renommer ses classes selon BEM avec Agent (réviser le diff), poser une question en Ask sur une ligne CSS, commit, puis écrire l'entrée `JOURNAL.md` correspondante devant vous.
 
-## Mini-exercice : à vous d'essayer (15 min)
+## Mini-exercice : à vous d'essayer
 
 Individuellement, sur votre propre portfolio, un petit changement qui couvre les quatre utilisations qu'on vient de voir :
 
@@ -152,8 +152,8 @@ Terminer l'intégration HTML/CSS de votre portfolio d'ici vendredi (cours 5.2), 
 
 Concrètement, avant vendredi :
 
-- Toutes les sections et tous les composants de votre portfolio sont codés en HTML sémantique et stylés en CSS (desktop, la passe mobile viendra plus tard).
-- Nomenclature BEM respectée, un composant à la fois, comme vu jusqu'à maintenant.
+- Toutes les sections et tous les composants de votre portfolio sont codés en HTML sémantique et stylés en CSS. Faite en sorte que ce soit responsive (adaptable à la largeur de l'écran) à mesure que vous générez les éléments.
+- Nomenclature BEM respectée (ou nomenclature de classe uniforme si vous n'utilsez pas BEM), un composant à la fois, comme vu jusqu'à maintenant.
 - Commits réguliers, poussés sur votre dépôt GitHub.
 - `JOURNAL.md` à jour avec vos prompts Copilot de la semaine.
 
