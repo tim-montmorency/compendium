@@ -29,14 +29,16 @@ Tour de table rapide :
 
 ## La boucle IA, la suite
 
-La démo du cours 4.1 s'est arrêtée après l'intention et la complétion en ligne (le prompt en commentaire pour la carte de projet). Voici la suite, celle qui protège réellement votre travail.
+La démo du cours 4.1 s'est arrêtée après l'*intention* et la *complétion en ligne* (le prompt en commentaire pour la carte de projet). 
+
+Voici la suite :
 
 | Étape | À utiliser |
 |---|---|
-| Un changement plus large (renommer, restructurer) | Chat, Agent, avec révision avant d'accepter |
+| Un changement global (renommer, restructurer) | Chat, Agent, avec révision avant d'accepter |
 | Comprendre quelque chose de généré | Chat, Ask |
 | Après chaque incrément | Commit, avec un message qui décrit le changement |
-| Prompts délibérés (pas les complétions) | Documentés dans `JOURNAL.md` |
+| Prompts délibérés (pas les auto-complétions) | Documentés dans `JOURNAL.md` |
 
 !!! danger "Le principe reste le même peu importe les boutons"
     Toujours réviser un changement avant de l'accepter. Jamais une action autonome sur plusieurs fichiers sans supervision.
@@ -53,7 +55,7 @@ La démo du cours 4.1 s'est arrêtée après l'intention et la complétion en li
 5. Joindre ce fichier au chat Copilot, avec votre intention en texte à côté.
 
 !!! tip "Committez ce dossier normalement"
-    Pas dans `.gitignore`. Ça garde une trace datée de ce que vous aviez sous les yeux en générant chaque composant, utile pour vous, et pour moi si jamais on en discute ensemble.
+    Ça garde une trace datée de ce que vous aviez sous les yeux en générant chaque composant, utile pour vous, et pour moi si jamais on en discute ensemble.
 
 **En direct** : reprendre la carte de projet là où la démo du 4.1 s'est arrêtée. Renommer ses classes selon BEM avec Agent (réviser le diff), poser une question en Ask sur une ligne CSS, commit, puis écrire l'entrée `JOURNAL.md` correspondante devant vous.
 
