@@ -9,11 +9,11 @@
 - [ ] Grand atelier de production (Pomodoro)
 - [ ] Mini-pont JS : DOM, événements, `fetch`
 - [ ] Bilan et engagement
-  
+
 <br>
 <br>
 
-!!! danger "Rattrapage : si vous n'avez pas eu le cours 4.2"
+!!! danger "Panne de courant vendredi AM:  si vous n'avez pas eu le cours 4.2"
     Le cours 4.2 (panne d'électricité) n'a pas eu lieu pour votre groupe. Deux choses à rattraper par vous-même avant ou pendant l'atelier d'aujourd'hui :
 
     [:material-view-grid: Interface responsive adaptable à la largeur de l'écran](cours04b.md#interface-responsive-adaptable-a-la-largeur-de-lecran){ .md-button :target="_blank" }
@@ -38,10 +38,10 @@ Voici la suite :
 
 | Étape | À utiliser |
 |---|---|
-| Un changement global (renommer, restructurer) | Chat, Agent, avec révision avant d'accepter |
-| Comprendre quelque chose de généré | Chat, Ask |
-| Après chaque incrément | Commit, avec un message qui décrit le changement |
-| Prompts délibérés (pas les auto-complétions) | Documentés dans `JOURNAL.md` |
+| Un changement global (renommer, restructurer) OU la génération d'un composant isolé | Copilot *Chat* (ou conversation intégrée) ou Copilot *Agent*, avec révision avant d'accepter |
+| Comprendre quelque chose de généré |  Copilot *Chat* (ou conversation intégrée) ou Copilot *Ask* |
+| Après chaque incrément | Commit git, avec un message qui décrit le changement |
+| Prompt documenté avec date et résultat brièvement expliqué | Documenté dans `JOURNAL.md` |
 
 !!! danger "Le principe reste le même peu importe les boutons"
     Toujours réviser un changement avant de l'accepter. Jamais une action autonome sur plusieurs fichiers sans supervision.
@@ -49,22 +49,20 @@ Voici la suite :
     [:material-swap-horizontal: Ce que vous voyez selon votre poste](ia/modes-copilot-ancien-nouveau.md){ .md-button }
     [:material-github: Paramétrage complet](ia/parametrage-copilot.md){ .md-button }
 
-[:material-sync: La boucle IA par composant, en un schéma](./ia/boucle-ia-par-composant.md){ .md-button .md-button--primary :target="_blank" }
-
-![](./ia/assets/schema_boucle_ia_par_composant_v6.svg)
-
-### Consulter votre design, et en garder une trace
+### Consulter votre design et en garder une trace
 
 1. Dans Figma, activer le **Dev Mode** (icône `</>` en haut à droite).
 2. Sélectionner le calque du composant (ex. une carte de projet), pas la page complète.
-3. **Export → PNG**, à 1x (pas besoin de plus, ce n'est pas un asset final).
-4. Enregistrer dans `exports-composants/`, nommé comme le composant (ex. `carte-projet.png`).
+3. **Export → PNG** à 1x.
+4. Enregistrer dans `exports-composants/`, nommé comme le composant lui même (ex. `carte-projet.png` ou `project-card`).
 5. Joindre ce fichier au chat Copilot, avec votre intention en texte à côté.
 
 !!! tip "Committez ce dossier normalement"
     Ça garde une trace datée de ce que vous aviez sous les yeux en générant chaque composant, utile pour vous, et pour moi si jamais on en discute ensemble.
 
-**En direct** : reprendre la carte de projet là où la démo du 4.1 s'est arrêtée. Renommer ses classes selon BEM avec Agent (réviser le diff), poser une question en Ask sur une ligne CSS, commit, puis écrire l'entrée `JOURNAL.md` correspondante devant vous.
+<!--
+**Démo en direct** : reprendre la carte de projet là où la démo du 4.1 s'est arrêtée. Renommer ses classes selon BEM avec Agent (réviser le diff), poser une question en Ask sur une ligne CSS, commit, puis écrire l'entrée `JOURNAL.md` correspondante devant vous.
+-->
 
 ## Mini-exercice : à vous d'essayer
 
@@ -72,7 +70,7 @@ Individuellement, sur votre propre portfolio, un petit changement qui couvre les
 
 1. Choisir une petite modification sur un composant déjà commencé (renommer une classe, ajuster une propriété, corriger un détail).
 2. La demander via **Agent**, réviser le diff avant d'accepter.
-3. Poser une question en **Ask** sur une ligne du résultat que vous ne comprenez pas encore.
+3. Poser une question en **Ask** sur une ligne du résultat que vous ne comprenez pas encore très bien.
 4. **Commit**.
 5. Écrire l'entrée **`JOURNAL.md`** correspondante.
 
@@ -101,7 +99,7 @@ Un commit par composant ou section terminé. Trace de vos prompts dans `JOURNAL.
 ## Mini-pont JS
 
 
-**DOM et événements** :
+### DOM et événements
 
 ```html
 <button id="btnTheme">Changer le thème</button>
@@ -113,7 +111,12 @@ document.querySelector('#btnTheme').addEventListener('click', () => {
 });
 ```
 
+
+
 ---
+
+### `fetch` des données externes
+
 
 
 **`fetch` minimal** : charger un `projets.json` statique ou faire un appel API à une base de données externe. Puis afficher une seule valeur (titre) dans la console. Deux syntaxes possibles, selon celle que vous avez déjà vue :
@@ -139,23 +142,25 @@ fetch('data/projets.json')
   });
 ```
 
-Les deux font exactement la même chose. Utilisez celle avec laquelle vous êtes le plus à l'aise.
+Les deux tecniques (`async`/`await` ou `then()`) font exactement la même chose. Utilisez celle avec laquelle vous êtes le plus à l'aise.
 
-La prochaine étape sera de rendre vos composants interactifs de cette façon, et d'afficher toutes les données plutôt qu'une seule.
+La prochaine étape sera de rendre vos composants interactifs de cette façon, et d'afficher tous les projets plutôt qu'un seule.
+
+Nous en parlerons plus en détails ce vendredi.
 
 ## Bilan et engagement
 
 Chacun remplit le formulaire avant de partir (2 minutes, individuel) :
 
-[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button .md-button--primary :target="_blank" }
+[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button :target="_blank" }
 
 Entrée au journal de bord avant de partir.
 
-## Devoir
+## Travail en classe et devoir
 
 ### Portfolio
 
-Terminer l'intégration HTML/CSS de votre portfolio d'ici vendredi (cours 5.2), afin que toute la classe puisse commencer le JavaScript et les animations sans que la structure de base soit encore à finir.
+Terminer l'intégration HTML/CSS de votre portfolio d'ici vendredi 25 septembre (cours 5.2), afin que toute la classe puisse commencer le JavaScript et les animations sans que la structure de base soit encore à finir.
 
 Concrètement, avant vendredi :
 
