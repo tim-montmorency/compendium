@@ -46,7 +46,7 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 
     **Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD remis avant la S5, validé individuellement puis verrouillé à la S5.
 
-    L'énoncé complet — socle d'exigences, 12 étapes séance par séance, backlog de départ — est dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
+    L'énoncé complet — socle d'exigences, 12 étapes séance par séance, backlog de départ — est dans [Travail final — Le jeu de session](./devoirs/projet-final/index.md).
 
 ---
 
@@ -77,7 +77,7 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 :material-check-decagram: évaluation sommative &nbsp;·&nbsp; :material-comment-check: jalon formatif avec rencontre individuelle
 
 !!! note "Les semaines sans jalon ne sont pas des semaines sans travail"
-    Seules les séances portant un jalon exigent un état précis du jeu **ce jour-là**. Entre les deux, l'élève avance selon les étapes de son [énoncé de projet](./devoirs/projet-final.md) - et chaque séance s'ouvre sur un repère « où tu devrais être rendu », qui indique la direction sans créer d'échéance.
+    Seules les séances portant un jalon exigent un état précis du jeu **ce jour-là**. Entre les deux, l'élève avance selon les étapes de son [énoncé de projet](./devoirs/projet-final/index.md) - et chaque séance s'ouvre sur un repère « où tu devrais être rendu », qui indique la direction sans créer d'échéance.
 
 
 ### Contenu détaillé, séance par séance
@@ -215,7 +215,7 @@ Quatre notes seulement, et **quatre jalons de rétroaction individuelle** entre 
 | 1 | **[Le devoir 01](./devoirs/get-started-with-unity.md)** — *Get Started With Unity* | vérifié au début de la S2 | **2 %** |
 | 2 | **[Le jeu express](./devoirs/protolude/index.md)** — acquis Unity | déposé la veille de la S4 | **13 %** |
 | 3 | **[Le GDD de ton jeu de session](./devoirs/gdd-jeu.md)** | remis avant la S5 | **5 %** |
-| 4 | **[Le projet final](./devoirs/projet-final.md)** — jeu complet publié + oral | S15 | **80 %** |
+| 4 | **[Le projet final](./devoirs/projet-final/index.md)** — jeu complet publié + oral | S15 | **80 %** |
 | | | **Total** | **100 %** |
 
 Les trois premières arrivent tôt et sont légères : **20 % de la note est acquise avant la S15**. Elles mesurent trois choses différentes — un pipeline technique parcouru au complet, les gestes Unity de l'objectif 1 en situation, et un scope verrouillé par écrit.

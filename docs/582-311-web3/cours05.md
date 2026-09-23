@@ -2,30 +2,23 @@
 
 [STOP]
 
-git ligne de commande
+<!-- git ligne de commande
 git vscode
 
 Codeberg
 Bitbucket
 Console dans vscode
 
-
-
-| Mise en ligne : GitHub Pages & cPanel
+| Mise en ligne : GitHub Pages & cPanel -->
 
 <!-- **Savoirs :** #4 Compatibilité navigateurs · #12 Validation (via le build/déploiement) -->
 
 <!-- Plan : distinction code source vs build (dist/) · GitHub Pages (CI/CD) · cPanel (hébergement réel) · comparaison -->
+<!-- ![](./assets/images/webserver.gif){.aspect-16-9 .w-100} -->
 
 *[CDN]: Content Delivery Network
 *[FTP]: File Transfer Protocol
 *[CI/CD]: Continuous Integration / Continuous Deployment
-
-![](./assets/images/webserver.gif){.aspect-16-9 .w-100}
-
-Vous avez un beau projet **Digger** qui roule sur `localhost`… mais personne d'autre que vous ne peut le voir 😅. Aujourd'hui, on le met **en ligne**, pour de vrai.
-
-On va découvrir **deux façons** de publier un site _buildé_ avec Vite&nbsp;: **GitHub Pages** (gratuit et automatisé) et **cPanel** (un vrai serveur, avec nom de domaine et courriels). Même livrable, deux transports.
 
 ## Serveur, domaine et hébergement
 
@@ -33,34 +26,42 @@ Le concept de serveur, de domaine et d'hébergement se traduit bien par l'analog
 
 ![](./assets/images/DomainHostingVsWebHosting.jpg){data-zoom-image}
 
-## On déploie le *build*, pas le code source
-
-Depuis qu'on utilise **Vite**, votre projet a deux visages :
-
-- Le **code source** (`index.html`, vos fichiers CSS/JS, `node_modules`, `vite.config.js`…) : c'est ce sur quoi vous travaillez.
-- Le **build** : le dossier `dist/` généré par la commande `npm run build`. C'est une version optimisée, minifiée, prête pour le Web.
-
-!!! danger "La règle d'or"
-
-    On **ne met jamais le code source en ligne**. On met en ligne le **`dist/`**.
-
-Ce qui change d'une méthode à l'autre, c'est seulement **le moyen de transport** du `dist/` vers le serveur. On va en voir deux :
-
-<div class="grid grid-1-2" markdown>
-
-**:material-github: Partie 1 - GitHub Pages**<br>
-Le build et la publication sont **automatisés** par GitHub. Gratuit, idéal pour le développement.
-
-**:material-server: Partie 2 - cPanel**<br>
-On téléverse le build **manuellement** sur un vrai serveur. Contrôle total, courriels et nom de domaine réels.
-
-</div>
-
-## Partie 1 - GitHub Pages
+## GitHub Pages
 
 ![](./assets/images/github-banner.webp){.w-100}
 
-GitHub Pages transforme un dépôt Git en site Web gratuit. Comme Vite exige une étape de *build*, on demande à **GitHub Actions** de le faire pour nous à chaque `git push`.
+[GitHub Pages](https://docs.github.com/fr/pages) transforme gratuitement un dépôt Git en site Web. 
+
+### Méthode rapide
+
+La façon la plus simple de le faire est avec un `index.html` à la racine du repo.
+
+- Créer un nouveau repository **public** sur GitHub.
+- Créer un `index.html` avec une structure de base et du contenu dans le `<body>`
+- Clic sur Settings > Pages
+- Source = Deploy from a branch
+- Branch = main, clic Save
+- Attendre le déploiment (quelques minutes)
+
+L'adresse de votre site est normalement construite ainsi : 
+
+```
+https://ton-username.github.io/nom-du-repo/
+```
+
+#### Déployer manuellement un build vite
+
+Après avoir exécuté `npx vite build`, un dossier `/dist` est créé avec le code à déployer à l'intérieur.
+
+Il suffit alors de mettre le contenu du dossier dist sur GitHub pour que GitHub Pages l'affiche.
+
+### Méthode automatisée
+
+
+
+Comme Vite exige une étape de *build*, on peut demander à **GitHub Actions** de le faire pour nous à chaque `git push`.
+
+
 
 ### :material-numeric-1-box: Configurer le `base` dans `vite.config.js`
 
@@ -97,7 +98,7 @@ Créez le fichier `.github/workflows/deploy.yml`. Ce fichier dit à GitHub : « 
 ```yaml title=".github/workflows/deploy.yml"
 name: Deploy static content to Pages
 
-on:
+on:```
   push:
     branches: ['main']
   workflow_dispatch:
@@ -170,86 +171,22 @@ Il existe plusieurs autres outils de gestion de serveur comme Plesk, DirectAdmin
 
 La connexion se fait à l'adresse suivante : **https://SOUSDOMAINE.tim-momo.com:2083**
 
-Remplacez `SOUSDOMAINE` par les 9 caractères de votre numéro de DA.
+Remplacez `SOUSDOMAINE` par votre nom de famille
 
-!!! example "Exemple"
-
-    https://202912345.tim-momo.com:2083
+!!! example "Exemple : https://tremblay-rivard.tim-momo.com:2083"
 
 #### Nom d'utilisateur
 
-Vous trouverez votre nom d'utilisateur dans une des listes ci-dessous.
+Le nom d'utilisateur est votre prénom sur colnet, en minuscule, sans accents. 
 
-<div class="grid align-items-start" markdown>
+- Si vous avez plusieurs prénoms, ce sera simplement le premier. (ex: pour Charlie Charlotte, le username est charlie)
+- Si c'est un prénom composé, le trait n'est pas conservé. (ex: pour Pier-Olivier, le username est pierolivier)
 
-| AM |
-| ----------------- |
-| ounissiassil |
-| keosombathtommy |
-| siroistanguaycdr |
-| chahedchaima |
-| fosubradley[^exception]|
-| benfradjadam |
-| raymondjanviervi |
-| canomendozacrist |
-| gagnsabrina |
-| jeanjacqueskathl |
-| rousselthomas |
-| cortesluca |
-| richardnurlika |
-| vicsaimark |
-| onkoyasmine |
-| ferdinandjayden |
-| mullerfranoissar |
-| briandwilliam |
-| guilbaultalexis |
-| driesenseanlarry |
-| benmaizrada |
-| richardtyler |
-| veilleuxamlie |
-| elfantroussiyass |
-| bonneaulucas |
-
-| PM |
-| ----------------- |
-| cheourwalid |
-| pereiracalderonp |
-| lalibertolivier |
-| canizalezefram |
-| simonnathan |
-| rodriguezfontain |
-| tighzanourelisle |
-| crevierjonathan |
-| gevorgyanmariam |
-| chheralexia |
-| cruznicolas |
-| lvesqueflix |
-| plantesalmeronal |
-| thortjessica |
-| sadkimohamedali |
-| sousaluizfelippe |
-| ataimeena |
-| frchettemathieu |
-| lysenkoiryna |
-| guerrierjonesthe |
-| warrenzackary |
-| vaillancourtrosa |
-| labbharleymarlon |
-| thriaultjrmy |
-| vitalstanleyoliv |
-| barydiouma |
-
-</div>
-
-[^exception]: Votre mot de passe contient un "1" avant votre numéro de téléphone
+- Pour les Alexandre, ajoutez les initiales de votre nom de famille (ex: pour Alexandre Tremblay-Rivard, le username est alexandretr)
 
 #### Mot de passe
 
-Votre mot de passe est votre **numéro de téléphone** sur Colnet : sans tiret ni espace.
-
-!!! example "Exemple"
-
-    5145551234
+Votre mot de passe est votre **DA** à 9 chiffres. (ex: 202012345)
 
 ### Tableau de bord
 
@@ -425,7 +362,7 @@ Les deux méthodes publient le même `dist/` ; elles diffèrent par le *transpor
     - [ ] `npm run build` en local (génère `dist/`)
     - [ ] Se connecter au cPanel (`https://SOUSDOMAINE.tim-momo.com:2083`)
     - [ ] Téléverser le **contenu de `dist/`** dans `public_html/` (ou un sous-dossier de projet)
-    - [ ] Ouvrir l'URL de votre serveur pour valider
+    - [ ] Ouvrir l'URL de v```otre serveur pour valider
 
 !!! danger "L'erreur numéro 1"
 

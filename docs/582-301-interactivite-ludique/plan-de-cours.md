@@ -33,7 +33,7 @@ Liberté totale sur le thème et l'univers; obligations techniques identiques po
 
 **Contraintes dures :** 1 mécanique principale, 1 niveau en 3 zones, assets Synty seulement (+ médias libres cités). Durée de jeu : **3 minutes minimum, 10 maximum**. GDD remis avant la séance 5, validé individuellement puis verrouillé à la séance 5.
 
-L'énoncé complet, ses 33 exigences et ses 12 étapes sont dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
+L'énoncé complet, ses 33 exigences et ses 12 étapes sont dans [Travail final — Le jeu de session](./devoirs/projet-final/index.md).
 
 ### Rituels
 
@@ -99,7 +99,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 :material-check-decagram: évaluation sommative &nbsp;·&nbsp; :material-comment-check: jalon formatif avec rencontre individuelle
 
 !!! note "Les semaines sans jalon ne sont pas des semaines sans travail"
-    Seules les séances portant un jalon exigent un état précis du jeu **ce jour-là**. Entre les deux, l'élève avance selon les étapes de son [énoncé de projet](./devoirs/projet-final.md) - et chaque séance s'ouvre sur un repère « où tu devrais être rendu », qui indique la direction sans créer d'échéance.
+    Seules les séances portant un jalon exigent un état précis du jeu **ce jour-là**. Entre les deux, l'élève avance selon les étapes de son [énoncé de projet](./devoirs/projet-final/index.md) - et chaque séance s'ouvre sur un repère « où tu devrais être rendu », qui indique la direction sans créer d'échéance.
 
 
 ---
@@ -450,7 +450,7 @@ L'élève peut **négocier** une tâche au moment de la rencontre; ce qui est re
 
 ### Grille du projet final (80 %)
 
-Détail complet des exigences dans [Travail final — Le jeu de session](./devoirs/projet-final.md).
+Détail complet des exigences dans [Travail final — Le jeu de session](./devoirs/projet-final/index.md).
 
 | Critère | Ce qu'on regarde | Pondération |
 |---------|------------------|-------------|
