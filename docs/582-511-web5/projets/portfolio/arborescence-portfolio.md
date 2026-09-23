@@ -28,6 +28,8 @@ portfolio-prenom-nom/
 ├── assets/
 │   ├── images/
 │   └── icones/
+├── exports-composants/
+│   └── (captures PNG Figma, une par composant, nommées comme le fichier CSS correspondant)
 ├── .github/
 │   └── copilot-instructions.md
 ├── documentation/
@@ -65,6 +67,7 @@ Une variable déclarée dans `:root` à l'intérieur de `variables.css` devient 
 | `js/composants/` | Un fichier par composant qui a besoin de logique JS (ex. ouvrir une modale). |
 | `data/projets.json` | Vos données de projets, seulement si vous avez choisi l'option JSON local. |
 | `assets/` | Images, icônes, tout média utilisé dans le site. |
+| `exports-composants/` | Une capture PNG par composant, exportée depuis Figma Dev Mode, nommée comme le fichier CSS correspondant (ex. `carte-projet.png`). Sert de référence à joindre au chat Copilot, et garde une trace de ce que vous aviez sous les yeux en générant le code. |
 | `.github/copilot-instructions.md` | Vos conventions de projet pour Copilot (voir le guide de paramétrage). |
 | `README.md`, `documentation/PLANIFICATION.md`, `documentation/JOURNAL.md` | Déjà en place depuis le lancement du projet. Déplacer dans un dossier `documentation/` `JOURNAL.md` et `PLANIFICATION.md`. |
 

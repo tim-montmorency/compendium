@@ -1,43 +1,66 @@
 # Démo : la boucle IA, la suite (cours 5.1)
 
-Notes d'animation, pas une page à publier. Reprend la même carte de projet que la démo du 4.1, mais cette fois avec votre vrai design Figma plutôt qu'un exemple générique, plus convaincant en démo live.
+Notes de présentation pour MM, pas une page à publier. 
 
-**Composant choisi** : une carte de la grille de projets (ex. BIOME), colonne image + numéro superposé, puis titre, catégorie/année, tags de compétences.
+Reprend la même carte de projet que la démo du 4.1, mais cette fois avec votre vrai design Figma plutôt qu'un exemple générique, plus convaincant en démo live.
 
-**Ce qui a déjà été vu au 4.1** : intention + complétion en ligne pour une carte générique. Aujourd'hui on recommence avec le vrai design, mais on passe vite sur ces deux étapes pour investir le temps dans ce qui n'a jamais été montré : Agent + révision, Ask, commit, journal.
+- [Figma (lien non public)](https://www.figma.com/design/cN0GIjIo046GJYgrdcUMqr/demo-portfolio-utilis%C3%A9-pour-demo-en-classe-avec-le-repo-demo-portfolio?node-id=1-908&m=dev)
+- [Repo demo-portfolio: (lien privé)](https://github.com/marie-michelle-ouellet/demo-portfolio)
 
-## 0. Ouvrir le composant dans VS Code, pas dans le navigateur (2 min)
+---
 
-Nouveau depuis la dernière version de ce guide : utiliser l'extension **Figma for VS Code** pour rester dans un seul environnement.
+**Composant choisi** : Une carte de la grille de projets (ex. BIOME): Flexbox en colonne: 
 
-**Dans Figma, le navigateur, là où vous dessinez habituellement** (pas encore dans VS Code) :
+- numéro de projet (commençant par 01)
+- image du projet (vignette), 
+- titre, 
+- catégorie (à gauche) et année (à droite), 
+- tags de compétences (logiciels).
 
-![](./assets/devmode-composant-figma-vers-vscode.png)
+**Ce qui a déjà été vu au 4.1** : intention + complétion en ligne pour une carte générique. 
 
-1. Activer le **Dev Mode** : bouton `</>` en haut à droite de l'écran, à côté de Share/Present.
-2. Cliquer sur la carte BIOME (dans le canvas ou dans le panneau des calques à gauche), pas sur la page complète.
-3. Un panneau **Inspect** apparaît automatiquement à droite de l'écran, c'est ça le panneau du Dev Mode. Le nom du calque sélectionné est affiché en haut de ce panneau.
-4. À côté de ce nom, cliquer sur **Options** (petit menu ···) → **Open in VS Code**.
+Aujourd'hui on recommence avec le vrai design, mais on passe vite sur ces deux étapes:
 
-**Ça bascule (ou fait basculer) vers VS Code** :
+- intention + complétion en ligne
 
-5. Si ce n'est pas déjà ouvert : cliquer sur l'icône **Figma** dans la barre d'activité à gauche de VS Code.
-6. Le composant sélectionné à l'étape 2 apparaît directement là, avec un onglet **Code** (les valeurs réelles : couleurs, espacement, typographie) et un onglet **Component** (ses propriétés).
+pour investir le temps dans ce qui n'a jamais été montré : 
 
-!!! danger "Ne pas activer le serveur MCP pour cette démo"
-    Certains guides en ligne présentent cette extension et le serveur MCP comme une seule suite d'étapes. On s'arrête ici, avant « Enable MCP server ». Testé plus tôt aujourd'hui : donner à Copilot un accès MCP à la structure complète du fichier lui fait générer le site au complet sans qu'on le lui demande, l'inverse de l'objectif de cette démo. Le panneau d'inspection seul, sans le serveur MCP, ne donne accès qu'à ce que vous consultez vous-même, un composant à la fois.
+- Agent + révision, 
+- Ask, 
+- commit, 
+- journal.
+
+## 0. Exporter le composant en PNG, pas Figma for VS Code (2 min)
+
+Testé entre les deux versions de ce guide : Figma for VS Code sans le serveur MCP ne donne rien de plus qu'un aller-retour manuel, Copilot ne voit jamais le panneau, il faut quand même lui fournir une image ou du texte. Abandonné, remplacé par ceci :
+
+1. Dans Figma, activer le **Dev Mode** (icône `</>` en haut à droite).
+2. Sélectionner le calque de la carte BIOME, pas la page complète.
+3. **Export → PNG**, à 1x.
+4. Enregistrer dans `exports-composants/carte-projet.png` (nommé comme le fichier CSS à venir, pas « Frame 1 »).
+5. Glisser ce fichier dans le chat Copilot, avec l'intention en texte à côté.
+
+```html
+<!-- 
+  Carte de projet tel que sélectionnée dans Figma. Cette carte contient (en ordre) :
+  - numéro de projet (commençant par 01)
+  - image du projet (vignette), 
+  - titre, 
+  - catégorie (à gauche) et année (à droite), 
+  - tags de compétences (logiciels). 
+  -->
+```
+
+!!! tip "Mentionner en classe : ce dossier reste dans le dépôt"
+    Pas dans `.gitignore`. Ça donne une trace datée de ce qu'ils avaient sous les yeux en générant chaque composant, utile pour eux, et repérable dans l'historique Git si jamais un suivi individuel en a besoin.
 
 ## 1. Intention (recap rapide, 2 min)
 
-Avec la carte BIOME ouverte dans le panneau Figma de VS Code, dire à voix haute, puis écrire en commentaire :
-
-```html
-<!-- Carte de projet : image avec numéro superposé, titre, catégorie + année, tags de compétences -->
-```
+L'intention est déjà écrite à l'étape 0, avec l'image jointe. Le recap ici, c'est de le dire à voix haute devant la classe : l'intention et l'image partent toujours ensemble dans le même message.
 
 ## 2. Générer le HTML (recap rapide, 3 min)
 
-Copier les valeurs pertinentes depuis l'onglet **Code** du panneau Figma (pas besoin de basculer vers le navigateur), les coller dans le chat Copilot avec l'intention. Accepter la suggestion en complétion en ligne, sans s'attarder, ce point a déjà été démontré au 4.1.
+Accepter la suggestion en complétion en ligne, sans s'attarder, ce point a déjà été démontré au 4.1.
 
 ```html
 <article class="carte-projet">

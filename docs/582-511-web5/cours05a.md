@@ -29,14 +29,6 @@ Tour de table rapide :
 
 ## La boucle IA, la suite
 
-<!-- 
-
-Cours 4.1 (mais finalement jamais complété) https://tim-montmorency.com/compendium/582-511-web5/ia/mm-only_demo-boucle-ia-copilot_v1-initiale.md 
-
-Cours 5.1 (aujourd'hui) https://tim-montmorency.com/compendium/582-511-web5/ia/mm-only_demo-boucle-ia-copilot_v2-reprise.md 
-
--->
-
 La démo du cours 4.1 s'est arrêtée après l'intention et la complétion en ligne (le prompt en commentaire pour la carte de projet). Voici la suite, celle qui protège réellement votre travail.
 
 | Étape | À utiliser |
@@ -51,6 +43,17 @@ La démo du cours 4.1 s'est arrêtée après l'intention et la complétion en li
 
     [:material-swap-horizontal: Ce que vous voyez selon votre poste](ia/modes-copilot-ancien-nouveau.md){ .md-button }
     [:material-github: Paramétrage complet](ia/parametrage-copilot.md){ .md-button }
+
+### Consulter votre design, et en garder une trace
+
+1. Dans Figma, activer le **Dev Mode** (icône `</>` en haut à droite).
+2. Sélectionner le calque du composant (ex. une carte de projet), pas la page complète.
+3. **Export → PNG**, à 1x (pas besoin de plus, ce n'est pas un asset final).
+4. Enregistrer dans `exports-composants/`, nommé comme le composant (ex. `carte-projet.png`).
+5. Joindre ce fichier au chat Copilot, avec votre intention en texte à côté.
+
+!!! tip "Committez ce dossier normalement"
+    Pas dans `.gitignore`. Ça garde une trace datée de ce que vous aviez sous les yeux en générant chaque composant, utile pour vous, et pour moi si jamais on en discute ensemble.
 
 **En direct** : reprendre la carte de projet là où la démo du 4.1 s'est arrêtée. Renommer ses classes selon BEM avec Agent (réviser le diff), poser une question en Ask sur une ligne CSS, commit, puis écrire l'entrée `JOURNAL.md` correspondante devant vous.
 
