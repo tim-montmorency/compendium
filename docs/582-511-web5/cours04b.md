@@ -21,8 +21,7 @@
 
 [:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button .md-button--primary :target="_blank" }
 
-- variables CSS
-- @import des variables dans les autres fichiers.
+- Variables CSS (lier le fichier variables.css AVANT tous les autres dans les `<head>` de vos fichiers HTML.)
 
 ## Interface "responsive": adaptable à la largeur de l'écran
 
