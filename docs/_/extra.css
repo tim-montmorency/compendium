@@ -960,10 +960,24 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 }
 
 /* ------------------------------------------------------------------------ */
+/* Web 3                                                                    */
+/* ------------------------------------------------------------------------ */
+
+.ancestor-web-3 {
+
+  font-family: "Poppins", sans-serif;
+
+  .md-header--shadow{
+    box-shadow: 0 0 0 0 transparent;
+  }
+
+}
+
+/* ------------------------------------------------------------------------ */
 /* Interactivité ludique                                                    */
 /* ------------------------------------------------------------------------ */
 
-.ancestor-interactivite-ludique{
+.ancestor-interactivite-ludique {
 
   font-family: "Poppins", sans-serif;
 

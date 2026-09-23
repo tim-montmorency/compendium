@@ -211,7 +211,6 @@ npm install lucide-static
 ```
 
 ```css title="style.css"
-@import "tailwindcss";
 @import "lucide-static/font/lucide.css";
 ```
 
