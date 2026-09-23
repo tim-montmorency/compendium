@@ -10,7 +10,10 @@
 - [ ] Mini-pont JS : DOM, événements, `fetch`
 - [ ] Bilan et engagement
 
-!!! danger "Rattrapage : si vous n'avez pas eu le cours 4.2"
+<br>
+<br>
+
+!!! danger "Panne de courant vendredi AM:  si vous n'avez pas eu le cours 4.2"
     Le cours 4.2 (panne d'électricité) n'a pas eu lieu pour votre groupe. Deux choses à rattraper par vous-même avant ou pendant l'atelier d'aujourd'hui :
 
     [:material-view-grid: Interface responsive adaptable à la largeur de l'écran](cours04b.md#interface-responsive-adaptable-a-la-largeur-de-lecran){ .md-button :target="_blank" }
@@ -149,7 +152,7 @@ Nous en parlerons plus en détails ce vendredi.
 
 Chacun remplit le formulaire avant de partir (2 minutes, individuel) :
 
-[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button .md-button--primary :target="_blank" }
+[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button :target="_blank" }
 
 Entrée au journal de bord avant de partir.
 
