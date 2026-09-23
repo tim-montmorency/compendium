@@ -1,8 +1,6 @@
 # Démo : la boucle IA, la suite (cours 5.1)
 
-Notes pour moi même, pas une page à publier. 
-
-Reprend la même carte de projet que la démo du 4.1 (git demo-portfolio), mais cette fois avec votre vrai design Figma plutôt qu'un exemple générique, plus convaincant en démo live.
+Notes d'animation, pas une page à publier. Reprend la même carte de projet que la démo du 4.1, mais cette fois avec votre vrai design Figma plutôt qu'un exemple générique, plus convaincant en démo live.
 
 **Composant choisi** : une carte de la grille de projets (ex. BIOME), colonne image + numéro superposé, puis titre, catégorie/année, tags de compétences.
 
@@ -12,8 +10,19 @@ Reprend la même carte de projet que la démo du 4.1 (git demo-portfolio), mais 
 
 Nouveau depuis la dernière version de ce guide : utiliser l'extension **Figma for VS Code** pour rester dans un seul environnement.
 
-1. Dans Figma (navigateur), sélectionner la carte BIOME seulement, pas la page complète. Dans le panneau Inspect, cliquer **Options** à côté du nom du calque → **Open in VS Code**.
-2. Dans VS Code, l'icône Figma dans la barre d'activité montre le composant sélectionné. Onglet **Code** : les valeurs réelles (couleurs, espacement, typographie). Onglet **Component** : ses propriétés.
+**Dans Figma, le navigateur, là où vous dessinez habituellement** (pas encore dans VS Code) :
+
+![](./assets/devmode-composant-figma-vers-vscode.png)
+
+1. Activer le **Dev Mode** : bouton `</>` en haut à droite de l'écran, à côté de Share/Present.
+2. Cliquer sur la carte BIOME (dans le canvas ou dans le panneau des calques à gauche), pas sur la page complète.
+3. Un panneau **Inspect** apparaît automatiquement à droite de l'écran, c'est ça le panneau du Dev Mode. Le nom du calque sélectionné est affiché en haut de ce panneau.
+4. À côté de ce nom, cliquer sur **Options** (petit menu ···) → **Open in VS Code**.
+
+**Ça bascule (ou fait basculer) vers VS Code** :
+
+5. Si ce n'est pas déjà ouvert : cliquer sur l'icône **Figma** dans la barre d'activité à gauche de VS Code.
+6. Le composant sélectionné à l'étape 2 apparaît directement là, avec un onglet **Code** (les valeurs réelles : couleurs, espacement, typographie) et un onglet **Component** (ses propriétés).
 
 !!! danger "Ne pas activer le serveur MCP pour cette démo"
     Certains guides en ligne présentent cette extension et le serveur MCP comme une seule suite d'étapes. On s'arrête ici, avant « Enable MCP server ». Testé plus tôt aujourd'hui : donner à Copilot un accès MCP à la structure complète du fichier lui fait générer le site au complet sans qu'on le lui demande, l'inverse de l'objectif de cette démo. Le panneau d'inspection seul, sans le serveur MCP, ne donne accès qu'à ce que vous consultez vous-même, un composant à la fois.

@@ -52,7 +52,7 @@ Cliquer sur l'icône **Copilot** en bas à droite de VS Code pour ouvrir ce pann
 
 *Applique le principe 3.*
 
-![Suggestions matching public code](../assets/github-copilot-suggestions-matching-public-code.png)
+![Suggestions matching public code](./assets/github-copilot-suggestions-matching-public-code.png)
 
 !!! danger "Obligatoire : Suggestions matching public code → Block"
     Ce réglage compare vos suggestions à environ 150 caractères de code public sur GitHub. Si un match est trouvé, la suggestion n'est simplement pas montrée. Ça évite de vous retrouver, sans le savoir, avec du code copié d'un dépôt sous licence dans votre portfolio. Question d'intégrité, pas juste de style.
